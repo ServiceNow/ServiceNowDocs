@@ -3,11 +3,11 @@ title: Stream Connect roles
 description: Assign roles to specify what different users can see and do.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/stream-connect-apache-kafka-roles.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Integration Hub, Workflow Data Fabric]
 ---
@@ -18,7 +18,7 @@ Assign roles to specify what different users can see and do.
 
 ## Roles
 
-For more information about managing and assigning roles, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ua-creating-roles.md).
+For more information about managing and assigning roles, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ua-creating-roles.md).
 
 <table id="table_u4x_zmk_qhc"><thead><tr><th>
 
@@ -132,5 +132,5 @@ Role with read-only access to Stream Connect configuration and runtime statistic
 -   stream\_connect\_alert\_viewer
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Integration Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integration-hub-reference.md)
+</table>**Parent Topic:**[Integration Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/integration-hub-reference.md)
 

@@ -3,11 +3,11 @@ title: Lightweight Directory Access Protocol integration
 description: An LDAP integration allows your instance to use your existing LDAP server as the primary source of user data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/c\_LDAPIntegration.html
-release: australia
+release: brazil
 product: LDAP integration
 classification: ldap-integration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Authentication, Access Management]
 ---
@@ -22,7 +22,7 @@ The integration uses the LDAP service account credentials to retrieve the user d
 
 The integration uses a read-only connection that never writes to the LDAP directory. The integration only queries for information, and then updates its internal database accordingly.
 
-**Note:** For detailed information about setting up the integration, see [LDAP integration setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ldap-integration/c_LDAPIntegrationSetup.md).
+**Note:** For detailed information about setting up the integration, see [LDAP integration setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/ldap-integration/c_LDAPIntegrationSetup.md).
 
 **Note:** If your instance is using an LDAP integration and the Active Directory settings require users to reset their password upon login, your users will not be able to log in the instance. The instance cannot change any user's active directory password.
 
@@ -42,7 +42,7 @@ LDAP integration features include the following.
 
     After an LDAP integration is established, the instance can allow new users to log in to the system even if they do not yet have an account on the instance. When a new user attempts to log in to the instance, the integration checks to see if this user has an account in the instance. If the integration does not find an existing user account, it automatically queries the LDAP server for the username that was entered. If a matching LDAP account is found, the integration tries to authenticate with the password the user entered. If the password is valid, the instance creates an account for the user, populates the account with all applicable LDAP information, and logs the user in to the instance.
 
-    On-demand login uses the LDAP User Import transform map. For more information on transform map requirements, see [LDAP transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ldap-integration/c_LDAPTransformMaps.md).
+    On-demand login uses the LDAP User Import transform map. For more information on transform map requirements, see [LDAP transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/ldap-integration/c_LDAPTransformMaps.md).
 
 -   **LDAP data population**
 
@@ -50,7 +50,7 @@ LDAP integration features include the following.
 
     An integration to the LDAP servers allows you to quickly and easily populate the instance's database with user records from the existing LDAP database. To prevent data inconsistencies, you can create, ignore, or skip incoming LDAP records.
 
-    You can also limit the data the integration imports by specifying LDAP attributes, thereby importing only the data that you want to expose to an instance. Typically, the LDAP attributes you specify become part of the integration [transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ldap-integration/c_LDAPTransformMaps.md). If you do not specify any LDAP attributes, the integration imports all available object attributes from the LDAP server. The instance stores imported LDAP data in temporary import set tables, so the more attributes you import, the longer the import time. For more information, see [Specify the LDAP attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ldap-integration/t_SpecifyLDAPAttributes.md).
+    You can also limit the data the integration imports by specifying LDAP attributes, thereby importing only the data that you want to expose to an instance. Typically, the LDAP attributes you specify become part of the integration [transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/ldap-integration/c_LDAPTransformMaps.md). If you do not specify any LDAP attributes, the integration imports all available object attributes from the LDAP server. The instance stores imported LDAP data in temporary import set tables, so the more attributes you import, the longer the import time. For more information, see [Specify the LDAP attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/ldap-integration/t_SpecifyLDAPAttributes.md).
 
 -   **LDAP authentication**
 

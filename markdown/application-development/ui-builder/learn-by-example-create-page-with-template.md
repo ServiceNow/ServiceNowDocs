@@ -3,11 +3,11 @@ title: Create a record page using a template
 description: After you've created your demo experience, you can create a record page from a template. A record page shows data from a table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/learn-by-example-create-page-with-template.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Learn UI Builder by example, Learning UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -71,10 +71,10 @@ Role required: ui\_builder\_admin
 
 Select the **Next topic** link to learn how to define audiences who can view your pages in UI Builder.
 
--   **[Create a button that opens a modal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/learn-by-example-button-modal.md)**  
+-   **[Create a button that opens a modal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/learn-by-example-button-modal.md)**  
 After you've created your demo experience and added a blank page, you can edit the page variant as needed. For the sake of this demo, you can create a button and a modal, and configure the button to open the modal.
 
-**Parent Topic:**[Learn UI Builder by example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/learning-uib-by-example.md)
+**Parent Topic:**[Learn UI Builder by example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/learning-uib-by-example.md)
 
 **Related topics**  
 

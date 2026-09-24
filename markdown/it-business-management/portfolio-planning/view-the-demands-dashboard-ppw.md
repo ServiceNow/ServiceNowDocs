@@ -3,11 +3,11 @@ title: View the Demands Dashboard
 description: Use the Demands Dashboard to monitor performance, track progress, and make informed decisions about demands.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/view-the-demands-dashboard-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Monitor and track demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---

@@ -3,14 +3,14 @@ title: Configure a CIMD client
 description: Register a Client ID Metadata Document \(CIMD\) client so that the instance accepts inbound OAuth requests from a client identified by a metadata document URL. You can fetch the client's configuration from its metadata URL or enter the details manually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/configure-cimd-client.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-06-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [configure CIMD client, register CIMD client, Client ID Metadata Document, CIMD metadata URL, metadata sync mode, oauth\_entity\_cimd]
-breadcrumb: [CIMD client integration, Inbound Integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [CIMD client integration, Inbound integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Configure a CIMD client
@@ -353,7 +353,7 @@ Both
 
 </td><td>
 
-Scopes granted to the client. To know more about Auth Scopes, see [REST API Auth Scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/rest-api-auth-scope.md).
+Scopes granted to the client. To know more about Auth Scopes, see [REST API Auth Scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/rest-api-auth-scope.md).
 
 </td></tr><tr><td colspan="4">
 

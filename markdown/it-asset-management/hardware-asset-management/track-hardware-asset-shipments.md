@@ -3,13 +3,13 @@ title: Track a hardware asset shipment
 description: Track the progress of your hardware asset shipment that isn't delivered and that has a carrier associated with an active integration profile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/track-hardware-asset-shipments.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Track shipments using the integration framework, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Track shipments using the integration framework, Procurement and fulfillment, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Track a hardware asset shipment
@@ -39,24 +39,12 @@ The following fields on the Shipment details form show the tracking details rece
 -   Carrier pick-up date
 -   Carrier delivered date
 
-**Parent Topic:**[Track shipments using the integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/tracking-shipments-using-integration-framework.md)
+**Parent Topic:**[Track shipments using the integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/tracking-shipments-using-integration-framework.md)
 
 **Related topics**  
 
 
-[Creating an integration script include for third-party carrier applications]()
-
-[Connect your ServiceNow instance with a shipping carrier application]()
-
-[Remove a shipping carrier from an integration profile]()
-
-[Create a carrier integration profile]()
-
 [View the carrier integration profile details]()
-
-[Test the integration with the carrier API]()
-
-[Create a shipping carrier record]()
 
 [View hardware asset shipment details]()
 

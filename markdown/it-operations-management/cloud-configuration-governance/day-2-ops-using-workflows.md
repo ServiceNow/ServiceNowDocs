@@ -3,11 +3,11 @@ title: Day 2 operations using Workflow Studio subflow
 description: Take advantage of the flow designer to automate your Day 2 operations. Quickly write a subflow that communicates with a Cloud API or a particular resource.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/day-2-ops-using-workflows.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -24,7 +24,7 @@ Previously, to execute Day 2 operations in Cloud Provisioning and Governance, yo
 
 To learn about flows, subflows, and actions in general, see:
 
--   
--   
--   .
+-   [Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/exploring-flows.md)
+-   [Exploring subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/exploring-subflows.md)
+-   [Exploring actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/exploring-actions.md).
 

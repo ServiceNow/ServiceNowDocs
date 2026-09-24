@@ -3,11 +3,11 @@ title: Data Model Navigator app features
 description: The Data Model Navigator app provides comprehensive information about CMDB tables, attributes, and relationships with context-aware guidance for specific use cases. While users can view the data, the primary purpose is to generate up-to-date indexed data for use by ServiceNow Otto agents and skills.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-data-model-nav-ref.html
-release: australia
+release: brazil
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2026-07-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Data Model Navigator, CMDB data model, tables, attributes, relationships, IP address management, cloud]
 breadcrumb: [Reference, ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
@@ -39,7 +39,7 @@ Users benefit from the information that the app generates when asking questions 
 -   `Which table is used for storing flexible key-value pairs for CIs, often from cloud sources, within the CMDB?`
 -   `What is the relationship between a hardware CI and a network adapter?`
 
-For more information, see [Working in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+For more information, see [Working in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 ## Prerequisites
 
@@ -60,5 +60,5 @@ Navigate to **All** &gt; **Data Model Navigator**.
 |Fields|Identify and review key attributes for a class. The app differentiates key attributes from similar ones in the same table and highlights attributes that are important in specific use cases.|
 |Relationships|Review guidance on how and why to model relationships between specific classes.|
 
-**Parent Topic:**[ServiceNow Otto for CMDB reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-reference.md)
+**Parent Topic:**[ServiceNow Otto for CMDB reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-reference.md)
 

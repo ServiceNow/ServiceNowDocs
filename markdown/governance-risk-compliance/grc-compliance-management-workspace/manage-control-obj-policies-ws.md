@@ -3,11 +3,11 @@ title: Manage control objectives and policies using the Compliance Workspace
 description: You can use the Compliance Workspace to manage information related to policy approvals, policies, and control objectives.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/manage-control-obj-policies-ws.html
-release: australia
+release: brazil
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, GRC Compliance workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---

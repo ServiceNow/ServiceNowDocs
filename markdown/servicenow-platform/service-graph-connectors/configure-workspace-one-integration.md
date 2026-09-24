@@ -3,11 +3,11 @@ title: Configure Service Graph Connector for VMware Workspace ONE UEM
 description: Use the Service Graph Connector for VMware Workspace ONE UEM to pull mobile and computing devices data from VMware Workspace ONE Unified Endpoint Management \(UEM\) into your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/configure-workspace-one-integration.html
-release: australia
+release: brazil
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [VMware Workspace ONE UEM, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,19 +18,19 @@ Use the Service Graph Connector for VMware Workspace ONE UEM to pull mobile and 
 
 ## Before you begin
 
-To use this Service Graph Connector, you need a subscription to a Subscription Unit that is based in the IT Operations Management \(ITOM\) Visibility application or in the ITOM Discovery application. As defined in the section titled "Managed IT Resource Types" in [ServiceNow Subscription Unit Overview](https://www.servicenow.com/products/entitlements-packages.html) for your subscription, for managed IT resources that are created or modified in the CMDB by this Service Graph Connector, but that aren’t yet managed by [ITOM Visibility or ITOM Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-license-module.md), these resources will increase Subscription Unit consumption from that application. Review your current Subscription Unit consumption within ITOM Visibility or ITOM Discovery to ensure available capacity.
+To use this Service Graph Connector, you need a subscription to a Subscription Unit that is based in the IT Operations Management \(ITOM\) Visibility application or in the ITOM Discovery application. As defined in the section titled "Managed IT Resource Types" in [ServiceNow Subscription Unit Overview](https://www.servicenow.com/products/entitlements-packages.html) for your subscription, for managed IT resources that are created or modified in the CMDB by this Service Graph Connector, but that aren’t yet managed by [ITOM Visibility or ITOM Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-license-module.md), these resources will increase Subscription Unit consumption from that application. Review your current Subscription Unit consumption within ITOM Visibility or ITOM Discovery to ensure available capacity.
 
 Dependencies and requirements:
 
--   The [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md) store app, which is automatically installed.
--   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
+-   The [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md) store app, which is automatically installed.
+-   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
 -   The ITOM Discovery License plugin \(com.snc.itom.discovery.license\). You must activate this plugin.
--   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_ActivateTheDiscoveryPlugin.md).
+-   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/t_ActivateTheDiscoveryPlugin.md).
 -   The Datastream Action plugin \(com.glide.hub.action\_type.datastream\), which is automatically installed.
 
 Role required: SGC-Admin \(sn\_cmdb\_int\_util.sgc\_admin\) or admin
 
-**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
+**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
 
 When using client credentials for authentication, obtain the OAuth credentials from your VMware Workspace ONE UEM administrator. Make a note of the following details:
 
@@ -135,7 +135,7 @@ Client ID
 
 </td><td>
 
-Application \(client\) ID of your VMware Workspace ONE UEM client application as noted in the [Before you begin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-workspace-one-integration.md) section.
+Application \(client\) ID of your VMware Workspace ONE UEM client application as noted in the [Before you begin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/configure-workspace-one-integration.md) section.
 
 </td></tr><tr><td>
 
@@ -143,7 +143,7 @@ Client Secret
 
 </td><td>
 
-Client secret of your VMware Workspace ONE UEM client application as noted in the [Before you begin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-workspace-one-integration.md) section.
+Client secret of your VMware Workspace ONE UEM client application as noted in the [Before you begin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/configure-workspace-one-integration.md) section.
 
 </td></tr></tbody>
 </table>        3.  Select **Update**, and navigate back to the guided setup page.
@@ -154,7 +154,7 @@ Client secret of your VMware Workspace ONE UEM client application as noted in th
 
     2.  On the HTTP\(s\) Connection form, specify the host name of your VMware Workspace ONE UEM instance in the **Host** field.
 
-        **Note:** The HTTP connection is pre-configured to use the authentication credentials that were configured in steps [4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-workspace-one-integration.md) and [5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-workspace-one-integration.md).
+        **Note:** The HTTP connection is pre-configured to use the authentication credentials that were configured in steps [4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/configure-workspace-one-integration.md) and [5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/configure-workspace-one-integration.md).
 
     3.  Select **Update**.
 
@@ -182,7 +182,7 @@ Client secret of your VMware Workspace ONE UEM client application as noted in th
 
     3.  On the Scheduled Data Import form, verify the field values for the scheduled job.
 
-        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
+        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
 
     4.  Select the **Active** check box to activate the SG-Workspace ONE UEM Devices and Apps scheduled job.
 
@@ -218,7 +218,7 @@ Client secret of your VMware Workspace ONE UEM client application as noted in th
 
     10. Select the Data Source \[sys\_data\_source\] table.
 
-    11. Repeat steps [9.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-workspace-one-integration.md) to [9.g](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-workspace-one-integration.md).
+    11. Repeat steps [9.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/configure-workspace-one-integration.md) to [9.g](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/configure-workspace-one-integration.md).
 
     12. Set the Update Data Source Access task to complete by selecting **Mark as Complete**.
 
@@ -325,8 +325,8 @@ Connection URL of your VMware Workspace ONE UEM controller.Use the format `https
 
                 |Field|Description|
                 |-----|-----------|
-                |OAuth Client ID|Application \(client\) ID of your VMware Workspace ONE UEM client application as noted in the [Before you begin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-workspace-one-integration.md) section.|
-                |OAuth Client Secret|Client secret of your VMware Workspace ONE UEM client application as noted in the [Before you begin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-workspace-one-integration.md) section.|
+                |OAuth Client ID|Application \(client\) ID of your VMware Workspace ONE UEM client application as noted in the [Before you begin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/configure-workspace-one-integration.md) section.|
+                |OAuth Client Secret|Client secret of your VMware Workspace ONE UEM client application as noted in the [Before you begin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/configure-workspace-one-integration.md) section.|
 
                 For information about how to get OAuth credentials, see the [VMware documentation site](https://docs.vmware.com/en/VMware-Workspace-ONE-UEM/services/UEM_ConsoleBasics/GUID-BF20C949-5065-4DCF-889D-1E0151016B5A.html).
 
@@ -350,7 +350,7 @@ Connection URL of your VMware Workspace ONE UEM controller.Use the format `https
         2.  Select the **SG-Workspace ONE UEM Devices and Apps** scheduled job.
         3.  On the Scheduled Data Import form, verify the field values for the scheduled job.
 
-            For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
+            For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
 
         4.  Select the **Active** check box to activate the SG-Workspace ONE UEM Devices and Apps scheduled job.
         5.  In the **Run** field, select **Periodically** to specify how often the job should run.

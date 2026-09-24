@@ -3,9 +3,9 @@ title: Oracle metadata collector
 description: The Oracle metadata collector provides read-only access to metadata from an external Oracle account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/oracle-metadata-collector.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
 ---
@@ -172,10 +172,10 @@ The collector supports Oracle database version 19.0.0.0.
 
 The Oracle collector supports username/password authentication to Oracle.
 
--   **[Prepare to run the Oracle collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-oracle-collector.md)**  
+-   **[Prepare to run the Oracle collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/prepare-to-run-oracle-collector.md)**  
 Set up database user permissions and configure advanced features before running the collector.
--   **[Create an Oracle metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-oracle-metadata-collector.md)**  
+-   **[Create an Oracle metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-oracle-metadata-collector.md)**  
 Create a collector to import metadata from Oracle.
 
-**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-metadata-collectors-dc.md)
+**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-metadata-collectors-dc.md)
 

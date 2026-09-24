@@ -3,9 +3,9 @@ title: NTLM authentication
 description: NTLM is the most complex of the authentication protocols supported by a basic web server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_NTLMAuthentication.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Web proxy, Basic system configuration, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -94,5 +94,5 @@ Specify the domain used to authenticate the proxy server with NTLM authenticatio
 DOMAIN
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Web proxy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_WebProxy.md)
+</table>**Parent Topic:**[Web proxy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_WebProxy.md)
 

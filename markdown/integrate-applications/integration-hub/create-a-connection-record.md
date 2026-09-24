@@ -3,7 +3,7 @@ title: Create a connection record for the Asana spoke
 description: Create a connection record with all the details needed to integrate your ServiceNow instance to the Asana instance. When your ServiceNow instance requests a connection, the OAuth app you had set up authenticates the request based on the details in the connection record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-a-connection-record.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -34,7 +34,7 @@ Role required: admin
 
         \[Omitted image "asana-conf-temp.png"\] Alt text:
 
-    -   To manage more than one Asana spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    -   To manage more than one Asana spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
     \[Omitted image "asna-configure.png"\] Alt text:

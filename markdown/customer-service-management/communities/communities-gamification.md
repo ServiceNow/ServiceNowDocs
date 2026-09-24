@@ -3,18 +3,22 @@ title: Gamification
 description: Encourage users to participate and contribute content in the community by providing incentives in the form of points, achievement levels, and badges.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/communities-gamification.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Using communities, Communities, Customer Service Management]
 ---
 
 # Gamification
 
 Encourage users to participate and contribute content in the community by providing incentives in the form of points, achievement levels, and badges.
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Use the gamification framework to:
 
@@ -24,10 +28,10 @@ Use the gamification framework to:
 
 Community administrators can:
 
--   Create [rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/gamification-components-rules.md) and configure [points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/gamification-components-points.md) that users receive for activities on the community.
--   Create [tracks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/gamification-components-tracks.md) to logically separate points assigned in the communities into different areas.
--   Create [levels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/gamification-components-levels.md) in the community where users can achieve expertise or a reputation and then configure level ranges within each level definition.
--   Create [badges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/gamification-components-badges.md) to award to users for different achievements.
+-   Create [rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/gamification-components-rules.md) and configure [points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/gamification-components-points.md) that users receive for activities on the community.
+-   Create [tracks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/gamification-components-tracks.md) to logically separate points assigned in the communities into different areas.
+-   Create [levels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/gamification-components-levels.md) in the community where users can achieve expertise or a reputation and then configure level ranges within each level definition.
+-   Create [badges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/gamification-components-badges.md) to award to users for different achievements.
 
 Community users can:
 
@@ -37,14 +41,14 @@ Community users can:
 -   See their own standing within the community.
 -   See gamification achievements on their user profiles.
 
--   **[Gamification components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/gamification-components.md)**  
+-   **[Gamification components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/gamification-components.md)**  
 The gamification feature includes several components, such as rules, levels, and tracks, that enable users to earn points and badges for community activities.
--   **[Gamification user interface components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communities-gamification-UI.md)**  
+-   **[Gamification user interface components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/communities-gamification-UI.md)**  
 Gamification information appears on leaderboards, the user profile page, and content pages.
--   **[Moderate gamification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communities-gamification-moderate.md)**  
+-   **[Moderate gamification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/communities-gamification-moderate.md)**  
 Monitor points earned by users and award points and badges to users based on their participation within the community.
 
-**Parent Topic:**[Using communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/using-communities.md)
+**Parent Topic:**[Using communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/using-communities.md)
 
 **Related topics**  
 

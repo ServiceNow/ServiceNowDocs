@@ -3,11 +3,11 @@ title: Configure scheduled email reports in DPM Admin Center
 description: Send periodic emails of KPI metrics to the DPM solution owners.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-schedule-email-reports.html
-release: australia
+release: brazil
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure the Admin Center, Configure, Digital Portfolio Management, IT Service Management]
 ---
@@ -135,5 +135,5 @@ Date and time of the first scheduled job. This field appears only if you select 
 12. Select **Execute Now**.
 
 
-**Parent Topic:**[Use the Admin Center in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-admin-center.md)
+**Parent Topic:**[Use the Admin Center in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-admin-center.md)
 

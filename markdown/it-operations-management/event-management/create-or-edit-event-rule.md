@@ -3,11 +3,11 @@ title: Create or edit an event rule
 description: You can create event rules to generate alerts for tracking and remediation. Use team-based integrations in event rules to make sure that connector ownership and execution of rules give precedence to general rules. Teams can maintain consistency and hierarchy while offering flexibility and customization options.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/create-or-edit-event-rule.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-**Note:** Use [Ignore automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-ignore-automation-sow-itom.md) and [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/enrich-alert-sow-itom.md) in Service Operations Workspace, the updated way to automatically filter out irrelevant alerts, or to transform and standardize alert data for better response.
+**Note:** Use [Ignore automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/create-ignore-automation-sow-itom.md) and [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/enrich-alert-sow-itom.md) in Service Operations Workspace, the updated way to automatically filter out irrelevant alerts, or to transform and standardize alert data for better response.
 
 View the list of available event rules on the **Event Rules** page to determine whether you want to create or edit an event rule.
 
@@ -41,20 +41,20 @@ Options to create the rule are:
 -   Run multiple sequential rules defined for the same event by selecting the **Apply additional matching rules** check box. The event rules run in ascending order as defined in the **Order** field. Event rules applied to assignment groups only run after the global rules have run.
 
 
-You can refresh an existing event rule with new event data. For more information see, [Refresh event rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/refresh-event-rule.md).
+You can refresh an existing event rule with new event data. For more information see, [Refresh event rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/refresh-event-rule.md).
 
 **Note:**
 
 -   Event rules that aren’t configured to perform any action are skipped. Therefore, if the rule isn’t configured as ignore, threshold, or binding, it’s important to specify either the match or the composed fields.
 -   Make sure that you don’t change the **Classification** field value in event \[em\_event\] tables, either manually, by script, or by event rule.
 
-**Note:** To automatically filter out irrelevant alerts or transform and standardize alert data for better response, you can also use [Ignore automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-ignore-automation-sow-itom.md) and [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/enrich-alert-sow-itom.md).
+**Note:** To automatically filter out irrelevant alerts or transform and standardize alert data for better response, you can also use [Ignore automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/create-ignore-automation-sow-itom.md) and [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/enrich-alert-sow-itom.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Event Management** &gt; **Rules** &gt; **Event Rules** and take one of the following actions.
 
-<table id="choicetable_u5d_w1m_zt"><tbody><tr><td id="d595428e198">
+<table id="choicetable_u5d_w1m_zt"><tbody><tr><td id="d599980e196">
 
 **Create an event rule from an existing event**
 
@@ -68,7 +68,7 @@ You can refresh an existing event rule with new event data. For more information
 
 The event fields are copied to the Event Field Rules section of the rule.
 
-</td></tr><tr><td id="d595428e226">
+</td></tr><tr><td id="d599980e224">
 
 **Edit an existing event rule**
 
@@ -81,7 +81,7 @@ Rule cannot be viewed in the
           event rule designer. To modify the rule click 'Save and Upgrade'.
 ```
 
-</td></tr><tr><td id="d595428e250">
+</td></tr><tr><td id="d599980e248">
 
 **Create an event rule**
 
@@ -149,56 +149,56 @@ When the rules are running – first the global rules run and then the rules tha
 </td></tr></tbody>
 </table>4.  Define the event rule using these Event Rule Designer features.
 
-<table id="choicetable_n2q_nks_sy"><tbody><tr><td id="d595428e380">
+<table id="choicetable_n2q_nks_sy"><tbody><tr><td id="d599980e378">
 
 **Event Filter**
 
 </td><td>
 
-Define a filter to restrict to which events the event rule must apply. See [Filter the events that an event rule applies to](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMCreateFilter.md).
+Define a filter to restrict to which events the event rule must apply. See [Filter the events that an event rule applies to](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMCreateFilter.md).
 
-</td></tr><tr><td id="d595428e396">
+</td></tr><tr><td id="d599980e394">
 
 **Transform and compose alert output**
 
 </td><td>
 
-Configure the customization of alert content. See [Configure an event rule to customize alert content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMComposeOuput.md).
+Configure the customization of alert content. See [Configure an event rule to customize alert content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMComposeOuput.md).
 
-</td></tr><tr><td id="d595428e415">
+</td></tr><tr><td id="d599980e413">
 
 **Threshold**
 
 </td><td>
 
-Create or close alerts according to the specified threshold. See [Set a threshold to suppress alert generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMISetThresholdEvent.md).
+Create or close alerts according to the specified threshold. See [Set a threshold to suppress alert generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMISetThresholdEvent.md).
 
-</td></tr><tr><td id="d595428e434">
+</td></tr><tr><td id="d599980e432">
 
 **Binding**
 
 </td><td>
 
-Configure event rules to automatically bind alerts to CI information from the CMDB. See [Binding alerts to CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/ci-binding-alert.md).
+Configure event rules to automatically bind alerts to CI information from the CMDB. See [Binding alerts to CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/ci-binding-alert.md).
 
 </td></tr></tbody>
 </table>5.  Select **Save**, **Submit**, or **Update**.
 
 
-**Parent Topic:**[Event rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-event-rules.md)
+**Parent Topic:**[Event rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/create-event-rules.md)
 
 **Related topics**  
 
 
-[Pattern matching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_PatternMatching.md)
+[Pattern matching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_PatternMatching.md)
 
-[Use event input information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-input-information.md)
+[Use event input information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/event-input-information.md)
 
-[Configure an event rule to customize alert content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMComposeOuput.md)
+[Configure an event rule to customize alert content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMComposeOuput.md)
 
-[Refresh event rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/refresh-event-rule.md)
+[Refresh event rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/refresh-event-rule.md)
 
-[Simulate event processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/simulate-event-processing.md)
+[Simulate event processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/simulate-event-processing.md)
 
-[Filter the events that an event rule applies to](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMCreateFilter.md)
+[Filter the events that an event rule applies to](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMCreateFilter.md)
 

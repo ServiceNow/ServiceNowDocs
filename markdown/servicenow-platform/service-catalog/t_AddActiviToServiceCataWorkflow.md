@@ -3,11 +3,11 @@ title: Add an activity to a catalog workflow
 description: You can add activities to a workflow to perform tasks such as running a script, sending notifications, or requesting approvals. Activities can succeed or fail, which can result in actions performed by other activities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_AddActiviToServiceCataWorkflow.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Service catalog workflows, Service Catalog request fulfillment, Configuring Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -89,7 +89,7 @@ After creating the workflow to add a laptop fulfillment process, add the activit
 
 6.  Drag the activity **Create Task** onto the arrow between **Procurement** and **End**, and then fill in the form.
 
-<table id="choicetable_yn3_s25_dq"><tbody><tr><td id="d294845e469">
+<table id="choicetable_yn3_s25_dq"><tbody><tr><td id="d293136e469">
 
 **Name**
 
@@ -97,7 +97,7 @@ After creating the workflow to add a laptop fulfillment process, add the activit
 
 Set Up Laptop
 
-</td></tr><tr><td id="d294845e478">
+</td></tr><tr><td id="d293136e478">
 
 **Stage**
 
@@ -105,7 +105,7 @@ Set Up Laptop
 
 Fulfillment
 
-</td></tr><tr><td id="d294845e487">
+</td></tr><tr><td id="d293136e487">
 
 **Task Type**
 
@@ -113,7 +113,7 @@ Fulfillment
 
 Catalog Task
 
-</td></tr><tr><td id="d294845e496">
+</td></tr><tr><td id="d293136e496">
 
 **Priority**
 
@@ -121,7 +121,7 @@ Catalog Task
 
 3 - Moderate
 
-</td></tr><tr><td id="d294845e505">
+</td></tr><tr><td id="d293136e505">
 
 **Fulfillment Group**
 
@@ -129,7 +129,7 @@ Catalog Task
 
 Hardware
 
-</td></tr><tr><td id="d294845e515">
+</td></tr><tr><td id="d293136e515">
 
 **Short Description**
 
@@ -159,5 +159,5 @@ Set up laptop.
     Leaves a message in the log to record the successful completion of the workflow.
 
 
-**Parent Topic:**[Service catalog workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogWorkflowDefinition.md)
+**Parent Topic:**[Service catalog workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/c_ServiceCatalogWorkflowDefinition.md)
 

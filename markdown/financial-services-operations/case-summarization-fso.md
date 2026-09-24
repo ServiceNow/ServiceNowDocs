@@ -3,9 +3,9 @@ title: Case summarization in Financial Services Operations
 description: Case summarization generates AI-powered summaries of insurance claims and card dispute cases, helping agents quickly understand case context and actions taken. Summaries can be refreshed to include the latest updates and posted to case work notes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/case-summarization-fso.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [AI capabilities, AI in FSO, Explore, Financial Services Operations \(FSO\)]
 ---
@@ -79,5 +79,5 @@ Provides a customized skill that is configured with a series of related tables f
 </table>**Related topics**  
 
 
-[Configure case summarization in ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-now-assist-for-fso.md)
+[Configure case summarization in ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-now-assist-for-fso.md)
 

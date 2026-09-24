@@ -3,11 +3,11 @@ title: Play a guided tour in Service Operations Workspace
 description: Use the guided tours in Service Operations Workspace for ITSM through a sequence of interactive steps that guide you through a specific concept or process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/play-guided-tour-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -35,7 +35,7 @@ Role required: admin
 5.  Select **Take a tour**.
 
 
-**Parent Topic:**[Operating IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/enhancing-services-operations-in-organization.md)
+**Parent Topic:**[Operating IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/enhancing-services-operations-in-organization.md)
 
 **Related topics**  
 

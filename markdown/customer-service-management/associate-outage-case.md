@@ -3,9 +3,9 @@ title: Associate an outage to a major case
 description: Associate an outage with a major case to keep customers informed about any issues affecting their install base items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/associate-outage-case.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Proactive Customer Service Operations, Automate and optimize, Use, Customer Service Management]
 ---

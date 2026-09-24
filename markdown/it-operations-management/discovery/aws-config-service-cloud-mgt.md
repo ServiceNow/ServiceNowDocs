@@ -3,11 +3,11 @@ title: Configure AWS Config event notifications
 description: Configure the Amazon Web Services \(AWS\) Config service to send event notifications to the ServiceNow instance for any changes in the lifecycle state of a resource.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/aws-config-service-cloud-mgt.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [AWS events-driven discovery, Discovery for AWS, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -31,11 +31,11 @@ Roles required:
     -   Resource types for which you want to track the configuration change
 -   ServiceNow roles:
     -   discovery\_admin
-    -   sn\_cmp.cloud\_event\_integration: The access credentials of a ServiceNow user with the sn\_cmp.cloud\_event\_integration role is required to subscribe the instance to the SNS notifications. For more information, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUser.md) and [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignARoleToAUser.md).
+    -   sn\_cmp.cloud\_event\_integration: The access credentials of a ServiceNow user with the sn\_cmp.cloud\_event\_integration role is required to subscribe the instance to the SNS notifications. For more information, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAUser.md) and [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignARoleToAUser.md).
 
 ## About this task
 
-ServiceNow® event-driven discovery uses the events to update the latest resource information in the Configuration Management Database \(CMDB\). For more information, see [AWS events-driven discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/aws-events-driven-discovery.md).
+ServiceNow® event-driven discovery uses the events to update the latest resource information in the Configuration Management Database \(CMDB\). For more information, see [AWS events-driven discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/aws-events-driven-discovery.md).
 
 Many of the steps in the topic are performed in the AWS portal. For more information, see the following AWS documents:
 
@@ -197,7 +197,7 @@ Amazon SNS topic
 
 SNS topic for streaming configuration changes and notifications.Select the **Stream configuration changes and notifications to an Amazon SNS topic** check box.
 
-Select **Choose a topic from your account** and select the SNS topic created in [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/aws-config-service-cloud-mgt.md).
+Select **Choose a topic from your account** and select the SNS topic created in [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/aws-config-service-cloud-mgt.md).
 
 </td></tr></tbody>
 </table>    4.  Select **Save**.
@@ -292,5 +292,5 @@ IAM role that AWS Config uses to access other AWS services.Select one of the fol
 
 ## What to do next
 
-After some events are generated, navigate to the [Cloud User Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloudmgt-view-cloud-events.md) to view the events.
+After some events are generated, navigate to the [Cloud User Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/cloudmgt-view-cloud-events.md) to view the events.
 

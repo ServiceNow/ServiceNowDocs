@@ -3,11 +3,11 @@ title: Related feeds table notification
 description: This example demonstrates table notifications to be sent out to related feeds.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/c\_Example4RelatedFeeds.html
-release: australia
+release: brazil
 product: Live Feed
 classification: live-feed
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Live Feed table notification examples, Live Feed table notifications, Administering Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,5 +32,5 @@ For this example, whenever the status of a story changes to **Complete**, a tabl
     ```
 
 
-**Parent Topic:**[Live Feed table notification examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_LFTableNotifiExamples.md)
+**Parent Topic:**[Live Feed table notification examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/c_LFTableNotifiExamples.md)
 

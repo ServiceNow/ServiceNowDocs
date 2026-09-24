@@ -3,11 +3,11 @@ title: Enable text resize in your portal
 description: Enable text resize to increase the size of your text up to 200% through your browser settings.Set the HTML base CSS font size in your portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/enable-text-resize.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Defining portal styles, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -37,7 +37,7 @@ Role required: admin
 4.  Select **Update**.
 
 
-**Parent Topic:**[Defining portal styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/portal-css.md)
+**Parent Topic:**[Defining portal styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/portal-css.md)
 
 ## Override the HTML base CSS font size in your portal
 

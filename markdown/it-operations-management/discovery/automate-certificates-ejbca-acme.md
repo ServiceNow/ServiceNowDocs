@@ -3,11 +3,11 @@ title: ACME integration with KeyFactor EJBCA for automated flows
 description: Automate the flow of requesting, renewing, and revoking your certificates by integrating Keyfactor EJBCA with the Automated Certificate Management Environment \(ACME\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/automate-certificates-ejbca-acme.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Automated certificate management with ACME, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -26,11 +26,11 @@ In EJBCA, automated certificate workflows start when you create routing policies
 
 Your platform has routing policies where you fill in all the fields of the routing policy. Your platform aligns that information to each CSR you create to request, renew, and revoke certificates.
 
-For more information, see [Create routing policies for EJBCA ACME certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/routing-policies-ejbca-acme-certificates.md).
+For more information, see [Create routing policies for EJBCA ACME certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/routing-policies-ejbca-acme-certificates.md).
 
 Perform the following task to use EJBCA ACME to automate your certificate life cycle:
 
-1.  [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-alias.md)
-2.  [Configure base API URL for EJBCA ACME](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/configure-base-api-url-for-ejbca-acme.md)
-3.  [Validate EJBCA ACME base API URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/validate-ejbca-acme-base-api-url.md)
+1.  [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/connection-alias.md)
+2.  [Configure base API URL for EJBCA ACME](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/configure-base-api-url-for-ejbca-acme.md)
+3.  [Validate EJBCA ACME base API URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/validate-ejbca-acme-base-api-url.md)
 

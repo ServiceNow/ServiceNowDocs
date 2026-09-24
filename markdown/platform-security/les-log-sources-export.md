@@ -1,29 +1,36 @@
 ---
 title: Log sources
-description: Log Export Service \(LES\) can export log sources from some System Log Tables, the Audit Table, and Application Node Log Files.
+description: Log Export Service \(LES\) can export log sources from some System Log Tables, Audit Tables, and Application Node Log Files.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/les-log-sources-export.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Log Export Service \(LES\), Platform Security]
 ---
 
 # Log sources
 
-Log Export Service \(LES\) can export log sources from some System Log Tables, the Audit Table, and Application Node Log Files.
+Log Export Service \(LES\) can export log sources from some System Log Tables, Audit Tables, and Application Node Log Files.
 
-The following are the log sources that can be exported by LES.
+LES can export the following log sources:
 
 -   System Log Tables
-    -   syslog table: View warnings and errors for instance processes, records, and non-critical events, such as memory usage on the server machine
-    -   syslog\_transaction table: view all browser activity for an instance
-    -   sys\_outbound\_http\_log table: view all requests and responses for outbound web services such as REST and SOAP
--   Audit Table: Use the sys\_audit table view record changes made to tables chosen to be audited
--   Application Node Log Files: Use the localhost log files to view application node errors. Your instance will have multiple nodes and each node will have multiple log files.
+    -   **syslog**: Warnings and errors for instance processes, records, and non-critical events such as memory usage
+    -   **syslog\_transaction**: View all browser activity for an instance
+    -   **sys\_outbound\_http\_log**: View all requests and responses for outbound web services such as REST and SOAP
+-   Audit tables
+    -   **sys\_audit**: Record changes made to tables chosen to be audited
+    -   **sys\_audit\_delete**: Snapshots produced when audited records are deleted
+    -   **sys\_audit\_relation**: Changes to tracked reference fields on audited records
+-   Workflow/Process logs: **sys\_flow\_log** records execution details and status of workflow processes
+-   Security and authentication logs: **sys\_user\_login\_history** tracks user login attempts and authentication events
+-   Application node log files: Use the localhost log files to view application node errors. Your instance has multiple nodes and each node has multiple log files.
 
-See [System logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/system-logs.md) to learn more about the schema and purpose for the above log sources.
+These log sources provide comprehensive visibility into system operations, user activity, and integration points. Export these logs to external systems for long-term retention, compliance auditing, or security analysis.
 
-**Parent Topic:**[Exploring Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-landing-page.md)
+For detailed schema information and purposes for each log source, see [System logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/system-logs.md).
+
+**Parent Topic:**[Exploring Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/les-landing-page.md)
 

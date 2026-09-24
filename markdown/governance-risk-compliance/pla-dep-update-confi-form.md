@@ -1,18 +1,18 @@
 ---
 title: Planning dependency update configuration form
-description: Use the Planning dependency update configuration form to configure the plan record, its sources, and preferences such as the plan record name, sources, and notification preferences. You can then schedule an auto-update of the related assets in the plans.
+description: Use the Planning dependency update configuration form to configure the plan record, its sources, and preferences such as the plan record name, sources, and notification preferences. You can also schedule an auto-update of the related assets in the plans.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/pla-dep-update-confi-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up Planning dependency update configuration, Configuring planning dependency updates, Dependency Configuration records, General administration setup for BCM, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Planning dependency update configuration form
 
-Use the Planning dependency update configuration form to configure the plan record, its sources, and preferences such as the plan record name, sources, and notification preferences. You can then schedule an auto-update of the related assets in the plans.
+Use the Planning dependency update configuration form to configure the plan record, its sources, and preferences such as the plan record name, sources, and notification preferences. You can also schedule an auto-update of the related assets in the plans.
 
 ## Planning dependency update configuration record form
 
@@ -129,5 +129,5 @@ Users/groups in fields
 Option to select the users or groups who should receive a notification about the updates. For example, Plan owner and BCM lead are selected to receive the updates.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Set up Planning dependency update configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/conf-plan-dep-update-confi-module.md)
+</table>**Parent Topic:**[Set up Planning dependency update configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/conf-plan-dep-update-confi-module.md)
 

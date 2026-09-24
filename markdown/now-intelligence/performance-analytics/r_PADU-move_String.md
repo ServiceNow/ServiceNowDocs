@@ -3,11 +3,11 @@ title: PADomainUtils - move\(String runAs\)
 description: Moves Performance Analytics records to a different domain.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/r\_PADU-move\_String.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [PADomainUtils - Global, Domain separation, Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -30,5 +30,5 @@ var pa = new SNC.PADomainUtils();
 pa.move('774190f01f1310005a3637b8ec8b70ef')
 ```
 
-**Parent Topic:**[PADomainUtils - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PADomainUtils.md)
+**Parent Topic:**[PADomainUtils - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_PADomainUtils.md)
 

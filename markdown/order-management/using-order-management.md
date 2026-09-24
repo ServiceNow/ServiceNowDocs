@@ -3,9 +3,9 @@ title: Using Order Management
 description: ServiceNow Order Management provides a centralized platform to create and manage customer and service orders throughout their entire life cycle. It automates the complex process from order capture and enrichment through to fulfillment and closure, promoting seamless coordination between sales, operations, and technical teams.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/using-order-management.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2025-09-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [use]
 breadcrumb: [Use, Sales Customer Relationship Management]
@@ -17,49 +17,49 @@ ServiceNow Order Management provides a centralized platform to create and manage
 
 ## Overview of the order life cycle
 
-Access the Order Management capabilities from the CSM/FSM Configurable Workspace to capture and manage orders. A typical order life cycle is a structured, multiphase process that guides a customer's request from initial submission to final delivery and fulfillment, as shown in the following illustration.
+Access the Order Management capabilities from the CRM Workspace to capture and manage orders. A typical order life cycle is a structured, multiphase process that guides a customer's request from initial submission to final delivery and fulfillment, as shown in the following illustration.
 
 \[Omitted image "using-order-management-landing.svg"\] Alt text: Order life cycle Infographic showing how to create and manage orders using Order Management. For details, refer to the list of task topics that follows.
 
-1.  [Creating orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-create-product-order.md)
+1.  [Creating orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-create-product-order.md)
 
     The order life cycle begins when a customer's request is submitted. This could be from a salesperson creating a quote that's then converted to an order, a sales agent directly capturing an order through the workspace, a customer placing an order online through the Business Portal, or an order being created via an API from another system. This phase focuses on getting all the customer-facing details, including what was ordered, pricing, and customer information, into the system.
 
-2.  [Enriching orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-enrichment.md)
+2.  [Enriching orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-enrichment.md)
 
     If order enrichment subflow is configured for a product offering, then order enrichment tasks are created. The fulfillment agent captures additional details required to fulfill the order. This phase prevents errors from propagating further into the process. Not all orders need enrichment.
 
-3.  [Approving or rejecting orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/approving-rejecting-orders-som.md)
+3.  [Approving or rejecting orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/approving-rejecting-orders-som.md)
 
     The fulfillment manager reviews the order, order lines, and pricing details and approves or rejects the order.
 
-4.  \[System\] [Order decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-order-decomposition.md)
+4.  \[System\] [Order decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-order-decomposition.md)
 
     This is a critical step for businesses selling complex products or services. The single, high-level order is automatically broken down into smaller, actionable service orders or fulfillment tasks based on how the process admin has configured order decomposition. For example, a customer's order for a telecom bundle would be decomposed into separate tasks for IT provisioning, a field technician, and the billing department. This process translates the customer's request into a detailed operational plan.
 
-    View product, service, or resource orders for tracking the fulfillment process, verifying that all required tasks and suborders are created correctly, and confirming that the order progresses through its life cycle as expected. For more information, see [View domain orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-domain-orders.md).
+    View product, service, or resource orders for tracking the fulfillment process, verifying that all required tasks and suborders are created correctly, and confirming that the order progresses through its life cycle as expected. For more information, see [View domain orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/view-domain-orders.md).
 
-5.  \[System\] [Order orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-orchestration.md)
+5.  \[System\] [Order orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-orchestration.md)
 
     The system orchestrates the fulfillment of each individual product, service, and resource orders. Tasks are automatically created and assigned to the correct teams and systems, and the application tracks their progress.
 
     Work orders are created if you have an integration with Field Service Management.
 
-6.  [Order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reviewing-orchestration-plans-order-fulfillment.md)
+6.  [Order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/reviewing-orchestration-plans-order-fulfillment.md)
 
     Fulfillment agents complete order tasks assigned to them. Fulfillment managers monitor the fulfillment process and manage issues using features such as Jeopardy Management to alert teams about potential delays and Fallout Management to handle errors.
 
     As each fulfillment task is completed, the service or product is activated or delivered to the customer. This can involve anything from a physical delivery to the electronic provisioning of a digital service. Once all products and services are activated and delivered, the order is officially closed. The system updates the order status to reflect completion and updates creates sold product records.
 
-7.  [Managing order fallouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/fallout-management-overview.md)
+7.  [Managing order fallouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/fallout-management-overview.md)
 
     Manage failures that may take place during order fulfillment due to errors and exceptions. These exceptions include incorrect data, connectivity problems, inadequate inventory supply, or other unforeseen issues.
 
-8.  [Monitoring order jeopardy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/monitoring-jeopardy-management.md)
+8.  [Monitoring order jeopardy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/monitoring-jeopardy-management.md)
 
     Proactively monitor and mitigate order delivery delays, dynamically track task progression to predict potential order fulfillment delays, and alert service delivery teams when fulfillment plans exceed or are expected to exceed committed completion times by monitoring the jeopardy status.
 
-9.  [Managing post-fulfillment order changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/managing-orders.md)
+9.  [Managing post-fulfillment order changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/managing-orders.md)
 
     Order agents can make the following post-sale changes to the orders after an initial order has been placed and fulfilled:
 
@@ -71,17 +71,17 @@ Access the Order Management capabilities from the CSM/FSM Configurable Workspace
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-configuring.md)
 
-[Order types in Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-order-types.md)
+[Order types in Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-order-types.md)
 
-[Action types for customer and service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-customer-order-types.md)
+[Action types for customer and service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-customer-order-types.md)
 
-[Order life cycle states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-lifecycle-states.md)
+[Order life cycle states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-lifecycle-states.md)
 
-[Methods of creating orders in Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-capture-methods-som.md)
+[Methods of creating orders in Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-capture-methods-som.md)
 
-[Reviewing customer or partner accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reviewing-customer-accounts.md)
+[Reviewing customer or partner accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/reviewing-customer-accounts.md)
 
-[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-reference.md)
+[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-reference.md)
 

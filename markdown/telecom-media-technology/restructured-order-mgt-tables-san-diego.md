@@ -3,9 +3,9 @@ title: Restructured Order Management tables
 description: The table architecture that supports the Order Management for Telecommunications, Media, and Technology application has been restructured. Existing customers who upgraded from earlier releases to the San Diego release must first run a Post upgrade Script to reparent the order tables and then perform column promotions.OM revamp project - This topic is obsolete and has been removed from the SOM bundle on Oct 27, 2025.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/restructured-order-mgt-tables-san-diego.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Approve or reject a customer order, Customer orders, Use, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---

@@ -3,11 +3,11 @@ title: Resolve a security incident
 description: Chat with an AI agent in the ServiceNow Otto panel to resolve an incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/resolve-sir-incident-aiagent.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Resolve security incidents, Use agentic workflows, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_si.analyst
 
 ## About this task
 
-**Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 
@@ -144,9 +144,9 @@ Close the security incident
 
 </td><td>
 
-The AI agent closes the incident. For more information, see [Close a security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/close-sir-incident-aiagent.md).
+The AI agent closes the incident. For more information, see [Close a security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/close-sir-incident-aiagent.md).
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Resolve security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/now-assist-sir-resolve-incident-ai-workflow.md)
+**Parent Topic:**[Resolve security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/now-assist-sir-resolve-incident-ai-workflow.md)
 

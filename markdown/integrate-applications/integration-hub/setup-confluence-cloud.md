@@ -3,7 +3,7 @@ title: Set up the Confluence Cloud spoke
 description: Integrate the ServiceNow instance and Confluence Cloud by creating a custom OAuth 2.0 application in Confluence Cloud to authenticate ServiceNow requests.Obtain the value of Cloud ID of the cloud instance. This value is required during the configuration of the connection record in your ServiceNow instance.Add and configure a Confluence Cloud connection to authenticate ServiceNow requests in Confluence Cloud spoke.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-confluence-cloud.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -63,7 +63,7 @@ Role required: admin
 4.  Locate the **Confluence Cloud** connection alias and click **View Details**.
 
     -   To configure the default connection and credential alias record that is shipped along with the Confluence Cloud spoke, click **View Details**.
-    -   To manage more than one Confluence Cloud spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    -   To manage more than one Confluence Cloud spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
 5.  On the **Connection** form, fill in the fields.

@@ -3,9 +3,9 @@ title: Assessment Metric Type form
 description: Use the Assessment Metric Type form to create an assessment questionnaire template instead of using the default template. You can also use this form to request responses from the assessor.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/new-assessment-reference.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up Legacy assessment template, Create a Smart Assessment template, Completing general administrative tasks, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---

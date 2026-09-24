@@ -3,11 +3,11 @@ title: Network discovery
 description: Network Discovery discovers the internal IP networks and subnets within your organization.Configure network Discovery from a Discovery schedule.After you conduct a network Discovery, you must convert the IP networks that were found into range sets for use in discovering other devices.After creating discovery range sets from a network discovery, add the sets to a discovery schedule. This process narrows down the range of IP addresses that Shazzam probes can scan. You can also add a behavior.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/c\_NetworkDiscovery.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Running discoveries in your network, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Network Discovery discovers the internal IP networks and subnets within your org
 
 Discovery uses the information it gathers to update routers and Layer 3 switches in the Configuration Management Database \(CMDB\). A single MID Server begins its scan on a configurable list of starting \(or seed\) routers performs network Discovery. The starting routers are the default routers used by all the MID Server host machines in the network, but can be any designated routers. The MID Server uses the router tables on the starting routers to discover other routers in the network. The MID Server then spreads out through the network, using router tables it finds to discover other routers. It continues until the MID Server explored all the routers and switches.
 
-After running Network Discovery, convert the IP networks it finds into IP address Range Sets that you use in Discovery schedules to discover configuration items \(CI\). Configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_SNMPCredentials.md). Port 161 must be open for SNMP access.
+After running Network Discovery, convert the IP networks it finds into IP address Range Sets that you use in Discovery schedules to discover configuration items \(CI\). Configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_SNMPCredentials.md). Port 161 must be open for SNMP access.
 
 ## Network Discovery properties
 
@@ -59,7 +59,7 @@ Network discovery debugging: Enables extensive logging of all Network Discovery 
 
  -   Type: true \| false
 -   Default value: true
--   Learn More: [Discovery monitoring and issue resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryTroubleshooting.md)
+-   Learn More: [Discovery monitoring and issue resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c_DiscoveryTroubleshooting.md)
 
 </td></tr><tr><td>
 
@@ -118,7 +118,7 @@ Configure network Discovery from a Discovery schedule.
 
 ### Before you begin
 
-Configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_SNMPCredentials.md), and keep port 161 open for SNMP access.
+Configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_SNMPCredentials.md), and keep port 161 open for SNMP access.
 
 Role required: none
 
@@ -189,12 +189,12 @@ Role required: agent\_admin or admin
 
     \[Omitted image "IPNetworkList.png"\] Alt text: IP network list
 
-    The [Discovery Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryStatus.md) page appears, displaying the progress of the conversion. The system increments the **Started** and **Completed** count of IP networks, until all the networks are converted.
+    The [Discovery Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c_DiscoveryStatus.md) page appears, displaying the progress of the conversion. The system increments the **Started** and **Completed** count of IP networks, until all the networks are converted.
 
 
 ### What to do next
 
-Add discovery range sets to [Discovery schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
+Add discovery range sets to [Discovery schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
 
 ## Add a Discovery range set to a Discovery schedule
 
@@ -206,13 +206,13 @@ Role required: agent\_admin or admin
 
 ### Procedure
 
-1.  Open a [Discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
+1.  Open a [Discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
 
 2.  In the **Discovery Range Sets** related list, click **Edit** to add an existing range set and use the slushbucket to add the range set.
 
 3.  On the **Discovery schedule** form, click the name of the range set under the **Range** column in the **Discovery Range Sets** related list.
 
-4.  On the **Discovery Range Set** form, add a [Discovery behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryBehaviors.md) if necessary.
+4.  On the **Discovery Range Set** form, add a [Discovery behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c_DiscoveryBehaviors.md) if necessary.
 
     You can also activate or deactivate the range set for this schedule.
 

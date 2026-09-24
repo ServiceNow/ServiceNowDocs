@@ -3,11 +3,11 @@ title: Quick start tests for Coaching
 description: Validate that Coaching still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/coaching/cf-quick-start-tests-coaching.html
-release: australia
+release: brazil
 product: Coaching
 classification: coaching
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Coaching, IT Service Management]
 ---
@@ -31,10 +31,10 @@ Coaching quick start tests require activating the Coaching plugin \(com.sn\_coac
 |Coaching: Submit Coaching survey as a Coach user.|Verify that coach can submit survey for a trainee.|Quebec|
 |Coaching: Submit Coaching survey as a Traineer user.|Verify that trainee can submit survey for a coach.|Quebec|
 
-**Parent Topic:**[Coaching reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-coaching-reference.md)
+**Parent Topic:**[Coaching reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/coaching/cf-coaching-reference.md)
 
 **Related topics**  
 
 
-[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/quick-start-tests.md)
+[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/quick-start-tests.md)
 

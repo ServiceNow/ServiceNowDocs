@@ -3,11 +3,11 @@ title: Configure work order grouping for a work plan
 description: Group multiple work orders for a work plan into a single work order based on the defined criteria.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/Group-work-orders.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Planned Work Management, Set up work orders and tasks, Configure, Field Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Planned Work Management, Set up work orders and tasks, Configure, F
 
 Group multiple work orders for a work plan into a single work order based on the defined criteria.
 
-Work order grouping consolidates multiple individual work orders into fewer, grouped work orders based on configured criteria such as location, floor, or equipment type. Instead of generating one work order per asset, one work order is created for a group of assets. Every work order will have corresponding work order tasks and the list of grouped worked orders.
+Work order grouping consolidates multiple individual work orders into fewer, grouped work orders based on configured criteria such as location, floor, or equipment type. Instead of generating one work order per asset, one work order is created for a group of assets. Every work order will have corresponding tasks and the list of related tasks of that work order.
 
 For example, consider a plan for maintenance of 100 HVAC systems in a large office building with 10 floors. If grouping is not enabled, one work order is generated for each asset. This generates 100 work orders for the maintenance plan.
 
@@ -27,9 +27,9 @@ When grouping is enabled, one work order is generated for all the assets that me
 The steps to configure work order grouping for a work plan are:
 
 1.  Enable work order grouping for the work plan if you have not already enabled it while creating the plan.
-2.  [Add grouping criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/add-grouping-criteria.md)
-3.  [Configure a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/configure-work-plan.md)
-4.  [Associate work order template to a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/associate-work-schedule-to-wotemplate.md)
-5.  [Create planned work records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/create-planned-work-records.md)
-6.  [Generate work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/generate-work-orders.md)
+2.  [Add grouping criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/add-grouping-criteria.md)
+3.  [Configure a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/configure-work-plan.md)
+4.  [Associate a work order template to a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/associate-work-schedule-to-wotemplate.md)
+5.  [Create planned work records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/create-planned-work-records.md)
+6.  [Generate work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/generate-work-orders.md)
 

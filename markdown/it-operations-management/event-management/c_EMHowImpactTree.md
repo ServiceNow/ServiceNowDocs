@@ -3,11 +3,11 @@ title: How alerts work with CIs in maintenance
 description: When a CI is in maintenance, the impact tree, the service map, and Alerts tab are updated based on various factors.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/c\_EMHowImpactTree.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-06-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -23,7 +23,7 @@ A CI is in maintenance when:
 -   A change request is scheduled for the CI.
 -   The **Install Status** field on the CI record is set to **In Maintenance**.
 
-**Note:** To customize how alerts work with CIs in maintenance, see [Create maintenance rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-maintenance-rule.md).
+**Note:** To customize how alerts work with CIs in maintenance, see [Create maintenance rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/create-maintenance-rule.md).
 
 <table><thead><tr><th>
 
@@ -54,7 +54,7 @@ OR
 
 **Note:**
 
-The [**Maintenance**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMViewAlertmaintenance.md) check box for an alert is selected when the **Install Status** field on the CI record is **In Maintenance**. This **Maintenance** check box indicates that the alert must be hidden from the **Alerts** tab. When the maintenance job updates this field, the Updated field \(sys\_updated\_on\) changes for open alerts, but not for closed alerts.
+The [**Maintenance**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMViewAlertmaintenance.md) check box for an alert is selected when the **Install Status** field on the CI record is **In Maintenance**. This **Maintenance** check box indicates that the alert must be hidden from the **Alerts** tab. When the maintenance job updates this field, the Updated field \(sys\_updated\_on\) changes for open alerts, but not for closed alerts.
 
 </td></tr><tr><td>
 
@@ -80,10 +80,10 @@ An inactive change request has the following values: -   The **State** is **New*
 All alerts on a CI with an inactive change request and **In Maintenance** has no impact calculation.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Manage and monitor alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMAlert.md)
+</table>**Parent Topic:**[Manage and monitor alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/c_EMAlert.md)
 
 **Related topics**  
 
 
-[Create maintenance rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-maintenance-rule.md)
+[Create maintenance rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/create-maintenance-rule.md)
 

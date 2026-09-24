@@ -3,11 +3,11 @@ title: Exploring ServiceNow Otto in Knowledge Management
 description: ServiceNow Otto in Knowledge Management enables agents to generate, edit, and publish knowledge articles from a case or incident using the ServiceNow Otto panel, classic environment, and configurable workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-in-knowledge-management/exploring-now-assist-KM.html
-release: australia
+release: brazil
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
 topic_type: concept
-last_updated: "2026-07-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Otto in Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -33,36 +33,36 @@ The ServiceNow Otto in Knowledge Management application includes KB generation s
 
 ## ServiceNow Otto panel
 
-Agents can use the ServiceNow Otto panel available in their workspace. This conversational interface lets agents generate a knowledge article related to a case or incident. For more information about the panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+Agents can use the ServiceNow Otto panel available in their workspace. This conversational interface lets agents generate a knowledge article related to a case or incident. For more information about the panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 **Related topics**  
 
 
-[Generate a knowledge article with ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/Now-Assist-generate-article-csm-workspace.md)
+[Generate a knowledge article with ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/Now-Assist-generate-article-csm-workspace.md)
 
-[Generate a knowledge article from the Service Operations Workspace for ITSM and classic environment by using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/Now-Assist-generate-article-SOW-itsm.md)
+[Generate a knowledge article from the Service Operations Workspace for ITSM and classic environment by using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/Now-Assist-generate-article-SOW-itsm.md)
 
-[Generate a knowledge article from HR Agent Workspace with ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/gen-kb-now-assisthr.md)
+[Generate a knowledge article from HR Agent Workspace with ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/gen-kb-now-assisthr.md)
 
-[Generate a Knowledge article from the classic environment with ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-generate-article-coreui.md)
+[Generate a Knowledge article from the classic environment with ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-generate-article-coreui.md)
 
-[Configuring the KB generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-km-skills.md)
+[Configuring the KB generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-km-skills.md)
 
-[Configure skill for the ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-context-menu-skill.md)
+[Configure skill for the ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-context-menu-skill.md)
 
-[Configure custom prompts for knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-assist-configure-custom-prompts-for-templates.md)
+[Configure custom prompts for knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-assist-configure-custom-prompts-for-templates.md)
 
-[Configure and activate the identify duplicate articles skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-identify-duplicate-article-skill.md)
+[Configure and activate the identify duplicate articles skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-identify-duplicate-article-skill.md)
 
-[Configure Article Optimization skill and prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configure-kc-AO-skill.md)
+[Configure Article Optimization skill and prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-in-knowledge-management/configure-kc-AO-skill.md)
 
-[Configure custom AI-based Article Optimization scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configure-custom-ai-based-AO-scans.md)
+[Configure custom AI-based Article Optimization scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-in-knowledge-management/configure-custom-ai-based-AO-scans.md)
 
-[Configure skills for potential gaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configure-na-km.md)
+[Configure skills for potential gaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-in-knowledge-management/configure-na-km.md)
 
-[Configure AI skills for merging articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configure-merge-article.md)
+[Configure AI skills for merging articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-in-knowledge-management/configure-merge-article.md)
 
-[Enable multilingual service in ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-assist-enable-multilingual-service.md)
+[Enable multilingual service in ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-assist-enable-multilingual-service.md)
 
-[Enable article optimization recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/enable-ao-recommendations.md)
+[Enable article optimization recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-in-knowledge-management/enable-ao-recommendations.md)
 

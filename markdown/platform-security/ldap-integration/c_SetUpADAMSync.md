@@ -3,11 +3,11 @@ title: Set up ADAMSync
 description: ADAMSync is included with Windows Server 2003 R2. Download and install ADAMSync if you are using a different OS.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/c\_SetUpADAMSync.html
-release: australia
+release: brazil
 product: LDAP integration
 classification: ldap-integration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use ADAMSync to populate ADAM, Active Directory Application Mode \(ADAM\), LDAP integration, Authentication, Access Management]
 ---

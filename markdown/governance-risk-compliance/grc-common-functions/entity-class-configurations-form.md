@@ -3,11 +3,11 @@ title: Entity Class Configurations form
 description: Use the Entity Class Configurations form to set up access control to all the entities that are linked to the entity class.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/entity-class-configurations-form.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure an entity class for a linked object, Manage Entity Based Access, Entity Based Access, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -27,5 +27,5 @@ Use the Entity Class Configurations form to set up access control to all the ent
 |Entity group fields|User group fields from the entity table \[sn\_grc\_profile\] that the access should be granted to.|
 |Description|Description of the entity class configuration.|
 
-**Parent Topic:**[Configure an entity class for a linked object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-an-entity-class-configuration-for-entity-based-access.md)
+**Parent Topic:**[Configure an entity class for a linked object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/create-an-entity-class-configuration-for-entity-based-access.md)
 

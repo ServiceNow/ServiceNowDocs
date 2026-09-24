@@ -3,9 +3,9 @@ title: RaptorDB
 description: RaptorDB, the new ServiceNow database, optimizes ServiceNow AI Platform workloads, enabling your organization to support more users, workflows, and data on a single platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/raptordb.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ RaptorDB, the new ServiceNow database, optimizes ServiceNow AI Platform workload
 
 RaptorDB will underpin ServiceNow AI Platform core services, applications, and data.
 
-**Note:** The roll-out of RaptorDB is not tied to your organization's upgrade to Australia. Please speak with your account team for more information.
+**Note:** The roll-out of RaptorDB is not tied to your organization's upgrade to Brazil. Please speak with your account team for more information.
 
 ## Benefits
 

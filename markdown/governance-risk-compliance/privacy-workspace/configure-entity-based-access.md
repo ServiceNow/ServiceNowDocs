@@ -3,11 +3,11 @@ title: Configure Entity-based access
 description: Configure entity-based access by installing the Entity-based Access Configurations plugin and enabling properties for record types.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/configure-entity-based-access.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2025-11-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring access control, Access control by legal entity, Use, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -41,5 +41,5 @@ Role required: sn\_privacy.admin
 
 Based on your selected settings, the entity-based access properties are configured in your system.
 
-**Parent Topic:**[Configuring access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/configure-access-control-by-legal-entity.md)
+**Parent Topic:**[Configuring access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/configure-access-control-by-legal-entity.md)
 

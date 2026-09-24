@@ -3,11 +3,11 @@ title: Disable multiple element selection on a dashboard
 description: Dashboard owners have the option to disable multiple element select on an entire breakdown dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/disable-mes.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Filter dashboards on breakdown elements, Working with responsive dashboards, Create and use dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---

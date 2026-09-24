@@ -3,11 +3,11 @@ title: Activate a Security Incident Response flow
 description: Security administrators and flow designers can use the Security Incident Response flows to automate the process of resolving security incidents in the organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/getting-started-phishing-playbook.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Playbook Resources, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -26,7 +26,7 @@ The flows provided with the base system are in an inactive state. Activate these
 
 ## Procedure
 
-1.  [Download and install](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/download-app-first-time.md) the Security Operations Spoke application.
+1.  [Download and install](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/download-app-first-time.md) the Security Operations Spoke application.
 
     This Spoke application provides security operations actions that you can use while defining Security Incident Response flows.
 

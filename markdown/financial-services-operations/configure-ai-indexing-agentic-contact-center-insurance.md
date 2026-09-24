@@ -3,9 +3,9 @@ title: Configure AI indexing for Agentic Contact Center for Insurance
 description: Configure AI indexing to enable intelligent search capabilities across insurance policies, cases, and customer interactions in Agentic Contact Center for Insurance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/configure-ai-indexing-agentic-contact-center-insurance.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Agentic Contact Center for Insurance, Agentic Contact Center for Insurance, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -48,9 +48,9 @@ AI indexing is configured for Agentic Contact Center for Insurance.
 **Related topics**  
 
 
-[Indexed Source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/indexed-source-form-ais.md)
+[Indexed Source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/indexed-source-form-ais.md)
 
-[Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/index-single-source-ais.md)
+[Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/index-single-source-ais.md)
 
-[Publish an AI Search search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/publish-search-profile-ais.md)
+[Publish an AI Search search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/publish-search-profile-ais.md)
 

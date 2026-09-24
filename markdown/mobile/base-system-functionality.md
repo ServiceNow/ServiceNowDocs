@@ -3,9 +3,9 @@ title: Base system functionality for ServiceNow mobile
 description: Learn about the base system functionality included in with ServiceNow mobile apps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/base-system-functionality.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -16,7 +16,7 @@ Learn about the base system functionality included in with ServiceNow® mobile a
 
 ## Base system functionality for Mobile Agent
 
-Take advantage of the Mobile Agent app by activating the base system applications available from ServiceNow. For a list of plugins available for Mobile Agent, see [Mobile plugins for Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-plugins-agent.md).
+Take advantage of the Mobile Agent app by activating the base system applications available from ServiceNow. For a list of plugins available for Mobile Agent, see [Mobile plugins for Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mobile-plugins-agent.md).
 
 To use the Mobile Agent app, you must install additional plugins, which provide capability such as customer service, asset receiving, or IT service management.
 
@@ -74,5 +74,5 @@ If you're an iOS user, you can use Siri to open some pages in the app. These Sir
     -   Open your requests.
 
 </td></tr></tbody>
-</table>Add functionality to the Now Mobile app by installing plugins. For a list of the available plugins, see [Mobile plugins for Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-plugins-now.md).
+</table>Add functionality to the Now Mobile app by installing plugins. For a list of the available plugins, see [Mobile plugins for Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mobile-plugins-now.md).
 

@@ -3,9 +3,9 @@ title: Voice Controls Simulator tool
 description: The Voice Controls Simulator tool enables CCaaS partners and customers to simulate and test voice control UI flows within the CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/voice-control-simulator-tool.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [ICC for voice calls, Integrating with Computer Telephony Integration \(CTI\), Integrate, Customer Service Management]
 ---
@@ -14,11 +14,11 @@ breadcrumb: [ICC for voice calls, Integrating with Computer Telephony Integratio
 
 The Voice Controls Simulator tool enables CCaaS partners and customers to simulate and test voice control UI flows within the CRM Workspace.
 
-## Voice Controls Simulator tool overview
-
 CCaaS partners can test and validate call features within the UI to preview capabilities and verify readiness for Interaction Controls Component \(ICC\) voice integration. For example, CCaaS admins integrating with ICC voice capability can use this tool to view available voice features and their appearance in the UI.
 
-\[Omitted image "int-voice-controls-simulator-icon.png"\] Alt text: Voice Controls Simulator tool \[Omitted image ""\] Alt text:
+Review the Voice Controls Simulator tool video to get an overview of how the tool works.
+
+\[Omitted video\] Description: Voice Controls Simulator tool overview
 
 ## Key features
 
@@ -34,10 +34,10 @@ The following are key features for the Voice Controls Simulator tool capability:
 
 |Simulator steps|Description|
 |---------------|-----------|
-|[Launch simulator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/launch-voice-controls-simulator.md)|After meeting all prerequisites, you’re ready to launch the tool in the CRM Workspace.|
-|[Set Idle state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-idle-state-and-directory.md)|This state is the agent's initial state in the simulator. The agent can make an outbound call using the keypad or the phone directory. Additionally, if the agent doesn't want to take anymore calls they can log out of CCaaS.|
-|[Configure Transfer capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-transfer-capability.md)|If you select **Transfer** during the **Set Agent Capabilities** step, you can configure transfer options for agents, queues, external numbers, and direct dial.|
-|[Set Agent capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/adding-participants.md)|Set up call controls for the simulated agent flow for an active call.|
+|[Launch simulator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/launch-voice-controls-simulator.md)|After meeting all prerequisites, you’re ready to launch the tool in the CRM Workspace.|
+|[Set Idle state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/setup-idle-state-and-directory.md)|This state is the agent's initial state in the simulator. The agent can make an outbound call using the keypad or the phone directory. Additionally, if the agent doesn't want to take anymore calls they can log out of CCaaS.|
+|[Configure Transfer capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-transfer-capability.md)|If you select **Transfer** during the **Set Agent Capabilities** step, you can configure transfer options for agents, queues, external numbers, and direct dial.|
+|[Set Agent capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/adding-participants.md)|Set up call controls for the simulated agent flow for an active call.|
 
-See [Set up the Voice Controls Simulator tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/set-up-voice-controls-simulator-tool.md).
+See [Set up the Voice Controls Simulator tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/set-up-voice-controls-simulator-tool.md).
 

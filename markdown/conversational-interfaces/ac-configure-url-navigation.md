@@ -1,20 +1,18 @@
 ---
-title: Configure URL navigation for chat links
-description: Configure the portals in which links to ServiceNow records in Live Agent and Virtual Agent conversations are opened, including links in output cards and cards for Virtual Agent notifications and AI Search results.
+title: \(Legacy\) Configure URL navigation for chat links
+description: Configure the portals in which links to ServiceNow records in live agent and Virtual Agent conversations are opened, including links in output cards and cards for Virtual Agent notifications and AI Search results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/ac-configure-url-navigation.html
-release: australia
-product: Conversational Interfaces
-classification: conversational-interfaces
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [URL navigation in Conversational Interfaces, General chat settings, Configuring Conversational Interfaces, Conversational Interfaces Console, Conversational Interfaces]
+breadcrumb: [URL navigation in NLU, General chat settings, Conversational Interfaces Home for NLU, Configure NLU, \(Legacy\) Virtual Agent for NLU, Conversational Interfaces]
 ---
 
-# Configure URL navigation for chat links
+# \(Legacy\) Configure URL navigation for chat links
 
-Configure the portals in which links to ServiceNow records in Live Agent and Virtual Agent conversations are opened, including links in output cards and cards for Virtual Agent notifications and AI Search results.
+Configure the portals in which links to ServiceNow records in live agent and Virtual Agent conversations are opened, including links in output cards and cards for Virtual Agent notifications and AI Search results.
 
 ## Before you begin
 
@@ -99,6 +97,4 @@ For new custom mappings, specify the combination of portal and table values to f
 </td></tr></tbody>
 </table>5.  Select **Save** to enter a new mapping or update an existing mapping.
 
-
-**Parent Topic:**[URL navigation in Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/url-navigation-ci.md)
 

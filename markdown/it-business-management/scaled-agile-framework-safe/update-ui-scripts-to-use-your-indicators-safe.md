@@ -3,11 +3,11 @@ title: Update UI scripts to use your indicators for Essential SAFe dashboards
 description: Customize UI scripts by overriding methods in empty implementation \(Impl\) classes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/update-ui-scripts-to-use-your-indicators-safe.html
-release: australia
+release: brazil
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customizing Essential SAFe dashboard reports, Performance Analytics Content Pack for Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -33,5 +33,5 @@ Role required: admin
 4.  Click **Update**.
 
 
-**Parent Topic:**[Customizing Essential SAFe dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/customizing-safe-dashboard-reports.md)
+**Parent Topic:**[Customizing Essential SAFe dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/customizing-safe-dashboard-reports.md)
 

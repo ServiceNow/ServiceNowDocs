@@ -3,11 +3,11 @@ title: Configure display of other work item types in EAP
 description: Enable viewing different work item types in the Backlog and Planning board pages for EAP teams such as Portfolio, Solution Train, Agile Release Train, or Agile Team.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/configure-other-work-item-types-for-eap-teams-in-backlog-and-planning-board.html
-release: australia
+release: brazil
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -54,7 +54,7 @@ This task provides guidance on updating the **Planning work types** or **Backlog
 **Related topics**  
 
 
-[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/using-eap.md)
+[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/using-eap.md)
 
-[Perform PI planning in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/pi-planning-eap.md)
+[Perform PI planning in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/pi-planning-eap.md)
 

@@ -1,22 +1,20 @@
 ---
-title: Legacy: State model and transitions
+title: State model and transitions
 description: Change Management offers a state model to move and track change requests through several states.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/c\_ChangeStateModel.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Configure, Change Management, IT Service Management]
 ---
 
-# Legacy: State model and transitions
+# State model and transitions
 
 Change Management offers a state model to move and track change requests through several states.
-
-**Note:** The change states functionality has been replaced with change models since the Quebec release. For more information, see [Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-a-change-model.md).
 
 \[Omitted image "change-state-model.png"\] Alt text: State transitions in a normal change request
 
@@ -169,10 +167,10 @@ By default, there are two attributes to manage a change request:
 -   allow\_ci\_modification – Allows to modify the CI. Attributes are only considered if they are included in a model. If the `allow_ci_modification` attribute is not added to a model, it defaults to its initial state.
 -   allow\_implementation – Indicates that the change will be implemented. By enabling `allow_implementation`, this feature replaces the implementation states field currently present on the Change model. Both the states listed in the implementation states field and the attribute will be respected.
 
--   **[Legacy: Add a state to the state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_AddANewState.md)**  
+-   **[Add a state to the state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_AddANewState.md)**  
 You can add a new state to the existing state model for different change types based on the requirements of your organization.
--   **[Configure state model transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_ConfigStateModelTransit.md)**  
+-   **[Configure state model transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_ConfigStateModelTransit.md)**  
 You can use script includes or UI policies to configure state models and the criteria for moving change requests from one state to another.
 
-**Parent Topic:**[Configuring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/configure-change-management.md)
+**Parent Topic:**[Configuring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/configure-change-management.md)
 

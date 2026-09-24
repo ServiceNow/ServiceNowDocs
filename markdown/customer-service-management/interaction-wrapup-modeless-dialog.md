@@ -3,9 +3,9 @@ title: Interaction wrap up with modeless dialog
 description: Interaction wrap up provides agents with dedicated time after each call or chat to finalize interaction details. Agents can use this time to wrap up their work before starting a new conversation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/interaction-wrapup-modeless-dialog.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -22,12 +22,12 @@ While in the Wrap Up state, an agent’s capacity is not reduced until the state
 
 Interaction wrap up includes several configurable features:
 
--   [Wrap-up codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/interaction-wrapup-modeless-dialog.md): Agents can select from a list of codes that provide information about how the interaction was resolved.
--   [Wrap-up notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/interaction-wrapup-modeless-dialog.md): Agents can provide additional information about the interaction resolution.
--   [Wrap-up timer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/interaction-wrapup-modeless-dialog.md): Displays the duration of the wrap-up period. When the end of the duration is reached, the system automatically ends the wrap-up period and saves the wrap-up data with the default code and notes field blank.
--   [Wrap-up modeless dialog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/interaction-wrapup-modeless-dialog.md): Displays when the agent ends an interaction. Includes the wrap-up timer and fields for the wrap-up code and notes.
+-   [Wrap-up codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/interaction-wrapup-modeless-dialog.md): Agents can select from a list of codes that provide information about how the interaction was resolved.
+-   [Wrap-up notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/interaction-wrapup-modeless-dialog.md): Agents can provide additional information about the interaction resolution.
+-   [Wrap-up timer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/interaction-wrapup-modeless-dialog.md): Displays the duration of the wrap-up period. When the end of the duration is reached, the system automatically ends the wrap-up period and saves the wrap-up data with the default code and notes field blank.
+-   [Wrap-up modeless dialog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/interaction-wrapup-modeless-dialog.md): Displays when the agent ends an interaction. Includes the wrap-up timer and fields for the wrap-up code and notes.
 
-Interaction wrap up also includes [wrap-up segments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/interaction-wrapup-modeless-dialog.md), which store interaction wrap-up data. Wrap up segments enable multiple wrap ups per interaction. For example, when one agent transfers an interaction to another agent and each agent completes a wrap up for the same record.
+Interaction wrap up also includes [wrap-up segments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/interaction-wrapup-modeless-dialog.md), which store interaction wrap-up data. Wrap up segments enable multiple wrap ups per interaction. For example, when one agent transfers an interaction to another agent and each agent completes a wrap up for the same record.
 
 ## Interaction wrap-up benefits
 
@@ -39,7 +39,7 @@ Admins can set and manage wrap-up time limits for voice and chat interactions an
 
 ## Wrap-up codes
 
-Wrap-up codes provide information about how an interaction was resolved. Agents can select a wrap-up code when wrapping up an interaction in CSM Configurable Workspace. When wrap-up codes are enabled, agents can select a code from the configured list in the wrap-up modeless dialog.
+Wrap-up codes provide information about how an interaction was resolved. Agents can select a wrap-up code when wrapping up an interaction in CRM Workspace. When wrap-up codes are enabled, agents can select a code from the configured list in the wrap-up modeless dialog.
 
 System administrators can create wrap-up codes. From the Interaction Wrap Up Configuration record, system administrators can also do the following:
 
@@ -49,9 +49,9 @@ System administrators can create wrap-up codes. From the Interaction Wrap Up Con
 
 For more information, see the following topics:
 
--   [Create an interaction wrap-up configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-interaction-wrap-up-config.md)
--   [Create interaction wrap up codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/config-interaction-wrapup-codes.md)
--   [Enable interaction wrap up codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-interaction-wrapup-codes.md)
+-   [Create an interaction wrap-up configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/create-interaction-wrap-up-config.md)
+-   [Create interaction wrap up codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/config-interaction-wrapup-codes.md)
+-   [Enable interaction wrap up codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-interaction-wrapup-codes.md)
 
 ## Wrap-up timer
 
@@ -160,7 +160,7 @@ Interaction wrap-up segment records are stored in the Interaction Wrap Up Segmen
 
 ## My Wrap Ups list
 
-The My Wrap Ups list displays a list of all wrap-up records for the current user. To access this list in the Lists tab, navigate to **Interactions** &gt; **My Wrap Ups**. This list view includes a link to the interaction record, the wrap-up state \(In progress or Complete, and the wrap-up code and notes.
+The My Wrap Ups list displays a list of all wrap-up records for the current user. To access this list in the Lists tab, navigate to **Interactions** &gt; **My Wrap Ups**. This list view includes a link to the interaction record, the wrap-up state \(In progress or Complete, and the wrap-up code and notes\).
 
 The following roles have access to the My Wrap Ups list:
 
@@ -184,14 +184,14 @@ The CSM Interaction record page and the CSM voice interaction record page includ
 
 To edit this property:
 
-1.  In UI Builder, select the CSM/FSM Configurable Workspace experience.
+1.  In UI Builder, select the CRM Workspace experience.
 2.  Select the CSM Interaction record page.
 3.  In the Data and scripts section on the left side, select CSM Interaction Record to open the Edit CSM Interaction Record modal.
 4.  In the Configure tab of the modal, enable or disable the **disableLegacyWrapUpLogic** property.
 
 ## Interaction record pages
 
-The wrap-up controller, wrap-up codes, and wrap-up modeless dialog are available on the following record pages in CSM Configurable Workspace:
+The wrap-up controller, wrap-up codes, and wrap-up modeless dialog are available on the following record pages in CRM Workspace:
 
 -   CSM Interaction record page
 -   CSM Voice interaction record page

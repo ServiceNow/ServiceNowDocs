@@ -3,9 +3,9 @@ title: Review the line items and related details for a service order
 description: Review the line items and the related details of the selected service order to make sure that all line items and details are correct and complete. The related details include the service order line item characteristics and contacts.OM revamp project - This topic is obsolete and has been removed from the SOM bundle on Oct 7, 2025.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/service-order-mgt-review-service-order-line-related-detail.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Review service order details, Service orders for fulfillment, Use, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -23,7 +23,7 @@ Role required: order\_approver, order\_viewer, sn\_ind\_tmt\_orm.service\_order\
 By using the Order Line Item and Order Characteristic forms together, you can do the following actions:
 
 -   View an existing service order line item.
--   View, add, change, or delete a new characteristic of a service order line item. To learn more, see [Select, review, revise, or request cancellation of a service order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/service-order-mgt-review-service-order-detail.md).
+-   View, add, change, or delete a new characteristic of a service order line item. To learn more, see [Select, review, revise, or request cancellation of a service order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/service-order-mgt-review-service-order-detail.md).
 
 ## Procedure
 
@@ -33,7 +33,7 @@ By using the Order Line Item and Order Characteristic forms together, you can do
 
     **Workspace Experience** &gt; **Workspaces** &gt; **Agent Workspace Home**.
 
-    To learn more about migrating to configurable workspaces, see [Migrate to Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/migrate-to-configurable-workspace.md).
+    To learn more about migrating to configurable workspaces, see [Migrate to Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/migrate-to-configurable-workspace.md).
 
     If you have an assigned Service Order Manager or Service Order Agent role, the Service Order Management workspace appears. If the Service Order Management workspace doesn't appear, do the following actions:
 
@@ -42,7 +42,7 @@ By using the Order Line Item and Order Characteristic forms together, you can do
 
         -   To view all service orders, click **All**.
         -   To view only open, unfulfilled service orders, click **Open**.
-        **Note:** To learn more about creating or updating service order details, see [Creating orders in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/creating-orders-som.md).
+        **Note:** To learn more about creating or updating service order details, see [Creating orders in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/creating-orders-som.md).
 
     3.  Select the service order that you want to review, verify, and approve:
         -   To refresh the form, click the refresh icon \[Omitted image "form-refresh.png"\] Alt text:.
@@ -68,5 +68,5 @@ As needed, review and update the related contact, order characteristic values, a
 
 If you create a manual fallout record or an automated one is generated for order tasks, you can review and track all fallout records for a specific order. Use the **Fallouts \(n\)** tab \(where n is the number of fallouts\) that appears when you view the related customer or service order in the Customer Order form.
 
-To learn more about order fallout, see [Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/fallout-management-overview.md).
+To learn more about order fallout, see [Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/fallout-management-overview.md).
 

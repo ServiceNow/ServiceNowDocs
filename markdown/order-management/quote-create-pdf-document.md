@@ -3,9 +3,9 @@ title: Create a quote PDF document
 description: In Quote Management, sales agents can create a PDF of a quote that can be sent to customers for review and signatures.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-create-pdf-document.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -30,23 +30,23 @@ Role required: sales\_agent
 
 4.  On the **Details** tab, go to **Quote Document Details** and fill in the fields.
 
-<table id="choicetable_sbm_qvt_pdc"><tbody><tr><td id="d105684e102">
+<table id="choicetable_sbm_qvt_pdc"><tbody><tr><td id="d107025e102">
 
 **Document template**
 
 </td><td>
 
-A document template is required to create a quote document PDF. A standardized template is included with the base system. Select the template that you want. See [Set up PDF document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgt-setup-pdf-document-templates.md) for more information about how to create customized templates.
+A document template is required to create a quote document PDF. A standardized template is included with the base system. Select the template that you want. See [Set up PDF document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-mgt-setup-pdf-document-templates.md) for more information about how to create customized templates.
 
-</td></tr><tr><td id="d105684e121">
+</td></tr><tr><td id="d107025e121">
 
 **External signer**
 
 </td><td>
 
-Option that enables you to have the quote document signed by someone outside the organization. See [Set up PDF document signers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgt-configure-pdf-document-signers.md) for more details on how to set up external signers. When you select **Send for signature**, the external signer's email address is used to send an email through Docusign for review and electronic signature.
+Option that enables you to have the quote document signed by someone outside the organization. See [Set up PDF document signers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-mgt-configure-pdf-document-signers.md) for more details on how to set up external signers. When you select **Send for signature**, the external signer's email address is used to send an email through Docusign for review and electronic signature.
 
-</td></tr><tr><td id="d105684e148">
+</td></tr><tr><td id="d107025e148">
 
 **Internal signer**
 
@@ -54,7 +54,7 @@ Option that enables you to have the quote document signed by someone outside the
 
 Option that lets you select an internal signer for the quote. When you select **Send for signature**, the internal signer's email address is used to send an email using Docusign for review and signature.
 
-See [Set up PDF document signers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgt-configure-pdf-document-signers.md) for more details about how to set up an internal signer.
+See [Set up PDF document signers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-mgt-configure-pdf-document-signers.md) for more details about how to set up an internal signer.
 
 </td></tr></tbody>
 </table>5.  Select **Save**.
@@ -79,5 +79,5 @@ See [Set up PDF document signers](https://raw.githubusercontent.com/ServiceNow/S
 9.  To view the generated PDF, select the PDF in the attachments window.\[Omitted image "quote-attachment-window-pdf.png"\] Alt text:
 
 
-**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-mgmt-using.md)
 

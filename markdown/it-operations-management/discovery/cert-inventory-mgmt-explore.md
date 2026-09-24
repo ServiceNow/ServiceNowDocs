@@ -3,11 +3,11 @@ title: Exploring Certificate Inventory and Management
 description: Certificate Inventory and Management serves as a centralized and automated solution for handling the complexities of certificate management. It enhances security, ensures compliance, and provides a streamlined approach to managing the life cycle of digital certificates within an organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cert-inventory-mgmt-explore.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -22,13 +22,15 @@ Certificate Inventory and Management is a centralized and automated solution des
 
 The system facilitates real-time tracking, automates routine tasks such as renewals, and supports customization to align with specific organizational needs. With integration capabilities into existing CI-based Discovery schedules and support for IPv6, Certificate Inventory and Management offers flexibility and efficiency in managing the entire life cycle of certificates. Role-based access control ensures secure and tailored usage, while alerts and notifications keep administrators informed about critical events, contributing to enhanced security, compliance, and operational efficiency in certificate management.
 
+Domain separation is supported in Certificate Inventory and Management, certificate records and certificate tasks can be separated by domain. With domain separation, you can control the visibility of certificate data across domains.
+
 ## Certificate Inventory and Management workflow
 
 Certificate Inventory and Management streamlines the process of scanning for certificates by automatically detecting them on specific ports through your established Configuration Item \(CI\)-based Discovery schedules. Additionally, Certificate Inventory and Management empowers users with the flexibility to generate new Discovery schedules tailored for scanning individual URLs. This dynamic approach ensures a robust and adaptable method for discovering and managing certificates, contributing to a secure and well-organized IT infrastructure.
 
 \[Omitted image "cert\_mgmt\_flow\_v2.png"\] Alt text: Certificate Inventory and Management workflow.
 
-For more information on how Certificate Inventory and Management works, see [Certificate Inventory and Management process flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-inventory-mgmt-process.md).
+For more information on how Certificate Inventory and Management works, see [Certificate Inventory and Management process flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/cert-inventory-mgmt-process.md).
 
 ## Certificate Inventory and Management benefits
 
@@ -50,7 +52,7 @@ Management of TLS certificates by maintaining a centralized inventory, prioritiz
 
 </td><td>
 
-[Configuring Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-inventory-mgmt-config.md)
+[Configuring Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/cert-inventory-mgmt-config.md)
 
 </td><td>
 
@@ -62,7 +64,7 @@ Automated features to streamline tracking, preventing manual oversight of a larg
 
 </td><td>
 
-[Automated certificate management with ACME](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/exploring-acme.md)
+[Automated certificate management with ACME](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/exploring-acme.md)
 
 </td><td>
 
@@ -74,7 +76,7 @@ A secure and compliant certificate environment is maintained by overseeing, appr
 
 </td><td>
 
-[Approve certificate tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/approve-cert-task.md)
+[Approve certificate tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/approve-cert-task.md)
 
 </td><td>
 

@@ -3,11 +3,11 @@ title: Create an interaction
 description: An interaction is a record of a conversation between a requester and a fulfiller \(real or virtual\). Though most interaction creation takes place in other applications, if needed, you can create an interaction directly from Interaction Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/interaction-management/create-interactions.html
-release: australia
+release: brazil
 product: Interaction Management
 classification: interaction-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Interaction Management, Interaction Management, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -48,5 +48,5 @@ The interaction is created and assigned to the selected user.
 
 \[Omitted image "assigned-interactions.png"\] Alt text: Assigned interactions for a user.
 
-**Parent Topic:**[Using Interaction Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/using-interaction-management.md)
+**Parent Topic:**[Using Interaction Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/interaction-management/using-interaction-management.md)
 

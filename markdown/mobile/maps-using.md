@@ -3,9 +3,9 @@ title: Using the map screen
 description: Use the map screen to see highlighted locations associated with records. You can switch between the map view and list view to help you understand the information displayed within a map.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/maps-using.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using the mobile apps, Mobile Platform]
 ---

@@ -3,11 +3,11 @@ title: Create a parent-child relationship on the Project Task form
 description: Create a child task from any project task form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_CreateParentChildRelationship.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -35,7 +35,7 @@ Role required: it\_project\_manager
 
 To help remember what the parent of any task is, view the breadcrumb at the top of the Project Task form. It is also helpful to configure the form layout to include the **Parent** field. You can also change the parent task from this field.
 
-**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
+**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CreateAProject.md)
 
 **Related topics**  
 
@@ -55,6 +55,10 @@ To help remember what the parent of any task is, view the breadcrumb at the top 
 [Create an expense line]()
 
 [Create and manage waterfall projects]()
+
+[Schedule a project from a start date]()
+
+[Apply or change a task constraint]()
 
 [Update a project]()
 

@@ -3,11 +3,11 @@ title: Cancel a Cloud account request
 description: Cancel an account request that you have submitted.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/cancel-cam-account.html
-release: australia
+release: brazil
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing cloud accounts, Use, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---

@@ -3,11 +3,11 @@ title: Risk intelligence report request form
 description: Use the risk intelligence request form to capture all the information that you need to request risk intelligence using Third-party Risk Management. As a third-party risk manager, third-party risk assessor, and contract negotiator that is assigned to the due diligence request, you can request risk intelligence.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-rir-form.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Risk intelligence report requests management, Reference, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -56,7 +56,7 @@ Type of report or score that is provided.
 
  For example, a risk intelligence report ordered from Black Kite that provides a high-level summary of cyber risk information could be classified as a Level 1 - General Cyber Risk Report request type.
 
-**Note:** The request types that are available are dependent on what has been set up for the provider. For more information, see [Set up a request type for a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-request-type.md).
+**Note:** The request types that are available are dependent on what has been set up for the provider. For more information, see [Set up a request type for a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-request-type.md).
 
 </td></tr><tr><td>
 
@@ -74,7 +74,7 @@ Due diligence request
 
 Due diligence request that is associated with the risk intelligence request. There’s an option to request risk intelligence as part of a due diligence request.
 
- For more information, see [Request a risk intelligence report associated with a due diligence request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintel-request-dd.md).
+ For more information, see [Request a risk intelligence report associated with a due diligence request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintel-request-dd.md).
 
 </td></tr><tr><td>
 
@@ -179,16 +179,16 @@ Details
 Text that explains and clarifies the type of sanction and how it impacts your business relationship with the third party.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Risk intelligence report requests management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-rir-tab.md)
+</table>**Parent Topic:**[Risk intelligence report requests management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-rir-tab.md)
 
 **Related topics**  
 
 
-[Using risk intelligence reports and scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintel-using.md)
+[Using risk intelligence reports and scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintel-using.md)
 
-[Request a risk intelligence report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintel-request-tp.md)
+[Request a risk intelligence report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintel-request-tp.md)
 
-[Request a risk intelligence report associated with a due diligence request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintel-request-dd.md)
+[Request a risk intelligence report associated with a due diligence request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintel-request-dd.md)
 
-[Track sanctions-related information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintel-track-sanctions.md)
+[Track sanctions-related information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintel-track-sanctions.md)
 

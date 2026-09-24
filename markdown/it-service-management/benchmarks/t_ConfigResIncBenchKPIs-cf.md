@@ -3,11 +3,11 @@ title: Configure resolved incident Benchmarks KPIs
 description: The source for the KPIs containing resolved incident data is the resolved\_at field in the Incident \[incident\] table, which may not exist in some environments. In this case, additional configuration is required to use these KPIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/t\_ConfigResIncBenchKPIs-cf.html
-release: australia
+release: brazil
 product: Benchmarks
 classification: benchmarks
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Benchmarks, IT Service Management]
 ---
@@ -18,7 +18,7 @@ The source for the KPIs containing resolved incident data is the **resolved\_at*
 
 ## Before you begin
 
-**Note:** If you have never tracked resolved incidents in your environment before, install the [Incident Resolution Fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md) \(com.snc.incident\_resolution\_fields\) plugin, which automatically adds the **resolved\_at** field to the Incident table. No further steps are required.
+**Note:** If you have never tracked resolved incidents in your environment before, install the [Incident Resolution Fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-of-plugins.md) \(com.snc.incident\_resolution\_fields\) plugin, which automatically adds the **resolved\_at** field to the Incident table. No further steps are required.
 
 Role required: sn\_bm\_client.benchmark\_admin
 
@@ -38,7 +38,7 @@ Configure the KPI conditions and script to use your custom field \(instead of th
 
 ## Procedure
 
-1.  Configure the Benchmark.Incidents.Resolved [indicator source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_IndicatorSources.md) condition with your custom field.
+1.  Configure the Benchmark.Incidents.Resolved [indicator source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/c_IndicatorSources.md) condition with your custom field.
 
     1.  Navigate to **Performance Analytics** &gt; **Sources** &gt; **Indicator Sources**.
 

@@ -3,9 +3,9 @@ title: ICM Entity Management Organization form
 description: The Organization form allows you to create a new organization entity record within an investigative case, and capture as many identifiable details about the organization as possible. Not all fields are mandatory, but a minimum amount of information is required for the record to be searchable within ICM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-icm-ref-case-forms-enm-org.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Entity Management forms, Investigative Case Management case forms, Investigative Case Management reference, Reference, Public Sector Digital Services \(PSDS\)]
 ---

@@ -3,11 +3,11 @@ title: Create CWM tasks or stories from files or open prompts
 description: Generate tasks or stories for a Board by describing the work in a natural language prompt or by uploading a document. AI analyzes the input to propose a list of actionable tasks or stories for you to review and select, saving time and manual effort.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/generate-tasks-cwm-boards.html
-release: australia
+release: brazil
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [generate tasks, Collaborative Work Management, ServiceNow Otto, document intelligence]
 breadcrumb: [Add tasks to a CWM Board, Manage work using Boards, Use, Collaborative Work Management, Strategic Portfolio Management]
@@ -19,10 +19,10 @@ Generate tasks or stories for a Board by describing the work in a natural langua
 
 ## Before you begin
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 -   Verify that ServiceNow Otto for CWM is active on your instance.
--   A reference file in one of these formats: .doc, .docx, .pdf, .xls, .xlsx, .png, .jpg, or .jpeg. Maximum file size: 50 MB.
+-   A reference file in one of these formats: .pdf, .docx, .txt, .pptx, .png, or .jpg. Maximum file size: 50 MB.
 
 Role required: sn\_cwm\_ai.cwm\_ai\_user
 
@@ -58,7 +58,7 @@ Turn narrative or semi-structured content, such as meeting notes, brainstorming 
 
 7.  Select **Add file** to attach one or more reference documents for AI to analyze.
 
-    **Note:** If a document can't be processed, an error message indicates the issue. Common causes include files that are too large, too complex, or corrupted.
+    **Note:** If a document can't be processed, an error message indicates the issue. Corrupted or password-protected files show a specific error rather than a generic failure message. Other common causes include files that are too large or too complex.
 
 8.  Select **Proceed**.
 
@@ -74,7 +74,7 @@ Turn narrative or semi-structured content, such as meeting notes, brainstorming 
 
 11. Select **Back** to return to the **Provide Context** step.
 
-    Your context text, attached files, and selected documents are retained. You can select another work item type and proceed to generate them.
+    Your context text, attached files, and selected documents are retained. You can add or remove files, modify your prompt, or select another work item type and proceed to generate them.
 
 12. Select **Confirm and add**.
 
@@ -93,5 +93,5 @@ A workspace notification confirms the outcome:
 
 Open the Board to review the added tasks. Edit individual tasks from the side panel or by inline editing in the grid.
 
-**Parent Topic:**[Add tasks to a CWM Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/add-tasks-to-board-in-cwm.md)
+**Parent Topic:**[Add tasks to a CWM Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/add-tasks-to-board-in-cwm.md)
 

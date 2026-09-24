@@ -3,11 +3,11 @@ title: Activate Trusted Mobile app
 description: Activate adaptive authentication with trusted mobile app by using the authentication policy and filter conditions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/activate-trusted-mobile-app.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Adaptive authentication for Trusted Mobile apps, Adaptive authentication, Authentication, Access Management]
 ---
@@ -38,7 +38,7 @@ Role required: adaptive\_auth\_admin
 
 4.  Define the conditions in the Pre Authentication context.
 
-    For more information, [Pre authentication context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/pre-auth-context.md).
+    For more information, [Pre authentication context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/pre-auth-context.md).
 
     **Note:** By default, the policy condition is **Deny Policy**. You can change to **Allow Policy**. These policies are direct opposites.
 
@@ -66,5 +66,5 @@ Role required: adaptive\_auth\_admin
 
 ## Result
 
-The policy input and filter conditions are created for the Trusted Device feature. Users can proceed with using the Trusted Device feature to access the ServiceNow instance from untrusted networks by using the Now Mobile app. For more information, see [Register a trusted device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/register-trusted-device.md).
+The policy input and filter conditions are created for the Trusted Device feature. Users can proceed with using the Trusted Device feature to access the ServiceNow instance from untrusted networks by using the Now Mobile app. For more information, see [Register a trusted device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/register-trusted-device.md).
 

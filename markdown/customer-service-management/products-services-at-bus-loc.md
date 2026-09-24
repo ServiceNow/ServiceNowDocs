@@ -1,20 +1,20 @@
 ---
-title: Setting up products and available services at a business organization
-description: By setting up the relationships between organizations and users in the Customer Service Management \(CSM\) application, your organization can associate the products and services with the service organization \(SO\)\). The SO staff can address the customer queries about the products and services at a business organization \(formerly business location\) and even raise a case on the behalf of their customers.
+title: Setting up products and available services at a business location
+description: By setting up the relationships between organizations and users in the Customer Service Management \(CSM\) application, your organization can associate the products and services with the service organization \(SO\). The SO staff can address the customer queries about the products and services at a business location and even raise a case on the behalf of their customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/products-services-at-bus-loc.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
-# Setting up products and available services at a business organization
+# Setting up products and available services at a business location
 
-By setting up the relationships between organizations and users in the Customer Service Management \(CSM\) application, your organization can associate the products and services with the service organization \(SO\)\). The SO staff can address the customer queries about the products and services at a business organization \(formerly business location\) and even raise a case on the behalf of their customers.
+By setting up the relationships between organizations and users in the Customer Service Management \(CSM\) application, your organization can associate the products and services with the service organization \(SO\). The SO staff can address the customer queries about the products and services at a business location and even raise a case on the behalf of their customers.
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/renamed-entities.md).
 
 <table id="table_wlp_2jn_byb"><thead><tr><th>
 
@@ -26,7 +26,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Create a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-csm-service-definition.md)
+[Create a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-csm-service-definition.md)
 
 </td><td>
 
@@ -34,7 +34,7 @@ Create a service definition record.
 
 </td></tr><tr><td>
 
-[Service Definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/service-definition-form-fields.md)
+[Service Definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/service-definition-form-fields.md)
 
 </td><td>
 
@@ -42,7 +42,7 @@ Specify how a service organization provides its services by configuring the **Or
 
 </td></tr><tr><td>
 
-[Associate a product with a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/service-def-associate-products.md)
+[Associate a product with a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/service-def-associate-products.md)
 
 </td><td>
 
@@ -50,11 +50,11 @@ Associate one or more products with a service definition.
 
 </td></tr><tr><td>
 
-[Associate service organizations with a service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associate-services-to-service-organization.md)
+[Associate service organizations with a service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/associate-services-to-service-organization.md)
 
 </td><td>
 
-Establish an association between products and available services to formerly service organizations. This association can be done by defining the organization criteria.
+Establish an association between products and available services to service organizations. This association can be done by defining the organization criteria.
 
 </td></tr></tbody>
 </table>**Note:** The service-related capabilities are available only after activating the Customer Service Case Types \(sn\_csm\_case\_types\) plugin. The plugin is optional and must be enabled if you want to use these capabilities with business locations.

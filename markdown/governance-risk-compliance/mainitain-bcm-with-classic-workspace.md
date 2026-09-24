@@ -3,9 +3,9 @@ title: Using BCM Classic Workspace
 description: This section provides information on managing the business continuity tasks in Business Continuity Management classic Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/mainitain-bcm-with-classic-workspace.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -22,5 +22,5 @@ The BCM Classic Workspace is an obsolete user interface that will not be compati
 
 To avoid any disruptions, transitioning to the BCM Configurable Workspace before or immediately following the Xanadu release will offer the latest functionality and the best user experience.
 
-For information on managing your business continuity tasks in BCM Configurable Workspace, see [Managing BCM workflow tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/manage-bcm-with-uib-workspace.md).
+For information on managing your business continuity tasks in BCM Configurable Workspace, see [Managing BCM workflow tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/manage-bcm-with-uib-workspace.md).
 

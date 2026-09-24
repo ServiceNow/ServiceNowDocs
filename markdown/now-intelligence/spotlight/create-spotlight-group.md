@@ -3,11 +3,11 @@ title: Create a Spotlight group
 description: Create a Spotlight group to define the records to evaluate. In the Spotlight group, you also set the threshold that the score of a record must exceed to trigger the creation of a Spotlight.When a Spotlight job runs, it either evaluates a snapshot of collected records or it collects and evaluates data directly from the platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/spotlight/create-spotlight-group.html
-release: australia
+release: brazil
 product: Spotlight
 classification: spotlight
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Setting up Spotlight, Ranking records with Spotlight, Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -30,7 +30,7 @@ The set of records to evaluate must be associated with a Performance Analytics i
 
 **Note:** You can change the main indicator of an existing Spotlight group. However, after you select criteria for the group, you can change the main indicator only to another indicator that uses the same facts table.
 
-If you have domain separation enabled, you create the Spotlight group in whichever domain you are logged in to when you create it. After you configure the Spotlight group, you can copy it to multiple domains, as described in [Copy a Spotlight group to domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/copy-spotlight-group-domain.md).
+If you have domain separation enabled, you create the Spotlight group in whichever domain you are logged in to when you create it. After you configure the Spotlight group, you can copy it to multiple domains, as described in [Copy a Spotlight group to domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/spotlight/copy-spotlight-group-domain.md).
 
 **Warning:** If you create a Spotlight group in the Global domain, every domain has access to the group.
 
@@ -64,7 +64,7 @@ Main Indicator
 
 The indicator that collects the records that you want this Spotlight group to evaluate.The main indicator must meet the following requirements:
 
--   It must be an [automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md).
+-   It must be an [automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md).
 -   The collect\_records property of the indicator must be set to true. This property is set in the Source tab of the indicator form.
 -   The indicator source for the indicator must refer to an actual table, not a database view.
  All criteria for evaluating this Spotlight group use the same facts table as the indicator source of the main indicator.
@@ -74,16 +74,16 @@ The indicator that collects the records that you want this Spotlight group to ev
 
     **Important:** Spotlight group creation respects the Access Control List \(ACL\) on the breakdown source table. Therefore, depending on the ACL, you may not see all existing elements of a breakdown, even with an admin role.
 
-    After you complete the Spotlight group, you can copy the completed Spotlight group to other elements in the same breakdown. Click **Copy Spotlight group for breakdown**. For more information, see [Copy a Spotlight group to breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/copy-spotlight-group-element.md).
+    After you complete the Spotlight group, you can copy the completed Spotlight group to other elements in the same breakdown. Click **Copy Spotlight group for breakdown**. For more information, see [Copy a Spotlight group to breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/spotlight/copy-spotlight-group-element.md).
 
 4.  In the **Evaluate scores from** field, select whether the Spotlight job evaluates scores from a snapshot or from the platform.
 
     |Option|Description|
     |------|-----------|
-    |**Performance Analytics snapshot**|A snapshot of records from when the relevant Performance Analytics [data collection jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) last ran.|
+    |**Performance Analytics snapshot**|A snapshot of records from when the relevant Performance Analytics [data collection jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) last ran.|
     |**Platform data**|Data from the platform at the time that the Spotlight job runs.|
 
-    For more information, see [Evaluating a snapshot or platform data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/create-spotlight-group.md).
+    For more information, see [Evaluating a snapshot or platform data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/spotlight/create-spotlight-group.md).
 
 5.  In the context menu, select **Save**.
 
@@ -94,24 +94,24 @@ You have created a Spotlight group with an indicator and a threshold, and you ha
 
 ## What to do next
 
--   Create Spotlight criteria for the Spotlight group and set the schedule for collecting Spotlight scores. See [Create Spotlight criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/create-spotlight-criteria.md).
+-   Create Spotlight criteria for the Spotlight group and set the schedule for collecting Spotlight scores. See [Create Spotlight criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/spotlight/create-spotlight-criteria.md).
 -   If you are using domain separation, the Spotlight group is created in the domain that you are in when you create the group. After you complete configuring the Spotlight group, including criteria and scheduling, you can copy the Spotlight group to another domain by clicking **Copy to domain**.
 -   If you have specified a breakdown and element for the main indicator, you can copy the Spotlight group to other elements in the same breakdown. To do so, click **Copy Spotlight group for breakdown**. First complete the Spotlight group, including criteria and scheduling.
 
 **Note:** If you copy a Spotlight group to other domains or other breakdown elements, no Spotlight job results that were already generated for the original Spotlight group are copied.
 
-**Parent Topic:**[Setting up Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/setting-up-spotlight.md)
+**Parent Topic:**[Setting up Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/spotlight/setting-up-spotlight.md)
 
 **Related topics**  
 
 
-[Domain separation with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/domain-separation-spotlight.md)
+[Domain separation with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/spotlight/domain-separation-spotlight.md)
 
-[Spotlight interactive analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/spotlight-interactive-analysis.md)
+[Spotlight interactive analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/spotlight/spotlight-interactive-analysis.md)
 
-[Performance Analytics indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_Indicators.md)
+[Performance Analytics indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_Indicators.md)
 
-[Collecting indicator scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_ClctData.md)
+[Collecting indicator scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_ClctData.md)
 
 ## Evaluating a snapshot or platform data
 
@@ -121,13 +121,13 @@ When a Spotlight job runs, it either evaluates a snapshot of collected records o
 
 ### Evaluating snapshot records
 
-By default, a new Spotlight group uses a snapshot of records. Snapshots are the lists of records \(sys\_ids\) that are collected at the time that the scores for those records are collected. A snapshot is made only for automated indicators with **Collect records** selected. The Performance Analytics [data collection jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) for the main indicator and the criteria indicators of the Spotlight group create the snapshots. These jobs must run, collecting records, before the Spotlight evaluation job runs.
+By default, a new Spotlight group uses a snapshot of records. Snapshots are the lists of records \(sys\_ids\) that are collected at the time that the scores for those records are collected. A snapshot is made only for automated indicators with **Collect records** selected. The Performance Analytics [data collection jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) for the main indicator and the criteria indicators of the Spotlight group create the snapshots. These jobs must run, collecting records, before the Spotlight evaluation job runs.
 
 For a Spotlight group to use snapshot records, the data collection and Spotlight evaluation jobs must meet the following conditions:
 
 -   The main indicator and all the indicators used in the criteria of the Spotlight group have record collection enabled.
 
-    **Note:** The **Collect Records** option on the Indicator form enables record collection, as described in [Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md).
+    **Note:** The **Collect Records** option on the Indicator form enables record collection, as described in [Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md).
 
 -   The main indicator and all the indicators used in the criteria of the Spotlight group have the same data collection frequency.
 -   The data collection jobs for all the Spotlight group indicators run as closely together as possible, to keep the data synchronized. The snapshots of the criteria indicators must have the same date as the last score date of the main indicator. Ideally, the main indicator and all the criteria indicators are in the same data collection job.

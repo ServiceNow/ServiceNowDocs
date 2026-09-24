@@ -3,18 +3,18 @@ title: Oracle
 description: The Oracle connector provides read-only access to data and metadata from an Oracle database.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/oracle-zcc.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Primary connectors, Zero Copy Connectors, Workflow Data Fabric]
+breadcrumb: [Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
 # Oracle
 
 The Oracle connector provides read-only access to data and metadata from an Oracle database.
 
-A connection admin can set up a connection to Oracle in the Zero Copy Connector Hub and grant data stewards access to this connection. Data stewards can then use the established connection to create a data fabric table and map data from Oracle. This allows users to access Oracle data through the table list view or by using GlideRecord scripts. For details on creating data fabric tables and mapping data, see [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-data-fabric-tables-zcc.md).
+A connection admin can set up a connection to Oracle in the Zero Copy Connector Hub and grant data stewards access to this connection. Data stewards can then use the established connection to create a data fabric table and map data from Oracle. This allows users to access Oracle data through the table list view or by using GlideRecord scripts. For details on creating data fabric tables and mapping data, see [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/managing-data-fabric-tables-zcc.md).
 
 The connector has been enhanced to improve the performance of the following Glide queries and list view operations. These improvements allow the majority of queries to be executed at the data source.
 
@@ -54,5 +54,5 @@ The following table lists supported Oracle data types and the default matching d
 **Related topics**  
 
 
-[Create an Oracle connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-oracle-connection-zcc.md)
+[Create an Oracle connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-oracle-connection-zcc.md)
 

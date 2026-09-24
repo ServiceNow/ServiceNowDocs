@@ -3,9 +3,9 @@ title: Create rules for calculating pricing of sold products with MACD changes
 description: Set different price points for calculating the pricing of sold products that undergo MACD changes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/set-up-MACD-pricing-differences.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing the price basis for MACD products, Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---

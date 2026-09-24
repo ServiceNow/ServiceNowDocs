@@ -1,20 +1,20 @@
 ---
 title: Quality issue management tables
-description: This section explains quality issue management \(QIM\) tables in Manufacturing Commercial Operations.
+description: The QIM feature adds and modifies database tables in Manufacturing Commercial Operations for case management and root cause analysis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-quality-issue-management-tables.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quality issue management data model, Data model, Reference, Manufacturing Commercial Operations]
 ---
 
 # Quality issue management tables
 
-This section explains quality issue management \(QIM\) tables in Manufacturing Commercial Operations.
+The QIM feature adds and modifies database tables in Manufacturing Commercial Operations for case management and root cause analysis.
 
-## QIM plugin
+## QIM tables
 
 The QIM feature adds or modifies the existing tables:
 
@@ -24,7 +24,7 @@ The QIM feature adds or modifies the existing tables:
 -   Case
 -   Complaint case \[sn\_complaint\_case\]
 
-The QIM plugin adds the following tables.
+The QIM feature adds the following tables.
 
 <table id="table_mrd_cmf_whc"><thead><tr><th>
 
@@ -48,7 +48,7 @@ Product Quality Investigation Task\[sn\_mfg\_qm\_prd\_qi\_task\]
 
 </td><td>
 
-Creates tasks for performing activities related to studying and gather further information on Quality Issue.
+Creates tasks for performing activities related to studying and gathering further information about the quality issue.
 
 </td></tr><tr><td>
 
@@ -152,7 +152,7 @@ CoPQ Planned Line Charge\[sn\_rm\_core\_copq\_planned\_line\_charge\]
 
 </td><td>
 
-Defines planned cost line items for CoPQ financial requests, with unit cost, quantity, and type.
+Defines planned cost line items for cost of poor quality \(CoPQ\) financial requests, with unit cost, quantity, and type.
 
 </td></tr><tr><td>
 
@@ -203,5 +203,5 @@ Impacted Asset Action\[sn\_mfg\_qm\_impacted\_asset\_action\]
 Links actions to impacted assets for issue resolution tracking.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Quality issue management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-quality-issue-management-data-model.md)
+</table>**Parent Topic:**[Quality issue management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-quality-issue-management-data-model.md)
 

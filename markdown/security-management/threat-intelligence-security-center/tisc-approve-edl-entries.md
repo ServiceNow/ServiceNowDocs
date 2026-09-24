@@ -3,11 +3,11 @@ title: Approve EDL entries for Palo Alto Networks
 description: Approving External Dynamic List \(EDL\) entries is part of the pre configuration. You must approve the EDL entries before the entries are activated on EDLs for the firewall to retrieve the entry and apply the security policy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-approve-edl-entries.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Palo Alto Networks integration, Firewall integration, TISC Security Tools integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
@@ -40,15 +40,15 @@ When the approval process is enabled, an EDL entry is not activated or deactivat
 
 7.  Choose the option for approving the EDL entry.
 
-<table id="choicetable_xbq_cvh_vdb"><thead><tr><th align="left" id="d256506e121">
+<table id="choicetable_xbq_cvh_vdb"><thead><tr><th align="left" id="d256215e121">
 
 Option
 
-</th><th align="left" id="d256506e124">
+</th><th align="left" id="d256215e124">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d256506e130">
+</th></tr></thead><tbody><tr><td id="d256215e130">
 
 **Approve**
 
@@ -56,7 +56,7 @@ Description
 
 On the entry record, the **Status** field changes to `Added`, and the **Active** check box is selected. The **Deactivate** button is displayed and active.Work notes show that the request for the EDL entry has been approved.
 
-</td></tr><tr><td id="d256506e154">
+</td></tr><tr><td id="d256215e154">
 
 **Reject**
 
@@ -70,5 +70,5 @@ On the entry record, the Status field changes to **Rejected**, and the **Active*
     \[Omitted image "tisc-edl-approved-entry.png"\] Alt text: Approved EDL entry.
 
 
-**Parent Topic:**[Palo Alto Networks integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/palo-alto-networks-integration.md)
+**Parent Topic:**[Palo Alto Networks integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/palo-alto-networks-integration.md)
 

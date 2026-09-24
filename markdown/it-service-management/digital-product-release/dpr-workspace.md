@@ -3,11 +3,11 @@ title: Digital Product Release Workspace
 description: The Digital Product Release Workspace provides a single location for release admins to define release processes and release readiness targets. Product managers can use it to create and manage products and features, define the scope in versions, and plan and execute releases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-workspace.html
-release: australia
+release: brazil
 product: Digital Product Release
 classification: digital-product-release
 topic_type: concept
-last_updated: "2026-08-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Digital Product Release, IT Service Management]
 ---
@@ -82,9 +82,9 @@ The following is an example of the workspace landing page for the Digital Produc
 
 In the workspace, you can use the Playbook to create release templates.
 
-The following is an example of a release template playbook. For more information, see [Create a release template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-create-release-template.md).
+The following is an example of a release template playbook. For more information, see [Create a release template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-create-release-template.md).
 
 \[Omitted image "dpr-workspace-rls-template.png"\] Alt text: Release template Playbook in Digital Product Release Workspace.
 
-**Parent Topic:**[Exploring Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-exploring-digital-product-release.md)
+**Parent Topic:**[Exploring Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-exploring-digital-product-release.md)
 

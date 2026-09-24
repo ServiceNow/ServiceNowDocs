@@ -3,11 +3,11 @@ title: SIR Workspace features
 description: The Security Incident Response Workspace consists of the following key features.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/key-features.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -26,7 +26,7 @@ The Security Incident Response Workspace consists of the following key features.
 
 \[Omitted image "key-features-section.png"\] Alt text: SIR workspace key features
 
-**Parent Topic:**[Exploring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/exploring-security-incident-response-workspace.md)
+**Parent Topic:**[Exploring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/exploring-security-incident-response-workspace.md)
 
 **Related topics**  
 

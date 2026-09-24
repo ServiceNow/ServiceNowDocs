@@ -3,9 +3,9 @@ title: Create document list item definitions for a document list definition
 description: Create document list item definitions for a document list definition. For example, for the Proof of Name Change document category, the document list item could be Name change of customer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/doc-processor-associate-document-list-items-to-category.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Document Processor, Integrate, Financial Services Operations \(FSO\)]
 ---
@@ -108,11 +108,11 @@ OCR processing needed
 
 </td><td>
 
-Option to require text or data to be automatically extracted from the document list item definition using optical character recognition. For more information, see [Integrating with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/integration-with-document-intelligence.md).
+Option to require text or data to be automatically extracted from the document list item definition using optical character recognition. For more information, see [Integrating with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/integration-with-document-intelligence.md).
 
 </td></tr></tbody>
 </table>5.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring Financial Services Operations Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configuring-fso-document-processor.md)
+**Parent Topic:**[Configuring Financial Services Operations Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configuring-fso-document-processor.md)
 

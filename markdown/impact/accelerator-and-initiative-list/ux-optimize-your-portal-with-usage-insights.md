@@ -3,14 +3,14 @@ title: UX: Optimize Your Portal with Usage Insights
 description: This Accelerator provides guidance to customers on how to measure, monitor and analyze user behavior with UX analytics to identify and prioritize portal improvements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/ux-optimize-your-portal-with-usage-insights.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [UX, User Experience, Portal Optimization, Usage Insights, Analytics, Employee Center]
-breadcrumb: [Architecture Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # UX: Optimize Your Portal with Usage Insights

@@ -3,9 +3,9 @@ title: Components installed with Buying Group
 description: Several types of components are installed with activation of the Buying Group\[var.buying-group\] plugin, including user roles and tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/components-installed-buying-group.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-06-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sales automation, Reference, Sales Customer Relationship Management]
 ---
@@ -104,5 +104,5 @@ Opportunity Buying Group
 Association records that link buying groups to opportunities, enabling sellers to connect a purchasing committee to one or more active deals.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Sales automation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reference-lead-opportunity-mgt.md)
+</table>**Parent Topic:**[Sales automation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/reference-lead-opportunity-mgt.md)
 

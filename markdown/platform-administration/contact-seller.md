@@ -3,9 +3,9 @@ title: Contact a seller
 description: Contact the provider of an app through the ServiceNow Store to ask questions about the app and its procurement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/contact-seller.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [servicenow store, store, app store, application store, app store user documentation, servicenow app store, message seller, contact app provider, message app provider, app provider contact info, app seller contact info]
 breadcrumb: [Getting apps, ServiceNow Store, Administering applications, Get started, Administer the ServiceNow AI Platform]
@@ -23,7 +23,7 @@ If an app is provided by a partner of ServiceNow, you can contact the provider t
 
 If you have questions about an app offered by ServiceNow, contact your account executive or a ServiceNow sales representative.
 
-**Note:** If your organization uses a federal or regulated instance of the ServiceNow Store, the **Contact Seller** button is unavailable. Instead, navigate to the **Contacts** section of the listing details using the side menu or select **View seller profile**, then use the contact information provided to contact the seller directly. For more information about getting applications in regulated environments, see [Using the ServiceNow Store in a regulated environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/using-regulated-store.md).
+**Note:** If your organization uses a federal or regulated instance of the ServiceNow Store, the **Contact Seller** button is unavailable. Instead, navigate to the **Contacts** section of the listing details using the side menu or select **View seller profile**, then use the contact information provided to contact the seller directly. For more information about getting applications in regulated environments, see [Using the ServiceNow Store in a regulated environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/using-regulated-store.md).
 
 ## Procedure
 
@@ -31,15 +31,15 @@ If you have questions about an app offered by ServiceNow, contact your account e
 
 2.  On the contact form, fill in the fields, which depend on whether you're logged in with your Now Support credentials.
 
-<table id="choicetable_z3s_bpn_bdc"><thead><tr><th align="left" id="d312898e155">
+<table id="choicetable_z3s_bpn_bdc"><thead><tr><th align="left" id="d310870e155">
 
 Logged in status
 
-</th><th align="left" id="d312898e158">
+</th><th align="left" id="d310870e158">
 
 Fields displayed
 
-</th></tr></thead><tbody><tr><td id="d312898e164">
+</th></tr></thead><tbody><tr><td id="d310870e164">
 
 **Logged in**
 
@@ -47,7 +47,7 @@ Fields displayed
 
 Provide the reason for contacting the seller and your message.
 
-</td></tr><tr><td id="d312898e173">
+</td></tr><tr><td id="d310870e173">
 
 **Not logged in**
 
@@ -55,7 +55,7 @@ Provide the reason for contacting the seller and your message.
 
 On the guest contact form, fill in the fields.
 
- For a description of the field values, see [Guest contact form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/guest-contact-form-fields.md).
+ For a description of the field values, see [Guest contact form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/guest-contact-form-fields.md).
 
 </td></tr></tbody>
 </table>3.  Select **Send** to submit the form.

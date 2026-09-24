@@ -3,11 +3,11 @@ title: Start the analysis job
 description: Start the analysis job for an Automation project to begin generating automation opportunities and insights.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/start-automation-project-job.html
-release: australia
+release: brazil
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 keywords: [automation project, analysis job, LEAP configuration]
 breadcrumb: [Manage automation projects, Use, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]

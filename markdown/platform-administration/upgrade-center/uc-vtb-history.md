@@ -3,11 +3,11 @@ title: Skipped Records visual task board \(VTB\)
 description: View the resolution status of any previous upgrade with skipped records using the visual task board \(VTB\) view. An upgrade history record is created for each upgrade that is run.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-center/uc-vtb-history.html
-release: australia
+release: brazil
 product: Upgrade Center
 classification: upgrade-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reviewing upgrade history, Using Upgrade Center, Upgrade Center, Upgrade, Administer the ServiceNow AI Platform]
 ---

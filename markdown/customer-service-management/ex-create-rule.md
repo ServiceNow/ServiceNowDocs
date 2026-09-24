@@ -3,9 +3,9 @@ title: Create a rule from the Case context record
 description: Create a rule to show recommendations for active cases that meet the condition specified in this rule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ex-create-rule.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Example: Link the similar major case to the current case, Example configurations, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -46,7 +46,7 @@ New rules can only be created from context records.
 
 8.  Enable the **Apply to tables extended from the context table** check box, so that the rule and its recommendations are applied to tables that are extended from the context table.
 
-    For more information, see [Apply rules to tables extended from the context table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-rules.md).
+    For more information, see [Apply rules to tables extended from the context table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-csm-rules.md).
 
 9.  In the **Field affecting this rule** field, select Short description from the slush bucket.
 

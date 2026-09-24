@@ -3,9 +3,9 @@ title: Reference additional records in decision records
 description: You can customize the default values of the sn\_apm\_ws.record\_mention\_config system property, to enable the tagging of additional record tables in an architectural decision record \(ADR\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-update-system-property-to-allow-tagging-of-additional-records-in-adr-doc.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage architectural decision records \(ADR\), Working with information portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -46,21 +46,21 @@ Role required: sn\_apm.apm\_admin
     -   **label**: Enter the name of the source table that will be displayed in the **Mention a record** context menu when you enter **/** in the ADR docs component.
 4.  Select **Update**.
 
-    You can start tagging records from the new table in the ADR docs component. For more information, see [Tag users or records in Architectural Decision Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-tag-users-or-records-in-adr.md).
+    You can start tagging records from the new table in the ADR docs component. For more information, see [Tag users or records in Architectural Decision Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-tag-users-or-records-in-adr.md).
 
 
-**Parent Topic:**[Manage architectural decision records \(ADR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-adr.md)
+**Parent Topic:**[Manage architectural decision records \(ADR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-manage-adr.md)
 
 **Related topics**  
 
 
-[Tag users or records in Architectural Decision Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-tag-users-or-records-in-adr.md)
+[Tag users or records in Architectural Decision Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-tag-users-or-records-in-adr.md)
 
-[Add or edit an architectural decision record \(ADR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-edit-adr.md)
+[Add or edit an architectural decision record \(ADR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-edit-adr.md)
 
-[Request approval for an ADR version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-request-approval-adr.md)
+[Request approval for an ADR version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-request-approval-adr.md)
 
-[Create and manage pages and subpages for ADRs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-and-mng-page-subpage-for-adr.md)
+[Create and manage pages and subpages for ADRs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-and-mng-page-subpage-for-adr.md)
 
-[Add an architectural decision record version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-an-adr-version.md)
+[Add an architectural decision record version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-add-an-adr-version.md)
 

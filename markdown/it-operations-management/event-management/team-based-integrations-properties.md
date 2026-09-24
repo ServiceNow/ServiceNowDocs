@@ -3,11 +3,11 @@ title: Team-based integration properties
 description: Team-based integration system properties enable you to customize the assignment group functionality for existing and new customers for event rules and event field mapping.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/team-based-integrations-properties.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -53,5 +53,5 @@ Activates team-based functionality for executing event rules and event field-map
     -   True - for new customers
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-management-reference.md)
+</table>**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/event-management-reference.md)
 

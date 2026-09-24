@@ -3,11 +3,11 @@ title: Transfer a Connect Support conversation to a different agent or queue
 description: You can transfer a Connect Support conversation to a different agent in the queue or to a different queue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/t\_TransferAConnectSupportConvo.html
-release: australia
+release: brazil
 product: Connect
 classification: connect
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Connect Support, Connect, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -34,7 +34,7 @@ Role required: none
 
 4.  Do one of the following actions.
 
-<table id="choicetable_sqn_4bl_wt"><tbody><tr><td id="d455148e94">
+<table id="choicetable_sqn_4bl_wt"><tbody><tr><td id="d453305e94">
 
 **Transfer the conversation to an agent**
 
@@ -53,7 +53,7 @@ You can cancel the transfer any time before it is accepted.
     -   Leave: Exit the conversation, which is also known as a cold transfer.
 
 
-</td></tr><tr><td id="d455148e138">
+</td></tr><tr><td id="d453305e138">
 
 **Transfer the conversation to a queue**
 

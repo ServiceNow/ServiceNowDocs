@@ -3,9 +3,9 @@ title: Offline record reconciliation
 description: Configure offline mode to include associated records in the offline cache when users perform an action in online mode.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/offline-record-reconciliation.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Action items/action steps, Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -33,8 +33,8 @@ If the user loses connectivity again before the offline cache is refreshed, the 
 
 When write-back actions create records during offline execution, the `addRecordForSync()` method verifies that the record created on the instance during the online step is properly associated with the record created locally on the device. During synchronization, the platform updates the local record with the permanent `sys_id` and reconciles the two records so that they represent the same entity.
 
--   **[Register associated records in the offline cache](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/register-assoc-records-offline-cache.md)**  
+-   **[Register associated records in the offline cache](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/register-assoc-records-offline-cache.md)**  
 Configure a write-back action step by adding an execution script that registers newly created instance records for synchronization. Local and server-side records are then reconciled when connectivity is restored, preventing duplicate records.
 
-**Parent Topic:**[Using action items and action item steps in ofﬂine mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/offline-action-item-steps.md)
+**Parent Topic:**[Using action items and action item steps in ofﬂine mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/offline-action-item-steps.md)
 

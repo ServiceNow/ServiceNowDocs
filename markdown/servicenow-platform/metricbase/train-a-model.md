@@ -3,11 +3,11 @@ title: Create and train a predictive model
 description: Use statistical models to determine significant anomalies in real-time using MetricBase triggers. You will need to train a model using representative data that has already been stored in MetricBase.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/metricbase/train-a-model.html
-release: australia
+release: brazil
 product: MetricBase
 classification: metricbase
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Detecting anomalies, Define and collect data, MetricBase, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -142,5 +142,5 @@ Option to use the trained model. Once the model is active it becomes available f
 
 ## What to do next
 
-You can create a Workflow Studio trigger for this model. For more information, see [Create a model trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/create-metricbase-model-trigger.md).
+You can create a Workflow Studio trigger for this model. For more information, see [Create a model trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/metricbase/create-metricbase-model-trigger.md).
 

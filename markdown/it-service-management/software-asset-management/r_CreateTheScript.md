@@ -3,11 +3,11 @@ title: Create a custom script for a legacy Software Asset Management plugin lice
 description: By default, the Script field in the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin Software License Calculation form contains information about available variables and an example script.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/r\_CreateTheScript.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [License calculations with the legacy Software Asset Management plugin, Legacy Software Asset Management plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
@@ -45,5 +45,5 @@ The following script uses the number of rights equal to the number of CPU socket
 
 \[Omitted image "SAMCustomCalculationType.png"\] Alt text: SAM custom calculation type
 
-**Parent Topic:**[License calculations with the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_UseLicenseCalculations.md)
+**Parent Topic:**[License calculations with the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management/c_UseLicenseCalculations.md)
 

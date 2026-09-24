@@ -3,11 +3,11 @@ title: Configure pattern based alert grouping
 description: Configure the Alert Aggregation Learner \(Service Analytics Alert Aggregation Learner - Daily\), an offline job that runs daily to process past alerts. It identifies patterns of related alerts using a combination of pattern-based and probabilistic techniques, enabling quicker detection and resolution of recurring issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-alert-aggregation.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Automated alert grouping, Alert grouping types and creation methods, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---

@@ -3,11 +3,11 @@ title: Access Service Catalog categories in Service Portal
 description: Access Service Catalog categories to access the catalog items within.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/access-categories-portal.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Service Catalog in Service Portal, Integrating Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -34,7 +34,7 @@ Role required: requester
 
 3.  In the **Catalogs** section, select the required catalog from the list.
 
-    For information on how you can configure a catalog, see [Configure a catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/associate-portal-catalog.md).
+    For information on how you can configure a catalog, see [Configure a catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/associate-portal-catalog.md).
 
     **Note:**
 
@@ -57,7 +57,7 @@ Role required: requester
     **Note:** When you access a catalog item from the Catalog landing page or type ahead search results, the breadcrumb of the item displays the path based on the primary category configured on that item. When you access the item from a specific category, the breadcrumb of the item displays the path based on that category.
 
 
-**Parent Topic:**[Service Catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-on-portal.md)
+**Parent Topic:**[Service Catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/catalog-on-portal.md)
 
 **Related topics**  
 
@@ -70,5 +70,5 @@ Role required: requester
 
 [Request an order guide from Service Portal]()
 
-[SC Categories widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/sc-categories-widget.md)
+[SC Categories widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/sc-categories-widget.md)
 

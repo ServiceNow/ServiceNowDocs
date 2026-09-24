@@ -3,11 +3,11 @@ title: Create a SCIM Provider
 description: Create a SCIM Provider to fetch resource types and schemas information from the SCIM Provider with the REST message. Enable the configuration of the HTTP Method \(PUT or PATCH\) to update a resource in the SCIM Provider.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/create-scim-provider.html
-release: australia
+release: brazil
 product: Identity
 classification: identity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SCIM Client, System for Cross-domain Identity Management \(SCIM\), Identity]
 ---
@@ -33,7 +33,7 @@ Roles required: scim\_client\_config\_admin
     |Field|Description|
     |-----|-----------|
     |Name|Name of the SCIM Provider|
-    |Outbound REST Message|Message that is used to call the API of the SCIM Provider. For more information, see [Create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/create-a-rest-message.md).|
+    |Outbound REST Message|Message that is used to call the API of the SCIM Provider. For more information, see [Create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/identity/create-a-rest-message.md).|
     |HTTP Method for Update|Type of HTTPS method that is used for updating the resource mapping. The PATCH or PUT method can be used by the Client while updating the identity resource during the provision of an already existing resource.|
 
     **Note:**
@@ -47,5 +47,5 @@ Roles required: scim\_client\_config\_admin
 
 ## Result
 
-The SCIM Provider details are created successfully. Use the SCIM Provider Resource Mapping to map the SCIM Provider details to the resources such as users or groups. For more information, see [Create a SCIM Provider Resource Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/scim-provider-resource-mapping.md).
+The SCIM Provider details are created successfully. Use the SCIM Provider Resource Mapping to map the SCIM Provider details to the resources such as users or groups. For more information, see [Create a SCIM Provider Resource Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/identity/scim-provider-resource-mapping.md).
 

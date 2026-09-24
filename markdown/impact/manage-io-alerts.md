@@ -3,9 +3,9 @@ title: Manage Instance Observer alerts
 description: Act on Instance Observer \(IO\) threshold alerts directly from the notification.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/manage-io-alerts.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use alerts to monitor your instance, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
@@ -54,5 +54,5 @@ Role required: admin
 9.  For further investigation, select **Create a Case** and submit the captured summary information.
 
 
-**Parent Topic:**[Use alerts to monitor your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-alerts-intro.md)
+**Parent Topic:**[Use alerts to monitor your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/io-alerts-intro.md)
 

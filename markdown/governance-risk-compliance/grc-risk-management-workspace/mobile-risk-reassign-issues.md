@@ -3,11 +3,11 @@ title: Reassign overdue Risk Management issues with the GRC Mobile application
 description: Reassign overdue Risk Management issues that are assigned to your assignment group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/mobile-risk-reassign-issues.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-04-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Mobile experience for GRC Risk Management, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -22,23 +22,29 @@ Role required: GRC Risk manager \(sn\_risk.manager\)
 
 ## About this task
 
-Edit or reassign a task directly from the list of records. Alternatively, add a work note or navigate through the record to view more details about the Risk Statement, the Risk record, and associated Remediation Tasks before reassignment. If an issue is not assigned to your assignment group, it is not displayed on this list. Time to complete this task: 5-10 minutes.
+Edit or reassign a task directly from the list of records. Alternatively, add a work note or navigate through the record to view more details about the Risk Statement, the Risk record, and associated Remediation Tasks prior to reassignment. If an issue is not assigned to your assignment group, it is not displayed on this list. Time to complete this task: 5-10 minutes.
 
 ## Procedure
 
-1.  If you're not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/mobile-login-risk-mobileapp.md).
+1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/mobile-login-risk-mobileapp.md).
 
 2.  With the Risk landing screen displayed, under the `Team's Overdue Work` section, tap **Issues**.
 
     If you navigate away from the GRC Mobile application after you have logged in, tap the Now Agent app at any time to return to the last screen you had displayed.
 
+    \[Omitted image "mobile\_Risk\_overview-app-redo.png"\] Alt text: Overdue issues applet highlighted.
+
     The Issues screen is displayed with a list of records.
 
-3.  See [Filter records with the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/mobile-risk-set-filters.md) to search for records that match specific search criteria.
+    \[Omitted image "mobile\_risk\_OW\_list.png"\] Alt text: Overdue issues list of records.
+
+3.  See [Filter records with the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/mobile-risk-set-filters.md) to search for records that match specific search criteria.
 
     Filtering records on screens in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform. Setting filters can reduce the number of records that are displayed on screens.
 
 4.  To edit or reassign a task directly from the list of records displayed on the Issues screen, swipe left on a record to open the menu.
+
+    \[Omitted image "mobile\_risk\_OD\_swipe.jpg"\] Alt text: Swipe action on overdue issues list.
 
 5.  In the menu that is displayed, choose one to continue.
 
@@ -51,15 +57,17 @@ Edit or reassign a task directly from the list of records. Alternatively, add a 
 
 7.  With the fields on the issue record displayed, choose one in the following table to continue.
 
-<table id="choicetable_adf_df2_yhb"><thead><tr><th align="left" id="d250414e206">
+    \[Omitted image "mobile\_risk\_OD\_issue\_record.jpg"\] Alt text: Overdue issue record details.
+
+<table id="choicetable_adf_df2_yhb"><thead><tr><th align="left" id="d253079e248">
 
 Option
 
-</th><th align="left" id="d250414e209">
+</th><th align="left" id="d253079e251">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d250414e215">
+</th></tr></thead><tbody><tr><td id="d253079e257">
 
 **Details tab**
 
@@ -73,7 +81,7 @@ Tap the **Control Objective/Risk Statement** field to expand it. A list of recor
 -   At the top right of the screen with the Issue record displayed, tap the menu icon \( \[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon.\) to edit and reassign the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d250414e256">
+</td></tr><tr><td id="d253079e298">
 
 **Activity Stream tab**
 
@@ -83,7 +91,7 @@ With the Activity Stream tab selected, choose one to continue.-   View work note
 -   At the top right of the screen, tap the menu icon \( \[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon.\) to edit and reassign the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d250414e286">
+</td></tr><tr><td id="d253079e328">
 
 **Tap the Related List tab.**
 
@@ -95,7 +103,7 @@ With the Related List tab selected, follow these steps.
 2.  After your review, navigate back to the open record on the Issue screen and tap the menu icon \( \[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon.\) to reassign or edit the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d250414e316">
+</td></tr><tr><td id="d253079e358">
 
 **Tap a screen icon at the bottom of the screen.**
 
@@ -110,5 +118,5 @@ On the bottom of the screen, choose one to continue.-   Tap the Risk icon to ret
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Mobile experience for GRC Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/mobile-risk-overview.md)
+**Parent Topic:**[Mobile experience for GRC Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/mobile-risk-overview.md)
 

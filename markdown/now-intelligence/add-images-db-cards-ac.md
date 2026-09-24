@@ -3,7 +3,7 @@ title: Add images to Platform Analytics dashboard cards
 description: Distinguish the cards in the dashboard overview with uploaded images.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/add-images-db-cards-ac.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2023-11-09"
 reading_time_minutes: 1
@@ -67,5 +67,5 @@ The image appears on the dashboard's card in the dashboard overview.
 
 \[Omitted image "par-db-card-w-image.png"\] Alt text: Dashboard overview with one card featuring the uploaded image
 
-**Parent Topic:**[Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-db-in-ac.md)
+**Parent Topic:**[Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/edit-db-in-ac.md)
 

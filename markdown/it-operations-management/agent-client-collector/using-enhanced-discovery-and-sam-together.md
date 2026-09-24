@@ -3,11 +3,11 @@ title: Using push-based Discovery and SAM together
 description: Agent Client Collector for Visibility Content \(ACC-VC\) collects installed software data for use cases for Software Asset Management \(SAM\), when the SAM plugin is installed. Using push-based Discovery and SAM together can help optimize software data collection with SAM basic metering and SAM total usage metrics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/using-enhanced-discovery-and-sam-together.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 keywords: [Agent Client Collector, Agent Client Collector for Visibility, ACC for Visibility]
 breadcrumb: [ACC Discovery, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
@@ -32,7 +32,7 @@ The software usage records are domain separated. The records are populated with 
     To apply SAM basic metering or SAM total usage metrics, you need the following:
 
     -   SAM plugin \(com.snc.samp\) enabled
-    -   System property \[**sn\_acc\_vis\_content.persist\_sam\_usage\_metrics**\] set to true. See [System properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) for more details.
+    -   System property \[**sn\_acc\_vis\_content.persist\_sam\_usage\_metrics**\] set to true. See [System properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_AvailableSystemProperties.md) for more details.
     -   Write permissions enabled for the log folder in the ACC install directory.
     -   In a Windows environment: For maximum efficiency, run ACC with the Local System account \(on the agent, set **Log On As = Local System**\).
     For details on SAM metering setup with the Agent Client Collector, see the Knowledge Base article [KB1642676](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1642676).
@@ -148,7 +148,7 @@ Restart-Service osqueryd
 
 ```
 
-For details on Windows and macOS see [Configure Osqueryd schedule for SAM total usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/import-external-pack-file-for-sam-total-usage-metrics.md) and [Configure Osqueryd logs for SAM total usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/configure-osquery-logs-for-sam-total-usage-metrics.md).
+For details on Windows and macOS see [Configure Osqueryd schedule for SAM total usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/import-external-pack-file-for-sam-total-usage-metrics.md) and [Configure Osqueryd logs for SAM total usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/configure-osquery-logs-for-sam-total-usage-metrics.md).
 
 ## Collecting SAM metrics without osqueryd
 
@@ -158,7 +158,7 @@ To perform non-osqueryd data collection:
 
 1.  Ensure that the following permissions are configured for the relevant OS:
     -   Windows: The ACC service must run as the Local System account. Set the ACC service's Log On As value to **Local System**.
-    -   macOS: The `servicenow` user must be able to run osqueryi without a password. For information about `servicenow` user permissions for osqueryi, see [Configure ServiceNow sudoers file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/config-sudoers-file.md).
+    -   macOS: The `servicenow` user must be able to run osqueryi without a password. For information about `servicenow` user permissions for osqueryi, see [Configure ServiceNow sudoers file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/config-sudoers-file.md).
 2.  On the System Properties page \(**All** &gt; **System properties** &gt; **All properties**\), set the **sn\_acc\_vis\_content.enable\_sam\_collection\_without\_osqueryd** property to **true**.
 
     **Note:**
@@ -173,7 +173,7 @@ Edition information is supported for Adobe Acrobat and MS SQL server. With this 
 **Related topics**  
 
 
-[Configure Osqueryd schedule for SAM total usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/import-external-pack-file-for-sam-total-usage-metrics.md)
+[Configure Osqueryd schedule for SAM total usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/import-external-pack-file-for-sam-total-usage-metrics.md)
 
-[Configure Osqueryd logs for SAM total usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/configure-osquery-logs-for-sam-total-usage-metrics.md)
+[Configure Osqueryd logs for SAM total usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/configure-osquery-logs-for-sam-total-usage-metrics.md)
 

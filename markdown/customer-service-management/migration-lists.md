@@ -1,20 +1,20 @@
 ---
 title: Lists
-description: Learn about how Workspace lists function with Configurable Workspace.
+description: Learn about how Workspace lists function with CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/migration-lists.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Migrate to CRM Workspace, Migrating to Configurable Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Migrate to CRM Workspace, Migrating to CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Lists
 
-Learn about how Workspace lists function with Configurable Workspace.
+Learn about how Workspace lists function with CRM Workspace.
 
-The list view displays filtered lists of records, such as All tasks, Open tasks, and My tasks. By setting up list categories and filtered lists, you help your agents quickly find the records they need to work on. Configure your Workspace lists setups in Configurable Workspace.
+The list view displays filtered lists of records, such as All tasks, Open tasks, and My tasks. By setting up list categories and filtered lists, you help your agents quickly find the records they need to work on. Configure your Workspace lists setups in CRM Workspace.
 
 ## List Menu Configuration
 
@@ -24,7 +24,7 @@ The Menu Configuration is a container that houses the default configurations of 
 |-----------------|--------------|
 |No corresponding table|sys\_ux\_list\_menu\_config|
 
-The List Menu setup is added by default to Configurable Workspace. Associate your list and list categories with this configuration.
+The List Menu setup is added by default to CRM Workspace. Associate your list and list categories with this configuration.
 
 ## List categories
 

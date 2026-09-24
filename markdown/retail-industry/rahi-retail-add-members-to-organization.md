@@ -3,9 +3,9 @@ title: Add members to a retail organization
 description: Add members to your organization to enable them to view and complete tasks within your retail organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-add-members-to-organization.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Retail]
 ---
@@ -105,5 +105,5 @@ The type of member. Options are: -   Store associate
 
 ## What to do next
 
-Ensure that this member has the appropriate role. For more information, see [Assign roles to Retail users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-assign-roles-users.md).
+Ensure that this member has the appropriate role. For more information, see [Assign roles to Retail users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-assign-roles-users.md).
 

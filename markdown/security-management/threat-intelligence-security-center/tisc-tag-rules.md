@@ -3,11 +3,11 @@ title: Configure Tagging Rules in TISC
 description: Use tagging rules to automatically assign tags and taxonomies to RSS feeds. Tagging rules evaluate incoming feed data based on defined criteria and apply the appropriate tags and taxonomies when a match is found.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-tag-rules.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [About Rules Engine in TISC, Administer, Threat Intelligence Security Center, Security Operations]
 ---

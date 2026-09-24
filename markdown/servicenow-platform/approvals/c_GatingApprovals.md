@@ -3,11 +3,11 @@ title: Gating approvals
 description: A gating approval acts as a gate through which a request must pass before it can start.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/approvals/c\_GatingApprovals.html
-release: australia
+release: brazil
 product: Approvals
 classification: approvals
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Approval rules, Classic approvals, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -25,17 +25,17 @@ Generate gating approvals with:
 |Approval rules|Can apply to the service catalog as well as any other task table.|
 |Item-based approvals|Flag specific catalog items as requiring specific approvals. Any requests for these items automatically require these approvals.|
 
--   **[Set up a gating approval via an approval rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/t_SetUpAGatingApprViaApprovalRule.md)**  
+-   **[Set up a gating approval via an approval rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/approvals/t_SetUpAGatingApprViaApprovalRule.md)**  
 You can set up a gating approval via an approval rule.
--   **[Set up a gating approval based on the item being ordered](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/c_SetUpGatingApprBasedOnOrdItem.md)**  
+-   **[Set up a gating approval based on the item being ordered](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/approvals/c_SetUpGatingApprBasedOnOrdItem.md)**  
 In addition to adding approvals via approval rules, you can also add approvals based on what kind of item is being ordered.
 
-**Parent Topic:**[Approval rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/c_ApprovalRules.md)
+**Parent Topic:**[Approval rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/approvals/c_ApprovalRules.md)
 
 **Related topics**  
 
 
-[Set up a gating approval via an approval rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/t_SetUpAGatingApprViaApprovalRule.md)
+[Set up a gating approval via an approval rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/approvals/t_SetUpAGatingApprViaApprovalRule.md)
 
-[Set up a gating approval based on the item being ordered](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/c_SetUpGatingApprBasedOnOrdItem.md)
+[Set up a gating approval based on the item being ordered](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/approvals/c_SetUpGatingApprBasedOnOrdItem.md)
 

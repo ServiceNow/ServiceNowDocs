@@ -3,11 +3,11 @@ title: Report a compliance case through email
 description: Report a compliance issue by sending an email to your organization's compliance mailbox. This creates a compliance case automatically in Compliance Case Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/report-comp-case-email.html
-release: australia
+release: brazil
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: task
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Report compliance case, Use, Compliance Case Management, Governance, Risk, and Compliance]
 ---
@@ -83,5 +83,5 @@ For a compliance admin, the case will be visible in **Compliance workspace** &gt
 
 Any reply sent by the admin appears in the Email related list of the compliance case.
 
-**Parent Topic:**[Reporting a compliance case in GRC: Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/reporting-compliance-case.md)
+**Parent Topic:**[Reporting a compliance case in GRC: Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/reporting-compliance-case.md)
 

@@ -3,11 +3,11 @@ title: Purchase order expected delivery date
 description: The purchase order record and the purchase order line item record both contain the Expected delivery date field.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/procurement/r\_SetExpectDelDateOnPurchOrder.html
-release: australia
+release: brazil
 product: Procurement
 classification: procurement
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a purchase order, Procurement purchase order management for assets, Procurement, Common applications, Asset Management]
 ---
@@ -24,5 +24,5 @@ The **Expected delivery** field can be edited on both records. Editing the field
 -   If you change the date on the purchase order line item to a date that is later than the one specified on the purchase order, the date on the purchase order is changed to the new date. The expected delivery date of a purchase order line item cannot be later than the expected delivery date on the associated purchase order.
 -   If you change the date on the purchase order line item to a date that is earlier than the date specified on the purchase order, the date on the purchase order remains the same.
 
-**Parent Topic:**[Create a purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/t_CreateAPurchaseOrder.md)
+**Parent Topic:**[Create a purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/procurement/t_CreateAPurchaseOrder.md)
 

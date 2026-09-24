@@ -3,11 +3,11 @@ title: Create a project task in the project workbench
 description: Create a project task for a waterfall phase.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_CreateProjTaskProjWorkbench.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing Project workbench, Using Project workbench - Legacy, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -24,10 +24,10 @@ Role required: it\_project\_manager
 
 While creating a project task in the project workbench, the time constraint type is defaulted based on the project type.
 
--   For a manual project, the default constraint is Start On and cannot be changed.
+-   For a manual project, the default constraint is Start On and can't be changed.
 -   For an automatic project, the default constraint is Start ASAP and can be changed to Start On if required.
 -   When the constraint is Start ASAP, the **Planned start date** is disabled.
--   When you create an agile phase and associate a sprint, the start date of the task is set from the sprint start date and the constraint becomes Start On automatically.
+-   When you create an agile phase and associate a sprint, the task start date is set from the sprint start date. The constraint is set to Start On automatically.
 
 ## Procedure
 
@@ -40,7 +40,7 @@ While creating a project task in the project workbench, the time constraint type
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Managing Project workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_UsingProjectWorkbench.md)
+**Parent Topic:**[Managing Project workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_UsingProjectWorkbench.md)
 
 **Related topics**  
 
@@ -53,5 +53,5 @@ While creating a project task in the project workbench, the time constraint type
 
 [Create a test case in the project workbench]()
 
-[Managing Project workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_UsingProjectWorkbench.md)
+[Managing Project workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_UsingProjectWorkbench.md)
 

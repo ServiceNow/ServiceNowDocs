@@ -3,9 +3,9 @@ title: Create an account relationship record
 description: Create an account relationship record by selecting the account relationship type and then selecting the accounts involved in the relationship.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_CreateAcctRelationshipRecord.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Bi-directional account relationships, Create customer relationships, Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---

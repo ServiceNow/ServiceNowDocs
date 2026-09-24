@@ -3,11 +3,11 @@ title: Event log monitoring configurations installed with DEX
 description: The Application and Device Health plugin \(com.sn\_dex\) installs 20 event log monitoring configurations that are active by default. Use this reference to identify the monitored events, log sources, and matching criteria for Windows and macOS devices.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/event-log-monitoring-configs-installed-with-dex.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [event log monitoring config, base system events, windows event log, macos unified log, event monitoring, default event configurations, com.sn\_dex, event log monitoring configs table, device health plugin, windows event ids, macos system log, vpn connection failure, application crash monitoring, failed login attempt, usb device monitoring, kernel panic, endpoint event tracking]
 audience: administrator
@@ -20,7 +20,7 @@ The Application and Device Health plugin \(com.sn\_dex\) installs 20 event log m
 
 The Application and Device Health plugin \(com.sn\_dex\) installs 20 event log monitoring configurations in the Event Log Monitoring Configs table. All 20 configurations are active by default: 11 for Windows and 9 for macOS.
 
-**Note:** These base system configurations count toward the 25-event maximum per operating system. On Windows, the 11 base system configurations leave 14 available for custom events. On macOS, the 9 base system configurations leave 16 available. To add a custom event, remove any base system configuration you don't need. See [Add an event to monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/add-event-to-monitor.md). For field descriptions, see [New DEX event form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/new-dex-event-form.md).
+**Note:** These base system configurations count toward the 25-event maximum per operating system. On Windows, the 11 base system configurations leave 14 available for custom events. On macOS, the 9 base system configurations leave 16 available. To add a custom event, remove any base system configuration you don't need. See [Add an event to monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/add-event-to-monitor.md). For field descriptions, see [New DEX event form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/new-dex-event-form.md).
 
 |Configuration name|Event ID|Log source|
 |------------------|--------|----------|
@@ -48,5 +48,5 @@ The Application and Device Health plugin \(com.sn\_dex\) installs 20 event log m
 |Kernel panics|kernel|com.apple.system.logging.kernel\_panics|Contains|panic|
 |Application crash|loginwindow|com.apple.loginwindow.logging|Contains|crashed|
 
-**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-console-reference.md)
+**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/dex-console-reference.md)
 

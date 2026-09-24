@@ -3,11 +3,11 @@ title: Knowledge Management Service Portal properties
 description: Knowledge Management Service Portal properties determine how information is displayed on the Knowledge portal. You must have the admin role to set configuration properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/knowledge-service-portal-properties.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Knowledge Management reference, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -52,9 +52,9 @@ Directs users to the desired Knowledge homepage. -   Type: true\|false
 The URL suffix for the Knowledge Management Service Portal. The default is **kb**.
 
 </td></tr></tbody>
-</table>The Knowledge Management Service Portal supports the [Knowledge Management V3 properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md). Configuring widget instance options on the portal pages can override these properties.
+</table>The Knowledge Management Service Portal supports the [Knowledge Management V3 properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md). Configuring widget instance options on the portal pages can override these properties.
 
 **Note:**
 
-Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-service-portal-pages.md).
+Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/knowledge-service-portal-pages.md).
 

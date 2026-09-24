@@ -3,11 +3,11 @@ title: Verify the Microsoft Endpoint Configuration Manager spoke records
 description: Verify that the spoke is integrated with CSD 2.0 after setting up and configuring the Microsoft Endpoint Configuration Manager spoke and create server instance record to use Microsoft Endpoint Configuration Manager spoke with CSD 2.0.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd2-ver-endpt.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CSD 2.0 for Microsoft Endpoint Configuration Manager, Client Software Distribution 2.0 application, Integration Hub solutions, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -18,7 +18,7 @@ Verify that the spoke is integrated with CSD 2.0 after setting up and configurin
 
 ## Before you begin
 
--   Activate the Microsoft Endpoint Configuration Manager spoke and set up the spoke. For more information about the spoke setup, see [Set up the Microsoft Endpoint Configuration Manager spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2-conf-sccm.md).
+-   Activate the Microsoft Endpoint Configuration Manager spoke and set up the spoke. For more information about the spoke setup, see [Set up the Microsoft Endpoint Configuration Manager spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/csd2-conf-sccm.md).
 -   Activate the CSD 2.0 application.
 -   Role required: admin
 
@@ -51,5 +51,5 @@ Verify that the spoke is integrated with CSD 2.0 after setting up and configurin
         **Note:** You can configure the default flows as per your requirement.
 
 
-**Parent Topic:**[CSD 2.0 for Microsoft Endpoint Configuration Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2.md)
+**Parent Topic:**[CSD 2.0 for Microsoft Endpoint Configuration Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/csd2.md)
 

@@ -3,11 +3,11 @@ title: Create a knowledge article from a customer service case
 description: Reuse information from a customer service case by creating knowledge articles from cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/create-article-from-case.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Reuse information from a customer service case by creating knowledge articles fr
 
 ## Before you begin
 
-Your administrator must [enable creation of articles from customer service cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/administer-create-article-from-case.md).
+Your administrator must [enable creation of articles from customer service cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/administer-create-article-from-case.md).
 
 Role required: sn\_customerservice\_agent or knowledge
 
@@ -37,5 +37,5 @@ Role required: sn\_customerservice\_agent or knowledge
 5.  Click **Submit**.
 
 
-**Parent Topic:**[Creating and maintaining articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/creating-and-maintaining-articles.md)
+**Parent Topic:**[Creating and maintaining articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/creating-and-maintaining-articles.md)
 

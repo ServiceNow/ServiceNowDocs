@@ -3,9 +3,9 @@ title: Field Service Management script includes
 description: Script includes used in Field Service Management help configure agent scheduling, dispatch operations, part management, integrations, and more.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/fsm-script-includes.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 15
 breadcrumb: [Reference, Field Service Management]
 ---
@@ -104,5 +104,5 @@ Script includes used in Field Service Management help configure agent scheduling
 |WorkManagementInitiation|Creates work orders \(wm\_order\) from various source records \(incidents, problems, changes, or other work orders\), checking for existing open work orders linked to the source via the initiated\_from field to prevent duplicates, and redirecting users to the newly created or existing work order.|
 |WOT\_Radius\_Checker|AJAX processor that checks whether an agent or crew is within the configured geofence radius of a work order task location by calling FSMUtil.calculateDistance/calculateCrewDistance, and returns the proximity result along with distance details to the client.|
 
-**Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-reference.md)
+**Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/fsm-reference.md)
 

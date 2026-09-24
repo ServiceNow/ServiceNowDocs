@@ -3,11 +3,11 @@ title: Licensable Software Products Deployed on Containers report
 description: You can use the Licensable Software Products Deployed on Containers report to gain visibility into the software products that are deployed across both on-premise and cloud environments using Docker containers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/microsoft-licensable-software-products-deployed-containers-report.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SQL Server licensing in container deployments, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [SQL Server licensing in container deployments, Software Asset Manag
 
 You can use the Licensable Software Products Deployed on Containers report to gain visibility into the software products that are deployed across both on-premise and cloud environments using Docker containers.
 
-**Note:** To view this report, activate the Software Asset Management Professional plugin \(com.snc.samp\) and the [Discovery and Service Mapping Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/install-discovery-service-mapping-patterns.md) application.
+**Note:** To view this report, activate the Software Asset Management Professional plugin \(com.snc.samp\) and the [Discovery and Service Mapping Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/install-discovery-service-mapping-patterns.md) application.
 
 The Licensable Software Products Deployed on Containers report is available only in the Software Asset Workspace. To view this report, navigate to **All** &gt; **Software Asset** &gt; **Software Asset Workspace**. From the Software Asset Workspace, navigate to **License usage** &gt; **Reports** &gt; **Licensable Software Products Deployed on Containers**.
 
@@ -30,5 +30,5 @@ The Licensable Software Products Deployed on Containers report is available only
 |Virtual CPU|Number of virtual CPUs \(vCPUs\) that are assigned to the Docker container.|
 |Software Installed|Software product that you are deploying through the Docker container.|
 
-**Parent Topic:**[Microsoft SQL Server licensing in container deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/microsoft-licensing-software-containers.md)
+**Parent Topic:**[Microsoft SQL Server licensing in container deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/microsoft-licensing-software-containers.md)
 

@@ -3,14 +3,14 @@ title: Specify metric rule CI
 description: Choose an application or device and define filter conditions for the metric rule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/specify-metric-rule-applications.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [metric rule ci, configuration item, metric rule filter, zscore]
-breadcrumb: [Creating a metric rule, Alert rules, Configure, Digital End-User Experience, IT Service Management]
+breadcrumb: [Creating a metric rule, Managing alert rules, Configure, Digital End-User Experience, IT Service Management]
 ---
 
 # Specify metric rule CI
@@ -27,6 +27,9 @@ Role required: sn\_dex.admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
+    -   AMER \(Americas\): `itomcnc-prod-gateway-amer.sncapps.service-now.com:443`
+    -   EMEA \(Europe\): `itomcnc-prod-gateway-emea.sncapps.service-now.com:443`
+    -   APAC \(Asia Pacific\): `itomcnc-prod-gateway-apac.sncapps.service-now.com:443`
 2.  In the primary navigation pane, select the DEX Administration icon \(\[Omitted image "icon-administration.png"\] Alt text:\).
 
 3.  Select **Configure** on the Alert rules card.
@@ -73,5 +76,5 @@ Role required: sn\_dex.admin
 
 ## What to do next
 
-[Define alert criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/define-alert-metric-criteria.md).
+[Define alert criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/define-alert-metric-criteria.md).
 

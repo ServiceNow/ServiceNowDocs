@@ -3,11 +3,11 @@ title: Enable language selection for guest users
 description: The language selector widget enables guest users and unauthenticated users to select, view, and update content in their preferred language.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/enable-language-selection-guest-users-businessportal.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Business Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Business Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Enable language selection for guest users
@@ -16,7 +16,7 @@ The language selector widget enables guest users and unauthenticated users to se
 
 When a user selects a preferred language, the portal content reloads into the selected language. The widget is enabled by default on the Knowledge portal, the Customer Service Management portal, and the Consumer Service portal. Users can map their languages with regions to view all available languages in the form of a pop-up on the same screen.
 
-To enable the language selector on the business portal, see [Enable a language selector in portal headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-header-menu.md).
+To enable the language selector on the business portal, see [Enable a language selector in portal headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-header-menu.md).
 
 
 
@@ -30,14 +30,14 @@ If languages aren’t grouped, users can view all available languages as a full-
 
 \[Omitted image "lang-selector-widget-ungrouped.png"\] Alt text: Language selector widget with languages in an ascending order without region grouping.
 
-**Parent Topic:**[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceManagement.md)
+**Parent Topic:**[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_CustomerServiceManagement.md)
 
 **Related topics**  
 
 
-[Enable language selector widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-header-menu.md)
+[Enable language selector widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-header-menu.md)
 
-[Service Portal properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/properties-service-portal.md)
+[Service Portal properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/properties-service-portal.md)
 
-[Create regions for language selection in portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-regions.md)
+[Create regions for language selection in portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-regions.md)
 

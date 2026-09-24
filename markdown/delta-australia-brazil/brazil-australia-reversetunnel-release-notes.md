@@ -1,0 +1,369 @@
+---
+title: Combined Reverse Tunnel release notes for upgrades from Australia to Brazil
+description: Consolidated page of all release notes for Reverse Tunnel from Australia to Brazil.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-reversetunnel-release-notes.html
+release: brazil
+topic_type: reference
+last_updated: "2026-09-24"
+reading_time_minutes: 3
+breadcrumb: [Products combined by family]
+---
+
+# Combined Reverse Tunnel release notes for upgrades from Australia to Brazil
+
+Consolidated page of all release notes for Reverse Tunnel from Australia to Brazil.
+
+## How to use this page
+
+To help you prepare for your upgrade, we have combined the cross-family Reverse Tunnel release notes onto one page. Read this summary of the new features, changes, and updated information for your product from Australia to Brazil.
+
+**Tip:** If there were no updates for a release notes section in a certain family release, we included a short note for your reference. For example, if a product did not have any updates in Tokyo, the row says "No updates for this release."
+
+## Important information for upgrading Reverse Tunnel to Brazil
+
+Before you upgrade to Brazil, review these pre- and post-upgrade tasks and complete the tasks as needed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## New features
+
+Between your current release family and Brazil, new features were introduced for Reverse Tunnel.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Australia
+
+</td><td>
+
+-   **[Private connectivity for zero copy connectors](https://www.servicenow.com/docs/access?context=exploring-reverse-tunnel&family=australia&ft:locale=en-US)**
+
+Connect zero copy connectors to data sources hosted in private cloud or on-premises networks without exposing data source credentials or IP addresses. The Reverse Tunnel gateway routes encrypted traffic between Workflow Data Fabric and private relays deployed in your private network without decrypting that traffic.
+
+-   **[Private relay deployment](https://www.servicenow.com/docs/access?context=connect-customer-relay&family=australia&ft:locale=en-US)**
+
+Deploy a private relay in your private network to establish an outbound encrypted connection to the Reverse Tunnel gateway. The relay uses the same placement and connectivity model as a MID Server. Authentication is handled automatically.
+
+-   **[Relay heartbeat monitoring](https://www.servicenow.com/docs/access?context=monitor-relay-health&family=australia&ft:locale=en-US)**
+
+Monitor relay heartbeat data directly from the relay record on your ServiceNow instance.
+
+-   **[Service endpoint management](https://www.servicenow.com/docs/access?context=manage-relay-services&family=australia&ft:locale=en-US)**
+
+Register the fully qualified domain name \(FQDN\) and port number of each data source to the relay. The gateway uses registered service endpoints to route incoming traffic to the correct relay.
+
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Changes
+
+Between your current release family and Brazil, some changes were made to existing Reverse Tunnel features.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Removed
+
+Between your current release family and Brazil, some Reverse Tunnel features or functionality were removed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Deprecations
+
+Between your current release family and Brazil, some Reverse Tunnel features or functionality were deprecated.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Activation information
+
+Review information on how to activate Reverse Tunnel.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Australia
+
+</td><td>
+
+-   **Activation information**
+
+Reverse Tunnel is available in the ServiceNow Store as the Zero Copy Reverse Tunnel store app \(`sn_zc_tunnel`\).
+
+For details, see [Connect a private relay to the Reverse Tunnel gateway](https://www.servicenow.com/docs/access?context=connect-customer-relay&family=australia&ft:locale=en-US).
+
+
+**Note:** Reverse Tunnel is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Additional requirements
+
+If any additional requirements were introduced or changed for Reverse Tunnel we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Browser requirements
+
+If any specific browser requirements were introduced or changed for Reverse Tunnel we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Accessibility information
+
+Review details on accessibility information for Reverse Tunnel, such as specific requirements or compliance levels.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Localization information
+
+If there are specific localization considerations for Reverse Tunnel we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Highlight information
+
+If there are specific highlight considerations for Reverse Tunnel we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Australia
+
+</td><td>
+
+-   Connect zero copy connectors to private cloud or on-premises data sources without opening inbound firewall ports.
+-   Establish encrypted outbound connections to private cloud or on-premises data sources by deploying a private relay in your network.
+-   Monitor relay heartbeat data directly from your ServiceNow instance.
+
+ See [Reverse Tunnel](https://www.servicenow.com/docs/access?context=reverse-tunnel&family=australia&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/rn-combined-intro.md)
+

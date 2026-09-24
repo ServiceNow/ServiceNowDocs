@@ -1,16 +1,16 @@
 ---
-title: Enabling critical alerts
+title: Critical alerts
 description: Receive critical alerts, even if you have configured your mobile device to a Do Not Disturb or Silent mode setting. Critical alerts are a more acute form of push notifications, where your mobile device is set up to receive visual and audio alerts usually when an issue needs immediate attention.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/critical-alert-enable.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using the mobile apps, Mobile Platform]
 ---
 
-# Enabling critical alerts
+# Critical alerts
 
 Receive critical alerts, even if you have configured your mobile device to a Do Not Disturb or Silent mode setting. Critical alerts are a more acute form of push notifications, where your mobile device is set up to receive visual and audio alerts usually when an issue needs immediate attention.
 

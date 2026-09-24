@@ -3,13 +3,13 @@ title: Create user subscriptions in the workspace
 description: Create software subscriptions for SaaS and SSO applications for users in the Software Asset Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/view-user-subscription-workspace.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use SAM Workspace, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create user subscriptions in the workspace
@@ -30,15 +30,15 @@ If you’re using Software Asset Workspace, the option to create user subscripti
 
 1.  Navigate to the Create New Software Subscription form.
 
-<table id="choicetable_sw5_ydb_ddc"><thead><tr><th align="left" id="d102951e77">
+<table id="choicetable_sw5_ydb_ddc"><thead><tr><th align="left" id="d103768e77">
 
 Interface
 
-</th><th align="left" id="d102951e80">
+</th><th align="left" id="d103768e80">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d102951e86">
+</th></tr></thead><tbody><tr><td id="d103768e86">
 
 **Core UI**
 
@@ -46,7 +46,7 @@ Action
 
 Navigate to **All** &gt; **Software Asset** &gt; **Software Subscriptions**.
 
-</td></tr><tr><td id="d102951e108">
+</td></tr><tr><td id="d103768e108">
 
 **Software Asset Workspace**
 
@@ -61,19 +61,19 @@ Navigate to **All** &gt; **Software Asset** &gt; **Software Subscriptions**.
 
 3.  On the Create New Software Subscription form, fill in the fields.
 
-    For more information on the Software subscription form fields and their descriptions, see [Software subscription fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-subscription-fields.md).
+    For more information on the Software subscription form fields and their descriptions, see [Software subscription fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/software-subscription-fields.md).
 
 4.  Select **Save**.
 
 
-**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
 
 **Related topics**  
 
 
-[Software models and Software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-models-and-entitlements.md)
+[Software models and software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/software-models-and-entitlements.md)
 
-[Create a software model in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-swmodels-workspace.md)
+[Create a software model in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-swmodels-workspace.md)
 
-[Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-entitlements-workspace.md)
+[Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-entitlements-workspace.md)
 

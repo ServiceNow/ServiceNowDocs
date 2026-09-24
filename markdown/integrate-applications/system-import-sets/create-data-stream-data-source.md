@@ -3,11 +3,11 @@ title: Create a Data Stream \(Integration Hub\) type data source
 description: Create a Data Stream \(IntegrationHub\) type data source record to define what complex data an import set should import from a Data Stream action.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/create-data-stream-data-source.html
-release: australia
+release: brazil
 product: System Import Sets
 classification: system-import-sets
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a data source, Data sources, Import sets, Imports, Workflow Data Fabric]
 ---
@@ -88,7 +88,7 @@ Connection
 
 Specify the connection alias for the Data Stream action. You can use the default parent alias or select any of its children's aliases. Available child aliases are listed in the menu.
 
- This field is only available when the Data Stream action is configured to use a connection alias. For more information, see [Create a Connection and Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-alias.md).
+ This field is only available when the Data Stream action is configured to use a connection alias. For more information, see [Create a Connection and Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/connection-alias.md).
 
 </td></tr><tr><td>
 

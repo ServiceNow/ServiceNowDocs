@@ -3,9 +3,9 @@ title: Case states
 description: A customer service case can be in one of several states as the agent gathers information and works toward a resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/r\_CustomerServiceCaseStates.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Case form, Customer Service forms, Reference, Customer Service Management]
 ---
@@ -114,5 +114,5 @@ After proposing a solution, an agent waits for the customer to respond. -   If t
 </table>**Related topics**  
 
 
-[State flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_StateFlows.md)
+[State flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_StateFlows.md)
 

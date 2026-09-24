@@ -3,13 +3,13 @@ title: Acknowledge receipt of assets on the Employee Center portal
 description: After receiving hardware or consumable assets that were in transit and reserved for you, confirm their receipt on the Employee Center portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/receive-assets-employee-center.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 8
-breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Employee self-service, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Acknowledge receipt of assets on the Employee Center portal
@@ -20,7 +20,7 @@ After receiving hardware or consumable assets that were in transit and reserved 
 
 Role required: Log in as an employee.
 
-To view the **My Assets** option on the global header navigation bar of the Employee Center portal, the value of the **enable\_assets** option must be set to **true** on the Additional options, JSON format field of the Employee Center menu record. For more details, see [Enable or disable global header options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/config-global-header-components.md).
+To view the **My Assets** option on the global header navigation bar of the Employee Center portal, the value of the **enable\_assets** option must be set to **true** on the Additional options, JSON format field of the Employee Center menu record. For more details, see [Enable or disable global header options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/config-global-header-components.md).
 
 **Note:** The **My Assets** option requires the Hardware Asset Management application to be activated.
 
@@ -69,15 +69,15 @@ Select **My Assets** in the global header navigation bar of the Employee Center 
 
 2.  Acknowledge after you receive the asset.
 
-<table id="choicetable_rv3_cx5_jfc"><thead><tr><th align="left" id="d68867e214">
+<table id="choicetable_rv3_cx5_jfc"><thead><tr><th align="left" id="d69655e214">
 
 Asset
 
-</th><th align="left" id="d68867e217">
+</th><th align="left" id="d69655e217">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d68867e223">
+</th></tr></thead><tbody><tr><td id="d69655e223">
 
 **Hardware**
 
@@ -95,9 +95,9 @@ Action
     -   Status of the asset changes from **In transit** to **In use**, and the asset is assigned to you.
     -   The **Receive asset** option is no longer available for that asset.
     -   Any receive task associated with that asset is automatically closed.
- **Note:** If the details of the asset that you received don't match the information shown in the Receive Asset dialog box, you can raise an issue by selecting the **Raise issue** option. For more details, see [Raise issue related to your asset on the Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/report-asset-issue-attestation.md).
+ **Note:** If the details of the asset that you received don't match the information shown in the Receive Asset dialog box, you can raise an issue by selecting the **Raise issue** option. For more details, see [Raise issue related to your asset on the Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/report-asset-issue-attestation.md).
 
-</td></tr><tr><td id="d68867e336">
+</td></tr><tr><td id="d69655e336">
 
 **Consumables**
 
@@ -119,76 +119,18 @@ Action
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
+**Parent Topic:**[Employee self-service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/employee-self-sevice-ham.md)
 
 **Related topics**  
 
 
-[Analyze hardware assets using the Generate hardware asset insights generative AI skill]()
+[Request and receive assets using the Zero Touch request flow]()
 
-[Work with hardware normalization]()
+[Request and receive assets using the Zero Touch Refresh flow]()
 
-[Manage asset bundles from your inventory]()
+[Request a loaner asset]()
 
-[Manage your inventory through pallet assets]()
+[Confirming the assigned serialized hardware assets]()
 
-[Manage loaner assets]()
-
-[Donate assets to charity organizations]()
-
-[Use Advanced Shipment Notification]()
-
-[Manage RMA requests]()
-
-[Create an inventory stock order request]()
-
-[Create a disposal order]()
-
-[Fulfilling hardware asset requests]()
-
-[Audit hardware asset inventory]()
-
-[Request a Hardware Asset Refresh]()
-
-[Manage your expiring contracts for leased hardware assets]()
-
-[Reclaim hardware assets]()
-
-[View RFID information of assets]()
-
-[Manage the lifecycle of hardware models with calculated lifecycle templates]()
-
-[Create an internal lifecycle in the Hardware Asset Workspace]()
-
-[Receive asset warranty details from Lenovo]()
-
-[Manage stockrooms]()
-
-[Track shipments using the integration framework]()
-
-[Track asset location using indoor maps]()
-
-[Assess performance of Hardware Asset Management]()
-
-[Manage refresh of assets using Zero Touch Refresh]()
-
-[Configure the Total Cost of Ownership of assets]()
-
-[Manage Hardware Asset Management subscriptions]()
-
-[Manage repair of defective assets in your stockroom in the Hardware Asset Workspace]()
-
-[Manage picking hardware assets within your stockroom for Hardware Asset Management workflows]()
-
-[Manage hardware asset tasks using the Mobile Agent application]()
-
-[Manage asset put away using the Hardware Asset Workspace]()
-
-[Audit your hardware assets by using Asset Attestation]()
-
-[Manage contract repository agentic workflow in the Hardware Asset Workspace]()
-
-[Manage obligations in the Hardware Asset Workspace]()
-
-[Update associated Decision tables for HAM flows]()
+[Raise issue related to your asset on the Employee Center portal]()
 

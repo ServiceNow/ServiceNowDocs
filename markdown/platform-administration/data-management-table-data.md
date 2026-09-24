@@ -3,9 +3,9 @@ title: Viewing data usage by table
 description: View a summary of data usage for an individual table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/data-management-table-data.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Analyze data usage, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---

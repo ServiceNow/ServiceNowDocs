@@ -3,11 +3,11 @@ title: Approve or deny a quorum request
 description: When a quorum request has been created, the minimum number of approvals is required by the members. After a withdrawal operation workflow is triggered, quorum actions can be managed using several methods. The users can grant approvals from the Key Management Operations page, My Approvals in the Instance, or directly from the request email. The key withdrawal operation is blocked until the quorum is met.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/cloud-encryption/perform-quorum-action.html
-release: australia
+release: brazil
 product: Cloud Encryption
 classification: cloud-encryption
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage Quorum Control, Quorum Control Policy, Cloud Encryption with Key Management, Encryption]
 ---
@@ -20,5 +20,5 @@ When a quorum request has been created, the minimum number of approvals is requi
 
 Roles required: sn\_kmf.admin or sn\_kmf.cryptographic\_manager
 
-**Parent Topic:**[Manage Quorum Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cloud-encryption/quorum-ctrl-mgmt.md)
+**Parent Topic:**[Manage Quorum Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/cloud-encryption/quorum-ctrl-mgmt.md)
 

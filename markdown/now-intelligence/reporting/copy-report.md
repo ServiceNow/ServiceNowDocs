@@ -1,24 +1,24 @@
 ---
 title: Copy a report
-description: Users who cannot create their own global reports can modify a global report, and then save a personal version of the report.
+description: Users who can't create their own global reports can modify a global report, and then save a personal version of the report.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/copy-report.html
-release: australia
+release: brazil
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-04-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Core UI Reporting, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Copy a report
 
-Users who cannot create their own global reports can modify a global report, and then save a personal version of the report.
+Users who can't create their own global reports can modify a global report, and then save a personal version of the report.
 
 ## Before you begin
 
-Role required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. On upgraded instances, other users may have the right to copy a report using these instructions based on access control. To create Core UI reports in the Australia release, the system property **com.snc.par.coreui.report\_create.enabled** must be set to true.
+Role required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. On upgraded instances, other users may have the right to copy a report using these instructions based on access control. To create Core UI reports in the Brazil release, the system property **com.snc.par.coreui.report\_create.enabled** must be set to true.
 
 ## About this task
 
@@ -27,9 +27,9 @@ If you save a global report as a group or personal report, the platform copies t
 **Note:**
 
 -   If you open a personal report and save it as a group or global report, only the security state is changed. The report itself is not copied.
--   When you select **Insert and Stay** to copy a report, sharing settings are not copied to the new report.
+-   When you select **Insert and Stay** to copy a report, sharing settings aren't copied to the new report.
 
-This topic refers to Reporting in the Core UI. If your instance is a new Australia instance or migrated to Platform Analytics experience, see [Duplicate a visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/duplicate-dv-ac.md).
+This topic refers to Reporting in the Core UI. If your instance is a new Brazil instance or migrated to Platform Analytics experience, see [Duplicate a visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/duplicate-dv-ac.md).
 
 ## Procedure
 
@@ -53,17 +53,17 @@ This topic refers to Reporting in the Core UI. If your instance is a new Austral
 
 6.  Modify the report.
 
-    See [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-types-creation-details-rd.md).
+    See [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/report-types-creation-details-rd.md).
 
 7.  Change the report visibility.
 
-    In the upper right side of the report form, click the **Sharing** icon \(\[Omitted image "Form\_ShareIcon.png"\] Alt text:\) and select **Share**.
+    In the upper right side of the report form, select the **Sharing** icon \(\[Omitted image "square-share-outline-24.svg"\]\) and select **Share**.
 
 
-**Parent Topic:**[Using reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_GenerateReports.md)
+**Parent Topic:**[Using reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_GenerateReports.md)
 
 **Related topics**  
 
 
-[Share a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/t_ShareASetting.md)
+[Share a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/t_ShareASetting.md)
 

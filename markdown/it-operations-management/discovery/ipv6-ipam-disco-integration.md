@@ -3,11 +3,11 @@ title: IPAM Discovery integration
 description: The IP Address Management \(IPAM\) to Discovery integration feature enables your organization to automatically create and manage Discovery schedules based on your IPv6 network infrastructure data stored in IPAM. This integration keeps your discovery processes synchronized with your IPv6 network changes, providing a complete and up-to-date view of your network environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/ipv6-ipam-disco-integration.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---

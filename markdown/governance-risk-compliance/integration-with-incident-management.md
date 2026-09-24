@@ -1,18 +1,18 @@
 ---
 title: Reporting incidents from SOW and SIR Workspace in DRIR
-description: High-impact, high-urgency incidents created or marked as high priority in the SOW of Incident Management or SIR Workspace of Security Incident Response are classified as major incidents. These major incidents are logged and reported in the Digital resilience incident reporting application.
+description: High-impact, high-urgency incidents created in Service Operations Workspace \(SOW\) or Security Incident Response Workspace \(SIR Workspace\) are classified as major incidents. These major incidents are logged and reported in the Digital resilience incident reporting application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/integration-with-incident-management.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Manage, Using Digital resilience incident reporting, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Reporting incidents from SOW and SIR Workspace in DRIR
 
-High-impact, high-urgency incidents created or marked as high priority in the SOW of Incident Management or SIR Workspace of Security Incident Response are classified as major incidents. These major incidents are logged and reported in the Digital resilience incident reporting application.
+High-impact, high-urgency incidents created in Service Operations Workspace \(SOW\) or Security Incident Response Workspace \(SIR Workspace\) are classified as major incidents. These major incidents are logged and reported in the Digital resilience incident reporting application.
 
 ## Incident reporting workflow
 
@@ -27,6 +27,28 @@ The following example shows a sample workflow for reporting an incident in Incid
 7.  Intermediate report: Review the incident report, if the incident has been open for more than three days. Update the incident data in the intermediate report, which is generated no later than 72 hours after the incident is classified as major.
 8.  Response review: If the incident is still open, review the response steps.
 9.  Final report: Verify if the incident is closed and enrich the notes in the record. Update the final report with the revised notes, which is generated one month after the incident is classified as major.
+
+## Tracking field-level changes on linked source records
+
+Starting with Digital resilience incident reporting \(DRIR\), version 23.0.4, you can maintain DRIR cases current with evolving incident data by tracking field-level changes in linked source records.
+
+The DRIR application detects modifications to incidents after case creation. It generates audit-trail records with full information \(field name, old and new values, changed\_by, changed\_at\). A banner displays in the case workspace prompting you to review the latest changes.
+
+The banner shows the total number of pending updates, the timestamp of the last generated report, and the timestamp of the most recent source-record change. Select **Review updates** to open the Updates tab of the action task with the most pending updates \(or the case-level Updates view, if all pending updates are case-level\). Select **Dismiss** to hide the banner for your current session; the underlying pending updates remain, and the banner reappears the next time you open the case.
+
+If the oldest pending update is more than 30 days old, the banner switches to a warning visual style and adds an "oldest update is N days old" sub-line to call out the stale data.
+
+No banner is displayed when the case has no pending updates, or when the case is in a terminal state \(Closed or Cancelled\). Applying updates against a closed case is blocked at the point you try to apply them.
+
+\[Omitted image "incident-form.png"\] Alt text: Incident record showing example field changes in the activity log: state, impact, and urgency.
+
+For example, if the state, impact, or urgency changes on the linked incident, a banner appears in the DRIR case the next time you open it.
+
+\[Omitted image "incident-form-with-notification.png"\] Alt text: DRIR case displaying the banner: "The linked source record has been updated. Please review the latest changes."
+
+This keeps the case current with the incident without requiring manual re-checks, which supports meeting the initial \(24-hour\), intermediate \(72-hour\), and final \(1-month\) regulatory reporting timelines.
+
+A "DRI Source Record Change - Email Notification" is also sent to the case's watch list and analyst whenever a tracked field changes on the linked source record. The email lists the case number, the source record, who made the change and when, and the old and new value for each changed field. It also includes a link back to the case. For the full notification entry, see [Email notifications in Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/email-notifications-in-opres.md).
 
 ## Incident reporting timelines
 
@@ -77,5 +99,5 @@ The SIR Workspace deploys a similar workflow for reporting high-impact incidents
 
 ## Where to find the case status
 
-The Regulatory reporting status of a DRI case \(Potentially reportable/Reportable/Not reportable\) is displayed in the Details panel and per regulation in the Regulation Mappings related list. The dedicated 'Reporting status' form section that existed in earlier releases has been removed; the same information is now in the Details panel.
+The Regulatory reporting status of a DRI case \(Potentially reportable/Reportable/Not reportable\) is displayed in the Details panel of the Digital Resilience Incident Reporting case record. The status also appears per regulation in the Regulation Mappings related list. The dedicated 'Reporting status' form section that existed in earlier releases has been removed; the same information is now in the Details panel.
 

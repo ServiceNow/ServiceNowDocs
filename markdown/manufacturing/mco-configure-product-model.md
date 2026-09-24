@@ -3,9 +3,9 @@ title: Configure product model
 description: Create and activate product models for finished products, parts, and components in Manufacturing Commercial Operations \(MCO\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-configure-product-model.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Initial setup, Configure, Manufacturing Commercial Operations]
 ---
@@ -29,7 +29,7 @@ Each of these entities is treated as a product model in the system.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workspaces** &gt; **CSM/FSM Configurable Workspace.**
+1.  Navigate to **All** &gt; **Workspaces** &gt; **CRM Workspace.**
 
 2.  Select the List icon.
 

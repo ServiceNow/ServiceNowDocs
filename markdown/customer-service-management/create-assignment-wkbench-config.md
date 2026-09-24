@@ -3,9 +3,9 @@ title: Create an assignment workbench configuration
 description: Use a matching rule to create a configuration for the assignment workbench.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-assignment-wkbench-config.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure assignment workbench, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -60,7 +60,7 @@ You can modify or create matching criteria and then modify the **Recommendation 
 
 12. Select how the criterion is to be used in the **Use for** field.
 
-<table id="choicetable_njl_kph_xx"><tbody><tr><td id="d239869e231">
+<table id="choicetable_njl_kph_xx"><tbody><tr><td id="d245336e231">
 
 **Ranking and Display**
 
@@ -68,7 +68,7 @@ You can modify or create matching criteria and then modify the **Recommendation 
 
 Uses the criterion to determine agent ranking and displays it in a column on the workbench.
 
-</td></tr><tr><td id="d239869e240">
+</td></tr><tr><td id="d245336e240">
 
 **Display Only**
 
@@ -76,7 +76,7 @@ Uses the criterion to determine agent ranking and displays it in a column on the
 
 Displays the criterion in a column on the workbench but does not use it to determine agent ranking.
 
-</td></tr><tr><td id="d239869e249">
+</td></tr><tr><td id="d245336e249">
 
 **Ranking and No Display**
 
@@ -87,7 +87,7 @@ Uses the criterion to determine agent ranking but does not display it on the wor
 </td></tr></tbody>
 </table>13. Select a **Ranking Method**.
 
-<table id="choicetable_mth_1qh_xx"><tbody><tr><td id="d239869e270">
+<table id="choicetable_mth_1qh_xx"><tbody><tr><td id="d245336e270">
 
 **More is better**
 
@@ -95,7 +95,7 @@ Uses the criterion to determine agent ranking but does not display it on the wor
 
 A higher value is better. For example, more availability is better when determining the agent ranking.
 
-</td></tr><tr><td id="d239869e279">
+</td></tr><tr><td id="d245336e279">
 
 **Less is better**
 

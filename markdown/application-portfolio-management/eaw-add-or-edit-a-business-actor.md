@@ -3,9 +3,9 @@ title: Add or edit a business actor
 description: Create or edit a business actor to define who performs work in your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-add-or-edit-a-business-actor.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [business actor, enterprise architecture, business architecture]
 breadcrumb: [Manage business actors, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
@@ -38,17 +38,17 @@ Role required: sn\_apm.apm\_user
 
 6.  On the form, fill in the fields.
 
-    For field information, see [Business actor form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-a-new-business-actor-form.md).
+    For field information, see [Business actor form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-a-new-business-actor-form.md).
 
 7.  Select **Save**.
 
 
-**Parent Topic:**[Manage business actors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-business-actors.md)
+**Parent Topic:**[Manage business actors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-manage-business-actors.md)
 
 **Related topics**  
 
 
-[View all business actors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-business-actors.md)
+[View all business actors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-all-business-actors.md)
 
-[Add a business role to a business actor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-business-role-to-business-actor.md)
+[Add a business role to a business actor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-add-business-role-to-business-actor.md)
 

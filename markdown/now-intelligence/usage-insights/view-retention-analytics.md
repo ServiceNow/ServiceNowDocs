@@ -3,11 +3,11 @@ title: User retention
 description: User retention reports help you understand how often your users visit your application to better understand if it meets your users' needs and expectations.Understand how Usage Insights calculates user and action retention.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/view-retention-analytics.html
-release: australia
+release: brazil
 product: Usage Insights
 classification: usage-insights
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Using Usage Insights, Usage Insights, Platform Analytics]
 ---
@@ -37,7 +37,7 @@ View data such as how many new users you have, how many never returned, and how 
 
 3.  Filter the data.
 
-    The default filters are **Aggregation** \(daily, weekly, or monthly\), **Date Range**, and **Country**. For more information on filters in Usage Insights, see [Filter data in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/filter-user-list.md).
+    The default filters are **Aggregation** \(daily, weekly, or monthly\), **Date Range**, and **Country**. For more information on filters in Usage Insights, see [Filter data in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/usage-insights/filter-user-list.md).
 
     |KPI|Description|
     |---|-----------|

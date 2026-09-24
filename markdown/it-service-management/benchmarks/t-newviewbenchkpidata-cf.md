@@ -3,11 +3,11 @@ title: View benchmark KPI data
 description: Benchmarks KPI data is shown in Benchmarks dashboard built in Next Experience UI. Data includes values for your company instance, and for global data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/t-newviewbenchkpidata-cf.html
-release: australia
+release: brazil
 product: Benchmarks
 classification: benchmarks
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [New Benchmarks Dashboard, Use, Benchmarks, IT Service Management]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_bm\_client.benchmark\_data\_viewer
 
 1.  Navigate to **All** &gt; **Benchmarks** &gt; **Dashboard**.
 
-2.  Select one of the **KPI categories** from the KPI list.
+2.  Select one of the **KPI categories** from the [KPI list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/benchmarks/c_BenchKPIConfig.md).
 
 3.  To view the corresponding group of KPIs, click a tab.
 
@@ -45,5 +45,5 @@ Role required: sn\_bm\_client.benchmark\_data\_viewer
 
 ## What to do next
 
-Click a KPI to view .
+Click a KPI to view [Benchmarks KPI performance trend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/benchmarks/c_NewbenchKPItrendrecommend.md).
 

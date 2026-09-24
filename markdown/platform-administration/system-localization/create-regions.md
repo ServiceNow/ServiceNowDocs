@@ -3,11 +3,11 @@ title: Create regions for language selection in portals
 description: Create regions to group languages in the language selector in portal headers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/create-regions.html
-release: australia
+release: brazil
 product: System Localization
 classification: system-localization
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring System Localization, System Localization, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -26,7 +26,7 @@ In portal headers, the language selector displays the current language selection
 
 \[Omitted image "lang-selector-regions.png"\] Alt text: A list of languages grouped by regions in the language selector of a portal.
 
-For more information about the language selector in portal headers, see [Enable a language selector in portal headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-header-menu.md).
+For more information about the language selector in portal headers, see [Enable a language selector in portal headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-header-menu.md).
 
 ## Procedure
 

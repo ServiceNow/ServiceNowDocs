@@ -3,11 +3,11 @@ title: Define the purpose
 description: Specify the purpose of the similar records model. You can select the prediction table for which predictions will be generated. Then, select the training table \(Incidents, Problems, or Change Requests\) which will appear as predictions based on similarities between their selected fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/task-intelligence-for-itsm/define-the-purpose.html
-release: australia
+release: brazil
 product: Task Intelligence for ITSM
 classification: task-intelligence-for-itsm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up, Create a similar records prediction model, Manage, Task Intelligence for ITSM, IT Service Management]
 ---
@@ -36,7 +36,7 @@ Role required: admin
 
 ## Result
 
-Now that the purpose of the model is defined, you can start training it. For more information, see [Train the similarity model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/train-the-similarity-model.md).
+Now that the purpose of the model is defined, you can start training it. For more information, see [Train the similarity model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/task-intelligence-for-itsm/train-the-similarity-model.md).
 
-**Parent Topic:**[Set up similar records prediction model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/set-up-similar-records-prediction-model.md)
+**Parent Topic:**[Set up similar records prediction model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/task-intelligence-for-itsm/set-up-similar-records-prediction-model.md)
 

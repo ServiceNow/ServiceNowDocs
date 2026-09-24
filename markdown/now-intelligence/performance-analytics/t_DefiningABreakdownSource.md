@@ -3,11 +3,11 @@ title: Define a breakdown source
 description: Specify a facts table to serve as a data source for breakdowns. External data is supported via Workflow Data Fabric tables. Apply conditions to specify the elements for this breakdown source.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/t\_DefiningABreakdownSource.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Breakdown sources, Indicator breakdowns, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -44,7 +44,7 @@ The breakdown source uses the following records from the Choice table:
 
 4.  Add a detailed **Description** to help others understand the use and purpose of this breakdown source and to help them avoid creating duplicates.
 
-5.  For the **Facts Table**, select the table that the breakdown source gets elements from.
+5.  For the **Facts Table**, select the table \(including database view or Workflow Data Fabric table\) that the breakdown source gets elements from.
 
     For example, for the breakdown source to specify user groups as elements, select **Group \[sys\_user\_group\]**.
 
@@ -72,7 +72,7 @@ The breakdown source uses the following records from the Choice table:
 
 9.  Define **RELATED LIST CONDITIONS** to include a relationship with another table in the filter.
 
-    For more information, see [Add related list conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-related-list-query.md).
+    For more information, see [Add related list conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/create-related-list-query.md).
 
     For example, consider a breakdown source for Configuration Item \(CI\) Managers. The facts table is User \[sys\_user\], but the only condition you can apply from this table is to filter for active users. No field on the table lets you select only users who are CI Managers. You get hundreds of results.
 
@@ -90,12 +90,12 @@ The breakdown source uses the following records from the Choice table:
 
 11. In the **Security** tab, set whether to exclude or include breakdown source elements by role based on element security lists.
 
-    For more information, see [Define an elements security list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_ControlAccessToABreakdown.md).
+    For more information, see [Define an elements security list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/t_ControlAccessToABreakdown.md).
 
 
 ## What to do next
 
-Create breakdowns that use this breakdown source. You can open the **Breakdowns** tab and click **New**. The **Breakdown** form opens, as described in [Create an automated breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreatingABreakdownForIndicators.md). After you create breakdowns that use this source, these breakdowns are listed in the **Breakdowns** tab.
+Create breakdowns that use this breakdown source. You can open the **Breakdowns** tab and click **New**. The **Breakdown** form opens, as described in [Create an automated breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/t_CreatingABreakdownForIndicators.md). After you create breakdowns that use this source, these breakdowns are listed in the **Breakdowns** tab.
 
-**Parent Topic:**[Breakdown sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/breakdown-sources.md)
+**Parent Topic:**[Breakdown sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/breakdown-sources.md)
 

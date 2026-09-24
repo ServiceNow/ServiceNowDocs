@@ -3,11 +3,11 @@ title: Roles for performing advanced risk assessment
 description: When you integrate advanced risk assessment with other applications, you must ensure the users have the necessary roles to perform and approve the assessments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/roles-for-ara.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Components installed with Advanced Risk, Reference, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -107,6 +107,22 @@ sn\_risk\_advanced.ara\_reader
 
 </td></tr><tr><td>
 
+sn\_risk\_advanced.ara\_planner
+
+</td><td>
+
+sn\_risk\_advanced.ara\_admin
+
+</td><td>
+
+Users with this role can reassign one or more in-progress risk assessments to a different assessor from the **In Progress Assessments** list.
+
+</td><td>
+
+sn\_risk\_advanced.ara\_creator, sn\_risk\_advanced.ara\_reader
+
+</td></tr><tr><td>
+
 sn\_risk\_advanced.ara\_reader
 
 </td><td>
@@ -156,5 +172,5 @@ Users can view the quantitative risk appetite fields.
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Advanced Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/components-risk-advanced.md)
+</table>**Parent Topic:**[Components installed with Advanced Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/components-risk-advanced.md)
 

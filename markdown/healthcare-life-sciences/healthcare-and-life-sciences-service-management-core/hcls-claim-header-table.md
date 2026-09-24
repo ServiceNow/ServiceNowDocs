@@ -3,11 +3,11 @@ title: Claim header table
 description: The Claim header \[sn\_hcls\_claim\_header\] table stores the details of the main claim submitted on behalf of a patient to a payer organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-claim-header-table.html
-release: australia
+release: brazil
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Data model tables, Reference, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -184,7 +184,7 @@ Alpha-numeric profile identifier of the claim header.
 
  The value is auto-generated and is incremented every time you add a new claim header to an instance. The initial value for the **Number** field is CLAIMHDR00001001.
 
-**Note:** To customize the number, define the auto-numbering format for the Claim header \[sn\_hcls\_claim\_header\] table. For more information, see [Add auto-numbering records in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AutoNumberingRecordsInATable.md).
+**Note:** To customize the number, define the auto-numbering format for the Claim header \[sn\_hcls\_claim\_header\] table. For more information, see [Add auto-numbering records in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AutoNumberingRecordsInATable.md).
 
 </td></tr><tr><td>
 
@@ -366,5 +366,5 @@ Type of the claim.
  For more information about the available claim types, see [claim types](https://www.hl7.org/fhir/valueset-claim-type.html) defined in the FHIR specifications.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-data-tables.md)
+</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-data-tables.md)
 

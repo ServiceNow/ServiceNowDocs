@@ -3,9 +3,9 @@ title: Create a cleanup rule
 description: Define a rule for deleting records from a primary table on a recurring basis.Define one or more conditions that identify the records to be deleted.Specify which associated records to delete when the cleanup rule runs.View a summary of your cleanup rule and decide whether to activate it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/dmc-create-cleanup-rule.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Deleting older or unwanted records in Data Management Console, Manage data growth in Data Management, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -20,21 +20,21 @@ Role required: admin
 
 ## About this task
 
-Create a cleanup rule to delete records on a recurring basis. To delete records as a one-time operation, see [Create a one-time delete rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dmc-create-onetime-delete-rule.md).
+Create a cleanup rule to delete records on a recurring basis. To delete records as a one-time operation, see [Create a one-time delete rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dmc-create-onetime-delete-rule.md).
 
 ## Procedure
 
 1.  Access the create rule wizard in the Data Management Console in one of the following ways.
 
-<table id="choicetable_snz_r2m_13c"><thead><tr><th align="left" id="d306884e72">
+<table id="choicetable_snz_r2m_13c"><thead><tr><th align="left" id="d304678e71">
 
 Option
 
-</th><th align="left" id="d306884e75">
+</th><th align="left" id="d304678e74">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d306884e81">
+</th></tr></thead><tbody><tr><td id="d304678e80">
 
 **Overview tab**
 
@@ -45,7 +45,7 @@ Steps
 3.  Select **Create rule**.
 
 
-</td></tr><tr><td id="d306884e119">
+</td></tr><tr><td id="d304678e118">
 
 **Rules tab**
 
@@ -64,7 +64,7 @@ Steps
 
     2.  Enter a name and description for the rule.
 
-        The name is used as the [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DisplayValues.md) for references to this rule.
+        The name is used as the [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_DisplayValues.md) for references to this rule.
 
     3.  Select **Save and continue**.
 
@@ -112,15 +112,15 @@ Role required: admin
 
 1.  On the Clean up associated records page, select which associated records to delete when the cleanup rule runs.
 
-<table id="choicetable_vlk_yvs_13c"><thead><tr><th align="left" id="d306884e368">
+<table id="choicetable_vlk_yvs_13c"><thead><tr><th align="left" id="d304678e367">
 
 Associated records
 
-</th><th align="left" id="d306884e371">
+</th><th align="left" id="d304678e370">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d306884e377">
+</th></tr></thead><tbody><tr><td id="d304678e376">
 
 **Attachments**
 
@@ -128,7 +128,7 @@ Description
 
 Selected by default. Associated attachments are always deleted.
 
-</td></tr><tr><td id="d306884e386">
+</td></tr><tr><td id="d304678e385">
 
 **Journals**
 
@@ -136,7 +136,7 @@ Selected by default. Associated attachments are always deleted.
 
 If selected, related records in the Journal Entry \[sys\_journal\_field\] table are also deleted.If cleared, the system deletes records from the target table, but not any related journal records in this table.
 
-</td></tr><tr><td id="d306884e397">
+</td></tr><tr><td id="d304678e396">
 
 **Audits**
 

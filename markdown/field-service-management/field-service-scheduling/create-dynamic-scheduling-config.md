@@ -3,11 +3,11 @@ title: Configure dynamic scheduling
 description: Dynamic Scheduling enables automatic task assignment to field agents based on predefined rules and configurations. This feature helps streamline task distribution by verifying the correct tasks are assigned to the most suitable agents, optimizing travel time, skill matching, and task priority.Task filters allow you to define criteria for selecting and assigning tasks to the most suitable agents using dynamic scheduling.The Dynamic Scheduling uses configurable matching criteria, such as skills and availability, to evaluate the agents in a selected group and provide an overall ranking.Dynamic scheduling uses task ordering rules to prioritize and arrange tasks effectively. These rules ensure tasks are handled in the right sequence, helping you streamline field service operations.Dynamic scheduling allows you to define unassignment constraints that prevent certain tasks from being unassigned, even when lower in priority. This feature ensures that critical tasks stay assigned, based on dependencies or urgency.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 22
 breadcrumb: [Dynamic Scheduling, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
@@ -18,9 +18,9 @@ Dynamic Scheduling enables automatic task assignment to field agents based on pr
 
 ## Before you begin
 
--   Select dynamic scheduling as the preferred task assignment method. This verifies that tasks are automatically assigned to field agents based on predefined criteria and rules. For more information, see [task assignment method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/t_ConfigureFieldService.md).
--   Set up agent schedules so that dynamic scheduling systematically verifies optimal task allocation. For more information, see [Set up agent schedules for dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/agent-schedule-dynamic.md).
--   Review the properties and other installed components related to dynamic scheduling. Customize the settings to align with your organization's specific requirements. For more information, see [Review system properties and components for Dynamic Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/dynamic-sched-system-properties.md).
+-   Select dynamic scheduling as the preferred task assignment method. This verifies that tasks are automatically assigned to field agents based on predefined criteria and rules. For more information, see [task assignment method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/t_ConfigureFieldService.md).
+-   Set up agent schedules so that dynamic scheduling systematically verifies optimal task allocation. For more information, see [Set up agent schedules for dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/agent-schedule-dynamic.md).
+-   Review the properties and other installed components related to dynamic scheduling. Customize the settings to align with your organization's specific requirements. For more information, see [Review system properties and components for Dynamic Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/dynamic-sched-system-properties.md).
 -   Verify to configure travel time and distance calculation to determine how the system calculates an agent's estimated travel time and distance to a task location. You can choose between using the Google Maps API for real-time travel estimates or straight-line estimates based on the geolocation property settings.
     -   If the `Use Google Maps API for travel time estimates` geolocation property is enabled, choose between using the Google Maps API or straight-line estimates.
     -   If the `Use Google Maps API for travel time estimates` geolocation property is turned off, the system considers the Estimated Travel Duration field's value from the work order task.
@@ -37,7 +37,7 @@ By default, the `Dynamic Scheduling Config for Work Order` configuration is avai
 
 2.  Update an existing work configuration or create one.
 
-    This field only appears if you have the plugin installed. For more information, see [Configuring Field Service Work Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/configuring-work-configs.md).
+    This field only appears if you have the plugin installed. For more information, see [Configuring Field Service Work Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/configuring-work-configs.md).
 
 3.  Select the task table that dynamic scheduling uses to assign tasks to agents.
 
@@ -57,15 +57,15 @@ By default, the `Dynamic Scheduling Config for Work Order` configuration is avai
 
 7.  In the **Task Filters** related list, add a task filter or modify an existing task filter or add a new filter.
 
-    Task filters help identify which tasks should be assigned using dynamic scheduling. Within the filter, you can set criteria to match tasks with the most suitable agents. For more information, see [Create a task filter for dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.md).
+    Task filters help identify which tasks should be assigned using dynamic scheduling. Within the filter, you can set criteria to match tasks with the most suitable agents. For more information, see [Create a task filter for dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.md).
 
 8.  In the **Task Ordering Rules** related list, add a new task ordering rule or modify an existing rule.
 
-    Task ordering rules help to determine the order of tasks. For more information, [Create a task ordering rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.md).
+    Task ordering rules help to determine the order of tasks. For more information, [Create a task ordering rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.md).
 
 9.  In the **Un-Assignment Constraints** related list, add or modify criteria for unassigning tasks.
 
-    This enables the system to free up agents for higher-priority tasks when needed. For more information, see [Create a task unassignment constraint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.md).
+    This enables the system to free up agents for higher-priority tasks when needed. For more information, see [Create a task unassignment constraint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.md).
 
 10. Select **Update**.
 
@@ -81,11 +81,11 @@ Dynamic scheduling automatically assigns tasks to field agents based on the defi
 **Related topics**  
 
 
-[Example - configure dynamic scheduling to assign preferred technicians to tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/excluded-preferred-agents.md)
+[Example - configure dynamic scheduling to assign preferred technicians to tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/excluded-preferred-agents.md)
 
-[Example - configure dynamic scheduling to ignore excluded technicians](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/prevent-excluded-agents.md)
+[Example - configure dynamic scheduling to ignore excluded technicians](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/prevent-excluded-agents.md)
 
-[Assigning work order tasks to agents using dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/using-dynamic-scheduling.md)
+[Assigning work order tasks to agents using dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/using-dynamic-scheduling.md)
 
 ## Create a task filter for dynamic scheduling
 
@@ -210,7 +210,7 @@ Set the interval \(in minutes\) for how often tasks should be auto-assigned. The
 
         **Note:** Use **More is Better** for agent availability as more availability is preferred. Use **Less is Better** when selecting an agent based on the number of assigned tasks as fewer tasks are preferred
 
-    For more information, see [Matching criteria for assigning tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.md).
+    For more information, see [Matching criteria for assigning tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.md).
 
 5.  Click **Save**.
 
@@ -227,7 +227,7 @@ The task filter is ready for use in the dynamic scheduling process, optimizing t
 
 ### What to do next
 
-[Create a task ordering rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.md)
+[Create a task ordering rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.md)
 
 ### Matching criteria for assigning tasks
 
@@ -455,7 +455,7 @@ Matching Mandatory Skills For Dynamic Scheduling
 
 </td><td>
 
-Ranks agents based on the availability of mandatory skills and optional skills defined in Task Skills that are required for the task. The more skills that match, the higher the contribution to the agent's overall rank.**Note:** If using the mandatory skills feature, use the **Matching Skills - Mandatory Skills Support** criterion to match agents with the [mandatory skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/configure-mandatory-skills-feature.md) identified for a case.
+Ranks agents based on the availability of mandatory skills and optional skills defined in Task Skills that are required for the task. The more skills that match, the higher the contribution to the agent's overall rank.**Note:** If using the mandatory skills feature, use the **Matching Skills - Mandatory Skills Support** criterion to match agents with the [mandatory skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/configure-mandatory-skills-feature.md) identified for a case.
 
 </td><td>
 
@@ -657,22 +657,6 @@ Scripted
 
 wm\_task
 
-</td></tr><tr><td>
-
-Matching Demand Channel For Dynamic Scheduling**Note:** Needs Workforce Optimization and Territory model to be enabled.
-
-</td><td>
-
-Identifies technicians who support the demand channel of a work order task in the selected territory during auto-assignment.
-
-</td><td>
-
-Scripted
-
-</td><td>
-
-wm\_task
-
 </td></tr></tbody>
 </table>As part of selecting the matching criteria, you can specify the following settings for each individual criterion:
 
@@ -829,7 +813,7 @@ Dynamic scheduling will use this rule to prioritize tasks based on the criteria 
 
 ### What to do next
 
-[Create a task unassignment constraint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.md)
+[Create a task unassignment constraint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.md)
 
 ## Create a task unassignment constraint
 

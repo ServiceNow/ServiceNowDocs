@@ -3,11 +3,11 @@ title: Routing work items using Channels in Workforce Optimization for ITSM
 description: Route work items to assigned groups using channels. Use skill-based routing to ensure that the right work goes to the right agent. Review real-time performance as your team is actively working on tasks across channels. When you see escalations, you can help your agents resolve issues without the requester being aware of it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/configurable-channels-workforce-optimization-itsm.html
-release: australia
+release: brazil
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Channels, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -18,22 +18,22 @@ Route work items to assigned groups using channels. Use skill-based routing to e
 
 **Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
--   **[Monitor ongoing work in service channels and queues​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/monitor-service-channels-configurable-workspace.md)**  
+-   **[Monitor ongoing work in service channels and queues​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/monitor-service-channels-configurable-workspace.md)**  
 Monitor the incoming data and on-going work done by your agents against each service channel and queue.
--   **[Manage service channels and queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/monitor-queues-itsm-configurable-workspace.md)**  
+-   **[Manage service channels and queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/monitor-queues-itsm-configurable-workspace.md)**  
 Manage your agents' on-going work against every queue. Monitor the incoming data of the service channels and track real-time performance of your direct reporting teams and additional managing teams using key performance indicator reports in service channels and queues.
--   **[Assist agents by joining their chat conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/help-agents-using-chat-itsm-configurable-workspace.md)**  
+-   **[Assist agents by joining their chat conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/help-agents-using-chat-itsm-configurable-workspace.md)**  
 Assist agents in real-time by joining their chat conversation and collaborate on any record by connecting with the right people instantly to achieve faster resolution​.
--   **[Allocate work items manually to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/assign-workitems-manually-itsm-configurable-workspace.md)**  
+-   **[Allocate work items manually to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/assign-workitems-manually-itsm-configurable-workspace.md)**  
 Allocate pending work items to agents to complete the work.
--   **[Track and analyze agent's performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/view-agents-availability-itsm-configurable-workspace.md)**  
+-   **[Track and analyze agent's performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/view-agents-availability-itsm-configurable-workspace.md)**  
 View your agent's profile and summary information in Agent 360 and review their performance​.
--   **[Override channel capacity for an agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/override-channel-capacity-itsm-configurable-workspace.md)**  
+-   **[Override channel capacity for an agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/override-channel-capacity-itsm-configurable-workspace.md)**  
 Change the default number of work items that an agent can handle for a service channel.
--   **[Using Voice with Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/voice-configurable-wfo-itsm.md)**  
+-   **[Using Voice with Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/voice-configurable-wfo-itsm.md)**  
 Use Voice to deflect incidents away from your human agents using bots. You can record phone interactions when agents resolve issues. Also, you can monitor those interactions to evaluate and improve the quality of incident resolutions.
--   **[Analyze skills for your teams in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/analyze-skill-usage-teams-configurable-wfo-itsm.md)**  
+-   **[Analyze skills for your teams in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/analyze-skill-usage-teams-configurable-wfo-itsm.md)**  
 Add skills to groups and view skill assignments for your teams.
 
-**Parent Topic:**[Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/exploring-channels-configurable-workforce-optimization-itsm.md)
+**Parent Topic:**[Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/exploring-channels-configurable-workforce-optimization-itsm.md)
 

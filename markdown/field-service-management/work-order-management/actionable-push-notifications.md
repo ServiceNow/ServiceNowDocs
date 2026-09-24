@@ -3,11 +3,11 @@ title: Push notifications on ServiceNow Agent
 description: Assign tasks and send reminders to Field Service agents using push notifications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/actionable-push-notifications.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
@@ -21,15 +21,14 @@ Push notifications provide several advantages:
 -   Agents and technicians can receive actionable push notifications about tasks on their mobile devices.
 -   Dispatchers and managers can use push notifications to assign tasks to groups or to individual agents and to send reminders.
 -   Agents and technicians can perform push notification actions from their mobile devices without opening the application, such as accepting or rejecting tasks, part requests, and replying to customer comments on tasks.
+-   By default, technicians receive the following break related notifications: five minutes before a break starts, when a break starts, and when a break ends.
 
 **Related topics**  
 
 
-[Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-push-notifications.md)
+[Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mobile-push-notifications.md)
 
-[Configure actionable push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/actionable-push-notification.md)
+[Configure actionable push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/actionable-push-notification.md)
 
-[Mobile push notification components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-mobile-push-notifications.md)
-
-[Configure the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/configure-field-service-mobile.md)
+[Configure the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/configure-field-service-mobile.md)
 

@@ -3,13 +3,13 @@ title: Close a hardware asset repair task using the Mobile Agent application
 description: Complete an assigned hardware asset repair task and mark the task as closed using the Mobile Agent application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/complete-repair-task-mobile-app-ham.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage hardware asset repair tasks, Manage hardware asset tasks using the Mobile Agent application, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage hardware asset repair tasks using the Mobile Agent application, Manage hardware asset tasks using the Mobile Agent application, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Close a hardware asset repair task using the Mobile Agent application
@@ -48,15 +48,15 @@ You can close any task that belongs to the following task types:
 
 7.  On the Repair task input form screen, enter the result of your task.
 
-<table id="choicetable_g14_wv2_yxb"><thead><tr><th align="left" id="d42341e174">
+<table id="choicetable_g14_wv2_yxb"><thead><tr><th align="left" id="d43052e168">
 
 Task
 
-</th><th align="left" id="d42341e177">
+</th><th align="left" id="d43052e171">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d42341e183">
+</th></tr></thead><tbody><tr><td id="d43052e177">
 
 **Troubleshoot asset**
 
@@ -67,7 +67,7 @@ In the **Troubleshoot result** field, select any of the following:-   **Repairab
 -   **Redeployable**
 
 
-</td></tr><tr><td id="d42341e209">
+</td></tr><tr><td id="d43052e203">
 
 **Repair asset**
 
@@ -78,7 +78,7 @@ In the **Repair result** field, select any of the following: -   **Repaired**
 -   **Redeployable**
 
 
-</td></tr><tr><td id="d42341e235">
+</td></tr><tr><td id="d43052e229">
 
 **Evaluate asset**
 
@@ -98,7 +98,7 @@ In the **Evaluation result** field, select any of the following:-   **Redeployab
 
 The state of the repair task changes to Closed Complete.
 
-**Parent Topic:**[Manage hardware asset repair tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/repair-orders-mobile-agent-ham.md)
+**Parent Topic:**[Manage hardware asset repair tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/repair-orders-mobile-agent-ham.md)
 
 **Related topics**  
 

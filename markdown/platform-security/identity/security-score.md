@@ -3,11 +3,11 @@ title: Security findings
 description: Provides Machine Identity security score and findings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/security-score.html
-release: australia
+release: brazil
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring Machine Identity Console, Machine Identity Console, Identity]
 ---

@@ -3,13 +3,13 @@ title: Get help with ERP Semantic Mining
 description: For help with ERP Semantic Mining, contact the ServiceNow admin who works in your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-customization-mining/erp-customization-mining-get-help-now.html
-release: australia
+release: brazil
 product: ERP Customization Mining
 classification: erp-customization-mining
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, ERP Semantic Mining overview, Workflow Data Fabric]
+breadcrumb: [Explore, ERP Semantic Mining overview, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Get help with ERP Semantic Mining
@@ -27,5 +27,5 @@ Some ServiceNow resources that can provide you with helpful information are:
     [ERP Semantic Mining Community](https://www.servicenow.com/community/app-engine-for-erp/ct-p/app-engine-erp)
 
 
-**Parent Topic:**[Exploring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/exploring-ecm.md)
+**Parent Topic:**[Exploring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-customization-mining/exploring-ecm.md)
 

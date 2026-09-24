@@ -3,9 +3,9 @@ title: The lookup function: commands and syntax
 description: Use the lookup function to return information from a user-managed table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-the-lookup-function-commands-and-syntax.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setting up enrichments and rules scripting, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -16,9 +16,9 @@ Use the lookup function to return information from a user-managed table.
 
 CPQ uses a SQL-based query language to look up user-managed tables.
 
-The lookup function returns up to 10,000 rows from a table and times out after 30 seconds if the search is still querying. For information about uploading CSV files into managed tables, see [Matrix Loader: CSV table upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-matrix-loader-csv-table-upload.md).
+The lookup function returns up to 10,000 rows from a table and times out after 30 seconds if the search is still querying. For information about uploading CSV files into managed tables, see [Matrix Loader: CSV table upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-matrix-loader-csv-table-upload.md).
 
-To learn about general guidelines for using the lookup function, see [Minimizing table queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/table_queries.md).
+To learn about general guidelines for using the lookup function, see [Minimizing table queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/table_queries.md).
 
 ## Supported commands
 
@@ -80,7 +80,7 @@ lookup("SELECT column1 FROM table WHERE column2 IN (:options)",{options = cfg. [
 **Related topics**  
 
 
-[Minimizing table queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/table_queries.md)
+[Minimizing table queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/table_queries.md)
 
-[Indexes and natural keys for managed tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-indexes-and-natural-keys-for-managed-tables.md)
+[Indexes and natural keys for managed tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-indexes-and-natural-keys-for-managed-tables.md)
 

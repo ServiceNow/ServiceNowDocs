@@ -3,9 +3,9 @@ title: Configure the system properties for an activity stream in RPA Hub
 description: Configure the system properties for an activity stream of work queues, schedules, packages, process parameters, and shared parameters in RPA Hub. You can add or remove the fields that are captured in the work notes of an activity stream.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/configure-sys-properties-activity.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -140,7 +140,7 @@ name,value,is\_sensitive
 **Related topics**  
 
 
-[Robots in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/robots-rpa-hub.md)
+[Robots in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/robots-rpa-hub.md)
 
-[Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess.md)
+[Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-botprocess.md)
 

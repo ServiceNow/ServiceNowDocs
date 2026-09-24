@@ -3,9 +3,9 @@ title: Deal Registration approvals
 description: Enable deal agents to submit deals for approval through a configurable approval workflow built on the Advanced Approval Management framework.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/deal-registration-approvals-overview.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 breadcrumb: [Deal Registration, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -85,10 +85,10 @@ A deal moves through specific states during the approval process:
 -   Approved: All approval steps are complete and deal is approved. Deal can move to Closed or be further modified.
 -   Closed \(Rejected\): An approver rejected the deal, ending the approval process. Deal can't be re-approved.\[Omitted image "deal-states.png"\] Alt text: Different states of deal registration
 
--   **[Submit a deal for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/submit-deal-for-approval.md)**  
+-   **[Submit a deal for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/submit-deal-for-approval.md)**  
 Submit a deal for approval to route it through your organization's configured approval workflow and identify the approvers.
--   **[Approval configuration setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/approval-configuration-setup.md)**  
+-   **[Approval configuration setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/approval-configuration-setup.md)**  
 Configure deal registration approval rules, trigger conditions, approver groups, and reminders to implement your organization's approval workflow.
 
-**Parent Topic:**[Deal Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/deal-registration-management.md)
+**Parent Topic:**[Deal Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/deal-registration-management.md)
 

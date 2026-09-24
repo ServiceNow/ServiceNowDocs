@@ -3,11 +3,11 @@ title: Customize a ServiceNow Otto for IT Service Management \(ITSM\) resolution
 description: If you have the admin role, you can customize a ServiceNow Otto for IT Service Management \(ITSM\) skill so that agents can use the generative AI skills in Service Operations Workspace for ITSM and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-gen-resolution-notes-skill.html
-release: australia
+release: brazil
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Configure, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -53,7 +53,7 @@ From the AI Admin Hub console, you can select the input tables, related lists, a
 
 5.  In the General details step, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
 
     1.  Enter a name and description for the skill.
 
@@ -311,7 +311,7 @@ Closed
 
         -   **ServiceNow Otto panel**: When selected, AI skills are available in the Otto panel.
 
-            If you don't see this option, you must activate the Ottopanel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+            If you don't see this option, you must activate the Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
             For the skills that appear in the Otto panel, select the down arrow to identify the roles that can use the skill.
 

@@ -3,11 +3,11 @@ title: Customize UI Builder pages using components
 description: Learn what a component is in UI Builder. Also, see how components work within UI Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/work-components.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -77,7 +77,7 @@ Add column layouts and columns to your UI Builder page first. Then add component
 
 \[Omitted image "content-tree-layouts.png"\] Alt text: Content tree showing hierarchy of three column layouts with columns containing components including Color picker, Avatar, and Stylized text.
 
-For more information, see [Column layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/column-layout.md).
+For more information, see [Column layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/column-layout.md).
 
 ## Configure components in UI Builder
 
@@ -85,7 +85,7 @@ There are three ways to configure a component in the configuration panel.
 
 -   Configure the component properties.
 -   Add CSS style overrides.
--   Set up [event handlers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-glossary.md) for the components.
+-   Set up [event handlers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/ui-builder-glossary.md) for the components.
 
 \[Omitted image "config-panel-tabs.png"\] Alt text: Configuration panel tabs used to configure, style, and add events to components.
 
@@ -98,7 +98,7 @@ There are three ways to configure a component in the configuration panel.
     \[Omitted image "config-panel-hover.png"\] Alt text: Dynamic data binding and scripting icons are displayed when you hover over a field.
 
     -   Static: Use data from a list, or enter your own data. The data doesn't connect to an external data source.
-    -   Dynamic [data binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-glossary.md): A way to bind a component property to a data resource, page property, or client state.
+    -   Dynamic [data binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/ui-builder-glossary.md): A way to bind a component property to a data resource, page property, or client state.
     -   Script: Enter JavaScript code to populate a property value.
 -   **Styles tab**
 
@@ -106,7 +106,7 @@ There are three ways to configure a component in the configuration panel.
 
 -   **Events tab**
 
-    Configure page-level and variant-level [event mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-glossary.md). Also add dispatched events and handled events for your variant. The more complex, experience components rely heavily on dynamic data that is provided by a [data resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-glossary.md). Binding dynamic data to a component is an important feature. You dynamically expose data from tables, records, or other elements on your page. Exposing data enables you to reuse your components. Also, you can point to the configuration fields to see icons data or scripting options for each field.
+    Configure page-level and variant-level [event mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/ui-builder-glossary.md). Also add dispatched events and handled events for your variant. The more complex, experience components rely heavily on dynamic data that is provided by a [data resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/ui-builder-glossary.md). Binding dynamic data to a component is an important feature. You dynamically expose data from tables, records, or other elements on your page. Exposing data enables you to reuse your components. Also, you can point to the configuration fields to see icons data or scripting options for each field.
 
 
 As you add and configure components on the page, the stage shows your work. If you make changes and the updates do not load on the stage, select the **Open menu** icon and then select **Developer &gt; Reload Stage**. Reloading the stage shows your changes, but does not save them. To save your work, select **Save** at the top right.
@@ -115,7 +115,7 @@ As you add and configure components on the page, the stage shows your work. If y
 
 ## Component Presets in UI Builder
 
-Use [component presets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-glossary.md) to automatically configure components on compatible pages. UI Builder page templates contain controllers that presets use to define component configuration values. For more information, see [Automatically configure components using presets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/presets.md).
+Use [component presets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/ui-builder-glossary.md) to automatically configure components on compatible pages. UI Builder page templates contain controllers that presets use to define component configuration values. For more information, see [Automatically configure components using presets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/presets.md).
 
 \[Omitted image "preset-list-example.png"\] Alt text: Heading component properties configured by a preset.
 
@@ -131,7 +131,7 @@ Use the UI Builder component formula editor in the configuration panel to bind o
 
 \[Omitted image "component-formula-editor.png"\] Alt text: Component formula editor with an example formula.
 
-Each function added to the component formula editor auto-completes. The component formula editor displays a label for each input of the function so you know what parameters each function requires. For more information about the supported functions in the component formula editor, see [Supported functions in the UI Builder component formula editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-components.md).
+Each function added to the component formula editor auto-completes. The component formula editor displays a label for each input of the function so you know what parameters each function requires. For more information about the supported functions in the component formula editor, see [Supported functions in the UI Builder component formula editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/add-components.md).
 
 ## Component ID
 
@@ -151,42 +151,42 @@ Set the **Test value** to test what happens when the visibility is set to true, 
 
 ## Duplicate components
 
-Create an exact copy of a configured component on your UI Builder page except for the name and ID. A duplicated component copies all properties, bindings, and events. For more information, see [Duplicate a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/duplicate-components.md).
+Create an exact copy of a configured component on your UI Builder page except for the name and ID. A duplicated component copies all properties, bindings, and events. For more information, see [Duplicate a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/duplicate-components.md).
 
--   **[Automatically configure components using presets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/presets.md)**  
+-   **[Automatically configure components using presets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/presets.md)**  
 Use component presets to automatically configure components on compatible pages.
--   **[Create custom presets for components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/preset-builder.md)**  
+-   **[Create custom presets for components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/preset-builder.md)**  
 Create presets to save time and make your component configurations reusable across different experiences.
--   **[Change the default appearance of components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-styling-to-component.md)**  
+-   **[Change the default appearance of components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/add-styling-to-component.md)**  
 Set the styles for components and wrappers to change the default appearance.
--   **[Enhance accessibility with focus management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/focus-management.md)**  
+-   **[Enhance accessibility with focus management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/focus-management.md)**  
 Set focus on specific elements, ensuring users can interact with them effectively using screen readers.
--   **[Duplicate a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/duplicate-components.md)**  
+-   **[Duplicate a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/duplicate-components.md)**  
 Duplicate a configured component to reuse on a page.
--   **[Dynamically display content with conditional renderers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/conditional-renderer.md)**  
+-   **[Dynamically display content with conditional renderers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/conditional-renderer.md)**  
 Use the conditional renderer component to display content or components based on specified conditions.
--   **[Learn components by example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/learning-components-by-example.md)**  
+-   **[Learn components by example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/learning-components-by-example.md)**  
 Follow these procedures to learn how components create the functionality you need in your UI Builder pages.
--   **[Page collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/page-collections.md)**  
+-   **[Page collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/page-collections.md)**  
 Page Collections are groups of pages that can be used across multiple experiences.
--   **[Change data visualizations in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/component-hot-swapping.md)**  
+-   **[Change data visualizations in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/component-hot-swapping.md)**  
 Change data visualizations in real time using a drop-down list to preview data in your experience.
--   **[Add tabbed content to UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/tabs-components.md)**  
+-   **[Add tabbed content to UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/tabs-components.md)**  
 Use the Tabs component to add tabbed content to pages in UI Builder.
--   **[Add a contextual sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-contextual-sidebar.md)**  
+-   **[Add a contextual sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/add-contextual-sidebar.md)**  
 Add a contextual sidebar to a page with UI Builder to display related content using a vertical tab structure.
--   **[Add forms to UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-forms-to-ui-builder-pages.md)**  
+-   **[Add forms to UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/add-forms-to-ui-builder-pages.md)**  
 Use the Form component to add one or more forms to UI Builder pages.
--   **[Create modals in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/Modals-overview.md)**  
+-   **[Create modals in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/Modals-overview.md)**  
 Use modals in UI Builder with components to provide alerts or calls to action for a user. UI Builder comes with modals to save time and effort.
--   **[Extend your UI experience with viewport components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/viewports-overview.md)**  
+-   **[Extend your UI experience with viewport components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/viewports-overview.md)**  
 Viewports are specialized components that enable you to extend your experience without needing to own the parent page in UI Builder. You can work with viewports in three ways. You can add a viewport component or a viewport-enabled tab to a page, or add a viewport to the Contextual sidebar component.
--   **[Create popovers in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/uib-popover.md)**  
+-   **[Create popovers in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/uib-popover.md)**  
 Use popovers on a UI Builder page to overlay contextual information or functionality to help users complete tasks.
--   **[Create modeless dialogs in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/uib-modeless-dialog.md)**  
+-   **[Create modeless dialogs in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/uib-modeless-dialog.md)**  
 Use modeless dialogs on a UI Builder page to add a floating window that enables you to interact with both the window content and the page content below.
--   **[Configure alerts to auto-dismiss](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/uib-configure-alerts.md)**  
+-   **[Configure alerts to auto-dismiss](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/uib-configure-alerts.md)**  
 Set alerts to automatically clear after a specified time period.
 
-**Parent Topic:**[Working in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/using-ui-builder.md)
+**Parent Topic:**[Working in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/using-ui-builder.md)
 

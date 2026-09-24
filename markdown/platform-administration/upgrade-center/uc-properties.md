@@ -3,11 +3,11 @@ title: Upgrade Center properties
 description: On the properties form, you can set parameters that control how the system executes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-center/uc-properties.html
-release: australia
+release: brazil
 product: Upgrade Center
 classification: upgrade-center
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Upgrade Center references, Upgrade Center, Upgrade, Administer the ServiceNow AI Platform]
 ---
@@ -79,7 +79,7 @@ Queries about the type of instance the user is configured. **glide.upgrade.plan.
 You must configure the instance either as a builder or a consumer. You must build the upgrade plan on a builder instance and implement it on a consumer instance.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Upgrade Center references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-reference.md)
+</table>**Parent Topic:**[Upgrade Center references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-center/uc-reference.md)
 
 **Related topics**  
 

@@ -3,11 +3,11 @@ title: View the Event Management self-health application services map
 description: You can view Event Management application services maps to visualize configuration items \(CIs\) that comprise this service. The maps show the relations and connections between these CIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/view-self-health-manual-service.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Self-health monitors for Event Management, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -60,7 +60,7 @@ MID Servers
 
 </td><td>
 
-MID Servers that have been validated are displayed. The MID Server status and the `Ecc_agent_issue` table are monitored. An event is triggered whenever this table is updated. The MID Server status is displayed, either **Up** or **Down**.For information about MID Server health, see [MID Server heartbeat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerHeartbeat.md)
+MID Servers that have been validated are displayed. The MID Server status and the `Ecc_agent_issue` table are monitored. An event is triggered whenever this table is updated. The MID Server status is displayed, either **Up** or **Down**.For information about MID Server health, see [MID Server heartbeat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_MIDServerHeartbeat.md)
 
 </td></tr></tbody>
 </table>## Procedure
@@ -86,5 +86,5 @@ MID Servers that have been validated are displayed. The MID Server status and th
 
 You can select the configuration item that has a critical alert and change the impact from parent to application service.
 
-**Parent Topic:**[Self-health monitors for Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/self-monitoring.md)
+**Parent Topic:**[Self-health monitors for Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/self-monitoring.md)
 

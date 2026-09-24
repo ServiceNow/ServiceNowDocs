@@ -3,11 +3,11 @@ title: Reestablish connection after a clone for a provider
 description: After you clone your instance, you must reestablish the connection between the provider and consumer instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-cloning-instances.html
-release: australia
+release: brazil
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use for providers, Service Exchange for Providers, Service Exchange]
 ---
@@ -20,7 +20,7 @@ After you clone your instance, you must reestablish the connection between the p
 
 Role required: admin
 
-The clone must be completed. For more information on cloning, see .
+The clone must be completed. For more information on cloning, see [Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-clone-landing.md).
 
 ## About this task
 
@@ -51,12 +51,12 @@ After you clone your Service Exchange, the inbound and outbound connections move
 
 The state of the Outbound and the Inbound fields changes to **Active**.
 
-**Parent Topic:**[Using Service Exchange for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-administer.md)
+**Parent Topic:**[Using Service Exchange for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-administer.md)
 
 **Related topics**  
 
 
-[Reestablish connection after a clone for a consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-cloning-instances-con.md)
+[Reestablish connection after a clone for a consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-cloning-instances-con.md)
 
-[List of preservers and exclusions tables for cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-cloning.md)
+[List of preservers and exclusions tables for cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-cloning.md)
 

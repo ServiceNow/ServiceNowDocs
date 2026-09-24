@@ -1,54 +1,56 @@
 ---
-title: Configure Core Business Suite Foundation
-description: Configure Core Business Suite Foundation to support employee and supplier requests across Human Resources, Finance, Health and Safety, Legal, Source‑to‑Pay, and Workplace Services.
+title: Configure Core Business Suite
+description: Configure Core Business Suite to support employee and supplier requests across Human Resources, Finance, Health and Safety, Legal, Source‑to‑Pay, and Workplace Services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/configure-cbs.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [configure]
 breadcrumb: [Core Business Suite]
 ---
 
-# Configure Core Business Suite Foundation
+# Configure Core Business Suite
 
-Configure Core Business Suite Foundation to support employee and supplier requests across Human Resources, Finance, Health and Safety, Legal, Source‑to‑Pay, and Workplace Services.
+Configure Core Business Suite to support employee and supplier requests across Human Resources, Finance, Health and Safety, Legal, Source‑to‑Pay, and Workplace Services.
 
--   **[Install Implementation agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/inst-implement-agent.md)**  
-Install the Implementation Agent to enable an admin home dashboard where you can access and set up Core Business Suite.
--   **[Activate AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/activate-ai-search.md)**  
+-   **[Install Implementation agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/inst-implement-agent.md)**  
+Install the Implementation Agent to enable a modular Admin Home dashboard for instance configuration. The Implementation Agent supports the Core Business Suite guided setup, which provides a unified experience for installing and configuring Core Business Suite applications.
+-   **[Activate AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/activate-ai-search.md)**  
 Activate AI Search to enable conversational search capabilities in ServiceNow Otto for Core Business Suite \(CBS\).
--   **[Manage ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/enable-now-assist-panel.md)**  
+-   **[Manage ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/enable-now-assist-panel.md)**  
 Enable the ServiceNow Otto panel to provide generative AI assistance through a conversational interface in ServiceNow Otto for Core Business Suite \(CBS\).
--   **[Install Core Business Suite applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/install-cbs-apps.md)**  
-Install Core Business Suite applications to support employee and supplier requests across Human Resources, Finance, Health and Safety, Legal, Workplace Services, and Source‑to‑Pay.
--   **[Reapply the default configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/reset-default-configurations.md)**  
-If the default configurations aren’t applied for Core Business Suite or its business units, reapply the default configurations by running a script.
--   **[Install Core Business Suite Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/set-up-cbs.md)**  
-Install Core Business Suite Foundation to configure employee and supplier requests across Human Resources, Finance, Health and Safety, Legal, Workplace Services, and Source‑to‑Pay.
--   **[Enable Core Business Suite Foundation business units](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/activate-cbs-bu-version.md)**  
+-   **[Install Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/set-up-cbs.md)**  
+Install Core Business Suite to configure employee and supplier requests across Human Resources, Finance, Health and Safety, Legal, Workplace Services, and Source‑to‑Pay.
+-   **[Enable Core Business Suite Foundation business units](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/activate-cbs-bu-version.md)**  
 If you’re using any standard business unit included in Core Business Suite Foundation, update the system properties to enable the Core Business Suite business units for installation.
--   **[Core Business Suite setup on Product Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-product-hub-overview.md)**  
-Core Business Suite \(CBS\) is available in three subscription tiers. Depending on your subscription, you can set up your application on the Product Hub.
--   **[Assign the CBS admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-admin-role.md)**  
+-   **[Assign the CBS admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/cbs-admin-role.md)**  
 Assign the CBS Admin role to grant users full administrative access to configure Core Business Suite.
--   **[CBS requester role enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-requester-role-enhancements.md)**  
+-   **[CBS requester role enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/cbs-requester-role-enhancements.md)**  
 Assigning the CBS requester role has been simplified with two approaches — automated assignment for all employees and manual setup by an administrator — giving organizations more flexibility across business units.
--   **[Set assignment rules in CBS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/set-assignment-rules-cbs.md)**  
+-   **[Install Core Business Suite applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/install-cbs-apps.md)**  
+Install Core Business Suite applications to support employee and supplier requests across Human Resources, Finance, Health and Safety, Legal, Workplace Services, and Source‑to‑Pay.
+-   **[Reapply the default configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/reset-default-configurations.md)**  
+If the default configurations aren’t applied for Core Business Suite or its business units, reapply the default configurations by running a script.
+-   **[Assign the CBS Requestor role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/assign-cbs-requestor-role.md)**  
+Assign the CBS requestor role to enable users to access services and submit requests through Employee Center.
+-   **[Set assignment rules in CBS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/set-assignment-rules-cbs.md)**  
 Configure assignment rules for each business unit in Core Business Suite to control how tasks are automatically assigned to groups or users based on defined conditions.
--   **[Employee Slate configuration for CBS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/employee-slate-config-cbs.md)**  
-Core Business Suite provides two setup options for configuring Employee Slate as the default employee support portal. You can select any one according to your organizational requirement.
--   **[Configure Core Business Suite using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/config-cbs-using-guided-setup.md)**  
-Configure Core Business Suite business units using guided setup in the configuration console.
--   **[Configure Core Business Suite using Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/configure-cbs-using-now-assist.md)**  
-Configure Core Business Suite using a conversational interface provided by Now Assist.
--   **[Configure instance options for Help topics widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/instance-option-helpt.md)**  
+-   **[Configure instance options for Help topics widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/instance-option-helpt.md)**  
 Configure the instance options for the Help topics widget on the CBS employee portal according to your organizational requirement.
--   **[Groups in Core Business Suite module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/groups-cbs.md)**  
+-   **[Core Business Suite setup on Product Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/cbs-product-hub-overview.md)**  
+Core Business Suite \(CBS\) is available in three subscription tiers. Depending on your subscription, you can set up your application on the Product Hub.
+-   **[Employee Slate configuration for CBS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/employee-slate-config-cbs.md)**  
+Core Business Suite provides two setup options for configuring Employee Slate as the default employee support portal. You can select any one according to your organizational requirement.
+-   **[Configure Core Business Suite using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/config-cbs-using-guided-setup.md)**  
+Configure Core Business Suite business units using guided setup in the Configuration Console.
+-   **[Configure Core Business Suite using Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/configure-cbs-using-now-assist.md)**  
+Configure Core Business Suite using a conversational interface provided by Now Assist.
+-   **[Groups in Core Business Suite module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/groups-cbs.md)**  
 Groups enable you to organize people for tasks and projects across Core Business Suite. Assign team members to access, create, and manage shared settings for one or more business units.
--   **[Knowledge Base in Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/kb-cbs.md)**  
+-   **[Knowledge Base in Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/kb-cbs.md)**  
 The Knowledge module in Core Business Suite enables you to adjust settings for the default knowledge bases. It enables importing articles to support cross-functional knowledge sharing across business units in Core Business Suite.
 
-**Parent Topic:**[Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-landing.md)
+**Parent Topic:**[Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/cbs-landing.md)
 

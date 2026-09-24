@@ -3,9 +3,9 @@ title: Configure a custom playbook in Service Request Playbook
 description: Custom playbooks and service definitions enable you to customize the default Service Request Playbook user experience to interact with your desired agency workflows. After creating a service definition, you can associate a playbook with the definition.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-create-process-playbook.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Request Playbook, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-Before starting this procedure, you must create a service definition to associate your playbook with. For more information on how to create a service definition, see [Configure a service definition for Playbooks in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-create-new-service-definition.md).
+Before starting this procedure, you must create a service definition to associate your playbook with. For more information on how to create a service definition, see [Configure a service definition for Playbooks in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-create-new-service-definition.md).
 
 When the agent selects **Create Case** on the case type selector screen, the system displays the new case record and launches the playbook associated with the service in a tab on the record page.
 

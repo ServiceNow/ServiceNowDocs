@@ -3,7 +3,7 @@ title: Use Voice call widget for portal communication
 description: The voice call widget enables users to manage voice calls initiated from the portal interface or Engagement Messenger. The widget maintains call state across tabs and page navigation, displaying call controls and connection status.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/portal-phone-widget.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-08-20"
 reading_time_minutes: 2
@@ -21,14 +21,14 @@ The voice call widget appears at the bottom-left corner of the page when a call 
 
 ## Enable WebRTC for voice calls
 
-To enable the voice call capability on ServiceNow, first create an AI voice assistant to enable natural, conversational voice interactions between users and AI voice agents. For configuration steps, see [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-an-ai-voice-service.md).
+To enable the voice call capability on ServiceNow, first create an AI voice assistant to enable natural, conversational voice interactions between users and AI voice agents. For configuration steps, see [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-an-ai-voice-service.md).
 
 **Note:** The WebRTC application includes out-of-box configurations for client-side WebRTC calling. While manual configuration is optional, the provided setup eliminates the need for additional customization.
 
 Select the **Web Real-Time Communication \(WebRTC\)** tab to connect the voice assistant to mobile, web, and external applications.
 
 1.  Select **Web applications**.
-2.  Follow the on-screen instructions to configure WebRTC for ServiceNow Portal or Engagement Messenger. For detailed configuration steps, see [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-an-ai-voice-service.md).
+2.  Follow the on-screen instructions to configure WebRTC for ServiceNow Portal or Engagement Messenger. For detailed configuration steps, see [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-an-ai-voice-service.md).
 
 Contact your administrator for help configuring and enabling the voice call widget on your selected web application.
 
@@ -38,7 +38,7 @@ The following workflow shows an interaction between the Portal user and the AI V
 
 Sarah, an e-commerce customer, needs help while completing an activity in the portal, such as reviewing product information or managing items in a shopping cart. Sarah starts a call from the voice call widget, and the system connects Sarah to an AI Voice agent that provides support. During the call, Sarah can continue moving through the portal, and the active session remains connected until the issue is resolved.
 
-\[Omitted image "portal-phone-workflow-MMASSET0022359.png"\] Alt text: Customer support workflow using the voice call widget.
+\[Omitted image "portal-phone-workflow-MMASSET0022359.png"\] Alt text: Portal phone workflow using the call widget.
 
 The voice call widget includes the following key capabilities:
 

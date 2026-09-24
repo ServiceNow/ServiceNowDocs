@@ -3,9 +3,9 @@ title: Chief Digital Officer \(CDO\) Dashboard
 description: The Chief Digital Officer \(CDO\) Dashboard provides visibility into the health and productivity of your company's digital properties. It gives a unified, real-time view of the digital product adoption, customer engagement, operational efficiency, and digital transformation maturity across the enterprise.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/cdo-dashboard.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Executive dashboard overview, Platform Analytics]
 ---
@@ -13,6 +13,8 @@ breadcrumb: [Executive dashboard overview, Platform Analytics]
 # Chief Digital Officer \(CDO\) Dashboard
 
 The Chief Digital Officer \(CDO\) Dashboard provides visibility into the health and productivity of your company's digital properties. It gives a unified, real-time view of the digital product adoption, customer engagement, operational efficiency, and digital transformation maturity across the enterprise.
+
+Navigate to **CDO Dashboard** &gt; **Dashboard**.
 
 The CDO dashboard serves as a central command interface for monitoring end-to-end digital performance, including application usage, customer satisfaction, self-service adoption, automation progress, and value realization. This dashboard empowers digital leadership, it brings together operational and strategic insights that help guide digital transformation initiatives and verify that technology investment delivers meaningful business results.
 

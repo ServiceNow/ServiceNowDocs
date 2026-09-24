@@ -3,11 +3,11 @@ title: Create a portfolio plan
 description: Use lens and build a personalized portfolio plan in Strategic Planning Workspace so that you can start to prioritize and align work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [alignment planner workspace, strategic planner, portfolio planning workspace, strategic planning workspace, portfolio planner]
 breadcrumb: [Manage portfolio plans, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
@@ -27,7 +27,7 @@ Use a four-step wizard to select a lens, add conditions to filter the planning i
 
 \(For Enterprise Architecture Workspace users only\) You must install Enterprise Architecture Workspace to create a portfolio plan using the Business Capability lens. You must have the sn\_apm.apm\_user role to create a portfolio plan using the Business Capability lens.
 
-This task guides you on creating a regular work item-level portfolio plan. To create high-level portfolio plans, see [Create a high-level portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/high-level-portfolio-plan-strategic-wkspc.md).
+This task guides you on creating a regular work item-level portfolio plan. To create high-level portfolio plans, see [Create a high-level portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/high-level-portfolio-plan-strategic-wkspc.md).
 
 ## Procedure
 
@@ -89,7 +89,7 @@ Planning items that meet the following criteria appear in the portfolio plan:
 
 ## What to do next
 
--   Define goals for your portfolio plan and align your work to them. See [Managing portfolio plan goals in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/managing-goals-in-alignment-planner-workspace.md).
--   Analyze the backlog and prioritize work for your portfolio plan. See [Prioritizing portfolio plan work in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/managing-backlog-alignment-planner-workspace.md).
--   Show or hide features for your portfolio plan according to your requirement while sharing a portfolio plan with your stakeholders. See, [Show or hide the features for a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/show-or-hide-the-features-for-your-portfolio-plan-spw.md).
+-   Define goals for your portfolio plan and align your work to them. See [Managing portfolio plan goals in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/managing-goals-in-alignment-planner-workspace.md).
+-   Analyze the backlog and prioritize work for your portfolio plan. See [Prioritizing portfolio plan work in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/managing-backlog-alignment-planner-workspace.md).
+-   Show or hide features for your portfolio plan according to your requirement while sharing a portfolio plan with your stakeholders. See, [Show or hide the features for a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/show-or-hide-the-features-for-your-portfolio-plan-spw.md).
 

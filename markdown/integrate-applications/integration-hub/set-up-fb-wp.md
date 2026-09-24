@@ -3,7 +3,7 @@ title: Set up Workplace from Facebook spoke
 description: Integrate the ServiceNow instance and your Workplace from Facebook account using the Workplace from Facebook credentials to authenticate ServiceNow requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-fb-wp.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task

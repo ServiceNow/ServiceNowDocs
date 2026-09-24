@@ -3,11 +3,11 @@ title: Create an Industrial Guided Task with the Industrial Connected Workforce 
 description: Create an Industrial Guided Task \(IGT\) with the requested standard to keep processes consistent and compliant across the shop floor.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/create-igt-icw-mobile.html
-release: australia
+release: brazil
 product: Industrial Connected Workforce Mobile Experience
 classification: industrial-connected-workforce-mobile-experience
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Industrial Connected Workforce Mobile Experience, Industrial Connected Workforce]
 ---
@@ -38,7 +38,7 @@ An IGT is designed to streamline and improve operational efficiency across the s
 
 4.  On the Guided Task form, fill in the fields.
 
-    For a description of the field values, see [Industrial Guided Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/industrial-guided-task-form-mobile.md).
+    For a description of the field values, see [Industrial Guided Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/industrial-guided-task-form-mobile.md).
 
 5.  Select **Submit**.
 
@@ -47,5 +47,5 @@ An IGT is designed to streamline and improve operational efficiency across the s
 
 The new industrial guided task is displayed in the lists of tasks in the **Tasks** tab.
 
-**Parent Topic:**[Using the Industrial Connected Workforce Mobile Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/using-icw-mobile-experience.md)
+**Parent Topic:**[Using the Industrial Connected Workforce Mobile Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/using-icw-mobile-experience.md)
 

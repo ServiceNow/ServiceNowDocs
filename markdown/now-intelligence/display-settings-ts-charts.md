@@ -3,9 +3,9 @@ title: Display settings for time series data visualizations
 description: Each time series visualization type has a different set of display settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/display-settings-ts-charts.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-06-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Time series visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -46,9 +46,7 @@ Show only one data point in tooltip
 
 </td><td>
 
-When turned on, the tooltip shows only the data point being hovered over. When turned off, the tooltip shows all data points.
-
-Default: Off, except when zoom is 400%, which automatically turns it on.
+When turned on, the tooltip shows only the data point being hovered over. When turned off, the tooltip shows all data points.Default: Off, except when zoom is 400%, which automatically turns it on.
 
 </td></tr><tr><td>
 
@@ -115,9 +113,7 @@ Show only one data point in tooltip
 
 </td><td>
 
-When turned on, the tooltip shows only the data point being hovered over. When turned off, the tooltip shows all data points.
-
-Default: Off, except when zoom is 400%, which automatically turns it on.
+When turned on, the tooltip shows only the data point being hovered over. When turned off, the tooltip shows all data points.Default: Off, except when zoom is 400%, which automatically turns it on.
 
 </td></tr><tr><td>
 
@@ -160,7 +156,7 @@ Chart variation
 
 </td><td>
 
-Select whether to display the group-by values in stacked columns or side-by-side.
+Select whether to display the group-by values in stacked columns, side-by-side, or normalized. The normalized display shows columns of equal height so you can compare the proportional contribution of each series across time periods.
 
 </td></tr><tr><td>
 
@@ -176,9 +172,7 @@ Show only one data point in tooltip
 
 </td><td>
 
-When turned on, the tooltip shows only the data point being hovered over. When turned off, the tooltip shows all data points.
-
-Default: Off, except when zoom is 400%, which automatically turns it on.
+When turned on, the tooltip shows only the data point being hovered over. When turned off, the tooltip shows all data points.Default: Off, except when zoom is 400%, which automatically turns it on.
 
 </td></tr><tr><td>
 
@@ -197,7 +191,13 @@ Show % of total in tooltip
 Enable to show the percentage each data point contributes to the total alongside absolute values in the tooltip.
 
 </td></tr></tbody>
-</table>## Spline, line, and step visualization display settings
+</table>Chart variation options:
+
+-   \[Omitted image "dv-column-stacked.png"\] Alt text: Example of a stacked column visualization
+-   \[Omitted image "dv-column-side-by-side.png"\] Alt text: Example of a side-by-side column visualization
+-   \[Omitted image "dv-column-normalized.png"\] Alt text: Example of a normalized column visualization
+
+## Spline, line, and step visualization display settings
 
 <table id="table_xvh_rlv_c2c"><thead><tr><th>
 
@@ -229,9 +229,7 @@ Show only one data point in tooltip
 
 </td><td>
 
-When turned on, the tooltip shows only the data point being hovered over. When turned off, the tooltip shows all data points.
-
-Default: Off, except when zoom is 400%, which automatically turns it on.
+When turned on, the tooltip shows only the data point being hovered over. When turned off, the tooltip shows all data points.Default: Off, except when zoom is 400%, which automatically turns it on.
 
 </td></tr><tr><td>
 
@@ -274,5 +272,5 @@ Show continuous line
 When selected and there is no data for a specific time, there is no gap in the chart and it shows continuous line.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-time-series-ac.md)
+</table>**Parent Topic:**[Create time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-dv-time-series-ac.md)
 

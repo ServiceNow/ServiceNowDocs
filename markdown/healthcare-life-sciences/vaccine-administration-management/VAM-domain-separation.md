@@ -3,11 +3,11 @@ title: Domain separation and Vaccine Administration Management
 description: Domain separation is supported for Vaccine Administration Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/vaccine-administration-management/VAM-domain-separation.html
-release: australia
+release: brazil
 product: Vaccine Administration Management
 classification: vaccine-administration-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Vaccine Administration Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -26,9 +26,9 @@ Domain separation is supported for Vaccine Administration Management. Domain sep
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-separated-apps.md).
 
-The Vaccine Administration Management application includes domain separation for transactional data like vaccination programs and vaccination appointments. The application is based on the [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-serv-mgmt-core.md) that also includes domain separation.
+The Vaccine Administration Management application includes domain separation for transactional data like vaccination programs and vaccination appointments. The application is based on the [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-serv-mgmt-core.md) that also includes domain separation.
 
 ## How domain separation works in Vaccine Administration Management
 

@@ -1,11 +1,11 @@
 ---
 title: Create an intelligent approval
-description: Generate an intelligent approval policy from an existing policy document.
+description: Generate an intelligent approval from an existing policy document.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/create-an-intelligent-approval.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [intelligent approvals, create approval policy, upload policy document, AI approval, publish policy]
 breadcrumb: [Build intelligent approvals, Intelligent approvals, Build workflows]
@@ -13,7 +13,7 @@ breadcrumb: [Build intelligent approvals, Intelligent approvals, Build workflows
 
 # Create an intelligent approval
 
-Generate an intelligent approval policy from an existing policy document.
+Generate an intelligent approval from an existing policy document.
 
 ## Before you begin
 
@@ -61,7 +61,7 @@ Role required: sn\_iap.policy\_manager or sn\_iap.policy\_admin
 
     \[Omitted image "intelligent-approval-create-07.png"\] Alt text: Intelligent approval generation status messages
 
-    If the system fails to generate intelligent approvals, verify that you have access permissions to both intelligent approvals and the system records that you want approved. For requirements, see [Configure intelligent approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/configure-intelligent-approvals.md).
+    If the system fails to generate intelligent approvals, verify that you have access permissions to both intelligent approvals and the system records that you want approved. For requirements, see [Configure intelligent approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/configure-intelligent-approvals.md).
 
 7.  Review the **Overview** and **Test results** tabs of your intelligent approval policy.
 
@@ -89,7 +89,7 @@ Role required: sn\_iap.policy\_manager or sn\_iap.policy\_admin
 
 11. Upload the updated policy document, and review the percentage of **AI approved/rejected** results.
 
-    For instructions on uploading a new source document, see [Update source document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/update-source-document.md).
+    For instructions on uploading a new source document, see [Update source document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/update-source-document.md).
 
 12. Select the three-dot menu, and select **Potential overlapping approvals**.
 
@@ -112,7 +112,7 @@ Role required: sn\_iap.policy\_manager or sn\_iap.policy\_admin
 
 \[Omitted image "intelligent-approval-create-12.png"\] Alt text: Intelligent approvals homepage with the Change Request Policy v1 card showing an active status
 
-The intelligent approval policy is published and activated for all incoming requests that match the configured trigger conditions. The system evaluates matching requests as they are created and automatically approves or rejects requests that clearly meet the policy criteria. Requests that the system can't evaluate are routed to human reviewers for approval.
+The intelligent approval policy is published and activated for all incoming requests that match the configured trigger conditions. The system evaluates matching requests as they are created and automatically approves or rejects requests that clearly meet the policy criteria. Requests that the system can't evaluate remain open for human reviewers to approve.
 
 If intelligent approvals don't start when expected, verify the intelligent approvals start conditions. Use the **Define my own** option to override the suggested options.
 

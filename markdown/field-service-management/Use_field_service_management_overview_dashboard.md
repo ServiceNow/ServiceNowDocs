@@ -3,9 +3,9 @@ title: Use the Field Service Management Overview dashboard
 description: Use the Field Service Management Overview dashboard to review the work orders by their order of priority. You can also view tasks by their assignment groups.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/Use\_field\_service\_management\_overview\_dashboard.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Analytics and reporting, Field Service Management]
 ---
@@ -111,5 +111,5 @@ Bar\[Omitted image "icon-bar-report.png"\] Alt text:
 Overview of work order tasks based on the different assignment groups.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Analytics and reporting for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/analytics-reporting-fsm.md)
+</table>**Parent Topic:**[Analytics and reporting for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/analytics-reporting-fsm.md)
 

@@ -3,11 +3,11 @@ title: Configure a characteristic for a dosage specification
 description: Configure a characteristic for a dosage so that you can define the dosages for a medication product in Healthcare and Life Sciences workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-setup-dosage-char.html
-release: australia
+release: brazil
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure dosage specifications, Configure, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---

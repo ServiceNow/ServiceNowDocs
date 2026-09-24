@@ -3,11 +3,11 @@ title: Enable Code Signing for application configuration data and scripts \[Remo
 description: Manage Code Signing for application configuration data and scripts on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-enable-code-signing-for-application-configuration-data-and-scripts.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Malicious code, Hardening settings, Platform Security]
 ---
@@ -18,7 +18,7 @@ Manage Code Signing for application configuration data and scripts on your insta
 
 Code Signing can help improve security by validating sensitive application configuration data and scripts before they’re used. Code Signing creates digital signatures for the data, which are later checked to confirm the authenticity and integrity of the data. This verification helps prevent malicious data or scripts from being used on the instance, which may lead to full compromise of the instance.
 
-Enable Code Signing on your instance by following the steps in [Configuring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/config-code-signing.md). This results in the **com.snc.kmf.signature.validation.flag** system property being set to true.
+Enable Code Signing on your instance by following the steps in [Configuring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/config-code-signing.md). This results in the **com.snc.kmf.signature.validation.flag** system property being set to true.
 
 **Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It’s non-revertible.
 
@@ -78,7 +78,7 @@ Category
 
 </td><td>
 
-[Malicious code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-malicious-code.md)
+[Malicious code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-malicious-code.md)
 
 </td></tr><tr><td>
 
@@ -99,5 +99,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Malicious code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-malicious-code.md)
+</table>**Parent Topic:**[Malicious code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-malicious-code.md)
 

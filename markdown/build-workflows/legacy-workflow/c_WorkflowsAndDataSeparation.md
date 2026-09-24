@@ -3,11 +3,11 @@ title: Workflows and data separation
 description: Data separation restricts workflow contexts to users who are either in the same domain of the workflow or are members of a parent domain.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/legacy-workflow/c\_WorkflowsAndDataSeparation.html
-release: australia
+release: brazil
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workflow concepts, Classic Workflow, Build workflows]
 ---

@@ -3,11 +3,11 @@ title: Add additional group by variables to a service catalog report
 description: You can create reports grouped by any field with an additional group by variable on a selected service catalog item. In addition, you can create filters on the same variable. For example, if a mobile phone item has a storage variable, you can create a report that only shows those phones with 32 GB of storage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/add-addl-group-svc-cat-var-report.html
-release: australia
+release: brazil
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Report on service catalog variables, Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -26,7 +26,7 @@ You can apply these steps to any report type as long as the report source has va
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **New**.
+1.  Navigate to `sys_reports.list` and select **New**.
 
 2.  On the **Data** tab, give the report a name that reflects the information being grouped.
 
@@ -59,8 +59,8 @@ You can apply these steps to any report type as long as the report source has va
 
 11. Continue to configure and style the report according to its report type.
 
-    See [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-types-creation-details-rd.md).
+    See [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/report-types-creation-details-rd.md).
 
 
-**Parent Topic:**[Report on service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/rep-service-catalog-variables.md)
+**Parent Topic:**[Report on service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/rep-service-catalog-variables.md)
 

@@ -3,11 +3,11 @@ title: Working with Data Exports
 description: Threat Intelligence Security Center supports manual export of observables, indicators, and cases in the recommended formats.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-data-exports.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Threat Intelligence Security Center, Security Operations]
 ---

@@ -3,9 +3,9 @@ title: Types of ServiceNow integrations provided
 description: The Security Operations applications \(Security Incident Response, Threat Intelligence, and Vulnerability Response\) can be seamlessly integrated with other ServiceNow applications to enhance their functionality.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/c\_TypesOfIntegrationsProv.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [ServiceNow Security Operations integration development guidelines, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -31,9 +31,9 @@ Useful capabilities provided:
 
 Resources:
 
-[Security Incident event management support documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/c_ScIncdUseAlrts.md)
+[Security Incident event management support documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/c_ScIncdUseAlrts.md)
 
-[Event Management documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_EM.md)
+[Event Management documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/c_EM.md)
 
 ## Security Incident Response - Import Set API integration
 
@@ -51,9 +51,9 @@ Automatic CI matching on Security Incident creation based on IP, NetBIOS, or ful
 
 Resources:
 
-[Platform Import Set API documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_ImportSetAPI.md)
+[Platform Import Set API documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/c_ImportSetAPI.md)
 
-[Security Incident Web Service Import Set documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/c_3rdPartyAlertMonToolInteg.md)
+[Security Incident Web Service Import Set documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/c_3rdPartyAlertMonToolInteg.md)
 
 ## Threat Intelligence - lookup source integration
 
@@ -87,7 +87,7 @@ Useful capabilities provided:
 
 Resources:
 
-[Define a threat source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_GetStartedWithThreatIntel.md)
+[Define a threat source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/c_GetStartedWithThreatIntel.md)
 
 ## Vulnerability Response - scanner invocation integration
 
@@ -121,9 +121,9 @@ Useful capabilities provided:
 
 Resources:
 
-[Vulnerability data integration documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/c_VulnerabilityIntegrations.md)
+[Vulnerability data integration documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/c_VulnerabilityIntegrations.md)
 
-**Parent Topic:**[ServiceNow Security Operations integration development guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_IntegrationWritingGuidelines.md)
+**Parent Topic:**[ServiceNow Security Operations integration development guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/c_IntegrationWritingGuidelines.md)
 
 **Related topics**  
 

@@ -3,9 +3,9 @@ title: Create an appointment
 description: As an agent, you can make an appointment with the requester of a case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/osp-create-appt.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Outsourced Service Provider agent tasks, Manage cases, Use, Customer Service Management]
 ---

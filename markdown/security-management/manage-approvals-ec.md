@@ -3,9 +3,9 @@ title: Managing Approvals via the Employee Service Center
 description: The updated Employee Service Center experience consolidates vulnerability approvals under one interface.This allows customers to efficiently manage security exceptions without navigating multiple systems or UIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/manage-approvals-ec.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Employee service center for Vulnerability Response, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -55,6 +55,4 @@ Each task provides a summary including:
 
     Detailed audit data is available, including who approved, comments provided, actions performed. No further actions are allowed in this tab.
 
-
-**Parent Topic:**[Employee service center for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/employee-center-vr-overview.md)
 

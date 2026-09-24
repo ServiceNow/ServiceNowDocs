@@ -3,13 +3,13 @@ title: Chat using ServiceNow Otto in Virtual Agent
 description: Use Digital End-User Experience \(DEX\) Virtual Agent to access a convenient chat-based support powered by ServiceNow Otto to find answers and guidance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/chat-using-now-assist.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Desktop Assistant, Digital End-User Experience, IT Service Management]
+breadcrumb: [Desktop Assistant, Solve issues, Digital End-User Experience, IT Service Management]
 ---
 
 # Chat using ServiceNow Otto in Virtual Agent
@@ -18,7 +18,7 @@ Use Digital End-User Experience \(DEX\) Virtual Agent to access a convenient cha
 
 ## Before you begin
 
-Confirm that the DEX Desktop Assistant \[sn\_dex\_desktop\] application has been installed. For more information, see [Install Application and Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/install-app-device-health.md) and [Download and install Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/download-desktop-experience.md).
+Confirm that the DEX Desktop Assistant \[sn\_dex\_desktop\] application has been installed. For more information, see [Install Application and Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/install-app-device-health.md) and [Download and install Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/download-desktop-experience.md).
 
 Role required: sn\_dex\_desktop.user or sn\_dex\_desktop.admin
 
@@ -32,6 +32,6 @@ Role required: sn\_dex\_desktop.user or sn\_dex\_desktop.admin
 
     **Note:**
 
-    -   To customize the topics that must be displayed and available on the **Show me everything** window, see [Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/conversation-designer-virtual-agent.md)
-    -   To monitor and improve your device performance using ServiceNow Otto in Virtual Agent, see [Check device health using ServiceNow Otto for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-now-assist-for-itsm.md)
+    -   To customize the topics that must be displayed and available on the **Show me everything** window, see [Build conversations in the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/conversation-designer-virtual-agent.md)
+    -   To monitor and improve your device performance using ServiceNow Otto in Virtual Agent, see [Check device health using ServiceNow Otto for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/check-your-device-s-health-using-now-assist-for-itsm.md)
 

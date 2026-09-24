@@ -3,11 +3,11 @@ title: Link additional records to Major Security Incident
 description: In the workspace, use the linking records functionality to link any related Security Incident records and its child security incidents, Remediation Tasks from Vulnerability Response, and Security Cases from Threat Intelligence to a Major Security Incident \(MSI\) record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/linking-additional-records-to-major-security-incidents.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -51,7 +51,7 @@ Role required: sn\_msi.workspace\_manager and sn\_msi.workspace\_responder
     **Note:** After a record is linked, the list view is refreshed automatically and lists the updated list of incident records.
 
 
-**Parent Topic:**[Using Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/major-security-incident-setup.md)
+**Parent Topic:**[Using Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/major-security-incident-setup.md)
 
 **Related topics**  
 
@@ -74,5 +74,5 @@ Role required: sn\_msi.workspace\_manager and sn\_msi.workspace\_responder
 
 [Create and distribute MSIM Status Reports]()
 
-[Unlink records from Major Security Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/unlinking-msi-records.md)
+[Unlink records from Major Security Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/unlinking-msi-records.md)
 

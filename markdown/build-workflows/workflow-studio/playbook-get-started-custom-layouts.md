@@ -3,11 +3,11 @@ title: Customize a playbook in UI Builder
 description: Use UI Builder pages and modular components for custom playbook layouts to customize the end user's Playbook Experience in a configurable workspace, Service Portal page, or mobile web page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/playbook-get-started-custom-layouts.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Customize Playbook Experience, Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -18,14 +18,14 @@ Use UI Builder pages and modular components for custom playbook layouts to custo
 
 ## Before you begin
 
--   If you don't have a playbook to apply custom layouts to, build a playbook. To learn more, see [Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/building-a-process.md).
+-   If you don't have a playbook to apply custom layouts to, build a playbook. To learn more, see [Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/building-a-process.md).
 -   Install the latest version of the Playbook Experience and Playbook Experience Component apps from the ServiceNow Store. See [Playbook Experience apps](https://store.servicenow.com/sn_appstore_store.do#!/store/product/e4cecaf0db2be81079279ee4db9619f2).
 
 Role required: ui\_builder\_admin, admin
 
 ## About this task
 
-After creating a UI Builder page, you can customize Playbook Experience pages to your needs. Page templates include controllers that can be used with component presets, including the playbook templates. See [Bind data to UI Builder pages using controllers \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/controllers.md) for more information.
+After creating a UI Builder page, you can customize Playbook Experience pages to your needs. Page templates include controllers that can be used with component presets, including the playbook templates. See  for more information.
 
 ## Procedure
 
@@ -33,18 +33,18 @@ After creating a UI Builder page, you can customize Playbook Experience pages to
 
 2.  Open the **UI Builder** experience that you want to work in, or create a new experience.
 
-    The **Playbook Experience Builder** experience was built for you to customize Playbook Experience. For more information on how to create an experience, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-experiences.md)
+    The **Playbook Experience Builder** experience was built for you to customize Playbook Experience. For more information on how to create an experience, seeConfigure how users interact with your applications in UI Builder
 
 3.  In your **UI Builder** experience, you can:
 
-    -   [Create a page from scratch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-page.md),
-    -   [create a page from a **Standard record** template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/reuse-page-definitions.md),
+    -   Create a page from scratch,
+    -   create a page from a **Standard record** template,
     -   or create a page from a Playbook Experience template.
     Using a Playbook Experience template speeds up the development process, because the Playbook Custom Layout UI Controller and components are already added to every page, including record generators as of version 25.2. The controller automatically populates all the provided components with data.
 
     **Note:** You can still create and add custom components when you use a template.
 
-    \[Omitted image "playbook-templates.png"\] Alt text: Customizable Playbook templates in UI Builder.
+    \[Omitted image "playbook-select-template.png"\] Alt text: Select a playbook template.
 
 4.  If you're using a Playbook Experience template, **Create** your page.
 
@@ -303,5 +303,5 @@ Optional context ID of selected activity for deep linking
 **Related topics**  
 
 
-[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md)
+[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder-overview.md)
 

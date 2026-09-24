@@ -3,11 +3,11 @@ title: Categorize workstation activities to simplify analysis
 description: Organize and add context to your data by grouping similar workstation activities with user-friendly category names.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/define-default-categorization-rules.html
-release: australia
+release: brazil
 product: Task Mining
 classification: task-mining
 topic_type: task
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Use, Task Mining, Platform Analytics]
 ---
@@ -26,7 +26,7 @@ Role required: sn\_tm\_core.power\_user, sn\_tm\_core.admin
 
 Five predefined categorization rules are provided and can't be changed. The first four rules classify inactive time. The MAX rule applies last and represents uncategorized activity that doesn't match any rule, and is the source for categorizing activities. By default, uncategorized activities don't appear in dashboards and fall into the Other category.
 
-You create categorization rules with a condition builder. Each rule matches activities when the conditions you define evaluate true against an activity's application name, window name, or URL. For more information, see [Categorization concepts in Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/configuration-concepts.md).
+You create categorization rules with a condition builder. Each rule matches activities when the conditions you define evaluate true against an activity's application name, window name, or URL. For more information, see [Categorization concepts in Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/configuration-concepts.md).
 
 ## Procedure
 
@@ -105,7 +105,7 @@ You create categorization rules with a condition builder. Each rule matches acti
 
     4.  Enter a **Window name** to mask or further describe the activity.
 
-    For a description of the field values, see [Categorization rule form in Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/categorization-rules.md).
+    For a description of the field values, see [Categorization rule form in Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/categorization-rules.md).
 
     \[Omitted image "tm-cat-2.png"\] Alt text: Screenshot showing the Categories section of the rule builder.
 
@@ -119,9 +119,9 @@ You create categorization rules with a condition builder. Each rule matches acti
 **Related topics**  
 
 
-[Refine the presentation of your data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/preview-data-based-on-categorization-rules.md)
+[Refine the presentation of your data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/preview-data-based-on-categorization-rules.md)
 
-[Categorization concepts in Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/configuration-concepts.md)
+[Categorization concepts in Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/configuration-concepts.md)
 
-[Categorization rule form in Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/categorization-rules.md)
+[Categorization rule form in Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/categorization-rules.md)
 

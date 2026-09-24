@@ -3,7 +3,7 @@ title: Configure Succession Planning Report
 description: Configure the Succession Planning report that the action Look up Succession Planning in the Workday HR spoke uses to view the details of succession planning.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/configure-succession-planning-report.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task

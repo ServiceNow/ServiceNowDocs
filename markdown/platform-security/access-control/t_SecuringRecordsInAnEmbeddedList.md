@@ -3,11 +3,11 @@ title: Secure records in an embedded list
 description: To apply security to the records in embedded lists, limit editing and deleting records in embedded lists to specific roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/t\_SecuringRecordsInAnEmbeddedList.html
-release: australia
+release: brazil
 product: Access Control
 classification: access-control
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure an ACL, Access Control Lists \(ACLs\), Access Management]
 ---

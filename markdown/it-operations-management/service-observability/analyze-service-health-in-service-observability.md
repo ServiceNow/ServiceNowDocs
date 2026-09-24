@@ -3,11 +3,11 @@ title: Analyze service health in Service Observability
 description: Use the Analyze Service Health skill to view an analysis of all Service Observability dashboards for the selected service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-observability/analyze-service-health-in-service-observability.html
-release: australia
+release: brazil
 product: Service Observability
 classification: service-observability
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Generative AI for IT Operations Management, Generative AI for ITOM, Service Observability dashboard analysis, Now Assist panel]
 breadcrumb: [Monitoring and investigating, Service Observability, ITOM AIOps, IT Operations Management]
@@ -27,7 +27,7 @@ When you ask the skill to analyze a service's health, it generates an optimized 
 
 The skill's results remain available for an hour and don't automatically refresh. You need to rerun the skill to view a new analysis.
 
-Once the skill is [activated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/activate-the-analyze-service-health-skill.md), it automatically runs for you in incident investigation from the **Investigate** tab in Incident Management. See [Digital End-User Experience and Service Observability UI experience on investigate tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/dex-so-metric-views-investigate-tab.md) for more information.
+Once the skill is [activated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-observability/activate-the-analyze-service-health-skill.md), it automatically runs for you in incident investigation from the **Investigate** tab in Incident Management. See [Digital End-User Experience and Service Observability UI experience on investigate tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/dex-so-metric-views-investigate-tab.md) for more information.
 
 Note the following:
 
@@ -37,7 +37,7 @@ Note the following:
 
 ## Before you begin
 
-You need to manually activate this skill before it can be used. See [Activate the analyze service health skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/activate-the-analyze-service-health-skill.md) for more information.
+You need to manually activate this skill before it can be used. See [Activate the analyze service health skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-observability/activate-the-analyze-service-health-skill.md) for more information.
 
 Role required: admin, operator
 
@@ -53,7 +53,7 @@ Role required: admin, operator
     -   **Express list** alert: Select a service from the **Impacted services** column.
     The Service Details page opens and the Overview tab is displayed.
 
-    If charts are displaying error messages, see [Chart error states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/chart-error-states.md).
+    If charts are displaying error messages, see [Chart error states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-observability/chart-error-states.md).
 
 2.  At the top-right of the record page, select **Analyze service**.
 

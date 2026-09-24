@@ -1,22 +1,22 @@
 ---
-title: Initiate and manage scans
-description: Use the Scan Results list view to initiate scans, monitor scan status, and manage scan execution using the Initiate Scan and Force Full Scan buttons.
+title: Manage and monitor scans
+description: Initiate scans, monitor scan status, and manage scan execution using the Initiate Scan and Force Full Scan buttons.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/initiate-manage-scan-engine.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-05"
-reading_time_minutes: 2
-breadcrumb: [Run your first scan, Run Impact Guided Setup, Configuring Impact, Impact]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Run on-demand scans, Scan your instance, Impact Guided Setup, Configuring Impact, Impact]
 ---
 
-# Initiate and manage scans
+# Manage and monitor scans
 
-Use the Scan Results list view to initiate scans, monitor scan status, and manage scan execution using the Initiate Scan and Force Full Scan buttons.
+Initiate scans, monitor scan status, and manage scan execution using the Initiate Scan and Force Full Scan buttons.
 
 ## Before you begin
 
-Your ServiceNow instance must be running a minimum of Zurich release with the Impact Platform Health product installed. See [Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md) for details.
+Your ServiceNow instance must be running a minimum of Zurich release with the Impact Platform Health product installed. See [Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configuring-impact-platform.md) for details.
 
 Role required: impact\_admin, impact\_ai\_fix\_user, impact\_scan\_user, impact\_scan-read\_user
 
@@ -28,9 +28,9 @@ The Scan Results list view provides two UI action buttons for scan initiation: *
 
 ## Procedure
 
-1.  Navigate to **Impact** &gt; **Platform Health** &gt; **Scan Results**.
+1.  Navigate to **Impact** &gt; **Platform Health** &gt; **Summary Scans**.
 
-    This is the primary interface for initiating and monitoring scans. The Scan Results list view displays all previous scans with their status, type, and metadata.
+    The Scan Results list view displays all previous scans with their status, type, and metadata. This is the primary interface for initiating and monitoring scans.
 
 2.  Select **Initiate Scan**.
 
@@ -49,65 +49,35 @@ The Scan Results list view provides two UI action buttons for scan initiation: *
 
         Select **Cancel** to discontinue the override.
 
-4.  Refresh the **Scan Results** page to view the latest scan status in the Scan Results list view.
+4.  View the scan information.
 
-<table id="table_nqn_vdt_m3c"><thead><tr><th>
+    |Field|Description|
+    |-----|-----------|
+    |Number|ID number assigned to the scan|
+    |Start time|UTC time of when the scan executed.|
+    |Scan type|Type of scan being run. See [Monitor and manage instance health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/scan-engine-parallel-processing.md) for details.|
+    |Status|Status of the scan.|
+    |Active custom definition limit|Indicates if the number of custom definitions is within your Impact package allocation. For details on the limits, see [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/impact-packages1.md).|
+    |Scan Engine score|A percentage of|
+    |Local update set|Displays the update set being scanned|
+    |State|Getting ready, Scanning, Reconcile findings, Complete.|
+    |Scan duration|How long the scan has been running|
+    |Application|Displays the Application being scanned.|
+    |Source|Percentage of how close the scan is to completing|
 
-Field
+5.  Navigate to **All** &gt; **Impact** &gt; **Platform Health** &gt; **Scan Status**to track the scan progress to view the latest scan status in list view.
 
-</th><th>
+    See [View scan results for Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/viewing-scan-results-scan-engine.md) for additional information.
 
-Description
+6.  On the **Actions** menu, select any of the following as needed.
 
-</th></tr></thead><tbody><tr><td>
-
-Number
-
-</td><td>
-
-Scan record identifier \(PSR\#\)
-
-</td></tr><tr><td>
-
-Start time
-
-</td><td>
-
-Time that the scan executed
-
-</td></tr><tr><td>
-
-Scan type
-
-</td><td>
-
--   Full Instance Scan
--   Delta Instance Scan
--   On Demand Instance Scan
+    |Option|Description|
+    |------|-----------|
+    |View Summary Scan Record |Open the summary results for the scan.|
+    |Cancel this scan|Cancel the scan before it completes.|
+    |Reload page|Refresh the page to see updated scan progress.|
 
 
-</td></tr><tr><td>
-
-Status
-
-</td><td>
-
--   **Getting ready**: New scans initial status in initialization phase
--   **In-progress**: Status after getting ready
--   **Complete**: Displays a green status indicator
--   **Canceled**: Displays a yellow status indicator
-
-
-</td></tr><tr><td>
-
-Scan Engine Score
-
-</td><td>
-
-Percentage score with visual bar
-
-</td></tr></tbody>
-</table>
 ## Example
 
 ## What to do next
@@ -118,5 +88,5 @@ After scan completion:
 -   Address any identified issues or recommendations.
 -   Review the Scan Engine Score to assess instance health.
 
-**Parent Topic:**[Run your first scan with the Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/run-scan-engine.md)
+**Parent Topic:**[Run on-demand scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/using-impact-scan-engine.md)
 

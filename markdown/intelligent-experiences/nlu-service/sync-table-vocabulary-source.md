@@ -1,18 +1,18 @@
 ---
-title: Sync a table vocabulary source
+title: \(Legacy\) Sync a table vocabulary source
 description: Synchronize your table vocabulary sources to obtain the latest changes to the ServiceNow source table. Synchronizing your vocabulary sources ensures your NLU models have the latest values when predicting intents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/sync-table-vocabulary-source.html
-release: australia
+release: brazil
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [NLU vocabulary, Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) NLU vocabulary, \(Legacy\) Build and train your model, \(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Sync a table vocabulary source
+# \(Legacy\) Sync a table vocabulary source
 
 Synchronize your table vocabulary sources to obtain the latest changes to the ServiceNow source table. Synchronizing your vocabulary sources ensures your NLU models have the latest values when predicting intents.
 
@@ -25,7 +25,7 @@ Synchronize your table vocabulary sources to obtain the latest changes to the Se
 
 When you reference a vocabulary source in an utterance, it pulls the values at the time the model is trained. However, if the table values change over time, the model still references the values from the last training session.
 
-You can select a schedule to automatically refresh the vocabulary values used by NLU. This schedule can be edited later. For more information, see [Create a table vocabulary source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-table-lookup-source.md).
+You can select a schedule to automatically refresh the vocabulary values used by NLU. This schedule can be edited later. For more information, see [\(Legacy\) Create a table vocabulary source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/create-table-lookup-source.md).
 
 You can also manually sync a table vocabulary source, such as before model training.
 
@@ -56,12 +56,12 @@ The values in the Last refresh and Current status columns reflect the current st
 
 \[Omitted image "nlu-models7.png"\] Alt text: ServiceNow Tables tab of the Vocabulary Sources page. The Last refresh and Current status columns provide synchronization information.
 
-Proceed to train your model. For more information on model training, see [Train and try your NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/test-train-nlu-model.md).
+Proceed to train your model. For more information on model training, see [\(Legacy\) Train and try your NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/test-train-nlu-model.md).
 
 For information about errors when syncing a table vocabulary source, see article [KB1588239](https://support.servicenow.com/kb_view.do?sysparm_article=KB1588239) in the Now Support Knowledge Base.
 
 **Related topics**  
 
 
-[Create a table vocabulary source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-table-lookup-source.md)
+[\(Legacy\) Create a table vocabulary source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/create-table-lookup-source.md)
 

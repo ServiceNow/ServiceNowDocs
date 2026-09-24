@@ -3,11 +3,11 @@ title: Refine search results
 description: Use properties to refine search results in Service Catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_UsePropertiesToRefineSrchResult.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure search and navigation, Service catalog home page configuration, Service Catalog customization, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -45,5 +45,5 @@ Auto-completion also applies to the **Request for** field, which can be added to
 4.  Place the category on the page.
 
 
-**Parent Topic:**[Configure search and navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ConfigSrchNavUseProps.md)
+**Parent Topic:**[Configure search and navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/c_ConfigSrchNavUseProps.md)
 

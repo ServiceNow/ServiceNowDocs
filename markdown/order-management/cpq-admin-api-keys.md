@@ -3,7 +3,7 @@ title: Intro to admin API keys
 description: You can use admin API calls to access Admin functionality without using the Admin UI interface and a browser.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-admin-api-keys.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -92,5 +92,5 @@ When you use an admin API key, you use different endpoints to access the admin A
 **Related topics**  
 
 
-[Admin APIs: Authentication using a Salesforce-connected app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/admin-apis-authentication-via-salesforce-connected-app.md)
+[Admin APIs: Authentication using a Salesforce-connected app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/admin-apis-authentication-via-salesforce-connected-app.md)
 

@@ -3,11 +3,11 @@ title: Configure Automated Test Framework \(ATF\) for Headless Browser in Micros
 description: Step 7 in the Microsoft Windows setup for the ServiceNow Headless Browser for ATF: Configure ATF with properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/headless-browser-configure-atf-windows.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Headless Browser setup for Microsoft Windows, Headless Browser for Automated Test Framework, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -18,7 +18,7 @@ Step 7 in the Microsoft Windows setup for the ServiceNow® Headless Browser for 
 
 ## Before you begin
 
-Complete Step 6: [Set up instance for Headless Browser in Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/headless-browser-instance-setup-windows.md)
+Complete Step 6: [Set up instance for Headless Browser in Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/headless-browser-instance-setup-windows.md)
 
 Role required: admin on your ServiceNow instance and local administrator on the host machine.
 
@@ -58,7 +58,7 @@ sn\_atf.headless.username
 
 </td><td>
 
-Username of the integration user that you created in [Add secrets to Docker for Headless Browser setup in Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/headless-browser-add-secrets-docker-windows.md)
+Username of the integration user that you created in [Add secrets to Docker for Headless Browser setup in Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/headless-browser-add-secrets-docker-windows.md)
 
 </td></tr><tr><td>
 
@@ -70,7 +70,7 @@ sn\_atf.headless.secret\_id
 
 </td><td>
 
-Docker “secret ID” that you obtained earlier, as well as the Docker secret name that you created in Step 2 of the [Add secrets to Docker for Headless Browser setup in Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/headless-browser-add-secrets-docker-windows.md) procedure.
+Docker “secret ID” that you obtained earlier, as well as the Docker secret name that you created in Step 2 of the [Add secrets to Docker for Headless Browser setup in Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/headless-browser-add-secrets-docker-windows.md) procedure.
 
 </td></tr><tr><td>
 
@@ -94,9 +94,9 @@ Image name with tag that you downloaded: `ghcr.io/servicenow/atf-headless-runner
 8.  Select **Save**.
 
 
-**Parent Topic:**[Headless Browser setup for Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/headless-browser-procedure-windows.md)
+**Parent Topic:**[Headless Browser setup for Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/headless-browser-procedure-windows.md)
 
-**Previous topic:**[Set up instance for Headless Browser in Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/headless-browser-instance-setup-windows.md)
+**Previous topic:**[Set up instance for Headless Browser in Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/headless-browser-instance-setup-windows.md)
 
-**Next topic:**[Verify Headless Browser procedures for ATF in Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/headless-browser-verify-tests-windows.md)
+**Next topic:**[Verify Headless Browser procedures for ATF in Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/headless-browser-verify-tests-windows.md)
 

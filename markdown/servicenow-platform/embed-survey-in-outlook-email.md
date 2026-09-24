@@ -3,9 +3,9 @@ title: Embed a survey within the Outlook email client
 description: Embed an interactive survey in the email notification sent to a user. The user can answer the survey questions and submit the survey from the email client instead of opening the survey in a new browser tab.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/embed-survey-in-outlook-email.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Survey distribution, Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -66,7 +66,7 @@ The Outlook Actionable Messages plugin \(sn\_ms\_oam\) should be activated.
     An email notification with the embedded survey is sent to the user. The user can take the survey and submit it from the email client instead of opening the survey in a new browser tab.
 
 
-**Parent Topic:**[Survey distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDistribution.md)
+**Parent Topic:**[Survey distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SurveyDistribution.md)
 
 **Related topics**  
 

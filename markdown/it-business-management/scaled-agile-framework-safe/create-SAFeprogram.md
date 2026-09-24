@@ -3,11 +3,11 @@ title: Define an Agile Release Train
 description: From SAFe, define an Agile Release Train \(ART\) which is a group of agile teams working towards a single solution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/create-SAFeprogram.html
-release: australia
+release: brazil
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SAFe entities, Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -24,15 +24,15 @@ Role required: safe\_admin
 
 1.  Create an agile release train using either of the following options.
 
-<table id="choicetable_u3p_dtb_kfb"><thead><tr><th align="left" id="d69752e63">
+<table id="choicetable_u3p_dtb_kfb"><thead><tr><th align="left" id="d69191e63">
 
 Option
 
-</th><th align="left" id="d69752e66">
+</th><th align="left" id="d69191e66">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d69752e72">
+</th></tr></thead><tbody><tr><td id="d69191e72">
 
 **From the Agile Release Train module**
 
@@ -42,7 +42,7 @@ Steps
 2.  Click **New**.
 
 
-</td></tr><tr><td id="d69752e102">
+</td></tr><tr><td id="d69191e102">
 
 **From the Portfolio form**
 
@@ -109,12 +109,12 @@ PI Objectives
 List of all PI objectives of this ART. View, create, and update the PI objectives.This related list is visible in the SAFe view of the ART form.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[SAFe entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/key-entities-SAFe.md)
+</table>**Parent Topic:**[SAFe entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/key-entities-SAFe.md)
 
 **Related topics**  
 
 
-[Define a feature in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/create-SAFefeature.md)
+[Define a feature in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/create-SAFefeature.md)
 
-[Define a program increment in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/create-SAFeprogramincrement.md)
+[Define a program increment in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/create-SAFeprogramincrement.md)
 

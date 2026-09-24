@@ -3,11 +3,11 @@ title: Roll back a data privacy job
 description: Roll back a data privacy job on your non-production instance that uses anonymized data from your production instance to a state prior to de-identification of a data class or user job.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/rollback-data-privacy-job.html
-release: australia
+release: brazil
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data privacy job rollback, Data privacy \(Classic\) configuration, Data privacy \(Classic\), Data Privacy, Platform Privacy]
 ---
@@ -24,15 +24,15 @@ Role required: data\_privacy\_admin or data\_privacy\_processor, and admin
 
 1.  Elevate to the **data\_privacy\_processor** or **data\_privacy\_admin** role.
 
-    For details on role elevation, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
+    For details on role elevation, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
 
 2.  Navigate to **All** &gt; **System Security** &gt; **Data Privacy** &gt; **Data Privacy Job**.
 
-    **Note:** In advance, a data privacy policy configuration that supports rollback must be created. [Create a data privacy policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/config-dp-policy.md).
+    **Note:** In advance, a data privacy policy configuration that supports rollback must be created. [Create a data privacy policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-privacy-classic/config-dp-policy.md).
 
 3.  Create a data privacy job and select a Privacy Configuration that supports Rollback.
 
-    See [Configure a data privacy job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/config-data-privacy-job.md).
+    See [Configure a data privacy job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-privacy-classic/config-data-privacy-job.md).
 
 4.  Schedule the job for data anonymization.
 

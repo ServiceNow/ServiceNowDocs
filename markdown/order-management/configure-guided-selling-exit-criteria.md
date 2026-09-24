@@ -3,9 +3,9 @@ title: Configure guided selling activities in a playbook
 description: Define the mandatory activities that sales agents must complete at each opportunity stage by configuring a playbook. Agents cannot advance an opportunity to the next stage until all activities for the current stage are complete.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-guided-selling-exit-criteria.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [guided selling, playbook, stage exit criteria, opportunity stages, process compliance, mandatory activities]
 breadcrumb: [Opportunity Management, Sales automation apps, Configure, Sales Customer Relationship Management]
@@ -17,7 +17,7 @@ Define the mandatory activities that sales agents must complete at each opportun
 
 ## Before you begin
 
-The opportunity stages for your sales cycle must be defined before you configure guided selling activities. For more information, see [Create opportunity stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-opportunity-stages.md).
+The opportunity stages for your sales cycle must be defined before you configure guided selling activities. For more information, see [Create opportunity stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/opportunity-management-opportunity-stages.md).
 
 Role required: sn\_opty\_mgmt\_core.opportunity\_admin
 
@@ -33,13 +33,13 @@ The system records activity completion state in the Sales CRM Progression Checkp
 
 1.  Navigate to **All** &gt; **Playbooks Designer**.
 
-2.  Open the **Sales stage guide**.
+2.  Open the **Sales essentials playbook**.
 
     The default playbook is triggered when an opportunity is created or updated with a sales cycle type of **New Business**. Configure the trigger condition to match the sales cycle type you want to support.
 
-3.  Add and configure a stage in your playbook, for more information, see [Add and configure a stage in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/add-configure-stage.md).
+3.  Add and configure a stage in your playbook, for more information, see [Add and configure a stage in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/add-configure-stage.md).
 
-4.  Select the stage for which you want to configure activities, for more information see [Add and configure an activity in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/add-configure-activity.md).
+4.  Select the stage for which you want to configure activities, for more information see [Add and configure an activity in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/add-configure-activity.md).
 
     The playbook displays each opportunity stage as a lane. Each lane must contain a stage entry automation activity as the first activity in the stage lane and a stage exit automation activity as the last activity in the stage lane.
 
@@ -77,9 +77,9 @@ The playbook is active. When an opportunity with the configured sales cycle type
 **Related topics**  
 
 
-[Guided selling on opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-guided-selling.md)
+[Guided selling on opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-guided-selling.md)
 
-[Create opportunity stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-opportunity-stages.md)
+[Create opportunity stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/opportunity-management-opportunity-stages.md)
 
-[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-opportunity-mgmt.md)
 

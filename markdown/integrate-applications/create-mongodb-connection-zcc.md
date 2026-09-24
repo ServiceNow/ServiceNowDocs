@@ -3,11 +3,11 @@ title: Create a MongoDB connection
 description: Establish a zero copy connection to a MongoDB database in Zero Copy Connector Hub.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-mongodb-connection-zcc.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [MongoDB, Community connectors, Zero Copy Connectors, Workflow Data Fabric]
+breadcrumb: [MongoDB, Community connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
 # Create a MongoDB connection
@@ -85,15 +85,15 @@ URL to establish the connection. For example:`mongodb://<host>:<port>/database_n
 </td></tr></tbody>
 </table>4.  Configure secure authentication by providing truststore information.
 
-<table id="choicetable_dth_vsc_qfc"><thead><tr><th align="left" id="d423922e218">
+<table id="choicetable_dth_vsc_qfc"><thead><tr><th align="left" id="d420529e218">
 
 Option
 
-</th><th align="left" id="d423922e221">
+</th><th align="left" id="d420529e221">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d423922e227">
+</th></tr></thead><tbody><tr><td id="d420529e227">
 
 **Upload truststore file**
 
@@ -103,7 +103,7 @@ Description
 2.  Browse and select the truststore file.
 
 
-</td></tr><tr><td id="d423922e248">
+</td></tr><tr><td id="d420529e248">
 
 **Enter truststore contents manually**
 
@@ -114,15 +114,15 @@ Copy and paste the contents of the keystore file.
 </td></tr></tbody>
 </table>5.  Configure secure authentication by providing keystore information.
 
-<table id="choicetable_zbg_15c_qfc"><thead><tr><th align="left" id="d423922e266">
+<table id="choicetable_zbg_15c_qfc"><thead><tr><th align="left" id="d420529e266">
 
 Option
 
-</th><th align="left" id="d423922e269">
+</th><th align="left" id="d420529e269">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d423922e275">
+</th></tr></thead><tbody><tr><td id="d420529e275">
 
 **Upload keystore file**
 
@@ -132,7 +132,7 @@ Description
 2.  Browse and select the keystore file.
 
 
-</td></tr><tr><td id="d423922e296">
+</td></tr><tr><td id="d420529e296">
 
 **Enter keystore contents manually**
 
@@ -154,7 +154,7 @@ A test connection is made to the external data source, verifying that the connec
 
 ## What to do next
 
-If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-access-connection-zcc.md).
+If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/manage-access-connection-zcc.md).
 
 If the connection fails, verify the connection details with your data source administrator and try again.
 

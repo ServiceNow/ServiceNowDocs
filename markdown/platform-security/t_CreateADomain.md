@@ -3,9 +3,9 @@ title: Create a domain
 description: You can create a domain by creating a record in the \[domain\] table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_CreateADomain.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setup and administration, Domain separation for service providers, Access Management]
 ---

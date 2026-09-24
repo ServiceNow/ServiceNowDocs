@@ -3,11 +3,11 @@ title: Configure a job indicator
 description: Increase the efficiency of data collection by configuring job indicators to collect only necessary and sensible data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/configure-job-indicator.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Collecting indicator scores, Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -22,7 +22,7 @@ Role required: admin, pa\_admin
 
 ## About this task
 
-By default, a job indicator collects data for the indicator itself and for all breakdowns that are associated with that indicator. However, not all breakdown data might make sense for a particular [data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md). For example, breakdowns that are based on fields that are likely to change over a collection period, such as Assignment Group and State, are usually excluded from historical jobs. Often, the job collects the value of Assignment Group and of State only at the time the job is run. A six-month-old incident, hopefully completed, can end up with a State of Complete for its entire six-month history. Such values are misleading.
+By default, a job indicator collects data for the indicator itself and for all breakdowns that are associated with that indicator. However, not all breakdown data might make sense for a particular [data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md). For example, breakdowns that are based on fields that are likely to change over a collection period, such as Assignment Group and State, are usually excluded from historical jobs. Often, the job collects the value of Assignment Group and of State only at the time the job is run. A six-month-old incident, hopefully completed, can end up with a State of Complete for its entire six-month history. Such values are misleading.
 
 Alternatively, you might need to collect only breakdown data and not to calculate the indicator scores. You can configure a job indicator not to collect unnecessary or meaningless data, thus reducing the resource consumption of the job.
 
@@ -88,5 +88,5 @@ Select the check box to collect data for the indicator itself \(the default\). C
     2.  Click **Edit** in the **Excluded breakdowns** list and add or remove breakdowns to exclude.
 
 
-**Parent Topic:**[Collecting indicator scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_ClctData.md)
+**Parent Topic:**[Collecting indicator scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_ClctData.md)
 

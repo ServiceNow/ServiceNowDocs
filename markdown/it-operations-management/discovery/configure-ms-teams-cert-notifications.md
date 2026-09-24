@@ -3,11 +3,11 @@ title: Receive certificate notifications via Microsoft Teams
 description: Configure certificate notifications to be delivered to a Microsoft Teams channel so that you can receive alerts and initiate certificate renewal workflows directly from Microsoft Teams.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/configure-ms-teams-cert-notifications.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [configure Microsoft Teams CIM notifications, certificate expiration Teams channel, CIM Teams spoke setup]
 breadcrumb: [Certificate alerts and notifications, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
@@ -19,7 +19,7 @@ Configure certificate notifications to be delivered to a Microsoft Teams channel
 
 ## Before you begin
 
-Verify that the Microsoft Teams spoke is installed and configured. For more information, see .
+Verify that the Microsoft Teams spoke is installed and configured. For more information, see [Set up the](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/set-up-msteams.md).
 
 Role required: pki\_admin or admin.
 
@@ -72,5 +72,5 @@ The Microsoft Teams integration uses the ServiceNow Microsoft Teams spoke to del
 -   Certificate notifications are sent to the relevant Microsoft Teams channel as configured for each notification type.
 -   When renewing certificates from Microsoft Teams, you can choose to attach a CSR, generate a new CSR \(the private keys are stored securely in your vault\), or reuse the previous CSR.
 
-**Parent Topic:**[Certificate alerts and notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-inventory-mgmt-workflow.md)
+**Parent Topic:**[Certificate alerts and notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/cert-inventory-mgmt-workflow.md)
 

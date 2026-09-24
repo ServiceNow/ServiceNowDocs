@@ -3,11 +3,11 @@ title: Activate TPRM issue recommendation skill
 description: Activate the TPRM issue recommendation skill from ServiceNow Otto for TPRM to generate recommendations for TPRM issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-recommend-an-issue.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, generative AI, GenAI, ServiceNow AI Platform]
 breadcrumb: [AI configuration, Configure, Third-party Risk Management, Governance, Risk, and Compliance]
@@ -33,7 +33,7 @@ To generate meaningful recommendations, data must be available from completed pr
 
 **Note:** The skill can identify a question-and-answer pair as a potential issue only if a similar question-and-answer pair was previously flagged as an issue in the historical data.
 
-After recommendations are generated, you can accept or dismiss them individually. For more information, see [Generate issue recommendations for TPRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/create-recommendation-tprm-issue.md).
+After recommendations are generated, you can accept or dismiss them individually. For more information, see [Generate issue recommendations for TPRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/create-recommendation-tprm-issue.md).
 
 **Note:** If you want generated issues to be created using historical data for individual third party, you need to navigate to **All** &gt; **System Properties** &gt; **All** select `sn_tprm_genai.same_vendor_required` and set the property to true.
 
@@ -94,5 +94,5 @@ sn\_tprm\_genai.nowassist\_user
 
 ## What to do next
 
-You can now use the recommendation for TPRM issues skill. You can generate issue recommendations for questionnaires that are part of an external assessment with responses received. For more information, see [Generate issue recommendations for TPRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/create-recommendation-tprm-issue.md).
+You can now use the recommendation for TPRM issues skill. You can generate issue recommendations for questionnaires that are part of an external assessment with responses received. For more information, see [Generate issue recommendations for TPRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/create-recommendation-tprm-issue.md).
 

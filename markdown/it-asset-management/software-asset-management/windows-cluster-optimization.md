@@ -3,13 +3,13 @@ title: Windows Server cluster license optimization
 description: Optimize rights used for Windows Server clustering based on costs and compliance criteria.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/windows-cluster-optimization.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Windows Server cluster license optimization
@@ -32,5 +32,5 @@ The Windows Standard rights are used first for the Standard list by using them f
 
 A new table, Potential savings by optimizing licenses, \[samp\_license\_optimization\_summary\] is created to store information about licensing Windows Server software installed on each device.
 
-**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

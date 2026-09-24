@@ -3,11 +3,11 @@ title: Components installed with ITSM Roles — Incident Management
 description: Several user roles are installed with activation of the ITSM Roles — Incident Management plugin \(com.snc.itsm.roles.incident\_management\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/inci-roles-instld-itsm-roles.html
-release: australia
+release: brazil
 product: Incident Management
 classification: incident-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Request ITSM Roles — Incident Management, Incident Management plugins, Reference, Incident Management, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Request ITSM Roles — Incident Management, Incident Management plu
 
 Several user roles are installed with activation of the ITSM Roles — Incident Management plugin \(com.snc.itsm.roles.incident\_management\).
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 ## Roles installed
 
@@ -95,7 +95,16 @@ Incident Manager \[incident\_manager\]
 
 </td><td>
 
-itil
+-   ia\_admin
+-   sn\_comm\_management.comm\_plan\_admin
+-   itil
+
+**Note:** This role is only available for existing or upgrade instances.
+
+-   sn\_incident\_write
+
+**Note:** For zboot instances, starting Brazil release, the itil role is replaced with sn\_incident\_write.
+
 
 </td></tr><tr><td>
 
@@ -112,5 +121,5 @@ Configures all Incident Management features including incident management proper
 -   sn\_bm\_client\_benchmark\_data\_viewer
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Request ITSM Roles — Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/req-itsm-roles-inci-mgmt.md)
+</table>**Parent Topic:**[Request ITSM Roles — Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/req-itsm-roles-inci-mgmt.md)
 

@@ -3,11 +3,11 @@ title: Create TRM product request form
 description: Create a new request to include a new software product to the TRM library. An email notification is sent to the approver for approval. The approver belongs to the Enterprise Architect group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-create-trm-prod-req-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Create TRM product request form
@@ -34,11 +34,11 @@ A unique, auto-generated identification number for the product request.
 
 </td></tr><tr><td>
 
-Company
+Publisher
 
 </td><td>
 
-Company of the software product. Look up and select a company from the list.
+Publisher of the software product. Look up and select a publisher from the Companies page.
 
 </td></tr><tr><td>
 
@@ -93,10 +93,10 @@ Business Justification
 Business justification for the product request.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+</table>**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-form-field-information.md)
 
 **Related topics**  
 
 
-[Request a TRM product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-request-a-trm-products.md)
+[Request a TRM product in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-request-a-trm-products.md)
 

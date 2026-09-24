@@ -3,9 +3,9 @@ title: Assigning a territory on lead
 description: You can update the primary territory on a lead in which Sales Territory Management​ has been implemented.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/assign-territory-lead.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sales Territory Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -29,12 +29,12 @@ Role required: sales territory admin \(or a user with sales territory override r
 4.  Select **Save**.
 
 
-**Parent Topic:**[Using Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-sales-territory-management.md)
+**Parent Topic:**[Using Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/use-sales-territory-management.md)
 
 **Related topics**  
 
 
-[Configuring Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-sales-territory-management.md)
+[Configuring Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-sales-territory-management.md)
 
-[Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-sales-territory-management.md)
+[Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-sales-territory-management.md)
 

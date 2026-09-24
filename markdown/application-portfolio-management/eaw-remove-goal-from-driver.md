@@ -3,9 +3,9 @@ title: Remove a goal from a driver
 description: You can remove the goals associated with a driver in the Enterprise Architecture Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-remove-goal-from-driver.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage drivers, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -39,12 +39,12 @@ Role required: sn\_apm.apm\_user
 8.  Select **Remove**.
 
 
-**Parent Topic:**[Manage drivers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-drivers.md)
+**Parent Topic:**[Manage drivers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-manage-drivers.md)
 
 **Related topics**  
 
 
-[Add goal to driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-goal-to-driver.md)
+[Add goal to driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-add-goal-to-driver.md)
 
-[View all drivers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-drivers.md)
+[View all drivers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-all-drivers.md)
 

@@ -3,11 +3,11 @@ title: Resolve a missing page definition in UI Builder
 description: Fix UI Builder page render errors by linking a page definition in the variant record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/resolve-missing-page-definition.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -65,5 +65,5 @@ Pages in UI Builder are backed by a screen record \(`sys_ux_screen`\) that refer
 
 Open the experience containing the page with the error to verify that the error has been resolved.
 
-**Parent Topic:**[Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-pages.md)
+**Parent Topic:**[Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-pages.md)
 

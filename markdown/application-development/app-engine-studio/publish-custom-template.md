@@ -3,13 +3,13 @@ title: Publish a custom template
 description: You can publish a custom template that is built from scratch or from an existing application using App Engine Studio \(AES\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/publish-custom-template.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Build a custom template, Use an app template, Create your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Build a custom template, Use an app template, Create your app, Build, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Publish a custom template
@@ -18,7 +18,7 @@ You can publish a custom template that is built from scratch or from an existing
 
 ## Before you begin
 
-You must have permissions to publish a custom template. For details, see [Assign permissions to publish custom templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/assign-permissions-publish-custom-templates.md).
+You must have permissions to publish a custom template. For details, see [Assign permissions to publish custom templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/assign-permissions-publish-custom-templates.md).
 
 Role required: admin, app\_template\_author
 
@@ -82,5 +82,5 @@ Select where you want the custom template published.-   To publish the template 
 
 The custom template is published and available to users the app template admin shares it with.
 
-**Parent Topic:**[Build a custom template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/build-custom-template.md)
+**Parent Topic:**[Build a custom template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/build-custom-template.md)
 

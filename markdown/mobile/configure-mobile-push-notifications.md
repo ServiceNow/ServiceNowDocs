@@ -3,9 +3,9 @@ title: Mobile push notification components
 description: Configure mobile push notifications to target a specific screen in one of the ServiceNow Mobile Platform applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/configure-mobile-push-notifications.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Push notifications, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -39,13 +39,13 @@ Push notification message content
 
 The push notification message content contains the location users are directed to when they tap on the notification, as well as the appearance and layout of the notification.
 
- For more information on content configuration, see [Configure push notification message content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-push-notification-message-content.md).
+ For more information on content configuration, see [Configure push notification message content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/config-push-notification-message-content.md).
 
  Optionally, you can display up to three additional fields in a notification. These fields are visible within the **Notifications** navigation bar tab in a mobile app.
 
  **Note:**
 
-Mobile UI styles are available for these additional fields. For more information around styling, see [Mobile UI styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-ui-styles.md).
+Mobile UI styles are available for these additional fields. For more information around styling, see [Mobile UI styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-ui-styles.md).
 
 </td></tr><tr><td>
 
@@ -55,7 +55,7 @@ Push notification message
 
 The push notification message contains the text that users see when they receive a notification. The message displays in the notification center on the device based on your configuration for the user and in the **Notifications** tab.
 
- For more information on message configuration, see [Configure a push notification message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-push-notification-message.md).
+ For more information on message configuration, see [Configure a push notification message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/configure-push-notification-message.md).
 
 </td></tr><tr><td>
 
@@ -63,19 +63,19 @@ Push notification event
 
 </td><td>
 
-The push notification event determines when the mobile push notification is sent and to whom it should be sent to.For more information on event configuration, see [Configure a push notification event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-push-notification-event.md).
+The push notification event determines when the mobile push notification is sent and to whom it should be sent to.For more information on event configuration, see [Configure a push notification event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/configure-push-notification-event.md).
 
 </td></tr></tbody>
-</table>-   **[Configure push notification message content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-push-notification-message-content.md)**  
+</table>-   **[Configure push notification message content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/config-push-notification-message-content.md)**  
 Configure push notification message content and select which mobile application receives notifications. You can configure critical alert notifications, customize the message appearance, and determine the deep link used when users tap the notification.
--   **[Configure a push notification message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-push-notification-message.md)**  
+-   **[Configure a push notification message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/configure-push-notification-message.md)**  
 Configure the message displayed to users when they receive their push notification.
--   **[Configure a push notification event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-push-notification-event.md)**  
+-   **[Configure a push notification event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/configure-push-notification-event.md)**  
 Configure when a push notification event is triggered and sends a mobile push notification to users.
--   **[Configure sounds for push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/push-notif-sounds.md)**  
+-   **[Configure sounds for push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/push-notif-sounds.md)**  
 Add sounds and tones to push notifications to indicate to users if a message is urgent or just requires the users' attention.
--   **[Register the standard push notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-notif-register.md)**  
+-   **[Register the standard push notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mobile-notif-register.md)**  
 Register your standard push notification in a push application to use it in your mobile apps.
 
-**Parent Topic:**[Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-push-notifications.md)
+**Parent Topic:**[Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mobile-push-notifications.md)
 

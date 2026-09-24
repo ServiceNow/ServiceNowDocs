@@ -3,7 +3,7 @@ title: Zero Copy Connector for ERP ERP model table field descriptions
 description: The Entity fields tab for an enterprise resource planning \(ERP\) model in Zero Copy Connector for ERP displays the table fields that are included in the ERP model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-erp-data-model-table-fields.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
@@ -17,7 +17,7 @@ breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflo
 
 The **Entity fields** tab for an enterprise resource planning \(ERP\) model in Zero Copy Connector for ERP displays the table fields that are included in the ERP model.
 
-For process details, see [Adding an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
+For process details, see [Adding an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
 
 Zero Copy Connector for ERP automatically scans the linked ERP system to retrieve the latest entity data. However, you can select the refresh icon to update the data on demand.
 
@@ -90,4 +90,5 @@ Updated
 Date and time the field was most recently saved.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
+

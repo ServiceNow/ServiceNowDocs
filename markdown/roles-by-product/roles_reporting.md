@@ -3,7 +3,7 @@ title: Reporting roles
 description: These roles are available for the application
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/roles-by-product/roles\_reporting.html
-release: australia
+release: brazil
 topic_type: reference
 last_updated: "2024-03-11"
 reading_time_minutes: 1
@@ -117,7 +117,7 @@ None.
 
 </td><td>
 
-For more information, see [Administer table and field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/admin-table-field-descriptions.md).
+For more information, see [Administer table and field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/admin-table-field-descriptions.md).
 
 </td></tr><tr><td>
 
@@ -160,5 +160,5 @@ None.
 None.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Roles for all products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/roles-by-product/roles-for-all-products.md)
+</table>**Parent Topic:**[Roles for all products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/roles-by-product/roles-for-all-products.md)
 

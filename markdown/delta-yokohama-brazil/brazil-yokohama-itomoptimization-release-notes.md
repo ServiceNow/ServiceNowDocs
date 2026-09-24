@@ -1,0 +1,537 @@
+---
+title: Combined ITOM Optimization release notes for upgrades from Yokohama to Brazil
+description: Consolidated page of all release notes for ITOM Optimization from Yokohama to Brazil.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-itomoptimization-release-notes.html
+release: brazil
+topic_type: reference
+last_updated: "2026-09-24"
+reading_time_minutes: 4
+breadcrumb: [Products combined by family]
+---
+
+# Combined ITOM Optimization release notes for upgrades from Yokohama to Brazil
+
+Consolidated page of all release notes for ITOM Optimization from Yokohama to Brazil.
+
+## How to use this page
+
+To help you prepare for your upgrade, we have combined the cross-family ITOM Optimization release notes onto one page. Read this summary of the new features, changes, and updated information for your product from Yokohama to Brazil.
+
+**Tip:** If there were no updates for a release notes section in a certain family release, we included a short note for your reference. For example, if a product did not have any updates in Tokyo, the row says "No updates for this release."
+
+## Important information for upgrading ITOM Optimization to Brazil
+
+Before you upgrade to Brazil, review these pre- and post-upgrade tasks and complete the tasks as needed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## New features
+
+Between your current release family and Brazil, new features were introduced for ITOM Optimization.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Changes
+
+Between your current release family and Brazil, some changes were made to existing ITOM Optimization features.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **[\[Placeholder link text to key itom-optimization-landing-page\]](https://www.servicenow.com/docs/access?context=itom-optimization-landing-page&family=yokohama&ft:locale=en-US)**
+
+The following UI changes are applicable for workflow migration:
+
+    -   In the **Resource Block** &gt; **Operations** &gt; **Steps**, within the **Add Operations Steps** dialog box, the **Invoke Workflow** option has been removed from the Operation Type field.
+    -   In the **Resource Block** &gt; **Operations** &gt; **Steps**, within the **Add Operations Steps** dialog box, the **Workflow** check box has been removed from the Add Operations Steps field.
+    -   In the **Cloud Catalog Items**, under the **Operation Implementation** drop-down list, the **Workflow** option has been removed.
+
+ -   **[\[Placeholder link text to key itom-optimization-landing-page\]](https://www.servicenow.com/docs/access?context=itom-optimization-landing-page&family=yokohama&ft:locale=en-US)**
+    -   Migration of legacy workflows to Workflow Studio flows or subflows.
+    -   Policy Rule Actions now supports Workflow Studio subflows instead of legacy workflows.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Removed
+
+Between your current release family and Brazil, some ITOM Optimization features or functionality were removed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Deprecations
+
+Between your current release family and Brazil, some ITOM Optimization features or functionality were deprecated.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   In the **Resource Block** &gt; **Operations** &gt; **Steps**, within the **Add Operations Steps** dialog box, the **Invoke Workflow** option has been removed from the Operation Type field.
+-   In the **Resource Block** &gt; **Operations** &gt; **Steps**, within the **Add Operations Steps** dialog box, the **Workflow** check box has been removed from the Add Operations Steps field.
+-   In the **Cloud Catalog Items**, under the **Operation Implementation** drop-down list, the **Workflow** option has been removed.
+
+ -   Retrieve cloud billing data
+-   Retrieve cloud billing month
+-   Cloud operation step workflow launcher
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Activation information
+
+Review information on how to activate ITOM Optimization.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Additional requirements
+
+If any additional requirements were introduced or changed for ITOM Optimization we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Browser requirements
+
+If any specific browser requirements were introduced or changed for ITOM Optimization we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Accessibility information
+
+Review details on accessibility information for ITOM Optimization, such as specific requirements or compliance levels.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Localization information
+
+If there are specific localization considerations for ITOM Optimization we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Highlight information
+
+If there are specific highlight considerations for ITOM Optimization we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+Legacy workflows have been upgraded and seamlessly migrated to the advanced Workflow Studio to align with the latest standards and ensure modern compliance. Additionally, all default \(Out of Box\) workflows have been redesigned to provide enhanced performance, improved usability, and a more streamlined experience.
+
+ See [ITOM Optimization](https://www.servicenow.com/docs/access?context=itom-optimization-landing-page&family=yokohama&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/rn-combined-intro.md)
+

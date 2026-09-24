@@ -3,9 +3,9 @@ title: Edit a project associated with a business application
 description: Use application rationalization to edit existing projects associated with business applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-edit-a-project-associated-with-a-business-application.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use list view, Working with application rationalization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -38,15 +38,15 @@ Role required: sn\_apm.apm\_analyst
 
 5.  On the Edit a project form, fill in the fields.
 
-    For a description of the field values, see [Edit a project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-edit-project-form.md).
+    For a description of the field values, see [Edit a project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-edit-project-form.md).
 
 6.  Select **Update**.
 
 
-**Parent Topic:**[Use list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-using-app-rat-list-view.md)
+**Parent Topic:**[Use list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-using-app-rat-list-view.md)
 
 **Related topics**  
 
 
-[Edit a demand associated with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-edit-a-demand-associated-with-a-business-application.md)
+[Edit a demand associated with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-edit-a-demand-associated-with-a-business-application.md)
 

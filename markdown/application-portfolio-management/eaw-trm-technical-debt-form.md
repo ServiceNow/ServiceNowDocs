@@ -1,19 +1,19 @@
 ---
 title: TRM technical debt form
-description: Technology Reference Model \(TRM\) technical debts are created for products that aren't aligned with TRM phases and standards.
+description: Create Technology Reference Model \(TRM\) technical debts for products that aren't aligned with TRM phases and standards.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-trm-technical-debt-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [TRM technical debt, technical debt form, technology reference model]
-breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # TRM technical debt form
 
-Technology Reference Model \(TRM\) technical debts are created for products that aren't aligned with TRM phases and standards.
+Create Technology Reference Model \(TRM\) technical debts for products that aren't aligned with TRM phases and standards.
 
 <table id="table_ak2_5fg_tyb"><thead><tr><th>
 
@@ -45,7 +45,7 @@ State
 
 </td><td>
 
-State of the technical debt record: Active, Resolved, or Archived. For details on how the record moves between states, see [TRM technical debt states and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-trm-technical-debt-states.md).
+State of the technical debt record: Active, Resolved, or Archived. For details on how the record moves between states, see [TRM technical debt states and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-trm-technical-debt-states.md).
 
 </td></tr><tr><td>
 
@@ -53,7 +53,7 @@ TRM product
 
 </td><td>
 
-TRM product. A software product that has version-specific life cycles.
+Software product that has version-specific life cycles.
 
 </td></tr><tr><td>
 
@@ -64,7 +64,7 @@ TRM phase
 Phase of the TRM product. The following TRM phases are available: -   Approved: The technology is approved for use.
 -   Approved with Constraints: The technology can be used within the constraints specified in the comments.
 -   Divest: A decision was taken to divest from the use of the technology.
--   Evaluation: This technology is being evaluated and cannot be used for production purposes.
+-   Evaluation: This technology is being evaluated and can't be used for production purposes.
 -   Unapproved: The technology is not permitted to be used.
 
  **Note:** You can modify these phases by navigating to **EA Workspace** &gt; **Setup** &gt; **TRM Phases**.
@@ -140,16 +140,16 @@ The **Discovered Technology** related list shows the TLM discovered technology r
 
 Use this related list as your starting point to investigate and remediate the technical debt. Open a discovered technology record from the list. Use its **Number** field to open the full TPM Discovered Technology record, or its **TLM technology lifecycle** field to open the associated technology lifecycle record. From there, you can identify and update the underlying TRM product or TRM product lifecycle that's causing the debt.
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-form-field-information.md)
 
 **Related topics**  
 
 
-[View Technology Reference Model technical debts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/view-trm-tech-debt.md)
+[View Technology Reference Model technical debts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/view-trm-tech-debt.md)
 
-[TRM technical debt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-trm-technical-debt.md)
+[TRM technical debt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-manage-trm-technical-debt.md)
 
-[TRM technical debt states and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-trm-technical-debt-states.md)
+[TRM technical debt states and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-trm-technical-debt-states.md)
 
-[Governing TRM product fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-trm-governing-fields.md)
+[Governing TRM product fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-trm-governing-fields.md)
 

@@ -3,13 +3,13 @@ title: Create a part requirement for an Enterprise Asset Management work order o
 description: If the enterprise asset that is associated with your work order or work order task is missing a required asset or part, create a part requirement to track and verify the missing asset or part.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-part-requirement-eam-work-order.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a work order for an enterprise asset, Managing work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
+breadcrumb: [Create a work order for an enterprise asset, Manage work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Create a part requirement for an Enterprise Asset Management work order or work order task

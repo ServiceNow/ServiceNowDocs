@@ -3,11 +3,11 @@ title: Create recall corrective actions using ServiceNow Otto for MCO
 description: Create recall corrective actions AI agent extracts the information available in the repair documents. The AI agent identifies and collects all relevant data contained within the repair documents and generates the corrective action and the corresponding charges.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/execute-recall-campaigns.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use generative AI, ServiceNow Otto for MCO, Manufacturing Commercial Operations]
+breadcrumb: [Create a campaign, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create recall corrective actions using ServiceNow Otto for MCO
@@ -20,7 +20,7 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
 ## Procedure
 
-1.  Navigate to ******Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Recall Management**.
+1.  Navigate to ******Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **Recall Management**.
 
 2.  Create a recall campaign record.
 
@@ -43,14 +43,16 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
     All the corrective actions are generated along with the different charges \(labor, part, miscellaneous, and external services\).
 
 
+**Parent Topic:**[Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-rc-my-campaigns.md)
+
 **Related topics**  
 
 
-[Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-rc-my-campaigns.md)
+[Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-rc-my-campaigns.md)
 
-[Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-aia-use-case.md)
+[Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-aia-use-case.md)
 
-[Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md)
+[Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-aia-usecase.md)
 
-[Modify an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-aia-use-case.md)
+[Modify an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/modify-aia-use-case.md)
 

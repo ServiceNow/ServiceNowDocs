@@ -3,9 +3,9 @@ title: Service definitions with catalog items
 description: Enable service definitions to use service catalog items. Agents can select these catalog items and use the associated record producers to create cases of the correct type in CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-service-definition-catalog-items.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Service definitions, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -22,11 +22,11 @@ When an agent selects a catalog item from the service selector, the system displ
 
 Users with the admin role can configure a service definition to use catalog items.
 
-1.  [Create a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-csm-service-definition.md) or edit an existing service definition record.
+1.  [Create a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-csm-service-definition.md) or edit an existing service definition record.
 2.  Enable the **Use service catalog item** field.
 3.  Add the associated catalog items for this service definition to the Catalog Service Relationships related list.
 
-For more information, see [Configuring service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-service-definitions-configure.md).
+For more information, see [Configuring service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-service-definitions-configure.md).
 
 ## Using a service definition with catalog items to create a case
 

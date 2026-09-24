@@ -3,9 +3,9 @@ title: Configuring Enterprise Architecture Workspace
 description: As an administrator, use this section to configure the Enterprise Architecture Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/configure-eaw.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -14,31 +14,31 @@ breadcrumb: [Enterprise Architecture Workspace, Enterprise Architecture]
 
 As an administrator, use this section to configure the Enterprise Architecture Workspace.
 
--   **[Install Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/install-ea-workspace.md)**  
-Install the Enterprise Architecture Workspace application \(sn\_apm\_ws\) if you have the admin role.
--   **[Enterprise Architecture \(EA\) and the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/apm-use-case-product-view.md)**  
+-   **[Install Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/install-ea-workspace.md)**  
+Install the Enterprise Architecture Workspace application \(sn\_apm\_ws\)if you have the admin role.
+-   **[Enterprise Architecture \(EA\) and the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/apm-use-case-product-view.md)**  
 Use Enterprise Architecture to gain a comprehensive understanding of your organization's applications so you can identify redundancies and decrease budgetary costs. The goal of this product view is to help you to understand how Enterprise Architecture key entities work with the core CSDM framework.
--   **[Personalize the Enterprise Architecture Workspace home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-personalize-the-enterprise-architecture-workspace-home-page.md)**  
+-   **[Personalize the Enterprise Architecture Workspace home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-personalize-the-enterprise-architecture-workspace-home-page.md)**  
 Customize the sections that you want visible on the home page by using the personalize page feature.
--   **[Show or hide sections on the home page of the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/customize-workspace.md)**  
+-   **[Show or hide sections on the home page of the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/customize-workspace.md)**  
 Customize your workspace to display the components that you want to see.
--   **[Create and apply a configuration for the Overview section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/config-overview.md)**  
+-   **[Create and apply a configuration for the Overview section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/config-overview.md)**  
 Create visualization configurations for the Portfolio Overview section and apply them as needed.
--   **[Configure the Health or Insights section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/config-insights-health.md)**  
+-   **[Configure the Health or Insights section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/config-insights-health.md)**  
 Create configurations for the Health or Insights section and apply them as needed.
--   **[Configure EA Workspace using the Setup page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-config-eaw-using-setup-page.md)**  
+-   **[Configure EA Workspace using the Setup page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-config-eaw-using-setup-page.md)**  
 Use the Setup page to configure Enterprise Architecture Workspace.
--   **[Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-now-assist-ea.md)**  
+-   **[Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/configure-now-assist-ea.md)**  
 If you have the admin role, you can configure the ServiceNow Otto for Enterprise Architecture \(EA\) to enable generative AI skills in Enterprise Architecture Workspace \(EA\).
 
-**Parent Topic:**[Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/ea-workspace.md)
+**Parent Topic:**[Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/ea-workspace.md)
 
 **Related topics**  
 
 
-[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/explore-eaw.md)
+[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/explore-eaw.md)
 
-[Managing Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-managing-ea-workspace.md)
+[Managing Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-managing-ea-workspace.md)
 
-[Integrating Enterprise Architecture Workspace with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-integrate-eaw-with-other-apps.md)
+[Integrating Enterprise Architecture Workspace with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-integrate-eaw-with-other-apps.md)
 

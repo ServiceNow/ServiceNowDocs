@@ -3,13 +3,13 @@ title: UX: Design for Employee Center
 description: The UX \(User Experience\): Design for Employee Center Accelerator provides UX Design support and guidance to help customers get started with Employee Center design.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/ux-design-employee-center.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Architecture Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # UX: Design for Employee Center

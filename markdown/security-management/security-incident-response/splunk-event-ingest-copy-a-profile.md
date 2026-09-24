@@ -3,11 +3,11 @@ title: Copy an event profile for the Splunk Enterprise Event Ingestion integrati
 description: Copy an existing profile and its associated settings instead of creating new profiles. If you're creating multiple profiles, and you want to reuse the settings of an existing profile, you might prefer to copy alarm profiles to save time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/splunk-event-ingest-copy-a-profile.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integration architecture and external systems connection, Splunk Enterprise Event Ingestion integration for Security Operations by ServiceNow, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -45,5 +45,5 @@ If you copy a profile, the profile name is initially modified to avoid duplicate
 
 You are prompted to activate \(enable\) the new profile after you complete the configuration steps.
 
-**Parent Topic:**[Integration architecture and external systems connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-integration-architecture.md)
+**Parent Topic:**[Integration architecture and external systems connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/splunk-event-ingest-integration-architecture.md)
 

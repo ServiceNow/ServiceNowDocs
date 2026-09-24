@@ -3,9 +3,9 @@ title: Install the Chief Risk Officer Dashboard
 description: The CRO Dashboard provides a single pane glass view of end-to-end Governance, Risk, and Compliance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/install-dashboard-cro.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Chief Risk Officer \(CRO\) Dashboard, Executive dashboard overview, Platform Analytics]
 ---
@@ -18,7 +18,7 @@ The CRO Dashboard provides a single pane glass view of end-to-end Governance, Ri
 
 Role required: admin, platform\_analytics\_admin, sn\_cro\_dashboard.admin
 
-Consider duplicating this executive dashboard before customizing it. For more information, see [Duplicate a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/duplicate-db.md).
+Consider duplicating this executive dashboard before customizing it. For more information, see [Duplicate a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/duplicate-db.md).
 
 **Note:** The CRO Dashboard application is free from the ServiceNow Store. However, the contents of the dashboard require professional entitlements to the following applications:
 
@@ -64,6 +64,11 @@ Application plugins:
 
         Assign the user role sn\_cro\_dashboard.user to users or groups who must view the dashboard.
 
-    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see [Exploring user administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/exploring-user-administration.md).
+    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see [Exploring user administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/exploring-user-administration.md).
 
+
+## What to do next
+
+-   Navigate to **CRO Dashboard** &gt; **Dashboard** to view the installed dashboard.
+-   Use the information in the Tabs, Data Visualizations, and Indicators topics to configure the dashboard.
 

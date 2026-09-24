@@ -3,9 +3,9 @@ title: View aggregate monitor information
 description: View information about all your synthetic monitors.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/view-aggregat-monitor-information.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Identifying system issues with synthetic monitoring, Synthetic monitoring, ITOM AIOps, IT Operations Management]
 ---
@@ -28,7 +28,7 @@ Role required: sn\_sow\_synthetics.synthetics\_viewer, sn\_sow\_synthetics.synth
 
 3.  To view details about each test run by the monitor, select a monitor name.
 
-    The monitor's Overview tab opens. For more information about this page, see [View a monitor's test results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/view-a-monitor-s-test-results.md).
+    The monitor's Overview tab opens. For more information about this page, see [View a monitor's test results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/view-a-monitor-s-test-results.md).
 
 4.  To export the list of monitors, select **Export**.
 

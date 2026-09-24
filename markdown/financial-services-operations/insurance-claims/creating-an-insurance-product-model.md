@@ -3,11 +3,11 @@ title: Create an insurance product model
 description: Create an insurance product model for an insurance policy that is sold to a customer by using the Insurance claims application. The insurance product model defines the product type, which customers that the policy is for, and the coverage specifications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/creating-an-insurance-product-model.html
-release: australia
+release: brazil
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Insurance product models, Setting up the policy data for Insurance claims, Configure, Insurance claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -26,7 +26,7 @@ Role required: admin
 
 2.  In the Label column, search for either the personal insurance model or the commercial insurance model.
 
-<table id="choicetable_hsn_gnv_2dc"><tbody><tr><td id="d87684e79">
+<table id="choicetable_hsn_gnv_2dc"><tbody><tr><td id="d89385e79">
 
 **Personal insurance model**
 
@@ -34,7 +34,7 @@ Role required: admin
 
 Search for and select **Personal lines insurance product model**.
 
-</td></tr><tr><td id="d87684e91">
+</td></tr><tr><td id="d89385e91">
 
 **Commercial insurance model**
 
@@ -73,7 +73,7 @@ Search for and select **Commercial lines insurance product model**.
     |Name|Name of the insurance product model.|
     |Product code|Unique identification code for this insurance product.|
     |Product type|Insurance product type that you created earlier in this procedure.|
-    |Specification|Coverage Specification. For more information, see [Coverage specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/coverage-specification.md).|
+    |Specification|Coverage Specification. For more information, see [Coverage specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/insurance-claims/coverage-specification.md).|
     |Short description|Brief description of this product model.|
 
 10. Select **Submit**.

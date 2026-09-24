@@ -3,13 +3,13 @@ title: Long term stable models
 description: Long term stable \(LTS\) models support regulated industries, such as financial institutions, with stronger AI lifecycle management, governance, transparency, and compliance tools.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/servicenow-large-language-model-now-llm/long-term-stable-models.html
-release: australia
+release: brazil
 product: ServiceNow Large Language Model \(Now LLM\)
 classification: servicenow-large-language-model-now-llm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Large language models on the ServiceNow AI Platform, Enable AI experiences]
+breadcrumb: [Large language models, Large language models and providers, Enable AI Experiences]
 ---
 
 # Long term stable models
@@ -22,5 +22,5 @@ LTS models provide predictable AI updates, longer model stability windows, and e
 
 You can configure long terms stable models in AI Control Tower. You can also navigate to **Manage model providers** section in the Now Assist settings and select Now LLM Service-LTS as a provider for specific Now Assist skills.
 
-**Parent Topic:**[Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md)
+**Parent Topic:**[Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md)
 

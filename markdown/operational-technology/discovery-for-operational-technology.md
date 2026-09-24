@@ -3,9 +3,9 @@ title: IT Discovery for Operational Technology \(OT\) Networks
 description: You can use the IT Discovery for Operational Technology \(OT\) Networks function to discover IT class OT devices. These devices are located in designated Purdue levels within your Industrial Control System \(ICS\) networks. IT class items include switches, routers, and computers that exist both in data centers and in your factories.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/discovery-for-operational-technology.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Operational Technology Discovery, Operational Technology]
 ---
@@ -18,7 +18,7 @@ You can use the IT Discovery for Operational Technology \(OT\) Networks function
 
 The IT Discovery for OT Networks process operates in a manner that is similar to the standard Discovery processes.
 
-\[Omitted image "ot-discovery-targeted-zones.svg"\] Alt text: Targeted Purdue levels
+\[Omitted image "ot-discovery-targeted-zones.svg"\] Alt text: Purdue levels for IT Discovery for OT Networks
 
 Standard Discovery processing in the ServiceNow AI Platform® normally takes place in the following Purdue levels in your enterprise:
 
@@ -42,34 +42,23 @@ You typically run IT Discovery for OT Networks in the DMZ \(or IDMZ, Purdue Leve
 
 **Note:** To avoid the possibility of disrupting your industrial operations, you should not run Discovery processes against Purdue levels 0 through 2 in your ICS networks.
 
-\[Omitted image "ot-discovery-schedule-processing.svg"\] Alt text: IT Discovery for OT Networks processing
+\[Omitted image "ot-discovery-schedule-processing.svg"\] Alt text: OT Discovery schedule processing
 
-When you run an OT discovery schedule, it performs the following processing:
+When you run an OT Discovery schedule, it performs the following processing:
 
 1.  Proceeds through the assigned IP addresses and discovers all hardware items that exist in it.
-2.  When it completes discovery of a configuration item \(CI\), it internally triggers a \(discovery.device.complete\) event. This logic checks if an OT entity \(cmdb\_ot\_entity\) record exists for it in the Configuration Management Database \(CMDB\).
+2.  When it completes Discovery of a configuration item \(CI\), it internally triggers a \(discovery.device.complete\) event. This logic checks if an OT entity \(cmdb\_ot\_entity\) record exists for it in the Configuration Management Database \(CMDB\).
     -   If one exists, and any related attributes have changed for the discovered item, it updates the OT Entities that are related to that CI.
     -   If one does not exist, it creates one for it.
-3.  And the location attribute, it also pushes the defined attributes from the OT discovery schedule to the CI and to the related OT entity records.
+3.  In addition to the location attribute, it also pushes the defined attributes from the OT Discovery schedule to the CI and to the related OT entity records.
 4.  It also creates OT entity records for the applications installed on discovered OT devices. To view the applications that have OT entity records created through IT Discovery for OT Networks, navigate to the Industrial Workspace list view and open the **Applications** list under **Operational Technology \(OT\)**.
 
--   **[IT Discovery for OT Networks related links and lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/discovery-for-ot-related-links-lists.md)**  
+**Note:** For more information about the Operational Technology Discovery solution, see [Operational Technology Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-discovery-landing.md).
+
+-   **[IT Discovery for OT Networks related links and lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/discovery-for-ot-related-links-lists.md)**  
 IT Discovery for OT Networks contains several related links and lists.
--   **[Create an OT Discovery schedule and run the Discovery process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/run-discovery-for-operational-technology.md)**  
-Define Operational Technology \(OT\) Discovery schedules that orchestrate how and when the Discovery for an OT function should run. You can also perform an immediate Quick Discovery or an actual OT Discovery run.
+-   **[Create and run the OT Discovery schedule and the Discovery process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/run-discovery-for-operational-technology.md)**  
+Define Operational Technology \(OT\) Discovery schedules that orche schedules that orchestrate how and when the Discovery strate how and when the Discovery for an OT function should run. You can also perform an immediate Quick Discovery or an actual OT Discovery run.
 
-**Parent Topic:**[Operational Technology Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-discovery-landing.md)
-
-**Related topics**  
-
-
-[Operation Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models-operation-technology.md)
-
-[MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md)
-
-[Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/r-discovery.md)
-
-[Horizontal discovery process flow with probes and sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_DiscoProcessFlows.md)
-
-[Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_CreateADiscoverySchedule.md)
+**Parent Topic:**[Operational Technology Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-discovery-landing.md)
 

@@ -3,11 +3,11 @@ title: Create a Kafka stream
 description: Define a data stream for an Extract Transform Load \(ETL\), Transform Map, or Script consumer. A Kafka stream defines the stream of data to your consumer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-kafka-stream.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Using Stream Connect for Apache Kafka, Import and stream data, Integration Hub, Workflow Data Fabric]
 ---
@@ -155,7 +155,7 @@ Option to view the advanced fields **Relative weight** and **Message handling**.
 
 ## Result
 
-When you activate the stream, the consumer begins looking for messages to process in the specified topic. You can view detailed information about the consumer and its performance by visiting its subscription page. For details, see [Viewing Kafka subscriptions and statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/kafka-subscriptions-statistics.md).
+When you activate the stream, the consumer begins looking for messages to process in the specified topic. You can view detailed information about the consumer and its performance by visiting its subscription page. For details, see [Viewing Kafka subscriptions and statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/kafka-subscriptions-statistics.md).
 
-**Parent Topic:**[Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-apache-kafka.md)
+**Parent Topic:**[Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/stream-connect-apache-kafka.md)
 

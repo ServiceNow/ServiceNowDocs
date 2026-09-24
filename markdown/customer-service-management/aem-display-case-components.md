@@ -3,7 +3,7 @@ title: Display ServiceNow cases on an Adobe Experience Manager page
 description: Use case components available within Adobe Experience Manager \(AEM\) to access customer service cases from the ServiceNow instance and display them on an AEM-based website.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/aem-display-case-components.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2023-08-03"
 reading_time_minutes: 6
@@ -16,15 +16,15 @@ Use case components available within Adobe Experience Manager \(AEM\) to access 
 
 ## Before you begin
 
-Define the cross-origin resource sharing \(CORS\) rule to access the Case API and CSM Attachment API from your AEM instance. For more information, see [Define a cross-origin resource sharing rule \(CORS\) to access ServiceNow API endpoints from AEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/aem-integration-setup.md).
+Define the cross-origin resource sharing \(CORS\) rule to access the Case API and CSM Attachment API from your AEM instance. For more information, see [Define a cross-origin resource sharing rule \(CORS\) to access ServiceNow API endpoints from AEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/aem-integration-setup.md).
 
 Role required: AEM author
 
 ## About this task
 
-The Case REST API enables you to create, retrieve, and update customer service case records. For more information, see [Case API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/case-api.md).
+The Case REST API enables you to create, retrieve, and update customer service case records. For more information, see [Case API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/case-api.md).
 
-The CSM Attachment API enables you to upload, download, and remove attachments associated with customer service cases and to retrieve attachment metadata. For more information, see [CSM Attachment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/attachment_csm-api.md).
+The CSM Attachment API enables you to upload, download, and remove attachments associated with customer service cases and to retrieve attachment metadata. For more information, see [CSM Attachment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/attachment_csm-api.md).
 
 ## Procedure
 
@@ -100,7 +100,7 @@ Custom CSS class
 
 </td><td id="component-custom-css-desc">
 
-Custom CSS class for applying custom styles to this component. For more information, see [Customizing the colors of ServiceNow components in AEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/aem-style-components.md).
+Custom CSS class for applying custom styles to this component. For more information, see [Customizing the colors of ServiceNow components in AEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/aem-style-components.md).
 
 </td></tr></tbody>
 </table>8.  Set the New Case component properties for users to create a customer service case in your ServiceNow instance from your AEM page.
@@ -201,7 +201,7 @@ Custom CSS class
 
 </td><td>
 
-Custom CSS class for applying custom styles to this component. For more information, see [Customizing the colors of ServiceNow components in AEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/aem-style-components.md).
+Custom CSS class for applying custom styles to this component. For more information, see [Customizing the colors of ServiceNow components in AEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/aem-style-components.md).
 
 </td></tr></tbody>
 </table>9.  Set the Case View component properties to display customer service cases and any comments and attachments, if available, from a ServiceNow instance.
@@ -262,7 +262,7 @@ Custom CSS class
 
 </td><td>
 
-Custom CSS class for applying custom styles to this component. For more information, see [Customizing the colors of ServiceNow components in AEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/aem-style-components.md).
+Custom CSS class for applying custom styles to this component. For more information, see [Customizing the colors of ServiceNow components in AEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/aem-style-components.md).
 
 </td></tr></tbody>
 </table>10. Set the Case List component properties to display a list of customer service cases.
@@ -339,7 +339,7 @@ Custom CSS class
 
 </td><td>
 
-Custom CSS class for applying custom styles to this component. For more information, see [Customizing the colors of ServiceNow components in AEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/aem-style-components.md).
+Custom CSS class for applying custom styles to this component. For more information, see [Customizing the colors of ServiceNow components in AEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/aem-style-components.md).
 
 </td></tr></tbody>
 </table>

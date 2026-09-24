@@ -3,11 +3,11 @@ title: Configure inbound foundation data sync as a consumer
 description: As a consumer, receive the foundation data from your provider using foundation data sync \(FDS\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-using-foundation-data-sync-for-consumer.html
-release: australia
+release: brazil
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure for consumers, Service Exchange for Consumers, Service Exchange]
 ---
@@ -36,7 +36,7 @@ Description
 
 </td><td>
 
-[Request a foundation data offering.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-request-fds-offerings.md)
+[Request a foundation data offering.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-request-fds-offerings.md)
 
 </td><td>
 
@@ -48,7 +48,7 @@ Requests FDS offerings from your provider based on the published offerings.After
 
 </td><td>
 
-[Configure the sample data and validate subscription items.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-validate-fds-subscription.md)
+[Configure the sample data and validate subscription items.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-validate-fds-subscription.md)
 
 </td><td>
 
@@ -60,7 +60,7 @@ Configure the incoming data based on the CMDB or non-CMDB table to validate subs
 
 </td><td>
 
-[Accept the subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-accept-fds-subscription.md)
+[Accept the subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-accept-fds-subscription.md)
 
 </td><td>
 
@@ -70,5 +70,5 @@ Accept the subscription.After you accept the subscription, your provider publish
 </table>**Related topics**  
 
 
-[Foundation data sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-explore-foundation-data-sync.md)
+[Foundation data sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-explore-foundation-data-sync.md)
 

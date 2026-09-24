@@ -3,11 +3,11 @@ title: Chart properties for Performance Analytics
 description: A chart refers here to a graphical component of a Performance Analytics widget or the Analytics Hub. These properties apply only to the Core UI, not visualizations in configurable workspaces.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/pa-chart-props.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Properties, Reference, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -158,5 +158,5 @@ com.snc.pa.scorecard.breakdown.chart.name\_max\_length
 Maximum number of element names on the legend in a breakdown widget. Default: 27
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-properties.md)
+</table>**Parent Topic:**[Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/pa-properties.md)
 

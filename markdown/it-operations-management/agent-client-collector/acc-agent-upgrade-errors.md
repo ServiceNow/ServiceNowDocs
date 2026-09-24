@@ -3,11 +3,11 @@ title: Agent Client Collector upgrade error codes
 description: Error codes generated during Agent Client Collector upgrades, with descriptions and resolution steps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-agent-upgrade-errors.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-05-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ACC upgrade errors, ACC-5005, ACC-5006, ACC-5017]
 breadcrumb: [ACC-F reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
@@ -17,7 +17,7 @@ breadcrumb: [ACC-F reference, Agent Client Collector reference, Agent Client Col
 
 Error codes generated during Agent Client Collector upgrades, with descriptions and resolution steps.
 
-Upgrade errors appear in **All** &gt; **Agent Client Collector** &gt; **ACC Errors**. Filter by error codes starting with `ACC-50` to see upgrade-specific issues. Additional detail is available in the **Message** column of the Agent Upgrade Histories table. For supported platforms, see [Supported platforms for Agent Client Collector auto-upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-agent-upgrade-platforms.md).
+Upgrade errors appear in **All** &gt; **Agent Client Collector** &gt; **ACC Errors**. Filter by error codes starting with `ACC-50` to see upgrade-specific issues. Additional detail is available in the **Message** column of the Agent Upgrade Histories table. For supported platforms, see [Supported platforms for Agent Client Collector auto-upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-agent-upgrade-platforms.md).
 
 <table id="table_upgrade_errors"><thead><tr><th>
 
@@ -41,7 +41,7 @@ Agent operating system is not supported for auto-upgrade.
 
 </td><td>
 
-The agent can't be auto-upgraded. Manually install the new version on the agent host. For supported platforms, see [Supported platforms for Agent Client Collector auto-upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-agent-upgrade-platforms.md).
+The agent can't be auto-upgraded. Manually install the new version on the agent host. For supported platforms, see [Supported platforms for Agent Client Collector auto-upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-agent-upgrade-platforms.md).
 
 </td></tr><tr><td>
 
@@ -135,5 +135,5 @@ Target upgrade version is invalid.
 Check the **sn\_agent.agent\_upgrade\_version** property. The value must be a valid version number, for example `5.0.1`.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
+</table>**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
 

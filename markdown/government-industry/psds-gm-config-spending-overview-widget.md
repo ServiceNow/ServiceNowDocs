@@ -3,9 +3,9 @@ title: Configure the Spending Overview Widget and Filter pills
 description: Use script includes to configure the Spending Overview widget and filter pills on the Funding Allocation tab for the rolling grant approvals feature. Admins can add, remove, relabel, and reorder chart widgets and filter pills, and create custom ones to match program requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-gm-config-spending-overview-widget.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Configure funding allocation charts, Spending Overview widget, filter pills, Funding Allocation tab, UI Builder, grants management configuration]
 breadcrumb: [Set up a grant program, Grants Management, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
@@ -55,9 +55,9 @@ You can also use UI Builder to configure the Funding allocation tab widgets of t
 
 To verify the configuration, open a grant program record and select the **Funding Allocation** tab. Confirm that the **Spending Overview** widget and filter pills display as configured.
 
-**Parent Topic:**[Set up a grant program in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-grant-pgr.md)
+**Parent Topic:**[Set up a grant program in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-grant-pgr.md)
 
-**Previous topic:**[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-applicant-info-form.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-applicant-info-form.md)
+**Previous topic:**[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-applicant-info-form.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-applicant-info-form.md)
 
-**Next topic:**[Configure program lifecycle stepper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-pgr-lifecycle-stepper.md)
+**Next topic:**[Configure program lifecycle stepper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-pgr-lifecycle-stepper.md)
 

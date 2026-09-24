@@ -3,9 +3,9 @@ title: Multiple configurations
 description: As a product catalog manager, when you define a configurable product offering, you can enable agents to add multiple configurations of a child product offering. When agents add multiple configurations, they can change the quantity for each configuration of the offering, define each configuration as a separate line item, and select the appropriate options and characteristics for each configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/multiple-child-offering-configurations.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Create product offerings, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -16,7 +16,7 @@ As a product catalog manager, when you define a configurable product offering, y
 
 ## How multiple configurations work
 
-When you use the Create New Product Offering form to define configurable product offerings and child product offerings, select the **Allow multiple configurations** option to enable the creation of multiple child offering configurations. For information on defining product offerings, see [Create product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-create-product-offering.md).
+When you use the Create New Product Offering form to define configurable product offerings and child product offerings, select the **Allow multiple configurations** option to enable the creation of multiple child offering configurations. For information on defining product offerings, see [Create product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-create-product-offering.md).
 
 **Note:** If the configurable product has an associated product specification, the **Allow multiple configurations** option is enabled automatically and can't be unselected.
 
@@ -73,13 +73,13 @@ Multiple configurations aren’t supported for quotes of type sales agreements. 
 
 For details on enabling and creating multiple configurations for child offerings, see the following sections:
 
--   [Create product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-create-product-offering.md)
--   [Create multiple configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-multiple-child-configs.md)
+-   [Create product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-create-product-offering.md)
+-   [Create multiple configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-multiple-child-configs.md)
 
 **Related topics**  
 
 
-[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-product-catalog.md)
 
-[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/product-catalog-managment.md)
 

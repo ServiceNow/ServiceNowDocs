@@ -3,9 +3,9 @@ title: Configure Platform Analytics dashboard details
 description: You can change a dashboard name, add a description, certify it, configure visibility, and specify the requester, the owner, the owner group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/config-db-in-ac.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [How to change dashboard visibility, How to add dashboard description, How to certify a dashboard, How to set dashboard owner, How to see dashboard creator, How to see whom the dashboard has been shared with, How to make a dashboard available on a workspace]
 breadcrumb: [Configure, Dashboards, Platform Analytics experience, Platform Analytics]
@@ -19,7 +19,7 @@ You can change a dashboard name, add a description, certify it, configure visibi
 
 You can edit **Dashboard Details** for both dashboards created in UI Builder and dashboards created with the inline editor.
 
-Role required: dashboard\_admin for all dashboards, or any role for dashboards that you own or ones that you have been given the right to edit. See [Platform Analytics dashboard roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-dashboard-roles.md) for more information about viewing and editing rights on dashboards.
+Role required: dashboard\_admin for all dashboards, or any role for dashboards that you own or ones that you have been given the right to edit. See [Platform Analytics dashboard roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/pa-dashboard-roles.md) for more information about viewing and editing rights on dashboards. Users who only have viewing rights can make changes to the dashboard's content, but aren't able to save those changes.
 
 ## Procedure
 
@@ -37,15 +37,15 @@ Role required: dashboard\_admin for all dashboards, or any role for dashboards t
 
     3.  Mark the dashboard as **Certified** to inform the user that the dashboard is recommended for use across your organization.
 
-        **Note:** You must have an admin role to mark a dashboard as **Certified**. For more information, see [Certify a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/certify-db-ac.md).
+        **Note:** You must have an admin role to mark a dashboard as **Certified**. For more information, see [Certify a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/certify-db-ac.md).
 
     4.  In **Dashboard Visibility**, view, add, or remove workspaces the dashboard can be added to.
 
-        **Important:** Specifying a workspace here does not make the dashboard visible in that workspace. It only enables you to add the dashboard to that workspace. For more information about adding a dashboard to a workspace, see [Add a dashboard to a Dashboards page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-dashboard-to-workspace.md).
+        **Important:** Specifying a workspace here does not make the dashboard visible in that workspace. It only enables you to add the dashboard to that workspace. For more information about adding a dashboard to a workspace, see [Add a dashboard to a Dashboards page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/add-dashboard-to-workspace.md).
 
     5.  Specify one or more dashboard categories.
 
-        For more information, see [Platform Analytics experience dashboard categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/db-categories.md).
+        For more information, see [Platform Analytics experience dashboard categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/db-categories.md).
 
     6.  Specify who requested the dashboard.
 

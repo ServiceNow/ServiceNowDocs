@@ -3,9 +3,9 @@ title: Using the Business Location Service Portal
 description: Use the Business Location Service Portal \(BLSP\) available with the Customer Service Management \(CSM\) application as a one-stop shop to manage the internal and external organizations \(formerly internal and external business locations\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/using-blsp-portal.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Customer communication, Use, Customer Service Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Customer communication, Use, Customer Service Management]
 
 Use the Business Location Service Portal \(BLSP\) available with the Customer Service Management \(CSM\) application as a one-stop shop to manage the internal and external organizations \(formerly internal and external business locations\).
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/renamed-entities.md).
 
 As a user with the sn\_customerservice.svc\_location\_manager, sn\_customerservice.svc\_location\_manager\_contributor, and admin role, you can use the Business Location Service Portal page to:
 
@@ -205,9 +205,9 @@ View a list of the most viewed articles.
 **Related topics**  
 
 
-[Add staff members to a business organization in the Business Organization Support Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-staff-memers-to-biz-location.md)
+[Add staff members to a business organization in the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/add-staff-memers-to-biz-location.md)
 
-[Create cases for a business organization in the Business Organization Support Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/report-cases-on-behalf-of-biz-location.md)
+[Create cases for a business organization in the Business Organization Support Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/report-cases-on-behalf-of-biz-location.md)
 
-[Track cases on the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/track-cases-for-blsp-portal.md)
+[Track cases on the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/track-cases-for-blsp-portal.md)
 

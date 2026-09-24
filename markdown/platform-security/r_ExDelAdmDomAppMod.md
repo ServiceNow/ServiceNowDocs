@@ -3,9 +3,9 @@ title: Sample process administration with domain specific applications
 description: The following example illustrates process administration with domain-specific applications and modules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/r\_ExDelAdmDomAppMod.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Process administration, Setup and administration, Domain separation for service providers, Access Management]
 ---

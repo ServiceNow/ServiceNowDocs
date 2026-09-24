@@ -3,11 +3,11 @@ title: Schedule the DLP IR Microsoft incident retrieval
 description: Set a schedule to retrieve the incident data and ingest Microsoft DLP IR incidents that match the criteria in the profile. Configure the schedule to define how and when you pull incidents from Microsoft.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/schedule-profile-microsoft.html
-release: australia
+release: brazil
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a new incident profile for Microsoft DLP integration, Data Loss Prevention Incident Response with Microsoft, Integrate, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -124,5 +124,5 @@ Date from when data is supposed to be retrieved from Microsoft. This field can b
 
 After the successful creation and activation of the profile, the incidents are retrieved periodically as per the configuration set in the profile and added into the DLP incidents table.
 
-**Parent Topic:**[Create a new incident profile for Microsoft DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/create-profile-microsoft-dlp-integration.md)
+**Parent Topic:**[Create a new incident profile for Microsoft DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/create-profile-microsoft-dlp-integration.md)
 

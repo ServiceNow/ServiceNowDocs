@@ -3,11 +3,11 @@ title: View project status report
 description: You can view the status of a project such as overall progress, executive summary, financial data, and RIDAC records through the mobile app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/view-project-status-mobile.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage status of your projects using Project Status application, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -40,5 +40,5 @@ Role required: portfolio\_manager or project\_manager or program\_manager
 **Related topics**  
 
 
-[Manage status of your projects using Project Status application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/mobile-project-status.md)
+[Manage status of your projects using Project Status application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/mobile-project-status.md)
 

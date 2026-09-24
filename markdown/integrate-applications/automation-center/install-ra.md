@@ -3,11 +3,11 @@ title: Install Recommended Actions application
 description: Install the Recommended Actions application to use its capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/install-ra.html
-release: australia
+release: brazil
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Recommended Actions, Configure, Automation Center, Workflow Data Fabric]
 ---
@@ -33,5 +33,5 @@ Role required: admin
 3.  Select **Install**.
 
 
-**Parent Topic:**[Configuring the Recommended Actions application with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/config-ra.md)
+**Parent Topic:**[Configuring the Recommended Actions application with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/config-ra.md)
 

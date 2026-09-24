@@ -3,11 +3,11 @@ title: Setting up Teams Workforce Optimization for Field Service
 description: Organize your teams into assignment groups and create reports for those groups so that you can gain visibility into the team's performance.Create key performance indicator \(KPI\) groups with the KPIs that matter most to your teams. When you associate KPI groups with assignment groups, you can monitor your team's performance.Assign one or more managers to each KPI assignment group so that they can gain visibility into the group and monitor the team's performance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/setup-teams-performance-wfo-fsm.html
-release: australia
+release: brazil
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workforce Optimization, Set up workforce, Configure, Field Service Management]
 ---
@@ -23,7 +23,7 @@ As an administrator, you can configure KPIs as well as child KPIs. The child KPI
 **Related topics**  
 
 
-[Teams in Workforce Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/using-teams-wfo-fsm.md)
+[Teams in Workforce Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-manager-workforce/using-teams-wfo-fsm.md)
 
 ## Create KPI groups to monitor team performance
 
@@ -81,7 +81,7 @@ Role required: sn\_wfo\_admin or admin
 
 ### About this task
 
-You can associate a user with a primary assignment group by selecting the group in the user record. For more information, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUser.md).
+You can associate a user with a primary assignment group by selecting the group in the user record. For more information, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAUser.md).
 
 ### Procedure
 

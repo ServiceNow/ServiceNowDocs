@@ -3,11 +3,11 @@ title: Default currency values in reports
 description: Currency values in reports appear in the user’s session currency, and are formatted in the user’s locale with a currency symbol.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/currency-administration/currency-values-reports.html
-release: australia
+release: brazil
 product: Currency Administration
 classification: currency-administration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Standard currency fields, Explore, Currency administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -28,5 +28,5 @@ The two user-specific values in the report are:
 
 **Note:** A user that has a different session currency than the person who runs a report might receive unexpected results.
 
-**Parent Topic:**[Standard currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/configure-and-use-default-currency-fields.md)
+**Parent Topic:**[Standard currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/currency-administration/configure-and-use-default-currency-fields.md)
 

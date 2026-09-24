@@ -3,11 +3,11 @@ title: Analyze security incident data
 description: Analyze and get insights into your security incident data using available prompts or natural language queries from the ServiceNow Otto panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/analyze-data-sir.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-08-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [data analysis, agentic workflow, security incident, natural language]
 breadcrumb: [Use agentic workflows, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
@@ -25,7 +25,7 @@ Role required: sn\_si.analyst or sn\_si.manager.
 
 ## About this task
 
-**Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 This agentic workflow answers questions about the data in Security Incident Response Core. The AI agent returns only the data that you're authorized to access. If you ask about data that your roles don't grant access to, the AI agent responds that it can't provide that information at your access level.
 
@@ -70,5 +70,5 @@ This agentic workflow answers questions about the data in Security Incident Resp
     Your conversation is saved until you start a new chat. Start a new chat to clear the context of your previous questions, or return to your saved chat to continue. To start a new chat, select the new chat icon \[Omitted image "na-new-chat.png"\] Alt text:.
 
 
-**Parent Topic:**[Using agentic AI workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-now-assist-ai-agents-sir.md)
+**Parent Topic:**[Using agentic AI workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/using-now-assist-ai-agents-sir.md)
 

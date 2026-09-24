@@ -3,11 +3,11 @@ title: Bind a parameter to a resource pool
 description: To make catalog ordering less error-prone, you can bind a parameter to an resource pool \(a pool provided in the base system\). Parameters that are based on an resource pool list only specified values from existing tables on the catalog order form in the Cloud User Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/bind-param-snpool.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Pools and Filters for Cloud Provisioning, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---

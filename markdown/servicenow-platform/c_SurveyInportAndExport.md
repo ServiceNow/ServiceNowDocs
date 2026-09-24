@@ -3,9 +3,9 @@ title: Sharing surveys
 description: You can export a survey and then import it to a different ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/c\_SurveyInportAndExport.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Survey distribution, Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Survey distribution, Survey administration, Use surveys, Surveys, A
 
 You can export a survey and then import it to a different ServiceNow instance.
 
-**Note:** Update sets are available in the Helsinki release and should be used to move data from one instance to another. For information about update sets, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets.md).
+**Note:** Update sets are available in the Helsinki release and should be used to move data from one instance to another. For information about update sets, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/system-update-sets.md).
 
 The system exports a single XML file that contains a survey definition \[asmt\_metric\_type\] and the associated records, including the following.
 
@@ -27,14 +27,14 @@ The system exports a single XML file that contains a survey definition \[asmt\_m
 -   Survey users \[asmt\_m2m\_category\_user\]
 -   Trigger Condition \[asmt\_condition\]
 
--   **[Export a survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ExportASurvey.md)**  
+-   **[Export a survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_ExportASurvey.md)**  
 You can export a survey and then import it to another instance.
--   **[Import a survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ImportASurvey.md)**  
+-   **[Import a survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_ImportASurvey.md)**  
 You can import a survey that has been exported as an XML file. The exported XML file does not contain result data.
--   **[Use update sets for surveys and assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_UseUpdateSetsForSurveyAssess.md)**  
+-   **[Use update sets for surveys and assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_UseUpdateSetsForSurveyAssess.md)**  
 Use an update set to capture changes to surveys and assessments.
 
-**Parent Topic:**[Survey distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDistribution.md)
+**Parent Topic:**[Survey distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SurveyDistribution.md)
 
 **Related topics**  
 

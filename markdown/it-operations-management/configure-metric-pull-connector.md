@@ -3,11 +3,11 @@ title: Configure Solarwinds metric pull connector
 description: Configure a metric pull connectors that require a script, connector definition, and connector instance to pull metrics from external sources. These connectors automate the data retrieval process, ensuring the seamless integration of external metrics into your system for efficient monitoring and performance analysis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/configure-metric-pull-connector.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Integrations Launchpad in SOW for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Integrations Launchpad in Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure Solarwinds metric pull connector

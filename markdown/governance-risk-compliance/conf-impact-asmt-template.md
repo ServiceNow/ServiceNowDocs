@@ -3,9 +3,9 @@ title: Create Smart Assessment templates for BIA
 description: Create Smart Assessment templates in the Assessment Workspace for the Business Impact Analysis \(BIA\) workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/conf-impact-asmt-template.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Setup for a BIA, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -29,11 +29,11 @@ The store apps for using the Smart Assessment Engine application in BIA are list
 1.  Required apps: Smart Assessment Core \[com.sn\_smart\_asmt\], Smart Assessment Designer \[com.sn\_smart\_asmt\_desg\], Smart Assessment Connected \[com.sn\_smart\_asmt\_conn\]
 2.  Optional apps: Smart Assessment Post-assessment Actions \[com.sn\_smart\_imp\_auto\]
 
-For information about the initial setup checklist for Smart Assessment Engine, see [Configuring Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/smart-assessment-engine-cf-config.md). For more information on the Smart Assessment Engine, see [Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/smart-asmnt-engine-landing-page.md).
+For information about the initial setup checklist for Smart Assessment Engine, see [Configuring Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/smart-assessment-engine-cf-config.md). For more information on the Smart Assessment Engine, see [Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/smart-asmnt-engine-landing-page.md).
 
 ## About this task
 
-To configure a BIA template using Smart Assessment, see [Configure BIA templates with Smart Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/conf-bia-temp-smart-asmt-type.md).
+To configure a BIA template using Smart Assessment, see [Configure BIA templates with Smart Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/conf-bia-temp-smart-asmt-type.md).
 
 ## Procedure
 
@@ -73,7 +73,7 @@ To configure a BIA template using Smart Assessment, see [Configure BIA templates
 
     \[Omitted image "asmt-template-bcm-core-viewer-role.png"\] Alt text: Core viewer role.
 
-    **Note:** For information on creating an assessment template, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
+    **Note:** For information on creating an assessment template, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
 
 4.  Set up the assessment questions in the **Questions** tab.
 
@@ -95,7 +95,7 @@ To configure a BIA template using Smart Assessment, see [Configure BIA templates
 
     4.  Add instructions in the text box to set the context and inform responders on how to answer the questions appropriately.
 
-    For information on adding instructions and questions to the assessment template, see [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.md).
+    For information on adding instructions and questions to the assessment template, see [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.md).
 
 5.  Select **Save**.
 
@@ -127,7 +127,7 @@ To configure a BIA template using Smart Assessment, see [Configure BIA templates
 
         \[Omitted image "bia-flows-in-flow-designer.png"\] Alt text: Flows.\[Omitted image "bia-rpo-flow.png"\] Alt text: RPO flow.
 
-        In the properties of the subflow, the **Category** field is set to **Business impact assessment**. When the action category and the template category are mapped in the BIA, the **Set recovery point objective flow** is displayed in the **Action type** field in the Set actions dialog box.
+        In the properties of the subflow, the **Category** field is set to **Business impact assessment**. When the action category and the template category are mapped in the BIA as shown in the example, the **Set recovery point objective flow** is displayed. It appears in the **Action type** field in the Set actions dialog box.
 
         \[Omitted image "mapping-of-action-and-template-category.png"\] Alt text: Mapping.\[Omitted image "automations-tab-set-actions.png"\] Alt text: Actions.
 
@@ -135,11 +135,11 @@ To configure a BIA template using Smart Assessment, see [Configure BIA templates
 
         Once activated, the automation appears in the **Automations** tab.
 
-        For more information on automations, see [Automate response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/automate-response.md) and [Configure post-assessment actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/configure-post-assessment-actions.md).
+        For more information on automations, see [Automate response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/automate-response.md) and [Configure post-assessment actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/configure-post-assessment-actions.md).
 
 8.  Configure scoring settings on the **Scoring** tab.
 
-    For more information on assigning scores to the assessments, see [Scoring assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/scoring-in-assessments.md).
+    For more information on assigning scores to the assessments, see [Scoring assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/scoring-in-assessments.md).
 
 9.  Select **Save**.
 
@@ -159,11 +159,11 @@ To configure a BIA template using Smart Assessment, see [Configure BIA templates
 
     -   For minor, non-contextual fixes such as typos, grammar, or phrasing clarity that do not change the meaning, scoring, or logic of a question, use **Quick Edit** in the question menu. Quick Edit applies the correction immediately to past, in-progress, and future BIA assessments. It logs the change in the template edit history.
 
-        Quick Edit must be enabled on the Business impact assessment template category to appear in the question menu. For more information, see [Quick edit for published templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/quick-edit-for-published-templates.md).
+        Quick Edit must be enabled on the Business impact assessment template category to appear in the question menu. For more information, see [Quick edit for published templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/quick-edit-for-published-templates.md).
 
         \[Omitted image "bia-sae-quick-edit-menu.png"\] Alt text: Quick edit option in the three-dot menu of a question in a published Smart Assessment template.\[Omitted image "bia-sae-quick-edit-history.png"\] Alt text: Edit history showing Before and After question text for a quick edit, with user and timestamp.
 
-    -   For functional changes —changing question types, adding or removing choices, moving questions between sections, or changing the referenced table on a Reference question, publish a new template version. The previous version is retired automatically and future BIAs use the new version. A copy of the existing Post Assessment Actions is created in the Draft state on the new version. Review and publish the Post Assessment Actions on new version before relying on them to update RTO, RPO, MTPD, or Recovery Tier fields. For more information, see [Using latest assessment template for conducting BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-smart-asmt-template.md).
+    -   For functional changes —changing question types, adding or removing choices, moving questions between sections, or changing the referenced table on a Reference question, publish a new template version. The previous version is retired automatically and future BIAs use the new version. A copy of the existing Post Assessment Actions is created in the Draft state on the new version. Review and publish the Post Assessment Actions on new version before relying on them to update RTO, RPO, MTPD, or Recovery Tier fields. For more information, see [Using latest assessment template for conducting BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/using-smart-asmt-template.md).
     -   Open BIA assessments based on the retired version are either retained or canceled depending on the **Assessment handling on version retirement** option configured on the **Business impact assessment** template category. Configure this option before publishing a new version.
     **Note:** Starting with GRC: Business Continuity Management - Core, version 11.0.1, Smart Assessment templates support version control, and version details are displayed on each template.
 
@@ -172,5 +172,5 @@ To configure a BIA template using Smart Assessment, see [Configure BIA templates
 
 You can use the published Smart Assessment template for the Business Impact Analysis \(BIA\) workflow.
 
-**Parent Topic:**[Setup for a business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-admin-tasks.md)
+**Parent Topic:**[Setup for a business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/bcm-admin-tasks.md)
 

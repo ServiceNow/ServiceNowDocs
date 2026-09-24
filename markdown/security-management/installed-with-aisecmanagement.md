@@ -3,11 +3,11 @@ title: Components installed with AI Security Exposure Management
 description: Components installed with the AI Security Exposure Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/installed-with-aisecmanagement.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-07-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the AI guardrails helper skill and agentic workflow, AI Security Exposure Management, Use, Unified Security Exposure Management, Security Operations]
+breadcrumb: [AI Security Exposure Management, Use, Unified Security Exposure Management, Security Operations]
 ---
 
 # Components installed with AI Security Exposure Management
@@ -68,7 +68,7 @@ Together these two jobs collect the AI posture findings-related metrics shown on
 
 </td><td>
 
-Calls the model, scan and posture findings jobs. This job runs the PA indicators and that refresh the metrics on the dashboard. Scheduled to run daily.
+Calls the Model, scan and posture findings jobs. This job runs the PA indicators and that refresh the metrics on the dashboard.
 
 </td></tr><tr><td>
 
@@ -76,10 +76,8 @@ AISEM guardrail skill scheduled job
 
 </td><td>
 
-**Note:** This job is installed only if you install Now Assist for Vulnerability Response. Sorts the AI validation findings imported from third-party integrations and tries to match them with the appropriate guardrails reported by third-party integrations in your environment.
+**Note:** This job only applies if you install Now Assist for Vulnerability Response. Sorts the AI validation findings imported from third-party integrations and tries to match them with the appropriate guardrails reported by third-party integrations in your environment.
 
 </td></tr></tbody>
 </table>See the [AI security exposure management](https://www.servicenow.com/community/secops-articles/reduce-ai-attack-surface-with-ai-security-exposure-management/ta-p/3563696) article in the Security Operations Community for more information about AI Security Exposure Management.
-
-**Parent Topic:**[Using the AI guardrails helper skill and agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ai-security-exposure-skill-agent.md)
 

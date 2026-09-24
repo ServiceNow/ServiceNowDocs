@@ -3,11 +3,11 @@ title: Content Management testing
 description: Test your site to ensure that all pages display correctly, links go to the specified address, and images are not broken. It is important to test the site as you build it. Do not wait until just before launch to begin testing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/c\_ContentManagementTesting.html
-release: australia
+release: brazil
 product: Content Management System
 classification: content-management-system
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -30,7 +30,7 @@ Here are some general site testing guidelines:
 -   Test site security
 -   If necessary, test for accessibility \(for guidelines, see the [W3C Website Accessibility Initiative](http://www.w3.org/WAI/eval/)\)
 
-**Parent Topic:**[Content Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentManagementSystem.md)
+**Parent Topic:**[Content Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/c_ContentManagementSystem.md)
 
 **Related topics**  
 

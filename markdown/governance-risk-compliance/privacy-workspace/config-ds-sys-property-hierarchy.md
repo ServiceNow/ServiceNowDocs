@@ -1,20 +1,20 @@
 ---
 title: Configure data subject selection in hierarchy relationships
-description: Configure the sn\_privacy.relationship\_involving\_data\_subjects system property to enable data subject selection in custom hierarchy relationships.
+description: Enable data subject selection in custom relationship types by configuring the sn\_privacy.relationship\_involving\_data\_subjects system property.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/config-ds-sys-property-hierarchy.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Privacy Management, Governance, Risk, and Compliance]
 ---
 
 # Configure data subject selection in hierarchy relationships
 
-Configure the sn\_privacy.relationship\_involving\_data\_subjects system property to enable data subject selection in custom hierarchy relationships.
+Enable data subject selection in custom relationship types by configuring the sn\_privacy.relationship\_involving\_data\_subjects system property.
 
 ## Before you begin
 
@@ -39,12 +39,12 @@ By default, only certain built-in relationship types, such as **Sends data to** 
 
 ## Result
 
-Business users or privacy analysts selecting the custom relationship type while defining hierarchy relationships are able to select data subject types, their locations, and impacted data elements.
+The custom relationship type now supports data subject selection. When users create or edit this relationship type in privacy assessments, they can specify data subject types, locations, and impacted data elements.
 
-**Parent Topic:**[Configuring Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/configure-privacy-mgmt.md)
+**Parent Topic:**[Configuring Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/configure-privacy-mgmt.md)
 
 **Related topics**  
 
 
-[Manage data transfers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/data-transfers.md)
+[Manage data transfers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/data-transfers.md)
 

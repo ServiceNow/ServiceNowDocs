@@ -3,11 +3,11 @@ title: Add or edit expense lines
 description: Create or edit expense lines to capture the actual costs. You can associate the expense lines with a cost plan or create standalone expense lines to record unplanned expenses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/create-expense-line-prj-wrkspc.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage financials, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -36,15 +36,15 @@ The video is recorded using the Strategic Planning view. Navigate to your portfo
 
 3.  Use one of the following options to add an expense line.
 
-<table id="choicetable_n25_2rm_fyb"><thead><tr><th align="left" id="d59300e115">
+<table id="choicetable_n25_2rm_fyb"><thead><tr><th align="left" id="d58665e115">
 
 Choice
 
-</th><th align="left" id="d59300e118">
+</th><th align="left" id="d58665e118">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d59300e124">
+</th></tr></thead><tbody><tr><td id="d58665e124">
 
 **Select a cost plan**
 
@@ -54,7 +54,7 @@ Description
 2.  In the Expense lines side panel, select **New**.
 
 
-</td></tr><tr><td id="d59300e145">
+</td></tr><tr><td id="d58665e145">
 
 **Select options**
 
@@ -64,7 +64,7 @@ Description
 2.  Select **Add expense lines**.
 
 
-</td></tr><tr><td id="d59300e172">
+</td></tr><tr><td id="d58665e172">
 
 **Select new expense line option**
 
@@ -77,7 +77,7 @@ Select **New expense line** using the More actions option.\[Omitted image "fin-n
 </td></tr></tbody>
 </table>4.  On the Create expense line form, fill the fields.
 
-    For a description of the field names, see [Create expense line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-exp-line-form-spw.md).
+    For a description of the field names, see [Create expense line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/create-exp-line-form-spw.md).
 
 5.  Select **Save**.
 
@@ -90,5 +90,5 @@ Select **New expense line** using the More actions option.\[Omitted image "fin-n
 8.  Update the expense values as needed and select **Save**.
 
 
-**Parent Topic:**[Managing financials for your projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/using-financials-prj-wrkspc.md)
+**Parent Topic:**[Managing financials for your projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/using-financials-prj-wrkspc.md)
 

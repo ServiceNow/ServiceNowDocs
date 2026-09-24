@@ -3,11 +3,11 @@ title: Configure activity contexts for Self-Service Analytics
 description: Define the type of activities you want to collect as Self-Service Analytics data for a user entity such as consumers and customer contacts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/configure-activity-context.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure Self-Service Analytics, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -209,7 +209,7 @@ Option to enable a business rule defined for an activity type.
 
 ## What to do next
 
-[Configure pattern elements for Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configure-pattern-element.md).
+[Configure pattern elements for Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/configure-pattern-element.md).
 
-**Parent Topic:**[Configure Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/config-ssa.md)
+**Parent Topic:**[Configure Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/config-ssa.md)
 

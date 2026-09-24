@@ -3,9 +3,9 @@ title: Approve a change request, or registration request
 description: Users with the snc\_external role can view and approve registration requests and change requests from the Customer Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/approve-request-from-cust-portal.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
@@ -20,11 +20,11 @@ Role required: snc\_external
 
 ## About this task
 
-A registration request or a change request may require approval from another employee within the same organization. For details on registration request, see [Customer contact self-registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_PortalSelfRegistration.md).
+A registration request or a change request may require approval from another employee within the same organization. For details on registration request, see [Customer contact self-registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_PortalSelfRegistration.md).
 
 ## Procedure
 
-1.  In the Customer Service Portal header, click **Notification** &gt; **View all notifications**.
+1.  In the Customer Service Portal header, select **Notification** &gt; **View all notifications**.
 
 2.  Select a record in the Approvals section of the Notifications page.
 
@@ -46,5 +46,5 @@ A registration request or a change request may require approval from another emp
 **Related topics**  
 
 
-[View the status of a request, change request, or registration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-request-status-cust-portal.md)
+[View the status of a request, change request, or registration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/view-request-status-cust-portal.md)
 

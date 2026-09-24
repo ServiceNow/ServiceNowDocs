@@ -3,20 +3,20 @@ title: Components installed with PPM Collaboration
 description: Roles and tables are installed with activation of the PPM Collaboration application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/components-installed-with-ppm-collab.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Install PPM Collaboration, PPM Collaboration for project teams, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Install PPM Collaboration, Collaborate with your project teams using PPM Collaboration application, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Components installed with PPM Collaboration
 
 Roles and tables are installed with activation of the PPM Collaboration application.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 ## Roles installed
 
@@ -64,12 +64,12 @@ Entity Channel\[sn\_collab\_common\_entity\_channel\]
 Stores the list of IDs and names of the Slack channels that are created for the projects.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/using-project-management.md)
+</table>**Parent Topic:**[Using Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/using-project-management.md)
 
 **Related topics**  
 
 
-[Install PPM Collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/install-ppm-collab-store-app.md)
+[Install PPM Collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/install-ppm-collab-store-app.md)
 
-[PPM Collaboration for project teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ppm-collab-overview.md)
+[Collaborate with your project teams using PPM Collaboration application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/ppm-collab-overview.md)
 

@@ -3,11 +3,11 @@ title: ValidateTableChange
 description: The ValidateTableChange validator reports any activities in the workflow that are invalid given the table associated with the workflow version.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/r\_VldtTableChange.html
-release: australia
+release: brazil
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workflow validator, Workflow validation, Workflow management, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,7 +32,7 @@ For example, a workflow version that is associated with the Change Request \[cha
     -   Ensure that the current record meets the requirements of the at-risk activities.
 -   Publishable: Yes
 -   Runnable: Yes
--   Related Information: [Workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/c_WorkflowActivities.md)
+-   Related Information: [Workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/workflow-activities/c_WorkflowActivities.md)
 
 ## Troubleshooting
 
@@ -44,5 +44,5 @@ When a workflow is set to the Global \[global\] table, it is possible that the p
 
 This validation check ensures that the table specified by all the activities in a particular workflow is included in the hierarchy of the table selected for the workflow.
 
-**Parent Topic:**[Workflow validator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/r_WorkflowValidator.md)
+**Parent Topic:**[Workflow validator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/legacy-workflow/r_WorkflowValidator.md)
 

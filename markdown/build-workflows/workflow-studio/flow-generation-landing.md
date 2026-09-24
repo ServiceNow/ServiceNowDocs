@@ -3,11 +3,11 @@ title: Flow generation
 description: Use ServiceNow Otto for Creator to create a flow or subflow from a text description.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-generation-landing.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -24,19 +24,19 @@ This video demonstrates creating a flow from a text description.
 
 <table id="table_ipw_tgq_zfc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about flow generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-flow-generation.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about flow generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/exploring-flow-generation.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate the ServiceNow Otto for Creator plugin and the flow generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/turn-on-the-flow-generation-skill.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate the ServiceNow Otto for Creator plugin and the flow generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/turn-on-the-flow-generation-skill.md)
 
 </td></tr><tr><td>
 
-[Generate\[Omitted image "bus-start-developing.svg"\] Alt text:Create a flow from a text description](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow-now-assist.md)
+[Generate\[Omitted image "bus-start-developing.svg"\] Alt text:Create a flow from a text description](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-flow-now-assist.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about ServiceNow Otto for Creator roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-roles-1.md)
+Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about ServiceNow Otto for Creator roles
 
 </td></tr></tbody>
 </table>**Important:**
@@ -67,7 +67,7 @@ This video demonstrates creating a flow from a text description.
     -   The asset was previously turned on, and then turned off again.
     -   An admin has adjusted roles for the asset.
 
-For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## AI limitations
 
@@ -79,14 +79,14 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect skill usage metrics. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect skill usage metrics. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md).
 
--   **[Exploring flow generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-flow-generation.md)**  
+-   **[Exploring flow generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/exploring-flow-generation.md)**  
 Create multiple step flows and subflows with generative AI. Generate appropriate data pill values for supported flow triggers and action inputs.
--   **[Turn on the flow generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/turn-on-the-flow-generation-skill.md)**  
+-   **[Turn on the flow generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/turn-on-the-flow-generation-skill.md)**  
 Turn on the flow generation skill to use generative AI to create and edit flows.
 
-**Parent Topic:**[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md)
+**Parent Topic:**[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flows.md)
 

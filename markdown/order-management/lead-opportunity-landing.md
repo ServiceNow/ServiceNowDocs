@@ -3,9 +3,9 @@ title: Sales automation
 description: ServiceNow sales automation applications support your sales life cycle from capturing leads to forecasting revenue. Explore each module to streamline engagement, optimize territory coverage, and drive conversion.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/lead-opportunity-landing.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-08-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Sales Customer Relationship Management]
 ---
@@ -22,15 +22,15 @@ Select a link from the following table to learn about key features and benefits 
 
 |Application|Description|
 |-----------|-----------|
-|[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management.md)|Capture, qualify, and nurture potential customers.|
-|[Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-customer-engagement-sequences.md)|Automate and personalize outreach strategies.|
-|[Buying Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-buying-group.md)|Create solution-specific buying groups, assign stakeholder roles, and link to opportunities.|
-|[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)|Track and advance sales opportunities through the pipeline.|
-|[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-forecasting.md)|Predict revenue and plan resources with confidence.|
-|[Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-sales-territory-management.md)|Define and manage sales regions for better coverage.|
-|[Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-activity-management.md)|Plan, execute, capture, and track customer interactions across multiple channels throughout the customer life cycle.|
+|[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/lead-management.md)|Capture, qualify, and nurture potential customers.|
+|[Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-customer-engagement-sequences.md)|Automate and personalize outreach strategies.|
+|[Buying Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-buying-group.md)|Create solution-specific buying groups, assign stakeholder roles, and link to opportunities.|
+|[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/opportunity-management.md)|Track and advance sales opportunities through the pipeline.|
+|[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/sales-forecasting.md)|Predict revenue and plan resources with confidence.|
+|[Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-sales-territory-management.md)|Define and manage sales regions for better coverage.|
+|[Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-activity-management.md)|Plan, execute, capture, and track customer interactions across multiple channels throughout the customer life cycle.|
 
 ## What to explore next
 
-Configure the sales automation applications, so your agents can use them in their sales workflows. For more information, see [Configuring the sales automation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-lead-opportunity-mgt.md).
+Configure the sales automation applications, so your agents can use them in their sales workflows. For more information, see [Configuring the sales automation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configuring-lead-opportunity-mgt.md).
 

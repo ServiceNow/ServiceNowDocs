@@ -3,11 +3,11 @@ title: View user requests for password reset
 description: The Reset Requests module displays the status of each password reset request from the Password Reset Request table \[pwd\_reset\_request\].
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/t\_ResetARequest.html
-release: australia
+release: brazil
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reset a password or unlock a user account with service desk assistance, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -109,10 +109,10 @@ Total number of times the user has attempted to complete a password reset reques
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Reset a password or unlock a user account with service desk assistance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/reset-password-for-user.md)
+**Parent Topic:**[Reset a password or unlock a user account with service desk assistance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/reset-password-for-user.md)
 
 **Related topics**  
 
 
-[Password Reset and Password Change reports and logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/c_MonitorPasswordResetActivity.md)
+[Password Reset and Password Change reports and logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/c_MonitorPasswordResetActivity.md)
 

@@ -3,11 +3,11 @@ title: Amazon Web Services EC2 Windows Out Of Box permissions
 description: Amazon Web Services EC2 Windows OOB catalog items permissions
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/aws-ec2-windows-oob-permissions.html
-release: australia
+release: brazil
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [AWS EC2 Windows items, Out Of Box Catalogs using Cloud Services Catalog, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -213,5 +213,5 @@ AWS EC2 Windows with security groups deprovision
 11. DescribeInstanceTypes
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Amazon Web Services EC2 Microsoft Windows Out Of Box Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/aws-ec2-microsoft-windows-out-of-box-catalogs.md)
+</table>**Parent Topic:**[Amazon Web Services EC2 Microsoft Windows Out Of Box Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-services-catalog/aws-ec2-microsoft-windows-out-of-box-catalogs.md)
 

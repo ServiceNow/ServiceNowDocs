@@ -3,9 +3,9 @@ title: Availability of price value overrides
 description: See which component types accept price-value overrides for zero-priced and null-priced items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-availability-of-price-value-overrides.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up pricing display, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -89,12 +89,12 @@ Yes
 </td></tr></tbody>
 </table>**Note:**
 
-To set a null-price override on a currency field, the administrator can set `ProductList.extended.<numericField> = ""` in an advanced product action or by using the OnBom enrichment. In the layout, define this numeric field to display as currency in the column properties of the product list, and follow the instructions in [Set a custom message for zero-priced and null-priced items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) regarding override strings in the product list properties.
+To set a null-price override on a currency field, the administrator can set `ProductList.extended.<numericField> = ""` in an advanced product action or by using the OnBom enrichment. In the layout, define this numeric field to display as currency in the column properties of the product list, and follow the instructions in [Set a custom message for zero-priced and null-priced items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-set-a-custom-message-for-zero-priced-and-null-priced-items.md) regarding override strings in the product list properties.
 
 **Related topics**  
 
 
-[Set a custom message for zero-priced and null-priced items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[Set a custom message for zero-priced and null-priced items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-set-a-custom-message-for-zero-priced-and-null-priced-items.md)
 
-[Override the shopping cart total when a null-priced item is included](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[Override the shopping cart total](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-override-the-shopping-cart-total-when-a-null-priced-item-is-included.md)
 

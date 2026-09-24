@@ -3,11 +3,11 @@ title: Track impacted assets and add associated plans
 description: Track the impacted assets and add an associated plan to the exercise. You can then monitor the assets and plans for the exercise in BCM UIB Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-asset-and-plan-to-exercise-event-uib-ws.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Structured workflows for Exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Track impacted assets and add associated plans
@@ -48,7 +48,7 @@ Role required: sn\_bcm.admin, sn\_bcm.program\_manager, or sn\_bcm.planner
 
     \[Omitted image "acrobat-event-asset-rto.png"\] Alt text: Event assets.
 
-    When you open the event asset record \(for example, "Acrobat"\), the "Finalized RTO," "Finalized RPO," "Recovery Tier," and "BIA" values are automatically populated and displayed in the record.
+    When you open the event asset record \(for example, "Acrobat"\), the "Finalized RTO," "Finalized RPO," "Recovery Tier," and "BIA" values are automatically populated. The values are displayed in the record as shown in the example.
 
     \[Omitted image "acrobat-event-record.png"\] Alt text: Event.
 
@@ -84,7 +84,7 @@ Role required: sn\_bcm.admin, sn\_bcm.program\_manager, or sn\_bcm.planner
 
     -   If you select all assets, all assets present in the plan are added to the impacted assets of the event task.
     -   If you select specific assets, only those specific assets present in the plan are added to the impacted assets of the event task.
-    -   If you select no assets, no assets present in the plan are added to the impacted assets of the event task.
+    -   If you select none assets, no assets present in the plan are added to the impacted assets of the event task.
     **Note:**
 
     The current demo data has an issue where both **Included task in** and **Tag asset** fields are empty. To resolve this, you have to add tasks to **Included task in** manually and select assets for the **Tag asset** field. Without these, event tasks won't be created and assets won't be marked as impacted.
@@ -96,5 +96,5 @@ Role required: sn\_bcm.admin, sn\_bcm.program\_manager, or sn\_bcm.planner
     The exercise is saved in the **Pending** state.
 
 
-**Parent Topic:**[Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
+**Parent Topic:**[Structured workflows for exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
 

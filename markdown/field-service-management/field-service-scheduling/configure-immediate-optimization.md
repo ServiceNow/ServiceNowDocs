@@ -3,11 +3,11 @@ title: Configure optimization for prioritized events
 description: Configure prioritized event optimization to enable schedule adjustments in response to critical, same-day events.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/configure-immediate-optimization.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Optimization for prioritized events, Intraday optimization, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
@@ -18,7 +18,7 @@ Configure prioritized event optimization to enable schedule adjustments in respo
 
 ## Before you begin
 
-To set the system properties for the prioritized event mode, see [Schedule Optimization properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/schedule-optimization-properties.md).
+To set the system properties for the prioritized event mode, see [Schedule Optimization properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/schedule-optimization-properties.md).
 
 Role required: wm\_admin
 
@@ -60,7 +60,7 @@ When the selected event type occurs, optimization runs shortly after. The optimi
 **Related topics**  
 
 
-[Activate intraday optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/activate-intraday-optimization.md)
+[Activate intraday optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/activate-intraday-optimization.md)
 
-[Configure intraday optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/configure-intraday-optimization.md)
+[Configure intraday optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/configure-intraday-optimization.md)
 

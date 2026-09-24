@@ -3,13 +3,13 @@ title: Create and train a similarity solution
 description: Create and train a machine learning solution to collect and compare your existing records to new similar records. For example, you can compare the text in an open Incident record to a resolved Incident record to reuse its resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/create-similarity-solution.html
-release: australia
+release: brazil
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Creating and training solutions, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Creating and training solutions, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Create and train a similarity solution
@@ -28,7 +28,7 @@ After comparing your existing records based on similarity, the system recommends
 
 When applied in your forms and flows, similarity solutions are domain-aware, so records from other domains on the instance are not displayed to users. For more information, see KB article [Similarity prediction behavior in domain separated environment](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2035643) on Now Support.
 
-For information on using encrypted training data, see [Data Encryption in Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence-encryption.md).
+For information on using encrypted training data, see [Data Encryption in Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence-encryption.md).
 
 In this example procedure, you're working on Incident records and you want to locate relevant Knowledge Base articles that could provide resolutions to those incidents.
 
@@ -76,7 +76,7 @@ If you have a legacy similarity solution, you can select a relevant word corpus 
 
  **Note:** Starting from the Washington DC release, a word corpus is not required because a pre-trained model is used instead. The **Word Corpus** field is not visible in the definition form for pre-trained models.
 
- For more information, see [Create a word corpus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-word-corpus.md).
+ For more information, see [Create a word corpus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/predictive-intelligence/create-word-corpus.md).
 
 </td></tr><tr><td>
 
@@ -181,5 +181,5 @@ However, for KB Knowledge article records, which are typically not created often
 
 ## What to do next
 
-Review the similarity examples on the Related Links section of your Solution form. See [Review solution similarity examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/review-similarity-examples.md).
+Review the similarity examples on the Related Links section of your Solution form. See [Review solution similarity examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/predictive-intelligence/review-similarity-examples.md).
 

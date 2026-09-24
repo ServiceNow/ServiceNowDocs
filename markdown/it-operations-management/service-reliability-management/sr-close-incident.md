@@ -3,11 +3,11 @@ title: Close an SRM incident
 description: Close an incident when it’s not an issue or has already been handled.REVISE FOR SRM
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-close-incident.html
-release: australia
+release: brazil
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with incidents in SRM, Working with SRM reliability tasks, Using Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
@@ -32,15 +32,15 @@ Role required: srm\_responder, srm\_manager, or srm\_admin
 
 3.  You have two options.
 
-<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d664819e97">
+<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d670639e97">
 
 Option
 
-</th><th align="left" id="d664819e100">
+</th><th align="left" id="d670639e100">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d664819e106">
+</th></tr></thead><tbody><tr><td id="d670639e106">
 
 **In the incident list view**
 
@@ -50,7 +50,7 @@ Steps
 2.  Select **OK**.
  **Tip:** If you have the srm\_admin role, you can update multiple incidents at once. First, select the relevant incidents and select **Edit**. Then use the **State** drop-down to choose the appropriate value and select **Update**.
 
-</td></tr><tr><td id="d664819e142">
+</td></tr><tr><td id="d670639e142">
 
 **In the incident form**
 
@@ -61,7 +61,7 @@ Steps
 
 
 </td></tr></tbody>
-</table>    For value choices, see [SRM incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-incidents-workspace.md).
+</table>    For value choices, see [SRM incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-reliability-management/sr-incidents-workspace.md).
 
     The new state is displayed in the incident list view, incident form, and form header.
 
@@ -74,5 +74,5 @@ Closed incidents remain in the incidents list view. If they don't appear, try ad
 
 When you close an incident, any related alerts are closed.
 
-**Parent Topic:**[Working with incidents in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-work-incidents.md)
+**Parent Topic:**[Working with incidents in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-reliability-management/sr-work-incidents.md)
 

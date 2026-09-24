@@ -3,11 +3,11 @@ title: Add translations for Playbooks
 description: Make Playbooks available in multiple languages during runtime, to support worldwide business processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/add-translations-playbooks.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating and managing Playbooks, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -21,11 +21,11 @@ Make Playbooks available in multiple languages during runtime, to support worldw
 -   Role required: admin or playbook.admin
 -   To enable custom translations for playbooks, install the 27.1 app version or later.
 -   Activate any playbooks that you want to translate.
--   To learn more about translating custom content in general, see [Translating custom content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/translating-applications.md).
+-   To learn more about translating custom content in general, see [Translating custom content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/translating-applications.md).
 
 ## About this task
 
-UI Message records are used to translate the text in your playbooks to different languages at runtime, similar to the way system messages are translated on the platform. To learn more about the Message table \[sys\_ui\_message\] in general, see [Message table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_MessageTable.md).
+UI Message records are used to translate the text in your playbooks to different languages at runtime, similar to the way system messages are translated on the platform. To learn more about the Message table \[sys\_ui\_message\] in general, see [Message table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_MessageTable.md).
 
 The playbook text that you can create translations for are:
 
@@ -70,5 +70,5 @@ When the playbook runs, the translated content appears for agents in their user 
 
 \[Omitted image "playbook-translation-runtime.png"\] Alt text: The message translated into Spanish.
 
-**Parent Topic:**[Creating and managing Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/creating-managing-playbooks.md)
+**Parent Topic:**[Creating and managing Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/creating-managing-playbooks.md)
 

@@ -3,9 +3,9 @@ title: Exploring ServiceNow Otto for Threat Intelligence Security Center \(TISC\
 description: Threat analysts and security operations teams can use ServiceNow generative AI skills to summarize case management content and generate threat intelligence case reports with ServiceNow Otto for Threat Intelligence Security Center \(TISC\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/exploring-now-assist-tisc.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Otto for Threat Intelligence Security Center \(TISC\), Security Operations]
 ---

@@ -3,11 +3,11 @@ title: Rank items in a portfolio plan
 description: Assign ranks to the items based on the planning item attributes and scoring framework attributes such as Planned Cost, Moscow, Priority, Score, and so on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/rank-items-in-a-portfolio-plan.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Score planning items, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -43,5 +43,5 @@ Role required: sn\_align\_core.apw\_user
 
 The items in your portfolio plan are ranked based on your ranked attribute.
 
-**Parent Topic:**[Scoring planning items in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/using-scoring-frameworks-in-startegic-planning-workspace.md)
+**Parent Topic:**[Scoring planning items in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/using-scoring-frameworks-in-startegic-planning-workspace.md)
 

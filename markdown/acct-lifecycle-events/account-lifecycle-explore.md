@@ -3,9 +3,9 @@ title: Explore Customer Success Management
 description: Customer Success Management enables technology industry providers to create a structured onboarding experience, define and track objectives, outcomes, milestones, and plans to achieve shared goals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-explore.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer Success Management]
 ---
@@ -13,8 +13,6 @@ breadcrumb: [Customer Success Management]
 # Explore Customer Success Management
 
 Customer Success Management enables technology industry providers to create a structured onboarding experience, define and track objectives, outcomes, milestones, and plans to achieve shared goals.
-
-**Important:** Account Lifecycle Events has been renamed to Customer Success Management in Zurich.
 
 The following diagram shows the different tasks involved in the Customer Success Management life-cycle that can be managed by this application.
 
@@ -30,6 +28,6 @@ Customer Success Management features include the following:
 
 ## Customer Success Management features
 
--   [Account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-playbook-overview.md): Create a structured onboarding experience while enabling collaboration and transparency with internal and external stakeholders during the onboarding process.
--   [Customer success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-events-customer-success-about.md): Track success objectives, outcomes, help mitigate risks, and identify opportunities for expansion and renewal.
+-   [Account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-playbook-overview.md): Create a structured onboarding experience while enabling collaboration and transparency with internal and external stakeholders during the onboarding process.
+-   [Customer success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-events-customer-success-about.md): Track success objectives, outcomes, help mitigate risks, and identify opportunities for expansion and renewal.
 

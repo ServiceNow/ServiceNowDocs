@@ -3,9 +3,9 @@ title: Configure email digests
 description: Use the Notification form to create or modify the content of an email digest for a notification. You can also disable the email digest for a notification so that it isn’t available in the notification preferences of your users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/configure-email-digest.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Email digests, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-When you [create or update a notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md), use the **What Digest will contain** tab of the Notification form to configure the email digest for the notification. After you define the digest content, the digest option for the notification is available in the notification settings of your users.
+When you [create or update a notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateANotification.md), use the **What Digest will contain** tab of the Notification form to configure the email digest for the notification. After you define the digest content, the digest option for the notification is available in the notification settings of your users.
 
 ## Procedure
 
@@ -35,15 +35,15 @@ When you [create or update a notification](https://raw.githubusercontent.com/Ser
 
 3.  Select the **Digest type**.
 
-<table id="choicetable_jb2_kxp_1fc"><thead><tr><th align="left" id="d266113e165">
+<table id="choicetable_jb2_kxp_1fc"><thead><tr><th align="left" id="d264847e165">
 
 Digest Type
 
-</th><th align="left" id="d266113e168">
+</th><th align="left" id="d264847e168">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d266113e174">
+</th></tr></thead><tbody><tr><td id="d264847e174">
 
 **Single target record**
 
@@ -51,7 +51,7 @@ Description
 
 Allows this notification to be sent in an email digest when it is triggered multiple times during the selected interval for a single target record, for example INC001 only.
 
-</td></tr><tr><td id="d266113e190">
+</td></tr><tr><td id="d264847e190">
 
 **Multiple target record**
 
@@ -126,7 +126,7 @@ Digest From
 
 Enter the email address to be used in the From field of the email digest. For example, helpdesk@yourcompany.com. The email address must be in a valid format, otherwise a notification message appears near the field.
 
- Changing this address requires an advanced email setup such as [enabling email forwarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConfAltEmailUsgOwnSMTP.md).
+ Changing this address requires an advanced email setup such as [enabling email forwarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ConfAltEmailUsgOwnSMTP.md).
 
 </td></tr><tr><td>
 
@@ -136,7 +136,7 @@ Digest Reply To
 
 Enter the email address that you want people to use when replying to the email digest. For example, helpdesk@yourcompany.com. The email must be in a valid format, otherwise a notification message appears near the field.
 
- Changing this address requires an advanced email setup such as [enabling email forwarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConfAltEmailUsgOwnSMTP.md).
+ Changing this address requires an advanced email setup such as [enabling email forwarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ConfAltEmailUsgOwnSMTP.md).
 
 </td></tr><tr><td>
 
@@ -159,7 +159,7 @@ Digest Separator \(text\)
 
     The email **Digest** option is displayed in the notification settings of your users.
 
-    **Note:** The email recipients identified in the **Who will receive** tab will receive the digest after they [enable the digest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/enable-email-digest.md) in their notification preferences. If the user isn’t a designated recipient for the notification, a digest isn’t generated even though the user may have the digest enabled for a notification. In this case, the user receives the actual notifications when they’re generated.
+    **Note:** The email recipients identified in the **Who will receive** tab will receive the digest after they [enable the digest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/enable-email-digest.md) in their notification preferences. If the user isn’t a designated recipient for the notification, a digest isn’t generated even though the user may have the digest enabled for a notification. In this case, the user receives the actual notifications when they’re generated.
 
 9.  To disable the email digest for a notification, unselect the **Allow Digest** check box and select **Update** when you finish your changes to the notification.
 
@@ -168,14 +168,14 @@ Digest Separator \(text\)
     **Note:** If you turned off the digest and want to make the digest available again, select the **Allow Digest** check box. The system retains the previously saved digest content and displays it in the **What Digest will contain** tab.
 
 
-**Parent Topic:**[Email digests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-digests.md)
+**Parent Topic:**[Email digests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/email-digests.md)
 
 **Related topics**  
 
 
-[Email digests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-digests.md)
+[Email digests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/email-digests.md)
 
-[Create or modify email digest intervals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-digest-intervals.md)
+[Create or modify email digest intervals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-digest-intervals.md)
 
-[Enable an email digest in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/enable-email-digest.md)
+[Enable an email digest in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/enable-email-digest.md)
 

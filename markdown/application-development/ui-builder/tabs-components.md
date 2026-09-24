@@ -3,11 +3,11 @@ title: Add tabbed content to UI Builder pages
 description: Use the Tabs component to add tabbed content to pages in UI Builder.Use an empty container tab to manually create a static set of tabs on your page.Use the Tabs component to create a set of repeater tabs by linking tabs to a data array.Create a set of tabs on a page by linking to a related list.Use page collection tabs to recreate the same tabs across multiple pages in UI Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/tabs-components.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Customize UI Builder pages using components, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -23,13 +23,13 @@ Tabs can be organized in the configuration panel to reorder how they are display
 You can add one of the following types of tabs to your UI Builder page:
 
 -   Empty container tab
--   [Repeater](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-glossary.md) tab
+-   [Repeater](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/ui-builder-glossary.md) tab
 -   Related list tab
 -   Page collection tabs
 
 The tabs component supports any combination of static tabs, repeated tabs, related list tabs, and page collection tabs. Alternatively, you can still use the Viewport tab mode to add a series of viewports.
 
-**Parent Topic:**[Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md)
+**Parent Topic:**[Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-components.md)
 
 ## Add empty container tabs
 
@@ -45,11 +45,11 @@ Role required: admin
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Create or open a page or page variant.
 
-    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-page.md).
 
 4.  Select the **+ Add content** button on the stage to open the toolbox.
 
@@ -63,7 +63,7 @@ Role required: admin
 
     \[Omitted image "tabs-toolbox-options.png"\] Alt text: Arrow pointing to tabs component in the toolbox.
 
-    For more information on how to add a component to a page, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-components.md).
+    For more information on how to add a component to a page, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/add-components.md).
 
 8.  Select **+ Add tab** on the stage.
 
@@ -95,12 +95,12 @@ Role required: admin
 
 15. Select the component that you want to add to the tab.
 
-    Components display under the tab in which they’re nested in the content tree. For more information, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-components.md).
+    Components display under the tab in which they’re nested in the content tree. For more information, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/add-components.md).
 
 
 ### Result
 
-Your page shows the two tabs that you created. Select each tab to further configure them, add styling, or add an event handler. For more information on styling, see [Change the default appearance of components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-styling-to-component.md). For more information on adding an event handler, see [Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-events.md).
+Your page shows the two tabs that you created. Select each tab to further configure them, add styling, or add an event handler. For more information on styling, see [Change the default appearance of components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/add-styling-to-component.md). For more information on adding an event handler, see [Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-events.md).
 
 ## Add repeater tabs
 
@@ -112,7 +112,7 @@ Role required: admin
 
 ### About this task
 
-You can use [repeater](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-glossary.md) tabs to create multiple tabs based on the data array you provide. You can pass the icon, label, count, and fields as a key in the object. Use the label key to add names to tabs. Use the field key to pass information to repeater tabs. You can bind a data broker, client state, or a client script to the data array provider to return the array of objects with the correct schema.
+You can use [repeater](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/ui-builder-glossary.md) tabs to create multiple tabs based on the data array you provide. You can pass the icon, label, count, and fields as a key in the object. Use the label key to add names to tabs. Use the field key to pass information to repeater tabs. You can bind a data broker, client state, or a client script to the data array provider to return the array of objects with the correct schema.
 
 ### Procedure
 
@@ -120,11 +120,11 @@ You can use [repeater](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Create or open a page or page variant.
 
-    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-page.md).
 
 4.  Select the **+ Add content** button on the stage to open the toolbox.
 
@@ -138,7 +138,7 @@ You can use [repeater](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
 
     \[Omitted image "tabs-toolbox-options.png"\] Alt text: Arrow pointing to the tabs component in the toolbox.
 
-    For more information on how to add a component to a page, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-components.md).
+    For more information on how to add a component to a page, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/add-components.md).
 
 8.  Select **+ Add tab** on the stage.
 
@@ -196,7 +196,7 @@ Role required: admin
 
 ### About this task
 
-The related list tab automatically populates tabs based on the record that your page is displaying. For example, by default the related lists for the user table are Roles, Groups, Delegates, and Visibility domains. If your page is displaying a user record, then creating a related list tab adds all four of these related lists as tabs on your page. You can preview the page to see the related lists that were added. A record controller is required to create related list tabs. To add a controller to your page, see [Bind data to UI Builder pages using controllers \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/controllers.md) for more information.
+The related list tab automatically populates tabs based on the record that your page is displaying. For example, by default the related lists for the user table are Roles, Groups, Delegates, and Visibility domains. If your page is displaying a user record, then creating a related list tab adds all four of these related lists as tabs on your page. You can preview the page to see the related lists that were added. A record controller is required to create related list tabs. To add a controller to your page, see [Bind data to UI Builder pages using controllers \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/controllers.md) for more information.
 
 ### Procedure
 
@@ -204,11 +204,11 @@ The related list tab automatically populates tabs based on the record that your 
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Create or open a page or page variant.
 
-    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-page.md).
 
 4.  Select the **+ Add content** button on the stage to open the toolbox.
 
@@ -222,7 +222,7 @@ The related list tab automatically populates tabs based on the record that your 
 
     \[Omitted image "tabs-toolbox-options.png"\] Alt text: Arrow pointing to tabs component in the toolbox.
 
-    For more information on how to add a component to a page, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-components.md).
+    For more information on how to add a component to a page, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/add-components.md).
 
 8.  Select **+ Add tab** on the stage.
 
@@ -263,7 +263,7 @@ Role required: admin
 
 ### About this task
 
-A page collection is a group of prebuilt globally available pages. Use page collection tabs to render each page in a page collection as a tab. You can select an existing page collection or can create your own. A controller is required to add a page collection. For more information about page collections, see [Page collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/page-collections.md).
+A page collection is a group of prebuilt globally available pages. Use page collection tabs to render each page in a page collection as a tab. You can select an existing page collection or can create your own. A controller is required to add a page collection. For more information about page collections, see [Page collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/page-collections.md).
 
 ### Procedure
 
@@ -271,11 +271,11 @@ A page collection is a group of prebuilt globally available pages. Use page coll
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Create or open a page or page variant.
 
-    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-page.md).
 
 4.  Select the **+ Add content** button on the stage to open the toolbox.
 
@@ -289,7 +289,7 @@ A page collection is a group of prebuilt globally available pages. Use page coll
 
     \[Omitted image "tabs-toolbox-options.png"\] Alt text: Arrow pointing to the tabs component in the toolbox.
 
-    For more information on how to add a component to a page, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-components.md).
+    For more information on how to add a component to a page, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/add-components.md).
 
 8.  Select **+ Add tab** on the stage.
 
@@ -303,7 +303,7 @@ A page collection is a group of prebuilt globally available pages. Use page coll
 
 11. Select a page collection from the list or create a collection by selecting **+ Create collection**.
 
-    To create your own page collection, see [Create a page collection across multiple UI pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page-collection.md).
+    To create your own page collection, see [Create a page collection across multiple UI pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-page-collection.md).
 
     \[Omitted image "page-collection-list.png"\] Alt text: Page collection selection screen with option to create a collection.
 

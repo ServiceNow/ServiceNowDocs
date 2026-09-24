@@ -3,13 +3,13 @@ title: Development states of a form in Creator Studio
 description: Think of your app as an online store that contains a catalog of items. To request something, a person needs to fill out a form. It’s your job to create and customize forms for every item in your catalog using Creator Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-catalog-item-states.html
-release: australia
+release: brazil
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Forms in apps, Build apps, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Forms in apps, Build apps, Creator Studio, Developing your application, Building applications]
 ---
 
 # Development states of a form in Creator Studio
@@ -43,5 +43,5 @@ When you finish editing a form, you mark it as ready, which puts it in the Publi
 
 If you edit a form that’s been published, Creator Studio creates a copy of the form, and puts the copy in the Draft state so you can work on it. The published version of the form remains available in your online catalog until you submit the revised copy of the form, which will replace the published form.
 
-**Parent Topic:**[Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-work-with-forms.md)
+**Parent Topic:**[Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-work-with-forms.md)
 

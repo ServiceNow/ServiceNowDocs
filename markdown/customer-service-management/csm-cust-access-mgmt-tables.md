@@ -3,9 +3,9 @@ title: Customer access management tables and plugins
 description: Learn about the tables and plugins that you can use with customer access management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-cust-access-mgmt-tables.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configuring customer access management, User management, Set up your environment, Configure, Customer Service Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Configuring customer access management, User management, Set up you
 
 Learn about the tables and plugins that you can use with customer access management.
 
-The customer access management feature adds new tables or modifies existing tables. You can activate the following plugins that enable features, such as enabling restricted contact access. To activate these plugins, you must have the admin role. For details, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
+The customer access management feature adds new tables or modifies existing tables. You can activate the following plugins that enable features, such as enabling restricted contact access. To activate these plugins, you must have the admin role. For details, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivateAPlugin.md).
 
 <table id="table_pqr_4xf_fsb"><thead><tr><th>
 
@@ -30,7 +30,7 @@ Tables
 
 </th></tr></thead><tbody><tr><td>
 
-Customer Service \[com.sn\_customerservice\]
+Case Management Core \[com.sn\_customerservice\]
 
 </td><td>
 
@@ -122,7 +122,7 @@ Responsibility Definition\[sn\_customerservice\_responsibility\_def\]
 -   Type
 -   Unique
 
-For more information on the column types, see [Create a responsibility definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_CreateAResponsibilityDefinition.md).
+For more information on the column types, see [Create a responsibility definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/t_CreateAResponsibilityDefinition.md).
 
 </td></tr><tr><td>
 
@@ -204,7 +204,7 @@ Contact Sold Product\[sn\_install\_base\_rel\_soldproduct\_to\_contact\]​
 
  Establishes account contact relationships with the sold products.
 
- **Note:** Starting with the Australia release, the sn\_install\_base\_rel\_soldproduct\_to\_contact table has been deprecated for new customers.
+ **Note:** Starting with the Brazil release, the sn\_install\_base\_rel\_soldproduct\_to\_contact table has been deprecated for new customers.
 
 For upgrade customers, the table continues to be supported and extends the sold product-related parties table \[sn\_install\_base\_sold\_product\_related\_party\].
 
@@ -236,7 +236,7 @@ Responsibility\[sn\_customerservice\_responsibility\_def\]
 
 Consumer Sold Product\[sn\_install\_base\_m2m\_consumer\_sold\_product\]​
 
- **Note:** Starting with the Australia release, the sn\_install\_base\_m2m\_consumer\_sold\_product table has been deprecated for new customers.
+ **Note:** Starting with the Brazil release, the sn\_install\_base\_m2m\_consumer\_sold\_product table has been deprecated for new customers.
 
 For upgrade customers, the table continues to be supported and extends the sold product-related parties table \[sn\_install\_base\_sold\_product\_related\_party\].
 
@@ -322,7 +322,7 @@ Organization Core
 
  sn\_customer\_service\_organization
 
- Organization that is primarily responsible for the install base.
+ Service organization that is primarily responsible for the install base.
 
 </td></tr><tr><td>
 

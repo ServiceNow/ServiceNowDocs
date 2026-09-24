@@ -3,9 +3,9 @@ title: Secure data
 description: Data security is one of the most important and overlooked aspects of creating an application. ServiceNow automatically configures access control for a new or selected role during the table creation process. Only users with the role can access the table to read, create, write, and delete.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/secure-data.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Define and build the data model, Build your application, Exploring professional development, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -18,7 +18,7 @@ Use access control rules to configure table and column-level security in the Ser
 
 Self-Paced Training: [Securing Applications](https://developer.servicenow.com/dev.do#!/learn/courses/rome/app_store_learnv2_securingapps_rome_securing_applications)
 
-Documentation: [Access Control Lists \(ACLs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control-rules.md)
+Documentation: Access control list rules
 
 When considering security:
 
@@ -44,5 +44,5 @@ The ServiceNow AI Platform also provides various encryption solutions at the app
 
 **Note:** Set up security before configuring any interfaces or business logic. Since security affects the data available to interfaces and business logic, waiting until the end of the application build process may cause rework and issues.
 
-**Parent Topic:**[Define and build the data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/define-and-build-data-model.md)
+**Parent Topic:**[Define and build the data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/define-and-build-data-model.md)
 

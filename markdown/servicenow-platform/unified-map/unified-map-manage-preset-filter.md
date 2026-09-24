@@ -3,11 +3,11 @@ title: Create or manage a user preset
 description: Save useful Unified Map filter settings as a user preset that you can apply to a map at any time. For example, define a filter to display only CIs of a particular class and then save the filter settings as a user preset.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/unified-map/unified-map-manage-preset-filter.html
-release: australia
+release: brazil
 product: Unified Map
 classification: unified-map
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Filter CIs, Use, Unified Map, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,7 +28,7 @@ Role required:
 ## About this task
 
 -   Follow this procedure to create a user preset that applies specified filter settings. Only you can apply your user presets to your personal view of the map.
--   In addition, admins can define shared presets that you and other users can access. For more information, see [Create or manage a shared preset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-manage-shared-preset.md).
+-   In addition, admins can define shared presets that you and other users can access. For more information, see [Create or manage a shared preset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/unified-map/unified-map-manage-shared-preset.md).
 
     When a user applies a shared preset or a user preset, all filter settings are overridden. Filter attributes from a shared preset or a user preset that don't apply to the current map are listed in the **Unused filter attributes** section of the filter panel. The order of filter-setting precedence from the various sources is as follows:
 
@@ -78,5 +78,5 @@ Role required:
 **Related topics**  
 
 
-[Use filters to specify which nodes should appear on a map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-configure-filters.md)
+[Use filters to specify which nodes should appear on a map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/unified-map/unified-map-configure-filters.md)
 

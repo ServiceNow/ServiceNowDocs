@@ -3,9 +3,9 @@ title: Use connector method
 description: Expose and then use the methods within a connector to perform all the actions that the connector can do.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-connector-method.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use a connector, Use, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,7 +16,7 @@ Expose and then use the methods within a connector to perform all the actions th
 
 ## Before you begin
 
-You must install the connector plugin. To install, see [Manage plugins in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/install-plugins-rpa-studio.md).
+You must install the connector plugin. To install, see [Manage plugins in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/install-plugins-rpa-studio.md).
 
 To navigate to connectors, open an activity.
 
@@ -32,15 +32,15 @@ Role required: None
 
     Some connectors expose the methods at the connector level while the others expose the methods at multiple levels. For the latter, you must first configure the connector. To find a connector that needs configuration first, right-click the connector and see if the context-menu displays the **Configure** option.
 
-<table id="choicetable_vy3_55j_tsb"><thead><tr><th align="left" id="d588840e89">
+<table id="choicetable_vy3_55j_tsb"><thead><tr><th align="left" id="d581612e89">
 
 Number of levels
 
-</th><th align="left" id="d588840e92">
+</th><th align="left" id="d581612e92">
 
 Step
 
-</th></tr></thead><tbody><tr><td id="d588840e98">
+</th></tr></thead><tbody><tr><td id="d581612e98">
 
 **Connector**
 
@@ -48,7 +48,7 @@ Step
 
 Double-click the connector.
 
-</td></tr><tr><td id="d588840e107">
+</td></tr><tr><td id="d581612e107">
 
 **Multiple**
 
@@ -78,5 +78,5 @@ Double-click the connector.
         -   If the port names are the same and the port data types are different, then the data connections are created only if the port data type is can be converted \(the source port data must be converted to target data type. This is known as typecasting or type conversion. For more information on type casting, see [Java Type Casting](https://www.w3schools.com/java/java_type_casting.asp)\). For example, integer to object but not object to integer.
         -   If the port names are the same and the port data type can be converted, but there is already an existing data connection between the two components, then no new data connection is created.
 
-**Parent Topic:**[Use a connector in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-connector.md)
+**Parent Topic:**[Use a connector in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/use-connector.md)
 

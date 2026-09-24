@@ -3,9 +3,9 @@ title: Cards and icons
 description: Cards are predetermined layouts that can show visuals, text, and data. Icons are symbols that act as actions or shortcuts when connected to other screens.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-cards-and-icons.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -16,5 +16,5 @@ Cards are predetermined layouts that can show visuals, text, and data. Icons are
 
 You have the option of creating and editing cards in either Mobile App Builder or Mobile Card Builder, and have access to the full range of card and card template customization options in both.
 
-For more information on icons, see [Mobile icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-icon.md).
+For more information on icons, see [Mobile icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mobile-icon.md).
 

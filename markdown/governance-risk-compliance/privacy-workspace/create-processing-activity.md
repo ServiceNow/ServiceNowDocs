@@ -3,11 +3,11 @@ title: Create or update a processing activity
 description: Manually create a processing activity or update a processing activity that is automatically created out of a privacy screening assessment. You can also update a processing activity that is created from an entity record. When you update a processing activity, you can fill in the relevant details about the personal data that is being processed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/create-processing-activity.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -25,21 +25,21 @@ Role required: sn\_privacy.analyst \(who owns the processing activity\) or sn\_p
 You can create a processing activity in two ways:
 
 -   Manually create a processing activity for a business application or process that handles personal data.
--   Update a processing activity that was automatically created when a privacy screening assessment determined that personal data is being processed. Screening assessments include automation rules that create processing activities based on specific responses. To configure automation in your assessment template, refer to [Post-assessment automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/impact-automation.md).
+-   Update a processing activity that was automatically created when a privacy screening assessment determined that personal data is being processed. Screening assessments include automation rules that create processing activities based on specific responses. To configure automation in your assessment template, refer to [Post-assessment automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/impact-automation.md).
 
 ## Procedure
 
 1.  Navigate to one of the following.
 
-<table id="choicetable_kjs_yc1_sqb"><thead><tr><th align="left" id="d412466e81">
+<table id="choicetable_kjs_yc1_sqb"><thead><tr><th align="left" id="d419357e81">
 
 Action
 
-</th><th align="left" id="d412466e84">
+</th><th align="left" id="d419357e84">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d412466e90">
+</th></tr></thead><tbody><tr><td id="d419357e90">
 
 **To create a new processing activity**
 
@@ -49,7 +49,7 @@ Procedure
 2.  Click **New**.
 
 
-</td></tr><tr><td id="d412466e126">
+</td></tr><tr><td id="d419357e126">
 
 **To update a processing activity**
 
@@ -289,7 +289,7 @@ Internal notes not visible to the external people.
 
 ## What to do next
 
-Send a privacy assessment to a processing activity owner to collect more information on why and how the processing activity is using personal information. For more information, see [Send a privacy assessment from a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/send-privacy-asmt-from-pa.md).
+Send a privacy assessment to a processing activity owner to collect more information on why and how the processing activity is using personal information. For more information, see [Send a privacy assessment from a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/send-privacy-asmt-from-pa.md).
 
-**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
+**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 

@@ -3,11 +3,11 @@ title: Compare schedule baselines of a project
 description: Compare baselines to review variance between tasks and identify which task has variance from the current planned end date and the baseline end date. The baseline variance column displays the amount of variance between the two date comparisons.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/compare-schedule-baselines-prj.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create baseline of a project, Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -22,21 +22,21 @@ Role required: it\_project\_manager
 
 ## About this task
 
-[Create schedule baselines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectBaseline.md) at various stages of a project, for example, at the end of each phase or after every calendar month or quarter. Each baseline captures the schedule information of project tasks at a particular moment. This snapshot provides a basis for comparison and helps you to identify and review the changes made to the project. Having multiple baselines and comparing them helps you track the performance of your projects.
+[Create schedule baselines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CreateAProjectBaseline.md) at various stages of a project, for example, at the end of each phase or after every calendar month or quarter. Each baseline captures the schedule information of project tasks at a particular moment. This snapshot provides a basis for comparison and helps you to identify and review the changes made to the project. Having multiple baselines and comparing them helps you track the performance of your projects.
 
 ## Procedure
 
 1.  To compare the schedule baselines of a project, use one of the following options.
 
-<table id="choicetable_wgp_h4y_tfb"><thead><tr><th align="left" id="d230977e64">
+<table id="choicetable_wgp_h4y_tfb"><thead><tr><th align="left" id="d231688e64">
 
 Option
 
-</th><th align="left" id="d230977e67">
+</th><th align="left" id="d231688e67">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d230977e73">
+</th></tr></thead><tbody><tr><td id="d231688e73">
 
 **From the Planning Console**
 
@@ -48,7 +48,7 @@ Steps
 4.  On the Planning Console, select the more actions icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: More actions icon\) and then from the Baselines list, select a baseline.
 
 
-</td></tr><tr><td id="d230977e121">
+</td></tr><tr><td id="d231688e121">
 
 **From the Baseline form**
 
@@ -74,10 +74,10 @@ Steps
     **Note:** Use the show or hide columns in gantt icon \(\[Omitted image "gear\_icon.png"\] Alt text: Show or hide coloumns in gantt icon\) to add these columns to the Planning Console.
 
 
-**Parent Topic:**[Create baseline of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectBaseline.md)
+**Parent Topic:**[Create baseline of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CreateAProjectBaseline.md)
 
 **Related topics**  
 
 
-[Create baseline of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectBaseline.md)
+[Create baseline of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CreateAProjectBaseline.md)
 

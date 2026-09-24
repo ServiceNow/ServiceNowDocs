@@ -3,11 +3,11 @@ title: Confidentiality Inheritance Configuration form
 description: Use the Confidentiality Inheritance Configuration form in the GRC application to create the inheritance configuration record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/confidentiality-inheritance-configuration-record.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create confidentiality inheritance, Configure confidential inheritance, Confidential records, Common GRC features, Governance, Risk, and Compliance]
 ---

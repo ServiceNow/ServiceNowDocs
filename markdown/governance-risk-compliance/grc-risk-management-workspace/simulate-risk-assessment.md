@@ -3,11 +3,11 @@ title: Simulate a risk assessment
 description: Simulate a risk assessment to verify the associated risk assessment methodology \(RAM\) configuration when it is in the draft state.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/simulate-risk-assessment.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Perform Advanced Risk Assessment, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -49,5 +49,5 @@ To modify the configuration of a published RAM, you need to delete all its asses
 6.  To view all the simulated assessments for the selected RAM, click **View simulated assessments**.
 
 
-**Parent Topic:**[Perform Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/use-advanced-risk-assessment.md)
+**Parent Topic:**[Perform Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/use-advanced-risk-assessment.md)
 

@@ -3,12 +3,12 @@ title: Using other AI applications and features from AI Admin Center
 description: Access other AI applications within the AI Admin Center workspace to configure and manage AI capabilities on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-using-other-applications.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Setting up AI capabilities and configurations, AI Admin Center, Enable AI experiences]
+breadcrumb: [Setting up AI capabilities and configurations, AI Admin Center, Getting started with AI, Enable AI Experiences]
 ---
 
 # Using other AI applications and features from AI Admin Center
@@ -31,7 +31,7 @@ Location in AI Admin Center
 
 AI Agent Advisor
 
- See [AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-advisor-landing-page.md).
+ See [AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-agent-advisor-landing-page.md).
 
 </td><td>
 
@@ -45,7 +45,7 @@ AI Agent Advisor section of the AI Admin Center home page, Automation opportunit
 
 Assistant Designer, Asset Library
 
- See [Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/vad-topics-page.md).
+ See [Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/vad-topics-page.md).
 
 </td><td>
 
@@ -53,13 +53,13 @@ Asset inventory page.
 
  Navigate to **AI Admin Center** &gt; **Asset inventory**.
 
- For more information, see [Managing AI assets in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-asset-inventory.md).
+ For more information, see [Managing AI assets in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-using-asset-inventory.md).
 
 </td></tr><tr><td>
 
 AI Admin Hub, Experiences
 
- See [ServiceNow Otto Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-experiences.md).
+ See [ServiceNow Otto Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-experiences.md).
 
 </td><td>
 
@@ -73,7 +73,7 @@ AI Admin Hub page
 
 AI Admin Hub, Performance
 
- See [Analyzing AI performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics.md).
+ See [Analyzing AI performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-analytics.md).
 
 </td><td>
 
@@ -81,13 +81,13 @@ Analytics page
 
  Navigate to **AI Admin Center** &gt; **Monitor** and select the **Skills** tab.
 
- For more information, see [View AI assets usage and performance in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-view-ai-usage.md).
+ For more information, see [View AI assets usage and performance in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-view-ai-usage.md).
 
 </td></tr><tr><td>
 
 AI Admin Hub, Settings
 
- See [AI Admin Hub Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-now-assist-admin-settings.md).
+ See [AI Admin Hub Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-now-assist-admin-settings.md).
 
 </td><td>
 
@@ -101,7 +101,7 @@ AI Admin Hub page
 
 AI Admin Hub, AI Guardian
 
- See [AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-guardian.md).
+ See .
 
 </td><td>
 
@@ -109,13 +109,13 @@ AI Admin Hub page
 
  Navigate to **AI Admin Center** &gt; **Admin** and select one of the options under **AI Guardian**.
 
- For more information, see [Use AI Guardian features in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-use-guardian-features.md).
+ For more information, see [Use AI Guardian features in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-use-guardian-features.md).
 
 </td></tr><tr><td>
 
 AI Data Kit
 
- See [AI Data Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-kit/now-assist-data-kit-landing.md).
+ See [AI Data Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-data-kit/now-assist-data-kit-landing.md).
 
 </td><td>
 
@@ -123,13 +123,13 @@ Data page
 
  Navigate to **AI Admin Center** &gt; **Data**.
 
- For more information, see [Use AI Data Kit features in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-use-data-kit-features.md).
+ For more information, see [Use AI Data Kit features in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-use-data-kit-features.md).
 
 </td></tr><tr><td>
 
 Now Assist Readiness Evaluation
 
- See [AI Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/now-assist-readiness-evaluation-landing-page.md).
+ See [AI Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-readiness-evaluation/now-assist-readiness-evaluation-landing-page.md).
 
 </td><td>
 
@@ -137,7 +137,7 @@ AI Readiness section of the AI Admin Center home page, AI readiness page, and as
 
  Navigate to **AI Admin Center** &gt; **AI readiness**.
 
- For more information, see [Increasing AI readiness in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-readiness-evaluation.md).
+ For more information, see [Increasing AI readiness in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-using-readiness-evaluation.md).
 
 </td></tr></tbody>
 </table>

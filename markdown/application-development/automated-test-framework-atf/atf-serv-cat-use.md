@@ -3,11 +3,11 @@ title: Automated Test Framework use case: test a Service Catalog request
 description: This use case illustrates testing a service catalog request with the Automated Test Framework.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-serv-cat-use.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Automated Test Framework use case examples, Automated Test Framework \(ATF\) reference, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -22,7 +22,7 @@ Role required: atf\_test\_admin
 
 ## About this task
 
-With the Replay Request Item test step, you can test the service catalog ordering process once a request exists and has a record in the request item table. In the Australia release, you cannot create an automated test for the process by which the user creates a new request.
+With the Replay Request Item test step, you can test the service catalog ordering process once a request exists and has a record in the request item table. In the Brazil release, you cannot create an automated test for the process by which the user creates a new request.
 
 \[Omitted image "atf-use-serv-cat.png"\] Alt text: Test steps
 
@@ -139,10 +139,10 @@ With the Replay Request Item test step, you can test the service catalog orderin
     \[Omitted image "atf-use-sc-step-16.png"\] Alt text: Record validation test step
 
 
-**Parent Topic:**[Automated Test Framework use case examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-use-cases.md)
+**Parent Topic:**[Automated Test Framework use case examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-use-cases.md)
 
 **Related topics**  
 
 
-[Replay Request Item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-server-category.md)
+[Replay Request Item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/test-steps-server-category.md)
 

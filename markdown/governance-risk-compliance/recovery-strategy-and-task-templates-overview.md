@@ -3,9 +3,9 @@ title: Recovery strategy and task templates
 description: Business continuity planners often rebuild the same recovery structures each time they author a plan. Reusable templates remove that repetition by capturing standard strategies, tasks, and task groupings once and applying them wherever they are needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/recovery-strategy-and-task-templates-overview.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -25,16 +25,16 @@ Templates can be associated with plan templates at the plan, loss scenario, and 
 
 If you are upgrading from a version without templates, you do not have to start from scratch. Select existing recovery tasks or event tasks and save them as a new group \(dependencies preserved\). Add them to an existing group, or save them as individual task templates.
 
-**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
+**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
 
 **Related topics**  
 
 
-[Configure a recovery strategy template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-recovery-strategy-template-uib-ws.md)
+[Configure a recovery strategy template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/configure-recovery-strategy-template-uib-ws.md)
 
-[Apply Task templates and Task template groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-reco-task-tem-groups.md)
+[Apply Task templates and Task template groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-reco-task-tem-groups.md)
 
-[Create a business continuity plan from a plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-bcp-plan-from-template-in-uib-ws.md)
+[Create a business continuity plan from a plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-bcp-plan-from-template-in-uib-ws.md)
 
-[Event task creation progress in exercise and crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-event-task-template-progress.md)
+[Event task creation progress in exercise and crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/bcm-event-task-template-progress.md)
 

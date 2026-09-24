@@ -3,11 +3,11 @@ title: Custom UI category
 description: Validate the behavior of page components on custom user interfaces.Set component values on a custom UI page.Assert that the specified text is or is not on a custom UI page.Validate a component value on a custom UI page.Click a component on a custom UI page.Validate the state of a specified component on a custom UI page.Open a portal page. Test designers must first open a page in a portal before testing UI components on the page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/test-steps-custom-ui-category.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Automated Test Framework \(ATF\) test step categories, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -514,7 +514,7 @@ Query parameters
 
 </td><td>
 
-Add any required query parameters for the page. For example, to open a record in the form page, enter the table and sys\_id parameters. For more information about Service Portal query parameters, see [Page navigation by URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/navigate-by-portal-url.md).
+Add any required query parameters for the page. For example, to open a record in the form page, enter the table and sys\_id parameters. For more information about Service Portal query parameters, see [Page navigation by URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/navigate-by-portal-url.md).
 
 </td></tr></tbody>
 </table>

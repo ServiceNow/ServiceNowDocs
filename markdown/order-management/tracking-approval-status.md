@@ -3,9 +3,9 @@ title: Tracking approval status and history
 description: Monitor the progress of an approval request as it moves through the steps in an approval workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/tracking-approval-status.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Advanced Approval Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -76,7 +76,7 @@ If the approval step state is escalated, the approval duration is highlighted an
 
 -   If the request was previously recalled during the approval process, an Auto-approved flag indicates at least one or more previously completed approvals has been automatically reapplied.
 -   For approvers assigned to a step, the card displays the More options \(\[Omitted image "icon-three-dots.png"\] Alt text: \) menu to approve or reject the approval step.
--   For approval admins that also have the requester role, the More options \(\[Omitted image "icon-three-dots.png"\] Alt text: \) menu provides an **Override** option to bypass the step if it's no longer required. For details, see [Override an approver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/override-approval-step.md).
+-   For approval admins that also have the requester role, the More options \(\[Omitted image "icon-three-dots.png"\] Alt text: \) menu provides an **Override** option to bypass the step if it's no longer required. For details, see [Override an approver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/override-approval-step.md).
 
 </td></tr><tr><td>
 
@@ -84,8 +84,8 @@ If the approval step state is escalated, the approval duration is highlighted an
 
 </td><td>
 
-Options displayed for certain approval actions, depending on the user role.For example, requesters and approvers have the option to add an ad hoc approver to the approval workflow using the **Add approver** option. For more information, see [Add ad-hoc approvers to an approval request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/add-approver.md).
+Options displayed for certain approval actions, depending on the user role.For example, requesters and approvers have the option to add an ad hoc approver to the approval workflow using the **Add approver** option. For more information, see [Add ad-hoc approvers to an approval request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/add-approver.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-advanced-approval-management.md)
+</table>**Parent Topic:**[Using Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-advanced-approval-management.md)
 

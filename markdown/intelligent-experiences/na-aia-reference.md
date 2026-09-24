@@ -3,11 +3,11 @@ title: ServiceNow Otto AI agents reference
 description: Find more information about user roles, tables, and the different properties that are installed in ServiceNow Otto AI agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/na-aia-reference.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2025-10-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
-breadcrumb: [AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # ServiceNow Otto AI agents reference
@@ -40,7 +40,7 @@ AI Agent Viewer \[sn\_aia.viewer\]
 
 </td><td>
 
-Read-only access to the application. A user with the sn\_aia\_viewer role has read and report access on all tables.
+Read-only access to the application. A user with the sn\_aia\_viewer role has read and report access on all tables. **Note:** The sn\_aia.admin and the sn\_aia.viewer roles should not be given to the same user. If a user has both roles, then AI Agent Studio will only be accessible in read-only mode for that user.
 
 </td></tr><tr><td>
 

@@ -3,14 +3,14 @@ title: Activate or deactivate alert rules
 description: Activate or deactivate alert rules to streamline monitoring and adapt to changing needs, enhancing operational efficiency.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/activate-metric-rules.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 keywords: [activate alert rules, deactivate alert rules, alert rule status, enable monitoring rules, dex alerts]
-breadcrumb: [Alert rules, Configure, Digital End-User Experience, IT Service Management]
+breadcrumb: [Managing alert rules, Configure, Digital End-User Experience, IT Service Management]
 ---
 
 # Activate or deactivate alert rules
@@ -25,6 +25,9 @@ Role required: sn\_dex.admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
+    -   AMER \(Americas\): `itomcnc-prod-gateway-amer.sncapps.service-now.com:443`
+    -   EMEA \(Europe\): `itomcnc-prod-gateway-emea.sncapps.service-now.com:443`
+    -   APAC \(Asia Pacific\): `itomcnc-prod-gateway-apac.sncapps.service-now.com:443`
 2.  In the primary navigation pane, select the DEX Administration icon \(\[Omitted image "icon-administration.png"\] Alt text:\).
 
 3.  Select **Configure** on the Alert rules card.
@@ -39,6 +42,4 @@ Role required: sn\_dex.admin
 
 6.  Select **Update**.
 
-
-**Parent Topic:**[Managing DEX alert rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-metrics-metric-rules-management.md)
 

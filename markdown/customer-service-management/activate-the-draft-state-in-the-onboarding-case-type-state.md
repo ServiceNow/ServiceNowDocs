@@ -3,11 +3,11 @@ title: Activate the draft state for the onboarding case type
 description: Activate a draft state for the onboarding case type so that the case remains in the draft state during the intake stage until the case is submitted.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-the-draft-state-in-the-onboarding-case-type-state.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up predefined Playbooks for Portals, Portal, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Set up predefined Playbooks for Portals, Playbooks for Portals, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Activate the draft state for the onboarding case type

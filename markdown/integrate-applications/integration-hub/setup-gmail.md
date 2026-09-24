@@ -3,7 +3,7 @@ title: Set up the Gmail spoke
 description: Set up an outbound integration between the ServiceNow instance and the Google APIs.Create a custom OAuth application to enable OAuth 2.0 authentication of the ServiceNow by the Google APIs.Configure the Gmail connection record to establish a connection between the ServiceNow instance and the Google APIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-gmail.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -26,8 +26,8 @@ Set up an outbound integration between the ServiceNow instance and the Google AP
 
 To establish an outbound integration, you must complete these steps.
 
--   [Set up an OAuth 2.0 client ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-gmail.md)
--   [Configure a connection for the Gmail spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-gmail.md)
+-   [Set up an OAuth 2.0 client ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-gmail.md)
+-   [Configure a connection for the Gmail spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-gmail.md)
 
 ## Set up an OAuth 2.0 client ID
 

@@ -3,11 +3,11 @@ title: Operational Technology Incident Management
 description: Operational Technology Incident Management enables manufacturers to manage OT device incidents from open to closure.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-incident-management/operational-technology-incident-management-landing-page.html
-release: australia
+release: brazil
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Operational Technology]
 ---
@@ -18,19 +18,19 @@ Operational Technology Incident Management enables manufacturers to manage OT de
 
 <table id="table_e3m_qbq_3rb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Exploring Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/exploring-operational-technology-incident-mgt.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Exploring Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-incident-management/exploring-operational-technology-incident-mgt.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/configuring-operational-technology-incident-mgt.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-incident-management/configuring-operational-technology-incident-mgt.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-management-console.svg"\] Alt text:Using Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/using-operational-technology-incident-mgt.md)
+[Use\[Omitted image "bus-management-console.svg"\] Alt text:Using Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-incident-management/using-operational-technology-incident-mgt.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about related information and applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/oper-tech-incident-management-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about related information and applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-incident-management/oper-tech-incident-management-reference.md)
 
 </td></tr></tbody>
 </table>

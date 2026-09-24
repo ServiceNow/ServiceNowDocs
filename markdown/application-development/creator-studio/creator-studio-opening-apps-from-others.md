@@ -3,13 +3,13 @@ title: App compatibility with Creator Studio
 description: You can open apps built in Creator Studio in other ServiceNow products, but only apps built in Creator Studio can be opened in Creator Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-opening-apps-from-others.html
-release: australia
+release: brazil
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Explore, Creator Studio, Developing your application, Building applications]
 ---
 
 # App compatibility with Creator Studio
@@ -24,8 +24,8 @@ If you add complex functionality to an app in another builder and then re-open t
 
 For more information, see the following products:
 
--   [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-landing.md)
--   [Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/catalog-builder.md)
+-   [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/servicenow-studio-landing.md)
+-   [Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/catalog-builder.md)
 
 ## Opening apps built in other products in Creator Studio
 

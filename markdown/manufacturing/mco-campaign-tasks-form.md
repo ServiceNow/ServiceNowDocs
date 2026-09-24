@@ -3,9 +3,9 @@ title: Campaign tasks form
 description: Campaign tasks form enables you to add the recall campaign details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-campaign-tasks-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Repair form, Reference, Manufacturing Commercial Operations]
 ---
@@ -44,7 +44,7 @@ Recall campaign
 
 </td><td>
 
-Recall campaign details that are fetched from [Recall campaign form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-recall-campaign-form.md).
+Recall campaign details that are fetched from [Recall campaign form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-recall-campaign-form.md).
 
 </td></tr><tr><td>
 
@@ -52,7 +52,7 @@ Priority
 
 </td><td>
 
-Priority information that is fetched from [Recall campaign form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-recall-campaign-form.md).
+Priority information that is fetched from [Recall campaign form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-recall-campaign-form.md).
 
 </td></tr><tr><td>
 
@@ -92,5 +92,5 @@ Description
 Any information that you want to update for next phases.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/repair-form.md)
+</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/repair-form.md)
 

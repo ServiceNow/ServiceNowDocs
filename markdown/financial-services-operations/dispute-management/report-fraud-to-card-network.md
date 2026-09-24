@@ -3,11 +3,11 @@ title: Report fraud to a card network
 description: Report potential fraud on a transaction to a card network.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/report-fraud-to-card-network.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Initiating a chargeback, Resolving disputes without network integration, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -20,7 +20,7 @@ Report potential fraud on a transaction to a card network.
 
 Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dispute\_agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -59,7 +59,7 @@ A transaction will include the Fraud reporting task within the workflow if poten
 
 ## Result
 
-If fraud was flagged, if not previously triggered, the [block and reissue card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/block-and-reissue-new-card.md) task triggers. The transaction moves to the Initiate chargeback stage.
+If fraud was flagged, if not previously triggered, the [block and reissue card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/block-and-reissue-new-card.md) task triggers. The transaction moves to the Initiate chargeback stage.
 
-**Parent Topic:**[Initiating a chargeback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/initiate-a-chargeback.md)
+**Parent Topic:**[Initiating a chargeback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/initiate-a-chargeback.md)
 

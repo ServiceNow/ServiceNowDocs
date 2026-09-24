@@ -3,11 +3,11 @@ title: Assign a primary assignment group for each agent
 description: Associate each agent in your team to a primary assignment group to enable them to see the KPI metrics for the groups to which they belong.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/setup-primary-group-wfo-itsm.html
-release: australia
+release: brazil
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring groups, Getting started, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -37,5 +37,5 @@ Before you set up Workforce Optimization for ITSM, you must assign each agent in
     If you do not see the **Primary Assignment Group** field, select the gear icon and add the **Primary Assignment Group** field to the **Selected** column and select **OK**.
 
 
-**Parent Topic:**[Configuring groups in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configuring-groups-wfo-itsm.md)
+**Parent Topic:**[Configuring groups in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/configuring-groups-wfo-itsm.md)
 

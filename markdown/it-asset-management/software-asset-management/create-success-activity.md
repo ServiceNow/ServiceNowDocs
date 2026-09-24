@@ -3,13 +3,13 @@ title: Create success activities for Software Asset Management
 description: Create success activities to track the success of your goals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/create-success-activity.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Success portal view in Software Asset Workspace, Software Asset Workspace, Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Success portal view in Software Asset Workspace, Software Asset Workspace, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create success activities for Software Asset Management
@@ -28,7 +28,7 @@ Role required: sam\_admin and sam\_user
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [SAM Success Activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-success-activity.md).
+    For a description of the field values, see [SAM Success Activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sam-success-activity.md).
 
 4.  Select **Save**.
 
@@ -40,7 +40,7 @@ The success activity appears in the License operation view under the Success act
 **Related topics**  
 
 
-[Create success goals for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-success-goals.md)
+[Create success goals for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-success-goals.md)
 
-[License operations view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/operations-workspace.md)
+[License operations view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/operations-workspace.md)
 

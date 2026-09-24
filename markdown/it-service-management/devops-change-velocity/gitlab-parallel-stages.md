@@ -3,11 +3,11 @@ title: GitLab pipelines with parallel jobs
 description: GitLab Docker Image supports change creation in GitLab pipelines containing parallel jobs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/gitlab-parallel-stages.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Change acceleration in GitLab, GitLab, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Change acceleration in GitLab, GitLab, Integrate, DevOps Change Vel
 
 GitLab Docker Image supports change creation in GitLab pipelines containing parallel jobs.
 
-**Note:** If your GitLab pipeline has parallel jobs, it is better to use the GitLab Docker Image, rather than **when:manual**. For detailed information about GitLab Docker Image, see [Implement custom actions for pipelines using Docker image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/servicenow-custom-actions-for-gitlab.md).
+**Note:** If your GitLab pipeline has parallel jobs, it is better to use the GitLab Docker Image, rather than **when:manual**. For detailed information about GitLab Docker Image, see [Implement custom actions for pipelines using Docker image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/servicenow-custom-actions-for-gitlab.md).
 
 Sample yaml pipeline demonstrating parallel jobs:
 
@@ -81,5 +81,5 @@ Deploy App in Prod:
     - sndevopscli create change -p "{\"changeStepDetails\":{\"timeout\":3600,\"interval\":100},\"autoCloseChange\":true}"
 ```
 
-**Parent Topic:**[GitLab integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/gitlab-integration-dev-ops.md)
+**Parent Topic:**[GitLab integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/gitlab-integration-dev-ops.md)
 

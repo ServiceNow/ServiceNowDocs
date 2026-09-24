@@ -3,9 +3,9 @@ title: Archiving records in Data Management Console
 description: Manage table size growth and improve query performance by archiving records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/archiving-records.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Manage data growth in Data Management, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -16,8 +16,8 @@ Manage table size growth and improve query performance by archiving records.
 
 You can archive records in core tables such as the Task \[task\] table and records in custom tables that you create on the ServiceNow AI Platform using archive rules.
 
--   To archive Configuration Management Database \(CMDB\) CI records, use the CMDB Data Manager. See [Working with CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-data-management.md).
--   To archive emails, activate the [Email retention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-retention.md) plugin and use the archive and destruction rules that come with the plugin. Don’t use the archive feature to create your own archiving rules on the email table.
+-   To archive Configuration Management Database \(CMDB\) CI records, use the CMDB Data Manager. See [Working with CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-data-management.md).
+-   To archive emails, activate the [Email retention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/email-retention.md) plugin and use the archive and destruction rules that come with the plugin. Don’t use the archive feature to create your own archiving rules on the email table.
 
 ## Archive activation
 
@@ -40,13 +40,13 @@ When you activate an archive rule, the system performs the following actions:
 -   Converts reference field values \(values set by references to records in other tables\) into string values. The archive record contains the display value of the reference field at the time of the archive.
 -   Adds a module to the **Archive Tables** list in the **System Archiving** application. The module name is a combination of the word "Archive" plus the display name for the archived table. For example, the archive module for the Attachment `[sys_attachments]` table is **Archive Attachment**.
 -   Creates a list of the archive table using the default list view.
--   Creates a form for the archive table using the default form view. The form excludes any [dot-walking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_DotWalking.md) fields such as **Caller ID.Email**.
+-   Creates a form for the archive table using the default form view. The form excludes any [dot-walking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_DotWalking.md) fields such as **Caller ID.Email**.
 
 ## Reference values converted to strings
 
 Archived data is stored as a flat file with no reference fields to other tables. The archive process converts any references to other tables to string values.
 
-In the case of a reference field, the string uses the [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DisplayValues.md) such as the caller's user name. For example, the **Caller** reference field in an incident would display the string ITIL User. If the reference was a document ID and the archive rule included the option to archive related document IDs, the string is the document ID of the related record.
+In the case of a reference field, the string uses the [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_DisplayValues.md) such as the caller's user name. For example, the **Caller** reference field in an incident would display the string ITIL User. If the reference was a document ID and the archive rule included the option to archive related document IDs, the string is the document ID of the related record.
 
 Future changes to reference values aren't reflected in archived records. For example, if you change the user name for "John Smith" to "John A Smith", all active incident records automatically show the caller as "John A Smith" because of the reference between the Incident and User tables. However, all archived incident records display the user name that existed at the time of the archive. Likewise, if you delete a user from the system, current incidents no longer display the deleted user as a caller. However, archived incidents still display the string "John Smith" because that value was used when the record was archived.
 
@@ -81,5 +81,5 @@ If you have existing ACLs on archived tables, they’re ignored unless you set t
 
 On internationalized instances, the archive process uses the language of the SYSTEM user to select the display value strings.
 
-If there’s no SYSTEM user, the instance uses the default language setting to select the display value strings. You can either create a SYSTEM user with a specific language setting or set the system default language to [select the language of archived strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_GlobalLanguage.md).
+If there’s no SYSTEM user, the instance uses the default language setting to select the display value strings. You can either create a SYSTEM user with a specific language setting or set the system default language to [select the language of archived strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-localization/r_GlobalLanguage.md).
 

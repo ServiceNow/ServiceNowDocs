@@ -3,10 +3,10 @@ title: Service Model Foundation responsibilities
 description: A responsibility, or responsibility definition, describes a role or a function that supports a customer. Use responsibility definitions to create relationships between an agent and a customer or between two consumers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-data-model-responsibilities.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Overview, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
@@ -25,7 +25,7 @@ The following responsibilities are provided with the Service Model Foundation pl
 
 **Note:** Responsibilities are stored in the Responsibility Definition \[sn\_customerservice\_responsibility\_def\] table.
 
-For the list of responsibilities included in the base system, see [List of responsibilities provided with the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/list-of-reponsibilities-provided-with-base-system.md). To create a responsibility, see [Create a responsibility definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_CreateAResponsibilityDefinition.md).
+For the list of responsibilities included in the base system, see [List of responsibilities provided with the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/list-of-reponsibilities-provided-with-base-system.md). To create a responsibility, see [Create a responsibility definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/t_CreateAResponsibilityDefinition.md).
 
 ## Customizing responsibility definitions
 
@@ -35,7 +35,7 @@ You can use the responsibility definitions provided with Service Model Foundatio
 
 If you have an existing account manager responsibility definition, you must evaluate the functionality of the account manager responsibility definition provided with the Service Model Foundation plugins.
 
-**Note:** Creating and using responsibility definitions is a feature available in releases before Paris. Customers can create responsibility definitions using the Responsibility Definition \(sn\_customerservice\_responsibility\_def\) table and use those definitions to create account teams using the Account Team Member \(sn\_customerservice\_team\_member\) table. For more information, see [Create account teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-account-teams.md).
+**Note:** Creating and using responsibility definitions is a feature available in releases before Paris. Customers can create responsibility definitions using the Responsibility Definition \(sn\_customerservice\_responsibility\_def\) table and use those definitions to create account teams using the Account Team Member \(sn\_customerservice\_team\_member\) table. For more information, see [Create account teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-csm-account-teams.md).
 
 ## Create a unique responsibility definition
 
@@ -101,6 +101,42 @@ Relationship Manager
 </td><td>
 
 A household can have only one Relationship Manager but a user with the Relationship Manager responsibility can manage multiple households.
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+Org Hierarchy Contributor
+
+</td><td>
+
+Creates and tracks cases but can't fulfill.
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+Org Hierarchy Agent
+
+</td><td>
+
+Fulfills and resolves business-customer cases
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+Org Hierarchy Consumer Agent
+
+</td><td>
+
+Fulfills and resolves consumer cases.
 
 </td></tr></tbody>
 </table>**Note:** The unique behavior of a responsibility definition isn’t enforced when the responsibility is used for relationships between consumers or household members.

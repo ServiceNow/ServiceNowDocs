@@ -3,11 +3,11 @@ title: Redirection to My Stacks
 description: You can use redirection to your My Stacks tab as an alternate but simplified way to locate a stack from the My Requests tab. For example, you can use redirection while you're looking up a stack that was recently provisioned.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/redirection-to-my-stacks.html
-release: australia
+release: brazil
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore My Stacks tab, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -24,5 +24,5 @@ The following example shows how you can redirect to the **My Stacks** tab from t
 
 \[Omitted image "redirection-to-my-stacks.png"\] Alt text: Redirection to your stacks.
 
-**Parent Topic:**[Exploring the My Stacks tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/manage-stacks.md)
+**Parent Topic:**[Exploring the My Stacks tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-services-catalog/manage-stacks.md)
 

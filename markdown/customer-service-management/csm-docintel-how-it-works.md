@@ -1,22 +1,22 @@
 ---
 title: How Document Intelligence for Customer Service works
-description: Document Intelligence for Customer Service performs a series of steps to extract relevant information from email and case attachments and add that information to fields on the case record.
+description: Document Intelligence for Customer Service extracts relevant information from email and case attachments and adds it to fields on the case record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-docintel-how-it-works.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Document Intelligence, Task Intelligence for Customer Service, Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
 ---
 
 # How Document Intelligence for Customer Service works
 
-Document Intelligence for Customer Service performs a series of steps to extract relevant information from email and case attachments and add that information to fields on the case record.
+Document Intelligence for Customer Service extracts relevant information from email and case attachments and adds it to fields on the case record.
 
 ## Use cases
 
-A use case, previously known as a task definition, is a template that is used to define the structure of a type of document you want to process. A use case is made up of the use case record and its related fields, field groups, integrations, flows, and all the related machine learning \(ML\) models. For more information, see [Set up document extraction use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/set-up-document-extraction-use-cases.md).
+A use case, previously known as a task definition, is a template that is used to define the structure of a type of document you want to process. A use case is made up of the use case record and its related fields, field groups, integrations, flows, and all the related machine learning \(ML\) models.
 
 <table id="table_cdv_trj_h5b"><thead><tr><th>
 
@@ -125,7 +125,7 @@ In CRM Workspace, the fields on the Case form that contain Document Intelligence
 In Core UI, the fields on the Case form that contain Document Intelligence predicted values are identified with the message `Predicted from DocIntel`.
 
 -   For Fully automated mode, the message appears below each extracted field returned by the task. The values and messages for each field are added to the case before the agent views the case record.
--   For the other extraction modes, the message appears below the extracted fields after the agent reviews the extracted values in the Document Intelligence interface, confirms or corrects values, and submits those values.
+-   For the other extraction modes, the agent reviews the extracted values in the Document Intelligence interface, confirms or corrects values, and submits those values. The message then appears below the extracted fields.
 
 ## Predicted field values
 
@@ -161,12 +161,12 @@ If yes, the feature:
 -   If the extraction mode in the use case is set to Fully automated, the extracted values are added to the case.
 -   If the extraction mode is set to Autofill or Recommendation, the agent can validate the extracted values in the Document Intelligence workspace.
 
-The agent can open a case and review the predicted fields or review the prediction task by selecting **Review in DocIntel** and opening the [Document Intelligence workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/doc-intel-workspace.md) interface in a separate tab. From this interface, agents can:
+The agent can open a case and review the predicted fields or review the prediction task by selecting **Review in DocIntel** and opening the Document Intelligence workspace interface in a separate tab. From this interface, agents can:
 
 -   Review each predicted field.
 -   Confirm correctly predicted values.
 -   Update incorrect or missing values.
 -   Submit the changes.
 
-**Parent Topic:**[Document Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-document-intelligence.md)
+**Parent Topic:**[Document Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-document-intelligence.md)
 

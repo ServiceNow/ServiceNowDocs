@@ -3,9 +3,9 @@ title: Dispute multiple invoices against your account using the Business Portal
 description: Challenge discrepancies in billing or shipping locations that affect multiple invoices via the Business Portal using the playbook experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-invoice-case-multiple.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Invoice case self-service, Business Portal, Use, Sales Customer Relationship Management]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_customerservice.customer
 
 This task describes how to create an invoice case using the playbook experience in the Business Portal. The playbook experience enables you to dispute various invoice discrepancies depending on the scope you select. For multiple invoices, you can report billing location and shipping location issues.
 
-Creating invoice cases using the ServiceNow Otto panel limits disputes to quantity issues only. For more information, see [Dispute invoice issues using ServiceNow Otto Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/dispute-invoice-issues-now-assist.md).
+Creating invoice cases using the ServiceNow Otto panel limits disputes to quantity issues only. For more information, see [Dispute invoice issues using ServiceNow Otto Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/dispute-invoice-issues-now-assist.md).
 
 ## Procedure
 
@@ -97,7 +97,7 @@ Optional brief description.
 
     2.  On the Add invoices to case window, select the invoices for which you want to create a case and select **Add**.
 
-        For a description of the Add invoices to case list view, see [Add invoices to case list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/add-invoices-to-case-list.md).
+        For a description of the Add invoices to case list view, see [Add invoices to case list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/add-invoices-to-case-list.md).
 
         Invoice case lines are created corresponding to the invoices that you selected.
 
@@ -127,9 +127,9 @@ The invoice case is created with the invoice case line items corresponding to th
 
 ## What to do next
 
-Track the status of your invoice case. For more information, see [View invoice case details in the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-invoice-cases-business-portal.md).
+Track the status of your invoice case. For more information, see [View invoice case details in the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/view-invoice-cases-business-portal.md).
 
-Follow up on your invoice case. For more information, see [Communicate and share supporting documents for an invoice case from Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-invoice-cases-bp.md).
+Follow up on your invoice case. For more information, see [Communicate and share supporting documents for an invoice case from Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/manage-invoice-cases-bp.md).
 
-**Parent Topic:**[Invoice and invoice case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/invoice-case-self-service.md)
+**Parent Topic:**[Invoice and invoice case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/invoice-case-self-service.md)
 

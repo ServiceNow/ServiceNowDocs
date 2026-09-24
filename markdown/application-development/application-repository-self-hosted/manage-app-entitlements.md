@@ -3,11 +3,11 @@ title: Manage application entitlements from the application repository
 description: Add or remove application entitlements to limit which instances the application can be installed on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/application-repository-self-hosted/manage-app-entitlements.html
-release: australia
+release: brazil
 product: Application Repository \(Self-Hosted\)
 classification: application-repository-self-hosted
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage applications, ServiceNow application repository, Application sharing, Administer your apps, Deploying applications, Building applications]
 ---
@@ -18,7 +18,7 @@ Add or remove application entitlements to limit which instances the application 
 
 ## Before you begin
 
-You can manage only the applications that you've published to the application repository. For more information, see [Publish an application to the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/t_PublishAppsToTheAppRepository.md).
+You can manage only the applications that you've published to the application repository. For more information, see [Publish an application to the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/application-repository-self-hosted/t_PublishAppsToTheAppRepository.md).
 
 Role required: none
 

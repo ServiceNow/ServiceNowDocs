@@ -3,11 +3,11 @@ title: IP allow-listing update
 description: To better support our growing needs and increase capacity, we have expanded the pool of outbound addresses used for requests from CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/ip-allow-listing-update.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [CPQ Configurator, Configure, price, quote apps, Explore, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # IP allow-listing update

@@ -3,11 +3,11 @@ title: Debug synonym searches
 description: You can view debug messages to determine if synonym searches are working as expected.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/debug-synonym-searches.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Zing can expand search results with synonyms, Zing text indexing and search engine, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -31,7 +31,7 @@ Role required: admin
     **Note:** You can only view the debug output on a table view \(\_list.do\). You can't view it on a UI page itself.
 
 
-**Parent Topic:**[Zing can expand search results with synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/search-synonyms-expand-results.md)
+**Parent Topic:**[Zing can expand search results with synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/search-synonyms-expand-results.md)
 
 **Related topics**  
 

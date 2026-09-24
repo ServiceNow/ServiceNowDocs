@@ -3,14 +3,14 @@ title: Run ACC as a local system account user
 description: To fetch the complete playbook content data for a Windows device, the Agent Client Collector \(ACC\) must run as a local system account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/run-acc-local-sys-account.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [run acc local system account, local system account, acc service account, run agent client collector as user, playbook content data]
-breadcrumb: [Install ACC on Windows, Installing DEX on your local machine, Configure, Digital End-User Experience, IT Service Management]
+breadcrumb: [Installing DEX on your local machine, Configure, Digital End-User Experience, IT Service Management]
 ---
 
 # Run ACC as a local system account user
@@ -19,7 +19,7 @@ To fetch the complete playbook content data for a Windows device, the Agent Clie
 
 ## Before you begin
 
-Role required: sn\_dex.admin
+Role required: none
 
 ## Procedure
 
@@ -31,6 +31,4 @@ Role required: sn\_dex.admin
 
     \[Omitted image "playbook-local-sys-account.png"\] Alt text: The Agent Client Collector Properties window from which you can select the local system account to log on.
 
-
-**Parent Topic:**[Install ACC for DEX on Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/install-acc-for-dex-windows.md)
 

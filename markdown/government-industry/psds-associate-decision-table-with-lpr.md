@@ -3,9 +3,9 @@ title: Associate a decision table with a License &amp; Permit case type​​
 description: After you configure a pricing configuration decision table, associate it with the License &amp; Permit case type to append pricing configurations to that case type table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-associate-decision-table-with-lpr.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure decision tables, License and Permit Playbook, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---

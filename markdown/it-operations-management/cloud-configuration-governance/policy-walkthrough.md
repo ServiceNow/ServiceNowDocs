@@ -3,12 +3,12 @@ title: Cloud policy example
 description: A base system cloud policy, Lease End ServiceNow, uses the on Lease end trigger that fires when a virtual resource is near the lease end date. If the conditions in the policy rule are met, the policy engine sends a notification to the owner of the resource and performs operations on the resource.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/policy-walkthrough.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Policies for Cloud Provisioning, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
@@ -60,7 +60,7 @@ You can change any base-system policy by modifying settings or making the policy
 
 8.  On the Update Action pop-up window, enter an **Action Name**.
 
-    The value is required. Notice the value of the **Notification** field; you will use it in the next step. Close the pop-up window.
+    Note the value of the **Notification** field for use in the next step.
 
     \[Omitted image "policy-lease-end-action.png"\] Alt text: Sending a notification
 
@@ -121,7 +121,7 @@ You can change any base-system policy by modifying settings or making the policy
 
 ## What to do next
 
-This example uses the settings available through the form configuration. To see example scripts that you could use in addition, see [Create a policy action script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-policy-script.md).
+This example uses the settings available through the form configuration. To see example scripts that you could use in addition, see [Create a policy action script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/create-policy-script.md).
 
-**Parent Topic:**[Policies for Cloud Provisioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-policy.md)
+**Parent Topic:**[Policies for Cloud Provisioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/cloud-policy.md)
 

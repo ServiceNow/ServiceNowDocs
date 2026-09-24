@@ -3,11 +3,11 @@ title: Activate the Regulatory alert summarization skill
 description: Activate and configure the ServiceNow Otto summarization skill to generate a regulatory alert summary by selecting the specific fields you would like included in the summary.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/summarize-a-regulatory-alert.html
-release: australia
+release: brazil
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Now Assist, generative AI, GenAI, ServiceNow AI Platform]
 breadcrumb: [Regulatory alert summarization skill, AI in Regulatory Change Management, Regulatory Change Management, Governance, Risk, and Compliance]
@@ -34,7 +34,7 @@ To summarize a regulatory alert, you must specify the fields from which the summ
 -   Effective date
 -   Compliance date
 
-Also, define when the skill must be available: should it be available at all times or should it be available only when a particular condition is met? By default, a regulatory alert in the Regulatory Change Management application shows the options to create a summary when the alert is in New state. However, you can specify any state or any condition under which the summarization can be done. You can achieve this when you modify the **Define availability** section. After you generate the summary, you can choose to share the summary and populate the **Additional comments** field of the regulatory alert. Doing this helps the regulatory analyst to get a quick glance at the summary. At every stage of the procedure ensure that you save the form.
+Also, define when the skill must be available: should it be available at all times or should it be available only when a particular condition is met? By default, a regulatory alert in the Regulatory Change Management application shows the option to create a summary in any state. However, you can restrict summarization to a specific state or condition. You can achieve this when you modify the **Define availability** section. After a summary is generated, you can save it to the regulatory alert. Doing this helps the regulatory analyst to get a quick glance at the summary. At every stage of the procedure ensure that you save the form.
 
 ## Procedure
 
@@ -50,9 +50,9 @@ Also, define when the skill must be available: should it be available at all tim
 
     You can perform the following actions on ServiceNow Otto skills if you have the sn\_generative\_ai.nsa\_admin role:
 
-    -   [Edit an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-a-now-assist-skill.md)
-    -   [Make a copy of AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md)
-    -   [Troubleshoot an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/troubleshoot-a-now-assist-skill.md)
+    -   [Edit a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/edit-a-now-assist-skill.md)
+    -   [Make a copy of a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md)
+    -   [Troubleshoot a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/troubleshoot-a-now-assist-skill.md)
 <table id="id_o2v_k4c_cfc"><thead><tr><th>
 
 Field
@@ -118,13 +118,15 @@ Template used for this skill.
 
     The Base table and Input templates define how data is structured and transmitted to a large language model \(LLM\) for generating responses as part of the Regulatory Alert Summarization skill. These fields are read-only.
 
-    These fields provide essential context to the LLM while preserving data integrity. Two input templates are defined based on the record’s state: one for the Default state and another for the New state. Each template includes rule conditions that determine when it’s applied. To enrich the context further, related tables are included, specifically linking regulatory alerts to taxonomy data using fields like taxonomy name and taxonomy category. This setup helps ensure that the LLM receives structured, relevant, and contextual information.
+    These fields provide essential context to the LLM. A single input template applies regardless of the record's state. To enrich the context further, related tables are included, linking regulatory alerts to taxonomy data, impacted areas, and regulatory change tasks. This setup helps ensure that the LLM receives structured, relevant, and contextual information.
 
-    For more information, see [Choose input data form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/input-data-rcm-skill.md).
+    For more information, see [Choose input data form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/input-data-rcm-skill.md).
 
 6.  To specify the conditions when the skill becomes available, select **Define availability**.
 
     1.  To ensure that the skill isn’t dependent on any condition and is always available, select **Skill is always available**.
+
+        **Note:** This option is selected by default.
 
     2.  To make the skill available only when certain conditions are met, such as the regulatory alert being in the New state, select **Customize skill availability** and build the conditions using the condition builder.
 

@@ -3,11 +3,11 @@ title: Add form section to view slack channels
 description: View unarchived slack channels associated with an incident in the form section. The form section saves you the effort of opening the available channel list manually from the related list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/collaboration-services/add-slack-channels-section.html
-release: australia
+release: brazil
 product: Collaboration Services
 classification: collaboration-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View or join slack channel from an incident, Slack integration - Incident Management, Collaboration services, IT Service Management]
 ---
@@ -28,7 +28,7 @@ Role required: personalize\_form or admin
 
 3.  Click the Additional actions icon and select **Configure** &gt; **Form Layout**.
 
-    For more information, refer [Configuring form layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+    For more information, refer [Configuring form layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).
 
 4.  Under **Form view and section**, in the **Section** field, click **New**.
 

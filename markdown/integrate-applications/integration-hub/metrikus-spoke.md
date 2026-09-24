@@ -3,7 +3,7 @@ title: Metrikus spoke
 description: Metrikus spoke provides actions to retrieve data from various sensors \(such as occupancy sensor, air quality sensor, temperature sensor etc.\) that are found at a workplace.Also reuse this short description in the release notes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/metrikus-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept

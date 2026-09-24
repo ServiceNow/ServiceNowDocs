@@ -3,11 +3,11 @@ title: Integrate Grafana events with basic authentication
 description: Integrate Grafana with Event Management by adding a standard webhook in the Grafana console.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/grafana-events-integration.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Integrate Grafana events, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -20,15 +20,15 @@ Integrate Grafana with Event Management by adding a standard webhook in the Graf
 
 -   Ensure that the Event Management Connectors \(sn\_em\_connector\) plugin is installed on the ServiceNow AI Platform instance.
 -   The Event Management plugin must be installed on the ServiceNow AI Platform instance.
+-   Confirm you have created a user with an **Identify Type** of **Machine** and the evt\_mgmt\_integration role.
 -   The CI binding happens through the IP, instances should be discovered as servers to initiate the binding. CIs discovered through cloud or CIs in **cmdb\_ci\_vm\_object** don’t get bounded as Grafana doesn't provide any information for object IDs.
--   Ensure you have created a user with an **Identify Type** of **Machine** and the evt\_mgmt\_integration role.
 -   Role required: evt\_mgmt\_integration
 
 ## About this task
 
 Configure the Event Management environment for the collection of events from Grafana. In your Grafana console, set your ServiceNow AI Platform instance as the rest endpoint using a standard webhook.
 
-You can also configure Grafana as an event push connector from the Integrations Launchpad. For more information, see [Configure an event push connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/push-connector.md).
+You can also configure Grafana as an event push connector from the Integrations Launchpad. For more information, see [Configure an event push connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/push-connector.md).
 
 **Note:** Perform steps 1 and 2 for Grafana v7.4.3. For Grafana v9.3.2. skip to step 3.
 
@@ -137,5 +137,5 @@ Alerts start flowing from Grafana into the Event Management plugin. The plugin e
 -   For Grafana v7.4.3, you may see extra clear events coming into ServiceNow which aren’t bound to an alert. Ignore them as they’re created to overcome the issue of Grafana not sending information in the clear notification.
 -   A severity parameter is added which is used only for Grafana 8 and above. The provided value is used as a severity for an event if the severity isn’t passed in custom labels.
 
-**Parent Topic:**[Integrate Grafana events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/grafana-integration.md)
+**Parent Topic:**[Integrate Grafana events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/grafana-integration.md)
 

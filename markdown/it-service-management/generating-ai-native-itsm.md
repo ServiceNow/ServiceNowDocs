@@ -3,9 +3,9 @@ title: Generating AI summary and next steps
 description: You can generate AI summary, key actions taken, proposed next steps, and related search results directly on the incident form to help resolve the incident, and also summarize the incident to gain an overall understanding of the incident details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/generating-ai-native-itsm.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Fulfiller experience, Simplified IT Service Management, IT Service Management]
 ---
@@ -70,5 +70,5 @@ You can also choose specific menu actions based on the category of the search re
 
 \[Omitted image "incident-now-assist-panel-ai-native.png"\] Alt text:
 
-**Parent Topic:**[Fulfiller experience in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/fulfiller-experience-ai-native-itsm.md)
+**Parent Topic:**[Fulfiller experience in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/fulfiller-experience-ai-native-itsm.md)
 

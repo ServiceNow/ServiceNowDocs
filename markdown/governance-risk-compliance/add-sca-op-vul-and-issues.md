@@ -3,12 +3,12 @@ title: Log operational vulnerabilities and issues
 description: Optionally document operational weaknesses and link issues identified from the scenario analysis results to support remediation tracking.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-sca-op-vul-and-issues.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Scenario Analysis, Operational Resilience, operational vulnerabilities, issues, remediation]
-breadcrumb: [Building a scenario analysis using simulation, Scenario analysis using simulation, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Building a scenario analysis using simulation, Conducting a scenario analysis, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Log operational vulnerabilities and issues
@@ -33,7 +33,7 @@ Steps to identify operational vulnerabilities and log issues are optional. They 
 
 4.  Enter a **Name** for the vulnerability and confirm the auto-populated **Source record**, which points to the current scenario analysis.
 
-    The **Number** is generated automatically with the `ORV` prefix. The created vulnerability follows the standard operational vulnerability life cycle: New, Assessment, Treatment, Pending approval, Approved, Closed, Canceled. For more information, see [Operational vulnerability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/exploring-op-vul.md).
+    The **Number** is generated automatically with the `ORV` prefix. The created vulnerability follows the standard operational vulnerability life cycle: New, Assessment, Treatment, Pending approval, Approved, Closed, Canceled. For more information, see [Operational vulnerability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/exploring-op-vul.md).
 
     **Note:** You can only create vulnerabilities from this step. To pull in an existing operational vulnerability, use the operational vulnerability list view directly.
 
@@ -59,10 +59,10 @@ Steps to identify operational vulnerabilities and log issues are optional. They 
 
     The **Mark as Complete** button remains inactive until an issue is added, so **Skip** is the only way to leave the step empty.
 
-    \[Omitted image "sca-issues-stage-skip-option.png"\] Alt text: Scenario Issues step with an empty list, the Complete Analysis button,Skip button, and \(an inactive\) Mark as Complete button shown on the form.
+    \[Omitted image "sca-issues-stage-skip-option.png"\] Alt text: Scenario Issues step with an empty list, the Complete Analysis button, Skip button, and \(an inactive\) Mark as Complete button shown on the form.
 
 
 ## Result
 
-Operational vulnerabilities and issues have been recorded or skipped. The **Complete analysis** action is now available. For more information on completing Scenario analysis, see [Mark the scenario analysis as complete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/complete-sca-analysis.md).
+Operational vulnerabilities and issues have been recorded or skipped. The **Complete analysis** action is now available. For more information on completing Scenario analysis, see [Mark the scenario analysis as complete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/complete-sca-analysis.md).
 

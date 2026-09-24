@@ -3,11 +3,11 @@ title: Run your tests from the List view
 description: View the test scenario, execute all the steps of the test, and review the test result.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/run-test-plan-within-agile2.html
-release: australia
+release: brazil
 product: Test Management
 classification: test-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sprint testing, Test Management 2.0, Test Management applications, Strategic Portfolio Management]
 ---
@@ -60,7 +60,7 @@ The overall status of the test is defined by statuses of the test steps:
 -   If at least one step of the test fails, the overall status of the test is **Failed**. This rule takes precedence over the previous rule.
 -   If at least one step of the test is blocked, the overall status of the test is **Blocked**. This rule takes precedence over the previous two rules.
 
-**Parent Topic:**[Sprint testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/sprint-testing.md)
+**Parent Topic:**[Sprint testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/test-management/sprint-testing.md)
 
 **Related topics**  
 

@@ -3,11 +3,11 @@ title: Roll back a document
 description: A document can be rolled back to an earlier revision at any time. Before rolling back to an earlier revision, ensure that the document is not checked out and that you have Editor or Owner permissions for the document.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/t\_RollBackADocument.html
-release: australia
+release: brazil
 product: Document Management Services
 classification: document-management-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a document, Managed Documents, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -41,5 +41,5 @@ Role required: document\_management\_user
     The latest revision is now the revision that you selected for rollback.
 
 
-**Parent Topic:**[Create a document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/c_CreateADocument.md)
+**Parent Topic:**[Create a document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/c_CreateADocument.md)
 

@@ -3,11 +3,11 @@ title: Workflow Studio flow integrations
 description: Expand the capabilities of Workflow Studio flows with additional subscriptions and spokes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-designer-integrations.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -30,7 +30,7 @@ Content available
 
 </th></tr></thead><tbody><tr><td>
 
-[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-overview.md)
+App Engine Studio
 
 </td><td>
 
@@ -39,7 +39,7 @@ Content available
 
 </td></tr><tr><td>
 
-[Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integrationhub.md)
+Integration Hub
 
 </td><td>
 
@@ -48,7 +48,7 @@ Content available
 
 </td></tr><tr><td>
 
-[Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer.md)
+[Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/process-automation-designer.md)
 
 </td><td>
 
@@ -57,7 +57,7 @@ Content available
 
 </td></tr><tr><td>
 
-[Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-explore.md)
+Robotic Process Automation \(RPA\) Hub
 
 </td><td>
 
@@ -68,8 +68,8 @@ Build flows to run robots on Microsoft Windows systems.
 
 Add application-specific content to Workflow Studio by installing spokes.
 
--   **[Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/spokes.md)**  
+-   **[Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/spokes.md)**  
 Add application-specific content to Workflow Studio by installing spokes.
 
-**Parent Topic:**[Flows, subflows, and actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-designer-reference.md)
+**Parent Topic:**[Flows, subflows, and actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-designer-reference.md)
 

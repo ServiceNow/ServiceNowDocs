@@ -3,11 +3,11 @@ title: Intangible/logical tables in the CMDB
 description: List of intangible/logical tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/common-service-data-model-csdm/csdm-lifecy-tables-intang-logical.html
-release: australia
+release: brazil
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Intangible/logical life cycle, Reference, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -97,5 +97,5 @@ The intangible/logical life-cycle value pairs represent the overall life cycle o
 |Virtual Private Network|cmdb\_ci\_vpn|
 |Websphere Cell|cmdb\_ci\_websphere\_cell|
 
-**Parent Topic:**[Life cycle of intangible/logical entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-logical.md)
+**Parent Topic:**[Life cycle of intangible/logical entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-logical.md)
 

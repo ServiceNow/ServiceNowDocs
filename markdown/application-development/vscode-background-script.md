@@ -3,9 +3,9 @@ title: Run background scripts using VS Code
 description: Run scripts from your ServiceNow instance in VS Code using the ServiceNow Extensions for VS Code.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/vscode-background-script.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Extensions for Visual Studio Code, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -27,5 +27,5 @@ Role required: admin
     The background scripts runner tab opens in VS Code and shows the location where the script is executed in the server.
 
 
-**Parent Topic:**[ServiceNow Extensions for Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vs-code.md)
+**Parent Topic:**[ServiceNow Extensions for Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vs-code.md)
 

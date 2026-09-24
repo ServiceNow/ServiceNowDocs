@@ -3,11 +3,11 @@ title: Export or import a cloud policy
 description: To back up, move, or restore a policy, you can export and import the policy as an update set. The update set includes rules, conditions, actions, scripts, and script categories.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/export-import-policy.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Policies for Cloud Provisioning, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -45,10 +45,10 @@ Role required: sn\_cmp.cloud\_admin or admin.
     **Note:** If the policy that you exported from the source environment exists in the target environment, and the policies have different sys\_ids, then an error occurs during the import process. You must export a different policy from the source environment or delete the policy with the same name in the target environment.
 
 
-**Parent Topic:**[Policies for Cloud Provisioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-policy.md)
+**Parent Topic:**[Policies for Cloud Provisioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/cloud-policy.md)
 
 **Related topics**  
 
 
-[System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets.md)
+[System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/system-update-sets.md)
 

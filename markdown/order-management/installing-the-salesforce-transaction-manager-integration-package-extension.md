@@ -1,36 +1,34 @@
 ---
-title: Installing the Salesforce ServiceNow Quote Experience Integration Package extension
-description: Install the Salesforce ServiceNow Quote Experience Integration Package Extension to enable ServiceNow Quote Experience with Salesforce.
+title: Installing the Salesforce Transaction Manager Integration Package extension
+description: To use Transaction Manager with Salesforce, you must first follow these steps to install and configure the Salesforce Transaction Manager Integration Package Extension.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/installing-the-salesforce-transaction-manager-integration-package-extension.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 12
+last_updated: "2026-09-10"
+reading_time_minutes: 11
 breadcrumb: [CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
 
-# Installing the Salesforce ServiceNow Quote Experience Integration Package extension
+# Installing the Salesforce Transaction Manager Integration Package extension
 
-Install the Salesforce ServiceNow Quote Experience Integration Package Extension to enable ServiceNow Quote Experience with Salesforce.
+To use Transaction Manager with Salesforce, you must first follow these steps to install and configure the Salesforce Transaction Manager Integration Package Extension.
 
 ## Prerequisites
 
-This guide assumes that your CPQ environment is integrated with a Salesforce org, and that ServiceNow Quote Experience is enabled. If your Salesforce org has no CPQ packages installed, install version 2.7 or later of the CPQ Managed Package. For instructions, see [Installation and setup guide for environments linked to Salesforce orgs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+This guide assumes that your CPQ environment is integrated with a Salesforce org, and that Transaction Manager is enabled. If your Salesforce org has no CPQ packages installed, install version 2.7 or later of the CPQ Managed Package. For instructions, see [Set up environments linked to Salesforce orgs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/installation-and-setup-guide-for-environments-linked-to-salesforce-org.md).
 
-**Note:** CPQ ServiceNow Quote Experience has no dependencies on Salesforce CPQ. You can ignore any steps or references specific to Salesforce CPQ.
+**Note:** CPQ Transaction Manager has no dependencies on Salesforce CPQ. You can ignore any steps or references specific to Salesforce CPQ.
 
-Submit a support ticket requesting ServiceNow Quote Experience is turned on in your CPQ environment.
+Submit a support ticket requesting Transaction Manager be turned on in your CPQ environment.
 
-**Note:** Create a support case by using the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
+## About the CPQ Transaction Manager extension
 
-## About the CPQ ServiceNow Quote Experience extension
-
-The CPQ ServiceNow Quote Experience Extension is a package of components that Salesforce administrators install on their Salesforce environment to facilitate the integration between Salesforce and CPQ ServiceNow Quote Experience.
+The CPQ Transaction Manager Extension is a package of components that Salesforce administrators install on their Salesforce environment to facilitate the integration between Salesforce and CPQ Transaction Manager.
 
 Contact ServiceNow customer support for information on the latest version and how to access the managed package for installation.
 
-Admins can install the package for admins only, for all users, or for specific profiles. The package includes permission sets for ServiceNow Quote Experience that can be assigned to individuals or replicated on profiles. To view the permissions sets, in Setup, go to **Users**, and then see the **ServiceNow CPQ.ai Full Access** option in **Permission Sets**.
+Admins can install the package for admins only, for all users, or for specific profiles. The package includes permission sets for Transaction Manager that can be assigned to individuals or replicated on profiles. To view the permissions sets, in Setup, go to **Users**, and then see the **Logik.ai Full Access** option in **Permission Sets**.
 
 After it is installed, you can view the version of the package in the **Installed Packages** section of Salesforce Setup.
 
@@ -64,7 +62,7 @@ Configure remote site settings:
     \[Omitted image "cpq-salesforce-remote-site-name.jpeg"\] Alt text: Remote settings
 
 
-Optionally, allow microphone access for Cosmo Converse \(currently in beta\). Cosmo Converse allows the user to communicate via voice with ServiceNow Quote Experience By default, this feature is not enabled. To use Cosmo Converse, submit a support ticket that describes your use case. To prepare for Cosmo Converse, update Salesforce settings to allow microphone access.
+Optionally, allow microphone access for Cosmo Converse \(currently in beta\). Cosmo Converse allows the user to communicate via voice with Transaction Manager. By default, this feature is not enabled. To use Cosmo Converse, submit a support ticket that describes your use case. To prepare for Cosmo Converse, update Salesforce settings to allow microphone access.
 
 1.  From Setup Home, go to **Settings** &gt; **Security** &gt; **Session Settings**.
 2.  Under **Browser Feature Permissions**, make sure that the check box for **Include Permissions-Policy HTTP header** is disabled.
@@ -74,9 +72,9 @@ Optionally, allow microphone access for Cosmo Converse \(currently in beta\). Co
 
 ## CPQ: Set up the runtime client token
 
-The CPQ runtime client token facilitates authentication for communications from Salesforce to CPQ. For steps to create a runtime client token in CPQ, see [Set up a runtime client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-set-up-a-runtime-client.md). For this ServiceNow Quote Experience use case, please be sure to enable permissions on this runtime client for TRANSACTION, and add a valid User ID that is recognized by the corresponding Salesforce environment.
+The CPQ runtime client token facilitates authentication for communications from Salesforce to CPQ. For steps to create a runtime client token in CPQ, see [Set up a runtime client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-set-up-a-runtime-client.md). For this Transaction Manager use case, please be sure to enable permissions on this runtime client for TRANSACTION, and add a valid User ID that is recognized by the corresponding Salesforce environment.
 
-Note that in CPQ Admin, the runtime client token must be updated to include TRANSACTION in its permissions and itself as an origin. \(For example, the runtime client token for `https://test-txn.test02.cpq` must have an origin of `https://test-txn.test02.cpq`.\) Also, when a runtime client token includes TRANSACTION, a user must be included. Make sure that the user has permission to perform the Create Transaction event.
+Note that in CPQ Admin, the runtime client token must be updated to include TRANSACTION in its permissions and itself as an origin. \(For example, the runtime client token for `https://test-txn.test02.logik.io` must have an origin of `https://test-txn.test02.logik.io`.\) Also, when a runtime client token includes TRANSACTION, a user must be included. Make sure that the user has permission to perform the Create Transaction event.
 
 \[Omitted image "cpq-salesforce-edit-runtime-client.png"\] Alt text: Edit runtime client
 
@@ -84,13 +82,13 @@ When you have set up the runtime client token, copy it to your local clipboard f
 
 ## Install the CPQ Transaction Runtime Token in Salesforce
 
-1.  From the Salesforce App Launcher, search for and open **ServiceNow CPQ.io Admin Custom Settings**.
+1.  From the Salesforce App Launcher, search for and open **Logik.io Admin Custom Settings**.
 2.  Press the **Set** button next to the **Runtime Client Token** field to enable it.
 3.  Paste the token from CPQ into the editable field, and click **Save**.
 
 **Note:** The runtime client token isn’t displayed on the Admin Custom Settings page after it’s been saved.
 
-## Salesforce: Update the Opportunity layout to Open ServiceNow Quote Experience
+## Salesforce: Update the Opportunity layout to Open Transaction Manager
 
 1.  In Salesforce, click the gear icon in the top right corner.
 2.  Navigate to **Setup** &gt; **Object Manager** &gt; **Opportunity** &gt; **Page Layouts**.
@@ -133,7 +131,7 @@ If the transaction button is missing from the buyside opportunity detail page, f
 
     \[Omitted image "cpq-txn-mgr-troubleshooting-2.jpg"\] Alt text: menu
 
-3.  Click the previewed layout and repeat steps 4 through 7 in the "Salesforce: Update the Opportunity layout to Open ServiceNow Quote Experience section \(above\). Next, on the buyside, navigate to an opportunity record. Check the **Related Lists** section to confirm that the transaction object appears. Click the arrow, and create a new transaction to validate that the **Edit Transaction \(EditLink\_\_c\)** field is available.
+3.  Click the previewed layout and repeat steps 4 through 7 in the "Salesforce: Update the Opportunity layout to Open Transaction Manager" section \(above\). Next, on the buyside, navigate to an opportunity record. Check the **Related Lists** section to confirm that the transaction object appears. Click the arrow, and create a new transaction to validate that the **Edit Transaction \(EditLink\_\_c\)** field is available.
 
     \[Omitted image "cpq-txn-mgr-troubleshooting-3.jpg"\] Alt text: Troubleshooting
 
@@ -150,7 +148,7 @@ When a new CPQ transaction record is initiated in CPQ, it can be helpful to tran
 
     \[Omitted image "cpq-salesforce-custom-meta-types.jpg"\] Alt text: Home page
 
-4.  To access the existing field mappings, locate **ServiceNow CPQ.io Transaction Field Mapping** in the list of custom metadata types, and click the **Manage Records** link next to it.
+4.  To access the existing field mappings, locate **Logik.io Transaction Field Mapping** in the list of custom metadata types, and click the **Manage Records** link next to it.
 
     \[Omitted image "cpq-salesforce-custom-meta-types-all.png"\] Alt text: Metadata types
 
@@ -161,7 +159,7 @@ When a new CPQ transaction record is initiated in CPQ, it can be helpful to tran
     -   Environment: Choose the source of the field value:
         -   Select **Salesforce** for fields originating in Salesforce.
 
-        -   Select **ServiceNow CPQ** for fields originating in CPQ.
+        -   Select **Logik** for fields originating in CPQ.
 
     -   Object: Enter `Transaction`.
     -   Field: Specify the field name.
@@ -190,17 +188,17 @@ When a new CPQ transaction record is initiated in CPQ, it can be helpful to tran
 
 **Note:** By default, the following flows are active:
 
--   CPQ.ai Copy Transaction
--   CPQ.ai Create Transaction \(Record Trigger\)
--   CPQ.ai Create Transaction \(Screen\)
+-   Logik.ai Copy Transaction
+-   Logik.ai Create Transaction \(Record Trigger\)
+-   Logik.ai Create Transaction \(Screen\)
 
 1.  From Salesforce Setup Home, search for "Flows". Click **Process Automation** &gt; **Flows**.
 
 2.  Search for the following. You will perform step 3 for each:
 
-    -   CPQ.io Opportunity Line Sync \(Upsert\)
-    -   CPQ.io Opportunity Line Sync \(Delete\)
-    -   CPQ.io Primary Transaction Change
+    -   Logik.io Opportunity Line Sync \(Upsert\)
+    -   Logik.io Opportunity Line Sync \(Delete\)
+    -   Logik.io Primary Transaction Change
 3.  For each of the three flows identified in step 2, activate one of the following options:
     -   Option 1: Using the drop-down menu:
         -   Click the arrow to the right of the flow name.
@@ -248,17 +246,17 @@ Make sure all the flows are in active status.
 
 -   Edit a transaction
 
-    From a Salesforce transaction \(or a transaction related list\), ServiceNow Quote Experience can be launched using either the **Edit Transaction** button on the transaction detail page or the link available via the **Edit Transaction** field. This loads a CPQ transaction based on the **Transaction Id** field in the Salesforce record.
+    From a Salesforce transaction \(or a transaction related list\), Transaction Manager can be launched using either the **Edit Transaction** button on the transaction detail page or the link available via the **Edit Transaction** field. This loads a CPQ transaction based on the **Transaction Id** field in the Salesforce record.
 
-    ServiceNow Quote Experience loads in an iFrame, replacing the current subtab in Salesforce.
+    Transaction Manager loads in an iFrame, replacing the current subtab in Salesforce.
 
     **Note:** Salesforce's classic UI is not supported.
 
 -   Copy Transaction
 
-    By clicking the **Clone** button on the Salesforce transaction record, users can call a CPQ Copy event to recreate the transaction and lines in ServiceNow Quote Experience. This action is based on the transaction ID on the header record in Salesforce and results in a cloned transaction record.
+    By clicking the **Clone** button on the Salesforce transaction record, users can call a CPQ Copy event to recreate the transaction and lines in Transaction Manager. This action is based on the transaction ID on the header record in Salesforce and results in a cloned transaction record.
 
-    **Note:** Cloning a transaction from Salesforce does not automatically make copies of the affiliated line records to the new transactions. To clone the lines to the new transaction, launch the new \(cloned\) transaction record in ServiceNow Quote Experience, and initiate a Salesforce sync.
+    **Note:** Cloning a transaction from Salesforce does not automatically make copies of the affiliated line records to the new transactions. To clone the lines to the new transaction, launch the new \(cloned\) transaction record in Transaction Manager, and initiate a Salesforce sync.
 
 
 ## Troubleshooting: CPQ fails to launch with a “Transaction with id ‘null’ could not be found” error
@@ -274,21 +272,9 @@ To troubleshoot permissions errors, follow these steps.
 
 1.  In Transaction Administration, click **Personas**.
 2.  In the list of personas, observe which persona is labeled DEFAULT. The screenshot below shows that "Sales Rep" is the default persona. By default, all new users are assigned this persona.
-
-    \[Omitted image "image.cpq-txn-mgr-personas"\] Alt text: Related List Properties
-
 3.  Open each persona record. Find your user name. The user you are debugging should only be visible in one persona. Once you find the appropriate persona, note the view that manages this persona’s access. In the example, the user is among the listed user names in the Sales Rep persona. This persona’s access is managed by the "sales" view.
-
-    \[Omitted image "image.cpq-txn-mgr-persona-managed-by"\] Alt text: Personas screen
-
 4.  Open the view that manages the persona’s access. In our example, the view is named "sales". To open the view, in CPQ Transaction Admin Home, go to Views, and then click the managing view.
-
-    \[Omitted image "image.cpq-txn-mgr-personas-view"\] Alt text: Transaction details
-
 5.  On the view detail page, click **Access**, click **Events**, and search for `createTransaction`. In the initial stage, the create transaction event \(varname: createTransaction\) must be set to **Active**.
-
-    \[Omitted image "image.cpq-txn-mgr-personas-events"\] Alt text: Sales screen
-
 
 To sum up: for any given user, the administrator must manage the items in the following table.
 
@@ -325,9 +311,7 @@ View: access to each event, per stage
 
 </td><td>
 
-For information about how to perform fine-grained access administration \(recommended\), see the Events CSV File section in [Quote transaction views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-views.md).
-
- To administer access in a less precise way, go to Events in CPQ Transaction Admin, Select the **Create Transaction** event, Select **Edit Event Access**, and set the event access to Active. By default, the event is active across all stages and views.
+To administer access in a less precise way, go to Events in CPQ Transaction Admin, click the **Create Transaction** event, click **Edit Event Access**, and set the event access to Active. By default, the event is active across all stages and views.
 
 </td></tr></tbody>
 </table>

@@ -3,11 +3,11 @@ title: Activating e-signature
 description: You can activate the e-signature plugin \(com.snc.esign\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/e-signature/activate-e-signature.html
-release: australia
+release: brazil
 product: e-Signature
 classification: e-signature
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [E-signature, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -69,8 +69,8 @@ Provides a tool to allow a digital signature in a .pdf document. The Human Resou
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[E-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/e-signature/e-signature.md)
+**Parent Topic:**[E-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/e-signature/e-signature.md)
 

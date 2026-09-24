@@ -3,7 +3,7 @@ title: Using Investigative Case Management for Public Sector Digital Services
 description: As an investigator or supervisory agent, you can use the Investigative Case Management application to keep track of case tasks, assets, entities, and all shared information relating to a case. You can work on cases collaboratively with other investigators and managers, and use generative AI skills to summarize cases and case narratives.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-icm.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -36,7 +36,7 @@ For investigators, the entity management feature provides visibility across all 
 
 \[Omitted image "psds-entity-management-firearms-view.png"\] Alt text: entity record view
 
-For more information on using the Entity management feature, see [Using Entity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-explore-icm-entity-management.md).
+For more information on using the Entity management feature, see [Using Entity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-explore-icm-entity-management.md).
 
 ## Evidence Management
 
@@ -44,5 +44,5 @@ For investigators, the Evidence management feature allows investigators to manag
 
 \[Omitted image "psds-icm-evidence-details-view.png"\] Alt text: case record view
 
-For more information on using the Entity management feature, see [Using Evidence Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-explore-icm-evidence-management.md).
+For more information on using the Entity management feature, see [Using Evidence Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-explore-icm-evidence-management.md).
 

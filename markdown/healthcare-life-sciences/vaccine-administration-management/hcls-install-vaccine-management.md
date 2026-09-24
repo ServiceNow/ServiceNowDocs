@@ -3,11 +3,11 @@ title: Install Vaccine Administration Management
 description: Vaccine Administration Management \(VAM\) is available on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/vaccine-administration-management/hcls-install-vaccine-management.html
-release: australia
+release: brazil
 product: Vaccine Administration Management
 classification: vaccine-administration-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Vaccine Administration Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -90,5 +90,5 @@ Role required: admin
         You can encrypt additional data fields based on your requirements and configurations. For information about additional encryption capabilities including edge encryption, database encryption, and full disk encryption, see the [Data encryption white paper](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/resource-center/white-paper/wp-data-encryption-with-servicenow.pdf).
 
 
-**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
+**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
 

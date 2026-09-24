@@ -3,11 +3,11 @@ title: Blueprints
 description: Learn how blueprints define the structure of configuration experiences in CPQ and act as containers for fields, rules, layouts, and configurable products.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/blueprints.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [CPQ Configurator, Configure, price, quote apps, Explore, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Blueprints
@@ -76,5 +76,5 @@ When importing, administrators can update Product IDs, rule mappings, and enviro
 **Related topics**  
 
 
-[Set up blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/blueprints_101.md)
+[Set up blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/blueprints_101.md)
 

@@ -3,11 +3,11 @@ title: DevOps change models
 description: DevOps Change Velocity enables you to use fit-for-purpose change models that allow better flexibility in defining change models or processes to reflect modern development practices.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/devops-change-multimodel.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 16
 breadcrumb: [Accelerate your DevOps change process, DevOps Change Velocity, IT Service Management]
 ---
@@ -18,7 +18,7 @@ DevOps Change Velocity enables you to use fit-for-purpose change models that all
 
 ## DevOps Change model overview
 
-**Important:** For DevOps change requests, use the Change Management - Change Models feature, which provides greater flexibility to enable the change process flow in a way that is optimized for specific use cases. For more information, see . The legacy Change Management - State Model is also supported. For more information, see [Legacy: State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ChangeStateModel.md).
+**Important:** For DevOps change requests, use the Change Management - Change Models feature, which provides greater flexibility to enable the change process flow in a way that is optimized for specific use cases. For more information, see . The legacy Change Management - State Model is also supported. For more information, see [State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/c_ChangeStateModel.md).
 
 **Important:** The DevOps and DevOps Simplified change models are not supported for Argo CD and Split tool change requests.
 
@@ -199,7 +199,7 @@ Type is passed. For example, Normal```
 
 ErrorChange request can’t be created because the type compatibility flag is disabled. Enable the type compatibility flag in system properties or configure the change model in the step record in ServiceNow or enter the appropriate change model sys id or name in the pipeline.
 
-For information on resolving this error, see [Common errors in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-reference-error-messages.md).
+For information on resolving this error, see [Common errors in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/devops-reference-error-messages.md).
 
 </td></tr><tr><td>
 
@@ -237,7 +237,7 @@ Neither model nor change type is passed.
 
 ErrorChange request can’t be created because either the change type or change model isn’t configured for the pipeline.
 
-For information on resolving this error, see [Common errors in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-reference-error-messages.md).
+For information on resolving this error, see [Common errors in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/devops-reference-error-messages.md).
 
 </td></tr><tr><td>
 
@@ -279,7 +279,7 @@ Different type is passed. For example, Emergency.
 
 ErrorChange request cannot be created because the type compatibility flag is disabled. Enable the type compatibility flag in system properties or configure the change model in the step record in ServiceNow or enter the appropriate change model sys id or name in the pipeline.
 
-For information on resolving this error, see [Common errors in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-reference-error-messages.md).
+For information on resolving this error, see [Common errors in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/devops-reference-error-messages.md).
 
 </td></tr></tbody>
 </table>
@@ -291,7 +291,7 @@ For information on resolving this error, see [Common errors in DevOps Change Vel
 
     \[Omitted image "devops-simplified-model.png"\] Alt text: DevOps Simplified Change Model
 
-    If you want to create your own model instead of using the base system DevOps models, see the instructions in the [Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-a-change-model.md) section.
+    If you want to create your own model instead of using the base system DevOps models, see the instructions in the [Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-a-change-model.md) section.
 
     You can use record presets to configure change details for your change model. Whenever a change is created, these values will be automatically set on the change. You can set a record preset for any change field that exists in the change request.
 
@@ -394,7 +394,7 @@ In DevOps Change Velocity, the following considerations are made to send a callb
 
 -   The implementation states is used to send a callback to the third-party orchestration tool. If only one implementation state is present in the change model, then an absolute comparison is made. When the change created by a change model reaches the implementation state that is set, a call back is sent to the third-party orchestration tool.
 
-    **Note:** In change models, the Implementation states field can have one or more states. You can define the implementation states for each change model. For more information, see [Legacy: State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ChangeStateModel.md).
+    **Note:** In change models, the Implementation states field can have one or more states. You can define the implementation states for each change model. For more information, see [State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/c_ChangeStateModel.md).
 
 -   If multiple implementation states are present in the change model, a call back is sent to the third-party orchestration tool in the state where implementation state is reached first.
 -   If there’s no implementation state set on the change model, then the model states are checked for the **Implement** state. If the Implement state is present, then that is considered for call back to the third-party orchestration tool. If there’s no implement state in the model states as well, then the value present in the **sn\_devops.change\_request.implement\_state** property is considered. The value of the system property is -1 by default, which is the implement state.
@@ -404,7 +404,7 @@ In DevOps Change Velocity, the following considerations are made to send a callb
 ## After upgrade
 
 -   The **Change model** field will be displayed in the Step form. This won’t impact your existing type-based change creation process as the type compatibility property \(**com.snc.change\_management.change\_model.type\_compatibility**\) is true.
--   If you want to have a model-based change request, set the type compatibility property to false. The **Change model** field in the Step form will be required. For information on configuration combination based on the property, see the table [When the type compatibility property is set to False](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-change-multimodel.md).
+-   If you want to have a model-based change request, set the type compatibility property to false. The **Change model** field in the Step form will be required. For information on configuration combination based on the property, see the table [When the type compatibility property is set to False](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/devops-change-multimodel.md).
 
 **Note:** If you’re an existing customer and zbooted your instance, or a new customer, you can create model-based change requests by default. However, you can create type-based change requests by setting the type compatibility property to true.
 
@@ -460,7 +460,7 @@ In the base system, change approval \(auto or manual\) happens through the Chang
 
 </td><td>
 
-See the [Note](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-change-multimodel.md) in the Callback section.
+See the [Note](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/devops-change-multimodel.md) in the Callback section.
 
 </td></tr><tr><td>
 
@@ -488,7 +488,7 @@ In the base system, change approval \(auto or manual\) happens through the Chang
 
 </td><td>
 
-See the [Note](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-change-multimodel.md) in the Callback section.
+See the [Note](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/devops-change-multimodel.md) in the Callback section.
 
 </td></tr><tr><td>
 
@@ -515,7 +515,7 @@ In the base system, change approval \(auto or manual\) happens through the Chang
 
 </td><td>
 
-See the [Note](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-change-multimodel.md) in the Callback section.
+See the [Note](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/devops-change-multimodel.md) in the Callback section.
 
 </td></tr><tr><td>
 
@@ -543,7 +543,7 @@ In the base system, change approval \(auto or manual\) happens through the Chang
 
 </td><td>
 
-See the [Note](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-change-multimodel.md) in the Callback section.
+See the [Note](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/devops-change-multimodel.md) in the Callback section.
 
 </td></tr><tr><td>
 
@@ -570,8 +570,8 @@ DevOps Change Request Manual Approval, or DevOps Change Request Minimal Automati
 Change Control Callback flows
 
 </td></tr></tbody>
-</table>-   **[Update change model in pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/update-change-model-in-pipeline.md)**  
+</table>-   **[Update change model in pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/update-change-model-in-pipeline.md)**  
 Update the change model in your existing pipeline steps using the DevOps Pipeline Migration to Change Models catalog item.
 
-**Parent Topic:**[Accelerating your DevOps change process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md)
+**Parent Topic:**[Accelerating your DevOps change process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md)
 

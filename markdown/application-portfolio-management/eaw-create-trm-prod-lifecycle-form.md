@@ -1,22 +1,26 @@
 ---
 title: Create TRM product lifecycle form
-description: Add a new lifecycle for a TRM product. It creates the record directly without sending a request for approval.
+description: The Request TRM product lifecycle form is used to submit a request to add one or more lifecycle records to a TRM product. After you submit the request, an email notification is sent to the Enterprise Architect group for approval.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-create-trm-prod-lifecycle-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Create TRM product lifecycle form
 
-Add a new lifecycle for a TRM product. It creates the record directly without sending a request for approval.
+The Request TRM product lifecycle form is used to submit a request to add one or more lifecycle records to a TRM product. After you submit the request, an email notification is sent to the Enterprise Architect group for approval.
 
-## TRM Product Lifecycle form fields
+## TRM product lifecycles section — software products
 
-<table id="table_d1m_c5g_f5b"><thead><tr><th>
+When you select a software product in the **Type** field of the Details tab, select **Add version and edition** to add lifecycle fields.
+
+**Note:** You can add up to 5 version and edition combinations, with a maximum of 10 phases per combination.
+
+<table id="table_u4p_bgh_1kc"><thead><tr><th>
 
 Field
 
@@ -26,19 +30,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-TRM Product
-
-</td><td>
-
-Name of the TRM product. Look up and select the product from the TRM Products page.
-
-</td></tr><tr><td>
-
 Version
 
 </td><td>
 
-The version of the TRM software product. This field appears only when a TRM product of type software is selected in the **TRM product** field.To create a TRM software product lifecycle with wildcard, end the version with a '\*'.
+Version of the TRM software product. This field is required.To create a TRM software product lifecycle with a wildcard, end the version with an asterisk \(\*\).
 
 </td></tr><tr><td>
 
@@ -46,15 +42,15 @@ Edition
 
 </td><td>
 
-The edition of the TRM software product. This field appears only when a TRM product of type software is selected in the TRM Product field.
+Edition of the TRM software product.
 
 </td></tr><tr><td>
 
-TRM Phase
+TRM phase
 
 </td><td>
 
-Phase of the product. Look up and select a phase from the TRM Phases page.
+Phase of the product lifecycle. Look up and select a phase from the TRM Phases as defined in the Setup page. This field is required.
 
 </td></tr><tr><td>
 
@@ -62,7 +58,7 @@ Phase start date
 
 </td><td>
 
-Start date of the product lifecycle phase.
+Start date of the product lifecycle phase. This field is required.
 
 </td></tr><tr><td>
 
@@ -70,21 +66,30 @@ Phase end date
 
 </td><td>
 
-End date for the product lifecycle phase.
-
-</td></tr><tr><td>
-
-Description
-
-</td><td>
-
-Description about the product lifecycle request.
+End date of the product lifecycle phase.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+</table>## TRM product lifecycles section — hardware products
+
+When you select a hardware product in the **Type** field of the Details tab, select **Add model** to add lifecycle fields. Adding lifecycle records is optional.
+
+**Note:** You can add up to 5 hardware models, with a maximum of 10 phases per hardware model.
+
+|Field|Description|
+|-----|-----------|
+|Hardware model|Hardware model for the lifecycle record. This field is required.|
+|Model number|Model number of the hardware model. This field is automatically populated when you select a hardware model.|
+|Barcode|Barcode of the hardware model. This field is automatically populated when you select a hardware model.|
+|TRM phase|Phase of the product lifecycle. Look up and select a phase from the TRM Phases as defined in the Setup page. This field is required.|
+|Phase start date|Start date of the product lifecycle phase. This field is required.|
+|Phase end date|End date of the product lifecycle phase.|
+
+**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-form-field-information.md)
 
 **Related topics**  
 
 
-[Add a TRM product lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-trm-prod-lifecycle-req.md)
+[Create TRM product lifecycles in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-trm-prod-lifecycle-req.md)
+
+[Create a TRM product in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-trm-prod-lifecycle.md)
 

@@ -3,9 +3,9 @@ title: Performing Importance and impact tolerance assessment
 description: By analyzing the importance and the impact tolerance of your business service or service offering, you can measure how possible disruptions might impact the performance of a service. You can use the assessment questionnaire template​ in Operational Resilience Workspace to measure the importance and the impact tolerance of your selected business service and its child records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/analyze-impact-tolerance-importance-of-service-in-ws.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -27,11 +27,11 @@ If you have the sn\_oper\_res.admin role, you can create and maintain a pre-defi
 
 ## Using Smart Assessment to evaluate importance and impact tolerance of a service
 
-Beginning with Operational Resilience, release 21.x.x, the Smart Assessment functionality has been integrated with the Importance and impact tolerance assessment. It enables you to create and manage the Importance and impact tolerance assessments efficiently. It includes features such as an assessment type field with legacy and smart options, default templates, and automated data updates. To progress, all assessments must be completed, after which they become read-only and are ready for approval.
+Beginning with Operational Resilience, release 21.x.x, the Smart Assessment functionality has been integrated with the Importance and impact tolerance assessment. This integration enables you to create and manage the Importance and impact tolerance assessments efficiently. It includes features such as an assessment type field with legacy and smart options, default templates, and automated data updates. To progress, all assessments must be completed, after which they become read-only and are ready for approval.
 
 The system requires assessments to be completed, as cancellations are not supported. Defining the assessment scope is mandatory, and the system prevents creation of an assessment without the scope.
 
-With the enhanced approval flow, completed assessments are reviewed and validated, after which the assessor can request approval. Approver can then approve the assessment, completing the workflow. With Smart Assessment, the assessment can now be moved back to the **Pending Response** state, allowing the assessor to retake the assessment and resubmit it for approval.
+With the enhanced approval flow, completed assessments are reviewed and validated. The assessor can request approval, and the approver can then approve the assessment, completing the workflow. With Smart Assessment, the assessment can now be moved back to the **Pending Response** state, allowing the assessor to retake the assessment and resubmit it for approval.
 
 ## Tasks and states that are associated with the assessment workflow
 
@@ -131,7 +131,7 @@ An assessment can be closed only when it is in the **Approved** state. To close 
 </td></tr></tbody>
 </table>**Note:** If you have the sn\_oper\_res.admin role, you can delete the assessment in any state.​
 
-If you have the sn\_oper\_res.admin role, you can set up the assessment ratings by updating the criticality and order of the assessment rating in the Important choices module. For more information on setting up the assessment rating, see [Update the Important choices module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-important-choices.md).
+If you have the sn\_oper\_res.admin role, you can set up the assessment ratings by updating the criticality and order of the assessment rating in the Important choices module. For more information on setting up the assessment rating, see [Update the Important choices module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/set-up-important-choices.md).
 
-For more information on the Operational Resilience roles, see [Roles installed with Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/roles-installed-with-op-res.md).
+For more information on the Operational Resilience roles, see [Roles installed with Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/roles-installed-with-op-res.md).
 

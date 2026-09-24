@@ -3,9 +3,9 @@ title: Web Embeddables component events
 description: Events that Web Embeddables components trigger to track user interactions and component state changes on your third-party websites.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/we-events-detail.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Web Embeddables reference, Reference, Customer Service Management]
 ---

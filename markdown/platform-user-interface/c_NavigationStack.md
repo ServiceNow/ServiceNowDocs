@@ -3,9 +3,9 @@ title: Navigation stack
 description: The navigation stack is the portion of the ServiceNow suite of applications that determines where a user is redirected after the update of a record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_NavigationStack.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -24,7 +24,7 @@ The navigation stack can be thought of a user's navigation history in the instan
 
 ## Inserting pages to the navigation stack
 
-The administrator can insert page references manually into the navigation stack when a link in the navigation page is clicked. The module definition is modified to include an argument of sysparm\_stack with a string value equal to the [URL reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/navigate-using-url.md) to the page to insert into the stack. The following image shows the system definition for the **Incident** &gt; **Create New** module. By passing an argument of "sysparm\_stack=incident\_list.do", the list view of incidents \(incident\_list.do\) is added to the stack. After submitting an incident, the user is directed to this page.
+The administrator can insert page references manually into the navigation stack when a link in the navigation page is clicked. The module definition is modified to include an argument of sysparm\_stack with a string value equal to the [URL reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/navigate-using-url.md) to the page to insert into the stack. The following image shows the system definition for the **Incident** &gt; **Create New** module. By passing an argument of "sysparm\_stack=incident\_list.do", the list view of incidents \(incident\_list.do\) is added to the stack. After submitting an incident, the user is directed to this page.
 
 \[Omitted image "SysparmStackEx.png"\] Alt text: Argument in a module link
 
@@ -32,5 +32,5 @@ The administrator can insert page references manually into the navigation stack 
 
 The redirection behaviors that occur as a result of navigation stack behaviors can be overridden using onEvent business rules. This override is performed by using the function **gs.setRedirect**. Doing so overrides the redirection as determined by the navigation stack, when the specified event occurs. The function **gs.setRedirect** takes a string argument that is a URL for the page that the user is redirected to. This URL can be external, for example: **gs.setRedirect\('http://www.google.com'\)**.
 
-**Parent Topic:**[User interface configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/p_NavigationAndUIConfiguration.md)
+**Parent Topic:**[User interface configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/p_NavigationAndUIConfiguration.md)
 

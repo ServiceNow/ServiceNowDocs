@@ -3,11 +3,11 @@ title: Edit a free-form roadmap view
 description: Edit a customized free-form roadmap view based on your requirements, so you can access it when you log in again and share it with stakeholders for collaboration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/edit-free-form-roadmap-view-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Managing free-form roadmap views, Create a free-form roadmap, Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -64,14 +64,14 @@ Role required: sn\_align\_core.ap\_read\_only
 
 ## What to do next
 
-Share the free-form roadmap with your stakeholders to start collaborating on the free-form roadmap. For more information, see [Share a free-form roadmap with stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/share-free-form-roadmap-stakeholders-portfolio-planning.md).
+Share the free-form roadmap with your stakeholders to start collaborating on the free-form roadmap. For more information, see [Share a free-form roadmap with stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/share-free-form-roadmap-stakeholders-portfolio-planning.md).
 
-**Parent Topic:**[Managing free-form roadmap views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/managing-free-form-roadmap-views-ppw.md)
+**Parent Topic:**[Managing free-form roadmap views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/managing-free-form-roadmap-views-ppw.md)
 
 **Related topics**  
 
 
-[Create a free-form roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-free-form-roadmap-view-ppw.md)
+[Create a free-form roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/create-free-form-roadmap-view-ppw.md)
 
-[Delete a free-form roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/delete-free-form-roadmap-view-ppw.md)
+[Delete a free-form roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/delete-free-form-roadmap-view-ppw.md)
 

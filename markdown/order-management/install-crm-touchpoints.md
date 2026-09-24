@@ -3,9 +3,9 @@ title: Install CRM Touchpoints
 description: You can install the CRM Touchpoints application \(com.sn\_crm\_touchpoint\) if you have the admin role. The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/install-crm-touchpoints.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Activity Management, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -28,7 +28,7 @@ The following items are installed with CRM Touchpoints:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with CRM Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-crm-touchpoints.md).
+For more information, see [Components installed with CRM Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/components-installed-crm-touchpoints.md).
 
 ## Procedure
 
@@ -55,12 +55,12 @@ For more information, see [Components installed with CRM Touchpoints](https://ra
 
 ## What to do next
 
-[Create custom touchpoint types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-custom-touchpoint-types.md)
+[Create custom touchpoint types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-custom-touchpoint-types.md)
 
 **Related topics**  
 
 
-[Using Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-activity-management.md)
+[Using Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-activity-management.md)
 
-[Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-activity-management.md)
+[Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-activity-management.md)
 

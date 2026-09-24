@@ -3,11 +3,11 @@ title: Security Event Notifications history
 description: Explore the complete history of security event notifications on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/security-event-notifications-history.html
-release: australia
+release: brazil
 product: Security Center
 classification: security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Event Notifications, Security monitoring console, Security Center, Platform Security]
 ---
@@ -18,5 +18,5 @@ Explore the complete history of security event notifications on your instance.
 
 The **Notifications** page provides an overview of the notification history for all security event notification policies on your instance. You can view the data in charts, presenting it graphically and applying performance analytics functionalities like targets, thresholds, and KPI signals. Alternatively, you can view the data in a table format, enabling you to utilize standard functionalities such as search, sort, filter, and querying.
 
-**Parent Topic:**[Security Event Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/security-policies.md)
+**Parent Topic:**[Security Event Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/security-policies.md)
 

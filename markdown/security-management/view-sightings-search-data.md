@@ -3,9 +3,9 @@ title: View Sightings Search Data
 description: Review the aggregate data of all sighting searches.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/view-sightings-search-data.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create sightings search configuration records, Security Operations Integration- Sightings Search capability, Integration capabilities, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -120,5 +120,5 @@ Query to identify the instance. 172.10.0.171 is substitutable and gets substitut
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Create sightings search configuration records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sightings-search-configurations.md)
+**Parent Topic:**[Create sightings search configuration records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sightings-search-configurations.md)
 

@@ -3,11 +3,11 @@ title: Configure the spoke selector for external systems
 description: Configure the spoke selector for Aria to enable the configuration and execution of billing requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/configure-spoke-selector-for-external-systems.html
-release: australia
+release: brazil
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Help remediate bill issues, Customer Service Problem Management, Use agentic workflows, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---

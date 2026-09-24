@@ -3,11 +3,11 @@ title: Search for appropriate Field Service agents
 description: Search for agents with specific attributes in Dispatcher Workspace so you can make appropriate assignments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/search-agents-tasks.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
@@ -32,15 +32,15 @@ Role required: wm\_dispatcher
 
 3.  Search for field service agents or skills.
 
-<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d141149e108">
+<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d144199e108">
 
 Search criteria
 
-</th><th align="left" id="d141149e111">
+</th><th align="left" id="d144199e111">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d141149e117">
+</th></tr></thead><tbody><tr><td id="d144199e117">
 
 **Agent name**
 
@@ -48,17 +48,17 @@ Description
 
 Type an agent name in the **Search resources** field and select the Search \(\[Omitted image "search\_icon.png"\] Alt text: Search.\) icon.
 
-</td></tr><tr><td id="d141149e135">
+</td></tr><tr><td id="d144199e135">
 
 **Rank Resources**
 
 </td><td>
 
 Rank resources by level of importance.1.  Select the Rank Resources \[Omitted image "rank-resources-icon-fsm.png"\] Alt text: Rank resources. icon
-2.  Select a sort option to view the agents who meet the specific attributes and are available: **Default**, **Distance**, **Skills**, **Parts**, **Auto Assign Rules**. For more information, see [Activate dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/activate-dynamic-scheduling-plugin.md).
+2.  Select a sort option to view the agents who meet the specific attributes and are available: **Default**, **Distance**, **Skills**, **Parts**, **Auto Assign Rules**. For more information, see [Activate dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/activate-dynamic-scheduling-plugin.md).
 
 
-</td></tr><tr><td id="d141149e184">
+</td></tr><tr><td id="d144199e184">
 
 **Date**
 
@@ -75,5 +75,5 @@ Field service agents are listed based on the filter criteria. If agents aren’t
 **Related topics**  
 
 
-[Assign work order tasks to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/manage-work-order-tasks-dw.md)
+[Assign work order tasks to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/manage-work-order-tasks-dw.md)
 

@@ -3,11 +3,11 @@ title: Enable and configure a CMDB Health Dashboard job
 description: Enable and configure the CMDB Health Dashboard jobs that process CMDB Health tests, to start calculating CMDB Health scores for the completeness, compliance, correctness KPIs, associated metrics, and relationships.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/t\_EnableCMDBHealthDashboardJob.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---

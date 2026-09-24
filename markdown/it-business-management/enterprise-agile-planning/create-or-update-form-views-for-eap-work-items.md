@@ -3,11 +3,11 @@ title: Create or update form views for EAP work items
 description: Create or update form views for work item types so that the fields displayed in the Backlog and Planning board pages of Enterprise Agile Planning suit your team requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/create-or-update-form-views-for-eap-work-items.html
-release: australia
+release: brazil
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -42,15 +42,15 @@ Configuration for form views of work item tables determines the fields that are 
 
 5.  Create form views or update them.
 
-<table id="choicetable_xcm_cz1_f1c"><thead><tr><th align="left" id="d104193e129">
+<table id="choicetable_xcm_cz1_f1c"><thead><tr><th align="left" id="d103562e129">
 
 Option
 
-</th><th align="left" id="d104193e132">
+</th><th align="left" id="d103562e132">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d104193e138">
+</th></tr></thead><tbody><tr><td id="d103562e138">
 
 **Create form views**
 
@@ -69,7 +69,7 @@ You can also rearrange them in the order of your choice.
 5.  Repeat the steps to complete creating the other two form views.
 
 
-</td></tr><tr><td id="d104193e211">
+</td></tr><tr><td id="d103562e211">
 
 **Edit existing form views**
 
@@ -86,5 +86,5 @@ You can also rearrange them in the order of your choice.
 
 ## What to do next
 
-[Create or update list view for EAP work items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-or-update-list-views-for-eap-work-items.md).
+[Create or update list view for EAP work items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/create-or-update-list-views-for-eap-work-items.md).
 

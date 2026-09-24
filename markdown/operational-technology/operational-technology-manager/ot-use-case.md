@@ -3,11 +3,11 @@ title: Operational Technology and CSDM tables
 description: Operational Technology manages and uses CSDM tables. Several ServiceNow products benefit from and add value to Operational Technology.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/ot-use-case.html
-release: australia
+release: brazil
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Implementing the CSDM framework for Operational Technology, Configure, Operational Technology Manager, Operational Technology]
 ---
@@ -31,8 +31,8 @@ The numbers in this figure correspond to the CSDM tables managed by Incident Man
 ## CSDM tables used by Operational Technology
 
 1.  OT devices:
-    1.  Configuration Item classes were created for Operational Technology hardware classes \(cmdb\_ci\_ot\) by extending hardware. See [Operational Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models-operation-technology.md) for details.
-    2.  Any CI Class \(any relevant existing hardware class as well as new OT classes can be designated as OT devices by adding OT device details using the OT Device Details \(cmdb\_ot\_entity\) reference to the cmdb\_ot\_entity table. OT Device Details include OT-specific characteristics like Purdue Level and OT device type.
+    1.  Configuration Item classes were created for Operational Technology hardware classes \(cmdb\_ci\_ot\) by extending hardware. See [Operational Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-ci-class-models-operation-technology.md) for details.
+    2.  Any CI Class \(any relevant existing hardware class as well as new OT classes\) can be designated as OT devices. This can be achieved by adding OT device details using the OT Device Details \(cmdb\_ot\_entity\) reference to the cmdb\_ot\_entity table. OT Device Details include OT-specific characteristics like Purdue Level and OT device type.
     3.  OT device types describe the function of any CI that automates an industrial or production process. The cmdb\_ot\_entity\_type table describes these functions or roles.
 
         As shown here, a single OT device is represented by at least two records: one CI and one OT entity record. The device can contain six or more records in up to six tables \(for example, if the CI has more than one IP and MAC address\).
@@ -51,7 +51,7 @@ The numbers in this figure correspond to the CSDM tables managed by Incident Man
 
 3.  OT system service:
     1.  The OT system service class extends the Calculated Application Service and is used to create the OT system service
-    2.  The OT system service can then be associated with equipment model entities.
+    2.  The OT system service can then be associated with equipment model entities, technical services for software applications, and business offerings.
     3.  The OT system service can be related to the following items:
         -   OT devices that are part of the OT system service
         -   Equipment model entities that the OT system service manages
@@ -76,11 +76,11 @@ When you use OT with any of the following ServiceNow products, you increase the 
 
 -   **Discovery for Operational Technology**
 
-    Discovery for Operational Technology provides details about IT-classed hardware and software CIs and can be configured to provide additional OT device context like Purdue Level and Site on a per-OT schedule basis. Discovery for OT is part of the Operational Technology Manager product.
+    Discovery for Operational Technology provides details about IT-classed hardware and software CIs. It can be configured to provide additional OT device context like Purdue Level and Site on a per-OT schedule basis. Discovery for OT is part of the Operational Technology Manager product.
 
 -   **Industrial Process Manager**
 
-    When OT devices are assigned to an equipment model entity, **automated by::automates** relationships are created between them. This can be done manually in the Industrial Workspace or using the relationship between OT subnets and equipment model entities using the Automatic Mapping Across Zone-based IP Network Groups \(AMAZING\) feature in the OT Subnet Mapping menu item.
+    When OT devices are assigned to an equipment model entity, **automated by::automates** relationships are created between them. This can be done manually in the Industrial Workspace. You can also use the Automatic Mapping Across Zone-based IP Network Groups \(AMAZING\) feature in the OT Subnet Mapping menu item. This feature establishes a relationship between OT subnets and equipment model entities.
 
 -   **Operational Technology Vulnerability Response**
 
@@ -128,5 +128,5 @@ When you use OT with any of the following ServiceNow products, you increase the 
     Manages the impact of the software and hardware life cycle process on the production processes.
 
 
-**Parent Topic:**[Implementing the CSDM framework for Operational Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/ot-use-case-product-view.md)
+**Parent Topic:**[Implementing the CSDM framework for Operational Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/ot-use-case-product-view.md)
 

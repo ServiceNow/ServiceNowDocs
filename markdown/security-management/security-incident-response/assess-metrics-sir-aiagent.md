@@ -3,11 +3,11 @@ title: Analyze security operations metrics
 description: Chat with an AI agent from the ServiceNow Otto panel to help you gain insight into how efficiently your security analysts are working with security incidents resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/assess-metrics-sir-aiagent.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Analyze security operations, Use agentic workflows, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_si.manager
 
 ## About this task
 
-**Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 
@@ -109,5 +109,5 @@ End the conversation.
     -   sn\_sec\_gen\_ai.aia\_metric\_analysis\_dimensions - The AI agent breaks analysis down based on the following fields when analyzing MTTR and MTTA metrics: **category**, **priority**, **close\_code**, **assigned\_to**, **alert\_sensor**. Users with the sn\_si.manager and sn\_si.admin roles can modify this list.
     -   sn\_sec\_gen\_ai.aia\_metric\_analysis\_outlier\_factor - This property determines the outlier factor for MTTR and MTTA. The default outlier value is 2. By default, a record is an outlier if its MTTR exceeds twice the average time an assignment group takes to resolve security incidents for your requested time range. Users with the sn\_si.manager and sn\_si.admin roles can modify this value.
 
-**Parent Topic:**[Analyze security operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/now-assist-sir-soc-efficiency-usecase.md)
+**Parent Topic:**[Analyze security operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/now-assist-sir-soc-efficiency-usecase.md)
 

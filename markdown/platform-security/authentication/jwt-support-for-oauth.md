@@ -3,11 +3,11 @@ title: Private Key JWT Support for OAuth 2.0 Client Authentication
 description: Support JWT Support for OAuth 2.0 Client Authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/jwt-support-for-oauth.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [OAuth Outbound, OAuth authentication, Authentication, Access Management]
 ---
@@ -31,6 +31,6 @@ Plugins required for OAuth 2.0 Client Authentication using JWT token:
 
 You can use the OAuth 2.0 Client Authentication using Private Key JWT for the following:
 
--   [OIDC based single sign-on](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/config-private-key-jwt-oidc-sso.md)
--   [Outbound OAuth integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/config-private-key-jwt-outbound-oauth.md)
+-   [OIDC based single sign-on](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/config-private-key-jwt-oidc-sso.md)
+-   [Outbound OAuth integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/config-private-key-jwt-outbound-oauth.md)
 

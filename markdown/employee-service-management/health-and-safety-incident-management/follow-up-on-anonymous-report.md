@@ -3,11 +3,11 @@ title: Follow up on an anonymous report
 description: You can retrieve your anonymous report to submit or view comments and updates from the agents working on your anonymous report. You must have the report key and report number to access your anonymous report.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-incident-management/follow-up-on-anonymous-report.html
-release: australia
+release: brazil
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage anonymous safety concerns, Manage, Health and Safety Incident Management, Health and Safety, Employee Service Management]
 ---
@@ -53,10 +53,16 @@ After submitting the anonymous report, you’ll see a modal dialogue requesting 
 9.  Select **Post**.
 
 
-**Parent Topic:**[Managing an anonymous safety concern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/managing_anonymous_safety_concern.md)
+**Parent Topic:**[Managing an anonymous safety concern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-incident-management/managing_anonymous_safety_concern.md)
+
+**Parent Topic:**[Managing an anonymous safety concern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-incident-management/managing_anonymous_safety_concern.md)
 
 **Related topics**  
 
+
+[Submit an anonymous safety concern]()
+
+[Work on an anonymous safety concern]()
 
 [Submit an anonymous safety concern]()
 

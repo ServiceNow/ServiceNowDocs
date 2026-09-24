@@ -3,11 +3,11 @@ title: Create a ranking definition
 description: Enable context ranking for a related list by creating a ranking definition.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/t\_CreatingARankingDefinition.html
-release: australia
+release: brazil
 product: List Administration
 classification: list-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Context ranking, Administer, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -60,5 +60,5 @@ The system does not generate indexes for ranking definitions inserted into the d
 
 \[Omitted image "RankingDefinitionForm.png"\] Alt text: Generate an index manually
 
-**Parent Topic:**[Context ranking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/r_ContextRanking.md)
+**Parent Topic:**[Context ranking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-administration/r_ContextRanking.md)
 

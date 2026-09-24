@@ -3,11 +3,11 @@ title: ADFS integration with SAML 2.0
 description: The ServiceNow Multi-Provider SSO plugin supports a SAML 2. single sign-on \(SSO\) integration with Microsoft ADFS.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/c\_ADFSIntegrationWithSAML2.0.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating SAML 2.0 with other features, SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---

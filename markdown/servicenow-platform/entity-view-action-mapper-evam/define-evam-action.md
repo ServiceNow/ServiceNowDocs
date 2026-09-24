@@ -3,11 +3,11 @@ title: Create an EVAM action definition
 description: You can associate a declarative action with a view template. The Entity View Action Mapper \(EVAM\) also enables user interactions to trigger a server script or UXF client action.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/entity-view-action-mapper-evam/define-evam-action.html
-release: australia
+release: brazil
 product: Entity View Action Mapper \(EVAM\)
 classification: entity-view-action-mapper-evam
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing Entity View Action Mapper, Entity view action mapper, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---

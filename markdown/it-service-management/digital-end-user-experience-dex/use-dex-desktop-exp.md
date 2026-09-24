@@ -3,13 +3,13 @@ title: Use DEX Desktop Assistant
 description: Use DEX Desktop Assistant to get quick access to self-service and diagnostic tools, notifications about outages and announcements, and support resources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/use-dex-desktop-exp.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Digital End-User Experience, IT Service Management]
+breadcrumb: [Solve issues, Digital End-User Experience, IT Service Management]
 ---
 
 # Use DEX Desktop Assistant
@@ -49,7 +49,7 @@ Sections
 
 Sections help you search for items by arranging them sequentially and in logical groups. By default, ServiceNow provides the My resources and Quick links sections.
 
- Desktop Assistant administrators can configure additional sections for the home page. For more information, see [Add a section in the Desktop Assistant home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/add-home-page-section.md).
+ Desktop Assistant administrators can configure additional sections for the home page. For more information, see [Add a section in the Desktop Assistant home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/add-home-page-section.md).
 
 </td></tr><tr><td>
 
@@ -57,12 +57,12 @@ Cards
 
 </td><td>
 
-Desktop Assistant provides the following cards with the base system:-   Device health check: Monitor and self-resolve common device health issues. For more information, see [Check device health using Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-desktop-assistant.md).
--   Network test: Run network diagnostic tests. For more information, see [Test network connectivity of your device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/test-internet-connection.md).
--   Employee Center: Access the Employee Center portal. For more information, see [Open Employee Center from Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/open-employee-center.md).
--   Outages: View outages on Employee Center. For more information, see [View outages from Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/open-outages.md).
+Desktop Assistant provides the following cards with the base system:-   Device health check: Monitor and self-resolve common device health issues. For more information, see [Check device health using Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/check-your-device-s-health-using-desktop-assistant.md).
+-   Network test: Run network diagnostic tests. For more information, see [Test network connectivity of your device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/test-internet-connection.md).
+-   Employee Center: Access the Employee Center portal. For more information, see [Open Employee Center from Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/open-employee-center.md).
+-   Outages: View outages on Employee Center. For more information, see [View outages from Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/open-outages.md).
 
-By default, the Device health check card and the Network test card are mapped to the My resources section. The Employee Center card and the Outages card are mapped to the Quick links section. Desktop Assistant administrators can map cards to any section or remove cards from any section on the home page. To map a card to a section, see [Map a card to a section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/map-card-section.md). To remove a card, see [Delete a card from the Desktop Assistant home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/delete-card.md).
+By default, the Device health check card and the Network test card are mapped to the My resources section. The Employee Center card and the Outages card are mapped to the Quick links section. Desktop Assistant administrators can map cards to any section or remove cards from any section on the home page. To map a card to a section, see [Map a card to a section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/map-card-section.md). To remove a card, see [Delete a card from the Desktop Assistant home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/delete-card.md).
 
 </td></tr></tbody>
 </table>**Note:** If you experience issues with Desktop Assistant, troubleshoot them by accessing the logs at these locations:

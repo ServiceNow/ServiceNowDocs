@@ -3,11 +3,11 @@ title: View reports on authorization boundary elements
 description: Use the authorization boundary overview page to define the parameters of a security measure for an organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/auth-bound-overview-ws.html
-release: australia
+release: brazil
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
@@ -69,10 +69,10 @@ For example, your organization might have many data centers. You can define a pa
 
 Select the name of the Active package in the side bar to navigate to the Authorization Package overview page.
 
--   **[Configure boundary hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/add-child-boundary.md)**  
+-   **[Configure boundary hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/add-child-boundary.md)**  
 Establish parent-child relationships between authorization boundaries to improve boundary management, visibility, and organizational structure within Continuous Authorization and Monitoring. You can assign a parent boundary and associate multiple child boundaries to authorization boundary.
--   **[Create a boundary filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/create-boundary-filter.md)**  
+-   **[Create a boundary filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/create-boundary-filter.md)**  
 Create boundary filters to define system elements within an authorization boundary based on specific table conditions.
 
-**Parent Topic:**[Continuous authorization and monitoring tasks in the CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ws-continuous-auth-monitor.md)
+**Parent Topic:**[Continuous authorization and monitoring tasks in the CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ws-continuous-auth-monitor.md)
 

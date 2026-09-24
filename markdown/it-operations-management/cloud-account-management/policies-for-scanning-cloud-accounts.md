@@ -3,11 +3,11 @@ title: Policy list for scanning cloud accounts
 description: A list of default policies provided for scanning the cloud accounts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/policies-for-scanning-cloud-accounts.html
-release: australia
+release: brazil
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -147,7 +147,7 @@ Check GCP Pending Certification
 Verifies if GCP account certification is in a pending state. This monitoring enables prompt resolution of pending certification and avoids potential security vulnerabilities.
 
 </td></tr></tbody>
-</table>To return to the procedure, see [Set up scan configuration for data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/set-up-data-visualization.md).
+</table>To return to the procedure, see [Set up scan configuration for data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/set-up-data-visualization.md).
 
-**Parent Topic:**[Cloud Account Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/cam-reference.md)
+**Parent Topic:**[Cloud Account Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/cam-reference.md)
 

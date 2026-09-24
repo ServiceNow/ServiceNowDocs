@@ -3,11 +3,11 @@ title: Join a team
 description: You can join a public team, accept an invitation, or request access to a team.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_JoinATeam.html
-release: australia
+release: brazil
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use teams in Live Feed, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,11 +24,11 @@ Role required: admin
 
 As a team member, you can:
 
--   [View messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/t_ViewATeamFeed.md) posted to the team \(team feed\). Non-members can also view the feed for a public team.
--   [View a list of team members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/t_ViewATeamMember.md).
--   [Invite another team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/t_InviteANewMember.md) to join the team.
--   [Subscribe to team email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/t_SubscribToTeamEmailNotif.md).
--   [Leave](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/t_LeaveATeam.md) the team.
+-   [View messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/t_ViewATeamFeed.md) posted to the team \(team feed\). Non-members can also view the feed for a public team.
+-   [View a list of team members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/t_ViewATeamMember.md).
+-   [Invite another team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/t_InviteANewMember.md) to join the team.
+-   [Subscribe to team email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/t_SubscribToTeamEmailNotif.md).
+-   [Leave](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/t_LeaveATeam.md) the team.
 
 ## Procedure
 
@@ -40,5 +40,5 @@ As a team member, you can:
     -   If the team is public, click **Join**.
     -   If the team is private, click **Request**. The team administrator receives an email notification and must accept your request before you can join the team.
 
-**Parent Topic:**[Use teams in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_UseTeamsInLiveFeed.md)
+**Parent Topic:**[Use teams in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/c_UseTeamsInLiveFeed.md)
 

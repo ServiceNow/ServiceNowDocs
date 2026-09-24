@@ -3,11 +3,11 @@ title: Create a questionnaire
 description: Create and insert a new questionnaire for agents to respond to.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-questionnaire.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Questionnaire activity, Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -20,7 +20,7 @@ Create and insert a new questionnaire for agents to respond to.
 
 Role required: admin, playbook\_admin, playbook\_author, or playbook\_content\_author
 
-Familiarize yourself with the [questionnaire activity inputs and outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/questionnaire-activity.md).
+Familiarize yourself with the [questionnaire activity inputs and outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/questionnaire-activity.md).
 
 ## Procedure
 
@@ -82,7 +82,7 @@ Define the order in which this activity will appear during a playbook run. This 
 
 </td><td>
 
-Specify a duration of time to wait before running an activity whose start rule and conditions have been met. Give users a specific amount of time to complete actions. This field is hidden by default. For more information, see [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/start-with-delay-properties.md).
+Specify a duration of time to wait before running an activity whose start rule and conditions have been met. Give users a specific amount of time to complete actions. This field is hidden by default. For more information, see [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/start-with-delay-properties.md).
 
 </td></tr><tr><td>
 
@@ -101,7 +101,7 @@ After the activity starts, the activity runs only if specific conditions are met
 Choose what this activity does when a playbook is restarted:-   **Skip on restart**: Skip this activity when the playbook run is due to a restart.
 -   **Run always**: Always run this activity, including first runs.
 -   **Skip on first run**: Skip this activity during the first run.
-For more information, see [Restart a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/restart-a-playbook.md).
+For more information, see [Restart a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/restart-a-playbook.md).
 
 </td></tr></tbody>
 </table>6.  Under the **Questionnaire** tab, select **Create questionnaire**.
@@ -116,7 +116,7 @@ For more information, see [Restart a playbook](https://raw.githubusercontent.com
 
     3.  Toggle the **Required question** to make the question optional.
 
-        **Note:** Marking a question as required means the user must answer it before submitting the questionnaire. It doesn't prevent the user from skipping the activity. For more information, see [Questionnaire activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/questionnaire-activity.md).
+        **Note:** Marking a question as required means the user must answer it before submitting the questionnaire. It doesn't prevent the user from skipping the activity. For more information, see [Questionnaire activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/questionnaire-activity.md).
 
     4.  Select a **Type of answer** for this question.
 
@@ -139,5 +139,5 @@ For more information, see [Restart a playbook](https://raw.githubusercontent.com
     Editing a questionnaire changes the activity definition. Playbook executions already in progress continue to use the questionnaire as it was when the execution started.
 
 
-**Parent Topic:**[Questionnaire activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/questionnaire-activity.md)
+**Parent Topic:**[Questionnaire activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/questionnaire-activity.md)
 

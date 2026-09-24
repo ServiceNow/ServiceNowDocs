@@ -3,9 +3,9 @@ title: Configure an event handler for a Filter component
 description: On a technical dashboard, configure a special client script-based event handler for a Filter component so it can be followed by any Lists or Data Visualizations. It is not necessary to configure an event handler for filters on inline dashboards.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/configure-event-handler-filter-lists-data-vis.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Technical dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -33,7 +33,7 @@ Role required: ui\_builder\_admin, admin
 
 2.  Navigate to the UI Builder State section and add a state variable named *parFilters* of type JSON with a simple array initial value `[]`.
 
-    For more information, see [Create and bind a client state parameter to a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/state-parameters.md).
+    For more information, see [Create and bind a client state parameter to a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/state-parameters.md).
 
     \[Omitted image "add-parFilters.png"\] Alt text: Adding the parFilters client state parameter to a UIB page.
 
@@ -68,24 +68,12 @@ Role required: ui\_builder\_admin, admin
 
 8.  In the UI Builder, select the Filter component.
 
-9.  Select the **Events** tab in the configuration panel and add the page script you have created, which in our example is Apply PAR Filters, as an event handler.
+9.  Select the **Events** tab in the configuration panel and add the page script you have created, which in this example is Apply PAR Filters, as an event handler.
 
     \[Omitted image "add-apply-par-filters.png"\] Alt text: Adding the Apply PAR Filters script as the Filter applied event handler.
 
-10. In the UI Builder, select a Record List component, if one exists.
-
-11. Open the Presentational List subcomponent of the Record List in the configuration panel.
-
-12. In the Data section, select **Edit fixed filter** and set this property \[fixedQuery\] as the dynamic binding expression `@state.encodedQueries.<list-datasource>`.
-
-    Replace &lt;list-datasource&gt; with the data source for the List component. For example, if your List shows records from the Incident \[incident\] table, enter `@state.encodedQueries.incident`.
-
-    \[Omitted image "configure-fixed-filter.png"\] Alt text: In the fixed filter field on a List config panel, binding the fixedQuery property to the encodedQueries client state parameter.
-
-13. Repeat the previous two steps for any other List components.
-
-14. Save the page.
+10. Save the page.
 
 
-**Parent Topic:**[Technical dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/technical-dashboards.md)
+**Parent Topic:**[Technical dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/technical-dashboards.md)
 

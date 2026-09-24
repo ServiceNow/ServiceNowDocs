@@ -3,13 +3,13 @@ title: Domain separation and Predictive Intelligence
 description: Domain separation is supported in the Predictive Intelligence application. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/domain-separation-predictive-intelligence.html
-release: australia
+release: brazil
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Predictive Intelligence references, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Predictive Intelligence references, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Domain separation and Predictive Intelligence
@@ -25,7 +25,7 @@ Domain separation is supported in the Predictive Intelligence application. Domai
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-separated-apps.md).
 
 ## Overview of domain separation and Predictive Intelligence
 
@@ -43,7 +43,7 @@ An instance owner can train a machine learning \(ML\) solution for each domain b
 -   Tenant domains can manage their own application data
 -   Application properties are domain-aware when needed
 
-**Parent Topic:**[Predictive Intelligence references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/reference-predictive-intelligence.md)
+**Parent Topic:**[Predictive Intelligence references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/predictive-intelligence/reference-predictive-intelligence.md)
 
 **Related topics**  
 
@@ -56,5 +56,5 @@ An instance owner can train a machine learning \(ML\) solution for each domain b
 
 [Predictive Intelligence roles]()
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-sep-landing-page.md)
 

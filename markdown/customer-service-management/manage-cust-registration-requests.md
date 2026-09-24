@@ -3,9 +3,9 @@ title: Manage customer registration requests
 description: Users with the customer administrator role can approve or reject registration requests that customers submit from the Customer Service Portal.Approve a registration request from a user that was submitted from the Customer Service Portal with a valid registration code.Approve a registration request from a user that was submitted from the Customer Service Portal with an invalid registration code.Reject a registration request from a user that was submitted from the Customer Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/manage-cust-registration-requests.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
@@ -17,9 +17,9 @@ Users with the customer administrator role can approve or reject registration re
 **Related topics**  
 
 
-[Approve a registration request with a valid registration code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/manage-cust-registration-requests.md)
+[Approve a registration request with a valid registration code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/manage-cust-registration-requests.md)
 
-[Reject a registration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/manage-cust-registration-requests.md)
+[Reject a registration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/manage-cust-registration-requests.md)
 
 ## Approve a registration request with a valid registration code
 
@@ -33,15 +33,15 @@ Role required: sn\_customerservice.customer\_admin
 
 1.  Navigate to the customer portal.
 
-2.  Click **Approvals**.
+2.  Select **Approvals**.
 
     The Approvals list displays registration requests with these states: **Requested** and **No Longer Required**.
 
-3.  Click a request in the Approvals list with a state of **Requested**.
+3.  Select a request in the Approvals list with a state of **Requested**.
 
 4.  If desired, add any **Comments** to this request.
 
-5.  Click **Approve**.
+5.  Select **Approve**.
 
     A user account is created and an email is sent to the contact’s email address with a user ID and temporary password. The user is also assigned these roles: sn\_esm\_user and snc\_external.
 
@@ -93,11 +93,11 @@ Role required: sn\_customerservice.customer\_admin
 
 1.  Navigate to the customer portal.
 
-2.  Click **My Approvals**.
+2.  Select **My Approvals**.
 
-3.  Click a request in the Approvals list with a state of **Requested**.
+3.  Select a request in the Approvals list with a state of **Requested**.
 
-4.  Click **Reject**.
+4.  Select **Reject**.
 
     An email regarding the rejection is sent to the requestor’s email address.
 

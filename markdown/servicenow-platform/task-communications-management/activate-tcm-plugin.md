@@ -3,11 +3,11 @@ title: Activate Task Communications Management
 description: The Task Communications Management plugin \(com.snc.task\_communication\_management\) is activated when you activate the Incident Communications Management plugin \(com.snc.iam\) or the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\). This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/task-communications-management/activate-tcm-plugin.html
-release: australia
+release: brazil
 product: Task Communications Management
 classification: task-communications-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Task Communications Management plugins, Task Communications Management, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -61,18 +61,18 @@ The Targeted Communications plugin provides a way to publish and send out newsle
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 
--   **[Components installed with Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/task-communications-management/components-installed-with-tcm.md)**  
+-   **[Components installed with Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/task-communications-management/components-installed-with-tcm.md)**  
 Several types of components are installed with the Task Communications Management plugin, including tables and user roles.
 
-**Parent Topic:**[Task Communications Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/task-communications-management/tcm-plugins.md)
+**Parent Topic:**[Task Communications Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/task-communications-management/tcm-plugins.md)
 
 **Related topics**  
 
 
 [Install Collaboration Services for Task Communications Management]()
 
-[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-of-plugins.md)
 

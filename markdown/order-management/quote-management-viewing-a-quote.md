@@ -3,9 +3,9 @@ title: View an existing quote
 description: View existing quotes to update the quote status or make other changes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-management-viewing-a-quote.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -34,5 +34,5 @@ Role required: sales\_agent
 5.  Select **Save**.
 
 
-**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-mgmt-using.md)
 

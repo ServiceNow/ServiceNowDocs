@@ -3,9 +3,9 @@ title: Define test measure definitions for a service test
 description: Define unique test metrics, such as parameters and criteria to run the test on a given service during testing. These metrics help promote that the service meets the desired standards and requirements to provide a satisfactory user experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/define-test-measure-spm.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up test definitions, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
 ---

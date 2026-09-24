@@ -3,11 +3,11 @@ title: Upgrade to the latest version of Service Graph Connector for Microsoft SC
 description: Upgrade your Service Graph Connector for Microsoft SCCM. When you upgrade versions, you can select the files that you want to transfer from the earlier version to the later version of the Service Graph Connector for Microsoft SCCM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/upgrade-sccm-newer-version.html
-release: australia
+release: brazil
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Microsoft SCCM, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,7 +32,7 @@ After you have upgraded to the newer version, you can check the upgrade status.
 
 1.  Review all the updates from the upgrade center and select the data source files from the newer version.
 
-    You can access the upgrade history and review the updates from the Skipped Changes to Review related list. See [Review skipped records using related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/uc-access-rl.md).
+    You can access the upgrade history and review the updates from the Skipped Changes to Review related list. See [Review skipped records using related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/uc-access-rl.md).
 
 2.  If you have customized the earlier version, select the changes that you need from the older file and migrate them to the new file.
 
@@ -50,7 +50,7 @@ After the upgrade, if there are changes to the SQL in the data source files or m
 
 For more information on resolving any conflicts, see the following topics:
 
--   [Revert a customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/uc-revert-customization.md)
--   [Resolve a skipped update and set a resolution status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/uc-resolve-skipped-update.md)
--   [Skipped Changes to Review related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/uc-access-rl.md)
+-   [Revert a customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/uc-revert-customization.md)
+-   [Resolve a skipped update and set a resolution status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/uc-resolve-skipped-update.md)
+-   [Skipped Changes to Review related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/uc-access-rl.md)
 

@@ -3,11 +3,11 @@ title: Download and install .Net Desktop Runtime for AI Desktop Actions
 description: Reduce setup time and prevent installation errors by downloading and installing .Net Desktop Runtime following the instructions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/install-dot-network-framework-ad.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-25"
-reading_time_minutes: 2
-breadcrumb: [Defined desktop actions for desktop, Configure, AI Desktop Actions, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Defined desktop actions, Configure, AI Desktop Actions, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Download and install .Net Desktop Runtime for AI Desktop Actions
@@ -16,7 +16,7 @@ Reduce setup time and prevent installation errors by downloading and installing 
 
 ## Before you begin
 
-Ensure that you have installed the AI Desktop Actions MSI. For more information, see [Download AI Desktop Actions installer for defined desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/download-agentic-desktop-installer.md).
+Ensure that you have installed the AI Desktop Actions MSI. For more information, see [Download AI Desktop Actions installer for defined desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/download-agentic-desktop-installer.md).
 
 Role required: admin
 
@@ -117,7 +117,5 @@ The AI Desktop Actions installer guides you through installation of .NET Desktop
 
 ## What to do next
 
-Use AI Desktop Actions to design desktop actions. For more information, see [Defined desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/desktop-actions-designer-workspace-ad.md).
-
-**Parent Topic:**[Configuring AI Desktop Actions for defined path desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ad-defined-path-da.md)
+Use AI Desktop Actions to design desktop actions. For more information, see [Defined desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/desktop-actions-designer-workspace-ad.md).
 

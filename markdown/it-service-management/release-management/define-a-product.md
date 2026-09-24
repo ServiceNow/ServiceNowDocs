@@ -3,11 +3,11 @@ title: Define a product in Release Management
 description: Define a product in the Release Management application to facilitate managing a release process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/release-management/define-a-product.html
-release: australia
+release: brazil
 product: Release Management
 classification: release-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Release Management v2, Release Management, IT Service Management]
 ---
@@ -24,7 +24,7 @@ Role required: release\_v2\_admin
 
 1.  Navigate to **All** &gt; **Release** &gt; **Products**.
 
-2.  select **New**.
+2.  Click **New**.
 
 3.  On the form, fill in the fields.
 
@@ -41,5 +41,5 @@ Role required: release\_v2\_admin
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Using Release Management v2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/release-management/c_Release.md)
+**Parent Topic:**[Using Release Management v2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/release-management/c_Release.md)
 

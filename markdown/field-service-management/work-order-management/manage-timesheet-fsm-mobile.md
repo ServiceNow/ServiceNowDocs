@@ -3,11 +3,11 @@ title: Manage time cards in the time sheet
 description: Manage your time cards in the ServiceNow Agent mobile app by performing actions such as submitting or deleting a time card or viewing notes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/manage-timesheet-fsm-mobile.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Time sheets, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
@@ -30,15 +30,15 @@ Role required: wm\_agent
 
 4.  Manage your time cards.
 
-<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d118488e94">
+<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d121758e94">
 
 Action
 
-</th><th align="left" id="d118488e97">
+</th><th align="left" id="d121758e97">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d118488e103">
+</th></tr></thead><tbody><tr><td id="d121758e103">
 
 **Submit time card**
 
@@ -46,7 +46,7 @@ Steps
 
 Tap **Submit time card**.**Note:** This option is available only when hours are posted for a day against the task.
 
-</td></tr><tr><td id="d118488e118">
+</td></tr><tr><td id="d121758e118">
 
 **View a time card**
 
@@ -54,7 +54,7 @@ Tap **Submit time card**.**Note:** This option is available only when hours are 
 
 Tap **View time card** to view time card details such as task, hours, resource plan, and notes.
 
-</td></tr><tr><td id="d118488e130">
+</td></tr><tr><td id="d121758e130">
 
 **View time card notes**
 
@@ -62,7 +62,7 @@ Tap **View time card** to view time card details such as task, hours, resource p
 
 Tap **Time card notes** to view the notes related to the time card.
 
-</td></tr><tr><td id="d118488e142">
+</td></tr><tr><td id="d121758e142">
 
 **Add time card notes**
 
@@ -70,7 +70,7 @@ Tap **Time card notes** to view the notes related to the time card.
 
 Tap **Add new note** to add a new note.
 
-</td></tr><tr><td id="d118488e155">
+</td></tr><tr><td id="d121758e155">
 
 **Delete a time card**
 

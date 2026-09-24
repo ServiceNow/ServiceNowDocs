@@ -3,11 +3,11 @@ title: Associate a risk statement with a control objective in the Risk Workspace
 description: Associate risk statements to control objectives in the Risk Workspace. This association helps you to manage your risks by ensuring that the risks have mitigating controls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/create-control-objective-ws.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -28,7 +28,7 @@ When a control objective and risk statement are associated and the control entit
 
 1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace**.
 
-2.  In the Risk Workspace, select the list \[Omitted image "list-icon-risk-workspace.png"\] Alt text: List. icon.
+2.  In the Risk Workspace, select the list \[Omitted image "ws-list-icon.png"\] Alt text: List. icon.
 
 3.  Navigate to **Library** &gt; **Control objectives**.
 
@@ -49,5 +49,5 @@ When a control objective and risk statement are associated and the control entit
 
 The risks associated with the risk statement automatically inherit the controls associated with the control objectives with matching entities.
 
-**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
+**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
 

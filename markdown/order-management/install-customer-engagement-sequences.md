@@ -3,9 +3,9 @@ title: Install Customer Engagement Sequences
 description: You can install the Customer Engagement Sequences application \(com.sn\_crm\_sequence\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/install-customer-engagement-sequences.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer Engagement Sequences, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -28,7 +28,7 @@ The following items are installed with Customer Engagement Sequences:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-customer-engagement-sequences.md).
+For more information, see [Components installed with Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/components-installed-customer-engagement-sequences.md).
 
 ## Procedure
 
@@ -52,7 +52,7 @@ For more information, see [Components installed with Customer Engagement Sequenc
 **Related topics**  
 
 
-[Using Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-customer-engagement-sequences.md)
+[Using Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-customer-engagement-sequences.md)
 
-[Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-customer-engagement-sequences.md)
+[Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-customer-engagement-sequences.md)
 

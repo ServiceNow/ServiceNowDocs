@@ -3,11 +3,11 @@ title: Supported features in Service Portal
 description: Service Portal is an alternative presentation layer for the platform. As such, not all features of the platform are extended to Service Portal. Consider your full application and the abilities of Service Portal before making considerable investments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/unsupported-features-sp.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -18,7 +18,7 @@ Service Portal is an alternative presentation layer for the platform. As such, n
 
 ## Not currently supported
 
-Domain separation at Levels 1-3. However, Service Portal does include support for domain separation at the **Data only** level. For more information, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md) and [Domain separation and Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/domain-separation-service-portal.md).
+Domain separation at Levels 1-3. However, Service Portal does include support for domain separation at the **Data only** level. For more information, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-separated-apps.md) and [Domain separation and Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/domain-separation-service-portal.md).
 
 ## No plans to support
 
@@ -31,14 +31,14 @@ Domain separation at Levels 1-3. However, Service Portal does include support fo
 -   UI actions marked as **Client**
 -   Nested container Catalog variables
 -   Survey wizards
--   [OpenFrame](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_OpenFrameOverview.md)
+-   [OpenFrame](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_OpenFrameOverview.md)
 
--   **[Service Catalog forms in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sc-forms-in-sp.md)**  
+-   **[Service Catalog forms in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/sc-forms-in-sp.md)**  
 Service Catalog forms are rendered within Service Portal widgets in a two-column layout. Complex forms may not display as expected.
--   **[Service Portal and client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/unsupported_client_scripts.md)**  
+-   **[Service Portal and client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/unsupported_client_scripts.md)**  
 You can use client scripts and catalog client scripts in the Service Portal if the UI Type is set to **Mobile / Service Portal** or **All**. Client scripts and catalog client scripts are used with the Form widget and SC Catalog Item widget, as opposed to a widget client controller.
--   **[Antivirus Scanning in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/av-sp.md)**  
+-   **[Antivirus Scanning in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/av-sp.md)**  
 View the health status of file attachments in Service Portal. Antivirus Scanning scans files in the Attachments \[sys\_attachments\] table by default. When viewed from a Service Portal page, attachments may not be available for download depending on their health status.
 
-**Parent Topic:**[Exploring Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/exploring-service-portal.md)
+**Parent Topic:**[Exploring Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/exploring-service-portal.md)
 

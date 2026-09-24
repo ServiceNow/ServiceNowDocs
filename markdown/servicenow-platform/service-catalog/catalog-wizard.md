@@ -3,11 +3,11 @@ title: Creating a Service Catalog Wizard
 description: Service Catalog wizards help you to create wizard like, multi-step experiences.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/catalog-wizard.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,7 @@ Service Catalog wizards are especially useful when the input required is huge an
 
 Pre-requisites for creating Service Catalog wizards:
 
--   Ensure that you have either a composite record producer, or a record producer set up. For more information, see [Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_DefRecProdInSCat.md).
+-   Ensure that you have either a composite record producer, or a record producer set up. For more information, see [Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/t_DefRecProdInSCat.md).
 -   The **Save options** field must have the value **Save in destination** in the composite record producer or record producer to enable the wizard to create records.
 -   The **Allow edit** option should be selected on the composite record producer or record producer form so that records are editable in the wizard.
 
@@ -134,15 +134,15 @@ Label of the Review and submit step.
 </td></tr></tbody>
 </table>    For more information on fields, steps, sections, or questions on Service Catalog wizard, see the following:
 
-    -   [Add step, section, or question to catalog item wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/configure-the-catalog-builder-experience.md)
-    -   [Catalog Wizard form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog-wizard-forms-field.md)
+    -   [Add step, section, or question to catalog item wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/configure-the-catalog-builder-experience.md)
+    -   [Catalog Wizard form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/service-catalog-wizard-forms-field.md)
     \[Omitted image "wiztemplate\_callouts.png"\] Alt text: Catalog Wizard form.
 
     After you set up the field values, the resulting wizard with the steps, layout, labels, and other elements appear as follows:
 
 
 
-3.  Set up the Catalog Wizard component properties using the UI Builder \(UIB\) components, for more information see [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-components.md).
+3.  Set up the Catalog Wizard component properties using the UI Builder \(UIB\) components, for more information see [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/work-components.md).
 
     \[Omitted image "uib-wizardconfig.png"\] Alt text: Service Catalog Wizard component configuration in UI Builder
 
@@ -160,8 +160,8 @@ Label of the Review and submit step.
     For more information, see [Next Experience Components](https://developer.servicenow.com/dev.do#!/reference/next-experience/components?&query=&order_by=nameAsc&limit=120&offset=0&categories[]=uib_component&categories[]=uib_macroponent-component&categories[]=uib_facades) in the developer documentation site.
 
 
--   **[Create declarative actions for Service Catalog Wizards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/declar-action-cw.md)**  
+-   **[Create declarative actions for Service Catalog Wizards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/declar-action-cw.md)**  
 Create and configure declarative actions to enable administrators to configure buttons \(wizard actions\) in Service Catalog Wizards.
 
-**Parent Topic:**[Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog.md)
+**Parent Topic:**[Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/service-catalog.md)
 

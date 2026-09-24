@@ -3,12 +3,12 @@ title: Explore AI Agent Studio
 description: Create, manage, and test AI agents and agentic workflows in one centralized space to build self-executing solutions that help you achieve your business goals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-agent-studio-new.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Agentic AI, AI agents, Agentic workflows]
-breadcrumb: [AI Agent Studio, Enable AI experiences]
+breadcrumb: [AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Explore AI Agent Studio
@@ -17,7 +17,7 @@ Create, manage, and test AI agents and agentic workflows in one centralized spac
 
 ## AI Agent Studio overview
 
-With the AI Agent Studio, you can create, manage, and test AI agents and agentic workflows all in one place. To enable the agentic AI experience, you must first install AI agents. For more information, see [Install ServiceNow Otto AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md).
+With the AI Agent Studio, you can create, manage, and test AI agents and agentic workflows all in one place. To enable the agentic AI experience, you must first install AI agents. For more information, see [Install ServiceNow Otto AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-ai-agents-plugins.md).
 
 The AI Agent Studio home page provides an overview of your agentic AI environment with recently edited items and a library of prebuilt automations. From the home page, you can access the Library of prebuilt automations, which includes featured items, AI agents for tasks, and agentic workflows for processes.
 
@@ -68,7 +68,7 @@ An automated evaluation runs the asset against test scenarios you select and ret
 From the Settings section in AI Agent Studio, you can configure AI Guardian and manage AI agent capabilities. Configure the following settings:
 
 -   Offensiveness detection and Prompt injection protection
--   [Long-term memory for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/long-term-memory-aia.md)
+-   [Long-term memory for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/long-term-memory-aia.md)
 -   User facts and preferences for knowledge retention
 -   External AI agent settings for discoverability and communication
 -   Model provider configuration for LLM selection

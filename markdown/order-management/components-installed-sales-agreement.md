@@ -3,9 +3,9 @@ title: Components installed with Sales Agreement Management
 description: Several types of components are installed with activation of the Sales Agreement Management plugins, including tables and user roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/components-installed-sales-agreement.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
@@ -78,5 +78,5 @@ sn\_sales\_agmt\_core.sales\_agreement\_viewer
 |sn\_sales\_agmt\_core\_line\_characteristic|Stores the attributes of products and services to be sold.|
 |sn\_sales\_agmt\_core\_line\_adjustment|Stores the adjustments applied during negotiation.|
 
-**Parent Topic:**[Configure, price, quote reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reference-cpq.md)
+**Parent Topic:**[Configure, price, quote reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/reference-cpq.md)
 

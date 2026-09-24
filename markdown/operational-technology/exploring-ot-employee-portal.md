@@ -3,9 +3,9 @@ title: Exploring the Employee Center for OT
 description: The Employee Center for Operational Technology \(OT\) is a central location in the Employee Center where you can submit requests for industrial issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/exploring-ot-employee-portal.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [explore]
 breadcrumb: [Employee Center for OT, Operational Technology]
@@ -24,25 +24,25 @@ The Employee Center for OT provides you with self-service options to deflect iss
 
 The Employee Center for OT is available in the existing Employee Center.
 
-**Note:** For more information about the Employee Center, see [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-center-landing-page.md).
+**Note:** For more information about the Employee Center, see [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-center-landing-page.md).
 
 You can access it by navigating to **All** &gt; **Self-Service** &gt; **Employee Center** and selecting the **Industrial services** tab. The following image shows the Industrial services page accessible from the Employee Center.\[Omitted image "industrial-services.png"\] Alt text: Employee Center for OT accessible in the Employee Center under the Industrial services tab
 
 You can access the Employee Center for OT on both the desktop and the Now Mobile app experience. Providing both the desktop and mobile app experience helps different OT personas access the Employee Center for OT no matter their location.
 
-**Note:** For more information about the Now Mobile app experience, see [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/mobile-employee-experience.md).
+**Note:** For more information about the Now Mobile app experience, see [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/mobile-employee-experience.md).
 
 ## Employee Center for OT features
 
 |Feature|Description|
 |-------|-----------|
-|Report an OT incident without an OT incident role|If you're not assigned an OT incident role but still need to report an OT incident, you can do so in real time using the Report OT incident option.|
+|Report an OT incident without an OT incident role|Use the Report OT incident option to report an OT incident in real time, if you're not assigned an OT incident role.|
 |Search knowledge articles|If you're looking for additional information, you can search for knowledge articles directly in the Employee Center using keywords.|
 
 ## What to explore next
 
 To learn more about configuring and using the Employee Center for OT, see:
 
--   [Configuring the Employee Center for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configuring-ot-employee-portal.md)
--   [Report an OT incident in the Employee Center for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/report-ot-incident-in-ot-employee-portal.md)
+-   [Configuring the Employee Center for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/configuring-ot-employee-portal.md)
+-   [Report an OT incident in the Employee Center for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/report-ot-incident-in-ot-employee-portal.md)
 

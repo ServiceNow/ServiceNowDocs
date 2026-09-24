@@ -3,11 +3,11 @@ title: Add meta tags to a public page
 description: Improve the searchability of Service Portal pages by adding meta tags. You can add the meta name and description attributes to a page, define the robots attribute, or create dynamic meta tags for pages that load record data based on a URL parameter.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/seo-tags.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Improving search engine optimization for portals, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -179,7 +179,7 @@ Table field
 
 </td><td>
 
-Select a field from the table defined in the **Table** field. This field is used to generate the value of the content tag.**Important:** To support SEO, ensure that the referenced table field is public. For more information on granting access to a table field, see [Create an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_CreateAnACLRule.md).
+Select a field from the table defined in the **Table** field. This field is used to generate the value of the content tag.**Important:** To support SEO, ensure that the referenced table field is public. For more information on granting access to a table field, see [Create an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_CreateAnACLRule.md).
 
 </td></tr></tbody>
 </table>        If more than one content variables match a variable defined in the **Content** field of the meta tag record, the record with the earliest Created date is used.
@@ -195,7 +195,7 @@ Select a field from the table defined in the **Table** field. This field is used
     ```
 
 
-**Parent Topic:**[Improving search engine optimization for portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/seo-sp.md)
+**Parent Topic:**[Improving search engine optimization for portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/seo-sp.md)
 
 **Related topics**  
 

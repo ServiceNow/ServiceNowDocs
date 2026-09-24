@@ -3,11 +3,11 @@ title: Source control integration in ServiceNow Studio
 description: Link your application to a Git source control repository in ServiceNow Studio to save, manage, and share multiple versions of a global or scoped application from a non-production instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/source-control-integration.html
-release: australia
+release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2026-05-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, ServiceNow Studio, Developing your application, Building applications]
 ---
@@ -48,7 +48,7 @@ After linking an application to source control, you can use ServiceNow Studio to
 -   Switch branches.
 -   Import an application from a remote repository.
 
-Source control integration does not support managing applications on a production instance. To manage applications on a production instance, use the application repository, an update set, or ServiceNow Studio. For more information, see [Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_SharingApplications.md).
+Source control integration does not support managing applications on a production instance. To manage applications on a production instance, use the application repository, an update set, or ServiceNow Studio. For more information, see [Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_SharingApplications.md).
 
 ## What can you do with source control from a Git repository?
 
@@ -74,12 +74,12 @@ Use an existing MID Server to connect to a source control repository. Connecting
 
 ## Source control role permissions
 
-For more information about roles and collaborators, see [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-collaboration.md).
+For more information about roles and collaborators, see [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/application-collaboration.md).
 
--   **[Metadata source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/source-control-in-servicenow-studio.md)**  
+-   **[Metadata source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/source-control-in-servicenow-studio.md)**  
 Use metadata source control in ServiceNow Studio to manage app versions, commit changes, and collaborate with other developers through a linked Git repository.
--   **[Fluent source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/fluent-source-control-sn-studio.md)**  
+-   **[Fluent source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/fluent-source-control-sn-studio.md)**  
 Integrate with remote Git repositories to manage Fluent applications in source control ServiceNow Studio.
 
-**Parent Topic:**[Using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/using-servicenow-studio.md)
+**Parent Topic:**[Using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/using-servicenow-studio.md)
 

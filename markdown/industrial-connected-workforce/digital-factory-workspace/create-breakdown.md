@@ -3,11 +3,11 @@ title: Create a breakdown
 description: Create a breakdown record in the Digital Factory Workspace to document a significant equipment failure or process stop. Use this task to capture key details such as duration, impact, and cause, and begin structured investigation and resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/create-breakdown.html
-release: australia
+release: brazil
 product: Digital Factory Workspace
 classification: digital-factory-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Breakdown Management, Industrial Workflows, Use, Digital Factory Workspace, Industrial Connected Workforce]
 ---
@@ -26,7 +26,7 @@ Role required: sn\_icw.deviation\_user or sn\_icw.deviation\_expert
 
 2.  On the Breakdown form, fill in the fields.
 
-    For a description of the field values, see [Deviation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/deviation-form.md).
+    For a description of the field values, see [Deviation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/deviation-form.md).
 
 3.  Select **Save**.
 
@@ -34,16 +34,16 @@ Role required: sn\_icw.deviation\_user or sn\_icw.deviation\_expert
 
 4.  Write and post work notes with additional details about the progress and steps you have taken.
 
-    To view the **Work notes** field next to other record details, select the view selector icon \(\[Omitted image "editable-record-form-and-list-of-record-activities-view-icon.png"\] Alt text: Editable record form and list of record activities view icon.\) and select **Editable record form and list of record activities**.
+    To view the **Work notes** field next to other record details, select the view selector icon \(\[Omitted image "image.editable-record-form-and-list-of-record-activities-view-icon"\] Alt text: Editable record form and list of record activities view icon.\) and select **Editable record form and list of record activities**.
 
 5.  From the Recommendations sidebar, create a guided task related to the breakdown.
 
-    To learn more about the Recommended Actions in the Digital Factory Workspace, see [Recommended Actions for the Industrial Connected Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/recommended-actions-icw.md).
+    To learn more about the Recommended Actions in the Digital Factory Workspace, see [Recommended Actions for the Industrial Connected Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/recommended-actions-icw.md).
 
 
 ## Result
 
 The breakdown is displayed in the breakdown list of and the list of all tasks. You can fix the breakdown and initiate a breakdown analysis for in-depth investigation.
 
-**Parent Topic:**[Breakdown Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/breakdown-analysis.md)
+**Parent Topic:**[Breakdown Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/breakdown-analysis.md)
 

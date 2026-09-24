@@ -1,16 +1,16 @@
 ---
-title: Request a branded Android app for private distribution
+title: Request a new branded Android app for private distribution
 description: Request, test, and publish a custom Android app that has your unique company identity. Then make the app available for private distribution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/request-private-branded-android-app.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Request, test, &amp; publish, Custom branded apps, Configuring the Mobile Platform, Mobile Platform]
 ---
 
-# Request a branded Android app for private distribution
+# Request a new branded Android app for private distribution
 
 Request, test, and publish a custom Android app that has your unique company identity. Then make the app available for private distribution.
 
@@ -66,9 +66,9 @@ App type
 
 Select either **Now Mobile** or **Mobile Agent**.
 
- For more information about these mobile apps, see [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/now-mobile-app.md) or [Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-experience.md) documentation.
+ For more information about these mobile apps, see [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/now-mobile-app.md) or [Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-experience.md) documentation.
 
- In the Washington DC release and later, select customers can use custom app types. For more information, see [Create custom-type mobile apps with Mobile Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mob-pub-about-custom-apps.md).
+ In the Washington DC release and later, select customers can use custom app types. For more information, see [Create custom-type mobile apps with Mobile Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mob-pub-about-custom-apps.md).
 
 </td></tr><tr><td>
 
@@ -133,7 +133,7 @@ Mobile Application Management \(MAM\)
 
 </td><td>
 
-Whether you want to use a MAM vendor with your apps. For more information, see [Mobile application management \(MAM\) integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mam.md).
+Whether you want to use a MAM vendor with your apps. For more information, see [Mobile application management \(MAM\) integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mam.md).
 
  To enable a MAM vendor, select the **Use Mobile Application Management** toggle.
 
@@ -177,7 +177,7 @@ URL where app users can view your custom privacy policy from the mobile app sett
 
 </td></tr><tr><td>
 
-Instances used for deep links**Note:** If you selected **iOS and Android** for your **Operating System** in the **Add basic info** form, this configuration section is named **Deep links and Universal links**. For more information about universal links, see [Universal linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/universal-links-mobile.md).
+Instances used for deep links**Note:** If you selected **iOS and Android** for your **Operating System** in the **Add basic info** form, this configuration section is named **Deep links and Universal links**. For more information about universal links, see [Universal linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/universal-links-mobile.md).
 
 </td><td>
 
@@ -187,7 +187,7 @@ This table shows all ServiceNow instances used for your organization. Select the
 
  **Note:** Deep links can only be edited when you submit a new branded app request or when you update a branded app.
 
- To learn more about deep links, see [Deep linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/deep-link-mobile.md).
+ To learn more about deep links, see [Deep linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/deep-link-mobile.md).
 
 </td></tr><tr><td colspan="2">
 
@@ -206,7 +206,7 @@ Turn on this toggle to build an instance URL into your branded app so end-users 
  **Note:**
 
 -   This instance URL can only be added when you submit a new branded app request or when you update a branded app.
--   Don't select this option if you're using AppConfig to pre-configure a default instance URL through an EMM suite or an embedded MAM SDK app. For more information, see [AppConfig for Mobile Apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/appconfig.md).
+-   Don't select this option if you're using AppConfig to pre-configure a default instance URL through an EMM suite or an embedded MAM SDK app. For more information, see [AppConfig for Mobile Apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/appconfig.md).
 
 
 </td></tr><tr><td>
@@ -232,7 +232,7 @@ Nickname
 </td></tr></tbody>
 </table>6.  Select **Next**.
 
-7.  If you selected **iOS and Android** in the **Operating System** field on the **Add basic info** form in Step 3 above, see Step 7 in [Request a new branded iOS app for private distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/request-private-branded-ios-app.md) for information about filling out the **Set up for iOS** form.
+7.  If you selected **iOS and Android** in the **Operating System** field on the **Add basic info** form in Step 3 above, see Step 7 in [Request a new branded iOS app for private distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/request-private-branded-ios-app.md) for information about filling out the **Set up for iOS** form.
 
     After you complete the optional iOS configuration, return to Step 8 in this topic to complete your request for a private branded Android app.
 
@@ -420,5 +420,5 @@ When it completes, you receive an email notification about the status of the bui
 
 ## What to do next
 
-After the build successfully completes and your app is ready for testing, see [Test and publish a new branded Android app for private distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/testpubnu-andapp-privdist.md).
+After the build successfully completes and your app is ready for testing, see [Test and publish a new branded Android app for private distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/testpubnu-andapp-privdist.md).
 

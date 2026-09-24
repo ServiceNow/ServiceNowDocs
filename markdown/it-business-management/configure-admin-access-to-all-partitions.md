@@ -3,9 +3,9 @@ title: Configure administrator access to all partitions
 description: Enable or disable the system property to control whether system administrators can access all partitioned data across your enterprise deployment, or only their assigned partitions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/configure-admin-access-to-all-partitions.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [system property, partition access, administrator, Enterprise Wide Deployment, EWD, Portfolio Management]
 breadcrumb: [Configure, SPM Enterprise-Wide Deployment, Strategic Portfolio Management]
@@ -28,11 +28,11 @@ The **sn\_spm\_ewd.allow\_admin\_access\_to\_all\_partitions** system property c
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System Definition** &gt; **System Definition**.
+1.  Navigate to **All** &gt; **System Properties** &gt; **All Properties**.
 
 2.  Search and open the **sn\_spm\_ewd.allow\_admin\_access\_to\_all\_partitions** system property.
 
-3.  In the **Value** field, input as `true` or `false` as needed.
+3.  In the **Value** field, provide the input as `true` or `false`.
 
     The default value is **false**.
 
@@ -42,6 +42,4 @@ The **sn\_spm\_ewd.allow\_admin\_access\_to\_all\_partitions** system property c
 
 
 ## Result
-
-The partition access control is configured according to your organization's needs. Administrators will either have enterprise-wide access to all partitions \(if set to **true**\) or will be restricted to their assigned partitions \(if set to **false**\) on their next session.
 

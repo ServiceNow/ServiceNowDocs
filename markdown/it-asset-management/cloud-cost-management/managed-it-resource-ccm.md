@@ -3,11 +3,11 @@ title: Managed IT Resource types
 description: There are three IT Resource categories in ServiceNow Cloud Cost Management - Server, PaaS Resources, and IaaS Storage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/managed-it-resource-ccm.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
-last_updated: "2026-03-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage Cloud Cost Management subscriptions, Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -80,5 +80,5 @@ The total number of license resource units consumed is: \(2 + 1 + 1\) = 4 resour
 
 To calculate cost, multiply each resource count by the applicable per-unit rate from your entitlement. For example, at a rate of n per resource unit: \(2\*n\) + \(1\*n\) + \(1\*n\) = 4n.
 
-**Parent Topic:**[Manage Cloud Cost Management subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/managing-ccm-subscriptions.md)
+**Parent Topic:**[Manage Cloud Cost Management subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/managing-ccm-subscriptions.md)
 

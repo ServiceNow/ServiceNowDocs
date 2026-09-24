@@ -1,0 +1,620 @@
+---
+title: Combined Playbook release notes for upgrades from Zurich to Brazil
+description: Consolidated page of all release notes for Playbook from Zurich to Brazil.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-playbook-release-notes.html
+release: brazil
+topic_type: reference
+last_updated: "2026-09-24"
+reading_time_minutes: 10
+breadcrumb: [Products combined by family]
+---
+
+# Combined Playbook release notes for upgrades from Zurich to Brazil
+
+Consolidated page of all release notes for Playbook from Zurich to Brazil.
+
+## How to use this page
+
+To help you prepare for your upgrade, we have combined the cross-family Playbook release notes onto one page. Read this summary of the new features, changes, and updated information for your product from Zurich to Brazil.
+
+**Tip:** If there were no updates for a release notes section in a certain family release, we included a short note for your reference. For example, if a product did not have any updates in Tokyo, the row says "No updates for this release."
+
+## Important information for upgrading Playbook to Brazil
+
+Before you upgrade to Brazil, review these pre- and post-upgrade tasks and complete the tasks as needed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   **Upgrade information**
+
+After you upgrade to Australia, update the Workflow Studio application in the ServiceNow Store.
+
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## New features
+
+Between your current release family and Brazil, new features were introduced for Playbook.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **[Playbook as an MCP tool](https://www.servicenow.com/docs/access?context=playbook-as-mcp-tool&family=zurich&ft:locale=en-US)**
+
+Expose a playbook as a tool in an MCP server, enabling MCP clients to trigger and execute the playbook through the Model Context Protocol \(MCP\).
+
+-   **[AI agents autonomous support configurations](https://www.servicenow.com/docs/access?context=create-activity-definition&family=zurich&ft:locale=en-US)**
+
+Configure in the activity definition how you want autonomous support from AI agents for that activity. The additional configurations help you gain more control on the activity in a playbook.
+
+
+ -   **[Playbook generation from a KB article](https://www.servicenow.com/docs/access?context=playbook-generation-from-kb&family=zurich&ft:locale=en-US)**
+
+Generate a playbook directly from an existing knowledge base article to reduce manual effort when creating playbooks for documented processes.
+
+
+ -   **[Playbook summarization](https://www.servicenow.com/docs/access?context=playbook-summarization&family=zurich&ft:locale=en-US)**
+
+Generate an AI-powered summary of a playbook from the Workflow Studio canvas. The summary covers the playbook's stages, activities, triggers, and inputs, helping you understand quickly about its purpose and flow without reading through each activity individually.
+
+-   **[Use AI skill as an activity](https://www.servicenow.com/docs/access?context=use-ai-skill-as-activity&family=zurich&ft:locale=en-US)**
+
+Add an existing AI skill as an activity in your playbook to run lightweight, focused AI tasks as part of the playbook flow. When the playbook reaches the activity, the skill executes, produces structured outputs, and passes those outputs to subsequent activities automatically.
+
+-   **[Use custom agent in Agentic Playbooks](https://www.servicenow.com/docs/access?context=configure-agentic-playbooks&family=zurich&ft:locale=en-US)**
+
+In addition to the default AI Agents, you can add your custom AI Agent for an activity. Choose how you want to use the AI Agents in the activity- Collaborative or Autonomous.
+
+
+ -   **[Set child variants to evaluate later in a playbook](https://www.servicenow.com/docs/access?context=set-evaluation-point&family=zurich&ft:locale=en-US)**
+
+Instead of evaluating immediately after the trigger, set a playbook's child variants to be evaluated after a specific activity in the playbook.
+
+-   **[Create decision branches for stages](https://www.servicenow.com/docs/access?context=create-decision-stage&family=zurich&ft:locale=en-US)**
+
+Add a decision node between stages to determine which stage to run next, based on runtime conditions.
+
+
+ -   **[Route users to stages based on decisions](https://www.servicenow.com/docs/access?context=add-configure-stage&family=zurich&ft:locale=en-US)**
+
+Send runtime users to a stage based off of the trigger record or input that users provide.
+
+
+ -   **[Agentic Playbooks](https://www.servicenow.com/docs/access?context=agentic-playbooks&family=zurich&ft:locale=en-US)**
+
+Enable AI agents to assist users with activities during runtime.
+
+-   **[Add permissions for playbook authors](https://www.servicenow.com/docs/access?context=user-access-playbooks&family=zurich&ft:locale=en-US)**
+
+Control which playbook authors can create, edit, and view playbooks in Workflow Studio
+
+-   **[Add permissions for runtime users](https://www.servicenow.com/docs/access?context=create-process-definition&family=zurich&ft:locale=en-US)**
+
+Control whether runtime users can [view a playbook](https://www.servicenow.com/docs/access?context=create-process-definition&family=zurich&ft:locale=en-US), [add optional activities](https://www.servicenow.com/docs/access?context=optional-activities&family=zurich&ft:locale=en-US), [restart a playbook](https://www.servicenow.com/docs/access?context=restart&family=zurich&ft:locale=en-US), and [complete work within specific stages](https://www.servicenow.com/docs/access?context=add-configure-stage&family=zurich&ft:locale=en-US).
+
+-   **[Set multiple triggers](https://www.servicenow.com/docs/access?context=process-automation-designer-triggers&family=zurich&ft:locale=en-US)**
+
+Configure a playbook to run based on any one of multiple triggers.
+
+-   **[Schedule when a playbook should trigger](https://www.servicenow.com/docs/access?context=create-scheduled-trigger-definition&family=zurich&ft:locale=en-US)**
+
+Configure a playbook to run based on a schedule.
+
+-   **[Choose your LLM for playbook generation and recommendations](https://www.servicenow.com/docs/access?context=change-default-llm-playbook-generation&family=zurich&ft:locale=en-US)**
+
+Choose between NowLLM, OpenAI ChatGPT4-o, Gemini, Claude for playbook generation and recommendations.
+
+-   **[Generate a playbook with a trigger](https://www.servicenow.com/docs/access?context=playbook-assist&family=zurich&ft:locale=en-US)**
+
+Generate a playbook with both a trigger and activities.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   **[Playbook as an MCP tool](https://www.servicenow.com/docs/access?context=playbook-as-mcp-tool&family=australia&ft:locale=en-US)**
+
+Expose a playbook as a tool in an MCP server, enabling MCP clients to trigger and execute the playbook through the Model Context Protocol \(MCP\).
+
+-   **[AI agents autonomous support configurations](https://www.servicenow.com/docs/access?context=create-activity-definition&family=australia&ft:locale=en-US)**
+
+Configure in the activity definition how you want autonomous support from AI agents for that activity. The additional configurations help you gain more control on the activity in a playbook.
+
+
+ -   **[Go back activity](https://www.servicenow.com/docs/access?context=go-back-activity&family=australia&ft:locale=en-US)**
+
+Use the Go Back activity to define a conditional return point in a playbook. When placed in a decision branch, the activity directs the playbook to loop back to a specified point. The playbook can look back to an earlier activity, stage, or the start of the playbook based on the branch outcome. This enables conditional retry and re-evaluation logic without duplicating flow structure.
+
+-   **[Playbook generation from a KB article](https://www.servicenow.com/docs/access?context=playbook-generation-from-kb&family=australia&ft:locale=en-US)**
+
+Generate a playbook directly from an existing knowledge base article to reduce manual effort when creating playbooks for documented processes.
+
+-   **[Preview an activity's runtime UI](https://www.servicenow.com/docs/access?context=preview-playbook-runtime-ui&family=australia&ft:locale=en-US)**
+
+Preview an activity's runtime UI directly from the diagram canvas, with a real-time side-by-side preview that updates as you edit.
+
+-   **[Fluent support for Playbooks](https://www.servicenow.com/docs/access?context=create-process-definition&family=australia&ft:locale=en-US)**
+
+Build, edit, and manage playbooks as code with the Fluent domain-specific language \(DSL\) in the ServiceNow IDE or a local SDK.
+
+
+ -   **[Playbook summarization](https://www.servicenow.com/docs/access?context=playbook-summarization&family=australia&ft:locale=en-US)**
+
+Generate an AI-powered summary of a playbook from the Workflow Studio canvas. The summary covers the playbook's stages, activities, triggers, and inputs, helping you understand quickly about its purpose and flow without reading through each activity individually.
+
+-   **[Use AI skill as an activity](https://www.servicenow.com/docs/access?context=use-ai-skill-as-activity&family=australia&ft:locale=en-US)**
+
+Add an existing AI skill as an activity in your playbook to run lightweight, focused AI tasks as part of the playbook flow. When the playbook reaches the activity, the skill executes, produces structured outputs, and passes those outputs to subsequent activities automatically.
+
+-   **[Use custom agent in Agentic Playbooks](https://www.servicenow.com/docs/access?context=configure-agentic-playbooks&family=australia&ft:locale=en-US)**
+
+In addition to the default AI Agents, you can add your custom AI Agent for an activity. Choose how you want to use the AI Agents in the activity- Collaborative or Autonomous.
+
+
+ -   **[Use AI agents as a playbook activity](https://www.servicenow.com/docs/access?context=ai-agent-as-activity&family=australia&ft:locale=en-US)**
+
+Use an existing AI agent as an activity in your playbook to automate tasks. The AI agent gathers the required context, performs the work, and produces outputs that subsequent activities can consume.
+
+
+ -   **[Nested playbooks](https://www.servicenow.com/docs/access?context=nested-playbooks&family=australia&ft:locale=en-US)**
+
+Nest playbooks as a step within other playbooks to enable the following scenarios:
+
+    -   Define sets of activities for reuse across multiple playbooks to help avoid duplication.
+    -   Break up large playbooks for easy maintenance and fast load time in Playbook Designer.
+-   **[Simplified end-user playbook experience](https://www.servicenow.com/docs/access?context=wizard-layouts-playbooks&family=australia&ft:locale=en-US)**
+
+Implement a wizard experience for guiding your end users through a sequence of steps to achieve an outcome, such as servicing a printer.
+
+-   **[Automated Test Framework support for playbooks](https://www.servicenow.com/docs/access?context=testing-support-playbooks&family=australia&ft:locale=en-US)**
+
+The Automated Test Framework can be used to create automated tests to confirm your playbooks run as planned.
+
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Changes
+
+Between your current release family and Brazil, some changes were made to existing Playbook features.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **[Activate playbooks without a trigger](https://www.servicenow.com/docs/access?context=process-automation-designer-triggers&family=zurich&ft:locale=en-US)**
+
+Configure and activate playbooks without specifying triggers, so that playbooks are only triggered programmatically.
+
+-   **[Implement playbooks that are callable by a scriptable API](https://www.servicenow.com/docs/access?context=process-automation-designer-triggers&family=zurich&ft:locale=en-US)**
+
+Configure a playbook that executes with an input object instead of requiring the configuration of a trigger record reference and trigger conditions.
+
+-   **[Decision activity enhancements](https://www.servicenow.com/docs/access?context=create-a-decision-activity&family=zurich&ft:locale=en-US)**
+
+User experience improvements to decision activities:
+
+    -   In the Board view, select the branch to see a list of dependent activities and branches, and to navigate to them.
+    -   When a decision or one of its branch nodes is selected in Diagram view, the decision and all of its branches are selected, and the side panel opens.
+    -   Add parallel activities within decision branches.
+-   **[Enter a combination of pills and text in an email body](https://www.servicenow.com/docs/access?context=add-configure-activity&family=zurich&ft:locale=en-US)**
+
+Enter a combination of text and multiple pills in any rich text / HTML editor container, such as an email body.
+
+-   **[ServiceNow Otto](https://www.servicenow.com/docs/access?context=now-assist-for-creator-landing&family=zurich&ft:locale=en-US)**
+
+ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including Playbooks. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   **[Required role update](https://www.servicenow.com/docs/access?context=user-access-playbooks&family=australia&ft:locale=en-US)**
+
+Any tasks that previously required only the admin role now require the playbook.admin role instead.
+
+-   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
+
+The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
+
+ -   **[Changes in the Now LLM service](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
+ -   **[ServiceNow Otto](https://www.servicenow.com/docs/access?context=now-assist-for-creator-landing&family=australia&ft:locale=en-US)**
+
+ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including Playbooks. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Removed
+
+Between your current release family and Brazil, some Playbook features or functionality were removed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Deprecations
+
+Between your current release family and Brazil, some Playbook features or functionality were deprecated.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+-   now.assist.creator role
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+The now.assist.creator role is no longer a required role to generate a playbook or playbook recommendation when using Now Assist.
+
+ Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. We're committed to bringing you the latest industry advancements while maintaining sovereignty-focused options, all hosted and governed by ServiceNow with the infrastructure and data protections you rely on today. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Activation information
+
+Review information on how to activate Playbook.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   **Activation information**
+
+The Playbooks application comes with the Workflow Studio ServiceNow Store app. Workflow Studio is part of the ServiceNow AI Platform® and is available by default. Get the latest Workflow Studio features by downloading the latest Workflow Studio app in the ServiceNow Store, as well as related applications like Process Automation Content and Process Automation Experience Demo. The Playbooks application can be downloaded for patch fixes.
+
+To use playbook generation features in Workflow Studio, download the [ServiceNow Otto for Creator](https://www.servicenow.com/docs/access?context=now-assist-for-creator-landing&family=australia&ft:locale=en-US) application. To use Agentic Playbooks, enable it through Now Assist.
+
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
+
+**Important:** Playbooks is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Additional requirements
+
+If any additional requirements were introduced or changed for Playbook we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Browser requirements
+
+If any specific browser requirements were introduced or changed for Playbook we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Accessibility information
+
+Review details on accessibility information for Playbook, such as specific requirements or compliance levels.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Localization information
+
+If there are specific localization considerations for Playbook we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Highlight information
+
+If there are specific highlight considerations for Playbook we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   Nest playbooks within other playbooks.
+-   Enable runtime users to launch a playbook on demand.
+-   Test playbooks with the Automated Test Framework.
+-   Preview the UI for an activity in when configuring a playbook activity in Workflow Studio.
+-   Use AI agents as activities in your playbook to automate tasks.
+
+ See [Explore](https://www.servicenow.com/docs/access?context=process-automation-designer&family=australia&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/rn-combined-intro.md)
+

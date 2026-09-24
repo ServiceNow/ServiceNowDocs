@@ -3,11 +3,11 @@ title: Create integration account
 description: Create a dedicated account with the evt\_mgmt\_integration role for third-party monitoring systems to push events to ServiceNow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/create-integration-account.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2024-12-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [EM integration account]
 breadcrumb: [Configure Event Management using ServiceNow Otto for Setup, Configure, Event Management, ITOM AIOps, IT Operations Management]

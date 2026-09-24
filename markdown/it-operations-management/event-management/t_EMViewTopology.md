@@ -3,11 +3,11 @@ title: View an alert impact on CIs in a service map
 description: You can view service maps to see active alerts for CIs and the relationship between CIs. By viewing this information, you can better understand the source of alerts and take remediation steps. The service map is available for all application services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMViewTopology.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Alert impact calculation, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -35,15 +35,15 @@ You can open a service map from these places:
     2.  Next to the service, click **View Map**.
 2.  Do one or more of the following.
 
-<table><thead><tr><th align="left" id="d703066e128">
+<table><thead><tr><th align="left" id="d709175e128">
 
 Option
 
-</th><th align="left" id="d703066e131">
+</th><th align="left" id="d709175e131">
 
 action
 
-</th></tr></thead><tbody><tr><td id="d703066e137">
+</th></tr></thead><tbody><tr><td id="d709175e137">
 
 **View alerts for a CI by type and severity**
 
@@ -53,7 +53,7 @@ In the service map:1.  Click a CI tile.
 2.  Below the map, click the **Alerts** tab and review the listed alerts.
 
 
-</td></tr><tr><td id="d703066e158">
+</td></tr><tr><td id="d709175e158">
 
 **View changes to a CI in a discovered service**
 
@@ -63,7 +63,7 @@ In the service map:1.  Click a CI tile.
 2.  Below the map, click the **Changes** tab.
 
 
-</td></tr><tr><td id="d703066e179">
+</td></tr><tr><td id="d709175e179">
 
 **Show alert bindings to CIs**
 
@@ -74,7 +74,7 @@ In the service map:1.  Click a CI tile.
 3.  Below the map, click the **Affected CIs** tab.
 
 
-</td></tr><tr><td id="d703066e212">
+</td></tr><tr><td id="d709175e212">
 
 **View CI properties**
 
@@ -85,7 +85,7 @@ In the service map:1.  Click a CI tile.
 3.  If you want to view more detailed information, scroll to the end of the pane and click **Detailed Properties**.
 
 
-</td></tr><tr><td id="d703066e240">
+</td></tr><tr><td id="d709175e240">
 
 **Show the impact rules for a CI**
 
@@ -95,7 +95,7 @@ In the service map:1.  Click a CI that has a severity.
 2.  Below the service map, click the **Impact** tab and review the listed impact rules.
 
 
-</td></tr><tr><td id="d703066e261">
+</td></tr><tr><td id="d709175e261">
 
 **Show alert details for networks or storage for a service**
 
@@ -105,7 +105,7 @@ In the service map: 1.  Right-click a path between CIs.
 2.  Select **Show network path**or **Show storage path**.
 
 
-</td></tr><tr><td id="d703066e285">
+</td></tr><tr><td id="d709175e285">
 
 **Display additional information for CIs**
 
@@ -115,7 +115,7 @@ In the service map header: 1.  Click the additional actions menu icon \[Omitted 
 2.  You can select the **Map Indicators** for additional information that you want to view.
 
 
-</td></tr><tr><td id="d703066e311">
+</td></tr><tr><td id="d709175e311">
 
 **Remediate a CI**
 
@@ -128,7 +128,7 @@ In the topology, right-click the CI, and then select **Remediation options**.
 **Related topics**  
 
 
-[Alert impact calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMImpactCalculation.md)
+[Alert impact calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/c_EMImpactCalculation.md)
 
-[Understand Service Maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/Understand-Service-Maps.md)
+[Understand Service Maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/Understand-Service-Maps.md)
 

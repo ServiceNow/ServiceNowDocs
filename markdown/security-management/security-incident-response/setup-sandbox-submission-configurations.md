@@ -3,11 +3,11 @@ title: Set up Sandbox submission configurations
 description: Set up the Sandbox configuration to define the analysis environment and runtime options for your security incident record submissions for the malware analysis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/setup-sandbox-submission-configurations.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [CrowdStrike Falcon X Sandbox integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -120,7 +120,7 @@ Option that allows you to select the type of network settings used while submitt
 
 ## What to do next
 
-After you configure sandbox submissions, the next step is to [manually submit files or ULRs to Sandbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/submit-files-or-urls-to-sandbox.md)
+After you configure sandbox submissions, the next step is to [manually submit files or ULRs to Sandbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/submit-files-or-urls-to-sandbox.md)
 
 .
 

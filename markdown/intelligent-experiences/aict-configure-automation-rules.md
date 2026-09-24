@@ -3,12 +3,12 @@ title: Edit an automation rule
 description: Change which discovered AI assets a rule marks as managed, or update its name or description, by editing an existing automation rule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-configure-automation-rules.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Managing AI assets in bulk, Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Managing AI assets in bulk, Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Edit an automation rule
@@ -21,7 +21,7 @@ Role required: sn\_ai\_governance.ai\_steward
 
 ## About this task
 
-You can edit an automation rule when your classification needs updating, for example to broaden or narrow the set of assets the rule marks as managed, to point the rule at a different table, or to correct the rule's name or description. You change a rule's conditions the same way you build them when you create a rule. For details about the available tables, fields, and condition logic, see [Create an automation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-create-automation-rule.md).
+You can edit an automation rule when your classification needs updating, for example to broaden or narrow the set of assets the rule marks as managed, to point the rule at a different table, or to correct the rule's name or description. You change a rule's conditions the same way you build them when you create a rule. For details about the available tables, fields, and condition logic, see [Create an automation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-create-automation-rule.md).
 
 ## Procedure
 
@@ -35,7 +35,7 @@ You can edit an automation rule when your classification needs updating, for exa
 
 4.  Change the records the rule evaluates by selecting a different **Table** in the **Define condition** section.
 
-    For the available tables and the fields you can build conditions against, see [Create an automation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-create-automation-rule.md).
+    For the available tables and the fields you can build conditions against, see [Create an automation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-create-automation-rule.md).
 
 5.  Change which assets the rule marks as managed, add, modify, or remove conditions on the **Conditions** tab.
 

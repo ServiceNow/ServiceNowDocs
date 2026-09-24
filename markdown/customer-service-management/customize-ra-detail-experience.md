@@ -3,9 +3,9 @@ title: Customize a guidance detail experience in the UI Builder
 description: Customize how your detail experience looks in the contextual side panel or in a subtab of the Recommended Actions card using UI Builder. The detail experience can include things such as user inputs and drill down actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customize-ra-detail-experience.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Creating guidance and field recommendation in Recommended Actions, Configuring the Recommended Actions application, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -74,11 +74,11 @@ You begin by creating a UI page variant of a guidance detail experience. When yo
 
 4.  Select **Edit detail in UI Builder**.
 
-    The UI page variant opens in UI Builder, where you can add and configure components to customize the look and feel of the detail experience. For more information, see [Working with components in the UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-components.md).
+    The UI page variant opens in UI Builder, where you can add and configure components to customize the look and feel of the detail experience. For more information, see [Working with components in the UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/work-components.md).
 
 5.  Bind the preview experience properties to your custom detail UI.
 
-    Data bindings are located in the **Config** tab of the configuration panel in UI Builder. For more information, see [Data resources in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/data-resources.md).
+    Data bindings are located in the **Config** tab of the configuration panel in UI Builder. For more information, see [Data resources in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/data-resources.md).
 
 6.  Add and bind scripts to components in your custom detail UI to dispatch events by using an event handler to execute, skip, or mark complete a recommendation with a corresponding payload.
 
@@ -183,6 +183,6 @@ api.emit(
 ```
 
 </td></tr></tbody>
-</table>    For more information, see [Define and bind client scripts to components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/define-client-scripts.md).
+</table>    For more information, see [Define and bind client scripts to components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/define-client-scripts.md).
 
 

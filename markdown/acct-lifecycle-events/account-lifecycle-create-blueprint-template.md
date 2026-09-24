@@ -3,9 +3,9 @@ title: Define a success blueprint template
 description: Create a success blueprint template with predefined success objectives and outcomes for a product model that helps your organization scale its customer success operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-create-blueprint-template.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Success blueprints, Customer success, Configure, Customer Success Management]
 ---
@@ -21,7 +21,7 @@ Create a success blueprint template with predefined success objectives and outco
 
 ## About this task
 
-A success blueprint template defines a reusable set of objectives and outcomes for a specific product. After a template is published, customer success managers can apply it when creating success blueprints for an engagement. See [Create a success blueprint from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-blueprint.md) for details.
+A success blueprint template defines a reusable set of objectives and outcomes for a specific product. After a template is published, customer success managers can apply it when creating success blueprints for an engagement. See [Create a success blueprint from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-create-blueprint.md) for details.
 
 ## Procedure
 
@@ -109,5 +109,5 @@ To configure the success initiatives decision table, follow these steps:
 
 4.  Select **Save**.
 
-**Parent Topic:**[Configure success blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-setup-success-blueprints.md)
+**Parent Topic:**[Configure success blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-setup-success-blueprints.md)
 

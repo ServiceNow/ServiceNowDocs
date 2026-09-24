@@ -3,9 +3,9 @@ title: Migrate a selection of Core UI reports
 description: Migrate a selection of your Core UI reports to Platform Analytics experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/data-migration-perform-partial-core-ui-reports.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [How to migrate a few Core UI reports]
 breadcrumb: [Platform Analytics Migration Center, Platform Analytics experience, Platform Analytics]
@@ -44,5 +44,5 @@ If you change a Core UI report and migrate it again from `sys_report.list`, thes
 
 ## What to do next
 
-Verify that the migrated visualizations have all the features of the Core UI reports. For more information, see [Unmigrated content and compatibility mode migrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/data-mig-unmigrated-content.md).
+Verify that the migrated visualizations have all the features of the Core UI reports. For more information, see [Unmigrated content and compatibility mode migrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/data-mig-unmigrated-content.md).
 

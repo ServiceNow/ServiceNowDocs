@@ -3,9 +3,9 @@ title: Activate Proactive Customer Service Operations
 description: Activate the Proactive Customer Service plugin to use Proactive Customer Service Operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-proactive-op-man.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Proactive Customer Service, Extend capabilities, Configure, Customer Service Management]
 ---

@@ -3,11 +3,11 @@ title: Map a script to an OS profile
 description: To execute scripted actions during VM provisioning, you can map a script to an OS profile. The script runs on VMs that are created based on the image template in the OS profile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/map-script-to-os-profile.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Cloud scripts and cloud script templates, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -24,7 +24,7 @@ You must have a cloud account with datacenters. You must run Discovery on the se
 
 ## About this task
 
-In this procedure, you specify an existing script. See [Create cloud initialization script templates and a script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-cloud-init-template-and-script.md).
+In this procedure, you specify an existing script. See [Create cloud initialization script templates and a script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/create-cloud-init-template-and-script.md).
 
 **Note:** Profile mappings that specify more details run first. For example, a mapping that specifies a blueprint, OS profile, and resource alias takes precedence over a mapping that specifies only an OS profile.
 
@@ -103,5 +103,5 @@ If you specify a resource alias for the blueprint, then the cloud script is exec
 **Related topics**  
 
 
-[Create an OS profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-os-profile.md)
+[Create an OS profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/create-os-profile.md)
 

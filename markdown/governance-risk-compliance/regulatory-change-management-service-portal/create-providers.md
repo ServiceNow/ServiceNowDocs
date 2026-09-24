@@ -3,11 +3,11 @@ title: Configure a provider taxonomy configuration record
 description: Align the provider with the appropriate taxonomy profile to categorize regulatory intelligence data and feeds for informational reporting purposes. This approach is particularly useful when integrating multiple feed sources, as it ensures consistent naming conventions across systems or applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/create-providers.html
-release: australia
+release: brazil
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up the RSS feeds infrastructure, Configure, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -72,8 +72,8 @@ Taxonomy Loader configuration field when the default taxonomy configuration opti
 -   Custom script: Use Custom script if the taxonomy import needs custom logic.
  For Data source: Update the following fields:
 
--   Data source: Data source to be defined such as Azure AD, Auth0. For more information, refer to, [Create a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/c_CreateNewDataSource.md).
--   Scheduled data import: The import job that runs the data source frequently. For more information, refer to [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_ScheduleADataImport.md).
+-   Data source: Data source to be defined such as Azure AD, Auth0. For more information, refer to, [Create a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/c_CreateNewDataSource.md).
+-   Scheduled data import: The import job that runs the data source frequently. For more information, refer to [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/t_ScheduleADataImport.md).
  For Custom script: Update the following fields:
 
 -   Taxonomy file required: Select the check box if the data to be imported via the selected mode needs a file to be attached.

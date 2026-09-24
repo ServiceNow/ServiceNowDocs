@@ -3,11 +3,11 @@ title: Manage engagements
 description: The audit engagement process involves creating, planning, scoping, and conducting engagements as well as reporting on engagement findings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/c\_Engagements.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
@@ -36,7 +36,7 @@ Scope
 
 During the **Scope** state, audit managers define which entities are involved in the audit engagement. For example, for a financial audit, one may include all business services that the finance department relies on and the finance department itself.
 
- See [Add entities to an engagement scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/add-profiles-to-engagement-scope.md).
+ See [Add entities to an engagement scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/add-profiles-to-engagement-scope.md).
 
 </td></tr><tr><td>
 
@@ -58,7 +58,7 @@ Auditors complete their assigned audit tasks during the **Fieldwork** state. The
 
  To move an engagement into the **Fieldwork** state, click **Advance to Fieldwork** on any engagement currently in the **Validate** state.
 
- See [Audit task management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/c_AuditTasks.md).
+ See [Audit task management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/c_AuditTasks.md).
 
 </td></tr><tr><td>
 
@@ -70,7 +70,7 @@ During the "Awaiting Approval" state, the approvers specified in the **Approvers
 
  To move an engagement into the **Awaiting Approval** state, click **Request approval** on any engagement currently in the **Fieldwork** state.
 
- See [Approve or reject an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/approve-reject-engagement.md).
+ See [Approve or reject an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/approve-reject-engagement.md).
 
 </td></tr><tr><td>
 
@@ -78,7 +78,7 @@ Follow Up
 
 </td><td>
 
-After an engagement is approved, it automatically goes into the **Follow Up** state if there are remaining open tasks, issues, or milestones \(in case of GRC Advanced Audit\). During this stage, auditors must close out all remaining issues, tasks, and milestones before the engagement is marked as complete.
+After an engagement is approved, it automatically goes into the **Follow Up** state if there are remaining open tasks, issues, or milestones \(in case of GRC Advanced Audit\). During this stage, auditors must close out all remaining issues, tasks, and milestones. The engagement is then marked as complete.
 
 </td></tr><tr><td>
 
@@ -93,30 +93,34 @@ Engagements move into the "Closed" state under one of three conditions:
 -   All follow-up tasks, issues, and milestones are closed out. In this case, the engagement automatically moves from the **Follow Up** state to the **Closed** state.
 
 </td></tr></tbody>
-</table>-   **[Audit task management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/c_AuditTasks.md)**  
-Audit tasks are completed throughout an engagement and provide documented evidence that the organization is complying with external regulations and internal policies.
--   **[Create an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/t_CreateEngagement.md)**  
-Audit managers create engagements to manage audit information and collect entities, controls, and control tests that are relevant to the audit.
--   **[Generate an audit report from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/generate-an-audit-report.md)**  
-Generate an audit report and maintain different versions of audit reports from an engagement in Follow up state.
--   **[Create an engagement from a previous engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/create-engagement-from-previous.md)**  
-Audit managers can create engagements from previous engagements to reduce the need to redefine the scope, auditors, and approvers for similar engagements that are conducted throughout the year.
--   **[Create a control test from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/t_CreateControlTest.md)**  
-After defining a control, audit managers create control tests that run periodically and provide documented evidence of whether the associated control is operating correctly. After creating multiple control tests on an engagement, use the Control tests grid to view, manage, and request evidence for all tests in one place.
--   **[Create an audit task activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/t_CreateAnActivity.md)**  
-After defining a control, audit managers create activities that explore and provide documented evidence of whether the associated control is operating correctly.
--   **[Create an interview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/t_CreateAnInterview.md)**  
-After defining a control, audit managers create interviews with control owners to discuss and provide documented evidence of whether the associated control is operating correctly.
--   **[Create a walkthrough](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/t_CreateAWalkthrough.md)**  
-After defining a control, audit managers create walk throughs that will be conducted to observe and provide documented evidence of whether the associated control is operating correctly.
--   **[Generate a KB article from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/generate-kb-from-engage.md)**  
-Audit managers can generate a KB article that summarizes the findings of an engagement so report findings can be communicated to executives.
--   **[Approve or reject an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/approve-reject-engagement.md)**  
-Audit users that are assigned as approvers for an engagement can approve or reject engagements in the **Awaiting Approval** state.
--   **[Add entities to an engagement scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/add-profiles-to-engagement-scope.md)**  
-Audit managers can define which entities are involved in the audit engagement. When you add an entity to an engagement, the corresponding risks, controls, test plans, and indicator results of the entity are also added to the engagement.
--   **[Manage Audit Engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/c_AuditEngagementWorkbench.md)**  
-The Engagement Workbench provides a timeline view from which you can select an audit engagement to view details or create a new engagement.
+</table>## Documents panel
 
-**Parent Topic:**[Using Audit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/using-audit-management.md)
+Beginning with 23.x.x release, engagements have a Documents panel in addition to the Attachments panel. You can add, version, and manage permissions on documents while the engagement is not in a Closed state. For more information, see [Using Document Management System in Audit Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/manage-documents-panel.md).
+
+-   **[Audit task management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/c_AuditTasks.md)**  
+Audit tasks are completed throughout an engagement and provide documented evidence that the organization is complying with external regulations and internal policies.
+-   **[Create an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/t_CreateEngagement.md)**  
+Audit managers create engagements to manage audit information and collect entities, controls, and control tests that are relevant to the audit.
+-   **[Generate an audit report from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/generate-an-audit-report.md)**  
+Generate an audit report and maintain different versions of audit reports from an engagement in Follow up state.
+-   **[Create an engagement from a previous engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/create-engagement-from-previous.md)**  
+Audit managers can create engagements from previous engagements to reduce the need to redefine the scope, auditors, and approvers for similar engagements that are conducted throughout the year.
+-   **[Create a control test from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/t_CreateControlTest.md)**  
+After defining a control, audit managers create control tests that run periodically and provide documented evidence of whether the associated control is operating correctly. After creating multiple control tests on an engagement, use the Control tests grid to view, manage, and request evidence for all tests in one place.
+-   **[Create an audit task activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/t_CreateAnActivity.md)**  
+After defining a control, audit managers create activities that explore and provide documented evidence of whether the associated control is operating correctly.
+-   **[Create an interview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/t_CreateAnInterview.md)**  
+After defining a control, audit managers create interviews with control owners to discuss and provide documented evidence of whether the associated control is operating correctly.
+-   **[Create a walkthrough](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/t_CreateAWalkthrough.md)**  
+After defining a control, audit managers create walkthroughs that will be conducted to observe and provide documented evidence of whether the associated control is operating correctly.
+-   **[Generate a KB article from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/generate-kb-from-engage.md)**  
+Audit managers can generate a KB article that summarizes the findings of an engagement so report findings can be communicated to executives.
+-   **[Approve or reject an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/approve-reject-engagement.md)**  
+Audit users that are assigned as approvers for an engagement can approve or reject engagements in the **Awaiting Approval** state.
+-   **[Add entities to an engagement scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/add-profiles-to-engagement-scope.md)**  
+Audit managers can define which entities are involved in the audit engagement. When you add an entity to an engagement, the corresponding risks, controls, test plans, and indicator results of the entity are also added to the engagement.
+-   **[Manage Audit Engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/c_AuditEngagementWorkbench.md)**  
+The Engagement Workbench provides a timeline view from which you can select an audit engagement to view details or create an engagement.
+
+**Parent Topic:**[Using Audit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/using-audit-management.md)
 

@@ -3,9 +3,9 @@ title: Exploring AI capabilities in BCM
 description: The Business Continuity Management application uses the generative AI skills in ServiceNow Otto for Integrated Risk Management \(IRM\) to summarize issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/bcm-exploring-ai-skills.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto for IRM]
 breadcrumb: [Explore, Business Continuity Management, Governance, Risk, and Compliance]
@@ -42,7 +42,7 @@ User role
 
 </th></tr></thead><tbody><tr><td>
 
-[Using agentic workflows in IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/using-agentic-ai-workflows.md) agentic workflow
+[Using agentic workflows in IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/using-agentic-ai-workflows.md) agentic workflow
 
 </td><td>
 
@@ -69,7 +69,7 @@ User role
 
 </th></tr></thead><tbody><tr><td>
 
-[Summarize an issue using ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/summarize-an-issue.md)
+[Summarize an issue using ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/summarize-an-issue.md)
 
 </td><td>
 
@@ -97,23 +97,23 @@ The following table shows different assets and their description.
 
 To configure and use ServiceNow Otto for IRM, see the following links:
 
--   [Using agentic workflows in IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/using-agentic-ai-workflows.md)
--   [Optimize GRC issue resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/generate-grc-issue-resolution.md)
--   [Using ServiceNow Otto for Integrated Risk Management \(IRM\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/using-now-assist-for-irm-to-summarize-issues.md)
--   [Supporting information for Now Assist for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/now-assist-irm-supporting-info.md)
--   [Configure ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/configure-now-assist-for-irm.md)
--   [Activate skills in Now Assist for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/activate-na-skills-in-irm.md)
--   Activate agentic workflows in Now Assist for IRM
--   [Customize the issue summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/customize-issue-summarization-skill.md)
+-   [Using agentic workflows in IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/using-agentic-ai-workflows.md)
+-   [Optimize GRC issue resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/generate-grc-issue-resolution.md)
+-   [Using ServiceNow Otto for Integrated Risk Management \(IRM\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/using-now-assist-for-irm-to-summarize-issues.md)
+-   [Supporting information for Now Assist for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/now-assist-irm-supporting-info.md)
+-   [Configure ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/configure-now-assist-for-irm.md)
+-   [Activate skills in Now Assist for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/activate-na-skills-in-irm.md)
+-   [Activate agentic workflows in Now Assist for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/activate-agentic-workflows.md)
+-   [Customize the issue summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/customize-issue-summarization-skill.md)
 
 **Related topics**  
 
 
-[Managing issues from Business Continuity Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/managing-issues-in-bcm.md)
+[Managing issues from Business Continuity Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/managing-issues-in-bcm.md)
 
-[Reporting an issue from Business Continuity Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-iss-rep-frm-bcmws-w-ai.md)
+[Reporting an issue from Business Continuity Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-iss-rep-frm-bcmws-w-ai.md)
 
-[Dependencies for integrating the Issues module with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/issues-bcm-dependencies.md)
+[Issues module integration dependencies with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/issues-bcm-dependencies.md)
 
-[Report an issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/report-grc-issue-frm-plan.md)
+[Report an issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/report-grc-issue-frm-plan.md)
 

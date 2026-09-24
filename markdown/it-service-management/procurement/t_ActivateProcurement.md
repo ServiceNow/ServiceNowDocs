@@ -3,11 +3,11 @@ title: Activate Procurement
 description: You can activate the Procurement plugin that provides core procurement capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/procurement/t\_ActivateProcurement.html
-release: australia
+release: brazil
 product: Procurement
 classification: procurement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Procurement, Asset Management common applications, IT Service Management]
 ---
@@ -32,13 +32,13 @@ Role required: procurement\_admin, procurement\_user
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 
--   **[Components installed with Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/r_InstalledWithProcurement.md)**  
+-   **[Components installed with Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/procurement/r_InstalledWithProcurement.md)**  
 Several types of components are installed with Procurement.
 
-**Parent Topic:**[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/c_Procurement.md)
+**Parent Topic:**[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/procurement/c_Procurement.md)
 
 **Related topics**  
 

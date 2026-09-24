@@ -3,9 +3,9 @@ title: Update a request from an inbound email
 description: Requests can be automatically updated from the information in inbound email replies as long the functionality has been enabled on the SM application's configuration screen. The emails must also be sent to a mailbox defined by criteria in the appropriate inbound email action.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_UpdateARequestFromAnInboundEmail.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Request creation using inbound email actions, Request creation, Request Management in a Service Management application, Service Management]
 ---
@@ -27,5 +27,5 @@ Requests can be automatically updated from the information in inbound email repl
 3.  You can use the email action as is or modify it to meet the needs of your organization.
 
 
-**Parent Topic:**[Request creation using inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_ReqCreateUseInboundEmailAct.md)
+**Parent Topic:**[Request creation using inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-management-for-the-enterprise/r_ReqCreateUseInboundEmailAct.md)
 

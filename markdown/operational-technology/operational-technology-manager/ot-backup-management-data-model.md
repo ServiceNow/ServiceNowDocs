@@ -1,20 +1,20 @@
 ---
 title: Operational Technology Backup Management data model
-description: The Operational Technology \(OT\) Backup Management provides visibility and actionable insights on the backup of the OT devices. The class tables described below are interconnected and collectively form the Backup Management data model.
+description: The Operational Technology \(OT\) Backup Management provides visibility and actionable insights on the backup of the OT devices. The class tables are interconnected and collectively form the Backup Management data model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/ot-backup-management-data-model.html
-release: australia
+release: brazil
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Operational Technology Manager, Operational Technology]
 ---
 
 # Operational Technology Backup Management data model
 
-The Operational Technology \(OT\) Backup Management provides visibility and actionable insights on the backup of the OT devices. The class tables described below are interconnected and collectively form the Backup Management data model.
+The Operational Technology \(OT\) Backup Management provides visibility and actionable insights on the backup of the OT devices. The class tables are interconnected and collectively form the Backup Management data model.
 
 Use the Backup Storage Information \[cmdb\_backup\_storage\_information\] class to create backup records that identify the device in internal or external backup services. The Backup Storage Information table includes the following attributes:
 
@@ -23,7 +23,7 @@ Use the Backup Storage Information \[cmdb\_backup\_storage\_information\] class 
 |Backup Configuration Status|Indicates whether the CI has been configured in the backup service or appliance with relevant policies.|
 |Discovery Source|Discovery source of the backup record.|
 |Backup Service|Reference to the Common Service Data Model Technical Service hosting external and internal backup system, services, or appliances|
-|Managed By|Name or ID of the user whi is responsible for managing the backup.|
+|Managed By|Name or ID of the user that is responsible for managing the backup.|
 |Latest Successful Execution|Date and time of the most recent data backup that was successfully executed for a device.|
 |Latest Execution Attempt|Date and time of the most recent data backup that was attempted for a device.|
 |Next Execution Attempt|Date and time when the next data backup is going to be attempted for a device.|
@@ -58,10 +58,10 @@ Use the OT Backup Job Execution History \[ot\_backup\_history\_and\_comparision\
 |Previous Version vs Backup Error|Comparison between the previous recorded version of the OT device and the version information available in the backup record that experienced an error during backup job execution.|
 |Previous Version vs Backup Warning|Comparison between the previous recorded version of the OT device and the version information available in the backup record that experienced a warning during backup job execution.|
 
-**Parent Topic:**[Operational Technology Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/operational-technology-manager-reference.md)
+**Parent Topic:**[Operational Technology Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/operational-technology-manager-reference.md)
 
 **Related topics**  
 
 
-[Operational Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models-operation-technology.md)
+[Operational Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-ci-class-models-operation-technology.md)
 

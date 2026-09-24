@@ -3,11 +3,11 @@ title: Service instances \(Application services\)
 description: Understand service instances \(application services\), learn about different application service types and how multiple ServiceNow business units and products use them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/application-services.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 breadcrumb: [Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -46,7 +46,7 @@ There are the following types of application services:
 
 -   **Dynamic CI Group**
 
-    Dynamic CI groups which act as application services. The members of the [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md) that is associated with the dynamic CI group, populates the application service. A dynamic CI group is a dynamic grouping of CIs, based on some common criteria such as the location of all web servers in Detroit or all Oracle databases in Boston. After creating a dynamic CI group, it can be used as a group offering in IT Service Management.
+    Dynamic CI groups which act as application services. The members of the [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md) that is associated with the dynamic CI group, populates the application service. A dynamic CI group is a dynamic grouping of CIs, based on some common criteria such as the location of all web servers in Detroit or all Oracle databases in Boston. After creating a dynamic CI group, it can be used as a group offering in IT Service Management.
 
     If created from the Application Service wizard, the service classification is application service, and if created from the legacy Event Management UI or Service Mapping UI, the classification is technical service. Application services of the Dynamic CI Group type are stored in the Dynamic CI Group \[cmdb\_ci\_query\_based\_service\] table.
 
@@ -79,12 +79,12 @@ There are the following types of application services:
 
 Application services provide foundation for operation of the following business units and products of the ServiceNow AI Platform:
 
--   [ITOM Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-health-landing-page.md) gathers alerts from infrastructure events captured by third-party monitoring tools. It then uses IT-related information gathered by Discovery to map alerts to configuration items. Based on the collected information, then provides dashboards showing a consolidated view of all service-impact events.
--   [ITOM Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-optimization-landing-page.md) gives you tools to provision private and public cloud infrastructure and services and to achieve consistent management and cost visibility. The [Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-insights-landing-page.md) application, available in the ServiceNow Store, helps you to analyze the full range of costs associated with cloud assets so you can identify and take action on opportunities to save money and optimize operations.
--   [IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/r_ITServiceManagement.md) users rely on the application services reflecting the IT infrastructure to manage and deliver services to their customers.
+-   [ITOM Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-health-landing-page.md) gathers alerts from infrastructure events captured by third-party monitoring tools. It then uses IT-related information gathered by Discovery to map alerts to configuration items. Based on the collected information, then provides dashboards showing a consolidated view of all service-impact events.
+-   [ITOM Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-optimization-landing-page.md) gives you tools to provision private and public cloud infrastructure and services and to achieve consistent management and cost visibility. The [Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-insights-landing-page.md) application, available in the ServiceNow Store, helps you to analyze the full range of costs associated with cloud assets so you can identify and take action on opportunities to save money and optimize operations.
+-   [IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/r_ITServiceManagement.md) users rely on the application services reflecting the IT infrastructure to manage and deliver services to their customers.
 -   Customer Service Management users efficiently diagnose and resolve issues related to the IT infrastructure in the context of application services.
--   [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/c_SoftwareAssetMgmt.md) users understand the software running in your IT environment and track configurations that impact software license consumption across your IT environments and datacenters.
--   [Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/r_ITBusinessManagement.md) users utilize data collected for application services to gain a comprehensive understanding of the applications used in your organization.
+-   [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/c_SoftwareAssetMgmt.md) users understand the software running in your IT environment and track configurations that impact software license consumption across your IT environments and datacenters.
+-   [Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/r_ITBusinessManagement.md) users utilize data collected for application services to gain a comprehensive understanding of the applications used in your organization.
 
 ## How to create application services
 
@@ -108,9 +108,9 @@ Additional considerations
 
 </th></tr></thead><tbody><tr><td>
 
-[Top-down discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/pattern-based-discovery.md) Service Mapping performs top-down discovery of application services. Service Mapping uses patterns to discover and map CIs. A pattern is a sequence of steps whose purpose is to detect attributes of a CI and its outbound connections. This method creates precise and complete application services that reliably represent the service-aware view of your organization's IT infrastructure
+[Top-down discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/pattern-based-discovery.md) Service Mapping performs top-down discovery of application services. Service Mapping uses patterns to discover and map CIs. A pattern is a sequence of steps whose purpose is to detect attributes of a CI and its outbound connections. This method creates precise and complete application services that reliably represent the service-aware view of your organization's IT infrastructure
 
- [Tag-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/tag-based-mapping.md) is a complimentary method that enriches the results of top-down discovery.
+ [Tag-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/tag-based-mapping.md) is a complimentary method that enriches the results of top-down discovery.
 
 </td><td>
 
@@ -122,7 +122,7 @@ Pattern-based mapping requires configuring credentials, users, and user permissi
 
 </td></tr><tr><td>
 
-[Tag-based](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/tag-based-mapping.md) If your organization uses tags for asset management, you can use these tags to map application services. Discovery and Cloud Provisioning and Governance discover tags assigned to CIs, and populate the CMDB with this data. Service Mapping uses the tag-related data from the CMDB to map services.
+[Tag-based](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/tag-based-mapping.md) If your organization uses tags for asset management, you can use these tags to map application services. Discovery and Cloud Provisioning and Governance discover tags assigned to CIs, and populate the CMDB with this data. Service Mapping uses the tag-related data from the CMDB to map services.
 
  Tag-based service mapping complements top-down service mapping. It provides visibility of containers and also maps VMs that aren’t fully discovered, which top-down service mapping is unable to do. However, while tag-based mapping associates tagged components with specific application services, it doesn’t map the connections between these components—This is another reason why tag-based mapping complements rather than replaces top-down service mapping.
 
@@ -152,7 +152,7 @@ Analyze discovered resources in the CMDB before ingesting from 3rd party to avoi
 
 </td></tr><tr><td>
 
-[Populate an application service using the Dynamic CI Group method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/populate-app-service-dynamic-group.md) Based on CMDB groups, whose members populate the application service.
+[Populate an application service using the Dynamic CI Group method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/populate-app-service-dynamic-group.md) Based on CMDB groups, whose members populate the application service.
 
 </td><td>
 
@@ -166,7 +166,7 @@ Need to ensure that the CMDB group accurately filters for the CIs that should be
 
 </td></tr><tr><td>
 
-[Application service API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/application-service-api.md) Create an automation for creating application services in bulk. Use this method, if your organization has performed cross-organization mapping and analysis and collected some information about services.
+[Application service API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/application-service-api.md) Create an automation for creating application services in bulk. Use this method, if your organization has performed cross-organization mapping and analysis and collected some information about services.
 
 Application services created using APIs belong to the manual type are stored in the Mapped Application Service \[cmdb\_ci\_service\_discovered\] table.
 
@@ -180,9 +180,9 @@ Be familiar with the exact service structure: sys\_id of each CI comprising the 
 
 </td></tr><tr><td>
 
-[Populate an application service using the Manual method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/populate-app-service-manual.md) Create a manual application service with one CI only: the entry point. To populate a manually created application service, add other CIs manually as described in [Manually add CIs to an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/manually-add-ci-to-business-service.md).
+[Populate an application service using the Manual method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/populate-app-service-manual.md) Create a manual application service with one CI only: the entry point. To populate a manually created application service, add other CIs manually as described in [Manually add CIs to an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/manually-add-ci-to-business-service.md).
 
- Alternatively, create and populate manual application services by [converting business services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/convert-bus-to-app-svc-intro.md) created in the CMDB and stored in \[cmdb\_ci\_service\].
+ Alternatively, create and populate manual application services by [converting business services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/convert-bus-to-app-svc-intro.md) created in the CMDB and stored in \[cmdb\_ci\_service\].
 
 </td><td>
 
@@ -198,12 +198,12 @@ This method doesn't require any preexisting setup or object configuration.You ca
 
 </td></tr><tr><td>
 
-[Populate an application service using the Dynamic Service method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/populate-app-service-dynamic-service.md) Application services that automatically update to reflect any change to CI relationships in the CMDB CI Relationship \[cmdb\_rel\_ci\] table.
+[Populate an application service using the Dynamic Service method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/populate-app-service-dynamic-service.md) Application services that automatically update to reflect any change to CI relationships in the CMDB CI Relationship \[cmdb\_rel\_ci\] table.
 
  To conform with Common Service Data Model, you can also convert legacy services to dynamic application services. Those legacy services are stored in the \[cmdb\_ci\_service\] or \[cmdb\_ci\_service\_manual\] CMDB tables:
 
--   [Convert business services to application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/convert-bus-to-app-svc-intro.md)
--   [Convert legacy manual services into dynamic application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/convert-manual-app-ser-to-dynamic.md)
+-   [Convert business services to application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/convert-bus-to-app-svc-intro.md)
+-   [Convert legacy manual services into dynamic application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/convert-manual-app-ser-to-dynamic.md)
 
 </td><td>
 
@@ -215,7 +215,7 @@ You can't edit a dynamic application service by adding or removing CIs from it. 
 
 </td></tr><tr><td>
 
-[From CSV file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/import-business-services-csv.md) Service Mapping extracts information from this file and creates potential application services referred to as service candidates. Use this method, if your organization has performed cross-organization mapping and analysis and collected some information about services.
+[From CSV file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/import-business-services-csv.md) Service Mapping extracts information from this file and creates potential application services referred to as service candidates. Use this method, if your organization has performed cross-organization mapping and analysis and collected some information about services.
 
 </td><td>
 
@@ -226,7 +226,7 @@ If necessary, you can import service candidates from multiple CSV files.
 Organize all the collected information in a specific order in a CSV file, precisely as described in the documentation.
 
 </td></tr></tbody>
-</table>To comply with CSDM, convert manual services created using IT Operations Management Event Management and stored in \[cmdb\_ci\_service\_manual\] as covered in [Convert manual services to application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/migrate-manual-2-application-service.md) or [Convert manual services to application services using API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/convert-manual-to-application-service.md). Converted services become application services of the manual type stored in the Mapped Application Service \[cmdb\_ci\_service\_discovered\] table.
+</table>To comply with CSDM, convert manual services created using IT Operations Management Event Management and stored in \[cmdb\_ci\_service\_manual\] as covered in [Convert manual services to application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/migrate-manual-2-application-service.md) or [Convert manual services to application services using API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/convert-manual-to-application-service.md). Converted services become application services of the manual type stored in the Mapped Application Service \[cmdb\_ci\_service\_discovered\] table.
 
 ## Domain separation
 
@@ -234,6 +234,6 @@ Domain separation, if deployed, impacts an service instance as follows:
 
 -   When creating an service instance, the service instance is assigned to the user's domain.
 -   When manually adding a CI to an service instance, you can choose only CIs that belong to the service domain.
--   When using the [createOrUpdateService - POST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/application-service-api.md) REST API for creating or updating an application service, the process stops if one of the CIs referenced in the API belongs to a different domain than the application service itself.
+-   When using the [createOrUpdateService - POST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/application-service-api.md) REST API for creating or updating an application service, the process stops if one of the CIs referenced in the API belongs to a different domain than the application service itself.
 -   When converting business services into application services, the newly created application service belongs to the same domain as the original business service. The application service comprises only CIs belonging to the same domain as the application service itself.
 

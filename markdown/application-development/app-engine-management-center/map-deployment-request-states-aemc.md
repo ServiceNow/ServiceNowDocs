@@ -3,11 +3,11 @@ title: Map deployment request states
 description: If your ReleaseOps deployment request has custom states, you must configure the Deployment Request State Map table so that your ReleaseOps deployment request states map to the correct App Engine states.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/map-deployment-request-states-aemc.html
-release: australia
+release: brazil
 product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: task
-last_updated: "2025-10-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Migration tasks, Configure Pipelines and Deployments, Configure, App Engine Management Center, Governing app development, Building applications]
 ---
@@ -58,5 +58,5 @@ You have mapped all ReleaseOps deployment request states onto the corresponding 
 
 ## What to do next
 
-If you want to configure additional conditions to enable migration to ReleaseOps, see [Add custom conditions to enable ReleaseOps deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/add-custom-conditions-to-enable-releaseops-deployment.md).
+If you want to configure additional conditions to enable migration to ReleaseOps, see [Add custom conditions to enable ReleaseOps deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/add-custom-conditions-to-enable-releaseops-deployment.md).
 

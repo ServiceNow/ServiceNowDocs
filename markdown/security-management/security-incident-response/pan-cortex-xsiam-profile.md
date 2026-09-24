@@ -3,11 +3,11 @@ title: Create an incident profile
 description: Determine the Cortex XSIAM incidents that are suitable for creating security incidents by creating an incident profile in your ServiceNow AI Platform instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/pan-cortex-xsiam-profile.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Incident Response Integration with Cortex XSIAM by Palo Alto Networks, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -96,5 +96,5 @@ Optional description of the profile.
 
 ## What to do next
 
-[Set Alert Sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/pan-cortex-xsiam-rules.md)
+[Set Alert Sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/pan-cortex-xsiam-rules.md)
 

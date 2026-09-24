@@ -3,7 +3,7 @@ title: Troubleshooting
 description: Steps to take if you encounter problems using CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/troubleshooting.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
@@ -118,7 +118,7 @@ Subscriptions \(SBQQ\_\_Subscription\_\_c\):
 -   Configuration Id
 -   BOM Data
 
-See [Granting user access in CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/granting_user_access_in_logik_io.md).
+See [Granting user access in CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/granting_user_access_in_logik_io.md).
 
 ## Salesforce integration
 
@@ -136,5 +136,5 @@ See [Granting user access in CPQ](https://raw.githubusercontent.com/ServiceNow/S
     If you have confirmed none of these are true and a quote line is still not being created, then it is probable that the product sync that takes place between CPQ and Salesforce via the refresh token user has not occurred yet. This sync occurs via API every 30 minutes for test and demo environments and every 15 minutes for production. To determine when this sync last occurred, enter Salesforce and navigate to Setup → Bulk Data Load Jobs.
 
 -   
-**Parent Topic:**[CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)
 

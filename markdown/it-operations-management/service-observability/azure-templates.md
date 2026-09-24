@@ -3,11 +3,11 @@ title: Azure Monitor templates for Service Observability
 description: Templates used to create Azure Monitor dashboards in Service Observability. You can edit these templates as needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-observability/azure-templates.html
-release: australia
+release: brazil
 product: Service Observability
 classification: service-observability
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Observability templates, Service Observability reference, Service Observability, ITOM AIOps, IT Operations Management]
 ---
@@ -16,12 +16,12 @@ breadcrumb: [Service Observability templates, Service Observability reference, S
 
 Templates used to create Azure Monitor dashboards in Service Observability. You can edit these templates as needed.
 
-See [Customize Service Observability dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/customize-service-observability-dashboard-templates.md) for more information.
+See [Customize Service Observability dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-observability/customize-service-observability-dashboard-templates.md) for more information.
 
--   **[Azure Monitor Overview tab for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/azure-overview-tab-for-service-observability.md)**  
+-   **[Azure Monitor Overview tab for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-observability/azure-overview-tab-for-service-observability.md)**  
 Information that is displayed on the Azure Monitor **Overview** tab of the Service Details page in the SOW.
--   **[Azure Monitor Observability tab for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/azure-observability-tab.md)**  
+-   **[Azure Monitor Observability tab for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-observability/azure-observability-tab.md)**  
 Dashboard and charts on the Azure Monitor Observability tab of the Service Details page in the SOW.
 
-**Parent Topic:**[Service Observability templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/observability-templates.md)
+**Parent Topic:**[Service Observability templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-observability/observability-templates.md)
 

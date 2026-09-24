@@ -3,11 +3,11 @@ title: Install and configure the DLP Incident Response application
 description: Manage sensitive information and automate the remediation workflows by using the Data Loss Prevention Incident Response \(DLP IR\) application in your ServiceNow AI Platform instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/install-data-loss-prevention.html
-release: australia
+release: brazil
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -24,12 +24,12 @@ Roles required: admin and sn\_dlir.admin
 
 ## Procedure
 
-1.  Follow the instructions for [downloading an application from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/download-app-first-time.md).
+1.  Follow the instructions for [downloading an application from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/download-app-first-time.md).
 
-2.  After you have downloaded the **DLP Incident Response** application and all of its dependency applications, navigate to **All** &gt; **DLP Administration** &gt; **Default Configuration** to complete the rest of the [application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/configure-data-loss-prevention.md).
+2.  After you have downloaded the **DLP Incident Response** application and all of its dependency applications, navigate to **All** &gt; **DLP Administration** &gt; **Default Configuration** to complete the rest of the [application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/configure-data-loss-prevention.md).
 
 
-**Parent Topic:**[Installing and configuring DLP IR Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/install-dlp.md)
+**Parent Topic:**[Installing and configuring DLP IR Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/install-dlp.md)
 
 **Related topics**  
 

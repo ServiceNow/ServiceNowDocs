@@ -3,7 +3,7 @@ title: Configure the Merit Review Scoring Framework for a Grant Program in the R
 description: Define the scoring framework that a merit reviewer should follow as they review and score grant program proposals in the Reviewer Service portal. You can also select which knowledge bases or frameworks are displayed to a merit reviewer in the Reviewer Service portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gmp-scoring-framework.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-03-18"
 reading_time_minutes: 1
@@ -24,7 +24,7 @@ Role required: admin
 
 2.  Select the portal for which you want to display the desired merit review framework.
 
-    Select the Reviewer Service Portal. For information on how to create a merit review framework, see [Create a custom Merit Review scoring framework for a Grant Program in the Reviewer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-create-scoring-framework.md).
+    Select the Reviewer Service Portal. For information on how to create a merit review framework, see [Create a custom Merit Review scoring framework for a Grant Program in the Reviewer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-create-scoring-framework.md).
 
 3.  Select the desired scoring framework.
 
@@ -39,19 +39,19 @@ Role required: admin
 7.  Select **Save**.
 
 
--   **[Create a custom Merit Review scoring framework for a Grant Program in the Reviewer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-create-scoring-framework.md)**  
+-   **[Create a custom Merit Review scoring framework for a Grant Program in the Reviewer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-create-scoring-framework.md)**  
 Start scoring grant proposals based on your agency's preferences by creating a custom scoring framework.
--   **[Configure a merit review scoring rubric for a grants proposal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-create-rubric.md)**  
+-   **[Configure a merit review scoring rubric for a grants proposal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-create-rubric.md)**  
 Create a knowledge article containing information on how merit reviewers are to score the proposals, known as a rubric.
 
-**Parent Topic:**[Set up a grant program in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-grant-pgr.md)
+**Parent Topic:**[Set up a grant program in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-grant-pgr.md)
 
-**Previous topic:**[Configure Restricted Caller Access for a results letter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-results-template-rca.md)
+**Previous topic:**[Configure Restricted Caller Access for a results letter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-results-template-rca.md)
 
-**Next topic:**[Create a custom Merit Review scoring framework for a Grant Program in the Reviewer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-create-scoring-framework.md)
+**Next topic:**[Create a custom Merit Review scoring framework for a Grant Program in the Reviewer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-create-scoring-framework.md)
 
 **Related topics**  
 
 
-[Create a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-a-knowledgebase.md)
+[Create a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/create-a-knowledgebase.md)
 

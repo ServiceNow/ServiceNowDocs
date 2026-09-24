@@ -3,11 +3,11 @@ title: Configure investigative features
 description: Configure investigative features to set advanced analytics features for a process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/investigative-features.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [With Process Configuration Builder, Creating process configuration, Use, Process Mining, Platform Analytics]
 ---
@@ -30,13 +30,13 @@ Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 
     The **Process details** page is displayed. Select **Investigative features** from the side panel.
 
-    If you’re proceeding from the **Recommendations setup** page, then you come to this page. For more information, see [Configure recommendations setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/reco-setup.md).
+    If you’re proceeding from the **Recommendations setup** page, then you come to this page. For more information, see [Configure recommendations setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/reco-setup.md).
 
     The **Investigative features** page has four sections:
 
     -   Automated root cause analysis
     -   Cluster analysis
-    -   Work notes analysis
+    -   Transition work notes analysis
     \[Omitted image "invest-features-config.png"\] Alt text: Investigative features in process configuration
 
 4.  Add fields that you want for automated root cause analysis in the **Automated root cause analysis** field.
@@ -45,23 +45,23 @@ Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 
     Based on your inputs on the **Process details** page, you get recommendations for automated root cause analysis.
 
-    When you set up the automated root cause analysis, you can initiate a root cause analysis in your project that is based on this table. For more information on running root case analysis, see [Run automated root cause analysis reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/run-view-arca.md).
+    When you set up the automated root cause analysis, you can initiate a root cause analysis in your project that is based on this table. For more information on running root case analysis, see [Run automated root cause analysis reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/run-view-arca.md).
 
     **Note:** If the automated root cause analysis isn’t set up in the process configuration, it isn’t available.
 
 5.  Select an existing clustering definition in the **Intent and activity analysis** field.
 
-    **Note:** Intent and activity analysis isn’t available unless specified in the process configuration. Also, if the Intent and Activity Analysis skill is not activated in ServiceNow Otto for Creator, then the section is not available for edit. For more information on Intent and Activity Analysis skill, see [Working with intent and activity analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/nowass-intent-activity-analysis.md).
+    **Note:** Intent and activity analysis isn’t available unless specified in the process configuration. Also, if the Intent and Activity Analysis skill is not activated in ServiceNow Otto for Creator, then the section is not available for edit. For more information on Intent and Activity Analysis skill, see [Working with intent and activity analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/nowass-intent-activity-analysis.md).
 
     Select the help icon \(?\) to view details about how and why these details must be set. You also get a list of resources.
 
-    For more information about running a cluster analysis, see [Perform a cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/request-cluster-analysis.md).
+    For more information about running a cluster analysis, see [Perform a cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/request-cluster-analysis.md).
 
     If there are no clustering analyses, select **New clustering definition**.
 
     Provide a name for the clustering analysis and provide fields that you want to use for your cluster analysis, and then select **Configure**.
 
-    For more information, see [Configure a process for a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-configuration-clustering.md).
+    For more information, see [Configure a process for a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/process-configuration-clustering.md).
 
 6.  Select **New clustering definition** if no clustering analysis is available.
 
@@ -79,9 +79,9 @@ Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 
     Select the help icon \(?\) to view details about how and why these details must be set. You also get a list of resources.
 
-    For information on running work notes analysis, see [Perform work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/perform-worknotes-analysis.md).
+    For information on running transition work notes analysis, see [Perform work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/perform-worknotes-analysis.md).
 
-    **Note:** Work notes analysis isn’t available unless it’s set up in the process configuration.
+    **Note:** Transition work notes analysis isn’t available unless it’s set up in the process configuration.
 
     You can use the AI for work notes analysis even with 5-50 eligible work notes. If there are less than 25 eligible work notes, clustering isn’t performed. It puts all the work notes into one LLM call. Otherwise, clustering is performed before calling the LLM.
 
@@ -161,5 +161,5 @@ Select the length greater than which the work notes are disregarded in the analy
 </table>8.  Select **Continue to impact metrics**.
 
 
-**Parent Topic:**[Create process configuration using Process Configuration Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-config-builder.md)
+**Parent Topic:**[Create process configuration using Process Configuration Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/process-config-builder.md)
 

@@ -3,9 +3,9 @@ title: Using the Business Location Service Portal in Public Sector Digital Servi
 description: You can use the Business \(Agency\) Location Service Portal \(BLSP\), available with the Public Sector Digital Services application, as a one-stop shop to manage internal and external agency locations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-business-location-service-portal.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Using the business \(agency\) location service portal, Use the business location service portal]
 breadcrumb: [Portals, Use, Public Sector Digital Services \(PSDS\)]

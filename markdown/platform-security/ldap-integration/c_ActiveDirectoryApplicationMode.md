@@ -3,11 +3,11 @@ title: Active Directory Application Mode \(ADAM\)
 description: Active Directory Application Mode \(ADAM\) is an Lightweight Directory Access Protocol \(LDAP\)-compliant directory service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/c\_ActiveDirectoryApplicationMode.html
-release: australia
+release: brazil
 product: LDAP integration
 classification: ldap-integration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [LDAP integration, Authentication, Access Management]
 ---

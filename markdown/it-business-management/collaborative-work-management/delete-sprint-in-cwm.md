@@ -3,11 +3,11 @@ title: Delete a sprint in CWM
 description: Delete individual sprints from Sprint planning in Collaborative Work Management so that your Board reflects the changes in your planning priorities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/delete-sprint-in-cwm.html
-release: australia
+release: brazil
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Plan sprints, Agile in CWM, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -39,5 +39,5 @@ Role required: sn\_cwm.cwm\_user
 
 The sprint is deleted and any active incomplete work items that were scheduled into this sprint are moved to the backlog.
 
-**Parent Topic:**[Sprint planning in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.md)
+**Parent Topic:**[Sprint planning in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.md)
 

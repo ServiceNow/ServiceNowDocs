@@ -3,11 +3,11 @@ title: Retire legacy AWS API Gateway data model CIs
 description: Avoid duplicate AWS API Gateway configuration items \(CIs\) by retiring legacy data model CIs through a scheduled job.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/retire-legacy-aws-api-gateway-cis.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Amazon API Gateways, AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -19,7 +19,7 @@ Avoid duplicate AWS API Gateway configuration items \(CIs\) by retiring legacy d
 ## Before you begin
 
 -   Verify you have at least version 1.29.0 of Discovery and Service Mapping Patterns.
--   Run an AWS discovery to populate the CIs in the managed API data model. For more information, see [Create Discovery schedules for cloud resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-manager.md).
+-   Run an AWS discovery to populate the CIs in the managed API data model. For more information, see [Create Discovery schedules for cloud resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-manager.md).
 
 Role required: admin
 
@@ -38,5 +38,5 @@ Starting with Discovery and Service Mapping Patterns December release, the Amazo
 4.  Select **Execute Now**.
 
 
-**Parent Topic:**[Amazon API Gateway discovery with Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/aws-api-gateway-discovery.md)
+**Parent Topic:**[Amazon API Gateway discovery with Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/aws-api-gateway-discovery.md)
 

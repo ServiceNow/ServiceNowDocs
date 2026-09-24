@@ -3,12 +3,12 @@ title: Share a Process Mining project
 description: Share a project so that other have access to the data, and enable a process owner to analyze further.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/share-project.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Use, Process Mining, Platform Analytics]
 ---
 
@@ -20,12 +20,28 @@ Share a project so that other have access to the data, and enable a process owne
 
 Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
 
-**Note:** If the user doesn’t have access to a table, the user can’t access the project even if you have shared it with them.
+## About this task
 
 You can share a project in two ways:
 
 -   Adding users to the share list
 -   Sharing a link of the project with the users
+
+When you share a Process Mining project, you choose one of two permission levels for each person: Can view or Can edit. These are mutually exclusive; selecting one automatically deselects the other.
+
+|Action|Can view|Can edit|
+|------|--------|--------|
+|Explore the analyst workbench, run on-the-fly mining jobs|Yes|Yes|
+|Edit project fields \(name, description, configuration\)|No|Yes|
+|Run a full or sample mine|No|Yes|
+|Delete the project|No|Yes, unless a mining job is currently running|
+|Share the project with others|No|No|
+
+Granting someone **Can edit** access only works if they have the `sn_process_mining_analyst` role or higher. If they don't, they're treated as **Can view** regardless of the permission you assigned them.
+
+Process Mining admins and power users always have the same level of access as the project owner, regardless of how the project was shared with them.
+
+This permission model doesn't apply to content pack projects or templates. Those remain governed by their own read-only rules.
 
 ## Procedure
 
@@ -47,12 +63,19 @@ You can share a project in two ways:
 
     3.  Select **Add**.
 
-    4.  Select **Confirm**.
+    4.  From the dropdown next to their name, select a permission level.
+
+        -   **Can view**: Selected by default
+        -   **Can edit**: Can edit the project
+        -   **Remove**: Removes this user's access
+        \[Omitted image "share-project.png"\] Alt text: Permission level in sharing a project
+
+    5.  Select **Confirm**.
 
         On this window, you see all the users, roles, and groups that the project is shared with. This list gets filtered by the value that you select in the **Audience type** list \(**All**, **Users**, **Roles**, or **Groups**\).
 
-    5.  To remove any user, group, or role from giving the access to the project, from the **Actions** list for that user, group, or role select **Remove**.
+    6.  To remove any user, group, or role from giving the access to the project, from the **Actions** list for that user, group, or role select **Remove**.
 
 
-**Parent Topic:**[Using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/use-process-mining.md)
+**Parent Topic:**[Using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/use-process-mining.md)
 

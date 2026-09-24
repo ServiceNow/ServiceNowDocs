@@ -3,11 +3,11 @@ title: Identify the supply and demand for models within a stockroom in the Enter
 description: Use the Supply vs Demand report to evaluate the available and incoming quantity of models in your stockroom and the requests for these models from different service locations. This report helps you determine if you have enough assets to meet the demand.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/identify-supply-demand-eam.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manage stockrooms with inventory reports in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
@@ -82,5 +82,5 @@ The supply and demand details are stored in the Model and stockrooms \[sn\_asset
     The Supply vs Demand graph updates to show the recently calculated values.
 
 
-**Parent Topic:**[Manage stockrooms with inventory reports in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/manage-stockroom-inventory-reports.md)
+**Parent Topic:**[Manage stockrooms with inventory reports in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/manage-stockroom-inventory-reports.md)
 

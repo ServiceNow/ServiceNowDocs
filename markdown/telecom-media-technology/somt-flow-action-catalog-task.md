@@ -3,9 +3,9 @@ title: Task plan templates driven order fulfillment
 description: Use the task plan template to define tasks and their dependencies that are needed to orchestrate the fulfillment journey for a product to standardize fulfillment processes across products.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/somt-flow-action-catalog-task.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -16,9 +16,9 @@ Use the task plan template to define tasks and their dependencies that are neede
 
 A no-code approach in ServiceNow® that allows you to create task orchestration workflows using task plan templates. It as an alternative to flow designer, giving more options for implementing product configurations.
 
-For more information about Flow actions for fulfillment subflow definition, see [Flow actions for fulfillment subflow definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-flow-actions-fulfillment-subflows.md).
+For more information about Flow actions for fulfillment subflow definition, see [Flow actions for fulfillment subflow definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-flow-actions-fulfillment-subflows.md).
 
-When the template is configured for a specification, the domain order creation automatically searches for a matching template, based on the task's specification and action of domain order. When a template match is found, the template is applied to generate the order tasks under the domain order. To learn more about task plan template, see [Task plan templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/task-plan-templates.md).
+When the template is configured for a specification, the domain order creation automatically searches for a matching template, based on the task's specification and action of domain order. When a template match is found, the template is applied to generate the order tasks under the domain order. To learn more about task plan template, see [Task plan templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/task-plan-templates.md).
 
 **Important:** Automatic closure of domain orders is currently inactive and will require a custom implementation.
 
@@ -45,7 +45,7 @@ Explanation
 
 </th></tr></thead><tbody><tr><td>
 
-[Create a task plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-task-plan-template.md).
+[Create a task plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-task-plan-template.md).
 
 </td><td>
 
@@ -54,7 +54,7 @@ Create the template and set the conditions as to when the template applies.-   T
 
 </td></tr><tr><td>
 
-[Configure task plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/configure-task-plan-template.md)
+[Configure task plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/configure-task-plan-template.md)
 
 </td><td>
 
@@ -62,7 +62,7 @@ To add conditions to a template item that determines when a template item is app
 
 </td></tr><tr><td>
 
-[Create one or more template items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-task-plan-template-item.md).
+[Create one or more template items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-task-plan-template-item.md).
 
 </td><td>
 
@@ -71,7 +71,7 @@ Create the template items to include in the task plan template. These items can 
 
 </td></tr><tr><td>
 
-[Create conditions for template items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-task-plan-template-item-condition.md).
+[Create conditions for template items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-task-plan-template-item-condition.md).
 
 </td><td>
 
@@ -79,7 +79,7 @@ Set conditions as needed for each of the template items that identifies when a t
 
 </td></tr><tr><td>
 
-[Task dependencies for task plan templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/task-dependencies-for-task-plan-templates.md)
+[Task dependencies for task plan templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/task-dependencies-for-task-plan-templates.md)
 
 </td><td>
 

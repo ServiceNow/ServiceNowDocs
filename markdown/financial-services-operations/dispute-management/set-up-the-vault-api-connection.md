@@ -3,11 +3,11 @@ title: Set up the Connection &amp; Credential records
 description: Configure the Connection &amp; Credential records for Card Data Security. This establishes the primary outbound connection that routes requests from ServiceNow to external APIs via the tokenizer service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/set-up-the-vault-api-connection.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [set up vault api connection, connection credential records, carddatasecurity servicetoken, carddatasecurity clienttoken, carddatasecurity datatokensigner, vault id, connection url, tokenuri, integration hub connections, credential aliases]
 breadcrumb: [Set up OAuth for Card Data Security, Configure, Card Data Security, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
@@ -21,7 +21,7 @@ Configure the Connection &amp; Credential records for Card Data Security. This e
 
 Role required: admin
 
-For Verifi integration, this requires a JWT provider created from the procedure in [Set up a JWT Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-a-jwt-provider.md).
+For Verifi integration, this requires a JWT provider created from the procedure in [Set up a JWT Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/set-up-a-jwt-provider.md).
 
 ## Procedure
 
@@ -48,7 +48,7 @@ For Verifi integration, this requires a JWT provider created from the procedure 
     |**Name**|&lt;Name of the HTTP\(s\) connection&gt;|
     |**Connection URL**|&lt;The tokenizer service endpoint URL designated for accessing Verifi APIs internally&gt;|
     |**Issuer**|&lt;The Issuer ID provided by Verifi&gt;|
-    |**JWT Provider**|&lt;The JWT Provider created from the procedure in [Set up a JWT Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-a-jwt-provider.md)&gt;|
+    |**JWT Provider**|&lt;The JWT Provider created from the procedure in [Set up a JWT Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/set-up-a-jwt-provider.md)&gt;|
     |**API Version**|&lt;The API version provided by Verifi, as necessary&gt;|
 
 5.  Select **Submit**.
@@ -62,5 +62,5 @@ The Card Data Security connection records are configured.
 
 ## What to do next
 
-[Set up a credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-an-oauth-credential.md).
+[Set up a credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/set-up-an-oauth-credential.md).
 

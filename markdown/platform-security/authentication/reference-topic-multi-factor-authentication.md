@@ -3,11 +3,11 @@ title: Reference topic - Multi-factor Authentication
 description: Reference topic related to the configuration of MFA.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/reference-topic-multi-factor-authentication.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring MFA, Multi-factor authentication, Authentication, Access Management]
 ---
@@ -27,7 +27,7 @@ To access the details about the user's MFA, navigate to **All** &gt; **Multi-fac
 |Multi-factor secret|The details of the multi-factor secret.|
 |Validated|Is the multi-factor validated. Changing the value to **false** invalidates the existing authenticator app setup.|
 
-**Note:** The recently used MFA factors by the users is available in the User Recent Used Factors module. Navigate to **All** &gt; **Multi-factor Authentication** &gt; **User Recent User Factors**. For more information, see [User Recent Used Factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/reference-topic-multi-factor-authentication.md).
+**Note:** The recently used MFA factors by the users is available in the User Recent Used Factors module. Navigate to **All** &gt; **Multi-factor Authentication** &gt; **User Recent User Factors**. For more information, see [User Recent Used Factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/reference-topic-multi-factor-authentication.md).
 
 ## Multi-factor Browser Fingerprints
 

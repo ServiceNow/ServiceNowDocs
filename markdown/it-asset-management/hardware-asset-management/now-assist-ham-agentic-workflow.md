@@ -3,11 +3,11 @@ title: Using agentic workflows in ServiceNow Otto for HAM
 description: Use the ServiceNow Otto for HAM AI agent collection to complete hardware asset sourcing tasks autonomously and optimize the asset repair workflow. These AI agents help resolve hardware requests quickly, improve the productivity of asset managers, and speed up repairs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/now-assist-ham-agentic-workflow.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [AI Agents, agentic AI]
 breadcrumb: [AI in Hardware Asset Management, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
@@ -31,11 +31,11 @@ Available AI agents
 
 </th><th>
 
-Introduced in ServiceNow Otto for HAM version
+Introduced inServiceNow Otto for HAM version
 
 </th></tr></thead><tbody><tr><td>
 
-[Help manage hardware asset requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/now-assist-ham-fulfill-req-agent-workflow.md)
+[Help manage hardware asset requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/now-assist-ham-fulfill-req-agent-workflow.md)
 
 </td><td>
 
@@ -53,7 +53,7 @@ ServiceNow Otto for Hardware Asset Management \(HAM\) v1.0
 
 </td></tr><tr><td>
 
-[Help repair hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/now-assist-ham-repair-agent-workflow.md)
+[Help repair hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/now-assist-ham-repair-agent-workflow.md)
 
 </td><td>
 
@@ -76,11 +76,13 @@ ServiceNow Otto for Hardware Asset Management \(HAM\) v2.0
 -   Activate all agents within the agentic workflow.
 -   Activate the trigger to invoke the agentic workflow automatically. If you prefer to invoke it manually, activating the trigger isn’t necessary.
 
-By default, all agentic workflows and AI agent records are read-only. To customize them, you must first [duplicate the agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and then activate the duplicated workflow.
+By default, all agentic workflows and AI agent records are read-only. To customize them, you must first [duplicate the agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-aia-usecase.md), and then activate the duplicated workflow.
 
-After you duplicate the agentic workflow, you can test it in the AI Agent Studio to analyze its performance as it executes the instructions that you have defined. For details on testing your agentic workflow, see [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-use-case.md).
+After you duplicate the agentic workflow, you can test it in the AI Agent Studio to analyze its performance as it executes the instructions that you have defined. For details on testing your agentic workflow, see [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-aia-use-case.md).
 
-You can implement security in AI agents and the agentic workflow using Access Control Lists \(ACLs\) that specify which users can discover and invoke an agentic workflow or an AI agent. For more details on configuring ACLs, see [Implement access control in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).
+You can implement security in AI agents and the agentic workflow using Access Control Lists \(ACLs\) that specify which users can discover and invoke an agentic workflow or an AI agent. For more details on configuring ACLs, see [Implement access control in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aia-security-implementation.md).
 
-There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/find-ai-agents.md).
+
+**Parent Topic:**[AI in Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/ai-in-ham.md)
 

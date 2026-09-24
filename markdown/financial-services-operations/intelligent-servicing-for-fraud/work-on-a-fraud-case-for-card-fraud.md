@@ -3,11 +3,11 @@ title: Work on a fraud case for card fraud
 description: Use card fraud to work on a fraud case that is created for reviewing alerts that are flagged by customers or from external sources, ensure that any outstanding tasks are completed, and the cases are investigated and resolved.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/intelligent-servicing-for-fraud/work-on-a-fraud-case-for-card-fraud.html
-release: australia
+release: brazil
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [work on a fraud case, card fraud case, investigate fraud cases, resolve fraud cases, fraud case playbook, initiate fraud case, fraud investigation stage, case disposition, fraud write-off, manager approval for fraud, verify fraud transactions, collect fraud documents, sn\_bom\_fraud.agent]
 breadcrumb: [Use, Intelligent Servicing for Fraud, Banking applications, Financial Services Operations \(FSO\)]
@@ -21,7 +21,7 @@ Use card fraud to work on a fraud case that is created for reviewing alerts that
 
 Role required: sn\_bom\_fraud.agent or sn\_bom\_fraud.agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## Procedure
 

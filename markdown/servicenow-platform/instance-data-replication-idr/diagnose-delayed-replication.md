@@ -3,11 +3,11 @@ title: Discover replication delays in Instance Data Replication
 description: Monitor possible data replication issues by using the Instance Data Replication \(IDR\) Monitoring Dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/diagnose-delayed-replication.html
-release: australia
+release: brazil
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Resolving errors, Administer, Instance Data Replication, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,7 +26,7 @@ Role required: admin
 
 1.  To view the time lag on a producer instance, navigate to **Instance Data Replication** &gt; **Monitoring Dashboard**, and check the Active Producer Replication Sets for the following details.
 
-<table id="choicetable_mkm_wmd_skb"><tbody><tr><td id="d77905e70">
+<table id="choicetable_mkm_wmd_skb"><tbody><tr><td id="d77233e70">
 
 **Name**
 
@@ -34,7 +34,7 @@ Role required: admin
 
 Name of the producer replication set.
 
-</td></tr><tr><td id="d77905e79">
+</td></tr><tr><td id="d77233e79">
 
 **Replication Queue Reading Lag**
 
@@ -42,7 +42,7 @@ Name of the producer replication set.
 
 Time between a record change on the producer instance and the moment it is sent over the outbound replication queue.
 
-</td></tr><tr><td id="d77905e88">
+</td></tr><tr><td id="d77233e88">
 
 **Status**
 
@@ -50,7 +50,7 @@ Time between a record change on the producer instance and the moment it is sent 
 
 Status of a replication set, either active or in error.
 
-</td></tr><tr><td id="d77905e97">
+</td></tr><tr><td id="d77233e97">
 
 **Status Message**
 
@@ -58,7 +58,7 @@ Status of a replication set, either active or in error.
 
 Message that describes the error status.
 
-</td></tr><tr><td id="d77905e106">
+</td></tr><tr><td id="d77233e106">
 
 **Message Queue Version**
 
@@ -80,7 +80,7 @@ Version of the Message Queue. Default is V2 \(Hermes\).
 
 2.  To view the time lag on a consumer instance, navigate to **Instance Data Replication** &gt; **Monitoring Dashboard** and check the Active Consumer Replication Sets for the following details.
 
-<table id="choicetable_pgt_f12_skb"><tbody><tr><td id="d77905e165">
+<table id="choicetable_pgt_f12_skb"><tbody><tr><td id="d77233e165">
 
 **Name**
 
@@ -88,7 +88,7 @@ Version of the Message Queue. Default is V2 \(Hermes\).
 
 Name of the consumer replication set.
 
-</td></tr><tr><td id="d77905e174">
+</td></tr><tr><td id="d77233e174">
 
 **Data Lag**
 
@@ -96,7 +96,7 @@ Name of the consumer replication set.
 
 Time between a record change on the producer instance and the moment it is recorded in the consumer instance.
 
-</td></tr><tr><td id="d77905e183">
+</td></tr><tr><td id="d77233e183">
 
 **Network Lag**
 
@@ -104,7 +104,7 @@ Time between a record change on the producer instance and the moment it is recor
 
 Time between a record change logs in the outbound replication queue and the moment it is recorded in the consumer instance.
 
-</td></tr><tr><td id="d77905e192">
+</td></tr><tr><td id="d77233e192">
 
 **Status**
 
@@ -112,7 +112,7 @@ Time between a record change logs in the outbound replication queue and the mome
 
 Status of a replication set, either active or in error.
 
-</td></tr><tr><td id="d77905e201">
+</td></tr><tr><td id="d77233e201">
 
 **Status Message**
 
@@ -120,7 +120,7 @@ Status of a replication set, either active or in error.
 
 Message that describes the error status.
 
-</td></tr><tr><td id="d77905e211">
+</td></tr><tr><td id="d77233e211">
 
 **Message Queue Version**
 
@@ -137,5 +137,5 @@ Version of the Message Queue. Default is V2 \(Hermes\)
         **Note:** The timestamps are GMT.
 
 
-**Parent Topic:**[Resolving data replication errors in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/common-issues-idr.md)
+**Parent Topic:**[Resolving data replication errors in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/instance-data-replication-idr/common-issues-idr.md)
 

@@ -3,7 +3,7 @@ title: Create scripts
 description: Learn how to create advanced functions using the scripting interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/scripting.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -32,7 +32,7 @@ When the script editor first opens, it provides the expected return format of th
 -   Advanced inclusion and exclusion rules return an array.
 -   Product rules return ProductList.
 
-For more details and a script sample, review the "Advanced product actions" section of [Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/rules_101.md).
+For more details and a script sample, review the "Advanced product actions" section of [Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/rules_101.md).
 
 The **? Help** button opens a menu of available functions. Each entry includes a description of the function, the parameters it accepts, its output, and an example that can be inserted at the current location of the cursor in the script.
 
@@ -61,13 +61,13 @@ Also see the following sample scripts:
 **Related topics**  
 
 
-[CPQ scripting language reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[CPQ scripting language reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-logik-io-scripting-language-reference.md)
 
-[Sample scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-sample-scripts.md)
+[Sample scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-sample-scripts.md)
 
-[Using comments and the console to debug scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/rules-enrichments-comments-and-console_log.md)
+[Using comments and the console to debug scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/rules-enrichments-comments-and-console_log.md)
 
-[Scripting: Checking for first and subsequent configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/enrichments_on_configurer_and_reconfigure_behavior.md)
+[Scripting: Checking for first and subsequent configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/enrichments_on_configurer_and_reconfigure_behavior.md)
 
-[Scripting: How to populate set values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/enrichments-on-configure-reconfigure-scripts-how-to-populate-set-values.md)
+[Scripting: How to populate set values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/enrichments-on-configure-reconfigure-scripts-how-to-populate-set-values.md)
 

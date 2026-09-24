@@ -3,11 +3,11 @@ title: Interactive Analysis information panel
 description: The Filter Info panel summarizes what the current filter shows and enables you to edit the source filter condition, bookmark an interactive analysis, and share an interactive analysis with colleagues.To save an interactive analysis for later use, you can add it to your favorites.You can share the URL of an interactive analysis with other users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/interactive-analysis-info-panel.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Interactive Analysis, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Interactive Analysis, Reporting, dashboards, and Performance Analyt
 
 The **Filter Info** panel summarizes what the current filter shows and enables you to edit the source filter condition, bookmark an interactive analysis, and share an interactive analysis with colleagues.
 
-Interactive analysis assumes that there are interactive filters on the tables you are working in. To create filters, see [Creating Interactive Filters of different types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/core-ui-interactive-filters/r_AvailableHomepagePublisherTypes.md).
+Interactive analysis assumes that there are interactive filters on the tables you are working in. To create filters, see [Creating Interactive Filters of different types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/core-ui-interactive-filters/r_AvailableHomepagePublisherTypes.md).
 
 Click the information icon \(\[Omitted image "PreviewIcon.png"\] Alt text: Info icon\) to open the **Filter Info** panel.
 
@@ -41,7 +41,7 @@ The information panel has the following features:
 
 \[Omitted image "interactive-analysis-info-panel.png"\] Alt text: Interactive analysis information panel
 
-**Parent Topic:**[Interactive Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/interactive-analysis.md)
+**Parent Topic:**[Interactive Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/interactive-analysis.md)
 
 ## Bookmark an interactive analysis
 

@@ -3,9 +3,9 @@ title: My promotions
 description: Agents workspace enables OEM to create the sales promotions campaigns. OEM agent can view all the sales promotion campaign created by them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-my-promotions.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sales promotion management, Sales promotion, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
@@ -20,19 +20,19 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Sales Promotion Management** &gt; **My Promotion**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **Sales Promotion Management** &gt; **My Promotion**.
 
 2.  Select **New**.
 
 3.  On the My Promotion form, fill in the fields.
 
-    For a description of the field values, see [My promotions form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-my-promotions-form.md).
+    For a description of the field values, see [My promotions form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-my-promotions-form.md).
 
 4.  Select **Save**.
 
 5.  Select **Create checklist**.
 
-    For further instruction, see [Create a checklist template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-create-checklist.md).
+    For further instruction, see [Create a checklist template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-create-checklist.md).
 
 6.  Select **Publish**.
 
@@ -40,4 +40,9 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
 7.  To reuse the sales promotion details, select **Copy**.
 
+
+-   **[Create a checklist template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-create-checklist.md)**  
+Agents workspace enables the manufacturer to create a checklist for verification.
+
+**Parent Topic:**[Sales promotion management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-sls-pro-mgmt.md)
 

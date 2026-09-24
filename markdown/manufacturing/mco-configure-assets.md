@@ -3,9 +3,9 @@ title: Configure assets
 description: An asset is a specific product or instance that is supported for a customer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-configure-assets.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [asset, configure, hardware, license, inventory]
 breadcrumb: [Initial setup, Configure, Manufacturing Commercial Operations]
@@ -51,7 +51,7 @@ Role required: admin
 
 5.  Select **Submit**.
 
-    For more information on importing assets, see [Import assets with guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/import-csm-assets.md).
+    For more information on importing assets, see .
 
 
 ## Result

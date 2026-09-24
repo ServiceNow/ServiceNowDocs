@@ -3,9 +3,9 @@ title: Enter metadata
 description: Fill in the metadata for your service graph connector.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/spc-sgc-template-stepper1.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating your own API connector, Use the workspace, Security Posture Control, Security Operations]
 ---

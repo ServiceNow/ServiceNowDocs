@@ -1,86 +1,45 @@
 ---
 title: AI Service Graph connector for LangGraph
-description: The AI Service Graph Connector for LangGraph enables you to discover and import AI assets from your LangGraph environment into ServiceNow AI Control Tower.
+description: Use the  AI Service Graph Connector for LangGraph to discover AI assets such as AI systems, agents, models, tools, and prompts and well as usage data for these AI agents. This usage information is consumed by the AI Control Tower value dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/langgraph.html
-release: australia
+release: brazil
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # AI Service Graph connector for LangGraph
 
-The AI Service Graph Connector for LangGraph enables you to discover and import AI assets from your LangGraph environment into ServiceNow AI Control Tower.
-
-The connector integrates with the LangSmith API to catalog AI systems, agents, models,and prompts. Usage data is automatically collected and populated into the AI Control Tower value dashboard, providing comprehensive visibility and governance of your AI operations.
+Use the  AI Service Graph Connector for LangGraph to discover AI assets such as AI systems, agents, models, tools, and prompts and well as usage data for these AI agents. This usage information is consumed by the AI Control Tower value dashboard.
 
 ## Download apps from the Store
 
-Visit the ServiceNow store website to download the [AI Service Graph Connector for LangGraph](https://store.servicenow.com/store/app/19b23dd3537e7a9072c95a01a0490e4f) application.
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home)  website to download the AI Service Graph Connector for LangGraph app.
 
 ## Supported ServiceNow versions
 
-|Release|Status|
-|-------|------|
-|Australia|Supported|
-|Zurich|Supported|
+-   Australia
+-   Zurich patch 7
+-   Yokohama patch 11
 
-## User Roles
+## User roles
 
-You must have one of the following roles assigned.
+Roles required in the ServiceNow environment:
 
-|Required Roles|
-|--------------|
-|sn\_ai\_disc.discovery\_admin|
-|sn\_cmdb\_int\_util.sgc\_admin|
+-   sn\_ai\_disc.discovery\_admin
+-   sn\_cmdb\_int\_util.sgc\_admin
 
-## ServiceNow Prerequisites
+## Prerequisites from LangGraph
 
-Complete the following setup steps once when configuring the connector for the first time.
+Enter the connection details, API Key credentials and update the credential record.
 
-**Note:** Updating data source access and clear cache is a prerequisite that needs to be completed only once, when setting up a new instance for the first time.
+Create an API key for the AI Connector to authenticate with LangGraph. For more information on creating API Key in LangGraph, see [Create an API Key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/create-an-api-key-in-langgraph-environment.md)
 
-Update Data Source Access:
-
-The connector requires write permissions to the Data Source table to create data sources.
-
-To enable data source creation:
-
-1.  Select **Global** from the application picker.
-2.  Navigate to **Application Access**.
-3.  Select the **Can create**, **Can update**, and **Can delete** check boxes.
-4.  Select **Update**.
-5.  Switch to the connector application scope.
-
-Clear the cached data for the Data Source and Tables.
-
-To clear the cache:
-
-1.  Navigate to **System Definition** &gt; **Background Scripts**.
-2.  Enter the following script in the **Run Script** text box:
-
-    ```
-    GlideTableManager.invalidateTable('sys_data_source');
-    GlideCacheManager.flushTable('sys_data_source');
-    GlideTableManager.invalidateTable('sys_db_object');
-    GlideCacheManager.flushTable('sys_db_object');
-    
-    ```
-
-3.  Select **Run Script**.
-
-    **Note:** The script might take several minutes to complete. After completion, switch to the connector application scope.
-
-
-## LangGraph Prerequisites
-
-Before creating a connection, generate an API key in your LangGraph instance. See [Create an account and API key with LangGraph](https://docs.langchain.com/langsmith/create-account-api-key) documentation to learning about creating an API Key in LangGraph.
-
-**Note:** To access the latest and most comprehensive guidelines for managing API keys, see [About LangGraph](https://docs.langchain.com/).
+**Note:** To access the latest and most comprehensive guidelines for managing API keys, see [About LangGraph](https://docs.langchain.com/)
 
 ## Data Mapping
 

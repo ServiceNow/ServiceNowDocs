@@ -3,11 +3,11 @@ title: Enable store inquiry AI agent trigger
 description: The HQ agent can leverage the store inquiry AI agent either manually or by enabling or configuring the trigger.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-enable-store-inquiry-ai-agent.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Retail]
+breadcrumb: [Configure, ServiceNow Otto for Retail Service Management \(RSM\), Retail]
 ---
 
 # Enable store inquiry AI agent trigger
@@ -45,5 +45,5 @@ You can enable security implementation on AI agents and agentic workflows throug
 
 Configure and manage these ACLs for agentic workflows and AI agents in the AI Agent Studio.
 
-See [Implement access control in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md) for more information on implementing security for AI agents.
+See [Implement access control in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aia-security-implementation.md) for more information on implementing security for AI agents.
 

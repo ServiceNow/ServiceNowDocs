@@ -3,11 +3,11 @@ title: Update a regulatory assessment template
 description: Publish a new version of assessment templates in Regulatory Change Management \(RCM\) to revise its questionnaire and response options. Each version maintains a change history of the templates used in regulatory assessments.
 locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/update-reg-assessment-template.html
-release: australia
+release: brazil
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2026-05-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [template versioning, publish template, smart assessment, Smart Assessment Engine, retire template]
 breadcrumb: [Manage regulatory tasks, Regulatory Change Management, Governance, Risk, and Compliance]
@@ -61,5 +61,5 @@ Any new assessment sent to the assessor uses the latest published version of the
 **Related topics**  
 
 
-[Assess the impact of a regulatory event alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/assess-impact-of-reg-change-using-ws.md)
+[Assess the impact of a regulatory event alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/assess-impact-of-reg-change-using-ws.md)
 

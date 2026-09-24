@@ -3,9 +3,9 @@ title: Approval workflow configurations for unassign request
 description: You can design the approval workflow for the removal of assignments from vulnerable items \(VIs, VITs\), remediation tasks, application vulnerable items \(AVITs\), and container vulnerable items \(CVITs\) for you and your group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-unassign-approval-rules.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure rules to manage findings, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -32,7 +32,5 @@ You can design the approval workflow for the removal of assignments from vulnera
 |AVIT|Application vulnerable item field change request|Application vulnerability field change request|Unassign app vulnerability item|
 |CVIT|Approval for container management|Default Configuration Unassign CVIT|CVIT unassign approval level - 1|
 
-For more information on how to approve unassign requests, see [Approve or reject an unassign request in Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vr-approve-unassign-requests.md).
-
-**Parent Topic:**[Configure rules to manage findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-rules-manage-findings.md)
+For more information on how to approve unassign requests, see [Approve or reject an unassign request in Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/vr-approve-unassign-requests.md).
 

@@ -1,35 +1,35 @@
 ---
 title: Pre-discovery phase
-description: The pre-discovery phase involves preparatory steps, such as defining scanning parameters and configuring credential details, to ensure a smooth initiation of the certificate discovery process.
+description: The pre-discovery phase involves preparatory steps, such as defining scanning parameters and configuring credential details, for a smooth initiation of the certificate discovery process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cert-inventory-mgmt-process-pre-discovery.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Process flow, Explore, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
 # Pre-discovery phase
 
-The pre-discovery phase involves preparatory steps, such as defining scanning parameters and configuring credential details, to ensure a smooth initiation of the certificate discovery process.
+The pre-discovery phase involves preparatory steps, such as defining scanning parameters and configuring credential details, for a smooth initiation of the certificate discovery process.
 
 ## Discovery via Ports
 
-The port probe \[tls\_ssl\_certs\] automatically scans 14 default preauthorized ports. The port probe \[tls\_ssl\_certs\] automatically scans 14 default preauthorized ports.
+The port probe \(tls\_ssl\_certs\) automatically scans 14 default preauthorized ports.
 
 -   Typical ports for SSL: 443, 8443, 9443, 636 \(ldaps\), 993 \(imaps\), 995 \(popssl\), 989, 990
 -   StartTLS ports: 25 \(smtp\), 110, 143, 389, 21, 587 \(smtp\)
 
-As part of the CI Discovery process during Shazzam, the MID Server uses scanners to gather certificate chain information from the IP port number and capturing diverse attributes, including the certificate hierarchy. The MID Server then transforms these certificates into an XML payload, sharing it with the instance. The Shazzam sensor, in turn, detects the ECC queue entry and inserts a new record into the Discovered Certificate table \[sn\_disco\_certmgmt\_certificate\_history\].
+As part of the CI Discovery process during Shazzam, the MID Server uses scanners to gather certificate chain information from the IP port number and capturing diverse attributes, including the certificate hierarchy. The MID Server then transforms these certificates into an XML payload, sharing it with the instance. The Shazzam sensor, in turn, detects the ECC queue entry and inserts a new record into the Discovered Certificate \(sn\_disco\_certmgmt\_certificate\_history\) table.
 
 The following fields are pulled from the XML payload and verified in java code from the Shazzam TLS port probe for discovered certificates: certificate id, revocation\_status, subject, issuer, sans/, is\_self\_signed, is\_ca, valid\_from, valid\_to, signature\_algorithm, fingerprint\_algorithm, key\_size, serial\_number, and version.
 
 ## Discovery via URL
 
-The Certificate URL \[sn\_disco\_certmgmt\_cert\_url\] table holds a list of URLs to target for certificate discovery. Each record also has an optional reference to the Unique Certificate \[cmdb\_ci\_certificate\] table, to see what certificate is related to the given URL definition. The necessary parameters from the Discovery Schedule are combined to create and initialize the Discovery status. The \[CertificateDiscoveryFromURLScan\] probe discovers the certificate chain for each of the URLs in the batch and outputs an XML payload that contains the certificate chain for each certificate. It also adds a new record into the Discovered Certificate \[sn\_disco\_certmgmt\_certificate\_history\] table.
+The Certificate URL \(sn\_disco\_certmgmt\_cert\_url\) table holds a list of URLs to target for certificate discovery. Each record also has an optional reference to the Unique Certificate \(cmdb\_ci\_certificate\) table, to see what certificate is related to the given URL definition. The necessary parameters from the Discovery Schedule are combined to create and initialize the Discovery status. The CertificateDiscoveryFromURLScan probe discovers the certificate chain for each of the URLs in the batch and outputs an XML payload that contains the certificate chain for each certificate. It also adds a new record into the Discovered Certificate \(sn\_disco\_certmgmt\_certificate\_history\) table.
 
 ## Discovery via Import Certificates \(Version 1.1.7 Certificate Inventory and Management\)
 
@@ -44,7 +44,7 @@ The Import certificates are discovered through the Import SSL Certificate patter
 
 ## Discovery via CA authority \(Version 1.1.7 Certificate Inventory and Management\)
 
-After the Certificate Inventory and Management credential is set up with either GoDaddy, DigiCert, Entrust, or Sectigo Certificate Authority and the Discovery schedule runs, the specific CA pattern makes REST API calls to \(GoDaddy, DigiCert, Entrust, or Sectigo\), collects certificate information, retrieves the list of certificates, and stores it in the \[cmdb\_ci\_certificate\], \[certificate\_domain\], and \[sys\_attachment\] tables.
+After the Certificate Inventory and Management credential is set up with either GoDaddy, DigiCert, Entrust, or Sectigo Certificate Authority and the Discovery schedule runs, the specific CA pattern makes REST API calls to \(GoDaddy, DigiCert, Entrust, or Sectigo\), collects certificate information, retrieves the list of certificates, and stores it in the cmdb\_ci\_certificate, certificate\_domain, and sys\_attachment tables.
 
 ca\_api\_url and ca\_api\_version are optional parameters. If these parameters are left empty inside pattern parameters, default values will be used. The default values include:
 
@@ -108,7 +108,7 @@ Entrust
 </table>    You can include multiple certificate statuses by separating each with commas.
 
 
-**Note:** The **state** field in the Unique Certificate \[cmdb\_ci\_certificate\] table denotes the life cycle state of the certificate, not the raw state from the API. If the API returns states such as issued, valid, expired, or canceled, they are stored as "issued" in the Unique Certificate \[cmdb\_ci\_certificate\] table.
+**Note:** The State field in the Unique Certificate \(cmdb\_ci\_certificate\) table denotes the life cycle state of the certificate, not the raw state returned by the CA though API. Certificates discovered with a CA status of issued, valid, expired, or canceled, are all denoted with the State value Issued. The State field doesn't include an expired value. To identify certificates that have expired, use the Valid to value rather than the State value.
 
-Once the pre-discovery phase is completed, move on to the [post-discovery phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-inventory-mgmt-process-post-discovery.md).
+After the pre-discovery phase is complete, move on to the [post-discovery phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/cert-inventory-mgmt-process-post-discovery.md).
 

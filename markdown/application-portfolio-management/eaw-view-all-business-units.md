@@ -3,9 +3,9 @@ title: View all business units
 description: You can view the list of all available business units in the Enterprise Architecture Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-all-business-units.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage business units, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -29,10 +29,10 @@ Role required: sn\_apm.apm\_admin or business\_planner or pps\_admin
 4.  Select **Business Units**.
 
 
-**Parent Topic:**[Manage business units](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-business-units.md)
+**Parent Topic:**[Manage business units](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-manage-business-units.md)
 
 **Related topics**  
 
 
-[Add or edit a business unit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-or-edit-a-business-unit.md)
+[Add or edit a business unit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-add-or-edit-a-business-unit.md)
 

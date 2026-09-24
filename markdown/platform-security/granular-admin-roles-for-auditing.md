@@ -3,9 +3,9 @@ title: Granular admin roles for Audit tables
 description: Granular admin roles replace broad admin access with targeted, feature-specific permissions. Use these roles to grant the administrative capabilities needed for specific tasks without assigning the admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/granular-admin-roles-for-auditing.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Auditing]
 ---

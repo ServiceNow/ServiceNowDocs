@@ -3,9 +3,9 @@ title: Configure attributes for input form screen variables
 description: Use screen variables to collect information from the user automatically or define default information. Variables can include information like user IDs and GPS coordinates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/param-screen-config-variables.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configure an input form screen, Input form screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -16,7 +16,7 @@ Use screen variables to collect information from the user automatically or defin
 
 ## Before you begin
 
-You must create an input form screen before you create variables and attributes. For information about creating an input form screen, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-screen-config.md).
+You must create an input form screen before you create variables and attributes. For information about creating an input form screen, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/parameter-screen-config.md).
 
 Role required: admin
 
@@ -159,5 +159,5 @@ Enter this attribute name for Scripted variables.**Note:** Enter the attribute n
 
 ## What to do next
 
-After you have created your input form screen variables, you can map these variables to input form screen inputs or action items. For details on this process, see [Configure an action item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-create-action-item.md).
+After you have created your input form screen variables, you can map these variables to input form screen inputs or action items. For details on this process, see [Configure an action item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-studio-create-action-item.md).
 

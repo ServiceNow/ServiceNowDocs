@@ -1,20 +1,20 @@
 ---
 title: Configure ServiceNow Otto for CMDB
-description: Configure the ServiceNow Otto for CMDB application so users can benefit from Agentic workflows, agents, and skills.
+description: Configure the ServiceNow Otto for CMDB application so users can benefit from agentic workflows, agents, and skills.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-configure-3.0.html
-release: australia
+release: brazil
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-07-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Configure ServiceNow Otto for CMDB
 
-Configure the ServiceNow Otto for CMDB application so users can benefit from Agentic workflows, agents, and skills.
+Configure the ServiceNow Otto for CMDB application so users can benefit from agentic workflows, agents, and skills.
 
 ## Before you begin
 
@@ -30,7 +30,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 3.  On the ServiceNow Otto for CMDB card, select **Get plugins** and then in the pop-up window, select **Install Plugin**.
 
-    You install the ServiceNow Otto for CMDB \(com.snc.cmdb.gen.ai\) plugin.
+    You install the ServiceNow Otto for Configuration Management Database \(CMDB\) \(com.snc.cmdb.gen.ai\) plugin.
 
     \[Omitted image "na-cmdb-plugins-install-page.png"\] Alt text: Accessing the ServiceNow Otto for CMDB \(com.snc.cmdb.gen.ai\) plugin from the AI Admin Hub console.
 
@@ -38,7 +38,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 4.  Install the ServiceNow Otto for CMDB plugin.
 
-    For instructions on the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    For instructions on the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 5.  Confirm that ServiceNow Otto for CMDB is installed.
 
@@ -52,27 +52,27 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 6.  On the **AI Skills** tab, expand **Technology** and then select **CMDB**.
 
-    \[Omitted image "na-cmdb-turn-on-skill-page.png"\] Alt text: Activating the ServiceNow Otto for CMDB skills.
+    \[Omitted image "na-cmdb-turn-on-skill-page.png"\] Alt text: Activating the skills.
 
 7.  Configure property settings.
 
-    See [Property settings for ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-data-fdn-properties.md).
+    See [Property settings for ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-data-fdn-properties.md).
 
 
 ## What to do next
 
-To start using ServiceNow Otto for CMDB skills, see [Using ServiceNow Otto skills in ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-using-skills.md).
+To start using skills, see [Using ServiceNow Otto skills in ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-using-skills.md).
 
 To deactivate a skill, select the menu icon \[Omitted image "menu-icon.png"\] Alt text:for the skill and then select **Deactivate skill**.
 
-Admins might be interested in Query Generation. Query Generation is an AI-powered service that translates user questions into an executable query. An executable query contains the data source, filter, aggregation, and visualization instructions that best answer the user's question. For more information, see [Exploring Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/exploring-query-generation.md).
+Admins might be interested in Query Generation. Query Generation is an AI-powered service that translates user questions into an executable query. An executable query contains the data source, filter, aggregation, and visualization instructions that best answer the user's question. For more information, see [Exploring Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/exploring-query-generation.md).
 
-**Parent Topic:**[Configuring ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-configuring.md)
+**Parent Topic:**[Configuring ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-configuring.md)
 
 **Related topics**  
 
 
-[CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)
+[CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)
 
 [sg-workspace]
 

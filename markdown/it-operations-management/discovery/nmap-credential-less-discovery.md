@@ -3,12 +3,12 @@ title: Credential-less discovery with Nmap
 description: When authentication failure prevents configuration item \(CI\) identification, Discovery or Service Mapping can run selected Nmap commands through a MID Server. This collects basic CI information without credentials.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/nmap-credential-less-discovery.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-05-31"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
@@ -16,9 +16,9 @@ breadcrumb: [Advanced Discovery configuration, Configuring Discovery, Discovery,
 
 When authentication failure prevents configuration item \(CI\) identification, Discovery or Service Mapping can run selected Nmap commands through a MID Server. This collects basic CI information without credentials.
 
-A MID Server administrator can [install Nmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/install-nmap-on-mid-server.md) on individual MID Server instances running on a Windows host. Those MID Server instances can then discover some basic information about CIs in your network when normal authentication fails.
+A MID Server administrator can [install Nmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/install-nmap-on-mid-server.md) on individual MID Server instances running on a Windows host. Those MID Server instances can then discover some basic information about CIs in your network when normal authentication fails.
 
-**Important:** Self-hosted users whose network security doesn't permit downloads from `install.service-now.com` must install and configure Nmap manually on their system. Refer to [Install Nmap on a self-hosted system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/install-nmap-on-mid-server.md) for instructions.
+**Important:** Self-hosted users whose network security doesn't permit downloads from `install.service-now.com` must install and configure Nmap manually on their system. Refer to [Install Nmap on a self-hosted system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/install-nmap-on-mid-server.md) for instructions.
 
 Credential-less discovery can create or modify host and application CIs when credentials are missing or misconfigured. If a credential-based discovery is performed successfully after Nmap creates a CI, the system reconciles the information gathered from each type of discovery.
 
@@ -57,6 +57,11 @@ System properties
 
 -   **mid.discovery.credentialless.enable**: Enables or disables Nmap for all MID Server instances on which Nmap is installed that are connected to the instance. This property is installed with the Discovery plugin and is enabled by default. It is configurable by a system administrator.
 -   **mid.discovery.credentialless.alt\_port\_options**: Starting from Discovery and Service Mapping Patterns version 1.31.0, controls the port range that Nmap scans during credential-less discovery. Set to `F` to use Nmap fast mode \(top 100 ports\), or `T` to scan the top 1,000 ports \(Nmap default\). By default, ports are collected from the IP Services \[cmdb\_ip\_service\] table based on records where the Credentialless Discovery \[cl\_discovery\] field is set to true.
+-   **mid.discovery.credentialless.include\_os\_scan\_guess**: Controls whether Nmap can guess the operating system when it can't confirm an exact match. Set to **true** to expand the possibility of an operating system guess, or **false** to report an operating system only on an exact match. This property isn't installed by default and a system administrator must add it to the MID Server Property \[ecc\_agent\_property\] table. Its default value is false. Enable it if hosts aren't returning an operating system during credential-less discovery.
+-   **mid.discovery.credentialless.include\_udp\_scan**: Controls whether the scan checks UDP ports and TCP ports. Set to **true** to scan both UDP and TCP ports, or **false** to scan TCP ports only. This property isn't installed by default and a system administrator must add it to the MID Server Property \[ecc\_agent\_property\] table. It's turned off by default. Its default value is false. Enable it if a host requires a UDP response to be identified.
+
+**Note:** Enabling UDP scanning increases scan time, especially if you widen the port range by setting **mid.discovery.credentialless.alt\_port\_options** to `T`. A wide scan can exceed the command timeout and fail. The timeout comes from the **sa.local\_command\_timeout\_ms** MID Server parameter, which defaults to 60 seconds when it isn't set. If UDP scans are timing out, increase this value, because a wide scan can take up to about 30 minutes.
+
 
 </td></tr><tr><td>
 
@@ -83,7 +88,7 @@ Nmap MID Server capability
 
 </td><td>
 
-The Nmap [MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigureCapabilities.md) is added to the MID Server when Nmap is installed and removed automatically when Nmap is uninstalled. Only MID Server instances with this capability can perform credential-less discovery. A system administrator can't add or remove this capability manually. Self-hosted users who have the maint role can modify or delete the Nmap capability, but shouldn't do so.Service Mapping doesn’t check for the presence of the **Nmap** capability and selects the MID Server based on the IP address only. To prevent Service Mapping from selecting a MID Server without the **Nmap** capability, install Nmap on all MID Servers assigned to the IP address ranges for which you want credential-less discovery to be available. If Service Mapping selects a MID Server for credential-less discovery that doesn’t have Nmap capabilities, this error message appears in the map, at the site of the CI being discovered: `Nmap is not installed on MID Server. Verify all MIDs configured to handle selected IP Address have Nmap Capability. Nmap root directory path does not exist: <path>`
+The Nmap [MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_ConfigureCapabilities.md) is added to the MID Server when Nmap is installed and removed automatically when Nmap is uninstalled. Only MID Server instances with this capability can perform credential-less discovery. A system administrator can't add or remove this capability manually. Self-hosted users who have the maint role can modify or delete the Nmap capability, but shouldn't do so.Service Mapping doesn’t check for the presence of the **Nmap** capability and selects the MID Server based on the IP address only. To prevent Service Mapping from selecting a MID Server without the **Nmap** capability, install Nmap on all MID Servers assigned to the IP address ranges for which you want credential-less discovery to be available. If Service Mapping selects a MID Server for credential-less discovery that doesn’t have Nmap capabilities, this error message appears in the map, at the site of the CI being discovered: `Nmap is not installed on MID Server. Verify all MIDs configured to handle selected IP Address have Nmap Capability. Nmap root directory path does not exist: <path>`
 
  **Note:** The ALL MID Server capability does not include the Nmap capability.
 
@@ -123,12 +128,12 @@ System script include
 The CredentiallessDiscoveryAjax script include runs on the instance and handles the installation and uninstallation of Nmap on Windows MID Server instances, executed from UI actions on the form. don't modify this script.
 
 </td></tr></tbody>
-</table>-   **[Credential-less host Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/credential-less-host-discovery.md)**  
+</table>-   **[Credential-less host Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/credential-less-host-discovery.md)**  
 Credential-less host discovery occurs when a scanned host is found to be alive, but not active, or when all configured credential-based classification probes have failed.
--   **[Credential-less Application Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/credential-less-app-discovery.md)**  
+-   **[Credential-less Application Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/credential-less-app-discovery.md)**  
 Credential-less Application Discovery attempts to identify an application service actively listening on a specific port at a given IP address.
--   **[Nmap commands and data collected with credential-less Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/data-collected-nmap.md)**  
+-   **[Nmap commands and data collected with credential-less Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/data-collected-nmap.md)**  
 Nmap executes in phases when collecting data and runs a controlled set of safe commands with two patterns for exploring applications and devices.
 
-**Parent Topic:**[Advanced Discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryExtendedCapabilities.md)
+**Parent Topic:**[Advanced Discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c_DiscoveryExtendedCapabilities.md)
 

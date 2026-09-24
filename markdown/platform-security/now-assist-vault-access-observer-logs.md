@@ -3,10 +3,10 @@ title: Summarize Access Observer logs agentic workflow
 description: Use the summarize Access Observer logs agentic workflow to review and summarize access logs for a specific field, identifying access sources, users, and their roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/now-assist-vault-access-observer-logs.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-23"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [Now Assist, agentic AI]
 breadcrumb: [Use agentic AI, ServiceNow Vault]
 ---
@@ -21,14 +21,18 @@ Generate a summary of the user, role, and caller types that attempted to access 
 
 When you install ServiceNow Otto for Vault, this agentic workflow is turned on by default.
 
-To modify the agentic workflow, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
+To modify the agentic workflow, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
 
 ## Summarize Access Observer logs
 
-Generate a summary of all Access Observer logs. The workflow requires that you have the following roles and elevate to them:
+Generate a summary of all Access Observer logs. The workflow requires the following roles:
 
 -   sn\_vault\_console.vault\_console\_admin
 -   security\_admin
+
+Elevate to the roles that appear in the Elevate role list by selecting your profile icon and then selecting **Elevate role**.
+
+**Note:** The `security_admin` role isn't included in the `sn_vault_console.vault_console_admin` role composition and doesn't appear in the Elevate role list. A user with the admin role must assign it through the standard user-administration process. If the workflow reports that you don't have the `security_admin` role, or that the role isn't active for your session, contact your admin. For more information, see [ServiceNow Vault roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/vault-roles.md).
 
 To access and configure the agentic workflow:
 
@@ -43,7 +47,7 @@ To access and configure the agentic workflow:
 |----|-----------|
 |Access Observer log analyzer agent|Uses various tools to generate a summary of the user, role, and caller types that attempted to access a table column configured in Access Observer.|
 
-There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see Find AI agents.
 
-**Parent Topic:**[Use agentic AI in ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/use-now-assist-vault-agentic-ai.md)
+**Parent Topic:**[Use agentic AI in ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/use-now-assist-vault-agentic-ai.md)
 

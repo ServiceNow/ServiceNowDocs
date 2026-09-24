@@ -3,11 +3,11 @@ title: Use the Delete Recovery module to restore a deleted record
 description: You can recover a deleted record and all related changes. The recovery must be done within seven days of the record being deleted.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/delete-recovery.html
-release: australia
+release: brazil
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Roll back and delete recovery, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -41,5 +41,5 @@ Role required: admin
 
 When the process completes, a **Restore Summary** itemizes the changes and provides links for viewing the restored record or returning to the **Delete Recoveries** list.
 
-**Parent Topic:**[Roll back and delete recovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/rollback-delete-recovery.md)
+**Parent Topic:**[Roll back and delete recovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/rollback-delete-recovery.md)
 

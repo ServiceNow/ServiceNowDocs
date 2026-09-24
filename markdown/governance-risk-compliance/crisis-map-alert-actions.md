@@ -3,11 +3,11 @@ title: Configure an alert action
 description: The alert actions are the follow-up actions that you can perform from the crisis map dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/crisis-map-alert-actions.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure search for places in crisis map, Setting up the Crisis Map, Crisis Management map, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Configure search for places in crisis map, Setting up the crisis map, Crisis Management map, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Configure an alert action

@@ -3,11 +3,11 @@ title: Embedded Help system properties
 description: Embedded help is active by default on your instance. The administrator can change system properties to modify how the instance interacts with embedded help.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/embedded-help-sys-properties.html
-release: australia
+release: brazil
 product: Adoption Services
 classification: adoption-services
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Embedded Help reference, Embedded Help, In-product help, Adoption services, Configure user experiences]
 ---
@@ -134,5 +134,5 @@ Enables Guided Setup actions in the embedded help panel that are based on states
 -   Default value: false
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Embedded Help reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/embedded-help-reference.md)
+</table>**Parent Topic:**[Embedded Help reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/adoption-services/embedded-help-reference.md)
 

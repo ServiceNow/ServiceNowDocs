@@ -3,9 +3,9 @@ title: Order decomposition
 description: Order decomposition is the process of breaking down an approved customer or service order into a set of smaller, manageable domain orders for fulfillment. This process is driven by definitions in the product catalog to ensure that all necessary components are provisioned correctly. Learn about the decomposition process for customer and service order and their differences.Order decomposition is the process of breaking down an approved customer or service order into a set of smaller, manageable domain orders for fulfillment. This process is driven by definitions in the product catalog to ensure that all necessary components are provisioned correctly. Learn about the decomposition process for customer and service order and their differences.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/sales-crm-order-decomposition.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Approve or reject a customer order, Customer orders, Use, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -206,12 +206,12 @@ Customer order decomposition supports the following additional features:
 -   Quantity-based decomposition: Customer orders can be decomposed into multiple domain orders based on order quantity, supporting revisions, and fulfillment of multiple instances.
 -   Support for change orders: Customer order decomposition supports updates to quantity characteristics, enabling upgrades, downgrades, and inventory management during fulfillment.
 
-Fore more information, see [Customer order decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/customer-order-decomposition.md).
+Fore more information, see [Customer order decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/customer-order-decomposition.md).
 
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-order-management.md)
 

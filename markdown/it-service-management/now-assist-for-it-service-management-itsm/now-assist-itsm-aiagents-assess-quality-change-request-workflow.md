@@ -3,11 +3,11 @@ title: IT Service Management AI agent collection assess quality of a change requ
 description: Use the assess quality of a change request agentic workflow to assess the quality of a change request and generate suggestions to improve the information in the fields. The workflow uses an active change policy document if one applies, or falls back to similar closed change requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-assess-quality-change-request-workflow.html
-release: australia
+release: brazil
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 keywords: [agentic AI, generative AI, Gen AI]
 breadcrumb: [Change Management, Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -17,7 +17,7 @@ breadcrumb: [Change Management, Use agentic AI in IT Service Management, Service
 
 Use the assess quality of a change request agentic workflow to assess the quality of a change request and generate suggestions to improve the information in the fields. The workflow uses an active change policy document if one applies, or falls back to similar closed change requests.
 
-**Note:** Change request plans AI agent can be used to set the values in the change request. For more information, see .
+**Note:** Change request plans AI agent can be used to set the values in the change request. For more information, see [Change request plans AI agent \(autonomous\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/itsm-change-request-plans-ai-agent-auto.md).
 
 ## AI agent execution modes
 
@@ -25,7 +25,7 @@ The change quality assessor AI agent is available in two versions: version 1 \(s
 
 In version 1, supervised mode, the AI agent assesses the change request and prompts the user for confirmation. After the initial confirmation, the agent adds field suggestions to the change request. After a second confirmation, it records the change score in the Change Quality Scores table and saves the work notes to the change request.
 
-In version 2, autonomous mode, the AI agent acts without pausing for user confirmation. The agent assesses the change request and suggests improvements automatically. It records the change score in the Change Quality Scores table and saves the work notes to the change request without setting values on change request fields. Use the Change request plans AI agent to update values on the change request field. For more information, see .
+In version 2, autonomous mode, the AI agent acts without pausing for user confirmation. The agent assesses the change request and suggests improvements automatically. It records the change score in the Change Quality Scores table and saves the work notes to the change request without setting values on change request fields. Use the Change request plans AI agent to update values on the change request field. For more information, see [Change request plans AI agent \(autonomous\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/itsm-change-request-plans-ai-agent-auto.md).
 
 ## Change quality assessor AI agent overview
 
@@ -170,11 +170,11 @@ The results that the AI agent generates depend on the configured agent version.
 
 **Note:** Select Version 1 for the agent to suggest and write field values. For more information, see Configure change quality assessor AI agent versions section in this topic.
 
-**Version 2 \(autonomous mode\)**: In Version 2, the agent automatically records the quality rating and the explanation as a work note on the change request. The agent also creates a record in the AI Change Quality Scores table. This record stores the change request, the explanation, the per-field score, the rating, and the numerical score. The agent does not update any fields on the change request, such as **Impact**, **Priority**, or **State**. Use the Change request plans AI agent to update values on the change request field. For more information, see .
+**Version 2 \(autonomous mode\)**: In Version 2, the agent automatically records the quality rating and the explanation as a work note on the change request. The agent also creates a record in the AI Change Quality Scores table. This record stores the change request, the explanation, the per-field score, the rating, and the numerical score. The agent does not update any fields on the change request, such as **Impact**, **Priority**, or **State**. Use the Change request plans AI agent to update values on the change request field. For more information, see [Change request plans AI agent \(autonomous\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/itsm-change-request-plans-ai-agent-auto.md).
 
 The system keeps only the most recent rating for a change request. A second assessment of the same change request replaces the existing AI Change Quality Scores record instead of adding a record. If the policy control record that a rating used is later deactivated, the existing score record continues to reference that policy control record. This reference persists as long as the change request is not reassessed. The score record still shows which policy version applied and when it applied. The AI generated results are generated based on the agent version setup.
 
-For more information, see [Request the generative AI capabilities in ITSM by using the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/request-gen-ai-capabilities-itsm-now-assist-panel.md).
+For more information, see [Request the generative AI capabilities in ITSM by using the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-for-it-service-management-itsm/request-gen-ai-capabilities-itsm-now-assist-panel.md).
 
 ## Change quality scores
 

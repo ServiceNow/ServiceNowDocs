@@ -3,9 +3,9 @@ title: Export an assessment
 description: You can share assessments between ServiceNow instances by exporting an assessment and then importing the assessment on another instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_ExportAssessment.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Metric types and assessable records, Create an assessment metric for a category, Assessment metrics, Assessment administrator tasks, Using assessments, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ You can share assessments between ServiceNow instances by exporting an assessmen
 
 Role required: assessment\_admin or admin
 
-**Note:** Update sets are available in the Helsinki release and should be used to move data from one instance to another. For information about update sets, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets.md).
+**Note:** Update sets are available in the Helsinki release and should be used to move data from one instance to another. For information about update sets, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/system-update-sets.md).
 
 ## About this task
 
@@ -43,12 +43,12 @@ The XML file contains a metric type `[asmt_metric_type]` and the following recor
 3.  Save the XML file.
 
 
-**Parent Topic:**[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
+**Parent Topic:**[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
 
 **Related topics**  
 
 
-[Import an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ImportAssessment.md)
+[Import an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_ImportAssessment.md)
 
-[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
+[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
 

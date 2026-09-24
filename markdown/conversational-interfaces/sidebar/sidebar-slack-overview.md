@@ -3,11 +3,11 @@ title: Sidebar and Slack
 description: Sidebar's integration with Slack enables Sidebar users and Slack users to communicate with each other from their respective platforms.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/sidebar/sidebar-slack-overview.html
-release: australia
+release: brazil
 product: Sidebar
 classification: sidebar
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring Sidebar, Sidebar, Conversational Interfaces]
 ---

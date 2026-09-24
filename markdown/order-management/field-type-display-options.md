@@ -3,9 +3,9 @@ title: Field type display options
 description: Field type display options
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/field-type-display-options.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure fields, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -199,7 +199,7 @@ FormattedNumber: Users can enter a number by using the keyboard or modify it by 
 
 ## Picklist component display type \(single-select\)
 
-Picklists allow only specified options to be selected. Administrator must specify whether the field is single-select or multi-select, and if it is single-select, whether the values should be evaluated as a text fields or a number fields. The administrator can also add field options, set the order, specify a default value, and add picklist extension data.
+Picklists allow only specified options to be selected. Administrators must specify whether the field is single-select or multi-select. For single-select fields, administrators specify whether the values are evaluated as text fields or number fields. Administrators can also add field options, set the order, specify a default value, and add picklist extension data.
 
 Picklist:
 
@@ -272,5 +272,5 @@ VisualProductPicker: Shows the product picker and its subfields as a Visual Pick
 **Related topics**  
 
 
-[Configure fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/fields_101.md)
+[Configure fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/fields_101.md)
 

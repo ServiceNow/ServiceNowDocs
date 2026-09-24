@@ -3,11 +3,11 @@ title: Run File-based Discovery
 description: Run File-based Discovery to find all of your installed software whether it is registered or not. You can enable and configure File-based Discovery at any time using the Discovery Configuration Console.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/run-file-based-discovery.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [File-based Discovery, Running discoveries in your network, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -42,11 +42,11 @@ Role required: admin
 
     If you're using anti-virus software, make sure to include all of the ServiceNow Windows PowerShell scripts so the anti-virus software does not see it as a threat.
 
-2.  [Activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_RequestAPlugin.md) the File-based Discovery plugin.
+2.  [Activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_RequestAPlugin.md) the File-based Discovery plugin.
 
 3.  Enable and configure File-based Discovery.
 
-    Using the [Discovery Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryConfigurationConsole.md), you can enable File-based Discovery as well as configure several components to find and manage all of your installed software.
+    Using the [Discovery Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c_DiscoveryConfigurationConsole.md), you can enable File-based Discovery and configure several components to find and manage all of your installed software.
 
     To avoid impacting performance for existing customers, File-based Discovery is turned off by default.
 
@@ -54,7 +54,7 @@ Role required: admin
 
     After Discovery runs and returns file information for a configuration item \(CI\), it will not execute File-based Discovery again on that target until the interval has expired. Since there is a performance cost when File-based Discovery performs scans, it is important to determine how frequently to scan. However, choosing a more frequent interval than Monthly is not recommended due to performance considerations.
 
-    1.  Using the [Discovery Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryConfigurationConsole.md), expand **Common** and then enter the maximum number of files that you want to discover.
+    1.  Using the [Discovery Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c_DiscoveryConfigurationConsole.md), expand **Common** and then enter the maximum number of files that you want to discover.
 
         **Note:** Increasing this value can impact performance.
 
@@ -62,7 +62,7 @@ Role required: admin
 
         The default is set to Monthly.
 
-    **Note:** File-based Discovery does not trigger until initial Content Data Service \(CDS\) synchronization occurs. CDS synchronization could take approximately 24 hours for the initial set of data to be synchronized from CDS. For more information see, [File Signature Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/sam-file-based-discovery.md).
+    **Note:** File-based Discovery does not trigger until initial Content Data Service \(CDS\) synchronization occurs. CDS synchronization could take approximately 24 hours for the initial set of data to be synchronized from CDS. For more information see, [File Signature Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/sam-file-based-discovery.md).
 
 
 ## Result
@@ -72,5 +72,5 @@ Your File-based Discovery should run based on the configurations set.
 **Related topics**  
 
 
-[File-based Discovery references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/file-based-discovery-references.md)
+[File-based Discovery references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/file-based-discovery-references.md)
 

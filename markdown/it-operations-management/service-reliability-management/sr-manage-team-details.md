@@ -3,11 +3,11 @@ title: Manage your SRM team details
 description: Add or edit team members, description, contact information of you team.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-manage-team-details.html
-release: australia
+release: brazil
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Add an SRM team, Working with SRM teams, Using Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
@@ -44,5 +44,5 @@ Role required: srm\_manager, srm\_responder, or srm\_admin
 5.  Select **Save**.
 
 
-**Parent Topic:**[Add an SRM team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-create-team.md)
+**Parent Topic:**[Add an SRM team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-reliability-management/sr-create-team.md)
 

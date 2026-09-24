@@ -3,11 +3,11 @@ title: Diagnostics form
 description: Use the Diagnostic form to create a diagnostics scan and map diagnostic feature with diagnostic and fix scripts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/diagnostics-form.html
-release: australia
+release: brazil
 product: Resource Management
 classification: resource-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Resource Management reference, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -25,5 +25,5 @@ Use the Diagnostic form to create a diagnostics scan and map diagnostic feature 
 |Roles|Move desired roles to the Selected list. The users with the selected roles can access the diagnostic scan.|
 |Description|Details of the diagnostic scan. The description is displayed in the application to which the diagnostic scan belongs. It enables the user to understand the diagnostic scans.|
 
-**Parent Topic:**[Resource Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-mgmt-reference.md)
+**Parent Topic:**[Resource Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/rsrc-mgmt-reference.md)
 

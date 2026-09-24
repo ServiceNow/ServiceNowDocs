@@ -3,11 +3,11 @@ title: Arrange Agile Development 2.0 stories in Agile Board using the keyboard
 description: Learn how to use the keyboard to move and rearrange Agile Development 2.0 stories in the Backlog and Sprint Planning tabs of your Agile board.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/arrange-stories.html
-release: australia
+release: brazil
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage your product backlog in Agile Development 2.0, Managing your product development using Agile Development 2.0, Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
@@ -58,5 +58,5 @@ Role required: scrum\_admin, scrum\_master, scrum\_product\_owner, or scrum\_spr
     7.  Fix the position of the stories by pressing the Enter key.
 
 
-**Parent Topic:**[Manage your product backlog in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/manage-maintain-backlog.md)
+**Parent Topic:**[Manage your product backlog in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/manage-maintain-backlog.md)
 

@@ -3,11 +3,11 @@ title: Add localization requested items to a project
 description: Add multiple localization requested items \(LRITMs\) to a localization project so fulfillers can translate the items in bulk.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-framework/add-lritm-to-project.html
-release: australia
+release: brazil
 product: Localization Framework
 classification: localization-framework
 topic_type: task
-last_updated: "2026-07-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create translation projects, Localization Framework, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---

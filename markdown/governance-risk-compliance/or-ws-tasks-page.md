@@ -3,9 +3,9 @@ title: Task page and List view
 description: The Tasks page in Operational Resilience Workspace provides a single-pane view of your pending tasks, your group's tasks, and the tasks that are on your watchlist. You can also update the tasks directly from the dashboard. On the List page, you can configure your operational resilience tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/or-ws-tasks-page.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Landing page and dashboard views, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -64,17 +64,17 @@ If you have the Operational Resilience administrator role, you can customize Ope
 
 If you have the Operational Resilience manager or Operational Resilience user roles, you can also get relevant recommendations on your resilience tasks on the landing page.
 
-To view more information on the Tasks Page Configuration, see [Update the Tasks Page Configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/view-tasks-page-configurations.md).
+To view more information on the Tasks Page Configuration, see [Update the Tasks Page Configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/view-tasks-page-configurations.md).
 
 ## List view in Operational Resilience Workspace
 
 From the List view, you can set up a business service, analyze its importance and impact tolerance, perform a scenario analysis, and generate a self-attestation report.
 
-For more information on setting up a business service in Operational Resilience Workspace, see [Data setup for business services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/setting-up-services-in-ws.md).
+For more information on setting up a business service in Operational Resilience Workspace, see [Data setup for business services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/setting-up-services-in-ws.md).
 
-For more information on analyzing the importance and impact tolerance of a business service in Operational Resilience Workspace, see [Performing Importance and impact tolerance assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/analyze-impact-tolerance-importance-of-service-in-ws.md).
+For more information on analyzing the importance and impact tolerance of a business service in Operational Resilience Workspace, see [Performing Importance and impact tolerance assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/analyze-impact-tolerance-importance-of-service-in-ws.md).
 
-For more information on performing a scenario analysis in Operational Resilience Workspace, see [Scenario analysis using simulation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/scenario-analysis-in-ws.md).
+For more information on performing a scenario analysis in Operational Resilience Workspace, see [Conducting a scenario analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/scenario-analysis-in-ws.md).
 
-For more information on self-attesting your business services in Operational Resilience Workspace, see [Certifying services using self-attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/self-attestation-in-ws.md).
+For more information on self-attesting your business services in Operational Resilience Workspace, see [Certifying services using self-attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/self-attestation-in-ws.md).
 

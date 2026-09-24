@@ -3,11 +3,11 @@ title: UX List Form SOW
 description: Learn about the fields of the UX List form. Use this form to create additional lists in the Lists menu of Service Operations Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-task/ux-list-form-sow.html
-release: australia
+release: brazil
 product: Universal Task
 classification: universal-task
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Add lists under list categories, Add list category in SOW core, Using Universal Task, Universal Task, Employee Service Management]
 ---
@@ -115,5 +115,5 @@ View
 View to determine which columns are displayed in the list in the workspace.**Note:** If you select a view, the **Columns** field is inactive.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Add lists under the Universal Task list categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/add-universal-task-lists-under-list-categories.md)
+</table>**Parent Topic:**[Add lists under the Universal Task list categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/universal-task/add-universal-task-lists-under-list-categories.md)
 

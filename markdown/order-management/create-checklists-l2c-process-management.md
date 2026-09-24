@@ -3,9 +3,9 @@ title: Create and manage task checklists
 description: Create and manage checklists to track progress on completing routine or repetitive tasks and processes such as fulfilling orders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-checklists-l2c-process-management.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Lead-to-Cash Process Management, Order operations apps, Use, Sales Customer Relationship Management]
 ---
@@ -20,7 +20,7 @@ Role required: sales process manager \[sn\_l2c\_cockpit.sales\_process\_manager\
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -55,12 +55,12 @@ Role required: sales process manager \[sn\_l2c\_cockpit.sales\_process\_manager\
     4.  Select **Save**.
 
 
-**Parent Topic:**[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-cash-process-management.md)
+**Parent Topic:**[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-lead-cash-process-management.md)
 
 **Related topics**  
 
 
-[Configuring Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-lead-cash-process-management.md)
+[Configuring Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configuring-lead-cash-process-management.md)
 
-[Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-lead-cash-process-management.md)
+[Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-lead-cash-process-management.md)
 

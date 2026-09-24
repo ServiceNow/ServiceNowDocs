@@ -3,9 +3,9 @@ title: Customer Service Problem Management properties
 description: Customer Service Problem Management uses the following system properties, which are located in the System Properties \[sys\_properties\] table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/cspm-properties.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Customer Service Problem Management, Telecommunications, Media, and Technology \(TMT\)]
 ---

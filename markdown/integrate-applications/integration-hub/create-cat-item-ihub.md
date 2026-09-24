@@ -3,11 +3,11 @@ title: Create a catalog item for an SCCM application
 description: Create a catalog item for an application you want to offer for distribution from the service catalog using the applications discovered on the SCCM server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-cat-item-ihub.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring SCCM, CSD from SCCM, Client Software Distribution, Integration Hub solutions, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -83,7 +83,7 @@ SCCM configuration
 
 </td><td>
 
-Name of the [Define an SCCM configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigureSCCMCollections.md) for this application. This record defines the collection and uninstall collection for this application. This configuration is required for all deployments, revocations, and leases performed by the SCCM server.
+Name of the [Define an SCCM configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_ConfigureSCCMCollections.md) for this application. This record defines the collection and uninstall collection for this application. This configuration is required for all deployments, revocations, and leases performed by the SCCM server.
 
 </td></tr></tbody>
 </table>5.  If the catalog item requires approval because of cost, be sure to configure an approval group in the**Approved By Group** related list.
@@ -97,5 +97,5 @@ Name of the [Define an SCCM configuration](https://raw.githubusercontent.com/Ser
 7.  To see all client software distribution \(CSD\) catalog items, navigate to **Client Software Distribution** &gt; **Maintain Items** &gt; **Software Items**.
 
 
-**Parent Topic:**[Configuring SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-sccm-ihub.md)
+**Parent Topic:**[Configuring SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/configure-sccm-ihub.md)
 

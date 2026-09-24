@@ -3,11 +3,11 @@ title: CSDM implementation stage — Fly
 description: When you reach the Fly stage, you have accomplished all or most of the process of implementing the CSDM framework. The fly stage completes the process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/common-service-data-model-csdm/csdm-implement-fly-stage.html
-release: australia
+release: brazil
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Implement, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -34,7 +34,7 @@ When you reach the Fly stage, you have accomplished all or most of the process o
     -   Are they the appropriate services compared to emerging capabilities?
 -   **The Fly stage is a foundation for using ITSM capabilities**
 
-    Use a request catalog to relate a service offering to a catalog item. You can also enhance the request workflow to automatically populate the “Subscribe by” table. Service catalogs are described in detail in [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog.md).
+    Use a request catalog to relate a service offering to a catalog item. You can also enhance the request workflow to automatically populate the “Subscribe by” table. Service catalogs are described in detail in [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/service-catalog.md).
 
     **Note:** The request catalog is not a CMDB table.
 
@@ -53,7 +53,7 @@ You reach the fly stage after you have accomplished all or most of the earlier s
 
 \[Omitted image "implementation-stage-fly.png"\] Alt text: Tables that you work on during the Fly stage.
 
-**Note:** Some of the classes that you implement in this stage are logical CIs. Logical CIs aren’t created through Discovery, so their **Model ID** values might not refer to product model \(application model, service model, or software model\) records. To help you to migrate to a product-centric management paradigm, each instance of a logical CI should be associated with a product model. See [Auto-generate product models for logical CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-auto-create-prod-model-for-ci.md).
+**Note:** Some of the classes that you implement in this stage are logical CIs. Logical CIs aren’t created through Discovery, so their **Model ID** values might not refer to product model \(application model, service model, or software model\) records. To help you to migrate to a product-centric management paradigm, each instance of a logical CI should be associated with a product model. See [Auto-generate product models for logical CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-auto-create-prod-model-for-ci.md).
 
 The fly stage completes the remaining aspects of CSDM framework:
 
@@ -80,12 +80,12 @@ The fly stage completes the remaining aspects of CSDM framework:
 
 -   **Request catalog**
 
-    Users request services through the request catalog. The request catalog is not a CMDB table. Catalogs are described in detail in [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog.md).
+    Users request services through the request catalog. The request catalog is not a CMDB table. Catalogs are described in detail in [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/service-catalog.md).
 
 -   **The fly stage includes these components:**
     -   Business service portfolio \[service\_portfolio\] table
     -   Business service \[cmdb\_ci\_service\_business\] table; \(service classified as a "business service"\)
     -   Business service offering \[service\_offering\] table; \(service offering classified as a "business service"\)
 
-**Parent Topic:**[Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-implementation-stages.md)
+**Parent Topic:**[Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-implementation-stages.md)
 

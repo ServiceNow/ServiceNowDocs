@@ -3,9 +3,9 @@ title: Access Business Location 360 as a location service agent
 description: Access the business location 360 page in the Customer Service Management \(CSM\) application as a customer service agent. You can get a comprehensive, 360-degree view of the business location issues all in one place.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/access-bl-360-as-loc-serv-agent.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Business Location 360, Manage cases, Use, Customer Service Management]
 ---
@@ -36,9 +36,9 @@ As a customer service agent \(sn\_customerservice\_agent\), you can use the busi
 **Related topics**  
 
 
-[Business Location 360 components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ui-components-under-business-location-360.md)
+[Business Location 360 components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ui-components-under-business-location-360.md)
 
-[Access Business Location 360 as a customer service agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/access-business-location-360-as-agents.md)
+[Access Business Location 360 as a customer service agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/access-business-location-360-as-agents.md)
 
-[Access Business Location 360 as a customer service manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/access-business-location-360-as-csm-managers.md)
+[Access Business Location 360 as a customer service manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/access-business-location-360-as-csm-managers.md)
 

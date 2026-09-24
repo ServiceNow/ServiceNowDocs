@@ -3,11 +3,11 @@ title: Software packages categorization
 description: Agent Client Collector for Visibility \(ACC-VC\) classifies discovered software packages in your environment into categories. This categorization removes the need to tag software records manually and provides an accurate software inventory.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-software-categorization.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-08-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [software categorization, software packages, ACC-VC]
 breadcrumb: [ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
@@ -31,8 +31,8 @@ Software is categorized or re-categorized automatically, without creating a new 
 -   An inactive signature is reactivated.
 -   New software is discovered that matches an existing active signature.
 
--   **[Categorize discovered software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-categorize-discovered-software.md)**  
+-   **[Categorize discovered software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-categorize-discovered-software.md)**  
 Group discovered installed software packages in your environment by business relevance.
 
-**Parent Topic:**[Deploying Agent Client Collector on endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-endpoint-deployment.md)
+**Parent Topic:**[Deploying Agent Client Collector on endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-endpoint-deployment.md)
 

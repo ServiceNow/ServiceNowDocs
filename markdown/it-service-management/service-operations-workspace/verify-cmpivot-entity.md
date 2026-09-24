@@ -3,11 +3,11 @@ title: Verify a CMPivot entity
 description: Verify a CMPivot entity and its attributes to configure the display of the CI metrics information on the Investigation tab of the Incident record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/verify-cmpivot-entity.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring CI metrics for MECM, Setting up investigation framework using Microsoft Endpoint Configuration Manager for Investigation, Setting up Investigation Framework in Service Operations Workspace, Setting up integrations in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -15,6 +15,12 @@ breadcrumb: [Configuring CI metrics for MECM, Setting up investigation framework
 # Verify a CMPivot entity
 
 Verify a CMPivot entity and its attributes to configure the display of the CI metrics information on the Investigation tab of the Incident record.
+
+## About this task
+
+**Important:**
+
+Starting with the Brazil release, Microsoft Endpoint Configuration Manager for Investigation is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Before you begin
 
@@ -36,7 +42,7 @@ Role required: admin
 
     **Note:** The selected CI device must be Active.
 
-    In case the required CMPivot entity isn’t displayed on the list, extend the hardware inventory to add the CMPivot entity to the list. For more information, see [Extend hardware inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/extend-hardware-entity.md).
+    In case the required CMPivot entity isn’t displayed on the list, extend the hardware inventory to add the CMPivot entity to the list. For more information, see [Extend hardware inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/extend-hardware-entity.md).
 
 5.  Click **Start CMPivot**.
 
@@ -49,5 +55,5 @@ Role required: admin
     \[Omitted image "verify-cmpivot.png"\] Alt text: Verify the CMPivot entity
 
 
-**Parent Topic:**[Configuring CI metrics for Microsoft Endpoint Configuration Manager for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/config-ci-metrics-mecm-adapter.md)
+**Parent Topic:**[Configuring CI metrics for Microsoft Endpoint Configuration Manager for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/config-ci-metrics-mecm-adapter.md)
 

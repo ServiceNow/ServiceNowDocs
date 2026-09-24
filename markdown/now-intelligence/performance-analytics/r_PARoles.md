@@ -3,11 +3,11 @@ title: Performance Analytics roles
 description: Assign roles to ensure that users can perform all necessary actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/r\_PARoles.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Reference, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -41,7 +41,7 @@ No role
 -   View Performance Analytics visuals on the Service Portal.
 -   View dashboards that have been shared with this user.
 
-Some dashboards require a subject matter related role for viewing, such as sn\_hr\_core\_basic for the HR Agent dashboard. Dashboard owners and administrators can also restrict dashboard access by role. For more information, see [Dashboard permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_DashboardRoles.md).
+Some dashboards require a subject matter related role for viewing, such as sn\_hr\_core\_basic for the HR Agent dashboard. Dashboard owners and administrators can also restrict dashboard access by role. For more information, see [Dashboard permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_DashboardRoles.md).
 
 
 </td><td>
@@ -116,7 +116,7 @@ pa\_kpi\_signal\_adminContained by: admin
 
 </td><td>
 
-Enables the user to dismiss a signal or reset the baseline for [KPI Signals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-behavior-charts-for-kpis.md).
+Enables the user to dismiss a signal or reset the baseline for [KPI Signals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-behavior-charts-for-kpis.md).
 
 </td><td>
 
@@ -188,7 +188,7 @@ pa\_data\_collectorContained by: pa\_admin
 
 </td><td>
 
--   CRUD, schedule, and run [data collection jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md)
+-   CRUD, schedule, and run [data collection jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md)
 -   CRUD indicator and breakdown sources
 -   Read some system properties
 -   CRUD system units
@@ -220,7 +220,7 @@ admin
 
 </td><td>
 
-The system administrator role. Users with the admin role can perform all pa\_admin functions, edit properties, create [database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md), CRUD any dashboard, and assign ownership to dashboards.
+The system administrator role. Users with the admin role can perform all pa\_admin functions, edit properties, create [database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md), CRUD any dashboard, and assign ownership to dashboards.
 
 </td><td>
 
@@ -384,6 +384,18 @@ pa\_data\_collector or pa\_power\_user
 
 </td></tr><tr><td>
 
+Bucket group mappings
+
+</td><td>
+
+CRUD
+
+</td><td>
+
+pa\_power\_user
+
+</td></tr><tr><td>
+
 Bucket groups
 
 </td><td>
@@ -393,6 +405,18 @@ CRUD
 </td><td>
 
 pa\_data\_collector or pa\_power\_user
+
+</td></tr><tr><td>
+
+Calculated fields
+
+</td><td>
+
+CRUD
+
+</td><td>
+
+pa\_data\_collector
 
 </td></tr><tr><td>
 
@@ -452,7 +476,7 @@ Read a dashboard that has been shared with you
 
 </td><td>
 
-No role by default, but dashboards can require roles to view their data. For more information, see [Dashboard permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_DashboardRoles.md).
+No role by default, but dashboards can require roles to view their data. For more information, see [Dashboard permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_DashboardRoles.md).
 
 </td></tr><tr><td>
 
@@ -767,12 +791,12 @@ CRUD
 pa\_power\_user
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Performance Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-reference.md)
+</table>**Parent Topic:**[Performance Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/performance-analytics-reference.md)
 
 **Related topics**  
 
 
-[Dashboard permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_DashboardRoles.md)
+[Dashboard permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_DashboardRoles.md)
 
-[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdminsteringReports.md)
+[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_AdminsteringReports.md)
 

@@ -3,11 +3,11 @@ title: Create a change request in Configuration Compliance
 description: You can create a change request from a remediation task in the Configuration Compliance application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/cc-CR-v12-create.html
-release: australia
+release: brazil
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Use, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
@@ -43,7 +43,7 @@ The following image illustrates the basic flow for creating a change request fro
 
 \[Omitted image "cc-CR-CHG.png"\] Alt text: States for remediation tasks for creating a change request
 
-Starting with version 19.0 of Vulnerability Response, you can create change requests for Remediation Tasks from the IT Remediation Workspace. For more information, see [Create a change request in the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/it-remediation-workspace/vr-ws-CRs.md).
+Starting with version 19.0 of Vulnerability Response, you can create change requests for Remediation Tasks from the IT Remediation Workspace. For more information, see [Create a change request in the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/it-remediation-workspace/vr-ws-CRs.md).
 
 **Note:** Starting with v14.9 of Configuration Compliance, the following terms have been renamed:
 
@@ -73,15 +73,15 @@ Starting with version 19.0 of Vulnerability Response, you can create change requ
 
     1.  From the list of the **Applies to** field, choose one to continue.
 
-<table id="choicetable_llc_1nk_b4b"><thead><tr><th align="left" id="d440384e243">
+<table id="choicetable_llc_1nk_b4b"><thead><tr><th align="left" id="d440399e243">
 
 Option
 
-</th><th align="left" id="d440384e246">
+</th><th align="left" id="d440399e246">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d440384e252">
+</th></tr></thead><tbody><tr><td id="d440399e252">
 
 **All active test results in this group**
 
@@ -89,7 +89,7 @@ Description
 
 If selected, all active test results from this remediation task with a state other than **Closed** are added automatically to the change request after you click **Create Change**.
 
-</td></tr><tr><td id="d440384e267">
+</td></tr><tr><td id="d440399e267">
 
 **All active test results in this group matching a set of conditions**
 
@@ -109,15 +109,15 @@ State is **Open** and Risk Score is greater than **50**.
 
 6.  From the list for the **Change type** field, choose one to continue.
 
-<table id="choicetable_vkc_zvk_b4b"><thead><tr><th align="left" id="d440384e340">
+<table id="choicetable_vkc_zvk_b4b"><thead><tr><th align="left" id="d440399e340">
 
 Option
 
-</th><th align="left" id="d440384e343">
+</th><th align="left" id="d440399e343">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d440384e349">
+</th></tr></thead><tbody><tr><td id="d440399e349">
 
 **Emergency**
 
@@ -125,7 +125,7 @@ Description
 
 A change to resolve a major incident.
 
-</td></tr><tr><td id="d440384e358">
+</td></tr><tr><td id="d440399e358">
 
 **Normal**
 
@@ -133,7 +133,7 @@ A change to resolve a major incident.
 
 A change type that is used to implement any change to a service that is not a standard or emergency change.
 
-</td></tr><tr><td id="d440384e367">
+</td></tr><tr><td id="d440399e367">
 
 **Standard**
 
@@ -141,7 +141,7 @@ A change type that is used to implement any change to a service that is not a st
 
 A pre-authorized, low-risk change request that is frequently implemented. Approved standard change requests can be predefined in a catalog of templates to make accessing and requesting a standard change more efficient. If selected, two fields are displayed. Select one from each list to fill in these fields:-   **Change category**: Select a category for the change from your existing catalog, for example, `Hardware`, `Server Standard Changes`, `Software`.
 -   **Change template**: Select one available template for change requests with pre-defined supporting tasks from your catalog.
- For more information on ITSM change request categories, templates, and change types, see [Change types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-types.md).
+ For more information on ITSM change request categories, templates, and change types, see [Change types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-types.md).
 
 </td></tr></tbody>
 </table>    The feature automatically reads the types of change requests that you set up in your catalog in ITSM Change Management. For example, if you change the name for your Standard change requests in ITSM from `Standard` to `Pre-approved`, your new name is automatically displayed in the Change type list on the Create change request form.
@@ -156,7 +156,7 @@ A pre-authorized, low-risk change request that is frequently implemented. Approv
 
     After the change request is created, the test result group moves to the **Awaiting Implementation** state. After the change request for this remediation task is resolved, if there are no other open change requests associated with this remediation task, the remediation task is also moved to the **Resolved** state.
 
-    See [State synchronization between change requests and remediation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/cc-cr-state-synch.md) for more information.
+    See [State synchronization between change requests and remediation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/configuration-compliance/cc-cr-state-synch.md) for more information.
 
     **Note:** You can still manually move change requests and remediation tasks through the states of their life cycles on their respective records with state synchronization enabled, but when the system registers that a change request has changed its state, or you add a change request or remove it from a remediation task, state synchronization potentially can override your manual intervention. However, change requests states do not automatically move the remediation task from the `Closed` or `Deferred` states.
 

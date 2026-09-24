@@ -3,11 +3,11 @@ title: Send an email from a privacy case
 description: Send emails from a privacy case to seamlessly communicate with various stakeholders and regulators and gather more information about the case. All the emails sent and received are stored in the Privacy Case Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/send-email-from-a-privacy-case.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_privacy\_case.privacy\_case\_analyst
 
 1.  Navigate to **All** &gt; **Privacy Management** &gt; **Privacy Workspace**.
 
-2.  Select the list \[Omitted image "ws-list-icon.png"\] icon.
+2.  Select the list \[Omitted image "ws-list-icon.png"\] Alt text: List icon.
 
 3.  Select **All Cases**.
 
@@ -39,5 +39,5 @@ Role required: sn\_privacy\_case.privacy\_case\_analyst
 8.  Select **Send Email**.
 
 
-**Parent Topic:**[Using Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-pcm.md)
+**Parent Topic:**[Using Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/using-pcm.md)
 

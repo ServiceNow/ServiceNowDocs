@@ -3,11 +3,11 @@ title: Installed with Password Reset
 description: Tables, roles, business rules, scripts, and workflows are installed with the Password Reset application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/r\_InstalledWithPasswordReset.html
-release: australia
+release: brazil
 product: Password Reset
 classification: password-reset
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 15
 breadcrumb: [Password Reset reference, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -275,7 +275,7 @@ Password Reset verification types that are available.
 
 **Note:** Only the user with the following roles can have access to Password Reset tables. The deny unless authenticated ACLs restrict access to the Password Reset tables for any unauthenticated role such as public role user.
 
-For more information, see [Deny-Unless ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/acl-denial-behavior.md).
+For more information, see [Deny-Unless ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/acl-denial-behavior.md).
 
 <table id="table_vqc_jvj_sr"><thead><tr><th>
 

@@ -3,11 +3,11 @@ title: Create a transfer order from a request
 description: You can create a transfer order directly from a request to source hardware items and consumables from stockrooms.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/procurement/t\_CreatingTransferOrderFromReq.html
-release: australia
+release: brazil
 product: Procurement
 classification: procurement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Sourcing items in a service catalog request, Procurement, Common applications, Asset Management]
 ---
@@ -20,21 +20,21 @@ You can create a transfer order directly from a request to source hardware items
 
 Role required: procurement\_admin or procurement\_user
 
-**Important:** If the Field Service Management application is also activated on your ServiceNow instance, then a workflow in this application processes the transfer orders. For more information, see [Move an asset through the transfer process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/create-transfer-order-line-task.md).
+**Important:** If the Field Service Management application is also activated on your ServiceNow instance, then a workflow in this application processes the transfer orders. For more information, see [Move an asset through the transfer process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/create-transfer-order-line-task.md).
 
 ## Procedure
 
 1.  View procurement requests.
 
-<table id="choicetable_ugf_l3l_4xb"><thead><tr><th align="left" id="d283359e68">
+<table id="choicetable_ugf_l3l_4xb"><thead><tr><th align="left" id="d286281e68">
 
 UI
 
-</th><th align="left" id="d283359e71">
+</th><th align="left" id="d286281e71">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d283359e77">
+</th></tr></thead><tbody><tr><td id="d286281e77">
 
 **Core UI**
 
@@ -42,7 +42,7 @@ Action
 
 Navigate to **All** &gt; **Procurement** &gt; **Requests** &gt; **Requests**.
 
-</td></tr><tr><td id="d283359e101">
+</td></tr><tr><td id="d286281e101">
 
 **Hardware Asset Workspace**
 
@@ -76,7 +76,7 @@ Navigate to **All** &gt; **Procurement** &gt; **Requests** &gt; **Requests**.
 
     You can associate the location of the requester as a service location with multiple stockrooms for better location coverage. Also, these stockrooms can be associated with multiple inbound stockrooms or distribution channels for optimized transfer of assets between the stockrooms. Distribution channels enable you to source the assets from the stockrooms that you prefer for sourcing based on the rank that you provide to the stockrooms.
 
-    For more information, see [Associate a stockroom with service locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/associate-stockroom-with-service-locations.md) and [Link stockrooms into a distribution channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/associate-stockroom-with-distribution-channels.md).
+    For more information, see [Associate a stockroom with service locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/associate-stockroom-with-service-locations.md) and [Link stockrooms into a distribution channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/associate-stockroom-with-distribution-channels.md).
 
 7.  In the **Source stockroom** list, select a stockroom from which the hardware item should be sourced.
 
@@ -99,7 +99,7 @@ Navigate to **All** &gt; **Procurement** &gt; **Requests** &gt; **Requests**.
     A transfer order is created to move the item or items from the **Source stockroom** location to the **Destination stockroom** location. When you view the request, the **Sourced** check box is selected.
 
 
-**Parent Topic:**[Sourcing items in a service catalog request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/c_SourcingRequestItems.md)
+**Parent Topic:**[Sourcing items in a service catalog request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/procurement/c_SourcingRequestItems.md)
 
 **Related topics**  
 
@@ -110,5 +110,5 @@ Navigate to **All** &gt; **Procurement** &gt; **Requests** &gt; **Requests**.
 
 [Add an assignment from a request]()
 
-[Manage transfer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/c_TransferOrders.md)
+[Manage transfer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/c_TransferOrders.md)
 

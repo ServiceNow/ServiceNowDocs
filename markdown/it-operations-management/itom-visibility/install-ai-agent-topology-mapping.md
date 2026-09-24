@@ -3,11 +3,11 @@ title: Install AI Agent Topology Mapping
 description: You can install the AI Agent Topology Mapping application \(sn\_itom\_agnt\_ptrn\) if you have the admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/install-ai-agent-topology-mapping.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, AI Agent Topology Mapping, ITOM Visibility, IT Operations Management]
 ---

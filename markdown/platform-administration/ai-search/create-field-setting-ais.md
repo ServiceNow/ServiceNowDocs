@@ -3,11 +3,11 @@ title: Create a field setting for an AI Search indexed source
 description: Define an indexed source field setting to configure AI Search content indexing behavior for a specific field on source table records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/create-field-setting-ais.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Field settings, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -22,7 +22,7 @@ Role required: ais\_admin
 
 ## About this task
 
-For details on available field settings and values, see [List of AI Search indexed source field settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/field-settings-list-ais.md).
+For details on available field settings and values, see [List of AI Search indexed source field settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/field-settings-list-ais.md).
 
 ## Procedure
 
@@ -32,7 +32,7 @@ For details on available field settings and values, see [List of AI Search index
 
 3.  In the Field Settings &amp; Mapping related list, select **New**.
 
-4.  On [the Field Setting form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/field-setting-form-ais.md), fill in the fields.
+4.  On [the Field Setting form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/field-setting-form-ais.md), fill in the fields.
 
 5.  Select **Submit**.
 
@@ -43,7 +43,7 @@ The new field setting appears in the Field Settings &amp; Mapping related list.
 
 ## What to do next
 
-To make the new field setting take effect, perform a full table reindex for the indexed source. For details on this procedure, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/index-single-source-ais.md).
+To make the new field setting take effect, perform a full table reindex for the indexed source. For details on this procedure, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/index-single-source-ais.md).
 
-**Parent Topic:**[Field settings for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/field-settings-ais.md)
+**Parent Topic:**[Field settings for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/field-settings-ais.md)
 

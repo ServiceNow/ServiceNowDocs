@@ -3,11 +3,11 @@ title: Viewing API clustering recommendations in API Insights
 description: Use machine learning-based suggestions to group related API components, improving the organization and mapping of APIs within the system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/api-insights/api-insights-view-cluster-recomm.html
-release: australia
+release: brazil
 product: API Insights
 classification: api-insights
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Optimize clustering recommendations, API Insights, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---

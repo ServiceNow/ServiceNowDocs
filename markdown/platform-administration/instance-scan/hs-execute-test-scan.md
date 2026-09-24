@@ -3,11 +3,11 @@ title: Execute a test scan
 description: Execute a test scan to verify if the check works as expected. The test scan enables you to test a single check instead of a full scan by selecting a single check and selecting Test Check on the Check form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/instance-scan/hs-execute-test-scan.html
-release: australia
+release: brazil
 product: Instance Scan
 classification: instance-scan
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Executing a scan, Using Instance Scan, Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -33,7 +33,7 @@ Role required: admin
     The status of the scan appears in the progress tracker. The **Findings**module in the application navigator shows the number of records found from running the check test.
 
 
-**Parent Topic:**[Executing a scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-execute-scans.md)
+**Parent Topic:**[Executing a scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/instance-scan/hs-execute-scans.md)
 
 **Related topics**  
 

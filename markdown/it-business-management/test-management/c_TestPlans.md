@@ -3,11 +3,11 @@ title: Test plans
 description: Use test plans in Test Management 1.0 to plan how to test your feature or application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/c\_TestPlans.html
-release: australia
+release: brazil
 product: Test Management
 classification: test-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up the manual testing process, Test Management 1.0, Test Management applications, Strategic Portfolio Management]
 ---
@@ -20,10 +20,10 @@ A test plan includes one or more test cases and can also specify a test environm
 
 You can view the list of test plans by navigating to **Test Management** &gt; **Test Execution** &gt; **Test Plans**. This list shows the current test plans, along with the percentage of the test cases completed and the status of the test cases. Open a test plan to view more details such as the test environment that is used for this plan. The test plan also shows a list of test cases added to this plan.
 
--   **[Create a test plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/t_CreateATestPlan.md)**  
+-   **[Create a test plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/test-management/t_CreateATestPlan.md)**  
 Create a test plan to detail how a product or a feature is to be tested.
--   **[Add test case to a test plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/t_AddANewTestCaseToATestPlan.md)**  
+-   **[Add test case to a test plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/test-management/t_AddANewTestCaseToATestPlan.md)**  
 Add new test cases to your test plans so that you can assign them to testers and start test execution.
 
-**Parent Topic:**[Setting up the manual testing process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/c_TestManager.md)
+**Parent Topic:**[Setting up the manual testing process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/test-management/c_TestManager.md)
 

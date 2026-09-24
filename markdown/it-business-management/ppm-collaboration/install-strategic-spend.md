@@ -3,13 +3,13 @@ title: Install Strategic Spend Tracking for PPM
 description: Install the Strategic Spend Tracking for PPM application from ServiceNow Store applications. Visit the ServiceNow Store to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the ServiceNow Store version history release notes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/ppm-collaboration/install-strategic-spend.html
-release: australia
+release: brazil
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Strategic spend tracking, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Strategic Spend Tracking for PPM, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Install Strategic Spend Tracking for PPM
@@ -28,7 +28,7 @@ Role required: admin
 
 ## About this task
 
-Activate the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) in your ServiceNow instance before you install Strategic Spend Tracking for PPM. For more information see, [Activate PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/t_ActivateProjectPortfolioSuiteWithFinancials.md).
+Activate the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) in your ServiceNow instance before you install Strategic Spend Tracking for PPM. For more information see, [Activate PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/t_ActivateProjectPortfolioSuiteWithFinancials.md).
 
 ## Procedure
 
@@ -53,13 +53,13 @@ Activate the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) in your Se
 6.  Select **Install**.
 
 
--   **[Components installed with Strategic Spend Tracking for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/installed-with-ppm-strategic-spend-tracking.md)**  
+-   **[Components installed with Strategic Spend Tracking for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/installed-with-ppm-strategic-spend-tracking.md)**  
 Several types of components are installed with activation of Strategic Spend Tracking for PPM, including tables and scheduled jobs.
 
-**Parent Topic:**[Strategic Spend Tracking for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/ppm-strategic-spend-tracking-overview.md)
+**Parent Topic:**[Strategic Spend Tracking for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/ppm-strategic-spend-tracking-overview.md)
 
 **Related topics**  
 
 
-[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-of-plugins.md)
 

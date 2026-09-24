@@ -3,11 +3,11 @@ title: Remove a child issue
 description: Remove a child issue from its group so it becomes a standalone issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/remove-a-child-issue.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-09-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Group issues, Manage issues, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -39,5 +39,5 @@ Role required: risk\_admin, risk\_manager, or sn\_risk.user
 
 The issue is removed from the group and becomes standalone.
 
-**Parent Topic:**[Group issues in the Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/issue-grouping-in-workspaces.md)
+**Parent Topic:**[Group issues in the Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/issue-grouping-in-workspaces.md)
 

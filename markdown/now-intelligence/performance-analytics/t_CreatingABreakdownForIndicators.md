@@ -3,11 +3,11 @@ title: Create an automated breakdown
 description: To create an automated breakdown, select a breakdown source for it to use and apply access restrictions. Then map which field on the indicator source references the breakdown source. Finally, assign indicators to the breakdown.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/t\_CreatingABreakdownForIndicators.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Automated breakdowns, Indicator breakdowns, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -18,7 +18,7 @@ To create an automated breakdown, select a breakdown source for it to use and ap
 
 ## Before you begin
 
-Familiarize yourself with the definitions and uses of [breakdowns in general](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_CreatingBreakdowns.md) and [automated breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/automated-breakdowns.md) in particular.
+Familiarize yourself with the definitions and uses of [breakdowns in general](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_CreatingBreakdowns.md) and [automated breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/automated-breakdowns.md) in particular.
 
 Role required: pa\_data\_collector, pa\_power\_user, pa\_admin, or admin
 
@@ -26,7 +26,7 @@ Role required: pa\_data\_collector, pa\_power\_user, pa\_admin, or admin
 
 An automated breakdown uses a breakdown source to determine selectable elements. You can use an existing breakdown source or you can define a new one.
 
-**Note:** This process allows you to create a fully customized breakdown. To create a simple automated breakdown, see [Create a breakdown from a wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateBreakdownFromWizard.md).
+**Note:** This process allows you to create a fully customized breakdown. To create a simple automated breakdown, see [Create a breakdown from a wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/t_CreateBreakdownFromWizard.md).
 
 ## Procedure
 
@@ -40,7 +40,7 @@ An automated breakdown uses a breakdown source to determine selectable elements.
 
 4.  Select a **Default elements filter**.
 
-    Use element filters to restrict the elements that are visible to a user. For more information, see [Element filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_BreakdownElementFilters.md).
+    Use element filters to restrict the elements that are visible to a user. For more information, see [Element filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_BreakdownElementFilters.md).
 
 5.  In the **Access control** tab, set who can see the breakdown.
 
@@ -54,11 +54,11 @@ An automated breakdown uses a breakdown source to determine selectable elements.
 
 ## What to do next
 
-Create breakdown mappings and associate indicators with the breakdown. You can do this from the indicator, using a graphical tool \(see [Assign and map breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-breakdown-mapping.md).
+Create breakdown mappings and associate indicators with the breakdown. You can do this from the indicator, using a graphical tool \(see [Assign and map breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/create-breakdown-mapping.md).
 
-**Parent Topic:**[Automated breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/automated-breakdowns.md)
+**Parent Topic:**[Automated breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/automated-breakdowns.md)
 
-**Previous topic:**[Automated breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/automated-breakdowns.md)
+**Previous topic:**[Automated breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/automated-breakdowns.md)
 
-**Next topic:**[Create a breakdown mapping on a breakdown record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CrtBkdnBreakdownMpngs.md)
+**Next topic:**[Create a breakdown mapping on a breakdown record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/t_CrtBkdnBreakdownMpngs.md)
 

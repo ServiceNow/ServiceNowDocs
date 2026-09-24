@@ -3,9 +3,9 @@ title: Email bounce management
 description: Help prevent sending emails to addresses that are known to generate bounces by monitoring and filtering them out while sending emails.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/email-bounce.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Advanced email setup, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -21,6 +21,8 @@ An email bounce signifies the non-delivery of your email message according to [R
 An email address is blocked after it reaches a certain threshold of bounced emails. The default count for blocking the bounced email addresses is 10.
 
 To view the bounce email addresses, navigate to **All** &gt; **System Logs** &gt; **Bounce Email Addresses**.
+
+Each bounce email address record includes a **Bounce Email Address Logs** related list with an **Original Email** field that provides access to the original email associated with the bounce.
 
 **Important:** Disabling bounce management is not recommended as it may lead to slow delivery or blocking of emails by the email provider.
 
@@ -54,17 +56,17 @@ The default status codes that are used for blocking bounced email addresses are 
 
 To view the blocked status codes, navigate to **All** &gt; **System Mailboxes** &gt; **Administration** &gt; **Bounce Email Address Status**.
 
--   **[Configure bounce email address status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/config-email-address-status.md)**  
+-   **[Configure bounce email address status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/config-email-address-status.md)**  
 Configure a bounced email address status according to type, class, subject, and details.
--   **[Resend all blocked emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/resend-all-blocked-emails.md)**  
+-   **[Resend all blocked emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/resend-all-blocked-emails.md)**  
 Unblock the bounce email address and resend all blocked emails.
 
-**Parent Topic:**[Advanced email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_AlternateEmailConfigurations.md)
+**Parent Topic:**[Advanced email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_AlternateEmailConfigurations.md)
 
 **Related topics**  
 
 
-[Configure bounce email address status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/config-email-address-status.md)
+[Configure bounce email address status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/config-email-address-status.md)
 
-[Check the status of bounced email addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/change-bounce-email-status.md)
+[Check the status of bounced email addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/change-bounce-email-status.md)
 

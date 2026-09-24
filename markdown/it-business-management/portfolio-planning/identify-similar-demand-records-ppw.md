@@ -3,11 +3,11 @@ title: Identify similar records using AI
 description: Use the identify similar records skill to find demand records with similar names, descriptions, or business case content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/identify-similar-demand-records-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI skill, ServiceNow Otto, Gen AI, Generative AI, SPM, Strategic Portfolio Management, Identify similar demand records]
 breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
@@ -19,7 +19,7 @@ Use the identify similar records skill to find demand records with similar names
 
 ## Before you begin
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 If you have custom roles that require access to this skill, update the ACLs \(access control lists\) for those roles that require access.
 

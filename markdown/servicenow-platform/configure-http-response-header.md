@@ -3,9 +3,9 @@ title: Configure HTTP response headers
 description: Configure standard name-value pairs for HTTP response headers. You designate if the configuration applies to all pages, or to specific types \(Service Portal, UI Page, or UX application record\).The HTTP response header table \(sys\_response\_header\) in the List view contains two additional columns - Add by and Order.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configure-http-response-header.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [HTTP Response Headers, Extend ServiceNow AI Platform capabilities]
 ---

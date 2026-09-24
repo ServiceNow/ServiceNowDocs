@@ -3,9 +3,9 @@ title: Create a citation using Operational Sustainability Workspace
 description: The citations are the individual reporting requirements or metrics defined within an authority document. They specify the exact data points or qualitative information an organization must disclose.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-a-citation-using-esg-workspace.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Disclosures in Operational Sustainability Management \(formerly ESG Management\), Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -148,5 +148,5 @@ The citation is created, the Overview page opens, displaying its description alo
 -   Metric definitions
 -   Metrics
 
-**Parent Topic:**[Disclosures in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-disclosures.md)
+**Parent Topic:**[Disclosures in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/esg-disclosures.md)
 

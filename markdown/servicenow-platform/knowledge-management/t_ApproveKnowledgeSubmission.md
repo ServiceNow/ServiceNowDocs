@@ -3,11 +3,11 @@ title: Create knowledge from incident or problem
 description: Create a knowledge article, so the next time the issue comes up the resolution is easy to find.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/t\_ApproveKnowledgeSubmission.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,9 +22,9 @@ Role required: knowledge
 
 ## About this task
 
-To create a knowledge article from an incident, see [Create a knowledge article from an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/create-knowledge-incident.md).
+To create a knowledge article from an incident, see [Create a knowledge article from an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/create-knowledge-incident.md).
 
-To create a knowledge article from problem, see [Create a known error article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/create-known-error-from-problem.md).
+To create a knowledge article from problem, see [Create a known error article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/create-known-error-from-problem.md).
 
 Depending on the value of the **glide.knowman.submission.workflow** property, knowledge created from an incident or problem may require additional approval. When this property is true, a submission record is created instead of a knowledge article. A user with the knowledge role must approve the submission to create a knowledge article.
 
@@ -51,5 +51,5 @@ Depending on the value of the **glide.knowman.submission.workflow** property, kn
     A new draft knowledge article is created. Articles created this way are added to the knowledge base specified in the property **glide.knowman.task\_kb**.
 
 
-**Parent Topic:**[Creating and maintaining articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/creating-and-maintaining-articles.md)
+**Parent Topic:**[Creating and maintaining articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/creating-and-maintaining-articles.md)
 

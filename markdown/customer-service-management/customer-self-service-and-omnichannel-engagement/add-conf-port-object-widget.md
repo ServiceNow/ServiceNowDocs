@@ -3,13 +3,13 @@ title: Add and configure the Portal Object widget
 description: Add a Portal Object widget to your portal and modify its data and behavior. You can use the Portal Object widget to display important information and actions related to records from a defined table on your portal homepage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/add-conf-port-object-widget.html
-release: australia
+release: brazil
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Portal Object widget, Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Portal Object widget, Set up Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Add and configure the Portal Object widget
@@ -18,9 +18,9 @@ Add a Portal Object widget to your portal and modify its data and behavior. You 
 
 ## Before you begin
 
-The UI Components for Customer Portals plugin must have been activated. For more information, see [Activate the UI Components for Customer Portals plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-config-portal-widget.md)
+The UI Components for Customer Portals plugin must have been activated. For more information, see [Activate the UI Components for Customer Portals plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-config-portal-widget.md)
 
-If you haven’t already created the page to which you want to add the widget, see [Create a page for Configurable Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/create-page-configurable-portal-widget.md).
+If you haven’t already created the page to which you want to add the widget, see [Create a page for Configurable Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/create-page-configurable-portal-widget.md).
 
 Role required: sp\_admin
 
@@ -52,7 +52,7 @@ The Portal Object widget displays the information based on the sy\_id entered in
 
 11. On the Instance form, fill in the fields.
 
-    For a description of the field values, see [Portal Object widget instance options form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/port-object-inst-options.md).
+    For a description of the field values, see [Portal Object widget instance options form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/port-object-inst-options.md).
 
 12. Select **Save**.
 

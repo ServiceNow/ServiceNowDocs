@@ -3,11 +3,11 @@ title: Event Management tag based alert grouping definition form
 description: The form for creating or modifying a tag based alert clustering definition displays detailed information about the definition.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/tag-based-alert-clustering-definition-form.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -117,5 +117,5 @@ Tag Based Alert Clustering Definitions Tags M2M
 Select the alert clustering tags to be assigned to the alert clustering definition. Alerts that meet the criteria specified in the selected tags are included in the alert group. The available options are the tags created on the **Tag Based Alert Clustering Tags** page.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-management-reference.md)
+</table>**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/event-management-reference.md)
 

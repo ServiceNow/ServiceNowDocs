@@ -3,11 +3,11 @@ title: Budgets and cost centers
 description: Understand what budgets and cost centers are and how to manage them in the Cost Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/cost-management/c\_BudgetsAndCostCenters.html
-release: australia
+release: brazil
 product: Cost Management
 classification: cost-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Cost Management, Strategic Portfolio Management]
 ---
@@ -27,16 +27,16 @@ Understand what budgets and cost centers are and how to manage them in the Cost 
     It is also possible to assign a cost center to a budget from the cost center record. The cost center record contains a budgets related list.
 
 
--   **[Budgets and cost centers example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/c_BudgetsAndCostCentersExample.md)**  
+-   **[Budgets and cost centers example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/cost-management/c_BudgetsAndCostCentersExample.md)**  
 The most common business entity to associate financial information is the cost center.
--   **[Create or update cost centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/c_ManageCostCenters.md)**  
+-   **[Create or update cost centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/cost-management/c_ManageCostCenters.md)**  
 Define a new cost center or update the details of the existing cost centers.
--   **[Create or update a budget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/t_ManageABudget.md)**  
+-   **[Create or update a budget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/cost-management/t_ManageABudget.md)**  
 Cost management provides budgets for you to plan expenses for a certain time period.
--   **[Cost centers related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/c_CostCentersRelatedRecords.md)**  
+-   **[Cost centers related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/cost-management/c_CostCentersRelatedRecords.md)**  
 Cost centers are related to additional records, displayed as related lists on its form.
--   **[Associate cost centers to a budget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/t_ManageABudgetsCostCenters.md)**  
+-   **[Associate cost centers to a budget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/cost-management/t_ManageABudgetsCostCenters.md)**  
 You create cost centers and associate budgets and expense allocations with them.
 
-**Parent Topic:**[Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/r_CostManagement.md)
+**Parent Topic:**[Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/cost-management/r_CostManagement.md)
 

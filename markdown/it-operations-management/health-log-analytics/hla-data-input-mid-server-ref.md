@@ -3,11 +3,11 @@ title: MID Server data input configuration fields
 description: Description of the fields on the MID Server data input configuration form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-mid-server-ref.html
-release: australia
+release: brazil
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data input configuration fields, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -85,5 +85,5 @@ The time when the last log streamed in the data input.
 |Character encoding|The character encoding for this data input.|UTF-8|
 |Drop if queue is full|Option to discard logs if there is a load on the MID Server.| |
 
-**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
+**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
 

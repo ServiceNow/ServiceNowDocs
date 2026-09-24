@@ -3,9 +3,9 @@ title: Create an issue form
 description: Use the Create an issue form to capture validation findings or performance problems for a model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-an-issue-form-mrm.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create an issue for model, Use, Model Risk Management, Governance, Risk, and Compliance]
 ---
@@ -25,5 +25,5 @@ See the following table for a description of the field values.
 |Assigned to|Individual responsible for resolving the issue.|
 |Issue source|Origin or source from which the issue was identified. This field is automatically set to **Model Risk**.|
 
-**Parent Topic:**[Create an issue for model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-an-issue-for-model-risk.md)
+**Parent Topic:**[Create an issue for model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-an-issue-for-model-risk.md)
 

@@ -3,9 +3,9 @@ title: Assessments in Service Portal and the Now Mobile app
 description: If you've installed Service Portal, you can use the My Assessments and Surveys widget in Service Portal. Users can view and take assessments in Service Portal. Service Portal also supports assessments for users on mobile devices that have the Now Mobile app installed. The My Assessments and Surveys widget is available by default on the Service Portal home page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/assessment-service-portal-and-now-mobile-app.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Take an assessment, Using assessments, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,9 +18,9 @@ If you've installed Service Portal, you can use the My Assessments and Surveys w
 
 To create an intuitive interface for your users, you can set up assessments in Service Portal. Activate Service Portal to view the My Assessments and Surveys widget, which appears on the Service Portal home page.
 
-To learn more about activating Service Portal, see [Activate Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/activate-service-portal.md).
+To learn more about activating Service Portal, see [Activate Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/activate-service-portal.md).
 
-To learn more about configuring a widget, see [configure widget instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConfigureWidgetInstances.md) .
+To learn more about configuring a widget, see [configure widget instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ConfigureWidgetInstances.md) .
 
 To configure an Assessments and Surveys widget on a Service Portal home page, press the CTRL key, right-click the widget heading, and select **Instance Options**.
 
@@ -63,7 +63,7 @@ When you assign an assessment to a user, an email notification about taking the 
 
 \[Omitted image "AssessmentsandSurveysInNowMobilApp.png"\] Alt text: My Assessments and Surveys applet on a mobile device.
 
-**Note:** In the Australia release, you now see the assessments and surveys assigned in the card view instead of the item view. If you customize the styles of the legacy card item views in older versions of Assessments and Surveys, the card continues to appear in the item view even after you upgrade to Australia. You can view the new card view in Australia only if no customizations were made to the legacy cards.
+**Note:** In the Brazil release, you now see the assessments and surveys assigned in the card view instead of the item view. If you customize the styles of the legacy card item views in older versions of Assessments and Surveys, the card continues to appear in the item view even after you upgrade to Brazil. You can view the new card view in Brazil only if no customizations were made to the legacy cards.
 
 When users open an assessment either in Service Portal or the Now Mobile app, the assessment provides the following features:
 
@@ -78,10 +78,10 @@ When users open an assessment either in Service Portal or the Now Mobile app, th
     **Note:** For mobile users, the pagination is always by question for assessments.
 
 
-**Parent Topic:**[Take an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_TakeAnAssessment.md)
+**Parent Topic:**[Take an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_TakeAnAssessment.md)
 
 **Related topics**  
 
 
-[Activate Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/activate-service-portal.md)
+[Activate Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/activate-service-portal.md)
 

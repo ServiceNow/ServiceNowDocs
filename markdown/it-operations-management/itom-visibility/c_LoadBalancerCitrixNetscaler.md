@@ -3,11 +3,11 @@ title: Citrix NetScaler load balancer discovery
 description: Discovery and Service Mapping find Citrix NetScaler load balancers including Server Load Balancing \(GSLB\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/c\_LoadBalancerCitrixNetscaler.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Load balancers, Network device discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -26,12 +26,12 @@ Virtual NetScaler load balancers are not fully supported. Discovery supports loc
 
 ## Credentials
 
--   Configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_SNMPCredentials.md). The SNMP community string requires read-only access to the Citrix NetScaler MIB \(`1.3.6.1.4.1.5951`\).
+-   Configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_SNMPCredentials.md). The SNMP community string requires read-only access to the Citrix NetScaler MIB \(`1.3.6.1.4.1.5951`\).
 
-    **Note:** You also have the option of using [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md). The SSH user requires permission to run NetScaler `show` commands only. However, if the payload size of the data that's returned to the instance is large, the discovery process can fail. In this case, use SNMP credentials instead.
+    **Note:** You also have the option of using [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md). The SSH user requires permission to run NetScaler `show` commands only. However, if the payload size of the data that's returned to the instance is large, the discovery process can fail. In this case, use SNMP credentials instead.
 
 -   \(Optional\) When using the NS.CONF pattern, provide a user with read-only access to the **NS.conf** configuration file if you don't want to provide SNMP or SSH credentials.
--   Use [basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md) credentials for discovery via REST. Configure the credential as a [credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/discovery-credential-alias.md). The NITRO API user requires read-only access to the following resources:
+-   Use [basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_BasicAuthCredentialsForm.md) credentials for discovery via REST. Configure the credential as a [credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/discovery-credential-alias.md). The NITRO API user requires read-only access to the following resources:
     -   `lbvserver`
     -   `csvserver`
     -   `service`
@@ -45,7 +45,7 @@ Virtual NetScaler load balancers are not fully supported. Discovery supports loc
     -   `nsconfig`
     -   `hanode`
 
-For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
+For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
 
 ## Classifier, pattern, and probes
 
@@ -86,7 +86,7 @@ NetScaler Load Balancer
 </td></tr></tbody>
 </table>To use probes for the horizontal discovery, make sure that the **NetScaler - Network Path Information** multiprobe is active on the **Trigger probes** related list for the **NetScaler Load Balancer** classifier. Then deactivate or remove the **Horizontal discovery** probe from the **Trigger probes** related list.
 
-To use patterns, verify that the correct pattern is specified in the horizontal pattern probe on the classifier. See [Add the Horizontal Pattern probe to a classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for instructions.
+To use patterns, verify that the correct pattern is specified in the horizontal pattern probe on the classifier. See [Add the Horizontal Pattern probe to a classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for instructions.
 
 **Note:** When using probes and sensors and the system properties**glide.discovery.hostname.snmp\_trusted** and/or **glide.discovery.hostname.dns\_nbt\_trusted** are set to false, the system uses **dns\_name** as the load balancer name. When using the Netscaler Load Balancer pattern, the system currently doesn’t recognize these system properties when they are set to false.
 
@@ -651,7 +651,7 @@ Integer
 </td></tr></tbody>
 </table>To see the DNS names and alases for a NetScaler load balancer, you must configure the form and add the **DNS Names for CIs** related list. DNS names also include aliases.
 
-**Note:** Discovery populates load balancer interface information that is necessary to map the [network path](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_CheckNtwrkStrgPath.md) in Service Mapping.
+**Note:** Discovery populates load balancer interface information that is necessary to map the [network path](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/t_CheckNtwrkStrgPath.md) in Service Mapping.
 
 ## Configuration item \(CI\) Relationships
 
@@ -763,5 +763,5 @@ To verify the NetScaler device sysName, check the snmp mib and verify the sysNam
 
 To change the value of the sysName, run the command: `set mib -name <DNS_NAME or NAME_OF_THE_NETSCALER_LB>` to set the name of the SNMP MIB.
 
-**Parent Topic:**[Load balancer discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_LoadBalancers.md)
+**Parent Topic:**[Load balancer discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/c_LoadBalancers.md)
 

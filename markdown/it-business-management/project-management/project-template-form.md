@@ -3,11 +3,11 @@ title: Project Template Form
 description: Learn about the fields of project template form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/project-template-form.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Form field information for Project Management, Project Management reference, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -75,4 +75,6 @@ Includes columns of fields and field values to be included in the template. Sele
 |Link element|The field that links the table with the parent table.|
 |Active|A check box that indicates this item is included in a template.|
 |Elements|A comma-separated list of fields from the table selected in the **Table** field that are included in the template.|
+
+**Parent Topic:**[Form field information for Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/form-field-information-for-project-management.md)
 

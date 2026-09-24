@@ -3,11 +3,11 @@ title: Create an ad-hoc task on a claim
 description: Create a task in a Individual Life Claims case to help prioritize, check the case progress, and plan your claim work. An example is that you can request additional supporting documentation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/add-an-adhoc-task.html
-release: australia
+release: brazil
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Individual Life Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -30,15 +30,15 @@ You can create additional tasks as needed on a claim by using the **Add task** b
 
 2.  Create a task from the **claim workspace** tab in a case or from the tasks list.
 
-<table id="choicetable_otl_dtz_pbc"><thead><tr><th align="left" id="d102045e110">
+<table id="choicetable_otl_dtz_pbc"><thead><tr><th align="left" id="d103748e110">
 
 Option
 
-</th><th align="left" id="d102045e113">
+</th><th align="left" id="d103748e113">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d102045e119">
+</th></tr></thead><tbody><tr><td id="d103748e119">
 
 **From the claim workspace in a case**
 
@@ -46,7 +46,7 @@ Steps
 
 In the Tasks section, select **Add claim task**. The new task has the case set as the parent record.
 
-</td></tr><tr><td id="d102045e131">
+</td></tr><tr><td id="d103748e131">
 
 **From the tasks list**
 
@@ -60,7 +60,7 @@ In the Tasks section, select **Add claim task**. The new task has the case set a
 </td></tr></tbody>
 </table>3.  On the form, fill in the fields.
 
-    For a description of the field values, see [Claim Task form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/claim-task-form-fields.md).
+    For a description of the field values, see [Claim Task form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/insurance-claims/claim-task-form-fields.md).
 
 4.  In the **Work notes** field, enter any necessary comments.
 

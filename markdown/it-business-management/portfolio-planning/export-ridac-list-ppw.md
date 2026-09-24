@@ -3,11 +3,11 @@ title: Export RIDAC list
 description: Export a filtered list of RIDAC records to Excel, PDF, CSV, or JSON format. You can download the file directly or send it via email to share RIDAC information with stakeholders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/export-ridac-list-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [RIDAC, export, email, Excel]
 breadcrumb: [Using RIDAC in Portfolio Planning Workspace, Portfolio Planning, Strategic Portfolio Management]

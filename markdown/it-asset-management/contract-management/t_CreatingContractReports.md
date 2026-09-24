@@ -3,11 +3,11 @@ title: Run a contract report
 description: A variety of contract reports are available to help track and manage contracts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/contract-management/t\_CreatingContractReports.html
-release: australia
+release: brazil
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Monitor a contract, Contracts, Contract Management use, Contract Management, Common applications, Asset Management]
 ---
@@ -42,5 +42,5 @@ Role required: contract\_manager or admin
     |Expiring Contracts|All contracts expiring in the next 90 days.|
 
 
-**Parent Topic:**[Monitor a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/t_MonitoringContracts.md)
+**Parent Topic:**[Monitor a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/contract-management/t_MonitoringContracts.md)
 

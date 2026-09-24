@@ -3,11 +3,11 @@ title: Install Retail Task Management Core
 description: If you have the admin role, you can install the Retail Task Management Core application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/legacy-retail-task-management/rahi-rtmc-activate.html
-release: australia
+release: brazil
 product: \[Legacy\] Retail Task Management
 classification: legacy-retail-task-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Retail Task Management, Retail]
 ---
@@ -30,7 +30,7 @@ The following items are installed with Retail Task Management Core:
 -   Tables
 -   Plugins
 
-For more information, see [Components installed with Retail Task Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/legacy-retail-task-management/rahi-retail-task-management-components.md).
+For more information, see [Components installed with Retail Task Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/legacy-retail-task-management/rahi-retail-task-management-components.md).
 
 ## Procedure
 

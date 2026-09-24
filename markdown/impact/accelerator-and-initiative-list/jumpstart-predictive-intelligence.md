@@ -3,11 +3,11 @@ title: Jumpstart Your Predictive Intelligence
 description: The Jumpstart Your Predictive Intelligence \(PI\) Accelerator provides a demonstration of the possibilities and capabilities of Predictive Intelligence and the clustering framework.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-predictive-intelligence.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
@@ -20,7 +20,7 @@ The Jumpstart Your Predictive Intelligence \(PI\) Accelerator provides a demonst
 
 Jumpstart Your Predictive Intelligence provides Impact customers with an overview of Predictive Intelligence machine learning \(ML\) capabilities, benefits, and outcomes. An overview of the four PI frameworks with an applied demonstration of Clustering is offered. Additionally, specific use cases, a configuration overview, and key resources to enable customers to reach their automation goals are highlighted.
 
-For related information, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence-landing.md) or [Configuring advanced settings for your ML solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-advanced-settings-ml-solutions.md) for more information on Clustering parameters.
+For related information, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/predictive-intelligence-landing.md) or [Configuring advanced settings for your ML solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-advanced-settings-ml-solutions.md) for more information on Clustering parameters.
 
 ## Package Availability
 

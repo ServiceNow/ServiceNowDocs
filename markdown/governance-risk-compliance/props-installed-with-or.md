@@ -3,9 +3,9 @@ title: Properties installed with Operational Resilience
 description: When you install the Operational Resilience application, several system properties are added to your instance. You may not need to modify these properties. The user with the sn\_oper\_res.admin role can maintain these properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/props-installed-with-or.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Reference, Operational Resilience, Governance, Risk, and Compliance
 
 When you install the Operational Resilience application, several system properties are added to your instance. You may not need to modify these properties. The user with the sn\_oper\_res.admin role can maintain these properties.
 
-## Operational Resilience properties
+## Properties installed
 
 <table id="table_dx3_gb1_wdb"><thead><tr><th>
 
@@ -111,7 +111,7 @@ sn\_oper\_res.max\_levels
 
 Maximum number of levels to be processed \(The default value is 1\). For current release, only 1 level is supported.
 
- Type: Integer
+ Type: string
 
  Value: 1
 
@@ -123,7 +123,7 @@ sn\_oper\_res.max\_nodes
 
 Maximum number of nodes to be processed when the Operational Resilience API is called.
 
- -   Type: Integer
+ -   Type: integer
 -   Default value: 10,000
 
  For example, when the API is called, it displays the results for a maximum 10,000 nodes.
@@ -134,7 +134,7 @@ sn\_oper\_res.max\_top
 
 </td><td>
 
-Number of vulnerabilities to be displayed in the **Top vulnerabilities to be fixed** report in the Operational Resilience dashboard.-   Type: Integer
+Number of vulnerabilities to be displayed in the **Top vulnerabilities to be fixed** report in the Operational Resilience dashboard.-   Type: integer
 -   Default value: 5
 
 </td></tr><tr><td>

@@ -3,9 +3,9 @@ title: Assign roles to Retail users
 description: Assign specific roles to give retail users visibility into organizations and the hierarchies they manage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-assign-roles-users.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Retail]
 ---
@@ -30,9 +30,9 @@ User roles can be configured during the initial setup process for retail organiz
 
 Users can log in as user\_admin to assign roles.
 
-For the list of roles included with each plugin, see the roles section in each of the plugin links in [Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-components-installed-with-plugins.md).
+For the list of roles included with each plugin, see the roles section in each of the plugin links in [Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-components-installed-with-plugins.md).
 
-For instructions on assigning roles to individual users, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md).
+For instructions on assigning roles to individual users, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignRoleToGroup.md).
 
 ## Procedure
 

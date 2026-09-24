@@ -1,0 +1,553 @@
+---
+title: Combined Agent Client Collector release notes for upgrades from Zurich to Brazil
+description: Consolidated page of all release notes for Agent Client Collector from Zurich to Brazil.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-agentclientcollector-release-notes.html
+release: brazil
+topic_type: reference
+last_updated: "2026-09-24"
+reading_time_minutes: 7
+breadcrumb: [Products combined by family]
+---
+
+# Combined Agent Client Collector release notes for upgrades from Zurich to Brazil
+
+Consolidated page of all release notes for Agent Client Collector from Zurich to Brazil.
+
+## How to use this page
+
+To help you prepare for your upgrade, we have combined the cross-family Agent Client Collector release notes onto one page. Read this summary of the new features, changes, and updated information for your product from Zurich to Brazil.
+
+**Tip:** If there were no updates for a release notes section in a certain family release, we included a short note for your reference. For example, if a product did not have any updates in Tokyo, the row says "No updates for this release."
+
+## Important information for upgrading Agent Client Collector to Brazil
+
+Before you upgrade to Brazil, review these pre- and post-upgrade tasks and complete the tasks as needed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## New features
+
+Between your current release family and Brazil, new features were introduced for Agent Client Collector.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **[Upgrade MID-less agents](https://www.servicenow.com/docs/access?context=upgrade-agent-from-instance&family=zurich&ft:locale=en-US)**
+
+Starting in version 6.0.0, perform selective and high-volume upgrades on ACC agents when not using a MID Server by using products such as DEX and ACC-VC.
+
+-   **[\[Placeholder link text to key verify-agent-functionality\]](https://www.servicenow.com/docs/access?context=verify-agent-functionality&family=zurich&ft:locale=en-US)**
+
+Starting in version 6.0.0, verify that an agent is functioning properly by performing a self-test on the agent.
+
+-   **[\[Placeholder link text to key acc-workspace-dashboard\]](https://www.servicenow.com/docs/access?context=acc-workspace-dashboard&family=zurich&ft:locale=en-US)**
+
+Starting in version 6.0.0, view a list of agents and their statuses on the ACC Workspace dashboard.
+
+
+ -   **[Monitor Linux events](https://www.servicenow.com/docs/access?context=linux-checks-policies&family=zurich&ft:locale=en-US)**
+
+Starting in version 3.15.0, monitor Linux events using Linux event checks.
+
+
+ -   **[Discover MSSQL components using ACC-VC](https://www.servicenow.com/docs/access?context=exploring-accv&family=zurich&ft:locale=en-US)**
+
+Starting in version 1.5.0, use ACC-VC to discover MSSQL components in your environment.
+
+-   **[Discover software information with ACC-VC using SWID tags](https://www.servicenow.com/docs/access?context=exploring-accv&family=zurich&ft:locale=en-US)**
+
+Starting in version 1.5.0, gather software information with ACC-VC using software identification \(SWID\) tags on an agent and a ServiceNow® instance.
+
+
+ -   **[Use improved debug logging](https://www.servicenow.com/docs/access?context=acc-configure-log-levels&family=zurich&ft:locale=en-US)**
+
+Starting in version 6.0.0, benefit from enhanced debug logging by sending all debug statements to a log file
+
+-   **[Manage Agent Client Collector certificates](https://www.servicenow.com/docs/access?context=acc-yml-options&family=zurich&ft:locale=en-US)**
+
+Starting in version 5.0, configure a schedule by which to rotate Agent Client Collector certificates which enable communication between agents and ITOM Cloud Services. Rotating certificates ensures that when a certificate expires, a new certificate is in place.
+
+-   **[Perform high-volume Agent Client Collector upgrade in a macOS environment](https://www.servicenow.com/docs/access?context=acc-high-volume-upgrade&family=zurich&ft:locale=en-US)**
+
+Starting in version 5.0, upgrade large numbers of Agent Client Collector agents at a time that are running on macOS. This extends the existing high-volume upgrade capabilities available for Windows and Linux in the 4.3.0 release.
+
+-   **[Use an IMDSv2 endpoint for metadata discovery](https://www.servicenow.com/docs/access?context=acc-configure-websocket-endpoint&family=zurich&ft:locale=en-US)**
+
+Starting in version 5.0, the IMDSv2 endpoint for metadata discovery is invoked when using Agent Client Collector in an AWS EC2 environment.
+
+-   **[Use enhanced errors and diagnostics to troubleshoot issues with servers and endpoints](https://www.servicenow.com/docs/access?context=view-agent-errors&family=zurich&ft:locale=en-US)**
+
+Starting in version 5.0, view errors that occur before or after the registration process when Agent Client Collector connects to the instance. This provides enhanced debugging capabilities by enabling you to view issues in the instance, without requiring direct access to the agent logs.
+
+-   **[Disable checks using heavy system resources while in CPU protection mode](https://www.servicenow.com/docs/access?context=checks-policies&family=zurich&ft:locale=en-US)**
+
+Starting in version 5.0, disable only those checks that are causing high CPU usage while in CPU protection mode. It is still possible to disable all checks and completely stop data collection while in CPU protection mode.
+
+In a Windows environment, Agent Client Collector has improved the accuracy of how check CPU usage is monitored.
+
+-   **[Configuration data files size limit](https://www.servicenow.com/docs/access?context=acc-config-data-files&family=zurich&ft:locale=en-US)**
+
+Starting in version 5.0, configuration data files have a maximum size of 10MB.
+
+-   **[Configure Agent Client Collector with proxy auto-configuration \(PAC\) files](https://www.servicenow.com/docs/access?context=proxy-agent&family=zurich&ft:locale=en-US)**
+
+Starting in version 5.0, enable easier connection of Agent Client Collector to a proxy server by using a proxy auto-configuration \(PAC\) file.
+
+
+ -   **[\[Placeholder link text to key gcp-config-file\]](https://www.servicenow.com/docs/access?context=gcp-config-file&family=zurich&ft:locale=en-US)**
+
+Starting in version 3.15.0, GCP checks provide added support to configure metrics through a configuration file in JSON format.
+
+
+ -   **[Run certificate Discovery using Agent Client Collector for Visibility Content](https://www.servicenow.com/docs/access?context=run-cert-discovery-accvc&family=zurich&ft:locale=en-US)**
+
+Starting in version 1.3.0, use the Agent Client Collector for Visibility Content to discover TLS/SSL certificates used by the ports running on the server's configuration items \(CIs\). Certificate Inventory and Management uses the certificate data to manage the TLS/SSL certificate life cycle.
+
+-   **[File-based Discovery is supported in a macOS environment](https://www.servicenow.com/docs/access?context=file-based-discovery&family=zurich&ft:locale=en-US)**
+
+Starting in version 1.3.0, use File-based Discovery in a macOS environment.
+
+-   **[Collect metrics using non-osqueryd data collection](https://www.servicenow.com/docs/access?context=using-enhanced-discovery-and-sam-together&family=zurich&ft:locale=en-US)**
+
+Starting in version 1.3.0, collect data more efficiently by invoking non-osqueryd data collection.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+-   **[Discover portable software installed by package managers](https://www.servicenow.com/docs/access?context=accvc-package-discovery&family=brazil&ft:locale=en-US)**
+
+Discover software installed on endpoints via package managers that isn't discoverable by traditional checks and policies.
+
+-   **[Create a custom filter rule](https://www.servicenow.com/docs/access?context=create-custom-filter-rule&family=brazil&ft:locale=en-US)**
+
+Create a custom software filter rule to exclude irrelevant entries from Discovery in your Software Asset Management \(SAM\) inventory.
+
+-   **[Configure a license key discovery rule and write a parser script](https://www.servicenow.com/docs/access?context=configure-license-key-rule&family=brazil&ft:locale=en-US)**
+
+Verify software legitimacy by creating license keys on your Windows, Linux and macOS devices.
+
+-   **[Categorize software](https://www.servicenow.com/docs/access?context=acc-software-categorization&family=brazil&ft:locale=en-US)**
+
+Use software categorization to group discovered software packages into business-relevant categories. Software categorization helps you avoid manually tagging software and provides administrative teams with an efficient inventory of software records.
+
+-   **[Track software on Windows applications](https://www.servicenow.com/docs/access?context=using-enhanced-discovery-and-sam-together&family=brazil&ft:locale=en-US)**
+
+Use improved software tracking on Windows applications. Software tracking informs you of the last time the application was used.
+
+-   **[Require a maintenance token for Windows uninstalls](https://www.servicenow.com/docs/access?context=require-maintenance-token-uninstall&family=brazil&ft:locale=en-US)**
+
+Require using a maintenance token when uninstalling an agent from a Windows device. A maintenance token provides a layer of protection so that unauthorized personnel can't perform the uninstall.
+
+-   **[Enable a non-persistent virtual desktop infrastructure agent](https://www.servicenow.com/docs/access?context=enable-npvdi-agent&family=brazil&ft:locale=en-US)**
+
+Configure an agent to enable it to work in a Virtual Desktop Infrastructure \(VDI\) environment. VDI agents gather data more quickly than traditional agents not enabled for a VDI.
+
+-   **[Categorize discovered browser extensions and software packages](https://www.servicenow.com/docs/access?context=acc-categorize-discovered-software&family=brazil&ft:locale=en-US)**
+
+Discover browser extensions and software packages by category. Categorization removes the need to tag software records manually and provides an accurate software inventory.
+
+
+</td></tr></tbody>
+</table>## Changes
+
+Between your current release family and Brazil, some changes were made to existing Agent Client Collector features.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Removed
+
+Between your current release family and Brazil, some Agent Client Collector features or functionality were removed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Deprecations
+
+Between your current release family and Brazil, some Agent Client Collector features or functionality were deprecated.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+Agent Client Collector Security Incident Response is no longer supported. For details on replacement options, see the [Deprecation guidance for Agent Client Collector Security Incident Response \[KB2249776\] article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2249776) in the Now Support Knowledge Base.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+-   **UserAssist deprecation during SAM last-used metric collection**
+
+The Windows `UserAssist` registry key is no longer used to determine the **last-used** timestamp for installed software. The **last-used** value is now derived from running-process snapshots collected by the existing SAM metering poll on the endpoint, with a Windows registry **Run** key used for auto-start applications.
+
+
+</td></tr></tbody>
+</table>## Activation information
+
+Review information on how to activate Agent Client Collector.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **Activation information**
+
+Agent Client Collector is available with activation of the Agent Client Collector Framework plugin \(sn\_agent\) and the Agent Client Collector Monitoring plugin \(sn\_itmon\) in an instance on which Event Management is installed.
+
+
+**Important:** Agent Client Collector is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Additional requirements
+
+If any additional requirements were introduced or changed for Agent Client Collector we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Browser requirements
+
+If any specific browser requirements were introduced or changed for Agent Client Collector we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Accessibility information
+
+Review details on accessibility information for Agent Client Collector, such as specific requirements or compliance levels.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Localization information
+
+If there are specific localization considerations for Agent Client Collector we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Highlight information
+
+If there are specific highlight considerations for Agent Client Collector we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+-   Discover TLS/SSL certificates using Agent Client Collector for Visibility Content certificate Discovery.
+-   Enhance data collection by disabling only those checks with high resource usage, allowing data collection to continue for other checks.
+-   Improve troubleshooting capabilities by viewing errors that occur before and after the registration process in the ServiceNow instance.
+-   Use file-based Discovery in a macOS environment.
+
+ See [Agent Client Collector](https://www.servicenow.com/docs/access?context=acc-landing-page&family=zurich&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/rn-combined-intro.md)
+

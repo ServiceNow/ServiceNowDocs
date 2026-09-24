@@ -3,11 +3,11 @@ title: Train the similarity solution for Knowledge Management to find related ar
 description: Train the Knowledge Similar Articles solution definition included within the Predictive Intelligence for Knowledge Management capability to find related knowledge articles when creating or viewing a knowledge article.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/train-similarity-solution-km.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,7 +32,7 @@ Role required: admin
 
 3.  On the Similarity Definition form, verify the default field values for knowledge articles.
 
-    For more information about the Similarity Definition form fields, see [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-similarity-solution.md).
+    For more information about the Similarity Definition form fields, see [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-similarity-solution.md).
 
     **Note:** If the application scope isn't set to Knowledge Management - Machine Learning, you cannot edit the form and a warning message appears. To make the form editable, click the word **here** at the end of the message.
 
@@ -50,29 +50,29 @@ Role required: admin
 
     2.  Review the similarity examples by clicking the **Similarity Examples** related link on the ML Solution form.
 
-        For more information, see [Review solution similarity examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/review-similarity-examples.md).
+        For more information, see [Review solution similarity examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/review-similarity-examples.md).
 
     3.  In the Solution Statistics related list on the ML Solution form, enter the required value in the **Similarity Score Threshold** field, right-click the ML Solution form, and then click **Save**.
 
-        For more information, see [Update your similarity score threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/update-similarity-threshold.md).
+        For more information, see [Update your similarity score threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/update-similarity-threshold.md).
 
 
 ## Result
 
 When the solution is complete, the related knowledge articles appear in the Knowledge results section on the Knowledge form in the ServiceNow AI Platform, in the Related Articles section on the knowledge article view page in the Knowledge Management Service Portal, and in Agent assist when the **Similar Articles \(ML\)** option is selected.
 
-**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
+**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
 
 **Related topics**  
 
 
-[Predictive Intelligence for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/predictive-intelligence-for-km.md)
+[Predictive Intelligence for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/predictive-intelligence-for-km.md)
 
-[Knowledge Management Service Portal article view page features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-service-portal-view.md)
+[Knowledge Management Service Portal article view page features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/knowledge-service-portal-view.md)
 
-[Create a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-knowledge-article.md)
+[Create a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/create-knowledge-article.md)
 
-[Create a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-article-workspace.md)
+[Create a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/create-article-workspace.md)
 
-[Using Now Mobile for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/mobile-experience-for-km.md)
+[Using Now Mobile for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/mobile-experience-for-km.md)
 

@@ -3,13 +3,13 @@ title: Request a hardware asset through the Zero Touch request flow
 description: Request a hardware asset directly with the external provider through the Zero Touch request flow by ordering the asset from the Service Catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/request-hardware-assets-ztr-catalog.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Zero Touch request flow, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Request and receive assets using the Zero Touch request flow, Employee self-service, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Request a hardware asset through the Zero Touch request flow
@@ -38,4 +38,11 @@ Role required: none
 ## Result
 
 Your hardware catalog request is successfully submitted.
+
+**Parent Topic:**[Request and receive assets using the Zero Touch request flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/request-receive-assets-ztr.md)
+
+**Related topics**  
+
+
+[Acknowledge receipt of an asset received through the Zero Touch request flow]()
 

@@ -3,9 +3,9 @@ title: Legacy: Request Management - Request dashboard
 description: Track the progress of new requests through the time they are worked on until they are closed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/request-mgmt-dashboard.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Request Management Platform Analytics Solutions, Request Management in a Service Management application, Service Management]
 ---
@@ -16,7 +16,7 @@ Track the progress of new requests through the time they are worked on until the
 
 **Important:**
 
-Starting in Xanadu release, the Request Management Platform Analytics Solutions dashboards are deprecated. Users can use the [Request dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request.md) to view the actionable data visualizations that help in improving the business processes and practices.
+Starting in Xanadu release, the Request Management Platform Analytics Solutions dashboards are deprecated. Users can use the [Request dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/request.md) to view the actionable data visualizations that help in improving the business processes and practices.
 
 \[Omitted image "request-mgmt-requests.gif"\] Alt text: Animated tour of the tabs of the Request Management - Requests dashboard
 
@@ -93,5 +93,5 @@ Indicators not appearing in dashboard widgets but used in formulas:
 -   Priority
 -   State
 
-**Parent Topic:**[Request Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/request-content-pack.md)
+**Parent Topic:**[Request Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-management-for-the-enterprise/request-content-pack.md)
 

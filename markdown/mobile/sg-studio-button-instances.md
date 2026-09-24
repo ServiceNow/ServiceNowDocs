@@ -3,9 +3,9 @@ title: Associate a function with a location in the app
 description: For each function you create for an app, you must associate it with a specific location. You can associate most functions with a top menu, a swipe, or a specific field.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-studio-button-instances.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Mobile functions, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -20,9 +20,9 @@ For each function you create for an app, you must associate it with a specific l
 
 Launcher screen header functions allow your users to navigate to a specific parametrized record screen. Some common examples include navigating to a users profile, or navigating to a cart.
 
- For details on creating parametrized record screens, see [Configure a parameterized record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-param-form-applet.md).
+ For details on creating parametrized record screens, see [Configure a parameterized record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/configure-param-form-applet.md).
 
- For details on how to use these record screens in a launcher screen header, see [Configure a launcher screen header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/create-alp-header.md).
+ For details on how to use these record screens in a launcher screen header, see [Configure a launcher screen header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/create-alp-header.md).
 
 </td><td>
 
@@ -51,7 +51,7 @@ Field functions enable your end users to change the value of a field. Field func
 3.  In the **Display label** field of the new Function instance record, add the name of the function to display.
 4.  Select **Save**.
 
- For more information on how to create field functions, see [Configure a details screen for a record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-form-details-screen.md).
+ For more information on how to create field functions, see [Configure a details screen for a record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/configure-form-details-screen.md).
 
 </td><td>
 
@@ -71,7 +71,7 @@ Footer functions enable your end users to add an action on the bottom of a recor
 3.  In the **Display label** field of the new Function instance record, add the name of the function to display.
 4.  Complete all the other required inputs for the record, then select **Save**.
 
- For more details on how to create a footer function, see [Use your navigation function as a footer function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-launcher-navigation-example-4.md).
+ For more details on how to create a footer function, see [Use your navigation function as a footer function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-launcher-navigation-example-4.md).
 
 </td><td>
 
@@ -104,7 +104,7 @@ Use top menu function location for less frequently used actions, and on record s
 3.  In the new Function instance record, populate the **Display** label with the words you want displayed on your function. In the Function placement section, the fields are auto-populated based on your screen record’s details.
 4.  Select **Save** after filling in all other required inputs on each record.
 
- For more details on how to create a top menu function, see [Use your navigation function as a top menu selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-launcher-navigation-example-3.md).
+ For more details on how to create a top menu function, see [Use your navigation function as a top menu selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-launcher-navigation-example-3.md).
 
 </td><td>
 
@@ -120,7 +120,7 @@ Use the quick action item location to provide your users with a shortcut to an i
 -   For Android users quick actions appear under a plus icon \(\[Omitted image "quick-action-icon.png"\] Alt text: Android quick action icon\) at the bottom-right corner of the launcher screen.
 -   For iOS quick actions appear under the ellipsis icon \(\[Omitted image "quick-action-icon-ios.png"\] Alt text: iOS quick action icon\).
 
- For details on configuring quick actions, see [Quick actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-config-quick-actions.md).
+ For details on configuring quick actions, see [Quick actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-config-quick-actions.md).
 
 </td><td>
 
@@ -141,7 +141,7 @@ The swipe function location applies to screens that display a list, including a 
 4.  In the Function section, select the function record you would like to use, or select **New**. This function determines the behavior that the system performs when a user taps the footer function.
 5.  Select **Save** after filling in all other required inputs on each record.
 
- For more details on how to create a standard function, see [Configure a navigation to a screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-config-navigation-function.md).
+ For more details on how to create a standard function, see [Configure a navigation to a screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-config-navigation-function.md).
 
 </td><td>
 

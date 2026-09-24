@@ -3,9 +3,9 @@ title: Create a data policy
 description: You can create a new data policy to define data rules for a table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreateADataPolicy.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data policy, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---

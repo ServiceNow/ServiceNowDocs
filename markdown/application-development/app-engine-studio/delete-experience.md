@@ -3,13 +3,13 @@ title: Delete an experience
 description: Delete an experience, such as a portal or record producer form, that you no longer need within App Engine Studio \(AES\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/delete-experience.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Editing an experience, Add an experience, Enhance your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Editing an experience, Add an experience, Enhance your app, Build, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Delete an experience
@@ -18,7 +18,7 @@ Delete an experience, such as a portal or record producer form, that you no long
 
 ## Before you begin
 
-Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## Procedure
 
@@ -33,5 +33,5 @@ Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more infor
 4.  On the dialog box that appears, enter `delete` and then select **Delete**.
 
 
-**Parent Topic:**[Editing an experience in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/edit-experience.md)
+**Parent Topic:**[Editing an experience in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/edit-experience.md)
 

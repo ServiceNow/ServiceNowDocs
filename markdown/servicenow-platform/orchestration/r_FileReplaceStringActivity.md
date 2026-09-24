@@ -3,11 +3,11 @@ title: File Replace String activity
 description: The File Replace String activity finds and replaces a string in a file on a Linux or UNIX computer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/r\_FileReplaceStringActivity.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SSH activity pack, Orchestration activity packs, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [SSH activity pack, Orchestration activity packs, Classic Orchestrat
 
 The File Replace String activity finds and replaces a string in a file on a Linux or UNIX computer.
 
-This activity replaces an SSH activity by the same name available in releases prior to Istanbul. If you have a workflow created in a previous version that uses the deprecated activity, your workflow will continue to work normally after upgrading to Istanbul. However, all new workflows must use the custom version of this activity. This activity was built with the [SSH activity template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAnSSHActivity.md), which gives workflow administrators the ability to store input and output variables in the [databus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchestrationDatabus.md).
+This activity replaces an SSH activity by the same name available in releases prior to Istanbul. If you have a workflow created in a previous version that uses the deprecated activity, your workflow will continue to work normally after upgrading to Istanbul. However, all new workflows must use the custom version of this activity. This activity was built with the [SSH activity template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/t_CreateAnSSHActivity.md), which gives workflow administrators the ability to store input and output variables in the [databus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_OrchestrationDatabus.md).
 
 ## Input variables
 
@@ -92,5 +92,5 @@ Replacement options:-   **first**: Replaces the first occurence of the pattern.
 |Success|The activity has successfully replaced the string in the file.|
 |Failure|The activity has failed to replaced the string in the file.|
 
-**Parent Topic:**[SSH activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchestrationSSHCustomActivities.md)
+**Parent Topic:**[SSH activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_OrchestrationSSHCustomActivities.md)
 

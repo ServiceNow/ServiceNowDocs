@@ -3,11 +3,11 @@ title: Dynamic inputs
 description: Generate a list of action inputs or input values each time that someone configures the action in a flow. Dynamic inputs can display a list of related action inputs, a list of fields from a record, or a list of options available in a choice list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/dynamic-inputs.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Create an action in Workflow Studio, Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -16,21 +16,21 @@ breadcrumb: [Create an action in Workflow Studio, Build actions, Flows, subflows
 
 Generate a list of action inputs or input values each time that someone configures the action in a flow. Dynamic inputs can display a list of related action inputs, a list of fields from a record, or a list of options available in a choice list.
 
-**Note:** Dynamic inputs are not available in the base system. To use dynamic inputs in Workflow Studio, you must [Request an Integration Hub plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/request-integrationhub.md). Dynamic inputs are part of the ServiceNow Flow Designer - Introspection \[com.glide.hub.flow\_designer\_introspection\] plugin.
+**Note:** Dynamic inputs are not available in the base system. To use dynamic inputs in Workflow Studio, you must Request an Integration Hub plugin. Dynamic inputs are part of the ServiceNow Flow Designer - Introspection \[com.glide.hub.flow\_designer\_introspection\] plugin.
 
 During flow design, dynamic inputs retrieve values and display them as inputs within an action dynamically. These types of dynamic inputs are available to action authors.
 
 -   **Dynamic Choice**
 
-    The Dynamic Choice type input gathers a list of choice values to display. For more information on building a dynamic choice, see [Create a data gathering action for a dynamic choice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-data-gathering-action-dynamic-choice.md).
+    The Dynamic Choice type input gathers a list of choice values to display. For more information on building a dynamic choice, see [Create a data gathering action for a dynamic choice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-data-gathering-action-dynamic-choice.md).
 
 -   **Dynamic Inputs**
 
-    The Dynamic Inputs type input gathers a list of additional action inputs to display. Use Dynamic Inputs to add arbitrary inputs to an action. For more information on building dynamic inputs, see [Create a data gathering action for a dynamic inputs type input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-data-gathering-action-dynamic-inputs.md).
+    The Dynamic Inputs type input gathers a list of additional action inputs to display. Use Dynamic Inputs to add arbitrary inputs to an action. For more information on building dynamic inputs, see [Create a data gathering action for a dynamic inputs type input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-data-gathering-action-dynamic-inputs.md).
 
 -   **Dynamic Template**
 
-    The Dynamic Template type input gathers a list of fields from a dynamically selected record type. Flow authors can then select which fields to include in their flow. Because the list of fields is dynamically generated, you don't have to change the action when fields are added or removed from the source table. For more information on building a dynamic template, see [Create a data gathering action for a dynamic template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-data-gathering-action-dynamic-template.md).
+    The Dynamic Template type input gathers a list of fields from a dynamically selected record type. Flow authors can then select which fields to include in their flow. Because the list of fields is dynamically generated, you don't have to change the action when fields are added or removed from the source table. For more information on building a dynamic template, see [Create a data gathering action for a dynamic template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-data-gathering-action-dynamic-template.md).
 
 
 There are three general steps to using dynamic inputs.
@@ -43,7 +43,7 @@ There are three general steps to using dynamic inputs.
 
 A data gathering action collects data to be used by other actions. Data gathering actions are intended to be called from dynamic inputs rather than be added directly to a flow. Data gathering actions typically collect data from third-party systems using a REST call. All data gathering actions must meet these requirements and constraints.
 
--   The action has a [script step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/javascript-step-action-designer.md) that contains an output variable of type JSON.
+-   The action has a [script step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/javascript-step-action-designer.md) that contains an output variable of type JSON.
 -   The action has an output named **output** of type JSON whose value is derived from the script step's JSON output variable.
 
     **Note:** The action can have multiple outputs but can only have one of type JSON.
@@ -60,7 +60,7 @@ A data gathering action collects data to be used by other actions. Data gatherin
 
 ## Supported dynamic input data types
 
-Dynamic inputs support a limited number of ServiceNow AI Platform data types. You can use the example JSON to build your own dynamic inputs. You can change the values of the label and name properties to met your needs. The type property must specify a ServiceNow AI Platform data type name. For more information about ServiceNow AI Platform field data types and how to configure them, see [Field types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
+Dynamic inputs support a limited number of ServiceNow AI Platform data types. You can use the example JSON to build your own dynamic inputs. You can change the values of the label and name properties to met your needs. The type property must specify a ServiceNow AI Platform data type name. For more information about ServiceNow AI Platform field data types and how to configure them, see [Field types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_FieldTypes.md).
 
 <table id="table_xv2_2lh_xcc"><thead><tr><th>
 
@@ -72,7 +72,7 @@ Example JSON
 
 </th></tr></thead><tbody><tr><td>
 
-[Choice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ChoiceLists.md)
+[Choice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ChoiceLists.md)
 
 </td><td>
 
@@ -141,7 +141,7 @@ Email
 
 </td></tr><tr><td>
 
-[HTML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UseHTMLFields.md)
+[HTML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_UseHTMLFields.md)
 
 </td><td>
 
@@ -189,7 +189,7 @@ Password 2
 
 </td></tr><tr><td>
 
-[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ReferenceField.md)
+[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ReferenceField.md)
 
 </td><td>
 
@@ -227,7 +227,7 @@ String
 
 -   **Consider dynamic inputs for third-party integrations**
 
-    Dynamic inputs let you create flows that fetch data dynamically from external sources. In third-party integrations, dynamic inputs can provide data values that pertain to a particular endpoint. For more information on setting up third-party integrations with Workflow Studio, see [IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integrationhub.md).
+    Dynamic inputs let you create flows that fetch data dynamically from external sources. In third-party integrations, dynamic inputs can provide data values that pertain to a particular endpoint. For more information on setting up third-party integrations with Workflow Studio, see IntegrationHub.
 
 -   **Be aware of the time required to retrieve large amounts of data**
 
@@ -248,16 +248,16 @@ String
     Dynamic choice and dynamic template inputs can only display up to 5000 array items. A dynamic choice can only display up to 5000 choice list options, and a dynamic template can only display up to 5000 field template values. If your data gathering action collects data for a dynamic template or a dynamic choice, restrict the maximum number of array items it returns to 5000. The 5000 array items limit prevents the instance from having performance issues when rendering the choices or field values.
 
 
--   **[Get started with dynamic inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-dynamic-input.md)**  
+-   **[Get started with dynamic inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/getting-started-dynamic-input.md)**  
 Create a sample action that illustrates using all available types of dynamic inputs in a flow.
--   **[Create a data gathering action for a dynamic choice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-data-gathering-action-dynamic-choice.md)**  
+-   **[Create a data gathering action for a dynamic choice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-data-gathering-action-dynamic-choice.md)**  
 Create a data gathering action to generate a list of choice options for a dynamic choice input.
--   **[Create a data gathering action for a dynamic template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-data-gathering-action-dynamic-template.md)**  
+-   **[Create a data gathering action for a dynamic template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-data-gathering-action-dynamic-template.md)**  
 Create a data gathering action to collect record field values for a dynamic template input.
--   **[Create a data gathering action for a dynamic inputs type input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-data-gathering-action-dynamic-inputs.md)**  
+-   **[Create a data gathering action for a dynamic inputs type input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-data-gathering-action-dynamic-inputs.md)**  
 Create a data gathering action to create arbitrary action inputs using a dynamic inputs type input.
--   **[Dynamic input configuration options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/dynamic-input-options.md)**  
+-   **[Dynamic input configuration options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/dynamic-input-options.md)**  
 Use these options to configure dynamic inputs.
 
-**Parent Topic:**[Create an action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-action.md)
+**Parent Topic:**[Create an action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-action.md)
 

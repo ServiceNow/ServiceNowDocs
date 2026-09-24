@@ -3,11 +3,11 @@ title: Schedule resources to be rightsized
 description: To rightsize a resource, add it to a Rightsizing job and specify when the job should run. You can also move resources out of one scheduled job into a different job or remove a resource from a job.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/rs-schedule-job-cloudin.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Resize resources with Rightsizing, Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -94,7 +94,7 @@ Type of change request to use.
 
 **Note:**
 
-The **Short description**, **Description**, **Assignment group**, and **Affected CIs** fields are auto-populated. For more information, see [Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/t_CreateAChange.md).
+The **Short description**, **Description**, **Assignment group**, and **Affected CIs** fields are auto populated. For more information, see [Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/t_CreateAChange.md).
 
 </td></tr><tr><td>
 
@@ -104,7 +104,7 @@ Change template
 
 This field appears only when the **Approval type** is selected as **Auto approval**.
 
-Change request template \(Standard Change type\) to be used. If no template appears in the list, you must create one. See [Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/create-change-template.md).
+Change request template \(Standard Change type\) to be used. If no template appears in the list, you must create one. See [Create a change request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/create-a-change-request-template.md).
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.
@@ -118,14 +118,16 @@ The Rightsizing job is created and will run at the scheduled time.
 -   If a member of the change group approves the request, the state is set to **Approved**. The resource is added to the list of resources that the job will resize.
 -   If a member of the change group rejects the request, the resource state is set to **Declined**. The resource remains listed on reports and no action is taken.
 
-**Parent Topic:**[Resize resources with Rightsizing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/resize-res-ci.md)
+**Parent Topic:**[Resize resources with Rightsizing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/resize-res-ci.md)
 
 **Related topics**  
 
 
-[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_ITILChangeManagement.md)
+[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/c_ITILChangeManagement.md)
 
-[Standard change catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_StandardChangeCatalogPlugin.md)
+[Standard change catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/c_StandardChangeCatalogPlugin.md)
 
-[Exclude a resource from all Cloud Cost Management reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/exclusion-list-add-to-cloudin.md)
+[Create a change request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/create-a-change-request-template.md)
+
+[Exclude a resource from all Cloud Cost Management reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/exclusion-list-add-to-cloudin.md)
 

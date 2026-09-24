@@ -3,11 +3,11 @@ title: Specify the LDAP attributes
 description: Specify the attributes included in LDAP server queries by using the LDAP server Attributes field. This can enhance performance as well as security.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/t\_SpecifyLDAPAttributes.html
-release: australia
+release: brazil
 product: LDAP integration
 classification: ldap-integration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [LDAP integration setup, LDAP integration, Authentication, Access Management]
 ---

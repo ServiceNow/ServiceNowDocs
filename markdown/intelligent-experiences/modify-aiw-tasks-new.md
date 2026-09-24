@@ -3,11 +3,11 @@ title: Edit the tasks of an AI specialist in AI Agent Studio
 description: Select tasks that an AI specialist can perform in the new AI Agent Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/modify-aiw-tasks-new.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Configure in AI Agent Studio, Configure, Autonomous Workforce, Enable AI experiences]
+breadcrumb: [Configure in AI Agent Studio, Configure, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Edit the tasks of an AI specialist in AI Agent Studio
@@ -22,7 +22,7 @@ Role required: sn\_aia.admin
 
 AI specialist tasks determine what they can do. Choosing the correct tasks provides your AI specialist with the tools required to complete complex goals autonomously.
 
-To learn how to modify the roles and capabilities that an AI specialist has, see [Edit the profile of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-aiw-tasks.md).
+To learn how to modify the roles and capabilities that an AI specialist has, see [Edit the profile of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/modify-aiw-tasks.md).
 
 ## Procedure
 
@@ -38,7 +38,7 @@ To learn how to modify the roles and capabilities that an AI specialist has, see
 
 5.  Select the card of a task to review, select the pencil icon, and make changes to the specific details of the task configuration.
 
-    The following tasks are available to the [L1 IT Service Desk AI Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/l1-service-desk-ai-specialist.md). These are presented as examples. Different AI specialists may have different tasks.
+    The following tasks are available to the [L1 IT Service Desk AI Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/l1-service-desk-ai-specialist.md). These are presented as examples. Different AI specialists may have different tasks.
 
     -   **Classify and assign: Configure how the AI specialist identifies incidents, classifies them, and assigns a specific incident type for follow-up.**
         -   **Table**: Select the table in which the AI specialist operates and resolution workflows are executed.

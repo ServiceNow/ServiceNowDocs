@@ -3,7 +3,7 @@ title: Set up triggers for the Microsoft Azure DevOps Boards spoke
 description: Set up triggers for the Microsoft Azure DevOps spoke for the required events. The endpoint enables webhooks to connect with your ServiceNow instance.Configure endpoint for webhooks in Microsoft Azure DevOps that support the token authentication.Create and configure a service webhook in Microsoft Azure Devops for Microsoft Azure DevOps Boards spoke.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-external-trigger-ms-azure-devops-board-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -52,7 +52,7 @@ Create and configure a service webhook in Microsoft Azure Devops for Microsoft A
 ### Before you begin
 
 -   Role required: admin
--   [Configure triggers in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-external-trigger-ms-azure-devops-board-spoke.md)
+-   [Configure triggers in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-external-trigger-ms-azure-devops-board-spoke.md)
 
 ### Procedure
 

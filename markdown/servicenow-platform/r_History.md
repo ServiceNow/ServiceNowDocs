@@ -3,9 +3,9 @@ title: Assessment scorecard history
 description: The History view compares the current ratings for each category with ratings from the previous three years or four quarters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_History.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [View an assessment scorecard, Assessment administrator tasks, Using assessments, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -25,7 +25,7 @@ Ratings that have declined are highlighted in red and display negative numbers. 
     \[Omitted image "ScorecardHistory4Quarters.png"\] Alt text: Scorecard history with four quarters
 
 
-**Parent Topic:**[View an assessment scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAnAssessmentScorecard.md)
+**Parent Topic:**[View an assessment scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_ViewAnAssessmentScorecard.md)
 
 **Related topics**  
 

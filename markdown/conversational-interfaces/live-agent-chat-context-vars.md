@@ -3,14 +3,14 @@ title: Live agent chat context variables
 description: Use chat context variables to pass certain information from the topic to share with a live agent or to control how bot conversations are routed to live agents. Virtual Agent includes some default variables, and you can define new ones.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/live-agent-chat-context-vars.html
-release: australia
+release: brazil
 product: Conversational Interfaces
 classification: conversational-interfaces
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [Live Agent, chat, context, variables, Virtual Agent, Interaction, Connect Support]
-breadcrumb: [Configure variables that store chat information, General chat settings, Configuring Conversational Interfaces, Conversational Interfaces Console, Conversational Interfaces]
+breadcrumb: [Configure context variables, General chat settings, Configuring Conversational Interfaces, Conversational Interfaces Console, Conversational Interfaces]
 ---
 
 # Live agent chat context variables
@@ -37,14 +37,6 @@ Application scope of the chat. For example, **Global**, **HR**, **CSM**, or **IT
 
 </td></tr><tr><td>
 
-auto\_resolution\_context\_id
-
-</td><td>
-
-If Auto Resolution is enabled, the ID of the record created when a requester is redirected to Virtual Agent.
-
-</td></tr><tr><td>
-
 case
 
 </td><td>
@@ -59,31 +51,7 @@ csp\_category
 
 Category defined in the Consumer Service portal in the CSM application \(requires the com.glide.service-portal.consumer-portal plugin\).
 
- For more information, see [Using the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-consumer-service-portal.md).
-
-</td></tr><tr><td>
-
-csp\_email
-
-</td><td>
-
-Requester’s email address, as entered in a pre-chat survey on the Consumer Service Portal.
-
-</td></tr><tr><td>
-
-csp\_first\_name
-
-</td><td>
-
-Requester’s first name, as entered in a pre-chat survey on the Consumer Service Portal.
-
-</td></tr><tr><td>
-
-csp\_last\_name
-
-</td><td>
-
-Requester’s last name, as entered in a pre-chat survey on the Consumer Service Portal.
+ For more information, see Using the Consumer Service Portal.
 
 </td></tr><tr><td>
 
@@ -92,14 +60,6 @@ devicetype
 </td><td>
 
 Type of device being used for the chat. For example, **mweb** \(chat widget\), **android**, or **ios**.
-
-</td></tr><tr><td>
-
-esc\_pre\_chat\_ask\_a\_question
-
-</td><td>
-
-Requester response to a pre-chat survey selection from within the HR Service Delivery application ESC view of the HR Case record.
 
 </td></tr><tr><td>
 
@@ -139,7 +99,7 @@ interaction\_id
 
 </td><td>
 
-Sys\_id of the interaction record associated with the chat session.For more information, see [Virtual Agent interaction records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-interactions.md).
+Sys\_id of the interaction record associated with the chat session.For more information, see [Virtual Agent interaction records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-interactions.md).
 
 </td></tr><tr><td>
 
@@ -155,7 +115,7 @@ mandatory\_skills
 
 </td><td>
 
-Required skills and skill level for an agent.For example, German language proficiency with an associated high skill level may be required for German-speaking requesters. You can define mandatory skills and activate skill levels in Advanced Work Assignment. For more information, see [Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.md).
+Required skills and skill level for an agent.For example, German language proficiency with an associated high skill level may be required for German-speaking requesters. You can define mandatory skills and activate skill levels in Advanced Work Assignment. For more information, see [Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.md).
 
 </td></tr><tr><td>
 
@@ -163,7 +123,7 @@ optional\_skills
 
 </td><td>
 
-Skills and skill levels that would be useful for a given chat scenario.You can define optional skills in Advanced Work Assignment. For more information, see [Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.md).
+Skills and skill levels that would be useful for a given chat scenario.You can define optional skills in Advanced Work Assignment. For more information, see [Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.md).
 
 </td></tr><tr><td>
 
@@ -180,50 +140,6 @@ portal
 </td><td>
 
 Name of the portal that the chat was accessed from.
-
-</td></tr><tr><td>
-
-post\_assessment\_instance
-
-</td><td>
-
-Reference to the post-chat survey \(Assessment Instances \[asmt\_assessment\_instance\] table\), if there is one.
-
-</td></tr><tr><td>
-
-post\_chat\_survey\_name
-
-</td><td>
-
-Name of a post-chat survey that is used to gather feedback from the requester.For information about creating surveys, see [Create chat surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/create-chat-surveys.md).
-
- For information about creating surveys in Connect Chat, see [Configure a survey in Connect Chat support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/take-survey-connect-chat.md).
-
-</td></tr><tr><td>
-
-pre\_assessment\_instance
-
-</td><td>
-
-Reference to the pre-chat survey \(Assessment Instances \[asmt\_assessment\_instance\] table\), if there is one.
-
-</td></tr><tr><td>
-
-pre\_chat\_survey\_name
-
-</td><td>
-
-Name of a pre-chat survey that is used to gather information from the requester.For information about creating surveys, see [Create chat surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/create-chat-surveys.md). To learn more about how chat context variables from pre-chat surveys are used in Advanced Work Assignment to route work to live agents, see [Work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-queues.md).
-
- For information about creating surveys in Connect Chat, see [Configure a survey in Connect Chat support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/take-survey-connect-chat.md).
-
-</td></tr><tr><td>
-
-queue
-
-</td><td>
-
-Sys\_id of the pre-built Connect Support chat queue \(deprecated\).
 
 </td></tr><tr><td>
 
@@ -264,5 +180,5 @@ Table containing the record that relates to the interaction. Typically, this is 
 -   [Virtual Agent and Natural Language Understanding \(NLU\) community forum](https://community.servicenow.com/community?id=community_forum&sys_id=bf5abf94db54e3c42be0a851ca961915)
 -   [Conversational Interfaces Academy](https://www.servicenow.com/community/virtual-agent-nlu-articles/conversational-interfaces-academy-live-builds-and-q-amp-a-join/ta-p/2345155)
 
-**Parent Topic:**[Configure context variables for storing chat-related information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-context-variables.md)
+**Parent Topic:**[Configure context variables for storing chat-related information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/ac-configure-context-variables.md)
 

@@ -3,11 +3,11 @@ title: Customize Scan Engine definition suites
 description: Follow these steps to create or modify Scan Engine definition suites.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/create-scan-engine-definition-suites.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customize Scan Engine definitions, Activate Scan Engine and review settings, Run Impact Guided Setup, Configuring Impact, Impact]
+breadcrumb: [Customize Scan Engine definitions, Activate Scan Engine and review settings, Impact Guided Setup, Configuring Impact, Impact]
 ---
 
 # Customize Scan Engine definition suites
@@ -35,11 +35,6 @@ Role required: Scan Engine admin \(`sn_se.scan_engine_admin_role` role\)
     |Description|Detailed description of why the suite was created.|
 
 5.  Modify Scan Engine Definition Suites
-
-    **Note:** Role required: Scan Engine admin \(`sn_se.scan_engine_admin`\).
-
-    While only Scan Engine admins can modify definitions, any user with the Scan Engine user role can view them.
-
 6.  Navigate to **ALL** &gt; **Impact** &gt; **Platform Health** &gt; **Definition Suites**.
 
 7.  Select a suite number to open its details and modify its properties.
@@ -81,5 +76,5 @@ Displays findings found during on-demand or instance scans as defined by the def
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Customize Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/view-modify-scan-engine-properties.md)
+**Parent Topic:**[Customize Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/view-modify-scan-engine-properties.md)
 

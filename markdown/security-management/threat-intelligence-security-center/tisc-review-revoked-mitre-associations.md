@@ -3,11 +3,11 @@ title: Review revoked MITRE tactic and technique associations
 description: Review the tactic and technique pairs that MITRE no longer maps, then delete or remap the entity and case associations that were created from them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-review-revoked-mitre-associations.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [revoked tactic technique, MITRE ATT&amp;CK, Delete Associations, Re-Map Associations]
 breadcrumb: [MITRE-ATT&amp;CK repository, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
@@ -39,7 +39,7 @@ A review record is created only when at least one entity or case association was
 
 2.  Select a record to open it, and review the **Review Reason** and **Revoked Collection Version** values.
 
-    **Review Reason** distinguishes the two ways a pair can be revoked. Either the technique itself was revoked in the MITRE collection, or the technique is no longer mapped to this tactic. For a description of every field on the record, see [Revoked MITRE tactic-technique review fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-mitre-revoked-review-fields.md).
+    **Review Reason** distinguishes the two ways a pair can be revoked. Either the technique itself was revoked in the MITRE collection, or the technique is no longer mapped to this tactic. For a description of every field on the record, see [Revoked MITRE tactic-technique review fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-mitre-revoked-review-fields.md).
 
 3.  Review the **Entity Associations** and **Case Associations** related lists.
 
@@ -74,15 +74,15 @@ Both actions run in the background. The status of the review record moves from *
 
 To clear a completed record from the worklist, open it and select **Delete**. This action is available only on completed records, and it requires the sn\_sec\_tisc.admin role.
 
--   **[Revoked MITRE tactic-technique review fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-mitre-revoked-review-fields.md)**  
+-   **[Revoked MITRE tactic-technique review fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-mitre-revoked-review-fields.md)**  
 Fields on the review record that MITRE ingestion creates for a revoked tactic and technique pair, and the values that each field can hold.
 
-**Parent Topic:**[MITRE-ATT&amp;CK repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-mitre-att-ck-framework-overview.md)
+**Parent Topic:**[MITRE-ATT&amp;CK repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-mitre-att-ck-framework-overview.md)
 
 **Related topics**  
 
 
-[Revoked MITRE tactic-technique review fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-mitre-revoked-review-fields.md)
+[Revoked MITRE tactic-technique review fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-mitre-revoked-review-fields.md)
 
-[MITRE-ATT&amp;CK repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-mitre-att-ck-framework-overview.md)
+[MITRE-ATT&amp;CK repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-mitre-att-ck-framework-overview.md)
 

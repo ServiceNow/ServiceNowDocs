@@ -3,11 +3,11 @@ title: Reusable tests
 description: Leverage reusable tests to simplify test maintenance and streamline the management of large tests and test suites. Reusable tests reduce redundancy, ensuring consistent and reliable test execution across your system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-reuse-tests.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Automated Test Framework \(ATF\) test types and techniques, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -27,12 +27,12 @@ Use the following related lists to pass variables from one test to another. Sele
 
 **Note:** The reusable input and output variables that you create for the test are shown under the Reusable Input Variables and Reusable Output Variables related lists. The input variables are passed in from the parent test that is calling the current reusable test and is used by the reusable test. The output variables are passed back to the parent test and are used only by its test steps.
 
-Use the Reusable Test test step category to access the created reusable test records. See [Reusable Tests category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-reusable-tests-category.md) for more information.
+Use the Reusable Test test step category to access the created reusable test records. See [Reusable Tests category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/test-steps-reusable-tests-category.md) for more information.
 
--   **[Create a reusable test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-create-reusable-tests.md)**  
+-   **[Create a reusable test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-create-reusable-tests.md)**  
 Create a reusable test to avoid redundancy, ensuring better test maintenance and reliable test execution across the instance.
 
-**Parent Topic:**[Automated Test Framework \(ATF\) test types and techniques](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-test-type-testing.md)
+**Parent Topic:**[Automated Test Framework \(ATF\) test types and techniques](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-test-type-testing.md)
 
 **Related topics**  
 

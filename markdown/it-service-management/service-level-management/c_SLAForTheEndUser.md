@@ -3,11 +3,11 @@ title: Monitoring Service Level Agreement \(SLA\)
 description: You can view the details for every task SLA record created for a task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/c\_SLAForTheEndUser.html
-release: australia
+release: brazil
 product: Service Level Management
 classification: service-level-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Service Level Management, Service Level Management, IT Service Management]
 ---
@@ -26,8 +26,8 @@ Target is used for filtering, searching, and reporting purposes only.
 
 In addition, you can get an overview of the timings for the task SLA such as the actual and business elapsed time and percentage, and the actual and business time left in days and hours.
 
--   **[Verify SLA definition using SLA timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/Verify-sla-definition-using-sla-timeline.md)**  
+-   **[Verify SLA definition using SLA timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/Verify-sla-definition-using-sla-timeline.md)**  
 You can verify that a task is mapped appropriately with a defined SLA using the SLA timeline. If a task is mapped with the SLA definition, the SLA timeline displays a graphical representation of the progress of the task SLA.
 
-**Parent Topic:**[Using Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/using-service-level-management.md)
+**Parent Topic:**[Using Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/using-service-level-management.md)
 

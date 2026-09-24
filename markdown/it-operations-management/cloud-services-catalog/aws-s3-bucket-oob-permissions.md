@@ -3,11 +3,11 @@ title: Amazon Web Services S3 Bucket Out Of Box permissions
 description: AWS S3 Bucket OOB catalog items permissions. S3 Bucket supports provision and deprovision only.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/aws-s3-bucket-oob-permissions.html
-release: australia
+release: brazil
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [AWS S3 Bucket items, Out Of Box Catalogs using Cloud Services Catalog, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -72,5 +72,5 @@ AWS S3 Bucket deprovision
 7.  GetBucketReplication DescribeTable
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Amazon Web Services S3 Bucket Out Of Box Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/aws-s3-bucket-out-of-box-catalogs.md)
+</table>**Parent Topic:**[Amazon Web Services S3 Bucket Out Of Box Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-services-catalog/aws-s3-bucket-out-of-box-catalogs.md)
 

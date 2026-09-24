@@ -3,11 +3,11 @@ title: Run options for discovery schedules
 description: Both horizontal and top-down discovery use these run options.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/discovery-schedule-run-options.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -120,12 +120,12 @@ Allows you to sequentially stagger the schedule. Use this option to run this sch
 -   This Discovery doesn’t run if the **Run after** Discovery doesn’t finish, with the exception that the **Even if canceled** check box is selected and the Discovery is canceled.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ITOM Visibility reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/visibility-reference.md)
+</table>**Parent Topic:**[ITOM Visibility reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/visibility-reference.md)
 
 **Related topics**  
 
 
-[Schedule a top-down discovery by Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_CreateDiscoSchedForCITypes.md)
+[Schedule a top-down discovery by Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/t_CreateDiscoSchedForCITypes.md)
 
-[Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md)
+[Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md)
 

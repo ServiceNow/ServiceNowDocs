@@ -3,13 +3,13 @@ title: SAP DMS external content connector
 description: The SAP DMS external content connector retrieves documents from repositories in your SAP Document Management System instance and makes their content and metadata searchable in AI Search applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/sap-dms-external-content-connector.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -21,23 +21,23 @@ Connector administrators can run or schedule content crawls to retrieve updated 
 
 The indexed content and metadata are stored as records in a connector-specific indexed source. Search administrators can create search sources from this indexed source and link them to search profiles to make the indexed records searchable in AI Search applications.
 
--   **[Create a subaccount in the SAP Business Technology Platform \(BTP\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-subaccount-sap-btp.md)**  
+-   **[Create a subaccount in the SAP Business Technology Platform \(BTP\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-subaccount-sap-btp.md)**  
 Create a subaccount with required entitlements in your SAP global account using the SAP BT cockpit. You need this subaccount in order to configure SAP access for the SAP DMS external content connector.
--   **[Create a SAP user and role collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-sap-user-role-collection.md)**  
+-   **[Create a SAP user and role collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-sap-user-role-collection.md)**  
 Create a user and a role collection in the SAP Business Technology Platform \(BTP\) cockpit. The SAP DMS external content connector needs this user account to access your SAP DMS content.
--   **[Configure SAP DMS for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-sap-dms-external-content-indexing.md)**  
+-   **[Configure SAP DMS for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-sap-dms-external-content-indexing.md)**  
 Create service instances and service keys in your SAP Business Technology Platform \(BTP\) global account to allow the SAP DMS external content connector to access your SAP DMS documents and repositories.
--   **[Create a SAP DMS external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-sap-dms.md)**  
+-   **[Create a SAP DMS external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-ext-cont-connector-sap-dms.md)**  
 Create an external content connector to retrieve searchable content and security principals from your SAP DMS source system.
--   **[Configure crawl settings for a SAP DMS external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-crawl-settings-sap-dms-external-content-connector.md)**  
+-   **[Configure crawl settings for a SAP DMS external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-crawl-settings-sap-dms-external-content-connector.md)**  
 Specify the folders you want your SAP DMS external content connector to crawl. Define inclusion or exclusion filters to specify which content the crawl retrieves and feeds to AI Search for indexing.
 
-**Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configuring-ext-cont-connectors.md)
+**Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configuring-ext-cont-connectors.md)
 
 **Related topics**  
 
 
-[Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-content-crawl-external-content-connector.md)
+[Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-content-crawl-external-content-connector.md)
 
-[Create a user permission crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md)
+[Create a user permission crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md)
 

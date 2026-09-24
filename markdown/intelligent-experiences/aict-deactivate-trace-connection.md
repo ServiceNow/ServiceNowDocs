@@ -3,12 +3,12 @@ title: Deactivate a trace connection
 description: Stop trace collection for an established connection without deleting it, so you can reactivate it later.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-deactivate-trace-connection.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring trace connections, Configuring integrations, Configure, AI Control Tower, Enable AI experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Configuring trace connections, Configuring integrations, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Deactivate a trace connection
@@ -27,15 +27,15 @@ Role required: sn\_ai\_governance.ai\_steward
 
 3.  Deactivate the connection using one of the following methods.
 
-<table id="choicetable-deactivate"><thead><tr><th align="left" id="d42443e102">
+<table id="choicetable-deactivate"><thead><tr><th align="left" id="d40485e102">
 
 Method
 
-</th><th align="left" id="d42443e105">
+</th><th align="left" id="d40485e105">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d42443e111">
+</th></tr></thead><tbody><tr><td id="d40485e111">
 
 **Actions menu**
 
@@ -45,7 +45,7 @@ Steps
 2.  In the confirmation dialog, select **Deactivate**.
 
 
-</td></tr><tr><td id="d42443e139">
+</td></tr><tr><td id="d40485e139">
 
 **Edit form**
 
@@ -66,5 +66,5 @@ The connection remains on the **Established** sub-tab with a **State** of **Inac
 
 Reactivate the connection by editing the connection and select the **Active** option.
 
-**Parent Topic:**[Configuring trace connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring-trace-connections.md)
+**Parent Topic:**[Configuring trace connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configuring-trace-connections.md)
 

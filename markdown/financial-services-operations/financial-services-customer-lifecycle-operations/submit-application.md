@@ -3,11 +3,11 @@ title: Submit an application
 description: Collect all required applicant information and submit an application for a new account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-customer-lifecycle-operations/submit-application.html
-release: australia
+release: brazil
 product: Financial Services Customer Lifecycle Operations
 classification: financial-services-customer-lifecycle-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Customer Lifecycle Operations, Common applications, Financial Services Operations \(FSO\)]
 ---
@@ -35,7 +35,7 @@ Role required:
 
 5.  Select **Add Contacts** and complete the associated child cases.
 
-    For more information on creating a contact, see [Create a contact for a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-customer-lifecycle-operations/create-contact.md).
+    For more information on creating a contact, see [Create a contact for a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-customer-lifecycle-operations/create-contact.md).
 
 6.  Select **Collect Account Documents**.
 
@@ -56,5 +56,5 @@ The account application is submitted, and the case automatically advances to the
 
 ## What to do next
 
-Continue to the [Document Verification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-customer-lifecycle-operations/verify-client-docs.md) stage.
+Continue to the [Document Verification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-customer-lifecycle-operations/verify-client-docs.md) stage.
 

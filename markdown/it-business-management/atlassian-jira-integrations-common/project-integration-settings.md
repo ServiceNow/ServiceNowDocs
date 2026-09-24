@@ -3,11 +3,11 @@ title: Associate Jira projects with assignment groups in Agile Development 2.0
 description: Associate your Jira projects and boards with assignment groups in Agile Development 2.0 to enable import and export of all available issues between the associated project and assignment group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/atlassian-jira-integrations-common/project-integration-settings.html
-release: australia
+release: brazil
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Importing issues and sprints from Jira to Agile Development 2.0, Setting up the integration between Jira and Agile Development 2.0, Atlassian Jira Integration for Agile Development, Strategic Portfolio Management]
 ---
@@ -18,8 +18,8 @@ Associate your Jira projects and boards with assignment groups in Agile Developm
 
 ## Before you begin
 
--   [Discover and import Jira projects and boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/discover-projects.md).
--   Create assignment groups in Agile Development 2.0. See [Create an assignment group in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/create-an-agile-group.md).
+-   [Discover and import Jira projects and boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/atlassian-jira-integrations-common/discover-projects.md).
+-   Create assignment groups in Agile Development 2.0. See [Create an assignment group in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/create-an-agile-group.md).
 -   Ensure that your Jira project has a defined mapping configuration.
 -   Role required: sn\_jira\_int.user
 
@@ -51,12 +51,12 @@ Create team integration settings to associate a Jira project and Jira board with
 
 You can import or issues from this Jira project or sprints from this Jira board to the associated assignment group.
 
-**Parent Topic:**[Importing issues and sprints from Jira to Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/importing-issues-and-sprints-from-jira-to-agile-dev-2.0.md)
+**Parent Topic:**[Importing issues and sprints from Jira to Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/atlassian-jira-integrations-common/importing-issues-and-sprints-from-jira-to-agile-dev-2.0.md)
 
 **Related topics**  
 
 
-[Import issues from a Jira project to Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/import-export-issues-sn-jira.md)
+[Import issues from a Jira project to Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/atlassian-jira-integrations-common/import-export-issues-sn-jira.md)
 
-[Import sprints from Jira to Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/import-sprints-to-agile-2-from-jira-board.md)
+[Import sprints from Jira to Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/atlassian-jira-integrations-common/import-sprints-to-agile-2-from-jira-board.md)
 

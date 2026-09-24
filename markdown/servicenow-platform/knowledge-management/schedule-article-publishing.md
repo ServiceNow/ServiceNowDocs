@@ -3,11 +3,11 @@ title: Schedule a knowledge article for publishing
 description: Set a specific time and day for a knowledge article to be published automatically.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/schedule-article-publishing.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,8 +22,8 @@ You must have contribute access to the knowledge base that stores the knowledge 
 
 Ensure that the system administrator verifies the following settings:
 
--   Knowledge Management Advanced plugin \(com.snc.knowledge\_advanced\) is activated. For more information, see [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md).
--   The article versioning feature is enabled. For more information, see [Article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/article-versioning.md).
+-   Knowledge Management Advanced plugin \(com.snc.knowledge\_advanced\) is activated. For more information, see [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md).
+-   The article versioning feature is enabled. For more information, see [Article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/article-versioning.md).
 
 Role required: knowledge
 
@@ -64,10 +64,10 @@ The knowledge article is published on the scheduled publish date depending on th
     -   If the approvals are completed before the scheduled publish date, the **Workflow** field on the Knowledge form of the article is updated to **Scheduled for publish** and the article is published on the scheduled publish date.
     -   If the approvals are completed after the scheduled publish date, the article is published immediately on the approval completion.
 
-**Parent Topic:**[Creating and maintaining articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/creating-and-maintaining-articles.md)
+**Parent Topic:**[Creating and maintaining articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/creating-and-maintaining-articles.md)
 
 **Related topics**  
 
 
-[Edit a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/edit-knowledge-article.md)
+[Edit a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/edit-knowledge-article.md)
 

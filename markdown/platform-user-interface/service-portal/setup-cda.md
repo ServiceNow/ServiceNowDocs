@@ -3,11 +3,11 @@ title: Set up Cloud Deployment Automation
 description: Set up the Cloud Deployment Automation application by configuring the Service Portal page to use the default catalog items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/setup-cda.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Cloud Deployment Automation, Configure a catalog in Service Portal, Create a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -19,7 +19,7 @@ Set up the Cloud Deployment Automation application by configuring the Service Po
 ## Before you begin
 
 -   Request Integration Hub subscription. For more information, see [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
--   Activate and configure the [AWS CloudFormation spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/aws-cloudformation.md).
+-   Activate and configure the [AWS CloudFormation spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/aws-cloudformation.md).
 -   Activate the Cloud Deployment Automation app
 -   Role required: admin
 
@@ -91,5 +91,5 @@ Set up the Cloud Deployment Automation application by configuring the Service Po
         \[Omitted image "cda-catalogs.png"\] Alt text: Cloud Deployment Automation catalogs.
 
 
-**Parent Topic:**[Cloud Deployment Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/cloud-dep-auto.md)
+**Parent Topic:**[Cloud Deployment Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/cloud-dep-auto.md)
 

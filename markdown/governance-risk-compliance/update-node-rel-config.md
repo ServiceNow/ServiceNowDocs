@@ -3,9 +3,9 @@ title: Configure the Node relationship configurations
 description: Create a Node relationship configuration record to establish relationships between nodes. Update the node relationships including source table, both Configuration Items \(CI\) and non-CI relationships. The Node relationship configurations define the connections between the source table and other tables \(target tables\), specifying how they are related.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/update-node-rel-config.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure the Main node configurations, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -34,13 +34,13 @@ Role required: sn\_oper\_res.admin
 
     \[Omitted image "node-rel-config-new-record.png"\] Alt text: Record.
 
-    For description of the fields in the Node relationship configuration form, see [Node relationship configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/node-relationship-configuration-form.md).
+    For description of the fields in the Node relationship configuration form, see [Node relationship configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/node-relationship-configuration-form.md).
 
     You can set up these relationship registries by creating a Relationship Registry record in the Relationship Registries module. The Relationship Registry new record form is shown in the example.
 
     \[Omitted image "rela-registry-record-new.png"\] Alt text: Rel registry record.
 
-    For the description of the fields in the Relationship registry form, see [Relationship registry record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/rel-registry-record-form.md).
+    For the description of the fields in the Relationship registry form, see [Relationship registry record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/rel-registry-record-form.md).
 
 4.  Select the table of your choice in the **Source table** field in the **Source** tab.
 
@@ -104,15 +104,15 @@ Role required: sn\_oper\_res.admin
 
     All the relationship options are explained in this step.
 
-<table id="choicetable_vzr_ppt_1gc"><thead><tr><th align="left" id="d123174e335">
+<table id="choicetable_vzr_ppt_1gc"><thead><tr><th align="left" id="d124694e335">
 
 Step
 
-</th><th align="left" id="d123174e338">
+</th><th align="left" id="d124694e338">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d123174e344">
+</th></tr></thead><tbody><tr><td id="d124694e344">
 
 **One-to-one**
 
@@ -124,7 +124,7 @@ This is valid for One-to-one and One-to-many types.
 
 \[Omitted image "node-rel-target.png"\] Alt text: Target.
 
-</td></tr><tr><td id="d123174e373">
+</td></tr><tr><td id="d124694e373">
 
 **One-to-many**
 
@@ -134,7 +134,7 @@ If the Relationship table is an m2m table, select **Sys ID** in the **Target ref
 
 \[Omitted image "one-to-many.png"\] Alt text: One-to-many.For One-to-many, the relationship shows the list of tables that has source table as a reference field.
 
-</td></tr><tr><td id="d123174e402">
+</td></tr><tr><td id="d124694e402">
 
 **Many-to-many**
 
@@ -142,7 +142,7 @@ If the Relationship table is an m2m table, select **Sys ID** in the **Target ref
 
 For Many-to-many, the **Relationship** field shows the list of m2m tables in which the source table is referred. Notice that for Many-to-many, you have to select the field from the drop-down that you want as output. For example, \[cmdb\_rel\_ci\] table has **Parent** \(cmdb\_ci\) and **Child** \(cmdb\_ci\) fields. If you want to find the child service, you can select **Child**.\[Omitted image "many-to-many.png"\] Alt text: Many-to-many.
 
-</td></tr><tr><td id="d123174e431">
+</td></tr><tr><td id="d124694e431">
 
 **Scripted**
 

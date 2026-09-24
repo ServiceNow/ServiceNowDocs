@@ -3,11 +3,11 @@ title: Commit changes to a repository
 description: Commit changes made in ServiceNow Studio to a linked Git repository by selecting individual file changes or committing all changes on the instance at once.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sns-sc-commit-changes-to-repository.html
-release: australia
+release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-05-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Work with changes in Git, Metadata source control in ServiceNow Studio, Source control integration, Use, ServiceNow Studio, Developing your application, Building applications]
 ---
@@ -18,7 +18,7 @@ Commit changes made in ServiceNow Studio to a linked Git repository by selecting
 
 ## Before you begin
 
-[Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/link-app-to-source-control.md)
+[Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/link-app-to-source-control.md)
 
 Role required: admin
 
@@ -51,7 +51,7 @@ Role required: admin
 
     Commits always occur in **include\_untracked** mode in the following cases:
 
-    -   Linking to source control for the first time. For more information, see [Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/link-app-to-source-control.md).
+    -   Linking to source control for the first time. For more information, see [Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/link-app-to-source-control.md).
     -   Publishing an application linked to source control from ServiceNow Studio.
     -   Disabling selective commit mode.
 7.  Select **Continue**.
@@ -68,7 +68,7 @@ The following operations occur:
 -   The ServiceNow AI Platform identifies all local changes.
 -   The ServiceNow AI Platform commits all local changes to the remote repository.
 
-**Note:** For list of known files that do not have customer update records and are untracked, see [Customer Updates table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_CustomerUpdatesTable.md).
+**Note:** For list of known files that do not have customer update records and are untracked, see [Customer Updates table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_CustomerUpdatesTable.md).
 
-**Parent Topic:**[Work with changes in Git](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-sc-work-with-changes-in-git.md)
+**Parent Topic:**[Work with changes in Git](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/sns-sc-work-with-changes-in-git.md)
 

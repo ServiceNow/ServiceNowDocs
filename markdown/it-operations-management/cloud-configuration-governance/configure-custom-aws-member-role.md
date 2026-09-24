@@ -3,11 +3,11 @@ title: Configure a custom AWS member role
 description: Customize the AWS roles that a MID Server can assume to receive temporary credentials for member accounts. You can configure additional parameters to improve security and customize the way that the member account’s role is assumed when discovering cloud resources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/configure-custom-aws-member-role.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Day 1 setup guide for Amazon Web Services on Cloud Provisioning and Governance, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Values that you enter in the Cloud Service Account &gt; AWS Org Assume Role Params \[cloud\_service\_account\_aws\_org\_assume\_role\_params\] table are passed as parameters to the AWS AssumeRole API. These parameters apply to the named service account.
+Values in the Cloud Service Account &gt; AWS Org Assume Role Params \[cloud\_service\_account\_aws\_org\_assume\_role\_params\] table are passed as parameters to the AWS AssumeRole API.
 
 ## Procedure
 
@@ -54,7 +54,7 @@ Role session name \[role\_session\_name\]
 
 </td><td>
 
-Name for the session using the temporary security credentials that may help in distinguishing use of a role by a principal or purpose. This session name is visible in the AWS Cloud Trail logs. See [Cloud API Trail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-api-trail.md) and the [AWS documentation](https://aws.amazon.com/documentation/) on AWS Cloud Trail for details.Default: master\_account\_id\_\_&lt;management account ID number&gt; An example of this is: `master_account_id__321003876149`.
+Name for the session using the temporary security credentials that may help in distinguishing use of a role by a principal or purpose. This session name is visible in the AWS Cloud Trail logs. See [Cloud API Trail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/cloud-api-trail.md) and the [AWS documentation](https://aws.amazon.com/documentation/) on AWS Cloud Trail for details.Default: master\_account\_id\_\_&lt;management account ID number&gt; An example of this is: `master_account_id__321003876149`.
 
 </td></tr><tr><td>
 
@@ -64,7 +64,7 @@ Credential TTL in seconds \[credential\_ttl\_seconds\]
 
 Time in seconds for the temporary security credentials to live.Default: Calculated as follows:
 
-1.  Retrieve the value in the **mid.aws.sts.assume\_role.credential\_ttl\_minutes** [MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerProperties.md).
+1.  Retrieve the value in the **mid.aws.sts.assume\_role.credential\_ttl\_minutes** [MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_MIDServerProperties.md).
 2.  Constrain this value to be between 15 and 720 minutes. If the setting in the property is less than 15 minutes, the system enters 15 minutes. If the setting is greater than 720 minutes, the system enters 720 minutes.
 3.  Convert the resulting value into seconds.
 

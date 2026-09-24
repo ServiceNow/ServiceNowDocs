@@ -3,9 +3,9 @@ title: Planning your Field Service Management implementation
 description: Before starting on your implementation journey, take some time to plan your implementation, understand Field Service Management packaging and licensing, and take some training for the features you want to implement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/planning-implementation-fsm.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Field Service Management]
 ---
@@ -18,7 +18,7 @@ Before starting on your implementation journey, take some time to plan your impl
 
 To efficiently implement and get long-term value from Field Service Management, you’ll need a strong foundation. Start by documenting the vision and value, including KPIs. Don’t skip critical planning and management processes such as governance and OCM. Support these efforts with the right people and strong executive sponsorship.
 
-Utilize the ServiceNow® Upgrade Center for managing upgrades, which features modules for tracking upgrade progress and tools to handle post-upgrade skips. For more information, see [Upgrade Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/uc-landing-page.md).
+Utilize the ServiceNow® Upgrade Center for managing upgrades, which features modules for tracking upgrade progress and tools to handle post-upgrade skips. For more information, see [Upgrade Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/uc-landing-page.md).
 
 ## Package and licenses
 

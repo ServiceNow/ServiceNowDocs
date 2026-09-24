@@ -3,9 +3,9 @@ title: Patient Support Services data model
 description: The Patient Support Services application provides a data model for use in the Patient Support Services workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pss-data-model.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Patient Support Services, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---

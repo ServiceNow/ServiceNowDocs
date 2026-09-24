@@ -1,20 +1,20 @@
 ---
 title: Configure AWS credentials for Cloud License Estimator
-description: This task guides you in configuring IAM user permanent credentials for the designated account.There are several ways to configure AWS Service Accounts depending on the credentials and master accounts.The tool supports management accounts and single subscriptions. Management accounts include all subscriptions under that account.
+description: Configure IAM user permanent credentials for an AWS account.There are several ways to configure AWS Service Accounts depending on the credentials and master accounts. Create an AWS account configuration to estimate the cloud resource count for licensing. Management accounts include all subscriptions under that account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-license-estimator/cle-aws-credential-setup.html
-release: australia
+release: brazil
 product: Cloud License Estimator
 classification: cloud-license-estimator
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Configure Cloud License Estimator, Cloud License Estimator, ITOM Visibility, IT Operations Management]
 ---
 
 # Configure AWS credentials for Cloud License Estimator
 
-This task guides you in configuring IAM user permanent credentials for the designated account.
+Configure IAM user permanent credentials for an AWS account.
 
 ## Before you begin
 
@@ -35,14 +35,14 @@ You can configure IAM roles to generate temporary credentials using STS API for 
     A **Credential ID** is generated, which is used when creating configurations.
 
 
-**Parent Topic:**[Configure Cloud License Estimator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-license-estimator/configure-cloud-license-estimator.md)
+**Parent Topic:**[Configure Cloud License Estimator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-license-estimator/configure-cloud-license-estimator.md)
 
 **Related topics**  
 
 
 [Configure Azure Credentials for Cloud License Estimator]()
 
-## Configure AWS Service Accounts for CLE
+## Configure AWS service accounts for Cloud License Estimator
 
 There are several ways to configure AWS Service Accounts depending on the credentials and master accounts.
 
@@ -52,7 +52,7 @@ Role required: admin
 
 ### About this task
 
-Service accounts can be configured with the following options:
+You can configure service accounts with these options:
 
 -   Configure a service account with permanent credentials. When an account is configured with permanent credentials, it is referred to as an accessor account. This account can be either a management account or member account.
 
@@ -71,60 +71,60 @@ Service accounts can be configured with the following options:
 
 4.  To configure a service account with permanent credentials, enter the following information:
 
-    -   **Name:** Enter the AWS account name.
+    -   **Name**: Enter the AWS account name.
 
-    -   **Cloud provider:** Select AWS.
+    -   **Cloud provider**: Select AWS.
 
-    -   **Account ID:** Enter the AWS account ID.
+    -   **Account ID**: Enter the AWS account ID.
 
-    -   **Master account:** Select if this is a management account.
+    -   **Master account**: Select if this is a management account.
 
-    -   **Credentials:** Select the AWS Credential ID created for permanent credentials.
+    -   **Credentials**: Select the AWS Credential ID created for permanent credentials.
 
-    -   **Master account:** Leave blank if not applicable.
+    -   **Master account**: Leave blank if not applicable.
 
-    -   **Accessor Account and Accessor role ARN:** Not applicable for permanent credentials.
+    -   **Accessor Account and Accessor role ARN**: Not applicable for permanent credentials.
 
 5.  To configure a management account with the IAM role, enter the following information:
 
-    -   **Name:** Enter the AWS account name.
+    -   **Name**: Enter the AWS account name.
 
-    -   **Cloud provider:** Select AWS.
+    -   **Cloud provider**: Select AWS.
 
-    -   **Account ID:** Enter the AWS account ID.
+    -   **Account ID**: Enter the AWS account ID.
 
-    -   **Master account:** Select if this is a management account.
+    -   **Master account**: Select if this is a management account.
 
-    -   **Credentials:** Leave blank. No credentials are required for this account.
+    -   **Credentials**: Leave blank. No credentials are required for this account.
 
-    -   **Master account:** Leave blank.
+    -   **Master account**: Leave blank.
 
-    -   **Accessor Account:** Select the account that has a trust relationship with this management account's IAM role.
+    -   **Accessor Account**: Select the account that has a trust relationship with this management account's IAM role.
 
     -   **Accessor role ARN:** Enter the full ARN of the IAM role.
 6.  To configure a member account with a custom IAM role, enter the following information:
 
-    -   **Name:** Enter the AWS account name.
+    -   **Name**: Enter the AWS account name.
 
-    -   **Cloud provider:** Select AWS.
+    -   **Cloud provider**: Select AWS.
 
-    -   **Account ID:** Enter the AWS account ID.
+    -   **Account ID**: Enter the AWS account ID.
 
-    -   **Master account:** Do not select this, as this is a member account.
+    -   **Master account**: Do not select this, as this is a member account.
 
-    -   **Credentials:** Leave blank. No credentials are required for this account.
+    -   **Credentials**: Leave blank. No credentials are required for this account.
 
-    -   **Master account:** Select the management account from the list.
+    -   **Master account**: Select the management account from the list.
 
-    -   **Accessor Account:** Choose the account that has a trust relationship with this member account's IAM role. This can be either the management account or another member account.
+    -   **Accessor Account**: Choose the account that has a trust relationship with this member account's IAM role. This can be either the management account or another member account.
 
     -   **Accessor role ARN:** Enter the full ARN of the IAM role.
 7.  After providing the relevant information for your account type, select **Save**.
 
 
-## Create AWS Account Configuration and generate CLE reports
+## Create an AWS account configuration and generate CLE reports
 
-The tool supports management accounts and single subscriptions. Management accounts include all subscriptions under that account.
+Create an AWS account configuration to estimate the cloud resource count for licensing. Management accounts include all subscriptions under that account.
 
 ### Before you begin
 
@@ -134,7 +134,7 @@ Role required: admin
 
 1.  Navigate to **Filter Navigation** &gt; **All** &gt; **ITOM Cloud License Estimator** &gt; **Home**.
 
-2.  On the Home page, select **Create Configuration** to open the Create Configuration pop-up.
+2.  On the Home page, select **Create Configuration** to open the Create Configuration dialog.
 
 3.  Enter the following details:
 
@@ -157,5 +157,5 @@ Role required: admin
 **Related topics**  
 
 
-[Generate Cloud License Estimator Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-license-estimator/cle-generate-reports.md)
+[Generate Cloud License Estimator reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-license-estimator/cle-generate-reports.md)
 

@@ -3,13 +3,13 @@ title: Outbound authentication using a token
 description: Pass an outbound token from the authentication API to the sender script.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/ccci-outbound-auth.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Supported features for custom chat integrations, Conversational custom chat integrations, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Supported features for custom chat integrations, Create custom chat integrations, Configure, Virtual Agent, Conversational Interfaces]
 ---
 
 # Outbound authentication using a token
@@ -42,5 +42,5 @@ Example: Outbound authentication token script
 })(inputs, outputs);
 ```
 
-**Parent Topic:**[Supported Virtual Agent and Agent Chat features for custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-features-custom-chat-integrations.md)
+**Parent Topic:**[Supported Virtual Agent and Agent Chat features for custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-features-custom-chat-integrations.md)
 

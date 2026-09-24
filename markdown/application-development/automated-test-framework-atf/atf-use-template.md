@@ -3,11 +3,11 @@ title: Add a predefined list of steps \(template\) to an automated test
 description: With test templates you can add a predefined list of steps to a test. Any list of steps that follows a set pattern makes a good candidate for a template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-use-template.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a new automated test, Building and running automated tests with the Automated Test Framework, Automated Test Framework \(ATF\) test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -24,7 +24,7 @@ Role required: atf\_test\_admin or atf\_test\_designer
 
 ## About this task
 
-Many tests follow similar patterns. One common pattern, for example, is to open a form, set some field values, validate some field values, click a UI action, and submit the current form. If a template exists containing these steps, you can add them to a test all at once. The Automated Test Framework comes with default templates. You can also [create custom test templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-create-template.md).
+Many tests follow similar patterns. One common pattern, for example, is to open a form, set some field values, validate some field values, click a UI action, and submit the current form. If a template exists containing these steps, you can add them to a test all at once. The Automated Test Framework comes with default templates. You can also [create custom test templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-create-template.md).
 
 ## Procedure
 
@@ -55,10 +55,10 @@ Many tests follow similar patterns. One common pattern, for example, is to open 
 
 Proceed to edit or save the test as you normally would.
 
-**Parent Topic:**[Create a new automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-create-test.md)
+**Parent Topic:**[Create a new automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-create-test.md)
 
 **Related topics**  
 
 
-[Create an automated test steps template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-create-template.md)
+[Create an automated test steps template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-create-template.md)
 

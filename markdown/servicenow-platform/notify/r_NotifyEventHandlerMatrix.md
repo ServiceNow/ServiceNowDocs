@@ -3,11 +3,11 @@ title: Available Notify activity event handlers
 description: When creating Notify workflow activities, you can use event-handler functions to respond to events from a telephony provider.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/r\_NotifyEventHandlerMatrix.html
-release: australia
+release: brazil
 product: Notify
 classification: notify
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Notify workflow activities, Notify reference, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -33,5 +33,5 @@ The following table describes available event handlers and lists the Notify work
 |onBusy|Runs when a called number is busy.|Forward call, call, join conference call, forward to notify client|
 |onFailed|Runs when an error occurs.|All call-related activities|
 
-**Parent Topic:**[Notify workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NotifyActivities.md)
+**Parent Topic:**[Notify workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/notify/c_NotifyActivities.md)
 

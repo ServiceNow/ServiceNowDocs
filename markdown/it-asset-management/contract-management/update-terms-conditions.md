@@ -3,11 +3,11 @@ title: Update terms and conditions
 description: Update the terms and conditions in your new contract. You can also view the terms and conditions carried over to the new contract.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/contract-management/update-terms-conditions.html
-release: australia
+release: brazil
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Contract renewal workflow, Contract Management, Common applications, Asset Management]
 ---
@@ -28,15 +28,15 @@ Role required: contract\_system\_admin, asset, contract\_manager \(core UI and H
     -   If you are using the Enterprise Asset Workspace, navigate to the Contract and lease management view and then select the **All contracts** tab. Open the enterprise asset contract that you want to add terms and conditions to and then select the **Terms and Conditions** tab.
 2.  Update the terms and conditions in the contract.
 
-<table id="choicetable_rxj_w1c_qtb"><thead><tr><th align="left" id="d306853e79">
+<table id="choicetable_rxj_w1c_qtb"><thead><tr><th align="left" id="d310012e79">
 
 Interface
 
-</th><th align="left" id="d306853e82">
+</th><th align="left" id="d310012e82">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d306853e88">
+</th></tr></thead><tbody><tr><td id="d310012e88">
 
 **Core UI**
 
@@ -44,7 +44,7 @@ Action
 
 Indicate the terms and conditions that you want to cover by moving them to the **Terms and Conditions List** or removing them.
 
-</td></tr><tr><td id="d306853e100">
+</td></tr><tr><td id="d310012e100">
 
 **Hardware Asset Workspace**
 
@@ -56,7 +56,7 @@ Add or remove terms and conditions from the draft contract.
 -   To remove a term and condition, select it and select **Remove**.
 
 
-</td></tr><tr><td id="d306853e127">
+</td></tr><tr><td id="d310012e127">
 
 **Enterprise Asset Workspace**
 
@@ -80,5 +80,5 @@ Multiple terms and conditions are displayed in the **Terms and Conditions** tab 
 
 ## What to do next
 
-[Add rate cards to the new contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/update-rate-card.md)
+[Add rate cards to the new contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/contract-management/update-rate-card.md)
 

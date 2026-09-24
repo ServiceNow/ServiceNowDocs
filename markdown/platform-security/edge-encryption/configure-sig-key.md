@@ -3,11 +3,11 @@ title: Configure the signature key
 description: Configure the signature key after installing the proxy server through the Edge Encryption proxy installer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/configure-sig-key.html
-release: australia
+release: brazil
 product: Edge Encryption
 classification: edge-encryption
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Install the Edge Encryption proxy server using the interactive installer, Installing Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -42,9 +42,9 @@ The signature key signs changes to configurations and properties made by the pro
 4.  Click **Next**.
 
 
-**Parent Topic:**[Install the Edge Encryption proxy server using the interactive installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/proxy-installer.md)
+**Parent Topic:**[Install the Edge Encryption proxy server using the interactive installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/proxy-installer.md)
 
-**Previous topic:**[Configure CyberArk properties protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/configure-cyberark-prop-protection.md)
+**Previous topic:**[Configure CyberArk properties protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/configure-cyberark-prop-protection.md)
 
-**Next topic:**[Configure the HTTPS certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/configure-cert.md)
+**Next topic:**[Configure the HTTPS certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/configure-cert.md)
 

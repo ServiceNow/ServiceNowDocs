@@ -3,11 +3,11 @@ title: Understanding PaCE
 description: PaCE enables you to manage, administer, and audit policies from a centralized location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-understanding.html
-release: australia
+release: brazil
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Policy as Code Engine \(PaCE\), Extend ServiceNow AI Platform capabilities]
 ---

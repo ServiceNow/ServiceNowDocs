@@ -3,11 +3,11 @@ title: Configure your Password Reset process to auto-enroll users
 description: To simplify management, many organizations auto-enroll users in the Password Reset program. Every base-system verification type enables you to specify automatic enrollment for your process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/configure-auto-enroll-for-pwd-reset.html
-release: australia
+release: brazil
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure your Password Reset process, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,7 +30,7 @@ To enable automatic enrollment, you configure settings for the verification type
 
 2.  Click the verification type for the verification that your Password Reset process uses.
 
-    The verification type for each base-system verification is identified in [Password Reset verifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/c_PWRVerifications.md).
+    The verification type for each base-system verification is identified in [Password Reset verifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/c_PWRVerifications.md).
 
 3.  On the **Verification Types** page, specify the following settings:
 
@@ -58,13 +58,13 @@ Automatic enrollment
 
 </td><td>
 
-Select the check box to auto-enroll users. **Note:** If **Automatic enrollment** is not selected, then you must provide an enrollment UI macro and enrollment processor script as described in [Create a custom Password Reset verification type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/create-verification-type.md).
+Select the check box to auto-enroll users. **Note:** If **Automatic enrollment** is not selected, then you must provide an enrollment UI macro and enrollment processor script as described in [Create a custom Password Reset verification type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/create-verification-type.md).
 
 </td></tr></tbody>
 </table>4.  Repeat the procedure for all verifications that your Password Reset process uses.
 
 
-**Parent Topic:**[Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md)
+**Parent Topic:**[Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md)
 
 **Related topics**  
 

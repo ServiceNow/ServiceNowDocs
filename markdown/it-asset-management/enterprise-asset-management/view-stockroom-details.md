@@ -3,11 +3,11 @@ title: View stockroom details in the Enterprise Asset Workspace
 description: Use stockroom records to view detailed information about the stockrooms that your enterprise, hardware, consumable, bundle, loaner, and other assets reside in.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/view-stockroom-details.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
@@ -180,7 +180,7 @@ Distribution Channel
 
 </td><td>
 
-Create and view the list and ranking of all linked stockrooms that you can source and transfer enterprise assets between. For more information on distribution channels, see [Add a distribution channel to a stockroom in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/add-distribution-channel-eam-stockroom.md).
+Create and view the list and ranking of all linked stockrooms that you can source and transfer enterprise assets between. For more information on distribution channels, see [Add a distribution channel to a stockroom in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/add-distribution-channel-eam-stockroom.md).
 
 </td></tr><tr><td>
 
@@ -210,5 +210,5 @@ Create and view audits for your enterprise asset inventory.
         You can also determine if the corresponding model has reached the end of sale.
 
 
-**Parent Topic:**[Create and manage enterprise asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-enterprise-asset-inventory.md)
+**Parent Topic:**[Create and manage enterprise asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/managing-enterprise-asset-inventory.md)
 

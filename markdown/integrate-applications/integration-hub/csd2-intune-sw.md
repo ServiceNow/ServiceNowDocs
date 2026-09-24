@@ -3,11 +3,11 @@ title: Set up a software model
 description: Using the applications discovered on the Microsoft Intune server, set up a software model to manage licenses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd2-intune-sw.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CSD 2.0 for Microsoft Intune, Client Software Distribution 2.0 application, Integration Hub solutions, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -50,5 +50,5 @@ You can link a Microsoft Intune application to an existing software model or cre
         The view returns to the Microsoft Intune Applications list.
 
 
-**Parent Topic:**[CSD 2.0 for Microsoft Intune](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2-ms-intune.md)
+**Parent Topic:**[CSD 2.0 for Microsoft Intune](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/csd2-ms-intune.md)
 

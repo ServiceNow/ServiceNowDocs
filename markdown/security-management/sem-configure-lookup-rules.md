@@ -3,9 +3,9 @@ title: Configuring lookup rules
 description: By configuring lookup rules, you can map security exposure data to the correct configuration items \(CIs\) in the CMDB. This mapping is a critical function because associating exposure findings with the right assets is essential for proper risk assessment, assignment, and remediation workflows.Create lookup rules to automatically and accurately associate incoming exposure findings data with the correct configuration items \(CIs\) in the Configuration Management Database \(CMDB\) This is essential for enabling the rest of the vulnerability management process to function correctly.To ignore some configuration item \(CI\) classes, for example Load Balancer \[cmdb\_ci\_lb\], when running lookup rules, set the ignoreCIClass \[sn\_sec\_cmn.ignoreCIClass\] system property.Reapply lookup rules to ensure updated or existing rules are applied to relevant items. This helps maintain accurate data mapping and consistency after rule changes or additions.Reapply the lookup rules on selected discovered items from the discovered item list view select actions. If the configuration item \(CI\) changes after you reapply the rules, the discovered items are updated with the new CI and impacted detections. Vulnerable items are also updated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-configure-lookup-rules.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Configure rules to manage findings, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -14,12 +14,10 @@ breadcrumb: [Configure rules to manage findings, Implement, Unified Security Exp
 
 By configuring lookup rules, you can map security exposure data to the correct configuration items \(CIs\) in the CMDB. This mapping is a critical function because associating exposure findings with the right assets is essential for proper risk assessment, assignment, and remediation workflows.
 
-**Parent Topic:**[Configure rules to manage findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-rules-manage-findings.md)
-
 **Related topics**  
 
 
-[Associating finding with a configuration item using lookup rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-associate-finding-configuration-item-using-lookup-rules.md)
+[Associating finding with a configuration item using lookup rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-associate-finding-configuration-item-using-lookup-rules.md)
 
 ## Create lookup rule
 
@@ -232,13 +230,13 @@ The process function has three parameters: **rule**, **sourceValue**, and **sour
 </td></tr></tbody>
 </table>7.  Select **Save**.
 
-    For more implementation information for lookup rules see, [Steps to help prevent duplicate or orphaned records after running Vulnerability Response CI lookup rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/ci-identifier-rules-impl-test.md).
+    For more implementation information for lookup rules see, [Steps to help prevent duplicate or orphaned records after running Vulnerability Response CI lookup rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/ci-identifier-rules-impl-test.md).
 
 
 **Related topics**  
 
 
-[Vulnerability Response vulnerable item form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vulnerable-item-fields.md)
+[Vulnerability Response vulnerable item form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/vulnerable-item-fields.md)
 
 ## Ignore CI classes
 
@@ -258,13 +256,15 @@ If you have upgraded from any Security Operations application, prior to version 
 
 1.  Enter `sys_properties.list` in the left navigation bar.
 
-2.  Select **Enter**.
+2.  Click **Enter**.
 
 3.  In the **Search** menu, under **Name** enter `sn_sec_cmn.ignoreCIClass`.
 
 4.  In the **Value** text box, enter the CI classes to exclude in a comma-separated list.
 
-5.  Select **Update**.
+    \[Omitted image "ignoreCIClass.png"\] Alt text: ignoreCI Class system property example.
+
+5.  Click **Update**.
 
     This list is used by CI Lookup Rules during the next import. Vulnerable items created during import are not associated to a CI of any type listed in the **Value** field of the `sn_sec_cmn.ignoreCIClass` system property.
 
@@ -291,7 +291,7 @@ For Vulnerability Response \(VR\) lookup rules, two background jobs are simultan
 
 To keep these jobs distinct and to prevent conflicts, the AVR and VR lookup rules have the **Applies to field** on lookup rule records, which by default is not populated.
 
-If you're [creating lookup rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-lookup-rules.md) for third-party and ServiceNow® integrations that support both Application Vulnerability Response \(AVR\) and Vulnerability Response \(VR\) like the Vulnerability Response Integration with Wiz, for example, you might want to create two separate rules, one for VR and one for AVR and choose one in the Applies to field:
+If you're [creating lookup rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-configure-lookup-rules.md) for third-party and ServiceNow® integrations that support both Application Vulnerability Response \(AVR\) and Vulnerability Response \(VR\) like the Vulnerability Response Integration with Wiz, for example, you might want to create two separate rules, one for VR and one for AVR and choose one in the Applies to field:
 
 -   **Discovered Item** - for Vulnerability Response lookup rules.
 -   **Discovered Application** - for Application Vulnerability Response lookup rules.
@@ -334,7 +334,7 @@ Roles required: admin
 
 ### About this task
 
-For more information, see [CI changes for discovered items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/reapply-discovered-items-ci-changes.md).
+For more information, see [CI changes for discovered items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/reapply-discovered-items-ci-changes.md).
 
 For more information on the concepts of CI matching and the CMDB, discovered item lookup, rule-based identification, see the [CI matching in Vulnerability Response \[KB0998706\] article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0998706) in the HI Knowledge Base.
 
@@ -342,7 +342,9 @@ For more information on the concepts of CI matching and the CMDB, discovered ite
 
 1.  Navigate to **All** &gt; **Security operations** &gt; **CMDB** &gt; **Discovered Items**.
 
-2.  Select the required discovered items and select **Actions on selected rows...**.
+2.  Select the required discovered items and select **Action on selected rows**.
+
+    \[Omitted image "reapply-action-di.png"\] Alt text: Reapply CI lookup rules on Discovered Items.
 
 3.  From the list, select **Reapply CI lookup rules**.
 

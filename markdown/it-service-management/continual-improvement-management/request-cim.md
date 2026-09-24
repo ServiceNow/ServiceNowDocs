@@ -3,11 +3,11 @@ title: Install Continual Improvement Management
 description: Install the Continual Improvement Management plugin from ServiceNow Application Manager after purchasing a subscription.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/continual-improvement-management/request-cim.html
-release: australia
+release: brazil
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Continual Improvement Management, IT Service Management]
 ---
@@ -60,14 +60,14 @@ If you don't have an account manager, decide to delay activation after purchasin
     -   Key application features
     -   List of plugins installed or activated with CIM.
 
-**Parent Topic:**[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-landing-page.md)
+**Parent Topic:**[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/continual-improvement-management/cim-landing-page.md)
 
 **Related topics**  
 
 
-[Components installed with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-components.md)
+[Components installed with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/continual-improvement-management/cim-components.md)
 
-[Applications integrated with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-integration.md)
+[Applications integrated with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/continual-improvement-management/cim-integration.md)
 
-[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-of-plugins.md)
 

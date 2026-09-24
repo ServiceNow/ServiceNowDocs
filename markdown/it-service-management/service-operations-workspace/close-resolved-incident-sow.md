@@ -3,11 +3,11 @@ title: Close resolved incident
 description: Close a resolved incident when the user is satisfied with the provided resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/close-resolved-incident-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Incident Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -32,7 +32,7 @@ Role required: itil\_admin or admin
 
 4.  Open an incident record with **Resolved** state.
 
-    For more information on viewing and updating incident information and resolution, see [View and update incident information on the Overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/view-update-inc-overview-tab.md).
+    For more information on viewing and updating incident information and resolution, see [View and update incident information on the Overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/view-update-inc-overview-tab.md).
 
 5.  Select **Close**.
 
@@ -41,7 +41,7 @@ Role required: itil\_admin or admin
 
 The incident record is closed and a success message is displayed. You cannot further edit the field values in the incident form.
 
-**Parent Topic:**[Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/incident-sow.md)
+**Parent Topic:**[Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/incident-sow.md)
 
 **Related topics**  
 

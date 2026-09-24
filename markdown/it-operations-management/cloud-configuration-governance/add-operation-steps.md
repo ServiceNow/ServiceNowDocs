@@ -3,11 +3,11 @@ title: Add operation steps to a resource block
 description: After you configure operations and input parameters for your resource block, add steps for each operation to tell the system which Cloud API \(CAPI\) to call. Each step is a separate call to CAPI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/add-operation-steps.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Resource blocks in Cloud Provisioning and Governance, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -175,8 +175,8 @@ Enter an optional condition that must be met before the system uses this step.
         -   `Output.resp` is a mandatory part of the syntax.
         -   `nodeId`
 
--   **[Add a resource operation step to invoke a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/add-resource-op-step-subflow.md)**  
+-   **[Add a resource operation step to invoke a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/add-resource-op-step-subflow.md)**  
 Invoke a subflow by adding an operation step to a resource and linking it to a new or existing subflow.
 
-**Parent Topic:**[Resource blocks in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/resource-blocks.md)
+**Parent Topic:**[Resource blocks in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/resource-blocks.md)
 

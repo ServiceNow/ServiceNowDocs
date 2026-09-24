@@ -3,11 +3,11 @@ title: View agents' agenda in Field Service Manager Mobile
 description: Manager’s can see the agenda of tasks that agents' have assigned to them so they can plan for the coming days.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/agenda-manager-mobile.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Field Service Manager Mobile, Completing work on mobile, Use, Field Service Management]
 ---

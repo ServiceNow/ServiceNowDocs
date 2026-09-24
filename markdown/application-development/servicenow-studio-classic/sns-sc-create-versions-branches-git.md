@@ -3,11 +3,11 @@ title: Create versions and branches in Git
 description: Create tags and branches in a Git repository from ServiceNow Studio to version application releases and manage parallel development streams.Create a tag in the Git repository from ServiceNow Studio to mark a specific application version for future reference.Switch to a different repository branch in ServiceNow Studio to work on a separate version of the application.Create a branch in ServiceNow Studio to develop a new version of an existing app in isolation. The new branch is created in the remote repository and the application, including any uncommitted changes, switches to the new branch.Set a default branch in ServiceNow Studio to direct new changes to a branch other than main.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sns-sc-create-versions-branches-git.html
-release: australia
+release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2026-05-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Metadata source control in ServiceNow Studio, Source control integration, Use, ServiceNow Studio, Developing your application, Building applications]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Metadata source control in ServiceNow Studio, Source control integr
 
 Create tags and branches in a Git repository from ServiceNow Studio to version application releases and manage parallel development streams.
 
-**Parent Topic:**[Metadata source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/source-control-in-servicenow-studio.md)
+**Parent Topic:**[Metadata source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/source-control-in-servicenow-studio.md)
 
 ## Create a tag to link to a particular application version
 
@@ -24,7 +24,7 @@ Create a tag in the Git repository from ServiceNow Studio to mark a specific app
 
 ### Before you begin
 
-[Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/link-app-to-source-control.md)
+[Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/link-app-to-source-control.md)
 
 Role required: admin or sn\_group\_creator.app\_creator
 
@@ -73,15 +73,15 @@ Role required: admin
 
 5.  Choose whether to stash or discard local changes before switching.
 
-<table id="choicetable_evb_nr3_t5"><thead><tr><th align="left" id="d212884e393">
+<table id="choicetable_evb_nr3_t5"><thead><tr><th align="left" id="d205565e393">
 
 Option
 
-</th><th align="left" id="d212884e396">
+</th><th align="left" id="d205565e396">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d212884e402">
+</th></tr></thead><tbody><tr><td id="d205565e402">
 
 **Stash local changes**
 
@@ -89,7 +89,7 @@ Description
 
 Saves local changes before switching to an alternate branch. You can later merge or discard the saved changes.
 
-</td></tr><tr><td id="d212884e411">
+</td></tr><tr><td id="d205565e411">
 
 **Discard local changes**
 
@@ -142,13 +142,13 @@ Set a default branch in ServiceNow Studio to direct new changes to a branch othe
 
 ### Before you begin
 
-[Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/link-app-to-source-control.md)
+[Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/link-app-to-source-control.md)
 
 Role required: admin
 
 ### Procedure
 
-1.  Follow the steps in [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+1.  Follow the steps in [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 2.  Add the **glide.source\_control.default\_branch\_name** property and specify the default branch name of the Git source control repository.
 

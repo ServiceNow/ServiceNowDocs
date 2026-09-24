@@ -3,11 +3,11 @@ title: Modify tag category information for Tag Categorization
 description: Modify tag category definitions to support Tag Categorization and ensure that tag categories align with your requirements for data management and classification.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/tag-governance/modify-tag-category-info-tag-categorization.html
-release: australia
+release: brazil
 product: Tag Governance
 classification: tag-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Tag Governance, ITOM Visibility, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Modify tag category definitions to support Tag Categorization and ensure that ta
 
 ## Before you begin
 
-Verify that you have installed version 1.16.3 of Service Mapping Plus to access to the CI tag category and CI tag key tables. For more information, see [Install Service Mapping Plus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/install-service-mapping-plus.md).
+Verify that you have installed version 1.16.3 of Service Mapping Plus to access to the CI tag category and CI tag key tables. For more information, see [Install Service Mapping Plus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/install-service-mapping-plus.md).
 
 Role required: tag\_governance\_admin
 

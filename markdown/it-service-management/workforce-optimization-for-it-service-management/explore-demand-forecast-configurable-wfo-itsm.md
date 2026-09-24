@@ -3,11 +3,11 @@ title: Demand Forecast in Workforce Optimization for ITSM
 description: Learn how you can use Demand Forecast to predict resources based on historical data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/explore-demand-forecast-configurable-wfo-itsm.html
-release: australia
+release: brazil
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Scheduling, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -20,7 +20,7 @@ Learn how you can use Demand Forecast to predict resources based on historical d
 
 The video below shows an overview of the Demand Forecast application.
 
-Demand Forecast uses [MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase.md) to forecast the demand for teams.
+Demand Forecast uses [MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/metricbase.md) to forecast the demand for teams.
 
 When you create demand forecast configurations, the application creates metrics:
 
@@ -33,7 +33,7 @@ When you create demand forecast configurations, the application creates metrics:
 
 Watch this video to see how you can model demand scenarios and view updated demand on the calendar.
 
-As a manager with the forecast admin role, you can create forecast parameters in the Workforce Optimization for ITSM Manager Workspace. [Modify forecast parameters to visualize forecast data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/modify-forecast-parameters-configurable-wfo-itsm.md) and preview time-series data before publishing it. You can create any number of forecasts to preview the time-series data in real time.
+As a manager with the forecast admin role, you can create forecast parameters in the Workforce Optimization for ITSM Manager Workspace. [Modify forecast parameters to visualize forecast data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/modify-forecast-parameters-configurable-wfo-itsm.md) and preview time-series data before publishing it. You can create any number of forecasts to preview the time-series data in real time.
 
 You can also make manual adjustments to tweak the forecast and analyze the forecast pattern. You can overlay the manual adjustments on the visualized forecast data and view the time-series data to analyze the forecast model. For example, if you have a specific pattern for the upcoming week but you know that a national holiday falls in the middle of the week where you need more agents because you expect the sales to go up, you can manually tweak the forecast to increase it by 10% and analyze that data.
 
@@ -58,7 +58,7 @@ To forecast the demand:
 4.  Associate the formulas to assignment groups.
 5.  View the predicted demand on the calendar.
 
-**Note:** Refer to [Demand Forecast in Workforce Optimization for ITSM configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-demand-forecast-reference.md) for information on default components and configurations installed with Demand Forecast.
+**Note:** Refer to [Demand Forecast in Workforce Optimization for ITSM configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-demand-forecast-reference.md) for information on default components and configurations installed with Demand Forecast.
 
 ## Collect data by defining data collection definitions
 
@@ -66,16 +66,16 @@ Use the **Data Collection Definitions** application to define the data you want 
 
 -   Use the **Collect daily data for automated forecast configurations** scheduled job to gather data for the metrics defined in the data collection definitions. The scheduled job fetches the records from the previous day for each hour and for every assignment group. It stores this data in the MetricBase.
 
-    You can access the time series for the collected data using the MetricBase `list` on the Group \[sys\_user\_group\] table. For more information on accessing MetricBase data, refer to [Access MetricBase data using the list command](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/view-time-series-data.md).
+    You can access the time series for the collected data using the MetricBase `list` on the Group \[sys\_user\_group\] table. For more information on accessing MetricBase data, refer to [Access MetricBase data using the list command](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/view-time-series-data.md).
 
 -   Use the **Collect historical data for automated forecast configurations** on-demand job to collect hourly historical data. This job collects data for the past three years.
--   Use the **Forecast resources for future** scheduled job to forecast the resources based on the collected data. The scheduled job stores the data in the Agent Forecast metric in MetricBase. Refer to the [forecast properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-demand-forecast-reference.md) to set the collection frequency such as the number of days you must collect the data. You can use this information to calculate the forecast or the time period for which you want to store the data.
+-   Use the **Forecast resources for future** scheduled job to forecast the resources based on the collected data. The scheduled job stores the data in the Agent Forecast metric in MetricBase. Refer to the [forecast properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-demand-forecast-reference.md) to set the collection frequency such as the number of days you must collect the data. You can use this information to calculate the forecast or the time period for which you want to store the data.
 
 **Note:** The time series metrics created for data collection definitions use the **WFO Forecast** retention policy. This policy stores data at a one-hour interval for the past three years.​
 
 ## Create formula parameters
 
-Use numeric values or a script to define parameters to use in the formula for forecasting. Refer to the [resource forecast configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-demand-forecast-reference.md) for the configured resource forecast formulas available by default.
+Use numeric values or a script to define parameters to use in the formula for forecasting. Refer to the [resource forecast configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-demand-forecast-reference.md) for the configured resource forecast formulas available by default.
 
 ## Associate formulas to assignment groups
 
@@ -88,5 +88,5 @@ The data collected by the Agent Forecast metric in MetricBase is used to forecas
 **Related topics**  
 
 
-[Set up Demand Forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configure-data-collection-configurable-wfo-itsm.md)
+[Set up Demand Forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/configure-data-collection-configurable-wfo-itsm.md)
 

@@ -3,11 +3,11 @@ title: View a conference call recording from Twilio in Service Operations Worksp
 description: View details for a recorded conference call in Service Operations Workspace by accessing the associated conference record as a reference.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/view-call-recording-twilio-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Twilio to make conference calls in Service Operations Workspace, Notify in Service Operations Workspace, Collaboration in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -39,5 +39,5 @@ Role required: itil
 
 You can view the list of all the conference call recordings related to the incident record.
 
-**Parent Topic:**[Use Twilio to make conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/telephony-sow.md)
+**Parent Topic:**[Use Twilio to make conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/telephony-sow.md)
 

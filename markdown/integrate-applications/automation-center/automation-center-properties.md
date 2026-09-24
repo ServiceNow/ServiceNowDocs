@@ -3,11 +3,11 @@ title: Automation Center properties
 description: You can access system properties for Automation Center by navigating to All Automation Center Administration Automation Properties .
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/automation-center-properties.html
-release: australia
+release: brazil
 product: Automation Center
 classification: automation-center
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Automation Center, Workflow Data Fabric]
 ---
@@ -248,5 +248,5 @@ Number of images sent per call to the lens skill for image processing. Suggested
 -   Default value: **8**
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Automation Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-reference.md)
+</table>**Parent Topic:**[Automation Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/automation-center-reference.md)
 

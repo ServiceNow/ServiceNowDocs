@@ -3,11 +3,11 @@ title: Report statistics
 description: The Report Stats list enables you to view how often each of your Core UI reports is run and how long it takes for the reports to run.The Reports Usage dashboard provides an overview of how reports are used in a ServiceNow instance or domain.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/report-statistics.html
-release: australia
+release: brazil
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Administering reports, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -36,7 +36,7 @@ The **Report Stats** list has the following columns:
 -   To view used reports, filter out the value 0 from the **Runs** column.
 -   To view the most used reports, sort the **Runs** column from z-a.
 
-**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdminsteringReports.md)
+**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_AdminsteringReports.md)
 
 ## Reports Usage dashboard
 

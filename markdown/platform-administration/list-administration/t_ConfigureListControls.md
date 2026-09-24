@@ -3,11 +3,11 @@ title: Configure list controls
 description: You can configure list controls, such as buttons and filters.The following example shows how to configure a list of related incidents in a problem record to suit specific business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/t\_ConfigureListControls.html
-release: australia
+release: brazil
 product: List Administration
 classification: list-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configure, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -132,7 +132,7 @@ Hierarchical lists
 
 </td><td>
 
-See [Enable a hierarchical list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/t_EnableAHierarchicalList.md). Hierarchical list inserted into a record list. Hierarchical lists enable a user to view the contents of a record's related lists without leaving the record list form. This field is available for standard lists only.
+See [Enable a hierarchical list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-administration/t_EnableAHierarchicalList.md). Hierarchical list inserted into a record list. Hierarchical lists enable a user to view the contents of a record's related lists without leaving the record list form. This field is available for standard lists only.
 
 </td></tr><tr><td>
 
@@ -151,7 +151,7 @@ List edit tag
 
 </td><td>
 
-Unique tag that is sent to a [reference qualifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ReferenceQualifiers.md) as the script variable *listEditRefQualTag*. Enter an arbitrary string of letters or numbers.
+Unique tag that is sent to a [reference qualifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ReferenceQualifiers.md) as the script variable *listEditRefQualTag*. Enter an arbitrary string of letters or numbers.
 
 </td></tr><tr><td>
 
@@ -175,7 +175,7 @@ Disable Natural Language Query \(NLQ\)
 
 </td><td>
 
-Option to disable the NLQ filter in specific lists when NLQ on lists is enabled in the instance. The NLQ filter enables you to use natural language to filter lists instead of using the condition builder. For more information on NLQ filters, see [Natural Language Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/natural-language-query.md).**Note:** When the system property **com.snc.listv2.nlq.lists.enabled**\(com.snc.listv2.nlq.lists.enabled\) is set to **false**, the query destructs. Text entered in the search replaces existing conditions.
+Option to disable the NLQ filter in specific lists when NLQ on lists is enabled in the instance. The NLQ filter enables you to use natural language to filter lists instead of using the condition builder. For more information on NLQ filters, see [Natural Language Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/natural-language-query.md).**Note:** When the system property **com.snc.listv2.nlq.lists.enabled**\(com.snc.listv2.nlq.lists.enabled\) is set to **false**, the query destructs. Text entered in the search replaces existing conditions.
 
 </td></tr><tr><td>
 
@@ -211,7 +211,7 @@ User roles required to have links generated for fields that reference other file
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configuring lists on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/c_ListConfiguration.md)
+**Parent Topic:**[Configuring lists on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-administration/c_ListConfiguration.md)
 
 ## Example of configuring list controls
 

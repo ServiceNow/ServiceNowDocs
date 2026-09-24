@@ -3,9 +3,9 @@ title: Deactivate the L1 IT Service Desk AI Specialist
 description: Deactivate the L1 IT Service Desk AI Specialist so that it no longer acts on records and lists.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/deactivate-l1-sd-ai-spec.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, L1 IT Service Desk AI Specialist, IT Service Management]
 ---

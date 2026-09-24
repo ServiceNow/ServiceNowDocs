@@ -3,11 +3,11 @@ title: Activate and configure appointment booking reminders for Walk-up Experien
 description: Configure scheduled appointment reminders for Walk-up Experience users. Reminders ensure users attend appointments in a timely manner or reschedule or cancel an appointment if they can no longer attend.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/activate-configure-appoint-reminders.html
-release: australia
+release: brazil
 product: Walk-Up Experience
 classification: walk-up-experience
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Walk-up Experience appointment booking, Walk-up Experience appointment booking administration, Book Walk-up Experience appointments, Configure, Walk-up Experience, IT Service Management]
 ---
@@ -53,5 +53,5 @@ To operate appointment booking reminders, activate the **Appointment Booking Rem
 11. Select **Update** to add the appointment reminder configuration.
 
 
-**Parent Topic:**[Configure Walk-up Experience appointment booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-appointment-booking-config.md)
+**Parent Topic:**[Configure Walk-up Experience appointment booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/walk-up-experience/walkup-appointment-booking-config.md)
 

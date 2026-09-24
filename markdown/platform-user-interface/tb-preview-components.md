@@ -3,9 +3,9 @@ title: Preview components
 description: As you’re creating or managing your theme, you can preview the components available for inclusion on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/tb-preview-components.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Component styles, Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -18,7 +18,7 @@ As you’re creating or managing your theme, you can preview the components avai
 
 Role required: ui\_builder\_admin
 
-For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
+For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/granular-admin-roles.md).
 
 ## About this task
 
@@ -65,7 +65,7 @@ The components you can preview in Theme Builder were created in the Now Design S
 
 ## What to do next
 
-After previewing and selecting the desired components, edit their properties to fine-tune their appearance. For more information, see [Edit components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-edit-components.md).
+After previewing and selecting the desired components, edit their properties to fine-tune their appearance. For more information, see [Edit components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/tb-edit-components.md).
 
-**Parent Topic:**[Working with Component styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/working-with-component-styles.md)
+**Parent Topic:**[Working with Component styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/working-with-component-styles.md)
 

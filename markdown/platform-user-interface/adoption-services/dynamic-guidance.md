@@ -1,13 +1,13 @@
 ---
 title: Dynamic Guidance
-description: Dynamic Guidance is the proactive AI assistant invoked from Help Center and ServiceNow Otto panel that generates an engaging voice and text based, step by step, real-time guidance, dynamically, across platforms.
+description: Dynamic Guidance is a proactive AI assistant invoked from Help Center and the ServiceNow Otto panel that generates voice-based and text-based, step-by-step, real-time guidance across platforms.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/dynamic-guidance.html
-release: australia
+release: brazil
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2026-08-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Help in ServiceNow, Dynamic Guidance, Voice guidance, Add external content to search profile, Help center voice based help]
 breadcrumb: [Adoption services, Configure user experiences]
@@ -15,17 +15,15 @@ breadcrumb: [Adoption services, Configure user experiences]
 
 # Dynamic Guidance
 
-Dynamic Guidance is the proactive AI assistant invoked from Help Center and ServiceNow Otto panel that generates an engaging voice and text based, step by step, real-time guidance, dynamically, across platforms.
+Dynamic Guidance is a proactive AI assistant invoked from Help Center and the ServiceNow Otto panel that generates voice-based and text-based, step-by-step, real-time guidance across platforms.
 
-Dynamic Guidance addresses the need for personalized contextual support by using artificial intelligence to queries raised by you in natural language. Thus, it can respond conversationally, guiding you more effectively within the product experience. Dynamic Guidance uses Google services to share real-time screen and get guidance.
+Dynamic Guidance addresses the need for personalized contextual support by using artificial intelligence to respond to your queries in natural language. It responds conversationally, guiding you effectively within the product experience. Dynamic Guidance uses Google services to share the real-time screen and provide guidance.
 
-\[Omitted image "ads-dynamic-guide.png"\] Alt text: Dynamic guidance
+**Note:** The minimum version required is Zurich patch 8 and Australia patch 1.
 
-**Note:** The minimum version required is: Zurich patch 8 and Australia patch 1.
+## Benefits of Dynamic Guidance
 
-## Why Dynamic Guidance
-
-Dynamic Guidance answers any ServiceNow® related question using indexed content from the official ServiceNow® product documentation and/or other configured sources. Common use cases include:
+Dynamic Guidance answers questions related to ServiceNow® using indexed content from the official ServiceNow® product documentation or other configured sources. Common use cases include:
 
 -   Onboarding on a new module or feature for the first time
 -   Navigating unfamiliar workflows
@@ -34,7 +32,15 @@ Dynamic Guidance answers any ServiceNow® related question using indexed content
 -   Accessibility-first guidance
 -   Fully voice-driven as no visual overlays are required
 
-Admins can extend the documentation sources available to Dynamic Guidance by configuring External Content Connectors \(XCC\) — enabling guidance from custom knowledge bases and internal runbooks and standard ServiceNow® product documentation.
+Admins can extend the documentation sources available to Dynamic Guidance by configuring External Content Connectors \(XCC\)—enabling guidance from custom knowledge bases, internal runbooks, and standard ServiceNow® product documentation.
 
-Dynamic Guidance transforms the in-product help experience by implementing an advanced, conversational help capable of delivering contextual support to users. This solution will surpass traditional, static, administrator-created content by utilizing natural language, screen context awareness, and robust system integration.
+## Limitations
+
+Dynamic Guidance currently has the following limitations:
+
+-   Supports English language only.
+-   Supported only in the United States and European regions.
+-   Does not include a highlight feature for guidance.
+-   Does not perform actions on behalf of users.
+-   Supported only on Core UI and configurable workspace pages, and can't be launched from Service Portal pages.
 

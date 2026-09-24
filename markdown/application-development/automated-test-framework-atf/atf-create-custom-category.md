@@ -3,11 +3,11 @@ title: Create a custom step configuration category
 description: Create a custom step config category.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-create-custom-category.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating custom test step configurations, Administering the Automated Test Framework \(ATF\), Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -22,7 +22,7 @@ Role required: atf\_test\_admin
 
 ## About this task
 
-Categories are used for filtering the step list in the Add Step dialog. For more information, see [Category field example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-step-config-xmpls.md).
+Categories are used for filtering the step list in the Add Step dialog. For more information, see [Category field example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-step-config-xmpls.md).
 
 ## Procedure
 
@@ -48,5 +48,5 @@ Categories are used for filtering the step list in the Add Step dialog. For more
     The system creates a test step category and returns to the list of test step environments.
 
 
-**Parent Topic:**[Creating custom test step configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-custom-step-types.md)
+**Parent Topic:**[Creating custom test step configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-custom-step-types.md)
 

@@ -3,13 +3,13 @@ title: Administering collaboration in Creator Studio
 description: In Creator Studio, as an administrator or App Engine admin, you have the power to manage how people work together on projects.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-admin-collab-tasks.html
-release: australia
+release: brazil
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administer, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Administer, Creator Studio, Developing your application, Building applications]
 ---
 
 # Administering collaboration in Creator Studio
@@ -61,12 +61,12 @@ You can bring in new people to work on the app.
 -   Invited people to become editors of the app, meaning they can make changes.
 
 </td></tr></tbody>
-</table>-   **[Approve a collaboration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/approve-collaboration-request.md)**  
+</table>-   **[Approve a collaboration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/approve-collaboration-request.md)**  
 Admins and App Engine admin can review and approve \(or reject\) people's requests to join an app's development in Creator Studio.
--   **[Manage Creator Studio collaboration permissions on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/manage-creator-studio-collaboration.md)**  
+-   **[Manage Creator Studio collaboration permissions on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/manage-creator-studio-collaboration.md)**  
 In Creator Studio, you can control how people work together on apps by setting up permissions called collaboration descriptors. These descriptors define what users can and cannot do.
--   **[Customized app collaboration permissions in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-collab-custom-permissions.md)**  
+-   **[Customized app collaboration permissions in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-collab-custom-permissions.md)**  
 When you customize collaboration permissions, you can choose more granular actions and parts of the app that users can work with in Creator Studio.
 
-**Parent Topic:**[Administering Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/administering-creator-studio.md)
+**Parent Topic:**[Administering Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/administering-creator-studio.md)
 

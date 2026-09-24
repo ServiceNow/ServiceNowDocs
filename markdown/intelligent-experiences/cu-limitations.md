@@ -3,12 +3,12 @@ title: Limitations in Content Understanding
 description: Review the file format, size, page count, and language limitations that apply to skills and AI agents in Content Understanding.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/cu-limitations.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Now Assist, Gen AI, Generative AI, Document Intelligence]
-breadcrumb: [Reference, Content Understanding, Enable AI experiences]
+breadcrumb: [Reference, Content Understanding, Generative AI skills, Enable AI Experiences]
 ---
 
 # Limitations in Content Understanding
@@ -64,7 +64,7 @@ When image mode is enabled, the suggested upper boundary is 50 pages per file, w
 -   200 pages per file if no tables are defined for the use case.
 -   20 pages per file if a table is defined for the use case.
 
- Image mode is selected during use case setup. For more information, see [Set up a use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/set-up-use-case.md).
+ Image mode is selected during use case setup. For more information, see [Set up a use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/set-up-use-case.md).
 
 </td></tr><tr><td>
 
@@ -80,9 +80,9 @@ Supported languages
 
 </td><td>
 
-For image files that require OCR \(optical character recognition\) to detect text, OCR models support different language groups. For more information, see [Languages supported by Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/languages-supported.md).
+For image files that require OCR \(optical character recognition\) to detect text, OCR models support different language groups. For more information, see [Languages supported by Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/languages-supported.md).
 
- For text-based files, the skill recognizes any language supported by the selected or default model, as described in the model card for the LLM. For more information on LLMs, see [Large language models used by Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/cu-llms.md).
+ For text-based files, the skill recognizes any language supported by the selected or default model, as described in the model card for the LLM. For more information on LLMs, see [Large language models used by Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/cu-llms.md).
 
 </td></tr></tbody>
 </table>## Limits for the Content insights AI agent
@@ -129,8 +129,8 @@ Supported languages
 
 </td><td>
 
-For image and text-based files, the AI agent recognizes any language supported by the selected or default model, as described in the model card for the LLM. For more information on LLMs, see [Large language models used by Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/cu-llms.md).
+For image and text-based files, the AI agent recognizes any language supported by the selected or default model, as described in the model card for the LLM. For more information on LLMs, see [Large language models used by Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/cu-llms.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Content Understanding Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/content-understanding-reference.md)
+</table>**Parent Topic:**[Content Understanding Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/content-understanding-reference.md)
 

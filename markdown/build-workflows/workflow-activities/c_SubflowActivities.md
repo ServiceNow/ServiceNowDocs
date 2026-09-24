@@ -3,11 +3,11 @@ title: Subflow activities in workflow
 description: Subflow activities run and manage workflows from a parent workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-activities/c\_SubflowActivities.html
-release: australia
+release: brazil
 product: Workflow Activities
 classification: workflow-activities
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workflow activities reference, Workflow activities, Classic Workflow, Build workflows]
 ---
@@ -16,10 +16,10 @@ breadcrumb: [Workflow activities reference, Workflow activities, Classic Workflo
 
 Subflow activities run and manage workflows from a parent workflow.
 
-The [Parallel Flow Launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_ParallelFlowLauncher.md)subflow activity is available.
+The [Parallel Flow Launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_ParallelFlowLauncher.md)subflow activity is available.
 
--   **[Parallel Flow Launcher workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-activities/r_ParallelFlowLauncher.md)**  
+-   **[Parallel Flow Launcher workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-activities/r_ParallelFlowLauncher.md)**  
 The **Parallel Flow Launcher** activity launches multiple subflows in parallel.
 
-**Parent Topic:**[Workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-activities/c_WorkflowActivities.md)
+**Parent Topic:**[Workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-activities/c_WorkflowActivities.md)
 

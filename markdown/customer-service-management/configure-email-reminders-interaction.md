@@ -3,9 +3,9 @@ title: Configure email reminders for an interaction
 description: Set up automatic email reminders to notify customers to respond to interactions that are in the On Hold state due to pending customer responses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-email-reminders-interaction.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Email Interaction, Configure Email, Configure omnichannel, Configure, Customer Service Management]
 ---
@@ -26,7 +26,7 @@ Email notifications that are available by default:
 -   Email reminder for guest
 -   Email reminder for contact
 
-You can customize the existing notification or create a notification. For more information, see [Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md).
+You can customize the existing notification or create a notification. For more information, see [Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_EmailNotifications.md).
 
 ## Procedure
 

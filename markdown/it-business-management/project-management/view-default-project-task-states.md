@@ -3,11 +3,11 @@ title: View default project and project task state categories
 description: View category information for the default project and project task states. In the base system, the states in project and project task inherit the states in Task table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/view-default-project-task-states.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a project task from a project, Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -41,13 +41,13 @@ The **Attributes** field displays different states and the categories for a stat
 
 `close_states=3;4;7,default_close_state=3,default_work_state=2,default_open_state=1,default_skipped_state=7,default_pending_state=-5,pending_states=-5,open_states=1,work_in_progress_states=2`
 
--   **[Customize a state for project or project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/customize-project-task-states.md)**  
+-   **[Customize a state for project or project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/customize-project-task-states.md)**  
 Add or modify a state of project or project task using dictionary override.
 
-**Parent Topic:**[Create a project task from a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateATaskFromAProject.md)
+**Parent Topic:**[Create a project task from a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CreateATaskFromAProject.md)
 
 **Related topics**  
 
 
-[Project and project task states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/project-and-project-task-states.md)
+[Project and project task states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/project-and-project-task-states.md)
 

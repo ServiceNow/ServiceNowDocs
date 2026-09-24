@@ -3,9 +3,9 @@ title: Disqualify a lead
 description: Disqualify a lead in Lead Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/lead-management-disqualify-lead.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Lead Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -35,14 +35,14 @@ Role required: sales\_agent or sales\_manager
 
 ## What to do next
 
-To learn more, see [Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-using.md).
+To learn more, see [Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/lead-management-using.md).
 
-**Parent Topic:**[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-using.md)
+**Parent Topic:**[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/lead-management-using.md)
 
 **Related topics**  
 
 
-[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-lead-management.md)
+[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-lead-management.md)
 
-[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management.md)
+[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/lead-management.md)
 

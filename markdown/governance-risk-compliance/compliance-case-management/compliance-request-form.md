@@ -3,11 +3,11 @@ title: Compliance request form
 description: Use the Create new compliance request form in the GRC: Compliance Case Management application to raise a compliance request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/compliance-request-form.html
-release: australia
+release: brazil
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Compliance workspace, Raise compliance request, Use, Compliance Case Management, Governance, Risk, and Compliance]
 ---
@@ -200,5 +200,5 @@ Save
 Save the details of the compliance case.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a compliance request in the Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/create-compliance-request.md)
+</table>**Parent Topic:**[Create a compliance request in the Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/create-compliance-request.md)
 

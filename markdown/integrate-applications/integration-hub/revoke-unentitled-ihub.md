@@ -3,11 +3,11 @@ title: Revoke unentitled software
 description: Revoke software using Microsoft System Center Configuration Manager \(SCCM\) that a user is not entitled to use even if the software was installed by some other process or user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/revoke-unentitled-ihub.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SCCM software revocation, CSD from SCCM, Client Software Distribution, Integration Hub solutions, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -18,11 +18,11 @@ Revoke software using Microsoft System Center Configuration Manager \(SCCM\) tha
 
 ## Before you begin
 
-To revoke software using SCCM, you must create an [Define an SCCM configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigureSCCMCollections.md) for the application, in which the appropriate software Discovery model is defined. See [Software discovery models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/c_DiscoveryModels.md) [Discovery models and software installations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/c_DiscoveryModels.md).
+To revoke software using SCCM, you must create an [Define an SCCM configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_ConfigureSCCMCollections.md) for the application, in which the appropriate software Discovery model is defined. See [Software discovery models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/c_DiscoveryModels.md) [Discovery models and software installations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/c_DiscoveryModels.md).
 
 Role required: sn\_client\_sf\_dist.csd\_admin or admin
 
-Client Software Distribution \(CSD\) uses [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/c_SAMOverview.md) to identify unentitled software installations. Discovery detects the software on the user's machine, and SAM determines if the user or device is entitled to use that software. This might include software that was not installed through a catalog request or software that the user installed without approval. If the software installation's Discovery model is associated with an SCCM software configuration that has an uninstall collection defined, then an administrator can use CSD to revoke that software from the user's machine without involving the user.
+Client Software Distribution \(CSD\) uses [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/c_SAMOverview.md) to identify unentitled software installations. Discovery detects the software on the user's machine, and SAM determines if the user or device is entitled to use that software. This might include software that was not installed through a catalog request or software that the user installed without approval. If the software installation's Discovery model is associated with an SCCM software configuration that has an uninstall collection defined, then an administrator can use CSD to revoke that software from the user's machine without involving the user.
 
 ## Procedure
 
@@ -37,5 +37,5 @@ Client Software Distribution \(CSD\) uses [Software Asset Management](https://ra
     \[Omitted image "SCCMSoftwareInstallation.png"\] Alt text: Revoking a software installation
 
 
-**Parent Topic:**[SCCM software revocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sccm-revocation-ihub.md)
+**Parent Topic:**[SCCM software revocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/sccm-revocation-ihub.md)
 

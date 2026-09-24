@@ -3,11 +3,11 @@ title: Add service form
 description: Create or add an existing service to your instance so that alerts and incidents on that service are available to your teams within SRM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-add-service-form.html
-release: australia
+release: brazil
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Reliability Management reference, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Create or add an existing service to your instance so that alerts and incidents 
 
 ## Add a service form
 
-For more information, see [Add a service to SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-add-service.md).
+For more information, see [Add a service to SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-reliability-management/sr-add-service.md).
 
 <table id="id_jkb_z4l_y1c"><thead><tr><th>
 
@@ -79,5 +79,5 @@ Short description
 Describe your service to help your teams understand its purpose and other relevant information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Reliability Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/service-reliability-management-reference.md)
+</table>**Parent Topic:**[Service Reliability Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-reliability-management/service-reliability-management-reference.md)
 

@@ -3,11 +3,11 @@ title: Certification audits
 description: A certification audit compares the actual attributes of certain ServiceNow records. This audit selects a filter, against the expected attributes, relationships, and related record values defined by template conditions or a script.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/c\_CertificationAudits.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CMDB Compliance, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---

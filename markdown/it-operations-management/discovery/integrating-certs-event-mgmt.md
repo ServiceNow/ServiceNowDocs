@@ -3,11 +3,11 @@ title: Manage events and alerts with Event Management
 description: In Certificate Inventory and Management version 1.2.0 and later, Event Management can create events and alerts for both expiring and expired certificates, enhancing the system's monitoring capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/integrating-certs-event-mgmt.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Certificate alerts and notifications, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -43,5 +43,5 @@ The integration leverages the Workflow Studio feature to initiate events. It uti
     5.  Select **Save**.
 
 
-**Parent Topic:**[Certificate alerts and notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-inventory-mgmt-workflow.md)
+**Parent Topic:**[Certificate alerts and notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/cert-inventory-mgmt-workflow.md)
 

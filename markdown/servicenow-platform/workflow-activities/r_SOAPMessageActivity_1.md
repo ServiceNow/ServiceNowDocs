@@ -3,11 +3,11 @@ title: SOAP Message legacy workflow activity
 description: The legacy SOAP Message activity uses SOAP messages defined in the System Web Services plugin and can call the messages using a MID Server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/workflow-activities/r\_SOAPMessageActivity\_1.html
-release: australia
+release: brazil
 product: Workflow Activities
 classification: workflow-activities
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Utility workflow activities, Workflow activities reference, Workflow activities, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,9 +16,9 @@ breadcrumb: [Utility workflow activities, Workflow activities reference, Workflo
 
 The legacy **SOAP Message** activity uses SOAP messages defined in the System Web Services plugin and can call the messages using a MID Server.
 
-This activity is deprecated in the Australia release and no longer shows up in the Workflow canvas for new workflow development. New workflows should use the [Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/r-orchestration.md) SOAP Activity templates instead.
+This activity is deprecated in the Brazil release and no longer shows up in the Workflow canvas for new workflow development. New workflows should use the [Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/r-orchestration.md) SOAP Activity templates instead.
 
-Existing workflows using it will continue to work as designed. To edit this activity in an existing workflow, you must [re-activate the activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_ReactivateDeprecatedActivity.md).
+Existing workflows using it will continue to work as designed. To edit this activity in an existing workflow, you must [re-activate the activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/t_ReactivateDeprecatedActivity.md).
 
 ## Input variables
 
@@ -123,5 +123,5 @@ sensor\_script
 The script to execute after the request has been made and a response has been received. You can access the full XML response body from the activity.output object.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Utility workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/c_UtilityActivities.md)
+</table>**Parent Topic:**[Utility workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/workflow-activities/c_UtilityActivities.md)
 

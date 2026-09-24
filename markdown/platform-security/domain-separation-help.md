@@ -3,9 +3,9 @@ title: Domain Separation Help
 description: Additional assistance with Domain Separation
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/domain-separation-help.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Domain separation for service providers, Access Management]
 ---
@@ -22,11 +22,11 @@ Additional assistance with Domain Separation
 
 </td><td>
 
-[Recommended practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
+[Recommended practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/bp-domain-sep-recommended.md)
 
  Tips and tricks for creating and developing your domain structure wisely
 
- [Concepts for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/sp-concepts.md)
+ [Concepts for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/sp-concepts.md)
 
  Concepts that work with the ServiceNow platform to help you solve for common use cases
 
@@ -36,7 +36,7 @@ Additional assistance with Domain Separation
 
 </td><td>
 
-[Support levels by application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md)
+[Support levels by application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-separated-apps.md)
 
  Is your application supported for domain separation? See support levels and use cases.
 
@@ -59,7 +59,7 @@ Classes
 
 </td><td>
 
-[Safe Workplace suite and domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/domain-separation-safe-workplace.md)
+Safe Workplace suite and domain separation
 
  ServiceNow Safe Workplace applications help you reopen your workplaces and support the health and safety of your employees after emergencies and pandemics such as COVID-19. The suite has many applications to help your organization mobilize, recover, and rebuild.
 
@@ -69,12 +69,12 @@ Classes
 
 </td><td>
 
-[Setup and administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparationSetup.md)
+[Setup and administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_DomainSeparationSetup.md)
 
- -   [Upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrade.md)
--   [Request domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ActivateDomainSeparation.md)
--   [Create a domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_CreateADomain.md)
--   [Configuration that can be delegated to internal or external customers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ds-before-you-begin.md)
+ -   [Upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/upgrade.md)
+-   [Request domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_ActivateDomainSeparation.md)
+-   [Create a domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_CreateADomain.md)
+-   [Configuration that can be delegated to internal or external customers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/ds-before-you-begin.md)
 
 </td><td>
 

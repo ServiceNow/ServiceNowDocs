@@ -3,11 +3,11 @@ title: ServiceNow AI Value dashboard
 description: The ServiceNow AI Value dashboard provides a comprehensive view of AI system performance, value delivery, and operational metrics across your organization. The dashboard displays productivity gains, financial returns, system usage patterns, and agent performance data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/md-servicenow-ai-value-dashboard.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow AI dashboard, Dashboards, Explore, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
+breadcrumb: [ServiceNow AI dashboard, Dashboards, Explore, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # ServiceNow AI Value dashboard

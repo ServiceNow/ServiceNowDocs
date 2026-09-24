@@ -3,11 +3,11 @@ title: Sample CloudFormation JSON to create an AWS EC2 instance
 description: Reference code sample to deploy an Amazon AWS Cloud EC2 instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/aws-ec2-sample-cloudformation-json.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create a cloud template-based catalog item, Create a cloud catalog item, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Reference code sample to deploy an Amazon AWS Cloud EC2 instance.
 
 ## Deploying an AWS EC2 instance using CloudFormation
 
--   While designing a catalog item, review the cloud formation template to identify the services that are being provisioned. Check that appropriate permissions for the services can be granted, to ensure that no failures occur from lack of permissions when the stack is ordered. For more information, see [Configure permissions on the AWS console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aws-create-user-policy-cloud-mgt.md)
+-   While designing a catalog item, review the cloud formation template to identify the services that are being provisioned. Check that appropriate permissions for the services can be granted, to ensure that no failures occur from lack of permissions when the stack is ordered. For more information, see [Configure permissions on the AWS console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aws-create-user-policy-cloud-mgt.md)
 -   Make necessary modifications using this sample as your reference.
 
 ```

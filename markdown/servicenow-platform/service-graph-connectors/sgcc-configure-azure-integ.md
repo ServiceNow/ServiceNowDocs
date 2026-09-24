@@ -3,11 +3,11 @@ title: Configure Service Graph Connector for Microsoft Azure using SGC Central
 description: Use the playbook available with the SGC Central application to set up the Service Graph Connector for Microsoft Azure for pulling in Microsoft Azure data into the CMDB.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgcc-configure-azure-integ.html
-release: australia
+release: brazil
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Microsoft Azure, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,9 +18,9 @@ Use the playbook available with the SGC Central application to set up the Servic
 
 ## Before you begin
 
-Install Service Graph Connector for Microsoft Azure version 1.9.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installing-applications-in-application-manager.md).
+Install Service Graph Connector for Microsoft Azure version 1.9.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/installing-applications-in-application-manager.md).
 
-**Important:** After the initial import of Azure data, the application performs a delta import of data. However, you can perform a full pull of data anytime later by disabling the delta synchronization and setting the **sn\_sg\_azure\_integ.is\_delta\_sync\_enabled** property to `false`. For more information, see [Configuring data synchronization in Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-azure-data-sync.md).
+**Important:** After the initial import of Azure data, the application performs a delta import of data. However, you can perform a full pull of data anytime later by disabling the delta synchronization and setting the **sn\_sg\_azure\_integ.is\_delta\_sync\_enabled** property to `false`. For more information, see [Configuring data synchronization in Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-azure-data-sync.md).
 
 Role required: The following table shows the roles required for each stage of the playbook.
 
@@ -29,11 +29,11 @@ Role required: The following table shows the roles required for each stage of th
 |Prerequisites|admin|
 |Setup|SGC-Admin \(sn\_cmdb\_int\_util.sgc\_admin\) or admin|
 
-**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
+**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
 
 ## About this task
 
-The playbook experience for onboarding connectors is activated with SGC Central in the Service Graph Workspace or CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-configuring.md) and for more information on how to interact with a playbook, see Interact with Playbook.
+The playbook experience for onboarding connectors is activated with SGC Central in the Service Graph Workspace or CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-configuring.md) and for more information on how to interact with a playbook, see Interact with Playbook.
 
 The connector uses the Azure Management APIs for the complete pull of data from Azure. However, to pull delta changes from Azure, the Azure Resource Graph APIs are used. The domain name system \(DNS\) is Microsoft Azure Management, but the path is a resource graph.
 
@@ -51,7 +51,7 @@ The connector uses the Azure Management APIs for the complete pull of data from 
 
 4.  Complete the initial prerequisites when setting up a connection for the first time using a connector.
 
-    **Note:** This step is required only during the first-time setup. See [Perform initial setup tasks when creating a connection in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-first-time-setup.md).
+    **Note:** This step is required only during the first-time setup. See [Perform initial setup tasks when creating a connection in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-first-time-setup.md).
 
 5.  Complete the prerequisites for setting up the Azure environment.
 
@@ -112,7 +112,7 @@ OAuth client ID
 
 </td><td>
 
-Application \(client\) ID of your Azure client application as noted in step [5.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-azure-integ.md).
+Application \(client\) ID of your Azure client application as noted in step [5.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-azure-integ.md).
 
 </td></tr><tr><td>
 
@@ -120,7 +120,7 @@ OAuth client secret
 
 </td><td>
 
-Client secret of your Azure client application as noted in step [5.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-azure-integ.md).
+Client secret of your Azure client application as noted in step [5.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-azure-integ.md).
 
 </td></tr><tr><td>
 
@@ -154,7 +154,7 @@ https://login.partner.microsoftonline.cn/*&lt;tenantid&gt;*/oauth2/v2.0/token
 https://login.microsoftonline.de/*&lt;tenantid&gt;*/oauth2/v2.0/token
     ```
 
-Where *&lt;tenantid&gt;* is the tenant ID of your Azure client application as noted in step [5.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-azure-integ.md).
+Where *&lt;tenantid&gt;* is the tenant ID of your Azure client application as noted in step [5.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-azure-integ.md).
 
 </td></tr></tbody>
 </table>    3.  Select **Create and test connection**.
@@ -171,7 +171,7 @@ Where *&lt;tenantid&gt;* is the tenant ID of your Azure client application as no
 
     4.  In the Configure import schedule dialog box, select the **Active** check box, and then fill in the run schedule and time details.
 
-        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
+        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
 
     5.  Select **Save**.
 
@@ -181,7 +181,7 @@ Where *&lt;tenantid&gt;* is the tenant ID of your Azure client application as no
 
 9.  Enter the connection details and test the API connection for importing software data.
 
-    The **Create and test software connection** activity for importing software data appears only when the **Hardware and software** check box is selected in step [6.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-azure-integ.md).
+    The **Create and test software connection** activity for importing software data appears only when the **Hardware and software** check box is selected in step [6.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-azure-integ.md).
 
     1.  In the **Setup** stage of the playbook, select the **Create and test software connection** activity.
 
@@ -209,7 +209,7 @@ Hardware connection name
 
 </td><td>
 
-Name of the hardware connection record.**Note:** This field is automatically set to the hardware connection name specified in step [7.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-azure-integ.md).
+Name of the hardware connection record.**Note:** This field is automatically set to the hardware connection name specified in step [7.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-azure-integ.md).
 
 </td></tr><tr><td>
 
@@ -221,7 +221,7 @@ Base URL to connect to the Log Analytics workspace in the following format: ```
 https://api.loganalytics.io/v1/workspaces/<workspace_id>
 ```
 
-Where `<workspace_id>` is the ID of the Log Analytics workspace as noted in step [5.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-azure-integ.md). **Note:** This field is automatically set to the URL to connect to the Log Analytics workspace. Replace the `<workspace_id>` variable in the auto-generated URL with the workspace ID of your Log Analytics workspace.
+Where `<workspace_id>` is the ID of the Log Analytics workspace as noted in step [5.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-azure-integ.md). **Note:** This field is automatically set to the URL to connect to the Log Analytics workspace. Replace the `<workspace_id>` variable in the auto-generated URL with the workspace ID of your Log Analytics workspace.
 
 </td></tr><tr><td>
 
@@ -229,7 +229,7 @@ OAuth client ID
 
 </td><td>
 
-Application \(client\) ID of your Azure client application as noted in step [5.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-azure-integ.md).
+Application \(client\) ID of your Azure client application as noted in step [5.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-azure-integ.md).
 
 </td></tr><tr><td>
 
@@ -237,7 +237,7 @@ OAuth client secret
 
 </td><td>
 
-Client secret of your Azure client application as noted in step [5.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-azure-integ.md).
+Client secret of your Azure client application as noted in step [5.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-azure-integ.md).
 
 </td></tr><tr><td>
 
@@ -271,7 +271,7 @@ https://login.partner.microsoftonline.cn/*&lt;tenantid&gt;*/oauth2/v2.0/token
 https://login.microsoftonline.de/*&lt;tenantid&gt;*/oauth2/v2.0/token
     ```
 
-Where *&lt;tenantid&gt;* is the tenant ID of your Azure client application as noted in step [5.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-azure-integ.md).
+Where *&lt;tenantid&gt;* is the tenant ID of your Azure client application as noted in step [5.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-azure-integ.md).
 
 </td></tr></tbody>
 </table>    3.  Select **Create and test connection**.
@@ -280,7 +280,7 @@ Where *&lt;tenantid&gt;* is the tenant ID of your Azure client application as no
 
 10. Configure the import schedule to import software data at regular intervals.
 
-    The **Configure software import schedule** activity for importing software data appears only when the **Hardware and software** check box is selected in step [6.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-azure-integ.md).
+    The **Configure software import schedule** activity for importing software data appears only when the **Hardware and software** check box is selected in step [6.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-azure-integ.md).
 
     1.  In the **Setup** stage of the playbook, select the **Configure software import schedule** activity.
 
@@ -288,13 +288,13 @@ Where *&lt;tenantid&gt;* is the tenant ID of your Azure client application as no
 
     3.  In the Configure import schedule dialog box, select the **Active** check box, and then fill in the run schedule and time details.
 
-        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
+        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
 
     4.  Select **Save**.
 
         Alternatively, select **Execute Now** to execute the import schedule immediately.
 
-    5.  Repeat steps [10.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-azure-integ.md) to [10.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-azure-integ.md) for any other parent import schedule if not already set to active.
+    5.  Repeat steps [10.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-azure-integ.md) to [10.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-azure-integ.md) for any other parent import schedule if not already set to active.
 
     6.  Select **Continue**.
 
@@ -308,17 +308,17 @@ Select **View all connections** to review the connection details. The created co
 **Related topics**  
 
 
-[Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-azure.md)
+[Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-azure.md)
 
-[CMDB classes targeted in Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
+[CMDB classes targeted in Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
-[Data mapping for Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-data-mapping-azure.md)
+[Data mapping for Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/cmdb-data-mapping-azure.md)
 
-[Supported Microsoft Azure resource types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-sgc-azure-resource-types.md)
+[Supported Microsoft Azure resource types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/cmdb-sgc-azure-resource-types.md)
 
-[Service Graph Connector for Microsoft Azure properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-sgc-azure-props.md)
+[Service Graph Connector for Microsoft Azure properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/cmdb-sgc-azure-props.md)
 
-[Accessing the connection details of Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-azure-conn.md)
+[Accessing the connection details of Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-azure-conn.md)
 
-[Additional features within the Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-azure-add-features.md)
+[Additional features within the Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-azure-add-features.md)
 

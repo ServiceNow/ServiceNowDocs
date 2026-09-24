@@ -1,18 +1,18 @@
 ---
-title: NLU model settings
+title: \(Legacy\) NLU model settings
 description: Change your NLU model's name, description, or confidence threshold on the Settings page of the model overview.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/nlu-model-settings.html
-release: australia
+release: brazil
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Model management, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# NLU model settings
+# \(Legacy\) NLU model settings
 
 Change your NLU model's name, description, or confidence threshold on the **Settings** page of the model overview.
 
@@ -20,7 +20,7 @@ Access the model's settings by navigating to **All** &gt; **NLU Workbench** &gt;
 
 ## Model settings
 
-In the upper section of the model settings page, you can change the model's name, short description, and business area. You cannot change the model's language, purpose, or scope. To make a model with a different language, purpose, or scope, see [Creating models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/creating-models.md).
+In the upper section of the model settings page, you can change the model's name, short description, and business area. You cannot change the model's language, purpose, or scope. To make a model with a different language, purpose, or scope, see [\(Legacy\) Creating models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/creating-models.md).
 
 By default, the **Ignore punctuation** check box is active. Ignoring punctuation makes it so that there is less variance between predicted intents and confidence scores for utterances with slightly different punctuation. For best results, keep the check box active.
 
@@ -39,7 +39,7 @@ Prebuilt models come with a tuned threshold. The confidence threshold on prebuil
 
 Test results include a model threshold recommendation only if they meet the following requirements:
 
--   The test set has a Test Coverage score of at least 60%, with at least 5 test utterances per intent. For more information, see [Test set creation and management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-test-set-creation-management.md).
+-   The test set has a Test Coverage score of at least 60%, with at least 5 test utterances per intent. For more information, see [\(Legacy\) Test set creation and management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/nlu-test-set-creation-management.md).
 -   The test set has at least 100 utterances.
 -   The model is not a prebuilt model.
 -   The recommended threshold would have better results than the current threshold.

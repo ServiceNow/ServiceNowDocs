@@ -3,9 +3,9 @@ title: Configure Microsoft Defender for Office 365 integration
 description: Gain valuable insights into phishing simulation metrics directly within the Cybersecurity Executive Dashboard through seamless integration with Microsoft Defender for Office 365.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/configure-microsoft365-defender-integration-vr.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [what are requirements for integration, how to configure microsoft defender for office 365 integration, how to set up phishing simulation]
 breadcrumb: [Security Simulation and Training Integration for Security Operations, Cybersecurity Executive Dashboard, Security Operations]

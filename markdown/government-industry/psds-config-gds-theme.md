@@ -3,7 +3,7 @@ title: Configure the GOV.UK Design System Service Portal theme
 description: Use the Branding Editor to give the GDS Service Portal its own look and feel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gds-theme.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-06-01"
 reading_time_minutes: 3
@@ -34,7 +34,7 @@ Portal Title
 
 </td><td>
 
-The name of your portal. Changing the name of the portal in the Branding Editor also changes the title on the portal form field in the platform UI.
+The name of your portal. Changing the name of the portal in the  also changes the title on the portal form field in the platform UI.
 
 </td></tr><tr><td>
 
@@ -58,7 +58,7 @@ Tag line &amp; background
 
 </td><td>
 
-Fields defined by the JSON schema in the **Quick start config** field on the portal record in the platform UI. The sample Service Portal adds **Tag Line** and **Background** to the Branding Editor using the following schema:
+Fields defined by the JSON schema in the **Quick start config** field on the portal record in the platform UI. The sample Service Portal adds **Tag Line** and **Background** to the  using the following schema:
 
 ```
 [{
@@ -75,7 +75,7 @@ Fields defined by the JSON schema in the **Quick start config** field on the por
 }]
 ```
 
-For more information on editing the portal from the portal record page, see [Configure the GOV.UK Design System Service Portal record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-portal-record.md).
+For more information on editing the portal from the portal record page, see [Configure the GOV.UK Design System Service Portal record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gds-portal-record.md).
 
 </td></tr><tr><td>
 
@@ -110,7 +110,7 @@ Background image
 Upload an image to appear in the background of your homepage. This image is stored in the container for the widget on your homepage.
 
 </td></tr></tbody>
-</table>The default theme for the GDS Service Portal employs Gov.UK design system standards, and includes the official Gov.UK color palette \(primary, secondary, background, text colors\). To choose other colors, navigate to the Theme colors tab. The theme preview updates as you make changes. Changes made to the theme colors in the Branding Editor appear in the CSS variables field of the portal form in the platform UI.
+</table>The default theme for the GDS Service Portal employs Gov.UK design system standards, and includes the official Gov.UK color palette \(primary, secondary, background, text colors\). To choose other colors, navigate to the Theme colors tab. The theme preview updates as you make changes. Changes made to the theme colors in the  appear in the CSS variables field of the portal form in the platform UI.
 
 ## Add a header or footer
 
@@ -126,9 +126,9 @@ To add a header or footer to your portal, you must configure it through the them
 5.  To configure the appearance of the header, in the Service Portal configuration page, open the Branding Editor.
 6.  Under the **Theme Colors** tab, use the color selectors in the Navbar section to control the colors in the header.
 
-For information on creating and customizing the header/footer menu, see [Create a portal header menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-header-menu.md).
+For information on creating and customizing the header/footer menu, see [Create a portal header menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-header-menu.md).
 
 ## Customizing the Portal CSS
 
-Changes made in the Branding Editor or to specific components of the portal \(such as a widget or a page container\) override any customizations made to the theme. If your portal needs more customization than Branding Editor can provide, you can edit the CSS of the existing theme. For information on how to customize the portal theme using CSS, see [Create a portal theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_CustomCSS.md).
+Changes made in the Branding Editor or to specific components of the portal \(such as a widget or a page container\) override any customizations made to the theme. If your portal needs more customization than Branding Editor can provide, you can edit the CSS of the existing theme. For information on how to customize the portal theme using CSS, see [Create a portal theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_CustomCSS.md).
 

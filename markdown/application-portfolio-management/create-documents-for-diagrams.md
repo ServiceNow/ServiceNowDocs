@@ -3,9 +3,9 @@ title: Generate a document from a diagram
 description: Generate documents from the Enterprise Modeling and Visualization diagrams page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/create-documents-for-diagrams.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with Enterprise Modeling and Visualization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -43,16 +43,16 @@ Role required: sn\_apm.apm\_user
     A confirmation message appears with a link to the newly created document. You can select the link to open the document.
 
 
-**Parent Topic:**[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)
+**Parent Topic:**[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)
 
 **Related topics**  
 
 
-[Exploring generating documents from diagrams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/generate-doc-from-diagram.md)
+[Exploring generating documents from diagrams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/generate-doc-from-diagram.md)
 
-[View documents for a diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/view-docs-for-diagram.md)
+[View documents for a diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/view-docs-for-diagram.md)
 
-[Working with the document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/document-templates-for-ea.md)
+[Working with the document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/document-templates-for-ea.md)
 
-[View all architectural documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/view-architectural-documents.md)
+[View all architectural documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/view-architectural-documents.md)
 

@@ -3,11 +3,11 @@ title: Discovery on Code Signing instances
 description: Discovery is supported on instances with Code Signing enabled. Code signing validates the integrity of Discovery components before execution to help prevent unauthorized scripts from running on MID Servers and target machines.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/code-sign-disco-probes.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -24,7 +24,7 @@ The instance validates signatures on probes and probe parameters. If a probe is 
 
 The MID Server validates signatures on patterns, MID script includes, and MID script files. If a pattern's signature is invalid, the MID Server won't download it. If the pattern was previously downloaded, it's deleted. Discovery can't run that pattern on any machine until it's re-signed.
 
-Signatures are included automatically with Discovery applications and plugins. When your platform and store apps meet the requirements, code signing for Discovery works without manual signing. For more information about how code signing works, see [Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/code-signing-landing.md).
+Signatures are included automatically with Discovery applications and plugins. When your platform and store apps meet the requirements, code signing for Discovery works without manual signing. For more information about how code signing works, see [Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/code-signing-landing.md).
 
 ## Benefits
 
@@ -39,12 +39,12 @@ The following examples highlight the primary advantages of using code signing:
 
 Code signing for Discovery requires the following dependencies:
 
--   You must be using the Australia version of the ServiceNow AI Platform.
+-   You must be using the Brazil version of the ServiceNow AI Platform.
 -   You must have the following ServiceNow Store applications and versions installed:
     -   Discovery Admin Workspace v1.13.0
     -   Visibility Content v6.13.10
     -   Discovery and Service Mapping Patterns v1.30.2
--   You must have Code Signing enabled with the Circle of Trust established. For more information, see [Configuring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/config-code-signing.md).
+-   You must have Code Signing enabled with the Circle of Trust established. For more information, see [Configuring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/config-code-signing.md).
 
 ## Supported discovery types
 
@@ -53,7 +53,7 @@ Code signing for Discovery supports the following discovery methods:
 -   IP-based Discovery
 -   Cloud Discovery
 
-    **Note:** Cloud Discovery requires additional configuration. For more information, see [Configure Cloud Discovery for code-signed instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/config-cloud-disco-code-sign.md).
+    **Note:** Cloud Discovery requires additional configuration. For more information, see [Configure Cloud Discovery for code-signed instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/config-cloud-disco-code-sign.md).
 
 
 ## Signature validation scope
@@ -67,5 +67,5 @@ Pattern debugger isn’t available on code-signed instances.
 **Related topics**  
 
 
-[Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/code-signing-landing.md)
+[Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/code-signing-landing.md)
 

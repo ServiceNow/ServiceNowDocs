@@ -3,13 +3,13 @@ title: Configure deployment and skill settings
 description: Configure where a skill appears in AI Admin Hub, review general information, set security controls, choose a provider, and add evaluation metrics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.html
-release: australia
+release: brazil
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: task
-last_updated: "2026-08-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configuring AI Skill Kit, AI Skill Kit, Enable AI experiences]
+breadcrumb: [Configuring AI Skill Kit, AI Skill Kit, Generative AI skills, Enable AI Experiences]
 ---
 
 # Configure deployment and skill settings
@@ -103,7 +103,7 @@ A description of the feature.
     -   **Now Assist context menu**
     -   **Virtual assistants**
 
-        For more information about Now Assist in Virtual Agent, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
+        For more information about Now Assist in Virtual Agent, see [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md).
 
     -   **UI Builder**
 5.  Review the **General information** section.
@@ -112,7 +112,7 @@ A description of the feature.
 
 6.  Configure the **Security controls** section to restrict which roles can run the skill.
 
-    For the procedure, see [Configure security controls for a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/nask-access-control.md).
+    For the procedure, see [Configure security controls for a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/nask-access-control.md).
 
 7.  Review the **Providers** section.
 
@@ -130,7 +130,7 @@ A description of the feature.
 
     Script-based metrics \(metrics with a script instead of a judge prompt\) don't consume assists.
 
-    For details about Now Assist consumption during prompt testing, see [Test a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/test-prompt-template.md).
+    For details about Now Assist consumption during prompt testing, see [Test a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/test-prompt-template.md).
 
     1.  In the **Evaluation metrics** section, select the add icon \[Omitted image "icon-nask-add.png"\] Alt text: add icon.
 
@@ -138,7 +138,7 @@ A description of the feature.
 
         Metrics are grouped by category. Each metric shows the language model provider that runs the metric, such as **Amazon Bedrock**, **Now LLM Generic**, or **Multiple LLMs**. Metrics that run as scripts don't display a provider tag.
 
-        For descriptions of the available metrics, see [Evaluate a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/evaluate-prompt.md).
+        For descriptions of the available metrics, see [Evaluate a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/evaluate-prompt.md).
 
     3.  Review the metric details.
 
@@ -154,9 +154,9 @@ A description of the feature.
 
 ## What to do next
 
-After you configure the deployment and skill settings, you can publish your skill. To learn more about publishing skills, see [Finalize and publish a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/publish-skill.md).
+After you configure the deployment and skill settings, you can publish your skill. To learn more about publishing skills, see [Finalize and publish a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/publish-skill.md).
 
-**Parent Topic:**[Configuring AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configuring-now-assist-skill-kit.md)
+**Parent Topic:**[Configuring AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/configuring-now-assist-skill-kit.md)
 
 **Related topics**  
 

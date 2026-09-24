@@ -3,9 +3,9 @@ title: Domain separation terms
 description: With a ServiceNow instance, you can improve efficiency, add greater security, and increase performance for your customer organizations. It's helpful to understand some of the most common terms as you create your configurations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-terms-conditions.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Recommended practices for service providers, Domain separation for service providers, Access Management]
 ---
@@ -19,8 +19,6 @@ With a ServiceNow instance, you can improve efficiency, add greater security, an
 In a managed domain, the **Managed domain** field allows domain administrators to manually select a domain for the user, group, department, location, or CI record, rather than using the domain that is assigned automatically from the company record.
 
 If you want to change those properties, you can override them to further customize the functions of the applications in each of your domains.
-
-\[Omitted image "bp-managed-domain.png"\] Alt text: Managed domain
 
 ## Process tables
 
@@ -88,7 +86,7 @@ You can create and maintain the process that affect the global domain as well as
 
 Examples: System properties, dictionary overrides, `sys_documentation` \(field labels\), the data model \(classes, CI types, and so on\), tables and fields `[sys_dictionary]` \(access can be restricted\), indexing \(text indexes as well as database\), ACLs, installation exits, inbound actions, public pages, and interceptors.
 
-**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
+**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/bp-domain-sep-recommended.md)
 
 **Related topics**  
 

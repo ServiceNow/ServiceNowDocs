@@ -3,11 +3,11 @@ title: States of a privacy breach assessment
 description: After a privacy analyst initiates a privacy breach assessment, the assigned reviewer contributes their insights and includes the personally identifiable information \(PI\) artifacts and relevant jurisdictions before it is completed and closed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/life-cycle-of-a-privacy-breach-assessment.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Privacy breach assessments, Explore, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---

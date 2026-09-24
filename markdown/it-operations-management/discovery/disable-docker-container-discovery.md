@@ -3,14 +3,14 @@ title: Disable Docker container CI discovery
 description: Configure Docker discovery to collect image CIs only, instead of both image and container CIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/disable-docker-container-discovery.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2024-12-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Kubernetes discovery, Docker container, ITOM Licensing V4]
-breadcrumb: [Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Kubernetes discovery using patterns, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Disable Docker container CI discovery
@@ -47,5 +47,5 @@ In large environments, container instances can generate a high volume of CIs. Th
 
 Run discovery again to apply the changes.
 
-**Parent Topic:**[Discovery for containerized resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/container-discovery.md)
+**Parent Topic:**[Kubernetes discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/kubernetes-discovery.md)
 

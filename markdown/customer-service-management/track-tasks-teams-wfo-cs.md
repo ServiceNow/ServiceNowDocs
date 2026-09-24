@@ -3,9 +3,9 @@ title: Assign work based on your teams' skills and capacity
 description: Plan your teams' work and assign work items such as incidents, problems, change requests, or interactions to them based on their skills, availability, and capacity. View your teams' shifts, events, and work assignments and assign or reassign the work items from a central location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/track-tasks-teams-wfo-cs.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Assigning work using Work Scheduler, Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -16,7 +16,11 @@ Plan your teams' work and assign work items such as incidents, problems, change 
 
 ## Before you begin
 
-**Note:** Your administrator must add sys ids for event categories that you want to display in the calendar to the **sn\_wfo\_work\_sched.shift\_data\_categories** system property. For more information, see [Work Scheduler components in Workforce Optimization for Customer Service reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/work-scheduler-wfo-cs-reference.md).
+**Important:**
+
+Starting with the Brazil release, Work scheduler is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+**Note:** Your administrator must add sys ids for event categories that you want to display in the calendar to the **sn\_wfo\_work\_sched.shift\_data\_categories** system property. For more information, see [Work Scheduler components in Workforce Optimization for Customer Service reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/work-scheduler-wfo-cs-reference.md).
 
 Role required: sn\_wfo\_work\_sched.manager
 
@@ -75,7 +79,7 @@ Analyze the tasks that your agents are assigned to and their actual shift plans.
 
     1.  Select a task that you want to assign to an agent.
 
-        When you enable the **Show suggested only** option, by default, you can choose to display team members based on their availability, skills, or time zone. The ranking of the team members are based on matching assignment rules set for each criteria. Work scheduler uses [Assignment workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-assignment-matching-criteria.md) to evaluate agents to work on tasks.
+        When you enable the **Show suggested only** option, by default, you can choose to display team members based on their availability, skills, or time zone. The ranking of the team members are based on matching assignment rules set for each criteria. Work scheduler uses [Assignment workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/case-assignment-matching-criteria.md) to evaluate agents to work on tasks.
 
         You can select one or more of these criteria and the ranking of the team members will be based on the selected criteria:
 
@@ -83,7 +87,7 @@ Analyze the tasks that your agents are assigned to and their actual shift plans.
         -   **WFO - Mandatory skills**— If the task has mandatory and optional skills associated with it, the work scheduler displays agents who have all of the mandatory skills first and then the agents who have the optional skills.
         -   **WFO - Optional skills**— If the task only has optional skills associated with it, then the list displays the agents with the optional skills.
         -   **WFO- Timezone overlap**—The delta between the task time zone and the user's time zone. For example, if the user is located in the Pacific time zone and if the task location is in the Eastern time zone, then it will display as **+3**; if the task location is Hawaii, then it will display as **-3**.
-        To add your own matching rule, see [Create a criteria for a matching rule in Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/assignment-rules-work-scheduler-wfo-cs.md).
+        To add your own matching rule, see [Create a criteria for a matching rule in Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/assignment-rules-work-scheduler-wfo-cs.md).
 
         All of these criteria are based on the **More is better** ranking method where a higher value is better. For example, when the WFO-Mandatory skills criteria is enabled, team members that have more skills that are mandatory to work on the work item will be ranked higher.
 
@@ -110,5 +114,5 @@ Analyze the tasks that your agents are assigned to and their actual shift plans.
     \[Omitted image "work-scheduler-ui.png"\] Alt text: Infographic displaying the Work Scheduler form with work queues based on unassigned incidents.
 
 
-**Parent Topic:**[Assigning work using Work Scheduler in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/work-scheduler-wfo-cs.md)
+**Parent Topic:**[Assigning work using Work Scheduler in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/work-scheduler-wfo-cs.md)
 

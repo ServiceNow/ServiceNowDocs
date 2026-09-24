@@ -3,11 +3,11 @@ title: Installed with the legacy Oracle Process Pack
 description: The following tables, fields, and license calculation types are installed with the legacy Oracle process pack.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/r\_InstalledWithOracleProcessPack.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Legacy Oracle process pack, Legacy Software Asset Management plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
@@ -53,5 +53,5 @@ The Oracle Process Pack adds the following license calculation types.
 |Oracle Named User Plus|Oracle licensing scheme that counts by the number of unique users and devices.|
 |Oracle Processor|Oracle licensing scheme that counts by the number of processors on a server.|
 
-**Parent Topic:**[Legacy Oracle process pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_OracleProcessPack.md)
+**Parent Topic:**[Legacy Oracle process pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management/c_OracleProcessPack.md)
 

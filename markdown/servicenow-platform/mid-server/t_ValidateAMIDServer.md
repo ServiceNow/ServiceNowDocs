@@ -3,13 +3,13 @@ title: Validate the MID Server
 description: You must manually validate the MID Server after it is installed to enable it to execute automation tasks. You can invalidate a MID Server you suspect has been compromised to prevent it from accessing automation credentials in the instance or executing outbound ECC probes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/t\_ValidateAMIDServer.html
-release: australia
+release: brazil
 product: MID Server
 classification: mid-server
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Installing the MID Server with manual or guided setup, Installing the MID Server, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Installing the MID Server, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Validate the MID Server
@@ -25,15 +25,15 @@ Role required: agent\_admin, admin
 ![Set up indicator for installation phase](../image/ProgressBarInstall.png)
 
 </td></tr></tbody>
-</table>Make sure that the [MID Server version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md) is compatible with the instance.
+</table>Make sure that the [MID Server version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-server-landing.md) is compatible with the instance.
 
 ## About this task
 
 Validation restricts access to automation credentials to trusted MID servers only.
 
-When you validate a MID Server, you specify the capabilities it can use, the applications that use it, and the IP ranges it is allowed to explore. You will be prompted to set the initial selection criteria when you validate MID Servers that do not already have capabilities, applications, or IP ranges already configured. You do not have to set the initial selection criteria to actually validate the MID Server. See [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md) for more information on capabilities, applications, and IP ranges.
+When you validate a MID Server, you specify the capabilities it can use, the applications that use it, and the IP ranges it is allowed to explore. You will be prompted to set the initial selection criteria when you validate MID Servers that do not already have capabilities, applications, or IP ranges already configured. You do not have to set the initial selection criteria to actually validate the MID Server. See [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md) for more information on capabilities, applications, and IP ranges.
 
-**Note:** When you upgrade, MID Servers that are already configured in your instance are automatically validated. This prevents the interruption of automation tasks that MID Servers might be performing. See [MID Server upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_UpgradeAndTestMIDServer.md) for more information.
+**Note:** When you upgrade, MID Servers that are already configured in your instance are automatically validated. This prevents the interruption of automation tasks that MID Servers might be performing. See [MID Server upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/c_UpgradeAndTestMIDServer.md) for more information.
 
 ## Procedure
 
@@ -64,9 +64,9 @@ When you validate a MID Server, you specify the capabilities it can use, the app
     **Note:** If the **Validated** field is stuck in the **Validating** state, verify the following:
 
     -   The MID Server service is running and its **Status** is **Up** on the MID Server record.
-    -   The MID Server host can reach the instance. See [Test MID Server connectivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ValidateNetworkConnectivity.md).
+    -   The MID Server host can reach the instance. See [Test MID Server connectivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/t_ValidateNetworkConnectivity.md).
     -   No firewall or proxy blocks communication between the MID Server and the instance ECC queue.
-    Check the MID Server `agent0.log` for errors related to the validation probe. If the issue persists, invalidate the MID Server and revalidate. See [MID Server user connectivity issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-connectivity-issues.md).
+    Check the MID Server `agent0.log` for errors related to the validation probe. If the issue persists, invalidate the MID Server and revalidate. See [MID Server user connectivity issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-server-connectivity-issues.md).
 
 6.  To invalidate a MID Server, open the record for the MID Server you suspect has a security issue.
 
@@ -77,10 +77,10 @@ When you validate a MID Server, you specify the capabilities it can use, the app
 
 ## What to do next
 
-[Test network connectivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ValidateNetworkConnectivity.md) to ensure that the MID Server can upgrade automatically.
+[Test network connectivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/t_ValidateNetworkConnectivity.md) to ensure that the MID Server can upgrade automatically.
 
 **Related topics**  
 
 
-[Rekey a MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_RekeyAMIDServer.md)
+[Rekey a MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/t_RekeyAMIDServer.md)
 

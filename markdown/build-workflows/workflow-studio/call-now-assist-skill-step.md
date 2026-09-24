@@ -3,11 +3,11 @@ title: Call Now Assist Skill step
 description: Run a published ServiceNow Otto for Creator skill from an action. Configure the ServiceNow Otto for Creator skill inputs and skill outputs from the step inputs and step outputs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/call-now-assist-skill-step.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Steps, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -22,11 +22,11 @@ Available as an Workflow Studio action step. Users with the action\_designer rol
 
 -   **AI Skill Kit requirements**
 
-    This step requires the AI Skill Kit. For more information, see [Exploring AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-skill-kit.md).
+    This step requires the AI Skill Kit. For more information, see [Exploring AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/exploring-now-assist-skill-kit.md).
 
 -   **Role requirements**
 
-    This step requires roles granted by delegated development or assigned to the user. For more information, see [User access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/user-access-flow-designer.md).
+    This step requires roles granted by delegated development or assigned to the user. For more information, see [User access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/user-access-flow-designer.md).
 
 
 ## Inputs
@@ -57,7 +57,7 @@ Provide a value for each input that your action needs. To add dynamic values, yo
 
     Data type: **Choice**
 
-    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-error-evaluation.md).
+    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/action-error-evaluation.md).
 
 
 ## Outputs
@@ -173,5 +173,5 @@ Here are the example output values produced by the Flow summarization skill.
     This example returns a success output value.
 
 
-**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/steps.md)
+**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/steps.md)
 

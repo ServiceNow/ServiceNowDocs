@@ -3,13 +3,13 @@ title: Create an NLQ synonym
 description: Add synonyms to improve the ability of NLQ to recognize the various ways your users request data. With synonyms, you can map commonly used words or terms to table columns.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/natural-language-query/create-nlq-synonym.html
-release: australia
+release: brazil
 product: Natural Language Query
 classification: natural-language-query
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configuring NLQ, Natural Language Query, Enable AI experiences]
+breadcrumb: [Configuring NLQ, Natural Language Query, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Create an NLQ synonym
@@ -24,12 +24,12 @@ Role required: admin, nlq\_admin, or pa\_analyst
 
 NLQ synonyms enable you to map common words in your users' requests to the columns in your instance tables. When these words are detected in natural-language queries, NLQ replaces them with actual column and table names, then submits the formal query.
 
-Several synonyms are provided in the base system, and you can add more for your use cases and business requirements. Review NLQ logs of actual user utterances to find possible synonyms to add. For more information, see [View NLQ logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/natural-language-query/view-nlq-logs.md).
+Several synonyms are provided in the base system, and you can add more for your use cases and business requirements. Review NLQ logs of actual user utterances to find possible synonyms to add. For more information, see [View NLQ logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/natural-language-query/view-nlq-logs.md).
 
 You can create a new synonym, or modify an existing synonym, as follows.
 
 -   If any synonym already exists for your target table and column, you must add your new synonym to the current record. Separate multiple synonyms with a comma.
--   Synonyms can point to reference fields, using dot-walking. For more information, see [Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/dot-walking-examples.md).
+-   Synonyms can point to reference fields, using dot-walking. For more information, see [Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/dot-walking-examples.md).
 -   Synonyms are case-insensitive in queries.
 -   Synonyms can contain apostrophes and periods, but not commas.
 -   Synonym records are associated to one table. You can use the same synonym term for more than one table, but you must create a record for each table.
@@ -61,7 +61,7 @@ Synonym Type
 Type of synonym.
 
 -   **Table or Column**: Synonym for a value on a table or a specific column in that table.
--   **Record**: Synonym for a value on the CMDB tables \[cmdb\_rel\_type\_table\]. For more information, see [Querying the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/querying-cmdb.md).
+-   **Record**: Synonym for a value on the CMDB tables \[cmdb\_rel\_type\_table\]. For more information, see [Querying the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/querying-cmdb.md).
 
 **Note:** Supports cmdb\_rel\_type,cmdb\_group, cmdb\_ci\_service\_technical, cmdb\_ci\_service\_discovered, cmdb\_ci\_query\_based\_service tables.
 
@@ -137,7 +137,7 @@ The following image shows an example of an NLQ synonym record for the **Active**
 
 With this synonym record, a user can type `show open change requests` or `change requests in progress`and the system displays active change requests.
 
-**Parent Topic:**[Configuring NLQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/natural-language-query/configuring-nlq.md)
+**Parent Topic:**[Configuring NLQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/natural-language-query/configuring-nlq.md)
 
 **Related topics**  
 

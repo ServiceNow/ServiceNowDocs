@@ -3,9 +3,9 @@ title: Update a metric
 description: Update a metric to add goals, metric data, and targets. Associate citations to the metric.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/update-a-metric.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Using GRC: Metrics to provide data, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -268,7 +268,7 @@ Goals
 
 </td><td>
 
-Details of the goals associated with the metric, such as name, state, category, start date, end date, owner, and status. To add a new goal, select **Add**.
+Details of the goals associated with the metric, such as name, state, category, start date, end date, owner, and status. To add a new goal, click **Add**.
 
 </td></tr><tr><td>
 
@@ -298,7 +298,7 @@ Targets
 
 </td><td>
 
-Details of the targets associated with the metric, such as name, state, owner, start date, end date, type, and measure. To add a new target, select **Add**.
+Details of the targets associated with the metric, such as name, state, owner, start date, end date, type, and measure. To add a new target, click **Add**.
 
 </td></tr><tr><td>
 
@@ -306,19 +306,19 @@ Citations
 
 </td><td>
 
-Details of the citations, such as reference, name, authority document, description, and compliance score percentage \(%\). To add a new citation, select **Add**.
+Details of the citations, such as reference, name, authority document, description, and compliance score percentage \(%\). To add a new citation, click **Add**.
 
 </td></tr></tbody>
-</table>4.  To save the metric, select **Save**.
+</table>4.  To save the metric, click **Save**.
 
-5.  To delete the metric definition, select **Delete**.
+5.  To delete the metric definition, click **Delete**.
 
-6.  To execute the metric, select **Execute**.
+6.  To execute the metric, click **Execute**.
 
     A metric data score is created if it doesn’t exist for the current interval. Re-executing a metric or a metric definition for the current interval only updates the score.
 
-7.  To visually explore the 360° relationship view of the metric definition, select **360° view**.
+7.  To visually explore the 360° relationship view of the metric definition, click **360° view**.
 
 
-**Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/using-grc-metrics.md)
+**Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/using-grc-metrics.md)
 

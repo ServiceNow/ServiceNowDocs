@@ -3,11 +3,11 @@ title: Enterprise Agile Planning Indicators
 description: Indicators included in the EAP dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/eap-indicators.html
-release: australia
+release: brazil
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -22,7 +22,7 @@ Indicators included in the EAP dashboard.
 |EAP: Sum of story points of all stories in the current iteration|Sum of story points of all stories in the current iteration is measured daily as unit.|Washington DC|
 |EAP: Sum of story points of active stories in the current iteration|Sum of story points of active stories in the current iteration is measured daily as unit.|Washington DC|
 
-For information about the metrics you can view on the EAP dashboard through these indicators, see [EAP reports and dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/using-eap-dashboard.md).
+For information about the metrics you can view on the EAP dashboard through these indicators, see [EAP reports and dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/using-eap-dashboard.md).
 
-**Parent Topic:**[Enterprise Agile Planning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/eap-reference.md)
+**Parent Topic:**[Enterprise Agile Planning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/eap-reference.md)
 

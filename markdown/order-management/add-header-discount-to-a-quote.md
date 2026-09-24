@@ -3,9 +3,9 @@ title: Add a header discount to a quote
 description: Apply a percentage-based discount to the entire quote, or to a selected type of line items within the quote. The quote line items automatically inherit the designated discount percentage as a manual adjustment on the quote line level.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/add-header-discount-to-a-quote.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -35,5 +35,5 @@ Role required: Sales Agent \[sn\_sales\_common.sales\_agent\]
 7.  Select **Apply**.
 
 
-**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-mgmt-using.md)
 

@@ -3,11 +3,11 @@ title: Update the status of a test case
 description: Manually update the status of a test case. The status of the individual tests in a test case does not affect the overall status of the test case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/t\_UpdateTheStatusOfATestCase.html
-release: australia
+release: brazil
 product: Test Management
 classification: test-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Test Management 1.0, Test Management applications, Strategic Portfolio Management]
 ---
@@ -47,9 +47,9 @@ Role required: tm\_test\_manager or tm\_tester
 
 ## What to do next
 
-If a test case has failed, you can create a defect for this test case from the failed test by clicking the **Report Defect** related link. For more information, see [Report a defect from a failed test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/t_ReportADefectFromAFailedTest.md).
+If a test case has failed, you can create a defect for this test case from the failed test by clicking the **Report Defect** related link. For more information, see [Report a defect from a failed test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/test-management/t_ReportADefectFromAFailedTest.md).
 
-You can link an existing defect to the test case by clicking the **Assign Defect** related link. For more information, see [Assign a defect to a test case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/t_AssignADefectToATestCase.md).
+You can link an existing defect to the test case by clicking the **Assign Defect** related link. For more information, see [Assign a defect to a test case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/test-management/t_AssignADefectToATestCase.md).
 
 The reported and assigned defects are listed in the Defects for Test Case related list.
 

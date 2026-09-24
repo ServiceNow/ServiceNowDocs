@@ -1,22 +1,22 @@
 ---
-title: Components installed with NLU Workbench - Advanced Features
+title: \(Legacy\) Components installed with NLU Workbench - Advanced Features
 description: Several types of components are installed with activation of the com.snc.nlu.workbench.advanced plugin, including tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/installed-with-nlu-wrkbnch-adv-features.html
-release: australia
+release: brazil
 product: NLU Service
 classification: nlu-service
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Install NLU Workbench - Advanced Features, NLU Workbench - Advanced Features, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) Install NLU Workbench - Advanced Features, \(Legacy\) NLU Workbench - Advanced Features, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Components installed with NLU Workbench - Advanced Features
+# \(Legacy\) Components installed with NLU Workbench - Advanced Features
 
 Several types of components are installed with activation of the com.snc.nlu.workbench.advanced plugin, including tables.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 ## Tables installed
 

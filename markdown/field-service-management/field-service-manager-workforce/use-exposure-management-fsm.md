@@ -3,11 +3,11 @@ title: Use Emergency Exposure Management for Field Service agent monitoring and 
 description: Monitor the spread of infectious diseases by using Emergency Exposure Management to identify affected agents. You can also find agents and customers who might have been potentially exposed. You can view the compliance reports of agents and tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/use-exposure-management-fsm.html
-release: australia
+release: brazil
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Agent availability and calendars, Managing workforce, Use, Field Service Management]
 ---
@@ -16,8 +16,8 @@ breadcrumb: [Agent availability and calendars, Managing workforce, Use, Field Se
 
 Monitor the spread of infectious diseases by using Emergency Exposure Management to identify affected agents. You can also find agents and customers who might have been potentially exposed. You can view the compliance reports of agents and tasks.
 
--   **[View an Emergency Exposure Management diagnostic report for an affected agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/view-diagnostic-report.md)**  
+-   **[View an Emergency Exposure Management diagnostic report for an affected agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-manager-workforce/view-diagnostic-report.md)**  
 View the diagnostic report to identify affected agents and potentially affected customers and agents.
--   **[Block the calendar of a field agent based on an Emergency Exposure Management diagnostic report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/block-agent-calendar.md)**  
+-   **[Block the calendar of a field agent based on an Emergency Exposure Management diagnostic report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-manager-workforce/block-agent-calendar.md)**  
 Block the calendar of affected and potentially affected agents based on an Emergency Exposure Management diagnostic report.
 

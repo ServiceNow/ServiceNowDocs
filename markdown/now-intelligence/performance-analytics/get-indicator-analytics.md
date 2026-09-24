@@ -3,11 +3,11 @@ title: Get analytics methods in formulas
 description: To insert a calculated value from the Analytics Hub into a formula, use a method in the formula.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/get-indicator-analytics.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Formula indicators, Indicators, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -24,7 +24,7 @@ Role required: pa\_power\_user, admin
 
 You can use a value that was calculated in the Analytics Hub as input for a formula. That value can be from any indicator, including from the current formula indicator itself.
 
-To get a value from the Analytics Hub, insert a method from PAFormulaUtils\(\) into the formula. To call one of these methods, use the Performance Analytics variable `pa`. For example, to use the PAFormulaUtils.getScore method, call `pa.getScore`. For more information, see [PAFormulaUtils API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/PAFormulaUtils.md).
+To get a value from the Analytics Hub, insert a method from PAFormulaUtils\(\) into the formula. To call one of these methods, use the Performance Analytics variable `pa`. For example, to use the PAFormulaUtils.getScore method, call `pa.getScore`. For more information, see [PAFormulaUtils API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/PAFormulaUtils.md).
 
 ## Procedure
 
@@ -49,7 +49,7 @@ To get a value from the Analytics Hub, insert a method from PAFormulaUtils\(\) i
     Date fields can take the following values:
 
     -   An absolute date in YYYY-MM-DD format, such as 2018-12-21.
-    -   The variable `score_start` or `score_end`. These variables represent the first and last second of the collection period being calculated for the referenced indicator. The times are calculated from the difference between the time zone of the user and the database server time zone, which is GMT. For more information, see [Changes to score\_start/end because of different user time zones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/time-zones-indicator-formulas.md).
+    -   The variable `score_start` or `score_end`. These variables represent the first and last second of the collection period being calculated for the referenced indicator. The times are calculated from the difference between the time zone of the user and the database server time zone, which is GMT. For more information, see [Changes to score\_start/end because of different user time zones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/time-zones-indicator-formulas.md).
     -   A date parameter that you have coded yourself using the GlideDate or the GlideDateTime API.
 5.  Fill in any parameters and click **Select**.
 
@@ -104,7 +104,7 @@ pa.getChangePercentage($[[Number of open incidents]], lastPeriod.addDaysUTC(-1),
 
 You want to filter out the scores of incidents where Priority = 1 - Critical.
 
-1.  Obtain the unique record identifiers for the Priority breakdown and the 1 - Critical element. Breakdown records are in the Breakdown table. The location of element records varies, but is identified in the Breakdown Source of the breakdown. In this case, the element is a Choice \[sys\_choice\] record. For directions on how to obtain the unique record identifiers, see [The unique record identifier \(sys\_id\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UniqueRecordIdentifier.md).
+1.  Obtain the unique record identifiers for the Priority breakdown and the 1 - Critical element. Breakdown records are in the Breakdown table. The location of element records varies, but is identified in the Breakdown Source of the breakdown. In this case, the element is a Choice \[sys\_choice\] record. For directions on how to obtain the unique record identifiers, see [The unique record identifier \(sys\_id\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_UniqueRecordIdentifier.md).
 
     The unique record identifiers are baec0752bf130100b96dac808c0739ed for the Priority breakdown and 8a4dde73c6112278017a6a4baf547aa7 for the 1 - Critical element.
 
@@ -120,10 +120,10 @@ You want to filter out the scores of incidents where Priority = 1 - Critical.
     ```
 
 
--   **[PAFormulaUtils API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/PAFormulaUtils.md)**  
+-   **[PAFormulaUtils API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/PAFormulaUtils.md)**  
 The PAFormulaUtils API enables you to obtain a value that was calculated in the Analytics Hub and use that value as input for a formula.
 
-**Parent Topic:**[Formula indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/formula-indicators.md)
+**Parent Topic:**[Formula indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/formula-indicators.md)
 
 **Related topics**  
 

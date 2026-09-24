@@ -3,11 +3,11 @@ title: Next-Generation Fortinet Network Firewall SNMP-based discovery
 description: The Discovery and Service Mapping Patterns application uses the Next Generation Fortinet Network Firewall pattern to find Fortinet firewalls through a series of SNMP calls. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/fortinet-fw-discovery.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -18,13 +18,13 @@ The Discovery and Service Mapping Patterns application uses the Next Generation 
 
 The Next Generation Fortinet Network Firewall pattern uses a set of SNMP calls to find the Fortinet firewalls. Discovery uses the pattern to run horizontal discovery.
 
-**Note:** Only the REST-based Fortinet firewall discovery method finds FortiGate VDOMs. The SNMP-based Fortinet firewall discovery method doesn't discover them. For information on REST-based Fortinet firewall and FortiGate Virtual Domains \(VDOMs\) discovery, see [Fortinet firewall and FortiGate VDOM REST-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/fortinet-fw-vdoms-rest-discovery.md).
+**Note:** Only the REST-based Fortinet firewall discovery method finds FortiGate VDOMs. The SNMP-based Fortinet firewall discovery method doesn't discover them. For information on REST-based Fortinet firewall and FortiGate Virtual Domains \(VDOMs\) discovery, see [Fortinet firewall and FortiGate VDOM REST-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/fortinet-fw-vdoms-rest-discovery.md).
 
 ## Request apps on the Store
 
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-To learn about Fortinet firewalls and their versions that you can discover, refer to [Detailed information on products discovered by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_SupportedApplications.md).
+To learn about Fortinet firewalls and their versions that you can discover, refer to [Detailed information on products discovered by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/r_SupportedApplications.md).
 
 ## Fortinet Firewall data model
 
@@ -46,7 +46,7 @@ The Next Generation Fortinet Network Firewall pattern introduces the following C
 
 -   **Configure SNMP credentials**
 
-    On the ServiceNow instance, configure SNMP credentials. For more information, see [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_SNMPCredentials.md).
+    On the ServiceNow instance, configure SNMP credentials. For more information, see [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_SNMPCredentials.md).
 
 -   **Add SNMP system OID record to ServiceNow instance**
 
@@ -56,7 +56,7 @@ The Next Generation Fortinet Network Firewall pattern introduces the following C
     -   Class: Fortinet Firewall Device
 -   **Run a horizontal discovery**
 
-    For more information, see [Running discoveries in your network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/running-discoveries.md).
+    For more information, see [Running discoveries in your network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/running-discoveries.md).
 
 
 ## Data collected by Discovery during horizontal discovery
@@ -131,5 +131,5 @@ The Next Generation Fortinet Network Firewall pattern creates the following rela
 |Router Interface \[dscy\_router\_interface\]|Configuration Item \[cmdb\_ci\]|Fortinet Firewall Device \[cmdb\_ci\_firewall\_device\_fortinet\]|
 |IP Address \[cmdb\_ci\_ip\_address\]|Nic \[nic\]|Network Adapter \[cmdb\_ci\_network\_adapter\]|
 
-**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

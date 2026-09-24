@@ -3,9 +3,9 @@ title: Add dependencies based on CI relationships in CMDB
 description: Add an item by referencing its CI relationship to drill down to the item that is related directly to the dependency group. You can map the item's relationship with the dependency group while assessing the business impact analysis of an asset that is at risk.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-dependencies-based-on-cmdb.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Identify critical dependencies, Assess impact categories and dependencies of process, Structured workflows for BIA, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
 ## About this task
 
-For Application, Hardware, or Software dependency groups using class extensions to populate configuration items and discover technologies, you can add items by filtering records based on relationships. You can add items to the group by simply selecting items from all the records.
+Application, Hardware, and Software dependency groups use class extensions to populate configuration items and discover technologies or software. You can add items by filtering records based on the item’s relationship with the BIA dependency group. You can also add items by selecting them from all records.
 
 For example, your business function, Accounts Receivable, may depend on the business application, Acrobat, to complete a business process. Therefore, the relationship is captured as Depends on::Used by. The Accounts Receivable business function depends on the Acrobat application item, and the Acrobat application is used by Accounts Receivable. Similarly, your business function may depend on other dependency groups like software technology or hardware to accomplish a business process.
 

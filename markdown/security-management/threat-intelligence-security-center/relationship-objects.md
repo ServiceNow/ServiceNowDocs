@@ -3,11 +3,11 @@ title: Relationships Objects
 description: Use the relationships objects to link together two observables or an observable and SDO to explain how they relate to each other.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/relationship-objects.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -138,18 +138,18 @@ Indicator-Observable
 This relationship describes between the indicators and observables.
 
 </td></tr></tbody>
-</table>-   **[Define observable-observable relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/define-observable-observable.md)**  
+</table>-   **[Define observable-observable relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/define-observable-observable.md)**  
 Define relationships between observables.
--   **[Define object-object relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/define-object-object-relationships.md)**  
+-   **[Define object-object relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/define-object-object-relationships.md)**  
 Define relationships between SDOs, except the indicator object.
--   **[Define object-observable relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/define-object-observable-relationships.md)**  
+-   **[Define object-observable relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/define-object-observable-relationships.md)**  
 Define relationships between SDOs and the observable object \(SCO\).
--   **[Define object-indicator relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/define-object-indicator-relationships.md)**  
+-   **[Define object-indicator relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/define-object-indicator-relationships.md)**  
 Define relationships between the indicator object and other SDOs.
--   **[Define indicator-indicator relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/define-indicator-indicator-relationships.md)**  
+-   **[Define indicator-indicator relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/define-indicator-indicator-relationships.md)**  
 Define relationships between the indicator object and other Use the relationships objects to link together two observables or an observable and SDO to explain how they relate to each other..
 
-**Parent Topic:**[TISC Library Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-ioc.md)
+**Parent Topic:**[TISC Library Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-ioc.md)
 
 **Related topics**  
 

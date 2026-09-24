@@ -3,12 +3,12 @@ title: Exploring AI Risk and Compliance
 description: Learn how you can use the AI Risk and Compliance application to manage your artificial intelligence \(AI\) capabilities ethically, mitigate AI risks, and ensure compliance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/exploring-ai-risk-and-compliance.html
-release: australia
+release: brazil
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 keywords: [AI Risk and Compliance, AI governance, AI risk management]
 breadcrumb: [AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
@@ -78,7 +78,7 @@ AI risk and compliance admin
 -   Defines AI case types, applies business rules for form fields and assignments, and designs reporting templates to meet business needs.
 
 </td></tr></tbody>
-</table>For specific roles within the AI Risk and Compliance application, refer to [Roles installed with AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/roles-installed-with-ai-risk-and-compliance.md).
+</table>For specific roles within the AI Risk and Compliance application, refer to [Roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/roles-installed-with-ai-risk-and-compliance.md).
 
 ## AI Risk and Compliance workflow
 
@@ -132,7 +132,7 @@ Role
 
 </th></tr></thead><tbody><tr><td>
 
-[AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-asset-lifecycle.md)
+[AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-asset-lifecycle.md)
 
 </td><td>
 
@@ -144,7 +144,7 @@ AI steward
 
 </td></tr><tr><td>
 
-[Perform impact assessment on an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/perform-impact-assessment-of-ai-use-case.md)
+[Perform impact assessment on an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/perform-impact-assessment-of-ai-use-case.md)
 
 </td><td>
 
@@ -157,7 +157,7 @@ The roles required are as follows:-   AI Control Tower: AI Asset Owner
 
 </td></tr><tr><td>
 
-[Perform risk assessments on AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/perform-risk-assessments-on-ai-systems.md)[Initiate risk assessment on AI asset's risks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/request-risk-assessments-for-ai-systems.md)
+[Perform risk assessments on AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/perform-risk-assessments-on-ai-systems.md)[Initiate risk assessment on AI asset's risks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/request-risk-assessments-for-ai-systems.md)
 
 </td><td>
 
@@ -169,9 +169,9 @@ AI Risk and Compliance Analyst
 
 </td></tr><tr><td>
 
-[Create an AI case in the AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/create-ai-case-in-the-ai-risk-and-compliance-workspace.md)
+[Create an AI case in the AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/create-ai-case-in-the-ai-risk-and-compliance-workspace.md)
 
- [Create an AI issue in the AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/create-ai-issue-in-the-ai-risk-and-compliance-workspace.md)
+ [Create an AI issue in the AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/create-ai-issue-in-the-ai-risk-and-compliance-workspace.md)
 
 </td><td>
 
@@ -184,9 +184,9 @@ The roles required are as follows:-   AI case: AI Case Analyst and AI Case Manag
 
 </td></tr><tr><td>
 
-[AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-assets.md)
+[AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-assets.md)
 
- [Create control attestations for an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/attest-controls-for-ai-systems.md)
+ [Create control attestations for an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/attest-controls-for-ai-systems.md)
 
 </td><td>
 
@@ -201,19 +201,19 @@ AI Risk and Compliance Analyst
 
 To learn more about configuring and using AI Risk and Compliance, see:
 
--   [AI governance life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/ai-gov-lifecycle.md)
--   [Configuring AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/configuring-ai-risk-and-compliance.md)
--   [Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
--   [AI Risk and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-reference.md)
+-   [AI governance life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/ai-gov-lifecycle.md)
+-   [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/configuring-ai-risk-and-compliance.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/configuring-ai-risk-and-compliance.md)
+-   [Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
+-   [AI Risk and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-reference.md)
 
 **Related topics**  
 
 
-[AI governance life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/ai-gov-lifecycle.md)
+[AI governance life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/ai-gov-lifecycle.md)
 
-[Configuring AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/configuring-ai-risk-and-compliance.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/configuring-ai-risk-and-compliance.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/configuring-ai-risk-and-compliance.md)
 
-[Intake requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/airc-intake.md)
+[Intake requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/airc-intake.md)
 
-[Roles installed with AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/roles-installed-with-ai-risk-and-compliance.md)
+[Roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/roles-installed-with-ai-risk-and-compliance.md)
 

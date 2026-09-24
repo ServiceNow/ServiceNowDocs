@@ -3,23 +3,23 @@ title: Skills performance
 description: Use the Skills performance dashboard page to view usage and performance indicators of active AI skills.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/skill-usage.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Now Assist, skills, performance, dashboard, indicators, usage, generative AI, Gen AI]
-breadcrumb: [Using AI Analytics, Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Using AI Analytics, Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Skills performance
 
 Use the Skills performance dashboard page to view usage and performance indicators of active AI skills.
 
-The Skills performance dashboard page contains indicators that help you analyze the usage and performance of active skills. Use the **Date range**, **Product**, and **Skills** filters to break down by date range, product, and skill, respectively. The filter selection applies to all visualizations on the page. See [AI Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
+The Skills performance dashboard page contains indicators that help you analyze the usage and performance of active skills. Use the **Date range**, **Product**, and **Skills** filters to break down by date range, product, and skill, respectively. The filter selection applies to all visualizations on the page. See [AI Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
 
 \[Omitted image "naa-skills-performance.png"\] Alt text: AI skills usage and performance indicators.
 
-The indicators on the Skills performance dashboard page provide the following insights. See [AI Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
+The indicators on the Skills performance dashboard page provide the following insights. See [AI Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
 
 -   Skills usage trend visualization for a selected period can reveal skills that have been used more frequently or less frequently.
 -   The Number of actions visualization for a selected period can reveal the scale of AI skill executions. The trend line comparison shows the increasing or decreasing trend from the previous period.
@@ -54,10 +54,10 @@ Select the **View skill details** button to view the usage and performance indic
     \[Omitted image "naa-total-daily-active-users-by-skill.png"\] Alt text: Total daily active users by skills indicator.
 
 
--   **[Skill details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/skill-details.md)**  
+-   **[Skill details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/skill-details.md)**  
 Use the Skill details dashboard page to view usage and performance indicators of a skill.
--   **[Custom skill details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/custom-skill-details.md)**  
+-   **[Custom skill details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/custom-skill-details.md)**  
 Use the Custom skill details dashboard page to view usage and performance indicators of custom skills.
 
-**Parent Topic:**[Using AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-analytics.md)
+**Parent Topic:**[Using AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/using-now-assist-analytics.md)
 

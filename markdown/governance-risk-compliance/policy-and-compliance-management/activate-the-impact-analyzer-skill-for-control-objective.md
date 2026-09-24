@@ -3,11 +3,11 @@ title: Activate the Control Objective Impact Analyzer skill
 description: Enable the Control Objective Impact Analyzer skill from Now Assist Skills page. When this skill is activated, the system uses Generative AI to identify control objectives that should be updated based on the modified citation details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/activate-the-impact-analyzer-skill-for-control-objective.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Otto for Integrated Risk Management \(IRM\), Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -44,6 +44,6 @@ To recommend impacted control objectives, predefined similarity parameters are u
 
     The Review and Activate tab displays information about who can access the skill and the data and resources \(tables and roles\) that the skill can access.
 
-    A skill activation success message appears. After the skill is activated, the **Analyze change** button is available on the citation page for users with the appropriate access.
+    A skill activation success message appears. After the skill is activated, the **Analyze change** button becomes available on the citation page for users with the appropriate access.
 
 

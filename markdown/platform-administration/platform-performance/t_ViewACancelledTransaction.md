@@ -3,11 +3,11 @@ title: View a transaction cancelled because of a quota rule
 description: The Quota Manager logs each canceled transaction as a warning message in the system log.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/t\_ViewACancelledTransaction.html
-release: australia
+release: brazil
 product: Platform Performance
 classification: platform-performance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Transaction quotas, Configure, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---

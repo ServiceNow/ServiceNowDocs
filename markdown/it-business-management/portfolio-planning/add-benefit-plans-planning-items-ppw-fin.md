@@ -3,11 +3,11 @@ title: Add monetary and non-monetary benefit plans related lists
 description: Add the monetary benefit plans and non-monetary benefit plans related lists for your planning item.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/add-benefit-plans-planning-items-ppw-fin.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure financials for Portfolio Planning, Configure, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -54,6 +54,6 @@ Add the monetary benefit plans and non-monetary benefit plans related lists for 
 
 Create and manage monetary and non-monetary benefits plans for your planning items.
 
--   [Create monetary benefit plans for your planning items in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/fin-manage-monetary-benefit-plans-ppw.md)
--   [Manage non-monetary benefit plans for your planning items in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/fin-manage-non-monetary-benefit-plans-ppw.md)
+-   [Create monetary benefit plans for your planning items in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/fin-manage-monetary-benefit-plans-ppw.md)
+-   [Manage non-monetary benefit plans for your planning items in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/fin-manage-non-monetary-benefit-plans-ppw.md)
 

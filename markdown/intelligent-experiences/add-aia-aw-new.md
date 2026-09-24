@@ -3,11 +3,11 @@ title: Add AI agents to an agentic workflow
 description: Add AI agents to an agentic workflow so they can work together to accomplish complex tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-aia-aw-new.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create an agentic workflow, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Create an agentic workflow, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Add AI agents to an agentic workflow
@@ -43,5 +43,5 @@ You have added AI agents to your agentic workflow. The workflow now has the spec
 
 ## What to do next
 
-Scroll down to the next section of the guided setup to [define security controls for your agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-aw-new.md).
+Scroll down to the next section of the guided setup to [define security controls for your agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/define-sec-aw-new.md).
 

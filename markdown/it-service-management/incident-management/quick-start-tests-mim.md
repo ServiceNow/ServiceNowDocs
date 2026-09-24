@@ -3,11 +3,11 @@ title: Quick start tests for Major Incident Management
 description: Validate that Major Incident Management still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/quick-start-tests-mim.html
-release: australia
+release: brazil
 product: Incident Management
 classification: incident-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Managing major incidents, Incident Management, IT Service Management]
 ---
@@ -39,12 +39,12 @@ Major Incident Management quick start tests require activating the Incident Mana
 |MIM: Major Incident workbench layout verification|Test is to verify Major Incident workbench layout verification.|Orlando|
 |MIM: Verify communication task from MI workbench|Test is to verify communication task from MI workbench.|Orlando|
 
-To learn more about Major Incident Management, see [Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/major-incident-management.md).
+To learn more about Major Incident Management, see [Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/major-incident-management.md).
 
-**Parent Topic:**[Managing major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/major-incident-management.md)
+**Parent Topic:**[Managing major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/major-incident-management.md)
 
 **Related topics**  
 
 
-[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/quick-start-tests.md)
+[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/quick-start-tests.md)
 

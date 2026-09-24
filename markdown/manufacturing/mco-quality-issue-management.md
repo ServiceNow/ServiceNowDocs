@@ -3,9 +3,9 @@ title: Quality issue management
 description: Quality issue management \(QIM\) application enables manufacturers to capture, track, and resolve non-conformance and quality investigations using structured, end-to-end workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-quality-issue-management.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Manufacturing Commercial Operations]
 ---
@@ -49,9 +49,9 @@ The Remediation core enables organizations to identify root causes and implement
 
 To learn more about configuring and using quality management, see:
 
--   [Quality issue management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-quality-issue-management-data-model.md)
--   [Install Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/install-manufacturing-commercial-operations-core.md)
--   
--   [Product quality investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-PQI-use.md)
--   [Remediation action plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-remediation-action-plans.md)
+-   [Quality issue management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-quality-issue-management-data-model.md)
+-   [Install Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/install-manufacturing-commercial-operations-core.md)
+-   [Product non-conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-product-non-conformances.md)
+-   [Product quality investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-PQI-use.md)
+-   [Remediation action plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-remediation-action-plans.md)
 

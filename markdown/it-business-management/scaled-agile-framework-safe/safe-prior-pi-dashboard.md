@@ -3,11 +3,11 @@ title: SAFe Prior PI Dashboard
 description: The SAFe Prior PI Dashboard provides data visualization on scope, actual burndown, and forecast trends of previous program increments \(PI\). Analyze the data and plan the work for upcoming PIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/safe-prior-pi-dashboard.html
-release: australia
+release: brazil
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Performance Analytics Content Pack for Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -109,7 +109,7 @@ Bar chart\[Omitted image "inline-data-vis-96px-bar-vertical.png"\] Alt text:
 View the velocity of the ART members for the previous PI and plan the workload for an upcoming PI.
 
 </td></tr></tbody>
-</table>You can customize the Burnup and Burndown reports. For more information, see [Customizing Essential SAFe dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/customizing-safe-dashboard-reports.md).
+</table>You can customize the Burnup and Burndown reports. For more information, see [Customizing Essential SAFe dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/customizing-safe-dashboard-reports.md).
 
-**Parent Topic:**[Performance Analytics Content Pack for Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/pa-content-pack-essential-safe.md)
+**Parent Topic:**[Performance Analytics Content Pack for Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/pa-content-pack-essential-safe.md)
 

@@ -3,11 +3,11 @@ title: Time-limited role
 description: Time-limited roles give users the defined role during the defined time period.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/time-limited-role-overview.html
-release: australia
+release: brazil
 product: User Administration
 classification: user-administration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing roles, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -44,8 +44,8 @@ Assignment Rules
 -   Time-limited assignments can handle more than one role assignment to a user, even if the total duration across assignments is less than five days.
 
 </td></tr></tbody>
-</table>-   **[Grant a time-limited user role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/time-limited-roles.md)**  
+</table>-   **[Grant a time-limited user role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/time-limited-roles.md)**  
 Learn how to assign a role to a user temporarily. Use this feature if you have a user who needs to perform a one-time action that is normally outside their roles.
 
-**Parent Topic:**[Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-roles.md)
+**Parent Topic:**[Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/ua-creating-roles.md)
 

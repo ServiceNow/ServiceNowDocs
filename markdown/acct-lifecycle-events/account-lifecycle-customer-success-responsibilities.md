@@ -3,9 +3,9 @@ title: Customer success management responsibilities
 description: Responsibilities added with Customer Success Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-customer-success-responsibilities.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Customer Success Management]
 ---
@@ -28,5 +28,5 @@ Responsibilities added with Customer Success Management.
 |Customer Executive|Strategic decision-maker on the customer side. Aligns the customer’s business goals with the ServiceNow adoption strategy.|
 |Customer Information Officer \(CIO\)|Executive-level sponsor accountable for aligning ServiceNow initiatives with the customer’s broader IT and digital strategy.|
 
-**Parent Topic:**[Customer Success Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-reference.md)
+**Parent Topic:**[Customer Success Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-reference.md)
 

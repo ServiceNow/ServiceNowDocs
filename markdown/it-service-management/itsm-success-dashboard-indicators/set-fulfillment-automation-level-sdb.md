@@ -3,11 +3,11 @@ title: Set fulfillment automation level of catalog item for the Success Dashboar
 description: Set the fulfillment automation level of catalog items from manual to fully-automate to reduce manual effort and accelerate the turn around time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-success-dashboard-indicators/set-fulfillment-automation-level-sdb.html
-release: australia
+release: brazil
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
 topic_type: task
-last_updated: "2026-04-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ITSM Success Dashboard Admin console, Configure, ITSM Success Dashboard indicators, IT Service Management]
 ---
@@ -46,8 +46,6 @@ The Fulfillment automation level field does not change based on how ServiceNow p
 
     1.  Go to **All** &gt; **Success Dashboard** &gt; **Getting Started** &gt; ******Catalog item fulfillment level** card **Configure**
     2.  In the **Catalog Item fulfillment level** page, you can view the **Fulfillment automation level distribution** as a pie chart.
-    \[Omitted image "fulfillment-automation-level-distribution.png"\] Alt text: Fulfillment automation level distribution pie chart
 
-
-**Parent Topic:**[ITSM Success Dashboard Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/admin-console-sd.md)
+**Parent Topic:**[ITSM Success Dashboard Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-success-dashboard-indicators/admin-console-sd.md)
 

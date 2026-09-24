@@ -1,29 +1,29 @@
 ---
 title: Product Owner portal
-description: Explore the product owner view and navigate through the accessible tabs in the AI Control Tower.
+description: Explore the product owner view and navigate through the accessible tabs on AI Control Tower to ensure a comprehensive understanding of the features.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/product-owner-portal.html
-release: australia
+release: brazil
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Explore, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Product Owner portal
 
-Explore the product owner view and navigate through the accessible tabs in the AI Control Tower.
+Explore the product owner view and navigate through the accessible tabs on AI Control Tower to ensure a comprehensive understanding of the features.
 
 ## Product owner view
 
 The AI Control Tower product owner view displays tabs for AI asset owner and workspace users. The AI asset owner can access **My overview**, **Value**, and **Adoption** tabs and the workspace user can access the **AI portfolio** tab.
 
-For information about My overview tab, see [My overview tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/my-overview-tab.md)
+For information about My overview tab, see [My overview tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/my-overview-tab.md)
 
-For information about My portfolio tab, see [AI portfolio tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-portfolio-tab.md)
+For information about My portfolio tab, see [AI portfolio tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/ai-portfolio-tab.md)
 
-For information about Value tab, see [Value tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/aict-value-tab.md)
+For information about Value tab, see [Value tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/aict-value-tab.md)
 

@@ -3,11 +3,11 @@ title: Create or modify a connection using the map editor
 description: Use the map editor to add a relationship between two CIs or to modify an existing relationship.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/unified-map/unified-map-edit-connection.html
-release: australia
+release: brazil
 product: Unified Map
 classification: unified-map
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Editing a map, Use, Unified Map, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,7 +28,7 @@ Role required: sn\_cmdb\_admin or sn\_cmdb\_editor
 
 Two CIs might be connected by one or more relationships \(stored in the CI Relationship \[cmdb\_rel\_ci\] table\). For example, two CIs might be connected by the **Runs On::Runs**, **Depends On::Discovered From**, and by the **Owned By::Owns** relationships.
 
-You can learn more about relationships at [CI relationships in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationships.md).
+You can learn more about relationships at [CI relationships in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationships.md).
 
 The map editor does not support the following actions:
 
@@ -42,15 +42,15 @@ The map editor does not support the following actions:
 
 1.  While editing a map, specify whether to create or modify a connection.
 
-<table id="choicetable_cb2_gjb_l2c"><thead><tr><th align="left" id="d472667e134">
+<table id="choicetable_cb2_gjb_l2c"><thead><tr><th align="left" id="d470937e134">
 
 Action
 
-</th><th align="left" id="d472667e137">
+</th><th align="left" id="d470937e137">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d472667e143">
+</th></tr></thead><tbody><tr><td id="d470937e143">
 
 **Create a connection**
 
@@ -62,7 +62,7 @@ Take one of the following actions:
 -   Select a CI for the connection \(either the parent or the child\) and then select the Manage connection icon \[Omitted image "icon-um-edit-connection.png"\].
 
 
-</td></tr><tr><td id="d472667e168">
+</td></tr><tr><td id="d470937e168">
 
 **Modify an existing connection**
 
@@ -74,13 +74,13 @@ Take one of the following actions:
 -   Select a CI for the connection \(either the parent or the child\) and then select the Attributes icon \[Omitted image "icon-um-attributes-panel.png"\]. All connections for the CI are listed in boxes. \[Omitted image "um-editor-attrib-card-cxn.png"\] Select **Change**.
 
 
-</td></tr><tr><td id="d472667e197">
+</td></tr><tr><td id="d470937e197">
 
 **Delete a connection**
 
 </td><td>
 
-For instructions, see [Delete a connection using the map editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-delete-connection.md).
+For instructions, see [Delete a connection using the map editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/unified-map/unified-map-delete-connection.md).
 
 </td></tr></tbody>
 </table>2.  On the Manage connection panel \(\[Omitted image "icon-um-edit-connection.png"\]\), specify the settings.
@@ -136,13 +136,13 @@ The relationship between the CIs. For example, the relationship between the pare
 **Related topics**  
 
 
-[CI relationships in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationships.md)
+[CI relationships in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationships.md)
 
-[Suggested class relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/r_SuggestedRelationshipModel.md)
+[Suggested class relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/r_SuggestedRelationshipModel.md)
 
-[Add a suggested relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_AddANewSuggestedRelationship.md)
+[Add a suggested relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/t_AddANewSuggestedRelationship.md)
 
-[Editing maps in Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-editing-map.md)
+[Editing maps in Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/unified-map/unified-map-editing-map.md)
 
-[Delete a connection using the map editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-delete-connection.md)
+[Delete a connection using the map editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/unified-map/unified-map-delete-connection.md)
 

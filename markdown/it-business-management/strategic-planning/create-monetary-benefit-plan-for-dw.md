@@ -3,11 +3,11 @@ title: Edit monetary benefit plans for a demand
 description: Edit a planned monetary benefit plan to revise the benefits, dates, and offset to keep financial records current.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/create-monetary-benefit-plan-for-dw.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create monetary benefit plans, Manage financials for demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Edit a planned monetary benefit plan to revise the benefits, dates, and offset t
 
 ## Before you begin
 
-A monetary benefit plan exists. For more information, see [Create a monetary benefit plan for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-monetary-benefit-plans-for-a-demand-dw.md).
+A monetary benefit plan exists. For more information, see [Create a monetary benefit plan for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/create-monetary-benefit-plans-for-a-demand-dw.md).
 
 Role required: it\_demand\_manager
 
@@ -32,15 +32,15 @@ Role required: it\_demand\_manager
 
 4.  Edit a monetary benefit plan using one of the following options.
 
-<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d86932e100">
+<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d86472e100">
 
 Option
 
-</th><th align="left" id="d86932e103">
+</th><th align="left" id="d86472e103">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d86932e109">
+</th></tr></thead><tbody><tr><td id="d86472e109">
 
 **Using the __Monetary Benefit Plans__ tab**
 
@@ -55,7 +55,7 @@ Procedure
 4.  Edit the required fields and select **Save**.
 
 
-</td></tr><tr><td id="d86932e159">
+</td></tr><tr><td id="d86472e159">
 
 **Using the __Financials__ page**
 

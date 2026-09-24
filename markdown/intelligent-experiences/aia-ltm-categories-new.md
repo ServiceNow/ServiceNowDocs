@@ -3,11 +3,11 @@ title: Long-term memory categories
 description: Long-term memory \(LTM\) categories define the types of semantic information that a Now Assist AI agent can learn and retain about users over time. You can add new categories and map them to specific agents to personalize agent responses based on accumulated user context.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aia-ltm-categories-new.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Set up long-term memory, AI Agent Studio settings, Configure AI Agent Studio, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Set up long-term memory, AI Agent Studio settings, Configure AI Agent Studio, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Long-term memory categories

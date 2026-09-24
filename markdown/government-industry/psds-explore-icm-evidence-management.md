@@ -3,9 +3,9 @@ title: Using Investigative Case Management Evidence Management
 description: Investigative Case Management Evidence Management guides investigators through the process of logging and managing all physical and digital evidence associated with a case, ensuring it's consistently classified, accessed, and associated with relevant investigative records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-explore-icm-evidence-management.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Investigative Case Management, Solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
@@ -36,7 +36,7 @@ Investigators can access Evidence Management directly from the Investigative Cas
 -   Property \(items discovered or stolen\)
 -   Organizations \(gangs, schools, employers\)
 
-For information on how to link evidence to entities, see [Associate and link evidence to entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-icm-associate-evidence-entities.md).
+For information on how to link evidence to entities, see [Associate and link evidence to entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-using-icm-associate-evidence-entities.md).
 
 ## Evidence Tabs
 
@@ -101,5 +101,5 @@ In the Investigative Case Management application, a Chain of Custody record answ
 
 The following example shows the view for an investigator who wants to view the log for a piece of evidence.\[Omitted image "icmcocview.png"\] Alt text: Evidence Management CoC Log
 
-For information on how to create a chain of custody log in Evidence Management, see [Create a chain of custody log for an evidence record in an investigative case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-icm-create-chain-of-custody-log.md).
+For information on how to create a chain of custody log in Evidence Management, see [Create a chain of custody log for an evidence record in an investigative case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-using-icm-create-chain-of-custody-log.md).
 

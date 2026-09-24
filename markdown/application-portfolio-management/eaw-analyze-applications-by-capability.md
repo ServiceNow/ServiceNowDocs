@@ -3,9 +3,9 @@ title: Analyze applications using the bubble chart
 description: Consolidate and analyze the business applications based on multiple scores.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-analyze-applications-by-capability.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use bubble chart view, Working with application rationalization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_apm.apm\_analyst
 
 You can narrow down the number of business applications that may be viewed, based on their application indicator scores.
 
-You can also generate insights into business applications using Now Assist. For information, see [Generate insights into business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/generate-insights-into-ba.md).
+You can also generate insights into business applications using Now Assist. For information, see [Generate insights into business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/generate-insights-into-ba.md).
 
 ## Procedure
 
@@ -40,23 +40,23 @@ You can also generate insights into business applications using Now Assist. For 
 
         **Note:**
 
-        -   For details on how to add the X and Y-axis indicators of the bubble chart, see [Add or edit an application indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-indicator.md).
+        -   For details on how to add the X and Y-axis indicators of the bubble chart, see [Add or edit an application indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-indicator.md).
         -   For a bubble to be displayed on the bubble chart, the indicator scores for the selected fiscal period must be available for both X and Y-axis indicators.
     -   Bubble size: The bubble size is based on indicators related to business applications. The indicator scores determine the size of the bubble.
 
-        You can also create your own application indicators to analyze business applications in the bubble chart. For information on how to create custom application indicators, see [Add or edit an application indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-indicator.md).
+        You can also create your own application indicators to analyze business applications in the bubble chart. For information on how to create custom application indicators, see [Add or edit an application indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-indicator.md).
 
         **Note:**
 
-        -   The created indicator must also be attached to the default application profile. For information on how to attach new profile indicators with a scoring profile, see [Attach a profile indicator to a scoring profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-attach-profile-indicators-with-application-scoring-profiles.md).
-        -   If the created indicator isn’t displayed in the bubble size list, make sure that the indicator is active. For information on how to activate an indicator, see [Activate or turn off an application or capability indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-enable-or-disable-an-application-indicator.md).
+        -   The created indicator must also be attached to the default application profile. For information on how to attach new profile indicators with a scoring profile, see [Attach a profile indicator to a scoring profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-attach-profile-indicators-with-application-scoring-profiles.md).
+        -   If the created indicator isn’t displayed in the bubble size list, make sure that the indicator is active. For information on how to activate an indicator, see [Activate or turn off an application or capability indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-enable-or-disable-an-application-indicator.md).
     -   Bubble color: The bubble color is based on the planned disposition value of the application. You can refer to the legend displayed on the bubble chart to see the significance of each color.
 
         **Note:** The bubble color settings can’t be modified.
 
     -   Bubble labels: Enable the toggle to display the bubble labels in the bubble chart. The bubble labels represent the business application names.
 
-        The bubble chart displays up to 500 bubbles representing business applications, by default. If you want to see more than 500 bubbles, you can configure the **sn\_apm\_ws.appRationalizationMaximumBubbles** system property. For details, see [Change the number of bubbles displayed on the bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-update-sys-prop-change-number-of-bubbles.md).
+        The bubble chart displays up to 500 bubbles representing business applications, by default. If you want to see more than 500 bubbles, you can configure the **sn\_apm\_ws.appRationalizationMaximumBubbles** system property. For details, see [Change the number of bubbles displayed on the bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-update-sys-prop-change-number-of-bubbles.md).
 
 5.  Select **Apply**.
 
@@ -67,14 +67,14 @@ You can also generate insights into business applications using Now Assist. For 
     \[Omitted image "bubble-chart-group.png"\] Alt text: Bubble chart page with a grouped bubble and the info section displaying the individual business applications within the grouped bubble, highlighted.
 
 
-**Parent Topic:**[Use bubble chart view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-using-app-rat-bubble-chart-view.md)
+**Parent Topic:**[Use bubble chart view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-using-app-rat-bubble-chart-view.md)
 
 **Related topics**  
 
 
-[Create a demand using the bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-a-demand-using-the-bubble-chart.md)
+[Create a demand using the bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-a-demand-using-the-bubble-chart.md)
 
-[Set the planned disposition of a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-set-planned-disposition-of-a-business-application.md)
+[Set the planned disposition of a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-set-planned-disposition-of-a-business-application.md)
 
-[Add business application lifecycle data using bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-business-application-lifecycle-data.md)
+[Add business application lifecycle data using bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-add-business-application-lifecycle-data.md)
 

@@ -3,9 +3,9 @@ title: Create catalog tags
 description: Create tags that can be applied to data assets for classification and categorization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-tags-dc.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Governing the Data Catalog, Data Catalog, Workflow Data Fabric]
 ---
@@ -61,7 +61,7 @@ The tag is created and appears in the Tag Manager list. The tag is now available
 
 ## What to do next
 
-After creating tags, apply them to data assets in the Tags field of the Classification section when editing a data asset. For details, see [Update a data asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/update-data-asset.md).
+After creating tags, apply them to data assets in the Tags field of the Classification section when editing a data asset. For details, see [Update a data asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/update-data-asset.md).
 
-**Parent Topic:**[Governing the Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-data-catalog.md)
+**Parent Topic:**[Governing the Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/manage-data-catalog.md)
 

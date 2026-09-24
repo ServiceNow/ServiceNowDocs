@@ -3,11 +3,11 @@ title: Fiscal year Performance Analytics properties
 description: These properties set the year in Performance Analytics to match your company fiscal year.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/pa-fiscal-year-props.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Properties, Reference, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -35,5 +35,5 @@ Start of the fiscal year of your companyRange: 1 \(January\) - 12 \(December\)
  Default: 1
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-properties.md)
+</table>**Parent Topic:**[Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/pa-properties.md)
 

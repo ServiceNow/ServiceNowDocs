@@ -3,11 +3,11 @@ title: Create or schedule a data collection job
 description: Schedule a data collection job to regularly collect Performance Analytics indicator scores and snapshots.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/t\_CreatASchedDataCollJob.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Collecting indicator scores, Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -84,7 +84,7 @@ Run as
 
 For domain separated instances, select the user that runs this job. The job collects scores from facts table and Performance Analytics records that have either the Global domain or are in the domain of this user. The data collection job follows only the domain, not the permissions of this user. ACLs and business rules do not apply to data collection jobs. Any user can run the job.
 
- **Important:** If you select a domain configuration for this job, it overrides the **Run as** user. See Step [9](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreatASchedDataCollJob.md) in this topic.
+ **Important:** If you select a domain configuration for this job, it overrides the **Run as** user. See Step [9](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/t_CreatASchedDataCollJob.md) in this topic.
 
 </td></tr><tr><td>
 
@@ -114,7 +114,7 @@ Select the schedule for collecting the data. Choices are: -   Daily
 -   Periodically
 -   Once
 -   On demand
- If you are using business calendars, you also have these options, for the start and end of the business calendar period \(See [Define business calendar entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/define-business-calendar-entries.md)\):
+ If you are using business calendars, you also have these options, for the start and end of the business calendar period \(See [Define business calendar entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/define-business-calendar-entries.md)\):
 
 -   Business calendar: Entry start
 -   Business calendar: Entry end
@@ -165,7 +165,7 @@ Collect
 Data collection jobs have separate steps for collecting scores and for collecting text analytics. Select one of:-   Scores only
 -   Text index only
 -   Both scores and text index \(default\)
- For more information, see [Set up text analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/set-up-text-analytics.md).
+ For more information, see [Set up text analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/set-up-text-analytics.md).
 
 </td></tr><tr><td>
 
@@ -181,9 +181,9 @@ Conditions
 
 </td><td>
 
-A conditional script that determines if a scheduled job should run. The last expression of the script should evaluate to a Boolean \(true/false\) value. This text box appears only if you select **Use conditions**. **Warning:** Conditional scripts for Performance Analytics data collection jobs are executed in the sandbox. Therefore, function definitions are not allowed. Some API calls and keywords are also not allowed. For more information, see Script sandbox property.
+A conditional script that determines if a scheduled job should run. The last expression of the script should evaluate to a Boolean \(true/false\) value. This text box appears only if you select **Use conditions**. **Warning:** Conditional scripts for Performance Analytics data collection jobs are executed in the sandbox. Therefore, function definitions aren't allowed. Some API calls and keywords are also not allowed. For more information, see Script sandbox property.
 
-After upgrade, jobs with conditional scripts that contain these disallowed API components will conclude with "Collected with errors." These jobs do not collect scores.
+After upgrade, jobs with conditional scripts that contain these disallowed API components will conclude with "Collected with errors." These jobs don't collect scores.
 
 The `com.snc.pa.dc.script.use.sandbox` system property controls whether data collection scripts use the sandbox. Only users with the security\_admin role can modify this property. Exercise caution when turning off this property. When set to false, unauthorized users may be able to execute malicious actions on your instance.
 
@@ -199,15 +199,15 @@ The `com.snc.pa.dc.script.use.sandbox` system property controls whether data col
     -   The data collection job produces one database query for each indicator source for the associated indicators. Thus the data for all indicators that share an indicator source represent the same point in time.
 9.  If you have enabled domain configurations, you can select a domain configuration to associate with this job in the **Domain configurations** related list.
 
-    Domain configurations are grouping of domains based on their visibility to a user group or other condition. These groupings can include parent-child relationships. If you select a domain configuration for a job, the job collects scores for records in the domains of the configuration, including the global domain. Domain configurations override the **Run as** user. For more information, see [Grouping domains in Performance Analytics domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-domain-separation-msp.md).
+    Domain configurations are grouping of domains based on their visibility to a user group or other condition. These groupings can include parent-child relationships. If you select a domain configuration for a job, the job collects scores for records in the domains of the configuration, including the global domain. Domain configurations override the **Run as** user. For more information, see [Grouping domains in Performance Analytics domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/pa-domain-separation-msp.md).
 
 10. Click **Submit**.
 
 
 ## What to do next
 
--   By default, for each job indicator, data is collected for all breakdowns and the indicator itself. To change this configuration for an indicator, see [Configure a job indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/configure-job-indicator.md).
--   If you have enabled domain support, you have a related list named **Domain configuration**. In this tab, click **Edit** to relate an existing domain configuration with this job or click **New** to create a new domain configuration. For more information, see [Create a domain configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-domain-configuration.md).
+-   By default, for each job indicator, data is collected for all breakdowns and the indicator itself. To change this configuration for an indicator, see [Configure a job indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/configure-job-indicator.md).
+-   If you have enabled domain support, you have a related list named **Domain configuration**. In this tab, click **Edit** to relate an existing domain configuration with this job or click **New** to create a new domain configuration. For more information, see [Create a domain configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/create-domain-configuration.md).
 
-**Parent Topic:**[Collecting indicator scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_ClctData.md)
+**Parent Topic:**[Collecting indicator scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_ClctData.md)
 

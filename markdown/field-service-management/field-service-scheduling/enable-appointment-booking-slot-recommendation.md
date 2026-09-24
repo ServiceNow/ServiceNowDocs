@@ -3,11 +3,11 @@ title: Enable appointment booking slot recommendation
 description: Appointment booking slot recommendations help users quickly select the best available appointment times based on your configured scheduling rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/enable-appointment-booking-slot-recommendation.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Appointment slot recommendation, Configure Appointment Booking, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---

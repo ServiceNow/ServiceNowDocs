@@ -3,11 +3,11 @@ title: Configure Password Reset properties
 description: You can specify properties that configure the Password Reset experience for end users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_SetPwdResetProps.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Password Reset, Local authentication, Authentication, Access Management]
 ---
@@ -30,7 +30,7 @@ For example, you would not want to allow 100 attempts for users to verify their 
 
 1.  Navigate to **All** &gt; **Password Reset** &gt; **Properties**.
 
-    For information about the Password Reset properties, see [Password Reset global properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset-global-properties.md).
+    For information about the Password Reset properties, see [Password Reset global properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset-global-properties.md).
 
 2.  Update settings as needed and then click **Save**.
 

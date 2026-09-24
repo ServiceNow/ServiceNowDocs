@@ -3,11 +3,11 @@ title: Predictive Intelligence for Demand Management
 description: The Predictive Intelligence for Demand Management capability uses machine-learning algorithms to search and display similar demands while creating a demand in the Demand form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/predictive-intelligence-for-demand.html
-release: australia
+release: brazil
 product: Demand Management
 classification: demand-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -36,7 +36,7 @@ Activate the following plugins before using the Predictive Intelligence Workbenc
 
 ## Solution definition for Predictive Intelligence for Demand Management
 
-The solution definition for Predictive Intelligence for Demand Management capability is available in the Predictive Intelligence for PPM plugin \(com.snc.ppm\_ml\). For more information about Predictive Intelligence, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence.md) and [Contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ContextualSearch.md).
+The solution definition for Predictive Intelligence for Demand Management capability is available in the Predictive Intelligence for PPM plugin \(com.snc.ppm\_ml\). For more information about Predictive Intelligence, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/predictive-intelligence.md) and [Contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ContextualSearch.md).
 
 <table id="table_bdh_nzs_kbc"><thead><tr><th>
 
@@ -67,14 +67,14 @@ Similarity
 View similar demands based on the **Demand Name** and **Description** fields. You can see the results in the **Similar demands** section on the Demand form.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/exploring-demand-management.md)
+</table>**Parent Topic:**[Exploring Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/exploring-demand-management.md)
 
 **Related topics**  
 
 
-[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence.md)
+[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/predictive-intelligence.md)
 
-[Train the similarity solution for Demand Management to find similar demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/train-similarity-solution-dm.md)
+[Train the similarity solution for Demand Management to find similar demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/train-similarity-solution-dm.md)
 
-[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreatingDemands.md)
+[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/t_CreatingDemands.md)
 

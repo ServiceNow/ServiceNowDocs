@@ -3,11 +3,11 @@ title: Summarize the feedback by using ServiceNow Otto for Strategic Portfolio M
 description: Generate a summary from the name and description of feedback records. This helps you analyze a large volume of feedback quickly without reading each record manually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/product-feedback/feedback-summary-sentiment-topics-pf.html
-release: australia
+release: brazil
 product: Product Feedback
 classification: product-feedback
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Use, Feedback in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -15,8 +15,6 @@ breadcrumb: [Use, Feedback in Strategic Planning, Strategic Planning, Strategic 
 # Summarize the feedback by using ServiceNow Otto for Strategic Portfolio Management
 
 Generate a summary from the name and description of feedback records. This helps you analyze a large volume of feedback quickly without reading each record manually.
-
-\[Omitted video\] Description: Multi feedback summarization video.
 
 ## Before you begin
 
@@ -37,7 +35,7 @@ Generate a summary from the name and description of feedback records. This helps
 
 If you have users with custom roles that need access to this skill, you must update ACLs for those roles and also add those custom roles to the In product role.
 
-The Feedback or Multi feedback summarization skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configuring-na-spm.md).
+The Feedback or Multi feedback summarization skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/configuring-na-spm.md).
 
 Role required: pf\_user
 
@@ -55,7 +53,7 @@ With the feedback or multi feedback summarization skill, you can get enough deta
 
     View a loader for the side panel while the summary content loads for a more engaging loading experience.
 
-    If you want to generate a summary for one feedback record, you can either generate it from the list level or at the record level. At the record level, the feedback summary is displayed in the Now Assist component. The component is collapsed by default and expands to display the summary.
+    If you want to generate a summary for one feedback record, you can either generate it from the list level or at the record level. At the record level, the feedback summary is displayed in the side panel. The component is collapsed by default and expands to display the summary.
 
 4.  Select **Summarize**.
 
@@ -73,15 +71,15 @@ With the feedback or multi feedback summarization skill, you can get enough deta
 
 5.  When you're finished summarizing the feedback, you can expand or collapse the summary, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_mzf_fyg_y1c"><thead><tr><th align="left" id="d150344e211">
+<table id="choicetable_mzf_fyg_y1c"><thead><tr><th align="left" id="d150464e201">
 
 Option
 
-</th><th align="left" id="d150344e214">
+</th><th align="left" id="d150464e204">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d150344e220">
+</th></tr></thead><tbody><tr><td id="d150464e210">
 
 **Expand or collapse the summary**
 
@@ -89,7 +87,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand-spm.png"\] Alt text: Expand card icon.\) or the collapse card icon \(\[Omitted image "icon-collapse-spm.png"\] Alt text: Collapse card icon.\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d150344e241">
+</td></tr><tr><td id="d150464e231">
 
 **More information on summary**
 
@@ -97,7 +95,7 @@ Select the expand card icon \(\[Omitted image "icon-expand-spm.png"\] Alt text: 
 
 If you want to check some details about the summary, select the more info icon \(\[Omitted image "icon-more-information-spm.png"\] Alt text: More information icon.\).
 
-</td></tr><tr><td id="d150344e256">
+</td></tr><tr><td id="d150464e246">
 
 **View more or less summary**
 
@@ -105,7 +103,7 @@ If you want to check some details about the summary, select the more info icon \
 
 Select **View more** or **View less** to see more or less summary information.
 
-</td></tr><tr><td id="d150344e271">
+</td></tr><tr><td id="d150464e261">
 
 **Provide feedback for the summary**
 
@@ -113,7 +111,7 @@ Select **View more** or **View less** to see more or less summary information.
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful-feedback.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-nt-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d150344e295">
+</td></tr><tr><td id="d150464e285">
 
 **Copy the feedback summary**
 
@@ -121,7 +119,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy-spm.png"\] Alt text: Copy to clipboard icon.\) to use the feedback summary information for another purpose, such as pasting it into an email.
 
-</td></tr><tr><td id="d150344e310">
+</td></tr><tr><td id="d150464e300">
 
 **Refresh the summary**
 
@@ -129,7 +127,7 @@ Select the copy to clipboard icon \(\[Omitted image "icon-copy-spm.png"\] Alt te
 
 Select **Refresh** to reload the feedback summary.
 
-</td></tr><tr><td id="d150344e322">
+</td></tr><tr><td id="d150464e312">
 
 **Copy and create epic from summary**
 
@@ -150,13 +148,13 @@ Select **Copy and create epic** to create a planning or non-planning item by usi
 **Related topics**  
 
 
-[Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configuring-na-spm.md)
+[Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/configuring-na-spm.md)
 
-[Install AI plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/install-now-assist-spm-plugin.md)
+[Install AI plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/install-now-assist-spm-plugin.md)
 
-[Skill inputs for ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/skill-inputs-for-now-assist-for-spm.md)
+[Skill inputs for ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/skill-inputs-for-now-assist-for-spm.md)
 
-[Use AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/using-na-admin-spm.md)
+[Use AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/using-na-admin-spm.md)
 
-[Supporting information for ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/supporting-info-now-assist-spm.md)
+[Supporting information for ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/supporting-info-now-assist-spm.md)
 

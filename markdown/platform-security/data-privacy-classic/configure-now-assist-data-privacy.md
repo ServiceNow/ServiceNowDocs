@@ -3,12 +3,12 @@ title: Configuring Data Privacy for ServiceNow Otto
 description: Configure a data privacy advanced configuration to de-identify personally identifiable information \(PII\) in generative AI applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/configure-now-assist-data-privacy.html
-release: australia
+release: brazil
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Data Privacy for ServiceNow Otto, Data Privacy, Platform Privacy]
 ---
 
@@ -59,7 +59,7 @@ Role required: now\_assist\_data\_privacy\_admin
 
 7.  To add a data pattern to de-identify, select **Select Data Patterns**.
 
-8.  To create your own data pattern, see [Configure Data Discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery/configure-data-discovery-patterns.md).
+8.  To create your own data pattern, see [Configure Data Discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-discovery/configure-data-discovery-patterns.md).
 
 9.  Select your data patterns, then select **Save**.
 

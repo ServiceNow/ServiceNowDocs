@@ -3,11 +3,11 @@ title: Set up integration user account in DevOps Change Velocity
 description: Set up the integration user account to enable integrating with your third-party tools.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/devops-plybk-set-up-system-accts.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, DevOps Change Velocity, IT Service Management]
 ---
@@ -34,15 +34,15 @@ The default integration user credential will be applicable for all the tools. If
 
 1.  Set the integration user password in one of the following ways.
 
-<table id="choicetable_g4v_f5r_gwb"><thead><tr><th align="left" id="d241389e88">
+<table id="choicetable_g4v_f5r_gwb"><thead><tr><th align="left" id="d246120e88">
 
 Option
 
-</th><th align="left" id="d241389e91">
+</th><th align="left" id="d246120e91">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d241389e97">
+</th></tr></thead><tbody><tr><td id="d246120e97">
 
 **Using workspace**
 
@@ -64,18 +64,18 @@ Steps
 
 \[Omitted image "setupsystemaccount-3.png"\] Alt text: Selecting Set password for DevOps integration user account through workspace.
 
-</td></tr><tr><td id="d241389e177">
+</td></tr><tr><td id="d246120e177">
 
 **Using Classic UI**
 
 </td><td>
 
-Set a password for the DevOps integration user by navigating to **All** &gt; **User Administration** &gt; **Users**. For more information, see [Set password for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/reset-your-password.md).
+Set a password for the DevOps integration user by navigating to **All** &gt; **User Administration** &gt; **Users**. For more information, see [Set password for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/reset-your-password.md).
 
 </td></tr></tbody>
 </table>
 ## What to do next
 
--   [Onboard to DevOps Change Velocity using Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/onboarding-using-devops-change-workspace.md)
--   [Start integrating DevOps Change Velocity with third-party tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/integrating-devops-change-with-third-party-tools.md).
+-   [Onboard to DevOps Change Velocity using Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/onboarding-using-devops-change-workspace.md)
+-   [Start integrating DevOps Change Velocity with third-party tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/integrating-devops-change-with-third-party-tools.md).
 

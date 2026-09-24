@@ -3,9 +3,9 @@ title: Resolve order fallouts
 description: Learn how to close the order fallout tasks in Order Management so that you can progress with order fulfillment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/resolve-order-fallouts.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing order fallout, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_fallout\_mgmt.fallout\_manager, sn\_fallout\_mgmt.fallout\_ag
 
 ## Procedure
 
-1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
+1.  Navigate to  **Workspaces** &gt; **CRM Workspace** .
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -30,7 +30,7 @@ Role required: sn\_fallout\_mgmt.fallout\_manager, sn\_fallout\_mgmt.fallout\_ag
 
 4.  Select the fallout record you want to view.
 
-    For information about field descriptions, see the Fallout workspace fields section in [Fallout form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/fields-create-fallout-form.md).
+    For information about field descriptions, see the Fallout workspace fields section in [Fallout form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/fields-create-fallout-form.md).
 
 5.  Enter a work note to as you work with the fallout task.
 
@@ -41,14 +41,14 @@ Role required: sn\_fallout\_mgmt.fallout\_manager, sn\_fallout\_mgmt.fallout\_ag
 
 ## What to do next
 
-After resolving a fallout task, review and close the order fulfillment task. For more information, see [Review and close fulfillment tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-customer-order-tasks.md).
+After resolving a fallout task, review and close the order fulfillment task. For more information, see [Review and close fulfillment tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-customer-order-tasks.md).
 
-**Parent Topic:**[Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/fallout-management-overview.md)
+**Parent Topic:**[Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/fallout-management-overview.md)
 
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-order-management.md)
 

@@ -3,9 +3,9 @@ title: AI agents and agentic workflows in Simplified IT Service Management
 description: Use conversational AI-native experience for administrators, employees, and fulfillers using Simplified IT Service Management \(Simplified ITSM\). AI agents and agentic workflows provide a step-by-step approach to configure ITSM workflows with validated inputs and preview.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/agents-ai-native-it-service-desk.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Reference, Simplified IT Service Management, IT Service Management]
 ---
@@ -18,11 +18,11 @@ Use conversational AI-native experience for administrators, employees, and fulfi
 
 These AI agents help administrators configure ITSM workflows seamlessly from a single admin UI page using natural language.
 
-For information about admin configurations applicable for Simplified ITSM, see [Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md).
+For information about admin configurations applicable for Simplified ITSM, see [Configure the Platform module in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ia-config-platform-il.md).
 
-For information about employee configurations in Simplified ITSM, see [Configuring the employee experience in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configuring-employee-experience-ai-native-itsm.md).
+For information about employee configurations in Simplified ITSM, see [Configuring the employee experience in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/configuring-employee-experience-ai-native-itsm.md).
 
-For information about fulfiller configurations in Simplified ITSM, see [Configuring the fulfiller experience in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configuring-fulfiller-experience-ai-native-itsm.md).
+For information about fulfiller configurations in Simplified ITSM, see [Configuring the fulfiller experience in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/configuring-fulfiller-experience-ai-native-itsm.md).
 
 <table id="table_ckp_xzv_t3c"><thead><tr><th>
 
@@ -251,13 +251,13 @@ These AI agents help fulfillers with their ITSM tasks using natural language.
 
 |Agentic workflow|Description|
 |----------------|-----------|
-|Investigate and resolve ITSM incidents|Provides recommendations to resolve an incident based on the incident number. Checks for related catalog items, Knowledge articles, and similar resolved incidents to generate resolution steps for the incident. For information about this agentic workflow, see [IT Service Management AI agent collection Investigate and resolve ITSM incidents agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-incident-resolver-workflow.md).|
-|Triage and categorize ITSM incidents|Assigns incident categories and subcategories based on its short description. After categorizing the incident, assigns the service, service offering, and configuration item \(CI\) related to the incident. It also automatically links incidents to major incidents or known problems. For information about this agentic workflow, see [IT Service Management AI agent collection Triage and categorize ITSM incidents agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-catincidents-usecase.md).|
+|Investigate and resolve ITSM incidents|Provides recommendations to resolve an incident based on the incident number. Checks for related catalog items, Knowledge articles, and similar resolved incidents to generate resolution steps for the incident. For information about this agentic workflow, see [IT Service Management AI agent collection Investigate and resolve ITSM incidents agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-incident-resolver-workflow.md).|
+|Triage and categorize ITSM incidents|Assigns incident categories and subcategories based on its short description. After categorizing the incident, assigns the service, service offering, and configuration item \(CI\) related to the incident. It also automatically links incidents to major incidents or known problems. For information about this agentic workflow, see [IT Service Management AI agent collection Triage and categorize ITSM incidents agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-catincidents-usecase.md).|
 
-**Parent Topic:**[Simplified IT Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/ai-native-it-service-desk-reference.md)
+**Parent Topic:**[Simplified IT Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/ai-native-it-service-desk-reference.md)
 
 **Related topics**  
 
 
-[Explore AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-ai-agents.md)
+[Explore AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/exploring-ai-agents.md)
 

@@ -3,11 +3,11 @@ title: TPRM Risk concentration map
 description: The Risk concentration map page pinpoints the geographical locations of active third parties and engagements. You can configure filters to view particular risk ratings and engagement types.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-ws-risk-concentration-map.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Viewing third-party risk reports, Monitor third-party risk, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,7 @@ The Risk concentration map page pinpoints the geographical locations of active t
 
 ## Accessing the page
 
-**Note:** This feature is available only if the Third-party Risk Management application has been activated. After you install the Risk concentration map feature, you must install a Google license to enable the feature. To enable the risk concentration map feature, see [Enable the TPRM Risk concentration map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-risk-map-configure.md).
+**Note:** This feature is available only if the Third-party Risk Management application has been activated. After you install the Risk concentration map feature, you must install a Google license to enable the feature. To enable the risk concentration map feature, see [Enable the TPRM Risk concentration map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-risk-map-configure.md).
 
 To view the Risk concentration map, select **Workspaces** &gt; **Vendor Management Workspace** and on the **Risk** tab, select the risk map icon \[Omitted image "icon-tprm-ws-risk-map.png"\] Alt text:.
 
@@ -36,5 +36,5 @@ The following example shows the risk concentration map view when the **Engagemen
 
 **Note:** You can select engagements and open their records in the Vendor Management Workspace where you can create issues, assign tasks, and start assessments.
 
-**Parent Topic:**[Viewing third-party risk reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/unified-vrm-workspace.md)
+**Parent Topic:**[Viewing third-party risk reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/unified-vrm-workspace.md)
 

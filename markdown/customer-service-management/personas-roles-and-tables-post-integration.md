@@ -1,22 +1,22 @@
 ---
-title: Roles and responsibilities
+title: Roles
 description: After successful integration of Order Management with Service Model Foundation, various roles are added to the list view menu.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/personas-roles-and-tables-post-integration.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Order Management for business organization, Integration with Sales Customer Relationship Management, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Order Management for business location, Integration with Sales Customer Relationship Management, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
-# Roles and responsibilities
+# Roles
 
 After successful integration of Order Management with Service Model Foundation, various roles are added to the list view menu.
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/renamed-entities.md).
 
-## Description of roles and their responsibilities
+## Description of roles
 
 <table id="table_rnc_gcs_ffc"><tbody><tr><td>
 
@@ -105,7 +105,7 @@ Organization Sales Manager \(sn\_bus\_org\_orm.org\_sales\_mgr\)
 
 </td><td>
 
-This role enables enterprise sales persona to create, manage, and approve account and consumer related orders for their assigned organizational hierarchy.They can view consumer-related orders and order line items across both parent and child business organizations \(formerly business locations\).
+This role enables enterprise sales persona to create, manage, and approve account and consumer related orders for their assigned organizational hierarchy.They can view consumer-related orders and order line items across both parent and child business locations.
 
 The Location Sales Manager has full access to create and approve all order types, including both B2B and B2C orders.
 
@@ -133,4 +133,6 @@ None
 
 </td></tr></tbody>
 </table>Apart from the functional roles, users also need to have the Business organization UI \(sn\_bus\_org\_orm.org\_ui\) granular role to have a uniform experience across all user interfaces.
+
+If a business organization enables [Restricted Customer Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/associate-customers-or-bus-loc-to-so.md), the account and consumer visibility restriction also applies to sales personas such as B2B and B2C sales representatives. In other words, these personas can view only the accounts and consumers supported by their own business organization, and cannot view accounts and consumers supported by other business organizations. For upgrade customers, this restriction has no effect until an admin runs the **Remove Legacy Roles from Loc Mgr Contrib** scheduled job. For more information, see [Enable restricted customer access for Business Organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/remove-legacy-contributor-roles-from-loc-mgr-contrib.md)
 

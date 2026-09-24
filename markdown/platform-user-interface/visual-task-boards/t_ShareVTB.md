@@ -3,13 +3,13 @@ title: Share a Visual Task Board in a Connect conversation
 description: You can share a Visual Task Board in a Connect Chat or Connect Support conversation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/t\_ShareVTB.html
-release: australia
+release: brazil
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Viewing and sharing Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Viewing and sharing Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Share a Visual Task Board in a Connect conversation
@@ -26,15 +26,15 @@ Role required: none
 
 2.  Drag a task board to a Connect mini window.
 
-    A link to the task board appears in the conversation. The task board is also listed in the conversation tools, which are visible in the Connect workspace. Only conversation members who are members of the board can access it. If you share a task board in a [Follow a record in Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_StartARecordConversation.md), it appears as a URL in the record activity stream.
+    A link to the task board appears in the conversation. The task board is also listed in the conversation tools, which are visible in the Connect workspace. Only conversation members who are members of the board can access it. If you share a task board in a [Follow a record in Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_StartARecordConversation.md), it appears as a URL in the record activity stream.
 
 
-**Parent Topic:**[Viewing and sharing Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/viewing-sharing-vis-task-brds.md)
+**Parent Topic:**[Viewing and sharing Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/visual-task-boards/viewing-sharing-vis-task-brds.md)
 
 **Related topics**  
 
 
-[Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_Connect.md)
+[Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_Connect.md)
 
-[Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/c_VisualTaskBoards.md)
+[Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/visual-task-boards/c_VisualTaskBoards.md)
 

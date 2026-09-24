@@ -3,11 +3,11 @@ title: Create an Agent Client Collector policy
 description: Policies consist of the CIs monitored by the Agent Client Collector and the checks that run on those CIs. When creating a policy, you configure a filter which determines the CIs on which the checks are to run. For example, a policy to run checks on all Apache web servers. You can create new policies or edit the default policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/create-edit-policies.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Collect data from your system devices, ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -69,15 +69,15 @@ You assign a credential alias in the policy's **Credentials** tab, as described 
         \[Omitted image "ACC-Monitored-CI-Type-Script.png"\] Alt text: Monitored CI Script example
 
     -   **Monitored CI type by CMDB Group**: Enables you to specify the monitored CIs by using CMDB group queries. When selecting this option, the **Monitored CMDB group** field appears, where you select a CMDB group to associate with the policy.
-        -   For details on CMDB groups, see [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-groups.md).
-        -   For details on building a CMDB query using the CMDB query builder, see [Build a CMDB query using the CMDB query builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/use-cmdb-query-builder.md).
+        -   For details on CMDB groups, see [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-groups.md).
+        -   For details on building a CMDB query using the CMDB query builder, see [Build a CMDB query using the CMDB query builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/use-cmdb-query-builder.md).
 5.  Select checks in the **Available** cell on the **Checks** tab, and move them to the **Selected** cell for them to be included in the policy.
 
     Checks can be selected multiple times, when you are monitoring more than one process. You can also select a group of checks in the **Filter checks by groups** field, which presents checks of the selected group in the **Available** cell.
 
 6.  Configure a proxy server on the **Proxy Settings** tab.
 
-    Configure a proxy server only when using the agent as a proxy to report data on remote machines. For details, see [Configure an agent on a proxy server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/configure-agent-proxy-server.md).
+    Configure a proxy server only when using the agent as a proxy to report data on remote machines. For details, see [Configure an agent on a proxy server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/configure-agent-proxy-server.md).
 
 7.  On the **Scheduling** tab, select one of the following:
 
@@ -98,7 +98,7 @@ You assign a credential alias in the policy's **Credentials** tab, as described 
 8.  On the **Credentials** tab, select one of the following:
 
     -   **Credential name**: Select credentials to be assigned to the policy. The available credentials are those displayed on the associated check definition's **Check Secure Parameter Definitions** tab.
-    -   **Credential alias**: Select the search icon \[Omitted image "search-icon.png"\] Alt text: Search icon to select a credential alias to be used by the policy's checks to connect to the monitored CI. The available options are those created on the **Connection &amp; Credential Aliases** page. For details on credential aliases, see [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/discovery-credential-alias.md).
+    -   **Credential alias**: Select the search icon \[Omitted image "search-icon.png"\] Alt text: Search icon to select a credential alias to be used by the policy's checks to connect to the monitored CI. The available options are those created on the **Connection &amp; Credential Aliases** page. For details on credential aliases, see [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/discovery-credential-alias.md).
 9.  Click **Save**.
 
     The following buttons appear:
@@ -109,5 +109,5 @@ You assign a credential alias in the policy's **Credentials** tab, as described 
 **Related topics**  
 
 
-[Create a policy hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-create-policy-hierarchy.md)
+[Create a policy hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-create-policy-hierarchy.md)
 

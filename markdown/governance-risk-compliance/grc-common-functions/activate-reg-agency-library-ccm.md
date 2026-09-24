@@ -3,11 +3,11 @@ title: Download and activate the Regulatory Agency Library plugin
 description: You can activate the GRC: Regulatory Agency Library application if you have the admin role. This application includes demo data and provides you access to regulatory body profiles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/activate-reg-agency-library-ccm.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Regulatory Agency Library, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -51,5 +51,5 @@ Role required: admin
 6.  Select **Install**.
 
 
-**Parent Topic:**[Regulatory Agency Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/regulatory-agency-library-rcm.md)
+**Parent Topic:**[Regulatory Agency Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/regulatory-agency-library-rcm.md)
 

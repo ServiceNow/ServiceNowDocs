@@ -3,11 +3,11 @@ title: Write journal entries for a project
 description: Keep track of your KPI Composer project with journal entries
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/write-journal-entries-kpi-composer.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [KPI Composer projects, Design your indicator solution, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -17,9 +17,13 @@ breadcrumb: [KPI Composer projects, Design your indicator solution, Configure fu
 Keep track of your KPI Composer project with journal entries
 
 Prerequisites
-:   [Create a KPI Composer project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-kpi-composer-project.md)
+:   [Create a KPI Composer project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/create-kpi-composer-project.md)
 
 ## Before you begin
+
+**Important:**
+
+This application is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 Role required: Anyone with access to a KPI Composer project, including view access, can write a journal entry.
 
@@ -38,9 +42,9 @@ All posted journal entries appear in descending chronological order.
 
 \[Omitted image "kpi-composer-journal-entry.png"\] Alt text: KPI Composer journal entries
 
-**Parent Topic:**[KPI Composer projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/kpi-composer-projects.md)
+**Parent Topic:**[KPI Composer projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/kpi-composer-projects.md)
 
-**Previous topic:**[Group data by breakdown definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/add-breakdowns-project.md)
+**Previous topic:**[Group data by breakdown definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/add-breakdowns-project.md)
 
-**Next topic:**[Share a KPI Composer project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/share-a-kpi-composer-project.md)
+**Next topic:**[Share a KPI Composer project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/share-a-kpi-composer-project.md)
 

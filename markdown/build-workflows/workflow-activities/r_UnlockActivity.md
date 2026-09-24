@@ -3,11 +3,11 @@ title: Unlock workflow activity
 description: The Unlock activity releases a lock that was previously placed by the Lock activity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-activities/r\_UnlockActivity.html
-release: australia
+release: brazil
 product: Workflow Activities
 classification: workflow-activities
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Utility workflow activities, Workflow activities reference, Workflow activities, Classic Workflow, Build workflows]
 ---
@@ -24,7 +24,7 @@ Input variables determine the initial behavior of the activity.
 
 |Field|Description|
 |-----|-----------|
-|Lock key|The Mutex key that releases the lock. This key must match the key specified by a **Lock** activity. For more information, see [Lock activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_LockActivity.md).|
+|Lock key|The Mutex key that releases the lock. This key must match the key specified by a **Lock** activity. For more information, see [Lock activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_LockActivity.md).|
 
 ## States
 

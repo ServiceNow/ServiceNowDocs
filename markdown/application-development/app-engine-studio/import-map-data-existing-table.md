@@ -3,13 +3,13 @@ title: Create a data integration
 description: Add new or updated information to your current data sets by importing it into existing tables in your application through the power of Integration Hub. Schedule future imports to add data at specific times.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/import-map-data-existing-table.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Create a data model, Enhance your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Create a data model, Enhance your app, Build, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Create a data integration
@@ -22,11 +22,11 @@ This video shows you how to perform the following procedure.
 
 ## Before you begin
 
--   You must have an existing table in your application. For more information, see [Create a blank table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/use-existing-table.md).
+-   You must have an existing table in your application. For more information, see [Create a blank table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/use-existing-table.md).
 
     **Note:** Currently, Excel files are the only accepted data format users can upload.
 
--   Role required: admin, sn\_app\_eng\_studio.user, or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+-   Role required: admin, sn\_app\_eng\_studio.user, or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## Procedure
 
@@ -54,7 +54,7 @@ This video shows you how to perform the following procedure.
     3.  Use the **Source type** menu to select a data source type.
 
         -   To choose an Excel or CSV file, select **AD-HOC** &gt; **** &gt; **File**, then either **Excel** or **CSV**. In the File upload section, upload an XLSX, XLS, CSV, or ZIP file.
-        -   To choose a Data Stream action, select **Spokes**. Active Data Streams are organized by spoke and listed alphabetically. In the Connection section, select the connection alias. For Data Stream actions that use a connection alias, you can override the default connection alias with any of its children's aliases. For more information, see [Create a Connection and Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-alias.md).
+        -   To choose a Data Stream action, select **Spokes**. Active Data Streams are organized by spoke and listed alphabetically. In the Connection section, select the connection alias. For Data Stream actions that use a connection alias, you can override the default connection alias with any of its children's aliases. For more information, see [Create a Connection and Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/connection-alias.md).
     4.  Configure the data source.
 
         -   To configure an Excel spreadsheet, specify which sheet to use and which row number to use for the header. Only one sheet and one header can be specified.
@@ -77,7 +77,7 @@ This video shows you how to perform the following procedure.
         |-----|-----------|
         |Target table|Name of the table to transform your data to.|
         |Run table's business rules when importing|Option to run the target table's business rules when you import the data.|
-        |Run the import synchronously|Option to run the import synchronously. When data is transformed in parallel, and there are multiple source records with a specific coalesce value, checking this option ensures that only one record with that coalesce value is inserted at a time. For more information, see the Synchronized inserts section on the [Concurrent imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/concurrent-imports.md) page.|
+        |Run the import synchronously|Option to run the import synchronously. When data is transformed in parallel, and there are multiple source records with a specific coalesce value, checking this option ensures that only one record with that coalesce value is inserted at a time. For more information, see the Synchronized inserts section on the [Concurrent imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/concurrent-imports.md) page.|
 
     3.  Select **Save**.
 
@@ -132,7 +132,7 @@ This video shows you how to perform the following procedure.
         4.  Select **Done**.
     6.  Change or modify your data by applying transform functions.
 
-        For example, you can use the Uppercase transform function to change an input string to all uppercase characters. For more information, see [Transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/transform-functions.md).
+        For example, you can use the Uppercase transform function to change an input string to all uppercase characters. For more information, see [Transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/transform-functions.md).
 
         **Note:** Not all the transform functions available while creating flows and subflows are available in Integration Hub - Import.
 
@@ -147,12 +147,12 @@ This video shows you how to perform the following procedure.
 
     -   To import the data set you uploaded now, select **Run Import**.
     -   To set up a future import of the data, select **Schedule an import**.
-    See [Run or schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/run-schedule-data-imports.md).
+    See [Run or schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/run-schedule-data-imports.md).
 
 16. If you ran the import, preview the table and ensure it appears with the additional content by returning to the target table, refreshing your browser screen, and clicking **Preview**.
 
 17. If you added new columns during the import and want them to display on the target table, select **Personalize list** to edit the columns that display.
 
 
-**Parent Topic:**[Create a data model for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-data.md)
+**Parent Topic:**[Create a data model for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/add-data.md)
 

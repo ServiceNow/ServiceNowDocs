@@ -3,11 +3,11 @@ title: Create work types for a work order task
 description: You have the option to categorize the type of work to be performed in Field Service to complete the task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/create-work-type-fsm.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Work order tasks, Set up work orders and tasks, Configure, Field Service Management]
 ---
@@ -109,5 +109,5 @@ The work type is created successfully.
 -   If you have selected the Needs crew option, the work type is created with the Crew Requirements related list record.
 -   If you have selected the Resource requirements option, the work type is created with the Resource Requirements related list record.
 
-For more information about adding the resource requirement, see [Add resource requirements for a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/add-resource-requirement-wot.md).
+For more information about adding the resource requirement, see [Add resource requirements for a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-manager-workforce/add-resource-requirement-wot.md).
 

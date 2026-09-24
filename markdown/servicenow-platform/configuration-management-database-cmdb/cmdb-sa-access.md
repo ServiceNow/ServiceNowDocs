@@ -3,7 +3,7 @@ title: Access CMDB success advisor
 description: You can access CMDB success advisor from the Service Graph Workspace, CMDB Workspace, or Software Asset Workspace to set up and manage application-specific dashboards. Depending on your progress, you can either begin the setup or access the dashboard to monitor and manage targeted configuration items \(CIs\) for an application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-access.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
@@ -64,7 +64,7 @@ You can access the CMDB success advisor app from Service Graph Workspace and CMD
 
         **Tip:** Users with the sn\_cmdb\_user or sn\_cmdb\_editor role can access CMDB success advisor from this entry point and view the Dashboard tab only.
 
--   From the [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md):
+-   From the [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md):
 
     1.  Navigate to **Workspaces** &gt; **CMDB Workspace**.
 
@@ -74,7 +74,7 @@ You can access the CMDB success advisor app from Service Graph Workspace and CMD
 
             -   If the advisor scope for the product is already configured, **Remediate** opens the advisor dashboard for that product.
             -   If the advisor scope for the product isn't configured yet, **Remediate** opens the CMDB success advisor landing page and starts the setup for that product.
-            **Note:** A card for a product doesn't appear in the Product highlights section when its advisor scope isn't configured and the product isn't entitled on your instance. For details on what each card shows, see [Product highlight card states in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-workspace-card-states.md).
+            **Note:** A card for a product doesn't appear in the Product highlights section when its advisor scope isn't configured and the product isn't entitled on your instance. For details on what each card shows, see [Product highlight card states in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-workspace-card-states.md).
 
         -   In the Management view, select the CMDB success advisor link, available within the Optimize category in the Management tools section. Then select an action based on your progress.
             -   On first access, select **Get started**, and then in the Get started with CMDB success advisor dialog box, select **Continue**.

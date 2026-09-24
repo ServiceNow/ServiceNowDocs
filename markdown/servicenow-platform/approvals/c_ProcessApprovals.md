@@ -3,11 +3,11 @@ title: Process approvals
 description: Once a request has passed its gating approvals, any relevant execution plans are initiated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/approvals/c\_ProcessApprovals.html
-release: australia
+release: brazil
 product: Approvals
 classification: approvals
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Approval rules, Classic approvals, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Approval rules, Classic approvals, Exploring Service Administration
 
 Once a request has passed its gating approvals, any relevant execution plans are initiated.
 
-**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
+**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
 
 Those plans, in turn, create a sequence of required tasks. You can add an approval step to an execution plan, which is configured to occur at the appropriate point.
 
@@ -42,5 +42,5 @@ In the example above, this security approval task must be approved by Fred Luddy
 
 **Note:** When an in-process approval is rejected, that particular line item is canceled as well, but the request itself isn't necessarily canceled. Thus if one ordered a blackberry and a laptop, and the blackberry was rejected, the laptop request would continue being processed.
 
-**Parent Topic:**[Approval rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/c_ApprovalRules.md)
+**Parent Topic:**[Approval rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/approvals/c_ApprovalRules.md)
 

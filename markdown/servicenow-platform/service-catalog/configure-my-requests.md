@@ -3,11 +3,11 @@ title: Define filters for My Requests
 description: Define request filters to filter incidents, requests, or tasks under the Self-Service My Requests module in ServiceNow AI Platform, the My Requests widget in Service Portal, and the My Requests applet in the Now Mobile app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/configure-my-requests.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -131,12 +131,12 @@ Secondary information displayed for the request.**Note:**
 </table>3.  Click **Submit**.
 
 
-**Parent Topic:**[Configuring Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/configuring-service-catalog.md)
+**Parent Topic:**[Configuring Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/configuring-service-catalog.md)
 
 **Related topics**  
 
 
-[My Requests widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/my-request-widget-portal.md)
+[My Requests widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/my-request-widget-portal.md)
 
-[Activate the page route map for the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/config-pageroutemap-stpage.md)
+[Activate the page route map for the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/config-pageroutemap-stpage.md)
 

@@ -3,9 +3,9 @@ title: Validation errors
 description: Several types of errors are displayed for missing or incorrect information in the nodes and paths while saving an element or activating a decision tree.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-validation-errors.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Validation error notifications in Decision Tree Builder, Configuring decision trees in Decision Tree Builder, Configuring guidances and decision trees, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -94,7 +94,7 @@ Type of answer in Question \{number\} doesn't exist
 
 </td><td>
 
-The answer type that you entered in the **Type of answer** field isn’t valid. Select the answer type from the list. For more information, see [Answer types for questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/type-of-answer.md).
+The answer type that you entered in the **Type of answer** field isn’t valid. Select the answer type from the list. For more information, see [Answer types for questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/type-of-answer.md).
 
 </td></tr><tr><td>
 
@@ -196,7 +196,7 @@ This node needs a guidance
 Guidance nodes must be linked to a guidance. Either select an existing guidance or create one.
 
  -   Select an available guidance from the list in the **Guidance** field.
--   Create a guidance in Core UI by selecting the Create a guidance icon \[Omitted image "icon-add-path.png"\] Alt text: Create a guidance icon in the **Guidance** field. For more information, see [Create a guidance in the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-guidances.md).
+-   Create a guidance in Core UI by selecting the Create a guidance icon \[Omitted image "icon-add-path.png"\] Alt text: Create a guidance icon in the **Guidance** field. For more information, see [Create a guidance in the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-guidances.md).
 
 </td></tr><tr><td>
 
@@ -204,7 +204,7 @@ You need to set inputs for this guidance
 
 </td><td>
 
-Configure the guidance inputs for the guidance that you selected. For more information, see [Provide actions to agents in a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-guidance-in-gdb.md).
+Configure the guidance inputs for the guidance that you selected. For more information, see [Provide actions to agents in a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-guidance-in-gdb.md).
 
 </td></tr><tr><td>
 
@@ -263,7 +263,7 @@ This node needs a child tree
 Linking nodes must be linked to a child tree. Either select an activated decision tree or create one.
 
  -   Select an activated decision tree from the list in the **Child decision tree** field.
--   Create a decision tree in Core UI by selecting the Create a decision tree icon \[Omitted image "icon-add-path.png"\] Alt text: Create a decision tree icon in the **Child decision tree** field. For more information, see [Create a decision tree in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-decision-trees-gdb.md).
+-   Create a decision tree in Core UI by selecting the Create a decision tree icon \[Omitted image "icon-add-path.png"\] Alt text: Create a decision tree icon in the **Child decision tree** field. For more information, see [Create a decision tree in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-decision-trees-gdb.md).
 
 </td></tr><tr><td>
 

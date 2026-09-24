@@ -3,11 +3,11 @@ title: Upload your Microsoft PowerPoint template
 description: Upload the latest template to your instance to generate and download the status report as a Microsoft PowerPoint file.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/export-to-powerpoint-for-application-portfolio-management/upload-ppt-template.html
-release: australia
+release: brazil
 product: Export to PowerPoint for Application Portfolio Management
 classification: export-to-powerpoint-for-application-portfolio-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Export to PowerPoint for Strategic Portfolio Management, Strategic Portfolio Management]
 ---
@@ -37,7 +37,7 @@ Role required: sn\_ppt\_export.ppt\_user
 
 ## What to do next
 
-[Download a project status report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/export-to-powerpoint-for-application-portfolio-management/download-status-report.md).
+[Download a project status report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/export-to-powerpoint-for-application-portfolio-management/download-status-report.md).
 
-**Parent Topic:**[Using Export to PowerPoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/export-to-powerpoint-for-application-portfolio-management/using-export-to-ppt.md)
+**Parent Topic:**[Using Export to PowerPoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/export-to-powerpoint-for-application-portfolio-management/using-export-to-ppt.md)
 

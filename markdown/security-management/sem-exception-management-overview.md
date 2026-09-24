@@ -3,10 +3,10 @@ title: Exception Management Overview
 description: When your organization can't comply with a published finding or security policy, standard, or guideline, you can request an exception. Exception management entails requesting, reviewing, approving, or rejecting exceptions to a finding or remediation task \(RT\) that can’t be remediated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-exception-management-overview.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
 ---
 
@@ -46,16 +46,32 @@ You can personalize the columns and rows with the help of the setting icon on th
     When an exception request for a particular finding or remediation task expires, the impacted finding or remediation task reverts to its **Open** state.
 
 
--   **[Approver roles required for Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-approve-or-reject-request.md)**  
-You can see the required roles for the approvers in the Security Exposure Management Workspace.
--   **[Questionnaire support in Exception Management via Smart Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-smart-assessment-exp-management.md)**  
-Configure advanced questionnaires as part of the exception management process using Smart Assessment. This enables Remediation Owners to provide more detailed context for Exception Requests and enables Approvers to configure conditional questions to gather information for informed decision making.
--   **[Defer a Remediation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-defer-rem-task.md)**  
-If you identify a finding or remediation task for which a fix is not yet available and can be safely deferred without additional analysis, you can use the **Request Exception** feature.
--   **[Request an extension for a deferred remediation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-extend-defer-rem.md)**  
-As a remediation owner, you’re no longer required to wait until the deferred due date to make this request. Request an extension for a deferred remediation task before it reaches its deferred until due date.
--   **[Request a false positive for a vulnerable item or remediate task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-falsepst-reqst.md)**  
-Indicate a false positive request for a finding or a remediation task in the Security Exposure Management Workspace. A false positive is a condition where a scanner incorrectly reports that a finding exists in the system due to situations such as an incorrect classification, improper logic, or an algorithm in the scanner.
+## Exception Rules
 
-**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-unified-security-exposure-management.md)
+Exception Rules allow administrators to define reusable rules that automatically apply exceptions to findings matching specific conditions. Instead of requesting exceptions on individual findings, an exception rule can defer all matching findings within a defined validity period.
+
+An exception rule progresses through the following states:
+
+-   **Draft**: The rule is being created and has not been submitted.
+-   **In Review**: The rule has been submitted for approval and is awaiting action.
+-   **Approved**: The rule has been approved and is actively applied to matching findings.
+-   **Rejected**: The rule has been rejected by an approver.
+-   **Expired**: The rule has passed its validity end date.
+-   **Marked for deletion**: The rule is queued for removal.
+
+Exception rules support multi-level approval workflows and can apply to multiple finding tables, including Vulnerable Items, Application Vulnerable Items, Container Image Vulnerable Items, and Compliance Results.
+
+## Questionnaire Configuration
+
+The **Questionnaire Configuration** \(sn\_sec\_exception\_questionnaire\_config\) table enables administrators to define conditional questionnaires for different approval rule types. You can associate distinct questionnaires with specific approval rules \(deferral requests, compensating control management, or false positive\) and define conditions to control which questionnaire appears based on the characteristics of the finding or remediation task.
+
+## End-to-end exception flow
+
+The exception lifecycle moves through three role-driven phases. Each phase has a specific actor, a specific input, and a specific output that becomes the next phase's input.
+
+1.  **Request \(Remediation Owner\)** — the remediation owner opens a finding or remediation task in the Security Exposure Management Workspace and selects **Request Exception**, **Mark as False Positive**, **Unassign**, or **Request Extension**. The owner provides a reason, justification, and \(if configured for the matching approval rule\) completes a questionnaire. On submit, the request enters the **In Review** state and an approval record \(VCA\#\) is generated.
+2.  **Review \(Approver\)** — the approver assigned by the matching approval rule receives an email notification and an entry in the Unified Approvals View. The approver opens the request, reviews the finding details, the questionnaire response, and the Now Assist recommendation \(if available\), then selects **Approve** or **Reject**. For multi-level approval rules, the request routes to the next configured level only after the current level approves.
+3.  **Outcome \(System\)** — on full approval, the finding transitions to **Deferred** \(exception\), **Closed** with reason **False positive** \(false-positive request\), or to the reassigned group \(unassign\). On rejection or expiry, the finding reverts to its previous state. The requester receives an email notification with the outcome.
+
+For questionnaire-driven requests, the request remains in **Draft** until the questionnaire is submitted. After approval or rejection, a resubmission may be allowed depending on the rule's resubmission-context setting.
 

@@ -3,9 +3,9 @@ title: Assign roles to Public Sector Digital Services users
 description: Roles control access to features, capabilities, and data in the Public Sector Digital Services application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-assign-user-roles.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [User management, Set up your environment, Configure, Public Sector Digital Services \(PSDS\)]
 ---
@@ -72,11 +72,11 @@ External Roles
 
 -   You can also assign roles to users and groups using the ServiceNow AI Platform user administration feature.
 
-    -   [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignARoleToAUser.md)
-    -   [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md)
+    -   [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignARoleToAUser.md)
+    -   [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignRoleToGroup.md)
 
 **Related topics**  
 
 
-[Roles installed with Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/roles-installed-with-public-sector-digital-services.md)
+[Roles installed with Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/roles-installed-with-public-sector-digital-services.md)
 

@@ -3,11 +3,11 @@ title: Configure scheduled offline caching
 description: Configure system components to automatically download the cache in the background. If you are making changes to these properties, then you must create them first.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/configure-scheduled-offline-caching.html
-release: australia
+release: brazil
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the Now Mobile Agent application, Setting up Field Service Mobile Agent, Configure, Field Service Management]
 ---
@@ -93,5 +93,5 @@ The duration when the cache expires on the client. Every time the payload is ref
 **Related topics**  
 
 
-[Configure scheduled offline caching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/scheduled-offline-caching.md)
+[Configure scheduled offline caching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/scheduled-offline-caching.md)
 

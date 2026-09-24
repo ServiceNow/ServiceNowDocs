@@ -3,11 +3,11 @@ title: Edit application details
 description: Edit various details about the application, such as its name, monitored processes, and so on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/edit-new-application-details.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Application monitoring setup, Configure, Digital End-User Experience, IT Service Management]
 ---
@@ -26,6 +26,9 @@ Role required: sn\_dex.admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
+    -   AMER \(Americas\): `itomcnc-prod-gateway-amer.sncapps.service-now.com:443`
+    -   EMEA \(Europe\): `itomcnc-prod-gateway-emea.sncapps.service-now.com:443`
+    -   APAC \(Asia Pacific\): `itomcnc-prod-gateway-apac.sncapps.service-now.com:443`
 2.  In the primary navigation pane, select the DEX Administration icon \(\[Omitted image "icon-administration.png"\] Alt text:\).
 
 3.  On the Application management card, select **Configure applications**.
@@ -38,7 +41,7 @@ Role required: sn\_dex.admin
 
 5.  On the form, edit the required fields.
 
-    For more information on each field, see [Edit web or installed application form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/admin-edit-app-form.md).
+    For more information on each field, see [Edit web or installed application form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/admin-edit-app-form.md).
 
 6.  Select **Save**.
 
@@ -46,6 +49,4 @@ Role required: sn\_dex.admin
 ## Result
 
 Application details are updated.
-
-**Parent Topic:**[DEX application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-application-monitoring.md)
 

@@ -3,11 +3,11 @@ title: Export a report to PDF
 description: Create Portable Document Format \(PDF\) reports for compliance cases or requests using predefined or customized templates in the Compliance Workspace. This feature enables the stakeholders who may not have access to the application can still access the data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/export-pdf.html
-release: australia
+release: brazil
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage regulatory tasks, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_grc\_case\_mgmt.grc\_case\_analyst. A user with the sn\_comp\
 
 ## About this task
 
-You can export compliance data to PDF reports for easy sharing with audit teams, partners, or internal committees, eliminating the requirement for application access. A compliance administrator can select a predefined template or create a customized document template to generate reports. For more information, see [Configure a PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/configure-editable-pdf.md).
+You can export compliance data to PDF reports for easy sharing with audit teams, partners, or internal committees, eliminating the requirement for application access. A compliance administrator can select a predefined template or create a customized document template to generate reports. For more information, see [Configure a PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/configure-editable-pdf.md).
 
 ## Procedure
 
@@ -36,7 +36,7 @@ You can export compliance data to PDF reports for easy sharing with audit teams,
 
 5.  Open the compliance case or compliance request that you want to export as a PDF report.
 
-6.  Select the More actions \[Omitted image "MoreActionsIcon.jpg"\] Alt text: icon.
+6.  Select the More actions \[Omitted image "MoreActionsIcon.jpg"\] Alt text: More actions icon. icon.
 
 7.  Select **Export PDF**.
 

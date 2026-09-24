@@ -3,11 +3,11 @@ title: Create a test template
 description: Test templates allow audit managers to quickly create many test plans using much of the same testing criteria.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/t\_CreateATestTemplate.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Audit Test Template and Plans, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
@@ -43,5 +43,5 @@ Role required: sn\_audit.admin, sn\_audit.manager, or sn\_audit.user
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Manage test templates and test plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/c_AuditTesting.md)
+**Parent Topic:**[Manage test templates and test plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/c_AuditTesting.md)
 

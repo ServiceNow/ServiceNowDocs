@@ -3,9 +3,9 @@ title: Update a robot license distribution record in RPA Hub
 description: Update a robot license distribution record in RPA Hub to evaluate the consumption and distribution of licenses in your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/update-license-record-rpa.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Robot license distribution, Configure, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,7 +16,7 @@ Update a robot license distribution record in RPA Hub to evaluate the consumptio
 
 ## Before you begin
 
-Familiarize yourself with license distribution in RPA Hub concepts. For more information, see [Robot license distribution in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/license-rpa-hub.md).
+Familiarize yourself with license distribution in RPA Hub concepts. For more information, see [Robot license distribution in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/license-rpa-hub.md).
 
 You must do this task in the classic environment.
 
@@ -67,5 +67,5 @@ Total number of the assigned licenses for attended robots in the current domain.
 **Related topics**  
 
 
-[Create a robot license distribution record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-lua-record.md)
+[Create a robot license distribution record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-lua-record.md)
 

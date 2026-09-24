@@ -3,11 +3,11 @@ title: Activate Smart Assessment for Field Service questionnaire
 description: You can activate the Smart Assessment for Field Service Questionnaire plugin \(sn\_fsm\_smart\_asmt\) for Field Service Management if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/activate-smart-assessment.html
-release: australia
+release: brazil
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Set up Smart Assessment questionnaires, Setting up Field Service Mobile Agent, Configure, Field Service Management]
 ---
@@ -53,7 +53,7 @@ The following items are installed with Smart Assessment for Field Service Questi
 -   Script includes
 -   Scheduled job
 
-For more information, see [Smart Assessment components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/smart-assessment-components.md).
+For more information, see [Smart Assessment components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/smart-assessment-components.md).
 
 ## Procedure
 
@@ -67,13 +67,13 @@ For more information, see [Smart Assessment components](https://raw.githubuserco
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 
 **Related topics**  
 
 
-[Enable Smart Assessment Questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/enable-smart-assessment-questionnaire.md)
+[Enable Smart Assessment Questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/enable-smart-assessment-questionnaire.md)
 
-[Migrating to Smart Assessment from survey-based questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/configuring-sa-by-migrating.md)
+[Migrating to Smart Assessment from survey-based questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/configuring-sa-by-migrating.md)
 

@@ -3,9 +3,9 @@ title: Integrate with IT Service Management using Guided Setup
 description: Use the Guided Setup to integrate Customer Service Management with the Request, Incident, Problem, and Change Management applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-csm-sm-integration.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up CSM integration with IT Service Management, Integrate with IT Service Management, Integrate, Customer Service Management]
 ---

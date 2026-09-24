@@ -3,12 +3,12 @@ title: Upload glossaries to Language Asset Management
 description: Upload glossaries to the Language Asset Management area of Localization Workspace. Create a glossary by entering source terms and translations in the provided spreadsheet template, then uploading the completed spreadsheet to Language Asset Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-workspace/lw-lam-upload-glossaries.html
-release: australia
+release: brazil
 product: Localization Workspace
 classification: localization-workspace
 topic_type: task
-last_updated: "2026-05-28"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Language Asset Management, Configuring Localization Workspace, Localization Workspace, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -18,7 +18,7 @@ Upload glossaries to the Language Asset Management area of Localization Workspac
 
 ## Before you begin
 
--   Confirm that the Languages \[sys\_language\] table in your instance contains an ID for every language that you plan to include in your glossary. Language IDs should be compliant with BCP 47. For more information and links see [Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-language-asset-management.md).
+-   Confirm that the Languages \[sys\_language\] table in your instance contains an ID for every language that you plan to include in your glossary. Language IDs should be compliant with BCP 47. For more information and links see [Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-workspace/lw-language-asset-management.md).
 -   You must be able to work with and save files in the Excel Workbook \(.xlsx\) file format. This file format supports the UTF-8 encoding that is needed for special characters and non-alphabetic writing systems.
 -   Role required: sn\_lw.user. From version 3.1.0, both the sn\_lw.user and the sn\_lw.terminology\_manager roles are required.
 
@@ -27,11 +27,13 @@ Upload glossaries to the Language Asset Management area of Localization Workspac
 From version 3.0.0, the Language Asset Management area of Localization Workspace enables you to upload glossaries for editing and storage.
 
 -   Glossaries consist of source terms and their translations. Each source term can have translations into one or more languages.
--   After you initially create a glossary by uploading a spreadsheet, you can make updates or add new terms in the product UI. See [Edit a glossary in Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-lam-edit-glossary.md).
+-   After you initially create a glossary by uploading a spreadsheet, you can make updates or add new terms in the product UI. See [Edit a glossary in Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-workspace/lw-lam-edit-glossary.md).
 -   The same source term can be listed in multiple glossaries. A source term repeated in two different glossaries is considered to be two different records, with different translations possible.
 
     Similarly, a source term can be repeated in one glossary if assigned to different categories within that glossary \(Product/Service or Part of Speech\). Repeated source terms are considered to be two different records, with different translations possible.
 
+
+For information about using an AI skill to generate a glossary, see [Globalization Terminology Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-workspace/lw-terminology-agent.md) \(from version 4.0\).
 
 The following procedure involves downloading an Excel Workbook \(.xlsx\) spreadsheet template, filling it out, and uploading the completed file to your instance. Some of the columns have drop-down selections, as noted in the table in the procedure. For these columns, you must choose a value from the drop-down selection.
 
@@ -51,15 +53,15 @@ The following procedure involves downloading an Excel Workbook \(.xlsx\) spreads
 
 4.  Using one row for a source term and its translations, and using drop-down selections where applicable, fill in the spreadsheet according to the following guidance.
 
-<table id="choicetable_i4m_5rp_g3c"><thead><tr><th align="left" id="d323671e175">
+<table id="choicetable_i4m_5rp_g3c"><thead><tr><th align="left" id="d321355e191">
 
 Column
 
-</th><th align="left" id="d323671e178">
+</th><th align="left" id="d321355e194">
 
 Value
 
-</th></tr></thead><tbody><tr><td id="d323671e184">
+</th></tr></thead><tbody><tr><td id="d321355e200">
 
 **glossary\_name**
 
@@ -67,7 +69,7 @@ Value
 
 This is displayed as **Glossary Name** in the UI. Each row should have a value in the glossary\_name column.
 
-</td></tr><tr><td id="d323671e196">
+</td></tr><tr><td id="d321355e212">
 
 **glossary\_description**
 
@@ -75,7 +77,7 @@ This is displayed as **Glossary Name** in the UI. Each row should have a value i
 
 \(Optional\). Enter a description of the glossary. This value is displayed as **Glossary Description** in the UI.
 
-</td></tr><tr><td id="d323671e208">
+</td></tr><tr><td id="d321355e224">
 
 **product\_service**
 
@@ -83,7 +85,7 @@ This is displayed as **Glossary Name** in the UI. Each row should have a value i
 
 This is displayed as **Product/Service** in the UI, and is a way to filter or subdivide a glossary. Use this if a source term has different translations depending on the Product/Service. **Note:** The same source term can be listed multiple times in one glossary when associated to different product\_service values.
 
-</td></tr><tr><td id="d323671e222">
+</td></tr><tr><td id="d321355e238">
 
 **term**
 
@@ -93,7 +95,7 @@ Enter the source term \(the original word or phrase\). Terms can contain spaces,
 
 You can enter the same source term multiple times, but each variation must be assigned to either a different Part of Speech or a different Product/Service category.
 
-</td></tr><tr><td id="d323671e239">
+</td></tr><tr><td id="d321355e255">
 
 **definition**
 
@@ -101,7 +103,7 @@ You can enter the same source term multiple times, but each variation must be as
 
 The definition for the source term.
 
-</td></tr><tr><td id="d323671e248">
+</td></tr><tr><td id="d321355e264">
 
 **part\_of\_speech**
 
@@ -109,7 +111,7 @@ The definition for the source term.
 
 This is a drop-down selection in the template. Choose from noun, verb, and so forth.**Note:** The same source term can be listed multiple times in one glossary when associated to different part\_of\_speech values.
 
-</td></tr><tr><td id="d323671e259">
+</td></tr><tr><td id="d321355e275">
 
 **do\_not\_translate**
 
@@ -117,7 +119,7 @@ This is a drop-down selection in the template. Choose from noun, verb, and so fo
 
 This is a boolean drop-down selection in the template. Choose TRUE when terms shouldn't be translated.
 
-</td></tr><tr><td id="d323671e268">
+</td></tr><tr><td id="d321355e284">
 
 **source\_language**
 
@@ -125,7 +127,7 @@ This is a boolean drop-down selection in the template. Choose TRUE when terms sh
 
 This is a drop-down selection in the template. Choose the language ID of the source term.
 
-</td></tr><tr><td id="d323671e277">
+</td></tr><tr><td id="d321355e293">
 
 **\(language ID codes\)**
 
@@ -170,9 +172,9 @@ You can add you own columns for self-localized languages. If you create a column
 
 ## What to do next
 
-To add or edit source terms, or make any modifications after the initial upload, see [Edit a glossary in Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-lam-edit-glossary.md).
+To add or edit source terms, or make any modifications after the initial upload, see [Edit a glossary in Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-workspace/lw-lam-edit-glossary.md).
 
-To download glossaries in a CSV or spreadsheet format, see [Export a glossary from Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-lam-export-glossary.md).
+To download glossaries in a CSV or spreadsheet format, see [Export a glossary from Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-workspace/lw-lam-export-glossary.md).
 
-**Parent Topic:**[Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-language-asset-management.md)
+**Parent Topic:**[Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-workspace/lw-language-asset-management.md)
 

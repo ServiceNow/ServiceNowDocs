@@ -3,11 +3,11 @@ title: Create a group feed
 description: Group feeds are created by users so that members with similar interests can find that information in one place. Individual users or teams can join group feeds.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_CreateAGroupFeed.html
-release: australia
+release: brazil
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use feeds in Live Feed, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -42,5 +42,5 @@ Role required: admin
 6.  Click **Create**.
 
 
-**Parent Topic:**[Use feeds in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_UseFeedsInLiveFeed.md)
+**Parent Topic:**[Use feeds in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/c_UseFeedsInLiveFeed.md)
 

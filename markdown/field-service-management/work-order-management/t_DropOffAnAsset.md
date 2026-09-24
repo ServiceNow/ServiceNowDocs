@@ -3,11 +3,11 @@ title: Drop off an asset
 description: Agents can physically drop assets off at a stockroom.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/t\_DropOffAnAsset.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using drop off lists, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---

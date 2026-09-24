@@ -3,11 +3,11 @@ title: Create a policy using the Compliance Workspace
 description: A policy defines an internal practice that processes must follow. You can define policies using the Compliance Workspace as policies, procedures, standards, plans, checklists, frameworks, and templates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/create-policy-ws.html
-release: australia
+release: brazil
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Manage control objectives and policies, Use, GRC Compliance workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -275,7 +275,7 @@ Enter the maximum number of days for which a policy exception can be requested f
 </td></tr></tbody>
 </table>4.  Select **Save**.
 
-    In the reporting overview page of the policy, you can see the description of the policy, its state, and its status of overall compliance, entities, control objectives, and control. It also gives you the tracking information of policy acknowlegements, policy exceptions, and issues. The non-compliant entities widget also lists all the non-compliant reliant entities, each with its compliance score. For more information, see [Manage compliance of a policy from the overview page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/policy-overview-pc-ws.md)
+    In the reporting overview page of the policy, you can see the description of the policy, its state, and its status of overall compliance, entities, control objectives, and control. It also gives you the tracking information of policy acknowlegements, policy exceptions, and issues. The non-compliant entities widget also lists all the non-compliant reliant entities, each with its compliance score. For more information, see [Manage compliance of a policy from the overview page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-compliance-management-workspace/policy-overview-pc-ws.md)
 
 5.  Select any of the related lists to provide more information for the policy.
 

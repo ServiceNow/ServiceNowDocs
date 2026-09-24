@@ -3,11 +3,11 @@ title: Workforce Optimization ITSM Manager Workspace components
 description: The configurable ITSM Manager Workspace has roles to administer the workspace, properties to configure default behavior, and indicators to analyze performance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/configurable-itsm-manager-workspace-reference.html
-release: australia
+release: brazil
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Advanced configurations, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -76,5 +76,5 @@ Grants administrative rights to create, read, update, and delete \(CRUD\) all ap
 -   sn\_wfo.admin
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workforce Optimization for ITSM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/workforce-optimization-itsm-reference.md)
+</table>**Parent Topic:**[Workforce Optimization for ITSM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/workforce-optimization-itsm-reference.md)
 

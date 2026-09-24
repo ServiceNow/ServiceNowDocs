@@ -3,11 +3,11 @@ title: Modify collected metrics under a child policy
 description: Turn off an existing DEX metric for certain configuration item \(CI\) criteria by creating a child policy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/modify-collected-metrics.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [modify collected metrics, edit metrics, metric collection, child policy, agent policy, turn off metric]
 breadcrumb: [Collecting DEX metrics, Configure, Digital End-User Experience, IT Service Management]
@@ -29,6 +29,9 @@ Metric collection on any device is managed using agent policies. Agent policies 
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
+    -   AMER \(Americas\): `itomcnc-prod-gateway-amer.sncapps.service-now.com:443`
+    -   EMEA \(Europe\): `itomcnc-prod-gateway-emea.sncapps.service-now.com:443`
+    -   APAC \(Asia Pacific\): `itomcnc-prod-gateway-apac.sncapps.service-now.com:443`
 2.  In the primary navigation pane, select the DEX Administration icon \(\[Omitted image "icon-administration.png"\] Alt text:\).
 
 3.  In the Device and application configuration section, select **Manage policies** on the Agent policies card.

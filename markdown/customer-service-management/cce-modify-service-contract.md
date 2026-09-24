@@ -3,9 +3,9 @@ title: Modify a customer contract
 description: Modify a customer contract so that you can update its existing configurations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/cce-modify-service-contract.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Contracts and Entitlements Workflows, Customer Contracts and Entitlements, Customer management, Use, Customer Service Management]
 ---
@@ -23,7 +23,7 @@ Role required:
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  In the Contracts and Entitlements list, select **Customer Contracts**.
 
@@ -33,13 +33,13 @@ Role required:
 
 5.  On the Configurator UI, modify the existing configurations for the customer contract line.
 
-    To learn more about the Configurator UI, see [Exploring Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-exploring.md).
+    To learn more about the Configurator UI, see [Exploring Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-exploring.md).
 
     **Note:** The Configurator UI is displayed only if the customer contract has a single customer contract line. For multiple customer contract lines, a quote or an order will be created with contract lines in Draft or Active state.
 
 6.  Select **Update**.
 
-    An order or a quote will be created depending on the rules set in the Customer Life Cycle Workflows Policy decision table. For more info, see [Configuring Customer Life Cycle Workflows Policy decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-cont-ent-workflows-csm.md).
+    An order or a quote will be created depending on the rules set in the Customer Life Cycle Workflows Policy decision table. For more info, see [Configuring Customer Life Cycle Workflows Policy decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-cont-ent-workflows-csm.md).
 
     -   If the selected target entity is a quote, a quote to modify the customer contract is created. You can select the quote number from the confirmation message to view the modified quote line items. The quote is approved and the status changes to **Complete** to create an order.
     -   If the selected target entity is an order, an order to modify the customer contract is created. You can click the order number from the confirmation message to view the modified order line items.

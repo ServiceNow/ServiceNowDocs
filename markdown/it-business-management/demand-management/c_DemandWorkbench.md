@@ -3,11 +3,11 @@ title: Demand workbench
 description: The demand workbench provides a central location for viewing and assessing business demands.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/c\_DemandWorkbench.html
-release: australia
+release: brazil
 product: Demand Management
 classification: demand-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -36,10 +36,10 @@ The demand workbench includes the following components:
 -   The bottom pane displays demands in a list view.
 -   The header includes a back button \(\[Omitted image "DemandWorkbenchBackButton.png"\] Alt text: back button\) that opens the Demands list.
 
--   **[Demand workbench bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/c_DemandWorkbenchBubbleChart.md)**  
+-   **[Demand workbench bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/c_DemandWorkbenchBubbleChart.md)**  
 The interactive bubble chart on the demand workbench is a dynamically updated graph that plots metrics for multiple demand records.
--   **[Demand workbench list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/c_DemandWorkbenchListView.md)**  
+-   **[Demand workbench list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/c_DemandWorkbenchListView.md)**  
 The lower pane of the demand workbench displays a list of the demands shown in the bubble chart.
 
-**Parent Topic:**[Exploring Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/exploring-demand-management.md)
+**Parent Topic:**[Exploring Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/exploring-demand-management.md)
 

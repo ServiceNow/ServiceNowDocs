@@ -3,11 +3,11 @@ title: Configure page headers in the DPM Admin Center
 description: Configure the page header fields for your solutions in the DPM Admin Center. Your configuration determines how the header fields are displayed in the DPM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-configure-header-info.html
-release: australia
+release: brazil
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure the Admin Center, Configure, Digital Portfolio Management, IT Service Management]
 ---
@@ -68,5 +68,5 @@ Each solution displays header information for that solution. For example, for a 
 7.  Select **Update**.
 
 
-**Parent Topic:**[Use the Admin Center in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-admin-center.md)
+**Parent Topic:**[Use the Admin Center in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-admin-center.md)
 

@@ -3,9 +3,9 @@ title: View approvers for a publication
 description: Access and review the assigned approvers for a publication sent for review in Targeted Communications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_TargetCommViewApproverList.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Targeted communications, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---

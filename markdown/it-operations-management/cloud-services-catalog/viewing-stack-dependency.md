@@ -3,11 +3,11 @@ title: View stack dependency
 description: Explore the details of the configuration items, services, and other tasks that are associated with the stacks and resources by using View Dependency.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/viewing-stack-dependency.html
-release: australia
+release: brazil
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore My Stacks tab, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -41,5 +41,5 @@ A stack can be dependent on multiple stacks, and multiple stacks can depend on a
 5.  Undo all the CI filter selections and reset the map setting by selecting **Reset**.
 
 
-**Parent Topic:**[Exploring the My Stacks tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/manage-stacks.md)
+**Parent Topic:**[Exploring the My Stacks tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-services-catalog/manage-stacks.md)
 

@@ -3,11 +3,11 @@ title: Define terminology for ROI export
 description: Define your organization's terminology for closed-set indicator options in the Register of Information. This verifies the B\_99.01 export includes your definitions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/opres-dora-roi-ter-def.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Explore, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Define terminology for ROI export
@@ -39,5 +39,5 @@ The **Terminology Definitions** module provides a fixed list of the 19 closed-se
     Your definitions are saved and are included the next time you generate the B\_99.01 export.
 
 
-**Parent Topic:**[Exploring Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/exploring-digi-resi-third-party-registers.md)
+**Parent Topic:**[Exploring Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/exploring-digi-resi-third-party-registers.md)
 

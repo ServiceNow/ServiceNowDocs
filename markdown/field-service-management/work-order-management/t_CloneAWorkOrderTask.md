@@ -3,11 +3,11 @@ title: Clone a work order task
 description: Clone existing tasks to quickly create new tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/t\_CloneAWorkOrderTask.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage work order tasks, Prepare work orders, Use, Field Service Management]
 ---
@@ -18,7 +18,7 @@ Clone existing tasks to quickly create new tasks.
 
 ## Before you begin
 
-Role required: wm\_qualifier or [qualifier combination role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md)
+Role required: wm\_qualifier or [qualifier combination role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md)
 
 ## About this task
 

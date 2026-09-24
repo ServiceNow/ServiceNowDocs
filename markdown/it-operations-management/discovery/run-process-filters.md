@@ -3,11 +3,11 @@ title: Running process filters
 description: Filter any processes, using combinations of name and key parameters, from coming back to the instance. Out-of-the box, you can filter OS processes. Filtering processes helps reduce the number of records created, updated, or deleted in the database which can improve overall database performance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/run-process-filters.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -102,7 +102,7 @@ Any process matching the filter will not be added to the Running Processes \[cmd
 
  -   name is svchost.exe
 -   parameters does not contain iissvcs
- For information on setting filter conditions see: [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md)
+ For information on setting filter conditions see: [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ConditionBuilder.md)
 
 </td></tr><tr><td>
 
@@ -118,14 +118,14 @@ OOB filters
 
 </td><td>
 
-There are Linux and Windows filters to choose from. See [Out-of-the-box process filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/out-of-the-box-process-filters.md) for more details.
+There are Linux and Windows filters to choose from. See [Out-of-the-box process filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/out-of-the-box-process-filters.md) for more details.
 
 </td></tr></tbody>
 </table>3.  Enter the details and select **Submit**.
 
 
--   **[Out-of-the-box process filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/out-of-the-box-process-filters.md)**  
+-   **[Out-of-the-box process filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/out-of-the-box-process-filters.md)**  
 There are a variety of Linux and Windows out-of-the-box running process filters that are turned on and used for filtering processes.
 
-**Parent Topic:**[Advanced Discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryExtendedCapabilities.md)
+**Parent Topic:**[Advanced Discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c_DiscoveryExtendedCapabilities.md)
 

@@ -3,11 +3,11 @@ title: Configure update set scanning properties
 description: The Scan Engine provides several options to further configure update set scanning and enhance the governance over update set management. Update set scanning occurs during scheduled instance scans and when developers attempt to mark update sets complete.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/update-set-scanning-properties2.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure Scan Engine parameters, Activate Scan Engine and review settings, Run Impact Guided Setup, Configuring Impact, Impact]
+breadcrumb: [Configure Scan Engine parameters, Activate Scan Engine and review settings, Impact Guided Setup, Configuring Impact, Impact]
 ---
 
 # Configure update set scanning properties
@@ -38,8 +38,6 @@ Role required: scan\_engine\_admin
     When enabled, update sets must meet the conditions specified in the **Conditions for completing an update set** field.
 
     When enforcement is enabled, a completion enforcement message appears in the scan modal warning users of requirements to complete the update set. Message content changes based on the scan type and enforcement condition. For example, if a specific suite is required, the message directs the user to select that suite.
-
-    **Warning:** Update sets can't be marked complete until conditions are met.
 
 5.  Configure conditions for completing an update set using the condition builder.
 
@@ -96,14 +94,14 @@ Allow Suite Scan for update sets
 </table>7.  Select **Save**.
 
 
-**Parent Topic:**[Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-scan-engine-properties.md)
+**Parent Topic:**[Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-scan-engine-properties.md)
 
 **Related topics**  
 
 
-[Customize Scan Engine definition suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/create-scan-engine-definition-suites.md)
+[Customize Scan Engine definition suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/create-scan-engine-definition-suites.md)
 
-[Configure application scanning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-application-scanning-properties.md)
+[Configure application scanning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-application-scanning-properties.md)
 
-[Initiate update set scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/initiate-update-set-scans.md)
+[Initiate update set scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/initiate-update-set-scans.md)
 

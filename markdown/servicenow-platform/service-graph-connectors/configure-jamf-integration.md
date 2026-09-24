@@ -3,11 +3,11 @@ title: Configure Service Graph Connector for Jamf using the guided setup
 description: Set up authentication credentials and scheduled jobs to import Jamf data into your Configuration Management Database \(CMDB\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/configure-jamf-integration.html
-release: australia
+release: brazil
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 breadcrumb: [Jamf, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,13 +20,13 @@ Set up authentication credentials and scheduled jobs to import Jamf data into yo
 
 **Important:** Unless there are configuration issues, use the SGC Central view in the Service Graph Workspace or CMDB Workspace to configure the connection for the connector, as the guided setup method is planned for deprecation.
 
-To use this Service Graph Connector, you need a subscription to a Subscription Unit that is based in the IT Operations Management \(ITOM\) Visibility application or in the ITOM Discovery application. As defined in the section titled "Managed IT Resource Types" in [ServiceNow Subscription Unit Overview](https://www.servicenow.com/products/entitlements-packages.html) for your subscription, for managed IT resources that are created or modified in the CMDB by this Service Graph Connector, but that aren’t yet managed by [ITOM Visibility or ITOM Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-license-module.md), these resources will increase Subscription Unit consumption from that application. Review your current Subscription Unit consumption within ITOM Visibility or ITOM Discovery to ensure available capacity.
+To use this Service Graph Connector, you need a subscription to a Subscription Unit that is based in the IT Operations Management \(ITOM\) Visibility application or in the ITOM Discovery application. As defined in the section titled "Managed IT Resource Types" in [ServiceNow Subscription Unit Overview](https://www.servicenow.com/products/entitlements-packages.html) for your subscription, for managed IT resources that are created or modified in the CMDB by this Service Graph Connector, but that aren’t yet managed by [ITOM Visibility or ITOM Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-license-module.md), these resources will increase Subscription Unit consumption from that application. Review your current Subscription Unit consumption within ITOM Visibility or ITOM Discovery to ensure available capacity.
 
 Dependencies and requirements:
 
--   The [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md) store app, which is automatically installed.
--   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
--   ITOM Licensing plugin \(com.snc.itom.license\). An unlicensed plugin that contains computation logic for SU consumption as necessary. For more information, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_ActivateTheDiscoveryPlugin.md).
+-   The [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md) store app, which is automatically installed.
+-   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
+-   ITOM Licensing plugin \(com.snc.itom.license\). An unlicensed plugin that contains computation logic for SU consumption as necessary. For more information, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/t_ActivateTheDiscoveryPlugin.md).
 -   Jamf Classic API version 10.x.
 
 When using client credentials for authentication, obtain the OAuth credentials from your Jamf administrator. Make a note of the following details:
@@ -40,7 +40,7 @@ For more information on how to configure an OAuth token, see the [How to configu
 
 Role required: SGC-Admin \(sn\_cmdb\_int\_util.sgc\_admin\) or admin
 
-**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
+**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
 
 ## Procedure
 
@@ -66,7 +66,7 @@ Role required: SGC-Admin \(sn\_cmdb\_int\_util.sgc\_admin\) or admin
 
     1.  Enter Basic or Bearer token authentication details.
 
-        **Important:** Skip this step if using Client credentials for authentication, and instead go to step [4.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-jamf-integration.md).
+        **Important:** Skip this step if using Client credentials for authentication, and instead go to step [4.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/configure-jamf-integration.md).
 
         1.  For the Configure Jamf authentication: Basic or Bearer token authentication task, select **Configure**.
         2.  On the form, fill in the fields.
@@ -108,7 +108,7 @@ Password that is used to authenticate the HTTP or HTTPS request when this Basic 
         4.  Set the Configure Jamf authentication: Basic or Bearer token authentication task to complete by selecting **Mark as Complete**.
     2.  Configure the Jamf HTTP connection.
 
-        **Important:** Skip this step if using Client credentials for authentication, and instead go to step [4.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-jamf-integration.md).
+        **Important:** Skip this step if using Client credentials for authentication, and instead go to step [4.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/configure-jamf-integration.md).
 
         1.  For the Configure Jamf HTTP connection task, select **Configure**.
         2.  On the form, fill in the fields.
@@ -238,7 +238,7 @@ Base path for HTTPS connection. This field appears only when the **URL builder**
         4.  Set the Configure Jamf HTTP connection task to complete by selecting **Mark as Complete**.
     3.  Configure the client authentication credentials.
 
-        **Important:** Skip this step if using basic token for authentication, and instead go to step [4.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-jamf-integration.md).
+        **Important:** Skip this step if using basic token for authentication, and instead go to step [4.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/configure-jamf-integration.md).
 
         1.  For the Configure Jamf authentication: Client credentials task, select **Configure**.
         2.  Select **Edit** for the SG-Jamf OAuth Connection, the default connection.
@@ -286,7 +286,7 @@ OAuth Client ID
 
 </td><td>
 
-Application \(client\) ID of your Jamf client application as noted in the [Before you begin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-jamf-integration.md) section.**Note:** Verify that the Jamf client has read privileges for the **Computers** and **Mobile Devices** categories in Jamf.
+Application \(client\) ID of your Jamf client application as noted in the [Before you begin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/configure-jamf-integration.md) section.**Note:** Verify that the Jamf client has read privileges for the **Computers** and **Mobile Devices** categories in Jamf.
 
 </td></tr><tr><td>
 
@@ -294,7 +294,7 @@ OAuth Client Secret
 
 </td><td>
 
-Client Secret of your Jamf client application as noted in the [Before you begin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-jamf-integration.md) section.
+Client Secret of your Jamf client application as noted in the [Before you begin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/configure-jamf-integration.md) section.
 
 </td></tr></tbody>
 </table>    4.  Test the connection.
@@ -396,11 +396,11 @@ Client Secret of your Jamf client application as noted in the [Before you begin]
 
     3.  On the Scheduled Data Import form, verify the field values for the scheduled job and select the **Active** check box to activate the scheduled job.
 
-        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
+        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
 
     4.  Select **Update**.
 
-    5.  Repeat the steps [6.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-jamf-integration.md) to [6.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-jamf-integration.md) for each scheduled job for data import.
+    5.  Repeat the steps [6.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/configure-jamf-integration.md) to [6.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/configure-jamf-integration.md) for each scheduled job for data import.
 
     6.  Set the Configure scheduled jobs task to complete by selecting **Mark as Complete** in the guided setup.
 

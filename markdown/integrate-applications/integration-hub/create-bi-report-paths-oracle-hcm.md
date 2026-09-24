@@ -3,7 +3,7 @@ title: Create BI report paths for Oracle HCM Cloud spoke
 description: Create BI reports paths to specify the folder paths where the reports are saved.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-bi-report-paths-oracle-hcm.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task

@@ -3,9 +3,9 @@ title: Additional resources for Conversational Interfaces
 description: If you’re looking for Conversational Interfaces \(CI\) best practices, troubleshooting, or other implementation guidelines, select a feature or resource type to discover ServiceNow resources on other relevant websites.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/ci-additional-resources.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Conversational Interfaces]
 ---
@@ -52,7 +52,7 @@ FAQs
 
 </td></tr><tr><td>
 
-Now Assist in Virtual Agent
+ServiceNow Otto for Virtual Agent
 
 </td><td>
 
@@ -60,7 +60,7 @@ Release notes
 
 </td><td>
 
-
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/virtual-agent-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/virtual-agent-rn.md)
 
 </td></tr><tr><td>
 
@@ -79,18 +79,6 @@ Tips and examples
  [Now Assist in Virtual Agent conversational catalog ordering](https://www.youtube.com/watch?v=I_Z45wIMPh4&list=PLkGSnjw5y2U407_1UQQaVVrD13-MFi5ia&index=7)
 
  [Migrating NLU topics to LLM](https://www.servicenow.com/community/virtual-agent-nlu-articles/now-assist-in-virtual-agent-migrating-nlu-topics-to-llm-nbsp/ta-p/2980214)
-
-</td></tr><tr><td>
-
-Sidebar
-
-</td><td>
-
-Release notes
-
-</td><td>
-
-[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sidebar-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sidebar-rn.md)
 
 </td></tr><tr><td>
 
@@ -126,7 +114,7 @@ Release notes
 
 </td><td>
 
-[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/virtual-agent-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/virtual-agent-rn.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/virtual-agent-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/virtual-agent-rn.md)
 
 </td></tr><tr><td>
 

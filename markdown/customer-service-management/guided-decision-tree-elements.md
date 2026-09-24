@@ -3,9 +3,9 @@ title: Decision tree elements
 description: Decision trees are made up of several types of elements including nodes, inputs, and paths.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/guided-decision-tree-elements.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Decision trees in Guided decision, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Decision trees in Guided decision, Guided Decisions configuration, 
 
 Decision trees are made up of several types of elements including nodes, inputs, and paths.
 
-Decision trees are built using different elements, which are described in the following table. The terminology for these elements differs slightly between Decision Tree Builder and Core UI but the definitions remain the same. For more information decision tree nodes and paths, see [Decision tree nodes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/guided-decision-tree-node-types.md) and [Decision tree paths](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/guided-decision-tree-paths.md).
+Decision trees are built using different elements, which are described in the following table. The terminology for these elements differs slightly between Decision Tree Builder and Core UI but the definitions remain the same. For more information decision tree nodes and paths, see [Decision tree nodes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/guided-decision-tree-node-types.md) and [Decision tree paths](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/guided-decision-tree-paths.md).
 
 <table id="table_ofw_y5h_vwb"><thead><tr><th>
 
@@ -113,7 +113,7 @@ Guidance
 
 </td><td>
 
-An action that an agent can take or information that an agent can share. You can select guidances included with the Guided Decisions Experience plugin or you can [Create a guidance in the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-guidances.md).
+An action that an agent can take or information that an agent can share. You can select guidances included with the Guided Decisions Experience plugin or you can [Create a guidance in the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-guidances.md).
 
 </td></tr><tr><td>
 
@@ -137,7 +137,7 @@ Type of answer
 
 </td><td>
 
-The type of data that the question in a question node can accept as an answer, such as string, integer, or choice.For a list of supported input types, see [Answer types for questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/type-of-answer.md).
+The type of data that the question in a question node can accept as an answer, such as string, integer, or choice.For a list of supported input types, see [Answer types for questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/type-of-answer.md).
 
 </td></tr><tr><td>
 

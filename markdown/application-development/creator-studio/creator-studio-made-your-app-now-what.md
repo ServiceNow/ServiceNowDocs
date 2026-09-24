@@ -3,14 +3,14 @@ title: I've built my app in Creator Studio, now what?
 description: You've added forms and automation to your app, and customized the workspace list configurations. Now what?
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-made-your-app-now-what.html
-release: australia
+release: brazil
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [app faq, creator studio faq]
-breadcrumb: [Build apps, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Build apps, Creator Studio, Developing your application, Building applications]
 ---
 
 # I've built my app in Creator Studio, now what?
@@ -29,7 +29,7 @@ After deployment, your app lives as forms in the Service Catalog and categories 
 
 Users can access those forms directly in a Service Catalog, as well as Service Portal and an Employee Center.
 
-If you associate the app's form with one or more topics, the form will appear in the relevant, dynamically created topic pages in Employee Center. Find out more about topics in [Associate a catalog item with a taxonomy topic in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/associate-cat-item-taxonomy-ec.md), and more about taxonomy, which is a categorization method, in [Unified Taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/config-taxonomy.md).
+If you associate the app's form with one or more topics, the form will appear in the relevant, dynamically created topic pages in Employee Center. Find out more about topics in [Associate a catalog item with a taxonomy topic in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/associate-cat-item-taxonomy-ec.md), and more about taxonomy, which is a categorization method, in [Unified Taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/config-taxonomy.md).
 
 ## Where do fulfillers work on submitted forms?
 
@@ -49,10 +49,10 @@ You can open Creator Studio apps in other builders. For example, open it in Serv
 
 Got more questions? Take a look at the [Creator Studio FAQs on the Community site](https://www.servicenow.com/community/creator-studio-blogs/creator-studio-faqs/ba-p/2947282)!
 
-You can also [watch a quick video on how to contact your admin and check out some helpful resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-get-help-now.md).
+You can also [watch a quick video on how to contact your admin and check out some helpful resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-get-help-now.md).
 
--   **[Closing requests and app notifications in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-closing-requests-and-notifications.md)**  
+-   **[Closing requests and app notifications in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-closing-requests-and-notifications.md)**  
 The records that your app creates when a form is completed are not automatically closed, and some notifications are not automatic and must be configured.
 
-**Parent Topic:**[Building apps with Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/building-apps-with-creator-studio.md)
+**Parent Topic:**[Building apps with Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/building-apps-with-creator-studio.md)
 

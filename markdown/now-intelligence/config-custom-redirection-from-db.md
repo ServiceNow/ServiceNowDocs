@@ -3,9 +3,9 @@ title: Configure custom redirection from a dashboard component
 description: If you have created a page in your workspace from the Dashboard page template, you can customize the on-click redirection from the dashboard component on that page. The inline dashboard that this component displays will follow the custom redirection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/config-custom-redirection-from-db.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Creating Platform Analytics pages, Platform Analytics experience, Platform Analytics]
 ---
@@ -16,13 +16,13 @@ If you have created a page in your workspace from the Dashboard page template, y
 
 ## Before you begin
 
-You have created a workspace in UI Builder with a page generated from the Dashboard page template. You may also have set the dashboard component in that page to display a dashboard from the library as described in [Add a dashboard to a Dashboards page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-dashboard-to-workspace.md).
+You have created a workspace in UI Builder with a page generated from the Dashboard page template. You may also have set the dashboard component in that page to display a dashboard from the library as described in [Add a dashboard to a Dashboards page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/add-dashboard-to-workspace.md).
 
 Role required: ui\_builder\_admin
 
 ## About this task
 
-**Important:** The procedure described here applies only to dashboards created in the inline editor. For technical dashboards, you configure redirection through a drilldown event for each data visualization. For more information, see [Add a drilldown event to a data visualization on a technical dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-custom-drilldown-event.md).
+**Important:** The procedure described here applies only to dashboards created in the inline editor. For technical dashboards, you configure redirection through a drilldown event for each data visualization. For more information, see [Add a drilldown event to a data visualization on a technical dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/add-custom-drilldown-event.md).
 
 ## Procedure
 
@@ -63,7 +63,7 @@ Role required: ui\_builder\_admin
 
 All redirections from data visualizations on that dashboard open your specified target.
 
-**Parent Topic:**[Creating Platform Analytics pages in your own workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/adding-analytics-center-to-ws.md)
+**Parent Topic:**[Creating Platform Analytics pages in your own workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/adding-analytics-center-to-ws.md)
 
 **Related topics**  
 

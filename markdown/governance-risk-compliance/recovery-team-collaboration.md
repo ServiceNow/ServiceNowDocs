@@ -1,23 +1,23 @@
 ---
-title: Creating global recovery teams and collaboration threads
+title: Global recovery teams and collaboration threads
 description: Recovery teams and collaboration help organizations coordinate business continuity responses using reusable teams and integrated communication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/recovery-team-collaboration.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [recovery team, business continuity management, collaboration, crisis coordination, BCM]
 breadcrumb: [Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
-# Creating global recovery teams and collaboration threads
+# Global recovery teams and collaboration threads
 
 Recovery teams and collaboration help organizations coordinate business continuity responses using reusable teams and integrated communication.
 
 ## Recovery team management
 
-Starting with BCM core release 12.x.x, recovery teams are supported at global level and they are available across all BCM applications. BCM users can now create and store recovery teams to address defined problems and fulfill organizational requirements. Key features include an active flag for recovery teams, support for global recovery teams, ability to reference saved recovery teams within plans, and enhanced recovery team hierarchy management.
+Recovery teams are supported at global level and they are available across all BCM applications. BCM users can create and store recovery teams to address defined problems and fulfill organizational requirements. Key features include an active flag for recovery teams, support for global recovery teams, ability to reference saved recovery teams within plans, and enhanced recovery team hierarchy management.
 
 ## Recovery teams module in Business Continuity Workspace
 
@@ -27,15 +27,15 @@ BCM administrators can create and manage recovery teams from the Recovery teams 
 
 ## Benefits of using recovery teams
 
-Implementation of BCM Recovery team and Collaboration functionality delivers measurable benefits:
+Recovery teams and collaboration provide the following benefits:
 
 |Benefit|Details|
 |-------|-------|
 |Centralized tracking|Eliminates scattered Excel spreadsheets and fragmented communication. All event-related collaborations, decisions, and actions are captured in a single platform.|
-|Re-usability|Recovery teams are created once and can be associated with multiple recovery plans and events, reducing administrative overhead and ensuring consistent team definitions across the organization.|
+|Reusability|Recovery teams are created once and can be associated with multiple recovery plans and events, reducing administrative overhead and ensuring consistent team definitions across the organization.|
 |Hierarchical organization|Parent-child team relationships enable modeling of complex organizational structures \(site-level, country-level, global teams\) with automatic cycle prevention.|
 |Audit trail|Built-in activity streams and historical records capture all decisions, actions, and communications for compliance requirements and post-event analysis.|
-|Real-Time coordination|Integrated collaboration threads, email capabilities, and action tracking keep all team members aligned during crisis events without context switching to external tools.|
+|Real-time coordination|Integrated collaboration threads, email capabilities, and action tracking keep all team members aligned during crisis events without context switching to external tools.|
 |Automatic recipient resolution|Email notifications automatically resolve team membership including nested groups, eliminating manual recipient management during urgent situations.|
 
 ## Capabilities and use cases
@@ -55,16 +55,16 @@ The BCM recovery team and collaboration functionality provides key capabilities 
 
 ## Components used in recovery teams
 
-The global recovery team consists of the following components:
+The global recovery team includes the following components:
 
 |Component|Description|
 |---------|-----------|
 |Tables|
-|`sn_bcm_recovery_team`|Core table storing recovery team records with fields for name, description, location, and active status|
-|`sn_bcm_m2m_recovery_team_user`|Junction table linking users to recovery teams with automatic department mapping for picker filters|
-|`sn_bcm_m2m_recovery_team_group`|Junction table linking groups to recovery teams, supporting recursive group membership resolution|
-|`sn_bcm_m2m_recovery_team_recovery_team`|Self-join hierarchy table supporting parent-child team relationships with automatic cyclic-relationship prevention|
-|`sn_bcp_m2m_plan_recovery_team`|Junction table linking recovery teams to recovery plans|
+|sn\_bcm\_recovery\_team|Core table storing recovery team records with fields for name, description, location, and active status|
+|sn\_bcm\_m2m\_recovery\_team\_user|Junction table linking users to recovery teams with automatic department mapping for picker filters|
+|sn\_bcm\_m2m\_recovery\_team\_group|Junction table linking groups to recovery teams, supporting recursive group membership resolution|
+|sn\_bcm\_m2m\_recovery\_team\_recovery\_team|Self-join hierarchy table supporting parent-child team relationships with automatic cyclic-relationship prevention|
+|sn\_bcp\_m2m\_plan\_recovery\_team|Junction table linking recovery teams to recovery plans|
 |Access control|
 |core\_viewer|Read and report-view access to recovery team records|
 |core\_manager|Create, write, delete, and management permissions for recovery teams. These roles extend to all related records including collaboration threads and email communications.|
@@ -91,15 +91,15 @@ Recovery teams and collaboration provide the following key capabilities:
 **Related topics**  
 
 
-[Create and manage a recovery team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-recovery-team.md)
+[Create and manage a recovery team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-recovery-team.md)
 
-[List view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/list-view-uib-ws.md)
+[List view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/list-view-uib-ws.md)
 
-[Recovery teams, loss scenarios, and recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/recovery-teams.md)
+[Recovery teams, loss scenarios, and recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/recovery-teams.md)
 
-[Creating collaborations in exercises and crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/creating-collaboration-threads-in-crisis.md)
+[Creating collaborations in exercises and crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/creating-collaboration-threads-in-crisis.md)
 
-[Create a collaboration thread in a crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compose-email-collaboration-thread-crisis.md)
+[Create a collaboration thread in a crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compose-email-collaboration-thread-crisis.md)
 
-[Create Collaboration thread form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-collaboration-thread-crisis-event-form.md)
+[Create Collaboration thread form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-collaboration-thread-crisis-event-form.md)
 

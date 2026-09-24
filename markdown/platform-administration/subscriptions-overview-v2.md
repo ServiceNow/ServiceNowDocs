@@ -3,9 +3,9 @@ title: Product subscriptions overview
 description: View a summary of your product subscriptions in Subscription Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/subscriptions-overview-v2.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Explore, Subscription Management, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -39,43 +39,43 @@ Allocation details and status for user-based subscriptions are hidden from the S
 
 View a summary of your instance-level entitlements in the **Instance entitlements** tab.
 
--   Identify when subscriptions are over-allocated and view insights into actions you can take to maximize subscription usage.
+-   Identify when subscriptions are over-consumed and view insights into actions you can take to maximize subscription usage.
 -   Determine whether any custom tables and custom applications on your instance aren't mapped to a valid product subscription. You must map custom tables and custom applications that you create to a product subscription.
 -   View product subscription details by selecting the product name.
--   Identify which type of subscriptions you have by viewing the values in the **Type** column. The subscription type determines the properties and attributes of the product subscriptions that your company receives and whether to allocate subscriptions manually.
+-   Identify which type of subscriptions you have by viewing the values in the **Type** column. The subscription type determines the properties and attributes of the product subscriptions that your company receivesand whether to allocate subscriptions manually.
 
     -   Product subscription types include per-user, capacity, unrestricted user, unlimited, and display only.
-    -   Per-user subscriptions are automatically allocated by role for administrators that haven't manually allocated per-user subscriptions before. If an administrator has manually allocated per-user subscriptions in the past, they can continue to make manual allocations.. Capacity, unrestricted user, and unlimited subscriptions are allocated on your instance automatically. Display-only subscriptions aren't measured on your instance.
+    -   Per-user subscriptions are automatically allocated by role for administrators that haven't manually allocated per-user subscriptions before. If an administrator has manually allocated per-user subscriptions in the past, they can continue to make manual allocations. Capacity, unrestricted user, and unlimited subscriptions are allocated on your instance automatically. Display-only subscriptions aren't measured on your instance.
     -   Product subscriptions provide entitlements for different applications and can include different add-ons.
-    For more information, see [Types of subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/types-subscription-v2.md).
+    For more information, see [Types of subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/types-subscription-v2.md).
 
 -   Determine whether your subscription allocations are in compliance by viewing the values in the **Status** column. Adjust allocations if subscriptions are over-allocated.
 
     -   **Compliant**
 
-        The number of allocated subscriptions is below the number of purchased subscriptions.
+        The number of allocated subscription entitlements is lower than the number of purchased subscriptions.
 
     -   **Near capacity**
 
-        The number of allocated subscriptions exceeds the threshold for your instance. You define the threshold on the **Settings** tab.
+        The number of allocated subscription entitlements exceeds the threshold for your instance. You define the threshold on the **Settings** tab.
 
     -   **Even**
 
-        The number of allocated subscriptions equals the number of purchased subscriptions.
+        The number of allocated subscription entitlements equals the number of purchased subscription entitlements.
 
     -   **Over-allocated**
 
-        The number of allocated subscriptions exceeds the number of purchased subscriptions.
+        The number of allocated subscription entitlements exceeds the number of purchased subscription entitlements.
 
     -   **Account-level only**
 
         The subscription allocation status isn't calculated. Only applies to Creator Plus products.
 
-    You can customize the near capacity threshold for your instance in the **Settings** tab. For more information, see [Configure subscription allocation status in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-subscription-allocation-status-v2.md).
+    You can customize the near capacity threshold for your instance in the **Settings** tab. For more information, see [Configure subscription allocation status in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-subscription-allocation-status-v2.md).
 
 -   View a summary of the Creator Plus subscriptions on the instance that you're currently accessing.
     -   View the total number of Creator Plus subscriptions that your company has purchased in the **Purchased** column.
-    -   Contact your account executive for up-to-date information about per-user subscription allocations.
+    -   Monitor the total number of Creator Plus allocations on your current instance in the **Allocated** column. Contact your account executive for up-to-date information about per-user subscription allocations.
 
 View a summary of your account-level entitlements in the **Account entitlements** tab.
 
@@ -85,6 +85,10 @@ View a summary of your account-level entitlements in the **Account entitlements*
     -   View additional details about Now Assist usage by selecting the product name.
 -   View an account-level summary of Now Assist creators.
     -   View the total number of Creator Plus subscriptions that your account has purchased in the **Purchased** column.
+    -   Monitor unique Creator Plus allocations across all your instances by checking the **Allocated** column.
+
+        **Note:** Users allocated to a Creator Plus subscription on multiple instances are automatically de-duplicated in the count on the **Account entitlements** tab. When a user is allocated to a Creator Plus subscription on more than one instance, that user counts toward the allocation total only once.
+
     -   View additional details about Now Assist creators by selecting the product name.
 -   View an account-level summary of your cloud capacity.
     -   View the total amount of cloud capacity that your account has purchased in the **Purchased** column.

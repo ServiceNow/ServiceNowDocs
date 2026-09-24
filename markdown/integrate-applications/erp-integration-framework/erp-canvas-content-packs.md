@@ -3,14 +3,14 @@ title: Zero Copy Connector for ERP content packs
 description: Use Zero Copy Connector for ERP content packs as examples to help you implement and deploy applications with less manual work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-content-packs.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
 last_updated: "2026-06-08"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, content, pack, content pack, model, integration, data hub, zero, copy, connector, sap]
-breadcrumb: [Using, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [ERP models, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Zero Copy Connector for ERP content packs
@@ -31,7 +31,7 @@ Content pack models and process extensions are examples. Use them as accelerator
 
 Process extensions are subflows that can use one or more models. Process extensions enable you to use a model without needing to understand the model details. The process extensions are another abstraction layer on top of the models inside the content pack to make the models easier to use.
 
-Process extensions in a content pack are read-only examples. To use a process extension, make a copy and edit it within Workflow Studio. For the steps to copy a process extension and add cloned models, see [Using Zero Copy Connector for ERP process extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-using-process-extensions.md).
+Process extensions in a content pack are read-only examples. To use a process extension, make a copy and edit it within Workflow Studio. For the steps to copy a process extension and add cloned models, see [Using Zero Copy Connector for ERP process extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-using-process-extensions.md).
 
 \[Omitted image "erpc-process-extensions-list-ws.png"\] Alt text: Workflow Studio subflows list showing content pack process extensions.
 
@@ -48,4 +48,15 @@ You must have:
 ## Installation from the ServiceNow Store
 
 For detailed information about buying and installing Zero Copy Connector for ERP content packs, see the [ServiceNow Store Help](https://store.servicenow.com/$appstore.do#!/store/helpcenter) page.
+
+-   **[Explore a Zero Copy Connector for ERP content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-explore-a-content-pack.md)**  
+ Explore an Zero Copy Connector for ERP content pack to review its models and process extensions, which are read-only examples you can copy and customize.
+-   **[Using Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-using-content-packs.md)**  
+Learn how to use Zero Copy Connector for ERP \(Enterprise Resource Planning\) content packs, from cloning a model to working within a scope. Content pack models and process extensions are examples.
+-   **[Using Zero Copy Connector for ERP process extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-using-process-extensions.md)**  
+Learn how to use the process extensions \(subflows\) in Zero Copy Connector for ERP \(Enterprise Resource Planning\) content packs. Content pack models and process extensions are examples.
+-   **[Available Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-available-content-packs.md)**  
+Content packs are available for use in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to implement and deploy applications with less manual work.
+
+**Parent Topic:**[Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md)
 

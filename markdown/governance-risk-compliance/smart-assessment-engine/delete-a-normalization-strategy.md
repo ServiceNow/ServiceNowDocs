@@ -3,11 +3,11 @@ title: Delete a normalization strategy
 description: You can delete a normalization strategy only if it is in draft state. Deleting a strategy removes it permanently, so confirm it is no longer in use before proceeding.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/delete-a-normalization-strategy.html
-release: australia
+release: brazil
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Normalization in assessment, Scoring assessments, Use template designer, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---

@@ -3,11 +3,11 @@ title: Configure the EMR session info contextual sidebar
 description: Configure the EMR session info contextual sidebar in Workspace to manage the fields that display there.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/emr-help/configure-the-emr-session-info-contextual-sidebar.html
-release: australia
+release: brazil
 product: EMR Help
 classification: emr-help
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---

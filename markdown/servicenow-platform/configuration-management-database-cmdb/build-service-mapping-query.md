@@ -3,11 +3,11 @@ title: Build a Service Mapping query using the CMDB Query Builder
 description: The Service Mapping query type is a pattern consisting of classes and relationships between those classes. After you build the pattern and run the query, the query returns all the Service Mapping services that contain that pattern.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/build-service-mapping-query.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [CMDB Query Builder, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ The Service Mapping query type is a pattern consisting of classes and relationsh
 
 Role required: cmdb\_query\_builder\_read to only view and run saved queries, and cmdb\_query\_builder to create and save queries, modify saved queries, and run queries.
 
-Authorized users can update and [delete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/delete-cmdb-query.md) a query created by another user.
+Authorized users can update and [delete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/delete-cmdb-query.md) a query created by another user.
 
 ## About this task
 
@@ -28,7 +28,7 @@ Build the query by dragging the CI classes that you want to include in the query
 
 As you step through building a query, list options and other user interface elements of the CMDB Query Builder, are dynamically filtered as appropriate to your selections.
 
-See [Example queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sample-queries.md) for a step-by-step walk through of building a Service Mapping query in the CMDB Query Builder.
+See [Example queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/sample-queries.md) for a step-by-step walk through of building a Service Mapping query in the CMDB Query Builder.
 
 ## Procedure
 
@@ -44,7 +44,7 @@ See [Example queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
 
     4.  Select **Create**.
 
-    5.  Select a widget of a saved query to continue building an existing query. [Search for a saved query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/search-saved-queries.md) first if needed.
+    5.  Select a widget of a saved query to continue building an existing query. [Search for a saved query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/search-saved-queries.md) first if needed.
 
     6.  Point to the upper right corner of a saved query widget.
 
@@ -72,7 +72,7 @@ See [Example queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
     -   Add filters to a class node: Apply filters to narrow down a class to a specific set of CIs or to a single specific CI.
 
         1.  Point to the node to add a filter to, and then select the **Apply filters** icon that pops up above the node.
-        2.  In the Filters section, add attribute and [related list conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-related-list-query.md).
+        2.  In the Filters section, add attribute and [related list conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/create-related-list-query.md).
         3.  Close the **Filters** section.
         For example: Add a filter for business criticality to query for businesses that are 'most critical'.
 
@@ -112,25 +112,25 @@ See [Example queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
     The query results pane displays only the first 100 results of the query.
 
     -   Select **Load More Results** to display the next set of 100 results.
-    -   Select **Load All Results** to display the rest of the query results, up to the number specified by the [glide.cmdb.query.max\_results\_limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-querybldr-sysproprties.md) system property \(10,000 by default\).
+    -   Select **Load All Results** to display the rest of the query results, up to the number specified by the [glide.cmdb.query.max\_results\_limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-querybldr-sysproprties.md) system property \(10,000 by default\).
     Select a CI to open its CI form, and on the CI form select **Open in Workspace** to view CI health in CMDB Workspaceor in Service Graph Workspace. This operation requires the sn\_cmdb\_user \(CMDB user\) role.
 
     **Note:** When a query is running, wait for it to complete or to time out before opening or running another query.
 
--   [Modify Query Builder settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-querybldr-config-display.md): Select the Settings icon to open the **Query Builder Settings** dialog box.
+-   [Modify Query Builder settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-querybldr-config-display.md): Select the Settings icon to open the **Query Builder Settings** dialog box.
 -   Copy and share the URL of a saved query with users that have access to the CMDB Query Builder. Pasting the shared URL in a new internet browser window, directly opens the saved query in the CMDB Query Builder.
--   [Create a report in CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-query-results-report.md).
--   [Create a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-cmdb-query-schedule.md) to run the query at a future time, and to email the results to interested parties.
+-   [Create a report in CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/create-query-results-report.md).
+-   [Create a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/create-cmdb-query-schedule.md) to run the query at a future time, and to email the results to interested parties.
 -   Export query results:
 
     Export query results that are visible: Select the Query Results context menu and select **Export**. Even if the **Load More Results** button is visible, indicating that there are additional query results, only the results that are visible are exported.
 
--   [Export and import a CMDB query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/export-import-query.md) to port a query definition between instances.
--   [Populate a CMDB group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md) using the saved query.
--   [Delete a CMDB query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/delete-cmdb-query.md).
+-   [Export and import a CMDB query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/export-import-query.md) to port a query definition between instances.
+-   [Populate a CMDB group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md) using the saved query.
+-   [Delete a CMDB query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/delete-cmdb-query.md).
 
 **Related topics**  
 
 
-[Example queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sample-queries.md)
+[Example queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/sample-queries.md)
 

@@ -3,9 +3,9 @@ title: Booking appointments for Patient Support Services
 description: Book an appointment as a patient for the training requests within a Patient Support Services program.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pss-booking-appt-patient.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Patient Support Services, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -22,16 +22,16 @@ For details, see the [Deprecation Process \[KB0867184\]](https://support.service
 
 As a patient, you can view available appointment windows, make a selection, and book an appointment for a training request from your patient portal.
 
-Your administrator can configure the appointment window available for selecting appointments. You can use the appointment window available within your patient portal to view available appointment time slots, select the desired day and time, and submit the appointment request. For an example use of the appointment booking feature, see [Book an appointment from the portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/appointment-booking-book-appt-UI.md) and [Select the Appointment window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/appt-booking-select-appt-window.md).
+Your administrator can configure the appointment window available for selecting appointments. You can use the appointment window available within your patient portal to view available appointment time slots, select the desired day and time, and submit the appointment request. For an example use of the appointment booking feature, see [Book an appointment from the portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/appointment-booking-book-appt-UI.md) and [Select the Appointment window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/appt-booking-select-appt-window.md).
 
 After you book an appointment, a training task is created for the nurse educator and the appointment confirmation email notification is sent to you.
 
-For more information, see [Appointment booking workflow in Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-appt-booking-feature.md).
+For more information, see [Appointment booking workflow in Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pss-appt-booking-feature.md).
 
 **Related topics**  
 
 
-[Appointment booking workflow in Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-appt-booking-feature.md)
+[Appointment booking workflow in Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pss-appt-booking-feature.md)
 
-[Configuring an appointment booking setting for Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-appt-booking-setup.md)
+[Configuring an appointment booking setting for Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pss-appt-booking-setup.md)
 

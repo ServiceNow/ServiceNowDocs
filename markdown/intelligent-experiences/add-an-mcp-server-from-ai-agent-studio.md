@@ -3,11 +3,11 @@ title: Add an MCP server from AI Agent Studio
 description: When you add an MCP server in AI Agent Studio, it's automatically discovered and synced to AI Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-an-mcp-server-from-ai-agent-studio.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [MCP server setup, Working with MCP server records, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [MCP server setup, Working with MCP server records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Add an MCP server from AI Agent Studio
@@ -44,7 +44,7 @@ Role required: sn\_aia.admin, sn\_mcp\_client.admin
 
     AI Gateway registration in AI Agent Studio supports Dynamic Client Registration.
 
-    When the server allows dynamic client registration, it will automatically retrieve the necessary details. Otherwise, you will need to enter the details manually.
+    When the server allows dynamic client registration, it will automatically retrieve the necessary details. Otherwise, you have to enter the details manually.
 
 7.  Select the **Grant type**.
 

@@ -3,11 +3,11 @@ title: Work item dependencies in EAP
 description: Learn about work item dependencies and how they're shown on the Planning board for a team in Enterprise Agile Planning.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/work-item-dependencies-in-eap.html
-release: australia
+release: brazil
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
-last_updated: "2026-07-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Perform PI planning, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Learn about work item dependencies and how they're shown on the Planning board f
 
 ## Dependencies overview
 
-While planning, it’s essential to know how your work items are connected with each other. Knowing dependencies between work items enables identification of challenges, coordination for resolution, and an overall improvement in collaboration between teams. Unless you know the dependency for each item, you could be at risk of not scheduling the right work for the right iteration. To get started with dependencies in EAP, see [Create and manage dependencies between work items in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-dependencies-between-work-items-in-eap.md).
+While planning, it’s essential to know how your work items are connected with each other. Knowing dependencies between work items enables identification of challenges, coordination for resolution, and an overall improvement in collaboration between teams. Unless you know the dependency for each item, you could be at risk of not scheduling the right work for the right iteration. To get started with dependencies in EAP, see [Create and manage dependencies between work items in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/create-dependencies-between-work-items-in-eap.md).
 
 ## Dependency line colors
 
@@ -56,13 +56,13 @@ The following screenshot shows the dependencies related lists for a Story.
 
 \[Omitted image "eap-dependencies-related-lists.png"\] Alt text: Related lists for dependencies for a story in EAP.
 
--   **[Create and manage dependencies between work items in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-dependencies-between-work-items-in-eap.md)**  
+-   **[Create and manage dependencies between work items in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/create-dependencies-between-work-items-in-eap.md)**  
 Draw work item dependencies in real-time across teams and iterations and visually analyze them while you collaborate using the Planning board in Enterprise Agile Planning.
 
-**Parent Topic:**[Perform PI planning in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/pi-planning-eap.md)
+**Parent Topic:**[Perform PI planning in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/pi-planning-eap.md)
 
 **Related topics**  
 
 
-[Create and manage dependencies between work items in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-dependencies-between-work-items-in-eap.md)
+[Create and manage dependencies between work items in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/create-dependencies-between-work-items-in-eap.md)
 

@@ -1,24 +1,22 @@
 ---
 title: Share a task plan template from the workspace
-description: Share a task plan template with specific users, groups, service  organizations, or organization criteria directly from the Task Plan Templates workspace.
+description: Share a task plan template with specific users, groups, service organizations, or organization criteria directly from the Task Plan Templates workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/share-a-task-plan-template-from-the-workspace.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sharing task plan templates, Task Plan Templates, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Share a task plan template from the workspace
 
-Share a task plan template with specific users, groups, service  organizations, or organization criteria directly from the Task Plan Templates workspace.
+Share a task plan template with specific users, groups, service organizations, or organization criteria directly from the Task Plan Templates workspace.
 
 ## Before you begin
 
-Role required: sn\_task\_plan.admin
-
-## About this task
+Role required: admin \(`sn_task_plan.admin`\)
 
 Share a task plan template from the Task Plan Templates workspace to control who can view and use the template. You can share templates in Draft or Published state. The template is private by default and is accessible only to the creator until shared.
 

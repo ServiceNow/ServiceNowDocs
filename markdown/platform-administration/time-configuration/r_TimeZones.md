@@ -3,11 +3,11 @@ title: Time zones
 description: All times are stored in Coordinated Universal Time \(UTC\) and appear globally based on the system time zone. However, times appear to users in their local time zone, according to their user preference settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/r\_TimeZones.html
-release: australia
+release: brazil
 product: Time Configuration
 classification: time-configuration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Reference, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -73,7 +73,7 @@ Some special considerations:
 
 ## Time zone in scripting
 
-When you create scripting on the server, the script uses several GlideSystem date and time functions to obtain time values. For more information about specific methods and to learn the format in which each returns the requested time, see the [GlideSystem API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
+When you create scripting on the server, the script uses several GlideSystem date and time functions to obtain time values. For more information about specific methods and to learn the format in which each returns the requested time, see the [GlideSystem API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## Enhancements
 
@@ -83,16 +83,16 @@ DST enhancement requires that reports and queries observe Daylight Saving Time r
 
 The time zone changer is active by default. Users can change their time zone for the current session in the system settings \(the gear on the top right of the banner\). At the next login, the time zone setting reverts to the system default, or user profile setting for time zone.
 
-**Parent Topic:**[Time configuration references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/reference-time-configuration.md)
+**Parent Topic:**[Time configuration references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/reference-time-configuration.md)
 
 **Related topics**  
 
 
-[Set a system time zone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_SetASystemTimeZone.md)
+[Set a system time zone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/t_SetASystemTimeZone.md)
 
-[Change the time zone choice list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_ChangeTheTimeZoneChoiceList.md)
+[Change the time zone choice list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/t_ChangeTheTimeZoneChoiceList.md)
 
-[Change a time zone in a scheduled report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_ChangeATimeZoneInASchedReport.md)
+[Change a time zone in a scheduled report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/t_ChangeATimeZoneInASchedReport.md)
 
-[Change a time zone in a scheduled data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_ChangeTimeZoneInScheduledImport.md)
+[Change a time zone in a scheduled data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/t_ChangeTimeZoneInScheduledImport.md)
 

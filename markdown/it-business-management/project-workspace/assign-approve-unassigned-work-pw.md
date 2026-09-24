@@ -3,13 +3,13 @@ title: Access, assign, and approve unassigned work in Project Workspace
 description: View, assign and authorize resources directly from Project Workspace without navigating to Resource Management Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/assign-approve-unassigned-work-pw.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Resource assignments in Project Workspace, Manage resources, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Resource assignments in Project Workspace, Resource planning with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Access, assign, and approve unassigned work in Project Workspace
@@ -47,15 +47,15 @@ In Project Workspace, when you select **Resources** page from the left menu, you
 
 5.  You can assign work using one of the following ways.
 
-<table id="choicetable_qth_yqy_khc"><thead><tr><th align="left" id="d242126e170">
+<table id="choicetable_qth_yqy_khc"><thead><tr><th align="left" id="d243112e170">
 
 Assign work choices
 
-</th><th align="left" id="d242126e173">
+</th><th align="left" id="d243112e173">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d242126e179">
+</th></tr></thead><tbody><tr><td id="d243112e179">
 
 **Auto Assign**
 
@@ -63,7 +63,7 @@ Description
 
 The system automatically identifies all resources based on the selected primary attributes and distributes the work equally among the resources.In the Assign resources window, select **Assign resources automatically** from the Assign resources list.
 
-</td></tr><tr><td id="d242126e193">
+</td></tr><tr><td id="d243112e193">
 
 **Manual Assign**
 
@@ -105,8 +105,8 @@ The assigned work items are Approved \(\[Omitted image "rmw-approved-state.png"\
 
 ## What to do next
 
--   Reassign or unassign any assigned work from the Project Workspace. For more information, see [Reassign or unassign work using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rmw-reassign-unassign-work.md).
--   Split resource assignments at a specific date from the Project Workspace. For more information, see [Split resource assignments using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/split-resource-assignment-rmw.md).
+-   Reassign or unassign any assigned work from the Project Workspace. For more information, see [Reassign or unassign work using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/rmw-reassign-unassign-work.md).
+-   Split resource assignments at a specific date from the Project Workspace. For more information, see [Split resource assignments using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/split-resource-assignment-rmw.md).
 
-**Parent Topic:**[Resource assignments in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/resource-assignments-pw.md)
+**Parent Topic:**[Resource assignments in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/resource-assignments-pw.md)
 

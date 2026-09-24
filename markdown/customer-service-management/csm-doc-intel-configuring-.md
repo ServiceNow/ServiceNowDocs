@@ -3,10 +3,10 @@ title: Configure Document Intelligence for Customer Service
 description: Enable Document Intelligence for Customer Service and create use cases to extract data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-doc-intel-configuring-.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Configure, Task Intelligence for Customer Service, Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
 ---
 
@@ -28,7 +28,7 @@ Ensure that your instance is set up for Predictive Intelligence \(PI\).
 
 </td><td>
 
-Predictive Intelligence is a ServiceNow platform feature that provides a layer of artificial intelligence, which serves as a framework for machine learning models. For more information, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence.md).
+Predictive Intelligence is a ServiceNow platform feature that provides a layer of artificial intelligence, which serves as a framework for machine learning models. For more information, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/predictive-intelligence.md).
 
 </td></tr><tr><td>
 
@@ -41,7 +41,7 @@ The Task Intelligence for Customer Service application enables customers to crea
  This application automatically activates the following plugins:
 
 -   Predictive Intelligence for Customer Service Management \(com.snc.csm\_ml\)
--   Customer Service \(com.sn\_customerservice\)
+-   Case Management Core \(com.sn\_customerservice\)
 -   Skills Management \(com.snc.skills\_management\)
 -   Dynamic Translation \(com.glide.dynamic\_translation\)
 -   ServiceNow Language Detection Service Spoke \(com.glide.language\_detection\_spoke\)
@@ -78,7 +78,7 @@ Use the DocIntel Admin experience to create one or more use cases.
 -   Define the fields to be extracted.
 -   Select conditions for a use case that tell the Document Intelligence feature when to run.
 
-For more information, see [Create a Document Intelligence use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intel-create-di-use-case.md).
+For more information, see [Create a Document Intelligence use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-task-intel-create-di-use-case.md).
 
 </td></tr></tbody>
 </table>## Document Intelligence for case types
@@ -88,9 +88,7 @@ When you create a case type that extends the Case \[sn\_customerservice\_case\] 
 **Related topics**  
 
 
-[Document Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-document-intelligence.md)
+[Document Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-document-intelligence.md)
 
-[Review and submit values predicted by Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-doc-intel-review-values.md)
-
-[Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence-landing.md)
+[Review and submit values predicted by Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-doc-intel-review-values.md)
 

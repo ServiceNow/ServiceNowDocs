@@ -3,11 +3,11 @@ title: Domain separation in Live Feed
 description: This is an overview of domain separation and Live Feed. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/r\_DomainSeparationInLiveFeed.html
-release: australia
+release: brazil
 product: Live Feed
 classification: live-feed
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Live Feed reference, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -66,20 +66,20 @@ All of the Live Feed features are available to users within a domain and work th
     Users can subscribe to email notifications from users and teams within their domain only.
 
 
-**Parent Topic:**[Live Feed reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/live-feed-reference.md)
+**Parent Topic:**[Live Feed reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/live-feed-reference.md)
 
 **Related topics**  
 
 
-[Live Feed security and table access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/r_LiveFeedTableAccessRules.md)
+[Live Feed security and table access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/r_LiveFeedTableAccessRules.md)
 
-[Limit Live Feed access by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/t_LimitLiveFeedAccessByRole.md)
+[Limit Live Feed access by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/t_LimitLiveFeedAccessByRole.md)
 
-[Manage Live Feed message content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/t_ManageLiveFeedMessageContent.md)
+[Manage Live Feed message content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/t_ManageLiveFeedMessageContent.md)
 
-[Live Feed team security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/r_LiveFeedTeamSecurity.md)
+[Live Feed team security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/r_LiveFeedTeamSecurity.md)
 
-[Restrict hashtag renaming](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/r_RestrictHashtagRenaming.md)
+[Restrict hashtag renaming](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/r_RestrictHashtagRenaming.md)
 
-[Domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[Domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-sep-landing-page.md)
 

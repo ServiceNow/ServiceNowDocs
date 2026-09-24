@@ -3,11 +3,11 @@ title: Manage control indicators using the Compliance Workspace
 description: Continuous monitoring involves activities related to identifying and creating key risk and controls indicators. The Compliance Overview is available to compliance administrators and compliance managers, providing an executive view into compliance requirements, overall compliance, and compliance breakdowns.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/manage-control-indicators-ws.html
-release: australia
+release: brazil
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, GRC Compliance workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -27,7 +27,7 @@ Supporting information can be collected for indicators through automatic data co
     Indicator templates allow the creation of multiple indicators for similar controls or risks.
 
 
-**Note:** The Entity Based Access provides a framework for more granular approach to management of data access to objects associated with an entity. Administrators can grant access to an entity's related records by adding users or user groups, or by using entity user fields for entity-based access configuration. For more information, see [Entity Based Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/entity-based-access.md). When a user is qualified based on these configurations and has the minimum required roles, they will have access to the following tables:
+**Note:** The Entity Based Access provides a framework for more granular approach to management of data access to objects associated with an entity. Administrators can grant access to an entity's related records by adding users or user groups, or by using entity user fields for entity-based access configuration. For more information, see [Entity Based Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/entity-based-access.md). When a user is qualified based on these configurations and has the minimum required roles, they will have access to the following tables:
 
 -   Indicator
 -   Indicator task
@@ -53,7 +53,7 @@ Each authority document is defined in a record and the related lists on that rec
 
 The relationships of these authority document related list items are visible in the GRC Workbench in the Policy and Compliance Management application.
 
-**Note:** You can [add content reference tags to authority documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/content-references.md). Content reference tags allow you to filter records in order to more easily identify the content packs, integrations, and use case accelerators associated with the authority documents.
+**Note:** You can [add content reference tags to authority documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/content-references.md). Content reference tags allow you to filter records in order to more easily identify the content packs, integrations, and use case accelerators associated with the authority documents.
 
 ## Citations
 
@@ -61,5 +61,5 @@ Citations contain the provisions of the authority document, which can be interre
 
 You can create citations or import them from UCF authority documents and then create any necessary relationships between the citations.
 
-**Note:** You can [add content reference tags to citations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/content-references.md). Content reference tags allow you to filter records in order to more easily identify the content packs, integrations, and use case accelerators associated with the citations.
+**Note:** You can [add content reference tags to citations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/content-references.md). Content reference tags allow you to filter records in order to more easily identify the content packs, integrations, and use case accelerators associated with the citations.
 

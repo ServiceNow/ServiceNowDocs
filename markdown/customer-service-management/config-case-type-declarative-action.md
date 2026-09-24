@@ -3,9 +3,9 @@ title: Configure case type declarative actions
 description: Configure declarative actions that enable agents to create cases and case tasks from different locations within CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-case-type-declarative-action.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring customer service case types, Customer service case types, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-The Customer Service Case Types plugin includes declarative actions that enable agents to create cases and case tasks using the [case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-case-type-select-modals.md) and [case task type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-case-task-type-select-modal.md). These declarative actions are disabled by default.
+The Customer Service Case Types plugin includes declarative actions that enable agents to create cases and case tasks using the [case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-case-type-select-modals.md) and [case task type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-case-task-type-select-modal.md). These declarative actions are disabled by default.
 
 |Action label|Location|Action|
 |------------|--------|------|

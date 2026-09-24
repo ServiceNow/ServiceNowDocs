@@ -3,9 +3,9 @@ title: Configure a form to show special handling notes
 description: Display special handling notes on a form, such as the Case form, in either a form list or a pop-up window.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_ConfigFormToShowOnScreenAlerts.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure special handling notes, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_shn.admin
 
 2.  Right-click the form header and select **Configure** &gt; **Form Layout**.
 
-    The system displays a pop-up window that gives you the choice to use Form Builder or continue with the following steps. Selecting **Try Form Builder** opens the Form Builder tool in a new window. For more information, see [Accessing Form Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/access-form-builder.md).
+    The system displays a pop-up window that gives you the choice to use Form Builder or continue with the following steps. Selecting **Try Form Builder** opens the Form Builder tool in a new window. For more information, see [Accessing Form Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/access-form-builder.md).
 
 3.  Select **Not Now** on the pop-up window.
 
@@ -38,5 +38,5 @@ Role required: sn\_shn.admin
 **Related topics**  
 
 
-[Special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_OnScreenAlerts.md)
+[Special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_OnScreenAlerts.md)
 

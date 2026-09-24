@@ -3,11 +3,11 @@ title: Analytics and reporting for Financial Services Loan Operations
 description: Financial Services Loan Operations contains preconfigured dashboards with actionable data visualizations that can help your organization improve your business processes and quantify the value of self-service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-loan-operations/analytics-reporting-fso-loan-ops.html
-release: australia
+release: brazil
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Loan Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -20,6 +20,6 @@ Use the Performance Analytics widgets on a dashboard to visualize data over time
 
 The following dashboards are available for Financial Services Loan Operations:
 
--   [Business Loan Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/business-loan-operations-dashboard.md)
--   [Personal Loan Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/personal-loan-operations-dashboard.md)
+-   [Business Loan Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/business-loan-operations-dashboard.md)
+-   [Personal Loan Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/personal-loan-operations-dashboard.md)
 

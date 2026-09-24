@@ -3,11 +3,11 @@ title: Understanding the risk assessment instance
 description: A risk assessment instance is where a risk assessor can assess risks and objects by responding to questions or factors.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/understanding-risk-assessment-instance.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Advanced Risk Assessment, Explore, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -63,5 +63,5 @@ The risk assessment life cycle goes through the following states:
 7.  Awaiting approval: The risk assessment is awaiting approval from the approvers if they have been identified.
 8.  Monitor: The risk assessment is complete and is being monitored.
 
-**Parent Topic:**[Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/advanced-risk-assessment.md)
+**Parent Topic:**[Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/advanced-risk-assessment.md)
 

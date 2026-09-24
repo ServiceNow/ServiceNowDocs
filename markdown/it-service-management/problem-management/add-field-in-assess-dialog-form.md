@@ -3,11 +3,11 @@ title: Add a field in the assess mandatory field dialog
 description: Add the mandatory fields necessary to move a problem or a problem task record from the New state to the Assess state in the assess dialog form. If you miss filling any of the fields, you can always fill those in the assess dialog form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/add-field-in-assess-dialog-form.html
-release: australia
+release: brazil
 product: Problem Management
 classification: problem-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the problem form, Configuring Problem Management, Problem Management, IT Service Management]
 ---
@@ -88,5 +88,5 @@ Name of the formatter that is used to display information.**Note:** The formatte
 </table>8.  Click **Submit**.
 
 
-**Parent Topic:**[Configure the problem form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/problem-configure-forms.md)
+**Parent Topic:**[Configure the problem form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/problem-configure-forms.md)
 

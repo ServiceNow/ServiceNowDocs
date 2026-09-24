@@ -3,11 +3,11 @@ title: Create repeat offender identification rules
 description: Create repeat offender identification rules to identify users who repeat the same issue multiple times.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/repeat-offender-identification-rules.html
-release: australia
+release: brazil
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Administer, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -115,7 +115,7 @@ Define the repeat offender threshold limit in the form of days. After the user r
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
+**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
 
 **Related topics**  
 
@@ -150,7 +150,7 @@ Define the repeat offender threshold limit in the form of days. After the user r
 
 [Create user delegate configurations]()
 
-[Create additional incident data fields]()
+[Create Additional Incident Data Fields]()
 
 [DLP SLA Definition form]()
 

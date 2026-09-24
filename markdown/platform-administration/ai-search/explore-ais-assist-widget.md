@@ -3,11 +3,11 @@ title: Deflect incidents in Service Portal with the AI Search Assist widget
 description: Improve incident deflection for Service Portal users by displaying the most relevant search results within a record producer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/explore-ais-assist-widget.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-08-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -27,7 +27,7 @@ AI Search Assist helps with incident deflection for the following areas:
 -   Incident forms: Help service desk staff resolve incidents quickly by providing relevant knowledge.
 -   Incident email notifications: Help end users resolve their incidents themselves without requiring manual intervention from service desk staff.
 
-To learn more about configuring and using the AI Search Assist widget in Service Portal, see [AI Search Assist record producer integration for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/ai-search-assist.md).
+To learn more about configuring and using the AI Search Assist widget in Service Portal, see [AI Search Assist record producer integration for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/ai-search-assist.md).
 
-**Parent Topic:**[Exploring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/explore-ais.md)
+**Parent Topic:**[Exploring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/explore-ais.md)
 

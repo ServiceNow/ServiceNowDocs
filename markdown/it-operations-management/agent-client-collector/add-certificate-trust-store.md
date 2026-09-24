@@ -3,11 +3,11 @@ title: Add a self-signed certificate to the OS truststore
 description: Add a self-signed certificate to the truststore of your operating system \(OS\). By adding a certificate to the truststore, you can verify that the certificate is authentic and that your connections are secure.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/add-certificate-trust-store.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [ACC certificates, ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -48,7 +48,7 @@ Role required: agent\_client\_collector\_admin
 
     6.  Follow the steps in the Certificate Import Wizard.
 
-        For details, see [Import a self-signed certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/import-self-signed-certificate.md).
+        For details, see [Import a self-signed certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/import-self-signed-certificate.md).
 
     Alternatively, you can add a Windows certificate using PowerShell by running the following command as an administrator:
 
@@ -109,5 +109,5 @@ Role required: agent\_client\_collector\_admin
 
 Your self-signed certificate is on the OS that you are working with.
 
-**Parent Topic:**[Agent Client Collector certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-certificates.md)
+**Parent Topic:**[Agent Client Collector certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-certificates.md)
 

@@ -3,11 +3,11 @@ title: Agent onboarding configuration settings
 description: The settings you can customize when generating an Agent Onboarding installation plan. Toggle settings to activate and enable customization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-onboarding-config-settings.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-05-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ACC-F reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
@@ -130,5 +130,5 @@ REST API port on the agent.
 Enter the port numberDefault port number: 3031
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
+</table>**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
 

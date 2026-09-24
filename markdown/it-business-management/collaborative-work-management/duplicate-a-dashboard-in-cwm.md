@@ -3,11 +3,11 @@ title: Duplicate a dashboard in Collaborative Work Management
 description: Duplicate a dashboard in a CWM Board to reuse an existing set of widgets in a new dashboard. This avoids rebuilding the same layout from scratch.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/duplicate-a-dashboard-in-cwm.html
-release: australia
+release: brazil
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-08-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [duplicate dashboard, copy dashboard, CWM]
 breadcrumb: [Monitor and track work using dashboards in CWM, Manage work using Boards, Use, Collaborative Work Management, Strategic Portfolio Management]
@@ -19,7 +19,7 @@ Duplicate a dashboard in a CWM Board to reuse an existing set of widgets in a ne
 
 ## Before you begin
 
-Confirm that a dashboard is created. For more information, see [Create a dashboard for a CWM Board in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/creating-dashboards-in-cwm.md).
+Confirm that a dashboard is created. For more information, see [Create a dashboard for a CWM Board in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/creating-dashboards-in-cwm.md).
 
 Role required: sn\_cwm.cwm\_user
 
@@ -56,7 +56,7 @@ The duplicate dashboard is created and includes all widgets from the original da
 
 ## What to do next
 
-Add predefined or custom widgets to your duplicated dashboard or remove existing ones. For more information see [Add widgets to a dashboard in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/add-a-widget-to-cwm-dashboard.md) and [Remove widgets from a dashboard in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/remove-a-widget-from-a-dashboard.md).
+Add predefined or custom widgets to your duplicated dashboard or remove existing ones. For more information see [Add widgets to a dashboard in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/add-a-widget-to-cwm-dashboard.md) and [Remove widgets from a dashboard in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/remove-a-widget-from-a-dashboard.md).
 
-**Parent Topic:**[Monitor and track work using dashboards in CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-board-dashboards.md)
+**Parent Topic:**[Monitor and track work using dashboards in CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/cwm-board-dashboards.md)
 

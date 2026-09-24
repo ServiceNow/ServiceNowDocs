@@ -3,11 +3,11 @@ title: Populating the CMDB
 description: You can populate the CMDB by using Discovery, by using the IntegrationHub ETL or Import Sets to import and integrate data from a third-party source, by integrating with an external CMDB, or by manually creating CIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/c\_OptionsToPopulateCMDB.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,17 +20,17 @@ When you populate the CMDB with information, you create a record for each config
 
 Related ServiceNow® Store apps and reference information:
 
--   [CMDB schema model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ConfigurationManagementDatabase.md): A collection of class diagrams and class attributes for key CMDB classes.
--   [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md): Descriptions of key CMDB tables in the base system.
--   [CMDB CI Class Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md): A ServiceNow Store app that adds class models that extend the base CMDB class hierarchy. This includes class descriptions, identification rules, identifier entries, and dependent relationships if applicable. You can then use the added classes as any other CMDB base class.
--   [Discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_MappingPatternsCustomization.md): A ServiceNow Store app that provides a library of Discovery patterns for discovering specific devices and applications in the industry.
--   [Getting started with Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md): ServiceNow Store apps that provide pre-defined integrations for importing and integrating common third-party data into CMDB classes. Also includes the [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md) wizard for creating new ETL transform maps.
+-   [CMDB schema model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_ConfigurationManagementDatabase.md): A collection of class diagrams and class attributes for key CMDB classes.
+-   [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md): Descriptions of key CMDB tables in the base system.
+-   [CMDB CI Class Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md): A ServiceNow Store app that adds class models that extend the base CMDB class hierarchy. This includes class descriptions, identification rules, identifier entries, and dependent relationships if applicable. You can then use the added classes as any other CMDB base class.
+-   [Discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/c_MappingPatternsCustomization.md): A ServiceNow Store app that provides a library of Discovery patterns for discovering specific devices and applications in the industry.
+-   [Getting started with Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md): ServiceNow Store apps that provide pre-defined integrations for importing and integrating common third-party data into CMDB classes. Also includes the [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md) wizard for creating new ETL transform maps.
 
 ## ITIL configuration management auto-discovery
 
 The key to any configuration management business practice is the initial and on-going inventory or discovery of what you own. The ServiceNow platform provides three options for auto-discovery:
 
--   The separate and highly robust [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/r-discovery.md) product.
+-   The separate and highly robust [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/r-discovery.md) product.
 -   For organizations that want to leverage the discovery technologies they already have deployed \(SMS, Tally NetCensus, LanDesk, and so on\), the ServiceNow platform supports integrations to those technologies via web services. Scanned data can be mapped directly into the CMDB.
 
 For further information on designing, constructing, and maintaining the CMDB, see the [CMDB Design &amp; Configuration](https://support.servicenow.com/kb_view.do?sysparm_article=KB0552861) white paper.
@@ -41,18 +41,18 @@ The Discovery product automatically populates the CMDB. Discovery searches the n
 
 For more information about Discovery see:
 
--   [ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility-landing-page.md)
--   [Discovery basics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_GetStartedWithDiscovery.md)
+-   [ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility-landing-page.md)
+-   [Discovery basics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/c_GetStartedWithDiscovery.md)
 
 ## Integrate third-party data using IntegrationHub ETL
 
-Use the [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md) to import and integrate data from a third party into the CMDB. Using IntegrationHub ETL, create ETL transform maps which are used for integrating data from specific data sources. IntegrationHub ETL guides you through importing source data, transforming any data if needed, and selecting target CMDB classes and attributes to map the data to. You then preview the integration results and adjust any configurations before scheduling recurring integrations.
+Use the [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md) to import and integrate data from a third party into the CMDB. Using IntegrationHub ETL, create ETL transform maps which are used for integrating data from specific data sources. IntegrationHub ETL guides you through importing source data, transforming any data if needed, and selecting target CMDB classes and attributes to map the data to. You then preview the integration results and adjust any configurations before scheduling recurring integrations.
 
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view and download common integrations.
 
 ## Import data from another source using Import Sets
 
-You can import data to the CMDB using Import Sets. [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/import-sets-landing-page.md) find files of information \(in formats such as XML, Excel, or CSV\), import them, and transform them onto the required table. This process can be scheduled or performed on demand.
+You can import data to the CMDB using Import Sets. [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/import-sets-landing-page.md) find files of information \(in formats such as XML, Excel, or CSV\), import them, and transform them onto the required table. This process can be scheduled or performed on demand.
 
 To import relationships between CIs, use import sets to populate the table \[cmdb\_rel\_ci\] with information on the parent, the child, and the nature of the relationship. The \[cmdb\_rel\_ci\] table displays a list of all CI relationships and is useful when importing CI data.
 
@@ -60,7 +60,7 @@ To import relationships between CIs, use import sets to populate the table \[cmd
 
 ## CMDB instance API
 
-Use the [CMDB instance API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cmdb-instance-api.md) to populate the CMDB by creating or updating CMDB tables.
+Use the [CMDB instance API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/cmdb-instance-api.md) to populate the CMDB by creating or updating CMDB tables.
 
 ## Manually create a CI
 
@@ -73,7 +73,7 @@ You can also manually create a CI while leveraging Identification and Reconcilia
     2.  Select **Hierarchy** to display the list of CI Classes. Select the class to use for the CI.
     3.  In the class navigation bar, select **CI List** and then on the CI list view, select **New**.
     4.  Fill out the CI form and then select **Submit**.
-2.  Or, manually create a CI while leveraging Identification and Reconciliation Engine \(IRE\) processes to ensure that the new CI complies with various class requirements and that it's unique. For more information, see [Create a CI manually in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-ci-manual-cmdb-workspace.md)or .
+2.  Or, manually create a CI while leveraging Identification and Reconciliation Engine \(IRE\) processes to ensure that the new CI complies with various class requirements and that it's unique. For more information, see [Create a CI manually in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/create-ci-manual-cmdb-workspace.md)or .
 3.  Or, directly use a table:
     1.  Navigate to **All** &gt; **Configuration** and then elect the class to use for the CI, such as Business Services.
     2.  In the navigation filter of the application navigator, enter the table label \(such as 'Linux'\), or the table name in the format of &lt;table name&gt;.list \(such as 'cmdb\_ci\_linux\_server.list'\). Then, press Enter.

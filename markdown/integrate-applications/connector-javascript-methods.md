@@ -3,9 +3,9 @@ title: JavaScript connector methods
 description: Execute custom JavaScript with the Execute method as part of an automation in the RPA Desktop Design Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/connector-javascript-methods.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [JavaScript, Connectors, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -18,7 +18,7 @@ Execute custom JavaScript with the Execute method as part of an automation in th
 
 Executes the custom JavaScript you have written. Before executing,
 
--   Configure the JavaScript connector before executing the method. To configure, see [Configure the JavaScript connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-javascript-connector.md).
+-   Configure the JavaScript connector before executing the method. To configure, see [Configure the JavaScript connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-javascript-connector.md).
 -   Configure the Execute method.
 
 ## Configure the Execute method
@@ -36,5 +36,5 @@ Executes the custom JavaScript you have written. Before executing,
 |Function value|Accepts the value for the function you have created.|Data in|Object|None|Yes|
 |Result|Returns the output of the custom JavaScript execution.|Data out|String|None|Not applicable|
 
-**Parent Topic:**[JavaScript](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/javascript.md)
+**Parent Topic:**[JavaScript](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/javascript.md)
 

@@ -3,9 +3,9 @@ title: Plan Template form
 description: Use the Plan Template form in BCM UIB Workspace to input details regarding the business continuity plan.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/plan-template-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure the BCP template, Configuring plan template, Setup for a BCP, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -93,7 +93,7 @@ Loss scenarios to be included in the plan. Available options are:
 
  You can also create a loss scenario and add it to the template.
 
- For more information on creating a loss scenario, see [Add loss scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-loss-scenario-recovery-task-bcp-uib-ws.md).
+ For more information on creating a loss scenario, see [Add loss scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/add-loss-scenario-recovery-task-bcp-uib-ws.md).
 
 </td></tr><tr><td>
 
@@ -101,7 +101,7 @@ Recovery strategy templates
 
 </td><td>
 
-Recovery strategy templates that should be applied to the matching loss scenarios when a plan is created from this template. See [Recovery strategy template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/recovery-strategy-template-form.md). **Note:** Recovery strategies are displayed in the Loss scenarios as a related list, along with groups and templates.
+Recovery strategy templates that should be applied to the matching loss scenarios when a plan is created from this template. See [Recovery strategy template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/recovery-strategy-template-form.md). **Note:** Recovery strategies are displayed in the Loss scenarios as a related list, along with groups and templates.
 
 </td></tr><tr><td>
 
@@ -109,7 +109,7 @@ Task template groups
 
 </td><td>
 
-Task template groups whose tasks should be created on the plan record when a plan is created from this template. See [Task template group form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/task-template-group-form.md).
+Task template groups whose tasks should be created on the plan record when a plan is created from this template. See [Task template group form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/task-template-group-form.md).
 
 </td></tr><tr><td>
 
@@ -117,7 +117,7 @@ Task templates
 
 </td><td>
 
-Individual task templates whose tasks should be created on the plan record when a plan is created from this template. See [Task template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/task-template-form.md).
+Individual task templates whose tasks should be created on the plan record when a plan is created from this template. See [Task template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/task-template-form.md).
 
 </td></tr><tr><td>
 
@@ -146,5 +146,5 @@ Option to group recovery tasks. When selected, tasks are pre-organized into grou
 -   **Updated by**
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure the business continuity plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-a-bcp-template-uib-ws.md)
+</table>**Parent Topic:**[Configure the business continuity plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/configure-a-bcp-template-uib-ws.md)
 

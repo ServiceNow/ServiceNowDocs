@@ -3,11 +3,11 @@ title: Exploring the ServiceNow IDE
 description: Learn about developing applications in source code in the ServiceNow IDE.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-ide-family-release/exploring-servicenow-ide.html
-release: australia
+release: brazil
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -24,11 +24,11 @@ The ServiceNow IDE is an implementation of Visual Studio Code for the Web on the
 
 In the ServiceNow IDE, you can create applications in source code using ServiceNow Fluent to define application metadata \[sys\_metadata\]. To see a side-by-side visual representation of your changes in real time, you can open the application metadata in other ServiceNow AI Platform user interfaces embedded within the ServiceNow IDE.
 
-Optionally, you can create JavaScript modules and use third-party libraries to organize and reuse code within an application scope. With ServiceNow Otto for Code, you can use the Code autocomplete skill to generate code suggestions for scripts in an application in the ServiceNow IDE. For more information, see [Generate code with autocomplete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/generate-code-with-autocomplete.md).
+Optionally, you can create JavaScript modules and use third-party libraries to organize and reuse code within an application scope. With ServiceNow Otto for Code, you can use the Code autocomplete skill to generate code suggestions for scripts in an application in the ServiceNow IDE. For more information, see [Generate code with autocomplete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/generate-code-with-autocomplete.md).
 
 In the background, this functionality is enabled by the ServiceNow SDK application packaging service, which builds applications in the ServiceNow IDE.
 
-**Note:** You can use Build Agent to help you create and edit applications in the ServiceNow IDE. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md).
+**Note:** You can use Build Agent to help you create and edit applications in the ServiceNow IDE. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent.md).
 
 ## ServiceNow IDE workflow
 
@@ -73,7 +73,7 @@ Develop applications in an IDE based on Visual Studio Code on the ServiceNow AI 
 
 </td><td>
 
-[ServiceNow IDE user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.md)
+[ServiceNow IDE user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.md)
 
 </td><td>
 
@@ -85,7 +85,7 @@ Write source code to define the metadata that makes up ServiceNow applications
 
 </td><td>
 
-[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-fluent.md)[Define application metadata in code with ServiceNow Fluent in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/define-metadata-code-fluent-ide.md)
+[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-fluent.md)[Define application metadata in code with ServiceNow Fluent in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/define-metadata-code-fluent-ide.md)
 
 </td><td>
 
@@ -97,9 +97,9 @@ Organize and reuse code within an application scope with custom JavaScript modul
 
 </td><td>
 
-[JavaScript modules and third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/javascript-modules-third-party-libraries.md)[Create and use JavaScript modules in applications in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/create-use-javascript-modules-ide.md)
+[JavaScript modules and third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/javascript-modules-third-party-libraries.md)[Create and use JavaScript modules in applications in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/create-use-javascript-modules-ide.md)
 
-[Use third-party libraries in applications in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/use-third-party-libraries-ide.md)
+[Use third-party libraries in applications in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/use-third-party-libraries-ide.md)
 
 </td><td>
 
@@ -111,7 +111,7 @@ Collaborate on applications with users of different skill sets
 
 </td><td>
 
-[Build and install an application in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/build-applications-servicenow-ide.md)
+[Build and install an application in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/build-applications-servicenow-ide.md)
 
 </td><td>
 
@@ -123,7 +123,7 @@ Integrate source control with your Git provider of choice
 
 </td><td>
 
-[Integrating source control with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/integrating-source-control-servicenow-ide.md)
+[Integrating source control with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/integrating-source-control-servicenow-ide.md)
 
 </td><td>
 

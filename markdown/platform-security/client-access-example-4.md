@@ -3,9 +3,9 @@ title: Create credentials and test credential encryption
 description: Create a credential to authenticate into a third-party system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/client-access-example-4.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring client accessible secrets, Secrets Management, Platform Security]
 ---
@@ -81,5 +81,5 @@ Role required: admin, KMF\_admin, sn\_secrets.secret\_manager, and sn\_kmf.crypt
     **Note:** Your instance executes a clean-up job every 10 minutes, which removes orphaned keys and helps prevent unassociated key proliferation after you update your credentials.
 
 
-**Parent Topic:**[Configuring client accessible secrets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/client-access-secret-landing.md)
+**Parent Topic:**[Configuring client accessible secrets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/client-access-secret-landing.md)
 

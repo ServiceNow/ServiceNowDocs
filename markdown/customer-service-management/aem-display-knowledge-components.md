@@ -3,9 +3,9 @@ title: Display ServiceNow knowledge articles on an Adobe Experience Manager page
 description: Use knowledge components available within Adobe Experience Manager \(AEM\) to access knowledge bases from the ServiceNow instance and display associated knowledge articles on an AEM-based website.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/aem-display-knowledge-components.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Integrating with Adobe Experience Manager, Integrate, Customer Service Management]
 ---
@@ -16,7 +16,7 @@ Use knowledge components available within Adobe Experience Manager \(AEM\) to ac
 
 ## Before you begin
 
--   Activate the Knowledge API plugin \(sn\_km\_api\) to use the Knowledge Management REST API endpoints for knowledge articles. For more information, see [Knowledge Management REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/knowledge-api.md).
+-   Activate the Knowledge API plugin \(sn\_km\_api\) to use the Knowledge Management REST API endpoints for knowledge articles. For more information, see [Knowledge Management REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/knowledge-api.md).
 -   Define the cross-origin resource sharing \(CORS\) rule to access the Knowledge API from your AEM instance. For more information, see [Define a cross-origin resource sharing rule \(CORS\) to access ServiceNow API endpoints from AEM]().
 
 Role required: AEM author
@@ -335,7 +335,7 @@ Criteria
 
 </td><td>
 
-List of criteria for the knowledge articles list. Select one of the following options:-   **Featured**: List of featured knowledge articles based on the keywords configured in the **glide.knowman.default\_keyword** property. For information about featured articles, see [Add a knowledge article to featured content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_PinAnArticle.md) and [Knowledge properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_KnowledgeProperties.md).
+List of criteria for the knowledge articles list. Select one of the following options:-   **Featured**: List of featured knowledge articles based on the keywords configured in the **glide.knowman.default\_keyword** property. For information about featured articles, see [Add a knowledge article to featured content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_PinAnArticle.md) and [Knowledge properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_KnowledgeProperties.md).
 -   **Most Viewed**: List of knowledge articles with the most views.
 
 

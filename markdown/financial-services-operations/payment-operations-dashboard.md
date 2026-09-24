@@ -3,9 +3,9 @@ title: Payment Operations dashboard
 description: With the Financial Services Payment Operations dashboard, you can get an insight into how your team and business are performing for payment inquiries, claims, and debits.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/payment-operations-dashboard.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Platform Analytics, Financial Services Operations \(FSO\)]
 ---
@@ -29,7 +29,7 @@ To access the Financial Services Payment Operations dashboard, navigate to **Wor
 
 Alternatively, you can navigate to **All** &gt; **Payment Operations** &gt; **Analytics**.
 
-You can also access the dashboard from the Platform Analytics Workspace. For more information about the Platform Analytics Workspace, see [Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center.md).
+You can also access the dashboard from the Platform Analytics Workspace. For more information about the Platform Analytics Workspace, see [Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/analytics-center.md).
 
 If you have upgraded from an earlier version, you can access the existing Core UI dashboard layout as usual by navigating to **All** &gt; **Payment Operations** &gt; **Dashboard**.
 
@@ -210,5 +210,5 @@ The following table shows the available filters in the Payment Operations dashbo
 |Payment Service|List|Fetches the records for all payment tasks.|
 |Payment Type|Script|Fetches the payment case records from the Task SLA table.|
 
-**Parent Topic:**[Implementing Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-content-pack.md)
+**Parent Topic:**[Implementing Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/fso-content-pack.md)
 

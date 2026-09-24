@@ -3,9 +3,9 @@ title: Keyboard and mouse device shortcuts for adding recipients
 description: Add and remove recipients in the To, Cc, and Bcc email fields by using keyboard and mouse device shortcuts instead of adding individual recipients.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/keyboard-and-mouse-shortcuts-for-adding-recipients-to-email.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Emails, Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---

@@ -1,20 +1,22 @@
 ---
 title: Publisher optimizations for SAP
-description: View licensing optimizations for SAP by selecting SAP from the Publisher drop-down list.
+description: Identify cost-saving opportunities for SAP licenses by reviewing usage data across users, engines, digital access, and cloud consumption.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/pub-opt-sap.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Publisher optimizations for SAP
 
-View licensing optimizations for SAP by selecting **SAP** from the **Publisher** drop-down list.
+Identify cost-saving opportunities for SAP licenses by reviewing usage data across users, engines, digital access, and cloud consumption.
+
+To view publisher optimizations for SAP, navigate to **SAM Workspace** &gt; **Software asset analytics** &gt; **Optimization and savings** and then select **SAP** from the **Publisher** drop-down list.
 
 <table id="table_a3c_hst_2xb"><thead><tr><th>
 
@@ -160,6 +162,18 @@ Software Subscriptions\[samp\_sw\_subscription\]
 
 Number of users by their SAP cloud use type in SAP S/4HANA Public Cloud.
 
+</td></tr><tr><td>
+
+SAP S/4HANA Private Cloud usage by use type
+
+</td><td>
+
+SAP System Users\[samp\_sap\_system\_user\]
+
+</td><td>
+
+Number of users by their Full Usage Equivalent \(FUE\) Named User Type for SAP S/4HANA Cloud, Private Edition.
+
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)
+</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/references.md)
 

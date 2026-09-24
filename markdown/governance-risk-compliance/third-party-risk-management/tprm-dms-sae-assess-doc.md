@@ -3,11 +3,11 @@ title: Generate AI-assisted draft responses in a TPRM assessment
 description: Use the Smart Assessment Response Assist skill to generate draft responses for assessment questionnaires using vendor documents from the Document Management System \(DMS\) and previously completed assessments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-dms-sae-assess-doc.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-05-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [AI-assisted questionnaire pre-fill, draft responses, smart assessment, DMS, third-party risk]
 breadcrumb: [Assess third-party risk, Third-party Risk Management, Governance, Risk, and Compliance]
@@ -21,19 +21,19 @@ Use the Smart Assessment Response Assist skill to generate draft responses for a
 
 -   The Smart Assessment Response Assist skill is active and template categories are configured for draft response generation.
 
-    For more information, see [Configure AI-assisted questionnaire pre-fill for TPRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-dms-sae-config.md).
+    For more information, see [Configure AI-assisted questionnaire pre-fill for TPRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-dms-sae-config.md).
 
 -   SAE is enabled as the assessment engine.
 
-    For more information, see [Smart assessment configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-sae-assessment-config.md).
+    For more information, see [Smart assessment configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-sae-assessment-config.md).
 
 -   You have permission to view and respond to assessments.
 
-    For more information, see [Respond to an internal assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-irq-respond-to.md) and [Respond to a questionnaire for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-respond-for-tp.md).
+    For more information, see [Respond to an internal assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-irq-respond-to.md) and [Respond to a questionnaire for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-respond-for-tp.md).
 
 -   Upload vendor documents to DMS before running the assessment.
 
-    For more information, see [Document Management system in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-dms.md).
+    For more information, see [Document Management system in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-dms.md).
 
 
 **Note:** You can generate AI suggestions once per assessment. The sources you select at generation time are final and can't be changed. A minimum of 50 completed assessments is required for the **Previous assessments** source to return suggestions. When generating, the skill draws from the last 10 completed assessments.
@@ -68,7 +68,7 @@ The skill generates draft responses from two sources: documents stored in DMS an
 
     3.  From the documents list, select up to five documents you want the skill to analyze.
 
-        The list includes documents retrieved based on the template category configuration, and any files attached directly to the assessment instance. To use a document not in the list, upload it as an attachment to the assessment and it appears as an available option. For supported document types and file size limits, see [Limitations in Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-document-intelligence-limitations.md).
+        The list includes documents retrieved based on the template category configuration, and any files attached directly to the assessment instance. To use a document not in the list, upload it as an attachment to the assessment and it appears as an available option. For supported document types and file size limits, see [Limitations in Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/cu-limitations.md).
 
     4.  Select **Generate draft responses**.
 
@@ -102,9 +102,9 @@ The assessment contains AI-generated draft responses based on the selected DMS d
 **Related topics**  
 
 
-[AI-assisted questionnaire pre-fill using the Document Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-dms-sae.md)
+[AI-assisted questionnaire pre-fill using the Document Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-dms-sae.md)
 
-[Configure AI-assisted questionnaire pre-fill for TPRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-dms-sae-config.md)
+[Configure AI-assisted questionnaire pre-fill for TPRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-dms-sae-config.md)
 
-[Document Management system in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-dms.md)
+[Document Management system in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-dms.md)
 

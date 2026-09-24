@@ -3,9 +3,9 @@ title: Node relationship configuration form
 description: Use the Node relationship configuration form to configure the node relationships. You can also view these settings in the Nexus map.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/node-relationship-configuration-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the Node relationship configurations, Configure the Main node configurations, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---

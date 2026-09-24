@@ -3,11 +3,11 @@ title: Update multiple applications at once
 description: Use the bulk application update console to review, select, and update multiple applications in a single workflow instead of updating them individually through the app manager.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-bulk-app-update.html
-release: australia
+release: brazil
 product: Upgrade Management
 classification: upgrade-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Bulk application updates, Configure, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
@@ -212,5 +212,5 @@ After completing the update:
 -   If tests were skipped or failed, schedule a separate testing run or contact your development team
 -   Return to the bulk application update console periodically to check for new available updates
 
-**Parent Topic:**[Bulk application updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um_bulk_app_update_desc.md)
+**Parent Topic:**[Bulk application updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-management/um_bulk_app_update_desc.md)
 

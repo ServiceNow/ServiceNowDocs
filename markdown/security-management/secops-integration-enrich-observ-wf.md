@@ -3,9 +3,9 @@ title: Security Operations Integration - Enrich Observable flow
 description: The Security Operations Integration - Enrich Observable sub flow allows you to enrich observables with additional information from a variety of sources using implementation flow designer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/secops-integration-enrich-observ-wf.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Operations Integration- Enrich Observable capability, Integration capabilities, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -31,12 +31,12 @@ Either method then allows you to specify which implementations to be used to enr
 
 \[Omitted image "flows-enrich-observables.png"\] Alt text: Security Operations Integration - Enrich Observable
 
-Actions specific to this flow are described here. For more information on other actions, see [Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/common-wf-activities.md).
+Actions specific to this flow are described here. For more information on other actions, see [Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/common-wf-activities.md).
 
 The flow process actions include:
 
--   [Legacy: Capability Execution Tracking- No Impls action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/execution-tracking-noimpls-activity.md)
--   [Get Supported Security Capabilities action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/get-supported-security-capabilities-activity.md)[Legacy: Capability Execution Tracking- No Impls action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/execution-tracking-noimpls-activity.md)
+-   [Legacy: Capability Execution Tracking- No Impls action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/execution-tracking-noimpls-activity.md)
+-   [Get Supported Security Capabilities action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/get-supported-security-capabilities-activity.md)[Legacy: Capability Execution Tracking- No Impls action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/execution-tracking-noimpls-activity.md)
 
-**Parent Topic:**[Security Operations Integration- Enrich Observable capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/enrich-observable-capability.md)
+**Parent Topic:**[Security Operations Integration- Enrich Observable capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/enrich-observable-capability.md)
 

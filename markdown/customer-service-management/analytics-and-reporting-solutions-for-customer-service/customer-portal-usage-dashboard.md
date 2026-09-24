@@ -3,11 +3,11 @@ title: Customer Portal Usage dashboard
 description: The Customer Portal Usage dashboard enables you to understand the user usage of portals by presenting an aggregate count of sessions created every month.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/analytics-and-reporting-solutions-for-customer-service/customer-portal-usage-dashboard.html
-release: australia
+release: brazil
 product: Analytics and Reporting Solutions for Customer Service
 classification: analytics-and-reporting-solutions-for-customer-service
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Portal usage]
 breadcrumb: [Customer Service Platform Analytics Solutions, Analytics and reporting, Customer Service Management]
@@ -17,13 +17,13 @@ breadcrumb: [Customer Service Platform Analytics Solutions, Analytics and report
 
 The Customer Portal Usage dashboard enables you to understand the user usage of portals by presenting an aggregate count of sessions created every month.
 
-These sessions don’t represent individual users. For example, if you access the portal on two different days, it counts as two separate sessions. For more information about how an aggregate session is counted, see [Usage calculation of self-service experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+These sessions don’t represent individual users. For example, if you access the portal on two different days, it counts as two separate sessions. For more information about how an aggregate session is counted, see [Usage calculation of self-service experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown).
 
 You can access the dashboard by navigating to **All** &gt; **Self Service** &gt; **Dashboards**. On the dashboard page, search and select `Customer Portal Usage`.
 
 To access more detailed information, place your mouse device over any of the graphical reports. These graphs can be saved as PNG or JPEG files, enabling you to add them to emails or include them in your presentations. Additionally, all graphs can be updated to display the current data. An example of the dashboard layout is shown in the following image.
 
-**Note:** The Customer Portal usage tab is available when the Customer Service \(com.sn\_customerservice\) plugin is activated.
+**Note:** The Customer Portal usage tab is available when the Case Management Core \(com.sn\_customerservice\) plugin is activated.
 
 \[Omitted image "customer-portal-usage-dashboard.png"\] Alt text: Customer portal usage dashboard. For descriptions of the reports included on this dashboard, see the Reports section that follows.
 
@@ -105,5 +105,5 @@ Get aggregated chargeable external portal sessions for last month.
 </table>**Related topics**  
 
 
-[Usage calculation of self-service experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[Usage calculation of self-service experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)
 

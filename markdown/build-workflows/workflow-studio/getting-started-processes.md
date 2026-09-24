@@ -3,11 +3,11 @@ title: Building your first playbook
 description: Learn the basics of designing an automated process for your organization. Get an overview of how Workflow Studio Playbooks work in the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/getting-started-processes.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -24,7 +24,7 @@ Playbooks in Workflow Studio are ServiceNow AI Platform representations of your 
 
     A playbook is where a playbook owner configures and organizes multiple instances of Workflow Studio content into a coherent business process. A playbook consists of a trigger and a sequence of stages, which are made up of a sequence of activities.
 
--   **[Process executions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-executions.md)**
+-   **[Process executions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/process-executions.md)**
 
     A process execution is a single, runtime instance of a playbook.
 
@@ -59,11 +59,11 @@ In summary, your playbook runs when:
 
 If you're ready to start digitizing your business process with Playbooks in Workflow Studio, try checking out these resources:
 
--   [Create a sample playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/design-automated-process.md)
--   [Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-process-definition.md)
+-   [Create a sample playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/design-automated-process.md)
+-   [Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-process-definition.md)
 
--   **[Create a sample playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/design-automated-process.md)**  
+-   **[Create a sample playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/design-automated-process.md)**  
 Create a sample playbook to standardize and automate how Service Desk agents handle chat interactions with VIP users.
 
-**Parent Topic:**[Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/building-a-process.md)
+**Parent Topic:**[Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/building-a-process.md)
 

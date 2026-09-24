@@ -3,11 +3,11 @@ title: Example 2: Retrieving specific records from a third-party source
 description: In this example, we create a script to retrieve specific types of incident records from a third-party source.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/remote-tables/remote-table-script-def-example2.html
-release: australia
+release: brazil
 product: Remote Tables
 classification: remote-tables
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Create script definitions, Remote tables, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,9 +18,9 @@ In this example, we create a script to retrieve specific types of incident recor
 
 For Remote Table API information, refer to:
 
--   [v\_query – Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_queryAPI.md)
--   [v\_record - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_recordAPI.md)
--   [v\_table – Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_tableAPI.md)
+-   [v\_query – Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/v_queryAPI.md)
+-   [v\_record - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/v_recordAPI.md)
+-   [v\_table – Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/v_tableAPI.md)
 
 ```javascript
 /**
@@ -187,5 +187,5 @@ If no problems are encountered in the data retrieval, it gets the data body for 
 
 `getTransformerDefinition` defines the schema of the record in the external API response body. It maps each of the fields in the table script to an element in the external record. Any external data elements outside of this mapping are not available in the remote table.
 
-**Parent Topic:**[Create script definitions for a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/create-remote-table-script.md)
+**Parent Topic:**[Create script definitions for a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/remote-tables/create-remote-table-script.md)
 

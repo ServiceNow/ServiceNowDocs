@@ -3,11 +3,11 @@ title: SCIM customization properties and schemas
 description: The SCIM customization includes the following properties, supported schemas, and unsupported schemas.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/scim-customization-properties-and-schemas.html
-release: australia
+release: brazil
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SCIM customization, SCIM Provider, System for Cross-domain Identity Management \(SCIM\), Identity]
 ---

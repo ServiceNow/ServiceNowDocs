@@ -3,11 +3,11 @@ title: Create Personal Access Token in Jira for SPW Jira Integrations
 description: Create a Personal Access Token \(PAT\) for your Jira Server/Data Center instance, which is later used to create a connection between Strategic Planning and Jira.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/create-personal-access-token-pat-in-jira-server-data-center.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up a Jira instance, Configure, SPW Jira Integrations, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Create a Personal Access Token \(PAT\) for your Jira Server/Data Center instance
 
 ## Before you begin
 
--   [Create a child alias for Jira Spoke alias for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-child-alias-for-jira-spoke-alias.md).
+-   [Create a child alias for Jira Spoke alias for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/create-child-alias-for-jira-spoke-alias.md).
 -   Set up a MID server. See [Tips to set up your MID Server](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0535145).
 
 Role required: NA
@@ -48,7 +48,7 @@ This task is performed outside the ServiceNow instance.
 
 ## What to do next
 
-Use this PAT as password while creating connection and credential for your Jira alias. See [Create connection and credentials for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-connection-and-credentials.md).
+Use this PAT as password while creating connection and credential for your Jira alias. See [Create connection and credentials for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/create-connection-and-credentials.md).
 
-**Parent Topic:**[Setting up a Jira instance for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/setting-up-jira-instance-spw.md)
+**Parent Topic:**[Setting up a Jira instance for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/setting-up-jira-instance-spw.md)
 

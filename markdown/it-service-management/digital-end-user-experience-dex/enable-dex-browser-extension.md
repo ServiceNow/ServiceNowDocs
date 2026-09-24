@@ -3,11 +3,11 @@ title: Enable DEX browser extension
 description: Activate the DEX Chrome or Edge Extension on your system to collect different operational or performance-based metrics for the web applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/enable-dex-browser-extension.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 keywords: [enable browser extension, dex browser extension, chrome extension, edge extension, web application monitoring]
 breadcrumb: [Installing DEX on your local machine, Configure, Digital End-User Experience, IT Service Management]
@@ -33,15 +33,15 @@ Role required: sn\_dex.admin
 
 1.  Perform the following steps to install DEX Browser Extension based on your browser.
 
-<table id="choicetable_hcv_5qt_fgc"><thead><tr><th align="left" id="d321617e97">
+<table id="choicetable_hcv_5qt_fgc"><thead><tr><th align="left" id="d328109e97">
 
 Browser
 
-</th><th align="left" id="d321617e100">
+</th><th align="left" id="d328109e100">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d321617e106">
+</th></tr></thead><tbody><tr><td id="d328109e106">
 
 **Google Chrome**
 
@@ -52,7 +52,7 @@ Steps
 3.  On the confirmation window, select **Add extension**.
 
 
-</td></tr><tr><td id="d321617e140">
+</td></tr><tr><td id="d328109e140">
 
 **Microsoft Edge**
 
@@ -71,7 +71,5 @@ The Google Chrome or Microsoft Edge extension is enabled by default, and when mo
 
 ## What to do next
 
-[Onboard for DEX Application and Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-onboarding.md).
-
-**Parent Topic:**[Installing DEX on your local machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/installing-dex-local.md)
+[Onboard for DEX Application and Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/dex-onboarding.md).
 

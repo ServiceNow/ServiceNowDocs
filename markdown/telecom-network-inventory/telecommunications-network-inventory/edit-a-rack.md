@@ -3,11 +3,11 @@ title: Create a rack
 description: Added as per STRY57142377 - DOC1091704Create a rack to add, organize equipment, rack units, and manage all assets. You can also edit a rack using the Telecommunications Network Inventory application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/edit-a-rack.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create and maintain racks and cabinets, Manually creating and reviewing your network asset instances, Define inventory records, Use, Telecommunications Network Inventory]
 ---
@@ -35,27 +35,27 @@ A rack contains rack units represented as slots having shelves, and equipment in
 
 4.  On the Equipment Holder form, fill in the fields.
 
-    To learn more, see [Equipment Holder form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-equipment-holder-form-configuration.md).
+    To learn more, see [Equipment Holder form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-equipment-holder-form-configuration.md).
 
 5.  Select **Set Inventory Attributes**.
 
 6.  On the TNI CI Attributes form, fill in the fields.
 
-    To learn more about the fields, see [TNI CI Attributes form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/ci-attribue-form.md).
+    To learn more about the fields, see [TNI CI Attributes form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/ci-attribue-form.md).
 
 7.  Select **Save**.
 
 
 ## Result
 
-A rack record is created and related tabs are created. To learn more, see [Related tabs in the Network inventory forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/inventory-related-tab.md).
+A rack record is created and related tabs are created. To learn more, see [Related tabs in the Network inventory forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/inventory-related-tab.md).
 
 ## What to do next
 
-See [Optimizing rack and cabinet usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/subsequent-actions.md) to learn about the next steps.
+See [Optimizing rack and cabinet usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/subsequent-actions.md) to learn about the next steps.
 
--   **[Edit rack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/edit-rack.md)**  
+-   **[Edit rack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/edit-rack.md)**  
 Edit a rack to remove, add, or move the equipment from the selected rack. Organize and upgrade the components within the rack using the Telecommunications Network Inventory application.
 
-**Parent Topic:**[Create and maintain racks and cabinets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-and-maintain-rack-and-cabinet.md)
+**Parent Topic:**[Create and maintain racks and cabinets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/create-and-maintain-rack-and-cabinet.md)
 

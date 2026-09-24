@@ -3,11 +3,11 @@ title: Review the framework core
 description: Review the Framework Core that's activated with the NIST CSF application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/review-framework-core.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Identify the core framework, Process overview, NIST CSF Use Case Accelerator, GRC use case accelerators, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -41,5 +41,5 @@ NIST CSF role required: sn\_irm\_nist\_csf.risk\_executive or sn\_irm\_nist\_csf
 4.  Click **Update**.
 
 
-**Parent Topic:**[Identify the framework core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/identify-framework-core.md)
+**Parent Topic:**[Identify the framework core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/identify-framework-core.md)
 

@@ -3,11 +3,11 @@ title: Set up baseline controls
 description: Use the baseline controls to inherit a control, mark a control as common, or create a hybrid control. Create a hybrid control to inherit requirements partially from common controls and the remaining requirements are created for the control that was generated from the baseline control.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/cam-hybrid-controls.html
-release: australia
+release: brazil
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [RMF step 2 - Select controls for an authorization package, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---

@@ -3,13 +3,13 @@ title: Archive a Visual Task Board card
 description: Archiving a card is a non-destructive way to remove a card from a freeform Visual Task Board. You can archive cards you are no longer working on to reduce visual clutter.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/t\_ArchiveACard.html
-release: australia
+release: brazil
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with Visual Task Board cards, Using Visual Task Boards, Visual Task Boards, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Working with Visual Task Board cards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Archive a Visual Task Board card
@@ -28,7 +28,7 @@ Role required: none
 
 -   Perform one of the following actions.
 
-<table id="choicetable_pxj_ytk_kv"><tbody><tr><td id="d128066e67">
+<table id="choicetable_pxj_ytk_kv"><tbody><tr><td id="d128972e67">
 
 **Archive one card from the lane view**
 
@@ -38,7 +38,7 @@ Role required: none
 2.  In the confirmation dialog, click **Archive**.
 
 
-</td></tr><tr><td id="d128066e91">
+</td></tr><tr><td id="d128972e91">
 
 **Archive one card from the card details**
 
@@ -49,7 +49,7 @@ Role required: none
 3.  In the confirmation dialog, click **Confirm**.
 
 
-</td></tr><tr><td id="d128066e124">
+</td></tr><tr><td id="d128972e124">
 
 **Archive all the cards in a lane**
 
@@ -67,5 +67,5 @@ Role required: none
 -   To see all archived cards for the current board, from the board navigation panel, open the board information menu \(\[Omitted image "BoardInfoIcon.png"\] Alt text: Board information icon\) and click **View Archived Tasks**.
 -   To restore an archived card, point to it and click **Restore**.
 
-**Parent Topic:**[Working with Visual Task Board cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/r_TaskCards.md)
+**Parent Topic:**[Working with Visual Task Board cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/visual-task-boards/r_TaskCards.md)
 

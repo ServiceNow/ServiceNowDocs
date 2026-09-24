@@ -3,9 +3,9 @@ title: Manage data
 description: With the data model \(tables and fields\) created and security set up, add data into the application’s table\(s\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/manage-data.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Define and build the data model, Build your application, Exploring professional development, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -22,7 +22,7 @@ Self-Paced Training: [Importing Data into ServiceNow](https://developer.servicen
 
 Guidelines for Import Set Performance:
 
--   Break up large amounts of data into smaller sets for faster imports. Consider 100,000 rows to be a baseline and break up anything larger than that into sets of 100,000. For example, importing 10 sets of 100,000 will finish quicker than one set of 1,000,000 records. Also consider using [Concurrent imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/concurrent-imports.md) with larger numbers of records.
+-   Break up large amounts of data into smaller sets for faster imports. Consider 100,000 rows to be a baseline and break up anything larger than that into sets of 100,000. For example, importing 10 sets of 100,000 will finish quicker than one set of 1,000,000 records. Also consider using [Concurrent imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/concurrent-imports.md) with larger numbers of records.
 -   Importing large data sets simultaneously can put load on an instance. Stagger large imports so the imports do not overlap.
 -   If possible, deselect the Run business rules check box on the transform map table to avoid running Business Rules and other logic during an import. Consider using an onComplete transform script to run business logic, such as calculations, at the end of an import rather than on each record as Business Rules do.
 -   Use default functionality for imports. Whenever possible, avoid writing custom scripts. For example, use the coalesce functionality rather than writing a custom coalesce script.
@@ -38,9 +38,9 @@ To push data directly into an application table from another system, use Web Ser
 
 To handle data transactions that are more complex than writing data to a table, such as sending an attachment or ordering a catalog item, review the available [APIs](https://developer.servicenow.com/dev.do#!/reference/api/rome/rest/c_TableAPI) to see if one exists that supports the required logic.
 
-Use [Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_CustomWebServices.md) or [Scripted SOAP web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_ScriptedWebServices.md) to build REST or SOAP endpoints, respectively. Scripted REST API and Scripted SOAP Web Service endpoints can execute ServiceNow server-side code when the endpoint is consumed by an external system.
+Use a Scripted REST API or Scripted SOAP Web Service to build REST or SOAP endpoints, respectively. Scripted REST API and Scripted SOAP Web Service endpoints can execute ServiceNow server-side code when the endpoint is consumed by an external system.
 
 Self-Paced Training: [REST Integrations](https://developer.servicenow.com/dev.do#!/learn/courses/rome/app_store_learnv2_rest_rome_rest_integrations)
 
-**Parent Topic:**[Define and build the data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/define-and-build-data-model.md)
+**Parent Topic:**[Define and build the data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/define-and-build-data-model.md)
 

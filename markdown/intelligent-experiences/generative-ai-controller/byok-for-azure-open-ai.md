@@ -3,13 +3,13 @@ title: Bring your own key for third-party AI provider integration
 description: The bring-your-own-key \(BYOK\) feature enables you to use your own API credentials from supported cloud AI providers, such as Azure OpenAI, Amazon Bedrock, and Google Gemini, to run generative AI skills and AI agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generative-ai-controller/byok-for-azure-open-ai.html
-release: australia
+release: brazil
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: concept
-last_updated: "2026-01-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Bring your own key for third-party AI provider integration
@@ -49,23 +49,23 @@ For step-by-step instructions for each supported cloud AI provider, see [Configu
 
 1.  Set up Azure OpenAI connection with your own key to use Azure OpenAI within your ServiceNow instance.
 
-    For more information, see [Configure API credentials for Azure OpenAI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-azure-openai.md).
+    For more information, see [Configure API credentials for Azure OpenAI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-azure-openai.md).
 
 2.  Configure your Azure OpenAI model and deployment name in Generative AI Controller so your ServiceNow instance can recognize and use it.
 
-    For more information, see [Create a custom embedding model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-byom.md).
+    For more information, see [Create a custom embedding model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-byom.md).
 
 3.  Modify the prompt configuration to write your own prompts to send to the Azure OpenAI LLMs.
 
-    For more information, see [Configure a generic large language model \(LLM\) connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/configure-a-generic-llm-connector.md).
+    For more information, see [Configure a generic large language model \(LLM\) connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/generative-ai-controller/configure-a-generic-llm-connector.md).
 
 4.  Switch providers to use BYOK for AI processing.
 
-    For more information, see [Manage Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-integration.md).
+    For more information, see [Manage Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/manage-integration.md).
 
 
 **Related topics**  
 
 
-[Configure a custom resource path for BYOK models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/configure-custom-resource-path-byok.md)
+[Configure a custom resource path for BYOK models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/generative-ai-controller/configure-custom-resource-path-byok.md)
 

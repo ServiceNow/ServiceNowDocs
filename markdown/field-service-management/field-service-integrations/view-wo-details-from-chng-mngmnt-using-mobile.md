@@ -3,11 +3,11 @@ title: View work order details from a change request using the Mobile Agent appl
 description: View the work order details for the related change request from your Mobile Agent application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-integrations/view-wo-details-from-chng-mngmnt-using-mobile.html
-release: australia
+release: brazil
 product: Field Service Integrations
 classification: field-service-integrations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integration with Change Management, Integrating Field Service Management with other applications, Configure, Field Service Management]
 ---

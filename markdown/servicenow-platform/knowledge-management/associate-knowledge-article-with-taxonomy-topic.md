@@ -3,11 +3,11 @@ title: Associate a knowledge article with a taxonomy category
 description: Associate a knowledge article with a taxonomy topics to create a uniform classification structure across different kinds of content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/associate-knowledge-article-with-taxonomy-topic.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,7 +24,7 @@ Role required: knowledge
 
 ## About this task
 
-The taxonomy feature enables you to link an article to one or more topics from multiple taxonomies. It helps you maintain a unified content categorization across content types such as catalog items, knowledge articles, and community posts. For more information, see [Unified taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/config-taxonomy.md)
+The taxonomy feature enables you to link an article to one or more topics from multiple taxonomies. It helps you maintain a unified content categorization across content types such as catalog items, knowledge articles, and community posts. For more information, see [Unified taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/config-taxonomy.md)
 
 **Note:** You can associate only articles in the Draft, Review, or Published state.
 
@@ -47,5 +47,5 @@ The taxonomy feature enables you to link an article to one or more topics from m
 
 The selected article is associated with a taxonomy category for better content browsing.
 
-**Parent Topic:**[Creating and maintaining articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/creating-and-maintaining-articles.md)
+**Parent Topic:**[Creating and maintaining articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/creating-and-maintaining-articles.md)
 

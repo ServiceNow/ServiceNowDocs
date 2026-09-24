@@ -3,11 +3,11 @@ title: Create an Agent Client Collector configuration data file
 description: Create an Agent Client Collector configuration data file and associate it with check definitions so that you can view the information about your instance. You can also add or delete an attachment to the configuration data files, which are used by check definitions during check executions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/create-acc-config-data-file.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Role required: agent\_client\_collector\_admin
 
 ## About this task
 
-A check definition is an individual check entry in the system. For details, see [Agent Client Collector configuration data files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-config-data-files.md).
+A check definition is an individual check entry in the system. For details, see [Agent Client Collector configuration data files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-config-data-files.md).
 
 Configuration data file attachments contain instance data, such as configuration item \(CI\) information, which is used when executing a check.
 
@@ -36,15 +36,15 @@ Domain separation is supported in the Agent Client Collector configuration data 
 
 3.  Add or remove an attachment.
 
-<table id="choicetable_v1p_3mr_3zb"><thead><tr><th align="left" id="d682575e116">
+<table id="choicetable_v1p_3mr_3zb"><thead><tr><th align="left" id="d688341e116">
 
 Action
 
-</th><th align="left" id="d682575e119">
+</th><th align="left" id="d688341e119">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d682575e125">
+</th></tr></thead><tbody><tr><td id="d688341e125">
 
 **Add a file**
 
@@ -58,7 +58,7 @@ The Attachments dialog box opens.
 3.  Close the Attachments dialog box.
 
 
-</td></tr><tr><td id="d682575e159">
+</td></tr><tr><td id="d688341e159">
 
 **Delete a file**
 
@@ -93,5 +93,5 @@ The Attachments dialog box opens.
 
 Checks use the configuration data file with instance data during check execution.
 
-**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-server-deployment.md)
+**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-server-deployment.md)
 

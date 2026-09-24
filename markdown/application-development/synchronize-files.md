@@ -3,9 +3,9 @@ title: Synchronize the current project between a Visual Studio Code workspace an
 description: Synchronize files between the Visual Studio Code workspace \(client/local\) and the instance \(server\) bi-directionally.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/synchronize-files.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Synchronization between Visual Studio Code and a ServiceNow instance, ServiceNow Extensions for Visual Studio Code, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -16,7 +16,7 @@ Synchronize files between the Visual Studio Code workspace \(client/local\) and 
 
 ## Before you begin
 
-[Create your project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-project.md) and start editing your applications.
+[Create your project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-project.md) and start editing your applications.
 
 Role required: none.
 
@@ -59,5 +59,5 @@ The changes made to the application files in the Visual Studio Code workspace ar
 
 All the changes are tagged to the update set in the status bar. When a project is loaded or selected, the default update set is displayed in the status bar. Click the update set picker to choose the current update set \(valid until the IDE or project is closed\). If you do not explicitly select an update set, all writes happen to the default update set.
 
-**Parent Topic:**[Synchronization between Visual Studio Code and a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vscode-sync.md)
+**Parent Topic:**[Synchronization between Visual Studio Code and a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vscode-sync.md)
 

@@ -3,9 +3,9 @@ title: Associate MITRE ATLAS information with security incidents
 description: Associate MITRE ATLAS tactics and techniques with a security incident for better security incident and threat analysis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/associate-mitre-atlas-with-sir.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [MITRE ATLAS, security incidents, threat analysis]
 breadcrumb: [MITRE ATLAS framework, Threat Intelligence, Enterprise security case management applications, Security Operations]

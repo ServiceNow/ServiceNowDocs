@@ -3,9 +3,9 @@ title: Enable or disable the import of test results for a Qualys test group
 description: In Security Exposure Management Workspace control the import of the test results for the tests in a Qualys test group by using the Enable/Disable import button, which is available in the test group's record view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-enable-disable-imports-qualys.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Enable or disable the import of test results for a Qualys test group in the Vulnerability Manager Workspace]
 breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
@@ -38,6 +38,4 @@ Role required:
 
 4.  Enable the import of the test results by selecting the **Enable import** button.
 
-
-**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-unified-security-exposure-management.md)
 

@@ -3,11 +3,11 @@ title: Mapping Symantec DLP incident statuses with ServiceNow incident Status
 description: Synchronize the status of the DLP incidents ingested on the ServiceNow with the DLP incidents of the Symantec. Map the ServiceNow Incident Status field with the Symantec Incident Status field.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/map-symantec-dlp.html
-release: australia
+release: brazil
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a profile for Symantec DLP integration, Symantec Integration for Data Loss Prevention Incident Response, Integrate, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -54,5 +54,5 @@ After successfully creating the record for mapping statuses of the ServiceNow in
 
 If you change the status of any DLP incident on your ServiceNow instance, then the status of associated Symantec DLP incidents will be changed on the source Symantec platform based on the mapping set in the record.
 
-**Parent Topic:**[Create a profile for Symantec DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/create-profile-symantec-dlp.md)
+**Parent Topic:**[Create a profile for Symantec DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/create-profile-symantec-dlp.md)
 

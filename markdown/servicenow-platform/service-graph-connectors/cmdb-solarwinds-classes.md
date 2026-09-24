@@ -3,11 +3,11 @@ title: CMDB classes targeted in Service Graph Connector for SolarWinds
 description: When you complete setting up the connection, you can configure the integration to periodically pull data from SolarWinds. The data is saved in tables that extend from the Configuration item \[cmdb\_ci\] table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.html
-release: australia
+release: brazil
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: reference
-last_updated: "2026-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [SolarWinds, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -351,5 +351,5 @@ The following attributes in the VM Instance \[cmdb\_ci\_vm\_instance\] table are
 **Related topics**  
 
 
-[Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-solarwinds.md)
+[Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-solarwinds.md)
 

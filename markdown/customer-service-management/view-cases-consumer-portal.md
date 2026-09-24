@@ -3,11 +3,11 @@ title: View a case from the Consumer Service Portal
 description: Users with the consumer role can view a list of cases from the Consumer Service Portal and select individual cases to see more detail.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-cases-consumer-portal.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the Consumer Service Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Consumer Service Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # View a case from the Consumer Service Portal
@@ -43,7 +43,7 @@ Selecting a case opens a form with the following sections:
 **Related topics**  
 
 
-[Accept or reject a case solution from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/resolve-cases-consumer-portal.md)
+[Accept or reject a case solution from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/resolve-cases-consumer-portal.md)
 
-[Create a case from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-case-consumer-portal.md)
+[Create a case from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-case-consumer-portal.md)
 

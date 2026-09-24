@@ -3,11 +3,11 @@ title: Authenticate Microsoft OneDrive account
 description: Enable personal authentication for Microsoft OneDrive for Multi Provider Document Services Framework.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/authenticate-onedrive-account.html
-release: australia
+release: brazil
 product: Document Management Services
 classification: document-management-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Personal authentication, Integrate with Document Services, Multi Provider Document Services Framework, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -27,5 +27,5 @@ Role required: sn\_personal\_auth.personal\_auth\_user
 2.  Go to Microsoft OneDrive Spoke Credential tile, select **Authenticate**.
 
 
-**Parent Topic:**[Personal authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/personal-authentication-documents.md)
+**Parent Topic:**[Personal authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/personal-authentication-documents.md)
 

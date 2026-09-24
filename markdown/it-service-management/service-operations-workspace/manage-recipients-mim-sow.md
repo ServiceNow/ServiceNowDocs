@@ -3,11 +3,11 @@ title: Manage recipients in a communication task
 description: Manage the recipients list for a communication task to create flexible and effective communication with the required stakeholders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/manage-recipients-mim-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Communicating about incidents and major incidents, Managing a major incident record, Major Incident Management in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -82,5 +82,5 @@ User, user group, or list of recipients with the user role. You must use the **A
 </table>4.  Select **Save**.
 
 
-**Parent Topic:**[Communicating with stakeholders about incidents and major incidents in SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/communicating-with-stakeholders-sow.md)
+**Parent Topic:**[Communicating with stakeholders about incidents and major incidents in SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/communicating-with-stakeholders-sow.md)
 

@@ -3,10 +3,10 @@ title: Granular admin roles
 description: Granular admin roles enables you to verify proper access management by assigning roles that define user permissions and responsibilities. By doing so, organizations can maintain security, enforce conformance, and optimize their operations effectively.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/granular-admin-roles.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 39
+last_updated: "2026-09-10"
+reading_time_minutes: 38
 keywords: [Granular admin roles, admin roles, ServiceNow admin roles, admin, roles, access management, assigning roles, maintain security, enforce conformance]
 ---
 
@@ -1723,68 +1723,6 @@ Role required to create and manage all Journey designer and Journey Accelerator 
 
 </td></tr><tr><td>
 
-HRSD-Employee Journey Management
-
-</td><td>
-
-sn\_ja.admin
-
-</td><td>
-
-Role required to create and manage all Journey Accelerator components, tables, and data.
-
-</td></tr><tr><td>
-
-HRSD-Employee Journey Management
-
-</td><td>
-
-sn\_hr\_le.admin
-
-</td><td>
-
-Role required to create, manage, and add users to groups within Lifecycle Events.
-
- Can access:
-
- -   Guided Setup
--   Manage Owner Groups
--   Manage Roles
--   LE UI Configuration
--   Onboarding Executive Dashboard
--   Onboarding Executive View
-
-</td></tr><tr><td>
-
-HRSD-Employee Journey Management
-
-</td><td>
-
-sn\_hr\_le\_pa.admin
-
-</td><td>
-
-Lifecycle Events Performance Analytics Admin role for the scoped application.
-
- -   Access and modify the Lifecycle Events PA content packs.
--   Edits Performance Analytics properties.
--   Accesses Admin Console.
--   Launch Dependency Assessment.
-
-</td></tr><tr><td>
-
-HRSD-Employee Journey Management
-
-</td><td>
-
-sn\_jny.admin
-
-</td><td>
-
-Role required to create and manage all Journey designer and Journey Accelerator configurations and features.
-
-</td></tr><tr><td>
-
 HRSD - Hiring Experiences
 
 </td><td>
@@ -2886,54 +2824,6 @@ sn\_itom\_leap.leap\_admin
 </td><td>
 
 Role required to have admin access to leap application, enabling users to activate skills and create artifacts.
-
-</td></tr><tr><td>
-
-ITOM - Leap Agent
-
-</td><td>
-
-sn\_itom\_leap.leap\_agent
-
-</td><td>
-
-Role required to access the LEAP menu from the Service Operations Workspace and trigger LEAP executions.
-
-</td></tr><tr><td>
-
-ITOM - Leap Ansible Agent Worker
-
-</td><td>
-
-sn\_itom\_leap.leap\_ansible\_agent\_worker
-
-</td><td>
-
-Role required for Ansible Discovery Agent and Execution Agent to access Ansible Automation Platform integration features.
-
-</td></tr><tr><td>
-
-ITOM - Leap Ansible Mapping Read
-
-</td><td>
-
-sn\_itom\_leap.ansible\_mapping\_read
-
-</td><td>
-
-Role required to read step-to-job mappings for Ansible automation integration.
-
-</td></tr><tr><td>
-
-ITOM - Leap Ansible Mapping Write
-
-</td><td>
-
-sn\_itom\_leap.ansible\_mapping\_write
-
-</td><td>
-
-Role required to create and update step-to-job mappings for Ansible automation integration \(LEAP Admin only\).
 
 </td></tr><tr><td>
 
@@ -4250,7 +4140,7 @@ sn\_vault\_console.vault\_console\_admin
 
 </td><td>
 
-Role required to have a collection of Data Classification admin, Data Privacy admin, and CA Admin roles to execute a template flow and monitor sensitive data. To learn more, see [Configuring ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-servicenow-vault.md)
+Role required to have a collection of Data Classification admin, Data Privacy admin, and CA Admin roles to execute a template flow and monitor sensitive data. To learn more, see [Configuring ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/configuring-servicenow-vault.md)
 
 </td></tr><tr><td>
 
@@ -4529,6 +4419,6 @@ sn\_vul.vulnerability\_admin
 Role required for complete access to the Vulnerability Response \(VR\) application and its records. Users with this role configure all VR applications and rules and can install third-party integrations.
 
 </td></tr></tbody>
-</table>-   **[Platform security granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platsec-granular-roles.md)**  
+</table>-   **[Platform security granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platsec-granular-roles.md)**  
 Use granular admin roles to verify access management by assigning roles that define user permissions and responsibilities.
 

@@ -3,11 +3,11 @@ title: Manage co-owners for an investment
 description: Add co-owners to your investments to request, approve, and manage the funds on your behalf. You can remove the existing co-owners when you no longer need them to manage your investments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/investment-funding/manage-co-owners-for-invstmnts.html
-release: australia
+release: brazil
 product: Investment Funding
 classification: investment-funding
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Co-owners for an investment, Investment Funding, Strategic Portfolio Management]
 ---
@@ -27,15 +27,15 @@ Role required:
 
 1.  Open a top-level investment or My fund.
 
-<table id="choicetable_xqc_kqr_25b"><thead><tr><th align="left" id="d48920e62">
+<table id="choicetable_xqc_kqr_25b"><thead><tr><th align="left" id="d48160e62">
 
 Option
 
-</th><th align="left" id="d48920e65">
+</th><th align="left" id="d48160e65">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d48920e71">
+</th></tr></thead><tbody><tr><td id="d48160e71">
 
 **To open a top-level investment**
 
@@ -45,7 +45,7 @@ Steps
 2.  Click an investment tile.
 
 
-</td></tr><tr><td id="d48920e101">
+</td></tr><tr><td id="d48160e101">
 
 **To open a My fund**
 
@@ -65,5 +65,5 @@ Steps
 4.  Click **Update**.
 
 
-**Parent Topic:**[Co-owners for an investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/co-owner-for-investments.md)
+**Parent Topic:**[Co-owners for an investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/investment-funding/co-owner-for-investments.md)
 

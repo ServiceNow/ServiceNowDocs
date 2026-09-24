@@ -3,11 +3,11 @@ title: Configure announcement for community members
 description: Global announcements appear in the banner and broadcast messages to all community members. Forum announcements appear in the Announcements section on the forum page. You can also send the announcement by email.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/manage-announcements.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Community Service Portal, Configuring communities, Communities, Customer Service Management]
 ---
@@ -22,6 +22,10 @@ Role required:
 
 -   sn\_communities.admin can manage Global announcements and Forum announcements
 -   sn\_communities.forum\_admin can manage Forum announcements for own forums only. The announcement appears only in the forum that the admin owns.
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## About this task
 
@@ -168,5 +172,5 @@ This setting appears for Global announcements only. Determines how the user can 
 -   To update an announcement, update any setting as needed and then click **Update**. If you specified **Send email notification**, then you are prompted to send the updated email message.
 -   To cancel an announcement, clear the **Active** check box.
 
-**Parent Topic:**[Community Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/community-service-portal.md)
+**Parent Topic:**[Community Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/community-service-portal.md)
 

@@ -3,11 +3,11 @@ title: Create catalog client scripts
 description: As a provider, create catalog client scripts in Service Exchange to control the behavior of the catalog items when presented to your consumers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-create-client-script.html
-release: australia
+release: brazil
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure for providers, Service Exchange for Providers, Service Exchange]
 ---
@@ -38,7 +38,7 @@ You can apply catalog client scripts to a catalog item or a variable set. These 
 
 4.  On the form, fill in the fields.
 
-    For a description of the field values, see [Catalog client script record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-cat-script-fd.dita.md).
+    For a description of the field values, see [Catalog client script new record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-cat-script-fd.dita.md).
 
 5.  Select **Submit**.
 

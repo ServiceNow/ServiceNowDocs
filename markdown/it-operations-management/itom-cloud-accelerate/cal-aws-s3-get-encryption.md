@@ -3,11 +3,11 @@ title: CAL - AWS S3 Get Encryption subflow
 description: Subflow that returns the default encryption configuration for an Amazon Web Services \(AWS\) S3 bucket.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/cal-aws-s3-get-encryption.html
-release: australia
+release: brazil
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Cloud Action Library, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -20,11 +20,11 @@ Subflow that returns the default encryption configuration for an Amazon Web Serv
 
 -   **Subscription requirements**
 
-    To use this subflow in custom flows, you must obtain an Integration Hub Enterprise subscription or an App Engine subscription. For more information, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/request-ih-overview.md).
+    To use this subflow in custom flows, you must obtain an Integration Hub Enterprise subscription or an App Engine subscription. For more information, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/request-ih-overview.md).
 
 -   **Role requirements**
 
-    This subflow requires roles granted by delegated development or assigned to the user. For more information, see User access to Flow Designer.
+    This subflow requires roles granted by delegated development or assigned to the user. For more information, see [User access to Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/user-access-flow-designer.md).
 
 
 ## Cloud permission
@@ -109,5 +109,5 @@ You can use these outputs as inputs for other subflows.
     Client error code returned for the failed call.
 
 
-**Parent Topic:**[Cloud Action Library reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/cloud-action-library-reference.md)
+**Parent Topic:**[Cloud Action Library reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-cloud-accelerate/cloud-action-library-reference.md)
 

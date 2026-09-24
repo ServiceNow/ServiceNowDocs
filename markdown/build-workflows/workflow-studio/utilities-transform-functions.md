@@ -3,11 +3,11 @@ title: Utilities transform functions
 description: Use utilities transform functions to return a Complex Object from an Array, or a value associated with a specific key.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/utilities-transform-functions.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Transform functions, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Transform functions, Flows, subflows, and actions reference, Flows,
 
 Use utilities transform functions to return a Complex Object from an Array, or a value associated with a specific key.
 
-Utilities transform functions require an Array, Name-Value Pair, String, Integer, or Choice input data pill. Make sure to use the correct input [data pill type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-inputs-outputs.md) when applying utilities transform functions. If a utility transform function is applied to an improper data type, the data is not transformed at runtime and the input value is returned instead. For more information on confirming your flow runtime values, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-test.md).
+Utilities transform functions require an Array, Name-Value Pair, String, Integer, or Choice input data pill. Make sure to use the correct input [data pill type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/action-inputs-outputs.md) when applying utilities transform functions. If a utility transform function is applied to an improper data type, the data is not transformed at runtime and the input value is returned instead. For more information on confirming your flow runtime values, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-test.md).
 
 ## Get First Item from Array
 
@@ -234,5 +234,5 @@ Example usage:
 -   Parameters: `<`
 -   Output: `1<2<3`
 
-**Parent Topic:**[Transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/transform-functions.md)
+**Parent Topic:**[Transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/transform-functions.md)
 

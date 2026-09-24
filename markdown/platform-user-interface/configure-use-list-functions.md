@@ -3,9 +3,9 @@ title: Configure and use list functions
 description: All users can interact with lists for the tables their role permits them to access. Some list and column header menu options are controlled by permissions grated to the user role.You can quickly find information in a list by sorting the list. The method that the system uses to sort a list depends on the type of record in the sort column.You can enable or disable modern cell coloring for list field status indicators. This setting is available when you personalize a list. This setting is available in your system settings.You can customize the number of records, or rows, to display on each page of a list. The default is 20 rows per page.A view defines the elements that appear when a user opens a list.Remove the calculation of the total number of records in a list to speed up loading lists.Action check boxes enable you to perform actions on one or more items in a list.Some lists may be embedded in forms. Use list controls to work with records in an embedded list within a form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-use-list-functions.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Lists in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 The following procedures describe functions that users can configure or use with lists.
 
-**Parent Topic:**[Lists in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UseLists.md)
+**Parent Topic:**[Lists in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_UseLists.md)
 
 ## Sort a list
 
@@ -66,9 +66,9 @@ To sort a list, use one of the following methods:
 **Related topics**  
 
 
-[Choice lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ChoiceLists.md)
+[Choice lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ChoiceLists.md)
 
-[Integer values for default choice lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_IntValsForDfltChoiceList.md)
+[Integer values for default choice lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_IntValsForDfltChoiceList.md)
 
 ## Configure field status indicators
 
@@ -94,7 +94,7 @@ Field status indicators on lists are displayed with modern cell coloring, as a c
 
     3.  Click **OK**.
 
-    For more information, see [Creating Personal Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_PersonalLists.md).
+    For more information, see [Creating Personal Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_PersonalLists.md).
 
 
 ## Customize the number of list rows per page
@@ -197,14 +197,14 @@ Role required: admin
 
 Some lists may be embedded in forms. Use list controls to work with records in an embedded list within a form.
 
-Use these controls to work with an embedded list. For more information, see [Edit a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_EditingInForms.md).
+Use these controls to work with an embedded list. For more information, see [Edit a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_EditingInForms.md).
 
 |Task|Icon|Action|
 |----|----|------|
 |Expand an embedded list|\[Omitted image "UI11FormExpand.png"\] Alt text: Expand embedded list icon.|Click the expand icon in the list header.|
 |Collapse an embedded list|\[Omitted image "UI11FormCollapse.png"\] Alt text: Collapse embedded list icon.|Click the collapse icon in the list header.|
 |Insert a new row|\[Omitted image "InsertRow.png"\] Alt text: Insert a row.|Select **Add** and identify the record you want to add to the embedded list.|
-|Edit a row| |Double-click in an empty area of that field. See [Use the list editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_UseTheListEditor.md).|
+|Edit a row| |Double-click in an empty area of that field. See [Use the list editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_UseTheListEditor.md).|
 |Delete a row|\[Omitted image "RowDeleteIcon.png"\] Alt text: Delete row icon.|Click the delete icon beside the row. New rows are removed immediately. Existing rows are designated for deletion when the record is saved. To clear this designation, click the delete icon again.|
 
 \[Omitted image "FormEmbeddedList.png"\] Alt text: Embedded list

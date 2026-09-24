@@ -3,11 +3,11 @@ title: Generate tasks from Docs in Collaborative Work Management \(CWM\)
 description: Use the generative AI capabilities of ServiceNow Otto to create tasks from the content of your Docs and help you add them to the required Board in CWM workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/generate-tasks-cwm-docs-now-assist.html
-release: australia
+release: brazil
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Add tasks to a CWM Board, Manage work using Boards, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -18,9 +18,9 @@ Use the generative AI capabilities of ServiceNow Otto to create tasks from the c
 
 ## Before you begin
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
-[Create a Doc in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-a-doc-in-cwm.md)
+[Create a Doc in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/create-a-doc-in-cwm.md)
 
 Role required: sn\_cwm\_ai.cwm\_ai\_user
 
@@ -53,5 +53,5 @@ Role required: sn\_cwm\_ai.cwm\_ai\_user
     \[Omitted image "cwm-task-generation-now-assist.png"\] Alt text: Automatic task generation from CWM Docs using ServiceNow Otto for CWM.
 
 
-**Parent Topic:**[Add tasks to a CWM Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/add-tasks-to-board-in-cwm.md)
+**Parent Topic:**[Add tasks to a CWM Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/add-tasks-to-board-in-cwm.md)
 

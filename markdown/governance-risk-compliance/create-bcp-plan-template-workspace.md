@@ -3,9 +3,9 @@ title: Create a business continuity plan from a plan template
 description: As a program manager you can create a plan for the respective business units that can be used in times of business disruption. You can use a specific plan template for each plan type to streamline the process of a plan creation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-bcp-plan-template-workspace.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Structured workflows for Business Continuity Planning, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -52,17 +52,17 @@ As a BCM program manager you can create a plan by clicking the **New** button. W
 
     **Note:**
 
-    The tabs that are available in the Plan view depend on the value that you have selected in the **Plan authoring type** field of the [Configure a business continuity plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-bcp-template.md) that is used in this plan.
+    The tabs that are available in the Plan view depends on the value that you have selected in the **Plan authoring type** field of the [Configure a business continuity plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/configure-bcp-template.md) that is used in this plan.
 
     \[Omitted image "PlanTabAuthoringType.png"\] Alt text: Plan authoring type values
 
-    When you create a plan using a template, the plan documentations associated to the plan template are copied over to the documentation section.
+    When you create a plan using a template, the plan documentation associated with the plan template is copied to the new plan's documentation section.
 
 7.  Review the plan details in the **Overview** tab.
 
-8.  Select the **Details** tab to update the plan details.
+8.  Click the **Details** tab to update the plan details.
 
-9.  To save the plan and update its details later, select **Save**.
+9.  To save the plan and update its details later, click **Save**.
 
 10. To save and submit it for review, click **Submit for Review**.
 
@@ -102,11 +102,11 @@ As a BCM program manager you can create a plan by clicking the **New** button. W
 
     -   **Archived**
 
-        When you archive the plan, it is set to read only. All underlying tables that populate data in the plan assets, related asset dependencies, recovery strategy, documentation, recovery teams, loss scenarios, and recovery tasks tabs are set to read-only. You can't edit the information in these tabs anymore.
+        When you archive the plan, it becomes read only. All underlying tables from where the plan retrieves its data become read-only. This includes data for plan assets, related asset dependencies, recovery strategy, documentation, recovery teams, loss scenarios, and recovery tasks tabs. You can't edit the information in these tabs anymore.
 
     **Note:** A scheduled job runs weekly to move the plans that have expired to **Archived** state.
 
-11. To export the plan to different locations and make it available for people to execute the plan in a crisis situation, select **Generate PDF**.
+11. To export the plan to different locations and make it available for people to execute the plan in a crisis situation, click **Generate PDF**.
 
     **Note:** You can generate a PDF if you are a plan contributor \(sn\_bcp.plan\_contributor\) or plan manager \(sn\_bcp.plan\_manager\).
 

@@ -3,12 +3,12 @@ title: Configuring Risk and Compliance in AI Control Tower
 description: Risk and Compliance information appears in AI Control Tower only when the required governance applications, frameworks, and data are available in your environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-airc-configuring.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-05-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [configure]
-breadcrumb: [Managing risk and compliance, Govern AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Managing risk and compliance, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Configuring Risk and Compliance in AI Control Tower
@@ -36,5 +36,5 @@ For example, compliance posture for priority frameworks appears only when releva
 
 If the necessary governance information is not yet available, incomplete states may indicate the AI system or portfolio requires additional governance activity before a full posture can be displayed.
 
-For more information about configuring AI Risk and Compliance, see [Configuring AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configuring-ai-risk-and-compliance.md).
+For more information about configuring AI Risk and Compliance, see [Configuring AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/configuring-ai-risk-and-compliance.md).
 

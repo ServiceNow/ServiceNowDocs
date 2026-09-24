@@ -3,11 +3,11 @@ title: Create pages and subpages in demand Docs
 description: Store information related to your tasks, reference users and task records using pages and subpages in Docs. You can also collaborate on editing documents in real time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/create-and-manage-pages-for-dw.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Collaborate with Docs, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -35,15 +35,15 @@ Role required:
 
 5.  Create a blank page, start with a predefined template, or duplicate a page.
 
-<table id="choicetable_yrn_2mf_zjc"><thead><tr><th align="left" id="d335751e107">
+<table id="choicetable_yrn_2mf_zjc"><thead><tr><th align="left" id="d336340e107">
 
 Goal
 
-</th><th align="left" id="d335751e110">
+</th><th align="left" id="d336340e110">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d335751e116">
+</th></tr></thead><tbody><tr><td id="d336340e116">
 
 **Create a blank page**
 
@@ -51,7 +51,7 @@ Actions
 
 Select **Create page**.
 
-</td></tr><tr><td id="d335751e128">
+</td></tr><tr><td id="d336340e128">
 
 **Create a page from a template**
 
@@ -61,7 +61,7 @@ Select **Create page**.
 2.  In the card for the template that you want to use, select **Use**.
 
 
-</td></tr><tr><td id="d335751e155">
+</td></tr><tr><td id="d336340e155">
 
 **Duplicate a page**
 

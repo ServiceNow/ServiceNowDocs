@@ -3,13 +3,13 @@ title: Configure small talk filters
 description: Redirect users to different Virtual Agent topics if small talk, such as greetings, expressions of gratitude, complaints, or requests to close, are detected in conversations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generative-ai-controller/configure-small-talk-filters.html
-release: australia
+release: brazil
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Configure small talk filters

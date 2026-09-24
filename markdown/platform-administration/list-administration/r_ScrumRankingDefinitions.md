@@ -3,11 +3,11 @@ title: Scrum ranking definitions
 description: Ranking definitions for user stories are part of the SDLC \(scrum process\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/r\_ScrumRankingDefinitions.html
-release: australia
+release: brazil
 product: List Administration
 classification: list-administration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Context ranking, Administer, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -28,13 +28,13 @@ Story points for each story are listed in a ranked view, which is useful for pri
 
 \[Omitted image "RankingStoryPoints.png"\] Alt text: Ranking story points
 
--   **[Rank stories in a related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/t_RankingStories.md)**  
+-   **[Rank stories in a related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-administration/t_RankingStories.md)**  
 The Context Ranking feature enables all scrum users to manually sort a related list of stories by priority.
 
-**Parent Topic:**[Context ranking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/r_ContextRanking.md)
+**Parent Topic:**[Context ranking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-administration/r_ContextRanking.md)
 
 **Related topics**  
 
 
-[Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development.md)
+[Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development.md)
 

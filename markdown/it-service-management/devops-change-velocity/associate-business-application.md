@@ -3,11 +3,11 @@ title: Associate business application
 description: Associate a business application with a JFrog project in the JFrog tool record to create an AppTrust application in JFrog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/associate-business-application.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integration with JFrog AppTrust application, JFrog, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Associate a business application with a JFrog project in the JFrog tool record t
 
 ## Before you begin
 
-The required business applications must be created in ServiceNow. For more information, see [Business application form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-business-application-form.md).
+The required business applications must be created in ServiceNow. For more information, see [Business application form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-business-application-form.md).
 
 Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
@@ -35,5 +35,5 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
     An AppTrust application is created in JFrog with the same name as the business application.
 
 
-**Parent Topic:**[Integration with JFrog AppTrust application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/integration-with-jfrog-apptrust-application.md)
+**Parent Topic:**[Integration with JFrog AppTrust application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/integration-with-jfrog-apptrust-application.md)
 

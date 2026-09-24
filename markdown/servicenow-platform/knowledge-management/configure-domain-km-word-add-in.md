@@ -3,11 +3,11 @@ title: Configure the security for Knowledge Management add-in for Microsoft Word
 description: Use the sn\_km\_word.glide.knowman.word.xframe property to specify all the parent domains in the Microsoft Word Online application in which Knowledge Management - Add-in for Microsoft Word is embedded.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/configure-domain-km-word-add-in.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Knowledge Management - Add-in for Microsoft Word, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---

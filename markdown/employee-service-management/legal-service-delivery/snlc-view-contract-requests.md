@@ -3,12 +3,12 @@ title: View contract requests
 description: When a legal request is submitted a contract request associated with it is initiated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-view-contract-requests.html
-release: australia
+release: brazil
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
@@ -36,10 +36,30 @@ You can access contract request through the legal request or directly from the L
     -   Select **Collaborations** to see the contract requests where you are a collaborator.
     -   Select **All** to see all the contract requests.
 
-**Parent Topic:**[Use Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-use-sn-legal-cont-landing.md)
+**Parent Topic:**[Use Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-service-delivery/snlc-use-sn-legal-cont-landing.md)
+
+**Parent Topic:**[Use Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-service-delivery/snlc-use-sn-legal-cont-landing.md)
 
 **Related topics**  
 
+
+[Non-disclosure agreement requests]()
+
+[Third-party contract review requests]()
+
+[Contract amendments]()
+
+[Linking parent-child contracts]()
+
+[Internal review overview]()
+
+[Signature workflow for a request]()
+
+[Cancel a legal request]()
+
+[View and download a signed contract document]()
+
+[Manage Contract Management Pro for Legal Service Delivery]()
 
 [Non-disclosure agreement requests]()
 

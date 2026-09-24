@@ -3,9 +3,9 @@ title: Primary interfaces
 description: The primary way for users to interact with a data model is through forms and lists or through mobile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/primary-interfaces.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create design elements, Build your application, Exploring professional development, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -21,7 +21,7 @@ The standard method of accessing data in ServiceNow is through the default forms
 1.  Keep the number of fields on a form to a minimum. The more fields on a form, the longer the form takes to load resulting in a poor user experience. Use form views to create different sets of fields for different situations.
 2.  Use form sections to logically group fields together and to keep users from scrolling. The top section of the form should contain the fields that are always needed or used, while the other form sections contain less frequently utilized fields.
 3.  Make sure fields appear in the right order. For example, the start date field should always come right before an end date field.
-4.  Use seven or fewer columns in a default list. Users can add more by [personalizing their lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_PersonalLists.md).
+4.  Use seven or fewer columns in a default list. Users can add more by [personalizing their lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_PersonalLists.md).
 5.  Avoid using a reference field as the first item in the list view, because it is shown as hyperlinked text. Clicking on the reference field will redirect the user to the referenced record instead of the list record, resulting in a poor user experience.
 
 This example shows a poorly designed form.
@@ -52,5 +52,5 @@ Self-paced training: [Mobile Applications](https://developer.servicenow.com/dev.
 
 Other resources: [Mobile Resources](https://community.servicenow.com/community?id=community_blog&sys_id=98855a4edba9fbc0fece0b55ca9619e0)
 
-**Parent Topic:**[Create design elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-design-elements.md)
+**Parent Topic:**[Create design elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-design-elements.md)
 

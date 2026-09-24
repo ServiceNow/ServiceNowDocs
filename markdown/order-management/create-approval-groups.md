@@ -3,9 +3,9 @@ title: Define an approval group
 description: Define the approval group, such as a contract or finance group, and the associated approval rule that they review during the approval process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-approval-groups.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create an approval configuration, Advanced Approval Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -16,15 +16,15 @@ Define the approval group, such as a contract or finance group, and the associat
 
 ## Before you begin
 
-[Define the approval rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-approval-rules.md) associated with this approval group.
+[Define the approval rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-approval-rules.md) associated with this approval group.
 
-Groups are set up in the Group \[sys\_user\] table. For more information on creating groups, see [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAGroup.md).
+Groups are set up in the Group \[sys\_user\] table. For more information on creating groups, see [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAGroup.md).
 
 Role required: sn\_adv\_appr\_mgmt.approval\_rule\_admin, sn\_adv\_appr\_mgmt.approval\_rule\_writer
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 

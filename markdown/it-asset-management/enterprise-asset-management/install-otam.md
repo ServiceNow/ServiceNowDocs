@@ -1,26 +1,26 @@
 ---
-title: Install OT Asset Management
-description: You can install the OT Asset Management application \(com.sn\_otam\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence: The application includes demo data and installs related ServiceNow Store applications and plugins if they aren’t already installed.
+title: Install OT Asset Management from the ServiceNow Store
+description: You can install the OT Asset Management application \(com.sn\_otam\) if you have the admin role. The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/install-otam.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [OT Asset Management, Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Installing OT Asset Management, OT Asset Management, Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
 
-# Install OT Asset Management
+# Install OT Asset Management from the ServiceNow Store
 
-You can install the OT Asset Management application \(com.sn\_otam\) if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they aren’t already installed.
+You can install the OT Asset Management application \(com.sn\_otam\) if you have the admin role. The application installs related ServiceNow® Store applications and plugins if they are not already installed.
 
 ## Before you begin
 
 Review the application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
-Role required: sys\_admin
+Role required: admin
 
 ## About this task
 
@@ -30,7 +30,7 @@ The following items are installed with OT Asset Management:
 -   Store applications
 -   Roles
 
-For more information, see [Installed with OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/installed-with-otam.md).
+For more information, see [Installed with OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/installed-with-otam.md).
 
 ## Procedure
 
@@ -48,23 +48,8 @@ For more information, see [Installed with OT Asset Management](https://raw.githu
 
 4.  If you're prompted, follow the links to the ServiceNow Store to get any additional entitlements for dependencies.
 
-5.  If demo data is available and you want to install it, select the **Load demo data** check box.
-
-    Demo data are the sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
-
-6.  Select **Install**.
+5.  Select **Install**.
 
 
-**Parent Topic:**[OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/ot-asset-management.md)
-
-**Related topics**  
-
-
-[OT Asset Management licensing]()
-
-[Installed with OT Asset Management]()
-
-[OT Asset Workspace]()
-
-[Asset and Configuration Item \(CI\) synchronization for Operational Technology \(OT\) assets]()
+**Parent Topic:**[Installing OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/installing-otam.md)
 

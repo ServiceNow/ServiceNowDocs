@@ -1,18 +1,18 @@
 ---
 title: Document Intelligence for Customer Service
-description: Use the Document Intelligence for Customer Service feature to extract relevant information from email and case attachments, such as credit card numbers or customer addresses, and add that information to cases.
+description: Use the Document Intelligence for Customer Service feature to extract relevant information from email and case attachments, such as credit card numbers or customer addresses. Add that information to cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-document-intelligence.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Task Intelligence for Customer Service, Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
 ---
 
 # Document Intelligence for Customer Service
 
-Use the Document Intelligence for Customer Service feature to extract relevant information from email and case attachments, such as credit card numbers or customer addresses, and add that information to cases.
+Use the Document Intelligence for Customer Service feature to extract relevant information from email and case attachments, such as credit card numbers or customer addresses. Add that information to cases.
 
 \[Omitted image "doc-intel-case-fields-predicted.png"\] Alt text: Case details tab displaying Predicted or Predicted from Docintel labels under certain field values, such as Account or Vendor name, alerting agents that the information was extracted by Document Intelligence.
 
@@ -58,12 +58,7 @@ Access the DocIntel Admin experience through the Task Intelligence Admin Console
     **Note:** If Document Intelligence Admin isn’t installed, the home page displays a link that you can use to download and activate the application.
 
 
-For more information, see the following topics:
-
--   [Create a Document Intelligence use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intel-create-di-use-case.md)
--   [Monitor Document Intelligence performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/doc-intel-monitor-performance.md)
-
-.
+For more information, see [Create a Document Intelligence use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-task-intel-create-di-use-case.md).
 
 ## Use Cases list
 
@@ -78,35 +73,33 @@ Each use case has an MLUC ID number that is automatically assigned when the use 
 
 ## Document classification
 
-With the system administrator role, you can create [document classification use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/set-up-document-classification-use-cases.md) and define the classes or categories for the AI to detect and apply to documents. This process is useful in situations where there are multiple types of documents that must be evaluated.
+With the system administrator role, you can create document classification use cases and define the classes or categories for the AI to detect and apply to documents. This process is useful in situations where there are multiple types of documents that must be evaluated.
 
 Set up a document classification use case in the following steps.
 
-1.  [Create a document classification use case.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/set-up-document-classification-use-cases.md)
+1.  Create a document classification use case.
 
     Define the name and properties for the use case.
 
-2.  [Create a document class.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-document-classes.md)
+2.  Create a document class.
 
     Define the classes or categories that the AI learns to detect and apply to documents.
 
-3.  [Create a document task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/upload-documents-for-extraction.md) for document classification and upload sample documents for each class.
-4.  [Train a use case.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/train-a-use-case.md)
+3.  Create a document task for document classification and upload sample documents for each class.
+4.  Train a use case.
 
     Initiate a training job to provide user inputs from completed document tasks to the AI for continuous improvement.
 
 
--   **[How Document Intelligence for Customer Service works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-docintel-how-it-works.md)**  
-Document Intelligence for Customer Service performs a series of steps to extract relevant information from email and case attachments and add that information to fields on the case record.
+-   **[How Document Intelligence for Customer Service works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-docintel-how-it-works.md)**  
+Document Intelligence for Customer Service extracts relevant information from email and case attachments and adds it to fields on the case record.
 
-**Parent Topic:**[Task Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intelligence.md)
+**Parent Topic:**[Task Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-task-intelligence.md)
 
 **Related topics**  
 
 
-[Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence-landing.md)
+[Configure Document Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-doc-intel-configuring-.md)
 
-[Configure Document Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-doc-intel-configuring-.md)
-
-[Review and submit values predicted by Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-doc-intel-review-values.md)
+[Review and submit values predicted by Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-doc-intel-review-values.md)
 

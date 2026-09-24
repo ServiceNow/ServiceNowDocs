@@ -3,9 +3,9 @@ title: Customer success management business rules
 description: This section includes the Customer Success Management business rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-success-business-rules.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
 breadcrumb: [Reference, Customer Success Management]
 ---
@@ -1543,5 +1543,5 @@ Update renewal finalized on field value on Contract table when Substate changes 
 This helps to determine the won/loss of a contract and at what month of the year for Renewal Tab won/loss visualization graphical plot.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Customer Success Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-reference.md)
+</table>**Parent Topic:**[Customer Success Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-reference.md)
 

@@ -3,11 +3,11 @@ title: Problem task form
 description: Description of the field values for the problem task form in Service Operations Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/problem-task-form-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Problem Management in Service Operations Workspace reference, Problem Management in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -82,7 +82,7 @@ State
 
 </td><td>
 
-Value that changes as the problem proceeds from one state to another state.For information about state transitions of a problem task, see [Life cycle of a problem task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/understanding-state-trans-prob-task.md).
+Value that changes as the problem proceeds from one state to another state.For information about state transitions of a problem task, see [Life cycle of a problem task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/understanding-state-trans-prob-task.md).
 
 </td></tr><tr><td>
 
@@ -145,5 +145,5 @@ Work notes \(Private\)
 Information about the work performed on the problem task.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Problem Management in Service Operations Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/reference-problem-management-sow.md)
+</table>**Parent Topic:**[Problem Management in Service Operations Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/reference-problem-management-sow.md)
 

@@ -3,18 +3,22 @@ title: Analysis and the KPI tree
 description: In the Analysis tab of KPI Composer, design your KPI tree. Specify your business goals, their associated critical success factors, and the measurement related to those factors. Chart the logical relationship between these factors and the personas who are responsible for them.Add artifacts to the KPI tree by using the drag-and-drop tiles at the bottom of the project canvas.Each artifact in a KPI tree can reference knowledge base articles, personas, or breakdown definitions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/design-kpi-tree.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Design your indicator solution, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Analysis and the KPI tree
 
 In the Analysis tab of KPI Composer, design your KPI tree. Specify your business goals, their associated critical success factors, and the measurement related to those factors. Chart the logical relationship between these factors and the personas who are responsible for them.
+
+**Important:**
+
+This application is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 A KPI tree contains the following hierarchically related artifacts:
 
@@ -34,8 +38,8 @@ A KPI tree contains the following hierarchically related artifacts:
 The KPI tree has a header and a footer with the following drag-and-drop icons:
 
 -   Artifacts, on the left of the footer
--   Breakdown definitions, on the right of the header \(See [Group data by breakdown definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/add-breakdowns-project.md)\)
--   Personas, on the left of the header \(See [Add personas to a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/add-personas-project.md)\)
+-   Breakdown definitions, on the right of the header \(See [Group data by breakdown definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/add-breakdowns-project.md)\)
+-   Personas, on the left of the header \(See [Add personas to a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/add-personas-project.md)\)
 
 ## Filtering
 
@@ -57,13 +61,17 @@ When a filter or a search matches a collapsed, hidden artifact, the tree does no
 
 \[Omitted image "kpi-composer-filter-collapsed-node.png"\] Alt text: Collapsed nodes that do and do not match a filter
 
-**Parent Topic:**[Design your Performance Analytics solution with KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/designing-pa-solution.md)
+**Parent Topic:**[Design your Performance Analytics solution with KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/designing-pa-solution.md)
 
 ## Add artifacts to a KPI tree
 
 Add artifacts to the KPI tree by using the drag-and-drop tiles at the bottom of the project canvas.
 
 ### Before you begin
+
+**Important:**
+
+This application is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 Think about your business goal and critical success factors before you begin to work on a project.
 
@@ -97,7 +105,7 @@ Role required: sn\_kpi\_composer.user \(own project\), sn\_kpi\_composer.admin \
 
         \[Omitted image "kpi-comp-library-elements.png"\] Alt text: Library Elements list.
 
-    For more information, see [Cross-project library elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/cross-project-artifact-libraries.md).
+    For more information, see [Cross-project library elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/cross-project-artifact-libraries.md).
 
 
 ### What to do next
@@ -107,6 +115,10 @@ If you change your mind about the relationships in a tree, you can select and dr
 ## Artifact properties
 
 Each artifact in a KPI tree can reference knowledge base articles, personas, or breakdown definitions.
+
+**Important:**
+
+This application is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 <table id="table_p4n_z4d_mjb"><thead><tr><th>
 
@@ -166,7 +178,7 @@ Adds this artifact and any child artifacts in the KPI tree to a multi-project, r
 
 </td><td>
 
-For more information, see [Cross-project library elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/cross-project-artifact-libraries.md).
+For more information, see [Cross-project library elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/cross-project-artifact-libraries.md).
 
 </td></tr><tr><td>
 
@@ -188,7 +200,7 @@ Persona\[Omitted image "kpi-comp-persona-icon.png"\] Alt text:
 
 </td><td>
 
-The personas currently linked to the project. In the artifact properties, you can only add and remove personas to the artifact. For information about adding personas to the project, see [Add personas to a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/add-personas-project.md).
+The personas currently linked to the project. In the artifact properties, you can only add and remove personas to the artifact. For information about adding personas to the project, see [Add personas to a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/add-personas-project.md).
 
 </td><td>
 
@@ -200,7 +212,7 @@ Group by\[Omitted image "kpi-comp-bkdown-icon.png"\] Alt text:
 
 </td><td>
 
-Group the data associated with an artifact by one or more of the breakdown definitions selected for the project. For information about adding breakdown definitions to the project, see [Group data by breakdown definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/add-breakdowns-project.md).
+Group the data associated with an artifact by one or more of the breakdown definitions selected for the project. For information about adding breakdown definitions to the project, see [Group data by breakdown definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/add-breakdowns-project.md).
 
 </td><td>
 

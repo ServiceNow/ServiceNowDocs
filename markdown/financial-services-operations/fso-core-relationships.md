@@ -3,9 +3,9 @@ title: Understanding FSO Core relationships
 description: This section describes the key tables in FSO Core and their relationships. Understanding these relationships helps you manage data effectively and enhances system functionality.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/fso-core-relationships.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Financial Services Operations Core, Data Models, Explore, Financial Services Operations \(FSO\)]
 ---
@@ -24,7 +24,7 @@ The following table lists this application's dependencies:
 |Expanded Model and Asset Classes|com.sn\_ent|
 |Install Base|com.snc.install\_base|
 
-**Important:** Starting with the Vancouver release, the Financial Services Operations Core model tables will use child tables of Expanded Model and Asset's base Service model \[cmdb\_service\_product\_model\] to classify different service models within the Configuration Management Database \(CMDB\). For more information, see [Expanded Model and Asset Classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-model-asset-classes-app.md)
+**Important:** Starting with the Vancouver release, the Financial Services Operations Core model tables will use child tables of Expanded Model and Asset's base Service model \[cmdb\_service\_product\_model\] to classify different service models within the Configuration Management Database \(CMDB\). For more information, see [Expanded Model and Asset Classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-model-asset-classes-app.md)
 
 ## Financial Services Operations Core data model diagram
 
@@ -205,5 +205,5 @@ Provides a series of standard fields used on each of the tables that extend it.
 ServiceNow AI Platform
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-operations-core-data-model.md)
+</table>**Parent Topic:**[Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-operations-core-data-model.md)
 

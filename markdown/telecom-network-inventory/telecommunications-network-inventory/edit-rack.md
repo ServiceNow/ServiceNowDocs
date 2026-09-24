@@ -3,11 +3,11 @@ title: Edit rack
 description: Added topic as per STRY56040533 - DOC1080161.Edit a rack to remove, add, or move the equipment from the selected rack. Organize and upgrade the components within the rack using the Telecommunications Network Inventory application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/edit-rack.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Create a rack, Create and maintain racks and cabinets, Manually creating and reviewing your network asset instances, Define inventory records, Use, Telecommunications Network Inventory]
 ---
@@ -67,7 +67,7 @@ Add
 1.  Select **\(\[Omitted image "icon-menu.png"\] Alt text: Options icon\)** &gt; **Add to Rack**.
 2.  Fill in the fields and select **Add**.
 
-To learn more about the fields, see add equipment to rack table of [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
+To learn more about the fields, see add equipment to rack table of [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
 
  **Note:** You can drag the equipment from the corner to the desired rack unit. For non-TNI, a TNI entity with category as equipment is created. Changes can be undone or redone.
 
@@ -78,7 +78,7 @@ Move
 </td><td>
 
 1.  Select **\(\[Omitted image "icon-menu.png"\] Alt text: Options icon\)** &gt; **Move**.
-2.  Fill in the fields and select **Move**. To learn more about the fields, see add equipment to rack table of [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
+2.  Fill in the fields and select **Move**. To learn more about the fields, see add equipment to rack table of [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
  **Note:**
 
 -   You can also drag the equipment from the corner to the desired rack unit.
@@ -126,5 +126,5 @@ Select Options \(\[Omitted image "icon-menu.png"\] Alt text: Options icon\) of t
         -   if any technical error occurs. However, work notes are updated with the error details.
     -   A change request can contain different change tasks.
 
-**Parent Topic:**[Create a rack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/edit-a-rack.md)
+**Parent Topic:**[Create a rack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/edit-a-rack.md)
 

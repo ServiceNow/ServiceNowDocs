@@ -3,11 +3,11 @@ title: LogicMonitor Observability tab for Service Observability
 description: Dashboard and charts on the LogicMonitor Observability tab of the Service Details page in the SOW.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-observability/logic-monitor-observability-tab-for-service-observability.html
-release: australia
+release: brazil
 product: Service Observability
 classification: service-observability
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [LogicMonitor templates, Service Observability templates, Service Observability reference, Service Observability, ITOM AIOps, IT Operations Management]
 ---
@@ -62,5 +62,5 @@ These dashboards display metrics for databases related to the service.
 |Maximum servers|Maximum number of servers available for the database.|LogicMonitor|
 |All PostgreSQL Instances|Information of all databases the service is actively using. Select a database link to view more detailed information.|CMDB|
 
-**Parent Topic:**[LogicMonitor templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/logic-monitor-templates.md)
+**Parent Topic:**[LogicMonitor templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-observability/logic-monitor-templates.md)
 

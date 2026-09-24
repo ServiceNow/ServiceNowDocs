@@ -3,11 +3,11 @@ title: Create a request from an incident
 description: When you work on an incident and determine that the user needs one or more catalog items, such as an application or a new laptop, you can create a request from the incident. It helps you in tracking the requests associated with an incident and vice versa.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/create-request-from-incident.html
-release: australia
+release: brazil
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing incidents, Incident Management, IT Service Management]
 ---
@@ -36,7 +36,7 @@ incRPUtil.linkRecordProducerToParentIncident(RP.getParameterValue('sysparm_req_p
 
 1.  Navigate to **All** &gt; **Incident** &gt; **Open**.
 
-    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
+    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
 
 2.  Select the required open incident.
 
@@ -50,7 +50,7 @@ incRPUtil.linkRecordProducerToParentIncident(RP.getParameterValue('sysparm_req_p
 
 5.  Check out the required catalog item, order guide, or record producer.
 
-    For information on checkout models, see [Service Catalog checkout models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_EnableATwoStepCheckout.md).
+    For information on checkout models, see [Service Catalog checkout models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_EnableATwoStepCheckout.md).
 
     For a catalog item or order guide, a request is created and displayed under the **Requests** tab of the incident. For a record producer, the corresponding task is created and displayed under the **Problems** tab of the incident.
 

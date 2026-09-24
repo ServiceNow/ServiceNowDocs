@@ -3,13 +3,13 @@ title: Configure WordPress for external content indexing
 description: Create an admin user and an application password in your WordPress website to allow the WordPress external content connector to access your WordPress content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-wordpress-external-content-indexing.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-06-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [WordPress external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -83,12 +83,12 @@ To allow the connector to access your WordPress source system via the WordPress 
 Provide the following items to your connector administrator:
 
 -   The URL for your WordPress website.
--   The user name for the administrator user account that you copied in step [4.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-wordpress-external-content-indexing.md).
--   The application password for the administrator user account that you copied in step [5.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-wordpress-external-content-indexing.md).
+-   The user name for the administrator user account that you copied in step [4.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-wordpress-external-content-indexing.md).
+-   The application password for the administrator user account that you copied in step [5.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-wordpress-external-content-indexing.md).
 
 Your connector administrator needs these items to configure a WordPress external content connector to retrieve pages and blog posts and security principals from your WordPress source system.
 
-For details on creating and configuring a WordPress external content connector, see [Create a WordPress external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-wordpress.md).
+For details on creating and configuring a WordPress external content connector, see [Create a WordPress external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-ext-cont-connector-wordpress.md).
 
-**Parent Topic:**[WordPress external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/wordpress-external-content-connector.md)
+**Parent Topic:**[WordPress external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/wordpress-external-content-connector.md)
 

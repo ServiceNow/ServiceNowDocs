@@ -3,11 +3,11 @@ title: Agent Client Collector Log Analytics default policies and checks
 description: Agent Client Collector Log Analytics provides various default policies and checks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-log-analytics-policies-checks.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [ACC log policies, Agent Client Collector Log Analytics, Agent Client Collector, IT Operations Management]
 ---
@@ -256,8 +256,8 @@ Windows and Linux
 
 Collects logs from Oracle WebLogic servers and sends them to the MID Server for further analysis.**Note:**
 
--   The log path that WebLogic uses has two environment variables, as described in the WebLogic documentation. For more information, see [Environment variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-log-analytics-policies-checks.md).
--   On both Windows and Linux, Agent Client Collector Log Analytics adds a default environment variable from the WebLogic documentation to the log path. You can either use this default environment variable to get the full directory, or change it manually if you prefer to use a known direct directory. For information about customizing the environment variable, see [Edit log path configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/accl-edit-log-path.md).
+-   The log path that WebLogic uses has two environment variables, as described in the WebLogic documentation. For more information, see [Environment variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-log-analytics-policies-checks.md).
+-   On both Windows and Linux, Agent Client Collector Log Analytics adds a default environment variable from the WebLogic documentation to the log path. You can either use this default environment variable to get the full directory, or change it manually if you prefer to use a known direct directory. For information about customizing the environment variable, see [Edit log path configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/accl-edit-log-path.md).
 
 </td><td>
 

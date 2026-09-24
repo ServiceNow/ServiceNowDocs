@@ -3,9 +3,9 @@ title: Roles installed with Employee as a Consumer
 description: Use different roles to establish the relationships between your users and entities. By using the Employee as a Consumer functionality within the Customer Service Management \(CSM\) application, your organization can support both requesters and supporters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/roles-installed-with-employee-as-consumer.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring a user as a Unified Consumer, Configuring a Unified User, User management, Set up your environment, Configure, Customer Service Management]
 ---
@@ -60,9 +60,9 @@ Supports consumers and runs parallel to the Consumer \(sn\_customerservice.consu
 </table>**Related topics**  
 
 
-[Configuring a user as a Unified Consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configuring-employee-as-a-consumer.md)
+[Configuring a user as a Unified Consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configuring-employee-as-a-consumer.md)
 
-[Supported and unsupported roles and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/features-supp-and-unsupp-by-unified-consumer.md)
+[Supported and unsupported roles and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/features-supp-and-unsupp-by-unified-consumer.md)
 
-[Setting up a user as a Unified Consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-a-user.md)
+[Setting up a user as a Unified Consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/setting-up-a-user.md)
 

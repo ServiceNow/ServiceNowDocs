@@ -1,18 +1,18 @@
 ---
 title: Scenario analysis
-description: Conduct a scenario analysis to assess how a critical service performs under adverse conditions. Starting with Operational Resilience, version 22.3.1, you can use advanced scenario analysis with simulation in the Operational Resilience Workspace. Apply statistical modelling to quantify financial impact and record a treatment decision.
+description: Conduct a scenario analysis to assess how a critical service performs under adverse conditions. Starting with Operational Resilience version 22.3.1, you can use advanced scenario analysis with simulation to apply statistical modelling, quantify financial impact, and record treatment decisions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/scenario-analysis-ov.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-05-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Scenario analysis
 
-Conduct a scenario analysis to assess how a critical service performs under adverse conditions. Starting with Operational Resilience, version 22.3.1, you can use advanced scenario analysis with simulation in the Operational Resilience Workspace. Apply statistical modelling to quantify financial impact and record a treatment decision.
+Conduct a scenario analysis to assess how a critical service performs under adverse conditions. Starting with Operational Resilience version 22.3.1, you can use advanced scenario analysis with simulation to apply statistical modelling, quantify financial impact, and record treatment decisions.
 
 ## What is a scenario analysis
 
@@ -40,11 +40,11 @@ When you create a scenario analysis record, select **Statistical Modelling** —
 
 The base configuration includes an annual loss model driven by risk events, which references input and output templates managed through the Smart Assessment Engine \(SAE\).
 
-Before selecting a method, verify with your administrator that Smart Assessment templates have been created and published in the Assessment Workspace. Use the purpose Scenario Analysis \(advanced\) or Scenario Analysis - Manual. For more information, see the following topics:
+Before selecting a method, verify with your administrator that Smart Assessment templates have been created and published in the Assessment Workspace. Verify that the templates use the purpose *Scenario Analysis \(advanced\)* or *Scenario Analysis - Manual*. For more information, see the following topics:
 
--   [Verify the Smart Assessment templates setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-sae-templates-for-sca.md)
--   [Create a scenario analysis record using simulation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-sca-record.md)
--   [Building a scenario analysis using simulation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/scenario-analysis-playbook-experience.md)
+-   [Verify the Smart Assessment templates setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/set-up-sae-templates-for-sca.md)
+-   [Create a scenario analysis record using simulation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-sca-record.md)
+-   [Building a scenario analysis using simulation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/scenario-analysis-playbook-experience.md)
 
 ## States for the analysis
 
@@ -61,5 +61,5 @@ The following limitations apply to the advanced scenario analysis:
 
 ## Legacy scenario analysis
 
-The advanced scenario analysis is enabled by default. For an overview of the legacy experience, see [Legacy scenario analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/legacy-scenario-analysis-ov.md). To switch to the legacy flow, see [Enable the legacy scenario analysis flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/activate-scenario-analysis-legacy-flow.md).
+The advanced scenario analysis is enabled by default. For an overview of the legacy experience, see [Legacy scenario analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/legacy-scenario-analysis-ov.md). To switch to the legacy flow, see [Enable the legacy scenario analysis flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/activate-scenario-analysis-legacy-flow.md).
 

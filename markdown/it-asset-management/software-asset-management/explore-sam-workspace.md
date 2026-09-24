@@ -3,11 +3,11 @@ title: Exploring Software Asset Management
 description: The Software Asset Management application's user interface is enhanced to make it more user friendly and intuitive, allowing you to better manage your software installations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/explore-sam-workspace.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Software Asset Management, IT Asset Management, Asset Management]
 
 The Software Asset Management application's user interface is enhanced to make it more user friendly and intuitive, allowing you to better manage your software installations.
 
-Beginning with the ServiceNow AI Platform Australia release, we will provide limited support for the Software Asset Management classic user interface. While it will remain active in your instance, including when you upgrade to a new ServiceNow AI Platform release, we encourage you to move to the new workspace experience.
+Beginning with the ServiceNow AI Platform Brazil release, we will provide limited support for the Software Asset Management classic user interface. While it will remain active in your instance, including when you upgrade to a new ServiceNow AI Platform release, we encourage you to move to the new workspace experience.
 
 The Software Asset Management application's core functionality remains the same in both the user interfaces.
 
@@ -24,11 +24,11 @@ The Software Asset Management application's core functionality remains the same 
 
 The Software Asset Management application is available with activation of the new Activate all Software Asset Management Professional plugins including Software Asset Workspace \(com.sn\_samp\_master\_ws\). Activating this plugin automatically activates the Activate all Software Asset Management Professional plugin \(com.sn\_samp\_master\) and the Software Asset Workspace \(sn\_sam\_workspace\) store application . After the new plugin is activated, you can't access the classic user interface.
 
-For releases prior to Australia, if you activated the older Software Asset Management Professional plugin \(com.sn\_samp\_master\), the Software Asset Workspace is available with activation of the Software Asset Workspace plugin \(com.sn\_sam\_workspace\). After the Software Asset Workspace Workspace plugin is activated, you can't revert to the classic Software Asset Management application.
+For releases prior to Brazil, if you activated the older Software Asset Management Professional plugin \(com.sn\_samp\_master\), the Software Asset Workspace is available with activation of the Software Asset Workspace plugin \(com.sn\_sam\_workspace\). After the Software Asset Workspace Workspace plugin is activated, you can't revert to the classic Software Asset Management application.
 
 **Note:** After the Software Asset Workspace is activated, the menus in the classic Software Asset Management application are hidden for the features that have been moved to the Software Asset Workspace.
 
-For detailed information on configuring and using the Software Asset workspace, refer to [Configuring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/Config-sam-workspace.md) and [Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-workspace.md).
+For detailed information on configuring and using the Software Asset workspace, refer to [Configuring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/Config-sam-workspace.md) and [Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sam-workspace.md).
 
 ## Using the classic Software Asset Management application
 
@@ -36,7 +36,7 @@ To continue using the classic Software Asset Management application, you need to
 
 If you later decide to use the Software Asset Workspace, you need to activate theSoftware Asset Workspace \(sn\_sam\_workspace\) store application.
 
-For detailed information on configuring and using the classic Software Asset Management application, refer to [Configuring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/Config-sam-workspace.md) and [Using Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-classic.md).
+For detailed information on configuring and using the classic Software Asset Management application, refer to [Configuring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/Config-sam-workspace.md) and [Using Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/using-sam-classic.md).
 
 ## Menus that continue to reside in Software Asset Management classic
 
@@ -92,88 +92,88 @@ Software Asset Demand
  
 
 </td></tr></tbody>
-</table>-   **[Software Asset Management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMOverview.md)**  
+</table>-   **[Software Asset Management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/c_SAMOverview.md)**  
 An overview of the functionality of the Software Asset Management application.
--   **[AI in Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/exploring-now-assist-sam.md)**  
+-   **[AI in Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/exploring-now-assist-sam.md)**  
 ServiceNow Otto for Software Asset Management \(SAM\) uses AI to automate software asset management operations, improve compliance, and optimize license management.
--   **[Now Mobile app for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/now-moile-app-for-sam.md)**  
+-   **[Now Mobile app for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/now-moile-app-for-sam.md)**  
 Use the Now Mobile app to view the hardware and software assets that are assigned to you.
--   **[Virtual Agent for software requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/virtual-agent-software-request-auto-allocation.md)**  
+-   **[Virtual Agent for software requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/virtual-agent-software-request-auto-allocation.md)**  
 You can implement ServiceNow® Virtual Agent to enable your employees to request software through a predefined conversational interface that is powered by artificial intelligence. Virtual Agent helps address software requests automatically so that your IT fulfillment professionals can focus on more complex requests and incidents.
--   **[Software Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMContentService.md)**  
+-   **[Software Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/c_SAMContentService.md)**  
 Opt in to the Software Asset Management Content Service to share unnormalized software installation data from your organization with ServiceNow® to improve the normalization process.
--   **[Software models and Software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-models-and-entitlements.md)**  
-A software model is a profile of the software that you've purchased, including information about the publisher, version, and discovery map. Software entitlements are used to relate the software model to the rights that you've purchased.
--   **[Software Asset Management migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMMigration.md)**  
+-   **[Software models and software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/software-models-and-entitlements.md)**  
+A software model is a profile of the software that you have purchased, including information about the publisher, version, and discovery map. Software entitlements are used to relate the software model to the rights that you have purchased.
+-   **[Software Asset Management migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/c_SAMMigration.md)**  
 Migrate from the Software Asset Management plugin \(ITSM Software Asset Management feature of Asset Management\) to the Software Asset Management application to take advantage of more powerful features. Manual actions by the customer are required after plugin activation.
--   **[Software model relationship to software installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/swmodel-swinstall-rel.md)**  
+-   **[Software model relationship to software installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/swmodel-swinstall-rel.md)**  
 Associating each software installation with a software model lets you perform audit reporting of licensable and non-licensable software.
--   **[Software Component Model table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-component-model-table.md)**  
+-   **[Software Component Model table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/software-component-model-table.md)**  
 The Software Component Model \[cmdb\_software\_component\_model\] table stores component model records that serves industries and use cases across different solutions on the ServiceNow Platform.
--   **[Software license metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMLicenseMetrics.md)**  
+-   **[Software license metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/c_SAMLicenseMetrics.md)**  
 License metrics are set in software entitlements and used for reconciliation in various metric groups and software model combinations.
--   **[Software discovery and normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMDiscovery.md)**  
+-   **[Software discovery and normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/c_SAMDiscovery.md)**  
 Identify all software installed within your organization's IT environment, including details such as publisher, product, and version. Then, standardize and validate this discovered data to ensure accuracy and consistency through software normalization.
--   **[Software Asset Management software suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-suites.md)**  
+-   **[Software Asset Management software suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/software-suites.md)**  
 Software Suites is a way for a software publisher to group related applications as a set.
--   **[Discovery models and software installations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_DiscoveryModels.md)**  
+-   **[Discovery models and software installations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/c_DiscoveryModels.md)**  
 Software discovery models are automatically created during discovery to identify and normalize the software installed in your environment.
--   **[File Signature Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-file-based-discovery.md)**  
+-   **[File Signature Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sam-file-based-discovery.md)**  
 File-based discovery finds files on UNIX or Windows servers and processes them with an established set of rules that enhance the identification of installed software. Use the results to monitor specific file types on network servers for security purposes or to manage your software licenses with the File Signature Normalization plugin for Software Asset Management - Professional \(SAMP\).
--   **[Product life cycles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/calculated-lifecycles.md)**  
+-   **[Product life cycles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/calculated-lifecycles.md)**  
 In the absence of vendor-provided life cycles, there are various capabilities that the Software Asset Management application provides to improve life cycle coverage.
--   **[Downgrade Rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/downgrade-rights.md)**  
+-   **[Downgrade Rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/downgrade-rights.md)**  
 The concept of downgrading licenses is built into the Software Asset Management plugin feature. Downgrading rights is the process of having acquired the rights to the latest version of software but using the rights to license earlier versions of the same software.
--   **[Allocating licenses to a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/group-user-allocation.md)**  
+-   **[Allocating licenses to a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/group-user-allocation.md)**  
 Use the group allocation feature to manage the user allocation to a software entitlement in bulk. This feature enables the SAM managers to streamline and manage the license allocation process efficiently and automatically updates the user allocation when a group composition is changed.
--   **[Software license maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-license-maintenance.md)**  
+-   **[Software license maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/software-license-maintenance.md)**  
 Get visibility into your software maintenance entitlements to effectively manage these licenses throughout their life cycle.
--   **[Software Asset Management health check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-health-check.md)**  
+-   **[Software Asset Management health check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sam-health-check.md)**  
 The Health Check ServiceNow Store application gives a correct and reliable overview of your Software Asset Management configurations and recommends you to correct any errors that may exist.
--   **[Reconciliation of licenses across global entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/reconcile-licenses-global-entities.md)**  
+-   **[Reconciliation of licenses across global entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/reconcile-licenses-global-entities.md)**  
 Share entitlements across different entities within your organization by creating consumption rules for entitlements.
--   **[Software reconciliation for compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMReconciliation.md)**  
+-   **[Software reconciliation for compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/c_SAMReconciliation.md)**  
 Automated license reconciliation keeps license positions accurate and up-to-date without manual calculations. Reconciliation runs weekly or on demand.
--   **[Software reclamation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sw-reclamation-rules.md)**  
-Reclamation rules aggregate usage over time and specify a minimum number of hours or the latest date that a software unit must be used before the software is flagged for reclamation.
--   **[Microsoft SCCM software usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sccm-software-usage.md)**  
+-   **[Software reclamation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sw-reclamation-rules.md)**  
+Reclamation rules aggregate usage over time. These rule also specify a minimum number of hours or the latest date that a software unit must be used before the software is flagged for reclamation.
+-   **[Microsoft SCCM software usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sccm-software-usage.md)**  
 Activate the Microsoft SCCM software usage plugin to integrate your software usage data with the ServiceNow AI Platform.
--   **[Software installation optimization and removal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMOptimization.md)**  
+-   **[Software installation optimization and removal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/c_SAMOptimization.md)**  
 You can optimize your environment by reclaiming unused software as well as removing unauthorized software.
--   **[Allocation management on Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/allocation-management-sam.md)**  
+-   **[Allocation management on Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/allocation-management-sam.md)**  
 Software Asset Management \(SAM\) offers optimal license assignment confirming that licensing entities are allocated according to the available entitlements.
--   **[Licensing support for Microsoft SQL Server enterprise on Server+ CAL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/microsoft-sql-server-enterprise-edition-licensing-modal.md)**  
+-   **[Licensing support for Microsoft SQL Server enterprise on Server+ CAL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/microsoft-sql-server-enterprise-edition-licensing-modal.md)**  
 Leverage the enhanced licensing rule to optimize licensing for legacy  Microsoft SQL Server Enterprise edition licenses under the Server + CAL licensing model with Software Assurance \(SA\).
--   **[License usage analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/install-licenseusage-journey.md)**  
+-   **[License usage analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/install-licenseusage-journey.md)**  
 Gain visibility into the end-to-end journey from installing software to consuming licenses.
--   **[Employee off-boarding process for asset reclamation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/itasset-offboarding.md)**  
+-   **[Employee off-boarding process for asset reclamation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/itasset-offboarding.md)**  
 Coordinate an employee's off-boarding process via a workflow that lets you request, assess, and remove assets.
--   **[Windows Server cluster license optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/windows-cluster-optimization.md)**  
+-   **[Windows Server cluster license optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/windows-cluster-optimization.md)**  
 Optimize rights used for Windows Server clustering based on costs and compliance criteria.
--   **[Microsoft Server Infrastructure and License Consumption report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/device-license-consumption-report.md)**  
+-   **[Microsoft Server Infrastructure and License Consumption report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/device-license-consumption-report.md)**  
 Get a unified overview of your Microsoft server products, including their infrastructure, license usage, and exemptions, with detailed justifications for exemptions.
--   **[Bring your own license or subscription to the public cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/byol-concepts.md)**  
+-   **[Bring your own license or subscription to the public cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/byol-concepts.md)**  
 Bring your own license \(BYOL\) support enables you to determine the license compliance of your Microsoft and Oracle software products across hybrid infrastructures. Bring your own subscription \(BYOS\) support enables you to determine the license compliance of your Red Hat Enterprise Linux \(RHEL\) software products across hybrid infrastructures.
--   **[Understanding your cluster infrastructure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/understand-sam-cluster.md)**  
+-   **[Understanding your cluster infrastructure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/understand-sam-cluster.md)**  
 Get a holistic and strategic analysis of all the entities in your clusters in one view on the Software Asset Management application.
--   **[Executive insights into KPIs using the Asset Management Executive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/itam-exec-dashboard.md)**  
+-   **[Executive insights into KPIs using the Asset Management Executive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/itam-exec-dashboard.md)**  
 Use the Asset Management Executive dashboard to gain visibility into critical KPIs for the Software Asset Management application, Hardware Asset Management application, and the Cloud Cost Management application via a single dashboard.
--   **[Cloud cost simulation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cloud-cost-simulator.md)**  
+-   **[Cloud cost simulation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/cloud-cost-simulator.md)**  
 Simulate the cost of moving your on-premise resources to the cloud environment before performing the migration.
--   **[Software asset connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/third-party-discovery-sam.md)**  
+-   **[Software asset connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/third-party-discovery-sam.md)**  
 Use third-party discovery sources to discover the installed software data that you can integrate with the Software Asset Management application.
--   **[Use Software Asset Management with Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam_riskmgmt.md)**  
+-   **[Use Software Asset Management with Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sam_riskmgmt.md)**  
 Use the Software Asset Management application in conjunction with the Governance, Risk, and Compliance suite of applications to holistically work on compliance, risk, and regulatory aspects.
--   **[Using Software Asset Management with Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-agentclientcollector.md)**  
+-   **[Using Software Asset Management with Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sam-agentclientcollector.md)**  
 Use the Agent Client Collector application to collect software inventory and usage data for the Software Asset Management application.
--   **[Use Software Asset Management and Application Portfolio Management to manage technology onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-tpm.md)**  
+-   **[Use Software Asset Management and Application Portfolio Management to manage technology onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sam-tpm.md)**  
 Use the Software Asset Management application along with Technology Reference Model \(TRM\) of Application Portfolio Management to manage onboarding of technologies.
--   **[Guided Experience for Lifecycle Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/guidedplaybook-sw-lifecycle-reports.md)**  
+-   **[Guided Experience for Lifecycle Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/guidedplaybook-sw-lifecycle-reports.md)**  
 Use a guided walk-through playbook to achieve audit readiness and regulatory compliance through accurate lifecycle reporting.
--   **[Software Asset Management Guided Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/playbook-entitlementsetup-workspace.md)**  
+-   **[Software Asset Management Guided Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/playbook-entitlementsetup-workspace.md)**  
 The Software Asset Management Guided Experiences application provides step-by-step guidance for completing tasks in your daily software management activities.
--   **[Use Software Asset Management with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-integration-cmpro.md)**  
-Leverage advanced contract life cycle capabilities after a contract has been signed using the Obligation Management \(sn\_cm\_obligation\) and the ServiceNow Otto for Contract Management Pro in Contract Management Pro \(sn\_cm\_gen\_ai\) plugin.
+-   **[Use Software Asset Management with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sam-integration-cmpro.md)**  
+Leverage advanced contract life cycle capabilities after a contract has been signed using the Obligation Management \(sn\_cm\_obligation\) and the ServiceNow Otto for Contract Management Pro \(sn\_cm\_gen\_ai\) plugin.
 
-**Parent Topic:**[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md)
+**Parent Topic:**[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md)
 

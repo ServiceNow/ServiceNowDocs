@@ -3,9 +3,9 @@ title: Configure impact category for BIA
 description: Configure an impact category for your business, when you are performing the business impact analysis. Use the Impact Categories module in the Business Continuity Management application navigator to define the name, criteria that the impact category contributes to, applicable timeframes, maximum RTO value, and so on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-impact-category-uib-ws.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [General administration setup for BCM, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -30,13 +30,13 @@ Role required: sn\_bcm.admin
 
 3.  On the form, fill in the fields.
 
-    For more information on the fields in the form, see [Impact Category record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/impact-category-new-record-form.md).
+    For more information on the fields in the form, see [Impact Category record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/impact-category-new-record-form.md).
 
 4.  Select **Submit**.
 
 
--   **[Impact Category record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/impact-category-new-record-form.md)**  
-Use the Impact Category record form to add impact category details such as name, criteria, applicable timeframes, maximum RTO value, and so on in BCM UIB Workspace.
+-   **[Impact Category record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/impact-category-new-record-form.md)**  
+Add impact category details such as name, criteria, applicable timeframes, and maximum RTO value in BCM UIB Workspace.
 
-**Parent Topic:**[General administration setup for BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-bcm-bcmadmin-tasks.md)
+**Parent Topic:**[General administration setup for BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/set-up-bcm-bcmadmin-tasks.md)
 

@@ -3,11 +3,11 @@ title: Set probe parameters
 description: Use probe parameters to control the behavior of a particular probe every time it is triggered.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/t\_SetProbeParameters.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Discovery probe management, Discovery probes and sensors, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -44,7 +44,7 @@ Description
 </td></tr></tbody>
 </table>## Procedure
 
-1.  Create or select the [probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_Probes.md) you want to set parameters for.
+1.  Create or select the [probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_Probes.md) you want to set parameters for.
 
 2.  From the Probe Parameters related list, click **New**.
 
@@ -54,11 +54,11 @@ Description
 
     |Field|Description|
     |-----|-----------|
-    |Name|Enter the parameter name. Each [probe type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_Probes.md) has its own list of available parameters.|
+    |Name|Enter the parameter name. Each [probe type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_Probes.md) has its own list of available parameters.|
     |Value|Enter the parameter value or script as required by the parameter.|
     |Value script|\[Optional\] Enter the script you want the parameter to run if you have not already specified a script in the Value field.|
     |Probe|Displays the probe this parameter relates to.|
 
 
-**Parent Topic:**[Discovery probe management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_Probes.md)
+**Parent Topic:**[Discovery probe management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_Probes.md)
 

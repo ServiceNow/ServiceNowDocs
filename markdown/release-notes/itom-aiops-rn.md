@@ -1,52 +1,43 @@
 ---
 title: ITOM AIOps release notes
-description: The ServiceNow ITOM AIOps application helps you to keep track and maintain the health of the services in your organization. ITOM AIOps was enhanced and updated in the Australia release.
+description: The ServiceNow ITOM AIOps applications use machine learning and analytics to group alerts, detect infrastructure anomalies, and automate root-cause analysis across complex digital environments. The applications enable IT teams to proactively prevent outages and accelerate incident remediation. See the release notes of each individual ITOM AIOps application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/itom-aiops-rn.html
-release: australia
+release: brazil
 topic_type: topic
-last_updated: "2026-03-12"
-reading_time_minutes: 1
-keywords: [ITOM Health, AIOps, IT Operations Management, release notes]
-breadcrumb: [IT Operations Management release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+keywords: [ITOM AIOps, release notes, RN]
+breadcrumb: [IT Operations Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # ITOM AIOps release notes
 
-The ServiceNow® ITOM AIOps application helps you to keep track and maintain the health of the services in your organization. ITOM AIOps was enhanced and updated in the Australia release.
+The ServiceNow® ITOM AIOps applications use machine learning and analytics to group alerts, detect infrastructure anomalies, and automate root-cause analysis across complex digital environments. The applications enable IT teams to proactively prevent outages and accelerate incident remediation. See the release notes of each individual ITOM AIOps application.
 
 ## About ITOM AIOps
 
--   **[ServiceNow Store updates for ITOM AIOps](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-ai-ops-landing.html)**
+-   Detect and correlate alerts across infrastructure and services, reducing noise and surfacing critical issues before they impact business operations.
+-   Combine CMDB, Service Mapping, and observability data to reveal hidden dependencies and calculate real business impact of incidents.
+-   Use machine learning on real time logs and metrics to identify anomalies and predict outages before they disrupt service.
+-   Streamline incident response with structured workflows, automated escalation, and prioritized, context-rich alerts for faster resolution.
+-   Enable proactive service quality management through automated SLO tracking, alerting, and threshold monitoring across the IT environment.
 
-    The majority of ITOM AIOps apps are updated monthly or quarterly via the ServiceNow Store. The latest updates are available in the ServiceNow Store. For cumulative release notes and compatibility information, see the ServiceNow Store version details:
-
-    -   [Service Reliability Management \(SRM\)](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-service-reliability-mgmt.html)
-    -   [Service Level Objective Management](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-service-level-objective-mgmt-sow.html)
-    -   [Service Observability](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-service-observability.html)
-    -   [Event Management](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-event-management-core.html)
-    -   [Health Log Analytics](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-health-log-analytics.html)
-    -   [AIOps Dashboards](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-aiops-dashboards.html)
-    -   [Agent Client Collector Log Analytics \(ACC-L\)](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-acc-log-analytics.html)
-    -   [Integrations Launchpad](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-service-ops-ws-integrations-launchpad.html)
-    -   [Express List](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-service-ops-ws-express-list.html)
-    -   [Metric Intelligence](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-metric-intelligence.html)
-    -   Alert Automation
-    -   [Service Operations Workspace \(SOW\) for ITOM](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-service-ops-workspace-itom-apps.html)
-    -   [Synthetic Monitoring](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-sow-synthetic-monitoring.html)
-
-See [ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-health-landing-page.md) for more information.
+See [ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-health-landing-page.md) for more information.
 
 ## Activation and other requirements
 
-**Important:** ITOMAIOps apps are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
-
 -   **Activation information**
 
-    Install ITOM AIOps apps by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Install the applications by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-    -   ITOM AIOps is available with activation of the Event Management plugin \(com.glideapp.itom.snac\). You must purchase a more comprehensive ITOM AIOps package, ITOM Predictive AIOps, to enable working with Health Log Analytics. For details, see [Event Management setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_EMConfiguration.md).
-    -   Install Service Operations Workspace \(ITOM\) by installing the AIOps Experience \[sn\_sow\_aiops\] application from the ServiceNow Store.
 
-**Parent Topic:**[IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-operations-management-rn-landing.md)
+-   **[Synthetic Monitoring release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/synthetic-monitoring-rn-static.md)**  
+The ServiceNow® Synthetic monitoring application in the Service Operations Workspace \(SOW\) empowers organizations to proactively manage and enhance the performance and availability of critical service endpoints. By simulating user transactions on HTTP endpoints, this solution identifies performance bottlenecks, helps ensure up-time, and optimizes user experiences. Synthetic monitoring was enhanced and updated in the Brazil release.
+-   **[Event Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/event-management-rn-static.md)**  
+The ServiceNow®Event Management application helps you detect and resolve IT issues before they disrupt services. It ingests events from monitoring tools, reduces noise through deduplication and filtering, and correlates related events into actionable alerts. When Event Management identifies a business-impacting condition, it surfaces a prioritized alert linked to affected services and CIs. See the following sections for release notes by version.
+-   **[Health Log Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/health-log-analytics-rn.md)**  
+The ServiceNow® Health Log Analytics application predicts IT issues before they affect users by ingesting, analyzing, and correlating machine-generated log data in real time. When Health Log Analytics detects a deviation from a normal pattern, it alerts you to a possible business-impacting issue. See the following sections for release notes by version.
+
+**Parent Topic:**[IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/it-operations-management-rn-landing.md)
 

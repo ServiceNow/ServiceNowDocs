@@ -3,11 +3,11 @@ title: Map enterprise assets to an operational schedule
 description: Create an asset schedule to map the enterprise assets to an operation schedule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-asset-schedule-eam.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring KPI monitoring settings, Configure, Enterprise Asset Management, Asset Management]
 ---
@@ -30,13 +30,15 @@ The **Asset performance - Map schedule policies** job runs weekly to sync the ma
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace** &gt; **Admin center** &gt; **KPI configuration**.
+1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
 
-2.  From the KPI configuration list, select **Asset schedules**.
+2.  From the Enterprise Asset Workspace, open the Admin center view.
 
-3.  Select **New**.
+3.  From the navigation panel of the Admin center view, navigate to **KPI configuration** &gt; **Asset schedules**.
 
-4.  On the form, fill in the fields.
+4.  Select **New**.
+
+5.  On the form, fill in the fields.
 
 <table id="table_tgv_h3c_wfc"><thead><tr><th>
 
@@ -106,8 +108,8 @@ Active
 Indicates whether the asset schedule is active.
 
 </td></tr></tbody>
-</table>5.  Select **Save**.
+</table>6.  Select **Save**.
 
-6.  To sync the mapping between the assets and the operational schedules on demand, select **Sync KPI records**.
+7.  To sync the mapping between the assets and the operational schedules on demand, select **Sync KPI records**.
 
 

@@ -3,11 +3,11 @@ title: Service Operations Workspace - Learning
 description: Use Service Operations Workspace Learning to review learning courses and paths and complete them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/itsm-sow-coaching.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workforce Optimization for ITSM in the Service Operations Workspace, Optimizing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -71,7 +71,7 @@ Use the **Discover** tab to:
 
 -   Browse the course catalog or filter them based on set criteria narrow down the display of them to what's relevant to you.
 -   Analyze details for a course and path such as the time that it takes to complete them, or the skills you have gained recently.
--   Get learning recommended to you based on your past activities or the activities of your teams to which you belong. The content is grouped into different categories. For more information, see [Recommendation grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-coaching-reference.md).
+-   Get learning recommended to you based on your past activities or the activities of your teams to which you belong. The content is grouped into different categories. For more information, see [Recommendation grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-coaching-reference.md).
 -   Select **Browse recommended learning**, and then select and enroll in the desired course item.
 
 ## My learning tab
@@ -82,10 +82,10 @@ Use the **My learning** tab to:
 -   See courses, which were assigned to you or the ones you've enrolled in that you've have completed.
 -   Use the **Assigned &amp; enrolled** filter to narrow down the search.
 
-[Take a survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/take-survey-sow-wfo-itsm.md) or [review skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/review-skills-wfo-itsm.md) to add to your skill set. You can receive surveys available for any group to which you belong. You can make a copy of the survey and work on it to complete them.
+[Take a survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/take-survey-sow-wfo-itsm.md) or [review skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/review-skills-wfo-itsm.md) to add to your skill set. You can receive surveys available for any group to which you belong. You can make a copy of the survey and work on it to complete them.
 
--   **[Learning path and course item discovery in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/discovering-learning-sow-wfo-itsm.md)**  
+-   **[Learning path and course item discovery in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/discovering-learning-sow-wfo-itsm.md)**  
 Browse courses or learning paths and take the ones that are of interest to you. You can also discover them using Predictive Intelligence that provides recommendations based on past activities.
 
-**Parent Topic:**[Workforce Optimization for ITSM in the Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/wfo-itsm-service-operations-workspace.md)
+**Parent Topic:**[Workforce Optimization for ITSM in the Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/wfo-itsm-service-operations-workspace.md)
 

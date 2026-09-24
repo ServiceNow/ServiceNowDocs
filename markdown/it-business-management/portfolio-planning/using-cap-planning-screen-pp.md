@@ -3,11 +3,11 @@ title: Use Capacity Planning in Portfolio Planning
 description: View and analyze the resource capacity for your portfolio to plan and re-forecast the resource assignments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/using-cap-planning-screen-pp.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Capacity Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ View and analyze the resource capacity for your portfolio to plan and re-forecas
 
 ## Before you begin
 
-Generate resource capacity using [Generate resource capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/manage-rsrc-cap-pp.md).
+Generate resource capacity using [Generate resource capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/manage-rsrc-cap-pp.md).
 
 Role required: sn\_align\_ws.spw\_capacity\_user
 

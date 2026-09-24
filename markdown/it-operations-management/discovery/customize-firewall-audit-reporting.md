@@ -1,9 +1,9 @@
 ---
 title: Customize Firewall Audits and Reporting
-description: Change Discovery properties to customize some of the aspects of Firewall Audits and Reporting.
+description: Configure default policy owner and approval groups for firewall rule change requests to reduce manual data entry.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/customize-firewall-audit-reporting.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
@@ -14,7 +14,7 @@ breadcrumb: [Visibility to Firewall inventory, Configure, Firewall Audits and Re
 
 # Customize Firewall Audits and Reporting
 
-Change Discovery properties to customize some of the aspects of Firewall Audits and Reporting.
+Configure default policy owner and approval groups for firewall rule change requests to reduce manual data entry.
 
 ## Before you begin
 
@@ -22,22 +22,26 @@ Role required: discovery\_admin or admin
 
 ## About this task
 
-[Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_DiscoveryProperties.md) manage various aspects of the horizontal discovery process. This procedure explains how to assign default policy owner group and approval group names for approving firewall rule tasks.
+When users submit firewall rule change requests, each request requires assignment to a policy owner group and an approval group. Without default values, administrators must manually populate these fields for every request. Configuring default groups streamlines the request process by automatically populating these fields.
+
+Set these defaults during initial Firewall Audits and Reporting setup or when your organization's security team structure changes. For more information on properties, see [Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_DiscoveryProperties.md).
 
 ## Procedure
 
-1.  To edit [Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_DiscoveryProperties.md), navigate to **All** &gt; **Discovery Definition** &gt; **Properties**.
+1.  Navigate to **All** &gt; **Discovery Definition** &gt; **Properties**.
 
-    For more information on properties, see [Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_DiscoveryProperties.md).
+2.  Configure the firewall rule change management groups.
 
-    -   sn\_disco\_firewall.default.rule.task.policy.owner.group: Your default task owner group name
-    -   sn\_disco\_firewall.default.rule.task.approval.group: Your default approval group name
-2.  Edit the properties as required.
+    1.  In the sn\_disco\_firewall.default.rule.task.policy.owner.group property, enter the name of the group responsible for implementing firewall rule changes.
 
-    -   sn\_disco\_firewall.default.rule.task.policy.owner.group: Your default task owner group name
-    -   sn\_disco\_firewall.default.rule.task.approval.group: Your default approval group name
-    These feature saves time by automatically filling in your default owner group and approval group in requests.
+    2.  In the sn\_disco\_firewall.default.rule.task.approval.group property, enter the name of the group responsible for approving firewall rule changes.
+
+    These groups are automatically assigned as the policy owners for new firewall rule requests.
 
 
-**Parent Topic:**[Visibility to Firewall inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/use-firewall-audit-rep.md)
+## Result
+
+When users submit new firewall rule change requests, the policy owner group and approval group fields automatically populate with the configured default values.
+
+**Parent Topic:**[Visibility to Firewall inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/use-firewall-audit-rep.md)
 

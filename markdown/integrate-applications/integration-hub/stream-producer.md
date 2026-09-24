@@ -3,11 +3,11 @@ title: Stream Producer
 description: Stream Producer enables you to automatically stream changes from ServiceNow tables to Kafka topics using change data capture \(CDC\), eliminating the need for custom scripts or business rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/stream-producer.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-07-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 keywords: [Stream Producer, Change Data Capture, Kafka, Stream Connect, data export]
 breadcrumb: [Using Stream Connect for Apache Kafka, Import and stream data, Integration Hub, Workflow Data Fabric]
@@ -111,7 +111,7 @@ Stream Producer supports two serialization formats for message payloads.
 -   JSON \(human-readable, widely compatible\) and
 -   Avro \(schema-versioned, compressed\).
 
-You can select the serialization format when you [Create a Stream Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-stream-producer.md). For more information about schema management for Avro, see [Schema management in Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/schema-management.md).
+You can select the serialization format when you [Create a Stream Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/create-stream-producer.md). For more information about schema management for Avro, see [Schema management in Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/schema-management.md).
 
 ## ISO format in JSON payloads
 
@@ -176,12 +176,12 @@ Sensitive field filtering: Stream Producer automatically excludes sensitive fiel
 
 Stream Producer requires the ServiceNow Stream Producer \[`com.glide.hub.stream_connect.stream_producer`\] plugin. This plugin is activated when you activate the ServiceNow Stream Connect Installer \[com.glide.hub.stream\_connect.installer\] plugin.
 
--   **[Create a Stream Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-stream-producer.md)**  
+-   **[Create a Stream Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/create-stream-producer.md)**  
 Create a Stream Producer configuration to automatically stream table changes to a Kafka topic. You can specify which table to monitor, which change events to capture, which fields to include, and configure keys and headers for routing and tracking.
--   **[Activate or deactivate a Stream Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/activate-stream-producer.md)**  
+-   **[Activate or deactivate a Stream Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/activate-stream-producer.md)**  
 Activate a Stream Producer configuration to begin capturing and streaming table changes to your Kafka topic. You can deactivate it at any time to stop streaming changes. When you deactivate a producer, any unprocessed messages in the CDC queue are discarded.
--   **[Monitor and optimize Stream Producer performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/monitor-sc-performance.md)**  
+-   **[Monitor and optimize Stream Producer performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/monitor-sc-performance.md)**  
 Monitor Stream Producer performance metrics and change data capture \(CDC\) queue health to identify bottlenecks and optimize for your deployment scale and throughput requirements.
 
-**Parent Topic:**[Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-apache-kafka.md)
+**Parent Topic:**[Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/stream-connect-apache-kafka.md)
 

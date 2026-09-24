@@ -3,11 +3,11 @@ title: Install Financial Services Payment Operations
 description: Install the Financial Services Payment Operations \(sn\_bom\_payment\) application if you have the admin role. This application includes demo data and installs the related store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-payment-operations/install-financial-services-payment-operations.html
-release: australia
+release: brazil
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Payment Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -33,7 +33,7 @@ The following items are installed with the installation of the Financial Service
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with Financial Services Payment Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/installed-with-payment-operations.md).
+For more information, see [Components installed with Financial Services Payment Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-payment-operations/installed-with-payment-operations.md).
 
 **Note:** To enable customers to submit requests through the Consumer Service Portal, you should also activate the Consumer Service Portal plugin \(com.glide.service-portal.consumer-portal\).
 
@@ -63,5 +63,5 @@ For more information, see [Components installed with Financial Services Payment 
 **Related topics**  
 
 
-[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-of-plugins.md)
 

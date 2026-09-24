@@ -3,11 +3,11 @@ title: Create a Board in CWM
 description: Manage work assigned to your team as tasks and track them to completion using customizable Boards for your shared Spaces in Collaborative Work Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/create-boards-in-cwm.html
-release: australia
+release: brazil
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage work using Boards, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Manage work assigned to your team as tasks and track them to completion using cu
 
 ## Before you begin
 
-[Create a Space in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-spaces-in-cwm.md).
+[Create a Space in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/create-spaces-in-cwm.md).
 
 Role required: sn\_cwm.cwm\_user
 
@@ -45,8 +45,8 @@ A Board is created within the Space that you selected and an empty Board is show
 
 ## What to do next
 
--   Add tasks to the Board. See [Add tasks to a CWM Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/add-tasks-to-board-in-cwm.md).
+-   Add tasks to the Board. See [Add tasks to a CWM Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/add-tasks-to-board-in-cwm.md).
 -   Rename or edit other details of the Board using the Edit icon \(\[Omitted image "cwm-icon-edit-pencil.png"\] Alt text: Edit icon.\) on the Board header.
 
-**Parent Topic:**[Managing work using Boards in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-boards.md)
+**Parent Topic:**[Managing work using Boards in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/cwm-boards.md)
 

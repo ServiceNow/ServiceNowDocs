@@ -3,11 +3,11 @@ title: Set up AI in the portal case form
 description: Configure AI in portal case form to minimize case creation when a resolution already exists in the current knowledge base or external sources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/set-up-now-assist-in-the-portal-case-form.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Generative AI, Generative AI for Customer Service Management, record producer, portal case form, AI Search Assist]
 breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -111,5 +111,5 @@ The AI Case in form portal is now configured and available for use.
 **Related topics**  
 
 
-[Using generative AI in portal case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-ai-search-with-q-a-within-the-portal-form.md)
+[Using Now Assist in portal case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/using-ai-search-with-q-a-within-the-portal-form.md)
 

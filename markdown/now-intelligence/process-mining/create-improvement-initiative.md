@@ -3,11 +3,11 @@ title: Create an improvement initiative from Process Mining
 description: Create an improvement initiative associated with the project you're analyzing in Process Mining.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/create-improvement-initiative.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating and tracking improvement initiatives, Use, Process Mining, Platform Analytics]
 ---
@@ -40,7 +40,7 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
 
     \[Omitted image "imp-initiative.png"\] Alt text: Prefilled improvement initiative page
 
-    For more information the fields, see: [Create an improvement initiative](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/create-cim-request.md).
+    For more information the fields, see: [Create an improvement initiative](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/create-cim-request.md).
 
 4.  If you want to attach a supporting document, select **Browse** and select the file.
 
@@ -60,5 +60,5 @@ To change a record, from the CIM record:
 -   Update a record: Make a change on the record, then select **Save**.
 -   Delete an initiative: From the record, select the menu icon and select **Delete**.
 
-**Parent Topic:**[Creating and tracking improvement initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/initiatives-from-process-optimization.md)
+**Parent Topic:**[Creating and tracking improvement initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/initiatives-from-process-optimization.md)
 

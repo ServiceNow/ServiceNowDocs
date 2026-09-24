@@ -3,11 +3,11 @@ title: Update Major Security Incident details
 description: View and update specific details related to the major security incident such as Incident Record Details, Active Team participants, and the corresponding activity log.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/msim-details-tab.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Use, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -207,7 +207,7 @@ Enforce restriction
 
 </td><td>
 
-Select this option to enforce restrictions on certain major security incident restrictions. You can enforce restrictions to limit the view or modify access only to certain users or groups. For more information, see [Restrict access to certain major security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/restrict-access-major-security-incidents.md).
+Select this option to enforce restrictions on certain major security incident restrictions. You can enforce restrictions to limit the view or modify access only to certain users or groups. For more information, see [Restrict access to certain major security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/restrict-access-major-security-incidents.md).
 
 </td></tr><tr><td>
 
@@ -243,7 +243,7 @@ Conference Call
 
 </td><td>
 
-Use conference calls with the third-party service providers as a communication channel to meet with the stakeholders to resolve the major security incidents. For more information, see [Major Security Incident Management Conference Call Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/integrate-msim-conference-calls.md)
+Use conference calls with the third-party service providers as a communication channel to meet with the stakeholders to resolve the major security incidents. For more information, see [Major Security Incident Management Conference Call Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/integrate-msim-conference-calls.md)
 
 </td></tr></tbody>
 </table>**Activity**:
@@ -263,10 +263,10 @@ Set your preferences to view the related activities such as:
     Flag any important activity conversations for you to keep them handy.
 
 
--   **[Restrict access to certain major security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/restrict-access-major-security-incidents.md)**  
+-   **[Restrict access to certain major security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/restrict-access-major-security-incidents.md)**  
 Manage access to sensitive major security incidents by restricting view and modify permissions to authorized users and groups.
 
-**Parent Topic:**[Using Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/major-security-incident-setup.md)
+**Parent Topic:**[Using Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/major-security-incident-setup.md)
 
 **Related topics**  
 

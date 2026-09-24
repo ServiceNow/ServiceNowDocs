@@ -3,11 +3,11 @@ title: Port probes
 description: Port probes are used in Discovery by the Shazzam probe to detect protocol activity on open ports on devices it encounters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/r\_PortProbes.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [List of Discovery probes, Discovery probes and sensors, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -147,10 +147,10 @@ Script
 Script to run.
 
 </td></tr></tbody>
-</table>-   **[Shazzam probe, port probes, and protocols](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_DiscoveryPortsAndProtocols.md)**  
+</table>-   **[Shazzam probe, port probes, and protocols](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_DiscoveryPortsAndProtocols.md)**  
 Port scanning is the first step in the discovery process. The Shazzam probe performs port scanning, regardless of whether you use patterns for horizontal discovery. The following table lists the known ports and protocols used by Discovery.
--   **[Configure Shazzam probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_ConfigureTheShazzamProbe.md)**  
+-   **[Configure Shazzam probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/t_ConfigureTheShazzamProbe.md)**  
 When you run Discovery, the Shazzam probe finds your active network devices by scanning specified ports on specified IP address ranges. If the list of IP ranges being scanned is large, you can configure the Shazzam payload for JSON encoding to reduce its size.
 
-**Parent Topic:**[List of Discovery probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_ListOfDiscoveryProbes.md)
+**Parent Topic:**[List of Discovery probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_ListOfDiscoveryProbes.md)
 

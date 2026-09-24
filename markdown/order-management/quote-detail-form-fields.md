@@ -3,9 +3,9 @@ title: Quote details forms
 description: Use Quote details forms to capture, view, and manage all key information about a quote.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-detail-form-fields.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-05-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Quote Management reference, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
@@ -52,7 +52,7 @@ Options that reflect the quote status.-   Draft - The default state of a quote t
 -   Expired - Shows that the quote is beyond its expiration date. Reset the expiration date to make the quote active again.
 -   Canceled - Use this state to show that the quote is canceled.
 -   Closed - Shows that the quote is closed.
--   Completed - Shows that the quote is completed. When a quote is set to **Completed**, the quote can be used to create an order. For more info, see [Convert quotes into orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-customer-orders-tab.md).
+-   Completed - Shows that the quote is completed. When a quote is set to **Completed**, the quote can be used to create an order. For more info, see [Convert quotes into orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-management-customer-orders-tab.md).
 
 </td></tr><tr><td>
 
@@ -284,5 +284,5 @@ Sum of the cumulative net price for all root quote lines with Line Type = Net Ne
 |Work notes|Internal notes used to record behind‑the‑scenes information related to the quote, such as negotiation details, pricing decisions, or internal follow‑ups. Work notes are intended for internal users only and are included in the quote activity history.|
 |Additional comments|Free‑form comments used to capture customer‑facing or general information related to the quote. Additional comments can be used to communicate updates or clarifications and are visible to a broader audience, depending on access permissions.|
 
-**Parent Topic:**[Quote Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-reference.md)
+**Parent Topic:**[Quote Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-management-reference.md)
 

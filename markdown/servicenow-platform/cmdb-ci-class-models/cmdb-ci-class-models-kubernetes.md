@@ -3,13 +3,13 @@ title: Kubernetes extension classes
 description: The Discovery and Service Mapping app adds or updates classes for the Kubernetes pattern.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-kubernetes.html
-release: australia
+release: brazil
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [CMDB CI class models, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB CI class models, CMDB hierarchy, Explore, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Kubernetes extension classes
@@ -36,7 +36,7 @@ The Kubernetes pattern main flow helps with discovering Kubernetes core elements
 
 This section lists the classes that the CMDB CI Class Models app adds or updates.
 
-CMDB CI Class Models: Release 1.12.0 adds the following classes for Kubernetes pattern. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
+CMDB CI Class Models: Release 1.12.0 adds the following classes for Kubernetes pattern. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
 
 <table id="table_uwm_1zl_vlb"><thead><tr><th>
 
@@ -134,5 +134,5 @@ Hosted on Cluster
 </table>**Related topics**  
 
 
-[CMDB schema model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ConfigurationManagementDatabase.md)
+[CMDB schema model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_ConfigurationManagementDatabase.md)
 

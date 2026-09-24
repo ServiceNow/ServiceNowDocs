@@ -3,7 +3,7 @@ title: Plugins installed with Public Sector Digital Services Applications
 description: These plugins are automatically installed with the following Public Sector Digital Services applications, if they aren't already active.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/plugins-installed-with-psds-addtl-plugins.html
-release: australia
+release: brazil
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 11
@@ -14,7 +14,7 @@ breadcrumb: [Components and roles installed, Reference, Public Sector Digital Se
 
 These plugins are automatically installed with the following Public Sector Digital Services applications, if they aren't already active.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 ## Plugins installed with Public Sector Digital Services Core
 
@@ -317,9 +317,9 @@ Document Management \(com.snc.platform\_document\_management\)
 Enables you to manage large numbers of documents efficiently. Provides storage space and a filing system that allows you to easily upload, retrieve and delete documents.
 
 </td></tr></tbody>
-</table>## Plugins installed with Information Request Playbook
+</table>## Plugins installed with Information Request Administration
 
-The following plugins are installed with Information Request Playbook \(com.sn\_gsm\_info\_req\) application:
+The following plugins are installed with Information Request Administration \(com.sn\_gsm\_info\_req\) application:
 
 <table id="table_lq4_zrs_xhc"><thead><tr><th>
 
@@ -459,5 +459,5 @@ The following plugins are installed with ServiceNow Otto for Public Sector Digit
 
 - Geo Map \(sn\_geo\_map\) for Service Request Playbook
 
-**Parent Topic:**[Components and Roles installed with Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/installed-with-public-sector-digital-services-core.md)
+**Parent Topic:**[Components and Roles installed with Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/installed-with-public-sector-digital-services-core.md)
 

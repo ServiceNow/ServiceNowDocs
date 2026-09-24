@@ -3,9 +3,9 @@ title: Administering form personalization
 description: Administrators can configure several aspects of form personalization, which allows users to customize the layout for any form view.Form personalization is activated for new instances. To activate form personalization for upgraded instances, an administrator must activate the Form Personalization \(com.glide.ui.personalize\_form\) plugin.By default, the itil role is required to personalize forms, but you can change this requirement with a system property.When a user personalizes a form, the system stores the customizations as a user preference record. You can view and manage the user preferences.If you do not want your users to customize forms, you can disable form personalization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_FormPersonalizationAdmin.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Administer, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -22,7 +22,7 @@ Administrators can manage this function using the following options.
 
 **Note:** Personalizing a form in this way modifies the form for you only. To make changes to a form that are visible to all users, you must configure the form.
 
-**Parent Topic:**[Administering forms on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/form-administration.md)
+**Parent Topic:**[Administering forms on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/form-administration.md)
 
 ## Activate form personalization
 
@@ -42,7 +42,7 @@ Form personalization is activated for new instances. To activate form personaliz
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 
 ## Change form personalization role requirements
@@ -65,7 +65,7 @@ Role required: admin
 **Related topics**  
 
 
-[Personalize a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_PersonalizeAForm.md)
+[Personalize a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_PersonalizeAForm.md)
 
 ## Manage personalized forms
 
@@ -89,9 +89,9 @@ Role required: admin
 **Related topics**  
 
 
-[Personalize a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_PersonalizeAForm.md)
+[Personalize a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_PersonalizeAForm.md)
 
-[User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPreferences.md)
+[User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_UserPreferences.md)
 
 ## Disable form personalization
 
@@ -117,5 +117,5 @@ Activating the Personalize Forms plugin sets the **glide.ui.personalize\_form** 
 **Related topics**  
 
 
-[Personalize a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_PersonalizeAForm.md)
+[Personalize a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_PersonalizeAForm.md)
 

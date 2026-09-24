@@ -3,11 +3,11 @@ title: Variable set layout
 description: Variable sets can have one of many layouts. You can define the order of the variables for each item.You can set the order value on a per item basis.The following example demonstrates the layout of variables when variable sets and item variables are associated with an item under different scenarios.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/c\_DefineVariableSetLayout.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Service catalog variable sets, Service Catalog Reference, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ Variable sets can have one of many layouts. You can define the order of the vari
 -   **2 columns wide, alternating sides**: Variables are laid out in two columns with variables placed alternately in the left and right columns.
 -   **2 columns wide, one side, then the other**: The first half of the variable set is laid out sequentially in the left column and the second half is laid out sequentially in the right column.
 
-**Note:** Variables with several possible choices defined, such as [multiple choice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md) variables, are considered a single entity in layouts. All choices are displayed as a single, contiguous unit.
+**Note:** Variables with several possible choices defined, such as [multiple choice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/r_VariableTypes.md) variables, are considered a single entity in layouts. All choices are displayed as a single, contiguous unit.
 
 ## Variable set order
 
@@ -44,7 +44,7 @@ The variables are displayed in this order:
 
 ## Additional layout options
 
-For additional layout options, you can also add [container variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md) to a variable set.
+For additional layout options, you can also add [container variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/r_VariableTypes.md) to a variable set.
 
 For example, create the following variables and orders:
 
@@ -148,7 +148,7 @@ Alfa Delta
  Charlie Foxtrot
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service catalog variable sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogVariableSets.md)
+</table>**Parent Topic:**[Service catalog variable sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/c_ServiceCatalogVariableSets.md)
 
 ## Set an item-specific order
 

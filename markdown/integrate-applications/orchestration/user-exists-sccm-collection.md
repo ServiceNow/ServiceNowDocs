@@ -3,11 +3,11 @@ title: Is User in Collection activity
 description: This activity verifies if a user exists in an SCCM user collection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/user-exists-sccm-collection.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SCCM activity pack, Orchestration activity packs, Classic Orchestration, Workflow Data Fabric]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [SCCM activity pack, Orchestration activity packs, Classic Orchestra
 
 This activity verifies if a user exists in an SCCM user collection.
 
-The Is User in Collection activity uses the [PowerShell activity template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateAPowershellActivity.md) to verify if a specific user exists in an SCCM user collection. The activity is configured to use a MID Server with PowerShell capabilities and to run a MID Server script called IsUserInCollection.ps1 to perform the test.
+The Is User in Collection activity uses the [PowerShell activity template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/t_CreateAPowershellActivity.md) to verify if a specific user exists in an SCCM user collection. The activity is configured to use a MID Server with PowerShell capabilities and to run a MID Server script called IsUserInCollection.ps1 to perform the test.
 
 To access this activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **System Center Configuration Manager \(SCCM\)**.
 
@@ -43,5 +43,5 @@ To access this activity in the Workflow Editor, select the **Custom** tab, and t
 |Not exist|The user does not exist in the collection.|
 |Failure|Activity failed.|
 
-**Parent Topic:**[SCCM activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_SCCMActivityPack.md)
+**Parent Topic:**[SCCM activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/c_SCCMActivityPack.md)
 

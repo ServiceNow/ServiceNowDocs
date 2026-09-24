@@ -3,11 +3,11 @@ title: Configure variables in a record producer for appointment booking
 description: Create specific variables in a Service Catalog record producer to capture essential details such as location and contact information when users book appointments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/create-variable-in-catalog-record-producer-for-appoinment-booking.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure Appointment Booking, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
@@ -155,5 +155,5 @@ The service catalog record producer creates the new variable record in the selec
 
 ## What to do next
 
-After creating your variables, link them to the Appointment Booking table so they appear correctly in the booking calendar interface. For more information, see [Create a business rule to automatically generate appointment records from catalog item variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-business-rules-to-automatically-create-appointment-record.md)
+After creating your variables, link them to the Appointment Booking table so they appear correctly in the booking calendar interface. For more information, see [Create a business rule to automatically generate appointment records from catalog item variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/create-business-rules-to-automatically-create-appointment-record.md)
 

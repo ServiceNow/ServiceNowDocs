@@ -3,11 +3,11 @@ title: Viewing risk intelligence scores
 description: For DD requests, risk intelligence scores appear in a list. For an individual third party, a card displays the most recent score or rating and a link for each risk intelligence report.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-ws-tab-risk-intel-scores.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Overview of a third party, Monitor third-party risk, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Overview of a third party, Monitor third-party risk, Third-party Ri
 
 For DD requests, risk intelligence scores appear in a list. For an individual third party, a card displays the most recent score or rating and a link for each risk intelligence report.
 
-Risk intelligence scores are described in [Integrating scores from risk intelligence providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-overview.md), [Set up a risk intelligence provider service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-set-up.md), and [Add a risk intelligence score to risk data for a third party](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-add-score.md).
+Risk intelligence scores are described in [Integrating scores from risk intelligence providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-overview.md), [Set up a risk intelligence provider service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-set-up.md), and [Add a risk intelligence score to risk data for a third party](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-add-score.md).
 
 ## Risk intelligence scores for DD requests
 
@@ -43,7 +43,7 @@ Each card displays the following information:
 **Related topics**  
 
 
-[Add a risk intelligence score to risk data for a third party](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-add-score.md)
+[Add a risk intelligence score to risk data for a third party](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-add-score.md)
 
-[Set up a risk intelligence provider service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-set-up.md)
+[Set up a risk intelligence provider service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-set-up.md)
 

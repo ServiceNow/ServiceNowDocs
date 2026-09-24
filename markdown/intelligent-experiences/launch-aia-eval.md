@@ -3,12 +3,12 @@ title: Launch an automated evaluation of an agentic AI asset
 description: Evaluate your agentic AI asset's performance against defined scenarios to identify issues and opportunities for improvement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/launch-aia-eval.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [agentic evaluation, automated evaluation, automatic evaluation, batch testing, test scenarios, test objectives]
-breadcrumb: [AI Agent Studio, Enable AI experiences]
+breadcrumb: [AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Launch an automated evaluation of an agentic AI asset
@@ -37,7 +37,7 @@ Scenarios have to exist before an evaluation can be configured against them, and
 
 4.  Select your test scenarios.
 
-    If you must create test scenarios for the agentic AI asset, select **test scenarios** to be redirected to the guided setup for the agentic AI asset. The **Test scenarios** section displays all of the possible scenarios generated for that specific agentic AI asset. For more information about creating test scenarios, see [Create test scenarios for an agentic AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-scenarios-aia.md).
+    If you must create test scenarios for the agentic AI asset, select **test scenarios** to be redirected to the guided setup for the agentic AI asset. The **Test scenarios** section displays all of the possible scenarios generated for that specific agentic AI asset. For more information about creating test scenarios, see [Create test scenarios for an agentic AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-scenarios-aia.md).
 
     You can select test scenarios by tags. If you want to organize your test scenarios by tag, you can add or remove tags from the **Test scenarios** section in the agentic AI asset guided setup.
 

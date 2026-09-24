@@ -1,27 +1,28 @@
 ---
 title: Change Management release notes
-description: The ServiceNow Change Management application provides a systematic approach to control the life cycle of all changes, facilitating beneficial changes to be made with minimum disruption to IT services. Change Management was enhanced and updated in the Australia release.The ServiceNow Change Management application provides a systematic approach to control the life cycle of all changes, facilitating beneficial changes to be made with minimum disruption to IT services. Change Management was enhanced and updated in the Australia release.
+description: The ServiceNow Change Management application provides a systematic approach to control the life cycle of all changes, facilitating beneficial changes to be made with minimum disruption to IT services. See the following sections for release notes by version.The Brazil Early Availability release introduces compliance dynamic schema, change lockdown, lockdown conflict detection, and scaled change for Change Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/change-management-rn.html
-release: australia
+release: brazil
 topic_type: topic
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [IT Service Management release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+breadcrumb: [IT Service Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Change Management release notes
 
-The ServiceNow® Change Management application provides a systematic approach to control the life cycle of all changes, facilitating beneficial changes to be made with minimum disruption to IT services. Change Management was enhanced and updated in the Australia release.
+The ServiceNow® Change Management application provides a systematic approach to control the life cycle of all changes, facilitating beneficial changes to be made with minimum disruption to IT services. See the following sections for release notes by version.
 
 ## About Change Management
 
--   Configure the properties in Change Management application using the sn\_change\_admin role.
--   Manage conflict detection for change request using the new **Exclude from conflict detection** option.
--   Configure change templates with a specific change model.
--   Use change templates to manage the change request creation process.
+-   Control the full change lifecycle from request to closure using a structured workflow that reduces IT service disruption.
+-   Define change models using custom state models, state transitions, and transition conditions. Out-of-the box change models include ITIL change models for Standard, Normal, or Emergency changes with dedicated approval paths.
+-   Use machine learning to assess change risk and suggest standard change templates.
+-   Run agentic AI workflows through a conversational interface. Use it to plan changes, assess conflicts, assess change quality, schedule changes, suggest configuration items, create outages, and generate standard change template proposals.
+-   Track team performance with the Change Success Score, which uses historical data to predict successful change completion. This feature requires an ITSM Professional subscription.
 
-See [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_ITILChangeManagement.md) for more information.
+See [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/c_ITILChangeManagement.md) for more information.
 
 ## Activation and other requirements
 
@@ -33,47 +34,36 @@ See [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
 ## Accessibility and localization
 
 -   **Accessibility information**
-    -   **Reflow for Create a change request page**
 
-        The Create a change request page now supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%.
-
-        This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages.
+    Reflow support for the Create a change request page: Content can be zoomed up to 400% through your browser settings, with page layouts automatically transforming into a vertical, stacked view without loss of content or functionality. This enhancement helps users with low vision or who have trouble seeing web content due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages.
 
 
-**Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-service-management-rn-landing.md)
+**Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/it-service-management-rn-landing.md)
 
-## Australia
+## Brazil Early Availability
 
-The ServiceNow® Change Management application provides a systematic approach to control the life cycle of all changes, facilitating beneficial changes to be made with minimum disruption to IT services. Change Management was enhanced and updated in the Australia release.
+The Brazil Early Availability release introduces compliance dynamic schema, change lockdown, lockdown conflict detection, and scaled change for Change Management.
 
 ### What's new
 
--   **[Granular admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/installed-with-cm-itsm-roles.md)**
+-   **[Compliance dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/compliance-dynamic-schema.md)**
 
-    Assign the single feature-specific granular sn\_change\_admin role to users to grant permission to configure Change Management features and system properties. This role replaces the previous general admin and ITIL roles. The sn\_change\_admin role includes the sn\_change\_writer, change\_manager, and sn\_change\_cab.cab\_manager roles.
+    Store risk and compliance details on change requests without adding columns to the Change Request table. Compliance dynamic schema saves these details as name and value pairs in a single field using the platform Dynamic Schema feature. Regulated industries can capture information such as whether a change handles personal data, whether an audit trail is required, and how long a rollback takes. The base system includes example dynamic categories such as Risk and Compliance, Financial Risk and Compliance, and SaaS/Cloud Security Compliance, and example attributes covering areas such as audit trail, downtime, estimated impacted users, lead time, rollback time, and compliance. You can deactivate the examples and define categories and attributes that match your organization's compliance requirements. You can also read and update attribute values from scripts, including risk condition scripts and business rules, using the dynamic schema scripting API.
 
--   **[Exclude change request records from conflict check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configure-conflict-properties.md)**
+-   **[Change lockdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-lockdown.md)**
 
-    Exclude change requests from the conflict check process by setting the **Exclude from conflict detection** field to true. This setting also means that the change record is not displayed as a conflicting change when conflict checker is run on other change records.
+    Change lockdown allows change managers to pause all or a subset of in-flight change requests. Use it during major unplanned IT, critical, or financial events.
 
--   **[Create change templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/create-change-template.md)**
+-   **[Change lockdown conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/lockdown-conflict-detection.md)**
 
-    Control mandatory and read-only fields for change models by configuring change templates and defining template field policies. Change templates provide baseline standardization for common changes, making changes easier to create as well as driving a higher standard of change and compliance. Similar to the concepts used for existing standard change templates, templates used for change models can be proposed, reviewed, versioned, or retired.
+    Automatically flag change requests that overlap an active lockdown period. Conflict detection runs alongside maintenance window and blackout window checks. Any change request inside a lockdown is marked as an Inside Change Lockdown conflict and placed on hold. Reschedule it outside the lockdown period to clear the conflict and continue processing.
 
--   **[Enhanced data model for change templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-data-model.md)**
+-   **[Scaled change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/scaled-change-overview.md)**
 
-    Use the enhanced data model that supports better categorization and role-based access for change templates for all change models automatically. This feature is optional for newly created standard changes.
+    Scaled Change extends change management to complex environments with many configuration items. A single Scaled Change generates and coordinates child change records for every affected configuration item. It uses scheduling intelligence, conflict detection, and approval workflows to keep large-scale changes on track from planning through closure.
 
-    This data model does not impact the existing standard change catalog and migration of these standard changes is not required.
+-   **[ITIL change process assignment for change models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itil_change_process_models.md)**
 
+    Assign an ITIL change process to a change model so the ChangeRequest API uses that model when it creates a matching change request.
 
-### Plugin information
-
--   **New plugins**
-
-    The following plugins are new in Australia:
-
-    -   Change Management-Flows \(com.snc.service.change\_management.flows\): Implements the Change-Refresh Impacted Services flow to manage the Refresh Impacted Services process instead of relying on the Progress Worker table.
-    -   ITSM Dynamic CI Flows \(com.snc.service.dynamic\_ci\_flows\): Implements flow \(IPC- Dynamic CI Group\) to manage the Sync Affected CI Dynamic Group process instead of relying on the Progress Worker table.
-    -   Provides flows for State Transition Models \(com.snc.itsm.state\_transition\_model.flows\): Provides flows that manage the publishing and retirement life cycles of the State Transition templates.
 

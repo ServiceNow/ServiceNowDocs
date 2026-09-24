@@ -3,9 +3,9 @@ title: Activate Customer Success Management
 description: The Customer Success Management \(com.sn\_acct\_lc\) plugin is available as a separate subscription. Activating this plugin also activates the related plugins required to use the application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-activate.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Getting started, Configure, Customer Success Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_customerservice.customer\_admin
 
 ## About this task
 
-If the related plugins aren’t already active, the Customer Success Management plugin activates them. For more information, see [Plugins activated with Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-required-plugins.md).
+If the related plugins aren’t already active, the Customer Success Management plugin activates them. For more information, see [Plugins activated with Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-required-plugins.md).
 
 ## Procedure
 
@@ -45,8 +45,8 @@ If the related plugins aren’t already active, the Customer Success Management 
 
 After activating the application, complete the following steps:
 
--   To enable account onboarding, configure the onboarding playbook. See [Configure the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-configure.md).
--   To enable customer success, create the choice and definition records. See [Getting started with Customer Success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-basic-config.md).
+-   To enable account onboarding, configure the onboarding playbook. See [Configure the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-configure.md).
+-   To enable customer success, create the choice and definition records. See [Getting started with Customer Success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-basic-config.md).
 
-**Parent Topic:**[Getting started with Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-get-started.md)
+**Parent Topic:**[Getting started with Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-get-started.md)
 

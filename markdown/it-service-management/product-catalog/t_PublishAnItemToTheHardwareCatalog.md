@@ -3,11 +3,11 @@ title: Publish an item to the hardware catalog
 description: After you create a hardware item for the vendor catalog, publish it to the hardware catalog for viewing. The hardware catalog is a section within the service catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/product-catalog/t\_PublishAnItemToTheHardwareCatalog.html
-release: australia
+release: brazil
 product: Product Catalog
 classification: product-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a vendor catalog item, Vendor catalog items, Product Catalog, Asset Management common applications, IT Service Management]
 ---
@@ -41,7 +41,7 @@ After you publish a vendor catalog item to the hardware catalog, the **Publish t
     The published item is listed in the **Vendor catalog Items** related list of the Hardware Catalog form.
 
 
-**Parent Topic:**[Create a vendor catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/t_CreateAVendorCatalogItem.md)
+**Parent Topic:**[Create a vendor catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/product-catalog/t_CreateAVendorCatalogItem.md)
 
 **Related topics**  
 

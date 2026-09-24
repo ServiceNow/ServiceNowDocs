@@ -3,11 +3,11 @@ title: Splunk TCP integration configuration fields
 description: Description of the fields on the Splunk TCP integration configuration forms for Health Log Analytics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/il-connector-hla-splunktcp-fields.html
-release: australia
+release: brazil
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Splunk TCP, data input, integration, configuration, field, description, ServiceNow, Health Log Analytics, HLA]
 breadcrumb: [Integration configuration fields, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
@@ -17,7 +17,7 @@ breadcrumb: [Integration configuration fields, Health Log Analytics reference, H
 
 Description of the fields on the Splunk TCP integration configuration forms for Health Log Analytics.
 
-For the Splunk TCP integration setup procedure, see [Set up a Splunk TCP integration for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/il-connector-hla-splunktcp.md).
+For the Splunk TCP integration setup procedure, see [Set up a Splunk TCP integration for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/il-connector-hla-splunktcp.md).
 
 <table id="table_rp3_c3g_q2c"><thead><tr><th>
 
@@ -197,5 +197,5 @@ Drop if queue is full
 Option to discard logs if there is a load on the MID Server.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+</table>**Parent Topic:**[Integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)
 

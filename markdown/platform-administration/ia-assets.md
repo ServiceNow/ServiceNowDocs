@@ -3,11 +3,11 @@ title: Assets
 description: Configure the hardware and consumables to setup the assets for your ServiceNow implementation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-assets.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Platform module configuration, Configure, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure the Platform module, Configure, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Assets
@@ -44,5 +44,5 @@ Manage assets with intuitive work flows and life cycle visibility.
 
 Select **Add a consumable** if you want to add a consumable to configure. You can also export the list of consumables into an excel sheet or an available file type by selecting **Export**.
 
-**Parent Topic:**[Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md)
+**Parent Topic:**[Configure the Platform module in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ia-config-platform-il.md)
 

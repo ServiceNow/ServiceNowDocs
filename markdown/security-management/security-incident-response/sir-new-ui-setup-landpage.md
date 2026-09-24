@@ -3,11 +3,11 @@ title: Landing page filter configuration
 description: You can add new filters or modify existing filters that appear in the Security Analyst Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/sir-new-ui-setup-landpage.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Additional Security Analyst Workspace configuration, Configure the Security Analyst Workspace, Install and configure Security Incident Response, Security Incident Response setup, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Additional Security Analyst Workspace configuration, Configure the 
 
 You can add new filters or modify existing filters that appear in the Security Analyst Workspace.
 
-The Security Analyst Workspace has primary and secondary filters that allow you to filter the list of security incidents so you can quickly find the security incidents you want to analyze. Fore more information, see [Manage security threats using the Security Analyst Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-new-ui.md).
+The Security Analyst Workspace has primary and secondary filters that allow you to filter the list of security incidents so you can quickly find the security incidents you want to analyze. Fore more information, see [Manage security threats using the Security Analyst Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/sir-new-ui.md).
 
 \[Omitted image "sir-new-ui-setup-main.png"\] Alt text: Security Analyst Workspace: Filters
 

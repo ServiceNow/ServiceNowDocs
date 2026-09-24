@@ -3,11 +3,11 @@ title: Review the ICAP DLP integration settings
 description: Review the provider ICAP DLP integration settings and modify the default system properties to suit your environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/review-the-icap-dlp-integration-settings.html
-release: australia
+release: brazil
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Internet Content Adaption Protocol \(ICAP\) integration for DLP IR, Integrate, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -34,5 +34,5 @@ Role required: sn\_dlir.admin
     |**sn\_icap\_dlp.presigned\_file\_expiry\_time**|Specify the duration in seconds, for which the presigned file will be available for download or preview. The file will only be accessible within this time frame. This field is automatically set to 300.|
 
 
-**Parent Topic:**[Internet Content Adaption Protocol \(ICAP\) integration for DLP IR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/icap-dlp-integration.md)
+**Parent Topic:**[Internet Content Adaption Protocol \(ICAP\) integration for DLP IR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/icap-dlp-integration.md)
 

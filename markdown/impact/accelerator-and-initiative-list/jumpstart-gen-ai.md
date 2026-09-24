@@ -1,24 +1,24 @@
 ---
 title: Jumpstart Your GenAI
-description: This Accelerator provides a demonstration of the capabilities of ServiceNow GenAI\(Now Assist\).
+description: This Accelerator provides a demonstration of the capabilities of GenAI\(ServiceNow Otto\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-gen-ai.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your GenAI
 
-This Accelerator provides a demonstration of the capabilities of ServiceNow® GenAI\(Now Assist\).
+This Accelerator provides a demonstration of the capabilities of GenAI\(*ServiceNow Otto*\).
 
 ## Accelerator Overview
 
-This Accelerator provides Impact customers with an overview of how integrates GenAI across the platform, highlighting opportunities to improve efficiency and enhance the user experience. The session includes an applied demonstration of various Now Assist and AI Agent capabilities using a temporary instance, along with an overview of the onboarding process. It also shares leading practices for deploying these products, making it an ideal starting point for customers beginning their Now Assist journey.
+This Accelerator provides Impact customers with an overview of how integrates GenAI across the platform, highlighting opportunities to improve efficiency and enhance the user experience. The session includes an applied demonstration of various *ServiceNow Otto* AI Agent capabilities using a temporary instance, along with an overview of the onboarding process. It also shares leading practices for deploying these products, making it an ideal starting point for customers beginning their *ServiceNow Otto* journey.
 
 ## Package Availability
 
@@ -164,4 +164,8 @@ Attend ServiceNow Impact Accelerator coaching sessions to understand leading pra
 </table>## Requested Information/Access
 
 **Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
+
+## Exclusions
+
+ServiceNow is not responsible for implementing recommendations on Customer’s sub-production or production instances.
 

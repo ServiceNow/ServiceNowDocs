@@ -3,9 +3,9 @@ title: Open Requested Item State Monitor dashboard
 description: Use this dashboard when you wish to dive into open requests for items divided by State: Pending, Work in Progress, or all Open requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/open-req-item-state-dashboard.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Request Management Platform Analytics Solutions, Request Management in a Service Management application, Service Management]
 ---
@@ -73,5 +73,5 @@ Indicators not appearing in dashboard widgets but used in formulas:
 -   Stage
 -   State
 
-**Parent Topic:**[Request Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/request-content-pack.md)
+**Parent Topic:**[Request Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-management-for-the-enterprise/request-content-pack.md)
 

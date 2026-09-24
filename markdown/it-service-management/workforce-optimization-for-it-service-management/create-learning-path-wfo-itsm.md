@@ -3,11 +3,11 @@ title: Create a learning path in Workforce Optimization for ITSM
 description: Create a learning path, add relevant skills and course items, and publish the path. When your agents complete the path, any skills associated with the path are automatically added to the agent's profile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/create-learning-path-wfo-itsm.html
-release: australia
+release: brazil
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Learning, Training your teams, Coaching, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -46,7 +46,7 @@ This video walks you through the steps for creating a learning path.
     1.  In the **Path name** field, enter a unique name for the learning path.
     2.  In the **Course Catalog** field, select the catalog to which you want to associate the learning path.
 
-        **Important:** You can customize the publish flow for any catalog other than the **Default Catalog**. For information on publish flow, see [Create a course catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/create-course-catalog.md) and the [Course catalog form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/course-catalog-table.md).
+        **Important:** You can customize the publish flow for any catalog other than the **Default Catalog**. For information on publish flow, see [Create a course catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/create-course-catalog.md) and the [Course catalog form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/course-catalog-table.md).
 
     3.  Select **Next**.
     The learning path that is created is in **Draft** state. You can choose to complete it later.
@@ -85,5 +85,5 @@ This video walks you through the steps for creating a learning path.
     The learning path is published based on the Publish flow.
 
 
-**Parent Topic:**[Learning in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/workforce-learning-configurable-wfo-itsm.md)
+**Parent Topic:**[Learning in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/workforce-learning-configurable-wfo-itsm.md)
 

@@ -3,11 +3,11 @@ title: Configure a test tool in DevOps
 description: Configure a test tool in DevOps to view unit, functional, and performance test results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/create-test-tool-dev-ops.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [DevOps test tool integration, User created, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -49,7 +49,7 @@ Name of the entity specified in the selected table.
 </td></tr></tbody>
 </table>    \[Omitted image "dev-ops-test-map-entity-id.png"\] Alt text: DevOps test mapping entity id
 
-    See the [Test type mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-test-tool-integration.md) section for more details.
+    See the [Test type mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/dev-ops-test-tool-integration.md) section for more details.
 
 4.  To capture the raw test payload of non-JUnit or -TestNG tests, enter an .xml filename and path \(comma separate multiple files\).
 
@@ -57,7 +57,7 @@ Name of the entity specified in the selected table.
 
     **Note:** You must create the custom subflow that transforms the raw payload.
 
-    See the [Transforming a raw test payload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-test-tool-integration.md) section for more details on configuring decision tables.
+    See the [Transforming a raw test payload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/dev-ops-test-tool-integration.md) section for more details on configuring decision tables.
 
 5.  Run the test and view test results by navigating to **DevOps** &gt; **Test Results** \(Test Summaries and Performance Test Summaries\).
 
@@ -68,5 +68,5 @@ Name of the entity specified in the selected table.
 
 \[Omitted image "dev-ops-test-scripted-pipeline.png"\] Alt text: DevOps test scripted pipeline
 
-**Parent Topic:**[DevOps test tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-test-tool-integration.md)
+**Parent Topic:**[DevOps test tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/dev-ops-test-tool-integration.md)
 

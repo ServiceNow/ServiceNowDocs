@@ -3,11 +3,11 @@ title: Tamper Detection
 description: Use tamper detection to improve security by detecting unauthorized changes to your quorum control settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/cloud-encryption/tamper-detect.html
-release: australia
+release: brazil
 product: Cloud Encryption
 classification: cloud-encryption
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Cloud Encryption with Key Management, Encryption]
 ---
@@ -74,5 +74,5 @@ If tamper detection fails to validate any of your quorum control settings, conta
 
 \[Omitted image "tamper-resolve.png"\] Alt text: Example message for tamper detection resolution
 
-**Parent Topic:**[Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cloud-encryption/dare-overview.md)
+**Parent Topic:**[Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/cloud-encryption/dare-overview.md)
 

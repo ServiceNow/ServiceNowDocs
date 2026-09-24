@@ -3,9 +3,9 @@ title: Configure a scheduled job for asynchronous order creation
 description: Run a scheduled job in the Order Management application to create a customer order from the Inbound Queue \[sn\_tmt\_core\_inbound\_queue\] table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/running-scheduled-job.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Asynchronous order processing, Order management, Configure, Sales Customer Relationship Management]
 ---
@@ -36,7 +36,7 @@ You can also use the Create Order UI action on the Inbound Queue table to create
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [Create records from inbound queue table async form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-records-from-inbound-queue-table-async-form.md).
+    For a description of the field values, see [Create records from inbound queue table async form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-records-from-inbound-queue-table-async-form.md).
 
 4.  Select **Update**.
 
@@ -45,10 +45,10 @@ You can also use the Create Order UI action on the Inbound Queue table to create
 
 Customer order records are created.
 
-**Parent Topic:**[Asynchronous order processing for large customer and consumer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/asynchronous-order-processing.md)
+**Parent Topic:**[Asynchronous order processing for large customer and consumer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/asynchronous-order-processing.md)
 
 **Related topics**  
 
 
-[Advanced options for scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/advanced-options-for-scheduled-jobs.md)
+[Advanced options for scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/advanced-options-for-scheduled-jobs.md)
 

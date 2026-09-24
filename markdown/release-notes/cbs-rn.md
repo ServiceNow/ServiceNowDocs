@@ -1,139 +1,77 @@
 ---
 title: Core Business Suite release notes
-description: The ServiceNow Core Business Suite \(CBS\) application lays the foundation to unify disjointed processes across business units. It’s a collection of modules that fulfills different business needs for different personas within a single product suite. CBS is a new application in the Australia release.The ServiceNow Core Business Suite \(CBS\) application lays the foundation to unify disjointed processes across business units. It’s a collection of modules that fulfills different business needs for different personas within a single product suite. CBS is a new application in the Australia release.The ServiceNow Core Business Suite \(CBS\) application lays the foundation to unify disjointed processes across business units. It’s a collection of modules that fulfills different business needs for different personas within a single product suite. CBS is a new application in the Australia release.The ServiceNow Core Business Suite \(CBS\) application lays the foundation to unify disjointed processes across business units. It’s a collection of modules that fulfills different business needs for different personas within a single product suite. CBS is a new application in the Australia release.The ServiceNow Core Business Suite \(CBS\) application lays the foundation to unify disjointed processes across business units. It’s a collection of modules that fulfills different business needs for different personas within a single product suite. CBS is a new application in the Australia release.
+description: The ServiceNow Core Business Suite application provides consolidated case and knowledge management functionalities across business units within one application. See the following sections for release notes by version.Use the simplified Knowledge module to create and manage Knowledge Base and Knowledge Base articles across departments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/cbs-rn.html
-release: australia
+release: brazil
 topic_type: topic
-last_updated: "2026-03-23"
-reading_time_minutes: 5
-breadcrumb: [Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Core Business Suite release notes
 
-The ServiceNow® Core Business Suite \(CBS\) application lays the foundation to unify disjointed processes across business units. It’s a collection of modules that fulfills different business needs for different personas within a single product suite. CBS is a new application in the Australia release.
+The ServiceNow® Core Business Suite application provides consolidated case and knowledge management functionalities across business units within one application. See the following sections for release notes by version.
 
 ## About Core Business Suite
 
--   Accelerate application setup with Now Assist in CBS.
--   Launch CBS applications from a new admin home configuration console, and set up each application from the entry point.
--   Use the AI-native requester experience in CBS.
--   Get Employee Slate as your default employee support portal on CBS with two configuration options for more flexibility for different organizations.
--   Install CBS applications from the Product Hub depending on your subscription.
--   Automate assignment rules for the CBS requester role, enabling administrators reduce manual effort.
--   View performance insights and resolution trends across business units on the Core Business Suite Analytics dashboard.
--   Use the Knowledge module in Core Business Suite to adjust the settings of default knowledge bases, import or edit Knowledge Base articles, or create new ones across organization.
--   Assign specific persons to groups to organize tasks and projects across Core Business Suite.
+-   Lays the foundation to unify disjointed processes across business units.
+-   Fulfills different business needs for different personas within a single product suite.
+-   Provides simplified setup and conversational requester experience.
 
-See [Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-landing.md) for more information.
+See [Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/cbs-landing.md) for more information.
 
 ## Activation and other requirements
-
-**Important:** Core Business Suite is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 -   **Activation information**
 
     Install Core Business Suite by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 -   **Upgrade information**
-    -   The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform®. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see [Configuring read-only security options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/read-only-option.md).
     -   The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
         -   Foundation: AI basics to deliver insights
         -   Advanced: AI to boost productivity across relevant use cases
         -   Prime: Act autonomously with all AI assets, and create your own
-        For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+        For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-    -   Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+    -   ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
-**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/new-features-changes.md)
+**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/new-features-changes.md)
 
-## August 2026
+## Brazil Patch 0
 
-The ServiceNow® Core Business Suite \(CBS\) application lays the foundation to unify disjointed processes across business units. It’s a collection of modules that fulfills different business needs for different personas within a single product suite. CBS is a new application in the Australia release.
+Use the simplified Knowledge module to create and manage Knowledge Base and Knowledge Base articles across departments.
 
 ### What's new
 
--   **[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)[Knowledge Base in Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/kb-cbs.md)**
-
-    Use the Knowledge module in CBS to adjust the default settings for Knowledge Base articles. You can also import articles, or create additional knowledge bases to support cross-functional knowledge sharing across business units.
-
--   **[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)[Knowledge Base in Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/kb-cbs.md)**
+-   **[Knowledge Base in Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/kb-cbs.md)**
 
     Provide specific permissions for business unit admins to own and manage Knowledge Base and Knowledge Base articles in different departments within CBS.
 
-    The functionality is available with Core Business Suite version 3.3.2 along with ServiceNow Otto for Setup version 5.0.20.
+    The functionality is available with Core Business Suite version 3.3.2 along with ServiceNow Otto® for Setup version 5.0.20.
 
 
 ### What's changed
 
--   **[Exploring employee support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/exploring-emp-home.md) [Exploring supplier support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/exploring-supplr-home.md)**
+-   **[Exploring employee support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/exploring-emp-home.md) [Exploring supplier support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/exploring-supplr-home.md)**
 
     Provide CBS admins with ia\_admin and ia\_user roles to give them broader permissions and control. The roles aren't available for the CBS admin by default.
-
-
-## June 2026
-
-The ServiceNow® Core Business Suite \(CBS\) application lays the foundation to unify disjointed processes across business units. It’s a collection of modules that fulfills different business needs for different personas within a single product suite. CBS is a new application in the Australia release.
-
-### What's new
-
--   **[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)[Employee Slate for Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/employee-slate-cbs.md)**
-
-    Provide your employees with a consolidated view of the Employee Center widgets with a conversational interface on Employee Slate. Raise issues, ask for information, or submit business unit-specific service requests conversationally. Employee Slate is the default employee support portal for CBS.
-
--   **[Core Business Suite setup on Product Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-product-hub-overview.md)**
-
-    Install your CBS application directly from Product Hub, depending on your subscription tier.
-
--   **[CBS requester role enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-requester-role-enhancements.md)**
-
-    Automate assignment of the CBS requester role to enable admins reduce repetitive, manual work of assigning the role to each new employee.
-
--   **[View Core Business Suite Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/view-cbs-analytics.md)**
-
-    Access all CBS customer insights in one place to monitor and review request activity across departments, both detailed and in AI-enabled summaries on the Core Business Suite Analytics Dashboard.
-
-
-## April 2026
-
-The ServiceNow® Core Business Suite \(CBS\) application lays the foundation to unify disjointed processes across business units. It’s a collection of modules that fulfills different business needs for different personas within a single product suite. CBS is a new application in the Australia release.
-
-### What's new
-
--   **[Configure Core Business Suite using Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/configure-cbs-using-now-assist.md)**
-
-    Use a guided flow to set up the CBS.
-
--   **[Otto requester experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/now-assist-configurations-requesters.md)**
-
-    Provide your employees with the AI-native requester experience in CBS.
-
-
-## Australia
-
-The ServiceNow® Core Business Suite \(CBS\) application lays the foundation to unify disjointed processes across business units. It’s a collection of modules that fulfills different business needs for different personas within a single product suite. CBS is a new application in the Australia release.
-
-### What's new
-
--   **[Configure Core Business Suite using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/config-cbs-using-guided-setup.md)**
-
-    Use the new CBS home page to initiate installations of different applications across BUs in one place. Track setup progress and receive guided configuration support from a unified product console. You can install and configure applications according to your business requirements.
-
-
--   **[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)[Groups in Core Business Suite module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/groups-cbs.md)**
-
-    Assign people to groups for task and project management across Core Business Suite organizations in CBS.
 
 
 ### Plugin information
 
 -   **New plugins**
 
-    The following plugins are new in Australia:
+    Core Business Suite Foundation \(sn\_cbs\_foundation\): Base package with CBS support.
 
-    -   Core Business Suite Foundation \(sn\_cbs\_foundation\): Base package with CBS support.
-    -   Core Business Suite Advanced \(sn\_cbs\_advanced\): Mid-tier package with CBS support.
-    -   Core Business Suite Prime \(sn\_cbs\_prime\): Top-tier package with CBS support.
+    Core Business Suite Advanced \(sn\_cbs\_advanced\): Mid-package with CBS support.
+
+    Core Business Suite Prime \(sn\_cbs\_prime\): Top-tier package with CBS support.
+
+-   **Plugins planned for deprecation**
+
+    Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
 

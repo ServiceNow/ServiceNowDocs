@@ -3,9 +3,9 @@ title: Case line task page
 description: The case line task page displays information about a task created for a case line item.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-case-lines-case-line-task-page.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Case line record pages, Case Lines and Workflows, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---

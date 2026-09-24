@@ -3,11 +3,11 @@ title: Create a Cloudera Impala connection
 description: Establish a zero copy connection to a Cloudera Impala system in Zero Copy Connector Hub.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-cloudera-impala-connection.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Cloudera Impala, Primary connectors, Zero Copy Connectors, Workflow Data Fabric]
+breadcrumb: [Cloudera Impala, Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
 # Create a Cloudera Impala connection

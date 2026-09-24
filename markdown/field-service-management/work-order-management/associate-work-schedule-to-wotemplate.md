@@ -1,18 +1,18 @@
 ---
-title: Associate work order template to a work schedule
+title: Associate a work order template to a work schedule
 description: Map a single or multiple work order templates to a planned work schedule. Add conditions to identify the relevant templates for the planned work records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/associate-work-schedule-to-wotemplate.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure work plans, Planned Work Management, Set up work orders and tasks, Configure, Field Service Management]
 ---
 
-# Associate work order template to a work schedule
+# Associate a work order template to a work schedule
 
 Map a single or multiple work order templates to a planned work schedule. Add conditions to identify the relevant templates for the planned work records.
 
@@ -24,7 +24,7 @@ Role required: sn\_fsm\_planned\_wm.planned\_work\_admin and model\_manager
 
 For example, to fulfill the maintenance requirement of two MRI machines from different brands, at the same time. You must create a schedule for these machines and then map it to different work order templates. Add conditions so that the schedule can identify the appropriate template to generate work orders that are specific to each MRI machine.
 
-**Note:** When grouping of work orders is enabled for a work plan, you can add conditions only on the fields that are selected as criteria for grouping of work orders. For more information, see [Add grouping criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/add-grouping-criteria.md).
+**Note:** When grouping of work orders is enabled for a work plan, you can add conditions only on the fields that are selected as criteria for grouping of work orders. For more information, see [Add grouping criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/add-grouping-criteria.md).
 
 ## Procedure
 

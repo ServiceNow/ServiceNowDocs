@@ -3,13 +3,13 @@ title: Move a resource assignment in Project Workspace
 description: Move the resource assignment to a new start and end dates to accommodate changes in task scheduling or resource allocation. Shift assignments to balance workloads across resources and avoid over-allocation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/move-resource-assignments-project-workspace.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Resource assignments in Project Workspace, Manage resources, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Resource assignments in Project Workspace, Resource planning with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Move a resource assignment in Project Workspace
@@ -50,18 +50,18 @@ Role required: resource\_user, resource\_manager
     When you move the resource assignment for a group, the assignments are moved for all members of that group. You cannot move assignments for individual users within the group or for child resource assignments.
 
 
-**Parent Topic:**[Resource assignments in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/resource-assignments-pw.md)
+**Parent Topic:**[Resource assignments in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/resource-assignments-pw.md)
 
 **Related topics**  
 
 
-[Extend a resource assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/extend-resource-assignment-pw.md)
+[Extend a resource assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/extend-resource-assignment-pw.md)
 
-[Update resource assignment from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/update-resource-assignment-pw.md)
+[Update resource assignment from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/update-resource-assignment-pw.md)
 
-[Delete a resource assignment from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/delete-resource-assignment-pw.md)
+[Delete a resource assignment from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/delete-resource-assignment-pw.md)
 
-[Update the resource allocation in a heatmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/view-allocations-heatmap-prj-wksp.md)
+[Update the resource allocation in a heatmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/view-allocations-heatmap-prj-wksp.md)
 
-[Realign resource assignments with project dates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/realign-resource-assignment-to-task.md)
+[Realign resource assignment to project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/realign-resource-assignment-to-task.md)
 

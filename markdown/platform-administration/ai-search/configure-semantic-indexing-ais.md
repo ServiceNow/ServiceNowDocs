@@ -3,11 +3,11 @@ title: Configure semantic indexing settings for an indexed source
 description: Specify the semantic indexing configuration settings you want to apply when AI Search indexes records from your indexed sources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/configure-semantic-indexing-ais.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-07-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Semantic index configuration for indexed sources, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,7 +18,7 @@ Specify the semantic indexing configuration settings you want to apply when AI S
 
 ## Before you begin
 
-The AI Search Semantic Controller plugin \(com.glide.ais.semantic\_search\) must be active on your instance. This plugin is automatically activated when any [ServiceNow Otto® application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md) is installed on your instance.
+The AI Search Semantic Controller plugin \(com.glide.ais.semantic\_search\) must be active on your instance. This plugin is automatically activated when any [ServiceNow Otto® application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md) is installed on your instance.
 
 Role required: ais\_admin
 
@@ -36,11 +36,11 @@ As an AI Search admin, you can perform this task to choose the fields from and i
 
 3.  In the Semantic Index Configuration related list, select **New**.
 
-    **Note:** If you don't see the Semantic Index Configuration related list on the Indexed Source form, check with your administrator to make sure that your instance has at least one [ServiceNow Otto application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md) installed. Installing any ServiceNow Otto application activates the AI Search Semantic Controller plugin \(com.glide.ais.semantic\_search\), which is required for semantic index configuration.
+    **Note:** If you don't see the Semantic Index Configuration related list on the Indexed Source form, check with your administrator to make sure that your instance has at least one [ServiceNow Otto application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md) installed. Installing any ServiceNow Otto application activates the AI Search Semantic Controller plugin \(com.glide.ais.semantic\_search\), which is required for semantic index configuration.
 
 4.  On the Semantic Index Configuration form, fill in the fields.
 
-    For a description of the field values, see [Semantic Index Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/semantic-index-configuration-form.md).
+    For a description of the field values, see [Semantic Index Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/semantic-index-configuration-form.md).
 
 5.  Select **Submit**.
 
@@ -54,7 +54,7 @@ As an AI Search admin, you can perform this task to choose the fields from and i
 
     2.  On the Semantic Index Field form, fill in the fields.
 
-        For a description of the field values, see [Semantic Index Field form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/semantic-index-field-form.md).
+        For a description of the field values, see [Semantic Index Field form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/semantic-index-field-form.md).
 
     3.  Select **Submit**.
 
@@ -63,9 +63,9 @@ As an AI Search admin, you can perform this task to choose the fields from and i
 
 ## What to do next
 
-After changing the semantic index configuration settings for an indexed source, you must reindex content from that indexed source. For reindexing steps, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/index-single-source-ais.md).
+After changing the semantic index configuration settings for an indexed source, you must reindex content from that indexed source. For reindexing steps, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/index-single-source-ais.md).
 
 **Note:** Indexing content for semantic vector search is typically slower than indexing for keyword search. Your indexed source may take more time to reindex once you have defined a semantic index configuration for it.
 
-**Parent Topic:**[Semantic index configuration for indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/semantic-index-cfg-ais.md)
+**Parent Topic:**[Semantic index configuration for indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/semantic-index-cfg-ais.md)
 

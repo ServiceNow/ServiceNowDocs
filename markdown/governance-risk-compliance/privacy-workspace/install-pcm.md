@@ -3,11 +3,11 @@ title: Install Privacy Case Management
 description: You can install the Privacy Case Management application \(sn\_privacy\_case\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/install-pcm.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -55,5 +55,5 @@ The following items are installed with Privacy Case Management:
 6.  Select **Install**.
 
 
-**Parent Topic:**[Configuring Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/configuring-privacy-case-management.md)
+**Parent Topic:**[Configuring Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/configuring-privacy-case-management.md)
 

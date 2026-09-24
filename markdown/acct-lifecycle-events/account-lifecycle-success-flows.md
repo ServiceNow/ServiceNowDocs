@@ -3,9 +3,9 @@ title: Customer success management flows
 description: This section includes the Customer Success Management flows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-success-flows.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Customer Success Management]
 ---
@@ -36,5 +36,5 @@ This section includes the Customer Success Management flows.
 |Scheduled a Follow-Up|Demo subflow: Run internal actions to help improve the overall engagement health with this customer. Follow the attached playbook to drive next steps and recommended actions.|
 |Setup next Quarterly Business Review|Demo subflow: Run internal actions to help improve the overall engagement health with this customer. Follow the attached playbook to drive next steps and recommended actions.|
 
-**Parent Topic:**[Customer Success Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-reference.md)
+**Parent Topic:**[Customer Success Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-reference.md)
 

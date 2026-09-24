@@ -3,11 +3,11 @@ title: Link nodes in the Relationship Graph
 description: Use Relationship Graph to link the nodes. Use filters to select specific nodes to investigate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-link-nodes.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Link nodes, Relationship graph]
 breadcrumb: [View details in Visualizer, Observables, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
@@ -54,5 +54,5 @@ Role required: sn\_sec\_tisc.analyst
 12. Select **Show details** to see the associated observables data.
 
 
-**Parent Topic:**[View details in Visualizer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/objects-visualizer.md)
+**Parent Topic:**[View details in Visualizer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/objects-visualizer.md)
 

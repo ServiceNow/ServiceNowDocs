@@ -3,11 +3,11 @@ title: Modify the OpenLDAP schema
 description: Modify the OpenLDAP schema. These steps detail a schema modification to OpenLDAP 2.3 provided by one of our customers that helped them integrate with their instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/t\_ModifyTheOpenLDAPSchema.html
-release: australia
+release: brazil
 product: LDAP integration
 classification: ldap-integration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [OpenLDAP minor schema modification, LDAP integration, Authentication, Access Management]
 ---

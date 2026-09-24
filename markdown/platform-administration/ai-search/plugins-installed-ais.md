@@ -3,11 +3,11 @@ title: Plugins installed with AI Search
 description: AI Search adds the following plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/plugins-installed-ais.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -33,5 +33,5 @@ AI Search plugin \(com.glide.ais\)
 Enables core functionality for AI Search. Installed in the base system.**Note:** This plugin isn't visible in the **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All** and **All** &gt; **System Definition** &gt; **Plugins** listings. To verify that AI Search is installed and provisioned for use on your instance, navigate to **All** &gt; **AI Search** &gt; **AI Search Status**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/reference-ais.md)
+</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/reference-ais.md)
 

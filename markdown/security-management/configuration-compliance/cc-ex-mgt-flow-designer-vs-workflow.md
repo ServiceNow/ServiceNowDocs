@@ -3,11 +3,11 @@ title: Exception management workflow versus flow designer in Configuration Compl
 description: Starting with Configuration Compliance \(CC\) v13.0, if you are deploying CC for the first time, the flow designer for approving exception requests in exception management is enabled by default. If you are an existing CC user, the default option is workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/cc-ex-mgt-flow-designer-vs-workflow.html
-release: australia
+release: brazil
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure approval rules for Exception Management in Configuration Compliance, Configure, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---

@@ -3,9 +3,9 @@ title: Generate an on-demand assessment for one assessable record
 description: When you generate an on-demand assessment from the Assessable Record form, the resulting assessment contains questions from the categories associated to the assessable record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_GenOnDemandAssessOneAssessRec.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [On-demand assessments, Assessment administrator tasks, Using assessments, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -41,14 +41,14 @@ Publish the assessment.
 
 The system generates an assessment instance assigned to the selected users.
 
-**Parent Topic:**[On-demand assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_OnDemandAssessments.md)
+**Parent Topic:**[On-demand assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_OnDemandAssessments.md)
 
 **Related topics**  
 
 
-[Assessment generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentGeneration.md)
+[Assessment generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_AssessmentGeneration.md)
 
-[Scheduled assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ScheduledAssessments.md)
+[Scheduled assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_ScheduledAssessments.md)
 
-[Clean up assessment data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CleanUpAssessmentData.md)
+[Clean up assessment data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CleanUpAssessmentData.md)
 

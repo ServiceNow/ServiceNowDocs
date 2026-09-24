@@ -3,11 +3,11 @@ title: Define a release phase in Release Management
 description: Define a release phase to represent the different stages of work required to complete your release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/release-management/t\_DefineAReleasePhase.html
-release: australia
+release: brazil
 product: Release Management
 classification: release-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Release Management v2, Release Management, IT Service Management]
 ---
@@ -106,5 +106,5 @@ Duration of the phase in days. When you submit the form, this field auto-populat
 </table>5.  Click **Submit**.
 
 
-**Parent Topic:**[Using Release Management v2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/release-management/c_Release.md)
+**Parent Topic:**[Using Release Management v2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/release-management/c_Release.md)
 

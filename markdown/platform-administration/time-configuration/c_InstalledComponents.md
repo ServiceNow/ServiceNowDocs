@@ -3,11 +3,11 @@ title: Components installed with Client Transaction Timings
 description: The Client Transaction Timings plugin installs several components.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/c\_InstalledComponents.html
-release: australia
+release: brazil
 product: Time Configuration
 classification: time-configuration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Client transaction timings, Reference, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -26,7 +26,7 @@ The plugin relies on the new script include AJAXClientTiming. This script gather
 
 ## Dependencies
 
-This plugin does not require any other plugins, but does not gather information unless the [Response Time Indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ResponseTimeIndicator.md) [Response Time Indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ResponseTimeIndicator.md) is enabled.
+This plugin does not require any other plugins, but does not gather information unless the [Response Time Indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ResponseTimeIndicator.md) [Response Time Indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ResponseTimeIndicator.md) is enabled.
 
 ## Activating the Plugin
 
@@ -34,5 +34,5 @@ To activate the plugin, navigate to **System Definition** &gt; **Plugins** and a
 
 **Note:** New instances have the plugin activated by default.
 
-**Parent Topic:**[Client transaction timings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_ClientTransactionTimings.md)
+**Parent Topic:**[Client transaction timings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/r_ClientTransactionTimings.md)
 

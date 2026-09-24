@@ -3,9 +3,9 @@ title: Create a task plan template
 description: Create a task plan template that includes template items, such as tasks, that are automatically created when the task plan template is applied.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-task-plan-template.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Task Plan Templates, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -26,7 +26,7 @@ Task plan templates include conditions that determine when the template applies.
 
 After creating a task plan template, you can create the template items, such as case tasks, work order tasks, and child cases. Template items can also include conditions that determine when a template item should be created as well as attachments.
 
-You can also [clone a task plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/clone-task-plan-template.md).
+You can also [clone a task plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/clone-task-plan-template.md).
 
 ## Procedure
 
@@ -40,13 +40,13 @@ You can also [clone a task plan template](https://raw.githubusercontent.com/Serv
 
     1.  If there are task plan template configurations created, select one from the **Task plan template configuration** field.
 
-        The task plan template configuration pre-fills the **Short description** and **Target record** field. For more information about task plan template confgurations, see [Create a task plan template configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/task_plan_template_configurations.md).
+        The task plan template configuration pre-fills the **Short description** and **Target record** field. For more information about task plan template confgurations, see [Create a task plan template configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/task_plan_template_configurations.md).
 
     2.  Provide a **Name** and **Short description** for the task plan template.
 
     3.  The **Target record** identifies the table that the task plan template is applied to.
 
-    For more information about these fields, see [Task Plan Template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/task-plan-template-form.md) form.
+    For more information about these fields, see [Task Plan Template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/task-plan-template-form.md) form.
 
 4.  Select **Submit**.
 
@@ -55,5 +55,5 @@ You can also [clone a task plan template](https://raw.githubusercontent.com/Serv
 
 ## What to do next
 
-After creating a task plan template, you can [create template items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-task-plan-template-item.md) for that template.
+After creating a task plan template, you can [create template items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-task-plan-template-item.md) for that template.
 

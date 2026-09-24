@@ -3,11 +3,11 @@ title: Types of risk rating methodologies
 description: Risks are scored during an assessment and then a rating is derived. Ratings are of three kinds: qualitative, semi-quantitative, and quantitative.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/qual-vs-quant.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Advanced Risk Assessment, Explore, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -36,8 +36,8 @@ The following figure shows an example of semi-quantitative rating.
 
 A quantitative risk assessment focuses on data that is fact-based, measurable, and highly mathematical. In a quantitative risk rating that uses advanced simulation techniques, the risk is quantified in purely numerical terms. In this category, the risk appetite is quantitative in nature.
 
--   **[Transformation criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/transformation-criteria.md)**  
+-   **[Transformation criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/transformation-criteria.md)**  
 After the risk scores are calculated, you can transform the scores into a rating and then easily report the ratings to senior management and to other stakeholders.
 
-**Parent Topic:**[Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/advanced-risk-assessment.md)
+**Parent Topic:**[Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/advanced-risk-assessment.md)
 

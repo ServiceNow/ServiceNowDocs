@@ -1,24 +1,24 @@
 ---
-title: NLU language support
+title: \(Legacy\) NLU language support
 description: The NLU Workbench application provides support for creating NLU models in different languages for use in other applications, such as Virtual Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/nlu-language-support.html
-release: australia
+release: brazil
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
-breadcrumb: [Exploring Natural Language Understanding, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) Exploring Natural Language Understanding, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# NLU language support
+# \(Legacy\) NLU language support
 
 The NLU Workbench application provides support for creating NLU models in different languages for use in other applications, such as Virtual Agent.
 
 The platform supports NLU for 17 languages. Ten of these languages available to your models have both intent and entity support; the remaining 7 languages have intent-only support. \(Japanese entity support includes character annotation.\)
 
-**Note:** Install the language plugins for languages you want to use in NLU. Installing and activating language plugins ensures that the languages are available in your instance. For more information see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateALanguage.md).
+**Note:** Install the language plugins for languages you want to use in NLU. Installing and activating language plugins ensures that the languages are available in your instance. For more information see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivateALanguage.md).
 
 With intent and entity support, NLU can understand sophisticated utterances such as intent-entity relationships, system entities, and user-defined entities. NLU relays this information to Virtual Agent, and the user is usually taken directly to the conversation topic that offers resolution.
 

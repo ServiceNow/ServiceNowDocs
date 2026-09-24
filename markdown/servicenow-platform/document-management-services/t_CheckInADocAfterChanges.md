@@ -3,11 +3,11 @@ title: Check in a document after making changes
 description: After making changes to a document, check the revised document into Managed Documents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/t\_CheckInADocAfterChanges.html
-release: australia
+release: brazil
 product: Document Management Services
 classification: document-management-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managed Documents, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -41,5 +41,5 @@ Role required: document\_management\_user
     The Document Revisions list updates to contain the most recent revision.
 
 
-**Parent Topic:**[Managed Documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/c_ManagedDocuments.md)
+**Parent Topic:**[Managed Documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/c_ManagedDocuments.md)
 

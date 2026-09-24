@@ -3,11 +3,11 @@ title: Configure a proxy server using PAC file \(automatic configuration script 
 description: Configure the Proxy Auto-Configuration \(PAC\) file or Windows proxy auto detection \(WPAD\) using the Internet Explorer \(IE\) settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/win-proxy-server-pac-file-password-reset.html
-release: australia
+release: brazil
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the Password Reset Windows Application to use a proxy server, Installing and configuring Password Reset Windows Application, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -41,8 +41,8 @@ The Password Reset Windows Application internal classes automatically pick the c
 5.  Click **OK**.
 
 
--   **[PAC file with registry setting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/win-pac-file-with-registry-setting.md)**  
+-   **[PAC file with registry setting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/win-pac-file-with-registry-setting.md)**  
 In this proxy configuration, the Proxy Auto-Configuration \(PAC\) file can be configured in Password Reset Windows Application registry settings.
 
-**Parent Topic:**[Configure the Password Reset Windows Application to use a proxy server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/win-config-proxy-server-password-reset.md)
+**Parent Topic:**[Configure the Password Reset Windows Application to use a proxy server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/win-config-proxy-server-password-reset.md)
 

@@ -3,11 +3,11 @@ title: Administer detail rows
 description: Detail rows provide additional information about records in a list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/t\_EnableDetailRows.html
-release: australia
+release: brazil
 product: List Administration
 classification: list-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Administer, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -28,7 +28,7 @@ To display detail rows, an administrator must enable them globally and add them 
 
 ## Procedure
 
-1.  To enable detail rows, [add a new system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) with the following field values.
+1.  To enable detail rows, [add a new system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) with the following field values.
 
 <table id="table_esm_jyw_j1b"><tbody><tr><td>
 
@@ -57,7 +57,7 @@ true
 </td></tr></tbody>
 </table>2.  To add detail rows to a list, complete the following steps.
 
-    1.  Add the **detail\_row** [dictionary attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md) to the table.
+    1.  Add the **detail\_row** [dictionary attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md) to the table.
 
         Specify the name of the field to display in the following format: `detail_row=short_description`
 
@@ -69,7 +69,7 @@ true
 **Related topics**  
 
 
-[Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UseLists.md)
+[Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_UseLists.md)
 
-[Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md)
+[Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md)
 

@@ -3,12 +3,12 @@ title: Create discovery job
 description: Create and schedule a new Data Discovery Store job.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/data-discovery/dds-create-new-job.html
-release: australia
+release: brazil
 product: Data Discovery
 classification: data-discovery
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Data Discovery scheduled discovery, Data Discovery Store, Data Discovery, Platform Privacy]
 ---
 
@@ -60,6 +60,7 @@ Scan Type
 
 Number of entries to be scanned. Possible states are as follows:-   **Sample**: Scans 10,000 entries.
 -   **Full**: Scans all entries.
+-   **Incremental**: Scans new or modified records or configurations.
 
 
 </td></tr><tr><td>
@@ -95,6 +96,47 @@ Time window end
 The end of the time window to run this job. The job runs until the time entered in this field. If the job hasn't complete this time, the job pauses and resumes at the next time window start. The time entered in the **Time window end** field must happen after the time entered in the **Time window start** field.**Note:** A valid time value is in Coordinated Universal Time based on a 24-hour time notation.
 
 </td></tr></tbody>
-</table>4.  Select the **Schedule** button.
+</table>4.  Select additional options for your job:
+
+    Depending on the selected Scan Type you've chosen, you can choose from the following optional checkbox options to further define your discovery job:
+
+<table id="table_gk4_kbc_ckc"><thead><tr><th>
+
+Option
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Scan attachments
+
+</td><td>
+
+Scan file attachments that are not strictly image files.**Note:** You can view the attachments which contain sensitive data by selecting **Attachment Findings** in the **Scheduled Discovery** menu,
+
+The following file types are supported when scanning attachments: PDF, DOC\(X\), TXT, XLS\(X\), CSV, XML, EML, MSG, JPG, JPEG and PNG.
+
+**Warning:** This feature requires sending your data to a controlled ServiceNow environment. Contact your account and support teams for enabling the attachment scanning feature
+
+</td></tr><tr><td>
+
+Track granular findings
+
+</td><td>
+
+Show the specific records that contain sensitive data. Enabling this option may increase job run times.**Note:** You can see these results in the job details after the job completes, by selecting the **Data Discovery Granular Findings** tab.
+
+</td></tr><tr><td>
+
+Scan embedded images
+
+</td><td>
+
+Scans standalone images \(for example, PNG or JPG files\) and images embedded within documents \(such as scanned PDFs or Word files with image attachments\). Enabling this may increase scan duration significantly depending on the number of documents and images.**Note:** You can view the images which contain sensitive data by selecting **Attachment Findings** in the **Scheduled Discovery** menu,
+
+</td></tr></tbody>
+</table>5.  Select the **Schedule** button.
 
 

@@ -3,11 +3,11 @@ title: Create a class profile of visible layers for classes
 description: Configure a class profile that specifies which layers should appear for a particular class: application, service instance, business, or infrastructure. For example, you can configure that the mapped application service \(service instance\) \[cmdb\_ci\_service\_discovered\] class should display only Service Mapping data and not infrastructure elements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/unified-map/unified-map-config-class-profile.html
-release: australia
+release: brazil
 product: Unified Map
 classification: unified-map
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Administer, Unified Map, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -107,13 +107,13 @@ Option to set the profile as available for use.
 </td></tr></tbody>
 </table>3.  Select **Submit** or **Update**.
 
-    The updated settings appear in the appropriate related list on the Configuration identifier form, as described in [Configuring Unified Map — admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/administer-unified-map.md).
+    The updated settings appear in the appropriate related list on the Configuration identifier form, as described in [Configuring Unified Map — admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/unified-map/administer-unified-map.md).
 
 
-**Parent Topic:**[Configuring Unified Map — admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/administer-unified-map.md)
+**Parent Topic:**[Configuring Unified Map — admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/unified-map/administer-unified-map.md)
 
 **Related topics**  
 
 
-[Create or manage a user preset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-manage-preset-filter.md)
+[Create or manage a user preset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/unified-map/unified-map-manage-preset-filter.md)
 

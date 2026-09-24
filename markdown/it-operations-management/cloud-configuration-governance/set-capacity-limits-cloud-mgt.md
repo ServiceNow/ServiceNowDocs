@@ -3,11 +3,11 @@ title: Set capacity limits on user requests for resources
 description: Capacity limits place restrictions on the attributes of cloud resources such as the number of virtual machines, virtual CPUs, or aggregate storage. You can set limits on resources separately for each logical datacenter in a cloud account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/set-capacity-limits-cloud-mgt.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Additional Cloud Provisioning and Governance setup on day 2, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -55,5 +55,5 @@ Role required: sn\_cmp.cloud\_admin
 
 Click **Discover Now** to run Discovery on the logical datacenters.
 
-**Parent Topic:**[Additional Cloud Provisioning and Governance setup on day 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-mgt-general-setup-day-2.md)
+**Parent Topic:**[Additional Cloud Provisioning and Governance setup on day 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/cloud-mgt-general-setup-day-2.md)
 

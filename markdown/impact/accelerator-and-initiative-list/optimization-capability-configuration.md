@@ -3,11 +3,11 @@ title: Optimization Capability Configuration
 description: This Accelerator provides support in configuring capabilities and features to enhance platform health and drive ServiceNow product adoption.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/optimization-capability-configuration.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Optimization, Capability Configuration, Platform Health, Sprint Configuration, ServiceNow Adoption]
 breadcrumb: [Optimization Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]

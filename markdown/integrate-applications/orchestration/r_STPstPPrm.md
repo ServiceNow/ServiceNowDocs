@@ -3,11 +3,11 @@ title: SOAP template post-processing parameters
 description: Use these parameters to create a post-processing script.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/r\_STPstPPrm.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a SOAP web service activity, Orchestration custom activity templates, Orchestration activity designer, Classic Orchestration, Workflow Data Fabric]
 ---
@@ -23,5 +23,5 @@ Use these parameters to create a post-processing script.
 |Body|body|String|Contains a string value representing the output from the SOAP message|
 |Error|error|String|Returns the error string from the SOAP web service, unless there are no errors, in which case it returns**null**.|
 
-**Parent Topic:**[Create a SOAP web service activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateASOAPWebServiceActivity.md)
+**Parent Topic:**[Create a SOAP web service activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/t_CreateASOAPWebServiceActivity.md)
 

@@ -3,9 +3,9 @@ title: Sync context variables to CPQ
 description: Sync context variables to CPQ to be associated with blueprints.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/sync-variable-to-cpq.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -48,5 +48,5 @@ Navigate to **All** &gt; **CPQ Administration** &gt; **ALL FIELDS** to verify an
 **Related topics**  
 
 
-[Create a custom context variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-create-context-variable.md)
+[Create a custom context variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-create-context-variable.md)
 

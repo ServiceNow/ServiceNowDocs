@@ -3,11 +3,11 @@ title: Add dynamic titles to a page
 description: Create variables to generate descriptive titles depending on the content loaded into a page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/add-page-title.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Improving search engine optimization for portals, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -130,7 +130,7 @@ Field from the table defined in the **Table** field. This field is used to gener
 
 When the page loads, the record defined in the URL query parameter displays. The field defined in **Table field** determines the title of the page.
 
-**Parent Topic:**[Improving search engine optimization for portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/seo-sp.md)
+**Parent Topic:**[Improving search engine optimization for portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/seo-sp.md)
 
 **Related topics**  
 

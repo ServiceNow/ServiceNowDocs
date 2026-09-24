@@ -3,9 +3,9 @@ title: List view of application rationalization
 description: As an Enterprise Architect, you can view the list of all business applications. The List view enables you to see high-level information on all your business applications and all the indicator scores that are attached to them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-list-view.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Rationalization of business applications, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -18,16 +18,16 @@ As an Enterprise Architect, you can view the list of all business applications. 
 
 ## Overview of the list view
 
-The list view of application rationalization enables you to view all available applications based on your scoring profile, in your enterprise architecture landscape. For details, see [Configure scoring profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-setup-scroring-prof.md).
+The list view of application rationalization enables you to view all available applications based on your scoring profile, in your enterprise architecture landscape. For details, see [Configure scoring profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-setup-scroring-prof.md).
 
 You can perform side-by-side comparison of application scores and indicators across multiple dimensions.
 
-You can also create your own application indicators to analyze business applications in the List view. For information on how to create custom application indicators, see [Add or edit an application indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-indicator.md). The new custom indicators appear as new columns in the list view.
+You can also create your own application indicators to analyze business applications in the List view. For information on how to create custom application indicators, see [Add or edit an application indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-indicator.md). The new custom indicators appear as new columns in the list view.
 
 **Note:**
 
--   The created indicator must also be attached to the default application profile. For information on how to attach new profile indicators with a scoring profile, see [Attach a profile indicator to a scoring profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-attach-profile-indicators-with-application-scoring-profiles.md).
--   If the created indicator isn’t displayed in the list, verify that the indicator is active. For information on how to activate an indicator, see [Activate or turn off an application or capability indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-enable-or-disable-an-application-indicator.md).
+-   The created indicator must also be attached to the default application profile. For information on how to attach new profile indicators with a scoring profile, see [Attach a profile indicator to a scoring profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-attach-profile-indicators-with-application-scoring-profiles.md).
+-   If the created indicator isn’t displayed in the list, verify that the indicator is active. For information on how to activate an indicator, see [Activate or turn off an application or capability indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-enable-or-disable-an-application-indicator.md).
 
 All the indicator scores are displayed according to the latest fiscal period, by default. You can also select a different fiscal period from the Scores for fiscal period list. Your fiscal period preferences are saved and applied the next time you visit the page.
 
@@ -39,7 +39,7 @@ You can select the name of a business application to open it and view its associ
 
 Business applications marked as **Retired** or in **End of Life** lifecycle stage aren’t displayed on the Application Rationalization List view page. However, you can view those business applications by updating the **sn\_apm\_ws.business\_application\_default\_filter** system property. Contact your ServiceNow® account service manager to update the system property.
 
-You can also generate insights into business applications using Now Assist. For information, see [Generate insights into business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/generate-insights-into-ba.md).
+You can also generate insights into business applications using Now Assist. For information, see [Generate insights into business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/generate-insights-into-ba.md).
 
 ## View and compare actual and normalized indicator scores
 
@@ -63,27 +63,27 @@ Your display preferences are saved and applied the next time you visit the page.
 
 You can perform the following from the list view page:
 
--   Edit business application details. For more information, see [Edit business application details in list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-edit-business-application-details.md).
--   Create a demand for a business application. For more information, see [Create a demand using the list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-a-demand-using-the-list-view.md).
--   Set the planned disposition of a business application. For more information, see [Set the planned disposition of a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-set-planned-disposition-of-a-business-application-listview.md).
--   Add the business application lifecycle data. For more information, see [Add business application lifecycle data using the list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-business-application-lifecycle-data-listview.md).
+-   Edit business application details. For more information, see [Edit business application details in list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-edit-business-application-details.md).
+-   Create a demand for a business application. For more information, see [Create a demand using the list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-a-demand-using-the-list-view.md).
+-   Set the planned disposition of a business application. For more information, see [Set the planned disposition of a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-set-planned-disposition-of-a-business-application-listview.md).
+-   Add the business application lifecycle data. For more information, see [Add business application lifecycle data using the list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-add-business-application-lifecycle-data-listview.md).
 -   You can add or hide the displayed columns according to your requirement by selecting the Personalize icon \(\[Omitted image "icon-bubblechart-settings.png"\] Alt text: Personalize icon.\). Your display preferences are saved and applied the next time you visit the page.
--   Export the list view data to Microsoft Excel or CSV. For more information, see [Export application rationalization data to Excel or CSV](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-export-app-rat-list-data.md).
+-   Export the list view data to Microsoft Excel or CSV. For more information, see [Export application rationalization data to Excel or CSV](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-export-app-rat-list-data.md).
 
 **Note:** You can zoom on this page to 200% or 400% through your browser settings without the loss of content or functionality. Page layouts are transformed into a vertical, stacked view automatically.
 
-**Parent Topic:**[Rationalization of business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-rationalize-business-applications.md)
+**Parent Topic:**[Rationalization of business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-rationalize-business-applications.md)
 
 **Related topics**  
 
 
-[Edit a demand associated with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-edit-a-demand-associated-with-a-business-application.md)
+[Edit a demand associated with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-edit-a-demand-associated-with-a-business-application.md)
 
-[Edit a project associated with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-edit-a-project-associated-with-a-business-application.md)
+[Edit a project associated with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-edit-a-project-associated-with-a-business-application.md)
 
-[Export application rationalization data to Excel or CSV](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-export-app-rat-list-data.md)
+[Export application rationalization data to Excel or CSV](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-export-app-rat-list-data.md)
 
-[Apply filters on the Application Rationalization page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-apply-filters-app-rat.md)
+[Apply filters on the Application Rationalization page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-apply-filters-app-rat.md)
 
-[Generate insights into business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/generate-insights-into-ba.md)
+[Generate insights into business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/generate-insights-into-ba.md)
 

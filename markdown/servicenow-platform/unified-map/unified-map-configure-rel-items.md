@@ -3,11 +3,11 @@ title: Configure the Related items panel
 description: Configure which categories of related items, such as active incidents and active problems, appear on the Unified Map Related items panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/unified-map/unified-map-configure-rel-items.html
-release: australia
+release: brazil
 product: Unified Map
 classification: unified-map
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View related items, Use, Unified Map, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---

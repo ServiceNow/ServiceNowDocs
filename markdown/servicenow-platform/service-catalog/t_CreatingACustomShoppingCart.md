@@ -3,11 +3,11 @@ title: Create a custom cart
 description: Administrators with a knowledge of Jelly can customize the look and feel of service catalog carts, either globally or for specific catalog items, using the UI macro capability.Link the default cart or a custom cart to an item so the requester sees the pertinent information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_CreatingACustomShoppingCart.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create scripts, Service Catalog customization, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -41,7 +41,7 @@ Role required: admin
 
 After creating a custom card, you can reuse it and link it to catalog items.
 
-**Parent Topic:**[Create scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_ServiceCatalogScriptingExtensn.md)
+**Parent Topic:**[Create scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/r_ServiceCatalogScriptingExtensn.md)
 
 ## Link a cart to an item
 

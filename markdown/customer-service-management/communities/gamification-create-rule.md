@@ -3,11 +3,11 @@ title: Create a gamification rule
 description: Create gamification rules so that users can earn points for community activities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/gamification-create-rule.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Administer gamification, Configuring communities, Communities, Customer Service Management]
 ---
@@ -19,6 +19,10 @@ Create gamification rules so that users can earn points for community activities
 ## Before you begin
 
 Role required: sn\_gamification.admin
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Procedure
 
@@ -116,5 +120,5 @@ The points accrued can be used towards a forum or topic level expertise. Click t
     The newly created rule appears on the Gamification Rules list. This rule appears on the How to Earn Points page.
 
 
-**Parent Topic:**[Administer gamification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communities-gamification-administer.md)
+**Parent Topic:**[Administer gamification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/communities-gamification-administer.md)
 

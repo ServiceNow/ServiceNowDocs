@@ -3,9 +3,9 @@ title: Roles installed with Model Risk Management
 description: The Model Risk Management application installs the essential roles to perform respective day-to-day operational tasks for managing models.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/roles-installed-with-mrm.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Model Risk Management, Governance, Risk, and Compliance]
 ---
@@ -175,5 +175,5 @@ Model Risk Initiator can request new models from the Employee Center or Service 
 </td></tr></tbody>
 </table>For more information, see the [Employee Center](https://www.servicenow.com/products/employee-center.html).
 
-**Parent Topic:**[Model Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/mrm-reference.md)
+**Parent Topic:**[Model Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/mrm-reference.md)
 

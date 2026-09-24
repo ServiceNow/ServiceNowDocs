@@ -3,11 +3,11 @@ title: View and update incident information on the Overview tab
 description: View and update the incident information, such as summary, impact, cause, and resolution, from the Overview tab. This incident information helps you analyze the issue and resolve the incident quickly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/view-update-inc-overview-tab.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Incident Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -18,7 +18,7 @@ View and update the incident information, such as summary, impact, cause, and re
 
 ## Before you begin
 
-An incident must be created. For more information, see [Create an incident in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-incident-sow.md).
+An incident must be created. For more information, see [Create an incident in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-incident-sow.md).
 
 Role required: itil
 
@@ -135,7 +135,7 @@ Major Incident state
 
 </td><td>
 
-State of the Major incident. **Note:** This field is available only if the Major Incident Management for Service Operations Workspace \(sn\_sow\_mim\) plugin is installed and active. For more information, see [Setting up Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/setup-mim-sow.md).
+State of the Major incident. **Note:** This field is available only if the Major Incident Management for Service Operations Workspace \(sn\_sow\_mim\) plugin is installed and active. For more information, see [Setting up Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/setup-mim-sow.md).
 
 </td></tr><tr><td>
 
@@ -147,8 +147,6 @@ User who reported the incident.
 
 </td></tr></tbody>
 </table>    3.  Select the **Save Summary** \(\[Omitted image "mim-save-icon.png"\] Alt text: Save icon\) icon.
-
-    **Note:** The static Summary card section is not available. Instead, you can use the AI summary and suggestion card to view the incident summary and resolution information.
 
 4.  On the Impact Summary section, edit the information as needed.
 
@@ -181,12 +179,12 @@ User who reported the incident.
 
         -   Caller of the incident.
         -   Callers of the child incidents.
-        -   Service offerings associated with the Incident. This source is only used if Service Portfolio Management Foundation is activated and being used. For more information, see [Activate Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/activate-SPM2-plugin.md).
+        -   Service offerings associated with the Incident. This source is only used if Service Portfolio Management Foundation is activated and being used. For more information, see [Activate Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-portfolio-management/activate-SPM2-plugin.md).
     -   Number of impacted locations – Number of unique locations calculated based on the number of users.
     -   Impact world map – Map of impacted locations marked on the world map along with the impacted users. You can view the impacted users counts and details at these locations. You can further narrow down to the continent, country, state, or city level.
     **Note:**
 
-    -   The Location section is available only if the Major Incident Management for Service Operations Workspace \(sn\_sow\_mim\) plugin is installed and active, and if the incident is a major incident. For more information, see [Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/mim-in-sow.md).
+    -   The Location section is available only if the Major Incident Management for Service Operations Workspace \(sn\_sow\_mim\) plugin is installed and active, and if the incident is a major incident. For more information, see [Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/mim-in-sow.md).
     -   You can add multiple locations from the Affected location related list in the **Related records** tab of the Major incident record.
 6.  Select the following cards to add or update the configuration items associated with the Incident.
 
@@ -243,9 +241,9 @@ User who reported the incident.
 
     -   The activity stream in the **Overview** and **Details** tab displays the activity information in tiles that are collapsible. By default, the latest event activity tile, if a work note or additional comment, is expanded and the other consecutive event activity tiles are collapsed. The collapsed tile only displays the time stamp and the activity event source name. This ensures a clean UI and enables you to expand and view the activity information when required. To enable this feature, set the **Enable the expandable activity stream tiles** \(**enableExpandableActivityStreamTiles**\) UX page property to `true`.
     -   An internal tag is added for the work notes.
-    -   You can define, customize, and apply tags to the activity streams. These tags help you search and filter the activity based on the tags. By default, no pre-defined tags are available in the base system. However, you can use the **Activity stream property** \(**activitystreamprops**\) UX Page Properties for SOW to define and customize your tags for incident records. For more information, see [Define and customize activity stream tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/define-customize-activity-stream-tags.md).
+    -   You can define, customize, and apply tags to the activity streams. These tags help you search and filter the activity based on the tags. By default, no pre-defined tags are available in the base system. However, you can use the **Activity stream property** \(**activitystreamprops**\) UX Page Properties for SOW to define and customize your tags for incident records. For more information, see [Define and customize activity stream tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/define-customize-activity-stream-tags.md).
 
-**Parent Topic:**[Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/incident-sow.md)
+**Parent Topic:**[Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/incident-sow.md)
 
 **Related topics**  
 

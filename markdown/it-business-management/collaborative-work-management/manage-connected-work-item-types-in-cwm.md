@@ -3,11 +3,11 @@ title: Manage connected work item types in CWM
 description: Enable, disable, refresh data, or delete the connected work item types on your CWM Board to keep the work items up to date based on changing requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/manage-connected-work-item-types-in-cwm.html
-release: australia
+release: brazil
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Connect work, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -36,7 +36,7 @@ Role required: sn\_cwm.cwm\_user
 
 5.  Update the filter conditions for a work item type by selecting **Edit** from the More actions menu \(\[Omitted image "cwm-icon-page-actions.png"\] Alt text: More actions icon.\).
 
-    For more information, see [Update filter conditions for connected work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/update-conditions-for-connected-work-in-cwm.md).
+    For more information, see [Update filter conditions for connected work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/update-conditions-for-connected-work-in-cwm.md).
 
 6.  Select **Refresh data** from the More actions menu \(\[Omitted image "cwm-icon-page-actions.png"\] Alt text: More actions icon.\) to fetch any latest records for the work item type that you defined.
 
@@ -55,5 +55,5 @@ Role required: sn\_cwm.cwm\_user
 
 The Board is refreshed to load the work items based on your changes.
 
-**Parent Topic:**[Connected work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/unified-boards-for-connected-work-in-cwm.md)
+**Parent Topic:**[Connected work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/unified-boards-for-connected-work-in-cwm.md)
 

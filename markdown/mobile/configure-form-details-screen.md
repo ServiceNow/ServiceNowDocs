@@ -3,9 +3,9 @@ title: Configure a details screen for a record screen
 description: Create a details screen to display record fields on your screen.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/configure-form-details-screen.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Record screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -40,7 +40,7 @@ Role required: admin
 
 8.  Complete the following fields as needed.
 
-    **Note:** The available fields that can be configured on a details screen form are determined by your organization's mobile UI rules. For more information, see [Mobile UI Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-ui-rules.md).
+    **Note:** The available fields that can be configured on a details screen form are determined by your organization's mobile UI rules. For more information, see [Mobile UI Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-ui-rules.md).
 
 <table id="table_wrg_24n_lwb"><thead><tr><th>
 
@@ -86,7 +86,7 @@ Settings that determine when data is loaded in your screens. Select from the fol
 -   **Background**: The app makes a background network request to load embedded screens or record screen segments.
 -   **Dynamic prefetch**: Screens for the first 10 rows load as described for the **Prefetch** fetch type. After the 10 first rows load, additional rows of screens load with the **On-demand** fetch type.
 -   **On-demand**: The app sends a network request to load the app only when end users navigate to it.
- For more information about fetch types, see [Mobile fetch types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/applet-fetch-types.md).
+ For more information about fetch types, see [Mobile fetch types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/applet-fetch-types.md).
 
 </td></tr><tr><td>
 
@@ -118,7 +118,7 @@ Screen fields
 
 </td><td>
 
-Sets the fields for the details screen. For information about setting these fields, see [Screen fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-screen-field-enhancements.md).
+Sets the fields for the details screen. For information about setting these fields, see [Screen fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-screen-field-enhancements.md).
 
 </td></tr><tr><td>
 
@@ -126,7 +126,7 @@ Field function instances
 
 </td><td>
 
-\(Optional\) Sets the functions for your details screen. Select an existing field function instance or select **New** to add one. For information about adding field functions, see [Add functions to your details screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/details-screen-functions.md).
+\(Optional\) Sets the functions for your details screen. Select an existing field function instance or select **New** to add one. For information about adding field functions, see [Add functions to your details screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/details-screen-functions.md).
 
 </td></tr><tr><td>
 
@@ -134,7 +134,7 @@ Footer function instances
 
 </td><td>
 
-\(Optional\) Sets the function in the footer region of the mobile app screen. Select an existing footer function instance or select **New** to add one. For more information about adding a footer function instance, see [Associate a function with a location in the app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-button-instances.md).
+\(Optional\) Sets the function in the footer region of the mobile app screen. Select an existing footer function instance or select **New** to add one. For more information about adding a footer function instance, see [Associate a function with a location in the app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-studio-button-instances.md).
 
 </td></tr><tr><td>
 
@@ -142,7 +142,7 @@ UI parameters
 
 </td><td>
 
-UI parameters are variables that affect how a field or UI element behaves. Use UI parameters to determine how a value can be entered or whether it is automatically populated for the UI element based on the end user's action. Select an existing UI parameter or select **New** to add one. For more information about adding a UI parameter, see [Configure a parameterized record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-param-form-applet.md).
+UI parameters are variables that affect how a field or UI element behaves. Use UI parameters to determine how a value can be entered or whether it is automatically populated for the UI element based on the end user's action. Select an existing UI parameter or select **New** to add one. For more information about adding a UI parameter, see [Configure a parameterized record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/configure-param-form-applet.md).
 
 </td></tr></tbody>
 </table>9.  Select **Save**.

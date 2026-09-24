@@ -3,11 +3,11 @@ title: Request an exception for remediation tasks using GRC: Policy and Complian
 description: Request policy exceptions using the GRC policy exception management capability in the Policy and Compliance Management application from within Configuration Compliance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/integrate-with-grc-cc.html
-release: australia
+release: brazil
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Requesting and approving an exception for a remediation task, Use, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
@@ -26,7 +26,7 @@ You can also request exceptions in the classic UI.
 
 ## About this task
 
-**Important:** As an admin and a remediation owner, you can request a policy exception for a Remediation Task \(RT\) in the [Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vr-ws-exceptions-split-VMGR-ws.md) and [IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/it-remediation-workspace/vr-ws-request-exception-grc.md) respectively.
+**Important:** As an admin and a remediation owner, you can request a policy exception for a Remediation Task \(RT\) in the [Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-manager-workspace/vr-ws-exceptions-split-VMGR-ws.md) and [IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/it-remediation-workspace/vr-ws-request-exception-grc.md) respectively.
 
 **Note:** Starting with v14.9 of Configuration Compliance, the following terms have been renamed:
 
@@ -86,7 +86,7 @@ Valid until
 
 </td><td>
 
-Date when the policy exception expires and when the state of the vulnerable item or group changes from Deferred to Open.**Note:** The number of days that the policy exception is valid can’t exceed the **Maximum exception duration \(days\)** that you set for the policy in Policy and Compliance. For more information, see [Create a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/t_DefineAPolicy.md).
+Date when the policy exception expires and when the state of the vulnerable item or group changes from Deferred to Open.**Note:** The number of days that the policy exception is valid can’t exceed the **Maximum exception duration \(days\)** that you set for the policy in Policy and Compliance. For more information, see [Create a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/t_DefineAPolicy.md).
 
 </td></tr><tr><td>
 
@@ -139,6 +139,6 @@ Details that are related to the reason why this request is being made. This fiel
 
 4.  Click **Submit**.
 
-    For more information on the Policy Exception Integration and the hand-off between the remediation owner and the compliance manager, see [Policy and Compliance Management optional setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-compliance-optional-steps.md).
+    For more information on the Policy Exception Integration and the hand-off between the remediation owner and the compliance manager, see [Policy and Compliance Management optional setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-compliance-optional-steps.md).
 
 

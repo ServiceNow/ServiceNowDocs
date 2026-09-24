@@ -3,11 +3,11 @@ title: Computer Telephony Integration in Service Operations Workspace
 description: Service Operations Workspace provides an agent \(with the sn\_openframe\_user role\) to receive inbound calls and place outbound calls using the Computer Telephony Integration \(CTI\) interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-cti-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -23,7 +23,7 @@ The OpenFrame window is available to agents with the following roles.
 -   sn\_customerservice.consumer\_agent
 -   admin
 
-After getting the required role, CTI must be enabled in the Service Operations Workspace by the admin. For more information about enabling CTI in the Service Operations Workspace, see [Enable Computer Telephony Integration providers to interact with the Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/integrate-cti-sow.md).
+After getting the required role, CTI must be enabled in the Service Operations Workspace by the admin. For more information about enabling CTI in the Service Operations Workspace, see [Enable Computer Telephony Integration providers to interact with the Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/integrate-cti-sow.md).
 
 After the CTI integration, the agent can call a user using the phone number in the user profile and contact cards through any of these options:
 
@@ -42,7 +42,7 @@ Ensure that your instance contains the required connectors for communication.
     \[Omitted image "on-call-escalation-cti.png"\] Alt text: Agent making a CTI call from an on-call escalation.
 
 
-**Parent Topic:**[Managing IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/managing-services-operations-in-organization.md)
+**Parent Topic:**[Managing IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/managing-services-operations-in-organization.md)
 
 **Related topics**  
 

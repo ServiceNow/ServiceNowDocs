@@ -3,11 +3,11 @@ title: Compliance Case Management landing page
 description: See an overview of all your compliance case-related information on your GRC: Compliance Case Management landing page. You can also create the cases, requests, and issues from this GRC: Compliance Case Management landing page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/ccm-workspace.html
-release: australia
+release: brazil
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Explore, Compliance Case Management, Governance, Risk, and Compliance]
 ---
@@ -211,5 +211,5 @@ In the Requests section, you can access all the requests that are assigned to yo
     All the requests that are awaiting your approval.
 
 
-**Parent Topic:**[Exploring Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/ccm-overview.md)
+**Parent Topic:**[Exploring Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/ccm-overview.md)
 

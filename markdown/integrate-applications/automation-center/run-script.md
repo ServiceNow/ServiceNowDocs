@@ -3,11 +3,11 @@ title: Run fix script to view results
 description: Run a fix script in ServiceNow to view the results of the automation explorer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/run-script.html
-release: australia
+release: brazil
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2026-03-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, ServiceNow Otto for Automation Center, Use, Automation Center, Workflow Data Fabric]
 ---
@@ -43,5 +43,5 @@ Role required: admin
     -   Records Skipped — the number of records that did not meet processing criteria.
     -   Errors — any errors encountered during execution. Investigate and resolve before re-running the script if errors are present.
 
-**Parent Topic:**[Using ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/use-now-assist.md)
+**Parent Topic:**[Using ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/use-now-assist.md)
 

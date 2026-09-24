@@ -3,11 +3,11 @@ title: Troubleshooting IBM QRadar offense ingestion integration
 description: This section covers important troubleshooting tips and frequently asked questions related to IBM QRadar offense ingestion.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/ibm-qradar-trouble.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [IBM QRadar Offense Ingestion Integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -23,7 +23,7 @@ This section covers important troubleshooting tips and frequently asked question
     \[Omitted image "ibm-qradar-trouble-intrun.png"\] Alt text: IBM QRadar integration run
 
 -   SSL issues: When connecting to IBM QRadar cloud instances, ensure that the instance has a valid CA certificate which has not expired. You can import RSA or your own certificates into the platform and ensure that the common name of the certificate matches host name. See [https://support.servicenow.com/nav\_to.do?uri=%2Fkb\_view.do%3Fsys\_kb\_id%3D55ecefd61bf3774cada243f6fe4bcb44](https://support.servicenow.com/nav_to.do?uri=%2Fkb_view.do%3Fsys_kb_id%3D55ecefd61bf3774cada243f6fe4bcb44) for details.
--   Incomplete profile: While configuring the profile, in the Additional Options \([Automate offense updates and closure based on SIR incident status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/qradar-ibm-create-profile-additional.md)\) section, you must click the **Finish** button to ensure that the profile is moved to Waiting state indicating that it is waiting for ingestion.
+-   Incomplete profile: While configuring the profile, in the Additional Options \([Automate offense updates and closure based on SIR incident status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/qradar-ibm-create-profile-additional.md)\) section, you must click the **Finish** button to ensure that the profile is moved to Waiting state indicating that it is waiting for ingestion.
 -   Validate profile: To validate if the integration is working correctly, check the profile states, last pulled date of profile, offense import table, offense to task table records.
 -   MID server configuration: If you are installing the IBM QRadar application on-premise, after configuring the MID server, you must create a MID server application. The MID server application name should be used in integration configurations tile instead of the MID server name.
 

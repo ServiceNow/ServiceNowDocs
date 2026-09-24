@@ -3,11 +3,11 @@ title: Monitoring the progress of testing
 description: Track the testing progress for test plans, test cases, and individual tests using the Test Plans module or the Test Management dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/t\_MonitorTestingProgress.html
-release: australia
+release: brazil
 product: Test Management
 classification: test-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Test Management 1.0, Test Management applications, Strategic Portfolio Management]
 ---
@@ -44,5 +44,5 @@ When you open a test case from the Test Cases related list, you can view the fol
 
 ## Test Management dashboard
 
-Analyze the progress of all your active test plans by using multiple reports on the Test Management dashboard. For more information, see [Test Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/r_TestManagementDashboard.md).
+Analyze the progress of all your active test plans by using multiple reports on the Test Management dashboard. For more information, see [Test Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/test-management/r_TestManagementDashboard.md).
 

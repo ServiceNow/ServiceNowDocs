@@ -3,11 +3,11 @@ title: MID Server PowerShell files
 description: PowerShell functions are stored in script files \(\*.ps1\) that use a PowerShell Script module \(\*.psm1\) file name extension.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/mid-server-powershell-files.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [PowerShell protocols and troubleshooting, PowerShell activity pack, Orchestration activity packs, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -27,7 +27,7 @@ The PowerShell functions are used by the PowerShell MID Server script files incl
 
 This script performs a few tasks, such as credential testing, password encryption, and the execution of scripts configured in the Orchestration Activity Designer or in MID Script Files. However, this document focuses on how PSScript.ps1 uses the `credential.psm1` module for testing access to remote hosts.
 
-The PowerShell variables are generally used directly in the [PowerShell execution command](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/CreateInputVariables.md) or as arguments in the MID Server script file you specify. There are special variables that are passed to PSScript.ps1, such as **credType**.
+The PowerShell variables are generally used directly in the [PowerShell execution command](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/CreateInputVariables.md) or as arguments in the MID Server script file you specify. There are special variables that are passed to PSScript.ps1, such as **credType**.
 
 \[Omitted image "credTypeExample.png"\] Alt text: Using credType in execution parameters
 
@@ -120,15 +120,15 @@ This diagram illustrates the dependency of the credential selection behavior on 
 
 ## ActiveDirectory.psm1
 
-This module file stores the functions used by the PowerShell scripts shipped with the [Active Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchActiveDirectoryActivities.md) activity pack.
+This module file stores the functions used by the PowerShell scripts shipped with the [Active Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_OrchActiveDirectoryActivities.md) activity pack.
 
 ## Exchange.psm1
 
-This module file stores the functions used by the PowerShell scripts shipped with the [Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchestrationExchangeActivities.md) activity pack.
+This module file stores the functions used by the PowerShell scripts shipped with the [Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_OrchestrationExchangeActivities.md) activity pack.
 
 ## SCCM.psm1
 
-This module file stores the functions used by the PowerShell scripts shipped with the [SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_SCCMActivityPack.md) activity pack.
+This module file stores the functions used by the PowerShell scripts shipped with the [SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_SCCMActivityPack.md) activity pack.
 
-**Parent Topic:**[PowerShell protocols and troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/powershell-protocols.md)
+**Parent Topic:**[PowerShell protocols and troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/powershell-protocols.md)
 

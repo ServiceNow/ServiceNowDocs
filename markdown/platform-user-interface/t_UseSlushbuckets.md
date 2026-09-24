@@ -3,9 +3,9 @@ title: Configure items on forms or in lists using a list collector
 description: Use a list collector to add, remove, or move items in a form or list. List collectors allow you to select multiple items from a list of available items and to remove items from a list of selected items. Some list collectors provide filter and search controls for available items, such as adding items to related lists.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_UseSlushbuckets.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Common UI elements, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -57,13 +57,13 @@ Information fields for the highlighted available item appear beneath some list c
     2.  Click the down icon.
 
 
--   **[Set the number of list collector items visible in the available column](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_SetNumSlushbucketItemsVisible.md)**  
+-   **[Set the number of list collector items visible in the available column](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_SetNumSlushbucketItemsVisible.md)**  
 You can modify the **glide.xmlhttp.excessive** property to change the number of items that appear in the **Available** column of the list collector.
 
-**Parent Topic:**[Common UI elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/p_CommonUIElements.md)
+**Parent Topic:**[Common UI elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/p_CommonUIElements.md)
 
 **Related topics**  
 
 
-[Personal lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_PersonalLists.md)
+[Personal lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_PersonalLists.md)
 

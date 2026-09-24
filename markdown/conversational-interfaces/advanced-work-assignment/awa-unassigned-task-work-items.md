@@ -3,11 +3,11 @@ title: Check unassigned task work items
 description: View a list of unassigned task work items in Advanced Work Assignment, such as cases and incidents, that are currently waiting in the queue and are not assigned to any agents. You can use this list to debug, implement advanced work assignments, or determine why certain work items are unassigned.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-unassigned-task-work-items.html
-release: australia
+release: brazil
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---

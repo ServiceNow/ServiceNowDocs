@@ -1,16 +1,16 @@
 ---
-title: Create a legacy scenario analysis
+title: Create a scenario analysis
 description: Create a scenario analysis for the business service in Operational Resilience Workspace. You can analyze the impact of the scenarios and associated events. You can then calculate the disruptions and determine if any of your services are breached.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-scenario-analysis-in-ws.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Enable the legacy scenario analysis flow, Legacy scenario analysis, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Create a legacy scenario analysis
+# Create a scenario analysis
 
 Create a scenario analysis for the business service in Operational Resilience Workspace. You can analyze the impact of the scenarios and associated events. You can then calculate the disruptions and determine if any of your services are breached.
 
@@ -44,7 +44,7 @@ If you have the sn\_oper\_res.manager role, you can create a scenario analysis. 
 
     The logged-in user is automatically assigned as the owner of the analysis.
 
-    For the descriptions of the field values on the User New record form, see [Create Scenario analysis form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/scenario-analyses-reference-in-ws.md).
+    For the descriptions of the field values on the User New record form, see [Create Scenario analysis form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/scenario-analyses-reference-in-ws.md).
 
     A sample scenario analysis form is shown in the following example.
 
@@ -73,5 +73,5 @@ The following example shows that on the **Details** tab, you can see the details
 
 ## What to do next
 
-Add the scenario events, scope, assets, and participants to the analysis. You must associate at least one scope to begin the analysis. For more information on adding a scope and dependencies, see [Associate a scope and define the dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-service-event-participant-to-analysis-in-ws.md).
+Add the scenario events, scope, assets, and participants to the analysis. You must associate at least one scope to begin the analysis. For more information on adding a scope and dependencies, see [Associate a scope and define the dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/add-service-event-participant-to-analysis-in-ws.md).
 

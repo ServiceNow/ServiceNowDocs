@@ -3,11 +3,11 @@ title: Test IdP connections
 description: Testing the connection to an IdP validates the settings before enabling external authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_TestIdPConnections.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Multi-Provider SSO configurations, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
@@ -42,7 +42,7 @@ Refresh MultiSSO IDP Metadata job fetches and updates the certificate for the Id
 
 5.  Verify results using the **SSO Test Results/Summary** or the **Testing SSO Logs** section to see log messages.
 
-    If there are any errors, refer to the [Multi-SSO \(SAML 2.0\) errors and fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/saml-errors.md)
+    If there are any errors, refer to the [Multi-SSO \(SAML 2.0\) errors and fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/saml-errors.md)
 
 6.  Click **Cancel** when testing is complete.
 

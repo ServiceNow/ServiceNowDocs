@@ -3,9 +3,9 @@ title: Mobile experience for CSM
 description: Manage customer service cases from a mobile device with the Customer Service Management mobile application. Stay connected and access information in real time to complete tasks quickly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-service-mobile-interface.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Schedules and sites, Use, Customer Service Management]
 ---
@@ -20,7 +20,7 @@ Activate the Customer Service Mobile plugin \(com.sn\_csm\_mobile\) to use the a
 
 **Note:** The Customer Service Management mobile application supports product cases.
 
-For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
+For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivateAPlugin.md).
 
 With the customer service agent role \(sn\_customerservice\_agent\), you can:
 
@@ -52,7 +52,7 @@ The Customer Service Management mobile application runs on the ServiceNow® mobi
 To use the Customer Service Management mobile application, activate the Customer Service Mobile plugin \(com.sn\_csm\_mobile\). This plugin activates the following plugins:
 
 -   Mobile Agent Native Client plugin \(com.glide.sg.agent\_native\_client\)
--   Customer Service \(com.sn\_customerservice\)
+-   Case Management Core \(com.sn\_customerservice\)
 -   Customer Service Case Action Status \(com.sn.csm\_action\_status\)
 
 To provide support for major cases, you can activate the optional Major Issue Management plugin \(com.sn\_majorissue\_mgt\).
@@ -61,17 +61,17 @@ Once the Customer Service Management mobile application is activated and configu
 
 **Note:** You can activate the Customer Service Mobile plugin \(com.sn\_csm\_mobile\) from the Customer Service Management guided setup.
 
-For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
+For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivateAPlugin.md).
 
--   **[CSM application overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-mobile-overview.md)**  
+-   **[CSM application overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-service-mobile-overview.md)**  
 Customer service agents and managers can use the applet launcher and applets in the Customer Service mobile application to view notifications and manage customer service cases.
--   **[Get started with the Customer Service mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/install-customer-service-mobile-app.md)**  
+-   **[Get started with the Customer Service mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/install-customer-service-mobile-app.md)**  
 Use the ServiceNow Agent mobile app to access the Customer Service mobile application. Then log in to an instance as an agent or manager and work on your customer service cases.
 
-**Parent Topic:**[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceManagement.md)
+**Parent Topic:**[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_CustomerServiceManagement.md)
 
 **Related topics**  
 
 
-[Getting started with ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-experience.md)
+[Getting started with ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-experience.md)
 

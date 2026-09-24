@@ -3,11 +3,11 @@ title: Configure a new threat intelligence feed
 description: Configure a new threat intelligence feed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-new-data-source.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Threat Intelligence Feeds, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
@@ -136,7 +136,7 @@ Use REST Message
 
 </td><td>
 
-Select **Use REST Message** check box if you need to use REST Message/REST Method functionality that is provided by ServiceNow AI Platform.If this check box is not selected, then the application uses the endpoint provided in **REST Endpoint URL** to fetch the data from the feed. For more information, see [Outbound REST web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OutboundRESTWebService.md) on ServiceNow AI Platform documentation.
+Select **Use REST Message** check box if you need to use REST Message/REST Method functionality that is provided by ServiceNow AI Platform.If this check box is not selected, then the application uses the endpoint provided in **REST Endpoint URL** to fetch the data from the feed. For more information, see [Outbound REST web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/c_OutboundRESTWebService.md) on ServiceNow AI Platform documentation.
 
 **Important:** The REST message and REST method fields are mandatory when you select REST message.
 
@@ -146,7 +146,7 @@ REST Message
 
 </td><td>
 
-Select the REST Message record from the list of REST message records which are already configured in the instance. For more information, see [Outbound REST web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OutboundRESTWebService.md) on the ServiceNow AI Platform documentation.**Note:** Select this value when you need to view specific headers, and define the REST related records using the REST message option.
+Select the REST Message record from the list of REST message records which are already configured in the instance. For more information, see [Outbound REST web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/c_OutboundRESTWebService.md) on the ServiceNow AI Platform documentation.**Note:** Select this value when you need to view specific headers, and define the REST related records using the REST message option.
 
 </td></tr><tr><td>
 
@@ -154,7 +154,7 @@ REST Method
 
 </td><td>
 
-Select REST Method from the list of available REST Methods configured for the selected REST Message. For more information, see [Outbound REST web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OutboundRESTWebService.md) on the ServiceNow AI Platform documentation.
+Select REST Method from the list of available REST Methods configured for the selected REST Message. For more information, see [Outbound REST web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/c_OutboundRESTWebService.md) on the ServiceNow AI Platform documentation.
 
 </td></tr><tr><td>
 
@@ -189,7 +189,7 @@ Data Parsing Mechanism
 Select the appropriate data parsing mechanism option. The available options are:-   **Automated IoC Extraction**: This option is selected by default when configuring Text, CSV, or JSON feeds.
 -   **Custom Field Mapping**: Select this option if you want to define how the specific fields in your feed data should be mapped to the observable attributes.
 
-Once selected, you can configure the mappings in the **Field Mapping** section. For more detailed information on the custom field mapping, see [Configure Custom Field Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-field-mapping.md).
+Once selected, you can configure the mappings in the **Field Mapping** section. For more detailed information on the custom field mapping, see [Configure Custom Field Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-field-mapping.md).
 
 **Note:** The data parsing mechanism option is only available for Text, CSV, and JSON feeds, where the feeds **Report Processor** is set to `SimpleFeedDatasourceResponseProcessor`.
 
@@ -299,7 +299,7 @@ Set the frequency at which you want to ingest the records. The feed will run and
 -   Business Calendar: Entry End
 **Note:** By default, the frequency is set to On Demand.
 
- For more information, see [Scheduled Jobs and how to Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ScheduleAScriptExecution.md).
+ For more information, see [Scheduled Jobs and how to Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ScheduleAScriptExecution.md).
 
 </td></tr><tr><td>
 
@@ -343,8 +343,8 @@ The start date from when the data needed to be fetched. This field should be set
 
 14. Select **Integrations Run** section to verify the run details.
 
-    **Note:** The threat intelligence feed configuration procedure is same for all other threat intelligence feed types, except for STIX TAXII. For more information on how STIX TAXII is configured, see [Configure a new TAXII Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-configure-a-new-taxii-feed.md).
+    **Note:** The threat intelligence feed configuration procedure is same for all other threat intelligence feed types, except for STIX TAXII. For more information on how STIX TAXII is configured, see [Configure a new TAXII Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-configure-a-new-taxii-feed.md).
 
 
-**Parent Topic:**[Threat Intelligence Feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-intelligence-feeds.md)
+**Parent Topic:**[Threat Intelligence Feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/threat-intelligence-feeds.md)
 

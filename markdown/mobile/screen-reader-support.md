@@ -3,9 +3,9 @@ title: Configuring screen reader support in mobile
 description: Screen reader support \(known as VoiceOver for iOS devices and TalkBack for Android devices\) in mobile provides an audible description of what is displayed on your mobile screen. These can be elements like the content of mobile cards, the icons of the navigation bar, or the data within a list screen.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/screen-reader-support.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring the Mobile Platform, Mobile Platform]
 ---

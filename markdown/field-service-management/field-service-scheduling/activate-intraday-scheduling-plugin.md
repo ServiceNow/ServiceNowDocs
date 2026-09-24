@@ -3,11 +3,11 @@ title: Activate intra-day schedule automation
 description: You can activate the Field Service Management Scheduling Automations plugin \(sn\_fsm\_sched\_flws\) for Field Service Management if you have the admin role. After the plugin is installed, three flow designer flows and nine subflows are added to your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/activate-intraday-scheduling-plugin.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Intraday schedule automation, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-For more information, see [Intra-day schedule automation flows and subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/intraday-scheduling-flows.md).
+For more information, see [Intra-day schedule automation flows and subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/intraday-scheduling-flows.md).
 
 ## Procedure
 
@@ -36,6 +36,6 @@ For more information, see [Intra-day schedule automation flows and subflows](htt
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 

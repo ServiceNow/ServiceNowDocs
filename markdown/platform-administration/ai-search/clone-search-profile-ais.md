@@ -3,11 +3,11 @@ title: Clone a search profile
 description: Create a copy of an existing search profile. The cloned search profile retains search sources, stop word and synonym dictionaries, Genius Result configurations, and result improvement rules from the original search profile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/clone-search-profile-ais.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Search profiles, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -42,11 +42,11 @@ As a search administrator, you may wish to configure separate search profiles fo
 
 5.  Make changes to the cloned search profile's settings.
 
-    For details on search profile settings, see [Create a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-search-profile-ais.md), [Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/synonyms-ais.md), [Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/stop-words-ais.md), [Typo handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/typo-handling-ais.md), [Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/genius-results-ais.md), and [Result improvement rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/result-improvement-rules-ais.md).
+    For details on search profile settings, see [Create a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/create-search-profile-ais.md), [Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/synonyms-ais.md), [Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/stop-words-ais.md), [Typo handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/typo-handling-ais.md), [Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/genius-results-ais.md), and [Result improvement rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/result-improvement-rules-ais.md).
 
 6.  Publish your cloned search profile by selecting **Publish**.
 
-    For more information on the effects of publishing a search profile, see [Publish an AI Search search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/publish-search-profile-ais.md).
+    For more information on the effects of publishing a search profile, see [Publish an AI Search search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/publish-search-profile-ais.md).
 
 
 ## Result
@@ -55,7 +55,7 @@ Your cloned search profile record appears in the Search Profile table.
 
 ## What to do next
 
-Edit the search application configuration record of your choice and link it to your cloned search profile. For details on search application configurations, see [Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/defining-search-app-cfgs-ais.md).
+Edit the search application configuration record of your choice and link it to your cloned search profile. For details on search application configurations, see [Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/defining-search-app-cfgs-ais.md).
 
-**Parent Topic:**[Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/defining-search-profiles-ais.md)
+**Parent Topic:**[Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/defining-search-profiles-ais.md)
 

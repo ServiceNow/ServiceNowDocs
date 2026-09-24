@@ -3,11 +3,11 @@ title: Configure Email OTP
 description: Configure the Email one-time password \(OTP\) to enable OTP-based authentication for users in your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/configure-email-otp-service.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-06-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [email OTP, one-time password, authentication]
 breadcrumb: [Email OTP authentication, Configure authentication factors for AI voice agents, Authentication factors, Authentication, Access Management]
@@ -52,7 +52,7 @@ The Email OTP configuration is saved. During an AI voice agent session, a one-ti
 **Related topics**  
 
 
-[Email One-time passwords \(OTP\) authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/email-otp-authentication.md)
+[Email One-time passwords \(OTP\) authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/email-otp-authentication.md)
 
-[Explore authentication factors for AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/explore-authentication-factors.md)
+[Explore authentication factors for AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/explore-authentication-factors.md)
 

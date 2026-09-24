@@ -3,9 +3,9 @@ title: Review sequences in Workflow Studio
 description: Review sequences in Workflow Studio so you can suggest optimizations and share high-performing sequences across territories to promote best practices across the organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/view-sequence-design-time.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer Engagement Sequences, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -20,7 +20,7 @@ Role required: Sequence reader \[sn\_crm\_sequence.reader\]
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -33,12 +33,12 @@ Role required: Sequence reader \[sn\_crm\_sequence.reader\]
     You're redirected to Workflow Studio where you can view the sequence diagram.
 
 
-**Parent Topic:**[Using Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-customer-engagement-sequences.md)
+**Parent Topic:**[Using Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-customer-engagement-sequences.md)
 
 **Related topics**  
 
 
-[Configuring Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-customer-engagement-sequences.md)
+[Configuring Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configuring-customer-engagement-sequences.md)
 
-[Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-customer-engagement-sequences.md)
+[Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-customer-engagement-sequences.md)
 

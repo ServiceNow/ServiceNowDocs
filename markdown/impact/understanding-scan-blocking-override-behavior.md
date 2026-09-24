@@ -1,22 +1,23 @@
 ---
 title: Scan blocking and override behavior scenarios
-description: The Scan Engine blocks concurrent scans to protect instance performance. Understanding these rules helps you plan scan execution efficiently and how the system handles concurrent scan requests and when Force Full Scan override is necessary.
+description: The Scan Engine blocks concurrent scans to protect instance performance. Understanding these rules helps you plan scan execution efficiently, handle concurrent scan requests, and determine when Force Full Scan override is necessary.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/understanding-scan-blocking-override-behavior.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
-breadcrumb: [Run your first scan, Run Impact Guided Setup, Configuring Impact, Impact]
+keywords: [Scan Engine, scan blocking, override]
+breadcrumb: [Scan your instance, Impact Guided Setup, Configuring Impact, Impact]
 ---
 
 # Scan blocking and override behavior scenarios
 
-The Scan Engine blocks concurrent scans to protect instance performance. Understanding these rules helps you plan scan execution efficiently and how the system handles concurrent scan requests and when Force Full Scan override is necessary.
+The Scan Engine blocks concurrent scans to protect instance performance. Understanding these rules helps you plan scan execution efficiently, handle concurrent scan requests, and determine when Force Full Scan override is necessary.
 
 ## Scenario 1: Attempting to initiate a scan while another scan is in progress
 
-If you select **Initiate Scan** while any scan is already running, the system displays an alert: "Cannot initiate a delta scan while another scan is in progress. Please wait for the current scan to complete or use Force Full Scan to override."Options:
+If you select **Initiate Scan** while any scan is already running, the system displays an alert: "Cannot initiate a delta scan while another scan is in progress. Please wait for the current scan to complete or use Force Full Scan to override." You can:
 
 -   Wait for the current scan to complete, then select **Initiate Scan** again
 -   Use **Force Full Scan** to cancel the current scan and start a new full scan immediately
@@ -47,9 +48,9 @@ Understanding scan blocking behavior helps you choose the appropriate action bas
 
 The system requires a page refresh to display the most current scan information. After initiating or canceling a scan:
 
--   Select the browser refresh button or press `F5`.
+-   Select the browser refresh button or press **F5**.
 -   The Scan Results list updates to show the latest scan status.
 -   New scans appear with **Getting ready** status before transitioning to in-progress
 
-**Parent Topic:**[Run your first scan with the Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/run-scan-engine.md)
+**Parent Topic:**[Run Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/run-scan-engine.md)
 

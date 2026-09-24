@@ -3,9 +3,9 @@ title: Assign roles to Lead-to-Cash Process Management users
 description: Assign roles to your users so that they can access features, capabilities, and data in the Lead-to-Cash Process Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/assign-roles-lead-cash-process-management.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Lead-to-Cash Process Management, Order operations apps, Configure, Sales Customer Relationship Management]
 ---
@@ -109,17 +109,17 @@ Sales process manager
 </td></tr></tbody>
 </table>You can assign roles to users and groups using either guided setup or through the following user administration features:
 
--   [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignARoleToAUser.md)
--   [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md)
+-   [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignARoleToAUser.md)
+-   [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignRoleToGroup.md)
 
 **Related topics**  
 
 
-[Creating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ua-creating-users.md)
+[Creating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ua-creating-users.md)
 
-[Creating groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ua-creating-groups.md)
+[Creating groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ua-creating-groups.md)
 
-[Components installed with Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-lead-cash-process-management.md)
+[Components installed with Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/components-installed-lead-cash-process-management.md)
 
-[Components installed with Business Object Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-business-object-core.md)
+[Components installed with Business Object Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/components-installed-business-object-core.md)
 

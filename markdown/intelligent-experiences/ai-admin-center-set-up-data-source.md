@@ -3,12 +3,12 @@ title: Set up a data source for analysis
 description: Create and activate a scheduled analysis of your instance records to discover automation opportunities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-admin-center-set-up-data-source.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup, AI Agent Advisor]
-breadcrumb: [Setting up automation opportunity discovery, Configure, AI Agent Advisor, AI Admin Center, Enable AI experiences]
+breadcrumb: [Setting up automation opportunity discovery, Configure, AI Agent Advisor, AI Admin Center, Getting started with AI, Enable AI Experiences]
 ---
 
 # Set up a data source for analysis
@@ -69,7 +69,7 @@ In the event an error occurs when performing these steps, see the troubleshootin
 
     1.  Select **Add role** if permission is required for AI Agent Advisor to access the table; then add the required role to the sn\_agent\_miner.app\_admin role and return to the Add new data set page.
 
-        For more information, see [Add a role to an existing role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddARoleToAnExistingRole.md).
+        For more information, see [Add a role to an existing role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddARoleToAnExistingRole.md).
 
     2.  Select a table from the **Table name** menu.
 
@@ -86,7 +86,7 @@ In the event an error occurs when performing these steps, see the troubleshootin
 
     1.  Use conditions to select certain properties as a filter.
 
-        For more information on how conditions work, see [OR conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingORConditions.md).
+        For more information on how conditions work, see [OR conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_UsingORConditions.md).
 
         **Note:** A filter for the **Created** field is required.
 
@@ -109,9 +109,9 @@ AI Agent Advisor runs the analysis according to the configured filters and sched
 
 ## What to do next
 
-View your automation opportunities on the home page. For more information, see [View your automation opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-view-automation-opportunities.md).
+View your automation opportunities on the home page. For more information, see [View your automation opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-view-automation-opportunities.md).
 
-**Parent Topic:**[Setting up automation opportunity discovery in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-automation-discovery-setup.md)
+**Parent Topic:**[Setting up automation opportunity discovery in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-automation-discovery-setup.md)
 
 **Related topics**  
 

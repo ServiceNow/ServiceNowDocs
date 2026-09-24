@@ -3,11 +3,11 @@ title: Request an order guide
 description: Once created, order guides present the customer with a three-step ordering process by default.Consider a scenario where you have a New Employee Hire order guide that provides services and items as part of the onboarding process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_OrderProcess.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Order guides, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -35,7 +35,7 @@ Role required: admin
     **Note:** The Check Out step can be omitted from an order guide to provide a quicker two-step process. To omit this third step, select the **Two step** check box when creating the order guide.
 
 
-**Parent Topic:**[Order guides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogOrderGuides.md)
+**Parent Topic:**[Order guides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/c_ServiceCatalogOrderGuides.md)
 
 ## Review an order guide example
 

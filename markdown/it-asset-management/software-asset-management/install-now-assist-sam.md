@@ -1,20 +1,20 @@
 ---
 title: Install ServiceNow Otto for Software Asset Management \(SAM\)
-description: If you have the admin role, you can install the ServiceNow Otto for SAM application. The ServiceNow Otto for SAM application integrates generative AI capabilities into your daily workflow tasks.
+description: If you have the admin role, you can install the ServiceNow Otto for Software Asset Management \(SAM\) application. The ServiceNow Otto for Software Asset Management \(SAM\) application integrates generative AI capabilities into your daily workflow tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/install-now-assist-sam.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-06-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure ServiceNow Otto for SAM, Configure, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Configuring ServiceNow Otto for Software Asset Management \(SAM\), Configuring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Install ServiceNow Otto for Software Asset Management \(SAM\)
 
-If you have the admin role, you can install the ServiceNow Otto for SAM application. The ServiceNow Otto for SAM application integrates generative AI capabilities into your daily workflow tasks.
+If you have the admin role, you can install the ServiceNow Otto for Software Asset Management \(SAM\) application. The ServiceNow Otto for Software Asset Management \(SAM\) application integrates generative AI capabilities into your daily workflow tasks.
 
 ## Before you begin
 
@@ -37,11 +37,11 @@ Role required: admin
 
 ## Result
 
-The agentic workflow and the AI agents included in the ServiceNow Otto for SAM application are installed on your ServiceNow instance.
+The agentic workflow and the AI agents included in the ServiceNow Otto for Software Asset Management \(SAM\) application are installed on your ServiceNow instance.
 
 ## What to do next
 
-1.  Enable the ServiceNow Otto panel to access the AI agents. For details, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+1.  Enable the Now Assist panel to access the AI agents. For details, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md).
 2.  Activate the AI Search application on your ServiceNow instance enabling the AI agents to search and get related records.
     1.  Navigate to **All** &gt; **AI Search** &gt; **AI Search Status**.
     2.  Trigger the automatic AI Search activation process on your ServiceNow instance by selecting **Request AI Search**.
@@ -49,5 +49,5 @@ The agentic workflow and the AI agents included in the ServiceNow Otto for SAM a
         **Note:** The activation process can take up to 24 hours.
 
 
-**Parent Topic:**[Configuring ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/now-assist-sam-configuration.md)
+**Parent Topic:**[Configuring ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/now-assist-sam-configuration.md)
 

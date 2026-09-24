@@ -3,9 +3,9 @@ title: Configure Data Collection for ITOM
 description: Configure Data Collection for ITOM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/dc-itom-config.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Impact Value Management Data Collection Content Pack for ITOM, Enable data collection for Value Management, Configuring Impact, Impact]
 ---
@@ -18,7 +18,7 @@ Configure Data Collection for ITOM.
 
 **Note:** To get the data collection up and running this setup must be done only once.
 
-You need to determine which of your assignment groups are leveraged within the Incident, Change, and Request workflows you consider to be Tier 1 and Tier 2:
+You need to determine which of your assignment groups are used within the incident, Change, and Request workflows you consider to be Tier 1 and Tier 2:
 
 -   Tier 1: First-line support, most commonly your helpdesk/service desk group\(s\)
 -   Tier 2+: Second- and third-line support, these are your specialist teams as well as potential vendor teams
@@ -29,7 +29,7 @@ Role required: admin, pa\_power\_user, pa\_admin, or pa\_data\_collector
 
 1.  Navigate to the **Groups** module in User Administration.
 
-2.  Open the group records to use in the Incident process as the Assignment Group.
+2.  Open the group records to use in the incident process as the Assignment Group.
 
 3.  Add one of the following types to the record:
 
@@ -67,12 +67,12 @@ Role required: admin, pa\_power\_user, pa\_admin, or pa\_data\_collector
 
     **Important:** If you do not have full access to Performance/Platform Analytics through a Pro or Enterprise subscription, you are required to enter this data point every month.
 
-    1.  Navigate to **Performance/Platform Analytics** &gt; **Scoresheet**, and then select **Impact VM - Legacy ITOM Systems Annual Run-Rate**.
+    1.  Navigate to **Performance/Platform Analytics** &gt; **Scoresheet**, and then select **Impact VM - Legacy ITOM Systems Monthly Run-Rate**.
 
     2.  Enter the data point in the relevant month cell.
 
         \[Omitted image "dct\_man\_data\_points\_itom.png"\] Alt text: Example with Mar 2024 cell selected with no Indicator score entered.
 
 
-**Parent Topic:**[Impact Value Management Data Collection Content Pack for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-itom.md)
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-itom.md)
 

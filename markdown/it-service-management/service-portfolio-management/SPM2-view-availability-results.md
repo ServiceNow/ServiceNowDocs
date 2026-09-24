@@ -3,11 +3,11 @@ title: View availability results in Service Portfolio Management
 description: View availability calculations for commitments on service offerings and application services. After the commitments are set up in Service Portfolio Management, you can view the results by an automated report that you set up.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-portfolio-management/SPM2-view-availability-results.html
-release: australia
+release: brazil
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Use, Service Portfolio Management, IT Service Management]
 ---
@@ -20,11 +20,11 @@ After an availability commitment is added to a service offering or to an applica
 
 Service Portfolio Management runs a daily job to generate the commitment availability reports and uses the system time zone.
 
-For information on adding availability commitments, see [Add a commitment to a service offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/define-SPM2-service-commitments.md).
+For information on adding availability commitments, see [Add a commitment to a service offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-portfolio-management/define-SPM2-service-commitments.md).
 
 ## Availability calculator
 
-Starting with the Australia release, you can use an availability calculator **\[com.snc.availability.v2\]** for improved performance, calculations, and maintenance.
+Starting with the Brazil release, you can use an availability calculator **\[com.snc.availability.v2\]** for improved performance, calculations, and maintenance.
 
 The availability calculator is redesigned from its predecessor to ensure that you see the most updated and accurate availability data in the period that you want.
 
@@ -276,5 +276,5 @@ Basic formula: Total duration \(Commitment downtime\) divided by the number of o
 
 Starting with the Vancouver release, archival rules are activated by default. Service Portfolio Management uses a scheduled job called table cleaner to archive older records from tables in the instance to keep table sizes and query performance manageable. To ensure you get quicker data results, Service Portfolio Management uses the table cleaner job to archive availability data that is older than three years.
 
-**Parent Topic:**[Using Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-using.md)
+**Parent Topic:**[Using Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-portfolio-management/SPM2-using.md)
 

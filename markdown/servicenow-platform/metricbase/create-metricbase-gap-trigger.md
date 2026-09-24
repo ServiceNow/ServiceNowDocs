@@ -3,11 +3,11 @@ title: Create a MetricBase gap trigger
 description: Create a MetricBase gap trigger to alert you when MetricBase stops receiving data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/metricbase/create-metricbase-gap-trigger.html
-release: australia
+release: brazil
 product: MetricBase
 classification: metricbase
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Trigger flows, MetricBase, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -114,7 +114,7 @@ Description of the trigger.
 
     |Field|Description|
     |-----|-----------|
-    |Level|Numbers that indicate increasing severity. For example, you might define level 1 to be no data for 10 minutes. Level 2 might be no data for 20 minutes. Each level should trigger a different flow. **Level** is often used in Condition Scripts. See [Execute triggers conditionally](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/create-action-condition.md).|
+    |Level|Numbers that indicate increasing severity. For example, you might define level 1 to be no data for 10 minutes. Level 2 might be no data for 20 minutes. Each level should trigger a different flow. **Level** is often used in Condition Scripts. See [Execute triggers conditionally](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/metricbase/create-action-condition.md).|
     |Function|Function, **Greater than or is**, which means that this trigger executes when the gap in received data is greater than the value that you specify in the **Window** field. There is only one option for the function, and it cannot be left empty or MetricBase displays an error message.|
     |Window|Length of time that no data has been received that executes the trigger. The format is hours:minutes:seconds. For example, 00:20:00 means that this trigger executes after 20 minutes of missing data.|
 
@@ -126,7 +126,7 @@ Description of the trigger.
 
 9.  Add a triggering condition that determines whether a trigger executes a Workflow Studio flow.
 
-    See [Execute triggers conditionally](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/create-action-condition.md).
+    See [Execute triggers conditionally](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/metricbase/create-action-condition.md).
 
 
 ## Gap Trigger form
@@ -135,5 +135,5 @@ Description of the trigger.
 
 ## What to do next
 
-Associate this trigger with a Workflow Studio flow. For more information, see [Assign a trigger to a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/assign-trigger-to-workflow.md).
+Associate this trigger with a Workflow Studio flow. For more information, see [Assign a trigger to a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/metricbase/assign-trigger-to-workflow.md).
 

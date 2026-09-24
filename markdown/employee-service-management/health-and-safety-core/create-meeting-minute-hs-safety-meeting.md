@@ -3,11 +3,11 @@ title: Create a meeting minute for a safety meeting
 description: Create a meeting minute for a safety meeting to track discussions and accountability.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-core/create-meeting-minute-hs-safety-meeting.html
-release: australia
+release: brazil
 product: Health and Safety Core
 classification: health-and-safety-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage safety meetings, Use, Health and Safety Core, Health and Safety, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ Create a meeting minute for a safety meeting to track discussions and accountabi
 
 ## Before you begin
 
-Verify that the minute taker is added as an attendee to this safety meeting. For information on adding a meeting attendee, see [Add attendees to a safety meeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/add-attendees-safety-meeting.md).
+Verify that the minute taker is added as an attendee to this safety meeting. For information on adding a meeting attendee, see [Add attendees to a safety meeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-core/add-attendees-safety-meeting.md).
 
 Role required: sn\_ohs\_im.meeting\_minute\_taker
 
@@ -97,7 +97,7 @@ Description about the topic discussed.
 
     -   To create an action, select **New**.
     -   To associate an action from the existing list of actions for this meeting, select **Add**.
-    For field descriptions, see [Health and Safety action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/hs-action-form.md).
+    For field descriptions, see [Health and Safety action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-core/hs-action-form.md).
 
 
 ## Result
@@ -105,7 +105,7 @@ Description about the topic discussed.
 -   The meeting minute is listed in the **Meeting minutes** tab of the meeting and is saved in the Health and Safety meeting minute \[sn\_ohs\_im\_meeting\_minute\] table.
 -   Any action for this meeting minute is listed in the **Actions** tab of the minute record. The action is saved in the Health and Safety m2m meeting minute action \[sn\_ohs\_im\_m2m\_meeting\_minute\_action\] table.
 
-**Parent Topic:**[Managing safety meetings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/managing-hs-safety-meetings.md)
+**Parent Topic:**[Managing safety meetings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-core/managing-hs-safety-meetings.md)
 
 **Related topics**  
 

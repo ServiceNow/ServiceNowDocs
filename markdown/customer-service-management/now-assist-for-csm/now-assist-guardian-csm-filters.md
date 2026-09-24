@@ -3,11 +3,11 @@ title: AI Guardian CSM filters
 description: Activate base system AI Guardian CSM filters to automatically detect sensitive content in case conversations using the emotional tone of the message.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/now-assist-guardian-csm-filters.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-03-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
@@ -84,5 +84,5 @@ Test the filter by creating a test case with sample phrases that should trigger 
 **Related topics**  
 
 
-[AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-guardian.md)
+[AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-guardian.md)
 

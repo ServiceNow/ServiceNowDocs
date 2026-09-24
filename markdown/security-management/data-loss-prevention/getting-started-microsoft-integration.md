@@ -3,11 +3,11 @@ title: Getting started with Microsoft DLP IR integration for data loss preventio
 description: Review the following information before you start setting up your Microsoft DLP IR integration for data loss prevention.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/getting-started-microsoft-integration.html
-release: australia
+release: brazil
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Data Loss Prevention Incident Response with Microsoft, Integrate, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -196,5 +196,5 @@ Any one of the following permissions are required if the users would like to vie
 1.  If you’re a Microsoft Azure user, you must have the role Storage Blob Data Contributor to read, write, and delete blobs on Azure Storage.
 2.  If you’re an Amazon S3 user, you must create a policy that gives list, read, write, and delete access for the object in Amazon S3 Storage.
 
-**Parent Topic:**[Data Loss Prevention Incident Response with Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/dlp-integration-microsoft.md)
+**Parent Topic:**[Data Loss Prevention Incident Response with Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/dlp-integration-microsoft.md)
 

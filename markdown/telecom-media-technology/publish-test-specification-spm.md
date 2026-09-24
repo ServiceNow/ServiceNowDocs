@@ -3,9 +3,9 @@ title: Publish test definitions
 description: Publish the test definitions to ensure that agents only see the approved versions of test definitions for execution. This also helps maintain consistency and control over both current and future test versions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/publish-test-specification-spm.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up test definitions, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
 ---

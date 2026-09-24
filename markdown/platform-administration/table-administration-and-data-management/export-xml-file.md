@@ -3,11 +3,11 @@ title: Export data to XML
 description: Export data from a source instance to an XML file.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/export-xml-file.html
-release: australia
+release: brazil
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exporting and importing data via XML, Exporting data, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -26,15 +26,15 @@ Role required: admin
 
 2.  Export a record or a list of records to XML.
 
-<table id="choicetable_ndh_4j1_j1c"><thead><tr><th align="left" id="d310160e56">
+<table id="choicetable_ndh_4j1_j1c"><thead><tr><th align="left" id="d307963e56">
 
 Option
 
-</th><th align="left" id="d310160e59">
+</th><th align="left" id="d307963e59">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d310160e65">
+</th></tr></thead><tbody><tr><td id="d307963e65">
 
 **Export a record to XML**
 
@@ -45,7 +45,7 @@ Description
 3.  Select **Export** &gt; **XML This Record\)**.
 
 
-</td></tr><tr><td id="d310160e101">
+</td></tr><tr><td id="d307963e101">
 
 **Export a list of records to XML**
 
@@ -61,5 +61,5 @@ Description
 </table>
 ## What to do next
 
-[Import data from XML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/import-xml-file.md)
+[Import data from XML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/import-xml-file.md)
 

@@ -3,11 +3,11 @@ title: Cancel a Universal Request in Service Operations Workspace
 description: Cancel the Universal Request if the issue is resolved already or you no longer require the request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/cancel-ur-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Universal Request in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -41,5 +41,5 @@ You can cancel a universal request only if there are no active or closed primary
 6.  Select **Update**.
 
 
-**Parent Topic:**[Universal Request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/using-ur-sow.md)
+**Parent Topic:**[Universal Request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/using-ur-sow.md)
 

@@ -3,11 +3,11 @@ title: Add fields to a cloud catalog item order form
 description: You can add fields to a cloud catalog form if you want the user to enter additional information beyond what a default blueprint provides.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/add-fields-control-order-blueprint.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Form configuration with blueprints, Cloud Provisioning Blueprints, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -18,8 +18,8 @@ You can add fields to a cloud catalog form if you want the user to enter additio
 
 ## Before you begin
 
--   You need a blueprint that you published to the catalog. The blueprint should be in the draft state. See [Build a Cloud Provisioning blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-blueprint-cmp.md) if you did not complete this prerequisite.
--   By default, cloud items appear in the Cloud Catalog, rather than the standard service catalog that comes with your instance. However, Blueprints utilize several features from the standard service catalog. It is suggested that you familiarize yourself with how the service catalog works. See [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog.md) to get started.
+-   You need a blueprint that you published to the catalog. The blueprint should be in the draft state. See [Build a Cloud Provisioning blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/create-blueprint-cmp.md) if you did not complete this prerequisite.
+-   By default, cloud items appear in the Cloud Catalog, rather than the standard service catalog that comes with your instance. However, Blueprints utilize several features from the standard service catalog. It is suggested that you familiarize yourself with how the service catalog works. See [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog.md) to get started.
 -   Role required: sn\_cmp.cloud\_service\_designer
 
 ## About this task
@@ -81,5 +81,5 @@ Fields are represented as variables in blueprints. To add a field, you add a var
     \[Omitted image "draft-published-slider.png"\] Alt text: Publish the blueprint
 
 
-**Parent Topic:**[Form configuration with blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/blueprint-form-configuration.md)
+**Parent Topic:**[Form configuration with blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/blueprint-form-configuration.md)
 

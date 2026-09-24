@@ -3,11 +3,11 @@ title: Modify display for CI attributes
 description: You can control what configuration item \(CI\) attributes the system displays in the Properties pane of service instance maps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/t\_ConfigurePropertyDisplay.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Advanced Service Mapping configuration, Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ You can control what configuration item \(CI\) attributes the system displays in
 
 ## Before you begin
 
-Get familiar with the notion of views. For more information on views, see [View Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/view-management-overview.md).
+Get familiar with the notion of views. For more information on views, see [View Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/view-management-overview.md).
 
 Decide for which CI classes you need to modify display.
 
@@ -108,5 +108,5 @@ You can modify the view at any time.
 **Related topics**  
 
 
-[View CI attributes in an application service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_ViewCIDetails.md)
+[View CI attributes in an application service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/t_ViewCIDetails.md)
 

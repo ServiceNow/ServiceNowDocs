@@ -3,11 +3,11 @@ title: Performance Analytics API examples
 description: These examples demonstrate how to perform a REST query using cURL commands, and show the data returned for each command. Each example builds upon the last, with later examples using the data returned by earlier examples.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/r\_PerformanceAnalyticsAPIExamples.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 15
 breadcrumb: [Integrate Performance Analytics, Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -1088,5 +1088,5 @@ Response:
 }
 ```
 
-**Parent Topic:**[Integrate Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PAWebServiceIntegrations.md)
+**Parent Topic:**[Integrate Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_PAWebServiceIntegrations.md)
 

@@ -3,11 +3,11 @@ title: Exploring Data Discovery \(Classic\)
 description: Use Data Discovery to identify sensitive data within an instance, such as credit card information, emails, or social security numbers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/data-discovery/data-discovery.html
-release: australia
+release: brazil
 product: Data Discovery
 classification: data-discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data Discovery, Platform Privacy]
 ---
@@ -28,7 +28,7 @@ Navigate to **All** &gt; **System Security** &gt; **Data Discovery \(Classic\)**
 
 ## Discovered Data Patterns
 
-**Tip:** Select a record to view more information and take further action with the findings. See [Data Discovery job results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery/data-discovery-findings.md) for more.
+**Tip:** Select a record to view more information and take further action with the findings. See [Data Discovery job results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-discovery/data-discovery-findings.md) for more.
 
 The Discovered Data Patterns chart displays the number and percentage of currently discovered data patterns. Select a section to take further action.
 

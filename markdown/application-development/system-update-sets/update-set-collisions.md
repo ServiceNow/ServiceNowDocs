@@ -3,11 +3,11 @@ title: Update set collision resolution
 description: A collision is an update that has a newer local update.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/system-update-sets/update-set-collisions.html
-release: australia
+release: brazil
 product: System Update Sets
 classification: system-update-sets
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Compare local update sets, Working with update sets, System update sets, Deploying applications, Building applications]
 ---
@@ -89,10 +89,10 @@ When a customer update is moved from one instance to another, it may be rewritte
 ## Preventing duplicate records
 
 -   Transfer data with update sets rather than recreating it on separate instances to verify the records have the same sys\_id.
--   Export and import records as XML files to verify the records have the same sys\_id. See [Export and import XML files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ExportAndImportXMLFiles.md).
--   Enable a unique index for the table from the system dictionary. See [Table administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TableAdministration.md).
+-   Export and import records as XML files to verify the records have the same sys\_id. See [Export and import XML files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ExportAndImportXMLFiles.md).
+-   Enable a unique index for the table from the system dictionary. See [Table administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_TableAdministration.md).
 
 **Note:** The default records included in the baseline system will always have the same sys\_id because the instance imports the records as XML files during instance provisioning.
 
-**Parent Topic:**[Compare local update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_CompareLocalUpdateSets.md)
+**Parent Topic:**[Compare local update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/system-update-sets/t_CompareLocalUpdateSets.md)
 

@@ -3,11 +3,11 @@ title: Project calculation
 description: When creating a project, the project manager can select the type of calculation to use: manual or automatic \(default\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/c\_ProjectWorkbenchProjectCalc.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Project workbench - Legacy, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -36,7 +36,7 @@ For automatic calculation:
 -   A project created as automatic with one or more tasks cannot be converted to manual.
 -   Percentage completion and states for phases are updated automatically for both manual and auto calculation.
 
-**Parent Topic:**[Using Project workbench - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectWorkbench.md)
+**Parent Topic:**[Using Project workbench - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_ProjectWorkbench.md)
 
 **Related topics**  
 
@@ -47,5 +47,5 @@ For automatic calculation:
 
 [Managing Project workbench]()
 
-[Using Project workbench - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectWorkbench.md)
+[Using Project workbench - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_ProjectWorkbench.md)
 

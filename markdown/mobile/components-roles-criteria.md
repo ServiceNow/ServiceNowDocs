@@ -3,9 +3,9 @@ title: Mobile components where user roles and user criteria permissions apply
 description: Lists of mobile components that can be applied to user roles, user criteria, or to both these access control mechanisms.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/components-roles-criteria.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [User roles/criteria permissions, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -60,5 +60,5 @@ Lists of mobile components that can be applied to user roles, user criteria, or 
 |Icon section destination function|sys\_sg\_navigation\_section\_destination\_button|
 |Icon section destination launcher|sys\_sg\_navigation\_section\_destination\_applet\_launcher|
 
-**Parent Topic:**[User roles and user criteria permissions for mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/roles-user-criteria.md)
+**Parent Topic:**[User roles and user criteria permissions for mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/roles-user-criteria.md)
 

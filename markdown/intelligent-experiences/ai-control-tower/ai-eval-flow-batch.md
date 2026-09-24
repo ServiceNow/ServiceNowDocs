@@ -3,13 +3,13 @@ title: Evaluation flow for batch evaluations
 description: Batch evaluation enables Eval admins to evaluate up to 100 completed virtual agent conversations at once, based on a saved query.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-eval-flow-batch.html
-release: australia
+release: brazil
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Evaluation dashboard reference, Reference, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [Evaluation dashboard reference, AI Control Tower reference \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Evaluation flow for batch evaluations

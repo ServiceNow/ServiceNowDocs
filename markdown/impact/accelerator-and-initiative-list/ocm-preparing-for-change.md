@@ -3,11 +3,11 @@ title: OCM: Preparing for Change
 description: This Accelerator provides Impact customers with structured coaching and proven frameworks to build change readiness and ensure successful user adoption ahead of go-live during ServiceNow transformations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/ocm-preparing-for-change.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [OCM, Change Management, User Adoption, Stakeholder Engagement]
 breadcrumb: [Strategy Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
@@ -103,5 +103,5 @@ Includes the following CSE-led sessions and activities, as applicable \(up to 1.
 
 ## Exclusions
 
-ServiceNow is not responsible for implementing recommendations on Customer’s non-production or production instances.
+ServiceNow is not responsible for implementing recommendations on Customer’s sub-production or production instances.
 

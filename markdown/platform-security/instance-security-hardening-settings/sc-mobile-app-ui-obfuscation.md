@@ -3,11 +3,11 @@ title: Require obfuscation of mobile app UI
 description: Configure the glide.sg.blur\_ui\_when\_backgrounded property so that the UI of the app is blurred when the app is running in the background.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-mobile-app-ui-obfuscation.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Hardening settings, Platform Security]
 ---
@@ -74,7 +74,7 @@ Category
 
 </td><td>
 
-[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-file-resources.md)
+[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-file-resources.md)
 
 </td></tr><tr><td>
 
@@ -100,8 +100,8 @@ References
 
 </td><td>
 
-[Require obfuscation of classic mobile app UI \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-classic-mobile-app-ui-obfuscation.md)
+[Require obfuscation of classic mobile app UI \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-classic-mobile-app-ui-obfuscation.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
+</table>**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

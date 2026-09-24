@@ -3,13 +3,13 @@ title: System properties for configuring Walk-up Experience for guest users
 description: System properties enable you to configure the Walk-up Experience for guest users so they can access the Walk-up Check-in widget from the Service Portal Home Page and schedule appointments online.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-guest-configure.html
-release: australia
+release: brazil
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Walk-up Experience for Customer Service Management, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Configure Walk-up Experience for Customer Service Management, Set up self-service, Configure, Customer Service Management]
 ---
 
 # System properties for configuring Walk-up Experience for guest users

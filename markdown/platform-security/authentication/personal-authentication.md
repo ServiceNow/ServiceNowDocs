@@ -3,11 +3,11 @@ title: Personal Authentication
 description: Personal authentication enables you to securely connect and manage your OAuth-based integrations like Microsoft OneDrive or Google Drive.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/personal-authentication.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Access Management]
 ---
@@ -22,7 +22,7 @@ The OAuth 2.0 Credentials module in ServiceNow `(oauth_2_0_credentials)`enables 
 
 **Note:** You need the oauth\_admin role for OAuth specific configurations.
 
-Use the Credential form to configure OAuth 2.0 credentials with `integration_type = Personal`. For more information, see [OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/oauth-2-credentials.md).
+Use the Credential form to configure OAuth 2.0 credentials with `integration_type = Personal`. For more information, see [OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/connections-and-credentials/oauth-2-credentials.md).
 
 Personal authentication is supported only for the following OAuth 2.0 grant types:
 
@@ -35,7 +35,7 @@ Grant types such as Client Credentials, and JWT Bearer Grant aren’t supported 
 
 ## Personal Authentication dashboard
 
-Use your personal credentials to connect to third-party integrations. View, authenticate, revoke, and renew your personal authentications through a simplified, consolidated interface. For more information, see [Using the Personal Authentication dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/personal-auth-dashboard.md).
+Use your personal credentials to connect to third-party integrations. View, authenticate, revoke, and renew your personal authentications through a simplified, consolidated interface. For more information, see .
 
 **Note:** The personal authentication dashboard can only be accessed by users who are assigned to the role: `sn_personal_auth.personal_auth_user`
 

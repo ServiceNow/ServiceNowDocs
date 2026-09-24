@@ -1,24 +1,24 @@
 ---
-title: Create an application file in the ServiceNow IDE
-description: Create an application file in an embedded ServiceNow AI Platform user interface from the ServiceNow IDE.
+title: Create an application file from the File Categories view
+description: Create an application file in an embedded ServiceNow AI Platform user interface from the File Categories view in the ServiceNow IDE.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-ide-family-release/create-application-file-servicenow-ide.html
-release: australia
+release: brazil
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Develop applications, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
 ---
 
-# Create an application file in the ServiceNow IDE
+# Create an application file from the File Categories view
 
-Create an application file in an embedded ServiceNow AI Platform user interface from the ServiceNow IDE.
+Create an application file in an embedded ServiceNow AI Platform user interface from the File Categories view in the ServiceNow IDE.
 
 ## Before you begin
 
-Create, convert, or clone an application and add it to your workspace. For more information, see [Adding applications in ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/creating-applications-servicenow-ide.md).
+Create, convert, or clone an application and add it to your workspace. For more information, see [Adding applications in ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/creating-applications-servicenow-ide.md).
 
 Role required: admin
 
@@ -34,11 +34,11 @@ If you need to create some application metadata outside of source code, you can 
 
 3.  From the Activity Bar, select the File Categories view or Apps view.
 
-4.  From a file category or type, select the Create New File icon \(\[Omitted image "add-record-button.png"\] Alt text: Create New File\).
+4.  Select the Create New File icon \(\[Omitted image "add-record-button.png"\] Alt text: Create New File\).
 
     **Tip:** Alternatively, you can right-click an existing metadata category or file type in an application and select **Create New File** to create an application file of that category or type.
 
-5.  From the Application menu, select an application from your workspaceor the Global application scope.
+5.  From the Application menu, select an application from your workspace.
 
 6.  From the list of file types, select the type of file to create.
 
@@ -55,5 +55,5 @@ If you need to create some application metadata outside of source code, you can 
 9.  Select **Submit**.
 
 
-**Parent Topic:**[Developing applications with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/developing-applications-servicenow-ide.md)
+**Parent Topic:**[Developing applications with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/developing-applications-servicenow-ide.md)
 

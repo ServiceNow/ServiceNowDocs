@@ -3,9 +3,9 @@ title: Configure the maximum number of records returned for list UI parameters
 description: To configure the maximum number of records returned for a list of parameters, add the system property glide.sg.list.max\_items\_number.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/configure-max-ui-param.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [System properties, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -39,5 +39,5 @@ Default is 1000.
     |Value|&lt;maximum-number-of-parameters-items&gt;|
 
 
-**Parent Topic:**[Mobile system property configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/additional-mobile-configuration.md)
+**Parent Topic:**[Mobile system property configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/additional-mobile-configuration.md)
 

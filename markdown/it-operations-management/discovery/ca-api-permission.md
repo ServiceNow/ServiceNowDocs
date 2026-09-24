@@ -3,11 +3,11 @@ title: Certificate authorities pattern API elements and permissions
 description: Explore the Certificate Authorities \(CA\) pattern API elements and permissions for comprehensive insights into the associated functionalities and authorization requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/ca-api-permission.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -71,5 +71,5 @@ The patterns available with Certificate Inventory and Management Version 1.2.0 a
 -   Entrust
 -   Sectigo
 
-**Parent Topic:**[Certificate Inventory and Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-invt-mgmt-references.md)
+**Parent Topic:**[Certificate Inventory and Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/cert-invt-mgmt-references.md)
 

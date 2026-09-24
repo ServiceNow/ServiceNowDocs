@@ -3,11 +3,11 @@ title: Review the sandbox global settings
 description: Review and modify the global sandbox settings if you are experiencing issues with file or URL submission results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/review-sandbox-global-settings.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CrowdStrike Falcon X Sandbox integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

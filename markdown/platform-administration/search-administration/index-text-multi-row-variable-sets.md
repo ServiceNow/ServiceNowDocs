@@ -3,11 +3,11 @@ title: Enable indexing of text in multi-row variable sets
 description: Make text from multi-row Service Catalog variable sets searchable in global search.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/index-text-multi-row-variable-sets.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Zing indexes words, Zing text indexing and search engine, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -26,7 +26,7 @@ By default, Zing doesn't index text from multi-row Service Catalog variable sets
 
 Administrators can override this default behavior by adding the **glide.ts.index.variableset**system property and setting its value to **true**. With this value set, Zing indexes text in multi-row variable sets, and global search returns results for that text.
 
-To learn more about variable sets, see [Service catalog variable sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ServiceCatalogVariableSets.md).
+To learn more about variable sets, see [Service catalog variable sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_ServiceCatalogVariableSets.md).
 
 ## Procedure
 
@@ -61,11 +61,11 @@ Zing indexes text from multi-row Service Catalog variable sets so that you can f
 
 ## What to do next
 
-To see text from multi-row variable sets immediately in global searches, regenerate the text indexes for the affected tables. For details on this procedure, see [Regenerate a text index for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/t_RegenerateATextIndexForATable.md).
+To see text from multi-row variable sets immediately in global searches, regenerate the text indexes for the affected tables. For details on this procedure, see [Regenerate a text index for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/t_RegenerateATextIndexForATable.md).
 
 If you don't regenerate the text indexes for the affected tables, records on those tables will be reindexed as they are updated or added. Global searches will only return text from multi-row variable sets on reindexed records.
 
-**Parent Topic:**[Zing indexes words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/zing-indexes-words.md)
+**Parent Topic:**[Zing indexes words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/zing-indexes-words.md)
 
 **Related topics**  
 

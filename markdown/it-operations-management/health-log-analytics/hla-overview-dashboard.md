@@ -3,11 +3,11 @@ title: Health Log Analytics Operational dashboard
 description: The Health Log Analytics Operational dashboard uses Performance Analytics to monitor log data, alerts, and error rates in Service Operations Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-overview-dashboard.html
-release: australia
+release: brazil
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Health Log Analytics Operational dashboard, HLA Operational dashboard, log data monitoring dashboard, alert monitoring dashboard, error rate dashboard]
 breadcrumb: [Platform Analytics Solutions for Health Log Analytics, Analytics and Reporting in Health Log Analytics, Health Log Analytics, ITOM AIOps, IT Operations Management]
@@ -17,9 +17,9 @@ breadcrumb: [Platform Analytics Solutions for Health Log Analytics, Analytics an
 
 The Health Log Analytics Operational dashboard uses Performance Analytics to monitor log data, alerts, and error rates in Service Operations Workspace.
 
-For more information, see [HLA Operational dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/hla-operational-dashboard.md).
+For more information, see [HLA Operational dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/hla-operational-dashboard.md).
 
 **Note:** The Health Log Analytics Operational dashboard replaces the Health Log Analytics Overview dashboard, which has been deprecated.
 
-**Parent Topic:**[Platform Analytics Solutions for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-content-pack.md)
+**Parent Topic:**[Platform Analytics Solutions for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-content-pack.md)
 

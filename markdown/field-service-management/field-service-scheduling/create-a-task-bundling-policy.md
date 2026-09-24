@@ -3,11 +3,11 @@ title: Create a task bundling policy
 description: Create a task bundling policy to apply various rules for dynamically bundling tasks with Field Service Task Bundling.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/create-a-task-bundling-policy.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dynamic Task Bundling, Task Bundling, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
@@ -49,7 +49,7 @@ Task bundling policies are groups of rules that dictate how work order tasks are
 
 ## What to do next
 
-Policies require rules and qualifiers to run. For more information, see [Create a task bundling rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-a-task-bundling-rule.md) and [Add qualifiers to a task bundling policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/add-qualifier-bundling-policy.md).
+Policies require rules and qualifiers to run. For more information, see [Create a task bundling rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/create-a-task-bundling-rule.md) and [Add qualifiers to a task bundling policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/add-qualifier-bundling-policy.md).
 
-After a policy is complete, you can schedule them or run them manually. For more information, see [Schedule dynamic task bundling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/schedule-dynamic-task-bundling.md) or [Run a task bundling policy manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/run-a-task-bundling-policy.md).
+After a policy is complete, you can schedule them or run them manually. For more information, see [Schedule dynamic task bundling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/schedule-dynamic-task-bundling.md) or [Run a task bundling policy manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/run-a-task-bundling-policy.md).
 

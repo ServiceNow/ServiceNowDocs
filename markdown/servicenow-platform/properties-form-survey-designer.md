@@ -3,9 +3,9 @@ title: Properties form
 description: Description of the field values for the Properties form of survey designer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/properties-form-survey-designer.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Surveys reference, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -44,7 +44,7 @@ Type
 
 </td><td>
 
-Data type selected for this question. See the table in [Controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesignerElements.md) for the available data types.
+Data type selected for this question. See the table in [Controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SurveyDesignerElements.md) for the available data types.
 
 </td></tr><tr><td>
 
@@ -171,5 +171,5 @@ Options for a question with a data type of **Choice** or **Scale**. The system a
  \[Omitted image "SurveyDesignerChoiceValue.png"\] Alt text: Survey designer question choice values
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Surveys reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/survey-reference.md)
+</table>**Parent Topic:**[Surveys reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/survey-reference.md)
 

@@ -3,11 +3,11 @@ title: Configure Splunk Enterprise Security settings
 description: Use the Splunk Enterprise Security \(ES\) settings to modify the preset configurations and their values as per your requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configure-splunk-enterprise-security-settings.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Install and configure, Splunk Enterprise Security event ingestion integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -82,7 +82,7 @@ Number of notable types to batch in one search.
 
 </td><td>
 
-Option to define the total number of notable types that you want batch in a single search.By default, the value is set as 20.
+Option to define the total number of notable types that you want batch in a single search.By default, the value is set as 200.
 
 </td></tr><tr><td>
 

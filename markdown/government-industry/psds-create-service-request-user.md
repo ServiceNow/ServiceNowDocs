@@ -3,9 +3,9 @@ title: Creating a government service request with Public Sector Digital Services
 description: You can create a case about a community question or issue from the Government Service Portal in Public Sector Digital Services. The Government Service Portal supports submissions by both registered and anonymous users.Create a service request as a registered user in the Public Sector Digital Services application.Create a service request as a public user in the Public Sector Digital Services application. You can submit a service request anonymously without logging in to the application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-create-service-request-user.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Government Service Portal, Portals, Use, Public Sector Digital Services \(PSDS\)]
 ---
@@ -22,7 +22,7 @@ Role required: none.
 
 Constituents can use the Government Service Portal to request services and report issues in their community. They can also use the portal to view the status of existing service requests, as well as update their contact information.
 
-Constituents can submit their non-emergency requests through the Government Service Portal self-service experience, through Virtual Agent, or using Engagement Messenger. For more information on using Virtual Agent with Public Sector Digital Services, see [Get help with Public Service requests using Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-get-help-va.md).
+Constituents can submit their non-emergency requests through the Government Service Portal self-service experience, through Virtual Agent, or using Engagement Messenger. For more information on using Virtual Agent with Public Sector Digital Services, see [Get help with Public Service requests using Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-get-help-va.md).
 
 ## Create a service request as a registered user
 
@@ -36,7 +36,7 @@ Role required: constituent, business\_contact, business\_partner
 
 As a constituent, you can use the Government Service Portal to request services and report issues in their community. You can also use the portal to view the status of existing service requests, as well as update their contact information.
 
-As a constituent, you can submit non-emergency requests through the Government Service Portal self-service experience, through Virtual Agent, or by using Engagement Messenger. For more information on using Virtual Agent with Public Sector Digital Services, see [Get help with Public Service requests using Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-get-help-va.md).
+As a constituent, you can submit non-emergency requests through the Government Service Portal self-service experience, through Virtual Agent, or by using Engagement Messenger. For more information on using Virtual Agent with Public Sector Digital Services, see [Get help with Public Service requests using Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-get-help-va.md).
 
 ### Procedure
 
@@ -46,7 +46,7 @@ As a constituent, you can submit non-emergency requests through the Government S
 
 3.  Select the Service Request issue that you want to report.
 
-    For more information on the services that are offered in the Government Service Portal, see [Government Service Portal service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-service-catalog-list.md).
+    For more information on the services that are offered in the Government Service Portal, see [Government Service Portal service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-service-catalog-list.md).
 
 4.  On the form, fill in the fields.
 
@@ -116,7 +116,7 @@ Contact information for the business or individual who reported this case.
 
 ### Result
 
-The case is created, assigned a case number, and is now viewable in the **Your Cases** list in the Government Service Portal. For information on how to track the case as it moves through the various stages, see [Track the status of a public service request from the Government Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-track-service-request-status-user.md).
+The case is created, assigned a case number, and is now viewable in the **Your Cases** list in the Government Service Portal. For information on how to track the case as it moves through the various stages, see [Track the status of a public service request from the Government Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-track-service-request-status-user.md).
 
 ## Create a service request as a public user
 
@@ -209,6 +209,6 @@ Option to report this case as a business or as an individual.
 
     You’re taken back to the service request catalog, where you can submit another service request or register for an account.
 
-    **Note:** If you didn't provide any contact information, you can't track the status of this request or see the details of the case after you select **Submit**. If you would like to check the status of this request after your submit it, you must register for an account. For instructions, see [Register for the Government Service Portal as a constituent, business contact, or user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/register-gsm-portal-user.md).
+    **Note:** If you didn't provide any contact information, you can't track the status of this request or see the details of the case after you select **Submit**. If you would like to check the status of this request after your submit it, you must register for an account. For instructions, see [Register for the Government Service Portal as a constituent, business contact, or user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/register-gsm-portal-user.md).
 
 

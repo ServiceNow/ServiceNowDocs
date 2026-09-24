@@ -3,9 +3,9 @@ title: Add an approver
 description: Users added to the False Positive, Unassign, Exception Approver group can approve findings and remediation tasks \(VULs\). Granting a false positive, unassign, exception is a single-level approval process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-add-false-positive-approver.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Unified Approvals View, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -24,12 +24,17 @@ Role required: sn\_vul.vulnerability\_admin
 
 2.  In the **Name** column, search and select the appropriate option.
 
+    Select the group that matches the approval type you want the user to grant:
+
+    -   **False Positive Approver** — grants the `sn_vul.false_positive_approver` role. Members can approve or reject requests to mark findings as false positive.
+    -   **Unassign Approver** — grants the `sn_vul.unassign_approver` role. Members can approve or reject requests to unassign findings from the current owner or group.
+    -   **Exception Approver** — grants the `sn_sec_exception.approver` role. Members can approve or reject exception \(deferral\), extension, and risk-reduction requests.
+    A user can be a member of one, two, or all three groups. The user's group memberships determine which approval queues that user sees in the Unified Approvals View.
+
 3.  On the Group form, navigate to &gt; &gt; \(or **Group members** &gt; **New** &gt; **Edit**\).
 
 4.  On the User form, create a record by entering the user details, and click **Submit**.
 
     All roles are granted to the user. The selected users are added to the Group Members list. These members can approve requests to mark VIs or remediation tasks as false positive. Once approved, the state of the record is updated to Closed and it is reopened only on the specified date.
 
-
-**Parent Topic:**[Unified Approvals View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-approval-view.md)
 

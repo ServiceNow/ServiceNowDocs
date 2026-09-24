@@ -3,13 +3,13 @@ title: Health check
 description: Use the Health check dashboard to view the results of the health scan that is performed on the configurations in your Software Asset Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/health-check-dboard.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Success portal view in Software Asset Workspace, Software Asset Workspace, Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Success portal view in Software Asset Workspace, Software Asset Workspace, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Health check
@@ -20,11 +20,11 @@ To access the Health check dashboard, navigate to **Software Asset Workspace** &
 
 **Important:** Ensure that you’ve activated the Software Asset Workspace \(sn\_sam\_workspace\) store application and installed the ITAM Health Check application from [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/88804de177a94110ce3b5a11fe5a99c4/2.0.4?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3DITAM%2520health%2520check&sl=sh) to view the Health check dashboard. You must have the scan\_user and sam\_admin role to access this dashboard and view the health score data.
 
-If you are on the Rome or the San Diego releases, you must execute the full scan to view the results in the base system scan dashboard. For details on executing a full scan, see [Execute full scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/hs-execute-full-scan.md).
+If you are on the Rome or the San Diego releases, you must execute the full scan to view the results in the base system scan dashboard. For details on executing a full scan, see [Execute full scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/hs-execute-full-scan.md).
 
 Select **Domain** and choose a domain to view the health check results.
 
-You can also perform a scan for a suite by selecting **Execute Scan**. Verify the scan result to act accordingly. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/run-healthcheck.md)
+You can also perform a scan for a suite by selecting **Execute Scan**. Verify the scan result to act accordingly. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/run-healthcheck.md)
 
 \[Omitted image "feb-health-check.png"\] Alt text: Health check tab in the Success portal
 
@@ -114,7 +114,7 @@ Categorization of issues identified as a result of the health check scan.-   Dis
 </table>**Related topics**  
 
 
-[Software Asset Management health check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-health-check.md)
+[Software Asset Management health check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sam-health-check.md)
 
-[Run a health check scan for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/run-healthcheck.md)
+[Run a health check scan for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/run-healthcheck.md)
 

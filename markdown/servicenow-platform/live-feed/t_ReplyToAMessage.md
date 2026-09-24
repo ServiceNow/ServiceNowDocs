@@ -3,11 +3,11 @@ title: Reply to a Live Feed message
 description: To participate in an existing thread of a feed, you can compose and submit a reply message. By default, the message is visible to all members of the feed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_ReplyToAMessage.html
-release: australia
+release: brazil
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Post content in Live Feed, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -41,5 +41,5 @@ Role required: none
 7.  Click **Threads** to view all of the replies within the selected reply in reverse chronological order within the **Message Thread** pop-up window, similar to an email thread.
 
 
-**Parent Topic:**[Post content in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_PostContentInLiveFeed.md)
+**Parent Topic:**[Post content in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/c_PostContentInLiveFeed.md)
 

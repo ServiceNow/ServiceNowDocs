@@ -3,11 +3,11 @@ title: Applications in DevOps Change Velocity
 description: In DevOps Change Velocity, an application collects all the up-to-date data that connected tools send about plans, repositories, and pipelines.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/app-devops.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [DevOps Change Velocity, IT Service Management]
 ---

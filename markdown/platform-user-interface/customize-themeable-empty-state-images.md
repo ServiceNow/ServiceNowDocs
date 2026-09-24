@@ -3,9 +3,9 @@ title: Customize theme-able empty state images for your theme
 description: Customize default theme-able empty state images for your Next Experience and Theme Builder themes using the theme's Imagery record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/customize-themeable-empty-state-images.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Theme-able empty state images, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-**Important:** You can customize empty state images for Workspaces, but customization is not supported in the Core UI.
+**Important:** This procedure applies only to Next Experience themes that use the now-illustration component. You can customize empty state images for Workspaces, but customization is not supported in the Core UI.
 
 ## Procedure
 
@@ -97,7 +97,7 @@ Role required: admin
 
         **Note:** Verify that your image is in SVG format.
 
-        1.  For detailed instructions, see [Upload one or more images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/upload-multiple-images.md).
+        1.  For detailed instructions, see [Upload one or more images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/upload-multiple-images.md).
         2.  From the Imagery style record, enter the image file name into the **Style** field using the following format: `"/FILENAME.svg"`.
 6.  Select **Update**.
 
@@ -110,5 +110,5 @@ Role required: admin
     **Note:** Using the default theme hooks is recommended.
 
 
-**Parent Topic:**[Working with theme-able empty state images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/themeable-empty-state-images.md)
+**Parent Topic:**[Working with theme-able empty state images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/themeable-empty-state-images.md)
 

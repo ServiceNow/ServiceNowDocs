@@ -3,11 +3,11 @@ title: Create multiple scrum tasks for stories in Agile Development 2.0
 description: For your Agile Development 2.0 stories, create batches of different types of scrum tasks at a time, to save time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/create-multiple-scrum-tasks.html
-release: australia
+release: brazil
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a scrum task for Agile Development 2.0 stories, Managing your product development using Agile Development 2.0, Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
@@ -45,7 +45,7 @@ A batch of tasks of the selected types is created with a short description of **
 
 ## What to do next
 
-Open each scrum task record and fill in more details such as description, priority, and others. For field information of a Scrum Task form, see [Scrum Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/create-a-scrum-task.md).
+Open each scrum task record and fill in more details such as description, priority, and others. For field information of a Scrum Task form, see [Scrum Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/create-a-scrum-task.md).
 
-**Parent Topic:**[Create a scrum task for Agile Development 2.0 stories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/create-a-scrum-task.md)
+**Parent Topic:**[Create a scrum task for Agile Development 2.0 stories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/create-a-scrum-task.md)
 

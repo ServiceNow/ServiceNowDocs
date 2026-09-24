@@ -3,11 +3,11 @@ title: Components installed with Service Operations Workspace ITSM Applications
 description: Several types of components are installed with the Service Operations Workspace ITSM Applications application \(sn-sow-itsm-cont\) installation, including user role, plugins, and ServiceNow Store applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/components-installed-with-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: reference
-last_updated: "2026-08-25"
+last_updated: "2026-09-21"
 reading_time_minutes: 3
 breadcrumb: [Service Operations Workspace for ITSM reference, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -233,7 +233,7 @@ Service Operations Workspace ITSM Admin Center\[sn\_sow\_itsm\_admin\]
 Provides quick access to ITSM related configurations in Service Operations Workspace.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Operations Workspace for ITSM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/sow-reference.md)
+</table>**Parent Topic:**[Service Operations Workspace for ITSM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/sow-reference.md)
 
 **Related topics**  
 

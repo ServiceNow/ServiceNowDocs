@@ -3,9 +3,9 @@ title: Add an existing case as a child to a major case
 description: A major issue manager can add an existing case as a child to an accepted major case, either by selecting from a list of cases or by adding a case from the Suggested child cases related list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-existing-case-to-major-case.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Major issue management overview, Manage cases, Use, Customer Service Management]
 ---
@@ -62,5 +62,5 @@ There are two ways to add child cases to an accepted major case:
 **Related topics**  
 
 
-[Recipients lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/major-issue-recipient-lists.md)
+[Recipients lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/major-issue-recipient-lists.md)
 

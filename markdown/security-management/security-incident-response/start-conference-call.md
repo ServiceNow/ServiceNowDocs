@@ -3,11 +3,11 @@ title: Start a conference call
 description: Start a conference call from a task or a major security by inviting one or more users to join a conference call. The conference call would start only when at least two participants join.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/start-conference-call.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Major Security Incident Management Conference Call Integration, Integrate, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -26,7 +26,7 @@ Make sure you’ve done the following on the ServiceNow® instance:
 -   Installed the Notify UI Components for Configurable Workspaces app.
 -   Installed and activated the Visual Task Board plugin \(com.devsnc.snb\_vtb\).
 
-For more information, see [Request IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/request-ih-overview.md).
+For more information, see [Request IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/request-ih-overview.md).
 
 ## About this task
 
@@ -83,7 +83,7 @@ The call participants can include the following:
     When the final participant leaves the conference, the conference call ends or select **End call** to end the conference call.
 
 
-**Parent Topic:**[Major Security Incident Management Conference Call Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/integrate-msim-conference-calls.md)
+**Parent Topic:**[Major Security Incident Management Conference Call Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/integrate-msim-conference-calls.md)
 
 **Related topics**  
 

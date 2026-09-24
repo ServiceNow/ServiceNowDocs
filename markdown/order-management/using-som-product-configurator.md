@@ -3,9 +3,9 @@ title: Using the Configurator
 description: The configurator in Sales Customer Relationship Management is an interface for customizing configurable product offers. The interface displays the product options available and automatically calculates product pricing as you select options.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/using-som-product-configurator.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -36,8 +36,8 @@ You can expand the product hierarchy to show the available characteristics and o
 
 \[Omitted image "complex-char-configUI-order.png"\] Alt text: Product configurator interface showing the gear icon that identifies hierarchical product characteristics available
 
--   **[Create multiple configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-multiple-child-configs.md)**  
+-   **[Create multiple configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-multiple-child-configs.md)**  
 Create multiple configurations of a child product offering when you're adding a configurable product to an opportunity, quote, or order. You can then configure the product options and characteristics separately for each offering configuration.
 
-**Parent Topic:**[Using configure, price, quote applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-cpq.md)
+**Parent Topic:**[Using configure, price, quote applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-cpq.md)
 

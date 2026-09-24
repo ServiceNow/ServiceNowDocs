@@ -3,9 +3,9 @@ title: Customize a Work Scheduler card using the Next Experience UI Builder
 description: Customize the Work Scheduler card components, such as adding an extra field, or changing the color or order of a field, to display them in the Work scheduler queue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customize-workscheduler-card-wfo-cs.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setting up Work scheduler, Optimize workforce operations, Extend capabilities, Configure, Customer Service Management]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Setting up Work scheduler, Optimize workforce operations, Extend ca
 Customize the Work Scheduler card components, such as adding an extra field, or changing the color or order of a field, to display them in the Work scheduler queue.
 
 ## Before you begin
+
+**Important:**
+
+Starting with the Brazil release, Work scheduler is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Role required: admin, workspace\_admin, or ui\_builder\_admin​
 
@@ -50,20 +54,20 @@ You can duplicate an existing work item variant such as an Incident, Problem, Ch
 
 12. Click **Save**.
 
-13. Customize the variant you've created using any of the tasks or steps listed in [Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-workscheduler-card-wfo-cs.md).
+13. Customize the variant you've created using any of the tasks or steps listed in [Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-workscheduler-card-wfo-cs.md).
 
 
 ## Example
 
 |If you'd like to configure this in the Work Scheduler card|Refer to|
 |----------------------------------------------------------|--------|
-|Add fields|[Create page scripts for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/work-sched-create-page-scripts-wfo-cs.md) and refer to the Create the **Transform workItem to cardProps** page script steps.|
-|Add an avatar|[Configure an avatar component for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/work-sched-avatar-component-wfo-cs.md)|
+|Add fields|[Create page scripts for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/work-sched-create-page-scripts-wfo-cs.md) and refer to the Create the **Transform workItem to cardProps** page script steps.|
+|Add an avatar|[Configure an avatar component for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/work-sched-avatar-component-wfo-cs.md)|
 
-**Parent Topic:**[Setting up Work scheduler in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-work-scheduler-wfo-cs.md)
+**Parent Topic:**[Setting up Work scheduler in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/setting-up-work-scheduler-wfo-cs.md)
 
 **Related topics**  
 
 
-[Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-page.md)
+[Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-page.md)
 

@@ -3,11 +3,11 @@ title: Corrective action charges
 description: Create correction action charges to enable the expenses incurred to address a non-conformance and implement measures to help prevent its recurrence.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco\_corrective\_action\_charges.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Corrective actions, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
+breadcrumb: [Corrective actions, Create a campaign, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Corrective action charges
@@ -20,13 +20,13 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **My Campaigns** &gt; **Corrective Actions** &gt; **Corrective Action Charges**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **My Campaigns** &gt; **Corrective Actions** &gt; **Corrective Action Charges**.
 
 2.  Select **New**.
 
 3.  On the corrective action charges form, fill in the fields.
 
-    For a description of the field values, see [Corrective action charges form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco_corrective_action_charges_form.md).
+    For a description of the field values, see [Corrective action charges form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco_corrective_action_charges_form.md).
 
 4.  Select **Save**.
 
@@ -34,4 +34,6 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
     **Note:** At least one "In use" corrective action is required to initiate the recall campaign to In-progress.
 
+
+**Parent Topic:**[Corrective actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-corrective-actions.md)
 

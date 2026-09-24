@@ -3,9 +3,9 @@ title: Create an entity class
 description: Create an entity class that is to be associated with an entity. Define the parent class, root entity, and tier for an entity class.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-entity-class.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage entities in Operational Sustainability Management \(formerly ESG Management\), Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -30,7 +30,7 @@ Entity classes are used to add conceptual information about an entity. Entity cl
 
 1.  Navigate to **All** &gt; **Operational Sustainability Management** &gt; **Operational Sustainability Workspace** &gt; **Scoping** &gt; **Entity classes**.
 
-2.  Select **New**.
+2.  Click **New**.
 
 3.  On the form, fill in the fields.
 
@@ -41,14 +41,14 @@ Entity classes are used to add conceptual information about an entity. Entity cl
     |Is root|Condition to check if the new entity class has a root entity. Options are **True** or **False**.|
     |Tier|Tier for the new entity class, such as Application or Business.|
 
-4.  To save the entity class, select **Save**.
+4.  To save the entity class, click **Save**.
 
     **Note:** In the New entity class form, only the **Details** tab is displayed. Only after an entity class is created, the **Details** tab, **Entities** related list, and **Child classes** related list are displayed in the entity class form.
 
 
 ## What to do next
 
-[Update an entity class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/update-entity-class.md)
+[Update an entity class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/update-entity-class.md)
 
-**Parent Topic:**[Manage entities in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/entities-in-esg.md)
+**Parent Topic:**[Manage entities in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/entities-in-esg.md)
 

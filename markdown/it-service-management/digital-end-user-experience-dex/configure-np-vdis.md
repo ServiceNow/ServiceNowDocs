@@ -3,11 +3,11 @@ title: Manage logon and logoff scripts for non-persistent VDIs
 description: Configure logon and logoff scripts in a non-persistent VDI pool to control how the MID Server starts and stops during virtual desktop sessions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/configure-np-vdis.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Non-persistent VDI monitoring configuration, Configure, Digital End-User Experience, IT Service Management]
 ---
@@ -20,9 +20,9 @@ Configure logon and logoff scripts in a non-persistent VDI pool to control how t
 
 Complete the following tasks before you prepare the golden image:
 
--   [Install Agent Client Collector on a non-persistent VDI reference device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/install-acc-on-np-vdi-golden-image.md)
--   [Enable DEX browser extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/enable-dex-browser-extension.md)
--   [Prepare non-persistent VDI reference device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/prepare-np-vdi-golden-image.md)
+-   [Install Agent Client Collector on a non-persistent VDI reference device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/install-acc-on-np-vdi-golden-image.md)
+-   [Enable DEX browser extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/enable-dex-browser-extension.md)
+-   [Prepare non-persistent VDI reference device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/prepare-np-vdi-golden-image.md)
 
 Role required: sn-dex-admin
 
@@ -36,7 +36,7 @@ Role required: sn-dex-admin
 
     The logon script runs at the start of each session to restore the certificate from your persistent storage to the VDI. The logoff script runs at the end of each session to push any remaining metrics to the ServiceNow instance before the session disconnects.
 
-    For more information, see [Non-persistent VDI parameters, scripts, and settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/non-persistent-vdi-scripts.md).
+    For more information, see [Non-persistent VDI parameters, scripts, and settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/non-persistent-vdi-scripts.md).
 
 3.  Depending on the tool your organization uses for authentication, modify the authentication steps in the logon and logoff scripts to connect to your persistent storage location.
 

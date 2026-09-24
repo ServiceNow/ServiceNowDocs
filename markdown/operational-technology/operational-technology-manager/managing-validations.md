@@ -3,11 +3,11 @@ title: Managing Validations
 description: Validation enables you to review and manage the imported data in the staging table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/managing-validations.html
-release: australia
+release: brazil
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Validate imported staging records, Using the Service Graph Connector for Microsoft Excel through import tasks, Service Graph Connector for Microsoft Excel, Use, Operational Technology Manager, Operational Technology]
 ---
@@ -48,7 +48,7 @@ Validations to be executed:
     If you have additional mappings, create an extension point implementation for the base system **sn\_otsm\_sgc.SGOTAssetImportExtensionPoint** extension point.
 
 
-For more information about adding a custom implementation for device classification, see [Add a custom implementation for device classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/adding-custom-implementation-for-asset-classification.md).
+For more information about adding a custom implementation for device classification, see [Add a custom implementation for device classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/adding-custom-implementation-for-asset-classification.md).
 
-**Parent Topic:**[Validate imported staging records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/run-validations.md)
+**Parent Topic:**[Validate imported staging records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/run-validations.md)
 

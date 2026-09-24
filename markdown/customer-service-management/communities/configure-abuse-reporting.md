@@ -3,11 +3,11 @@ title: Configure abuse reporting
 description: Configure whether users can report content and profile abuse, set an abuse reporting threshold, and define reasons for abuse reporting.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/configure-abuse-reporting.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Moderate a community, Configuring communities, Communities, Customer Service Management]
 ---
@@ -19,6 +19,10 @@ Configure whether users can report content and profile abuse, set an abuse repor
 ## Before you begin
 
 Role required: sn\_communities.admin or sn\_communities.moderation\_admin
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Procedure
 
@@ -39,5 +43,5 @@ Role required: sn\_communities.admin or sn\_communities.moderation\_admin
 4.  Click **Update**.
 
 
-**Parent Topic:**[Moderate a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/moderate-communities.md)
+**Parent Topic:**[Moderate a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/moderate-communities.md)
 

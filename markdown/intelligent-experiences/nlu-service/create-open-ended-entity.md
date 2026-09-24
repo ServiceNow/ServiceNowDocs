@@ -1,18 +1,18 @@
 ---
-title: Create an open-ended entity
+title: \(Legacy\) Create an open-ended entity
 description: Use an open-ended entity when you want to improve intent prediction accuracy. Open-ended entities help your model focus on the context of the utterances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/create-open-ended-entity.html
-release: australia
+release: brazil
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [NLU entities, Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) NLU entities, \(Legacy\) Build and train your model, \(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Create an open-ended entity
+# \(Legacy\) Create an open-ended entity
 
 Use an open-ended entity when you want to improve intent prediction accuracy. Open-ended entities help your model focus on the context of the utterances.
 

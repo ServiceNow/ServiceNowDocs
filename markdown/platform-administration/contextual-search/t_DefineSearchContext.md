@@ -3,11 +3,11 @@ title: Define a search context
 description: Define where agents can search for a particular resource. You can specify that the search resources are predefined or additional resources outside the system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/contextual-search/t\_DefineSearchContext.html
-release: australia
+release: brazil
 product: Contextual Search
 classification: contextual-search
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring contextual search, Contextual search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -112,10 +112,10 @@ Option to determine when to perform the search. If you select this option, the s
 To display the search context in the Source selector on Platform, you must select this option. Search contexts with this option deselected don't appear in the Source selector on Platform.
 
 </td></tr></tbody>
-</table>    The **Searcher default search** list is available if the **Searcher** is the default search. If an additional resource is the default search, you see the **Set Searcher as the Default Search** related link. For information on how to set the default source for search context, see [Set the default source for search context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/set-source-search-context.md).
+</table>    The **Searcher default search** list is available if the **Searcher** is the default search. If an additional resource is the default search, you see the **Set Searcher as the Default Search** related link. For information on how to set the default source for search context, see [Set the default source for search context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/contextual-search/set-source-search-context.md).
 
 4.  Select and hold \(or right-click\) the form header and select **Save**.
 
 
-**Parent Topic:**[Configuring contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/configuring-contextual-search.md)
+**Parent Topic:**[Configuring contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/contextual-search/configuring-contextual-search.md)
 

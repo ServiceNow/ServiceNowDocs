@@ -3,11 +3,11 @@ title: Consumables life cycle
 description: Consumables are assets that are not tracked individually, but as a group of the same model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/c\_FollowLifeCycleConsumbl.html
-release: australia
+release: brazil
 product: Asset Management
 classification: asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Base Asset Management, Common applications, Asset Management]
 ---
@@ -38,18 +38,18 @@ The consumable lifecycle stages are as follows.
 -   Retired
 -   Missing
 
--   **[View consumable assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/t_ViewingConsumableAssets.md)**  
+-   **[View consumable assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/t_ViewingConsumableAssets.md)**  
 Consumables are tracked as a group of the same model, but you can view individual consumables in the consumable model record.
--   **[Create consumable assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/t_CreatingConsumableAssets.md)**  
+-   **[Create consumable assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/t_CreatingConsumableAssets.md)**  
 Create a consumable to track an asset as a group of the same model.
--   **[Consume consumable assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/t_ConsumingConsumableAssets.md)**  
+-   **[Consume consumable assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/t_ConsumingConsumableAssets.md)**  
 To consume consumable assets, they must have a state of **In Stock** and a substate of **Available**.
--   **[Return consumable assets to stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/return-consumables.md)**  
+-   **[Return consumable assets to stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/return-consumables.md)**  
 Move a consumable asset that is in a consumed state and has completed its life cycle back to an in-stock status.
--   **[Dispose of consumable assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/dispose-consumables.md)**  
+-   **[Dispose of consumable assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/dispose-consumables.md)**  
 Dispose of those consumable assets that are no longer required in your stockrooms.
 
-**Parent Topic:**[Using Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/using-asset-management.md)
+**Parent Topic:**[Using Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/using-asset-management.md)
 
 **Related topics**  
 

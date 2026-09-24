@@ -3,11 +3,11 @@ title: TuneUp Your Hardware Asset Management
 description: The TuneUp Your Hardware Asset Management \(HAM\) Accelerator provides guidance on maintaining and governing Hardware Asset Management health to optimize value.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/tuneup-hw-asset-management.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
@@ -20,7 +20,7 @@ The TuneUp Your Hardware Asset Management \(HAM\) Accelerator provides guidance 
 
 TuneUp Your Hardware Asset Management provides Impact customers with an assessment of their current HAM implementation. This Accelerator includes an  applied demonstration of HAM capabilities to standardize asset lifecycle. Customers obtain assistance for better insight into their HAM investment and  are provided leading practices on how to best increase adoption and usage.
 
-See [Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/ham-landing-page.md) for additional information about HAM.
+See [Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/ham-landing-page.md) for additional information about HAM.
 
 ## Package Availability
 
@@ -31,19 +31,24 @@ Offered pursuant to the applicable ServiceNow Impact Package and Accelerator des
 ## What you get
 
 -   **Session preparation**
-    -   Provisioning a temporary instance
-    -   Running HAM HealthScan portfolio
-    -   Installing or updating the HAM plugin
--   **Customer coaching session \#1 \(up to 90 minutes\)**
+
+    The Technical Accelerator Consultant:
+
+    -   Provisions a temporary instance
+    -   Runs HAM HealthScan portfolio
+    -   Installs or updates the HAM plugin
+-   **Customer coaching session \#1 \(up to 1.5 hrs\)**
     -   Includes the following:
         -   Overview of advanced HAM capabilities and features
         -   Review HealthScan findings
         -   Provide leading practices guides and resources
-    -   Access to the provisioned temporary instance is granted for 30 days
--   **Customer coaching session \#2 \(Optional upon customer request – up to 60 minutes\)**
+-   **Customer coaching session \#2 \(Optional up on customer request – up to 1 hr\)**
 
     Opportunity for Q&amp;A related to Hardware Asset Management
 
+-   **Outputs**
+    -   30-day access to the temporary instance and Technical Accelerator Consultant with whom you met for any further questions or in-depth explorations
+    -   Copy of the Coaching Session Deck
 
 ## Requested customer resources
 
@@ -57,9 +62,9 @@ Offered pursuant to the applicable ServiceNow Impact Package and Accelerator des
 |Service Manager\(s\) \(Recommended\)|Subject matter expert responsible for managing the applicable service.|
 |Trusted Service Partners \(Recommended\)|Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customer going forward.|
 
-## Requested information/access
+## Requested Information/Access
 
-Please refer to the applicable Impact Accelerator Description available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
+**Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
 
 ## Exclusions
 

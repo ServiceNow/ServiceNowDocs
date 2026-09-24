@@ -3,11 +3,11 @@ title: Create a serverless discovery schedule for NetApp SolidFire discovery
 description: Set up a dedicated serverless discovery schedule for NetApp SolidFire cluster and node discovery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-solidfire.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2026-05-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [NetApp SolidFire storage system, Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -19,7 +19,7 @@ Set up a dedicated serverless discovery schedule for NetApp SolidFire cluster an
 ## Before you begin
 
 -   Verify the MID Server is set to Active and can reach the target NetApp SolidFire cluster.
--   Create an alias for the basic authentication credential. For more information, see [Create a basic authentication credential alias for NetApp SolidFire discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-alias-basic-auth-cred-solidfire.md).
+-   Create an alias for the basic authentication credential. For more information, see [Create a basic authentication credential alias for NetApp SolidFire discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-alias-basic-auth-cred-solidfire.md).
 -   Obtain the management IP address of the target SolidFire cluster.
 
 Role required: discovery\_admin
@@ -77,10 +77,10 @@ Role required: discovery\_admin
 
 Either execute discovery immediately by selecting **Discover now** or wait until the predefined schedule triggers the discovery.
 
-**Parent Topic:**[NetApp SolidFire storage system discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/solidfire-storage-pattern.md)
+**Parent Topic:**[NetApp SolidFire storage system discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/solidfire-storage-pattern.md)
 
 **Related topics**  
 
 
-[NetApp SolidFire storage system discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/solidfire-storage-pattern.md)
+[NetApp SolidFire storage system discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/solidfire-storage-pattern.md)
 

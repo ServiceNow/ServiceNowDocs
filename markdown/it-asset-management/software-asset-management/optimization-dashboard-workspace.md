@@ -3,13 +3,13 @@ title: Optimization and savings dashboard in workspace
 description: Use the Optimization and savings dashboard to view actual and potential cost savings for your software assets. In addition, view the recommended licensing optimizations for third-party software publishers, including Microsoft, Red Hat, Adobe, and SAP. Use this information to downgrade or reclaim licenses so that you can optimize your licensing costs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/optimization-dashboard-workspace.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Software asset analytics view, Software Asset Workspace, Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software asset analytics view, Software Asset Workspace, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Optimization and savings dashboard in workspace
@@ -27,10 +27,10 @@ You can access the Optimization and savings dashboard by navigating to **Softwar
 
 View the licensing optimizations for a publisher by selecting the publisher from the **Publisher** drop-down list.
 
--   [Publisher optimizations for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/pub-opt-sap.md)
--   [Publisher optimizations for Red Hat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/pub-opt-redhat.md)
--   [Publisher optimizations for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/pub-opt-microsoft.md)
--   [Publisher optimizations for Adobe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/pub-opt-adobe.md)
+-   [Publisher optimizations for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/pub-opt-sap.md)
+-   [Publisher optimizations for Red Hat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/pub-opt-redhat.md)
+-   [Publisher optimizations for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/pub-opt-microsoft.md)
+-   [Publisher optimizations for Adobe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/pub-opt-adobe.md)
 
 \[Omitted image "optimizations-savings-dboard.png"\] Alt text: Optimization and savings dashboard in Software Asset Workspace.
 

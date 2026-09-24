@@ -3,9 +3,9 @@ title: Create a push message attribute definition
 description: Push message attribute definitions allow you to create reusable properties for push message content specification.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreateAPushMessageAttribute.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Push notification setup with a custom push application for ServiceNow mobile apps, Push notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -16,20 +16,20 @@ Push message attribute definitions allow you to create reusable properties for p
 
 ## Before you begin
 
-1.  [Activate push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivatePushNotifications.md)
-2.  \(iOS only\) [Upload a push certificate to your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upload-push-cert.md)
-3.  [Create a push application record for your custom app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAMobileApplication.md)
-4.  [Create push message content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAMobileMessageLayout.md)
+1.  [Activate push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivatePushNotifications.md)
+2.  \(iOS only\) [Upload a push certificate to your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upload-push-cert.md)
+3.  [Create a push application record for your custom app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAMobileApplication.md)
+4.  [Create push message content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAMobileMessageLayout.md)
 
 Role required: admin or push\_admin
 
-**Note:** This process describes configuration used in the ServiceNow mobile app. Push Notification configuration for the current ServiceNow mobile UI can be found at [Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-push-notifications.md)
+**Note:** This process describes configuration used in the ServiceNow mobile app. Push Notification configuration for the current ServiceNow mobile UI can be found at [Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mobile-push-notifications.md)
 
 ## About this task
 
 Use an attribute definition to specify a default push action script or string that you can then use in the push message content.
 
-You can override these attributes by creating any [push message attribute values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAPushMessageAttributeValue.md).
+You can override these attributes by creating any [push message attribute values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAPushMessageAttributeValue.md).
 
 ## Procedure
 
@@ -89,5 +89,5 @@ Specify an arbitrary string value to be placed in the attribute that is used by 
 </table>
 ## What to do next
 
-If you want to override default attribute definitions, see [Create an attribute value or action for a push message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAPushMessageAttributeValue.md).
+If you want to override default attribute definitions, see [Create an attribute value or action for a push message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAPushMessageAttributeValue.md).
 

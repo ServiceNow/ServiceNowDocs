@@ -3,11 +3,11 @@ title: Time series metrics for datacenter
 description: Use time series metrics to calculate the operational details of network assets in the Telecommunications Network Inventory application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/time-series-metrics.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
@@ -44,5 +44,5 @@ Use time series metrics to calculate the operational details of network assets i
 |Power Usage \(%\)|u\_power\_usage|cmdb\_ci\_equipment\_holder|
 |Power Used \(kW\)|u\_power\_occupied|cmdb\_ci\_equipment\_holder|
 
-**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
+**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
 

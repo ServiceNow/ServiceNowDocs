@@ -3,11 +3,11 @@ title: Set knowledge notification preferences
 description: Set notification preferences for knowledge bases and knowledge articles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/set-subscription-notifications.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing email notifications in Knowledge Management, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -40,5 +40,5 @@ Users can set notification preferences from the Knowledge menu or from the Knowl
 4.  Click **Knowledge Articles** and enable or disable the knowledge article notification options.
 
 
-**Parent Topic:**[Managing email notifications in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/email-notifications-km.md)
+**Parent Topic:**[Managing email notifications in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/email-notifications-km.md)
 

@@ -3,11 +3,11 @@ title: Configure the knowledge base for ITSM Success Dashboard indicators
 description: Include only the relevant knowledge bases related to IT while determining the Self-solved using Knowledge KPI in ITSM Success Dashboard indicators.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-success-dashboard-indicators/configure-knowledge-sdb.html
-release: australia
+release: brazil
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set the refresh interval for Success Dashboard indicators, ITSM Success Dashboard Admin console, Configure, ITSM Success Dashboard indicators, IT Service Management]
 ---
@@ -37,5 +37,5 @@ Role required: admin
 7.  Select **Update**.
 
 
-**Parent Topic:**[Set the refresh interval for Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/configure-knowledge-deflection.md)
+**Parent Topic:**[Set the refresh interval for Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-success-dashboard-indicators/configure-knowledge-deflection.md)
 

@@ -3,11 +3,11 @@ title: ServiceNow AI Impact
 description: The ServiceNow AI Impact evaluation dashboard displays business outcomes and operational results from AI conversations. Metrics include issue resolution rate, time saved, cost reduction, and other KPIs demonstrating AI business value.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/md-servicenow-ai-impact.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Evaluation dashboard, ServiceNow AI dashboard, Dashboards, Explore, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
+breadcrumb: [Evaluation dashboard, ServiceNow AI dashboard, Dashboards, Explore, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # ServiceNow AI Impact

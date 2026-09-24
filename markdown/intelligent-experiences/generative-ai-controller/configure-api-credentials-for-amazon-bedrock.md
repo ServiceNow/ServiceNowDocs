@@ -3,13 +3,13 @@ title: Configure API Credentials for Amazon Bedrock
 description: Configure your API credentials to use AWS Bedrock as your LLM provider for Generative AI Controller capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-amazon-bedrock.html
-release: australia
+release: brazil
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring API credentials for generative AI capabilities, Configuring Generative AI Controller, Generative AI Controller, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Configuring API credentials for generative AI capabilities, Configuring Generative AI Controller, Generative AI Controller, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Configure API Credentials for Amazon Bedrock
@@ -53,5 +53,5 @@ You can use Amazon Bedrock as your LLM provider for Generative AI Controller cap
 
 ## What to do next
 
-Activate generative AI skills in the AI Admin Hub console for your workflow. For more information, see [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills.md).
+Activate generative AI skills in the AI Admin Hub console for your workflow. For more information, see [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills/now-assist-skills.md).
 

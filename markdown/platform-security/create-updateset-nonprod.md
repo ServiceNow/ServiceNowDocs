@@ -3,9 +3,9 @@ title: Prepare Circle of Trust certificates
 description: Create an update set in the trusted environment to export the trusted certificate to the production environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/create-updateset-nonprod.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Code Signing, Platform Security]
 ---
@@ -30,7 +30,7 @@ Trusted instance
 
 2.  Open the most recently created X.509 Certificate that was generated with the type **Trust Store Cert**.
 
-    You may need to add the **Created** field to the list to find the most recent record. See [Personal lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_PersonalLists.md).
+    You may need to add the **Created** field to the list to find the most recent record. See [Personal lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_PersonalLists.md).
 
 3.  Select **Export certificate to production**.
 
@@ -58,8 +58,10 @@ Trusted instance
 
 8.  Retrieve the update set in production.
 
-    See [Retrieve an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/t_RetrieveAnUpdateSet.md) for details.
+    See  for details.
 
     **Important:** Repeat these steps for your second key pair. Remember that there’s a key for both the cm\_code\_attest and cm\_code\_signing cryptographic modules.
 
+
+**Parent Topic:**[Configuring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/config-code-signing.md)
 

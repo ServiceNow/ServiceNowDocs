@@ -3,11 +3,11 @@ title: Microsoft Azure Automation Spoke
 description: Integrate the ServiceNow instance with the Microsoft Azure Automation. Manage the cloud-based automation and configuration services from your ServiceNow instance. Also reuse this short description in the release notes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/azure-automation.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -101,5 +101,5 @@ The Microsoft Azure Automation spoke provides actions to automate the Microsoft 
 
 ## Set up the Microsoft Azure Automation Spoke
 
-To execute the actions of the Microsoft Azure Automation Spoke, you must first install and configure the Microsoft Azure Resource Management Spoke. No separate configuration of the Microsoft Azure Automation Spoke is necessary. To view the procedure to set up the Microsoft Azure Resource Management Spoke, see [Set up the Microsoft Azure Resource Management spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-res-mngmt.md).
+To execute the actions of the Microsoft Azure Automation Spoke, you must first install and configure the Microsoft Azure Resource Management Spoke. No separate configuration of the Microsoft Azure Automation Spoke is necessary. To view the procedure to set up the Microsoft Azure Resource Management Spoke, see [Set up the Microsoft Azure Resource Management spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-res-mngmt.md).
 

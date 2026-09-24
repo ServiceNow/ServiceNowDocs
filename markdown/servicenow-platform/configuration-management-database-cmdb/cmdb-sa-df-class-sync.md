@@ -3,11 +3,11 @@ title: Principal class sync in Data Foundations advisor
 description: When other tools or processes add or remove principal classes outside the advisor scope, the Data Foundations advisor displays a notification prompting you to review and update the scope.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-class-sync.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-05-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [principal class sync, out-of-sync principal classes, Data Foundations advisor notification, CI Class Manager principal class discrepancy, resolve principal class sync]
 breadcrumb: [Manage advisor scope, Advisor setup, Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
@@ -45,5 +45,5 @@ If a discrepancy exists, the Data Foundations advisor displays two types of noti
 
 ## Resolving an out-of-sync state
 
-To resolve a principal class sync discrepancy, see [Resolve an out-of-sync principal class state in the Data Foundations advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-resolve-class-sync.md).
+To resolve a principal class sync discrepancy, see [Resolve an out-of-sync principal class state in the Data Foundations advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-resolve-class-sync.md).
 

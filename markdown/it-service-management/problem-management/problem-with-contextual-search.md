@@ -3,11 +3,11 @@ title: Working with contextual search
 description: Contextual search display results on forms and record producers based on the text that you provide in a field.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/problem-with-contextual-search.html
-release: australia
+release: brazil
 product: Problem Management
 classification: problem-management
 topic_type: concept
-last_updated: "2026-06-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference section for Problem Management, Problem Management, IT Service Management]
 ---
@@ -23,14 +23,14 @@ You can:
 -   Find articles using the **Related Search** field. The articles can be based on any category that you select from the list.
 -   Use the list next to the **Related Search** field to select the category such as **Knowledge \(All\)**, **Pinned Articles**, **Incidents**, **Open Problems**, and **Resolved Problems**.
 
-    **Note:** To display articles in the **Pinned Articles** category, a knowledge manager must add them to featured content in Knowledge Management. For more information, see [Add a knowledge article to featured content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_PinAnArticle.md).
+    **Note:** To display articles in the **Pinned Articles** category, a knowledge manager must add them to featured content in Knowledge Management. For more information, see [Add a knowledge article to featured content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_PinAnArticle.md).
 
 -   Attach the article in the **Notes** &gt; **Work notes** if your search result displays knowledge articles.
 
-**Parent Topic:**[Reference section for Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/reference-section-for-problem-management.md)
+**Parent Topic:**[Reference section for Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/reference-section-for-problem-management.md)
 
 **Related topics**  
 
 
-[Contextual search overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ContextualSearch.md)
+[Contextual search overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ContextualSearch.md)
 

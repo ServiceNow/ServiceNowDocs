@@ -3,13 +3,13 @@ title: Define default instructions for ServiceNow AI Lens
 description: Create a system property to define default instructions for ServiceNow AI Lens execution on a specific form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/servicenow-lens/default-prompt-system-property-lens.html
-release: australia
+release: brazil
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, ServiceNow AI Lens, Enable AI experiences]
+breadcrumb: [Configure, ServiceNow AI Lens, Generative AI skills, Enable AI Experiences]
 ---
 
 # Define default instructions for ServiceNow AI Lens

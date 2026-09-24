@@ -3,11 +3,11 @@ title: Cost rollup in project currency
 description: Cost rollup calculation in projects and sub-projects with different currencies varies with the budget reference rate. The rate at which the amount is converted depends on the conversion rate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/project-costing-project-currency.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Multicurrency fields in project-related forms, Project Management reference, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -104,4 +104,5 @@ False
 Cannot associate sub-project to parent project if project currency of the sub-project and parent project is different.In such case of an association, an error message: `System policy does not allow parent and child projects to have different project currency` pops up.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Multicurrency fields in project-related forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/multicurrency-fields-project-form.md)
+

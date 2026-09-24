@@ -3,11 +3,11 @@ title: Create a Stream Producer
 description: Create a Stream Producer configuration to automatically stream table changes to a Kafka topic. You can specify which table to monitor, which change events to capture, which fields to include, and configure keys and headers for routing and tracking.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-stream-producer.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-07-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [create, Stream Producer, producer configuration, Kafka topic]
 breadcrumb: [Stream Producer, Using Stream Connect for Apache Kafka, Import and stream data, Integration Hub, Workflow Data Fabric]
@@ -242,7 +242,7 @@ If the **Serialization Format** is **Encoded - Avro** the Related Links section 
 
 ## What to do next
 
-To begin capturing and streaming table changes, activate the Stream Producer. See [Activate or deactivate a Stream Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/activate-stream-producer.md) for instructions.
+To begin capturing and streaming table changes, activate the Stream Producer. See [Activate or deactivate a Stream Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/activate-stream-producer.md) for instructions.
 
-**Parent Topic:**[Stream Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-producer.md)
+**Parent Topic:**[Stream Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/stream-producer.md)
 

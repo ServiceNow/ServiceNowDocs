@@ -3,11 +3,11 @@ title: Outbound email
 description: Use outbound email accounts to send emails.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-outbound-email-il.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2025-12-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Platform module configuration, Configure, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure the Platform module, Configure, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Outbound email
@@ -137,7 +137,7 @@ Manage the behavior of outgoing emails with Properties.
 
 **Note:** Select **Save** to save the recent property settings. You can also undo the most recent change by selecting **Undo**. By selecting **Undo**, the values are reverted back to the most recent saved values.
 
-See [Outbound email configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_OutboundMailConfiguration.md) for more information.
+See [Outbound email configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_OutboundMailConfiguration.md) for more information.
 
-**Parent Topic:**[Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md)
+**Parent Topic:**[Configure the Platform module in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ia-config-platform-il.md)
 

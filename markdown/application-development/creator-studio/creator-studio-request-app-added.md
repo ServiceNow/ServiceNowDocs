@@ -3,13 +3,13 @@ title: Ask an admin to create an app for you in Creator Studio
 description: Don't have permission to build an app? Ask your admin to get you started by creating a basic app for you. Just give them a name and tell them what you want the app to do. Once they start it, you’ll take over and modify it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-request-app-added.html
-release: australia
+release: brazil
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [App creation, Build apps, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [App creation, Build apps, Creator Studio, Developing your application, Building applications]
 ---
 
 # Ask an admin to create an app for you in Creator Studio
@@ -22,7 +22,7 @@ To request an app to be created for you, the admin needs to assign you the role 
 
 ## About this task
 
-When you ask an admin to create an app for you, you automatically become the owner of it. For more information, see [Collaborating with others to build apps in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-collaboration-roles.md).
+When you ask an admin to create an app for you, you automatically become the owner of it. For more information, see [Collaborating with others to build apps in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-collaboration-roles.md).
 
 Here’s how to ask an admin to create an app for you.
 
@@ -63,12 +63,12 @@ Here’s how to ask an admin to create an app for you.
 
 After you ask your admin to create the app, they'll review and approve the request. They might need more details about the app from you. You'll get an email notification once they approve and create it. At that point, you’re the owner of the app. You can find your app in Creator Studio and start building out the app's forms, automation, and workspace category.
 
-To learn all the things you can do as the app owner when building the app, see [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-collaboration.md).
+To learn all the things you can do as the app owner when building the app, see [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/application-collaboration.md).
 
 **For admins:**
 
--   Every app built in Creator Studio adds a record in the Request App Config table. The table’s name follows the format of scope\_request, for example, x\_snc\_02\_03\_request.However, your admin can change the table for an app after you create it. For more details, check out [Administering an app's associated table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-admin-app-table.md).
+-   Every app built in Creator Studio adds a record in the Request App Config table. The table’s name follows the format of scope\_request, for example, x\_snc\_02\_03\_request.However, your admin can change the table for an app after you create it. For more details, check out [Administering an app's associated table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-admin-app-table.md).
 -   You’ll review and approve app requests in the Application Tasks table of the Request App Administration app.
 
-**Parent Topic:**[App creation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-creating-apps.md)
+**Parent Topic:**[App creation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-creating-apps.md)
 

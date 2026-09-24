@@ -3,11 +3,11 @@ title: Configure average hourly rate for your organization
 description: Set the average hourly rate that the Cost Framework uses to convert hours saved into financial savings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mc-configure-the-average-hourly-rate-for-your-organization.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
-breadcrumb: [Cost, Configure, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
+breadcrumb: [Cost, Configure, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Configure average hourly rate for your organization
@@ -30,7 +30,7 @@ Cost setup is a four-step process: configure hourly rates, add integrated vendor
 
 1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Settings** &gt; **Rules and Templates** &gt; **Cost**.
 
-2.  Select ******Edit configuration**.
+2.  Select **Configure** or **Edit configuration**.
 
     **Note:**
 
@@ -42,15 +42,13 @@ Cost setup is a four-step process: configure hourly rates, add integrated vendor
 
 4.  With **Set up a global rate** selected, enter the hourly rate in the **Avg hourly rate \(in USD\)** field.
 
-5.  Select **Set up rates per persona** and enter multiple rates if your organization has significant variations in labor costs.
+5.  Select **Set up rates per persona** and then enter the rate in the **Avg hourly rate \(in USD\)** field for each persona listed.
 
-    Define a rate for each persona, such as agent, developer, fulfiller, or others.
+    You must define a rate for each persona, such as agent, developer, fulfiller, or others.
 
-    Enter the rate in the **Avg hourly rate \(in USD\)** field for each persona listed, for example **Agent** and **Other**. The average hourly rate is required for each persona you want included.
+    **Important:**
 
-    **Note:**
-
-    Total savings reflect only the personas that have a configured hourly rate. A persona field left empty contributes no savings.
+    The configuration shows only the personas that are mapped to the templates you created. If a persona is not mapped to your templates, it does not appear in the configuration.
 
 6.  Select **Next** to continue.
 

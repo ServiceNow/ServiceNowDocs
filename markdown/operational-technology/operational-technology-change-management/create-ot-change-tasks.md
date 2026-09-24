@@ -3,11 +3,11 @@ title: Create a change task to fulfill a change request
 description: Create a change task to fulfill an Operational Technology \(OT\) change request. Change tasks help to capture all the tasks that need to take place during a change request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-change-management/create-ot-change-tasks.html
-release: australia
+release: brazil
 product: Operational Technology Change Management
 classification: operational-technology-change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Operational Technology Change Management, Operational Technology]
 ---
@@ -158,5 +158,5 @@ You can view change tasks in the Industrial Workspace list view in the following
 -   Change tasks assigned to your group: **OT Tasks** &gt; **Assigned to My Groups**
 -   Unassigned change tasks: **OT Tasks** &gt; **Unassigned**
 
-**Parent Topic:**[Using Operational Technology Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-change-management/using-operational-technology-change-management.md)
+**Parent Topic:**[Using Operational Technology Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-change-management/using-operational-technology-change-management.md)
 

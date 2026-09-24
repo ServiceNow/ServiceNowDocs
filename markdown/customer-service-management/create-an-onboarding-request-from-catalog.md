@@ -3,11 +3,11 @@ title: Create an onboarding request from the service catalog
 description: Create a new onboarding request from the Customer or Consumer Service Portals by navigating the service catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-an-onboarding-request-from-catalog.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Playbooks for Portals, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Playbooks for Portals, Customer communication, Use, Customer Service Management]
 ---
 
 # Create an onboarding request from the service catalog
@@ -16,13 +16,13 @@ Create a new onboarding request from the Customer or Consumer Service Portals by
 
 ## Before you begin
 
-Role required: sn\_customerservice.customer, sn\_customerservice.consumer, sn\_customerservice.proxy\_contact, admin
+Role required: sn\_customerservice.customer, sn\_customerservice.consumer, sn\_csm\_proxy\_cont, admin
 
 ## Procedure
 
 1.  Create a request by going to either the portal landing page or the portal menu header and then doing one of the following actions.
 
-<table id="choicetable_vsj_nl4_21c"><tbody><tr><td id="d243987e63">
+<table id="choicetable_vsj_nl4_21c"><tbody><tr><td id="d249584e63">
 
 **__Request Something__**
 
@@ -30,7 +30,7 @@ Role required: sn\_customerservice.customer, sn\_customerservice.consumer, sn\_c
 
 On the portal landing page, select the **Request Something** link.
 
-</td></tr><tr><td id="d243987e76">
+</td></tr><tr><td id="d249584e76">
 
 **__Requests__**
 
@@ -55,9 +55,9 @@ The system processes the request, creates the request and any other related reco
 **Related topics**  
 
 
-[Creating an onboarding case with Playbooks for Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-an-onboarding-case-with-portal-playbook.md)
+[Creating an onboarding case with Playbooks for Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-an-onboarding-case-with-portal-playbook.md)
 
-[Creating a guided onboarding case from CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-a-guided-onboarding-case-from-workspace.md)
+[Creating a guided onboarding case from CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-a-guided-onboarding-case-from-workspace.md)
 
-[Create an onboarding request from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-an-onboarding-request-from-catalog.md)
+[Create an onboarding request from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-an-onboarding-request-from-catalog.md)
 

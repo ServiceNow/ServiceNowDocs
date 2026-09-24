@@ -3,11 +3,11 @@ title: Exploring the Operational Technology Manager
 description: Learn how you can use the Operational Technology Manager application to create the foundational data and relationships that enable your enterprise to use the ServiceNow Operational Technology solution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/exploring-operational-technology-manager.html
-release: australia
+release: brazil
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Operational Technology Manager, Operational Technology]
 ---
@@ -18,20 +18,20 @@ Learn how you can use the Operational Technology Manager application to create t
 
 The Operational Technology Manager supports the use of the Configuration Management Database \(CMDB\), Service Graph Connectors, and Discovery applications in the ServiceNow AI Platform.
 
--   **[Operational Technology Manager \(OT\) configuration item extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/ot-configuration-item-extension-classes.md)**  
+-   **[Operational Technology Manager \(OT\) configuration item extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/ot-configuration-item-extension-classes.md)**  
 Operational Technology Manager uses Operational Technology \(OT\) configuration item \(CI\) extension classes that extend the CMDB class hierarchy as shown in the following figure.
--   **[CMDB CI classes for Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/cmdb_ci_classes_operational_technology_manager.md)**  
+-   **[CMDB CI classes for Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/cmdb_ci_classes_operational_technology_manager.md)**  
 Operational Technology Manager adds these Configuration Management Database \(CMDB\) configuration item \(CI\) classes that are part of the CMDB CI Class Models application.
--   **[OT device data import and discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/ot-asset-data-import-discovery.md)**  
+-   **[OT device data import and discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/ot-asset-data-import-discovery.md)**  
 Multiple methods are available for uploading your existing Operational Technology device data into the ServiceNow AI Platform.
--   **[Differences between OT and standard IT networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/differences-between-ot-standard-it-networks.md)**  
+-   **[Differences between OT and standard IT networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/differences-between-ot-standard-it-networks.md)**  
 There are differences in how the Configuration Management Database \(CMDB\) handles the devices located in Operational Technology networks and those in standard Information Technology \(IT\) networks.
--   **[Operational Technology \(OT\) Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/exploring-now-assist-for-otm.md)**  
+-   **[Operational Technology \(OT\) Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/exploring-now-assist-for-otm.md)**  
 The Operational Technology \(OT\) Manager Foundation plugin uses generative AI to help streamline processes in the Industrial Workspace related to your OT device data. You can search for OT devices with the OT Configuration Management Database \(CMDB\) search feature and use an agentic workflow to automate the OT device import process.
--   **[Enhanced Access Control for Operational Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/ot-enhanced-access-control.md)**  
-Enhanced Access Control for Operational Technology \(OT\) implements data filters, deny unless access control rules \(ACLs\), and ACL query rules to help promote system security.
--   **[Viewing your installed Operational Technology applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/view-installed-ot-applications.md)**  
+-   **[Enhanced Access Control for Operational Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/ot-enhanced-access-control.md)**  
+Enhanced Access Control for OT implements data filters, deny unless access control rules \(ACLs\), and ACL query rules to help promote system security. Granular access control extends these protections to the Equipment Model Entity \(EME\) level, so you can restrict access from the site level to individual plants, lines, areas, and other ISA 95 hierarchy nodes.
+-   **[Viewing your installed Operational Technology applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/view-installed-ot-applications.md)**  
 You can view the Operational Technology \(OT\) applications that you have installed on your instance for better visibility of how you can use the Operational Technology Management solution.
 
-**Parent Topic:**[Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/operational-technology-manager.md)
+**Parent Topic:**[Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/operational-technology-manager.md)
 

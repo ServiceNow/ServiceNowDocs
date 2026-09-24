@@ -3,11 +3,11 @@ title: PowerShell probe
 description: The PowerShell Probe executes PowerShell V2 scripts on the MID Server host.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/c\_PowershellProbe.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [List of Discovery probes, Discovery probes and sensors, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -129,8 +129,8 @@ if(test-path env:\SNC_user) {
 }
 ```
 
--   **[Create a custom PowerShell probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateACustomPowershellProbe.md)**  
+-   **[Create a custom PowerShell probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/t_CreateACustomPowershellProbe.md)**  
 You can create your own PowerShell probe and configure probe parameters.
 
-**Parent Topic:**[List of Discovery probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_ListOfDiscoveryProbes.md)
+**Parent Topic:**[List of Discovery probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_ListOfDiscoveryProbes.md)
 

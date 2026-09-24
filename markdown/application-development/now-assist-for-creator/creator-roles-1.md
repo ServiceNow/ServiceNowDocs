@@ -3,11 +3,11 @@ title: ServiceNow Otto for Creator \[now.assist.creator\] role
 description: This role grants users access to ServiceNow Otto for Creator skills.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/creator-roles-1.html
-release: australia
+release: brazil
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, Now Assist for Creator, Install Now Assist for Creator]
 breadcrumb: [Configure, ServiceNow Otto for Creator, Agentic development on the ServiceNow AI Platform, Building applications]

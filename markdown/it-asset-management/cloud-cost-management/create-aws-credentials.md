@@ -3,11 +3,11 @@ title: Create AWS credentials
 description: Create credentials in the AWS Management Console to specify the credentials of the user when you configure the MID Servers that communicate with your AWS account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/create-aws-credentials.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up access to AWS billing and usage data, Configure Cloud Cost Management for AWS, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -63,7 +63,7 @@ Attach one or more policies
 
 The appropriate policy.**Note:** The AdministratorAccess policy has the most powerful permission level, including permission to provision cloud resources.
 
-You might instead prefer to create a policy or combine multiple policies to grant the appropriate permission level. For more information, see [Create an AWS IAM user policy for Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/aws-user-policy-create-cloudin.md).
+You might instead prefer to create a policy or combine multiple policies to grant the appropriate permission level. For more information, see [Create an AWS IAM user policy for Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/aws-user-policy-create-cloudin.md).
 
 </td></tr></tbody>
 </table>6.  On the Review page, verify your selections and then select **Create user**.

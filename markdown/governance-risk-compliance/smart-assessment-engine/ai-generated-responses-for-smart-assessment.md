@@ -3,12 +3,12 @@ title: Smart Assessment response assist skill
 description: The GenAI-powered Smart Assessment Response Assist skill automatically drafts answers by using past smart assessments, classic assessments, and supporting documents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/ai-generated-responses-for-smart-assessment.html
-release: australia
+release: brazil
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [Explore, ServiceNow Otto for SAE, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
 
@@ -16,7 +16,7 @@ breadcrumb: [Explore, ServiceNow Otto for SAE, Smart Assessment Engine, Governan
 
 The GenAI-powered Smart Assessment Response Assist skill automatically drafts answers by using past smart assessments, classic assessments, and supporting documents.
 
-## About Smart Assessment response assist skill
+## Smart Assessment response assist skill overview
 
 You can trigger draft AI responses while responding, review the proposed answers, and choose whether to accept, modify, or discard them. The approach maintains human oversight and enables for customization as needed. After the responses are created in the assessment, an AI summary is set to available, providing a consolidated view of all AI-generated suggestions for an assessment. The skill works at the template category level, enabling AI-powered response generation for assessments associated with that category.
 
@@ -24,9 +24,20 @@ While responses are being generated, the assessment displays a live progress ind
 
 When you generate draft responses, you can turn on the **Auto-apply top suggestions** option. With auto-apply turned on, the highest-ranked suggestion for each question is applied automatically as the response, so that you don't have to apply each suggestion manually. You can still review and edit any auto-applied response before you submit the assessment. With auto-apply turned off, the suggestions are surfaced as cards for you to review and apply manually.
 
-The skill generates responses from two sources, previously answered questions and attached documents. For previously answered questions, the skill searches completed assessments with matching scope. It compares your current question with past ones to find the closest semantic matches and suggests the most relevant responses. For document-based suggestions, users can select up to 5 documents for the skill to analyze. These documents can come from attachments on the assessment instance. The default sources can be customized per template category through a scripted extension point; for details, see [Customizing AI Response Assist sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/customizing-ai-response-assist-sources.md). The skill matches relevant content to available answer choices and suggests the most appropriate response. Assessors can select which documents they want the skill to analyze. Documents must be in PDF, DOCX, JPEG, or PNG format and can be up to 20 MB and 200 pages each. When suggestions from both sources are needed, the skill runs both checks and combines the results for you. When a question has matching suggestions from both sources, the document-based suggestion takes precedence in the suggestion ranking.
+## Sources for response assist suggestions
+
+The skill generates responses from two sources, previously answered questions and attached documents. For previously answered questions, the skill searches completed assessments with matching scope. It compares your current question with past ones to find the closest semantic matches and suggests the most relevant responses. For document-based suggestions, users can select up to 5 documents for the skill to analyze. These documents can come from attachments on the assessment instance. The default sources can be customized per template category through a scripted extension point; for details, see [Customizing AI Response Assist sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/customizing-ai-response-assist-sources.md). The skill matches relevant content to available answer choices and suggests the most appropriate response. Assessors can select which documents they want the skill to analyze. Documents must be in PDF, DOCX, JPEG, or PNG format and can be up to 20 MB and 200 pages each. When suggestions from both sources are needed, the skill runs both checks and combines the results for you. When a question has matching suggestions from both sources, the document-based suggestion takes precedence in the suggestion ranking.
 
 **Note:** You can generate draft responses once per user per assessment. If you collaborate with others on the same assessment, each contributor can generate draft responses for themselves. The sources you select when you start drafting are final. Review your previous assessment and document selections carefully before generating responses, as you can't generate draft responses again or change the selected sources for that assessment.
+
+## Question types supported by response assist
+
+The skill generates suggestions only for question types that use selectable answer choices or free text. The following question types are supported or not supported for AI-generated suggestions:
+
+-   **Supported** – Text, Drop-down list, Radio button, Check box, and Number questions.
+-   **Not supported** – Date, Reference, Attachment, and Barcode questions. The skill doesn't generate suggestions for these question types.
+
+## Document types supported by response assist
 
 In the document list, each document shows a compatibility state. The following states identify which files the skill can use:
 
@@ -37,6 +48,8 @@ In the document list, each document shows a compatibility state. The following s
 
 **Note:** The list of supported document formats is controlled by the `sn_smart_ai_assist.allowed_document_types` system property. An administrator can add or remove MIME types from this property to change which document types the skill accepts.
 
+## Reviewing AI-generated suggestions in an assessment
+
 Each question with AI suggestions is marked with an "AI assistance" tag, regardless of whether you have applied, modified, or discarded the suggestion. The tag indicates that suggestions were generated for that question, not that a suggestion was accepted. Use the AI filter to find and review all questions where AI has suggested a response. You can combine the AI filter with other filters, such as **Unanswered** or **Flagged**, to narrow your review further.
 
 Sections and subsections that contain AI suggestions display a sparkle icon next to the section name. Use this icon in the assessment navigation pane to quickly jump to the next section that has AI-generated suggestions. Sections without any AI suggestions don't show the sparkle icon.
@@ -45,11 +58,13 @@ AI suggestion cards help assessment responders by offering context-aware suggest
 
 Each suggestion card references its source, whether a past smart assessment, a classic assessment, or a supporting document. Responders can select the view sources icon \[Omitted image "rec-type-icon-observation.png"\] Alt text: next to a source to open and verify it directly within the same window, without leaving the assessment page. For document-based suggestions, the source preview highlights the snippet within the original document that the suggestion was drawn from, so responders can verify the citation in context.
 
+## Considerations for AI-generated responses
+
 When adding AI-generated responses to questions:
 
 -   AI suggestions don't override the responses you have already entered manually, preserving and respecting user input.
 -   Each user can generate draft responses once per assessment.
--   Your suggestions are private to you, but the applied answer on the assessment is shared with all collaborators, even when collaborating with others. Each contributor can generate draft responses for themselves. Suggestions are based on the documents and previous assessments that each contributor has access to. Two contributors on the same assessment may see different suggestions and a different AI summary. If another contributor has already applied an answer to a question, you see that applied answer when you open the question.
+-   Your suggestions are private to you, but the applied answer on the assessment is shared with all contributors, even when collaborating with others. Each contributor can generate draft responses for themselves. Suggestions are based on the documents and previous assessments that each contributor has access to. Two contributors on the same assessment may see different suggestions and a different AI summary. If another contributor has already applied an answer to a question, you see that applied answer when you open the question.
 -   The AI summary panel can be collapsed at any time and reopened from the assessment header. The summary reports the percentage of the assessment for which AI suggested answers, along with the count of suggestions that were generated and applied.
 -   If the skill can't find any relevant information in the selected sources, the assessment displays a message indicating that no suggestions could be generated. If suggestions were generated for some questions but the skill failed for others, the affected questions display an indicator. Select **Retry** from the AI summary to regenerate the failed suggestions.
 
@@ -68,7 +83,7 @@ Consider a vendor undergoing a Third-Party Risk Management \(TPRM\) security ass
 ## Benefits of Smart Assessment response assist skill
 
 -   Reduce time spent on repetitive assessments by reusing validated responses.
--   Track AI-assisted questions with an "AI assistance" tag and use filters to review AI-supported responses easily.
+-   Marks each question with an "AI assistance" tag and provides filters to track and review AI-supported responses easily.
 -   Maintain human oversight — review, accept, or override every suggestion.
 -   Improve consistency and quality across responses by drawing on past validated answers.
 -   View the source of every AI suggestion, whether from a past smart assessment, classic assessment, or supporting document.

@@ -3,11 +3,11 @@ title: Plan unscheduled items into roadmap
 description: Add items without start or end dates yet to your portfolio plan or free-form roadmap.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/plan-unscheduled-items-into-roadmap-in-portfolio-planning.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace, roadmap]
 breadcrumb: [Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
@@ -29,15 +29,15 @@ Planning items that meet the criteria of your portfolio plan or free-form roadma
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d159789e99">
+<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d160096e99">
 
 Roadmap type
 
-</th><th align="left" id="d159789e102">
+</th><th align="left" id="d160096e102">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d159789e108">
+</th></tr></thead><tbody><tr><td id="d160096e108">
 
 **Portfolio plan roadmap**
 
@@ -47,7 +47,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d159789e129">
+</td></tr><tr><td id="d160096e129">
 
 **Free-form roadmap**
 
@@ -63,5 +63,5 @@ From the Free-form Roadmaps tab, select a roadmap.
     \[Omitted image "unscheduled-items.gif"\] Alt text: Schedule unscheduled items.
 
 
-**Parent Topic:**[Planning roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/planning-roadmaps-in-portfolio-planning.md)
+**Parent Topic:**[Planning roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/planning-roadmaps-in-portfolio-planning.md)
 

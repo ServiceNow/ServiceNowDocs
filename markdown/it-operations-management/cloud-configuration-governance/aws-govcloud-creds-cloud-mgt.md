@@ -3,11 +3,11 @@ title: Create AWS GovCloud credentials for Cloud Provisioning and Governance
 description: Skip this procedure if your organization does not use AWS GovCloud \(US\). To securely access data on your provider account, the Discovery process must present appropriate credentials. An AWS GovCloud \(US\) region is an isolated AWS region that meets stringent US government security and compliance requirements to host sensitive workloads. Cloud Provisioning and Governance supports all AWS GovCloud \(US\) services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/aws-govcloud-creds-cloud-mgt.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Day 1 setup guide for Amazon Web Services on Cloud Provisioning and Governance, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -76,7 +76,7 @@ Attach one or more policies …
 
 </td><td>
 
-Select the appropriate policy. **Note:** The **AdministratorAccess** policy has the most powerful permission level, including permission to provision cloud resources. The policy enables the same access that would be granted to the instance if you were not using IAM and used your AWS account Access Key ID and Secret Access Key. You might instead prefer to create a policy or combine multiple policies to grant the appropriate permission level. See [Control AWS access and permissions using policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aws-create-user-policy-cloud-mgt.md) for details.
+Select the appropriate policy. **Note:** The **AdministratorAccess** policy has the most powerful permission level, including permission to provision cloud resources. The policy enables the same access that would be granted to the instance if you were not using IAM and used your AWS account Access Key ID and Secret Access Key. You might instead prefer to create a policy or combine multiple policies to grant the appropriate permission level. See [Control AWS access and permissions using policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aws-create-user-policy-cloud-mgt.md) for details.
 
 </td></tr></tbody>
 </table>6.  On the Review page, verify your selections and then click **Create user**.

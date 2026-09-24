@@ -3,13 +3,13 @@ title: Atlassian Jira Cloud external content connector
 description: The Atlassian Jira Cloud external content connector retrieves work items and attachments from projects in your Atlassian Jira Cloud source system and makes their content and metadata searchable in AI Search applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/atlassian-jira-cloud-external-content-connector.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -21,21 +21,21 @@ Connector administrators can run or schedule content crawls to retrieve updated 
 
 The indexed content and metadata are stored as records in a connector-specific indexed source. Search administrators can create search sources from this indexed source and link them to search profiles to make the indexed records searchable in AI Search applications.
 
--   **[Configure a connector user in Atlassian Jira Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-connector-user-jira-cloud.md)**  
+-   **[Configure a connector user in Atlassian Jira Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-connector-user-jira-cloud.md)**  
 Create a user and group in your Atlassian Jira Cloud tenant with access and permissions required by the Atlassian Jira Cloud external content connector. The connector runs as this user when accessing data from your tenant.
--   **[Configure Atlassian Jira Cloud for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/cfg-src-sys-settings-jira-ext-cont-connector.md)**  
+-   **[Configure Atlassian Jira Cloud for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/cfg-src-sys-settings-jira-ext-cont-connector.md)**  
 Register an OAuth 2.0 integration in the Atlassian Developer console and create an API key in Atlassian Administration to allow the Atlassian Jira Cloud external content connector to crawl projects and security principals in your Atlassian Jira Cloud source system.
--   **[Create an Atlassian Jira Cloud external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-jira.md)**  
+-   **[Create an Atlassian Jira Cloud external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-ext-cont-connector-jira.md)**  
 Create an external content connector to retrieve searchable content and security principals from your Atlassian Jira Cloud source system.
--   **[Configure crawl settings for an Atlassian Jira Cloud external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-crawl-settings-jira-ext-cont-connector.md)**  
+-   **[Configure crawl settings for an Atlassian Jira Cloud external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-crawl-settings-jira-ext-cont-connector.md)**  
 Specify the projects you want your Atlassian Jira Cloud external content connector to crawl. Define inclusion or exclusion filters to dictate the types of content the crawl retrieves and feeds to AI Search for indexing.
 
-**Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configuring-ext-cont-connectors.md)
+**Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configuring-ext-cont-connectors.md)
 
 **Related topics**  
 
 
-[Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-content-crawl-external-content-connector.md)
+[Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-content-crawl-external-content-connector.md)
 
-[Create a user permission crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md)
+[Create a user permission crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md)
 

@@ -3,11 +3,11 @@ title: Change a project version name
 description: Change the name of a project version for easier referencing when viewing and comparing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/edit-version-name.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Comparing projects, Analyzing and getting process insights, Use, Process Mining, Platform Analytics]
 ---
@@ -35,5 +35,5 @@ Role required: administrator
 6.  Select **Save**.
 
 
-**Parent Topic:**[Comparing projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/comparing-models.md)
+**Parent Topic:**[Comparing projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/comparing-models.md)
 

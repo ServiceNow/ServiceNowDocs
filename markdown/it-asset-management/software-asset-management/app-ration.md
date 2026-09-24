@@ -3,13 +3,13 @@ title: Overlapping usage view
 description: Use the Overlapping usage view in Software Asset Workspace to get insights into the feature level usage and rationalize your SaaS and Single sign-on \(SSO\) applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/app-ration.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Software Asset Workspace, Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software Asset Workspace, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Overlapping usage view
@@ -161,5 +161,5 @@ Creating demands enables you to take meaningful action against any redundant sof
 
 **Note:** The PPM Standard plugin \(com.snc.financial\_planning\_pmo\) must be installed to create demands.
 
-Select **Create demand** to rationalize software applications. For more information, see [Create demand to rationalize software applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/soft-asset-demand.md).
+Select **Create demand** to rationalize software applications. For more information, see [Create demand to rationalize software applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/soft-asset-demand.md).
 

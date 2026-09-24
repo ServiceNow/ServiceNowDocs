@@ -3,11 +3,11 @@ title: Configuring Operational Technology Request Management
 description: Configure Operational Technology Request Management so that you can create the data foundation for the Operational Technology \(OT\) solution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-request-management/configuring-operational-technology-request-management.html
-release: australia
+release: brazil
 product: Operational Technology Request Management
 classification: operational-technology-request-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Operational Technology Request Management, Operational Technology]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Operational Technology Request Management, Operational Technology]
 
 Configure Operational Technology Request Management so that you can create the data foundation for the Operational Technology \(OT\) solution.
 
-If you have the admin role, you can use Guided Setup to lead you through the setup of Operational Technology Request Management. Guided Setup is a tool that assists with application or capability configuration. It organizes the configuration activities into categories. These categories contain the information about the setup tasks, the steps to complete each task, and the links to the pages in your instance where you perform the configuration. The links to useful help content are also provided.
+If you have the admin role, you can use Guided Setup to lead you through the setup of Operational Technology Request Management. Guided Setup is a tool that assists with application or capability configuration. It organizes the configuration activities into categories. These categories contain the information about the setup tasks, steps to complete each task, and links to the pages in your instance where you perform the configuration. The links to useful help content are also provided.
 
 To access Guided Setup, navigate to **Industrial Workspace Admin** &gt; **Guided Setup**.
 
@@ -61,7 +61,7 @@ Create catalog items for your OT service catalog using the catalog builder.
 
 </td><td>
 
-Create catalog items for the OT Service Catalog using the catalog builder so other users can submit their OT requests and choose the catalog item that best fits their needs.
+Create catalog items for the OT Service Catalog using the catalog builder. Other users can also submit their OT requests and choose the catalog item that best fits their needs.
 
 </td></tr><tr><td>
 
@@ -80,14 +80,14 @@ Create a fulfillment flow for an OT request in Workflow Studio.
 Create a fulfillment flow with catalog tasks in Workflow Studio for your catalog item as needed to fulfill an OT request.
 
 </td></tr></tbody>
-</table>-   **[Assign roles to your Operational Technology Request Management users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-request-management/assign-roles-oper-tech-request-management.md)**  
+</table>-   **[Assign roles to your Operational Technology Request Management users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-request-management/assign-roles-oper-tech-request-management.md)**  
 Assign roles to your users so that you can control their access to the features, capabilities, and data for Operational Technology Request Management.
--   **[Catalog item categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-request-management/catalog-item-categories-otrm.md)**  
+-   **[Catalog item categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-request-management/catalog-item-categories-otrm.md)**  
 You can select different categories for the catalog items you create in the Operational Technology \(OT\) Service Catalog. Categories help organize OT catalog items into logical groups. When requesters submit an OT request, they can choose the catalog item that best fits their needs based on its designated category.
--   **[Create a catalog item for your Operational Technology Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-request-management/create-catalog-item.md)**  
+-   **[Create a catalog item for your Operational Technology Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-request-management/create-catalog-item.md)**  
 Create a catalog item for the Operational Technology \(OT\) Service Catalog using the catalog builder so that other users can submit OT requests categorized by catalog item.
--   **[Create a fulfillment flow for an Operational Technology request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-request-management/create-a-fulfillment-flow-ot-request.md)**  
+-   **[Create a fulfillment flow for an Operational Technology request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-request-management/create-a-fulfillment-flow-ot-request.md)**  
 Create a fulfillment flow with catalog tasks in Workflow Studio for your catalog item as needed to fulfill an Operational Technology \(OT\) request.
 
-**Parent Topic:**[Operational Technology Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-request-management/operational-technology-request-management-landing-page.md)
+**Parent Topic:**[Operational Technology Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-request-management/operational-technology-request-management-landing-page.md)
 

@@ -3,11 +3,11 @@ title: Generate employee profiles for resources
 description: Generate employee profiles for the resources to map against primary attributes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/gen-emp-profiles-cp-pp.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure capacity planning, Configure, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -41,5 +41,5 @@ Employee profiles for the selected resources are generated.
 
 ## What to do next
 
-Populate a primary group, primary role, and primary skill for the resources with employee profiles. For more information, see [Map primary attributes to resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/map-primary-attributes-cp.md).
+Populate a primary group, primary role, and primary skill for the resources with employee profiles. For more information, see [Map primary attributes to resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/map-primary-attributes-cp.md).
 

@@ -3,11 +3,11 @@ title: Configuring ServiceNow Otto for Customer Service Management \(CSM\)
 description: If you have the admin role, you can configure the ServiceNow Otto for Customer Service Management \(CSM\) application so that your agents can use the generative AI skills in CRM Workspace and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/now-assist-csm-configuring.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Otto for CSM, Customer Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [ServiceNow Otto for CSM, Customer Service Management]
 
 If you have the admin role, you can configure the ServiceNow Otto for Customer Service Management \(CSM\) application so that your agents can use the generative AI skills in CRM Workspace and in Core UI.
 
-Use the AI Admin Hub console to configure ServiceNow Otto for CSM. This console contains everything that you must install the plugins and configure the generative AI skills. For additional information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
+Use the AI Admin Hub console to configure ServiceNow Otto for CSM. This console contains everything that you must install the plugins and configure the generative AI skills. For additional information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-now-assist.md).
 
 The following table lists the features and skills that you can access from the console.
 
@@ -52,9 +52,6 @@ Case
 -   Trending topics dashboard
 -   Activity response generation
 -   Sentiment analysis dashboard
--   Automated quality assurance
--   Special handling notes summarization
--   Customer summarization
 
 </td></tr><tr><td>
 
@@ -75,23 +72,23 @@ Call summarization
 </td></tr></tbody>
 </table>**Note:**
 
--   Learn how to select an LLM provider to configure all AI generated skills at once. Your choice controls the intelligence layer for the entire capability. For more info, see [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md) and [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-model-providers.md).
+-   Learn how to select an LLM provider to configure all AI generated skills at once. Your choice controls the intelligence layer for the entire capability. For more info, see [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/manage-large-language-models.md) and [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/edit-model-providers.md).
 -   The minimum version of the workspace required to support ServiceNow Otto for CSM features:
     -   CRM Workspace Foundation \(sn\_cwf\_wrkspc\): 24.2.1.
 
     -   CRM Workspace \(sn\_csm\_wrkspc\): 24.2.0.
 
 
-For earlier versions, go to [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager.md) to upgrade it to a later version.
+For earlier versions, go to [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/application-manager.md) to upgrade it to a later version.
 
 **Related topics**  
 
 
-[Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)
+[Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-now-assist.md)
 
-[Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md)
+[Configuring Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-na-landing.md)
 
-[Using agentic AI in ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/csm-ai-agents-use-cases.md)
+[Using agentic AI in ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/csm-ai-agents-use-cases.md)
 
-[Customer Service Management AI agent collection triage cases agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/case-resolving-use-case.md)
+[Customer Service Management AI agent collection triage cases agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/case-resolving-use-case.md)
 

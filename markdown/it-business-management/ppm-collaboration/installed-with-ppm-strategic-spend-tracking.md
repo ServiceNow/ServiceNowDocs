@@ -3,20 +3,20 @@ title: Components installed with Strategic Spend Tracking for PPM
 description: Several types of components are installed with activation of Strategic Spend Tracking for PPM, including tables and scheduled jobs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/ppm-collaboration/installed-with-ppm-strategic-spend-tracking.html
-release: australia
+release: brazil
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Install Strategic Spend Tracking for PPM, Strategic spend tracking, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Install Strategic Spend Tracking for PPM, Strategic Spend Tracking for PPM, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Components installed with Strategic Spend Tracking for PPM
 
 Several types of components are installed with activation of Strategic Spend Tracking for PPM, including tables and scheduled jobs.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 Demo data is available for this feature.
 
@@ -78,5 +78,5 @@ Strategy Allocation Breakdown\[sn\_ppm\_sst\_strategy\_allocation\_breakdown\]
 Stores strategy breakdown details for a project or demand. The details include fiscal year, strategy allocation amount, cost details \(planned and actual\), and capex and opex amounts \(planned and actual\).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install Strategic Spend Tracking for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/install-strategic-spend.md)
+</table>**Parent Topic:**[Install Strategic Spend Tracking for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/install-strategic-spend.md)
 

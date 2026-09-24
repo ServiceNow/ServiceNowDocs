@@ -3,11 +3,11 @@ title: Set up an approval from a local database
 description: Enable users to authorize e-signature approvals using local database credentials.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/approvals/t\_SetUpAnApprovalFromALocalDb.html
-release: australia
+release: brazil
 product: Approvals
 classification: approvals
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Approval with e-signature, Classic approvals, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -27,5 +27,5 @@ Role required: none
 2.  Create user records for approval users.
 
 
-**Parent Topic:**[Approval with e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/approval-with-e-signature.md)
+**Parent Topic:**[Approval with e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/approvals/approval-with-e-signature.md)
 

@@ -3,13 +3,13 @@ title: Install AI Risk and Compliance content
 description: Install the AI Risk and Compliance content application \(sn\_grc\_ai\_gov\_cont\) to add predefined governance content such as frameworks, authority documents, control objectives, and risk statements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/install-ai-risk-content-pack.html
-release: australia
+release: brazil
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
-last_updated: "2026-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Content pack, Configure, AI Risk and Compliance, Governance, Risk, and Compliance]
+breadcrumb: [Content pack, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
 # Install AI Risk and Compliance content
@@ -65,11 +65,11 @@ Verify that the content is available and ready to use:
 **Related topics**  
 
 
-[Install AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/install-ai-risk-and-compliance.md)
+[Install AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/install-ai-risk-and-compliance.md)
 
-[Activate or update NIST Risk Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/activate-or-update-nist-using-the-content-accelerator.md)
+[Activate or update NIST Risk Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/activate-or-update-nist-using-the-content-accelerator.md)
 
-[Activate or update EU Artificial Intelligence Act](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/activate-or-update-eu-artificial-intelligence-act.md)
+[Activate or update EU Artificial Intelligence Act](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/activate-or-update-eu-artificial-intelligence-act.md)
 
-[AI Risk and Compliance Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/airc-content-pack.md)
+[AI Risk and Compliance Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/airc-content-pack.md)
 

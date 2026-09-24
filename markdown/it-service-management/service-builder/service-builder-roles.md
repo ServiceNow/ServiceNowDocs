@@ -3,11 +3,11 @@ title: Roles installed with Service Builder
 description: Roles are added to Service Builder with the activation of ServiceNow Service Portfolio Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-builder/service-builder-roles.html
-release: australia
+release: brazil
 product: Service Builder
 classification: service-builder
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Builder, IT Service Management]
 ---
@@ -33,5 +33,5 @@ Service Builder is a feature of Service Portfolio Management. Its plugin \(sn\_s
 **Related topics**  
 
 
-[Installed with Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/r_InstalledWSPM2.md)
+[Installed with Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-portfolio-management/r_InstalledWSPM2.md)
 

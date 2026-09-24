@@ -3,13 +3,13 @@ title: Workday learning todos staging form
 description: Use this form to create Workday learning todos.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/wdl-todos-form.html
-release: australia
+release: brazil
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, HR Service Delivery Integration with Workday Learning, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference HR Service Delivery Integration with Workday Learning, HR Service Delivery Integration with Workday Learning, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
 # Workday learning todos staging form
@@ -32,7 +32,7 @@ Use this form to create Workday learning todos.
 |Integration todo ID|Unique identification number of the todo.|
 |State|State of the todo.|
 
-**Parent Topic:**[Reference HR Service Delivery Integration with Workday Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-workday-learning-intg.md)
+**Parent Topic:**[Reference HR Service Delivery Integration with Workday Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/reference-workday-learning-intg.md)
 
 **Related topics**  
 

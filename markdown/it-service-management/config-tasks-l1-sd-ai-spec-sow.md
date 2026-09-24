@@ -3,7 +3,7 @@ title: Configure L1 IT Service Desk AI Specialist tasks
 description: Select tasks that the L1 IT Service Desk AI Specialist is capable of.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/config-tasks-l1-sd-ai-spec-sow.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-08-25"
 reading_time_minutes: 6
@@ -89,7 +89,7 @@ Role required: sn\_itsm\_common.sn\_service\_desk\_manager or admin
             -   High: Slower results, more detail.
         -   **Pre resolution condition**: Encoded query to validate the record against the table. The conditions that need to be true before the L1 IT Service Desk AI Specialist will resolve the ticket. These are fields that get filled in after a ticket has been submitted.
         -   **Execution mode**: Determine how autonomously the L1 IT Service Desk AI Specialist should act. **Autonomous** mode grants the L1 IT Service Desk AI Specialist the ability to mark a ticket as resolved once resolution steps are sent. **Supervised** mode requires human acceptance of its resolution proposal.
-        -   **Auto-submit catalog requests**: When enabled, the L1 IT Service Desk AI Specialist automatically submits catalog items that have no required variables on behalf of the user. When disabled, the L1 IT Service Desk AI Specialist always returns the catalog URL for the user to review and submit manually.
+        -   **Auto-submit catalog requests**: When active, the L1 IT Service Desk AI Specialist submits the catalog request on the employee's behalf if it filled all mandatory variables. If any variable is missing, the employee completes and submits it. When inactive, the L1 IT Service Desk AI Specialist sends the employee a link to the draft to review and submit manually.
         -   **Flag high-risk resolution steps**: When on, resolutions requiring elevated access, backend changes, or irreversible actions are sent to a service desk agent instead of the requester.
     4.  Configure the Response formatting section.
 

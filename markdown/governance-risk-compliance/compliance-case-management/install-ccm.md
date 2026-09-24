@@ -3,11 +3,11 @@ title: Install Compliance Case Management
 description: You can install the GRC: Compliance Case Management application \(sn\_comp\_case\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes the demo data and related ServiceNow Store applications and plugins if they aren’t already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/install-ccm.html
-release: australia
+release: brazil
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Compliance Case Management, Governance, Risk, and Compliance]
 ---
@@ -32,7 +32,7 @@ The following items are installed with Compliance Case Management:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Tables installed with Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/tables-compliance-case-management.md) and [Roles installed with Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/roles-compliance-case-management.md).
+For more information, see [Tables installed with Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/tables-compliance-case-management.md) and [Roles installed with Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/roles-compliance-case-management.md).
 
 ## Procedure
 
@@ -57,5 +57,5 @@ For more information, see [Tables installed with Compliance Case Management](htt
 6.  Select **Install**.
 
 
-**Parent Topic:**[Configuring Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/configure-compliance-case-management.md)
+**Parent Topic:**[Configuring Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/configure-compliance-case-management.md)
 

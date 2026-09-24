@@ -3,11 +3,11 @@ title: Field Service Management Access Hours Management
 description: With Field Service Management Access Hours Management, you can schedule work order tasks only during the explicitly defined access hours.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/access-hour-mngmnt-fsm.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Assigning tasks using Dynamic Scheduling, Scheduling and dispatching, Use, Field Service Management]
 ---
@@ -21,7 +21,7 @@ Field Service Management Access Hours Management enables you to schedule work or
 **Related topics**  
 
 
-[Configuring the auto-population of access hours in a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/configuring-access-hours.md)
+[Configuring the auto-population of access hours in a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/configuring-access-hours.md)
 
-[Assigning work order task with defined access hours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/assign-wot-access-hour.md)
+[Assigning work order task with defined access hours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/assign-wot-access-hour.md)
 

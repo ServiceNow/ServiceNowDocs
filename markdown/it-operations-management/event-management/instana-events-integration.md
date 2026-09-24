@@ -3,11 +3,11 @@ title: Integrate Instana events
 description: Integrate Instana with Event Management by adding a standard webhook in the Instana console.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/instana-events-integration.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrate Instana events, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -19,6 +19,8 @@ Integrate Instana with Event Management by adding a standard webhook in the Inst
 ## Before you begin
 
 Ensure that the Event Management Connectors \(sn\_em\_connector\) plugin is installed on the ServiceNow AI Platform instance.
+
+Confirm you have created a user with an **Identify Type** of **Machine** and the evt\_mgmt\_integration role.
 
 Role required: evt\_mgmt\_admin
 
@@ -72,5 +74,5 @@ Role required: evt\_mgmt\_admin
     4.  On the **Details** tab, locate the **Actions** section on the right side of the page and in the **Show Event on Instana UI** cell, select **Launch app**.
 
 
-**Parent Topic:**[Integrate Instana events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/instana-integration.md)
+**Parent Topic:**[Integrate Instana events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/instana-integration.md)
 

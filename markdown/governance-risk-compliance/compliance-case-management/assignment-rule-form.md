@@ -3,11 +3,11 @@ title: Assignment Rule form
 description: Use the Assignment Rule form to define the case assignment rules in the Compliance Case Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/assignment-rule-form.html
-release: australia
+release: brazil
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create assignment rule, Create a case type, Configure, Compliance Case Management, Governance, Risk, and Compliance]
 ---
@@ -32,5 +32,5 @@ See the following table for a description of the field values.
 |Script|
 |Script|Script to define the advanced assignment rule.|
 
-**Parent Topic:**[Create an assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/create-assignment-rule.md)
+**Parent Topic:**[Create an assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/create-assignment-rule.md)
 

@@ -3,11 +3,11 @@ title: Add a property to enable creating knowledge article from incidents
 description: Add a property, which is required to allow users to create a knowledge article from an incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/property-article-incident.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Knowledge article creation from an incident, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -38,5 +38,5 @@ Role required: admin
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Knowledge article creation from an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/article-from-incident.md)
+**Parent Topic:**[Knowledge article creation from an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/article-from-incident.md)
 

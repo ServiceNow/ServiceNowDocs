@@ -3,11 +3,11 @@ title: Fields
 description: Learn how fields provide the foundational data model for CPQ configurations—what they are, how they relate to blueprints, rules, and layouts, and how to choose the right type and display for reliable, reusable experiences.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/fields.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [CPQ Configurator, Configure, price, quote apps, Explore, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Fields
@@ -88,5 +88,5 @@ For larger changes or environment migrations, use Matrix Loader to bulk-create a
 **Related topics**  
 
 
-[Configure fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/fields_101.md)
+[Configure fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/fields_101.md)
 

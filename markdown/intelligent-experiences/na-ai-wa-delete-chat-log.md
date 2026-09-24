@@ -3,11 +3,11 @@ title: Delete an AI agent chat log
 description: After you close an AI agent session, you can delete its chat if any sensitive information was captured. Deleting your chat log permanently erases the chat history of that session, including screenshots.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/na-ai-wa-delete-chat-log.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2025-09-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Example 3: Adaptive desktop action for web, Execute desktop actions, AI Desktop Actions, Enable AI experiences]
+breadcrumb: [Example 3: Adaptive desktop action for web, Execute desktop actions, AI Desktop Actions, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Delete an AI agent chat log
@@ -35,7 +35,7 @@ Review your chat log by selecting its title. Use the following procedure if you 
 
 ## Procedure
 
-1.  In the ServiceNow Otto panel, select the context menu icon \[Omitted image "icon-docintel-additional-actions.png"\] and navigate to **Chats** &gt; **Closed**.
+1.  In the ServiceNow Otto panel, select the context menu icon \[Omitted image "image.icon-docintel-additional-actions"\] and navigate to **Chats** &gt; **Closed**.
 
 2.  Locate the title of your AI agent session, and hover your cursor over it.
 
@@ -56,5 +56,5 @@ Review your chat log by selecting its title. Use the following procedure if you 
 
 The chat history and its screenshots are deleted from the system.
 
-**Parent Topic:**[Trigger an AI agent to execute adaptive path desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-wa-access-using-nap.md)
+**Parent Topic:**[Trigger an AI agent to execute adaptive path desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/na-ai-wa-access-using-nap.md)
 

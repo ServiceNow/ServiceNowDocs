@@ -3,9 +3,9 @@ title: Enable saved views
 description: Make the ability to save views available for specified mobile apps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/saved-view-configure.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Bookmark screens &amp; web pages, Configuring the Mobile Platform, Mobile Platform]
 ---

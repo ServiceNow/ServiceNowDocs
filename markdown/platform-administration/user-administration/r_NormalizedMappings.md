@@ -3,11 +3,11 @@ title: Normalized Mappings table
 description: The Normalized Mappings table lists all the discovered names and the normalized name to which each maps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/r\_NormalizedMappings.html
-release: australia
+release: brazil
 product: User Administration
 classification: user-administration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [data]
 breadcrumb: [Normalization data services, Creating users, companies, departments, User administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -32,5 +32,5 @@ The Normalized Mappings table lists all the discovered names and the normalized 
 |----|-----------|
 |Promote discovered name|Replaces the normalized name with the discovered name for the selected record and for all the records in its related mappings list.|
 
-**Parent Topic:**[Normalization data services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_NormalizationOverview.md)
+**Parent Topic:**[Normalization data services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/c_NormalizationOverview.md)
 

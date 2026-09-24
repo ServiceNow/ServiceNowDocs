@@ -3,11 +3,11 @@ title: Migrate to service level management
 description: Migrate SLA processing from the escalations engine to use the service level management functionality.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/c\_MigrationToServiceLevelMgmt.html
-release: australia
+release: brazil
 product: Service Level Management
 classification: service-level-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Level Management reference, Service Level Management, IT Service Management]
 ---
@@ -28,5 +28,5 @@ For example: if a retroactive SLA attaches to an incident one hour after its cre
 
 **Note:** This property is only used with audited tables. Tables which are not audited ignore the pause time before the creation of the record.
 
-**Parent Topic:**[Service Level Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/service-level-management-reference.md)
+**Parent Topic:**[Service Level Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/service-level-management-reference.md)
 

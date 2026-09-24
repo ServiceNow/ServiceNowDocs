@@ -3,11 +3,11 @@ title: Roles used by Express List
 description: Detailed information on all roles that can access the Express List feature on the Service Operations Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/roles-used-by-express-list.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Express List]
 breadcrumb: [Reference, Express List, Event Management, ITOM AIOps, IT Operations Management]
@@ -91,4 +91,5 @@ Has create access to the Event \[em\_event\] and Registered Nodes \[em\_register
  
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Express List reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/express-list-reference.md)
+

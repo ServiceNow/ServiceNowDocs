@@ -3,13 +3,13 @@ title: AES properties
 description: System properties control system behavior. The properties in this section are specific to the App Engine Studio \(AES\) application. You can access system properties for AES by navigating to All App Engine Studio Configuration Properties .
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/aes-properties.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Reference, App Engine Studio, Developing your application, Building applications]
 ---
 
 # AES properties
@@ -24,7 +24,7 @@ System properties control system behavior. The properties in this section are sp
     -   Default value: true
 -   **sn\_app\_eng\_studio.aes\_admin\_contact**
 
-    Defines the contact email for the App Engine Studio administrator. The system sends deployment request notifications to each email address listed in this property. For more information, see [Add users to the App Engine Admin group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-users-to-admin-grp.md).
+    Defines the contact email for the App Engine Studio administrator. The system sends deployment request notifications to each email address listed in this property. For more information, see [Add users to the App Engine Admin group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/add-users-to-admin-grp.md).
 
     -   Type: string
     -   Default value: none
@@ -36,10 +36,10 @@ System properties control system behavior. The properties in this section are sp
     -   Default value: image/svg+xml
 -   **sn\_app\_intake.instance\_can\_provision\_users**
 
-    Determines if the current instance can support the provisioning of users. The users on this instance will be provisioned to another instance. For more information on provisioning users, see [Configure Application Intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/config-app-intake.md).
+    Determines if the current instance can support the provisioning of users. The users on this instance will be provisioned to another instance. For more information on provisioning users, see [Configure Application Intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/config-app-intake.md).
 
     -   Type: true \| false
     -   Default value: false
 
-**Parent Topic:**[App Engine Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-reference.md)
+**Parent Topic:**[App Engine Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-reference.md)
 

@@ -3,13 +3,13 @@ title: Configure SAP for ERP Semantic Mining
 description: Enable SQLM \(SQL Monitor\) on the productive system and confirm that ST03 \(Workload Monitor\) is collected for daily workloads before you can install ERP Semantic Mining.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-customization-mining/ecm-configure-sap-system.html
-release: australia
+release: brazil
 product: ERP Customization Mining
 classification: erp-customization-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, ERP Semantic Mining overview, Workflow Data Fabric]
+breadcrumb: [Configure, ERP Semantic Mining overview, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Configure SAP for ERP Semantic Mining
@@ -51,5 +51,5 @@ Role required: none
     2.  Verify that the **Workload data** field is set to **Daily**.
 
 
-**Parent Topic:**[Configuring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/configuring-ecm.md)
+**Parent Topic:**[Configuring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-customization-mining/configuring-ecm.md)
 

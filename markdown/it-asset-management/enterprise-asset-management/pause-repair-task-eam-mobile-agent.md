@@ -3,11 +3,11 @@ title: Pause an enterprise asset repair task using the Mobile Agent application
 description: Record a break from a repair task for the enterprise assets using the Mobile Agent application if you’re not continuing to work on it. Resume the task when you start working on it again. The system automatically tracks and calculates the actual time taken to complete the task even though the work was interrupted.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/pause-repair-task-eam-mobile-agent.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Record time worked on a repair task, Manage enterprise asset repair tasks using the Mobile Agent application, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]
 ---
@@ -49,5 +49,5 @@ Role required: asset\_technician
 
 Each time you pause or resume work on the repair task, the actual time you worked on the task is automatically calculated. An entry for the time worked is created in the Time worked section of the Related tab.
 
-**Parent Topic:**[Record time worked on an enterprise asset repair task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/record-time-worked-repair-task-mobile-agent-eam.md)
+**Parent Topic:**[Record time worked on an enterprise asset repair task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/record-time-worked-repair-task-mobile-agent-eam.md)
 

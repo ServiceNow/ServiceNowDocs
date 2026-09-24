@@ -3,11 +3,11 @@ title: Associate Record to Email action
 description: Associate a record with an Email \[sys\_email\] record so that you can track which record is affected by the email.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/associate-to-email-action.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Actions, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -37,5 +37,5 @@ In the following example, a process owner adds the Associate Record to Email act
 
 \[Omitted image "associate-to-email-example.png"\] Alt text: Using the Associate to Email action
 
-**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-actions.md)
 

@@ -3,14 +3,14 @@ title: Add a BAPI entity to a model operation
 description: Specify the BAPI entity that a Zero Copy Connector for ERP \(Enterprise Resource Planning\) model uses for a read, update, or create operation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/add-a-bapi-entity-to-a-model-operation.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
 last_updated: "2026-08-07"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, bapi, entity, model, operation]
-breadcrumb: [Connecting to SAP, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Adding an entity to a model, ERP models, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Add a BAPI entity to a model operation
@@ -19,7 +19,7 @@ Specify the BAPI entity that a Zero Copy Connector for ERP \(Enterprise Resource
 
 ## Before you begin
 
-The read, update, or create operation must be added before an entity can be added to it. For more information, see [Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-manage-models-read-op.md).
+The read, update, or create operation must be added before an entity can be added to it. For more information, see [Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erpc-manage-models-read-op.md).
 
 This video was recorded in the Zurich release.
 
@@ -53,4 +53,6 @@ Role required: sn\_erp\_integration.erp\_admin
 
     \[Omitted image "erp-add-bapi-entity-to-model2.png"\] Alt text: Manage model tab with entity card showing retrieval date and time.
 
+
+**Parent Topic:**[Adding an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md)
 

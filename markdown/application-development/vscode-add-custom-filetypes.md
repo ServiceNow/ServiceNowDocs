@@ -3,9 +3,9 @@ title: Add custom file types in Visual Studio Code
 description: If you have work with file types other than the default types provided, you can add additional file types to your instance and edit them in ServiceNow extension for Visual Studio Code.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/vscode-add-custom-filetypes.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Extensions for Visual Studio Code, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -75,5 +75,5 @@ The following is an example for app.config.json
 -   approver\_script is a name of the table column / xml tag
 -   js is an extension of the file \(js \| html \| css \| json\)
 
-**Parent Topic:**[ServiceNow Extensions for Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vs-code.md)
+**Parent Topic:**[ServiceNow Extensions for Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vs-code.md)
 

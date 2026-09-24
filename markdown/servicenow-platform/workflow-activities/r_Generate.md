@@ -3,11 +3,11 @@ title: Generate workflow activity
 description: The Generate activity immediately creates task or approval records from any task or approval activities placed after the Generate activity in the workflow path. These pre-generated tasks and approvals start when the task and approval activities are reached during flow execution. This allows a task to have a set of associated pre-generated sequential tasks or approvals, but still require them to be completed in order.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/workflow-activities/r\_Generate.html
-release: australia
+release: brazil
 product: Workflow Activities
 classification: workflow-activities
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Approval and rollback workflow activities, Workflow activities reference, Workflow activities, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,7 @@ By default, the workflow does not create any tasks or approvals until it reaches
 
 The **Generate** activity follows all transitions through the workflow to each activity. For each activity:
 
--   If it is a [task activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/r_TaskActivities.md), creates the task and sets:
+-   If it is a [task activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/workflow-activities/r_TaskActivities.md), creates the task and sets:
 
     -   The **State** to **Pending**
     -   The **Expected Start Date**

@@ -3,11 +3,11 @@ title: Configure role masking for an AI agent
 description: Restrict the roles that an AI agent uses at runtime by creating an Agent Access Role Configuration record that limits the agent to a defined set of roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/configure-role-masking.html
-release: australia
+release: brazil
 product: Identity
 classification: identity
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 keywords: [role masking, AI agents, Agent Access Role Configuration, Agent Access Permission Set Configuration, Limit To Roles, Allow all session roles]
 breadcrumb: [Role masking for AI agents, Identity]

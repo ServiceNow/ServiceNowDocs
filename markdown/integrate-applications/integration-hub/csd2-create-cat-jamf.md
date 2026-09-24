@@ -3,11 +3,11 @@ title: Create a catalog item for the Jamf application
 description: Create a catalog item for an application you want to offer for distribution from the service catalog using the applications discovered on the Jamf server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd2-create-cat-jamf.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [CSD 2.0 for Jamf, Client Software Distribution 2.0 application, Integration Hub solutions, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -121,5 +121,5 @@ Check box that forces the system to determine if deploying this item is allowed 
     **Note:** If you are unable to see any of the above fields or tabs, configure the table's form view or related lists accordingly.
 
 
-**Parent Topic:**[CSD 2.0 for Jamf](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2-jamf-tsk.md)
+**Parent Topic:**[CSD 2.0 for Jamf](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/csd2-jamf-tsk.md)
 

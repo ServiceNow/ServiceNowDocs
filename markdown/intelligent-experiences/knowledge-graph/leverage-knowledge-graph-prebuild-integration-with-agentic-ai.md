@@ -3,13 +3,13 @@ title: Knowledge Graph integration with AI agents
 description: The prebuilt integrations of Knowledge Graph, improve live agent productivity by assisting AI agents in performing tasks and answering user queries.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/leverage-knowledge-graph-prebuild-integration-with-agentic-ai.html
-release: australia
+release: brazil
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring Knowledge Graph, Knowledge Graph, Enable AI experiences]
+breadcrumb: [Exploring Knowledge Graph, Knowledge Graph, Managing data for AI, Enable AI Experiences]
 ---
 
 # Knowledge Graph integration with AI agents
@@ -47,7 +47,7 @@ Knowledge Graph can now be used as a tool within AI agents. Users can choose Kno
 
 You can define the flow action to use Knowledge Graph as a reusable operation in automating the ServiceNow AI Platform features without having to write code.
 
-See [Add a Knowledge Graph to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-knowledge-graph.md) to add Knowledge Graph to an AI agents in AI Agent Studio.
+See [Add a Knowledge Graph to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-knowledge-graph.md) to add Knowledge Graph to an AI agents in AI Agent Studio.
 
 Example use case:
 

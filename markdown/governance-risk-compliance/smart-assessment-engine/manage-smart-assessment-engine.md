@@ -3,11 +3,11 @@ title: Manage smart assessment lifecycle
 description: Use template designer to create assessment templates. After the templates are published, assessors can respond to assigned assessments, track progress, and save their input automatically.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/manage-smart-assessment-engine.html
-release: australia
+release: brazil
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Smart Assessment Engine, Governance, Risk, and Compliance]
 ---

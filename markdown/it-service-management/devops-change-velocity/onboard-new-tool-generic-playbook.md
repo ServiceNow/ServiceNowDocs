@@ -3,11 +3,11 @@ title: Onboard a tool using DevOps generic playbook
 description: DevOps Change has a pre-build playbook setup for users to configure a new tool. Custom tool integrations can be created using the guided playbook experience in the DevOps Change Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/onboard-new-tool-generic-playbook.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage, DevOps Change Velocity, IT Service Management]
 ---
@@ -52,7 +52,7 @@ Each Activity in a playbook is associated to an activity definition. DevOps has 
 -   DevOps Associate Services AD
 -   DevOps Summary AD
 
-For more information, see [Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md) and .
+For more information, see [Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/process-automation-designer.md) and .
 
 The DevOps table **sn\_devops\_capability\_activity\_mapping** has been created to maintain associations between Activity definitions and capabilities. This table configuration is used to dynamically render the stages and activities for a tool. You can update the conditions as needed to either enable or disable a particular activity for a tool.
 
@@ -76,10 +76,10 @@ Identify the required activity UI and add your tool in the condition builder so 
 
 After completing these steps, your tool can be onboarded using the DevOps generic playbook.
 
-**Parent Topic:**[Managing DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/using-devops-change-velocity.md)
+**Parent Topic:**[Managing DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/using-devops-change-velocity.md)
 
 **Related topics**  
 
 
-[Integrating DevOps Change Velocity with third party tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/integrating-devops-change-with-third-party-tools.md)
+[Integrating DevOps Change Velocity with third party tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/integrating-devops-change-with-third-party-tools.md)
 

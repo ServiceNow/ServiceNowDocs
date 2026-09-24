@@ -3,11 +3,11 @@ title: Create parent determination rules for service locations
 description: Create parent determination rules that facilitate assignment of a parent to a service location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/configure-parent-determination.html
-release: australia
+release: brazil
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Map locations, Service Locations, Set up workforce, Configure, Field Service Management]
 ---

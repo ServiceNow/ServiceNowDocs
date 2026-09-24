@@ -3,11 +3,11 @@ title: Install the Homepage deprecation help tool
 description: To convert, retire, and restore homepages, install the Homepage deprecation help tool.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/install-hp-dep-app.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-17"
 reading_time_minutes: 1
 breadcrumb: [Homepage deprecation, Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -22,7 +22,7 @@ Role required: admin.
 
 ## About this task
 
-The Homepage deprecation help tool is a store app. For more information about installing store apps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
+The Homepage deprecation help tool is a store app. For more information about installing store apps, see [Installing applications, plugins, and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/installing-apps-app-manager.md).
 
 ## Procedure
 

@@ -3,11 +3,11 @@ title: Initialize a Git repository with the ServiceNow IDE
 description: Initialize a local Git repository for an application and push it to a remote Git repository to manage an application in source control.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-ide-family-release/initialize-git-repository-servicenow-ide.html
-release: australia
+release: brazil
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Integrate source control, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -18,15 +18,15 @@ Initialize a local Git repository for an application and push it to a remote Git
 
 ## Before you begin
 
--   Create or convertan application with the ServiceNow IDE. For more information, see [Create an application with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/create-application-servicenow-ide.md)or [Convert an application with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/convert-application-servicenow-ide.md).
+-   Create or convertan application with the ServiceNow IDE. For more information, see [Create an application with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/create-application-servicenow-ide.md)or [Convert an application with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/convert-application-servicenow-ide.md).
 -   Create a dedicated Git repository for the application from your Git provider.
--   Set your basic or OAuth 2.0 credentials for the ServiceNow IDE to connect to your Git repository. For more information, see [Connect to a Git provider using basic authentication with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/connect-git-provider-basic-auth.md) or [Configure OAuth 2.0 credentials to connect to a Git provider with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/connect-git-provider-oauth-2.md).
+-   Set your basic or OAuth 2.0 credentials for the ServiceNow IDE to connect to your Git repository. For more information, see [Connect to a Git provider using basic authentication with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/connect-git-provider-basic-auth.md) or [Configure OAuth 2.0 credentials to connect to a Git provider with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/connect-git-provider-oauth-2.md).
 
 Role required: admin
 
 ## About this task
 
-An application on an instance can be connected to only one repository at a time. To clone an application that exists in a remote Git repository, see [Clone a Git repository with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/clone-git-repository-servicenow-ide.md).
+An application on an instance can be connected to only one repository at a time. To clone an application that exists in a remote Git repository, see [Clone a Git repository with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/clone-git-repository-servicenow-ide.md).
 
 ## Procedure
 
@@ -59,9 +59,9 @@ If your Git credentials aren't configured or are inactive, the application isn't
 
 ## What to do next
 
-You can check out or create branches in the repository and push changes to the remote repository. For more information, see [Using source control in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/using-source-control-servicenow-ide.md).
+You can check out or create branches in the repository and push changes to the remote repository. For more information, see [Using source control in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/using-source-control-servicenow-ide.md).
 
-**Parent Topic:**[Integrating source control with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/integrating-source-control-servicenow-ide.md)
+**Parent Topic:**[Integrating source control with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/integrating-source-control-servicenow-ide.md)
 
 **Related topics**  
 

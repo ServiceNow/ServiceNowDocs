@@ -3,11 +3,11 @@ title: Manage child cases in Retail Task Management Core
 description: You can manage child cases created from a parent multi-store case in Retail Task Management Core.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/legacy-retail-task-management/rahi-rtmc-manage-child-cases.html
-release: australia
+release: brazil
 product: \[Legacy\] Retail Task Management
 classification: legacy-retail-task-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create multi-store cases, Retail Task Management, Retail]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_retail.manager​\_fulfiller
 
 Responsibility required: Store Manager – Fulfiller.
 
-For information on adding roles and responsibilities, see [Assign roles to Retail users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-assign-roles-users.md).
+For information on adding roles and responsibilities, see [Assign roles to Retail users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-assign-roles-users.md).
 
 ## About this task
 

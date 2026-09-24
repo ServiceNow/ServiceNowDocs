@@ -3,11 +3,11 @@ title: Create stockroom for Field Service Management assets
 description: Create a stockroom in the Field Service Management application and assign assets to it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/asset-management-for-field-service/create-stockroom-fsm.html
-release: australia
+release: brazil
 product: Asset Management for Field Service
 classification: asset-management-for-field-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Stockrooms, Inventory and asset management, Configure, Field Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Stockrooms are separate, standalone entities in the Field Service Management application. When stock is low on a particular asset, stock rules can notify an asset manager, or automatically transfer inventory from one stockroom to another. For more information about stock rules, see [Create a stock rule for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/create-eamstockrules.md).
+Stockrooms are separate, standalone entities in the Field Service Management application. When stock is low on a particular asset, stock rules can notify an asset manager, or automatically transfer inventory from one stockroom to another. For more information about stock rules, see [Create a stock rule for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/create-eamstockrules.md).
 
 ## Procedure
 

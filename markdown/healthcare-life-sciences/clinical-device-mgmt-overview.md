@@ -3,9 +3,9 @@ title: Clinical Device Management
 description: ServiceNow Clinical Device Management streamlines the management of medical devices.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/clinical-device-mgmt-overview.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Healthcare and Life Sciences]
 ---
@@ -14,5 +14,5 @@ breadcrumb: [Healthcare and Life Sciences]
 
 ServiceNow® Clinical Device Management streamlines the management of medical devices.
 
-For information on maintenance and servicing, please see [Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-application-landing-page.md). For information on inventory and management, please see [Enterprise Asset Management for Healthcare](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/eam-for-healthcare.md).
+For information on maintenance and servicing, please see [Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/fsm-application-landing-page.md). For information on inventory and management, please see [Enterprise Asset Management for Healthcare](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/eam-for-healthcare.md).
 

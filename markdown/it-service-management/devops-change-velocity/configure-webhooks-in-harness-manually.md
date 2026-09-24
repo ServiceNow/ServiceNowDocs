@@ -3,11 +3,11 @@ title: Configure webhooks in Harness manually
 description: Configure webhooks manually in Harness to send pipeline notifications to DevOps Change Velocity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/configure-webhooks-in-harness-manually.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Harness, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -85,5 +85,5 @@ Role required:
 9.  Select **Finish**.
 
 
-**Parent Topic:**[Harness integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/harness-integration-with-devops-change-velocity.md)
+**Parent Topic:**[Harness integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/harness-integration-with-devops-change-velocity.md)
 

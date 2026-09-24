@@ -3,11 +3,11 @@ title: Integrating Ansible with Cloud Services Catalog
 description: Integrate Ansible with Cloud Services Catalog as a Day 1 activity. With this activity, you can deploy an Ansible job template via a ServiceNow catalog item.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/integrating-ansible-with-cloud-services-catalog.html
-release: australia
+release: brazil
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -67,12 +67,12 @@ Store in CMDB as referrable objects.
 2.  Switch between the blue \(current application\) and green \(new application\) environment
 
 </td></tr></tbody>
-</table>-   **[Set up Ansible as a Day 1 task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/setting-up-ansible-as-day-one-task.md)**  
-Set up the Ansible console as a Day 1 task before running Discovery and deploying job templates.
--   **[Run Discovery on the Ansible config provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/running-discovery-on-ansible-config-provider.md)**  
+</table>-   **[Set up Ansible as a Day 1 task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-services-catalog/setting-up-ansible-as-day-one-task.md)**  
+Set up the Ansible console as a Day 1 task before running Discovery and deploying job templates via catalog items.
+-   **[Run Discovery on the Ansible config provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-services-catalog/running-discovery-on-ansible-config-provider.md)**  
 Add the Ansible config provider and run Discovery to discover what's in the inventory, the host group, and the available job templates.
--   **[Order an Ansible job template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/ordering-ansible.md)**  
+-   **[Order an Ansible job template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-services-catalog/ordering-ansible.md)**  
 Use Cloud Services Catalog to order an Ansible job template called from the catalog item.
 
-**Parent Topic:**[Configuring Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/configuring-csc.md)
+**Parent Topic:**[Configuring Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-services-catalog/configuring-csc.md)
 

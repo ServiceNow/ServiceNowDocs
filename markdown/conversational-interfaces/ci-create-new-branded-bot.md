@@ -1,19 +1,19 @@
 ---
-title: Create a new user for a branded bot
+title: Create a user for a branded bot
 description: The default branding configuration includes the Virtual Agent bot, which has a ServiceNow avatar. To create a new bot with your own branding, create an active user profile for the bot and link it to a Live Profile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/ci-create-new-branded-bot.html
-release: australia
+release: brazil
 product: Conversational Interfaces
 classification: conversational-interfaces
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Virtual Agent, branded, bot, avatar, Live Profile, live\_profile]
 breadcrumb: [Branding your chat client, General chat settings, Configuring Conversational Interfaces, Conversational Interfaces Console, Conversational Interfaces]
 ---
 
-# Create a new user for a branded bot
+# Create a user for a branded bot
 
 The default branding configuration includes the Virtual Agent bot, which has a ServiceNow avatar. To create a new bot with your own branding, create an active user profile for the bot and link it to a Live Profile.
 
@@ -23,11 +23,11 @@ Role required: admin
 
 ## About this task
 
-If you want to create a new branded bot, create an active user profile for each bot in the User \[sys\_user\] table. Then create a bot profile record by adding this user to the Live Profile \[live\_profile\] table.
+If you want to create branded bot, create an active user profile for each bot in the User \[sys\_user\] table. Then create a bot profile record by adding this user to the Live Profile \[live\_profile\] table.
 
 ## Procedure
 
-1.  [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUser.md) for the bot.
+1.  [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAUser.md) for the bot.
 
     Include an image \(avatar\) for your bot when you create the user. Also ensure that the user is active.
 
@@ -67,7 +67,7 @@ Document
 
 </td><td>
 
-Table associated with the profile.1.  Select the Search icon \[Omitted image "icon-search.png"\] Alt text: Search icon..
+Table associated with the profile.1.  Select the Search icon \[Omitted image "icon-search.png"\] Alt text:.
 2.  In the Select the document dialog box, specify the following information:
     -   **Table name**: Select **User \[sys\_user\]**.
     -   **Document**: Select the name of the user you created for the bot.
@@ -96,7 +96,7 @@ Text that describes the live profile.
 
 ## Result
 
-You can associate the bot profile with a new branding configuration. For details, see [Set up your Virtual Agent bot's branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-chat-branding.md).
+You can associate the bot profile with a new branding configuration. For details, see [Set up your Virtual Agent bot's branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/ac-configure-chat-branding.md).
 
-**Parent Topic:**[Branding your chat client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/branding-chat-client.md)
+**Parent Topic:**[Branding your chat client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/branding-chat-client.md)
 

@@ -3,11 +3,11 @@ title: View all versions of an article
 description: View a list of all available versions for a selected knowledge article and then view the selected version in a new tab.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/view-all-article-versions.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use article versioning, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -33,5 +33,5 @@ The list of all available versions for a selected knowledge article is displayed
 5.  If desired, click the **View Version** related link to see the article view page.
 
 
-**Parent Topic:**[Use article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/use-article-versioning_0.md)
+**Parent Topic:**[Use article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/use-article-versioning_0.md)
 

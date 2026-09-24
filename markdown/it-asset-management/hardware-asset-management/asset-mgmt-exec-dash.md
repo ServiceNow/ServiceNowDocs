@@ -3,11 +3,11 @@ title: Asset Management Executive Dashboard
 description: Use the Asset Management Executive Dashboard to gain visibility into critical KPIs for Hardware Asset Management, Software Asset Management, and Cloud Cost Management applications via a single dashboard.The Sustainable IT dashboard helps you track the environmental impact of your IT assets and displays a variety of information to gauge the sustainability impact of the hardware assets of an organization easily.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/asset-mgmt-exec-dash.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -340,11 +340,13 @@ Number of hardware models that are reaching their end of life in the next 90 day
 Not applicable
 
 </td></tr></tbody>
-</table>## Sustainable IT dashboard
+</table>**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/exploring-ham.md)
+
+## Sustainable IT dashboard
 
 The Sustainable IT dashboard helps you track the environmental impact of your IT assets and displays a variety of information to gauge the sustainability impact of the hardware assets of an organization easily.
 
-You must install the Sustainable IT plugin \(sn\_esg\_sustain\) to view the Sustainable IT dashboard. For more information about the activating the Sustainable IT plugin, see [Activate the Sustainable IT plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/activate-the-sustainable-it-plugin.md).
+You must install the Sustainable IT plugin \(sn\_esg\_sustain\) to view the Sustainable IT dashboard. For more information about the activating the Sustainable IT plugin, see [Activate the Sustainable IT plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/activate-the-sustainable-it-plugin.md).
 
-To know more about the Sustainable IT dashboard data for your hardware assets, see [Sustainable IT dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/sustainable-it-dashboard.md).
+To know more about the Sustainable IT dashboard data for your hardware assets, see [Sustainable IT dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/sustainable-it-dashboard.md).
 

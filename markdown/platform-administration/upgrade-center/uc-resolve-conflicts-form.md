@@ -3,11 +3,11 @@ title: Resolve Conflicts form
 description: The Resolve Conflicts form you compare to the base system version with the customized version of a record and reconcile the differences.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-center/uc-resolve-conflicts-form.html
-release: australia
+release: brazil
 product: Upgrade Center
 classification: upgrade-center
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Resolve conflicts for an individual record, Scheduling and monitoring an upgrade, Using Upgrade Center, Upgrade Center, Upgrade, Administer the ServiceNow AI Platform]
 ---

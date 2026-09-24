@@ -3,11 +3,11 @@ title: Create and distribute MSIM Status Reports
 description: As a Major Security Incident \(MSI\) manager, you can create and distribute the different status reports to different stakeholders at various intervals based on the configured report template or a previous status report throughout the course of the major security incident resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/creating-and-distributing-major-security-incident-status-reports.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Use, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -95,15 +95,15 @@ State of the status reports. The status reports can be in one of the following s
 
 7.  On the Executive Email Status Report template, fill the sections with the details of the status report.
 
-<table id="choicetable_lfv_mkq_d1c"><thead><tr><th align="left" id="d322145e245">
+<table id="choicetable_lfv_mkq_d1c"><thead><tr><th align="left" id="d322063e245">
 
 Report section
 
-</th><th align="left" id="d322145e248">
+</th><th align="left" id="d322063e248">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d322145e254">
+</th></tr></thead><tbody><tr><td id="d322063e254">
 
 **Updates**
 
@@ -113,7 +113,7 @@ Provide a summary of the status update. This section contains the following:-   
 -   **Append text from last report shared**: Select this option to append the text from the last report shared.
 
 
-</td></tr><tr><td id="d322145e276">
+</td></tr><tr><td id="d322063e276">
 
 **Explanation**
 
@@ -125,7 +125,7 @@ Add an explanation on what has changed since the last status update was done. Th
 -   **Filter elements**: Select the report elements to be included in the report. For example, Key Updates or Next Updates.
 
 
-</td></tr><tr><td id="d322145e308">
+</td></tr><tr><td id="d322063e308">
 
 **Additional Information**
 
@@ -133,7 +133,7 @@ Add an explanation on what has changed since the last status update was done. Th
 
 Provide specific details relevant to the status update.
 
-</td></tr><tr><td id="d322145e317">
+</td></tr><tr><td id="d322063e317">
 
 **Visualizations**
 
@@ -143,7 +143,7 @@ Select the visualizations that best help communicate the status update. -   **In
 -   **Filter elements**: Select the report elements to be included in the report. For example, Incident Impact.
 
 
-</td></tr><tr><td id="d322145e340">
+</td></tr><tr><td id="d322063e340">
 
 **Lists**
 
@@ -232,7 +232,7 @@ Body of the email message.
     3.  Use the **Filter** action on the Status Reports view to filter the status reports based on certain conditions.
 
 
-**Parent Topic:**[Using Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/major-security-incident-setup.md)
+**Parent Topic:**[Using Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/major-security-incident-setup.md)
 
 **Related topics**  
 
@@ -255,5 +255,5 @@ Body of the email message.
 
 [Track collaboration activity via MSIM workspace]()
 
-[Configure Major Security Incident status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/manage-status-reports-for-major-security-incident-management.md)
+[Configure Major Security Incident status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/manage-status-reports-for-major-security-incident-management.md)
 

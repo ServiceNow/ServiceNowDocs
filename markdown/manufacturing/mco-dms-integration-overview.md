@@ -3,9 +3,9 @@ title: DMS integration
 description: Integration with Dealer Management Systems \(DMS\) enables automatic retrieval of repair order data to streamline claim creation and processing in MCO.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-dms-integration-overview.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [DMS integration, Dealer Management System, STAR API, automotive integration, OEM integration]
 breadcrumb: [Integrate, Manufacturing Commercial Operations]
@@ -30,7 +30,7 @@ Key capabilities:
 **Related topics**  
 
 
-[Set up inbound DMS integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-configure-dms.md)
+[Set up inbound DMS integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-configure-dms.md)
 
-[MCO Integration APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/manufacturing-integrate.md)
+[MCO Integration APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/manufacturing-integrate.md)
 

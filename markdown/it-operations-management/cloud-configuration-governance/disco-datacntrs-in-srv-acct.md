@@ -3,11 +3,11 @@ title: Discover all datacenters in a service account on-demand
 description: After you set up a service account, run Discovery to populate the datacenters in the account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/disco-datacntrs-in-srv-acct.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Additional Cloud Provisioning and Governance setup on day 2, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -35,7 +35,7 @@ You can run Discovery on-demand.
 
 1.  Navigate to the Cloud Service Accounts \[cmdb\_ci\_cloud\_service\_account\_list\] table.
 
-    For more information on directly navigating to a table, see [Navigate directly to a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_NavigateDirectlyToATable.md).
+    For more information on directly navigating to a table, see [Navigate directly to a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_NavigateDirectlyToATable.md).
 
 2.  Select the service account whose LDCs you want to discover.
 
@@ -59,5 +59,5 @@ The discovered datacenters appear in the Logical Datacenters related list.
 **Related topics**  
 
 
-[Logs for horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_DiscoveryLog.md)
+[Logs for horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_DiscoveryLog.md)
 

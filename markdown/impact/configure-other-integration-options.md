@@ -3,11 +3,11 @@ title: Configure other integration options
 description: Configure the Other integration type to create work items in any external system using a custom payload script and basic authentication.The following leading practices are guidelines for creating other integration type scripts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/configure-other-integration-options.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure Scan Engine integrations, Configuring Impact, Impact]
+breadcrumb: [Configure Scan Engine integrations, Activate Scan Engine and review settings, Impact Guided Setup, Configuring Impact, Impact]
 ---
 
 # Configure other integration options
@@ -37,12 +37,12 @@ Role required: Scan Engine admin \(sn\_se.scan\_engine\_admin\)
 
 4.  In the **Payload** field, enter the script that builds the request body.
 
-    The credentials provided on the form are used in a basic authentication authorization header. See [Other integration leading practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-other-integration-options.md) for available script variables and leading practices.
+    The credentials provided on the form are used in a basic authentication authorization header. See [Other integration leading practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-other-integration-options.md) for available script variables and leading practices.
 
 5.  Enter the **Username** and **API token** for authentication.
 
 
-**Parent Topic:**[Configure Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-integration-scan-engine.md)
+**Parent Topic:**[Configure Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/instance-integration-scan-engine.md)
 
 ## Other integration leading practices
 

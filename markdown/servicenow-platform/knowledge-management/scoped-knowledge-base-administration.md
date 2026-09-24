@@ -3,11 +3,11 @@ title: Scoped knowledge bases
 description: To protect knowledge bases containing sensitive articles, use a scoped knowledge base. Even system administrators and knowledge administrators can't administer scoped knowledge bases unless explicitly authorized through user criteria.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/scoped-knowledge-base-administration.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,16 +24,16 @@ Only users with the admin role of an application and the knowledge\_admin role c
 
 You can't modify the scope of existing knowledge bases. They remain in the global scope. However, you can create a scoped knowledge base to protect sensitive knowledge articles.
 
-To create a scoped knowledge base for an application, in addition to the knowledge\_admin or admin role, you must have access to view and select that application in the application picker \(see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md)\). For example, before you create a knowledge base in the Human Resources: Core application, you must select the Human Resources: Core application in the application picker, and then create the knowledge base. Then, when you create a knowledge base, on the Knowledge base form, the application scope of the knowledge base is set in the **Application** field.
+To create a scoped knowledge base for an application, in addition to the knowledge\_admin or admin role, you must have access to view and select that application in the application picker \(see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationPicker.md)\). For example, before you create a knowledge base in the Human Resources: Core application, you must select the Human Resources: Core application in the application picker, and then create the knowledge base. Then, when you create a knowledge base, on the Knowledge base form, the application scope of the knowledge base is set in the **Application** field.
 
 **Related topics**  
 
 
-[Create a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-a-knowledgebase.md)
+[Create a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/create-a-knowledgebase.md)
 
-[Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_SelectAnAppFromTheAppPicker.md)
+[Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_SelectAnAppFromTheAppPicker.md)
 
-[Application administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-administration.md)
+[Application administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/application-administration.md)
 
-[Control access at the knowledge base level through user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_SelectUserCriteria.md)
+[Control access at the knowledge base level through user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/t_SelectUserCriteria.md)
 

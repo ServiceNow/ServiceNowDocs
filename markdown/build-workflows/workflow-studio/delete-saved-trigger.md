@@ -3,11 +3,11 @@ title: Delete a saved trigger
 description: Delete a saved trigger that you no longer need.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/delete-saved-trigger.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Build triggers, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -20,7 +20,7 @@ Delete a saved trigger that you no longer need.
 
 Role required: trigger\_designer, flow\_designer, or admin
 
-The trigger must be detached from any of the flows that are using the trigger. For information about detaching a saved trigger, see [Detach a saved trigger from a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/detach-saved-trigger.md).
+The trigger must be detached from any of the flows that are using the trigger. For information about detaching a saved trigger, see [Detach a saved trigger from a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/detach-saved-trigger.md).
 
 ## Procedure
 
@@ -37,5 +37,5 @@ The trigger must be detached from any of the flows that are using the trigger. F
 6.  On the pop-up window, select **Delete**.
 
 
-**Parent Topic:**[Building triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/building-triggers.md)
+**Parent Topic:**[Building triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/building-triggers.md)
 

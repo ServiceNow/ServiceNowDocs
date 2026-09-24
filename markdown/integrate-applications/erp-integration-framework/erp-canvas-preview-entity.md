@@ -3,7 +3,7 @@ title: Preview read table entities in Zero Copy Connector for ERP
 description: Preview read table entities in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to examine and verify the entity before adding it to a model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-preview-entity.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
@@ -98,5 +98,7 @@ After viewing tables, select **Manage entities**, then **Select entity**. In **S
 
 \[Omitted image "erpc-preview-entity-manage-entities.png"\] Alt text: Manage model page with manage entities option highlighted.
 
-For detailed information about adding entities, see [Adding an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
+For detailed information about adding entities, see [Adding an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
+
+**Parent Topic:**[Adding an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md)
 

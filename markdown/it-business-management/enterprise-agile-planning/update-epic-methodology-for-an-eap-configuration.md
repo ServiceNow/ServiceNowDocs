@@ -3,11 +3,11 @@ title: Update epic methodology for an EAP configuration
 description: Change the epic methodology of your Enterprise Agile Planning configuration to SAFe or Scrum based on your Agile workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/update-epic-methodology-for-an-eap-configuration.html
-release: australia
+release: brazil
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -30,8 +30,8 @@ By default, the epic methodology for an EAP configuration is set to **SAFe** and
 
 Consider the following before you choose an epic methodology for your configuration:
 
--   SAFe uses the Epic &gt; Capability &gt; Feature &gt; Story hierarchy. Scrum uses a simpler Epic &gt; Story hierarchy. For more information, see [Agile configurations in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/agile-configurations-in-eap.md).
--   If you sync epics from Strategic Planning or Jira through Agile Development 2.0, set the methodology to Scrum. For more information, see [Migrating from SAFe to EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/migrating-from-safe-to-eap.md).
+-   SAFe uses the Epic &gt; Capability &gt; Feature &gt; Story hierarchy. Scrum uses a simpler Epic &gt; Story hierarchy. For more information, see [Agile configurations in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/agile-configurations-in-eap.md).
+-   If you sync epics from Strategic Planning or Jira through Agile Development 2.0, set the methodology to Scrum. For more information, see [Migrating from SAFe to EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/migrating-from-safe-to-eap.md).
 
 ## Procedure
 

@@ -3,11 +3,11 @@ title: Active Directory Application Mode \(ADAM\) Access Account
 description: The system requires a user account to read the Active Directory Application Mode \(ADAM\) object information that is imported into the application instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/r\_ServiceNowITSASuiteAccessAccount.html
-release: australia
+release: brazil
 product: LDAP integration
 classification: ldap-integration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Active Directory Application Mode \(ADAM\), LDAP integration, Authentication, Access Management]
 ---
@@ -27,7 +27,7 @@ When using ADAM as an LDAP source, you must specify the fully qualified distingu
 **Related topics**  
 
 
-[Active Directory Application Mode \(ADAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ldap-integration/c_ActiveDirectoryApplicationMode.md)
+[Active Directory Application Mode \(ADAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/ldap-integration/c_ActiveDirectoryApplicationMode.md)
 
 [http://www.microsoft.com/downloads/en/details.aspx?familyid=9688f8b9-1034-4ef6-a3e5-2a2a57b5c8e4&amp;displaylang=en%7C](http://www.microsoft.com/downloads/en/details.aspx?familyid=9688f8b9-1034-4ef6-a3e5-2a2a57b5c8e4&displaylang=en%7C)
 

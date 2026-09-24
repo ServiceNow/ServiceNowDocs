@@ -3,11 +3,11 @@ title: Resolve security threats with the playbook
 description: Use the Playbook to resolve certain types of security threats in a step-by-step manner. For example, you can resolve phishing attacks and threats caused by malicious code activity using playbooks.The Phishing playbook guides you through the tasks necessary for analyzing and resolving a phishing attack reported by one of your company's employees.As you analyze security threats using the Security Incident Response playbook, you can view knowledge articles for each task if defined by your organization. If knowledge articles are not present, you can create them and associate them with playbook tasks.The Security Analyst Workspace base system includes a series of tasks for each threat category. You can create custom tasks that meet the unique needs of your system or customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/use-the-playbook.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Manage security threats using the Security Analyst Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -28,9 +28,9 @@ As you work through each task, enter work notes to help analyze similar attacks 
 
 Knowledge articles, included in each task, provide tips and other information to help you perform the needed steps.
 
-The base system includes knowledge articles for each of the playbook tasks. You can, however, [write your own knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/t_CrtScrIncdtKnwArt.md) and [associate them to playbook tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/use-the-playbook.md).
+The base system includes knowledge articles for each of the playbook tasks. You can, however, [write your own knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/t_CrtScrIncdtKnwArt.md) and [associate them to playbook tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/use-the-playbook.md).
 
-**Note:** For an example of how to use the playbook to analyze and resolve a specific threat, see [Resolving user-reported phishing attacks with the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/use-the-playbook.md).
+**Note:** For an example of how to use the playbook to analyze and resolve a specific threat, see [Resolving user-reported phishing attacks with the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/use-the-playbook.md).
 
 ## Procedure
 
@@ -44,11 +44,11 @@ The base system includes knowledge articles for each of the playbook tasks. You 
 
 3.  Click the security incident you want to analyze.
 
-    Consider prioritizing security incidents with high [risk scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setup-assistant-reference.md).
+    Consider prioritizing security incidents with high [risk scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/setup-assistant-reference.md).
 
 4.  If the playbook pane on the right-hand edge of the screen is closed, click the playbook icon \(\[Omitted image "cj-sir-icon-playbook.png"\] Alt text: Playbook\) to open it.
 
-    If no playbook is assigned to the security incident, you can select a playbook from the Selected Playbook choice list. You can also assign a different playbook to the security incident. To include a playbook in the Selected Playbook choice list or to change the playbook for a security incident, see [Enable playbooks for analyst selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-new-ui-add-playbook.md) for details.
+    If no playbook is assigned to the security incident, you can select a playbook from the Selected Playbook choice list. You can also assign a different playbook to the security incident. To include a playbook in the Selected Playbook choice list or to change the playbook for a security incident, see [Enable playbooks for analyst selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/sir-new-ui-add-playbook.md) for details.
 
     The playbook specific to the type of security threat opens. It is divided into categories of similar tasks. For example, you use the tasks in the **Analysis** group to determine the validity and scope of the threat. The **Contain** group includes tasks for isolating the threat to a specific user or asset. The tasks in the **Eradicate** group guide you through the process of removing the malware or reimaging the host.
 
@@ -57,7 +57,7 @@ The base system includes knowledge articles for each of the playbook tasks. You 
 6.  Follow the prompts in the task.
 
     -   Some tasks ask a question, such as "Is Email Part of Campaign?" Perform the necessary analysis to answer the question, and select **Yes** or **No**.
-    -   If you have [defined knowledge articles and associated them with playbook tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/use-the-playbook.md), the articles appear when you start work on a task.
+    -   If you have [defined knowledge articles and associated them with playbook tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/use-the-playbook.md), the articles appear when you start work on a task.
     -   Some tasks are transitional. They simply instruct you to perform an action, such as adding observables to a security incident. After you complete the action, click **Mark as Completed**.
     As you complete tasks, subsequent tasks are presented to you based on the choices you make. Grayed out groups \(such as **Recover**, **Review**, and so forth\) may be activated by your choices.
 
@@ -67,7 +67,7 @@ The base system includes knowledge articles for each of the playbook tasks. You 
 **Related topics**  
 
 
-[Add a custom task to the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/use-the-playbook.md)
+[Add a custom task to the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/use-the-playbook.md)
 
 ## Resolving user-reported phishing attacks with the playbook
 
@@ -75,7 +75,7 @@ The Phishing playbook guides you through the tasks necessary for analyzing and r
 
 ### How security incidents are created from user-reported phishing attacks
 
-During Security Incident Response setup, your system administrator creates a series of [email matching rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setup-assistant-reference.md) that can identify emails that contain signs of a phishing attack. When employees receive a suspicious email that contains the common signs of a phishing attack \(as defined by your security policies\), they can send it as an .EML attachment to the phishing email address defined by your organization.
+During Security Incident Response setup, your system administrator creates a series of [email matching rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/setup-assistant-reference.md) that can identify emails that contain signs of a phishing attack. When employees receive a suspicious email that contains the common signs of a phishing attack \(as defined by your security policies\), they can send it as an .EML attachment to the phishing email address defined by your organization.
 
 When the email is received at the phishing email address, the .EML attachment is parsed and its information is compared to the email matching rules. If a match is found, a security incident containing the following information is created:
 
@@ -203,9 +203,9 @@ Set the condition builder to:-   **Option:** Select **Short description**.
 **Related topics**  
 
 
-[Create a security incident knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/t_CrtScrIncdtKnwArt.md)
+[Create a security incident knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/t_CrtScrIncdtKnwArt.md)
 
-[Create a Security Incident Response runbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setup-assistant-reference.md)
+[Create a Security Incident Response runbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/setup-assistant-reference.md)
 
 ## Add a custom task to the playbook
 
@@ -285,7 +285,7 @@ Outcome type
 
 </td><td>
 
-If you have the sn\_si.basic role, select **Yes/No** as the outcome type. If you have the security\_admin role, you can create a custom outcome type with multiple custom output values. For example, you can define a task with dependant values based on the threat category. For more information, see [Choice lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ViewChoiceListDefinitions.md).
+If you have the sn\_si.basic role, select **Yes/No** as the outcome type. If you have the security\_admin role, you can create a custom outcome type with multiple custom output values. For example, you can define a task with dependant values based on the threat category. For more information, see [Choice lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ViewChoiceListDefinitions.md).
 
 </td></tr><tr><td>
 

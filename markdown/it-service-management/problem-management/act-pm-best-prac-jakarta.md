@@ -3,11 +3,11 @@ title: Activate Problem Management Best Practice — Jakarta
 description: The Problem Management Best Practice - Jakarta plugin introduces lookups \(impact, urgency and priority\) for Problem Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/act-pm-best-prac-jakarta.html
-release: australia
+release: brazil
 product: Problem Management
 classification: problem-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Problem Management plugins, Configuring Problem Management, Problem Management, IT Service Management]
 ---
@@ -24,7 +24,7 @@ Role required: admin
 
 **Important:** Do not activate this plugin if you have upgraded from a pre-Jakarta release.
 
-If you have modified the base functionality required for the [Problem Management Best Practice — Madrid — State Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/act-pm-best-prac-madrid-state-mod.md) plugin \(com.snc.best\_practice.problem.madrid.state\_model\), use the [Migration Utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/migration-utility.md) to repair the plugin.
+If you have modified the base functionality required for the [Problem Management Best Practice — Madrid — State Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/act-pm-best-prac-madrid-state-mod.md) plugin \(com.snc.best\_practice.problem.madrid.state\_model\), use the [Migration Utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/migration-utility.md) to repair the plugin.
 
 ## Procedure
 
@@ -38,13 +38,13 @@ If you have modified the base functionality required for the [Problem Management
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Problem Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/problem-mgmt-plugins.md)
+**Parent Topic:**[Problem Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/problem-mgmt-plugins.md)
 
 **Related topics**  
 
 
-[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-of-plugins.md)
 

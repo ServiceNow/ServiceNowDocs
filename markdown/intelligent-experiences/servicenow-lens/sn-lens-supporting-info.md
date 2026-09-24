@@ -3,14 +3,14 @@ title: Supporting information for ServiceNow AI Lens
 description: Get a quick overview of the important information that is related to the ServiceNow AI Lens application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/servicenow-lens/sn-lens-supporting-info.html
-release: australia
+release: brazil
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: concept
-last_updated: "2026-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Supporting information for ServiceNow Lens]
-breadcrumb: [Explore, ServiceNow AI Lens, Enable AI experiences]
+breadcrumb: [Explore, ServiceNow AI Lens, Generative AI skills, Enable AI Experiences]
 ---
 
 # Supporting information for ServiceNow AI Lens
@@ -23,7 +23,7 @@ ServiceNow AI Lens is supported from Yokohama Patch 6 and Zurich Patch 1.
 
 ## Supported user interfaces
 
-To scan artifacts such as images, scanned handwritten notes, Excel sheets, web pages using AI, enable the ServiceNow AI Lens application and then activate the ServiceNow AI Lens skill. For more information, see [Configure ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/install-sn-lens.md).
+To scan artifacts such as images, scanned handwritten notes, Excel sheets, web pages using AI, enable the ServiceNow AI Lens application and then activate the ServiceNow AI Lens skill. For more information, see [Configure ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/install-sn-lens.md).
 
 The ServiceNow AI Lens application includes the skills that are listed in the following table.
 
@@ -42,7 +42,7 @@ Skill
 
 </td><td>
 
-[ServiceNow AI Lens skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-skill.md)
+[ServiceNow AI Lens skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-skill.md)
 
 </td></tr></tbody>
 </table>## Licensing requirements

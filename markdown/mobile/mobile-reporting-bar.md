@@ -3,9 +3,9 @@ title: Bar reports for mobile
 description: Use bar reports to compare individual or aggregate scores across data dimensions. Each bar represents a specific category of data. A stacked bar report helps you differentiate between each segment within a category. Mobile dashboards support vertical bar charts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-reporting-bar.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using data visualizations, Mobile platform dashboards, Using the mobile apps, Mobile Platform]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Using data visualizations, Mobile platform dashboards, Using the mo
 
 Use bar reports to compare individual or aggregate scores across data dimensions. Each bar represents a specific category of data. A stacked bar report helps you differentiate between each segment within a category. Mobile dashboards support vertical bar charts.
 
-**Note:** For information on how to configure bar reports, you need to create mobile dashboard previews within a launcher screen. For more information, see [Launcher screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-applet-launcher.md) and [Mobile dashboard preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-dashboard-preview.md).
+**Note:** For information on how to configure bar reports, you need to create mobile dashboard previews within a launcher screen. For more information, see [Launcher screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mobile-applet-launcher.md) and [Mobile dashboard preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-dashboard-preview.md).
 
 <table id="table_arh_rv2_bmb"><tbody><tr><td>
 

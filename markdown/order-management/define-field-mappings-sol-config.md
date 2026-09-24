@@ -3,12 +3,12 @@ title: Define field mappings for a solution configuration
 description: Define field mappings on a configurable product action to pass field values from the parent blueprint to the child blueprint when a child configuration is created.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/define-field-mappings-sol-config.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [field mapping, source field, target field, configurable product action, admin]
-breadcrumb: [Enable solution configuration, Set up Solution Configuration, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Enable solution configuration, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Define field mappings for a solution configuration
@@ -17,7 +17,7 @@ Define field mappings on a configurable product action to pass field values from
 
 ## Before you begin
 
--   A configurable product action exists on the parent blueprint. For more information, see [Create a configurable product action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-configurable-product-action.md).
+-   A configurable product action exists on the parent blueprint. For more information, see [Create a configurable product action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-configurable-product-action.md).
 -   The source fields \(on the parent blueprint\) and the target fields \(on the child blueprint\) exist and are of the same field type.
 
 Role required: admin
@@ -26,7 +26,7 @@ Role required: admin
 
 Field mappings are defined as part of a configurable product action. Each mapping specifies a source field on the parent blueprint and a target field on the child blueprint. The value of the source field is passed to the target field when the child configuration is created, and again whenever the source field value changes during a session.
 
-Target fields become read-only in the child configuration — the buyer can't change a mapped value directly. To continue mapping across multiple levels in a solution hierarchy, define the relevant mappings on each blueprint in the chain independently.
+Target fields become read-only in the child configuration — the buyer cannot change a mapped value directly. To continue mapping across multiple levels in a solution hierarchy, define the relevant mappings on each blueprint in the chain independently.
 
 ## Procedure
 
@@ -40,7 +40,7 @@ Target fields become read-only in the child configuration — the buyer can't ch
 
 5.  In the **Target Field** column, select the field on the child blueprint that receives the value.
 
-    The field type must match the source field type. For supported types, see [Field mapping supported field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+    The field type must match the source field type. For supported types, see [Field mapping supported field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown).
 
 6.  Repeat steps 3–5 for each additional field you want to map.
 
@@ -62,13 +62,13 @@ Field values from the source fields on the parent blueprint are passed to the ta
 
 After defining field mappings:
 
--   To test mapping behavior, launch the parent product in the quoting application and verify that the target fields receive the expected values in the child configuration. See [Launch a solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/launch-solution.md).
--   To verify field type compatibility, see [Field mapping supported field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+-   To test mapping behavior, launch the parent product in the quoting application and verify that the target fields receive the expected values in the child configuration. See [Launch a solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/launch-solution.md).
+-   To verify field type compatibility, see [Field mapping supported field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown).
 
 **Related topics**  
 
 
-[Create a configurable product action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-configurable-product-action.md)
+[Create a configurable product action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-configurable-product-action.md)
 
-[Field mapping supported field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[Field mapping supported field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)
 

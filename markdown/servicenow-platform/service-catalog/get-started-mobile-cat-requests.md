@@ -3,11 +3,11 @@ title: Get started with the mobile app for Approvals
 description: Access the My Approvals application instance on your mobile app to manage approval requests using your mobile device.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/get-started-mobile-cat-requests.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Fulfiller experience in Mobile Agent, Service Catalog in mobile, Integrating Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,15 +28,15 @@ Download the ServiceNow® mobile application on an iOS platform from the Apple A
 
 1.  Open the mobile app and tap the plus icon \(\[Omitted image "mobileAddInstance.png"\] Alt text: plus icon\).
 
-2.  Add a ServiceNow instance. For more information on adding the instance, refer to [Add a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/login-end-user.md).
+2.  Add a ServiceNow instance. For more information on adding the instance, refer to [Add a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/login-end-user.md).
 
 3.  Tap **My Approvals** to start managing your requests.
 
 
-**Parent Topic:**[Fulfiller experience in Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/itsm-mobile-request-approval.md)
+**Parent Topic:**[Fulfiller experience in Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/itsm-mobile-request-approval.md)
 
 **Related topics**  
 
 
-[Agent mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-experience.md)
+[Agent mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-experience.md)
 

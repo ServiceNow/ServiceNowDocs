@@ -3,11 +3,11 @@ title: Add a transfer mechanism to a data transfer record
 description: Assign a transfer mechanism to a data transfer record to document the legal safeguard that permits the transfer of personal data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/add-transfer-mechanism-dt.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-08-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [data transfer, transfer mechanism]
 breadcrumb: [Transfer mechanisms, Manage data transfers, Use, Privacy Management, Governance, Risk, and Compliance]
@@ -25,7 +25,7 @@ Role required: sn\_privacy.analyst
 
 A data transfer record generated from a hierarchy relationship does not have a transfer mechanism assigned by default. Review each data transfer record and assign the mechanism that provides the legal basis or safeguard for the transfer.
 
-**Note:** If a transfer mechanism is not available for selection, a privacy manager with the sn\_privacy.manager role has to add it in the Privacy Workspace. For steps, see [Manage transfer mechanisms in the Privacy Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/update-transfer-mechanism.md).
+**Note:** If a transfer mechanism is not available for selection, a privacy manager with the sn\_privacy.manager role has to add it in the Privacy Workspace. For steps, see [Manage transfer mechanisms in the Privacy Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/update-transfer-mechanism.md).
 
 ## Procedure
 
@@ -41,10 +41,10 @@ A data transfer record generated from a hierarchy relationship does not have a t
 
 6.  In the **Transfer mechanism** column, double-click the respective cell to select the applicable transfer mechanism for that data transfer record.
 
-    For a list of transfer mechanisms in Privacy Management, see [Transfer mechanisms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/transfer-mechanisms.md).
+    For a list of transfer mechanisms in Privacy Management, see [Transfer mechanisms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/transfer-mechanisms.md).
 
 7.  Select **Save**.
 
 
-**Parent Topic:**[Transfer mechanisms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/transfer-mechanisms.md)
+**Parent Topic:**[Transfer mechanisms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/transfer-mechanisms.md)
 

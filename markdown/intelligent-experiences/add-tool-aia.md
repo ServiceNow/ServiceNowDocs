@@ -3,11 +3,11 @@ title: Add tools and information to an AI agent
 description: Add a tool to an AI agent to enable different functionalities and help your AI agents achieve their objectives.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-tool-aia.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create an AI agent, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Create an AI agent, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Add tools and information to an AI agent
@@ -38,5 +38,5 @@ In this step, you can also add Knowledge graphs. Knowledge graphs give the AI ag
 
 You can minimize the potential negative impact of an AI agent not executing as expected by configuring AI agents' tools to run in supervised mode. Running in supervised mode means that the tools use human oversight when executing actions. You can use the Supervised mode to enhance security for agents with the capability to perform sensitive or critical actions.
 
-You can set the supervised execution mode when creating a tool in the AI agent guided setup. For example, choose Supervised as the Execution mode when adding a catalog item tool. For reference, see [Add a catalog item to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-catalog-ai-agent.md).
+You can set the supervised execution mode when creating a tool in the AI agent guided setup. For example, choose Supervised as the Execution mode when adding a catalog item tool. For reference, see [Add a catalog item to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-catalog-ai-agent.md).
 

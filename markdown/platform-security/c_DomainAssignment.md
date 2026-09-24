@@ -3,9 +3,9 @@ title: Domain assignment
 description: By default, domain separation adds a domain field to tables and their extensions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/c\_DomainAssignment.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Exploring domain separation, Domain separation for service providers, Access Management]
 ---
@@ -47,7 +47,7 @@ For example, assigning Bow Ruggeri to the ACME company automatically assigns him
 
 ## Using business rules to assign domains
 
-Administrators can use a business rule to automatically set a domain value when creating a record. The business rule must set a value in the **sys\_domain** field. Administrators must ensure there is a **sys\_domain** column available for the record's table. To learn more see [Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md).
+Administrators can use a business rule to automatically set a domain value when creating a record. The business rule must set a value in the **sys\_domain** field. Administrators must ensure there is a **sys\_domain** column available for the record's table. To learn more see [Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/bp-domain-sep-recommended.md).
 
 ## Using modules to assign domains
 
@@ -68,7 +68,7 @@ By default, related records inherit the domain of the parent record. For example
 
 If no other domain conditions apply, a record automatically inherits the domain of the user who creates it.
 
-**Parent Topic:**[Exploring domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparation.md)
+**Parent Topic:**[Exploring domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_DomainSeparation.md)
 
 **Related topics**  
 

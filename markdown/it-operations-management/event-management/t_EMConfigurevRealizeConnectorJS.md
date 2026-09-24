@@ -3,11 +3,11 @@ title: Configure event collection from vRealize
 description: Configure the VMware vRealize Operations \(vRealize or vRealize\_V2\) connector instance to receive events from the vRealize Operations Log and Event Management servers. vRealize uses basic authentication. vRealize\_V2 uses token-based authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMConfigurevRealizeConnectorJS.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -22,23 +22,23 @@ Role required: evt\_mgmt\_admin
 
 Supported version: 8.10.0.
 
-**Note:** Connect to vRealize using a local account with at least Read-only vRealize Operations permission. You can use an existing credential or [create a new one](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-credentials-vrealize.md).
+**Note:** Connect to vRealize using a local account with at least Read-only vRealize Operations permission. You can use an existing credential or [create a new one](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/create-credentials-vrealize.md).
 
 ## About this task
 
-This connector has the **debug** and **logPayloadForDebug** log parameters enabled. The **debug** parameter logs debug messages, such as calls made to the source system to retrieve events. The **logPayloadForDebug** parameter logs event and metric payloads from the source system. Once debugging is complete, set this parameter to **false** to prevent overloading the system. By default, the vRealize\_V2 connector communicates with the vRealize Operations API using JSON. To use the legacy XML format, set the **useXMLResponse** parameter to **true**.
+This connector has the **debug** and **logPayloadForDebug** log parameters enabled. The **debug** parameter logs debug messages, such as calls made to the source system to retrieve events. The **logPayloadForDebug** parameter logs event and metric payloads from the source system. Once debugging is complete, set this parameter to **false** to prevent overloading the system. To use the legacy XML format, set the **useXMLResponse** parameter to **true**.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Event Management** &gt; **Integrations** &gt; **Connector Instances**.
 
-2.  Select **New** and create a vRealize Operations connector instance with the following details:
+2.  Click **New** and create a vRealize Operations connector instance with the following details:
 
     |Field|Value|
     |-----|-----|
     |Name|Specify a unique name for the vRealize Operations connector instance.|
     |Host IP|Specify the vRealize Operations IP address.|
-    |Credential|Select the credential with basic authentication that you created for this connector. vRealize\_V2 uses token-based authentication providing that the user can generate the token. For more information, see [Create vRealize credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-credentials-vrealize.md).|
+    |Credential|Select the credential with basic authentication that you created for this connector. vRealize\_V2 uses token-based authentication providing that the user can generate the token. For more information, see [Create vRealize credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/create-credentials-vrealize.md).|
     |Schedule \(seconds\)|The frequency in seconds that the system checks for new events from vRealize Operations.|
     |Description|Type a description for the use of the vRealize Operations connector.|
     |Connector definition|The vendor and protocol used to gather events from the external event source. Select **vRealize** or **vRealize\_V2** \(vRealize\_V2 is located in the Event Management connectors scope\).|
@@ -74,13 +74,13 @@ This connector has the **debug** and **logPayloadForDebug** log parameters enabl
 7.  After a successful test, select **Active** and then click **Update**.
 
 
--   **[Create vRealize credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-credentials-vrealize.md)**  
+-   **[Create vRealize credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/create-credentials-vrealize.md)**  
 Create credentials to access vRealize.
 
-**Parent Topic:**[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
+**Parent Topic:**[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
 
 **Related topics**  
 
 
-[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
+[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
 

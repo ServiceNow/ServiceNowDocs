@@ -3,9 +3,9 @@ title: Add subscription pricing to a quote
 description: Add subscription pricing to a quote or quote line items including start and end dates in Quote Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-management-add-subscription-pricing.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -26,7 +26,7 @@ In a quote, you can set the subscription pricing start date and end date, or you
 
 Subscription pricing can be added at the quote header level or at the quote line item level.
 
-See [Subscription revenue metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-subscription-pricing.md) for more information about how subscription pricing works.
+See [Subscription revenue metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-subscription-pricing.md) for more information about how subscription pricing works.
 
 ## Procedure
 
@@ -50,5 +50,5 @@ See [Subscription revenue metrics](https://raw.githubusercontent.com/ServiceNow/
 5.  Select **Save**.
 
 
-**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-mgmt-using.md)
 

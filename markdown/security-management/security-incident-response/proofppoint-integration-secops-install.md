@@ -3,11 +3,11 @@ title: Install and configure the Proofpoint Integration
 description: Install and configure the  Proofpoint Integration for Security Operations application from the  ServiceNow Store on your  ServiceNow AI Platform instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/proofppoint-integration-secops-install.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Proofpoint Integration for Security Operations, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_si\_admin
 
 1.  Download the  Proofpoint Integration for Security Operations application from the  ServiceNow® Store and install it.
 
-    For more information, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
+    For more information, see [Install an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/installing-applications-in-application-manager.md).
 
 2.  Navigate to **Security Operations** &gt; **Integrations ** &gt; **Integration Configurations**.
 

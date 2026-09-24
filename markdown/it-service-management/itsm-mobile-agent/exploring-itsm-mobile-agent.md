@@ -3,11 +3,11 @@ title: Exploring ITSM Mobile Agent
 description: ITSM Mobile Agent provides IT agents with the access needed to perform the various IT Service Management \(ITSM\) tasks on the go with this mobile application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/exploring-itsm-mobile-agent.html
-release: australia
+release: brazil
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [ITSM Mobile Agent, IT Service Management]
 ---
@@ -34,10 +34,10 @@ A general overview of the typical ITSM Mobile Agent workflow:
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Incident management|[My incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/assigned-incidents-mobile.md)|All|
-|Real-time notifications|All logged-in users receive in-app and push notifications. To configure real-time notifications, see [Configurable actionable notifications for ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/actionable-notify-itsm-mobile.md).|All|
-|Team Dashboard and performance metrics|[My team dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/my-team-dashboard-mob.md) and [Performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/perf-metrics-mob.md)|Managers|
-|Major incident management|[Managing major incidents using Major Incident applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/mim-mobile.md)|Agent, Managers|
-|AI search|[AI Search in ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/ai-search-itsm-mobile-agent.md)|All|
-|Collaboration services|[Collaboration Services for ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/collaboration-itsm-mobile-agent.md)|Administrator|
+|Incident management|[My incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-mobile-agent/assigned-incidents-mobile.md)|All|
+|Real-time notifications|All logged-in users receive in-app and push notifications. To configure real-time notifications, see [Configurable actionable notifications for ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-mobile-agent/actionable-notify-itsm-mobile.md).|All|
+|Team Dashboard and performance metrics|[My team dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-mobile-agent/my-team-dashboard-mob.md) and [Performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-mobile-agent/perf-metrics-mob.md)|Managers|
+|Major incident management|[Managing major incidents using Major Incident applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-mobile-agent/mim-mobile.md)|Agent, Managers|
+|AI search|[AI Search in ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-mobile-agent/ai-search-itsm-mobile-agent.md)|All|
+|Collaboration services|[Collaboration Services for ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-mobile-agent/collaboration-itsm-mobile-agent.md)|Administrator|
 

@@ -3,11 +3,11 @@ title: Preparing for the Usage Insights data export via REST API
 description: Submit an export request to the Usage Insights data export API to extract usage data asynchronously and consume results from a Kafka topic.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/data-export-submit-request.html
-release: australia
+release: brazil
 product: Usage Insights
 classification: usage-insights
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Bulk export of Usage Insights data via REST API, Using Usage Insights, Usage Insights, Platform Analytics]
 ---
@@ -51,7 +51,7 @@ This task involves preparing the export request parameters, managing API request
 
 6.  Prepare your export request parameters.
 
-    See [UXA Data Export Service API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/usage-insight-data-exp-api.md) to learn more.
+    See [UXA Data Export Service API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/usage-insight-data-exp-api.md) to learn more.
 
     1.  Submit the export request via the REST API.
 
@@ -62,7 +62,7 @@ This task involves preparing the export request parameters, managing API request
 
 ## What to do next
 
-Set up a secure connection to Hermes, to start consuming data export results. See [Setting up a secure connection to Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/data-export-setup-hermes.md).
+Set up a secure connection to Hermes, to start consuming data export results. See [Setting up a secure connection to Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/usage-insights/data-export-setup-hermes.md).
 
-**Parent Topic:**[Bulk export of Usage Insights data via REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/data-export-restapi.md)
+**Parent Topic:**[Bulk export of Usage Insights data via REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/usage-insights/data-export-restapi.md)
 

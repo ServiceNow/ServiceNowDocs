@@ -3,11 +3,11 @@ title: TISC Workspace
 description: View a centralized dashboard of threat intelligence data including feeds overview, trending threats, and intelligence sharing metrics. Monitor your security posture with trending intelligence data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/view-threat-intelligence-security-center-homepage.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Explore, Threat Intelligence Security Center, Security Operations]
 ---
@@ -156,7 +156,7 @@ Select a sector in the chart and this opens the list view filtered by the select
         |Outbound intelligence - Distribution by Format \(30 days\)|Displays the format distribution \(for example, MISP, STIX\) of outbound intelligence over the last 30 days.|Selecting this widget opens the list page with filtered records.|
 
 
-**Parent Topic:**[Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-intelligence-security-center-overview.md)
+**Parent Topic:**[Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/threat-intelligence-security-center-overview.md)
 
 **Related topics**  
 

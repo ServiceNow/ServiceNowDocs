@@ -3,11 +3,11 @@ title: Change an approval summarizer
 description: You can modify existing approval summaries to include additional information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/approvals/t\_ChangeASummarizer.html
-release: australia
+release: brazil
 product: Approvals
 classification: approvals
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Summarizers, Approval summarizer formatter, Classic approvals, Build workflows]
 ---

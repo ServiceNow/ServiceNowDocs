@@ -3,11 +3,11 @@ title: RIDACs records for a demand
 description: RIDAC is an acronym for Risk, Issue, Decision, Action, and Request Changes records. Create a risk for your demand that you can convert to other records during the demand life cycle. Track issues and avoid manual copying of relevant details in related records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/ridac-entries-for-demand.html
-release: australia
+release: brazil
 product: Demand Management
 classification: demand-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -29,24 +29,24 @@ Consider the following points before converting or associating RIDAC records:
     \[Omitted image "ridac\_workflow.png"\] Alt text: Diagram for explaining RIDAC process flow
 
 -   You can convert one record into multiple RIDAC records. For example, you can create multiple issue records from one risk record.
--   You can associate one record with multiple different records. For example, you can link one issue record to multiple different risk, decision, action, or request change records. For more information, see [Associate existing RIDAC records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/reassociate-ridac-demand.md).
+-   You can associate one record with multiple different records. For example, you can link one issue record to multiple different risk, decision, action, or request change records. For more information, see [Associate existing RIDAC records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/reassociate-ridac-demand.md).
 
--   **[Add risks for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/add-risks-for-demand.md)**  
+-   **[Add risks for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/add-risks-for-demand.md)**  
 Add a risk to a demand to identify, analyze, prioritize, plan, and track a risk during any phase of the demand life cycle. Assess potential problems and the severity of their impact to take informed decisions about the demand.
--   **[Add issues for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/add-issues-for-demand.md)**  
+-   **[Add issues for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/add-issues-for-demand.md)**  
 Add an issue to a demand to escalate a risk or to track an unexpected problem. For example, a technical malfunction or resource unavailability that occurs during any phase of the demand life cycle. If the issue remains unresolved, unnecessary conflicts, delays, or even a failure can occur.
--   **[Add decisions for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/add-decisions-for-demand.md)**  
+-   **[Add decisions for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/add-decisions-for-demand.md)**  
 As a demand manager, develop a plan to manage risks and issues proactively with solutions. Add the solution for a risk or issue to a demand in the form of a decision. You can also convert a risk or an issue to a decision or a decision to an action or a request change.
--   **[Add actions for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/add-actions-for-demand.md)**  
+-   **[Add actions for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/add-actions-for-demand.md)**  
 Add actions that are required for resolving an issue or risk for a demand. You can also convert a risk, issue, or decision to an action based on your analysis and plan for resolution of a risk or issue.
--   **[Add Request Changes to a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/add-request-change-for-demand.md)**  
+-   **[Add Request Changes to a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/add-request-change-for-demand.md)**  
 As a demand manager, you might create a request change as the outcome of the action taken to resolve an issue or mitigate a risk. The request change might result in changing the demand's scope, resource requirement, cost, or schedule to minimize the impact of a risk or issue.
--   **[Convert one RIDAC record to another for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/convert-ridac-for-demand.md)**  
+-   **[Convert one RIDAC record to another for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/convert-ridac-for-demand.md)**  
 Convert one RIDAC record to another to retain record information and track issues without creating a record manually.
--   **[Associate existing RIDAC records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/reassociate-ridac-demand.md)**  
+-   **[Associate existing RIDAC records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/reassociate-ridac-demand.md)**  
 Link existing RIDAC records \(risks, issues, actions, decisions, and request changes\) to one another for your demand. Associating RIDAC records with each other enables you to keep a record of risks or issues and their outcome for analysis at demand closure and planning. It also helps to track the risks and issues throughout the demand life cycle.
 
-**Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/r_UsingDemandManagement.md)
+**Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/r_UsingDemandManagement.md)
 
 **Related topics**  
 

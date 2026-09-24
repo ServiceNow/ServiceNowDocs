@@ -3,11 +3,11 @@ title: Integrate Sentry events
 description: Integrate Sentry with Event Management by adding a standard webhook in the Sentry platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/sentry-events-collection.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -156,5 +156,5 @@ Metric alert
 </table>    4.  Click **Save Rule**.
 
 
-**Parent Topic:**[Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-listener-transform-script.md)
+**Parent Topic:**[Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-listener-transform-script.md)
 

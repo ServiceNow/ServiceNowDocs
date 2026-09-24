@@ -3,13 +3,13 @@ title: Build a custom template from scratch
 description: Build your custom template from scratch if none of the predefined App Engine Studio \(AES\) templates fit your business needs or you don't have an existing application as a starting point.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/build-template-scratch.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Build a custom template, Use an app template, Create your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Build a custom template, Use an app template, Create your app, Build, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Build a custom template from scratch
@@ -38,7 +38,7 @@ Role required: admin, app\_template\_author
 
 7.  Specify which users or groups should have access to this template.
 
-<table id="choicetable_m5y_2nz_5tb"><tbody><tr><td id="d262088e134">
+<table id="choicetable_m5y_2nz_5tb"><tbody><tr><td id="d254313e134">
 
 **Share with specific users and groups**
 
@@ -50,7 +50,7 @@ Role required: admin, app\_template\_author
 4.  Select **Continue**.
 
 
-</td></tr><tr><td id="d262088e170">
+</td></tr><tr><td id="d254313e170">
 
 **Share with all users and groups**
 
@@ -61,7 +61,7 @@ Role required: admin, app\_template\_author
 
 
 </td></tr></tbody>
-</table>    For more information about template sharing and permissions, see [App template sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-template-sharing.md).
+</table>    For more information about template sharing and permissions, see [App template sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-template-sharing.md).
 
 8.  On the template details screen, select **Go to template dashboard**.
 
@@ -69,16 +69,16 @@ Role required: admin, app\_template\_author
 
     For more information, see the following topics:
 
-    -   [Create a data model for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-data.md)
-    -   [Add an application experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-experience.md)
-    -   [Add logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-automation.md)
-    -   [Add application security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-security.md)
+    -   [Create a data model for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/add-data.md)
+    -   [Add an application experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/add-experience.md)
+    -   [Add logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/add-automation.md)
+    -   [Add application security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/add-security.md)
 10. Select **Save**.
 
 
 ## What to do next
 
-Provide an overview of the custom template and activate the template to make it available to App Engine Studio users through the template library. For more information, see [Update custom template contents and properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/manage-custom-template.md).
+Provide an overview of the custom template and activate the template to make it available to App Engine Studio users through the template library. For more information, see [Update custom template contents and properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/manage-custom-template.md).
 
-**Parent Topic:**[Build a custom template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/build-custom-template.md)
+**Parent Topic:**[Build a custom template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/build-custom-template.md)
 

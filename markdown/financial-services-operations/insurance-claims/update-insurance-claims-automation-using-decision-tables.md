@@ -3,11 +3,11 @@ title: Use claim automation decision tables
 description: Use decision tables to define the claim automation rules in the Insurance claims application. You can review and update these rules to suit your claims workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/update-insurance-claims-automation-using-decision-tables.html
-release: australia
+release: brazil
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Automating claims processes using decision tables, Configure, Insurance claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---

@@ -3,9 +3,9 @@ title: Order decomposition examples
 description: Examples using demo data illustrating how customer and service orders can be decomposed under diverse conditions help you to understand the decomposition process. The conditions include optional characteristics, quantity-based decomposition, staggered fulfillment, and exclusion rules that support complex order management and fulfillment workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/order-decomposition-examples.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2025-10-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Order decomposition, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -32,7 +32,7 @@ After receiving a service order for adding a Managed Firewall service, a service
 
 Next, the ServiceNow AI Platform triggers a fulfillment workflow for the decomposed service and resource orders. This workflow generates the required order tasks for fulfilling the domain orders and uses decision tables to identify the workflow for a decomposed order. The selected workflow is based on various attributes in the original service order. These attributes include the specification category, and an order line item action \(Add, Change, or Delete\), among others.
 
-To learn more about decision tables, see [Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-table.md):
+To learn more about decision tables, see [Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/decision-table.md):
 
 ## Example of an order decomposition that is based on specification relationships
 
@@ -131,7 +131,7 @@ However, as a part of the order fulfillment process, the information for Routing
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-order-management.md)
 

@@ -3,9 +3,9 @@ title: View the unified map for a business application in Enterprise Modeling an
 description: You can view and model the unified map for your business applications, using Enterprise Modeling and Visualization. Using the Enterprise Modeling and Visualization \[com.snc.apm\_modelling\_tool\] functionality in Enterprise Architecture Workspace, you can modify your existing applications hierarchy and associate them with architectural artifacts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-unified-map-in-modeling-tool.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View a unified map for a business application, Working with an application portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -44,21 +44,21 @@ Role required: sn\_apm.apm\_user and sn\_cmdb\_user
     -   **Architectural category**: The category to which the architectural artifact is associated with.
 9.  Select **OK**.
 
-    To learn more on how to use Enterprise Modeling and Visualization, see [Exploring Enterprise Modeling and Visualization in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling.md).
+    To learn more on how to use Enterprise Modeling and Visualization, see [Exploring Enterprise Modeling and Visualization in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-modeling.md).
 
 
-**Parent Topic:**[View a unified map for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-open-map-ba.md)
+**Parent Topic:**[View a unified map for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-open-map-ba.md)
 
 **Related topics**  
 
 
-[Create a diagram for a business capability map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-bc-map.md)
+[Create a diagram for a business capability map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-modeling-bc-map.md)
 
-[Delete a shape](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-delete-shape.md)
+[Delete a shape](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-modeling-delete-shape.md)
 
-[Add related records in the modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-add-related-records.md)
+[Add related records in the modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-modeling-add-related-records.md)
 
-[Commit diagram changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-sync-diagram-servicenow.md)
+[Commit diagram changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-modeling-sync-diagram-servicenow.md)
 
-[Save as a version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-save-as-new.md)
+[Save as a version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-modeling-save-as-new.md)
 

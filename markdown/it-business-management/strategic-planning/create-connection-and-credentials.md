@@ -3,11 +3,11 @@ title: Create connection and credentials for SPW Jira Integrations
 description: Using your Jira instance details, create a connection and credential for the child alias. This alias is used to enable the two-way sync of work item updates between Strategic Planning Workspace and Jira.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/create-connection-and-credentials.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up a Jira instance, Configure, SPW Jira Integrations, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -18,14 +18,14 @@ Using your Jira instance details, create a connection and credential for the chi
 
 ## Before you begin
 
-1.  [Create a child alias for Jira Spoke alias for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-child-alias-for-jira-spoke-alias.md).
-2.   or [Create Personal Access Token in Jira for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-personal-access-token-pat-in-jira-server-data-center.md).
+1.  [Create a child alias for Jira Spoke alias for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/create-child-alias-for-jira-spoke-alias.md).
+2.   or [Create Personal Access Token in Jira for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/create-personal-access-token-pat-in-jira-server-data-center.md).
 
 Role required: admin or sn\_jira\_int.admin
 
 ## About this task
 
-This task is performed for Jira Server/Data Center type instances only. For Jira Cloud, follow the steps of OAuth authentication. For more information, see [Option 1: Using OAuth authentication \(Authorization Code grant type\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-jira-spk-opt2.md).
+This task is performed for Jira Server/Data Center type instances only. For Jira Cloud, follow the steps of OAuth authentication. For more information, see .
 
 ## Procedure
 
@@ -39,14 +39,14 @@ This task is performed for Jira Server/Data Center type instances only. For Jira
 
 5.  On the form, fill in the fields.
 
-    For field information, see [Create Connection &amp; Credential form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-connection-credential-form.md).
+    For field information, see [Create Connection &amp; Credential form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/create-connection-credential-form.md).
 
 6.  Select **Create**.
 
 
 ## What to do next
 
-[Create Jira instance for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-jira-instance.md).
+[Create Jira instance for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/create-jira-instance.md).
 
-**Parent Topic:**[Setting up a Jira instance for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/setting-up-jira-instance-spw.md)
+**Parent Topic:**[Setting up a Jira instance for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/setting-up-jira-instance-spw.md)
 

@@ -1,18 +1,18 @@
 ---
-title: NLU entities
+title: \(Legacy\) NLU entities
 description: Entities provide your model with additional context when receiving user input. Add entities to your utterances and intents to improve the predictions of your Natural Language Understanding \(NLU\) model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/entities.html
-release: australia
+release: brazil
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) Build and train your model, \(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# NLU entities
+# \(Legacy\) NLU entities
 
 Entities provide your model with additional context when receiving user input. Add entities to your utterances and intents to improve the predictions of your Natural Language Understanding \(NLU\) model.
 
@@ -29,11 +29,11 @@ NLU entities fall into two categories: system and user-defined. System entities 
 
 There are five types of user-defined entities. Select one of the following links to learn more.
 
--   [Create a simple entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-nlu-entities.md)
--   [Create a mapped entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-mapped-entity-lookup-source.md)
--   [Create a pattern entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-pattern-entity.md)
--   [Create a system-derived entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-system-derived-entity.md)
--   [Create an open-ended entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-open-ended-entity.md)
+-   [\(Legacy\) Create a simple entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/create-nlu-entities.md)
+-   [\(Legacy\) Create a mapped entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/create-mapped-entity-lookup-source.md)
+-   [\(Legacy\) Create a pattern entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/create-pattern-entity.md)
+-   [\(Legacy\) Create a system-derived entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/create-system-derived-entity.md)
+-   [\(Legacy\) Create an open-ended entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/create-open-ended-entity.md)
 
 When you create entities, annotate them on utterances to provide examples to help your model learn. By annotating entities, you provide your model with linguistic associations and meaningful context for the system vocabulary. Annotations strengthen the relevance of entities and help your model perform the correct action in response to your users' inputs.
 
@@ -43,7 +43,7 @@ You add entities to your utterances when you are creating the intents. The entit
 
 Regular expressions \(regex\) help your model establish patterns that improve that model's ability to locate, match, and manage text. Use regular expressions with pattern entities to help your model understand formats such as email addresses, phone numbers, and incident numbers.
 
-To learn more, see [Using regular expressions in entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/using-regular-expressions-nlu.md).
+To learn more, see [\(Legacy\) Using regular expressions in entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/using-regular-expressions-nlu.md).
 
 ## Model availability
 

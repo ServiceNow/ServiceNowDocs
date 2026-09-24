@@ -3,9 +3,9 @@ title: Install the Now Actions messaging app
 description: As an administrator for both ServiceNow and the third-party application, find and install the Now Actions app. Install the application in ServiceNow to associate the app with your instance. Install the Now Actions messaging app from the Slack App Directory and associate the app with your instance.Associate the Now Actions messaging app with your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/install-now-actions.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Notifications in messaging applications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -16,14 +16,14 @@ As an administrator for both ServiceNow and the third-party application, find an
 
 ## Before you begin
 
-To activate this feature, request the Messaging Notification plugin \(com.glide.notification.messaging\) through the HI Customer Service system. This plugin activates related plugins if they are not already active. For more information, see [Request the Messaging Notification plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/request-messaging-notification.md).
+To activate this feature, request the Messaging Notification plugin \(com.glide.notification.messaging\) through the HI Customer Service system. This plugin activates related plugins if they are not already active. For more information, see [Request the Messaging Notification plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/request-messaging-notification.md).
 
 Roles required:
 
 -   Admin or messaging\_admin in ServiceNow
 -   Administrator for Slack or Teams
 
-**Parent Topic:**[Notifications in messaging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/messaging-integration.md)
+**Parent Topic:**[Notifications in messaging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/messaging-integration.md)
 
 ## Install the Now Actions messaging app for Slack
 
@@ -39,7 +39,7 @@ Role required: admin.
 
     1.  Find and install the Now Actions app in the Slack App Directory.
 
-    2.  Select Authorize when prompted.
+    2.  Click Authorize when prompted.
 
     3.  Enter a customized name, app description, and icon.
 
@@ -55,13 +55,13 @@ Role required: admin.
 
     1.  Navigate to **System Notification** → **Messaging Integration Configuration**.
 
-    2.  Select the **Install** button next to Slack.
+    2.  Click the **Install** button next to Slack.
 
     3.  In the JSON Configuration pop-up, paste in the JSON configuration you copied in earlier steps.
 
 3.  Check for installation verification.
 
-    The Slack workspace should appear following the Slack heading on the Notification Integration page.
+    The Slack workspace should appear below the Slack heading on the Notification Integration page.
 
     \[Omitted image "slackinstalled.png"\] Alt text: Slack workspace installed
 
@@ -119,5 +119,5 @@ Role required: admin.
 
 ### What to do next
 
-To receive a ServiceNow notification in Microsoft Teams, create a message and a notification. See [Configure message content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-message-content.md) and [Create a messaging notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-messaging-notification.md).
+To receive a ServiceNow notification in Microsoft Teams, create a message and a notification. See [Configure message content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-message-content.md) and [Create a messaging notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-messaging-notification.md).
 

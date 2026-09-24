@@ -3,11 +3,11 @@ title: Create robust transform definitions
 description: Specify your own Robust Transform Engine \(RTE\) to transfer data from a source table to a target table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/create-robust-transform-definitions.html
-release: australia
+release: brazil
 product: System Import Sets
 classification: system-import-sets
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Robust Import Set Transformers, Import sets, Imports, Workflow Data Fabric]
 ---
@@ -26,7 +26,7 @@ Role required: import\_transformer
 
 2.  Select an existing robust import set transformer, or click **New** to create a new robust import set transformer.
 
-    For procedures, see [Create a robust import set transformer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/create-robust-import-set-transformer.md).
+    For procedures, see [Create a robust import set transformer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/create-robust-import-set-transformer.md).
 
 3.  At the **Transformer Definition** field, click the search icon.
 

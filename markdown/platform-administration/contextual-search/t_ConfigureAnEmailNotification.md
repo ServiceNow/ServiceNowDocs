@@ -3,11 +3,11 @@ title: Edit an email notification for the search results
 description: Include search results in an email notification sent to users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/contextual-search/t\_ConfigureAnEmailNotification.html
-release: australia
+release: brazil
 product: Contextual Search
 classification: contextual-search
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing contextual search, Contextual search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -37,5 +37,5 @@ Role required: admin
 5.  Select and hold \(or right-click\) on the header form and click **Save**.
 
 
-**Parent Topic:**[Managing contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/working-with-contextual-search.md)
+**Parent Topic:**[Managing contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/contextual-search/working-with-contextual-search.md)
 

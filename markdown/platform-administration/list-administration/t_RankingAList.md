@@ -3,11 +3,11 @@ title: Rank a list
 description: After you create a ranking definition for a table, related lists based on that table and context include options for ranking the list and displaying the list by rank.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/t\_RankingAList.html
-release: australia
+release: brazil
 product: List Administration
 classification: list-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Context ranking, Administer, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -39,8 +39,8 @@ You can set the preferential order of records.
     **Note:** Administrators can define which columns appear in the Rank dialog box in the **Attributes** field of the Ranking Definition form.
 
 
--   **[Apply a new sort order to a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/t_ApplyANewSortOrderToAList.md)**  
+-   **[Apply a new sort order to a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-administration/t_ApplyANewSortOrderToAList.md)**  
 You can apply a new sort order to the records in a list.
 
-**Parent Topic:**[Context ranking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/r_ContextRanking.md)
+**Parent Topic:**[Context ranking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-administration/r_ContextRanking.md)
 

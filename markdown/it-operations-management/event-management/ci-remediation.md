@@ -3,11 +3,11 @@ title: CI Remediation
 description: Alert and configuration item \(CI\) remediations help troubleshoot and resolve underlying problems that generate alerts. Remediation is based on Orchestration workflows that can be scripted to perform remediation tasks such as gathering system information or rebooting a server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/ci-remediation.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -30,15 +30,15 @@ Configure remediation more comprehensively by creating CI remediation rules to m
 
 When a remediation workflow is executed, a remediation task is created to capture details such as the time that the workflow started to run, the alert that triggered the remediation workflow \(if relevant\), and the CI that was remediated. View these tasks to track remediation activities in the organization.
 
--   **[Create or edit CI remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_SACreateCIRemediation.md)**  
+-   **[Create or edit CI remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_SACreateCIRemediation.md)**  
 Create a CI remediation rule that lets users manually apply an Orchestration workflow for resolving issues with specific CIs associated with alerts. Define these CIs in the CI filter conditions of the rule.
--   **[View remediation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_SAViewRemediationTasks.md)**  
+-   **[View remediation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_SAViewRemediationTasks.md)**  
 Event Management automatically creates a remediation task to capture every remediation that was applied to a CI or to an alert. It gives you an overall view of remediation activities in the organization.
 
-**Parent Topic:**[Manage and monitor alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMAlert.md)
+**Parent Topic:**[Manage and monitor alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/c_EMAlert.md)
 
 **Related topics**  
 
 
-[Migrate an alert action rule to an alert management rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMCreateAlertRule.md)
+[Migrate an alert action rule to an alert management rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMCreateAlertRule.md)
 

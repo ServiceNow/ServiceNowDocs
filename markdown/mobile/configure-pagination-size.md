@@ -3,9 +3,9 @@ title: Configure pagination size for search lists
 description: To configure the amount of search list results that load to the screen as the user scrolls down, add the system property glide.sg.choice\_list.window\_size.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/configure-pagination-size.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [System properties, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -37,5 +37,5 @@ By default, the mobile app returns 50 results at a time in a search list. Increa
     |Value|&lt;pagination-size&gt;|
 
 
-**Parent Topic:**[Mobile system property configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/additional-mobile-configuration.md)
+**Parent Topic:**[Mobile system property configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/additional-mobile-configuration.md)
 

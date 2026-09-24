@@ -3,11 +3,11 @@ title: Create a CI using ServiceNow Otto
 description: The Create configuration item agentic workflow accepts your natural language request to manually generate a valid CI in the class that you specify.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-ci-creator.html
-release: australia
+release: brazil
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using agentic workflows, ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,9 +30,9 @@ Occasionally, you might create a CI manually. To help you, the Create configurat
 
 The Create configuration item agentic workflow is particularly useful for adding CIs to tables accessed by Operational Technology because users might add physical CIs while unaware of the importance of managing CI data in the CMDB.
 
-**Note:** The workflow helps avoid creation of a CI whose class does not have an identification rule. For more information, see [Identification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_IdentificationRules.md).
+**Note:** The workflow helps avoid creation of a CI whose class does not have an identification rule. For more information, see [Identification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_IdentificationRules.md).
 
-To learn more about using the ServiceNow Otto panel, see [Working in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+To learn more about using the ServiceNow Otto panel, see [Working in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 ## Procedure
 
@@ -42,17 +42,19 @@ To learn more about using the ServiceNow Otto panel, see [Working in the Service
     -   While working in the Service Graph Workspace orCMDB Workspace, select the ServiceNow Otto icon \[Omitted image "icon-otto-outline-24.svg"\] and then enter `create a ci`.
 2.  Enter the class of CI to create and then continue by answering the ServiceNow Otto questions.
 
+    To learn more about a field, select **Explain the CMDB data model** in the field's quick actions. For more information about this capability, see [Data Model Navigator app features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-data-model-nav-ref.md).
+
 3.  Provide feedback, copy the response text to the clipboard, or refresh the response.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d523905e202">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d522577e221">
 
 Option
 
-</th><th align="left" id="d523905e205">
+</th><th align="left" id="d522577e224">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d523905e211">
+</th></tr></thead><tbody><tr><td id="d522577e230">
 
 **Provide feedback for the summary**
 
@@ -60,7 +62,7 @@ Procedure
 
 If you think that the response was helpful, select thumbs-up \[Omitted image "icon-thumbs-up.png"\]. If you think that it wasn’t helpful, select thumbs-down \[Omitted image "icon-thumbs-down.png"\].This feedback improves the agentic AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated response and stores it in the agentic AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d523905e226">
+</td></tr><tr><td id="d522577e245">
 
 **Copy the summary**
 
@@ -68,7 +70,7 @@ If you think that the response was helpful, select thumbs-up \[Omitted image "ic
 
 Select the copy to clipboard icon \[Omitted image "icon-clipboard.png"\] to use the response information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d523905e237">
+</td></tr><tr><td id="d522577e256">
 
 **Refresh the summary**
 
@@ -78,5 +80,5 @@ If you think that data might have changed after you viewed the response, select 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using agentic workflows in ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-using.md)
+**Parent Topic:**[Using agentic workflows in ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-using.md)
 

@@ -3,11 +3,11 @@ title: Adding applications in ServiceNow IDE
 description: Add applications in the ServiceNow IDE to get started with development in source code.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-ide-family-release/creating-applications-servicenow-ide.html
-release: australia
+release: brazil
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -16,20 +16,20 @@ breadcrumb: [ServiceNow IDE, Building applications in source code, Building pro-
 
 Add applications in the ServiceNow IDE to get started with development in source code.
 
-1.  [Create a workspace in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/create-workspace-servicenow-ide.md)
+1.  [Create a workspace in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/create-workspace-servicenow-ide.md)
 
     Create a workspace in which you can add applications in the ServiceNow IDE.
 
 2.  Get started developing an application in source code by creating an application, converting an existing application, or cloning an existing application from a Git repository:
-    -   [Create an application with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/create-application-servicenow-ide.md)
+    -   [Create an application with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/create-application-servicenow-ide.md)
 
         Create an application that supports development in source code.
 
-    -   [Convert an application with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/convert-application-servicenow-ide.md)
+    -   [Convert an application with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/convert-application-servicenow-ide.md)
 
         Convert an existing application to support development in source code.
 
-    -   [Clone a Git repository with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/clone-git-repository-servicenow-ide.md)
+    -   [Clone a Git repository with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/clone-git-repository-servicenow-ide.md)
 
         Clone an existing application that supports development in source code from a remote Git repository.
 

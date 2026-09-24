@@ -3,13 +3,13 @@ title: Improve the accuracy of AI for document designer results
 description: Improve the accuracy of AI for document designer results when querying ServiceNow instance data by configuring knowledge graph tags. Knowledge graph tags provide table-level and column-level instructions that the AI for document designer uses internally when querying ServiceNow instance data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/configure-knowledge-graph-tags-for-ai-reporting-assistant.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
-breadcrumb: [AI for document designer, Microsoft Word based audit report templates using Document designer, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [AI for document designer, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Improve the accuracy of AI for document designer results
@@ -20,8 +20,8 @@ Improve the accuracy of AI for document designer results when querying ServiceNo
 
 A business domain and at least one knowledge graph tag must be available.
 
--   To create a business domain, see [Create a business domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-a-business-domain.md).
--   To create a knowledge graph tag, see [Create Knowledge Graph tag](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-knowledge-graph-tags.md).
+-   To create a business domain, see [Create a business domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/create-a-business-domain.md).
+-   To create a knowledge graph tag, see [Create Knowledge Graph tag](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-knowledge-graph-tags.md).
 
 Role required: sn\_grc\_doc\_design.admin
 
@@ -44,7 +44,7 @@ Role required: sn\_grc\_doc\_design.admin
 
 ## What to do next
 
-[Generate reports through AI for document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/use-the-ai-reporting-assistant.md).
+[Generate reports through AI for document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/use-the-ai-reporting-assistant.md).
 
-**Parent Topic:**[AI for document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/ai-reporting-assistant.md)
+**Parent Topic:**[AI for document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/ai-reporting-assistant.md)
 

@@ -1,22 +1,23 @@
 ---
 title: Configure Field Encryption modules
-description: Learn how to configure Field Encryption modules.
+description: Configure Field Encryption modules by selecting and updating module settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/configure-fe-modules.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [field encryption module configuration, cryptographic module setup, field encryption settings]
 breadcrumb: [Configuring Field Encryption, Field Encryption, Encryption]
 ---
 
 # Configure Field Encryption modules
 
-Learn how to configure Field Encryption modules.
+Configure Field Encryption modules by selecting and updating module settings.
 
 ## Before you begin
 
-Role required: sn\_kmf.admin or sn\_kmf.cryptographic\_manager
+Role required: KMF Admin \(`sn_kmf.admin`\) or KMF Cryptographic Manager \(`sn_kmf.cryptographic_manager`\)
 
 ## Procedure
 
@@ -24,7 +25,7 @@ Role required: sn\_kmf.admin or sn\_kmf.cryptographic\_manager
 
 2.  Select the module you want to configure.
 
-    To create a new module, see [Create cryptographic module for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-PE-cryptographic-module.md).
+    To create a new module, see [Create cryptographic module for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/create-PE-cryptographic-module.md).
 
 3.  In the Module Overview fill out the fields as shown here.
 
@@ -42,7 +43,7 @@ Module name
 
 </td><td>
 
-Displays the module name prepended with the application scope name to avoid conflict with other scoped applications. For example, if you create a module with the name my\_crypto\_module in the global application scope, the name is saved as global.my\_crypto\_module. Choose a name for the module. This name is referenced when running scripts.
+Enter a descriptive name for your module. ServiceNow automatically prepends the application scope \(for example, `global.my_crypto_module`\) to prevent conflicts. This name is used in scripts.
 
 </td></tr><tr><td>
 
@@ -50,7 +51,7 @@ Module lifecycle state
 
 </td><td>
 
-The term “lifecycle” refers to the creation, use, and deactivation of a cryptographic module. Set this value to **Draft** initially during configuration. Set it to **Published** for active use.**Note:** The default template is automatically set to **Published**.
+The term "lifecycle" refers to the creation, use, and deactivation of a cryptographic module. Set this value to **Draft** initially during configuration. Set it to **Published** for active use.**Note:** The default template is automatically set to **Published**.
 
 </td></tr><tr><td>
 
@@ -90,7 +91,7 @@ Defines which encryption scheme will be used to encrypt fields associated with t
 
 ## What to do next
 
-Configure the purpose, algorithm, key length, mode, and origin of your encryption key in [Cryptographic specifications for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-fe-crypto-specs.md).
+Configure the purpose, algorithm, key length, mode, and origin of your encryption key in [Cryptographic specifications for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/configure-fe-crypto-specs.md).
 
-**Parent Topic:**[Configuring Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-column-level-encryption.md)
+**Parent Topic:**[Configuring Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/configuring-column-level-encryption.md)
 

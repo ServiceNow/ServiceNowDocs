@@ -3,11 +3,11 @@ title: Configure critical notification
 description: Configure the list of critical alerts that you want to receive when your mobile device is in Do Not Disturb mode.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/configure-critical-notification.html
-release: australia
+release: brazil
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enable Override do not disturb to receive critical alerts, Configuring ITSM Mobile Agent, ITSM Mobile Agent, IT Service Management]
 ---

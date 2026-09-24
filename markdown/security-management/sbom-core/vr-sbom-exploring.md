@@ -3,11 +3,11 @@ title: Exploring Software Bill of Materials
 description: Identify the components used in your organization's applications from Software Bill of Materials \(SBOM\) files you upload into your instance. Understand any risks associated with using open-source software to help you determine your potential exposure, view license compliance, and fix vulnerabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sbom-core/vr-sbom-exploring.html
-release: australia
+release: brazil
 product: SBOM Core
 classification: sbom-core
 topic_type: concept
-last_updated: "2026-04-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Software Bill of Materials, Unified Security Exposure Management, Security Operations]
 ---
@@ -129,15 +129,15 @@ v6.0, v5.0, v4.0
 -   SBOM Response is required if you want access to the features and data visualizations on the landing page in the SBOM Workspace.
 -   SBOM Response requires the Vulnerability Response application.
 -   View your component inventory and assess your risk exposure in the SBOM Workspace. Set up rules to create application vulnerable items \(AVITs\) automatically and remediate them with the Application Vulnerability Response workflow.
--   View component license information that is uploaded with your SBOM files in the [License administration module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sbom-core/vr-sbom-license-overview.md). Classify and resolve \(match\) the components you upload in your Application Vulnerability Response files to licenses so you can see the state of your over-all license compliance.
+-   View component license information that is uploaded with your SBOM files in the [License administration module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sbom-core/vr-sbom-license-overview.md). Classify and resolve \(match\) the components you upload in your Application Vulnerability Response files to licenses so you can see the state of your over-all license compliance.
 -   Starting with version 4.0 of Application Vulnerability Response Response, you can view components that are identified as stale or abandoned as ‘Non-compliant’ in the Policy as Code Engine \(PaCE\) interface that is available in the SBOM Workspace.
 -   The OSV.dev and Deps.dev integrations are included when you install SBOM Response.
 
     -   OSV.dev is an open-source API that provides vulnerability intelligence information for a given version of a package or library.
     -   Deps.dev is an open-source API that provides a version list for a given package or library and identifies components that are in **Stale** and **Abandoned** states.
-See [Configuring the Deps.dev, OSV.dev, and PaCE integrations for Software Bill of Materials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sbom-core/vr-sbom-config-osv-deps.md) for more information.
+See [Configuring the Deps.dev, OSV.dev, and PaCE integrations for Software Bill of Materials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sbom-core/vr-sbom-config-osv-deps.md) for more information.
 
-See [Integrating PaCE with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/pace-integrate-other-apps.md) for more information about PaCE and PaCE policies.
+See [Integrating PaCE with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/pace-integrate-other-apps.md) for more information about PaCE and PaCE policies.
 
 
 </td><td>
@@ -165,14 +165,14 @@ SBOM Response
 </td></tr></tbody>
 </table>## Vulnerability Response applications and CSDM tables
 
-The Vulnerability Response, Application Vulnerability Response, third-party vulnerability integrations and Software Bill of Materials applications manage \(contribute data to\) CSDM tables. These applications also use data from CSDM tables that other applications generate. Several ServiceNow products, therefore, benefit from and add value to these Security Operations applications. See [Vulnerability Response applications and CSDM tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vr-avr-sbom-csdm-guidelines.md) for more information.
+The Vulnerability Response, Application Vulnerability Response, third-party vulnerability integrations and Software Bill of Materials applications manage \(contribute data to\) CSDM tables. These applications also use data from CSDM tables that other applications generate. Several ServiceNow products, therefore, benefit from and add value to these Security Operations applications. See [Vulnerability Response applications and CSDM tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/vr-avr-sbom-csdm-guidelines.md) for more information.
 
 ## What to explore next
 
 To learn more about configuring and using Software Bill of Materials, see:
 
--   [Exploring supported applications for Software Bill of Materials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sbom-core/vr-sbom-supported-apps.md)
--   [Configuring Software Bill of Materials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sbom-core/vr-sbom-configuring.md)
--   [Uploading and viewing your SBOM files in the SBOM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sbom-core/vr-sbom-using-parent.md)
--   [Viewing reports and dashboards in the Software Bill of Materials workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sbom-core/vr-sbom-viewing-data-overview.md)
+-   [Exploring supported applications for Software Bill of Materials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sbom-core/vr-sbom-supported-apps.md)
+-   [Configuring Software Bill of Materials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sbom-core/vr-sbom-configuring.md)
+-   [Uploading and viewing your SBOM files in the SBOM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sbom-core/vr-sbom-using-parent.md)
+-   [Viewing reports and dashboards in the Software Bill of Materials workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sbom-core/vr-sbom-viewing-data-overview.md)
 

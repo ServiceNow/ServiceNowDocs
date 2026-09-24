@@ -3,11 +3,11 @@ title: Operational Technology Vulnerability Response \(PA\) dashboard collection
 description: The Operational Technology Vulnerability Response \(PA\) dashboard uses collection jobs to collect the data that is shown on the dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/collection-jobs-otvr-pa-dashboard.html
-release: australia
+release: brazil
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Industrial Workspace, Operational Technology]
 ---
@@ -22,7 +22,7 @@ The following collection jobs collect the data that is shown on the Operational 
 
     Collection job for the historical data of existing records.
 
-    **Note:** The Historical Vulnerability Data Collection is an on-demand job that you only need to execute once. After the historical data is collected, the daily data collection jobs run on a scheduled time every day. For more information, see [Collect historical data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/t_RunHistoricalDataCollection.md).
+    **Note:** The Historical Vulnerability Data Collection is an on-demand job that you only need to execute once. After the historical data is collected, the daily data collection jobs run on a scheduled time every day. For more information, see [Collect historical data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/t_RunHistoricalDataCollection.md).
 
 -   **\[PA OT VR\] Daily Collection for Remediation Tasks**
 
@@ -37,5 +37,5 @@ The following collection jobs collect the data that is shown on the Operational 
     Collection job that occurs daily for unassigned vulnerable items, closed vulnerable items, summed duration of closed vulnerable items, and critical deferred vulnerable items.
 
 
-**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/using-industrial-workspace.md)
+**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/using-industrial-workspace.md)
 

@@ -3,11 +3,11 @@ title: Customize indicators of your Agile 2.0 dashboard reports
 description: Configure indicators to reflect your customizations on the Agile 2.0 dashboards.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/customize-indicators-of-your-dashboard-reports.html
-release: australia
+release: brazil
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customizing Agile 2.0 dashboard reports, Performance Analytics Content Pack for Agile 2.0, Agile Development, Strategic Portfolio Management]
 ---
@@ -33,5 +33,5 @@ Role required: admin or pa\_admin
 4.  Click **Update**.
 
 
-**Parent Topic:**[Customizing Agile 2.0 dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/customizing-dashboard-reports.md)
+**Parent Topic:**[Customizing Agile 2.0 dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/customizing-dashboard-reports.md)
 

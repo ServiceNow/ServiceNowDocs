@@ -3,11 +3,11 @@ title: Playbook activity state mapping
 description: Use playbook activity state mapping to override the status of a playbook card.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/playbook-activity-state-mapping.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -52,10 +52,10 @@ Business logic doesn't always align one-to-one with the flow. The following are 
 -   An agent clicks **Skip** on an instructional card. The flow displays as complete, but the business logic is skipped.
 -   A flow may never complete if a task is waiting for input from an agent to restart a loop. The associated task is effectively complete in this state.
 
--   **[Playbook activity state-mapping rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-activity-state-mapping-rules.md)**  
+-   **[Playbook activity state-mapping rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/playbook-activity-state-mapping-rules.md)**  
 Map playbook activity states to states from the given experience record.
--   **[Playbook activity state-mapping permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-act-state-permissions.md)**  
+-   **[Playbook activity state-mapping permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/playbook-act-state-permissions.md)**  
 User permissions must be assigned to allow agents to complete or skip activities in playbook using activity state mapping.
 
-**Parent Topic:**[Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md)
+**Parent Topic:**[Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md)
 

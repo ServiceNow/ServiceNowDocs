@@ -3,9 +3,9 @@ title: Using AI Search with CRM Workspace
 description: Use the ServiceNow AI Search application with CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-config-workspace-ai-search.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -14,21 +14,21 @@ breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Con
 
 Use the ServiceNow® AI Search application with CRM Workspace.
 
-Starting with the Utah release, the [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/overview-ais.md) application replaces the Zing search application for CRM Workspace. To support this feature, the Zing search configurations have been migrated to AI Search.
+Starting with the Utah release, the [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/overview-ais.md) application replaces the Zing search application for CRM Workspace. To support this feature, the Zing search configurations have been migrated to AI Search.
 
-Use the Unified Navigation search field in CRM Workspace to search for information. You can switch between global search results and results from the **CSM/FSM Configurable Workspace** workspace application. The different search configurations are based on different tables.
+Use the Unified Navigation search field in CRM Workspace to search for information. You can switch between global search results and results from the CRM Workspace application. The different search configurations are based on different tables.
 
-For more information about using AI Search with CRM Workspace, see [AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ais-next-experience-app.md).
+For more information about using AI Search with CRM Workspace, see [AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ais-next-experience-app.md).
 
 ## Search application configurations
 
-A search application configuration specifies the search engine and the settings to use for search in a ServiceNow AI Platform application. The **\[CSM AIS\] Configurable Workspace Search Config** search application configuration is provided with the CSM Configurable Workspace store app.
+A search application configuration specifies the search engine and the settings to use for search in a ServiceNow AI Platform application. The **\[CSM AIS\] Configurable Workspace Search Config** search application configuration is provided with the CRM Workspace store app.
 
 To access this configuration, navigate to **AI Search** &gt; **Search Experience** &gt; **Search Applications**.
 
 ## AI Search indexed sources
 
-Indexed sources reflect what content users are able to search on. The CSM Configurable Workspace store app adds AI Search indexed sources for the following tables:
+Indexed sources reflect what content users are able to search on. The CRM Workspace store app adds AI Search indexed sources for the following tables:
 
 -   Account \[customer\_account\]
 -   Case \[sn\_customerservice\_case\]
@@ -51,7 +51,7 @@ Navigation tabs appear at the top of the search results page and are static filt
 -   Order Line Items
 -   Locations
 
-For information about creating navigation tabs, see [Configure navigation tabs in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/config-nav-tabs-ais.md).
+For information about creating navigation tabs, see [Configure navigation tabs in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/config-nav-tabs-ais.md).
 
 ## Facets
 
@@ -69,13 +69,13 @@ Facets are dynamic filter options that you can use to refine the search results 
 -   Channel
 -   Active Escalation
 
-For information about creating facets, see [Create a facet in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-facet-ais.md).
+For information about creating facets, see [Create a facet in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-facet-ais.md).
 
 ## Guided setup
 
 Guided setup provides a sequence of tasks that helps you configure search application settings. To access guided setup, navigate to **All** &gt; **AI Search** &gt; **AI Search for Next Experience** &gt; **Guided Setup for Zing to AI Search Migration**.
 
-This guided setup tool assists with the migration of Next Experience applications from Zing to AI Search. For more information about using guided setup, see [Configuring AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-ais-next-experience.md).
+This guided setup tool assists with the migration of Next Experience applications from Zing to AI Search. For more information about using guided setup, see [Configuring AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configuring-ais-next-experience.md).
 
 Depending on your release, you may need to perform only some of the tasks within the guided setup to use AI Search with CRM Workspace. For Utah zBoot instances, AI Search is the default search application for global search and the CRM Workspace application.
 
@@ -90,7 +90,7 @@ If you have added, modified, or deleted any search configurations provided out o
 
 Fuzzy matching enables agents to search for records using partial record IDs or incomplete record details and retrieve relevant results. Fuzzy matching identifies similar but not identical elements in data table sets.
 
-AI search in CRM Workspace supports fuzzy matching with a script. Activating the Customer Service plugin \(com.sn\_customerservice\) automatically runs the script and enables fuzzy match search in both the CRM Workspace global search and the Recommended Actions AI search component.
+AI search in CRM Workspace supports fuzzy matching with a script. Activating the Case Management Core plugin \(com.sn\_customerservice\) automatically runs the script and enables fuzzy match search in both the CRM Workspace global search and the Recommended Actions AI search component.
 
 When fuzzy matching is enabled:
 
@@ -119,7 +119,7 @@ After fuzzy matching is enabled, the system adminisrator needs to re-index the t
 **Related topics**  
 
 
-[Exploring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/explore-ais.md)
+[Exploring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/explore-ais.md)
 
-[Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-ais.md)
+[Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configuring-ais.md)
 

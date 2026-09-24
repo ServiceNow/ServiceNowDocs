@@ -3,11 +3,11 @@ title: Linux Red Hat cluster discovery
 description: Discovery can find Linux Red Hat clusters that offer high availability and load balancing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/red-hat-cluster-discovery.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Linux, Operating systems discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Discovery can find Linux Red Hat clusters that offer high availability and load 
 
 ## Required credentials
 
-Configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+Configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 ## Additional requirements
 
@@ -77,7 +77,7 @@ Horizontal discovery probe: launches patterns
 
 </td><td>
 
-These patterns are an extension of the [Linux Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoLinuxComputers.md) pattern:
+These patterns are an extension of the [Linux Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/r_DataCollDiscoLinuxComputers.md) pattern:
 
 -   UNIX Cluster - Linux Red hat cluster
 -   Linux - Red Hat Cluster

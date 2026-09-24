@@ -3,11 +3,11 @@ title: Approval with e-Signature for change requests
 description: Use e-signatures to add an additional layer of verification and compliance to change approval workflows. e-signatures are supported in both Core UI and Service Operations Workspace \(SOW\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/approval-e-signature-changes.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-06-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [e-signature, change approval, change request]
 breadcrumb: [Explore, Change Management, IT Service Management]
@@ -31,15 +31,15 @@ You can use e-signatures with any approval mechanism available in Change Managem
 
 By default, Approval with e-Signature supports the Change Request and Standard Change Proposal tables.
 
-For more information, see [Approval with e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/approval-with-e-signature.md).
+For more information, see [Approval with e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/approval-with-e-signature.md).
 
 ## Requirements
 
 Before you can use e-signatures with change approvals, verify the following requirements:
 
--   The e-signature platform plugin is activated on your instance. For activation instructions, see [Activate Approval with e-Signature plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/activate-approval-esignature.md).
+-   The e-signature platform plugin is activated on your instance. For activation instructions, see [Activate Approval with e-Signature plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/activate-approval-esignature.md).
 -   Change approvals are configured for the relevant change models or change types using Flow Designer flows, legacy workflows, or change approval policies.
 -   Approvers have the appropriate roles to approve change requests.
 
-**Parent Topic:**[Exploring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/exploring-change-management.md)
+**Parent Topic:**[Exploring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/exploring-change-management.md)
 

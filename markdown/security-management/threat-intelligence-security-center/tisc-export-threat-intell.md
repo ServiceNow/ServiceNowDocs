@@ -3,11 +3,11 @@ title: Export intelligence system properties
 description: This section describes the record limitations and its properties while exporting data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-export-threat-intell.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with Data Exports, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -69,5 +69,5 @@ sn\_sec\_tisc.stix\_json\_from\_json\_streaming\_api\_action\_timeout
 Timeout\(in seconds\) that will be used when triggering flow designer action for generating STIX JSON attachment using JSON streaming API.The default export limit is 900.
 
 </td></tr></tbody>
-</table>**Note:** For better understanding of export limit on the other format types, see [Export limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ExportLimits.md).
+</table>**Note:** For better understanding of export limit on the other format types, see [Export limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ExportLimits.md).
 

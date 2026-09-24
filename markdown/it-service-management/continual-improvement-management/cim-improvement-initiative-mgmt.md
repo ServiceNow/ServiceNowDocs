@@ -3,11 +3,11 @@ title: Managing improvements
 description: Continual Improvement Management \(CIM\) provides a structured process for requesting, approving, implementing, and tracking improvements aligned with company strategic objectives.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/continual-improvement-management/cim-improvement-initiative-mgmt.html
-release: australia
+release: brazil
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Continual Improvement Management, IT Service Management]
 ---
@@ -129,7 +129,7 @@ Any state other than Closed Complete
 </td></tr></tbody>
 </table>## Alignment with company strategic objectives
 
-You can verify alignment with company goals by setting the **Strategies** field on the Improvement Initiative form to one or more company [enterprise strategies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/overview-business-planning.md) from the Strategic Objectives lookup list so they are linked.
+You can verify alignment with company goals by setting the **Strategies** field on the Improvement Initiative form to one or more company [enterprise strategies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/overview-business-planning.md) from the Strategic Objectives lookup list so they are linked.
 
 **Note:** Only the Improvement Manager can create a strategy.
 
@@ -145,25 +145,25 @@ You can access the Improvement Register by navigating to **All** &gt; **Continua
 
 ## Embedded Performance Analytics scorecard
 
-Use the [Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_UsePerformanceAnalyticsScorecards.md) embedded in the Improvement Initiative form for continuous KPI monitoring and to track the progress of the KPI improvement during the lifecycle of the improvement. The KPI scorecard is useful so you can monitor the incremental benefits of the KPI or adjust CIM tasks and assignments to meet your improvement goal, if needed. Toggling **Show Records** displays the list of records that contribute to the KPI values shown on the scorecard. \[Omitted image "cim-scorecard.png"\] Alt text: CIM scorecard
+Use the [Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/c_UsePerformanceAnalyticsScorecards.md) embedded in the Improvement Initiative form for continuous KPI monitoring and to track the progress of the KPI improvement during the lifecycle of the improvement. The KPI scorecard is useful so you can monitor the incremental benefits of the KPI or adjust CIM tasks and assignments to meet your improvement goal, if needed. Toggling **Show Records** displays the list of records that contribute to the KPI values shown on the scorecard. \[Omitted image "cim-scorecard.png"\] Alt text: CIM scorecard
 
 Scorecards are also shown for any KPIs listed in Impacted KPIs related list on the Improvement Initiative form.
 
--   **[Accept an improvement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/accept-assign-cim-request.md)**  
+-   **[Accept an improvement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/continual-improvement-management/accept-assign-cim-request.md)**  
 Accept and assign a new improvement request so it can be assessed for approval. You can reject the improvement request if it does not align with company strategic objectives.
--   **[Prepare an improvement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/implement-cim-initiative.md)**  
+-   **[Prepare an improvement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/continual-improvement-management/implement-cim-initiative.md)**  
 Create CIM phases and tasks to implement an approved improvement. The Improvement Coordinator works with the Improvement Manager to plan implementation and track progress.
--   **[Assess an improvement for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/assess-cim-initiative.md)**  
+-   **[Assess an improvement for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/continual-improvement-management/assess-cim-initiative.md)**  
 Once accepted and set to assess, Approver group members evaluate the improvement for approval before implementation can begin.
--   **[Review and close an improvement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/review-close-cim-initiative.md)**  
+-   **[Review and close an improvement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/continual-improvement-management/review-close-cim-initiative.md)**  
 Once all tasks in each phase of the improvement have been completed, the Improvement Coordinator sets the improvement to review for the Improvement Manager to close.
 
-**Parent Topic:**[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-landing-page.md)
+**Parent Topic:**[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/continual-improvement-management/cim-landing-page.md)
 
 **Related topics**  
 
 
-[Continual Improvement Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-reference.md)
+[Continual Improvement Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/continual-improvement-management/cim-reference.md)
 
-[Improvement field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-field-descriptions.md)
+[Improvement field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/continual-improvement-management/cim-field-descriptions.md)
 

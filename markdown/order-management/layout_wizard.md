@@ -3,7 +3,7 @@ title: Layout Wizard
 description: Watch a video about how to generate a layout.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/layout\_wizard.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -31,7 +31,7 @@ View a walkthrough of the CPQ Layout Wizard.
 **Related topics**  
 
 
-[Set up layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/layout_csv_101.md)
+[Set up layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/layout_csv_101.md)
 
-[CSV layout upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/csv_layout_upload.md)
+[CSV layout upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/csv_layout_upload.md)
 

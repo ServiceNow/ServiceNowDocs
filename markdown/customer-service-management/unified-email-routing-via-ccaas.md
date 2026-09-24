@@ -3,9 +3,9 @@ title: Unified routing of email interactions via CCaaS
 description: Leverage a unified routing solution through Contact Center as a Service \(CCaaS\) to streamline email interactions using consistent routing logic across voice, chat, and other digital channels. This centralized approach eliminates the need for disparate systems, instead routing all interactions through a single, unified engine.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/unified-email-routing-via-ccaas.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Email Interaction for CSM, Customer communication, Use, Customer Service Management]
 ---
@@ -30,7 +30,7 @@ When a customer responds to the On Hold email, the interaction status is automat
 **Related topics**  
 
 
-[System properties for configuring Email Interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/system-properties-for-configuring-email-as-an-interaction.md)
+[System properties for configuring Email Interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/system-properties-for-configuring-email-as-an-interaction.md)
 
-[Routing and assigning an email interaction to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/routing-assigning-email-interaction-agents.md)
+[Routing and assigning an email interaction to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/routing-assigning-email-interaction-agents.md)
 

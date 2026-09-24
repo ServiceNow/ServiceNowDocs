@@ -3,11 +3,11 @@ title: Mark an update set complete in ServiceNow Studio
 description: Mark an update set as Complete in ServiceNow Studio to make the changes available for retrieval by other instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/mark-update-set-complete.html
-release: australia
+release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-05-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Update sets, App deployment in ServiceNow Studio, Use, ServiceNow Studio, Developing your application, Building applications]
 ---
@@ -37,5 +37,5 @@ Mark an update set as **Complete** only when it is ready to migrate. After an up
     The update set is marked **Complete** and the changes are available for retrieval by other instances.
 
 
-**Parent Topic:**[Update sets in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/working-with-update-sets-in-servicenow-studio.md)
+**Parent Topic:**[Update sets in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/working-with-update-sets-in-servicenow-studio.md)
 

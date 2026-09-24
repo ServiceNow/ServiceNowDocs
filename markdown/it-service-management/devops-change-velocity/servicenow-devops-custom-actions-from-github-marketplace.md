@@ -3,11 +3,11 @@ title: ServiceNow DevOps custom actions from GitHub marketplace
 description: Use the custom actions from the GitHub marketplace to collect scan data, manage workflows, and update change request details.Save the SonarQube scan results of a project initiated by the workflow run in your ServiceNow instance. You must create the SonarQube tool in your instance and use the ServiceNow DevOps SonarQube custom action at the steps level of a job in the workflow.Save unit test results of the project initiated by the workflow run in your ServiceNow instance. The ServiceNow DevOps Test Report custom action must be used at the steps level of job in the workflow.Save artifacts created or deployed by the workflow run in your ServiceNow instance. Use the ServiceNow DevOps Register Artifact custom action at steps level of job in the workflow.Save packages created or deployed by the workflow run in the ServiceNow instance. Use the ServiceNow DevOps Register Package custom action at steps level of job in the workflow.Create a change request in the ServiceNow instance to pause and resume the workflow run from the ServiceNow instance.Retrieve the change request number in a GitHub Actions pipeline based on specific change details.Update change request details associated with a GitHub Actions pipeline.Retrieve security scan results in ServiceNow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/servicenow-devops-custom-actions-from-github-marketplace.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [GitHub, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -16,9 +16,9 @@ breadcrumb: [GitHub, Integrate, DevOps Change Velocity, IT Service Management]
 
 Use the custom actions from the GitHub marketplace to collect scan data, manage workflows, and update change request details.
 
-Alternatively, you can use Docker container images to implement custom actions for GitHub Actions pipelines. For more information, see [Implement custom actions for pipelines using Docker image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/servicenow-custom-actions-for-gitlab.md).
+Alternatively, you can use Docker container images to implement custom actions for GitHub Actions pipelines. For more information, see [Implement custom actions for pipelines using Docker image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/servicenow-custom-actions-for-gitlab.md).
 
-**Parent Topic:**[GitHub integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/github-integration-dev-ops.md)
+**Parent Topic:**[GitHub integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/github-integration-dev-ops.md)
 
 ## ServiceNow DevOps SonarQube custom action
 
@@ -33,7 +33,7 @@ Perform the following tasks to use the custom action.
 
 -   Create SonarQube tool in your instance.
 
-    Generate token from **User** &gt; **My Account** &gt; **Security** page in your SonarQube tool and create tool in the ServiceNow instance using the generated token. For more information, see [Onboard SonarQube to DevOps Change Velocity — Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/sonar-connect-workspace.md) and [Onboard SonarQube to DevOps Change Velocity — Classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/create-sonar-tool-devops.md).
+    Generate token from **User** &gt; **My Account** &gt; **Security** page in your SonarQube tool and create tool in the ServiceNow instance using the generated token. For more information, see [Onboard SonarQube to DevOps Change Velocity — Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/sonar-connect-workspace.md) and [Onboard SonarQube to DevOps Change Velocity — Classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/create-sonar-tool-devops.md).
 
 -   Create the following Secrets to save SonarQube scan results in the ServiceNow instance.
     -   SONAR\_HOST\_URL: SonarQube instance URL. For example, `https://sonarcloud.io`

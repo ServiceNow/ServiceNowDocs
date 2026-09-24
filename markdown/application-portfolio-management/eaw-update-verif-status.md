@@ -1,18 +1,18 @@
 ---
-title: Update verification status of TLM audit details
-description: Change the verification status of a software product or hardware model lifecycle in the TLM technology lifecycle exception table.
+title: Update verification status of TPM audit details
+description: Change the verification status of a software product or hardware model lifecycle in the TPM technology lifecycle exception table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-update-verif-status.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View technology portfolio audit risk details, Working with Technology Lifecycle Management \(TLM\) in EA Workspace, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Update verification status of TLM audit details
+# Update verification status of TPM audit details
 
-Change the verification status of a software product or hardware model lifecycle in the TLM technology lifecycle exception table.
+Change the verification status of a software product or hardware model lifecycle in the TPM technology lifecycle exception table.
 
 ## Before you begin
 
@@ -38,7 +38,7 @@ You can acknowledge a heuristic lifecycle match of a product by changing its sta
 
 4.  Open a product type \(Software or Hardware\) by selecting it.
 
-5.  In the TLM Technology Lifecycle Exception form, set the **Verification Status** to either **Verified** or **Rejected**.
+5.  In the TPM Technology Lifecycle Exception form, set the **Verification Status** to either **Verified** or **Rejected**.
 
     If the lifecycle phase is set to **Verified**, then the exception count is reduced in the Technology Lifecycle table. If the lifecycle phase is set to **Rejected**, then the exception count is reduced and dates for that lifecycle phase will not appear in the Technology Lifecycle table.
 
@@ -47,10 +47,10 @@ You can acknowledge a heuristic lifecycle match of a product by changing its sta
 7.  Select **Save**.
 
 
-**Parent Topic:**[View technology portfolio audit risk details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-audit-risk-details.md)
+**Parent Topic:**[View technology portfolio audit risk details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-audit-risk-details.md)
 
 **Related topics**  
 
 
-[View technology portfolio audit risk details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-audit-risk-details.md)
+[View technology portfolio audit risk details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-audit-risk-details.md)
 

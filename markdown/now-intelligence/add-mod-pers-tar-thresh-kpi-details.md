@@ -3,7 +3,7 @@ title: Create, modify, or delete a threshold in KPI Details
 description: Add, modify, or delete personal thresholds. With the required roles, you can also add, modify, and delete thresholds for all users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/add-mod-pers-tar-thresh-kpi-details.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2023-08-03"
 reading_time_minutes: 2
@@ -53,7 +53,7 @@ Role required: Any role for your own personal thresholds. The pa\_threshold\_adm
 9.  Click **Save** if you are creating a threshold or **Update** if you are modifying a threshold.
 
 
-**Parent Topic:**[Indicator targets and thresholds in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details-targets.md)
+**Parent Topic:**[Indicator targets and thresholds in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/kpi-details-targets.md)
 
 **Related topics**  
 

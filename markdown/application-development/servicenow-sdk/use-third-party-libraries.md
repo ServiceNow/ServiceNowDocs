@@ -3,11 +3,11 @@ title: Use third-party libraries in applications with the ServiceNow SDK
 description: Call third-party libraries in your application to use existing open-source functionality with the ServiceNow SDK.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-sdk/use-third-party-libraries.html
-release: australia
+release: brazil
 product: ServiceNow SDK
 classification: servicenow-sdk
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Develop applications, ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -18,7 +18,7 @@ Call third-party libraries in your application to use existing open-source funct
 
 ## Before you begin
 
-Create a JavaScript module. For more information, see [Create and use JavaScript modules in applications with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/create-use-javascript-modules.md).
+Create a JavaScript module. For more information, see [Create and use JavaScript modules in applications with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/create-use-javascript-modules.md).
 
 Role required: admin
 
@@ -26,7 +26,7 @@ Role required: admin
 
 Third-party libraries are added to applications as JavaScript modules. For general information about the syntax used to create JavaScript modules, see the [JavaScript modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) page on the MDN Web Docs website.
 
-**Important:** You can't use third-party libraries that rely on unsupported functionality, such as unsupported APIs or ECMAScript features. For more information about unsupported functionality, see [Third-party library support in Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/third-party-library-support.md) and [JavaScript modules and third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/javascript-modules-third-party-libraries.md).
+**Important:** You can't use third-party libraries that rely on unsupported functionality, such as unsupported APIs or ECMAScript features. For more information about unsupported functionality, see [Third-party library support in Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/third-party-library-support.md) and [JavaScript modules and third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/javascript-modules-third-party-libraries.md).
 
 ## Procedure
 
@@ -67,12 +67,12 @@ Third-party libraries are added to applications as JavaScript modules. For gener
 
 ## What to do next
 
-Build and install your changes on an instance. For more information, see [Build and install an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/build-deploy-application-now-sdk.md).
+Build and install your changes on an instance. For more information, see [Build and install an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/build-deploy-application-now-sdk.md).
 
-**Parent Topic:**[Developing applications with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/developing-applications-sdk.md)
+**Parent Topic:**[Developing applications with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/developing-applications-sdk.md)
 
 **Related topics**  
 
 
-[JavaScript modules and third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/javascript-modules-third-party-libraries.md)
+[JavaScript modules and third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/javascript-modules-third-party-libraries.md)
 

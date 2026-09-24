@@ -3,9 +3,9 @@ title: Use the MachineName component
 description: Retrieve the name of your computer as part of an automation Workflow by using the MachineName component in RPA Desktop Design Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-environment-machinename.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Environment, Utilities, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the MachineName component. For more information about these properties, see [Properties of the Environment components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/util-environment-prop.md).
+You can configure the properties for the MachineName component. For more information about these properties, see [Properties of the Environment components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/util-environment-prop.md).
 
 ## Procedure
 
@@ -82,5 +82,5 @@ No. Connecting the port is optional.
 </table>4.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/environment-utility.md)
+**Parent Topic:**[Environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/environment-utility.md)
 

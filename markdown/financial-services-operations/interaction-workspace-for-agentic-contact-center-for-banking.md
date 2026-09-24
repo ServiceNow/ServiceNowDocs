@@ -3,9 +3,9 @@ title: Interaction page for Agentic Contact Center for Banking
 description: The Interaction page provides customer service representatives \(CSRs\) with a consolidated view of customer details, live call transcript analysis, and AI-driven assistance during active customer interactions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/interaction-workspace-for-agentic-contact-center-for-banking.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [interaction page, interaction workspace, live call transcript, ai-driven assistance, customer context summary, interaction form, wrap-up, handle customer calls, active customer interaction, csr interaction, call transcript analysis]
 breadcrumb: [Explore, Agentic Contact Center for Banking, Banking applications, Financial Services Operations \(FSO\)]
@@ -27,7 +27,7 @@ As the conversation progresses, the AI agent reads the transcript, interprets th
 
 CSRs can also type their own questions directly into the ServiceNow Otto panel at any time. The panel displays responses from the AI agent in a structured format that may include insights, recommendations, and guidance based on the content and sentiment of the conversation.
 
-For more information, see [Agentic Contact Center for Banking AI agents overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/agentic-contact-center-for-banking-agents-overview.md).
+For more information, see [Agentic Contact Center for Banking AI agents overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/agentic-contact-center-for-banking-agents-overview.md).
 
 ## Customer context summary
 
@@ -44,7 +44,7 @@ The customer summary includes:
 
 The customer summary is not visible when no account or consumer has been associated with the interaction.
 
-For more information, see [Summarize banking customer interaction context with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/summarize-customer-context-fso.md).
+For more information, see [Summarize banking customer interaction context with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/summarize-customer-context-fso.md).
 
 ## Interaction form
 
@@ -88,17 +88,17 @@ The agent wraps up the interaction when it concludes. When wrap-up codes are set
 
 For more information, see the following topics:
 
--   [Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-wrap-up-state.md)
--   [Use AI to generate wrap up code and notes summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ai-generated-wrap-up-codes-and-notes-summary.md)
+-   [Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/interaction-wrap-up-state.md)
+-   [Use AI to generate wrap up code and notes summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ai-generated-wrap-up-codes-and-notes-summary.md)
 
-**Parent Topic:**[Exploring Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/exploring-agentic-contact-center-for-banking.md)
+**Parent Topic:**[Exploring Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/exploring-agentic-contact-center-for-banking.md)
 
 **Related topics**  
 
 
-[Exploring Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/exploring-agentic-contact-center-for-banking.md)
+[Exploring Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/exploring-agentic-contact-center-for-banking.md)
 
-[Customer 360 page for Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/customer-360-agentic-contact-center-for-banking.md)
+[Customer 360 page for Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/customer-360-agentic-contact-center-for-banking.md)
 
-[CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md)
+[CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-workspaces-configure.md)
 

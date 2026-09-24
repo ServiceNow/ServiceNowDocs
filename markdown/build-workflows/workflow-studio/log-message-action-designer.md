@@ -3,11 +3,11 @@ title: Log step
 description: Logs a message in the Workflow Studio log table sys\_flow\_log.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/log-message-action-designer.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Steps, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -46,7 +46,7 @@ Log message
 
 </td><td>
 
-Message to display in the Flow log \[sys\_flow\_log\] table. Enter text or drag data pills into the field. **Note:** The Workflow Studio design environment only supports entering 255 characters of text for a log message. The length limitation only applies to text entered directly into the input. Data pill values can exceed 255 characters in length. You can log values greater than 255 characters long by using either a data pill value or calling the [GlideSystem - log\(String message, String source\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideSystemAPI.md) method from a script.
+Message to display in the Flow log \[sys\_flow\_log\] table. Enter text or drag data pills into the field. **Note:** The Workflow Studio design environment only supports entering 255 characters of text for a log message. The length limitation only applies to text entered directly into the input. Data pill values can exceed 255 characters in length. You can log values greater than 255 characters long by using either a data pill value or calling the GlideSystem - log\(String message, String source\) method from a script.
 
 </td></tr></tbody>
 </table>## Action error evaluation
@@ -55,8 +55,8 @@ Message to display in the Flow log \[sys\_flow\_log\] table. Enter text or drag 
 
     Data type: **Choice**
 
-    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-error-evaluation.md).
+    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/action-error-evaluation.md).
 
 
-**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/steps.md)
+**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/steps.md)
 

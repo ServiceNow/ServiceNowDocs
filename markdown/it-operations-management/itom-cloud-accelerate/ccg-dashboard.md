@@ -3,11 +3,11 @@ title: Cloud Configuration Governance dashboard
 description: Cloud Configuration Governance is a tool used to manage the configuration of the cloud resources as per your organizational standards and established security standards. Use the dashboard to review the health score of the cloud, policy violation statistics, policy violation trend, remediations overview, and more.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/ccg-dashboard.html
-release: australia
+release: brazil
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -254,5 +254,5 @@ Trend of reporting violations over time.
 |----|----|-----------|
 |**CCG Drilldown filter**|Choice-based filter|Use this filter to select the cloud provider, cloud account, and regions for visualizing their scanned resources and issues data.|
 
-**Parent Topic:**[Cloud Configuration Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/ccg-reference.md)
+**Parent Topic:**[Cloud Configuration Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-cloud-accelerate/ccg-reference.md)
 

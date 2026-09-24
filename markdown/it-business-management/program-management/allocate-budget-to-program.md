@@ -3,11 +3,11 @@ title: Allocate budget to a program
 description: Set the budget of a program according to the fiscal years.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/program-management/allocate-budget-to-program.html
-release: australia
+release: brazil
 product: Program Management
 classification: program-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a program to manage projects and demands, Program Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -41,7 +41,7 @@ Role required: it\_portfolio\_manager
 
 The program budget for the selected year appears in the **Program Budget** related list. You can click the amounts in the list to revise them.
 
-**Parent Topic:**[Create a program to manage projects and demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/program-management/t_CreateAProgram.md)
+**Parent Topic:**[Create a program to manage projects and demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/program-management/t_CreateAProgram.md)
 
 **Related topics**  
 

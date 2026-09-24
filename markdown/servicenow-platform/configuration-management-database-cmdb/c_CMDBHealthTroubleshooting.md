@@ -3,11 +3,11 @@ title: CMDB Health process tracking and troubleshooting
 description: Use the following information to track and resolve issues with the CMDB Health processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/c\_CMDBHealthTroubleshooting.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Use the following information to track and resolve issues with the CMDB Health p
 
 ## Logging
 
-By default, only error messages are logged to the syslog table, with the source name CmdbHealth. To enable logging of 'info' and 'warning' messages \(which are typically logged at the start and end of each processing cycle\), update the system property glide.cmdb.logger.use\_syslog.CMDBHealth. For information about using this property, see [CMDB Health system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/r_CMDBHealthProperties.md).
+By default, only error messages are logged to the syslog table, with the source name CmdbHealth. To enable logging of 'info' and 'warning' messages \(which are typically logged at the start and end of each processing cycle\), update the system property glide.cmdb.logger.use\_syslog.CMDBHealth. For information about using this property, see [CMDB Health system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/r_CMDBHealthProperties.md).
 
 ## Processing status
 
@@ -74,12 +74,12 @@ Orphan test results provide the details of where exactly the hierarchy is broken
 
 An error message is logged if the results from a scripted audit are not included in the compliance KPI. The reason can be that the script in the audit was not updated to populate its **Last ran date** field. Without a **Last ran date** value, CMDB Health is unable to identify these run results as part of a recent complete audit run, and skips those results.
 
--   **[CMDB Health process status: failure threshold reached](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/failure-threshold-reached.md)**  
+-   **[CMDB Health process status: failure threshold reached](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/failure-threshold-reached.md)**  
 The CMDB Health Dashboard shows the string ‘failure threshold reached' when the number of CIs that are failing the metric tests, reaches the failure threshold set for the metric.
--   **[CMDB Health process status: incomplete score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/incomplete-score.md)**  
+-   **[CMDB Health process status: incomplete score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/incomplete-score.md)**  
 The CMDB Health Dashboard shows the string 'incomplete score' for a metric when it fails to calculate the score for the metric.
 
-**Parent Topic:**[CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealth.md)
+**Parent Topic:**[CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealth.md)
 
 **Related topics**  
 

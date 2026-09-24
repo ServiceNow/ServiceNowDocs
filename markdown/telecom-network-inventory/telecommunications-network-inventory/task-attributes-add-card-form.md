@@ -3,11 +3,11 @@ title: Task attributes in Add Card form
 description: The Task attributes in Add Card form enables you to add a card to an equipment record in the Telecommunications Network Inventory application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/task-attributes-add-card-form.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
@@ -38,7 +38,7 @@ Stockroom Location
 
 </td><td>
 
-Name of the stockroom location where the asset is located. To learn more, see [Telecommunications Network Inventory integration with Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/integration-with-hardware-asset-management.md).
+Name of the stockroom location where the asset is located. To learn more, see [Telecommunications Network Inventory integration with Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/integration-with-hardware-asset-management.md).
 
 </td></tr><tr><td>
 
@@ -54,7 +54,7 @@ Asset
 
 </td><td>
 
-Name of the asset that is associated with this record. To learn more, see [Telecommunications Network Inventory integration with Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/integration-with-hardware-asset-management.md).
+Name of the asset that is associated with this record. To learn more, see [Telecommunications Network Inventory integration with Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/integration-with-hardware-asset-management.md).
 
 </td></tr><tr><td>
 
@@ -73,10 +73,10 @@ Slot span
 Multiple slot selector to select multiple slots if it's required for the selected card. This field is displayed based on the selected template.**Note:** The list only shows the list of slots and sub-slots that doesn't have any card in it.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
+</table>**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
 
 **Related topics**  
 
 
-[Add a card to equipment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/add-card-equipment-design-assign-function.md)
+[Add a card to equipment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/add-card-equipment-design-assign-function.md)
 

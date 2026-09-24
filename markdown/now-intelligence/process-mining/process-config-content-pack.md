@@ -3,11 +3,11 @@ title: Create process configurations using content packs
 description: Create process configurations using content packs to use the configuration already created for the content packs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/process-config-content-pack.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [With content pack templates, Creating process configuration, Use, Process Mining, Platform Analytics]
 ---
@@ -50,8 +50,8 @@ Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 
 8.  Configure the process table using the content pack template from the Process Configuration Builder.
 
-    For more information, see [Create process configuration using Process Configuration Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-config-builder.md).
+    For more information, see [Create process configuration using Process Configuration Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/process-config-builder.md).
 
 
-**Parent Topic:**[Creating process configurations using content pack templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/content-pack-config.md)
+**Parent Topic:**[Creating process configurations using content pack templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/content-pack-config.md)
 

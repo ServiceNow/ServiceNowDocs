@@ -3,12 +3,12 @@ title: AI risk posture
 description: Aggregated risk posture displays inherent risk, residual risk, and control effectiveness for AI assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-airc-risk-posture.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-05-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [use]
-breadcrumb: [Governance posture and compliance, Managing risk and compliance, Govern AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Governance posture and compliance, Managing risk and compliance, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # AI risk posture
@@ -35,7 +35,7 @@ Inherent risk: Risk level of an AI system before controls, mitigations, or safeg
 
 Residual risk: Risk level after controls, mitigations, and safeguards are implemented. This view demonstrates the effectiveness of the risk management program by showing how control measures reduce overall exposure. By comparing inherent and residual risk charts, you can measure the impact of governance controls.
 
-\[Omitted image "aict-aggregated-risk-score.png"\] Alt text: Donut charts showing AI systems distributed across Low, Medium, High, and Critical risk levels for inherent and residual risk.
+\[Omitted image "image.aict-aggregated-risk-score"\] Alt text: Donut charts showing AI systems distributed across Low, Medium, High, and Critical risk levels for inherent and residual risk.
 
 ## Risk heat map
 

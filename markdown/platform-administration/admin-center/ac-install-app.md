@@ -3,11 +3,11 @@ title: Install applications for an adoption blueprint
 description: Install applications from the selected adoption blueprint to work towards achieving a certain business goal of your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/admin-center/ac-install-app.html
-release: australia
+release: brazil
 product: Admin Center
 classification: admin-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Adoption blueprints, Discovering adoption blueprints, Admin Center, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -40,5 +40,5 @@ Role required: admin
     **Note:** Some applications and plugins show dependency applications and roles that need to be installed.\[Omitted image "ac-dependency-app.png"\] Alt text: Image showing technical details of certain applications
 
 
-**Parent Topic:**[Adoption blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/admin-center/ac-achieve-business-objective.md)
+**Parent Topic:**[Adoption blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/admin-center/ac-achieve-business-objective.md)
 

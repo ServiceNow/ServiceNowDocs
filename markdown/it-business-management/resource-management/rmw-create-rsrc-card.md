@@ -3,11 +3,11 @@ title: Create a resource card
 description: Create a custom resource card to view resources and unassigned tasks, and work on resource mapping for your persistent and focused portfolios.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/rmw-create-rsrc-card.html
-release: australia
+release: brazil
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Resource Management Workspace, Use, Resource Management Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -30,15 +30,15 @@ Role required: resource\_user, resource\_manager, it\_project\_manager
 
 4.  Enter the following details.
 
-<table id="choicetable_vrh_l2z_bcc"><thead><tr><th align="left" id="d174468e95">
+<table id="choicetable_vrh_l2z_bcc"><thead><tr><th align="left" id="d174892e95">
 
 Field
 
-</th><th align="left" id="d174468e98">
+</th><th align="left" id="d174892e98">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d174468e104">
+</th></tr></thead><tbody><tr><td id="d174892e104">
 
 **Name**
 
@@ -46,7 +46,7 @@ Description
 
 Unique name for the filter card.Name the resource card inline with the purpose and filter condition to easily identify and access your view.
 
-</td></tr><tr><td id="d174468e115">
+</td></tr><tr><td id="d174892e115">
 
 **Filter by**
 
@@ -56,7 +56,7 @@ Unique name for the filter card.Name the resource card inline with the purpose a
 -   Work type - filter and view resources working on a demand, project, or an epic and their respective details.
 
 
-</td></tr><tr><td id="d174468e133">
+</td></tr><tr><td id="d174892e133">
 
 **Start Date**
 
@@ -64,7 +64,7 @@ Unique name for the filter card.Name the resource card inline with the purpose a
 
 Select the start date in the required date range to view resources.
 
-</td></tr><tr><td id="d174468e142">
+</td></tr><tr><td id="d174892e142">
 
 **End Date**
 
@@ -72,7 +72,7 @@ Select the start date in the required date range to view resources.
 
 Select the end date in the required date range to view resources.
 
-</td></tr><tr><td id="d174468e152">
+</td></tr><tr><td id="d174892e152">
 
 **Description**
 
@@ -110,7 +110,7 @@ A resource board view with the list of resources matching the filter condition w
 
 Enable the **Unassigned tasks** toggle and build a filter condition to view unassigned tasks in the Unassigned tasks bottom tray.
 
-For more information on how to filter and view unassigned work, and handle resource assignments, see [Assign and approve unassigned work using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/allocate-resources-rmw.md).
+For more information on how to filter and view unassigned work, and handle resource assignments, see [Assign and approve unassigned work using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/allocate-resources-rmw.md).
 
-**Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/using-rmw.md)
+**Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/using-rmw.md)
 

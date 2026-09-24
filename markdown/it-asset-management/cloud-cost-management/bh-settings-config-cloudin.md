@@ -3,11 +3,11 @@ title: Configure Business hours operations
 description: Enable or disable the Business hours feature and set a non-business-hour spend threshold to trigger notifications to users or groups. This action helps control unnecessary resource usage and reduce costs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/bh-settings-config-cloudin.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Improve resource usage with Business hours, Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -166,10 +166,10 @@ Default value: 1000
 </table>4.  Select **Save**.
 
 
-**Parent Topic:**[Improve resource usage with Business hours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/improve-res-use-business.md)
+**Parent Topic:**[Improve resource usage with Business hours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/improve-res-use-business.md)
 
 **Related topics**  
 
 
-[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_ITILChangeManagement.md)
+[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/c_ITILChangeManagement.md)
 

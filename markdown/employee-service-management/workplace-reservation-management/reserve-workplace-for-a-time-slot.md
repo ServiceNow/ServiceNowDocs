@@ -3,12 +3,12 @@ title: Reserve a workplace using the Quick Reservation widget
 description: Reserve a workplace quickly by using the Quick Reservation widget in the Workplace Service Portal. The widget enables you to select from a list of available time slots instead of specifying the start and end times.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/reserve-workplace-for-a-time-slot.html
-release: australia
+release: brazil
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [Reserve workplace items, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -42,7 +42,7 @@ With the Quick Reservation widget, you can directly make a quick reservation fro
 
     3.  In the **Time slot** field, select a time slot for which you want to make a reservation.
 
-        **Note:** Employees are not allowed to create a reservation too far in the future if they have enabled **Max days in future** value on the Reservable module. A warning message is shown in case if an employee tries to enter a date that is greater than the **Max days in future** value. For example, if the **Max days in future** value is 90 days, and if you try to select a date beyond 90 days, a warning message is displayed. For more information, see [Create a reservation]() and [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
+        **Note:** Employees are not allowed to create a reservation too far in the future if they have enabled **Max days in future** value on the Reservable module. A warning message is shown in case if an employee tries to enter a date that is greater than the **Max days in future** value. For example, if the **Max days in future** value is 90 days, and if you try to select a date beyond 90 days, a warning message is displayed. For more information, see [Create a reservation]() and [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
         If the**Max days in future** value is not enabled, users can select a date as per the **Max number of occurrences** on the Reservable module.
 
@@ -77,16 +77,18 @@ The workplace is reserved for the selected time slot.
 
 To view the details of the reservation, click **View details**. To cancel the reservation, click **Release space**.
 
-**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
+**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
+
+**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
 
 **Related topics**  
 
 
 [Create a reservation]()
 
-[Add invitees as collaborators and create a reservation]()
-
 [Auto-resolve recurring reservations]()
+
+[Add invitees as collaborators and create a reservation]()
 
 [Set a location as favorite using the Space details page]()
 
@@ -113,4 +115,40 @@ To view the details of the reservation, click **View details**. To cancel the re
 [Share, modify, or cancel a reservation]()
 
 [Download an iCalendar for a reservation]()
+
+[Manage and configure reservation waitlist]()
+
+[Create a reservation]()
+
+[Auto-resolve recurring reservations]()
+
+[Add invitees as collaborators and create a reservation]()
+
+[Set a location as favorite using the Space details page]()
+
+[Reserve a space near your colleague]()
+
+[Create a multi-day reservation]()
+
+[Create multi-building reservations]()
+
+[Create neighborhood reservations]()
+
+[Create reservation for multiple workplace items]()
+
+[Enable shift-based reservation]()
+
+[Create a reservation along with a shared reservation]()
+
+[Create a reservation including a virtual meeting link]()
+
+[Create a shift reservation]()
+
+[Create a group reservation]()
+
+[Share, modify, or cancel a reservation]()
+
+[Download an iCalendar for a reservation]()
+
+[Manage and configure reservation waitlist]()
 

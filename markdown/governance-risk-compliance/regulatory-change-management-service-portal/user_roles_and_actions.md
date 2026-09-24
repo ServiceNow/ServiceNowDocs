@@ -3,11 +3,11 @@ title: Types of alerts, user roles, and states of regulatory alerts
 description: Different users perform various actions on the alert records based on the type of the alert.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/user\_roles\_and\_actions.html
-release: australia
+release: brazil
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Now Assist, generative AI]
 breadcrumb: [Reference, Regulatory Change Management, Governance, Risk, and Compliance]
@@ -119,5 +119,5 @@ See the following table for information on the states of regulatory alerts.
 
 **Note:** The attributes on the alert record are part of the metadata that is given by the third-party regulatory intelligence provider. These attributes help in determining the applicability of the alert to the organization. These records are non-editable in the Regulatory Change Management application.
 
-**Parent Topic:**[Regulatory Change Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/rcm-reference.md)
+**Parent Topic:**[Regulatory Change Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/rcm-reference.md)
 

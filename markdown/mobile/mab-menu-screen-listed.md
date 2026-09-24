@@ -3,9 +3,9 @@ title: Menu options in the categories home screen
 description: Familiarize yourself with the various menu options in the Mobile App Builder categories home page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/mab-menu-screen-listed.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [MAB categories home screen, Mobile App Builder, Building tools, Building mobile apps, Mobile Platform]
 ---

@@ -3,9 +3,9 @@ title: AI Search event and action logs for AI Search usage in Recommended Action
 description: AI search event and action logs capture user interactions and search activities, providing data for AI search analytics dashboards.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-ai-search-event-logs.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [AI search, event logging, analytics, ServiceNow, AI Search event logs and Analytics, AI search usage using the AI search analytics dashboard, Tracking the AI search usage in Recommended Actions]
 breadcrumb: [AI search, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
@@ -27,18 +27,18 @@ The logging of search-related events within a search system focuses on how searc
     -   Search Events table \[sys\_search\_event\]: Logs search queries, user info, and result status.
     -   Search Source Events table \[sys\_search\_source\_event\]: Captures the origin of the query \(for example, catalog item\).
     -   Search Signal Events table \[sys\_search\_signal\_event\]: Logs facet filters the facet filters applied on the results for a search query and source mappings.
-    For more information on the preceding tables, see [Search Suggestions tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/understanding-search-suggestion-tables.md).
+    For more information on the preceding tables, see [Search Suggestions tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/understanding-search-suggestion-tables.md).
 
 -   Search result action logging: Separate tables exist for logging clicks and actions on search results, including distinctions between normal and genius result actions, with multiple entries for multiple actions on a single source. When you interact with a search result, such as clicking on a link or performing an action, these actions are recorded. For the preview experience, actions like drill down are automatically logged to avoid duplication. This data is then used to populate analytics dashboards, either prebuilt or custom, enabling you to track and analyze the interactions with search results effectively.
 
-    For custom guidances, you must emit the log search result event with the appropriate payload structure, which includes action-related data. Emitting action details in the payload is optional. Without it, events are still logged but lack specific action information, preventing duplication by using unique action IDs. Custom guidance actions require emitting events with a provided payload structure to log action details, while out-of-the-box guidances handle this automatically. For payload structure, see [Custom action log payload structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-ai-search-event-logs.md).
+    For custom guidances, you must emit the log search result event with the appropriate payload structure, which includes action-related data. Emitting action details in the payload is optional. Without it, events are still logged but lack specific action information, preventing duplication by using unique action IDs. Custom guidance actions require emitting events with a provided payload structure to log action details, while base system guidances handle this automatically. For payload structure, see [Custom action log payload structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-ai-search-event-logs.md).
 
     -   Search Result Events table \[sys\_search\_signal\_result\_event\]: Stores signal data for search results that you select.
     -   Search Result Event Actions table \[sys\_search\_signal\_result\_event\_action\]: Stores signal data for user interactions with search results.
     -   Genius Result Actions table \[sys\_search\_genius\_result\_event\_action\]: Stores signal data for user interactions with Genius Result answer cards.
-    For more information on the preceding tables, see [Search signal tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-signal-tables.md).
+    For more information on the preceding tables, see [Search signal tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-signal-tables.md).
 
--   AI search analytics: The logged data is then used to populate the AI search analytics dashboards, either prebuilt or custom, enabling you to track and analyze the interactions with search results effectively. For more information on the AI search analytics dashboard, see [AI Search analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search-analytics-dashboard.md). You can view the CSM workspace-related AI Search usage within Recommended Actions in the AI Search Analytics dashboard by selecting the **\[CSM AIS\] Configurable Workspace Search Config** option in the application drop-down on the top-right.
+-   AI search analytics: The logged data is then used to populate the AI search analytics dashboards, either prebuilt or custom, enabling you to track and analyze the interactions with search results effectively. For more information on the AI search analytics dashboard, see [AI Search analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search-analytics-dashboard.md). You can view the CSM workspace-related AI Search usage within Recommended Actions in the AI Search Analytics dashboard by selecting the **\[CSM AIS\] Configurable Workspace Search Config** option in the application drop-down on the top-right.
 
 ## Custom action log payload structure
 
@@ -48,5 +48,5 @@ For custom action logging, that is, for the action you create on a guidance prev
 api.emit(LOG_SEARCH_RESULT_EVENT, {actionData: {actionName: actionId}})
 ```
 
-For more details on how to configure the payload for custom actions, see [Customize a guidance preview experience in the UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customize-ra-preview-experience.md).
+For more details on how to configure the payload for custom actions, see [Customize a guidance preview experience in the UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customize-ra-preview-experience.md).
 

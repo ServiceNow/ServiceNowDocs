@@ -3,11 +3,11 @@ title: Create a questionnaire or document request template using the Designer
 description: Use the Questionnaire Template Designer to create and edit questionnaire or document request templates that you can use as the basis for other templates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/create-question-template.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Classic assessments, Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -71,7 +71,7 @@ A set of related questions within a questionnaire template.**Note:** There can b
 
 3.  Enter a name and then drag a control onto the designer canvas to create a question of that type.
 
-    **Note:** Selecting the scored option \(**Scored** check box\) is optional. All question responses unless otherwise stated are scored. The scored option changes the scoring behavior. If selected, the score is based on a binary system \(0 or 100\) reflecting whether the answer is correct or incorrect. If not selected, the score is calculated using a scale definition, involving the questionRating, questionPercentContribution, and questionNormalizedValue formulae, and the MaximumNormalizationInput field can influence the normalized value. For more information, see [Scoring calculations using the classic assessment engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/vendor-ratings-scoring.md) and [Normalize the scores for metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/set-max-norm-input.md).
+    **Note:** Selecting the scored option \(**Scored** check box\) is optional. All question responses unless otherwise stated are scored. The scored option changes the scoring behavior. If selected, the score is based on a binary system \(0 or 100\) reflecting whether the answer is correct or incorrect. If not selected, the score is calculated using a scale definition, involving the questionRating, questionPercentContribution, and questionNormalizedValue formulae, and the MaximumNormalizationInput field can influence the normalized value. For more information, see [Scoring calculations using the classic assessment engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/vendor-ratings-scoring.md) and [Normalize the scores for metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/set-max-norm-input.md).
 
     |Data type|Description|Scored|
     |---------|-----------|------|
@@ -93,7 +93,7 @@ A set of related questions within a questionnaire template.**Note:** There can b
 
 4.  Select the form context menu to select one of the following options.
 
-<table id="choicetable_mvf_45v_lz"><tbody><tr><td id="d263710e528">
+<table id="choicetable_mvf_45v_lz"><tbody><tr><td id="d267591e528">
 
 **Save**
 
@@ -101,7 +101,7 @@ A set of related questions within a questionnaire template.**Note:** There can b
 
 Save the current questionnaire or document request.
 
-</td></tr><tr><td id="d263710e537">
+</td></tr><tr><td id="d267591e537">
 
 **Preview**
 
@@ -109,7 +109,7 @@ Save the current questionnaire or document request.
 
 Display a preview of the questionnaire or document request with its current settings.
 
-</td></tr><tr><td id="d263710e546">
+</td></tr><tr><td id="d267591e546">
 
 **New Assessment**
 
@@ -117,7 +117,7 @@ Display a preview of the questionnaire or document request with its current sett
 
 Open a fresh canvas for a new questionnaire or document request.
 
-</td></tr><tr><td id="d263710e555">
+</td></tr><tr><td id="d267591e555">
 
 **Load Assessment**
 
@@ -125,7 +125,7 @@ Open a fresh canvas for a new questionnaire or document request.
 
 Open the list of existing questionnaires or document requests that are available for use.
 
-</td></tr><tr><td id="d263710e564">
+</td></tr><tr><td id="d267591e564">
 
 **Copy Assessment**
 

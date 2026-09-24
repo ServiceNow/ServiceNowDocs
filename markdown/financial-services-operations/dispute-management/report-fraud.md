@@ -3,11 +3,11 @@ title: Report fraud
 description: Report potential fraud on a transaction to a card network. If potential fraud was flagged for a transaction during manual investigation, a transaction includes the Fraud reporting task within the workflow
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/report-fraud.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Investigation, Resolving disputes without network integration, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -60,5 +60,5 @@ Depending on the policy rule, the task moves to the next task. The following tas
 |No Credit|Alert merchant task|
 |Deny|Case is denied|
 
-**Parent Topic:**[Investigating a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/investigate-a-dispute.md)
+**Parent Topic:**[Investigating a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/investigate-a-dispute.md)
 

@@ -3,11 +3,11 @@ title: Advanced configuration for voice
 description: Configure Answering Machine Detection \(AMD\) to determine if a human has picked up the call or not.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/advanced-configure-voice.html
-release: australia
+release: brazil
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Notify with Twilio, Configuring Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -35,5 +35,5 @@ Role required: notify\_admin
 6.  On the **Advance Voice Features** tab, enter the number of seconds in the **Machine detection timeout** field to set a timeout value.
 
 
-**Parent Topic:**[Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/t_ConfigureNotifyWithTwilio.md)
+**Parent Topic:**[Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/notify/t_ConfigureNotifyWithTwilio.md)
 

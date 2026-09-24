@@ -3,11 +3,11 @@ title: Reassess ignored reports
 description: When you address the ACL Assessment for Reports, you can ignore any report. View these reports to consider their statuses again.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/recover-ignored-reports.html
-release: australia
+release: brazil
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ACL Assessment for Reports, Administering reports, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -33,5 +33,5 @@ Roles required: admin and security\_admin.
 
 The ACL Assessment for Reports assesses the `false` reports the next time you run the assessment.
 
-**Parent Topic:**[ACL Assessment for Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-view-acl-dashboard.md)
+**Parent Topic:**[ACL Assessment for Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/report-view-acl-dashboard.md)
 

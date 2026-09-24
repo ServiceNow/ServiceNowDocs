@@ -3,11 +3,11 @@ title: Set up a Service Exchange provider record
 description: Set up a new provider record to establish a unique identifier for the Service Exchange for Providers \(sn\_sb\_pro\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-new-provider.html
-release: australia
+release: brazil
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure for providers, Service Exchange for Providers, Service Exchange]
 ---

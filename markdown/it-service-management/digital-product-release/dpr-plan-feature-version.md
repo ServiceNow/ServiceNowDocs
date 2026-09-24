@@ -3,11 +3,11 @@ title: Plan product enhancements into different releases
 description: Move product enhancements into different releases of the product or service to plan the scope of your release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-plan-feature-version.html
-release: australia
+release: brazil
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Digital Product Release, IT Service Management]
 ---
@@ -52,15 +52,15 @@ When a release is created from a version from one of these planning tools, the p
 
 6.  On the Kanban board, complete your release planning.
 
-<table id="choicetable_y4q_fgr_lyb"><thead><tr><th align="left" id="d415644e195">
+<table id="choicetable_y4q_fgr_lyb"><thead><tr><th align="left" id="d423892e195">
 
 Action
 
-</th><th align="left" id="d415644e198">
+</th><th align="left" id="d423892e198">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d415644e204">
+</th></tr></thead><tbody><tr><td id="d423892e204">
 
 **Move an enhancement into a release**
 
@@ -68,7 +68,7 @@ Steps
 
 Select an enhancement card and drag to move it from backlog to a release or between releases.
 
-</td></tr><tr><td id="d415644e213">
+</td></tr><tr><td id="d423892e213">
 
 **Add an enhancement**
 
@@ -77,9 +77,9 @@ Select an enhancement card and drag to move it from backlog to a release or betw
 1.  Select **Add enhancement**.
 2.  On the Add enhancement dialog box, add details for the enhancement, and select **Confirm**.
 
-For more information, see [Add an enhancement to a product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-create-product-enhancement.md).
+For more information, see [Add an enhancement to a product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-create-product-enhancement.md).
 
-</td></tr><tr><td id="d415644e249">
+</td></tr><tr><td id="d423892e249">
 
 **Add an enhancement from work item**
 
@@ -91,9 +91,9 @@ For more information, see [Add an enhancement to a product or service](https://r
 
 2.  On the Add enhancements from work items dialog box, select one or more work items, and then select **Add enhancements**.
 
-For more information, see [Add a product enhancement from a work item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-add-product-enhancement-from-epic.md).
+For more information, see [Add a product enhancement from a work item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-add-product-enhancement-from-epic.md).
 
-</td></tr><tr><td id="d415644e294">
+</td></tr><tr><td id="d423892e294">
 
 **Prioritize enhancements in a release**
 
@@ -101,7 +101,7 @@ For more information, see [Add a product enhancement from a work item](https://r
 
 Rearrange enhancement cards within a release in order of priority. The enhancement card positioned at the top of the release lane is given the highest ranking.
 
-</td></tr><tr><td id="d415644e313">
+</td></tr><tr><td id="d423892e313">
 
 **Create a release**
 
@@ -109,23 +109,23 @@ Rearrange enhancement cards within a release in order of priority. The enhanceme
 
 -   To create a release using a wizard, select **Create release**.
 
-For more information, see [Create a release with a wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-create-release-guided.md).
+For more information, see [Create a release with a wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-create-release-guided.md).
 
 -   To create a release for a single product or service, select the more actions icon beside the **Create release** button and then select **Quick create**.
 
-For more information, see [Create a release for a product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-create-release.md).
+For more information, see [Create a release for a product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-create-release.md).
 
-</td></tr><tr><td id="d415644e367">
+</td></tr><tr><td id="d423892e367">
 
 **Edit a draft release**
 
 </td><td>
 
 1.  Select the sub menu icon \(\[Omitted image "dpr-icon-menu.png"\] Alt text: Vertical lane action icon.\) of a release lane and select the **Edit release** option.
-2.  On the Release details page, modify the details and complete the release creation process. For more information, see [Create a release with a wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-create-release-guided.md).
+2.  On the Release details page, modify the details and complete the release creation process. For more information, see [Create a release with a wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-create-release-guided.md).
 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-using-digital-product-release.md)
+**Parent Topic:**[Using Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-using-digital-product-release.md)
 

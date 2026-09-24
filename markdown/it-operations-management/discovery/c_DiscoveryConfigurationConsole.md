@@ -3,11 +3,11 @@ title: Discovery Configuration Console
 description: Use the Discovery Configuration Console to manage what kind of configuration items \(CIs\) and CI information you want to discover.Use the Discovery Configuration Console to determine which devices and applications to exclude from discovery.You can toggle on and off Applications and Devices using the Discovery Configuration Console. Some are listed out-of-the-box, but you may also customize which specific Applications and Devices you want to Discover according to your specific requirements.Use the Discovery configuration console to filter the software you add to the CMDB.Use the Discovery Configuration Console to configure several settings to find and manage all of your installed software.Create credentials to access a ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/c\_DiscoveryConfigurationConsole.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
 breadcrumb: [Running discoveries in your network, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -62,7 +62,7 @@ Potential impacts include the following:
 
 Disabling the discovery of application data affects all host devices on which the application runs. For example, if you configure Discovery to ignore databases, no information is gathered for either Linux or Windows databases. Conversely, if you configure the system to ignore a device type, such as a Windows server, no databases running on that server are explored, even if they are configured to be discovered. The instance cannot identify applications running on a server until it discovers that server first.
 
-When you exclude an item from the **Applications** section, the system disables the relevant process classifier. The probes that belong to this classifier, including the [Horizontal Pattern probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r-HorizontalPatternProbe.md) that launches patterns, never launch.
+When you exclude an item from the **Applications** section, the system disables the relevant process classifier. The probes that belong to this classifier, including the [Horizontal Pattern probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r-HorizontalPatternProbe.md) that launches patterns, never launch.
 
 ## Software Discovery
 
@@ -256,7 +256,7 @@ Role required: discovery\_admin or admin
 
 1.  Navigate to **All** &gt; **Discovery** &gt; **Discovery Definition** &gt; **Configuration Console**.
 
-2.  Select the toggle to enable [File-based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/file-based-discovery.md).
+2.  Select the toggle to enable [File-based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/file-based-discovery.md).
 
     This feature is turned off by default.
 
@@ -349,7 +349,7 @@ Role required: discovery\_admin or admin
 
 ### Result
 
-File-based Discovery is now enabled, configured, and ready for you to run. See [Run File-based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/run-file-based-discovery.md) for more information.
+File-based Discovery is now enabled, configured, and ready for you to run. See [Run File-based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/run-file-based-discovery.md) for more information.
 
 ## Create Basic Auth credentials
 

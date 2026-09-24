@@ -3,11 +3,11 @@ title: Entity based record access update utility configuration states
 description: Entity-based access configuration states represent the defined permissions and control settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/eba-configuration-states.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Entity Based Access, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -24,5 +24,5 @@ Entity-based access configuration states represent the defined permissions and c
 |In progress|The configuration is being applied or validated. The process has started but isn’t complete.|
 |Completed|The configuration was applied and is active. All changes are finalized and in effect.|
 
-**Parent Topic:**[Entity Based Access reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/entity-based-access-reference.md)
+**Parent Topic:**[Entity Based Access reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/entity-based-access-reference.md)
 

@@ -3,12 +3,12 @@ title: Configure a metric definition
 description: Configure a metric definition to create or modify the existing base system CI metrics displayed on the Investigation tab.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/add-edit-metric-definition.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Setting up Investigation Framework in Service Operations Workspace, Setting up integrations in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
@@ -17,6 +17,10 @@ breadcrumb: [Setting up Investigation Framework in Service Operations Workspace,
 Configure a metric definition to create or modify the existing base system CI metrics displayed on the Investigation tab.
 
 ## Before you begin
+
+**Important:**
+
+Starting with the Brazil release, Microsoft Endpoint Configuration Manager for Investigation and Agent Client Collector for Investigation are being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Role required: sn\_cimaf.sn\_cimaf\_admin
 
@@ -265,7 +269,7 @@ MECM spoke flow action to look up the read operation response from the MECM serv
 
 ## What to do next
 
-After the new metric definition is created, perform the UI configuration for displaying the metric definition on the Investigate tab of the incident record page. You must get the sys\_id of the metric definition and add it to the `sn_sow.SOWInvestigateConfig` script. You can also customize the display of the metric definition, such as the labels, units, and threshold values. For more information, see [Customize the Investigate tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/customize-the-incident-record-page.md).
+After the new metric definition is created, perform the UI configuration for displaying the metric definition on the Investigate tab of the incident record page. You must get the sys\_id of the metric definition and add it to the `sn_sow.SOWInvestigateConfig` script. You can also customize the display of the metric definition, such as the labels, units, and threshold values. For more information, see [Customize the Investigate tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/customize-the-incident-record-page.md).
 
-**Parent Topic:**[Setting up Investigation Framework in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/set-up-investigate.md)
+**Parent Topic:**[Setting up Investigation Framework in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/set-up-investigate.md)
 

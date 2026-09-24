@@ -3,13 +3,13 @@ title: Sample code for the Playbook intake component
 description: Sample code is provided to define an action when an event is triggered. Update the sample code for your use case before embedding the component on your webpage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/we-playbook-intake-sample-code.html
-release: australia
+release: brazil
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Playbook intake component, Configure web components, Web Embeddables, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Playbook intake component, Configure web components, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Sample code for the Playbook intake component
@@ -97,11 +97,11 @@ open(secondaryURL,'_self');
 **Related topics**  
 
 
-[Configure the Playbook intake component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-playbook-intake-comp.md)
+[Configure the Playbook intake component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-playbook-intake-comp.md)
 
-[Embed the Playbook intake component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-playbook-intake-comp.md)
+[Embed the Playbook intake component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-playbook-intake-comp.md)
 
-[Component properties for the Playbook intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/we-playbook-intake-comp-prop.md)
+[Component properties for the Playbook intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/we-playbook-intake-comp-prop.md)
 
-[Event handler in the Playbook intake component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/we-playbook-intake-event-handler.md)
+[Event handler in the Playbook intake component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/we-playbook-intake-event-handler.md)
 

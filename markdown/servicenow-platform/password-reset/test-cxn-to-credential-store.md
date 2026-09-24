@@ -3,11 +3,11 @@ title: Test the connection to a credential store
 description: You should test the connection to a credential store after you configure a new credential store or when users experience problems that might involve the connection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/test-cxn-to-credential-store.html
-release: australia
+release: brazil
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Credential stores for Password Reset, Configure your Password Reset process, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -29,5 +29,5 @@ Role required: password\_reset\_admin
     A progress page displays the result of the test.
 
 
-**Parent Topic:**[Credential stores for Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/c_CredentialStores.md)
+**Parent Topic:**[Credential stores for Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/c_CredentialStores.md)
 

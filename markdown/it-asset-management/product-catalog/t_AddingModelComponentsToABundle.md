@@ -3,11 +3,11 @@ title: Add model components to a bundle
 description: Add model components to a model as needed, for example, when you upgrade a bundle to include additional assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/product-catalog/t\_AddingModelComponentsToABundle.html
-release: australia
+release: brazil
 product: Product Catalog
 classification: product-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Bundled models, Models, Product Catalog, Common applications, Asset Management]
 ---
@@ -26,7 +26,7 @@ Role required: model\_manager and asset
 
 2.  Open a bundle record.
 
-3.  In the **Model Components** related list, select **New**.
+3.  In the **Model Components** related list, click **New**.
 
 4.  Select the **Model category** of the component, such as **Computer**.
 
@@ -34,7 +34,7 @@ Role required: model\_manager and asset
 
 6.  Select the **Is main component** check box if this component is the one that other components are attached to.
 
-7.  Select **Submit**.
+7.  Click **Submit**.
 
 8.  Repeat steps 3–7 to add more components to the bundle.
 
@@ -43,7 +43,7 @@ Role required: model\_manager and asset
     \[Omitted image "800pxBundledModelCalgary.png"\] Alt text: Bundled model components
 
 
-**Parent Topic:**[Bundled models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_CreatingBundledModels.md)
+**Parent Topic:**[Bundled models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/product-catalog/c_CreatingBundledModels.md)
 
 **Related topics**  
 
@@ -52,5 +52,5 @@ Role required: model\_manager and asset
 
 [Publish bundled models to product catalog]()
 
-[Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_Models.md)
+[Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/product-catalog/c_Models.md)
 

@@ -3,11 +3,11 @@ title: Manage transitions between workflow activities
 description: Transitions define the processing path of the workflow, depending on conditions defined in each activity.Controls on the Approval - User activity enable an administrator to add additional workflow transitions to the activity other than the default transitions of Approved or Rejected.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-activities/t\_MngTstnsWkflAct.html
-release: australia
+release: brazil
 product: Workflow Activities
 classification: workflow-activities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workflow activities, Classic Workflow, Build workflows]
 ---
@@ -26,7 +26,7 @@ All conditions in an activity must have a transition and all transitions must ha
 
 **Note:**
 
-Run the [workflow validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_WorkflowValidation.md) tool prior to publishing to detect missing or disconnected transitions that could cause a workflow to hang.
+Run the [workflow validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/legacy-workflow/c_WorkflowValidation.md) tool prior to publishing to detect missing or disconnected transitions that could cause a workflow to hang.
 
 ## Procedure
 

@@ -3,9 +3,9 @@ title: Set up outbound DMS integration
 description: Send claims, approvals, and status updates from the OEM instance to the connected Dealer Management System \(DMS\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-outbound-dms-integration.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [outbound DMS integration, DMS, SOAP message, WSDL, repair claim, OEM instance, dealer record, business rule, claim adjudication, outbound integration]
 breadcrumb: [DMS integration, Integrate, Manufacturing Commercial Operations]

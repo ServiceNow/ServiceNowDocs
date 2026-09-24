@@ -3,11 +3,11 @@ title: PMO dashboard
 description: The PMO dashboard provides comprehensive reports to the portfolio and program managers. The dashboard uses Platform Analytics to provide a trend of historical data as well as regular reports. It gives an overview of your investments, provides a pipeline view of upcoming intake and a calendar view of upcoming dates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/ppm-collaboration/pmo-dashboard.html
-release: australia
+release: brazil
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Project Portfolio Management Platform Analytics Solutions, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -250,5 +250,5 @@ The dashboard includes the following visualizations:
 |Monetary Planned vs Actual Benefits by Category|Bar chart \[Omitted image "column-icon.png"\] Alt text: Bar chart|Comparison of total planned and actual financial benefits in each benefit plan category for active projects.|
 |Project Completion Calendar|Calendar\[Omitted image "CalenderReportIcon.png"\] Alt text: Calender|Calender view of planned end dates of projects, project tasks, and milestones.|
 
-**Parent Topic:**[Project Portfolio Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/project-portfolio-content-pack.md)
+**Parent Topic:**[Project Portfolio Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/project-portfolio-content-pack.md)
 

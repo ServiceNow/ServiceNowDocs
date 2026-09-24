@@ -3,11 +3,11 @@ title: Map asset and CI fields
 description: When you map the asset and CI fields, synchronization happens both ways. Changes to either the asset or CI record are updated to the logically mapped record. You can synchronize custom mappings and mappings provided with the base instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/t\_CreateAssetandCIFieldsMapping.html
-release: australia
+release: brazil
 product: Asset Management
 classification: asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Work with Asset and CI, Use, Base Asset Management, Common applications, Asset Management]
 ---
@@ -47,5 +47,5 @@ You can conditionally map the fields for synchronization. For example, you can m
 6.  Select **Submit**.
 
 
-**Parent Topic:**[Work with Asset and CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/work-with-asset-ci.md)
+**Parent Topic:**[Work with Asset and CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/work-with-asset-ci.md)
 

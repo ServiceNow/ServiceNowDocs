@@ -3,11 +3,11 @@ title: Managing portfolio plan goals in Strategic Planning Workspace
 description: Create goals for your portfolio plans, set targets for them, and evaluate the progress of the goals and targets in Strategic Planning Workspace to accomplish your organizational plans and drive business outcomes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/managing-goals-in-alignment-planner-workspace.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -55,9 +55,9 @@ The portfolio plan details section in the Goals view provides the portfolio plan
 
 From the Portfolio plan details section, you can:
 
--   [Create goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-goal-egm.md) for your portfolio plan.
--   [Share your portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/share-portfolio-plan-alignment-planner-workspace.md) with stakeholders and other planning managers so that they have visibility into the progress of the plan and can start collaborating.
--   [Collaborate with stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/collaborate-stakeholders-portfolio-plan-alignment-planner-workspace.md) and drive shared outcomes by adding comments and attachments to your portfolio plan so that users can review and share their feedback.
+-   [Create goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/create-goal-egm.md) for your portfolio plan.
+-   [Share your portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/share-portfolio-plan-alignment-planner-workspace.md) with stakeholders and other planning managers so that they have visibility into the progress of the plan and can start collaborating.
+-   [Collaborate with stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/collaborate-stakeholders-portfolio-plan-alignment-planner-workspace.md) and drive shared outcomes by adding comments and attachments to your portfolio plan so that users can review and share their feedback.
 -   Customize the widgets and cards that you want to view on the Dashboard tab using the Settings icon \(\[Omitted image "personalize-icon.png"\] Alt text: Settings icon.\). This setting is available only when the Dashboard tab is selected.
 
     **Note:** Only users with access to edit the portfolio plan can customize the widgets and cards.

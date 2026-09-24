@@ -3,13 +3,13 @@ title: Validate subscription, installation, and usage data
 description: Validate subscription, installation, and usage data before running a reconciliation for completeness and accuracy of your reports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/validate-sub-sg.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Microsoft 365 SaaS License Management success guide, Success Guides, Success portal view in Software Asset Workspace, Software Asset Workspace, Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Microsoft 365 SaaS License Management success guide, Success Guides, Success portal view in Software Asset Workspace, Software Asset Workspace, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Validate subscription, installation, and usage data
@@ -33,7 +33,7 @@ Role required: sam\_admin, sam\_user
 
     2.  Review the data in the User Subscription table by verifying the number of Microsoft 365 subscription records.
 
-        For more information about personalizing and filtering data, see [Configure user experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_NavigationAndTheUserInterface.md).
+        For more information about personalizing and filtering data, see [Configure user experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_NavigationAndTheUserInterface.md).
 
         -   If the number of Microsoft 365 subscriptions records isn't accurate, verify that the **SAM - Import M365 User Subscriptions** scheduled job in the SAMP job log \[samp\_job\_log\] has completed successfully to pull the subscriptions.
             -   Confirm that the existing integrations are working properly.
@@ -44,7 +44,7 @@ Role required: sam\_admin, sam\_user
 
             -   Check if the software model is resolved correctly as per the subscription product definition.
             -   Check if the **User** field on the subscription records is resolved. If it is not resolved, check the email of the user, which must match with the user principal name. You can also match the user name from the user principal with the user\_name on the sys\_user record.
-            -   If subscription identifiers are incorrect or empty, manage and resolve the subscription identifiers. For more information, see [Subscription identifiers for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/subscription-identifiers.md).
+            -   If subscription identifiers are incorrect or empty, manage and resolve the subscription identifiers. For more information, see [Subscription identifiers for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/subscription-identifiers.md).
 2.  Validate installation and usage data from inventory tools.
 
     **Note:**
@@ -98,5 +98,5 @@ Software Asset Workspace
 
 ## What to do next
 
-[Import Microsoft 365 subscription entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/imp-m365-ent.md)
+[Import Microsoft 365 subscription entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/imp-m365-ent.md)
 

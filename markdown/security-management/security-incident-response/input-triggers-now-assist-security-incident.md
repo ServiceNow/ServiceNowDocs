@@ -3,11 +3,11 @@ title: Inputs and triggers
 description: You can configure some of the inputs or triggers for a generative AI skill. Inputs or triggers permit you to determine how and when a skill is used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/input-triggers-now-assist-security-incident.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
-last_updated: "2026-07-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Now Assist Security Operations]
 breadcrumb: [Configure ServiceNow Otto for Security Incident Response \(SIR\), Configure, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
@@ -183,5 +183,5 @@ Security Incident \[sn\_si\_incident\] table.
  Playbook Activities: sys\_pd\_activity\_context
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configuring-now-assist-for-security-operations.md)
+</table>**Parent Topic:**[Configuring ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/configuring-now-assist-for-security-operations.md)
 

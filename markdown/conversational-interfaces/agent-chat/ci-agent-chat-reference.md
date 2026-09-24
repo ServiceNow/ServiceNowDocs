@@ -3,11 +3,11 @@ title: Agent Chat reference
 description: Reference topics provide descriptions about Agent Chat.Domain separation is supported in the Agent Chat application. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.Create a report that tracks the number of help requests.The Interaction related record \[interaction\_related\_record\] table tracks tasks and Knowledge Base \(KB\) articles that are created, updated, or viewed in the context of a particular interaction. The Interaction related record table references the interaction, related document, whether the relationship is to a task or KB article, and what type of operation on the related document formed the basis for the relationship.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/agent-chat/ci-agent-chat-reference.html
-release: australia
+release: brazil
 product: Agent Chat
 classification: agent-chat
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Agent Chat, Conversational Interfaces]
 ---
@@ -29,11 +29,11 @@ Domain separation is supported in the Agent Chat application. Domain separation 
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-separated-apps.md).
 
 ### Requirements
 
-All domain support features require the Domain Support - Domain Extensions Installer \[com.glide.domain.msp\_extensions.installer\] plugin. For details, see [Request domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ActivateDomainSeparation.md).
+All domain support features require the Domain Support - Domain Extensions Installer \[com.glide.domain.msp\_extensions.installer\] plugin. For details, see [Request domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_ActivateDomainSeparation.md).
 
 ### Configuring Agent Chat with domain separation
 
@@ -41,7 +41,7 @@ Domain separation allows organizations to segment their data and processes based
 
 A service provider \(SP\) has one chat setting \(Agent Chat\) record in the global domain when the instance is provisioned.
 
-The admin of a subdomain can specify Agent Chat settings for that subdomain, such as work queues and assignment groups. For details, see [Setting up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ac-configure-agent-chat.md).
+The admin of a subdomain can specify Agent Chat settings for that subdomain, such as work queues and assignment groups. For details, see [Setting up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/agent-chat/ac-configure-agent-chat.md).
 
 When a user logs into a subdomain, a seeded Agent Chat settings record is created.
 
@@ -78,7 +78,7 @@ Role required: admin
 
 2.  Create a new metric definition for Interaction "help requested" on the Metric Definition - New record screen by entering `Interaction` in the **Table** field and selecting **Help Requested** from the **Field** list.
 
-    For detailed steps on creating metric definitions, see [Define a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-metric.md).
+    For detailed steps on creating metric definitions, see [Define a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-metric.md).
 
 3.  Create a new chat as a requester.
 
@@ -94,7 +94,7 @@ Role required: admin
 
 9.  Navigate to **Metrics** &gt; **Instances** and observe that one instance record was created for help\_requested=true.
 
-    For more information about using the Metric Instance Table, see [Metric instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_MetricInstance.md).
+    For more information about using the Metric Instance Table, see [Metric instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_MetricInstance.md).
 
 
 ## Agent Chat Interaction related records

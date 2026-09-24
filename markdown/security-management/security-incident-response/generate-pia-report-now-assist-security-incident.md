@@ -3,11 +3,11 @@ title: Generate a post-incident analysis
 description: Automatically generate a post-incident analysis for a security incident that includes a root cause analysis, impact assessment, and learning and recommendations information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/generate-pia-report-now-assist-security-incident.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use generative AI skills, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -26,7 +26,7 @@ Roles required: sn\_si.analyst, sn\_si.manager, or sn\_si.basic
 
 ## About this task
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 
@@ -70,5 +70,5 @@ Roles required: sn\_si.analyst, sn\_si.manager, or sn\_si.basic
     The post-incident analysis is saved in the Post incident analysis field on the Details tab and on the Overview tab on security incidents in Security Incident Response Workspace.
 
 
-**Parent Topic:**[Using ServiceNow Otto for Security Incident Response \(SIR\) generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-now-assist-for-security.md)
+**Parent Topic:**[Using ServiceNow Otto for Security Incident Response \(SIR\) generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/using-now-assist-for-security.md)
 

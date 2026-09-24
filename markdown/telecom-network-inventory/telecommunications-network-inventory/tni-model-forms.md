@@ -1,25 +1,25 @@
 ---
 title: Inventory Model forms
-description: The Inventory Model forms enable you to create, review, and modify the model details for equipment holders, equipment, interface cards, logical connections, physical connections, network interfaces, and network model relationships.
+description: The Inventory Model forms enable you to create, review, and modify model details. This includes equipment holders, equipment, interface cards, logical connections, physical connections, network interfaces, and network model relationships.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/tni-model-forms.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
 
 # Inventory Model forms
 
-The Inventory Model forms enable you to create, review, and modify the model details for equipment holders, equipment, interface cards, logical connections, physical connections, network interfaces, and network model relationships.
+The Inventory Model forms enable you to create, review, and modify model details. This includes equipment holders, equipment, interface cards, logical connections, physical connections, network interfaces, and network model relationships.
 
--   **[Inventory Model form - General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-model-form-general.md)**  
+-   **[Inventory Model form - General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-model-form-general.md)**  
 The General section in the Inventory Model form enables you to create, review, and modify the details of a model.
--   **[Inventory Model form - Information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-model-form-information.md)**  
+-   **[Inventory Model form - Information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-model-form-information.md)**  
 The Information section of the Inventory Model form enables you to create, review, and modify the network asset details of a model.
 
-**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
+**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
 

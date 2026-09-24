@@ -3,11 +3,11 @@ title: Set up Microsoft 365 reporting configuration in risk
 description: Set up the Microsoft 365 reporting configuration records to specify the data points and reports that you want to import in to a Microsoft Word document for risk reporting purposes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/set-up-o365-reporting-configuration-in-risk.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integrating Microsoft 365 with Management Reporting of Risk, Integrate, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -63,7 +63,7 @@ Source type
 </td><td>
 
 Source from which you want to fetch the data. The choices are as follows:-   **Table**: Select this option when you want to import data from a table.
--   **Report**: Select this option if you want to import data from a predefined report or chart. For more information on how to create a report, see [Create a report with Analytics Q&amp;A](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/t_CreateYourOwnReport.md).
+-   **Report**: Select this option if you want to import data from a predefined report or chart. For more information on how to create a report, see [Create a report with Analytics Q&amp;A](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/t_CreateYourOwnReport.md).
  **Note:** Only list reports, pivot reports, multi-level pivot reports, horizontal and vertical bar charts, and pie charts are available for selection. Stacked bar charts and grouped bar charts aren’t supported.
 
 </td></tr><tr><td>
@@ -112,5 +112,5 @@ Option to indicate if the record is active. Only active records are available fo
 
 ## What to do next
 
-Add additional reporting configuration filters to the reporting configuration. These filters help to fetch the data into your Microsoft Word disclosure report. For more information, see [Add additional reporting configuration filters for a Microsoft 365 configuration record in risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/add-additional-reporting-filters-risk-reporting.md).
+Add additional reporting configuration filters to the reporting configuration. These filters help to fetch the data into your Microsoft Word disclosure report. For more information, see [Add additional reporting configuration filters for a Microsoft 365 configuration record in risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/add-additional-reporting-filters-risk-reporting.md).
 

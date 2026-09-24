@@ -3,11 +3,11 @@ title: Mass Update CI
 description: The Mass Update CI plugin enable users to apply the same update to a set of CIs for a specific CI class. The Change Management - Mass Update CI plugin is intended to be used when the Change Management - State Model plugin is activated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/bulk-ci-change.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Process a change request, Use, Change Management, IT Service Management]
 ---
@@ -26,16 +26,16 @@ When the change moves to the Implement state, the required update for each CI re
 
 **Note:** You cannot add or delete a CI when the change request in the **In-progress** state and is not approved.
 
-**Parent Topic:**[Process a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_ProcessAChangeRequest.md)
+**Parent Topic:**[Process a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_ProcessAChangeRequest.md)
 
 **Related topics**  
 
 
-[Activate Change Management - Mass Update CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_ActivateChangeManagementBulkCI.md)
+[Activate Change Management - Mass Update CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_ActivateChangeManagementBulkCI.md)
 
-[Associate multiple CIs with a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_AffectedCIsAndImpactedServices.md)
+[Associate multiple CIs with a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/c_AffectedCIsAndImpactedServices.md)
 
-[Legacy: State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ChangeStateModel.md)
+[State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/c_ChangeStateModel.md)
 
-[Configure a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md)
+[Configure a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md)
 

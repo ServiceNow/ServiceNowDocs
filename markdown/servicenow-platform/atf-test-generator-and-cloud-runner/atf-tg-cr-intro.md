@@ -3,11 +3,11 @@ title: ATF Test Generator and Cloud Runner
 description: ATF Test Generator and Cloud Runner is a tool that enables you to leverage ServiceNow’s ability to intelligently generate regression tests for a specific instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-intro.html
-release: australia
+release: brazil
 product: ATF Test Generator and Cloud Runner
 classification: atf-test-generator-and-cloud-runner
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Extend ServiceNow AI Platform capabilities]
 ---
@@ -15,8 +15,6 @@ breadcrumb: [Extend ServiceNow AI Platform capabilities]
 # ATF Test Generator and Cloud Runner
 
 ATF Test Generator and Cloud Runner is a tool that enables you to leverage ServiceNow’s ability to intelligently generate regression tests for a specific instance.
-
-**Note:** The  application is planned for future deprecation. ATF Test Generator and Cloud Runner remain available and is not affected.
 
 The test generator intelligently creates tests by analyzing instance behavior and workflows. The ATF Test Generator integrates with the existing ATF framework providing you with a seamless user experience. You also have the option to execute these tests using ServiceNow’s Cloud Runner which runs ATF tests on a headless browser hosted by ServiceNow.
 
@@ -26,23 +24,23 @@ The test generator intelligently creates tests by analyzing instance behavior an
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "icon-explore.png"\] Alt text: Learn about ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-landing.md)
+[Explore \[Omitted image "icon-explore.png"\] Alt text: Learn about ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-landing.md)
 
 </td><td>
 
-[Configure \[Omitted image "icon-configure.png"\] Alt text: Set up the cloud user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-configure.md)
+[Configure \[Omitted image "icon-configure.png"\] Alt text: Set up the cloud user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-configure.md)
 
 </td><td>
 
-[Operate \[Omitted image "icon-operate.png"\] Alt text: Generate the tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-generate-tests.md)
+[Operate \[Omitted image "icon-operate.png"\] Alt text: Generate the tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-generate-tests.md)
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "icon-use.png"\] Alt text: Execute the test using Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-execute-tests.md)
+[Use \[Omitted image "icon-use.png"\] Alt text: Execute the test using Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-execute-tests.md)
 
 </td><td>
 
-[Reference \[Omitted image "icon-reference.png"\] Alt text: Learn about miscellaneous information about the app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-ref.md)
+[Reference \[Omitted image "icon-reference.png"\] Alt text: Learn about miscellaneous information about the app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-ref.md)
 
 </td><td>
 

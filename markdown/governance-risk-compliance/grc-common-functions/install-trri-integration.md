@@ -3,11 +3,11 @@ title: Install the GRC integration with Thomson Reuters Regulatory Intelligence 
 description: Install the GRC integration with Thomson Reuters Regulatory Intelligence application \(com.sn\_grc\_int\_tr\). The application includes demo data. It installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/install-trri-integration.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integration with Thomson Reuters Regulatory Intelligence \(TRRI\), GRC integrations, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -49,5 +49,5 @@ The following items are installed with the GRC integration with Thomson Reuters 
 4.  Select **Install**.
 
 
-**Parent Topic:**[GRC integration with Thomson Reuters Regulatory Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-trri-integration.md)
+**Parent Topic:**[GRC integration with Thomson Reuters Regulatory Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/grc-trri-integration.md)
 

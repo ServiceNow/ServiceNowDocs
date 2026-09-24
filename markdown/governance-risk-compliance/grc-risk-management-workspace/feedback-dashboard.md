@@ -3,11 +3,11 @@ title: Feedback dashboard
 description: Use the Feedback dashboard to track and manage feedback using the Risk Workspace. The Feedback dashboard organizes feedback according to its status, importance, type, and other specific factors.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/feedback-dashboard.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Parallel Review and Feedback in Advanced Risk, Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -37,5 +37,5 @@ The following table describes the cards that are available on the Feedback dashb
 |Unaddressed Feedback over time|Shows the unaddressed feedback over time. The bar chart displays the trend of unresolved feedback, enabling teams to measure their responsiveness and workload distribution.|
 |Actions on Feedback|Shows the closed feedback with initiated actions and feedback with no actions taken. It facilitates the analysis of what further actions are generally taken as an outcome of the feedback.|
 
-**Parent Topic:**[Parallel Review and Feedback in Advanced Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/integrate-advanced-risk-with-parallel-review-feedback.md)
+**Parent Topic:**[Parallel Review and Feedback in Advanced Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/integrate-advanced-risk-with-parallel-review-feedback.md)
 

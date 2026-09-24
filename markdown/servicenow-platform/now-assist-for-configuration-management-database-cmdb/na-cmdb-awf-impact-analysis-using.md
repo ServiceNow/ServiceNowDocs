@@ -1,13 +1,13 @@
 ---
 title: Analyzing the impact of a change or incident
-description: The Assess CMDB impact agentic workflow identifies the upstream services and CIs that are likely to be affected by an incident or by a proposed change. The workflow reasons about propagation likelihood based on CMDB dependency topology and the nature of the change. The workflow returns a structured list with impact levels and the reasoning.
+description: The Impact analysis agentic workflow identifies the upstream services and CIs that are likely to be affected by an incident or by a proposed change. The workflow reasons about propagation likelihood based on CMDB dependency topology and the nature of the change. The workflow returns a structured list with impact levels and the reasoning.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-impact-analysis-using.html
-release: australia
+release: brazil
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-06-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [impact analysis, change impact, CMDB, topology, NowAssist, ServiceNow Otto for CMDB, AI reasoning]
 breadcrumb: [Using agentic workflows, ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
@@ -15,7 +15,7 @@ breadcrumb: [Using agentic workflows, ServiceNow Otto for Configuration Manageme
 
 # Analyzing the impact of a change or incident
 
-The Assess CMDB impact agentic workflow identifies the upstream services and CIs that are likely to be affected by an incident or by a proposed change. The workflow reasons about propagation likelihood based on CMDB dependency topology and the nature of the change. The workflow returns a structured list with impact levels and the reasoning.
+The Impact analysis agentic workflow identifies the upstream services and CIs that are likely to be affected by an incident or by a proposed change. The workflow reasons about propagation likelihood based on CMDB dependency topology and the nature of the change. The workflow returns a structured list with impact levels and the reasoning.
 
 **Important:**
 
@@ -23,7 +23,7 @@ Generative AI might produce inaccurate or incomplete information. Impact analysi
 
 ## What is it
 
-The Assess CMDB impact agentic workflow solves a key gap in change management. Today's impact assessment process relies on flat lists of topologically related services with no semantic reasoning about which services will actually be disrupted, or how severely. Change managers must trace CMDB relationships manually and apply institutional knowledge to assess blast radius.
+The Impact analysis agentic workflow solves a key gap in change management. Today's impact assessment process relies on flat lists of topologically related services with no semantic reasoning about which services will actually be disrupted, or how severely. Change managers must trace CMDB relationships manually and apply institutional knowledge to assess blast radius.
 
 The workflow reads the affected CI from a change record \(or accepts a CI plus description directly\), traverses the upstream CMDB dependency graph, and uses an LLM to reason about propagation likelihood given the nature of the change and each CI's role in the topology. The result is a structured list: each upstream service or CI with an impact level \(High, Medium, Low, or None\) and a plain-language reason explaining the assessment.
 
@@ -69,7 +69,7 @@ The workflow supports two invocation modes:
     Invoke with a CI sys\_id and a caller-supplied change description. The description is used as-is without change record lookup. Useful for agentic workflows, CI record workspace actions, or scenarios where no change record is available.
 
 
-See [Assess CMDB impact agentic workflow reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-impact-analysis-ref.md) for detailed API specifications and error handling for each mode.
+See [Assess CMDB impact agentic workflow reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-impact-analysis-ref.md) for detailed API specifications and error handling for each mode.
 
 ## Output format
 
@@ -90,19 +90,19 @@ The workflow returns a structured list of impacted items. Each item includes:
 -   Service Mapping not integrated: Service association relationships \(svc\_ci\_assoc\) aren't included.
 -   No relationship type exclusion: All relationship types are traversed. Relationship filtering is not supported.
 
-This workflow considers only the semantics of the Assess CMDB impact agentic workflow topology \(actual and probabilistic relationships\).
+This workflow considers only the semantics of the Impact analysis agentic workflow topology \(actual and probabilistic relationships\).
 
 ## Required role
 
 Access to invoke the workflow requires the `itil` role to read CMDB CI and relationship data, and to view change records.
 
--   **[Analyze change and incident impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-impact-analysis-use.md)**  
-Use the Assess CMDB impact agentic workflow to identify upstream services and CIs likely to be affected by a proposed change. Invoke the workflow in the ServiceNow Otto panel with a change record or a CI and plain language description to receive a prioritized impact assessment with severity levels and reasoning.
+-   **[Analyze change and incident impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-impact-analysis-use.md)**  
+Use the Impact analysis agentic workflow to identify upstream services and CIs likely to be affected by a proposed change. Invoke the workflow in the ServiceNow Otto panel with a change record or a CI and plain language description to receive a prioritized impact assessment with severity levels and reasoning.
 
-**Parent Topic:**[Using agentic workflows in ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-using.md)
+**Parent Topic:**[Using agentic workflows in ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-using.md)
 
 **Related topics**  
 
 
-[Assess CMDB impact agentic workflow reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-impact-analysis-ref.md)
+[Assess CMDB impact agentic workflow reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-impact-analysis-ref.md)
 

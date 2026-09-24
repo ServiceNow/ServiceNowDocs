@@ -3,11 +3,11 @@ title: Publish a knowledge block in Agent Workspace
 description: Publish a knowledge block to make it available to add to knowledge articles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/publish-block-agent.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Knowledge blocks authoring in Agent Workspace, Using knowledge blocks, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -45,5 +45,5 @@ When published, your knowledge block appears in the Published and All lists unde
 **Related topics**  
 
 
-[View a knowledge block in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/view-block-agent.md)
+[View a knowledge block in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/view-block-agent.md)
 

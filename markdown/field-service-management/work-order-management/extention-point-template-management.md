@@ -3,11 +3,11 @@ title: Using extension point for planned work management
 description: Extension points enable you to extend the functionality of an application and integrate customizations without altering the application code. Extension points are stored in the Extension Point \[sys\_extension\_point\] table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/extention-point-template-management.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Planned Work Management, Set up work orders and tasks, Configure, Field Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Planned Work Management, Set up work orders and tasks, Configure, F
 
 Extension points enable you to extend the functionality of an application and integrate customizations without altering the application code. Extension points are stored in the Extension Point \[sys\_extension\_point\] table.
 
-The Planned Work Management plugin \(com.snc.fsm\_planned\_work\_management\) adds the global.PlannedMaintenanceExtensionPoint extension point, which creates a logic to create work orders for the planned work schedule using the enhanced capabilities of Planned work management. For more information on the other extension points for Planned Work Management, see [Extension points in Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/extension-points-field-service.md).
+The Planned Work Management plugin \(com.snc.fsm\_planned\_work\_management\) adds the global.PlannedMaintenanceExtensionPoint extension point, which creates a logic to create work orders for the planned work schedule using the enhanced capabilities of Planned work management. For more information on the other extension points for Planned Work Management, see [Extension points in Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/extension-points-field-service.md).
 
 The default extension points that are provided with an application cannot be modified or deactivated. If modification is necessary, if you have the administrator role, you can do the following:
 
@@ -30,5 +30,5 @@ The default extension points that are provided with an application cannot be mod
 **Related topics**  
 
 
-[Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md)
+[Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/extension-points.md)
 

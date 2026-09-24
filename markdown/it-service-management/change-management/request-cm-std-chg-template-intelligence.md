@@ -3,11 +3,11 @@ title: Request Change Management - Standard Change Template Intelligence
 description: To activate Change Management capability that uses Predictive Intelligence to identify change clusters and propose standard change templates, request the Change Management - Standard Change Template Intelligence plugin \(com.snc.change\_management.ml.sctp\) through the Now Support Customer Service system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/request-cm-std-chg-template-intelligence.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Change Management plugins, Configure, Change Management, IT Service Management]
 ---
@@ -41,7 +41,7 @@ Change Management - Predictive Intelligence Core\[com.snc.change\_management.ml\
 Enables you to use Predictive Intelligence in Change Management.
 
 </td></tr></tbody>
-</table>After you activate the plugin, the solution analyzes historical change requests to identify clusters of similar changes and proposes standard change templates for those clusters. Review the proposals and adopt the templates that fit your process. To train the proposal solution and to review and accept proposed templates, see [Train the clustering solution for standard change proposal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/train-std-chg-proposal-soln.md) and [Propose a standard change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/propose-standard-chg-template.md).
+</table>After you activate the plugin, the solution analyzes historical change requests to identify clusters of similar changes and proposes standard change templates for those clusters. Review the proposals and adopt the templates that fit your process. To train the proposal solution and to review and accept proposed templates, see [Train the clustering solution for standard change proposal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/train-std-chg-proposal-soln.md) and [Propose a standard change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/propose-standard-chg-template.md).
 
 ## Procedure
 
@@ -75,7 +75,7 @@ Which plugin would you like to activate
 
 Select the name of the plugin to activate.
 
- **Note:** If the plugin isn't listed, or if you're activating on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box. Enter the plugin name in the field that appears.
+ **Note:** If the system doesn't list the plugin you want or if you're activating the plugin on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box and then enter the name of the plugin.
 
 </td></tr><tr id="date-time"><td>
 
@@ -93,10 +93,10 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
--   **[Components installed with Change Management - Standard Change Template Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/installed-with-std-chg-temp-ml.md)**  
+-   **[Components installed with Change Management - Standard Change Template Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/installed-with-std-chg-temp-ml.md)**  
 Several types of components are installed with activation of the Change Management - Standard Change Template Intelligence plugin that includes tables.
 
-**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-plugins.md)
+**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-plugins.md)
 
 **Related topics**  
 
@@ -143,5 +143,5 @@ Several types of components are installed with activation of the Change Manageme
 
 [Activate Change Management - Data Archiving]()
 
-[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-of-plugins.md)
 

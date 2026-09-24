@@ -3,11 +3,11 @@ title: Risk form of Project Workspace
 description: Learn about the fields on the Risk form of the Project Workspace. Use this form to add risk to your projects.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/risk-form-project-workspace.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Form field information for Project Workspace, Project Workspace reference, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -95,7 +95,7 @@ Risk rank
 
 </td><td>
 
-A value and color assigned to the risk. This value is calculated using risk probability and impact. You can configure the color and value using the Risk Value Lookup. For more information, see [Configure custom Risk rank and Risk value for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/risk-value-lookup-project.md).
+A value and color assigned to the risk. This value is calculated using risk probability and impact. You can configure the color and value using the Risk Value Lookup. For more information, see [Configure custom Risk rank and Risk value for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/risk-value-lookup-project.md).
 
 </td></tr><tr><td>
 
@@ -119,7 +119,7 @@ Risk value
 
 </td><td>
 
-A value calculated from the Risk Value Lookup. For more information, see [Configure custom Risk rank and Risk value for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/risk-value-lookup-project.md).
+A value calculated from the Risk Value Lookup. For more information, see [Configure custom Risk rank and Risk value for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/risk-value-lookup-project.md).
 
 </td></tr><tr><td>
 
@@ -189,5 +189,5 @@ Brief description of efforts taken to mitigate the risk.
 |Enterprise inherent risk|This field gets auto-populated with the risk scores when the risk assessor assesses the enterprise inherent risk.|
 |Enterprise residual risk|This field gets auto-populated with the risk scores when the risk assessor evaluates the enterprise residual risk.|
 
-**Parent Topic:**[Form field information for Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/form-field-information-for-project-workspace.md)
+**Parent Topic:**[Form field information for Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/form-field-information-for-project-workspace.md)
 

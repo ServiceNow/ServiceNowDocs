@@ -3,11 +3,11 @@ title: Create an automated test suite
 description: Group automated tests into a suite you can execute as a batch.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-create-suite.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Building and running automated test suites, Automated Test Framework \(ATF\) test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -28,13 +28,13 @@ Role required: atf\_test\_admin or atf\_test\_designer
 
 2.  Click **New**.
 
-    The system displays the [Test Suite New Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-test-suite-record.md) form.
+    The system displays the [Test Suite New Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-test-suite-record.md) form.
 
 3.  In the **Name** field, enter a name for this suite.
 
 4.  Select the tests to be included in this suite.
 
-<table id="choicetable_tzr_ryh_5fb"><tbody><tr><td id="d312603e104">
+<table id="choicetable_tzr_ryh_5fb"><tbody><tr><td id="d302963e104">
 
 **Filter**
 
@@ -44,7 +44,7 @@ Add tests dynamically using a filter:1.  In the **Filter** field, use the condit
 2.  Click **Save**.
  All tests that match the filter conditions appear in the **Test Suite Tests** related list. Because the suite is dynamic, any new test that matches the conditions is automatically added to the suite.
 
-</td></tr><tr><td id="d312603e134">
+</td></tr><tr><td id="d302963e134">
 
 **Test Suite Tests**
 
@@ -61,7 +61,7 @@ Add tests manually:
 
 6.  In the **Test Suite Tests** related list, specify options for a test.
 
-<table id="choicetable_hmg_313_5fb"><tbody><tr><td id="d312603e186">
+<table id="choicetable_hmg_313_5fb"><tbody><tr><td id="d302963e186">
 
 **Execution order**
 
@@ -69,7 +69,7 @@ Add tests manually:
 
 Enter a value to specify the order in which this test should execute within the test suite.
 
-</td></tr><tr><td id="d312603e195">
+</td></tr><tr><td id="d302963e195">
 
 **Abort on Failure**
 
@@ -85,5 +85,5 @@ Enter a value that indicates whether you want the test suite to stop or continue
 8.  Click **Submit**.
 
 
-**Parent Topic:**[Building and running automated test suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-suites-overview.md)
+**Parent Topic:**[Building and running automated test suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-suites-overview.md)
 

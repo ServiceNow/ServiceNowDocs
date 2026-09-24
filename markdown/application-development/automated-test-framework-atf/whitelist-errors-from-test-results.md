@@ -3,11 +3,11 @@ title: Allow client errors from test results
 description: Allow client errors as you review test results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/whitelist-errors-from-test-results.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Allowed client errors, Building and running automated tests with the Automated Test Framework, Automated Test Framework \(ATF\) test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -42,10 +42,10 @@ You can allow multiple or individual client errors. For each client error, you m
     The Automated Test Framework allows the selected client errors and displays a status message at the top of the form.
 
 
-**Parent Topic:**[Allowed client errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/whitelisted-client-errors.md)
+**Parent Topic:**[Allowed client errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/whitelisted-client-errors.md)
 
 **Related topics**  
 
 
-[Allowed client errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/whitelisted-client-errors.md)
+[Allowed client errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/whitelisted-client-errors.md)
 

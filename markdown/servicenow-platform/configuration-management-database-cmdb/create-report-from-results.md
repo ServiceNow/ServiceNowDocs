@@ -3,11 +3,11 @@ title: Create a basic report
 description: After running a query in the CMDB Query Builder, you can create a basic report that is scoped to the query execution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/create-report-from-results.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create report, CMDB Query Builder, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ After running a query in the CMDB Query Builder, you can create a basic report t
 
 ## Before you begin
 
-The [Core UI plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ActivateUI16.md) \(com.glide.ui.ui16\) must be activated.
+The [Core UI plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_ActivateUI16.md) \(com.glide.ui.ui16\) must be activated.
 
 Role required:
 
@@ -43,11 +43,11 @@ The Reports application creates a basic report, which is scoped to the query res
 **Related topics**  
 
 
-[Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting-landing-page.md)
+[Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting-landing-page.md)
 
-[Build a CMDB query using the CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/use-cmdb-query-builder.md)
+[Build a CMDB query using the CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/use-cmdb-query-builder.md)
 
-[Build a Service Mapping query using the CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/build-service-mapping-query.md)
+[Build a Service Mapping query using the CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/build-service-mapping-query.md)
 
-[Run a partial CMDB query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/run-partial-cmdb-query.md)
+[Run a partial CMDB query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/run-partial-cmdb-query.md)
 

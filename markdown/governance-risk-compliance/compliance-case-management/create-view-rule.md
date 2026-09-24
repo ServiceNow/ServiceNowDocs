@@ -3,11 +3,11 @@ title: Create view rule
 description: Define the view rules for the workspace and default view in the GRC: Compliance Case Management application. By defining the rules, you can control how the compliance case or request form appears.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/create-view-rule.html
-release: australia
+release: brazil
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a case type, Configure, Compliance Case Management, Governance, Risk, and Compliance]
 ---
@@ -32,13 +32,13 @@ Role required: sn\_compliance\_case\_admin
 
 5.  On the form, fill in the fields.
 
-    For a description of the field values on the View Rule form, see [View Rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/view-rule-form.md).
+    For a description of the field values on the View Rule form, see [View Rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/view-rule-form.md).
 
 6.  Select **Submit**.
 
 
--   **[View Rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/view-rule-form.md)**  
+-   **[View Rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/view-rule-form.md)**  
 Use the View Rule form to define the workspace and default view rules in the GRC: Compliance Case Management application.
 
-**Parent Topic:**[Create a case type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/create-case-type.md)
+**Parent Topic:**[Create a case type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/create-case-type.md)
 

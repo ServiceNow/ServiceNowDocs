@@ -3,11 +3,11 @@ title: Validate parts using the Parts Manager AI agent
 description: Use the Parts Manager AI agent to validate parts usage when closing work order tasks in ServiceNow Otto for Field Service Management \(FSM\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/validate-parts-now-assist-fsm.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Parts Manager, AI agent, validate parts]
 breadcrumb: [View asset usage, Execute work order tasks, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
@@ -27,13 +27,13 @@ Role required: wm\_agent
 
 The Parts Manager AI agent analyzes your work notes to identify which parts were used during a service task. After validation, the agent automatically updates inventory and parts statuses.
 
-**Note:** This feature uses AI to generate results. AI-generated content may not be accurate or complete. Review the validated parts summary before confirming the results.
+**Note:** This feature uses AI to generate results. AI-generated content may not always be accurate or complete. Review the validated parts summary before confirming the results.
 
 ## Procedure
 
-1.  Open a work order task and select the ServiceNow Otto panel icon \[Omitted image "now-assist-panel-icon.png"\] Alt text:.
+1.  Open a work order task and select the ServiceNow Otto® panel icon \[Omitted image "now-assist-panel-icon.png"\] Alt text:.
 
-2.  Ask AI to validate parts for the work order task.
+2.  Ask ServiceNow Otto® to validate parts for the work order task.
 
     If the Parts Manager AI agent cannot determine the work order task, provide the work order task number when prompted.
 

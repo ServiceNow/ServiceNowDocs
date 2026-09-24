@@ -3,11 +3,11 @@ title: Apply process step filter on a pre-defined filter
 description: Apply a process step filter on a selected node or connection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/apply-transitionfilter.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Applying a process step filter on an activity, Filtering project data, Analyzing and getting process insights, Use, Process Mining, Platform Analytics]
 ---
@@ -45,5 +45,5 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
 7.  When the task completes, select **View result** in the Scheduled tasks panel of Analyst workbench.
 
 
-**Parent Topic:**[Applying a process step filter on an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/node-to-node-conditions.md)
+**Parent Topic:**[Applying a process step filter on an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/node-to-node-conditions.md)
 

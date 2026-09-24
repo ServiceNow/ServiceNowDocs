@@ -1,28 +1,28 @@
 ---
-title: Create an information request record using Information Request Playbook
-description: Create an information request record in the Public Sector Digital Services application by using an Information Request Playbook activity. By using a playbook, you can have an efficient, streamlined way to create and resolve an information request.
+title: Create an information request record using Information Request Administration
+description: Create an information request record in the Public Sector Digital Services application by using an Information Request Administration activity. By using a playbook, you can have an efficient, streamlined way to create and resolve an information request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-ir-playbook-create-record.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Information Request Playbook, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using Information Request Administration, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Create an information request record using Information Request Playbook
+# Create an information request record using Information Request Administration
 
-Create an information request record in the Public Sector Digital Services application by using an Information Request Playbook activity. By using a playbook, you can have an efficient, streamlined way to create and resolve an information request.
+Create an information request record in the Public Sector Digital Services application by using an Information Request Administration activity. By using a playbook, you can have an efficient, streamlined way to create and resolve an information request.
 
 ## Before you begin
 
-**Note:** Before you start this procedure, verify that the Information Request Playbook application, which is separate from Public Sector Digital Services Core, is installed and enabled in the CRM Workspace. For instructions, see [Install Information Request Playbook for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/install-psds-information-request-playbook.md).
+**Note:** Before you start this procedure, verify that the Information Request Administration application, which is separate from Public Sector Digital Services Core, is installed and enabled in the CRM Workspace. For instructions, see [Install Information Request Administration for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/install-psds-information-request-playbook.md).
 
 Role required: sn\_gsm.constituent\_agent, sn\_gsm.business\_agent, sn\_gsm.agency\_agent, sn\_gsm.relationship\_agent, and sn\_gsm.service\_manager
 
 ## About this task
 
-If a playbook is configured to use a record generator, you can create a record by using a playbook activity. If a case is already associated with a playbook, a new information request case type is opened in a new tab, with Playbook as the default tab. Creating a record from a list or form, or from an activity in another playbook, opens the Information Request Playbook and initiates the first activity. This activity, the first step of the Intake stage, guides you through the record creation process.
+If a playbook is configured to use a record generator, you can create a record by using a playbook activity. If a case is already associated with a playbook, a new information request case type is opened in a new tab, with Playbook as the default tab. Creating a record from a list or form, or from an activity in another playbook, opens the Information Request Administration and initiates the first activity. This activity, the first step of the Intake stage, guides you through the record creation process.
 
 ## Procedure
 
@@ -30,7 +30,7 @@ If a playbook is configured to use a record generator, you can create a record b
 
 2.  Select **New**.
 
-    The Information Request Playbook opens and initiates the first activity for collecting the request details, which is the Intake stage.
+    The Information Request Administration opens and initiates the first activity for collecting the request details, which is the Intake stage.
 
 3.  On the Enter Request Details activity card, fill in the information.
 

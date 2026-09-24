@@ -3,9 +3,9 @@ title: Open new cases in the same tab with ServiceNow Link Manager for Mozilla F
 description: Follow the steps below to install and activate ServiceNow Link Manager in Mozilla Firefox.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-snow-link-manager-firefox.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Organize records tabs with ServiceNow Link Manager, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -35,7 +35,7 @@ Role required: admin
 1.  Select the **Menu** &gt; **Add-ons and themes** &gt; **Extensions**.
 2.  Locate the **ServiceNow Link Manager** toggle switch and turn it on.
 
-**Note:** The ServiceNow Link Manager extension turns on automatically in CSM and ITSM Workspace. It doesn't run in other ServiceNow workspaces.
+**Note:** The ServiceNow Link Manager extension turns on automatically in CRM Workspace and ITSM Workspace. It doesn't run in other ServiceNow workspaces.
 
 ## Using ServiceNow Link Manager
 

@@ -3,13 +3,13 @@ title: Field types supported
 description: Learn about the field types that are currently supported with the ServiceNow AI Lens application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/servicenow-lens/field-types-supported.html
-release: australia
+release: brazil
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: reference
-last_updated: "2026-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, ServiceNow AI Lens, Enable AI experiences]
+breadcrumb: [Reference, ServiceNow AI Lens, Generative AI skills, Enable AI Experiences]
 ---
 
 # Field types supported
@@ -53,7 +53,7 @@ The following field types are currently supported with ServiceNow AI Lens:
 -   reference
 -   glide\_list
 
-For more information about these fields, see [Field types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
+For more information about these fields, see [Field types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_FieldTypes.md).
 
 <table id="table_psc_fs3_mfc"><thead><tr><th>
 
@@ -116,5 +116,5 @@ table\_name
 The value is only populated when the exact internal name of table is identified.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow AI Lens reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-reference.md)
+</table>**Parent Topic:**[ServiceNow AI Lens reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-reference.md)
 

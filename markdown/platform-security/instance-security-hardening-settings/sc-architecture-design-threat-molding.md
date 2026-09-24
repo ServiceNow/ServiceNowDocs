@@ -3,11 +3,11 @@ title: Architecture, design, and threat modeling
 description: This broad control addresses high level design considerations and key elements to implement a secure application. This covers the tenants of availability, confidentiality processing integrity, non-repudiation and privacy. Additionally, elements of a secure software development lifecycle are included.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Hardening settings, Platform Security]
 ---
@@ -16,48 +16,58 @@ breadcrumb: [Hardening settings, Platform Security]
 
 This broad control addresses high level design considerations and key elements to implement a secure application. This covers the tenants of availability, confidentiality processing integrity, non-repudiation and privacy. Additionally, elements of a secure software development lifecycle are included.
 
--   **[Check impersonation on ACL evaluation in HR App \[New in Security Center 1.3 and updated in 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-check-impersonation-on-acl.md)**  
+-   **[Capture audit records for Code Signing-protected records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-capture-audit-records-for-code-signing.md)**  
+Use the **sn\_cse.com.snc.csf.vault\_audit\_enabled** property to control whether the system logs changes to Code Signing-protected code.
+-   **[Check impersonation on ACL evaluation in HR App \[New in Security Center 1.3 and updated in 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-check-impersonation-on-acl.md)**  
 Use the **sn\_hr\_core.impersonateCheck** property to prevent a user from impersonating another user and accessing their HR information.
--   **[Reduce the Scope of the IP Allow List for an Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-ip-addresses-access-allowlist.md)**  
+-   **[Reduce the scope of the IP allow List for an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-ip-addresses-access-allowlist.md)**  
 Use the **glide.ip.authenticate.strict** property to specify IP ranges that can make inbound connections on an instance.
--   **[Disable legacy JQuery behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-legacy-jquery-behavior.md)**  
+-   **[Disable legacy JQuery behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-legacy-jquery-behavior.md)**  
 The **glide.jquery.legacy** is used to prevent older prepatched JQuery versions from being used which will introduce unpatched vulnerabilities in the library.
--   **[Disable GlideRecord Scope Fencing Legacy Behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-enable-gliderecord-scope-fencing-legacy-behavior.md)**  
+-   **[Disable GlideRecord scope fencing legacy behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-enable-gliderecord-scope-fencing-legacy-behavior.md)**  
 The **glide.record.legacy\_cross\_scope\_access\_policy\_in\_script** property disables scope fencing allowing scoped apps to access global script interfaces. It was created as a patch to GlideRecord's cross scope access.
--   **[Disable legacy AngularJS behavior \[Removed in Security Center 2.2\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-legacy-angularjs-behavior.md)**  
+-   **[Disable legacy AngularJS behavior \[Removed in Security Center 2.2\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-legacy-angularjs-behavior.md)**  
 Use the **glide.angular.legacy** property to protect from potential security risks arising from attacks on vulnerabilities discovered in outdated AngularJS library versions.
--   **[Disable local login for users with Single Sign-On \(SSO\) enabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-disable-local-login-for-users-with-single-sign-on-sso-enabled.md)**  
+-   **[Disable local login for users with Single Sign-On \(SSO\) enabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-disable-local-login-for-users-with-single-sign-on-sso-enabled.md)**  
 Update user records to disable local login for users with Single Sign-On \(SSO\) enabled.
--   **[Disable unauthenticated published reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-disable-unauthenticated-published-reports.md)**  
+-   **[Disable unauthenticated published reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-disable-unauthenticated-published-reports.md)**  
 Deactivate this property to prevent the user from publishing or accessing reports. This property disables the published reports feature in reporting.
--   **[Disable public access to favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-public-access-to-favorites.md)**  
+-   **[Disable public access to favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-public-access-to-favorites.md)**  
 Use the **glide.ui.magellan.favorites.allow\_public** to specify whether unauthenticated users are allowed to see **Favorites** in the navigator.
--   **[Enforce field ACLs for inbound query requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-enforce-field-acls-for-inbound-query-requests.md)**  
+-   **[Enable CRL-based certificate revocation checking for outbound HTTP requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-enable-crl-based-checking-for-outbound-http-requests.md)**  
+Use the **com.glide.communications.httpclient.disable\_crl\_check** property to control Certificate Revocation List \(CRL\) revocation checking for outbound HTTP requests over Transport Layer Security \(TLS\).
+-   **[Enforce CRL certificate revocation checking for outbound HTTP requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-enforce-certificate-revocation-check.md)**  
+Use the **com.glide.communications.httpclient.fail\_on\_non\_pass\_crl\_status** property to control whether the platform terminates outbound HTTP requests when Certificate Revocation List \(CRL\) checks can't determine revocation status.
+-   **[Enforce domain access control on all tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-enforce-domain-access-control-on-all-tables.md)**  
+The **glide.sys.domain.access\_handler.included\_tables** property controls which tables have cross-domain write protection enforced.
+-   **[Enforce field ACLs for inbound query requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-enforce-field-acls-for-inbound-query-requests.md)**  
 Manage how incoming queries are validated on your instance.
--   **[Enforce read ACLs on report views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-enforce-read-acls-on-report-views.md)**  
+-   **[Enforce read ACLs on report views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-enforce-read-acls-on-report-views.md)**  
 Manage how Read ACLs are enforced on your instance.
--   **[Enable Anti-CSRF Token for Userperf](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-enable-anti-csrf-token-for-userperf.md)**  
+-   **[Enable Anti-CSRF Token for Userperf](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-enable-anti-csrf-token-for-userperf.md)**  
 Use a system property to ensure CSRF \(Cross-Site Request Forgery\) protection is enforced when setting user preferences.
--   **[Enforce Query ACLs for Knowledge Quick Links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-enforce-query-acls-for-knowledge-quick-links.md)**  
+-   **[Enforce Query ACLs for Knowledge Quick Links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-enforce-query-acls-for-knowledge-quick-links.md)**  
 Enforce query ACLs for Knowledge Quick Links using a system property.
--   **[Enforce Query ACLs for SubLists, List Counts and Widget Data Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-enforce-query-acls-for-sublists-list-counts-and-widget-data-tables.md)**  
+-   **[Enforce Query ACLs for SubLists, List Counts and Widget Data Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-enforce-query-acls-for-sublists-list-counts-and-widget-data-tables.md)**  
 Enforce query ACLs on sublist, list count, and widget data table queries using system properties.
--   **[Enforce valid query string choice \[New in Security Center 7.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-enforce-valid-query-string-choice.md)**  
+-   **[Enforce valid query string choice \[New in Security Center 7.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-enforce-valid-query-string-choice.md)**  
 Use a system property to ensure that any choice field value, when passed via a URL query string, is a valid active choice when a record is created.
--   **[Ensure An Instance is Allowed to Connect to Only Trusted IP Addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-ensure-an-instance-is-allowed-to-connect-to-only-trusted-ip-addresses.md)**  
+-   **[Ensure An Instance is Allowed to Connect to Only Trusted IP Addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-ensure-an-instance-is-allowed-to-connect-to-only-trusted-ip-addresses.md)**  
 Use a system property to define a list of IP ranges that are appended to the outbound IP allow list.
--   **[Ensure only Trusted IP Addresses are Allowed to Connect to An Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/performance-monitoring-ip-restriction.md)**  
+-   **[Ensure only Trusted IP Addresses are Allowed to Connect to An Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/performance-monitoring-ip-restriction.md)**  
 Use a system property to define a list of IP ranges that are appended to the outbound IP allow list.
--   **[For Self-Hosted Instance, Ensure only Trusted IP Addresses are Allowed to Connect to An Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-for-self-hosted-instance-en.md)**  
+-   **[For Self-Hosted Instance, Ensure only Trusted IP Addresses are Allowed to Connect to An Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-for-self-hosted-instance-en.md)**  
 Use system properties to control which inbound IP addresses can connect to self-hosted instances.
--   **[Require authorization for data broker rest API \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-data-broker-rest-api-authorization.md)**  
+-   **[Prevent disabling of data separation enforcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-prevent-disabling-of-data-separation-enforcement.md)**  
+Prevent bypassing Mosaic domain-visibility filtering to maintain data separation boundaries across business units and customer domains.
+-   **[Require authorization for data broker rest API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-data-broker-rest-api-authorization.md)**  
 Use the **glide.basicauth.required.databrokerrestapiprocessor** property to require basic authorization for all inbound Data Broker Rest API requests.
--   **[Restricted Binding functionality in case Bearer Authorization \[New in Security Center 7.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-restricted-binding-functionality-in-case-bearer-authorization.md)**  
-Use a system property and restricted binding to ensure that an access token generated using that entity can’t be used for UI calls.
--   **[Deny by default with empty ACLs \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-security-manager-default-deny.md)**  
+-   **[Restricted Binding functionality in Case Bearer authorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-restricted-binding-functionality-in-case-bearer-authorization.md)**  
+Restricted Binding Functionality in Case Bearer Authorization
+-   **[Deny by default with empty ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-security-manager-default-deny.md)**  
 Use the **glide.sm.default\_mode** property to control the default behavior of security manager when it finds that existing Access Control List \(ACL\) rules are a part of wildcard table ACL rules.
--   **[Set Automatic Token Cleanup for Token Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-set-automatic-token-cleanup-for-token-credentials.md)**  
+-   **[Set automatic token cleanup for token credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-set-automatic-token-cleanup-for-token-credentials.md)**  
 Use the **com.snc.platform.security.token.auth.cleanup** property to ensure that expired API keys and HMAC secrets are deleted, thereby limiting the potential for token reuse.
 
-**Parent Topic:**[Hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/security-hardening-settings.md)
+**Parent Topic:**[Hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/security-hardening-settings.md)
 

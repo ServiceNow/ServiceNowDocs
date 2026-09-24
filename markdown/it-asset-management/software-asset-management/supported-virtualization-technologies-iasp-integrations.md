@@ -1,27 +1,27 @@
 ---
 title: Virtualization technologies and public cloud platforms supported by IBM Authorized SAM Provider \(ASP\) integrations
-description: IBM ASP integrations support IBM licensing in VMware vSphere, Nutanix, and IBM LPAR infrastructures. These integrations also support IBM licensing in public cloud environments that are owned and managed by AWS, Microsoft Azure, and Google Cloud Platform \(GCP\).
+description: IBM ASP integrations support IBM licensing in VMware vSphere Nutanix, and IBM LPAR infrastructures. These integrations also support IBM licensing in public cloud environments that are owned and managed by AWS, Microsoft Azure, and Google Cloud Platform \(GCP\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/supported-virtualization-technologies-iasp-integrations.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CVA integrations, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Virtualization technologies and public cloud platformssupported by IBM Authorized SAM Provider \(ASP\) integrations
 
-IBM ASP integrations support IBM licensing in VMware vSphere, Nutanix, and IBM LPAR infrastructures.These integrations also support IBM licensing in public cloud environments that are owned and managed by AWS, Microsoft Azure, and Google Cloud Platform \(GCP\).
+IBM ASP integrations support IBM licensing in VMware vSphere Nutanix, and IBM LPAR infrastructures.These integrations also support IBM licensing in public cloud environments that are owned and managed by AWS, Microsoft Azure, and Google Cloud Platform \(GCP\).
 
--   **[IBM licensing in VMware vSphere and Nutanix environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-licensing-vmware-vsphere-environment.md)**  
-When you integrate the Software Asset Management publisher pack for IBM with Software Asset Management providers that are authorized to participate in the IBM Client Value Acceleration \(CVA\) Program, the Software Asset Management application supports IBM licensing rules for VMware vSphereand Nutanix.
--   **[IBM licensing in IBM LPAR infrastructures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-licensing-ibm-lpar-infrastructure.md)**  
+-   **[IBM licensing in VMware vSphere environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/ibm-licensing-vmware-vsphere-environment.md)**  
+When you integrate the Software Asset Management publisher pack for IBM with Software Asset Management providers that are authorized to participate in the IBM Client Value Acceleration \(CVA\) Program, the Software Asset Management application supports IBM licensing rules for VMware vSphere and Nutanix.
+-   **[IBM licensing in IBM LPAR infrastructures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/ibm-licensing-ibm-lpar-infrastructure.md)**  
 When you integrate the Software Asset Management publisher pack for IBM with Software Asset Management providers that are authorized to participate in the IBM Client Value Acceleration \(CVA\) Program, the Software Asset Management application supports IBM licensing rules for IBM logical partitions.
--   **[IBM licensing in public cloud environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-licensing-public-cloud-environments.md)**  
+-   **[IBM licensing in public cloud environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/ibm-licensing-public-cloud-environments.md)**  
 When you integrate the Software Asset Management publisher pack for IBM with Software Asset Management providers that are authorized to participate in the IBM Client Value Acceleration \(CVA\) Program, the Software Asset Management application supports IBM licensing rules in public cloud environments.
 
-**Parent Topic:**[Client Value Acceleration \(CVA\) integrations for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-asp-integration.md)
+**Parent Topic:**[Client Value Acceleration \(CVA\) integrations for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/ibm-asp-integration.md)
 

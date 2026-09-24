@@ -3,9 +3,9 @@ title: User interface development with React
 description: Develop a user interface \(UI\) with the React library to build a full-stack application in source code.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-development-react.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Building applications in source code, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -20,7 +20,7 @@ React is an industry-standard web framework for building UI components that you 
 
 With the ServiceNow IDE or ServiceNow SDK, you can use React in an application to create a UI page in ServiceNow Fluent code. The ServiceNow Fluent UI Page API refers to an HTML entry point \(`index.html`\) that loads the page at the endpoint provided. After building and installing the application on an instance, the static assets are stored in the appropriate tables. For an example of a React application in source code, see the [ServiceNow SDK examples](https://github.com/ServiceNow/sdk-examples) GitHub repository. To get started using React, select one of the React templates when creating an application with the ServiceNow IDE or ServiceNow SDK.
 
-**Note:** You can use some Next Experience Components in a React application with the React Wrapper Component Library Node Package Manager \(npm\) package on the [public npm registry](https://www.npmjs.com/package/@servicenow/react-components). To use the React Wrapper Component Library in an application, you can use Build Agent or you must install it from the ServiceNow IDE or ServiceNow SDK. For more information, see [Use third-party libraries with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/use-third-party-libraries-ide.md) or [Use third-party libraries with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/use-third-party-libraries.md).
+**Note:** You can use some Next Experience Components in a React application with the React Wrapper Component Library Node Package Manager \(npm\) package on the [public npm registry](https://www.npmjs.com/package/@servicenow/react-components). To use the React Wrapper Component Library in an application, you can use Build Agent or you must install it from the ServiceNow IDE or ServiceNow SDK. For more information, see [Use third-party libraries with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/use-third-party-libraries-ide.md) or [Use third-party libraries with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/use-third-party-libraries.md).
 
 ## UI development process
 
@@ -45,7 +45,7 @@ The following list is a high-level overview of the process to develop a React ap
 
 -   The UI page HTML should be modified only in source code. Changes to the HTML of a UI page \[sys\_ui\_page\] on an instance aren't synchronized into source code and are likely to result in unintended behavior.
 -   Audio, video, and WASM content types aren't supported.
--   The maximum file size of uploaded attachments is limited by the size configured with **com.glide.attachment.max\_size** system property. For more information, see [Maximum allowed attachment size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/sc-max-allowed-attachment-size.md).
+-   The maximum file size of uploaded attachments is limited by the size configured with **com.glide.attachment.max\_size** system property. For more information, see [Maximum allowed attachment size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/sc-max-allowed-attachment-size.md).
 -   Output paths must be deterministic.
 -   Pre-loading content linked from HTML isn't supported \(`rel="preload"`\).
 -   Relative style sheets linked from HTML aren't supported \(`rel="stylesheet"`\). Import style sheets into code instead \(`@import 'path/to/style-sheet'`\).
@@ -119,7 +119,7 @@ After building and installing the application, you can open the page from the en
 **Related topics**  
 
 
-[UI Page API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-ui-page-api.md)
+[UI Page API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/fluent-ui-page-api.md)
 
-[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-fluent.md)
+[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-fluent.md)
 

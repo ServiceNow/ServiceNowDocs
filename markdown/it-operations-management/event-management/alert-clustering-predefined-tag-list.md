@@ -3,11 +3,11 @@ title: List of predefined alert grouping tags
 description: A list of the predefined alert clustering tags provided with the Tag Based Alert Clustering Engine  application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/alert-clustering-predefined-tag-list.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -44,5 +44,5 @@ A list of the predefined alert clustering tags provided with the Tag Based Alert
 |t\_environment|Environment|cmdb\_ci.environment|
 |t\_namespace|Namespace|cmdb\_ci.namespace|
 
-**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-management-reference.md)
+**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/event-management-reference.md)
 

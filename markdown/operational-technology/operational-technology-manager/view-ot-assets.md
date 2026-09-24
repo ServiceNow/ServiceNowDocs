@@ -3,11 +3,11 @@ title: Edit or view OT devices after import or discovery
 description: Use the options on the Operational Technology \(OT\) menu to edit or view detailed information for the OT devices in your enterprise.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/view-ot-assets.html
-release: australia
+release: brazil
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Operational Technology Manager, Operational Technology]
 ---
@@ -20,7 +20,7 @@ Use the options on the Operational Technology \(OT\) menu to edit or view detail
 
 Import your Operational Technology device data in any of the following ways:
 
--   Run IT Discovery for OT Networks. For more information, see [IT Discovery for Operational Technology \(OT\) Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/discovery-for-operational-technology.md).
+-   Run IT Discovery for OT Networks. For more information, see [IT Discovery for Operational Technology \(OT\) Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/discovery-for-operational-technology.md).
 -   Use an Operational Technology Certified Service Graph Connector from the ServiceNow Store.
 
 Role required: cmdb\_ot\_viewer, cmdb\_ot\_editor, cmdb\_ot\_admin, or admin
@@ -86,8 +86,8 @@ If you have an assigned cmdb\_ot\_viewer role, you can only view OT devices. If 
         **Note:** Bulk editing OT details is a background job that can take time to complete. If the background job is busy, you can't bulk edit other OT device records.
 
 
--   **[OT device related items and related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/ot-assets-related-links-and-lists.md)**  
+-   **[OT device related items and related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/ot-assets-related-links-and-lists.md)**  
 The All OT Devices, All OT Devices by IP Address, and All OT Devices by CI menu options contain several related items and lists.
 
-**Parent Topic:**[Using the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/using-operational-technology-manager.md)
+**Parent Topic:**[Using the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/using-operational-technology-manager.md)
 

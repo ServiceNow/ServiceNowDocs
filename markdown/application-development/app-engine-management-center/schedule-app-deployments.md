@@ -3,11 +3,11 @@ title: Schedule app deployments in AEMC
 description: Schedule apps to deploy to production at a future time to load balance your systems using the App Engine Management Center \(AEMC\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/schedule-app-deployments.html
-release: australia
+release: brazil
 product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage deployments, Use, App Engine Management Center, Governing app development, Building applications]
 ---
@@ -43,5 +43,5 @@ Deploying apps through your pipelines requires a certain amount of processing po
 6.  Select **Save**.
 
 
-**Parent Topic:**[Managing deployments using Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/manage-deployments-using-p-and-d-aemc.md)
+**Parent Topic:**[Managing deployments using Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/manage-deployments-using-p-and-d-aemc.md)
 

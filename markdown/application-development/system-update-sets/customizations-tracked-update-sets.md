@@ -3,11 +3,11 @@ title: Customizations tracked by update sets
 description: Update sets track customizations to application tables, fields, and records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/system-update-sets/customizations-tracked-update-sets.html
-release: australia
+release: brazil
 product: System Update Sets
 classification: system-update-sets
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, System update sets, Deploying applications, Building applications]
 ---
@@ -27,7 +27,7 @@ To see the list of tables where customizations are tracked, navigate to **System
 A default rule blocks the use of the update\_synch attribute on a table for which it isn’t predefined to avoid the following issues:
 
 -   Some core tables require special update handling because they represent information on multiple tables. When the update\_synch attribute is added to these tables, duplicate update records are created, causing major conflicts that are difficult to troubleshoot and repair.
--   Using the update\_synch attribute to migrate data records between instances can cause performance issues. To migrate data see [Import sets key concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/c_ImportSetsKeyConcepts.md) to use an instance-to-instance import.
+-   Using the update\_synch attribute to migrate data records between instances can cause performance issues. To migrate data see [Import sets key concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/c_ImportSetsKeyConcepts.md) to use an instance-to-instance import.
 
 ## Special handlers
 
@@ -67,16 +67,16 @@ Home pages and content pages aren’t added to update sets by default. Add pages
 
 The functionality found in homepages, arranging information from your instance to tell a story about your data, is found in dashboards on new instances. On upgraded instances with Next Experience enabled, users can view existing homepages if they have a direct URL, but they can't create or edit them. Responsive dashboards and Analytics Overview dashboards take over homepage functionality.
 
-Use the [Homepage deprecation help tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/homepage-deprecation-help-tool.md) to convert the homepages on your instance to responsive dashboards.
+Use the [Homepage deprecation help tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/homepage-deprecation-help-tool.md) to convert the homepages on your instance to responsive dashboards.
 
 For more information, see:
 
--   [Dashboards in the Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-dashboards.md).
--   [Working with responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_ResponsiveDashboards.md).
+-   [Dashboards in the Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/analytics-center-dashboards.md).
+-   [Working with responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/c_ResponsiveDashboards.md).
 
 ## Application changes
 
 The system creates a separate update set for each application that only contains changes associated with the application. This separation verifies that access settings for each application are properly evaluated and applied when committing update set changes.
 
-**Parent Topic:**[Update sets reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/update-sets-reference.md)
+**Parent Topic:**[Update sets reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/system-update-sets/update-sets-reference.md)
 

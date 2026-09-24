@@ -3,13 +3,13 @@ title: Configure crawl settings for a Trello external content connector
 description: Specify the workspaces you want your Trello external content connector to crawl. Define inclusion or exclusion filters to dictate the types of content the crawl retrieves and feeds to AI Search for indexing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-crawl-settings-trello-external-content-connector.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-05-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Trello external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -19,7 +19,7 @@ Specify the workspaces you want your Trello external content connector to crawl.
 
 ## Before you begin
 
-A connector administrator must have already created the Trello external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a Trello external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-trello.md).
+A connector administrator must have already created the Trello external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a Trello external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-ext-cont-connector-trello.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 
@@ -90,8 +90,8 @@ If one of your connectors reaches the content indexing limit, you can update its
 
     This option is only available when the Platform Multimodal Service plugin is activated on your instance.
 
-    -   For details on activating the plugin, see [Activate the Platform Multimodal Service plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/activate-platform-multimodal-service-plugin.md).
-    -   To learn how to select the VLM \(visual learning model\) provider and model used for the Platform Multimodal Service, see [Configure multimodal captioning for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.md).
+    -   For details on activating the plugin, see [Activate the Platform Multimodal Service plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/activate-platform-multimodal-service-plugin.md).
+    -   To learn how to select the VLM \(visual learning model\) provider and model used for the Platform Multimodal Service, see [Configure multimodal captioning for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.md).
 8.  Select **Save and validate**.
 
 
@@ -101,7 +101,7 @@ The Trello external content connector is updated with your modified crawl settin
 
 ## What to do next
 
-To retrieve content from your Trello source system using your modified crawl settings, create and run a one-time content crawl for your Trello external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-content-crawl-external-content-connector.md).
+To retrieve content from your Trello source system using your modified crawl settings, create and run a one-time content crawl for your Trello external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-content-crawl-external-content-connector.md).
 
-**Parent Topic:**[Trello external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/trello-external-content-connector.md)
+**Parent Topic:**[Trello external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/trello-external-content-connector.md)
 

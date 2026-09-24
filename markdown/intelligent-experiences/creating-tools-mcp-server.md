@@ -3,12 +3,12 @@ title: Creating tools for a Model Context Protocol server
 description: You can create tools from various tool categories to expose ServiceNow capabilities to Model Context Protocol \(MCP\) clients from MCP servers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/creating-tools-mcp-server.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [Create tool for MCP server]
-breadcrumb: [Configure, MCP Server Console, Enable AI experiences]
+breadcrumb: [Configure, MCP Server Console, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Creating tools for a Model Context Protocol server
@@ -19,11 +19,11 @@ You can create tools from various tool categories to expose ServiceNow capabilit
 
 Tools define which functionality and data an MCP server exposes to clients and the actions that can be performed on an instance by MCP clients. You can create tools based on the following capabilities:
 
--   [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-subflow-tool.md)
--   [Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-action-tool.md)
--   [Knowledge Graph schemas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a-tool-from-knowledge-graphs.md)
--   [REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a-tool-from-rest-api.md)
--   [AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a-tool-from-naskill.md), including custom skills created with AI Skill Kit
+-   [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-subflow-tool.md)
+-   [Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-action-tool.md)
+-   [Knowledge Graph schemas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-a-tool-from-knowledge-graphs.md)
+-   [REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-a-tool-from-rest-api.md)
+-   [AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-a-tool-from-naskill.md), including custom skills created with AI Skill Kit
 
 Tools include inputs that correspond to the fields of the existing capability. Any inputs that are enabled for a tool are exposed to clients. Each server must include at least one tool, and tools must be in the same application scope as any servers that contain them.
 
@@ -45,7 +45,7 @@ Evaluating ACL enforcement depends on who is calling a tool and which capability
 
     Tool calls execute under the identity of the integration user account rather than any individual end user's identity. What an agent can access is controlled by the integration user's roles and by the tool-level ACLs two layers, which are evaluated independently and both must permit the call for a tool to return data:
 
-    -   The integration user must hold the roles required for every tool the agent will call. Under-provisioning this account causes tool calls to fail while over-provisioning creates unnecessary risk. For more information about configuring this account, see [Create an OAuth inbound integration for an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-oauth-inbound-integration-mcp-client.md).
+    -   The integration user must hold the roles required for every tool the agent will call. Under-provisioning this account causes tool calls to fail while over-provisioning creates unnecessary risk. For more information about configuring this account, see [Create an OAuth inbound integration for an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-oauth-inbound-integration-mcp-client.md).
     -   Tool-level ACLs control whether execution is permitted at the level of the tool itself, independent of the integration user's roles. Configuration requirements differ by tool type.
 
 ## ACL requirements for MCP tools
@@ -66,7 +66,7 @@ AI skill tools
 
 </td><td>
 
-An execute ACL and role masking is required for any custom AI skill to be used as a tool. Otherwise a tool can return empty results instead of an authorization error, which can be difficult to diagnose as a permissions issue rather than a data issue.For more information, see [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/create-new-skill.md) and [Create a tool from an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a-tool-from-naskill.md).
+An execute ACL and role masking is required for any custom AI skill to be used as a tool. Otherwise a tool can return empty results instead of an authorization error, which can be difficult to diagnose as a permissions issue rather than a data issue.For more information, see [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/create-new-skill.md) and [Create a tool from AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-a-tool-from-naskill.md).
 
 </td></tr><tr><td>
 
@@ -74,7 +74,7 @@ Subflow and Action tools
 
 </td><td>
 
-An AI ACL is required for any Subflow or Action to be used as an MCP tool.For more information, see [Create an AI ACL for a Subflow or Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-acl.md) and [Check the compatibility of a Subflow or Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/check-compatibility-of-subflow.md).
+An AI ACL is required for any Subflow or Action to be used as an MCP tool.For more information, see [Create an AI ACL for a Subflow or Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-ai-acl.md) and [Check the compatibility of a Subflow or Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/check-compatibility-of-subflow.md).
 
 </td></tr><tr><td>
 
@@ -82,28 +82,28 @@ Knowledge Graph tools
 
 </td><td>
 
-ACL enforcement happens at the node level during every graph traversal. Two users or agents with different permissions issuing the identical query can receive different results, based on what each caller is permitted to see.For more information, see [Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/knowledge-graph-landing.md) and [Create a tool from a Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a-tool-from-knowledge-graphs.md).
+ACL enforcement happens at the node level during every graph traversal. Two users or agents with different permissions issuing the identical query can receive different results, based on what each caller is permitted to see.For more information, see [Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/knowledge-graph/knowledge-graph-landing.md) and [Create a tool from a Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-a-tool-from-knowledge-graphs.md).
 
 </td></tr></tbody>
-</table>-   **[Create a tool from a Subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-subflow-tool.md)**  
+</table>-   **[Create a tool from a Subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-subflow-tool.md)**  
 Create a tool from a Subflow to expose it to Model Context \(MCP\) clients from an MCP Server.
--   **[Create a tool from an Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-action-tool.md)**  
+-   **[Create a tool from an Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-action-tool.md)**  
 Create a tool from an Action to expose it to Model Context Protocol \(MCP\) clients from an MCP Server.
--   **[Create a tool from a Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a-tool-from-knowledge-graphs.md)**  
+-   **[Create a tool from a Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-a-tool-from-knowledge-graphs.md)**  
 Create a tool from a Knowledge Graph to expose it to Model Context Protocol \(MCP\) clients from an MCP Server.
--   **[Create a tool from a REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a-tool-from-rest-api.md)**  
+-   **[Create a tool from a REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-a-tool-from-rest-api.md)**  
 Create a tool from a REST API to expose it to Model Context Protocol \(MCP\) clients from an MCP Server.
--   **[Create a tool from an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a-tool-from-naskill.md)**  
-Create a tool from a generative AI skill to expose it to Model Context Protocol \(MCP\) clients from an MCP Server.
+-   **[Create a tool from AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-a-tool-from-naskill.md)**  
+Create a tool from generative AI skills to expose it to Model Context Protocol \(MCP\) clients from an MCP Server.
 
-**Parent Topic:**[Configuring MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-mcp-server-console.md)
+**Parent Topic:**[Configuring MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-mcp-server-console.md)
 
 **Related topics**  
 
 
-[Create an AI ACL for a Subflow or Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-acl.md)
+[Create an AI ACL for a Subflow or Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-ai-acl.md)
 
-[Check the compatibility of a Subflow or Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/check-compatibility-of-subflow.md)
+[Check the compatibility of a Subflow or Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/check-compatibility-of-subflow.md)
 
-[Create an OAuth inbound integration for an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-oauth-inbound-integration-mcp-client.md)
+[Create an OAuth inbound integration for an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-oauth-inbound-integration-mcp-client.md)
 

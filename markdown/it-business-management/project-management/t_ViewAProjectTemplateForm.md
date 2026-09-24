@@ -3,11 +3,11 @@ title: Create a project template
 description: Create a template from an existing template or a project.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_ViewAProjectTemplateForm.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Applying templates to projects, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -28,15 +28,15 @@ When you create a template from a project, all the project attachments and check
 
 1.  Create a template.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d343520e68">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d344250e68">
 
 Option
 
-</th><th align="left" id="d343520e71">
+</th><th align="left" id="d344250e71">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d343520e77">
+</th></tr></thead><tbody><tr><td id="d344250e77">
 
 **From an existing template**
 
@@ -48,7 +48,7 @@ Steps
 4.  The Copy Template dialog box opens. The **Template** field is auto-filled with the current template name.
 
 
-</td></tr><tr><td id="d343520e122">
+</td></tr><tr><td id="d344250e122">
 
 **From a project**
 
@@ -76,7 +76,7 @@ Steps
 5.  Select **Update**.
 
 
-**Parent Topic:**[Applying templates to projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectTemplates.md)
+**Parent Topic:**[Applying templates to projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_ProjectTemplates.md)
 
 **Related topics**  
 
@@ -91,5 +91,5 @@ Steps
 
 [Project template configuration]()
 
-[Applying templates to projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectTemplates.md)
+[Applying templates to projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_ProjectTemplates.md)
 

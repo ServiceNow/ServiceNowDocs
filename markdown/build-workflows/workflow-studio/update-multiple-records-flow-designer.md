@@ -3,11 +3,11 @@ title: Update Multiple Records action
 description: Look up and update multiple records as a single action. Using this action removes the need to separately look up a list of records and then process the list with For Each flow logic. Set field values with a template or add and configure them using data pills.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/update-multiple-records-flow-designer.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Actions, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -54,7 +54,7 @@ Field Values
 
 Set static or dynamic values of fields in the record. For example, to set the short description to a static value, select **Short description** and set the desired value.
 
- To add dynamic values, see [Create a template value input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/template-value.md).
+ To add dynamic values, see [Create a template value input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/template-value.md).
 
  **Important:** The system does not support updating multiple journal fields such as the additional comments or work notes of a task record.
 
@@ -139,5 +139,5 @@ The completion status of the action as a numeric value.-   0 \(success\)
 Choice
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
+</table>**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-actions.md)
 

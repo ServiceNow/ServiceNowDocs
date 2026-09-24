@@ -1,20 +1,20 @@
 ---
 title: Attach a script file to a file synchronized MID Server
-description: You can attach a script file to synchronize to a connected MID Server.Script files attached to a record stay synchronized with a connected MID Server.
+description: You can attach a script file to synchronize to a connected MID Server. Windows Internet Explorer enhanced security blocks downloaded files that it determines are potentially dangerous. However synchronizing the files avoids this security problem.Script files attached to a record stay synchronized with a connected MID Server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-server-script-attach.html
-release: australia
+release: brazil
 product: MID Server
 classification: mid-server
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Securing and encrypting MID Server data, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Attach a script file to a file synchronized MID Server
 
-You can attach a script file to synchronize to a connected MID Server.
+You can attach a script file to synchronize to a connected MID Server. Windows Internet Explorer enhanced security blocks downloaded files that it determines are potentially dangerous. However synchronizing the files avoids this security problem.
 
 ## Before you begin
 
@@ -27,7 +27,9 @@ Role required: **admin**
 </td></tr></tbody>
 </table>## About this task
 
-Use file synchronization to make script files available on a connected MID Server. The files on the instance and the MID Server stay synchronized, so there is no need for the MID Server to download the whole file. File synchronization also helps prevent updates you make in those script files from being overwritten during an instance upgrade.
+Enhanced security in Windows browsers, such as Internet Explorer, blocks downloaded files that it determines are potentially dangerous. This would block files downloaded for use by the MID Server. You would need to unblock each file manually through the browser.
+
+To get around this issue, use file synchronization. File synchronization requires you to proactively take script files from your instance and save them on the MID Server. The files on the instance and the MID server stay synchronized, but there is no longer any need for the MID Server to download the whole file. File synchronization also protects any updates you make in those script files from being overwritten during the upgrade of an instance.
 
 You can attach multiple files, but the last attached file gets synchronized to the MID Server. If you delete the attachment, the script file becomes inactive, and the synchronized file is deleted from the MID Server.
 
@@ -48,7 +50,7 @@ You can attach multiple files, but the last attached file gets synchronized to t
     Ensure that the file name matches the script name. If you receive the error message: `File type not permitted or mime type does not match the file content`, request that your administrator turn off mime type validation on attachments. The system property **glide.security.file.mime\_type.validation** controls this setting.
 
 
-**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-security-encryption.md)
+**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-server-security-encryption.md)
 
 **Related topics**  
 
@@ -73,8 +75,6 @@ You can attach multiple files, but the last attached file gets synchronized to t
 
 [Add SSL certificates for the MID Server]()
 
-[Specify an external TrustStore for the MID Server]()
-
 [MID Server SSH cryptographic algorithms]()
 
 [MID Server FIPS Enforced Mode]()
@@ -91,7 +91,7 @@ When the MID Server first connects to the instance, the instance creates a direc
 
 The instance creates each script file in the parent directory on the MID Server using the record Name from the ecc\_agent\_script\_file table as the file name and the Script field payload as the file contents. The synchronization of the script file continues to work as if the script was manually added to the form.
 
-See [Attach a script file to a file synchronized MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-script-attach.md) for instructions on how to attach a script file.
+See [Attach a script file to a file synchronized MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-server-script-attach.md) for instructions on how to attach a script file.
 
-**Note:** The MID Server Script File \[ecc\_agent\_script\_file\] table is domain separated. You can create versions of these policies that only a MID Server from the same domain can use. For instructions, see [Set up domain separation for MID servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerDomainSeparation.md).
+**Note:** The MID Server Script File \[ecc\_agent\_script\_file\] table is domain separated. You can create versions of these policies that only a MID Server from the same domain can use. For instructions, see [Set up domain separation for MID servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/c_MIDServerDomainSeparation.md).
 

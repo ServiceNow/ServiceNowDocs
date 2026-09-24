@@ -3,9 +3,9 @@ title: Life cycle of a Public Service case
 description: A public service request case within one of the three Public Sector Digital Services playbook applications can be in one of several states as it progresses through the fulfillment cycle.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/government-service-case-states.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Service Catalog, Reference, Public Sector Digital Services \(PSDS\)]
 ---

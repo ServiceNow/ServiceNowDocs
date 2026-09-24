@@ -3,11 +3,11 @@ title: Identify the automation opportunities on ITSM Success Dashboard
 description: Identify the automation opportunities for ITSM Success Dashboard to implement or improve automation solutions for Virtual Agent \(VA\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-success-dashboard-indicators/view-auto-opportunities.html
-release: australia
+release: brazil
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, ITSM Success Dashboard indicators, IT Service Management]
 ---
@@ -32,8 +32,8 @@ Role required: sn\_sd.success\_dashboard\_details\_read
 
 5.  Select **View in Automation Discovery**.
 
-    For more information on Automation Discovery, refer [Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/automation-discovery.md).
+    For more information on Automation Discovery, refer [Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/automation-discovery.md).
 
 
-**Parent Topic:**[Configuring ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/configure-success-dashboards.md)
+**Parent Topic:**[Configuring ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-success-dashboard-indicators/configure-success-dashboards.md)
 

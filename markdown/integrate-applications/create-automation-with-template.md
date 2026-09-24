@@ -3,9 +3,9 @@ title: Create an automation project from a template
 description: Create an automation project from the default automation templates that RPA Desktop Design Studio provides or the templates that you have designed on the RPA Desktop Design Studio and published to the RPA Hub. An automation template caters to a use case and provides a framework of automation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-automation-with-template.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Build, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -53,5 +53,5 @@ The default templates that the RPA Desktop Design Studio provides are RPA Deskto
     \[Omitted image "rpa-studio-automation-template.png"\] Alt text: Automation template.
 
 
-**Parent Topic:**[Building automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-studio-build.md)
+**Parent Topic:**[Building automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/rpa-studio-build.md)
 

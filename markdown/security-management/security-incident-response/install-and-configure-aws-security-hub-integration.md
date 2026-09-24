@@ -3,11 +3,11 @@ title: Install and configure the AWS Security Hub integration
 description: Install and configure the AWS Security Hub integration from the ServiceNow Store on your ServiceNow AI Platform instance to start ingesting AWS Security Hub findings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/install-and-configure-aws-security-hub-integration.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Amazon Web Services \(AWS\) Security Hub integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

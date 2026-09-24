@@ -3,9 +3,9 @@ title: Configuring Financial Services Operations Integration with Verifi
 description: Configure the connection between ServiceNow FSO Dispute Management application to the Verifi Cardholder Dispute Resolution Network \(CDRN\) API to enable end-to-end dispute case submission and resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/configure-financial-services-integration-with-verifi-cdrn.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Verifi, Integrate, Financial Services Operations \(FSO\)]
 ---
@@ -35,19 +35,19 @@ Obtain the following information from the Verifi team.
 
 ## Procedure
 
-1.  [Configure the REST End Point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-rest-end-point.md)
+1.  [Configure the REST End Point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-rest-end-point.md)
 
-2.  [Import the TLS Certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/import-the-tls-certificate.md)
+2.  [Import the TLS Certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/import-the-tls-certificate.md)
 
-3.  [Configure the Authentication Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-the-authentication-profile.md)
+3.  [Configure the Authentication Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-the-authentication-profile.md)
 
 
--   **[Configure the REST End Point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-rest-end-point.md)**  
+-   **[Configure the REST End Point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-rest-end-point.md)**  
 The REST Endpoint record in ServiceNow® stores the base URL, API version header, and connection properties for the Verifi API. Create two endpoint records: one for UAT testing and one for Production.
--   **[Import the TLS Certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/import-the-tls-certificate.md)**  
+-   **[Import the TLS Certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/import-the-tls-certificate.md)**  
 The Verifi API endpoint is HTTPS-only. ServiceNow® must trust the Verifi/Visa CA certificate chain to establish a secure connection. This section covers importing the certificate into the ServiceNow® certificate store.
--   **[Configure the Authentication Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-the-authentication-profile.md)**  
+-   **[Configure the Authentication Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-the-authentication-profile.md)**  
 The Verifi Issuer API uses JSON Web Tokens \(JWT\) for authentication. A fresh JWT must be generated for every API call. This section explains how to store credentials securely and how the ServiceNow® script generates and attaches the JWT.
 
-**Parent Topic:**[Financial Services Operations Integration with Verifi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-operations-verifi-cdrn-integration-app-landing-page.md)
+**Parent Topic:**[Financial Services Operations Integration with Verifi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-operations-verifi-cdrn-integration-app-landing-page.md)
 

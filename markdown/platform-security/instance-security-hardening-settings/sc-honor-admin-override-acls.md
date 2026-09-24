@@ -1,26 +1,26 @@
 ---
 title: Honor admin override ACLs
-description: The glide.security.admin.override.accessterm property controls whether an administrator can bypass an access rule when a resource \(a table or a field\) has multiple access rules.
+description: The glide.security.admin.override.accessterm property controls whether admins can control override access control list \(ACL\) evaluation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-honor-admin-override-acls.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-08-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
 # Honor admin override ACLs
 
-The **glide.security.admin.override.accessterm** property controls whether an administrator can bypass an access rule when a resource \(a table or a field\) has multiple access rules.
+The **glide.security.admin.override.accessterm** property controls whether admins can control override access control list \(ACL\) evaluation.
 
-Each individual access rule can be configured to allow or disallow an admin override on its own. When set to `true` \(recommended\), each rule's admin override setting is honored individually. A rule explicitly  configured to disallow an admin override still blocks the administrator even if another rule on the same resource permits it.
+The **glide.security.admin.override.accessterm** property controls how the platform decides whether an administrator can bypass an access rule when a resource \(for example, a table, a field\) has more than one access rule applied to it. Each individual access rule can be configured to grant or deny an admin override on its own.
 
-When set to `false`, rules are evaluated cumulatively. An admin can bypass one rule's override restriction if any other applicable rule permits it.
+When this property is set to its recommended value of **true**, the per-rule setting is honored individually. A rule explicitly configured to deny an admin override still blocks the administrator even if another rule on the same resource permits one. When set to **false**, the bypass decision is instead made at a broader, combined level. This can let an administrator through even though one of the applicable rules was specifically configured to block the override.
 
-Set the **glide.security.admin.override.accessterm** property to true to ensure that access rules explicitly configured to deny override still blocks admins.
+Ensure that the property **glide.security.admin.override.accessterm** system property is set to **true**.
 
 ## More information
 
@@ -70,7 +70,7 @@ Default value
 
 </td><td>
 
-&lt;none&gt;
+true
 
 </td></tr><tr><td>
 
@@ -78,7 +78,7 @@ Fallback value
 
 </td><td>
 
-true
+false
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ Category
 
 </td><td>
 
-[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -96,7 +96,7 @@ Security risk
 
 -   Severity score: 3.8
 -   CVSS rating: Low
--   Security risk details: If access checks are too coarse, one rule's override denial is silently ignored in favor of a more permissive rule on the same resource. This allows admins to read or modify data and configurations that  were intentionally locked down. Failure to enforce fine-grained evaluation of these override decisions may result in unauthorized access to sensitive information.
+-   Security risk details: When access checks are evaluated coarsely, a privileged user can access a resource despite rules set to deny override. This allows the most restrictive protection to be ignored in favor of a more permissive rule on the same resource. Protected data can be set to readable or writable, risking unauthorized access to sensitive information.
 
 </td></tr><tr><td>
 
@@ -104,9 +104,7 @@ Functional impact
 
 </td><td>
 
-When set to `true`, this property affects only admin access to resources with multiple access rules. Regular users and single-rule resources are unaffected.
-
-  Test that admins can't bypass override denials on a resource with multiple layered rules. Verify that if one rule denies admin override, that rule blocks the admin even if another rule permits override.  This change has no service availability impact.
+Changing this property to **true** affects only elevated-admin access decisions on resources governed by more than one access rule; regular users and single-rule resources see no behavior change. After the change, test contextual security scenarios where an admin role is granted access to a field or record through multiple layered rules, confirming that a rule explicitly configured to deny override still blocks the admin as expected. No service availability impact is expected since the change only tightens an authorization decision path.
 
 </td></tr><tr><td>
 
@@ -117,7 +115,7 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+</table>To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
+**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

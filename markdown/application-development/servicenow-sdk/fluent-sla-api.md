@@ -3,11 +3,11 @@ title: Service Level Agreement API - ServiceNow Fluent
 description: The Service Level Agreement API defines service level agreements \[contract\_sla\] that set the amount of time for a task to reach a specified condition, ensuring that tasks are resolved according to the service levels agreed between a service provider and customer.Create an SLA definition \[contract\_sla\] that controls the timing, conditions, workflows, and other information required to create and progress task SLAs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-sdk/fluent-sla-api.html
-release: australia
+release: brazil
 product: ServiceNow SDK
 classification: servicenow-sdk
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 keywords: [servicenow fluent, fluent api, servicenow fluent, fluent api]
 breadcrumb: [ServiceNow Fluent API reference, Reference, ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
@@ -19,14 +19,14 @@ The Service Level Agreement API defines service level agreements \[contract\_sla
 
 **Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/category/api-reference) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
 
-For general information about SLAs, see [Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-mgmt-landing-page.md).
+For general information about SLAs, see [Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-mgmt-landing-page.md).
 
-**Parent Topic:**[ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/servicenow-fluent-api-reference.md)
+**Parent Topic:**[ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/servicenow-fluent-api-reference.md)
 
 **Related topics**  
 
 
-[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-fluent.md)
+[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-fluent.md)
 
 ## Sla object
 
@@ -54,7 +54,7 @@ String or Number
 
 </td><td>
 
-Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-constructs.md).Format: `Now.ID['String' or Number]`
+Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/fluent-constructs.md).Format: `Now.ID['String' or Number]`
 
 </td></tr><tr><td>
 
@@ -158,7 +158,7 @@ Reference or String
 
 </td><td>
 
-The sys\_id of a relative duration \[cmn\_relative\_duration\], such as Breach on Due Date or End of next business day, to use instead of a user-specified duration. To define a relative duration, use the [Record API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/record-api-now-ts.md).
+The sys\_id of a relative duration \[cmn\_relative\_duration\], such as Breach on Due Date or End of next business day, to use instead of a user-specified duration. To define a relative duration, use the [Record API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/record-api-now-ts.md).
 
 </td></tr><tr><td>
 
@@ -189,7 +189,7 @@ Reference or String
 
 </td><td>
 
-The sys\_id of a schedule \[cmn\_schedule\] for the time periods during which the SLAs accumulate business time. To define a schedule, use the [Record API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/record-api-now-ts.md).This property is required if the value of the scheduleSource property is `sla_definition`.
+The sys\_id of a schedule \[cmn\_schedule\] for the time periods during which the SLAs accumulate business time. To define a schedule, use the [Record API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/record-api-now-ts.md).This property is required if the value of the scheduleSource property is `sla_definition`.
 
 </td></tr><tr><td>
 
@@ -231,7 +231,7 @@ Object
 
 </td><td>
 
-Encoded query conditions that control the timing of an SLA. For example, `'priority=1^state!=6'` matches tasks with a priority of 1 that aren’t in a closed state.For more information about SLA conditions, see [Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/t_CreateAnSLADefinition.md). For information about filter queries, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
+Encoded query conditions that control the timing of an SLA. For example, `'priority=1^state!=6'` matches tasks with a priority of 1 that aren’t in a closed state.For more information about SLA conditions, see [Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/t_CreateAnSLADefinition.md). For information about filter queries, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
 
 Format:
 
@@ -416,7 +416,7 @@ Reference or String
 
 </td><td>
 
-The variable identifier or sys\_id of a workflow \[wf\_workflow\] to run when the SLA reaches a milestone or breaches. To define a workflow, use the [Record API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/record-api-now-ts.md).
+The variable identifier or sys\_id of a workflow \[wf\_workflow\] to run when the SLA reaches a milestone or breaches. To define a workflow, use the [Record API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/record-api-now-ts.md).
 
 </td></tr><tr><td>
 
@@ -428,7 +428,7 @@ Reference or String
 
 </td><td>
 
-The variable identifier or sys\_id of a flow \[sys\_hub\_flow\] to run when the SLA reaches a milestone or breaches. To define a flow, use the [Flow API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-flow-api.md).Default: Default SLA flow \(828f267973333300e289235f04f6a7a3\)
+The variable identifier or sys\_id of a flow \[sys\_hub\_flow\] to run when the SLA reaches a milestone or breaches. To define a flow, use the [Flow API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/fluent-flow-api.md).Default: Default SLA flow \(828f267973333300e289235f04f6a7a3\)
 
 </td></tr><tr><td>
 
@@ -440,7 +440,7 @@ Reference or String
 
 </td><td>
 
-The variable identifier or sys\_id of a company \[core\_company\] that is the vendor for an underpinning contract SLA. To define a company, use the [Record API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/record-api-now-ts.md).
+The variable identifier or sys\_id of a company \[core\_company\] that is the vendor for an underpinning contract SLA. To define a company, use the [Record API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/record-api-now-ts.md).
 
 </td></tr><tr><td>
 

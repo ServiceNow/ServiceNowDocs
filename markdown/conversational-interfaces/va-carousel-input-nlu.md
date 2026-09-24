@@ -1,0 +1,365 @@
+---
+title: \(Legacy\) Carousel user input control
+description: Use the Carousel user input control in a Virtual Agent topic to present a prompt and a horizontal series of labeled images. The user can select a single item from the carousel.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/va-carousel-input-nlu.html
+release: brazil
+topic_type: reference
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+keywords: [Carousel, user input, control, node, Virtual Agent, designer, images, photos]
+breadcrumb: [User input controls for NLU, Virtual Agent Designer interface reference, NLU reference, \(Legacy\) Virtual Agent for NLU, Conversational Interfaces]
+---
+
+# \(Legacy\) Carousel user input control
+
+Use the Carousel user input control in a Virtual Agent topic to present a prompt and a horizontal series of labeled images. The user can select a single item from the carousel.
+
+**Tip:** If you want to change the default number of listed items per page, you can modify the **com.glide.cs.picker\_page\_limit** system property. The default value is 10.
+
+## Carousel input control properties for NLU topic discovery
+
+<table id="table_nff_y1b_3db"><thead><tr><th>
+
+Property
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Node name
+
+</td><td>
+
+Name that identifies this node in the topic flow.
+
+</td></tr><tr><td>
+
+Variable name
+
+</td><td>
+
+Name of the variable that stores the user response to this prompt. The variable name is automatically created from the **Node name** property.
+
+</td></tr><tr><td>
+
+Prompt
+
+</td><td>
+
+Prompt or question for the user. The prompt can be either a text string or a script that returns text. This value is used only when the default value is not specified. For example: `What's your name?`
+
+</td></tr><tr><td>
+
+NLU entity
+
+</td><td>
+
+Option to associate an NLU entity with the node. If an NLU entity is associated with the input variable for this node, Virtual Agent can slot-fill the specified value based on the user's utterance. Select an entity from the list of entities associated with the topic intent.
+
+ When you specify an entity for the node, the Do not ask users to confirm recognized entity toggle switch is displayed. When enabled, users are not prompted to confirm the extracted entity.
+
+ This field is available only when NLU discovery is enabled on the instance.
+
+</td></tr><tr><td>
+
+Define carousel items
+
+</td><td>
+
+Use a script to create items for selection in your carousel. The script should return an array containing one or more items. See the Example carousel item expression section in this topic.
+
+</td></tr><tr><td>
+
+No records response message
+
+</td><td>
+
+Message displayed to the user when the table search doesn’t return any records. The message can be either a text string or a script that returns text.
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+Advanced
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+Default value
+
+</td></tr><tr><td>
+
+Default value
+
+</td><td>
+
+Predefined value for the user response to the question or prompt. The response defined in the **Default value confirmation** field asks the user to confirm the default value. If the user responds with `no`, the value becomes null. The default value can be either a text string or a script that returns text. For example, if you're using dot-walking, the default value might be: `Script Variables > Last username`. Or if you're using a script, the default value might be: `{{vaScripts.lastUsername}}`.
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+Confirmation messages
+
+</td></tr><tr><td>
+
+Input completion confirmation
+
+</td><td>
+
+Bot response shown to the user when the node interaction is complete. The message can be either a text string or a script that returns text. For example, if you're using dot-walking: `Thanks, (Input Variables > Username)!` Or if you're using a script, the acknowledgement might be: `Thanks, {{vaInputs.username}}!`
+
+</td></tr><tr><td>
+
+Default value confirmation
+
+</td><td>
+
+Message that asks the user to verify that the value in the **Default value** field is correct. This message is used instead of a value in the **Prompt** field. It can contain either a text string or a script that returns text. For example, if you're using dot-walking: `Are you (Input Variables > Username)?` Or if you're using a script, the confirmation message might be: `Are you {{vaScripts.lastUsername}}?`.
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+Conversation switching
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+This section is available only when NLU discovery is enabled on the instance.
+
+</td></tr><tr><td>
+
+Turn on to let users change the subject
+
+</td><td>
+
+Option to enable NLU prediction for this node. If enabled, users can enter text to answer questions, regardless of the type of input control being used. Virtual Agent uses this utterance to match another existing intent, letting the user switch topics.
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+Hide or skip this node
+
+</td></tr><tr><td>
+
+Conditionally show this node if
+
+</td><td>
+
+No-code condition statement or low-code script that specifies a condition for presenting this node in the conversation. The condition must evaluate to true.
+
+</td></tr><tr><td>
+
+Allow user to skip this node if
+
+</td><td>
+
+No-code condition statement or low-code script that specifies a condition for letting users skip this node in the conversation. The condition must evaluate to true. You can set this field using either the condition builder or a script.
+
+</td></tr><tr><td>
+
+Skip reprompting if
+
+</td><td>
+
+No-code condition statement or low-code script that specifies a condition for letting users skip reprompting in the conversation. When a preceding node is revisited through a topic loopback or Dialog Act, Virtual Agent bypasses this node and automatically retains its original value.
+
+</td></tr></tbody>
+</table>## Example Carousel input control for NLU topic discovery
+
+**Note:** Virtual Agent Designer controls may display and function differently in other channels.
+
+<table id="table_f1f_v2p_xdb"><thead><tr><th>
+
+Carousel properties
+
+</th><th>
+
+Carousel prompt
+
+</th></tr></thead><tbody><tr><td rowspan="2">
+
+\[Omitted image "va-carousel-properties.png"\] Alt text: Basic properties include the node name, prompt, NLU entity, script definition for carousel items, and a "no records" response message.
+
+</td><td>
+
+\[Omitted image "va-carousel-native.png"\] Alt text: Example chat in which the prompt asks, "Select an image."
+
+</td></tr><tr><td>
+
+\[Omitted image "va-carousel-mobile.png"\] Alt text: Example chat in which the prompt asks, "Please select one of the catalog items." The current selection shows an iMac computer.
+
+</td></tr></tbody>
+</table>## Example carousel item expression
+
+```
+(function execute() {
+    var options = [];
+       options.push(
+            {
+                'Name': 'Item 1',
+                'Value': 'item_1',
+                'Description': 'Acme keyboard model 200',
+                'Body': 'https://images.pexels.com/photos/688666/pexels-photo-688666.jpeg'
+                'Card_name': 'AcmeCard'
+                'Card_data': {"identifier":"IT hardware and software","header":"Acme keyboard model 200","description":"The model 200 keyboard is a ten-key-less keyboard."}
+            }
+       );
+       options.push(
+            {
+                'Name': 'Item 2',
+                'Value': 'item_2',
+                'Description': 'Acme keyboard model 300',
+                'Body': 'https://images.pexels.com/photos/916472/pexels-photo-916472.jpeg'
+                'Card_name': 'AcmeCard'
+                'Card_data': {"identifier":"IT hardware and software","header":"Acme keyboard model 300","description":"The model 300 keyboard is a full-size keyboard with a ten-key pad."}
+            }
+       );
+       return options;
+
+})()
+```
+
+The script in the Carousel Item Expression property defines and returns an array containing the items that appear in your carousel. The elements of this array must contain `name`, `value`, and `body` keys. In the example, the script creates an array called `options` and adds two elements, each with the required keys. The images here are hard-coded as an example.
+
+|Key|Description|
+|---|-----------|
+|Name|Name of the carousel item. This name is shown below the image on the carousel.|
+|Value|Value for the item. When a user selects a carousel item, this value is stored in the variable named in the Variable name property.|
+|Description|Text string that describes the carousel item. The description is shown below the image name. A carousel with more than three items displays left and right arrows for scrolling through the images and a **Select** button under each item. If a description is over 140 characters, users can expand the content.|
+|Body|Image used in the carousel item. The value is a URL for an image file.|
+|Card\_name|Text string header identifying the card shown in the carousel.|
+|Card\_data|Array containing text strings to be presented on the card. Values include identifier, header, and description.|
+
+## Channel support
+
+<table id="table_ew4_kmx_rsb"><thead><tr><th>
+
+Channel
+
+</th><th>
+
+NLU/keyword support
+
+</th><th>
+
+Constraints
+
+</th></tr></thead><tbody><tr><td>
+
+Web UI
+
+</td><td>
+
+Supported
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Mobile UI
+
+</td><td>
+
+Supported
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Now Assist panel
+
+</td><td>
+
+Supported
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Microsoft Teams
+
+</td><td>
+
+Supported
+
+</td><td>
+
+None. If the carousel contains more than 10 items, users must select **Next** to review the remaining items.
+
+</td></tr><tr><td>
+
+Slack
+
+</td><td>
+
+Supported
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+SMS Twilio
+
+</td><td>
+
+Not supported
+
+</td><td>
+
+Not applicable
+
+</td></tr><tr><td>
+
+LINE
+
+</td><td>
+
+Supported
+
+</td><td>
+
+The title for an image has a maximum limit of 40 characters. The text for the image has a maximum character limit of 60 characters. A user can view only 10 images at a time. If there are more than 10 images, the pagination format is used to view more options. The default value of the maximum number of images in the carousel for a page is set in the **sn\_va\_line.max.carousel.cards** system property. The property is located in the System Properties \[sys\_properties\] table.
+
+</td></tr><tr><td>
+
+WhatsApp
+
+</td><td>
+
+Supported
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Apple Messages for Business
+
+</td><td>
+
+Supported
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Alexa \(Voice\)
+
+</td><td>
+
+Supported
+
+</td><td>
+
+For screen devices, use touch scroll. For nonscreen devices, use voice pagination.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[\(Legacy\) Virtual Agent Designer user input controls for NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-user-inputs-nlu.md)
+

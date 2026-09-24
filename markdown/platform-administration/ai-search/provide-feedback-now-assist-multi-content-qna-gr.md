@@ -3,13 +3,13 @@ title: Provide feedback on Summary Genius Result answers
 description: confirm name throughoutProvide positive or negative feedback on Summary Genius Result answers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/provide-feedback-now-assist-multi-content-qna-gr.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-07-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 

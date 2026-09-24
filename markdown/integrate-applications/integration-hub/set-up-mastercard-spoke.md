@@ -3,7 +3,7 @@ title: Set up Mastercard spoke
 description: Integrate the ServiceNow instance with the Mastercard account using the OAuth protocol \(version 1.0a\) for secure authorization to authenticate ServiceNow requests.Use the certificate generated during the Mastercard account configuration to sign the request and payloads.Create a credential record for your Mastercard account configuration. The Mastercard spoke connection and the credential alias uses these credentials to authorize actions.Create a connection record for your Mastercard account configuration. The Mastercard spoke connection and credential aliases use these connections to perform actions in Mastercard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-mastercard-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task

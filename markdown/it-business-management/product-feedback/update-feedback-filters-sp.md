@@ -3,11 +3,11 @@ title: Update feedback filters in Strategic Planning
 description: Edit the details of a feedback filters and make real-time updates on your feedback filter.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/product-feedback/update-feedback-filters-sp.html
-release: australia
+release: brazil
 product: Product Feedback
 classification: product-feedback
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Feedback in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -26,21 +26,21 @@ Role required: pf\_user
 
 2.  Create a feedback filter.
 
-    For more information, see [Create feedback filters in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/create-feedback-filters.md).
+    For more information, see [Create feedback filters in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/product-feedback/create-feedback-filters.md).
 
 3.  From the feedback page, select the feedback filter card that you want to edit.
 
 4.  Update the record details or delete the feedback filter card.
 
-<table id="choicetable_pxx_tl2_2bc"><thead><tr><th align="left" id="d275306e94">
+<table id="choicetable_pxx_tl2_2bc"><thead><tr><th align="left" id="d276411e94">
 
 Choice
 
-</th><th align="left" id="d275306e97">
+</th><th align="left" id="d276411e97">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d275306e103">
+</th></tr></thead><tbody><tr><td id="d276411e103">
 
 **Edit feedback filter card**
 
@@ -53,7 +53,7 @@ From the feedback page:
 3.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d275306e138">
+</td></tr><tr><td id="d276411e138">
 
 **Delete feedback filter card**
 

@@ -3,11 +3,11 @@ title: Merge software licenses using the legacy Software Asset Management plugin
 description: If you have multiple software licenses that are linked to the same model, you can merge the individual licenses into a consolidated license using the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/t\_MergeASoftwareLicense.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Software licenses in the legacy Software Asset Management plugin, Legacy Software Asset Management plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
@@ -67,10 +67,10 @@ To merge a license:
     -   The cost of each individual license is summed up into the new license using the system base currency.
     -   A history of the consolidated licenses and where they went is maintained.
 
-**Parent Topic:**[Software licenses in the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_SoftwareLicenses.md)
+**Parent Topic:**[Software licenses in the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management/c_SoftwareLicenses.md)
 
 **Related topics**  
 
 
-[License management with the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_ManageSoftwareLicenses.md)
+[License management with the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management/c_ManageSoftwareLicenses.md)
 

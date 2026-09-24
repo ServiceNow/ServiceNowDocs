@@ -3,13 +3,13 @@ title: Create a test template in Audit Workspace
 description: Create a test template and use it to create test plans applying much of the same testing criteria.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/create-test-template-audit-ws.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Audit Supervisor Workspace, Audit Workspace Overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Audit Supervisor Workspace, Audit Workspace overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Create a test template in Audit Workspace

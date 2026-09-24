@@ -3,11 +3,11 @@ title: View a searcher
 description: View the details of a searcher to know which search resources it searches and which search contexts use it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/contextual-search/t\_ViewASearcher.html
-release: australia
+release: brazil
 product: Contextual Search
 classification: contextual-search
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing contextual search, Contextual search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -37,5 +37,5 @@ ServiceNow provides pre-defined searchers. You can't create, update, or delete s
 4.  In the Search Contexts related list, view all the search contexts that use this specific searcher.
 
 
-**Parent Topic:**[Managing contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/working-with-contextual-search.md)
+**Parent Topic:**[Managing contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/contextual-search/working-with-contextual-search.md)
 

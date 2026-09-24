@@ -3,11 +3,11 @@ title: Copy an alarm profile for LogRhythm
 description: Copy an existing profile and its associated settings instead of creating a new alarm profile. If you are creating multiple alarm profiles for different types of alarms and you want to reuse the settings of an existing profile, you can copy alarm profiles to save time. This process is optional.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/copy-alarm-profile-logrhythm.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Additional configurations for the LogRhythm integration, LogRhythm Overview, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -45,5 +45,5 @@ If you copy a profile, the profile name is initially modified to avoid duplicate
     You can edit values of the copied profile and rename it so alarm rules you pull apply to the new profile. You are prompted to activate the new profile once the configuration steps are completed.
 
 
-**Parent Topic:**[Additional configurations for the LogRhythm integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-system-and-troubleshooting-properties.md)
+**Parent Topic:**[Additional configurations for the LogRhythm integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/configure-system-and-troubleshooting-properties.md)
 

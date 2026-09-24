@@ -3,11 +3,11 @@ title: Create a capacity assignment
 description: Create the capacity assignment of work based on the selected source, such as agent schedules, tasks, or hours.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/assign-work-based-on-the-defined-capacity-.html
-release: australia
+release: brazil
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Capacity and Reservations Management, Set up workforce, Configure, Field Service Management]
 ---
@@ -49,7 +49,7 @@ Capacity Definition
 
 </td><td>
 
-Name of the capacity definition based on which the capacity will be assigned. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/create-capacity-definitions.md)
+Name of the capacity definition based on which the capacity will be assigned. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/create-capacity-definitions.md)
 
 </td></tr><tr><td>
 

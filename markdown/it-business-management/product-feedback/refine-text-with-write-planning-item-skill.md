@@ -1,36 +1,36 @@
 ---
 title: Improve efficiency and quality using refine records skill
-description: Improve record quality by enabling AI-assisted text refinement in the text fields of Product idea, Demands, Epic, Projects, Capability, Features, Stories, Project tasks, Risks, Strategic priorities, Goals, Targets, Initiatives, Feedback, Milestones, and Story forms.
+description: Improve record quality using AI-assisted text refinement. The skill applies to text fields in Product idea, Demands, Epic, Projects, Capability, Features, Stories, Project tasks, Risks, Strategic priorities, Goals, Targets, Initiatives, Feedback, Milestones, and Story forms.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/product-feedback/refine-text-with-write-planning-item-skill.html
-release: australia
+release: brazil
 product: Product Feedback
 classification: product-feedback
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Use, Feedback in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Improve efficiency and quality using refine records skill
 
-Improve record quality by enabling AI-assisted text refinement in the text fields of Product idea, Demands, Epic, Projects, Capability, Features, Stories, Project tasks, Risks, Strategic priorities, Goals, Targets, Initiatives, Feedback, Milestones, and Story forms.
+Improve record quality using AI-assisted text refinement. The skill applies to text fields in Product idea, Demands, Epic, Projects, Capability, Features, Stories, Project tasks, Risks, Strategic priorities, Goals, Targets, Initiatives, Feedback, Milestones, and Story forms.
 
 ## Before you begin
 
-The Refine record skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configuring-na-spm.md).
+The Refine record skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/configuring-na-spm.md).
 
-If you have users with custom roles that need access to this skill, you must update ACLs for those roles and also add those custom roles to the In product role.
+If users with custom roles need access to this skill, update the ACLs for those roles. Also add those custom roles to the In product role.
 
 Role required: You only need the roles required for the record type you want to refine.
 
 ## About this task
 
-Use the refine records skill and Now Assist Context Menu \(NACM\) to simplify record creation and updates, reduce effort, and improve record quality. Within the rich or long text field of these records, you can use the now assist context menu to shorten or elaborate the text. For example, you can type a short sentence in the rich or long text field or select the existing text and then expand or shorten it. The skill considers other fields in the form to generate meaningful content that improves the record quality. You can also enter a long paragraph in the text field and shorten it without losing key information.
+Use the refine records skill to simplify record creation and updates, reduce effort, and improve record quality. Within the rich or long text field of these records, you can use the skill to shorten or elaborate the text. For example, you can type a short sentence in the rich or long text field or select the existing text and then expand or shorten it. The skill considers other fields in the form to generate meaningful content that improves the record quality. You can also enter a long paragraph in the text field and shorten it without losing key information.
 
 Enable portfolio, project, product, demand managers and agile team members to refine record content efficiently using the Elaborate and Shorten options and create records with sufficient information. The refine records skill helps in improving clarity and completeness of your records and reduces the rework due to missing or unclear information.
 
-The refine records skill and Now Assist Context Menu \(NACM\) is available in Strategic Planning Workspace, Portfolio Planning Workspace, Demand Workbench, Agile Development 2.0 and Project Workspace.
+The refine records skill is available in Strategic Planning Workspace, Portfolio Planning Workspace, Demand Workbench, Agile Development 2.0 and Project Workspace.
 
 This task is explained using Strategic Planning Workspace as the example.
 
@@ -42,29 +42,25 @@ This task is explained using Strategic Planning Workspace as the example.
 
 3.  Select the text to refine in the text field of your record.
 
-    For example, you can select **Description** text for Feedback record text. You can refer to context menu configuration table to view the forms and text fields which includes Now Assist context menu.
+    For example, you can select **Description** text for Feedback record text.
 
-4.  Select the **Refine with Now assist** menu and then select **Shorten** or **Elaborate** based on your requirement.
-
-    \[Omitted image "write-planning-items-skill-sp.png"\] Alt text: Use Now Assist refine menu to refine or improve text of SPM records.
+4.  Select the **Refine with ServiceNow Otto** menu and then select **Shorten** or **Elaborate** based on your requirement.
 
 5.  Select **Replace** to replace the content in the text field.
 
-    \[Omitted image "write-planning-item-skill-refined-text.png"\] Alt text: AI-generated text for a project record using the refine records skill.
-
-6.  From the Refined by Now Assist window, select **Refine** and then select **Shorten** or **Elaborate** to improve the generated text.
+6.  From the Refined by ServiceNow Otto window, select **Refine** and then select **Shorten** or **Elaborate** to improve the generated text.
 
 7.  When you're finished refining the content, you can replace the existing content with generated content, provide feedback, or copy it.
 
-<table id="choicetable_nly_n5h_1dc"><thead><tr><th align="left" id="d330259e187">
+<table id="choicetable_nly_n5h_1dc"><thead><tr><th align="left" id="d332135e167">
 
 Option
 
-</th><th align="left" id="d330259e190">
+</th><th align="left" id="d332135e170">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d330259e196">
+</th></tr></thead><tbody><tr><td id="d332135e176">
 
 **Provide feedback for the generated text**
 
@@ -72,7 +68,7 @@ Procedure
 
 If you think that the generated text was helpful, select the helpful icon \(\[Omitted image "icon-helpful-feedback.png"\] Alt text: Helpful icon.\). If you think that the generated text wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-nt-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d330259e219">
+</td></tr><tr><td id="d332135e199">
 
 **Copy the text**
 
@@ -81,9 +77,7 @@ If you think that the generated text was helpful, select the helpful icon \(\[Om
 Select the copy to clipboard icon \(\[Omitted image "icon-copy-spm.png"\] Alt text: Copy to clipboard icon.\) to use the generated text for another purpose, such as pasting it into an email.
 
 </td></tr></tbody>
-</table>    **Note:** The refine records skill and Now Assist context menu \(NACM\) is available in the text fields of Product idea, Demands, Epic, Projects, Capability, Features, Stories, Project tasks, Risks, Strategic priorities, Goals, Targets, Initiatives, Feedback, Milestones, and Story forms.
-
-    You can configure the Now Assist context menu for these forms and long text fields.
+</table>    **Note:** The refine records skill is available in the text fields of Product idea, Demands, Epic, Projects, Capability, Features, Stories, Project tasks, Risks, Strategic priorities, Goals, Targets, Initiatives, Feedback, Milestones, and Story forms.
 
     |Table name|Roles|
     |----------|-----|
@@ -109,7 +103,5 @@ Select the copy to clipboard icon \(\[Omitted image "icon-copy-spm.png"\] Alt te
 **Related topics**  
 
 
-[exploring-now-assist-for-spm]
-
-[Skill inputs for ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/skill-inputs-for-now-assist-for-spm.md)
+[Skill inputs for ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/skill-inputs-for-now-assist-for-spm.md)
 

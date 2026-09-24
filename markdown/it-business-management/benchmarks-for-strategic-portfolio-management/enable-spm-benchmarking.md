@@ -3,11 +3,11 @@ title: Enable SPM Benchmarks
 description: Opt in to SPM Benchmarks to participate in SPM Benchmarks data collection for Strategic Portfolio Management KPIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/benchmarks-for-strategic-portfolio-management/enable-spm-benchmarking.html
-release: australia
+release: brazil
 product: Benchmarks for Strategic Portfolio Management
 classification: benchmarks-for-strategic-portfolio-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring SPM Benchmarks, SPM Benchmarks, Strategic Portfolio Management]
 ---
@@ -37,5 +37,5 @@ You can opt out of the SPM Benchmarks at any time.
     You can choose to opt out of SPM Benchmarks at any time. To opt out of benchmarks as a whole, including but not limited to SPM Benchmarks, navigate to **All** &gt; **Benchmarks** &gt; **Setup** and click **Opt-out of ServiceNow Benchmarks**.
 
 
-**Parent Topic:**[Configuring SPM Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/benchmarks-for-strategic-portfolio-management/configuring-benchmarks.md)
+**Parent Topic:**[Configuring SPM Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/benchmarks-for-strategic-portfolio-management/configuring-benchmarks.md)
 

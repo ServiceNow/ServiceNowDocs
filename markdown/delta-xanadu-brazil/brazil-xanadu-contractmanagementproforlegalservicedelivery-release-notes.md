@@ -1,0 +1,654 @@
+---
+title: Combined Contract Management Pro for Legal Service Delivery release notes for upgrades from Xanadu to Brazil
+description: Consolidated page of all release notes for Contract Management Pro for Legal Service Delivery from Xanadu to Brazil.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-contractmanagementproforlegalservicedelivery-release-notes.html
+release: brazil
+topic_type: reference
+last_updated: "2026-09-24"
+reading_time_minutes: 6
+breadcrumb: [Products combined by family]
+---
+
+# Combined Contract Management Pro for Legal Service Delivery release notes for upgrades from Xanadu to Brazil
+
+Consolidated page of all release notes for Contract Management Pro for Legal Service Delivery from Xanadu to Brazil.
+
+## How to use this page
+
+To help you prepare for your upgrade, we have combined the cross-family Contract Management Pro for Legal Service Delivery release notes onto one page. Read this summary of the new features, changes, and updated information for your product from Xanadu to Brazil.
+
+**Tip:** If there were no updates for a release notes section in a certain family release, we included a short note for your reference. For example, if a product did not have any updates in Tokyo, the row says "No updates for this release."
+
+## Important information for upgrading Contract Management Pro for Legal Service Delivery to Brazil
+
+Before you upgrade to Brazil, review these pre- and post-upgrade tasks and complete the tasks as needed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## New features
+
+Between your current release family and Brazil, new features were introduced for Contract Management Pro for Legal Service Delivery.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **[Contract amendments](https://www.servicenow.com/docs/access?context=snlc-amend-req-landing&family=yokohama&ft:locale=en-US)**
+
+Contract amendments enable you to formally change, add, or remove terms in an existing contract without replacing the entire agreement. The Amendment feature enhances contract lifecycle management by enabling you to initiate, track, and finalize amendments to existing contracts with audit trail.
+
+A new field, **Request type**, has been added to clearly distinguish between contract and amendment requests.
+
+Each amendment is linked to its parent contract, and you can easily view the amendment history directly from the contract request. Additionally, a record producer is available in the base system, allowing you to submit and monitor amendment requests efficiently.
+
+The following related lists are now available within the contract repository record to provide amendment details:
+
+    -   Contract Requests: Displays all contract and amendment requests associated with the contract.
+    -   Amendment Field Changes: Shows a detailed log of all field changes made through amendments, enabling easy tracking of modifications over time.
+    -   Contract Documents: Provides access to all documents related to the contract, including those generated or updated as part of amendment processes. The signed contract and its amendment documents are stored in a centralized repository under the parent contract for easy access and managing all related documents from a single location.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **[Contract amendments](https://www.servicenow.com/docs/access?context=snlc-amend-req-landing&family=zurich&ft:locale=en-US)**
+
+Contract amendments enable you to formally change, add, or remove terms in an existing contract without replacing the entire agreement. The Amendment feature enhances contract lifecycle management by enabling you to initiate, track, and finalize amendments to existing contracts with audit trail.
+
+A new field, **Request type**, has been added to clearly distinguish between contract and amendment requests.
+
+Each amendment is linked to its parent contract, and you can easily view the amendment history directly from the contract request. Additionally, a record producer is available in the base system, allowing you to submit and monitor amendment requests efficiently.
+
+The following related lists are now available within the contract repository record to provide amendment details:
+
+    -   Contract Requests: Displays all contract and amendment requests associated with the contract.
+    -   Amendment Field Changes: Shows a detailed log of all field changes made through amendments, enabling easy tracking of modifications over time.
+    -   Contract Documents: Provides access to all documents related to the contract, including those generated or updated as part of amendment processes. The signed contract and its amendment documents are stored in a centralized repository under the parent contract for easy access and managing all related documents from a single location.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Changes
+
+Between your current release family and Brazil, some changes were made to existing Contract Management Pro for Legal Service Delivery features.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Removed
+
+Between your current release family and Brazil, some Contract Management Pro for Legal Service Delivery features or functionality were removed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Deprecations
+
+Between your current release family and Brazil, some Contract Management Pro for Legal Service Delivery features or functionality were deprecated.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Activation information
+
+Review information on how to activate Contract Management Pro for Legal Service Delivery.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **Activation information**
+
+Install Contract Management Pro for Legal Service Delivery \(sn\_lg\_cnt\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+For details, see [Install ServiceNow Legal Contracts](https://www.servicenow.com/docs/access?context=snlc-install-legal-contracts&family=yokohama&ft:locale=en-US).
+
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **Activation information**
+
+Install Contract Management Pro for Legal Service Delivery \(sn\_lg\_cnt\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+For details, see [Install ServiceNow Legal Contracts](https://www.servicenow.com/docs/access?context=snlc-install-legal-contracts&family=zurich&ft:locale=en-US).
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Additional requirements
+
+If any additional requirements were introduced or changed for Contract Management Pro for Legal Service Delivery we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Browser requirements
+
+If any specific browser requirements were introduced or changed for Contract Management Pro for Legal Service Delivery we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Accessibility information
+
+Review details on accessibility information for Contract Management Pro for Legal Service Delivery, such as specific requirements or compliance levels.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Localization information
+
+If there are specific localization considerations for Contract Management Pro for Legal Service Delivery we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Highlight information
+
+If there are specific highlight considerations for Contract Management Pro for Legal Service Delivery we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   Initiate and manage amendment requests for existing contracts.
+-   Record producer to initiate an amendment request from the Employee Center.
+
+ See [ServiceNow Legal Contracts](https://www.servicenow.com/docs/access?context=snlc-mgmt-pro-landing-page&family=yokohama&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   Initiate and manage amendment requests for existing contracts.
+-   Record producer to initiate an amendment request from the Employee Center.
+
+ See [ServiceNow Legal Contracts](https://www.servicenow.com/docs/access?context=snlc-mgmt-pro-landing-page&family=zurich&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/rn-combined-intro.md)
+

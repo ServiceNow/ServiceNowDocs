@@ -3,13 +3,13 @@ title: List of default Cloud categories for AI services
 description: List of default Cloud categories applicable to the Machine Learning service category for managing AI services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/ai-service-provider-list.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Cloud Cost Management, IT Asset Management, Asset Management]
+breadcrumb: [Cloud Cost Management reference, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # List of default Cloud categories for AI services
@@ -82,10 +82,10 @@ Google Cloud Platform \(GCP\)
 -   Vertex AI Search
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Cost Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/reference-cloudinsights.md)
+</table>**Parent Topic:**[Cloud Cost Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/reference-cloudinsights.md)
 
 **Related topics**  
 
 
-[Add or update a tag value for an AI Service tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/create-tag-value-ai.md)
+[Add or update a tag value for an AI Service tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/create-tag-value-ai.md)
 

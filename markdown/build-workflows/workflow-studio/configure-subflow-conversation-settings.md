@@ -3,11 +3,11 @@ title: Configure subflow conversational settings
 description: Configure conversation settings to make a subflow available to conversational interfaces.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/configure-subflow-conversation-settings.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Build subflows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -160,7 +160,7 @@ The option to look up and insert an existing value from a selected table and ref
 
  This option is available for inputs with the Email, GUID, Integer, Long, Long Integer String, String, and String \(Full UTF8\) data types.
 
-**Note:** The Document ID and Reference data types are not valid options, because the system automatically overrides these input types with a list of display values as defined by the table's reference field. For more information about display values and reference fields, see [Display values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DisplayValues.md).
+**Note:** The Document ID and Reference data types are not valid options, because the system automatically overrides these input types with a list of display values as defined by the table's reference field. For more information about display values and reference fields, see [Display values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_DisplayValues.md).
 
  Turning on this option displays the **Table** and **Reference field** options.
 
@@ -184,7 +184,7 @@ The field whose existing record values you want to display as a list of options.
 
  \[Omitted image "example-input-string-user-name-01.png"\] Alt text: Example conversation where a string input shows a list of user names to choose from.
 
- For more information about display values and reference fields, see [Display values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DisplayValues.md).
+ For more information about display values and reference fields, see [Display values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_DisplayValues.md).
 
  You can use condition in the filter to limit the records that are referenced in this field. The filter helps you reduce the number of records from the referenced table and provide the most relevant options in the conversation.
 
@@ -273,7 +273,7 @@ Channels
 
 </td><td>
 
-The list of default channels in which this subflow is available.To learn more about channels, see [Channels in conversational interfacesChannels in conversational interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-channels-overview.md).
+The list of default channels in which this subflow is available.To learn more about channels, see Channels in conversational interfacesChannels in conversational interfaces.
 
 </td></tr></tbody>
 </table>9.  Save the skill.
@@ -281,5 +281,5 @@ The list of default channels in which this subflow is available.To learn more ab
     You can also test the skill by selecting **Save and test**.
 
 
-**Parent Topic:**[Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md)
+**Parent Topic:**[Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/subflows.md)
 

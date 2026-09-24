@@ -3,13 +3,13 @@ title: Manage an engagement from the overview page
 description: After you create and save an engagement with the basic information such as the description, dates, scope, and the objectives, you can see the overview page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/overview-pg-audit-ws.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create an audit engagement, Audit Supervisor Workspace, Audit Workspace Overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Create an audit engagement, Audit Supervisor Workspace, Audit Workspace overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Manage an engagement from the overview page

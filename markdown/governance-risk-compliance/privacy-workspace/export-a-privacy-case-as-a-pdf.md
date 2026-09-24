@@ -3,11 +3,11 @@ title: Export a privacy case as a PDF
 description: Export a privacy case as a PDF to easily share it with various stakeholders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/export-a-privacy-case-as-a-pdf.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_privacy\_case.privacy\_case\_analyst
 
 1.  Navigate to **All** &gt; **Privacy Management** &gt; **Privacy Workspace**.
 
-2.  Select the list \[Omitted image "ws-list-icon.png"\] icon.
+2.  Select the list \[Omitted image "ws-list-icon.png"\] Alt text: List icon.
 
 3.  Select **All Cases**.
 
@@ -39,5 +39,5 @@ Role required: sn\_privacy\_case.privacy\_case\_analyst
 8.  Select **Export**.
 
 
-**Parent Topic:**[Using Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-pcm.md)
+**Parent Topic:**[Using Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/using-pcm.md)
 

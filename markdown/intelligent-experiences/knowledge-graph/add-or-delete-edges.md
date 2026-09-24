@@ -3,13 +3,13 @@ title: Add or delete edges to a Knowledge Graph schema
 description: Add, edit, or delete edges that connect the nodes to customize a Knowledge Graph schema.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/add-or-delete-edges.html
-release: australia
+release: brazil
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Knowledge Graph Designer, Knowledge Graph, Enable AI experiences]
+breadcrumb: [Using Knowledge Graph Designer, Knowledge Graph, Managing data for AI, Enable AI Experiences]
 ---
 
 # Add or delete edges to a Knowledge Graph schema
@@ -42,7 +42,7 @@ Role required: kg\_admin
 
     The available edge is moved to **Connecting edges**. Select an edge to see its parent node and grandparent nodes in the hierarchy.
 
-6.  To reconfigure a connecting edge, select the edit icon \(\[Omitted image "icon-docintel-edit.png"\] Alt text: Edit icon. and update the following:
+6.  To reconfigure a connecting edge, select the edit icon \(\[Omitted image "image.icon-docintel-edit"\] Alt text: Edit icon. and update the following:
 
     -   Edge type
     -   Edge description

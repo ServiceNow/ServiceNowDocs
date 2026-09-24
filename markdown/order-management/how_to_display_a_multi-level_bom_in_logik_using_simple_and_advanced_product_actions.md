@@ -3,7 +3,7 @@ title: Display a multi-level BOM in CPQ using simple and advanced product action
 description: Two ways to display a bill of materials that includes hierarchical relationships.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/how\_to\_display\_a\_multi-level\_bom\_in\_logik\_using\_simple\_and\_advanced\_product\_actions.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2

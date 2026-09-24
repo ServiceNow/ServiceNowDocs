@@ -3,11 +3,11 @@ title: View and edit a catalog task
 description: Catalog tasks are used to source items and fulfill requests. You can view and edit catalog tasks from a request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/procurement/t\_ViewAndEditACatalogTask.html
-release: australia
+release: brazil
 product: Procurement
 classification: procurement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Procurement purchase order management for assets, Procurement, Asset Management common applications, IT Service Management]
 ---
@@ -56,7 +56,7 @@ If a request requires approval, a catalog task is created automatically when the
 4.  Select **Update**.
 
 
-**Parent Topic:**[Procurement purchase order management for assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/c_UseProcurement.md)
+**Parent Topic:**[Procurement purchase order management for assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/procurement/c_UseProcurement.md)
 
 **Related topics**  
 
@@ -69,5 +69,5 @@ If a request requires approval, a catalog task is created automatically when the
 
 [Create an asset and reserve it for the requester]()
 
-[Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/c_Models.md)
+[Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/product-catalog/c_Models.md)
 

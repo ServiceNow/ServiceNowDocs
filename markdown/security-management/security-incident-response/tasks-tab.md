@@ -3,11 +3,11 @@ title: Manage tasks in a Major Security Incident
 description: The Task tab enables you to track and manage all the tasks associated with a major security incident from the MSIM workspace. You can view the various tasks using the default Visual Task Board \(Kanban view\) or the List view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/tasks-tab.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -42,12 +42,12 @@ The Tasks tab displays the details of all the tasks associated with a major secu
 
 The labeled activities are summarized and displayed in the Overview section of the major security incident. A trend chart graph is available on the Overview section to view the consolidated task activities state.
 
--   **[Manage tasks using the Visual Task Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/manage-tasks-using-vtb.md)**  
+-   **[Manage tasks using the Visual Task Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/manage-tasks-using-vtb.md)**  
 Track and manage all the tasks associated with a major security incident using the Visual Task Board \(Kanban view\).
--   **[Manage tasks using the List view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/manage-tasks-using-list-view.md)**  
+-   **[Manage tasks using the List view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/manage-tasks-using-list-view.md)**  
 Track and manage all the tasks associated with a major security incident using the List view.
 
-**Parent Topic:**[Using Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/major-security-incident-setup.md)
+**Parent Topic:**[Using Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/major-security-incident-setup.md)
 
 **Related topics**  
 

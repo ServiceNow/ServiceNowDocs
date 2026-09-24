@@ -3,11 +3,11 @@ title: Schedule the ICAP DLP incidents retrieval
 description: Set a schedule to retrieve ICAP DLP alerts that match the criteria in the profile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/schedule-icap-dlp-incidents-retrieval.html
-release: australia
+release: brazil
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a profile for ICAP DLP integration, Internet Content Adaption Protocol \(ICAP\) integration for DLP IR, Integrate, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -122,5 +122,5 @@ Name of the folder from which you want to retrieve the data. All the folders who
 
 After the successful creation activation of the profile, incidents will be fetched periodically as per the configuration set in the profile. The alerts will be added into the DLP incident table.
 
-**Parent Topic:**[Create a profile for ICAP DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/create-profile-for-icap.md)
+**Parent Topic:**[Create a profile for ICAP DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/create-profile-for-icap.md)
 

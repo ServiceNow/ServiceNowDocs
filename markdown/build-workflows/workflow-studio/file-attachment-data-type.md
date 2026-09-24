@@ -3,11 +3,11 @@ title: File attachment data type
 description: Store a single file attachment as part of the action or flow's associated record rather than a record in the system Attachment table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/file-attachment-data-type.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Input and output data variables, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -43,5 +43,5 @@ Store a single file attachment as part of the action or flow's associated record
     Use the existing attachment actions to manage attachments associated with records and email. There are existing actions to copy, delete, get from record, look up, and move attachments. Storing an attachment as a file attachment data type prevents you from managing attachments with the standard attachment actions.
 
 
-**Parent Topic:**[Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-inputs-outputs.md)
+**Parent Topic:**[Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/action-inputs-outputs.md)
 

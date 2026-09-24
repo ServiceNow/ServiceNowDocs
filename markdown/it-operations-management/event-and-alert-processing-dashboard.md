@@ -3,9 +3,9 @@ title: Event and Alert dashboard
 description: The Event and Alert dashboard uses Performance Analytics to provide real-time visibility into events and alerts in Event Management, showcasing key trends, outcomes, and the most impacted configuration items. It highlights metrics such as noise reduction, alert grouping coverage, and top alert sources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-and-alert-processing-dashboard.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [AIOps Dashboards in SOW for ITOM, ITOM AIOps, IT Operations Management]
 ---
@@ -24,7 +24,7 @@ Run the \[PA EM\] Historic Data Collection job once to enable the partial collec
 
 ## Prerequisites
 
-Ensure that the AIOps Experience \[`sn_sow_aiops`\] application is installed. The application installs the Event Management and Performance Analytics components required for the dashboard. For installation instructions, see [Install Service Operations Workspace for ITOM application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/install-sow-itom-apps.md).
+Ensure that the AIOps Experience \[`sn_sow_aiops`\] application is installed. The application installs the Event Management and Performance Analytics components required for the dashboard. For installation instructions, see [Install Service Operations Workspace for ITOM application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/install-sow-itom-apps.md).
 
 ## Required ServiceNow AI Platform roles
 
@@ -158,5 +158,5 @@ The distribution of grouped alerts over the last 7 days.
 </td></tr></tbody>
 </table>## Most impacted Configuration Items
 
-The Most Impacted Configuration Items section of the Event and Alert dashboard provides a comprehensive overview of the configuration items \(CIs\) that are most impacted by the issue. This section lists key details such as the name of each CI, the number of associated alerts, their classification \(such as application service\), and location. Additionally, it identifies the owner and support group responsible for each CI, facilitating targeted and efficient incident resolution. By highlighting the most impacted CIs, this section helps prioritize critical assets and resources. This ensures that the most significant issues are addressed promptly to maintain system stability and performance.
+The Most Impacted Configuration Items section of the Event and Alert dashboard provides a comprehensive overview of the configuration items \(CIs\) that are most impacted by the issue. This section lists key details such as the name of each CI, the number of associated alerts, their classification \(such as application service\), and location. Additionally, it identifies the owner and support group responsible for each CI, facilitating targeted and efficient incident resolution. By highlighting the most impacted CIs, this section helps prioritize critical assets and resources. This approach confirms that the most significant issues are addressed promptly to maintain system stability and performance.
 

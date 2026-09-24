@@ -3,11 +3,11 @@ title: Components installed with Expense Line
 description: Several types of components are installed with the Expense Line plugin.Tables are added with activation of Expense Line.Roles are added with activation of Expense Line.Script includes are added with activation of Expense Line.Client scripts are added with activation of Expense Line.Business rules are added with activation of Expense Line.Domain separation is unsupported in Expense Line processing. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/expense-line/r\_InstalledWithExpenseLine.html
-release: australia
+release: brazil
 product: Expense Line
 classification: expense-line
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Expense Line, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Expense Line, IT Service Management]
 
 Several types of components are installed with the Expense Line plugin.
 
-**Parent Topic:**[Expense Line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/expense-line/c_ExpenseLine.md)
+**Parent Topic:**[Expense Line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/expense-line/c_ExpenseLine.md)
 
 **Related topics**  
 
@@ -98,10 +98,10 @@ Domain separation is unsupported in Expense Line processing. Domain separation e
 -   The domain field may exist on data tables but there is no business logic to manage the data.
 -   This level is not considered domain-separated.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-separated-apps.md).
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-sep-landing-page.md)
 

@@ -3,11 +3,11 @@ title: Fulfiller experience in Mobile Agent
 description: Approve catalog requests, requested items, or change requests from anywhere using the ITSM ServiceNow Agent application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/itsm-mobile-request-approval.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Catalog in mobile, Integrating Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -37,12 +37,12 @@ Watch this three-minute video to learn how to manage approval requests in the mo
 
 This mobile application runs on the ServiceNow® mobile platform. You should activate the ITSM Mobile Experience \(com.sn\_itsm\_mobile\) plugin that enables the ITSM mobile application.
 
--   **[Get started with the mobile app for Approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/get-started-mobile-cat-requests.md)**  
+-   **[Get started with the mobile app for Approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/get-started-mobile-cat-requests.md)**  
 Access the My Approvals application instance on your mobile app to manage approval requests using your mobile device.
--   **[Manage a catalog request approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/manage-cat-approval-request-mobile.md)**  
+-   **[Manage a catalog request approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/manage-cat-approval-request-mobile.md)**  
 Manage your assigned catalog request or requested item by approving or rejecting it from anywhere using your mobile device.
 
-**Parent Topic:**[Service Catalog in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-experience-mobile.md)
+**Parent Topic:**[Service Catalog in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/catalog-experience-mobile.md)
 
 **Related topics**  
 

@@ -3,20 +3,20 @@ title: Viewing links between alerts in tag-based alert groups
 description: View the connections between alerts in a tag-based alert group in Express List by using Link View. Link View shows how the attributes of the alerts in the group are linked with each other.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/tag-based-link-view-express-list.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Viewing links between alerts in alert groups, Work with alert groups, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Viewing links between alerts in alert groups, Working with alert groups in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Viewing links between alerts in tag-based alert groups
 
 View the connections between alerts in a tag-based alert group in Express List by using Link View. Link View shows how the attributes of the alerts in the group are linked with each other.
 
-When you set alert tags and Event Management generates an alert group based on tag-based rules, Link View displays the relationships between the alerts in the group. The colored tags represent Configuration Items \(CIs\) and other environment items in relation to the alerts.
+When you've set alert tags and Event Management has generated an alert group based on tag-based rules, Link View offers a visual representation of the relationships between the alerts. The colored tags represent Configuration Items \(CIs\) and other environment items in relation to the alerts.
 
 \[Omitted image "el-link-view-tag-based.png"\] Alt text: Sample tag-based alert group in Link View.
 
@@ -24,14 +24,14 @@ In this example, the defining tag for the correlation, Application, is linked to
 
 In an alert group that was generated from tag rules, nodes connected by a dashed line signify an approximate, "fuzzy" match. This means that the nodes were correlated when the match on the tag rule was not exact, but close enough to be significant. For example, this could happen when a location, email address, or IP pattern was similar enough to qualify as a match.
 
-The Link View legend lists the meaning of the symbols and colors used to represent the tags and their number of unique nodes. In the legend, defining tags are marked as Correlation. You can toggle between hiding and showing tag types to reduce noise. For a description of each tag, see [Attributes in Express List Link View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/link-view-tags-icons-descriptions.md).
+The Link View legend lists the meaning of the symbols and colors used to represent the tags and their number of unique nodes. In the legend, defining tags are marked as Correlation. You can toggle between hiding and showing tag types to reduce noise. For a description of each tag, see [Attributes in Express List Link View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/link-view-tags-icons-descriptions.md).
 
-**Parent Topic:**[Viewing links between alerts in alert groups in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/el-link-view.md)
+**Parent Topic:**[Viewing links between alerts in alert groups in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/el-link-view.md)
 
 **Related topics**  
 
 
-[Viewing links between alerts in alert groups in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/el-link-view.md)
+[Viewing links between alerts in alert groups in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/el-link-view.md)
 
-[View links between alerts in a group in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/view-relationships-between-alerts-in-groups.md)
+[View links between alerts in a group in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/view-relationships-between-alerts-in-groups.md)
 

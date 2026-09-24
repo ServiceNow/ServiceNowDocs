@@ -3,11 +3,11 @@ title: Viewing table references and extensions
 description: View table relationships in a visual manner using the schema map.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/c\_SchemaMapForTables.html
-release: australia
+release: brazil
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing tables and indexes, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -29,10 +29,10 @@ The schema map can also be printed directly from a browser.
 
 By default, each type of relationship is displayed. However, you can view or hide each type as needed.
 
--   **[Generate a schema map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_GenerateASchemaMap.md)**  
+-   **[Generate a schema map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/t_GenerateASchemaMap.md)**  
 Generate a schema map to view different parts of the database schema.
--   **[Analyzing table relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_ViewTheSchemaMap.md)**  
+-   **[Analyzing table relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/c_ViewTheSchemaMap.md)**  
 The schema map shows the selected table in yellow, typically centered, and all tables related to that table, typically shown at the sides.
 
-**Parent Topic:**[Managing tables and indexes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/using-table-administration.md)
+**Parent Topic:**[Managing tables and indexes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/using-table-administration.md)
 

@@ -3,11 +3,11 @@ title: Launch the Edge Encryption proxy server
 description: After an Edge Encryption proxy is installed and configured, you can start the proxy from the installer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/launch-proxy.html
-release: australia
+release: brazil
 product: Edge Encryption
 classification: edge-encryption
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Install the Edge Encryption proxy server using the interactive installer, Installing Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -31,11 +31,11 @@ Role required: admin
 
 ## What to do next
 
-After successfully installing the Edge Encryption proxy server, [Set the proxy server initial memory limit and upper bound memory limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/increase-memory.md).
+After successfully installing the Edge Encryption proxy server, [Set the proxy server initial memory limit and upper bound memory limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/increase-memory.md).
 
-**Parent Topic:**[Install the Edge Encryption proxy server using the interactive installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/proxy-installer.md)
+**Parent Topic:**[Install the Edge Encryption proxy server using the interactive installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/proxy-installer.md)
 
-**Previous topic:**[Configure the Edge Encryption proxy database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/configure-proxy-db.md)
+**Previous topic:**[Configure the Edge Encryption proxy database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/configure-proxy-db.md)
 
-**Next topic:**[Verify and troubleshoot the Edge Encryption proxy server installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/verify-install.md)
+**Next topic:**[Verify and troubleshoot the Edge Encryption proxy server installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/verify-install.md)
 

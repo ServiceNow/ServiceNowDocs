@@ -3,7 +3,7 @@ title: Complete an Audit Task from Retail Mobile
 description: As a Location Auditor, open an Audit Task in Retail Mobile, complete its questionnaire, and close the task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-store-audit-t-complete-audit-task-mobile.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-07-08"
 reading_time_minutes: 1
@@ -44,14 +44,14 @@ Audit Tasks don't have their own work list in Retail Mobile—you drill into the
 
 The Audit Task is closed, with the questionnaire result and your observations recorded. Once every Audit Task on a Store Audit Case is closed, close the parent case to complete the store audit.
 
-**Parent Topic:**[Manage Store Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-manage.md)
+**Parent Topic:**[Manage Store Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-store-audit-manage.md)
 
 **Related topics**  
 
 
-[Retail Store Audit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-overview.md)
+[Retail Store Audit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-store-audit-overview.md)
 
-[Complete a store audit from Retail Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-t-fulfill-audit-mobile.md)
+[Complete a store audit from Retail Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-store-audit-t-fulfill-audit-mobile.md)
 
-[Complete a store audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-t-fulfill-audit.md)
+[Complete a store audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-store-audit-t-fulfill-audit.md)
 

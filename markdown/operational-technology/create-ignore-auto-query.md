@@ -3,9 +3,9 @@ title: Create an Auto Query ignore list
 description: Create an Auto Query to exclude specified asset IP addresses from receiving scanning traffic.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/create-ignore-auto-query.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Auto Query page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -73,5 +73,5 @@ The Auto Query results are added to the Auto Query page. The **Ignored** column 
 
 \[Omitted image "auto-query-ignore-columns.png"\] Alt text: Number of ignored IP addresses
 
-**Parent Topic:**[Auto Query page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/auto-query-console.md)
+**Parent Topic:**[Auto Query page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/auto-query-console.md)
 

@@ -3,11 +3,11 @@ title: Create an alias for a basic authentication credential for IBM Flash Syste
 description: Create an alias for a basic authentication credential to run IBM Flash System discovery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/create-alias-basic-auth-cred-ibm-flash.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [IBM Flash System, Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -52,19 +52,19 @@ The IBM Flash System pattern uses basic authentication credentials to authentica
 
     5.  Configure the rest of the **Basic Auth Credentials** form fields.
 
-        For more information about Basic Auth Credentials form fields, see [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md).
+        For more information about Basic Auth Credentials form fields, see [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_BasicAuthCredentialsForm.md).
 
     6.  Select **Submit**.
 
 
 ## What to do next
 
-Create a serverless discovery schedule. For more information, see [Create a serverless discovery schedule for IBM Flash System discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-ibm-flash.md).
+Create a serverless discovery schedule. For more information, see [Create a serverless discovery schedule for IBM Flash System discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-ibm-flash.md).
 
-**Parent Topic:**[IBM Flash System pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/ibm-flash-system-pattern.md)
+**Parent Topic:**[IBM Flash System pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/ibm-flash-system-pattern.md)
 
 **Related topics**  
 
 
-[IBM Flash System pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/ibm-flash-system-pattern.md)
+[IBM Flash System pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/ibm-flash-system-pattern.md)
 

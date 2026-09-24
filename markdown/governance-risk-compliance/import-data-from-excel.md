@@ -3,11 +3,11 @@ title: Import data from Microsoft Excel
 description: Import data such as event task records from Microsoft Excel to apply changes in bulk. Use this task for updating multiple event task records simultaneously outside the ServiceNow interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/import-data-from-excel.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Importing and exporting event tasks in Microsoft Excel, Structured workflows for Exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Importing and exporting event tasks in Microsoft Excel, Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Import data from Microsoft Excel
@@ -54,7 +54,7 @@ Role required: sn\_bcm.core\_viewer
 
 7.  Monitor the import progress using the inline progress tracker on the event record.
 
-    Import processing occurs in batches. Processing time depends on the number of records in the file. For information on the progress states shown in the tracker, see the Import progress states table in [Importing and exporting event tasks in Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-export-import-feature-event-tasks.md).
+    Import processing occurs in batches. Processing time depends on the number of records in the file. For information on the progress states shown in the tracker, see the Import progress states table in [Importing and exporting event tasks in Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/using-export-import-feature-event-tasks.md).
 
     The system reads the Microsoft Excel file, matches each row to an existing record using the **Number** field, and updates only the changed fields. Reference fields such as **Assigned to** are resolved automatically — the system converts display values back to the correct internal records.
 
@@ -66,7 +66,7 @@ Role required: sn\_bcm.core\_viewer
 
 9.  Confirm that the event task shows the additional configuration details.
 
-    Example shows an event task with additional assignee details.
+    Example shows an event task the additional assignee details.
 
     \[Omitted image "event-task-addi-assignee-list.png"\] Alt text: Additional assignee details.
 
@@ -83,5 +83,5 @@ Role required: sn\_bcm.core\_viewer
     The full re-import steps are in the Instructions sheet of the Excel file: Unlock the data sheet, delete successful rows, keep only failed rows, and re-import. Save the file and repeat the import steps to reprocess the corrected data.
 
 
-**Parent Topic:**[Importing and exporting event tasks in Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-export-import-feature-event-tasks.md)
+**Parent Topic:**[Importing and exporting event tasks in Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/using-export-import-feature-event-tasks.md)
 

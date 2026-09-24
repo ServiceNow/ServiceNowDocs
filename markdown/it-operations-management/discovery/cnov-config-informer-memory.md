@@ -3,7 +3,7 @@ title: Configure informer pod memory limit and memory request
 description: Set the memory limit and memory request of the Kubernetes Visibility Agent Informer pod.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cnov-config-informer-memory.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
@@ -25,8 +25,9 @@ Role required: none
 
 Informer pod memory consumption depends mainly on the number of resources contained in the cluster. Memory limit defines the maximum memory the informer container is allowed to use, while memory request defines how much memory to reserve when scheduling the informer pod. Set the Informer pod's memory request and the Informer pod’s memory limit to at least \(number of pods\)/8MB, with a default minimum of 200MB. Memory request must not exceed the memory limit. For example:
 
+| | | | |
+|---|---|---|---|
 |Estimated pod count|1000|5000|30000|
-|-------------------|----|----|-----|
 |Minimum memory limit|200Mi|625Mi|3.75Gi|
 |Memory request|200Mi|625Mi|3.75Gi|
 
@@ -69,5 +70,5 @@ Informer pod memory consumption depends mainly on the number of resources contai
         Setting `memoryRequest` equal to `memoryLimit` reserves exactly the memory your ACC agent needs. It prevents the ACC agent from being shut down if the system runs low on memory. This guarantees stable, uninterrupted agent operation. If you leave memoryRequest at the default 200Mi while setting a higher memoryLimit \(such as 625Mi\), the pod is burstable. It schedules against 200Mi but can grow to 625Mi.
 
 
-**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-deploy-install.md)
+**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/cnov-deploy-install.md)
 

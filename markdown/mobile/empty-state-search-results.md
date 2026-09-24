@@ -3,9 +3,9 @@ title: Configure an empty state for search results
 description: Configure a customized empty state for search results to provide users with information and actions to help improve their search criteria. This information will replace the default empty state that is provided for search results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/empty-state-search-results.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Global search, Launcher screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -21,7 +21,7 @@ You should have an empty state for the following situations:
 -   When a search for a term does not produce any results.
 -   When a search using a navigation tab does not produce any results.
 
-For more information, see [Configure an empty state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/empty-state-default.md).
+For more information, see [Configure an empty state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/empty-state-default.md).
 
 Role required: admin
 

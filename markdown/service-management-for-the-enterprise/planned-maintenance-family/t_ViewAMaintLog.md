@@ -3,11 +3,11 @@ title: View a maintenance log
 description: You can view all maintenance performed on a particular CI, the next scheduled maintenance, and the last time maintenance was performed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/planned-maintenance-family/t\_ViewAMaintLog.html
-release: australia
+release: brazil
 product: Planned Maintenance \(Family\)
 classification: planned-maintenance-family
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing maintenance plans, Planned Maintenance, Service Management]
 ---
@@ -33,5 +33,5 @@ Role required: SM admin
     Related lists display maintenance plans, maintenance plan records for the CI, and service orders.
 
 
-**Parent Topic:**[Managing maintenance plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/planned-maintenance-family/c_MaintPlanMgmt.md)
+**Parent Topic:**[Managing maintenance plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-management-for-the-enterprise/planned-maintenance-family/c_MaintPlanMgmt.md)
 

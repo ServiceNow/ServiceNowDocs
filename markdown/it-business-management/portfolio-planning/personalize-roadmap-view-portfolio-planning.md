@@ -3,11 +3,11 @@ title: Personalize roadmap view
 description: Customize the way that your roadmap is displayed. Group the roadmap items, color them by a category, add numerical data points, and display milestones and dependencies to analyze your roadmap efficiently and take informed decisions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/personalize-roadmap-view-portfolio-planning.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace, roadmap]
 breadcrumb: [Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
@@ -31,15 +31,15 @@ Any settings that you apply here are saved as preferences per roadmap. All users
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d45077e99">
+<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d43964e99">
 
 Roadmap type
 
-</th><th align="left" id="d45077e102">
+</th><th align="left" id="d43964e102">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d45077e108">
+</th></tr></thead><tbody><tr><td id="d43964e108">
 
 **Portfolio plan roadmap**
 
@@ -49,7 +49,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d45077e129">
+</td></tr><tr><td id="d43964e129">
 
 **Free-form roadmap**
 
@@ -72,7 +72,7 @@ From the Free-form Roadmaps tab, select a roadmap.
 
         You can group the roadmap items by up to two attributes and color-code them by one attribute.
 
-        You can work with your admin to add other attributes for the Group by, Color by, and Metrics fields. See [Customize planning item display preferences in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/update-source-table-preferences-roadmap-portfolio-planning.md).
+        You can work with your admin to add other attributes for the Group by, Color by, and Metrics fields. See [Customize planning item display preferences in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/update-source-table-preferences-roadmap-portfolio-planning.md).
 
     3.  Enable visibility of owners of the roadmap items by using the **Owner** toggle.
 
@@ -84,11 +84,11 @@ From the Free-form Roadmaps tab, select a roadmap.
 
     5.  If your roadmap items \(such as projects, epics, or demands\) have milestones, adjust how they’re displayed using the toggles in the Milestones section.
 
-        For more information, see [Customizing milestone display on roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/customizing-milestone-display-roadmap-portfolio-planning.md).
+        For more information, see [Customizing milestone display on roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/customizing-milestone-display-roadmap-portfolio-planning.md).
 
     6.  If your roadmap items have dependencies, adjust how they’re displayed using the toggles in the Dependencies section.
 
-        For more information, see [Customizing roadmap item dependency display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/customizing-roadmap-item-dependency-display-portfolio-planning.md).
+        For more information, see [Customizing roadmap item dependency display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/customizing-roadmap-item-dependency-display-portfolio-planning.md).
 
     7.  Identify the current date on your timeline using the current date indicator.
 
@@ -114,13 +114,13 @@ From the Free-form Roadmaps tab, select a roadmap.
 
     **Note:** The zoom level that you choose isn’t saved as the roadmap preferences.
 
-7.  [Apply quick filters for Prioritization and Roadmap data in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/quick-fiters-prioitization-roadmap-ppw.md)
+7.  [Apply quick filters for Prioritization and Roadmap data in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/quick-fiters-prioitization-roadmap-ppw.md)
 
 
--   **[Customizing milestone display on roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/customizing-milestone-display-roadmap-portfolio-planning.md)**  
+-   **[Customizing milestone display on roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/customizing-milestone-display-roadmap-portfolio-planning.md)**  
 Easily track the milestones of your roadmap timeline or its planning items by choosing how the milestones are displayed on the roadmap view.
--   **[Customizing roadmap item dependency display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/customizing-roadmap-item-dependency-display-portfolio-planning.md)**  
+-   **[Customizing roadmap item dependency display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/customizing-roadmap-item-dependency-display-portfolio-planning.md)**  
 Improve the efficiency of identifying the relationships between your planning items by choosing how the dependencies are displayed on the roadmap view.
 
-**Parent Topic:**[Planning roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/planning-roadmaps-in-portfolio-planning.md)
+**Parent Topic:**[Planning roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/planning-roadmaps-in-portfolio-planning.md)
 

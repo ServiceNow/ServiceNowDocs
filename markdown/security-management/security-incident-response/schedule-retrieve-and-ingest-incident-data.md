@@ -3,11 +3,11 @@ title: Schedule Microsoft Azure Sentinel incident retrieval
 description: Set a schedule to retrieve the incident data and to ingest the Microsoft Azure Sentinel incidents that match the criteria in the profile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/schedule-retrieve-and-ingest-incident-data.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Microsoft Azure Sentinel integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

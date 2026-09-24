@@ -3,9 +3,9 @@ title: RPA Hub Workspace
 description: Learn about the digital workforce that you can manage all from the RPA Hub Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/workspace-ui-rpa-hub.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -68,7 +68,7 @@ This page contains descriptions about the following basic score card, lists, and
     \[Omitted image "rpa-hub-workspace-license-utli.png"\] Alt text: License utilization of unattended and attended robots.
 
 
-You can configure a bot process record and create a robot by selecting the plus icon \(\[Omitted image "icon-plus.png"\] Alt text: Plus icon.\). For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess.md) and [Robots in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/robots-rpa-hub.md).
+You can configure a bot process record and create a robot by selecting the plus icon \(\[Omitted image "icon-plus.png"\] Alt text: Plus icon.\). For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-botprocess.md) and [Robots in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/robots-rpa-hub.md).
 
 \[Omitted image "rpa-hub-home-new-process.png"\] Alt text: Configuring a bot process record and creating a robot from the landing page.
 
@@ -88,5 +88,5 @@ Help Center provides users with the information they need, and tells users what 
 
 ## Dark theme
 
-Help alleviate eye strain by switching to a dark theme or mode available in the RPA Hub Workspace for RPA Hub landing page, Robot Calendar, Overview page, and RPA Hub system properties. For more information about the dark theme, see [Exploring themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md).
+Help alleviate eye strain by switching to a dark theme or mode available in the RPA Hub Workspace for RPA Hub landing page, Robot Calendar, Overview page, and RPA Hub system properties. For more information about the dark theme, see [Exploring themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-theming.md).
 

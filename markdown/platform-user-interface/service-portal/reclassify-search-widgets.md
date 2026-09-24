@@ -3,11 +3,11 @@ title: Reclassify cloned or customized search widgets
 description: Search widgets that you cloned or customized before a system upgrade may not be compatible with AI Search. You can resolve this issue by running a fix script that reclassifies search widget instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/reclassify-search-widgets.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enable and configure AI Search in Service Portal, AI Search in Service Portal, Configuring search in a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -18,8 +18,8 @@ Search widgets that you cloned or customized before a system upgrade may not be 
 
 ## Before you begin
 
-1.  [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/enable-ais-sp.md)
-2.  Run the Portal Analyzer to identify all cloned or customized search widgets. For more information, see [Get a list of widgets per page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/portal-analyzer.md).
+1.  [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/enable-ais-sp.md)
+2.  Run the Portal Analyzer to identify all cloned or customized search widgets. For more information, see [Get a list of widgets per page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/portal-analyzer.md).
 3.  For each cloned or customized search widget, copy the sys\_id value of each widget instance that is associated with the widget.
 4.  For each cloned or customized search widget, ensure that the widget and its corresponding widget instances have the latest AI Search code from the base system search widget.
 
@@ -51,5 +51,5 @@ If you're unable to use AI Search in Service Portal, you may need to reclassify 
 5.  Select **Run Fix Script**.
 
 
-**Parent Topic:**[Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/enable-ais-sp.md)
+**Parent Topic:**[Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/enable-ais-sp.md)
 

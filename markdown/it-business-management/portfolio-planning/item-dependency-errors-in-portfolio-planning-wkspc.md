@@ -3,11 +3,11 @@ title: Item dependency errors in Portfolio Planning Workspace
 description: Learn about the scenarios when the planning item dependencies on the portfolio plan roadmap or free-form roadmap in Portfolio Planning Workspace can be in an error state.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/item-dependency-errors-in-portfolio-planning-wkspc.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -26,12 +26,12 @@ To resolve such errors, review the scope of the planning items and update the st
 
 \[Omitted image "dependency-conflict.png"\] Alt text: planning item dependency conflicts.
 
-**Parent Topic:**[Portfolio Planning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/portfolio-planning-reference.md)
+**Parent Topic:**[Portfolio Planning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/portfolio-planning-reference.md)
 
 **Related topics**  
 
 
-[Add dependencies for roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/add-dependencies-roadmap-items-portfolio-planning.md)
+[Add dependencies for roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/add-dependencies-roadmap-items-portfolio-planning.md)
 
-[Update roadmap item dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/update-roadmap-item-dependencies-portfolio-planning.md)
+[Update roadmap item dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/update-roadmap-item-dependencies-portfolio-planning.md)
 

@@ -3,9 +3,9 @@ title: SAP HANA metadata collector
 description: Provides read-only access to metadata from a SAP HANA instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/sap-hana-metadata-collector.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
 ---
@@ -125,10 +125,10 @@ The collector supports SAP HANA version 2.00.076.00.20240701.1.
 
 The SAP HANA collector supports username and password authentication.
 
--   **[Prepare to run the SAP HANA collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-sap-hana-collector.md)**  
+-   **[Prepare to run the SAP HANA collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/prepare-to-run-sap-hana-collector.md)**  
 Set up authentication and configure the necessary privileges before you run the SAP HANA metadata collector.
--   **[Create an SAP HANA metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-sap-hana-metadata-collector.md)**  
+-   **[Create an SAP HANA metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-sap-hana-metadata-collector.md)**  
 Create a collector to import metadata from SAP HANA.
 
-**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-metadata-collectors-dc.md)
+**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-metadata-collectors-dc.md)
 

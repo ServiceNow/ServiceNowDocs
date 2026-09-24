@@ -3,9 +3,9 @@ title: Chief Information Officer Dashboard tabs
 description: Organizing insights into these five pillars promotes CIO focus on both operational stability and long-term innovation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/cio-db-tabs.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Chief Information Officer \(CIO\) Dashboard, Executive dashboard overview, Platform Analytics]
 ---

@@ -3,11 +3,11 @@ title: Linear assets in Enterprise Asset Management
 description: Expand your asset management portfolio by creating and managing linear assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/using-linear-assets.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Enterprise Asset Management data model, Explore, Enterprise Asset Management, Asset Management]
 ---
@@ -20,13 +20,13 @@ Expand your asset management portfolio by creating and managing linear assets.
 
 A linear asset is an asset that has a physical length or dimension, such as roads, railways, pipelines, power transmission lines, and telecommunication networks. Each linear asset has a defined start point and end point and can be represented as a sequence of interconnected segments or nodes. A segment is a specific linear asset section that is defined either by a start point and an end point or by a start point and a length.
 
-**Note:** For more details on the terminology that is used for linear assets, see [Terminology for linear assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/terms-eam.md).
+**Note:** For more details on the terminology that is used for linear assets, see [Terminology for linear assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/terms-eam.md).
 
 **Note:** You can classify and manage linear assets by using the Linear asset \[sn\_eam\_linear\_asset\] class. This class extends the Enterprise asset \[sn\_ent\_asset\] class.
 
 If a linear asset is divided into segments, you can classify and manage those segments by using the Linear segments \[sn\_eam\_linear\_segment\] class. This class extends the Linear asset \[sn\_eam\_linear\_asset\] class.
 
-These classes are available only through the Expanded Model and Asset Classes application. For more information on this application, see [Enterprise model and asset classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/enterprise-model-asset-classes.md).
+These classes are available only through the Expanded Model and Asset Classes application. For more information on this application, see [Enterprise model and asset classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/enterprise-model-asset-classes.md).
 
 ## Geo maps for linear assets
 
@@ -47,7 +47,7 @@ You can associate your linear assets with discreet assets, which are enterprise 
 
 You must assign each discreet asset a marker, which is a specific point location that falls within the boundary width of the associated linear asset. You can use this information to locate and query each discreet asset through the associated linear asset.
 
-For more information on discreet assets, see [Associate a discrete asset to a linear asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/associate-discreet-asset.md).
+For more information on discreet assets, see [Associate a discrete asset to a linear asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/associate-discreet-asset.md).
 
 ## Linear asset relationships
 
@@ -66,7 +66,7 @@ The Enterprise Asset Management application supports the following linear asset 
     Assets that cross each other at a specific point. For example, two roads that cross each other at an intersection.
 
 
-For more information on linear asset relationships, see [Find linear asset relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/find-linear-asset-relships.md).
+For more information on linear asset relationships, see [Find linear asset relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/find-linear-asset-relships.md).
 
-**Parent Topic:**[Enterprise Asset Management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/eam-data-model.md)
+**Parent Topic:**[Enterprise Asset Management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/eam-data-model.md)
 

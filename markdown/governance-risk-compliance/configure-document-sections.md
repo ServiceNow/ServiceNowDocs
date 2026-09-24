@@ -3,9 +3,9 @@ title: Configure a documentation section
 description: Configure a documentation section with structured sections that include high-level details, purpose, scope, coverage areas, goals, and success criteria.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-document-sections.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [BCM in the Classic Workspace, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---

@@ -3,11 +3,11 @@ title: Control Assessment form
 description: Use the Control Assessment form in the Advanced Risk application to assess the effectiveness of controls in mitigating risks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/control-assessment-form.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure a control effectiveness assessment, Perform Advanced Risk Assessment, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -49,14 +49,6 @@ Assessment contribution
 </td><td>
 
 Type of factor contribution. This field is automatically set to **Qualitative contribution**.
-
-</td></tr><tr><td>
-
-Hide assessment not applicable
-
-</td><td>
-
-Option to hide Control assessment not applicable option on the assessment page.
 
 </td></tr><tr><td>
 
@@ -144,6 +136,18 @@ Score label
 
 Option to rename the qualitative score label in the Scoring section of the assessment form. For example, if you rename Control risk as Preventive risk, the new score label will be displayed in the scoring section where Control risk was previously referred.
 
+</td></tr><tr><td class="sub-head" colspan="2">
+
+Other Configurations
+
+</td></tr><tr><td>
+
+Comments required to complete this assessment type
+
+</td><td>
+
+Option to make comments mandatory before an assessor can complete the control assessment.
+
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure a control effectiveness assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/configure-control-assess.md)
+</table>**Parent Topic:**[Configure a control effectiveness assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/configure-control-assess.md)
 

@@ -1,0 +1,627 @@
+---
+title: Combined AI Risk and Compliance release notes for upgrades from Zurich to Brazil
+description: Consolidated page of all release notes for AI Risk and Compliance from Zurich to Brazil.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-airiskandcompliance-release-notes.html
+release: brazil
+topic_type: reference
+last_updated: "2026-09-24"
+reading_time_minutes: 18
+breadcrumb: [Products combined by family]
+---
+
+# Combined AI Risk and Compliance release notes for upgrades from Zurich to Brazil
+
+Consolidated page of all release notes for AI Risk and Compliance from Zurich to Brazil.
+
+## How to use this page
+
+To help you prepare for your upgrade, we have combined the cross-family AI Risk and Compliance release notes onto one page. Read this summary of the new features, changes, and updated information for your product from Zurich to Brazil.
+
+**Tip:** If there were no updates for a release notes section in a certain family release, we included a short note for your reference. For example, if a product did not have any updates in Tokyo, the row says "No updates for this release."
+
+## Important information for upgrading AI Risk and Compliance to Brazil
+
+Before you upgrade to Brazil, review these pre- and post-upgrade tasks and complete the tasks as needed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+-   **Upgrade information**
+
+If you're upgrading from an earlier release, upgrade sequentially through each release rather than skipping versions. Upgrade scripts depend on running in order, and skipping releases can cause data inconsistencies or broken functionality.
+
+
+</td></tr></tbody>
+</table>## New features
+
+Between your current release family and Brazil, new features were introduced for AI Risk and Compliance.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **[Assess multiple risks and controls for AI assets simultaneously](https://www.servicenow.com/docs/access?context=risk-assessment-project-airc&family=zurich&ft:locale=en-US)**
+
+Create a risk assessment project to perform bulk assessments on multiple risks for an AI asset, enabling assessors to evaluate them in a single project. This approach reduces time and effort, confirms consistency across multiple assessments, and provides a more comprehensive view of risks and controls within the same project. You can scope multiple risks related to the assessable entity within the project and perform assessments.
+
+AI Risk and Compliance team can determine inherent risks, control effectiveness, residual risks, and target risks in the risk assessment project. They can also reassess completed assessments or reassign in-progress assessment projects to another assessor.
+
+-   **[AI asset data segregation with entity based access](https://www.servicenow.com/docs/access?context=entity-based-access-for-ai-assets&family=zurich&ft:locale=en-US)**
+
+Enhance data segregation and security to ensure that only authorized users can access sensitive AI Risk and Compliance data while maintaining visibility into core entities. AI Risk and Compliance managers can control access risks, controls, related entities, issues, indicators, AI asset tasks, risk assessments, attestations, and AI assets data through entity-based access. Entities themselves stay visible to all users, while visibility of linked records is limited to authorized users.
+
+-   **[AI Risk and Compliance content accelerator](https://www.servicenow.com/docs/access?context=unified-content-management-in-airc&family=zurich&ft:locale=en-US)**
+
+Use the AI Risk and Compliance content accelerator icon on the AI Risk and Compliance workspace to activate the pre-configured content packs. Content Accelerator includes regulatory packs such as the EU Artificial Intelligence Act and NIST AI Risk Management Framework, offering citations, control objectives, and risk statements. The unified content hub helps to streamline scoping, reduce manual navigation between frameworks, and promote consistent use of regulatory content accelerator packs. This feature supports AI Risk and Compliance team in meeting relevant business requirements, maintaining team consistency, and speeding up the activation and management of global regulatory frameworks.
+
+-   **[Automatic AI case and inquiry creation from email](https://www.servicenow.com/docs/access?context=automatic-creation-cases-inquiries-from-email&family=zurich&ft:locale=en-US)**
+
+Report AI cases or raise AI inquiries by sending an email to a dedicated email address. Your email automatically creates a new AI Case or AI Inquiry record in the system. This feature remove manual work and scattered reporting methods, ensuring every case or inquiry is automatically captured, categorized, and tracked.
+
+-   **[360° AI asset view](https://www.servicenow.com/docs/access?context=visualization-of-ai-assest&family=zurich&ft:locale=en-US)**
+
+Use the 360° AI asset view in the AI Control Tower to explore the relationship between your AI assets and all its associated records in a distinctive visualization. This visualization provides valuable insights into how these objects interact and relate to each other within the AI asset. You can view related records such as, datasets, AI model, risks, controls, and assessments.
+
+-   **[AI asset offboarding workflow](https://www.servicenow.com/docs/access?context=airc-offboarding-ai-assets&family=zurich&ft:locale=en-US)**
+
+Manage AI asset changes and retirements through structured workflows that ensure compliance and reduce operational risk. Track and approve modifications to models, datasets, and systems while automatically identifying impacts on dependent assets. Initiate formal offboarding processes that remove access, close documentation, and update related controls when retiring underperforming or deprecated AI assets. Maintain complete audit trails integrated with your policy and risk frameworks to demonstrate governance continuity during lifecycle transitions.
+
+
+ -   **[Deliver system-level AI risk score aggregation and visualization](https://www.servicenow.com/docs/access?context=ai-assets-airc&family=zurich&ft:locale=en-US)**
+
+Aggregate AI system-level risk scores by integrating heatmaps and residual risk score widgets directly within your AI asset overview records. These visual tools help you to see the cumulative risk exposure and track the residual risks across the entire AI asset inventory. With this feature, you get clear, data-driven insights into the overall AI system risk posture.
+
+-   **[Enable AI risk and compliance views with updated content packs](https://www.servicenow.com/docs/access?context=ai-assets-airc&family=zurich&ft:locale=en-US)**
+
+Get the dedicated AI risk and compliance views for your AI models and dataset records. With these views, you get a structured and comprehensive overview of the related risks, controls, and compliance obligations, including the refreshed content packs that feature the updated assessment questionnaires and templates that align with the latest governance frameworks and regulatory standards. Your organization can perform accurate and timely risk assessments while maintaining compliance with evolving AI governance requirements.
+
+-   **[Implement robust access control and AI asset management capabilities](https://www.servicenow.com/docs/access?context=roles-installed-with-ai-risk-and-compliance&family=zurich&ft:locale=en-US)**
+
+Apply role-based access controls across AI assets and dashboards to ensure that data access is based on user roles. You can enable employees to request access to AI assets through a governed process and enforce consistent tracking of life-cycle states \(such as development, deployment, monitoring, and retirement\) across all AI assets.
+
+-   **[Use the AI cases tab to monitor and manage AI case activity](https://www.servicenow.com/docs/access?context=ai-cases-tab-airc&family=zurich&ft:locale=en-US)**
+
+Gain a centralized overview of all your AI asset cases and inquiries by using the **AI cases** tab in the AI Risk and Compliance workspace. On this tab, you see a list of records that include the case details such as the status, priority, owner, and timeline of your AI cases. You can monitor the progression of a case, stay informed about ongoing investigations, follow up on pending actions, and ensure timely resolutions. On the tab, you can also find filtering and sorting options that help you to prioritize cases that require immediate attention.
+
+-   **[Filter the risk heatmap by Risk Assessment Methodology for targeted risk analysis](https://www.servicenow.com/docs/access?context=risk-and-compliance-tab-airc&family=zurich&ft:locale=en-US)**
+
+Apply the Risk Assessment Methodology filter to customize the display of the risk heatmap that is based on the specific risk evaluation frameworks from the AI risk and compliance home page. You can segment and analyze the AI risks according to the risk assessment models that your organization adopts, such as the internal standards, regulatory frameworks, or industry benchmarks, so that you can understand how different risk factors are identified, scored, and distributed.
+
+-   **[Group control attestations](https://www.servicenow.com/docs/access?context=attest-controls-for-ai-systems&family=zurich&ft:locale=en-US)**
+
+Group control attestations by such predefined criteria as the control objectives, frameworks, or assessment cycles so that you can more efficiently manage and review attestations, reduce redundancy, and improve your visibility into the compliance status across related controls for the AI Risk and Compliance team.
+
+-   **[Scan and analyze updates from global regulators](https://www.servicenow.com/docs/access?context=ai-risk-and-compliance-workspace&family=zurich&ft:locale=en-US)**
+
+Enable the AI Risk and Compliance team to scan and interpret regulatory updates that are issued by global authorities. Your organization can stay informed about emerging compliance requirements, assess their potential impact, and take timely action.
+
+-   **[Manage reporting compliance posture insights on key regulations or policies](https://www.servicenow.com/docs/access?context=risk-and-compliance-tab-airc&family=zurich&ft:locale=en-US)**
+
+Control the reporting of compliance posture insights that are related to key regulations and internal policies by using a setting to determine which insights are shared, their level of detail, and the reporting cadence. Your organization can align reporting outputs with regulatory obligations and internal governance requirements.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   **[Continuous controls monitoring](https://www.servicenow.com/docs/access?context=airc-continuous-controls-monitoring&family=australia&ft:locale=en-US)**
+
+Use Continuous Controls Monitoring to automate control verification and gather real-time visibility into control health. After upgrading to version 22.5.x, users with the AI Risk and Compliance Manager \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager\] role can create a compliance evaluation configuration. Indicators that use metrics from ServiceNow or Traceloop, can run on a schedule and evaluate whether a control associated with the asset is compliant or non-compliant. When an indicator fails, a GRC issue is created so that the product owner of the affected asset can remediate it. Users with the AI Risk and Compliance Analyst \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst\] role can access the configurations but can't make changes.
+
+-   **[Risk and compliance tasks for Asset owners in Activity center](https://www.servicenow.com/docs/access?context=aict-activity-center&family=australia&ft:locale=en-US)**
+
+After upgrading to version 22.5.x, if you have the AI Asset Owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] role, you can access and act on risk and compliance life cycle tasks, such as impact assessments and control attestations, from the Activity Center in AI Control Tower. The Activity Center surfaces AI asset tasks, issues, policy exceptions, and AI cases for the asset owner. On the asset record page, all life cycle tasks specific to the assigned assets can be accessed and performed.
+
+-   **[AI Risk and Compliance lifecycle tasks in AI Governance](https://www.servicenow.com/docs/access?context=risk-compliance-lifecycle-tasks-aict&family=australia&ft:locale=en-US)**
+
+After upgrading to version 22.5.x, if you have the AI Steward \[sn\_ai\_governance.ai\_steward\] and AI Risk and Compliance Analyst \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst\] roles, you can take and manage risk assessments directly from the playbook within the AI Control Tower workspace, without switching between workspaces.
+
+
+ -   **[Exploring Now Assist in AI Risk and Compliance](https://www.servicenow.com/docs/access?context=airc-exploring-now-assist&family=australia&ft:locale=en-US)**
+
+Use Now Assist for AI Risk and Compliance to get AI-powered assistance throughout the AI asset lifecycle. After upgrading to version 22.4.x, users with the AI Risk and Compliance AI user \[sn\_airc\_gen\_ai.airc\_ai\_user\] and AI Risk and Compliance AI agent user \[sn\_airc\_gen\_ai.airc\_ai\_agent\] roles can access the following capabilities:
+
+    -   Create and document governance, risk, and compliance issues with guided assistance from the employee center.
+    -   Generate concise summaries of complex GRC issues for faster review and decision-making.
+    -   Create executive summaries of risk assessments to communicate findings to stakeholders.
+    -   Generate responses to assessment questions based on past assessments and reference documentation.
+    -   Identify related control objectives from your controls library to reduce duplication.
+Use these capabilities to capture AI risk context early in the development process and address compliance requirements throughout the system lifecycle.
+
+
+ -   **[Risk‑based classification during intake](https://www.servicenow.com/docs/access?context=request-ai-system&family=australia&ft:locale=en-US)**
+
+After upgrading to version 22.0.3, if you have the AI risk and compliance business user \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_business\_user\] role, you can now classify AI systems using a risk‑based approach at intake, enabling organizations to capture AI risk context early and align governance workflows with regulatory and internal risk requirements. This improvement to the AI use case request form supports more accurate AI oversight throughout the system life cycle.
+
+-   **[Report an AI case anonymously](https://www.servicenow.com/docs/access?context=report-ai-case-anon&family=australia&ft:locale=en-US)**
+
+After upgrading to version 22.0.3, if you have the AI Case Management \(sn\_ai\_case\_mgmt\) application installed and the AI case business user \[sn\_ai\_case\_mgmt.ai\_case\_business\_user\] role, you can navigate to the Employee Center to access the Anonymous Reporting Center and submit AI cases anonymously, enabling broader participation in AI governance while protecting the identity of reporters. No additional role is required to submit an anonymous report directly through the Anonymous Reporting Center. Broader participation helps organizations identify potential AI risks earlier by removing barriers to case submission.
+
+-   **[Offboard AI models and datasets](https://www.servicenow.com/docs/access?context=airc-offboarding-ai-assets&family=australia&ft:locale=en-US)**
+
+After upgrading to version 22.0.3, if you have the AI risk and compliance analyst \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst\] or AI risk and compliance manager \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager\] role you can manage AI asset offboarding life cycle tasks. Managing these tasks supports completion of governance-related activities, such as risk and impact assessments, conformity reviews, issue closure, and audit documentation, when an AI asset is retired or removed from active use.
+
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Changes
+
+Between your current release family and Brazil, some changes were made to existing AI Risk and Compliance features.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **Feature-specific administrator role enhancements**
+
+Starting with version 21.1.1, if you have a feature admin role you can now complete tasks that were initially reserved for users with the broader administrator role.
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[AI risk and compliance home page](https://www.servicenow.com/docs/access?context=ai-risk-and-compliance-workspace&family=zurich&ft:locale=en-US)**
+
+The **Risk and compliance** tab now features dedicated Risk overview and Compliance overview sections that enable you to continuously monitor the risk and compliance posture of your AI assets.
+
+The Risk overview section is a filtered view of your AI assets that are based on inherent and residual risk levels so that you can make informed risk evaluations. The Compliance overview section displays the regulatory risk classification of AI systems, models, and datasets through donut charts. Additionally, you can see the compliance status of your AI assets in relation to applicable authority documents and internal policies.
+
+-   **[Worknotes and comments in AI system records](https://www.servicenow.com/docs/access?context=ai-system-airc&family=zurich&ft:locale=en-US)**
+
+The AI system record now supports worknotes and comments. You can now document decisions, share updates, and provide context throughout the AI risk and compliance life-cycle. Worknotes and comments help improve the communication among stakeholders and ensure a comprehensive audit trail.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   **AI record labels**
+
+The AI assets \(sn\_grc\_ai\_gov\_ai\_system\) table has been renamed to AI records \(sn\_grc\_ai\_gov\_ai\_system\). Two field labels on AI system, AI model, and dataset record pages in the AI Risk and Compliance Workspace have changed. The **Record type** field now displays **AI record** instead of the previous asset-specific labels. On AI system records, the **Asset type** field has been replaced by **Parent category**, which displays **AI system**.
+
+
+ -   **[Smart Assessment Engine template versioning](https://www.servicenow.com/docs/access?context=airc-assessment-templates&family=australia&ft:locale=en-US)**
+
+After upgrading to version 22.3.5, if you have the AI risk and compliance admin \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_admin\] role, you can use Smart Assessment templates that support versioning. A new version is created automatically when you edit and save a template. Publishing a new version retires the previously published version. Existing templates are set to Version 1.
+
+-   **[Assessment scope context in task and work queue lists](https://www.servicenow.com/docs/access?context=tasks-ai-risk-compliance&family=australia&ft:locale=en-US)**
+
+After upgrading to version 22.3.5, if you have the AI risk and compliance analyst \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst\] or AI risk and compliance manager \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager\] role, assessment task list and work queue views display additional columns that show the governance scope \(related entity such as AI asset, model, or dataset\) of each control attestation-based assessment. These columns let you identify which AI asset, entity, and control an assessment belongs to without opening the individual record.
+
+-   **[Impact assessment field auto-population](https://www.servicenow.com/docs/access?context=airc-intake&family=australia&ft:locale=en-US)**
+
+After upgrading to version 22.3.5, if you have the AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] or AI risk and compliance business user \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_business\_user\] role, the screening question responses that capture the AI system's intended use and operational context from the Use and Purpose section of the AI use case request form are automatically populated in the corresponding Use and Purpose fields of a new impact assessment. This synchronization reduces manual entry and helps ensure that impact assessment responses are consistent with the information submitted at intake.
+
+-   **[AI Risk and Compliance Content Pack regulatory frameworks](https://www.servicenow.com/docs/access?context=airc-content-pack&family=australia&ft:locale=en-US)**
+
+After upgrading to version 22.3.0, if you have the AI Risk and Compliance Content application installed and the admin role, the AI Risk and Compliance content pack includes additional authority documents, agency mappings, and citations for the following regulatory frameworks: the Transparency in Frontier Artificial Intelligence Act \(SB 53\) and the Colorado Artificial Intelligence Act \(SB 205\). When at least one regulatory framework is activated, control objective records display citations from all activated authority documents in the **Citations** tab. This enables you to assess cross-framework regulatory coverage from a single control objective record without navigating each framework separately.
+
+
+ -   **[Operations tab](https://www.servicenow.com/docs/access?context=operations-tab&family=australia&ft:locale=en-US)**
+
+On the Operations tab in the AI Risk and Compliance Workspace, the AI systems by state section includes an Offboard state to track AI systems in retirement or offboarding and the AI systems by department section now supports grouping by Risk classification from the Show by drop-down list to view the distribution of AI systems in each department.
+
+-   **[AI use case request form](https://www.servicenow.com/docs/access?context=airc-intake&family=australia&ft:locale=en-US)**
+
+A Use and Purpose section containing screening questions has been added to the AI use case request form to capture contextual information about how an AI system will be used and supports automated risk‑based classification during submission.
+
+-   **[AI system record page](https://www.servicenow.com/docs/access?context=ai-system-airc&family=australia&ft:locale=en-US)**
+
+A Use and Purpose section has been added to the AI system record page, which you can access from the AI asset inventory list in the AI Risk and Compliance Workspace.
+
+-   **[Anonymous AI case reporting](https://www.servicenow.com/docs/access?context=airc-cases-inquiries&family=australia&ft:locale=en-US)**
+
+A Visit Anonymous Reporting Center card is available in the Support resources section of the AI assets page in the Employee Center, enabling you to navigate to the Anonymous Reporting Center to submit an anonymous AI case.
+
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Removed
+
+Between your current release family and Brazil, some AI Risk and Compliance features or functionality were removed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Deprecations
+
+Between your current release family and Brazil, some AI Risk and Compliance features or functionality were deprecated.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Activation information
+
+Review information on how to activate AI Risk and Compliance.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **Activation information**
+
+Install AI Risk and Compliance by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** AI Risk and Compliance is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   **Activation information**
+
+Install AI Risk and Compliance by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
+
+**Important:** AI Risk and Compliance is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+-   **Activation information**
+
+Install AI Risk and Compliance by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
+
+
+**Note:** AI Risk and Compliance is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
+</td></tr></tbody>
+</table>## Additional requirements
+
+If any additional requirements were introduced or changed for AI Risk and Compliance we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Browser requirements
+
+If any specific browser requirements were introduced or changed for AI Risk and Compliance we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Accessibility information
+
+Review details on accessibility information for AI Risk and Compliance, such as specific requirements or compliance levels.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Localization information
+
+If there are specific localization considerations for AI Risk and Compliance we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Highlight information
+
+If there are specific highlight considerations for AI Risk and Compliance we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+-   Use entity-based access to limit AI asset data access to authorized users, maintaining core entity visibility.
+-   Perform assessment on multiple risks for an AI asset by creating a risk assessment project.
+-   Activate and manage pre-configured content packs using the unified content hub.
+-   Report AI cases or raise AI inquiries by emailing a dedicated address, which automatically creates a new, trackable record in the system.
+-   Retire and replace AI assets with structured workflows that prevent compliance gaps and security risks.
+-   Aggregate system-level AI risk scores by embedding heatmaps and residual score widgets within your AI asset overview records. You get visibility into your cumulative risk across the AI inventory and support for continuous risk monitoring.
+-   Get the dedicated AI risk and compliance views for your AI models and dataset records. With these views, you have a centralized interface where you can assess, monitor, and manage the risk and compliance attributes that are specific to your AI assets.
+-   Enforce role-based access controls, enable employee-initiated AI asset requests, and maintain consistent life-cycle state tracking across all your AI assets and dashboards. This capability helps you to ensure security, transparency, and governance throughout the asset life-cycle.
+-   View and manage your AI asset's risk and compliance cases more efficiently by accessing the new **AI cases** tab on the AI Risk and Compliance home page.
+-   Monitor and track the risk and compliance posture of your AI assets to ensure that your organization aligns with organizational and regulatory standards. You can also gain real-time insights into the emerging risks and compliance gaps across your AI portfolio.
+
+ See [AI Risk and Compliance](https://www.servicenow.com/docs/access?context=ai-risk-and-compliance&family=zurich&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   Manage Smart Assessment templates with versioning support. Create, publish, and delete template versions to support consistent assessment governance.
+-   View the related entity \(AI record, model, or dataset\) and control for each control attestation-based assessment directly in task and work queue lists, without opening the individual record.
+-   Access authority documents, agency mappings, and citations for additional AI regulatory frameworks in the AI Risk and Compliance content pack.
+-   Classify AI systems based on regulatory risk at intake by applying a configured Risk Assessment Methodology \(RAM\), enabling early risk identification and consistent AI governance decisions across the system life cycle.
+-   Submit AI cases anonymously to report potential AI risks or concerns without disclosing your identity, helping improve early risk visibility and participation in AI governance.
+-   Offboard AI assets with structured life-cycle tasks to support completion of governance and risk activities when systems are retired or replaced.
+
+ See [AI Risk and Compliance](https://www.servicenow.com/docs/access?context=ai-risk-and-compliance&family=australia&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+-   Assess, score, and monitor risk across your AI assets, from onboarding through deployment, until retirement.
+-   Centralize regulatory risk assessments, impact assessments, issue tracking, and remediation in a single workspace.
+-   Manage risk and compliance scores for AI assets throughout their life cycle with workflows for ongoing oversight and risk management.
+-   Manage conformity of AI assets with global regulations and frameworks.
+-   Identify and address potential impacts on privacy, non- discrimination, and other human rights.
+
+ See [Version 23.0.3](https://www.servicenow.com/docs/access?context=airc-rn-2026-09&family=brazil&ft:locale=en-US) for more information.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/rn-combined-intro.md)
+

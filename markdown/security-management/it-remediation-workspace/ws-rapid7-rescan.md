@@ -3,11 +3,11 @@ title: Rescan Rapid7 vulnerable items from the Vulnerability Response workspaces
 description: Verify your vulnerable items have been remediated between scheduled scanning cycles. Initiate rescans in the Rapid7 product on-demand from the IT Remediation Workspace in your ServiceNow AI Platform instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/it-remediation-workspace/ws-rapid7-rescan.html
-release: australia
+release: brazil
 product: IT Remediation Workspace
 classification: it-remediation-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Rescan vulnerable items and remediation tasks in the IT Remediation Workspace, Use, IT Remediation Workspace, Vulnerability Response Workspaces, Unified Security Exposure Management, Security Operations]
 ---
@@ -18,7 +18,7 @@ Verify your vulnerable items have been remediated between scheduled scanning cyc
 
 ## Before you begin
 
-To initiate a rescan for the product from the classic environment, see [Initiate rescan for the Rapid7 Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vr-r7-rescan.md). This topic also includes information about how to schedule scans with the integration parameters on the Rapid7 integration instance.
+To initiate a rescan for the product from the classic environment, see [Initiate rescan for the Rapid7 Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/vr-r7-rescan.md). This topic also includes information about how to schedule scans with the integration parameters on the Rapid7 integration instance.
 
 The Rapid7 scanners are deactivated by default in the Vulnerability Response application. If you try to perform a rescan from the vulnerable items or remediation tasks that have Rapid7 application as a source, the **Rescan** button is not available.
 

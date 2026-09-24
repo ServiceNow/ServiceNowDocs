@@ -3,11 +3,11 @@ title: Test Management 2.0 integration with Project Portfolio Management
 description: Test Management 2.0 integration with Project Portfolio Management enables you to carry out testing activities on projects.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/ppm-collaboration/r\_TestManagementIntegrationWithPPS.html
-release: australia
+release: brazil
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore Project Portfolio Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -29,5 +29,5 @@ As testers perform tests and record results, the information is updated to the t
 
 **Note:** If you're an existing user, the integration between Project Portfolio Management and Test Management 1.0 continues to work the same. You can still create test phases, associate test phases to a test plan, and perform testing activities.
 
-**Parent Topic:**[Explore Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/explore-project-portfolio-management.md)
+**Parent Topic:**[Explore Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/explore-project-portfolio-management.md)
 

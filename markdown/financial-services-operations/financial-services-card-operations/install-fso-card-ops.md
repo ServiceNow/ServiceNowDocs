@@ -3,11 +3,11 @@ title: Install Financial Services Card Operations
 description: You can install the Financial Services Card Operations application \(sn\_bom\_credit\_card\) if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-card-operations/install-fso-card-ops.html
-release: australia
+release: brazil
 product: Financial Services Card Operations
 classification: financial-services-card-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Card Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -32,7 +32,7 @@ The following items are installed with Financial Services Card Operations:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with Financial Services Card Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-card-operations/installed-with-card-operations.md).
+For more information, see [Components installed with Financial Services Card Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-card-operations/installed-with-card-operations.md).
 
 **Note:** To enable customers to submit requests through the Consumer Service Portal, you should also activate the Consumer Service Portal plugin \(com.glide.service-portal.consumer-portal\).
 

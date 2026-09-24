@@ -3,11 +3,11 @@ title: Configuring Task Bundling
 description: Bundle work order tasks to keep similar tasks together.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/configuring-fsm-task-bundling.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
@@ -20,13 +20,13 @@ Field Service Task Bundling enables dispatchers to create, assign, and manage wo
 
 ## Dynamic task bundling
 
-Admins can configure dynamic bundling policies and rules to bundle work order tasks automatically. For more information, see [Dynamic task bundling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/dynamic-task-bundling.md).
+Admins can configure dynamic bundling policies and rules to bundle work order tasks automatically. For more information, see [Dynamic task bundling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/dynamic-task-bundling.md).
 
 ## Activation
 
-For information about activating the Field Service Task Bundling plugin \(com.snc.fsm\_task\_bundle\), see [Activate Field Service Task Bundling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/activate-work-order-task-bundling.md).
+For information about activating the Field Service Task Bundling plugin \(com.snc.fsm\_task\_bundle\), see [Activate Field Service Task Bundling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/activate-work-order-task-bundling.md).
 
 ## Components
 
-For a detailed list of components added by Field Service Task Bundling, see [Field Service Task Bundling components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/task-bundling-components.md).
+For a detailed list of components added by Field Service Task Bundling, see [Field Service Task Bundling components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/task-bundling-components.md).
 

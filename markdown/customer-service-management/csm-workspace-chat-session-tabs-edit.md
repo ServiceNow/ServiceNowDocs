@@ -3,9 +3,9 @@ title: Edit or remove chat session tabs
 description: Edit the settings for configured SLA threshold levels, add or remove SLA threshold levels, or remove workspaces from the Configured workspaces list in the Conversational interfaces \(CI\) Admin Console.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-chat-session-tabs-edit.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Chat session tabs, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---

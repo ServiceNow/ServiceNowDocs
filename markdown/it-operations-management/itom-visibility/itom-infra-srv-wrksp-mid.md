@@ -3,11 +3,11 @@ title: MID Server Workspace
 description: See a concise overview of MID Server activity. The workspace provides real-time monitoring and enables corrective actions across multiple MID Servers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/itom-infra-srv-wrksp-mid.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use ITOM Infra Services Workspace, ITOM Infra Services Workspace, ITOM Visibility, IT Operations Management]
 ---
@@ -48,7 +48,7 @@ The **Purpose** field can be viewed from the dashboard tables by adding it to th
 
 The **MID Server configuration** and **Troobleshooting** sections of the context menu show the records assigned to this MID Server. You can access the MID Server properties or logs. Use the **Create** button to create new records, or the **Manage** button to manage existing ones. You can filter the list of records by selecting the filter icon.
 
-**Parent Topic:**[Use ITOM Infra Services Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/itom-infra-srv-wrksp-use.md)
+**Parent Topic:**[Use ITOM Infra Services Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/itom-infra-srv-wrksp-use.md)
 
 **Related topics**  
 

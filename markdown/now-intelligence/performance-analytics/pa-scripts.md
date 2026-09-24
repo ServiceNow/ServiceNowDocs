@@ -3,11 +3,11 @@ title: Scripting in Performance Analytics
 description: Performance Analytics provides several script objects for use in scripts and APIs for querying Performance Analytics data. The scripts serve as breakdown mappings or to calculate a value from an indicator.To create a script, first select the facts table to which the script applies and explicitly select any fields.Several variables are available for use in Performance Analytics scripts and formula indicators.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/pa-scripts.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -20,8 +20,8 @@ Performance Analytics provides several script objects for use in scripts and API
 
 -   In general, use scripts only to support indicators like Age with date processing, using the `score_start` and `score_end` variables.
 -   Limit unnecessary fields. Every time you include an extra dot-walked field, you add an extra join to the query.
--   Try to replace manual breakdowns with [database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) for better performance.
--   Try to use script includes for common functions. For more information, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md).
+-   Try to replace manual breakdowns with [database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) for better performance.
+-   Try to use script includes for common functions. For more information, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/c_ScriptIncludes.md).
 -   If the data is not structured in a way you need for reporting, try adding 'reporting fields' to the operational tables instead of creating scripts. For more information, see this [Community post](https://community.servicenow.com/community?id=community_blog&sys_id=2f99990fdbee5b00fece0b55ca9619fb).
 -   If you are running a background script that queries the Performance Analytics scores or snapshots tables, you cannot access data about a scoped application unless you have an appropriate role for that application.
 
@@ -29,11 +29,11 @@ Performance Analytics provides several script objects for use in scripts and API
 
 ## Breakdown mapping and indicator scripts
 
-A [breakdown mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) script typically returns either a sys\_id of a breakdown element or an integer to put the score in a bucket. Indicator scripts return a score calculated from one or more fields. The same script can serve both as a breakdown mapping script and as an indicator script.
+A [breakdown mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) script typically returns either a sys\_id of a breakdown element or an integer to put the score in a bucket. Indicator scripts return a score calculated from one or more fields. The same script can serve both as a breakdown mapping script and as an indicator script.
 
 ## Breakdown script
 
-For example, consider the provided Incident.Age.Days script, which uses the `opened_at` field from the incident table. This script serves as a breakdown mapping for the Age breakdown, which uses the Incident Age Ranges \(Days\) [bucket group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) as the breakdown source.
+For example, consider the provided Incident.Age.Days script, which uses the `opened_at` field from the incident table. This script serves as a breakdown mapping for the Age breakdown, which uses the Incident Age Ranges \(Days\) [bucket group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) as the breakdown source.
 
 ```
 var diff=function(x,y){return y.dateNumericValue() - x.dateNumericValue();};
@@ -41,16 +41,16 @@ var days=function(x,y){return diff(x,y)/(24*60*60*1000);};
 days(current.opened_at, score_end);
 ```
 
-In this example, `current.opened_at` gets the timestamp of when the currently evaluated record was opened. The `score_end` [script variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-scripts.md) comes from the [data collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) and is bound to the period being collected. For example, if a monthly indicator is being collected, the `score_end` is the end of the month. Here the timestamp of when the incident was opened is subtracted from the timestamp of the end of the collection period and the result is converted to days.
+In this example, `current.opened_at` gets the timestamp of when the currently evaluated record was opened. The `score_end` [script variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/pa-scripts.md) comes from the [data collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) and is bound to the period being collected. For example, if a monthly indicator is being collected, the `score_end` is the end of the month. Here the timestamp of when the incident was opened is subtracted from the timestamp of the end of the collection period and the result is converted to days.
 
 This example includes the `Incident.opened_at` field, which is specified in the **Fields** field for this script. You can use `score_start` and `score_end` without defining them in the **Fields** field.
 
-**Parent Topic:**[Configure Performance Analytics advanced features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PADataArchitecture.md)
+**Parent Topic:**[Configure Performance Analytics advanced features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_PADataArchitecture.md)
 
 **Related topics**  
 
 
-[Create a breakdown mapping on a breakdown record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CrtBkdnBreakdownMpngs.md)
+[Create a breakdown mapping on a breakdown record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/t_CrtBkdnBreakdownMpngs.md)
 
 [Server Scoped API List](https://developer.servicenow.com/dev.do#!/reference/api/tokyo/server)
 
@@ -109,7 +109,7 @@ The `score_start` and `score_end` values are calculated based on the time zone o
 **Related topics**  
 
 
-[Get analytics methods in formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/get-indicator-analytics.md)
+[Get analytics methods in formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/get-indicator-analytics.md)
 
 [Changes to score\_start/end because of different user time zones]()
 

@@ -3,11 +3,11 @@ title: PADomainUtils - copyJob\(String paJob, String runAs\)
 description: Copies a Performance Analytics scheduled data collection job record to another domain.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/r\_PADU-copyJob\_String\_String.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [PADomainUtils - Global, Domain separation, Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -35,5 +35,5 @@ var pa = new SNC.PADomainUtils();
 pa.copyJob('82ba2023d7101100b96d45a3ce6103cd','797d14341f1310005a3637b8ec8b7010');
 ```
 
-**Parent Topic:**[PADomainUtils - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PADomainUtils.md)
+**Parent Topic:**[PADomainUtils - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_PADomainUtils.md)
 

@@ -3,12 +3,12 @@ title: Configure video sources for a community
 description: Configure additional sources that can be used for uploading a video to the community.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/create-video-configuration.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Configuring communities, Communities, Customer Service Management]
 ---
 
@@ -20,6 +20,10 @@ Configure additional sources that can be used for uploading a video to the commu
 
 Role required: sn\_communities.admin
 
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Community** &gt; **Administration** &gt; **Video Configuration**.
@@ -28,12 +32,12 @@ Role required: sn\_communities.admin
 
 3.  On the form, fill in the fields.
 
-    For field description, see [Video Configurations form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/video-configurations-form-fields.md).
+    For field description, see [Video Configurations form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/video-configurations-form-fields.md).
 
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-communities.md)
+**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/configure-communities.md)
 
 **Related topics**  
 

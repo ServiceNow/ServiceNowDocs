@@ -3,11 +3,11 @@ title: Kubernetes explorer dashboard
 description: The Discovery Admin Workspace Kubernetes explorer dashboard displays a consolidated view of the Kubernetes resources discovered in your environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/kubernetes-explorer-dash.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-08-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Insights, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
@@ -26,7 +26,7 @@ To access the dashboard, navigate to **Workspaces** &gt; **Discovery Admin Works
 -   **Verify that you have the required setup**
     -   The ServiceNow AI Platform must be running the Brazil, Australia, or the Zurich release starting with Patch 8.
     -   Discovery Admin Workspace must be installed, starting with v1.20.0.
-    -   You must have a completed Kubernetes discovery, so that resource data is available to display. For more information, see [Kubernetes discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/kubernetes-discovery.md).
+    -   You must have a completed Kubernetes discovery, so that resource data is available to display. For more information, see [Kubernetes discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/kubernetes-discovery.md).
 
 ## Required ServiceNow AI Platform roles
 
@@ -37,7 +37,7 @@ The discovery\_admin role is required to view the Kubernetes explorer dashboard.
 The Kubernetes Explorer dashboard enables you to make data-driven decisions through visualizations. Each tab lists the discovered resources in a table, and most tabs also include visualizations such as data counts, bar charts, and donut charts. From the dashboard, you can do the following:
 
 -   Interact with a visualization to filter the resources in the table on the same tab.
--   Select a resource in a table to open its details page. The details page shows the resource properties and a [Dependency View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-discovery-workspace/dependency-views-map.md) that maps the resource to its related configuration items.
+-   Select a resource in a table to open its details page. The details page shows the resource properties and a [Dependency View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-discovery-workspace/dependency-views-map.md) that maps the resource to its related configuration items.
 -   Refresh or export the data for a visualization.
 
 -   **Overview tab**

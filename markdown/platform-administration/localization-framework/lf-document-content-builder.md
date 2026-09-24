@@ -3,11 +3,11 @@ title: Read script helper functions for LFDocumentContentBuilder
 description: The LFDocumentContentBuilder provides utility functions to build document content. Use these functions to write the logic to extract the translatable content from any artifacts regardless of them using standard tables or not for translations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-framework/lf-document-content-builder.html
-release: australia
+release: brazil
 product: Localization Framework
 classification: localization-framework
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Artifact configurations, Configure the Localization Framework, Localization Framework, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -42,7 +42,7 @@ String
 
 </td><td>
 
-The version type of the document content to be generated. For Australia, this value is v1.
+The version type of the document content to be generated. For Brazil, this value is v1.
 
 </td></tr><tr><td>
 
@@ -150,7 +150,7 @@ Use this function to add an element \(object of LFDocumentContentElement\) to LF
 
 Returns the LFDocumentContent object.
 
-**Note:** The getFinalJSON function has been deprecated in the Australia release and it is recommended to use the build\(\) function.
+**Note:** The getFinalJSON function has been deprecated in the Brazil release and it is recommended to use the build\(\) function.
 
 A sample script to build the document content.
 
@@ -195,5 +195,5 @@ saveTranslatedContent: function(documentContent) {
 }
 ```
 
-**Parent Topic:**[Artifact configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/framework-configuration.md)
+**Parent Topic:**[Artifact configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-framework/framework-configuration.md)
 

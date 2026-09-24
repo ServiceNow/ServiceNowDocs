@@ -3,11 +3,11 @@ title: Work item reorder errors in EAP Backlog
 description: Review the scenarios when the reordering of work items can fail in the Backlog of Enterprise Agile Planning workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/work-item-reorder-errors-in-eap-backlog.html
-release: australia
+release: brazil
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -31,5 +31,5 @@ While reordering work items in different sections of the EAP Backlog, the reorde
     Check if the work item before or after your target position to reorder has a global rank. If not, contact your system admin to generate a global rank for them.
 
 
-**Parent Topic:**[Enterprise Agile Planning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/eap-reference.md)
+**Parent Topic:**[Enterprise Agile Planning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/eap-reference.md)
 

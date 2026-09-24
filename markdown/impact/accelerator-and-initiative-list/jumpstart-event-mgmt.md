@@ -3,11 +3,11 @@ title: Jumpstart Your Event Management
 description: The Jumpstart Your Event Management Accelerator provides a demonstration of the possibilities and capabilities of Event Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-event-mgmt.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
@@ -18,24 +18,24 @@ The Jumpstart Your Event Management Accelerator provides a demonstration of the 
 
 ## Accelerator overview
 
-Jumpstart Your Event Management provides Impact customers with a comprehensive overview of Event Management. Through an applied demonstration, we highlight how you can leverage the power of the ServiceNow Configuration Management Database \(CMDB\) to receive and review near real-time alerts from your infrastructure directly within the ServiceNow platform. This offering equips our customers with essential ServiceNow resources and leading practice guides on  how to get started with Event Management. See [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_EM.md) for additional information about the feature.
+Jumpstart Your Event Management provides Impact customers with a comprehensive overview of Event Management. Through an applied demonstration, we highlight how you can leverage the power of the ServiceNow Configuration Management Database \(CMDB\) to receive and review near real-time alerts from your infrastructure directly within the ServiceNow platform. This offering equips our customers with essential ServiceNow resources and leading practice guides on  how to get started with Event Management. See [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/c_EM.md) for additional information about the feature.
 
 ## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
 
-Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
-
 ## What You Get
 
 -   **Session Preparation**
 
-    -   Provision a temporary instance 
-    -   Install Event Management
-    -   Install Event Generator application
+    The Technical Accelerator Consultant:
+
+    -   Provisions a temporary instance 
+    -   Installs Event Management
+    -   Installs Event Generator application
     ​
 
--   **Customer Coaching Session \#1 \(Up to 90 minutes\)**
+-   **Customer Coaching Session \#1 \(Up to 1.5 hrs\)**
 
     Includes the following:
 
@@ -49,11 +49,13 @@ Offered pursuant to the applicable ServiceNow Impact Package and Accelerator des
         -   Alerts to configuration item \(CI\) Binding
         -   Existing alerts or services impacted
     -   Leading practice guides and resources
-    -   30 days of access to the temporary instance is provided
--   **Customer Coaching Session \#2 \(Optional upon Customer request - up to 60 minutes\)​**
+-   **Customer Coaching Session \#2 \(Optional upon Customer request - up to 1 hr\)​**
 
     Opportunity for Q&amp;A related to Event Management
 
+-   **Output**
+    -   30-day access to the temporary instance and Technical Accelerator Consultant with whom you met for any further questions or in-depth explorations
+    -   Copy of the Coaching Session Deck
 
 ## Requested Customer Resources
 
@@ -114,9 +116,9 @@ Application Service Owner\(s\) \(Required\)
 Manages all applications across a given division \(e.g., HR application owner\).
 
 </td></tr></tbody>
-</table>## Requested information / access
+</table>## Requested Information/Access
 
-Refer to the applicable Impact Accelerator description available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
+**Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
 
 ## Exclusions
 

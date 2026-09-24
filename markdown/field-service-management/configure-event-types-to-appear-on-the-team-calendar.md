@@ -3,9 +3,9 @@ title: Configure event types to appear on the Team calendar in Workforce
 description: Customize the team calendar by configuring which event types are displayed. This control ensures that only relevant events appear, tailored specifically to the team's needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/configure-event-types-to-appear-on-the-team-calendar.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Workforce, CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---
@@ -44,5 +44,5 @@ Role required: wm\_admin
 **Related topics**  
 
 
-[Managing agents and tasks from Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/using-manager-workforce.md)
+[Managing agents and tasks from Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-manager-workforce/using-manager-workforce.md)
 

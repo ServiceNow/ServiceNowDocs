@@ -3,13 +3,13 @@ title: Configure Microsoft Viva Engage for external content indexing
 description: Register an OAuth 2.0 application in the Microsoft Entra admin center to allow the Microsoft Viva Engage external content connector to access your Microsoft Viva Engage source system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-microsoft-viva-engage-external-content-indexing.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Microsoft Viva Engage external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -111,12 +111,12 @@ To enable the connector to access your Microsoft Viva Engage source system via t
 
 Provide the following items to your connector administrator:
 
--   The OAuth 2.0 application's tenant ID and client ID that you recorded in step [2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-microsoft-viva-engage-external-content-indexing.md).
--   The client secret value that you recorded in step [3.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-microsoft-viva-engage-external-content-indexing.md).
+-   The OAuth 2.0 application's tenant ID and client ID that you recorded in step [2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-microsoft-viva-engage-external-content-indexing.md).
+-   The client secret value that you recorded in step [3.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-microsoft-viva-engage-external-content-indexing.md).
 
 Your connector administrator needs these items to configure a Microsoft Viva Engage external content connector to retrieve searchable content and security principals from your Microsoft Viva Engage instance.
 
-For details on creating and configuring a Microsoft Viva Engage external content connector, see [Create a Microsoft Viva Engage external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-microsoft-viva-engage.md).
+For details on creating and configuring a Microsoft Viva Engage external content connector, see [Create a Microsoft Viva Engage external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-ext-cont-connector-microsoft-viva-engage.md).
 
-**Parent Topic:**[Microsoft Viva Engage external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/microsoft-viva-engage-external-content-connector.md)
+**Parent Topic:**[Microsoft Viva Engage external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/microsoft-viva-engage-external-content-connector.md)
 

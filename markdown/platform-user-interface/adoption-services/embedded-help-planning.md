@@ -3,11 +3,11 @@ title: Embedded Help planning
 description: Before writing custom embedded help, plan the content and note the information used in the Embedded Help form. Careful planning ensures that the topic appears for the right page and role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/embedded-help-planning.html
-release: australia
+release: brazil
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring Embedded Help, Embedded Help, In-product help, Adoption services, Configure user experiences]
 ---
@@ -69,12 +69,12 @@ In planning for embedded help topics, consider how the following fields are used
     -   Any changes you make to embedded help are not automatically deployed to another instance.
     -   Changes to the embedded help table are not captured in update sets, update\_sync=false is set intentionally.
 
--   **[Use qualifiers in Embedded Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/embedded-help-qualifiers.md)**  
+-   **[Use qualifiers in Embedded Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/adoption-services/embedded-help-qualifiers.md)**  
 The embedded help administrator can use qualifiers to customize content for a common page in the instance.
--   **[Embedded Help roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/embedded-help-roles.md)**  
+-   **[Embedded Help roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/adoption-services/embedded-help-roles.md)**  
 Embedded help content can be targeted to users with a specified role who access the UI page. All roles that contain the role also see the content, unless another topic targeted to their role exists for the same page.
--   **[Embedded Help internationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/embedded-help-internationalization.md)**  
+-   **[Embedded Help internationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/adoption-services/embedded-help-internationalization.md)**  
 Embedded help internationalization provides the ability for you to localize your embedded help content to a variety of languages to meet global user needs. You can write your embedded help content in a language of your choice and decide what languages to display.
 
-**Parent Topic:**[Configuring Embedded Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/configuring-embedded-help.md)
+**Parent Topic:**[Configuring Embedded Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/adoption-services/configuring-embedded-help.md)
 

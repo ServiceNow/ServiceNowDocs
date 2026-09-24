@@ -3,13 +3,13 @@ title: Create a module
 description: Create a module to manage component instances used in a website. You can either create a module or use a prebuilt module and edit it according to requirement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/create-we-module.html
-release: australia
+release: brazil
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure module in Web Embeddables, Web Embeddables, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Configure module in Web Embeddables, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Create a module
@@ -76,7 +76,7 @@ Theme
 
 </td><td>
 
-The theme of the module. Selected theme is applied to all components embed on third-party website. You can select a theme from the list. By default, it is set to Coral. For more information on theme, [Create a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-create-theme.md).
+The theme of the module. Selected theme is applied to all components embed on third-party website. You can select a theme from the list. By default, it is set to Coral. For more information on theme, [Create a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/tb-create-theme.md).
 
 </td></tr><tr><td>
 

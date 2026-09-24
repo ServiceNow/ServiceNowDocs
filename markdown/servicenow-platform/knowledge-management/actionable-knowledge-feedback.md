@@ -3,11 +3,11 @@ title: Automating feedback management to improve content
 description: Manage high volumes of article feedback by enabling task generation for negative feedback. When an article is rated poorly or marked as unhelpful, a feedback task is generated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/actionable-knowledge-feedback.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,16 +24,16 @@ The task assignees can update the article, create a new article, request additio
 
 **Note:** The actionable feedback feature is available in the Knowledge Management Service Portal and Agent Workspace. To use the actionable feedback feature in other service portals, you can activate the **Knowledge Article View** page route map.
 
-Beginning with New York, the **Knowledge Article View** page route map is activated by default. Existing customers on release versions prior to New York can activate the **Knowledge Article View** page route map. For more information, see [Activate the Knowledge Article View page on upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/redirect-knowledge.md).
+Beginning with New York, the **Knowledge Article View** page route map is activated by default. Existing customers on release versions prior to New York can activate the **Knowledge Article View** page route map. For more information, see [Activate the Knowledge Article View page on upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/redirect-knowledge.md).
 
-**Parent Topic:**[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-management.md)
+**Parent Topic:**[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/knowledge-management.md)
 
 **Related topics**  
 
 
-[Enable actionable knowledge feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configure-act-know-feedback-properties.md)
+[Enable actionable knowledge feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/configure-act-know-feedback-properties.md)
 
-[Work on a feedback task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/review-reassign-feedback-task.md)
+[Work on a feedback task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/review-reassign-feedback-task.md)
 
-[Track the progress on a feedback task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/track-feedback-task-metrics.md)
+[Track the progress on a feedback task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/track-feedback-task-metrics.md)
 

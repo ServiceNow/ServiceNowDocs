@@ -3,11 +3,11 @@ title: Convert one RIDAC record to another for a demand
 description: Convert one RIDAC record to another to retain record information and track issues without creating a record manually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/convert-ridac-for-demand.html
-release: australia
+release: brazil
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) records, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -53,5 +53,5 @@ To view all converted RIDAC records, select the **View RIDAC** related link on t
 9.  Select **OK**.
 
 
-**Parent Topic:**[RIDACs records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/ridac-entries-for-demand.md)
+**Parent Topic:**[RIDACs records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/ridac-entries-for-demand.md)
 

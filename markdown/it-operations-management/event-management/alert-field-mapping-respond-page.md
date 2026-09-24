@@ -3,11 +3,11 @@ title: Alert field mapping on the Respond page
 description: The fields to be configured on the Respond page, when selecting an action to be triggered by an alert automation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/alert-field-mapping-respond-page.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -51,5 +51,7 @@ Value that will be set in the alert field:-   If you select **Same as** in the M
 -   If you select **To** in the Map field column, enter the alert field value that you want to appear in the specified incident field.
 
 </td></tr></tbody>
-</table>To return to the procedure, see [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/respond-alert-sow-itom.md).
+</table>To return to the procedure, see [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/respond-alert-sow-itom.md).
+
+**Parent Topic:**[Express List reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/express-list-reference.md)
 

@@ -3,11 +3,11 @@ title: Create advanced log alert filters
 description: Add advanced log alert filters to scan alerts for conditions that you specify. The filters reduce noise by dropping alerts that do not indicate a significant issue. While developing a filter, you can test, update, publish, or activate the filter at any time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-op-adv-alert-filter-crud.html
-release: australia
+release: brazil
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reduce noise with advanced log alert filters, Managing alert generation, prioritization, anomaly detection, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -40,7 +40,7 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 
 6.  Save the record by selecting **Submit**.
 
-    To continue modifying the filter, you must reopen the record from the [filters list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-search-queries-manage-sow.md). You can then edit, test, publish, and activate the filter.
+    To continue modifying the filter, you must reopen the record from the [filters list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-op-search-queries-manage-sow.md). You can then edit, test, publish, and activate the filter.
 
 7.  Edit the default **Alert payload** text in preparation for testing your intended logic.
 

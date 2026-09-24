@@ -3,11 +3,11 @@ title: Field Label table
 description: The Field Label \[sys\_documentation\] table stores the text of table names along with the singular and plural labels for each field in the table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/r\_FieldLabelTable.html
-release: australia
+release: brazil
 product: System Localization
 classification: system-localization
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Translation tables, System Localization reference, System Localization, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -31,7 +31,7 @@ For each table name and field label, the Field Label table contains a record for
 
 \[Omitted image "TranslatedField.png"\] Alt text: An Incident record with field labels translated into Spanish.
 
-**Parent Topic:**[Translation tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_TranslationTables.md)
+**Parent Topic:**[Translation tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-localization/r_TranslationTables.md)
 
 **Related topics**  
 

@@ -3,9 +3,9 @@ title: Data types for assessments
 description: Metric data types have functions that depend on the method that you select.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_DataTypes.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Assessments reference, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -128,7 +128,7 @@ Assessment, Script
 
 **Assessment**: On questionnaires, users enter a number. \[Omitted image "NumberAssessmentDataType.png"\] Alt text: Number
 
- **Script**: When the script runs, the system populates the **Actual value** and **Scaled value** fields on the [Metric Result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAMetricResult.md) form with the appropriate values from the *actual\_result* and *scaled\_result* variables in the metric script.
+ **Script**: When the script runs, the system populates the **Actual value** and **Scaled value** fields on the [Metric Result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_ViewAMetricResult.md) form with the appropriate values from the *actual\_result* and *scaled\_result* variables in the metric script.
 
 </td></tr><tr><td>
 
@@ -193,14 +193,14 @@ On questionnaires, users select **Yes** or **No** from a list.
  Set the **Scale definition** field to **High** if selecting **Yes** equates to a better score.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assessments reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/assessment-reference.md)
+</table>**Parent Topic:**[Assessments reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/assessment-reference.md)
 
 **Related topics**  
 
 
-[Assessment metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentMetrics.md)
+[Assessment metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_AssessmentMetrics.md)
 
-[Create an assessment metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAMetricDefinition.md)
+[Create an assessment metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateAMetricDefinition.md)
 
-[Update a metric minimum and maximum value to match a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_UpdAMetrMinMaxValToMatchATmplate.md)
+[Update a metric minimum and maximum value to match a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_UpdAMetrMinMaxValToMatchATmplate.md)
 

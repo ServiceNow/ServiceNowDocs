@@ -3,9 +3,9 @@ title: Pre-work for Continuous Authentication
 description: Ensure to perform the following pre-work before using Continuous Authentication \(CA\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/pre-work-ca.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Continuous Authentication \(CA\), Zero Trust Access, Access Management]
 ---
@@ -20,8 +20,8 @@ CA is built on ServiceNow's zero trust access security architecture that aims to
 
 CA configuration can be performed based on the following:
 
--   [LDAP or Local login \(Username and Password\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/pre-work-ca.md)
--   [SSO login \(SAML or OIDC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/pre-work-ca.md).
+-   [LDAP or Local login \(Username and Password\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/pre-work-ca.md)
+-   [SSO login \(SAML or OIDC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/pre-work-ca.md).
 
 ## CA for Local login
 
@@ -30,9 +30,9 @@ When the users are performing local login and to verify the Identity of the user
 **Note:**
 
 -   From Yokohama, MFA is enforced to users for every login to ServiceNow performing local login.
--   Make sure the MFA properties are Active and configured based on your requirement. To know more about MFA properties, see [Multi-factor Authentication system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-properties.md).
+-   Make sure the MFA properties are Active and configured based on your requirement. To know more about MFA properties, see [Multi-factor Authentication system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/mfa-properties.md).
 
-To know more, see [High Assurance session for non-SSO login](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/high-assurance-non-sso-logins.md).
+To know more, see [High Assurance session for non-SSO login](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/high-assurance-non-sso-logins.md).
 
 ## CA for SSO login
 
@@ -54,14 +54,14 @@ You must configure the IDP for CA as follows:
     -   To configure step up for **Okta** you can use the **ContinuousAuth\_Okta\_StepUp\_Script** in the IdP record. To know more, see this [documentation](https://developer.okta.com/docs/guides/step-up-authentication/main/).
     -   To configure step up for **Entra ID** or **Azure** you can use the **ContinuousAuth\_Azure\_StepUp\_Script** and add the required claim. To know more, see this [documentation](https://learn.microsoft.com/en-us/entra/identity-platform/developer-guide-conditional-access-authentication-context).
 
-To know more, see [High Assurance for SSO login](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/high-assurance-sso-logins.md).
+To know more, see [High Assurance for SSO login](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/high-assurance-sso-logins.md).
 
 **Related topics**  
 
 
-[Exploring Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/explore-continuous-auth.md)
+[Exploring Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/explore-continuous-auth.md)
 
-[Activating Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/activate-continuous-authentication.md)
+[Activating Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/activate-continuous-authentication.md)
 
-[Configuring Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-ca.md)
+[Configuring Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/configure-ca.md)
 

@@ -3,11 +3,11 @@ title: Rolling grant approvals
 description: Rolling grant approvals give grant program managers the flexibility to propose and submit funding decisions for any scored subset of applications during the Funding Allocation stage. Decisions can be submitted at any time, without waiting for the entire proposal portfolio to complete review.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-gm-rolling-grant-approvals-concept.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Grants Management, Playbooks and Solutions, Explore, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Grants Management Proposal Playbook, Grants Management, Solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Rolling grant approvals
@@ -32,17 +32,17 @@ Multiple funding requests can exist simultaneously for the same grant program, a
 **Related topics**  
 
 
-[Use Rolling grant approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-gm-rolling-grant-approvals-concept.md)
+[Use Rolling grant approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-using-gm-rolling-grant-approvals-concept.md)
 
-[Mark proposals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-rolling-grants-mark-proposals-task.md)
+[Mark proposals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-rolling-grants-mark-proposals-task.md)
 
-[Submit a Funding Allocation Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-rolling-grants-submit-fr-task.md)
+[Submit a Funding Allocation Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-rolling-grants-submit-fr-task.md)
 
-[Review and Approve a Funding Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gm-review-fr-task.md)
+[Review and Approve a Funding Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-gm-review-fr-task.md)
 
-[Release result notices to applicants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gm-release-result-notices-task.md)
+[Release result notices to applicants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-gm-release-result-notices-task.md)
 
-[Grant Proposal funding statuses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gm-proposal-funding-status-ref.md)
+[Grant Proposal funding statuses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-gm-proposal-funding-status-ref.md)
 
-[Public Sector Digital Services Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services-data-model.md)
+[Public Sector Digital Services Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/public-sector-digital-services-data-model.md)
 

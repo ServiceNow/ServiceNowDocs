@@ -3,11 +3,11 @@ title: Configure Discovery identity sensors
 description: If you customize an identify multi-probe, you can also configure a multi-sensor for it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/t\_ConfigDiscoIdentSens.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Discovery identifiers, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Role required: discovery\_admin or admin
 
 ## About this task
 
-These multi-sensors pass the data returned by the identity probes to the Discovery identifiers. The identifiers then search the CMDB for matching CIs. When the identity of a device is resolved, the identifiers pass the result state to the multi-sensors. The multi-sensors then react by launching exploration probes or stopping Discovery for that device.
+These multi-sensors pass the data returned by the identity probes to the Discovery identifiers. The identifiers then search the CMDB for matching CIs. When the identity of a device is resolved, the identifiers pass the result state for the device to the multi-sensors. The multi-sensors react accordingly, either by launching exploration probes or stopping Discovery for that device.
 
 ## Procedure
 
@@ -43,7 +43,7 @@ These multi-sensors pass the data returned by the identity probes to the Discove
 
 ## What to do next
 
-Run a discovery through the [Discovery Schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md) to search for CIs and verify that they are identified correctly in the CMDB.
+Run a discovery through the [Discovery Schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md) to search for CIs and verify that they are identified correctly in the CMDB.
 
-**Parent Topic:**[Discovery identifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryIdentifiers.md)
+**Parent Topic:**[Discovery identifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c_DiscoveryIdentifiers.md)
 

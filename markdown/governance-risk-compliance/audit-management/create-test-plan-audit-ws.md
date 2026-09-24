@@ -3,13 +3,13 @@ title: Create a test plan in Audit Workspace
 description: Create a test plan to document the control testing procedure. You can create a test plan from scratch or based on a test template to describe how a feature is to be tested.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/create-test-plan-audit-ws.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Audit Supervisor Workspace, Audit Workspace Overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Audit Supervisor Workspace, Audit Workspace overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Create a test plan in Audit Workspace

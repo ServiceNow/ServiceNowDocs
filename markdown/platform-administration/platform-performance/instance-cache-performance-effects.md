@@ -3,11 +3,11 @@ title: Instance cache effects on performance
 description: Minimize actions that purge and rebuild the instance cache during core business hours to avoid performance degradation during peak hours.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/instance-cache-performance-effects.html
-release: australia
+release: brazil
 product: Platform Performance
 classification: platform-performance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Resolve issues, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -23,5 +23,5 @@ Performance degrades whenever you purge and rebuild the instance cache. During c
 -   Committing update sets
 -   Adding or updating translations
 
-**Parent Topic:**[Resolving platform performance issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/resolving-plat-performance-issues.md)
+**Parent Topic:**[Resolving platform performance issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/platform-performance/resolving-plat-performance-issues.md)
 

@@ -3,11 +3,11 @@ title: Single-currency mode
 description: Single-currency mode enables all users of the platform to view currency values in the same currency.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/currency-administration/single-currency-mode.html
-release: australia
+release: brazil
 product: Currency Administration
 classification: currency-administration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Standard currency fields, Explore, Currency administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -22,7 +22,7 @@ Before enabling single-currency mode, set the system locale. To configure single
 -   **glide.i18n.single\_currency.code**: the three-letter ISO currency code
 -   **glide.system.locale**: the system locale
 
-**Note:** For detailed information about valid locale formats, see [Locale settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/locales.md).
+**Note:** For detailed information about valid locale formats, see [Locale settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/currency-administration/locales.md).
 
 Using the single-currency mode has the following limitations:
 
@@ -31,5 +31,5 @@ Using the single-currency mode has the following limitations:
 
 You can avoid the effects of rate conversions by setting the system locale and the reference currency to be the single currency.
 
-**Parent Topic:**[Standard currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/configure-and-use-default-currency-fields.md)
+**Parent Topic:**[Standard currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/currency-administration/configure-and-use-default-currency-fields.md)
 

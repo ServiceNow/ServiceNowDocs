@@ -3,11 +3,11 @@ title: Use the MSIM Conference Call Zoom integration
 description: The following steps give you a walkthrough of how you can manage and initiate a Zoom conference call directly from a major security incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/using-conf-call-zoom-integration.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integrate MSIM Conference Calls with Zoom, Major Security Incident Management Conference Call Integration, Integrate, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -67,5 +67,5 @@ Role required: sn\_msi.workspace\_manager
     If the conference call was recorded, then the recording will be available in the Conference call section of the associated major security incident after sometime.
 
 
-**Parent Topic:**[Integrate MSIM Conference Calls with Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/integrate-msim-conf-calls-zoom.md)
+**Parent Topic:**[Integrate MSIM Conference Calls with Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/integrate-msim-conf-calls-zoom.md)
 

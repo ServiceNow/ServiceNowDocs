@@ -3,11 +3,11 @@ title: Categorize discovered browser extensions
 description: Group discovered browser extensions in your environment by business relevance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-categorize-browser-extensions.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-09-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [browser extension categorization, browser extension signatures, ACC-VC]
 breadcrumb: [Browser extension discovery and categorization, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
@@ -197,5 +197,5 @@ The categorized browser extensions in your environment appear in the **Browser E
 
 The **Device Browser Extensions** \(sn\_acc\_vis\_content\_device\_browser\_extension\) table shows the mapping of the discovered browser extensions for each browser and device, and their profile and status.
 
-**Parent Topic:**[Browser extension discovery and categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-browser-extension-discovery.md)
+**Parent Topic:**[Browser extension discovery and categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-browser-extension-discovery.md)
 

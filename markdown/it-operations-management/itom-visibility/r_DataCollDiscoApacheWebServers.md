@@ -3,11 +3,11 @@ title: Apache web server discovery
 description: Discovery identifies and classifies information about Apache web servers on both Windows and Linux computers.Discovery uses SSH to find Apache connectors mod\_jk and mod\_proxy.The Unix - Active Processes probe requires sudo privileges on Apache web servers.The Apache mod\_jk module forwards requests from the Apache web server to a Servlet container, such as Tomcat.The Apache mod\_proxy module implements a proxy, gateway, or cache for the Apache web server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r\_DataCollDiscoApacheWebServers.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Software discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -20,11 +20,11 @@ Discovery identifies and classifies information about Apache web servers on both
 
 ## Credentials
 
--   [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md)
--   [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md)
--   [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md)
+-   [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md)
+-   [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md)
+-   [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md)
 
-For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
+For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
 
 ## Classifier, patterns, and probes
 
@@ -59,7 +59,7 @@ Apache Server
 </td></tr></tbody>
 </table>\*For new instances, these probes are inactive on the classifier. Discovery uses patterns for discovery.
 
-To use patterns, verify that the correct pattern is specified in the horizontal pattern probe on the classifier. See [Add the Horizontal Pattern probe to a classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for instructions.
+To use patterns, verify that the correct pattern is specified in the horizontal pattern probe on the classifier. See [Add the Horizontal Pattern probe to a classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for instructions.
 
 ## Data collected using probes
 
@@ -85,7 +85,7 @@ Service Mapping uses discovery patterns to discover the following connections:
 -   \(On UNIX only\) Hosts to which the Apache web server is connecting in the load balancing mode
 -   \(On UNIX only\) Epic application
 
-**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Software.md)
+**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/c_Software.md)
 
 ## Apache mod\_jk and mod\_proxy discovery
 
@@ -159,7 +159,7 @@ You can configure the Unix - Active Processes probe to elevate privileges.
 
 The Apache mod\_jk module forwards requests from the Apache web server to a Servlet container, such as Tomcat.
 
-Additional mod\_jk directives can also manage load balancing. Discovery populates the CMDB when it detects an Apache Server. When the Apache Web Server process is detected, Discovery checks for the mod\_jk module. If the module is running as a load balancer, the related information populates to the CMDB.
+Additional mod\_jk directives can also manage load balancing. Discovery populates the CMDB when it detects an Apache Server. If the mod\_jk module is running on the web server as a load balancer, Discovery populates the related information to the CMDB.
 
 -   The MID Server user account to explore the target server must have access to the httpd.conf configuration file in the /etc/httpd/conf/ folder.
 -   Discovery uses secure shell \(SSH\) commands to identify the following associated elements:
@@ -189,7 +189,7 @@ Discovery uses the Unix - Active Processes probe to identify an Apache server th
 
     Apache – JK Module:
 
-    If the mod\_jk module is running as a load balancer on the server, the sensor of this probe populates information in the following tables. Load Balancer Service \[cmdb\_ci\_lb\_service\], Load Balancer Pool \[cmdb\_ci\_lb\_pool\], and Load Balancer Pool Member \[cmdb\_ci\_lb\_pool\_member\].
+    If the mod\_jk module is running as a load balancer on the server, the sensor of this probe populates information in the following tables. The Load Balancer Service \[cmdb\_ci\_lb\_service\], Load Balancer Pool \[cmdb\_ci\_lb\_pool\], and Load Balancer Pool Member \[cmdb\_ci\_lb\_pool\_member\] tables are populated.
 
 
 ### Data Collected
@@ -271,7 +271,7 @@ Discovery uses the Unix - Active Processes probe to identify an Apache server th
 
     Apache - Get Proxy Module:
 
-    If the mod\_proxy module is running as a load balancer on the server, the sensor of this probe populates information in the following tables: Load Balancer Service \[cmdb\_ci\_lb\_service\], Load Balancer Pool \[cmdb\_ci\_lb\_pool\], and Load Balancer Pool Member \[cmdb\_ci\_lb\_pool\_member\].
+    If the mod\_proxy module is running as a load balancer on the server, the sensor of this probe populates information in the following tables. Load Balancer Service \[cmdb\_ci\_lb\_service\], Load Balancer Pool \[cmdb\_ci\_lb\_pool\], and Load Balancer Pool Member \[cmdb\_ci\_lb\_pool\_member\].
 
 
 ### Data Collected

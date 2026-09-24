@@ -3,11 +3,11 @@ title: Import a key from a web service
 description: Securely upload an external customer key onto your instance using import a key from a web service \(for example the key REST API\). Both symmetric and asymmetric public keys can be imported into a targeted KMF cryptographic module.Configure Key Management Framework import settings before importing a key.Upload your wrapped key into a cryptographic module using the import key from web service functionality. The example uses a symmetric key. Similar steps can be used to import an asymmetric key.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/import-key-webservice-1.html
-release: australia
+release: brazil
 product: Platform Encryption
 classification: platform-encryption
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Key Management Framework, Encryption]
 ---
@@ -22,7 +22,7 @@ These two separate procedures \(importing the wrapping key pair and importing th
 
 **Note:** This example uses OpenSSL for key and certificate generation and the Postman API test tool to show REST API use. Substitute other comparable tools based on your company requirements.
 
-**Parent Topic:**[Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption.md)
+**Parent Topic:**[Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/encryption.md)
 
 ## Import the wrapping / unwrapping key pair
 
@@ -54,7 +54,7 @@ This example uses OpenSSL for key and certificate generation. Substitute other c
 
 5.  Select an appropriate algorithm that aligns with asymmetric key material for the imported keystore.
 
-    See [Cryptographic specification overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/cryptographic-purpose.md) for additional information.
+    See [Cryptographic specification overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platform-encryption/cryptographic-purpose.md) for additional information.
 
 6.  Select **Next**.
 
@@ -108,15 +108,15 @@ This example uses OpenSSL to generate keys and certificates. You may substitute 
 
 4.  Execute an `HTTP POST request` to the import from a web service REST endpoint.
 
-<table id="choicetable_wgh_zgb_fqb"><thead><tr><th align="left" id="d98324e407">
+<table id="choicetable_wgh_zgb_fqb"><thead><tr><th align="left" id="d100512e407">
 
 Option
 
-</th><th align="left" id="d98324e410">
+</th><th align="left" id="d100512e410">
 
 Value/Format
 
-</th></tr></thead><tbody><tr><td id="d98324e416">
+</th></tr></thead><tbody><tr><td id="d100512e416">
 
 **URL of the endpoint**
 
@@ -124,7 +124,7 @@ Value/Format
 
 `https://<instance>/api/sn_kmf/key/import?cryptoSpecSysID=<sys_id_of_crypto_spec>`.
 
-</td></tr><tr><td id="d98324e428">
+</td></tr><tr><td id="d100512e428">
 
 **CryptoSpecSysID parameter**
 
@@ -134,7 +134,7 @@ The sys\_id of the newly created crypto specification.
 
 **Tip:** Right-click the header of the crypto specification to copy the sys\_id.
 
-</td></tr><tr><td id="d98324e448">
+</td></tr><tr><td id="d100512e448">
 
 **Header-Content-Type**
 
@@ -142,7 +142,7 @@ The sys\_id of the newly created crypto specification.
 
 Application/octet-stream.
 
-</td></tr><tr><td id="d98324e457">
+</td></tr><tr><td id="d100512e457">
 
 **Body**
 
@@ -150,7 +150,7 @@ Application/octet-stream.
 
 Must contain a file attachment-binary and the public key to import \(wrapped\_symmetric\_key.txt\).
 
-</td></tr><tr><td id="d98324e467">
+</td></tr><tr><td id="d100512e467">
 
 **Import from web service REST endpoint**
 

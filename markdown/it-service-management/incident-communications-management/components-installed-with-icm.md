@@ -3,12 +3,12 @@ title: Components installed with Incident Communications Management
 description: Several types of components are installed with activation of the Incident Communications Management plugin \(com.snc.iam\), including tables and user roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-communications-management/components-installed-with-icm.html
-release: australia
+release: brazil
 product: Incident Communications Management
 classification: incident-communications-management
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Incident Communications Management reference, Incident Communications Management, IT Service Management]
 ---
 
@@ -16,7 +16,7 @@ breadcrumb: [Incident Communications Management reference, Incident Communicatio
 
 Several types of components are installed with activation of the Incident Communications Management plugin \(com.snc.iam\), including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 Demo data is available for this feature.
 
@@ -102,15 +102,42 @@ sn\_tcm\_admin
 
 </td><td>
 
-Configure all Task Communications Management features including communication plans and tasks. For more information, see [Components installed with Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/components-installed-with-tcm.md).
+Configure all Task Communications Management features including communication plans and tasks. For more information, see [Components installed with Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/components-installed-with-tcm.md).
 
 </td><td>
 
 -   comm\_plan\_admin
 -   comm\_plan\_mgr
 
+</td></tr><tr><td>
+
+sn\_comm\_management.comm\_plan\_viewer
+
+</td><td>
+
+Provides read access to Task Communications Management tables.
+
+</td><td>
+
+-   notify\_view
+-   sn\_publications\_recipients\_list\_user
+-   email\_client\_template\_read
+-   contact\_user
+-   sn\_publications\_recipients\_user
+-   sn\_dex\_desktop.notification\_template\_admin
+
+**Note:** Starting Brazil, for zboot instances, the sn\_dex\_desktop.notification\_template\_admin role is now removed from the communication plan viewer \[sn\_comm\_management.comm\_plan\_viewer\] role and added to the sn\_incident\_write role when ITSM Roles plugin \(com.snc.itsm.roles\) is installed. In case, ITSM Roles plugin \(com.snc.itsm.roles\) is not installed, the sn\_dex\_desktop.notification\_template\_admin role is added to the itil role.
+
+
 </td></tr></tbody>
-</table>## Tables installed
+</table>**Note:** For the comm\_channel create and write ACLs, create and access to the communication channel definition in the incident communication tasks is based on the commTaskGr.state.canWrite script and if you have the following roles:
+
+-   Communication Plan Manager \[sn\_comm\_management.comm\_plan\_mgr\]
+-   Communication Plan Admin \[sn\_comm\_management.comm\_plan\_admin\]
+-   Task communication management admin \[sn\_tcm\_admin\]
+-   ITSM granular roles such as sn\_incident\_write and the user assigned to the incident communication task and plan.
+
+## Tables installed
 
 <table id="table_fbz_45z_vdb"><thead><tr><th>
 
@@ -145,5 +172,5 @@ Incident Communication Task\[incident\_alert\_task\]
 The Incident Communication Task table extends the Communication Task table \[comm\_task\].
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Incident Communications Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-communications-management/reference-section-inci-comm-mngmt.md)
+</table>**Parent Topic:**[Incident Communications Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-communications-management/reference-section-inci-comm-mngmt.md)
 

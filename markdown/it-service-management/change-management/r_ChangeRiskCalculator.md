@@ -3,7 +3,7 @@ title: Risk Calculator property
 description: The Change Management - Change Risk Calculator plugin enables dynamic calculations of the risk and impact of a change. The administrator specifies how and when risk and impact rules are applied.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/r\_ChangeRiskCalculator.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: reference
@@ -47,9 +47,9 @@ Business Rule
 
 </td><td>
 
-Enables evaluation of risk conditions automatically before a change request is saved \(insert or update\). The business rule doesn't run on every save. It is suppressed when a Risk Assessment is associated with the change request, because completing a Risk Assessment requires human interaction and the result can't be set automatically.When you select this option, most saves after the initial one — such as state transitions — don't trigger the business rule when a Risk Assessment is attached to the change.
+Enables evaluation of risk conditions automatically before a change request is saved \(insert or update\). The business rule doesn't run on every save. It is suppressed when a Risk Assessment is associated with the change request, because completing a Risk Assessment requires human interaction and the result can't be set automatically.When you select this option, subsequent saves — such as state transitions — don't trigger the business rule while a Risk Assessment is attached to the change.
 
- **Note:** The **Run Risk Calculation** business rule replaces the **Calculate Risk** business rule when the Change Management - Risk Assessment plugin is activated.
+ **Note:** The **Run Risk Calculation** business rule is deprecated. On instances where it is still present, it replaced the **Calculate Risk** business rule when the Change Management - Risk Assessment plugin was activated. For current risk assessment method, see [Risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/c_RskAsmtCalc.md).
 
 </td></tr><tr><td>
 
@@ -60,7 +60,7 @@ None
 Disables the processing of risk and impact rules.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Risk conditions and calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-risk-assess-detect-conflict.md)
+</table>**Parent Topic:**[Risk conditions and calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-risk-assess-detect-conflict.md)
 
 **Related topics**  
 

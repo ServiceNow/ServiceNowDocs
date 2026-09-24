@@ -3,11 +3,11 @@ title: Set up mobile push as a contact method for an on-call escalation
 description: Enable users to receive mobile push notifications for on-call escalations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/set-up-mobile-push-oncall.html
-release: australia
+release: brazil
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring On-Call Scheduling, On-Call Scheduling, IT Service Management]
 ---
@@ -24,20 +24,20 @@ Role required: admin
 
 1.  Install ServiceNow Agent and enable mobile push notifications from the **Notifications** tab.
 
-    For information on this tab, see [Base system functionality for ServiceNow mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/base-system-functionality.md).
+    For information on this tab, see [Base system functionality for ServiceNow mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/base-system-functionality.md).
 
     The mobile push appears as a communication channel in the ServiceNow instance.
 
 2.  Select **Mobile push** as your preferred notification channel while defining the escalation settings for a user group.
 
-    For information on escalation settings, see [Escalation and reminder settings for rosters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/escalation-remind-settings-oncall.md).
+    For information on escalation settings, see [Escalation and reminder settings for rosters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/escalation-remind-settings-oncall.md).
 
 3.  For the required user group, create a trigger rule that uses the On-Call: Assign by Acknowledgement trigger workflow.
 
     If a user or shift manager sets the preferred contact channel as mobile push, a mobile push notification is sent to the user along with the actions that a user can perform.
 
-    For information on creating a trigger rule, see [Create an escalation trigger rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/create-trigger-rule-oncall.md).
+    For information on creating a trigger rule, see [Create an escalation trigger rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/create-trigger-rule-oncall.md).
 
 
-**Parent Topic:**[Configuring On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/configuration.md)
+**Parent Topic:**[Configuring On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/configuration.md)
 

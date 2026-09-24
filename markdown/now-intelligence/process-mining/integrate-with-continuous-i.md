@@ -3,11 +3,11 @@ title: Integration with Continual Improvement Management
 description: Integrating with the ServiceNow Continual Improvement Management application enables you to create a request once you have identified an improvement opportunity.Launch Process Mining from the CIM workbench to analyze the existing process and find new opportunities for improvement.Understand how you can create or track an improvement request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/integrate-with-continuous-i.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integration, Activate, Process Mining, Platform Analytics]
 ---
@@ -28,16 +28,16 @@ From Continual Improvement Management: Launch the Process Mining Analyst workben
 
 Integration with Continual Improvement Management doesn’t add any additional roles to the Process Mining roles. To enable Continual Improvement Management features, you must add the agent\_workspace\_user role to the users who need this capability.
 
-**Parent Topic:**[Integrating Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/integrating-process-mining.md)
+**Parent Topic:**[Integrating Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/integrating-process-mining.md)
 
 **Related topics**  
 
 
-[Example of Continual Improvement Management using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/integrate-with-continuous-i.md)
+[Example of Continual Improvement Management using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/integrate-with-continuous-i.md)
 
-[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cim-landing-page.md)
+[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/cim-landing-page.md)
 
-[Request Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-cim.md)
+[Request Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/request-cim.md)
 
 ## Launch Process Mining from CIM
 
@@ -53,15 +53,15 @@ Activate the Continual Improvement Management plugin \(com.sn\_cim\) and the Pro
 
 1.  Navigate to the **Process Mining** workbench in any one of the following ways.
 
-<table id="choicetable_ywf_lnh_nlb"><thead><tr><th align="left" id="d106937e231">
+<table id="choicetable_ywf_lnh_nlb"><thead><tr><th align="left" id="d108411e231">
 
 From where
 
-</th><th align="left" id="d106937e234">
+</th><th align="left" id="d108411e234">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d106937e240">
+</th></tr></thead><tbody><tr><td id="d108411e240">
 
 **Continual Improvement Workbench**
 
@@ -71,9 +71,9 @@ Steps
 2.  On the **Continual Improvement Workbench** page header, select **Go to****Process Mining**.
 3.  Analyze the existing project or create a new Process Mining project definition for assessment.
 
-**Note:** For more information, refer to [Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/define-workflow-model.md).
+**Note:** For more information, refer to [Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/define-workflow-model.md).
 
-</td></tr><tr><td id="d106937e291">
+</td></tr><tr><td id="d108411e291">
 
 **Improvement Initiative**
 

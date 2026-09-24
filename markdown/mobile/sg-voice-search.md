@@ -3,9 +3,9 @@ title: Mobile voice search
 description: Find items, articles, and people using native speech recognition from an app on their mobile device.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-voice-search.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mobile search, Using the mobile apps, Mobile Platform]
 ---
@@ -26,7 +26,7 @@ Take advantage of the speech recognition feature of your mobile device. Use voic
 
  The first time you use the voice search feature, your mobile device may prompt you to allow your ServiceNow app to record audio.
 
- **Note:** Your administrator must enable this feature. For details on enabling voice search on your instance, see [Enable voice search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/turn-on-voice-search.md).
+ **Note:** Your administrator must enable this feature. For details on enabling voice search on your instance, see [Enable voice search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/turn-on-voice-search.md).
 
 </td></tr></tbody>
 </table>The first time you use the voice search feature, your mobile device may prompt you to allow your ServiceNow app to record audio.

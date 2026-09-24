@@ -3,9 +3,9 @@ title: Reports on the scope 3 dashboard
 description: The Scope 3 dashboard displays a variety of reports to easily gauge the sustainability impact of the scope 3 emissions of an organization. All the reports on this dashboard can be drilled down for detailed metric definitions and the entities that provide the data for each report.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/reports-on-the-scope-3-dashboard.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Scope 3 dashboard, Explore, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Scope 3 dashboard, Explore, Operational Sustainability Management \
 
 The Scope 3 dashboard displays a variety of reports to easily gauge the sustainability impact of the scope 3 emissions of an organization. All the reports on this dashboard can be drilled down for detailed metric definitions and the entities that provide the data for each report.
 
-\[Omitted image "scope3dashboard.png"\] Alt text:
+
 
 The following section explains each of the reports that are displayed.
 
@@ -56,7 +56,7 @@ Line chart\[Omitted image "inline-data-vis-line.png"\] Alt text: Trend line char
 
 </td><td>
 
-Displays the emissions generated based on the various calculation methodologies such as EEIO data, LCA data, and supplier data. For more information about these calculation methodologies, refer to [Scope 3 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/scope-3-dashboard.md). The unit of emission measurement for this report is also KgCO2e. You can view the data for the past 3, 4, or 5 years to obtain a comparative analysis.
+Displays the emissions generated based on the various calculation methodologies such as EEIO data, LCA data, and supplier data. For more information about these calculation methodologies, refer to [Scope 3 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/scope-3-dashboard.md). The unit of emission measurement for this report is also KgCO2e. You can view the data for the past 3, 4, or 5 years to obtain a comparative analysis.
 
 </td></tr><tr><td>
 
@@ -107,10 +107,10 @@ Donut \[Omitted image "inline-data-vis-donut.png"\] Alt text: Donut chart also c
 Displays the supplier data obtained using the Carbon disclosure project \(CDP\) standard that the suppliers must adhere to. CDP requires organizations to disclose their climate impact. The data for this report comes from the responses of the manual metrics definition that is provided by default. **Note:** For the metric data tasks of this metric definition, the metric data owner must enter their responses as either `Yes` or `No`.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Scope 3 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/scope-3-dashboard.md)
+</table>**Parent Topic:**[Scope 3 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/scope-3-dashboard.md)
 
 **Related topics**  
 
 
-[Configuring the Scope 3 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configuring-the-scope-3-dashboard.md)
+[Configuring the Scope 3 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/configuring-the-scope-3-dashboard.md)
 

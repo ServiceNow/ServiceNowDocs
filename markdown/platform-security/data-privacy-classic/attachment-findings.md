@@ -3,12 +3,12 @@ title: Attachment scan findings
 description: You can review the findings of your attachment quarantine scans, and work with any quarantined or alerted attachments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/attachment-findings.html
-release: australia
+release: brazil
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: task
-last_updated: "2026-09-15"
-reading_time_minutes: 2
+last_updated: "2026-09-24"
+reading_time_minutes: 1
 breadcrumb: [Real time protection, Data privacy, Data Privacy, Platform Privacy]
 ---
 
@@ -74,12 +74,7 @@ Status**Note:** A background job exists that will perform a one-time rescan of a
 
 The status of the attachment found in the scan. Status options include:-   **Pending** - Either the file has not yet been scanned for sensitive data or the scan failed because the property `dp.pii.document.download.allowed` is set to `false`. The file is not available to download.
 -   **Available** - The file has been scanned and no sensitive data was found. It is available to download.
--   **Available conditionally** - The file failed to scan for sensitive data and the property `dp.pii.document.download.allowed` is set to `true`. It is available for download.
-
-**Note:** The default value of the property is `true`. If the property is not set, the default value applies.
-
-This state allows users to download an attachment even if it has not yet been scanned, as long as the `dp.pii.document.download.allowed` is set to `true`. If this property is `false`, existing attachments in the **Available conditionally** state will not be available for download.
-
+-   **Available conditionally** - The file failed to scan for sensitive data even though the property `dp.pii.document.download.allowed` is set to `true`. The file can be downloaded even though it has not been scanned.
 -   **Quarantined** - The file was scanned and sensitive data was discovered. The file is quarantined and not available to download \(until reviewed and approved by an Admin\).
 **Note:** Even if a file has been quarantined, a user may still be able to select the file name as if it were available. However, the attachment will not download and they will see a message indicating that it contains sensitive data.
 

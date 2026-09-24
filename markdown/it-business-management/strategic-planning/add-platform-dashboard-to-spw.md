@@ -3,11 +3,11 @@ title: Add a Platform Analytics dashboard
 description: If you have existing dashboards created using Platform Analytics, you can add them to the Strategic Planning Workspace to access them directly from a single location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/add-platform-dashboard-to-spw.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Use, Dashboards, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -51,16 +51,16 @@ You can add any Platform Analytics dashboard to Strategic Planning Workspace.
 
 The dashboard appears in the Strategic Planning Workspace.
 
-**Parent Topic:**[Using Dashboards in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/using-dashboards-spw.md)
+**Parent Topic:**[Using Dashboards in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/using-dashboards-spw.md)
 
 **Related topics**  
 
 
-[View a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/view-dashboard-spw.md)
+[View a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/view-dashboard-spw.md)
 
-[Create a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-dashboard-spw.md)
+[Create a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/create-dashboard-spw.md)
 
-[Duplicate a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/copy-dashboard-spw.md)
+[Duplicate a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/copy-dashboard-spw.md)
 
-[Share a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/share-dashboard-spw.md)
+[Share a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/share-dashboard-spw.md)
 

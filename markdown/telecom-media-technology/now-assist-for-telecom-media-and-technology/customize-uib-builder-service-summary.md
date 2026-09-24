@@ -3,11 +3,11 @@ title: Customize a summary card for service summary
 description: Customize the summary card of the service summary and UI actions according to your needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/customize-uib-builder-service-summary.html
-release: australia
+release: brazil
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Generate product inventory summary, Use generative AI skills, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -34,12 +34,12 @@ Role required: Admin
 
 4.  On the record, update the fields.
 
-    To customize the UI Builder pages, see [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-components.md).
+    To customize the UI Builder pages, see [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/work-components.md).
 
     To configure the UIB ServiceNow Otto context menu component, see [ServiceNow Otto context menu UIB Setup](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/now-components/sn-now-assist-context-menu/uib-setup).
 
 5.  Select **Update**.
 
 
-**Parent Topic:**[Generate service summary for a product inventory using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-summarize-knowledge-graph.md)
+**Parent Topic:**[Generate service summary for a product inventory using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-summarize-knowledge-graph.md)
 

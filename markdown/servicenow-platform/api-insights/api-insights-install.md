@@ -3,11 +3,11 @@ title: Install API Insights
 description: You can install the API Insights application \(sn\_api\_insights\_ws\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/api-insights/api-insights-install.html
-release: australia
+release: brazil
 product: API Insights
 classification: api-insights
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [System administrator tasks, Configure, API Insights, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,7 +32,7 @@ The following items are installed with API Insights:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights-components-installed.md).
+For more information, see [Components installed with API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/api-insights/api-insights-components-installed.md).
 
 ## Procedure
 

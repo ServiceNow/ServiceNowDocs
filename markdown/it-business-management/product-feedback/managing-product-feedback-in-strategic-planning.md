@@ -3,11 +3,11 @@ title: Managing Feedback application in Strategic Planning
 description: Use Feedback application in Strategic Planning and create Feedback and product ideas to take data driven decisions during product development. Associate the feedback with a product idea or with a planning or non-planning item that can be tracked, prioritized, and implemented.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/product-feedback/managing-product-feedback-in-strategic-planning.html
-release: australia
+release: brazil
 product: Product Feedback
 classification: product-feedback
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Feedback in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -23,7 +23,7 @@ Use the following components to manage your Feedback within Strategic Planning.
 
 ## Feedback
 
-Feedback refers to a suggestion, issue, proposed solution, or problem statement provided by users or customers for a product. Strategic Planning enables you to collect feedback from multiple sources and review the incoming feedback to understand the critical issues or feature requests. You can create feedback filters from feedback homepage. For more information on feedback filters, see [Create feedback filters in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/create-feedback-filters.md).
+Feedback refers to a suggestion, issue, proposed solution, or problem statement provided by users or customers for a product. Strategic Planning enables you to collect feedback from multiple sources and review the incoming feedback to understand the critical issues or feature requests. You can create feedback filters from feedback homepage. For more information on feedback filters, see [Create feedback filters in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/product-feedback/create-feedback-filters.md).
 
 \[Omitted image "feedback-filters-landingpage.png"\] Alt text: Feedback filter page in Feedback.
 
@@ -40,7 +40,7 @@ Get insights of feedback, number of product ideas linked to feedback, top tags, 
 -   Identify the overall sentiment distribution across your feedback data.
 -   Analyze the sentiments of the feedback received over the past nine months.
 
-The following figure shows a sample overview of customer feedback and indicates the different features on the overview tab. For example, know which customer has provided the maximum feedback by viewing the feedback count based on top customers. Use the filters at the top of the page to view feedback information on the Feedback application. For more information on filters, see [Configure filters for feedback or product idea overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/configure-feedback-or-idea-overview-page.md).
+The following figure shows a sample overview of customer feedback and indicates the different features on the overview tab. For example, know which customer has provided the maximum feedback by viewing the feedback count based on top customers. Use the filters at the top of the page to view feedback information on the Feedback application. For more information on filters, see [Configure filters for feedback or product idea overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/product-feedback/configure-feedback-or-idea-overview-page.md).
 
 \[Omitted image "feedback-overview.png"\] Alt text: Feedback overview page in Feedback.
 
@@ -54,7 +54,7 @@ You can also create a feedback record and link it with an idea or planning items
 
 ## Product idea
 
-A product idea is a solution or improvement that is developed based on one or multiple feedback records, ensuring it benefits all the customers. Assess and prioritize the product idea or link it to another planning item \(epic, demand, or project\).​ Manage your product ideas and create a custom lens using the product ideas in Strategic Planning. Get an overview of product ideas, number of product ideas linked to the feedback, latest ideas, and planning state of the ideas. Use the filters at the top of the page to view the product ideas.
+A product idea is a solution or improvement developed from one or more feedback records. Assess and prioritize the product idea, or link it to a planning item such as an epic, demand, or project. Manage product ideas and create a custom lens using the product ideas in Strategic Planning. Get an overview of product ideas, the number linked to feedback, the latest ideas, and their planning state. Use the filters to view the product ideas.
 
 ## Product ideas List view
 
@@ -201,11 +201,11 @@ Provides a centralized location for product managers to organize, store, and col
 -   Tag or mention specific users within the documentation component.
 -   Mention a record to create a direct link of the record within the documentation component.
 -   Insert table, images, links and so on.
--   Generate a summary of selected text in Docs using Planning item Gen AI Docs skill. For more information, see [Summarize content with Planning Item Doc Summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/summarize-docs-genai-skill-pf.md).
+-   Generate a summary of selected text in Docs using Planning item Gen AI Docs skill. For more information, see [Summarize content with the doc summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/product-feedback/summarize-docs-genai-skill-pf.md).
 
 </td></tr></tbody>
 </table>**Related topics**  
 
 
-[Feedback reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/product-feedback-reference.md)
+[Feedback reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/product-feedback/product-feedback-reference.md)
 

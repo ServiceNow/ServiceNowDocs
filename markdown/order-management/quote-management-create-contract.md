@@ -3,9 +3,9 @@ title: Initiate a contract request
 description: Initiate a contract request from the Quote Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-management-create-contract.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -90,5 +90,5 @@ Date that the contract ends.**Note:** The End date must be later than the Start 
     A contract management request is generated in the Contract documents tab. Select the record to view the document.
 
 
-**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-mgmt-using.md)
 

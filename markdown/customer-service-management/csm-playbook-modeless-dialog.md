@@ -3,11 +3,11 @@ title: Playbook modeless dialogs
 description: Use modeless dialogs, windows that overlay the main window content, to create and post comments and work notes to the activity stream and to compose and send emails.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-playbook-modeless-dialog.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Page components, Workspace, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Playbook page templates, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Playbook modeless dialogs

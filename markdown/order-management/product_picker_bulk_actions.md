@@ -3,7 +3,7 @@ title: Product picker bulk actions
 description: Learn how to use bulk actions to automate product picker behavior without writing rules. Configure option inclusion, field determination, and quantity limits through table-based logic to control what products appear, how values are set, and when conditions apply—all directly in the product picker interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/product\_picker\_bulk\_actions.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
@@ -107,5 +107,5 @@ To submit a support case, use the [ServiceNow Support portal](https://support.se
 **Related topics**  
 
 
-[Product picker aggregates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-picker-aggregates.md)
+[Product picker aggregates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/product-picker-aggregates.md)
 

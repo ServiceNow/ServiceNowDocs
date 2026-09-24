@@ -3,11 +3,11 @@ title: Ensure dashboards creation/deletion requires access check \[New in Securi
 description: The glide.processors.check\_access\_before\_process system property enables access control list \(ACL\) enforcement for creating or deleting dashboards when a user is logged in.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-ensure-dashboards-creation-deletion-requires-access-check.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
@@ -82,7 +82,7 @@ Category
 
 </td><td>
 
-[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -111,5 +111,5 @@ Functional impact
 This property controls the ability to create new sys\_dashboards and delete existing dashboards when a user lacks the necessary access rights. When the value is set to false, users with inappropriate roles can add and delete sys\_dashboard entries \(though the GlideRecord layer should recheck the existing ACLs\). A value of true restricts add and delete operations for users without the required access rights.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
+</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

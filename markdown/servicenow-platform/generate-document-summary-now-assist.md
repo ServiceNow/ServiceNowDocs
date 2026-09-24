@@ -3,9 +3,9 @@ title: Generate a document summary by using ServiceNow Otto in Document Manageme
 description: Generate a document summary to get quick insights into key information from documents by using ServiceNow Otto in Document Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/generate-document-summary-now-assist.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, ServiceNow Otto in Document Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ Generate a document summary to get quick insights into key information from docu
 
 ## Before you begin
 
-Configure the Smart documents skill. For more information, see [Configure the smart documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-skill-smart-documents.md).
+Configure the Smart documents skill. For more information, see [Configure the smart documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configure-skill-smart-documents.md).
 
 Role required: sn\_nowassist\_admin.nsa\_admin
 

@@ -1,20 +1,20 @@
 ---
 title: Components installed with Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)
-description: Several types of components are installed with activation of the com.sn\_eam\_dcnam plugin, including user roles, plugins, and applications.
+description: Several types of components are installed with activation of the com.sn\_eam\_dcnam plugin, including user roles and applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/installed-with-eam-dcnam.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\), Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
 
 # Components installed with Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)
 
-Several types of components are installed with activation of the com.sn\_eam\_dcnam plugin, including user roles, plugins, and applications.
+Several types of components are installed with activation of the com.sn\_eam\_dcnam plugin, including user roles and applications.
 
 ## Roles installed
 
@@ -59,32 +59,24 @@ Performs asset and work tasks related to critical facility-based enterprise asse
 sn\_eam.enterprise\_asset\_technician
 
 </td></tr></tbody>
-</table>## Plugins installed
+</table>## Applications installed
 
-|Name|Description|
-|----|-----------|
-|Asset Management \(com.snc.asset\_management\)|Provides functionalities to integrate the physical, technological, contractual, and financial aspects of information technology assets.|
-|Procurement \(com.snc.procurement\)|Provides the capability to source and receive requested assets so that you can fulfill service catalog requests.|
-|Enterprise model normalization \(com.sn\_eam\_core\)|Provides information related to normalization such as normalization status, model content service download, and life-cycle overview.|
-|Asset Management Workspace - Recommendations \(com.sn\_itam\_recomm\)|Provides actionable recommendations for users in configurable workspaces.|
-|SM Planned Maintenance \(com.snc.planned\_maintenance\)|Provides the capability to manage regular preventative maintenance of assets.|
-|Work Management \(com.snc.work\_management\)|Provides the capability to manage your work orders, work order tasks, maintenance plans, and other relevant work order information.|
-|Performance Analytics \(com.snc.pa\)|Provides dashboards containing actionable data visualizations that help you improve your business processes and practices.|
-|Playbook Experience \(com.glide.playbook\_experience.config\)|Provides a step-by-step guidance for setting up your assets with important information.|
-|Playbooks for App Engine \(com.glide.pad.license\)|Provides a simplified and task-oriented view of processes.|
-|Cost Management \(com.snc.cost\_management\)|Provides options to plan and control business costs.|
+<table id="table_ock_zf4_hkc"><thead><tr><th>
 
-## Applications installed
+Name
 
-|Name|Description|
-|----|-----------|
-|ServiceNow Enterprise Asset Management \(com.sn\_eam\)|Manages the complete life cycle of your enterprise connected and non-connected assets.|
-|Expanded Model and Asset Classes \(com.sn\_ent\)|Adds enterprise model and asset classes that extend out-of-the-box product model and asset classes within the CMDB class hierarchy. In addition, creates model categories that associate these enterprise model and asset classes with CMDB configuration item \(CI\) classes.|
-|CMDB CI Class Models \(com.sn\_cmdb\_ci\_class\)|Adds class models that extend the CMDB class hierarchy, including class descriptions, identification rules, identifier entries, and dependent relationships.|
-|Asset Management Common \(com.sn\_itam\_common\)|Provides features that are common to the Hardware Asset Management, Software Asset Management, andEnterprise Asset Management applications, including the catalog item to request asset reclamation.|
-|Physical Assets \(sn\_phy\_assets\)|Marker that aligns features for physical asset-based applications, including the Hardware Asset Management and Enterprise Asset Management applications.|
-|Risk Heat Map \(com.sn\_risk\_heatmap\)|Provides a heatmap component that enables you to visualize the risk posture of your organization.|
-|Geo Map Component \(com.sn\_geo\_map\)|Provides capabilities to track asset locations using indoor maps.|
+</th><th>
 
-**Parent Topic:**[Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/eam-dcnam.md)
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+ServiceNow Enterprise Asset Management\(com.sn\_eam\)
+
+</td><td>
+
+Manages the complete life cycles of your enterprise connected and non-connected assets.For details on the components that are installed with the Enterprise Asset Management application, see [Components installed with Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/installed-with-eam.md).
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/eam-dcnam.md)
 

@@ -3,11 +3,11 @@ title: Exploring MetricBase
 description: Collect, retain, analyze, and act on time-series data using MetricBase.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/metricbase/exploring-metricbase.html
-release: australia
+release: brazil
 product: MetricBase
 classification: metricbase
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [MetricBase, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -57,19 +57,19 @@ The following figure shows that machine-generated data is sampled every 4 second
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Store time series summary of a large collection of data|[Create a time-series definition in MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/set-up-data-monitoring.md)|Administrator|
-|Insert and retrieve time-series data from the MetricBase database|[Developer resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/developer-resources.md)|Administrator|
-|Access and visualize time-series data in the MetricBase database|[Accessing MetricBase data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/accessing-metricbase-data.md)|Administrator|
-|Trigger flows when new data is significantly different than the trained data|[Detecting anomalies in MetricBase data using predictive models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/metricbase-predictive-models.md)|Administrator|
-|Trigger flows that can log incidents, send emails, and create other alerts|[Triggering flows using MetricBase data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/metricbase-triggers.md)|Administrator|
+|Store time series summary of a large collection of data|[Create a time-series definition in MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/metricbase/set-up-data-monitoring.md)|Administrator|
+|Insert and retrieve time-series data from the MetricBase database|[Developer resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/metricbase/developer-resources.md)|Administrator|
+|Access and visualize time-series data in the MetricBase database|[Accessing MetricBase data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/metricbase/accessing-metricbase-data.md)|Administrator|
+|Trigger flows when new data is significantly different than the trained data|[Detecting anomalies in MetricBase data using predictive models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/metricbase/metricbase-predictive-models.md)|Administrator|
+|Trigger flows that can log incidents, send emails, and create other alerts|[Triggering flows using MetricBase data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/metricbase/metricbase-triggers.md)|Administrator|
 
 ## What to explore next
 
 To learn more about configuring and using MetricBase, see:
 
--   [Configuring MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/configuring-metricbase.md)
--   [Defining and collecting MetricBase data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/collecting-metricbase-data.md)
--   [Triggering flows using MetricBase data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/metricbase-triggers.md)
--   [Managing MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/maintain-metricbase.md)
--   [MetricBase reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/reference-metricbase.md)
+-   [Configuring MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/metricbase/configuring-metricbase.md)
+-   [Defining and collecting MetricBase data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/metricbase/collecting-metricbase-data.md)
+-   [Triggering flows using MetricBase data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/metricbase/metricbase-triggers.md)
+-   [Managing MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/metricbase/maintain-metricbase.md)
+-   [MetricBase reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/metricbase/reference-metricbase.md)
 

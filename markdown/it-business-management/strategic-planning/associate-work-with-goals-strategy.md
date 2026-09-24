@@ -3,11 +3,11 @@ title: Align work with a goal or target
 description: Create a goal or target relationship with a planning item or any other item to identify and associate your current or future work and achieve your goals and targets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/associate-work-with-goals-strategy.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage enterprise goals, Strategy and Goals, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -26,7 +26,7 @@ You can associate a goal or target with planning items as well as with any Servi
 
 From the Align work window, you can associate a goal or target with multiple planning items at a time. From the Planning items tab of the goal or target, you can associate a goal or target with only one planning item at a time.
 
-You can create goal or target relationships with a custom planning item from the Align work window only if the planning item table is added to the **planning\_item\_types\_allow\_list** property. For more information, see [Enable custom item types in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/enable-custom-item-types-strategic-planning-workspace.md).
+You can create goal or target relationships with a custom planning item from the Align work window only if the planning item table is added to the **planning\_item\_types\_allow\_list** property. For more information, see [Enable custom item types in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/enable-custom-item-types-strategic-planning-workspace.md).
 
 **Note:** When a goal or target relationship is created with a planning item \(Project, Demand, or Epic\) or any other ServiceNow AI Platform table record, the record appears on the Aligned work tab on the goal record.
 
@@ -50,17 +50,17 @@ You can create goal or target relationships with a custom planning item from the
 
     3.  Select **Confirm**.
 
-    For a description of the field values, see [Goal/Target Relationship form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/goal-relationship-form-egm.md).
+    For a description of the field values, see [Goal/Target Relationship form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/goal-relationship-form-egm.md).
 
 
 **Related topics**  
 
 
-[Create a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-goal-strategy.md)
+[Create a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/create-goal-strategy.md)
 
-[Add a target for goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/set-target-for-goal-strategy.md)
+[Add a target for goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/set-target-for-goal-strategy.md)
 
-[Duplicate a goal or target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/duplicate-goal-target-strategy.md)
+[Duplicate a goal or target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/duplicate-goal-target-strategy.md)
 
-[Send a reminder for target actuals check in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/send-reminder-target-checkin-strategy.md)
+[Send a reminder for target actuals check in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/send-reminder-target-checkin-strategy.md)
 

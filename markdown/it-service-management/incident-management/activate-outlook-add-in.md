@@ -3,11 +3,11 @@ title: Activate the ServiceNow Add-in for Microsoft Office
 description: You can activate the ServiceNow Add-in for Microsoft Office plugin \(com.sn\_outlook\_addin\) if you have the admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/activate-outlook-add-in.html
-release: australia
+release: brazil
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Microsoft Outlook to create incidents and VTB tasks, Configuring Incident Management, Incident Management, IT Service Management]
 ---
@@ -33,7 +33,7 @@ The following items are installed with ServiceNow Add-in for Microsoft 365:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Install the ServiceNow Add-in for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/install-sn-addin-for-ms365.md) and [Components installed with ServiceNow Add-in for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/installed-with-sn-addin-ms365.md).
+For more information, see [Install the ServiceNow Add-in for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/install-sn-addin-for-ms365.md) and [Components installed with ServiceNow Add-in for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/installed-with-sn-addin-ms365.md).
 
 ## Procedure
 
@@ -58,10 +58,10 @@ For more information, see [Install the ServiceNow Add-in for Microsoft 365](http
 6.  Select **Install**.
 
 
-**Parent Topic:**[Configuring Microsoft Outlook to create incidents and VTB tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/create-incident-outlook.md)
+**Parent Topic:**[Configuring Microsoft Outlook to create incidents and VTB tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/create-incident-outlook.md)
 
 **Related topics**  
 
 
-[List of Australia plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[List of Brazil plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-of-plugins.md)
 

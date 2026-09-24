@@ -3,11 +3,11 @@ title: Create SolarWinds monitor credentials
 description: Create a Basic Auth credential in ServiceNow to store the SolarWinds user name and password that the SolarWinds monitor connector uses to access the SolarWinds API.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/create-credentials-solarwinds.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure event collection from SolarWinds monitor, Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -20,8 +20,7 @@ Create a Basic Auth credential in ServiceNow to store the SolarWinds user name a
 
 Confirm you have a local SolarWinds Orion account for Basic authentication \(username + password\) with rights to query the SolarWinds Information Service \(SWIS\) REST API. Create this account in the Orion Web Console; it is the account ServiceNow uses to poll alerts.
 
--   Role required: evt\_mgmt\_admin
--   Make sure that you have a SolarWinds account with access to the SolarWinds API.
+Role required: evt\_mgmt\_admin
 
 ## Procedure
 
@@ -48,10 +47,10 @@ Confirm you have a local SolarWinds Orion account for Basic authentication \(use
 
 The credential for use with the SolarWinds monitor connector is created.
 
-**Parent Topic:**[Configure event collection from SolarWinds monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureSolarwindsConnectorJS.md)
+**Parent Topic:**[Configure event collection from SolarWinds monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMConfigureSolarwindsConnectorJS.md)
 
 **Related topics**  
 
 
-[Credentials and connection information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r-credentials.md)
+[Credentials and connection information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r-credentials.md)
 

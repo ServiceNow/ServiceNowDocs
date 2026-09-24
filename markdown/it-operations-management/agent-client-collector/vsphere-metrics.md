@@ -3,11 +3,11 @@ title: vSphere metrics
 description: The following table lists the metrics that are gathered as output from vSphere checks. Entries indicated as Featured metrics are high-visibility metrics that are displayed in the Operator Workspace Metric tab after an alert is generated. These metrics provide the operator with additional information to help them further explore the specified issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/vsphere-metrics.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 15
 breadcrumb: [ACC-M default checks and policies, ACC-M reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
@@ -186,7 +186,7 @@ The following table lists the metrics that are gathered as output from vSphere c
 |disk.totalWriteLatency.average|disk|millisecond|Average amount of time taken to process a SCSI write command issued by the guest OS to the virtual machine.|
 |disk.unshared.latest|disk|KiB|Amount of space associated exclusively with a virtual machine.|
 |disk.usage.average \(featured metric\)|disk|KiB|Aggregated disk I/O rate.|
-|disk.used.latest|disk|KiB|Amount of space actually used by the virtual machine or the datastore. May be less than the amount provisioned at any given time. Factors include whether the virtual machine is powered off and whether snapshots have been created.|
+|disk.used.latest|disk|KiB|Amount of space actually used by the virtual machine or the datastore. May be less than the amount provisioned at any given time. This depends on whether the virtual machine is powered off, whether snapshots have been created, and other factors.|
 |disk.write.average|disk|KiB|Average number of kilobytes written to the disk each second.|
 
 |Metric type|Resource \(name of specific database, where relevant\)|Units|Metric type description|
@@ -232,5 +232,5 @@ The following table lists the metrics that are gathered as output from vSphere c
 |storageAdapter.maxTotalLatency.latest  \(featured metric\)|storage adapter|millisecond|Highest latency value across all storage adapters used by the host.|
 |storagePath.maxTotalLatency.latest  \(featured metric\)|storage adapter|millisecond|Highest latency value across all storage paths used by the host.|
 
-**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-policies-checks.md)
+**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/agent-policies-checks.md)
 

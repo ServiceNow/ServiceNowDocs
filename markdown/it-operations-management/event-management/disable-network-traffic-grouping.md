@@ -1,20 +1,20 @@
 ---
 title: Disable network traffic-based alert grouping
-description: Disable network traffic-based alert grouping to prevent alerts from being grouped solely by network activity. This reduces noise during traffic spikes and helps critical issues stand out.
+description: Disable network traffic-based alert grouping to prevent alerts from being grouped solely by network activity. This reduces noise during traffic spikes and helps critical issues stand out for quicker resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/disable-network-traffic-grouping.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Network traffic based alert grouping, Alert grouping types and creation methods, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Disable network traffic-based alert grouping
 
-Disable network traffic-based alert grouping to prevent alerts from being grouped solely by network activity. This reduces noise during traffic spikes and helps critical issues stand out.
+Disable network traffic-based alert grouping to prevent alerts from being grouped solely by network activity. This reduces noise during traffic spikes and helps critical issues stand out for quicker resolution.
 
 ## Before you begin
 

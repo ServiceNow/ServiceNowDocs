@@ -3,11 +3,11 @@ title: Opportunity details page
 description: The Opportunity details page displays details about the improvement opportunities for a project. Access the page from a Process Mining project.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/opportunity-details.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Details page, Workspace, Explore, Process Mining, Platform Analytics]
 ---
@@ -54,9 +54,9 @@ Choose any of the options on **Take action** to:
 
 ## Further analysis on the improvement opportunity
 
-You can generate the highlights to view the main reasons for inefficiency. To generate highlights, the Process Inefficiency Highlights skill must be activated on the instance. For more details, see [Activate Process Inefficiency Highlights skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/activate-highlight-skills.md).
+You can generate the highlights to view the main reasons for inefficiency. To generate highlights, the Process Inefficiency Highlights skill must be activated on the instance. For more details, see [Activate Process Inefficiency Highlights skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/activate-highlight-skills.md).
 
-If the Process Inefficiency Highlights skill isn’t activated on the instance, the highlights option isn’t available. For more information about how to generate highlights, see [Generate highlights for improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/generate-highlights.md).
+If the Process Inefficiency Highlights skill isn’t activated on the instance, the highlights option isn’t available. For more information about how to generate highlights, see [Generate highlights for improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/generate-highlights.md).
 
 You can also view the trends, breakdowns, and variants for the selected improvement opportunity.
 
@@ -84,7 +84,7 @@ The variants of the improvement opportunity are displayed in the **Variants** ta
 
 ## Task Mining
 
-Create a Task Mining project from opportunity details page. For more information on creating Task Mining project, see [Create Task Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/create-task-mining-project.md).
+Create a Task Mining project from opportunity details page. For more information on creating Task Mining project, see [Create Task Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/create-task-mining-project.md).
 
-**Parent Topic:**[Process details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/project-view-screen.md)
+**Parent Topic:**[Process details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/project-view-screen.md)
 

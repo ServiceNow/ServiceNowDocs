@@ -3,11 +3,11 @@ title: Create a CLO case
 description: Begin the Customer Lifecycle Operations application process by creating a CLO case for review.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-customer-lifecycle-operations/create-case.html
-release: australia
+release: brazil
 product: Financial Services Customer Lifecycle Operations
 classification: financial-services-customer-lifecycle-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Customer Lifecycle Operations, Common applications, Financial Services Operations \(FSO\)]
 ---
@@ -52,5 +52,5 @@ A Customer Lifecycle Operations case is created and assigned to an available age
 
 ## What to do next
 
-Continue to [Add contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-customer-lifecycle-operations/create-contact.md).
+Continue to [Add contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-customer-lifecycle-operations/create-contact.md).
 

@@ -3,9 +3,9 @@ title: Event handler in the Catalog item component
 description: A component triggers an event when a certain condition is met or on user interaction. The event can be used to execute an action through a code on a third-party webpage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/we-catalog-item-event-handler.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Web Embeddables event handlers, Web Embeddables reference, Reference, Customer Service Management]
 ---
@@ -26,11 +26,11 @@ A component triggers an event when a certain condition is met or on user interac
 **Related topics**  
 
 
-[Configure the Catalog item component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-catalog-item-component-on-instance.md)
+[Configure the Catalog item component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-catalog-item-component-on-instance.md)
 
-[Embed the Catalog item component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-catalog-item-component-on-third-party-website.md)
+[Embed the Catalog item component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-catalog-item-component-on-third-party-website.md)
 
-[Component properties for the Catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/component-properties-for-catalog-item.md)
+[Component properties for the Catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/component-properties-for-catalog-item.md)
 
-[Sample code for the Catalog item component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-catalog-item-sample-code.md)
+[Sample code for the Catalog item component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-catalog-item-sample-code.md)
 

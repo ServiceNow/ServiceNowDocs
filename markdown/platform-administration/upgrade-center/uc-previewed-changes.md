@@ -3,11 +3,11 @@ title: Preview predicted changes
 description: Use the previewed changes table to view the list of total records that are predicted to change when the upgrade occurs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-center/uc-previewed-changes.html
-release: australia
+release: brazil
 product: Upgrade Center
 classification: upgrade-center
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Previewing an upgrade, Using Upgrade Center, Upgrade Center, Upgrade, Administer the ServiceNow AI Platform]
 ---

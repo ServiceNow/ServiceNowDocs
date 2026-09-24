@@ -3,11 +3,11 @@ title: Configure special handling notes summarization in ServiceNow Otto for Cus
 description: Activate the Special Handling Notes summarization skill to enable ServiceNow Otto for CSM to generate concise summaries of special handling notes on the Case Insights section.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/configure-special-handling-notes-summarization-in-now-assist-for-csm.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-05-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -82,5 +82,5 @@ After activating the skill, complete the following tasks:
 -   Test the summarization output on a sample record that contains multiple or lengthy special handling notes.
 -   Notify CSM agents that the feature is available and direct them to the **Case Insights** section to review summaries.
 -   Monitor AI usage analytics to track adoption of the skill.
--   To customize the skill, go to AI Skill Kit and open the skill and create custom prompts. For more info, see [Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-prompt-template.md)
+-   To customize the skill, go to AI Skill Kit and open the skill and create custom prompts. For more info, see [Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-prompt-template.md)
 

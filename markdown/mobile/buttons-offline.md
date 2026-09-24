@@ -3,9 +3,9 @@ title: Display and hide functions in offline mode
 description: Define whether to show or hide buttons while users are in offline mode on their Mobile Agent app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/buttons-offline.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Supported functions, Align apps, screens, and functions, Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -24,13 +24,13 @@ Role required: mobile\_admin, admin
 
 2.  Select an existing action function or select **New**.
 
-    The Function screen displays. For more information on how to configure an action function, see [Action functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-actions.md).
+    The Function screen displays. For more information on how to configure an action function, see [Action functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-actions.md).
 
 3.  Select the **Offline Properties** tab.
 
 4.  Select the **Offline** check box to display all the fields relevant for an offline function configuration.
 
-5.  Complete the action function offline mode property fields as required, see [Configure offline mode properties for action functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-offline-properties-action-funct.md).
+5.  Complete the action function offline mode property fields as required, see [Configure offline mode properties for action functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/config-offline-properties-action-funct.md).
 
 6.  From the **Offline Condition Type** field, select whether the condition style is **Declarative** or **Script**.
 
@@ -42,8 +42,8 @@ Role required: mobile\_admin, admin
     -   For **Script**, enter a script in the text window that contains query conditions that are evaluated in offline mode.
 9.  Select **Submit** to save your display and hide button configurations.
 
-10. Complete the action function offline mode property fields as required, see [Configure offline mode properties for function instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-offline-property-function-instance.md).
+10. Complete the action function offline mode property fields as required, see [Configure offline mode properties for function instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/config-offline-property-function-instance.md).
 
 
-**Parent Topic:**[Supported functions for offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/functions-offline.md)
+**Parent Topic:**[Supported functions for offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/functions-offline.md)
 

@@ -3,9 +3,9 @@ title: Show or hide shapes panel
 description: Show or hide the Shapes Panel to optimize your workspace for different tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-modeling-show-hide-shapes-panel.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with Enterprise Modeling and Visualization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -35,5 +35,5 @@ Useful for browsing shape libraries or searching for specific elements. When you
     \[Omitted image "modeling-show-hide-shapes-panel.gif"\] Alt text: Show or hide the shapes panel
 
 
-**Parent Topic:**[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)
+**Parent Topic:**[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)
 

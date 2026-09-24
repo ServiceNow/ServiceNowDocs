@@ -3,10 +3,10 @@ title: Merge and publish potential duplicate articles
 description: Review AI-identified groups of similar articles, merge duplicates, and publish the result. Knowledge Center generates a recommendation and confidence score for each topic to help you decide how to act.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/automerge-duplicate-articles.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-23"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 keywords: [auto-merge, potential duplicates, Knowledge Center, duplicate articles, merge and publish]
 breadcrumb: [Using Knowledge Center, Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -17,17 +17,23 @@ Review AI-identified groups of similar articles, merge duplicates, and publish t
 
 ## Before you begin
 
-Role required: knowledge manager or knowledge admin.
+Role required: knowledge manager or knowledge admin
 
 The **Identify duplicate articles** and **Merge articles** skills must be enabled.
 
 The `sn_km_gen_ai.auto_merge.enable` system property must be enabled. If it is not enabled, the existing potential duplicate experience opens instead of this dashboard.
 
-The **Enable auto merge publish** flag determines what action is available for a topic on a per-knowledge-base basis. If this flag is enabled on the topic's knowledge base, the topic appears under **Ready to publish** and supports the bulk **Merge &amp; publish** action. If this flag is not enabled, the same recommendation and confidence score appear under **Ready to merge**. Only **Review draft** is available; merge and publish the article manually.
+The **Enable automatic merging and publishing of duplicate articles** flag determines what action is available for a topic on a per-knowledge-base basis. If this flag is enabled on the topic's knowledge base, the topic appears under **Ready to publish** and supports the bulk **Merge &amp; publish** action. If this flag is not enabled, the same recommendation and confidence score appear under **Ready to merge**. Only **Review draft** is available; merge and publish the article manually.
 
 ## About this task
 
 Topics are groups of similar articles identified by AI. For each topic, an LLM generates a recommendation, a confidence score, and a rationale. The recommendation is to either **create an article** from the topic or **update an existing one**, and the score shows how certain the model is. A topic qualifies for an automated recommendation only when all its articles are in the same knowledge base and have no knowledge blocks or other media. Topics that don't qualify go under **Needs review** and may show a confidence score of zero.
+
+|Topic status|Condition|Action|
+|------------|---------|------|
+|Ready for publish|Confidence score above threshold and, **Enable automatic merging and publishing of duplicate articles** is set to **True**|Topics merge and publish automatically with single click.|
+|Ready to merge|Confidence score above threshold and, **Enable automatic merging and publishing of duplicate articles** is set to **False**|Topics are ready to merge; requires manual review before publishing.|
+|Needs review|Low confidence score, contains knowledge blocks, media, or articles from different knowledge bases|Manual merge required; open topic and merge articles manually.|
 
 ## Procedure
 
@@ -43,7 +49,7 @@ Topics are groups of similar articles identified by AI. For each topic, an LLM g
 
 4.  Review the summary cards: **Topics found**, **Topics ready to publish**, **Topics ready to merge**, and **Topics need review**.
 
-5.  Under **Topics**, select a filter: **All**, **Ready to publish**, **Ready to merge**, or **Needs review**.
+5.  Under **Topics**, select a filter: **All**, **Ready for publish**, **Ready to merge**, or **Needs review**.
 
     Use the **Confidence** filter to narrow the list by confidence score or article count.
 
@@ -59,9 +65,11 @@ Topics are groups of similar articles identified by AI. For each topic, an LLM g
 
 ## Result
 
-Merging a topic publishes the article. Based on the recommendation, it either creates a new article or updates an existing one. The article follows the approval workflow configured for the knowledge base. If instant publishing is enabled, the article publishes immediately. If approval is required, the article goes through the approval rules before publishing.
+Merging a topic publishes the article. Based on the recommendation, it either creates a new article or updates an existing one.
 
 ## What to do next
+
+The article follows the approval workflow configured for the knowledge base. If instant publishing is enabled, the article publishes immediately. If approval is required, the article goes through the approval rules before publishing.
 
 Dismissing a topic deselects its articles as duplicates and removes the topic from the list. The topic can reappear if the same articles are identified as potential duplicates in a future scan.
 
@@ -69,14 +77,16 @@ Topics containing media content or knowledge blocks, or whose articles belong to
 
 The **Articles** tab shows the existing list view, where you can review and act on individual articles.
 
-Completed runs appear on the **History** tab. You can revert a run within a configurable period, five days by default. Reverting restores the previous version of each updated article. If the run created a new article, the new article is deleted. You revert the entire batch; you can't revert a single article within a batch, and a batch is not eligible for revert after the configured period has passed. Article modified manually after automatically merging will not be eligible for the merge and would be shown in the history tab.
+Completed runs appear in the **History** tab. You can revert a run within a configurable period, five days by default. You can configure this period from the Knowledge Center Properties \(located in Knowledge Management Properties\). In the Knowledge Center Properties window, locate the system property: **Define the eligibility of time to revert the automatically merged or automatically updated articles**. Set the eligibility period to the desired number.
+
+Reverting restores the previous version of each updated article. If the run created a new article, the new article is deleted. A batch is not eligible for revert after the configured period has passed. Article modified manually after automatically merging will not be eligible for the merge and would be shown in the history tab.
 
 **Related topics**  
 
 
-[Identify and resolve duplicate articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/identify-duplicate-articles.md)
+[Identify and resolve duplicate articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/identify-duplicate-articles.md)
 
-[Enable system properties for Knowledge Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-system-properties-for-KC.md)
+[Enable system properties for Knowledge Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-system-properties-for-KC.md)
 
-[View article optimization analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/view-article-optimization.md)
+[View article optimization analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/view-article-optimization.md)
 

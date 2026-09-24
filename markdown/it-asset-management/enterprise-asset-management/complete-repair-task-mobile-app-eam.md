@@ -3,11 +3,11 @@ title: Close an enterprise asset repair task using the Mobile Agent application
 description: Complete an assigned enterprise asset repair task and mark the task as closed using the Mobile Agent application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/complete-repair-task-mobile-app-eam.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage enterprise asset repair tasks using the Mobile Agent application, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]
 ---
@@ -48,15 +48,15 @@ You can close any task that belongs to the following task types:
 
 7.  On the Repair task input form screen, enter the result of your task.
 
-<table id="choicetable_g14_wv2_yxb"><thead><tr><th align="left" id="d189430e168">
+<table id="choicetable_g14_wv2_yxb"><thead><tr><th align="left" id="d191499e168">
 
 Task
 
-</th><th align="left" id="d189430e171">
+</th><th align="left" id="d191499e171">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d189430e177">
+</th></tr></thead><tbody><tr><td id="d191499e177">
 
 **Troubleshoot asset**
 
@@ -67,7 +67,7 @@ In the **Troubleshoot result** field, select any of the following:-   **Repairab
 -   **Redeployable**
 
 
-</td></tr><tr><td id="d189430e203">
+</td></tr><tr><td id="d191499e203">
 
 **Repair asset**
 
@@ -78,7 +78,7 @@ In the **Repair result** field, select any of the following: -   **Repaired**
 -   **Redeployable**
 
 
-</td></tr><tr><td id="d189430e229">
+</td></tr><tr><td id="d191499e229">
 
 **Evaluate asset**
 
@@ -98,7 +98,7 @@ In the **Evaluation result** field, select any of the following:-   **Redeployab
 
 The state of the repair task changes to Closed Complete.
 
-**Parent Topic:**[Manage enterprise asset repair tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/repair-orders-mobile-agent-eam.md)
+**Parent Topic:**[Manage enterprise asset repair tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/repair-orders-mobile-agent-eam.md)
 
 **Related topics**  
 

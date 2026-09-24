@@ -3,11 +3,11 @@ title: Configure resource block input parameters
 description: You can configure operations for each interface of a resource block by specifying input parameters, steps, and output attributes. Input parameters hold values that the system requires to identify and manage a virtual resource, such as the datacenter and resource group that the resource is in.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/manage-resource-block-operations.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Resource blocks in Cloud Provisioning and Governance, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -108,7 +108,7 @@ Select **Public** to make the resource block operation available from the catalo
         This value specifies the source or location where the parameter value comes from:
 
         -   **Text**: a text value that the user passes.
-        -   **Pools**: the query that you want to run against a pool to get a value back from it. The pool **Datasource Value** should follow this convention: `ServiceNow::Pools::PoolName.Pool-Filter-Name`. See [Pools and Filters for Cloud Provisioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/pools.md) for more information on pools.
+        -   **Pools**: the query that you want to run against a pool to get a value back from it. The pool **Datasource Value** should follow this convention: `ServiceNow::Pools::PoolName.Pool-Filter-Name`. See [Pools and Filters for Cloud Provisioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/pools.md) for more information on pools.
         -   **CSVList**: values from a comma-separated value list that you enter into the **Datasource Value**.
         -   **Array**: an array of values. You can programmatically send it an array in JavaScript. The format is as follows: `['abc','def']`.
         -   **FormData**: data submitted from the form configured in the blueprint.
@@ -123,7 +123,7 @@ Select **Public** to make the resource block operation available from the catalo
 
         Mappings specify where to pull the information in the system. You do not have to change the mapping values except for **ResourceScript** type parameters, where you must enter the expression.
 
-    6.  In the **Default Value** column, specify a value to use when the user does not provide a value or when the **Datasource Value** is empty.
+    6.  In the **Default Value** column, specify a value to use when no value is passed or entered in **Datasource Value**.
 
     7.  Select **Create Form** to make this attribute available in the order form that the user sees when trying to provision the stack item.
 
@@ -138,5 +138,5 @@ Select **Public** to make the resource block operation available from the catalo
         \[Omitted image "vsphere-datacenter-restricted-to.png"\] Alt text: Restricting to a vSphere datacenter
 
 
-**Parent Topic:**[Resource blocks in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/resource-blocks.md)
+**Parent Topic:**[Resource blocks in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/resource-blocks.md)
 

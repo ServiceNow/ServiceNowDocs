@@ -1,20 +1,20 @@
 ---
 title: Viewing your network inventory configuration items with CMDB or Service Graph Workspace
-description: You can use CMDB Workspace to search and explore the CMDB, examine its health and recent activity, and access various dashboards and tools to support the tasks in your organization.
+description: You can use CMDB Workspace to search and explore the CMDB and examine its health and recent activity. You can also access various dashboards and tools to support the tasks in your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/viewing-network-inventory-using-cmdb-workspace.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Use, Telecommunications Network Inventory]
 ---
 
 # Viewing your network inventory configuration items with CMDB or Service Graph Workspace
 
-You can use CMDB Workspace to search and explore the CMDB, examine its health and recent activity, and access various dashboards and tools to support the tasks in your organization.
+You can use CMDB Workspace to search and explore the CMDB and examine its health and recent activity. You can also access various dashboards and tools to support the tasks in your organization.
 
 ## Prerequisites for the CMDB or Service Graph Workspace
 
@@ -30,7 +30,7 @@ You can use CMDB Workspace to search and explore the CMDB, examine its health an
 
     .
 
--   Features: CMDB or Service Graph Workspace provides access to a wide range of applications and features. However, to provide meaningful reports, overviews, and trends, you must set up and configure some of those features so that CMDB Workspace can use the data that is generated.
+-   Features: CMDB or Service Graph Workspace provides access to a wide range of applications and features. However, to provide meaningful reports, overviews, and trends, you must set up and configure some of those features. This setup enables CMDB Workspace to use the data that is generated.
 
 ## Accessing CMDB or Service Graph Workspace
 
@@ -38,7 +38,7 @@ After you install the app from the ServiceNow Store, navigate to **Network Inven
 
 ## CI searches
 
-Specify up to five conditions to search for the configuration items \(network asset CI\) of a class. These conditions are based on the attributes for a selected class. In the results list, click a network asset CI to see the details about the network asset CI, including a time line, health overview, and attributes for the network asset CI.
+Specify up to five conditions to search for the configuration items \(network asset CI\) of a class. These conditions are based on the attributes for a selected class. In the results list, click a network asset CI to see its details. These details include a timeline, health overview, and attributes for the network asset CI.
 
 For more information, see the CI Details page section.
 
@@ -48,7 +48,7 @@ Get an overview of the network asset CIs in CMDB or Service Graph Workspace that
 
 Select a class group to see all the classes that are included in the group, and then select the class whose network asset CIs you want to see.
 
-In the Results list, you can click a network asset CI to see an overview page with a time line, health overview, and attributes for the network asset CI. For more information, see the CI Details page section.
+In the Results list, you can click a network asset CI to open its overview page. The page includes a timeline, health overview, and attributes for the network asset CI. For more information, see the CI Details page section.
 
 ## CMDB health
 
@@ -88,7 +88,7 @@ See a list of the links to the CMDB dashboards and tools:
 When you drill down to a network asset CI record, you can see the following details for the network asset CI:
 
 -   CI Timeline - Last 14 days: A time line of the network asset CI activities, such as change requests.
--   CI Health: A summary of the health of the network asset CI that shows the related items such as critical incidents, incomplete attributes, and stale relationships for the network asset CI.
+-   CI Health: A summary of the health of the network asset CI. It shows related items such as critical incidents, incomplete attributes, and stale relationships for the network asset CI.
 -   Details: Network asset CI attributes, grouped into categories such as Key attributes, Asset attributes, Discovery attributes, Operational attributes, and More attributes.
 
     **Note:** You can configure the appearance of the attributes by using the **CMDB - Workspace** form view for a network asset CI class.
@@ -100,7 +100,7 @@ When you drill down to a network asset CI record, you can see the following deta
 On the CI details page, you can do the following actions:
 
 -   To open Dependency Views and to get a graphic infrastructure view of the network asset CI record, click **Open Dependency View**.
--   To open the Multisource Data Report Builder and track how the CMDB is populated by the various discovery sources at the network asset CI attribute level of the network asset CI record, click **View Multisource Data**.
+-   To track how the CMDB is populated by various discovery sources at the network asset CI attribute level, open the Multisource Data Report Builder. To do this, click **View Multisource Data**.
 -   To save your changes to the attributes for the network asset CI record, click **Save**.
 
 
@@ -125,11 +125,11 @@ Resolution
 Delete the child or related CI \(Configuration Item\) to delete the parent CI.1.  Click the related or the child CI under **Related Templates**.
 2.  Click **Delete**.
 
-However, an Admin can always customize the deletion action. To learn more, see [Customizing deletion action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/customizing-deletion-action.md).
+However, an Admin can always customize the deletion action. To learn more, see [Customizing deletion action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/customizing-deletion-action.md).
 
 </td></tr></tbody>
-</table>-   **[Customizing deletion action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/customizing-deletion-action.md)**  
+</table>-   **[Customizing deletion action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/customizing-deletion-action.md)**  
 Customizing deletion action enables you to create your own process of the deletion.
 
-**Parent Topic:**[Using Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-telecom-network-inventory.md)
+**Parent Topic:**[Using Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/using-telecom-network-inventory.md)
 

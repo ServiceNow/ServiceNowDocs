@@ -3,9 +3,9 @@ title: Run SAP Concur data import scheduled job
 description: The data import scheduled job automatically runs monthly and can also be executed manually. When this job runs, it aggregates the data from the SAP Concur trip data staging table based on the trip end date and creates metric data for the respective metric definitions.​
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/run-sap-concur-data-import-scheduled-job.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with SAP Concur, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -27,5 +27,5 @@ Role required: admin
 3.  Select **Execute Now**.
 
 
-**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with SAP Concur](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrate-esg-with-concur.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with SAP Concur](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/integrate-esg-with-concur.md)
 

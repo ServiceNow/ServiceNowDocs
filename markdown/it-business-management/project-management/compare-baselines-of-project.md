@@ -3,11 +3,11 @@ title: Compare financial baselines of a project
 description: Compare baselines to review the variances in the financial data of a project and see what changed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/compare-baselines-of-project.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-12"
 reading_time_minutes: 3
 breadcrumb: [Create baseline of a project, Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -22,21 +22,21 @@ Role required: it\_project\_manager
 
 ## About this task
 
-You can [create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectBaseline.md) multiple baselines at various stages of a project, for example, at the end of each phase or after every calendar month or quarter. Each baseline captures the financial data of the project at a particular moment, providing a basis from which you can identify and review the changes made to the project. Having multiple baselines and comparing them helps you track the performance of your projects.
+You can [create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CreateAProjectBaseline.md) multiple baselines at various stages of a project, for example, at the end of each phase or after every calendar month or quarter. Each baseline captures the financial data of the project at a particular moment. This provides a basis from which you can identify and review the changes made to the project. Having multiple baselines and comparing them helps you track the performance of your projects.
 
 ## Procedure
 
 1.  To compare the financial baselines of a project, use one of the following options.
 
-<table id="choicetable_wgp_h4y_tfb"><thead><tr><th align="left" id="d221289e78">
+<table id="choicetable_wgp_h4y_tfb"><thead><tr><th align="left" id="d221938e78">
 
 Option
 
-</th><th align="left" id="d221289e81">
+</th><th align="left" id="d221938e81">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d221289e87">
+</th></tr></thead><tbody><tr><td id="d221938e87">
 
 **From the Project Workspace**
 
@@ -48,7 +48,7 @@ Steps
 4.  Select the **Baselines** from header and then select **Compare baselines**.
 
 
-</td></tr><tr><td id="d221289e135">
+</td></tr><tr><td id="d221938e135">
 
 **From the Project form**
 
@@ -61,7 +61,7 @@ Steps
 5.  On the **Financials** tab, select the baseline information icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: Baseline information icon\) and then select **Compare Baselines**.
 
 
-</td></tr><tr><td id="d221289e198">
+</td></tr><tr><td id="d221938e198">
 
 **From the Baseline form**
 
@@ -83,7 +83,7 @@ Steps
 
     The comparative data of the baselines display in the following two sections:
 
-    -   The **Financial Baseline Summary** section displays four widgets: the first two widgets contain the financial data of the two baselines, the third widget contains their variance, and the fourth widget contains the actual costs to date of the project.
+    -   The **Financial Baseline Summary** section displays four widgets. The first two widgets contain the financial data of the two baselines. The third widget contains their variance, and the fourth widget contains the actual costs to date of the project.
     -   The **Financial Baseline Details** section displays the cost plans and benefit plans of the two baselines in two different grids. Each plan type has two rows corresponding to each baseline data.
 
         **Note:** Select the baseline legend icon \(\[Omitted image "compare-baselines-legend-icon.png"\] Alt text: Baseline Legend info icon.\) to see the color code of rows representing each baseline.
@@ -97,5 +97,5 @@ Steps
     -   To view cost plan or benefit plan comparative data in yearly, quarterly, or monthly format, select the **Year** or **Quarter** or **Month** views respectively.
     -   To toggle viewing the **Financial Baseline Summary** section, select the **Collapse** icon \(\[Omitted image "CollapseIcon.png"\] Alt text: Collapse icon\) or **Expand** icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand icon\).
 
-**Parent Topic:**[Create baseline of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectBaseline.md)
+**Parent Topic:**[Create baseline of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CreateAProjectBaseline.md)
 

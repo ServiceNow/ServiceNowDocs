@@ -3,11 +3,11 @@ title: Service channel capacity and utilization
 description: In Advanced Work Assignment, capacity is the number of work items automatically assigned to agents supporting a service channel. Utilization is the condition that identifies the work item states supported in the channel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-service-channel-capacity.html
-release: australia
+release: brazil
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---

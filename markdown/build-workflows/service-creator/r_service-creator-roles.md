@@ -3,11 +3,11 @@ title: Service Creator roles
 description: The Service Creator application uses the specific roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/service-creator/r\_service-creator-roles.html
-release: australia
+release: brazil
 product: Service Creator
 classification: service-creator
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activate Service Creator, Service Creator, Build workflows]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Activate Service Creator, Service Creator, Build workflows]
 
 The Service Creator application uses the specific roles.
 
-To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 |Role Title \[Name\]|Description|
 |-------------------|-----------|

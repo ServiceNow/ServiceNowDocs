@@ -3,9 +3,9 @@ title: Legacy: Execution Tracking Begin \(Mail Search\) action
 description: The Execution Tracking - Begin \(Mail Search\) capability execution action creates an execution tracking record and marks the record state as Started. This action is used by all capability and implementation flows to keep track of their state.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/execution-tracking-begins-mail-search-activity.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Operations Integration - Email Search and Delete flow, Security Operations Integration- Email Search and Delete capability, Integration capabilities, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -49,8 +49,8 @@ The output variables contain data that can be used in subsequent actions.
 |--------|-----------|
 |capabilityExecutionId|System identifier of the execution tracking record.|
 
--   [Get Supported Security Capabilities action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/get-supported-security-capabilities-activity.md)
--   [Legacy: Capability Execution Tracking- No Impls action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/execution-tracking-noimpls-activity.md)
+-   [Get Supported Security Capabilities action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/get-supported-security-capabilities-activity.md)
+-   [Legacy: Capability Execution Tracking- No Impls action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/execution-tracking-noimpls-activity.md)
 
-**Parent Topic:**[Security Operations Integration - Email Search and Delete flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-integ-email-search-delete.md)
+**Parent Topic:**[Security Operations Integration - Email Search and Delete flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/secops-integ-email-search-delete.md)
 

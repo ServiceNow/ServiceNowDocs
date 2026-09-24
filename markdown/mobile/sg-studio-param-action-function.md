@@ -3,9 +3,9 @@ title: Create an action function with parameters
 description: Request additional information from your end users when they interact with an action. For example, you can allow your end users to provide a reason for rejecting an approval by adding a text input parameter to a Reject button. When you create an action item that has parameters, you must also configure the UI parameters for the action function.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-studio-param-action-function.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Action functions, Mobile functions, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -34,7 +34,7 @@ The UI parameter fields don’t appear on the action function unless you’ve as
 
 3.  Select **Functions** in the menu, and then select **New**.
 
-    Complete the action function fields as needed. For more information on completing the fields for the action function, see [Configure an action function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-config-action-function.md).
+    Complete the action function fields as needed. For more information on completing the fields for the action function, see [Configure an action function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-studio-config-action-function.md).
 
 4.  Scroll down to the UI Parameters section of the form, select **New**, and complete the fields as needed.
 
@@ -160,12 +160,12 @@ Provides a search bar so that users can search in a list. Select a reference fie
 
     -   **QR/Barcode**
 
-Provides the option to search by QRC or barcode. Learn more about this feature in [Mobile barcode scanning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-scanning.md).
+Provides the option to search by QRC or barcode. Learn more about this feature in [Mobile barcode scanning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mobile-scanning.md).
 
 -   **Auto fill options**
     -   **GPS Location**
 
-Auto-fills with the mobile user's location when the action is used. For details on this feature, see [Mobile location tracking configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-location-tracking.md).
+Auto-fills with the mobile user's location when the action is used. For details on this feature, see [Mobile location tracking configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/mobile-location-tracking.md).
 
     -   **Date**
 
@@ -227,5 +227,5 @@ The field used from the source field table.
 
 ## What to do next
 
-Associate the function with a specific screen. For more information on how to associate the action, see [Associate a function with a location in the app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-button-instances.md).
+Associate the function with a specific screen. For more information on how to associate the action, see [Associate a function with a location in the app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-studio-button-instances.md).
 

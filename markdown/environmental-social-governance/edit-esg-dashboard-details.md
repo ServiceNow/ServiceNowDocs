@@ -3,9 +3,9 @@ title: Edit Operational Sustainability Management dashboard details
 description: You can change a dashboard name, add a description, certify it, configure visibility, and specify the requester, the owner, the owner group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/edit-esg-dashboard-details.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Monitoring assessment data using Operational Sustainability Management dashboards, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -28,15 +28,15 @@ Role required: sn\_esg.data\_owner, sn\_esg.metrics\_manager
 
 4.  Edit the fields as necessary.
 
-<table id="choicetable_inw_zcy_5gc"><thead><tr><th align="left" id="d35879e103">
+<table id="choicetable_inw_zcy_5gc"><thead><tr><th align="left" id="d35792e103">
 
 Field
 
-</th><th align="left" id="d35879e106">
+</th><th align="left" id="d35792e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d35879e112">
+</th></tr></thead><tbody><tr><td id="d35792e112">
 
 **Name**
 
@@ -44,7 +44,7 @@ Description
 
 Edit the name of the dashboard.
 
-</td></tr><tr><td id="d35879e121">
+</td></tr><tr><td id="d35792e121">
 
 **Description**
 
@@ -52,7 +52,7 @@ Edit the name of the dashboard.
 
 Fill in the description to provide further context about the purpose of the dashboard.
 
-</td></tr><tr><td id="d35879e130">
+</td></tr><tr><td id="d35792e130">
 
 **Mark as certified**
 
@@ -60,25 +60,25 @@ Fill in the description to provide further context about the purpose of the dash
 
 Mark the dashboard as certified to inform the user that the dashboard is for use across the organization.
 
- **Note:** You must have an admin role to mark a dashboard as certified. For more information, see [Certify a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/certify-db-ac.md).
+ **Note:** You must have an admin role to mark a dashboard as certified. For more information, see [Certify a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/certify-db-ac.md).
 
-</td></tr><tr><td id="d35879e149">
+</td></tr><tr><td id="d35792e149">
 
 **Dashboard visibility**
 
 </td><td>
 
-View, add, or remove workspaces in which the dashboard can be viewed.**Note:** If you have the admin role, you can change the workspaces for any dashboard. Other users can change workspaces only for dashboards they create. For more information, see [Edit Operational Sustainability Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/edit-esg-dashboards.md).
+View, add, or remove workspaces in which the dashboard can be viewed.**Note:** If you have the admin role, you can change the workspaces for any dashboard. Other users can change workspaces only for dashboards they create. For more information, see [Edit Operational Sustainability Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/edit-esg-dashboards.md).
 
-</td></tr><tr><td id="d35879e168">
+</td></tr><tr><td id="d35792e168">
 
 **Create new category**
 
 </td><td>
 
-Specify one or more dashboard categories.**Note:** For more information, see [Platform Analytics experience dashboard categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/db-categories.md).
+Specify one or more dashboard categories.**Note:** For more information, see [Platform Analytics experience dashboard categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/db-categories.md).
 
-</td></tr><tr><td id="d35879e183">
+</td></tr><tr><td id="d35792e183">
 
 **Requested by**
 
@@ -86,7 +86,7 @@ Specify one or more dashboard categories.**Note:** For more information, see [Pl
 
 Specify who requested the dashboard.**Note:** This user is considered a responsible user. The data visualization is shared with them, with editing permissions.
 
-</td></tr><tr><td id="d35879e194">
+</td></tr><tr><td id="d35792e194">
 
 **Owner**
 
@@ -94,7 +94,7 @@ Specify who requested the dashboard.**Note:** This user is considered a responsi
 
 Specify the owner of the dashboard.**Note:** By default, the owner is the creator of the dashboard, but the creator or owner can assign ownership to another user.
 
-</td></tr><tr><td id="d35879e205">
+</td></tr><tr><td id="d35792e205">
 
 **Owner Group**
 
@@ -102,7 +102,7 @@ Specify the owner of the dashboard.**Note:** By default, the owner is the creato
 
 Specify an owner group.**Note:** The owner of a dashboard can be an entire group rather than a single person.
 
-</td></tr><tr><td id="d35879e216">
+</td></tr><tr><td id="d35792e216">
 
 **Created by**
 
@@ -110,7 +110,7 @@ Specify an owner group.**Note:** The owner of a dashboard can be an entire group
 
 See who created the dashboard.
 
-</td></tr><tr><td id="d35879e225">
+</td></tr><tr><td id="d35792e225">
 
 **Last updated by**
 
@@ -118,7 +118,7 @@ See who created the dashboard.
 
 See who updated the dashboard along with the date and time details.
 
-</td></tr><tr><td id="d35879e235">
+</td></tr><tr><td id="d35792e235">
 
 **Shared with**
 
@@ -128,5 +128,5 @@ See who the dashboard has been shared with.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Monitoring assessment data using Operational Sustainability Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/monitor-data-using-esg-dashboards.md)
+**Parent Topic:**[Monitoring assessment data using Operational Sustainability Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/monitor-data-using-esg-dashboards.md)
 

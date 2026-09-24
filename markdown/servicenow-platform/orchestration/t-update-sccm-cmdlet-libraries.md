@@ -3,11 +3,11 @@ title: Update the SCCM cmdlet libraries
 description: Ensure that the System Center Configuration Manager SCCM Cmdlet Library is up-to-date.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/t-update-sccm-cmdlet-libraries.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring SCCM, Client software distribution from SCCM, Client Software Distribution, Orchestration applications, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -58,5 +58,5 @@ If you elect to use an earlier version library, use this procedure to disable th
 7.  To re-enable the update check, run the `-IsUpdateCheckEnabled 1` command for either the current user or for the system.
 
 
-**Parent Topic:**[Configuring SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/configuring-sccm.md)
+**Parent Topic:**[Configuring SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/configuring-sccm.md)
 

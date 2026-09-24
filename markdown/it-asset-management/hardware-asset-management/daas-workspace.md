@@ -3,11 +3,11 @@ title: DaaS provider view
 description: The DaaS provider view in the Hardware Asset Workspace is an intuitive interface of the Device as a Service application to manage the assets of the customers of DaaS providers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/daas-workspace.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Hardware Asset Workspace, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -22,13 +22,13 @@ The DaaS provider view in the Hardware Asset Workspace is an intuitive interface
 -   Hardware Asset Workspace \(sn\_itam\_workspace\)
 -   Hardware Asset Management for Device as a Service \(com.sn\_daas\_ham\)
 
-For more information about the DaaS feature, see [Device as a Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/exploring-daas.md).
+For more information about the DaaS feature, see [Device as a Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/exploring-daas.md).
 
 Use the DaaS provider view to perform the following:
 
 -   Act on discrepancies such as assets missing serial number, stockroom, or DaaS accounts.
 -   Select a DaaS account for which you want to view the records such as open or unassigned tasks, shipment status, and the number of assets that are eligible for refresh.
--   Create and manage [inbound asset orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-inbound-orders.md), [RMA response orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-rma-orders.md), and [repair order lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/requesting-hardware-asset-repair.md) for the DaaS assets of your customers.
+-   Create and manage [inbound asset orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/manage-inbound-orders.md), [RMA response orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/manage-rma-orders.md), and [repair order lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/requesting-hardware-asset-repair.md) for the DaaS assets of your customers.
 
 Select any widget or chart to view detailed information and take appropriate actions on the assets that are marked as DaaS assets or dedicated to accounts.
 
@@ -107,7 +107,7 @@ Inbound order tasks
 -   Ship
 -   Receive confirmation
 
-For more information, see [Managing inbound asset orders for DaaS assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-inbound-orders.md).
+For more information, see [Managing inbound asset orders for DaaS assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/manage-inbound-orders.md).
 
 </td></tr><tr><td>
 
@@ -126,7 +126,7 @@ RMA response tasks
 -   Repair asset
 -   Schedule refresh
 
-For more information, see [Managing RMA response orders for DaaS assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-rma-orders.md).
+For more information, see [Managing RMA response orders for DaaS assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/manage-rma-orders.md).
 
 </td></tr><tr><td>
 
@@ -156,4 +156,5 @@ Assets eligible for refresh
 Number of assets that are eligible for refresh, which have surpassed the refresh date.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/using-ham-workspace.md)
+

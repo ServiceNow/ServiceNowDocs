@@ -3,11 +3,11 @@ title: Create a JDBC type data source
 description: Create a JDBC type data source record to define what data an import set should import.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/create-jdbc-type-data-source.html
-release: australia
+release: brazil
 product: System Import Sets
 classification: system-import-sets
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Create a data source, Data sources, Import sets, Imports, Workflow Data Fabric]
 ---
@@ -22,7 +22,7 @@ Role required: import\_admin
 
 ## About this task
 
-For additional information, see [JDBC type data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_JDBCTypeDataSource.md).
+For additional information, see [JDBC type data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/r_JDBCTypeDataSource.md).
 
 ## Procedure
 
@@ -86,7 +86,7 @@ Import connection alias
 
 </td><td>
 
-Connection alias to use to connect to this data source. For additional details, see [Create an import connection alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_JDBCTypeDataSource.md).
+Connection alias to use to connect to this data source. For additional details, see [Create an import connection alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/r_JDBCTypeDataSource.md).
 
 </td></tr><tr><td>
 
@@ -156,7 +156,7 @@ Use integrated authentication
 
 </td><td>
 
-Selected to allow the JDBC connection to use the ID of the user configured for the Windows MID Server service for SQL Server authentication. For additional details, see [JDBC type data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_JDBCTypeDataSource.md).
+Selected to allow the JDBC connection to use the ID of the user configured for the Windows MID Server service for SQL Server authentication. For additional details, see [JDBC type data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/r_JDBCTypeDataSource.md).
 
 </td></tr><tr><td>
 
@@ -262,5 +262,5 @@ Optional parameters to add to the end of the URL generated for this data source.
 
 Define a transform map for the new data source and run an import.
 
-**Parent Topic:**[Create a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_CreateNewDataSource.md)
+**Parent Topic:**[Create a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/c_CreateNewDataSource.md)
 

@@ -3,11 +3,11 @@ title: Overview page of a breach assessment
 description: After a breach assessment is completed, the overview page of the assessment displays the summary of the relevant and critical information for the privacy analyst to review.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/overview-page-of-a-breach-assessment.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Privacy breach assessments, Explore, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---

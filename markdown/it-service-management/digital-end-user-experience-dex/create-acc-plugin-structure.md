@@ -3,14 +3,14 @@ title: Create an ACC plugin package
 description: Package a PowerShell script, a Ruby script, and an execution allowlist into an Agent Client Collector \(ACC\) plugin to run remedial actions on endpoints from the platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/create-acc-plugin-structure.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [acc plugin package, create plugin structure, acc plugin, remedial action plugin, powershell remedial action, ruby script plugin]
-breadcrumb: [Creating a PowerShell remedial action, DEX remedial actions, Configure, Digital End-User Experience, IT Service Management]
+breadcrumb: [Creating a PowerShell remedial action, Creating DEX remedial actions, Configure, Digital End-User Experience, IT Service Management]
 ---
 
 # Create an ACC plugin package
@@ -142,6 +142,4 @@ Role required: admin
 
     **Note:** The `tar.gz` file name must match the plugin root folder name. For example, `acc-dex-custom.tar.gz`
 
-
-**Parent Topic:**[Creating and executing a PowerShell script-based remedial action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/remedial-actions-ps.md)
 

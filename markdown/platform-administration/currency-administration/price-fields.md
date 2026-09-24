@@ -3,11 +3,11 @@ title: Price fields
 description: A price field is a currency field that enables control over conversions and display.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/currency-administration/price-fields.html
-release: australia
+release: brazil
 product: Currency Administration
 classification: currency-administration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Standard currency fields, Explore, Currency administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -70,5 +70,5 @@ Calculated, Fixed, Multiple.-   When you change the price type to Multiple, the 
 -   You can modify the price type at any time.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Standard currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/configure-and-use-default-currency-fields.md)
+</table>**Parent Topic:**[Standard currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/currency-administration/configure-and-use-default-currency-fields.md)
 

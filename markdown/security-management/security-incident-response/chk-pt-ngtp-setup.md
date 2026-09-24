@@ -3,11 +3,11 @@ title: Check Point NGTP setup
 description: Before you can use the Check Point NGTP integration, you must create an API account, set up policies, and activate the integration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/chk-pt-ngtp-setup.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Check Point Next Generation Threat Prevention integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

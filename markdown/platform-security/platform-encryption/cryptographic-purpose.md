@@ -3,11 +3,11 @@ title: Cryptographic specification overview
 description: The Cryptographic specification is the component that defines aspects of your cryptographic module, including its cryptographic purpose and which encryption algorithm to use.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/cryptographic-purpose.html
-release: australia
+release: brazil
 product: Platform Encryption
 classification: platform-encryption
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring the Key Management Framework, Key Management Framework, Encryption]
 ---
@@ -42,7 +42,7 @@ Cryptographic specifications can be tailored to a specified cryptographic purpos
 
 \*\* AES-GCM has built-in data integrity.
 
-The configuration of these parameters is covered in [Create a cryptographic module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/create-cryptographic-module.md).
+The configuration of these parameters is covered in [Create a cryptographic module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platform-encryption/create-cryptographic-module.md).
 
-**Parent Topic:**[Exploring the Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/explore-kmf.md)
+**Parent Topic:**[Exploring the Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platform-encryption/explore-kmf.md)
 

@@ -3,7 +3,7 @@ title: Managing ERP development pipelines in Zero Copy Connector for ERP
 description: Move your ERP \(Enterprise Resource Planning\) systems, ERP models, tables, operations, and flows from a development instance to a production environment when they're ready.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/manage-erp-tables-pipelines.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
@@ -29,8 +29,10 @@ Changes that you could promote from a development instance to a production insta
 
 You can move changes to your production instance on the ServiceNow AI Platform in several ways:
 
--   Use System Update Sets to transfer changes from a development instance to a non-production and then production instance. For more information, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets.md).
--   Add the changes to the ServiceNow Store and use the **Share with others** option to install the updates on the production instance. For more information, see .
+-   Use System Update Sets to transfer changes from a development instance to a non-production and then production instance. For more information, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/system-update-sets.md).
+-   Add the changes to the ServiceNow Store and use the **Share with others** option to install the updates on the production instance. For more information, see [Publish an application to an Update Set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/t_PublishApplicationsToAnUpdateSet.md).
 
-For more information about ways to publish your ERP updates, see .
+For more information about ways to publish your ERP updates, see [Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_SharingApplications.md).
+
+**Parent Topic:**[Building with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-building-with-erp-data.md)
 

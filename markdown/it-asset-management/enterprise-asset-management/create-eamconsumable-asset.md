@@ -3,11 +3,11 @@ title: Use consumable assets in Enterprise Asset Workspace
 description: To use consumable assets, ensure that they are in the In stock state and Available substate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-eamconsumable-asset.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
@@ -45,5 +45,5 @@ Role required: asset
     On the **Consumable** form, the **Quantity** field shows the reduced number. The Consumables list contains two records for the consumable in the specific stockroom: one with a state and substate of **In Stock** and **Available** \(if you did not consume the entire quantity\), and one with a state of **Consumed**. If a consumable is not in the process of being transferred to a different stockroom and information in the data record is the same, similar records merge automatically. After a consumable is consumed, the record remains in the system for reporting purposes.
 
 
-**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

@@ -3,9 +3,9 @@ title: Add the ServiceNow RPA Edge extension
 description: Add the ServiceNow RPA Edge extension to your Edge browser to enable the Chromium connector to interact with the elements on the web applications that are opened in this browser.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/add-servicenow-edge-extension.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Chromium connector, Connectors, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -39,5 +39,5 @@ Role required: none
     5.  Make sure that the ServiceNow, Inc. RPA Edge extension slider is enabled.\[Omitted image "edge-slider.png"\] Alt text: Edge-extension-slider.
 
 
-**Parent Topic:**[Chromium connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/chrome-connector.md)
+**Parent Topic:**[Chromium connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/chrome-connector.md)
 

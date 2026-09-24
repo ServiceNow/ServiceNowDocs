@@ -3,11 +3,11 @@ title: Log correlators for identifying related alerts
 description: In Health Log Analytics, log correlators are keys or values in log data that detect correlations between alerts. These correlations help you determine whether an alert is part of a larger issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-op-correlator-what-is-a.html
-release: australia
+release: brazil
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [log correlators, alert correlation, related alerts, free text correlators, log property correlators, log metadata analysis, correlated alerts, log source analysis, alert relationships]
 breadcrumb: [Analyzing and resolving alerts, Health Log Analytics, ITOM AIOps, IT Operations Management]
@@ -40,10 +40,10 @@ You can specify the set of log sources whose log data are analyzed by a log corr
 -   **All sources**: The system applies the log correlator to log lines from all log sources.
 -   **Specified source**: For a log correlator, the system analyzes only log lines from the log source that you specify.
 
--   **[Add a log correlator to identify related alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-correlator-define.md)**  
+-   **[Add a log correlator to identify related alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-op-correlator-define.md)**  
 In Health Log Analytics, detect related alerts in log data by adding log correlators. The base system includes several log correlators and you can define custom log correlators.
--   **[Exclude a source from a log correlator in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-correlators-exclude-source.md)**  
+-   **[Exclude a source from a log correlator in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-correlators-exclude-source.md)**  
 Prevent Health Log Analytics from analyzing log lines from a specific source by excluding that source from the log correlator.
 
-**Parent Topic:**[ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-health-landing-page.md)
+**Parent Topic:**[ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-health-landing-page.md)
 

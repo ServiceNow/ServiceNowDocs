@@ -3,13 +3,13 @@ title: Create a shipping carrier record
 description: Create a shipping carrier record used to associate the carrier with an integration profile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/create-shipping-carrier.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Track shipments using the integration framework, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Configure shipment tracking, Integrations and advanced configuration, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a shipping carrier record
@@ -62,7 +62,7 @@ Integration profile
 
 </td><td>
 
-Profile for integrating with the third-party carrier's application.For more details, see [View the carrier integration profile details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/view-integration-profiles.md).
+Profile for integrating with the third-party carrier's application.For more details, see [View the carrier integration profile details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/view-integration-profiles.md).
 
 </td></tr><tr><td>
 
@@ -100,26 +100,5 @@ Additional information about the carrier.
 
 The shipping carrier record is created and added to the Shipping carriers list.
 
-**Parent Topic:**[Track shipments using the integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/tracking-shipments-using-integration-framework.md)
-
-**Related topics**  
-
-
-[Creating an integration script include for third-party carrier applications]()
-
-[Connect your ServiceNow instance with a shipping carrier application]()
-
-[Remove a shipping carrier from an integration profile]()
-
-[Create a carrier integration profile]()
-
-[View the carrier integration profile details]()
-
-[Test the integration with the carrier API]()
-
-[View hardware asset shipment details]()
-
-[Stale shipments]()
-
-[Track a hardware asset shipment]()
+**Parent Topic:**[Integration framework configuration for shipment tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/configure-int-frame-shipment.md)
 

@@ -3,20 +3,20 @@ title: Viewing links between alerts in rules-based alert groups
 description: View the connections between alerts in a rules-based alert group in Express List by using Link View. Link View shows how the attributes of the alerts in the group are linked with each other.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/el-rule-based-link-view.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Viewing links between alerts in alert groups, Work with alert groups, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Viewing links between alerts in alert groups, Working with alert groups in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Viewing links between alerts in rules-based alert groups
 
 View the connections between alerts in a rules-based alert group in Express List by using Link View. Link View shows how the attributes of the alerts in the group are linked with each other.
 
-When you've set alert rules and Event Management has generated an alert group, Link View offers a visual representation of the relationships between the alerts. The colored tags represent Configuration Items \(CIs\) and other environment items in relation to the alerts.
+When you've set alert rules and Event Management has generated an alert group based on these rules, Link View offers a visual representation of the relationships between the alerts. The colored tags represent Configuration Items \(CIs\) and other environment items in relation to the alerts.
 
 \[Omitted image "el-link-view-rules-based.png"\] Alt text: Sample rules-based alert group in Link View.
 
@@ -27,7 +27,7 @@ If an alert on a CI impacts a service in the Configuration Management Database \
 **Related topics**  
 
 
-[Viewing links between alerts in alert groups in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/el-link-view.md)
+[Viewing links between alerts in alert groups in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/el-link-view.md)
 
-[View links between alerts in a group in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/view-relationships-between-alerts-in-groups.md)
+[View links between alerts in a group in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/view-relationships-between-alerts-in-groups.md)
 

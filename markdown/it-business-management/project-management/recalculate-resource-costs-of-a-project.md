@@ -1,20 +1,20 @@
 ---
 title: Recalculating costs of all resource plans in a project
-description: Recalculate the resource costs of all resource plans in a project whenever the hourly rates change in the associated rate model so that the plan costs are up to date.
+description: Recalculate resource costs for all resource plans in a project when hourly rates change in the associated rate model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/recalculate-resource-costs-of-a-project.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-08"
 reading_time_minutes: 5
 breadcrumb: [Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Recalculating costs of all resource plans in a project
 
-Recalculate the resource costs of all resource plans in a project whenever the hourly rates change in the associated rate model so that the plan costs are up to date.
+Recalculate resource costs for all resource plans in a project when hourly rates change in the associated rate model.
 
 ## Before you begin
 
@@ -28,7 +28,7 @@ Role required: project\_manager
 
 ## About this task
 
-This option recalculates the costs of all resource plans of the project at once. You can also open a resource plan from the **Resource Plans** related list to [recalculate the resource costs of an individual resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/recalculate-resource-costs.md).
+This option recalculates the costs of all resource plans of the project at once. You can also open a resource plan from the **Resource Plans** related list to [recalculate the resource costs of an individual resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/recalculate-resource-costs.md).
 
 ## Procedure
 
@@ -100,7 +100,7 @@ Option for including the planned cost of a Confirmed or Allocated plan.The optio
 -   Updates the recalculated resource costs on the respective cost fields on the resource plan form and the Resource Plans related list.
 -   Reflects the revised values on the respective cost fields of the project.
 
-**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
+**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CreateAProject.md)
 
 **Related topics**  
 
@@ -120,6 +120,10 @@ Option for including the planned cost of a Confirmed or Allocated plan.The optio
 [Create an expense line]()
 
 [Create and manage waterfall projects]()
+
+[Schedule a project from a start date]()
+
+[Apply or change a task constraint]()
 
 [Update a project]()
 

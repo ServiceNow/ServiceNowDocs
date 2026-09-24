@@ -3,11 +3,11 @@ title: Configure Service Graph Connector for GCP using SGC Central
 description: Use the playbook available with the SGC Central application to set up the Service Graph Connector for GCP for pulling in GCP project data into the CMDB.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgcc-configure-gcp-integ.html
-release: australia
+release: brazil
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [GCP, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,11 +18,11 @@ Use the playbook available with the SGC Central application to set up the Servic
 
 ## Before you begin
 
-Install Service Graph Connector for GCP version 1.8.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installing-applications-in-application-manager.md).
+Install Service Graph Connector for GCP version 1.8.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/installing-applications-in-application-manager.md).
 
 ## About this task
 
-The playbook experience for onboarding connectors is activated with SGC Central in the Service Graph Workspace or CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-configuring.md) and for more information on how to interact with a playbook, see Interact with Playbook.
+The playbook experience for onboarding connectors is activated with SGC Central in the Service Graph Workspace or CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-configuring.md) and for more information on how to interact with a playbook, see Interact with Playbook.
 
 ## Procedure
 
@@ -38,7 +38,7 @@ The playbook experience for onboarding connectors is activated with SGC Central 
 
 4.  Complete the initial prerequisites when setting up a connection for the first time using a connector.
 
-    **Note:** This step is required only during the first-time setup. See [Perform initial setup tasks when creating a connection in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-first-time-setup.md).
+    **Note:** This step is required only during the first-time setup. See [Perform initial setup tasks when creating a connection in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-first-time-setup.md).
 
 5.  Complete the prerequisites for setting up the GCP environment.
 
@@ -61,10 +61,10 @@ The playbook experience for onboarding connectors is activated with SGC Central 
             |Field|Description|
             |-----|-----------|
             |Name|Name of the X.509 certificate. For example, `SG-GCP-509Certificate-Org1`.|
-            |Key store password|Password to access the JKS certificate as noted down in the step [5.a.iii](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-gcp-integ.md).|
+            |Key store password|Password to access the JKS certificate as noted down in the step [5.a.iii](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-gcp-integ.md).|
             |Short description|Description of the X.509 certificate.|
 
-        4.  In the Attachments section, select **Add File** to browse and upload the keystore.p12 file for the JKS certificate you created in step [5.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-gcp-integ.md).
+        4.  In the Attachments section, select **Add File** to browse and upload the keystore.p12 file for the JKS certificate you created in step [5.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-gcp-integ.md).
         5.  Select the **I have read the setup instructions** check box after you have completed the setup.
         6.  After completing the **Create X.509 certificate** activity, select **Continue**.
 6.  Download the scripts that are required to enable deep discovery for the Service Graph Connector for GCP.
@@ -113,7 +113,7 @@ Keystore
 
 </td><td>
 
-Name of the X.509 certificate that you created in step [5.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-gcp-integ.md).
+Name of the X.509 certificate that you created in step [5.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-gcp-integ.md).
 
 </td></tr><tr><td>
 
@@ -121,7 +121,7 @@ Keystore Password
 
 </td><td>
 
-Password to access the JKS certificate as noted down in the step [5.a.iii](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-gcp-integ.md).
+Password to access the JKS certificate as noted down in the step [5.a.iii](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-gcp-integ.md).
 
 </td></tr><tr><td>
 
@@ -154,7 +154,7 @@ Select **Projects** when the ServiceNow service account has access to data withi
 
     1.  In the **Setup** stage of the playbook, select the **Configure connection properties** activity.
 
-        If deep discovery is already configured on the connection, the values are pre-populated on the Deep Discovery properties form. For more information about the deep discovery connection properties for GCP, see [Deep discovery connection properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-gcp-deep-discovery.md).
+        If deep discovery is already configured on the connection, the values are pre-populated on the Deep Discovery properties form. For more information about the deep discovery connection properties for GCP, see [Deep discovery connection properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-gcp-deep-discovery.md).
 
     2.  Review the pre-populated fields on the Deep Discovery properties form.
 
@@ -170,7 +170,7 @@ Select **Projects** when the ServiceNow service account has access to data withi
 
     4.  In the Configure import schedule dialog box, select the **Active** check box, and then fill in the run schedule and time details.
 
-        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
+        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
 
     5.  Select **Save**.
 
@@ -188,7 +188,7 @@ Select **View all connections** to review the connection details. The configured
 **Related topics**  
 
 
-[Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-integration-gcp.md)
+[Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-integration-gcp.md)
 
-[Deep discovery for Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-gcp-deep-discovery.md)
+[Deep discovery for Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-gcp-deep-discovery.md)
 

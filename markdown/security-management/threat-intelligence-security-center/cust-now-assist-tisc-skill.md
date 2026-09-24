@@ -3,11 +3,11 @@ title: Customize the ServiceNow Otto for Threat Intelligence Security Center \(T
 description: Customize the ServiceNow Otto for Threat Intelligence Security Center \(TISC\) skills to suit your requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/cust-now-assist-tisc-skill.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-05-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist TISC, Threat Intelligence Security Center]
 breadcrumb: [Administer, Threat Intelligence Security Center, Security Operations]

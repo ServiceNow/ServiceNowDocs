@@ -3,11 +3,11 @@ title: Create a risk event response template
 description: Automatically assign the risk event owner, create and assign issues, and route approvers based on entity, event type, category, and impact thresholds in the risk event response template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/create-risk-event-response-template.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Risk Events, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -28,15 +28,15 @@ Role required: sn\_risk.manager and sn\_risk.admin
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values on the Risk Event Response Templates form, see [Risk Event Response Template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-event-response-template-form.md).
+    For a description of the field values on the Risk Event Response Templates form, see [Risk Event Response Template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-event-response-template-form.md).
 
 4.  Select **Submit**.
 
     A new risk event response template is created.
 
 
--   **[Risk Event Response Template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-event-response-template-form.md)**  
+-   **[Risk Event Response Template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-event-response-template-form.md)**  
 Use the Risk Event Response Template form to define assignment rules. Rules automatically assign owners, approvers, issues, and Root Cause Analysis \(RCA\) tasks to risk events based on entity, event type, category, and impact thresholds.
 
-**Parent Topic:**[Use Risk Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/use-risk-events.md)
+**Parent Topic:**[Use Risk Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/use-risk-events.md)
 

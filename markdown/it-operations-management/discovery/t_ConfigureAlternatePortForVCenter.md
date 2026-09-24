@@ -3,11 +3,11 @@ title: Configure an alternate port for vCenter
 description: Specify an alternate port for the VMware - vCenter datacenters probe.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/t\_ConfigureAlternatePortForVCenter.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Configure vCenter, configure port vCenter]
 breadcrumb: [Configure for VMware Discovery, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]

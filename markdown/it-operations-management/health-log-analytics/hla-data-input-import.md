@@ -3,11 +3,11 @@ title: Import a Health Log Analytics data input to a target instance
 description: Import a data input configuration that you've exported from another instance as an update set.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-import.html
-release: australia
+release: brazil
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ServiceNow, Health Log Analytics, HLA, data input, source types, migration, configuration, update set, import, settings, mapping]
 breadcrumb: [Migrating a data input configuration, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
@@ -19,9 +19,9 @@ Import a data input configuration that you've exported from another instance as 
 
 ## Before you begin
 
-For an overview of this feature, see [Migrating a Health Log Analytics data input configuration between instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-migration.md).
+For an overview of this feature, see [Migrating a Health Log Analytics data input configuration between instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-data-input-migration.md).
 
-Before performing this procedure, export the data input to an update set. For more information, see [Export a Health Log Analytics data input configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-migrate.md).
+Before performing this procedure, export the data input to an update set. For more information, see [Export a Health Log Analytics data input configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-data-input-migrate.md).
 
 Role required: admin
 
@@ -85,12 +85,12 @@ Role required: admin
         **Note:** Whether you need to configure credentials depends on the data input that you've imported. For example, you must configure Amazon Web Services \(AWS\) credentials for Amazon CloudWatch and Amazon S3 data inputs.
 
     -   \(Optional\) The service instance to which to bind the log data.
-    For more information, see the configuration documentation for the relevant data input: [Set up data inputs in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-setup-manual.md).
+    For more information, see the configuration documentation for the relevant data input: [Set up data inputs in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-data-input-setup-manual.md).
 
 
 ## Result
 
 You can begin using the data input for streaming and processing log data.
 
-**Parent Topic:**[Migrating a Health Log Analytics data input configuration between instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-migration.md)
+**Parent Topic:**[Migrating a Health Log Analytics data input configuration between instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-data-input-migration.md)
 

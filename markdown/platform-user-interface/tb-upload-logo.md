@@ -3,9 +3,9 @@ title: Upload a new logo to your Theme Builder theme
 description: If you previously applied a custom or default ServiceNow logo to your theme during theme creation, you can upload a new one in Theme Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/tb-upload-logo.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [upload logo, add logo]
 breadcrumb: [Global styles, Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
@@ -19,7 +19,7 @@ If you previously applied a custom or default ServiceNow logo to your theme duri
 
 Role required: ui\_builder\_admin
 
-For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
+For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/granular-admin-roles.md).
 
 ## Procedure
 
@@ -63,8 +63,8 @@ For information on granular roles, see [Granular admin roles](https://raw.github
     If you delete your logo, the ServiceNow logo is used.
 
 
--   **[Resize a logo for your login screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-resize-logo.md)**  
+-   **[Resize a logo for your login screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/tb-resize-logo.md)**  
 After you have uploaded a logo for your login screen, you can resize the logo by creating and setting a system property.
 
-**Parent Topic:**[Working with Global styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/working-with-global-styles.md)
+**Parent Topic:**[Working with Global styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/working-with-global-styles.md)
 

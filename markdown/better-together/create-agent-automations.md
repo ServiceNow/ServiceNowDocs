@@ -3,9 +3,9 @@ title: Create an AI agent and desktop actions from Automation Center
 description: After reviewing the automation blocks generated from an automation request, create an AI agent that executes desktop actions on a Windows machine.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/better-together/create-agent-automations.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [create agent, decomposed automations, automations blocks, desktop actions, automation center, UI block, non UI block, deterministic desktop actions]
 breadcrumb: [Building desktop automations from Task Mining data, Solutions]
@@ -20,7 +20,7 @@ After reviewing the automation blocks generated from an automation request, crea
 -   Verify that Automation Center and AI Desktop Actions are installed.
 -   Verify that the AI Desktop Actions client application is downloaded and installed on the Windows machine where the AI agent runs.
 -   Verify that ServiceNow Otto for Automation Center plugin is installed and the User task step summarization skill is activated.
--   Confirm that you have created automation blocks from an automation request Automation Center. For more information, see [Create automation blocks from the automation request in Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/generate-automations-tm.md).
+-   Confirm that you have created automation blocks from an automation request Automation Center. For more information, see [Create automation blocks from the automation request in Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/better-together/generate-automations-tm.md).
 -   The automation request must be in the **In progress** state.
 
 Role required: sn\_aia.admin, sn\_tm\_core.analyst, sn\_ac.automation\_admin, sn\_ac.automation\_technical\_user
@@ -33,7 +33,7 @@ After the agent is created, you must review the agent instructions and test each
 
 **Important:**
 
-Agent testing and AI Desktop Actions tool execution require a Windows machine with the AI Desktop Actions application installed. For more information, see [Download AI Desktop Actions installer for defined desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/download-agentic-desktop-installer.md).
+Agent testing and AI Desktop Actions tool execution require a Windows machine with the AI Desktop Actions application installed. For more information, see [Download AI Desktop Actions installer for defined desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/download-agentic-desktop-installer.md).
 
 ## Procedure
 
@@ -49,17 +49,17 @@ Agent testing and AI Desktop Actions tool execution require a Windows machine wi
 
     The **Choose destination instance** dialog box is displayed.
 
-    \[Omitted image "unified-cr-agent.png"\] Alt text: Choose destination instance
+    \[Omitted image "image.unified-cr-agent"\] Alt text: Choose destination instance
 
 4.  Select an instance to create the agent in, and select **Continue**.
 
     You can select the current instance or any other instance. Verify that the instance you choose has Automation Center and AI Desktop Actions installed.
 
-    For information on configuring an instance, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-alias.md).
+    For information on configuring an instance, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/connection-alias.md).
 
     A summary of the agent being created is displayed.
 
-    \[Omitted image "unified-agent-summ.png"\] Alt text: Agent configuration summary
+    \[Omitted image "image.unified-agent-summ"\] Alt text: Agent configuration summary
 
 5.  Review the agent configuration summary, and select **Create agent in AI Studio**.
 
@@ -89,7 +89,7 @@ Agent testing and AI Desktop Actions tool execution require a Windows machine wi
 
     2.  Test the on-screen task desktop action.
 
-        For more information, see [Test and activate a desktop action in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-activate-desktop-action-ad.md).
+        For more information, see [Test and activate a desktop action in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-activate-desktop-action-ad.md).
 
     3.  Verify the position of failed anchors and adjust for each screen in the desktop action.
 
@@ -129,5 +129,5 @@ When an authorized user types a request in the ServiceNow Otto panel that matche
 
 Example: The HR team is now ready to execute the employee onboarding agent. When a new hire is added to the system, an HR coordinator types the new employee's name and hire date into the ServiceNow Otto panel. The AI agent automatically executes the complete onboarding workflow, reducing manual data entry time from 30 minutes to seconds and eliminating errors caused by manual form filling.
 
-For more information about executing desktop actions, see [Examples of executing desktop actions using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use-agentic-desktop.md).
+For more information about executing desktop actions, see [Examples of executing desktop actions using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/use-agentic-desktop.md).
 

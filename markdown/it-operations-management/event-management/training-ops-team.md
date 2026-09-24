@@ -3,7 +3,7 @@ title: Training operations team
 description: Get your L1/L2 operators up to speed with Event Management. This section walks through the key concepts, tools, and workflows they need to confidently triage alerts, understand service impact, and take action from day one.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/training-ops-team.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: concept

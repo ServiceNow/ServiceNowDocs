@@ -3,11 +3,11 @@ title: Extract key information from documents
 description: Use key information extraction \(KIE\) to extract structured data from documents with a predefined template, for processing standardized documents such as invoices, contracts, or forms.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/extract-key-information.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
-breadcrumb: [Content insights AI agent, Use, Content Understanding, Enable AI experiences]
+breadcrumb: [Content insights AI agent, Use, Content Understanding, Generative AI skills, Enable AI Experiences]
 ---
 
 # Extract key information from documents
@@ -34,7 +34,7 @@ Use KIE when you:
 
 1.  Configure the Content Insights AI agent.
 
-    For more information, see [Configure Content insights AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-content-insights-ai-agent.md).
+    For more information, see [Configure Content insights AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-content-insights-ai-agent.md).
 
 2.  Open the ServiceNow Otto panel or ServiceNow Otto for Virtual Agent.
 
@@ -58,4 +58,6 @@ Use KIE when you:
 ## Result
 
 The agent displays the extracted values and provides a link to the full extraction results. Processing time varies with document size and schema complexity.
+
+**Parent Topic:**[Use Content insights AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/use-content-insights-ai-agent.md)
 

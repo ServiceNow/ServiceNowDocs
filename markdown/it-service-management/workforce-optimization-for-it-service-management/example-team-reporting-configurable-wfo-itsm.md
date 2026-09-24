@@ -3,11 +3,11 @@ title: Example for using teams in Workforce Optimization for ITSM
 description: Understand how you can manage your teams from a single location using an example.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/example-team-reporting-configurable-wfo-itsm.html
-release: australia
+release: brazil
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Teams, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -39,5 +39,5 @@ The manager can set up and use Teams by performing the following steps:
 
 Get an overview of how you can analyze team performance in this video.
 
-For detailed information on how to setup and use Teams, see [Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-teams-configurable-workforce-optimization-itsm.md).
+For detailed information on how to setup and use Teams, see [Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-teams-configurable-workforce-optimization-itsm.md).
 

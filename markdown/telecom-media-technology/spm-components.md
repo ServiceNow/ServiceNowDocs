@@ -3,9 +3,9 @@ title: Components installed with Customer Service Problem Management
 description: Several types of components are installed with activation of the Customer Service Problem Management application, including tables, user roles, and business rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/spm-components.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Customer Service Problem Management, Telecommunications, Media, and Technology \(TMT\)]
 ---

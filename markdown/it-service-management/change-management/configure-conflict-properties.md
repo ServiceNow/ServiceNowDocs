@@ -3,7 +3,7 @@ title: Detect change conflicts
 description: Detect change conflicts by setting Change Management conflict analysis properties. Use the resulting information to calculate conflicts for change requests and review and modify the change to eliminate conflicts.Conflict detection includes properties that determine how the conflict detection capability is executed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/configure-conflict-properties.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: task
@@ -20,10 +20,6 @@ Detect change conflicts by setting Change Management conflict analysis propertie
 
 Role required: admin
 
-## About this task
-
-By default, not all properties are selected in the Change Management Conflict Analysis Properties page. Modify or customize conflict detection capabilities to meet the needs of your organization.
-
 ## Procedure
 
 1.  Navigate to **All** &gt; **Change** &gt; **Administration** &gt; **Conflict Properties**.
@@ -32,12 +28,12 @@ By default, not all properties are selected in the Change Management Conflict An
 
 3.  Configure the remaining customization properties.
 
-    For more information on conflict detection properties, see [Conflict detection properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/configure-conflict-properties.md).
+    For more information on conflict detection properties, see [Conflict detection properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/configure-conflict-properties.md).
 
 4.  Select **Save**.
 
 
-**Parent Topic:**[Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ConflictDetection.md)
+**Parent Topic:**[Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/c_ConflictDetection.md)
 
 **Related topics**  
 
@@ -146,7 +142,7 @@ Checks whether the change request falls within the scheduled maintenance defined
 
 </td><td>
 
-Checks whether a change request that falls within the maintenance or blackout windows affects other related application services, such as the services created that include the CI scheduled for change or any other CI within that service.**Note:** This action requires any business services identified to be converted to an application service. For more information, see [Convert business services to application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/convert-bus-to-app-svc-intro.md). For information about application services, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/application-services.md) [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/application-services.md).
+Checks whether a change request that falls within the maintenance or blackout windows affects other related application services, such as the services created that include the CI scheduled for change or any other CI within that service.**Note:** This action requires any business services identified to be converted to an application service. For more information, see [Convert business services to application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/convert-bus-to-app-svc-intro.md). For information about application services, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/application-services.md) [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/application-services.md).
 
 </td></tr><tr><td>
 
@@ -262,6 +258,14 @@ Displays only conflicts that result from a combination of the conflict type and 
 
 The maximum number of conflict records that can be generated for each conflict type when conflict detection runs. Create this system property if it is not already present.-   Type: Integer
 -   The minimum value is 1000. If you set a lesser number, 1000 is displayed as the default value.
+
+</td></tr><tr><td>
+
+`change.conflict.lockdown`
+
+</td><td>
+
+Enables or disables the change lockdown check as one of the conflict types evaluated by conflict detection.**Note:** To learn more about change lockdown, see [Change lockdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-lockdown.md).
 
 </td></tr></tbody>
 </table>

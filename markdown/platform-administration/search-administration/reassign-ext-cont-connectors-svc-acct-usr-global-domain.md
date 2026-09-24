@@ -3,11 +3,11 @@ title: Reassign the External Content Connectors Service Account user to the glob
 description: Fix issues with missing user permissions for users on your instance by reassigning the External Content Connectors Service Account user to the global domain.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/reassign-ext-cont-connectors-svc-acct-usr-global-domain.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: topic
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -38,7 +38,7 @@ As an example, suppose you have an instance with domain separation configured wh
 
 3.  On the User form, configure the layout to show the **Managed domain**, **Domain**, and **Domain Path** fields.
 
-    To learn how to show or hide fields on a form, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+    To learn how to show or hide fields on a form, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).
 
 4.  Select the **Managed domain** option.
 
@@ -57,5 +57,5 @@ As an example, suppose you have an instance with domain separation configured wh
 8.  Update your user permission mappings by rerunning user permission crawls for your affected external content connectors.
 
 
-**Parent Topic:**[External Content Connectors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/reference-ext-cont-connectors.md)
+**Parent Topic:**[External Content Connectors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/reference-ext-cont-connectors.md)
 

@@ -3,7 +3,7 @@ title: Set up the Smartsheet spoke
 description: Set up the Smartsheet spoke to enable integration between the ServiceNow instance and Smartsheet.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-smartsheet-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task

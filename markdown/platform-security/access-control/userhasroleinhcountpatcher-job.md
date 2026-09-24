@@ -3,11 +3,11 @@ title: UserHasRoleInhCountPatcher job for Role Management V2
 description: UserHasRoleInhCountPatcher job for resolving role inheritance discrepancies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/userhasroleinhcountpatcher-job.html
-release: australia
+release: brazil
 product: Access Control
 classification: access-control
 topic_type: concept
-last_updated: "2026-08-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Contextual Security Manager, Access Control Lists \(ACLs\), Access Management]
 ---

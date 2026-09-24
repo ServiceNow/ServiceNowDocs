@@ -3,9 +3,9 @@ title: HL7 ACK codes
 description: ServiceNow returns one of three HL7 acknowledgment codes in the MSA segment of every ACK response. The code indicates whether the message was accepted, rejected at the application level, or resulted in an error.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hl7-ack-codes.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-05-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ACK code, AA, AE, AR, acknowledgment]
 breadcrumb: [Components installed with HL7 v2.x Integration, HL7 v2.x Integration, Healthcare Integrations, Healthcare and Life Sciences]

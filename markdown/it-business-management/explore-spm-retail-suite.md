@@ -3,9 +3,9 @@ title: Explore Retail Strategic Portfolio Management Suite
 description: The Retail Strategic Portfolio Management Suite \(SPM Retail\) is a purpose-built extension of the Project Workspace offering from ServiceNow that gives retail organizations a structured, repeatable way to manage store lifecycle projects. Playbooks for these projects give retail project managers a ready-made, step-by-step roadmap for every store scenario. As a result, they execute consistently and never have to invent the sequence or approvals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/explore-spm-retail-suite.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [SPM Retail]
 breadcrumb: [Retail Strategic Portfolio Management Suite, Strategic Portfolio Management]
@@ -23,7 +23,7 @@ Retail customers regularly execute standard store-related operations such as ope
 -   Project managers coordinate manually across scattered tools, chasing multiple stakeholders and managing spreadsheets instead of using a single workflow.
 -   Delivery teams such as IT deployment, construction, and procurement don't have easy access to complete their assigned work and report status to leadership.
 
-To learn more about retail projects, see [Explore retail projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/explore-retail-projects-spm-r.md).
+To learn more about retail projects, see [Explore retail projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/explore-retail-projects-spm-r.md).
 
 ## Playbooks for retail projects
 
@@ -37,5 +37,5 @@ Without a prescribed playbook, retail organizations face three pain points:
 
 These playbooks work as stages, prescribed activities, approvals, and checkpoints to tailor them specifically for retail store operations. Each playbook is attached to its corresponding project type and guides every persona through the same sequence on one platform.
 
-To learn more about playbooks, see [Explore playbooks for retail projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/playbooks-spm-retail-suite.md).
+To learn more about playbooks, see [Explore playbooks for retail projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/playbooks-spm-retail-suite.md).
 

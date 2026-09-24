@@ -1,18 +1,18 @@
 ---
-title: Setting Your IP Addresses Form and Fields Table
+title: Setting Your IP Addresses form and fields table
 description: A table of the fields and values to establish the IP address, range of IP addresses, or list of IP addresses for Certificate Discovery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/setting-up-your-ip-addresses.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Setting Your IP Addresses Form and Fields Table
+# Setting Your IP Addresses form and fields table
 
 A table of the fields and values to establish the IP address, range of IP addresses, or list of IP addresses for Certificate Discovery.
 
@@ -22,7 +22,7 @@ A table of the fields and values to establish the IP address, range of IP addres
 |Active|Select the check box.|
 |Type - IP address list|Enter each IP address, separated by a comma.|
 |Type - IP address range|If you select this option for Type, two fields appear: **Starting IP** and **Ending IP**.|
-|Type - IP Network|The Network IP field appears. Enter the IP address of the network. For more information, see [Discovery IP address configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-ip-address-configuration.md).|
+|Type - IP Network|The Network IP field appears. Enter the IP address of the network. For more information, see [Discovery IP address configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-ip-address-configuration.md).|
 
-**Parent Topic:**[Certificate Inventory and Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-invt-mgmt-references.md)
+**Parent Topic:**[Certificate Inventory and Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/cert-invt-mgmt-references.md)
 

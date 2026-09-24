@@ -3,11 +3,11 @@ title: Sample questionnaires
 description: The questionnaire that you use can depend on your industry, geographic area, jurisdiction, or the particular nature of your operations. These questionnaires are provided as part of the base system and are samples that shouldn’t be implemented into your risk management program without first being reviewed and approved by your legal team.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-questionnaire-types.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 15
 breadcrumb: [Reference, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -183,5 +183,5 @@ You can view these questionnaire templates by navigating to **All** &gt; **Third
 |Element - Beneficial Owner Info. Collection- Sample| |Third-party element collection|Questionnaire template|
 |Gen AI - Sample Questionnaire| | |Questionnaire template|
 
-**Parent Topic:**[Third-party Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-reference.md)
+**Parent Topic:**[Third-party Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-reference.md)
 

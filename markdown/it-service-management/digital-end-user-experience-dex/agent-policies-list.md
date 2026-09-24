@@ -3,11 +3,11 @@ title: Agent policies list
 description: The agent policies list shows information about each agent policy including its name, status, cron expressions, and updated time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/agent-policies-list.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Administration cards, DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Service Management]
 ---
@@ -81,5 +81,5 @@ Updated
 Last time the policy was updated.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Administration cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/administration-cards.md)
+</table>**Parent Topic:**[Administration cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/administration-cards.md)
 

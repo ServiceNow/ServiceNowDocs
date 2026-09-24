@@ -3,13 +3,13 @@ title: Create decision table code snippets
 description: Create code snippets of published decision tables in Workflow Studio to execute the decision table from any script and make it easier to replace hard-coded logic with decisions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-decision-table-code-snippets.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-07-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Decision tables, Decision tables, Workflow Studio, Build workflows]
+breadcrumb: [Using decision tables, Decision tables, Workflow Studio, Build workflows]
 ---
 
 # Create decision table code snippets
@@ -18,9 +18,9 @@ Create code snippets of published decision tables in Workflow Studio to execute 
 
 ## Before you begin
 
-If you have draft authoring enabled, you must publish your decision table to copy a code snippet of the table. If draft authoring is not enabled, save your decision table to access this feature.
+If you have draft authoring enabled, you must publish your decision table to be able to copy a code snippet of the table. If draft authoring is not enabled, save your decision table to access this feature.
 
-Copying code snippets for a decision table lets you quickly insert the table into your script without authoring the code manually. For more information about the Decision table API, see [DecisionTableAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DecisionTableAPI.md).
+The ability to copy code snippets for a decision table enables you to quickly insert the table into your script without having to author the code using API documentation. For more information about the Decision table API, see .
 
 Role required: none
 
@@ -40,10 +40,10 @@ Role required: none
 
 6.  Select **Copy Code**.
 
-7.  To copy the other code snippet, select **OK** to close the confirmation message, and copy the code from the other option.
+7.  If you want to copy the other code snippet, select **OK** to close the confirmation message, and copy the code from the other option.
 
 8.  Insert the code snippet into your script where you want to call the decision table and define the data to use for each input variable.
 
 
-**Parent Topic:**[Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
+**Parent Topic:**[Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/using-decision-builder.md)
 

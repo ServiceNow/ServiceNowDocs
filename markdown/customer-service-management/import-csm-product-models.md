@@ -3,9 +3,9 @@ title: Import product models with guided setup
 description: A product is a type of good or service that your company sells and supports. Product models identify different types of products, such as service, hardware, software, or consumables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/import-csm-product-models.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Product models, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---

@@ -3,11 +3,11 @@ title: Install Investment Funding
 description: You can install the Investment Funding application \(sn\_invst\_pln\_v2\) from ServiceNow Store if you have the admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/investment-funding/activate-investment-funding.html
-release: australia
+release: brazil
 product: Investment Funding
 classification: investment-funding
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Investment Funding, Strategic Portfolio Management]
 ---
@@ -95,10 +95,10 @@ The following components are installed with installation of the Investment Fundi
 -   Roles
 -   Tables
 
-See [Components installed with Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/installed-with-investment-funding.md) for more information.
+See [Components installed with Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/investment-funding/installed-with-investment-funding.md) for more information.
 
--   **[Components installed with Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/installed-with-investment-funding.md)**  
+-   **[Components installed with Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/investment-funding/installed-with-investment-funding.md)**  
 Several types of components are installed with activation of the Investment Funding \(sn\_invst\_pln\) plugin, including tables and user roles.
 
-**Parent Topic:**[Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/investment-funding-overview.md)
+**Parent Topic:**[Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/investment-funding/investment-funding-overview.md)
 

@@ -3,11 +3,11 @@ title: Enable Now Assist Guardian in AI Agent Studio
 description: Identify and block offensive messages that are sent by human agents automatically by enabling AI Guardian in AI agents. With this capability, you can help reduce your agentic workflow or test from being exposed to harmful content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aia-guardian-new.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [AI Agent Studio settings, Configure AI Agent Studio, AI Agent Studio, Enable AI experiences]
+breadcrumb: [AI Agent Studio settings, Configure AI Agent Studio, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Enable Now Assist Guardian in AI Agent Studio
@@ -24,7 +24,7 @@ The AI Guardian, which is a ServiceNow AI Platform capability in the Now Assist 
 
 For example, let's say that AI Guardian detects an offensive message in the execution plan of an agentic workflow. When you try to trigger the plan or test it, AI Guardian can step in to terminate the plan or test because it detected harmful content at the first step of the execution plan.
 
-For more information about the different guardrails, see [Now Assist Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-guardian.md).
+For more information about the different guardrails, see Now Assist Guardian.
 
 ## Procedure
 
@@ -42,7 +42,7 @@ For more information about the different guardrails, see [Now Assist Guardian](h
 
         You’re directed to the AI Admin Hub on your instance to configure the Prompt Injection.
 
-        **Note:** For more information about configuring the Prompt Injection, see [Configure prompt injection attack protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-prompt-injection-attack-protection.md).
+        **Note:** For more information about configuring the Prompt Injection, see .
 
         When you configure the Prompt Injection for an agentic workflow by using the required instructions, the system is designed to detect the harmful content and block the conversation.
 

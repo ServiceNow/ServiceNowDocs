@@ -3,9 +3,9 @@ title: Computer Telephony demo integration with the Case form
 description: Activating the CTI Softphone plugin enables call-related features on the Case form.An incoming call from a customer contact or a consumer can be routed to an available customer service agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/c\_CTIIntegrationWithTheCaseForm.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [CTI demo implementation, Integrating with Computer Telephony Integration \(CTI\), Integrate, Customer Service Management]
 ---
@@ -18,7 +18,7 @@ The customer service or consumer service agent can use the phone icon next to th
 
 The phone icon is a reference contribution that can be added to any reference field by modifying the dictionary and adding the following attribute: **ref\_contributions=show\_phone\_customer\_service**.
 
-**Note:** If you’re using a third-party provided CTI application, then you can integrate with the show\_phone UI macro to make calls.For more information on UI macros, refer to [UI macros installed with OpenFrame](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_InstalledWithOpenFrame.md)
+**Note:** If you’re using a third-party provided CTI application, then you can integrate with the show\_phone UI macro to make calls.For more information on UI macros, refer to [UI macros installed with OpenFrame](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/r_InstalledWithOpenFrame.md)
 
 Select the phone icon to call a consumer or contact.
 
@@ -42,5 +42,5 @@ If no agents are available, the call goes into a queue and remains there until a
 **Related topics**  
 
 
-[Routing and assigning customer service cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CaseRouting.md)
+[Routing and assigning customer service cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_CaseRouting.md)
 

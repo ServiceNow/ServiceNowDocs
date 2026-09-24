@@ -3,9 +3,9 @@ title: Submit the self-attestation report
 description: Submit the self-attestation report to its owner for the certification. You can then generate the PDF of the self-attestation report in the Operational Resilience Workspace for your records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/update-a-self-attestation-record-in-ws.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Certifying services using self-attestation, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---

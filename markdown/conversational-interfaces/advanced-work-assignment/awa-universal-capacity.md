@@ -3,11 +3,11 @@ title: Configure an agent's maximum universal capacity
 description: Prevent an agent from being assigned too many work items by configuring the agent's maximum universal capacity. If the agent's maximum universal capacity has been reached, additional work items won’t be assigned to the agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-universal-capacity.html
-release: australia
+release: brazil
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---

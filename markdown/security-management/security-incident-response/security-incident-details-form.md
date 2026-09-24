@@ -3,11 +3,11 @@ title: Security incident Details tab
 description: This section describes all the fields of the Details tab of a security incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/security-incident-details-form.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Security Incident Details section, Working with Security Incident Records, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -72,7 +72,7 @@ Category
 
 The category that identifies the type of security issue.If a category is selected, a workflow for analyzing this issue is executed when the record is saved. For example, if you select **Denial of Service**, the Security Incident - Denial of Service - Template workflow is executed.
 
- For more information, see [Security Incident Response workflow templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-orch-workflow-templates.md).
+ For more information, see [Security Incident Response workflow templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/sir-orch-workflow-templates.md).
 
 </td></tr><tr><td>
 
@@ -144,7 +144,7 @@ Displays the risk score calculated for this security incident. The value is base
 
  You can also manually enter a new **Risk score**. This can be useful if you want to keep a particular security incident at the top of the list of security incidents you’re analyzing. If you enter a new **Risk score**, the **Risk score override** check box is automatically selected. Regardless of the changes made in the security incident, a manually-entered risk score isn’t automatically recalculated.
 
-**Note:** If you have upgraded your instance from a prior release, risk scores were calculated for all of your open security incidents. For more information, see [Understanding security incident calculators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setup-assistant-reference.md).
+**Note:** If you have upgraded your instance from a prior release, risk scores were calculated for all of your open security incidents. For more information, see [Understanding security incident calculators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/setup-assistant-reference.md).
 
 </td></tr><tr><td>
 
@@ -182,7 +182,7 @@ The functional impact of this security incident. For example, service downtime, 
 -   Medium
 -   High
 
-**Note:** This field isn’t available in the base system. To add this field, see [Accessing Form Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/access-form-builder.md).
+**Note:** This field isn’t available in the base system. To add this field, see [Accessing Form Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/access-form-builder.md).
 
 </td></tr><tr><td>
 
@@ -195,7 +195,7 @@ How easily and quickly you can restore the normal operations and recover from th
 -   Extended
 -   Not Recoverable
 
-**Note:** This field isn’t available in the base system. To add this field, see [Accessing Form Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/access-form-builder.md).
+**Note:** This field isn’t available in the base system. To add this field, see [Accessing Form Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/access-form-builder.md).
 
 </td></tr><tr><td>
 
@@ -207,7 +207,7 @@ The data impact of the security incident. You can select all the applicable:-   
 -   Proprietary Breach
 -   Integrity Loss
 
-**Note:** This field is not available in the base system. To add this field, see [Accessing Form Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/access-form-builder.md).
+**Note:** This field is not available in the base system. To add this field, see [Accessing Form Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/access-form-builder.md).
 
 </td></tr><tr><td>
 
@@ -231,7 +231,7 @@ Assigned to
 
 </td><td>
 
-The individual assigned to analyze this security incident. Assignments can be performed manually or automatically. For more information, see [Assigning security analysts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/r_AgentAssignment.md).
+The individual assigned to analyze this security incident. Assignments can be performed manually or automatically. For more information, see [Assigning security analysts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/r_AgentAssignment.md).
 
 </td></tr><tr><td>
 
@@ -250,5 +250,5 @@ Knowledge results
 As you enter the short description, links to related articles from the knowledge base appear. Scanning the information could solve your issue.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Security Incident Details section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/security-incident-details.md)
+</table>**Parent Topic:**[Security Incident Details section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/security-incident-details.md)
 

@@ -3,9 +3,9 @@ title: Example instructions for ServiceNow Otto for RPA Hub
 description: Example instructions you can use with Now Assist for RPA Hub to get relevant, accurate responses. Refer to these examples when crafting instructions to guide automation tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/example-instructions-rpa.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-07-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Reference, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -102,5 +102,5 @@ Follow these general guidelines when writing AI instructions:
     Break down complex tasks into smaller, manageable steps. For example, use the phrase, `Open a Microsoft Word document located at 'C:\Marketing\Templates\Promo_Letter_Template.docx.', delete a specific page based on its index, add a new column to a table at a particular position, and close the document with changes saved` to make it clear and simple.
 
 
-**Parent Topic:**[RPA Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-hub-reference.md)
+**Parent Topic:**[RPA Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/rpa-hub-reference.md)
 

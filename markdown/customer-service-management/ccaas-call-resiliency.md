@@ -3,9 +3,9 @@ title: Call resiliency
 description: Call resiliency for Contact Center as a Service \(CCaaS\) delivers phone calls to Agent Workspaces without creating an Interaction in the ServiceNow instance. This capability verifies uninterrupted and reliable call management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ccaas-call-resiliency.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [ICC for voice calls, Integrating with Computer Telephony Integration \(CTI\), Integrate, Customer Service Management]
 ---

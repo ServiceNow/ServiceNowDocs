@@ -3,11 +3,11 @@ title: Viewing and updating Governance, Risk, and Compliance exceptions
 description: Report exceptions as it is critical for businesses to quickly identify and address key business process issues before they become a problem. Using exceptions to manage errors has advantages over traditional error-management techniques.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/viewing-and-updating-grc-exceptions.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -136,5 +136,5 @@ Displays the stream of activities on the exception.
 5.  Click **Delete** to delete the record.
 
 
-**Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/common-grc-features.md)
+**Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 

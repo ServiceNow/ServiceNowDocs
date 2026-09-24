@@ -3,11 +3,11 @@ title: Manage transfer orders
 description: Use a transfer order to move necessary parts between company stockrooms or to a location where an agent can receive them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/c\_TransferOrders.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage inventory in FSM, Manage work order tasks, Prepare work orders, Use, Field Service Management]
 ---

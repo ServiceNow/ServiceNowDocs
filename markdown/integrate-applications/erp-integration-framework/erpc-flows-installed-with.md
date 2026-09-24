@@ -3,7 +3,7 @@ title: Flows installed with Zero Copy Connector for ERP
 description: Zero Copy Connector for ERP \(Enterprise Resource Planning\) includes ERP flows that run automatically.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erpc-flows-installed-with.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
@@ -17,7 +17,7 @@ breadcrumb: [Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 
 Zero Copy Connector for ERP \(Enterprise Resource Planning\) includes ERP flows that run automatically.
 
-You don't need to do anything to activate the flows, but you can customize them in Workflow Studio, for example, to change the time that they run each day. For more information, see [Edit a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-edit.md).
+You don't need to do anything to activate the flows, but you can customize them in Workflow Studio, for example, to change the time that they run each day. For more information, see [Edit a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-edit.md).
 
 **Note:** Zero Copy Connector for ERP appears as **ERP Integration** when you work with it in Workflow Studio.
 
@@ -30,4 +30,6 @@ The flows write data to the following tables:
 
 -   sn\_erp\_integration\_sap\_tables
 -   sn\_erp\_integration\_sap\_bapi\_list
+
+**Parent Topic:**[Zero Copy Connector for ERP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-integration-reference.md)
 

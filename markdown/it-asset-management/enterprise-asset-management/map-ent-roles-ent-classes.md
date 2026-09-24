@@ -3,11 +3,11 @@ title: Map enterprise roles to enterprise classes
 description: Gain additional access to model categories by mapping individual enterprise roles to additional enterprise classes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/map-ent-roles-ent-classes.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Enterprise Asset Management, Asset Management]
 ---
@@ -26,29 +26,31 @@ To map enterprise roles to enterprise classes, you need to first provide roles a
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Enterprise Asset Workspace** &gt; **Admin center**.
+1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
 
-2.  Select **Roles-to-class access**
+2.  From the Enterprise Asset Workspace, open the Admin center view.
 
-3.  Select the role record that you want o configure.
+3.  In the navigation panel of the Admin center view, select **Roles-to-class access**.
+
+4.  Select the role record that you want o configure.
 
     The respective class access rules page opens. For example, if you select the Facility asset technician enterprise class access rules record, the Facility asset technician enterprise class access rules page opens.
 
-4.  Select a model category from the **Additional model categories** list.
+5.  Select a model category from the **Additional model categories** list.
 
     The classes related to the model category appear in the **Class names**.
 
-5.  Select **Save**.
+6.  Select **Save**.
 
     The role is now assigned to the classes that you selected. You need to now expose the model and asset tabs related to these classes by navigating to the Model and asset tabs in the Admin center.
 
-6.  Select Model and asset tabs in the Admin center.
+7.  Select Model and asset tabs in the Admin center.
 
-7.  Select the model category name, that you assigned to the role, to open the class tab configuration page.
+8.  Select the model category name, that you assigned to the role, to open the class tab configuration page.
 
-8.  Select **Include in tab** and **Include in dialog box**.
+9.  Select **Include in tab** and **Include in dialog box**.
 
-9.  Select **Save**.
+10. Select **Save**.
 
     Role access is granted to the additional classes and the model and asset tabs associated with those classes are automatically visible in the specific workspace. Additionally, all dashboards are updated with data pertaining to the classes that you configured.
 

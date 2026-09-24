@@ -3,11 +3,11 @@ title: Enrolled Program table
 description: The Enrolled Program \[sn\_hcls\_enrolled\_program\] table stores the programs that a patient has been enrolled into.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-enrolled-program.html
-release: australia
+release: brazil
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data model tables, Reference, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -96,7 +96,7 @@ Alpha-numeric profile identifier of the enrolled program.
 
  The value is auto-generated and is incremented every time you add a new observation to your ServiceNow instance. The initial value for the **Number** field is ENPG00001001.
 
-**Note:** To customize the number, define the auto-numbering format for the Enrolled Program \[sn\_hcls\_enrolled\_program\] table. For more information, see [Add auto-numbering records in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AutoNumberingRecordsInATable.md).
+**Note:** To customize the number, define the auto-numbering format for the Enrolled Program \[sn\_hcls\_enrolled\_program\] table. For more information, see [Add auto-numbering records in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AutoNumberingRecordsInATable.md).
 
 </td></tr><tr><td>
 
@@ -123,5 +123,5 @@ Reference
 Name to identify the enrolled program.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-data-tables.md)
+</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-data-tables.md)
 

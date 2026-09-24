@@ -3,11 +3,11 @@ title: Perform post-migration tasks for field decorators form actions
 description: Verify that the field decorators form actions in Service Operations Workspace \(SOW\) are consistent with the field declarative form actions in ITSM Agent Workspace \(ITSM AW\) and they’re ready for use in SOW. You can update the migrated field declarative form actions settings in SOW based on your requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/verify-migration-status-field-declarative-actions-aw-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Migration of field decorators from ITSM Agent Workspace to Service Operations Workspace for ITSM, Configure and customize the migration to SOW, Migrate from ITSM Agent Workspace to Service Operations Workspace for ITSM, Migration from ITSM Agent Workspace to Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Verify that the field decorators form actions in Service Operations Workspace \(
 
 ## Before you begin
 
-When performing the migration, you must have selected the **Field decorators form actions** option for ITSM Agent Workspace features. For example, the **Field decorators form actions** option for Incident Management. For information about the migration process, see [Migrate from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/migrate-itsm-agent-workspace-to-sow.md).
+When performing the migration, you must have selected the **Field decorators form actions** option for ITSM Agent Workspace features. For example, the **Field decorators form actions** option for Incident Management. For information about the migration process, see [Migrate from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/migrate-itsm-agent-workspace-to-sow.md).
 
 Role required: admin
 
@@ -52,10 +52,10 @@ At the end of the migration process, a confirmation message specifies if the mig
 
     4.  Based on each failed item, identify which step has failed and perform the steps mentioned in the following topics.
 
-        -   [Migrate the client script from ITSM Agent Workspace to Service Operations Workspace for field decorators actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/migrate-field-declarative-client-script-aw-sow.md)
-        -   [Migrate the server script from ITSM Agent Workspace to Service Operations Workspace for field decorators actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/migrate-field-declarative-server-script-aw-sow.md)
-        -   [Migrate the client action from ITSM Agent Workspace to Service Operations Workspace for field decorators actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/migrate-field-declarative-client-action-aw-sow.md)
-        -   [Migrate the UI component from ITSM Agent Workspace to Service Operations Workspace for field decorators actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/migrate-field-declarative-ui-component-aw-sow.md)
+        -   [Migrate the client script from ITSM Agent Workspace to Service Operations Workspace for field decorators actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/migrate-field-declarative-client-script-aw-sow.md)
+        -   [Migrate the server script from ITSM Agent Workspace to Service Operations Workspace for field decorators actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/migrate-field-declarative-server-script-aw-sow.md)
+        -   [Migrate the client action from ITSM Agent Workspace to Service Operations Workspace for field decorators actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/migrate-field-declarative-client-action-aw-sow.md)
+        -   [Migrate the UI component from ITSM Agent Workspace to Service Operations Workspace for field decorators actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/migrate-field-declarative-ui-component-aw-sow.md)
 
-**Parent Topic:**[Migration of field decorators from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/field-declarative-actions-aw-sow.md)
+**Parent Topic:**[Migration of field decorators from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/field-declarative-actions-aw-sow.md)
 

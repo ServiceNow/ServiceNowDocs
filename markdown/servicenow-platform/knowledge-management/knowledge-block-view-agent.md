@@ -3,11 +3,11 @@ title: Knowledge block details displayed in Agent Workspace
 description: View the details of a knowledge block in Agent Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/knowledge-block-view-agent.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Knowledge blocks authoring in Agent Workspace, Using knowledge blocks, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -99,11 +99,11 @@ Selected version of the knowledge block. This field appears when the article ver
 </table>**Related topics**  
 
 
-[View a knowledge block in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/view-block-agent.md)
+[View a knowledge block in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/view-block-agent.md)
 
-[Create a knowledge block in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-knowledge-block-workspace.md)
+[Create a knowledge block in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/create-knowledge-block-workspace.md)
 
-[Edit a knowledge block in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/edit-knowledge-block-workspace.md)
+[Edit a knowledge block in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/edit-knowledge-block-workspace.md)
 
-[Publish a knowledge block in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/publish-block-agent.md)
+[Publish a knowledge block in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/publish-block-agent.md)
 

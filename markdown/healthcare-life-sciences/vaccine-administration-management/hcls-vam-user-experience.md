@@ -3,11 +3,11 @@ title: Use the Patient Portal to register for a vaccination program
 description: As a user with the sn\_vaccine\_sm.user role, you can register for a vaccination program, provide your personal information, schedule and manage your vaccination appointments, provide health updates, and more, all from within a single, self-service portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/vaccine-administration-management/hcls-vam-user-experience.html
-release: australia
+release: brazil
 product: Vaccine Administration Management
 classification: vaccine-administration-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use Vaccine Administration Management, Vaccine Administration Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -71,5 +71,5 @@ View the details of an individual appointment.
 Provide your health updates in the portal. Also, organizations have the option to send an appointment reminder and pre-appointment questionnaire to you at a specified time before the vaccination appointment.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/using-vaccine-administration-management.md)
+</table>**Parent Topic:**[Using Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/vaccine-administration-management/using-vaccine-administration-management.md)
 

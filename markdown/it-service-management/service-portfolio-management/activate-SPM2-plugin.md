@@ -3,11 +3,11 @@ title: Activate Service Portfolio Management
 description: The Service Portfolio Management Core plugin \(com.snc.service\_portfolio\_core\) is available by default for ITSM licensed customers. You can activate additional available related plugins for enhanced features and functionality.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-portfolio-management/activate-SPM2-plugin.html
-release: australia
+release: brazil
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Service Portfolio Management, IT Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-The Service Portfolio Management Foundation plugin \[com.snc.service\_portfolio\] enables your organization to document portfolios, taxonomies, services, and service offerings using a standardized, structured format. It contains demo data and activates related plugins. The Foundation plugin is activated out of the box and activates related plugins, if they're not already active. For general information, see [Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-landing-page.md).
+The Service Portfolio Management Foundation plugin \[com.snc.service\_portfolio\] enables your organization to document portfolios, taxonomies, services, and service offerings using a standardized, structured format. It contains demo data and activates related plugins. The Foundation plugin is activated out of the box and activates related plugins, if they're not already active. For general information, see [Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-portfolio-management/SPM2-landing-page.md).
 
 <table id="table_q5j_gny_ngb"><thead><tr><th>
 
@@ -96,13 +96,13 @@ Provides sample taxonomy metadata, complete with portfolio, layers, and nodes. D
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Configuring Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-configuring.md)
+**Parent Topic:**[Configuring Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-portfolio-management/SPM2-configuring.md)
 
 **Related topics**  
 
 
-[Installed with Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/r_InstalledWSPM2.md)
+[Installed with Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-portfolio-management/r_InstalledWSPM2.md)
 

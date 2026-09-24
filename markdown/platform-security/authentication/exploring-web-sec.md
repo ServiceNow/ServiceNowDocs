@@ -3,11 +3,11 @@ title: Explore Web service security
 description: Enforce security using basic authentication, mutual authentication, or WS-Security.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/exploring-web-sec.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Web service security, Authentication, Access Management]
 ---

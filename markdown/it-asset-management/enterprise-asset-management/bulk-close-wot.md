@@ -3,13 +3,13 @@ title: Bulk closure of work order tasks
 description: Close multiple work order tasks in one go.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/bulk-close-wot.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing work for your enterprise assets, Managing work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
+breadcrumb: [Managing work for your enterprise assets, Manage work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Bulk closure of work order tasks
@@ -51,5 +51,5 @@ Role required: enterprise\_asset\_technician
     The selected work orders tasks are closed.
 
 
-**Parent Topic:**[Managing work for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-work-enterprise-assets.md)
+**Parent Topic:**[Managing work for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/managing-work-enterprise-assets.md)
 

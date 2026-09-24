@@ -3,11 +3,11 @@ title: Configure an account recovery user
 description: Configure an account recovery user to perform account recovery activities on your instance.Configure an account recovery from the Account Recovery properties page.Configure an administrator as an account recovery user from the admin user profile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/config-acr.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Account recovery \(ACR\), Multi-Provider SSO configurations, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
@@ -44,7 +44,7 @@ For an upgraded instance to use ACR, you must do the following:
 
 -   Before enabling SSO property \(`glide.authenticate.multisso.enabled`\), the administrator must enroll as an ACR user.
 
-    **Note:** Setting this property to false will not disable multi-provider SSO if Account Recovery \(ACR\) is also enabled on the instance. To log in with a username and password ACR must also be disabled using the **glide.sso.acr.enabled** property. For details on this property see [Account recovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/acr-properties.md).
+    **Note:** Setting this property to false will not disable multi-provider SSO if Account Recovery \(ACR\) is also enabled on the instance. To log in with a username and password ACR must also be disabled using the **glide.sso.acr.enabled** property. For details on this property see [Account recovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/acr-properties.md).
 
 -   Administrator must set a password for local login and register MFA before enrolling as an ACR user.
 

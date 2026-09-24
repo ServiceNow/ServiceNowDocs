@@ -3,11 +3,11 @@ title: Workspace for fraud agent
 description: The Intelligent Servicing for Fraud workspace provides a single location for fraud agent to process cases and tasks. Agents can use it to respond to all task types, view the full context of an issue, and get relevant recommendations to resolve issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/intelligent-servicing-for-fraud/workspace-for-fraud-agent.html
-release: australia
+release: brazil
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [workspace for fraud agent, fraud agent workspace, fraud case management workspace, process fraud cases and tasks, fraud workload monitoring, high priority fraud cases, workspace landing page, open fraud cases, sla at risk]
 breadcrumb: [Use, Intelligent Servicing for Fraud, Banking applications, Financial Services Operations \(FSO\)]

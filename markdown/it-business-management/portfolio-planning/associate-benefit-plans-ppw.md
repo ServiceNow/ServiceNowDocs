@@ -3,11 +3,11 @@ title: Associate monetary and non-monetary benefit plans
 description: Associate monetary and non-monetary benefit plans, so that you can capture the potential benefits \(financial and non-financial\) accrued by the demand.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/associate-benefit-plans-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage financials for demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -26,7 +26,7 @@ Benefit plans can be associated in either direction — a monetary plan with a n
 
 **Note:** When you delete a benefit plan, its relationship with the associated benefit plan \(if any\) is also removed.
 
-To associate benefit plans with each other, you can also use the **Benefit estimate** Playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
+To associate benefit plans with each other, you can also use the **Benefit estimate** Playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
 
 ## Procedure
 

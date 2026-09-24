@@ -3,9 +3,9 @@ title: Assigning findings to remediation teams using assignment rules
 description: Assignment rules automatically assign findings, such as vulnerable items, application vulnerabilities, container vulnerabilities, and configuration test results, to the appropriate groups for remediation. This streamlined triage ensures that tasks are directed to the appropriate teams, and enhances consistency and visibility across security and compliance programs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-assigning-findings-to-remediation-teams.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [assign findings to remediation teams automatically, assign vulnerable items to remediation teams automatically, assign application vulnerable items to remediation teams automatically, assign container vulnerable items to remediation teams automatically, assignment rules overview]
 breadcrumb: [Automating prioritization and triaging, Security Exposure Management workflow, Explore, Unified Security Exposure Management, Security Operations]
@@ -29,7 +29,7 @@ There are three different ways to assign findings using:
 
 -   User Group: Assign findings directly to a selected user group.
 -   User Group Field: Assign any assignment group field available using the cmdb\_ci table. Assign based on the assignment group field available using the cmdb\_ci table.
--   Script: Use a script to define assignment conditions. This option requires coding or advanced ServiceNow® expertise. For more information on how to use the script editor to define complex conditions, see the [KB0965240](https://support.servicenow.com/kb?id=kb_article_view_popup&sysparm_article=KB0965240) article.
+-   Script: Use a script to define assignment conditions. This option requires coding or advanced ServiceNow® expertise. For more information on how to use the script editor to define complex conditions, see the [KB0965240](https://support.servicenow.com/kb?id=kb_article_view_popup&sysparm_article=KB0965240) KB article.
 
     **Note:** The options for assigning rules using the User group and User group field gets updated based on the tables selected in the **Applies to** field.
 
@@ -81,14 +81,12 @@ When rules are updated, reapplying them ensures that current findings reflect th
 
 ## Automating regrouping after assignment group changes
 
-You can automate the regrouping of findings when assignment groups change due to assignment rule reapplication by activating the **sn\_sec\_rem.rerun\_task\_rules** system property.
-
-**Note:** This system property is not activated by default.
+You can automate the regrouping of findings when assignment groups change due to assignment rule reapplication by activating the system property **sn\_sec\_rem.rerun\_task\_rules**.
 
 Steps to enable:
 
 1.  Navigate to **All** &gt; **System Properties** &gt; **All Properties**.
-2.  Open the **sn\_sec\_rem.rerun\_task\_rules** system property.
+2.  Open **sn\_sec\_rem.rerun\_task\_rules** system property.
 3.  In the **Value** field, set the value to true.
 
 When enabled, findings are unlinked from prior remediation tasks if the rule conditions no longer match.
@@ -110,13 +108,13 @@ If the assignment group of a remediation task is updated:
 |Container vulnerable Items \(CVITs\)|Only one matching rule applies. Rules ignore non-Open or manually assigned CVITs.|
 |Configuration Test Results \(CTRs\)|Uses similar logic. Default assignment rule is inactive. Terminology changes as of v14.9 \(for example, "Group Rules" → "Remediation Task Rules"\).|
 
--   **[Removing assignments from findings and remediation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-unassigning-findings.md)**  
+-   **[Removing assignments from findings and remediation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-unassigning-findings.md)**  
 You can remove yourself or your group from the **Assigned to** and **Assignment group** fields on findings and remediation tasks if you believe they were incorrectly assigned.
 
-**Parent Topic:**[Automating prioritization and triaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-automating-prioritization-triaging.md)
+**Parent Topic:**[Automating prioritization and triaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-automating-prioritization-triaging.md)
 
 **Related topics**  
 
 
-[Configuring assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-assignment-rules.md)
+[Configuring assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-configure-assignment-rules.md)
 

@@ -3,11 +3,11 @@ title: Guidelines for slot filling in catalog request
 description: Conversational Catalog Requests uses a large language model \(LLM\) to extract variable values from a requester's input and pre-fill catalog item questions, a capability known as slot filling.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/c\_slot\_filling\_ccr.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-06-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [slot filling, Conversational Catalog Requests, LLM, pre-fill]
 breadcrumb: [LLM topic blocks, Conversational Catalog Requests reference, Conversational Catalog Requests, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
@@ -43,5 +43,5 @@ If slot fill failures persist on catalog items with clear, well-configured quest
 
 To review the model configuration, navigate to **AI Admin Hub** &gt; **Skills** and check the model assigned to the Conversational Catalog skill. Contact your account team for guidance on available model options for your entitlement.
 
-**Parent Topic:**[LLM topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/llm-topic-blocks-reference.md)
+**Parent Topic:**[LLM topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/llm-topic-blocks-reference.md)
 

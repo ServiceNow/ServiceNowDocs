@@ -3,11 +3,11 @@ title: Overview tab sections for Component-based alerts
 description: The alert Overview tab in Health Log Analytics helps you understand Component-based alerts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-op-ovrvw-tab-comp-based-alerts-sow.html
-release: australia
+release: brazil
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Overview tab, Component-based alerts, identified issue, anomaly card, anomaly detection, baseline, meaningful log properties, impacted services, configuration items, surrounding logs]
 breadcrumb: [Information on the alert Overview tab, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
@@ -17,7 +17,7 @@ breadcrumb: [Information on the alert Overview tab, Health Log Analytics referen
 
 The alert **Overview** tab in Health Log Analytics helps you understand Component-based alerts.
 
-For a detailed description of Component-based alerts, see [Types of Health Log Analytics alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-log-analytics-alert-types.md).
+For a detailed description of Component-based alerts, see [Types of Health Log Analytics alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-op-log-analytics-alert-types.md).
 
 ## Summary
 
@@ -29,7 +29,7 @@ For a detailed description of Component-based alerts, see [Types of Health Log A
 
     Select the **Details** tab for more information about the alert.
 
-    Select the **View surrounding logs** link to view the log lines that were generated one minute before and one minute after the alert. For more information, see [Analyze log lines that surround an anomaly in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-surrounding-logs-view-sow.md).
+    Select the **View surrounding logs** link to view the log lines that were generated one minute before and one minute after the alert. For more information, see [Analyze log lines around an anomaly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-op-surrounding-logs-view-sow.md).
 
 -   **Anomaly**
 
@@ -47,7 +47,7 @@ For a detailed description of Component-based alerts, see [Types of Health Log A
 
     \[Omitted image "anomaly-week-earlier.png"\] Alt text: Baseline values for same hour in previous week.
 
-    For more information on the kinds of anomalies that you might encounter, see [Types of anomalous behavior in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-anomalous-behavior-types.md).
+    For more information on the kinds of anomalies that you might encounter, see [Types of anomalous behavior in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-op-anomalous-behavior-types.md).
 
 
 ## Impact
@@ -72,5 +72,5 @@ For a detailed description of Component-based alerts, see [Types of Health Log A
     \[Omitted image "meaningful-log-properties-card-sow.png"\] Alt text: Meaningful log properties shows relative frequency of occurrence for property values.
 
 
-**Parent Topic:**[Sections and cards on the alert Overview tab in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-alert-overview-tab.md)
+**Parent Topic:**[Sections and cards on the alert Overview tab in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-alert-overview-tab.md)
 

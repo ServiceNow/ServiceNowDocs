@@ -3,9 +3,9 @@ title: Generate thresholds for key alerts
 description: For an instance where critical alerts have already been configured you can obtain improved thresholds to receive enhanced or minimal alerts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/generate-thresholds-io-alerts.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Key alerts and notifications, Use alerts to monitor your instance, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
@@ -24,7 +24,7 @@ Role required: admin
 
     \[Omitted image "threshold-banner-io.png"\] Alt text: Shows the Generate Threshold button in the Configure Alerts banner.
 
-    A notification banner displays. If the banner prompts to configure alerts, see [Set notifications for configured key alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-io-alerts.md).
+    A notification banner displays. If the banner prompts to configure alerts, see [Set notifications for configured key alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configuring-io-alerts.md).
 
 2.  Select **Generate Threshold**.
 
@@ -68,5 +68,5 @@ Role required: admin
     **Note:** If you choose three max alerts per day, then you may receive up to three Alerts notification per day for that specific metric. The alert count resets daily at 00:00 UTC.
 
 
-**Parent Topic:**[Key alerts and notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-alerts.md)
+**Parent Topic:**[Key alerts and notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/io-alerts.md)
 

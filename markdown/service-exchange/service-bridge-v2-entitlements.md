@@ -3,11 +3,11 @@ title: Creating entitlements in Service Exchange for Providers
 description: Using consumer criteria associated with record producers and other configurations, Service Exchange automatically generates the entitlement records that are replicated to eligible consumer instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-entitlements.html
-release: australia
+release: brazil
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create remote catalogs, Configure for providers, Service Exchange for Providers, Service Exchange]
 ---
@@ -38,5 +38,5 @@ You can update Service Exchange entitlements in the following ways:
 
 ## Define a consumer criteria
 
-To define a consumer criteria, see [Create a consumer criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-consumer-criteria.md).
+To define a consumer criteria, see [Create a consumer criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-create-consumer-criteria.md).
 

@@ -3,11 +3,11 @@ title: Remove item restrictions
 description: Service Catalog enables you to remove or apply restrictions on all order guides, record producers, and wizard launchers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_RestrictBehaviorByItemType.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Catalog customization, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -40,5 +40,5 @@ To remove these restrictions or apply these restrictions to other types of items
     -   **List of class names for catalog items that do not use the default "Try It" UI Action**\(**glide.sc.item.cannot\_try\_it**\): restricts the items which allow you to click **Try It** on the item form to preview how it appears in the service catalog. Items with such restrictions do not display **Try It** on the form.
     -   **List of class names for catalog items that do not generate a normal cart item**\(**glide.sc.item.not\_normal\_cart\_item**\): restricts which item types are added to the cart by default.
 
-**Parent Topic:**[Service Catalog customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/p_ServiceCatalogCustomization.md)
+**Parent Topic:**[Service Catalog customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/p_ServiceCatalogCustomization.md)
 

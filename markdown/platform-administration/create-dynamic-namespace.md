@@ -3,9 +3,9 @@ title: Create a dynamic namespace
 description: Define categories and attributes once and reuse them across multiple tables and dynamic attribute store fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-dynamic-namespace.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dynamic Schema, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -51,9 +51,9 @@ Note that changing the namespace associated with a dynamic attribute store field
 
 ## What to do next
 
--   [Create a dynamic attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/add-dynamic-attributes.md)
--   [Create a dynamic category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-dynamic-category.md)
--   [Include dynamic attributes in a dynamic category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/add-dynamic-attributes-dynamic-category.md)
--   [Create a dynamic choice set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-choice-set.md)
--   [Associate a dynamic attribute store with a different namespace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/update-dynamic-namespace-dynamic-attribute-store.md)
+-   [Create a dynamic attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/add-dynamic-attributes.md)
+-   [Create a dynamic category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-dynamic-category.md)
+-   [Include dynamic attributes in a dynamic category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/add-dynamic-attributes-dynamic-category.md)
+-   [Create a dynamic choice set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-choice-set.md)
+-   [Associate a dynamic attribute store with a different namespace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/update-dynamic-namespace-dynamic-attribute-store.md)
 

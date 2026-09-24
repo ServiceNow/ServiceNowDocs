@@ -3,9 +3,9 @@ title: Next Experience banner announcements
 description: Banner announcements enable you to communicate planned maintenance, unplanned outages, or important events like ESPP stock plans or benefits enrollment to those affected or to everyone. You can target specific experiences or all experiences.Configure banner announcements to communicate important information to your users while they are in an experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/next-experience-banner-announcements.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -25,7 +25,7 @@ You can configure the following aspects of banner announcements:
     **Note:** If a user dismisses a banner announcement during a session and the announcement is still active, it will re-appear once the user logs out and back in to a new session.
 
 
-**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-ui-admin.md)
+**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-ui-admin.md)
 
 ## Configure Next Experience banner announcements
 
@@ -37,11 +37,11 @@ Role required: announcement\_admin or admin
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Configuration Settings** &gt; **UX Banner Announcements**.
+1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Configuration Settings** &gt; **UX Banner Announcements** to create an announcement.
 
 2.  Select **New**.
 
-3.  On the Banner Announcements form, fill in the fields.
+3.  On the form, fill in the fields.
 
 <table id="table_yyw_xxr_nrb"><thead><tr><th>
 
@@ -138,7 +138,7 @@ Icon
 
 </td><td>
 
-Icon to depict the urgency or category of the banner announcement. For example, a flame icon shows increased urgency and a graduation cap icon signals continuing learning opportunities.
+Icon to depict the urgency or category of the banner announcement. For example, a flame icon shows increased urgency and a graduation cap icon notifies of continuing learning opportunities.
 
 </td></tr><tr><td>
 
@@ -157,7 +157,7 @@ Content position
 Options for the horizontal position of the banner content.
 
 </td></tr></tbody>
-</table>4.  Select and hold \(or right-click\) the form header and select **Save**.
+</table>4.  Right-click the form header and select **Save**.
 
     The Associated to Configurations related list displays at the bottom of the form.
 
@@ -165,7 +165,7 @@ Options for the horizontal position of the banner content.
 
     \[Omitted image "next-exp-associated-config.png"\] Alt text: Associated to Configurations related list.
 
-6.  In the **Announcement Config** field, select the search icon \[Omitted image "QueryIcon.png"\] Alt text:.
+6.  In the Announcement Config field, select the search icon \[Omitted image "QueryIcon.png"\] Alt text:.
 
 7.  Select **Unified Navigation** from the Banner Announcement Configs list.
 

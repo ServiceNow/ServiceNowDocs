@@ -3,11 +3,11 @@ title: View safety incidents in the Digital Factory Workspace
 description: Access and manage safety incidents from the Digital Factory Workspace list views.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/icw-view-safety-incident.html
-release: australia
+release: brazil
 product: Digital Factory Workspace
 classification: digital-factory-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ICW Health and Safety Integration, Use, Digital Factory Workspace, Industrial Connected Workforce]
 ---
@@ -40,12 +40,12 @@ Role required: sn\_icw.safety\_incident\_user
 
 The safety incidents list displays incidents based on your access permissions and selected filters.
 
-**Parent Topic:**[Using ICW Health and Safety Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/using-icw-health-and-safety-integration.md)
+**Parent Topic:**[Using ICW Health and Safety Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/using-icw-health-and-safety-integration.md)
 
 **Related topics**  
 
 
-[Exploring Industrial Connected Workforce Integration with Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/icw-health-and-security-integraton.md)
+[Exploring Industrial Connected Workforce Integration with Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/icw-health-and-security-integraton.md)
 
-[Create a safety incident from an ICW task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/icw-create-safety-incident-from-task.md)
+[Create a safety incident from an ICW task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/icw-create-safety-incident-from-task.md)
 

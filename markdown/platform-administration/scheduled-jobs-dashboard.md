@@ -3,9 +3,9 @@ title: Understand your Scheduled Jobs dashboard
 description: Visit scheduler dashboard to learn about key health metrics and insights of scheduled jobs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/scheduled-jobs-dashboard.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Monitor System Events and Scheduled Jobs dashboard, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---

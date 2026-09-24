@@ -3,11 +3,11 @@ title: Automation resource form
 description: Use the Automation resource form to create an automation resource to associate a resource to an automation task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/automation-resource-form.html
-release: australia
+release: brazil
 product: Automation Center
 classification: automation-center
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Automation Center, Workflow Data Fabric]
 ---
@@ -75,5 +75,5 @@ Automation request
 Associated automation request. This field is auto-generated.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Automation Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-reference.md)
+</table>**Parent Topic:**[Automation Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/automation-center-reference.md)
 

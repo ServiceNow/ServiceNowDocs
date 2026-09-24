@@ -3,18 +3,18 @@ title: Amazon Redshift
 description: The Amazon Redshift connector provides read-only access to data and metadata from the Redshift data warehouse service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/amazon-redshift-zcc.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Primary connectors, Zero Copy Connectors, Workflow Data Fabric]
+breadcrumb: [Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
 # Amazon Redshift
 
 The Amazon Redshift connector provides read-only access to data and metadata from the Redshift data warehouse service.
 
-A connection admin can set up a connection to Amazon Redshift in the Zero Copy Connector Hub and grant data stewards access to this connection. Data stewards can then use the established connection to create a data fabric table and map data from Amazon Redshift. This allows users to access Amazon Redshift data through the table list view or by using GlideRecord scripts. For details on creating data fabric tables and mapping data, see [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-data-fabric-tables-zcc.md).
+A connection admin can set up a connection to Amazon Redshift in the Zero Copy Connector Hub and grant data stewards access to this connection. Data stewards can then use the established connection to create a data fabric table and map data from Amazon Redshift. This allows users to access Amazon Redshift data through the table list view or by using GlideRecord scripts. For details on creating data fabric tables and mapping data, see [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/managing-data-fabric-tables-zcc.md).
 
 The connector has been enhanced to improve the performance of the following Glide queries and list view operations. These improvements allow the majority of queries to be executed at the data source.
 
@@ -56,5 +56,5 @@ The following table lists supported Amazon Redshift data types and the default m
 **Related topics**  
 
 
-[Create an Amazon Redshift connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-amazon-redshift-connection-zcc.md)
+[Create an Amazon Redshift connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-amazon-redshift-connection-zcc.md)
 

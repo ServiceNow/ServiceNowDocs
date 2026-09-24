@@ -3,11 +3,11 @@ title: Configure CrowdStrike NextGen SIEM sighting search
 description: Configure the CrowdStrike NextGen SIEM integration with your Falcon API credentials so that analysts can search CrowdStrike log data for activity that matches an observable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-crowdstrike-ngsiem-integration.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-08-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [configure, crowdstrike, nextgen siem, sighting search]
 breadcrumb: [Get started with Sighting Search Configurations, Configure Sighting Search, TISC Enrichment integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
@@ -138,7 +138,7 @@ When a sighting search against CrowdStrike NextGen SIEM finds a match, the resul
 
 ## What to do next
 
-Select one or more CI rows from the Sighting Configuration Items list and select **Add As Configuration Item**to link the selected CI\(s\) to the sighting's Observable record. These records appear under the **Related Configuration Items** related list on the Observable form. For information on how to run a sightings search, see [Run Sighting Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-run-sighting-search.md).
+Select one or more CI rows from the Sighting Configuration Items list and select **Add As Configuration Item**to link the selected CI\(s\) to the sighting's Observable record. These records appear under the **Related Configuration Items** related list on the Observable form. For information on how to run a sightings search, see [Run Sighting Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-run-sighting-search.md).
 
-**Parent Topic:**[Get started with Sighting Search Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-get-sighting-configs.md)
+**Parent Topic:**[Get started with Sighting Search Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-get-sighting-configs.md)
 

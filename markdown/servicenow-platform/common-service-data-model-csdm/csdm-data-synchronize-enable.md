@@ -3,11 +3,11 @@ title: Set the group for a CI or an entire class of CIs
 description: Synchronize group assignment attributes on entire CI classes and individual CIs using the CI Class Manager.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/common-service-data-model-csdm/csdm-data-synchronize-enable.html
-release: australia
+release: brazil
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Dynamic CI group and service type, Implement, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -49,12 +49,12 @@ In this example, you define a user group that can manage all CIs belonging to th
 2.  Select **Basic Info** and, in the **Managed By Group** attribute, select **sys\_user\_group** and then select **Save**.
 3.  To verify that the attribute was updated, select **CI List** and navigate to the Linux Server class. You will see that the **Managed By Group** attribute has been updated to **sys\_user\_group**.
 
-**Parent Topic:**[Matching the usage of dynamic CI groups to service type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-dynamic-ci-groups-by-service.md)
+**Parent Topic:**[Matching the usage of dynamic CI groups to service type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-dynamic-ci-groups-by-service.md)
 
 **Related topics**  
 
 
-[Synchronizing group assignment attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-data-synchronize.md)
+[Synchronizing group assignment attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-data-synchronize.md)
 
-[Synchronize user groups for a technology management offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-enable-tso.md)
+[Synchronize user groups for a technology management offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-enable-tso.md)
 

@@ -3,11 +3,11 @@ title: Map report objects
 description: Map objects define the different levels that users can drill down into on a map report and the data displayed on these levels. Admins can create and manage these objects.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/c\_MapReportObjects.html
-release: australia
+release: brazil
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Map report administration, Administering reports, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -59,7 +59,7 @@ Transform the data in a map source to a value that can be displayed on a map. Ma
  For example, a map source that has a **Field** value of **Locations Country** would use the **Country mappings** group. A map source that has a **Field** value of **Locations State / Province** would use the **Region and state mappings** mapping group.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Map report administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdministeringMapReports.md)
+</table>**Parent Topic:**[Map report administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_AdministeringMapReports.md)
 
 **Related topics**  
 

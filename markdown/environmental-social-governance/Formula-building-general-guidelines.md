@@ -3,9 +3,9 @@ title: General guidelines for formula building
 description: While building a custom formula in a calculated metric definition, keep these general guidelines in mind to easily create your formulas.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/Formula-building-general-guidelines.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Formula building in a calculated metric definition, Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -30,5 +30,5 @@ A formula consists of operands, operators, and functions. Examples of operators 
 -   Use the formula builders on all browsers except Safari.
 -   Specify the primary and the secondary columns to identify the right emission factors in case of emission factors with duplicate names. When defining calculated metric definitions, you can use emission factors with different units than the collected data.
 
-**Parent Topic:**[Formula building in a calculated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/formula-building-at-metric-definition-and-entity-level.md)
+**Parent Topic:**[Formula building in a calculated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/formula-building-at-metric-definition-and-entity-level.md)
 

@@ -3,11 +3,11 @@ title: Policy as Code Engine for Preventive compliance management
 description: Compliance managers can map the control objective with the Policy as Code Engine \(PaCE\). PaCE calls GRC passing the document reference and the PaCE policy for which exceptions need to be determined. Control owners can view the PaCE logs to understand the compliance or non-compliance instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/preventive-compliance-pace.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Policy and Compliance Management, Governance, Risk, and Compliance]
 ---

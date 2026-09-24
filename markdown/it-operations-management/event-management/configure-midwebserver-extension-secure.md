@@ -1,20 +1,20 @@
 ---
 title: Configure a secure MID Web Server extension
-description: Configure a TLS listener for extra security and encryption of data transferred to and from the MID Web Server extension. Access both a private key and a certificate \(or certificate chain\) from a Java keystore. Use these credentials during the TLS handshake where the MID Web Server and the client acknowledge each other.
+description: Configure a TLS listener for extra security and encryption of data transferred to and from the MID Web Server extension. Access a private key and certificate \(or certificate chain\) from a Java keystore. The keystore is used during the TLS handshake where the MID Web Server and the client acknowledge each other.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-midwebserver-extension-secure.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure the MID Web Server extension, MID Web Server, Event Management setup, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure a secure MID Web Server extension
 
-Configure a TLS listener for extra security and encryption of data transferred to and from the MID Web Server extension. Access both a private key and a certificate \(or certificate chain\) from a Java keystore. Use these credentials during the TLS handshake where the MID Web Server and the client acknowledge each other.
+Configure a TLS listener for extra security and encryption of data transferred to and from the MID Web Server extension. Access a private key and certificate \(or certificate chain\) from a Java keystore. The keystore is used during the TLS handshake where the MID Web Server and the client acknowledge each other.
 
 ## Before you begin
 
@@ -28,23 +28,23 @@ Role required: agent\_client\_collector\_admin
 
 3.  In the **Authentication Type** field, select an authentication type to be used.
 
-    -   Keybased – See [Configure key-based MID Web Server authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-mid-web-server-extension-metric-data.md)
+    -   Keybased – See [Configure key-based MID Web Server authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-mid-web-server-extension-metric-data.md)
     -   Basic – Standard username/password authentication
-    -   API key – See [Configure MID Web Server API key authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/mid-web-server-api-key-authentication.md)
-    -   mTLS – See [MID Web Server and agent mTLS Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/mid-web-server-mTLS-authentication.md)
+    -   API key – See [Configure MID Web Server API key authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/mid-web-server-api-key-authentication.md)
+    -   mTLS – See [MID Web Server and agent mTLS Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/mid-web-server-mTLS-authentication.md)
 4.  Select either the MID unified keystore or the web server keystore.
 
-    The MID Web Server unified keystore is the most efficient option. To enable backward compatibility and store keypairs in an additional keystore, use the Web server keystore. This option also allows you to use the MID unified keystore.
+    The MID Web Server unified keystore is the most efficient option. To enable backward compatibility and store keypairs in an additional keystore, use the Web server keystore. The Web server keystore allows you to use the MID unified keystore as well.
 
-<table id="choicetable_ezm_tvg_dsb"><thead><tr><th align="left" id="d79069e157">
+<table id="choicetable_ezm_tvg_dsb"><thead><tr><th align="left" id="d79494e157">
 
 Option
 
-</th><th align="left" id="d79069e160">
+</th><th align="left" id="d79494e160">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d79069e166">
+</th></tr></thead><tbody><tr><td id="d79494e166">
 
 **MID unified keystore**
 
@@ -53,11 +53,11 @@ Description
 1.  Select the **Use MID Unified Keystore** check box
 2.  Enter an alias name in the **Keystore Certificate Alias** field or leave the field empty to use the keystore's default alias.
 
-For more information, see the **Install custom certificates in the MID Server unified key store** section in [MID Server unified key store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-unified-keystore.md).
+For more information, see the **Install custom certificates in the MID Server unified key store** section in [MID Server unified key store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-unified-keystore.md).
 
 **Important:** Leaving the **Keystore Certificate Alias** field empty causes connecting clients to skip certificate verification. Instead, the MID Server uses its own self-signed certificate.
 
-</td></tr><tr><td id="d79069e209">
+</td></tr><tr><td id="d79494e209">
 
 **Web server keystore**
 
@@ -74,5 +74,5 @@ For more information, see the **Install custom certificates in the MID Server un
 **Related topics**  
 
 
-[Connect the agent to the MID Server using mTLS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/enable-tls-agent.md)
+[Connect the agent to the MID Server using mTLS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/enable-tls-agent.md)
 

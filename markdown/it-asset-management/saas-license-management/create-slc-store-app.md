@@ -3,11 +3,11 @@ title: Create a store app for a custom integration
 description: Publish your custom integration application on the ServiceNow Store to make it available for others to use.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/saas-license-management/create-slc-store-app.html
-release: australia
+release: brazil
 product: SaaS License Management
 classification: saas-license-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [SaaS License Connections, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---

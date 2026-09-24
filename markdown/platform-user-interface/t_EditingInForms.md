@@ -3,9 +3,9 @@ title: Edit a form
 description: You can edit a record in the form view. You can also insert a record, apply a template, and cancel changes to the record.Insert provides a method for creating multiple similar items, such as email notifications, users, groups, or business rules.Your organization may use templates to help with frequently requested tasks. A template contains prepopulated fields that default when the template is selected.Cancel changes to a form by navigating away from the form without saving.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_EditingInForms.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -37,7 +37,7 @@ Role required: none
     **Note:** If you entered a different value from the value saved by the other user, the system does not update the field automatically. Change your value manually to match value entered by the other user. Otherwise, you overwrite the change when you save the record.
 
 
-**Parent Topic:**[Forms in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingForms.md)
+**Parent Topic:**[Forms in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_UsingForms.md)
 
 ## Insert a record
 
@@ -49,7 +49,7 @@ Role required: none
 
 ### About this task
 
-Administrators can enable the **Insert** function for task records. For more information, see [Allow insert options on task records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/advanced-form-administration.md).
+Administrators can enable the **Insert** function for task records. For more information, see [Allow insert options on task records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/advanced-form-administration.md).
 
 ### Procedure
 
@@ -59,7 +59,7 @@ Administrators can enable the **Insert** function for task records. For more inf
 
 3.  Right-click the form header and select one of the following options.
 
-<table id="choicetable_sdh_h2c_br"><tbody><tr><td id="d140847e223">
+<table id="choicetable_sdh_h2c_br"><tbody><tr><td id="d142004e223">
 
 **Insert**
 
@@ -67,7 +67,7 @@ Administrators can enable the **Insert** function for task records. For more inf
 
 Saves the item as a new record and returns to the previously viewed page.
 
-</td></tr><tr><td id="d140847e232">
+</td></tr><tr><td id="d142004e232">
 
 **Insert and Stay**
 
@@ -113,7 +113,7 @@ Role required: none
 **Related topics**  
 
 
-[Toggle the template bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ToggleTheTemplateBar.md)
+[Toggle the template bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ToggleTheTemplateBar.md)
 
 ## Cancel changes to a form
 

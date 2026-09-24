@@ -3,9 +3,9 @@ title: Dictionary entry data types
 description: You can only change a dictionary entry's data type when the change does not result in data loss. Use the following guidelines to change a dictionary entry's data type.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_ValidDataTypeChanges.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---

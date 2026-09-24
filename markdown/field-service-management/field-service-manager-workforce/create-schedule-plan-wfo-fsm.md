@@ -3,11 +3,11 @@ title: Create a schedule plan
 description: Manage your team's schedule by creating a schedule plan that covers a span of time and includes your team's work shifts. You can also assign agents to shifts based on their skills and availability to ensure you are using your resources efficiently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/create-schedule-plan-wfo-fsm.html
-release: australia
+release: brazil
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Scheduling, Workforce Optimization, Managing workforce, Use, Field Service Management]
 ---

@@ -3,11 +3,11 @@ title: Exporting hierarchy process via JSON
 description: Learn how to migrate models and templates between ServiceNow instances by exporting them with all their dependencies as a single JSON file. The export preserve system ID continuity between source and target.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/exporting-hierarchy-process-via-json.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Export hierarchy of models and templates, Explore, Telecommunications Network Inventory]
 ---
@@ -48,10 +48,10 @@ You can transfer the downloaded JSON file to the target instance. Load it using 
 
 This is why JSON export is the recommended path for cross-instance migration. The file contains everything needed for the records to function on the target instance, not just the records themselves.
 
-To learn the step-by-step procedure for exporting a model or template hierarchy as JSON, see [Import models and templates in JSON format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/import-models-templates-json.md).
+To learn the step-by-step procedure for exporting a model or template hierarchy as JSON, see [Import models and templates in JSON format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/import-models-templates-json.md).
 
 **Related topics**  
 
 
-[Export hierarchy of models and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/export-hierarchy-of-models-and-template.md)
+[Export hierarchy of models and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/export-hierarchy-of-models-and-template.md)
 

@@ -3,11 +3,11 @@ title: AI Risk and Compliance workspace
 description: The AI Risk and Compliance workspace is the central hub for AI risk and compliance managers to monitor risk posture, track assessments, manage controls and issues, and oversee AI cases across the enterprise.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-workspace.html
-release: australia
+release: brazil
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [AI Risk and Compliance workspace, workspace dashboard, AI risk overview]
 breadcrumb: [Explore, AI Risk and Compliance, Governance, Risk, and Compliance]
@@ -27,24 +27,24 @@ An AI risk and compliance manager must have a full view of the risks associated 
 
 The home page of the AI risk and compliance workspace meets these requirements and displays the relevant data across the following tabs.
 
--   [Risk and compliance dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/risk-and-compliance-tab-airc.md)
--   [Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/operations-tab.md)
--   [AI cases dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/ai-cases-tab-airc.md)
+-   [Risk and compliance dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/risk-and-compliance-tab-airc.md)
+-   [Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/operations-tab.md)
+-   [AI cases dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/ai-cases-tab-airc.md)
 
 You can access the AI risk and compliance workspace by navigating to **All** &gt; **AI Risk and Compliance Workspace**.
 
-**Note:** Dashboards in the AI Risk and Compliance Workspace \(Risk and Compliance, Operations, and AI Cases\) display data for **Managed** AI assets only. AI assets that are marked as **Unmanaged** are excluded from dashboard widgets, metrics, and summary counts, but remain visible in inventory and list views. If you have the AI steward \[sn\_ai\_governance\_ai\_steward\] role you can mark assets as Managed or Unmanaged. For more information, see [AI assets- Managed and Unmanaged](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/assets-list-managing-and-unmanaging-assets.md).
+**Note:** Dashboards in the AI Risk and Compliance Workspace \(Risk and Compliance, Operations, and AI Cases\) display data for **Managed** AI assets only. AI assets that are marked as **Unmanaged** are excluded from dashboard widgets, metrics, and summary counts, but remain visible in inventory and list views. If you have the AI steward \[sn\_ai\_governance\_ai\_steward\] role you can mark assets as Managed or Unmanaged. For more information, see [Assets list- managed and unmanaged assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/assets-list-managing-and-unmanaging-assets.md).
 
 **Related topics**  
 
 
-[Risk &amp; compliance tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/risk-and-compliance-tab-airc.md)
+[Risk &amp; compliance tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/risk-and-compliance-tab-airc.md)
 
-[Operations tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/operations-tab.md)
+[Operations tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/operations-tab.md)
 
-[AI cases tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/ai-cases-tab-airc.md)
+[AI cases tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/ai-cases-tab-airc.md)
 
-[Configure AI Risk and Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/configure-airc-workspace.md)
+[Configure AI Risk and Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/configure-airc-workspace.md)
 
-[Set up AI Risk and Compliance properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/configure-airc-properties.md)
+[Set up AI Risk and Compliance properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/configure-airc-properties.md)
 

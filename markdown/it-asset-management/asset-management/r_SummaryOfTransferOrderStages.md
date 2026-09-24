@@ -3,11 +3,11 @@ title: Summary of transfer order line tasks
 description: As assets move through the transfer process, the stage of a transfer order is updated based on the individual transfer order lines tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/r\_SummaryOfTransferOrderStages.html
-release: australia
+release: brazil
 product: Asset Management
 classification: asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Base Asset Management, Common applications, Asset Management]
 ---
@@ -73,14 +73,16 @@ Delivered
 After the **Received** task is closed, this task is created. After you close the **Delivered** task, the transfer order line is completed. On the asset form, the **State** field value remains **In stock** and the **Substate** field value is updated to **Reserved**.
 
 </td></tr></tbody>
-</table>**Related topics**  
+</table>**Parent Topic:**[Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/references-asset-management.md)
+
+**Related topics**  
 
 
-[Transfer order line asset tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/r_TransferOrderLineAssetTracking.md)
+[Transfer order line asset tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/r_TransferOrderLineAssetTracking.md)
 
-[Transfer order line asset tracking of non-consumables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/r_TrsferOrderLneAssetTrackNonConsum.md)
+[Transfer order line asset tracking of non-consumables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/r_TrsferOrderLneAssetTrackNonConsum.md)
 
-[Transfer order line asset tracking consumables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/r_TrsferOrderLneAssetTrackConsum.md)
+[Transfer order line asset tracking consumables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/r_TrsferOrderLneAssetTrackConsum.md)
 
-[Transfer order flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/transfer-order-flows.md)
+[Transfer order flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/transfer-order-flows.md)
 

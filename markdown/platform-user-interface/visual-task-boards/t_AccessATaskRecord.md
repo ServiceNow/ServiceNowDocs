@@ -3,13 +3,13 @@ title: Access a task record from a Visual Task Board card
 description: You can open the form view of any task card. Viewing a task record on a form allows you to see all fields for that record, including fields that are not visible in the card details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/t\_AccessATaskRecord.html
-release: australia
+release: brazil
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with Visual Task Board cards, Using Visual Task Boards, Visual Task Boards, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Working with Visual Task Board cards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Access a task record from a Visual Task Board card
@@ -35,5 +35,5 @@ Access a task record using one of the following options.
     2.  Click the record number in the header.
 
 
-**Parent Topic:**[Working with Visual Task Board cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/r_TaskCards.md)
+**Parent Topic:**[Working with Visual Task Board cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/visual-task-boards/r_TaskCards.md)
 

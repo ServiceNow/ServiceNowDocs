@@ -3,11 +3,11 @@ title: IT Service Management AI agent collection Who is On Call agentic workflow
 description: Use the Who is On Call agentic workflow to retrieve on-call roster information for specific shifts, groups, or time periods. The agent provides accurate information to conversationally understand who is on-call.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-on-call-usecase.html
-release: australia
+release: brazil
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2026-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI, On-Call Retrieval, On-Call Roster]
 breadcrumb: [ITSM, Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -28,7 +28,7 @@ Using the Who is On Call agentic workflow, retrieve on-call roster information t
 
 The Who is On Call agent streamlines on-call roster queries by providing accurate, timezone-aware responses. This reduces manual lookups and ensures the correct on-call personnel are identified even across multiple shifts and groups.
 
-To modify the Who is On Call agentic workflow, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
+To modify the Who is On Call agentic workflow, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
 
 **Important:** When you modify a use case, AI agent, or tool, make sure that you update all instructions accordingly.
 

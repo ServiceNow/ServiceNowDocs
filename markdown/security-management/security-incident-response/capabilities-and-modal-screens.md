@@ -3,11 +3,11 @@ title: Unified experience capabilities and modal screens
 description: The following table below describes the capabilities and applicable screens.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/capabilities-and-modal-screens.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Unified experience framework, SIR Workspace Orchestration, Working with Security Incident Records, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -250,5 +250,5 @@ So, these can be provided in screen 3 specifically against individual selected i
 -   Crowdstrike Falcon Insight
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Unified experience framework for integrations powered by Capability Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/security-incident-response-workspace-capability-framework.md)
+</table>**Parent Topic:**[Unified experience framework for integrations powered by Capability Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/security-incident-response-workspace-capability-framework.md)
 

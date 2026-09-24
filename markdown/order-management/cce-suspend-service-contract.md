@@ -3,9 +3,9 @@ title: Suspend a customer contract
 description: Suspend a customer contract and its child customer contract lines by creating an order on the CRM Workspace. Suspending a customer contract suspends or disables the services specified in that customer contract.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cce-suspend-service-contract.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Suspend, Using Contracts and Entitlements Workflows, Customer Contracts and Entitlements, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_customerservice\_manager and sn\_ind\_tmt\_orm.order\_agent
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  In the Contracts and Entitlements list, select **Customer Contracts**.
 
@@ -34,7 +34,7 @@ Role required: sn\_customerservice\_manager and sn\_ind\_tmt\_orm.order\_agent
 
 5.  In the Suspend customer contract window, enter the period of suspension for the customer contract in the **Start date and time** and **End date and time** fields.
 
-    **Note:** If you do not enter a value in the **End date and time** field, the customer contract is suspended indefinitely. You can resume the customer contract manually. For more info, see [Resume a customer contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cce-resume-service-contract.md).
+    **Note:** If you do not enter a value in the **End date and time** field, the customer contract is suspended indefinitely. You can resume the customer contract manually. For more info, see [Resume a customer contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cce-resume-service-contract.md).
 
 6.  Add a reason for a suspension in the **Reason for suspension** field.
 

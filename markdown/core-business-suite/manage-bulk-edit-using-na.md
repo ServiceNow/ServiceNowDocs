@@ -3,9 +3,9 @@ title: Bulk edit
 description: Edit records in bulk for Core Business Suite business units through the Now Assist conversational experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/manage-bulk-edit-using-na.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Otto for Core Business Suite \(CBS\), Configure Core Business Suite using Otto, Configure, Core Business Suite]
 ---
@@ -16,10 +16,7 @@ Edit records in bulk for Core Business Suite business units through the Now Assi
 
 ## Before you begin
 
-Ensure that the following are activated:
-
--   AI search \([Activate AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/activate-ai-search.md)\)
--   Now Assist panel \([Manage ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/enable-now-assist-panel.md)\)
+Ensure that Now Assist in Virtual Agent is installed. For more information, see .
 
 Role required: admin, sn\_cbs.admin
 
@@ -27,7 +24,7 @@ Role required: admin, sn\_cbs.admin
 
 1.  Navigate to **Admin** &gt; **Admin Home**.
 
-2.  On the Core Business Suite Foundation card, select **View product overview**.
+2.  On the Core Business Suite card, select **View product overview**.
 
 3.  In the Configuration insights section, select **Configure**.
 
@@ -37,7 +34,7 @@ Role required: admin, sn\_cbs.admin
 
 5.  Select **Configure with Now Assist**.
 
-    Now Assist opens the conversational panel, detects the current page context, and invokes the CBS Bulk Upload agent.
+    Now Assist opens the conversational panel, detects the current page context, and invokes the CBS Bulk Upload Agent.
 
     **Note:** The CBS Bulk Upload Agent supports Workplace Locations for bulk edit.
 
@@ -46,7 +43,7 @@ Role required: admin, sn\_cbs.admin
     Example prompts:
 
     -   `Bulk edit workplace locations`.
-    -   `Edit workplace locations using a template`.
+    -   `Upload edit workplace locations using a template`.
     -   `Bulk edit records for workplace locations`.
     Now Assist processes your request, identifies the relevant template based on the selection, and provides it for download.
 
@@ -54,7 +51,7 @@ Role required: admin, sn\_cbs.admin
 
     The template downloads as a .csv file.
 
-8.  Open the file in Excel \(.xlsx or .xls\), make the required changes, and save the file.
+8.  Open the file in excel \(.xlsx or .xls\), make the required changes, and save it.
 
 9.  Upload the updated template when prompted.
 
@@ -62,7 +59,7 @@ Role required: admin, sn\_cbs.admin
 
 10. Review the validation results.
 
-11. If errors are reported, review and update the template file as needed, and re‑upload it.
+11. If errors are reported, open the provided import link and correct the issues.
 
 12. If validation is successful, select **Process all rows**.
 
@@ -74,10 +71,10 @@ Role required: admin, sn\_cbs.admin
 
 15. Select **Mark as configured** when prompted.
 
-    Now Assist confirms that the bulk edit is complete with a success message.
+    Now Assist confirms the bulk edit is completed with a success message.
 
-16. Refresh the Core Business Suite Configuration Console to verify that the records are updated successfully.
+16. Refresh the CBS Configuration Console to verify that the records were updated successfully.
 
 
-**Parent Topic:**[ServiceNow Otto for Core Business Suite \(CBS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/now-assist-cbs.md)
+**Parent Topic:**[ServiceNow Otto for Core Business Suite \(CBS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/now-assist-cbs.md)
 

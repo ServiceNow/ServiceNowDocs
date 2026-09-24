@@ -3,11 +3,11 @@ title: Resource Plan form
 description: Field descriptions for the resource plan form fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/rsrc-plan-form.html
-release: australia
+release: brazil
 product: Resource Management
 classification: resource-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Resource Management reference, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -62,7 +62,7 @@ Role
 
 </td><td>
 
-Specific [resource role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/create-resource-role.md) that you want to associate with the plan. This field appears if you select **Role** in the **Resource type** field.
+Specific [resource role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/create-resource-role.md) that you want to associate with the plan. This field appears if you select **Role** in the **Resource type** field.
 
 </td></tr><tr><td>
 
@@ -76,7 +76,7 @@ Specific members, any member, or all members from the selected group or role. Th
 -   To request specific members of a group or role, select **Specific members**, and then select members from the **Members list**. The requested time gets split among the selected members of the selected group or role proportionally depending on their capacity.
 -   To select any member of a group or role, select **Any member**. Resources that are most available during the plan duration are requested first. Soft allocation is created only for these resources on confirmation.
 
- For more information about the effect of members preference on the calculation of hours for soft and hard allocations, see [Resource allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/r_AllocatingResources.md).
+ For more information about the effect of members preference on the calculation of hours for soft and hard allocations, see [Resource allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/r_AllocatingResources.md).
 
 **Note:** This field is not available by default on the form when opened from the resource grid. If required, you can configure these fields. If the resource plan is created from the list view, the fields are already available.
 
@@ -88,7 +88,7 @@ Skills
 
 Specific skills the requested resources should possess to allocate them to the resource plan. This field appears if you select **Group** or **Role** in the **Resource type** field, and **All members** or **Any member** in the **Members preference** field.
 
- For more information, see [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management.md).
+ For more information, see [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/skills-management.md).
 
 </td></tr><tr><td>
 
@@ -106,7 +106,7 @@ FTE
 
 Number of units for the full-time equivalent selection. This field appears if you select **FTE** in the **Request type** field.
 
- For more information, see [Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourcePlans.md).
+ For more information, see [Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/c_ResourcePlans.md).
 
 </td></tr><tr><td>
 
@@ -203,8 +203,8 @@ Hourly rate of resource that overrides the hourly rate returned from the rate mo
 </td></tr></tbody>
 </table>**Note:** The **Members Preference**, **Allocation spread**, and **State** fields are not available by default on the form when opened from the resource grid. If required, you can configure these fields. If the resource plan is created from the list view, the fields are already available.
 
--   **[Resource Plan form tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-plan-form-tabs.md)**  
+-   **[Resource Plan form tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/rsrc-plan-form-tabs.md)**  
 Use the resource plan form tabs to create a resource plan.
 
-**Parent Topic:**[Resource Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-mgmt-reference.md)
+**Parent Topic:**[Resource Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/rsrc-mgmt-reference.md)
 

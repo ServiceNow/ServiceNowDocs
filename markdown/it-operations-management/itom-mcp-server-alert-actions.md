@@ -3,9 +3,9 @@ title: Alert actions with an MCP Client
 description: Manage alerts through an AI agent or MCP Client. The Alert Actions tool lets the agent or client act on alerts directly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-mcp-server-alert-actions.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use the ITOM MCP Server Console, AI in ITOM, IT Operations Management]
 ---

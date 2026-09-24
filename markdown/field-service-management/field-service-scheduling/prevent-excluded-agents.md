@@ -3,11 +3,11 @@ title: Example - configure dynamic scheduling to ignore excluded technicians
 description: Add dynamic scheduling task filters to ensure that work order tasks are not assigned to agents who are excluded from the customer account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/prevent-excluded-agents.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dynamic Scheduling, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
@@ -34,21 +34,21 @@ Dispatchers or managers can override exclusions at any time by manually assignin
 
 3.  On the **Task Filters** tab, add the **Ignore Excluded Technician** criterion to the task filters.
 
-    For information on adding criteria to a task filter, see [Create a task filter for dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.md)
+    For information on adding criteria to a task filter, see [Create a task filter for dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.md)
 
 4.  Select **Update**.
 
     The dynamic scheduling matching criteria screens out the excluded agents from a particular account when the work order tasks are assigned using any of the following methods:
 
-    -   [Auto assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/select-tasks-for-bulk-assignment.md)
-    -   [Managing appointments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/appointment-booking/managing-appointments.md)
+    -   [Auto assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/select-tasks-for-bulk-assignment.md)
+    -   [Managing appointments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/appointment-booking/managing-appointments.md)
 
 **Related topics**  
 
 
-[Configure Field Service Management to use dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/dynamic-sched-config-field-service.md)
+[Configure Field Service Management to use dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/dynamic-sched-config-field-service.md)
 
-[Create a task filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.md)
+[Create a task filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.md)
 
-[Exclude Field Service technicians from being assigned work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/exclude-agents-from-being-assigned-tasks.md)
+[Exclude Field Service technicians from being assigned work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/exclude-agents-from-being-assigned-tasks.md)
 

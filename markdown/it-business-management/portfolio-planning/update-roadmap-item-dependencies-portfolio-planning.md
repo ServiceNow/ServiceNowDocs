@@ -3,11 +3,11 @@ title: Update roadmap item dependencies
 description: Update or delete the dependencies for the planning items on your roadmap so that they reflect any change of plans.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/update-roadmap-item-dependencies-portfolio-planning.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace, roadmap]
 breadcrumb: [Add dependencies for roadmap items, Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
@@ -31,15 +31,15 @@ Dependencies for free-form roadmaps are available only if the roadmap's source t
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d193815e99">
+<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d194099e99">
 
 Roadmap type
 
-</th><th align="left" id="d193815e102">
+</th><th align="left" id="d194099e102">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d193815e108">
+</th></tr></thead><tbody><tr><td id="d194099e108">
 
 **Portfolio plan roadmap**
 
@@ -49,7 +49,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d193815e129">
+</td></tr><tr><td id="d194099e129">
 
 **Free-form roadmap**
 
@@ -68,15 +68,15 @@ From the Free-form Roadmaps tab, select a roadmap.
 
 4.  From the side panel, locate your dependency and use the More actions icon \(\[Omitted image "icon-more-actions.png"\] Alt text: More actions icon.\) to edit or delete.
 
-<table id="choicetable_syp_cn3_2tb"><thead><tr><th align="left" id="d193815e186">
+<table id="choicetable_syp_cn3_2tb"><thead><tr><th align="left" id="d194099e186">
 
 Choice
 
-</th><th align="left" id="d193815e189">
+</th><th align="left" id="d194099e189">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d193815e195">
+</th></tr></thead><tbody><tr><td id="d194099e195">
 
 **Edit dependency**
 
@@ -85,9 +85,9 @@ Steps
 1.  Select **Edit**.
 2.  In the Dependency details form, update the required fields and select **Save**.
 
-For field information, see [Dependency form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/dependency-form.md).
+For field information, see [Dependency form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/dependency-form.md).
 
-</td></tr><tr><td id="d193815e231">
+</td></tr><tr><td id="d194099e231">
 
 **Delete dependency**
 
@@ -99,5 +99,5 @@ For field information, see [Dependency form](https://raw.githubusercontent.com/S
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Add dependencies for roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/add-dependencies-roadmap-items-portfolio-planning.md)
+**Parent Topic:**[Add dependencies for roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/add-dependencies-roadmap-items-portfolio-planning.md)
 

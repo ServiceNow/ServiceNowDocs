@@ -3,11 +3,11 @@ title: Enable downloading of the source Microsoft Word document for a knowledge 
 description: Set the sn\_km\_word.glide.knowman.enable\_document\_download property to enable users to download the source Microsoft Word document of a knowledge article from the knowledge article view page in a portal or workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/enable-downloading-article-word-document.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Knowledge Management - Add-in for Microsoft Word, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---

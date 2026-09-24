@@ -3,9 +3,9 @@ title: View a product adoption roadmap
 description: View and organize products or capabilities into lanes to create a visual adoption plan for customer engagements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-view-par-roadmap.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Product adoption, Customer success, Use, Customer Success Management]
 ---
@@ -27,7 +27,7 @@ The header section displays the following:
 -   Phase field: The field used to organize lanes \(for example, Business criticality, Customer priority\)
 -   Planning object: Indicates whether the roadmap organizes Product Usage or Capability Usage
 -   Last updated: Date the roadmap was last modified
--   Template: Shows the template name if the roadmap was created from a template. See [Define a product adoption roadmap template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-par-roadmap-temp.md) for details.
+-   Template: Shows the template name if the roadmap was created from a template. See [Define a product adoption roadmap template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-create-par-roadmap-temp.md) for details.
 -   Version: Shows the version label of the currently published roadmap state.
 
 ## Product adoption roadmap lanes
@@ -63,21 +63,21 @@ The **Versions** related list on the roadmap record displays all published versi
 -   Snapshots: JSON representations of the roadmap header, lanes, and items at the time of publishing. These fields are read-only.
 -   Previous version: A reference to the version record that preceded this one, providing a full lineage chain.
 
-To revert the roadmap to a previous version, see [Revert a product adoption roadmap to a previous version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-revert-par-roadmap.md).
+To revert the roadmap to a previous version, see [Revert a product adoption roadmap to a previous version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-revert-par-roadmap.md).
 
--   **[Product adoption roadmap versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-par-versioning.md)**  
+-   **[Product adoption roadmap versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-par-versioning.md)**  
 Versioning preserves a snapshot of your roadmap each time you publish it, creating a complete history you can review or restore when plans change.
--   **[Revert a product adoption roadmap to a previous version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-revert-par-roadmap.md)**  
+-   **[Revert a product adoption roadmap to a previous version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-revert-par-roadmap.md)**  
 Restore a product adoption roadmap to the state captured in a previous published version.
 
-**Parent Topic:**[Product adoption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-use-product-adopt.md)
+**Parent Topic:**[Product adoption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-use-product-adopt.md)
 
 **Related topics**  
 
 
-[Product adoption roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-par-roadmap.md)
+[Product adoption roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-par-roadmap.md)
 
-[Product adoption roadmap versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-par-versioning.md)
+[Product adoption roadmap versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-par-versioning.md)
 
-[Revert a product adoption roadmap to a previous version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-revert-par-roadmap.md)
+[Revert a product adoption roadmap to a previous version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-revert-par-roadmap.md)
 

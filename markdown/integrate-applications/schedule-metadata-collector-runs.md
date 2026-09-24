@@ -3,9 +3,9 @@ title: Schedule metadata collector runs
 description: Schedule a metadata collector to run automatically at a specified frequency.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/schedule-metadata-collector-runs.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Running metadata collectors, Data Catalog, Workflow Data Fabric]
 ---
@@ -47,5 +47,5 @@ Configure collection schedules to maintain up-to-date catalog metadata without m
 7.  Select **Save**.\[Omitted image "dc-mcollector-schedule.png"\] Alt text:
 
 
-**Parent Topic:**[Running metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/run-metadata-collectors-dc.md)
+**Parent Topic:**[Running metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/run-metadata-collectors-dc.md)
 

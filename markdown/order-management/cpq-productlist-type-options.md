@@ -3,7 +3,7 @@ title: ProductList.Type options: Accessory and Component
 description: Define quantity behavior in product hierarchies. The Accessory type keeps quantity constant; The Component type multiplies it by the parent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-productlist-type-options.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -28,5 +28,5 @@ The following video details ProductList.Type options for manipulating product qu
 **Related topics**  
 
 
-[Using ProductList.extended to populate the Quote Line record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reverse_twin_productlist_extended_data_to_quoteline.md)
+[Using ProductList.extended to populate the Quote Line record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/reverse_twin_productlist_extended_data_to_quoteline.md)
 

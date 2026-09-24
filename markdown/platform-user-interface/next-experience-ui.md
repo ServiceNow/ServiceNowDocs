@@ -3,9 +3,9 @@ title: Exploring Next Experience UI
 description: Learn about the key Next Experience features.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/next-experience-ui.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [next experience, user interface, unified navigation]
 breadcrumb: [Next Experience UI, Configure UIs and portals, Configure user experiences]

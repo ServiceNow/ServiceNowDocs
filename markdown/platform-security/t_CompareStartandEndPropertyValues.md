@@ -3,9 +3,9 @@ title: Compare CI snapshots
 description: You can compare the properties and relationships of a CI at two different points in its timeline.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_CompareStartandEndPropertyValues.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [History Timeline, Knowing about History sets, Auditing]
 ---

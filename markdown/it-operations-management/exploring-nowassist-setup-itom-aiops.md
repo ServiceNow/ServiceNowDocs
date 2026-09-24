@@ -3,9 +3,9 @@ title: Install ITOM using ServiceNow Otto for Setup
 description: ServiceNow Otto for Setup provides a guided setup experience to install and configure IT Operations Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/exploring-nowassist-setup-itom-aiops.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [explore]
 breadcrumb: [IT Operations Management]
@@ -19,7 +19,7 @@ ServiceNow Otto for Setup provides a guided setup experience to install and conf
 
 You access ServiceNow Otto for Setup from the Admin Home page. The Manage your products section organizes your licensed ServiceNow products into dedicated spaces for focused setup and configuration. Select **IT Operations Management** to access tailored administrative tools and overviews.
 
-\[Omitted image "nowassist-setup-admin-home-page.png"\] Alt text: Admin Home page showing the Manage your products section with cards for , IT Operations Management and ServiceNow Otto.
+\[Omitted image "nowassist-setup-admin-home-page.png"\] Alt text: Admin Home page showing the Manage your products section with cards for IT Operations Management and ServiceNow Otto.
 
 The Welcome! Let's get started section walks first-time administrators through the initial ITOM setup process. Select **Start setup** to install all required applications and plug-ins needed to begin managing your IT infrastructure.
 
@@ -41,5 +41,5 @@ The Resources section helps you build foundational knowledge of ITOM. Watch an i
 
 ## Install and configure ITOM applications
 
-Once you use ServiceNow Otto for Setup to install ITOM, you can also use it to install [ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/itom-visibility-landing-page.md) and [AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-health-landing-page.md). Then, use the ITOM Configuration Console to configure [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/itom-conf-console.md) and [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/aiops-conf-console.md), two essential ITOM applications.\[Omitted image "aiops-admin-conf-itom-page.png"\] Alt text: The Configure IT Operations Management page where you can access the Discovery and Event Management modules.
+Once you use ServiceNow Otto for Setup to install ITOM, you can also use it to install [ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/itom-visibility-landing-page.md) and [AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-health-landing-page.md). Then, use the ITOM Configuration Console to configure [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/itom-conf-console.md) and [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/aiops-conf-console.md), two essential ITOM applications.\[Omitted image "aiops-admin-conf-itom-page.png"\] Alt text: The Configure IT Operations Management page where you can access the Discovery and Event Management modules.
 

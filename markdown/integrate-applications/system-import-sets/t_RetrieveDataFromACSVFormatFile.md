@@ -3,11 +3,11 @@ title: Retrieving data from a CSV formatted file
 description: In this method, you import data from another instance using an HTTPS data source to return a CSV formatted file containing the rows to be imported.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/t\_RetrieveDataFromACSVFormatFile.html
-release: australia
+release: brazil
 product: System Import Sets
 classification: system-import-sets
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Importing from another ServiceNow instance, Import sets, Imports, Workflow Data Fabric]
 ---
@@ -51,5 +51,5 @@ This approach uses the Import Sets application to retrieve the data from the sou
 4.  After setting up the data source, configure a standard transform map.
 
 
-**Parent Topic:**[Importing from another ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportingFromAnotherSNInstance.md)
+**Parent Topic:**[Importing from another ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/c_ImportingFromAnotherSNInstance.md)
 

@@ -3,11 +3,11 @@ title: Submit a time card for a demand task
 description: The resources assigned to a demand task create and submit a time card or time sheet to record the time spent on a demand task. The reported hours are used to calculate the actual cost and effort for a demand task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/submit-time-for-demand.html
-release: australia
+release: brazil
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a demand, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -30,15 +30,15 @@ The resource submits the time card or time sheet to record and track the work pe
 
 2.  Create a time card.
 
-<table id="choicetable_jfv_4xf_2hb"><thead><tr><th align="left" id="d168457e76">
+<table id="choicetable_jfv_4xf_2hb"><thead><tr><th align="left" id="d168798e76">
 
 Demand task assignment
 
-</th><th align="left" id="d168457e79">
+</th><th align="left" id="d168798e79">
 
 To create a time card
 
-</th></tr></thead><tbody><tr><td id="d168457e85">
+</th></tr></thead><tbody><tr><td id="d168798e85">
 
 **If a demand task is assigned to you**
 
@@ -48,7 +48,7 @@ To create a time card
 2.  Select the **Add to Time Sheet** link in the task.
 
 
-</td></tr><tr><td id="d168457e106">
+</td></tr><tr><td id="d168798e106">
 
 **If a demand task is assigned to you as an additional assignee**
 
@@ -64,5 +64,5 @@ To create a time card
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreatingDemands.md)
+**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/t_CreatingDemands.md)
 

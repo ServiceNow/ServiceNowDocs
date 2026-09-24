@@ -3,11 +3,11 @@ title: Add observables to TISC Case
 description: Use this section to add security incidents or observables to a TISC case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/tisc-si-case.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with TISC Context, TISC integration within SIR Workspace, Working with Security Incident Records, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -54,19 +54,19 @@ Role required: sn\_si.analyst, sn\_sec\_tisc.case\_write
 
 7.  View the associated case records by logging into Threat Intelligence Security Center workspace for further steps.
 
-    For more information see, [TISC integration with SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-integration-with-sir-workspace.md).
+    For more information see, [TISC integration with SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-integration-with-sir-workspace.md).
 
     **Note:**
 
     From the Security Incident Response Workspace, you can also associate observables to case records from the **Investigation** and **Related Records** tabs.
 
-    **Note:** To associate observables from **Investigation**, follow the following procedure and to associate from **Related Records** explained here [Add observables to TISC Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/observables-to-case.md).You can also navigate to the **Investigation** tab, and navigate to the **Entry Points Lists** section displayed on the left side of the page and select **Associated Observables** to add observables to TISC case.
+    **Note:** To associate observables from **Investigation**, follow the following procedure and to associate from **Related Records** explained here [Add observables to TISC Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/observables-to-case.md).You can also navigate to the **Investigation** tab, and navigate to the **Entry Points Lists** section displayed on the left side of the page and select **Associated Observables** to add observables to TISC case.
 
 
-**Parent Topic:**[Working with TISC Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/working-with-tisc-context.md)
+**Parent Topic:**[Working with TISC Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/working-with-tisc-context.md)
 
 **Related topics**  
 
 
-[Enable security incidents for vulnerabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/tisc-view-security-context.md)
+[Enable security incidents for vulnerabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/tisc-view-security-context.md)
 

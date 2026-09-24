@@ -3,11 +3,11 @@ title: Locate and pick the enterprise assets in your stockroom using the Mobile 
 description: Locate an enterprise asset placed in a specific aisle and space in the stockroom by using indoor maps. After locating the asset, pick and drop off the asset to another location within the stockroom using the Mobile Agent application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/locate-and-pick-enterprise-asset-mobile-app.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage enterprise asset pick tasks using the Mobile Agent application, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]
 ---

@@ -3,9 +3,9 @@ title: Workforce Optimization for CSM Agent Workspace
 description: Manage your profile and schedule using Agent Workspace. Use coaching to review and complete assigned training.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/wfo-csm-agent-workspace.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Workforce Optimization for Customer Service, Agent management, Use,
 
 Manage your profile and schedule using Agent Workspace. Use coaching to review and complete assigned training.
 
-**Important:** To access the next generation of the Workforce Optimization for Customer Service application, transition to the Workforce Optimization for Customer Service application that is available from the ServiceNow Store. You can now configure Workforce Optimization for Customer Service using the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md). For more information see, [Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configurable-wfo-cs.md).
+**Important:** To access the next generation of the Workforce Optimization for Customer Service application, transition to the Workforce Optimization for Customer Service application that is available from the ServiceNow Store. You can now configure Workforce Optimization for Customer Service using the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder-overview.md). For more information see, [Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configurable-wfo-cs.md).
 
 The image below displays the agent work flow between the different modules in Workforce Optimization for Customer Service. \[Omitted image "agent-wfo-workflow.png"\] Alt text: Agent workflow for Workforce Optimization for Customer Service.
 

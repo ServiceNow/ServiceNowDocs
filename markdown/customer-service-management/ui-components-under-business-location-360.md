@@ -3,9 +3,9 @@ title: Business Location 360 components
 description: Customer service agents can resolve reported business location issues by using different components on the Business Location 360 page in the Customer Service Management \(CSM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ui-components-under-business-location-360.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Using Business Location 360, Manage cases, Use, Customer Service Management]
 ---
@@ -45,7 +45,7 @@ The location information component displays the location information details for
 
 The **Email** and **Phone** links are clickable. When you select these links, the information is copied to the clipboard.
 
-**Note:** If your administrator hasn't enabled Computer Telephony Integration \(CTI\), your contact numbers are copied to the clipboard instead of calling the numbers directly​. For more information about integrating Computer Telephony Integration \(CTI\), see [Computer Telephony Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ComputerTelephonyIntegration.md).
+**Note:** If your administrator hasn't enabled Computer Telephony Integration \(CTI\), your contact numbers are copied to the clipboard instead of calling the numbers directly​. For more information about integrating Computer Telephony Integration \(CTI\), see [Computer Telephony Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_ComputerTelephonyIntegration.md).
 
 On the location information link, navigate to the business location hierarchy view page​ by selecting the view hierarchy icon \[Omitted image "hierarchy.png"\] Alt text: view hierarchy icon..
 
@@ -122,7 +122,7 @@ The following example shows a list of the different KPIs. The list includes the 
 
 \[Omitted image "bl360-KPIs.png"\] Alt text: List of different KPIs that includes the number of P1 cases, the number of cases by priority, and the SLAs that were breached.
 
-These KPIs are filtered to show the current business location-related details. Your administrator can customize these KPIs according to your location's requirements by using the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md).
+These KPIs are filtered to show the current business location-related details. Your administrator can customize these KPIs according to your location's requirements by using the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder-overview.md).
 
 ## Task tab
 
@@ -159,11 +159,11 @@ The following example shows a list of the consumers that are associated with a b
 **Related topics**  
 
 
-[Using Business Location 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-the-business-location-360.md)
+[Using Business Location 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/using-the-business-location-360.md)
 
-[Access Business Location 360 as a customer service agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/access-business-location-360-as-agents.md)
+[Access Business Location 360 as a customer service agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/access-business-location-360-as-agents.md)
 
-[Access Business Location 360 as a customer service manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/access-business-location-360-as-csm-managers.md)
+[Access Business Location 360 as a customer service manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/access-business-location-360-as-csm-managers.md)
 
-[Access Business Location 360 as a location service agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/access-bl-360-as-loc-serv-agent.md)
+[Access Business Location 360 as a location service agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/access-bl-360-as-loc-serv-agent.md)
 

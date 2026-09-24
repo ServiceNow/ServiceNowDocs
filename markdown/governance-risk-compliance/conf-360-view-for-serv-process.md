@@ -3,9 +3,9 @@ title: Configure 360º views for services and processes
 description: Configure 360º views for the services, business services, business processes, and application services. You can select the table for which you want to update the sector configurations, relationship registries, and their positions on the 360º view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/conf-360-view-for-serv-process.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -54,6 +54,6 @@ Role required: sn\_oper\_res.admin
 
     \[Omitted image "conf-360-view-f-bs-form.png"\] Alt text: Positions of the relationships.
 
-    For more information on 360º views, see [Exploring the 360º view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-360-degree-relationship-visualization/understanding-360-view.md).
+    For more information on 360º views, see [Exploring the 360º view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-360-degree-relationship-visualization/understanding-360-view.md).
 
 

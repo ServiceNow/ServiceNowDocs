@@ -3,11 +3,11 @@ title: Project task checklist items
 description: Track the activities that must be completed on a task using the project task checklist items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/project-task-checklist.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Project planning in Project Workspace, Explore, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -22,10 +22,10 @@ Checklist items don't have start or end dates, nor do they track effort or cost.
 
 Checklists and tasks are copied into a project template. You also have access to all checklist templates from any project task form.
 
-**Parent Topic:**[Project planning in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/project-planning-in-pw.md)
+**Parent Topic:**[Project planning in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/project-planning-in-pw.md)
 
 **Related topics**  
 
 
-[Create checklist items for a project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-project-task-checklist.md)
+[Create checklist items for a project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/create-project-task-checklist.md)
 

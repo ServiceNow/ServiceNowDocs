@@ -3,11 +3,11 @@ title: Close multiple incidents from list
 description: Close multiple incidents from the incident list simultaneously that can have the same resolution code.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/t\_ClosingIncidentsFromAList.html
-release: australia
+release: brazil
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Incident resolution and closure, Managing incidents, Incident Management, IT Service Management]
 ---
@@ -37,5 +37,5 @@ Role required: itil, list\_updater, sn\_incident\_write, or admin
     The changes apply to all the selected records.
 
 
-**Parent Topic:**[Incident resolution and closure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/c_IncidentResolutionAndRecovery.md)
+**Parent Topic:**[Incident resolution and closure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/c_IncidentResolutionAndRecovery.md)
 

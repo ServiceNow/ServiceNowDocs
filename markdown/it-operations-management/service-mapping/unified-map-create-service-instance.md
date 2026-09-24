@@ -3,11 +3,11 @@ title: Create a service instance from various data sources
 description: Search for mapped and unmapped services to unify. The flow is available using the Service Mapping workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/unified-map-create-service-instance.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Service Mapping Plus, ITOM, CSDM, business context, business application]
 breadcrumb: [Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
@@ -19,7 +19,7 @@ Search for mapped and unmapped services to unify. The flow is available using th
 
 ## About this task
 
-[Multi-source service mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/multi-source-service-mapping.md)
+[Multi-source service mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/multi-source-service-mapping.md)
 
 ## Before you begin
 
@@ -120,9 +120,9 @@ Provide a brief summary of what this service instance does. For example: Unified
 
         While selecting the services to unify, details and preview maps are available for unmapped and mapped services, using the info icon. A list of configuration items \(CI\) is displayed for review before the final step of creating the unified service. The CIs origins are mentioned in the **Parents** field.
 
-        **Note:** Map preview isn’t supported for unmapped tag-based services.
+        **Note:** Map preview is not supported for unmapped tag-based services.
 
-    7.  Select **Next**
+    7.  Select **Next**.
 
 5.  Enrich your service by linking it to its business context.
 
@@ -175,19 +175,17 @@ Business service offerings represent specific workflows or solutions that are de
 
 6.  Review the service details and select **Create**.
 
-    When the process of creating the unified service is complete, the unified service map is displayed in the "Unified map" format. You can review the map using the CMDB Workspace, showing the complete consolidated view. It can take a few minutes for the map to load.
+    When the process of creating the unified service is complete, the unified service map is displayed in the "Unified map" format. You can review the map using the CMDB Workspace or the Service Graph Workspace, showing the complete consolidated view. It can take a few minutes for the map to load.
 
-    **Note:**
-
-    The unified service is created as non-operational by default. All selected unmapped services convert into non-operational mapped services.
+    **Note:** The unified service is created as non-operational by default. All selected unmapped services convert into non-operational mapped services.
 
 
-**Parent Topic:**[Using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/using-service-mapping.md)
+**Parent Topic:**[Using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/using-service-mapping.md)
 
 **Related topics**  
 
 
-[Edit a unified service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/unified-map-edit-unified-service.md)
+[Edit a unified service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/unified-map-edit-unified-service.md)
 
-[Delete a unified service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/unified-map-delete-unified-service.md)
+[Delete a unified service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/unified-map-delete-unified-service.md)
 

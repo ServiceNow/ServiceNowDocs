@@ -3,11 +3,11 @@ title: Asset analytics overview for Enterprise Asset workspace
 description: Use the Asset Analytics view to get a detailed view of all your assets, their overall performance, and the asset total cost of ownership \(TCO\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/eam-asset-dboard.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Enterprise Asset Workspace, Explore, Enterprise Asset Management, Asset Management]
 ---
@@ -155,7 +155,7 @@ The Asset performance tab provides details on the average values of the followin
 -   Mean time between failures \(MTBF\)
 -   Mean time to repair \(MTTR\)
 
-**Note:** For more details on calculation of KPIs, see [Asset performance reports in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/asset-performance-reports-eam.md).
+**Note:** For more details on calculation of KPIs, see [Asset performance reports in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/asset-performance-reports-eam.md).
 
 By default, the **Model category** filter is applied to the KPI reports. To further narrow down and focus on specific data, you can also select any one of the following filters:
 

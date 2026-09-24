@@ -3,11 +3,11 @@ title: Compare scenarios
 description: Compare scenarios side by side to evaluate comprehensive planning, optimize resource usage, confirm feasibility, and financial information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/compare-scenarios-in-portfolio-planning.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Optimize planning with scenario planning, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Compare scenarios side by side to evaluate comprehensive planning, optimize reso
 
 ## Before you begin
 
-Verify that you have created one or more planning scenarios and selected planning items for execution. For more information, see [Create a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-a-scenario-in-portfolio-planning.md).
+Verify that you have created one or more planning scenarios and selected planning items for execution. For more information, see [Create a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/create-a-scenario-in-portfolio-planning.md).
 
 Role required:
 
@@ -64,10 +64,10 @@ Role required:
     -   Better benefit from financial planning using the widgets, Budget vs Target to validate the allocated budget against the set targets, Benefit to identify scenario with better monetary benefit, and Budget Distribution.
 7.  Select the **Approve Scenario** button relevant to a scenario to approve it.
 
-    For more information about approving existing scenarios in the Portfolio Planning Workspace, see [Approve a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/approve-a-scenario-in-portfolio-planning.md).
+    For more information about approving existing scenarios in the Portfolio Planning Workspace, see [Approve a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/approve-a-scenario-in-portfolio-planning.md).
 
 
 ## What to do next
 
-[Approve a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/approve-a-scenario-in-portfolio-planning.md)
+[Approve a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/approve-a-scenario-in-portfolio-planning.md)
 

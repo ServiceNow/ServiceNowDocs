@@ -3,9 +3,9 @@ title: Integrate inbound events
 description: This example illustrates how to create a notification from an inbound JSON request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_IntegratingInboundEvents.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [References, Inbound email, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -48,7 +48,7 @@ The following example steps assume you have your own demonstration instance.
 
     \[Omitted image "RESTRequest.png"\] Alt text: The REST JSON request
 
-5.  Select **Send**.
+5.  Click **Send**.
 
 6.  Navigate to **Response** &gt; **Response Body \(Raw\)**.
 
@@ -56,14 +56,14 @@ The following example steps assume you have your own demonstration instance.
 
     \[Omitted image "RESTResponse.png"\] Alt text: The REST response
 
-8.  Log in to your development instance.
+8.  Login to your development instance.
 
 9.  In Navigation filter, enter `imp_notification.list`.
 
 10. Verify that the import set table has an event matching your JSON request.
 
-    \[Omitted image "rest-import-set-table.png"\] Alt text: Import set table showing an event record that matches the JSON request data
+    \[Omitted image "RESTImportSetTable.png"\] Alt text: REST import set table
 
 
-**Parent Topic:**[References for Inbound email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/references-inbound-email.md)
+**Parent Topic:**[References for Inbound email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/references-inbound-email.md)
 

@@ -3,11 +3,11 @@ title: Exclude a resource from all Cloud Cost Management reports
 description: To ensure that cost data for a particular resource doesn’t appear in a report, you exclude the resource by adding it to the Excluded Resources list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/exclusion-list-add-to-cloudin.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -50,8 +50,8 @@ Role required: insights\_admin \[sn\_clin\_core.insights\_admin\] or insights\_o
 
 The resource is excluded from all reports. After you submit the record, you can open it to update the reports from which to exclude the resource.
 
--   **[Remove a resource from the Excluded Resources list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/exclusion-list-remove-cloudin.md)**  
+-   **[Remove a resource from the Excluded Resources list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/exclusion-list-remove-cloudin.md)**  
 You can remove a resource from the Excluded Resources list.
 
-**Parent Topic:**[Using Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/using-cloud-insights.md)
+**Parent Topic:**[Using Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/using-cloud-insights.md)
 

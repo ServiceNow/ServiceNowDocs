@@ -3,11 +3,11 @@ title: Publish customizations to an application repository
 description: After you have designed, developed, and successfully tested your customizations to a store application or a scoped plugin, you can publish it to the ServiceNow application repository to share it to other instances in your company.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/application-repository-self-hosted/publish-customizations-app-repo.html
-release: australia
+release: brazil
 product: Application Repository \(Self-Hosted\)
 classification: application-repository-self-hosted
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage customizations to applications, ServiceNow application repository, Application sharing, Administer your apps, Deploying applications, Building applications]
 ---
@@ -22,7 +22,7 @@ Role required: admin, or delegated\_developer with Publish To App Repo permissio
 
 Only one customization can be created per vendor or customer code registered on the store and app repo.
 
-To enable a developer to publish an application to the application repository, delegate the Publish to App Repo permission to the developer. For more information, see [Delegate development and deployment permissions to personnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/t_AddADeveloper.md).
+To enable a developer to publish an application to the application repository, delegate the Publish to App Repo permission to the developer. For more information, see [Delegate development and deployment permissions to personnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/delegated-development-and-deployment/t_AddADeveloper.md).
 
 ## Procedure
 

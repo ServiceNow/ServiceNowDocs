@@ -3,9 +3,9 @@ title: Parameters of the SystemEvent connector methods
 description: Learn about the various parameters of the SystemEvent connector methods in RPA Desktop Design Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/parameters-systemevents-methods.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [System Events, Connectors, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -33,7 +33,7 @@ Learn about the various parameters of the SystemEvent connector methods in RPA D
 
 ## Configure inputs for the parameters
 
-To enter inputs for parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+To enter inputs for parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-input-port-properties.md).
 
-**Parent Topic:**[System Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-events-connector.md)
+**Parent Topic:**[System Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-events-connector.md)
 

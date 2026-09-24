@@ -3,11 +3,11 @@ title: Digital Product Release properties
 description: Configure the system properties to customize various features of Digital Product Release according to your organization's needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/digital-product-release-properties.html
-release: australia
+release: brazil
 product: Digital Product Release
 classification: digital-product-release
 topic_type: reference
-last_updated: "2026-07-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Reference, Digital Product Release, IT Service Management]
 ---
@@ -129,7 +129,7 @@ Determines whether to create individual releases that can be managed independent
 -   When set to false, a main release is created for the primary product or service that includes individual releases for each product as dependent releases.
 -   When set to true, a release bundle is created that includes independent releases for each included product.
 
-For more information, see [Create a release with a wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-create-release-guided.md).
+For more information, see [Create a release with a wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-create-release-guided.md).
 
  -   Type: true\|false
 -   Default value: false
@@ -141,7 +141,7 @@ sn\_dpr.multi\_product.included\_products\_limit
 
 </td><td>
 
-Specifies the maximum number of products that can be added as Included products when creating a multi-product release. For more information, see [Create a release with a wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-create-release-guided.md).
+Specifies the maximum number of products that can be added as Included products when creating a multi-product release. For more information, see [Create a release with a wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-create-release-guided.md).
 
 **Note:** This property is applicable only if sn\_dpr.multi\_product.create\_independent\_releases is set to true.
 
@@ -155,7 +155,7 @@ sn\_dpr.out\_of\_band\_release\_allowed
 
 </td><td>
 
-Determines whether a release can be created on any given date, without a release target.**Note:** When the property is set to true, you can still set out-of-band release targets at individual product level from the product's release settings. For more information, see [Configure product-level release settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-config-product-release-setting.md).
+Determines whether a release can be created on any given date, without a release target.**Note:** When the property is set to true, you can still set out-of-band release targets at individual product level from the product's release settings. For more information, see [Configure product-level release settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-config-product-release-setting.md).
 
 -   Type: true\|false
 -   Default value: true
@@ -178,7 +178,7 @@ sn\_dpr.release\_calendar\_exclusions
 
 Restricts the schedules shown as part of release calendar using the encoded query.
 
- You can use an encoded query on the cmn\_schedule table to filter and show specific schedules in the **Exclusion schedules** field on the [Release calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-create-release-calendar.md) dialog box. Blackout and Maintenance schedules are included by default.
+ You can use an encoded query on the cmn\_schedule table to filter and show specific schedules in the **Exclusion schedules** field on the [Release calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-create-release-calendar.md) dialog box. Blackout and Maintenance schedules are included by default.
 
  -   Type: string
 -   Default value: None \(empty string\)
@@ -224,7 +224,7 @@ sn\_dpr.VulnerabilitiesTypeMapping
 
 </td><td>
 
-Customizes the levels mapped to various types of vulnerabilities so that they can be represented in the Vulnerabilities widget in the [Release Quality dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-release-quality-dashboard.md).
+Customizes the levels mapped to various types of vulnerabilities so that they can be represented in the Vulnerabilities widget in the [Release Quality dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-release-quality-dashboard.md).
 
 </td></tr><tr><td>
 
@@ -280,7 +280,7 @@ sn\_dpr\_workspace.cmdb\_model\_creation.supported\_ci\_types
 
 </td><td>
 
-Specifies the comma-separated list of configuration item \(CI\) types that can be associated with products or services while requesting them. For more information, see [Request a new product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-request-product.md).-   Type: string
+Specifies the comma-separated list of configuration item \(CI\) types that can be associated with products or services while requesting them. For more information, see [Request a new product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-request-product.md).-   Type: string
 -   Default value: cmdb\_ci\_service\_technical, cmdb\_ci\_service\_business, cmdb\_ci\_service\_auto, cmdb\_ci\_business\_app
 -   Other possible values: Valid CI types
 
@@ -297,5 +297,5 @@ Specifies the comma-separated list of work item types that can be mapped to a pr
 When the value is empty, product enhancements are not created automatically.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Digital Product Release reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-reference.md)
+</table>**Parent Topic:**[Digital Product Release reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-reference.md)
 

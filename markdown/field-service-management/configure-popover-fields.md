@@ -3,9 +3,9 @@ title: Configure popover fields
 description: Configure the fields that appear in task popovers across Dispatcher Workspace, including the task panel, calendar, and map markers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/configure-popover-fields.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---
@@ -18,7 +18,7 @@ Configure the fields that appear in task popovers across Dispatcher Workspace, i
 
 Role required: admin
 
-The system property sn\_fsm\_disp\_wrkspc.dispatcher\_workspace.task\_panel\_card\_hover\_popover must be enabled to see popovers on the task card. The system property sn\_fsm\_disp\_wrkspc.dispatcher\_workspace.calendar\_event\_hover\_popover must be enabled to see popovers on events in the calendar. These fields are enabled by default. For more information, see [Properties installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/r_PropInstallWFieldServMgmnt.md).
+The system property sn\_fsm\_disp\_wrkspc.dispatcher\_workspace.task\_panel\_card\_hover\_popover must be enabled to see popovers on the task card. The system property sn\_fsm\_disp\_wrkspc.dispatcher\_workspace.calendar\_event\_hover\_popover must be enabled to see popovers on events in the calendar. These fields are enabled by default. For more information, see [Properties installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/r_PropInstallWFieldServMgmnt.md).
 
 ## Procedure
 
@@ -37,15 +37,15 @@ The system property sn\_fsm\_disp\_wrkspc.dispatcher\_workspace.task\_panel\_car
 
 2.  Choose from the following.
 
-<table id="choicetable_cn3_bdn_fjc"><thead><tr><th align="left" id="d41441e186">
+<table id="choicetable_cn3_bdn_fjc"><thead><tr><th align="left" id="d42920e186">
 
 Selection
 
-</th><th align="left" id="d41441e189">
+</th><th align="left" id="d42920e189">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d41441e195">
+</th></tr></thead><tbody><tr><td id="d42920e195">
 
 **Select __New__**
 
@@ -55,7 +55,7 @@ Action
 2.  Select **Submit**.
 
 
-</td></tr><tr><td id="d41441e218">
+</td></tr><tr><td id="d42920e218">
 
 **Select an existing field**
 

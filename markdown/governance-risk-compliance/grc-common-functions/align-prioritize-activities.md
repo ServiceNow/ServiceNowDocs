@@ -3,11 +3,11 @@ title: Align and prioritize cybersecurity activities
 description: Within the NIST CSF application, the Framework Profiling section is used to help an organization to align and prioritize its cybersecurity activities with its requirements, risk tolerances, and resources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/align-prioritize-activities.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Process overview, NIST CSF Use Case Accelerator, GRC use case accelerators, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -30,18 +30,18 @@ Next, users perform gap analysis on the cybersecurity activities. The analysis g
 
 The ServiceNow® GRC suite of applications play a crucial role in tracking the data that enables these metrics. The NIST CSF application is designed to provide the Cybersecurity framework, but it is completely enabled by the ServiceNow® GRC product.
 
--   **[Generate a target for an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/generate-target.md)**  
+-   **[Generate a target for an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/generate-target.md)**  
 Generate a target record for an entity to track NIST CSF attributes for that entity.
--   **[Set up target for NIST CSF framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/setup-target-use-nist-csf-framework.md)**  
+-   **[Set up target for NIST CSF framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/setup-target-use-nist-csf-framework.md)**  
 Set up a target record to use with NIST CSF framework after you've identified a target.
--   **[Orient target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/orient-target.md)**  
+-   **[Orient target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/orient-target.md)**  
 After you've identified a target, orient the target to use with the NIST CSF framework.
--   **[Create activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-activity.md)**  
+-   **[Create activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/create-activity.md)**  
 Create a cybersecurity activity for a target.
--   **[Perform gap analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/perform-gap-analysis.md)**  
+-   **[Perform gap analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/perform-gap-analysis.md)**  
 Perform a Gap analysis of cybersecurity activities.
--   **[Review action plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/review-action-plan.md)**  
+-   **[Review action plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/review-action-plan.md)**  
 Review the remediation tasks created for the controls or risks associated with cybersecurity activities. You can only edit or update action plans if you have sufficient privileges for the GRC suite.
 
-**Parent Topic:**[NIST CSF process overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/nist-csf-process.md)
+**Parent Topic:**[NIST CSF process overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/nist-csf-process.md)
 

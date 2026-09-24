@@ -3,9 +3,9 @@ title: Add the tree picker attribute
 description: A limit of 1000 has been placed on the number of nodes returned to the tree picker. This limit is configurable with the glide.ui.group\_heirarchy.max\_nodes property.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_AddTheTreePickerAttribute.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Tree picker, Common UI elements, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -24,12 +24,12 @@ Role required: personalize\_dictionary
 
 ## Procedure
 
-1.  Open the [Dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DictionaryAttributes.md) for the field.
+1.  Open the [Dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_DictionaryAttributes.md) for the field.
 
 2.  Add `tree_picker=true` to the **Attributes** field.
 
     If there are multiple attributes, use a comma to separate them without any spaces between.
 
 
-**Parent Topic:**[Tree picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_TreePicker.md)
+**Parent Topic:**[Tree picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_TreePicker.md)
 

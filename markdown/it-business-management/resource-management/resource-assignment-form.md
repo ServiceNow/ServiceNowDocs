@@ -3,11 +3,11 @@ title: Resource assignment form
 description: Description for the resource assignment form fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/resource-assignment-form.html
-release: australia
+release: brazil
 product: Resource Management
 classification: resource-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Resource Management reference, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -86,7 +86,7 @@ Rate model
 
 </td><td>
 
-Rate model assigned to the operational resource plan. The [rate model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/rate-model/rate-model.md) is used to derive hourly rates for the resource plan.If you change or remove the rate model assigned to an operational resource plan, the cost fields on the plan are re-calculated.
+Rate model assigned to the operational resource plan. The [rate model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/rate-model/rate-model.md) is used to derive hourly rates for the resource plan.If you change or remove the rate model assigned to an operational resource plan, the cost fields on the plan are re-calculated.
 
 </td></tr><tr><td>
 
@@ -113,5 +113,5 @@ Resource status
 Status of the resource assignment.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Resource Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-mgmt-reference.md)
+</table>**Parent Topic:**[Resource Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/rsrc-mgmt-reference.md)
 

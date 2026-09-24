@@ -3,9 +3,9 @@ title: Components installed with Retail core overview
 description: Several types of components such as tables, user roles, and business rule are installed when you activate the Retail Core.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-components-installed-retail-core.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Components installed with plugins, Reference, Retail]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Components installed with plugins, Reference, Retail]
 
 Several types of components such as tables, user roles, and business rule are installed when you activate the Retail Core.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 ## Tables installed with Retail Core
 
@@ -37,7 +37,7 @@ Stores information about the task details.
 </td></tr></tbody>
 </table>## Base roles installed with Retail Core
 
-For information on configuring these roles for retail, see [Assign roles to Retail users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-assign-roles-users.md).
+For information on configuring these roles for retail, see [Assign roles to Retail users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-assign-roles-users.md).
 
 <table id="table_d5t_ttp_bdc"><thead><tr><th>
 
@@ -158,11 +158,11 @@ Business Organization
 
 This plugin supports the Service Model Foundation, where the corporation does business with customers through physical channels such as stores and branches.
 
- For more information, see [Configure Service Model Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-industry-data-model.md).
+ For more information, see [Configure Service Model Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-industry-data-model.md).
 
 </td></tr><tr><td>
 
-Customer Service
+Case Management Core
 
  \[com.sn\_customerservice\]
 
@@ -170,7 +170,7 @@ Customer Service
 
 The Customer Service Management application enables you to provide service and support for your external customers using several communication channels, such as email, web, and telephone. A case is created to track the issue reported or service requested and assigned to groups or agents. Customer service agents in your organization work on the cases and resolve issues.
 
- For more information, see [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceManagement.md).
+ For more information, see [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_CustomerServiceManagement.md).
 
 </td></tr><tr><td>
 
@@ -203,5 +203,5 @@ Includes common themes, widgets, and code artifacts for customer and industry wo
 |Restrict SO update|sn\_retail\_organization|Before update|Restricts the user from updating the Organization Core field in the Retail Organization \[sn\_retail\_organization\] table.|
 |Hide multistore child cases|sn\_retail\_case|Before Query|Filters retail cases whose parent's child case creation state is either none or Completed successfully.|
 
-**Parent Topic:**[Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-components-installed-with-plugins.md)
+**Parent Topic:**[Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-components-installed-with-plugins.md)
 

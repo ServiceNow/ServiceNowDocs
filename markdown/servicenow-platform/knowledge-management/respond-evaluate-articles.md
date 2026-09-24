@@ -3,11 +3,11 @@ title: Provide feedback for a knowledge article in the Now Mobile Information ap
 description: You can contribute to feedback on knowledge articles by rating an article, marking an article as helpful or not helpful, and posting and replying to comments for an article in the Now Mobile Information applet.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/respond-evaluate-articles.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Now Mobile for Knowledge Management, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -104,12 +104,12 @@ View files, if available, attached to a comment. To view a file, tap the file na
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Now Mobile for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/mobile-experience-for-km.md)
+**Parent Topic:**[Using Now Mobile for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/mobile-experience-for-km.md)
 
 **Related topics**  
 
 
-[View an article in the Now Mobile Information applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/view-article-now-mobile.md)
+[View an article in the Now Mobile Information applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/view-article-now-mobile.md)
 
-[Control access at the knowledge article level through user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_SelectUCArticle.md)
+[Control access at the knowledge article level through user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/t_SelectUCArticle.md)
 

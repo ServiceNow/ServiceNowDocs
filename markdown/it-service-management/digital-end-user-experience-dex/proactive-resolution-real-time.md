@@ -3,13 +3,13 @@ title: Real-time proactive resolution
 description: Use metric rules, alerts, and auto-correction scripts to detect and remediate device and application issues within minutes, before users are affected.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/proactive-resolution-real-time.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2026-05-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Resolve, Digital End-User Experience, IT Service Management]
+breadcrumb: [Resolve issues, Solve issues, Digital End-User Experience, IT Service Management]
 ---
 
 # Real-time proactive resolution
@@ -27,7 +27,7 @@ DEX supports two real-time detection and remediation approaches:
 
 When a metric rule detects that a device or application metric has breached a threshold, DEX generates events and alerts in the following sequence:
 
-\[Omitted image "dex-alert-generation-flow.svg"\] Alt text: DEX alert generation flow
+\[Omitted image "dex-alert-remediation-flow.svg"\] Alt text: DEX alert generation flow
 
 1.  DEX evaluates metric rules against incoming metric data for each device.
 2.  For each device that breaches a threshold, DEX creates an event in the `em_event` table.

@@ -3,9 +3,9 @@ title: View a publication
 description: Access the details of a publication and review them using the Targeted Communications menu.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_TargetCommViewPubInAppNav.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Targeted communications, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -18,7 +18,7 @@ Access the details of a publication and review them using the Targeted Communica
 
 Role required: sn\_customerservice.customer
 
-**Note:** To view a published publication, see [View a publication on the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_TargetCommViewPubOnPortal.md)
+**Note:** To view a published publication, see [View a publication on the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/t_TargetCommViewPubOnPortal.md)
 
 ## Procedure
 

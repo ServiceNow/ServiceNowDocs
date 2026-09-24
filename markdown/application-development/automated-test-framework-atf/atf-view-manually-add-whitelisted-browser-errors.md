@@ -3,11 +3,11 @@ title: Manually allow client errors
 description: Manually create allowed client error entries as needed in the Allowed Client Errors table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-view-manually-add-whitelisted-browser-errors.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Allowed client errors, Building and running automated tests with the Automated Test Framework, Automated Test Framework \(ATF\) test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -78,10 +78,10 @@ Description of the error you want to allow. If this client error was allowed fro
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Allowed client errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/whitelisted-client-errors.md)
+**Parent Topic:**[Allowed client errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/whitelisted-client-errors.md)
 
 **Related topics**  
 
 
-[Allowed client errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/whitelisted-client-errors.md)
+[Allowed client errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/whitelisted-client-errors.md)
 

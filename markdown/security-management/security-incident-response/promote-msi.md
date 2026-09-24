@@ -3,12 +3,13 @@ title: Promote to a Major Security Incident
 description: Promote a security incident to a major security incident or reject promoted proposals through the Major Security Incident Management \(MSIM\) Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/promote-msi.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
+keywords: [major security incident, promote, MSIM, candidates]
 breadcrumb: [Propose, promote, and link incident records, Use, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -17,8 +18,6 @@ breadcrumb: [Propose, promote, and link incident records, Use, Major Security In
 Promote a security incident to a major security incident or reject promoted proposals through the Major Security Incident Management \(MSIM\) Workspace.
 
 ## Before you begin
-
-Role required: sn\_msi.workspace\_admin
 
 ## Procedure
 
@@ -52,8 +51,8 @@ Role required: sn\_msi.workspace\_admin
 
 6.  Either promote the security incident or reject the promotion proposal.
 
-    -   To promote the incident, click **Promote to Major Security Incident**.
-    -   To reject the promotion proposal, click **Reject as Major Security Incident**.
+    -   To promote the incident, select **Promote to Major Security Incident**.
+    -   To reject the promotion proposal, select **Reject as Major Security Incident**.
 7.  Select **Save**.
 
 
@@ -63,13 +62,13 @@ Role required: sn\_msi.workspace\_admin
 -   If you promoted the incident, the incident entry moves to the Open tab and the security record displays a tag indicating that it is a major security incident.
 -   The decision is listed in the Activity section of the MSIM Workspace.
 
-Once an incident is promoted, the default configuration is applied.
+After an incident is promoted, the default configuration is applied.
 
 -   A folder structure is created based on the folder template configuration.
 -   Chat channels are created based on the channels configuration.
--   An email message is sent to the designated users. The default notification contains a link to the major security incident and details of the incident. The designated users also now have access to the collaboration resources, so the notification also includes the Microsoft Team name and a link to Microsoft SharePoint folders related to the incident.
+-   An email message is sent to the designated users. The default notification contains a link to the major security incident and details of the incident. The designated users also now have access to the collaboration resources, so the notification also includes the Microsoft Teams name and a link to Microsoft SharePoint folders related to the incident.
 
-**Parent Topic:**[Propose, promote, and link incident records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/promoting-sir-to-msim.md)
+**Parent Topic:**[Propose, promote, and link incident records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/promoting-sir-to-msim.md)
 
 **Related topics**  
 

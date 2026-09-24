@@ -3,11 +3,11 @@ title: Create a resource block for Microsoft Azure Cloud
 description: Resource blocks are the building blocks of cloud catalog items. Create a resource block for the Microsoft Azure Cloud Platform provider, based on a CI type from the CMDB.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-resource-block-azure-terraform.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Resource blocks in Cloud Provisioning and Governance, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -26,7 +26,7 @@ Role required: sn\_cmp.cmp\_root\_admin
 
 2.  Click **New** to open the Create Resource Block dialog box and then fill in the form.
 
-    For a detailed description of each field, see [Create a custom resource block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-resource-block.md).
+    For a detailed description of each field, see [Create a custom resource block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/create-resource-block.md).
 
     |Field|Description|
     |-----|-----------|
@@ -189,5 +189,5 @@ Enter an optional condition that must be met before the system uses this step.
     The Azure Datacenter resource block moves from the draft to the published state and no further changes can be made to the resource block. Changes to a resource block can be made only if the status is set to **Draft**.
 
 
-**Parent Topic:**[Resource blocks in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/resource-blocks.md)
+**Parent Topic:**[Resource blocks in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/resource-blocks.md)
 

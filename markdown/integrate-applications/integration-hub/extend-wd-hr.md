@@ -3,7 +3,7 @@ title: Extend functionality of the Workday HR spoke
 description: Extend the Workday HR spoke beyond the default functionalities, such as adding new input and output fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/extend-wd-hr.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: reference

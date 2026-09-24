@@ -3,9 +3,9 @@ title: Windows Connector methods
 description: The Windows methods in RPA Desktop Design Studio interact with the Windows applications to perform various tasks. The connector provides methods at different levels of the Windows applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/connectors-windows-methods.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Windows connector, Connectors, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,11 +16,11 @@ The Windows methods in RPA Desktop Design Studio interact with the Windows appli
 
 ## Windows connector method levels
 
-[Connector level methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connectors-windows-methods.md)
+[Connector level methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/connectors-windows-methods.md)
 
-[Window level methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connectors-windows-methods.md)
+[Window level methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/connectors-windows-methods.md)
 
-[Element level methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connectors-windows-methods.md)
+[Element level methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/connectors-windows-methods.md)
 
 ## Connector level methods
 
@@ -42,7 +42,7 @@ Sets the working directory of the application for all file operations through th
 
 -   **Input**
 
-    [Path](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-windows.md)
+    [Path](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/method-parameter-windows.md)
 
 
 ## Start
@@ -51,7 +51,7 @@ Starts the application.
 
 -   **Input**
 
-    [Path](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-windows.md) [Args](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-windows.md)
+    [Path](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/method-parameter-windows.md) [Args](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/method-parameter-windows.md)
 
 
 ## Terminate
@@ -77,7 +77,7 @@ To configure, do the following steps.
 
 -   **Output**
 
-    [Form element data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-windows.md)
+    [Form element data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/method-parameter-windows.md)
 
 
 ## GetScreenShot
@@ -86,7 +86,7 @@ Captures the screenshot of the screen.
 
 -   **Output**
 
-    [Return \(Bitmap\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-windows.md)
+    [Return \(Bitmap\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/method-parameter-windows.md)
 
 
 ## IsCreated
@@ -95,11 +95,11 @@ Returns the Boolean response depending on whether a specific window matches the 
 
 -   **Inputs**
 
-    [MatchAllChildren](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/application-level-method-parameters.md)
+    [MatchAllChildren](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/application-level-method-parameters.md)
 
 -   **Outputs**
 
-    [Return \(Boolean\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/application-level-method-parameters.md)
+    [Return \(Boolean\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/application-level-method-parameters.md)
 
 
 ## Maximize
@@ -116,11 +116,11 @@ Simulates keystrokes on web pages and windows.
 
 -   **Inputs**
 
-    [Keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/application-level-method-parameters.md)
+    [Keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/application-level-method-parameters.md)
 
-    [ClearExistingValue \(Boolean\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/application-level-method-parameters.md)
+    [ClearExistingValue \(Boolean\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/application-level-method-parameters.md)
 
-    [TypeDelay](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/application-level-method-parameters.md)
+    [TypeDelay](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/application-level-method-parameters.md)
 
 
 ## SetFields
@@ -134,7 +134,7 @@ Sets data in form field types. To set the form fields, you must first configure 
 
 -   **Input**
 
-    [Form data field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-windows.md)
+    [Form data field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/method-parameter-windows.md)
 
 
 ## WaitForCreate
@@ -143,13 +143,13 @@ Sets delay before a web page or a window loads.
 
 -   **Inputs**
 
-    [timeoutInSeconds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/application-level-method-parameters.md)
+    [timeoutInSeconds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/application-level-method-parameters.md)
 
-    [MatchAllChildren](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/application-level-method-parameters.md)
+    [MatchAllChildren](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/application-level-method-parameters.md)
 
 -   **Outputs**
 
-    [Return \(Boolean\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/application-level-method-parameters.md)
+    [Return \(Boolean\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/application-level-method-parameters.md)
 
 
 ## Element level methods
@@ -166,7 +166,7 @@ Checks whether an element matches the rules set in the MATCH CHILDREN window.
 
 -   **Outputs**
 
-    [Return \(Boolean\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/element-level-method-parameters.md)
+    [Return \(Boolean\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/element-level-method-parameters.md)
 
 
 ## SendKeys
@@ -175,18 +175,18 @@ Simulates keystrokes on web pages and windows.
 
 -   **Inputs**
 
-    [Keys \(String\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/element-level-method-parameters.md)
+    [Keys \(String\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/element-level-method-parameters.md)
 
-    [ClearExistingValue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/element-level-method-parameters.md)
+    [ClearExistingValue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/element-level-method-parameters.md)
 
-    [TypeDelay \(Double\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/element-level-method-parameters.md)
+    [TypeDelay \(Double\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/element-level-method-parameters.md)
 
 
 ## SetPassword
 
 Automate entering password securely in the password field of a Windows application.
 
-To provide inputs to the fields see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+To provide inputs to the fields see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-input-port-properties.md).
 
 <table id="table_jrs_nts_vzb"><thead><tr><th>
 
@@ -273,5 +273,5 @@ Yes
 **Tip:** If the **SetPassword** method fails to input the password in the password field, set the value to **True** and execute the method again.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Windows connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/windows-connector.md)
+</table>**Parent Topic:**[Windows connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/windows-connector.md)
 

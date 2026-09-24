@@ -3,11 +3,11 @@ title: My Attestation Overview dashboard
 description: The Assessment Overview dashboard displays various assessment reports, such as Assessable Records by Type, Total Metrics by Metric Type, and Assessments by State. You can now view the dashboard in the Next Experience UI Framework.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/my-attestation-ovrview-pa-pc.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Analytics and Reporting solutions for GRC: Policy and Compliance Management, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -38,8 +38,8 @@ To open the dashboard, navigate to **All** &gt; **Policy and Compliance** &gt; *
 |My Attestations|Bar chart|Total number of attestations assigned to you, broken down by state|
 |My Pending Attestations|List|A list of the pending attestations assigned to you|
 
--   **[GRC Attestation Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/grc-control-attest-dashboard.md)**  
+-   **[GRC Attestation Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/grc-control-attest-dashboard.md)**  
 The GRC Attestation Overview dashboard provides views attestations assigned to you, as well as pending and overdue attestations.
 
-**Parent Topic:**[Analytics and Reporting solutions for GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/grc-policy-compliance-content-pack.md)
+**Parent Topic:**[Analytics and Reporting solutions for GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/grc-policy-compliance-content-pack.md)
 

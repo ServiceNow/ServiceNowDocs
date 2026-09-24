@@ -3,9 +3,9 @@ title: EMR Provider Directory Sync
 description: The EMR Provider Directory Sync imports HL7 FHIR R4 resources from a FHIR server into the ServiceNow Healthcare Operations data model on a configurable schedule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-fhir-landing.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-06-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Healthcare Integrations, Healthcare and Life Sciences]
 ---
@@ -16,21 +16,21 @@ The EMR Provider Directory Sync imports HL7 FHIR R4 resources from a FHIR server
 
 The Healthcare Operations \(HCO\) data model depends on accurate organization, location, and practitioner records. This application ingests four FHIR R4 resources from a FHIR server on a configurable schedule and upserts them into the corresponding Healthcare Operations tables. Records are identified across runs by the FHIR resource ID, stored as an external identifier on each target.
 
-The integration is one-way \(FHIR server to ServiceNow\), admin-operated, and scheduled. It builds on the [HL7 FHIR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/fhir-spoke-landing.md), which provides the read-only FHIR actions, and owns all FHIR-to-HCLS field mapping, upsert keys, and dependency ordering.
+The integration is one-way \(FHIR server to ServiceNow\), admin-operated, and scheduled. It builds on the [HL7 FHIR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/fhir-spoke-landing.md), which provides the read-only FHIR actions, and owns all FHIR-to-HCLS field mapping, upsert keys, and dependency ordering.
 
 ## Get started
 
--   [What EMR Provider Directory Sync does](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-fhir-overview.md)
--   [How the FHIR sync works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-fhir-how-it-works.md)
--   [Prerequisites for the FHIR integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-fhir-prerequisites.md)
--   [Activate the FHIR sync schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-fhir-activate.md)
--   [Change the sync schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-fhir-configure-schedule.md)
--   [Configure the organization classification decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-fhir-configure-decision-table.md)
--   [Run the initial load](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-fhir-run-initial-load.md)
--   [Monitor and troubleshoot FHIR sync runs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-fhir-monitor-sync.md)
--   [Components installed with EMR Provider Directory Sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-fhir-installed-components.md)
--   [FHIR Sync Log fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-fhir-sync-log-fields.md)
--   [FHIR-to-HCLS field mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-fhir-field-mappings.md)
+-   [What EMR Provider Directory Sync does](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hco-fhir-overview.md)
+-   [How the FHIR sync works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hco-fhir-how-it-works.md)
+-   [Prerequisites for the FHIR integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hco-fhir-prerequisites.md)
+-   [Activate the FHIR sync schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hco-fhir-activate.md)
+-   [Change the sync schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hco-fhir-configure-schedule.md)
+-   [Configure the organization classification decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hco-fhir-configure-decision-table.md)
+-   [Run the initial load](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hco-fhir-run-initial-load.md)
+-   [Monitor and troubleshoot FHIR sync runs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hco-fhir-monitor-sync.md)
+-   [Components installed with EMR Provider Directory Sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hco-fhir-installed-components.md)
+-   [FHIR Sync Log fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hco-fhir-sync-log-fields.md)
+-   [FHIR-to-HCLS field mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hco-fhir-field-mappings.md)
 
 ## Helpful resources
 

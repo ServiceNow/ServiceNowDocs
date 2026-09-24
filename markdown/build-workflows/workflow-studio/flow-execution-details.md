@@ -3,13 +3,13 @@ title: Flow execution details
 description: View run-time information about an action or flow directly from the design environment, such as the current state, items run, and values produced. Open related records from embedded ServiceNow AI Platform editors or in a new tab.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-execution-details.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
-breadcrumb: [Flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
+breadcrumb: [Explore flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Flow execution details
@@ -61,11 +61,11 @@ Each reporting level generates progressively more flow execution details.
 
 If a flow runs while reporting is off, past execution details are never available for the flow, even if the reporting level later changes. If a flow runs while reporting is on, execution details are available for that flow execution, even if the reporting level changes. The reporting level has no effect on context and log records.
 
-You can configure the default reporting level the system uses to generate execution details each time a flow is run. For more information, see [Activate flow reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/enable-flow-reporting.md).
+You can configure the default reporting level the system uses to generate execution details each time a flow is run. For more information, see [Activate flow reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/enable-flow-reporting.md).
 
 ## Refresh flow data
 
-Update flow runtime data as needed. Set a flow preference to refresh flow data automatically when you run a test. See [User preferences for flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-preferences.md).
+Update flow runtime data as needed. Set a flow preference to refresh flow data automatically when you run a test. See [User preferences for flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-preferences.md).
 
 ## Flow state
 
@@ -145,7 +145,7 @@ The following types of execution details are available.
 
 -   **Integration Metadata**
 
-    View transaction data such as connection and credential used, MID Server used, target host, and payload size. Integration Metadata is only displayed for integration steps and requires a separate Integration Hub subscription. For more information, see [Integration steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-steps.md).
+    View transaction data such as connection and credential used, MID Server used, target host, and payload size. Integration Metadata is only displayed for integration steps and requires a separate Integration Hub subscription. For more information, see Integration steps.
 
 -   **Configuration Details**
 
@@ -167,7 +167,7 @@ The following types of execution details are available.
 
     Use the list of steps to identify any configuration errors with the action. Each step has its own row displaying the variable name, data type, configuration settings, and runtime value. Core actions don’t display steps because you can’t change their configuration.
 
-    Change the **com.snc.process\_flow.reporting.serialized.val\_size\_limit** system property to truncate runtime values in the flow execution details step configuration. To learn more, see [Workflow Studio flow system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-designer-system-properties.md).
+    Change the **com.snc.process\_flow.reporting.serialized.val\_size\_limit** system property to truncate runtime values in the flow execution details step configuration. To learn more, see [Workflow Studio flow system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-designer-system-properties.md).
 
 -   **Start time**
 
@@ -184,7 +184,7 @@ The following types of execution details are available.
     -   Time communicating with a MID Server
 -   **Retry Info**
 
-    Use the retry info section to view details about the retry policy. Details include the type of retry strategy, elapsed time, and the next scheduled retry request. The Retry Info section appears only when the retry policy is enabled in the step. For more information, see [Retry policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/retry-policy.md).
+    Use the retry info section to view details about the retry policy. Details include the type of retry strategy, elapsed time, and the next scheduled retry request. The Retry Info section appears only when the retry policy is enabled in the step. For more information, see [Retry policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/retry-policy.md).
 
 
 ## Calling source
@@ -196,7 +196,7 @@ The calling source lists what started a flow, subflow, or action.
 |Workflow Studio Test|The flow started because someone selected the **Test** option from the Workflow Studio interface. The flow trigger conditions were ignored.|
 |CRUD Trigger|The flow started when the record-based trigger conditions were met.|
 |Date Trigger|The flow started when the schedule-based trigger conditions were met.|
-|Metric Trigger|The flow started when the MetricBase trigger conditions of a [MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase.md) were met.|
+|Metric Trigger|The flow started when the MetricBase trigger conditions of a [MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/metricbase.md) were met.|
 |Service Catalog Trigger|The flow started when a Service Catalog item was requested.|
 |Script|The flow started from a method call in a script, such as a business rule.|
 |Background Script|The flow started from a method call in the **Scripts - Background** module.|
@@ -228,7 +228,7 @@ Process analysts can view subflow execution details from multiple locations.
 
 ## User role support
 
-You can control access to flow execution details by granting user roles. For more information about available Workflow Studio user roles, see [User access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/user-access-flow-designer.md).
+You can control access to flow execution details by granting user roles. For more information about available Workflow Studio user roles, see [User access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/user-access-flow-designer.md).
 
 <table id="table_utq_v2r_nnb"><thead><tr><th>
 
@@ -281,5 +281,5 @@ fd\_read\_operations
 </td></tr></tbody>
 </table>## Run with roles support
 
-When a flow runs with one or more privileged roles, a user must also have these privileged roles to see the flow execution details. For example, if a flow runs as System, then a user must have the admin role to view its flow execution details. In addition, if a flow runs with a role that can access field encryption, then a user must also have that role in order to view its flow execution details. For more information about field encryption and roles, see [Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/field-encryption.md).
+When a flow runs with one or more privileged roles, a user must also have these privileged roles to see the flow execution details. For example, if a flow runs as System, then a user must have the admin role to view its flow execution details. In addition, if a flow runs with a role that can access field encryption, then a user must also have that role in order to view its flow execution details. For more information about field encryption and roles, see [Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/field-encryption.md).
 

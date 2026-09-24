@@ -3,11 +3,11 @@ title: Schedule a full scan
 description: Create a schedule to regularly trigger a full scan even when you don’t have an active session. A schedule creates an established baseline for the health of the instance and provides a comparison to configuration and instance health over time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/instance-scan/hs-schedule-full-scan.html
-release: australia
+release: brazil
 product: Instance Scan
 classification: instance-scan
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Instance Scan, Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -57,7 +57,7 @@ Role required: admin
 
 A schedule to trigger a full scan regularly even without an active session is created.
 
-**Parent Topic:**[Using Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-using-scans.md)
+**Parent Topic:**[Using Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/instance-scan/hs-using-scans.md)
 
 **Related topics**  
 

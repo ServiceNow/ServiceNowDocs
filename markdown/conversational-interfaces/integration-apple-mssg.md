@@ -1,0 +1,42 @@
+---
+title: Conversational Integration with Apple Messages for Business
+description: Use the Conversational Integration with Apple Messages for Business application to empower customers to engage with your business using their Apple devices. Conversational Integration with Apple Messages for Business provides rich messaging capabilities such as Apple pay, forms, time picker, and authentication.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/integration-apple-mssg.html
+release: brazil
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
+---
+
+# Conversational Integration with Apple Messages for Business
+
+Use the Conversational Integration with Apple Messages for Business application to empower customers to engage with your business using their Apple devices. Conversational Integration with Apple Messages for Business provides rich messaging capabilities such as Apple pay, forms, time picker, and authentication.
+
+## Get started with Conversational Integration with Apple Messages for Business
+
+Select a tile to get started.
+
+<table id="table_ev3_ndm_v4b" class="nav-card"><tbody><tr><td>
+
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Integrate Apple Messages for Business with Virtual Agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/exploring-va-apple-msg-business.md)
+
+</td><td>
+
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text: Install and configure your Apple Messages for Business implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/messg-apple-configure.md)
+
+</td><td>
+
+[Use\[Omitted image "bus-chat.svg"\] Alt text: Agents and requesters can use Apple Messages for Business in portals on your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/messg-apple-using.md)
+
+</td></tr></tbody>
+</table>## Request apps on the Store
+
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+-   **[Exploring Conversational Integration with Apple Messages for Business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/exploring-va-apple-msg-business.md)**  
+Use Conversational Integration with Apple Messages for Business to connect a requester with a virtual agent or live agent using your company's Apple Messages for Business account.
+
+**Parent Topic:**[Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-integration-messaging-apps.md)
+

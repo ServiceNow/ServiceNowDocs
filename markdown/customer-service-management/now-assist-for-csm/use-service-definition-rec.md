@@ -3,11 +3,11 @@ title: Create a case based on service definition recommendations
 description: Use ServiceNow Otto to view AI-predicted service recommendations based on the context of an interaction record, such as the short description or description, and create cases based on these recommendations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/use-service-definition-rec.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_esm\_agent
 
 ## Procedure
 
-1.  Navigate to an interaction record in the CSM/FSM Configurable Workspace or Core UI where you want to create a case based on a service recommendation using ServiceNow Otto.
+1.  Navigate to an interaction record in the CRM Workspace or Core UI where you want to create a case based on a service recommendation using ServiceNow Otto.
 
 2.  Select **Create Case.**
 
@@ -35,5 +35,5 @@ Role required: sn\_esm\_agent
     A case is created for the selected service.
 
 
-**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

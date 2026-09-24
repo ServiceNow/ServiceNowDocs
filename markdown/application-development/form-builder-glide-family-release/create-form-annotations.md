@@ -3,11 +3,11 @@ title: Create form annotations in Table Builder
 description: Add instructional text and other design elements to your forms by using form annotations in Table Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/form-builder-glide-family-release/create-form-annotations.html
-release: australia
+release: brazil
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Forms in Table Builder, Using Table Builder, Table Builder, Builder library, Developing your application, Building applications]
 ---
@@ -18,13 +18,13 @@ Add instructional text and other design elements to your forms by using form ann
 
 ## Before you begin
 
--   Launch Table Builder. For more information, see [Accessing Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/accessing-form-builder.md).
--   \(Optional\) Choose a domain to work within \(if not global\). For more information, see [Domain separation and Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/form-builder-domain-separation.md).
--   \(Optional\) Choose an application scope to work within \(if not global\). For more information, see [Using an application scope with Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/fb-application-scope.md).
+-   Launch Table Builder. For more information, see [Accessing Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/accessing-form-builder.md).
+-   \(Optional\) Choose a domain to work within \(if not global\). For more information, see [Domain separation and Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/form-builder-domain-separation.md).
+-   \(Optional\) Choose an application scope to work within \(if not global\). For more information, see [Using an application scope with Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/fb-application-scope.md).
 
-**Note:** To understand how to approach customizing your forms, review [Table Builder workflow and navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/form-builder-workflow.md).
+**Note:** To understand how to approach customizing your forms, review [Table Builder workflow and navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/form-builder-workflow.md).
 
-Role required: personalize\_form or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_form or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## Procedure
 
@@ -32,13 +32,15 @@ Role required: personalize\_form or AES user role and delegated developer permis
 
 2.  Choose a view to work with.
 
-    For detailed information on how to choose a view for a form, see [Choose a form view in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/manage-form-views.md).
+    For detailed information on how to choose a view for a form, see [Choose a form view in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/manage-form-views.md).
 
 3.  To display a list of the available components that you can add to your form view, in the Add form elements panel, select **Components**.
 
     **Note:** You can also launch the Add form elements panel by clicking the Add \(\[Omitted image "fb-add-icon.png"\] Alt text: Add icon.\) icon above an existing element in the form editor.
 
-4.  Select the **Annotation** elements, and then drag it to the location in the form editor where you'd like to position the annotation text.
+4.  Select the **Annotation** elements, and then drag it to the location in the form editor where you'd like to position the annotation text as shown in the following example.
+
+    \[Omitted image "fb-annotation-drag.gif"\] Alt text: Add annotation.
 
 5.  Select the **Annotation type**.
 
@@ -55,15 +57,15 @@ Role required: personalize\_form or AES user role and delegated developer permis
 
 6.  Select an option for **Annotation text**.
 
-<table id="choicetable_ttw_vx3_fsb"><thead><tr><th align="left" id="d276655e296">
+<table id="choicetable_ttw_vx3_fsb"><thead><tr><th align="left" id="d268553e311">
 
 Annotation text option
 
-</th><th align="left" id="d276655e299">
+</th><th align="left" id="d268553e314">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d276655e305">
+</th></tr></thead><tbody><tr><td id="d268553e320">
 
 **Plain text**
 
@@ -71,7 +73,7 @@ Description
 
 Text that is entered renders on the form as plain text.
 
-</td></tr><tr><td id="d276655e314">
+</td></tr><tr><td id="d268553e329">
 
 **Rich text**
 
@@ -91,5 +93,5 @@ Rich text. When you point to the text box below, an Edit rich text icon is displ
 8.  Select **Save**.
 
 
-**Parent Topic:**[Forms in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/form-view-configuration.md)
+**Parent Topic:**[Forms in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/form-view-configuration.md)
 

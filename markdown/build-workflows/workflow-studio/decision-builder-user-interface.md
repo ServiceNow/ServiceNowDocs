@@ -1,20 +1,20 @@
 ---
 title: Decision Builder user interface
-description: The decision tables user interface in Workflow Studio provides controls for creating, editing, and managing decision tables.
+description: Learn more about the decision tables user interface in Workflow Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/decision-builder-user-interface.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-07-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Decision tables, Decision tables, Workflow Studio, Build workflows]
 ---
 
 # Decision Builder user interface
 
-The decision tables user interface in Workflow Studio provides controls for creating, editing, and managing decision tables.
+Learn more about the decision tables user interface in Workflow Studio.
 
 ## Decision tables home page in Workflow Studio
 
@@ -28,11 +28,11 @@ You can do the following on the Decision tables home page in Workflow Studio:
 -   Edit the available columns by selecting the List Actions icon \(\[Omitted image "gear-icon.png"\] Alt text: Gear icon\).
 -   Delete selected decision tables.
 
-## Decision table
+## New decision table
 
-\[Omitted image "db-new-table.png"\] Alt text: Decision table page
+\[Omitted image "db-new-table.png"\] Alt text: New decision table page
 
-You can do the following on a decision table:
+You can do the following on a new decision table:
 
 -   Name your decision table and provide a description.
 -   Select an application to associate the decision table with.
@@ -66,7 +66,7 @@ On a saved decision table, you can do the following:
 
 ## Pagination
 
-Pagination presents large data sets in smaller, manageable sections called pages. Select a page number to navigate between pages.
+Pagination is a method used to present large data sets by breaking them down into smaller, more manageable sections called pages. This feature helps you to switch between pages by selecting the page you would like to see.
 
 **Note:**
 

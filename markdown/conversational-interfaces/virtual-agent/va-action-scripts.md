@@ -3,13 +3,13 @@ title: Virtual Agent action scripts
 description: You need to write a set of mandatory Workflow Studio action and subflow scripts to pass the user data to VACS, apply transformations and send the response back to your chat interface endpoint.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-action-scripts.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
-breadcrumb: [Supported features for custom chat integrations, Conversational custom chat integrations, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Supported features for custom chat integrations, Create custom chat integrations, Configure, Virtual Agent, Conversational Interfaces]
 ---
 
 # Virtual Agent action scripts
@@ -230,7 +230,7 @@ None
 
 ## Sender subflow
 
-Instead of a script, the sender subflow handles the process of sending a message to a provider. The message is contained in a **payload** string as part of the subflow. The sender has a **service\_url** and **origin\_service\_url**, while the outbound URL varies depending on the provider. For example, a message sent through MS Teams uses the value **tenant\_id**. When the Virtual Agent sends the message containing options, the recipient selects an option. The subflow updates the message display based on their choice and removes the options. The conversation continues based on the user’s selected option. The Virtual Agent is freed to continue processing messages rather than trying to send external requests. When creating a subflow do not have an action call an action within the subflow. For more information on subflows, see .
+Instead of a script, the sender subflow handles the process of sending a message to a provider. The message is contained in a **payload** string as part of the subflow. The sender has a **service\_url** and **origin\_service\_url**, while the outbound URL varies depending on the provider. For example, a message sent through Microsoft Teams uses the value **tenant\_id**. When the Virtual Agent sends the message containing options, the recipient selects an option. The subflow updates the message display based on their choice and removes the options. The conversation continues based on the user’s selected option. The Virtual Agent is freed to continue processing messages rather than trying to send external requests. When creating a subflow do not have an action call an action within the subflow. For more information on subflows, see [Managing conversational subflows in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/managing-conversational-subflows.md).
 
 ## Contextual action script
 
@@ -547,5 +547,5 @@ Virtual Agent - SMS Twilio Adapter Default Picker Inbound TransformerPurpose: Fi
 ```
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Supported Virtual Agent and Agent Chat features for custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-features-custom-chat-integrations.md)
+</table>**Parent Topic:**[Supported Virtual Agent and Agent Chat features for custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-features-custom-chat-integrations.md)
 

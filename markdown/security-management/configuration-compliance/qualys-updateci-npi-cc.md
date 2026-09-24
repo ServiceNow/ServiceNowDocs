@@ -3,13 +3,13 @@ title: Update configuration items with the network partition identifier for the 
 description: Create unique configuration items \(CIs\) for assets in your environment that share IP addresses. Identify the distinct assets across your environment and automatically update the CIs on your existing discovered item, vulnerable item, and detection records to give you more details about your vulnerabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/qualys-updateci-npi-cc.html
-release: australia
+release: brazil
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Qualys, Integrate with other applications, Configuration Compliance, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Qualys, Integrate, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
 
 # Update configuration items with the network partition identifier for the Qualys Integration

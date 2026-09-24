@@ -3,11 +3,11 @@ title: Components installed with Desktop Assistant
 description: Several types of components are installed with activation of the Desktop Assistant \[sn\_dex\_desktop\] plugin, including user roles and tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/components-installed-with-desktop-assistant.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [desktop assistant components, desktop assistant roles, desktop assistant administrator role, desktop assistant user role, desktop assistant tables, desktop assistant card table, desktop assistant section table, desktop assistant tab table, desktop assistant installation table]
 breadcrumb: [DEX Desktop Assistant reference, Reference, Digital End-User Experience, IT Service Management]
@@ -156,5 +156,5 @@ Tab to Section Mapping\[sn\_dex\_desktop\_tab\_to\_section\_mapping\]
 Specifies all the sections with in a page in a tab content.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[DEX Desktop Assistant reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-desktop-experience-reference.md)
+</table>**Parent Topic:**[DEX Desktop Assistant reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/dex-desktop-experience-reference.md)
 

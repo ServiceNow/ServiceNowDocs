@@ -3,13 +3,13 @@ title: Verify the enterprise assets received through a Drop off task
 description: As an asset manager, confirm that you received the enterprise assets that were delivered to your stockroom and complete the Receive task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/verify-assets-eam-receive.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Delivering enterprise assets, Managing work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
+breadcrumb: [Delivering enterprise assets, Manage work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Verify the enterprise assets received through a Drop off task
@@ -47,7 +47,7 @@ Role required: sn\_eam.enterprise\_asset\_manager
 
 The state of the Receive task and its Drop off task changes to Closed Complete.
 
-**Parent Topic:**[Delivering enterprise assets in your personal stockroom through Drop off tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/drop-off-receive-assets-eam.md)
+**Parent Topic:**[Delivering enterprise assets in your personal stockroom through Drop off tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/drop-off-receive-assets-eam.md)
 
 **Related topics**  
 

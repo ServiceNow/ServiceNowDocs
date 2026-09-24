@@ -3,11 +3,11 @@ title: Execute actions in Automation Center
 description: Execute an action to fix common repeated issues efficiently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/execute-action.html
-release: australia
+release: brazil
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with actions, Use, Automation Center, Workflow Data Fabric]
 ---
@@ -40,5 +40,5 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
     The action is run and displayed in the **Recents** section.
 
 
-**Parent Topic:**[Working with actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/actions.md)
+**Parent Topic:**[Working with actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/actions.md)
 

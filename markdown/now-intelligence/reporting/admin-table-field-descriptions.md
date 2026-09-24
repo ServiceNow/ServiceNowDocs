@@ -3,11 +3,11 @@ title: Administer table and field descriptions
 description: Users with the report\_description\_admin role can add and edit table and field descriptions that users see when they create reports.Users with the admin role can enable the report\_description\_admin role. Users with this role can add and edit table and field descriptions.Users with the report\_description\_admin role can add and edit table and field descriptions that users see when they create reports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/admin-table-field-descriptions.html
-release: australia
+release: brazil
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Administering reports, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -22,7 +22,7 @@ In the Report Designer, the user sees the table descriptions on the **Data** tab
 
 \[Omitted image "field-hint-in-report-designer.png"\] Alt text: Group by field in Configure tab showing field description.
 
-**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdminsteringReports.md)
+**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_AdminsteringReports.md)
 
 ## Enable the report description admin role
 
@@ -44,7 +44,7 @@ Role required: admin
 
 4.  Assign the report\_description\_admin role.
 
-    For more information, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignARoleToAUser.md) and [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md)
+    For more information, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignARoleToAUser.md) and [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignRoleToGroup.md)
 
     Users with the report\_admin role have the new role automatically.
 

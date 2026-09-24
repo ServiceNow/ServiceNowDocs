@@ -3,11 +3,11 @@ title: Legacy Software Asset Management plugin processor definitions
 description: Processor definitions for the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin are automatically derived from the information in the configuration item form for an item such as a computer or server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/r\_ViewingProcessorDefinitions.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Legacy IBM PVU Process Pack, Legacy Software Asset Management plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
@@ -34,5 +34,5 @@ The following read-only fields are listed.
 |Cores per socket|Number of cores \(functional unit needed to execute programs\) on each physical connection \(socket\) on the motherboard.|
 |Match level|Accuracy level of the association between processor and PVU mapping. Automatically set when association is inferred.|
 
-**Parent Topic:**[Legacy IBM PVU Process Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_IBMPVUProcessPack.md)
+**Parent Topic:**[Legacy IBM PVU Process Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management/c_IBMPVUProcessPack.md)
 

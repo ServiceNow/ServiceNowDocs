@@ -3,9 +3,9 @@ title: Create custom overview help
 description: You can edit existing overview help pages to display your own custom panels to selected users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/create-custom-overview-help-pages.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Overview help pages, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -133,5 +133,5 @@ Text describing what is shown in the image for this panel. This content appears 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Overview help pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/overview-help-pages.md)
+**Parent Topic:**[Overview help pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/overview-help-pages.md)
 

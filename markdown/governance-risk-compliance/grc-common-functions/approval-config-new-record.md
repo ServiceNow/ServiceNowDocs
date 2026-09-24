@@ -3,11 +3,11 @@ title: Approval Configuration New Record
 description: Use the Approval Configuration New Record form to create an approval configuration record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/approval-config-new-record.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up an approval configuration record, Use Approver Configurator for setting up approvals for setting up approvals, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -72,8 +72,8 @@ Applies to
 
 </td><td>
 
-Table from which a record is submitted for approval, such as business impact analysis or compliance policy. Only tables preconfigured in the base system are supported. For the full list, see [Base system tables configured with GRC: Approver Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/oob-tables-configured-with-approver-configurator.md).
+Table from which a record is submitted for approval. For example, business impact analysis or any table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Set up an approval configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/set-up-approval-configurator.md)
+</table>**Parent Topic:**[Set up an approval configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/set-up-approval-configurator.md)
 

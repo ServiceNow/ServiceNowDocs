@@ -3,11 +3,11 @@ title: Assign and approve unassigned work using Resource Management Workspace
 description: Filter the unassigned work to view priority requests and assign them to resources. Quickly connect with the requester via Microsoft Teams to get additional insights and approve the assigned work using the inline editing feature.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/allocate-resources-rmw.html
-release: australia
+release: brazil
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Using Resource Management Workspace, Use, Resource Management Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -28,8 +28,8 @@ The assign logic provides you with the flexibility and control for users when as
 
 ## Before you begin
 
--   [Create an active employee definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/generate-profile-definition.md) for resources to view their allocation details on the Resource Management Workspace.
--   [Create a resource card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rmw-create-rsrc-card.md).
+-    for resources to view their allocation details on the Resource Management Workspace.
+-   [Create a resource card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/rmw-create-rsrc-card.md).
 -   Role required: resource\_user, resource\_manager
 
 ## Procedure
@@ -44,15 +44,15 @@ The assign logic provides you with the flexibility and control for users when as
 
 4.  You can assign work using one of the following ways.
 
-<table id="choicetable_qth_yqy_khc"><thead><tr><th align="left" id="d286553e157">
+<table id="choicetable_qth_yqy_khc"><thead><tr><th align="left" id="d287841e143">
 
 Assign work choices
 
-</th><th align="left" id="d286553e160">
+</th><th align="left" id="d287841e146">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d286553e166">
+</th></tr></thead><tbody><tr><td id="d287841e152">
 
 **Manual Assign**
 
@@ -64,7 +64,7 @@ Enables you to choose specific resources and decide how much effort to allocate.
 2.  Partial Effort Equally: Assign only the entered efforts equally among the selected resources.
 
 
-</td></tr><tr><td id="d286553e197">
+</td></tr><tr><td id="d287841e183">
 
 **Auto Assign**
 
@@ -75,9 +75,9 @@ The system automatically identifies all resources based on the selected primary 
 </td></tr></tbody>
 </table>    **Note:** Remaining efforts after equally distributing the work among the users is retained in the Unassigned tasks tray. Resource managers can again allocate these efforts.
 
-5.  Select **Preview** to see the real-time allocations before assigning the work.
+5.  Select the **Preview** button to see the real-time allocations before assigning the work.
 
-6.  Select **Assign** to assign work to the resources.
+6.  Select the **Assign** button to assign work to the resources.
 
     The assigned work is reflected in the top tray nested by resource view and will be in Pending state \(\[Omitted image "rmw-pending-state.png"\] Alt text: Yellow rectangular pending state icon.\).
 
@@ -108,10 +108,10 @@ If no tasks appear in the Unassigned tasks tray, verify the following:
 
 1.  Verify the resource requests exist. Project Managers must create resource requests \(resource assignments with status Requested\) on project tasks. Navigate to the project and verify resource requests exist on the Resource Assignments related list.
 2.  Check if primary attributes match. The resource card filter must match the primary attributes \(Group, Skill, or Role\) defined in the resource requests. Open your resource card and verify the filter criteria aligns with existing requests.
-3.  Check if the employee profiles are generated. Verify [employee profile definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/generate-profile-definition.md) have been generated for the resources in your view.
+3.  Check if the employee profiles are generated. Ensure employee profile definitions have been generated for the resources in your view.
 4.  Request state is correct. Only resource requests in **Requested** state appear as unassigned. Requests that are already Assigned, Approved, or Cancelled don't show.
 5.  Check the date range. Verify the resource card's date range overlaps with the resource request dates. Requests outside the visible time frame will not display.
 6.  Confirm the permissions. Confirm you have the resource\_manager role, which is required to view and manage unassigned work.
 
-**Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/using-rmw.md)
+**Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/using-rmw.md)
 

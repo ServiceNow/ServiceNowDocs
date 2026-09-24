@@ -3,11 +3,11 @@ title: Customer Service Manager dashboard
 description: The Customer Service Manager dashboard displays charts and summary data on metrics like backlog, resolution rates, SLA, customer satisfaction, and per-agent KPIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/analytics-and-reporting-solutions-for-customer-service/csm-manager-dashboard.html
-release: australia
+release: brazil
 product: Analytics and Reporting Solutions for Customer Service
 classification: analytics-and-reporting-solutions-for-customer-service
 topic_type: concept
-last_updated: "2026-06-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Customer Service Platform Analytics Solutions, Analytics and reporting, Customer Service Management]
 ---
@@ -36,7 +36,7 @@ The Customer Service Manager dashboard uses the Case Assignment Group breakdown.
 
 |Indicator|Description|
 |---------|-----------|
-|CSAT|Average customer satisfaction based on survey results. The percent change in the current period appears under the total percentage. For more information about CSAT, see [Customer service satisfaction surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceSatisfactionSurvey.md).|
+|CSAT|Average customer satisfaction based on survey results. The percent change in the current period appears under the total percentage. For more information about CSAT, see [Customer service satisfaction surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_CustomerServiceSatisfactionSurvey.md).|
 |First Call Resolution|Percentage of cases that were resolved during first contact with the customer. The percent change in the current period appears under the total percentage.|
 |Mean Time to Resolve|Average time for a case to be marked as closed or resolved. The percent change in the current period appears under the total percentage.|
 |Customers Impacted by Major Case|Number of customers impacted by major cases.|
@@ -47,7 +47,7 @@ The Customer Service Manager dashboard uses the Case Assignment Group breakdown.
 
 |Indicator|Description|
 |---------|-----------|
-|CSAT|Average customer satisfaction based on survey results. The percent change in the current period appears under the total percentage. For more information about CSAT, see [Customer service satisfaction surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceSatisfactionSurvey.md).|
+|CSAT|Average customer satisfaction based on survey results. The percent change in the current period appears under the total percentage. For more information about CSAT, see [Customer service satisfaction surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_CustomerServiceSatisfactionSurvey.md).|
 |First Call Resolution|Percentage of cases that were resolved during first contact with the customer. The percent change in the current period appears under the total percentage.|
 |Open Cases with Breached SLAs|Percentage of cases that have remained open past the time required by the Service Level Agreement \(SLA\).|
 |Unassigned Open Cases|Number of open cases that are not assigned to an agent.|
@@ -196,7 +196,7 @@ CSAT
 
 </td><td>
 
-Average customer satisfaction for each agent based on survey results. Ranked from highest to lowest. For more information about CSAT, see [Customer service satisfaction surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceSatisfactionSurvey.md).
+Average customer satisfaction for each agent based on survey results. Ranked from highest to lowest. For more information about CSAT, see [Customer service satisfaction surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_CustomerServiceSatisfactionSurvey.md).
 
 </td></tr><tr><td>
 

@@ -3,9 +3,9 @@ title: Assign the CBS requester role manually
 description: Create a role rule to control which employees receive the CBS requester role, so access is granted based on conditions defined by an administrator.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/cbs-assign-requester-manual.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [CBS requester role, manual role assignment, CBS Client Role Rule, Core Business Suite]
 breadcrumb: [Requester role enhancements, Configure, Core Business Suite]
@@ -17,7 +17,7 @@ Create a role rule to control which employees receive the CBS requester role, so
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_cbs.admin, admin
 
 ## Procedure
 
@@ -31,12 +31,12 @@ Role required: admin
 
 5.  On the CBS Client Role Rule form, fill in the fields and select **Submit**.
 
-    For a description of the field values, see [CBS Client Role Rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-role-rule-form.md).
+    For a description of the field values, see [CBS Client Role Rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/cbs-role-rule-form.md).
 
 
 ## Result
 
 A role rule is created to determine how the CBS requester role gets assigned to your employees.
 
-**Parent Topic:**[CBS requester role enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-requester-role-enhancements.md)
+**Parent Topic:**[CBS requester role enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/cbs-requester-role-enhancements.md)
 

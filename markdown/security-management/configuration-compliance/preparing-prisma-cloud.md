@@ -3,13 +3,13 @@ title: Preparing for installing the Vulnerability Response Integration with Palo
 description: Prepare for installing the Vulnerability Response Integration with Palo Alto Prisma Cloud by performing setup tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/preparing-prisma-cloud.html
-release: australia
+release: brazil
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Understanding the Vulnerability Response Integration with Palo Alto Prisma Cloud, Integrate with other applications, Configuration Compliance, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Understanding the Vulnerability Response Integration with Palo Alto Prisma Cloud, Integrate, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
 
 # Preparing for installing the Vulnerability Response Integration with Palo Alto Prisma Cloud
@@ -36,7 +36,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-
+\[Omitted image "checkbox.png"\] Alt text: Checkbox image.
 
 </td><td>
 
@@ -49,15 +49,15 @@ Verify that you have the following sets of information:-   API base URL
 
 </td></tr><tr><td>
 
-
+\[Omitted image "checkbox.png"\] Alt text: Checkbox image.
 
 </td><td>
 
-If not already installed and activated, install the Vulnerability Response application before you install the Vulnerability Response Integration with Palo Alto Prisma Cloud application.For more information about installing and activating the Vulnerability Response application, see [Install Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/install-and-configure-vr.md). This integration requires version 15.2.0 of Vulnerability Response or later.
+If not already installed and activated, install the Vulnerability Response application before you install the Vulnerability Response Integration with Palo Alto Prisma Cloud application.For more information about installing and activating the Vulnerability Response application, see [Install Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/install-and-configure-vr.md). This integration requires version 15.2.0 of Vulnerability Response or later.
 
 </td></tr><tr><td>
 
-
+\[Omitted image "checkbox.png"\] Alt text: Checkbox image.
 
 </td><td>
 
@@ -67,7 +67,7 @@ See .
 
 </td></tr><tr><td>
 
-
+\[Omitted image "checkbox.png"\] Alt text: Checkbox image.
 
 </td><td>
 
@@ -84,7 +84,7 @@ Ensure you have installed the following plugins for a smooth integration run:
 
 </td></tr><tr><td>
 
-
+\[Omitted image "checkbox.png"\] Alt text: Checkbox image.
 
 </td><td>
 
@@ -94,12 +94,12 @@ Estimate the number of test results that you expect to import.
 
 </td></tr><tr><td>
 
-
+\[Omitted image "checkbox.png"\] Alt text: Checkbox image.
 
 </td><td>
 
 Verify that you have an administrator to manage the integrations and to remediate the test results:The admin installs the Vulnerability Response Integration with Palo Alto Prisma Cloud application. If not assigned, the admin assigns the vulnerability admin \(sn\_vul.vulnerability\_admin\) and other roles.
 
 </td></tr></tbody>
-</table>You are ready to [Install and configure the Vulnerability Response Integration with Palo Alto Prisma Cloud application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/install-and-configure-prisma-cloud.md).
+</table>You are ready to [Install and configure the Vulnerability Response Integration with Palo Alto Prisma Cloud application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/configuration-compliance/install-and-configure-prisma-cloud.md).
 

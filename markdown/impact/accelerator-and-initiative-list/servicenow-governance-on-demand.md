@@ -3,11 +3,11 @@ title: ServiceNow Governance – On Demand
 description: Assess your AI governance across six areas, identify and prioritize governance gaps, confirm focus areas, and build a 90-day action plan — all at your own pace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/servicenow-governance-on-demand.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-05-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [AI governance, on demand, governance assessment, 90-day action plan]
 breadcrumb: [ServiceNow Governance, Strategy Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
@@ -27,7 +27,7 @@ ServiceNow Governance – On Demand provides Impact customers with a structured,
 
 ## Prerequisites
 
--   Customers interested in deploying or planning to deploy AI capabilities \(Now Assist, AI Agents, Predictive Intelligence, or similar\)
+-   Customers interested in deploying or planning to deploy AI capabilities \(*ServiceNow Otto*, AI Agents, Predictive Intelligence, or similar\)
 -   Customer must be familiar with their organization's current approach to AI governance, risk management, and data handling
 
 ## What You Get
@@ -64,13 +64,13 @@ The following are recommended resources suggested to participate and contribute 
 |Customer Resource|Responsibilities|
 |:----------------|:---------------|
 |Platform Owner|Responsible for the overall accountability of the ServiceNow platform. Provides leadership and oversight to the System Administrators, ensures team alignment to business strategy and the ServiceNow roadmap, and is actively involved in the overarching governance of the platform.|
-|AI/ML Program Lead or Sponsor|Individual responsible for AI strategy, use case prioritization, or oversight of Now Assist / AI Agents deployment. Provides insight into current AI governance practices, risk tolerance, and organizational readiness.|
+|AI/ML Program Lead or Sponsor|Individual responsible for AI strategy, use case prioritization, or oversight of *ServiceNow Otto* / AI Agents deployment. Provides insight into current AI governance practices, risk tolerance, and organizational readiness.|
 
 ## Requested Information / Access
 
 -   Access to your ServiceNow platform instance for reference during the assessment.
 -   Knowledge of your current AI governance practices, including any policies, risk frameworks, or accountability structures in place.
--   Awareness of current and planned AI deployments \(Now Assist, AI Agents, Predictive Intelligence, custom ML models\).
+-   Awareness of current and planned AI deployments \(*ServiceNow Otto*, AI Agents, Predictive Intelligence, custom ML models\).
 -   Understanding of any regulatory or compliance requirements related to AI in your industry.
 
 ## Exclusions

@@ -3,11 +3,11 @@ title: Create or edit planning attributes
 description: Create or edit planning attributes to plan and forecast your resources and financials for a project.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/configure-planning-attributes.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using the Planning attributes, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -26,15 +26,15 @@ Role required: pps\_admin, sn\_align\_core.apw\_admin
 
 2.  Use the following options to create or edit a planning attribute.
 
-<table id="choicetable_bwd_pjg_cxb"><thead><tr><th align="left" id="d45596e76">
+<table id="choicetable_bwd_pjg_cxb"><thead><tr><th align="left" id="d44483e76">
 
 Option
 
-</th><th align="left" id="d45596e79">
+</th><th align="left" id="d44483e79">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d45596e85">
+</th></tr></thead><tbody><tr><td id="d44483e85">
 
 **To create an attribute**
 
@@ -43,7 +43,7 @@ Description
 1.  Select **New**.
 2.  On the Planning attribute form, fill the fields.
 
-For a description of the field values, see [Planning attribute form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/planning-attributes-form.md).
+For a description of the field values, see [Planning attribute form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/planning-attributes-form.md).
 
 3.  Select **Submit**.
 
@@ -54,7 +54,7 @@ The attribute is created and the planning attributes screen is displayed.
 6.  Set the planning attribute to active using the **Active** option to enable it for resource or financial planning.
 
 
-</td></tr><tr><td id="d45596e136">
+</td></tr><tr><td id="d44483e136">
 
 **To update an attribute**
 
@@ -87,5 +87,5 @@ The attribute is created and the planning attributes screen is displayed.
 **Related topics**  
 
 
-[Using the Planning attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/planning-attributes.md)
+[Using the Planning attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/planning-attributes.md)
 

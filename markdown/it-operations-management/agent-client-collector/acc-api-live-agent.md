@@ -3,11 +3,11 @@ title: Verify API is associated with a live agent
 description: Call the AgentNowHandler.hasAgent API to determine if the CI is associated with a live agent. The API gets a sys\_id of the CI and returns a true/false result.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-api-live-agent.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ACC-F reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
@@ -31,5 +31,5 @@ agentNow.hasAgent(‘158279505372b30034b8ddeeff7b1270’); // sys_id of agent
 
 ```
 
-**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
+**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
 

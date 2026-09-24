@@ -3,11 +3,11 @@ title: Create a threshold for each KPI in a KPI group
 description: Create a threshold for each KPI in a KPI group to monitor the indicator status and analyze your team’s performance. Define the threshold with upper- and lower-limit values to assess team performance for each indicator.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/create-threshold-for-kpi-in-kpi-group.html
-release: australia
+release: brazil
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setting up, Teams, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -117,5 +117,5 @@ Corresponding icon for each status. The icons are displayed only on the Manager 
         -   Value &gt; Upper Threshold \(Critical\): Exceeded &lt;Upper Threshold Value&gt;
         -   Lower Threshold \(Critical\) &lt; Value &lt; Upper Threshold \(Critical\): Approaching &lt;Upper Threshold Value&gt;
 
-**Parent Topic:**[Setting up Teams in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-teams-configurable-workforce-optimization-itsm.md)
+**Parent Topic:**[Setting up Teams in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-teams-configurable-workforce-optimization-itsm.md)
 

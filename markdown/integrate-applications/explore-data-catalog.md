@@ -3,9 +3,9 @@ title: Explore Data Catalog
 description: The Data Catalog is the self-service discovery layer for finding, evaluating, and accessing governed data assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/explore-data-catalog.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Data Catalog, Workflow Data Fabric]
 ---
@@ -69,7 +69,7 @@ This lifecycle shows the distinct phases of discovery, governance, and consumpti
 
 To learn more about using the Data Catalog, see:
 
--   [Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-metadata-collectors-dc.md)
--   [Finding and accessing data assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/find-access-data-assets-dc.md)
--   [Governing the Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-data-catalog.md)
+-   [Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-metadata-collectors-dc.md)
+-   [Finding and accessing data assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/find-access-data-assets-dc.md)
+-   [Governing the Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/manage-data-catalog.md)
 

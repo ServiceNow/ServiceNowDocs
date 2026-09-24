@@ -3,11 +3,11 @@ title: Configure Agent Client Collector Apache HTTP server monitoring
 description: To configure the Agent Client Collector to perform Apache HTTP server monitoring, set the following configurations in the Apache HTTP server application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-apache-http-server.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Operating system and application monitoring using ACC, Exploring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---

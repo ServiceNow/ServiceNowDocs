@@ -3,11 +3,11 @@ title: Setting up Coaching in Workforce Optimization for ITSM
 description: Manage agent skills and assess the quality of completed tasks. Use predictive intelligence to recommend skills for agents. Train your agents with internal and external learning content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/setup-coaching-configurable-workforce-optimization-itsm.html
-release: australia
+release: brazil
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Coaching, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Manage agent skills and assess the quality of completed tasks. Use predictive in
 
 **Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-To identify and add course items for a virtual coach, see [Identify and add course items for a virtual coach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-identify-learning-content.md).
+To identify and add course items for a virtual coach, see [Identify and add course items for a virtual coach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/coaching/cf-identify-learning-content.md).
 
 **Important:** If you have enabled the Coaching \(sn\_coaching\) plugin, make sure that you have upgraded the following plugins to latest store release version:
 
@@ -26,14 +26,14 @@ To identify and add course items for a virtual coach, see [Identify and add cour
 -   Workforce Optimization Configurable Workspace Core \(sn\_wfo\_cfg\_ws\).
 -   Workforce Optimization Common \(sn\_wfo\_common\).
 
-For more information, see [Activate Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/activate-configurable-workforce-optimization-itsm.md).
+For more information, see [Activate Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/activate-configurable-workforce-optimization-itsm.md).
 
--   **[Configure an indicator to display in the Coaching Overview tab in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/add-property-coaching-quality-indicator.md)**  
+-   **[Configure an indicator to display in the Coaching Overview tab in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/add-property-coaching-quality-indicator.md)**  
 Add a system property to display the desired indicator in the Coaching Overview tab in the Coaching application.
--   **[Configure a list menu to display in the Learning tab in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configure-listmenu-configurable-wfo-itsm.md)**  
+-   **[Configure a list menu to display in the Learning tab in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/configure-listmenu-configurable-wfo-itsm.md)**  
 Add a system property to add to or modify the list menu for Coaching with Learning in the Coaching application in Workforce Optimization for ITSM.
--   **[Integrate Coaching with Learning with third-party learning management systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/integrate-learning-third-party-configurable-wfo-itsm.md)**  
+-   **[Integrate Coaching with Learning with third-party learning management systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/integrate-learning-third-party-configurable-wfo-itsm.md)**  
 Connect your ServiceNow instance with third-party learning sites to pull learning content into your repository.
 
-**Parent Topic:**[Coaching in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/explore-coaching-configurable-workforce-optimization-itsm.md)
+**Parent Topic:**[Coaching in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/explore-coaching-configurable-workforce-optimization-itsm.md)
 

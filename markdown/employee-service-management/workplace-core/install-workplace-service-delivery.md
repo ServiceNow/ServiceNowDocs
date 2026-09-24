@@ -3,11 +3,11 @@ title: Install Workplace Core
 description: You can install the Workplace Core application if you have the admin role. This application includes optional demo data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/install-workplace-service-delivery.html
-release: australia
+release: brazil
 product: Workplace Core
 classification: workplace-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
@@ -29,7 +29,7 @@ The following components are installed with installation of the Workplace Core a
 -   Roles
 -   Tables
 
-See [Components installed with Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/components-installed-with-workplace-service-delivery.md) for more information.
+See [Components installed with Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/components-installed-with-workplace-service-delivery.md) for more information.
 
 ## Procedure
 
@@ -56,10 +56,18 @@ See [Components installed with Workplace Core](https://raw.githubusercontent.com
 6.  Click **Install**.
 
 
-**Parent Topic:**[Configure Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/configure-wsd.md)
+**Parent Topic:**[Configure Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/configure-wsd.md)
+
+**Parent Topic:**[Configure Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/configure-wsd.md)
 
 **Related topics**  
 
+
+[Providing your workplace data]()
+
+[Configuring spreadsheets to import workplace data]()
+
+[Activate Virtual Agent for Workplace Service Delivery]()
 
 [Providing your workplace data]()
 

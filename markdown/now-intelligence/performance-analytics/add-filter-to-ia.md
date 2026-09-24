@@ -3,11 +3,11 @@ title: Add a filter to Interactive Analysis
 description: Add a filter to show more refined information in your Interactive Analysis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/add-filter-to-ia.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Interactive Analysis, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -45,5 +45,5 @@ You must have access to the list of records that you want to analyze.
 
 The new filter is applied to the interactive analysis. Click the information icon \(\[Omitted image "PreviewIcon.png"\] Alt text: Info icon\) to view the filters in the source filter summary.
 
-**Parent Topic:**[Interactive Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/interactive-analysis.md)
+**Parent Topic:**[Interactive Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/interactive-analysis.md)
 

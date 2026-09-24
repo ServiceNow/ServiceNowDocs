@@ -3,9 +3,9 @@ title: Manage touchpoints on a lead
 description: View, create, and delete touchpoints associated with a lead from the touchpoints related list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/manage-touchpoints-lead.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Lead Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -51,19 +51,19 @@ The **Touchpoints** tab on a lead record displays all touchpoints associated wit
 
 Changes are saved to the lead. The Touchpoints tab reflects the current state of all linked touchpoints.
 
--   **[Create a touchpoint from a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-touchpoint-lead.md)**  
+-   **[Create a touchpoint from a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-touchpoint-lead.md)**  
 Create a touchpoint to log a customer interaction directly from a lead record.
 
-**Parent Topic:**[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-using.md)
+**Parent Topic:**[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/lead-management-using.md)
 
 **Related topics**  
 
 
-[CRM Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-crm-touchpoints.md)
+[CRM Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-crm-touchpoints.md)
 
-[Install CRM Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/install-crm-touchpoints.md)
+[Install CRM Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/install-crm-touchpoints.md)
 
-[Manage touchpoints on an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-touchpoints-opportunity.md)
+[Manage touchpoints on an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/manage-touchpoints-opportunity.md)
 
-[Create new CRM touchpoint form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-crm-touchpoint-form.md)
+[Create new CRM touchpoint form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-crm-touchpoint-form.md)
 

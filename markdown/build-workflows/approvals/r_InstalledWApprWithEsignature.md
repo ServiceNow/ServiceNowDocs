@@ -3,11 +3,11 @@ title: Installed with approval with e-signature
 description: Installing approval with e-signature installs certain properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/approvals/r\_InstalledWApprWithEsignature.html
-release: australia
+release: brazil
 product: Approvals
 classification: approvals
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Approval with e-signature, Classic approvals, Build workflows]
 ---
@@ -23,7 +23,7 @@ Installing approval with e-signature installs certain properties.
 -   UI Page - form\_login\_validate\_dialog
 -   UI Page - login\_validate\_dialog
 -   UI page: saml2\_esignature\_login, the re-authentication page that appears when an approver tries to approve a request.
--   Properties: see [E-signature SAML properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_AddingSupportForESignature.md)
+-   Properties: see [E-signature SAML properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_AddingSupportForESignature.md)
 -   Client Script - Authenticate Approver
 -   Script Include - User
 -   Script Include - UserAuthentication

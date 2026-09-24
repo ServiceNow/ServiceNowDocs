@@ -3,11 +3,11 @@ title: Manage MITRE Relationships
 description: Manage the MITRE relationships information that you imported from the MITRE TAXII collections.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-mitre-manage-relationships.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [MITRE-ATT&amp;CK repository, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_sec\_tisc.analyst
 
 MITRE tactics are broad goals, and techniques are the methods used to achieve them. A technique can be linked to more than one tactic. MITRE maintains these tactic-technique mappings and updates them with each release.
 
-When you add a MITRE technique to a case, these mappings determine which tactics are available to select. If MITRE no longer maps a technique to a tactic, that combination won't be available. For details about mappings that MITRE has removed, see [Review revoked MITRE tactic and technique associations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-review-revoked-mitre-associations.md).
+When you add a MITRE technique to a case, these mappings determine which tactics are available to select. If MITRE no longer maps a technique to a tactic, that combination won't be available. For details about mappings that MITRE has removed, see [Review revoked MITRE tactic and technique associations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-review-revoked-mitre-associations.md).
 
 ## Procedure
 
@@ -110,5 +110,5 @@ Define the relationship ID.
 6.  To view how these objects are related, select **Relationships**.
 
 
-**Parent Topic:**[MITRE-ATT&amp;CK repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-mitre-att-ck-framework-overview.md)
+**Parent Topic:**[MITRE-ATT&amp;CK repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-mitre-att-ck-framework-overview.md)
 

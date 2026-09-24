@@ -3,11 +3,11 @@ title: Convert an application to Fluent
 description: Convert an existing application to support development in source code with ServiceNow Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/convert-app-to-fluent.html
-release: australia
+release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Convert an app, Fluent source code, ServiceNow Studio]
 breadcrumb: [Building apps in source code in ServiceNow Studio, Use, ServiceNow Studio, Developing your application, Building applications]
@@ -31,21 +31,21 @@ Existing applications that weren't created in source code must be converted to s
 
 1.  Navigate to **All** &gt; **App Engine** &gt; **ServiceNow Studio**.
 
-2.  Open the application you want to convert.
+2.  Open the application you want to convert from the Apps tab \[Omitted image "sn-studio-apps-icon.png"\] Alt text:.
 
 3.  Select **App details**.
 
-4.  In the Convert app to ServiceNow Fluent message, select **Convert**.
+4.  In the **Convert app to ServiceNow Fluent** message, select **Convert**.
 
 5.  Select **Convert**.
 
-    The application is added to your workspace with the default application structure, but the application metadata isn’t converted into ServiceNow Fluent code. For more information, see [Building apps in source code in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/building-apps-in-source-code-sn-studio.md).
+    The application is added to your workspace with the default application structure, but the application metadata isn’t converted into ServiceNow Fluent code. For more information, see [Building apps in source code in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/building-apps-in-source-code-sn-studio.md).
 
 6.  To convert existing metadata into ServiceNow Fluent code, complete the following steps.
 
-    1.  From the Navigator panel, select the Explorer tab.
+    1.  From the Navigator panel, select the Explorer tab icon \[Omitted image "sn-studio-explorer-icon.png"\] Alt text:.
 
-    2.  Right-click the `metadata` directory for the application and select **Convert Directory to Fluent**.
+    2.  Select and hold \(or right-click\) the `metadata` directory for the application and select **Convert Directory to Fluent**.
 
         \[Omitted image "sn-studio-convert-metadata-fluent.png"\] Alt text: Menu option to convert application metadata to ServiceNow Fluent.
 
@@ -57,7 +57,7 @@ Existing applications that weren't created in source code must be converted to s
 
 7.  Build and install your application to compile source code into application metadata and make your changes available across the instance.
 
-    For more information, see [Build and install a Fluent app in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/build-install-fluent-app-sns.md).
+    For more information, see [Build and install a Fluent app in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/build-install-fluent-app-sns.md).
 
 
 ## Result
@@ -68,9 +68,9 @@ The converted application is added to your workspace with the necessary files an
 
 ## What to do next
 
-From your Git provider, create a dedicated Git repository for the application. Initialize a local Git repository for your application and push it to the remote repository. For more information, see [Initialize a Git repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/fluent-sc-initialize-git-repo.md).
+From your Git provider, create a dedicated Git repository for the application. Initialize a local Git repository for your application and push it to the remote repository. For more information, see [Initialize a Git repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/fluent-sc-initialize-git-repo.md).
 
 Continue editing your application in ServiceNow Studio.
 
-**Parent Topic:**[Building apps in source code in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/building-apps-in-source-code-sn-studio.md)
+**Parent Topic:**[Building apps in source code in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/building-apps-in-source-code-sn-studio.md)
 

@@ -1,0 +1,533 @@
+---
+title: Combined Lifecycle Events release notes for upgrades from Yokohama to Brazil
+description: Consolidated page of all release notes for Lifecycle Events from Yokohama to Brazil.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-lifecycleevents-release-notes.html
+release: brazil
+topic_type: reference
+last_updated: "2026-09-24"
+reading_time_minutes: 3
+breadcrumb: [Products combined by family]
+---
+
+# Combined Lifecycle Events release notes for upgrades from Yokohama to Brazil
+
+Consolidated page of all release notes for Lifecycle Events from Yokohama to Brazil.
+
+## How to use this page
+
+To help you prepare for your upgrade, we have combined the cross-family Lifecycle Events release notes onto one page. Read this summary of the new features, changes, and updated information for your product from Yokohama to Brazil.
+
+**Tip:** If there were no updates for a release notes section in a certain family release, we included a short note for your reference. For example, if a product did not have any updates in Tokyo, the row says "No updates for this release."
+
+## Important information for upgrading Lifecycle Events to Brazil
+
+Before you upgrade to Brazil, review these pre- and post-upgrade tasks and complete the tasks as needed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## New features
+
+Between your current release family and Brazil, new features were introduced for Lifecycle Events.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **[Lifecycle Events logging](https://www.servicenow.com/docs/access?context=le-logging&family=zurich&ft:locale=en-US)**
+
+Capture events that occur in a Lifecycle Events case by enabling logging for the Lifecycle Events application. Give organization administrators the ability to view the event logs that are generated to identify errors or to acquire information about the processes that ran in a Lifecycle Events case.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Changes
+
+Between your current release family and Brazil, some changes were made to existing Lifecycle Events features.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **[HR Lifecycle Events Case Logs table](https://www.servicenow.com/docs/access?context=le-logging&family=zurich&ft:locale=en-US)**
+
+Lifecycle Events records each log entry to the HR Lifecycle Events Case Logs \[sn\_hr\_le\_case\_log\] table. Lifecycle Events administrators can access this table by selecting **Show execution logs** from the Related Links section in a Lifecycle Events case.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Removed
+
+Between your current release family and Brazil, some Lifecycle Events features or functionality were removed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Deprecations
+
+Between your current release family and Brazil, some Lifecycle Events features or functionality were deprecated.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Activation information
+
+Review information on how to activate Lifecycle Events.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **Activation information**
+
+Install Lifecycle Events by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** Lifecycle Events is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Additional requirements
+
+If any additional requirements were introduced or changed for Lifecycle Events we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Browser requirements
+
+If any specific browser requirements were introduced or changed for Lifecycle Events we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Accessibility information
+
+Review details on accessibility information for Lifecycle Events, such as specific requirements or compliance levels.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Localization information
+
+If there are specific localization considerations for Lifecycle Events we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Highlight information
+
+If there are specific highlight considerations for Lifecycle Events we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   Enable logging and use it as a tool to diagnose problems or to acquire pertinent information about the processes that ran in a Lifecycle Events case.
+-   Effectively troubleshoot the root cause of an issue that is adversely affecting a Lifecycle Events case.
+
+ See [Lifecycle Events](https://www.servicenow.com/docs/access?context=hr-lifecycle-events-landing-page&family=zurich&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/rn-combined-intro.md)
+

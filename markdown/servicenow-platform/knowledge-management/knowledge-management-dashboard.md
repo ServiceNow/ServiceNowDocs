@@ -3,11 +3,11 @@ title: Knowledge Management dashboard
 description: The Knowledge Management dashboard helps knowledge content owners and managers to determine the usage and quality of their knowledge content. It helps confirm that the proper processes and procedures are being followed for content creation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/knowledge-management-dashboard.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Knowledge Management Platform Analytics Solutions, Analytics and Reporting Solutions for Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -140,10 +140,10 @@ The dashboards include the following visualizations:
 |Articles Created Over 1 Year|Column\[Omitted image "column-icon.png"\] Alt text: Column icon|Active = true and Created = before 1 year ago|
 |Articles not Published|Column\[Omitted image "column-icon.png"\] Alt text: Column icon|Active = true and Workflow is Draft or Review|
 
-**Parent Topic:**[Knowledge Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-content-pack.md)
+**Parent Topic:**[Knowledge Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/knowledge-content-pack.md)
 
 **Related topics**  
 
 
-[Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dashboards-landing-page.md)
+[Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/dashboards-landing-page.md)
 

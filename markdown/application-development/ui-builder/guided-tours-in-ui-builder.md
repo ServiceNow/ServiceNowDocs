@@ -3,11 +3,11 @@ title: Guided tours in UI Builder
 description: Learn about UI Builder guided tours, including how to use them to build your knowledge and practice using UI Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/guided-tours-in-ui-builder.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Navigate the UI Builder application, Learning UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -20,7 +20,7 @@ Learn about UI Builder guided tours, including how to use them to build your kno
 
 Guided tours are part of the default ServiceNow platform. There are guided tours available to take and you can use the Guided Tours application to create custom tours yourself in your own instances.
 
-Tours contain interactive steps to help train and teach users. Some tours show various features in the user interface, such as an overview of a homepage. Other tours help complete a task, such as creating an experience or previewing an experience page. For more information about what guided tours are and how to create them, see [Exploring Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/exploring-guided-tours.md).
+Tours contain interactive steps to help train and teach users. Some tours show various features in the user interface, such as an overview of a homepage. Other tours help complete a task, such as creating an experience or previewing an experience page. For more information about what guided tours are and how to create them, see [Exploring Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/exploring-guided-tours.md).
 
 ## How to access and use UI Builder guided tours
 
@@ -46,5 +46,5 @@ Select **Yes** or **No** to stop the tour from auto-launching again. You can als
 
 \[Omitted image "guided-tour-in-uib5.png"\] Alt text: Stop guided tour pop-up with options to stop the tour from auto launching and apply the decision to all tours on the page.
 
-**Parent Topic:**[Navigate the UI Builder application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/nav-uib.md)
+**Parent Topic:**[Navigate the UI Builder application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/nav-uib.md)
 

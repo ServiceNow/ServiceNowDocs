@@ -3,11 +3,11 @@ title: Customize the list block
 description: List blocks are content blocks that dynamically generate a list of links to records within the instance. When a user clicks a link in a list block, the associated information is displayed in a detail page determined by its content type.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_DefineTheListBlock.html
-release: australia
+release: brazil
 product: Content Management System
 classification: content-management-system
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Types of content blocks, Content blocks, Configure Content Management sites, Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -72,7 +72,7 @@ Type
 
 </td><td>
 
-Select a list definition UI macro to format the list of links.For more information, see [Configure list definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_ConfigureListDefinitions.md).
+Select a list definition UI macro to format the list of links.For more information, see [Configure list definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/t_ConfigureListDefinitions.md).
 
 </td></tr><tr><td>
 
@@ -80,7 +80,7 @@ Frame
 
 </td><td>
 
-Select a border style for the list block. For more information, see [Create a frame UI macro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_CreateANewFrameUIMacro.md).
+Select a border style for the list block. For more information, see [Create a frame UI macro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/t_CreateANewFrameUIMacro.md).
 
 </td></tr><tr><td>
 
@@ -128,7 +128,7 @@ Table
 
 </td><td>
 
-Select a table to query for the list items. The table determines which detail page displays when a user clicks a link in the list block. For more information, see [Configure a content type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_CreateAContentType.md) **Note:** The list shows only tables and database views that are in the same scope as the list block.
+Select a table to query for the list items. The table determines which detail page displays when a user clicks a link in the list block. For more information, see [Configure a content type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/t_CreateAContentType.md) **Note:** The list shows only tables and database views that are in the same scope as the list block.
 
 </td></tr><tr><td>
 
@@ -142,10 +142,10 @@ Select this check box to enable the use of scripted conditions. If selected, a *
 </table>4.  Click **Submit**.
 
 
--   **[Configure list definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_ConfigureListDefinitions.md)**  
+-   **[Configure list definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/t_ConfigureListDefinitions.md)**  
 List definitions, similar to content management frames, are decorative containers that control the look and feel of lists.
 
-**Parent Topic:**[Types of content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/r_TypesOfContentBlocks.md)
+**Parent Topic:**[Types of content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/r_TypesOfContentBlocks.md)
 
 **Related topics**  
 

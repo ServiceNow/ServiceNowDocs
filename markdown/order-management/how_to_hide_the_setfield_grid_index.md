@@ -3,7 +3,7 @@ title: Hiding the set grid and field grid indexes
 description: You can hide the index column in a set grid or a field grid.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/how\_to\_hide\_the\_setfield\_grid\_index.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -47,5 +47,5 @@ The examples below illustrate the CSV files for a field grid and for a set. In b
 **Related topics**  
 
 
-[Modifying the Size and Change Size fields for a set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/how_to_alterhide_the_size_and_change_size_field_for_a_set.md)
+[Modifying the Size and Change Size fields for a set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/how_to_alterhide_the_size_and_change_size_field_for_a_set.md)
 

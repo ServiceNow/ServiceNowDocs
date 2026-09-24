@@ -3,11 +3,11 @@ title: Inventory template naming patterns
 description: A naming pattern is a JavaScript expression that defines how a configuration item \(CI\) is named when it is created from an inventory template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/naming-patterns-in-inventory-templates.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
@@ -60,27 +60,27 @@ Naming patterns are evaluated at two distinct times:
 
 The Inventory Template Overview tab enables you to verify naming end to end at design time, before any CIs are created. Without this verification, errors in patterns surface only after CIs exist in the CMDB.
 
--   **[Model and template naming](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/how-models-and-templates-define-names.md)**  
+-   **[Model and template naming](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/how-models-and-templates-define-names.md)**  
 The equipment model establishes default naming patterns for CIs \(configuration items\). Inventory templates inherit those patterns and can override them per related template.
--   **[Inventory template name generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/how-inventory-template-names-are-generated.md)**  
+-   **[Inventory template name generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/how-inventory-template-names-are-generated.md)**  
 When you instantiate an inventory template, each related template in the hierarchy produces a CI \(configuration item\). The CI's name comes from one of two sources, depending on whether the related template defines a naming pattern.
--   **[Inventory template hierarchy view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/inventory-template-overview-tab.md)**  
+-   **[Inventory template hierarchy view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/inventory-template-overview-tab.md)**  
 The Overview tab on an inventory template record shows the full template hierarchy as a tree. Use it to check resolved CI names and spot validation errors before deploying the template.
--   **[Name pattern validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/naming-pattern-validation.md)**  
+-   **[Name pattern validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/naming-pattern-validation.md)**  
 Name pattern validation runs twice. It runs at save time to prevent errors. And it runs when the **Overview** tab loads the hierarchy to catch issues specific to template relationships.
--   **[Extension point for custom name validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/extension-point-custom-naming-validation.md)**  
+-   **[Extension point for custom name validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/extension-point-custom-naming-validation.md)**  
 The custom name validation extension point validates resolved names in the **Inventory Template Overview** tab. Administrators can register custom validation rules to enforce organization-specific naming conventions, replacing or extending the default check.
 
-**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
+**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
 
 **Related topics**  
 
 
-[Model and template naming](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/how-models-and-templates-define-names.md)
+[Model and template naming](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/how-models-and-templates-define-names.md)
 
-[Inventory template name generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/how-inventory-template-names-are-generated.md)
+[Inventory template name generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/how-inventory-template-names-are-generated.md)
 
-[Inventory template hierarchy view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/inventory-template-overview-tab.md)
+[Inventory template hierarchy view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/inventory-template-overview-tab.md)
 
-[Name pattern validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/naming-pattern-validation.md)
+[Name pattern validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/naming-pattern-validation.md)
 

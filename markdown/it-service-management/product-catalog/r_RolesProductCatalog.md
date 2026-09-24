@@ -3,11 +3,11 @@ title: Roles installed with Product Catalog
 description: Product Catalog plugin adds the following roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/product-catalog/r\_RolesProductCatalog.html
-release: australia
+release: brazil
 product: Product Catalog
 classification: product-catalog
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Components installed with Product Catalog, Product Catalog, Asset Management common applications, IT Service Management]
 ---
@@ -53,5 +53,5 @@ Can do everything that model managers can do and can administer model categories
 model\_manager
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/r_InstalledWithProductCatalog.md)
+</table>**Parent Topic:**[Components installed with Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/product-catalog/r_InstalledWithProductCatalog.md)
 

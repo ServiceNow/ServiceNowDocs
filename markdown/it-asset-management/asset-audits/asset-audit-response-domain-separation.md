@@ -3,11 +3,11 @@ title: Domain separation and Asset Audit Response
 description: If any conkeyrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file.In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conkeyref at the end that describes domain separation.Domain separation is supported for Asset Audit Response. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-audits/asset-audit-response-domain-separation.html
-release: australia
+release: brazil
 product: Asset Audits
 classification: asset-audits
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Asset Audit Response, IT Asset Management, Asset Management]
 ---
@@ -26,7 +26,7 @@ Domain separation is supported for Asset Audit Response. Domain separation enabl
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-separated-apps.md).
 
 ## Overview
 
@@ -40,10 +40,10 @@ When managing and completing an audit engagement and corresponding evidence requ
 
 **Note:** If you create an evidence request under a specific domain in the Audit Workspace, the corresponding asset evidence task automatically falls under the same domain in the Asset Governance Workspace.
 
-**Parent Topic:**[Asset Audit Response reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-audits/asset-audit-response-references.md)
+**Parent Topic:**[Asset Audit Response reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-audits/asset-audit-response-references.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-sep-landing-page.md)
 

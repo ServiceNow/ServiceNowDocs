@@ -1,23 +1,27 @@
 ---
 title: Manage model providers
-description: Edit or customise the model provider for a skill or skill group at the instance level from the list of supported third-party model providers, including the default Now LLM Service. You can also review the model policy set by your organisation, and view the change history here.
+description: Edit or customize the model provider for a skill or skill group at the instance level from the list of supported third-party model providers, including the default Now LLM Service. You can also review the model policy set by your organization, and view the change history here.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/edit-model-providers.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2025-07-02"
+last_updated: "2026-09-16"
 reading_time_minutes: 3
 keywords: [Edit LLM provider, web search]
-breadcrumb: [Manage AI models, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Manage AI models, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Manage model providers
 
-Edit or customise the model provider for a skill or skill group at the instance level from the list of supported third-party model providers, including the default Now LLM Service. You can also review the model policy set by your organisation, and view the change history here.
+Edit or customize the model provider for a skill or skill group at the instance level from the list of supported third-party model providers, including the default Now LLM Service. You can also review the model policy set by your organization, and view the change history here.
 
 ## Before you begin
 
+Confirm that network access to the provider endpoint is allowed by your instance's proxy or firewall rules.
+
 Role required: admin
+
+## About this task
 
 The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
@@ -63,7 +67,7 @@ Let's take an example of editing the model provider for skill group.
 
     2.  Select **Save and activate** to update your selection.
 
-    **Note:** The Websearch AI search answers skill is only compatible with Google Gemini as the LLM provider. If you want to change the LLM provider to Azure OpenAI for this skill, see [Configure AI search answers capability for web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/configure-ai-search-answers-capability-for-web-search.md) for more information.
+    **Note:** The Websearch AI search answers skill is only compatible with Google Gemini as the LLM provider. If you want to change the LLM provider to Azure OpenAI for this skill, see [Configure AI search answers capability for web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/generative-ai-controller/configure-ai-search-answers-capability-for-web-search.md) for more information.
 
 8.  Select **Cancel, go back** to revert or **Yes, activate** to save the updates.
 
@@ -84,5 +88,5 @@ Let's take an example of editing the model provider for skill group.
 11. Follow similar steps for editing the model provider for a particular skill.
 
 
-**Parent Topic:**[Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md)
+**Parent Topic:**[Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/manage-large-language-models.md)
 

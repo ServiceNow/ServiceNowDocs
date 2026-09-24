@@ -3,11 +3,11 @@ title: View metric to CI and resource binding
 description: View the metric to CI and resource binding results, including details for failed bindings which you can use to mitigate the failure. Unmapped metrics are excluded from anomaly detection until properly mapped.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/metric-intelligence/view-metric-to-CI-binding.html
-release: australia
+release: brazil
 product: Metric Intelligence
 classification: metric-intelligence
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Optimizing Metric Intelligence, Metric Intelligence, IT Operations Management]
 ---
@@ -20,14 +20,14 @@ View the metric to CI and resource binding results, including details for failed
 
 Role required: evt\_mgmt\_admin
 
-If [resource binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/resource-binding.md) is not enabled, then no resource binding results appear.
+If [resource binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/metric-intelligence/resource-binding.md) is not enabled, then no resource binding results appear.
 
 ## About this task
 
 Metric Intelligence uses event rules to map metric data with the specific CI or resource that is associated with the metric event. The results of these mappings are stored in the Metric to CI Mappings \[sa\_metric\_map\] table. If mapping fails, then the binding status for the metric indicates the general reason for the failure and further details about the failure are provided. Examine the details for a mapping failure and mitigate the problem to improve accurate and effective metric data processing.
 
 -   If mapping to a CI is successful, then the mapped CI appears in the **Configuration Item** column. If resource binding was attempted but failed, then the mapped CI does not appear, even if the mapping to a CI was successful. Missing or duplicate CIs can cause CI mapping to fail.
--   If mapping to a resource is successful, then the mapped resource appears in the **Resource** column. Resource binding fails if a resource table mapped to the CI type is missing or if the event lacks a **resource\_path** attribute.
+-   If mapping to a resource is successful, then the mapped resource appears in the **Resource** column. Resource binding can fail if a resource table mapped to the CI type is missing or if the **resource\_path** attribute is missing in the event.
 
 Records in the CI Mappings \[sa\_metric\_map\] table remain in effect for 24 hours \(by default, if mapping to the CI is not successful\), or for 5 days \(by default, if mapping to the CI is successful\). Later, if within that time period raw data arrives for a metric/CI pair that already has a record, the existing mapping is used to match the data to an existing CI. After Metric to CI Mappings records expire, incoming new raw data requires remapping. These records expire when:
 
@@ -166,7 +166,7 @@ Non-Host CI Duplicate
 
 </td><td>
 
-Use the [Duplicate CI Remediator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/de-duplication-tasks.md) to remediate the duplication.
+Use the [Duplicate CI Remediator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/de-duplication-tasks.md) to remediate the duplication.
 
 </td></tr><tr><td>
 
@@ -174,7 +174,7 @@ Dependent CI Duplicate
 
 </td><td>
 
-Use the [Duplicate CI Remediator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/de-duplication-tasks.md) to remediate the duplication.
+Use the [Duplicate CI Remediator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/de-duplication-tasks.md) to remediate the duplication.
 
 </td></tr><tr><td>
 
@@ -208,10 +208,10 @@ Verify that the CI Type To Resource Class \[sa\_ci\_type\_to\_resource\_class\] 
 
 Group **Binding Failure Reason** by **Binding Status** to create a summary report with the number of records per failure category. Use this report to efficiently remediate the problems.
 
-**Parent Topic:**[Optimizing Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/optimizing-metric-intelligence.md)
+**Parent Topic:**[Optimizing Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/metric-intelligence/optimizing-metric-intelligence.md)
 
 **Related topics**  
 
 
-[Creating an event rule to map metrics to specific CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/event-rule-bind-metrics-to-ci.md)
+[Creating an event rule to map metrics to specific CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/metric-intelligence/event-rule-bind-metrics-to-ci.md)
 

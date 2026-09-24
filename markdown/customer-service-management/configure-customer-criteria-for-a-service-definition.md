@@ -3,9 +3,9 @@ title: Configure customer criteria for a service definition
 description: After creating a service definition, configure customer-specific criteria to determine which customers are eligible for that service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-customer-criteria-for-a-service-definition.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring service definitions, Service definitions, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -42,7 +42,7 @@ You can associate several criteria, or conditions, with a single service definit
 
     You can also create a customer criteria record by selecting **New** on the Entity Criteria pop-up window and filling in the fields on the Entity Criteria form.
 
-    For more information, see [Create entity criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-new-entity-criteria.md).
+    For more information, see [Create entity criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-new-entity-criteria.md).
 
 5.  Enable the **Active** check box.
 

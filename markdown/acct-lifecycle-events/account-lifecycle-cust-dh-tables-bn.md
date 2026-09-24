@@ -3,9 +3,9 @@ title: Customer business need
 description: The customer business need table \(sn\_cust\_disc\_hb\_business\_need\) is the central record in Customer Discovery Hub. It captures the strategic problem a customer needs to solve and groups related challenges, expectations, and use cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-cust-dh-tables-bn.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-06-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer Discovery Hub tables, Reference, Customer Success Management]
 ---
@@ -163,12 +163,12 @@ Domain path for multi-domain deployments.
 |`sn_cust_disc_hb.discovery_viewer`|Read|
 |`sn_cust_disc_hb.discovery_writer`|Read, write|
 
-**Parent Topic:**[Customer Discovery Hub tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-cust-dh-tables.md)
+**Parent Topic:**[Customer Discovery Hub tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-cust-dh-tables.md)
 
 **Related topics**  
 
 
-[Customer Discovery Hub tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-cust-dh-tables.md)
+[Customer Discovery Hub tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-cust-dh-tables.md)
 
-[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-manage-engage.md)
+[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-manage-engage.md)
 

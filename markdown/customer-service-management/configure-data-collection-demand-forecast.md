@@ -3,9 +3,9 @@ title: Configure the data collection for resources demands
 description: Define the data you want to collect for cases, interactions, or any table to forecast the number of agents that you require for your staffing needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-data-collection-demand-forecast.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Setting up Demand Forecast, Optimize workforce operations, Extend capabilities, Configure, Customer Service Management]
 ---
@@ -16,7 +16,7 @@ Define the data you want to collect for cases, interactions, or any table to for
 
 ## Before you begin
 
-You must have the MetricBase plugin \[com.snc.clotho\] enabled to use Demand Forecast in Workforce Optimization for Customer Service. For more information, see [Requesting the MetricBase product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/request-metricbase.md).
+You must have the MetricBase plugin \[com.snc.clotho\] enabled to use Demand Forecast in Workforce Optimization for Customer Service. For more information, see [Requesting the MetricBase product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/request-metricbase.md).
 
 **Note:**
 
@@ -31,11 +31,11 @@ Role required: sn\_agent\_forecast.admin
 
 2.  Define the data you want to collect for forecasting agents to resolve cases.
 
-    1.  Select **Data Collection Definitions**.
+    1.  Click **Data Collection Definitions**.
 
-        See the [Forecast Configuration table in Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md) for the list of configurations that are available by default.
+        See the [Forecast Configuration table in Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/components-installed-configurable-wfo-cs.md) for the list of configurations that are available by default.
 
-    2.  Select **New**.
+    2.  Click **New**.
     3.  On the form, fill in the fields:
 
 <table id="table_bxd_pnr_zmb"><thead><tr><th>
@@ -91,23 +91,23 @@ Date Field
 Data that you can add to forecast for the future.
 
 </td></tr></tbody>
-</table>    4.  Select **Submit**.
-    5.  Create an index for the table you have created using the date field and the conditions you have added to the table. For information on creating a table index, see [Create a table index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateCustomIndex.md).
+</table>    4.  Click **Submit**.
+    5.  Create an index for the table you have created using the date field and the conditions you have added to the table. For information on creating a table index, see [Create a table index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateCustomIndex.md).
 3.  Add parameters to be defined in the formula to calculate agent count per hour in a day.
 
-    1.  Select **Formula Parameters**.
+    1.  Click **Formula Parameters**.
     2.  In the **Name** field, enter a name for the parameter.
     3.  Do one of the following:
 
         -   If you need to add a value to be calculated for the formula, in the **Value** field, enter the value.
-        -   If you want to use the performance analytics score card API or a custom API, select **Advanced,** and add the script.
-        The Average Case Work Time and Average Chat Work Time forecast parameters provided by default are examples of how you can use scripts to add the parameters. For a list of parameters provided by default, see [Forecast Parameters in Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md).
+        -   If you want to use the performance analytics score card API or a custom API, click **Advanced,** and add the script.
+        The Average Case Work Time and Average Chat Work Time forecast parameters provided by default are examples of how you can use scripts to add the parameters. For a list of parameters provided by default, see [Forecast Parameters in Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/components-installed-configurable-wfo-cs.md).
 
-    4.  Select **Submit**.
+    4.  Click **Submit**.
 4.  Configure the resource conversion formula.
 
-    1.  Select **Resource Conversion Formula**.
-    2.  Select **New**.
+    1.  Click **Resource Conversion Formula**.
+    2.  Click **New**.
     3.  On the form, fill in the fields.
 
 <table id="table_t1v_wqv_cnb"><thead><tr><th>
@@ -142,30 +142,30 @@ Formula
 
 Formula to calculate the forecasted number of agents that you need.In the Related Links section, do the following:
 
- -   Select **Browse Forecast Configuration**, select the forecast configuration to add to the formula and select **Add**.
--   Select the Browse Forecast Parameter, select the forecast parameter to add to the formula and select **Add**.
+ -   Click **Browse Forecast Configuration**, select the forecast configuration to add to the formula and click **Add**.
+-   Click the Browse Forecast Parameter, select the forecast parameter to add to the formula and click **Add**.
 
 **Note:** **FC** refers to Forecast Configuration and **FP** refers to Forecast Parameter.
 
 </td></tr></tbody>
-</table>    4.  Select **Submit**.
+</table>    4.  Click **Submit**.
 5.  Associate an assignment group with a Resource Conversion Formula.
 
     You can assign a forecast configuration to multiple assignment groups, but an assignment group can have only one forecast configuration.
 
-    1.  Select **Group Forecast Configurations**.
-    2.  Select **New** and do the following:
-        -   In the **Assignment Group** field, select the search icon and select the group to which you want to associate a forecast configuration.
-        -   In the **Forecast Configuration** field, select the search icon and select a **Resource Conversion Formula**.
+    1.  Click **Group Forecast Configurations**.
+    2.  Click **New** and do the following:
+        -   In the **Assignment Group** field, click the search icon and select the group to which you want to associate a forecast configuration.
+        -   In the **Forecast Configuration** field, click the search icon and select a **Resource Conversion Formula**.
 
 ## What to do next
 
-Run the **Collect historical data for demand forecast data collection definitions** scheduled job. For more information, see [Schedule jobs for Demand Forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md).
+Run the **Collect historical data for demand forecast data collection definitions** scheduled job. For more information, see [Schedule jobs for Demand Forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/components-installed-configurable-wfo-cs.md).
 
-**Parent Topic:**[Setting up Demand Forecast in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configuring-demand-forecast-configurable-wfo-cs.md)
+**Parent Topic:**[Setting up Demand Forecast in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configuring-demand-forecast-configurable-wfo-cs.md)
 
 **Related topics**  
 
 
-[Use Demand Forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md)
+[Use Demand Forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/scheduling-configurable-wfo-cs.md)
 

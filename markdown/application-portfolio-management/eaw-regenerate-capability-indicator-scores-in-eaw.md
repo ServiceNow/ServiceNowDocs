@@ -3,9 +3,9 @@ title: Regenerate capability indicator scores on-demand in Enterprise Architectu
 description: You can update capability indicator scores on-demand, to gather real-time insights into the performance of business capabilities and take immediate action, if necessary.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-regenerate-capability-indicator-scores-in-eaw.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with indicators, Working with the Setup page, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -47,16 +47,18 @@ Assessing business capabilities within the indicator framework and based on the 
     This action doesn’t update the existing capability indicator scores but deletes them and generates new scores.
 
 
-**Parent Topic:**[Working with indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-indicators.md)
+**Parent Topic:**[Working with indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-manage-indicators.md)
 
 **Related topics**  
 
 
-[Regenerate capability indicator scores on-demand in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-regenerate-capability-indicator-scores-in-eaw.md)
+[Regenerate capability indicator scores on-demand in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-regenerate-capability-indicator-scores-in-eaw.md)
 
-[Manage indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-configure-indicators.md)
+[Manage indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-configure-indicators.md)
 
-[Add or edit a capability indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-or-edit-a-capability-indicator.md)
+[Add or edit a capability indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-add-or-edit-a-capability-indicator.md)
 
-[Activate or turn off an application or capability indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-enable-or-disable-an-application-indicator.md)
+[Activate or turn off an application or capability indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-enable-or-disable-an-application-indicator.md)
+
+[Application indicator score calculation in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-application-indicator-score-calculation.md)
 

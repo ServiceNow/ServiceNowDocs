@@ -3,9 +3,9 @@ title: Assign roles for Service Portfolio Management integration
 description: Assign the required roles to customer service managers based on the roles and responsibilities in your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/assign-roles-spm-csm.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating with Service Portfolio Management, Integrate, Customer Service Management]
 ---
@@ -18,7 +18,7 @@ Assign the required roles to customer service managers based on the roles and re
 
 Role required: admin
 
-Instead of doing the configuration through this procedure, consider using guided setup. For more information, see [Integrate with Service Portfolio Management using Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/spm-csm-integration.md).
+Instead of doing the configuration through this procedure, consider using guided setup. For more information, see [Integrate with Service Portfolio Management using Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/spm-csm-integration.md).
 
 ## Procedure
 

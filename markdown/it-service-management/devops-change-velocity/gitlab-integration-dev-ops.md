@@ -3,11 +3,11 @@ title: GitLab integration with DevOps Change Velocity
 description: Connect to your GitLab instance to discover plans, repositories, and pipeline definitions and configure real-time notifications or polling to enable change traceability and automation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/gitlab-integration-dev-ops.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -55,19 +55,19 @@ Trigger events required for planning capability:
 -   Milestone discovered from a GitLab plan is displayed as release version in ServiceNow DevOps Change Velocity.
 -   Repositories or pipelines created or updated after the project has already been discovered and configured are tracked manually.
 -   JUnit test type integration is supported for GitLab. GitLab unit test reports support test reports only in the JUnit report format. You can convert different test types to JUnit and persist it. For detailed information, see [Unit test reports](https://docs.gitlab.com/ee/ci/testing/unit_test_reports.html) and [Unit test report examples](https://docs.gitlab.com/ee/ci/testing/unit_test_report_examples.html).
--   [Test tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-test-tool-integration.md) lets you view test results in DevOps for GitLab unit, functional, and performance tests.
+-   [Test tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/dev-ops-test-tool-integration.md) lets you view test results in DevOps for GitLab unit, functional, and performance tests.
 -   Pipeline reruns are not supported.
 
 ## Get started
 
 Use one of the following options to onboard GitLab. For a guided experience, use the workspace to onboard a tool. Alternatively, you can use the Service Catalog or Classic experience.
 
--   **[Onboard GitLab to DevOps Change Velocity — Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/onboard-gitlab-to-devops-change-velocity-workspace.md)**  
+-   **[Onboard GitLab to DevOps Change Velocity — Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/onboard-gitlab-to-devops-change-velocity-workspace.md)**  
 Connect to your GitLab instance using the DevOps Change Workspace playbook to discover plans, repositories, and pipelines.
--   **[Onboard GitLab to DevOps Change Velocity — Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/sc-gitlab.md)**  
+-   **[Onboard GitLab to DevOps Change Velocity — Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/sc-gitlab.md)**  
 Create, connect, discover, and configure your GitLab instance using the ServiceNow Service Catalog.
--   **[Onboard GitLab to DevOps Change Velocity — Classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/create-gitlab-tool-dev-ops.md)**  
+-   **[Onboard GitLab to DevOps Change Velocity — Classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/create-gitlab-tool-dev-ops.md)**  
 Create an GitLab tool record in DevOps Change Velocity to connect, discover, and import GitLab tool data.
 
-**Parent Topic:**[Integrating DevOps Change Velocity with third party tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/integrating-devops-change-with-third-party-tools.md)
+**Parent Topic:**[Integrating DevOps Change Velocity with third party tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/integrating-devops-change-with-third-party-tools.md)
 

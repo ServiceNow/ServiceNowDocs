@@ -3,11 +3,11 @@ title: General software package discovery
 description: General software packages are collections of programs that work together, often with similar user interfaces. Examples include Microsoft Office 365 \(Word, Excel, PowerPoint\), and Apple's iWork \(Pages, Numbers, Keynote\). Discovery identifies and classifies information about general software packages. Data it collects include, Name, Version, Install Count, License Count, Installation Date, Software, and more.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r\_DataCollDiscoGenSWPkg.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Software discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -26,5 +26,5 @@ General software packages are collections of programs that work together, often 
 |Installed on|cmdb\_software\_instance|installed\_on|Various|
 |Software|cmdb\_software\_instance|software|Various|
 
-**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Software.md)
+**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/c_Software.md)
 

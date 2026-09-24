@@ -3,9 +3,9 @@ title: Create a consumer or contact record
 description: Create a consumer or contact from the Lookup and Verify feature in the contextual side panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-consumer-customer-record.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Email Interaction for CSM]
 breadcrumb: [Verify user details, Engage via email interactions, Using Email Interaction for CSM, Customer communication, Use, Customer Service Management]

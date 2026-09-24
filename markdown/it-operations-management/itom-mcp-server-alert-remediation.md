@@ -3,9 +3,9 @@ title: Alert remediation with an MCP Client
 description: Get remediation suggestions for an alert from an AI agent or MCP Client, matching what's available in Service Operations Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-mcp-server-alert-remediation.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use the ITOM MCP Server Console, AI in ITOM, IT Operations Management]
 ---
@@ -60,7 +60,7 @@ The Alert remediation tool operates as part of the ITOM MCP Server Console workf
 **Related topics**  
 
 
-[Use the ITOM MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/use-itom-mcp-server.md)
+[Use the ITOM MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/use-itom-mcp-server.md)
 
-[Alert actions through an MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-mcp-server-alert-actions.md)
+[Alert actions through an MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-mcp-server-alert-actions.md)
 

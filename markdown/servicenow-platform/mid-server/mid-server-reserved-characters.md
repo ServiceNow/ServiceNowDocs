@@ -3,11 +3,11 @@ title: MID Server protected records and reserved characters
 description: Some MID Server records cannot be altered. Certain special characters are pre-defined in XML and cannot be used in passwords.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-server-reserved-characters.html
-release: australia
+release: brazil
 product: MID Server
 classification: mid-server
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [MID Server reference, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -82,7 +82,7 @@ For example, to specify the password as `test&` in the MID Server config.xml fil
 <parameter encrypt="true" name="mid.instance.password" value="test&amp;"/>
 ```
 
-**Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-reference-information.md)
+**Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-server-reference-information.md)
 
 **Related topics**  
 

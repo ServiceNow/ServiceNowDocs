@@ -3,11 +3,11 @@ title: Form UI actions
 description: You can configure the UI actions that are displayed in the Security Analyst Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/sir-new-ui-setup-form-uiaction.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Additional Security Analyst Workspace configuration, Configure the Security Analyst Workspace, Install and configure Security Incident Response, Security Incident Response setup, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -18,7 +18,7 @@ You can configure the UI actions that are displayed in the Security Analyst Work
 
 **Prerequisites:**
 
-Before you configure any UI actions, you must perform certain steps to enable them so that they are available for configuration in the Security Analyst Workspace. See [Enable UI Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-new-ui-setup-enable-uiaction.md) for details.
+Before you configure any UI actions, you must perform certain steps to enable them so that they are available for configuration in the Security Analyst Workspace. See [Enable UI Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/sir-new-ui-setup-enable-uiaction.md) for details.
 
 To configure a Form UI action for the Security Analyst Workspace, follow these steps:
 
@@ -49,7 +49,7 @@ Type
 
 Select the type of action. This can be:-   Dialog based action: This type of action is used when user interaction or inputs are required to execute specific business logic.
 -   Server side action: This action executes the required business logic without any additional user input.
- **Note:** Before you configure any UI actions, you must perform certain steps to enable them so that they are available for configuration in the Security Analyst Workspace. See [Enable UI Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-new-ui-setup-enable-uiaction.md) for details.
+ **Note:** Before you configure any UI actions, you must perform certain steps to enable them so that they are available for configuration in the Security Analyst Workspace. See [Enable UI Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/sir-new-ui-setup-enable-uiaction.md) for details.
 
 </td></tr><tr><td>
 

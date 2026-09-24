@@ -3,11 +3,11 @@ title: Use SLA timeline to determine business schedule
 description: This example demonstrates how to use the SLA timeline to determine the business schedules and business percentage time related to a task SLA.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/sla-timeline-determines-bus-schedule.html
-release: australia
+release: brazil
 product: Service Level Management
 classification: service-level-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SLA timeline, Service Level Management reference, Service Level Management, IT Service Management]
 ---
@@ -30,5 +30,5 @@ At any time, you can hover over any stage to get a summary of it's detail or cli
 
 \[Omitted image "sla-timeline-determines-business-schedule-3.png"\] Alt text: Details of task stage
 
-**Parent Topic:**[SLA timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/c_SLATimeline.md)
+**Parent Topic:**[SLA timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/c_SLATimeline.md)
 

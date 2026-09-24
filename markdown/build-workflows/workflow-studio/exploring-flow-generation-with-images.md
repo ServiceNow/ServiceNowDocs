@@ -3,11 +3,11 @@ title: Exploring Flow generation with images
 description: Create a flow or a subflow from an image by using ServiceNow Otto for Creator. Capture the detailed process in an image and attach the image to Workflow Studio. ServiceNow Otto for Creator generates a preview of the flow that you can modify and regenerate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/exploring-flow-generation-with-images.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Flow generation with images, Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -29,7 +29,7 @@ Enable flow generation with images to gain these benefits.
 
 ## Supported LLMs
 
-You can use Azure OpenAI, Google Gemini, or Anthropic Claude on AWS as the AI model provider for Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Azure OpenAI, Google Gemini, or Anthropic Claude on AWS as the AI model provider for Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 ## Supported trigger types
 
@@ -46,7 +46,7 @@ Flow generation supports a limited number of trigger types. You can use text dir
 
 ## General guidelines
 
-Follow these general guidelines when writing Now Assist directions.
+Follow these general guidelines when writing AI directions.
 
 -   **Always describe the trigger first**
 
@@ -85,5 +85,5 @@ Follow these general guidelines when writing Now Assist directions.
     Enclose exact data values in quotations marks to help the LLM distinguish between operation names and data values. For example, the directions, "`Log the value, 'incident reopened'`" make it clear that the text "incident reopened" is a data value.
 
 
-**Parent Topic:**[Flow generation with images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-generation-with-images-landing.md)
+**Parent Topic:**[Flow generation with images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-generation-with-images-landing.md)
 

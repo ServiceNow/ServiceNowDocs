@@ -3,11 +3,11 @@ title: Prepare a subflow
 description: Review the process of preparing a subflow for use in a parent workflow, and for preparing the parent workflow to use a subflow.After you create a subflow, use this procedure to prepare the parent workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/t\_PrepareASubflow.html
-release: australia
+release: brazil
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workflows used as subflows, Workflow management, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -55,7 +55,7 @@ Review the process of preparing a subflow for use in a parent workflow, and for 
     \[Omitted image "WorkflowWithSubflow.png"\] Alt text: Completed subflow
 
 
-**Parent Topic:**[Workflows used as subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/workflows-as-subflows.md)
+**Parent Topic:**[Workflows used as subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/legacy-workflow/workflows-as-subflows.md)
 
 ## Prepare a workflow to use a subflow
 

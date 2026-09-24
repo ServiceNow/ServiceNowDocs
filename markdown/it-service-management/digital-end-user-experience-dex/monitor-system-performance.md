@@ -3,14 +3,14 @@ title: Monitor system performance
 description: Monitor your organization's system performance effectively by tracking CPU, memory, disk, and I/O metrics. This helps prevent application bottlenecks and verifies resource availability. Disk performance monitoring identifies potential storage issues, such as slow read or write speeds, while I/O monitoring helps detect delays in data transfer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/monitor-system-performance.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [system performance, performance monitoring, cpu memory disk metrics, resource availability]
-breadcrumb: [Monitor, Digital End-User Experience, IT Service Management]
+breadcrumb: [Monitor application performance, Manage, Digital End-User Experience, IT Service Management]
 ---
 
 # Monitor system performance
@@ -31,6 +31,6 @@ Role required: admin
 
 3.  Select **System performance**.
 
-    For more information on the system performance metrics, see [DEX Insights reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/insights-reports.md).
+    For more information on the system performance metrics, see [DEX Insights reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/insights-reports.md).
 
 

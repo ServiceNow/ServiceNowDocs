@@ -3,11 +3,11 @@ title: Functional location vertical navigation elements
 description: Use these elements to move between sections and locations in the functional location view of the Digital Factory Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/functional-location-vertical-navigation-elements.html
-release: australia
+release: brazil
 product: Digital Factory Workspace
 classification: digital-factory-workspace
 topic_type: reference
-last_updated: "2026-05-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [functional location, vertical navigation, breadcrumb]
 breadcrumb: [Functional location vertical navigation, Operational Equipment Model, Industrial Data Models, Use, Digital Factory Workspace, Industrial Connected Workforce]
@@ -26,5 +26,5 @@ Use these elements to move between sections and locations in the functional loca
 |Breadcrumb segment|Level in the breadcrumb trail. Select a segment to open that level in the equipment model hierarchy.|
 |**Functional locations**|Entry in the vertical navigation panel that opens the list of functional locations within your entitlement scope.|
 
-**Parent Topic:**[Functional location vertical navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/functional-location-vertical-navigation.md)
+**Parent Topic:**[Functional location vertical navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/functional-location-vertical-navigation.md)
 

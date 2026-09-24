@@ -3,11 +3,11 @@ title: Activity Center
 description: The Activity Center provides a comprehensive view of all the activities supporting your day to day journey with Impact.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/impact-activity-center/impact-activity-center.html
-release: australia
+release: brazil
 product: Impact Activity Center
 classification: impact-activity-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Impact Delivery Instance reference, Impact reference, Impact]
 ---
@@ -21,7 +21,7 @@ Review outstanding notifications for your key Impact activities and deliverables
 |Section|Use|
 |-------|---|
 |Conversations|Scan all conversations you are included in. Start a conversation any time to ask a question or get advice from your Impact squad.|
-|All recommendations|View recommendations from your Squad. See [Activity Center All Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-activity-center/recommendations-value-journey.md) for additional information.|
+|All recommendations|View recommendations from your Squad. See [Activity Center All Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/impact-activity-center/recommendations-value-journey.md) for additional information.|
 |Tasks|See and manage work items you are responsible for. Also create tasks and assign them to others.|
 |Calendar|See upcoming Impact related events, such as meetings, assessments, and goals.|
 |Activity log|See your team's latest activities and how they support your value journey. All activities, conversations, meetings and tasks are consolidated into one page for ease of access.|
@@ -29,10 +29,10 @@ Review outstanding notifications for your key Impact activities and deliverables
 
 **Note:** Activities available may differ between Impact subscription levels.
 
--   **[Activity Center Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-activity-center/conversations.md)**  
+-   **[Activity Center Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/impact-activity-center/conversations.md)**  
 Scan all conversations you are included in. Start a conversation any time to ask a question or get advice from your Impact squad.
--   **[Activity Center All Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-activity-center/recommendations-value-journey.md)**  
+-   **[Activity Center All Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/impact-activity-center/recommendations-value-journey.md)**  
 View AI driven and expert suggested recommendations for training, content, and experts-on-demand offerings.
 
-**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-delivery-instance-reference.md)
+**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/idi-reference.md)
 

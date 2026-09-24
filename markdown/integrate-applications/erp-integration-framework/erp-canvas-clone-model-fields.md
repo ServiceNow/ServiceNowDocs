@@ -3,7 +3,7 @@ title: Zero Copy Connector for ERP clone model field descriptions
 description: The Clone ERP \(Enterprise Resource Planning\) model form in Zero Copy Connector for ERP enables you to clone an ERP model so you can edit the new model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-clone-model-fields.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
@@ -17,7 +17,7 @@ breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflo
 
 The Clone ERP \(Enterprise Resource Planning\) model form in Zero Copy Connector for ERP enables you to clone an ERP model so you can edit the new model.
 
-For process details, see [Clone an ERP model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-clone-data-model.md).
+For process details, see [Clone an ERP model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-clone-data-model.md).
 
 <table id="table_hsv_q2v_2yb"><thead><tr><th>
 
@@ -49,7 +49,7 @@ ERP system
 
 </td><td>
 
-ERP system the ERP model connects to.The connected ERP system enables access to information about fields and tables and interaction between the model and the connected ERP system. For more information, see [Create an ERP system in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/create-an-erp-system.md) and [View a list of Zero Copy Connector for ERP systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/view-and-monitor-erp-systems-health.md).
+ERP system the ERP model connects to.The connected ERP system enables access to information about fields and tables and interaction between the model and the connected ERP system. For more information, see [Create an ERP system in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/create-an-erp-system.md) and [View a list of Zero Copy Connector for ERP systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/view-and-monitor-erp-systems-health.md).
 
 </td></tr><tr><td>
 
@@ -93,4 +93,5 @@ ERP software
 Supportability of the model. The value determines which models you can use with a system. When you create or update a model and specify an ERP system, the software linked to that system is automatically added to this field. You can select additional options from the list. For SAP, the list contains major SAP versions and doesn't include patch versions. When a model is exported, the ERP software information specified in this field is included.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
+

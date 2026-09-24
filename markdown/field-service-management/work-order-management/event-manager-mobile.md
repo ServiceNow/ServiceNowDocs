@@ -1,20 +1,20 @@
 ---
-title: Show that an agent is busy with a non-work order event on Field Service Manager Mobile
-description: Managers can show that agents are busy with personal events like a meeting, training or time off from the Field Service Manager Mobile.
+title: Create a personal event in Field Service Manager Mobile
+description: Managers can show that agents are busy with personal events like a meeting, training, time off, or a recurring commitment from the Field Service Manager Mobile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/event-manager-mobile.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Field Service Manager Mobile, Completing work on mobile, Use, Field Service Management]
 ---
 
-# Show that an agent is busy with a non-work order event on Field Service Manager Mobile
+# Create a personal event in Field Service Manager Mobile
 
-Managers can show that agents are busy with personal events like a meeting, training or time off from the Field Service Manager Mobile.
+Managers can show that agents are busy with personal events like a meeting, training, time off, or a recurring commitment from the Field Service Manager Mobile.
 
 ## Before you begin
 
@@ -30,7 +30,7 @@ Role required: wm\_manager, sn\_fsm\_tp.fsm\_territory\_resource\_manager
 
 4.  Tap **View schedule**.
 
-5.  Tap the plus sign \(\[Omitted image "add-personal-event-mobile.png"\] Alt text: plus sign\).
+5.  Tap the plus icon \(\[Omitted image "add-personal-event-mobile.png"\] Alt text: plus sign\).
 
 6.  On the form, fill in the fields.
 
@@ -135,6 +135,30 @@ Repeat until
 </td><td>
 
 When the recurring non-work order event ends.Repeats until only available if you don't have Workforce Optimization configured.
+
+</td></tr><tr><td>
+
+Recurrence type
+
+</td><td>
+
+The pattern the event repeats on: Daily, Weekly, Monthly, or Yearly.Recurrence type is only available if you have Workforce Optimization configured.
+
+</td></tr><tr><td>
+
+Repeat every
+
+</td><td>
+
+The interval between occurrences. The unit follows the selected recurrence type, for example Day\(s\) for a Daily recurrence or Week\(s\) for a Weekly recurrence.Available if you have Workforce Optimization configured. For a Weekly recurrence, also select the days of the week the event occurs on. For a Monthly or Yearly recurrence, also select the day of the month \(and, for Yearly, the month\) the event occurs on.
+
+</td></tr><tr><td>
+
+Repeat until
+
+</td><td>
+
+The date the recurrence ends.Available if you have Workforce Optimization configured.
 
 </td></tr><tr><td>
 

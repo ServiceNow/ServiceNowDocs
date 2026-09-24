@@ -3,11 +3,11 @@ title: Installing Hardware Asset Management
 description: The Hardware Asset Management \(HAM\) application can be installed from the Product Hub or the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/installing-ham-app.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-08-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Install HAM, Install HAM using Product Hub]
 breadcrumb: [Configure, Hardware Asset Management, IT Asset Management, Asset Management]
@@ -33,7 +33,7 @@ Product Hub
 
 </td><td>
 
-You are setting up HAM for the first time and want a guided installation experience. Product Hub installs your entitled HAM application and shows you additional applications and plugins that are available for your subscription tier.**Important:** Product Hub and Configuration Console are available starting from Hardware Asset Management version 16.0.0 \(Australia Patch 6\).
+You are setting up HAM for the first time and want a guided installation experience. Product Hub installs your entitled HAM application and shows you additional applications and plugins that are available for your subscription tier.
 
 </td></tr><tr><td>
 
@@ -45,4 +45,10 @@ ServiceNow Store
 -   Your ServiceNow instance does not have ServiceNow Otto for Setup \(sn\_ia\) or Setup Hub \(sn\_ia\_base\) installed.
 
 </td></tr></tbody>
-</table>
+</table>-   **[Hardware Asset Management on Product Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/product-hub-for-ham.md)**  
+Product Hub provides a single location to install, update, and manage HAM applications and plugins.
+-   **[Install Hardware Asset Management from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/install-ham.md)**  
+You can install the Hardware Asset Management application \(sn\_hamp\) if you have the admin role. The application includes demo data. Install related ServiceNow® Store applications and plugins if they are not already installed.
+
+**Parent Topic:**[Configuring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/configuring-ham.md)
+

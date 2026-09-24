@@ -3,11 +3,11 @@ title: \(Optional\) Enable providing an authentication context class for SAML
 description: You can enable the instance to send an authentication context class request to the IdP containing your instance's preferred authentication request format.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_OptEnableProvidingAuthContxtClass.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Provider \(SP\) system properties, SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---

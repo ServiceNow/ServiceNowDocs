@@ -3,11 +3,11 @@ title: Add multiple security incident observables
 description: To save time, you can add multiple security incident observables to the security incident observables list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/add-multiple-si-observables.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage observables, Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

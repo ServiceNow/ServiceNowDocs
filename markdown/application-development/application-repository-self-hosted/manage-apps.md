@@ -3,11 +3,11 @@ title: Manage applications
 description: Learn how to manage the applications you publish to the ServiceNow application repository.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/application-repository-self-hosted/manage-apps.html
-release: australia
+release: brazil
 product: Application Repository \(Self-Hosted\)
 classification: application-repository-self-hosted
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow application repository, Application sharing, Administer your apps, Deploying applications, Building applications]
 ---

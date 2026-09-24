@@ -3,7 +3,7 @@ title: Standard remote tables for Zero Copy Connector for ERP
 description: Zero Copy Connector for ERP \(Enterprise Resource Planning\) accesses several standard remote tables for ERP models.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erpi-standard-remote-tables.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
@@ -40,18 +40,18 @@ The following remote tables are available through Zero Copy Connector for ERP an
 |SAP Vendor Invoice|sn\_erp\_integration\_st\_sap\_vendor\_invoice|Sales|
 |SAP Transport|sn\_erp\_integration\_st\_sap\_transport|Transport|
 
-For more details on working with remote tables, see [Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables.md).
+For more details on working with remote tables, see [Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/remote-tables.md).
 
 You can use any of the standard remote tables as data sources when building apps in ServiceNow products, such as:
 
--   
--   [Workflow Studio flows, subflows, and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio-flows-subflows-and-actions-landing.md)
--   [Workflow Studio Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio-playbooks-landing.md)
--   
--   
--   
+-   [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-landing.md)
+-   [Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/exploring-flows.md)
+-   [Playbooks in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/exploring-process-automation-designer.md)
+-   [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/tb-landing-page.md)
+-   [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder-overview.md)
+-   [Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/workspace-builder-landing.md)
 
-You can also access data from the ERP system through the Glide API.
+You can also access data from the system of record through the Glide API.
 
 The following is an example of a Glide query that fetches a customer name.
 
@@ -62,4 +62,6 @@ sap_customer_gr.get('customer_number', '100032');
 sap_customer_gr.getValue('name');
 
 ```
+
+**Parent Topic:**[Zero Copy Connector for ERP standard remote and extraction tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-standard-tables-and-fields-landing.md)
 

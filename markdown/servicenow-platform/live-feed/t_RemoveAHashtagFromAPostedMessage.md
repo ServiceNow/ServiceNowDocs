@@ -3,11 +3,11 @@ title: Remove a hashtag from a posted message
 description: As a participant in a conversation, you can remove hashtags from messages that have already been posted.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_RemoveAHashtagFromAPostedMessage.html
-release: australia
+release: brazil
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use hashtags in Live Feed, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -31,5 +31,5 @@ Role required: admin
 3.  Click the removal icon.
 
 
-**Parent Topic:**[Use hashtags in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_UseHashtagsInLiveFeed.md)
+**Parent Topic:**[Use hashtags in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/c_UseHashtagsInLiveFeed.md)
 

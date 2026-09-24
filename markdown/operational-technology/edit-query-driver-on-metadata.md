@@ -1,18 +1,18 @@
 ---
 title: Edit the Query Driver on Metadata tab
-description: Edit the Query Driver on Metadata tab. The Query Driver section enables you to import or download query drivers and control the speed of Auto Queries.
+description: Edit the Query Driver on Metadata tab. The Query Driver section enables you to import or download query drivers as well as control the speed of Auto Queries.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/edit-query-driver-on-metadata.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Settings page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Edit the Query Driver on Metadata tab
 
-Edit the Query Driver on **Metadata** tab. The Query Driver section enables you to import or download query drivers and control the speed of Auto Queries.
+Edit the Query Driver on **Metadata** tab. The Query Driver section enables you to import or download query drivers as well as control the speed of Auto Queries.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-On the Settings page, the **Metadata** tab includes settings for several features related to metadata that enhance analysis and reporting in the Discovery Console for OT. The **Query Driver** settings control your Sensors’ performance and resource usage. These settings manage how quickly Auto Queries are executed and how much load is placed on your network devices. They also regulate how many queries a Sensor can execute simultaneously. The **Delay** setting specifies the interval between consecutive queries. For example, setting the delay to 50% effectively halves the time between queries and operating the query at a faster pace.
+The **Metadata** tab includes settings for several features related to metadata that enhance analysis and reporting in the Discovery Console for OT. The **Query Driver** settings control your Sensors’ performance and resource usage. These settings manage how quickly Auto Queries are executed and how much load is placed on your network devices. They also regulate how many queries a Sensor can execute simultaneously. The **Delay** setting specifies the interval between consecutive queries. For example, setting the delay to 50% effectively halves the time between queries and operating the query at a faster pace.
 
 ## Procedure
 
@@ -36,10 +36,10 @@ On the Settings page, the **Metadata** tab includes settings for several feature
 
 5.  In the Delay section of the window, use the sliding scale to change the Query Delay settings.
 
-    \[Omitted image "query-driver-settings2.png"\] Alt text: Query driver settings
+    \[Omitted image "edit-query-driver-window2.png"\] Alt text: Query Driver Settings
 
 6.  Select the **Save Settings** button to save, or the **Cancel** button to discard your changes.
 
 
-**Parent Topic:**[Settings page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/settings-page-console.md)
+**Parent Topic:**[Settings page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/settings-page-console.md)
 

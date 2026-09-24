@@ -3,11 +3,11 @@ title: My Requests widget
 description: Use the My Requests widget \(my-requests-v2\) to enable requesters to view open or closed requests in Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/my-request-widget-portal.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Example widgets, Widget library, Using portal widgets, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Example widgets, Widget library, Using portal widgets, Configuring 
 
 Use the My Requests widget \(my-requests-v2\) to enable requesters to view open or closed requests in Service Portal.
 
-Requests, incidents, and tasks are displayed in a single view that is based on the filter conditions and display settings in the My Request Filter module. For information about defining filters for this module, see [Define filters for My Requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-my-requests.md).
+Requests, incidents, and tasks are displayed in a single view that is based on the filter conditions and display settings in the My Request Filter module. For information about defining filters for this module, see [Define filters for My Requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configure-my-requests.md).
 
 \[Omitted image "my-requests-widget.png"\] Alt text: Request records, a View filter, and a search bar displayed by the My Requests widget.
 
@@ -34,10 +34,10 @@ Use the widget instance options to customize the settings for the My Requests wi
 |Show View|If selected, displays the **View** list. Using this list you can filter for closed or open requests. If deselected, only open requests are displayed.|
 |Items per page|Number of records displayed per page.|
 
--   **[Enable the My Requests menu for an upgrade scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/enable-requests-menu.md)**  
+-   **[Enable the My Requests menu for an upgrade scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/enable-requests-menu.md)**  
 Enable the My Requests menu that uses the My Requests \(my-requests-v2\) widget for an upgrade scenario.
 
-**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
+**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
 
 **Related topics**  
 

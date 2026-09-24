@@ -3,11 +3,11 @@ title: Connection Suggestions list
 description: Review details of connection suggestions to decide which connections are relevant for application services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/connection-suggestions-list.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Service Mapping reference, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -46,7 +46,7 @@ Target Host
 
 </td><td>
 
-The host of the CI that is the connection target.If the [**VIP**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/connection-suggestions-list.md) column shows **true**, the target host is a load balancer member. When you select such a target host, the system adds the load balancer and all its members as CIs in the application service.
+The host of the CI that is the connection target.If the [**VIP**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/connection-suggestions-list.md) column shows **true**, the target host is a load balancer member. When you select such a target host, the system adds the load balancer and all its members as CIs in the application service.
 
 </td></tr><tr><td>
 
@@ -77,9 +77,9 @@ The confidence level indicates the likelihood of this connection being part of t
 -   **Low** - Commonly a connection to an application deployed on numerous servers in the organization, typically for monitoring purposes, such as Tivoli Enterprise Monitoring Agents or MID Server.
 -   **Very low** - Commonly a connection to a central application used by the entire organization, for example, Microsoft Active Directory or Okta.
 
-If the confidence level appears as **N/A**, wait until the application fingerprints training is complete. See the [Application fingerprint training status report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/readiness-dashboard-ml.md).
+If the confidence level appears as **N/A**, wait until the application fingerprints training is complete. See the [Application fingerprint training status report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/readiness-dashboard-ml.md).
 
- Confidence level is available only if fingerprint based discovery is enabled. See [Discover applications based on fingerprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discover-application-based-process.md) for more information.
+ Confidence level is available only if fingerprint based discovery is enabled. See [Discover applications based on fingerprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discover-application-based-process.md) for more information.
 
 </td></tr><tr><td>
 
@@ -114,7 +114,7 @@ Decision changed by
 
 </td><td>
 
-The user who changed the decision last time.If the decision was changed by a rule, this field shows the MID Server user. For more information about setting up MID Server user role, see [Create the MID Server user and grant the role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SetupMIDServerRole.md).
+The user who changed the decision last time.If the decision was changed by a rule, this field shows the MID Server user. For more information about setting up MID Server user role, see [Create the MID Server user and grant the role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_SetupMIDServerRole.md).
 
  This field appears only when you access connection suggestions by navigating to **Service Mapping** &gt; **Administration** &gt; **Connection Suggestions**.
 
@@ -127,14 +127,14 @@ Updated
 The timestamp of when this connection last changed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Mapping reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-reference.md)
+</table>**Parent Topic:**[Service Mapping reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/service-mapping-reference.md)
 
 **Related topics**  
 
 
-[Discovery based on Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/predictive-intelligence-discovery.md)
+[Discovery based on Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/predictive-intelligence-discovery.md)
 
-[Manage CI connections for a single service using suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/add-remove-ci-connections-services.md)
+[Manage CI connections for a single service using suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/add-remove-ci-connections-services.md)
 
-[Manage CI connections in bulk using suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/manipulate-connections-suggestions-in-bulk.md)
+[Manage CI connections in bulk using suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/manipulate-connections-suggestions-in-bulk.md)
 

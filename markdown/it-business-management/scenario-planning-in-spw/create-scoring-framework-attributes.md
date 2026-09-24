@@ -3,11 +3,11 @@ title: Create your scoring framework attributes
 description: Add attributes within your scoring framework, so that you can build a formula and start scoring your planning items within your portfolio plan.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/create-scoring-framework-attributes.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Custom scoring frameworks in Strategic Planning, Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -47,7 +47,7 @@ Role required: sn\_align\_core.apw\_admin
 
 ## What to do next
 
-[Create a final score attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-a-final-score-attribute.md)
+[Create a final score attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/create-a-final-score-attribute.md)
 
-**Parent Topic:**[Custom scoring frameworks in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/custom-scoring-frameworks-in-strategic-planning.md)
+**Parent Topic:**[Custom scoring frameworks in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/custom-scoring-frameworks-in-strategic-planning.md)
 

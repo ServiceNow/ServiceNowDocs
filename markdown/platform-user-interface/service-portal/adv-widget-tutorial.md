@@ -3,11 +3,11 @@ title: Tutorial: Build a custom widget
 description: Follow this tutorial to build a custom widget that displays Service Catalog items. Use this tutorial as a model to help you understand the advanced scripting power of the Service Portal.Create the Quick Order widget to query items in the Service Catalog.After adding your widget and creating a basic template, you can define advanced client and server scripts that enable users to query data from an instance table. You can pass the data model between the client and server by querying data from the database, displaying it to the user, and sending any updates back to the server.Display a list of popular items to the user before any search terms are entered.Enable the user to view and purchase Service Catalog items in the Quick Order widget by embedding the SC Catalog Item widget.Angular Providers are reusable components that can be added to multiple widgets. Using the Widget Angular Providers table, create a directive that shows a category icon next to each result in the Quick Order widget.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/adv-widget-tutorial.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Developing custom widgets, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -23,7 +23,7 @@ In this tutorial, you will create the Quick Order widget. This widget:
 -   Includes an embedded SC Catalog Item widget, allowing the user to view and order items within the Quick Order widget.
 -   Uses an Angular Provider to display a category icon beside each queried item.
 
-**Parent Topic:**[Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/widget-dev-guide.md)
+**Parent Topic:**[Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/widget-dev-guide.md)
 
 ## Create a widget and set up a template
 
@@ -306,7 +306,7 @@ Instead of duplicating code, you can embed widgets to leverage pre-existing func
 
     4.  Examine the server script.
 
-        Notice that the **data** object includes a sys\_id property populated by either the **input** or **options** objects. If neither **input** nor **options** include a sys\_id, the $sp.getParameter\(\) method retrieves the sys\_id from the request query string.
+        Notice that the **data** object includes a sys\_id property populated by either the **input** or **options** objects. If neither **input** nor **options** include a sys\_id, the [$sp.getParameter\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/c_GlideSPScriptableScopedAPI.md) method retrieves the sys\_id from the request query string.
 
         \[Omitted image "embedded-widget.png"\] Alt text: Sample server script using an If Else statement to retrieve the sys\_id.
 

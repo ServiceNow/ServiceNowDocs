@@ -3,11 +3,11 @@ title: View work order details from a change request using the CRM Workspace
 description: View or track the progress of a work order in the associated change request from CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-integrations/view-wo-details-from-change-req.html
-release: australia
+release: brazil
 product: Field Service Integrations
 classification: field-service-integrations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integration with Change Management, Integrating Field Service Management with other applications, Configure, Field Service Management]
 ---
@@ -18,7 +18,7 @@ View or track the progress of a work order in the associated change request from
 
 ## Before you begin
 
-Enable the activity function using the ChangeWorkOrderIntegration extension point. For more information, see [Using an extension point to synchronize work orders with change requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/using-extention-point-for-chnge-mngmnt.md).
+Enable the activity function using the ChangeWorkOrderIntegration extension point. For more information, see [Using an extension point to synchronize work orders with change requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-integrations/using-extention-point-for-chnge-mngmnt.md).
 
 Role required: itil, wm\_admin, and sn\_change\_read
 

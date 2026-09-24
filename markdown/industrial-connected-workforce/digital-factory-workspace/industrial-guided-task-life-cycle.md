@@ -3,11 +3,11 @@ title: Industrial Guided Task standard and task life cycles
 description: A life cycle is the list of states that an Industrial Guided Task \(IGT\) standard or task can go through.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/industrial-guided-task-life-cycle.html
-release: australia
+release: brazil
 product: Digital Factory Workspace
 classification: digital-factory-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Industrial Guided Tasks, Reference, Digital Factory Workspace, Industrial Connected Workforce]
 ---
@@ -112,5 +112,5 @@ When you start a task, you can make changes and select **Save**. The task then c
 
 When the state of a task changes it triggers an automatic tracking of task duration. The actual start time is recorded when the task moves to Work in Progress, and the actual end time is recorded when the task is submitted. The system captures the total duration spent on the task, from Work in Progress state till Submitted state. The duration value is then recorded in the business duration field.
 
-**Parent Topic:**[Industrial Guided Tasks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-guided-tasks-reference.md)
+**Parent Topic:**[Industrial Guided Tasks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-guided-tasks-reference.md)
 

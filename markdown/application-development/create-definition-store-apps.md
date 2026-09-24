@@ -3,9 +3,9 @@ title: Create a definition for your store application
 description: Create a definition for your store app to define the licensing metrics you want collected.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/create-definition-store-apps.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Custom licensing for ISV applications, Application sharing, Administer your apps, Deploying applications, Building applications]
 ---
@@ -22,7 +22,7 @@ Role required: admin or developer
 
 Create a definition for an application in development or for an application you have already published. However, if you assign a definition to a published application, you will have to re-publish it with the new definition. Additionally, you can only assign one definition to an application.
 
-**Note:** You can only create a definition for capacity subscriptions. See [Types of subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/types-subscription-v2.md).
+**Note:** You can only create a definition for capacity subscriptions. See [Types of subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/types-subscription-v2.md).
 
 ## Procedure
 
@@ -144,5 +144,5 @@ Create a new version of the application and publish it to the ServiceNow Store. 
 
 To change the definition of an application already on the ServiceNow Store, you must create a new definition, submit a new version of the application, and go through the review process.
 
-**Parent Topic:**[Custom licensing for ISV applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/custom-licensing-isv-apps.md)
+**Parent Topic:**[Custom licensing for ISV applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/custom-licensing-isv-apps.md)
 

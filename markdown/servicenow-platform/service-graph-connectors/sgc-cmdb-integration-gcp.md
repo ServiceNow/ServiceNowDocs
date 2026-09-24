@@ -3,11 +3,11 @@ title: Service Graph Connector for GCP
 description: Use the Service Graph Connector for GCP to ingest CMDB data from a Google Cloud Platform \(GCP\) project using the REST APIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-cmdb-integration-gcp.html
-release: australia
+release: brazil
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -56,17 +56,17 @@ You can use the Service Graph Connector for GCP to get visibility into cloud res
 
 ## Important information for upgrading Service Graph Connector for GCP
 
-After you've installed the latest version of the Service Graph Connector for GCP, you must synchronize the newly added data sources. Use the Advanced Setup section in the guided setup to synchronize data sources. For more information, see [Configure Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-config-gcp-integration.md).
+After you've installed the latest version of the Service Graph Connector for GCP, you must synchronize the newly added data sources. Use the Advanced Setup section in the guided setup to synchronize data sources. For more information, see [Configure Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-config-gcp-integration.md).
 
 ## Configuring a connection for the connector
 
-You can configure a connection for the connector by using the SGC Central view in the Service Graph Workspace or CMDB Workspace. The view enables you to discover and install connectors, and then effectively manage the full life cycle of creating, editing, monitoring, and debugging connections. To configure the connector using SGC Central, see [Configure Service Graph Connector for GCP using SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-gcp-integ.md).
+You can configure a connection for the connector by using the SGC Central view in the Service Graph Workspace or CMDB Workspace. The view enables you to discover and install connectors, and then effectively manage the full life cycle of creating, editing, monitoring, and debugging connections. To configure the connector using SGC Central, see [Configure Service Graph Connector for GCP using SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-gcp-integ.md).
 
 **Important:** Unless there are configuration issues, use the SGC Central view in the Service Graph Workspace or CMDB Workspace to configure the connection for the connector, as the guided setup method is planned for deprecation.
 
 ## CMDB integrations dashboard
 
-The Integration Commons for CMDB store app provides a dashboard with a central view of the status, processing results, and processing errors of all installed integrations. You can see metrics for all integration runs. You can filter the view to a specific CMDB integration, a specific time duration, or a specific integration run. For more details about monitoring GCP integrations in the CMDB Integrations Dashboard, see [Using the CMDB Integrations Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md).
+The Integration Commons for CMDB store app provides a dashboard with a central view of the status, processing results, and processing errors of all installed integrations. You can see metrics for all integration runs. You can filter the view to a specific CMDB integration, a specific time duration, or a specific integration run. For more details about monitoring GCP integrations in the CMDB Integrations Dashboard, see [Using the CMDB Integrations Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md).
 
 ## BYOL and BYOS support
 
@@ -75,17 +75,17 @@ Bringing your own licenses \(BYOL\) or bringing your own subscriptions \(BYOS\) 
 **Related topics**  
 
 
-[Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-sgc-available.md)
+[Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/cmdb-sgc-available.md)
 
-[Data mapping for Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-data-mapping-gcp.md)
+[Data mapping for Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/cmdb-data-mapping-gcp.md)
 
-[CMDB classes targeted in Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-gcp-classes.md)
+[CMDB classes targeted in Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-gcp-classes.md)
 
-[GCP discovery solutions comparison](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[GCP discovery solutions comparison](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)
 
-[Handling import failures for large GCP resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-large-data-vol.md)
+[Handling import failures for large GCP resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-large-data-vol.md)
 
-[Deep discovery for Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-gcp-deep-discovery.md)
+[Deep discovery for Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-gcp-deep-discovery.md)
 
-[Life cycle management of records in Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-gcp-lc.md)
+[Life cycle management of records in Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-gcp-lc.md)
 

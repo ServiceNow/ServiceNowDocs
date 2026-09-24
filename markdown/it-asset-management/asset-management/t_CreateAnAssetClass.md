@@ -3,11 +3,11 @@ title: Create an asset class
 description: Creating an asset class requires defining a new table and creating a corresponding application and module, then adding the new asset class to new or existing model categories. The default asset classes are Hardware, Software License, and Consumable. These general classes can be used to manage various assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/t\_CreateAnAssetClass.html
-release: australia
+release: brazil
 product: Asset Management
 classification: asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage various assets through asset classes, Use, Base Asset Management, Common applications, Asset Management]
 ---
@@ -120,7 +120,7 @@ New menu name.
 
 Now that the model category \(associated with the new asset class\) and the models are created, manage the models as assets. For example, use the model in a bundle.
 
-**Parent Topic:**[Manage various assets through asset classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/c_AssetClasses.md)
+**Parent Topic:**[Manage various assets through asset classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/c_AssetClasses.md)
 
 **Related topics**  
 

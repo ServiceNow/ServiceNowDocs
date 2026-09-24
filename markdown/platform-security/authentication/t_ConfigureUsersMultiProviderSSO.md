@@ -3,11 +3,11 @@ title: Configure users for Multi-Provider SSO
 description: Administrators can configure Multi-Provider SSO for individual users or for all users who belong to a company. You cannot configure Multi-Provider SSO for groups.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_ConfigureUsersMultiProviderSSO.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Multi-Provider SSO configurations, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---

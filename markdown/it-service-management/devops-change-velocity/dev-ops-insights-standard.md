@@ -3,11 +3,11 @@ title: DevOps Insights Standard dashboard - Classic
 description: Use the DevOps Insights application with ServiceNow Performance Analytics to gain insight into your DevOps environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/dev-ops-insights-standard.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Reference, DevOps Change Velocity, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Reference, DevOps Change Velocity, IT Service Management]
 
 Use the DevOps Insights application with ServiceNow Performance Analytics to gain insight into your DevOps environment.
 
-**Important:** The Insights Standard dashboard is deprecated for new users. Instead, you can use the Insights dashboard from the DevOps Workspace. For more information, see [DevOps Insights dashboard - Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-insights-dboard-ws.md)
+**Important:** The Insights Standard dashboard is deprecated for new users. Instead, you can use the Insights dashboard from the DevOps Workspace. For more information, see [DevOps Insights dashboard - Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/devops-insights-dboard-ws.md)
 
 **Note:** To collect daily or historical Insights data, unless these jobs were previously customized, you must select **Active** and set the **Run As** credentials to **System Administrator**:
 
@@ -855,5 +855,5 @@ Default number of API calls in the last 30 days.
  **Note:** Filter is not applicable to this widget.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[DevOps Change Velocity reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-change-velocity-reference.md)
+</table>**Parent Topic:**[DevOps Change Velocity reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/devops-change-velocity-reference.md)
 

@@ -3,11 +3,11 @@ title: Personal Data Rights reference
 description: Reference topics provide additional information such as tables, and roles that are installed with the Personal Data Rights application. These topics also provide supporting information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/pdr-reference.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -122,5 +122,5 @@ Personal data rights request sn\_grc\_pdr\_request
 Collects information with respect to personal data rights.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Privacy Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/privacy-mgmt-reference.md)
+</table>**Parent Topic:**[Privacy Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/privacy-mgmt-reference.md)
 

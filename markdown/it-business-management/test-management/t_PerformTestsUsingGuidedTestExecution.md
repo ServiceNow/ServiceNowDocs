@@ -3,11 +3,11 @@ title: Perform tests using guided test execution
 description: Perform tests from an assigned test case and record results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/t\_PerformTestsUsingGuidedTestExecution.html
-release: australia
+release: brazil
 product: Test Management
 classification: test-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Performing tests and updating the test status, Test Management 1.0, Test Management applications, Strategic Portfolio Management]
 ---
@@ -49,5 +49,5 @@ When the guided testing is initiated, the testers assigned to the test cases in 
 6.  Click **Save**.
 
 
-**Parent Topic:**[Performing tests and updating the test status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/c_Tester.md)
+**Parent Topic:**[Performing tests and updating the test status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/test-management/c_Tester.md)
 

@@ -3,11 +3,11 @@ title: Supported Wiz types
 description: The Wiz types and corresponding native types are imported as CMDB data and saved in tables that extend from the Configuration item \[cmdb\_ci\] table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-types.html
-release: australia
+release: brazil
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Wiz, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -40,7 +40,7 @@ AWS OrganizationGCP Organization
 
 </td><td>
 
-[Cloud Organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Cloud Organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 
@@ -48,7 +48,7 @@ GCP Folder
 
 </td><td>
 
-[Google Organization Folder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Google Organization Folder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td rowspan="6">
 
@@ -60,7 +60,7 @@ AWS Account
 
 </td><td rowspan="4">
 
-[Cloud Service Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Cloud Service Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 
@@ -80,9 +80,9 @@ GCP Project
 
 </td><td>
 
-[Cloud Service Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Cloud Service Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
- [Google Organization Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+ [Google Organization Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 
@@ -90,9 +90,9 @@ vSphere Datacenter​
 
 </td><td>
 
-[Cloud Service Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Cloud Service Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
- [VMware vCenter Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+ [VMware vCenter Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td rowspan="5">
 
@@ -104,7 +104,7 @@ AWS Region
 
 </td><td>
 
-[AWS Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[AWS Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 
@@ -112,7 +112,7 @@ Azure Location
 
 </td><td>
 
-[Azure Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Azure Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 
@@ -120,7 +120,7 @@ GCP Region
 
 </td><td>
 
-[Google Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Google Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 
@@ -128,7 +128,7 @@ OCI Region​
 
 </td><td>
 
-[OCI Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[OCI Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 
@@ -136,7 +136,7 @@ Alibaba Region
 
 </td><td>
 
-[Logical Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Logical Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 
@@ -148,7 +148,7 @@ Azure Resource Group
 
 </td><td>
 
-[Resource Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Resource Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td rowspan="2">
 
@@ -160,7 +160,7 @@ AWS Auto Scaling Group​
 
 </td><td rowspan="2">
 
-[Instance Scale Set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Instance Scale Set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 
@@ -176,7 +176,7 @@ AWS Network Interface
 
 </td><td rowspan="3">
 
-[Cloud Mgmt Network Interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Cloud Mgmt Network Interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 
@@ -196,7 +196,7 @@ AWS VPC
 
 </td><td rowspan="2">
 
-[Cloud Network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Cloud Network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 
@@ -212,7 +212,7 @@ AWS EC2 Security Group
 
 </td><td rowspan="5">
 
-[Compute Security Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Compute Security Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 
@@ -240,7 +240,7 @@ AWS EC2 Volume \(EBS\)
 
 </td><td rowspan="3">
 
-[Storage Volume](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Storage Volume](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 
@@ -256,7 +256,7 @@ GCP Compute Disk
 
 </td><td>
 
-[Storage Volume](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md), [Cloud Disk Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Storage Volume](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md), [Cloud Disk Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td rowspan="8">
 
@@ -268,7 +268,7 @@ AWS EC2 Instance
 
 </td><td rowspan="8">
 
-[Virtual Machine Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md), [Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md), [Hardware Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md), [Cloud Hardware Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Virtual Machine Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md), [Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md), [Hardware Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md), [Cloud Hardware Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 
@@ -308,7 +308,7 @@ AWS EBS Unencrypted Snapshot​
 
 </td><td rowspan="16">
 
-[Storage Volume Snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Storage Volume Snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 
@@ -380,7 +380,7 @@ AWS Egress Only Internet Gateway​
 
 </td><td rowspan="2">
 
-[Internet Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Internet Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 
@@ -396,7 +396,7 @@ AWS Machine Image \(AMI\)
 
 </td><td rowspan="4">
 
-[Image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 
@@ -420,7 +420,7 @@ AWS ELB v1
 
 </td><td rowspan="10">
 
-[Cloud Load Balancer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Cloud Load Balancer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 
@@ -468,7 +468,7 @@ AWS S3 Bucket​
 
 </td><td rowspan="3">
 
-[Cloud Object Storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Cloud Object Storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 
@@ -488,7 +488,7 @@ AWS Lambda Function​
 
 </td><td rowspan="3">
 
-[Cloud Function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Cloud Function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 
@@ -508,7 +508,7 @@ AWS DynamoDB Table
 
 </td><td>
 
-[DynamoDB Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[DynamoDB Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 
@@ -516,7 +516,7 @@ AWS ElastiCache for Memcached Cluster
 
 </td><td rowspan="14">
 
-[Cloud DataBase Cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Cloud DataBase Cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 
@@ -576,7 +576,7 @@ Azure Cosmos DB SQL Database
 
 </td><td rowspan="16">
 
-[Cloud DataBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Cloud DataBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 
@@ -648,7 +648,7 @@ AWS S3 Bucket
 
 </td><td rowspan="3">
 
-[Cloud Object Storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Cloud Object Storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 
@@ -668,7 +668,7 @@ AWS Lambda Function
 
 </td><td rowspan="3">
 
-[Cloud Function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Cloud Function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 
@@ -688,7 +688,7 @@ AWS Elastic IP Address
 
 </td><td rowspan="5">
 
-[Cloud Public IP Address](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Cloud Public IP Address](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 
@@ -716,7 +716,7 @@ Azure Storage Account
 
 </td><td>
 
-[Cloud Storage Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Cloud Storage Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td rowspan="3">
 
@@ -728,7 +728,7 @@ AWS API Gateway
 
 </td><td rowspan="3">
 
-[Cloud Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Cloud Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 
@@ -748,7 +748,7 @@ AWS Elastic Kubernetes Service \(EKS\) Cluster
 
 </td><td rowspan="4">
 
-[Kubernetes Cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Kubernetes Cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 
@@ -772,7 +772,7 @@ Kubernetes Namespace
 
 </td><td>
 
-[Kubernetes Namespace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Kubernetes Namespace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 
@@ -784,7 +784,7 @@ Kubernetes Node
 
 </td><td>
 
-[Kubernetes Node](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Kubernetes Node](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 
@@ -796,7 +796,7 @@ Kubernetes Deployment
 
 </td><td>
 
-[Kubernetes Deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Kubernetes Deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 
@@ -808,7 +808,7 @@ Kubernetes Service
 
 </td><td>
 
-[Kubernetes Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Kubernetes Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 
@@ -820,7 +820,7 @@ Kubernetes Pod
 
 </td><td>
 
-[Kubernetes Pod](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Kubernetes Pod](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 
@@ -832,7 +832,7 @@ Kubernetes Replica Set
 
 </td><td>
 
-[Kubernetes ReplicaSet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Kubernetes ReplicaSet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td rowspan="4">
 
@@ -844,7 +844,7 @@ Kubernetes Container
 
 </td><td rowspan="4">
 
-[Docker Container](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Docker Container](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 

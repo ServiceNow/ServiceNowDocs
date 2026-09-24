@@ -3,11 +3,11 @@ title: Customize the Password Reset enrollment reminder email
 description: The email message that reminds users to enroll for the Password Reset process is based on an email template. To customize the message, you can modify the default template or create a custom template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/customize-pwd-reset-enroll-reminder.html
-release: australia
+release: brazil
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Send email to remind users to enroll for Password Reset, Configure your Password Reset process, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -60,5 +60,5 @@ The default email content is:
     2.  Navigate to **Password Reset** &gt; **Properties** and enter the template name in the **Email template for enrollment reminder emails** field.
 
 
-**Parent Topic:**[Send email to remind users to enroll for Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/config-pwd-reset-enroll-reminder.md)
+**Parent Topic:**[Send email to remind users to enroll for Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/config-pwd-reset-enroll-reminder.md)
 

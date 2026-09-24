@@ -3,11 +3,11 @@ title: Revert a customization
 description: To prevent customizations from being overwritten by system upgrades, the upgrade process automatically skips changes to objects that have been customized. You may want to overwrite your customizations when a software upgrade contains a feature that you would like to implement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-revert-customization.html
-release: australia
+release: brazil
 product: Upgrade Management
 classification: upgrade-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reviewing upgrade history, Upgrade History tool in Upgrade Console, Upgrade Console tools, Use, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
@@ -50,5 +50,5 @@ To identify customized objects, the system adds a corresponding record in the Cu
     -   The **Disposition** changes from **Skipped** to **Reverted**.
     -   After you revert a customization, you have the option to click **Reapply Changes** to reapply your customizations \(undo the revert\).
 
-**Parent Topic:**[Reviewing upgrade history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-review-history.md)
+**Parent Topic:**[Reviewing upgrade history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-management/um-review-history.md)
 

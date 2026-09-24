@@ -3,9 +3,9 @@ title: ECC Queue performance metrics
 description: The metrics provide the ECC Queue performance snapshot within the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/io-ecc-queue-perf-metrics.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-05-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Instance monitoring and performance metrics, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
@@ -49,7 +49,7 @@ The MID Server status is not an indication of whether the MID Server service is 
 -   The communication from the MID Server to the instance is being blocked, which could be due to a proxy or a firewall.
 -   The MID Server service is not running, which could be caused by a manual stop or a crash of the MID Server service.
 
-**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 

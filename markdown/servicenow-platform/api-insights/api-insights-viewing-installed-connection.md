@@ -3,11 +3,11 @@ title: Viewing API data connections for a Service Graph Connector within API Ins
 description: You can view installed and draft API data connections that were added using Service Graph Connectors within API Insights.View the details of an installed connection that was added using a Service Graph Connector within SGC Central.View the details and resume setting up draft connections.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/api-insights/api-insights-viewing-installed-connection.html
-release: australia
+release: brazil
 product: API Insights
 classification: api-insights
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Monitor connections, Manage API data connections, API Insights, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,8 +18,8 @@ You can view installed and draft API data connections that were added using Serv
 
 The following connection types are available for viewing:
 
--   Installed connection \(see [View an installed connection within API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights-viewing-installed-connection.md).\)
--   Draft connection \(see [View a draft connection within API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights-viewing-installed-connection.md).\)
+-   Installed connection \(see [View an installed connection within API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/api-insights/api-insights-viewing-installed-connection.md).\)
+-   Draft connection \(see [View a draft connection within API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/api-insights/api-insights-viewing-installed-connection.md).\)
 
 ## View an installed connection within API Insights
 

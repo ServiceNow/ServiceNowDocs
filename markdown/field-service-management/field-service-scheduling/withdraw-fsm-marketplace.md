@@ -3,11 +3,11 @@ title: Withdraw from a request on Field Service Marketplace
 description: Withdraw from a request you responded to on Field Service Marketplace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/withdraw-fsm-marketplace.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Allowing contractors to bid on work orders and tasks, Scheduling and dispatching, Use, Field Service Management]
 ---

@@ -3,11 +3,11 @@ title: Create work order for a linear asset using a map
 description: Create a work order for tracking and managing work on a linear asset and its corresponding segments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/create-wo-for-linear-asset.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Assign work orders for linear assets, Manage work orders, Prepare work orders, Use, Field Service Management]
 ---
@@ -73,5 +73,5 @@ Creation of work order for a linear asset enables you to leverage the linear ass
 
 ## What to do next
 
-Create a work order task for the new work order. For more information, see [Qualify a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/t_QualifyATask.md). You can create multiple work order tasks to track and manage an individual task for your linear asset work order.
+Create a work order task for the new work order. For more information, see [Qualify a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/t_QualifyATask.md). You can create multiple work order tasks to track and manage an individual task for your linear asset work order.
 

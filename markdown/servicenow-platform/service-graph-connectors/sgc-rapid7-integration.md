@@ -3,11 +3,11 @@ title: Service Graph Connector for Rapid7
 description: The Service Graph Connector for Rapid7 pulls in asset inventory data \(hardware and software\) from the Rapid7 database into the Configuration Management Database \(CMDB\) application in your ServiceNow AI Platform instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-rapid7-integration.html
-release: australia
+release: brazil
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,7 +32,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## CMDB integrations dashboard
 
-The Integration Commons for CMDB store app provides a dashboard with a central view of the status, processing results, and processing errors of all installed integrations. You can see metrics for all integration runs. You can filter the view to a specific CMDB integration, a specific time duration, or a specific integration run. For more details about monitoring Rapid7 integrations in the CMDB Integrations Dashboard, see [Using the CMDB Integrations Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md).
+The Integration Commons for CMDB store app provides a dashboard with a central view of the status, processing results, and processing errors of all installed integrations. You can see metrics for all integration runs. You can filter the view to a specific CMDB integration, a specific time duration, or a specific integration run. For more details about monitoring Rapid7 integrations in the CMDB Integrations Dashboard, see [Using the CMDB Integrations Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md).
 
 ## Guided setup
 
@@ -42,5 +42,5 @@ Use the guided setup feature for the Service Graph Connector for Rapid7 to help 
 
 ## Configure the Service Graph Connector for Rapid7
 
-After you have followed the instructions provided to you to download and activate the Service Graph Connector for Rapid7 application, refer to [Download an application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/download-app-first-time.md) and [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/install-non-core-apps.md). There are a few steps you need to complete before you configure this integration.
+After you have followed the instructions provided to you to download and activate the Service Graph Connector for Rapid7 application, refer to [Download an application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/download-app-first-time.md) and [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/install-non-core-apps.md). There are a few steps you need to complete before you configure this integration.
 

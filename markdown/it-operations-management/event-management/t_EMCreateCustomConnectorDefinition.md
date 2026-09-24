@@ -3,11 +3,11 @@ title: Create a custom pull connector
 description: You can create a customized pull connector that requires a script, connector definition, and connector instance, to retrieve events on behalf of an event source.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMCreateCustomConnectorDefinition.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -26,7 +26,7 @@ A custom connector script can make remote API calls for a new event source to se
 
 -   Connect to an event monitoring tool.
 -   Retrieve events from an event monitoring tool.
--   Send events to the Event \[em\_event\] table using a web service API. See [REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_RESTAPI.md).
+-   Send events to the Event \[em\_event\] table using a web service API. See [REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/c_RESTAPI.md).
 
 Each connector definition is specific to an event source vendor. The connector definition specifies the MID Server script include that pulls events from the external event source. In addition, the connector definition specifies what connector instance value parameters are needed to connect to the external event source host.
 
@@ -215,5 +215,5 @@ The MID Server name to process events from the event server. If not specified, a
 </table>14. Click **Submit**.
 
 
-**Parent Topic:**[Configure Event Management connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/connectors-and-listeners.md)
+**Parent Topic:**[Configure Event Management connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/connectors-and-listeners.md)
 

@@ -3,11 +3,11 @@ title: ITOM Content Service use case
 description: This ITOM Content Service use case demonstrates how organizations can achieve enhanced visibility into their environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/itom-content-service-use-case.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [ITOM Content Service, ITOM Visibility, IT Operations Management]
 ---

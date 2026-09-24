@@ -3,11 +3,11 @@ title: Import a REST message into a REST step
 description: Transfer data from an existing Platform REST message into a REST step.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/import-rest-message-step.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [REST step, Integration steps, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -18,8 +18,8 @@ Transfer data from an existing Platform REST message into a REST step.
 
 ## Before you begin
 
--   This import is done from within a REST step in Workflow Studio. To create a REST step, [Create an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-action.md) and add a [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/rest-request-action-designer.md) to it.
--   The REST step uses Connection and Credential aliases for authentication details. If your REST message stores authentication details, create a Connection and Credential alias for them. For more information, see [Create a Connection and Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-alias.md).
+-   This import is done from within a REST step in Workflow Studio. To create a REST step, [Create an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-action.md) and add a [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/rest-request-action-designer.md) to it.
+-   The REST step uses Connection and Credential aliases for authentication details. If your REST message stores authentication details, create a Connection and Credential alias for them. For more information, see [Create a Connection and Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/connection-alias.md).
 -   Role required: admin
 
 ## Procedure
@@ -53,5 +53,5 @@ If the imported REST message has a MID Server configured in any of its functions
 
 Fill in any other required fields and test the step with the **Test REST step** button.
 
-**Parent Topic:**[REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/rest-request-action-designer.md)
+**Parent Topic:**[REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/rest-request-action-designer.md)
 

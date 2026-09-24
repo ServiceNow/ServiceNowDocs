@@ -3,9 +3,9 @@ title: Review and update the service order fulfillment tasks
 description: Review and update the fulfillment tasks that are associated with a service order, or order orchestration plan, so that you can make sure that all tasks are properly completed.OM content revamp project - This is a redundant topic and has been removed from the SOM bundle on Oct 9, 2025. A common topic for customer and service orders \(order-mgt-customer-order-tasks.dita\) has been preserved with combined content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/service-order-mgt-service-order-tasks.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Approve and fulfill service orders, Use, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -29,7 +29,7 @@ When you create a manual fallout record, or an automated one is generated, the f
 
 If you create a manual fallout record or an automated one is generated for order tasks, you can review and track all fallout records for a specific order. Use the **Fallouts \(n\)** tab \(where n is the number of fallouts\) that appears when you view the related customer or service order in the Customer Order form.
 
-To learn more about order fallout, see [Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/fallout-management-overview.md).
+To learn more about order fallout, see [Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/fallout-management-overview.md).
 
 ## Procedure
 
@@ -41,21 +41,21 @@ To learn more about order fallout, see [Managing order fallout](https://raw.gith
         -   To view all open order tasks, select **All**.
         -   To view only the tasks that are assigned to you, select **My Tasks**.
     2.  Select the order task that you want to work on.
-    **Note:** You can also directly access the task records for an order from the Orchestration Plan UI. To learn more, see [Review an order orchestration plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/review-order-fulfillment-orchestration-plan.md).
+    **Note:** You can also directly access the task records for an order from the Orchestration Plan UI. To learn more, see [Review an order orchestration plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/review-order-fulfillment-orchestration-plan.md).
 
 3.  For each order task, set the status and update the work notes, as required.
 
 4.  On the form, review the order task details and update as needed.
 
-    For information about the field descriptions, see [Order Tasks form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/field-descriptions-order-task-form.md).
+    For information about the field descriptions, see [Order Tasks form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/field-descriptions-order-task-form.md).
 
 5.  When you finish reviewing and updating the order task, or encounter issues preventing its closure, do one of the actions in the following table.
 
     |Action|Description|
     |------|-----------|
     |**Save the updated order task**|Select **Save**.|
-    |**Delete the order task**|Select the options icon \[Omitted image "more-options.png"\] Alt text: next to the **Save** button, and then select **Delete**.|
-    |**Create a fallout record**|Select the options icon \[Omitted image "more-options.png"\] Alt text: next to the **Save** button, and then select **Create Fallout**. To learn more, see [Create a manual fallout record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-manual-order-fallout-record.md).|
+    |**Delete the order task**|Select the options icon \[Omitted image "Form\_MoreOptions.png"\] Alt text: next to the **Save** button, and then select **Delete**.|
+    |**Create a fallout record**|Select the options icon \[Omitted image "Form\_MoreOptions.png"\] Alt text: next to the **Save** button, and then select **Create Fallout**. To learn more, see [Create a manual fallout record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-manual-order-fallout-record.md).|
 
 
 ## Result

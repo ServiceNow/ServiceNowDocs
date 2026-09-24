@@ -3,11 +3,11 @@ title: Cloud Configuration Governance Service Account Assume Role Config form
 description: The Cloud Configuration Governance Service Account Assume Role Config form displays detailed information about the assume role configuration used to access the trusting account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/ccg-service-account-assume-role-config-form.html
-release: australia
+release: brazil
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -59,5 +59,5 @@ Credential Alias
 Optional: Credential alias for the AWS credential.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Configuration Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/ccg-reference.md)
+</table>**Parent Topic:**[Cloud Configuration Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-cloud-accelerate/ccg-reference.md)
 

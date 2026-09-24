@@ -3,11 +3,11 @@ title: Enable the TPRM Risk concentration map
 description: After you install the Risk concentration map feature, you must install a Google license to enable the feature.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-risk-map-configure.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Follow the instructions in [Set up Google Maps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/set-up-google-maps-api.md).
+1.  Follow the instructions in [Set up Google Maps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/set-up-google-maps-api.md).
 
     For information on the Google Maps APIs in the Geo-map component, see the KB article: [KB1588661](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1588661)
 

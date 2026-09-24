@@ -3,11 +3,11 @@ title: Client state parameters
 description: Use client state parameters to bind values to component configurations. When the client state parameter's value changes, the component updates to use the new value.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/client-state-parameters.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Dynamically expose data in UI Builder pages \(advanced feature\), Advanced UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -34,8 +34,8 @@ For example, a user can sort a list by clicking a column header. Sorting redraws
 Creating client-side interactions in UI Builder involves:
 
 -   Client state parameters
--   [Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/event-mapping.md)
--   [Client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/define-client-scripts.md)
+-   [Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/event-mapping.md)
+-   [Client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/define-client-scripts.md)
 
 ## What are client state parameters
 
@@ -123,10 +123,10 @@ When the **Button clicked** event is mapped to event handlers to update both the
 
 \[Omitted image "client-state-button-event.png"\] Alt text: Button that updates the components filter to show specific occasions.
 
--   **[Using client state parameters in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-simple-counter-component.md)**  
+-   **[Using client state parameters in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-simple-counter-component.md)**  
 Create a simple counter by adding the stylized text component and two buttons to an experience page. Use a client state parameter to implement the functionality so that when the buttons are selected the count increases or decreases.
--   **[Update a component’s state using client state parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/state-parameters.md)**  
+-   **[Update a component’s state using client state parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/state-parameters.md)**  
 Create and bind a client state parameter value to a component in UI Builder. By adding custom values to your components, these components can then be automatically updated through a script.
 
-**Parent Topic:**[Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/data-resources.md)
+**Parent Topic:**[Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/data-resources.md)
 

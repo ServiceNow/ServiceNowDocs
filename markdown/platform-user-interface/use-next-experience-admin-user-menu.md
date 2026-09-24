@@ -3,9 +3,9 @@ title: Performing admin user functions in Next Experience
 description: Use admin functions in the Next Experience user menu to elevate roles, impersonate users, and configure a workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/use-next-experience-admin-user-menu.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [next experience admin, admin functions, admin user functions]
 breadcrumb: [Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
@@ -39,7 +39,7 @@ Impersonate user
 
 </td><td>
 
-Option to impersonate other authenticated users for testing purposes and to view impersonation logs. For more information, see [Impersonate a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ImpersonateAUser.md).
+Option to impersonate other authenticated users for testing purposes and to view impersonation logs. For more information, see [Impersonate a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ImpersonateAUser.md).
 
 </td></tr><tr><td>
 
@@ -47,7 +47,7 @@ Elevate role
 
 </td><td>
 
-Option to elevate to a privileged role to gain access to the features of High Security Settings for the current session. For more information, see [Elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_ElevatedPrivilege.md).**Note:** Users granted the admin role can't elevate to a privileged role. Only the base system admin can be elevated.
+Option to elevate to a privileged role to gain access to the features of High Security Settings for the current session. For more information, see [Elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_ElevatedPrivilege.md).**Note:** Users granted the admin role can't elevate to a privileged role. Only the base system admin can be elevated.
 
 </td></tr><tr><td>
 
@@ -61,5 +61,5 @@ Dynamic links to configuration pages to access configurations relevant to lists 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-ui-admin.md)
+**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-ui-admin.md)
 

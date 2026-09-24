@@ -3,9 +3,9 @@ title: Associate MITRE-ATT&amp;CK information with observables
 description: Associate MITRE-ATT&amp;CK tactics and techniques to an observable for better security incident and threat analysis at a granular level.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/associate-mitre-observables.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Using MITRE-ATT&amp;CK to detect and analyze threats, MITRE-ATT&amp;CK framework overview, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_si.analyst
 
 Some SIEMs may provide MITRE-ATT&amp;CK information with events, alerts, or observables. To associate the MITRE-ATT&amp;CK information at a granular level, you can add the information with an observable.
 
-You can choose to roll up the MITRE-ATT&amp;CK information automatically from the observables to a security incident. For automatic rollup of observables to security incidents, [enable the system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configure-mitre-att-ck-properties.md). Alternatively, you can roll up the information manually for each observable.
+You can choose to roll up the MITRE-ATT&amp;CK information automatically from the observables to a security incident. For automatic rollup of observables to security incidents, [enable the system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/configure-mitre-att-ck-properties.md). Alternatively, you can roll up the information manually for each observable.
 
 ## Procedure
 
@@ -36,7 +36,7 @@ You can choose to roll up the MITRE-ATT&amp;CK information automatically from th
 
 5.  In the source lists, review the **Source**.
 
-    **Note:** Only the [collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/setup-mitre-profile.md) and [matrices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/view-mitre-collection.md) that have been activated appear in the source list.
+    **Note:** Only the [collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/setup-mitre-profile.md) and [matrices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/view-mitre-collection.md) that have been activated appear in the source list.
 
 6.  Review the **Tactic** and **Techniques**, and add or remove them based on the relevance with the observable.
 
@@ -46,7 +46,7 @@ You can choose to roll up the MITRE-ATT&amp;CK information automatically from th
 
 8.  Select the observable and then from the Actions menu, click **Roll up MITRE ATT&amp;CK Information to SI**.
 
-    If you have enabled [automatic roll up of MITRE-ATT&amp;CK information from observables to security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configure-mitre-att-ck-properties.md), then the information is automatically rolled up. If you have not enabled automatic rollup,you need to do this manually.
+    If you have enabled [automatic roll up of MITRE-ATT&amp;CK information from observables to security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/configure-mitre-att-ck-properties.md), then the information is automatically rolled up. If you have not enabled automatic rollup,you need to do this manually.
 
 9.  To see an aggregated view of the techniques that are associated with the observables, select two or more observables from the list and then from the **Actions** menu on the selected rows list, click the **Show MITRE ATT&amp;CK Information**.
 
@@ -55,7 +55,7 @@ You can choose to roll up the MITRE-ATT&amp;CK information automatically from th
 
 An aggregated view of the MITRE ATT&amp;CK information for the selected observables is displayed.
 
-**Parent Topic:**[Using MITRE-ATT&amp;CK to detect and analyze threats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-features.md)
+**Parent Topic:**[Using MITRE-ATT&amp;CK to detect and analyze threats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/mitre-att-ck-features.md)
 
 **Related topics**  
 

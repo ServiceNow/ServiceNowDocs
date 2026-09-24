@@ -3,9 +3,9 @@ title: Additional resources for Mobile Platform products and solutions
 description: If you’re looking for Mobile Platform best practices, troubleshooting, or other implementation guidelines, select a feature or resource type to discover ServiceNow resources on other relevant websites.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-additional-resources.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Mobile Platform]
 ---
@@ -112,7 +112,7 @@ Release notes
 
 </td><td>
 
-[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/mobile-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/mobile-rn.md)
+
 
 </td></tr><tr><td>
 

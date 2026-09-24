@@ -3,9 +3,9 @@ title: OTM Licensing dashboard
 description: Use the OTM Licensing dashboard to assess resource consumption and status in relation to your acquired subscriptions. The dashboard provides dedicated reports for each OTM application, providing visual representations of daily usage counts and the average utilization of subscription units over a 90-day period. The OTM Licensing dashboard is an integral component of ITOM Licensing application version 4.0, accessible at ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/otm-licensing-dashboard.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [OTM SU Licensing References, Operational Technology Management licensing and subscriptions, Operational Technology]
 ---
@@ -72,12 +72,12 @@ The first area displays the daily raw resource counts, which means all the detec
 
 Hover over the bars to see the table of resource types. Each type is shown with an absolute number of resources and a share it takes among others.
 
-The second area displays bars that represent Subscription units counts for different licensable categories for the last 120 days per OT application.The dashboard also displays the brown line that represents the UsageAnalytics counts for table. This count is based on average consumption of subscription units for the last 90 days using SU ratios where one server, three PaaS resources, three containers, or one unresolved monitored object equal 1 SU.
+The second area displays bars that represent Subscription units counts for different licensable categories for the last 120 days per OT application.The dashboard also displays the brown line that represents the UsageAnalytics counts for table. This count is based on average consumption of subscription units for the last 90 days. A SU ratio is used where one server, three PaaS resources, three containers, or one unresolved monitored object equal 1 SU.
 
 Hover over the vertical bar in the Subscription units area for the desired day to open the Available CIs list. The table shows each CI category included in the daily CI count, along with an absolute number of resources and a share it takes among others.
 
 The third area shows which version of the OTM Licensing is used on the instance every day. It helps explaining spikes in count every time the new version is installed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[OTM SU Licensing References](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/otm-su-licensing-references.md)
+</table>**Parent Topic:**[OTM SU Licensing References](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/otm-su-licensing-references.md)
 

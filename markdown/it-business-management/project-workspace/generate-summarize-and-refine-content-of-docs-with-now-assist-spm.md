@@ -3,13 +3,13 @@ title: Generate and improve Docs content with ServiceNow Otto for Strategic Port
 description: Generate content with ServiceNow Otto for SPM directly in your Docs using custom prompts. In addition, summarize existing sections, elaborate where needed, and refine drafts to help improve your productivity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/generate-summarize-and-refine-content-of-docs-with-now-assist-spm.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [Now Assist skill, Now Assist, Gen AI, Generative AI, Strategic Portfolio Management, SPM]
+keywords: [ServiceNow Otto skill, ServiceNow Otto, Gen AI, Generative AI, Strategic Portfolio Management, SPM]
 breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -23,7 +23,7 @@ Role required: sn\_align\_core.ap\_read\_only, sn\_align\_core.pf\_read, sn\_apw
 
 ## About this task
 
-You can interact with Now Assist directly in your Doc to create new content, add context, or improve existing sections. This helps you draft faster, refine ideas, and keep your work relevant without leaving the page.
+You can interact with ServiceNow Otto directly in your Doc to create content, add context, or improve existing sections. This helps you draft faster, refine ideas, and keep your work relevant without leaving the page.
 
 The Generate and Improve Content feature is available in Strategic Planning Workspace, Portfolio Planning Workspace, and Project Workspace.
 
@@ -33,23 +33,23 @@ This task will be explained using Project Workspace as the example.
 
 1.  Navigate to **Workspaces** &gt; **Project Workspace** and open the required project.
 
-2.  From your Doc, open the page you want to work with and use Now Assist for any of your use cases.
+2.  From your Doc, open the page you want to work with and use ServiceNow Otto for any of your use cases.
 
-<table id="choicetable_l3j_vx2_lgc"><thead><tr><th align="left" id="d211536e125">
+<table id="choicetable_l3j_vx2_lgc"><thead><tr><th align="left" id="d212176e128">
 
 Choice
 
-</th><th align="left" id="d211536e128">
+</th><th align="left" id="d212176e131">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d211536e134">
+</th></tr></thead><tbody><tr><td id="d212176e137">
 
 **Work with content of the whole page**
 
 </td><td>
 
-1.  From the page header, select **Now Assist**.
+1.  From the page header, select ServiceNow Otto.
 2.  In the text box, enter your prompt.
 
 Some examples are:
@@ -59,30 +59,30 @@ Some examples are:
     -   For product teams: **Analyze the customer feedback comments in this Doc, group into top 5 themes, and suggest top 3 enhancements for highest impact.**
  **Note:** Now Assist uses the context from your Doc page to generate a response.
 
-</td></tr><tr><td id="d211536e182">
+</td></tr><tr><td id="d212176e185">
 
 **Refine, elaborate, or improve the existing content within the page.**
 
 </td><td>
 
 1.  Select the content blocks that you'd like to work on.
-2.  Select the Now Assist icon \(\[Omitted image "cwm-icon-na-docs.png"\] Alt text:\).
+2.  Select the Otto icon \(\[Omitted image "cwm-icon-na-docs.png"\] Alt text:\).
 3.  In the box, enter your prompt.
 
 Some examples are:
 
     -   If you have a list of stakeholders, you can ask **Elaborate on the scope of these roles.**
     -   **Rewrite this in a casual tone.**
-\[Omitted image "na-inline-open-text.png"\] Alt text: Sample of a Now Assist inline prompt for selected content on the page.
+\[Omitted image "na-inline-open-text.png"\] Alt text: Sample of a ServiceNow Otto inline prompt for selected content on the page.
 
-</td></tr><tr><td id="d211536e227">
+</td></tr><tr><td id="d212176e236">
 
 **Take assistance on a blank page.**
 
 </td><td>
 
-1.  From the page header, select **Now Assist**.
-2.  Enter a prompt with context for Now Assist to create your first draft.
+1.  From the page header, select **ServiceNow Otto**.
+2.  Enter a prompt with context for ServiceNow Otto to create your first draft.
 
 Some examples are:
 
@@ -90,15 +90,15 @@ Some examples are:
     2.  **Write a 3-paragraph blog post explaining why \[industry trend\] is changing how businesses operate.**
     3.  **Generate an outline for the Instagram campaign tasks for a Hackathon initiative.**
 
-\[Omitted image "na-blank-page-nacm.png"\] Alt text: Sample of creating first draft for a page using Now Assist.
+\[Omitted image "na-blank-page-nacm.png"\] Alt text: Sample of creating first draft for a page using Otto.
 
-</td></tr><tr><td id="d211536e274">
+</td></tr><tr><td id="d212176e290">
 
 **Answer questions in the context of this Doc.**
 
 </td><td>
 
-Whether the content in the Doc is added manually or generated using Now Assist, you can ask questions to find anything in the page's context.For example, if you have a project charter document, you can try asking **What is the total budget of this project and which part is the most expensive?**
+Whether the content in the Doc is added manually or generated using ServiceNow Otto, you can ask questions to find anything in the page's context.For example, if you have a project charter document, you can try asking **What is the total budget of this project and which part is the most expensive?**
 
 \[Omitted image "cwm-nacm-ask-questions.png"\] Alt text: Ask questions in the context of the document. Here, user asks questions on project budget, in the context of a Project Charter document.
 
@@ -112,5 +112,5 @@ Whether the content in the Doc is added manually or generated using Now Assist, 
     **Important:** Because the output is AI-generated, review it to ensure accuracy.
 
 
-**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/use-projects-pw.md)
+**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/use-projects-pw.md)
 

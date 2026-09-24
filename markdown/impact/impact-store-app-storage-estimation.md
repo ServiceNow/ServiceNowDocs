@@ -3,12 +3,12 @@ title: Impact storage estimation
 description: The Impact store app stores data within your ServiceNow instance and contributes to your instance's overall storage footprint. Storage usage varies depending on whether your instance is connected to the Impact Delivery Instance and on the level of collaboration activity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/impact-store-app-storage-estimation.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Impact, Impact Store App, IIP, storage estimation, storage footprint, Impact Delivery Instance, IDI, Product Adoption Roadmap, PAR, data retention, Platform Health]
-breadcrumb: [Impact reference, Impact]
+breadcrumb: [Data synchronization reference, Impact reference, Impact]
 ---
 
 # Impact storage estimation
@@ -121,5 +121,5 @@ Large \(high usage / mature adoption\)
 -   Storage growth is directly correlated with feature usage and collaboration levels.
 -   Higher engagement with Impact capabilities may result in increased storage consumption.
 
-**Parent Topic:**[Impact reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-reference.md)
+**Parent Topic:**[Data synchronization reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-synchronization-reference.md)
 

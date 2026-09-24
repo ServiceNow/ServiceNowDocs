@@ -1,38 +1,29 @@
 ---
 title: Configuring AI Data Kit
-description: Configure system properties, plugins, and roles to enable all features of AI Data Kit.
+description: Configure prompts and skills for AI Data Kit.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-data-kit/configuring-now-assist-data-kit.html
-release: australia
+release: brazil
 product: Now Assist Data Kit
 classification: now-assist-data-kit
 topic_type: concept
-last_updated: "2026-05-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [AI Data Kit, Enable AI experiences]
+breadcrumb: [AI Data Kit, Managing data for AI, Enable AI Experiences]
 ---
 
 # Configuring AI Data Kit
 
-Configure system properties, plugins, and roles to enable all features of AI Data Kit.
+Configure prompts and skills for AI Data Kit.
 
-## System properties
+## Configuration overview
 
-Some AI Data Kit features require system properties that are not enabled by default. Configure the following properties in System Properties after installation.
+1.  [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/create-new-skill.md)
 
-|Property|Value|Description|
-|--------|-----|-----------|
-|`sn_data_kit.enable_ground_truth`|true|Enables the **Create ground truth guidelines** button on dataset records. Must be created manually in the **Global** application scope as a String type. If this property does not exist or is set to any other value, the button does not appear.|
+    Create a skill in AI Skill Kit.
 
-## Required plugins for sensitive data scanning
+2.  [Configure deployment and skill settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md)
 
-The sensitive data scan feature requires the following plugins to be active on your instance. Activate these before using [Find and cleanse sensitive data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-kit/sensitive-data.md).
+    Configure the deployment settings for the skill that you create. The deployment settings enable you to choose where the admin can find the skill in AI Admin Hub.
 
--   `sn_data_discovery`
--   `sn_dp_store_app` \(Data Privacy\)
--   `com.glide.data_privacy`
-
-## Role configuration
-
-After installing AI Data Kit, assign roles to users who need access. The platform `admin` role alone does not grant access to the application. All users, including administrators, require at least `sn_data_kit.analyst` to access the AI Data Kit Home page. For full role descriptions and special considerations, see .
 

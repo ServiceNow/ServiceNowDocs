@@ -3,11 +3,11 @@ title: Configure Linked Records in Major Security Incident Management
 description: Use Linked Records Configuration to store the information of task tables that can be used to link/promote/propose to Major Security Incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configuring-linked-records-in-major-security-incident-management.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Rollup Framework for MSIM, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -97,7 +97,7 @@ Write a script to map the source record fields to a newly created major security
     \[Omitted image "linked-can-promote-to-msi.png"\] Alt text: Can promote to MSI
 
 
-**Parent Topic:**[Rollup Framework for MSIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/roll-up-framework-for-major-security-incident-management.md)
+**Parent Topic:**[Rollup Framework for MSIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/roll-up-framework-for-major-security-incident-management.md)
 
 **Related topics**  
 

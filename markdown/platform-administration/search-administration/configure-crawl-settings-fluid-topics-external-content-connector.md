@@ -3,13 +3,13 @@ title: Configure crawl settings for a Fluid Topics external content connector
 description: Specify restrictions on source content status, visibility, category/collection, tags, languages, and modification dates for the Fluid Topics external content connector's content crawls. Define inclusion or exclusion filters to limit the content the crawl retrieves and feeds to AI Search for indexing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-crawl-settings-fluid-topics-external-content-connector.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-05-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Fluid Topics external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -19,7 +19,7 @@ Specify restrictions on source content status, visibility, category/collection, 
 
 ## Before you begin
 
-A connector administrator must have already created the Fluid Topics external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a Fluid Topics external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-fluid-topics.md).
+A connector administrator must have already created the Fluid Topics external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a Fluid Topics external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-ext-cont-connector-fluid-topics.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 
@@ -111,7 +111,7 @@ If one of your connectors reaches the content indexing limit, you can update its
 
         As an example, you might enter `.csv` to exclude attachments with the Comma-Separated Values \(CSV\) file format.
 
-    For details on the supported attachment file extensions, see [Binary file extensions supported in External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/file-extensions-ext-cont-connector.md).
+    For details on the supported attachment file extensions, see [Binary file extensions supported in External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/file-extensions-ext-cont-connector.md).
 
 11. In the **Files** options, change the **Max file size \(MB\)** value to your desired value.
 
@@ -123,8 +123,8 @@ If one of your connectors reaches the content indexing limit, you can update its
 
     This option is only available when the Platform Multimodal Service plugin is activated on your instance.
 
-    -   For details on activating the plugin, see [Activate the Platform Multimodal Service plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/activate-platform-multimodal-service-plugin.md).
-    -   To learn how to select the VLM \(visual learning model\) provider and model used for the Platform Multimodal Service, see [Configure multimodal captioning for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.md).
+    -   For details on activating the plugin, see [Activate the Platform Multimodal Service plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/activate-platform-multimodal-service-plugin.md).
+    -   To learn how to select the VLM \(visual learning model\) provider and model used for the Platform Multimodal Service, see [Configure multimodal captioning for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.md).
 13. Select **Save and validate**.
 
 
@@ -134,7 +134,7 @@ The Fluid Topics external content connector is updated with your modified crawl 
 
 ## What to do next
 
-To retrieve content from your Fluid Topics source system using your modified crawl settings, create and run a one-time content crawl for your Fluid Topics external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-content-crawl-external-content-connector.md).
+To retrieve content from your Fluid Topics source system using your modified crawl settings, create and run a one-time content crawl for your Fluid Topics external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-content-crawl-external-content-connector.md).
 
-**Parent Topic:**[Fluid Topics external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/fluid-topics-external-content-connector.md)
+**Parent Topic:**[Fluid Topics external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/fluid-topics-external-content-connector.md)
 

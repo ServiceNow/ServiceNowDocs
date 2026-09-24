@@ -3,11 +3,11 @@ title: Example - Duplicate the Telco Generic ETL Schema
 description: This example walks you through how to duplicate the Telco Generic Schema ETL to set up a customized Service Graph Connector \(SGC\) ETL for your telecom integration. Use this procedure to create a baseline ETL in your connector's application scope based on the standardized Telco Generic Schema.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/example-create-a-duplicate-of-telco-generic-etl-schema.html
-release: australia
+release: brazil
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Duplicate Telecom Discovery Builder, Configure Telecom Discovery Builder, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---

@@ -3,11 +3,11 @@ title: Configure an avatar component for Work scheduler
 description: Use the Container component to add an avatar and the user name of the work item assignee.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/work-sched-avatar-component.html
-release: australia
+release: brazil
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a Work scheduler card using the Next Experience UI Builder, Setting up, Work scheduler, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -50,15 +50,15 @@ Role required: workspace\_admin or ui\_builder\_admin​
 
     The Components pop-up screen appears.
 
-<table id="choicetable_jbw_3mm_ntb"><thead><tr><th align="left" id="d366176e236">
+<table id="choicetable_jbw_3mm_ntb"><thead><tr><th align="left" id="d374119e236">
 
 To
 
-</th><th align="left" id="d366176e239">
+</th><th align="left" id="d374119e239">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d366176e245">
+</th></tr></thead><tbody><tr><td id="d374119e245">
 
 **Add the Avatar component**
 
@@ -71,7 +71,7 @@ In the configure tab, set the size, user name, and tooltip.1.  In the **Size** m
 5.  In the **Tooltip text** menu, type **!@state.cardProps.assignedTo**.
 
 
-</td></tr><tr><td id="d366176e308">
+</td></tr><tr><td id="d374119e308">
 
 **Add the Label Value Tabbed component**
 
@@ -87,9 +87,9 @@ In the configure tab, set the size, and items.1.  In the **Size** menu, select *
 </table>    Here's a demo on how to configure an avatar component for Work scheduler
 
 
-**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/create-workscheduler-card-wfo-itsm.md)
+**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/create-workscheduler-card-wfo-itsm.md)
 
-**Previous topic:**[Configure a display type component for a Work scheduler card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/work-sched-stacked-component.md)
+**Previous topic:**[Configure a display type component for a Work scheduler card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/work-sched-stacked-component.md)
 
-**Next topic:**[Associate a work scheduler card to the work configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/associate-card-config-wfo-itsm.md)
+**Next topic:**[Associate a work scheduler card to the work configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/associate-card-config-wfo-itsm.md)
 

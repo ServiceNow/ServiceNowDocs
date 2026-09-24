@@ -3,13 +3,13 @@ title: Archiving your project collaboration channel or team
 description: Understand how your project Slack channel or Microsoft team is archived when your project is moved to a closed state.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/archival-of-collab-channel.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [PPM Collaboration for project teams, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Collaborate with your project teams using PPM Collaboration application, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Archiving your project collaboration channel or team
@@ -30,7 +30,7 @@ When the project manager moves the project to Closed Complete, Closed Incomplete
 
 ## Deletion of a project task
 
-When a project task is deleted, the members in the corresponding Slack channel or Microsoft team are not removed automatically. To remove the members on deletion of a project task, you must enable the **Remove Users From Slack/Teams Channel** business rule. This business rule is created on the Project Task table and is not enabled by default. For more information, see [Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/c_BusinessRules.md).
+When a project task is deleted, the members in the corresponding Slack channel or Microsoft team are not removed automatically. To remove the members on deletion of a project task, you must enable the **Remove Users From Slack/Teams Channel** business rule. This business rule is created on the Project Task table and is not enabled by default. For more information, see Business rules.
 
 ## Deletion of the project channel or team
 
@@ -38,10 +38,10 @@ If the channel is deleted in the Slack application, or the team is deleted in th
 
 If the project manager wants to create a channel or team again for this project, administrator must manually delete the project's reference from the Entity Channel table. Then, the related link to enable collaboration appears on the project form.
 
-**Parent Topic:**[Using Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/using-project-management.md)
+**Parent Topic:**[Using Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/using-project-management.md)
 
 **Related topics**  
 
 
-[PPM Collaboration for project teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ppm-collab-overview.md)
+[Collaborate with your project teams using PPM Collaboration application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/ppm-collab-overview.md)
 

@@ -1,18 +1,18 @@
 ---
-title: Add a Software Asset Management Foundation plugin custom software product
+title: Add a Basic Software Asset Management custom software product
 description: You can add a custom product if a software product does not exist in the Software Library. Custom products enable you to normalize and account for homegrown software, or software that is not yet part of the Software Library.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management-foundation-plugin/t\_AddACustomProductSAMF.html
-release: australia
+release: brazil
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
-breadcrumb: [Software Asset Management Foundation plugin Administration, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
+breadcrumb: [Basic Software Asset Management Administration, Basic Software Asset Management, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
-# Add a Software Asset Management Foundation plugin custom software product
+# Add a Basic Software Asset Management custom software product
 
 You can add a custom product if a software product does not exist in the Software Library. Custom products enable you to normalize and account for homegrown software, or software that is not yet part of the Software Library.
 
@@ -84,5 +84,5 @@ Check box for activating the rule.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Software Asset Management Foundation plugin Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/c_SAMAdministrationSAMF.md)
+**Parent Topic:**[Basic Software Asset Management Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management-foundation-plugin/c_SAMAdministrationSAMF.md)
 

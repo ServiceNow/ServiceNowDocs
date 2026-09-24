@@ -3,11 +3,11 @@ title: Retire assets
 description: You can retire an asset at any time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/t\_RetiringAssets.html
-release: australia
+release: brazil
 product: Asset Management
 classification: asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Work with Asset and CI, Use, Base Asset Management, Common applications, Asset Management]
 ---
@@ -37,5 +37,5 @@ After you change the state of an asset to **Retired**, the **Substate** field is
 4.  Click **Update**.
 
 
-**Parent Topic:**[Work with Asset and CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/work-with-asset-ci.md)
+**Parent Topic:**[Work with Asset and CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/work-with-asset-ci.md)
 

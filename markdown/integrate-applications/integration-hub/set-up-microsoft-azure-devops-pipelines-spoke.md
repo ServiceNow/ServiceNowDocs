@@ -3,7 +3,7 @@ title: Set up Microsoft Azure DevOps Pipelines spoke
 description: Integrate your ServiceNow instance and Azure DevOps Pipelines application by setting up a connection record.Configure the default connection record for your Azure DevOps Pipelines application that enables integration of your ServiceNow instance with the Azure DevOps Pipelines application. Specify whether the record is for a host, instance, custom application, or account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-microsoft-azure-devops-pipelines-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task

@@ -3,11 +3,11 @@ title: Work on a complaint case
 description: Work on a complaint case to provide additional information, ensure that any outstanding tasks are completed, and resolve the customer complaint.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-complaint-management/work-complaint-service-case.html
-release: australia
+release: brazil
 product: Financial Services Complaint Management
 classification: financial-services-complaint-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Complaint Management, Common applications, Financial Services Operations \(FSO\)]
 ---
@@ -20,7 +20,7 @@ Work on a complaint case to provide additional information, ensure that any outs
 
 Role required: sn\_bom\_compl.agent or sn\_bom\_compl.agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -48,7 +48,7 @@ Use the case playbook that provides the activities and tasks to research and res
 
     Any tasks generated during playbook activities appear in the **Tasks** tab of the case.
 
-    **Note:** For information on complaint case field descriptions, see [Field descriptions for a complaint case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-complaint-management/fso-complaint-form-fields.md).
+    **Note:** For information on complaint case field descriptions, see [Field descriptions for a complaint case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-complaint-management/fso-complaint-form-fields.md).
 
 
 ## What to do next

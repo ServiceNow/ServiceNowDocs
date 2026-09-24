@@ -3,11 +3,11 @@ title: Create target for the KPI in the Success Dashboard
 description: Create a target for a KPI to be on par with the benchmark score or the organizational targets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-success-dashboard-indicators/create-target-kpi-sd.html
-release: australia
+release: brazil
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Maximise the benefits, ITSM Success Dashboard indicators, IT Service Management]
 ---
@@ -45,5 +45,5 @@ Role required: user
     **Note:** Select **Refresh** to view the target set on the trendline.
 
 
-**Parent Topic:**[Maximise the benefits of using the ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/measuring-performance-success-dashboard.md)
+**Parent Topic:**[Maximise the benefits of using the ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-success-dashboard-indicators/measuring-performance-success-dashboard.md)
 

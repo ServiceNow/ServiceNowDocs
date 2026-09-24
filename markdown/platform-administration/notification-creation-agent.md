@@ -3,11 +3,11 @@ title: Notification agent
 description: Use the Notification agent to create and modify email notifications, templates, and layouts through conversation, reducing the need of navigating complex forms and scripts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/notification-creation-agent.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Notification agent and agentic workflows in Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Notification agent and agentic workflows in Notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Notification agent

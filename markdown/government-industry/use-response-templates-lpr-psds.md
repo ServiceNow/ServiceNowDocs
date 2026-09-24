@@ -3,9 +3,9 @@ title: Use response templates in License and Permit Playbook
 description: Respond to cases by using the response templates in the contextual side panel in CRM Workspace. Good templates save you time by eliminating repetitive work. Response templates replace the static text with details from the license/permit application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/use-response-templates-lpr-psds.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using the contextual side panel, Using License and Permit Playbook, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
@@ -31,7 +31,7 @@ In License and Permit Playbook,Response Templates replace the static text with d
 -   Address Information
 -   Assigned to
 
-For information on how to create response templates, see [Create or modify a response template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-modify-templated-snippet.md).
+For information on how to create response templates, see [Create or modify a response template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/create-modify-templated-snippet.md).
 
 ## Procedure
 

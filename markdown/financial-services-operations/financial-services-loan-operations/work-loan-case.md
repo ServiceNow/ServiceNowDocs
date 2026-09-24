@@ -3,11 +3,11 @@ title: Work on a loan service case
 description: Review a loan case on a loan service request and update its details to trigger its workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-loan-operations/work-loan-case.html
-release: australia
+release: brazil
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Loan Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -23,7 +23,7 @@ Role required:
 -   For a business loan service case: sn\_bom\_loan\_b2b.agent or sn\_bom\_loan\_b2b.agent\_connector
 -   For a personal loan service case: sn\_bom\_loan.b2c\_agent or sn\_bom\_loan.agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## About this task
 

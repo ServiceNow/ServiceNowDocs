@@ -3,11 +3,11 @@ title: Network printer discovery
 description: Discovery identifies and classifies information about network printers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r\_DataCollDiscoNetworkPrinters.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Network device discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Network device discovery, Data collected by ITOM Visibility, ITOM V
 
 Discovery identifies and classifies information about network printers.
 
-Discovery can identify and classify Network Printers. For more information, see [Network discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_NetworkDiscovery.md).
+Discovery can identify and classify Network Printers. For more information, see [Network discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c_NetworkDiscovery.md).
 
 |Label|Table name|Field name|Source|
 |-----|----------|----------|------|
@@ -40,5 +40,5 @@ Discovery can identify and classify Network Printers. For more information, see 
 |Max capacity|discovery\_printer\_supplies|max\_capacity|SNMP, PRINT MIB|
 |Name|cmdb\_ci|name|Shazzam, SNMP, various MIBs|
 
-**Parent Topic:**[Network device discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_NetworkDevices.md)
+**Parent Topic:**[Network device discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/c_NetworkDevices.md)
 

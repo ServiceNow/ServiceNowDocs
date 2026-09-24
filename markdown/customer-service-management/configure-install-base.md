@@ -3,9 +3,9 @@ title: Configure install base
 description: Track which products and services have been purchased by a customer, how they've been installed or provisioned, along with the detailed configuration for each installed item.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-install-base.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -20,11 +20,11 @@ Role required: csm\_guided\_setup\_user or admin
 
 ## About this task
 
-Install the Customer Service Install Base Management plugin \(com.snc.install\_base\) from the ServiceNow Store.
+Install the Customer Install Base Management plugin \(com.snc.install\_base\) from the ServiceNow Store.
 
 Capture the install base for a customer by creating sold products, install base items, and installed products. This would enable the customer service agents to trace issues back to the relevant product, instances of that product, and other entities impacting their functioning.
 
-Before setting up your install base, create your product data by creating or importing product models. For more information, see [Configure product data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-products.md).
+Before setting up your install base, create your product data by creating or importing product models. For more information, see [Configure product data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-csm-products.md).
 
 This example shows the summary of the customer's purchase on the Solana microwave.
 
@@ -65,7 +65,7 @@ Customer service agents can view install base information in Agent Workspace. Cu
 
 1.  Navigate to **All** &gt; **Customer Service** &gt; **Administration** &gt; **Guided Setup**.
 
-2.  On the Getting Started page of the guided setup, click **Get Started**
+2.  On the Getting Started page of the guided setup, select **Get Started**
 
 3.  In the Foundation Data category, view the list of tasks to configure the feature.
 

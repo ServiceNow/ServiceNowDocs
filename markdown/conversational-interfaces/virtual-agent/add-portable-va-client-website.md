@@ -3,11 +3,11 @@ title: Add the portable Virtual Agent chat widget to a third-party website
 description: To use the portable chat widget for Virtual Agent on third-party web pages, add the necessary code to your web page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/add-portable-va-client-website.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 keywords: [Add, portable, Virtual Agent, chat widget, third-party]
 breadcrumb: [Adding Virtual Agent to your web page, Configure, Virtual Agent, Conversational Interfaces]
@@ -19,7 +19,7 @@ To use the portable chat widget for Virtual Agent on third-party web pages, add 
 
 ## Before you begin
 
-[Configure the portable Virtual Agent chat widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-portable-va-web-client.md) before completing this topic's steps.
+[Configure the portable Virtual Agent chat widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-portable-va-web-client.md) before completing this topic's steps.
 
 For more information, review the [How to embed Virtual Agent in an external site](https://www.servicenow.com/community/virtual-agent-nlu-articles/how-to-embed-virtual-agent-in-an-external-site-updated-for-tokyo/ta-p/2308092) article on the ServiceNow Community site.
 
@@ -221,6 +221,4 @@ Both enhanced and standard chat code is included in this topic. Review the begin
         }
         ```
 
-
-**Parent Topic:**[Use the portable chat widget to add Virtual Agent to your web page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/use-portable-va-web-client.md)
 

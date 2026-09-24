@@ -3,11 +3,11 @@ title: Install a service provider keystore for signing SAML requests
 description: Use the following steps to remove the existing example key store and install your own Service Provider key store containing your public and private key pair.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_InstallASPKeystoreSigningSAMLReqs.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [\(Optional\) Set keystore properties for signing logout requests for SAML, Service Provider \(SP\) system properties, SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
@@ -22,7 +22,7 @@ Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
 
 ## Procedure
 
-1.  [Create a Service Provider key store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_CreatingAServiceProviderKeyStore.md).
+1.  [Create a Service Provider key store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/t_CreatingAServiceProviderKeyStore.md).
 
 2.  Navigate to **SAML 2 Single Sign-on** &gt; **Certificate** or **Multi-provider** &gt; **Administrator** &gt; **x509 Certificate**.
 

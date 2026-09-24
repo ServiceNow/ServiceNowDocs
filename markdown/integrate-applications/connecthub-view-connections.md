@@ -3,11 +3,11 @@ title: View Connections
 description: View the inbound and outbound connections for an external system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/connecthub-view-connections.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Build integrations with connectors, Connect, Workflow Data Fabric]
+breadcrumb: [Build integrations with connectors, Connect, Workflow Data Fabric Home, Workflow Data Fabric]
 ---
 
 # View Connections

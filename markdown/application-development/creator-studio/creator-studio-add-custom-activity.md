@@ -3,13 +3,13 @@ title: Make a custom activity available for playbooks in Creator Studio
 description: You must add custom activities to the Creator Studio Activities table \[sn\_creatorstudio\_activity\] before users can add them to playbooks when building apps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-add-custom-activity.html
-release: australia
+release: brazil
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [About custom activities, Administer, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [About custom activities, Administer, Creator Studio, Developing your application, Building applications]
 ---
 
 # Make a custom activity available for playbooks in Creator Studio
@@ -28,8 +28,8 @@ You may want to create custom activities for complex or company-specific workflo
 
 The following steps must be completed before you can make a custom activity available in Creator Studio:
 
-1.  **Create the flow, subflow, or action**: An admin or someone with the correct role must first create the flow, subflow, or action in Workflow Studio. For more information, see [General guidelines for Workflow Studio flows, subflows, and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/design-considerations-consolidated.md).
-2.  **Define the activity**: An admin then defines the activity by adding it to the Activity Definition table and assigning the flow/subflow/action to a playbook activity. This step is also when the admin specifies which inputs can be made available as fields in the activity settings in Creator Studio playbooks. For more information, see [Activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/activity-definitions.md) and [Create an activity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-activity-definition.md).
+1.  **Create the flow, subflow, or action**: An admin or someone with the correct role must first create the flow, subflow, or action in Workflow Studio. For more information, see [General guidelines for Workflow Studio flows, subflows, and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/design-considerations-consolidated.md).
+2.  **Define the activity**: An admin then defines the activity by adding it to the Activity Definition table and assigning the flow/subflow/action to a playbook activity. This step is also when the admin specifies which inputs can be made available as fields in the activity settings in Creator Studio playbooks. For more information, see [Activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/activity-definitions.md) and [Create an activity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-activity-definition.md).
 
     **Note:** If an activity definition already exists for the activity you want, you can skip this step.
 
@@ -89,8 +89,8 @@ Brief description of the custom activity, which appears in the activity picker.
 </td></tr></tbody>
 </table>        To see a list of all the available activities you can add:
 
-        -   See [Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-actions.md) for all standard actions.
-        -   See [Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-logic.md) for a list of all flows.
+        -   See [Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-actions.md) for all standard actions.
+        -   See [Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-logic.md) for a list of all flows.
         -   See your list of all available subflows in Workflow Studio.
     3.  Confirm that the **Active** option is selected to make the activity appear in Creator Studio.
 
@@ -108,7 +108,7 @@ Brief description of the custom activity, which appears in the activity picker.
 
         For example, set the **Assigned To** field to **Always Show** to users building a playbook in Creator Studio.
 
-        For more information, see [Add dynamic inputs to an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/add-dynamic-inputs-to-activity.md).
+        For more information, see [Add dynamic inputs to an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/add-dynamic-inputs-to-activity.md).
 
         \[Omitted image "crs-activity-inputs.png"\] Alt text: Activity Definition form showing Variables section with input fields for Assigned To, Comments, Due Date, Table, and Record.
 
@@ -133,5 +133,5 @@ The new activity appears in the activity picker in Creator Studio.
 
 \[Omitted image "crs-activity-added.png"\] Alt text: The activity we added appears at the end of the activity picker
 
-**Parent Topic:**[Administering activities in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-administering-activities.md)
+**Parent Topic:**[Administering activities in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-administering-activities.md)
 

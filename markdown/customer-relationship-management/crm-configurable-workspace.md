@@ -3,9 +3,9 @@ title: Configurable workspace
 description: Configurable workspace is a user interface that provides users with the tools and information they need to assist customers. Workspaces use role-based layouts, components, and communication channels to support agent, fulfiller, and technician workflows across Sales CRM, CSM, FSM, and industry solutions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-relationship-management/crm-configurable-workspace.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Workspace experience, Customer Relationship Management]
 ---
@@ -80,9 +80,9 @@ Each product within the CRM portfolio uses configurable workspace as the foundat
 **Related topics**  
 
 
-[CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md)
+[CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-workspaces-configure.md)
 
-[CRM Workspace features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspace-feature-overview.md)
+[CRM Workspace features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-workspace-feature-overview.md)
 
-[CRM Workspace record pages and page templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-pages-templates.md)
+[CRM Workspace record pages and page templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-config-ws-pages-templates.md)
 

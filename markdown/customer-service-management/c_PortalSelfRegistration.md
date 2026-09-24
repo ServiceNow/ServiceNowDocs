@@ -3,9 +3,9 @@ title: Customer contact self-registration
 description: The self-registration feature enables new customer contacts to submit registration requests through the customer portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/c\_PortalSelfRegistration.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Use Customer Service Portal, Customer communication, Use, Customer 
 
 The self-registration feature enables new customer contacts to submit registration requests through the customer portal.
 
-A customer contact can submit a registration request using a valid registration code. The request is then sent to the customer administrator of that account for approval. For details, see [Approve a change request, or registration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/approve-request-from-cust-portal.md).
+A customer contact can submit a registration request using a valid registration code. The request is then sent to the customer administrator of that account for approval. For details, see [Approve a change request, or registration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/approve-request-from-cust-portal.md).
 
 If an account has multiple customer administrators, they all receive the registration request, but only one approval is necessary.
 
@@ -29,5 +29,5 @@ The administrator creates a unique registration code for each account and stores
 **Related topics**  
 
 
-[Example: The default self-service Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_SelfServicePasswordReset.md)
+[Example: The default self-service Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_SelfServicePasswordReset.md)
 

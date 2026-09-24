@@ -3,13 +3,13 @@ title: Add a custom part number
 description: You can add a custom part number to resolve an entitlement import error that occurs when a part number does not exist in the Software Library.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/sam-add-custom-part-number.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [SAM Administration, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software Asset Management administration, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Add a custom part number
@@ -78,9 +78,9 @@ Exclude from content service
 
 </td><td>
 
-Option that excludes the custom product details from being shared with [Software Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMContentService.md) if opted in.
+Option that excludes the custom product details from being shared with [Software Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/c_SAMContentService.md) if opted in.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Software Asset Management administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMAdministration.md)
+**Parent Topic:**[Software Asset Management administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/c_SAMAdministration.md)
 

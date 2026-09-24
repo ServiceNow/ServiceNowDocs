@@ -3,9 +3,9 @@ title: Enterprise Architecture AI agent diagramming agentic workflow
 description: Use the Enterprise architecture diagrams AI agent to generate Enterprise Modeling and Visualization diagrams for business applications hierarchy and summarize them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/now-assist-aiagents-ea-diagramming-usecase.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Working with AI agent agentic workflow in ServiceNow Otto for Enterprise Architecture \(EA\), Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Working with AI agent agentic workflow in ServiceNow Otto for Enter
 
 Use the Enterprise architecture diagrams AI agent to generate Enterprise Modeling and Visualization diagrams for business applications hierarchy and summarize them.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 ## Generate enterprise architecture diagram overview
 
@@ -22,7 +22,7 @@ Use the Generate enterprise architecture diagram agentic workflow to create ente
 
 After generating the diagram, the AI agent suggests summarizing the created business application hierarchy diagram, listing all entities in the diagram and describing the relationship between them.
 
-You can activate the agentic workflow template by setting the display settings to include the ServiceNow Otto panel. To change instructions for this agentic workflow, duplicate it and adjust the settings to suit your specific needs. Then activate the duplicated version instead. For information on how to duplicate a agentic workflow, see [duplicate the agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md).
+You can activate the agentic workflow template by setting the display settings to include the ServiceNow Otto panel. To change instructions for this agentic workflow, duplicate it and adjust the settings to suit your specific needs. Then activate the duplicated version instead. For information on how to duplicate a agentic workflow, see [duplicate the agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-aia-usecase.md).
 
 **Important:**
 
@@ -56,7 +56,7 @@ The Enterprise architecture diagrams AI agent is used in the Generate enterprise
 
 ## Activate the Generate enterprise architecture diagram agentic workflow
 
-To activate the Generate enterprise architecture diagram agentic workflow, follow the steps mentioned in [Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-aia-use-case.md).
+To activate the Generate enterprise architecture diagram agentic workflow, follow the steps mentioned in [Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-aia-use-case.md).
 
 **Note:** No triggers are required for the Generate enterprise architecture diagram agentic workflow.
 
@@ -64,7 +64,7 @@ However, in the Define security controls page, in the **Define user access** sec
 
 To add access to more roles, perform the following:
 
-1.  Set your application scope to ServiceNow Otto for Enterprise Architecture \(EA\). For information on how to change the application scope, see [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_SelectAnAppFromTheAppPicker.md).
+1.  Set your application scope to ServiceNow Otto for Enterprise Architecture \(EA\). For information on how to change the application scope, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationPicker.md).
 2.  Select the edit icon \(\[Omitted image "edit-icon.png"\] Alt text: Edit icon.\).
 3.  On the Access Control page, in the **Requires role** section, select **Insert new row**.
 
@@ -78,7 +78,7 @@ To add access to more roles, perform the following:
 
     The new role is added to the **Define user access** section of the Define security controls page.
 
-    **Note:** To know more about security in ServiceNow Otto AI agents with Access Control Lists \(ACLs\), see [Implement access control in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).
+    **Note:** To know more about security in ServiceNow Otto AI agents with Access Control Lists \(ACLs\), see [Implement access control in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aia-security-implementation.md).
 
 
 Also, on the Select channels and status page, do the following:
@@ -98,13 +98,13 @@ Also, on the Select channels and status page, do the following:
 
 To view information on how to create AI agents and agentic workflows and how to use the AI Agent Studio, see the following:
 
--   [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md)
--   [Install the AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md)
--   [Configure AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-ai-agents.md)
--   [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md)
--   [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-use-case-ai-agents.md)
--   [Manually test the execution of an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-ai-agent.md)
--   [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-use-case.md)
+-   [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-agent-studio.md)
+-   [Install the AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-ai-agents-plugins.md)
+-   [Configure AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-ai-agents.md)
+-   [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-next-best-action-agent.md)
+-   [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-use-case-ai-agents.md)
+-   [Manually test the execution of an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-ai-agent.md)
+-   [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-aia-use-case.md)
 
-**Parent Topic:**[Working with AI agent agentic workflow in ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/using-na-ea-ai-agents.md)
+**Parent Topic:**[Working with AI agent agentic workflow in ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/using-na-ea-ai-agents.md)
 

@@ -3,12 +3,12 @@ title: Activate an actionable use case in AI Admin Center
 description: Activate an AI solution from an actionable use case card on the AI Admin Center home page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/activate-solution-now-assist-center.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Activating actionable use cases, Setting up AI capabilities and configurations, AI Admin Center, Enable AI experiences]
+breadcrumb: [Activating actionable use cases, Setting up AI capabilities and configurations, AI Admin Center, Getting started with AI, Enable AI Experiences]
 ---
 
 # Activate an actionable use case in AI Admin Center
@@ -17,9 +17,9 @@ Activate an AI solution from an actionable use case card on the AI Admin Center 
 
 ## Before you begin
 
-ServiceNow Otto panel must be enabled to activate the use cases. Actionable use cases work with the ServiceNow Otto panel to guide you through the setup in a chat conversation. For more information, see [Enable the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-enable-now-assist-panel.md).
+ServiceNow Otto panel must be enabled to activate the use cases. Actionable use cases work with the ServiceNow Otto panel to guide you through the setup in a chat conversation. For more information, see [Enable the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-enable-now-assist-panel.md).
 
-Required plugins must be installed. For more information, see [Install and configure essential AI plugins using AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-configure-essential-now-assist-plugins.md).
+Required plugins must be installed. For more information, see [Install and configure essential AI plugins using AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-configure-essential-now-assist-plugins.md).
 
 **Note:** If a card displays a Model provider not approved warning, the model provider for that skill has not been approved in AI Guardian. Resolve this issue before attempting setup for the use case.
 
@@ -64,9 +64,9 @@ After it is activated, the card disappears and the new solution appears under th
 
 ## What to do next
 
-To monitor the performance of the activated solution, review the Recently activated AI section on the home page. For more information, see [Monitor your recently activated AI solution in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/monitor-now-assist-performance-now-assist-center.md).
+To monitor the performance of the activated solution, review the Recently activated AI section on the home page. For more information, see [Monitor your recently activated AI solution in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/monitor-now-assist-performance-now-assist-center.md).
 
-**Parent Topic:**[Activating actionable use cases from AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-actionable-use-cases.md)
+**Parent Topic:**[Activating actionable use cases from AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-actionable-use-cases.md)
 
 **Related topics**  
 

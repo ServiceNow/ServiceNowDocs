@@ -3,11 +3,11 @@ title: Create a policy set
 description: Create a policy set in Cloud Configuration Governance to group policies that enforce a given security or organization standard. When the scan configuration runs the policy set, it identifies the cloud resources that don’t adhere to the set standards. A policy set can contain one or more policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/create-ccg-policy-set.html
-release: australia
+release: brazil
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Cloud Configuration Governance policies, Use, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---

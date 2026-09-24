@@ -3,11 +3,11 @@ title: Rule - Action Mapping form
 description: The Rule - Action Mapping form enables you to link a boost action to a result improvement rule in an AI Search search profile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/rule-action-map-form-ais.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Reference, AI Search, Search administration, Configure core feature
 
 The Rule - Action Mapping form enables you to link a boost action to a result improvement rule in an AI Search search profile.
 
-For information on configuring boost actions in result improvement rules, see [Boost search results using a result improvement rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/boost-results-ais.md).
+For information on configuring boost actions in result improvement rules, see [Boost search results using a result improvement rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/boost-results-ais.md).
 
 <table id="table_ksn_hqd_2nb"><thead><tr><th>
 
@@ -128,5 +128,5 @@ Matches A Synonym Dictionary
 Synonym dictionary to check for synonyms that match a search result's value for the field selected in the **When** field. This field appears only when you select **Boost By Synonym Dictionary** as the boost type.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/reference-ais.md)
+</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/reference-ais.md)
 

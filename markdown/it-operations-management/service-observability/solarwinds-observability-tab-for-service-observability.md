@@ -3,11 +3,11 @@ title: SolarWinds Observability tab for Service Observability
 description: Dashboard and charts on the SolarWinds Observability tab of the Service Details page in the SOW.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-observability/solarwinds-observability-tab-for-service-observability.html
-release: australia
+release: brazil
 product: Service Observability
 classification: service-observability
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [SolarWinds templates, Service Observability templates, Service Observability reference, Service Observability, ITOM AIOps, IT Operations Management]
 ---
@@ -165,5 +165,5 @@ SolarWinds
 |Packet Loss|Percentage of packets dropped.|SolarWinds|
 |Error|Percentage of errors on the networking device.|SolarWinds|
 
-**Parent Topic:**[SolarWinds templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/solarwinds-templates.md)
+**Parent Topic:**[SolarWinds templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-observability/solarwinds-templates.md)
 

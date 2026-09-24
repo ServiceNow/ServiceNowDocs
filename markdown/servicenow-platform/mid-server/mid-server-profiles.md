@@ -3,11 +3,11 @@ title: MID Server profiles
 description: A MID Server profile is a named collection of configuration settings that you can apply to one or more MID Server instances from your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-server-profiles.html
-release: australia
+release: brazil
 product: MID Server
 classification: mid-server
 topic_type: concept
-last_updated: "2026-07-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [MID Server profiles, MID Server configuration, wrapper configuration]
 breadcrumb: [Configuring MID Servers, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]

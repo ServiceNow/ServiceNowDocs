@@ -3,12 +3,12 @@ title: Create CI From Template function
 description: The TNI Create CI From Template function enables you to create the inventory instance in the designated site or equipment holder in the Telecommunications Network Inventory application. This occurs when you instantiate an inventory with the inventory template. You can automatically create the inventory when you instantiate the network inventory design and assign process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/add-card-action.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Function catalog, Reference, Telecommunications Network Inventory]
 ---
 
@@ -38,7 +38,7 @@ The following table lists the input fields in the Create CI From Template functi
 |Stockroom Location|Name of the stockroom location where the asset is located.|String|
 |Asset|Name of the asset that is associated with this record.|String|
 
-To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/action-inputs-outputs.md).
+To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/action-inputs-outputs.md).
 
 ## Output
 
@@ -52,7 +52,7 @@ The following table lists the information about the function output.
 
 This flow action creates a telco equipment record when you use an inventory template to instantiate equipment.
 
-**Parent Topic:**[Telecommunications Network Inventory function catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-flow-action.md)
+**Parent Topic:**[Telecommunications Network Inventory function catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-flow-action.md)
 
 **Related topics**  
 

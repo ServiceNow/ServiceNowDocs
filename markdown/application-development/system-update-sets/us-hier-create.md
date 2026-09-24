@@ -3,11 +3,11 @@ title: Create a batch update set
 description: You include an update set in a batch by specifying another update set as its parent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/system-update-sets/us-hier-create.html
-release: australia
+release: brazil
 product: System Update Sets
 classification: system-update-sets
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with batched update sets, System update sets, Deploying applications, Building applications]
 ---

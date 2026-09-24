@@ -3,11 +3,11 @@ title: Fix the cause of a sensor error message
 description: To fix a Discovery sensor error message, you must fix the JavaScript file containing the code that generated the error.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/t\_FixTheCauseOfASensorErrorMessage.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-05-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Discovery error messages, Discovery monitoring and issue resolution, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -21,15 +21,15 @@ To fix a Discovery sensor error message, you must fix the JavaScript file contai
 Verify the following:
 
 -   You have access to the Discovery Definition modules.
--   You have completed the steps in [Find the cause of a sensor error message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_FindTheCauseOfASensorErrorMessage.md).
+-   You have completed the steps in [Find the cause of a sensor error message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/t_FindTheCauseOfASensorErrorMessage.md).
 
 Role required: admin
 
 ## About this task
 
-Use the sensor name and stack trace you identified in [Find the cause of a sensor error message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_FindTheCauseOfASensorErrorMessage.md) to locate the failing code. The stack trace provides the line number and function name where the error occurred.
+Use the sensor name and stack trace you identified in [Find the cause of a sensor error message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/t_FindTheCauseOfASensorErrorMessage.md) to locate the failing code. The stack trace provides the line number and function name where the error occurred.
 
-**Note:** The exact fix depends on the specific sensor and payload. This topic describes where and how to fix the error, not specific code changes. For errors with a refined code, you can view the root cause and remediation steps directly on the [Discovery Admin Workspace Error Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/daw-error-details.md) page.
+**Note:** The exact fix depends on the specific sensor and payload. This topic describes where and how to fix the error, not specific code changes. For errors with a refined code, you can view the root cause and remediation steps directly on the [Discovery Admin Workspace Error Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/daw-error-details.md) page.
 
 ## Procedure
 
@@ -52,7 +52,7 @@ Use the sensor name and stack trace you identified in [Find the cause of a senso
 
 Rerun Discovery to verify the sensor no longer generates the error. If the error persists after applying the fix, contact ServiceNow Support and provide the full stack trace, the sensor name, and a description of the changes you made.
 
-**Parent Topic:**[Discovery error messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryErrorMessages.md)
+**Parent Topic:**[Discovery error messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c_DiscoveryErrorMessages.md)
 
 **Related topics**  
 

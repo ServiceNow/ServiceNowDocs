@@ -3,11 +3,11 @@ title: Digital Portfolio Management life-cycle management
 description: The Digital Portfolio Management \(DPM\) Workspace enables you to work in the plan-build-run life-cycle model. You can manage solutions that you own and view solutions that may have an impact on services or products that you care about.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-lifecylce-management.html
-release: australia
+release: brazil
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Explore, Digital Portfolio Management, IT Service Management]
 ---
@@ -16,11 +16,13 @@ breadcrumb: [Explore, Digital Portfolio Management, IT Service Management]
 
 The Digital Portfolio Management \(DPM\) Workspace enables you to work in the plan-build-run life-cycle model. You can manage solutions that you own and view solutions that may have an impact on services or products that you care about.
 
-The DPM plan-build-run life cycle surfaces data from other ServiceNow® products in a central location. To view data and take basic actions in the DPM experience, you must install the plugins and roles. For more information, see [Digital Portfolio Management related applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-related-products.md).
+The DPM plan-build-run life cycle surfaces data from other ServiceNow® products in a central location. To view data and take basic actions in the DPM experience, you must install the plugins and roles. For more information, see [Digital Portfolio Management related applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-related-products.md).
 
-Listen to an overview of the DPM team, the application, and how it works for solution owners in the plan-build-run life cycle: [TechBytes, Episode 63](https://www.youtube.com/watch?v=73J2e5FuRwc&t=153s).
+Listen to an overview of the DPM team, the application, and how it works for solution owners in the plan-build-run life cycle.
 
-The life-cycle management phases come standard with DPM but all records are fully configurable to match how you work. For information on how Admins can control the configuration in DPM, see [Configure the Digital Portfolio Management experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-experience.md). For information about other configurations, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md).
+\[Omitted video\] Description: Digital Portfolio Management overview.
+
+The life-cycle management phases come standard with DPM but all records are fully configurable to match how you work. For information on how Admins can control the configuration in DPM, see [Configure the Digital Portfolio Management experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-configure-experience.md). For information about other configurations, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder-overview.md).
 
 <table id="table_wrf_jmf_gsb"><thead><tr><th>
 
@@ -71,7 +73,7 @@ Monitor critical key performance indicator \(KPI\) results and operational perfo
 
     -   View flow metrics from DevOps Insights to view details on epics, bugs, stories, and works in progress in the context of your business applications.
     -   View accelerate metrics from the DevOps Change workspace to manage scrum and waterfall development and to gain visibility into your software development life cycle.
-**Note:** To view DevOps accelerate metrics and flow metrics in DPM, admins must enable the DevOps system property. See [Configure the Digital Portfolio Management experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-experience.md) for more information.
+**Note:** To view DevOps accelerate metrics and flow metrics in DPM, admins must enable the DevOps system property. See [Configure the Digital Portfolio Management experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-configure-experience.md) for more information.
 
 
 </td><td>
@@ -92,16 +94,16 @@ Monitor critical key performance indicator \(KPI\) results and operational perfo
     -   Confirm risk conformance and act on risk remediation tasks.
     -   View accelerate metrics from the DevOps Change Workspace to manage scrum and waterfall development and to gain visibility into your software development life cycle.
 
-**Note:** To view DevOps accelerate metrics in DPM, admins must enable the DevOps system property. See [Configure the Digital Portfolio Management experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-experience.md) for more information.
+**Note:** To view DevOps accelerate metrics in DPM, admins must enable the DevOps system property. See [Configure the Digital Portfolio Management experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-configure-experience.md) for more information.
 
 
 </td></tr></tbody>
 </table>**Related topics**  
 
 
-[View service and service offering details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-service-details.md)
+[View service and service offering details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-service-details.md)
 
-[View business application details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-business-apps-details.md)
+[View business application details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-business-apps-details.md)
 
-[View service instance details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-app-service-details.md)
+[View service instance details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-app-service-details.md)
 

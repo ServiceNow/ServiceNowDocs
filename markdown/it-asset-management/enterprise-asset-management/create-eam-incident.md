@@ -3,11 +3,11 @@ title: Create an Enterprise Asset Management incident
 description: Create an incident record to document a deviation from an expected Enterprise Asset Management standard of operation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-eam-incident.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing incidents in Enterprise Asset Management, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
@@ -20,15 +20,15 @@ Create an incident record to document a deviation from an expected Enterprise As
 
 Role required: itil
 
-To create an Enterprise Asset Management incident record, you must install all applicable Incident Management plugins on your ServiceNow instance. See [Incident Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-mgmt-plugins.md) for the complete list of Incident Management plugins.
+To create an Enterprise Asset Management incident record, you must install all applicable Incident Management plugins on your ServiceNow instance. See [Incident Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-mgmt-plugins.md) for the complete list of Incident Management plugins.
 
 ## About this task
 
-This procedure describes how an ITIL agent must complete an incident form to document and track an Enterprise Asset Management incident. Refer to [Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_IncidentManagement.md) for more in-depth information on creating and managing incidents.
+This procedure describes how an ITIL agent must complete an incident form to document and track an Enterprise Asset Management incident. Refer to [Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/c_IncidentManagement.md) for more in-depth information on creating and managing incidents.
 
 ## Procedure
 
-1.  [Create an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/create-an-incident.md).
+1.  [Create an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/create-an-incident.md).
 
     After your incident is created, you are automatically redirected to the Incidents list.
 
@@ -52,7 +52,7 @@ This procedure describes how an ITIL agent must complete an incident form to doc
 
     **Note:** The **Configuration item** field remains empty if you select a consumable asset.
 
-    **Important:** If you select a multi-component asset, the **Affected Assets** related list displays only the parent asset. You must manually add each child asset that is affected by this incident. See [step 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eam-incident.md) for more details.
+    **Important:** If you select a multi-component asset, the **Affected Assets** related list displays only the parent asset. You must manually add each child asset that is affected by this incident. See [step 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-eam-incident.md) for more details.
 
 5.  If you selected a multi-component asset in the previous step, specify the child assets that are affected by this incident.
 
@@ -75,5 +75,5 @@ This procedure describes how an ITIL agent must complete an incident form to doc
 
 Resolve and close your incident.
 
-**Parent Topic:**[Managing incidents in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-eam-incidents.md)
+**Parent Topic:**[Managing incidents in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/managing-eam-incidents.md)
 

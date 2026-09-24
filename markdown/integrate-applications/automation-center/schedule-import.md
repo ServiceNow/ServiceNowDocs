@@ -3,11 +3,11 @@ title: Schedule data import
 description: Schedule the frequency for the data import to ensure that the automation data is updated as required.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/schedule-import.html
-release: australia
+release: brazil
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring data import, Create an automation source, Working with Connection Manager, Use, Automation Center, Workflow Data Fabric]
 ---
@@ -20,7 +20,7 @@ Schedule the frequency for the data import to ensure that the automation data is
 
 Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
-Proceed from the **Define source** tab. For information on defining source, see [Define source for automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/define-source.md).
+Proceed from the **Define source** tab. For information on defining source, see [Define source for automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/define-source.md).
 
 ## Procedure
 
@@ -65,5 +65,5 @@ Proceed from the **Define source** tab. For information on defining source, see 
     The **Select spoke** section is displayed.
 
 
-**Parent Topic:**[Configuring data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/configure-data-import.md)
+**Parent Topic:**[Configuring data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/configure-data-import.md)
 

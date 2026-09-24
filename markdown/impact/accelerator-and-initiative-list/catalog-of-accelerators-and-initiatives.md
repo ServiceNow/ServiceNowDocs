@@ -3,11 +3,11 @@ title: View the Accelerator and Initiative catalog
 description: Learn about available Accelerators and Initiatives that you can request to help achieve your business outcomes for your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/catalog-of-accelerators-and-initiatives.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Request Accelerators and Initiatives, Accelerators and Initiatives, Using Impact, Impact]
 ---
@@ -22,7 +22,7 @@ Learn about available Accelerators and Initiatives that you can request to help 
 
 The catalog page displays the number of Accelerators and Initiatives in use along with the entitled usage limits. For example, 1/2 in use indicates that the instance uses one Accelerator out of the permissible limit of two. You can browse the catalog and request another Accelerator to make the best use of the entitlement in the package.
 
-**Note:** The number of Accelerators and Initiatives that you're entitled to is based on your subscription package. See [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-packages1.md) for additional information.
+**Note:** The number of Accelerators and Initiatives that you're entitled to is based on your subscription package. See [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/impact-packages1.md) for additional information.
 
 ## All Accelerators and Initiatives
 
@@ -48,5 +48,5 @@ You can see a filtered view of bookmarked flash card by using the Quick Filter i
 **Related topics**  
 
 
-[Request an Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/accelerators.md)
+[Request an Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/accelerators.md)
 

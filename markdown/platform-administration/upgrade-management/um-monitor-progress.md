@@ -3,11 +3,11 @@ title: Upgrade Progress
 description: When an upgrade is underway, Upgrade Progress displays progress bars and other information to help you monitor the process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-monitor-progress.html
-release: australia
+release: brazil
 product: Upgrade Management
 classification: upgrade-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Monitor an upgrade to an instance, Upgrade Monitor tool in Upgrade Console, Upgrade Console tools, Use, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
@@ -26,7 +26,7 @@ If you have the ATF Test Generator and Cloud Runner store application installed,
 -   The instance is not a fed instance.
 -   The instance is not a self-hosted instance.
 
-**Note:** You can now confidently upgrade your instance by using the [ATF Test Generator and Cloud Runner](https://store.servicenow.com/sn_appstore_store.do#!/store/application/db1676d7421441106f046193880e0b37) store app. See [Exploring ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-tg-cr-landing.md) for more information.
+**Note:** You can now confidently upgrade your instance by using the [ATF Test Generator and Cloud Runner](https://store.servicenow.com/sn_appstore_store.do#!/store/application/db1676d7421441106f046193880e0b37) store app. See [Exploring ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/atf-tg-cr-landing.md) for more information.
 
 Once the database upgrade starts, the following details show up. \[Omitted image "uc-upgrade-progress.png"\] Alt text: Image showing the status of an in-progress upgrade
 
@@ -46,5 +46,5 @@ Once the database upgrade starts, the following details show up. \[Omitted image
 |Version|The current build for the selected node \(indicated by the arrow\).|
 |Successful upgrade|When the selected node is online, shows how long the node has been online. If the selected node is offline, shows how long the node has been offline.|
 
-**Parent Topic:**[Monitor an upgrade to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-monitor-instance-upgrade.md)
+**Parent Topic:**[Monitor an upgrade to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-management/um-monitor-instance-upgrade.md)
 

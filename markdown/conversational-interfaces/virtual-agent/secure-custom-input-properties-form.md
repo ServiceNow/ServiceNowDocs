@@ -3,21 +3,21 @@ title: Secure custom input properties sheet
 description: Use this sheet to specify secure inputs, such as a password, in a custom input control in Virtual Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/secure-custom-input-properties-form.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Virtual Agent, Secure, Input, Custom, Control]
-breadcrumb: [Customizing Virtual Agent with custom controls, Exploring other Virtual Agent features, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Use custom controls, Other Virtual Agent features, Build conversations, Virtual Agent, Conversational Interfaces]
 ---
 
 # Secure custom input properties sheet
 
 Use this sheet to specify secure inputs, such as a password, in a custom input control in Virtual Agent.
 
-**Important:** To implement secure \(password2\) inputs in your Virtual Agent custom control, you must adhere to the scoped application requirements in Workflow Studio. For details, see [Workflow Studio scoped application requirements for secure inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-fd-app-reqs-secure-inputs.md).
+**Important:** To implement secure \(password2\) inputs in your Virtual Agent custom control, you must adhere to the scoped application requirements in Workflow Studio. For details, see [Workflow Studio scoped application requirements for secure inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-fd-app-reqs-secure-inputs.md).
 
 ## Secure custom input properties sheet
 
@@ -69,7 +69,7 @@ Invoke Workflow Studio asset
 
 The Workflow Studio action or subflow that secure inputs from the custom control can be passed into.
 
- For more information about Workflow Studio actions and subflows, see [Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-actions.md) and [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/subflows.md).
+ For more information about Workflow Studio actions and subflows, see [Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-actions.md) and [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/subflows.md).
 
 </td></tr><tr><td>
 
@@ -79,7 +79,7 @@ Spoke
 
 Name of the scoped application that contains Workflow Studio content that is dedicated to a particular application or record type.
 
- For a list of default spokes, see [Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/spokes.md).
+ For a list of default spokes, see [Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/spokes.md).
 
 </td></tr><tr><td>
 
@@ -159,9 +159,9 @@ No-code condition statement or low-code script that specifies a condition for le
 </table>**Related topics**  
 
 
-[Workflow Studio Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-actions.md)
+[Workflow Studio Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-actions.md)
 
-[Workflow Studio Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/subflows.md)
+[Workflow Studio Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/subflows.md)
 
-[Password \(2 Way Encrypted\) design considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/password-2-data.md)
+[Password \(2 Way Encrypted\) design considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/password-2-data.md)
 

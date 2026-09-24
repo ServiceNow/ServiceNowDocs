@@ -1,22 +1,22 @@
 ---
-title: View and manage alerts
+title: View and manage alerts in the crisis map interface
 description: Business Continuity Management integrates with the Crisis Map to provide you the capability of identifying a threat and its geolocation from your asset locations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/crisis-map-interface-bcm.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Crisis Management map, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
-# View and manage alerts
+# View and manage alerts in the crisis map interface
 
 Business Continuity Management integrates with the Crisis Map to provide you the capability of identifying a threat and its geolocation from your asset locations.
 
 ## Before you begin
 
-It helps you identify business threats, notify stakeholders, and declare crisis events when potential disruptions could impact your business operations.
+The crisis map helps you identify a threat as a business crisis and notify your stakeholders. You can declare it as a crisis event if it has the potential to disrupt your business.
 
 **Note:** Activate the Business Crisis Management Map \(sn-crisis-map\) application for the crisis map feature.
 
@@ -74,9 +74,9 @@ Use the crisis map to manage feeds, prioritize alerts based on their severity, a
 
 6.  To go back to the alert list, click the **Map** tab.
 
-7.  If the alert does not pose a threat to employee locations, datacenters, core companies, or business establishments, select the **Dismiss Alert** option in the alert menu.
+7.  If the alert does not pose a threat to your employee locations, datacenters, core companies, or business establishments, click **Dismiss Alert** in the alert menu.
 
-    If the alert does not hamper your business operations, you can dismiss it in the list view and in its detailed view. When you dismiss an alert in the list view, it is removed from the list. If you dismiss an alert from the detailed view, it is removed and brings you back to the list view. You can then review the other alerts in the list. In both cases, you can see a confirmation message about the dismissal of the alert.
+    If you know that the alert would not hamper your business operations, you can dismiss it in the list view as well as in its detailed view. When you dismiss an alert in the list view, it is removed from the list. If you dismiss an alert from the detailed view, the alert is removed and brings you back to the list view. You can then review the other alerts in the list. In both cases, you can see a confirmation message about the dismissal of the alert.
 
 8.  To subscribe to the alert notifications, click the subscribe icon \(\[Omitted image "SubscribeIcon.png"\] Alt text: Subscribe icon.\).
 

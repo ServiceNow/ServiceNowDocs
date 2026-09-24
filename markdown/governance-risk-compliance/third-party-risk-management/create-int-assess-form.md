@@ -3,11 +3,11 @@ title: Create new internal assessment form
 description: Use the internal assessment form to capture all the information that you need to create an internal assessment. As a third-party risk assessor, you can create an assessment template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/create-int-assess-form.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [IRQ process management, Reference, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -90,7 +90,7 @@ Assessment Engine
 
 The assessment engine used for the Third-party risk assessment. This field is set to **Smart**.
 
-This field is only visible if you have enabled the Smart Assessment Engine enabled \[`sn_vdr_risk_asmt.sae_enabled`\] property. For more information about this property, see [Configure TPRM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.md).
+This field is only visible if you have enabled the Smart Assessment Engine enabled \[`sn_vdr_risk_asmt.sae_enabled`\] property. For more information about this property, see [Configure TPRM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.md).
 
 **Note:** When reviewing previous assessments, you can determine which engine was used by checking this field. If the assessment was created using the Classic assessment engine, the field displays **Classic**.
 
@@ -197,10 +197,10 @@ Additional comments \(Customer visible\)
 Public information about the assessment.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[IRQ process management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-irq-tab.md)
+</table>**Parent Topic:**[IRQ process management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-irq-tab.md)
 
 **Related topics**  
 
 
-[Create an external assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/create-vendor-risk-assess-temp.md)
+[Create an external assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/create-vendor-risk-assess-temp.md)
 

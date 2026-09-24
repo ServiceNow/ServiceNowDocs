@@ -3,9 +3,9 @@ title: Targeted Communications publication workflows
 description: The Targeted Communications application \(com.sn\_publications\) includes default workflows that are used for publishing articles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/targeted-comm-publication-workflows.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Targeted communications, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -21,7 +21,7 @@ The application includes two publishing workflows:
 
 ## Migrating workflows to Workflow Studio flows
 
-Starting with the Zurich release, legacy workflows for the Targeted Communications application have been migrated to low-code flows in [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio.md). The functionality of the new flows remains the same.
+Starting with the Zurich release, legacy workflows for the Targeted Communications application have been migrated to low-code flows in [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio.md). The functionality of the new flows remains the same.
 
 During an upgrade, the logic checks if a publication workflow or its configuration has been customized.
 

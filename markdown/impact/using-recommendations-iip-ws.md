@@ -3,9 +3,9 @@ title: Use the recommendations list
 description: Use the recommendations full list to view the recommendations tailored for you. You can either accept or reject a recommendation based on your interest by selecting View Details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/using-recommendations-iip-ws.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Impact, Impact]
 ---
@@ -61,5 +61,5 @@ Role required: All Impact roles
 
 ## What to do next
 
-For more information on a given recommendation, see [Manage work items from Recommendation details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/recommendation-details-page-in-impact-store.md).
+For more information on a given recommendation, see [Manage work items from Recommendation details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/recommendation-details-page-in-impact-store.md).
 

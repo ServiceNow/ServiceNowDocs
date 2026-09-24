@@ -3,9 +3,9 @@ title: Admin configuration use case for AIOps
 description: Learn how IT administrators configure and optimize ITOM AIOps for enterprise environments. This use case demonstrates the setup journey for a multi-cloud financial services organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-health-admin-config-use-case.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [ITOM Health, admin configuration, AIOps setup, Event Management, Service Operations Workspace]
 breadcrumb: [Explore, ITOM AIOps, IT Operations Management]
@@ -128,14 +128,14 @@ The comprehensive ITOM AIOps configuration delivers measurable improvements in o
     Alert prioritization and impact analysis directly tied to business service criticality
 
 
-This configuration enables the operational workflows demonstrated in the [NOC operator use case for AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/noc-operator-aiops-use-case.md). The configuration transforms reactive operations into intelligent, proactive service management.
+This configuration enables the operational workflows demonstrated in the [NOC operator use case for AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/noc-operator-aiops-use-case.md). The configuration transforms reactive operations into intelligent, proactive service management.
 
 **Related topics**  
 
 
-[NOC operator use case for AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/noc-operator-aiops-use-case.md)
+[NOC operator use case for AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/noc-operator-aiops-use-case.md)
 
-[ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-health-landing-page.md)
+[ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-health-landing-page.md)
 
-[Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/sow-landing-page-itom.md)
+[Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/sow-landing-page-itom.md)
 

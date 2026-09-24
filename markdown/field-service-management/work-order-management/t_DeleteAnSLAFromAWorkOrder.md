@@ -3,11 +3,11 @@ title: Delete an SLA from a work order
 description: Remove an SLA from a work order but leave it available for use with other work orders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/t\_DeleteAnSLAFromAWorkOrder.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SLAs, Templates, Work orders, Set up work orders and tasks, Configure, Field Service Management]
 ---

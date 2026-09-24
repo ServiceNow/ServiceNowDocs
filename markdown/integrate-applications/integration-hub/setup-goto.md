@@ -3,7 +3,7 @@ title: Set up the GoTo spoke
 description: Integrate the ServiceNow instance and GoTo by creating a custom OAuth client in GoTo to authenticate ServiceNow requests.Create an OAuth client for authenticating GoTo API requests.Create a connection between your GoTo applications and your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-goto.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task

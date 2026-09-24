@@ -3,9 +3,9 @@ title: Assess your vulnerability exposure with generative AI
 description: Chat with an AI agent to help you assess the potential exposure of your configuration items and your business services to vulnerabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/assess-exposure-vr-aiagent.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -16,7 +16,7 @@ Chat with an AI agent to help you assess the potential exposure of your configur
 
 ## Before you begin
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 Roles required: sn\_vul.vulnerability\_admin or sn\_vul.vulnerability\_analyst
 
@@ -24,7 +24,7 @@ Roles required: sn\_vul.vulnerability\_admin or sn\_vul.vulnerability\_analyst
 
 1.  Select the ServiceNow Otto® icon \(\[Omitted image "bus-ai-otto.svg"\] Alt text:\) on the header page from anywhere in your instance.
 
-    The ServiceNow Otto® panel is displayed. If you don't see the ServiceNow Otto® icon in the header on the page, you must activate the ServiceNow Otto® panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+    The ServiceNow Otto® panel is displayed. If you don't see the ServiceNow Otto® icon in the header on the page, you must activate the ServiceNow Otto® panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
     The following steps show you how to request current vulnerability data and create a watch topic based on the returned results. You can also determine the overall impact a vulnerability might have on your environment.
 
@@ -72,6 +72,4 @@ Roles required: sn\_vul.vulnerability\_admin or sn\_vul.vulnerability\_analyst
 
     Information about the business service includes associated vulnerable items, criticality \(risk\) and the configuration items by class are listed.
 
-
-**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-unified-security-exposure-management.md)
 

@@ -3,11 +3,11 @@ title: Set global text search properties
 description: Administrators can control how global text search behaves with system properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/set-global-text-search-properties.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Global search finds records from multiple tables, Zing text indexing and search engine, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -45,7 +45,7 @@ Option to enable global search in Core UI and UI15.-   Type: Boolean
 -   Supported values:
     -   **true**: Global search is enabled in Core UI.
     -   **false**: Global search is disabled in Core UI.
-**Note:** When Next Experience is enabled, this system property has no effect. To enable or disable the Unified Navigation search field in Next Experience, set the **glide.ui.polaris.global\_search** system property described in [Next Experience system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/pol-sys-properties.md).
+**Note:** When Next Experience is enabled, this system property has no effect. To enable or disable the Unified Navigation search field in Next Experience, set the **glide.ui.polaris.global\_search** system property described in [Next Experience system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/pol-sys-properties.md).
 
 </td></tr><tr><td>
 
@@ -103,7 +103,7 @@ Background color for Catalog global text search results. This property only affe
 
 </td><td>
 
-Name of the form view that global text search uses to display exact match results. If no value is specified, global text search uses the default form view. For information on creating and managing views, see [View management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/view-management-overview.md).
+Name of the form view that global text search uses to display exact match results. If no value is specified, global text search uses the default form view. For information on creating and managing views, see [View management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/view-management-overview.md).
 
 -   Type: String
 -   Default value: \(empty\)
@@ -115,7 +115,7 @@ Name of the form view that global text search uses to display exact match result
 
 </td><td>
 
-Name of the list view that global text search uses to format results for each searched table. If no value is specified, global text search uses the default list view. For information on creating and managing views, see [View management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/view-management-overview.md).
+Name of the list view that global text search uses to format results for each searched table. If no value is specified, global text search uses the default list view. For information on creating and managing views, see [View management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/view-management-overview.md).
 
 -   Type: String
 -   Default value: **text\_search**
@@ -181,7 +181,7 @@ Number of concurrent threads global text search uses when searching multiple sea
 
 4.  To set the maximum number of matches to display for a wildcard search term, follow these steps.
 
-    1.  [Open the System Properties table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) and search for the property **glide.ts.max\_wildcard\_expansion**.
+    1.  [Open the System Properties table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) and search for the property **glide.ts.max\_wildcard\_expansion**.
 
         |Field|Description|
         |-----|-----------|
@@ -200,7 +200,7 @@ Number of concurrent threads global text search uses when searching multiple sea
 
     1.  Install the internationalization \(i18n\) plugin for the language you want to stem text search terms in.
 
-    2.  [Add a new system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md), **glide.ts.stemming\_language**:
+    2.  [Add a new system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md), **glide.ts.stemming\_language**:
 
 <table id="table_krx_crr_2jb"><thead><tr><th>
 
@@ -224,7 +224,7 @@ Description
 
 </td><td>
 
-Language to use for text search stemming. For details on stemming, see [Zing matches derived words with stemming](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/stemming-matches-derived-words.md).
+Language to use for text search stemming. For details on stemming, see [Zing matches derived words with stemming](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/stemming-matches-derived-words.md).
 
 </td></tr><tr><td>
 
@@ -256,13 +256,13 @@ English
 </td></tr></tbody>
 </table>    3.  To make tables use the new stemming language for text search, manually regenerate their text search indexes.
 
-        For details on this procedure, see [Regenerate a text index for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/t_RegenerateATextIndexForATable.md).
+        For details on this procedure, see [Regenerate a text index for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/t_RegenerateATextIndexForATable.md).
 
 6.  To enable and configure fallback number search for exact matches, follow these steps.
 
     **Note:** Fallback number search is disabled by default. When it's enabled, if a global text search finds no exact match for a record number, the system searches a list of specified tables for matches. This additional search can make global text searches take longer, so enable fallback number search only if you need it.
 
-    1.  To enable fallback number search, [add a new system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md), **glide.ui.text\_search.enable\_fallback\_number\_search**:
+    1.  To enable fallback number search, [add a new system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md), **glide.ui.text\_search.enable\_fallback\_number\_search**:
 
 <table id="table_pfs_xdm_swb"><thead><tr><th>
 
@@ -305,7 +305,7 @@ Default value
 false
 
 </td></tr></tbody>
-</table>    2.  To configure the list of tables searched by fallback number search, [add a new system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md), **glide.ui.text\_search.fallback\_table\_list**:
+</table>    2.  To configure the list of tables searched by fallback number search, [add a new system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md), **glide.ui.text\_search.fallback\_table\_list**:
 
 <table id="table_ep1_c2m_swb"><thead><tr><th>
 
@@ -351,12 +351,12 @@ task,kb\_knowledge
 
 </td></tr></tbody>
 </table>
--   **[Configure parallel processing of search groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/t_ConfigureParallelProcessing.md)**  
+-   **[Configure parallel processing of search groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/t_ConfigureParallelProcessing.md)**  
 To improve performance, only activate search groups and tables that are necessary to meet business needs.
--   **[Revert to the legacy global search UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/revert-to-legacy-global-search.md)**  
+-   **[Revert to the legacy global search UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/revert-to-legacy-global-search.md)**  
 Disable the dynamic global search UI to preserve customizations you made to the legacy global search UI.
 
-**Parent Topic:**[Global search finds records from multiple tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_GlobalTextSearch.md)
+**Parent Topic:**[Global search finds records from multiple tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/c_GlobalTextSearch.md)
 
 **Related topics**  
 

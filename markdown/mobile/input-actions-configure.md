@@ -3,9 +3,9 @@ title: Configure input form actions in an input form screen
 description: Add a button next to input form fields to give users the ability to perform various input actions. These actions include adding a comment, adding one or more attachments, and navigating to other screens.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/input-actions-configure.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Input form actions, Input actions and input sources, Configure an input form screen, Input form screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -18,7 +18,7 @@ Add a button next to input form fields to give users the ability to perform vari
 
 Role required: admin
 
-This topic describes how to configure input actions for your various input fields. These configurations should be performed within the general setup of input form screens. Additional input action configurations are only available when `Screen` is selected in the **Presentation style** field of the Input form screen. For more information, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-screen-config.md).
+This topic describes how to configure input actions for your various input fields. These configurations should be performed within the general setup of input form screens. Additional input action configurations are only available when `Screen` is selected in the **Presentation style** field of the Input form screen. For more information, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/parameter-screen-config.md).
 
 ## About this task
 
@@ -160,11 +160,11 @@ Determine where or how the action handles the generated data.**Note:** Unless ot
 
 **DataSourceID**: The data source used for loading data from the database. Used for comment and attachment input action.
 
-**Note:** An *ElementIdentifier* attribute is also required. For more information, see [Data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/data-sources.md).
+**Note:** An *ElementIdentifier* attribute is also required. For more information, see [Data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/data-sources.md).
 
 **ElementIdentifier**: The unique ID contained within a data source, used for loading data from the database. Used for comment and attachment input action.
 
-**Note:** A *DataSourceID* attribute is also required. For more information, see [Data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/data-sources.md).
+**Note:** A *DataSourceID* attribute is also required. For more information, see [Data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/data-sources.md).
 
 **UserActionID**: A unique value that identifies this action record. It's needed to associate the action with a UI rule.
 
@@ -185,15 +185,15 @@ Determine where or how the action handles the generated data.**Note:** Unless ot
 
 12. Do the following for input actions that you want to include to the input field area.
 
-<table id="choicetable_p4n_gxy_42c"><thead><tr><th align="left" id="d70990e487">
+<table id="choicetable_p4n_gxy_42c"><thead><tr><th align="left" id="d71348e487">
 
 Input action type
 
-</th><th align="left" id="d70990e490">
+</th><th align="left" id="d71348e490">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d70990e496">
+</th></tr></thead><tbody><tr><td id="d71348e496">
 
 **Attachment**
 
@@ -204,7 +204,7 @@ Procedure
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d70990e532">
+</td></tr><tr><td id="d71348e532">
 
 **Comment**
 
@@ -215,7 +215,7 @@ Procedure
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d70990e568">
+</td></tr><tr><td id="d71348e568">
 
 **Navigation button**
 
@@ -229,7 +229,7 @@ You're returned to the Input form action attribute table.
 
 4.  Select **New** in the Action attributes area.
 5.  Select **ButtonId** in the **Name** field.
-6.  Select a preconfigured navigation type in the **Value** field. For more information on creating navigation buttons, see [Navigation functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-nav-functions.md).
+6.  Select a preconfigured navigation type in the **Value** field. For more information on creating navigation buttons, see [Navigation functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-nav-functions.md).
 
 **Note:** If the navigation function you selected has a Record context \(as opposed to a Global context\), you must map it to the specific record using data sources.
 
@@ -244,5 +244,5 @@ If the *ButtonId* refers to a button with a record context, it defaults to the c
 
 ## What to do next
 
-To open the input form screen with attachments and comments already loaded from the instance \[instance\] table, you must configure the attributes *DataSourceId* and *ElementIdentifier*. For example, in a scenario where multiple users work on the same form, the data source loading mechanism validates that the latest data is displayed to the next user on the input form screen. For a navigation function with a record context, the record context is defined in the data source script. The script maps to the sys\_id of the record that contains a context for the navigation. For more information, see [Configure data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/data-sources-config.md).
+To open the input form screen with attachments and comments already loaded from the instance \[instance\] table, you must configure the attributes *DataSourceId* and *ElementIdentifier*. For example, in a scenario where multiple users work on the same form, the data source loading mechanism validates that the latest data is displayed to the next user on the input form screen. For a navigation function with a record context, the record context is defined in the data source script. The script maps to the sys\_id of the record that contains a context for the navigation. For more information, see [Configure data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/data-sources-config.md).
 

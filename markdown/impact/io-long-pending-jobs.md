@@ -3,9 +3,9 @@ title: Configure long pending jobs alert
 description: Get notifications when jobs that are pending exceed your defined overdue thresholds by configuring the Long Pending Jobs alert. Set up conditions by job priority to take action on groups of jobs—such as all discovery jobs or system cleanup jobs—in one go, rather than managing them individually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/io-long-pending-jobs.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [long pending jobs]
 breadcrumb: [Use alerts to monitor your instance, Monitor instance performance, Platform Health, Using Impact, Impact]
@@ -25,7 +25,7 @@ Role required: admin
 
 2.  Log in to Instance Observer and navigate to **Alerts** &gt; **Configure Alerts**.
 
-    For more information on how to configure alerts, see [Set notifications for configured key alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-io-alerts.md).
+    For more information on how to configure alerts, see [Set notifications for configured key alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configuring-io-alerts.md).
 
 3.  In the **Search** field of the **All Alerts** tab that displays by default, enter `long pending jobs`.
 
@@ -74,5 +74,5 @@ Role required: admin
     The alert is active after you save. When a configured condition is met, you receive a notification that includes the job priority and the specific job names that breached the threshold. For example, Job X \(Priority 100\) has been pending for more than 100 minutes.
 
 
-**Parent Topic:**[Use alerts to monitor your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-alerts-intro.md)
+**Parent Topic:**[Use alerts to monitor your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/io-alerts-intro.md)
 

@@ -3,11 +3,11 @@ title: Create a knowledge article from an incident using an article template
 description: Provide a resolution for an issue by creating a knowledge article from an incident with fields defined in an article template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/create-a-knowledge-article.html
-release: australia
+release: brazil
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Managing incidents, Incident Management, IT Service Management]
 ---
@@ -20,7 +20,7 @@ Provide a resolution for an issue by creating a knowledge article from an incide
 
 Role required: itil, sn\_incident\_write, or admin
 
-Activate the [KCS Integration for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/activate-kcs-integration-for-im.md) plugin \(com.snc.incident.knowledge\).
+Activate the [KCS Integration for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/activate-kcs-integration-for-im.md) plugin \(com.snc.incident.knowledge\).
 
 ## About this task
 
@@ -35,7 +35,7 @@ In Zurich patch 4 and later, the behavior varies by view:
 
 This procedure documents the Platform \(classic\) view flow.
 
-**Note:** Incident managers with the sn\_km\_ml.knowledge\_curation\_user role can use the Demand Insights for Incidents dashboard to identify which incidents have no or insufficient knowledge coverage. For more information, refer [Demand Insights for Incidents dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/demand-insights-incidents-dashboard.md).
+**Note:** Incident managers with the sn\_km\_ml.knowledge\_curation\_user role can use the Demand Insights for Incidents dashboard to identify which incidents have no or insufficient knowledge coverage. For more information, refer [Demand Insights for Incidents dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/demand-insights-incidents-dashboard.md).
 
 ## Procedure
 
@@ -51,7 +51,7 @@ This procedure documents the Platform \(classic\) view flow.
 
     -   **Platform \(classic\) view \(Zurich patch 4 and later\):** the Knowledge interceptor page opens. Complete the interceptor flow to reach the KCS article template.
     -   In Service Operations Workspace, the **Incident-KCS article - HTML** template opens.
-    The base system **Incident-KCS article - HTML** template appears by default. To use a custom template instead, refer to [Create an article template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-a-new-article-templates.md).
+    The base system **Incident-KCS article - HTML** template appears by default. To use a custom template instead, refer to [Create an article template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/create-a-new-article-templates.md).
 
     **Important:**
 
@@ -67,7 +67,7 @@ This procedure documents the Platform \(classic\) view flow.
     |Valid to|Date after which the knowledge article is deleted from the database. After this date, the article does not appear in the search result.|
     |Confidence|Maturity of an article based on its completeness and reusability.|
     |Version|\[Auto-generated\] Displays the article version number, which is incremented when changes are made to a published article.|
-    |Workflow|\[Auto-generated\] Workflow that is followed for creating the knowledge article. For more information, refer [Knowledge workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_KnowledgeWorkflows.md) .|
+    |Workflow|\[Auto-generated\] Workflow that is followed for creating the knowledge article. For more information, refer [Knowledge workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_KnowledgeWorkflows.md) .|
     |Source Task|\[Auto-generated\] Incident record from which you have created the article.|
     |Attachment link|Check box to automatically download an attached article instead of opening the article, when you access an article.|
     |Display attachments|Check box to display attachments in the knowledge article. The attachments appear below the article text.|
@@ -76,7 +76,7 @@ This procedure documents the Platform \(classic\) view flow.
     |Issue|Information on the cause of the incident.|
     |Resolution|Method used to resolve the incident.|
 
-    **Note:** The **Confidence** and **Governance** fields appear when the Knowledge Management KCS Capabilities plugin \(com.snc.knowledge\_kcs\_capabilities\) is activated. For more information, see [Managing the KCS article state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/managing-kcs-article-states.md).
+    **Note:** The **Confidence** and **Governance** fields appear when the Knowledge Management KCS Capabilities plugin \(com.snc.knowledge\_kcs\_capabilities\) is activated. For more information, see [Managing the KCS article state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/managing-kcs-article-states.md).
 
 5.  Select **Submit**.
 

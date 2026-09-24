@@ -3,13 +3,13 @@ title: Build a custom template from an existing application
 description: Use an existing application as a starting point to build a custom template in App Engine Studio \(AES\). Existing data, experience, logic and automation, and security roles from the application are automatically added to the custom template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/build-template-existing-app.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Build a custom template, Use an app template, Create your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Build a custom template, Use an app template, Create your app, Build, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Build a custom template from an existing application
@@ -35,7 +35,7 @@ Role required: admin, app\_template\_author
     -   All items are supported: The custom template is created. All the objects are available in the custom template and in apps created from the custom template.
     -   Some items aren't supported: You can continue to create the template but a few items are not available in the custom template. There’s no impact on the custom template or the apps created from the template.
     -   Some items are denied: You encounter an error message and cannot continue further until the errors are fixed. The author must change the app, if it was created from an existing app or the template, if it was created from scratch.
-    **Note:** For more information, see [Supported features and metadata in custom templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/supported-features-metadata-custom-templates.md).
+    **Note:** For more information, see [Supported features and metadata in custom templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/supported-features-metadata-custom-templates.md).
 
 5.  Enter a name and description for the custom template.
 
@@ -47,7 +47,7 @@ Role required: admin, app\_template\_author
 
 8.  Specify which users or groups should have access to this template.
 
-<table id="choicetable_m5y_2nz_5tb"><tbody><tr><td id="d266658e181">
+<table id="choicetable_m5y_2nz_5tb"><tbody><tr><td id="d258543e181">
 
 **Share with specific users and groups**
 
@@ -59,7 +59,7 @@ Role required: admin, app\_template\_author
 4.  Select **Continue**.
 
 
-</td></tr><tr><td id="d266658e217">
+</td></tr><tr><td id="d258543e217">
 
 **Share with all users and groups**
 
@@ -70,7 +70,7 @@ Role required: admin, app\_template\_author
 
 
 </td></tr></tbody>
-</table>    For more information about template sharing and permissions, see [App template sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-template-sharing.md).
+</table>    For more information about template sharing and permissions, see [App template sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-template-sharing.md).
 
 9.  Access the custom template in one of the following ways.
 
@@ -84,5 +84,5 @@ Role required: admin, app\_template\_author
 
 Your custom template is created and ready for your use. The custom template is activated and is available to App Engine Studio users who have access to it.
 
-**Parent Topic:**[Build a custom template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/build-custom-template.md)
+**Parent Topic:**[Build a custom template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/build-custom-template.md)
 

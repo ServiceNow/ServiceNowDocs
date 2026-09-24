@@ -3,11 +3,11 @@ title: Regulatory process flow and tasks
 description: The Regulatory Change Management process flow includes the tasks that different users can perform to help your organization manage and comply with regulatory changes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/reg-change-workflow-swimlane.html
-release: australia
+release: brazil
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Explore, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -26,7 +26,7 @@ The Regulatory Change Management application has the following user roles:
 -   Business user role: A user who has the sn\_grc.business\_user role.
 -   Risk or Compliance manager: A user who has the sn\_risk.manager or sn\_compliance.manager role. This user would perform the changes as part of the Regulatory Change Management application.
 
-For more information about the roles, see [User roles in Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/roles-installed-rcm.md).
+For more information about the roles, see [User roles in Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/roles-installed-rcm.md).
 
 The following infographic shows the Regulatory Change Management process flow.
 
@@ -43,14 +43,14 @@ The steps to complete the Regulatory Change Management process flow are:
 5.  Devise an action plan. The coordinator identifies the steps to comply with the regulatory change, devises an action plan, and creates the action tasks for the different teams that need to complete the identified action items. The coordinator then creates the action tasks that are associated with the regulatory change task. After the action plan is created, it’s sent to the RCM manager for an approval. The manager reviews the action plan and confirms if more action tasks need to be created or if some of the action tasks aren’t necessary.
 6.  Complete the action tasks. The compliance analyst sends the actions for approval to a user with the sn\_grc\_reg\_change.manager role \(RCM manager\). If the action plan is rejected, the coordinator goes through the action plan, updates the actual tasks, and sends the action plan back for an approval. The compliance manager can see all compliance-based action tasks and the risk manager can see all the risk-based action tasks. After the tasks are assigned to the risk and compliance users, the action tasks are tracked until they are completed. A due date is marked and tracked for the action tasks. When the tasks are completed, the regulatory alert and the parent regulatory change tasks are closed and the change process flow is completed.
 
--   **[Source document import tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/source-document-import-tasks.md)**  
+-   **[Source document import tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/source-document-import-tasks.md)**  
 The Regulatory Change Management application processes external alerts that may include citation titles, citation numbers, and references to legislative or regulatory materials relevant to compliance.
--   **[Impact assessments for the regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/impact-assessment-task.md)**  
+-   **[Impact assessments for the regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/impact-assessment-task.md)**  
 A regulatory event alert may result in a regulatory change to an organization. You can evaluate the impact of the regulatory change on your organization by performing impact assessments.
--   **[Regulatory assessment for a regulatory alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/regulatory-assessment-in-rcm.md)**  
+-   **[Regulatory assessment for a regulatory alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/regulatory-assessment-in-rcm.md)**  
 Utilize the Smart Assessment Engine to perform smart assessments on regulatory alerts. This ability enhances regulatory decision-making by enabling impact assessments directly at the regulatory alert level, streamlining processes through a unified core assessment framework, and assigning analysis to multiple stakeholders for improved collaboration and efficiency.
 
-**Parent Topic:**[Exploring Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/what-is-rcm.md)
+**Parent Topic:**[Exploring Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/what-is-rcm.md)
 
 **Related topics**  
 

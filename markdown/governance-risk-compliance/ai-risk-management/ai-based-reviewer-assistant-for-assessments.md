@@ -3,13 +3,13 @@ title: AI reviewer assist for risk assessments
 description: AI Risk and Compliance analysts reviewing assessments can review AI-assisted recommendations and assign relevant control objectives and risk statements from the compliance library. Accepted recommendations are scoped automatically to the AI Asset.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/ai-based-reviewer-assistant-for-assessments.html
-release: australia
+release: brazil
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
-last_updated: "2026-08-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Exploring Now Assist in AI Risk and Compliance, Explore, AI Risk and Compliance, Governance, Risk, and Compliance]
+breadcrumb: [ServiceNow Otto for AI Risk and Compliance, Explore, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
 # AI reviewer assist for risk assessments
@@ -87,7 +87,7 @@ sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst
 
 </td><td>
 
-Enables risk and compliance analysts to access the assigned risk assessment task from the [AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-workspace.md), and accept, dismiss, or revert AI recommendations on the assessment.
+Enables risk and compliance analysts to access the assigned risk assessment task from the [AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-workspace.md), and accept, dismiss, or revert AI recommendations on the assessment.
 
 </td></tr></tbody>
 </table>## Recommendations tab in the Assessment Task record

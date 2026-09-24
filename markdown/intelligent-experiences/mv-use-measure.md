@@ -3,11 +3,11 @@ title: Use
 description: Use Dashboards to review and analyze the productivity gains, AI costs, and the net return on AI investment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mv-use-measure.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
-breadcrumb: [Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
+breadcrumb: [Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Use

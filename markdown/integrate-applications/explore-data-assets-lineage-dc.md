@@ -3,9 +3,9 @@ title: Explore data assets lineage
 description: Trace the upstream sources and downstream consumers of a data asset. Open the lineage view in Graph Explorer to examine specific relationships, focus on a path, and review related asset details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/explore-data-assets-lineage-dc.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [View data asset details, Finding and accessing data assets, Data Catalog, Workflow Data Fabric]
 ---
@@ -81,5 +81,5 @@ The lineage diagram has a sidebar that lists every asset, grouped by direction \
 12. Use the controls in the diagram toolbar to zoom in, zoom out, or recenter the visualization.
 
 
-**Parent Topic:**[View data asset details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/view-data-asset-details.md)
+**Parent Topic:**[View data asset details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/view-data-asset-details.md)
 

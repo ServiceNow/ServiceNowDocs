@@ -3,11 +3,11 @@ title: Machine learning solutions for Search administration
 description: Machine learning in Search administration helps to enhance business scalability and improve business operations for organizations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/machine-learning-solutions-for-search/machine-learning-search.html
-release: australia
+release: brazil
 product: Machine Learning solutions for Search
 classification: machine-learning-solutions-for-search
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---

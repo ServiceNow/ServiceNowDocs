@@ -3,11 +3,11 @@ title: Update the data stored in denormalized tables
 description: You can change the number of weeks' worth of data stored in denormalized tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/denormalized-data-weeks.html
-release: australia
+release: brazil
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Denormalized tables, Set up workforce, Configure, Field Service Management]
 ---

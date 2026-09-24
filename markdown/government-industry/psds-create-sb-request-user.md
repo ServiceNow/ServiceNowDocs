@@ -3,9 +3,9 @@ title: Submit a social benefits application in the Public Sector Digital Service
 description: Submit an application for one or more social benefit programs offered by a government agency using the Government Service Portal in Public Sector Digital Services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-create-sb-request-user.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Government Service Portal, Portals, Use, Public Sector Digital Services \(PSDS\)]
 ---

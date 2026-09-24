@@ -3,11 +3,11 @@ title: Knowledge article URL parameters
 description: You can add parameters to an article URL to view the latest version and an existing translation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/knowledge-article-URL-parameters.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Knowledge Management Service Portal article view page features, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -42,5 +42,5 @@ The following parameters are available for knowledge article URLs.
 |sysparm\_article|Returns the most recent article version. For example, `https://yourbusiness.service-now.com/kb?id=kb_article_view&sysparm_article=KB0010053`.|
 |sysparm\_language|Returns the most recent article version in the input language if a translation exists. For example, `https://yourbusiness.service-now.com/kb?id=kb_article_view&sys_id=3b07857187032100deddb882a2e3ec20&sysparm_language=EN`.|
 
-**Parent Topic:**[Knowledge Management Service Portal article view page features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-service-portal-view.md)
+**Parent Topic:**[Knowledge Management Service Portal article view page features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/knowledge-service-portal-view.md)
 

@@ -3,11 +3,11 @@ title: Create a custom flow to generate an object for each record in a list
 description: Generate an object for each User record in a list. Learn how to use flow logic to iterate through a list of records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-custom-flow-object.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Complex data, Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -19,7 +19,7 @@ Generate an object for each User record in a list. Learn how to use flow logic t
 ## Before you begin
 
 -   Role required: admin
--   [Create a custom action to generate an object from a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-custom-action-object.md)
+-   [Create a custom action to generate an object from a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-custom-action-object.md)
 
 ## About this task
 
@@ -110,5 +110,5 @@ Use this example to see demonstrations of these operations and steps.
 23. Select **Save**.
 
 
-**Parent Topic:**[Complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/complex-data.md)
+**Parent Topic:**[Complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/complex-data.md)
 

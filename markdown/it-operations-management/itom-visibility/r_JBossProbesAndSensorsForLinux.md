@@ -3,11 +3,11 @@ title: Legacy: JBoss probes and sensors
 description: Discovery identifies a Linux JBoss application server using probes and sensors.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r\_JBossProbesAndSensorsForLinux.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Red Hat JBoss server, Operating systems discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -42,5 +42,5 @@ This process describes the use of probes, which are active on your instance if y
 5.  The Boss - Get jboss-service.xml probe uses the **classpath** parameter in the running process to search for the `jboss-service.xml`file in the related `server\default\conf\` directory for the JBoss installation.
 6.  If the probe successfully finds the `jboss-service.xml` file in the `server\default\conf\` directory, the sensor reads the contents of the XML file. It then creates additional records in the Web Service \[cmdb\_ci\_web\_service\] table as necessary.
 
-**Parent Topic:**[Red Hat JBoss server discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_DataCollDiscoJBossServers.md)
+**Parent Topic:**[Red Hat JBoss server discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/c_DataCollDiscoJBossServers.md)
 

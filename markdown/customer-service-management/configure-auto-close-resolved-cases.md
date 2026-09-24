@@ -3,9 +3,9 @@ title: Configure auto close resolved cases
 description: Use the auto close resolved cases feature to close cases automatically in the Resolved state if customers choose not to take action.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-auto-close-resolved-cases.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -75,5 +75,5 @@ The **Auto Close Resolved Cases** Flow Designer flow uses the **Auto Close** fla
 **Related topics**  
 
 
-[Automatically close customer service cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/auto-close-customer-service-case.md)
+[Automatically close customer service cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/auto-close-customer-service-case.md)
 

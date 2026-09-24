@@ -3,11 +3,11 @@ title: Apply a template on the Project form
 description: While creating a project using the Project form, you can apply a project template to include project tasks and subtasks, attachments, checklists, and other project information. You can apply a project template to a new project or an existing project.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_ApplyATemplateFromTheProjectForm.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Applying templates to projects, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -49,7 +49,7 @@ When applying a template to a project, the project state is set to the default s
     3.  Select the start date and select a project template.
 
 
-**Parent Topic:**[Applying templates to projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectTemplates.md)
+**Parent Topic:**[Applying templates to projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_ProjectTemplates.md)
 
 **Related topics**  
 

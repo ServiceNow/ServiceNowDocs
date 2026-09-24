@@ -3,11 +3,11 @@ title: Quick start tests for GRC Advanced Risk
 description: Validate that Advanced Risk still works after you make any configuration change, such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/quick-start-test-advanced-risk.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Risk Management detailed setup, Configure, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -93,7 +93,7 @@ Creates different types of factors like manual factors, query factors, and autom
 Orlando
 
 </td></tr></tbody>
-</table>To learn more about Advanced Risk, see [Download Advanced Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/download-risk-advanced.md)
+</table>To learn more about Advanced Risk, see [Download Advanced Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/download-risk-advanced.md)
 
-**Parent Topic:**[Risk Management detailed setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/setup-risk-management.md)
+**Parent Topic:**[Risk Management detailed setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/setup-risk-management.md)
 

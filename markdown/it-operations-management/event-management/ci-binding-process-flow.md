@@ -3,11 +3,11 @@ title: Binding process flow
 description: Learn the process of binding Configuration Items \(CIs\) to alerts. This includes handling event arrival, binding alerts using available fields when no node is present, and searching the CMDB for matching hosts. It also explains linking alerts to CIs based on host and CI type detection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/ci-binding-process-flow.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-06-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Binding alerts to CIs, Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -56,6 +56,4 @@ Learn the process of binding Configuration Items \(CIs\) to alerts. This include
 
 
 **Note:** To specify multiple statuses, separate each status number with a comma.
-
-To enrich alerts by identifying the CI or extracting, composing, or tagging alert fields, you can also create an enrich automation in Service Operations Workspace. For more information, see [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/enrich-alert-sow-itom.md).
 

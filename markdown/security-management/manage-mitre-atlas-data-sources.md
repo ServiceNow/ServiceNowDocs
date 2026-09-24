@@ -3,9 +3,9 @@ title: Map data sources and detection tools for MITRE ATLAS
 description: Map detection tools to MITRE ATLAS techniques and tactics to identify monitoring capabilities for your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/manage-mitre-atlas-data-sources.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [MITRE ATLAS framework, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---

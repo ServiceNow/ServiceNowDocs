@@ -3,11 +3,11 @@ title: Add a custom question to the Security Questions verification
 description: To enroll for the 'Security Questions' verification, the user selects several questions and supplies confidential answers that only the user knows. You can add a custom question to the set of questions that are included with the base system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/t\_CreateQAVerificationQs.html
-release: australia
+release: brazil
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Customizing Password Reset processes, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -49,7 +49,7 @@ The base system provides a large set of default questions in all supported langu
 
     2.  Create a record in the **sys\_translated** table for the non-English language question.
 
-        Details appear at [Translated Name / Field table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_TranslatedNameFieldTable.md) and [Languages table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_LanguagesTable.md).
+        Details appear at [Translated Name / Field table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_TranslatedNameFieldTable.md) and [Languages table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_LanguagesTable.md).
 
         |Field|Description|
         |-----|-----------|
@@ -63,5 +63,5 @@ The base system provides a large set of default questions in all supported langu
     3.  Repeat the process for each language that users might request.
 
 
-**Parent Topic:**[Customizing Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/customizing-password-reset.md)
+**Parent Topic:**[Customizing Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/customizing-password-reset.md)
 

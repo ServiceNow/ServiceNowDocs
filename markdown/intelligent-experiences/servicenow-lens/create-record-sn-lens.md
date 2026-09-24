@@ -3,14 +3,14 @@ title: Create or update a record in an instance by using ServiceNow AI Lens
 description: Create or update a record in the ServiceNow instance by auto-filling the form fields with data that ServiceNow AI Lens extracts from screens and files.Capture a screen or upload files directly from your browser, and let ServiceNow AI Lens analyze the contents and auto-fill the form fields — no download or installation required.Use the ServiceNow AI Lens desktop app for the full range of capture and analysis capabilities, such as multi-image capture, auto-map Excel column headers with ServiceNow table fields, and file uploads.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/servicenow-lens/create-record-sn-lens.html
-release: australia
+release: brazil
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: task
-last_updated: "2025-03-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
 keywords: [Create record using ServiceNow lens, Scan document using ServiceNow lens, Scan image using ServiceNow lens, Scan scanned document using ServiceNow lens, Scan email using ServiceNow lens]
-breadcrumb: [Use, ServiceNow AI Lens, Enable AI experiences]
+breadcrumb: [Use, ServiceNow AI Lens, Generative AI skills, Enable AI Experiences]
 ---
 
 # Create or update a record in an instance by using ServiceNow AI Lens
@@ -21,16 +21,16 @@ Create or update a record in the ServiceNow instance by auto-filling the form fi
 
 To access the ServiceNow AI Lens functionality, perform the following steps:
 
--   Install ServiceNow AI Lens on your ServiceNow instance. For more information, see [Install the ServiceNow Lens in the ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/install-sn-lens.md).
--   Turn on the ServiceNow AI Lens skill to add the generative AI capability. For more information, see [Activate the ServiceNow AI Lens skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/activate-lens-skill.md).
--   Download the ServiceNow AI Lens installer to scan your desktop screen. For more information, see [Download and set how you want to launch ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/download-sn-lens-msi.md).
+-   Install ServiceNow AI Lens on your ServiceNow instance. For more information, see [Install the ServiceNow Lens in the ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/install-sn-lens.md).
+-   Turn on the ServiceNow AI Lens skill to add the generative AI capability. For more information, see [Activate the ServiceNow AI Lens skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/activate-lens-skill.md).
+-   Download the ServiceNow AI Lens installer to scan your desktop screen. For more information, see [Download and set how you want to launch ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/download-sn-lens-msi.md).
 
 **Note:**
 
 -   To use ServiceNow AI Lens from your browser, turn on the ServiceNow AI Lens skill.
 -   For the full range of ServiceNow AI Lens capabilities, turn on the ServiceNow AI Lens skill, and download and install the desktop application.
 
-Verify that ServiceNow AI Lens has access to record the screen on your system. For more information, see [Providing permission to ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/download-sn-lens-msi.md).
+Verify that ServiceNow AI Lens has access to record the screen on your system. For more information, see [Providing permission to ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/download-sn-lens-msi.md).
 
 Don't scan any personally identifiable information, such as medical reports, financial reports, or other sensitive data, when using ServiceNow AI Lens as you don't want to expose the large language model \(LLM\) to any sensitive information.
 
@@ -40,7 +40,7 @@ Role required: lens\_user
 
 You can create a record in the ServiceNow instance in two ways:
 
--   **From your browser**: Capture a screen or upload files directly from your browser, and let ServiceNow AI Lens analyze the contents and auto-fill the form fields — no download or installation required. For more information, see [Using the Lens browser app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/create-record-sn-lens.md).
+-   **From your browser**: Capture a screen or upload files directly from your browser, and let ServiceNow AI Lens analyze the contents and auto-fill the form fields — no download or installation required. For more information, see [Using the Lens browser app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/create-record-sn-lens.md).
 
     **Note:**
 
@@ -48,8 +48,8 @@ You can create a record in the ServiceNow instance in two ways:
 
         **Tip:** For the best experience, use ServiceNow AI Lens on any Chromium-based browser.
 
-    -   The browser-based experience supports single-screen capture. To capture multiple screens, [Use ServiceNow AI Lens from the desktop application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/create-record-sn-lens.md).
--   **From the desktop app**: Use the ServiceNow AI Lens desktop app for the full range of capture and analysis capabilities, such as multi-image capture, auto-map Excel column headers with ServiceNow table fields, and file uploads. For more information, see [Using the Lens desktop app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/create-record-sn-lens.md).
+    -   The browser-based experience supports single-screen capture.
+-   **From the desktop app**: Use the ServiceNow AI Lens desktop app for the full range of capture and analysis capabilities, such as multi-image capture, auto-map Excel column headers with ServiceNow table fields, and file uploads. For more information, see [Using the Lens desktop app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/create-record-sn-lens.md).
 
 ## Procedure
 
@@ -72,11 +72,11 @@ You can create a record in the ServiceNow instance in two ways:
     -   On production instances, the **Create with Lens** and **Update with Lens** buttons are visible only when the ServiceNow AI Lens skill is active and the user has the lens\_user role. To hide the buttons on all tables, set **sn\_app\_lens\_core.show\_lens\_action\_on\_all\_tables** to false and leave**sn\_app\_lens\_core.lens\_inclusion\_table\_list** empty.
 3.  Create or update a record in the ServiceNow instance by performing any of the following methods.
 
-    -   [Using the Lens browser app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/create-record-sn-lens.md)
+    -   [Using the Lens browser app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/create-record-sn-lens.md)
 
         The ServiceNow AI Lens browser app opens in a new browser window.
 
-    -   [Using the Lens desktop app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/create-record-sn-lens.md)
+    -   [Using the Lens desktop app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/create-record-sn-lens.md)
 
         The ServiceNow AI Lens desktop app is launched.
 
@@ -84,11 +84,11 @@ You can create a record in the ServiceNow instance in two ways:
 **Related topics**  
 
 
-[Supporting information for ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/sn-lens-supporting-info.md)
+[Supporting information for ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/sn-lens-supporting-info.md)
 
-[ServiceNow AI Lens limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/sn-lens-limitations.md)
+[ServiceNow AI Lens limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/sn-lens-limitations.md)
 
-[Extract and analyze data with ServiceNow AI Lens desktop app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/sn-lens-standalone-app.md)
+[Extract and analyze data with ServiceNow AI Lens desktop app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/sn-lens-standalone-app.md)
 
 ## Using the Lens browser app
 
@@ -96,7 +96,7 @@ Capture a screen or upload files directly from your browser, and let ServiceNow 
 
 ### Before you begin
 
-**Important:** Confirm that **Browser** is selected as a default preference in the Downloads and Preferences page. To view the steps, see [Set AI Lens to launch with the desktop app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/download-sn-lens-msi.md)
+**Important:** Confirm that **Browser** is selected as a default preference in the Downloads and Preferences page. To view the steps, see [Set AI Lens to launch with the desktop app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/download-sn-lens-msi.md)
 
 Role required: lens\_user
 
@@ -110,7 +110,7 @@ When you select **Create with Lens** or **Update with Lens** for a form, the Ser
 
     **Tip:** For the best experience, use ServiceNow AI Lens on any Chromium-based browser.
 
--   The browser-based experience supports single-screen capture. To capture multiple screens, [Use ServiceNow AI Lens from the desktop application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/create-record-sn-lens.md).
+-   The browser-based experience supports single-screen capture. To capture multiple screens, [Use ServiceNow AI Lens from the desktop application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/create-record-sn-lens.md).
 
 ### Procedure
 
@@ -175,17 +175,17 @@ When you select **Create with Lens** or **Update with Lens** for a form, the Ser
 
     \[Omitted image "lens-form-autofilled.png"\] Alt text: Incident form auto-filled.
 
-    Only the fields that are supported by ServiceNow AI Lens get auto-populated with the extracted data. If you don’t have any supported fields in your form, then ServiceNow AI Lens won’t update the record. For more information about the supported fields, see [Field types supported](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/field-types-supported.md).
+    Only the fields that are supported by ServiceNow AI Lens get auto-populated with the extracted data. If you don’t have any supported fields in your form, then ServiceNow AI Lens won’t update the record. For more information about the supported fields, see [Field types supported](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/field-types-supported.md).
 
-<table id="choicetable_jjf_zx2_s2c"><thead><tr><th align="left" id="d205381e896">
+<table id="choicetable_jjf_zx2_s2c"><thead><tr><th align="left" id="d189614e892">
 
 Option
 
-</th><th align="left" id="d205381e899">
+</th><th align="left" id="d189614e895">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d205381e905">
+</th></tr></thead><tbody><tr><td id="d189614e901">
 
 **If the auto-filled text looks good**
 
@@ -193,7 +193,7 @@ Action
 
 Save the record by selecting **Save**.
 
-</td></tr><tr><td id="d205381e917">
+</td></tr><tr><td id="d189614e913">
 
 **If the auto-filled text requires changes**
 
@@ -212,7 +212,7 @@ Use the ServiceNow AI Lens desktop app for the full range of capture and analysi
 
 ### Before you begin
 
-**Important:** Confirm that **Desktop app** is selected as a default preference in the Downloads and Preferences page. To view the steps, see [Set AI Lens to launch with the desktop app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/download-sn-lens-msi.md)
+**Important:** Confirm that **Desktop app** is selected as a default preference in the Downloads and Preferences page. To view the steps, see [Set AI Lens to launch with the desktop app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/download-sn-lens-msi.md)
 
 Role required: lens\_user
 
@@ -258,7 +258,7 @@ When you select **Create with Lens** or **Update with Lens** for a form, the Ser
                     |glide.rest.max\_content\_length|Integer|15|
                     |glide.rest.scripted.max\_inbound\_content\_length\_mb|Integer|15|
 
-                    For more information, see [Configure system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/r_ControllingMaxRequestSize.md).
+                    For more information, see [Configure system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/r_ControllingMaxRequestSize.md).
 
                     **Note:** You must have the admin role to set the system properties.
 
@@ -277,7 +277,7 @@ When you select **Create with Lens** or **Update with Lens** for a form, the Ser
                 |glide.rest.max\_content\_length|Integer|15|
                 |glide.rest.scripted.max\_inbound\_content\_length\_mb|Integer|15|
 
-                For more information, see [Configure system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/r_ControllingMaxRequestSize.md)
+                For more information, see [Configure system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/r_ControllingMaxRequestSize.md)
 
                 **Note:** You must have the admin role to set the system properties.
 
@@ -321,17 +321,17 @@ When you select **Create with Lens** or **Update with Lens** for a form, the Ser
 
     \[Omitted image "lens-form-autofilled.png"\] Alt text: Incident form auto-filled.
 
-    Only the fields that are supported by ServiceNow AI Lens get auto-populated with the extracted data. If you don’t have any supported fields in your form, then ServiceNow AI Lens won’t update the record. For more information about the supported fields, see [Field types supported](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/field-types-supported.md).
+    Only the fields that are supported by ServiceNow AI Lens get auto-populated with the extracted data. If you don’t have any supported fields in your form, then ServiceNow AI Lens won’t update the record. For more information about the supported fields, see [Field types supported](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/field-types-supported.md).
 
-<table id="choicetable_jjf_zx2_s2c"><thead><tr><th align="left" id="d205381e1553">
+<table id="choicetable_jjf_zx2_s2c"><thead><tr><th align="left" id="d189614e1549">
 
 Option
 
-</th><th align="left" id="d205381e1556">
+</th><th align="left" id="d189614e1552">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d205381e1562">
+</th></tr></thead><tbody><tr><td id="d189614e1558">
 
 **If the auto-filled text looks good**
 
@@ -339,7 +339,7 @@ Action
 
 Save the record by selecting **Save**.
 
-</td></tr><tr><td id="d205381e1574">
+</td></tr><tr><td id="d189614e1570">
 
 **If the auto-filled text requires changes**
 

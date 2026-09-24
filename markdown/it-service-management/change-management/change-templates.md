@@ -3,11 +3,11 @@ title: Change templates
 description: Standardize the creation of change requests by creating change templates based on all available change models.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/change-templates.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Change Management, IT Service Management]
 ---
@@ -22,18 +22,18 @@ Change templates streamline the process of creating common change records by pro
 
 You can create templates for specific change models, add change request fields, define the information in the fields, and set them as read-only or required using field policies.
 
-For more information, see [Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-change-template.md).
+For more information, see [Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-change-template.md).
 
 You can create different template categories and group templates under specific parent and child categories. This categorization does not affect existing standard change categories.
 
 View template metrics to analyze the usage and efficiency of the templates created using each model. On the Change Template Overview page, you can view the usage statistics for all active change templates.
 
-**Parent Topic:**[Exploring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/exploring-change-management.md)
+**Parent Topic:**[Exploring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/exploring-change-management.md)
 
 **Related topics**  
 
 
-[Configure template categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/configure-template-categories.md)
+[Configure template categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/configure-template-categories.md)
 
-[Enhanced change data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-data-model.md)
+[Enhanced Change data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-data-model.md)
 

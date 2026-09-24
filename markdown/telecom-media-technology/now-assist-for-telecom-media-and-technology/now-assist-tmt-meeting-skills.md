@@ -1,9 +1,9 @@
 ---
 title: Use touchpoint meeting skills
-description: Use the ServiceNow Otto for TMT skills to generate a meeting preparation guide and AI-generated participant insights for touchpoint meetings in the CSM/FSM Configurable Workspace.
+description: Use the ServiceNow Otto for TMT skills to generate a meeting preparation guide and AI-generated participant insights for touchpoint meetings in the CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-meeting-skills.html
-release: australia
+release: brazil
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
 topic_type: task
@@ -14,7 +14,7 @@ breadcrumb: [Use generative AI skills, ServiceNow Otto for Telecommunications, M
 
 # Use touchpoint meeting skills
 
-Use the ServiceNow Otto for TMT skills to generate a meeting preparation guide and AI-generated participant insights for touchpoint meetings in the CSM/FSM Configurable Workspace.
+Use the ServiceNow Otto for TMT skills to generate a meeting preparation guide and AI-generated participant insights for touchpoint meetings in the CRM Workspace.
 
 ## Before you begin
 
@@ -37,7 +37,7 @@ Role required: `sn_acct_lc.customer_success_agent`
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **All Touchpoints**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **All Touchpoints**.
 
 2.  Open a touchpoint and select the meeting you want to prepare for from the **Meetings** tab.
 
@@ -68,5 +68,5 @@ Role required: `sn_acct_lc.customer_success_agent`
     Select **Add AI drafts** to add all drafted tasks at once, or select **New** to create a task manually.
 
 
-**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 

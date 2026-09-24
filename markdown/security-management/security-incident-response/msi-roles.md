@@ -3,11 +3,11 @@ title: Major Security Incident Management roles
 description: Assign roles to ensure that users can perform all necessary actions within the MSIM application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/msi-roles.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -81,7 +81,7 @@ sn\_msi.workspace\_responder
 -   Linking and unlinking additional records to Major Security Incidents from the workspace.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/exploring-major-security-incident-management.md)
+</table>**Parent Topic:**[Exploring Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/exploring-major-security-incident-management.md)
 
 **Related topics**  
 

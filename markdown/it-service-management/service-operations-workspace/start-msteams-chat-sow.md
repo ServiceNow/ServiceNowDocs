@@ -3,11 +3,11 @@ title: Collaborate on a task record using Microsoft Teams in Service Operations 
 description: Start or import a Microsoft Teams chat from a task record in Service Operations Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/start-msteams-chat-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow integrations with Microsoft Teams in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -20,11 +20,11 @@ Start or import a Microsoft Teams chat from a task record in Service Operations 
 
 Role required: itil or admin
 
-Before you begin, make sure that the Microsoft Teams application is configured for your ServiceNow instance. For more information on configuration, see[Configure Notify connector for Microsoft Teams from Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/notify-teams-guided-setup.md) and the Microsoft Teams integration setup documentation.
+Before you begin, make sure that the Microsoft Teams application is configured for your ServiceNow instance. For more information on configuration, see[Configure Notify connector for Microsoft Teams from Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/notify-teams-guided-setup.md) and the Microsoft Teams integration setup documentation.
 
 ## About this task
 
-When you view or import a Microsoft Teams chat conversation for a task record, the record details are displayed in the **Details** section of the **MS Teams Import** tab. For information about configuring these details, see [Configure the task record information in the MS Teams Import tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configure-record-details-import-chat-sow.md).
+When you view or import a Microsoft Teams chat conversation for a task record, the record details are displayed in the **Details** section of the **MS Teams Import** tab. For information about configuring these details, see [Configure the task record information in the MS Teams Import tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configure-record-details-import-chat-sow.md).
 
 ## Procedure
 
@@ -52,15 +52,15 @@ When you view or import a Microsoft Teams chat conversation for a task record, t
 
 6.  To import a chat conversation, perform one of the following actions.
 
-<table id="choicetable_tnl_jfr_vsb"><thead><tr><th align="left" id="d304458e237">
+<table id="choicetable_tnl_jfr_vsb"><thead><tr><th align="left" id="d310286e237">
 
 Option
 
-</th><th align="left" id="d304458e240">
+</th><th align="left" id="d310286e240">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d304458e246">
+</th></tr></thead><tbody><tr><td id="d310286e246">
 
 **Import a chat from any conversation**
 
@@ -71,7 +71,7 @@ Description
 3.  Select the chat and select **Import**.
 
 
-</td></tr><tr><td id="d304458e276">
+</td></tr><tr><td id="d310286e276">
 
 **Import a chat from a conversation in which you are a member**
 
@@ -86,5 +86,5 @@ Description
 </table>    Imported chats are reflected in the activity stream of the task record.
 
 
-**Parent Topic:**[ServiceNow integrations with Microsoft Teams in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/msteams-sow.md)
+**Parent Topic:**[ServiceNow integrations with Microsoft Teams in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/msteams-sow.md)
 

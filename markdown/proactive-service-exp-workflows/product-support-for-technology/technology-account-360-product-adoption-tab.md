@@ -3,11 +3,11 @@ title: Technology Account 360 Product adoption tab
 description: The Product adoption tab displays onboarding records, implementation status, and adoption insights for customer accounts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-product-adoption-tab.html
-release: australia
+release: brazil
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: reference
-last_updated: "2024-01-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [product adoption, customer account, adoption insights, implementation, onboarding]
 breadcrumb: [Reference, Proactive Service Experience Workflows, Product Support for Technology]
@@ -28,10 +28,10 @@ The Product adoption tab displays onboarding records, implementation status, and
 |Implementation|Implementation records for customer products.|
 |Onboarding|Onboarding records for customer accounts.|
 
-**Parent Topic:**[Product Support for Technology reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
+**Parent Topic:**[Product Support for Technology reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
 
 **Related topics**  
 
 
-[Technology Account 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/technology-account-360.md)
+[Technology Account 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/technology-account-360.md)
 

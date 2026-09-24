@@ -3,11 +3,11 @@ title: Complete ReleaseOps guided set up in AEMC
 description: Complete ReleaseOps guided setup in AEMC to configure your ReleaseOps ecosystem to handle your deployments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/complete-releaseops-guided-setup-in-aemc.html
-release: australia
+release: brazil
 product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: task
-last_updated: "2026-05-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure ReleaseOps, Configure, App Engine Management Center, Governing app development, Building applications]
 ---
@@ -42,10 +42,10 @@ Role required: admin
 
     When you select **Next**, you're automatically redirected to the ReleaseOps guided setup page.
 
-7.  [Complete ReleaseOps guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/complete-guided-setup.md).
+7.  [Complete ReleaseOps guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/complete-guided-setup.md).
 
 
 ## What to do next
 
-Complete ReleaseOps configuration in AEMC by [enabling the ReleaseOps system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/enable-releaseops-system-property.md).
+Complete ReleaseOps configuration in AEMC by [enabling the ReleaseOps system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/enable-releaseops-system-property.md).
 

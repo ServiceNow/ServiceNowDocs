@@ -1,28 +1,28 @@
 ---
 title: View retrievable page content using the Microsoft SharePoint Online REST API
-description: Review the elements of of a Microsoft SharePoint Online page's content that can be retrieved by the Microsoft SharePoint Online external content connector.
+description: Review the elements of a Microsoft SharePoint Online page's content that can be retrieved by the Microsoft SharePoint Online external content connector.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/view-retrievable-page-content-mspo-rest-api.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Microsoft SharePoint Online external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # View retrievable page content using the Microsoft SharePoint Online REST API
 
-Review the elements of of a Microsoft SharePoint Online page's content that can be retrieved by the Microsoft SharePoint Online external content connector.
+Review the elements of a Microsoft SharePoint Online page's content that can be retrieved by the Microsoft SharePoint Online external content connector.
 
 ## Before you begin
 
 You need the following details about each Microsoft SharePoint Online page that you want to view retrievable content for:
 
 -   Your site URL. This is typically in the format `https://<tenant-name>.sharepoint.com/sites/<site-name>`, where `<tenant-name>` is the hostname for your tenant and `<site-name>` is the name of the site in which the page resides. As an example, your site URL might be `https://example.sharepoint.com/sites/my-site`.
--   The `.aspx` page's filename, without the extension. As an example, if the URL for your page is `https://example.sharepoint.com/sites/my-site/SitePages/sample-page.aspx`, the page's filename is `sample-age`.
+-   The `.aspx` page's filename, without the extension. As an example, if the URL for your page is `https://example.sharepoint.com/sites/my-site/SitePages/sample-page.aspx`, the page's filename is `sample-page`.
 
     **Note:** Microsoft SharePoint Online page filenames are case-sensitive, so copy the filename exactly as it appears in the URL field of your web browser.
 
@@ -57,7 +57,7 @@ The upshot of this limitation is that pages built primarily with static text con
 
 2.  View static content for your selected page.
 
-    1.  In your web browser, navigate to `<site-url>/_api/web/lists('<list-id>')/items?$filter=FileLeafRef%20eq%20%27<filename>.aspx%27`, replacing `<site-url>` with your site URL, `<list-id>` with the GUID that you copied in step [1.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/view-retrievable-page-content-mspo-rest-api.md), and `<filename>` with the filename of the page you want to view searchable content for.
+    1.  In your web browser, navigate to `<site-url>/_api/web/lists('<list-id>')/items?$filter=FileLeafRef%20eq%20%27<filename>.aspx%27`, replacing `<site-url>` with your site URL, `<list-id>` with the GUID that you copied in step [1.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/view-retrievable-page-content-mspo-rest-api.md), and `<filename>` with the filename of the page you want to view searchable content for.
 
     2.  In the XML response, locate the CanvasContent1 and WikiField metadata fields and examine their values.
 
@@ -66,5 +66,5 @@ The upshot of this limitation is that pages built primarily with static text con
         **Note:** If the CanvasContent1 and WikiField metadata fields are missing or empty, the page is likely rendered entirely via dynamic web parts and doesn't contain static content that can be retrieved by the Microsoft SharePoint Online external content connector.
 
 
-**Parent Topic:**[Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/microsoft-sharepoint-online-external-content-connector.md)
+**Parent Topic:**[Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/microsoft-sharepoint-online-external-content-connector.md)
 

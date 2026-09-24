@@ -3,11 +3,11 @@ title: Categorizing risks with the Governance, Risk, and Compliance: Predictive 
 description: By using the Governance, Risk, and Compliance: Predictive Intelligence plugin, you can predict the risk statements for your orphan risks \(the risks that don't have risk statements\) on the risk records for your organization. You can then identify the correct risk statement for the risks and then aggregate them into manageable categories.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/categorization-of-risks.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -53,11 +53,11 @@ A risk administrator can train a default similarity solution for the risks in yo
 
 **Note:** A similarity solution is a machine-learning solution to collect and compare your existing records to new similar records.
 
-For more information, see [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-similarity-solution.md).
+For more information, see [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-similarity-solution.md).
 
 **Note:** You must have at least 1000 risk records for the similarity algorithm to work.
 
 A risk administrator with the ml\_admin role can review the default similarity solution definition for risk and modify it based on your organizational needs.
 
-**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
+**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
 

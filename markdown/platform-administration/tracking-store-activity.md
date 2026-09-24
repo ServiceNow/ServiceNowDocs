@@ -3,9 +3,9 @@ title: Tracking your ServiceNow Store activity
 description: The My Store Activity page lets you view important information related to apps and products that you have purchased, trialed, or requested.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/tracking-store-activity.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [servicenow store, store, app store, application store, app store user documentation, servicenow app store, store purchase history, store billing]
 breadcrumb: [Explore, ServiceNow Store, Administering applications, Get started, Administer the ServiceNow AI Platform]
@@ -62,5 +62,5 @@ ServiceNow Products
 A searchable list that provides details of all products that your organization has procured.
 
 </td></tr></tbody>
-</table>For more information about apps and products, see [Plugins, apps, integrations, and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/plugins-apps-products-integrations.md).
+</table>For more information about apps and products, see [Plugins, apps, integrations, and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/plugins-apps-products-integrations.md).
 

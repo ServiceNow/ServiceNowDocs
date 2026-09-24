@@ -3,9 +3,9 @@ title: Add a field function to screen
 description: Add field functions to the details screen in your record screens using Mobile App Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/add-field-func-to-details.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Add functions, Configure a details screen, Record screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -102,7 +102,7 @@ Icon
 
 Option icon used for your field function.To use an existing icon, click the **Choose** button, select an icon, and click **Apply**.
 
-To create an icon, click the **New** button. You’re redirected to the **New icon** panel. For details on creating icons see [Mobile icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-icon.md).
+To create an icon, click the **New** button. You’re redirected to the **New icon** panel. For details on creating icons see [Mobile icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mobile-icon.md).
 
 </td></tr><tr><td>
 
@@ -120,7 +120,7 @@ Function
 
 Function to use on the field selected in the **Field Name** field.To use an existing function, click the **Choose** button, select a function, and click **Apply**.
 
-To create function, click the **New** button. You’re redirected to the **New function** panel. For details on creating functions see [Mobile functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-mobile-button-types.md).
+To create function, click the **New** button. You’re redirected to the **New function** panel. For details on creating functions see [Mobile functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-studio-mobile-button-types.md).
 
 </td></tr></tbody>
 </table>7.  Click **Save** in the upper right corner to save your function instance.

@@ -3,9 +3,9 @@ title: AI field recommendations
 description: Use AI field recommendations for a list of top recommendations or to fill fields automatically.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/ai-ml-field-recommendations.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Forms, Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---

@@ -3,9 +3,9 @@ title: Optional configuration steps for Public Sector Digital Services Core
 description: As an admin, you can customize the Government Service Portal and configure the CRM Workspace for the Public Sector Digital Services Core application without using guided setup.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-optional-config-steps.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up your environment, Configure, Public Sector Digital Services \(PSDS\)]
 ---

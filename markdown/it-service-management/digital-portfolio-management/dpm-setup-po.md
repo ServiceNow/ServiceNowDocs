@@ -3,11 +3,11 @@ title: Configure Digital Portfolio Management to integrate with Process Mining
 description: Use Process Mining in Digital Portfolio Management \(DPM\) to see the status of a key performance indicators \(KPI\) on your solutions, and adjust as needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-setup-po.html
-release: australia
+release: brazil
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Digital Portfolio Management, IT Service Management]
 ---
@@ -34,7 +34,7 @@ In general, to use Process Mining in DPM, you access the KPI group and select **
     3.  Verify that the system property **sn\_dpm.enable.po.dpm** is set to true. If not, then select it, and set the Value field to true \(you may get a text banner that provides a link to edit the record\).
     4.  Select **Update**.
 
-The primary role to use Process Mining is Process Mining Analyst \[process\_optimization\_analyst\]. For details about properties, roles, and scheduled jobs, see [Process Mining components for Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-po-integration.md).
+The primary role to use Process Mining is Process Mining Analyst \[process\_optimization\_analyst\]. For details about properties, roles, and scheduled jobs, see [Process Mining components for Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-po-integration.md).
 
-**Parent Topic:**[Configuring Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-cfw.md)
+**Parent Topic:**[Configuring Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-configure-cfw.md)
 

@@ -3,11 +3,11 @@ title: Clone a widget
 description: Take advantage of existing code by cloning and editing an existing widget.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/t\_CloneAndEditAWidget.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Developing custom widgets, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -44,7 +44,7 @@ Role required: admin or sp\_admin
 
     Make changes to the HTML Template, CSS, client script, server script, or the link function.
 
-    **Note:** For server-side scripts, you can turn on using the ECMAScript 2021 \(ES12\) JavaScript mode if your application uses ES5 Standards mode or Compatibility mode. Scripts in applications with the JavaScript mode set to ECMAScript 2021 \(ES12\) use ECMAScript 2021 \(ES12\) by default. For more information, see .
+    **Note:** For server-side scripts, you can turn on using the ECMAScript 2021 \(ES12\) JavaScript mode if your application uses ES5 Standards mode or Compatibility mode. Scripts in applications with the JavaScript mode set to ECMAScript 2021 \(ES12\) use ECMAScript 2021 \(ES12\) by default. For more information, see [Turn on ECMAScript 2021 \(ES12\) mode for a script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/set-es12-mode-scripts.md).
 
     \[Omitted image "CalculatorCodeExample.png"\] Alt text: Hello World 2 widget cloned and edited to say "Hola, mundo"
 
@@ -61,5 +61,5 @@ For example, the header menu widget uses the Angular ng-template `menuTemplate`.
 
 \[Omitted image "NgTemplateCopy.png"\] Alt text: ng-template called menuTemplate highlighted and changed to menuTemplateCopy in header menu widget HTML
 
-**Parent Topic:**[Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/widget-dev-guide.md)
+**Parent Topic:**[Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/widget-dev-guide.md)
 

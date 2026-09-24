@@ -3,11 +3,11 @@ title: Next Experience Discuss and Chat Collaboration
 description: On a regulatory change management case, select Discuss from other options. Collaborate with virtual agents by using Next Experience Chat Collaboration and Discuss.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/next-experience-discuss-chat-collaboration.html
-release: australia
+release: brazil
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Explore, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -21,7 +21,7 @@ On a regulatory change management case, select **Discuss** from other options. C
 -   Identify subject matter experts to help and collaborate with the discussion.
 -   Managers can access multiple discussions at once using the docked windows feature.
 
-**Parent Topic:**[Exploring Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/what-is-rcm.md)
+**Parent Topic:**[Exploring Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/what-is-rcm.md)
 
 **Related topics**  
 

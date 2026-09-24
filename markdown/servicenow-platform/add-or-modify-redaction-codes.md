@@ -3,9 +3,9 @@ title: Add or modify redaction codes for sensitive data redaction
 description: Add new redaction codes for sensitive data redaction based on your organization's compliance framework, or modify existing codes to match your document handling policies
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/add-or-modify-redaction-codes.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Redact sensitive data from documents using AI, Use, ServiceNow Otto in Document Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---

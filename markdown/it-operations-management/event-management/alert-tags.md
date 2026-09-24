@@ -3,11 +3,11 @@ title: Alert tags
 description: Alert tags allow consolidation for all normalized fields and improve the admin experience to transform and normalize alert fields \(key/value\)​ enabling reuse of normalized fields across different sources.​ This improves alert quality for correlation and provides more out-of-the-box TBAC \(Tag Based Automatic Correlation\) definitions​.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/alert-tags.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---

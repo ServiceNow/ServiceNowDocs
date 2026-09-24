@@ -3,10 +3,10 @@ title: Download the manifest file
 description: Install ServiceNow Document designer manifest file. This add-in should be enabled for customizing the reports and Microsoft Word templates, according to your business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/download-manifest-file.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Generating Microsoft Word reports using Document designer, Manage, Using Digital resilience incident reporting, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
@@ -16,9 +16,9 @@ Install ServiceNow Document designer manifest file. This add-in should be enable
 
 ## About this task
 
-An Office add-in manifest is an XML \(or JSON for unified manifests\) file that describes an add-in to Microsoft Word. It includes its name, ID, version, and permissions. It specifies how the add-in integrates with Microsoft Word, such as defining custom UI elements \(ribbon buttons\) and HTML files.
+An Office add-in manifest file is an XML \(or JSON for unified manifests\) file that describes an add-in to Microsoft Word, including its name, ID, version, and permissions. It specifies how the add-in integrates with Microsoft Word, such as defining custom UI elements like ribbon buttons and the HTML files for its UI.
 
-Starting with Digital Resilience Incident Reporting, version 22.3.0, the Document designer add-in manifest is merged with Microsoft 365 reporting add-in manifest. When you side-load Document designer with Word add-in, the **Add Content** and **Manage Content** icons are available in the task pane.
+Starting with Digital Resilience Incident Reporting, version 22.3.0, the manifest of the Document designer add-in is merged with the manifest of the Microsoft 365 reporting add-in. When you side-load the Document designer with Word add-in, the **Add Content** and **Manage Content** icons are now available in the same task pane. These icons previously shipped only with the Microsoft 365 reporting add-in, as shown in the example.
 
 \[Omitted image "document-designer-add-manage-content-icons.png"\] Alt text: Microsoft Word toolbar with the Document Designer task pane open, showing Add Content and Manage Content icons.
 
@@ -58,9 +58,9 @@ Verify that the following plugins are activated with the sys\_admin role.
 
 ## What to do next
 
-To build the Microsoft Word template using the add-in, see [Build the Microsoft Word template using the add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/build-word-template-using-add-in.md).
+To build the Microsoft Word template using the add-in, see [Build the Microsoft Word template using the add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/build-word-template-using-add-in.md).
 
-For instructions on how to deploy the manifest file, see the [Deploy add-ins in the Microsoft 365 admin center \[KB1307378\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB1307378) article in Now Support Knowledge Base.
+For detailed instructions on how to deploy the manifest file, see the [Deploy add-ins in the Microsoft 365 admin center \[KB1307378\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB1307378) article in the Now Support Knowledge Base.
 
-To configure the HTTP response headers for add-in, see the [Response header resolution \[KB1434453\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB1434453) article in the Now Support Knowledge Base.
+To configure the HTTP response headers for add-in for Microsoft Word in the browser, see the [Response header resolution \[KB1434453\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB1434453) article in the Now Support Knowledge Base.
 

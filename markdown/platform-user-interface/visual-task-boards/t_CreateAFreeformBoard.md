@@ -3,13 +3,13 @@ title: Create a freeform Visual Task Board
 description: You can create freeform Visual Task Boards \(VTBs\) for tracking any kind of task or project.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/t\_CreateAFreeformBoard.html
-release: australia
+release: brazil
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Freeform Visual Task Boards, Creating Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Freeform Visual Task Boards, Creating Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Create a freeform Visual Task Board
@@ -35,9 +35,9 @@ Role required: none
 
 ## What to do next
 
--   [Add a personal task to a freeform Visual Task Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/t_AddAPersonalTaskToAFreeformBoard.md)
--   [Add a task to a freeform Visual Task Board from a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/t_AddATaskToAFreeformBoardFromAForm.md)
--   [Add a task to a freeform Visual Task Board from a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/t_AddATaskToAFreeformBoardFromAList.md)
+-   [Add a personal task to a freeform Visual Task Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/visual-task-boards/t_AddAPersonalTaskToAFreeformBoard.md)
+-   [Add a task to a freeform Visual Task Board from a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/visual-task-boards/t_AddATaskToAFreeformBoardFromAForm.md)
+-   [Add a task to a freeform Visual Task Board from a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/visual-task-boards/t_AddATaskToAFreeformBoardFromAList.md)
 
-**Parent Topic:**[Freeform Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/c_FreeformBoardTasks.md)
+**Parent Topic:**[Freeform Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/visual-task-boards/c_FreeformBoardTasks.md)
 

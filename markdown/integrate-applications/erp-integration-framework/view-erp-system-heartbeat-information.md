@@ -3,7 +3,7 @@ title: View Zero Copy Connector for ERP system heartbeat information
 description: In Zero Copy Connector for ERP \(Enterprise Resource Planning\), the heartbeat shows the status, date, and time of connections to the ERP system, along with error information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/view-erp-system-heartbeat-information.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
@@ -33,7 +33,7 @@ Role required: sn\_erp\_integration.erp\_admin or sn\_erp\_integration.erp\_user
 
     \[Omitted image "erpc-system-rfc-heartbeat-ys2.png"\] Alt text: Zero Copy Connector for ERP system record with HTTP heartbeats tab displayed.
 
-    View information about the heartbeats, including updated date and time, and status. If there's an error, the error text is displayed and a link to a knowledge base article \(if available\) is provided. For more information, see [Zero Copy Connector for ERP system details field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-create-new-system-descriptions.md).
+    View information about the heartbeats, including updated date and time, and status. If there's an error, the error text is displayed and a link to a knowledge base article \(if available\) is provided. For more information, see [Zero Copy Connector for ERP system details field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-create-new-system-descriptions.md).
 
     By default, all heartbeat information is kept for one week, but users with the admin role can change that setting.
 
@@ -42,4 +42,6 @@ Role required: sn\_erp\_integration.erp\_admin or sn\_erp\_integration.erp\_user
     3.  Select the **Table Cleanup Rules** tab.
     4.  In the list, select **sn\_erp\_integration\_log\_heartbeat**.
     5.  Edit the **Age in seconds**.
+
+**Parent Topic:**[Working with ERP systems in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-work-with-systems.md)
 

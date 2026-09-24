@@ -3,11 +3,11 @@ title: Actions in Dynamic Translation spoke
 description: Actions in the Dynamic Translation spoke are built to access the Dynamic Translation APIs from Workflow Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation/actions-dt-spoke.html
-release: australia
+release: brazil
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference for Dynamic Translation, Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -70,8 +70,8 @@ Translate texts to multiple languages using the configured translation service p
 
 When an error occurs, error codes populate with the reason for the error. Refer to the following information for the standard error codes that appear while you work on the Dynamic Translation spoke actions corresponding to the Dynamic Translation APIs.
 
--   [Dynamic Translation - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DynamicTranslation.md)
--   [Dynamic Translation - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/DynamicTranslationClientAPI.md)
+-   [Dynamic Translation - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/DynamicTranslation.md)
+-   [Dynamic Translation - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/DynamicTranslationClientAPI.md)
 
-**Parent Topic:**[Reference for Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/reference-for-dynamic-translation.md)
+**Parent Topic:**[Reference for Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-translation/reference-for-dynamic-translation.md)
 

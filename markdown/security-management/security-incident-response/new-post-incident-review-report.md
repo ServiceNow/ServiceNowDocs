@@ -3,11 +3,11 @@ title: Post incident review report
 description: The Post Incident Review \(PIR\) reports feature enables you to set up and download the post incident review reports using the Post Incident Review tab.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/new-post-incident-review-report.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Manage post incident activities, Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

@@ -3,11 +3,11 @@ title: Preview security incident
 description: After you complete the mapping step, preview the values that you mapped in a ServiceNow AI Platform Security Incident Response \(SIR\) security incident. This preview step permits you to verify that you have mapped all the notable fields that you want displayed on the security incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/splunk-event-ingest-preview-security.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Set up a profile for scheduled notable event ingestion, Create an event profile, Splunk Enterprise Security event ingestion integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -60,15 +60,15 @@ Preview a security incident and edit the mapping again as required to fix fields
 
 9.  After you have fixed any errors and verified that the fields are the way you want them, choose one option to continue.
 
-<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d344058e205">
+<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d343755e205">
 
 Option
 
-</th><th align="left" id="d344058e208">
+</th><th align="left" id="d343755e208">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d344058e214">
+</th></tr></thead><tbody><tr><td id="d343755e214">
 
 **Continue**
 
@@ -76,7 +76,7 @@ Description
 
 The Scheduling form is displayed for profiles with scheduled notable events. **Scheduling** is selected on the progress bar.
 
-</td></tr><tr><td id="d344058e228">
+</td></tr><tr><td id="d343755e228">
 
 **Finish**
 
@@ -84,7 +84,7 @@ The Scheduling form is displayed for profiles with scheduled notable events. **S
 
 For profiles with configured for manual event forwarding, click **Finish**. There is no scheduling step for profiles with event data that are exported on-demand directly from the Splunk Enterprise Security console.
 
-</td></tr><tr><td id="d344058e243">
+</td></tr><tr><td id="d343755e243">
 
 **Update**
 
@@ -92,7 +92,7 @@ For profiles with configured for manual event forwarding, click **Finish**. Ther
 
 Your data is saved, and you are returned to the Splunk Event Profiles list.
 
-</td></tr><tr><td id="d344058e255">
+</td></tr><tr><td id="d343755e255">
 
 **Previous**
 
@@ -100,7 +100,7 @@ Your data is saved, and you are returned to the Splunk Event Profiles list.
 
 The Mapping step on the progress bar is displayed.
 
-</td></tr><tr><td id="d344058e265">
+</td></tr><tr><td id="d343755e265">
 
 **Delete**
 
@@ -112,5 +112,5 @@ Delete this event profile and the Splunk Event Profiles list is displayed.
 </table>
 ## What to do next
 
-If no error messages are displayed, and you are satisfied with the field mapping on the security incident, the next step is to [Schedule and retrieve alerts for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-schedule.md).
+If no error messages are displayed, and you are satisfied with the field mapping on the security incident, the next step is to [Schedule and retrieve alerts for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/splunk-event-ingest-schedule.md).
 

@@ -3,7 +3,7 @@ title: Screen a grant proposal in the Grants Proposal Playbook
 description: You can use the Grants Proposal playbook to review information provided by the applicant, along with other relevant documents. From Grants management version 1.41 onward, during screening, you can also flag documents for verification and request updated documents from applicants.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-gmp-grant-proposal-screen.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-06-24"
 reading_time_minutes: 3
@@ -58,7 +58,7 @@ From Grants management version 1.141, documents in the Verify documents activity
 **Related topics**  
 
 
-[Check eligibility of an applicant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-gmp-check-eligibility.md)
+[Check eligibility of an applicant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-using-gmp-check-eligibility.md)
 
-[Verify documents uploaded to a grant proposal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-gmp-verify-documents.md)
+[Verify documents uploaded to a grant proposal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-using-gmp-verify-documents.md)
 

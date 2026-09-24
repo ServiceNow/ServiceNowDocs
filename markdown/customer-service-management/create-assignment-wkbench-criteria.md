@@ -3,9 +3,9 @@ title: Create assignment workbench matching criteria
 description: Create one or more matching criteria that can be used in an assignment workbench configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-assignment-wkbench-criteria.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure assignment workbench, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -32,7 +32,7 @@ The assignment workbench uses configurable matching criteria, such as skills and
 
 4.  Select the **Type** of matching criterion.
 
-<table id="choicetable_at3_1ch_cw"><tbody><tr><td id="d232663e115">
+<table id="choicetable_at3_1ch_cw"><tbody><tr><td id="d238131e115">
 
 **Simple Match**
 
@@ -40,7 +40,7 @@ The assignment workbench uses configurable matching criteria, such as skills and
 
 Creates a one-to-one match. For example, match the time zone of an agent with the time zone of a task location.
 
-</td></tr><tr><td id="d232663e124">
+</td></tr><tr><td id="d238131e124">
 
 **Aggregate**
 
@@ -48,7 +48,7 @@ Creates a one-to-one match. For example, match the time zone of an agent with th
 
 Takes a simple query as an input and provides aggregate results. The query returns a set of users.
 
-</td></tr><tr><td id="d232663e133">
+</td></tr><tr><td id="d238131e133">
 
 **Scripted**
 
@@ -128,5 +128,5 @@ The field from the selected task table to be displayed for the task records that
 **Related topics**  
 
 
-[Matching criteria for case assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-assignment-matching-criteria.md)
+[Matching criteria for case assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/case-assignment-matching-criteria.md)
 

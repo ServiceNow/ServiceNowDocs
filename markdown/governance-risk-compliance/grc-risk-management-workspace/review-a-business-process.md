@@ -3,11 +3,11 @@ title: Approve, reject, or delete a business process
 description: If a new business process has identified approvers, then the approvers must review and approve the process before it can be published. The approvers can also reject or delete the process as necessary.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/review-a-business-process.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a business process, Manage a business process, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -47,5 +47,5 @@ Role required: business\_process\_manager
     |**Delete**|Delete the business process.|
 
 
-**Parent Topic:**[Create a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-a-business-process.md)
+**Parent Topic:**[Create a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/create-a-business-process.md)
 

@@ -3,9 +3,9 @@ title: Activate Customer Service Management with Service Portfolio Management
 description: Activate the CSM with Service Portfolio Management \(SPM\) plugin to use the integration with Service Portfolio Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-spm-integration.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating with Service Portfolio Management, Integrate, Customer Service Management]
 ---
@@ -16,7 +16,7 @@ Activate the CSM with Service Portfolio Management \(SPM\) plugin to use the int
 
 ## Before you begin
 
-Consider using guided setup to complete the Service Portfolio Management configuration. For more information, see [Integrate with Service Portfolio Management using Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/spm-csm-integration.md).
+Consider using guided setup to complete the Service Portfolio Management configuration. For more information, see [Integrate with Service Portfolio Management using Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/spm-csm-integration.md).
 
 **Note:** Check your entitlements to determine whether you have access to the integration with Service Portfolio Management and the CSM with Service Portfolio Management \(SPM\) plugin \(sn\_csm\_spm\).
 

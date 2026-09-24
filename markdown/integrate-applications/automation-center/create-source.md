@@ -3,11 +3,11 @@ title: Create automation source
 description: Associate a data source for the selected source type.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/create-source.html
-release: australia
+release: brazil
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring automation summary execution, Configure, Automation Center, Workflow Data Fabric]
 ---
@@ -96,7 +96,7 @@ Description of the automation source.
 
 ## What to do next
 
-[Configure execution summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-exe-sum-config.md)
+[Configure execution summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/create-exe-sum-config.md)
 
-**Parent Topic:**[Configuring automation summary execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/config-auto-sum-exe.md)
+**Parent Topic:**[Configuring automation summary execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/config-auto-sum-exe.md)
 

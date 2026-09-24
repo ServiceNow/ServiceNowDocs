@@ -3,11 +3,11 @@ title: Components installed with Task Intelligence for ITSM
 description: Several types of components are installed with the activation of the Task Intelligence for ITSM application plugin \(com.snc.itsm\_ml\_task\), including tables, user roles, and ServiceNow store applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/task-intelligence-for-itsm/components-installed-ti-itsm.html
-release: australia
+release: brazil
 product: Task Intelligence for ITSM
 classification: task-intelligence-for-itsm
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Task Intelligence for ITSM, IT Service Management]
 ---
@@ -230,5 +230,5 @@ Task Intelligence Admin Console \[com.sn\_ti\_admin\]
 Enables you to setup, manage, and monitor incident prediction models that help categorize incidents.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Task Intelligence for ITSM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/task-intelligence-itsm-reference.md)
+</table>**Parent Topic:**[Task Intelligence for ITSM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/task-intelligence-for-itsm/task-intelligence-itsm-reference.md)
 

@@ -3,9 +3,9 @@ title: UI elements of the record screen
 description: Familiarize yourself with the various elements contained within a record screen.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/mab-record-elements.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Record screen, Mobile App Builder, Building tools, Building mobile apps, Mobile Platform]
 ---

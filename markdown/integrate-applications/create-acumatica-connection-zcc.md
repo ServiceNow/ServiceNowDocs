@@ -3,12 +3,12 @@ title: Create an Acumatica connection
 description: Create a zero-copy connection to Acumatica to access ERP data in Zero Copy Connector Hub without moving or duplicating data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-acumatica-connection-zcc.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Acumatica connection, zero-copy connector, REST connector, data fabric connection, ERP data]
-breadcrumb: [Acumatica, Primary connectors, Zero Copy Connectors, Workflow Data Fabric]
+breadcrumb: [Acumatica, Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
 # Create an Acumatica connection
@@ -46,7 +46,7 @@ After you create this connection, data stewards can use it to create data fabric
     |Connection name|System-generated name based on the Connection label. This field cannot be modified once the connection is established.|
     |Short description|Description of the connection explaining what it is about.|
     |Connection Details|
-    |Connection Alias|The connection alias that identifies the HTTP connection for this connector.|
+    |Connection Alias|Connection alias that identifies the HTTP connection for this connector.|
 
 4.  Select **Connect**.
 
@@ -57,7 +57,7 @@ A test connection is made to the external data source, verifying that the connec
 
 ## What to do next
 
-If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-access-connection-zcc.md).
+If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/manage-access-connection-zcc.md).
 
 If the connection fails, verify the connection details with your data source administrator and try again.
 

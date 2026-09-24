@@ -3,11 +3,11 @@ title: Legacy SLA fields
 description: Previously, only a single SLA could be attached to a task via the Escalation engine. The information for the SLA was stored in the task table using the SLA Due, Made SLA, and Escalation fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/c\_LegacySLAFields.html
-release: australia
+release: brazil
 product: Service Level Management
 classification: service-level-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Level Agreement \(Legacy\) engines, Service Level Management reference, Service Level Management, IT Service Management]
 ---
@@ -28,5 +28,5 @@ The fields on the **Task** are considered legacy and are not updated by the Task
 
 To prevent the Escalation engine from running, set the **com.snc.sla.run\_old\_sla\_engine** property to false. If this property is set to false and the fields are still being updated, check the customizations made to your instance.
 
-**Parent Topic:**[Service Level Agreement \(Legacy\) engines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/c_GetStartedWithSLAs.md)
+**Parent Topic:**[Service Level Agreement \(Legacy\) engines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/c_GetStartedWithSLAs.md)
 

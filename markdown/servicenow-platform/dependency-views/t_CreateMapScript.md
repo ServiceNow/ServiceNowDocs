@@ -3,11 +3,11 @@ title: Create or edit a dependency type
 description: Use one of the dependency types provided, or create a custom dependency type with a script that will execute in real time to generate a custom view of a Dependency Views map for a specific CI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/t\_CreateMapScript.html
-release: australia
+release: brazil
 product: Dependency Views
 classification: dependency-views
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Administer, Dependency Views, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -40,7 +40,7 @@ The following dependency types are available in the base system:
     Returns all qualifiers, end points, and entry points. This dependency type is available in the base system and is disabled by default. Typically, you would enable this dependency type for debugging and tracking purposes.
 
 
-The following dependency types are available with [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_ServiceMappingOverview.md):
+The following dependency types are available with [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/c_ServiceMappingOverview.md):
 
 -   **Application to Network Devices**
 
@@ -56,7 +56,7 @@ The following dependency types are available with [Service Mapping](https://raw.
 
 -   **Flow Dependencies**
 
-    Returns all the server to server connections that were discovered using the Netflow collector. The script builds a graph based on data in the \[sa\_flow\_server\_comm\] table. This table contains pairs of services represented by an IP and a listening port that are communicating with each other. For more information, see [Data collection and discovery using Netflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/data-collection-netflow-mapping.md) and [Data collection and discovery using VPC Flow Logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/data-collection-vpc-mapping.md).
+    Returns all the server to server connections that were discovered using the Netflow collector. The script builds a graph based on data in the \[sa\_flow\_server\_comm\] table. This table contains pairs of services represented by an IP and a listening port that are communicating with each other. For more information, see [Data collection and discovery using Netflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/data-collection-netflow-mapping.md) and [Data collection and discovery using VPC Flow Logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/data-collection-vpc-mapping.md).
 
 
 ## Procedure
@@ -74,7 +74,7 @@ The following dependency types are available with [Service Mapping](https://raw.
 
 In a Dependency Views map, you can click **Dependency Type** to apply a custom script defined in a dependency type.
 
-**Parent Topic:**[Administer Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/p_AdministerNGBSM.md)
+**Parent Topic:**[Administer Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/dependency-views/p_AdministerNGBSM.md)
 
 **Related topics**  
 
@@ -93,5 +93,5 @@ In a Dependency Views map, you can click **Dependency Type** to apply a custom s
 
 [Condition and script parameters for menu actions]()
 
-[Data collection and discovery using Netflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/data-collection-netflow-mapping.md)
+[Data collection and discovery using Netflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/data-collection-netflow-mapping.md)
 

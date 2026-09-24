@@ -3,14 +3,14 @@ title: Evaluation tab in AI Control Tower
 description: The Evaluation tab contains the Evaluation dashboard, which is designed to measure, automate, and improve the quality of interactions with Virtual Agent. This dashboard addresses several key challenges to enhance the end-user experience and overall virtual agent utility.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-evaluation.html
-release: australia
+release: brazil
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Now Assist, Gen AI, generative AI, AI Governance, LLM]
-breadcrumb: [AI Control Tower Home, AI Control Tower dashboard, Explore, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [AI Control Tower Home, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Evaluation tab in AI Control Tower
@@ -23,7 +23,7 @@ The **Evaluation** tab contains the Evaluation dashboard, which is designed to m
 
 Role required: sn\_ai\_governance.ai\_steward
 
-You must [Enabling evaluations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-eval-enable.md).
+You must [Enabling evaluations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/ai-eval-enable.md).
 
 Conversations are excluded from auto-evaluation if any of the following conditions are met:
 
@@ -57,11 +57,11 @@ The following widgets are available, showing various metrics:
 
 -   Average Auto Eval score for the selected metric: Shows the average auto-evaluation score for the metric selected and its trend over time.
 
-    For more information about each metric, see [Evaluation metrics and calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-eval-metrics.md).
+    For more information about each metric, see [Evaluation metrics and calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/ai-eval-metrics.md).
 
 -   Average Human Feedback score for the selected metric: Shows the average human-labeled score for the selected metric.
 
-    **Note:** The score is available only if there are sufficient chat records that are manually evaluated. For more information about manually evaluating conversations, see [Human feedback for evaluations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-eval-human-fb.md).
+    **Note:** The score is available only if there are sufficient chat records that are manually evaluated. For more information about manually evaluating conversations, see [Human feedback for evaluations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/ai-eval-human-fb.md).
 
 -   Evaluation score trend: Tracks the weekly score for the selected metric.
 
@@ -71,17 +71,17 @@ The following widgets are available, showing various metrics:
 
     \[Omitted image "ai-eval-01.png"\] Alt text: Evaluation trend with deviation and adjusted scores.
 
-    For more information about how the calculations are made, see [Evaluation metrics and calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-eval-metrics.md).
+    For more information about how the calculations are made, see [Evaluation metrics and calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/ai-eval-metrics.md).
 
 -   Evaluations: Shows the total number of conversations that were evaluated each week.
 
--   Human feedback section: Contains detailed information about each evaluation. From here, you can manually evaluate conversations. For more information, see [Human feedback for evaluations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-eval-human-fb.md).
+-   Human feedback section: Contains detailed information about each evaluation. From here, you can manually evaluate conversations. For more information, see [Human feedback for evaluations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/ai-eval-human-fb.md).
 
 ## Evaluations
 
 Each conversation is evaluated on eight different metrics. For each of these metrics, there’s a separate skill. You can view these skills in AI Skill Kit under **Custom skills**.
 
-For more information about each metric, see [Evaluation metrics and calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-eval-metrics.md).
+For more information about each metric, see [Evaluation metrics and calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/ai-eval-metrics.md).
 
 Role required: sn\_skill\_builder.admin
 
@@ -100,7 +100,7 @@ The following Now Assist custom skills are used:
 
 The default provider for these skills is Now LLM. You can change the provider to Azure OpenAI, Google Gemini or AWS Claude. Azure OpenAI has been observed to improve results in certain scenarios.
 
-For more information about AI Skill Kit, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md).
+For more information about AI Skill Kit, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md).
 
 **Process of evaluation**
 
@@ -112,12 +112,12 @@ Flow: Execute Evaluation.
 
 **Note:** Conversation evaluation estimates are considered as of evaluation date and not the conversation created date. For example, if a chat that happened at time t is evaluated at time t+10, the scores from evaluator is aggregated for the week of t+10 and not for the week of t.
 
-For detailed information about the evaluation flow, see [Evaluation flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-eval-flow.md).
+For detailed information about the evaluation flow, see [Evaluation flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/ai-eval-flow.md).
 
 **Related topics**  
 
 
-[Value tab in the Evaluation dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-eval-value.md)
+[Value tab in the Evaluation dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/ai-eval-value.md)
 
-[Evaluation dashboard reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-eval-references.md)
+[Evaluation dashboard reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/ai-eval-references.md)
 

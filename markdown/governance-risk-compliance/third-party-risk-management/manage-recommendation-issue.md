@@ -3,11 +3,11 @@ title: Create or dismiss issues using recommendations
 description: Accept recommendations to create issues based on historical assessment data, or dismiss recommendations that aren’t relevant. Accepting or dismissing issue recommendations helps reviewers efficiently act on AI‑predicted findings while retaining control over which issues are created.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/manage-recommendation-issue.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, generative AI]
 breadcrumb: [Generate TPRM issue recommendations, Assess third-party risk, Third-party Risk Management, Governance, Risk, and Compliance]
@@ -19,7 +19,7 @@ Accept recommendations to create issues based on historical assessment data, or 
 
 ## Before you begin
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer
 
@@ -53,15 +53,15 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer
 
 5.  Create issues based on these recommendations or dismiss the recommendations.
 
-<table id="choicetable_mqj_mcr_23c"><thead><tr><th align="left" id="d39514e240">
+<table id="choicetable_mqj_mcr_23c"><thead><tr><th align="left" id="d39784e240">
 
 Option
 
-</th><th align="left" id="d39514e243">
+</th><th align="left" id="d39784e243">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d39514e249">
+</th></tr></thead><tbody><tr><td id="d39784e249">
 
 **Create issues or dismiss issues from the Predicted issues pane**
 
@@ -71,7 +71,7 @@ Description
 2.  Select **Create issue** or **Dismiss**.
 
 
-</td></tr><tr><td id="d39514e273">
+</td></tr><tr><td id="d39784e273">
 
 **Create issues or dismiss issues from the Predicted issues list**
 

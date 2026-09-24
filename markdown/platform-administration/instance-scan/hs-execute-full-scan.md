@@ -3,11 +3,11 @@ title: Execute a full scan
 description: Execute a scan for the entire instance by selecting Execute Full Scan. Implementing a full scan runs all the active checks present in your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/instance-scan/hs-execute-full-scan.html
-release: australia
+release: brazil
 product: Instance Scan
 classification: instance-scan
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Executing a scan, Using Instance Scan, Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -32,7 +32,7 @@ Role required: admin
 
     \[Omitted image "hs-progress-worker.png"\] Alt text: Image showing full scan progress tracker
 
-    **Note:** You can now execute multiple full scans simultaneously if you have enabled glide.scan.parallel\_scan\_enabled system property. You can also set the maximum number of scans that can run concurrently by setting the value for glide.scan.max\_parallel\_scans property. See [Instance Scan properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-sys-properties.md) for more information.
+    **Note:** You can now execute multiple full scans simultaneously if you have enabled glide.scan.parallel\_scan\_enabled system property. You can also set the maximum number of scans that can run concurrently by setting the value for glide.scan.max\_parallel\_scans property. See [Instance Scan properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/instance-scan/hs-sys-properties.md) for more information.
 
     \[Omitted image "hs-full-scan-queue-parallel.png"\] Alt text: Image showing parallel scan in full scan
 
@@ -55,7 +55,7 @@ Role required: admin
 
 A scan of the whole instance is executed.
 
-**Parent Topic:**[Executing a scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-execute-scans.md)
+**Parent Topic:**[Executing a scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/instance-scan/hs-execute-scans.md)
 
 **Related topics**  
 

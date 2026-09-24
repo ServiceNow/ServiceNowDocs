@@ -3,12 +3,12 @@ title: MID Server SSH cryptographic algorithms
 description: The MID Server utilizes SSH clients to perform many discovery actions. During the SSH handshake, both the client and server first determine which algorithms both parties support, then client picks the highest priority algorithm. For the Host Key Algorithm, the client picks highest priority algorithm which both parties support that matches the key type.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-ssh-algorithms.html
-release: australia
+release: brazil
 product: MID Server
 classification: mid-server
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Securing and encrypting MID Server data, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -93,7 +93,7 @@ The properties accept comma separated lists with operators. The first name in th
 
 \[Omitted image "mid-ssh-properties.png"\] Alt text: The MID Server properties using the operators to customize the SSH algorithm lists.
 
-**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-security-encryption.md)
+**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-server-security-encryption.md)
 
 **Related topics**  
 
@@ -117,8 +117,6 @@ The properties accept comma separated lists with operators. The first name in th
 [Rekey a MID Server]()
 
 [Add SSL certificates for the MID Server]()
-
-[Specify an external TrustStore for the MID Server]()
 
 [Attach a script file to a file synchronized MID Server]()
 

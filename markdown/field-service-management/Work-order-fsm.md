@@ -3,10 +3,10 @@ title: Integrated work order entry
 description: Work orders in Field Service Management store information about requested work, including customer names and addresses, locations where work is to be performed, and any associated configuration items. Work orders can include one or more tasks that contain specific details about the work to be performed, such as required agent skills or part requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/Work-order-fsm.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Explore, Field Service Management]
 ---
 
@@ -23,19 +23,32 @@ When you create a work order from an integrated product:
 -   Data from the product record automatically copies to the new work order.
 -   The work order is available from within the integrated product.
 
+## Example: Case Escalation to Field Service
+
+A customer issue cannot be resolved remotely and requires a field technician to visit the site. The CSM and Field Service Management integration allows support agents to create a linked work order from an open case, passing all relevant data to dispatch automatically and updating the case when the work order is closed.
+
+|Step|Actor|Action|
+|----|-----|------|
+|1|Customer or Customer Service Agent|Creates case in CSM|
+|2|Customer Service Agent|Determines field service is needed|
+|3|System|Generates linked work order with case data|
+|4|System|Routes work order to dispatch|
+|5|Technician|Completes job|
+|6|System|Updates work order and closes case|
+
 You can create a work order from the following integrated record types:
 
 -   **Incident**
 
-    Use Field Service in Incident Management to create work orders from incidents. For more information, see [Integration with Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/incident-for-fsm.md).
+    Use Field Service in Incident Management to create work orders from incidents. For more information, see [Integration with Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-integrations/incident-for-fsm.md).
 
 -   **Change**
 
-    Use Field Service in Change Management to create work orders from change requests while on a live call or chat with the customer. For more information, see [Integration with Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/change-for-fsm.md).
+    Use Field Service in Change Management to create work orders from change requests while on a live call or chat with the customer. For more information, see [Integration with Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-integrations/change-for-fsm.md).
 
 -   **Project task**
 
-    Use Field Service in Project Portfolio Management to create work orders from project tasks. For more information, see [Integration with Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/project-management-integration.md).
+    Use Field Service in Project Portfolio Management to create work orders from project tasks. For more information, see [Integration with Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-integrations/project-management-integration.md).
 
 -   **Service requests**
 
@@ -45,7 +58,7 @@ You can create a work order from the following integrated record types:
 **Related topics**  
 
 
-[Configuring work order templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/c_WorkOrderTemplates.md)
+[Configuring work order templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/c_WorkOrderTemplates.md)
 
-[Prepare work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/preparing-work-orders.md)
+[Prepare work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/preparing-work-orders.md)
 

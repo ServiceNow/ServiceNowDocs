@@ -3,11 +3,11 @@ title: Enable automatic updates to the wish list
 description: Update the wish list automatically with user-specific changes from multiple tabs and platforms.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/enable-auto-update-wish-list.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SC Wish List Cart widget, Service Catalog widgets, Widget library, Using portal widgets, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -53,7 +53,7 @@ Role required: admin or sp\_admin
     \[Omitted image "auto-update-wish-list.png"\] Alt text: Screenshot to automatically update the wish list
 
 
-**Parent Topic:**[SC Wish List Cart widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sc-wish-list.md)
+**Parent Topic:**[SC Wish List Cart widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/sc-wish-list.md)
 
 **Related topics**  
 

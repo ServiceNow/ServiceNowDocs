@@ -3,11 +3,11 @@ title: Import and export content data for firmware in your operational technolog
 description: Import and export content data for firmware that is embedded into your on-premise OT assets. Share this data with the Content Service team so that you can help improve the normalization process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/import-export-content-data-firmware-ot-assets.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Normalizing firmware for OT assets, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
@@ -18,9 +18,9 @@ Import and export content data for firmware that is embedded into your on-premis
 
 ## Before you begin
 
-**Important:** You can import and export this firmware content data only the in OT Asset Workspace. To use the OT Asset Workspace, install the OT Asset Management application on your ServiceNow instance. See [Install OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/install-otam.md) for detailed instructions.
+**Important:** You can import and export this firmware content data only the in OT Asset Workspace. To use the OT Asset Workspace, install the OT Asset Management application on your ServiceNow instance. See [Install OT Asset Management from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/install-otam.md) for detailed instructions.
 
-**Important:** To import and export this firmware content data, set the **sn\_itam\_common.onprem\_content\_import\_export** system property to `true` on your ServiceNow instance. In addition, opt in to the Enterprise Asset Management Content Service and verify that the Custom Firmware Models KPI is enabled. See [Opt-in to the Enterprise Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/optin-cs-eam.md) for detailed instructions.
+**Important:** To import and export this firmware content data, set the **sn\_itam\_common.onprem\_content\_import\_export** system property to `true` on your ServiceNow instance. In addition, opt in to the Enterprise Asset Management Content Service and verify that the Custom Firmware Models KPI is enabled. See [Opt-in to the Enterprise Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/optin-cs-eam.md) for detailed instructions.
 
 Role required: sn\_otam.ot\_asset\_manager
 

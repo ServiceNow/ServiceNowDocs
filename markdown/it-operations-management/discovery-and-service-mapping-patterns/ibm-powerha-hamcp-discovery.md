@@ -3,11 +3,11 @@ title: IBM PowerHA SystemMirror for AIX discovery
 description: The ServiceNow Discovery application uses the IBM PowerHA Cluster \(HACMP\) pattern to find IBM PowerHA SystemMirror for AIX \(formerly HACMP\) high-availability clusters on AIX UNIX and Linux systems running on IBM platforms. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/ibm-powerha-hamcp-discovery.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [IBM PowerHA SystemMirror, IBM PowerHA SystemMirror for AIX, IBM PowerHA, HACMP]
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
@@ -34,11 +34,11 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     1.  Navigate to **CI Classification** &gt; **UNIX**.
     2.  Select **AIX**.
     3.  In The **Triggers probes** tab, verify that the IBM PowerHA Cluster \(HACMP\) pattern is listed as an exploration that runs after the AIX Server pattern.
-    For more information on AIX Server discovery, see [AIX server discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoAIXComputers.md).
+    For more information on AIX Server discovery, see [AIX server discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/r_DataCollDiscoAIXComputers.md).
 
 -   **Verify server IP address or hostname**
 
-    Verify that the server IP address or hostname are used during discovery. For more information, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
+    Verify that the server IP address or hostname are used during discovery. For more information, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
 
 -   **Verify MID Server access**
 
@@ -145,5 +145,5 @@ These relationships are created to support IBM HACMP/PowerHA cluster discovery:
 |UNIX Cluster \[cmdb\_ci\_unix\_cluster\]|Contains::Contained by|Cluster Resource Group \[cmdb\_ci\_cluster\_resource\_group\]|
 |UNIX Cluster Node \[cmdb\_ci\_unix\_cluster\_node\]|Hosted on::Hosts|AIX Server \[cmdb\_ci\_aix\_server\]|
 
-**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

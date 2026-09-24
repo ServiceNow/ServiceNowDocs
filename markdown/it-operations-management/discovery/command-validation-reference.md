@@ -3,11 +3,11 @@ title: Command Validation Tasks form for pattern-based discovery
 description: Command Validation Tasks form displays the fields that you must fill when you create or modify a task for testing a pattern command.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/command-validation-reference.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Discovery reference, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Discovery reference, Discovery, ITOM Visibility, IT Operations Mana
 
 **Command Validation Tasks** form displays the fields that you must fill when you create or modify a task for testing a pattern command.
 
-For more information about testing pattern commands, see [Validate commands used in pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/validate-discovery-commands.md) and [View command validation task results in pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/view-command-validation-task-results.md).
+For more information about testing pattern commands, see [Validate commands used in pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/validate-discovery-commands.md) and [View command validation task results in pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/view-command-validation-task-results.md).
 
 <table id="table_h5t_b2m_c5b"><thead><tr><th>
 
@@ -113,12 +113,12 @@ Pattern
 The name of the pattern for which you want to validate the commands. This field is available only when **Validate All Patterns Commands** isn't selected.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Discovery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-references.md)
+</table>**Parent Topic:**[Discovery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-references.md)
 
 **Related topics**  
 
 
-[Command List form for pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/commands-list-discovery.md)
+[Command List form for pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/commands-list-discovery.md)
 
-[Discovery commands for probes and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-command-probe-pattern.md)
+[Discovery commands for probes and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-command-probe-pattern.md)
 

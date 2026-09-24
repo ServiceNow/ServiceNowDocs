@@ -3,9 +3,9 @@ title: Regenerate a response in an AI Data Explorer exploration
 description: Change the filter conditions for a table source or data visualization parameters for an indicator source. Then regenerate a response with updated visualizations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/change-parms-exploration-source.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [exploration, source conditions, indicator parameters, filter conditions, edit source]
 breadcrumb: [Questions and responses in an exploration, Use, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
@@ -59,7 +59,7 @@ Role required: now\_assist\_explorer\_user and ownership or editing rights to th
         -   View other properties such as the time series aggregation on the visualization.
         -   Open the indicator record through the View indicator details link.
         -   Explore the indicator in KPI Details.
-        For more information about these settings, see [Automated indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/automated-indicators.md).
+        For more information about these settings, see [Automated indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/automated-indicators.md).
 
         \[Omitted image "aide-indicator-source-editor.png"\] Alt text: Response source editor for indicator source with condition builder.
 
@@ -72,5 +72,5 @@ The data visualization, summary, and suggested follow-on questions are regenerat
 
 **Note:** Regenerating a response removes all changes that you made manually to the text in the summary.
 
-**Parent Topic:**[Questions and responses in an exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/ask-expl-questions.md)
+**Parent Topic:**[Questions and responses in an exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/ask-expl-questions.md)
 

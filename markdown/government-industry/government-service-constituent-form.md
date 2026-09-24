@@ -3,9 +3,9 @@ title: Constituent Profile form
 description: Use the Constituent Profile form in the Public Sector Digital Services application to display detailed information about a constituent, such as the name and address, date of birth, contact information, and language choice.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/government-service-constituent-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Public Service Profile Forms, Forms, Reference, Public Sector Digital Services \(PSDS\)]
 ---
@@ -349,5 +349,5 @@ Notes
 Additional notes about the constituent or the case.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Public Sector Digital Services Core Profile Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-profile-forms.md)
+</table>**Parent Topic:**[Public Sector Digital Services Core Profile Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-profile-forms.md)
 

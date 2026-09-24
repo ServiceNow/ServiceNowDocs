@@ -3,11 +3,11 @@ title: Assign Response Tasks
 description: Assign Response tasks for a security issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/assign\_response\_tasks.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [List view in SIR Workspace, Explore, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -43,7 +43,7 @@ Role required: sn\_si.basic
     \[Omitted image "assign-response-task.png"\] Alt text: Response Task - Assign
 
 
-**Parent Topic:**[List view in SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setting-up-list-view-in-analyst-workspace.md)
+**Parent Topic:**[List view in SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/setting-up-list-view-in-analyst-workspace.md)
 
 **Related topics**  
 

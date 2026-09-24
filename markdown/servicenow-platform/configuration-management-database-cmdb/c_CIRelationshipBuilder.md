@@ -3,11 +3,11 @@ title: Legacy CI relationship builder
 description: Used to define CI relationships manually, this page is a sophisticated version of the standard list collector. In the legacy CI relations formatter, click the CI relationship builder icon \( CI relationship builder icon \) to display the legacy Define Relationships page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/c\_CIRelationshipBuilder.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [CI relationship editor, CI relationships in the CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [CI relationship editor, CI relationships in the CMDB, Configuration
 
 Used to define CI relationships manually, this page is a sophisticated version of the standard list collector. In the legacy CI relations formatter, click the CI relationship builder icon \(\[Omitted image "CIRelationshipBuilderIcon.png"\] Alt text: CI relationship builder icon\) to display the legacy Define Relationships page.
 
-For information about the latest CI relationship editor, see [CI relationship editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_RelationshipEditor.md).
+For information about the latest CI relationship editor, see [CI relationship editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_RelationshipEditor.md).
 
 ## Select a CI relationship type
 
@@ -80,10 +80,10 @@ This causes you to exit without saving your changes.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[CI relationship editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_RelationshipEditor.md)
+**Parent Topic:**[CI relationship editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_RelationshipEditor.md)
 
 **Related topics**  
 
 
-[CI relationships in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationships.md)
+[CI relationships in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationships.md)
 

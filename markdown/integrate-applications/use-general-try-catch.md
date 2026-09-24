@@ -3,9 +3,9 @@ title: Use the Try Catch component
 description: Catch an error or exception that occurs in a component in an automation and transfer control to the other components within the automation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-general-try-catch.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [General, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-To configure the properties for the Try Catch component, see [Properties of the Try Catch component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/Properties-general-components.md).
+To configure the properties for the Try Catch component, see [Properties of the Try Catch component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/Properties-general-components.md).
 
 For details on the issues related to the Try Catch component, see [KB article KB1123551](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1123551), [KB article KB1123552](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1123552), and [KB article KB1123556](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1123556).
 
@@ -168,5 +168,5 @@ An automation uses a **Try Catch** component when reading data from Excel. If th
 
 \[Omitted image "Trycatch\_2.PNG"\] Alt text: Example of exception handling in the Try Catch block.
 
-**Parent Topic:**[General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/general-component.md)
+**Parent Topic:**[General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/general-component.md)
 

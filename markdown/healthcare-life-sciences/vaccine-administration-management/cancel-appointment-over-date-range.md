@@ -3,11 +3,11 @@ title: Cancel appointments in a given date range
 description: Cancel multiple appointment bookings at a location in a given date range.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/vaccine-administration-management/cancel-appointment-over-date-range.html
-release: australia
+release: brazil
 product: Vaccine Administration Management
 classification: vaccine-administration-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Vaccine Administration Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -33,5 +33,5 @@ Role required: sn\_vaccine\_sm​.admin or sn\_vaccine\_sm​.manager
     If the end date is empty, all appointments after the start date get canceled.
 
 
-**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
+**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
 

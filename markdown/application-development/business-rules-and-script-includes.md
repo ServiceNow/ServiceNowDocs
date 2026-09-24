@@ -3,9 +3,9 @@ title: Business rules and script includes
 description: Business rules are server-side actions that can be run during CRUD \(Create, Read, Update, Delete\) operations on instance records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/business-rules-and-script-includes.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Build form and business logic, Build your application, Exploring professional development, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Build form and business logic, Build your application, Exploring pr
 
 Business rules are server-side actions that can be run during CRUD \(Create, Read, Update, Delete\) operations on instance records.
 
-**Note:** Consider creating applications with help from agentic AI. For more information, see [Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/use-ai-capabilities-in-custom-apps.md).
+**Note:** Consider creating applications with help from agentic AI. For more information, see [Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/use-ai-capabilities-in-custom-apps.md).
 
 Some good practices when using Business Rules are:
 
@@ -38,13 +38,13 @@ Business Rules can be configured to run before or after a database operation. Th
 
 **Note:** current.update\(\)should not be used in any Business Rules. Using current.update\(\)triggers an additional database operation, which could cause duplicate notifications, recursive loops, etc.
 
-Use Script Includes to store JavaScript functions and classes for use by server scripts. Each Script Include defines either an object class or a function that can be reused among any server-side scripts. For more information, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md).
+Use Script Includes to store JavaScript functions and classes for use by server scripts. Each Script Include defines either an object class or a function that can be reused among any server-side scripts. For more information, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/c_ScriptIncludes.md).
 
 Store any code that might need to be used elsewhere in a Script Include. Call the Script Include from a Business Rule, UI Action, workflow script, Scripted REST API, etc. Instead of calling a Business Rule from a UI Action or a UI Action from a Scripted REST API, put the code in a Script Include and call the Script Include from both places.
 
 Keeping functions in a Script Include allows testing of the function before deploying the function in other scripted areas, thus reducing overall development and testing time.
 
-For more information, see [Classic Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_BusinessRules.md).
+For more information, see [Classic Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/c_BusinessRules.md).
 
-**Parent Topic:**[Build form and business logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-form-and-business-logic.md)
+**Parent Topic:**[Build form and business logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-form-and-business-logic.md)
 

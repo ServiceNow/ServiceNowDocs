@@ -3,11 +3,11 @@ title: Add external dependencies between projects from Project Workspace
 description: Set up a dependency between tasks of different projects using the new Project Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/add-external-dependencies-between-projects-from-project-workspace.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -28,7 +28,7 @@ External dependencies help you understand the impact on project schedules when t
 
 1.  Open a project from the home page of Project Workspace.
 
-    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  From the data grid, select the project task to which you want to add the dependency.
 
@@ -48,17 +48,17 @@ External dependencies help you understand the impact on project schedules when t
 ## Result
 
 -   Dependency is created for the tasks of the two projects.
--   The short description of your project is greyed out and is renamed to indicate the external dependency in the format of **External project name: External task name**
+-   The short description of your project is made read-only and is renamed to indicate the external dependency in the format of **External project name: External task name**
 -   A link icon \(\[Omitted image "icon-dependency.png"\] Alt text: External dependency icon\) is added to the short description cell of the task, to indicate the dependency.
 
 ## What to do next
 
 You can navigate to the external project directly from the current project to view the status or update the details of the predecessor task. From the row context menu of the dependent task, select **View project**.
 
-**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/use-projects-pw.md)
+**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/use-projects-pw.md)
 
 **Related topics**  
 
 
-[Adding external dependencies for projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/external-dependencies.md)
+[Adding external dependencies for projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/external-dependencies.md)
 

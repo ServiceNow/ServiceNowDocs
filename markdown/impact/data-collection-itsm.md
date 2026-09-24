@@ -3,9 +3,9 @@ title: Impact Value Management Data Collection Content Pack for ITSM
 description: Install and configure the Data Collection Content Pack for ITSM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/data-collection-itsm.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enable data collection for Value Management, Configuring Impact, Impact]
 ---
@@ -16,21 +16,21 @@ Install and configure the Data Collection Content Pack for ITSM.
 
 Perform the steps in the following order:
 
-1.  [Install the Data Collection Pack for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-itsm-install.md)
-2.  [Configure Data Collection for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-itsm-config.md)
-3.  [Activate Data Collection for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-itsm-activate.md)
-4.  [Review ITSM artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-itsm-install-artifacts.md)
+1.  [Install the Data Collection Pack for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/dc-itsm-install.md)
+2.  [Configure Data Collection for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/dc-itsm-config.md)
+3.  [Activate Data Collection for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/dc-itsm-activate.md)
+4.  [Review ITSM artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/dc-itsm-install-artifacts.md)
 
-You can also modify the configuration at any point, and maintain customizations when you are ready to upgrade. For more information, see [Modifying the Data Collection configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-all-modify.md) and [Upgrading the Data Collection Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-all-upgrade.md).
+You can also modify the configuration at any point, and maintain customizations when you are ready to upgrade. For more information, see [Modifying the Data Collection configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/dc-all-modify.md) and [Upgrading the Data Collection Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/dc-all-upgrade.md).
 
--   **[Install the Data Collection Pack for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-itsm-install.md)**  
+-   **[Install the Data Collection Pack for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/dc-itsm-install.md)**  
 To enable the Data Collection Pack, you must activate Data Collection jobs.
--   **[Configure Data Collection for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-itsm-config.md)**  
+-   **[Configure Data Collection for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/dc-itsm-config.md)**  
 Configure Data Collection for ITSM.
--   **[Activate Data Collection for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-itsm-activate.md)**  
+-   **[Activate Data Collection for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/dc-itsm-activate.md)**  
 Activate the Data Collection Pack for ITSM after you enable and configure it.
--   **[Review ITSM artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-itsm-install-artifacts.md)**  
+-   **[Review ITSM artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/dc-itsm-install-artifacts.md)**  
 The Data Collection app contains a pre-build data metric structure for the ServiceNow Performance/Platform Analytics application.
 
-**Parent Topic:**[Enable data collection for Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-toolkit.md)
+**Parent Topic:**[Enable data collection for Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-toolkit.md)
 

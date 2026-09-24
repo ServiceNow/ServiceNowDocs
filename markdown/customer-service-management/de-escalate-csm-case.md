@@ -3,9 +3,9 @@ title: De-escalate a case or an account
 description: The de-escalation requester can de-escalate cases or accounts when the cause of the escalation is resolved.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/de-escalate-csm-case.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Case and account escalation, Manage cases, Use, Customer Service Management]
 ---

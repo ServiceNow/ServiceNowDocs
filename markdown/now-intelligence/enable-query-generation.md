@@ -3,9 +3,9 @@ title: Query Generation skills
 description: Query Generation skills enable users to ask questions in ServiceNow Otto for Platform Analytics applications and receive answers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/enable-query-generation.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_query\_gen.admin or higher
 
 Query Generation skills are not used directly. Instead, they enable other applications that call Query Generation, such as AI Data Explorer
 
-**Important:** These generative AI skills are turned on by default. The skills will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** These generative AI skills are turned on by default. The skills will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 
@@ -49,5 +49,5 @@ Query Generation skills are not used directly. Instead, they enable other applic
     **Warning:** Be careful when selecting the roles that can access a skill. The default role is sn\_query\_gen.user, which the default roles for other ServiceNow Otto for Platform Analytics skills contain. Users of these other skills must be able to access Query Generation skills.
 
 
-**Parent Topic:**[Configuring Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configuring-query-generation.md)
+**Parent Topic:**[Configuring Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/configuring-query-generation.md)
 

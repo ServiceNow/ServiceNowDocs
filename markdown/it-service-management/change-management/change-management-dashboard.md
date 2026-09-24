@@ -3,7 +3,7 @@ title: Legacy: Change Management dashboard
 description: Use this dashboard to see the trends in change request resolution over time across different change request risks, ages, and priorities. Break down change requests over time according to the assignment groups you manage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/change-management-dashboard.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: concept
@@ -18,7 +18,7 @@ Use this dashboard to see the trends in change request resolution over time acro
 
 **Important:**
 
-Starting in Xanadu release, the Core UI Change Management dashboard is deprecated. You can use Platform Analytics [Change Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change.md) to view, and track the open changes.
+Starting in Xanadu release, the Core UI Change Management dashboard is deprecated. You can use Platform Analytics [Change dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change.md) to view, and track the open changes.
 
 \[Omitted image "change-management.gif"\] Alt text: Animated tour of the tabs of the Change Management dashboard
 
@@ -77,5 +77,5 @@ The following indicators do not appear on the dashboard but are used in formulas
 -   Stage
 -   Type
 
-**Parent Topic:**[Legacy: Change Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-content-pack.md)
+**Parent Topic:**[Legacy: Change Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-content-pack.md)
 

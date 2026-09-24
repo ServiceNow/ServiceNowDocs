@@ -3,9 +3,9 @@ title: Query Generation Health page
 description: The health page shows the state of the Now LLM and AI Search, along with the states of Query Generation system properties, enabled products, and dependency plugins.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/querygen-health-page.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI search, LLM status, semantic layer]
 breadcrumb: [Tuning the semantic layer, Configure, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
@@ -57,7 +57,7 @@ The state of Query Generation skills and the LLMs they use. Also the state of AI
 
 </td><td>
 
-For Query Generation skills, if any are inactive, navigate to AI Admin Hub. Activate skills there as described in [Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/enable-query-generation.md). If you have error messages, contact your Generative AI Controller administrator or Now Support.For AI Search, consult your organization's AI Search administrators.
+For Query Generation skills, if any are inactive, navigate to AI Admin Hub. Activate skills there as described in [Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/enable-query-generation.md). If you have error messages, contact your Generative AI Controller administrator or Now Support.For AI Search, consult your organization's AI Search administrators.
 
 </td></tr><tr><td>
 
@@ -69,7 +69,7 @@ The health of the various Query Generation components
 
 </td><td>
 
-If there are no components present, run the Generate Semantic Layer job.If requests fail with `No entities and dimensions` errors, but the components are present in the entities and dimensions table and active, re-index the components. For more information about keyword and semantic ingestion, see [Indexing content from AI Search indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/indexing-content-ais.md).
+If there are no components present, run the Generate Semantic Layer job.If requests fail with `No entities and dimensions` errors, but the components are present in the entities and dimensions table and active, re-index the components. For more information about keyword and semantic ingestion, see [Indexing content from AI Search indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/indexing-content-ais.md).
 
 </td></tr><tr><td>
 
@@ -108,5 +108,5 @@ The state of relevant system properties that can be modified by an administrator
 Navigate to the Properties \[sys\_properties\] table and change the value of the property in question. Update only the required properties that start with sn\_query\_gen. \*\*
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Tuning the semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/semantic-layer-tuning-overview.md)
+</table>**Parent Topic:**[Tuning the semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/semantic-layer-tuning-overview.md)
 

@@ -3,9 +3,9 @@ title: Create security annotations for users
 description: You can select a single or multiple users and apply security annotations to them using the Actions on selected rows choice menu.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/create-multi-sec-annotations-for-users.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security annotations, Security Operations common functionality, Security Operations]
 ---
@@ -35,7 +35,7 @@ Role required: admin
 5.  Click **Submit**.
 
 
-**Parent Topic:**[Security annotations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-annotations.md)
+**Parent Topic:**[Security annotations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-annotations.md)
 
 **Related topics**  
 

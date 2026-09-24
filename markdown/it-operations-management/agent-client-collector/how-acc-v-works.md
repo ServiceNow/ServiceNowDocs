@@ -3,11 +3,11 @@ title: How Agent Client Collector for Visibility Content works
 description: Agent Client Collector for Visibility Content \(ACC-VC\) requires installation of ServiceNow Agent Client Collector \(ACC\) on the target host. ACC is a derivative of Sensu-Go, an open-source software.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/how-acc-v-works.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Agent Client Collector, Agent Client Collector for Visibility, ACC for Visibility]
 breadcrumb: [Exploring Agent Client Collector, Agent Client Collector, IT Operations Management]
@@ -27,7 +27,10 @@ ACC-VC applies Checks and Policies to schedule and collect host data. ACC-VC is 
 -   Target host cycle: When the target host goes down and comes back up.
 -   Network break: When there is a break in the network link to the target.
 
-**Note:** Discovery is triggered for those agents whose hosts are already present. Agents whose hosts are not present are discovered through ACC-F.
+**Note:**
+
+-   Discovery is triggered for those agents whose hosts are already present. Agents whose hosts are not present are discovered through ACC-F.
+-   Agent Client Connector for AI Control Tower is available on the [ServiceNow Store](https://store.servicenow.com/store/app/b2797538939f8310a0f2fc1d6cba1075). This app is an ACC connector and adds an AI proxy capability that collects AI-based traffic from managed devices, supporting AI Control Tower shadow AI use cases.
 
 ## ACC-VC checks and policies
 
@@ -42,7 +45,7 @@ The ACC-VC Check Definition, **Enhanced Discovery**, is initiated by the Service
 
 During this time, the MID Server also serves any relevant Assets or Plugins that the ACC requests. The MID Server ensures the Assets and Plugins are relevant to the particular Operating System, platform, OS version, and architecture on which the ACC is running.
 
-You can edit and modify all parts of the ACC-VC application including check type, policy, and check definition. See [Checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/checks-policies.md) for more information.
+You can edit and modify all parts of the ACC-VC application including check type, policy, and check definition. See [Checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/checks-policies.md) for more information.
 
 ## Virtual machines and cloud instances
 

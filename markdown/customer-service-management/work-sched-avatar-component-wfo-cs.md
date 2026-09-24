@@ -3,9 +3,9 @@ title: Configure an avatar component for Work scheduler
 description: Use the Container component to add an avatar and the user name of the work item assignee.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/work-sched-avatar-component-wfo-cs.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a Work scheduler card using the Next Experience UI Builder, Setting up Work scheduler, Optimize workforce operations, Extend capabilities, Configure, Customer Service Management]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Create a Work scheduler card using the Next Experience UI Builder, 
 Use the **Container** component to add an avatar and the user name of the work item assignee.
 
 ## Before you begin
+
+**Important:**
+
+Starting with the Brazil release, Work scheduler is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Role required: admin, workspace\_admin, or ui\_builder\_admin​
 
@@ -46,15 +50,15 @@ Role required: admin, workspace\_admin, or ui\_builder\_admin​
 
     The Components pop-up screen appears.
 
-<table id="choicetable_jbw_3mm_ntb"><thead><tr><th align="left" id="d115393e220">
+<table id="choicetable_jbw_3mm_ntb"><thead><tr><th align="left" id="d117992e236">
 
 To
 
-</th><th align="left" id="d115393e223">
+</th><th align="left" id="d117992e239">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d115393e229">
+</th></tr></thead><tbody><tr><td id="d117992e245">
 
 **Add the Avatar component**
 
@@ -67,7 +71,7 @@ In the configure tab, set the size, user name, and tooltip.1.  In the **Size** m
 5.  In the **Tooltip text** menu, type **!@state.cardProps.assignedTo**.
 
 
-</td></tr><tr><td id="d115393e292">
+</td></tr><tr><td id="d117992e308">
 
 **Add the Label Value Tabbed component**
 
@@ -83,5 +87,5 @@ In the configure tab, set the size, and items.1.  In the **Size** menu, select *
 </table>    Here's a demo on how to configure an avatar component for Work scheduler
 
 
-**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-workscheduler-card-wfo-cs.md)
+**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-workscheduler-card-wfo-cs.md)
 

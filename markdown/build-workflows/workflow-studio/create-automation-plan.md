@@ -3,11 +3,11 @@ title: Create an action as an activity automation plan
 description: Create an example action to configure and run as an activity from Playbooks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-automation-plan.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Activity definitions, Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -20,8 +20,8 @@ Create an example action to configure and run as an activity from Playbooks.
 
 Role required:
 
--   This task requires some knowledge of creating flows in Workflow Studio environment. For more information, see [Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md).
--   This task requires some knowledge of server-side scripting. For more information, see [Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ServerScripting.md).
+-   This task requires some knowledge of creating flows in Workflow Studio environment. For more information, see [Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flows.md).
+-   This task requires some knowledge of server-side scripting. For more information, see Server-side scripting.
 -   admin
 
 ## About this task
@@ -115,9 +115,9 @@ You can now add your custom Workflow Studio action to an automation plan for you
 
 ## What to do next
 
-Add your custom action to an automation plan when you [Create an activity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-activity-definition.md).
+Add your custom action to an automation plan when you [Create an activity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-activity-definition.md).
 
-**Parent Topic:**[Activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/activity-definitions.md)
+**Parent Topic:**[Activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/activity-definitions.md)
 
 **Related topics**  
 

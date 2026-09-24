@@ -3,12 +3,12 @@ title: Scoring assessments
 description: Scoring in Smart Assessment Engine is a systematic way to evaluate responses to various questions within an assessment. By attributing scores to answers, you can translate qualitative responses into quantitative data, offering a measurable and comparable outcome for each assessment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/scoring-in-assessments.html
-release: australia
+release: brazil
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Use template designer, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
 
@@ -26,7 +26,7 @@ In Smart Assessment Engine, scoring involves assigning numerical values to respo
 -   For radio question types, you can assign scores to choices and set question weights.
 -   For number question types, the assessor's numeric response is used as the score.
 
-You can also normalize the scores in which raw scores \(the actual score earned on questions\) are transformed into a standardized range or distribution. For more information, refer to [Normalization in assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/normalization-in-assessment.md).
+You can also normalize the scores in which raw scores \(the actual score earned on questions\) are transformed into a standardized range or distribution. For more information, refer to [Normalization in assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/normalization-in-assessment.md).
 
 ## Scoring levels
 
@@ -74,7 +74,7 @@ The following function can be used:
     A weighted average assigns greater importance to values based on their weight. To calculate it, multiply each question, section or subsections score by its weight, sum up the results, and divide by the total weight.
 
 
-After an assessment is completed, scores are calculated and stored at multiple levels, such as assessment, section, subsection, and question, based on the scoring configuration defined in the template. For more information about where scores are stored and how to access them, see [Scoring results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/scoring-results.md).
+After an assessment is completed, scores are calculated and stored at multiple levels. These levels include assessment, section, subsection, and question, based on the scoring configuration defined in the template. For more information about where scores are stored and how to access them, see [Scoring results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/scoring-results.md).
 
 ## Benefits of scoring
 

@@ -2,7 +2,7 @@
 title: Option 2: Using API key
 description: Integrate the ServiceNow instance with your UiPath account using API key to authenticate ServiceNow requests.
 locale: en-US
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2

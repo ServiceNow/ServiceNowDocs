@@ -3,11 +3,11 @@ title: Restrict access
 description: Service Catalog enables an administrator to grant or deny access to a service catalog item or category by company, department, group, user, or location.By default, individual catalog items and categories do not have access restrictions.Service Catalog enables you to control access to a service catalog item or category with a custom script.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_ContrlAccessByCDGUOrLoc.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Legacy service catalog access controls, Service Catalog security, Configuring Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,7 +26,7 @@ Role required: admin
 
 2.  Open the relevant catalog item or category.
 
-3.  [Configure the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) to add the appropriate **Available** or **Not available** lists.
+3.  [Configure the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md) to add the appropriate **Available** or **Not available** lists.
 
     \[Omitted image "AccessControl.png"\] Alt text: access control
 
@@ -35,7 +35,7 @@ Role required: admin
 5.  Click **Update**.
 
 
-**Parent Topic:**[Legacy service catalog access controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_LegcySrvcCatAccessCntrol.md)
+**Parent Topic:**[Legacy service catalog access controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/c_LegcySrvcCatAccessCntrol.md)
 
 ## Restrict access by role
 
@@ -57,7 +57,7 @@ Administrators can grant or deny access to a service catalog item or category ba
 
 3.  Add the required roles to the **Roles** field.
 
-    You can, if needed, [Configure the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) or change to **Default View** to see the **Roles** field.
+    You can, if needed, [Configure the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md) or change to **Default View** to see the **Roles** field.
 
     \[Omitted image "RolesGranted.png"\] Alt text: roles granted
 
@@ -76,7 +76,7 @@ Role required: admin
 
 2.  Open the relevant catalog item or category.
 
-3.  [Configure the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) to add the **Entitlement Script** field.
+3.  [Configure the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md) to add the **Entitlement Script** field.
 
     \[Omitted image "EntitlementScript.png"\] Alt text: entitlement script
 

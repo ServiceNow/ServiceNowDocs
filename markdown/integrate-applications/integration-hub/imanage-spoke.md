@@ -3,7 +3,7 @@ title: iManage Spoke
 description: Automate document, folder, workspace, and user management while enabling seamless collaboration within iManage. This automation solution facilitates tasks such as creating, downloading, uploading, updating, and removing files on iManage directly from the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/imanage-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
@@ -106,5 +106,5 @@ The iManage spoke requires an iManage work account and access to the iManage Con
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up iManage spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-imanage-spoke.md).
+For information about setting up the spoke, see [Set up iManage spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/set-up-imanage-spoke.md).
 

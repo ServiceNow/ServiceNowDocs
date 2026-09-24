@@ -3,9 +3,9 @@ title: Person status form
 description: A person associated with an investigative case can be put in one of several statuses based on how they have responded to the case. The following table outlines the statuses that are available for a person entity when adding that person to a case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/person-status-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Person form, Entity Management forms, Investigative Case Management case forms, Investigative Case Management reference, Reference, Public Sector Digital Services \(PSDS\)]
 ---

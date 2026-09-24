@@ -3,11 +3,11 @@ title: Add a risk event cause to the cause library
 description: A cause library is a centralized library of the possible causes that can lead to a risk event. Adding causes helps to identify the reason for a risk event and prevent future events.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/add-cause.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Risk Events, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -45,10 +45,10 @@ Add a risk event cause to the cause library to help with risk analysis, risk pre
 
 The risk event cause is added to the library.
 
-**Parent Topic:**[Use Risk Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/use-risk-events.md)
+**Parent Topic:**[Use Risk Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/use-risk-events.md)
 
 **Related topics**  
 
 
-[Add a risk event consequence to the consequence library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/add-consequence.md)
+[Add a risk event consequence to the consequence library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/add-consequence.md)
 

@@ -3,9 +3,9 @@ title: Get product recommendations for leads using needs analysis
 description: Choose a needs template from the product selection guide in the product catalog to get product recommendations for sales leads.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/lead-management-use-needs-analysis.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Lead Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -49,14 +49,14 @@ A needs template is a questionnaire that you complete to get product recommendat
     The selected product is added to the lead. The Needs tab displays the needs template that you selected. You can review the needs template and, if needed, change your answers. Different answers might produce different product recommendations.
 
 
-**Parent Topic:**[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-using.md)
+**Parent Topic:**[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/lead-management-using.md)
 
 **Related topics**  
 
 
-[Create a needs template and set the catalog relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-publish-needs-template.md)
+[Create a needs template and set the catalog relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-publish-needs-template.md)
 
-[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-lead-management.md)
+[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-lead-management.md)
 
-[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management.md)
+[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/lead-management.md)
 

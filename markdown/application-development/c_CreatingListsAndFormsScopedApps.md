@@ -3,9 +3,9 @@ title: Lists and forms in scoped applications
 description: The current application context determines what customization and form design options are available when working with lists and forms in scoped applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/c\_CreatingListsAndFormsScopedApps.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Contextual development environment, Learning about developing on the ServiceNow AI Platform, Building applications]
 ---

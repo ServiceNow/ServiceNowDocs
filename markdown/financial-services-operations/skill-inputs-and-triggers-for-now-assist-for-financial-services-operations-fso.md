@@ -3,9 +3,9 @@ title: Skill inputs for ServiceNow Otto for Financial Services Operations \(FSO\
 description: Review the inputs for each skill to see how a skill is used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/skill-inputs-and-triggers-for-now-assist-for-financial-services-operations-fso.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [generative AI for financial services operations skill inputs, generative AI for FSO skill inputs]
 breadcrumb: [Enable AI capabilities, Configure, Financial Services Operations \(FSO\)]

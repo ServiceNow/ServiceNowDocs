@@ -3,12 +3,12 @@ title: Governing AI assets
 description: Manage AI assets across the life cycle using AI Risk and Compliance, with integrated Security and Privacy oversight for risk, compliance, and security.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-governing-ai-assets.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [AI Control Tower, Enable AI experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Governing AI assets
@@ -21,7 +21,7 @@ Deploying AI at enterprise scale introduces regulatory, operational, and reputat
 
 AI Control Tower provides two complementary governance areas, risk and compliance, and security and privacy, that work alongside lifecycle management and approval workflows to support end-to-end AI governance. Each governance area is owned and managed by different teams using different tools, while contributing to a unified governance view in the AI Control Tower workspace.
 
-For more information about how AI Control Tower and AI Risk and Compliance work together across the AI life cycle, see [AI governance life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-gov-lifecycle.md).
+For more information about how AI Control Tower and AI Risk and Compliance work together across the AI life cycle, see [AI governance life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-gov-lifecycle.md).
 
 ## Managing AI risk and compliance
 
@@ -44,7 +44,7 @@ At the individual asset level, the Risk and compliance tab on an AI asset record
 
 AI cases and inquiries provide structured workflows for investigating and resolving governance concerns. Teams can create cases to track violations, risks, or compliance gaps through investigation and remediation. Inquiries support a lighter-weight process for compliance-related clarification requests.
 
-For more information about risk assessment workflows, compliance framework configuration, and governance case management, see [AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-and-compliance.md).
+For more information about risk assessment workflows, compliance framework configuration, and governance case management, see [AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-and-compliance.md).
 
 **Note:** To use AI Risk and Compliance with AI Control Tower, you must install and activate the required applications and plugins. AI Risk and Compliance can be installed as a standalone application from the ServiceNow Store, but life-cycle-driven governance requires integration with AI Control Tower. AI Control Tower is used to register AI systems, models, and datasets and to manage life-cycle progression that triggers risk and compliance assessments, governance tasks, and case workflows.
 

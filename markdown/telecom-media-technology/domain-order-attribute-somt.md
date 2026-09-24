@@ -3,9 +3,9 @@ title: Define domain order attribute mappings
 description: Create rules-driven attribute mappings to define the relationships and associations between and among product, service, and resource specifications, and how attribute values propagate between these mappings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/domain-order-attribute-somt.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Defining attribute mapping, Product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -28,7 +28,7 @@ Attribute propagation enables you to define attribute mappings by setting mappin
 -   Select different characteristics and characteristic options in the source and target specifications, including complex characteristics.
 -   Select a higher-level specification and lower-level specification, or a lower-level specification and a higher-level specification, in a product offering.
 
-**Note:** If you create specification relationships and accompanying decomposition rules, the ServiceNow AI Platform performs the required validations when you attempt to create attribute mappings. These validations ensure that your attribute mappings are unique and don’t adversely impact existing decomposition rules. To learn more about specification relationships and decomposition rules, see [Create specification relationships, quantity mapping, and decomposition rules for Sales CRM for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/create-specification-relationships-somt.md).
+**Note:** If you create specification relationships and accompanying decomposition rules, the ServiceNow AI Platform performs the required validations when you attempt to create attribute mappings. These validations ensure that your attribute mappings are unique and don’t adversely impact existing decomposition rules. To learn more about specification relationships and decomposition rules, see [Create specification relationships, quantity mapping, and decomposition rules for Sales CRM for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/create-specification-relationships-somt.md).
 
 If a decomposition rule depends on an attribute-mapping rule, the order decomposition process can't decompose the order. The process waits for the attribute-mapping rule to provide the characteristic value that is required for order decomposition. The following warning appears when you save a decomposition or an attribute-mapping rule that would cause a dependent relationship with an adverse impact.
 
@@ -135,7 +135,11 @@ Source characteristic that you select.
 
 ## Result
 
+ 
+
 The order fulfillment process evaluates the attribute-mapping rules that you define. The attribute values are propagated from the domain orders that are associated with the source specification to the domain orders that are associated with the target specification.
+
+ 
 
 ## What to do next
 

@@ -3,11 +3,11 @@ title: \(Optional\) Edit the security tag name for Palo Alto Networks Next-Gener
 description: If the Display tag check box is selected when you create the External Dynamic List \(EDL\) record, you can edit the tag names and colors of the security tags. Security tags help you track observables that are already blocked.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/paloalto\_edit\_sectag\_name.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Palo Alto Networks Next-Generation Firewall integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -47,9 +47,9 @@ Security tags help you quickly identify which security incidents have observable
     When an observable is no longer blocked, a security tag is not displayed on the security incident record or the observable record. In this instance, no security tag indicates that the expiration date of the observable may have passed, or the observable has been deactivated from an EDL.
 
 
-**Parent Topic:**[Palo Alto Networks Next-Generation Firewall integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto_integration.md)
+**Parent Topic:**[Palo Alto Networks Next-Generation Firewall integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/paloalto_integration.md)
 
-**Previous topic:**[EDL entry exceptions for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto-edl-execptions.md)
+**Previous topic:**[EDL entry exceptions for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/paloalto-edl-execptions.md)
 
-**Next topic:**[Uninstall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto-unistall.md)
+**Next topic:**[Uninstall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/paloalto-unistall.md)
 

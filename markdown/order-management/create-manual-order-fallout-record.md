@@ -3,9 +3,9 @@ title: Create a manual fallout record
 description: Create a fallout record manually for an order task that has a condition or issue that prevents it from being completed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-manual-order-fallout-record.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing order fallout, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -24,7 +24,7 @@ You can create manual records as needed basis so that you can raise awareness of
 
 ## Procedure
 
-1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
+1.  Navigate to  **Workspaces** &gt; **CRM Workspace** .
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -44,7 +44,7 @@ You can create manual records as needed basis so that you can raise awareness of
 
 10. On the form, fill in the fields.
 
-    For information about field descriptions, see the Create Fallout form fields section in [Field descriptions for Fallout Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/fields-create-fallout-form.md).
+    For information about field descriptions, see the Create Fallout form fields section in [Field descriptions for Fallout Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/fields-create-fallout-form.md).
 
 11. Select **Save**.
 
@@ -56,16 +56,16 @@ When you create a manual fallout record, or an automated one is generated, the f
 -   Its **State** field changes to On hold, with a comment on which logged-in user caused it to change.
 -   In the Activity section, a work order note indicates that the order task state has changed from its former state, usually In Progress, to On hold. A work order note with the message `A fallout record FOnnnn has been created` also appears.
 
-**Parent Topic:**[Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/fallout-management-overview.md)
+**Parent Topic:**[Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/fallout-management-overview.md)
 
 **Related topics**  
 
 
-[Fallout Management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-fallout-management.md)
+[Fallout Management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-fallout-management.md)
 
-[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md)
+[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/flow-designer.md)
 
-[Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flows.md)
+[Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flows.md)
 
-[Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-flow.md)
+[Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-flow.md)
 

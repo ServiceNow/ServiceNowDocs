@@ -3,11 +3,11 @@ title: Complete the Prepare task for an RMA order line
 description: Complete the Prepare task for an RMA order line so that you can proceed with replacing or repairing the given enterprise asset. Alternatively, you can reject the RMA to avoid taking any action on the given enterprise asset.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/complete-rma-assessment.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Closing an RMA order, Return Merchandise Authorization \(RMA\), Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
@@ -161,5 +161,5 @@ The Prepare task automatically closes with an updated state of Closed Complete.
 
 If you set the **RMA type** field to **On-site** or **Off-site**, complete all subsequent replacement or repair tasks to move the RMA order line to the **Completed** stage. If you set the **RMA type** field to **Reject**, the RMA order line automatically moves to the Completed stage, and no further action is required.
 
-**Parent Topic:**[Closing a Return Merchandise Authorization \(RMA\) order for your defective enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/closing-rma-order.md)
+**Parent Topic:**[Closing a Return Merchandise Authorization \(RMA\) order for your defective enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/closing-rma-order.md)
 

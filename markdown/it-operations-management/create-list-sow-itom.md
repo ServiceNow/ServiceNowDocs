@@ -3,9 +3,9 @@ title: Create a list in Service Operations Workspace for ITOM
 description: Customize lists in Service Operations Workspace by creating new lists, changing their order, modifying their content, or deleting lists as needed. This flexibility allows operators to organize information according to their specific requirements, facilitating easier navigation, quicker access to relevant data, and streamlined workflow management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/create-list-sow-itom.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Operations Workspace, Configure, ITOM AIOps, IT Operations Management]
 ---
@@ -40,12 +40,12 @@ Create custom groupings of records listed under the **Lists** tab, such as incid
     -   To begin a new list, select **Create your own.**
 6.  On the form, fill in the fields.
 
-    For more information on the fields, see [Create list fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/forms-filtered-list-sow.md).
+    For more information on the fields, see [Create list fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/forms-filtered-list-sow.md).
 
 7.  Select **Create**.
 
     The list appears in the **My Lists** tab.
 
 
-**Parent Topic:**[Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/workspace-dashboard-use.md)
+**Parent Topic:**[Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/workspace-dashboard-use.md)
 

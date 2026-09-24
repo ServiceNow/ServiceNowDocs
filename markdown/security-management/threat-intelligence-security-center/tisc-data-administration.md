@@ -3,11 +3,11 @@ title: Administer
 description: Use the left navigation to navigate to the Administration module within Threat Intelligence Security Center. View the following modules of TISC data administration to set filtering rules, approval rules, define threat score, and manage notifications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-data-administration.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Threat Intelligence Security Center, Security Operations]
 ---

@@ -3,9 +3,9 @@ title: Add a business actor to a business process activity
 description: You can add an existing business actor to a business process activity in the Enterprise Architecture Workspace, or create a business actor directly from the business process activity record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-add-business-actor-to-business-process-activity.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [business actor, business process activity, enterprise architecture]
 breadcrumb: [Manage business process activities, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
@@ -39,18 +39,18 @@ Role required: sn\_apm.apm\_user
         1.  Select **Add**.
         2.  In the Add business actor window, select the business actor. A suggested relationship type appears in the **Relationship type** field, but you can select a different type from the list, if needed.
         3.  Select **Add**.
-    -   To create a business actor, select **New** and complete the fields on the form. For field descriptions, see [Create a business actor form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-a-new-business-actor-form.md).
+    -   To create a business actor, select **New** and complete the fields on the form. For field descriptions, see [Create a business actor form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-a-new-business-actor-form.md).
 
 ## Result
 
 The business actor appears in the **Business actors** related list for the business process activity.
 
-**Parent Topic:**[Manage business process activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-business-process-activities.md)
+**Parent Topic:**[Manage business process activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-manage-business-process-activities.md)
 
 **Related topics**  
 
 
-[Remove a business actor from a business process activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-remove-business-actor-from-business-process-activity.md)
+[Remove a business actor from a business process activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-remove-business-actor-from-business-process-activity.md)
 
-[View all business process activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-business-process-activities.md)
+[View all business process activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-all-business-process-activities.md)
 

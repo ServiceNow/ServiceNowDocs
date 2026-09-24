@@ -3,11 +3,11 @@ title: Edit version detail form
 description: Add version labels, descriptions, and rollout dates to an Enterprise Modeling and Visualization diagram to improve traceability. This ensures that all stakeholders are aligned on the diagram’s context and timelines.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-edit-version-detail-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Edit version detail form
@@ -20,12 +20,12 @@ Add version labels, descriptions, and rollout dates to an Enterprise Modeling an
 |Version description|A summary of the diagram version that explains the purpose, scope, and changes introduced in the current scope of the diagram.|
 |Planned rollout date|The planned date of implementation of the diagram’s contents.|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-form-field-information.md)
 
 **Related topics**  
 
 
-[Add or edit diagram version details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-or-edit-diagram-version-details.md)
+[Add or edit diagram version details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-add-or-edit-diagram-version-details.md)
 
-[Exploring Enterprise Modeling and Visualization in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling.md)
+[Exploring Enterprise Modeling and Visualization in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-modeling.md)
 

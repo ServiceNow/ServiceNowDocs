@@ -3,11 +3,11 @@ title: Require Minimum and Maximum Password Length
 description: Set minimum and maximum password lengths to avoid compliance issues and reduce the risk of a successful brute force attack
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-set-minimal-password-length.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Authentication, Hardening settings, Platform Security]
 ---
@@ -17,6 +17,8 @@ breadcrumb: [Authentication, Hardening settings, Platform Security]
 Set minimum and maximum password lengths to avoid compliance issues and reduce the risk of a successful brute force attack
 
 Password policies define the requirements for passwords your users create on your instance. The password length must fall within the range accepted by the NIST 800-63B document.
+
+Allowing passwords that are too short increases the risk of an attacker successfully brute forcing passwords. Shorter passwords create significant compliance violations.
 
 Ensure that a password policy is being enforced for each password credential store in use on your instance. Ensure that the password policy mandates a minimum password length of at least 15 characters and maximum password length of at least 64 characters.
 
@@ -30,9 +32,9 @@ For each password credential store record in the Password Reset Credential Store
 
     Navigate to the Password Policy \[password\_policy\] record referenced in the record's **Password policy** field. Ensure that the **Minimum Password Length** field is set to at least 15 and **Maximum Password Length** field is set to at least 64.
 
-3.  Further instructions on configuring a password policy can be in the documentation: [Enable password policies on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/enable-password-policies.md)
+3.  Further instructions on configuring a password policy can be in the documentation: [Enable password policies on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/enable-password-policies.md)
 
-Further instructions on configuring a password policy, see [Enable password policies on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/enable-password-policies.md).
+Further instructions on configuring a password policy, see [Enable password policies on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/enable-password-policies.md).
 
 ## More information
 
@@ -79,7 +81,7 @@ Recommended value
 
 -   The **Enable password policy** field on each Password Reset Credential Stores \[pwd\_cred\_store\] record must be activated\(true\).
 -   The **Minimum Password Length** on the associated Password Policy \[password\_policy\] record must be at least 15.
--   The **Maximum Password Length** on the associated Password Policy \[password\_policy\] record must be at least 64.
+-   The **Maximum Password Length** on the associated Password Policy \[password\_policy\] record must be equal or less than 64.
 
 </td></tr><tr><td>
 
@@ -105,7 +107,7 @@ Category
 
 </td><td>
 
-[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
+[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
 
 </td></tr><tr><td>
 
@@ -115,7 +117,7 @@ Security risk
 
 -   Severity score: 5.9
 -   CVSS score: Medium
--   Security risk details: Allowing passwords that are too short or not long enough could lead to compliance issues and increases the risk of an attacker successfully brute forcing passwords.
+-   Security risk details: Allowing passwords that are too short increases the risk of an attacker successfully brute forcing passwords. Shorter passwords create significant compliance violations.
 
 </td></tr><tr><td>
 
@@ -123,7 +125,7 @@ Functional impact
 
 </td><td>
 
-Instances do not suffer any impact from a minimum password length of 15 or maximum password length of 64.
+Instances don't suffer any impact from a minimum password length of 15 or maximum password length of at least 64.
 
 </td></tr><tr><td>
 
@@ -134,5 +136,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
+</table>**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

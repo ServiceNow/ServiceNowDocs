@@ -3,11 +3,11 @@ title: Create a tool from a REST API
 description: Create a tool from a REST API to expose it to Model Context Protocol \(MCP\) clients from an MCP Server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-a-tool-from-rest-api.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Creating tools, Configure, MCP Server Console, Enable AI experiences]
+breadcrumb: [Creating tools, Configure, MCP Server Console, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Create a tool from a REST API
@@ -112,14 +112,14 @@ One or more servers you want to add your tool to.
 
 ## What to do next
 
-Configure clients to connect to the server and use the tool. For more information, see [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/connect-mcp-server-client.md).
+Configure clients to connect to the server and use the tool. For more information, see [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/connect-mcp-server-client.md).
 
 **Note:** When calling a Scripted REST API tool from a client, you must provide inputs in your request. If a required parameter, such as a record number, a date range, or a filter value, is not present in the request, the tool will not be able to complete the task.
 
-**Parent Topic:**[Creating tools for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/creating-tools-mcp-server.md)
+**Parent Topic:**[Creating tools for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/creating-tools-mcp-server.md)
 
 **Related topics**  
 
 
-[Create a scripted REST API resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/t_CreateAScriptedRESTAPIResource.md)
+[Create a scripted REST API resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/t_CreateAScriptedRESTAPIResource.md)
 

@@ -3,11 +3,11 @@ title: How Usage Insights matches funnels
 description: Learn how Usage Insights matches sequences of pages you anticipate users seeing before they reach a goal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/how-funnels-matched.html
-release: australia
+release: brazil
 product: Usage Insights
 classification: usage-insights
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Conversion funnels, Using Usage Insights, Usage Insights, Platform Analytics]
 ---
@@ -44,5 +44,5 @@ Usage Insights shows all sessions that progress through the funnel for the selec
 
 When filtering by application versions, the analysis shows only the users who performed their first action from the selected version.
 
-**Parent Topic:**[Funnel reports in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/funnel-reports-uxa.md)
+**Parent Topic:**[Funnel reports in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/usage-insights/funnel-reports-uxa.md)
 

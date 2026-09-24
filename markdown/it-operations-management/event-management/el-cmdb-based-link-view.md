@@ -3,13 +3,13 @@ title: Viewing links between alerts in CMDB-based alert groups
 description: View the connections between alerts in alert groups in Express List that were created based on the proximity of Configuration Items \(CIs\) in the Configuration Management Database \(CMDB\). Link View shows how the attributes of the alerts in the group are linked with each other.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/el-cmdb-based-link-view.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Viewing links between alerts in alert groups, Work with alert groups, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Viewing links between alerts in alert groups, Working with alert groups in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Viewing links between alerts in CMDB-based alert groups
@@ -27,7 +27,7 @@ In this sample Link View of a CMDB-based alert group, the dashed line with the n
 **Related topics**  
 
 
-[Viewing links between alerts in alert groups in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/el-link-view.md)
+[Viewing links between alerts in alert groups in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/el-link-view.md)
 
-[View links between alerts in a group in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/view-relationships-between-alerts-in-groups.md)
+[View links between alerts in a group in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/view-relationships-between-alerts-in-groups.md)
 

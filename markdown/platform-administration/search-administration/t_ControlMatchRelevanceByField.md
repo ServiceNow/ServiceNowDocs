@@ -3,11 +3,11 @@ title: Set the relative weight of a field
 description: To improve search results, the Zing search engine assigns to each potential match a numeric score that represents its relevancy to the query.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/t\_ControlMatchRelevanceByField.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-07-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Zing computes document scores using three components, Zing text indexing and search engine, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,7 +18,7 @@ To improve search results, the Zing search engine assigns to each potential matc
 
 ## Before you begin
 
-Text indexing must be enabled for the table containing the fields you want to modify the relative weight for. To learn about enabling text indexing for a table, see [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-single-table-for-indexing.md).
+Text indexing must be enabled for the table containing the fields you want to modify the relative weight for. To learn about enabling text indexing for a table, see [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-single-table-for-indexing.md).
 
 Role required: admin
 
@@ -36,7 +36,7 @@ The following fields have ts\_weight attribute values by default:
 
 When scoring records, Zing compares the relative weights of fields that produced search term matches. For example, if the **Title** field has `ts_weight=50` and the **Description** field has `ts_weight=10`, then a match in **Title** is 5 times as relevant as a match in **Description** and 50 times as relevant as a field without the ts\_weight attribute.
 
-**Note:** To view the complete scoring system, see [Document Scoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_DocumentScoring.md).
+**Note:** To view the complete scoring system, see [Document Scoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/c_DocumentScoring.md).
 
 ## Procedure
 
@@ -65,7 +65,7 @@ When scoring records, Zing compares the relative weights of fields that produced
 
 Once Zing finishes regenerating the text index for the table, search result scoring uses your new relative weights for fields.
 
-**Parent Topic:**[Zing computes document scores using three components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_DocumentScoring.md)
+**Parent Topic:**[Zing computes document scores using three components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/c_DocumentScoring.md)
 
 **Related topics**  
 

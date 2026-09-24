@@ -3,11 +3,11 @@ title: Revise a configuration item using design and assign
 description: Revise a CI \(Configuration Item\) of the connection to update a CI in the Telecommunications Network Inventory application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/revise-a-configuration-item.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Using Design &amp; Assign Network, Use, Telecommunications Network Inventory]
 ---
@@ -28,7 +28,7 @@ Role required: sn\_ni\_core.inventory\_admin
 
 3.  Select the desired change request.
 
-    To create a change request, see [Create a change request from Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create_a_change_request_in_tni.md).
+    To create a change request, see [Create a change request from Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/create_a_change_request_in_tni.md).
 
 4.  Select the **Change Tasks** tab.
 
@@ -46,7 +46,7 @@ Role required: sn\_ni\_core.inventory\_admin
 
 8.  Select **Revise CI** in the **Request type** field and fill other fields.
 
-    To learn more about other fields, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
+    To learn more about other fields, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
 
 9.  Select **Save**.
 
@@ -58,23 +58,23 @@ Role required: sn\_ni\_core.inventory\_admin
 
     **Note:**
 
-    -   To customize the cloning process and the related tables that must be cloned, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/clone-and-revise-a-ci.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/clone-and-revise-a-ci.md).
-    -   The revision data is automatically archived to the revision history archival rule \(Archive Rules → Inventory Revision History Archival Rule\[sn\_ni\_core\_inventory\_revision\_history\]\) table after a period of one year of the CI creation. Subsequently, all data within the archival table is permanently deleted \(ar\_sn\_ni\_core\_inventory\_revision\_history\) after an additional year. Customization can be achieved by modifying the relevant tables.
+    -   To customize the cloning process and the related tables that must be cloned, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/clone-and-revise-a-ci.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/clone-and-revise-a-ci.md).
+    -   The revision data is automatically archived to the revision history archival rule \(Archive Rules → Inventory Revision History Archival Rule\[sn\_ni\_core\_inventory\_revision\_history\]\) table. This archival occurs one year after CI creation. Subsequently, all data within the archival table is permanently deleted \(ar\_sn\_ni\_core\_inventory\_revision\_history\) after an additional year. Customization can be achieved by modifying the relevant tables.
     -   The revision history currently captures only Configuration Item \(CI\) attributes, related data, and CI relationships. To include additional data from other tables, logical connection \(audit\_reference\_tableinfo\_logical\_connection\) and physical connection \(audit\_reference\_tableinfo\_logical\_connection\) system properties can be updated. The format for specifying table and column names within these properties is - table1\_name:column1\_name, table1\_name:column2\_name.
 12. Navigate to a change task and select **Validate Revision** to validate both original and revised CI.
 
     -   Before operationalization, you can validate to track the changes performed on the cloned CIs. If the data isn’t matching with the original CI, the validation fails and a message is displayed that the cloned CI is updated after the cloning.
-    -   To customize the validation process, update the Validate CI Revision action flow. To learn more, see [Customize the Validation of Revision CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/customize-the-validation-of-revision-ci.md).
+    -   To customize the validation process, update the Validate CI Revision action flow. To learn more, see [Customize the Validation of Revision CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/customize-the-validation-of-revision-ci.md).
     -   To skip a field in the validation process, edit \(sn\_ni\_core.revision\_val\_ignore\_fields\_logical\_connection\) table for logical connection CIs and \(sn\_ni\_core.revision\_val\_ignore\_fields\_physical\_connection\) table for physical connection CIs.
 
 ## What to do next
 
-You can update the cloned CI and operationalize the CIs. To learn more about operationalization, see [Operationalize a configuration item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/operationalize-a-configuration-item.md).
+You can update the cloned CI and operationalize the CIs. To learn more about operationalization, see [Operationalize a configuration item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/operationalize-a-configuration-item.md).
 
-**Parent Topic:**[Instantiating your network inventory by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md)
+**Parent Topic:**[Instantiating your network inventory by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md)
 
 **Related topics**  
 
 
-[Revision, operationalization, and decommission of a Configuration Item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/revision-of-a-confiuguration-item.md)
+[Revision, operationalization, and decommission of a Configuration Item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/revision-of-a-confiuguration-item.md)
 

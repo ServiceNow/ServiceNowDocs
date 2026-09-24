@@ -3,11 +3,11 @@ title: ACL debugging tools
 description: Field level debugging and access ACL rule output messages are available to help you troubleshoot and debug ACLs. The ACL configuration watcher lets you know what related ACLs exist when you modify one.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/c\_AccessControlRulesDebug.html
-release: australia
+release: brazil
 product: Access Control
 classification: access-control
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Advanced ACL configuration, Access Control Lists \(ACLs\), Access Management]
 ---
@@ -105,7 +105,7 @@ A brief summary of processors and scripts, followed by ACL results for each tabl
 
 This is available starting with the Istanbul release.
 
--   Roles: Verification that the user has the correct role.
+-   Roles: Verification that the user has the correct role.If none of the roles on the ACL exist on the instance, the ACL doesn't allow access.
 -   Condition: Verification that the user passed the condition specified on the ACL rule \(if any\).
 -   Script: Verification that the user passed the script specified on the ACL rule \(if any\).
 

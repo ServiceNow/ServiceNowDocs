@@ -3,11 +3,11 @@ title: Manage workflow activity conditions
 description: Activities contain default conditions that determine which transitions are followed.The result value specified by an activity controls the condition through which the activity transitions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/workflow-activities/t\_ManageActivityConditions.html
-release: australia
+release: brazil
 product: Workflow Activities
 classification: workflow-activities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workflow activities, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -84,7 +84,7 @@ Skip during generate
 
 </td><td>
 
-If selected, the [**Generate** activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/r_Generate.md) does not follow this transition to generate approvals or tasks.
+If selected, the [**Generate** activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/workflow-activities/r_Generate.md) does not follow this transition to generate approvals or tasks.
 
 </td></tr></tbody>
 </table>3.  Click **Submit**.

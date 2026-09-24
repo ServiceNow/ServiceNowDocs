@@ -3,11 +3,11 @@ title: View PaCE policies associated with a tag
 description: You can view the PaCE policies that have been assigned to a specific tag. All tags together with their associated policies can be viewed in the All Tags table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-view-tags.html
-release: australia
+release: brazil
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage PaCE tags, Manage categories and tags, Administer PaCE policies, Policy as Code Engine \(PaCE\), Extend ServiceNow AI Platform capabilities]
 ---

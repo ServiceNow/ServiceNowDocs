@@ -3,9 +3,9 @@ title: Modify or delete time worked entries for cases or activities
 description: Agents can modify and delete existing time worked entries and create new entries after a time sheet has been approved.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/cust-service-agent-modify-time.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Time recording for Customer Service Management, Agent management, Use, Customer Service Management]
 ---

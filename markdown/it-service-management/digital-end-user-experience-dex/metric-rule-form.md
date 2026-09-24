@@ -1,20 +1,20 @@
 ---
-title: Metric rules page
-description: The metric rules page shows information about a specific rule, including its name, CI type, application name, alert severity, and alert status.
+title: Alert rules page
+description: The alert rules page shows information about a specific rule, including its name, app type, rule type, application name, alert severity, and alert status.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/metric-rule-form.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Administration cards, DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Service Management]
 ---
 
-# Metric rules page
+# Alert rules page
 
-The metric rules page shows information about a specific rule, including its name, CI type, application name, alert severity, and alert status.
+The alert rules page shows information about a specific rule, including its name, app type, rule type, application name, alert severity, and alert status.
 
 <table id="table_oz5_gmw_d1c"><thead><tr><th>
 
@@ -34,11 +34,19 @@ Name of the metric rule.
 
 </td></tr><tr><td>
 
-Type
+App type
 
 </td><td>
 
 CI type, such as Saas/web, installed, or device, to which the metric rule is applied.
+
+</td></tr><tr><td>
+
+Rule type
+
+</td><td>
+
+Alert rule type, such as metric or event.
 
 </td></tr><tr><td>
 
@@ -70,7 +78,7 @@ Action
 
 </td><td>
 
-Alert action for the metric rule that triggers the remedial action for the alert.
+Alert action for the alert rule that triggers the remedial action for the alert.
 
 </td></tr><tr><td>
 
@@ -78,10 +86,10 @@ Updated
 
 </td><td>
 
-Date and time when the metric rule is last updated.
+Date and time when the alert rule was last updated.
 
 </td></tr></tbody>
-</table>To return to the metric rules page, see [Using metric rules for Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/metric-rules.md).
+</table>To return to the alert rules page, see [Using alert rules for Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/metric-rules.md).
 
-**Parent Topic:**[Administration cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/administration-cards.md)
+**Parent Topic:**[Administration cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/administration-cards.md)
 

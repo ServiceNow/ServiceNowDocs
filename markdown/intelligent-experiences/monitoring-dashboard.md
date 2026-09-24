@@ -3,12 +3,12 @@ title: Monitoring dashboard
 description: Explore MCP Server monitoring dashboard to review the performance and usage of the MCP servers and tools in a specific time frame.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/monitoring-dashboard.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Monitoring MCP server dashboard]
-breadcrumb: [Configure, MCP Server Console, Enable AI experiences]
+breadcrumb: [Configure, MCP Server Console, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Monitoring dashboard
@@ -23,15 +23,13 @@ Role required: sn\_mcp\_server.viewer
 
 Review the successes, failures, throttling incidents, and denial events associated with servers and tools for the specified time period. This enables a detailed understanding of performance metrics and issues encountered.
 
-**Important:** The minimum version required is Australia patch 6 or Brazil patch 0.
-
 ## Procedure
 
 1.  Navigate to **Admin** &gt; **MCP Server Console** &gt; **Configuration** &gt; **Monitoring**.
 
 2.  Track the tools call volume and outcomes across your MCP servers.
 
-    \[Omitted image "mcp-server-monitoring.png"\] Alt text: MCP server monitoring dashboard
+    \[Omitted image "image.mcp-server-monitoring"\] Alt text: MCP server monitoring dashboard
 
 3.  Choose to view the tools or server data.
 
@@ -46,5 +44,5 @@ Review the successes, failures, throttling incidents, and denial events associat
 5.  You can also turn on the **Show per-server details** to sort and view server-wise tools data.
 
 
-**Parent Topic:**[Configuring MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-mcp-server-console.md)
+**Parent Topic:**[Configuring MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-mcp-server-console.md)
 

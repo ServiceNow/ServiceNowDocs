@@ -3,11 +3,11 @@ title: Strategic Portfolio Management for Telecommunications
 description: The Strategic Portfolio Management for Telecom is a product that inherits all features of Strategic Portfolio Management along with the addition of two templates for Fiber Rollout and 5G Projects.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/strategic-portfolio-management-for-telecom/spmt-overview.html
-release: australia
+release: brazil
 product: Strategic Portfolio Management for Telecom
 classification: strategic-portfolio-management-for-telecom
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Telecommunications, Media, and Technology \(TMT\)]
 ---

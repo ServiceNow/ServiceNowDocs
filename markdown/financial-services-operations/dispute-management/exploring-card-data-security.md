@@ -3,11 +3,11 @@ title: Exploring Card Data Security
 description: Learn more about Card Data Security and how it can be used to tokenize sensitive card data, display and mask Primary Account Numbers \(PANs\), and manage sensitive attachments for Dispute Cases and Dispute Transactions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/exploring-card-data-security.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [card data security overview, pci dss compliance, payment card industry data security standard, tokenization, detokenization, dispute workflow security, passthrough integration, cardholder data protection, pci compliant vault, card data security features, secure payment card data]
 breadcrumb: [Card Data Security, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
@@ -186,7 +186,7 @@ Agents use Card Data Security to view and reveal PANs in a transaction for a car
 
 To learn more about configuring Card Data Security, see:
 
--   [Configuring Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/configuring-card-data-security.md)
--   [Managing Card data security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/managing-card-data-security.md)
--   [Card Data Security Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/card-data-security-reference.md)
+-   [Configuring Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/configuring-card-data-security.md)
+-   [Managing Card data security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/managing-card-data-security.md)
+-   [Card Data Security Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/card-data-security-reference.md)
 

@@ -3,12 +3,12 @@ title: Custom Application record form
 description: The Custom Application form enables you to add or modify information about a custom application to define its behavior.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/application-record-field-descriptions.html
-release: australia
+release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: reference
-last_updated: "2026-06-03"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Reference, ServiceNow Studio, Developing your application, Building applications]
 ---
 
@@ -50,7 +50,7 @@ Scope
 
 </td><td>
 
-\[Read Only\] Displays the unique application scope set during the creation process. You can change this value only by deleting and recreating the application with a new value. For more information about the protections offered, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md).
+\[Read Only\] Displays the unique application scope set during the creation process. You can change this value only by deleting and recreating the application with a new value. For more information about the protections offered, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationScope.md).
 
 </td></tr><tr><td>
 
@@ -58,7 +58,7 @@ Application administration
 
 </td><td>
 
-Select whether to protect sensitive application data by restricting how users acquire application-specific roles. See [Application administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-administration.md).
+Select whether to protect sensitive application data by restricting how users acquire application-specific roles. See [Application administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/application-administration.md).
 
 </td></tr><tr><td>
 
@@ -78,7 +78,7 @@ JavaScript Mode
 
 </td><td>
 
-The JavaScript standard that the application supports. Select **ECMAScript 2021 \(ES12\)** to support features in ECMAScript 12th edition or **ES5 Standards Mode** to support features in ECMAScript 5th edition. Select **Compatibility Mode** to support earlier ECMAScript editions. For more information, see [Set the JavaScript mode for an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/set-javascript-mode-application.md).
+The JavaScript standard that the application supports. Select **ECMAScript 2021 \(ES12\)** to support features in ECMAScript 12th edition or **ES5 Standards Mode** to support features in ECMAScript 5th edition. Select **Compatibility Mode** to support earlier ECMAScript editions. For more information, see [Set the JavaScript mode for an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/set-javascript-mode-application.md).
 
 </td></tr><tr><td>
 
@@ -122,7 +122,7 @@ Subscription model
 
 </td><td>
 
-Not applicable for ServiceNow customers who build custom applications for their own use. Used only by partners who sell and monitor the usage of resellable applications on the ServiceNow Store.Specifies how the Subscription Management application tracks usage. See [Types of subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/types-subscription-v2.md).
+Not applicable for ServiceNow customers who build custom applications for their own use. Used only by partners who sell and monitor the usage of resellable applications on the ServiceNow Store.Specifies how the Subscription Management application tracks usage. See [Types of subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/types-subscription-v2.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -134,7 +134,7 @@ Menu
 
 </td><td>
 
-Select the application menu where you want to display modules. For more information about menus and modules, see [Create an application menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-app-navigator-category.md).
+Select the application menu where you want to display modules. For more information about menus and modules, see [Create an application menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/test-steps-app-navigator-category.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -146,7 +146,7 @@ User role
 
 </td><td>
 
-Select the user role required to access the application menu. For more information about user roles, see [Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateARole.md) [Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateARole.md).
+Select the user role required to access the application menu. For more information about user roles, see [Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateARole.md) [Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateARole.md).
 
 </td></tr><tr><td>
 
@@ -186,7 +186,7 @@ Dependencies
 
 </td><td>
 
-View or add tables or applications on which this application depends. The system automatically adds records to this list when you extend tables or when another application creates application files for this application. Add script-based dependencies. See [Dependencies for custom applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationDependencies.md).
+View or add tables or applications on which this application depends. The system automatically adds records to this list when you extend tables or when another application creates application files for this application. Add script-based dependencies. See [Dependencies for custom applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationDependencies.md).
 
 </td></tr><tr><td>
 
@@ -194,7 +194,7 @@ Cross scope privileges
 
 </td><td>
 
-View or create cross-scope privilege records to determine which script operations and targets the system allows to run. See [Cross-scope privilege record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_CrossScopePrivilegeRecord.md).
+View or create cross-scope privilege records to determine which script operations and targets the system allows to run. See [Cross-scope privilege record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_CrossScopePrivilegeRecord.md).
 
 </td></tr><tr><td>
 
@@ -202,8 +202,8 @@ Design Access
 
 </td><td>
 
-View or specify which other applications have design access to tables or records in this application. See [Application design access record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationDesignAccessRecord.md).
+View or specify which other applications have design access to tables or records in this application. See [Application design access record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationDesignAccessRecord.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-reference.md)
+</table>**Parent Topic:**[ServiceNow Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/servicenow-studio-reference.md)
 

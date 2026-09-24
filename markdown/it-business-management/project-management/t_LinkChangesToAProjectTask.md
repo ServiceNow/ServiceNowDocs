@@ -3,11 +3,11 @@ title: Link change requests to a project task
 description: Link change requests to tasks on the Project Task form. You can link change requests only to project tasks that have no child tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_LinkChangesToAProjectTask.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a project task from a project, Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -50,10 +50,10 @@ You can link any change request record to a project task, regardless of the chan
 
 On the Project Task form, a notification appears at the top specifying that the task is linked to one or more change requests.
 
-**Parent Topic:**[Create a project task from a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateATaskFromAProject.md)
+**Parent Topic:**[Create a project task from a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CreateATaskFromAProject.md)
 
 **Related topics**  
 
 
-[Change requests and project tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ChangeRequestsAndProjectTasks.md)
+[Change requests and project tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_ChangeRequestsAndProjectTasks.md)
 

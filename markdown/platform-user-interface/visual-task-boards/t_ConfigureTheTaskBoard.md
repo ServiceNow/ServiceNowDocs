@@ -3,13 +3,13 @@ title: Customize the look and feel of a task board
 description: By default, the visual task board inherits the look-and-feel from the user's Theme preference. You can, however, configure several options in the Visual Task Boards to customize the look-and-feel of the board.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/t\_ConfigureTheTaskBoard.html
-release: australia
+release: brazil
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Customizing and configuring Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Customizing and configuring Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Customize the look and feel of a task board
@@ -133,12 +133,12 @@ SLA status indicators appear on cards and alerts appear when one or more card ha
     This setting is a user preference.
 
 
-**Parent Topic:**[Customizing and configuring Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/configuring-vis-task-boards.md)
+**Parent Topic:**[Customizing and configuring Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/visual-task-boards/configuring-vis-task-boards.md)
 
 **Related topics**  
 
 
-[Visual Task Board tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/task-board-tools.md)
+[Visual Task Board tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/visual-task-boards/task-board-tools.md)
 
-[Add or remove a Visual Task Board member](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/t_AddOrRemoveATaskBoardMember.md)
+[Add or remove a Visual Task Board member](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/visual-task-boards/t_AddOrRemoveATaskBoardMember.md)
 

@@ -1,18 +1,19 @@
 ---
-title: Roles installed with AI Risk and Compliance
+title: Roles and responsibilities
 description: The AI Risk and Compliance installs the essential roles to perform respective day-to-day operational tasks for managing AI assets across the enterprise.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/roles-installed-with-ai-risk-and-compliance.html
-release: australia
+release: brazil
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+keywords: [roles installed, AI Risk and Compliance roles, user roles]
 breadcrumb: [Reference, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
-# Roles installed with AI Risk and Compliance
+# Roles and responsibilities
 
 The AI Risk and Compliance installs the essential roles to perform respective day-to-day operational tasks for managing AI assets across the enterprise.
 
@@ -139,7 +140,7 @@ The ​AI Risk and Compliance User can perform the following tasks:-   Create AI
 -   sn\_smart\_asmt.assessment\_reader
 -   sn\_risk\_advanced.risk\_asmt\_project\_reader
 
-**Note:** For more information on AI Control Tower roles, see [AI Control Tower roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/roles-installed-with-ai-control-tower.md).
+**Note:** For more information on AI Control Tower roles, see [AI Control Tower roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/roles-installed-with-ai-control-tower.md).
 
 </td></tr><tr><td>
 
@@ -230,6 +231,55 @@ The AI Case Admin can manage type profiles to segregate AI cases. They can set u
 -   sn\_grc\_case\_mgmt.grc\_case\_admin
 -   sn\_ai\_case\_mgmt.ai\_case\_manager
 
+</td></tr><tr><td>
+
+AI Risk and Compliance AI Agent User
+
+ \[sn\_airc\_gen\_ai.airc\_ai\_agent\_user\]
+
+</td><td>
+
+The AI Risk and Compliance Agent User can report issues and execute and orchestrate the AI agents as part of the lifecycle. The user can perform the following tasks:-   Report a GRC issue.
+-   Perform issue summarization.
+-   Perform risk assessment summarization
+-   Respond to smart assessments with Now Assist
+-   Perform common control objective creation
+-   Act on recommendation for similar control objectives
+
+**Note:** This role must be manually assigned to an user.
+
+</td><td>
+
+-   sn\_airc\_gen\_ai.airc\_ai\_user
+-   now\_assist\_panel\_user
+-   sn\_grc\_genai.issue\_ai\_agent\_user
+
+ **Note:** This role is applicable only for AICT Foundation.
+
+</td></tr><tr><td>
+
+AI Risk and Compliance AI User
+
+ \[sn\_airc\_gen\_ai.airc\_ai\_user\]
+
+</td><td>
+
+The AI Risk and Compliance User can execute GenAI skills for the following tasks:-   Perform issue summarization.
+-   Perform risk assessment summarization
+-   Respond to smart assessments with Now Assist
+-   Perform common control objective creation
+-   Act on recommendation for similar control objectives
+
+**Note:** This role must be manually assigned to an user.
+
+</td><td>
+
+-   sn\_grc\_sharegenai.compliance\_library\_gen\_ai\_user.
+-   sn\_grc\_genai.issue\_user
+-   sn\_grc\_sharegenai.risk\_asmt\_user
+
+ **Note:** This role is applicable only for AICT Foundation.
+
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Risk and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-reference.md)
+</table>**Parent Topic:**[AI Risk and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-reference.md)
 

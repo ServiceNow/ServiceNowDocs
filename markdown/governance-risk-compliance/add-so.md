@@ -3,9 +3,9 @@ title: Add a service offering to Operational Resilience reporting
 description: Add a service offering to Operational Resilience reporting.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-so.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Gathering data aligned with the CSDM setup, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -32,7 +32,7 @@ Beginning with Operational Resilience, Release 21.0.x, records in the Services, 
     -   Business Services
     -   Service Offerings
     -   Business Process
-2.  To add a service offering to the Operational Resilience application, select **New** in the Service offerings list view and fill in the details regarding the service offering on the [Create an offering form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-offering-form.md).
+2.  To add a service offering to the Operational Resilience application, select **New** in the Service offerings list view and fill in the details regarding the service offering on the [Create Offering form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-new-offering-form.md).
 
 3.  Select **Save**.
 

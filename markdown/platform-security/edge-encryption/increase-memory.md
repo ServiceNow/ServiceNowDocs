@@ -3,11 +3,11 @@ title: Set the proxy server initial memory limit and upper bound memory limit
 description: Set the initial memory limit and upper bound memory limit to specify how much memory the proxy server can consume. Set these limits to avoid performance issues in your Edge Encryption implementation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/increase-memory.html
-release: australia
+release: brazil
 product: Edge Encryption
 classification: edge-encryption
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Install the Edge Encryption proxy server using the command line installer, Installing Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -91,11 +91,11 @@ wrapper.java.additional.5 = -Xmx6144m
 
 ## What to do next
 
-[Start the Edge Encryption proxy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/t_RuntheProxy.md).
+[Start the Edge Encryption proxy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/t_RuntheProxy.md).
 
-**Parent Topic:**[Install the Edge Encryption proxy server using the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/manual-proxy-install.md)
+**Parent Topic:**[Install the Edge Encryption proxy server using the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/manual-proxy-install.md)
 
-**Previous topic:**[Configure a web proxy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/t_SetUpWebProxyProperties.md)
+**Previous topic:**[Configure a web proxy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/t_SetUpWebProxyProperties.md)
 
-**Next topic:**[Start the Edge Encryption proxy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/t_RuntheProxy.md)
+**Next topic:**[Start the Edge Encryption proxy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/t_RuntheProxy.md)
 

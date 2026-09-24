@@ -3,9 +3,9 @@ title: Migrated components
 description: When you migrate a survey, the system maps records from survey tables to assessment tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_MigratedComponents.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Legacy survey migration, Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -70,7 +70,7 @@ Survey response \[survey\_response\]
 -   Category result \[asmt\_category\_result\], for system use only
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legacy survey migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MigrateSurveys.md)
+</table>**Parent Topic:**[Legacy survey migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_MigrateSurveys.md)
 
 **Related topics**  
 

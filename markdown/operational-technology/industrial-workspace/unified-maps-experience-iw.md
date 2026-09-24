@@ -3,11 +3,11 @@ title: Operational Technology Unified Map experience in the Industrial Workspace
 description: The Operational Technology \(OT\) Unified Map available in the Industrial Workspace provides a unified experience to view the relationships between devices and other configuration items \(CIs\), and view related items, like OT incidents and change requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/unified-maps-experience-iw.html
-release: australia
+release: brazil
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Industrial Workspace, Operational Technology]
 ---
@@ -89,9 +89,9 @@ Changes \[Omitted image "changes-unified-map.png"\] Alt text:
 History of changes made to the Unified Map.
 
 </td></tr></tbody>
-</table>For more information about configuring the OT Unified Maps experience, see [Setting up the Operational Technology Unified Map experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/setting-up-unified-maps-experience.md).
+</table>For more information about configuring the OT Unified Maps experience, see [Setting up the Operational Technology Unified Map experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/setting-up-unified-maps-experience.md).
 
-For more information about viewing an OT Unified Map, see [View an Operational Technology Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/view-ot-unified-map.md).
+For more information about viewing an OT Unified Map, see [View an Operational Technology Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/view-ot-unified-map.md).
 
-**Parent Topic:**[Exploring the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/exploring-industrial-workspace.md)
+**Parent Topic:**[Exploring the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/exploring-industrial-workspace.md)
 

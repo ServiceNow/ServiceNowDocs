@@ -3,11 +3,11 @@ title: Publish a custom integration profile
 description: Publish a custom integration profile to complete the custom integration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/saas-license-management/publish-integration-custom.html
-release: australia
+release: brazil
 product: SaaS License Management
 classification: saas-license-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SaaS License Connections, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -51,7 +51,7 @@ Role required: sam\_integrator
 
 Reclamation rules and stale user reclamation candidates are created automatically after the integration is connected. User subscriptions and reclamation candidates are refreshed daily.
 
-It's important that you review all automatically generated reclamation rules to ensure that they meet your specifications for reclaiming user subscriptions. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
+It's important that you review all automatically generated reclamation rules to ensure that they meet your specifications for reclaiming user subscriptions. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
-Create software entitlements for the automatically generated software models to track software used against software owned. For more information, see [Create entitlements in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md).
+Create software entitlements for the automatically generated software models to track software used against software owned. For more information, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/track-software-rights.md).
 

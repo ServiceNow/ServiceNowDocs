@@ -3,11 +3,11 @@ title: Inserting multiple records using insertMultiple
 description: You can insert multiple records in one SOAP request by using the insertMultiple operation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/r\_InsertingMultipleRecords.html
-release: australia
+release: brazil
 product: System Import Sets
 classification: system-import-sets
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Web service import sets, Import sets, Imports, Workflow Data Fabric]
 ---
@@ -22,5 +22,5 @@ The insertMultiple operation is available for the Direct Web Service API and Web
 
 **Note:** Activating this plugin adds a new operation to the SOAP WSDL. After this plugin is activated, consume a new WSDL to update your web services client.
 
-**Parent Topic:**[Web service import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_WebServiceImportSets.md)
+**Parent Topic:**[Web service import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/c_WebServiceImportSets.md)
 

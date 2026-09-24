@@ -3,11 +3,11 @@ title: Announcements widget
 description: Users can view all active announcements. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/announcements-widget.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Example widgets, Widget library, Using portal widgets, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Example widgets, Widget library, Using portal widgets, Configuring 
 
 Users can view all active announcements. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 
-This widget lists the active announcements for a portal from the Announcement \[announcement\] table. To see the list of active announcements, navigate to **All** &gt; **Service Portal** &gt; **Announcements**. For information about creating announcements, see [Create an announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/create-announcement.md).
+This widget lists the active announcements for a portal from the Announcement \[announcement\] table. To see the list of active announcements, navigate to **All** &gt; **Service Portal** &gt; **Announcements**. For information about creating announcements, see [Create an announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/create-announcement.md).
 
 \[Omitted image "announcement-widget.png"\] Alt text:
 
@@ -87,7 +87,7 @@ View All Page
 
 </td><td>
 
-Select target for **View all** link. The **View all** link only displays when: -   There are more announcements than can be displayed on a single page. The **Max Records** field defines the number of records displayed per page.
+Click target for **View all** link. The **View all** link only displays when: -   There are more announcements than can be displayed on a single page. The **Max Records** field defines the number of records displayed per page.
 -   A view all page is defined.
 
 </td></tr><tr><td>
@@ -96,10 +96,10 @@ Who Can View Instances \| Who Cannot View Instances
 
 </td><td>
 
-Control who can and cannot view a widget instance with [user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/user-criteria.md). This option appears when user criteria for the Service Portal is activated.
+Control who can and cannot view a widget instance with [user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/user-criteria.md). Only visible if user criteria for the Service Portal is activated.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
+</table>**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
 
 **Related topics**  
 

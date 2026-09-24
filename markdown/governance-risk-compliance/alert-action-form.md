@@ -3,9 +3,9 @@ title: Alert Action form
 description: Use the Alert Action form in BCM UIB Workspace to add details about the alert actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/alert-action-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure alert actions, Setup for Crisis map, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -147,5 +147,5 @@ Task script
 Task script to be executed when the user selects an action control on the dashboard.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure alert actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-alert-action-uib-ws.md)
+</table>**Parent Topic:**[Configure alert actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/configure-alert-action-uib-ws.md)
 

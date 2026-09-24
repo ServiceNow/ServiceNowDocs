@@ -3,9 +3,9 @@ title: Crisis events
 description: Managing a crisis event in BCM UIB Workspace helps you to minimize the downtime of critical business functions and processes across your organization. It is also used to minimize the financial, reputation, legal, and regulatory impact during a crisis event.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/crisis-management-uib.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -27,15 +27,15 @@ Creating a crisis event includes these steps:
 
 ## Creating a crisis event in Business Continuity Workspace
 
-If you are the BCM program manager, you can create a crisis event in Business Continuity Workspace by using one of the options:
+if you are the BCM program manager, you can create a crisis event in Business Continuity Workspace by using one of the options:
 
 -   You can navigate to the **Crisis events** tab in the Home page and select **Report crisis** as shown in the example.
 
     \[Omitted image "crisis-events-homepage.png"\] Alt text: Crisis events tab in the Home page.
 
-    For the description of the cards and action buttons in the **Crisis events** tab of the Home page, see [Home page view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/home-page-uib-ws.md).
+    For the description of the cards and action buttons in the **Crisis events** tab of the Home page, see [Home page view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/home-page-uib-ws.md).
 
 -   You can also navigate to the List view and select **New** in the Crisis events records.
 
-To create a crisis event in Business Continuity Workspace, see [Structured workflows for Crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/perform-tasks-to-manage-crisis-events.md).
+To create a crisis event in Business Continuity Workspace, see [Structured workflows for crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/perform-tasks-to-manage-crisis-events.md).
 

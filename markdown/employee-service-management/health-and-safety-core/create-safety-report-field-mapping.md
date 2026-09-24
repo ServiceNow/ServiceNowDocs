@@ -3,11 +3,11 @@ title: Create a safety report field mapping for generating reports
 description: Create a safety report field mapping to map fields in your reporting PDF template to the corresponding fields in the Health and Safety records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-core/create-safety-report-field-mapping.html
-release: australia
+release: brazil
 product: Health and Safety Core
 classification: health-and-safety-core
 topic_type: task
-last_updated: "2026-08-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configure, Health and Safety Core, Health and Safety, Employee Service Management]
 ---
@@ -19,7 +19,7 @@ Create a safety report field mapping to map fields in your reporting PDF templat
 ## Before you begin
 
 -   The imported reporting PDF template, that you want to create the mapping for, must be fillable.
--   The Health and Safety table to be mapped is enabled for report field mapping. For more information, see [Enable a Health and Safety table for configuring report field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/enable-hs-table-report-field-mapping.md).
+-   The Health and Safety table to be mapped is enabled for report field mapping. For more information, see [Enable a Health and Safety table for configuring report field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-core/enable-hs-table-report-field-mapping.md).
 
 Role required: sn\_ohs\_im.report\_mapping\_manager
 
@@ -45,7 +45,7 @@ The report field mapping enables you to do the following:
     -   To review an existing one, open the one that you want to configure.
 5.  On the form, fill in the fields.
 
-    For information on form field descriptions, see [Health and Safety report field mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/hs-report-field-mapping-form.md).
+    For information on form field descriptions, see [Health and Safety report field mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-core/hs-report-field-mapping-form.md).
 
 6.  Select **Save**.
 
@@ -55,15 +55,15 @@ The report field mapping enables you to do the following:
 
     **Tip:** In the PDF preview, select a fillable field to highlight the corresponding field in the Field Mappings list. Alternatively, select a field in the Field Mappings list and it’s highlighted on the PDF preview.
 
-<table id="choicetable_u34_hz2_2bc"><thead><tr><th align="left" id="d71623e213">
+<table id="choicetable_u34_hz2_2bc"><thead><tr><th align="left" id="d71398e213">
 
 Option
 
-</th><th align="left" id="d71623e216">
+</th><th align="left" id="d71398e216">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d71623e222">
+</th></tr></thead><tbody><tr><td id="d71398e222">
 
 **Using the Health and Safety field list**
 
@@ -71,9 +71,9 @@ Steps
 
 In the list available with each field name, select a Health and Safety field to map to.The list displays fields from the selected Health and Safety mapping table.
 
-However, dot-walk fields are also available to select from the field mapping list to map further reference fields. For information on dot-walking, see [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_DotWalking.md).
+However, dot-walk fields are also available to select from the field mapping list to map further reference fields. For information on dot-walking, see [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_DotWalking.md).
 
-</td></tr><tr><td id="d71623e248">
+</td></tr><tr><td id="d71398e248">
 
 **Using a custom script**
 
@@ -106,10 +106,10 @@ Each mapping can be scripted using the script capability on each field. It enabl
 ## Result
 
 -   The fields in the imported reporting PDF template are mapped to the fields in the selected mapping table.
--   The published report field mapping is available to select during a report generation in the mapped safety table records. For example, see [Generate a report for a safety incident, observation, or injury](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/generate-report-safety-incident-obsv-injury.md).
+-   The published report field mapping is available to select during a report generation in the mapped safety table records. For example, see [Generate a report for a safety incident, observation, or injury](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-incident-management/generate-report-safety-incident-obsv-injury.md).
 -   If you added report field mapping configurations for any related lists, the related lists are included in the generated report as a separated report.
 
-**Parent Topic:**[Setting up Health and Safety Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/setting-up-hs-core.md)
+**Parent Topic:**[Setting up Health and Safety Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-core/setting-up-hs-core.md)
 
 **Related topics**  
 

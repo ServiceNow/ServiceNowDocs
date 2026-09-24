@@ -3,11 +3,11 @@ title: Configure the duration to view the requester's activities for an interact
 description: Configure the duration to display requester’s history, consisting of tasks, interactions, and assets. These details are displayed in the Requester Information side panel of Interaction Management record
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-days-display-data.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Interaction Management in Service Operations Workspace, Configuring Service Operations Workspace for ITSM to improve your experience, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -33,5 +33,5 @@ Role required: admin
 4.  Select **Update**.
 
 
-**Parent Topic:**[Configuring Interaction Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configure-interaction-management-sow.md)
+**Parent Topic:**[Configuring Interaction Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configure-interaction-management-sow.md)
 

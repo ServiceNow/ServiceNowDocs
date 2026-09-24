@@ -3,11 +3,11 @@ title: Using distribution costs and rules
 description: Distribution Costs are costs which can be divided among a group of records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/cost-management/r\_UsingDistributionCostsAndRules.html
-release: australia
+release: brazil
 product: Cost Management
 classification: cost-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Cost Management, Strategic Portfolio Management]
 ---
@@ -39,8 +39,8 @@ To define new distribution costs, navigate to **Financial Management** &gt; **Co
 |Last Processed|A read-only display of the last time the distribution cost was processed.|
 |Next Process|A read-only display of the scheduled next process date.|
 
--   **[Defining distribution rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/r_DefiningDistributionRules.md)**  
+-   **[Defining distribution rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/cost-management/r_DefiningDistributionRules.md)**  
 Define distribution rules to view distribution costs that are distributed according to the rules.
 
-**Parent Topic:**[Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/r_CostManagement.md)
+**Parent Topic:**[Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/cost-management/r_CostManagement.md)
 

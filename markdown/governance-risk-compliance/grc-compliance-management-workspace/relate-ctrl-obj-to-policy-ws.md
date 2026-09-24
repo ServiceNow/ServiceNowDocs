@@ -3,11 +3,11 @@ title: Relate a control objective to a policy using the Compliance Workspace
 description: Control objective can be associated to a policy individually when the policy is in the review or draft state. Using the Compliance Workspace, you can choose the policy in the document field on the control objective, or edit the Control Objective related list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/relate-ctrl-obj-to-policy-ws.html
-release: australia
+release: brazil
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage control objectives and policies, Use, GRC Compliance workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -39,5 +39,5 @@ Role required: sn\_compliance.admin, sn\_compliance.manager, sn\_compliance.user
 
 ## What to do next
 
-If you are implementing the [Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/policy-compliance-impl-checklist.md) software, return to the [Policy and Compliance Management setup checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/policy-compliance-impl-checklist.md) and proceed to the next step.
+If you are implementing the [Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/policy-compliance-impl-checklist.md) software, return to the [Policy and Compliance Management setup checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/policy-compliance-impl-checklist.md) and proceed to the next step.
 

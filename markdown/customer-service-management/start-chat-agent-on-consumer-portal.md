@@ -3,9 +3,9 @@ title: Chat with an agent from the Consumer Portal
 description: Start a chat session with a virtual agent or a customer service agent from the Consumer Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/start-chat-agent-on-consumer-portal.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Consumer Portal, Customer communication, Use, Customer Service Management]
 ---
@@ -28,7 +28,7 @@ Role required: sn\_customerservice.consumer
 
     **Note:** Pre chat survey is turned off by default.
 
-4.  To talk to a person instead of a virtual agent, select \[Omitted image "contact-support-icon.png"\] Alt text: Connect Support icon. and then **Contact Support**.
+4.  To talk to a person instead of a virtual agent, select \[Omitted image "contact-support-icon.png"\] Alt text: Connect Support icon. and then **Call Support**.
 
 5.  Select **End Conversation** after you’re finished with the chat.
 
@@ -40,7 +40,7 @@ If the agent creates a case or links the discussion to an existing case, you can
 **Related topics**  
 
 
-[Chat anonymously with an agent from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/start-anonymous-chat-with-agent-consumer-portal.md)
+[Chat anonymously with an agent from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/start-anonymous-chat-with-agent-consumer-portal.md)
 
-[Get product help from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-case-on-consumer-portal.md)
+[Get product help from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-case-on-consumer-portal.md)
 

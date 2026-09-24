@@ -3,11 +3,11 @@ title: Components installed with ServiceNow Studio
 description: Activating the ServiceNow Studio plugin installs tables, roles, and dependencies automatically.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/components-installed-with-sn-studio.html
-release: australia
+release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2026-05-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Installing ServiceNow Studio, Configure, ServiceNow Studio, Developing your application, Building applications]
 ---
@@ -24,7 +24,7 @@ Activating the ServiceNow Studio plugin installs tables, roles, and dependencies
 |Experience Configurations \[sn\_udc\_experience\_configuration\]|Stores default role access configurations for the experience switcher. This table is not configurable.|
 |Experience Visibility Controls \[sn\_udc\_experience\_visibility\_control\]|Enables you to grant non-default roles access to the experience switcher. This table is configurable.|
 
-ServiceNow Studio does not include specific roles. The Admin and Delegated Developer roles are used. For more information, see [ServiceNow Studio personas and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sn-studio-personas-roles.md).
+ServiceNow Studio does not include specific roles. The Admin and Delegated Developer roles are used. For more information, see [ServiceNow Studio personas and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/sn-studio-personas-roles.md).
 
 ## What plugin does ServiceNow Studio install?
 
@@ -58,5 +58,5 @@ ServiceNow Studio provides a unified environment for all ServiceNow development 
 -   sn\_deploy\_pipeline
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Installing ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/installing-servicenow-studio.md)
+</table>**Parent Topic:**[Installing ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/installing-servicenow-studio.md)
 

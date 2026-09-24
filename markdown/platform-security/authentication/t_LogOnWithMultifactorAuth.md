@@ -3,11 +3,11 @@ title: Log in with Multi-factor Authentication
 description: Login with MFA when it is enabled by your administrator on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_LogOnWithMultifactorAuth.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up MFA on your user profile, Using MFA, Multi-factor authentication, Authentication, Access Management]
 ---
@@ -38,7 +38,7 @@ Role required: none
 
 4.  Select one of the methods to complete the MFA setup.
 
-    For more information about each setup, see [Set up Multi-factor authentication for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_SetUpMultiFactorAuthUponLogin.md).
+    For more information about each setup, see [Set up Multi-factor authentication for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/t_SetUpMultiFactorAuthUponLogin.md).
 
     If you wish to postpone the setup, select **Postpone setup**. The maximum number of time you can postpone the setup is displayed on the screen and this value is configured by your administrator.
 

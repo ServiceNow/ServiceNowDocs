@@ -3,11 +3,11 @@ title: Deactivate a portal
 description: Turn off access to a portal that you no longer want users to visit and optionally redirect them to another portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/deactivate-portal.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing portal access, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -27,8 +27,8 @@ After you deactivate a portal, users are either redirected to an alternate porta
 If an alternate portal is selected, pages are redirected by replacing the URL suffix of the inactive portal with the suffix of the alternate portal. To confirm that users are redirected to the correct page, complete the following steps:
 
 -   Verify that all necessary resources, such as knowledge base articles and catalog items, are available on the alternate portal.
--   If different pages are used on each portal, set up page route maps to map pages from the inactive portal to the alternate portal. For more information, see [Redirect a reference to a page ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/reroute-page.md).
--   If customizations exist for page redirects using the SPEntryPage script include or other methods, test these customizations thoroughly to confirm that there are no conflicts or remove the customizations. For more information, see [Single sign-on, logins, and URL redirects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_SPSSOLoginAndRedirects.md).
+-   If different pages are used on each portal, set up page route maps to map pages from the inactive portal to the alternate portal. For more information, see [Redirect a reference to a page ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/reroute-page.md).
+-   If customizations exist for page redirects using the SPEntryPage script include or other methods, test these customizations thoroughly to confirm that there are no conflicts or remove the customizations. For more information, see [Single sign-on, logins, and URL redirects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/c_SPSSOLoginAndRedirects.md).
 
 To support deactivating and reactivating public portals without search engines deindexing their pages, temporary HTTP 302 redirects are used for inactive portals.
 
@@ -55,9 +55,9 @@ If you selected an alternate portal, users attempting to access the inactive por
 
 \[Omitted image "inactive-portal-message.png"\] Alt text: Message for users who attempt to visit an inactive portal and are redirected to an alternate portal.
 
-If you don’t specify an alternate portal, users receive a message that the portal has been deactivated. You can customize these messages from the Message \[sys\_ui\_message\] table. For more information see, [Message table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_MessageTable.md).
+If you don’t specify an alternate portal, users receive a message that the portal has been deactivated. You can customize these messages from the Message \[sys\_ui\_message\] table. For more information see, [Message table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_MessageTable.md).
 
 To reactivate a portal, clear the **Inactive** option.
 
-**Parent Topic:**[Managing portal access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/portal-security.md)
+**Parent Topic:**[Managing portal access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/portal-security.md)
 

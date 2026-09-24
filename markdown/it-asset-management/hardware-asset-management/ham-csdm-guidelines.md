@@ -3,11 +3,11 @@ title: Applying the CSDM guidelines to Hardware Asset Management
 description: Hardware Asset Management manages \(contributes data to\) CSDM tables. Hardware Asset Management also uses data from CSDM tables that other applications generate. Several ServiceNow products, therefore, benefit from and add value to Hardware Asset Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/ham-csdm-guidelines.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -22,7 +22,7 @@ The CSDM is the data framework that you follow when you set up ServiceNow produc
 
 Using a CSDM standard and consistent set of terms and definitions helps to track the assets effectively through their life cycle transitions.
 
-**Note:** To set up CSDM for Hardware Asset Management, see [Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/csdm-implementation-stages.md).
+**Note:** To set up CSDM for Hardware Asset Management, see [Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/csdm-implementation-stages.md).
 
 ## Tables adhering to the CSDM guidelines managed by Hardware Asset Management
 
@@ -108,5 +108,7 @@ If you have opted-in to CSDM in the releases before Xanadu, synchronization of t
 
 From the Xanadu release onward, when you opt in to CSDM, the life-cycle fields are directly synchronized between the asset and CI.
 
-For more details on synchronization of life-cycle fields, see [How life-cycle values for Asset, CI, and IBI are synchronized](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-asset-CI-IBI-sync-options.md).
+For more details on synchronization of life-cycle fields, see [Synchronizing life-cycle values for Asset, CI, and IBI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-asset-CI-IBI-sync-options.md).
+
+**Parent Topic:**[Configuring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/configuring-ham.md)
 

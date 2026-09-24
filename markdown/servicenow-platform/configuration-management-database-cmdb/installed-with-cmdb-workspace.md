@@ -3,12 +3,12 @@ title: Components installed with CMDB Workspace
 description: Several types of components are installed with the activation of the CMDB Workspace \(sn\_cmdb\_ws\) plugin, including properties, tables, user roles, and scheduled jobs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/installed-with-cmdb-workspace.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 19
+last_updated: "2026-09-10"
+reading_time_minutes: 20
 breadcrumb: [Reference, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -16,9 +16,9 @@ breadcrumb: [Reference, CMDB Workspace, Configuration Management Database \(CMDB
 
 Several types of components are installed with the activation of the CMDB Workspace \(sn\_cmdb\_ws\) plugin, including properties, tables, user roles, and scheduled jobs.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
-In addition, the CMDB Workspace plugin adds the CMDB Group type 'CMDB Workspace'. For components associated with the CMDB Data Manager, see [Components related to CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/components-cmdb-data-manager.md).
+In addition, the CMDB Workspace plugin adds the CMDB Group type 'CMDB Workspace'. For components associated with the CMDB Data Manager, see [Components related to CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/components-cmdb-data-manager.md).
 
 ## Properties installed
 
@@ -42,7 +42,7 @@ Shows/hides the My CIs section of CI Overview on the CMDB Workspace landing page
 
  -   Type: true \| false
 -   Default: true
--   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
 
 </td></tr><tr><td>
 
@@ -54,7 +54,7 @@ Shows/hides the Total CIs section on the CMDB Workspace landing page.
 
  -   Type: true \| false
 -   Default: true
--   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
 
 </td></tr><tr><td>
 
@@ -67,7 +67,7 @@ Number of days after which if one or more discovery sources stop reporting CIs, 
  -   Type: integer
 -   Default: 7
 -   Location: Navigate to **Workspaces** &gt; **CMDB Workspace** and then select **CMDB 360**. Select Settings and configure **Number of days since CIs were last discovered by a discovery source** in the Potential issues section.
--   Learn more: [Configure the CMDB 360 dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md).
+-   Learn more: [Configure the CMDB 360 dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md).
 
 </td></tr><tr><td>
 
@@ -87,7 +87,7 @@ Maximum number of records that appear as list views when drilling down from the 
 -   Type: integer
 -   Default: 100,000
 -   Location: Navigate to **Workspaces** &gt; **CMDB Workspace** and then select **CMDB 360**. Select Settings and configure **Maximum number of records to process** in the Global section.
--   Learn more: [Configure the CMDB 360 dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md).
+-   Learn more: [Configure the CMDB 360 dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md).
 
 </td></tr><tr><td>
 
@@ -99,7 +99,7 @@ Initial default number of levels from the home node, up and down the CMDB hierar
 
  -   Type: integer
 -   Default: 3
--   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
 
  Editing affects all users and requires the sn\_cmdb\_admin user role.
 
@@ -127,8 +127,8 @@ The maximum number of results that the system counts for when using conditional 
 
  -   Type: integer
 -   Default: 100,000
--   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
--   More information: [CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
+-   More information: [CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)
 
  For example, if a limit of 100,000 is reached, the count shows "100,000 +" to indicate that counting stopped at 100,000 and that there are additional uncounted results.
 
@@ -146,15 +146,15 @@ Enables the use of the CI Form feature when selecting CIs to view in CMDB Worksp
 
  -   Type: true \| false
 -   Default: true
--   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
--   More information: [Manage CI details using CI Form in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ci-form-cmdb-workspace.md)
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
+-   More information: [Manage CI details using CI Form in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/ci-form-cmdb-workspace.md)
 
 </td></tr></tbody>
 </table>## Roles installed
 
 The following roles are installed by the Configuration Management \(CMDB\) \(com.snc.cmdb\) plugin which is included in base systems. These roles are required for access and interaction with the CMDB Workspace, and are included for completeness.
 
-**Note:** On an instance that has been upgraded directly from Xanadu or Yokohama to the Australia release: To correctly configure some of the user roles as described below, such as CMDB Admin and CMDB Editor, you must run the '**Remove CMDB Roles from ITIL roles and Add CUD access to sn\_cmdb\_admin/sn\_cmdb\_editor roles**' scheduled job. For more information about this scheduled job and its use, see [https://www.servicenow.com/docs/r/zurich/release-notes/cmdb-rn.html](https://www.servicenow.com/docs/r/zurich/release-notes/cmdb-rn.html).
+**Note:** On an instance that has been upgraded directly from Xanadu or Yokohama to the Brazil release: To correctly configure some of the user roles as described below, such as CMDB Admin and CMDB Editor, you must run the '**Remove CMDB Roles from ITIL roles and Add CUD access to sn\_cmdb\_admin/sn\_cmdb\_editor roles**' scheduled job. For more information about this scheduled job and its use, see [https://www.servicenow.com/docs/r/zurich/release-notes/cmdb-rn.html](https://www.servicenow.com/docs/r/zurich/release-notes/cmdb-rn.html).
 
 <table id="table_u1t_gb1_wdb"><thead><tr><th>
 
@@ -312,11 +312,125 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-CMDB Workspace Collection
+CMDB Workspace Collection - CI Overview
 
 </td><td>
 
-Updates the information in all the 7-Day Activity charts such as the CI Activity in Last 7 Days chart.
+Provides data in the CI overview chart for specific CI groups.
+
+</td></tr><tr><td>
+
+CMDB Workspace Collection - Application service outages
+
+</td><td>
+
+Collects data for tracking the number of application service outage records.
+
+</td></tr><tr><td>
+
+CMDB Workspace Collection - CMDBPerformance.Integrations.Processing Rate
+
+</td><td>
+
+Collects the processing rate data of Service Graph connectors.
+
+</td></tr><tr><td>
+
+CMDB Workspace Collection - CMDBPerformance.Integrations.Rows
+
+</td><td>
+
+Collects the import count data of Service Graph connectors.
+
+</td></tr><tr><td>
+
+CMDB Workspace Collection - Data Manager Policies
+
+</td><td>
+
+Collects data of Data Manager policies such as policies failing evaluation.
+
+</td></tr><tr><td>
+
+CMDB Workspace Collection - Data Manager Tasks
+
+</td><td>
+
+Collects data of Data Manager tasks such as the number of overdue CMDB tasks or unassigned tasks.
+
+</td></tr><tr><td>
+
+CMDB Workspace Collection - New application
+
+</td><td>
+
+Collects data for tracking the number of newly created application CIs.
+
+</td></tr><tr><td>
+
+CMDB Workspace Collection - New application services
+
+</td><td>
+
+Collects data for tracking the number of new Application service CIs created.
+
+</td></tr><tr><td>
+
+CMDB Workspace Collection - New CIs
+
+</td><td>
+
+Collects data for tracking the number of new CIs created.
+
+</td></tr><tr><td>
+
+CMDB Workspace Collection - New hardware
+
+</td><td>
+
+Collects data for tracking the number of new hardware CIs created.
+
+</td></tr><tr><td>
+
+CMDB Workspace Collection - Orphan CIs
+
+</td><td>
+
+Collects data for tracking the number of orphaned CIs.
+
+</td></tr><tr><td>
+
+CMDB Workspace Collection - Total application services
+
+</td><td>
+
+Collects data for tracking the total count of Application service CIs.
+
+</td></tr><tr><td>
+
+CMDB Workspace Collection - Updated application services
+
+</td><td>
+
+Collects data for tracking the number of updated Application service CIs.
+
+</td></tr><tr><td>
+
+CMDB Workspace Collection - Updated CIs
+
+</td><td>
+
+Collects data for tracking the number of updated CIs.
+
+</td></tr><tr><td>
+
+CMDB Workspace Collection On Demand with Lookback
+
+</td><td>
+
+Collects historical data \(past 30 days\) for some indicators such as the Integration outliers.
+
+ Runs automatically during install or upgrade and isn't configured with any recurring schedule.
 
 </td></tr><tr><td>
 
@@ -499,7 +613,7 @@ CMDB Workspace Aggregates Daily Collection
 
 </td><td>
 
-A [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-overview.md) job that stores the latest data generated by the **CMDB Workspace – Populate aggregates Daily** scheduled job. The stored data is then shown in respective cards in the Insights view.
+A [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/pa-overview.md) job that stores the latest data generated by the **CMDB Workspace – Populate aggregates Daily** scheduled job. The stored data is then shown in respective cards in the Insights view.
 
 </td></tr><tr><td>
 
@@ -507,7 +621,7 @@ CMDB Workspace Aggregates Monthly Collection
 
 </td><td>
 
-A [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-overview.md) job that stores the latest data generated by the **CMDB Workspace – Populate aggregates Monthly** scheduled job. The stored data is then shown in respective cards in the Insights view.
+A [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/pa-overview.md) job that stores the latest data generated by the **CMDB Workspace – Populate aggregates Monthly** scheduled job. The stored data is then shown in respective cards in the Insights view.
 
 </td></tr><tr><td>
 
@@ -535,7 +649,7 @@ Activates demo data for CMDB Workspace charts in views such as the Insights view
 
 </td><td>
 
-A [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-overview.md) job that supports demo data for CMDB Workspace charts in various views such as the Insights view and which is installed only if **Load demo data** was checked when the CMDB Workspace store app was installed or upgraded.
+A [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/pa-overview.md) job that supports demo data for CMDB Workspace charts in various views such as the Insights view and which is installed only if **Load demo data** was checked when the CMDB Workspace store app was installed or upgraded.
 
  Stores the demo data generated by the **CMDB Workspace – Populate aggregates Daily** scheduled job. The demo data is then shown in respective cards in the Insights view.
 
@@ -545,7 +659,7 @@ A [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNo
 
 </td><td>
 
-A [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-overview.md) job that supports demo data for CMDB Workspace charts in various views such as the Insights view and which is installed only if **Load demo data** was checked when the CMDB Workspace store app was installed or upgraded.
+A [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/pa-overview.md) job that supports demo data for CMDB Workspace charts in various views such as the Insights view and which is installed only if **Load demo data** was checked when the CMDB Workspace store app was installed or upgraded.
 
  Stores the demo data generated by the **CMDB Workspace – Populate aggregates Monthly** scheduled job. The demo data is then shown in respective cards in the Insights view.
 
@@ -572,7 +686,7 @@ Runs daily to populate the following tables:
 
 Reads de-duplication task data records and calculates the root cause analysis for the duplication.
 
- Used in support of ServiceNow Otto for CMDB.
+ Used in support of ServiceNow Otto® for CMDB.
 
 </td></tr></tbody>
 </table>## Tables installed
@@ -877,7 +991,7 @@ Set of extended properties, per class, that appear in the Attributes pane in the
 
  This table leverages the use of the configuration identifiers framework.
 
- For more information, see [Configure which attributes to display in the Attributes panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-config-extended-prop.md).
+ For more information, see [Configure which attributes to display in the Attributes panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/unified-map/unified-map-config-extended-prop.md).
 
 </td></tr><tr><td>
 
@@ -891,7 +1005,7 @@ Categorization and order of related items, per class, that appear in the **Relat
 
  This table leverages the use of the configuration identifiers framework.
 
- For more information, see [Configure how to display related items on the map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-config-related-items.md).
+ For more information, see [Configure how to display related items on the map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/unified-map/unified-map-config-related-items.md).
 
 </td></tr><tr><td>
 
@@ -905,7 +1019,7 @@ Reference relationships that appear as a dotted line relationship in Unified Map
 
  This table leverages the use of the configuration identifiers framework.
 
- For more information, see [Configure display of connections to a referenced class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-config-map-references.md).
+ For more information, see [Configure display of connections to a referenced class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/unified-map/unified-map-config-map-references.md).
 
 </td></tr><tr><td>
 
@@ -931,7 +1045,7 @@ Class profiles that include default filters and some Unified Map settings, per c
 
  This table leverages the use of the configuration identifiers framework.
 
- For more information, see [Create a class profile of visible layers for classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-config-class-profile.md).
+ For more information, see [Create a class profile of visible layers for classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/unified-map/unified-map-config-class-profile.md).
 
 </td></tr><tr><td>
 
@@ -973,7 +1087,7 @@ Remediate Duplicate Task Groups
 
 Groupings of de-duplication tasks, the CI class affected, any discovery source associated with the de-duplication task, and the CI identification rule that was used to discover the CIs.
 
- Used in support of ServiceNow Otto for CMDB.
+ Used in support of ServiceNow Otto® for CMDB.
 
  -   sn\_cmdb\_admin role has create/write/delete privileges
 -   sn\_cmdb\_user OR dedup\_admin roles have read privileges
@@ -988,7 +1102,7 @@ Group Task Mapping
 
 Reference to the Remediate Duplicate Task Groups table and a root cause analysis summary of the reason that the Cis were added to the de-duplication task
 
- Used in support of ServiceNow Otto for CMDB.
+ Used in support of ServiceNow Otto® for CMDB.
 
  -   sn\_cmdb\_admin role has create/write/delete privileges
 -   sn\_cmdb\_user OR dedup\_admin roles have read privileges
@@ -1005,7 +1119,7 @@ Parent table of the configuration identifiers framework. By default, contains th
 
  Stores any additional config identifiers, configured with custom settings for a CMDB Workspace feature, that is applicable to a specific workspace.
 
- For information about the configuration identifiers framework, see [Configuration identifiers framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/configuration-identifiers-framework.md).
+ For information about the configuration identifiers framework, see [Configuration identifiers framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/configuration-identifiers-framework.md).
 
 </td></tr><tr><td>
 
@@ -1031,7 +1145,7 @@ Settings of requests for specific CI attributes when using the CMDB Workspace fe
 
  This table leverages the use of the configuration identifiers framework.
 
- For more information, see [Request additional attributes for new CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/additional-att-create-ci-workspace.md).
+ For more information, see [Request additional attributes for new CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/additional-att-create-ci-workspace.md).
 
 </td></tr><tr><td>
 
@@ -1045,8 +1159,8 @@ Settings that limit the selection of classes for a new CI when using the CMDB Wo
 
  This table leverages the use of the configuration identifiers framework.
 
- For more information, see [Limit the class list for new CIs created in a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/limit-class-create-ci-workspace.md).
+ For more information, see [Limit the class list for new CIs created in a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/limit-class-create-ci-workspace.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[CMDB Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/reference-cmdb-workspace.md)
+</table>**Parent Topic:**[CMDB Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/reference-cmdb-workspace.md)
 

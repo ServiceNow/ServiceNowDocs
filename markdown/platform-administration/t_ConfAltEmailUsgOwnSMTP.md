@@ -1,24 +1,24 @@
 ---
 title: Enable using your own SMTP server
-description: Enable using your own SMTP server so that you can use the existing filtering, retention, or compliance aspects of your own SMTP server while also using the ServiceNow POP3 server.
+description: Enable using your own SMTP server so that you can leverage the existing filtering, retention, or compliance aspects of your own SMTP server while also using the ServiceNow POP3 server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ConfAltEmailUsgOwnSMTP.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Advanced email setup, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Enable using your own SMTP server
 
-Enable using your own SMTP server so that you can use the existing filtering, retention, or compliance aspects of your own SMTP server while also using the ServiceNow POP3 server.
+Enable using your own SMTP server so that you can leverage the existing filtering, retention, or compliance aspects of your own SMTP server while also using the ServiceNow POP3 server.
 
 ## Before you begin
 
 -   Role required: admin
 -   Email server required: SMTP
--   [Basic email properties:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConfiguringStandardEmail.md) enabled
+-   [Basic email properties:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ConfiguringStandardEmail.md) enabled
 
 ## About this task
 
@@ -26,7 +26,7 @@ You can combine your own internal email architecture with the ServiceNow email a
 
 **Note:** Supports only one active SMTP account at a time \(for outbound emails\).
 
-\[Omitted image "alt-email-configuration-smtp-server.png"\] Alt text: Diagram showing ServiceNow email flow where outbound email from a user is routed through SMTP and DNS, and inbound email is forwarded from a user mailbox to the ServiceNow instance using a mail server forward rule, with spam filtering
+\[Omitted image "AlternateEmailConfigurationUsingYourOwnSMTPServer.png"\] Alt text: Sending email using your own SMTP server
 
 ## Procedure
 
@@ -36,9 +36,9 @@ You can combine your own internal email architecture with the ServiceNow email a
 
 2.  Locate the record for **ServiceNow SMTP** and change **Active** to **false**.
 
-    \[Omitted image "servicenow-smtp-disabled.png"\] Alt text: Email accounts list showing the ServiceNow SMTP account with the Active field set to false
+    \[Omitted image "servicenow-smtp-disabled.png"\] Alt text: ServiceNow SMTP active = false
 
-3.  Select **New**.
+3.  Click **New**.
 
 4.  Create an email account record for your SMTP server where the **Type** is **SMTP**.
 
@@ -140,7 +140,7 @@ System Address Filter
 
 System address filter to apply to the email account. If left blank, the system uses the default system address filter for inbound or outbound email.
 
- For more information, see [System address filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-address-filters.md).
+ For more information, see [System address filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-address-filters.md).
 
 </td></tr><tr><td>
 
@@ -169,21 +169,21 @@ Option to create node logs for the raw data that is exchanged with the email ser
  You can enable this field temporarily to diagnose issues related to receiving or sending email.
 
 </td></tr></tbody>
-</table>6.  From **Related Links**, select **Test Connection**.
+</table>6.  From **Related Links**, click **Test Connection**.
 
     If the email account is valid, the system returns a success message.
 
-    \[Omitted image "connection-successful.png"\] Alt text: Connection dialog showing a successful connection test result for a SMTP email account
+    \[Omitted image "test-smtp-connection.png"\] Alt text: Test SMTP connection
 
 
 ## What to do next
 
 Configure the SMTP server in your internal email architecture to forward email from the custom email address to the instance email address. Implement a spam filter on the custom email address.
 
-**Parent Topic:**[Advanced email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_AlternateEmailConfigurations.md)
+**Parent Topic:**[Advanced email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_AlternateEmailConfigurations.md)
 
 **Related topics**  
 
 
-[Create an email account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConfigureAnEmailAccount.md)
+[Create an email account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ConfigureAnEmailAccount.md)
 

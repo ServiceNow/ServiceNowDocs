@@ -3,9 +3,9 @@ title: ServiceNow Otto for Threat Intelligence Security Center \(TISC\)
 description: With ServiceNow Otto for Threat Intelligence Security Center \(TISC\), threat analysts and security operations teams can use generative AI skills to generate case summaries and threat intelligence reports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/now-assist-tisc-landing.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-05-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Security Operations]
 ---
@@ -16,7 +16,7 @@ With ServiceNow Otto for Threat Intelligence Security Center \(TISC\), threat an
 
 ## Now Assist &gt; ServiceNow Otto announcement
 
-Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 ## Get started
 
@@ -26,19 +26,19 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 -   Advanced: AI to boost productivity across relevant use cases
 -   Prime: Act autonomously with all AI assets, and create your own
 
-For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 <table id="table_now_assist_tisc_get_started" class="nav-card presentation"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about ServiceNow Otto for Threat Intelligence Security Center \(TISC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/exploring-now-assist-tisc.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about ServiceNow Otto for Threat Intelligence Security Center \(TISC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/exploring-now-assist-tisc.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure the skills for ServiceNow Otto for Threat Intelligence Security Center \(TISC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuring-now-assist-tisc.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure the skills for ServiceNow Otto for Threat Intelligence Security Center \(TISC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/configuring-now-assist-tisc.md)
 
 </td><td>
 
-[Use \[Omitted image "bus-supervised-machine-learning.svg"\] Alt text: Summarize case content and generate AI-based reports with ServiceNow Otto for Threat Intelligence Security Center \(TISC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-now-assist-tisc.md)
+[Use \[Omitted image "bus-supervised-machine-learning.svg"\] Alt text: Summarize case content and generate AI-based reports with ServiceNow Otto for Threat Intelligence Security Center \(TISC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/using-now-assist-tisc.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -65,7 +65,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect data from threat intelligence objects, case management records, and security incidents. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect data from threat intelligence objects, case management records, and security incidents. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md).
 

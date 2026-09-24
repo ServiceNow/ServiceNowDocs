@@ -3,9 +3,9 @@ title: Create an account hierarchy
 description: Create a parent-child relationship between two accounts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_CreateAnAccountHierarchy.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Account hierarchy, Create customer relationships, Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---

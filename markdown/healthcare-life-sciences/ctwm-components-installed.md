@@ -3,9 +3,9 @@ title: Components installed with Care Team Work Management
 description: Several types of components are installed when you activate Care Team Work Management, including script includes, UI actions, and flows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-components-installed.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-04-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [components, script includes, UI actions]
 breadcrumb: [Reference, Care Team Work Management, Healthcare Operations, Healthcare and Life Sciences]
@@ -15,9 +15,9 @@ breadcrumb: [Reference, Care Team Work Management, Healthcare Operations, Health
 
 Several types of components are installed when you activate Care Team Work Management, including script includes, UI actions, and flows.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
-For tables and roles installed with Care Team Work Management, see [Tables installed with Care Team Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/ctwm-tables-installed.md) and [Roles installed with Care Team Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/ctwm-roles-installed.md).
+For tables and roles installed with Care Team Work Management, see [Tables installed with Care Team Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/ctwm-tables-installed.md) and [Roles installed with Care Team Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/ctwm-roles-installed.md).
 
 ## UI actions installed with Care Team Work Management
 

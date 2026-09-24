@@ -3,11 +3,11 @@ title: Create record feeds
 description: When a user views a record on a table that has Live Feed enabled, such as the Incident \[incident\] table, the user can click the Show Live Feed button at the top of the form to automatically create a record feed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/c\_CreateRecordFeeds.html
-release: australia
+release: brazil
 product: Live Feed
 classification: live-feed
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use feeds in Live Feed, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,5 +20,5 @@ When a user who has write access to a record's **work\_notes** journal field cli
 
 Record feeds are, by default, private unlisted. That is, only invited members can see the name of the record feed in the list of feeds, and join it. Record feed administrators, however, have the ability to change the access level at any time. This can be helpful if, for example, a user is working on a sales opportunity and wants customers to be able to participate in a record feed without granting them access to the records.
 
-**Parent Topic:**[Use feeds in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_UseFeedsInLiveFeed.md)
+**Parent Topic:**[Use feeds in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/c_UseFeedsInLiveFeed.md)
 

@@ -3,13 +3,13 @@ title: View a timeline of the alerts in an alert group
 description: Gain insight into the sequence of events relating to an issue by viewing chronological information of the alerts in an alert group in Express List.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/el-timeline-view.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore chronological alert data for an alert group, Work with alert groups, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Explore chronological alert data for an alert group, Working with alert groups in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # View a timeline of the alerts in an alert group
@@ -46,5 +46,5 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 **Related topics**  
 
 
-[Chronological alert data in an alert group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/el-timeline-view-concept.md)
+[Chronological alert data in an alert group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/el-timeline-view-concept.md)
 

@@ -3,11 +3,11 @@ title: Configure notification content for portal
 description: Configure the notification display messages for each notification type on the Employee Center portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-notif-content.html
-release: australia
+release: brazil
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Notifications for Employee Center, Setup task management, Configuring Employee Center, Employee Center, Unified Employee Experience, Employee Service Management]
 ---
@@ -33,11 +33,11 @@ Role required: notification\_provider\_admin
     -   **Virtual Agent Content - Messaging**
     -   **Workspace**
     -   **Next Experience**
-    For more information on setting up different types of notification content, see [Provider notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/provider-notifications-landing.md).
+    For more information on setting up different types of notification content, see [Provider notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/provider-notifications-landing.md).
 
 3.  On the Portal notification content form, fill in the fields and select **Submit**.
 
-    For a description of the field values, see [Portal notification content form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/notif-content-form.md).
+    For a description of the field values, see [Portal notification content form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/notif-content-form.md).
 
 
 ## Result

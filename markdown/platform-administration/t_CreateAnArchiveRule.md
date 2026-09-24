@@ -3,9 +3,9 @@ title: Create an archive rule in Core UI
 description: Define the criteria for archiving records by creating an archive rule.Preview the records that you want to archive, and then activate an archive rule.Delete archived records and related records after a specified amount of time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreateAnArchiveRule.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Archiving records in Core UI, Manage data growth in Core UI, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -24,15 +24,15 @@ Role required: admin
 
 1.  Access the new archive rule form in one of the following ways.
 
-<table id="choicetable_bxv_hjk_1bc"><thead><tr><th align="left" id="d168216e66">
+<table id="choicetable_bxv_hjk_1bc"><thead><tr><th align="left" id="d167925e66">
 
 Option
 
-</th><th align="left" id="d168216e69">
+</th><th align="left" id="d167925e69">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d168216e75">
+</th></tr></thead><tbody><tr><td id="d167925e75">
 
 **Using the Data Management Console**
 
@@ -42,7 +42,7 @@ Steps
 2.  On the Overview tab, select **New archive rule**.
 
 
-</td></tr><tr><td id="d168216e110">
+</td></tr><tr><td id="d167925e110">
 
 **Using a data management policy**
 
@@ -53,7 +53,7 @@ Steps
 3.  In the Archive Rules related list, select **New**.
 
 
-</td></tr><tr><td id="d168216e146">
+</td></tr><tr><td id="d167925e146">
 
 **Using the Archive Rules module**
 
@@ -80,7 +80,7 @@ Name
 
 </td><td>
 
-Name that identifies the rule. Used as the [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DisplayValues.md) for references to this archive rule.
+Name that identifies the rule. Used as the [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_DisplayValues.md) for references to this archive rule.
 
 </td></tr><tr><td>
 
@@ -109,7 +109,7 @@ Option to keep the sys\_id for a reference field instead of storing the display 
 
 When you enable this option on a table with archived records, the system automatically reprocesses all existing archive records and enables references. This process can take time to complete for larger archive tables. You can track the status by viewing the Archive Rule Reference Migrations \[sys\_archive\_ref\_migration\] table.
 
-For details on manually retaining references, see [Migrating non-reference fields to reference fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/archive-reference-migration.md).
+For details on manually retaining references, see [Migrating non-reference fields to reference fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/archive-reference-migration.md).
 
 </td></tr><tr><td>
 
@@ -159,7 +159,7 @@ The time interval before the restored record is automatically archived.
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Archiving records in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/archiving-older-records.md)
+**Parent Topic:**[Archiving records in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/archiving-older-records.md)
 
 ## Activate an archive rule
 
@@ -179,15 +179,15 @@ The sample archive rules are inactive by default.
 
 1.  Access the archive rule that you want to activate in one of the following ways.
 
-<table id="choicetable_cxh_nkk_1bc"><thead><tr><th align="left" id="d168216e458">
+<table id="choicetable_cxh_nkk_1bc"><thead><tr><th align="left" id="d167925e458">
 
 Option
 
-</th><th align="left" id="d168216e461">
+</th><th align="left" id="d167925e461">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d168216e467">
+</th></tr></thead><tbody><tr><td id="d167925e467">
 
 **Using a data management policy**
 
@@ -198,7 +198,7 @@ Steps
 3.  In the Archive Rules related list, select the archive rule that you want to activate.
 
 
-</td></tr><tr><td id="d168216e500">
+</td></tr><tr><td id="d167925e500">
 
 **Using the Archive Rules module**
 
@@ -242,7 +242,7 @@ Role required: admin
 
 You can associate a destroy rule with any archive rule in a data management policy.
 
-If you need to amend the destroy rule properties running against your archived data, see [System properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_SetArchiveRuleProcessingBehavior.md).
+If you need to amend the destroy rule properties running against your archived data, see [System properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_SetArchiveRuleProcessingBehavior.md).
 
 ### Procedure
 

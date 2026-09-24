@@ -3,11 +3,11 @@ title: Change the query mode of an indexed table
 description: Set the query mode to specify whether searches on an indexed table must match all or only some of the search terms.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-table-query-mode.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Zing indexes words, Zing text indexing and search engine, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,7 +18,7 @@ Set the query mode to specify whether searches on an indexed table must match al
 
 ## Before you begin
 
-To change the query mode of an indexed table, a text index must be present for the table. Make sure that text indexing is enabled for the table before changing the query mode. See [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-single-table-for-indexing.md).
+To change the query mode of an indexed table, a text index must be present for the table. Make sure that text indexing is enabled for the table before changing the query mode. See [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-single-table-for-indexing.md).
 
 Role required: ts\_admin or admin
 
@@ -34,7 +34,7 @@ Once a table is indexed, the data within the table can be searched through the g
 
 3.  Use the combo box to select a **Default query mode**.
 
-<table id="choicetable_rjr_4mz_yy"><tbody><tr><td id="d119575e103">
+<table id="choicetable_rjr_4mz_yy"><tbody><tr><td id="d118807e103">
 
 **Default**
 
@@ -42,7 +42,7 @@ Once a table is indexed, the data within the table can be searched through the g
 
 The default query mode for a table is an AND query.
 
-</td></tr><tr><td id="d119575e112">
+</td></tr><tr><td id="d118807e112">
 
 **AND**
 
@@ -50,7 +50,7 @@ The default query mode for a table is an AND query.
 
 Matches all search terms.
 
-</td></tr><tr><td id="d119575e121">
+</td></tr><tr><td id="d118807e121">
 
 **OR**
 
@@ -58,7 +58,7 @@ Matches all search terms.
 
 Matches one or more search terms.
 
-</td></tr><tr><td id="d119575e130">
+</td></tr><tr><td id="d118807e130">
 
 **AND\_OR**
 
@@ -157,7 +157,7 @@ Multiple conditional specifications separated by commas. In this example: if the
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Zing indexes words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/zing-indexes-words.md)
+**Parent Topic:**[Zing indexes words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/zing-indexes-words.md)
 
 **Related topics**  
 

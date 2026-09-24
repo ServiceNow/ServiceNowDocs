@@ -3,11 +3,11 @@ title: Encrypt attachments using standard encryption
 description: You can encrypt attachments for specific tables.Select the tables whose attachments are to be encrypted and identify the encryption type.You can schedule a job to find and encrypt any unencrypted attachments for a specified table, using the default encryption key configured for the table.You can schedule a job to decrypt any encrypted attachments for a specified table, to store clear attachments in the instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/c\_EncryptingAttachments.html
-release: australia
+release: brazil
 product: Edge Encryption
 classification: edge-encryption
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -29,7 +29,7 @@ For a session bypassing the Edge Encryption proxy:
 
 For a session using the encryption proxy, the user can open and download existing attachments and add new attachments.
 
-**Parent Topic:**[Configuring Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/edge-config.md)
+**Parent Topic:**[Configuring Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/edge-config.md)
 
 ## Configure attachment encryption
 

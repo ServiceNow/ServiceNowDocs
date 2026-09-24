@@ -3,11 +3,11 @@ title: Discovery performance metrics
 description: This Discovery enhancement collects performance metrics on probe/pattern and sensor processing times and then aggregates that data over time. You can use the roll-up data to monitor the performance of specific discoveries or to compare performance between versions after an upgrade. By default, Discovery tracks the performance of individual probes, sensors, and patterns by measuring the processing time. When patterns are used, Discovery measures the Identification and Reconciliation Engine \(IRE\) processing time. Use the roll-up by build data to ensure that the processing times for Discovery components remain consistent for discoveries in a 24 hour period. View aggregate build data before and after an upgrade to compare the performance of the old and new versions. All aggregated performance data is read-only.Use the roll-up by status data to ensure that the processing times for probes/patterns and sensors remain consistent for a specific Discovery. All aggregated performance data is read-only.Use the roll-up by target data to ensure that the processing times for probes/patterns and sensors remain consistent for each Discovery of a specific IP address. All aggregated performance data is read-only.Discovery performance metrics can accumulate data for probes, patterns, and sensors each time Discovery runs. Discovery calculates processing times and increments the number of times a component runs for each roll-up profile: status, target, or build. All aggregated performance data is read-only.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/discovery-performance-framework.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Discovery monitoring and issue resolution, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -112,7 +112,7 @@ By default, Discovery tracks the performance of individual probes, sensors, and 
 
 ### Before you begin
 
-Role required: discovery\_admin or admin
+Role required: discovery\_admin, discovery\_operator, or admin
 
 ### Procedure
 
@@ -150,7 +150,7 @@ Use the roll-up by build data to ensure that the processing times for Discovery 
 
 ### Before you begin
 
-Role required: discovery\_admin or admin
+Role required: discovery\_admin, discovery\_operator, or admin
 
 ### Procedure
 
@@ -175,7 +175,7 @@ Use the roll-up by status data to ensure that the processing times for probes/pa
 
 ### Before you begin
 
-Role required: discovery\_admin or admin
+Role required: discovery\_admin, discovery\_operator, or admin
 
 ### About this task
 
@@ -202,7 +202,7 @@ Use the roll-up by target data to ensure that the processing times for probes/pa
 
 ### Before you begin
 
-Role required: discovery\_admin or admin
+Role required: discovery\_admin, discovery\_operator, or admin
 
 ### Procedure
 

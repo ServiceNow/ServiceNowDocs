@@ -3,9 +3,9 @@ title: Activate email interaction summarization for CSM
 description: Activate the Email Interaction Summarization skill in AI Skill Kit to generate AI-powered summaries of email interactions for CSM agents, reducing the time spent reviewing full email conversation histories.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-email-summarization-csm.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [email interaction summarization, Now Assist Skill Kit, CSM, Customer Service Management, email interaction, AI summarization, generative AI]
 breadcrumb: [Email Interaction, Configure Email, Configure omnichannel, Configure, Customer Service Management]

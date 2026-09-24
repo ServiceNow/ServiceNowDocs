@@ -3,11 +3,11 @@ title: Controlling the browser experience for chat guest sessions
 description: Anonymous users \(unauthenticated guests\) can chat with support agents in the web chat client, without logging in to a service portal. Admins can control certain aspects of the conversational experience for unauthenticated guest users, such as enabling resumable chat sessions after a browser refresh.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/agent-chat/ac-anonymous-users.html
-release: australia
+release: brazil
 product: Agent Chat
 classification: agent-chat
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Agent Chat, Conversational Interfaces]
 ---
@@ -45,5 +45,5 @@ For security reasons, the default property value is -1, which means the guest se
 
 4.  Select **Update**.
 
-**Parent Topic:**[Configuring Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-agent-chat-configuring.md)
+**Parent Topic:**[Configuring Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/agent-chat/ci-agent-chat-configuring.md)
 

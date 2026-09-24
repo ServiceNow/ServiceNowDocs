@@ -3,11 +3,11 @@ title: Version compatibility between Service Operations Workspace for ITSM and S
 description: Look for the version compatibility between Service Operations Workspace for ITSM and Service Operations Workspace for ITOM applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/sow-itsm-itom-version.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Operations Workspace for ITSM reference, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -37,7 +37,7 @@ Ensure that the following applications have compatible upgraded versions:
 |6.1.1|26.1.y|
 |7.0.x|26.3.y|
 
-**Parent Topic:**[Service Operations Workspace for ITSM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/sow-reference.md)
+**Parent Topic:**[Service Operations Workspace for ITSM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/sow-reference.md)
 
 **Related topics**  
 

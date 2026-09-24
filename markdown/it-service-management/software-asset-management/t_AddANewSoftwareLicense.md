@@ -3,11 +3,11 @@ title: Add a software license using the legacy Software Asset Management plugin
 description: You can add a new software license using the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/t\_AddANewSoftwareLicense.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Software licenses in the legacy Software Asset Management plugin, Legacy Software Asset Management plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
@@ -52,10 +52,10 @@ Role required: sam
     |Installed|Date on which the software license was installed.|
     |Comments|Information about the software license that would be helpful for others to know.|
 
-    For information about the fields in the **Financial** and **Contracts** sections of the form, see [Create assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/t_CreatingAssets.md).
+    For information about the fields in the **Financial** and **Contracts** sections of the form, see [Create assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/t_CreatingAssets.md).
 
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Software licenses in the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_SoftwareLicenses.md)
+**Parent Topic:**[Software licenses in the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management/c_SoftwareLicenses.md)
 

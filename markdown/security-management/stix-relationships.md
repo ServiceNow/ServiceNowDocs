@@ -3,9 +3,9 @@ title: Relationships
 description: Use the relationship objects to link together two SDOs or STIX Cyber-observable Objects \(SCOs\) to describe how they relate to each other.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/stix-relationships.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [IoC Repository, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -85,14 +85,14 @@ Observed data
 This relationship describes that the indicator is created based on information from an observed data object.An example of an object-observable defined relationship is that an infrastructure consists of cyber observable objects which provides information of a potential attack.
 
 </td></tr></tbody>
-</table>-   **[Define object-object relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/define-object-object.md)**  
+</table>-   **[Define object-object relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/define-object-object.md)**  
 Define relationships between SDOs, except the indicator object.
--   **[Define object-indicator relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/define-object-indicator.md)**  
+-   **[Define object-indicator relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/define-object-indicator.md)**  
 Define relationships between the indicator object and other SDOs.
--   **[Define object-observable relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/define-object-observable.md)**  
+-   **[Define object-observable relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/define-object-observable.md)**  
 Define relationships between SDOs and the observable object \(SCO\).
 
-**Parent Topic:**[IoC Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ioc-repository.md)
+**Parent Topic:**[IoC Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/ioc-repository.md)
 
 **Related topics**  
 

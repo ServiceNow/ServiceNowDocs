@@ -3,13 +3,13 @@ title: Pricing model for Oracle Java SE Universal
 description: Tier-based monthly subscription price per employee is based on the number of employees directly or indirectly working in an organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/oracle-price-tiers.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Pricing model for Oracle Java SE Universal
@@ -18,7 +18,7 @@ Tier-based monthly subscription price per employee is based on the number of emp
 
 The Price tier \[samp\_price\_tier\] table supports the Employee license metric of the Java SE software model and contains read-only values. This table is shipped with the Software Asset Management Professional for Oracle \(com.snc.samp.oracle\) plugin.
 
-This table populates the override license cost records for Oracle Java. When you're using a custom tier table, you can update the override license cost records associated with the Oracle Java software model. For details, see [Create or update an override license cost record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-edit-override-license-cost.md).
+This table populates the override license cost records for Oracle Java. When you're using a custom tier table, you can update the override license cost records associated with the Oracle Java software model. For details, see [Create or update an override license cost record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-edit-override-license-cost.md).
 
 |Number of employees|Monthly subscription cost per employee|
 |-------------------|--------------------------------------|
@@ -30,5 +30,5 @@ This table populates the override license cost records for Oracle Java. When you
 |30,000-39,999|$5.70|
 |40,000-49,999|$5.25|
 
-**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)
+**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/references.md)
 

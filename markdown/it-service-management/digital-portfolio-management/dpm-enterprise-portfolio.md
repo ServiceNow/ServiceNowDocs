@@ -3,11 +3,11 @@ title: Navigate enterprise portfolios in Digital Portfolio Management
 description: You can work with three types of enterprise portfolios in the Digital Portfolio Management \(DPM\) Workspace — service, business application, and service instance. Even though you can view service enterprise portfolios in DPM, they're created with Service Portfolio Management tables. Enterprise portfolios for business applications and service instances are created with the enterprise portfolio tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-enterprise-portfolio.html
-release: australia
+release: brazil
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Get started, Digital Portfolio Management, IT Service Management]
 ---
@@ -42,27 +42,27 @@ You can also see items that need attention and select parts of the portfolio to 
 
 5.  Select an Enterprise taxonomy node that interests you, and then select **View Details**.
 
-    The details of the Enterprise taxonomy node include several tabs — Generally an overview, a tab \(or two\) for the type of portfolio you selected, and a general information tab. To learn more about enterprise portfolio screens, see [Navigate portfolio types in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-navigating-enterprise-portfolios.md).
+    The details of the Enterprise taxonomy node include several tabs — Generally an overview, a tab \(or two\) for the type of portfolio you selected, and a general information tab. To learn more about enterprise portfolio screens, see [Navigate portfolio types in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-navigating-enterprise-portfolios.md).
 
 6.  Follow the breadcrumb path to return to the tree structure of the enterprise portfolio.
 
 7.  Expand the Enterprise taxonomy node to see its child nodes, and then its solutions \(services, business applications, or service instances\).
 
-    Selecting each item in the tree structure displays high-level information of that item. All child nodes and solutions have their own **View details** option. To learn more about enterprise portfolio screens, see [Navigate portfolio types in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-navigating-enterprise-portfolios.md).
+    Selecting each item in the tree structure displays high-level information of that item. All child nodes and solutions have their own **View details** option. To learn more about enterprise portfolio screens, see [Navigate portfolio types in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-navigating-enterprise-portfolios.md).
 
 8.  View information about a different type of enterprise portfolio.
 
     **Important:** To select a different type of enterprise portfolio from the one you're in, you must delete the value in the **Portfolio** field. When the **Portfolio** field is empty, then select it \(again\) to see the other portfolio types. For example, if you're navigating a service portfolio and want to see to a business portfolio, you must delete the name of the service portfolio in the **Portfolio** field. After you delete it, select the **Portfolio** field \(again\) to see the other enterprise portfolio options \(service, business, or service instance\).
 
 
-**Parent Topic:**[Getting started with Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-using-cfx.md)
+**Parent Topic:**[Getting started with Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-using-cfx.md)
 
 **Related topics**  
 
 
-[Enterprise portfolios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-enterprise-portfolios.md)
+[Enterprise portfolios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-enterprise-portfolios.md)
 
-[Navigate portfolio types in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-navigating-enterprise-portfolios.md)
+[Navigate portfolio types in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-navigating-enterprise-portfolios.md)
 
-[Create enterprise portfolios in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-create-enterprise-portfolios.md)
+[Create enterprise portfolios in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-create-enterprise-portfolios.md)
 

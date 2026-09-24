@@ -3,7 +3,7 @@ title: Certificate attestation for certificate owners
 description: Attestation jobs run in regular intervals, sending emails to certificate owners, giving them a chance to review certificate ownership.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/attestation-for-cert-owner.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
@@ -21,9 +21,9 @@ You can configure the system to send certificate ownership attestation reviews b
 **Related topics**  
 
 
-[Configure certificate attestation reviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/configure-certificate-attestation.md)
+[Configure certificate attestation reviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/configure-certificate-attestation.md)
 
-[Attest or reject certificate ownership via Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/attest-reject-certificate-notification.md)
+[Attest or reject certificate ownership via email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/attest-reject-certificate-notification.md)
 
-[Reassign certificate ownership](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/reassign-certificate-ownership.md)
+[Reassign certificate ownership](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/reassign-certificate-ownership.md)
 

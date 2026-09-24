@@ -3,9 +3,9 @@ title: Reviewing the domain service orders that are associated with a service or
 description: Review the domain service orders that were generated for a selected service order line item so that you can make sure that all the related details are correct and complete.OM revamp project - This topic is obsolete and has been removed from the SOM bundle on Oct 7, 2025.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/service-order-mgt-review-service-orders.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Approve and fulfill service orders, Use, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -28,15 +28,15 @@ The domain service orders manage the fulfillment of the services that you're ren
 
 2.  Select an existing service order to review or create a service order.
 
-<table id="choicetable_u3t_rjd_54b"><thead><tr><th align="left" id="d47738e72">
+<table id="choicetable_u3t_rjd_54b"><thead><tr><th align="left" id="d47899e72">
 
 Task
 
-</th><th align="left" id="d47738e75">
+</th><th align="left" id="d47899e75">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d47738e81">
+</th></tr></thead><tbody><tr><td id="d47899e81">
 
 **Review an existing service order**
 
@@ -48,7 +48,7 @@ Action
 -   To filter the existing service orders, select the filter icon \[Omitted image "form-filter.png"\] Alt text:.
 
 
-</td></tr><tr><td id="d47738e124">
+</td></tr><tr><td id="d47899e124">
 
 **Create a service order**
 

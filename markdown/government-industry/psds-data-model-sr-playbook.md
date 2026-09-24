@@ -3,9 +3,9 @@ title: Public Sector Digital Services Service Request Playbook Data Model
 description: This section outlines the Service Request Playbook data model and the tables installed with the Service Request application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-data-model-sr-playbook.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data Model, Reference, Public Sector Digital Services \(PSDS\)]
 ---
@@ -18,8 +18,8 @@ The following logical diagram shows the tables and their relationships within th
 
 \[Omitted image "psds-datamodel-sr.png"\] Alt text: Public Sector Digital Services Service Request Data Model
 
--   **[Tables installed with Service Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-data-model-sr-playbook-tables.md)**  
+-   **[Tables installed with Service Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-data-model-sr-playbook-tables.md)**  
 This section describes the tables installed with the Service Request Playbook application and shows how they store and manage information.
 
-**Parent Topic:**[Public Sector Digital Services Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services-data-model.md)
+**Parent Topic:**[Public Sector Digital Services Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/public-sector-digital-services-data-model.md)
 

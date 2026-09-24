@@ -3,11 +3,11 @@ title: Prioritize work
 description: Review and prioritize the items of your portfolio plan pipeline to add them to the plan's roadmap so that your teams can start working on them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/prioritize-planning-items-strategic-planning-workspace.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Prioritize portfolio plan work, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
@@ -19,7 +19,7 @@ Review and prioritize the items of your portfolio plan pipeline to add them to t
 
 ## Before you begin
 
--   [Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.md).
+-   [Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.md).
 -   Ensure that the planning items in the Prioritization tab are sorted by the Rank column in ascending order.
 
 Role required: sn\_align\_core.apw\_user
@@ -36,15 +36,15 @@ Review and prioritize the items in the Prioritization, Kanban, or Hierarchy tab 
 
 3.  From the Prioritization tab or any other tab, mark a planning item as In Review or Prioritized.
 
-<table id="choicetable_knp_gs5_dwb"><thead><tr><th align="left" id="d82471e134">
+<table id="choicetable_knp_gs5_dwb"><thead><tr><th align="left" id="d82006e134">
 
 Tab
 
-</th><th align="left" id="d82471e137">
+</th><th align="left" id="d82006e137">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d82471e143">
+</th></tr></thead><tbody><tr><td id="d82006e143">
 
 **Prioritization**
 
@@ -54,7 +54,7 @@ Update the **Planning state** field of the item.
 
  \[Omitted image "backlog-planning-state.png"\] Alt text: Planning state update in Prioritization page.
 
-</td></tr><tr><td id="d82471e165">
+</td></tr><tr><td id="d82006e165">
 
 **Kanban**
 
@@ -64,7 +64,7 @@ Move the item card into the **Prioritized** lane.
 
  \[Omitted image "kanban-prioritize-item.png"\] Alt text: Prioritize item in kanban view
 
-</td></tr><tr><td id="d82471e187">
+</td></tr><tr><td id="d82006e187">
 
 **Hierarchy**
 

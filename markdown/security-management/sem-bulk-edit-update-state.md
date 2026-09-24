@@ -3,9 +3,9 @@ title: Update the state of records in bulk in the Security Exposure Management W
 description: Update the state of multiple findings concurrently according to their remediation progress using the bulk edit feature in the Security Exposure Management Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-bulk-edit-update-state.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using bulk edit in the Security Exposure Management Workspace, Bulk edit in the Security Exposure Management Workspace, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -72,11 +72,11 @@ Change for the **State** in the record. Choices are:-   Do Not Update
 -   Awaiting Implementation
 -   Deferred
 
-For more information, see[Request bulk exception in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vmws-bulk-edit-request-exception.md).
+For more information, see[Request bulk exception in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-manager-workspace/vmws-bulk-edit-request-exception.md).
 
 -   Closed
 
-For more information, see [Bulk edit for false positive in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vmws-bulk-edit-request-false-positive.md)
+For more information, see [Bulk edit for false positive in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-manager-workspace/vmws-bulk-edit-request-false-positive.md)
 
 -   Resolved
 **Note:** Only the records for which the state transition is valid are updated.
@@ -94,6 +94,4 @@ Text that you enter to describe the changes.
 
     A bulk edit asynchronous job updates the selected records.
 
-
-**Parent Topic:**[Using bulk edit in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-using-bulk-edit.md)
 

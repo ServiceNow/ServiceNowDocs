@@ -3,11 +3,11 @@ title: Standard automation task form
 description: The following table describes the field values for the standard automation task form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/standard-task-automation-form.html
-release: australia
+release: brazil
 product: Digital Factory Workspace
 classification: digital-factory-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Industrial Guided Tasks, Reference, Digital Factory Workspace, Industrial Connected Workforce]
 ---
@@ -105,5 +105,5 @@ Assigned to
 User that the task should be assigned to.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Industrial Guided Tasks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-guided-tasks-reference.md)
+</table>**Parent Topic:**[Industrial Guided Tasks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-guided-tasks-reference.md)
 

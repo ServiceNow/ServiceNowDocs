@@ -3,9 +3,9 @@ title: Configure the Customer Information view using CSM Agent Workspace
 description: Configure the display of the Customer Information view using the CSM Agent Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-information-tab.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Customer Central, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---

@@ -3,7 +3,7 @@ title: UI category
 description: Validate the functionality of the UI actions.Executes a client-side test script entirely in the browser without requiring server-side processing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/test-steps-ui-category.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: reference
@@ -82,7 +82,7 @@ Script
 
 </td><td>
 
-Script to be executed by the client test runner. The [Run UI Test Script API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/c_run_ui_test_script.md) is called in this test step.
+Script to be executed by the client test runner. The Run UI Test Script API is called in this test step.
 
 </td></tr></tbody>
 </table>

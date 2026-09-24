@@ -3,9 +3,9 @@ title: Configure context variables for external IDs
 description: Set up a context variable for each external ID to be used in pricing requests and map the variable to a reference field in a ServiceNow reference table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-external-ids-pricing-requests.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [External ID support in Sales CRM Pricing API, Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -25,13 +25,13 @@ The Sales CRM Pricing API supports external IDs in pricing requests. For each ex
 -   Source reference table
 -   Reference field name
 
-For information on the pricing API, see [Sales CRM Pricing API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/sales-crm-pricing-api.md).
+For information on the pricing API, see [Sales CRM Pricing API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/sales-crm-pricing-api.md).
 
 **Note:** Only a single reference field for an external ID is supported as a key to resolve an external ID with a sys\_id. To get an accurate and valid response, the external ID or code sent in a reference field must map to a unique record in the source reference table.
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Set the application scope to Context Rule Management.
 

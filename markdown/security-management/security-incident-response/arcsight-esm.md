@@ -3,11 +3,11 @@ title: ArcSight ESM Event Ingestion integration
 description: The ArcSight ESM event ingestion integration with the Security Incident Response product allows security incident analysts to collect correlated events and automate creation of security incidents with the ServiceNow platform. Data is ingested continually based on a configured polling schedule, and it is used by analysts to identify and respond to potential cyber security threats.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/arcsight-esm.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -48,7 +48,7 @@ The following Security Operations applications must be installed and activated f
     1.  ServiceNow Integration Hub Runtime
     2.  ServiceNow Integration Hub Action Step - REST
 
-For more information about installing the Security Operations core applications, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/activate-entitled-store-app.md).
+For more information about installing the Security Operations core applications, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/activate-entitled-store-app.md).
 
 ## ArcSight ESM supported versions
 

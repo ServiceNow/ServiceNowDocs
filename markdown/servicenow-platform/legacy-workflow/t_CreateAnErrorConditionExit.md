@@ -3,11 +3,11 @@ title: Create an error condition exit
 description: An administrator can reroute the workflow when a script error occurs by creating an error condition exit for specific activities within the workflow. This allows the workflow to process script errors in a predictable way and not create undesirable results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/t\_CreateAnErrorConditionExit.html
-release: australia
+release: brazil
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: task
-last_updated: "2026-07-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workflow error handling, Workflow administration, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -41,5 +41,5 @@ Role required: snc\_required\_script\_writer\_permission and workflow\_admin, wo
     \[Omitted image "ErrorHandlingExit2.png"\] Alt text: Error handling exit
 
 
-**Parent Topic:**[Workflow error handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/c_WorkflowErrorHandling.md)
+**Parent Topic:**[Workflow error handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/legacy-workflow/c_WorkflowErrorHandling.md)
 

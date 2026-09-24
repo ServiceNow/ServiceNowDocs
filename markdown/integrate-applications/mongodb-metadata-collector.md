@@ -3,9 +3,9 @@ title: MongoDB metadata collector
 description: MongoDB metadata collector provides read-only access to metadata from a MongoDB account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/mongodb-metadata-collector.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
 ---
@@ -114,10 +114,10 @@ MongoDB Search Index
 MongoDB Collection
 
 </td></tr></tbody>
-</table>-   **[Prepare to run the MongoDB collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-mongodb-collector.md)**  
+</table>-   **[Prepare to run the MongoDB collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/prepare-to-run-mongodb-collector.md)**  
 Create a MongoDB user and configure authentication before running the collector.
--   **[Create a MongoDB metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-mongodb-metadata-collector.md)**  
+-   **[Create a MongoDB metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-mongodb-metadata-collector.md)**  
 Create a collector to import metadata from MongoDB.
 
-**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-metadata-collectors-dc.md)
+**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-metadata-collectors-dc.md)
 

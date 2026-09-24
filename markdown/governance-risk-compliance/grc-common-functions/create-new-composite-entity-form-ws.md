@@ -3,11 +3,11 @@ title: Create new composite entity form
 description: Use the Create New Entity form to create a composite entity by combining two or more entities from different entity classes using the Composite Entity Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/create-new-composite-entity-form-ws.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a composite entity, Composite entity, Explore entities, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -52,7 +52,7 @@ Class
 
 </td><td>
 
-Option to select the composite entity class for which you want to create a composite entity. For more information on how to create a composite entity class, see [Create an entity class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-new-entity-class-ws.md).
+Option to select the composite entity class for which you want to create a composite entity. For more information on how to create a composite entity class, see [Create an entity class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/create-new-entity-class-ws.md).
 
 </td></tr><tr><td>
 
@@ -76,7 +76,7 @@ Name
 
 </td><td>
 
-Name of the composite entity. The name is automatically generated based on the selected entity classes, with a separator between them. To change the separator, see [Governance, Risk, and Compliance properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-properties.md).
+Name of the composite entity. The name is automatically generated based on the selected entity classes, with a separator between them. To change the separator, see [Governance, Risk, and Compliance properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/grc-properties.md).
 
 </td></tr><tr><td>
 
@@ -127,5 +127,5 @@ Functional domain
 Functional domain of the composite entity.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a composite entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-composite-entity-ws.md)
+</table>**Parent Topic:**[Create a composite entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/create-composite-entity-ws.md)
 

@@ -3,9 +3,9 @@ title: Find and reserve an indoor resource
 description: View an interactive map of the interior of your building to locate available resources such as desks or conference rooms. After locating a resource, you can then reserve it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/find-reserve-indoor-resource.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Indoor Wayfinding and reservations, Using the mobile apps, Mobile Platform]
 ---
@@ -29,7 +29,7 @@ Use interactive maps of your building to locate and reserve available resources 
 \[Omitted image "indoor-wayfind-map.png"\] Alt text: Indoor wayfinding map on a mobile device.
 
 </td></tr></tbody>
-</table>For more information about reserving an indoor map resource, see [Make a reservation using the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/make-a-reservation-on-mobile.md)
+</table>For more information about reserving an indoor map resource, see [Make a reservation using the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/make-a-reservation-on-mobile.md)
 
 ## Procedure
 

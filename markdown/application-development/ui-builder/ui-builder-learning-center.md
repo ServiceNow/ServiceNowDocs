@@ -3,11 +3,11 @@ title: UI Builder Learning Center
 description: Explore the UI Builder Learning Center for articles, videos, courses, and guided tours to help you get started and build knowledge. The Learning Center is a one-stop shop for learning fundamental features and basic guidelines in UI Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/ui-builder-learning-center.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Navigate the UI Builder application, Learning UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -33,5 +33,5 @@ Select a tile to open a resource. Resources are in the following locations:
 -   Courses: [https://learning.servicenow.com](https://learning.servicenow.com)
 -   Tours: embedded in your ServiceNow instance
 
-**Parent Topic:**[Navigate the UI Builder application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/nav-uib.md)
+**Parent Topic:**[Navigate the UI Builder application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/nav-uib.md)
 

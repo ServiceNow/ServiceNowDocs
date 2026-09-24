@@ -3,11 +3,11 @@ title: Cloud Configuration Governance Configuration key form
 description: The Configuration key form contains detailed information about the configuration key.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/ccg-config-key-form.html
-release: australia
+release: brazil
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -80,8 +80,8 @@ Configuration collector
 
 \(Optional\) Configuration collector that can import the configuration keys.If the required configuration data is not available at the cloud resource level, select the configuration collector that can import the configuration keys.
 
- If a suitable configuration collector is not available, create a configuration collector and then select it. For more information on creating the configuration collector, see [Create a configuration collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/create-ccg-config-collector.md).
+ If a suitable configuration collector is not available, create a configuration collector and then select it. For more information on creating the configuration collector, see [Create a configuration collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-cloud-accelerate/create-ccg-config-collector.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Configuration Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/ccg-reference.md)
+</table>**Parent Topic:**[Cloud Configuration Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-cloud-accelerate/ccg-reference.md)
 

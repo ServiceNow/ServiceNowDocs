@@ -3,11 +3,11 @@ title: Splunk error reporting
 description: Whenever a connectivity issue with your ServiceNow instance occurs, an error is logged in Splunk with information describing the problem.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/splunk-error-rpting.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Security Operations add-on for Splunk overview, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

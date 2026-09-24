@@ -3,11 +3,11 @@ title: Onboard Veracode to DevOps Change Velocity - Classic
 description: Connect to your Veracode instance to retrieve scan results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/onboard-veracode-to-devops-change-velocity-classic.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Veracode, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -53,7 +53,7 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 ## What to do next
 
-[Configure Veracode scans on your pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/configure-veracode-scans-on-your-pipeline.md)
+[Configure Veracode scans on your pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/configure-veracode-scans-on-your-pipeline.md)
 
-**Parent Topic:**[Veracode integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/veracode-integration-with-devops-change-velocity.md)
+**Parent Topic:**[Veracode integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/veracode-integration-with-devops-change-velocity.md)
 

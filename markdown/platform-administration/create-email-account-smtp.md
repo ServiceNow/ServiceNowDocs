@@ -3,9 +3,9 @@ title: Create an email account with SMTP OAuth2.0
 description: Create an email account from Microsoft Exchange Online with SMTP OAuth2.0.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-email-account-smtp.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Send email using client credential flow, Advanced email setup, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -146,5 +146,5 @@ Option to create node logs for the raw data that is exchanged with the email ser
 5.  Test the connection by selecting the **Test Connection** link.
 
 
-**Parent Topic:**[Sending email using client credential flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/send-email-client-credential-flow.md)
+**Parent Topic:**[Sending email using client credential flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/send-email-client-credential-flow.md)
 

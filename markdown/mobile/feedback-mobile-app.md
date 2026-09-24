@@ -3,9 +3,9 @@ title: Mobile app feedback
 description: Learn how to provide feedback regarding your ServiceNow in-app experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/feedback-mobile-app.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using the mobile apps, Mobile Platform]
 ---

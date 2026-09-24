@@ -3,11 +3,11 @@ title: Manually test the execution of an agentic workflow
 description: Test your agentic workflow in AI Agent Studio to analyze how it functions while it executes the instructions that you defined.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/test-aia-use-case.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create an agentic workflow, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Create an agentic workflow, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Manually test the execution of an agentic workflow
@@ -22,7 +22,7 @@ Role required: sn\_aia\_admin and either admin or at least one role required by 
 
 After you create an agentic workflow, test it to see that it functions the way that you defined it. You can choose to run a manual test with a single instruction to test its basic functioning, or you can evaluate the AI agent's performance across multiple executions.
 
-If you want to test multiple executions using execution logs, you can run an automated test. If you select **Start automated evaluation**, the agentic evaluation guided setup opens in a new browser tab. See [Evaluate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/execute-aia-eval.md) for more details about running a new automated evaluation.
+If you want to test multiple executions using execution logs, you can run an automated test. If you select **Start automated evaluation**, the agentic evaluation guided setup opens in a new browser tab. See [Evaluate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/execute-aia-eval.md) for more details about running a new automated evaluation.
 
 When manually testing performance, you can see how the agentic workflow and its AI agents interact with the AI Agent Orchestrator and the Communicator AI agent. The Orchestration is an agent that directs different AI agents, and the Communicator AI agent facilitates the communication between the user and other AI agents.
 
@@ -32,11 +32,11 @@ When manually testing performance, you can see how the agentic workflow and its 
 
 2.  Select **Start manual test**.
 
-    If you want to start an automated test, see [Evaluate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/execute-aia-eval.md) for more details on that process.
+    If you want to start an automated test, see [Evaluate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/execute-aia-eval.md) for more details on that process.
 
 3.  In the **Choose a test type** drop-down menu, select **AI agent or workflow**.
 
-    If you want to test user access security controls, see [Test AI agent user access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-access.md).
+    If you want to test user access security controls, see [Test AI agent user access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-aia-access.md).
 
 4.  Select an agentic workflow that you want to test by entering the name of a workflow or choosing from the drop-down menu.
 
@@ -46,13 +46,13 @@ When manually testing performance, you can see how the agentic workflow and its 
 
 6.  In the Version drop-down list, select the version of the AI agent you want to test.
 
-    See [Version control for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/version-control.md) for more information about creating and changing versions.
+    See [Version control for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/version-control.md) for more information about creating and changing versions.
 
 7.  In the Task drop-down list, provide a concise summary of the task to be achieved.
 
     **Note:** In the task summary, include a reference number for a specific record for better results during your testing.
 
-    \[Omitted image "test-aw-manually-new.png"\] Alt text: Complete the testing form.
+    \[Omitted image "image.test-aw-manually-new"\] Alt text: Complete the testing form.
 
 8.  Select **Continue to Test Chat Response**.
 

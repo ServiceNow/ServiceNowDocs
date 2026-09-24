@@ -3,13 +3,13 @@ title: Diagnostic Topic Executor utility
 description: Use the Diagnostic Topic Executor utility in Virtual Agent to ensure the proper function of components in a topic.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-diagnostic-topic-executor.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Assistant Designer utilities, Assistant Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer utilities, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Diagnostic Topic Executor utility
@@ -89,5 +89,5 @@ No-code condition statement or low-code script that specifies a condition for pr
 
 \[Omitted image "flow-designer-diagnostic-topic-executor-properties.png"\] Alt text: Properties include the node name, a diagnostic string, and output variables that indicate whether the topic executed or collected data.
 
-**Parent Topic:**[Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-utilities.md)
+**Parent Topic:**[Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-utilities.md)
 

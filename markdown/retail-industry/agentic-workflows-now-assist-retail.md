@@ -3,11 +3,11 @@ title: Use ServiceNow Otto for Retail Service Management
 description: Use ServiceNow Otto to improve and enhance the store inquiry processes in Retail Service Management \(RSM\). The store inquiry AI agent—now part of the ServiceNow Otto brand—enables intelligent automation for store inquiries.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/agentic-workflows-now-assist-retail.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage store inquiries, Retail]
+breadcrumb: [ServiceNow Otto for Retail Service Management \(RSM\), Retail]
 ---
 
 # Use ServiceNow Otto for Retail Service Management
@@ -36,12 +36,10 @@ For more information on modifying an agentic workflow, see.
 
 Looking for an AI agent?
 
--   There may be AI agents installed with the ServiceNow Otto application that aren't used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
+-   There may be AI agents installed with the ServiceNow Otto application that aren't used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/find-ai-agents.md).
 -   To find agents that may not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 
 **AI agents security**
 
-For security implementation guidance on AI agents and agentic workflows, see [Enable store inquiry AI agent trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-enable-store-inquiry-ai-agent.md).
-
-**Parent Topic:**[Manage store inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-manage-store-inquiries.md)
+For security implementation guidance on AI agents and agentic workflows, see [Enable store inquiry AI agent trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-enable-store-inquiry-ai-agent.md).
 

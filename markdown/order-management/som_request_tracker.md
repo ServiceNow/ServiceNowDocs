@@ -3,11 +3,11 @@ title: Inbound Request
 description: Track the status of Sales CRM workflows and enable agents to track the status of any synchronous and asynchronous flows. It also supports processing dependent records sequentially to make sure that the data stays accurate and consistent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/som\_request\_tracker.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
-breadcrumb: [Sales and Service API Core, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [CRM API Core, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Inbound Request
@@ -289,7 +289,7 @@ Reference: sn\_ind\_tmt\_orm\_upgrade\_inventory\_job
 </td></tr></tbody>
 </table>**Note:** The **requested\_flow** and **response\_payload** fields aren’t visible to agents.
 
-Use the **Requested flow &lt;is not empty&gt;** to filter out records using the Lead to Cash core APIs. The Inbound Request table \[sn\_tmt\_core\_inbound\_queue\] provides the status and other details related to the request. For example, while creating an order through a quote record, a confirmation message with the order header number.
+Use the **Requested flow &lt;is not empty&gt;** to filter out records using the CRM Core APIs. The Inbound Request table \[sn\_tmt\_core\_inbound\_queue\] provides the status and other details related to the request. For example, while creating an order through a quote record, a confirmation message with the order header number.
 
 **Note:** The flow designer **SOM Request Processor** is deprecated. Requests are directed to the flow designer IBQ Request Processor.
 
@@ -352,5 +352,5 @@ Archive the records in the Inbound Request table and determine when to clean up 
 **Related topics**  
 
 
-[Inbound Request Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/inbound-request-configuration-table.md)
+[Inbound Request Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/inbound-request-configuration-table.md)
 

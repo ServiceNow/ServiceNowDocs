@@ -3,9 +3,9 @@ title: Nexus map configuration form
 description: Use the Nexus map configuration form to define the UI configuration for the selected Main node configuration. It also helps you to define the node and edge configurations, determining how the Nexus map is displayed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/nexus-map-configuration-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the Nexus map configurations, Configure the Main node configurations, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---

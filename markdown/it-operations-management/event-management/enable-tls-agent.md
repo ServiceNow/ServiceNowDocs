@@ -3,11 +3,11 @@ title: Connect the agent to the MID Server using mTLS
 description: Before configuring mTLS authentication on the agent, you must run a series of commands that enable configuring Transport Layer Security \(TLS\) authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/enable-tls-agent.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [MID Web Server and agent mTLS Authentication, Configure the MID Web Server extension, MID Web Server, Event Management setup, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -20,11 +20,11 @@ Before configuring mTLS authentication on the agent, you must run a series of co
 
 Ensure that you have performed the following tasks:
 
-1.  [Create keys and certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-keys-and-certificates.md)
-2.  [Set up the MID Web Server with a .pem file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/set-mid-web-server.md)
-3.  [Connect the agent to the MID Web Server using TLS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/agent-mid-connect.md)
-4.  [Configure mTLS authentication for a MID Web Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-mid-web-server-extension-mTLS.md)
-5.  [Connect the agent to the MID Server using mTLS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/enable-tls-agent.md)
+1.  [Create keys and certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/create-keys-and-certificates.md)
+2.  [Set up the MID Web Server with a .pem file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/set-mid-web-server.md)
+3.  [Connect the agent to the MID Web Server using TLS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/agent-mid-connect.md)
+4.  [Configure mTLS authentication for a MID Web Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-mid-web-server-extension-mTLS.md)
+5.  [Connect the agent to the MID Server using mTLS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/enable-tls-agent.md)
 
 Role required: agent\_client\_collector\_admin
 
@@ -111,5 +111,5 @@ Role required: agent\_client\_collector\_admin
 **Related topics**  
 
 
-[MID Web Server and agent mTLS Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/mid-web-server-mTLS-authentication.md)
+[MID Web Server and agent mTLS Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/mid-web-server-mTLS-authentication.md)
 

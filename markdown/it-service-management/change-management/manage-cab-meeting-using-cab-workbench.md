@@ -3,11 +3,11 @@ title: CAB meeting management using the CAB workbench
 description: As a Change Advisory Board \(CAB\) manager, you can view and manage details of a CAB meeting and its agenda items through the CAB workbench.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/manage-cab-meeting-using-cab-workbench.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Working with the CAB Workbench, Use, Change Management, IT Service Management]
 ---
@@ -115,5 +115,5 @@ You can view the details of a current change in the form view or in the calendar
  The day and month view of the calendar displays the Blackout Schedule time, Maintenance Window, and the agenda item that is in progress. In the day view, the specific time slot of the planned blackout and maintenance window is highlighted. In the calendar view, the entire day is highlighted.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Working with the CAB Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/using-cab-workbench-cf.md)
+</table>**Parent Topic:**[Working with the CAB Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/using-cab-workbench-cf.md)
 

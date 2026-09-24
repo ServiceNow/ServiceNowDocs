@@ -3,9 +3,9 @@ title: Work on a group life policy service case
 description: Work on a group life case to change or review member information, and complete the policy service request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/work-group-life-service-case.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Group Life Servicing, Life Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -18,7 +18,7 @@ Work on a group life case to change or review member information, and complete t
 
 Role required: sn\_ins\_group\_life.processor, sn\_ins\_group\_life.contributor, or sn\_ins\_group\_life.processor\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -56,15 +56,15 @@ Use the case playbook that provides the activities and tasks required to researc
 
 8.  Close the task from the playbook activity or the task form.
 
-<table><thead><tr><th align="left" id="d118548e231">
+<table><thead><tr><th align="left" id="d120287e231">
 
 Policy task
 
-</th><th align="left" id="d118548e234">
+</th><th align="left" id="d120287e234">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d118548e240">
+</th></tr></thead><tbody><tr><td id="d120287e240">
 
 **To verify a change or a document**
 
@@ -74,7 +74,7 @@ Action
 -   In the task form, in the **State** field, change the state of the task to **Closed Complete**.
 
 
-</td></tr><tr><td id="d118548e267">
+</td></tr><tr><td id="d120287e267">
 
 **To submit a review**
 

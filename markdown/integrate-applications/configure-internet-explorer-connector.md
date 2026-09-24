@@ -3,9 +3,9 @@ title: Configure the Internet Explorer connector
 description: Access the IE connector methods at all levels by configuring the IE connector. When you configure the IE connector, you capture a screen and its elements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/configure-internet-explorer-connector.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [IE connector, Connectors, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,7 +16,7 @@ Access the IE connector methods at all levels by configuring the IE connector. W
 
 ## Before you begin
 
-Add the Internet Explorer plugin from the Plugins Manager. For more information about adding the SSH plugin, see [Manage plugins in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/install-plugins-rpa-studio.md).
+Add the Internet Explorer plugin from the Plugins Manager. For more information about adding the SSH plugin, see [Manage plugins in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/install-plugins-rpa-studio.md).
 
 Ensure that at least a website or an application on the Internet Explorer browser window is open or active.
 
@@ -46,7 +46,7 @@ Role required: none
 
 8.  Click **Capture Element**.
 
-    For more information on the context dialog, see [Use the Capture element dialog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-context-dialog.md).
+    For more information on the context dialog, see [Use the Capture element dialog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/use-context-dialog.md).
 
 9.  Move the mouse device over the web page to capture the element.
 
@@ -76,5 +76,5 @@ Role required: none
 14. Repeat the steps to capture multiple elements.
 
 
-**Parent Topic:**[IE connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/internet-explorer-connector.md)
+**Parent Topic:**[IE connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/internet-explorer-connector.md)
 

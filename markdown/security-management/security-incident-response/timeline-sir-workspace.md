@@ -3,11 +3,11 @@ title: Timeline in Security Incident Response Workspace
 description: The timeline provides a chronological view of events related to a security incident. Events appear as point events or range events. Administrators can configure which events appear on the timeline and what details are shown in event popovers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/timeline-sir-workspace.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-05-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [security incident timeline, timeline events]
 breadcrumb: [Configure, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
@@ -41,10 +41,10 @@ The base system provides 13 predefined event configurations.
 
 **Note:** You can modify base system event configurations or create custom configurations to suit your organization's requirements.
 
--   **[Configure timeline event configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-timeline-events-sir.md)**  
+-   **[Configure timeline event configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/configure-timeline-events-sir.md)**  
 Create or modify timeline event configurations to control which events appear on the security incident timeline.
 
-**Parent Topic:**[Configuring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
+**Parent Topic:**[Configuring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
 
 **Related topics**  
 

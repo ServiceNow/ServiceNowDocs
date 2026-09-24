@@ -3,11 +3,11 @@ title: Execute recall campaigns faster agentic workflow
 description: Use MCO AI agents agentic workflow to generate the corrective actions and charges for the required repair documents quickly and efficiently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-execute-recall-campaigns-faster-ai-wf.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use agentic workflows, ServiceNow Otto for MCO, Manufacturing Commercial Operations]
+breadcrumb: [Agentic workflows, Use, Manufacturing Commercial Operations]
 ---
 
 # Execute recall campaigns faster agentic workflow
@@ -35,4 +35,6 @@ To access the agentic workflow:
 |--------|-------------|
 |Create recall corrective actions|The Create recall corrective actions AI agent extracts information from repair documents, identifies relevant data, and generates corrective actions with corresponding charges.|
 |Plan and execute recall campaign phases and subphases|The Plan and execute recall campaign phases and subphases AI agent plans and executes recall campaigns through phases and sub-phases. It generates phase plans considering parts availability, asset location, operational readiness, and regulatory approvals, then supports creation, modification, approval, and asset assignment.|
+
+**Parent Topic:**[Using agentic workflows in ServiceNow Otto for Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-use-agenetic-workflows.md)
 

@@ -3,9 +3,9 @@ title: View recommended actions in AI Data Explorer
 description: Receive AI recommendations of actions to take based on your current exploration in AI Data Explorer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/expl-view-recommended-actions.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
@@ -24,13 +24,13 @@ Role required: now\_assist\_explorer\_user
 
 1.  Launch AI Data Explorer.
 
-    For more information, see [Launch AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/launch-ai-data-explorer.md).
+    For more information, see [Launch AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/launch-ai-data-explorer.md).
 
 2.  Open an exploration that already has generated insights.
 
 3.  For best results, set an exploration goal.
 
-    For more information, see [Setting exploration goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/goals-questions.md).
+    For more information, see [Setting exploration goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/goals-questions.md).
 
 4.  Perform one of the following actions:
 
@@ -56,5 +56,5 @@ Role required: now\_assist\_explorer\_user
 10. When you have addressed the recommendations, you can press the **Regenerate** button after the recommendations to generate new recommendations.
 
 
-**Parent Topic:**[Using AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/use-aide.md)
+**Parent Topic:**[Using AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/use-aide.md)
 

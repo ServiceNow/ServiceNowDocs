@@ -3,11 +3,11 @@ title: Explore Mapping
 description: After you identify the specific correlation rule and notable event type for the profile, the next step is to map individual notable event fields to the fields on a ServiceNow AI Platform Security Incident Response \(SIR\) security incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/splunk-event-ingest\_mapping-security.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Set up a profile for scheduled notable event ingestion, Create an event profile, Splunk Enterprise Security event ingestion integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

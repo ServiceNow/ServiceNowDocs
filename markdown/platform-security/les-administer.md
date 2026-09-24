@@ -1,23 +1,25 @@
 ---
 title: Administering Log Export Service \(LES\)
-description: Use LES to create log source configuration and multi-topics for each source type.
+description: Use LES to create log source configurations, manage multi-topics per source type, and run on-demand exports of existing logs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/les-administer.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Log Export Service \(LES\), Platform Security]
 ---
 
 # Administering Log Export Service \(LES\)
 
-Use LES to create log source configuration and multi-topics for each source type.
+Use LES to create log source configurations, manage multi-topics per source type, and run on-demand exports of existing logs.
 
--   **[Create a log source configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-create-source-configuration.md)**  
+-   **[Create a log source configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/les-create-source-configuration.md)**  
 Regulate and set filters on the logs to be forwarded by creating a log source configuration.
--   **[Update system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/update-system-property.md)**  
+-   **[Export existing logs on demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/les-export-existing-logs-on-demand.md)**  
+Replay historical log data from a supported table to a Hermes topic by creating and starting a Backfill Run. Use this process to export logs from a specific time range for analysis or archival.
+-   **[Update system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/update-system-property.md)**  
 Update the glide.les.disable\_logs\_forwarding system property within the Log Export Service application to control log forwarding during migration or database reseeding operations.
 
-**Parent Topic:**[Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-intro.md)
+**Parent Topic:**[Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/les-intro.md)
 

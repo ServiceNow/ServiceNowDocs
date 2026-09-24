@@ -3,11 +3,11 @@ title: Create a self-health monitor with a custom script
 description: You can create a self-health monitor to use custom health monitor script to monitor specified Event Management components.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/custom-configure-threshold-monitoring.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Self-health monitors for Event Management, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -90,7 +90,7 @@ Connectors Status
 
 </td><td>
 
-Monitor to track the active status of the connectors. Select only one threshold to configure which severity to invoke using 1 to select the threshold field or 0 to ignore the threshold field. For more information, see [Connector status example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-threshold-monitoring.md). Health Monitor script selected: `Connectors Monitor`.
+Monitor to track the active status of the connectors. Select only one threshold to configure which severity to invoke using 1 to select the threshold field or 0 to ignore the threshold field. For more information, see [Connector status example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-threshold-monitoring.md). Health Monitor script selected: `Connectors Monitor`.
 
 </td></tr><tr><td>
 
@@ -179,7 +179,7 @@ Script
 
 </td><td>
 
-Monitoring script. Click the search icon. The existing scripts are listed in the Health Monitor Scripts screen, or click **New** to create a custom health monitor script. For more information about creating a custom health monitor script, see step [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/custom-configure-threshold-monitoring.md).
+Monitoring script. Click the search icon. The existing scripts are listed in the Health Monitor Scripts screen, or click **New** to create a custom health monitor script. For more information about creating a custom health monitor script, see step [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/custom-configure-threshold-monitoring.md).
 
 </td></tr><tr><td colspan="2">
 
@@ -226,11 +226,9 @@ Additional information
 Further information about the monitor.
 
 </td></tr></tbody>
-</table>3.  On the Monitoring Configuration form, next to the **Script** field, click the search icon.
+</table>3.  On the Monitoring Configuration form, next to the **Script** field, click the search icon to open the Health Monitor Scripts form.
 
     To create a custom health monitor script, click **New**.
-
-    The Health Monitor Scripts form opens.
 
 4.  On the form, fill in the fields.
 
@@ -272,7 +270,7 @@ Script
 
 </td><td>
 
-Custom script to run when called from a monitor. A script template is provided as a guide. You can use the [Health monitor scripts provided with the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/custom-configure-threshold-monitoring.md) as examples of how to author the script, and use the script editor tools.
+Custom script to run when called from a monitor. A script template is provided as a guide. You can use the [Health monitor scripts provided with the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/custom-configure-threshold-monitoring.md) as examples of how to author the script, and use the script editor tools.
 
 Ensure that the custom script includes:Run the monitor function, which is called according to the "monitoring job frequency” setting **runUpdateHealthMonitorScripts\(scriptId\)**. Add this function to run the monitoring logic.
 
@@ -293,7 +291,7 @@ Ensure that the custom script includes:Run the monitor function, which is called
 
     These tables are initialized inside **runInsertHealthMonitorScripts**.
 
-    For more information about script includes and APIs, see:Script includes that are [installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/r_InstalledWithEventManagement.md)
+    For more information about script includes and APIs, see:Script includes that are [installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/r_InstalledWithEventManagement.md)
 
 5.  Click **Submit**.
 
@@ -302,5 +300,5 @@ Ensure that the custom script includes:Run the monitor function, which is called
 
 To monitor the Event Management components that you specify, you can configure a self-health monitor that uses the custom health monitor script that you created.
 
-**Parent Topic:**[Self-health monitors for Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/self-monitoring.md)
+**Parent Topic:**[Self-health monitors for Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/self-monitoring.md)
 

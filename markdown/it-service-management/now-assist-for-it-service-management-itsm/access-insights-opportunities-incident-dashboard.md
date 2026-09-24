@@ -3,7 +3,7 @@ title: Access the Insights and Opportunities for Incident dashboard
 description: Monitor incident trends, SLA compliance, sentiment, and operational patterns using the Insights and Opportunities for Incident dashboard in Service Operations Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/access-insights-opportunities-incident-dashboard.html
-release: australia
+release: brazil
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task

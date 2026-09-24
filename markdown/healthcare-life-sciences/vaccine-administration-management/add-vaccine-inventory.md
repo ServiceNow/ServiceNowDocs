@@ -3,11 +3,11 @@ title: Create vaccine models
 description: Create a vaccine model to track and manage different vaccines under Vaccine Administration Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/vaccine-administration-management/add-vaccine-inventory.html
-release: australia
+release: brazil
 product: Vaccine Administration Management
 classification: vaccine-administration-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Vaccine Administration Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -197,5 +197,5 @@ Information about the model that would be helpful for others to know.
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
+**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
 

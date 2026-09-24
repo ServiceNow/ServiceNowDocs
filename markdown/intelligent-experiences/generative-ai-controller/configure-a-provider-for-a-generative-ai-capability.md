@@ -3,13 +3,13 @@ title: Set a provider for a generative AI capability
 description: Configure LLM providers for Generative AI Controller at the backend level. For most use cases, configure capabilities using AI Admin Hub.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generative-ai-controller/configure-a-provider-for-a-generative-ai-capability.html
-release: australia
+release: brazil
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Set a provider for a generative AI capability
@@ -18,7 +18,7 @@ Configure LLM providers for Generative AI Controller at the backend level. For m
 
 ## Before you begin
 
-Configure your credentials for your preferred provider. See [Configuring API credentials for generative AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/configuring-api-credentials-for-generative-ai-capabilities.md) for more details.
+Configure your credentials for your preferred provider. See [Configuring API credentials for generative AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/generative-ai-controller/configuring-api-credentials-for-generative-ai-capabilities.md) for more details.
 
 Role required: admin
 
@@ -102,5 +102,5 @@ The provider configuration is applied at the OneExtend Capability level and is a
 
 ## What to do next
 
-To configure generative AI capabilities through the standard approach, see , [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md), and [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+To configure generative AI capabilities through the standard approach, see [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platai-generative-ai-skills.md), [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md), and [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md).
 

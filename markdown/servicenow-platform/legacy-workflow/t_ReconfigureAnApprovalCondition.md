@@ -3,11 +3,11 @@ title: Reconfigure an approval condition
 description: Approval activities react differently to script errors than the other activities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/t\_ReconfigureAnApprovalCondition.html
-release: australia
+release: brazil
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workflow error handling, Workflow administration, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -35,5 +35,5 @@ Approval activity script errors can prevent an approval from being processed suc
 4.  Click **Update**.
 
 
-**Parent Topic:**[Workflow error handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/c_WorkflowErrorHandling.md)
+**Parent Topic:**[Workflow error handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/legacy-workflow/c_WorkflowErrorHandling.md)
 

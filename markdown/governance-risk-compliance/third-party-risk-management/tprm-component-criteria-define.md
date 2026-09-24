@@ -3,11 +3,11 @@ title: Define component criteria
 description: Components are the entities for which you can assess risk \(for example, subsidiaries or engagements\). A component criteria is a group of components that should apply to a particular type of third party or engagement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-component-criteria-define.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Classic assessments, Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -35,6 +35,8 @@ Components are the entities for which you can assess risk. The base system comes
     -   Principal
     -   Facility
     -   Other
+    -   AI use case
+    -   AI model
 
 You can view the third party or engagement components by navigating to **Third-party Risk Management** &gt; **Scoring Setup** &gt; **Third-party Components** or **Third-party Risk Management** &gt; **Scoring Setup** &gt; **Engagement Components**.
 

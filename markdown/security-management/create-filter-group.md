@@ -3,9 +3,9 @@ title: Create and define filter groups in Security Operations
 description: Create and use filter groups to locate records from any table on your instance. For example, you can create a group of all computers by the same manufacturer. You can also filter configuration items \(CIs\) that have similar vulnerabilities or that fall within a particular subnet IP address range.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/create-filter-group.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Security Operations common functionality, Security Operations]
 ---
@@ -92,7 +92,7 @@ Condition
 
 </td><td>
 
-Use the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) to define the criteria to be filtered.
+Use the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ConditionBuilder.md) to define the criteria to be filtered.
 
 </td></tr></tbody>
 </table>4.  Select and hold \(or right-click\) the form header and select **Save**.
@@ -136,5 +136,5 @@ Use the [condition builder](https://raw.githubusercontent.com/ServiceNow/Service
     2.  If you changed the criteria, refresh the list by right-clicking in the form header and selecting **Refresh List**.
 
 
-**Parent Topic:**[Security Operations common functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sec-ops-common-functionality.md)
+**Parent Topic:**[Security Operations common functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sec-ops-common-functionality.md)
 

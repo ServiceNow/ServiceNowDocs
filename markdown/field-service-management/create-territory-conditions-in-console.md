@@ -3,9 +3,9 @@ title: Enable identification of relevant territories for a work order or work or
 description: Enable identification of the most relevant territories for work orders or work order tasks by setting matching rules and conditions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/create-territory-conditions-in-console.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Field Service Territory Planning Console, CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---

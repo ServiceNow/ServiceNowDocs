@@ -3,9 +3,9 @@ title: Save and use filters in a list view
 description: Depending on your access rights, you may save filters for everyone, a user group, or yourself. You can apply saved filters and edit or delete them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_SavingFilters.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Filters and breadcrumbs, Lists in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -22,7 +22,7 @@ Role required: varies depending on action. See procedure.
 
 ## Procedure
 
-1.  Navigate to a list and create or modify a filter as described in [Create a filter in List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreatingFilters.md).
+1.  Navigate to a list and create or modify a filter as described in [Create a filter in List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_CreatingFilters.md).
 
 2.  Select **Save...**.
 
@@ -34,7 +34,7 @@ Role required: varies depending on action. See procedure.
 
 4.  Select one of the following visibility options.
 
-<table id="choicetable_v1q_3x2_pv"><tbody><tr><td id="d56213e109">
+<table id="choicetable_v1q_3x2_pv"><tbody><tr><td id="d57052e109">
 
 **Me**
 
@@ -42,7 +42,7 @@ Role required: varies depending on action. See procedure.
 
 Creates a personal filter, which only you can access. If you don’t have Write access to the User field, this option isn't available. See your administrator for more information.
 
-</td></tr><tr><td id="d56213e121">
+</td></tr><tr><td id="d57052e121">
 
 **Everyone**
 
@@ -50,7 +50,7 @@ Creates a personal filter, which only you can access. If you don’t have Write 
 
 Creates a global filter, which all users can access. This option is available to users with the filter\_global role.
 
-</td></tr><tr><td id="d56213e130">
+</td></tr><tr><td id="d57052e130">
 
 **Group**
 
@@ -76,5 +76,5 @@ Creates a group filter, which only members of the user group you select can acce
     4.  If you edited the filter, select **Update**.
 
 
-**Parent Topic:**[Filters and breadcrumbs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingFiltersAndBreadcrumbs.md)
+**Parent Topic:**[Filters and breadcrumbs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_UsingFiltersAndBreadcrumbs.md)
 

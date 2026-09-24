@@ -3,11 +3,11 @@ title: Create a project status report
 description: Create project status report from the related lists of the project form. The project status report created for the most recent status date updates the status of the project in portfolios.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_CreateAProjectStatusReport.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -32,15 +32,15 @@ You can also print a project status report from project workspace. To print a re
 
 1.  Create a project status report.
 
-<table id="choicetable_ft2_dt1_wbb"><thead><tr><th align="left" id="d61153e88">
+<table id="choicetable_ft2_dt1_wbb"><thead><tr><th align="left" id="d60513e88">
 
 Option
 
-</th><th align="left" id="d61153e91">
+</th><th align="left" id="d60513e91">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d61153e97">
+</th></tr></thead><tbody><tr><td id="d60513e97">
 
 **From project workspace**
 
@@ -52,7 +52,7 @@ Steps
 
 **Note:** Alternatively, select a status report and select **Copy** from the choice list next to **Create new**. This option copies the selected status report including all fields into the new report.
 
-</td></tr><tr><td id="d61153e150">
+</td></tr><tr><td id="d60513e150">
 
 **From project record**
 
@@ -66,15 +66,15 @@ Steps
 </td></tr></tbody>
 </table>2.  On the status report form, fill in the details.
 
-    For more information, see [Status report form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/status-report-form-project-management.md).
+    For more information, see [Status report form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/status-report-form-project-management.md).
 
 3.  Select **Submit**.
 
 
--   **[View project status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/project-status-report.md)**  
+-   **[View project status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/project-status-report.md)**  
 Project status reports provide the most recent, at-a-glance progress of a project displayed in several categories.
 
-**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
+**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CreateAProject.md)
 
 **Related topics**  
 
@@ -96,6 +96,10 @@ Project status reports provide the most recent, at-a-glance progress of a projec
 [Create an expense line]()
 
 [Create and manage waterfall projects]()
+
+[Schedule a project from a start date]()
+
+[Apply or change a task constraint]()
 
 [Update a project]()
 
@@ -123,7 +127,7 @@ Project status reports provide the most recent, at-a-glance progress of a projec
 
 [Migrate financial baselines of projects to Next Experience]()
 
-[View project status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/project-status-report.md)
+[View project status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/project-status-report.md)
 
-[Status report form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/status-report-form-project-management.md)
+[Status report form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/status-report-form-project-management.md)
 

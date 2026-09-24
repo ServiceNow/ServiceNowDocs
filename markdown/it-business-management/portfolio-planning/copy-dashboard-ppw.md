@@ -3,11 +3,11 @@ title: Duplicate a dashboard
 description: If the dashboard you want to create is similar to an existing one, duplicating the existing dashboard saves your time. After duplicating the dashboard, you can customize the tabs and widgets as required.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/copy-dashboard-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Use dashboards, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -52,18 +52,18 @@ The dashboard is copied with the new name. The appearance of the dashboard is id
 
 ## What to do next
 
-Edit a dashboard as needed by adding sections, filters, images, lists, process mining maps, and rich text. For more information, see [Edit a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/edit-dashboard-ppw.md).
+Edit a dashboard as needed by adding sections, filters, images, lists, process mining maps, and rich text. For more information, see [Edit a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/edit-dashboard-ppw.md).
 
-**Parent Topic:**[Using dashboards in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/using-dashboards-in-ppw.md)
+**Parent Topic:**[Using dashboards in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/using-dashboards-in-ppw.md)
 
 **Related topics**  
 
 
-[View a dashboard in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/view-dashboard-ppw.md)
+[View a dashboard in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/view-dashboard-ppw.md)
 
-[Create a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-dashboard-ppw.md)
+[Create a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/create-dashboard-ppw.md)
 
-[Share a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/share-dashboard-ppw.md)
+[Share a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/share-dashboard-ppw.md)
 
-[Add a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/add-platform-dashboard-to-ppw.md)
+[Add a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/add-platform-dashboard-to-ppw.md)
 

@@ -3,9 +3,9 @@ title: Create a lead
 description: Create a lead in the Lead Management application by entering the details, such as customer name, sales stage, lead type, score, and source.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-new-lead.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Lead Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -133,14 +133,14 @@ Channel or origin through which the lead was acquired. The available options are
 
 ## What to do next
 
-Start adding more information to your lead. To learn more, see [Add and view the details of a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-details-tab.md).
+Start adding more information to your lead. To learn more, see [Add and view the details of a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/lead-management-details-tab.md).
 
-**Parent Topic:**[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-using.md)
+**Parent Topic:**[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/lead-management-using.md)
 
 **Related topics**  
 
 
-[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-lead-management.md)
+[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-lead-management.md)
 
-[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management.md)
+[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/lead-management.md)
 

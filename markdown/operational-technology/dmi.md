@@ -3,9 +3,9 @@ title: Device Management Interface
 description: The Device Management Interface \(DMI\) is a web-based interface where you configure and register a Discovery Sensor for OT to the Discovery Console for OT.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/dmi.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure the Discovery Sensor for OT, Discovery Sensor for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -27,7 +27,7 @@ Once the Console is deployed and you have registered the Sensor, you can create 
 -   Auto Query
 -   Quick Scan
 
-For more information about these Console features, see [Discovery Console for Operational Technology \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-discovery-console-landing.md).
+For more information about these Console features, see [Discovery Console for Operational Technology \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/ot-discovery-console-landing.md).
 
 ## DMI pages
 
@@ -76,5 +76,5 @@ The following sections describe the pages available on the DMI.
 
 \[Omitted image "dmi-sans-rabbitmq.png"\] Alt text: DMI page
 
-**Parent Topic:**[Configure the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-discovery-sensor-ot.md)
+**Parent Topic:**[Configure the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/configure-discovery-sensor-ot.md)
 

@@ -3,11 +3,11 @@ title: Use the agent calendar
 description: Users with the agent calendar user role can add events to their personal calendar and configure the calendar to show or hide different types of events.Users with the agent schedule user role can add events to their personal calendar.Users with the agent schedule user role can move events on their personal calendar.Users with the agent schedule user role can personalize their calendar and show or hide different types of events.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/use-agent-calendar.html
-release: australia
+release: brazil
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Managing agent skills,schedules, and tasks, Managing workforce, Use, Field Service Management]
 ---
@@ -19,9 +19,9 @@ Users with the agent calendar user role can add events to their personal calenda
 **Related topics**  
 
 
-[Configuring an agent calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/configure-agent-calendar.md)
+[Configuring an agent calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/configure-agent-calendar.md)
 
-[Managing agent calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/agent-calendar.md)
+[Managing agent calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-manager-workforce/agent-calendar.md)
 
 ## Add an event to the agent calendar
 
@@ -228,7 +228,7 @@ Role required: agent\_schedule\_user
     -   **Field Service** &gt; **Agent** &gt; **My Schedule**
 2.  Use one of the following methods to move an event.
 
-<table id="choicetable_ezl_bqb_hx"><tbody><tr><td id="d76515e628">
+<table id="choicetable_ezl_bqb_hx"><tbody><tr><td id="d78963e628">
 
 **Click an event and drag it to a new day or time**
 
@@ -236,7 +236,7 @@ Role required: agent\_schedule\_user
 
 The **When** and **To** fields in the event record are updated with the new information.
 
-</td></tr><tr><td id="d76515e643">
+</td></tr><tr><td id="d78963e643">
 
 **Double-click an event to open the event record**
 

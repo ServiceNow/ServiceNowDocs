@@ -1,18 +1,18 @@
 ---
-title: Activate Incident Management for Field Service
+title: Install Incident Management for Field Service
 description: You can install the Incident Management for Field Service application \(sn\_fsm\_inc\_mng\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-integrations/Install-incident-for-fsm.html
-release: australia
+release: brazil
 product: Field Service Integrations
 classification: field-service-integrations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integration with Incident Management, Integrating Field Service Management with other applications, Configure, Field Service Management]
 ---
 
-# Activate Incident Management for Field Service
+# Install Incident Management for Field Service
 
 You can install the Incident Management for Field Service application \(sn\_fsm\_inc\_mng\) if you have the admin role.The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
 
@@ -23,7 +23,7 @@ You can install the Incident Management for Field Service application \(sn\_fsm\
     -   **Required ServiceNow plugins**
         -   **CRM Workspace \(com.snc.uib.csm\_agent\_workspace\)**
 
-            Enable your agents so they can engage with customers, answer questions, create cases, and resolve issues. For more information, see [Set up CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-set-up.md).
+            Enable your agents so they can engage with customers, answer questions, create cases, and resolve issues. For more information, see [Set up CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-config-workspace-set-up.md).
 
 
 Role required: admin
@@ -49,5 +49,5 @@ Role required: admin
 5.  Select **Install**.
 
 
-**Parent Topic:**[Integration with Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/incident-for-fsm.md)
+**Parent Topic:**[Integration with Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-integrations/incident-for-fsm.md)
 

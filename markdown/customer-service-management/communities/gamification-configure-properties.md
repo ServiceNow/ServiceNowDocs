@@ -3,11 +3,11 @@ title: Configure gamification properties
 description: Configure gamification properties to meet your company's needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/gamification-configure-properties.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Administer gamification, Configuring communities, Communities, Customer Service Management]
 ---
@@ -19,6 +19,10 @@ Configure gamification properties to meet your company's needs.
 ## Before you begin
 
 Role required: sn\_gamification.admin
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Procedure
 
@@ -32,8 +36,8 @@ Role required: sn\_gamification.admin
 
 4.  Click **Save**.
 
-    Additional properties can be configured for the gamification feature. For more information, see [Gamification properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communities-properties.md).
+    Additional properties can be configured for the gamification feature. For more information, see [Gamification properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/communities-properties.md).
 
 
-**Parent Topic:**[Administer gamification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communities-gamification-administer.md)
+**Parent Topic:**[Administer gamification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/communities-gamification-administer.md)
 

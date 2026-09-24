@@ -3,11 +3,11 @@ title: Update a project using a Microsoft Project file
 description: Import project data, from a Microsoft Project file, into an existing project in your ServiceNow instance using the Project form or Planning Console.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/import-prj-pc-pf.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-13"
 reading_time_minutes: 2
 breadcrumb: [Project import from Microsoft Project, Importing and exporting projects, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Import project data, from a Microsoft Project file, into an existing project in 
 
 ## Before you begin
 
-Create a [project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md).
+Create a [project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CreateAProject.md).
 
 Role required: it\_project\_manager
 
@@ -40,14 +40,14 @@ Role required: it\_project\_manager
 
         -   **Automatic**: Select this option to apply the scheduling engine while importing the project tasks. The supported constraint types are imported with the same constraints applied to them while other constraint types are converted to **Start on specific date**.
         -   **Manual**: Select this option to import all project tasks with the **Start on specific date** constraint type irrespective of their constraint type in Microsoft Project.
-        For more information about the supported constraint types, see [Project import from Microsoft Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/project-import-msp.md).
+        For more information about the supported constraint types, see [Project import from Microsoft Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/project-import-msp.md).
 
 5.  Select **Import**.
 
 
 ## Result
 
--   A project task that was imported in the ServiceNow instance earlier and has associated time cards, resource plans, cost plan, benefit plan, or expense lines is retained on reimport even if it is deleted from Microsoft Project.
+-   A project task that was imported earlier and has associated time cards, resource plans, cost plan, benefit plan, or expense lines is retained on reimport. This occurs even if the task is deleted from Microsoft Project.
 -   Dates in the ServiceNow project remain same as the dates in the Microsoft Project file.
 -   In a ServiceNow project with subprojects, the following details change:
     -   The WBS order of imported tasks is regenerated after import.
@@ -55,10 +55,10 @@ Role required: it\_project\_manager
     -   The **State** of the parent project and tasks are rolled up.
     -   The **% Complete** on the top task is rolled up.
 
-**Parent Topic:**[Project import from Microsoft Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/project-import-msp.md)
+**Parent Topic:**[Project import from Microsoft Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/project-import-msp.md)
 
 **Related topics**  
 
 
-[Importing and exporting projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectImportAndExport.md)
+[Importing and exporting projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_ProjectImportAndExport.md)
 

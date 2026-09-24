@@ -3,13 +3,13 @@ title: Configure Atlassian Confluence Cloud for external content indexing
 description: Register an OAuth 2.0 integration in the Atlassian Developer console and create an API key in Atlassian Administration to allow the Atlassian Confluence Cloud external content connector to crawl spaces and security principals in your Atlassian Confluence Cloud source system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/cfg-conf-cc-ext-cont-connector.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Atlassian Confluence Cloud external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -62,7 +62,7 @@ To allow the connector to access your Atlassian Confluence Cloud source system v
 
 1.  In the Atlassian Developer console, register a new OAuth 2.0 integration for the Atlassian Confluence Cloud external content connector.
 
-    1.  Login to the Atlassian Developer console at [https://developer.atlassian.com/console/myapps/](https://developer.atlassian.com/console/myapps/).
+    1.  Log in to the Atlassian Developer console at [https://developer.atlassian.com/console/myapps/](https://developer.atlassian.com/console/myapps/).
 
     2.  In the My apps section, select **Create** &gt; **OAuth 2.0 integration**.
 
@@ -115,7 +115,7 @@ To allow the connector to access your Atlassian Confluence Cloud source system v
 
 2.  In Atlassian Administration, create a new admin API key.
 
-    1.  Login to Atlassian Administration at [https://admin.atlassian.com/](https://admin.atlassian.com/).
+    1.  Log in to Atlassian Administration at [https://admin.atlassian.com/](https://admin.atlassian.com/).
 
     2.  Select **Settings** in the tab list.
 
@@ -150,14 +150,14 @@ To allow the connector to access your Atlassian Confluence Cloud source system v
 
 Provide the following items to your connector administrator:
 
--   The OAuth 2.0 integration's Client ID and Secret values that you recorded in step [1.j](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/cfg-conf-cc-ext-cont-connector.md).
--   The API key's value that you recorded in step [2.g](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/cfg-conf-cc-ext-cont-connector.md).
+-   The OAuth 2.0 integration's Client ID and Secret values that you recorded in step [1.j](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/cfg-conf-cc-ext-cont-connector.md).
+-   The API key's value that you recorded in step [2.g](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/cfg-conf-cc-ext-cont-connector.md).
 
 Your connector administrator needs these items to configure an Atlassian Confluence Cloud external content connector to retrieve searchable content and security principals from your Atlassian Confluence Cloud instance.
 
-For details on creating and configuring an Atlassian Confluence Cloud external content connector, see [Create an Atlassian Confluence Cloud external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-acc.md).
+For details on creating and configuring an Atlassian Confluence Cloud external content connector, see [Create an Atlassian Confluence Cloud external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-ext-cont-connector-acc.md).
 
 **Note:** By default, the Atlassian Confluence Cloud external content connector only retrieves content access permissions for Confluence Cloud users who are managed by your organization. Other Confluence Cloud users can allow the connector to retrieve their content access permissions by setting their own email visibility to **Anyone** as explained in the [https://support.atlassian.com/confluence-cloud/docs/configure-user-email-visibility/](https://support.atlassian.com/confluence-cloud/docs/configure-user-email-visibility/) Atlassian support resource.
 
-**Parent Topic:**[Atlassian Confluence Cloud external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/atlassian-confluence-cloud-external-content-connector.md)
+**Parent Topic:**[Atlassian Confluence Cloud external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/atlassian-confluence-cloud-external-content-connector.md)
 

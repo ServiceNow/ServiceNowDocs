@@ -3,9 +3,9 @@ title: Renew
 description: Renew customer contracts, contract lines, and entitlements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/Renew.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Contracts and Entitlements Workflows, Customer Contracts and Entitlements, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---

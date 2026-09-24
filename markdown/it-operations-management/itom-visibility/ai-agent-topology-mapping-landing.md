@@ -3,11 +3,11 @@ title: AI Agent Topology Mapping
 description: With AI Agent Topology Mapping, you can use patterns to identify AI infrastructure components across cloud platforms in your organization. Discover your AI agents, models, and prompts, and get centralized CMDB visibility to track security compliance and vulnerabilities across your AI deployments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/ai-agent-topology-mapping-landing.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ITOM Visibility, IT Operations Management]
 ---
@@ -24,15 +24,15 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 <table id="table_qln_mhg_23c" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about AI Agent Topology Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/exploring-ai-agent-topology-mapping.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about AI Agent Topology Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/exploring-ai-agent-topology-mapping.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install AI Agent Topology Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/configuring-ai-agent-topology-mapping.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install AI Agent Topology Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/configuring-ai-agent-topology-mapping.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about CI tables, fields, and relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/ai-agent-topology-mapping-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about CI tables, fields, and relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/ai-agent-topology-mapping-reference.md)
 
 </td></tr></tbody>
 </table>

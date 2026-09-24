@@ -3,7 +3,7 @@ title: Duplicate a Platform Analytics dashboard
 description: Duplicate a dashboard created in the in-line editor so that you can share a modified version with different users.Duplicate a dashboard tab created in the in-line editor so that you can add related important content. When you add your first tab to a dashboard, there’s a new part of the layout below the title and above the tabs. Add elements above the tabs that are visible no matter which tab has focus.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/duplicate-db.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2025-10-27"
 reading_time_minutes: 2
@@ -19,7 +19,7 @@ Duplicate a dashboard created in the in-line editor so that you can share a modi
 
 Role required: At least one role, as well as access to the dashboard.
 
-**Note:** This task only applies to dashboards created in the in-line editor. To work with dashboards created in UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md).
+**Note:** This task only applies to dashboards created in the in-line editor. To work with dashboards created in UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder-overview.md).
 
 ## About this task
 
@@ -56,7 +56,7 @@ Duplicate a dashboard tab created in the in-line editor so that you can add rela
 
 Role required: At least one role, as well as edit rights to the dashboard.
 
-**Note:** This task only applies to dashboards created in the in-line editor. To work with dashboards created in UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md).
+**Note:** This task only applies to dashboards created in the in-line editor. To work with dashboards created in UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder-overview.md).
 
 ### Procedure
 

@@ -3,11 +3,11 @@ title: Equipment holder extension classes
 description: The Equipment Holder extension classes are the sub-classes that are extended from the Equipment Holder. You can define equipment holder records for these classes in the Telecommunications Network Inventory application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/equipment-holder-types.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
@@ -46,7 +46,7 @@ cmdb\_ci\_equipment\_holder
 
 </td><td>
 
-A telecommunications cabinet, also known as a telecom cabinet or equipment cabinet, is a physical enclosure used to house and protect various telecommunications and network equipment, such as switches, routers, patch panels, and power supplies. It provides a secure and organized environment for the installation, management, and interconnection of telecommunications infrastructure within a network or data center.
+A telecommunications cabinet, also known as a telecom cabinet or equipment cabinet, is a physical enclosure used to house and protect various telecommunications and network equipment. Examples include switches, routers, patch panels, and power supplies. It provides a secure and organized environment for the installation, management, and interconnection of telecommunications infrastructure within a network or data center.
 
 </td></tr><tr><td>
 
@@ -62,7 +62,7 @@ cmdb\_ci\_equipment\_holder
 
 </td><td>
 
-A multi-rack, also referred to as a multi-rack system or multi-rack enclosure, is a configuration consisting of multiple interconnected equipment racks used for housing and organizing a large amount of telecommunications or network equipment in a centralized manner. It provides expanded capacity and scalability, allowing for efficient deployment and management of equipment within data centers or telecommunication facilities.
+A multi-rack, also referred to as a multi-rack system or multi-rack enclosure, is a configuration of multiple interconnected equipment racks. It is used for housing and organizing a large amount of telecommunications or network equipment in a centralized manner. It provides expanded capacity and scalability, allowing for efficient deployment and management of equipment within data centers or telecommunication facilities.
 
 </td></tr><tr><td>
 
@@ -78,7 +78,7 @@ cmdb\_ci\_equipment\_holder
 
 </td><td>
 
-A rack, commonly known as a server rack or equipment rack, is a framework designed to securely hold and organize various IT and telecommunications equipment, such as servers, networking devices, and storage units. It provides a standardized form factor for easy installation, organization, and maintenance of equipment in data centers and other technology environments.
+A rack, commonly known as a server rack or equipment rack, is a framework designed to securely hold and organize various IT and telecommunications equipment. Examples include servers, networking devices, and storage units. It provides a standardized form factor for easy installation, organization, and maintenance of equipment in data centers and other technology environments.
 
 </td></tr><tr><td>
 
@@ -94,7 +94,7 @@ cmdb\_ci\_equipment\_holder
 
 </td><td>
 
-A shelf holder, also known as a rack shelf or equipment shelf, is a component designed to support and hold non-rackmount equipment or devices within a rack or equipment cabinet. It provides a stable platform for equipment that does not have built-in rackmount capabilities, allowing for efficient organization and integration of various devices within the rack infrastructure.
+A shelf holder, also known as a rack shelf or equipment shelf, is a component designed to support and hold non-rackmount equipment or devices. It fits within a rack or equipment cabinet. It provides a stable platform for equipment that does not have built-in rackmount capabilities, allowing for efficient organization and integration of various devices within the rack infrastructure.
 
 </td></tr><tr><td>
 
@@ -133,10 +133,10 @@ In our context, a slot that is present on a Card and can accommodate child cards
 Identification: Name \(100\). Name is discovered from SNMP. If not available, use the name of the card that is contained in this subslot.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
+</table>**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
 
 **Related topics**  
 
 
-[ede366041141768232d5979c423fe2306515ea1d.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment-holders.md)
+[b1d35984b5d54b6f7cdf924afb286502f3239a2b.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment-holders.md)
 

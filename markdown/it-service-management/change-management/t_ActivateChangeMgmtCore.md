@@ -3,11 +3,11 @@ title: Activate Change Management - Core
 description: You can activate the Change Management - Core plugin \(com.snc.change\_management\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_ActivateChangeMgmtCore.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Change Management plugins, Configure, Change Management, IT Service Management]
 ---
@@ -44,28 +44,28 @@ The Type value on existing the Change Requests will be updated as following:
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 
 ## What to do next
 
-You can activate one or more of the following [plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-plugins.md):
+You can activate one or more of the following [plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-plugins.md):
 
 -   State model \(com.snc.change\_management.state\_model\)
 -   Change Management - Collision Detector \(com.snc.change.collision\)
--   Change Management - change risk calculator \(com.snc.bestpractice.change\_risk\)
+-   Best practice - change risk calculator \(com.snc.bestpractice.change\_risk\)
 -   Change risk assessment \(com.snc.change\_management.risk\_assessment\)
 -   Standard change catalog \(com.snc.change\_management.standard\_change\_catalog\)
 -   Best practice - bulk CI changes \(com.snc.bestpractice.bulkchange\)
 -   Mass update CI \(com.snc.change\_management.mass\_update\_ci\)
 -   CAB workbench \(com.snc.change\_management.cab\)
 
-You can now [configure Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/configure-change-management.md).
+You can now [configure Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/configure-change-management.md).
 
--   **[Installed with Change Management - Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/r_InstlldWthChngMgmtCore.md)**  
+-   **[Installed with Change Management - Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/r_InstlldWthChngMgmtCore.md)**  
 Several types of components are installed with the Change Management - Core.
 
-**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-plugins.md)
+**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-plugins.md)
 
 **Related topics**  
 
@@ -112,5 +112,5 @@ Several types of components are installed with the Change Management - Core.
 
 [Activate Change Management - Data Archiving]()
 
-[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-of-plugins.md)
 

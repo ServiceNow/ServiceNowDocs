@@ -3,11 +3,11 @@ title: Configure allowed websites for adaptive desktop actions
 description: Specify a list of websites that AI agents configured with adaptive desktop actions are permitted to open and perform tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/na-ai-wa-configure-allowed-websites.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Adaptive desktop actions, Configure, AI Desktop Actions, Enable AI experiences]
+breadcrumb: [Adaptive desktop actions, Configure, AI Desktop Actions, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Configure allowed websites for adaptive desktop actions
@@ -55,9 +55,9 @@ When configuring an allow list, include your organization's websites. Work with 
 
 ## What to do next
 
--   [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-agents-ad.md)
+-   [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-ai-agents-ad.md)
 -   
 -   
 
-**Parent Topic:**[Configuration for adaptive path desktop actions for web](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ad-adaptive-path-da.md)
+**Parent Topic:**[Configuration for adaptive path desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ad-adaptive-path-da.md)
 

@@ -3,9 +3,9 @@ title: Use the Core UI navigator
 description: Everyone can collapse and expand the navigator, work with favorites, and view navigation history in Core UI.You can collapse or expand information in the application navigator to display only what you want to see.You can add, edit, or delete favorites for frequently accessed items in the application navigator.In Core UI, you can view your navigation history in the application navigator.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/ui16-navigator-tasks.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Core UI application navigator, Core UI, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 Complete any of the following tasks to work with the navigator in Core UI.
 
-**Parent Topic:**[Core UI application navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UI16ApplicationNavigator.md)
+**Parent Topic:**[Core UI application navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_UI16ApplicationNavigator.md)
 
 ## Collapse or expand information in the Core UI application navigator
 
@@ -36,7 +36,7 @@ Role required: none
 
 1.  Perform one of the following actions.
 
-<table id="choicetable_ah3_rs3_ks"><tbody><tr><td id="d122969e143">
+<table id="choicetable_ah3_rs3_ks"><tbody><tr><td id="d123596e143">
 
 **Collapse or expand an application or application section**
 
@@ -44,7 +44,7 @@ Role required: none
 
 Click the application or application section label.
 
-</td></tr><tr><td id="d122969e152">
+</td></tr><tr><td id="d123596e152">
 
 **Collapse or expand all applications**
 
@@ -52,7 +52,7 @@ Click the application or application section label.
 
 Double-click the all applications tab icon \(\[Omitted image "IconUI16AllApplications.png"\] Alt text: All applications tab icon\).
 
-</td></tr><tr><td id="d122969e167">
+</td></tr><tr><td id="d123596e167">
 
 **Collapse or expand the application navigator**
 
@@ -84,7 +84,7 @@ Favorites also appear in the collapsed view of the application navigator as icon
 
 1.  Add a favorite in one of the following ways.
 
-<table id="choicetable_wqh_2yx_pt"><tbody><tr><td id="d122969e289">
+<table id="choicetable_wqh_2yx_pt"><tbody><tr><td id="d123596e289">
 
 **Add a module as a favorite**
 
@@ -92,7 +92,7 @@ Favorites also appear in the collapsed view of the application navigator as icon
 
 In the application navigator, click the star icon by a module.
 
-</td></tr><tr><td id="d122969e298">
+</td></tr><tr><td id="d123596e298">
 
 **Add all the modules under an application as favorites**
 
@@ -100,7 +100,7 @@ In the application navigator, click the star icon by a module.
 
 In the application navigator, click the star icon by an application.
 
-</td></tr><tr><td id="d122969e307">
+</td></tr><tr><td id="d123596e307">
 
 **Add a list as a favorite using the list context menu**
 
@@ -112,7 +112,7 @@ In the application navigator, click the star icon by an application.
 4.  In the flyout, edit the name and icon as needed.
 
 
-</td></tr><tr><td id="d122969e340">
+</td></tr><tr><td id="d123596e340">
 
 **Add a list as a favorite by dragging and dropping**
 
@@ -122,7 +122,7 @@ In the application navigator, click the star icon by an application.
 2.  Drag a breadcrumb to the **Favorites** tab of the application navigator.
 
 
-</td></tr><tr><td id="d122969e361">
+</td></tr><tr><td id="d123596e361">
 
 **Add a record as a favorite using the form context menu**
 
@@ -134,7 +134,7 @@ In the application navigator, click the star icon by an application.
 4.  In the flyout, edit the name and icon as needed.
 
 
-</td></tr><tr><td id="d122969e395">
+</td></tr><tr><td id="d123596e395">
 
 **Add a record as a favorite by dragging and dropping**
 
@@ -144,7 +144,7 @@ In the application navigator, click the star icon by an application.
 2.  Drag the record title to the **Favorites** tab of the application navigator.
 
 
-</td></tr><tr><td id="d122969e416">
+</td></tr><tr><td id="d123596e416">
 
 **Add a different type of link as a favorite**
 
@@ -155,7 +155,7 @@ Drag a supported link type to the **Favorites** tab of the application navigator
 -   Reports
  **Note:** You may not be able to create bookmarks with other types of links.
 
-</td></tr><tr><td id="d122969e443">
+</td></tr><tr><td id="d123596e443">
 
 **Add a knowledge base article as a favorite**
 
@@ -174,7 +174,7 @@ Drag a supported link type to the **Favorites** tab of the application navigator
 
 2.  To edit or delete a favorite, complete any of the following actions.
 
-<table id="choicetable_zxc_mcg_qs"><tbody><tr><td id="d122969e491">
+<table id="choicetable_zxc_mcg_qs"><tbody><tr><td id="d123596e491">
 
 **Reorder favorites in the list**
 
@@ -185,7 +185,7 @@ Drag a supported link type to the **Favorites** tab of the application navigator
 3.  Click **Done** or **Edit Favorites**.
 
 
-</td></tr><tr><td id="d122969e521">
+</td></tr><tr><td id="d123596e521">
 
 **Customize the name or icon for a favorite**
 
@@ -197,7 +197,7 @@ Drag a supported link type to the **Favorites** tab of the application navigator
 4.  Click **Done** or **Edit Favorites**.
 
 
-</td></tr><tr><td id="d122969e554">
+</td></tr><tr><td id="d123596e554">
 
 **Delete a favorite**
 
@@ -221,7 +221,7 @@ Role required: none
 
 Items you have accessed recently appear in the history tab of the application navigator, which is represented by a clock icon. Items appear in chronological order from most to least recently accessed.
 
-\[Omitted image "UI16YourHistory.png"\] Alt text: History tab
+\[Omitted image "UI16YourHistory.png"\] Alt text:
 
 History entries are stored in the Navigator History \[sys\_ui\_navigator\_history\] table. The system creates history entries for many types of content, including lists, records, and dashboards. Some content types are not tracked in the history, such as UI pages and other non-standard interfaces.
 

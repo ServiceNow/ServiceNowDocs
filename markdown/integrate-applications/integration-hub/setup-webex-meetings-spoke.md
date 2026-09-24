@@ -3,7 +3,7 @@ title: Set up Cisco Webex Meetings spoke
 description: Integrate your ServiceNow instance and the Cisco Webex Meetings application by creating a custom OAuth application in Cisco DevNet to authenticate ServiceNow requests.Create a custom OAuth application in Cisco DevNet to enable OAuth 2.0 authentication with the Cisco Webex Meetings spoke.Add and configure a Cisco Webex Meetings connection to authenticate ServiceNow requests in the Cisco Webex Meetings spoke.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-webex-meetings-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -123,7 +123,7 @@ Role required: admin
 
         \[Omitted image "cisco-webex-meetings-conf1.png"\] Alt text: Click View Details to configure the default connection and credential alias record.
 
-    -   To manage more than one Cisco Webex Meetings spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    -   To manage more than one Cisco Webex Meetings spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
     \[Omitted image "cisco-webex-meetings-conf2.png"\] Alt text: Click Configure if you are configuring the spoke for the first time.

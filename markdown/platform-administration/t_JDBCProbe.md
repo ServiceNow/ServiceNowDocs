@@ -3,9 +3,9 @@ title: JDBCProbe
 description: A JDBC probe runs on the MID Server to query an external database via JDBC and returns results to ServiceNow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_JDBCProbe.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Supported integration interfaces, Integration options, Integration with third-party applications and data sources, Integrations, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -39,16 +39,16 @@ Contact Customer Service and Support to activate the **Integration - JDBC** \(co
 4.  Select **Activate**.
 
 
--   **[Direct JDBC Probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DirectJDBCProbe.md)**  
+-   **[Direct JDBC Probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_DirectJDBCProbe.md)**  
 A direct JDBC probe specifies all the parameters necessary in the outbound ECC Queue XML payload.
--   **[JDBC Probes via Data Source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_JDBCProbesViaDataSource.md)**  
+-   **[JDBC Probes via Data Source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_JDBCProbesViaDataSource.md)**  
 JDBC probes are executed via a JDBC data source when an import is running against the data source.
--   **[Select \* JDBC Probe short cut](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_SelectJDBCProbeShortCut.md)**  
+-   **[Select \* JDBC Probe short cut](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_SelectJDBCProbeShortCut.md)**  
 Alternatively, you may specify a **table\_name** parameter instead of a work element and the following query could be executed.
--   **[Parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_DirectJDBCProbeParameters.md)**  
+-   **[Parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_DirectJDBCProbeParameters.md)**  
 The following parameters are available in a direct JDBC probe.
--   **[Using the Work Element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UsingTheWorkElement.md)**  
+-   **[Using the Work Element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_UsingTheWorkElement.md)**  
 The work element encodes SQL statements to be executed by the probe.
 
-**Parent Topic:**[Supported integration interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_SupportedIntegrationInterfaces.md)
+**Parent Topic:**[Supported integration interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_SupportedIntegrationInterfaces.md)
 

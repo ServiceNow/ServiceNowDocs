@@ -3,11 +3,11 @@ title: Specify fields for the Cxs\_popup view
 description: Edit the Cxs\_popup view to specify the fields to be shown for addition resources in the preview window of a task record. The preview helps you with the summary of the record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/contextual-search/def-fields-addi-resource-preview.html
-release: australia
+release: brazil
 product: Contextual Search
 classification: contextual-search
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing contextual search, Contextual search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -43,5 +43,5 @@ If a Cxs\_popup view isn't defined for the additional resource table, the sys\_p
 6.  Select **Save**.
 
 
-**Parent Topic:**[Managing contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/working-with-contextual-search.md)
+**Parent Topic:**[Managing contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/contextual-search/working-with-contextual-search.md)
 

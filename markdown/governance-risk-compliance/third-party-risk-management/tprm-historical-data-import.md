@@ -3,11 +3,11 @@ title: Import existing data from other systems
 description: Import existing data \(third parties, engagements, assessments, questionnaires, issues, and so on\) from other systems \(like the Aravo platform, the ProcessUnity platform, and so on\). You aren’t charged for importing the data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-historical-data-import.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-The overall process of importing data into your instance is discussed at [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/import-sets-landing-page.md).
+The overall process of importing data into your instance is discussed at [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/import-sets-landing-page.md).
 
 You will find a learning module that takes you through the process of importing data at [https://developer.servicenow.com/dev.do\#!/learn/courses/sandiego/app\_store\_learnv2\_importingdata\_sandiego\_importing\_data\_into\_servicenow](https://developer.servicenow.com/dev.do#!/learn/courses/sandiego/app_store_learnv2_importingdata_sandiego_importing_data_into_servicenow).
 
@@ -34,7 +34,7 @@ An article on running transform maps appears at [https://developer.servicenow.co
 
 1.  Create a transform map.
 
-    See [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_CreateATransformMap.md) for instructions.
+    See [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/t_CreateATransformMap.md) for instructions.
 
     **Important:** Clear the **Run business rules** check box before you run the transform map.
 
@@ -44,5 +44,5 @@ An article on running transform maps appears at [https://developer.servicenow.co
 **Related topics**  
 
 
-[Import a questionnaire from a spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/import-questions-from-excel.md)
+[Import a questionnaire from a spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/import-questions-from-excel.md)
 

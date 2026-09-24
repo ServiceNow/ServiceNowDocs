@@ -3,11 +3,11 @@ title: Legacy: Open Problem Age Monitor dashboard
 description: Use this dashboard to track the progress of open problems across different age buckets. You can break down the problems by priority or assignment group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/open-problem-age-monitor-dashboard.html
-release: australia
+release: brazil
 product: Problem Management
 classification: problem-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Legacy: Problem Management Platform Analytics Solutions, Problem Management, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Use this dashboard to track the progress of open problems across different age b
 
 **Important:**
 
-Starting in Xanadu release, the Problem age dashboard is deprecated. Users can use [Problem dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem.md) to view, and track the open problems.
+Starting in Xanadu release, the Problem age dashboard is deprecated. Users can use [Problem dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem.md) to view, and track the open problems.
 
 \[Omitted image "problem-open-age-monitor.png"\] Alt text: Open Problem Age Monitor workbench
 

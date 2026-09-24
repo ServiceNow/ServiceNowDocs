@@ -3,11 +3,11 @@ title: Set use cases
 description: Use cases are common patterns that you may be interested in your analysis. Once enabled, they’re automatically configured for the project.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/adv-settings.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Scoping your analysis, Create a project or template using Project Builder, Use, Process Mining, Platform Analytics]
 ---
@@ -46,7 +46,7 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
 
 7.  Select the **Include child tables for analysis** option if you want to add a related table to your parent table.
 
-    This field is available only if you have specified the Child tables section of the Process details page in the process configuration. For more information, see [Configure process details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-details.md).
+    This field is available only if you have specified the Child tables section of the Process details page in the process configuration. For more information, see [Configure process details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/process-details.md).
 
     Child tables include data of dependent subprocesses that are important for the execution of the parent process. Analyzing child tables helps uncover inefficiencies in subprocesses that impact the main process's performance.
 
@@ -57,5 +57,5 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
 8.  Select **Save**.
 
 
-**Parent Topic:**[Scoping your analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/scope-analysis.md)
+**Parent Topic:**[Scoping your analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/scope-analysis.md)
 

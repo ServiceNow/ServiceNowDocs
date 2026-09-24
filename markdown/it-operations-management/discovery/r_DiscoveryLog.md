@@ -3,11 +3,11 @@ title: Logs for horizontal discovery
 description: The system collects logs to reflect the activity that takes place during a horizontal discovery based on both patterns and probes. Use the logs to fine-tune or troubleshoot the discovery process.Access the logs to understand the discovery process and fine-tune the discovery process.You can configure the amount of time that Discovery retains log entries for the probe-based horizontal discovery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/r\_DiscoveryLog.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ For horizontal discovery the system generates logs of the following types:
 
     The logs for probe-based horizontal discovery cover classification failures, CMDB updates, and authentication failures. A Discovery Log record is created for each action associated with a discovery status.
 
-    **Note:** The Discovery log also displays errors that occur during identification by taking log entries from the Identification Engine log. See [Examine run logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/identification-simulation.md) for more information about the identification engine and possible errors.
+    **Note:** The Discovery log also displays errors that occur during identification by taking log entries from the Identification Engine log. See [Examine run logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/identification-simulation.md) for more information about the identification engine and possible errors.
 
 -   **Pattern-based**
 
@@ -41,9 +41,9 @@ Role required: discovery\_admin
 
 1.  Navigate to **All** &gt; **Discovery** &gt; **Status**.
 
-2.  Open a [Discovery Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryStatus.md) record.
+2.  Open a [Discovery Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c_DiscoveryStatus.md) record.
 
-    The **Discovery Log** related list displays the logs for probe-based discovery. See [Discovery log details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-log.md).
+    The **Discovery Log** related list displays the logs for probe-based discovery. See [Discovery log details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-log.md).
 
     \[Omitted image "DiscoveryLog2.png"\] Alt text: Discovery Log Records
 
@@ -56,7 +56,7 @@ Role required: discovery\_admin
 
     \[Omitted image "discovery-log-link-pattern-based-log.png"\] Alt text: The link to the pattern-based discovery log.
 
-    The Horizontal Discovery Log window opens showing the list of pattern-based log entries. For information on logged discovery phases, see [Discovery log details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-log.md).
+    The Horizontal Discovery Log window opens showing the list of pattern-based log entries. For information on logged discovery phases, see [Discovery log details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-log.md).
 
     \[Omitted image "horizontal-pattern-log.png"\] Alt text: Horizontal Discovery log
 
@@ -70,7 +70,7 @@ Role required: discovery\_admin
 ### What to do next
 
 -   To fine-tune or troubleshoot the pattern-based discovery, retrieve the payload as described in [KB0998923: Retrieve Payload Feature](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0998923).
--   [Validate commands used in pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/validate-discovery-commands.md), if there is one of the following errors:
+-   [Validate commands used in pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/validate-discovery-commands.md), if there is one of the following errors:
     -   Authentication issue
     -   Authorization/Permission issue
     -   No Valid credentials present
@@ -81,7 +81,7 @@ Role required: discovery\_admin
 **Related topics**  
 
 
-[Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ire.md)
+[Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/ire.md)
 
 [KB0854603: Pattern Debugger Session Timed Out](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0854603)
 

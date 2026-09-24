@@ -3,11 +3,11 @@ title: Customize a ServiceNow Otto for IT Service Management \(ITSM\) Incident S
 description: If you have the admin role, you can customize a ServiceNow Otto for IT Service Management \(ITSM\) skill so that agents can use the generative AI skills in Service Operations Workspace for ITSM and in Core UI. Use the AI Skill Kit to customize your prompts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-record-summ-skill.html
-release: australia
+release: brazil
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Configure, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -51,7 +51,7 @@ You need the sn\_skill\_builder.admin role to customize the prompt in the AI Ski
 
 5.  In the General details step, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
 
     1.  Enter a name and description for the skill.
 
@@ -160,7 +160,7 @@ In the Activity stream:-   You can summarize new attachments of type PNG, JPEG o
     -   German
     -   Portuguese
     -   Spanish
-When you use [translate with Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/using-dynamic-translation.md), you can also translate user-generated content live on your instance in additional languages. For more information, see [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/using-dynamic-translation.md).**Note:**
+When you use [translate with Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/using-dynamic-translation.md), you can also translate user-generated content live on your instance in additional languages. For more information, see [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/using-dynamic-translation.md).**Note:**
 
 -   Attachment summaries aren't available in child incident records and are only supported in the English language.
 -   If you have one or more existing attachments, you must add new attachments to the incident for the existing attachments to be summarized.
@@ -173,15 +173,15 @@ When you use [translate with Dynamic Translation](https://raw.githubusercontent.
 
     **Important:** You need the sn\_skill\_builder.admin role to activate and customize the prompt in the AI Skill Kit .
 
-<table id="choicetable_ipx_pkr_2hc"><thead><tr><th align="left" id="d462928e568">
+<table id="choicetable_ipx_pkr_2hc"><thead><tr><th align="left" id="d473213e568">
 
 To
 
-</th><th align="left" id="d462928e571">
+</th><th align="left" id="d473213e571">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d462928e577">
+</th></tr></thead><tbody><tr><td id="d473213e577">
 
 **Evaluate a prompt for each input template**
 
@@ -195,7 +195,7 @@ Do this
 2.  Select **Run Test**.\[Omitted image "now-assist-itsm-evaluate-prompt.png"\] Alt text: Run test for the selected incident record
 Review and test the prompt for each input template configuration and make sure it meets your expectations.The prompt response is shown. You can make changes to the incident state selections and retest as needed.
 
-</td></tr><tr><td id="d462928e616">
+</td></tr><tr><td id="d473213e616">
 
 **Edit the prompt in the AI Skill Kit and test the prompt**
 
@@ -239,7 +239,7 @@ The prompt displays in the Test prompt screen where you can run the test.
 
         -   **ServiceNow Otto panel**: When selected, AI skills are available in the ServiceNow Otto panel.
 
-            If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+            If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
             For the skills that appear in the ServiceNow Otto panel, select the down arrow to identify the roles that can use the skill.
 

@@ -3,9 +3,9 @@ title: Establish the Grant Program Budget in Grants Management
 description: Grant Program Managers can define, categorize, and allocate the total program budget across budget categories and award types.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gmp-pgr-budget.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [program budget, award allocation, budget categories, grants management]
 breadcrumb: [Configure the Grant program budget and award allocation, Set up a grant program, Grants Management Program Setup, Grants Management, Solutions, Use, Public Sector Digital Services \(PSDS\)]

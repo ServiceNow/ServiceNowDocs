@@ -3,11 +3,11 @@ title: Viewing TAXII Collection Records
 description: View the records that are added to the TAXII collections.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-view-taxii-collection.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring TAXII Outbound Server, Configuring Threat Intelligence External Sharing, Administer, Threat Intelligence Security Center, Security Operations]
 ---
@@ -40,7 +40,7 @@ Role required:
 5.  Select the records to be removed and select **Remove**.
 
 
-**Parent Topic:**[Exploring TAXII Outbound Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-taxii-outbound-server.md)
+**Parent Topic:**[Exploring TAXII Outbound Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-taxii-outbound-server.md)
 
 **Related topics**  
 

@@ -3,9 +3,9 @@ title: Configure the colors for empty state illustrations
 description: Configure and control the colors automatically applied to empty state illustrations to keep your visual experience engaging while maintaining brand recognition.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/customize-colors-empty-state.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [theme builder, customize colors, empty state illustrations]
 breadcrumb: [Empty state illustrations, Image styles, Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
@@ -19,7 +19,7 @@ Configure and control the colors automatically applied to empty state illustrati
 
 Role required: ui\_builder\_admin
 
-For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
+For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/granular-admin-roles.md).
 
 ## About this task
 
@@ -74,7 +74,7 @@ As a category, all empty state illustrations share color hook mappings. As a res
 
 The new colors are applied to all empty state illustration types.
 
-If your theme is published, your empty state illustration edits are visible to users who have your theme applied on refresh. For information about publishing themes, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-apply-theme.md).
+If your theme is published, your empty state illustration edits are visible to users who have your theme applied on refresh. For information about publishing themes, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/tb-apply-theme.md).
 
-**Parent Topic:**[Empty state illustrations in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/empty-state-illustrations.md)
+**Parent Topic:**[Empty state illustrations in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/empty-state-illustrations.md)
 

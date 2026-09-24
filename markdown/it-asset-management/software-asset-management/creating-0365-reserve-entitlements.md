@@ -3,11 +3,11 @@ title: Creating reserve entitlements for Microsoft online services
 description: You can create reserve entitlements for Microsoft online services to add licenses to your existing Microsoft 365 subscriptions. You can pay for the new licenses during your true-up process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/creating-0365-reserve-entitlements.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Microsoft 365 integration, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---

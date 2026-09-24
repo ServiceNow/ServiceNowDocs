@@ -3,9 +3,9 @@ title: Administering form annotations
 description: Form annotations are additional pieces of information on a form, such as a line or paragraph of text. Use form annotations to provide on-screen instructions to your users.You can store multiple translations of form annotation text.You can define the form annotation types to control their appearance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_FormAnnotation.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Administer, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -16,7 +16,7 @@ Form annotations are additional pieces of information on a form, such as a line 
 
 Form annotations are enabled by default in the base system. To disable them, set the `glide.ui.form_annotations` system property to false.
 
-**Parent Topic:**[Administering forms on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/form-administration.md)
+**Parent Topic:**[Administering forms on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/form-administration.md)
 
 ## Support multiple languages for a form annotation
 
@@ -28,7 +28,7 @@ Role required: admin
 
 ### About this task
 
-To support multiple languages, use [message records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_MessageTable.md) to translate annotation text.
+To support multiple languages, use [message records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-localization/r_MessageTable.md) to translate annotation text.
 
 ### Procedure
 

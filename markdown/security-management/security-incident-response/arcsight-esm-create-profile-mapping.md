@@ -3,11 +3,11 @@ title: Create mappings for ArcSight ESM event ingestion integration
 description: In this step, you ingest sample correlation events and map values to the SIR security incident fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/arcsight-esm-create-profile-mapping.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Map event fields, Use, Set up instance, ArcSight ESM Event Ingestion integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -74,7 +74,7 @@ Create custom mappings by adding or removing the fields on the mapping grid on t
 
 7.  Open the script editor and continue editing.
 
-    For more information about the script editor, see [Use the script editor to format correlation event values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/arcsight-esm-create-profile-script.md).**Incident generation filtering conditions**
+    For more information about the script editor, see [Use the script editor to format correlation event values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/arcsight-esm-create-profile-script.md).**Incident generation filtering conditions**
 
 8.  After you have completed the preceding field mapping steps, you can use the same field values in the Incident Generation Conditions builder to define additional criteria that an incoming correlation event must satisfy to create a SIR security incident.
 
@@ -129,15 +129,15 @@ Create custom mappings by adding or removing the fields on the mapping grid on t
 
 10. Choose one to continue with the profile configuration.
 
-<table id="choicetable_ov3_gbq_nkb"><thead><tr><th align="left" id="d189469e440">
+<table id="choicetable_ov3_gbq_nkb"><thead><tr><th align="left" id="d189164e440">
 
 Option
 
-</th><th align="left" id="d189469e443">
+</th><th align="left" id="d189164e443">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d189469e449">
+</th></tr></thead><tbody><tr><td id="d189164e449">
 
 ** **
 
@@ -145,7 +145,7 @@ Description
 
  
 
-</td></tr><tr><td id="d189469e456">
+</td></tr><tr><td id="d189164e456">
 
 **Continue**
 
@@ -153,7 +153,7 @@ Description
 
 The Mapping form is displayed. **Preview** is selected on the progress bar. The next step is to preview the fields you mapped on a SIR security incident.
 
-</td></tr><tr><td id="d189469e473">
+</td></tr><tr><td id="d189164e473">
 
 **Update**
 
@@ -161,7 +161,7 @@ The Mapping form is displayed. **Preview** is selected on the progress bar. The 
 
 Your data is saved and the ArcSight ESM Event Profiles list is displayed.
 
-</td></tr><tr><td id="d189469e485">
+</td></tr><tr><td id="d189164e485">
 
 **Previous**
 
@@ -169,7 +169,7 @@ Your data is saved and the ArcSight ESM Event Profiles list is displayed.
 
 The Correlation Event Selection form is displayed.
 
-</td></tr><tr><td id="d189469e495">
+</td></tr><tr><td id="d189164e495">
 
 **Delete**
 

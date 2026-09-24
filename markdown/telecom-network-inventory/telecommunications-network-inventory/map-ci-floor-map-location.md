@@ -3,11 +3,11 @@ title: Map a Configuration Item to a floor map
 description: Map a Configuration Item \(CI\) to a place on your floor map in the Telecommunications Network Inventory application so you can view its details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/map-ci-floor-map-location.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Floor map, Network visualization view, Use, Telecommunications Network Inventory]
 ---
@@ -90,12 +90,12 @@ CI that you want to map to the place.**Note:** A CI must be mapped to only one p
 
 The CI is mapped to the place on the floor map. The color of the place is changed and reflects the selected inventory class according to the map legend. Select the CI on the map pane to view its details.
 
-**Parent Topic:**[Floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-floor-map.md)
+**Parent Topic:**[Floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/using-floor-map.md)
 
 **Related topics**  
 
 
-[Floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/visualization-floor-maps.md)
+[Floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/visualization-floor-maps.md)
 
-[Upload and manage floor map for your datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-floor-map-data-center.md)
+[Upload and manage floor map for your datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/create-floor-map-data-center.md)
 

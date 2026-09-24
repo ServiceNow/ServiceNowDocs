@@ -3,11 +3,11 @@ title: Customize system properties for EcoVadis integration
 description: You can optionally customize the default values of the sn\_ecovadis.token\_uri and sn\_ecovadis.score\_uri system properties. These properties manage tokens and access risk scores from EcoVadis when using Third-party Risk Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-config-properties-ecovadis.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [TPRM with EcoVadis, Integrate, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,7 @@ You can optionally customize the default values of the sn\_ecovadis.token\_uri a
 
 ## Before you begin
 
-Create an EcoVadis connection and configuration. For more information, see [Create an EcoVadis connection and configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-config-connection-ecovadis.md).
+Create an EcoVadis connection and configuration. For more information, see [Create an EcoVadis connection and configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-config-connection-ecovadis.md).
 
 Role required: admin
 
@@ -40,5 +40,5 @@ Role required: admin
     The Vendor Risk Management integration with EcoVadis application \[com.sn\_app\_grc\_ecovadis\] is updated and ready for use.
 
 
-**Parent Topic:**[Integrating EcoVadis with Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-integrating-ecovadis.md)
+**Parent Topic:**[Integrating EcoVadis with Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-integrating-ecovadis.md)
 

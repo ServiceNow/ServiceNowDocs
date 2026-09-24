@@ -3,11 +3,11 @@ title: Action Center
 description: Action Center provides an easy way to fix repeated issues that cause automations to fail in Automation Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/action-center.html
-release: australia
+release: brazil
 product: Automation Center
 classification: automation-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Automation Center, Workflow Data Fabric]
 ---
@@ -24,7 +24,7 @@ Action Center provides the following benefits:
 
 \[Omitted image "action-center-page.png"\] Alt text: Action Center
 
-For detailed information, see [Working with actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/actions.md).
+For detailed information, see [Working with actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/actions.md).
 
-**Parent Topic:**[Exploring Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-explore.md)
+**Parent Topic:**[Exploring Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/automation-center-explore.md)
 

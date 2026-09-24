@@ -3,9 +3,9 @@ title: Deleting assets in bulk
 description: Filter assets and do a bulk deletion in the Discovery Console for OT.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/bulk-delete-assets.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Assets page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -49,5 +49,5 @@ Role required: admin
 
 The bulk deleted assets are no longer in the Assets table.
 
-**Parent Topic:**[Assets page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/assets-page-console.md)
+**Parent Topic:**[Assets page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/assets-page-console.md)
 

@@ -3,13 +3,13 @@ title: Configure a new ERP Semantic Mining connection
 description: Specify the Connections and Credentials alias for ERP Semantic Mining to connect to the ERP \(Enterprise Resource Planning\) system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-customization-mining/set-up-erp-customization-mining.html
-release: australia
+release: brazil
 product: ERP Customization Mining
 classification: erp-customization-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, ERP Semantic Mining overview, Workflow Data Fabric]
+breadcrumb: [Configure, ERP Semantic Mining overview, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Configure a new ERP Semantic Mining connection
@@ -20,7 +20,7 @@ Specify the Connections and Credentials alias for ERP Semantic Mining to connect
 
 **Important:** Starting with the Zurich release, ERP Semantic Mining is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
-You should install Zero Copy Connector for ERP and add credentials there before you install and configure ERP Semantic Mining. For more information, see [Connect to SAP with RFC or BAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/set-up-erp-integration-connection.md).
+You should install Zero Copy Connector for ERP and add credentials there before you install and configure ERP Semantic Mining. For more information, see [Connect to SAP with RFC or BAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/set-up-erp-integration-connection.md).
 
 Role required: sn\_erp\_integration.erp\_admin, sn\_erp\_mining.erp\_admin
 
@@ -32,7 +32,7 @@ Role required: sn\_erp\_integration.erp\_admin, sn\_erp\_mining.erp\_admin
 
 3.  Select the **Select connection** button.
 
-    If you have already configured a system connection and want to use a different connection and credential, see [Update an ERP Semantic Mining connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/update-ecm-connection.md).
+    If you have already configured a system connection and want to use a different connection and credential, see [Update an ERP Semantic Mining connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-customization-mining/update-ecm-connection.md).
 
 4.  In the Connections and Credentials alias box, choose the credentials you configured in Zero Copy Connector for ERP from the **Select connection &amp; credential alias** field.
 
@@ -45,7 +45,7 @@ Role required: sn\_erp\_integration.erp\_admin, sn\_erp\_mining.erp\_admin
 
 ## What to do next
 
-After the system is connected, you can check the connection status and investigate errors at any time on the Connection status page. For more information, see [Check and troubleshoot the data refresh status for ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erpcm-check-data-connection.md).
+After the system is connected, you can check the connection status and investigate errors at any time on the Connection status page. For more information, see [Check and troubleshoot the data refresh status for ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-customization-mining/erpcm-check-data-connection.md).
 
-**Parent Topic:**[Configuring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/configuring-ecm.md)
+**Parent Topic:**[Configuring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-customization-mining/configuring-ecm.md)
 

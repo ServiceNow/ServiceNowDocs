@@ -3,11 +3,11 @@ title: Add an MCP Server with Connection and Credential Alias
 description: Add an MCP Server by selecting a Connection and Credential Alias record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-mcp-server-others.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Adding an MCP Server Console in AI Agent Studio, Configuring Model Context Protocol Client, MCP Client, AI Agent Studio, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Adding an MCP Server Console in AI Agent Studio, Configuring Model Context Protocol Client, MCP Client, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Add an MCP Server with Connection and Credential Alias
@@ -19,7 +19,7 @@ Add an MCP Server by selecting a Connection and Credential Alias record.
 -   Role required: sn\_mcp\_client.admin
 -   Verify that you have a Connection and Credential alias record created before adding an MCP Server with Others as the option.
 
-    For more information, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-alias.md).
+    For more information, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/connection-alias.md).
 
 
 ## About this task
@@ -83,11 +83,11 @@ Select a Connection and credential alias record to map with your MCP Server.
 
 8.  Define Security controls for the MCP Servers.
 
-    For more information, see [Define security controls for MCP Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-mcp.md).
+    For more information, see [Define security controls for MCP Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/define-sec-mcp.md).
 
 9.  Define the Tools for the Model Context Protocol Sever.
 
-    You can configure the MCP tools in the Assistant Designer. For more information see [Assign Model Context Protocol \(MCP\) servers to an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/assign-mcp-servers.md).
+    You can configure the MCP tools in the Assistant Designer. For more information see .
 
 10. Select **Save**.
 

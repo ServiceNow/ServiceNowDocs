@@ -3,12 +3,12 @@ title: Edit an analysis data source
 description: Edit a scheduled analysis of your instance records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-agent-advisor-edit-data-source.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup, AI Agent Advisor]
-breadcrumb: [Setting up automation opportunity discovery, Configure, AI Agent Advisor, AI Admin Center, Enable AI experiences]
+breadcrumb: [Setting up automation opportunity discovery, Configure, AI Agent Advisor, AI Admin Center, Getting started with AI, Enable AI Experiences]
 ---
 
 # Edit an analysis data source
@@ -27,7 +27,7 @@ Role required: sn\_na\_center.nac\_admin
 
 Follow these steps to change the configuration of the data source, filters, schedule, and cost profile that AI Agent Advisor uses to identify the automation opportunities.
 
-You can only edit an active analysis data source. To edit a deactivated analysis data source, you must first reactivate it. For more information, see [Activate a deactivated analysis data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-advisor-activate-data-source.md).
+You can only edit an active analysis data source. To edit a deactivated analysis data source, you must first reactivate it. For more information, see [Activate a deactivated analysis data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-agent-advisor-activate-data-source.md).
 
 In the event an error occurs when performing these steps, see the troubleshooting steps described in KB article [KB2931703](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2931703) on Now Support.
 
@@ -66,9 +66,9 @@ AI Agent Advisor runs the analysis according to the configured filters and sched
 
 ## What to do next
 
-View your automation opportunities on the home page. For more information, see [View your automation opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-view-automation-opportunities.md).
+View your automation opportunities on the home page. For more information, see [View your automation opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-view-automation-opportunities.md).
 
-**Parent Topic:**[Setting up automation opportunity discovery in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-automation-discovery-setup.md)
+**Parent Topic:**[Setting up automation opportunity discovery in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-automation-discovery-setup.md)
 
 **Related topics**  
 

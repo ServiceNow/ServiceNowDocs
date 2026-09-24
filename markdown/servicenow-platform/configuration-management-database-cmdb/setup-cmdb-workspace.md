@@ -3,11 +3,11 @@ title: Set up CMDB Workspace
 description: Set up and access the CMDB Workspace store app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/setup-cmdb-workspace.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -50,12 +50,12 @@ To populate CMDB Workspace dashboards with demo data:
 
     -   Recommended:CSDM Activation \(com.snc.cmdb.csdm.activation\)
 
-        Allows for legacy **Lifecycle Status** field mappings and synchronization to legacy status fields. For details about use and customization of retirement definitions when this plugin isn't activated, see [Retirement definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/life-cycle-rules.md).
+        Allows for legacy **Lifecycle Status** field mappings and synchronization to legacy status fields. For details about use and customization of retirement definitions when this plugin isn't activated, see [Retirement definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/life-cycle-rules.md).
 
     -   Required \(activated by default\):CMDB CSDM Support \(com.snc.cmdb.csdm\)
     -   Required \(activated by default\): CMDB Page Templates \(sn\_cmdb\_pg\_templts\)
     -   Required \(activated by default\): CMDB NLQ Search Connected \(sn-cmdb-nlq-search\)
-    For details about activating a plugin, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
+    For details about activating a plugin, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivateAPlugin.md).
 
 -   Roles: To access the CMDB Workspace, you must, at a minimum, have one of the following roles, which are essential for interacting with the CMDB Workspace. Depending on which of these roles is assigned to you, you might only have access to some of the features available in the CMDB Workspace:
 
@@ -72,11 +72,11 @@ Navigate to **Workspaces** &gt; **CMDB Workspace** to access CMDB Workspace.
 
 Home view is the default view of CMDB Workspace and you can also use other views to access CMDB features:
 
--   [Home view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-home-view.md): View various CMDB Health aggregations, use Intelligent Search to search through the CMDB, see what changed in the CMDB, and access important tasks. This is the default view for CMDB Workspace.
--   My Work view: Manage CMDB Data Manager tasks such as [attestation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/attesting-cis.md), that are assigned to you.
+-   [Home view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-home-view.md): View various CMDB Health aggregations, use Intelligent Search to search through the CMDB, see what changed in the CMDB, and access important tasks. This is the default view for CMDB Workspace.
+-   My Work view: Manage CMDB Data Manager tasks such as [attestation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/attesting-cis.md), that are assigned to you.
 -   CMDB 360 view: View aggregations and analysis of CMDB 360 data on a dashboard, and create CMDB 360 queries.
 -   Management view: View recent key activities and health indicators for the CMDB, and access management tools and dashboards \(accessible only to CMDB admins\) that support your management tasks.
 -   Insights view: View level of adoption of key CMDB tools, features, and application services. Explore benefits and install those tools and features to maximize the efficiency of your CMDB functionality.
 
-**Parent Topic:**[Configuring CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/configuring-cmdb-workspace.md)
+**Parent Topic:**[Configuring CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/configuring-cmdb-workspace.md)
 

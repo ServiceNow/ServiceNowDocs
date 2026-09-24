@@ -3,11 +3,11 @@ title: Parameterized tests
 description: Run a test multiple times with different test data for each run. Create parameters to store test data for each test run.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/parameterized-tests.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Building and running automated tests with the Automated Test Framework, Automated Test Framework \(ATF\) test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -62,12 +62,12 @@ Parameterized tests display test results by the execution order of the data sets
 
 The Parameterized Test Result record **Description** field lists the parameters and data sets used in the test run.
 
--   **[Create a parameterized test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/create-parameterized-test.md)**  
+-   **[Create a parameterized test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/create-parameterized-test.md)**  
 Build a test that uses variables to store test data.
--   **[Add a parameter to a test step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/add-parameterized-value-to-step.md)**  
+-   **[Add a parameter to a test step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/add-parameterized-value-to-step.md)**  
 Add a variable to a test step to hold a particular type of data when the test runs.
--   **[Add parameterized data sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/add-parameterized-data.md)**  
+-   **[Add parameterized data sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/add-parameterized-data.md)**  
 Add or import test data to specify parameter runtime values.
 
-**Parent Topic:**[Building and running automated tests with the Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-build-overview.md)
+**Parent Topic:**[Building and running automated tests with the Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-build-overview.md)
 

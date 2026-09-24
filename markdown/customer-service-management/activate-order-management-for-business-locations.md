@@ -3,9 +3,9 @@ title: Activate Order Management for Business Locations
 description: Activate the Order Management for Business Location plugin to manage the complete order lifecycle.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-order-management-for-business-locations.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Business location plugin, Activate plugins, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
@@ -28,7 +28,7 @@ The following items are installed with Order Management for Business Locations:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/personas-roles-and-tables-post-integration.md).
+For more information, see [Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/personas-roles-and-tables-post-integration.md).
 
 ## Procedure
 
@@ -42,11 +42,11 @@ For more information, see [Roles and responsibilities](https://raw.githubusercon
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 
 **Related topics**  
 
 
-[Order Management for business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/order-managment-for-business-location.md)
+[Order Management for business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/order-managment-for-business-location.md)
 

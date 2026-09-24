@@ -3,7 +3,7 @@ title: Tables installed with Service Applicant Program Management Plugin
 description: This section describes the tables installed with the Service Applicant Program Management plugin and shows how they store and manage information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-data-model-svc-app-prog-man-tables.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -23,5 +23,5 @@ This section describes the tables installed with the Service Applicant Program M
 |Funding Program \(sn\_svc\_appl\_pgm\_mg\_m2m\_funding\_program\)|Contains portfolio-level funding program definitions used to organize, govern, and track grant funding across one or more grant programs. Stores program details including the funding organization, program timeline, total program budget, and category.|N/A|
 |Funding Program M2M Grant Program \(sn\_svc\_appl\_pgm\_mg\_m2m\_funding\_program\_to\_grant\_program\)|Contains the many-to-many relationship mappings between funding programs and grant programs. Each record links exactly one funding program to one grant program.|N/A|
 
-**Parent Topic:**[Service Applicant Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-data-model-service-applicant.md)
+**Parent Topic:**[Service Applicant Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-data-model-service-applicant.md)
 

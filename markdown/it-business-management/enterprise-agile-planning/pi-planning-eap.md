@@ -3,11 +3,11 @@ title: Perform PI planning in EAP
 description: Using the Planning board of Enterprise Agile Planning, plan work for multiple teams across iterations \(for example, Big Room Planning\). Track the progress of work, create and visualize dependencies between work items, and reschedule work to react quickly to changes while confirming alignment with business priorities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/pi-planning-eap.html
-release: australia
+release: brazil
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -37,7 +37,7 @@ As you go bottom to top in an Agile structure, the cards are grouped as follows 
 
     For example, if Sprint is the planning calendar configured for an Agile Team, the cards on the Planning Board represent the work assigned for the selected Sprint. For an Agile Team, you can see Stories on the planning board.
 
-    If you use custom state choices as vertical lanes on the Planning board, you must map them to state buckets in the `rm_story` dictionary. Otherwise, story cards in those custom states don't appear after a page reload. For more information, see [Configure state bucket mapping for custom story states in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/configure-state-buckets-for-custom-story-states-in-eap.md).
+    If you use custom state choices as vertical lanes on the Planning board, you must map them to state buckets in the `rm_story` dictionary. Otherwise, story cards in those custom states don't appear after a page reload. For more information, see [Configure state bucket mapping for custom story states in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/configure-state-buckets-for-custom-story-states-in-eap.md).
 
 -   ART: For an iteration, the Story cards are horizontally grouped by child teams and vertical lanes represent the iterations of the child teams.
 
@@ -48,7 +48,7 @@ As you go bottom to top in an Agile structure, the cards are grouped as follows 
 -   If the **Dependency** toggle is enabled, you can visualize the dependencies between work items.
 -   If the **Capacity** toggle is enabled, you can visualize the work load of the teams.
 
-The Planning board for an EAP team shows only those work items that are enabled in its default configuration. For example, for an ART with Full Configuration, the Planning board shows only Features by default. If your product managers or team members want to switch to viewing other work item types such as Capabilities, Epics, or Stories, work with your admin to update the required EAP configuration details. For more information, see [Configure display of other work item types in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/configure-other-work-item-types-for-eap-teams-in-backlog-and-planning-board.md).
+The Planning board for an EAP team shows only those work items that are enabled in its default configuration. For example, for an ART with Full Configuration, the Planning board shows only Features by default. If your product managers or team members want to switch to viewing other work item types such as Capabilities, Epics, or Stories, work with your admin to update the required EAP configuration details. For more information, see [Configure display of other work item types in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/configure-other-work-item-types-for-eap-teams-in-backlog-and-planning-board.md).
 
 \[Omitted image "eap-art-feature-story-switch.png"\] Alt text: Switch between viewing Feature and Story on ART planning board.
 
@@ -68,12 +68,12 @@ As with Backlog, you can change the **Type** of work items displayed and create 
 
 Use the following tasks to get started with PI Planning within Enterprise Agile Planning.
 
--   **[Plan work for an ART in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/plan-work-for-teams-using-planning-board-in-eap.md)**  
+-   **[Plan work for an ART in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/plan-work-for-teams-using-planning-board-in-eap.md)**  
 Plan work across all teams in an ART for multiple Planning Intervals. Coordinate with different teams to manage dependencies and resolve blockers in real-time using the Planning board in Enterprise Agile Planning.
--   **[Work item dependencies in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/work-item-dependencies-in-eap.md)**  
+-   **[Work item dependencies in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/work-item-dependencies-in-eap.md)**  
 Learn about work item dependencies and how they're shown on the Planning board for a team in Enterprise Agile Planning.
--   **[Personalize the EAP Planning board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/personalize-cards-in-eap-planning-board.md)**  
+-   **[Personalize the EAP Planning board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/personalize-cards-in-eap-planning-board.md)**  
 Choose metrics and indicators to be shown on cards so that key information is available at a glance on the Planning board in Enterprise Agile Planning workspace.
 
-**Parent Topic:**[Using Enterprise Agile Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/using-enterprise-agile-planning.md)
+**Parent Topic:**[Using Enterprise Agile Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/using-enterprise-agile-planning.md)
 

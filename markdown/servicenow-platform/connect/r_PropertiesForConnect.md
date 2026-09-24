@@ -3,11 +3,11 @@ title: Properties for Connect
 description: The Connect Properties page provides several configuration options for Connect.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/r\_PropertiesForConnect.html
-release: australia
+release: brazil
 product: Connect
 classification: connect
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Connect administration, Connect, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ The Connect Properties page provides several configuration options for Connect.
 
 **Important:**
 
-Core UI is required to use Connect Chat. Connect Chat is not supported in Next Experience. If you turn on Next Experience, Connect Chat will no longer work. See [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md) for more information.
+Core UI is required to use Connect Chat. Connect Chat is not supported in Next Experience. If you turn on Next Experience, Connect Chat will no longer work. See [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-landing-page.md) for more information.
 
 Users with the admin role can access these properties by navigating to **Connect** &gt; **Administration** &gt; **Properties**.
 
@@ -41,7 +41,7 @@ Disable Presenceglide.ui.presence.disabled
 Turns off user presence globally when enabled. Enabling this property turns off user presence throughout the platform, not just in Connect.-   **Type**: true \| false
 -   Default value: false
 -   Location: **Connect** &gt; **Administration** &gt; **Properties**
--   Learn more: [User presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPresence.md)
+-   Learn more: [User presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_UserPresence.md)
 
 </td></tr><tr><td>
 
@@ -52,7 +52,7 @@ Enable Connect in the framesetcollaboration.frameset
 Determines whether the Connect overlay is visible \(enabled\). This property also impacts Connect Support.-   **Type**: true \| false
 -   Default value: true
 -   Location: **Collaborate** &gt; **Administration** &gt; **Properties**
--   Learn more: [Disable the Connect overlay](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/t_DisableTheCollaborationOverlay.md)
+-   Learn more: [Disable the Connect overlay](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/connect/t_DisableTheCollaborationOverlay.md)
 
 </td></tr><tr><td>
 
@@ -73,7 +73,7 @@ Number of minutes to wait before collecting unread messages and sending an email
 Sets the number of minutes the system waits before sending a Connect notification email to an inactive user.-   **Type**: integer
 -   Default value: 3
 -   Location: **Collaborate** &gt; **Administration** &gt; **Properties**
--   Learn more: [Configure the email notification interval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/c_CollaborationAdministration.md)
+-   Learn more: [Configure the email notification interval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/connect/c_CollaborationAdministration.md)
 
 </td></tr><tr><td>
 
@@ -93,7 +93,7 @@ Audio file to play to notify users of new messages, support conversation transfe
 Specifies the audio file to play to notify users of new messages, support conversation transfers, and @mentions in Connect. This property's value must point to the **Name** field of a record in the Audio File \[db\_audio\] table. This property also impacts Connect Support.-   **Type**: string
 -   Default value: connect\_alert.mp3
 -   Location: **Collaborate** &gt; **Administration** &gt; **Properties**
--   Learn more: [Customize the Connect audio notification sound](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/t_CustomizeConnectAudioNotifSound.md)
+-   Learn more: [Customize the Connect audio notification sound](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/connect/t_CustomizeConnectAudioNotifSound.md)
 
 </td></tr><tr><td>
 
@@ -120,7 +120,7 @@ Determines whether the show Live Feed icon \(\[Omitted image "ShowLiveFeedIcon.p
     -   **live\_feed**: enables the show Live Feed icon.
     -   **none**: disables both the show Live Feed icon and the **Follow** button.
 -   Location: **Collaborate** &gt; **Administration** &gt; **Properties**
--   Learn more: [Configure record conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/c_CollaborationAdministration.md)
+-   Learn more: [Configure record conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/connect/c_CollaborationAdministration.md)
 
 </td></tr><tr><td>
 

@@ -3,11 +3,11 @@ title: AI-generated recommendations for a regulatory alert skill
 description: The recommendations framework is designed to deliver actionable, AI-driven insights directly within the user interface. It provides rich contextual information about recommendations, empowering users to make well-informed decisions and take follow-up actions seamlessly. The scalable and flexible design supports multiple recommendation types and complex business scenarios.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/recommendations-for-a-regulatory-alert.html
-release: australia
+release: brazil
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [AI in Regulatory Change Management, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -50,7 +50,7 @@ A default recommendation context named `Suggest business operations affected by 
 -   Customizable workflows and logic to meet specific organizational processes.
 -   Improved user productivity with actionable recommendations and clear next steps built directly into the interface.
 
-To understand how you can create recommendations for a regulatory alert and activate the Regulatory alert impacted citations and Regulatory alert impacted control objectives skills, refer to [Activate Regulatory alert recommendation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/configure-recommendation-skill-for-a-regulatory-alert.md), and [Generate recommendations for regulatory alert impacted citations, control objectives, controls, and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/create-recommendation-reg-alert.md).
+To understand how you can create recommendations for a regulatory alert and activate the Regulatory alert impacted citations and Regulatory alert impacted control objectives skills, refer to [Activate Regulatory alert recommendation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/configure-recommendation-skill-for-a-regulatory-alert.md), and [Generate recommendations for regulatory alert impacted citations, control objectives, controls, and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/create-recommendation-reg-alert.md).
 
 ## Viewing a recommendation
 
@@ -97,7 +97,7 @@ Control objectives
 Details of the control objective. For example, the name of the control objective and parent.
 
 </td></tr></tbody>
-</table>**Note:** For more information about citations and control objectives, see [Structural overview of Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/pc-structural-overview-policy-comp.md).
+</table>**Note:** For more information about citations and control objectives, see [Structural overview of Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/pc-structural-overview-policy-comp.md).
 
 |Field|Description|
 |-----|-----------|
@@ -111,12 +111,12 @@ Details of the control objective. For example, the name of the control objective
 
 Feedback trail side-panel: The feedback side-panel displays the history of user interactions with recommended items. This can include what the user accepted, what they skipped or ignored, and what they dismissed.
 
-For more information on generating recommendations, see [Generate a regulatory alert summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/create-a-summary-of-a-reg-alert.md).
+For more information on generating recommendations, see [Generate a regulatory alert summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/create-a-summary-of-a-reg-alert.md).
 
 **Related topics**  
 
 
-[Activate Regulatory alert recommendation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/configure-recommendation-skill-for-a-regulatory-alert.md)
+[Activate Regulatory alert recommendation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/configure-recommendation-skill-for-a-regulatory-alert.md)
 
-[Generate recommendations for regulatory alert impacted citations, control objectives, controls, and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/create-recommendation-reg-alert.md)
+[Generate recommendations for regulatory alert impacted citations, control objectives, controls, and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/create-recommendation-reg-alert.md)
 

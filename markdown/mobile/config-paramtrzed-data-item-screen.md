@@ -3,9 +3,9 @@ title: Parametrized data item support for input form screens
 description: Admins can configure parametrized data item screens that can return relevant records based on user inputs and variables on an input form screen.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/config-paramtrzed-data-item-screen.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Input form screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -30,7 +30,7 @@ This configuration enables parametrized data item support for the following targ
 
 When you complete this configuration, the parametrized screen is populated with query results based on inputs or variables from an input form screen. In this scenario, the inputs and variables of the input form screen are used as part of a data item's query condition.
 
-The parametrized data item screen isn’t supported [offline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-offline-mode.md).
+The parametrized data item screen isn’t supported [offline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-offline-mode.md).
 
 ## Procedure
 
@@ -38,7 +38,7 @@ The parametrized data item screen isn’t supported [offline](https://raw.github
 
     **Note:** The input form screen can contain only inputs, only variables, or both inputs and variables for use as part of the data item query condition.
 
-    For information about creating an input form screen, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-screen-config.md).
+    For information about creating an input form screen, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/parameter-screen-config.md).
 
 2.  Navigate to the target list, map, calendar, record, or custom map screen you want to use.
 
@@ -52,7 +52,7 @@ The parametrized data item screen isn’t supported [offline](https://raw.github
 
 3.  Configure a parametrized data item in the sys\_sg\_data\_item table with a query condition that returns the relevant information to the target screen.
 
-    For information about configuring a parametrized data item, see [Configure a parametrized data item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-config-parametrized-data-item.md).
+    For information about configuring a parametrized data item, see [Configure a parametrized data item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-config-parametrized-data-item.md).
 
 4.  Navigate back to the target screen.
 

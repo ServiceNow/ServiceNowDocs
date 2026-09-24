@@ -3,10 +3,10 @@ title: Schedule Optimization properties
 description: You can set parameters that control how optimization runs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/schedule-optimization-properties.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 15
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 breadcrumb: [Schedule Optimization components, Reference, Field Service Management]
 ---
 
@@ -42,7 +42,7 @@ Qualifier type for schedule optimization
 
 </td><td>
 
-The qualifier type for schedule optimization determines the criteria used to optimize schedules. There are two qualifier types available: "Assignment group" and "Territory."When the Field Service Territory model is enabled, the qualifier type automatically switches to "Territory" and remains fixed. This means that when the Territory model is active, the optimization process focuses on territories instead of assignment groups. For more information, see [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
+The qualifier type for schedule optimization determines the criteria used to optimize schedules. There are two qualifier types available: "Assignment group" and "Territory."When the Field Service Territory model is enabled, the qualifier type automatically switches to "Territory" and remains fixed. This means that when the Territory model is active, the optimization process focuses on territories instead of assignment groups. For more information, see [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
 
 -   Type: String
 -   Default value: Assignment group
@@ -54,7 +54,7 @@ Number of seconds used for task scheduling resolution
 
 </td><td>
 
-Specifies the acceptable interval for scheduling a task. For example, if the value is set to 300 seconds, Schedule Optimization will schedule tasks and the associated travel time, such as task start time, travel start time, or estimated end, to the nearest 5-minute start or end time.
+Specifies the acceptable interval for scheduling a task. For example, the value is set to 300 seconds. Schedule Optimization will schedule tasks and the associated travel time, such as task start, travel start, or estimated end, to the nearest 5-minute start or end time.
 
 -   Type: Integer
 -   Default value: 300
@@ -97,7 +97,7 @@ Maximum number of location points allowed in a map vendor call
 
 </td><td>
 
-Numeric value set to determine the maximum number of location points allowed in a map provider call. Beans.AI is the map provider that Schedule Optimization supports for travel time estimates. For more information, see [Schedule Optimization travel estimate providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/schedule-optimization-travel-estimate-providers.md).
+Numeric value set to determine the maximum number of location points allowed in a map provider call. Beans.AI is the map provider that Schedule Optimization supports for travel time estimates. For more information, see [Schedule Optimization travel estimate providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/schedule-optimization-travel-estimate-providers.md).
 
 -   Type: Integer
 -   Default value: 300
@@ -148,48 +148,6 @@ Controls whether overlapping territories are considered when scheduling tasks du
 
 </td></tr><tr><td>
 
-sn\_schedule\_optim.prioritized\_event\_assignment\_horizon\_offset
-
-</td><td>
-
-Number of minutes that will be adjusted to the Window start time of a task, only for GraphQL processing. This will be used by Schedule Optimization to prevent the Schedule Start and Schedule Travel Start from being scheduled in the past for prioritized events.-   Type: Non-zero integer \(in minutes\)
--   Default value: 1 minute
--   Location: System Properties list \[sys\_properties\] table
-
-</td></tr><tr><td>
-
-sn\_schedule\_optim.prioritized\_event\_max\_agent\_count
-
-</td><td>
-
-Maximum number of technicians to be considered for prioritized event optimization.-   Type: Non-zero integer
--   Default value: 20
--   Location: System Properties list \[sys\_properties\] table
-
-**Note:**
-
-If the data for a prioritized intraday job exceeds these limits, the job will not run, and no assignments will be received.
-
-
-</td></tr><tr><td>
-
-sn\_schedule\_optim.prioritized\_event\_max\_task\_count
-
-</td><td>
-
-Maximum number of tasks to be considered for prioritized event optimization.-   Type: Non-zero integer
--   Default value: 100
--   Location: System Properties list \[sys\_properties\] table
-
-**Note:**
-
-If the data for a prioritized intraday job exceeds these limits, the job will not run, and no assignments will be received.
-
-The 'maint' role is required to edit this property. This role is exclusive to internal users. Contact support to make changes.
-
-
-</td></tr><tr><td>
-
 sn\_schedule\_optim.max\_priority\_events
 
 </td><td>
@@ -200,16 +158,6 @@ Maximum number of prioritized event types that can be configured to trigger opti
 
 **Note:** The 'maint' role is required to edit this property. This role is exclusive to internal users. Contact support to make changes.
 
-
-</td></tr><tr><td>
-
-sn\_schedule\_optim.prioritized\_optimization\_delay\_buffer
-
-</td><td>
-
-Time \(in seconds\) to wait before initiating the optimization process for prioritized events.-   Type: Non-zero integer \(in seconds 60-900\)
--   Default value: 180 seconds \(3 minutes\)
--   Location: System Properties list \[sys\_properties\] table
 
 </td></tr><tr><td>
 
@@ -421,6 +369,68 @@ Determines the maximum number of locations that can be queried to a third‑part
 -   Location: System Properties list \[sys\_properties\] table
 
 </td></tr></tbody>
+</table>## Intraday-Prioritized
+
+The following is the list of intraday prioritized event properties that are available with the Schedule Optimization\[var.schedule-optimization\] plugin. These properties configure prioritized event buffering, event thresholds, and limits on agents and tasks to optimize performance for time-sensitive scheduling changes. To access these properties, navigate to **All** &gt; **Schedule Optimization** &gt; **Administration** &gt; **Properties**.
+
+<table id="table_xhm_z3d_jkc"><thead><tr><th>
+
+Property
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Number of minutes to shift task window start to prevent scheduling in the past `sn_schedule_optim.prioritized_event_assignment_horizon_offset`
+
+</td><td>
+
+Adjusts task window timing for prioritized events by shifting the start time forward to prevent scheduling tasks that appear to be in the past. -   Type: Non-zero integer \(in minutes\)
+-   Default value: 1 minute
+
+</td></tr><tr><td>
+
+Time \(in seconds\) to wait before initiating the optimization process for prioritized events `sn_schedule_optim.prioritized_optimization_delay_buffer`
+
+</td><td>
+
+Buffer window that allows the system to collect prioritized events before triggering optimization. -   Type: Non-zero integer \(in seconds 60-900\)
+-   Default value: 180 seconds \(3 minutes\)
+
+</td></tr><tr><td>
+
+Number of events to decide if prioritized optimization can be triggered `sn_schedule_optim.prioritized_min_event_count`
+
+</td><td>
+
+Minimum number of prioritized events required before triggering optimization. -   Type: Non-zero integer
+-   Default value: 5
+
+</td></tr><tr><td>
+
+Maximum number of agents to be considered for prioritized event optimization `sn_schedule_optim.prioritized_event_max_agent_count`
+
+</td><td>
+
+Limits the number of technicians sent to the optimization engine for each prioritized event. If exceeded, the job will not run and no assignments will be received.
+
+-   Type: Non-zero integer
+-   Default value: 20
+
+</td></tr><tr><td>
+
+Maximum number of tasks to be considered for prioritized event optimization`sn_schedule_optim.prioritized_event_max_task_count`
+
+</td><td>
+
+Limits the number of tasks sent to the optimization engine for each prioritized event.If exceeded, the job will not run and no assignments will be received.
+
+-   Type: Non-zero integer
+-   Default value: 100
+
+</td></tr></tbody>
 </table>## Performance-related Schedule Optimization properties
 
 The following is the list of solution processing properties that are available with the Schedule Optimization plugin. To access these properties, navigate to **All** &gt; **System Properties** &gt; **All Properties**.
@@ -434,316 +444,6 @@ Property
 Description
 
 </th></tr></thead><tbody><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.data\_queue\_1.claim\_limit
-
-</td><td>
-
-This property controls the number of Data Processing events that are captured and processed in a single background transaction. If the property is set to 100, the event handler will grab and process the first 100 Data Processing events from the queue in one background transaction.-   Type: Integer
--   Default value: 100
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.data\_queue\_1.even.load.distribution.enabled
-
-</td><td>
-
-Controls balanced events load distribution for custom queue sn\_schedule\_optim.data\_queue\_1-   Type: True/False
--   Default value: False
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.data\_queue\_2.claim\_limit
-
-</td><td>
-
-This property controls the number of Data Processing events that are captured and processed in a single background transaction. If the property is set to 100, the event handler will grab and process the first 100 Data Processing events from the queue in one background transaction.-   Type: Integer
--   Default value: 100
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.data\_queue\_2.even.load.distribution.enabled
-
-</td><td>
-
-Controls balanced events load distribution for custom queue sn\_schedule\_optim.data\_queue\_2-   Type: True/False
--   Default value: False
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.data\_queue\_3.claim\_limit
-
-</td><td>
-
-This property controls the number of Data Processing events that are captured and processed in a single background transaction. If the property is set to 100, the event handler will grab and process the first 100 Data Processing events from the queue in one background transaction.-   Type: Integer
--   Default value: 100
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.data\_queue\_3.even.load.distribution.enabled
-
-</td><td>
-
-Controls balanced events load distribution for custom queue sn\_schedule\_optim.data\_queue\_3-   Type: True/False
--   Default value: False
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.data\_queue\_4.claim\_limit
-
-</td><td>
-
-This property controls the number of Data Processing events that are captured and processed in a single background transaction. If the property is set to 100, the event handler will grab and process the first 100 Data Processing events from the queue in one background transaction.-   Type: Integer
--   Default value: 100
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.data\_queue\_4.even.load.distribution.enabled
-
-</td><td>
-
-Controls balanced events load distribution for custom queue sn\_schedule\_optim.data\_queue\_4-   Type: True/False
--   Default value: False
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.data\_queue\_5.claim\_limit
-
-</td><td>
-
-This property controls the number of Data Processing events that are captured and processed in a single background transaction. If the property is set to 100, the event handler will grab and process the first 100 Data Processing events from the queue in one background transaction.-   Type: Integer
--   Default value: 100
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.data\_queue\_5.even.load.distribution.enabled
-
-</td><td>
-
-Controls balanced events load distribution for custom queue sn\_schedule\_optim.data\_queue\_5-   Type: True/False
--   Default value: False
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.data\_queue\_6.claim\_limit
-
-</td><td>
-
-This property controls the number of Data Processing events that are captured and processed in a single background transaction. If the property is set to 100, the event handler will grab and process the first 100 Data Processing events from the queue in one background transaction.-   Type: Integer
--   Default value: 100
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.data\_queue\_6.even.load.distribution.enabled
-
-</td><td>
-
-Controls balanced events load distribution for custom queue sn\_schedule\_optim.data\_queue\_6-   Type: True/False
--   Default value: False
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.data\_queue\_7.claim\_limit
-
-</td><td>
-
-This property controls the number of Data Processing events that are captured and processed in a single background transaction. If the property is set to 100, the event handler will grab and process the first 100 Data Processing events from the queue in one background transaction.-   Type: Integer
--   Default value: 100
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.data\_queue\_7.even.load.distribution.enabled
-
-</td><td>
-
-Controls balanced events load distribution for custom queue sn\_schedule\_optim.data\_queue\_7-   Type: True/False
--   Default value: False
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.data\_queue\_8.claim\_limit
-
-</td><td>
-
-This property controls the number of Data Processing events that are captured and processed in a single background transaction. If the property is set to 100, the event handler will grab and process the first 100 Data Processing events from the queue in one background transaction.-   Type: Integer
--   Default value: 100
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.data\_queue\_8.even.load.distribution.enabled
-
-</td><td>
-
-Controls balanced events load distribution for custom queue sn\_schedule\_optim.data\_queue\_8-   Type: True/False
--   Default value: False
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.event\_queue\_1.claim\_limit
-
-</td><td>
-
-Controls the number of Solution Processing events grabbed by its event handler and processed in a single background transaction.-   Type: Integer
--   Default value: 500
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.event\_queue\_1.even.load.distribution.enabled
-
-</td><td>
-
-Controls balanced events load distribution for custom queue sn\_schedule\_optim.event\_queue\_1.-   Type: True/False
--   Default value: False
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.event\_queue\_2.claim\_limit
-
-</td><td>
-
-Controls the number of Solution Processing events grabbed by its event handler and processed in a single background transaction.-   Type: Integer
--   Default value: 500
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.event\_queue\_2.even.load.distribution.enabled
-
-</td><td>
-
-Controls balanced events load distribution for custom queue sn\_schedule\_optim.event\_queue\_2.-   Type: True/False
--   Default value: False
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.event\_queue\_3.claim\_limit
-
-</td><td>
-
-Controls the number of Solution Processing events grabbed by its event handler and processed in a single background transaction.-   Type: Integer
--   Default value: 500
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.event\_queue\_3.even.load.distribution.enabled
-
-</td><td>
-
-Controls balanced events load distribution for custom queue sn\_schedule\_optim.event\_queue\_3.-   Type: True/False
--   Default value: False
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.event\_queue\_4.claim\_limit
-
-</td><td>
-
-Controls the number of Solution Processing events grabbed by its event handler and processed in a single background transaction.-   Type: Integer
--   Default value: 500
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.event\_queue\_4.even.load.distribution.enabled
-
-</td><td>
-
-Controls balanced events load distribution for custom queue sn\_schedule\_optim.event\_queue\_4.-   Type: True/False
--   Default value: False
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.event\_queue\_5.claim\_limit
-
-</td><td>
-
-Controls the number of Solution Processing events grabbed by its event handler and processed in a single background transaction.-   Type: Integer
--   Default value: 500
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.event\_queue\_5.even.load.distribution.enabled
-
-</td><td>
-
-Controls balanced events load distribution for custom queue sn\_schedule\_optim.event\_queue\_5.-   Type: True/False
--   Default value: False
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.event\_queue\_6.claim\_limit
-
-</td><td>
-
-Controls the number of Solution Processing events grabbed by its event handler and processed in a single background transaction.-   Type: Integer
--   Default value: 500
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.event\_queue\_6.even.load.distribution.enabled
-
-</td><td>
-
-Controls balanced events load distribution for custom queue sn\_schedule\_optim.event\_queue\_6.-   Type: True/False
--   Default value: False
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.event\_queue\_7.claim\_limit
-
-</td><td>
-
-Controls how many Solution Processing events are grabbed by its event handler and processed in a single background transaction.-   Type: Integer
--   Default value: 500
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.event\_queue\_7.even.load.distribution.enabled
-
-</td><td>
-
-Controls balanced events load distribution for custom queue sn\_schedule\_optim.event\_queue\_7.-   Type: True/False
--   Default value: False
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.event\_queue\_8.claim\_limit
-
-</td><td>
-
-Controls the number of Solution Processing events grabbed by its event handler and processed in a single background transaction.-   Type: Integer
--   Default value: 500
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.event\_queue\_8.even.load.distribution.enabled
-
-</td><td>
-
-Controls balanced events load distribution for custom queue sn\_schedule\_optim.event\_queue\_8.-   Type: True/False
--   Default value: False
-
-</td></tr><tr><td>
-
-sn\_schedule\_optim.data\_processor\_number\_of\_queues
-
-</td><td>
-
-Number of queues for data processing
-
-Enables performance improvement for end to end optimization.-   Type: Integer
--   Default value: 4
-
-</td></tr><tr><td>
-
-sn\_schedule\_optim.solution\_processor\_number\_of\_queues
-
-</td><td>
-
-Number of queues for solution processing \(task updates\).Increases the number of custom queues \(up to 8\) for processing optimization solution and speeding up optimization by allowing more parallel processing during solution processing flow.
-
--   Type: Integer
--   Default value: 4
-
-</td></tr><tr><td>
 
 sn\_schedule\_optim.solution\_processor\_packet\_size
 
@@ -781,161 +481,55 @@ sn\_schedule\_optim.qualifier\_data\_agent\_entity\_split
 Indicates how many sets of agents will be processed simultaneously in an optimization run, improving performance.-   Type: Non-zero integer
 -   Default value: 2
 
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.event\_attr\_queue\_1.claim\_limit
-
-</td><td>
-
-Specifies the number of break processing events in a single background transaction when updating technician schedule attributes such as travel duration and travel home duration.-   Type: Integer
--   Default value: 100
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.event\_attr\_queue\_1.even.load.distribution.enabled
-
-</td><td>
-
-Controls balanced events load distribution for custom queue sn\_schedule\_optim.event\_attr\_queue\_1.-   Type: True/False
--   Default value: False
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.event\_attr\_queue\_2.claim\_limit
-
-</td><td>
-
-Specifies the number of break processing events in a single background transaction when updating technician schedule attributes such as travel duration and travel home duration.-   Type: Integer
--   Default value: 100
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.event\_attr\_queue\_2.even.load.distribution.enabled
-
-</td><td>
-
-Controls balanced events load distribution for custom queue sn\_schedule\_optim.event\_attr\_queue\_2.-   Type: True/False
--   Default value: False
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.event\_attr\_queue\_3.claim\_limit
-
-</td><td>
-
-Specifies the number of break processing events in a single background transaction when updating technician schedule attributes such as travel duration and travel home duration.-   Type: Integer
--   Default value: 100
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.event\_attr\_queue\_3.even.load.distribution.enabled
-
-</td><td>
-
-Controls balanced events load distribution for custom queue sn\_schedule\_optim.event\_attr\_queue\_3.-   Type: True/False
--   Default value: False
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.event\_attr\_queue\_4.claim\_limit
-
-</td><td>
-
-Specifies the number of break processing events in a single background transaction when updating technician schedule attributes such as travel duration and travel home duration.-   Type: Integer
--   Default value: 100
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.event\_attr\_queue\_4.even.load.distribution.enabled
-
-</td><td>
-
-Controls balanced events load distribution for custom queue sn\_schedule\_optim.event\_attr\_queue\_4.-   Type: True/False
--   Default value: False
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.event\_attr\_queue\_5.claim\_limit
-
-</td><td>
-
-Specifies the number of break processing events in a single background transaction when updating technician schedule attributes such as travel duration and travel home duration.-   Type: Integer
--   Default value: 100
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.event\_attr\_queue\_5.even.load.distribution.enabled
-
-</td><td>
-
-Controls balanced events load distribution for custom queue sn\_schedule\_optim.event\_attr\_queue\_5.-   Type: True/False
--   Default value: False
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.event\_attr\_queue\_6.claim\_limit
-
-</td><td>
-
-Specifies the number of break processing events in a single background transaction when updating technician schedule attributes such as travel duration and travel home duration.-   Type: Integer
--   Default value: 100
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.event\_attr\_queue\_6.even.load.distribution.enabled
-
-</td><td>
-
-Controls balanced events load distribution for custom queue sn\_schedule\_optim.event\_attr\_queue\_6.-   Type: True/False
--   Default value: False
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.event\_attr\_queue\_7.claim\_limit
-
-</td><td>
-
-Specifies the number of break processing events in a single background transaction when updating technician schedule attributes such as travel duration and travel home duration.-   Type: Integer
--   Default value: 100
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.event\_attr\_queue\_7.even.load.distribution.enabled
-
-</td><td>
-
-Controls balanced events load distribution for custom queue sn\_schedule\_optim.event\_attr\_queue\_7.-   Type: True/False
--   Default value: False
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.event\_attr\_queue\_8.claim\_limit
-
-</td><td>
-
-Specifies the number of break processing events in a single background transaction when updating technician schedule attributes such as travel duration and travel home duration.-   Type: Integer
--   Default value: 100
-
-</td></tr><tr><td>
-
-com.glide.event\_manager.sn\_schedule\_optim.event\_attr\_queue\_8.even.load.distribution.enabled
-
-</td><td>
-
-Controls balanced events load distribution for custom queue sn\_schedule\_optim.event\_attr\_queue\_8.-   Type: True/False
--   Default value: False
-
 </td></tr></tbody>
 </table>**Note:** The 'maint' role is required to edit any performance-related properties. This role is exclusive to internal users. Contact support to make changes.
 
-**Parent Topic:**[Schedule Optimization components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/schedule-optimization-components.md)
+The following is the list of queue registry properties that are available with the Schedule Optimization plugin. These properties configure parallel event and data processing queues to optimize performance for simulation and optimization runs. To access these properties, navigate to **All** &gt; **System Policies** &gt; **Queue Registry**.
+
+<table id="table_a5n_g51_3kc"><thead><tr><th>
+
+Property
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+sn\_schedule\_optim.data\_queue
+
+</td><td>
+
+Queue registry for Schedule Optimization data processing \(GraphQL qualifier response\).-   Job Configuration Type: Scale with node
+-   Default Value: 3
+
+</td></tr><tr><td>
+
+sn\_schedule\_optim.event\_queue
+
+</td><td>
+
+Queue registry for Schedule Optimization solution \(event\) processing.-   Job Configuration Type: Scale with node
+-   Default Value: 3
+
+</td></tr><tr><td>
+
+sn\_schedule\_optim.event\_attr\_queue
+
+</td><td>
+
+Queue registry for Schedule Optimization break \(event attribute\) processing.-   Job Configuration Type: Scale with node
+-   Default Value: 3
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Schedule Optimization components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/schedule-optimization-components.md)
 
 **Related topics**  
 
 
-[Configuring Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/schedule-optimization-engine.md)
+[Configuring Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/schedule-optimization-engine.md)
 
-[Optimizing technician schedules at set intervals throughout the day](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/optimize-your-schedules-intraday.md)
+[Optimizing technician schedules at set intervals throughout the day](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/optimize-your-schedules-intraday.md)
 
-[Configuring log levels for detailed optimization analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/configuring-log-levels-for-detailed-optimization-analysis.md)
+[Configuring log levels for detailed optimization analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/configuring-log-levels-for-detailed-optimization-analysis.md)
 

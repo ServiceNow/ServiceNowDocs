@@ -3,9 +3,9 @@ title: Configure a related list screen for a record screen
 description: Create a related list screen to give your users easy access to records related to the record they're already viewing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mobile-related-lists.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Record screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -20,15 +20,15 @@ A related list appears in a tab on your mobile form, and displays a list of reco
 
 Creating a related list involves three tasks:
 
--   **1. [Create a parametrized data item for your related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-create-related-list.md)**
+-   **1. [Create a parametrized data item for your related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-create-related-list.md)**
 
     Create a parametrized data item to contain the records that display in your related list.
 
--   **2. [Create a list screen to use as a related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-create-related-list-2.md)**
+-   **2. [Create a list screen to use as a related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-create-related-list-2.md)**
 
     Create a related list using your parametrized data item. This list appears for your users when they select the related list tab on their form screen.
 
--   **3. [Update your record screen to display a related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-create-related-list-3.md)**
+-   **3. [Update your record screen to display a related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-create-related-list-3.md)**
 
     Update your record screen to display a list of related records, and define the relationship between your record screen and the related list.
 

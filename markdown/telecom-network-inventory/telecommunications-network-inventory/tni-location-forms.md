@@ -3,11 +3,11 @@ title: Location forms
 description: The Location forms enable you to create locations hierarchy to track and manage your network assets.The Location form enables you to create, review and modify the location details for a network asset.The Location form \(parent\) enables you to create, review and modify the parent location details for a network asset.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/tni-location-forms.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Reference, Telecommunications Network Inventory]
 
 The Location forms enable you to create locations hierarchy to track and manage your network assets.
 
-**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
+**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
 
 ## Location form
 
@@ -130,7 +130,7 @@ Longitude of the location in decimal degrees.
 </table>**Related topics**  
 
 
-[e60d99dc4f9bc01614dc89ea28ed71afa7376ccc.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-locations.md)
+[67731530c3ed594fce998d4afca297c37ecc25ba.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-locations.md)
 
 ## Location form - Parent
 

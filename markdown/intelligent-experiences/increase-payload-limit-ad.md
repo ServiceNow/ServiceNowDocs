@@ -3,11 +3,11 @@ title: Increase payload limit through system properties in AI Desktop Actions
 description: By default, maximum 10 MB of file size is allowed in a scripted REST API request payload. Increase the payload limit to 15 MB by creating system properties in the global scope.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/increase-payload-limit-ad.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Design defined desktop actions, AI Desktop Actions, Enable AI experiences]
+breadcrumb: [Design defined desktop actions, AI Desktop Actions, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Increase payload limit through system properties in AI Desktop Actions

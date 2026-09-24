@@ -3,9 +3,9 @@ title: Usage insights for call events enabled using Interaction Controls Compone
 description: Usage Insights provides event tracking for voice call events in ICC enabled interactions. Admins and managers can review detailed call events to verify correct event actions and diagnose issues without accessing console logs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/usage-insight-for-icc-enabled-call-events.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [ICC for voice calls, Integrating with Computer Telephony Integration \(CTI\), Integrate, Customer Service Management]
 ---
@@ -26,7 +26,7 @@ The **Usage Insights** dashboard displays all applications by default. To view t
 
 -   **Users**
 
-    Lists all agents who have triggered tracked events, displayed as hashed IDs. See [Usage Insights dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/ued-ec.md).
+    Lists all agents who have triggered tracked events, displayed as hashed IDs. See [Usage Insights dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/ued-ec.md).
 
 -   **Sessions**
 
@@ -55,5 +55,5 @@ Each event entry for usage insights includes a complete payload. The following t
 |interaction sys\_id|The sys\_id of the corresponding interaction record in the ServiceNow instance.|
 |external\_id|An identifier from the external CCaaS provider associated with this interaction.|
 
-Enable call events tracking by configuring the Usage Insights capability. See: [Enable Usage insights for Interaction Controls Component \(ICC\) enabled call events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-usage-insights-for-icc-call-events.md).
+Enable call events tracking by configuring the Usage Insights capability. See: [Enable Usage insights for Interaction Controls Component \(ICC\) enabled call events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/enable-usage-insights-for-icc-call-events.md).
 

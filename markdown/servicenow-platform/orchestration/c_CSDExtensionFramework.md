@@ -3,11 +3,11 @@ title: Client software distribution extension framework
 description: Client software distribution \(CSD\) provides built-in extension points for integrating a ServiceNow instance with client software distribution providers, such as Casper, Altiris, or LANDesk.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/c\_CSDExtensionFramework.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Client Software Distribution, Orchestration applications, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,12 +18,12 @@ Client software distribution \(CSD\) provides built-in extension points for inte
 
 **Important:** The use of CSD extension points is an advanced procedure intended for use by experienced ServiceNow AI Platform developers only. Instructions for customizing your instance to deploy and revoke software from a software distribution provider can be found in the CSD Extension Implementation Guide.
 
--   **[Configure client software distribution providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_ConfigCSDProviders.md)**  
+-   **[Configure client software distribution providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/t_ConfigCSDProviders.md)**  
 Identify the provider and specify the workflows and extension points for a customized software distribution process.
--   **[Client software distribution extension keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/r_CSDExtensionKeys.md)**  
+-   **[Client software distribution extension keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/r_CSDExtensionKeys.md)**  
 Client software distribution \(CSD\) extension keys allow you to customize the deployment and revocation of software from distribution providers.
--   **[Client software distribution extension points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/r_CSDExtensionPoints.md)**  
+-   **[Client software distribution extension points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/r_CSDExtensionPoints.md)**  
 The client software distribution \(CSD\) extension points create the customization code for the specific provider and the extension keys.
 
-**Parent Topic:**[Client Software Distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_ClientSoftwareDistribution.md)
+**Parent Topic:**[Client Software Distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_ClientSoftwareDistribution.md)
 

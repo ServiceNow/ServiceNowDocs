@@ -3,11 +3,11 @@ title: Network Model Relationship fields
 description: The Network Model Relationship form enables you to create a network model relationship.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/tni-network-model-relationship-form.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
@@ -232,7 +232,7 @@ Sequence
 
 Sequence number of the child entities for a model relationship. If you enter a number in the **Count** field, the **Sequence** field appears.
 
- The default value is 1. If the parent model has multiple relationships, the sequence number for the first relationship is set to 1 and the number following the highest value of the first relationship is set for the consecutive relationships. For example, let's say that your equipment has a model relationship with two slots and two ports. When the relationship is created, the sequence number of the slots and ports are set to 1 and 3.
+ The default value is 1. If the parent model has multiple relationships, the sequence number for the first relationship is set to 1. The number following the highest value of the first relationship is set for the consecutive relationships. For example, let's say that your equipment has a model relationship with two slots and two ports. When the relationship is created, the sequence number of the slots and ports are set to 1 and 3.
 
  **Note:** This attribute is only for **Rack to Slot**, **Equipment to Slot**, **Equipment to Network Interface**, **Interface card to Slot**, **Interface card to Network Interface**, **Cable to Strand**, and **Logical Connection to Channel** relationship types.
 
@@ -253,10 +253,10 @@ Child bandwidth
 Bandwidth of the child product model.**Note:** This attribute is only visible for the **Logical Connection to Channel** relationship type.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
+</table>**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
 
 **Related topics**  
 
 
-[Define a network model relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-network-model-relationships.md)
+[Define a network model relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/create-network-model-relationships.md)
 

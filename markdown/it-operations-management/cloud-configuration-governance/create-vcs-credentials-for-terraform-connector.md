@@ -3,11 +3,11 @@ title: Create API key credentials for Terraform and VCS accounts account
 description: Create API key credential for Terraform account and supported Version Control System \(VCS\) accounts that contain the Terraform template repositories.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-vcs-credentials-for-terraform-connector.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a Terraform Enterprise or Terraform Cloud config provider, Configure, Cloud Services Catalog Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -38,7 +38,7 @@ An API key credential is a secured record in the ServiceNow AI Platform that sto
 
 5.  On the form, fill in the fields.
 
-    For description of the form fields, see [Cloud Services Catalog Terraform Connector API Key Credentials form reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-api-key-credentials-form-reference.md).
+    For description of the form fields, see [Cloud Services Catalog Terraform Connector API Key Credentials form reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-api-key-credentials-form-reference.md).
 
 6.  Select **Submit**.
 

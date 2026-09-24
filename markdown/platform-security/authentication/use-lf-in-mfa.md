@@ -3,11 +3,11 @@ title: Use Location Filter in MFA Context
 description: Use the location filter criteria created in MFA Context.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/use-lf-in-mfa.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Tutorial: Use Location Filter criteria, Location Filter, Filter criteria, Adaptive authentication, Authentication, Access Management]
 ---

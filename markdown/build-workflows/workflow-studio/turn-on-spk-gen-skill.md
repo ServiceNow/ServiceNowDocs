@@ -3,11 +3,11 @@ title: Turn on the spoke generation skill
 description: Turn on the flow generation skill to use generative AI to create a spoke.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/turn-on-spk-gen-skill.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use ServiceNow Otto to create spokes and build actions, Building spokes using Spoke Generator, Workflow Studio, Build workflows]
 ---
@@ -37,5 +37,5 @@ Role required: admin
 
 ## Result
 
-You can now create spoke and actions using Now Assist in Spoke Generator.
+You can now create spoke and actions using ServiceNow Otto in Spoke Generator.
 

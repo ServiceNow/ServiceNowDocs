@@ -3,9 +3,9 @@ title: Create a case for install base from the Customer Service homepage
 description: Create a case about a question or issue on your install base from the Customer Service homepage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-case-install-base.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
@@ -26,7 +26,7 @@ Install base enables you to track which instances have been provisioned for your
 
 1.  Navigate to the Customer Service homepage.
 
-2.  Click **Create Case for Install Base**.
+2.  Select **Create Case for Install Base**.
 
 3.  Fill out the fields on the form, as required.
 
@@ -87,13 +87,13 @@ A more detailed description of the customer question, issue, or problem.
 
 4.  Select **Submit**.
 
-    The case is created, assigned a case number, and added to the user's case list. Click **My Cases** at the top of the customer portal to view the Cases list.
+    The case is created, assigned a case number, and added to the user's case list. Select **My Cases** at the top of the customer portal to view the Cases list.
 
 
 **Related topics**  
 
 
-[View install base information from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-install-base-info.md)
+[View install base information from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/view-install-base-info.md)
 
-[View or modify a case from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ViewOrModCaseFromCustSlfServPrt.md)
+[View or modify a case from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/t_ViewOrModCaseFromCustSlfServPrt.md)
 

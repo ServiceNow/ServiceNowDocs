@@ -3,11 +3,11 @@ title: Service Model Foundation
 description: The Service Model Foundation \(SMF\) framework enables you to model your business organization structure, customer organizations, and the relationships between them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-relationship-management/crm-service-model-foundation.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Data management, Customer Relationship Management]
+breadcrumb: [Data foundations, Customer Relationship Management]
 ---
 
 # Service Model Foundation
@@ -59,9 +59,9 @@ The service model foundation operates across CRM products and adapts to a range 
 **Related topics**  
 
 
-[Service Model Foundation overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-industry-data-model.md)
+[Service Model Foundation overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-industry-data-model.md)
 
-[Configure Service Model Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-industry-data-model.md)
+[Configure Service Model Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-industry-data-model.md)
 
-[Service Model Foundation business organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/industry-data-model-locations.md)
+[Service Model Foundation business locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/industry-data-model-locations.md)
 

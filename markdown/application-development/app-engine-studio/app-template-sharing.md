@@ -3,13 +3,13 @@ title: App template sharing
 description: Specify which users and groups have access to predefined and custom templates in App Engine Studio \(AES\).Share App Engine Studio \(AES\) templates globally, with groups, or with individual users to ensure users have access to the right templates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/app-template-sharing.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use an app template, Create your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Use an app template, Create your app, Build, App Engine Studio, Developing your application, Building applications]
 ---
 
 # App template sharing
@@ -36,7 +36,7 @@ You can share app templates with anyone in your organization by creating a shari
 
 **Note:** If you stop sharing a template with an individual user but that user is a part of any group the template is shared with, that user is still able to see and use the template.
 
-**Parent Topic:**[Create your app using an application template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/use-app-template.md)
+**Parent Topic:**[Create your app using an application template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/use-app-template.md)
 
 ## Manage template sharing permissions
 

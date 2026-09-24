@@ -3,11 +3,11 @@ title: Components installed with Operational Technology Manager
 description: Several types of components may be installed with activation of the Operational Technology Manager application, including user roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/components-installed-with-operational-technology-manager.html
-release: australia
+release: brazil
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Operational Technology Manager, Operational Technology]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Reference, Operational Technology Manager, Operational Technology]
 
 Several types of components may be installed with activation of the Operational Technology Manager application, including user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 ## Plugins installed
 
@@ -34,7 +34,7 @@ Industrial Core
 
 </td><td>
 
-Contains the class mappings needed for the OT Service Graph Connectors.For more information about the Industrial Core plugin, see [Industrial Core plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/industrial-core-plugin.md).
+Contains the class mappings needed for the OT Service Graph Connectors.For more information about the Industrial Core plugin, see [Industrial Core plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/industrial-core-plugin.md).
 
 </td></tr></tbody>
 </table>## Roles installed
@@ -53,7 +53,7 @@ Operational Technology Discovery Administrator \[ot\_discovery\_admin\]
 
 </td><td>
 
-Can run the Discovery for Operational Technology process, but cannot access the Configuration Management Database \(CMDB\) to view the configuration items \(CIs\) and related Operational Technology \(OT\) entities that are created from discovered items. To learn more, see [Create an OT Discovery schedule and run the Discovery process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/run-discovery-for-operational-technology.md).
+Can run the Discovery for Operational Technology process, but cannot access the Configuration Management Database \(CMDB\) to view the configuration items \(CIs\) and related Operational Technology \(OT\) entities that are created from discovered items. To learn more, see [Create and run the OT Discovery schedule and the Discovery process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/run-discovery-for-operational-technology.md).
 
 </td></tr><tr><td>
 
@@ -69,7 +69,7 @@ Operational Technology Manager Editor \[cmdb\_ot\_editor\]
 
 </td><td>
 
-Create, read, update, and delete access for [Operation Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models-operation-technology.md).**Note:** Users assigned the **cmdb\_ot\_editor** role can edit and delete only OT configuration items \(CIs\), and don't have the ability to edit IT CIs.
+Create, read, update, and delete access for [Operation Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-ci-class-models-operation-technology.md).**Note:** Users assigned the **cmdb\_ot\_editor** role can edit and delete only OT configuration items \(CIs\), and don't have the ability to edit IT CIs.
 
 </td></tr><tr><td>
 
@@ -77,8 +77,8 @@ Operational Technology Manager Admin \[cmdb\_ot\_admin\]
 
 </td><td>
 
-Create, read, update, and delete access for Operational Technology \(OT\) device records. Can also edit and manage specific configurations in the OT entity type. To learn more, see [Operation Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models-operation-technology.md).**Note:** Users assigned the **cmdb\_ot\_editor** role can edit and delete only OT configuration items \(CIs\), and don't have the ability to edit IT CIs.
+Create, read, update, and delete access for Operational Technology \(OT\) device records. Can also edit and manage specific configurations in the OT entity type. To learn more, see [Operation Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-ci-class-models-operation-technology.md).**Note:** Users assigned the **cmdb\_ot\_editor** role can edit and delete only OT configuration items \(CIs\), and don't have the ability to edit IT CIs.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Operational Technology Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/operational-technology-manager-reference.md)
+</table>**Parent Topic:**[Operational Technology Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/operational-technology-manager-reference.md)
 

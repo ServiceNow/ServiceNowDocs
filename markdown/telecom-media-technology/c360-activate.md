@@ -3,9 +3,9 @@ title: Activate Telecommunications Customer 360
 description: If you have an admin role, you can activate the Telecommunications Customer 360 application. The Telecommunications Customer 360 \(com.sn\_telecom\_c360\) plugin is available as a separate subscription. The application includes the demo data and installations that are related to ServiceNow Store applications and plugins.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/c360-activate.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Telecommunications Customer 360, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -29,7 +29,7 @@ The Telecommunications Customer 360 \(com.sn\_telecom\_c360\) plugin activates t
 |Customer Service Problem Management|`com.sn_sprb_mgmt`|
 |Customer 360 data configuration|`com.sn_c360_dataconfig`|
 |Recommended Actions for Telecommunications|`com.snc.sn_telecom_ra`|
-|ServiceNow Otto for Telecommunications \(optional\)|com.sn\_telco\_gen\_ai|
+|ServiceNow Otto for TMT \(optional\)|com.sn\_telco\_gen\_ai|
 
-**Parent Topic:**[Configure Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-configure.md)
+**Parent Topic:**[Configure Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-configure.md)
 

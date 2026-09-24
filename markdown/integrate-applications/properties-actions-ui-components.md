@@ -3,9 +3,9 @@ title: Properties of Actions \(UI\) components
 description: Learn about the properties of the Actions \(UI\) group components. All components under the Actions \(UI\) group have both unique and common properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/properties-actions-ui-components.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Actions \(UI\), Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -31,5 +31,5 @@ Learn about the properties of the Actions \(UI\) group components. All component
 |Wait After Image Found|Specifies the wait time \(in seconds\) after the image or application appears on the screen.|
 |Wait For Create|Option to specify if the component will wait for the image to appear on the screen. The default value is True.|
 
-**Parent Topic:**[Actions \(UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/actions-ui.md)
+**Parent Topic:**[Actions \(UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/actions-ui.md)
 

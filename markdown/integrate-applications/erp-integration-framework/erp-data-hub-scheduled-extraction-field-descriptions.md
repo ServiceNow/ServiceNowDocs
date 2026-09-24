@@ -3,11 +3,11 @@ title: Zero Copy Connector for ERP scheduled extraction field descriptions
 description: The Scheduled extraction form in Zero Copy Connector for ERP \(Enterprise Resource Planning\) enables you to create and edit jobs to extract data at regular intervals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-data-hub-scheduled-extraction-field-descriptions.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
-last_updated: "2026-08-06"
+last_updated: "2026-09-16"
 reading_time_minutes: 4
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, schedule, extract, data, interval, pull]
 breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -17,7 +17,7 @@ breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflo
 
 The Scheduled extraction form in Zero Copy Connector for ERP \(Enterprise Resource Planning\) enables you to create and edit jobs to extract data at regular intervals.
 
-For process details, see [Create a scheduled extraction in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-create-a-scheduled-extraction.md).
+For process details, see [Create a scheduled extraction in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erpc-create-a-scheduled-extraction.md).
 
 <table id="table_rgs_xr5_bdc"><thead><tr><th>
 
@@ -73,7 +73,7 @@ Maximum no of retries on error
 
 </td><td>
 
-Maximum number of retries \(from 0 through 10\) that the scheduled job attempts before stopping after a failure.**Note:** Each retry uses the same query and retries the entire job. For example, if the total job contains 5000 records and the job fails after 2000 records are successfully processed, the entire job runs again on the next retry. For more information, see [Import sets key concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportSetsKeyConcepts.md).
+Maximum number of retries \(from 0 through 10\) that the scheduled job attempts before stopping after a failure.**Note:** Each retry uses the same query and retries the entire job. For example, if the total job contains 5000 records and the job fails after 2000 records are successfully processed, the entire job runs again on the next retry. For more information, see [Import sets key concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/c_ImportSetsKeyConcepts.md).
 
 </td></tr><tr><td>
 
@@ -91,7 +91,9 @@ Encoded query
 
 Encoded query string, created by applying a filter on the extraction table list and pasting the result into this field. For example:\[Omitted image "erpc-schedule-extraction-encoded-query.png"\] Alt text: Sample encoded query.
 
-For more information, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).
+For more information, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_EncodedQueryStrings.md).
+
+Every field name in the encoded query must match a field on the model that the extraction table is built from. If a field name doesn't match, that condition isn't applied to the query sent to the ERP system, and the extraction returns more records than the filter specifies. Check the field names against the model before you save the scheduled extraction.
 
 </td></tr><tr><td>
 
@@ -131,10 +133,10 @@ When to run the extraction.-   **Daily**: Specify the next scheduled start in ho
 -   **Periodically**: In **Repeat Interval**, select the days, hours, minutes, and seconds to repeat periodically. For example, start the scheduled extraction every 3 days, 4 hours, 30 minutes, and 30 seconds.
 -   **Once**: In **Starting**, select the field, select a day, and enter a time for the extraction to run once.
 -   **On Demand**: Select the **Run now** button \(next to the **Save** button\) to run the extraction immediately.
--   **Business Calendar:Entry Start**: Runs on the starting entry dates for the business calendar that you select in the Business Calendar field. A scheduled job runs for the starting date of each of the business entries that you defined for the business calendar. For example, if the business calendar represents a fiscal year, and the starting date of each entry is a fiscal month, the scheduled job runs on the first day of each month.
+-   **Business Calendar:Entry Start**: Runs on the starting entry dates for the business calendar that you select in the **Business Calendar** field. A scheduled job runs for the starting date of each of the business entries that you defined for the business calendar. For example, if the business calendar represents a fiscal year and the starting date of each entry is a fiscal month, the scheduled job runs on the first day of each month.
 -   **Business Calendar:Entry End**: Runs for the ending date for the business calendar that you select in the **Business Calendar** field. This selection runs in the same manner as **Business Calendar:Entry Start**, but for the end dates of the associated business calendar entries.
 
-**Note:** To learn more about creating and using business calendars and defining business calendar entries, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/business-calendars.md).
+**Note:** To learn more about creating and using business calendars and defining business calendar entries, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/business-calendars.md).
 
 
 </td></tr><tr><td>
@@ -154,4 +156,5 @@ Time zone
 Time zone for the scheduled extraction.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
+

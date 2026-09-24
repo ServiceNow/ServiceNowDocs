@@ -3,9 +3,9 @@ title: Create and publish a cost-based attribute adjustment
 description: Set different product costs based on product attributes, such as model or size, by applying cost adjustments for a product offering by cost book or specified cost book line. The base cost is the cost at the cost book line. Product cost is the base cost plus attribute adjustments. These adjustments are used to display the profit margins in quotes and quote lines, which can be criteria for triggering quote approval rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-cost-attribute-adjustment.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -20,11 +20,11 @@ Role required: sn\_csm\_pricing.pricelist\_administrator or sn\_csm\_pricing.pri
 
 ## About this task
 
-You select the characteristics of a product that affect the base product cost. Next, use a decision table to create an attribute adjustment rule that defines the conditions for applying the adjustments and the markup or markdown value, either a percentage or amount to be applied for specified characteristics. For more information on using decision tables, see [Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/using-decision-builder.md).
+You select the characteristics of a product that affect the base product cost. Next, use a decision table to create an attribute adjustment rule that defines the conditions for applying the adjustments and the markup or markdown value, either a percentage or amount to be applied for specified characteristics. For more information on using decision tables, see [Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/using-decision-builder.md).
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** and select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** and select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 2.  Navigate to **Pricing** &gt; **Attribute Adjustments**.
 
@@ -155,7 +155,7 @@ Product attributes used to differentiate product costs.
 
 7.  Test your decision table.
 
-    For information on testing your decision table before publishing it, see [Test a decision table in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/test-decision-table-in-decision-builder.md).
+    For information on testing your decision table before publishing it, see [Test a decision table in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/test-decision-table-in-decision-builder.md).
 
 8.  If this is a product-based cost attribute adjustment, select **Publish** in the **Details** tab for the attribute adjustment to make the attribute adjustment available.
 

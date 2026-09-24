@@ -3,11 +3,11 @@ title: Create an action for an 'on Catalog item launch' policy
 description: The on Catalog item launch trigger fires when an order form \(stack request form\) is launched for a catalog item. A policy that is triggered by the on Catalog item launch trigger can run a script or override a user-requested value \(text values only\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-action-on-cat-item-launch.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create a cloud policy, Policies for Cloud Provisioning, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -19,8 +19,8 @@ The on Catalog item launch trigger fires when an order form \(stack request form
 ## Before you begin
 
 -   Role required: sn\_cmp.cloud\_governor or admin
--   Optional: [Create one or more cloud policy groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-cloud-policy-group.md).
--   [Configure a cloud policy rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/configure-cloud-policy-rule.md) and associated conditions.
+-   Optional: [Create one or more cloud policy groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/create-cloud-policy-group.md).
+-   [Configure a cloud policy rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/configure-cloud-policy-rule.md) and associated conditions.
 
 ## Procedure
 
@@ -138,5 +138,5 @@ customScript : function( formData){
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Create a cloud policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-cloud-policy.md)
+**Parent Topic:**[Create a cloud policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/create-cloud-policy.md)
 

@@ -3,7 +3,7 @@ title: Visa Spoke
 description: Integrate the ServiceNow instance with the Visa spoke to seamlessly invoke Visa APIs under Visa Resolve Online \(VROL\) for Visa card dispute process and card-on-file payments using Visa Stop Payment Service \(VSPS\). You can use the spoke to search for transactions, collaborate with merchants, manage disputes and perform other functions with enhanced security. Also reuse this short description in the release notes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/visa-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
@@ -185,5 +185,5 @@ The Visa spoke provides actions to invoke Visa APIs under VROL and VSPS to manag
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For more information about setting up the spoke, see [Set up Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-visa-spoke.md).
+For more information about setting up the spoke, see [Set up Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/set-up-visa-spoke.md).
 

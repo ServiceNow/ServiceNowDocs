@@ -3,11 +3,11 @@ title: Create automations in CWM
 description: Add conditions to build task automations for CWM Boards and help your team save time from manual task updates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/create-and-manage-automations-in-cwm.html
-release: australia
+release: brazil
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Work item automations in CWM, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Add conditions to build task automations for CWM Boards and help your team save 
 
 ## Before you begin
 
-[Create a Board in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-boards-in-cwm.md).
+[Create a Board in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/create-boards-in-cwm.md).
 
 Role required: sn\_cwm.cwm\_user
 
@@ -55,7 +55,7 @@ Role required: sn\_cwm.cwm\_user
 
 ## What to do next
 
-[Manage or delete automations in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/manage-or-delete-automations-in-cwm.md).
+[Manage or delete automations in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/manage-or-delete-automations-in-cwm.md).
 
-**Parent Topic:**[Work item automations in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/implementing-automations-in-collaborative-work-management.md)
+**Parent Topic:**[Work item automations in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/implementing-automations-in-collaborative-work-management.md)
 

@@ -3,11 +3,11 @@ title: Components installed with Asset Management - Procurement Integration
 description: Several types of components are installed with activation of the Asset Management - Procurement Integration application, such as tables and scheduled jobs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/procurement/installed-with-proc-int.html
-release: australia
+release: brazil
 product: Procurement
 classification: procurement
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Install Asset Management - Procurement Integration, Integrating with external procurement applications, Procurement, Common applications, Asset Management]
 ---

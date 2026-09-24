@@ -3,9 +3,9 @@ title: Capacity Console
 description: The Capacity Console is a centralized, intuitive tool that simplifies the management of demand, capacity, and resources based on territories. Designed to empower organizations, it offers real-time insights into resource utilization, enabling them to optimize capacity usage, and adapt to evolving business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/capacity-console.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Capacity and Reservations Management, Explore, Field Service Management]
 ---
@@ -33,7 +33,7 @@ Field Service Advanced Capacity and Reservations Management provides the followi
 **Related topics**  
 
 
-[Activate Field Service Advanced Capacity and Reservations management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md)
+[Activate Field Service Advanced Capacity and Reservations management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md)
 
-[Using the Capacity Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/capacity-and-reservation-management-console.md)
+[Using the Capacity Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-manager-workforce/capacity-and-reservation-management-console.md)
 

@@ -3,9 +3,9 @@ title: Activate Field Normalization
 description: Activate the Field Normalization \[com.snc.field\_normalization\] plugin to install demo data and activate related plugins if they are not already active.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/activate-field-normalization.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Field normalization and transformation, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -16,7 +16,7 @@ Activate the Field Normalization \[com.snc.field\_normalization\] plugin to inst
 
 ## Before you begin
 
-Role required: normalizer
+Role required: admin.
 
 ## Procedure
 
@@ -30,11 +30,11 @@ Role required: normalizer
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 
 **Related topics**  
 
 
-[List of plugins \(Australia\)]()
+[List of plugins \(Brazil\)]()
 

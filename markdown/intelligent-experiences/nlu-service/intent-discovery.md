@@ -1,18 +1,18 @@
 ---
-title: Intent Discovery
+title: \(Legacy\) Intent Discovery
 description: Use the Intent Discovery application to help identify opportunities for incident deflection. For example, you can use it to identify which Virtual Agent conversations to activate next.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/intent-discovery.html
-release: australia
+release: brazil
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [NLU Workbench - Advanced Features, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) NLU Workbench - Advanced Features, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Intent Discovery
+# \(Legacy\) Intent Discovery
 
 Use the Intent Discovery application to help identify opportunities for incident deflection. For example, you can use it to identify which Virtual Agent conversations to activate next.
 
@@ -26,7 +26,7 @@ In this example scenario, you're using Intent Discovery to identify the top inte
 
 ## Installation
 
-Intent Discovery is available from the ServiceNow Store. For more information, see [Install Intent Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/install-intent-discovery.md).
+Intent Discovery is available from the ServiceNow Store. For more information, see [\(Legacy\) Install Intent Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/install-intent-discovery.md).
 
 After Intent Discovery is installed and activated, it appears under **All** &gt; **NLU Workbench** &gt; **NLU Advanced Features**.
 
@@ -79,7 +79,7 @@ When the analysis is complete, the column values on the screen appear, with the 
 
 ## Importing recommended intents to new or existing custom models
 
-Before importing intents to an NLU model, ensure that you are in the same application scope as the model. For more information, see [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_SelectAnAppFromTheAppPicker.md).
+Before importing intents to an NLU model, ensure that you are in the same application scope as the model. For more information, see [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_SelectAnAppFromTheAppPicker.md).
 
 1. On the Records covered by recommendations section of the screen, select the caret icon on a recommended intent you want to add to a custom model.
 

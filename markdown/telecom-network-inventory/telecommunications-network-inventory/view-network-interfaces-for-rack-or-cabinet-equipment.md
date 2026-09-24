@@ -3,11 +3,11 @@ title: View network interfaces for rack or cabinet equipment
 description: View all network interfaces for equipment placed in a rack or cabinet, without opening each equipment record individually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/view-network-interfaces-for-rack-or-cabinet-equipment.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Viewing rack or cabinet equipment details, Use, Telecommunications Network Inventory]
 ---
@@ -45,5 +45,12 @@ The Network Interfaces related list aggregates all interfaces from equipment pla
 
 You can see all network interfaces for the rack or cabinet's equipment in a single list, without navigating to each equipment record.
 
-**Parent Topic:**[Viewing rack or cabinet equipment details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/viewing-rack-or-cabinet-equipment-details.md)
+**Parent Topic:**[Viewing rack or cabinet equipment details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/viewing-rack-or-cabinet-equipment-details.md)
+
+**Related topics**  
+
+
+[Data center infrastructure rack allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/data-center-infra-rack-allocation.md)
+
+[Reserve a rack using data center infrastructure allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/reserve-a-rack-using-data-center-infra-allocation.md)
 

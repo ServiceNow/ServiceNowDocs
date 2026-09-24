@@ -3,11 +3,11 @@ title: Automate CrowdStrike Falcon Sandbox submissions using Flow Designer
 description: Automate your file or URL submissions by using the CrowdStrike Falcon X Sandbox integration and Workflow Studio as part of your incident response workflow. The integration includes flow templates that you can use for your security incident records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/flow-designer-crowdstrike-falcon-sandbox-integration.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [CrowdStrike Falcon X Sandbox integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -18,7 +18,7 @@ Automate your file or URL submissions by using the CrowdStrike Falcon X Sandbox 
 
 ## Before you begin
 
--   Verify that you have created a [Sandbox submission configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setup-sandbox-submission-configurations.md) and have enabled one configuration as the **Default configuration for automated submission**. When the flow is triggered, the sandbox submission occurs on your default configuration.
+-   Verify that you have created a [Sandbox submission configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/setup-sandbox-submission-configurations.md) and have enabled one configuration as the **Default configuration for automated submission**. When the flow is triggered, the sandbox submission occurs on your default configuration.
 
 Role required: sn\_si.admin
 
@@ -72,5 +72,5 @@ You can refer the subflows to troubleshoot issues with sandbox submissions. An E
 
 ## What to do next
 
-After you configure automated submission flows, you can [View the sandbox submission results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/view-sandbox-submission-results.md) to analyze any threats.
+After you configure automated submission flows, you can [View the sandbox submission results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/view-sandbox-submission-results.md) to analyze any threats.
 

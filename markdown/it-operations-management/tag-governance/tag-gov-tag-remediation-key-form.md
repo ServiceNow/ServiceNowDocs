@@ -3,11 +3,11 @@ title: Tag Remediation Key form
 description: You use the Tag Remediation Key form to create a tag remediation key.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/tag-governance/tag-gov-tag-remediation-key-form.html
-release: australia
+release: brazil
 product: Tag Governance
 classification: tag-governance
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Tag Governance, ITOM Visibility, IT Operations Management]
 ---
@@ -73,5 +73,5 @@ Script
 Script code to generate values for the key. This field appears only when **Script** is selected in the **Value Type** field.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Tag Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/tag-governance/reference-tag-governance.md)
+</table>**Parent Topic:**[Tag Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/tag-governance/reference-tag-governance.md)
 

@@ -3,11 +3,11 @@ title: Create an audience using the Compliance Workspace
 description: When you set up a policy acknowledgement request in the Compliance Workspace, you must identify an audience responsible for providing the acknowledgement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/create-audience-ws.html
-release: australia
+release: brazil
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up policy acknowledgement campaign, Acknowledge policy, Manage control objectives and policies, Use, GRC Compliance workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -30,7 +30,7 @@ Role required: sn\_compliance\_admin or sn\_compliance\_manager
 
 4.  Use the three tabs to identify members for this audience.
 
-<table id="choicetable_iyr_syf_mjb"><tbody><tr><td id="d234985e100">
+<table id="choicetable_iyr_syf_mjb"><tbody><tr><td id="d237720e100">
 
 **Users**
 
@@ -38,7 +38,7 @@ Role required: sn\_compliance\_admin or sn\_compliance\_manager
 
 Click **Edit** and add one or more individual users to the audience.
 
-</td></tr><tr><td id="d234985e112">
+</td></tr><tr><td id="d237720e112">
 
 **Groups**
 
@@ -46,7 +46,7 @@ Click **Edit** and add one or more individual users to the audience.
 
 Click **Edit** and add one or more predefined groups of users to the audience.
 
-</td></tr><tr><td id="d234985e124">
+</td></tr><tr><td id="d237720e124">
 
 **User Filters**
 
@@ -55,6 +55,6 @@ Click **Edit** and add one or more predefined groups of users to the audience.
 Click **New** to define a new filter for audience member inclusion. Click **Edit** to modify an existing user filter. You can save filters for future use.
 
 </td></tr></tbody>
-</table>5.  When the audience has been defined, you can add the users, groups, or user filters to an [acknowledgement request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/submit-ack-request-ws.md).
+</table>5.  When the audience has been defined, you can add the users, groups, or user filters to an [acknowledgement request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-compliance-management-workspace/submit-ack-request-ws.md).
 
 

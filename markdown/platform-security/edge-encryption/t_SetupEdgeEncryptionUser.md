@@ -3,11 +3,11 @@ title: Set up an Edge Encryption user account
 description: The Edge Encryption proxies connect to the instance as a user to obtain and update encryption configuration information. Create a user account for this purpose and give the edge\_encryption role to the user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/t\_SetupEdgeEncryptionUser.html
-release: australia
+release: brazil
 product: Edge Encryption
 classification: edge-encryption
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Installing Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -29,5 +29,5 @@ Role required: admin
 2.  Assign the edge\_encryption role to the user.
 
 
-**Parent Topic:**[Installing Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_InstallEdgeEncryptionProxy.md)
+**Parent Topic:**[Installing Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/c_InstallEdgeEncryptionProxy.md)
 

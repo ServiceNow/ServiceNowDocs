@@ -3,9 +3,9 @@ title: Disable text commands
 description: Disable text commands that can be applied by keyboard shortcuts for emails, journal input fields, and HTML fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/disable-text-commands.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Forms, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -26,7 +26,7 @@ Role required: admin
 
 2.  Add a system property named **glide.ui.enable\_text\_commands**.
 
-    For more information on adding system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+    For more information on adding system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 3.  Set the Value to **false**.
 

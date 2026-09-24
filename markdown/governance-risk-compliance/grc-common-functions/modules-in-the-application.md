@@ -3,11 +3,11 @@ title: Modules in the GRC integration with Thomson Reuters Regulatory Intelligen
 description: The GRC integration with Thomson Reuters Regulatory Intelligence application includes various modules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/modules-in-the-application.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integration with Thomson Reuters Regulatory Intelligence \(TRRI\), GRC integrations, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -170,5 +170,5 @@ Mapping of the Thomson Reuters platform taxonomy to internal taxonomy.
 |sn\_grc\_reg\_change\_ content\_type|Regulatory Content Type|
 |sn\_grc\_reg\_change\_ jurisdiction|Regulatory Jurisdiction|
 
-**Parent Topic:**[GRC integration with Thomson Reuters Regulatory Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-trri-integration.md)
+**Parent Topic:**[GRC integration with Thomson Reuters Regulatory Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/grc-trri-integration.md)
 

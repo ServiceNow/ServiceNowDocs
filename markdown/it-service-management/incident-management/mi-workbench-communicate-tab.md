@@ -3,11 +3,11 @@ title: The Communicate tab in the Major Incident workbench
 description: The Communicate tab helps you understand the progress of a communication plan and its related tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/mi-workbench-communicate-tab.html
-release: australia
+release: brazil
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Major incident workbench UI elements, Major incident workbench, Managing major incidents, Incident Management, IT Service Management]
 ---
@@ -20,7 +20,7 @@ If there are multiple communication tasks associated with a communication plan, 
 
 \[Omitted image "communication-task-filter.png"\] Alt text: communication task filter
 
-You can filter the communication task to view all tasks, active tasks, or completed tasks. You can also add a new communication plan by clicking **Add**. You can create a communication task for an existing plan by clicking **Add Task**. For more information, see [Add communication plan in the workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/add-comm-plan-from-mim-workbench.md). If you want to add or remove recipients from a particular plan after the plan is saved, click **Manage Recipients**.
+You can filter the communication task to view all tasks, active tasks, or completed tasks. You can also add a new communication plan by clicking **Add**. You can create a communication task for an existing plan by clicking **Add Task**. For more information, see [Add communication plan in the workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/add-comm-plan-from-mim-workbench.md). If you want to add or remove recipients from a particular plan after the plan is saved, click **Manage Recipients**.
 
 **Note:** When you create a communication task for sending an email on the Major Incident Management Workbench and select a recipient list, the recipient list is added instead of individual users. The list of users in the recipient list is calculated by the system while processing the email request, thus improving the system performance. Also, you can add users, groups, and email addresses as required in the Recipients section. Activate this feature by selecting the **Property to toggle support for Recipient List on Email Client, on Communication Tasks** \(**sn\_comm\_management.email\_client\_recipient\_items\_enabled**\) option in the Major Incident Management Properties. You can create a recipient list using a script to retrieve a custom list of users or include a pre-defined list of users.
 
@@ -47,11 +47,11 @@ Under the Work Notes &amp; Activity section, you can initiate a chat at the inci
 
 ## Messaging users through Slack
 
-For Slack functionality, install [Collaboration services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/collaboration-services/collab-services-tcm.md) from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
+For Slack functionality, install [Collaboration services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/collaboration-services/collab-services-tcm.md) from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
 
 When you add Slack as a communication channel, you can select **Compose** to convey the Slack message to the contacts that you’ve already mentioned in the communication contact while defining the communication plan. The selected contacts will receive a direct message from the Slack bot. You can perform the communication task actions such as **Closed Task**, **Snooze**, **View Form**, and **View Activity**.
 
-**Parent Topic:**[Major incident workbench UI elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/mi-workbench-ui-elements.md)
+**Parent Topic:**[Major incident workbench UI elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/mi-workbench-ui-elements.md)
 
 **Related topics**  
 

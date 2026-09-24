@@ -3,9 +3,9 @@ title: Attach a profile indicator to a scoring profile
 description: You must associate scoring profiles with profile indicators.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-attach-profile-indicators-with-application-scoring-profiles.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Add or edit a scoring profile, Configure scoring profiles, Configure EA Workspace using the Setup page, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -38,10 +38,10 @@ You can create or update the scoring profile with new indicators and associate i
 
 7.  On the form, fill in the fields.
 
-    For a description of the field values, see [Create profile indicator form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-new-profile-indicator-form.md).
+    For a description of the field values, see [Create profile indicator form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-new-profile-indicator-form.md).
 
 8.  Select **Save**.
 
 
-**Parent Topic:**[Add or edit a scoring profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-scoring-profile.md)
+**Parent Topic:**[Add or edit a scoring profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-scoring-profile.md)
 

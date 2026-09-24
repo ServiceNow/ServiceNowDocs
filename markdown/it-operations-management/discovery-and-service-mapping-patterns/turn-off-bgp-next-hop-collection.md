@@ -3,11 +3,11 @@ title: Turn off next-hop route data collection for BGP routers
 description: You can turn off Next Hop Routing Rule \[dscy\_route\_next\_hop\] table collection for BGP-enabled routers to reduce MID Server memory load during router discovery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/turn-off-bgp-next-hop-collection.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [BGP discovery, network router discovery, SNMP routing pattern, next-hop route data, MID Server performance]
 breadcrumb: [Network router, Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
@@ -49,10 +49,10 @@ The **glide.discovery.disable\_next\_hop\_data** property controls route-table c
 
 Run Discovery again against a BGP-enabled router to apply the changes.
 
-**Parent Topic:**[Network router discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/network-router-patterns.md)
+**Parent Topic:**[Network router discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/network-router-patterns.md)
 
 **Related topics**  
 
 
-[Network router discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/network-router-patterns.md)
+[Network router discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/network-router-patterns.md)
 

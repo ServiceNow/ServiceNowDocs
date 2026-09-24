@@ -3,11 +3,11 @@ title: Metrics monitored by DEX on macOS
 description: Review the endpoint performance and compliance metrics that DEX collects from managed macOS devices, including collection intervals, and associated check definitions and policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/metrics-monitored-by-dex-macos.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-06-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Service Management]
 ---
@@ -1528,7 +1528,7 @@ os.mac.check-system-wifi-transmit-rate
 Sudo permissions
 
 </td></tr></tbody>
-</table>**Note:** \* The Disk Usage metric reports storage consumption. For disk I/O throughput by process, see the Disk Usage action in [Digital End-User Experience remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-diff-ra.md).
+</table>**Note:** \* The Disk Usage metric reports storage consumption. For disk I/O throughput by process, see the Disk Usage action in [Digital End-User Experience remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/dex-diff-ra.md).
 
-**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-console-reference.md)
+**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/dex-console-reference.md)
 

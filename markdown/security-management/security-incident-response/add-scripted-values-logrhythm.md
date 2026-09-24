@@ -3,11 +3,11 @@ title: Use the script editor to format LogRhythm values
 description: In addition to the directly mapped fields from the pulled alarm values, and the alarm values you enter manually, you can use the script editor to format field values on the security incident during the mapping step which is optional.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/add-scripted-values-logrhythm.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Additional configurations for the LogRhythm integration, LogRhythm Overview, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -79,5 +79,5 @@ In certain cases, if LogRhythm alarm values are mapped to the `Priority` and `Ca
 5.  Close the table to return to the Mapping form.
 
 
-**Parent Topic:**[Additional configurations for the LogRhythm integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-system-and-troubleshooting-properties.md)
+**Parent Topic:**[Additional configurations for the LogRhythm integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/configure-system-and-troubleshooting-properties.md)
 

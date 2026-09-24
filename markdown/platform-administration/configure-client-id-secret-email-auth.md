@@ -3,9 +3,9 @@ title: Configure client credential flow for SMTP OAuth2 using a client id and se
 description: Configure outbound email accounts in a ServiceNow instance using a client id and secret.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/configure-client-id-secret-email-auth.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Send email using client credential flow, Advanced email setup, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -40,13 +40,19 @@ Role required: Microsoft Azure portal administrator and admin
 
 4.  Enable the **SMTP.SendAsApp** permission.
 
-    1.  In Microsoft Entra ID, navigate to **API permissions**, and select **Add a permission**.
+    1.  In Microsoft Azure, navigate to **Manage** &gt; **API permissions**.
 
-    2.  Select **Application Permissions**.
+    2.  Select **Add a permission**.
 
-    3.  From the list of permissions, select **SMTP.SendAsApp**.
+    3.  Select the Microsoft Office 365 tile.
 
-    4.  Select **Add permissions**.
+    4.  Select **Application Permissions**.
+
+    5.  In the **Select permissions** field, enter `SMTP SendAsApp`.
+
+    6.  Select the **SMTP SendAsApp** check box.
+
+    7.  Select **Add permissions**.
 
 5.  Select **Grant admin consent for &lt;your organization name&gt;**, then select **Yes** to confirm.
 
@@ -78,7 +84,7 @@ Role required: Microsoft Azure portal administrator and admin
         New-ServicePrincipal -AppId <APPLICATION_ID> -ObjectId <OBJECT_ID>
         ```
 
-        **Important:** When registering the service principal, copy the **Object ID** from **Microsoft Entra ID** &gt; **Enterprise applications** for the registered application, and use that value in the PowerShell command.
+        **Important:** For the OBJECT\_ID value, go to **Overview** &gt; **Managed applications in local directory** and copy the Object ID.
 
     3.  Add permission to user email ID using the following command.
 
@@ -89,12 +95,12 @@ Role required: Microsoft Azure portal administrator and admin
 
 9.  Navigate to **Overview** &gt; **Endpoints** and copy the **OAuth 2.0 token endpoint \(v2\)** to a text file.
 
-    You use the **OAuth 2.0 token endpoint \(v2\)** when registering an OAuth provider. For more information, see [Register an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/register-oauth-cred-flow.md).
+    You use the **OAuth 2.0 token endpoint \(v2\)** when registering an OAuth provider. For more information, see [Register an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/register-oauth-cred-flow.md).
 
 
 ## What to do next
 
-[Register an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/register-oauth-cred-flow.md)
+[Register an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/register-oauth-cred-flow.md)
 
-**Parent Topic:**[Sending email using client credential flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/send-email-client-credential-flow.md)
+**Parent Topic:**[Sending email using client credential flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/send-email-client-credential-flow.md)
 

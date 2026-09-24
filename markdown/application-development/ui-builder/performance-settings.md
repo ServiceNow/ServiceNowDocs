@@ -3,11 +3,11 @@ title: Optimize page loading performance \(Advanced Feature\)
 description: Performance settings enhances leading speeds and user engagement by displaying high-priority content first, making key components interactive sooner for a faster perceived performance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/performance-settings.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure components and repeaters \(advanced feature\), Advanced UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -26,7 +26,7 @@ Role required: ui\_builder\_admin
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Create or open a page.
 
@@ -68,5 +68,5 @@ Role required: ui\_builder\_admin
 10. Select **Apply**.
 
 
-**Parent Topic:**[Configure components and repeaters \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/configure-comp-and-repeaters.md)
+**Parent Topic:**[Configure components and repeaters \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/configure-comp-and-repeaters.md)
 

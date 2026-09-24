@@ -3,9 +3,9 @@ title: Teams in Workforce Optimization for Customer Service
 description: Teams lets you organize each of your teams into assignment groups, define a set of key performance indicators \(KPIs\) to analyze the performance of all groups within a team, drill into the metrics for a group, an agent, or an incident from a central location, and manage your teams effectively from a single location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/explore-teams-configurable-wfo-cs.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -59,17 +59,17 @@ Managers can set up and use Teams by performing the following steps:
 4.  Add assignment groups to the KPI group
 5.  Drill down into a KPI, agent, or an incident to analyze performance
 
-For detailed information on how to setup and use Teams, see [teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-teams-configurable-wfo-cs.md).
+For detailed information on how to setup and use Teams, see [teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/setting-teams-configurable-wfo-cs.md).
 
--   **[Using Teams in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/teams-configurable-wfo-cs.md)**  
+-   **[Using Teams in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/teams-configurable-wfo-cs.md)**  
 Use Teams to track and analyze performance trends for your teams from a single location. You can monitor the trends for each agent within your team and compare your agents or team members with one another.
 
-**Parent Topic:**[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-configurable-wfo-cs.md)
+**Parent Topic:**[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/use-configurable-wfo-cs.md)
 
 **Related topics**  
 
 
-[Setting up Teams Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-teams-configurable-wfo-cs.md)
+[Setting up Teams Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/setting-teams-configurable-wfo-cs.md)
 
-[Using Teams in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/teams-configurable-wfo-cs.md)
+[Using Teams in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/teams-configurable-wfo-cs.md)
 

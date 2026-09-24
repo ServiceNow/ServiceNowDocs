@@ -3,9 +3,9 @@ title: View an order on the Business Portal
 description: Customers can view their orders using the Business Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/order-mgt-view-order-using-customer-portal.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Self-service order management, Business Portal, Use, Sales Customer Relationship Management]
 ---
@@ -32,10 +32,10 @@ Role required: sn\_customerservice.customer
     -   To open an order - select the order number.
     -   To navigate back to the main window - use the breadcrumbs.
 
-**Parent Topic:**[Self-service order management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/self-service-order-management.md)
+**Parent Topic:**[Self-service order management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/self-service-order-management.md)
 
 **Related topics**  
 
 
-[Create orders from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-create-an-order-using-customer-portal.md)
+[Create orders from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-create-an-order-using-customer-portal.md)
 

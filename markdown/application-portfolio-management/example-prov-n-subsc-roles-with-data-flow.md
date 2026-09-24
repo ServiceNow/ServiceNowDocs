@@ -3,9 +3,9 @@ title: Example: Provider and subscriber with data flow directions
 description: The provider and subscriber roles are independent of the data flow direction. The following example illustrates how the same provider and subscriber pairing can support both outgoing and incoming data flow directions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/example-prov-n-subsc-roles-with-data-flow.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with digital integrations, Working with digital integration management in Enterprise Architecture Workspace, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -32,5 +32,5 @@ This integration supports two data flow directions:
 
 In both cases, Active Directory remains the provider because it owns the digital interface. The **Data Flow Direction** field reflects which application initiates the connection, not which application owns the data.
 
-**Parent Topic:**[Working with digital integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-digital-integrations.md)
+**Parent Topic:**[Working with digital integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-work-with-digital-integrations.md)
 

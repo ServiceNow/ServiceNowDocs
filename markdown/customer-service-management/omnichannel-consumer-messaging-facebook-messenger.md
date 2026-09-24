@@ -3,9 +3,9 @@ title: Configure Facebook Messenger
 description: Configure Facebook Messenger as a consumer messaging channel within ServiceNow Customer Service Management \(CSM\). Enabling Facebook Messenger as a channel lets customers start support conversations. Those conversations route to service agents, who manage them in the CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/omnichannel-consumer-messaging-facebook-messenger.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Facebook Messenger, omnichannel, consumer messaging, integration]
 breadcrumb: [Configure consumer messaging apps, Configure omnichannel, Configure, Customer Service Management]
@@ -27,7 +27,11 @@ The following workflow shows how to [Configure Conversational Integration with F
 
 <table id="table_n5b_syf_yjc"><thead><tr><th>
 
-Task
+ 
+
+</th><th>
+
+Configuration step
 
 </th><th>
 
@@ -39,7 +43,11 @@ Role
 
 </th></tr></thead><tbody><tr><td>
 
-1. [Install Conversational Integration with Facebook Messenger](https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/messg-fbm-install.html)
+1
+
+</td><td>
+
+[Install Conversational Integration with Facebook Messenger](https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/messg-fbm-install.html)
 
 </td><td>
 
@@ -51,7 +59,11 @@ Admin
 
 </td></tr><tr><td>
 
-2. [Set up Conversational Integration with Facebook Messenger](https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/messg-fbm-setup.html)
+2
+
+</td><td>
+
+[Set up Conversational Integration with Facebook Messenger](https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/messg-fbm-setup.html)
 
 </td><td>
 
@@ -78,7 +90,11 @@ Admin
 
 </td></tr><tr><td>
 
-3. [Configure and integrate Virtual Agent](https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-integration-messaging-apps.html)
+3
+
+</td><td>
+
+[Configure and integrate Virtual Agent](https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-integration-messaging-apps.html)
 
 </td><td>
 
@@ -90,7 +106,11 @@ Admin
 
 </td></tr><tr><td>
 
-4. [Transfer Facebook Messenger chat conversations to live agents](https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/messg-fbm-live-agent-conv.html)
+4
+
+</td><td>
+
+[Transfer Facebook Messenger chat conversations to live agents](https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/messg-fbm-live-agent-conv.html)
 
 </td><td>
 
@@ -102,7 +122,11 @@ Admin
 
 </td></tr><tr><td>
 
-5. [Activate Advanced Work Assignment \(AWA\)](https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/implement-awa.html)
+5
+
+</td><td>
+
+[Activate Advanced Work Assignment \(AWA\)](https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/implement-awa.html)
 
 </td><td>
 
@@ -114,7 +138,11 @@ Admin
 
 </td></tr><tr><td>
 
-6. [Set up CSM Configurable Workspace](https://www.servicenow.com/docs/r/customer-service-management/csm-config-workspace-set-up.html)
+6
+
+</td><td>
+
+[Set up CSM Configurable Workspace](https://www.servicenow.com/docs/r/customer-service-management/csm-config-workspace-set-up.html)
 
 </td><td>
 

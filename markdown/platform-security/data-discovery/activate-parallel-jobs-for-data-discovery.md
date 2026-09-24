@@ -3,11 +3,11 @@ title: Activate parallel jobs for Data Discovery
 description: Use parallel jobs to reduce your Data Discovery job execution time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/data-discovery/activate-parallel-jobs-for-data-discovery.html
-release: australia
+release: brazil
 product: Data Discovery
 classification: data-discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data Discovery jobs, Exploring Data Discovery \(Classic\), Data Discovery, Platform Privacy]
 ---

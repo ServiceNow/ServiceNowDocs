@@ -3,11 +3,11 @@ title: Launch web application from alert
 description: You can launch a web application from an alert that matches the conditions set in an alert action rule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMLaunchAnApplication.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -24,7 +24,7 @@ Role required: evt\_mgmt\_admin, evt\_mgmt\_operator, or evt\_mgmt\_user
 
 ## About this task
 
-Right-click an alert in All Alerts or the Alert list in the Event Management Dashboard \(for instances upgraded from a release before Orlando\), and choose **Quick Response**. Click the required link to launch the web application that was configured in the alert action rule. For further information, see [Migrate an alert action rule to an alert management rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMCreateAlertRule.md).
+Right-click an alert in All Alerts or the Alert list in the Event Management Dashboard \(for instances upgraded from a release before Orlando\), and choose **Quick Response**. Click the required link to launch the web application that was configured in the alert action rule. For further information, see [Migrate an alert action rule to an alert management rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMCreateAlertRule.md).
 
 ## Procedure
 
@@ -45,12 +45,12 @@ A common use case is launch in context to the source management system.
 
 Other examples include to search in knowledge bases, not only within ServiceNow, but externally as well. Any URL-based action can utilize the alert parameters and the URLs can refer to wikis, messaging services, REST APIs, and so on.
 
-**Parent Topic:**[Using Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/user-guide.md)
+**Parent Topic:**[Using Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/user-guide.md)
 
 **Related topics**  
 
 
-[Migrate an alert action rule to an alert management rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMCreateAlertRule.md)
+[Migrate an alert action rule to an alert management rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMCreateAlertRule.md)
 
-[Apply a quick response in an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/apply-quick-response-in-alert.md)
+[Apply a quick response in an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/apply-quick-response-in-alert.md)
 

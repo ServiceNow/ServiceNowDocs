@@ -3,11 +3,11 @@ title: Install Field Service Virtual Agent Conversations
 description: You can install the Field Service Virtual Agent Conversations application \(sn\_fsm\_va\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence: The application includes conversation topics and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/activate-virtual-agent-fsm.html
-release: australia
+release: brazil
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Set up Virtual Agent conversations, Setting up Field Service Mobile Agent, Configure, Field Service Management]
 ---
@@ -23,13 +23,13 @@ You can install the Field Service Virtual Agent Conversations application \(sn\_
     -   **Required ServiceNow plugins**
         -   **Virtual Agent plugin \(com.glide.cs.chatbot\)**
 
-            Enables the chatbot conversation with virtual agent. For details on activating Virtual Agent, see [Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/activate-virtual-agent.md).
+            Enables the chatbot conversation with virtual agent. For details on activating Virtual Agent, see [Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/activate-virtual-agent.md).
 
 -   Virtual Agent for Field Service Management requires the following ServiceNow Store applications. Ensure that these applications are installed before you install Field Service Virtual Agent Conversations.
     -   **Required ServiceNow Store applications**
         -   **Field Service NLU Model for Virtual Agent Conversations**
 
-            For more information, see [Enabling NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-nlu-settings.md).
+            For more information, see [Enabling NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-nlu-settings.md).
 
 
 Role required: admin

@@ -3,13 +3,13 @@ title: Manage attachments in Card Data Security
 description: Learn how attachments in the contextual side panel are handled in Card Data Security.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-21"
 reading_time_minutes: 1
-keywords: [manage attachments, card data security attachments, issuer tab, merchant tab, contextual side panel attachments, download documents vault, secure attachments, dispute transaction attachments, view documents tokenizer vault]
+keywords: [manage attachments, card data security attachments, issuer tab, merchant tab, contextual side panel attachments, download documents vault, secure attachments, dispute transaction attachments, view documents tokenizer vault, zip file viewer, view files in zip attachment]
 breadcrumb: [Use, Card Data Security, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 

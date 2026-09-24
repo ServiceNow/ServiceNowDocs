@@ -3,11 +3,11 @@ title: SNMP-based queries
 description: Service Mapping accesses network infrastructure devices like load balancers and routers using Simple Network Management Protocol \(SNMP\) v1/v2c/v3. Configure SNMP community credentials to enable this type of access.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/snmp-based-queries.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Prerequisites for performing top-down discovery, Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Prerequisites for performing top-down discovery, Configuring Servic
 
 Service Mapping accesses network infrastructure devices like load balancers and routers using Simple Network Management Protocol \(SNMP\) v1/v2c/v3. Configure SNMP community credentials to enable this type of access.
 
-Configure SNMP community if you use SNMP v1/v2 or SNMPv3 credentials if you use SNMP v3. For operational information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+Configure SNMP community if you use SNMP v1/v2 or SNMPv3 credentials if you use SNMP v3. For operational information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 SNMP-based queries have the format of strings of integers.
 
@@ -193,10 +193,10 @@ Make sure that the user has credentials for SNMPv3 unless read-only community st
 -   1.3.6.1.4.1.89.35.1.11.1
 -   1.3.6.1.4.1.89.35.1.40.52.1.1
 
-**Parent Topic:**[Prerequisites for performing top-down discovery using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/prerequisites-service-mapping.md)
+**Parent Topic:**[Prerequisites for performing top-down discovery using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/prerequisites-service-mapping.md)
 
 **Related topics**  
 
 
-[ITOM Content Service reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/itom-content-service-classifiers.md)
+[ITOM Content Service reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/itom-content-service-classifiers.md)
 

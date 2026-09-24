@@ -3,9 +3,9 @@ title: Group owner fields and role requirements
 description: Reference guide for group owner role eligibility requirements, field mapping, and filtering logic across all Business Continuity Management record types.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/owner-group-eligibility-roles.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 keywords: [business continuity management, group ownership, role requirements]
 breadcrumb: [Reference, Business Continuity Management, Governance, Risk, and Compliance]
@@ -17,7 +17,7 @@ Reference guide for group owner role eligibility requirements, field mapping, an
 
 ## Group ownership functionality
 
-Group ownership is available across three BCM record types: Business Impact Analysis \(BIA\), Business Continuity Plan \(Plan\), and Recovery Event \(Event\). Each record type maintains its own field naming convention while sharing the same underlying logic for filtering, mandatory validation, and role-based access control.
+Group ownership is available across three BCM record types: Business Impact Analysis \(BIA\), Business Continuity Plan \(Plan\), and Recovery Event \(Event\). Each record type maintains its own field naming convention while sharing the same logic for filtering, mandatory validation, and role-based access control.
 
 ## Field mapping by record type
 
@@ -25,19 +25,19 @@ The following table shows the field naming convention for each BCM record type:
 
 |Record Type|Table Name|Group Field Name|Individual Field Name|
 |-----------|----------|----------------|---------------------|
-|Business Impact Analysis \(BIA\)|sn\_bcp\_impact\_analysis|BIA Owner group|BIA Owner|
-|Business Continuity Plan \(Plan\)|sn\_bcp\_plan|Plan owner group|Plan owner|
-|Recovery Event \(Event\)|sn\_recovery\_event|Assignment group|Assigned to|
+|Business Impact Analysis \(BIA\)|`sn_bcp_impact_analysis`|BIA Owner group|BIA Owner|
+|Business Continuity Plan \(Plan\)|`sn_bcp_plan`|Plan owner group|Plan owner|
+|Recovery Event \(Event\)|`sn_recovery_event`|Assignment group|Assigned to|
 
 ## Role-based group filtering
 
-The group field on each record type filters candidate groups based on role eligibility. Only groups that hold a role equivalent to the record's owner role are shown as selectable options. This confirms that groups shown in the owner field actually have the permissions needed to manage the record.
+The group field on each record type filters candidate groups based on role eligibility. Only groups that hold a role equivalent to the record's owner role are shown as selectable options. This verifies that groups shown in the owner field have the permissions needed to manage the record.
 
 |Record Type|Groups Shown|Groups Excluded|Purpose|
 |-----------|------------|---------------|-------|
-|BIA records \(sn\_bcp\_impact\_analysis\)|Only groups holding the BIA Planner role OR the BIA Manager role|Any group without one of these roles is not shown in the BIA Owner group selectable list|Ensures only qualified groups can be assigned as BIA record owners|
-|Plan records \(sn\_bcp\_plan\)|Only groups holding the Plan Owner role OR equivalent BCM Manager role|Any group without one of these roles is not shown in the Plan owner group selectable list|Ensures only qualified groups can be assigned as Plan record owners|
-|Event records \(sn\_recovery\_event\)|Only groups with task assignment permissions \(inherited from sn\_task table role model\)|Any group without the required task assignment role is not shown in the Assignment group selectable list|Verifies only qualified groups can be assigned as Event record owners. Filter may vary based on task table configuration|
+|BIA records \[sn\_bcp\_impact\_analysis\]|Only groups holding the BIA Planner role OR the BIA Manager role|Any group without one of these roles is not shown in the BIA Owner group selectable list|Ensures only qualified groups can be assigned as BIA record owners|
+|Plan records \[sn\_bcp\_plan\]|Only groups holding the Plan Owner role OR equivalent BCM Manager role|Any group without one of these roles is not shown in the Plan owner group selectable list|Ensures only qualified groups can be assigned as Plan record owners|
+|Event records \[sn\_recovery\_event\]|Only groups with task assignment permissions \(inherited from sn\_task table role model\)|Any group without the required task assignment role is not shown in the Assignment group selectable list|Ensures only qualified groups can be assigned as Event record owners. Filter may vary based on task table configuration|
 
 ## Individual field filtering across record types
 
@@ -72,7 +72,7 @@ Guidance banner: `Select either a group or an individual to save the record and 
 
 ## Role permissions and access control
 
-Role-based group filtering confirms that only groups with the appropriate permissions are eligible to own records of each type. This maintains proper separation of duties and access control across the BCM suite.
+Role-based group filtering ensures that only groups with the appropriate permissions are eligible to own records of each type. This approach maintains proper separation of duties and access control across the BCM suite.
 
 |Record Type|Required Permissions|
 |-----------|--------------------|
@@ -90,13 +90,13 @@ Role-based group filtering confirms that only groups with the appropriate permis
 |Outside group selection|The "Allow selection outside the group" informational message provides flexibility for edge cases. An individual may serve as owner even if not formally part of the owning group.|
 |UI consistency|Both Classic UI and Business Continuity Workspace implement group ownership consistently, ensuring a unified user experience across UI platforms.|
 
--   **[BIA owner field reference and validation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bia-smart-assessment-owner-sync.md)**  
+-   **[BIA owner field reference and validation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/bia-smart-assessment-owner-sync.md)**  
 Detailed field definitions, validation rules, filtering logic, and technical specifications for group ownership in Business Impact Analysis \(BIA\) records.
 
-**Parent Topic:**[BCM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-reference.md)
+**Parent Topic:**[BCM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/bcm-reference.md)
 
 **Related topics**  
 
 
-[Group ownership in BIA, plan, and event records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/group-ownership-bias.md)
+[Group ownership in BIA, plan, and event records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/group-ownership-bias.md)
 

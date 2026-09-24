@@ -3,11 +3,11 @@ title: Upgrade existing demands
 description: Execute scheduled jobs to upgrade your existing active and inactive demands.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/upgrade-existing-demands-in-dw.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Multicurrency in demands, Configure financials for demands, Configure, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Execute scheduled jobs to upgrade your existing active and inactive demands.
 
 ## Before you begin
 
-The PPM Standard Multicurrency feature must have been installed. For more information, see [Activate PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/t_ActivateProjectPortfolioSuiteWithFinancials.md).
+The PPM Standard Multicurrency feature must have been installed. For more information, see [Activate PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/t_ActivateProjectPortfolioSuiteWithFinancials.md).
 
 Role required: admin
 

@@ -3,9 +3,9 @@ title: Create entitlements for a household
 description: Create entitlements for a household so that all household members are covered under the same terms and conditions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-household-entitlements.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring households, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -46,7 +46,7 @@ When a case is created for a household or a consumer, the **Entitlement** field 
 
 5.  Fill in the remaining fields on the Entitlement form.
 
-    For more information, see [Create entitlements for CSM entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CreateAnEntitlement.md).
+    For more information, see [Create entitlements for CSM entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_CreateAnEntitlement.md).
 
 6.  Select **Submit**.
 

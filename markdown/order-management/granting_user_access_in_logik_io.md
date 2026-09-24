@@ -3,7 +3,7 @@ title: Granting user access in CPQ
 description: This outline briefly examines how to add or limit users to CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/granting\_user\_access\_in\_logik\_io.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -23,7 +23,7 @@ To add users, in Salesforce Admin, go to Setup, go to Manage Connected Apps, and
 -   In the OAuth Policies section, confirm that Permitted Users input is set to **Admin approved users are pre-authorized**.
 -   In the Profiles section, click **Manage Profiles**. Select the checkboxes that correspond to the profiles you want to enable, and save.
 -   To assign specific permission sets access to the CPQ Connected App, click **Manage Permission Sets**. Select the check boxes that correspond to the permission sets to enable, and save.
--   New admin users must first access the CPQ Admin. Their admin access can then be toggled on by another admin user in the User Access section of Utilities. For more information, see [User access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+-   New admin users must first access the CPQ Admin. Their admin access can then be toggled on by another admin user in the User Access section of Utilities. For more information, see [User access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)
 
 To limit prevent certain profiles from accessing CPQ Admin, in Salesforce Admin, go to Setup, go to Object Manager, Product, and then Fields &amp; Relationships. Click the **View ServiceNow CPQ Setup \(LGK\_\_ViewConfigurationSetup\_\_c\)** field, and then click **Set Field-Level Security**.
 
@@ -38,12 +38,12 @@ When using a custom UI \(such as React\) that calls CPQ APIs, CPQ leverages your
 
 ## Additional permissions to check
 
-[Assigning non-Admin user permissions for CPQ in Salesforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/non-admin_user_permissions_for_logik_in_salesforce.md)
+[Assigning non-Admin user permissions for CPQ in Salesforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/non-admin_user_permissions_for_logik_in_salesforce.md)
 
 [What to do if receiving and Insufficient Privileges or blank screen when launching a CPQ configuration](https://logikio.atlassian.net/wiki/spaces/CS/pages/1616314402/What+to+do+if+receiving+and+Insufficient+Privileges+or+blank+screen+when+launching+a+Logik+configuration#reverse_twin_productlist.extended_data_to_quoteline/bookmark4)
 
 **Related topics**  
 
 
-[CPQ: User Access Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/logik_admin_user_access_control.md)
+[CPQ: User Access Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/logik_admin_user_access_control.md)
 

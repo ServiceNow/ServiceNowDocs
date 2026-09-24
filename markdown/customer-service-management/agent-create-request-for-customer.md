@@ -3,9 +3,9 @@ title: Create a request on behalf of a customer or consumer
 description: Customer service agents can create requests on behalf of customers from CRM Workspace or from the platform interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/agent-create-request-for-customer.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage cases, Use, Customer Service Management]
 ---
@@ -39,15 +39,15 @@ Customer service agents can browse the catalog and make a selection to create a 
 
 5.  To complete the request, do one of the following.
 
-<table id="choicetable_vjq_k4q_g3b"><thead><tr><th align="left" id="d122904e118">
+<table id="choicetable_vjq_k4q_g3b"><thead><tr><th align="left" id="d125773e118">
 
 Interface
 
-</th><th align="left" id="d122904e121">
+</th><th align="left" id="d125773e121">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d122904e127">
+</th></tr></thead><tbody><tr><td id="d125773e127">
 
 **CRM Workspace**
 
@@ -60,7 +60,7 @@ Complete these steps:
 3.  Click **Checkout**.
  The system creates the request and displays the request number. Click **View Details** to open the request record.
 
-</td></tr><tr><td id="d122904e172">
+</td></tr><tr><td id="d125773e172">
 
 **Platform interface**
 

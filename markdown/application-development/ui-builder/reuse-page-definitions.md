@@ -3,11 +3,11 @@ title: Create a page from a template
 description: Use a template to create a page based on a pre-defined page template. A page template can help you create pages faster and keep pages consistent within an experience. Page templates may include components, data resources, and a layout.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/reuse-page-definitions.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create a page in UI Builder, Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -24,7 +24,7 @@ Role required: ui\_builder\_admin
 
 ## About this task
 
-Select a page template when creating a page in your experience. After creating a page from a template, you can customize the page to your needs. Page templates include controllers that can be used with component presets. See [Bind data to UI Builder pages using controllers \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/controllers.md) for more information.
+Select a page template when creating a page in your experience. After creating a page from a template, you can customize the page to your needs. Page templates include controllers that can be used with component presets. See [Bind data to UI Builder pages using controllers \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/controllers.md) for more information.
 
 ## Procedure
 
@@ -32,7 +32,7 @@ Select a page template when creating a page in your experience. After creating a
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Select the **Create new page** in the center of the screen.
 
@@ -48,7 +48,7 @@ Select a page template when creating a page in your experience. After creating a
 
     \[Omitted image "template-page-settings.png"\] Alt text: Page details screen with name, URL path, and type fields.
 
-    **Note:** The application scope defaults to the scope that the user is in within the ServiceNow AI Platform®. For more information about the application scope, see [Learn about security and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/security-roles.md).
+    **Note:** The application scope defaults to the scope that the user is in within the ServiceNow AI Platform®. For more information about the application scope, see [Learn about security and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/security-roles.md).
 
 7.  Select a URL page type in the **Type** drop-down list. UI Builder automatically assigns a page type based on the template you select, but you can change this value if needed.
 
@@ -72,12 +72,12 @@ Select a page template when creating a page in your experience. After creating a
 
 13. Declare conditions for when to display the page \(this variant\) by either using the provided dropdown menus or writing an encoded query string.
 
-    For more information on writing encoded queries, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).
+    For more information on writing encoded queries, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_EncodedQueryStrings.md).
 
 14. Select **Create** to create your page from template.
 
-    The page you created displays in the **Page** section of your experience. Select **Editor** to start adding components to your page. For more information, see [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md).
+    The page you created displays in the **Page** section of your experience. Select **Editor** to start adding components to your page. For more information, see [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-components.md).
 
 
-**Parent Topic:**[Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md)
+**Parent Topic:**[Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-page.md)
 

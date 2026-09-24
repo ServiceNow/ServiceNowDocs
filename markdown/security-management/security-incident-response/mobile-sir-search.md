@@ -3,11 +3,11 @@ title: Search for security incidents with the Security Incident Response Mobile 
 description: Search for Security Incident Response \(SIR\) security incidents on a ServiceNow AI Platform instance. Only incidents that match the specific search criteria that you enter are displayed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/mobile-sir-search.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Mobile Experience for Security Incident Response, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -26,7 +26,7 @@ Time to complete this task: 5-10 minutes.
 
 ## Procedure
 
-1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mobile-sir-get-started.md).
+1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/mobile-sir-get-started.md).
 
 2.  With the Security Incidents landing screen displayed, tap **Search Incidents**.
 
@@ -139,15 +139,15 @@ Select one from the list or tap the search icon and type an entry in the search 
 </td></tr></tbody>
 </table>    For Android devices, with the Search Incidents screen displayed and all your criteria entered, choose one to continue.
 
-<table id="choicetable_qrd_xjz_23b"><thead><tr><th align="left" id="d365621e309">
+<table id="choicetable_qrd_xjz_23b"><thead><tr><th align="left" id="d365355e309">
 
 Option
 
-</th><th align="left" id="d365621e312">
+</th><th align="left" id="d365355e312">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d365621e318">
+</th></tr></thead><tbody><tr><td id="d365355e318">
 
 **Clear or modify search criteria prior to executing a search**
 
@@ -158,7 +158,7 @@ To clear all entered criteria, with the Search Incidents screen displayed, tap t
 -   Tap the check mark icon to save the changes and return to the Search Incidents screen.
 
 
-</td></tr><tr><td id="d365621e348">
+</td></tr><tr><td id="d365355e348">
 
 **Submit a search**
 
@@ -169,15 +169,15 @@ With the Search Incidents screen displayed with your entered search criteria, ta
 </td></tr></tbody>
 </table>4.  For iOS devices, with the Search Incidents screen displayed, choose one to continue.
 
-<table id="choicetable_cjx_wkz_23b"><thead><tr><th align="left" id="d365621e378">
+<table id="choicetable_cjx_wkz_23b"><thead><tr><th align="left" id="d365355e378">
 
 Option
 
-</th><th align="left" id="d365621e381">
+</th><th align="left" id="d365355e381">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d365621e387">
+</th></tr></thead><tbody><tr><td id="d365355e387">
 
 **Clear or modify search criteria prior to executing a search**
 
@@ -188,7 +188,7 @@ To clear all criteria and return to the landing screen, tap the close icon \(X\)
 -   Tap **Done** to save the changes and return to the Search Incidents screen.
 
 
-</td></tr><tr><td id="d365621e417">
+</td></tr><tr><td id="d365355e417">
 
 **Submit a search**
 
@@ -197,6 +197,6 @@ To clear all criteria and return to the landing screen, tap the close icon \(X\)
 With the Search Incidents screen displayed with your entered search criteria, tap **Search**.The security incidents that match your search criteria are displayed. After the search is completed, the search criteria are not saved.
 
 </td></tr></tbody>
-</table>5.  If your search returns multiple records, you can [Filter records with the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mobile-sire-filters.md) to refine the search results.
+</table>5.  If your search returns multiple records, you can [Filter records with the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/mobile-sire-filters.md) to refine the search results.
 
 

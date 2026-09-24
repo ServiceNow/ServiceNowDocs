@@ -3,12 +3,12 @@ title: Manage work orders
 description: Work orders are requests for off-site work. Users with the appropriate roles create the work orders and provide the necessary information needed for the work order tasks. Then other users qualify those work orders and create the tasks necessary to complete the work order.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/c\_ManageWorkOrders.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Prepare work orders, Use, Field Service Management]
 ---
 
@@ -61,7 +61,7 @@ Incident
 -   Priority
 -   Short description
 -   Description
- For more information, see [Integration with Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/incident-for-fsm.md).
+ For more information, see [Integration with Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-integrations/incident-for-fsm.md).
 
 </td></tr><tr><td>
 
@@ -100,7 +100,7 @@ Change
 -   Priority
 -   Short description
 -   Description
- For more information, see [Integration with Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/change-for-fsm.md).
+ For more information, see [Integration with Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-integrations/change-for-fsm.md).
 
 </td></tr><tr><td>
 
@@ -115,9 +115,20 @@ Project task**Note:** Before work orders can be created from project tasks, Fiel
 -   State
 -   Scheduled start
 -   Estimated end
- For more information about the synchronized fields, see [Integration with Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/project-management-integration.md).
+ For more information about the synchronized fields, see [Integration with Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-integrations/project-management-integration.md).
 
 </td></tr></tbody>
 </table>    Work orders can be filtered based on different attributes, such as qualification group, location, initiated from, priority, state, and so on. This help to create a group of similar work orders.
 
+
+## Example: AC Not Cooling – Repair
+
+A customer contacts support to report an AC unit is not cooling. A CSM agent creates a work order from the case. The qualifier validates the work order and routes it to the dispatch queue, where it is ready for a dispatcher to assign to a technician.
+
+|Step|Actor|Action|
+|----|-----|------|
+|1|Customer|Reports need for repair|
+|2|System|Creates case in CSM|
+|3|CSM agent|Creates work order from case|
+|4|Qualifier|Validates work order and routes to dispatch queue|
 

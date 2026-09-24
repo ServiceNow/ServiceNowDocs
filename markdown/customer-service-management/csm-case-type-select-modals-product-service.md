@@ -3,9 +3,9 @@ title: Product Service select version of the case type selector
 description: With the Product Service select version of the case type selector, agents can create cases of the correct type based on the selected product or service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-case-type-select-modals-product-service.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Case type selector, Customer service case types, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -149,7 +149,7 @@ The Product Service select version of the case type selector displays the availa
 -   Description
 -   Image
 
-When an administrator creates a service definition, they can provide a name for the service. They can also provide a description of the service and add an image to represent the service. For more information, see [Create a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-csm-service-definition.md).
+When an administrator creates a service definition, they can provide a name for the service. They can also provide a description of the service and add an image to represent the service. For more information, see [Create a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-csm-service-definition.md).
 
 ## Browsing services in the case type selector
 

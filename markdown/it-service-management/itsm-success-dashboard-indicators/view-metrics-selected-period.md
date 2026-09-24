@@ -3,11 +3,11 @@ title: View metrics for selected period in ITSM Success Dashboard indicators
 description: View the Key Performance Indicators \(KPIs\) metrics on the ITSM Success Dashboard for a selected period to analyze the performance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-success-dashboard-indicators/view-metrics-selected-period.html
-release: australia
+release: brazil
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Maximise the benefits, ITSM Success Dashboard indicators, IT Service Management]
 ---
@@ -39,5 +39,5 @@ Role required: user
     The values of all the KPIs including the contributing KPIs for the selected criteria is displayed on the dashboard. The data is refreshed for each selected criteria.
 
 
-**Parent Topic:**[Maximise the benefits of using the ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/measuring-performance-success-dashboard.md)
+**Parent Topic:**[Maximise the benefits of using the ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-success-dashboard-indicators/measuring-performance-success-dashboard.md)
 

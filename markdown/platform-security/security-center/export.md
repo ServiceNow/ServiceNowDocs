@@ -3,11 +3,11 @@ title: Export
 description: Discover the data that is commonly exported, and which users do the exporting.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/export.html
-release: australia
+release: brazil
 product: Security Center
 classification: security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security metrics, Security monitoring console, Security Center, Platform Security]
 ---
@@ -23,7 +23,7 @@ This page displays cards with information on metrics related to export. Each car
 
 Select the cards to view the individual metrics page with additional details.
 
-Select the **+Create task** button to create a Security Task related to a metric. For details on Security Tasks, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/security-task-manager.md).
+Select the **+Create task** button to create a Security Task related to a metric. For details on Security Tasks, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/security-task-manager.md).
 
-**Parent Topic:**[Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-metrics.md)
+**Parent Topic:**[Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-metrics.md)
 

@@ -3,11 +3,11 @@ title: Configure event collection from email
 description: Configure an inbound email action to send email notifications when events and alerts are triggered.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMConfigureEmailConnector.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -67,7 +67,7 @@ When you add an inbound email action to send email, Event Management uses inboun
 
 5.  From the instance, send an email that contains matching data, and then confirm that the event or alert information appears in Event Management.
 
-    For more information sending email messages to create an instance, see [Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_InboundEmailActions.md).
+    For more information sending email messages to create an instance, see [Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_InboundEmailActions.md).
 
     **Note:** Ensure that the user who sends the email has the role **evt\_mgmt\_integration**.
 
@@ -78,5 +78,5 @@ When you add an inbound email action to send email, Event Management uses inboun
 
 The inbound email is sent to the em\_event table and regular Event Management processes continue, for example, event rules and alert management rules run.
 
-**Parent Topic:**[Configure Event Management connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/connectors-and-listeners.md)
+**Parent Topic:**[Configure Event Management connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/connectors-and-listeners.md)
 

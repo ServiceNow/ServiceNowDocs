@@ -3,13 +3,13 @@ title: Exclude a class from prediction
 description: Exclude a class from prediction if its precision or coverage aren't satisfactory. Excluding a class prevents the classification model from predicting a particular output field value.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/exclude-class-from-prediction.html
-release: australia
+release: brazil
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create and train a classification solution, Creating and training solutions, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Create and train a classification solution, Creating and training solutions, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Exclude a class from prediction

@@ -3,9 +3,9 @@ title: Legacy: IT Agent dashboard
 description: View the open incidents, problems, and requests that belong to you and your assignment groups through personalized reports. You can also see which incidents that belong to your assignment groups exceed the Spotlight threshold.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/it-agent-dashboard.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Legacy: Performance Analytics ITSM Dashboards, Platform Analytics ITSM Dashboards, IT Service Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Legacy: Performance Analytics ITSM Dashboards, Platform Analytics I
 
 View the open incidents, problems, and requests that belong to you and your assignment groups through personalized reports. You can also see which incidents that belong to your assignment groups exceed the Spotlight threshold.
 
-Agents can use [IT Agent dashboard for Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/it-agent-dashboard-sow.md) to see their own and their team's assignments and set priorities.
+Agents can use [IT Agent dashboard for Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/it-agent-dashboard-sow.md) to see their own and their team's assignments and set priorities.
 
 \[Omitted image "itsm-it-agent.gif"\] Alt text: Animated tour of the IT Agent dashboard
 
@@ -231,5 +231,5 @@ List\[Omitted image "score-list-tile.svg"\] Alt text: List icon
 A list of all incidents that one of your groups own and that exceed the Spotlight threshold
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legacy: Performance Analytics ITSM Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-dashboards-content-pack.md)
+</table>**Parent Topic:**[Legacy: Performance Analytics ITSM Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-dashboards-content-pack.md)
 

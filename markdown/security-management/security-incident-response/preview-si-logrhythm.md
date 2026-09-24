@@ -3,11 +3,11 @@ title: Previewing the security incident with mapped LogRhythm alarm values
 description: After you have completed the mapping step, preview the values that you mapped to the fields on the security incident. This preview step permits you to verify that you have mapped all the critical LogRhythm alarm fields you want displayed on the security incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/preview-si-logrhythm.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create an alarm profile, LogRhythm Overview, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -77,7 +77,7 @@ Enter another alarm ID in the **Sample Alarm ID** choice list at the top of the 
 The **Sample Alarm ID** choice list is displayed for every alarm ID you have entered. You can select up to five alarms.This option permits you to preview another LogRhythm alarm ID on a security incident.
 
 </td></tr></tbody>
-</table>After you preview the security incident and are satisfied with the results, the next step is to [Schedule and retrieve LogRhythm alarms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/schedule-and-alarm-retrieval-logrhythm.md).
+</table>After you preview the security incident and are satisfied with the results, the next step is to [Schedule and retrieve LogRhythm alarms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/schedule-and-alarm-retrieval-logrhythm.md).
 
-**Parent Topic:**[Creating an alarm profile for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-alarm-profile-logrhythm.md)
+**Parent Topic:**[Creating an alarm profile for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/create-alarm-profile-logrhythm.md)
 

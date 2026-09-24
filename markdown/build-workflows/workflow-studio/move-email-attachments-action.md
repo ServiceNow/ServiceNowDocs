@@ -3,11 +3,11 @@ title: Move Email Attachments to Record action
 description: Move attachments from an email to a record so that the files are available to your users when they view the record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/move-email-attachments-action.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Actions, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -28,13 +28,13 @@ Provide a value for each input that your flow needs. To add dynamic values, you 
 
     Data type: **Record**
 
-    Email \[sys\_mail\] record containing one or more attachments that you want to move. You must enable email receiving to have valid email records. For more information about email services and setup, see [Email Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-administration-landing.md).
+    Email \[sys\_mail\] record containing one or more attachments that you want to move. You must enable email receiving to have valid email records. For more information about email services and setup, see [Email Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/email-administration-landing.md).
 
 -   **Target Record**
 
     Data type: **Record**
 
-    Record to which you want to move one or more attachments. You can use the [Look Up Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/lookup-record-flow-designer.md) to find an appropriate target record.
+    Record to which you want to move one or more attachments. You can use the [Look Up Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/lookup-record-flow-designer.md) to find an appropriate target record.
 
 
 ## Output
@@ -51,5 +51,5 @@ This example extends the sample flow for inbound email flow handling to add the 
 
 In this example, the Email Record was a received email that contained multiple attachments. The runtime value is the Sys ID reference to the received email record. The Target record was incident record INC0010220, which was updated by the email in flow step 1.
 
-**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-actions.md)
 

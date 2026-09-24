@@ -3,9 +3,9 @@ title: Resolve tasks for AI assets in Employee Center
 description: Resolve the finding or request an exception from Employee Center AI posture findings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/ai-security-exposure-management-employee-task.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [AI posture finding, AI Security Exposure Management, Employee Center, assignment rule, exception request]
 breadcrumb: [Using Employee Center AI asset remediation, AI Security Exposure Management, Use, Unified Security Exposure Management, Security Operations]
@@ -78,6 +78,4 @@ The finding moves through the following states based on the task outcome and the
 |In progress|The owner requests an exception, and the request is rejected.|Open \(the task remains actionable\)|
 |Resolved|The next integration run confirms the finding is no longer present.|Closed|
 |Resolved|The next integration run finds the issue still present.|Open \(the task reopens and the owner is notified\)|
-
-**Parent Topic:**[Using AI remediation workflows with Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ai-security-exposure-employee-workflow.md)
 

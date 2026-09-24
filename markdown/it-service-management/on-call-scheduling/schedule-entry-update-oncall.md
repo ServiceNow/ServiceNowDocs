@@ -3,11 +3,11 @@ title: Update a schedule entry
 description: You can deactivate a schedule entry or update setting like schedule entry type, date, or time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/schedule-entry-update-oncall.html
-release: australia
+release: brazil
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure or update an On-Call schedule, Managing schedules and shifts, On-Call Scheduling, IT Service Management]
 ---
@@ -161,10 +161,10 @@ Delete the schedule entry. A warning message appears.
 </table>4.  Click **Update**.
 
 
-**Parent Topic:**[Configure or update an On-Call schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/create-update-schedule-oncall.md)
+**Parent Topic:**[Configure or update an On-Call schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/create-update-schedule-oncall.md)
 
 **Related topics**  
 
 
-[Assigning On-Call Scheduling roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/roles-assigning-oncall.md)
+[Assigning On-Call Scheduling roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/roles-assigning-oncall.md)
 

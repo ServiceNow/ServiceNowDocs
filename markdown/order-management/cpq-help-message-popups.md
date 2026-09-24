@@ -3,7 +3,7 @@ title: Configure help popups for layouts
 description: Implement buyside help popups in CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-help-message-popups.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -20,7 +20,7 @@ Help popups give the user more information about a field in a layout. They resem
 -   Tool tips display only plain text, whereas help popups can include hyperlinks, lists, italics, bold text, newlines, images, and dynamic text
 -   Tool tips appear on hover, whereas help popup icons must be clicked to display messages
 
-**Note:** To learn how to display a message that appears as the result of a message rule, see [Change how messages are displayed to the end user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/can_i_change_how_messages_are_displayed_to_the_end_user.md).
+**Note:** To learn how to display a message that appears as the result of a message rule, see [Change how messages are displayed to the end user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/can_i_change_how_messages_are_displayed_to_the_end_user.md).
 
 ## Popup appearance
 

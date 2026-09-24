@@ -3,11 +3,11 @@ title: Create a copy of an AI specialist in AI Agent Studio
 description: Create a new copy of an AI specialist to configure different settings for different assignment groups
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/copy-aiw-new.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use in AI Agent Studio, Use, Autonomous Workforce, Enable AI experiences]
+breadcrumb: [Use in AI Agent Studio, Use, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Create a copy of an AI specialist in AI Agent Studio

@@ -3,11 +3,11 @@ title: Configure API Service Graph Connector for Azure API Management using SGC 
 description: Set up scheduled import jobs to pull in Azure API Management data into your CMDB.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/sgcc-configure-azure-api-mgmt.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Azure API Management, API Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Set up scheduled import jobs to pull in Azure API Management data into your CMDB
 
 ## Before you begin
 
-Install API Service Graph Connector for Azure API Management version 1.0.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installing-applications-in-application-manager.md).
+Install API Service Graph Connector for Azure API Management version 1.0.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/installing-applications-in-application-manager.md).
 
 Obtain the OAuth credentials from your Azure administrator. Make a note of the following details:
 
@@ -34,13 +34,13 @@ Role required: The following table shows the roles required for each stage of th
 |Prerequisites|admin|
 |Setup|SGC-Admin \(sn\_cmdb\_int\_util.sgc\_admin\) or admin|
 
-**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
+**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
 
 ## About this task
 
-The playbook experience for onboarding connectors is activated with SGC Central in the CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-configuring.md) and for more information on how to interact with a playbook, see Interact with Playbook.
+The playbook experience for onboarding connectors is activated with SGC Central in the CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-configuring.md) and for more information on how to interact with a playbook, see Interact with Playbook.
 
-**Note:** Alternatively, you can configure a default connection already available from the installed or draft connections in SGC Central. Go to **All** &gt; **Service Graph Connectors**, then select **Setup** for the connector from the menu. To learn about installed and draft connections, see [Managing connections added for Service Graph Connectors in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-managing-connection.md).
+**Note:** Alternatively, you can configure a default connection already available from the installed or draft connections in SGC Central. Go to **All** &gt; **Service Graph Connectors**, then select **Setup** for the connector from the menu. To learn about installed and draft connections, see [Managing connections added for Service Graph Connectors in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-managing-connection.md).
 
 ## Procedure
 
@@ -56,7 +56,7 @@ The playbook experience for onboarding connectors is activated with SGC Central 
 
 5.  Complete the initial prerequisites when setting up a connection for the first time using a connector.
 
-    **Note:** This step is required only during the first-time setup. See [Perform initial setup tasks when creating a connection in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-first-time-setup.md).
+    **Note:** This step is required only during the first-time setup. See [Perform initial setup tasks when creating a connection in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-first-time-setup.md).
 
 6.  Enter connection details and test the API connection for importing Azure API Management data.
 
@@ -94,7 +94,7 @@ OAuth Client ID
 
 </td><td>
 
-Application \(client\) ID of your Azure client application as noted in the [Before you begin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sgcc-configure-azure-api-mgmt.md) section.
+Application \(client\) ID of your Azure client application as noted in the [Before you begin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/sgcc-configure-azure-api-mgmt.md) section.
 
 </td></tr><tr><td>
 
@@ -102,7 +102,7 @@ OAuth Client Secret
 
 </td><td>
 
-Client Secret of your Azure client application as noted in the [Before you begin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sgcc-configure-azure-api-mgmt.md) section.
+Client Secret of your Azure client application as noted in the [Before you begin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/sgcc-configure-azure-api-mgmt.md) section.
 
 </td></tr><tr><td>
 
@@ -136,7 +136,7 @@ https://login.partner.microsoftonline.cn/*&lt;tenantid&gt;*/oauth2/v2.0/token
 https://login.microsoftonline.de/*&lt;tenantid&gt;*/oauth2/v2.0/token
     ```
 
-Where *&lt;tenantid&gt;* is the tenant ID of your Azure client application as noted in the [Before you begin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sgcc-configure-azure-api-mgmt.md) section.
+Where *&lt;tenantid&gt;* is the tenant ID of your Azure client application as noted in the [Before you begin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/sgcc-configure-azure-api-mgmt.md) section.
 
 </td></tr></tbody>
 </table>    3.  Select **Create and test connection**.
@@ -254,7 +254,7 @@ option to enable usage data collection to retrieve API usage data over a specifi
 
     3.  In the Configure import schedule dialog box, select the **Active** check box, and then fill in the run schedule and time details.
 
-        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
+        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
 
     4.  Select **Save**.
 
@@ -269,12 +269,12 @@ option to enable usage data collection to retrieve API usage data over a specifi
 
 Select **View all connections** to review the connection details. The created connection appears in the Installed connections list.
 
-You can then manage connections from the SGC Central view of the CMDB Workspace. For more information, see [Managing connections added for Service Graph Connectors in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-managing-connection.md).
+You can then manage connections from the SGC Central view of the CMDB Workspace. For more information, see [Managing connections added for Service Graph Connectors in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-managing-connection.md).
 
 **Related topics**  
 
 
-[API Service Graph Connector for Azure API Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt.md)
+[API Service Graph Connector for Azure API Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt.md)
 
-[Target tables for storing API Service Graph Connector for Azure API Management data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt-tables.md)
+[Target tables for storing API Service Graph Connector for Azure API Management data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt-tables.md)
 

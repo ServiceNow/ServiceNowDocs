@@ -3,9 +3,9 @@ title: Create and apply a configuration for the Overview section
 description: Create visualization configurations for the Portfolio Overview section and apply them as needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/config-overview.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -80,7 +80,7 @@ Saved Visualization
 
 </td><td>
 
-Name of the configuration. Select the lookup icon \(\[Omitted image "icon-lookup.png"\] Alt text: Lookup icon\) to select a configuration from the PAR Visualizations list.**Note:** You can create and save a visualization configuration using the Platform Analytics Workspace. For instructions, see [Create a single score visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-sing-sc-ac.md).
+Name of the configuration. Select the lookup icon \(\[Omitted image "icon-lookup.png"\] Alt text: Lookup icon\) to select a configuration from the PAR Visualizations list.**Note:** You can create and save a visualization configuration using the Platform Analytics Workspace. For instructions, see [Create a single score visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-dv-sing-sc-ac.md).
 
 </td></tr><tr><td>
 
@@ -176,5 +176,5 @@ Option to provide access to the selected users and user groups. Add users or gro
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-eaw.md)
+**Parent Topic:**[Configuring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/configure-eaw.md)
 

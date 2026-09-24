@@ -3,11 +3,11 @@ title: Service catalog execution plans
 description: Service catalog enables you to associate execution plans with catalog items.After you submit the execution plan record, you select a catalog item to use the execution plan.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/c\_UsingExecutionPlans.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Execution Plans, Service Catalog request fulfillment, Configuring Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -23,7 +23,7 @@ You can also:
 -   Apply conditions to tasks
 -   Create approval tasks, enabling you to step back to a previous step if the approver rejects the request.
 
-**Parent Topic:**[Execution Plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ExecutionPlans.md)
+**Parent Topic:**[Execution Plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/c_ExecutionPlans.md)
 
 ## Associate execution plan with items
 

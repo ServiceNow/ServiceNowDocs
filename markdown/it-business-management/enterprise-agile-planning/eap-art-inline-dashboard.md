@@ -3,11 +3,11 @@ title: EAP ART dashboard
 description: The ART dashboard provides a snapshot of the overall progress of your Planning Interval \(PI\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/eap-art-inline-dashboard.html
-release: australia
+release: brazil
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reports and dashboards, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ The ART dashboard provides a snapshot of the overall progress of your Planning I
 
 \[Omitted image "eap-art-inline-dashboard.png"\] Alt text: ART Inline dashboard
 
-You can use a default dashboard or you can configure a custom dashboard and associate it with your Agile configuration. For more information, see [Configuring custom dashboards in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/configuring-eap-dashboard.md).
+You can use a default dashboard or you can configure a custom dashboard and associate it with your Agile configuration. For more information, see [Configuring custom dashboards in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/configuring-eap-dashboard.md).
 
 ## Required EAP roles
 

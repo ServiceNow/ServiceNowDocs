@@ -3,13 +3,13 @@ title: Evaluation metrics and calculations
 description: Metrics against which conversations are evaluated and calculation of adjusted scores.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-eval-metrics.html
-release: australia
+release: brazil
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Evaluation dashboard reference, Reference, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [Evaluation dashboard reference, AI Control Tower reference \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Evaluation metrics and calculations

@@ -3,11 +3,11 @@ title: Set up view of SIR Records
 description: This section describes how the related lists are grouped and presented on the SIR Related Records tab for easy navigation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/set-up-view-of-sir-records.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -16,9 +16,9 @@ breadcrumb: [Configure, Security Incident Response Workspace, Security Incident 
 
 This section describes how the related lists are grouped and presented on the SIR Related Records tab for easy navigation.
 
-The workspace users can search the related list by name as well. For more information about configuring related lists, see [SIR Workspace Related Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-records.md).
+The workspace users can search the related list by name as well. For more information about configuring related lists, see [SIR Workspace Related Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/sir-records.md).
 
-**Parent Topic:**[Configuring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
+**Parent Topic:**[Configuring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
 
 **Related topics**  
 

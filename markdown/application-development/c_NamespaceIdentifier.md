@@ -3,9 +3,9 @@ title: Namespace identifier
 description: The system adds a namespace identifier to the front of application artifacts such as tables, scripts, and configuration records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/c\_NamespaceIdentifier.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Application scope, Anatomy of an application, Learning about developing on the ServiceNow AI Platform, Building applications]
 ---

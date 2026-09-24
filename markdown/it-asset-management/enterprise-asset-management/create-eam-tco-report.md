@@ -3,11 +3,11 @@ title: Create a TCO report in Enterprise Asset Workspace
 description: Create a TCO report to compare the actual or projected TCO of assets or to compare the actual or projected asset TCO with the benchmark cost of the enterprise model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-eam-tco-report.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
@@ -26,15 +26,15 @@ Role required: sn\_eam.enterprise\_asset\_manager
 
 2.  Select **New**on the right side of the page.
 
-<table id="choicetable_xfs_scj_hzb"><thead><tr><th align="left" id="d97931e71">
+<table id="choicetable_xfs_scj_hzb"><thead><tr><th align="left" id="d98682e71">
 
 Field
 
-</th><th align="left" id="d97931e74">
+</th><th align="left" id="d98682e74">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d97931e80">
+</th></tr></thead><tbody><tr><td id="d98682e80">
 
 **Name**
 
@@ -42,7 +42,7 @@ Description
 
 Name of the report.
 
-</td></tr><tr><td id="d97931e89">
+</td></tr><tr><td id="d98682e89">
 
 **Type**
 
@@ -52,7 +52,7 @@ The type of report. Choose from the following options:-   TCO comparison: Evalua
 -   TCO vs benchmark: Evaluates how efficiently an asset or group of assets is managed in relation to industry or market standards.
 
 
-</td></tr><tr><td id="d97931e106">
+</td></tr><tr><td id="d98682e106">
 
 **Report Table**
 
@@ -60,7 +60,7 @@ The type of report. Choose from the following options:-   TCO comparison: Evalua
 
 The table this report is based on. This is a read-only field with the value **Enterprise asset**.
 
-</td></tr><tr><td id="d97931e121">
+</td></tr><tr><td id="d98682e121">
 
 **Total cost type**
 
@@ -74,7 +74,7 @@ The total cost type of the report. -   Actual TCO: The TCO value of the selected
     -   When useful life of the asset is lower than asset life, the Projected TCO \(at end of life\) is calculated by using the following formula:`Normalized TCO * Asset life`, where Normalized TCO \(TCO per month\) is `(Purchase cost + Sum of operational cost) / Asset life)`.
 
 
-</td></tr><tr><td id="d97931e167">
+</td></tr><tr><td id="d98682e167">
 
 **Description**
 
@@ -82,7 +82,7 @@ The total cost type of the report. -   Actual TCO: The TCO value of the selected
 
 Description of the report.
 
-</td></tr><tr><td id="d97931e176">
+</td></tr><tr><td id="d98682e176">
 
 **Show benchmark**
 
@@ -92,7 +92,7 @@ Shows the benchmark threshold on the TCO comparison report.
 
  This field appears only if you select TCO comparison as your report type.
 
-</td></tr><tr><td id="d97931e191">
+</td></tr><tr><td id="d98682e191">
 
 **Benchmark model**
 
@@ -100,7 +100,7 @@ Shows the benchmark threshold on the TCO comparison report.
 
 The enterprise model for the benchmark threshold.
 
-</td></tr><tr><td id="d97931e203">
+</td></tr><tr><td id="d98682e203">
 
 **Real time report**
 
@@ -108,7 +108,7 @@ The enterprise model for the benchmark threshold.
 
 When selected, generates real-time data on the report. You can deselect this check box to make it an offline report.
 
-</td></tr><tr><td id="d97931e212">
+</td></tr><tr><td id="d98682e212">
 
 **Workspace**
 
@@ -122,5 +122,5 @@ The workspace that you are currently logged into. By default, the value for this
     The report is created and the TCO report sources related list appears. You can now add the report sources.
 
 
-**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

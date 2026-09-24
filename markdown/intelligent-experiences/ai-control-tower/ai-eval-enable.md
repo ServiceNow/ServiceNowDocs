@@ -3,13 +3,13 @@ title: Enabling evaluations
 description: Evaluate random conversations by enabling continuous monitoring.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-eval-enable.html
-release: australia
+release: brazil
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Evaluation tab, AI Control Tower Home, AI Control Tower dashboard, Explore, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [Evaluation tab, AI Control Tower Home, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Enabling evaluations
@@ -69,14 +69,14 @@ Enable evaluations and set the number of evaluations to be performed daily.
 
 **Note:**
 
--   If you want to configure some of the evaluation parameters based on your requirements, see [Configuring evaluations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-eval-config.md).
--   If you want to import historical data to be evaluated, you must run batch evaluations by activating the Execute Batch Evaluation flow. For more information on the batch evaluation workflow, see [Evaluation flow for batch evaluations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-eval-flow-batch.md).
+-   If you want to configure some of the evaluation parameters based on your requirements, see [Configuring evaluations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/ai-eval-config.md).
+-   If you want to import historical data to be evaluated, you must run batch evaluations by activating the Execute Batch Evaluation flow. For more information on the batch evaluation workflow, see [Evaluation flow for batch evaluations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/ai-eval-flow-batch.md).
 
 ## Evaluation dashboard vs. Conversation Insights
 
 You can use the Evaluation dashboard and the Conversation Insights \(CI\) application together to gain a complete picture of virtual agent effectiveness, from system performance to end-user satisfaction.
 
-For more information about Conversation Insights, see [Conversation Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/conversational-intelligence/conversation-insights.md).
+For more information about Conversation Insights, see [Conversation Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/conversational-intelligence/conversation-insights.md).
 
 <table id="table_c5p_4cn_ngc"><thead><tr><th>
 

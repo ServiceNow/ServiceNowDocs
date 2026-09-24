@@ -3,11 +3,11 @@ title: Move a work order task to the dispatch queue
 description: If Field Service Management is configured to automatically qualify work orders, tasks are also automatically created for the orders. When one of these automatically created tasks is assigned to you, select a dispatch group for it and move it to the dispatch queue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/t\_PromoteDraftWorkOrderTasks.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Qualify a work order, Manage work orders, Prepare work orders, Use, Field Service Management]
 ---

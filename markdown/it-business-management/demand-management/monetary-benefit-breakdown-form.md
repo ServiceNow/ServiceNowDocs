@@ -3,11 +3,11 @@ title: Monetary Benefit Breakdown form
 description: Use the Monetary Benefit Breakdown form to update the estimated and actual financial benefits for a specific fiscal year.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/monetary-benefit-breakdown-form.html
-release: australia
+release: brazil
 product: Demand Management
 classification: demand-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Demand Management forms, Reference, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -78,7 +78,7 @@ Fiscal period
 
 </td><td>
 
-Fiscals generated at the period level. For information on periods, see [fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_FiscalCalendar.md).
+Fiscals generated at the period level. For information on periods, see [fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_FiscalCalendar.md).
 
 </td></tr><tr><td>
 
@@ -105,5 +105,5 @@ Exchange rate date
 First date of the fiscal period corresponding to the benefit plan breakdown.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Demand Management forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/demand-management-forms.md)
+</table>**Parent Topic:**[Demand Management forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/demand-management-forms.md)
 

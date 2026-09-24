@@ -3,11 +3,11 @@ title: Viewing the home page
 description: View account statuses and violations, actionable insights, and administrative controls on the home page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/view-home-page.html
-release: australia
+release: brazil
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Viewing Cloud Account Management dashboards, Use, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---

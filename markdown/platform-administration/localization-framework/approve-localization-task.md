@@ -3,11 +3,11 @@ title: Approve a localization task
 description: Proofread the translated content and approve a localization task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-framework/approve-localization-task.html
-release: australia
+release: brazil
 product: Localization Framework
 classification: localization-framework
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create translation projects, Localization Framework, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---

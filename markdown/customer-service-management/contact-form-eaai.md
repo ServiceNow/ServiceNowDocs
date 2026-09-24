@@ -3,9 +3,9 @@ title: Contact form for Email Interaction for CSM
 description: The Contact form enables you to add the customer contact to the interaction record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/contact-form-eaai.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Email Interaction for CSM]
 breadcrumb: [Email Interaction for CSM reference, Reference, Customer Service Management]
@@ -31,5 +31,5 @@ The Contact form enables you to add the customer contact to the interaction reco
 **Related topics**  
 
 
-[Create a customer contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-a-customer-contact_EaaI.md)
+[Create a customer contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-a-customer-contact_EaaI.md)
 

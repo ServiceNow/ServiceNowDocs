@@ -3,11 +3,11 @@ title: Create a predefined Express List view for users
 description: Configure an Express List view for users to make sure that they focus on specific services, priorities, or alerts. You can set the filters, column order, and filter attributes for this view and assign it to individual users or user groups.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/manage-views-express-list-admin.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-07-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configuring Express List views for users and user groups, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Configure an Express List view for users to make sure that they focus on specifi
 
 ## Before you begin
 
-For more information about predefined Express List views, see [Configuring Express List views for users and user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/manage-views-express-list.md).
+For more information about predefined Express List views, see [Configuring Express List views for users and user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/manage-views-express-list.md).
 
 Role required: evt\_mgmt\_admin
 
@@ -149,15 +149,15 @@ Add an alert tag filter condition
 
 5.  Assign users and groups to the Express List view.
 
-<table id="choicetable_lyp_4hp_k1c"><thead><tr><th align="left" id="d711904e377">
+<table id="choicetable_lyp_4hp_k1c"><thead><tr><th align="left" id="d718008e377">
 
 Task
 
-</th><th align="left" id="d711904e380">
+</th><th align="left" id="d718008e380">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d711904e386">
+</th></tr></thead><tbody><tr><td id="d718008e386">
 
 **Assign a user to the selected Express List view**
 
@@ -169,7 +169,7 @@ Procedure
 4.  Select the save icon \[Omitted image "save-icon.png"\].
 
 
-</td></tr><tr><td id="d711904e426">
+</td></tr><tr><td id="d718008e426">
 
 **Assign a user group to the selected Express List view**
 
@@ -244,5 +244,5 @@ Procedure
 11. When you're satisfied with the Express List view, select **Update**.
 
 
-**Parent Topic:**[Configuring Express List views for users and user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/manage-views-express-list.md)
+**Parent Topic:**[Configuring Express List views for users and user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/manage-views-express-list.md)
 

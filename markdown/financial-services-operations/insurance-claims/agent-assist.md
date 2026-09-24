@@ -3,11 +3,11 @@ title: Use Agent assist to view associated claims
 description: View the associated claims and relevant knowledge articles by using the Agent assist contextual search. You can find related information on your Individual Life Claims case to assist in understanding and completing your case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/agent-assist.html
-release: australia
+release: brazil
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Individual Life Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -28,15 +28,15 @@ Role required: sn\_ins\_claim\_indl.fnol\_representative, sn\_ins\_claim\_indl.m
 
 3.  Open the task from the case playbook or the Individual death claim tasks list.
 
-<table id="choicetable_dvz_rgb_qbc"><thead><tr><th align="left" id="d50638e114">
+<table id="choicetable_dvz_rgb_qbc"><thead><tr><th align="left" id="d50673e114">
 
 Option
 
-</th><th align="left" id="d50638e117">
+</th><th align="left" id="d50673e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d50638e123">
+</th></tr></thead><tbody><tr><td id="d50673e123">
 
 **From the case playbook**
 
@@ -46,7 +46,7 @@ Steps
 2.  In the list, select the case that contains the adjuster task.
 
 
-</td></tr><tr><td id="d50638e144">
+</td></tr><tr><td id="d50673e144">
 
 **From the Individual death claim tasks list**
 
@@ -59,6 +59,6 @@ Steps
 </td></tr></tbody>
 </table>4.  Select the Agent assist icon \(\[Omitted image "Form\_AgentAssistIcon.png"\] Alt text: Graduation cap icon for Agent assist.\) to use the feature.
 
-    For more information about Agent assist, see [Agent assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/agent-assist-configurable-workspace.md).
+    For more information about Agent assist, see [Agent assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/agent-assist-configurable-workspace.md).
 
 

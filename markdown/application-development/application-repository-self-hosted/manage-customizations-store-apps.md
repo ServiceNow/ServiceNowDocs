@@ -3,11 +3,11 @@ title: Manage customizations to applications
 description: You can manage your company's customizations for applications that belong to other organizations or a scoped ServiceNow plug-in.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/application-repository-self-hosted/manage-customizations-store-apps.html
-release: australia
+release: brazil
 product: Application Repository \(Self-Hosted\)
 classification: application-repository-self-hosted
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow application repository, Application sharing, Administer your apps, Deploying applications, Building applications]
 ---
@@ -35,13 +35,15 @@ There are two ways to create application-customizations.
 -   Create from ServiceNow Studio
 -   Create from the navigation pane
 
-**Important:** An App Customization package is intended to be authoritative and a full representation of the desired changes or customizations of the application that you're building on top of. Local customizations \(typically tied to the sys\_update\_xml\) are not honored because of this. If a specific field must be persisted \(for example a MID Server\) – consider using the Loader exempt attribute, see [Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DictionaryAttributes.md). If a specific property must be set – consider making it ‘private’, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+**Important:** An App Customization package is intended to be authoritative and a full representation of the desired changes or customizations of the application that you're building on top of. Local customizations \(typically tied to the sys\_update\_xml\) are not honored because of this. If a specific field must be persisted \(for example a MID Server\) – consider using the Loader exempt attribute, see [Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_DictionaryAttributes.md). If a specific property must be set – consider making it ‘private’, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 ## Procedure
 
 1.  Use these steps to create application-customizations from ServiceNow Studio.
 
     1.  Open the Store application or the application installed via plugin from ServiceNow Studio.
+
+        To learn more, see [Access ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/access-servicenow-studio.md).
 
         The application opens in Studio.
 
@@ -69,5 +71,5 @@ There are two ways to create application-customizations.
 **Related topics**  
 
 
-[Manage application entitlements from the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/manage-app-entitlements.md)
+[Manage application entitlements from the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/application-repository-self-hosted/manage-app-entitlements.md)
 

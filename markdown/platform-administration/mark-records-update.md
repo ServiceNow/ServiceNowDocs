@@ -3,9 +3,9 @@ title: Mark records for updating
 description: Mark records for updating according to one or more criteria by creating an update job.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/mark-records-update.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Updating records safely in Core UI, Manage data growth in Core UI, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -57,7 +57,7 @@ The job is saved and the form provides options to schedule the job or execute it
 
 ## What to do next
 
-[Schedule or execute a job to update records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/schedule-execute-job-update-records.md)
+[Schedule or execute a job to update records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/schedule-execute-job-update-records.md)
 
-**Parent Topic:**[Updating records safely in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/updating-records-safely.md)
+**Parent Topic:**[Updating records safely in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/updating-records-safely.md)
 

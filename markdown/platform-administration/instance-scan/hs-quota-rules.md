@@ -3,11 +3,11 @@ title: Timeout threshold
 description: A timeout determines the execution threshold of a scan from running long scans. For example, any scan running longer than the set time period results in a failure.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/instance-scan/hs-quota-rules.html
-release: australia
+release: brazil
 product: Instance Scan
 classification: instance-scan
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Instance Scan, Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -22,5 +22,5 @@ If the scan or the check takes longer than the set time period set by the quota 
 
 \[Omitted image "hs-quota-rule-error.png"\] Alt text: Error message: The scan exceeded the time allowed.
 
-To learn how to configure these thresholds, see [Implement a scan timeout threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-full-scan-quota-rule.md) and [Implement a check timeout threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-health-check-quota-rule.md).
+To learn how to configure these thresholds, see [Implement a scan timeout threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/instance-scan/hs-full-scan-quota-rule.md) and [Implement a check timeout threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/instance-scan/hs-health-check-quota-rule.md).
 

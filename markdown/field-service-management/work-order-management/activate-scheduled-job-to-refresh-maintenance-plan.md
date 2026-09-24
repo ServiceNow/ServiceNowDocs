@@ -3,11 +3,11 @@ title: Run scheduled job to refresh maintenance plans
 description: Run the job Update planned work records on Demand to refresh the planned work records of a maintenance plan on demand or regularly at scheduled intervals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/activate-scheduled-job-to-refresh-maintenance-plan.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a work order for the planned work, Manage work orders, Prepare work orders, Use, Field Service Management]
 ---

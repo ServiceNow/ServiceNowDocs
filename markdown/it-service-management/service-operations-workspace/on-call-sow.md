@@ -3,11 +3,11 @@ title: On-call support for an incident in Service Operations Workspace
 description: You can identify available on-call members of a support group and contact them to resolve an issue.View the relevant shift details and contact on-call members for issue resolution and dynamically track the on-call escalation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/on-call-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [On-Call Scheduling in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -30,9 +30,9 @@ For each of these fields, on-call information such as shift names and on-call me
 
 \[Omitted image "on-call-section-sow.png"\] Alt text: Experts on-call panel
 
-For information about On-Call Scheduling, see [On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/c_OnCallScheduling.md).
+For information about On-Call Scheduling, see [On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/c_OnCallScheduling.md).
 
-**Parent Topic:**[On-Call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/on-call-scheduling-in-sow.md)
+**Parent Topic:**[On-Call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/on-call-scheduling-in-sow.md)
 
 ## Experts on-call in Service Operations Workspace
 
@@ -42,7 +42,7 @@ View the relevant shift details and contact on-call members for issue resolution
 
 Role required: itil, admin, sn\_incident\_read, sn\_change\_read
 
-Ensure that the escalation logging, that is, the **com.snc.on\_call\_rotation.log\_escalations** property is enabled to view the on-call escalation tracking page. For information about this property, see [System properties for On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/on-call-properties.md).
+Ensure that the escalation logging, that is, the **com.snc.on\_call\_rotation.log\_escalations** property is enabled to view the on-call escalation tracking page. For information about this property, see [System properties for On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/on-call-properties.md).
 
 ### Procedure
 
@@ -52,7 +52,7 @@ Ensure that the escalation logging, that is, the **com.snc.on\_call\_rotation.lo
 
     1.  From the contextual side panel, click the experts on-call icon \(\[Omitted image "experts-on-call.png"\] Alt text: experts on-call icon\).
 
-        For information about how on-call recommendations can be configured, see [Customize the on-call support group recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configure-supportgroup-oncall-sow.md).
+        For information about how on-call recommendations can be configured, see [Customize the on-call support group recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configure-supportgroup-oncall-sow.md).
 
         Three on-call recommendations are displayed based on support groups associated with all services and CIs of the incident in the following order:
 
@@ -69,7 +69,7 @@ Ensure that the escalation logging, that is, the **com.snc.on\_call\_rotation.lo
 
         **Note:** You can view the user presence before contacting the on-call member.
 
-        For information about Microsoft Teams chat, see [Collaborate on a task record using Microsoft Teams in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/start-msteams-chat-sow.md).
+        For information about Microsoft Teams chat, see [Collaborate on a task record using Microsoft Teams in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/start-msteams-chat-sow.md).
 
     4.  To configure display preferences in the **Experts on-call** panel, click the preferences icon \(\[Omitted image "preferences-icon.png"\] Alt text: preferences icon\) and perform any of the following actions.
 

@@ -1,13 +1,13 @@
 ---
 title: Level 4 LEI Validation Report columns
-description: The Level 4 LEI Validation Report \(Level4\_LEI\_Validation\_Report.csv\) is generated during Plain-CSV Reporting Package download and lists the validation result for each Legal Entity Identifier \(LEI\) code found in the reporting package.
+description: The Level 4 LEI Validation Report \(Level4\_LEI\_Validation\_Report.csv\) is generated during a Plain-CSV Reporting Package download. It lists the validation result for each Legal Entity Identifier \(LEI\) code found in the reporting package.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-lei-validation-report.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2026-05-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [LEI validation, GLEIF, DORA, Level 4 LEI Validation Report]
 breadcrumb: [Validate LEI codes, Validation framework for RoI, Use digital resilience third-party registers, Third-party Risk Management, Governance, Risk, and Compliance]
@@ -15,11 +15,11 @@ breadcrumb: [Validate LEI codes, Validation framework for RoI, Use digital resil
 
 # Level 4 LEI Validation Report columns
 
-The Level 4 LEI Validation Report \(`Level4_LEI_Validation_Report.csv`\) is generated during Plain-CSV Reporting Package download and lists the validation result for each Legal Entity Identifier \(LEI\) code found in the reporting package.
+The Level 4 LEI Validation Report \(`Level4_LEI_Validation_Report.csv`\) is generated during a Plain-CSV Reporting Package download. It lists the validation result for each Legal Entity Identifier \(LEI\) code found in the reporting package.
 
-The report is included in `Consolidated_Reports.zip` alongside the Level 3 DPM Validation Summary. It covers LEI codes sourced from the DORA reporting tables that contain LEI fields, including Legal entities \(B.01.02\), ICT third-party service providers \(B.05.01\), and other sheets where LEI codes appear. Each row in the report represents a single LEI code occurrence, ordered by sheet name and then row number.
+The report is included in `Consolidated_Reports.zip` alongside the Level 3 DPM Validation Summary. It covers LEI codes from DORA reporting tables that contain LEI fields: Legal entities \(B.01.02\), ICT third-party service providers \(B.05.01\), and other sheets where LEI codes appear. Each row represents a single LEI code occurrence, ordered by sheet name and then row number.
 
-For information on how to review and resolve validation results, see [Validate Legal Entity Identifier codes for DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-valid-lei.md).
+For information on how to review and resolve validation results, see [Validate Legal Entity Identifier codes for DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-valid-lei.md).
 
 **Note:** Name, Country, Entity Status, and Registration Status values are derived from the GLEIF API response used during validation.
 

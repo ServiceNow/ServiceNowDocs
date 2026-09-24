@@ -3,11 +3,11 @@ title: Work management overview for Enterprise Asset Workspace
 description: Use the Work management view in the Enterprise Asset Workspace to create and manage maintenance plans, work orders, and work order tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/work-management-overview-eam.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Enterprise Asset Workspace, Explore, Enterprise Asset Management, Asset Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Enterprise Asset Workspace, Explore, Enterprise Asset Management, A
 
 Use the Work management view in the Enterprise Asset Workspace to create and manage maintenance plans, work orders, and work order tasks.
 
-**Important:** Before you can access and use the Work management view, edit your Field Service Management configurations as needed. See [Edit Field Service Management configurations for the Work management view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/edit-field-service-configurations-work-management-view.md) for detailed instructions.
+**Important:** Before you can access and use the Work management view, edit your Field Service Management configurations as needed. See [Edit Field Service Management configurations for the Work management view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/edit-field-service-configurations-work-management-view.md) for detailed instructions.
 
 You can access the Work management view by navigating to **Enterprise Asset Workspace** &gt; **Work management**.
 

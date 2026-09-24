@@ -3,9 +3,9 @@ title: Set up Customer Service Management integration with Safe Workplace applic
 description: Enable the integration with Safe Workplace applications to help contacts or consumers safely enter locations and comply with health and safety policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/integrate-csm-safe-workplace.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating with Safe Workplace applications, Integrate, Customer Service Management]
 ---
@@ -16,7 +16,7 @@ Enable the integration with Safe Workplace applications to help contacts or cons
 
 ## Before you begin
 
-Ensure that the Customer Service plugin \(com.sn\_customerservice\) is installed.
+Ensure that the Case Management Core plugin \(com.sn\_customerservice\) is installed.
 
 If you are supporting business-to-consumer \(B2C\) customers, ensure that the Consumer Service Portal plugin \(com.glide.service-portal.consumer-portal\) is installed.
 
@@ -24,7 +24,7 @@ Role required: admin
 
 ## Procedure
 
-1.  [Install Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/install-emp-health-screening.md).
+1.  [Install Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/install-emp-health-screening.md).
 
 2.  Give external users access to the Health Verification form.
 
@@ -32,10 +32,10 @@ Role required: admin
 
 3.  Assign the sn\_imt\_monitoring.monitoring\_user role to a customer or consumer service agent.
 
-4.  [Configure the health screening form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-record-producer-csm-safe-workplace.md).
+4.  [Configure the health screening form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-record-producer-csm-safe-workplace.md).
 
 5.  Create relationships to show health screening information on Agent Workspace.
 
-6.  [Customize the Consumer or Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/customize-csp-csm-portals.md) to display a link to the Health Verification form in the portal header menu.
+6.  [Customize the Consumer or Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/customize-csp-csm-portals.md) to display a link to the Health Verification form in the portal header menu.
 
 

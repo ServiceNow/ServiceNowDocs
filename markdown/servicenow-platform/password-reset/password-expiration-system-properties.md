@@ -3,11 +3,11 @@ title: System properties for password expiration
 description: You can configure the system properties that support operations in password expiration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/password-expiration-system-properties.html
-release: australia
+release: brazil
 product: Password Reset
 classification: password-reset
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Password Reset reference, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -40,9 +40,9 @@ pwd\_reset.enable.dbListener
 
 </td><td>
 
-Use this property to enable or turn off the password reset DB listener \(to raise events\). The default value is **true**, which means that the property is enabled by default.
+Use this property to enable or turn off the password reset DB listener \(to raise events\). The default value is **false**, which means that the property is enabled by default.
 
- **Note:** If this property is enabled, the password expiration records are managed automatically while inserting or deleting user data. While importing bulk data, for each sys\_user or sys\_user\_grmember insertion or deletion, password expiration records are inserted or updated for each password reset process that users are entitled to. Even if updating the expiration data is an asynchronous activity, this activity might impact the performance, if the number of users is high. In that case, disable the **pwd\_reset.enable.dbListener** property by setting it to **false** so that there is not an event on insertion or deletion of sys\_user or sys\_user\_grmember.
+ **Note:** If this property is enabled, the password expiration records are managed automatically while inserting or deleting user data. While importing bulk data, for each sys\_user or sys\_user\_grmember insertion or deletion, password expiration records are inserted or updated for each password reset process that users are entitled to. Even if updating the expiration data is an asynchronous activity, this activity might impact the performance, if the number of users is high.
 
 </td></tr><tr><td>
 
@@ -70,5 +70,5 @@ Duration, in days, to refresh the expiration details for a user whose password n
 </table>**Related topics**  
 
 
-[Configure password expiration reminder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/password-reset-expiration-setup.md)
+[Configure password expiration reminder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/password-reset-expiration-setup.md)
 

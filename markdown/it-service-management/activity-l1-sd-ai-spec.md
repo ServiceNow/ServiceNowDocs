@@ -3,9 +3,9 @@ title: View the activity of the L1 IT Service Desk AI Specialist
 description: View the task execution history of the L1 IT Service Desk AI Specialist to track where and when it is planning and attempting executions. You can also give feedback on its performance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/activity-l1-sd-ai-spec.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, L1 IT Service Desk AI Specialist, IT Service Management]
 ---

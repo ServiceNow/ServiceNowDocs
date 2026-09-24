@@ -3,9 +3,9 @@ title: Create approval chains
 description: Optionally create approval chains that control the sequence in which two or more approval rules \(steps\) are run.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-approval-chain.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create an approval configuration, Advanced Approval Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -28,7 +28,7 @@ Use chains to control the execution of approval steps that are run based on the 
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 

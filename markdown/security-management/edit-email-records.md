@@ -3,9 +3,9 @@ title: Edit email records in Security Operations
 description: Edit transforms in your existing email event records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/edit-email-records.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Operations email parsing, Security Operations email processing, Security Operations common functionality, Security Operations]
 ---
@@ -35,5 +35,5 @@ Role required: sn\_sec\_cmn.admin
 5.  Select **Update.**
 
 
-**Parent Topic:**[Security Operations email parsing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/email-parsing.md)
+**Parent Topic:**[Security Operations email parsing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/email-parsing.md)
 

@@ -3,9 +3,9 @@ title: Create a work order
 description: Create a work order to manage your regular maintenance and service requirements for an install base item. You can do this task by using the Customer Service Management \(CSM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-work-orders.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Install base work plans, Schedules and sites, Use, Customer Service Management]
 ---

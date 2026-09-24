@@ -3,11 +3,11 @@ title: Submit an Automation Request form
 description: Use the Submit an Automation Request form to create an automation request in Service Catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/submit-automation-request-form.html
-release: australia
+release: brazil
 product: Automation Center
 classification: automation-center
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Automation Center, Workflow Data Fabric]
 ---
@@ -128,5 +128,5 @@ Attach relevant files
 Relevant documents that you attach to support the automation process.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Automation Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-reference.md)
+</table>**Parent Topic:**[Automation Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/automation-center-reference.md)
 

@@ -3,11 +3,11 @@ title: View releases planned in a release readiness target
 description: View and track all product releases that are planned in a release readiness target and track their progress.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-view-rls-readiness-target.html
-release: australia
+release: brazil
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Digital Product Release, IT Service Management]
 ---
@@ -38,15 +38,15 @@ Role required: sn\_dpr\_model.release\_admin
 
 5.  Select a release readiness target from the calendar, list view, or agenda view pane, to open.
 
-<table id="choicetable_n1l_1nq_d1c"><thead><tr><th align="left" id="d116694e101">
+<table id="choicetable_n1l_1nq_d1c"><thead><tr><th align="left" id="d117400e101">
 
 Option
 
-</th><th align="left" id="d116694e104">
+</th><th align="left" id="d117400e104">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d116694e110">
+</th></tr></thead><tbody><tr><td id="d117400e110">
 
 **From the calendar view**
 
@@ -56,7 +56,7 @@ Steps
 2.  On the calendar, select the release target item on a date.
 
 
-</td></tr><tr><td id="d116694e134">
+</td></tr><tr><td id="d117400e134">
 
 **From the List view**
 
@@ -66,7 +66,7 @@ Steps
 2.  Select a release target from the list.
 
 
-</td></tr><tr><td id="d116694e158">
+</td></tr><tr><td id="d117400e158">
 
 **From the Agenda View pane**
 
@@ -87,5 +87,5 @@ The Agenda View pane appears with a list of all release targets scheduled for th
 7.  Select a release from the list to review its status and other details.
 
 
-**Parent Topic:**[Using Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-using-digital-product-release.md)
+**Parent Topic:**[Using Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-using-digital-product-release.md)
 

@@ -3,11 +3,11 @@ title: View an application service map in base system
 description: An application service map provides a visualization of data for the CIs comprising an application service, and the relationships and connections between these CIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/app-service-map-base-system.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Service instances \(Application services\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,13 +18,13 @@ An application service map provides a visualization of data for the CIs comprisi
 
 ## Before you begin
 
-Role required: app\_service\_user to view the map in View mode, and app\_service\_admin to modify services in Edit mode.
+Role required: app\_service\_user to view the map in View mode, app\_service\_admin to modify services in Edit mode, and itil to view incident/problem/change data in the map.
 
 ## About this task
 
 When you create an application service, the system generates an associated application service map. The system then updates the map to reflect any changes to the application service. This map consists of icons representing CIs and arrows that represent the connections between them.
 
-If Service Mapping is deployed, see [Application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_UndestandMaps.md) and [View CI connection attributes in an application service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/view-connector-properties.md) for more details.
+If Service Mapping is deployed, see [Application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/c_UndestandMaps.md) and [View CI connection attributes in an application service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/view-connector-properties.md) for more details.
 
 To open an application service map, navigate to **CSDM** &gt; **Manage Technology Management Services** &gt; **Application Service**, select an application service, and then click **View map**.
 
@@ -40,7 +40,7 @@ Perform any of the following operations in the application service map.
 
 -   View changes: You can view changes and change records associated with the application service as a whole or with any of its CIs, within a time range.
 
-    For more information, see [View the change history of application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_ViewCIChanges.md).
+    For more information, see [View the change history of application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/t_ViewCIChanges.md).
 
     Records under the **Change** tab underneath the map, which are associated with a selected CI or connection, are highlighted. If you select a change record under the **Change** tab, then the associated CI icon appears yellow on the map.
 
@@ -58,7 +58,7 @@ Perform any of the following operations in the application service map.
     -   Set **Spanning tree view**: Simplify the map by organizing CIs into a tree structure and hiding some connection lines. This option is especially useful for very large maps.
     -   **Map Indicators**: Show additional information for a CI or for the application service itself by displaying related records such as alerts, outages, incidents, and problems. For each indicator that is enabled, the corresponding indicator icon appears next to CIs with associated records, and the corresponding tab appears underneath the map. If a record is associated with the application service itself, the indicator appears next to the application service name.
 
-        For information about managing map indicators, see [Create or modify map indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/t_CreateModifyNGBSMMapIndicators.md). For more general information, see [Event Management Map Indicators \(Video\)](https://www.youtube.com/watch?v=wjtpJe8J3iA).
+        For information about managing map indicators, see [Create or modify map indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/dependency-views/t_CreateModifyNGBSMMapIndicators.md). For more general information, see [Event Management Map Indicators \(Video\)](https://www.youtube.com/watch?v=wjtpJe8J3iA).
 
     -   **Export to PDF**: Export the map to a .PDF file which you can then share as needed. After the PDF file is ready, click \[Omitted image "AppSerDownloadPDF.png"\] Alt text: Icon to download a PDF to your local drive. to download the PDF file to your local drive.
 -   View the details of a connection.
@@ -81,10 +81,10 @@ Perform any of the following operations in the application service map.
 
 ## What to do next
 
-You can change the details that appear in the Properties pane by updating the form view 'Form view and section', as described in [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+You can change the details that appear in the Properties pane by updating the form view 'Form view and section', as described in [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).
 
 **Related topics**  
 
 
-[Spanning tree view property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/components-installed-app-services.md)
+[Spanning tree view property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/components-installed-app-services.md)
 

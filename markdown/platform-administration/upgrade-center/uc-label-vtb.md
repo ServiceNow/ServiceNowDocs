@@ -3,11 +3,11 @@ title: Update default labels in VTB view
 description: Filter skipped records in the task board of the VTB with the implementation of color-coded labels. You can filter the skipped records by assigning a color to each of the products.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-center/uc-label-vtb.html
-release: australia
+release: brazil
 product: Upgrade Center
 classification: upgrade-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Skipped Records visual task board \(VTB\), Reviewing upgrade history, Using Upgrade Center, Upgrade Center, Upgrade, Administer the ServiceNow AI Platform]
 ---
@@ -49,5 +49,5 @@ Role required: admin
 
 ## What to do next
 
-Click on a skipped record in the VTB to update the task. See [Upgrade History Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-history-task-form.md) for more information.
+Click on a skipped record in the VTB to update the task. See [Upgrade History Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-center/uc-history-task-form.md) for more information.
 

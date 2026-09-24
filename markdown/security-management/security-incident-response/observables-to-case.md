@@ -3,11 +3,11 @@ title: Add observables to TISC Case
 description: Add observables to TISC case records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/observables-to-case.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Send data from SIR Workspace to TISC, TISC integration within SIR Workspace, Working with Security Incident Records, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -53,7 +53,7 @@ Role required: sn\_si.analyst, sn\_sec\_tisc.case\_write
 8.  Select **Create new TISC case** to create a TISC case within the workflow.
 
 
-**Parent Topic:**[Send data from SIR Workspace to TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/send-sir-to-tisc.md)
+**Parent Topic:**[Send data from SIR Workspace to TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/send-sir-to-tisc.md)
 
 **Related topics**  
 

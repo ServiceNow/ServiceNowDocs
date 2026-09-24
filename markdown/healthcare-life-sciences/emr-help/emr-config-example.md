@@ -3,11 +3,11 @@ title: Configure the data table for a request type example
 description: Review the data table associated with a request, such as the EMR Request Data \[sn\_ind\_rmt\_help\_incident\_data\] table, and make sure that the table has columns to store each system variable that you're planning to fetch from an EMR system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/emr-help/emr-config-example.html
-release: australia
+release: brazil
 product: EMR Help
 classification: emr-help
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---

@@ -3,11 +3,11 @@ title: LDAP integration requirements
 description: Review the requirements for LDAP integration, which include a PKI certificate an LDAP compliant directory services server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/r\_LDAPIntegrationRequirements.html
-release: australia
+release: brazil
 product: LDAP integration
 classification: ldap-integration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [LDAP integration, Authentication, Access Management]
 ---
@@ -22,7 +22,7 @@ LDAP integration requires:
     -   Allows inbound network access through the firewall \(to the LDAP server\)
     -   \(Optional\) Accepts anonymous login
     -   \(Optional\) Supports paging for large LDAP queries
--   The external IP address or fully-qualified domain name of the LDAP server. You can also use a [MID server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ldap-integration/c_LDAPIntegrationViaMIDServer.md).
+-   The external IP address or fully-qualified domain name of the LDAP server. You can also use a [MID server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/ldap-integration/c_LDAPIntegrationViaMIDServer.md).
 -   A read-only LDAP account of your choosing
 -   For multiple domains, network access for each domain controller
 -   For LDAPS, a PKI certificate

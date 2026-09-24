@@ -3,11 +3,11 @@ title: Create a policy action script
 description: Use policy action scripts to get, update, or set values in cloud requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-policy-script.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create a cloud policy, Policies for Cloud Provisioning, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_cmp.cloud\_governor or admin.
 
 ## About this task
 
-For more information on using scripts, see [Cloud scripts and cloud script templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-scripts-and-templates.md).
+For more information on using scripts, see [Cloud scripts and cloud script templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/cloud-scripts-and-templates.md).
 
 ## Procedure
 

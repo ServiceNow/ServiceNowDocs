@@ -3,11 +3,11 @@ title: Publish questions in a question bank
 description: Move a question through the draft, ready to publish, and published lifecycle stages so that it becomes available for template managers to add to assessment templates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/sae-asmnt-question-bank-publish.html
-release: australia
+release: brazil
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Question bank, Use template designer, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -53,5 +53,5 @@ You can select **Draft** from a published question's state menu to move it back 
 
 ## Result
 
-Published questions are available for template managers to add to assessment templates. See [Add questions from a question bank to a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-add-questions-from-question-bank.md).
+Published questions are available for template managers to add to assessment templates. See [Add questions from a question bank to a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-add-questions-from-question-bank.md).
 

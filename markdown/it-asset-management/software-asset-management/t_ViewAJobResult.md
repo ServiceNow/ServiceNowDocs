@@ -3,13 +3,13 @@ title: View a software job result
 description: You can view the results of Software Asset Management jobs that have run to verify completion.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/t\_ViewAJobResult.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [View normalization suggestions in Software Asset Management Core UI, Use SAM Core UI, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [View normalization suggestions in Software Asset Management classic, Using Software Asset Management classic, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # View a software job result
@@ -50,5 +50,5 @@ All Software Asset Management scheduled jobs are listed in the **System Definiti
     |Updated|Date and time job was updated.|
 
 
-**Parent Topic:**[View normalization suggestions in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/view-norm-suggestions-sam.md)
+**Parent Topic:**[View normalization suggestions in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/view-norm-suggestions-sam.md)
 

@@ -3,9 +3,9 @@ title: Using ITOM/OT SU Licensing
 description: Ensure optimal utilization of your organization's ITOM subscriptions by analyzing the resource usage of your ITOM products.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/using-itom-licensing.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---

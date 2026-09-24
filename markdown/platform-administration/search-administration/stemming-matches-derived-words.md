@@ -3,11 +3,11 @@ title: Zing matches derived words with stemming
 description: Convert any multiple-character search keyword to its stem form to find derived versions of the word.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/stemming-matches-derived-words.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Zing text indexing and search engine, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -26,7 +26,7 @@ Zing uses the [Porter Stemming Algorithm](https://tartarus.org/martin/PorterStem
 
 The stemming language determines how the system generates indexes of record data. The system only supports one stemming language at a time regardless of how many languages the instance supports. When you change the stemming language, the system creates any new index entries based on the new language stemming rules, but doesn't regenerate any existing index records. You must manually regenerate indexes for tables you want to use the new stemming language.
 
-**Parent Topic:**[Zing text indexing and search engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_ZingTextSearch.md)
+**Parent Topic:**[Zing text indexing and search engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/c_ZingTextSearch.md)
 
 **Related topics**  
 
@@ -52,6 +52,8 @@ The stemming language determines how the system generates indexes of record data
 [Zing can expand search results with synonyms]()
 
 [Zing displays search suggestions as users enter search terms]()
+
+[Verify that user roles have access to your searchable tables]()
 
 [Installed with Zing]()
 

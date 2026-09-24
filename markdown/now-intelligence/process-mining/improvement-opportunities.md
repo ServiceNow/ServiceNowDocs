@@ -3,11 +3,11 @@ title: Configure improvement opportunities
 description: Create a library of inefficiencies to identify the improvement opportunities for your project.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/improvement-opportunities.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [With Process Configuration Builder, Creating process configuration, Use, Process Mining, Platform Analytics]
 ---
@@ -30,7 +30,7 @@ Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 
     The **Process details** page is displayed. Select **Improvement opportunities** from the side panel.
 
-    If you’re proceeding from the **Impact metrics** page, then you come to this page. For more information, see [Configure impact metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/impact-metrics.md).
+    If you’re proceeding from the **Impact metrics** page, then you come to this page. For more information, see [Configure impact metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/impact-metrics.md).
 
     The **Improvement opportunities** page displays:
 
@@ -40,7 +40,7 @@ Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 
 4.  Select from the list of the recommended automated improvement opportunities.
 
-    The recommendations are displayed based on your inputs in the Process details page. To understand how you set the process perspectives, see [Configure process details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-details.md).
+    The recommendations are displayed based on your inputs in the Process details page. To understand how you set the process perspectives, see [Configure process details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/process-details.md).
 
     \[Omitted image "process-config-imp-opp.png"\] Alt text: Recommended improvement opportunities
 
@@ -50,7 +50,7 @@ Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 
 6.  Select **Add new** to create an improvement opportunity.
 
-    The improvement opportunity definition page is displayed. For more information, see [Set rule-based improvement opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/rule-based-builder.md) and [Setting Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/automated-findings.md).
+    The improvement opportunity definition page is displayed. For more information, see [Set rule-based improvement opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/rule-based-builder.md) and [Setting Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/automated-findings.md).
 
     Select the **Get recommendations** button to get recommendations for the automated improvement opportunities based on the configuration you have set in the Process perspectives section of the Process details page.
 
@@ -59,5 +59,5 @@ Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
     The process configuration is complete.
 
 
-**Parent Topic:**[Create process configuration using Process Configuration Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-config-builder.md)
+**Parent Topic:**[Create process configuration using Process Configuration Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/process-config-builder.md)
 

@@ -3,11 +3,11 @@ title: Post-authentication context
 description: The Post Authentication policy context defines how and when a policy is enforced during the login process. The policy used in this context executes after your users see a login screen.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/post-auth-context.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication policy contexts, Adaptive authentication, Authentication, Access Management]
 ---

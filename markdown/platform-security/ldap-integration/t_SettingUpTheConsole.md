@@ -3,11 +3,11 @@ title: Set up the ADAM console
 description: Set up the ADAM console. Even though there are many similarities between ADAM and Active Directory, the administration can be very different since there is no Users and Computers management console.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/t\_SettingUpTheConsole.html
-release: australia
+release: brazil
 product: LDAP integration
 classification: ldap-integration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Active Directory Application Mode \(ADAM\), LDAP integration, Authentication, Access Management]
 ---

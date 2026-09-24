@@ -3,11 +3,11 @@ title: Add a Go back activity to a playbook
 description: Add a Go back activity to a decision branch in your playbook and configure where the playbook returns to when the activity runs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/add-go-back-activity.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-04-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Go back activity, Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -22,9 +22,9 @@ Role required: pd\_author
 
 ## About this task
 
-A Go back activity must be placed inside a decision branch. The decision must have at least one branch that moves forward in the playbook. For information about the Go back activity and design considerations, see [Go back activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/go-back-activity.md).
+A Go back activity must be placed inside a decision branch. The decision must have at least one branch that moves forward in the playbook. For information about the Go back activity and design considerations, see [Go back activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/go-back-activity.md).
 
-**Note:** If restart is not configured for the target, the playbook does not continue from that point. For information about configuring restart, see [Configure restart for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/enable-define-restart.md).
+**Note:** If restart is not configured for the target, the playbook does not continue from that point. For information about configuring restart, see [Configure restart for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/enable-define-restart.md).
 
 ## Procedure
 
@@ -61,5 +61,5 @@ A Go back activity must be placed inside a decision branch. The decision must ha
 
 After the playbook is complete, test and activate it.
 
-**Parent Topic:**[Go back activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/go-back-activity.md)
+**Parent Topic:**[Go back activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/go-back-activity.md)
 

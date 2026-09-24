@@ -3,13 +3,13 @@ title: Connect an external cloud document
 description: Link an existing document from a supported external cloud storage provider into the Documents panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/connect-an-external-cloud-document.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [External cloud documents, Using Document Management System in Audit Workspace, Audit Workspace Overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [External cloud documents, Using Document Management System in Audit Workspace, Audit Workspace overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Connect an external cloud document
@@ -20,7 +20,7 @@ Link an existing document from a supported external cloud storage provider into 
 
 Role required: sn\_audit\_ws.auditor, sn\_audit\_ws.supervisor
 
-The integration hub spoke for your external cloud storage provider must be installed and configured. For more information, see [Connect an external cloud document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/connect-external-cloud-documents.md).
+The integration hub spoke for your external cloud storage provider must be activated and configured. For more information, see [Connect an external cloud document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/connect-external-cloud-documents.md).
 
 ## Procedure
 

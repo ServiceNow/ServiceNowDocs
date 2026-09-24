@@ -3,9 +3,9 @@ title: Configure an action item
 description: For an action function to work, you must create an action item to associate with the action function. Action items define what the action function is and how it works.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-studio-create-action-item.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Action functions, Mobile functions, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -24,7 +24,7 @@ Role required: admin
 
 Most action items use parameters.
 
-Use action items to define what an action function does when a user uses that function. The following steps detail creating an action without parameters. To create a parametrized action item, see [Configure an action item with parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-create-action-item-param.md).
+Use action items to define what an action function does when a user uses that function. The following steps detail creating an action without parameters. To create a parametrized action item, see [Configure an action item with parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-create-action-item-param.md).
 
 **Note:** ServiceNow mobile apps are unable to perform any actions that cannot be performed in the platform web-based interface. For example, if you use ACLs to prevent a user from closing an incident without adding a resolution code and notes, the user cannot close an incident in the app without the same requirements. Keep this in mind when creating actions, so that you can add the correct parameters.
 
@@ -76,7 +76,7 @@ The kind of action item. Choose from the following:-   New
 -   Update
 -   Delete
 -   Script
--   MultiStep. For more information, see [Configure action steps within an action item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-action-steps.md).
+-   MultiStep. For more information, see [Configure action steps within an action item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/configure-action-steps.md).
 Different fields appear on the action item form depending on the type of action you select.
 
 </td></tr><tr><td>
@@ -129,7 +129,7 @@ Input Form Screen
 
 </td><td>
 
-Select an input form screen to use for this action item. See [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-screen-config.md).
+Select an input form screen to use for this action item. See [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/parameter-screen-config.md).
 
 </td></tr></tbody>
 </table>5.  Select **Save**.
@@ -189,7 +189,7 @@ If you use parameters for the action item, you can call them in the script. The 
 
 ## What to do next
 
-Associate the action item with an action function, see [action function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-config-action-function.md).
+Associate the action item with an action function, see [action function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-studio-config-action-function.md).
 
-Associate action steps to an action item, see [Configure action steps within an action item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-action-steps.md).
+Associate action steps to an action item, see [Configure action steps within an action item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/configure-action-steps.md).
 

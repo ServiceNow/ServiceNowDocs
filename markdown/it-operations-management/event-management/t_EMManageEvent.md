@@ -3,11 +3,11 @@ title: View events
 description: Event Management tracks individual events to manage external systems. These events are notifications from monitoring tools indicating occurrences of interest, like log messages, warnings, or errors. Event Management gathers events from external sources and stores them in the Event \[em\_event\] table, offering a list of raw incoming events.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMManageEvent.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -28,7 +28,7 @@ The event monitoring tool generates the values of the source and resource fields
 
 An event source may generate duplicate events with the same identifying information. For events with the same identifying information, Event Management uses the time interval between events to determine whether the events represent an existing issue or new issue.
 
-Additional fields should be included in the **Additional information** field of the event. Do not add additional fields to an event by adding a custom field to the event \[em\_event\] table. For more information about how to include additional fields in events, see [Custom alert fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/populate-custom-alert-fields.md).
+Additional fields should be included in the **Additional information** field of the event. Do not add additional fields to an event by adding a custom field to the event \[em\_event\] table. For more information about how to include additional fields in events, see [Custom alert fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/populate-custom-alert-fields.md).
 
 **Note:** Avoid writing business rules for event \[em\_event\] tables, as they can result in performance degradation.
 

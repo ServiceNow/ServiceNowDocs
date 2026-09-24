@@ -3,11 +3,11 @@ title: Artifacts and packages
 description: Artifacts and packages enable DevOps Change Velocity to track development and testing activities across a wide range of deployment and release models. This feature ensures that pipeline activity stored in the DevOps data model can be retrieved and applied when artifacts are created and released at different times or in different pipelines.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/using-dev-ops-release-change.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 breadcrumb: [Accelerate your DevOps change process, DevOps Change Velocity, IT Service Management]
 ---
@@ -24,7 +24,7 @@ When you associate commits with an artifact version \(CI pipeline\), and define 
 
 DevOps change request attributes:
 
--   **Category** DevOps or the **Categorize DevOps change requests on "DevOps Change" field** check box is selected in DevOps properties. For more information, see [DevOps change request without mandating category as DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/create-devops-change-any-category.md).
+-   **Category** DevOps or the **Categorize DevOps change requests on "DevOps Change" field** check box is selected in DevOps properties. For more information, see [DevOps change request without mandating category as DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/create-devops-change-any-category.md).
 -   Commits and Work Items related lists
 
 **Packages**
@@ -36,7 +36,7 @@ A package tracks when one or more artifact versions are being used in a deployme
 
 ## Artifact setup
 
-1.  [Create an artifact tool record in DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/integrating-devops-change-with-third-party-tools.md).
+1.  [Create an artifact tool record in DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/integrating-devops-change-with-third-party-tools.md).
 
     **Note:** An artifact tool isn’t necessary unless a webhook or user-created integration subflow configuration is required to look up artifact versions.
 
@@ -48,7 +48,7 @@ A package tracks when one or more artifact versions are being used in a deployme
 
 ## Artifact registration
 
-Configure artifact registration in a scripted pipeline or freestyle job using the [DevOps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/devops-api.md) `/artifact/registration` endpoint. Multiple artifact versions are supported.
+Configure artifact registration in a scripted pipeline or freestyle job using the [DevOps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/devops-api.md) `/artifact/registration` endpoint. Multiple artifact versions are supported.
 
 For Jenkins pipeline:
 
@@ -73,7 +73,7 @@ For Jenkins pipeline:
 
 **Important:** You must add the package creation step before the change step in your pipeline, and package creation must be added in a stage which is previous to the change step, so that packages are linked to the pipeline execution for a change request.
 
-Configure artifact package creation in a scripted pipeline or freestyle job using the [DevOps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/devops-api.md) `/package/registration` endpoint.
+Configure artifact package creation in a scripted pipeline or freestyle job using the [DevOps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/devops-api.md) `/package/registration` endpoint.
 
 **Note:** Package name must be specified.
 
@@ -632,8 +632,8 @@ Your artifact registration request was ignored for the following reason:
  Artifact not found.
 
 </td></tr></tbody>
-</table>-   **[Commits included in DevOps change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-commits-release.md)**  
+</table>-   **[Commits included in DevOps change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/dev-ops-commits-release.md)**  
 The DevOps artifact package and its associated artifact versions are used to determine which commits are included in a DevOps change.
 
-**Parent Topic:**[Accelerating your DevOps change process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md)
+**Parent Topic:**[Accelerating your DevOps change process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md)
 

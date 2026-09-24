@@ -3,11 +3,11 @@ title: Set up your McAfee ePO console to integrate with Security Incident Respon
 description: The following section lists the setup steps that you're required to complete in your McAfee ePO console before installing the application from the ServiceNow Store for the integration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/mcafee-epo-setup-mcafee.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [McAfee ePO integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -143,9 +143,9 @@ The following steps show you how to install the extension plugin, create a secur
     You have successfully installed the extension plugin, created security tags, and assigned tasks to your tags. You have completed the setup for the integration in your McAfee ePO console. The next step is to configure a server in your ServiceNow AI Platform instance.
 
 
-**Parent Topic:**[McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcaffee-epo-overview-arch.md)
+**Parent Topic:**[McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/mcaffee-epo-overview-arch.md)
 
-**Previous topic:**[Set up your ServiceNow AI Platform instance for the McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcaffee-epo-setup-now.md)
+**Previous topic:**[Set up your ServiceNow AI Platform instance for the McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/mcaffee-epo-setup-now.md)
 
-**Next topic:**[Install the application and configure a server for the McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcaffe-epo-install.md)
+**Next topic:**[Install the application and configure a server for the McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/mcaffe-epo-install.md)
 

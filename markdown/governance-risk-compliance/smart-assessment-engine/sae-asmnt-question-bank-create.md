@@ -3,11 +3,11 @@ title: Create a question bank
 description: Create a question bank in the Smart Assessment Engine application to store questions that you can reuse across multiple assessment templates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/sae-asmnt-question-bank-create.html
-release: australia
+release: brazil
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Question bank, Use template designer, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,7 @@ Create a question bank in the Smart Assessment Engine application to store quest
 
 ## Before you begin
 
--   At least one active template category with a QB category role that matches one of your roles must exist. See [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
+-   At least one active template category with a QB category role that matches one of your roles must exist. See [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
 -   Role required: sn\_smart\_asmt.question\_bank\_manager or sn\_smart\_asmt.assessment\_admin
 
 ## Procedure
@@ -42,12 +42,12 @@ Create a question bank in the Smart Assessment Engine application to store quest
 
 ## What to do next
 
-You can now add sections and questions to the question bank. See [Add sections and questions to a question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-question-bank-populate.md).
+You can now add sections and questions to the question bank. See [Add sections and questions to a question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-question-bank-populate.md).
 
 **Related topics**  
 
 
-[Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md)
+[Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md)
 
-[Add sections and questions to a question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-question-bank-populate.md)
+[Add sections and questions to a question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-question-bank-populate.md)
 

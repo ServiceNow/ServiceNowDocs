@@ -3,13 +3,13 @@ title: Fulfill a Zero Touch Refresh Fulfillment Request
 description: As a provider, ship a replacement asset requested through a Zero Touch Refresh Fulfillment Request to the requester.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/process-zero-touch-refresh-order.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage refresh of assets using Zero Touch Refresh, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage refresh of assets using Zero Touch Refresh, Asset lifecycle and disposal, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Fulfill a Zero Touch Refresh Fulfillment Request
@@ -18,7 +18,7 @@ As a provider, ship a replacement asset requested through a Zero Touch Refresh F
 
 ## Before you begin
 
-The Service Exchange configuration necessary for the Zero Touch Refresh flow must have been set up. For more details, see [Service Exchange configuration for Zero Touch Refresh](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/service-bridge-config-ztr.md).
+The Service Exchange configuration necessary for the Zero Touch Refresh flow must have been set up. For more details, see [Service Exchange configuration for Zero Touch Refresh](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/service-bridge-config-ztr.md).
 
 Role required: admin, asset, procurement\_user, or inventory\_user
 
@@ -65,18 +65,10 @@ When an employee submits a Zero Touch Refresh request on the ServiceNow® instan
 
 An asset with the serial number and asset tag specified in the Zero Touch Refresh Fulfillment Request is assigned to the employee.
 
-**Parent Topic:**[Manage refresh of assets using Zero Touch Refresh](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/refresh-hardware-uisng-ztr.md)
+**Parent Topic:**[Manage refresh of assets using Zero Touch Refresh](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/refresh-hardware-uisng-ztr.md)
 
 **Related topics**  
 
 
-[Configure replacement models for a refresh model]()
-
-[Request a hardware asset refresh through Zero Touch Refresh]()
-
 [Process a Zero Touch Refresh request]()
-
-[Acknowledge receipt of an asset on a mobile device]()
-
-[Acknowledge receipt of an asset through the Core UI]()
 

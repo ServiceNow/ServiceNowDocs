@@ -3,11 +3,11 @@ title: Regenerate the text index for a single record
 description: Update the text search index for a single record. Use this approach to quickly verify whether text indexing is the cause of a search issue without rebuilding the full text index for an entire table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/regenerate-text-index-one-record.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Regenerate a text index for a table, Zing indexes words, Zing text indexing and search engine, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -24,11 +24,11 @@ Identify the following:
 -   A record containing the identified search term that isn't returned when searching for the term
 -   The table that includes the identified record
 
-The identified table must already be configured for indexing and searching. For details on this configuration process, see [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-single-table-for-indexing.md).
+The identified table must already be configured for indexing and searching. For details on this configuration process, see [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-single-table-for-indexing.md).
 
 Role required: admin
 
-**Note:** If the **glide.script\_processor.admin** system property's value has been changed from the default value, you need the role specified by that property value. For details on this property value and its effects, see [Restrict access to background script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/sc-restrict-access-to-background-script.md).
+**Note:** If the **glide.script\_processor.admin** system property's value has been changed from the default value, you need the role specified by that property value. For details on this property value and its effects, see [Restrict access to background script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/sc-restrict-access-to-background-script.md).
 
 ## About this task
 
@@ -42,9 +42,9 @@ You can use this method to quickly determine whether text indexing is the cause 
 
 2.  Navigate to **All** &gt; **System Definition** &gt; **Scripts - Background**.
 
-    **Note:** If the **glide.script\_processor.admin** system property's value is set to security\_admin, you must elevate to that privileged role to access this module. For more information on elevating privileges, see [Elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_ElevatedPrivilege.md).
+    **Note:** If the **glide.script\_processor.admin** system property's value is set to security\_admin, you must elevate to that privileged role to access this module. For more information on elevating privileges, see [Elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_ElevatedPrivilege.md).
 
-3.  In the **Run script \(JavaScript executed on server\)** text field, enter the following script, replacing `TABLE_NAME` with the name of the table containing the identified record and `SYS_ID` with the record's sys\_id that you copied in step [1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/regenerate-text-index-one-record.md):
+3.  In the **Run script \(JavaScript executed on server\)** text field, enter the following script, replacing `TABLE_NAME` with the name of the table containing the identified record and `SYS_ID` with the record's sys\_id that you copied in step [1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/regenerate-text-index-one-record.md):
 
     ```
     var gr = new GlideRecord('TABLE_NAME');
@@ -67,7 +67,7 @@ The system updates the text index for the specified record in the specified tabl
 
 ## What to do next
 
-Repeat your sample search. If this search returns the identified record, you may want to update the text index for the entire table that contains that record. For details, see [Regenerate a text index for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/t_RegenerateATextIndexForATable.md).
+Repeat your sample search. If this search returns the identified record, you may want to update the text index for the entire table that contains that record. For details, see [Regenerate a text index for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/t_RegenerateATextIndexForATable.md).
 
-**Parent Topic:**[Regenerate a text index for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/t_RegenerateATextIndexForATable.md)
+**Parent Topic:**[Regenerate a text index for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/t_RegenerateATextIndexForATable.md)
 

@@ -3,11 +3,11 @@ title: Lookup multiple choice
 description: The lookup multiple choice variable creates radio buttons using data from a table. Its functionality is similar to the lookup select box variable, which creates a choice list from queried data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/lookup-multiple-choice.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Types of service catalog variables, Service catalog variables, Service Catalog Reference, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Types of service catalog variables, Service catalog variables, Serv
 
 The lookup multiple choice variable creates radio buttons using data from a table. Its functionality is similar to the lookup select box variable, which creates a choice list from queried data.
 
-For attributes supported by this variable, see [variable attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/variable-attributes.md).
+For attributes supported by this variable, see [variable attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/variable-attributes.md).
 
 **Note:**
 
@@ -25,7 +25,7 @@ For attributes supported by this variable, see [variable attributes](https://raw
 
 \[Omitted image "VariableLookupMultChoiceG.png"\] Alt text: A lookup multiple choice variable
 
-**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)
+**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)
 
 **Related topics**  
 
@@ -40,7 +40,7 @@ For attributes supported by this variable, see [variable attributes](https://raw
 
 [Date, Date and time, and Duration]()
 
-[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/email.md)
+[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/email.md)
 
 [HTML]()
 

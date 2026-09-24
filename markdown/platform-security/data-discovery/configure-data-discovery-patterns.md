@@ -1,32 +1,24 @@
 ---
 title: Configure Data Discovery patterns
-description: Active data patterns are only used for certain product capabilities.
+description: Configure a Data Discovery pattern and review current patterns. A Data Discovery pattern defines the regular expression used to match data against a target table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/data-discovery/configure-data-discovery-patterns.html
-release: australia
+release: brazil
 product: Data Discovery
 classification: data-discovery
 topic_type: task
-last_updated: "2026-05-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Data Discovery jobs, Exploring Data Discovery \(Classic\), Data Discovery, Platform Privacy]
 ---
 
 # Configure Data Discovery patterns
 
-Active data patterns are only used for certain product capabilities.
+Configure a Data Discovery pattern and review current patterns. A Data Discovery pattern defines the regular expression used to match data against a target table.
 
 ## Before you begin
 
 Role required: data\_discovery\_admin
-
-## About this task
-
-The appropriate product capabilities and use cases for using active data patterns include:
-
--   Data pattern anonymization techniques \([Data anonymization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/dps-data-anonymization.md)\)
--   Granular configurations \([Scanning with Granular Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery/granular-configuration.md)\)
--   Testing whether the regex for a data pattern works
 
 ## About this task
 

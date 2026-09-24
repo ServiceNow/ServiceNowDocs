@@ -1,0 +1,36 @@
+---
+title: Rate limiting policy for SMS Authentication
+description: Rate limiting policy locks out a user when an invalid or incorrect Soft PIN is entered consecutively for three times in a span of 24 hours.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/sms-authentication.html
+release: brazil
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Configure SMS authentication, Configure, SMS Twilio, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
+---
+
+# Rate limiting policy for SMS Authentication
+
+Rate limiting policy locks out a user when an invalid or incorrect Soft PIN is entered consecutively for three times in a span of 24 hours.
+
+## Rate limiting policy
+
+Rate limiting policy is enabled by default for SMS for better security. To configure it, navigate to **All**, and then enter `sys_cs_provider.list` in the filter. Open the SMS record, and configure the following properties on the **Provider Properties** tab.
+
+-   **softpin\_lockout\_enabled**: Enables Soft PIN lockout functionality. The default Value is **true**.
+-   **softpin\_max\_invalid\_attempts\_interval\_hrs**: The window where users can make the maximum Soft PIN attempts.
+
+    **Note:** The maximum window is **24** hours.
+
+-   **softpin\_max\_retry\_attempts**: Number of attempts for the user to enter an incorrect Soft PIN after the user account is locked out.
+
+    **Note:** The maximum number of attempts is **3**.
+
+    If your account is locked, you're treated as a guest user when you start a new conversation. The bot confirms that your account is locked. You're then provided with the public topics and you can also unlock the account using the **Setup/Reset Verification Profile** Virtual Agent topic to reset the Soft PIN and Google authenticator.
+
+
+\[Omitted image "sms-auth-rate-limit-properties.png"\] Alt text: The Provider Properties tab lists entries for each of these parameters, including the value and description.
+
+**Parent Topic:**[Configure SMS authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-sms-auth.md)
+

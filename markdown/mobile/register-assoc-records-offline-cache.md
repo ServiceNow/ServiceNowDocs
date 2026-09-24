@@ -3,9 +3,9 @@ title: Register associated records in the offline cache
 description: Configure a write-back action step by adding an execution script that registers newly created instance records for synchronization. Local and server-side records are then reconciled when connectivity is restored, preventing duplicate records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/register-assoc-records-offline-cache.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Offline record reconciliation, Action items/action steps, Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -75,5 +75,5 @@ When the device reconnects and synchronization occurs:
 
 **Note:** The addRecordForSync\(\) method can be called multiple times to register multiple records on different tables or on the same table.
 
-**Parent Topic:**[Offline record reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/offline-record-reconciliation.md)
+**Parent Topic:**[Offline record reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/offline-record-reconciliation.md)
 

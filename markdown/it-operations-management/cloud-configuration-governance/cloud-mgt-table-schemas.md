@@ -3,11 +3,11 @@ title: Schemas of Cloud Provisioning and Governance tables
 description: The tables are cloud-agnostic and can therefore hold data for any cloud provider.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/cloud-mgt-table-schemas.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---

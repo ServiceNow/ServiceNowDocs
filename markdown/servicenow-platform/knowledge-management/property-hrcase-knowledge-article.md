@@ -3,11 +3,11 @@ title: Add a property to enable creating knowledge articles from HR cases
 description: Add a property, which is required to allow users to create a knowledge article from an HR case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/property-hrcase-knowledge-article.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enable actionable knowledge feedback, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -44,5 +44,5 @@ Ensure that the Developer Application is set to **Human Resources: Core**.
 
 The property is added and you can now create knowledge articles from an HR case.
 
-**Parent Topic:**[Enable actionable knowledge feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configure-act-know-feedback-properties.md)
+**Parent Topic:**[Enable actionable knowledge feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/configure-act-know-feedback-properties.md)
 

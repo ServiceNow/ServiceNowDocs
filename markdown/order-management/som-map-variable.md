@@ -3,9 +3,9 @@ title: Map a custom context variable to a transaction entity
 description: Associate a custom pricing context variable to a particular transaction entity type in Sales Customer Relationship Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/som-map-variable.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---

@@ -3,9 +3,9 @@ title: Methods for list edits
 description: Users can edit data in lists using various methods.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/r\_MethodsForListEdits.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Lists in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -37,18 +37,18 @@ To edit a record in a list using quick edit functions, right-click a field and s
 
 ## List editor
 
-The list editor lets you edit field values in a list without opening a form. Administrators can configure the list editor. By default, list editing is disabled for some tables. Fields of [certain types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AdministeringTheListEditor.md) cannot be edited from lists.
+The list editor lets you edit field values in a list without opening a form. Administrators can configure the list editor. By default, list editing is disabled for some tables. Fields of [certain types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_AdministeringTheListEditor.md) cannot be edited from lists.
 
 ## Multiple record edits
 
 You can edit more than one record at the same time using the list editor or an editing form.
 
--   **[Use the list editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_UseTheListEditor.md)**  
+-   **[Use the list editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_UseTheListEditor.md)**  
 The list editor enables you to edit field values directly from a list without navigating to a form.
--   **[Edit multiple records in a list using the list editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_EditMultRecUsingListEditor.md)**  
+-   **[Edit multiple records in a list using the list editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_EditMultRecUsingListEditor.md)**  
 You can edit multiple records at the same time using the list editor. If you want to update a single field on multiple records to have the same value, the list editor is the quickest method.
--   **[Edit multiple records in a list using an editing form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_EditMultiRecUsingEditingForm.md)**  
+-   **[Edit multiple records in a list using an editing form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_EditMultiRecUsingEditingForm.md)**  
 You can edit multiple records at the same time using an editing form. If you want to edit multiple fields or fields that don’t appear in the list view, use an editing form.
 
-**Parent Topic:**[Lists in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UseLists.md)
+**Parent Topic:**[Lists in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_UseLists.md)
 

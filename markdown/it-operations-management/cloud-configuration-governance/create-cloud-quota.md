@@ -3,11 +3,11 @@ title: Create a cloud quota definition
 description: A cloud quota definition specifies the limitations on a resource block. You can use templates or manually create different types of configurations for each quota definition.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-cloud-quota.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Quotas and resource order controls, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -60,7 +60,7 @@ Resource Name
 
 </td><td>
 
-The Resource Block type to apply the quota to. Select from the lookup list. For example, select Cloud Resource for any template-based cloud resource. For more information, see [Resource blocks in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/resource-blocks.md).
+The Resource Block type to apply the quota to. Select from the lookup list. For example, select Cloud Resource for any template-based cloud resource. For more information, see [Resource blocks in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/resource-blocks.md).
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ Attribute
 
 </td><td>
 
-The column name from the underlying CI type on the [resource block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/resource-blocks.md) that holds the value to restrict with the quota. For example, if your quota limits the CPU count on a virtual server, the table of the underlying CI type is cmdb\_ci\_vm\_instance. The **cpus** column holds that CPU data. So you would enter `cpus`.You can also enter `instance`.
+The column name from the underlying CI type on the [resource block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/resource-blocks.md) that holds the value to restrict with the quota. For example, if your quota limits the CPU count on a virtual server, the table of the underlying CI type is cmdb\_ci\_vm\_instance. The **cpus** column holds that CPU data. So you would enter `cpus`.You can also enter `instance`.
 
 </td></tr><tr><td>
 
@@ -151,10 +151,10 @@ A column from the table you specified in the Template field. This it the attribu
 
 You have specified the cloud quota definitions and quota limits for users and user groups.
 
-**Parent Topic:**[Quotas and resource order controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/quotas.md)
+**Parent Topic:**[Quotas and resource order controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/quotas.md)
 
 **Related topics**  
 
 
-[Resource blocks in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/resource-blocks.md)
+[Resource blocks in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/resource-blocks.md)
 

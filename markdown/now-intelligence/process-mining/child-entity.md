@@ -3,11 +3,11 @@ title: Add a child entity
 description: Add a child or related table to track an activity from a related process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/child-entity.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Scoping your analysis, Create a project or template using Project Builder, Use, Process Mining, Platform Analytics]
 ---
@@ -119,5 +119,5 @@ Displays the selected number of related records for the filters set. You can fil
 </table>6.  Select **Save**.
 
 
-**Parent Topic:**[Scoping your analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/scope-analysis.md)
+**Parent Topic:**[Scoping your analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/scope-analysis.md)
 

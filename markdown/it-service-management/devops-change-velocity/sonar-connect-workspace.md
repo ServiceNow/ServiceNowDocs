@@ -3,11 +3,11 @@ title: Onboard SonarQube to DevOps Change Velocity — Workspace
 description: Connect to your Sonar instance using the DevOps Change Workspace playbook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/sonar-connect-workspace.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [SonarQube, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Connect to your Sonar instance using the DevOps Change Workspace playbook.
 
 ## Before you begin
 
-Complete the tasks specified in the [Getting started with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/setting-up-devops-change-velocity.md) topic.
+Complete the tasks specified in the [Getting started with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/setting-up-devops-change-velocity.md) topic.
 
 Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
@@ -26,15 +26,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard SonarQube.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d230751e90">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d235228e90">
 
 Option
 
-</th><th align="left" id="d230751e93">
+</th><th align="left" id="d235228e93">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d230751e99">
+</th></tr></thead><tbody><tr><td id="d235228e99">
 
 **Homepage**
 
@@ -44,19 +44,19 @@ Steps
 2.  On the  Connect to a tool  modal, select SonarQube from the **Software quality** category.
 
 
-</td></tr><tr><td id="d230751e126">
+</td></tr><tr><td id="d235228e126">
 
 **Applications module**
 
 </td><td>
 
 1.  Select **Applications** \(\[Omitted image "applications-icon.png"\] Alt text: Applications icon.\).
-2.  Select an existing application, or create one. To create an application, see [Create an application - Classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/app-create-all.md).
+2.  Select an existing application, or create one. To create an application, see [Create an application - Classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/app-create-all.md).
 3.  From the  Recommended actions  pane, select the  **Connect a tool ** card.
 4.  On the  Connect to a tool  modal, select SonarQube from the **Software quality** category.
 
 
-</td></tr><tr><td id="d230751e175">
+</td></tr><tr><td id="d235228e175">
 
 **Tools module**
 
@@ -81,7 +81,7 @@ Steps
     3.  In the **Password or access token** field, enter the token generated in Sonar.
     4.  If your Sonar instance is attached to a MID Server, select the **Use MID Server** option and enter its details.
 
-        A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MIDServerSelector.md).
+        A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_MIDServerSelector.md).
 
 4.  Click **Connect** and review the details of the successfully connected Sonar instance.
 
@@ -115,5 +115,5 @@ Steps
 
 You’ve successfully onboarded your SonarQube tool to DevOps Change Velocity.
 
-**Parent Topic:**[SonarQube integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/sonarqube-devops-integration-devops.md)
+**Parent Topic:**[SonarQube integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/sonarqube-devops-integration-devops.md)
 

@@ -3,10 +3,10 @@ title: Configure a Date filter in the inline editor
 description: Let users select predefined periods or specify custom start and end dates for the data on a dashboard tab.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/create-date-filter-workspace.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Filters, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -16,7 +16,7 @@ Let users select predefined periods or specify custom start and end dates for th
 
 ## Before you begin
 
-**Important:** This procedure assumes you’ve created a filter in the Filter designer or added a filter to your dashboard with the Date filter type. For instructions, see [Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/select-workspace-filter-type.md) or [Create a filter in the Filter Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-filter-library.md).
+**Important:** This procedure assumes you’ve created a filter in the Filter designer or added a filter to your dashboard with the Date filter type. For instructions, see [Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/select-workspace-filter-type.md) or [Create a filter in the Filter Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/add-filter-library.md).
 
 Role required: In the dashboard inline editor: dashboard\_admin, or you must be the dashboard owner or have had editing rights shared with you.
 
@@ -30,7 +30,7 @@ For time series data visualizations showing table or indicator data, the data ag
 
 ## Procedure
 
-1.  Create a filter and select the Date filter type, as described in [Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/select-workspace-filter-type.md) or [Create a filter in the Filter Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-filter-library.md).
+1.  Create a filter and select the Date filter type, as described in [Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/select-workspace-filter-type.md) or [Create a filter in the Filter Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/add-filter-library.md).
 
 2.  Specify the data to filter.
 
@@ -49,7 +49,7 @@ For time series data visualizations showing table or indicator data, the data ag
 
 4.  If you’re letting the users select from relative ranges, you can select which relative ranges they can choose from in **Select predefined ranges**.
 
-    If you have Fiscal Calendars installed and configured, you can select from fiscal calendar ranges. For more information, see [Defining fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_FiscalCalendar.md).
+    If you have Fiscal Calendars installed and configured, you can select from fiscal calendar ranges. For more information, see [Defining fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_FiscalCalendar.md).
 
     \[Omitted image "filters-fiscal-calendar.png"\] Alt text: Select Predefined Ranges picker showing fiscal calendar options.
 
@@ -57,9 +57,13 @@ For time series data visualizations showing table or indicator data, the data ag
 
 6.  In **Default values**, specify a relative range to filter on automatically when the dashboard is opened.
 
-7.  To let users clear the values they selected for the filter, enable **Allow filter clearance**.
+7.  To let users clear the values they selected for the filter, enable **Allow user to clear filter**.
 
-8.  Select **Save**.
+8.  Specify a **Filter Custom ID**, a name for the filter that replaces its sys\_id in URL filter parameters.
+
+    For more information, see [URL filter parameters for dashboard filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/url-filter-parameters.md).
+
+9.  Select **Save**.
 
 
 ## Result
@@ -68,12 +72,12 @@ The filter is ready to use when you exit editing mode.
 
 ## What to do next
 
-If you have the required roles, add the filter to the filter library. You can also reconfigure, delete, or duplicate the filter. For more information, see [Edit a Platform Analytics filter on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-filters-configurable-workspaces.md).
+If you have the required roles, add the filter to the filter library. You can also reconfigure, delete, or duplicate the filter. For more information, see [Edit a Platform Analytics filter on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/edit-filters-configurable-workspaces.md).
 
 **Related topics**  
 
 
-[Edit a Platform Analytics filter on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-filters-configurable-workspaces.md)
+[Edit a Platform Analytics filter on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/edit-filters-configurable-workspaces.md)
 
-[Configure a data visualization to follow filters or not](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-dv-follow-filters-or-not.md)
+[Configure a data visualization to follow filters or not](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/configure-dv-follow-filters-or-not.md)
 

@@ -3,11 +3,11 @@ title: Add Zoom connection
 description: Use the information generated during Zoom account configuration to register DEX for Zoom as an OAuth provider and enable the instance to request OAuth 2.0 tokens. Add the Zoom connection in Workflow Studio to perform actions in Zoom.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/add-zoom-connection.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring DEX for Zoom, Configure, Digital End-User Experience, IT Service Management]
 ---
@@ -35,7 +35,7 @@ Role required: admin
 4.  In the **Zoom** card, select **View Details**.
 
     -   To configure the default connection and credential alias record that is shipped along with the DEX for Zoom spoke, select **View Details**.
-    -   To manage more than one DEX for Zoom connection records, create a child alias record by selecting **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/support-multiple-connections.md).
+    -   To manage more than one DEX for Zoom connection records, create a child alias record by selecting **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/support-multiple-connections.md).
     If you’re configuring the spoke for the first time, select **Configure**. Otherwise, select **Edit**.
 
 5.  On the form, fill the following values.

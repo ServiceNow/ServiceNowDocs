@@ -3,11 +3,11 @@ title: Manage contacts from Business Portal
 description: Create and update customer contacts, assign roles to contacts, and enable or disable contact login from the business portal.Use the Create Contact catalog item to create a customer contact from the business portal.Update the contact information for a user from the business portal.Enable or disable the login for a contact from the business portal to control user access to the portal.Assign one or more user roles to a contact from the business portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/c\_ManageUsersFrom-business-Portal.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 5
-breadcrumb: [Business Portal, Customer communication, Use, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Use Business Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Manage contacts from Business Portal
@@ -17,9 +17,9 @@ Create and update customer contacts, assign roles to contacts, and enable or dis
 **Related topics**  
 
 
-[Manage customer registration requests from Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/manage-cust-registration-requests-business-portal.md)
+[Manage customer registration requests from Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/manage-cust-registration-requests-business-portal.md)
 
-[Create a customer contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_ManageUsersFrom-business-Portal.md)
+[Create a customer contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_ManageUsersFrom-business-Portal.md)
 
 ## Create a customer contact
 
@@ -28,15 +28,6 @@ Use the **Create Contact** catalog item to create a customer contact from the bu
 ### Before you begin
 
 Role required: sn\_customerservice.customer\_admin, sn\_customerservice.partner\_admin, or admin
-
-### About this task
-
-By selecting the **Create Contact** catalog item, you can add the details for a contact and create the contact record. After saving the record, you can perform the following actions depending on your role.
-
--   Users with the sn\_customerservice.customer\_admin or sn\_customerservice.partner\_admin can update the contact's user ID and enable or disable notifications.
--   Users with the admin role can set a password for the contact and require the contact to reset their password.
-
-**Note:** These actions are available while you’re creating the contact record.
 
 ### Procedure
 
@@ -89,13 +80,13 @@ By selecting the **Create Contact** catalog item, you can add the details for a 
 
 Update the contact information for a user from the business portal.
 
-### About this task
-
-Customer admins and partner admins can update contact details for users in their company directly from the business portal. Keeping contact information current helps ensure that cases, notifications, and communications reach the right person.
-
 ### Before you begin
 
 Role required: sn\_customerservice.customer\_admin, sn\_customerservice.partner\_admin, or admin
+
+### About this task
+
+The business portal lets customer administrators manage contact details for users in their organization. Keeping contact information current lets users receive notifications and can be reached when cases are updated.
 
 ### Procedure
 
@@ -151,15 +142,15 @@ Role required: sn\_customerservice.customer\_admin, sn\_customerservice.partner\
 
 4.  In the Actions list, select one of the following links, as required.
 
-<table id="choicetable_fnc_gct_lrb"><thead><tr><th align="left" id="d187003e831">
+<table id="choicetable_fnc_gct_lrb"><thead><tr><th align="left" id="d190976e809">
 
 Choice
 
-</th><th align="left" id="d187003e834">
+</th><th align="left" id="d190976e812">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d187003e840">
+</th></tr></thead><tbody><tr><td id="d190976e818">
 
 **Disable login**
 
@@ -167,7 +158,7 @@ Description
 
 Disables the login for this contact. When the login is inactive, the contact can’t access the business portal.This link is displayed if the login is enabled.
 
-</td></tr><tr><td id="d187003e852">
+</td></tr><tr><td id="d190976e830">
 
 **Enable login**
 
@@ -192,12 +183,6 @@ Assign one or more user roles to a contact from the business portal.
 
 Role required: sn\_customerservice.customer\_admin, sn\_customerservice.partner\_admin, or admin
 
-### About this task
-
-Use the Edit Role pop-up window to manage the roles for a contact. Contacts must have at least one assigned user role. If there are no roles in the **Selected** column on the pop-up window, you can’t update the record.
-
-**Note:** The roles available in the Edit Role pop-up window are configured using the **sn\_customerservice.contact\_role\_assignment** property.
-
 ### Procedure
 
 1.  Navigate to the business portal.
@@ -218,5 +203,5 @@ Use the Edit Role pop-up window to manage the roles for a contact. Contacts must
 **Related topics**  
 
 
-[Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md)
+[Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md)
 

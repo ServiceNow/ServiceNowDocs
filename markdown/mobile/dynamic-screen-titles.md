@@ -3,9 +3,9 @@ title: Configure a dynamic screen name for a list screen
 description: Configure a screen to dynamically inherit a name from a parametrized list screen. This setup enables users to view a passed parameter as the screen name instead of the screen record name.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/dynamic-screen-titles.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [List screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---

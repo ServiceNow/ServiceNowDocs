@@ -3,11 +3,11 @@ title: Better together with other ServiceNow applications
 description: Integrate Hardware Asset Management \(HAM\) with Project Workspace to track which HAM requests or refreshes belong to an SPM project. Provide portfolio and project managers visibility into request status without leaving Project Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/better-together-with-itam.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -24,5 +24,5 @@ This integration enables Hardware Asset Management \(HAM\) requests and refreshe
 -   View project-tagged asset requests from the project record.
 -   Create asset project requests from the asset project request list.
 
-**Parent Topic:**[Exploring Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/exploring-project-workspace.md)
+**Parent Topic:**[Exploring Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/exploring-project-workspace.md)
 

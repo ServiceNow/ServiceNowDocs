@@ -3,11 +3,11 @@ title: Configure non-default access to the experience switcher
 description: Grant non-default roles access to the experience switcher so users can switch between development environments in ServiceNow Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/configure-access-experience-switcher.html
-release: australia
+release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-05-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing access to the experience switcher, Configure, ServiceNow Studio, Developing your application, Building applications]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-By default, the Experience Configurations table \[sn\_udc\_experience\_configuration\] grants admins and delegated developers access to the experience switcher. To grant non-default roles access, add them to the Experience Visibility Controls table \[sn\_udc\_experience\_visibility\_control\]. For more information about default roles, see [Roles and access in app development tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/working-with-roles-and-access.md).
+By default, the Experience Configurations table \[sn\_udc\_experience\_configuration\] grants admins and delegated developers access to the experience switcher. To grant non-default roles access, add them to the Experience Visibility Controls table \[sn\_udc\_experience\_visibility\_control\]. For more information about default roles, see [Roles and access in app development tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/working-with-roles-and-access.md).
 
 -   Admins and delegated developers can use the experience switcher because they may need access to any product where they've been delegated to administer or develop an app.
 -   Creator Studio users and Creator Studio restricted users don't generally have access to the experience switcher because administrators limit them to a more curated experience.
@@ -58,5 +58,5 @@ By default, the Experience Configurations table \[sn\_udc\_experience\_configura
     The role is added to the Experience Visibility Controls table and the specified users can now access the experience switcher.
 
 
-**Parent Topic:**[Managing access to the experience switcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/managing-access-experience-switcher.md)
+**Parent Topic:**[Managing access to the experience switcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/managing-access-experience-switcher.md)
 

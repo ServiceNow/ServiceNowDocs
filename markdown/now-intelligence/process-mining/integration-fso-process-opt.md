@@ -3,11 +3,11 @@ title: Content pack for Financial Services Operations
 description: Using the Process Mining content pack with Financial Services Operations \(FSO\) enables you to analyze processes relevant to your KPIs, and identify bottlenecks associated with FSO cases.Analyze a process for financial services cases and identify bottlenecks to minimize delays in the case flow for a better customer experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/integration-fso-process-opt.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Activate content packs, Activate, Process Mining, Platform Analytics]
 ---
@@ -16,9 +16,7 @@ breadcrumb: [Activate content packs, Activate, Process Mining, Platform Analytic
 
 Using the Process Mining content pack with Financial Services Operations \(FSO\) enables you to analyze processes relevant to your KPIs, and identify bottlenecks associated with FSO cases.
 
-**Important:** Starting with the Vancouver release, the Process Optimization application has been renamed to Process Mining.
-
-For information about enabling the FSO Process Mining Content Pack, see [Content pack for Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/integration-fso-process-opt.md).
+For information about enabling the FSO Process Mining Content Pack, see [Content pack for Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/integration-fso-process-opt.md).
 
 ## Optimization projects
 
@@ -40,7 +38,7 @@ The content pack adds pre-built Process Mining project model definitions for the
 -   Personal Lines Claims
 -   Intelligent Servicing for Fraud
 
-You can also configure a new process project that is based on a pre-built project. For more information, see [Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/define-workflow-model.md).
+You can also configure a new process project that is based on a pre-built project. For more information, see [Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/define-workflow-model.md).
 
 ## Roles
 
@@ -64,12 +62,12 @@ Based on the Financial Services Operations application that you're using the Pro
 |Group Life Servicing|sn\_ins\_group\_life.manager and sn\_process\_optimization\_analyst|
 |Intelligent Servicing for Fraud|sn\_bom\_fraud.manager and sn\_process\_optimization\_analyst|
 
-**Parent Topic:**[Activate content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/activate-po-content-pack.md)
+**Parent Topic:**[Activate content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/activate-po-content-pack.md)
 
 **Related topics**  
 
 
-[Example of Process Mining for Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/integration-fso-process-opt.md)
+[Example of Process Mining for Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/integration-fso-process-opt.md)
 
 ## Example of Process Mining for Financial Services Operations
 
@@ -97,7 +95,7 @@ You can analyze the case process flow and suggest ways to improve the processes 
 **Related topics**  
 
 
-[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/analyze-get-process-insights.md)
+[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/analyze-get-process-insights.md)
 
-[Content pack for Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/integration-fso-process-opt.md)
+[Content pack for Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/integration-fso-process-opt.md)
 

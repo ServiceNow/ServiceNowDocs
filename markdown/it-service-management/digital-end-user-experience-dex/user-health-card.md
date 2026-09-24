@@ -3,11 +3,11 @@ title: Device health page
 description: The health of a device includes critical device specifics like type, name, OS, model, location, and CPU. Additionally, it includes metrics like device and battery health, events from the last 24 hours, OS details, pending updates, incident, and alert specifics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/user-health-card.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 breadcrumb: [Device details pages, DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Service Management]
 ---
@@ -484,7 +484,7 @@ ServiceNow Otto for Boot time issues
 
 </td><td>
 
-In the **ServiceNow Otto for Boot time issues** banner, select the **Investigate** button to automatically analyze boot time performance and identify factors causing slow startup. Also find recommendations to fix Boot time issues. For more information, see [Investigate boot time issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/investigate-and-resolve-boot-time-issues.md).
+In the **ServiceNow Otto for Boot time issues** banner, select the **Investigate** button to automatically analyze boot time performance and identify factors causing slow startup. Also find recommendations to fix Boot time issues. For more information, see [Investigate boot time issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-for-it-service-management-itsm/investigate-and-resolve-boot-time-issues.md).
 
 </td></tr></tbody>
 </table><table id="table_nvx_xh1_zdc"><thead><tr><th>
@@ -705,7 +705,7 @@ Unique identifier assigned to the operating system instance, which is used for l
 </td></tr></tbody>
 </table>## Device health — System compliance
 
-**Note:** The data appears on this page only after the System compliance functionality has been configured. For more information, see [Manage your system compliance report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/manage-compliance-report.md).
+**Note:** The data appears on this page only after the System compliance functionality has been configured. For more information, see [Manage your system compliance report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/manage-compliance-report.md).
 
 <table id="table_fzp_4xc_tdc"><thead><tr><th>
 
@@ -1141,7 +1141,7 @@ One of the following categories assigned to the file:-   Application
 -   Installers
 -   Potentially Unwanted Programs
 
-**Note:** The data appears on this page only after File management has been set up. For more information, see [Set up file management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/set-up-file-mgmt.md).
+**Note:** The data appears on this page only after File management has been set up. For more information, see [Set up file management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/set-up-file-mgmt.md).
 
 </td></tr></tbody>
 </table>## Device health — Windows registry
@@ -1204,5 +1204,5 @@ Reported value
 Registry path value that is reported for the monitored Windows registry path for this device**Note:** The error message `No value (check the configuration)` appears in this field when the path is incomplete or the key path configured for monitoring isn’t present on the device.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Device details pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/user-device-details-pages.md)
+</table>**Parent Topic:**[Device details pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/user-device-details-pages.md)
 

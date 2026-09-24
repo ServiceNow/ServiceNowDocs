@@ -3,11 +3,11 @@ title: Account commands for LocalService, LocalSystem, and gMSA during Windows i
 description: When installing an agent on a Windows host using a LocalService, LocalSystem, or gMSA account, you must run msi commands to enable the accounts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/gmsa-and-local-account-commands.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ACC-F reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
@@ -55,5 +55,5 @@ msiexec /i C:\acc-installer.msi /qn /norestart ACC_API_KEY=<API key code> ACC_MI
 ```
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
+</table>**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
 

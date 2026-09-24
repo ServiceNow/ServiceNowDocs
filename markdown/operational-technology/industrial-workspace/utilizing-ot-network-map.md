@@ -3,11 +3,11 @@ title: Operational Technology Network Map
 description: The Operational Technology \(OT\) Network Map is an interactive map that visualizes your OT network through connected nodes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/utilizing-ot-network-map.html
-release: australia
+release: brazil
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Explore, Industrial Workspace, Operational Technology]
 ---
@@ -47,15 +47,15 @@ When you hover over the device node, you can view the following information for 
 -   Device type
 -   Criticality status
 
-The device node also contains an option to view its device-to-device connections. For more information about device-to-device connections, see [OT device related items and related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/ot-assets-related-links-and-lists.md) and [View and edit device to device connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/view-device-to-device-connections.md).
+The device node also contains an option to view its device-to-device connections. For more information about device-to-device connections, see [OT device related items and related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/ot-assets-related-links-and-lists.md) and [View and edit device to device connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/view-device-to-device-connections.md).
 
 **Map refresh**
 
-When the **OT Network Map Cache Handler** scheduled job runs and the **Refreshed at** field in the map is updated with the new refresh time. For more information about the scheduled job, see [Run the OT Network Map Cache Handler scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/run-ot-network-map-cache-handler-scheduled-job.md).
+When the **OT Network Map Cache Handler** scheduled job runs and the **Refreshed at** field in the map is updated with the new refresh time. For more information about the scheduled job, see [Run the OT Network Map Cache Handler scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/run-ot-network-map-cache-handler-scheduled-job.md).
 
 ## Populating the map
 
-To populate the OT Network Map, you must run the **OT Network Map Cache Handler** scheduled job. For more information about the scheduled job, see [Run the OT Network Map Cache Handler scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/run-ot-network-map-cache-handler-scheduled-job.md).
+To populate the OT Network Map, you must run the **OT Network Map Cache Handler** scheduled job. For more information about the scheduled job, see [Run the OT Network Map Cache Handler scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/run-ot-network-map-cache-handler-scheduled-job.md).
 
 The data must be available in the following tables for the network map to load properly.
 
@@ -92,10 +92,10 @@ The following list contains the limitations of the network map.
 
 ## What to do next
 
--   [Setting up the OT Network Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/setting-up-ot-network-map.md)
-    -   [Run the OT Network Map Cache Handler scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/run-ot-network-map-cache-handler-scheduled-job.md)
-    -   [Set the system property for the OT Network Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/set-the-system-property-ot-network-map.md)
--   [View and edit the OT Network Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/view-edit-ot-network-map.md)
+-   [Setting up the OT Network Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/setting-up-ot-network-map.md)
+    -   [Run the OT Network Map Cache Handler scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/run-ot-network-map-cache-handler-scheduled-job.md)
+    -   [Set the system property for the OT Network Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/set-the-system-property-ot-network-map.md)
+-   [View and edit the OT Network Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/view-edit-ot-network-map.md)
 
-**Parent Topic:**[Exploring the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/exploring-industrial-workspace.md)
+**Parent Topic:**[Exploring the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/exploring-industrial-workspace.md)
 

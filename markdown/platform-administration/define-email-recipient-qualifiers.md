@@ -3,9 +3,9 @@ title: Define email client recipient qualifiers
 description: Create a configuration that controls the auto-complete list of recipients displayed in the email client.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/define-email-recipient-qualifiers.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Email client configurations, Configure, Email client, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -115,5 +115,5 @@ If you selected Script for the **Type**, enter a script that uses these variable
     The recipient qualifier configuration is added to the Recipient Qualifier \[sys\_recipient\_qualifier\] table and is available for use in an email client configuration.
 
 
-**Parent Topic:**[Email client configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-client-configuration.md)
+**Parent Topic:**[Email client configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/email-client-configuration.md)
 

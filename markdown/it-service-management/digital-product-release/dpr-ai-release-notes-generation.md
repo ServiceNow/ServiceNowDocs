@@ -3,11 +3,11 @@ title: AI-powered release notes generation
 description: Digital Product Release provides an AI-driven summarization feature that automatically generates release notes for your product and service releases. This capability streamlines the release note creation process, reducing manual effort and improving consistency.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-ai-release-notes-generation.html
-release: australia
+release: brazil
 product: Digital Product Release
 classification: digital-product-release
 topic_type: concept
-last_updated: "2026-04-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [AI release notes generation in Digital Product Release, Now Assist, AI-powered release notes, Now Assist skill]
 breadcrumb: [Explore, Digital Product Release, IT Service Management]
@@ -40,7 +40,7 @@ Using AI to generate release notes gives you clear, well-structured release note
 
 ## How it works
 
-The release notes are generated using a Now Assist summarization skill called Generate Release Notes. This skill is available when the [ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md) plugin is installed.
+The release notes are generated using a Now Assist summarization skill called Generate Release Notes. This skill is available when the [ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md) plugin is installed.
 
 1.  When your release is in the readiness phase, select the option to generate release notes.
 2.  The system creates a draft using AI summarization.
@@ -62,12 +62,12 @@ The AI summarization feature pulls together details from your enhancements, feat
 
 \[Omitted image "dpr-release-notes-preview.png"\] Alt text: AI-generated release notes preview in Digital Product Release Workspace.
 
-**Parent Topic:**[Exploring Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-exploring-digital-product-release.md)
+**Parent Topic:**[Exploring Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-exploring-digital-product-release.md)
 
 **Related topics**  
 
 
-[Generate AI-powered release notes for a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-generate-release-notes.md)
+[Generate AI-powered release notes for a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-generate-release-notes.md)
 
-[ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md)
+[ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md)
 

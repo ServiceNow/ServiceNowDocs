@@ -3,9 +3,9 @@ title: Exploring Simplified IT Service Management
 description: Simplified IT Service Management \(Simplified ITSM\) provides simplified and automated implementation for administrators, and unified user experience for employees and fulfillers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/exploring-ai-native-itsm.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [explore]
 breadcrumb: [Simplified IT Service Management, IT Service Management]
@@ -82,5 +82,5 @@ Simplified AI-native fulfiller experience
 Fulfiller or service desk agent
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/ai-native-it-service-desk-landing-page.md)
+</table>**Parent Topic:**[Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/ai-native-it-service-desk-landing-page.md)
 

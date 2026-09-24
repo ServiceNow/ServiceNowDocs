@@ -3,9 +3,9 @@ title: Configuring HTML sanitizer
 description: You must modify a script include to make configuration changes to the HTML sanitizer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_ConfigureHTMLSanitizer.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [HTML sanitizer]
 ---

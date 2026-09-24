@@ -3,11 +3,11 @@ title: Install Collaboration services
 description: You can install the Collaboration services application \(sn\_tcm\_collab\_hook\) if you have the admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/collaboration-services/install-collaboration-services.html
-release: australia
+release: brazil
 product: Collaboration Services
 classification: collaboration-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Collaboration services, IT Service Management]
 ---
@@ -27,18 +27,18 @@ You can install the Collaboration services application \(sn\_tcm\_collab\_hook\)
 
         -   **ServiceNow for Microsoft Teams**
 
-            If you want to integrate ServiceNow for Microsoft Teams, install the IT Service Management integration with Microsoft Teams or HR Service Delivery integration with Microsoft Teams applications as required. For more information on the integration, see [ServiceNow for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/c_ServiceNowForMSTeams.md).
+            If you want to integrate ServiceNow for Microsoft Teams, install the IT Service Management integration with Microsoft Teams or HR Service Delivery integration with Microsoft Teams applications as required. For more information on the integration, see [ServiceNow for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/c_ServiceNowForMSTeams.md).
 
         -   **ServiceNow for Zoom**
 
-            If you want to integrate ServiceNow instance with Zoom, for complete information, see [ServiceNow for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/sn_zoomIntegration.md).
+            If you want to integrate ServiceNow instance with Zoom, for complete information, see [ServiceNow for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/sn_zoomIntegration.md).
 
 
 Role required: admin
 
 ## About this task
 
-For the tables that are installed with Collaboration services, refer [Components installed with Collaboration services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/collaboration-services/installed-with-collaboration-services.md)
+For the tables that are installed with Collaboration services, refer [Components installed with Collaboration services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/collaboration-services/installed-with-collaboration-services.md)
 
 .
 

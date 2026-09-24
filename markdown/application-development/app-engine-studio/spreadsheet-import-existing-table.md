@@ -3,13 +3,13 @@ title: Modify existing table using spreadsheet import
 description: Use a Microsoft Excel spreadsheet import to update an existing application table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/spreadsheet-import-existing-table.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Use a spreadsheet, Create a data model, Enhance your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Use a spreadsheet, Create a data model, Enhance your app, Build, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Modify existing table using spreadsheet import
@@ -18,13 +18,13 @@ Use a Microsoft Excel spreadsheet import to update an existing application table
 
 ## Before you begin
 
--   Import a spreadsheet into App Engine Studio. See [Import a spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/spreadsheet-importing-spreadsheet.md).
+-   Import a spreadsheet into App Engine Studio. See [Import a spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/spreadsheet-importing-spreadsheet.md).
 
-Role required: admin, sn\_app\_eng\_studio.user or delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: admin, sn\_app\_eng\_studio.user or delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## Procedure
 
-1.  After you have uploaded your spreadsheet as described in [Import a spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/spreadsheet-importing-spreadsheet.md), choose where to import your file in the displayed wizard.
+1.  After you have uploaded your spreadsheet as described in [Import a spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/spreadsheet-importing-spreadsheet.md), choose where to import your file in the displayed wizard.
 
     \[Omitted image "aes-spreadsheet-import-data-existing.png"\] Alt text: Import into an existing application table.
 
@@ -42,7 +42,7 @@ Role required: admin, sn\_app\_eng\_studio.user or delegated developer permissio
 
 3.  You have the following actions available to you during this step.
 
-<table id="choicetable_importchoices"><tbody><tr><td id="d273367e172">
+<table id="choicetable_importchoices"><tbody><tr><td id="d265159e172">
 
 **Batch map fields using Automap**
 
@@ -50,7 +50,7 @@ Role required: admin, sn\_app\_eng\_studio.user or delegated developer permissio
 
 Select **Automap** to automatically map your spreadsheet fields to displayed fields in the selected target table. Automap maps source entities to similarly named target entities. For a target entity that has already been mapped, selecting **Automap** doesn't change its value. An automapped field has a wand icon on its data pill.
 
-</td></tr><tr><td id="d273367e187">
+</td></tr><tr><td id="d265159e187">
 
 **Map fields by dragging and dropping**
 
@@ -58,7 +58,7 @@ Select **Automap** to automatically map your spreadsheet fields to displayed fie
 
 Map fields from your import to your target table by dragging data pills representing columns in the imported spreadsheet to the **Value** column in the target table. You can also map fields by using the pill picker to the right of each target table field.
 
-</td></tr><tr><td id="d273367e202">
+</td></tr><tr><td id="d265159e202">
 
 **Map fields using the data picker**
 
@@ -66,17 +66,17 @@ Map fields from your import to your target table by dragging data pills represen
 
 Map data by using the pill picker \(\[Omitted image "pill-picker-green.png"\] Alt text: Pill picker.\) on the right side of the target table. You can enter more than one value in the **Value** column, you can also enter text.
 
-</td></tr><tr><td id="d273367e223">
+</td></tr><tr><td id="d265159e223">
 
 **Add transform options**
 
 </td><td>
 
-Add transform options for each of the individual mapped spreadsheet fields by clicking the FX icon \( \[Omitted image "fx-icon.png"\] Alt text: FX icon.\) on the right side pane. For example, you can use the Uppercase transform function to change an input string to all uppercase characters. See [Transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/transform-functions.md) for information on how to use these to trim data for your imported spreadsheet fields.
+Add transform options for each of the individual mapped spreadsheet fields by clicking the FX icon \( \[Omitted image "fx-icon.png"\] Alt text: FX icon.\) on the right side pane. For example, you can use the Uppercase transform function to change an input string to all uppercase characters. See [Transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/transform-functions.md) for information on how to use these to trim data for your imported spreadsheet fields.
 
 **Note:** Not all the transform functions available in Flow Designer are available.
 
-</td></tr><tr><td id="d273367e247">
+</td></tr><tr><td id="d265159e247">
 
 **Activate data record matching**
 
@@ -88,7 +88,7 @@ Specify fields where the system should check for matching data and, if found, up
 -   If the **Match** toggle switch for the **Order number** field is off, the system doesn't check for matching data. If the source data has a record with the same order number, the system creates a new record in the target table. In this case, the target table will have two records, both with an order number of 743.
 
 
-</td></tr><tr><td id="d273367e286">
+</td></tr><tr><td id="d265159e286">
 
 **Configure reference and choice field behavior**
 
@@ -103,7 +103,7 @@ Configure behavior for **Choice** and **Reference** field types.1.  Click the ge
 4.  Click **Done**.
 
 
-</td></tr><tr><td id="d273367e348">
+</td></tr><tr><td id="d265159e348">
 
 **Add new field columns to target table**
 
@@ -125,7 +125,7 @@ Add unmapped field columns from your import to your target table or create new f
 
 5.  Convert any remaining worksheets if your file contained multiple worksheet tabs.
 
-    -   **Note:** For each sheet that you want to convert, you will need to select **Convert to table**, and then repeat steps in this procedure or choose a different pathway for the additional worksheet \(see [Create new table from spreadsheet import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/spreadsheet-create-new-table.md) or [Create new table from extensible table and spreadsheet import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/spreadsheet-create-new-ext-table.md) for steps\).
+    -   **Note:** For each sheet that you want to convert, you will need to select **Convert to table**, and then repeat steps in this procedure or choose a different pathway for the additional worksheet \(see [Create new table from spreadsheet import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/spreadsheet-create-new-table.md) or [Create new table from extensible table and spreadsheet import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/spreadsheet-create-new-ext-table.md) for steps\).
 
     -   If you do not have multiple worksheets, proceed to the next step.
 6.  Select **Done** on the summary screen.
@@ -135,7 +135,7 @@ Add unmapped field columns from your import to your target table or create new f
 
 ## What to do next
 
-For more information on editing your data tables in Table Builder, see [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-landing-page.md).
+For more information on editing your data tables in Table Builder, see [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/tb-landing-page.md).
 
-**Parent Topic:**[Use a spreadsheet to add data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/upload-multi-sheets.md)
+**Parent Topic:**[Use a spreadsheet to add data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/upload-multi-sheets.md)
 

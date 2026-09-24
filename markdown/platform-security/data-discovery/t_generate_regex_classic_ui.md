@@ -3,11 +3,11 @@ title: Using Text to RegEx with the classic UI
 description: Use the Generate Regex button and modal in the classic UI to automatically create a regular expression from a text description.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/data-discovery/t\_generate\_regex\_classic\_ui.html
-release: australia
+release: brazil
 product: Data Discovery
 classification: data-discovery
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [generate, regex, classic UI, modal]
 breadcrumb: [Configure patterns, Data Discovery jobs, Exploring Data Discovery \(Classic\), Data Discovery, Platform Privacy]

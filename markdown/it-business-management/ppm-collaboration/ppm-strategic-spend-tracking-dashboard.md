@@ -3,13 +3,13 @@ title: Strategic Spend Tracking for PPM dashboard
 description: The Strategic Spend Tracking for PPM dashboard provides comprehensive visualization to the business planners to help them understand how the planned costs, actual costs, and benefits for projects aligned to the organization's goals and strategies trend over time. It helps you to accurately understand the financial performance of your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/ppm-collaboration/ppm-strategic-spend-tracking-dashboard.html
-release: australia
+release: brazil
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Strategic spend tracking, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Strategic Spend Tracking for PPM, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Strategic Spend Tracking for PPM dashboard
@@ -170,5 +170,5 @@ The dashboard includes the following visualizations for goals:
 |Planned Cost Distribution|Pie chart\[Omitted image "donut-icon.png"\] Alt text: Pie chart|Breakdown of the distribution of planned cost of projects by goals.|
 |Planned Benefit Distribution|Pie chart\[Omitted image "donut-icon.png"\] Alt text: Pie chart|Breakdown of the distribution of planned benefit of projects by goals.|
 
-**Parent Topic:**[Strategic Spend Tracking for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/ppm-strategic-spend-tracking-overview.md)
+**Parent Topic:**[Strategic Spend Tracking for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/ppm-strategic-spend-tracking-overview.md)
 

@@ -3,11 +3,11 @@ title: SNMP credentials
 description: Discovery explores many kinds of devices \(switches, routers, printers, and so on\) using the SNMP protocol. Credentials for SNMP don’t include a user name, just a password, called the community string.The SNMP Community credential type manages access to discover many kinds of devices \(switches, routers, printers, etc.\) using the SNMP protocol. This credential type is available for Discovery, Service Mapping, and Orchestration.SNMPv3 credentials accept a privacy protocol and an additional privacy key and are available for Discovery and Orchestration. For external storage in CyberArk, you can select a privacy account key.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/c\_SNMPCredentials.html
-release: australia
+release: brazil
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Create and test your credentials, Get started with credentials, Connections and Credentials, Access Management]
 ---
@@ -92,7 +92,7 @@ External credential store
 
 </td><td>
 
-Select this check box to use an external credential storage system. When you select this option the **User name** and **Password** fields are replaced with the **Credential ID** field. [External credential storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_ExternalCredentialStorage.md) is only available when the External Credential Storage plugin in activated. **Note:** Currently, the only supported external storage system is [CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_CyberArkCredStorageIntegrate.md).
+Select this check box to use an external credential storage system. When you select this option the **User name** and **Password** fields are replaced with the **Credential ID** field. [External credential storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/connections-and-credentials/c_ExternalCredentialStorage.md) is only available when the External Credential Storage plugin in activated. **Note:** Currently, the only supported external storage system is [CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/connections-and-credentials/c_CyberArkCredStorageIntegrate.md).
 
 </td></tr><tr><td>
 
@@ -252,7 +252,7 @@ Credential alias
 
 </td><td>
 
-Allow workflow creators to assign individual credentials to any activity in an Orchestration workflow. You can assign different credentials to each occurrence of the same activity type.
+Allow workflow creators to assign individual credentials to any activity in an Orchestration workflow. You can also assign different credentials to each occurrence of the same activity type.
 
 </td></tr><tr><td>
 
@@ -260,7 +260,7 @@ External credential store
 
 </td><td>
 
-Select this check box to use an external credential storage system. When external storage is enabled, the **Credential ID** field appears. External credential storage is only available when the [External Credential Storage plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/t_ActivateExtrnlCredStoragePlugIn.md) is activated and the **External Storage** view is selected.
+Select this check box to use an external credential storage system. When external storage is enabled, the **Credential ID** field appears. External credential storage is only available when the [External Credential Storage plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/connections-and-credentials/t_ActivateExtrnlCredStoragePlugIn.md) is activated and the **External Storage** view is selected.
 
 </td></tr><tr><td>
 

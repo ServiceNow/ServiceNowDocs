@@ -3,11 +3,11 @@ title: ServiceNow Studio instance strategy
 description: Install ServiceNow Studio on every ServiceNow instance where you develop applications, then define your company's access and deployment strategy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/servicenow-studio-instance-strategy.html
-release: australia
+release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2026-05-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Installing ServiceNow Studio, Configure, ServiceNow Studio, Developing your application, Building applications]
 ---
@@ -24,7 +24,7 @@ Define your company's instance strategy for ServiceNow Studio by deciding how to
 
 Use a non-production instance that is configured similarly to your production instance as your test environment. This configuration enables you to identify issues that may appear when the application is deployed to production.
 
-**Note:** If you plan to clone your production instance to one or more non-production instances, install ServiceNow Studio on your production instance before cloning. For more information, see [Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-clone-landing.md).
+**Note:** If you plan to clone your production instance to one or more non-production instances, install ServiceNow Studio on your production instance before cloning. For more information, see [Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-clone-landing.md).
 
 After you establish your instance strategy, complete the following tasks.
 
@@ -32,5 +32,5 @@ After you establish your instance strategy, complete the following tasks.
 2.  Select the non-production environment where ServiceNow Studio will run.
 3.  Determine how to promote apps from your non-production instance to your test instance, and then to production. Deploy apps using update sets, pipelines, or the Application Repository in ServiceNow Studio.
 
-**Parent Topic:**[Installing ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/installing-servicenow-studio.md)
+**Parent Topic:**[Installing ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/installing-servicenow-studio.md)
 

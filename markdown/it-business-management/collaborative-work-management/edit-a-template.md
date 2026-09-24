@@ -3,11 +3,11 @@ title: Update a template in CWM
 description: Update sharing permissions for a Board template or edit the format of a Doc template using the Template Center in Collaborative Work Management \(CWM\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/edit-a-template.html
-release: australia
+release: brazil
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use templates for Boards and Docs, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -64,5 +64,5 @@ You must be the owner of the template to update its details.
     The changes are automatically saved to the template and they are applied to any Docs that you create from this template in the future.
 
 
-**Parent Topic:**[Templates in CWM for Boards and Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/templates-in-cwm-for-spaces-boards-and-docs.md)
+**Parent Topic:**[Templates in CWM for Boards and Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/templates-in-cwm-for-spaces-boards-and-docs.md)
 

@@ -3,11 +3,11 @@ title: Using Resource Management Workspace
 description: Create custom resource board views of persistent portfolios to view the current resource allocation and resource requests for all of your resources and work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/using-rmw.html
-release: australia
+release: brazil
 product: Resource Management
 classification: resource-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 15
 keywords: [resource assignments, resource management, resource allocation]
 breadcrumb: [Use, Resource Management Workspace, Project Portfolio Management, Strategic Portfolio Management]
@@ -17,7 +17,7 @@ breadcrumb: [Use, Resource Management Workspace, Project Portfolio Management, S
 
 Create custom resource board views of persistent portfolios to view the current resource allocation and resource requests for all of your resources and work.
 
-Resource assignments from different planning workspaces are pulled into this dedicated view for Resource Managers to give you an overall work view. Resource Managers can access the dashboard to view the assignment details at high level and [create resource cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rmw-create-rsrc-card.md) to build persistent portfolios and view the resource allocations.
+Resource assignments from different planning workspaces are pulled into this dedicated view for Resource Managers to give you an overall work view. Resource Managers can access the dashboard to view the assignment details at high level and [create resource cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/rmw-create-rsrc-card.md) to build persistent portfolios and view the resource allocations.
 
 Quickly create multiple portfolios using resource cards and navigate between these cards to work on the resource requests. Use the advanced condition builder to customize these portfolios based on the teams, attributes, groups, and so on, to view the resource allocation.
 
@@ -38,7 +38,7 @@ You can edit the dashboard based on:
 
 \[Omitted image "rmw-dashboard.png"\] Alt text: Dashboard view of Resource Management Workspace displaying the resource assignments stats.
 
-For more details about the dashboard, see [Resource dashboard widget details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rmw-dashboard-widget-details.md).
+For more details about the dashboard, see [Resource dashboard widget details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/rmw-dashboard-widget-details.md).
 
 The interactive dashboard creates a resource board for any selected data helping you to directly access the customized board view from the dashboard. For example, if you select the Unassigned tasks widget, this creates and navigates you to a resource board view with the list of unassigned tasks from the widget.
 
@@ -110,9 +110,9 @@ Indicates changes to start or end date, allocated hours, and so on, to the appro
 
     **Note:** If you edit the allocations for any approved group assignment, a confirmation window appears. Once approved, the state is changed to Pending.
 
--   [Assign the unassigned](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/allocate-resources-rmw.md) tasks.
--   [Approve or unapprove](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/allocate-resources-rmw.md) the assigned tasks.
--   [Split a resource assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/split-resource-assignment-rmw.md) into two for one resource at the required date.
+-   [Assign the unassigned](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/allocate-resources-rmw.md) tasks.
+-   [Approve or unapprove](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/allocate-resources-rmw.md) the assigned tasks.
+-   [Split a resource assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/split-resource-assignment-rmw.md) into two for one resource at the required date.
 
 Once you access these resource cards, you get a similar view as the following example with extensive insights.\[Omitted image "rmw-rsrc-portfolio-view.png"\] Alt text: Resource Portfolio view depicting resource allocation and unassigned tasks.
 
@@ -176,7 +176,7 @@ The new heatmap modal gives you the following insights for a resource. These ins
 
 From the preceding example, you can see the breakdown of the approved work items. This includes the rolled up efforts, Utilization percentage, and the Remaining capacity for the month of January 2025. The approved work is within the resource capacity as the remaining capacity is 120 hours. A Resource manager can use these insights to decide and allocate the pending work items to another resource with available effort.
 
-**Important:** Resource efforts calculations are driven by the `com.snc.resource_management.exclude_status_from_capacity` property. Admin can configure this property to calculate efforts for certain defined resource assignments only. For more information, see [Resource Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/r_ResourceProperties.md).
+**Important:** Resource efforts calculations are driven by the `com.snc.resource_management.exclude_status_from_capacity` property. Admin can configure this property to calculate efforts for certain defined resource assignments only. For more information, see [Resource Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/r_ResourceProperties.md).
 
 Using the `com.snc.resource_management.exclude_status_from_capacity` property, Resources managers can customize to view the resource assignments with a specific state in their workspace and what to view in the total allocation modal. For example, you can view resource assignments in either Approved, Unapproved, and Pending resource assignments, or the ones in Approved and Pending states only.
 
@@ -227,7 +227,7 @@ If you group the resource board by **Primary Group**, you see the list of primar
 
 Resource Managers can use this information to plan the resources and manage assignments.
 
-**Tip:** Grouping the resources based on the primary attributes helps Resource Managers to easily reassign the work as the primary attributes should match to reassign work. For more information on how to reassign a work, see [Reassign or unassign work using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rmw-reassign-unassign-work.md).
+**Tip:** Grouping the resources based on the primary attributes helps Resource Managers to easily reassign the work as the primary attributes should match to reassign work. For more information on how to reassign a work, see [Reassign or unassign work using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/rmw-reassign-unassign-work.md).
 
 \[Omitted image "rmw-board-groupby-primary-group.png"\] Alt text: Resource board grouped by Primary Group attribute.
 
@@ -235,34 +235,34 @@ Resource Managers can use this information to plan the resources and manage assi
 
 Capacity is generated only for the date range between employment start date and employment end date specified in the employee profile. This information is available when the Employee Profile plugin is installed. If the start and end date are unavailable for an employee, manually specify these dates.
 
-Availability for terminated resources is automatically updated to 0 when you run the [resource termination handler job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/resource-termination-scheduled-job.md). This update occurs when the termination date is after the date on which the job is run. If resources are booked for a time period beyond the user's termination dates, those bookings are also updated to 0 in the resource assignments.
+Availability for terminated resources is automatically updated to 0 when you run the [resource termination handler job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/resource-termination-scheduled-job.md). This update occurs when the termination date is after the date on which the job is run. If resources are booked for a time period beyond the user's termination dates, those bookings are also updated to 0 in the resource assignments.
 
--   **[Create a resource card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rmw-create-rsrc-card.md)**  
+-   **[Create a resource card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/rmw-create-rsrc-card.md)**  
 Create a custom resource card to view resources and unassigned tasks, and work on resource mapping for your persistent and focused portfolios.
--   **[Create resource assignments in Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/create-ra-rmw.md)**  
+-   **[Create resource assignments and operation resource assignments in Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/create-ra-rmw.md)**  
 Create and assign resource assignments and operation resource assignments from Resource Management Workspace.
--   **[Copy a resource assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/copy-ra-rmw.md)**  
+-   **[Copy a resource assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/copy-ra-rmw.md)**  
 Copy an existing resource assignment to create one with inherited values, then adjust the fields before submitting. This reduces repetitive data entry when similar assignments recur across plans.
--   **[View unassigned tasks using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/view-unassigned-work-rmw.md)**  
+-   **[View unassigned tasks using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/view-unassigned-work-rmw.md)**  
 Filter unassigned tasks to view custom requests to match with your organization's priorities and planning, and assign them to resources.
--   **[Assign unassigned work using Resource finder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/assign-resources-using-resource-finder.md)**  
+-   **[Assign unassigned work using Resource finder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/assign-resources-using-resource-finder.md)**  
 Assign resource using the AI suggestions which match the skill-set and primary attributes requirements.
--   **[Assign and approve unassigned work using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/allocate-resources-rmw.md)**  
+-   **[Assign and approve unassigned work using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/allocate-resources-rmw.md)**  
 Filter the unassigned work to view priority requests and assign them to resources. Quickly connect with the requester via Microsoft Teams to get additional insights and approve the assigned work using the inline editing feature.
--   **[Extend or reduce duration of an assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/extend-reduce-assignment-time-rmw.md)**  
+-   **[Extend or reduce duration of an assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/extend-reduce-assignment-time-rmw.md)**  
 Extend or reduce the duration of an assignment from the grid view in the Resource Management Workspace when the work duration shifts. The system updates the assignment dates and recalculates the allocated effort across the new date range based on the effort redistribution property.
--   **[Edit allocated efforts for tasks with actual hours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/edit-allocated-efforts-ra-rmw.md)**  
+-   **[Edit allocated efforts for tasks with actual hours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/edit-actual-effrots-ra-rmw.md)**  
 Edit allocated efforts for tasks which have partial actual efforts logged directly from the grid view. This keeps reported time accurate without rolling back time entries through other channels.
--   **[Move a resource assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/move-ra-rmw.md)**  
+-   **[Move a resource assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/move-ra-rmw.md)**  
 Move a resource assignment to a different start and end dates depending on the availability of the resource.
--   **[Reassign or unassign work using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rmw-reassign-unassign-work.md)**  
+-   **[Reassign or unassign work using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/rmw-reassign-unassign-work.md)**  
 Reassign or unassign any assigned work from the Resource Management Workspace. You can group the resource board by primary attributes to identify the resources with same primary attributes.
--   **[Split resource assignments using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/split-resource-assignment-rmw.md)**  
+-   **[Split resource assignments using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/split-resource-assignment-rmw.md)**  
 Splitting a resource assignment at a specific date creates a resource assignment for the same user.
--   **[Manage resource allocations in Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/manage-resource-allocations-rmw.md)**  
+-   **[Manage resource allocations in Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/manage-resource-allocations-rmw.md)**  
 Manage resource allocations to change efforts, start and end dates, extend and so on to adjust resources based on their availability and the priority of the tasks.
--   **[Export resource portfolio view to Excel or CSV format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/export-rmw-card-view.md)**  
-Export your resource portfolio view in Resource Management Workspace as Microsoft Excel or CSV format to review or share the resource status with stakeholders. This works even if they don't have access to your instance.
+-   **[Export resource portfolio view to Excel or CSV format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/export-rmw-card-view.md)**  
+Export your resource portfolio view in Resource Management Workspace as Microsoft Excel or CSV format to review or share the resource status with stakeholders, even if they don't have access to your instance.
 
-**Parent Topic:**[Use resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/use-resource-assignment.md)
+**Parent Topic:**[Use resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/use-resource-assignment.md)
 

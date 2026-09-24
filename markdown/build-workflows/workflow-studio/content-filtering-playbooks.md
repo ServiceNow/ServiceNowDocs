@@ -3,11 +3,11 @@ title: Content filtering for Playbook
 description: Specify which content a user can access based on the user's role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/content-filtering-playbooks.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [User access to Playbooks in Workflow Studio, Administering Playbooks, Configure, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -42,7 +42,7 @@ Content filtering rules specify the role that a user must have to access the con
 
 ## Role-based activity definition access
 
-Manage activity definition access by specifying the **Required Roles** to access an activity definition. This overrides any content access filtering. To learn more about roles, see [Playbooks roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-roles.md). To learn more about activity definitions, see [Activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/activity-definitions.md).
+Manage activity definition access by specifying the **Required Roles** to access an activity definition. This overrides any content access filtering. To learn more about roles, see [Playbooks roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/process-automation-designer-roles.md). To learn more about activity definitions, see [Activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/activity-definitions.md).
 
 \[Omitted image "required-roles-activity-def.png"\] Alt text: Required roles field in an activity definition
 
@@ -90,5 +90,5 @@ Activity Definition
     Give users access to the subset of activity definitions in a content definition by assigning the playbook.write role, not the pd\_author role.
 
 
-**Parent Topic:**[User access to Playbooks in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/user-access-playbooks.md)
+**Parent Topic:**[User access to Playbooks in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/user-access-playbooks.md)
 

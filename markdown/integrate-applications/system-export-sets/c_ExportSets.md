@@ -3,11 +3,11 @@ title: Export sets
 description: Export sets enable you to push data from an instance to an external file.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-export-sets/c\_ExportSets.html
-release: australia
+release: brazil
 product: System Export Sets
 classification: system-export-sets
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exports, Workflow Data Fabric]
 ---

@@ -3,11 +3,11 @@ title: Configure an appointment reminder and pre-appointment questionnaire
 description: By default, appointment reminders aren’t sent to the user. To enable appointment reminders, you must configure the appointment reminder in the appointment configuration record. You can also configure the pre-appointment questionnaire for users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/vaccine-administration-management/configure-vaccine-user-questionnaire.html
-release: australia
+release: brazil
 product: Vaccine Administration Management
 classification: vaccine-administration-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Vaccine Administration Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -52,12 +52,12 @@ The appointment reminder sends a reminder email and a pre-appointment questionna
 
     3.  In the Variables related list, create or update variables for the questionnaire.
 
-        For details on how to configure a variable, see [Service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ServiceCatalogVariables.md).
+        For details on how to configure a variable, see [Service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_ServiceCatalogVariables.md).
 
         **Important:** Don’t configure the *task\_id* and *is\_portal* variables.
 
     4.  Click **Update**.
 
 
-**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
+**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
 

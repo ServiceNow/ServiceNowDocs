@@ -3,11 +3,11 @@ title: Begin the lease-end process for an expiring enterprise asset lease contra
 description: Initiate the lease-end process for an expiring enterprise asset lease contract so that you can return the associated enterprise asset, buy out the associated enterprise asset, or extend the lease contract.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/begin-lease-end-process-eam.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing expiring contracts for leased enterprise assets, Create and manage contracts for enterprise assets, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
@@ -41,7 +41,7 @@ The lease-end process for the specified lease contract begins. The Enterprise As
 
 ## What to do next
 
-Complete the Planning task for the lease contract so that you can specify what action you want to take on either the associated enterprise asset or the lease contract itself. See [Complete the Planning task for an expiring enterprise asset lease contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/complete-leased-asset-planning.md) for detailed instructions.
+Complete the Planning task for the lease contract so that you can specify what action you want to take on either the associated enterprise asset or the lease contract itself. See [Complete the Planning task for an expiring enterprise asset lease contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/complete-leased-asset-planning.md) for detailed instructions.
 
-**Parent Topic:**[Managing expiring contracts for leased enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-expiring-contracts-leased-assets.md)
+**Parent Topic:**[Managing expiring contracts for leased enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/managing-expiring-contracts-leased-assets.md)
 

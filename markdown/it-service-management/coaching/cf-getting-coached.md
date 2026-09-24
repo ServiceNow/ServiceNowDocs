@@ -3,11 +3,11 @@ title: Managing your coaching assessments
 description: Employees, or trainees, are assessed on work they have done that has triggered a coaching opportunity. Once assessed, the trainee is assigned training by the coach. Use the Trainee Dashboard to manage your assessments and track results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/coaching/cf-getting-coached.html
-release: australia
+release: brazil
 product: Coaching
 classification: coaching
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Training agents using Coaching with Learning, Coaching, IT Service Management]
 ---
@@ -38,8 +38,8 @@ The Trainee Dashboard lets you manage your assessments and track results.
 |My Survey Results|Survey feedback results of the coach to the trainee.|
 |My Assessment Details|List of active coaching assessments and trainings.|
 
--   **[Work with your coach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-work-with-your-coach.md)**  
+-   **[Work with your coach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/coaching/cf-work-with-your-coach.md)**  
 Use your assessments to work with your coach, including assigned training and due dates. You can view your assessments and track your results using the Trainee Dashboard.
 
-**Parent Topic:**[Training agents using Coaching with Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-train-your-agents.md)
+**Parent Topic:**[Training agents using Coaching with Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/coaching/cf-train-your-agents.md)
 

@@ -3,13 +3,13 @@ title: Case list component
 description: Display a comprehensive list of multiple cases along with their key details to help you manage and act on any case. Once you select any case, you can see the details of the case in the Case View component.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/case-list-component.html
-release: australia
+release: brazil
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure web components, Web Embeddables, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Configure web components, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Case list component

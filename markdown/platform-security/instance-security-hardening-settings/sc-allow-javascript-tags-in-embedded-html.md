@@ -3,11 +3,11 @@ title: Disable JavaScript tags in embedded HTML
 description: Use the glide.ui.security.codetag.allow\_script property to disable support for embedding HTML JavaScript code created using of the \[code\] tag.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-allow-javascript-tags-in-embedded-html.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
@@ -70,7 +70,7 @@ Default value
 
 </td><td>
 
-&lt;none&gt;
+false
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ Category
 
 </td><td>
 
-[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
+[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 
 </td></tr><tr><td>
 
@@ -94,8 +94,8 @@ Security risk
 
 </td><td>
 
--   Severity score:
--   CVSS rating:
+-   Severity score: High
+-   CVSS rating:8.8
 -   Security risk details: Uncontrolled JavaScript risks Cross-Site Scripting \(XSS\) attacks, enabling malicious actors to inject and execute harmful scripts in the user's browser. Such attacks can lead to session hijacking, credential theft, and compromise of sensitive data.
 
 </td></tr><tr><td>
@@ -115,5 +115,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
+</table>**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

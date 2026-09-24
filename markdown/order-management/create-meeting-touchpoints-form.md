@@ -3,9 +3,9 @@ title: Create new meeting form
 description: Field descriptions for editing or reviewing details on the Create New Meeting form for CRM Touchpoints.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-meeting-touchpoints-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Activity Management reference, Sales automation, Reference, Sales Customer Relationship Management]
 ---
@@ -183,10 +183,10 @@ Internal notes
 Post-meeting observations and follow-up actions for internal teams. This field supports rich text formatting.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/activity-management-reference.md)
+</table>**Parent Topic:**[Activity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/activity-management-reference.md)
 
 **Related topics**  
 
 
-[Schedule a meeting from a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/schedule-meeting-touchpoint.md)
+[Schedule a meeting from a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/schedule-meeting-touchpoint.md)
 

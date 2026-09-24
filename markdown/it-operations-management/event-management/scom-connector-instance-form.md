@@ -3,11 +3,11 @@ title: SCOM connector instance form
 description: The SCOM connector instance form displays the fields you must fill in when creating a SCOM connector instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/scom-connector-instance-form.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -232,5 +232,5 @@ Metrics database credential
 Credentials for the metric database. Use JDBC credentials for the local database user. If **Database login with Windows authentication** is selected, this option does not appear.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-management-reference.md)
+</table>**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/event-management-reference.md)
 

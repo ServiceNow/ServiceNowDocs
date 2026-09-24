@@ -3,11 +3,11 @@ title: Workflow tables
 description: For full flexibility, workflows store information over a number of different tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/legacy-workflow/r\_WorkflowTables.html
-release: australia
+release: brazil
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workflow concepts, Classic Workflow, Build workflows]
 ---

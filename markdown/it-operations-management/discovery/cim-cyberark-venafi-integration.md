@@ -3,11 +3,11 @@ title: Certificate management with CyberArk Certificate Manager SaaS
 description: The ServiceNow Certificate Inventory and Management application has been integrated with CyberArk Certificate Manager SaaS for automated certificate life-cycle management, providing centralized certificate provisioning, renewal, and revocation capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cim-cyberark-venafi-integration.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2024-12-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [CyberArk Certificate Manager SaaS integration]
 breadcrumb: [Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
@@ -37,10 +37,10 @@ Automated certificate requests, renewals, and revocations are handled through ro
 
 Certificate operations follow this process:
 
-1.  Configure CyberArk credentials in Certificate Inventory and Management. For more information, see [Configure CyberArk Certificate Manager SaaS credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/configure-cyberark-venafi-creds.md).
-2.  Create routing policies to direct certificate requests to CyberArk. For more information, see [Create routing policies for CyberArk Certificate Manager SaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-routing-policy-cyberark.md).
+1.  Configure CyberArk credentials in Certificate Inventory and Management. For more information, see [Configure CyberArk Certificate Manager SaaS credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/configure-cyberark-venafi-creds.md).
+2.  Create routing policies to direct certificate requests to CyberArk. For more information, see [Create routing policies for CyberArk Certificate Manager SaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/create-routing-policy-cyberark.md).
 3.  Submit certificate requests and monitor certificate life-cycle events through automated flows:
-    -   [Request certificates through CyberArk Certificate Manager SaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/request-cert-cyberark-venafi.md)
-    -   [Renew certificates through CyberArk Certificate Manager SaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/renew-cert-cyberark-venafi.md)
-    -   [Revoke certificates through CyberArk Certificate Manager SaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/revoke-cert-cyberark-venafi.md)
+    -   [Request certificates through CyberArk Certificate Manager SaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/request-cert-cyberark-venafi.md)
+    -   [Renew certificates through CyberArk Certificate Manager SaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/renew-cert-cyberark-venafi.md)
+    -   [Revoke certificates through CyberArk Certificate Manager SaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/revoke-cert-cyberark-venafi.md)
 

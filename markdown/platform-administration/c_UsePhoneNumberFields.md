@@ -3,9 +3,9 @@ title: Phone number field type
 description: The E.164 phone number standard ensures that all necessary information for a phone number is included and properly formatted to successfully route an international call over a territory's public telephone network.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_UsePhoneNumberFields.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -23,5 +23,5 @@ An E.164 phone number field displays:
 -   \[By Default\] A red underline when a phone number does not match the format for the selected phone territory and cannot be saved.
 -   \[Optional\] A green underline when a phone number does not match the format for the selected phone territory but can be saved with **Other / Unknown** as the territory.
 
-\[Omitted image "PhoneE164.png"\] Alt text: A Caller Phone Number field with a drop-down menu for phone number territory and an input box for entering the phone number.
+\[Omitted image "PhoneE164.png"\] Alt text:
 

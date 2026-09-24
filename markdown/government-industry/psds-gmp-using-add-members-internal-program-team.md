@@ -3,7 +3,7 @@ title: Add members to a Grant Program internal program team
 description: Add members of the Internal Grant Program team who will be responsible for administering this program. Designate a program approver, lead and co-lead, collaborators, and observers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-gmp-using-add-members-internal-program-team.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
@@ -22,7 +22,7 @@ The Internal Team plays a crucial role in supporting the Grant Program Manager t
 
 These are different than points of contact that potential applicants can reach out to during the proposal phase.
 
-To add public-facing points of contact that potential applicants can reach out to, see [Add points of contact to a Grant Program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-gmp-pgr-announcement.md).
+To add public-facing points of contact that potential applicants can reach out to, see [Add points of contact to a Grant Program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-using-gmp-pgr-announcement.md).
 
 ## Before you begin
 
@@ -50,9 +50,9 @@ To add a user as an Internal Team Member, an Employee Profile must be created.
 
 4.  Select the role responsibility that the user will play within the grant program.
 
-    By default, you can assign the following role responsibilities to users within the internal program team. These internal team member personas have been identified as generic roles across government grant spaces. For more information on how to customize these, see [Configure custom internal program team roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-internal-program-roles.md).
+    By default, you can assign the following role responsibilities to users within the internal program team. These internal team member personas have been identified as generic roles across government grant spaces. For more information on how to customize these, see [Configure custom internal program team roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-internal-program-roles.md).
 
-    To add members to this team, a user record must already have been created within the grants organization. This does not modify roles at a user level. For more information on user roles and responsibilities, see [Assign user personas, roles, groups, and responsibilities in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-assign-user-roles-responsibilities.md).
+    To add members to this team, a user record must already have been created within the grants organization. This does not modify roles at a user level. For more information on user roles and responsibilities, see [Assign user personas, roles, groups, and responsibilities in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-assign-user-roles-responsibilities.md).
 
 5.  Select **Save**.
 

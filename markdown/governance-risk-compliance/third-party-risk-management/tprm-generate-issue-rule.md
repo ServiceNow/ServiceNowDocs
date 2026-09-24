@@ -3,11 +3,11 @@ title: Create an issue generation rule
 description: Create an issue generation rule that will automatically create an issue based on question responses to external assessments. Issues help ensure that your concerns about a third party or engagement are remediated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-generate-issue-rule.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Classic assessments, Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -130,10 +130,12 @@ After the TPR assessor moves the state of the assessment to the Generating Obser
 
 The TPR assessor can navigate to the Issues tab of the External assessment in the Vendor Management Workspace to view generated issues.
 
+**Note:** Starting with version 23.0.x, an issue generation rule doesn't create an issue for a question that has a visibility condition and wasn't visible to the respondent.
+
 **Related topics**  
 
 
-[Assessing your third-party risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-assessing-tpr.md)
+[Assessing your third-party risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-assessing-tpr.md)
 
-[Create an issue for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-issue-create.md)
+[Create an issue for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-issue-create.md)
 

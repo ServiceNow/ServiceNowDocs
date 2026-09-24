@@ -3,11 +3,11 @@ title: Set agent status from the mobile UI
 description: Field service agents can indicate their status from the mobile UI and let dispatchers know if they are ahead of schedule, behind schedule, or on time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/set-agent-status-mobile-ui.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Assigning tasks using Dynamic Scheduling, Scheduling and dispatching, Use, Field Service Management]
 ---

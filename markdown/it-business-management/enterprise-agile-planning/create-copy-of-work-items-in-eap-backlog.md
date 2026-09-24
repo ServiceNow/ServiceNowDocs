@@ -3,11 +3,11 @@ title: Create a copy of work items in EAP Backlog
 description: For creating work items with details similar to an existing item, save time and effort by creating a copy of the existing item.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/create-copy-of-work-items-in-eap-backlog.html
-release: australia
+release: brazil
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage team backlog, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ For creating work items with details similar to an existing item, save time and 
 
 ## Before you begin
 
-[Create work items for teams in EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-work-items-for-teams-in-eap-backlog.md).
+[Create work items for teams in EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/create-work-items-for-teams-in-eap-backlog.md).
 
 Role required: sn\_apw\_advanced.eap\_user
 
@@ -41,14 +41,14 @@ A copy of the selected work item is created, with the information in the require
 
 ## What to do next
 
-From the full details page of the work item, you can refine the description with Now Assist. See [Improve efficiency and quality using refine records skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/refine-text-with-write-planning-item-skill.md). This feature requires activating the Write planning item skill of ServiceNow Otto for SPM.
+From the full details page of the work item, you can refine the description with Now Assist. See [Improve efficiency and quality using refine records skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/product-feedback/refine-text-with-write-planning-item-skill.md). This feature requires activating the Write planning item skill of ServiceNow Otto for SPM.
 
-**Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/using-eap.md)
+**Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/using-eap.md)
 
 **Related topics**  
 
 
-[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/using-eap.md)
+[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/using-eap.md)
 
-[Schedule work items into iterations in EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/schedule-work-items-into-iterations-in-eap-backlog.md)
+[Schedule work items into iterations in EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/schedule-work-items-into-iterations-in-eap-backlog.md)
 

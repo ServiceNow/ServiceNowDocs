@@ -3,9 +3,9 @@ title: View all business roles
 description: View all available business roles to understand organizational structure and role relationships in Enterprise Architecture Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-all-business-roles.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [business roles, enterprise architecture, portfolio]
 breadcrumb: [Manage business roles, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
@@ -34,10 +34,10 @@ Role required: sn\_apm.apm\_user
 
 The business roles list displays with columns for name, description, department, parent role, group, and required skills. You can select any role to view details or edit its properties.
 
-**Parent Topic:**[Manage business roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-business-roles.md)
+**Parent Topic:**[Manage business roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-manage-business-roles.md)
 
 **Related topics**  
 
 
-[Add or edit a business role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-or-edit-a-business-role.md)
+[Add or edit a business role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-add-or-edit-a-business-role.md)
 

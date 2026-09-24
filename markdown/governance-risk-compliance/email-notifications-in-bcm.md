@@ -3,9 +3,9 @@ title: Email notifications in Business Continuity Management
 description: Email notifications are sent by the Business Continuity Management \(BCM\) application at different points in the Business Impact Analysis, planning, exercise, and crisis management lifecycle.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/email-notifications-in-bcm.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-07-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [BCM, email, notifications]
 breadcrumb: [Reference, Business Continuity Management, Governance, Risk, and Compliance]
@@ -17,7 +17,7 @@ Email notifications are sent by the Business Continuity Management \(BCM\) appli
 
 ## Email notifications
 
-An admin can modify email notifications to change when to send it, who receives it, and what it contains. For more information, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
+An admin can modify email notifications to change when to send it, who receives it, and what it contains. For more information, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateANotification.md).
 
 The following tables describe the notifications, recipients, roles, and the associated conditions provisioned in the BCM application.
 
@@ -167,5 +167,5 @@ Recipient: Not a stored field. Recipients are computed at send time: either the 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[BCM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-reference.md)
+**Parent Topic:**[BCM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/bcm-reference.md)
 

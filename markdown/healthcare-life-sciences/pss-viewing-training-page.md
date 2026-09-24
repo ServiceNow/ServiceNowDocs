@@ -3,9 +3,9 @@ title: Viewing the home page for enrollment-related training tasks in Workspace
 description: As a nurse educator, you can use the home page of the Workspace to quickly scan and access training requests for an enrollment program.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pss-viewing-training-page.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage enrollment requests, Patient Support Services, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -42,9 +42,9 @@ As a nurse educator, you can perform the following tasks from the home page of t
 
 As a nurse educator, you can view the following sections in the Workspace by default:
 
--   [My Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-viewing-training-page.md)
--   [Tasks by State](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-viewing-training-page.md)
--   [My Team's tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-viewing-training-page.md)
+-   [My Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pss-viewing-training-page.md)
+-   [Tasks by State](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pss-viewing-training-page.md)
+-   [My Team's tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pss-viewing-training-page.md)
 
 **Note:** Your administrator can customize the home page for Workspace and change the data that appears on it.
 

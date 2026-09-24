@@ -3,11 +3,11 @@ title: Name change of customer workflow
 description: Learn how agents, using the Name change workflow, resolve service requests for a change in customer's name. The workflow applies to Client Lifecycle service requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-customer-lifecycle-operations/name-change-workflow.html
-release: australia
+release: brazil
 product: Financial Services Customer Lifecycle Operations
 classification: financial-services-customer-lifecycle-operations
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workflows, Use, Customer Lifecycle Operations, Common applications, Financial Services Operations \(FSO\)]
 ---

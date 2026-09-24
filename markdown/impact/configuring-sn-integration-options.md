@@ -3,11 +3,11 @@ title: Configure ServiceNow user story integration
 description: Configure the ServiceNow instance user story integration to create stories in a production instance directly from finding records on a non-production instance.TScript variables and leading practices for writing field mapping scripts in the ServiceNow instance user story integration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/configuring-sn-integration-options.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [User story integration, Configure Scan Engine integrations, Configuring Impact, Impact]
+breadcrumb: [User story integration, Configure Scan Engine integrations, Activate Scan Engine and review settings, Impact Guided Setup, Configuring Impact, Impact]
 ---
 
 # Configure ServiceNow user story integration
@@ -16,7 +16,7 @@ Configure the ServiceNow instance user story integration to create stories in a 
 
 ## Before you begin
 
--   My SN Instances registration and validation must be complete for each instance in this integration. A source instance \(such as development\) and target instance \(such as production\) must be declared and validated. If those instances aren't created and validated, the stories will not be created in the target instance. See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/register-your-instance.md).
+-   My SN Instances registration and validation must be complete for each instance in this integration. A source instance \(such as development\) and target instance \(such as production\) must be declared and validated. If those instances aren't created and validated, the stories will not be created in the target instance. See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/register-your-instance.md).
 -   The User Story Table must exist on both the source and target instances before configuring field mappings.
 
 Role required: Scan Engine Admin \(sn\_se.scan\_engine\_admin\).
@@ -33,10 +33,10 @@ Role required: Scan Engine Admin \(sn\_se.scan\_engine\_admin\).
 
 4.  Define field mappings in **User Story Field Mapping**.
 
-    The mapping script executes once on the Source instance and once on the Target instance. Use the available script variables to control behavior in each context. See [ServiceNow integration script leading practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-sn-integration-options.md) guidance on writing effective field mapping scripts.
+    The mapping script executes once on the Source instance and once on the Target instance. Use the available script variables to control behavior in each context. See [ServiceNow integration script leading practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configuring-sn-integration-options.md) guidance on writing effective field mapping scripts.
 
 
-**Parent Topic:**[User story integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/user-story-integration-properties.md)
+**Parent Topic:**[User story integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/user-story-integration-properties.md)
 
 ## ServiceNow integration script leading practices
 

@@ -3,11 +3,11 @@ title: Duplicate an agentic AI asset
 description: Duplicate an agentic AI asset to create an identical copy that you can fine-tune with distinct instructions and tools.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/clone-ai-asset-new.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [AI Agent Studio, Enable AI experiences]
+breadcrumb: [AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Duplicate an agentic AI asset

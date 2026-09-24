@@ -3,11 +3,11 @@ title: Issue Relationship Configuration form
 description: Use the Issue Relationship Configuration form in the GRC application to automatically link a destination record with an issue when it’s linked to the source record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/issue-relationship-configuration-fields.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Steps to configure an issue relationship, Configure an issue relationship, Issues in the Workspace, Manage issues, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -70,5 +70,5 @@ Destination field that contains the object that is linked to the issue in the **
 -   **Source object**: It’s the original object that is linked to an issue manually.
 -   **Destination object**: It’s the object that is automatically linked to the issue due to the issue relationship configuration.
 
-**Parent Topic:**[Configure an issue relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/enable-or-disable-issue-relationship-configuration.md)
+**Parent Topic:**[Configure an issue relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/enable-or-disable-issue-relationship-configuration.md)
 

@@ -3,11 +3,11 @@ title: Create a navigation menu block
 description: Navigation menu blocks enable you to create a menu of links to different content pages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_CreateNavigationMenuBlock.html
-release: australia
+release: brazil
 product: Content Management System
 classification: content-management-system
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Types of content blocks, Content blocks, Configure Content Management sites, Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -54,14 +54,14 @@ The following three objects define navigation menus.
     |Category|Select a category to provide organization for the navigation menu block. The category also determines the detail page in which menu links open.|
 
 
--   **[Configure menu sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_ConfigureMenuSections.md)**  
+-   **[Configure menu sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/t_ConfigureMenuSections.md)**  
 Menu sections define groups of links displayed within the navigation menu block.
--   **[Menu types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/r_MenuTypes.md)**  
+-   **[Menu types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/r_MenuTypes.md)**  
 By changing the **Type** field on the navigation menu block, you can format the same menu in different ways.
--   **[Example menu items and content links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_NavigationMenusAndContentLinks.md)**  
+-   **[Example menu items and content links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/c_NavigationMenusAndContentLinks.md)**  
 The method for choosing a link target \(current window, iFrame, or new window\) and referencing the item linked \(page, attachment, or URL\) are similar. Review examples of how to link within these elements.
 
-**Parent Topic:**[Types of content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/r_TypesOfContentBlocks.md)
+**Parent Topic:**[Types of content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/r_TypesOfContentBlocks.md)
 
 **Related topics**  
 
@@ -82,5 +82,5 @@ The method for choosing a link target \(current window, iFrame, or new window\) 
 
 [Configure a detailed content block]()
 
-[Menu style customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_CustomizeTheMenuStyle.md)
+[Menu style customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/c_CustomizeTheMenuStyle.md)
 

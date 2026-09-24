@@ -3,11 +3,11 @@ title: Migrate the UI component from ITSM Agent Workspace to Service Operations 
 description: Configure the UI component to migrate list actions from ITSM Agent Workspace to Service Operations Workspace \(SOW\) for ITSM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/migrate-list-ui-component-from-aw-to-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [List actions migration from ITSM Agent Workspace to Service Operations Workspace for ITSM, Configure and customize the migration to SOW, Migrate from ITSM Agent Workspace to Service Operations Workspace for ITSM, Migration from ITSM Agent Workspace to Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Configure the UI component to migrate list actions from ITSM Agent Workspace to 
 
 ## Before you begin
 
-When performing the migration, you must have selected the **List actions** option for ITSM Agent Workspace features. For example, the **List actions** option for List. For information about the migration process, see [Migrate from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/migrate-itsm-agent-workspace-to-sow.md).
+When performing the migration, you must have selected the **List actions** option for ITSM Agent Workspace features. For example, the **List actions** option for List. For information about the migration process, see [Migrate from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/migrate-itsm-agent-workspace-to-sow.md).
 
 Role required: admin
 
@@ -106,7 +106,7 @@ At the end of the migration process, a confirmation message specifies if the mig
 
     4.  If the record isn’t found with the table, remove the table filter and search for `targetPayload contains route=mra or interceptor`.
 
-        For **List** and **Field** decorator, you must add the MRA and interceptor add-on event mappings manually. For more information, see [Create a UX add-on event mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-a-ux-add-on-event-mapping.md).
+        For **List** and **Field** decorator, you must add the MRA and interceptor add-on event mappings manually. For more information, see [Create a UX add-on event mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/create-a-ux-add-on-event-mapping.md).
 
     **Note:**
 
@@ -119,5 +119,5 @@ At the end of the migration process, a confirmation message specifies if the mig
     For a Change Request \[change\_request\] table that has a value as standard, Active is set as False when migrating the records from ITSM Agent Workspace to SOW.
 
 
-**Parent Topic:**[List actions migration from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/list-actions-migration-itsm-aw-sow.md)
+**Parent Topic:**[List actions migration from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/list-actions-migration-itsm-aw-sow.md)
 

@@ -3,9 +3,9 @@ title: Create an email layout
 description: Create an email layout to specify the HTML content you want to appear in the body of one or more email templates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-email-layout.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Email layouts, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -77,7 +77,7 @@ Layout
 
 </td><td>
 
-Use the inline editor to add HTML elements. The system displays HTML from this field in the body of any email template that uses the layout. Include notification variables to show content from the related record. For more information notification variables see [Notification variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/notification-variables.md).
+Use the inline editor to add HTML elements. The system displays HTML from this field in the body of any email template that uses the layout. Include notification variables to show content from the related record. For more information notification variables see [Notification variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/notification-variables.md).
 
  **Note:** The editor automatically formats any HTML code you enter from the **Source code** view.
 
@@ -111,5 +111,5 @@ Use this field to manually enter HTML code. The system displays HTML from this f
     The email template uses the selected email layout to format the body of email messages.
 
 
-**Parent Topic:**[Email layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-layouts.md)
+**Parent Topic:**[Email layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/email-layouts.md)
 

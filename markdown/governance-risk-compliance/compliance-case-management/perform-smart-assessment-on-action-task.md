@@ -3,11 +3,11 @@ title: Perform smart assessment on action tasks
 description: Use the Tasks page on the Employee Center for a consolidated view of all your tasks, including all assessments, enabling you to access and complete them efficiently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/perform-smart-assessment-on-action-task.html
-release: australia
+release: brazil
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Compliance Case Management, Governance, Risk, and Compliance]
 ---
@@ -52,5 +52,5 @@ When a compliance case action task moves from **Draft** to **Assigned** state, a
 
 After the assessment is submitted, the state of the assessment gets updated to **Review** and the status of the assessment is set to **Completed**. A compliance case analyst reviews the assessment and updates the state of the assessment to **Closed Complete**.
 
-**Parent Topic:**[Using Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/use-compliance-case-management.md)
+**Parent Topic:**[Using Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/use-compliance-case-management.md)
 

@@ -3,9 +3,9 @@ title: Manage scheduled maintenance days in RPA Hub
 description: Track scheduled maintenance days on the Robot Calendar tab to manage your current and future automations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/manage-sm-request-rpa.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Scheduled maintenance days, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,14 +16,14 @@ Track scheduled maintenance days on the **Robot Calendar** tab to manage your cu
 
 ## Before you begin
 
-Ensure you’re familiar with scheduled maintenance days concepts. For more information, see [Scheduled maintenance days in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/sm-days-rpa.md).
+Ensure you’re familiar with scheduled maintenance days concepts. For more information, see [Scheduled maintenance days in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/sm-days-rpa.md).
 
-Create a change request from the **Change** module. For more information, see [Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/t_CreateAChange.md). Ensure to do the following tasks while creating a change request:
+Create a change request from the **Change** module. For more information, see [Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/t_CreateAChange.md). Ensure to do the following tasks while creating a change request:
 
 -   On the Change Request \(CR\) form, in the **Configuration item** field, select the associated bot process, robot, or machine \(for which the robot is associated when a machine name look up is enabled\). Also, select an assignment group.
 -   On the Schedule tab, enter the planned scheduled maintenance start and end dates along with time, in **Planned start date** and **Planned end date** fields, respectively. Ensure that the **Planned start date** is not empty.
 -   After you save the change request, select **Request Approval** to move it to the Assess state.
--   Next, approve the change request. For more information, see [Process a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/t_ProcessAChangeRequest.md). To view the scheduled maintenance on a robot calendar, the change request can either be in either Scheduled, Implement, or Review states.
+-   Next, approve the change request. For more information, see [Process a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/t_ProcessAChangeRequest.md). To view the scheduled maintenance on a robot calendar, the change request can either be in either Scheduled, Implement, or Review states.
 
 Ensure to enable the **sn\_rpa\_fdn.enable\_unattended\_robot\_machine\_name\_lookup** system property, to map the robot to the virtual machine.
 
@@ -129,12 +129,12 @@ If the MR is In Progress state, it is updated to complete state. If the MR is in
     3.  In the **Activity** and **Compose** fields, view the notifications of the source of the CI from where it is published or is in use.
 
 
-**Parent Topic:**[Scheduled maintenance days in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/sm-days-rpa.md)
+**Parent Topic:**[Scheduled maintenance days in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/sm-days-rpa.md)
 
 **Related topics**  
 
 
-[View maintenance requests in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/view-mr-rpa.md)
+[View maintenance requests in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/view-mr-rpa.md)
 
-[Maintenance request form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/view-mr-rpa.md)
+[Maintenance request form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/view-mr-rpa.md)
 

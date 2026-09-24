@@ -3,11 +3,11 @@ title: Add risks for a demand
 description: Add a risk to a demand to identify, analyze, prioritize, plan, and track a risk during any phase of the demand life cycle. Assess potential problems and the severity of their impact to take informed decisions about the demand.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/add-risks-for-demand.html
-release: australia
+release: brazil
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) records, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -34,18 +34,18 @@ A risk is any uncertain event that can potentially impact the success or outcome
 
 4.  On the Risk form, fill in the fields.
 
-    For a description of the field names, see [Risk form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/risk-form.md).
+    For a description of the field names, see [Risk form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/risk-form.md).
 
 5.  Select **Submit**.
 
 
 ## What to do next
 
--   Convert an existing risk to an issue, decision, action, or request change and close the risk. For more information, see [Convert one RIDAC record to another for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/convert-ridac-for-demand.md).
--   Associate the risk with existing issues so you can track dependencies and recognize trends for the future. For more information, see [Associate existing RIDAC records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/reassociate-ridac-demand.md).
+-   Convert an existing risk to an issue, decision, action, or request change and close the risk. For more information, see [Convert one RIDAC record to another for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/convert-ridac-for-demand.md).
+-   Associate the risk with existing issues so you can track dependencies and recognize trends for the future. For more information, see [Associate existing RIDAC records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/reassociate-ridac-demand.md).
 
--   **[Configure a custom Risk rank and Risk value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/risk-value-lookup.md)**  
+-   **[Configure a custom Risk rank and Risk value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/risk-value-lookup.md)**  
 Configure custom risk rank and value scores \(such as High-Medium, Medium-Low, or Absolute-Low\) to rate the impact and probability factors for a risk.
 
-**Parent Topic:**[RIDACs records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/ridac-entries-for-demand.md)
+**Parent Topic:**[RIDACs records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/ridac-entries-for-demand.md)
 

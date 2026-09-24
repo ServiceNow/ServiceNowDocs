@@ -3,9 +3,9 @@ title: Configure Data Collection for APM
 description: Configure Data Collection for APM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/dc-apm-config.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Impact Value Management Data Collection for APM, Enable data collection for Value Management, Configuring Impact, Impact]
 ---
@@ -29,5 +29,5 @@ Role required: admin, pa\_power\_user, pa\_admin, or pa\_data\_collector
     \[Omitted image "dct\_config\_apm.png"\] Alt text: Example with Jul 2024 cell selected with an Indicator score of 3,000.
 
 
-**Parent Topic:**[Impact Value Management Data Collection for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-apm.md)
+**Parent Topic:**[Impact Value Management Data Collection for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-apm.md)
 

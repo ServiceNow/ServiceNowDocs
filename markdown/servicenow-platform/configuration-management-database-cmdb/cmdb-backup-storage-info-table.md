@@ -3,11 +3,11 @@ title: Backing up CMDB data
 description: The cmdb\_backup\_storage\_information table \(part of the \[app-cmdb-content\] ServiceNow Store application\) holds generic backup storage information for a CI as a platform related item. The table includes a CI as a reference attribute and stores information for hardware, cloud, containers, and other CI types.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-backup-storage-info-table.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---

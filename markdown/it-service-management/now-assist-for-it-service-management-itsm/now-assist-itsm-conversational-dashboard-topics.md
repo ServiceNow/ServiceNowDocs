@@ -3,14 +3,14 @@ title: ITSM Virtual Agent topics analytics
 description: Analyze the pattern of interactions when users ask questions using the ITSM Virtual Agent. Use the Topics analytics to identify trending topics, view detailed topic information, and understand user interaction patterns across your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-conversational-dashboard-topics.html
-release: australia
+release: brazil
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2026-07-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Now Assist, agentic AI, generative AI, Gen AI]
-breadcrumb: [Who is On Call, Use ITSM Virtual Agent analytics dashboard, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Track metrics, Use ITSM Virtual Agent analytics dashboard, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # ITSM Virtual Agent topics analytics

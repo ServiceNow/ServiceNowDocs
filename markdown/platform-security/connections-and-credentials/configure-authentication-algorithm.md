@@ -3,11 +3,11 @@ title: Configure an authentication algorithm
 description: Configure an authentication algorithm so that you can sign outbound HTTP requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/configure-authentication-algorithm.html
-release: australia
+release: brazil
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication Algorithms, Connections and Credentials, Access Management]
 ---

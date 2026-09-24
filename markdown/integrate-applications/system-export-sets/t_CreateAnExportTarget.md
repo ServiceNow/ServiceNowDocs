@@ -3,11 +3,11 @@ title: Create an export target
 description: Define where to export data to by creating an export target.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-export-sets/t\_CreateAnExportTarget.html
-release: australia
+release: brazil
 product: System Export Sets
 classification: system-export-sets
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Export sets, Exports, Workflow Data Fabric]
 ---
@@ -22,7 +22,7 @@ Role required: export\_set\_admin
 
 ## About this task
 
-You must use a MID Server as the export destination. For more information on MID Server configuration, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md).
+You must use a MID Server as the export destination. For more information on MID Server configuration, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-landing.md).
 
 ## Procedure
 

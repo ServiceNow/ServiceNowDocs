@@ -3,11 +3,11 @@ title: Create and run manual value jobs
 description: Set up manual value jobs for AI systems that you onboard manually, so that the AI Control Tower calculates their value on a monthly or quarterly cadence.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mv-create-and-run-manual-value-jobs.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
-breadcrumb: [Value, Configure, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
+breadcrumb: [Value, Configure, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create and run manual value jobs
@@ -26,11 +26,11 @@ Some AI systems don't have discovery integration but still need to be managed in
 
 1.  Onboard the AI system manually through the inventory intake form.
 
-    Complete the intake form details, follow the asset onboarding lifecycle, and map a value template. For more information, see [Creating AI assets manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/creating-ai-assets-newexperience.md).
+    Complete the intake form details, follow the asset onboarding lifecycle, and map a value template. For more information, see [Creating AI assets manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/creating-ai-assets-newexperience.md).
 
 2.  Create the manual indicators with a monthly or quarterly cadence.
 
-    The AI Control Tower derives the run cadence from the indicator type. A monthly indicator runs as a monthly job, and a quarterly indicator runs as a quarterly job to capture productivity gains. For more information, see [Manual indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/t_CreateAManualIndicator.md).
+    The AI Control Tower derives the run cadence from the indicator type. A monthly indicator runs as a monthly job, and a quarterly indicator runs as a quarterly job to capture productivity gains. For more information, see [Manual indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/t_CreateAManualIndicator.md).
 
 3.  Rerun a scheduled value job.
 

@@ -3,11 +3,11 @@ title: Operational Technology Vulnerability Response \(PA\) dashboard breakdowns
 description: The Operational Technology Vulnerability Response uses breakdowns to filter and group the collected records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/breakdowns-otvr-pa-dashboard.html
-release: australia
+release: brazil
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Industrial Workspace, Operational Technology]
 ---
@@ -130,5 +130,5 @@ The following breakdown sources apply to the indicators on the dashboard for vul
     Vulnerable item reports.
 
 
-**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/using-industrial-workspace.md)
+**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/using-industrial-workspace.md)
 

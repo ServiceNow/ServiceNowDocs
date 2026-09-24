@@ -3,11 +3,11 @@ title: Quick start tests for Essential SAFe
 description: Validate that Essential SAFe still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/quick-start-tests-essentialSAFe.html
-release: australia
+release: brazil
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -66,7 +66,7 @@ Essential SAFe: Feature tests
 
 </td><td>
 
-If the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) is active, verify that a Demand can be converted to a SAFe feature using the **Create SAFe Feature** related link on the Demand form. For more information on how to create an SAFe feature from a demand, see [Create an artifact from a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CrtArtftDmdMnu.md).
+If the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) is active, verify that a Demand can be converted to a SAFe feature using the **Create SAFe Feature** related link on the Demand form. For more information on how to create an SAFe feature from a demand, see [Create an artifact from a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/t_CrtArtftDmdMnu.md).
 
 </td><td>
 
@@ -174,7 +174,7 @@ Essential SAFe: Story tests
 
 </td><td>
 
-If the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) is active, verify that a Demand can be converted to a SAFe story using the **Create SAFe Story** related link on the Demand form. For more information on how to create a SAFe story from a demand, see [Create an artifact from a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CrtArtftDmdMnu.md).
+If the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) is active, verify that a Demand can be converted to a SAFe story using the **Create SAFe Story** related link on the Demand form. For more information on how to create a SAFe story from a demand, see [Create an artifact from a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/t_CrtArtftDmdMnu.md).
 
 </td><td>
 
@@ -214,7 +214,7 @@ Essential SAFe: Epic tests
 
 </td><td>
 
-If the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) is active, verify that a Demand can be converted to a SAFe epic using the **Create SAFe Epic** related link on the Demand form.For more information on how to create a SAFe epic agile from a demand, see [Create an artifact from a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CrtArtftDmdMnu.md).
+If the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) is active, verify that a Demand can be converted to a SAFe epic using the **Create SAFe Epic** related link on the Demand form.For more information on how to create a SAFe epic agile from a demand, see [Create an artifact from a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/t_CrtArtftDmdMnu.md).
 
 </td><td>
 
@@ -242,14 +242,14 @@ Essential SAFe: Team PI Objective tests
 
 Verify the functionality of creating and updating team PI Objectives-   Verify that you can create a team-level PI objective
 -   Verify that you can update the created PI objective with the planned business value \(PBV\) and actual business value \(ABV\)
--   Verify that the percentage of business value achieved is computed as the percentage of ABV complete for committed PI objectives compared to the team PBV in the PI
+-   Verify that the percentage of business value achieved is computed as the percentage of ABV complete for committed PI objectives compared to team PBV
 
 </td><td>
 
 Rome
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/essential-overview.md)
+</table>**Parent Topic:**[Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/essential-overview.md)
 
 **Related topics**  
 
@@ -264,5 +264,5 @@ Rome
 
 [SAFe Board — Team level]()
 
-[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/quick-start-tests.md)
+[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/quick-start-tests.md)
 

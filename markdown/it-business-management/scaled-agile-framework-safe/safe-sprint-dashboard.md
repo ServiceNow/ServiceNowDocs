@@ -3,11 +3,11 @@ title: SAFe Sprint Dashboard
 description: Track the progress of your SAFe stories in the current sprint and forecast sprint completion using the SAFe Sprint Dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/safe-sprint-dashboard.html
-release: australia
+release: brazil
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Performance Analytics Content Pack for Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -110,7 +110,7 @@ safe\_scrum\_user
 
     Indicates the committed scope \(in number of story points\) of the sprint. Together with the adjacent Scope widget, these widgets let you see difference between the scope committed at the start of the sprint and the current scope of the sprint.
 
-    **Note:** This widget is not visible by default. You can add it from Reports to your dashboard. For more information, see [Edit a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/t_EditADashboard.md).
+    **Note:** This widget is not visible by default. You can add it from Reports to your dashboard. For more information, see [Edit a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/t_EditADashboard.md).
 
 -   **Blocked Work**
 
@@ -130,7 +130,7 @@ If you are upgrading from version 1.0.2 or earlier of Performance Analytics Cont
 -   Sprint Burnup
 -   Sprint Cumulative Flow Diagram
 
-For more information, see [Using Solution Library for Essential SAFe dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/using-solution-library-for-essential-safe-dashboards.md).
+For more information, see [Using Solution Library for Essential SAFe dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/using-solution-library-for-essential-safe-dashboards.md).
 
 <table id="table_mbk_ndk_k3b"><thead><tr><th>
 
@@ -209,7 +209,7 @@ Monitor the progress of all the stories of your sprint between its actual start 
  **Note:** Stories in Ready and Cancelled states are not included in this report.
 
 </td></tr></tbody>
-</table>You can customize the Burnup, Burndown, and Cumulative Flow Diagram reports. For more information, see [Customizing Essential SAFe dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/customizing-safe-dashboard-reports.md).
+</table>You can customize the Burnup, Burndown, and Cumulative Flow Diagram reports. For more information, see [Customizing Essential SAFe dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/customizing-safe-dashboard-reports.md).
 
-**Parent Topic:**[Performance Analytics Content Pack for Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/pa-content-pack-essential-safe.md)
+**Parent Topic:**[Performance Analytics Content Pack for Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/pa-content-pack-essential-safe.md)
 

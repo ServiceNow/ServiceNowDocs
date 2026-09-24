@@ -3,11 +3,11 @@ title: Extend TNI entity support for duplicated ETLs
 description: When Telecom Network Inventory \(TNI\) is enabled, every Configuration Item \(CI\) created by a duplicated ETL must have a corresponding TNI Entity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/configuring-tni-entiry-support-for-duplicated-etls.html
-release: australia
+release: brazil
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Telecom Discovery Builder, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---

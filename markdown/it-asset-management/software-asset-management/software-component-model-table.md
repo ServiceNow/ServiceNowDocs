@@ -3,13 +3,13 @@ title: Software Component Model table
 description: The Software Component Model \[cmdb\_software\_component\_model\] table stores component model records that serves industries and use cases across different solutions on the ServiceNow Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/software-component-model-table.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software Component Model table
@@ -36,7 +36,7 @@ A script runs to generate software component models from the normalized discover
 
 Two records are created in the Software Model Component table when a FULL version and a MAJOR version exist for the normalized discovery model. However, only one record is created if only the MAJOR version exists.
 
-You can also manually create a software component model record in the Software Component Model \[cmdb\_software\_component\_model\] table. If you have the Software Asset Management Foundation plugin or the Software Asset Management Professional application while creating the record, you can reference the Software Product \[samp\_sw\_product\] table. If you are not using the Software Asset Management application, you need to type in the software product name.
+You can also manually create a software component model record in the Software Component Model \[cmdb\_software\_component\_model\] table. If you have the Basic Software Asset Management or the Software Asset Management Professional application while creating the record, you can reference the Software Product \[samp\_sw\_product\] table. If you are not using the Software Asset Management application, you need to type in the software product name.
 
 ## Upgrade information
 
@@ -44,7 +44,7 @@ When you upgrade to Zurich release and later releases, the scheduled job, **SAM 
 
 After the upgrade, every time a new discovery model is normalized, the business rule,**Create software component model** that runs on the Software discovery model \[cmdb\_sam\_sw\_discovery\_model\] table gets triggered and automatically creates new software component model records for the new normalized discovery models.
 
-**Note:** The Software Discovery Model table is available if you have Software Asset Management Foundation plugin or the Software Asset Management Professional application running on your ServiceNow instance.
+**Note:** The Software Discovery Model table is available if you have Basic Software Asset Management or the Software Asset Management Professional application running on your ServiceNow instance.
 
 ## Discovery model considerations
 
@@ -54,5 +54,5 @@ The following are some considerations to keep in mind for discovery models:
 -   Model deletion or modification: If you delete or modify a software component model, the system won't recreate it from the original discovery model.
 -   Manual re-normalization: When a discovery model is manually normalized with new values, the existing software component model remains as is. The system creates a new software component model only if one does not already exist.
 
-**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

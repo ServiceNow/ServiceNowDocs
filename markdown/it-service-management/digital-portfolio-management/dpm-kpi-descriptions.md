@@ -3,11 +3,11 @@ title: Update KPIs in Digital Portfolio Management
 description: You can update the key performance indicator \(KPI\) fields in Digital Portfolio Management \(DPM\). The KPI displays in KPI groups in the DPM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-kpi-descriptions.html
-release: australia
+release: brazil
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure KPI groups, Configure, Digital Portfolio Management, IT Service Management]
 ---
@@ -84,7 +84,7 @@ Display aggregate
 
 </td><td>
 
-The method for how KPIs are displayed in the DPM Workspace. The entry can be Average or Sum.**Note:** This field applies when the latest score property \[sn\_dpm.kpi\_groups.show\_latest\_score\] is set to false. For information, see [Configure the Digital Portfolio Management experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-experience.md).
+The method for how KPIs are displayed in the DPM Workspace. The entry can be Average or Sum.**Note:** This field applies when the latest score property \[sn\_dpm.kpi\_groups.show\_latest\_score\] is set to false. For information, see [Configure the Digital Portfolio Management experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-configure-experience.md).
 
 </td></tr><tr><td>
 
@@ -153,10 +153,10 @@ The flag that determines if the KPI displays in the KPI group. KPI groups can di
 </table>5.  Select **Update**.
 
 
-**Parent Topic:**[Configure KPI groups in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-kpi-groups.md)
+**Parent Topic:**[Configure KPI groups in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-configure-kpi-groups.md)
 
 **Related topics**  
 
 
-[KPI groups in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-kpi.md)
+[KPI groups in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-configure-kpi.md)
 

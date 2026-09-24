@@ -3,9 +3,9 @@ title: Use the GracefulStop component
 description: Verify that an automation from RPA Hub doesn't stop abruptly by using the GracefulStop component in RPA Desktop Design Studio. With this component, you can define a secure termination point within an automation process and automate housekeeping activities such as closing in-use applications or performing clean-up operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/graceful-stop-component.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Common, RPA Hub, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -22,7 +22,7 @@ Role required: None
 
 ## About this task
 
-Previously, when you selected the **Stop Process** button on a bot process in RPA Hub, the robots exited the automation abruptly. This process may have caused data inconsistencies. You can now exit the automation smoothly by using the GracefulStop component. For more information on how the GracefuStop component works for an automation in RPA Hub, see [Using Graceful Stop functionality in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/graceful-stop-rpa.md).
+Previously, when you selected the **Stop Process** button on a bot process in RPA Hub, the robots exited the automation abruptly. This process may have caused data inconsistencies. You can now exit the automation smoothly by using the GracefulStop component. For more information on how the GracefuStop component works for an automation in RPA Hub, see [Using Graceful Stop functionality in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/graceful-stop-rpa.md).
 
 **Note:** The GracefulStop component is available only for unattended automations.
 
@@ -45,12 +45,12 @@ Previously, when you selected the **Stop Process** button on a bot process in RP
 
         The Graceful stop option is available in RPA Hub to only those automations that satisfy these conditions.
 
-    When you use the GracefulStop component from RPA Desktop Design Studio, the component returns a false value. By selecting the GracefulStop toggle for the **Stop process** option in a bot process in RPA Hub, the component returns a true value. You can then stop the automation. If the automation path leads to a safe termination point, the automation is gracefully exited. For more information about stopping a bot process in RPA Hub, see [Stop an unattended bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/stop-bot-process.md).
+    When you use the GracefulStop component from RPA Desktop Design Studio, the component returns a false value. By selecting the GracefulStop toggle for the **Stop process** option in a bot process in RPA Hub, the component returns a true value. You can then stop the automation. If the automation path leads to a safe termination point, the automation is gracefully exited. For more information about stopping a bot process in RPA Hub, see [Stop an unattended bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/stop-bot-process.md).
 
 
 ## What to do next
 
-Publish the automation project. For more information on how to publish an automation project, see [Publish an automation project in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/publish-automation-project.md).
+Publish the automation project. For more information on how to publish an automation project, see [Publish an automation project in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/publish-automation-project.md).
 
-**Parent Topic:**[Common](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/common_components.md)
+**Parent Topic:**[Common](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/common_components.md)
 

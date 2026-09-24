@@ -3,11 +3,11 @@ title: Create spoke and build actions manually
 description: Automate an integration and generate reusable actions manually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-spoke-manual.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Building spokes using Spoke Generator, Workflow Studio, Build workflows]
 ---
@@ -46,6 +46,6 @@ Automate an integration and generate reusable actions manually.
 
 7.  Click **New action** to create an action.
 
-    -   If you want to create actions by importing the required OpenAPI Specification, select **From OpenAPI spec**. For information about selecting the required operations and creating actions, see [Create spoke and build actions by importing an OpenAPI Specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-spoke-fd.md).
-    -   If you want to create actions manually, select **Manually**. The Action Properties screen is displayed. You should create and publish the action in the Action Designer. For more information, see [Building actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/actions.md).
+    -   If you want to create actions by importing the required OpenAPI Specification, select **From OpenAPI spec**. For information about selecting the required operations and creating actions, see [Create spoke and build actions by importing an OpenAPI Specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-spoke-fd.md).
+    -   If you want to create actions manually, select **Manually**. The Action Properties screen is displayed. You should create and publish the action in the Action Designer. For more information, see [Building actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/actions.md).
 

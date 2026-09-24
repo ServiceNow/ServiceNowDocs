@@ -3,9 +3,9 @@ title: Assign the Vulnerability Response persona roles using Setup Assistant
 description: Assign the Vulnerability Response persona roles to groups or users with Setup Assistant.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-assign-personas\_SA.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Security Exposure Management Workspace personas and granular roles, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -16,7 +16,7 @@ Assign the Vulnerability Response persona roles to groups or users with Setup As
 
 ## Before you begin
 
-If you have already assigned persona roles in Vulnerability Response using Setup Assistant and you want more information about editing and managing your granular roles and role assignments in the User Administration module, see [Manage persona and granular roles for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vr_manage_granular-roles.md).
+If you have already assigned persona roles in Vulnerability Response using Setup Assistant and you want more information about editing and managing your granular roles and role assignments in the User Administration module, see [Manage persona and granular roles for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/vr_manage_granular-roles.md).
 
 If you are an upgrade customer, you can continue using your existing roles for the Vulnerability Response application. Access for users and groups assigned with the sn\_vul.vulnerability\_read and sn\_vul.vulnerability\_write permissions and remediation owner roles available in previous versions of Vulnerability Response has not changed.
 
@@ -24,7 +24,7 @@ However, for more control over what users and groups can do and see in the Vulne
 
 If you have not already assigned the sn\_vul.vulnerability\_admin persona role using Setup Assistant, follow the steps below to assign it. Once assigned, the vulnerability administrator with this persona role has permission to complete the Setup Assistant tasks after the first section, and manage rules and third-party integrations in the Vulnerability Response application.
 
-For an overview about persona roles and granular roles, see [Vulnerability Response personas and granular roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vr-persona-overview.md).
+For an overview about persona roles and granular roles, see [Vulnerability Response personas and granular roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/vr-persona-overview.md).
 
 If you are an upgrade customer, use the following table as a reference.
 
@@ -152,5 +152,5 @@ Role required: admin
 
 ## What to do next
 
-As system admin, continue with the configuration of Vulnerability Response in Setup Assistant. Note that after the first section is completed, you can have a user you assigned with the vulnerability admin persona role complete the tasks in Setup Assistant. For more information about managing granular roles and examples, see [Manage persona and granular roles for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vr_manage_granular-roles.md).
+As system admin, continue with the configuration of Vulnerability Response in Setup Assistant. Note that after the first section is completed, you can have a user you assigned with the vulnerability admin persona role complete the tasks in Setup Assistant. For more information about managing granular roles and examples, see [Manage persona and granular roles for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/vr_manage_granular-roles.md).
 

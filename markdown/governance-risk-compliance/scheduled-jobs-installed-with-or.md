@@ -3,9 +3,9 @@ title: Scheduled jobs installed with Operational Resilience
 description: When you install the Operational Resilience application, the Update CSDM and other dependencies, Calculate red flags for CSDM and dependencies, Update other dependencies scheduled jobs are added to your instance. As a user with the sn\_oper\_res.admin role, you may find this information useful.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/scheduled-jobs-installed-with-or.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -32,7 +32,7 @@ Description
 
 </td><td>
 
-Scheduled job that gathers data from different applications including such as GRC: Advanced Risk, GRC: Risk Management, and GRC: Policy and Compliance Management, BCM, CMDB, and Vulnerability Response to calculate supporting data for various reports.
+Scheduled job that gathers data from different applications, such as GRC: Advanced Risk, GRC: Risk Management, and GRC: Policy and Compliance Management, BCM, CMDB, and Vulnerability Response to calculate supporting data for various reports.
 
  The scheduled job runs once a day and removes all the data from the previous day before creating new supporting data for the reports. The job uses different conditions to retrieve the data from different sources and saves it to the Operational Resilience staging tables.
 
@@ -45,6 +45,18 @@ Scheduled job that gathers data from different applications including such as GR
 </td><td>
 
 Calculates the red flags for the CSDM and its dependencies. It is configured to run daily at 3:00 AM local time to refresh the red flags.
+
+ Previously, impact analysis failed to resolve entities when a scheduled job processed GRC Profile records directly. This issue has been fixed. Impact analysis now correctly resolves Profile records in Operational Resilience and entity resolution completes as expected for all record types.
+
+</td></tr><tr><td>
+
+**Generate historic snapshot CSV download report**
+
+</td><td>
+
+Generates a CSV download report of historic snapshots from the Digital resilience third-party registers by reusing the configuration of an existing Excel download/upload request record.
+
+ The job is inactive by default. Once active, it runs quarterly by default.
 
 </td></tr></tbody>
 </table>**Note:** Beginning with Operational Resilience release 22.x.x, the **Calculate red flags for CSDM and dependencies** and **Update CSDM and other dependencies** scheduled jobs are deactivated by default for new installations. For existing installations, these jobs retain their current state \(active or inactive\).

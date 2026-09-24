@@ -3,11 +3,11 @@ title: View import history
 description: View your import history by accessing the My Application Import History module.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-center/uc-import-history.html
-release: australia
+release: brazil
 product: Upgrade Center
 classification: upgrade-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reviewing upgrade history, Using Upgrade Center, Upgrade Center, Upgrade, Administer the ServiceNow AI Platform]
 ---

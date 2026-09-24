@@ -3,11 +3,11 @@ title: Clean alert history and impact status tables
 description: Schedule jobs to mark and remove old alert records in the Alert History \[em\_alert\_history\] and Impact Status \[em\_impact\_status\] tables, to prevent the tables from becoming overloaded with data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/clean-alert-tables.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Purge impact status and alert history, Rotate event and alert table for cleanup, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -63,8 +63,8 @@ Schedule the following jobs to remove old alert records:
 
     3.  Select **Update**.
 
-4.  Repeat steps [2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/clean-alert-tables.md) and [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/clean-alert-tables.md) to perform the Backfill and Clean jobs on the **Alert History Table**.
+4.  Repeat steps [2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/clean-alert-tables.md) and [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/clean-alert-tables.md) to perform the Backfill and Clean jobs on the **Alert History Table**.
 
 
-**Parent Topic:**[Purge impact status and alert history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigurePurge.md)
+**Parent Topic:**[Purge impact status and alert history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMConfigurePurge.md)
 

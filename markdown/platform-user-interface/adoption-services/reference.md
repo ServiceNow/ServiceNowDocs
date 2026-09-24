@@ -3,11 +3,11 @@ title: Reference
 description: Reference information for Dynamic Guidance
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/reference.html
-release: australia
+release: brazil
 product: Adoption Services
 classification: adoption-services
 topic_type: reference
-last_updated: "2026-03-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dynamic Guidance, Adoption services, Configure user experiences]
 ---

@@ -3,9 +3,9 @@ title: Configure a push notification message
 description: Configure the message displayed to users when they receive their push notification.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/configure-push-notification-message.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Components, Push notifications, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -16,7 +16,7 @@ Configure the message displayed to users when they receive their push notificati
 
 ## Before you begin
 
-To create a push notification message, you must first configure the push notification message content. For more information, see [Configure push notification message content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-push-notification-message-content.md).
+To create a push notification message, you must first configure the push notification message content. For more information, see [Configure push notification message content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/config-push-notification-message-content.md).
 
 Role required: admin
 
@@ -90,7 +90,7 @@ You configured a push notification message and paired it with a push notificatio
 
 ## What to do next
 
-To complete the notification, an event is required to determine when the push notification is sent and who receives it. For more information, see [Configure a push notification event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-push-notification-event.md).
+To complete the notification, an event is required to determine when the push notification is sent and who receives it. For more information, see [Configure a push notification event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/configure-push-notification-event.md).
 
-**Parent Topic:**[Mobile push notification components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-mobile-push-notifications.md)
+**Parent Topic:**[Mobile push notification components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/configure-mobile-push-notifications.md)
 

@@ -3,13 +3,13 @@ title: Grouped Choice user input control
 description: Use the Grouped Choice user input control in a Virtual Agent topic to list multiple groups of choices in one message.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-grouped-choice-user-input.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-04-29"
-reading_time_minutes: 5
-breadcrumb: [Assistant Designer user input controls, Assistant Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Assistant Designer user input controls, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Grouped Choice user input control
@@ -20,7 +20,7 @@ Use the Grouped Choice user input control in a Virtual Agent topic to list multi
 
 The Grouped Choice list prompts users to select related choices in one message through the default **Select a choice** button. You can enable multi-select for each choice's group and also provide images and short descriptions to create a richer user experience. Users are presented with groups of choices where they're required to submit one selection before returning to the Virtual Agent topic.
 
-Inputs are recorded on the Interactions \[interactions\] table. For more information, see [Virtual Agent interaction records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-interactions.md).
+Inputs are recorded on the Interactions \[interactions\] table. For more information, see [Virtual Agent interaction records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-interactions.md).
 
 ## Grouped Choice user input control properties
 
@@ -222,20 +222,11 @@ List prompt
 
 |Channel|Support|Constraints|
 |-------|-------|-----------|
-|Web UI|Supported|None|
-|Mobile UI|Not supported|Not applicable|
-|ServiceNow Otto panel|Supported|None|
 |Microsoft Teams|Not supported|Not applicable|
-|Google Chat|Not supported|Not applicable|
 |Slack|Not supported|Not applicable|
-|Workplace|Not supported|Not applicable|
-|Facebook Messenger|Not supported|Not applicable|
 |SMS Twilio|Not supported|Not applicable|
-|LINE|Not supported|Not applicable|
-|WhatsApp \(powered by Twilio\)|Not supported|Not applicable|
 |WhatsApp|Not supported|Not applicable|
-|Apple Messages for Business|Not supported|Not applicable|
-|Alexa \(Voice\)|Not supported|Not applicable|
+|Google Chat|Supported|None|
 
-**Parent Topic:**[Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-user-inputs.md)
+**Parent Topic:**[Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-user-inputs.md)
 

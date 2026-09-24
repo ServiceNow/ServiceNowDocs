@@ -3,11 +3,11 @@ title: Approve delete email requests for the Microsoft Exchange Online integrati
 description: If the approval option is enabled in your ServiceNow AI Platform instance, requests to delete emails are sent to each member of the approval group via email. You select the approval group during the configuration step. Approvals provide your organization with an additional level of control over the deletion of emails.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/ms-approve-delete.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Microsoft Exchange Online integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -57,15 +57,15 @@ Role required: sn\_si.admin or all members of an assigned approval group.
 
     2.  In the email notification, choose one option to continue.
 
-<table id="choicetable_fwm_nrk_4gb"><thead><tr><th align="left" id="d105944e166">
+<table id="choicetable_fwm_nrk_4gb"><thead><tr><th align="left" id="d106007e166">
 
 Option
 
-</th><th align="left" id="d105944e169">
+</th><th align="left" id="d106007e169">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d105944e175">
+</th></tr></thead><tbody><tr><td id="d106007e175">
 
 **Select the Click here to approve Approve link**
 
@@ -75,7 +75,7 @@ Approve the delete request. All the email items with a status of `false` in the 
 
 A work note is posted to the security incident record with the number of successfully deleted emails. If tagging is enabled, the `Email Delete - Completed` tag replaces the `Email Delete - Initiated` tag.
 
-</td></tr><tr><td id="d105944e202">
+</td></tr><tr><td id="d106007e202">
 
 **Select the Click here to reject link**
 
@@ -83,7 +83,7 @@ A work note is posted to the security incident record with the number of success
 
 Reject the delete request. A work note is posted with the name of the person who rejected the request. After a request is rejected, as the user with the sn\_si.analyst role, you're required to submit a new delete request if you determine that the emails should be deleted.
 
-</td></tr><tr><td id="d105944e214">
+</td></tr><tr><td id="d106007e214">
 
 **Select the link to the security incident record \(SIR0010002\)**
 
@@ -138,12 +138,12 @@ Review the related security incident and any related search data before processi
 
         In the Email Search Result record that is displayed, the Was deleted column status shows that the email is deleted \(`true`\).
 
-        You have successfully approved email delete requests from both an email notification and an approval record and confirmed that emails are deleted. For more information about locating the Email Search Result record, see [Define email search criteria and request a search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/verify-expected-results-ms-exchange-online.md).
+        You have successfully approved email delete requests from both an email notification and an approval record and confirmed that emails are deleted. For more information about locating the Email Search Result record, see [Define email search criteria and request a search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/verify-expected-results-ms-exchange-online.md).
 
 
-**Parent Topic:**[Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-exchange-online-lookups.md)
+**Parent Topic:**[Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/ms-exchange-online-lookups.md)
 
-**Previous topic:**[Request delete approval for emails on Microsoft Exchange online service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-delete-email.md)
+**Previous topic:**[Request delete approval for emails on Microsoft Exchange online service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/ms-delete-email.md)
 
-**Next topic:**[Recover deleted emails on the Microsoft Exchange Online service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-recover-deleted-emails.md)
+**Next topic:**[Recover deleted emails on the Microsoft Exchange Online service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/ms-recover-deleted-emails.md)
 

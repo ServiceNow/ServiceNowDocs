@@ -3,11 +3,11 @@ title: Enable magic links
 description: Configure magic links to enable consumer users to access provider instance resources directly without manual authentication. Magic links streamline cross-instance navigation by automatically handling login credentials.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-magic-links.html
-release: australia
+release: brazil
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use for providers, Service Exchange for Providers, Service Exchange]
 ---
@@ -66,5 +66,5 @@ Option to specify the number of seconds taken to redirect consumer user to provi
 </table>5.  Select **Update**.
 
 
-**Parent Topic:**[Using Service Exchange for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-administer.md)
+**Parent Topic:**[Using Service Exchange for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-administer.md)
 

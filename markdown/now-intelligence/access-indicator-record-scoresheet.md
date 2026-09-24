@@ -3,9 +3,9 @@ title: Access indicator record or scoresheet from KPI Details
 description: In KPI Details, the More actions menu lets you open the record or the scoresheet of the indicator you are viewing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/access-indicator-record-scoresheet.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Examining indicators, KPI Details, Platform Analytics experience, Platform Analytics]
 ---
@@ -33,7 +33,7 @@ Role required: pa\_power\_user, pa\_admin, or admin for record; pa\_admin or adm
     \[Omitted image "kpi-details-more-actions.png"\] Alt text: The More actions menu for KPI Details, showing options to edit indicator record or scoresheet.
 
 
-**Parent Topic:**[Examining indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details-components.md)
+**Parent Topic:**[Examining indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/kpi-details-components.md)
 
 **Related topics**  
 
@@ -54,9 +54,9 @@ Role required: pa\_power\_user, pa\_admin, or admin for record; pa\_admin or adm
 
 [Filter native Data snapshots indicator scores in KPI Details]()
 
-[Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md)
+[Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md)
 
-[Create a formula indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateAFormulaIndicator.md)
+[Create a formula indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/t_CreateAFormulaIndicator.md)
 
-[Add or edit indicator scores manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_ManuallyAddingScoresForIndicators.md)
+[Add or edit indicator scores manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/t_ManuallyAddingScoresForIndicators.md)
 

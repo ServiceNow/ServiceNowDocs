@@ -3,11 +3,11 @@ title: Tables installed with TLM in the EA Workspace
 description: Several types of tables are installed with Technology Lifecycle Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-tables-installed-with-tpm.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Activate the Technology Lifecycle Management \(TLM\) plugin, Configure Technology Lifecycle Management, Configure EA Workspace using the Setup page, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Tables installed with TLM in the EA Workspace
@@ -60,7 +60,7 @@ TPM Technology Lifecycle Exception \[sn\_apm\_tpm\_technology\_lifecycle\_except
 
 </td><td>
 
-Stores the life cycles that were approximated or couldn’t be found from Software Asset Management \(SAM\) Professional or Hardware Asset Management \(HAM\) Professional.
+Stores the lifecycles that were approximated or couldn’t be found from Software Asset Management \(SAM\) Professional or Hardware Asset Management \(HAM\) Professional.
 
 </td></tr><tr><td>
 
@@ -71,12 +71,12 @@ TPM Technology Risk \[sn\_apm\_tpm\_technology\_risk\]
 Stores the TPM technology risk information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate the Technology Lifecycle Management \(TLM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-install-tpm.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Activate the Technology Lifecycle Management \(TLM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-install-tpm.md)
+[Activate the Technology Lifecycle Management \(TLM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-install-tpm.md)
 
-[Governing TRM product fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-trm-governing-fields.md)
+[Governing TRM product fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-trm-governing-fields.md)
 

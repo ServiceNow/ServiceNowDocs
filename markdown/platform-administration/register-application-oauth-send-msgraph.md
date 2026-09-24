@@ -3,9 +3,9 @@ title: Register an application as an OAuth provider
 description: Use the information generated during Microsoft Azure account configuration to register an application as an OAuth provider.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/register-application-oauth-send-msgraph.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Send email using Microsoft Graph, Read or send emails using Microsoft Graph, Advanced email setup, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -66,7 +66,7 @@ OAuth API Script
 
 </td><td>
 
-OAuth API script name. For more information see, [OAuth API Script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/oauth-api-script.md). **Note:** This is required only while using certificates.
+OAuth API script name. For more information see, [OAuth API Script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/oauth-api-script.md). **Note:** This is required only while using certificates.
 
 </td></tr><tr><td>
 
@@ -112,5 +112,5 @@ Redirect URL
 12. Select **Update**.
 
 
-**Parent Topic:**[Sending email using Microsoft Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/send-email-using-ms-graph.md)
+**Parent Topic:**[Sending email using Microsoft Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/send-email-using-ms-graph.md)
 

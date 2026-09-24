@@ -3,7 +3,7 @@ title: Install the GOV.UK Developer Toolkit
 description: Install the GOV.UK Developer Toolkit application \(sn\_gsm\_uk\_gds\_wdgt\) to deliver citizen-centered digital services and portals without rebuilding them from scratch. This application includes demo data and installs related ServiceNow Store applications and plugins if they aren’t already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-install-gds-content-pack.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-06-01"
 reading_time_minutes: 2
@@ -48,17 +48,17 @@ Role required: admin
 
 Use the following procedures to configure and customize the GOV.UK Developer Toolkit GDS Service Portal to your needs:
 
-[Configure GOV.UK Developer Toolkit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-toolkit.md)
+[Configure GOV.UK Developer Toolkit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-govuk-dev-toolkit.md)
 
-[Configure the GOV.UK Design System \(GDS\) Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-content-pack-gsp.md)
+[Configure the GOV.UK Design System \(GDS\) Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gds-content-pack-gsp.md)
 
-[Configure the GOV.UK Design System Service Portal User Profile page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-profile-page.md)
+[Configure the GOV.UK Design System Service Portal User Profile page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gds-profile-page.md)
 
-[Configure the GOV.UK Design System Service Portal Error Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-error-page.md)
+[Configure the GOV.UK Design System Service Portal Error Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gds-error-page.md)
 
-**Parent Topic:**[Configure GOV.UK Developer Toolkit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-toolkit.md)
+**Parent Topic:**[Configure GOV.UK Developer Toolkit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-govuk-dev-toolkit.md)
 
-**Previous topic:**[Configure GOV.UK Developer Toolkit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-toolkit.md)
+**Previous topic:**[Configure GOV.UK Developer Toolkit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-govuk-dev-toolkit.md)
 
-**Next topic:**[Configure GDS Service Portal Search Widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-search.md)
+**Next topic:**[Configure GDS Service Portal Search Widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-govuk-dev-tk-portal-search.md)
 

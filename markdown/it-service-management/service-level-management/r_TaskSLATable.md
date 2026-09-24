@@ -3,11 +3,11 @@ title: Task SLA table
 description: The Task SLA \[task\_sla\] table stores Task SLA records for the SLAs attached to particular tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/r\_TaskSLATable.html
-release: australia
+release: brazil
 product: Service Level Management
 classification: service-level-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Level Management reference, Service Level Management, IT Service Management]
 ---
@@ -128,5 +128,5 @@ Original breach time
 The date/time the SLA would breach, as calculated when the SLA is first attached.**Note:** You may have to configure the form to see this field.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Level Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/service-level-management-reference.md)
+</table>**Parent Topic:**[Service Level Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/service-level-management-reference.md)
 

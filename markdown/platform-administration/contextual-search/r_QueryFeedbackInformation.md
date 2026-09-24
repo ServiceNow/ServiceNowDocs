@@ -3,11 +3,11 @@ title: Feedback information on contextual search
 description: When a user clicks any of the action buttons such as This helped, Order, or Attached, the feedback information is stored in specific tables. The information helps you to understand the effectiveness of the searches. You can also create custom reports by querying these tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/contextual-search/r\_QueryFeedbackInformation.html
-release: australia
+release: brazil
 product: Contextual Search
 classification: contextual-search
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing contextual search, Contextual search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -55,8 +55,8 @@ Groups the Relevant Document Detail individual recorded actions by search sessio
 -   **User/Created by**: The user who performed the action.
 
 </td></tr></tbody>
-</table>-   **[Run a report on contextual search usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/t_RunAFeedbackReport.md)**  
+</table>-   **[Run a report on contextual search usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/contextual-search/t_RunAFeedbackReport.md)**  
 Run a report on usage such as how many times a knowledge article is attached to a record to know the effectiveness of the contextual search results.
 
-**Parent Topic:**[Managing contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/working-with-contextual-search.md)
+**Parent Topic:**[Managing contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/contextual-search/working-with-contextual-search.md)
 

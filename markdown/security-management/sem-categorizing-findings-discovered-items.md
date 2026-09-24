@@ -3,9 +3,9 @@ title: Categorizing findings and discovered items using classification rules
 description: Classification groups automate the classification of entities or records based on the classification rules defined in the group. The condition for each rule is evaluated in order, and the first matching rule is used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-categorizing-findings-discovered-items.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Automating prioritization and triaging, Security Exposure Management workflow, Explore, Unified Security Exposure Management, Security Operations]
 ---
@@ -32,10 +32,10 @@ Whenever findings and discovered items are imported, the vulnerability classific
 -   For a selected table, there can only be one active classification group.
 -   Once you create a group, you can’t delete it.
 
-**Parent Topic:**[Automating prioritization and triaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-automating-prioritization-triaging.md)
+**Parent Topic:**[Automating prioritization and triaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-automating-prioritization-triaging.md)
 
 **Related topics**  
 
 
-[Configuring classification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-classification-rules.md)
+[Configuring classification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-configure-classification-rules.md)
 

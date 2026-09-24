@@ -3,11 +3,11 @@ title: Legacy: Open Incidents Reports dashboard
 description: View the current information about open incidents as a list, or as a heatmap or pivot table organized by breakdown.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/open-incidents-reports-dashboard.html
-release: australia
+release: brazil
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Legacy: Incident Management Platform Analytics Solutions, Reporting incidents, Incident Management, IT Service Management]
 ---
@@ -18,7 +18,7 @@ View the current information about open incidents as a list, or as a heatmap or 
 
 **Important:**
 
-Starting in Xanadu release, the Open Incidents Reports dashboard is deprecated. Users can use [Incident management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident.md) to view the current information about open incidents as a list, or as a heatmap or pivot table organized by breakdown.
+Starting in Xanadu release, the Open Incidents Reports dashboard is deprecated. Users can use [Incident management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident.md) to view the current information about open incidents as a list, or as a heatmap or pivot table organized by breakdown.
 
 \[Omitted image "incident-premium-open-incidents-reports-dashboard.gif"\] Alt text: Animated gif taking you through the tabs of the Incident Premium - Open Incidents Reports dashboard
 
@@ -88,5 +88,5 @@ Heatmap \[Omitted image "heatmap.png"\] Alt text: Heatmap icon
 Heatmap that lets you explore the number of open incidents by combinations of state, assignment group, category, priority, and age.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legacy: Incident Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-content-pack.md)
+</table>**Parent Topic:**[Legacy: Incident Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/incident-content-pack.md)
 

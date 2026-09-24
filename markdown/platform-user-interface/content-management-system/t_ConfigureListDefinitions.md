@@ -3,11 +3,11 @@ title: Configure list definitions
 description: List definitions, similar to content management frames, are decorative containers that control the look and feel of lists.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_ConfigureListDefinitions.html
-release: australia
+release: brazil
 product: Content Management System
 classification: content-management-system
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customize the list block, Types of content blocks, Content blocks, Configure Content Management sites, Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -35,10 +35,10 @@ Configuring list definitions requires a knowledge of Apache Jelly.
 3.  Complete the List Definition form.
 
 
-**Parent Topic:**[Customize the list block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_DefineTheListBlock.md)
+**Parent Topic:**[Customize the list block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/t_DefineTheListBlock.md)
 
 **Related topics**  
 
 
-[Content Management and the Apache Jelly engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/r_ContentManagementAndJelly.md)
+[Content Management and the Apache Jelly engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/r_ContentManagementAndJelly.md)
 

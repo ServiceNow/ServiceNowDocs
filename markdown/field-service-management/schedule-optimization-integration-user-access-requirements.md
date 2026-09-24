@@ -3,9 +3,9 @@ title: Schedule Optimization integration user access requirements
 description: Describes the access requirements for the shared integration user account used by Schedule Optimization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/schedule-optimization-integration-user-access-requirements.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Schedule Optimization components, Reference, Field Service Management]
 ---
@@ -20,10 +20,10 @@ Schedule Optimization uses a dedicated service account `sharedservice.worker` to
 
 To add the role, navigate to **User Administration** &gt; **Users**, search by **User ID** for `sharedservice.worker`, and open the record. In the **Roles** related list, select **Edit** to add the roles required to grant read access to the fields and tables referenced in your task filter.
 
-**Parent Topic:**[Schedule Optimization components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/schedule-optimization-components.md)
+**Parent Topic:**[Schedule Optimization components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/schedule-optimization-components.md)
 
 **Related topics**  
 
 
-[Create a scheduling attribute for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/configure-scheduling-attributes.md)
+[Create a scheduling attribute for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/configure-scheduling-attributes.md)
 

@@ -3,11 +3,11 @@ title: Create a remediation task for invalid staging records
 description: After running validations for the Operational Technology \(OT\) device data imported with the Service Graph Connector for Microsoft Excel, optionally create a remediation task to resolve invalid staging records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/create-remediation-task-for-validation-errors.html
-release: australia
+release: brazil
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using the Service Graph Connector for Microsoft Excel through import tasks, Service Graph Connector for Microsoft Excel, Use, Operational Technology Manager, Operational Technology]
 ---
@@ -22,7 +22,7 @@ Role required: ot\_excel\_import\_user
 
 ## About this task
 
-You can optionally create remediation tasks to resolve invalid staging records. For more information about the validation errors that can occur for your staging records, see [Managing Validations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/managing-validations.md).
+You can optionally create remediation tasks to resolve invalid staging records. For more information about the validation errors that can occur for your staging records, see [Managing Validations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/managing-validations.md).
 
 ## Procedure
 
@@ -49,5 +49,5 @@ Remediation tasks are created for the invalid staging records. To access the rem
 
 When you view the remediation task record, you can also view the staging records associated with it by selecting the **Staging Records** tab.
 
-**Parent Topic:**[Using the Service Graph Connector for Microsoft Excel through import tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/use-excel-sgc-through-import-tasks.md)
+**Parent Topic:**[Using the Service Graph Connector for Microsoft Excel through import tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/use-excel-sgc-through-import-tasks.md)
 

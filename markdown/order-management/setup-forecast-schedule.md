@@ -3,9 +3,9 @@ title: Set up forecast schedule
 description: Forecast schedule automatically fetches all the opportunities in the system and generates forecast data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/setup-forecast-schedule.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sales Forecasting, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -44,7 +44,7 @@ Role required: admin
 **Related topics**  
 
 
-[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-sales-forecasting.md)
+[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-sales-forecasting.md)
 
-[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-forecasting.md)
+[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/sales-forecasting.md)
 

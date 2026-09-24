@@ -3,9 +3,9 @@ title: Configure technical debt settings
 description: Configure whether the server is part of a technical debt record's identity and select which reasons the scheduled job uses to create technical debt.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-configure-tech-debt.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Technical debt settings, Configure EA Workspace using the Setup page, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_apm.apm\_admin
 
 ## About this task
 
-\[Omitted image "trm-tech-debt-settings.png"\] Alt text: Technical debt settings page in the EA Workspace Setup page.
+\[Omitted image "trm-tech-debt-settings.png"\] Alt text: Technical debt settings page in the Enterprise Architecture Workspace Setup page.
 
 Use the technical debt settings to control how the scheduled job **Populate TRM technical debts in the EA Workspace** identifies and creates technical debt records.
 
@@ -67,16 +67,16 @@ Use the technical debt settings to control how the scheduled job **Populate TRM 
 
 The scheduled job **Populate TRM technical debts in the EA Workspace** uses the updated server and reason configuration starting with its next run. You don't need to restart the instance or re-register the job.
 
-**Parent Topic:**[Technical debt settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-setup-tech-debt.md)
+**Parent Topic:**[Technical debt settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-setup-tech-debt.md)
 
 **Related topics**  
 
 
-[Technical debt settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-setup-tech-debt.md)
+[Technical debt settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-setup-tech-debt.md)
 
-[TRM technical debt states and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-trm-technical-debt-states.md)
+[TRM technical debt states and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-trm-technical-debt-states.md)
 
-[Update TRM technical debt data using scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-run-job-trm-tech-debts.md)
+[Update TRM technical debt data using scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-run-job-trm-tech-debts.md)
 
-[Technical debt calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-trm-technical-debt-calc.md)
+[Technical debt calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-trm-technical-debt-calc.md)
 

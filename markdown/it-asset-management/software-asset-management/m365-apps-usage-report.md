@@ -3,13 +3,13 @@ title: Microsoft 365 Apps Usage Reports
 description: Find the last activity date for Microsoft 365 products to determine reclamation candidates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/m365-apps-usage-report.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Microsoft 365 Apps Usage Reports
@@ -40,5 +40,5 @@ The values for each field in the Microsoft 365 Apps Usage Reports \[samp\_m365\_
 |OneNote \(Windows\)|Indicates usage of Microsoft OneNote on Windows with the value True or False.|
 |Teams \(Windows\)|Indicates usage of Microsoft Teams on Windows with the value True or False.|
 
-**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)
+**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/references.md)
 

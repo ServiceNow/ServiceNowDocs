@@ -3,11 +3,11 @@ title: Create translation assignments for knowledge articles
 description: Assign knowledge articles to language experts to ensure accurate translations. Identify the language experts and create assignment rules so that translation tasks are automatically assigned to language experts and groups.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/create-translation-assignments.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use translation management, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -51,5 +51,5 @@ Translation tasks are automatically assigned once the assignment rules are creat
 
 An email notification is sent to the user or group that has been assigned the task with a link to the translation task and source article.
 
-**Parent Topic:**[Use translation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/use-translation-management.md)
+**Parent Topic:**[Use translation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/use-translation-management.md)
 

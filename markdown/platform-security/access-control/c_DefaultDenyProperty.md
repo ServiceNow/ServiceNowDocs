@@ -3,11 +3,11 @@ title: Default deny property
 description: The default deny property \(glide.sm.default\_mode\) controls the security manager default behavior when the only matching ACL rules are the wildcard table ACL rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/c\_DefaultDenyProperty.html
-release: australia
+release: brazil
 product: Access Control
 classification: access-control
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Contextual Security Manager, Access Control Lists \(ACLs\), Access Management]
 ---
@@ -27,5 +27,5 @@ You cannot reset `glide.sm.default_mode` to **Allow Access** once it has been se
 
 **Note:** By default, the wildcard table ACL rules are the only ACL rules that check for the value of the `glide.sm.default_mode` property. If you want to control other operations with this setting, create your own ACL rules to check for this property value.
 
-To learn more about this property, see [Deny by default with empty ACLs \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-security-manager-default-deny.md) in Instance Security Hardening Settings.
+To learn more about this property, see [Deny by default with empty ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-security-manager-default-deny.md) in Instance Security Hardening Settings.
 

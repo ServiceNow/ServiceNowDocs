@@ -1,20 +1,20 @@
 ---
-title: Add breakdown sources to a dashboard
-description: To enable dashboard users to filter visualizations on a dashboard by breakdown element, add breakdown sources to the dashboard.
+title: Add breakdown sources to a responsive dashboard
+description: To enable dashboard users to filter visualizations on a Core UI dashboard by breakdown element, add breakdown sources to the dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/t\_ExistingBreakdownDashboard.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using breakdowns on dashboards, Indicator breakdowns, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Using breakdowns on responsive dashboards, Create and use dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Add breakdown sources to a dashboard
+# Add breakdown sources to a responsive dashboard
 
-To enable dashboard users to filter visualizations on a dashboard by breakdown element, add breakdown sources to the dashboard.
+To enable dashboard users to filter visualizations on a Core UI dashboard by breakdown element, add breakdown sources to the dashboard.
 
 ## Before you begin
 
@@ -51,18 +51,18 @@ The breakdown sources are available on the dashboard. Users can group the dashbo
 
 ## What to do next
 
--   You can configure the entries in the Breakdown Source related list so that reports on the dashboard can use the breakdown sources as interactive filters. You first create interactive filters that are based on the same tables as the breakdown sources. For more information, see [Make a breakdown act as an interactive filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/core-ui-interactive-filters/make-breakdown-interactive-filter.md).
--   Configure the Performance Analytics widgets on the dashboard so that users can filter them by selecting breakdown elements on the dashboard. For more information, see [Configure widgets for breakdown dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/set-up-widgets-for-breakdown-dashboards.md).
+-   You can configure the entries in the Breakdown Source related list so that reports on the dashboard can use the breakdown sources as interactive filters. You first create interactive filters that are based on the same tables as the breakdown sources. For more information, see [Make a breakdown act as an interactive filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/core-ui-interactive-filters/make-breakdown-interactive-filter.md).
+-   Configure the Performance Analytics widgets on the dashboard so that users can filter them by selecting breakdown elements on the dashboard. For more information, see [Configure widgets for breakdown dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/set-up-widgets-for-breakdown-dashboards.md).
 
 
-**Parent Topic:**[Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_SpecialDashboards.md)
+**Parent Topic:**[Using breakdowns on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_SpecialDashboards.md)
 
 **Related topics**  
 
 
 [Configure widgets for breakdown dashboards]()
 
-[Showing multiple elements separately or aggregated]()
+[Showing multiple elements separately or aggregated in Core UI]()
 
 [Same breakdown on widget and dashboard]()
 

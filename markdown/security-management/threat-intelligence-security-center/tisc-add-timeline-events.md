@@ -3,11 +3,11 @@ title: Adding Timeline Events to the Canvas
 description: Add timeline events to the investigation canvas by adding the related entities to the canvas.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-add-timeline-events.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Timeline in Investigation Canvas, Working with Investigation Canvas, Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -46,8 +46,8 @@ Role required: sn\_sec\_tisc.analyst
 
     The event will be linked to the selected object and also include its timestamp. The visual presentation of the event including the icon and its color reflects the configuration defined during the setup.
 
-    For information on how the timeline events are configured, see [Configure Custom Event Types for Timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-config-timeline.md).
+    For information on how the timeline events are configured, see [Configure Custom Event Types for Timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-config-timeline.md).
 
 
-**Parent Topic:**[Using Timeline in Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-timeline-events.md)
+**Parent Topic:**[Using Timeline in Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-timeline-events.md)
 

@@ -3,11 +3,11 @@ title: Perform work notes analysis
 description: Generate a work notes analysis on a transition.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/perform-worknotes-analysis.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Work notes analysis, Analyzing and getting process insights, Use, Process Mining, Platform Analytics]
 ---
@@ -47,5 +47,5 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
     Select \[Omitted image "worknotes-icon.png"\] Alt text: View details icon to view all items with the same reasons.
 
 
-**Parent Topic:**[Work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/worknotes-analysis.md)
+**Parent Topic:**[Work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/worknotes-analysis.md)
 

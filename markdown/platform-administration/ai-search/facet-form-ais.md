@@ -3,11 +3,11 @@ title: Facet form
 description: The Facet form enables you to create a facet refinement filter in the search application configuration for an AI Search application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/facet-form-ais.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Reference, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Reference, AI Search, Search administration, Configure core feature
 
 The Facet form enables you to create a facet refinement filter in the search application configuration for an AI Search application.
 
-For details on creating or modifying a facet, see [Create a facet in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-facet-ais.md).
+For details on creating or modifying a facet, see [Create a facet in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/create-facet-ais.md).
 
 <table id="ais-facet-form-fields-table"><thead><tr><th>
 
@@ -95,7 +95,7 @@ For example, to facet knowledge article search results based on the Department f
 
 **Note:** Each dot-walk reference level imposes a performance impact on indexing. Avoid using multi-level references unless necessary.
 
-To learn about **dot\_walk\_fields** field settings, see [Enable indexing of referenced table fields for an AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/enable-ref-table-field-index-ais.md).
+To learn about **dot\_walk\_fields** field settings, see [Enable indexing of referenced table fields for an AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/enable-ref-table-field-index-ais.md).
 
 
  Facets work best when created from fields of the following types with relatively few unique values:
@@ -183,5 +183,5 @@ Order in which to display the facet's buckets in the search results UI. Type: Ch
 -   **Value**: Sort facet buckets by their labels in alphabetical order.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/reference-ais.md)
+</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/reference-ais.md)
 

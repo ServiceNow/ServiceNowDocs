@@ -3,9 +3,9 @@ title: Enable or disable an application menu or module
 description: You can enable \(show\) or disable \(hide\) an application menu or module in the application navigator.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_EnDisableAppMenuOrMod.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Common UI elements, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -32,7 +32,7 @@ Role required: admin
 
 4.  Enable or disable the application menu and modules as desired.
 
-<table id="choicetable_en1_hx4_p4"><tbody><tr><td id="d110914e104">
+<table id="choicetable_en1_hx4_p4"><tbody><tr><td id="d111615e104">
 
 **Enable or disable a specific module in the application**
 
@@ -42,7 +42,7 @@ Role required: admin
 2.  Set **Active** to **true** \(show\) or **false** \(hide\).
 
 
-</td></tr><tr><td id="d110914e137">
+</td></tr><tr><td id="d111615e137">
 
 **Enable or disable multiple modules at the same time**
 
@@ -52,7 +52,7 @@ Role required: admin
 2.  Select **Change active state** from the **Actions** choice list.
 
 
-</td></tr><tr><td id="d110914e161">
+</td></tr><tr><td id="d111615e161">
 
 **Enable or disable the entire application menu \(for example, Incident or Service Catalog\)**
 
@@ -60,7 +60,7 @@ Role required: admin
 
 Select or clear the **Active** check box.
 
-</td></tr><tr><td id="d110914e173">
+</td></tr><tr><td id="d111615e173">
 
 **Restrict the application menu to specific roles**
 
@@ -74,5 +74,5 @@ Use the **Roles** field.
     When you change application menus or modules, the application navigator automatically refreshes to display the changes.
 
 
-**Parent Topic:**[Common UI elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/p_CommonUIElements.md)
+**Parent Topic:**[Common UI elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/p_CommonUIElements.md)
 

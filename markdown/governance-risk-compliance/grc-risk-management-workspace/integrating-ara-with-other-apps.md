@@ -3,11 +3,11 @@ title: Integrating Risk Management with other applications
 description: Extend the capabilities of Risk Management such as Advanced Risk Assessment and help other applications with risk identification and risk assessments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/integrating-ara-with-other-apps.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Risk Management, Governance, Risk, and Compliance]
 ---

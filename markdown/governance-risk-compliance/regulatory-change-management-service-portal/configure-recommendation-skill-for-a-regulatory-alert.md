@@ -3,12 +3,12 @@ title: Activate Regulatory alert recommendation skill
 description: Configure the recommendation skill from ServiceNow Otto to generate the recommendations of the impacted areas for a regulatory alert.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/configure-recommendation-skill-for-a-regulatory-alert.html
-release: australia
+release: brazil
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 keywords: [Now Assist, generative AI, GenAI, ServiceNow AI Platform]
 breadcrumb: [AI-generated recommendations for a regulatory alert skill, AI in Regulatory Change Management, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -27,7 +27,7 @@ Role required: admin or sn\_nowassist\_admin.nsa\_admin
 
 **Important:** After installing ServiceNow Otto for IRM, all ServiceNow Otto for IRM skills and agentic workflows are activated by default.
 
-Recommendation skills help regulatory analysts quickly identify impacted areas by generating AI-driven suggestions based on the content of a regulatory alert. These skills can be configured to be available at all times or conditionally triggered depending on the alert’s status. They’re typically accessible when the alert is in any state except Closed or Cancelled. To generate meaningful recommendations, the LLM analyzes defined data sources and input fields. After recommendations are generated, you can accept or dismiss them individually, with accepted recommendations helping to streamline impact analysis and improve compliance accuracy. For more information, see [Recommendation contexts and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/recommendation-contexts.md).
+Recommendation skills help regulatory analysts quickly identify impacted areas by generating AI-driven suggestions based on the content of a regulatory alert. These skills can be configured to be available at all times or conditionally triggered depending on the alert’s status. They’re typically accessible when the alert is in any state except Closed or Cancelled. To generate meaningful recommendations, the LLM analyzes defined data sources and input fields. After recommendations are generated, you can accept or dismiss them individually, with accepted recommendations helping to streamline impact analysis and improve compliance accuracy. For more information, see [Recommendation contexts and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/recommendation-contexts.md).
 
 ## Procedure
 
@@ -52,9 +52,9 @@ Recommendation skills help regulatory analysts quickly identify impacted areas b
 
     You can perform the following actions on ServiceNow Otto skills if you have the sn\_generative\_ai.nsa\_admin role:
 
-    -   [Edit an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-a-now-assist-skill.md)
-    -   [Make a copy of AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md)
-    -   [Troubleshoot an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/troubleshoot-a-now-assist-skill.md)
+    -   [Edit a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/edit-a-now-assist-skill.md)
+    -   [Make a copy of a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md)
+    -   [Troubleshoot a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/troubleshoot-a-now-assist-skill.md)
     Activating a copy of a Regulatory alert impacted citations, Regulatory alert impacted control objectives, Regulatory alert impacted controls, or Regulatory alert impacted policies skill deactivates any other version of the same skill, including the default version.
 
 <table id="id_o2v_k4c_cfc"><thead><tr><th>
@@ -120,15 +120,15 @@ Template used for this skill.
 </td></tr></tbody>
 </table>5.  Define the user roles that can access the skill by selecting **Define access** and specifying a User access option.
 
-<table id="choicetable_mvq_4wl_tgc"><thead><tr><th align="left" id="d228606e342">
+<table id="choicetable_mvq_4wl_tgc"><thead><tr><th align="left" id="d231424e342">
 
 Option
 
-</th><th align="left" id="d228606e345">
+</th><th align="left" id="d231424e345">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d228606e351">
+</th></tr></thead><tbody><tr><td id="d231424e351">
 
 **Any authenticated user**
 
@@ -136,7 +136,7 @@ Description
 
 Any user that has successfully logged in can access this skill.
 
-</td></tr><tr><td id="d228606e360">
+</td></tr><tr><td id="d231424e360">
 
 **Select Roles**
 
@@ -164,5 +164,5 @@ A user with the role you specify can access this skill. **Note:** For recommenda
 
 ## What to do next
 
-You can now use a recommendation skills for regulatory alerts. You can generate recommendations for any regulatory alert that is not in the Closed or Cancelled state. For more information, see [Generate recommendations for a regulatory alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/create-recommendation-reg-alert.md).
+You can now use a recommendation skills for regulatory alerts. You can generate recommendations for any regulatory alert that is not in the Closed or Cancelled state. For more information, see [Generate recommendations for a regulatory alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/create-recommendation-reg-alert.md).
 

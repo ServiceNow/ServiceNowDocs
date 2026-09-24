@@ -3,13 +3,13 @@ title: License usage view
 description: Use the license usage view as a single plane to understand the license position of all software products, remediate non-compliance, view reconciliation results, view, or add removal candidates, and view Software Asset Management related reports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/sam-workspace-workbench.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
-breadcrumb: [Software Asset Workspace, Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software Asset Workspace, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # License usage view
@@ -18,7 +18,7 @@ Use the license usage view as a single plane to understand the license position 
 
 ## Overview of the License usage view
 
-The License usage view enables you to view the license usage trends for your organization and helps forecast the needs of your organization by trending the number of licenses required against the number of licenses purchased. Manage your license positions by purchasing additional rights before software consumption surpasses the number of rights owned.
+The License usage view enables you to view the license usage trends for your organization. This view helps forecast the needs of your organization by trending the number of licenses required against the number of licenses purchased. Manage your license positions by purchasing additional rights before software consumption surpasses the number of rights owned.
 
 Access the License usage view by navigating to **Software Asset Workspace** &gt; **License usage**.
 
@@ -26,16 +26,16 @@ Access the License usage view by navigating to **Software Asset Workspace** &gt;
 
 Use the License usage view to:
 
--   pin publishers \(user specific, saved\).
+-   pin publishers in the card view \(user specific, saved\).
 -   view key metrics for the publishers, such as over-licensed amount and true-up cost.
 -   filter by domain and compliance status.
 -   sort by true-up cost, over-licensed amount, and potential savings.
 -   run a reconciliation and view its results.
 -   be informed about the last reconciliation run.
--   view and add new removal candidates.
+-   view reclamation summary.
 -   view and export reports.
 -   generate a report on your ELP data.
--   view publisher cards specific to the software products that you published as part of the phase-wise implementation of Software Asset Management. For more information, see [Publish a specific set of your software products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/add-published-products.md).
+-   view publisher cards specific to the software products that you published as part of the phase-wise implementation of Software Asset Management. For more information, see [Publish a specific set of your software products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/add-published-products.md).
 
     **Note:** The filter for published status is automatically applied.
 
@@ -77,7 +77,7 @@ View the following related lists for a publisher and its products.
 -   License Metric Results: A license metric result record is generated for each license metric associated with a software model.
 -   Removal candidates: list of removal candidates.
 -   Entitlements: entitlements associated to the publisher.
--   Product install analysis: the license consumption analysis for products of a publisher. Open a record to view a hierarchical node map that illustrates how the installations of a specific product are being licensed. Product install analysis is available at the publisher level and not at the individual product level. For more details, see [View license usage for your installations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/view-install-usage.md).
+-   Product install analysis: the license consumption analysis for products of a publisher. Open a record to view a hierarchical node map that illustrates how the installations of a specific product are being licensed. Product install analysis is available at the publisher level and not at the individual product level. For more details, see [View license usage for your installations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/view-install-usage.md).
 
 To prevent clutter in the Publisher details page, software models results are shown only for software models that have entitlements. Software models without any entitlements are shown at the product level in the product results. To view software model results for all software models with or without entitlements, you can set the property, **com.snc.samp.unlicensed\_smr\_creation**, to true. By default, this property is set to false.
 
@@ -91,7 +91,7 @@ The navigation view shows license compliance details of products that were publi
 
 In the navigation view, a non-consumption icon is displayed next to a software model that has not utilized any licenses. Such software models are always positioned at the bottom of the tree and no software model results are shown for that software model.
 
-A brief summary of metrics appears along with related lists pertaining to that publisher. For details on the metrics, refer to the Publisher metrics table. For details on the related lists, refer to [License usage publisher fields in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/workbench-publisherfields-workspace.md).
+A brief summary of metrics appears along with related lists pertaining to that publisher. For details on the metrics, refer to the Publisher metrics table. For details on the related lists, refer to [License usage publisher fields in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/workbench-publisherfields-workspace.md).
 
 The navigation tree enables you to perform the following actions:
 
@@ -179,7 +179,7 @@ Indicates the unlicensed entities for this publisher, product, and software mode
 -   Non-entitled product installs: indicates products with installations at ServiceNow that currently have no associated entitlements. You need to create entitlements for these products.
 -   Installs requiring action: indicates an action that you need to perform to fix an issue for an installation, such as problems with CIs, entitlement, or software model setup.
 
-After you select Installs requiring action, a list appears showing installs that need action, organized by reason categorizes. Select **Show all** to expand and view the specific list of installs. You can further select a value in the Reason column for a more detailed explanation of the reason. For details on reconciliation results such as product results and software model results, see [Software reconciliation results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-reconciliation-results.md).
+After you select Installs requiring action, a list appears showing installs that need action, organized by reason categorizes. Select **Show all** to expand and view the specific list of installs. You can further select a value in the Reason column for a more detailed explanation of the reason. For details on reconciliation results such as product results and software model results, see [Software reconciliation results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/software-reconciliation-results.md).
 
 **Note:** An installation may have more than one issue. It is necessary to address each issue to fully resolve problems with an installation. Therefore, the number shown on the progress indicator and the details when you drill down may not align. Please ensure all issues are fixed for the installation.
 
@@ -218,37 +218,35 @@ Indicates the compliance progress already made for this publisher, product, and 
 </td></tr></tbody>
 </table>## Reconciliation tab
 
-You can view all the historical reconciliation results in this tab along with the following status:
+View all the historical reconciliation results in this tab along with the following status:
 
 -   **Completed**: If all the products and publishers completed reconciliation successfully.
 -   **Failed**: If all the products and publishers failed reconciliation.
 -   **Partially Completed**: If only some products or publishers completed reconciliation successfully.
 
-Results of the latest reconciliation run are shown in the License usage view. For more details, see [Software reconciliation for compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMReconciliation.md).
+Results of the latest reconciliation run are shown in the License usage view. For more details, see [Software reconciliation for compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/c_SAMReconciliation.md).
 
-## Removal candidates tab
+## Reclamation tab
 
-View a list of all removal candidates in this tab. Removal candidates are used to reclaim software installations that aren’t being used.
-
-You can also create removal candidates. For more details, see [Create a software removal candidate in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/add-sw-removal-workspace.md).
+View consolidated reclamation summary across all publishers, SaaS integrations, installed software, and reconciliation flows. Access individual records for reviewing the reclamation details and act accordingly.
 
 ## Reports tab
 
-You can create, view, and run reports from this tab. All the following base system reports are available in this tab:
+Create, view, and run reports from this tab. All the following base system reports are available in this tab:
 
--   [Software product lifecycle report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-models-and-entitlements.md)
--   [Software license compliance position](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-license-position-report.md)
--   [Azure BYOL realized savings report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/azure-byol-realized-savings-report.md)
--   [Software models with deactivated discovery maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-content-updates.md)
--   [Oracle DB Server Deployments per Agreement report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/oracle-server-agreement.md)
--   [Oracle Infrastructure report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/oracle-infrastructure-report.md)
--   [Microsoft Windows and SQL Server infrastructure details reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/azure-byol-realized-savings-report.md)
--   [SaaS detection report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/shadow-saas-analytics.md)
--   [Microsoft Server Infrastructure and License Consumption report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/device-license-consumption-report.md)
+-   [Software product lifecycle report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/software-models-and-entitlements.md)
+-   [Software license compliance position](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sam-license-position-report.md)
+-   [Azure BYOL realized savings report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/azure-byol-realized-savings-report.md)
+-   [Software models with deactivated discovery maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sam-content-updates.md)
+-   [Oracle DB Server Deployments per Agreement report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/oracle-server-agreement.md)
+-   [Oracle Infrastructure report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/oracle-infrastructure-report.md)
+-   [Microsoft Windows and SQL Server infrastructure details reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/azure-byol-realized-savings-report.md)
+-   [SaaS detection report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/shadow-saas-analytics.md)
+-   [Microsoft Server Infrastructure and License Consumption report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/device-license-consumption-report.md)
 
-To create and manage reports, see [Create and manage reports in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-new-report-workspace.md).
+To create and manage reports, see [Create and manage reports in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-new-report-workspace.md).
 
 ## ELP Grouping tab
 
-Generate a report that groups your effective license position \(ELP\) data on existing reconciliation groups without needing to re-run the reconciliation process. For details on generating a ELP report, see [Generate an Effective License Position \(ELP\) report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/generate-elp-report-sam.md).
+Generate a report that groups your effective license position \(ELP\) data on existing reconciliation groups without needing to re-run the reconciliation process. For details on generating a ELP report, see [Generate an Effective License Position \(ELP\) report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/generate-elp-report-sam.md).
 

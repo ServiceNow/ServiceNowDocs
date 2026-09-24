@@ -3,11 +3,11 @@ title: Review granular findings
 description: Review granular findings in Data Discovery Store
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/data-discovery/dds-review-granular-findings.html
-release: australia
+release: brazil
 product: Data Discovery
 classification: data-discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data Discovery scheduled discovery, Data Discovery Store, Data Discovery, Platform Privacy]
 ---

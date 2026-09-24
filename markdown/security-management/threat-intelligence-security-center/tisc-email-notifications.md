@@ -3,11 +3,11 @@ title: Email Notifications
 description: Use email notifications to send selected users email notifications about specific tasks within the application, such as updates to observables/indicators/various other objects.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-email-notifications.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage email Notifications, Administer, Threat Intelligence Security Center, Security Operations]
 ---
@@ -30,7 +30,7 @@ Email notifications allow administrators to specify:
 
 **Note:** If you want to make changes, then you need to configure whom the email should be sent by modifying the base system rules based on your requirements.
 
-For more information, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md) section on ServiceNow AI Platform administration documentation.
+For more information, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateANotification.md) section on ServiceNow AI Platform administration documentation.
 
 The following table details the email notification rules that are provisioned in the base system.
 
@@ -49,7 +49,7 @@ The following table details the email notification rules that are provisioned in
 
 **Note:** Clicking on each email notification will take you to the classic UI, so that you can take necessary actions such as viewing or editing or creating the notifications.
 
-**Parent Topic:**[Manage email Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-notifications.md)
+**Parent Topic:**[Manage email Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-notifications.md)
 
 **Related topics**  
 

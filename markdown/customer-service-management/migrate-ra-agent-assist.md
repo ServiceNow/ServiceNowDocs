@@ -3,9 +3,9 @@ title: Enable AI search in Recommended Actions
 description: As an admin, you can enable the Recommended Actions - AI search on the Front-line case page, CSM default record page, and CSM Interaction page \(for chat, video, walk-up, and email channels\) by setting the hideAgentAssistShowRA UX page property to true.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/migrate-ra-agent-assist.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring AI search, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -52,7 +52,7 @@ Customers who on-boarded before Yokohama release
 
 Agent Assist is enabled by default with the option to manually migrate to Recommended Actions - AI search.To migrate from Agent Assist to Recommended Actions - AI Search create and set the **hideAgentAssistShowRA** UX page property to `True`.
 
-**Note:** If you already created this property for enabling [Recommended Actions in the chat interaction record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-chat-interaction-record.md), you need not create it again.
+**Note:** If you already created this property for enabling [Recommended Actions in the chat interaction record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-csm-chat-interaction-record.md), you need not create it again.
 
 </td></tr></tbody>
 </table>## Procedure
@@ -74,7 +74,7 @@ Agent Assist is enabled by default with the option to manually migrate to Recomm
     |Type|True or False|
     |Value|Enables or disables the property. Set the value to `true` to enable the property.|
     |Application|Application scope in which the property is being created.|
-    |Description|Brief description of the UX page property that you are creating.|
+    |Description|Brief description of the UX page property that you're creating.|
 
 5.  Select **Save**.
 

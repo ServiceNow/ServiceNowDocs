@@ -3,7 +3,7 @@ title: Set up a results letter using a template in Grants Management
 description: Select which letter templates you want to use to notify applicants of their results for their proposals submitted for this program. These templates will be sent out once the final decisions have been made. The templates include an acceptance letter, a rejection letter, an ineligible letter, and a merit review summary.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-gmp-using-pgr-set-results.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-03-11"
 reading_time_minutes: 1
@@ -18,7 +18,7 @@ Select which letter templates you want to use to notify applicants of their resu
 
 Role required: sn\_gsm\_grnt\_mgmt.program\_manager, sn\_gsm\_grnt\_mgmt.grant\_director
 
-**Note:** Requires it to already be created. For info on how to create see [Create a Grants Program results letter template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-configure-results-template.md)
+**Note:** Requires it to already be created. For info on how to create see [Create a Grants Program results letter template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-configure-results-template.md)
 
 ## Procedure
 
@@ -37,5 +37,5 @@ Role required: sn\_gsm\_grnt\_mgmt.program\_manager, sn\_gsm\_grnt\_mgmt.grant\_
 
 ## What to do next
 
-[Set up the grants program announcement details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-gmp-pgr-announcement.md)
+[Set up the grants program announcement details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-using-gmp-pgr-announcement.md)
 

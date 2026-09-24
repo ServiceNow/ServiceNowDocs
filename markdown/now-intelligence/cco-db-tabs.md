@@ -3,9 +3,9 @@ title: Chief Customer Operations Officer Dashboard tabs
 description: Organizing insights into these pillars enables Chief Customer Operations Officer \(CCO\) to improve customer experience, increase proactive service maturity, drive digital self-service adoption, strengthen service performance, and reduce customer risk.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/cco-db-tabs.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Chief Customer Operations Officer \(CCO\) Dashboard, Executive dashboard overview, Platform Analytics]
 ---

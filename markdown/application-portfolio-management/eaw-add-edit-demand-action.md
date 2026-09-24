@@ -3,9 +3,9 @@ title: Add or edit a demand action
 description: Add or edit a demand action that help you enhance the capability of the applications in the Enterprise Architecture Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-add-edit-demand-action.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure demand actions, Configure EA Workspace using the Setup page, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -34,15 +34,15 @@ Role required: admin
     -   To update details of an existing demand action, select an action, then select **Edit**.
 6.  On the form, fill in the fields.
 
-    For field information, see [Demand Actions Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-demand-action-form.md).
+    For field information, see [Demand Actions Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-demand-action-form.md).
 
 7.  Select **Save**.
 
 
-**Parent Topic:**[Configure demand actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-setup-demand-actions.md)
+**Parent Topic:**[Configure demand actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-setup-demand-actions.md)
 
 **Related topics**  
 
 
-[View all demand-actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-demand-actions.md)
+[View all demand-actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-demand-actions.md)
 

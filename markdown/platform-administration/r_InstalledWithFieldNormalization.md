@@ -3,9 +3,9 @@ title: Installed with field normalization
 description: Several components are installed with Field Normalization.Manage field normalization and transformation.Create test records for normalizations and transformations. Only records opened by users with this role are available for testing normalization and transformation rules in Test mode.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_InstalledWithFieldNormalization.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Activate Field Normalization, Field normalization and transformation, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -71,7 +71,7 @@ The following business rules were created for this plugin:
 **Related topics**  
 
 
-[Enable auditing for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_EnableAuditingForATable.md)
+[Enable auditing for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_EnableAuditingForATable.md)
 
 ## Normalizer \[normalizer\]
 

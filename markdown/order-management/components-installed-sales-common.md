@@ -3,9 +3,9 @@ title: Components installed with Sales Common
 description: Several types of components are installed with activation of the Sales Common \(sn\_sales\_common\) plugin, including user roles and tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/components-installed-sales-common.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-08-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sales automation, Reference, Sales Customer Relationship Management]
 ---
@@ -152,5 +152,5 @@ Sales CRM Progression Checkpoint
 Records that track progression checkpoint events for an object as it moves through the sales life cycle.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Sales automation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reference-lead-opportunity-mgt.md)
+</table>**Parent Topic:**[Sales automation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/reference-lead-opportunity-mgt.md)
 

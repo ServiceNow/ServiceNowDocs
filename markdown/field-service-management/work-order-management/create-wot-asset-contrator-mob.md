@@ -3,11 +3,11 @@ title: Create work orders for a selected asset on a mobile device
 description: Create a work order for an asset through the Field Service Contractor for mobile application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/create-wot-asset-contrator-mob.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Field Service Contractor for mobile, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
@@ -32,7 +32,7 @@ Role required: wm\_ext\_agent or wm\_ext\_manager
     -   Enter the asset code in **Asset Tag**.
 4.  Tap the asset record and do one of the following actions.
 
-<table id="choicetable_hzl_5p3_dwb"><tbody><tr><td id="d89923e103">
+<table id="choicetable_hzl_5p3_dwb"><tbody><tr><td id="d92828e103">
 
 **To create a work order for this asset**
 

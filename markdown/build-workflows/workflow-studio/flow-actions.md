@@ -3,11 +3,11 @@ title: Workflow Studio actions
 description: Actions can be added to any flow, enabling process analysts to automate ServiceNow AI Platform features without having to write code.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-actions.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -44,78 +44,80 @@ A ServiceNow core action is an action available to any flow regardless of the sp
 
 You can find any custom actions you created in the spoke to which they belong. Alternatively, use the Search Actions filter to search for actions by name.
 
--   **[Add Worknote Link to Context action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/add-worknote-link.md)**  
+-   **[Add Worknote Link to Context action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/add-worknote-link.md)**  
 Add a journal field entry containing a link to the current flow context record. Use the link to view the flow execution details of the current flow. You can add a flow context link to any record that has a journal field.
--   **[Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/ask-approval-flow-designer.md)**  
+-   **[Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/ask-approval-flow-designer.md)**  
 Request approval for a record. Configure a set of rules to automatically approve, reject, or cancel an approval request without having to write script. Add a due date to automatically approve, reject, or cancel when a decision has not been made by a designated time.
--   **[Associate Record to Email action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/associate-to-email-action.md)**  
+-   **[Associate Record to Email action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/associate-to-email-action.md)**  
 Associate a record with an Email \[sys\_email\] record so that you can track which record is affected by the email.
--   **[Create Catalog Task action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-catalog-task-flow-designer.md)**  
+-   **[Create Catalog Task action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-catalog-task-flow-designer.md)**  
 Creates a record in the Catalog Task \[sc\_task\] table associated to a requested item in the Requested Items \[sc\_req\_item\] table. Adds the catalog task record as data to be used in the flow.
--   **[Create Flow Data action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow-data-flow-designer.md)**  
+-   **[Create Flow Data action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-flow-data-flow-designer.md)**  
 Collect data from agents interacting with a Workspace playbook. Use this data to create reusable activities for process owners using Playbooks.
--   **[Create Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-record-flow-designer.md)**  
+-   **[Create Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-record-flow-designer.md)**  
 Creates a record on any table. You can dynamically add and configure fields for the record.
--   **[Create or Update Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-update-record-designer.md)**  
+-   **[Create or Update Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-update-record-designer.md)**  
 Create or update a record in a ServiceNow table using a single operation. Update a record that exists, or create a record using the values provided.
--   **[Create Task action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-task-flow-designer.md)**  
+-   **[Create Task action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-task-flow-designer.md)**  
 Create a task record in an extension of the Task table. After you choose the task table, you can dynamically select the fields to configure the action. Defining the Parent field associates the task to a parent record.
--   **[Copy Attachment action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/copy-attachment-flow-designer.md)**  
+-   **[Copy Attachment action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/copy-attachment-flow-designer.md)**  
 Copies an attachment from the Attachments \[sys\_attachment\] table to a target record.
--   **[Delete Attachment action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/delete-attachment-flow-designer.md)**  
+-   **[Delete Attachment action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/delete-attachment-flow-designer.md)**  
 Removes one or all attachments associated with a record and deletes the attachment record from the Attachments \[sys\_attachment\] table.
--   **[Delete Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/delete-record-flow-designer.md)**  
+-   **[Delete Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/delete-record-flow-designer.md)**  
 Deletes a record on any table.
--   **[Execute Skill action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/execute-skill-action.md)**  
+-   **[Execute Skill action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/execute-skill-action.md)**  
 Run a published ServiceNow Otto for Creator skill and use the skill outputs in a flow or subflow.
--   **[Fire Event action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/fire-event-action.md)**  
+-   **[Fire Event action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/fire-event-action.md)**  
 Create a system event record in the Event \[sysevent\] table to be processed by a scheduled event handler. Pass event parameters using flow data.
--   **[Get Attachments on Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/get-attachments-rec.md)**  
+-   **[Get Attachments on Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/get-attachments-rec.md)**  
 Access the list and count of the attachments associated with the provided source record as data pills in a flow. Use flow logic or scripting to process each attachment in the list of the attachments that the action returns.
--   **[Get Catalog Variables action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/get-cat-variables-flow-designer.md)**  
+-   **[Get Catalog Variables action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/get-cat-variables-flow-designer.md)**  
 Select variables from multiple template catalog items and variable sets using the Get Catalog Variables action.
--   **[Get Email Header action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/get-header-action.md)**  
+-   **[Get Email Header action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/get-header-action.md)**  
 Access an email header value as a data pill in a flow.
--   **[Get Latest Response Text From Email action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/get-latest-response-text-from-email-flow-designer.md)**  
+-   **[Get Latest Response Text From Email action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/get-latest-response-text-from-email-flow-designer.md)**  
 Provide the most recent reply or forward message in an e-mail chain to other actions in your flow.
--   **[Log action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/log-message-flow-designer.md)**  
+-   **[Log action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/log-message-flow-designer.md)**  
 Logs a message in the Workflow Studio log table sys\_flow\_log.
--   **[Look Up Attachment action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/lookup-attachment-flow-designer.md)**  
+-   **[Look Up Attachment action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/lookup-attachment-flow-designer.md)**  
 Looks up an attachment associated with a record and returns the Attachment Sys ID as a data pill.
--   **[Look up email attachments action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/lookup-email-attachment.md)**  
+-   **[Look up email attachments action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/lookup-email-attachment.md)**  
 Look up files that are attached to an email so that you can perform an action on the files.
--   **[Look Up Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/lookup-record-flow-designer.md)**  
+-   **[Look Up Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/lookup-record-flow-designer.md)**  
 Look up a record from any table based on defined conditions.
--   **[Look Up Records action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/lookup-records-flow-designer.md)**  
+-   **[Look Up Records action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/lookup-records-flow-designer.md)**  
 Look up multiple records on any table using defined conditions.
--   **[Move Attachment action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/move-attachment.md)**  
+-   **[Move Attachment action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/move-attachment.md)**  
 Associates a record from the Attachment \[sys\_attachment\] table with a target record. Removes the attachment from any other associated records.
--   **[Move Email Attachments to Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/move-email-attachments-action.md)**  
+-   **[Move Email Attachments to Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/move-email-attachments-action.md)**  
 Move attachments from an email to a record so that the files are available to your users when they view the record.
--   **[Record Producer action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/record-producer-flow-designer.md)**  
+-   **[Record Producer action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/record-producer-flow-designer.md)**  
  Create a Task record from a Record Producer Catalog Item \[sc\_cat\_item\]. The Task record inherits values from the catalog item's variable values.
--   **[Send Email action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/send-email-flow-designer.md)**  
+-   **[Run script action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/run-script-action.md)**  
+Run custom JavaScript code within a reusable action.
+-   **[Send Email action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/send-email-flow-designer.md)**  
 Send an email to specified users or groups as an action in a flow.
--   **[Send Notification action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/send-notification-action.md)**  
+-   **[Send Notification action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/send-notification-action.md)**  
 Send an email notification to predefined recipients with predefined content. Select or create a Notification \[sysevent\_email\_action\] record to configure the email notification.
--   **[Send SMS action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/send-sms-action.md)**  
+-   **[Send SMS action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/send-sms-action.md)**  
 Send an email-based SMS text message to specified users or groups using your instance email server. Recipients must have an SMS device configured to receive the message.
--   **[SLA Percentage Timer action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/sla-percentage-timer-action.md)**  
+-   **[SLA Percentage Timer action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/sla-percentage-timer-action.md)**  
 Identify when a task SLA record reaches a specific percentage value and perform other actions or flow logic that is based on the SLA percentage. For example, send a notification when an SLA percentage timer completes.
--   **[Submit Catalog Item Request action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/submit-catalog-item-request-flow-designer.md)**  
+-   **[Submit Catalog Item Request action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/submit-catalog-item-request-flow-designer.md)**  
 Create a requested item \[sc\_req\_item\] on a Service Catalog Request \[sc\_request\].
--   **[Update Multiple Records action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/update-multiple-records-flow-designer.md)**  
+-   **[Update Multiple Records action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/update-multiple-records-flow-designer.md)**  
 Look up and update multiple records as a single action. Using this action removes the need to separately look up a list of records and then process the list with For Each flow logic. Set field values with a template or add and configure them using data pills.
--   **[Update Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/update-record-flow-designer.md)**  
+-   **[Update Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/update-record-flow-designer.md)**  
 Update an existing record in a table. You can dynamically add and configure fields for the record.
--   **[Use an AI agent action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/use-an-ai-agent-action.md)**  
+-   **[Use an AI agent action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/use-an-ai-agent-action.md)**  
 Use flow data to run an AI agent and configure the expected agent output for use later in the flow.
--   **[Wait For Condition action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/wait-for-condition-flow-designer.md)**  
+-   **[Wait For Condition action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/wait-for-condition-flow-designer.md)**  
 Pause a flow until record values match a specific set of conditions.
--   **[Wait For Email Reply action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/wait-for-email-reply-action.md)**  
+-   **[Wait For Email Reply action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/wait-for-email-reply-action.md)**  
 Pause a flow until an email reply is received to an outbound email record
--   **[Wait For Message action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/wait-for-message-action.md)**  
+-   **[Wait For Message action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/wait-for-message-action.md)**  
 Pause a flow until it receives a specific message from the flow API. Specify the string message that resumes running the flow, and optionally provide a time out value to resume the flow if no message is received after a specific amount of time.
 
-**Parent Topic:**[Flows, subflows, and actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-designer-reference.md)
+**Parent Topic:**[Flows, subflows, and actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-designer-reference.md)
 

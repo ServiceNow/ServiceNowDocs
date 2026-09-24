@@ -3,9 +3,9 @@ title: Create a card template with Mobile Card Builder
 description: Use Mobile Card Builder to create a card template to use for cards in your mobile screens.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/mcb-create-template.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mobile Card Builder, Building tools, Building mobile apps, Mobile Platform]
 ---
@@ -18,7 +18,7 @@ Use Mobile Card Builder to create a card template to use for cards in your mobil
 
 Role required: admin or delegated developer
 
-For more information about the delegated developer role, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_DelegatedDevelopment.md).
+For more information about the delegated developer role, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_DelegatedDevelopment.md).
 
 ## About this task
 
@@ -46,7 +46,7 @@ For more information about the delegated developer role, see [Delegated developm
 
 6.  Add elements to your card template using the card builder interface.
 
-    For details on using the card builder UI, see [Mobile Card Builder user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mcb-stage-ui.md)
+    For details on using the card builder UI, see [Mobile Card Builder user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mcb-stage-ui.md)
 
 7.  Open the screen where you want to apply your card template by using the following methods.
 
@@ -57,7 +57,7 @@ For more information about the delegated developer role, see [Delegated developm
 
 9.  If you want to assign field values to your card, you can do that at this point.
 
-    For details on that process, see [Assign field values to your mobile card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mcb-assign-fields.md).
+    For details on that process, see [Assign field values to your mobile card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mcb-assign-fields.md).
 
 10. Select **Save**.
 

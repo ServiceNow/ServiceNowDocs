@@ -3,11 +3,11 @@ title: Breakdown work from parent work item into child items in EAP
 description: Streamline breaking down work by creating child work items directly from the parent record page in Enterprise Agile Planning workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/breakdown-work-eap-epics-capabilities-child-work.html
-release: australia
+release: brazil
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage team backlog, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -59,11 +59,11 @@ This task provides guidance to create child items directly from the parent work 
 
 ## What to do next
 
--   Refine the description with Now Assist. See [Improve efficiency and quality using refine records skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/refine-text-with-write-planning-item-skill.md).
+-   Refine the description with Now Assist. See [Improve efficiency and quality using refine records skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/product-feedback/refine-text-with-write-planning-item-skill.md).
 
     This feature requires activating the Write planning item skill of ServiceNow Otto for SPM.
 
--   [Schedule work items into iterations in EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/schedule-work-items-into-iterations-in-eap-backlog.md).
+-   [Schedule work items into iterations in EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/schedule-work-items-into-iterations-in-eap-backlog.md).
 
-**Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/using-eap.md)
+**Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/using-eap.md)
 

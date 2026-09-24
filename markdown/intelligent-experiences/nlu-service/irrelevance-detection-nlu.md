@@ -1,18 +1,18 @@
 ---
-title: Irrelevance detection in NLU
+title: \(Legacy\) Irrelevance detection in NLU
 description: Keep Virtual Agent chats focused with Irrelevance detection. Use the Irrelevance detection feature to train your NLU model to avoid making predictions for utterances that are not relevant.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/irrelevance-detection-nlu.html
-release: australia
+release: brazil
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Model management, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Irrelevance detection in NLU
+# \(Legacy\) Irrelevance detection in NLU
 
 Keep Virtual Agent chats focused with Irrelevance detection. Use the Irrelevance detection feature to train your NLU model to avoid making predictions for utterances that are not relevant.
 
@@ -42,7 +42,7 @@ There are several methods for adding utterances to **Irrelevance detection**:
 
 -   The Virtual Agent chat log: In the Expert Feedback Loop in NLU Workbench, when you review an utterance collected from the Virtual Agent chat log, you can mark it as `Not relevant`. The system will ask whether it should be irrelevant to a particular model, or to all models. After adding, these utterances may display as **NO\_INTENT** in Expert Feedback Loop.
 
-    For more information on Expert Feedback Loop in NLU, see [NLU Expert Feedback Loop](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-expert-feedback-loop.md).
+    For more information on Expert Feedback Loop in NLU, see [\(Legacy\) NLU Expert Feedback Loop](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/nlu-expert-feedback-loop.md).
 
     These utterances have a Source of **VA Chat Logs** in the Irrelevance detection table.
 
@@ -52,7 +52,7 @@ There are several methods for adding utterances to **Irrelevance detection**:
 
 -   Importing: When you use a CSV or XLSX \(Excel Workbook\) file to import training utterances and their intents, you can indicate irrelevant utterances by leaving the Intent column empty. These utterances may display as **NO\_INTENT** in areas such as Expert Feedback Loop and Conflict Review.
 
-    For more information on importing utterances and intents, see [Create an NLU model from a CSV file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-nlu-model-csv.md).
+    For more information on importing utterances and intents, see [\(Legacy\) Create an NLU model from a CSV file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/create-nlu-model-csv.md).
 
     These utterances have a Source of **Manual** in the Irrelevance detection table.
 
@@ -77,11 +77,11 @@ Because irrelevant utterances impact the model's predictions, they are displayed
 
 There are two locations where conflicts with irrelevant utterances are highlighted:
 
--   The Cross-model Conflict Review module. For more information about this module, see [Cross-model Conflict Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-intent-conflict-review-resolution.md).
+-   The Cross-model Conflict Review module. For more information about this module, see [\(Legacy\) Cross-model Conflict Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/nlu-intent-conflict-review-resolution.md).
 
-    **Note:** The Cross-model Conflict Review module is available with the NLU Workbench - Advanced Features application from ServiceNow® Store. For more information, see [NLU Workbench - Advanced Features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-workbench-advanced-features.md).
+    **Note:** The Cross-model Conflict Review module is available with the NLU Workbench - Advanced Features application from ServiceNow® Store. For more information, see [\(Legacy\) NLU Workbench - Advanced Features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/nlu-workbench-advanced-features.md).
 
--   The Conflicts tab of an intent. For more information on conflicts in an intent, see [Resolve intent issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/resolve-intent-issues.md).
+-   The Conflicts tab of an intent. For more information on conflicts in an intent, see [\(Legacy\) Resolve intent issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/resolve-intent-issues.md).
 
 For the purpose of reviewing conflicts, irrelevant utterances are displayed as though they are in their own intent, named **NO\_INTENT**.
 

@@ -3,11 +3,11 @@ title: Set the on-click behavior of a Core UI report
 description: You can configure a URL to open when you select a section of a report.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/set-report-on-click.html
-release: australia
+release: brazil
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -22,31 +22,29 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 ## About this task
 
-You can redirect users to a URL rather than to the configured drilldown or the list that underlies the selected section of a report.
+Redirect the user to a URL rather than to the configured drilldown or the list that underlies the selected section of a report.
 
-See [Define a report drilldown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_DrillingDownWithinReports.md) for the report types that don't support the drilldown feature.
+See [Define a report drilldown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_DrillingDownWithinReports.md) for the report types that don't support the drilldown feature.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Reports**.
+1.  Navigate to **All** &gt; **Reports** &gt; **View / Run**.
 
 2.  Select the report that you want to configure.
 
-3.  Select **View Report**.
+3.  Select the **Show report structure** icon \(\[Omitted image "Form\_ShowReportStructureIcon.png"\] Alt text: Show report structure\).
 
-4.  Select the **Show report structure** icon \(\[Omitted image "Form\_ShowReportStructureIcon.png"\] Alt text: Show report structure\).
+4.  Select the link icon \(\[Omitted image "link-icon.png"\] Alt text:\).
 
-5.  Select the link icon \(\[Omitted image "link-icon.png"\] Alt text:\).
+5.  In the **Set redirect URL** dialog box, enter relative link within the instance, for example, `/$knowledge.do?sys_id=123`.
 
-6.  In the **Set redirect URL** dialog box, enter a relative link within the instance, for example, `/$knowledge.do?sys_id=123`.
+    When the user points to the report, the tooltip includes the text **Click to open**.
 
-    When the user hovers over the report, the tooltip includes the text **Click to open**.
+6.  Enter a label for the URL.
 
-7.  Enter a label for the URL.
+    When the user points to the report, the tooltip includes the text **Click to open** and the text of the label, for example, Click to open Knowledge Base.
 
-    When the user hovers over the report, the tooltip includes the text **Click to open** and the text of the label, for example, Click to open Knowledge Base.
-
-8.  Select **Save**.
+7.  Select **Save**.
 
     \[Omitted image "report-config-redirect.gif"\] Alt text: Animation illustrating the steps to configure a report redirect to a URL
 
@@ -55,5 +53,5 @@ See [Define a report drilldown](https://raw.githubusercontent.com/ServiceNow/Ser
 
 When you select the report, the redirect URL replaces any drilldown functionality.
 
-**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdvancedReporting.md)
+**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_AdvancedReporting.md)
 

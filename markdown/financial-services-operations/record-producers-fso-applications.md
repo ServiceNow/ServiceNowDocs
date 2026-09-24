@@ -3,9 +3,9 @@ title: Record producers for Financial Services Operations applications
 description: A record producer enables your users to submit banking requests from the Banking Service catalog and Consumer Service portal and stores the requested information as a record in the associated table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/record-producers-fso-applications.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Record producers, Configure, Financial Services Operations \(FSO\)]
 ---

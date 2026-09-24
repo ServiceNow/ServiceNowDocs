@@ -3,11 +3,11 @@ title: TuneUp Your Employee Center
 description: The TuneUp Your Employee Center Accelerator provides guidance on maintaining and governing your ServiceNow Employee Center health to optimize value.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/tuneup-employee-center.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
@@ -20,7 +20,7 @@ The TuneUp Your Employee Center Accelerator provides guidance on maintaining and
 
 TuneUp Your Employee Center provides Impact customers with an assessment of their current Employee Center implementation. Through careful analysis, we offer valuable insights and recommendations to enhance the health of their implementation while providing an opportunity to understand untapped value where enhanced capabilities are not yet deployed. Additionally, this Accelerator equips our customers with essential ServiceNow resources and leading practices guides on how to best increase adoption and usage of Employee Center.
 
-For additional information, see [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-center-landing-page.md).
+For additional information, see [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-center-landing-page.md).
 
 ## Package Availability
 

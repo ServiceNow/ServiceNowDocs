@@ -3,11 +3,11 @@ title: Metrics monitored by DEX on Windows
 description: Review the endpoint performance and compliance metrics that DEX collects from managed Windows devices, including collection intervals, and associated check definitions and policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/metrics-monitored-by-dex-windows.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-06-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 keywords: [dex metrics, windows metrics, digital end-user experience, endpoint performance monitoring, check definition, collection interval, agent policy, application metrics, device metrics, cpu usage, memory usage, disk usage, network metrics, wi-fi signal strength, battery details, bitLocker, antivirus, antimalware, bsod, system compliance, windows registry, pending updates, managed devices]
 audience: administrator
@@ -2360,7 +2360,7 @@ os.win.check-system-compliance-details
 No elevated privileges required
 
 </td></tr></tbody>
-</table>**Note:** \* The Disk Usage metric reports storage consumption. For disk I/O throughput by process, see the Disk Usage action in [Digital End-User Experience remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-diff-ra.md).
+</table>**Note:** \* The Disk Usage metric reports storage consumption. For disk I/O throughput by process, see the Disk Usage action in [Digital End-User Experience remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/dex-diff-ra.md).
 
-**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-console-reference.md)
+**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/dex-console-reference.md)
 

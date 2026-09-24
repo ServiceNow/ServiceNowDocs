@@ -3,11 +3,11 @@ title: View events on the Team calendar in Workforce when Workforce Optimization
 description: View or hide events, such as appointments and work order tasks, on the Team calendar when Workforce Optimization for Field Service is installed to view only the events you want to see.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/view-work-order-tasks-on-the-team-calendar-when-wfo-is-installed.html
-release: australia
+release: brazil
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using the team calendar, Managing agents and tasks from Workforce, Managing workforce, Use, Field Service Management]
 ---

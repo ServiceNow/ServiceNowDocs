@@ -3,11 +3,11 @@ title: AI Search in ITSM Mobile Agent
 description: Intelligent query features enable agents to quickly find the required answers in ITSM Mobile Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/ai-search-itsm-mobile-agent.html
-release: australia
+release: brazil
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring ITSM Mobile Agent, ITSM Mobile Agent, IT Service Management]
 ---
@@ -37,12 +37,12 @@ AI Search in ITSM Mobile Agent offers the following features:
 
 \[Omitted image "itsm-mobile-agent.png"\] Alt text: Screenshot for ITSM Mobile Agent
 
-For information about AI search, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/overview-ais.md).
+For information about AI search, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/overview-ais.md).
 
-For information about AI search in mobile, see [AI Search in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/text-search-advanced-now.md).
+For information about AI search in mobile, see [AI Search in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/text-search-advanced-now.md).
 
 The following configurations are added for AI search experience in ITSM Mobile Agent:
 
--   A search application configuration, \[AIS\] ITSM Mobile Agent Search Configuration. For information about search application configurations, see [Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/defining-search-app-cfgs-ais.md).
--   A search profile, ITSM Mobile Agent Search Profile. For information about search profiles, see [Search profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/defining-search-profiles-ais.md).
+-   A search application configuration, \[AIS\] ITSM Mobile Agent Search Configuration. For information about search application configurations, see [Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/defining-search-app-cfgs-ais.md).
+-   A search profile, ITSM Mobile Agent Search Profile. For information about search profiles, see [Search profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/defining-search-profiles-ais.md).
 

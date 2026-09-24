@@ -3,9 +3,9 @@ title: Configure component attributes for the Customer History view
 description: Set the Customer History view component attributes, as required.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-settings-ca-tab.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the Customer History view, Configure Customer Central, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---

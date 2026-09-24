@@ -3,11 +3,11 @@ title: Identify customizations in widget related records
 description: View and identify potentially problematic code in the widget dependencies, Angular Providers, and ng-templates that are being used by the widget.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/view-related-records.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Widget diagnostics, Developing custom widgets, Service Portal, Configure UIs and portals, Configure user experiences]
 ---

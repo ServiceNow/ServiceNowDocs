@@ -3,11 +3,11 @@ title: Viewing incident record information using the Contextual side panel
 description: View the incident record information, such as caller details and assets, from the Contextual side panel. Use this information to help manage an incident more efficiently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/view-inc-record-info-contextual-sidepanel.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Incident Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -20,7 +20,7 @@ Select the **Record information** \(\[Omitted image "mim-record-info.png"\] Alt 
 
 ## Active calls
 
-The Active calls card displays active conference calls that are currently in progress for major incidents. This card is displayed only for major incident records and if the Major Incident Management for Service Operations Workspace \(sn\_sow\_mim\) plugin is installed and active. For more information, see [Setting up Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/setup-mim-sow.md).
+The Active calls card displays active conference calls that are currently in progress for major incidents. This card is displayed only for major incident records and if the Major Incident Management for Service Operations Workspace \(sn\_sow\_mim\) plugin is installed and active. For more information, see [Setting up Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/setup-mim-sow.md).
 
 A maximum of five collaboration records are displayed on this card. You can select the call record links displayed on this card to join the calls. You can use the **Collaborate** side panel tab to view and manage additional call record information.
 
@@ -94,7 +94,7 @@ The Assigned to card displays the assignment status of the incident record. Sele
 
 You can view a list of five collaborators on a page at a time.
 
-**Parent Topic:**[Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/incident-sow.md)
+**Parent Topic:**[Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/incident-sow.md)
 
 **Related topics**  
 

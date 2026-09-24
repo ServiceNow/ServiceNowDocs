@@ -3,11 +3,11 @@ title: Create a serverless schedule for F5 BIG-IP REST OAuth 2.0 authentication-
 description: Create a serverless discovery schedule to discover F5 BIG-IP load balancers through REST OAuth 2.0 authentication \(tokens\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/create-serverless-sched-f5-rest-oauth.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [F5 BIG-IP, Load balancers, Network device discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -19,8 +19,8 @@ Create a serverless discovery schedule to discover F5 BIG-IP load balancers thro
 ## Before you begin
 
 -   Verify you have the IP address for the F5 BIG-IP load balancer.
--   Create a basic authentication credential. For more information, see [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md).
--   Create a alias for the basic authentication credential. For more information, see [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/discovery-credential-alias.md).
+-   Create a basic authentication credential. For more information, see [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_BasicAuthCredentialsForm.md).
+-   Create a alias for the basic authentication credential. For more information, see [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/discovery-credential-alias.md).
 
 Role required: discovery\_admin
 
@@ -78,5 +78,5 @@ Role required: discovery\_admin
 
 Either execute discovery immediately by selecting **Discover now** or wait until the predefined schedule triggers the discovery.
 
-**Parent Topic:**[F5 BIG-IP load balancer discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_LoadBalancerF5BIGIP.md)
+**Parent Topic:**[F5 BIG-IP load balancer discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/c_LoadBalancerF5BIGIP.md)
 

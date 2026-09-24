@@ -3,11 +3,11 @@ title: Context Variable form
 description: Use the Context Variable form to create a context variable for a target source for calculating the actual value of the target based on the configured input values.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/goal-framework/context-variable-form.html
-release: australia
+release: brazil
 product: Goal Framework
 classification: goal-framework
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
@@ -30,7 +30,7 @@ Type
 
 </td><td>
 
-Context variable type.For information about the different field types, see [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
+Context variable type.For information about the different field types, see [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_FieldTypes.md).
 
 </td></tr><tr><td>
 
@@ -73,5 +73,5 @@ Option to display the context variables on the Target form in the Actual Value S
 Default value to consider for updating the actual value of the target.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Goal Framework and Goal Framework for SPM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/goal-framework-reference.md)
+</table>**Parent Topic:**[Goal Framework and Goal Framework for SPM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/goal-framework-reference.md)
 

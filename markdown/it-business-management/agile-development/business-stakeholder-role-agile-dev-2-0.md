@@ -3,11 +3,11 @@ title: Business stakeholder role for Agile Development 2.0
 description: Use the business stakeholder role to read and retrieve data from any table of the Agile Development 2.0 and Scrum Programs applications to generate reports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/business-stakeholder-role-agile-dev-2-0.html
-release: australia
+release: brazil
 product: Agile Development
 classification: agile-development
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Agile Development 2.0 reference, Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
@@ -170,5 +170,5 @@ Represents an improvement to an existing product.
 |epic\_backlog\_definition|Stores the filter criteria that is used to create the epic backlogs.|
 |scrum\_program\_m2m\_group|Stores the relationship between a scrum program and its teams.|
 
-**Parent Topic:**[Agile Development 2.0 reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/agile-development-2-reference.md)
+**Parent Topic:**[Agile Development 2.0 reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/agile-development-2-reference.md)
 

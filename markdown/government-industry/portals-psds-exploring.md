@@ -3,9 +3,9 @@ title: Self-service Portals for Public Sector Digital Services
 description: A portal provides an end user, in this case a constituent or applicant, with step-by-step guidance through submitting a public service request case. Use Portals to submit requests for licenses and permits, government records and public information, non-emergency services, or to submit applications for social benefits or grants opportunities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/portals-psds-exploring.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Explore, Public Sector Digital Services \(PSDS\)]
 ---
@@ -64,13 +64,13 @@ The following playbooks on service portal experiences are available for constitu
 
 -   Grants Management: Grants Proposal Playbook, Grants Workspace Playbook
 -   Service Request Playbook
--   Information Request Playbook
+-   Information Request Administration
 
 ## Engagement Messenger
 
 With the Engagement Messenger web application, constituents can access the information or services they need from your third-party web applications, even if they’re located outside of the ServiceNow environment.
 
-To learn more about Engagement Messenger, see [Configure Engagement Messenger for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-configure-engagement-messenger.md).
+To learn more about Engagement Messenger, see [Configure Engagement Messenger for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-configure-engagement-messenger.md).
 
 ## Service catalog
 
@@ -92,5 +92,5 @@ As constituents answer questions and select options presented by Virtual Agent, 
 
 If constituents want to chat with an agent, Virtual Agent hands them off to a live agent. To provide this resource, use the Connect Support feature.
 
-To learn more about chat, see .
+To learn more about chat, see [Configure chat channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_ChatFeature.md).
 

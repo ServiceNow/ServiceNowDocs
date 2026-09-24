@@ -3,11 +3,11 @@ title: Update change request details in Jenkins pipeline
 description: Update the change request details associated with a Jenkins pipeline by running the snDevOpsUpdateChangeInfo script in the pipeline.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/update-change-request-details-in-jenkins-pipeline.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Additional information - Jenkins, Jenkins, Integrate, DevOps Change Velocity, IT Service Management]
 ---

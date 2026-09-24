@@ -3,11 +3,11 @@ title: Exclude directories from running process-based discovery
 description: Exclude specific directories from running process-based discovery so that processes running from those locations aren't recorded or included in File-Based Discovery scans.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/exclude-directories-running-process-based-discovery.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-06-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [exclude directories, running process-based discovery, file-based discovery, FBD process path exclusions, process scan]
 breadcrumb: [Running process-based discovery, ACC File-Based Discovery, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
@@ -19,7 +19,7 @@ Exclude specific directories from running process-based discovery so that proces
 
 ## Before you begin
 
-Running process-based discovery must be enabled. For details, see [Enable running process-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/enable-running-process-based-discovery.md).
+Running process-based discovery must be enabled. For details, see [Enable running process-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/enable-running-process-based-discovery.md).
 
 Role required: disco\_admin
 
@@ -49,5 +49,5 @@ Some running processes have no Software Asset Management \(SAM\) value and only 
 
 The exclusion is pushed to the relevant agents automatically. New collection cycles skip the excluded directories. Any previously collected paths that match the exclusion are removed during the next daily maintenance cycle.
 
-**Parent Topic:**[Running process-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/running-process-based-discovery.md)
+**Parent Topic:**[Running process-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/running-process-based-discovery.md)
 

@@ -3,9 +3,9 @@ title: Request offline mode
 description: Activate offline mode for mobile by requesting the activation of the SG Offline support plugin \(com.glide.sg.offline\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-request-work-offline.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Install and enable, Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -52,7 +52,7 @@ Which plugin would you like to activate
 
 Select the name of the plugin to activate.
 
- **Note:** If the plugin isn't listed, or if you're activating on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box. Enter the plugin name in the field that appears.
+ **Note:** If the system doesn't list the plugin you want or if you're activating the plugin on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box and then enter the name of the plugin.
 
 </td></tr><tr id="date-time"><td>
 
@@ -70,10 +70,10 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
-**Parent Topic:**[Install and enable offline capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/enable-offline.md)
+**Parent Topic:**[Install and enable offline capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/enable-offline.md)
 
 **Related topics**  
 
 
-[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-of-plugins.md)
 

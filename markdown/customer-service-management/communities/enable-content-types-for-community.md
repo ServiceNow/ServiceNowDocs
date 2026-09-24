@@ -3,11 +3,11 @@ title: Configure community content types
 description: Configure content types, such as videos and blogs, for the community.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/enable-content-types-for-community.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring communities, Communities, Customer Service Management]
 ---
@@ -19,6 +19,10 @@ Configure content types, such as videos and blogs, for the community.
 ## Before you begin
 
 Role required: sn\_communities.admin
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## About this task
 
@@ -49,7 +53,7 @@ You can configure content types at both the community and forum level. At the co
 10. To deactivate a content type, select **False**.
 
 
-**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-communities.md)
+**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/configure-communities.md)
 
 **Related topics**  
 
@@ -94,5 +98,5 @@ You can configure content types at both the community and forum level. At the co
 
 [Community Service Portal]()
 
-[Community content types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/c_communities-content-types.md)
+[Community content types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/c_communities-content-types.md)
 

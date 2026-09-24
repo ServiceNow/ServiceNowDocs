@@ -3,9 +3,9 @@ title: Set up Threat Intelligence
 description: Before you run Threat Intelligence in your instance, you must download it from the ServiceNow Store. You can also set up properties and define a threat source.Before you run Threat Intelligence in your instance, you must download it from the ServiceNow Store.Several types of components are installed with activation of the Threat Intelligence plugin, including tables and user roles.Threat Intelligence properties allow you to control how different aspects of the system function, including the setting of API keys.You can maintain a list of Threat Intelligence threat sources. Each source includes the ability to define how often a source is queried. You can also execute a threat source on demand to import the needed Structured Threat Information eXpression \(STIX\) data.You can maintain TAXII profiles for sharing STIX-formatted information. Each profile contains one or more TAXII collections or feeds.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/c\_GetStartedWithThreatIntel.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 20
 breadcrumb: [Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -44,18 +44,18 @@ The following roles are required for installation, configuration, and verificati
 
 ### Procedure
 
-1.  Follow the instructions for [downloading an application from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/download-app-first-time.md).
+1.  Follow the instructions for [downloading an application from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/download-app-first-time.md).
 
 
 ### What to do next
 
-[Set Threat Intelligence properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_GetStartedWithThreatIntel.md).
+[Set Threat Intelligence properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/c_GetStartedWithThreatIntel.md).
 
 ### Components installed with Threat Intelligence
 
 Several types of components are installed with activation of the Threat Intelligence plugin, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 Demo data is available for this feature.
 
@@ -1247,7 +1247,7 @@ If you selected the **Conditional** check box, enter the conditions here.
     |-----|-----------|
     |Endpoint|Enter the web service endpoint URL where the threat source is accessed by Threat Intelligence. Click the lock icon to lock the URL.|
     |Use REST Message|If you need a REST message to access the threat source, select this check box. The **REST message** and **REST method** fields become required.|
-    |REST message|Click the lookup icon, and select the REST message from the list or click **New** to [define a new REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_ConfiguringARESTMessage.md).|
+    |REST message|Click the lookup icon, and select the REST message from the list or click **New** to [define a new REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/t_ConfiguringARESTMessage.md).|
     |REST method|Click the lookup icon, and select the REST method from the list or click **New** to define a new REST method.|
     |Integration script|The default integration script is **SimpleRESTSecurityDataIntegration**. It runs a simple REST call, saves the response as an attachment, and then returns the attachment to the processor. This script meets the needs of most organizations. But if you want, you can click the lookup icon, and select a different integration script or define a new one.|
     |Integration factory script|If the **Advanced** check box is selected, this field displays the actual script for constructing the integration script. You can edit the script as needed. This ability is useful for custom implementations. Integrations in the base system usually don’t need any custom constructor logic.|
@@ -1294,15 +1294,15 @@ Role required: sn\_ti.admin
 
 5.  Fill in the fields in the **Collection Service Configuration** section, as appropriate.
 
-<table id="choicetable_fn4_l4l_wmb"><thead><tr><th align="left" id="d75677e2716">
+<table id="choicetable_fn4_l4l_wmb"><thead><tr><th align="left" id="d75718e2716">
 
 Field
 
-</th><th align="left" id="d75677e2719">
+</th><th align="left" id="d75718e2719">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d75677e2725">
+</th></tr></thead><tbody><tr><td id="d75718e2725">
 
 **Collection Info Service endpoint**
 
@@ -1310,7 +1310,7 @@ Description
 
 A TAXII Collection is an interface to a logical repository of CTI objects provided by a TAXII Server and is used by TAXII Clients to send information to the TAXII Server or request information from the TAXII Server. A TAXII Server can host multiple Collections per API Root, and Collections are used to exchange information in a request–response manner.
 
-</td></tr><tr><td id="d75677e2737">
+</td></tr><tr><td id="d75718e2737">
 
 **Use REST message**
 
@@ -1318,7 +1318,7 @@ A TAXII Collection is an interface to a logical repository of CTI objects provid
 
 Select this option if you require a REST message to access the TAXII profile. The **Collection Info Service REST message** and **Collection Info Service REST method** fields become required.
 
-</td></tr><tr><td id="d75677e2752">
+</td></tr><tr><td id="d75718e2752">
 
 **Collection Info Service REST message**
 
@@ -1326,7 +1326,7 @@ Select this option if you require a REST message to access the TAXII profile. Th
 
 Click the lookup icon, and select the REST message from the list or click **New** to define a new REST message.
 
-</td></tr><tr><td id="d75677e2764">
+</td></tr><tr><td id="d75718e2764">
 
 **Collection Info Service REST method**
 

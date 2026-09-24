@@ -3,13 +3,13 @@ title: Audit Workspace for the Audit supervisor
 description: An audit supervisor organizes and manages internal audits according to plans.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/audit-supervisor-ws.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Audit Workspace Overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Audit Workspace overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Audit Workspace for the Audit supervisor

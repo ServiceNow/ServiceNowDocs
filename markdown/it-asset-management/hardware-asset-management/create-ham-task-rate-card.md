@@ -3,13 +3,13 @@ title: Create a task rate card in Hardware Asset Workspace
 description: Create a task rate card to define the type of task and the method of calculating the associated costs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/create-ham-task-rate-card.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure the Total Cost of Ownership of assets, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Configure the Total Cost of Ownership of assets, Integrations and advanced configuration, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a task rate card in Hardware Asset Workspace
@@ -20,7 +20,7 @@ Create a task rate card to define the type of task and the method of calculating
 
 Role required: asset\_admin
 
-Activate the ServiceNow® Cost Management \(com.snc.cost\_management\) plugin. For more information, see [Activate Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/t_ActivatingCostManagement.md).
+Activate the ServiceNow® Cost Management \(com.snc.cost\_management\) plugin. For more information, see [Activate Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/t_ActivatingCostManagement.md).
 
 ## Procedure
 
@@ -110,16 +110,16 @@ Filter to run on the table selected to determine whether this rate card applies 
 
 ## Result
 
-After a task rate card is defined for a task, expense lines are created by the **Use time worked** value. When you select the Use time worked field for a task rate card, the time worked records created against users and labor rate are used to calculate expense lines. For more information, see [Process task rate cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/r_ProcessTaskRateCards.md).
+After a task rate card is defined for a task, expense lines are created by the **Use time worked** value. When you select the Use time worked field for a task rate card, the time worked records created against users and labor rate are used to calculate expense lines. For more information, see [Process task rate cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/r_ProcessTaskRateCards.md).
 
-**Parent Topic:**[Configure the Total Cost of Ownership of assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/configure-ham-tco.md)
+**Parent Topic:**[Configure the Total Cost of Ownership of assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/configure-ham-tco.md)
 
 **Related topics**  
 
 
-[Asset Total Cost of Ownership for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/asset-mgmt-tco.md)
+[Asset Total Cost of Ownership for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/asset-mgmt-tco.md)
 
-[Asset analytics view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/asset-analytics-view.md)
+[Asset analytics view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/asset-analytics-view.md)
 
-[Asset operations view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/asset-operations-view.md)
+[Asset operations view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/asset-operations-view.md)
 

@@ -3,11 +3,11 @@ title: Quick start tests for Integration Commons for CMDB
 description: Validate that integrations for CMDB pass validation and still work after you make any configuration changes such as applying an upgrade or developing an application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/cmdb-integration-commons/quick-start-tests-integration-commons.html
-release: australia
+release: brazil
 product: CMDB Integration Commons
 classification: cmdb-integration-commons
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integration Commons for CMDB, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Validate that integrations for CMDB pass validation and still work after you mak
 
 **Danger**
 
-By default, the system property that is used to run automated tests is turned off to prevent you from accidentally running these tests on a production system. To avoid data corruption or an outage, run tests only on development, test, and other non-production instances. See [Enable or disable executing Automated Test Framework tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/atf-enable-tests.md).
+By default, the system property that is used to run automated tests is disabled to prevent you from accidentally running these tests on a production system. To avoid data corruption or an outage, run tests only on development, test, and other non-production instances. See [Enable or disable executing Automated Test Framework tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/atf-enable-tests.md).
 
 ## Integration Commons for CMDB
 
@@ -37,10 +37,10 @@ By default, the system property that is used to run automated tests is turned of
 |CMDB INT: Validate Related Entries|Validate all related classes against the data dictionary for related entries.|Paris|
 |CMDB INT: Validate Relationships|Validate CMDB integration relationships.|Paris|
 
-To learn more about Integration Commons for CMDB, see [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md).
+To learn more about Integration Commons for CMDB, see [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md).
 
 **Related topics**  
 
 
-[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/quick-start-tests.md)
+[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/quick-start-tests.md)
 

@@ -3,11 +3,11 @@ title: Explore Upgrade Plan in Upgrade Console
 description: The Upgrade Plan automates the installation of applications during upgrades, providing a seamless upgrade experience. Define applications and target versions to be installed in your instance and accelerate your upgrade process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-upgrade-plan-explore.html
-release: australia
+release: brazil
 product: Upgrade Management
 classification: upgrade-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Upgrade Console summary, Explore, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
@@ -28,7 +28,7 @@ You will need the following instances to use Upgrade Plan.
 -   Builder instance: Build your upgrade plan
 -   Consumer instance: Implement your created upgrade plan
 
-**Note:** Ensure that you have upgraded your instance to the latest available version to build the upgrade plan. It is recommended to configure your dev instance as your builder instance. You are required to install the upgrade plan before upgrading your consumer instance. See [Upgrade Plan Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-properties.md) for more details.
+**Note:** Ensure that you have upgraded your instance to the latest available version to build the upgrade plan. It is recommended to configure your dev instance as your builder instance. You are required to install the upgrade plan before upgrading your consumer instance. See [Upgrade Plan Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-center/uc-properties.md) for more details.
 
 When you upgrade an instance, resolutions are skipped, and customizations are often loaded post upgrade. This causes temporary breakdown of features until fully loaded. Tasks like committing update sets, installing new plugins and applications, and multiple updates are also time consuming. Use the Upgrade Plan feature to automate these post-upgrade tasks by tracking your actions and replaying the steps on all the required instances. You don’t have to manually apply post-upgrade tasks which helps in reducing downtime.
 
@@ -104,7 +104,7 @@ During the building of the upgrade plan, the following operations are done in th
     -   The global records are packaged into the global customization upgrade plan app and published to the app repo.
     -   The scoped skipped records are packaged into the respective app customization packages.
     -   When the upgrade plan is published, a global application is created, for example, **Upgrade Plan - release name**.
--   Existing ServiceNow features like Global Application and App customization are used as application containers that can be installed in all the required instances. See  and [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md) for more information.
+-   Existing ServiceNow features like Global Application and App customization are used as application containers that can be installed in all the required instances. See  and [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationScope.md) for more information.
 -   If you install any applications or plugins, they are also captured in the Upgrade plan. But, since they are application life cycle items, they are never pushed to the App Repository.
 
 During the consumption of the upgrade plan, the following operations are done in the background:
@@ -116,5 +116,5 @@ During the consumption of the upgrade plan, the following operations are done in
 
 -   Auto-generation of the preview for the upgrade plan.
 
-See [Upgrade Plans tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-upgrade-plans-tool.md) for more information.
+See [Upgrade Plans tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-management/um-upgrade-plans-tool.md) for more information.
 

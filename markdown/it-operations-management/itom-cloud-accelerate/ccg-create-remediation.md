@@ -3,11 +3,11 @@ title: Create a remediation action
 description: Create a remediation action in Cloud Configuration Governance for the remediations that doesn’t require any additional input parameters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/ccg-create-remediation.html
-release: australia
+release: brazil
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Remediation, Use, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -70,7 +70,7 @@ Requires approval
 
 </td><td>
 
-Option to enforce approval for the remediation action. For more information on approvals, see Approvals.
+Option to enforce approval for the remediation action. For more information on approvals, see [Approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/r_Approvals.md).
 
 </td></tr><tr><td>
 
@@ -94,5 +94,5 @@ Name of the remediation catalog item that can be used to raise a remediation req
 
 ## What to do next
 
-Run the remediation action to fix the identified violation. For more information, see [Run remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/ccg-run-remediation.md).
+Run the remediation action to fix the identified violation. For more information, see [Run remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-cloud-accelerate/ccg-run-remediation.md).
 

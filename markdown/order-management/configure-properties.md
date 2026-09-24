@@ -3,9 +3,9 @@ title: Configure Properties
 description: To put a sales territory model into use at the CRM entities, enter the sys\_id of an active sales territory model. By default, this model and its territories will be utilized for sales territory assignments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-properties.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sales Territory Management, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -32,7 +32,7 @@ Role required: sales territory admin
 **Related topics**  
 
 
-[Using Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-sales-territory-management.md)
+[Using Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/use-sales-territory-management.md)
 
-[Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-sales-territory-management.md)
+[Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-sales-territory-management.md)
 

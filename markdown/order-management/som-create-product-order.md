@@ -3,9 +3,9 @@ title: Create an order in Order Management
 description: Create a product or service order for an account or consumer in Order Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/som-create-product-order.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating orders, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_ind\_tmt\_orm.order\_agent, sn\_ind\_tmt\_orm.service\_order\
 
 ## Procedure
 
-1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
+1.  Navigate to  **Workspaces** &gt; **CRM Workspace** .
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -53,6 +53,22 @@ Consumer
 </td><td>
 
 The consumer for which you want to create an order.
+
+</td></tr><tr><td>
+
+Buyer organization
+
+</td><td>
+
+The service organization for which you want to create an order.
+
+</td></tr><tr><td>
+
+Buyer organization member
+
+</td><td>
+
+Employee of the service organization that creates the order.
 
 </td></tr><tr><td>
 
@@ -121,12 +137,12 @@ The order is started and the product catalog opens.
 
 ## What to do next
 
-Browse the product catalog and add products and services to the order. For more information, see [Add products or services to an order in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-add-products-services-to-orders.md).
+Browse the product catalog and add products and services to the order. For more information, see [Add products or services to an order in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-add-products-services-to-orders.md).
 
 **Related topics**  
 
 
-[Order types in Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-order-types.md)
+[Order types in Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-order-types.md)
 
-[Action types for customer and service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-customer-order-types.md)
+[Action types for customer and service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-customer-order-types.md)
 

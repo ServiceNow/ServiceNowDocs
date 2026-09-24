@@ -3,14 +3,14 @@ title: Supporting information for ServiceNow Otto for Integrated Risk Management
 description: Get a quick overview of the important information that is related to the ServiceNow Otto for Integrated Risk Management \(IRM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/now-assist-irm-supporting-info.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [ServiceNow Otto, generative AI]
-breadcrumb: [Explore, ServiceNow Otto, Common GRC features, Governance, Risk, and Compliance]
+keywords: [Now Assist, generative AI]
+breadcrumb: [Explore, Now Assist, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Supporting information for ServiceNow Otto for Integrated Risk Management \(IRM\)
@@ -23,12 +23,6 @@ ServiceNow Otto for IRM is supported starting from the Yokohama Patch 3 release.
 
 -   GRC: Regulatory Change Management application: version 20.1.2
 -   ServiceNow Otto for IRM application: version 20.1.1
-
-## Supported language models
-
-You can use Azure OpenAI, Google Gemini, or Anthropic Claude on AWS as the AI model providers for supported Now Assist capabilities. Model availability depends on the feature and your ServiceNow Otto subscription. For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
-
-As of version 22.4.0, ServiceNow Otto for IRM supports Google Gemini 3.5 Flash, OpenAI GPT 5.1, and OpenAI GPT 5.4 mini models in addition to the previously supported models. The default model for the Issue Summarization skill is Azure OpenAI gpt-5.4-mini.
 
 ## Supported user interfaces
 
@@ -86,7 +80,7 @@ Compliance Workspace
 </td></tr></tbody>
 </table>## Security enhancements
 
-For information about security enhancements for AI agents, see [Implement access control in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).
+For information about security enhancements for AI agents, see [Implement access control in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aia-security-implementation.md).
 
 ## Application information
 
@@ -94,11 +88,11 @@ Activate the ServiceNow Otto for IRM store app \(sn\_irm\_gen\_ai\) to use the s
 
 This store app has the following dependencies:
 
--   ServiceNow Otto for Platform
--   GRC Common generative AI
--   GRC Shared generative AI
--   GRC Compliance generative AI
--   Recommendation Template
+-   Now Assist Platform.
+-   GRC Common Generative AI.
+-   GRC Shared Generative AI.
+-   GRC Compliance Generative AI.
+-   Recommendation Template.
 
-For more information, see [Configure ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/configure-now-assist-for-irm.md).
+For more information, see [Configure ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/configure-now-assist-for-irm.md).
 

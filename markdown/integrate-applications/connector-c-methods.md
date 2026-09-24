@@ -3,9 +3,9 @@ title: C\# connector methods
 description: The C\# connector method enables you to execute the custom C\# scripts you had written while configuring the C\#.Net connector.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/connector-c-methods.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [C\#.Net, Connectors, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,7 +16,7 @@ The C\# connector method enables you to execute the custom C\# scripts you had w
 
 ## Execute
 
-Executes C\# scripts set up in the configuration window. Before executing the method, you must configure the connector. See [Configure the C\#.Net connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-C-net-connector.md).
+Executes C\# scripts set up in the configuration window. Before executing the method, you must configure the connector. See [Configure the C\#.Net connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-C-net-connector.md).
 
 To execute, do the following steps.
 
@@ -33,5 +33,5 @@ To execute, do the following steps.
 |---------|-----------|--------------|---------|-------------|---------|
 |Result|Returns the output of the script.|Data Out|String|Not applicable|Not applicable|
 
-**Parent Topic:**[C\#.Net](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/c.md)
+**Parent Topic:**[C\#.Net](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/c.md)
 

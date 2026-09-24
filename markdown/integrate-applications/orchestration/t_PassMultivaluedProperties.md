@@ -3,11 +3,11 @@ title: Pass multivalued properties with an Exchange activity
 description: To set a multivalued property using an Exchange activity, you must use a specific parameter format.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/t\_PassMultivaluedProperties.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exchange activity pack, Orchestration activity packs, Classic Orchestration, Workflow Data Fabric]
 ---
@@ -31,5 +31,5 @@ The Optional parameters shared input variable allows you to set [multivalued pro
 -   To both add and remove values, use this format: "PropertyName":"-\(`value1`, `value2`, `value3`\);+\(`value1`, `value2`, `value3`\);"
 
 
-**Parent Topic:**[Exchange activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationExchangeActivities.md)
+**Parent Topic:**[Exchange activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/c_OrchestrationExchangeActivities.md)
 

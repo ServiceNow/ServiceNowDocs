@@ -3,9 +3,9 @@ title: Security Exposure Management Workspace List view
 description: The List view in the Security Exposure Management Workspace enables vulnerability and security managers and analysts to view remediation progress on records, drill down into records, and view the status of their approval requests and exceptions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-workspace-list-page.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-05-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Security Exposure Management Workspace, Explore, Unified Security Exposure Management, Security Operations]
 ---
@@ -26,7 +26,7 @@ The lists and links provide access to records and tasks. It contains two tabs:
 -   **Lists** tab: Displays the default lists for remediation efforts, remediation tasks, vulnerable items, configuration test results, solutions, exceptions, and libraries.
 -   **My Lists** tab: Displays any lists that you've renamed from the Lists tab and any lists that you create.
 
-    You can also create your own list to monitor remediation progress. For more information, see [Create a customized list of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-create-custom-list.md).
+    You can also create your own list to monitor remediation progress. For more information, see [Create a customized list of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-create-custom-list.md).
 
 
 ## Lists tab
@@ -255,7 +255,7 @@ Approvals
 
 </td><td>
 
-**Assigned to me**: Shows the approval requests assigned to you for processing. To process your approvals in the workspace, see [Approve or reject requests in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-approve-requests.md).
+**Assigned to me**: Shows the approval requests assigned to you for processing. To process your approvals in the workspace, see [Approve or reject requests in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-approve-requests.md).
 
 </td><td>
 
@@ -279,14 +279,14 @@ Consists of the following lists:-   **CVEs \(NVD\)**: List of all the Common Vul
 **Note:**
 
     -   Starting with v30.3 of Vulnerability Response, it is renamed to Vulnerabilities.
-    -   The Early Warning for Security Exposure Management plugin adds two new columns to the list - Armis Early Warning displays early warning signals, while Armis Early Warning CVD Attributes shows detailed context for each signal. For more information, see [Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/armis-early-warning-integration.md).
+    -   The Early Warning for Security Exposure Management plugin adds two new columns to the list - Armis Early Warning displays early warning signals, while Armis Early Warning CVD Attributes shows detailed context for each signal. For more information, see [Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/armis-early-warning-integration.md).
 -   **TPEs**: List of imported third-party vulnerabilities in your instance. Contains a list of related references, vulnerable items, exploits, and CVEs.
 -   **CWEs**: List of all the Common Weakness Enumerations \(CWEs\) from Vulnerability Response, Application Vulnerability Response, and Container Vulnerability Response.
 -   **Vulnerable Software**: List of all the software vulnerable entries.
 -   **App vulnerabilities**: List of all the third-party application vulnerability entries.
 -   **Test Groups**: List of all the Configuration Compliance test groups. You can view the percentage of CI compliance and test results compliance for a Test Group in the record view.
 -   **Tests**: List of all the tests from Configuration Compliance. You can view the percentage of test results compliance for a test in the record view.
--   **Compensating Controls**: List of all the compensating controls that can be used for risk reduction requests. You can add a compensating control by clicking **New**. For more information on how to add a compensating control, see [Add a compensating control to the library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-create-compensatory-control.md).
+-   **Compensating Controls**: List of all the compensating controls that can be used for risk reduction requests. You can add a compensating control by clicking **New**. For more information on how to add a compensating control, see [Add a compensating control to the library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-create-compensatory-control.md).
 
 </td><td>
 
@@ -331,7 +331,7 @@ Contains the following lists:-   **Active**: List of active Penetration Test Ass
 -   **Assigned to me**: List of Penetration Test Assessment Requests raised by you.
 -   **Assigned to my group**: List of Penetration Test Assessment Requests raised by the users in your assignment groups.
 
-For information on how to create a penetration test assessment request, see [Create a new penetration testing assessment request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/application-vulnerability-response/create-new-pen-test-assesment-req.md).
+For information on how to create a penetration test assessment request, see [Create a penetration testing assessment request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/application-vulnerability-response/create-new-pen-test-assesment-req.md).
 
 </td><td>
 
@@ -353,7 +353,7 @@ Contains the following lists:-   **Active**: List of all the active Penetration 
 -   **Assigned to my group**: List of Penetration Test Findings assigned to your assignment groups for remediation.
 -   **Validation Pending**: List of Penetration Test Findings that are pending validation after remediation.
 
-For information on how to create a penetration test findings, see [Create penetration test findings based on an assessment questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/application-vulnerability-response/create-penetration-test-findings.md).
+For information on how to create a penetration test findings, see [Create penetration test findings based on an assessment questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/application-vulnerability-response/create-penetration-test-findings.md).
 
 </td><td>
 
@@ -400,5 +400,5 @@ sn\_vulc.admin
 </table>**Related topics**  
 
 
-[Use the List view in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-ws-list-view.md)
+[Use the List view in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-ws-list-view.md)
 

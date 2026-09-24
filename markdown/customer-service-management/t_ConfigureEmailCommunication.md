@@ -3,9 +3,9 @@ title: Configure an email address for a product
 description: Configure an email address that creates a case for a specific product.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_ConfigureEmailCommunication.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Email to case, Configure Email, Configure omnichannel, Configure, Customer Service Management]
 ---

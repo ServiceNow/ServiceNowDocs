@@ -3,11 +3,11 @@ title: Certification follow-on tasks
 description: The ServiceNow system can automatically generate and assign follow-on tasks to correct discrepancies detected during compliance audits.Users with the certification role can only access follow-on tasks assigned to them but can reassign these tasks to other users.Users with the certification\_admin or admin role can see all follow-on tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/c\_CertificationFollowOnTasks.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [CMDB Compliance, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---

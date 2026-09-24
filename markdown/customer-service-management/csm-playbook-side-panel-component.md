@@ -3,11 +3,11 @@ title: Playbook contextual side panel component
 description: The playbook contextual side panel component provides agents with access to tools and information such as the activity stream, templates, and attachments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-playbook-side-panel-component.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Page components, Workspace, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Playbook page templates, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Playbook contextual side panel component
@@ -30,7 +30,7 @@ Activity Stream
 
 </td><td>
 
-The activity stream displays a list of activities occurring on a case record. For more information, see [Playbook activity stream component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-activity-stream-component.md).
+The activity stream displays a list of activities occurring on a case record. For more information, see [Playbook activity stream component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-playbook-activity-stream-component.md).
 
 </td></tr><tr><td>
 
@@ -46,7 +46,7 @@ Search
 
 </td><td>
 
-The Search tab includes [AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-ai-search.md) functionality. Agents can use AI search to find relevant resources or resolutions for customer issues.The search feature displays an initial set of search results based on the text in the case short description. This initial set of results includes knowledge articles. Agents can also enter different search keywords and repeat the search.
+The Search tab includes [AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-csm-ai-search.md) functionality. Agents can use AI search to find relevant resources or resolutions for customer issues.The search feature displays an initial set of search results based on the text in the case short description. This initial set of results includes knowledge articles. Agents can also enter different search keywords and repeat the search.
 
 From the list of search results, agents can do the following:
 
@@ -59,9 +59,9 @@ From the list of search results, agents can do the following:
     -   Perform other actions such as reading articles in full view, flagging articles, or marking articles as helpful or unhelpful.
 -   View successful actions by selecting the Actions history icon.
 
-For more information, see [Use AI search in Recommended Actions to resolve cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/nba-use-ai-search.md).
+For more information, see [Use AI search in Recommended Actions to resolve cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/nba-use-ai-search.md).
 
-**Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
+**Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CRM Workspaceapplication.
 
 </td></tr><tr><td>
 
@@ -73,7 +73,7 @@ The Related Items tab provides access to the case-related lists.The Case playboo
 
 An indicator displays the number of records available in a related list. When expanded, the records in a related list are displayed in card format.
 
-For more information, see [Playbook related items component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-related-items-component.md).
+For more information, see [Playbook related items component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-playbook-related-items-component.md).
 
 </td></tr><tr><td>
 
@@ -97,7 +97,7 @@ Email Templates
 
 </td><td>
 
-The Email Templates tab provides access to available email templates. These templates contain default values for fields that agents can add to email messages. These default values can include recipients \(email addresses in To, Cc, and Bcc\), sender, subject, and text for the message body.For more information, see [Email Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-email-templates.md).
+The Email Templates tab provides access to available email templates. These templates contain default values for fields that agents can add to email messages. These default values can include recipients \(email addresses in To, Cc, and Bcc\), sender, subject, and text for the message body.For more information, see [Email Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-email-templates.md).
 
 </td></tr><tr><td>
 

@@ -3,11 +3,11 @@ title: Plan your schedule
 description: View tasks to be executed as well as your personal events on a particular day to plan your schedule for that day. Add events for yourself and display your availability to team members.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/view-task-location-schedule-mobile.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Prioritizing on ServiceNow Agent, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---

@@ -3,9 +3,9 @@ title: Turn off the Zero Trust Access banner on mobile apps
 description: Learn how to turn off the banner on mobile app screens where Zero Trust Access \(ZTA\) is enabled.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/turn-off-zta-banner.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Mobile properties, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -64,7 +64,7 @@ Application
 
 Application scope where the mobile property is applied. To select a different application scope, select the globe icon \(\[Omitted image "globe-icon.png"\] Alt text: globe image\) on the instance banner. Then select **Application scope: _application\_scope_**.
 
- For information about how mobile properties are affected by application scope, see [Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-properties.md).
+ For information about how mobile properties are affected by application scope, see [Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-properties.md).
 
 </td></tr><tr><td>
 
@@ -110,7 +110,7 @@ Is Public
 
 Determines whether the **pre\_auth** property is included in the API response.
 
- By default, this option is not selected. If you want this property included in the **/pre\_auth** API response, select this checkbox. For more information, see [Adaptive authentication events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/adaptive-authentication-events.md).
+ By default, this option is not selected. If you want this property included in the **/pre\_auth** API response, select this checkbox. For more information, see [Adaptive authentication events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/adaptive-authentication-events.md).
 
  Mobile properties with this checkbox enabled are excluded from the **/user\_client** API response.
 
@@ -154,5 +154,5 @@ Mobile application to which you want to send the mobile property. This setting l
 
 After updating this property, the end user must pull to refresh and get the latest feature configurations.
 
-**Parent Topic:**[Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-properties.md)
+**Parent Topic:**[Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-properties.md)
 

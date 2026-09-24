@@ -3,9 +3,9 @@ title: Similar case recommendations
 description: The similar case recommendation feature enables customer service agents to easily find similar cases that can provide helpful information about a current case. This feature can also provide recommendations about cases that may be related to major issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-service-similar-cases.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -69,5 +69,5 @@ To use similar case/recommendation with the following features, activate the ass
 **Related topics**  
 
 
-[Machine learning solutions for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/machine-learning-csm.md)
+[Machine learning solutions for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/machine-learning-csm.md)
 

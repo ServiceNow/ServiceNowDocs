@@ -3,11 +3,11 @@ title: Filter criteria
 description: Filter criteria \(also called policy inputs\) are used as inputs for policy conditions to verify and meet the requirements of an authentication request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/adaptive-auth-filter-criteria.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Adaptive authentication, Authentication, Access Management]
 ---
@@ -20,7 +20,7 @@ Use filter criteria to supply information authentication policies such as a user
 
 There are seven types of filter criteria used in adaptive authentication. Your authentication policies can use one or more of these criteria to evaluate authentication requests.
 
-**Note:** Location filter and Identity Provider filter are available with Zero Trust Access feature. For more information, see [Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/session-access.md).
+**Note:** Location filter and Identity Provider filter are available with Zero Trust Access feature. For more information, see [Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/session-access.md).
 
 |Type|Description|
 |----|-----------|

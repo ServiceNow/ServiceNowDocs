@@ -3,11 +3,11 @@ title: Setting up investigation framework using Agent Client Collector for Inves
 description: Set up the Investigation Framework in Service Operations Workspace using the Agent Client Collector for Investigation adapter to enable the display of the CI metrics information on the Investigation tab of the Incident records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/set-up-investigate-fw-using-acc.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up Investigation Framework in Service Operations Workspace, Setting up integrations in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -16,16 +16,20 @@ breadcrumb: [Setting up Investigation Framework in Service Operations Workspace,
 
 Set up the Investigation Framework in Service Operations Workspace using the Agent Client Collector for Investigation adapter to enable the display of the CI metrics information on the **Investigation** tab of the Incident records.
 
+**Important:**
+
+Starting with the Brazil release, Agent Client Collector for Investigation is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 You must ensure that the following requirements are met:
 
--   Service Operations Workspace for ITSM \(sn\_sow\_itsm\_cont\) application set up is complete and configured as per your requirement. For more information, see [Getting started with Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/getting-started-sow.md)
--   Install the Agent Client Collector for Investigation Application. For more information, see [Install Agent Client Collector for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/install-acc-adapter.md).
+-   Service Operations Workspace for ITSM \(sn\_sow\_itsm\_cont\) application set up is complete and configured as per your requirement. For more information, see [Getting started with Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/getting-started-sow.md)
+-   Install the Agent Client Collector for Investigation Application. For more information, see [Install Agent Client Collector for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/install-acc-adapter.md).
 
     **Note:** Installing the Agent Client Collector for Investigation application requires the ITSM Pro package subscription.
 
 
--   **[Install Agent Client Collector for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/install-acc-adapter.md)**  
+-   **[Install Agent Client Collector for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/install-acc-adapter.md)**  
 Install the Agent Client Collector for Investigation application \(sn\_acc\_adapter\) if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
 
-**Parent Topic:**[Setting up Investigation Framework in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/set-up-investigate.md)
+**Parent Topic:**[Setting up Investigation Framework in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/set-up-investigate.md)
 

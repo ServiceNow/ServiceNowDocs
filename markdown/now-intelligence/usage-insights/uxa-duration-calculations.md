@@ -3,11 +3,11 @@ title: Duration calculations
 description: Durations in Usage Insights have specific calculations. Review these equations to understand the average duration per page and percentage time on site values.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/uxa-duration-calculations.html
-release: australia
+release: brazil
 product: Usage Insights
 classification: usage-insights
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Usage Insights reference, Access analytics overlay, Using Usage Insights, Usage Insights, Platform Analytics]
 ---
@@ -28,5 +28,5 @@ The percentage time on site is calculated as the sum of duration on a page divid
 
 For example, the Service Portal application contains three pages tracked by Usage Insights: Home, Knowledge, and Request. The total time spent on the Home page in the specified date range is 900 seconds; on the Knowledge page, 300 seconds; on the Request page, 300 seconds. The percentage time on the Home page is calculated as \(900 / 900 + 300 + 300\) \* 100 = 60%
 
-**Parent Topic:**[Usage Insights reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/user-experience-analytics-reference.md)
+**Parent Topic:**[Usage Insights reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/usage-insights/user-experience-analytics-reference.md)
 

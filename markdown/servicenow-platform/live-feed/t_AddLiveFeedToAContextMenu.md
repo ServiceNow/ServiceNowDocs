@@ -3,11 +3,11 @@ title: Add Live Feed to a context menu
 description: Add Live Feed UI actions on a table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_AddLiveFeedToAContextMenu.html
-release: australia
+release: brazil
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure record feeds, Record feeds, Administering Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -33,5 +33,5 @@ Role required: admin
 5.  Repeat steps 1 – 4 for all Live Feed UI actions.
 
 
-**Parent Topic:**[Configure record feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_ConfigureRecordFeeds.md)
+**Parent Topic:**[Configure record feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/c_ConfigureRecordFeeds.md)
 

@@ -3,11 +3,11 @@ title: Plan work for an ART in EAP
 description: Plan work across all teams in an ART for multiple Planning Intervals. Coordinate with different teams to manage dependencies and resolve blockers in real-time using the Planning board in Enterprise Agile Planning.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/plan-work-for-teams-using-planning-board-in-eap.html
-release: australia
+release: brazil
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Perform PI planning, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -39,7 +39,7 @@ On the board, move the story cards into different lanes or add new stories for t
     -   Based on the scheduling of work done in the Backlog page, story cards are displayed in the Sprint lanes.
 3.  Enable the **Dependencies** toggle to view dependencies between stories.
 
-    Based on how dependencies are created, the stories sometimes need rescheduling. For more information on story dependencies, see [Create and manage dependencies between work items in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-dependencies-between-work-items-in-eap.md).
+    Based on how dependencies are created, the stories sometimes need rescheduling. For more information on story dependencies, see [Create and manage dependencies between work items in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/create-dependencies-between-work-items-in-eap.md).
 
 4.  Enable the **Capacity** toggle to view the workload of the teams for each Sprint.
 
@@ -63,7 +63,7 @@ On the board, move the story cards into different lanes or add new stories for t
 
 ## What to do next
 
-For the work that you assigned and scheduled, track the progress at different levels of your Agile structure using EAP dashboards. See [EAP reports and dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/using-eap-dashboard.md).
+For the work that you assigned and scheduled, track the progress at different levels of your Agile structure using EAP dashboards. See [EAP reports and dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/using-eap-dashboard.md).
 
-**Parent Topic:**[Perform PI planning in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/pi-planning-eap.md)
+**Parent Topic:**[Perform PI planning in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/pi-planning-eap.md)
 

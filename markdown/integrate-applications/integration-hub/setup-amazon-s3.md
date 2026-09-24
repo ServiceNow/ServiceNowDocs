@@ -3,7 +3,7 @@ title: Set up the Amazon S3 spoke
 description: Use Amazon S3 as file storage in place of attachments in ServiceNow. Adds Amazon S3 storage to your ServiceNow instance and enables users to reference Amazon S3 files in ServiceNow records. Configure a connection for the Amazon S3 spoke to enable the spoke to connect to the Amazon S3 host. After connecting, the spoke can perform various actions on Amazon S3.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-amazon-s3.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -46,7 +46,7 @@ Role required: admin.
 
         \[Omitted image "s3-connection.png"\] Alt text: Configure the default connection.
 
-    -   To manage more than one Amazon S3 spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    -   To manage more than one Amazon S3 spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
     \[Omitted image "s3-connection-conf.png"\] Alt text: Configure the default connection.

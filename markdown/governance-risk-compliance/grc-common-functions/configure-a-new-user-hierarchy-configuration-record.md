@@ -3,11 +3,11 @@ title: Create a user hierarchy configuration record
 description: Create a user hierarchy configuration record for a table so that you can enable your managers to view the records of the users who report to them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/configure-a-new-user-hierarchy-configuration-record.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [User hierarchy, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -106,5 +106,5 @@ Event that is used to recalculate the user hierarchy in the source table records
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[User hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/user-hierarchy.md)
+**Parent Topic:**[User hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/user-hierarchy.md)
 

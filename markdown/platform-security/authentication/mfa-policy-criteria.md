@@ -3,11 +3,11 @@ title: Configure adaptive authentication policy-based multi-factor criteria
 description: Use adaptive policies to determine which users must use two-step multi-factor \(MFA\) verification.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/mfa-policy-criteria.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [MFA criteria, Configuring MFA, Multi-factor authentication, Authentication, Access Management]
 ---

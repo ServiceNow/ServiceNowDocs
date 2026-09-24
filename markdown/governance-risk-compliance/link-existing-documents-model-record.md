@@ -3,9 +3,9 @@ title: Link existing documents to a model record
 description: Link documents from your repository to a model record. This feature helps you manage all model-related documents in one place, ensuring version control, audit readiness, and traceability.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/link-existing-documents-model-record.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Model Risk Management, Governance, Risk, and Compliance]
 ---
@@ -24,7 +24,7 @@ Users on the Xanadu and Yokohama releases must install the Document Management p
 
 1.  Navigate to **All** &gt; **Model Risk Workspace**.
 
-2.  Select the list icon \[Omitted image "list-icon-mrm.png"\] Alt text:.
+2.  Select the list icon \[Omitted image "list-icon.png"\] Alt text:.
 
 3.  From the list, navigate to **Models** &gt; **All**.
 
@@ -41,10 +41,10 @@ Users on the Xanadu and Yokohama releases must install the Document Management p
 
 The document is linked in the model risk record.
 
-**Parent Topic:**[Using Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-mrm.md)
+**Parent Topic:**[Using Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/using-mrm.md)
 
 **Related topics**  
 
 
-[Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-services-landing-page.md)
+[Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-services-landing-page.md)
 

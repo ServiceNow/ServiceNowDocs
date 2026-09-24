@@ -3,7 +3,7 @@ title: Create a custom Merit Review scoring framework for a Grant Program in the
 description: Start scoring grant proposals based on your agency's preferences by creating a custom scoring framework.Add attributes within your scoring framework.Add attributes within your scoring framework.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gmp-create-scoring-framework.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-03-18"
 reading_time_minutes: 3
@@ -41,9 +41,9 @@ Ensure the scope is set to **Service Applicant Program Management**.
 
 ## What to do next
 
-[Create a merit review scoring framework attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-create-scoring-framework.md)
+[Create a merit review scoring framework attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-create-scoring-framework.md)
 
-**Parent Topic:**[Configure the Merit Review Scoring Framework for a Grant Program in the Reviewer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-scoring-framework.md)
+**Parent Topic:**[Configure the Merit Review Scoring Framework for a Grant Program in the Reviewer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-scoring-framework.md)
 
 ## Create merit review scoring framework attributes for a Grant Program in the Reviewer Service Portal
 
@@ -93,7 +93,7 @@ Role required: admin
 
 ### What to do next
 
-[Create a final score attribute for the merit review scoring framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-create-scoring-framework.md)
+[Create a final score attribute for the merit review scoring framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-create-scoring-framework.md)
 
 ## Create a final score attribute for the merit review scoring framework
 
@@ -132,5 +132,5 @@ Role required: admin
 
 ### What to do next
 
-[Configure a merit review scoring rubric for a grants proposal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-create-rubric.md)
+[Configure a merit review scoring rubric for a grants proposal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-create-rubric.md)
 

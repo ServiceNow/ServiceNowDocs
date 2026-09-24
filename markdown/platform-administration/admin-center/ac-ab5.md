@@ -3,11 +3,11 @@ title: Ensure technology teams meet compliance and performance standards bluepri
 description: Select this adoption blueprint to ensure that your technology teams meet all of the required compliance standards for vendors, security, and performance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/admin-center/ac-ab5.html
-release: australia
+release: brazil
 product: Admin Center
 classification: admin-center
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Select your adoption blueprint, Adoption blueprints, Discovering adoption blueprints, Admin Center, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -44,7 +44,7 @@ Enhance the experience
 
 </td><td>
 
-[Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cert-inventory-mgmt.md)
+[Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cert-inventory-mgmt.md)
 
 </td><td>
 
@@ -52,7 +52,7 @@ Certificate Inventory and Management discovers, takes inventory of, and proactiv
 
 </td><td>
 
-[Roles installed with Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cert-inventory-mgmt-user-roles.md#section_i3j_qfd_mjb)
+[Roles installed with Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cert-inventory-mgmt-user-roles.md#section_i3j_qfd_mjb)
 
 </td><td>
 
@@ -64,7 +64,7 @@ Add advanced features
 
 </td><td>
 
-[Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-management-v2-landing-page.md)
+[Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-management-v2-landing-page.md)
 
 </td><td>
 
@@ -72,7 +72,7 @@ Use the Cloud Provisioning and Governance application to provide a single interf
 
 </td><td>
 
-Uses bases system roles. See [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_BaseSystemRoles.md).
+Uses bases system roles. See [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/r_BaseSystemRoles.md).
 
 </td><td>
 
@@ -84,7 +84,7 @@ Enhance the experience
 
 </td><td>
 
-[Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/firewall-audit-reporting.md)
+[Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/firewall-audit-reporting.md)
 
 </td><td>
 
@@ -92,7 +92,7 @@ Firewall Audits and Reporting discovers and takes inventory of your firewall sec
 
 </td><td>
 
-[Roles installed with Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/firewall-audit-reporting-users-roles.md#section_e1j_1f1_plb)
+[Roles installed with Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/firewall-audit-reporting-users-roles.md#section_e1j_1f1_plb)
 
 </td><td>
 
@@ -104,7 +104,7 @@ Build a foundation
 
 </td><td>
 
-[Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-mgmt-landing-page.md)
+[Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-mgmt-landing-page.md)
 
 </td><td>
 
@@ -112,7 +112,7 @@ Service Level Management \(SLM\) helps to gather service requirements and monito
 
 </td><td>
 
-[Roles installed with Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/r_InstalledWithServiceLevelMgmt.md)
+[Roles installed with Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/r_InstalledWithServiceLevelMgmt.md)
 
 </td><td>
 
@@ -140,5 +140,5 @@ pa\_data\_collector
 [Vendor Management Workspace overview \(video\)](https://www.youtube.com/watch?v=qecN5VLItiA&t=3s)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Select your adoption blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/admin-center/ac-select-business-objective.md)
+</table>**Parent Topic:**[Select your adoption blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/admin-center/ac-select-business-objective.md)
 

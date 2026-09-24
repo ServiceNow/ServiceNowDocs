@@ -3,9 +3,9 @@ title: Sharing task plan templates
 description: Sharing task plan templates ensures that only authorized users can create, edit, and manage templates. It involves setting access controls, defining roles and responsibilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/sharing-task-plan-template.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Task Plan Templates, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---

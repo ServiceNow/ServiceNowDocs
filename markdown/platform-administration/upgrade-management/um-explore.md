@@ -3,11 +3,11 @@ title: Exploring Upgrade Console
 description: Utilize Upgrade Console to gain a comprehensive understanding of your upgrade process and make informed decisions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-explore.html
-release: australia
+release: brazil
 product: Upgrade Management
 classification: upgrade-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
@@ -24,11 +24,11 @@ Upgrade Console is an application that provides the option to upgrade from the i
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Upgrade Console summary\[Omitted image "um-icon-summary.png"\] Alt text: Upgrade Console summary.Access all the relevant information and tools required for your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-overview.md)
+[Upgrade Console summary\[Omitted image "um-icon-summary.png"\] Alt text: Upgrade Console summary.Access all the relevant information and tools required for your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-management/um-overview.md)
 
 </td><td>
 
-[Guided Upgrade\[Omitted image "um-icon-guided-setup.png"\] Alt text: Upgrade Console guided tour. Simplify your upgrade process with the guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-guided-tour.md)
+[Guided Upgrade\[Omitted image "um-icon-guided-setup.png"\] Alt text: Upgrade Console guided tour. Simplify your upgrade process with the guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-management/um-guided-tour.md)
 
 </td></tr></tbody>
 </table>**Note:** The **Guided Upgrade** tab shows up only when the upgrade process has started.
@@ -82,15 +82,15 @@ Using Admin tab and Admin Home option
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|One-stop shop experience for all relevant information for an upgrade|[Upgrade Console summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-overview.md)|System administrator|
-|Unfettered access to all tools required for your instance upgrade|[Upgrade Console tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-tools.md)|System administrator|
-|Guided setup process for your instance upgrade|[Access guided upgrade on a non-production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-guided-tour-implement.md)|System administrator|
+|One-stop shop experience for all relevant information for an upgrade|[Upgrade Console summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-management/um-overview.md)|System administrator|
+|Unfettered access to all tools required for your instance upgrade|[Upgrade Console tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-management/um-tools.md)|System administrator|
+|Guided setup process for your instance upgrade|[Access guided upgrade on a non-production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-management/um-guided-tour-implement.md)|System administrator|
 
 ## What to explore next
 
 To learn more about using Upgrade Console, see:
 
--   [Using Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-using.md)
--   [Administering Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-administer.md)
--   [Upgrade Console references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-references.md)
+-   [Using Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-management/um-using.md)
+-   [Administering Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-management/um-administer.md)
+-   [Upgrade Console references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-management/um-references.md)
 

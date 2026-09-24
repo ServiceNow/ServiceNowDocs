@@ -3,11 +3,11 @@ title: Prerequisites for performing top-down discovery using Service Mapping
 description: Learn about credentials, users, and user permissions you must configure to let Service Mapping access and discover applications inside your organization private network.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/prerequisites-service-mapping.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 67
 breadcrumb: [Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -55,7 +55,7 @@ Use the following guidelines to decide for which MID Server to create credential
 
 In addition to generic credentials, you configure on MID Servers, you must configure sudo-level credentials on all Unix-based hosts in your organization.
 
-If the MID Server does not have sufficient credentials to access a device or application, it can run Network Mapper \(Nmap\) commands to collect basic information without using credentials. Credential-less discovery with Nmap requires additional configuration as described in [Install and uninstall Nmap on a MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/install-nmap-on-mid-server.md).
+If the MID Server does not have sufficient credentials to access a device or application, it can run Network Mapper \(Nmap\) commands to collect basic information without using credentials. Credential-less discovery with Nmap requires additional configuration as described in [Install and uninstall Nmap on a MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/install-nmap-on-mid-server.md).
 
 Review the list of credentials necessary to discover hosts and applications supported in the base system.
 
@@ -81,7 +81,7 @@ AIX Server \[cmdb\_ci\_aix\_server\]
 
 </td><td>
 
-Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td rowspan="3">
 
@@ -94,7 +94,7 @@ IBM zOS server Server \[cmdb\_ci\_ibm\_zos\_server\]
 </td><td>
 
 -   Run the USS service on the port 22 on the z/OS server.
--   On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+-   On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 -   Provide the user with the following permissions:
     -   To write into the /tmp directory.
     -   To see all user processes.
@@ -102,7 +102,7 @@ IBM zOS server Server \[cmdb\_ci\_ibm\_zos\_server\]
 
 </td></tr><tr><td>
 
-On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
@@ -120,11 +120,11 @@ HPUX Server \[cmdb\_ci\_hpux\_server\]
 
 </td><td>
 
-Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
-On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -136,11 +136,11 @@ Linux Server \[cmdb\_ci\_linux\_server\]
 
 </td><td>
 
-Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
-On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
@@ -152,7 +152,7 @@ Solaris Server \[cmdb\_ci\_solaris\_server\]
 
 </td><td>
 
-Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -164,11 +164,11 @@ Windows Server \[cmdb\_ci\_windows\_server\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-Provide all necessary credentials and permissions as described in [Credentials required for host discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_Credentials4HostDiscovery.md).
+Provide all necessary credentials and permissions as described in [Credentials required for host discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_Credentials4HostDiscovery.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -180,11 +180,11 @@ A10 Load Balancer \[cmdb\_ci\_lb\_A10\]
 
 </td><td>
 
-Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
+Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md).
 
 </td></tr><tr><td>
 
-Configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_SNMPCredentials.md).
+Configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_SNMPCredentials.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -196,15 +196,15 @@ Active Directory Domain Controller \[cmdb\_ci\_ad\_controller\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td>
 
-[AWS DynamoDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/aws-dynamoDB-discovery.md)
+[AWS DynamoDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/aws-dynamoDB-discovery.md)
 
 </td><td>
 
@@ -225,11 +225,11 @@ Load Balancer Service \[cmdb\_ci\_lb\_service\]
 
 </td><td>
 
-Configure [Amazon Web Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_CloudManagementCredentialsForm.md) credentials.
+Configure [Amazon Web Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_CloudManagementCredentialsForm.md) credentials.
 
 </td></tr><tr><td>
 
-On the ServiceNow AI Platform, [create a service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/aws-first-cld-and-srvc-accts.md). Set the Account ID to the Amazon ELB account ID as it appears in the AWS Management Console.
+On the ServiceNow AI Platform, [create a service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/aws-first-cld-and-srvc-accts.md). Set the Account ID to the Amazon ELB account ID as it appears in the AWS Management Console.
 
 </td></tr><tr><td rowspan="4">
 
@@ -241,11 +241,11 @@ Amazon Web Services \(AWS\) API Gateway
 
 </td><td>
 
-Configure [Amazon Web Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_CloudManagementCredentialsForm.md) credentials.
+Configure [Amazon Web Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_CloudManagementCredentialsForm.md) credentials.
 
 </td></tr><tr><td>
 
-On the ServiceNow AI Platform, [create a service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/aws-first-cld-and-srvc-accts.md). Set the Account ID to the Amazon account ID to which API Gateway belongs. Use the Account ID as it appears in the AWS Management Console.
+On the ServiceNow AI Platform, [create a service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/aws-first-cld-and-srvc-accts.md). Set the Account ID to the Amazon account ID to which API Gateway belongs. Use the Account ID as it appears in the AWS Management Console.
 
 </td></tr><tr><td>
 
@@ -265,15 +265,15 @@ Windows Server \[cmdb\_ci\_windows\_server\] or Linux Server \[cmdb\_ci\_linux\_
 
 </td><td>
 
-\(If hosted on a Unix server\), on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on a Unix server\), on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-On the ServiceNow AI Platform, [create a service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/aws-first-cld-and-srvc-accts.md). Set the Account ID to the Amazon account ID to which API Gateway belongs. Use the Account ID as it appears in the AWS Management Console.
+On the ServiceNow AI Platform, [create a service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/aws-first-cld-and-srvc-accts.md). Set the Account ID to the Amazon account ID to which API Gateway belongs. Use the Account ID as it appears in the AWS Management Console.
 
 </td></tr><tr><td>
 
@@ -289,11 +289,11 @@ Cloud DataBase \[cmdb\_ci\_cloud\_database\]
 
 </td><td>
 
-Configure [Amazon Web Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_CloudManagementCredentialsForm.md) credentials.
+Configure [Amazon Web Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_CloudManagementCredentialsForm.md) credentials.
 
 </td></tr><tr><td>
 
-On the ServiceNow AI Platform, [create a service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/aws-first-cld-and-srvc-accts.md). Set the Account ID to the Amazon account ID to which RDS belongs. Use the Account ID as it appears in the AWS Management Console.
+On the ServiceNow AI Platform, [create a service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/aws-first-cld-and-srvc-accts.md). Set the Account ID to the Amazon account ID to which RDS belongs. Use the Account ID as it appears in the AWS Management Console.
 
 </td></tr><tr><td>
 
@@ -309,11 +309,11 @@ Cloud Function \[cmdb\_ci\_cloud\_function\]
 
 </td><td>
 
-Configure [Amazon Web Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_CloudManagementCredentialsForm.md) credentials.
+Configure [Amazon Web Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_CloudManagementCredentialsForm.md) credentials.
 
 </td></tr><tr><td>
 
-On the ServiceNow AI Platform, [create a service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/aws-first-cld-and-srvc-accts.md). Set the Account ID to the Amazon account IT to which AWS Lambda belongs. Use the Account ID as it appears in the AWS Management Console.
+On the ServiceNow AI Platform, [create a service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/aws-first-cld-and-srvc-accts.md). Set the Account ID to the Amazon account IT to which AWS Lambda belongs. Use the Account ID as it appears in the AWS Management Console.
 
 </td></tr><tr><td>
 
@@ -335,19 +335,19 @@ Tomcat \[cmdb\_ci\_app\_server\_tomcat\]
 
 </td><td>
 
-Give the user elevated rights to execute [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+Give the user elevated rights to execute [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Unix server\), on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on a Unix server\), on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td rowspan="3">
 
@@ -359,15 +359,15 @@ Tomcat WAR \[cmdb\_ci\_app\_server\_tomcat\_war\]
 
 </td><td>
 
-Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
-\(If hosted on UNIX\), on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on UNIX\), on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td rowspan="6">
 
@@ -379,7 +379,7 @@ Apache Web Server \[cmdb\_ci\_apache\_web\_server\]
 
 </td><td>
 
-\(If hosted on UNIX\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on UNIX\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -391,15 +391,15 @@ On the server hosting the Apache Web Server, verify that the $APACHEHOME/bin/env
 
 </td></tr><tr><td>
 
-\(If hosted on UNIX\), on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on UNIX\), on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td rowspan="3">
 
@@ -411,15 +411,15 @@ App TNS Service
 
 </td><td>
 
-Give the user elevated rights to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+Give the user elevated rights to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Linux or UNIX\), on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on Linux or UNIX\), on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
@@ -437,15 +437,15 @@ Load Balancer Service \[cmdb\_ci\_lb\_service\]
     -   CMDB CI Class Models
 -   To successfully discover the load balancer pool members, set the **display service names** option \(**bigpipe.displayservicenames**\) of the load balancer to **false** on the F5 load balancer.
 -   For F5 Load Balancer pattern:
-    -   Configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_SNMPCredentials.md) on the ServiceNow AI Platform.
-    -   \(Optional\) If there are iRules or SNMP community credentials aren't enough for discovering outgoing connections, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+    -   Configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_SNMPCredentials.md) on the ServiceNow AI Platform.
+    -   \(Optional\) If there are iRules or SNMP community credentials aren't enough for discovering outgoing connections, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 **Note:** If you don't want to use SSH credentials, you can use the REST API to create a connection to F5 BIG-IP devices.
 
 Service Mapping uses the SSH credentials to retrieve connections that aren't from CMDB. Discovering connections using the SSH protocol is a failover mechanism for the SNMP-based discovery.
 
 -   For F5 Load Balancer SSH pattern:
-    -   Configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+    -   Configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
     -   Verify permissions for the following SSH commands. In newer versions of F5 BIG-IP, only A-type GTM pools are supported.
         -   `list auth partition all`
         -   `list sys global-settings`
@@ -505,7 +505,7 @@ Service Mapping uses the SSH credentials to retrieve connections that aren't fro
             -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/mx"`
             -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/naptr"`
             -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/srv"`
-    -   Create [basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md) credentials.
+    -   Create [basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_BasicAuthCredentialsForm.md) credentials.
 -   For F5 REST OAuth 2.0 authentication pattern:
     -   Verify read-only permission for the following APIs:
         -   `"https://" + $ipAddress + "/mgmt/shared/authn/login"`
@@ -538,22 +538,22 @@ Service Mapping uses the SSH credentials to retrieve connections that aren't fro
             -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/mx"`
             -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/naptr"`
             -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/srv"`
-    -   Create [basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md) credentials.
-    -   Create [a credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/discovery-credential-alias.md) for the basic authentication credential.
-    -   Create a [serverless discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/create-serverless-sched-f5-rest-oauth.md).
+    -   Create [basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_BasicAuthCredentialsForm.md) credentials.
+    -   Create [a credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/discovery-credential-alias.md) for the basic authentication credential.
+    -   Create a [serverless discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/create-serverless-sched-f5-rest-oauth.md).
 -   For top-down discovery using Service Mapping, provide permissions to run the following APIs:
 
     -   `https://" get_attr {"managementIP"}"/mgmt/tm/ltm/"get_attr {"irule"}`
     -   `https://" get_attr {"managementIP"}"/mgmt/tm/ltm/virtual/~Common~"get_attr {"vip_name"}`
     -   `https://" get_attr {"computer_system.managementIP"}"/mgmt/tm/ltm/pool/"get_attr {"pool_name"}"/members?`
--   \(Optional\) For top-down discovery with Service Mapping, configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
+-   \(Optional\) For top-down discovery with Service Mapping, configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md).
 -   \(Optional\) For top-down discovery with Service Mapping, provide a user with permissions to run the following commands:
     -   bigpipe commands \(for BIG-IP LTM F5 or BIG-IP GTM F5 version 9\)
     -   bigpipe and Traffic Management Shell \(TMSH\) commands \(for BIG-IP LTM F5 or BIG-IP GTM F5 version 10\)
     -   Traffic Management Shell \(TMSH\) commands \(for BIG-IP LTM F5 or BIG-IP GTM F5 version 11\)
     -   Traffic Management Shell \(TMSH\) advanced commands \(for BIG-IP LTM F5 or BIG-IP GTM F5 version 10, 11, and 12\)
     -   The **show cm traffic-group – get command** for discovering F5 BIG-IP Device Service Clustering
--   \(Optional\) For top-down discovery with Service Mapping, give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+-   \(Optional\) For top-down discovery with Service Mapping, give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td rowspan="3">
 
@@ -565,15 +565,15 @@ Control-M \[cmdb\_ci\_appl\_controlm\]
 
 </td><td>
 
-Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Linux or UNIX server\) \(Optional\) on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on a Linux or UNIX server\) \(Optional\) on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td rowspan="3">
 
@@ -585,11 +585,11 @@ Control-M \[cmdb\_ci\_appl\_controlm\]
 
 </td><td>
 
-Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
@@ -605,7 +605,7 @@ ITAM Asset Center \[cmdb\_ci\_appl\_itam\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure a Windows OS user with permissions to access the ITAM registry as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+On the ServiceNow AI Platform, configure a Windows OS user with permissions to access the ITAM registry as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -617,11 +617,11 @@ CA Identity Manager Provisioning Server \[cmdb\_ci\_appl\_ca\_id\_man\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td>
 
@@ -633,7 +633,7 @@ inter connect \[cmdb\_ci\_inter\_connect\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
@@ -645,7 +645,7 @@ Interconnect Instance \[cmdb\_ci\_interconnect\_instance\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td rowspan="3">
 
@@ -657,15 +657,15 @@ ACE \[cmdb\_ci\_lb\_ace\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
+On the ServiceNow AI Platform, configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md).
 
 </td></tr><tr><td>
 
-On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-On the ServiceNow AI Platform, configure SNMP community credentials as described in [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_SNMPCredentials.md).
+On the ServiceNow AI Platform, configure SNMP community credentials as described in [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_SNMPCredentials.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -677,11 +677,11 @@ Cisco CallManager \[cmdb\_ci\_appl\_cisco\_call\_man\]
 
 </td><td>
 
-\(If hosted on a Linux or UNIX server\) \(Optional\) on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on a Linux or UNIX server\) \(Optional\) on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td rowspan="3">
 
@@ -693,11 +693,11 @@ Load Balancer Service \[cmdb\_ci\_lb\_service\]
 
 </td><td>
 
-Configure SNMP community credentials as described in [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_SNMPCredentials.md).
+Configure SNMP community credentials as described in [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_SNMPCredentials.md).
 
 </td></tr><tr><td>
 
-On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
@@ -713,12 +713,12 @@ Delivery Controller \[cmdb\_ci\_appl\_delivery\_controler\]
 
 </td><td>
 
--   Configure [Windows administrative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md) to access the host machine.
--   Make sure that [PowerShell for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_PowerShellForDiscovery.md) is installed on your MID Servers. The patterns used for Citrix discovery require the ability to run PowerShell commands.
+-   Configure [Windows administrative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md) to access the host machine.
+-   Make sure that [PowerShell for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_PowerShellForDiscovery.md) is installed on your MID Servers. The patterns used for Citrix discovery require the ability to run PowerShell commands.
 -   For OS users, make sure you can execute “Get-XDSite.” The Citrix Studio Admin should provide permissions.
 -   \(Optional\) For top-down discovery with Service Mapping, on Citrix Delivery Controller, install the Citrix.Broker module.
 -   \(Optional\) For top-down discovery with Service Mapping, a user with permission to run PowerShell commands.
--   \(Optional\) \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+-   \(Optional\) \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td>
 
@@ -730,9 +730,9 @@ Citrix Collector \[cmdb\_ci\_appl\_citrix\_collector\]
 
 </td><td>
 
--   Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
+-   Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md).
 -   Configure a user with permissions to run PowerShell commands on the Citrix server.
--   \(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+-   \(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 **Note:** To use this credential later for XenAPP, set the **Credential alias** attribute to cmdb\_ci\_appl\_citrix\_xenapp. To use this credential later for Citrix, set the **Credential alias** attribute to cmdb\_ci\_appl\_citrix\_collector.
 
@@ -740,7 +740,7 @@ Citrix Collector \[cmdb\_ci\_appl\_citrix\_collector\]
 -   Provide a user with permissions to read and query the Citrix repository:
     -   For versions 4.5 and later, a PowerShell script from the XenApp server.
     -   For versions earlier than 4.5, a Microsoft Visual Basic Script \(VBScript\) from the Citrix Presentation Server
--   \(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+-   \(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 **Note:** To use this credential later for XenAPP, set the **Credential alias** attribute to cmdb\_ci\_appl\_citrix\_xenapp. To use this credential later for Citrix, set the **Credential alias** attribute to cmdb\_ci\_appl\_citrix\_collector.
 
@@ -755,8 +755,8 @@ Citrix XenAPP or Presentation Server \[cmdb\_ci\_appl\_citrix\_xenapp\]
 
 </td><td>
 
--   On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
--   \(Optional\) To discover using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md)
+-   On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
+-   \(Optional\) To discover using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md)
 
 </td></tr><tr><td>
 
@@ -768,12 +768,12 @@ Citrix Netscaler \[cmdb\_ci\_lb\_netscaler\]
 
 </td><td>
 
--   Configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_SNMPCredentials.md). The SNMP community string requires read-only access to the Citrix NetScaler MIB \(`1.3.6.1.4.1.5951`\).
+-   Configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_SNMPCredentials.md). The SNMP community string requires read-only access to the Citrix NetScaler MIB \(`1.3.6.1.4.1.5951`\).
 
-**Note:** You also have the option of using [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md). The SSH user requires permission to run NetScaler `show` commands only. However, if the payload size of the data that's returned to the instance is large, the discovery process can fail. In this case, use SNMP credentials instead.
+**Note:** You also have the option of using [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md). The SSH user requires permission to run NetScaler `show` commands only. However, if the payload size of the data that's returned to the instance is large, the discovery process can fail. In this case, use SNMP credentials instead.
 
 -   \(Optional\) When using the NS.CONF pattern, provide a user with read-only access to the **NS.conf** configuration file if you don't want to provide SNMP or SSH credentials.
--   Use [basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md) credentials for discovery via REST. Configure the credential as a [credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/discovery-credential-alias.md). The NITRO API user requires read-only access to the following resources:
+-   Use [basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_BasicAuthCredentialsForm.md) credentials for discovery via REST. Configure the credential as a [credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/discovery-credential-alias.md). The NITRO API user requires read-only access to the following resources:
     -   `lbvserver`
     -   `csvserver`
     -   `service`
@@ -799,12 +799,12 @@ Load Balancer Service \[cmdb\_ci\_lb\_service\]
 
 </td><td>
 
--   Configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_SNMPCredentials.md). The SNMP community string requires read-only access to the Citrix NetScaler MIB \(`1.3.6.1.4.1.5951`\).
+-   Configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_SNMPCredentials.md). The SNMP community string requires read-only access to the Citrix NetScaler MIB \(`1.3.6.1.4.1.5951`\).
 
-**Note:** You also have the option of using [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md). The SSH user requires permission to run NetScaler `show` commands only. However, if the payload size of the data that's returned to the instance is large, the discovery process can fail. In this case, use SNMP credentials instead.
+**Note:** You also have the option of using [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md). The SSH user requires permission to run NetScaler `show` commands only. However, if the payload size of the data that's returned to the instance is large, the discovery process can fail. In this case, use SNMP credentials instead.
 
 -   \(Optional\) When using the NS.CONF pattern, provide a user with read-only access to the **NS.conf** configuration file if you don't want to provide SNMP or SSH credentials.
--   Use [basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md) credentials for discovery via REST. Configure the credential as a [credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/discovery-credential-alias.md). The NITRO API user requires read-only access to the following resources:
+-   Use [basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_BasicAuthCredentialsForm.md) credentials for discovery via REST. Configure the credential as a [credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/discovery-credential-alias.md). The NITRO API user requires read-only access to the following resources:
     -   `lbvserver`
     -   `csvserver`
     -   `service`
@@ -828,15 +828,15 @@ Connect-It Service \[cmdb\_ci\_appl\_connectit\]
 
 </td><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Linux or Unix server\) on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on a Linux or Unix server\) on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -848,11 +848,11 @@ Documentum DocBase \[cmdb\_ci\_appl\_doc\_docbroker\]
 
 </td><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Linux or Unix server\) \(Optional\) on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on a Linux or Unix server\) \(Optional\) on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -870,11 +870,11 @@ epicd app server \[cmdb\_ci\_epicd\_app\_server\]
 
 </td><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Linux or Unix server\) \(Optional\) on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on a Linux or Unix server\) \(Optional\) on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td rowspan="3">
 
@@ -886,19 +886,19 @@ Oracle Forms Engine \[cmdb\_ci\_appl\_ora\_forms\]
 
 </td><td>
 
-Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Unix server\) on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on Unix server\) on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-[Google Cloud Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/google-gcp-discovery-pattern.md)
+[Google Cloud Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/google-gcp-discovery-pattern.md)
 
 </td><td>
 
@@ -919,11 +919,11 @@ HAProxy Load Balancer \[cmdb\_ci\_lb\_haproxy\]
 
 </td><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Linux or Unix server\) \(Optional\) on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on a Linux or Unix server\) \(Optional\) on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -935,11 +935,11 @@ HP Operations Manager \[cmdb\_ci\_appl\_hp\_operations\]
 
 </td><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td rowspan="3">
 
@@ -951,15 +951,15 @@ HP Service Manager \[cmdb\_ci\_appl\_hp\_service\]
 
 </td><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Linux or Unix server\) \(Optional\) on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on a Linux or Unix server\) \(Optional\) on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -971,11 +971,11 @@ HP SM Index Server \[cmdb\_ci\_appl\_hp\_index\]
 
 </td><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Linux or Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on a Linux or Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -987,11 +987,11 @@ HP SM KnowledgeBase \[cmdb\_ci\_appl\_hp\_sm\_kb\]
 
 </td><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
@@ -1003,7 +1003,7 @@ HP Quality Center \[cmdb\_ci\_appl\_hp\_qc\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
@@ -1015,11 +1015,11 @@ HP uCMDB \[cmdb\_ci\_app\_server\_hp\_ucmdb\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-[IBM Cloud Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/ibm-cloud-platform-discovery.md)
+[IBM Cloud Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/ibm-cloud-platform-discovery.md)
 
 </td><td>
 
@@ -1039,11 +1039,11 @@ IBM WebSphere Message Broker \[cmdb\_ci\_appl\_ibm\_wmb\]
 
 </td><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md) for a user with permissions to run the following commands: -   "source " + $directory + "/mqsiprofile”
+\(If hosted on Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md) for a user with permissions to run the following commands: -   "source " + $directory + "/mqsiprofile”
 -   "echo $MQSI\_VERSION “
 -   $directory + "/mqsireportbroker " + $name
 -   $directory + "/mqsibrowse " + $name + " -t BROKERRESOURCES “
@@ -1060,11 +1060,11 @@ Control-M \[cmdb\_ci\_appl\_controlm\]
 
 </td><td>
 
-\(If hosted on Unix\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on Unix\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Windows\), on the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on Windows\), on the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -1076,11 +1076,11 @@ IBM CTG \[cmdb\_ci\_appl\_ibm\_ctg\]
 
 </td><td>
 
-Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -1092,11 +1092,11 @@ IBM CICS \[cmdb\_ci\_appl\_ibm\_cics\]
 
 </td><td>
 
-\(If hosted on Unix\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on Unix\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td>
 
@@ -1108,8 +1108,8 @@ DB2 Instance \[cmdb\_ci\_db\_db2\_instance\]**Note:** Starting with CMDB CI Clas
 
 </td><td>
 
--   \(If hosted on Linux\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
--   \(If hosted on Windows\), on the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+-   \(If hosted on Linux\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+-   \(If hosted on Windows\), on the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 Set the tag attribute to \[cmdb\_ci\_db\_db2\_instance\]. Configuring this attribute allows you later to use the credential for this CI in patterns.
 
@@ -1122,7 +1122,7 @@ Set the tag attribute to \[cmdb\_ci\_db\_db2\_instance\]. Configuring this attri
     -   To see all user processes.
     -   To run REXX scripts.
     -   To read into the db2 folder.
--   \(If hosted on z/OS\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+-   \(If hosted on z/OS\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td rowspan="3">
 
@@ -1134,19 +1134,19 @@ IBM J2EE EAR
 
 </td><td>
 
-\(If hosted on Linux only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on Linux only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Windows\), on the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on Windows\), on the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-[IBM PowerHA SystemMirror for AIX discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/ibm-powerha-hamcp-discovery.md)
+[IBM PowerHA SystemMirror for AIX discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/ibm-powerha-hamcp-discovery.md)
 
 </td><td>
 
@@ -1171,7 +1171,7 @@ Webseal \[cmdb\_ci\_app\_server\_webseal\]
 
 </td><td>
 
-\(For ISAM appliance only\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md) for the user with permissions to run the following REST commands:-   /reverseproxy – for retrieving data about the reverse proxy and instances.
+\(For ISAM appliance only\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md) for the user with permissions to run the following REST commands:-   /reverseproxy – for retrieving data about the reverse proxy and instances.
 -   /wga/reverseproxy/"+$\{junctionstable\[\].instance\}+"/junctions – for getting junctions per each instance.
 -   /wga/reverseproxy/" + $instance\_name + "/junctions?junctions\_id=" + $junction\_name – for getting forwarding URLs for the entry point junction.
 
@@ -1182,19 +1182,19 @@ Webseal \[cmdb\_ci\_app\_server\_webseal\]
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Windows\), on the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on Windows\), on the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td>
 
-[IBM Virtualization and Hardware Management Console \(HMC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/ibm-hmc-discovery.md)
+[IBM Virtualization and Hardware Management Console \(HMC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/ibm-hmc-discovery.md)
 
 </td><td>
 
@@ -1218,9 +1218,9 @@ An LPAR is virtual machine equivalent of IBM.
     -   `lssysconn -r all -F type_model_serial_num:ipaddr`
 -   Verify you have permissions for the following AIX \(LPAR\) command: `lparstat -i`.
 
-**Note:** The `lparstat -i` command is in addition to the commands required for AIX server discovery. For more information on AIX server discovery, see [AIX server discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoAIXComputers.md). For a list of the AIX commands, see [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+**Note:** The `lparstat -i` command is in addition to the commands required for AIX server discovery. For more information on AIX server discovery, see [AIX server discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/r_DataCollDiscoAIXComputers.md). For a list of the AIX commands, see [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
--   Configure SSH credentials on the ServiceNow AI Platform. For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+-   Configure SSH credentials on the ServiceNow AI Platform. For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td rowspan="6">
 
@@ -1232,19 +1232,19 @@ IBM Websphere \[cmdb\_ci\_app\_server\_websphere\]
 
 </td><td>
 
-\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Windows\), on the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on Windows\), on the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on z/OS\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on z/OS\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
@@ -1257,7 +1257,7 @@ IBM Websphere \[cmdb\_ci\_app\_server\_websphere\]
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td>
 
@@ -1269,7 +1269,7 @@ Data Power \[cmdb\_ci\_app\_server\_datapower\]
 
 </td><td>
 
--   **[SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_SNMPCredentials.md)**
+-   **[SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_SNMPCredentials.md)**
 
 SNMP credentials are necessary for using the following SNMP queries:
 
@@ -1285,7 +1285,7 @@ SNMP credentials are necessary for using the following SNMP queries:
         -   1.3.6.1.2.1.1.1
         -   1.3.6.1.2.1.1.5
         -   1.3.6.1.4.1.14685.3.1.11.1
--   **[Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md)**
+-   **[Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md)**
 
 Together with SNMP credentials, applicative credentials are required to discover DataPower application domains, otherwise known as logical CIs.
 
@@ -1306,7 +1306,7 @@ WMB Flow \[cmdb\_ci\_appl\_wmb\]
 
 </td><td>
 
-\(If hosted on a Unix server\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on a Unix server\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -1314,11 +1314,11 @@ Provide an IBM WebSphere Message Broker OS user with permissions to run the WebS
 
 </td></tr><tr><td>
 
-\(If hosted on Windows\), on the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on Windows\), on the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md) for a user with permissions to run the following commands: -   "source " + $directory + "/mqsiprofile”
+\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md) for a user with permissions to run the following commands: -   "source " + $directory + "/mqsiprofile”
 -   "echo $MQSI\_VERSION “
 -   $directory + "/mqsireportbroker " + $name
 -   $directory + "/mqsibrowse " + $name + " -t BROKERRESOURCES “
@@ -1335,15 +1335,15 @@ IBM WebSphere Message Broker \[cmdb\_ci\_appl\_ibm\_wmb\]
 
 </td><td>
 
-\(If hosted on Unix\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on Unix\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md). Set the **Credential alias** attribute to \[cmdb\_ci\_appl\_ibm\_wmb\]. Configuring this attribute allows you later to use the credential for this CI in patterns.
+\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md). Set the **Credential alias** attribute to \[cmdb\_ci\_appl\_ibm\_wmb\]. Configuring this attribute allows you later to use the credential for this CI in patterns.
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
@@ -1359,11 +1359,11 @@ IBM MQ Manager \(formerly IBM WebSphere MQ\) \[cmdb\_ci\_appl\_ibm\_wmq\]
 
 </td><td>
 
-\(If hosted on Unix\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on Unix\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
-Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md) for a user with permissions to run the following commands:-   \(If hosted on a Windows server\) "echo display QMSTATUS ALL \| runmqsc -e " + $queue\_manager – for getting the queue manager \(QM\) status.
+Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md) for a user with permissions to run the following commands:-   \(If hosted on a Windows server\) "echo display QMSTATUS ALL \| runmqsc -e " + $queue\_manager – for getting the queue manager \(QM\) status.
 -   \(If hosted on a Windows server\) "echo display QMGR ALL \| runmqsc -e " + $queue\_manager – for getting the complete information about QM.
 -   \(If hosted on a Unix server\) "echo \\" display QMSTATUS ALL \\" \| runmqsc " + $queue\_manager – for getting the QM status.
 -   \(If hosted on a Unix server\) "echo \\" display QMGR ALL \\" \| runmqsc " + $queue\_manager – for getting the complete information about QM.
@@ -1371,11 +1371,11 @@ Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow
 
 </td></tr><tr><td>
 
-\(If hosted on Windows\), on the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on Windows\), on the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Unix server\) configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).While configuring OS credentials, set the **Credential alias** attribute to cmdb\_ci\_appl\_ibm\_wmq. Configuring this attribute allows you later to use the credential for this CI in patterns.
+\(If hosted on a Unix server\) configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).While configuring OS credentials, set the **Credential alias** attribute to cmdb\_ci\_appl\_ibm\_wmq. Configuring this attribute allows you later to use the credential for this CI in patterns.
 
  \(Optional\) To find IBM MQ connections, configure SSH credentials for a user with permissions to run the following commands:
 
@@ -1385,7 +1385,7 @@ Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow
 
 </td></tr><tr><td>
 
-\(If hosted on z/OS\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on z/OS\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
@@ -1405,18 +1405,18 @@ IBM MQ Queue \(formerly IBM WebSphere MQ Queue\) \[cmdb\_ci\_appl\_ibm\_wmq\_que
 
 </td><td>
 
-\(If hosted on a Unix server\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on a Unix server\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
-Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md) for a user with permissions to run the following commands:-   dspmq – for getting information about the queue manager.
+Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md) for a user with permissions to run the following commands:-   dspmq – for getting information about the queue manager.
 -   "echo \\" display queue\(" + $entry\_point.queue + "\) \\" \| runmqsc " + $queue\_manager – for getting the queue information.
 -   "echo \\" display clusqmgr\(\*\) conname \\" \| runmqsc " + $queue\_manager – for getting all cluster queue manager \(QM\) lines.
 -   "echo \\" display qstatus\(" + $entry\_point.queue + "\) TYPE\(HANDLE\) OPENTYPE\(INPUT\) CONNAME PID \\" \| runmqsc " + $queue\_manager – for getting the queue status information.
 
 </td></tr><tr><td>
 
-\(If hosted on Unix server\) on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md) for a user with permissions to run the following commands: -   dspmq
+\(If hosted on Unix server\) on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md) for a user with permissions to run the following commands: -   dspmq
 
 echo \\" display queue\("+$entry\_point.queue+"\) \\" \| runmqsc "+$queue\_manager
 
@@ -1429,7 +1429,7 @@ echo \\" display queue\("+$entry\_point.queue+"\) \\" \| runmqsc "+$queue\_manag
 
 </td></tr><tr><td>
 
-\(If hosted on Windows\), on the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md) for a user with permissions to run the following commands: -   dspmq
+\(If hosted on Windows\), on the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md) for a user with permissions to run the following commands: -   dspmq
 
 echo \\" display queue\("+$entry\_point.queue+"\) \\" \| runmqsc "+$queue\_manager
 
@@ -1442,7 +1442,7 @@ echo \\" display queue\("+$entry\_point.queue+"\) \\" \| runmqsc "+$queue\_manag
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td rowspan="4">
 
@@ -1454,19 +1454,19 @@ Websphere Portal \[cmdb\_ci\_appl\_websphere\_portal\]
 
 </td><td>
 
-\(If hosted on Linux only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on Linux only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -1478,11 +1478,11 @@ Inter connect \[cmdb\_ci\_inter\_connect\]
 
 </td><td>
 
-\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td rowspan="4">
 
@@ -1494,19 +1494,19 @@ JBoss \[cmdb\_ci\_app\_server\_jboss\]
 
 </td><td>
 
-Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Unix server\) on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on Unix server\) on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td rowspan="3">
 
@@ -1518,15 +1518,15 @@ Jboss module \[cmdb\_ci\_app\_server\_jb\_module\]
 
 </td><td>
 
-\(If hosted on a Unix server\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on a Unix server\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td rowspan="4">
 
@@ -1538,19 +1538,19 @@ Jrun \[cmdb\_ci\_app\_server\_jrun\]
 
 </td><td>
 
-\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td rowspan="3">
 
@@ -1562,15 +1562,15 @@ Jrun WAR \[cmdb\_ci\_app\_server\_jrun\_war\]
 
 </td><td>
 
-\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
@@ -1582,7 +1582,7 @@ Cloud WebServer \[cmdb\_ci\_cloud\_webserver\]
 
 </td><td>
 
-On the ServiceNow AI Platform, [add an Azure service principal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/azure-service-account-cloud-mgt.md) and [set up a cloud account for Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/azure-cloud-accts-cloud-mgt.md). Set the account Id to the Azure Service Principal as it appears at the Microsoft Azure Console.
+On the ServiceNow AI Platform, [add an Azure service principal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/azure-service-account-cloud-mgt.md) and [set up a cloud account for Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/azure-cloud-accts-cloud-mgt.md). Set the account Id to the Azure Service Principal as it appears at the Microsoft Azure Console.
 
 </td></tr><tr><td>
 
@@ -1594,7 +1594,7 @@ Load Balancer Service \[cmdb\_ci\_lb\_service\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [add an Azure service principal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/azure-service-account-cloud-mgt.md) and [set up a cloud account for Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/azure-cloud-accts-cloud-mgt.md). Set the account Id to the Azure Service Principal as it appears at the Microsoft Azure Console.
+On the ServiceNow AI Platform, configure [add an Azure service principal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/azure-service-account-cloud-mgt.md) and [set up a cloud account for Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/azure-cloud-accts-cloud-mgt.md). Set the account Id to the Azure Service Principal as it appears at the Microsoft Azure Console.
 
 </td></tr><tr><td>
 
@@ -1606,7 +1606,7 @@ Cloud Database Rule \[cmdb\_ci\_cloud\_database\]
 
 </td><td>
 
-On the ServiceNow AI Platform, [add an Azure service principal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/azure-service-account-cloud-mgt.md) and [set up a cloud account for Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/azure-cloud-accts-cloud-mgt.md). Set the account Id to the Azure Service Principal as it appears at the Microsoft Azure Console.
+On the ServiceNow AI Platform, [add an Azure service principal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/azure-service-account-cloud-mgt.md) and [set up a cloud account for Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/azure-cloud-accts-cloud-mgt.md). Set the account Id to the Azure Service Principal as it appears at the Microsoft Azure Console.
 
 </td></tr><tr><td rowspan="2">
 
@@ -1618,11 +1618,11 @@ Dynamic CRM Component \[cmdb\_ci\_appl\_ms\_dynamic\_crm\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -1634,11 +1634,11 @@ BizTalk Orchestration \[cmdb\_ci\_appl\_biztalk\_orch\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td>
 
@@ -1650,7 +1650,7 @@ BizTalk \[cmdb\_ci\_appl\_biztalk\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td rowspan="3">
 
@@ -1662,15 +1662,15 @@ ExchangeBackEndServer \[cmdb\_ci\_exchange\_backend\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-Configure [credentials required for host discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_Credentials4HostDiscovery.md) for a Windows server.
+Configure [credentials required for host discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_Credentials4HostDiscovery.md) for a Windows server.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td rowspan="3">
 
@@ -1682,15 +1682,15 @@ ExchangeFrontEndServer \[cmdb\_ci\_exchange\_frontend\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-Configure [credentials required for host discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_Credentials4HostDiscovery.md) for a Windows server.
+Configure [credentials required for host discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_Credentials4HostDiscovery.md) for a Windows server.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -1707,7 +1707,7 @@ Create a user with the permission to read the following files: -   `install_dire
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td>
 
@@ -1723,11 +1723,11 @@ ExchangeHub \[cmdb\_ci\_exchange\_hub\]Exchange MailBox \[cmdb\_ci\_exchange\_ma
 
 </td><td>
 
--   On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md). Use the Microsoft Exchange Server administrator's user name and password as Windows credentials. For example, user name: local\\administrator and password: Are1300.
+-   On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md). Use the Microsoft Exchange Server administrator's user name and password as Windows credentials. For example, user name: local\\administrator and password: Are1300.
 
 **Note:** If you configure Windows credentials for a user different from the Microsoft Exchange Server administrator, Service Mapping uses traffic-based discovery that results in mapping all Microsoft Exchange clients.
 
--   \(For Exchange CAS 2010 and 2013, 2016\) On the ServiceNow AI Platform, configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md), setting the CI type to Exchange Mailbox.
+-   \(For Exchange CAS 2010 and 2013, 2016\) On the ServiceNow AI Platform, configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md), setting the CI type to Exchange Mailbox.
 
 **Warning:** Do not confuse the Exchange Mailbox CI type with the Exchange Mailbox Server CI type.
 
@@ -1742,12 +1742,12 @@ Service Mapping uses these applicative credentials to access the of/Servers/Serv
     -   Get-MailboxDatabase
 -   \(For Microsoft Exchange CAS 2010 and 2016\) On the Windows Server hosting Microsoft Exchange CAS, install the Microsoft.Exchange.Management.PowerShell.E2010 module.
 -   \(For Microsoft Exchange CAS 2007\) On the Windows Server hosting Microsoft Exchange CAS, install the Microsoft.Exchange.Management.PowerShell.Admin module.
--   \(For Microsoft Exchange CAS 2007, 2010\) On the ServiceNow AI Platform, upload the rctrlx tool for running PowerShell commands as described in [Upload the rctrlx.exe file to MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/upload-rctrlx-file.md).
+-   \(For Microsoft Exchange CAS 2007, 2010\) On the ServiceNow AI Platform, upload the rctrlx tool for running PowerShell commands as described in [Upload the rctrlx.exe file to MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/upload-rctrlx-file.md).
 -   \(For Microsoft Exchange CAS 2007 and 2010\) Provide an Exchange Mailbox OS user with the rights to run Exchange services on Windows and has permission to query Exchange repository:
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md) setting the **Credential alias** attribute to \[cmdb\_ci\_exchange\_mailbox\]. Configuring this attribute allows you later to use the credential for this CI in patterns.
+On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md) setting the **Credential alias** attribute to \[cmdb\_ci\_exchange\_mailbox\]. Configuring this attribute allows you later to use the credential for this CI in patterns.
 
--   \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+-   \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 -   Verify that you know the entry point necessary for discovering the Microsoft Exchange Server. Use the URL for the Outlook web access in the following format:
 
 `http(s)://<hostname>:<port>/owa`
@@ -1765,7 +1765,7 @@ IIFP \[cmdb\_ci\_directory\_iifp\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -1777,11 +1777,11 @@ Microsoft iis Web Server \[cmdb\_ci\_microsoft\_iis\_web\_server\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td rowspan="3">
 
@@ -1793,8 +1793,8 @@ IIS Virtual Directory \[cmdb\_ci\_iisdirectory\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure the following credentials:-   [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md)
--   [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md)
+On the ServiceNow AI Platform, configure the following credentials:-   [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md)
+-   [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md)
 
 </td></tr><tr><td>
 
@@ -1804,7 +1804,7 @@ Verify read access to the following files:-   `web.config`: Possible locations `
 </td></tr><tr><td>
 
 -   \(Optional\) To find ADO.NET connections, set the **Credential alias** attribute to \[cmdb\_ci\_iisdirectory\]. Configuring this attribute allows you later to use the credential for this CI in patterns.
--   \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+-   \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td>
 
@@ -1816,7 +1816,7 @@ MSMQ \[cmdb\_ci\_appl\_msmq\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td rowspan="4">
 
@@ -1828,7 +1828,7 @@ Microsoft .NET Framework
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).\(Optional\) To find ADO.NET connections, set the **Credential alias** attribute to \[cmdb\_ci\_iisdirectory\]. Configuring this attribute allows you later to use the credential for this CI in patterns.
+On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).\(Optional\) To find ADO.NET connections, set the **Credential alias** attribute to \[cmdb\_ci\_iisdirectory\]. Configuring this attribute allows you later to use the credential for this CI in patterns.
 
 </td></tr><tr><td>
 
@@ -1836,11 +1836,11 @@ Provide an IIS Virtual Directory OS user with the rights to run the IIS service 
 
 </td></tr><tr><td>
 
-Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
+Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td rowspan="3">
 
@@ -1852,7 +1852,7 @@ SharePoint \[cmdb\_ci\_appl\_sharepoint\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure the following credentials:-   [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md)
+On the ServiceNow AI Platform, configure the following credentials:-   [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md)
 -   Set the **Credential alias** attribute to \[cmdb\_ci\_appl\_sharepoint\]. Configuring this attribute allows you later to use the credential for this CI in patterns.
 -   Configure WMI Query access to the remote Sharepoint server.
 -   \(Optional\) To find Windows SharePoint connections, configure Windows credentials for a user with permissions to run http get request to the SharePoint Central Administration URL.
@@ -1885,11 +1885,11 @@ Provide the following user or users:-   For discovering Microsoft Biztalk using 
 
 </td></tr><tr><td>
 
-Credentials for host discovery as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+Credentials for host discovery as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
+Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md).
 
 </td></tr><tr><td rowspan="3">
 
@@ -1901,15 +1901,15 @@ Mongo Config Server \[cmdb\_ci\_appl\_mongo\_config\_serv\]
 
 </td><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-Provide a user with permissions to run Mongo commands described in [Service Mapping commands not requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_NonSudoCommands.md).
+Provide a user with permissions to run Mongo commands described in [Service Mapping commands not requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_NonSudoCommands.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -1921,11 +1921,11 @@ MySQLClusterMGMNode \[cmdb\_ci\_db\_mysql\_clustermgnode\]
 
 </td><td>
 
-\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td rowspan="4">
 
@@ -1937,19 +1937,19 @@ Nginx Web Server \[cmdb\_ci\_nginx\_web\_server\]
 
 </td><td>
 
-\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
-Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
+Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -1961,11 +1961,11 @@ Documentum DocBase \[cmdb\_ci\_appl\_doc\_docbase\]
 
 </td><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td rowspan="3">
 
@@ -1977,15 +1977,15 @@ Oracle iAS \[cmdb\_ci\_app\_server\_ora\_ias\]
 
 </td><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
+\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md).
 
 </td></tr><tr><td rowspan="3">
 
@@ -1997,15 +1997,15 @@ Advanced Queue Queue \[cmdb\_ci\_appl\_ora\_queue\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_SupportedApplications.md).
+\(If hosted on Unix\) Configure [applicative credentials for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/r_SupportedApplications.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
@@ -2017,7 +2017,7 @@ UNIX Cluster \[cmdb\_ci\_unix\_cluster\], UNIX Cluster Node \[cmdb\_ci\_unix\_cl
 
 </td><td>
 
-See [Oracle database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_OracleDatabaseDiscovery.md).
+See [Oracle database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/c_OracleDatabaseDiscovery.md).
 
 </td></tr><tr><td rowspan="4">
 
@@ -2029,19 +2029,19 @@ Oracle Concurrent Server \[cmdb\_ci\_appl\_ora\_conc\]
 
 </td><td>
 
-\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td rowspan="5">
 
@@ -2053,27 +2053,27 @@ Oracle Instance \[cmdb\_ci\_db\_ora\_instance\]
 
 </td><td>
 
-\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
+\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td>
 
-[Oracle Database 12c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-cdb-pdb-discovery.md)
+[Oracle Database 12c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-cdb-pdb-discovery.md)
 
 </td><td>
 
@@ -2081,10 +2081,10 @@ Oracle PDB Instance \[cmdb\_ci\_db\_ora\_pdb\_instance\]
 
 </td><td>
 
--   Configure [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md) or [Oracle Wallet authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-wallet-authentication.md)
--   For Windows, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md)
--   For Unix, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md)
--   For the Oracle database, configure [Oracle database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_OracleDatabaseDiscovery.md)
+-   Configure [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md) or [Oracle Wallet authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-wallet-authentication.md)
+-   For Windows, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md)
+-   For Unix, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md)
+-   For the Oracle database, configure [Oracle database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/c_OracleDatabaseDiscovery.md)
 -   Provide a user with permissions to run queries on the following tables:
     -   V$DATAFILE
     -   V$TEMPFILE​
@@ -2104,15 +2104,15 @@ Advanced Queue Queue \[cmdb\_ci\_appl\_ora\_queue\]
 
 </td><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-Provide an Oracle instance user with permission to run the sqlplus command as described in [Service Mapping commands not requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_NonSudoCommands.md).
+Provide an Oracle instance user with permission to run the sqlplus command as described in [Service Mapping commands not requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_NonSudoCommands.md).
 
 </td></tr><tr><td rowspan="5">
 
@@ -2124,23 +2124,23 @@ Oracle Discoverer Engine \[cmdb\_ci\_appl\_ora\_disc\]
 
 </td><td>
 
-\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
+\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td rowspan="5">
 
@@ -2152,23 +2152,23 @@ Oracle Discoverer UI \[cmdb\_ci\_appl\_ora\_disc\_ui\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_SupportedApplications.md).
+\(If hosted on Unix\) Configure [applicative credentials for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/r_SupportedApplications.md).
 
 </td></tr><tr><td>
 
-On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td rowspan="4">
 
@@ -2180,19 +2180,19 @@ Oracle ESB \[cmdb\_ci\_appl\_ora\_ebs\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
+\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md).
 
 </td></tr><tr><td>
 
-On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td rowspan="3">
 
@@ -2204,15 +2204,15 @@ Oracle Forms UI \[cmdb\_ci\_appl\_ora\_forms\_ui\]
 
 </td><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -2224,11 +2224,11 @@ Oracle Fulfillment Server \[cmdb\_ci\_appl\_ora\_fs\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
+\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td>
 
@@ -2240,9 +2240,9 @@ GlassFish \[cmdb\_ci\_appl\_glassfish\] GlassFish WAR \[cmdb\_ci\_appl\_glassfis
 
 </td><td>
 
--   \(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
--   \(If hosted on a Linux or UNIX server\) \(Optional\) on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
--   \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+-   \(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
+-   \(If hosted on a Linux or UNIX server\) \(Optional\) on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
+-   \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td rowspan="4">
 
@@ -2254,19 +2254,19 @@ Oracle HTTP Server \[cmdb\_ci\_appl\_ora\_http\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
+\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td rowspan="3">
 
@@ -2278,15 +2278,15 @@ Oracle iAS Web module \[cmdb\_ci\_app\_server\_ora\_ias\_m\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
+\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td rowspan="3">
 
@@ -2298,15 +2298,15 @@ Oracle Metric Client \[cmdb\_ci\_appl\_ora\_metric\_client\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
+\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td rowspan="4">
 
@@ -2318,19 +2318,19 @@ Oracle Metric Server \[cmdb\_ci\_appl\_ora\_metric\_svr\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
+\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td rowspan="6">
 
@@ -2347,23 +2347,23 @@ Provide the following user or users:-   For discovering Microsoft Biztalk using 
 
 </td></tr><tr><td>
 
-Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
+Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on Linux\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Linux server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on a Linux server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td>
 
@@ -2375,7 +2375,7 @@ Oracle Database Listener \[cmdb\_ci\_db\_ora\_listener\]
 
 </td><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -2387,11 +2387,11 @@ Oracle Notification Server \[cmdb\_ci\_appl\_ora\_notif\_svr\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
+\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td rowspan="3">
 
@@ -2403,15 +2403,15 @@ Oracle OACORE Server \[cmdb\_ci\_appl\_ora\_oacore\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
+\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td rowspan="3">
 
@@ -2423,15 +2423,15 @@ Oracle OAFM Server \[cmdb\_ci\_appl\_ora\_oafm\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
+\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Unix\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on Unix\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
@@ -2443,7 +2443,7 @@ Peoplesoft Application Server \[cmdb\_ci\_appl\_peoplesoft\]
 
 </td><td>
 
-\(If hosted on Unix\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on Unix\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
@@ -2455,7 +2455,7 @@ Peoplesoft Application Server \[cmdb\_ci\_appl\_peoplesoft\]
 
 </td><td>
 
-Provide a user with permissions to run commands described in [Service Mapping commands not requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_NonSudoCommands.md).
+Provide a user with permissions to run commands described in [Service Mapping commands not requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_NonSudoCommands.md).
 
 </td></tr><tr><td rowspan="4">
 
@@ -2467,19 +2467,19 @@ Oracle Process Manager \[cmdb\_ci\_appl\_ora\_pm\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
+\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td rowspan="4">
 
@@ -2491,19 +2491,19 @@ Oracle Report Server \[cmdb\_ci\_appl\_ora\_report\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
+\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td rowspan="3">
 
@@ -2515,15 +2515,15 @@ Oracle TNS Listener Engine \[cmdb\_ci\_appl\_ora\_tnslsnr\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
+\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md).
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
@@ -2535,9 +2535,9 @@ Tuxedo \[cmdb\_ci\_appl\_tuxedo\] and Tuxedo Portal \[cmdb\_ci\_appl\_tuxedo\_po
 
 </td><td>
 
--   On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
--   \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
--   \(If hosted on Unix\) Provide a user with the elevated rights for running commands described in [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+-   On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
+-   \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+-   \(If hosted on Unix\) Provide a user with the elevated rights for running commands described in [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -2549,7 +2549,7 @@ Oracle iAS Web module \[cmdb\_ci\_app\_server\_ora\_ias\_m\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
+\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md).
 
 </td></tr><tr><td rowspan="4">
 
@@ -2561,19 +2561,19 @@ Weblogic \[cmdb\_ci\_app\_server\_weblogic\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
+\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td rowspan="3">
 
@@ -2585,15 +2585,15 @@ Websphere ODR LB \[cmdb\_ci\_app\_server\_ws\_odr\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_SupportedApplications.md).
+\(If hosted on Unix\) Configure [applicative credentials for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/r_SupportedApplications.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
@@ -2605,7 +2605,7 @@ Alteon Load Balancer \[cmdb\_ci\_lb\_alteon\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_SNMPCredentials.md).
+On the ServiceNow AI Platform, configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_SNMPCredentials.md).
 
 </td></tr><tr><td>
 
@@ -2617,7 +2617,7 @@ Radware Load Balancer \[cmdb\_ci\_lb\_radware\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_SNMPCredentials.md).
+On the ServiceNow AI Platform, configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_SNMPCredentials.md).
 
 </td></tr><tr><td rowspan="3">
 
@@ -2635,7 +2635,7 @@ Cluster Virtual IPs \[cmdb\_ci\_cluster\_vip\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
@@ -2656,23 +2656,23 @@ PostgreSQL Instance \[cmdb\_ci\_db\_postgresql\_instance\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
+\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(For hosted on Unix only\) Give this user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(For hosted on Unix only\) Give this user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td rowspan="4">
 
@@ -2684,19 +2684,19 @@ RabbitMQ Cluster \[cmdb\_ci\_appl\_rabbitmq\_cluster\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
+\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -2708,11 +2708,11 @@ SAP BO BOXIScheduleRouter \[cmdb\_ci\_appl\_sap\_bo\_scheduler\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, seew [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, seew [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -2724,11 +2724,11 @@ SAP Business Objects CMS server \[cmdb\_ci\_appl\_sap\_bo\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td>
 
@@ -2760,9 +2760,9 @@ SAP CI Application \[cmdb\_ci\_appl\_sap\_ci\]/SAP SCS Application \[cmdb\_ci\_a
 
 </td><td>
 
--   \(If hosted on a UNIX server\) On the ServiceNow AI Platform, configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md) and [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md). The SSH credentials are used to create connections from SAP Central Instance \(CI\) to other applications and devices. In addition, provide the user elevated rights to be able to run commands requiring a privileged user: [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
--   \(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md) to create connections from SAP CI to other applications and devices.
--   \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+-   \(If hosted on a UNIX server\) On the ServiceNow AI Platform, configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md) and [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md). The SSH credentials are used to create connections from SAP Central Instance \(CI\) to other applications and devices. In addition, provide the user elevated rights to be able to run commands requiring a privileged user: [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+-   \(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md) to create connections from SAP CI to other applications and devices.
+-   \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 -   \(Optional for top-down discovery by Service Mapping\) Provide a user with permissions to run SOAP on RFC read table function.
 -   \(Optional for top-down discovery by Service Mapping\) If your organization deploys SAP Digital Business Services using web services and you want to map all connected services, perform the following actions:
     -   Configure applicative credentials for a user with permissions to access the following tables: CVERS, DBCONS, and RFCDES.
@@ -2778,15 +2778,15 @@ SAP Hana Db \[cmdb\_ci\_appl\_sap\_hana\_db\]
 
 </td><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td rowspan="5">
 
@@ -2798,23 +2798,23 @@ Sybase Instance \[cmdb\_ci\_db\_syb\_instance\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
+\(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(For hosted on Unix only\) Give this user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(For hosted on Unix only\) Give this user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td>
 
@@ -2826,7 +2826,7 @@ SQL Server Analysis Services \[cmdb\_ci\_db\_mssql\_analysis\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
@@ -2838,7 +2838,7 @@ SQL Server Integration Services Job \[cmdb\_ci\_db\_mssql\_int\_job\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -2850,11 +2850,11 @@ SQL Server Integration Services \[cmdb\_ci\_db\_mssql\_integration\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td rowspan="6">
 
@@ -2874,7 +2874,7 @@ Configure credentials for a user with permissions to run http get request to the
 
 </td></tr><tr><td>
 
-\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md). Set the **Credential alias** attribute to \[cmdb\_ci\_db\_mssql\_reporting\]. Configuring this attribute allows you later to use the credential for this CI in patterns.
+\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md). Set the **Credential alias** attribute to \[cmdb\_ci\_db\_mssql\_reporting\]. Configuring this attribute allows you later to use the credential for this CI in patterns.
 
 </td></tr><tr><td>
 
@@ -2882,11 +2882,11 @@ Configure credentials for a user with permissions to run http get request to the
 
 </td></tr><tr><td>
 
-Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
+Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md).
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -2898,11 +2898,11 @@ Iplanet Web Server \[cmdb\_ci\_iplanet\_web\_server\]
 
 </td><td>
 
-Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
+Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md).
 
 </td></tr><tr><td>
 
-On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -2914,11 +2914,11 @@ Sun LDAP Server \[cmdb\_ci\_sun\_ldap\_dir\_server\]
 
 </td><td>
 
-Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
+Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md).
 
 </td></tr><tr><td>
 
-On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -2930,11 +2930,11 @@ JES \[cmdb\_ci\_email\_server\_jes\]
 
 </td><td>
 
-Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
+Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md).
 
 </td></tr><tr><td>
 
-On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
@@ -2946,7 +2946,7 @@ Enterprise Vault \[cmdb\_ci\_email\_server\_ent\_vault\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
@@ -2966,10 +2966,10 @@ ActiveMatrix Business Works \[cmdb\_ci\_appl\_tibco\_matrix\]/ActiveMatrix Busin
 
 </td><td>
 
--   \(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md) for the Tibco EMS.
--   \(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
--   \(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
--   \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
+-   \(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md) for the Tibco EMS.
+-   \(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
+-   \(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
+-   \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -2981,11 +2981,11 @@ Tibco Adapter \[cmdb\_ci\_appl\_tibco\_adapter\]
 
 </td><td>
 
-\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr><tr><td>
 
@@ -2997,23 +2997,23 @@ Enterprise Vault \[cmdb\_ci\_email\_server\_ent\_vault\]
 
 </td><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 </td></tr></tbody>
 </table>## Resolving credential-related issues
 
 If there are discovery issues caused by incorrectly configured or missing credentials, resolve them as explained in the KB article: [Credentials &amp; Permissions troubleshooting on Discovery, Service Mapping, Orchestration](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0657528)
 
--   **[Credentials required for host discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_Credentials4HostDiscovery.md)**  
+-   **[Credentials required for host discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_Credentials4HostDiscovery.md)**  
 There are credentials and permissions that Service Mapping requires for discovering hosts.
--   **[Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md)**  
+-   **[Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md)**  
 Service Mapping uses commands requiring elevated rights to discover and map Unix-based hosts in your organization. In addition to configuring necessary credentials, configure servers in your organization to allow Service Mapping to run these commands with elevated rights.
--   **[Service Mapping commands not requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_NonSudoCommands.md)**  
+-   **[Service Mapping commands not requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_NonSudoCommands.md)**  
 Most of commands utilized by Service Mapping for discovery and mapping do not require elevated rights.
--   **[SNMP-based queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/snmp-based-queries.md)**  
+-   **[SNMP-based queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/snmp-based-queries.md)**  
 Service Mapping accesses network infrastructure devices like load balancers and routers using Simple Network Management Protocol \(SNMP\) v1/v2c/v3. Configure SNMP community credentials to enable this type of access.
 
-**Parent Topic:**[Configuring Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-setup.md)
+**Parent Topic:**[Configuring Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/service-mapping-setup.md)
 
 **Related topics**  
 

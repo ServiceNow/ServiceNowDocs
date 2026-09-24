@@ -3,11 +3,11 @@ title: Automatically closing stale test results in Configuration Compliance
 description: You can activate the Auto-Close Stale Test Results feature to automatically close older test results not recently found by your third-party integrations. Moving these test results to Closed-Stale reduces the number of active test results and remediation tasks in your instance and helps you reconcile assets in your Configuration Management Database \(CMDB\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/cc-autoclose-tr-overview.html
-release: australia
+release: brazil
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
@@ -75,5 +75,5 @@ The state progression and precedence for test results is: **Open** &gt; **Closed
 
 ## Supported integrations
 
-For more information on the third-party integrations that support this feature, see [Understanding the Qualys Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/c_QualysVulnIntegration.md) and [Tenable.io integrations with the Vulnerability Response and Configuration Compliance applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/tenable-io-integrations-list.md).
+For more information on the third-party integrations that support this feature, see [Understanding the Qualys Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/c_QualysVulnIntegration.md) and [Tenable.io integrations with the Vulnerability Response and Configuration Compliance applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/tenable-io-integrations-list.md).
 

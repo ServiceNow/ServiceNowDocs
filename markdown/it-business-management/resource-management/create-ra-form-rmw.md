@@ -3,11 +3,11 @@ title: New Resource Assignment form
 description: Fill in the following fields to create a resource assignment using Resource Management Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/create-ra-form-rmw.html
-release: australia
+release: brazil
 product: Resource Management
 classification: resource-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Resource Management Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -165,5 +165,5 @@ Notes
 Enter details about the assignment to help resource manager or project manager with insights and additional information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Resource Management Workspace references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rmw-references.md)
+</table>**Parent Topic:**[Resource Management Workspace references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/rmw-references.md)
 

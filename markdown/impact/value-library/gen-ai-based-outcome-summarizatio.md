@@ -3,11 +3,11 @@ title: Summarize outcomes with ServiceNow Otto
 description: View a concise summary of your operational outcomes in Impact, including positive or negative outcome trends, adoption of recommended applications, and consumption of related Accelerators.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/value-library/gen-ai-based-outcome-summarizatio.html
-release: australia
+release: brazil
 product: Value Library
 classification: value-library
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Value management, Using Impact, Impact]
 ---
@@ -28,15 +28,15 @@ Role required: Impact App Admin, Impact Platform Owner, Impact Portfolio Owner
 
 2.  Select one of the following to open the desired outcomes page.
 
-<table id="choicetable_mq4_2zs_djc"><thead><tr><th align="left" id="d37670e84">
+<table id="choicetable_mq4_2zs_djc"><thead><tr><th align="left" id="d39056e84">
 
 Option
 
-</th><th align="left" id="d37670e87">
+</th><th align="left" id="d39056e87">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d37670e93">
+</th></tr></thead><tbody><tr><td id="d39056e93">
 
 **Outcomes Insights**
 
@@ -47,7 +47,7 @@ Action
 3.  In the Quick links section, select the **Outcome details page** link.
 
 
-</td></tr><tr><td id="d37670e123">
+</td></tr><tr><td id="d39056e123">
 
 **Objectives and Outcomes**
 

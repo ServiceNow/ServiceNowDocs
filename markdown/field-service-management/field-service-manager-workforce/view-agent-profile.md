@@ -3,11 +3,11 @@ title: View an agent profile
 description: An agent profile displays the agent's personal information as well as the work status, schedule, location, and time zone. View the agent's profile from the team calendar.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/view-agent-profile.html
-release: australia
+release: brazil
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing agents and agent groups, Using the team calendar, Managing agents and tasks from Workforce, Managing workforce, Use, Field Service Management]
 ---

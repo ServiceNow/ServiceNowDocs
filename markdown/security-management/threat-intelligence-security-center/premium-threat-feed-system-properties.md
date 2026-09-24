@@ -3,11 +3,11 @@ title: System Properties for CrowdStrike
 description: The following details the system properties for CrowdStrike.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/premium-threat-feed-system-properties.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Premium Threat Feed for CrowdStrike, View Custom Feed, View Threat Intel Feeds, Threat Intelligence Feeds, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
@@ -32,5 +32,5 @@ The following details the system properties for CrowdStrike.
     -   Type: Integer
     -   Value: 50
 
-**Parent Topic:**[Configure Premium Threat Feed for CrowdStrike](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/premium-threat-feed-for-crowdstrike.md)
+**Parent Topic:**[Configure Premium Threat Feed for CrowdStrike](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/premium-threat-feed-for-crowdstrike.md)
 

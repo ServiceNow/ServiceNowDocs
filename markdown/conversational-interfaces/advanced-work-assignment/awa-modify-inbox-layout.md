@@ -3,11 +3,11 @@ title: Create or change an inbox layout
 description: Create or change the card layout for inbox items for a given service channel. Card layouts are displayed in the agent inbox view of Agent Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-modify-inbox-layout.html
-release: australia
+release: brazil
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -147,6 +147,6 @@ The field from the table for the channel. For example, the Interaction \[interac
 
 As needed:
 
--   [Override the agent capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-change-agent-capacity.md) value for selected agents or groups.
--   [Create or change a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-queue.md) for the channel.
+-   [Override the agent capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/advanced-work-assignment/awa-change-agent-capacity.md) value for selected agents or groups.
+-   [Create or change a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/advanced-work-assignment/awa-create-queue.md) for the channel.
 

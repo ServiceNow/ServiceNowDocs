@@ -3,11 +3,11 @@ title: Exploring flows
 description: Flows automate a repeatable multi-step process. When the flow trigger conditions are met, the flow runs a sequence of reusable actions and flow logic to complete the process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/exploring-flows.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -30,30 +30,30 @@ Flows consist of the following components.
 
     A trigger specifies when to run the flow. When the trigger conditions are met, the system runs the flow using the data provided by the trigger. Workflow Studio supports a variety of trigger types such as record, Service Catalog requests, and scheduled triggers. For a description of available trigger types, see
 
-    -   [Workflow Studio flow trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-triggers.md)
-    -   [Saved flow triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/saved-flow-triggers.md)
+    -   [Workflow Studio flow trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-triggers.md)
+    -   [Saved flow triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/saved-flow-triggers.md)
 -   **Flow execution details**
 
-    A flow execution details page allows a flow author to view run-time information about an action or flow directly from the design environment. You can view details such as the current state, actions or steps run, output values generated, and errors produced. See [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-execution-details.md).
+    A flow execution details page allows a flow author to view run-time information about an action or flow directly from the design environment. You can view details such as the current state, actions or steps run, output values generated, and errors produced. See [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-execution-details.md).
 
 -   **Flow error handler**
 
-    A flow error handler enables a flow to catch and report errors from the flow execution details. Run a sequence of actions and subflows to identify and correct issues. For example, have flows log output values, send notifications, and run corrective subflows when they produce an error. See [Flow error handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-error-handler.md).
+    A flow error handler enables a flow to catch and report errors from the flow execution details. Run a sequence of actions and subflows to identify and correct issues. For example, have flows log output values, send notifications, and run corrective subflows when they produce an error. See [Flow error handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-error-handler.md).
 
 -   **Subflows**
 
-    A subflow is an automated process consisting of a sequence of reusable actions, data inputs, and outputs. In contrast to flows, subflows do not have a trigger but instead run when called from a flow, from another subflow, or from a script. Building and managing subflows requires that you have some familiarity with the ServiceNow AI Platform tables and fields that the application or process uses. Process analysts can create subflows using available actions or use an existing subflow as a template. See [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md).
+    A subflow is an automated process consisting of a sequence of reusable actions, data inputs, and outputs. In contrast to flows, subflows do not have a trigger but instead run when called from a flow, from another subflow, or from a script. Building and managing subflows requires that you have some familiarity with the ServiceNow AI Platform tables and fields that the application or process uses. Process analysts can create subflows using available actions or use an existing subflow as a template. See [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/subflows.md).
 
 -   **Actions**
 
-    An action is a reusable operation that enables process analysts to automate ServiceNow AI Platform features without having to write code. For example, the **Create Record** action allows process analysts to generate records in a particular table with particular values when certain conditions occur. ServiceNow core actions like Create Record require some familiarity with ServiceNow AI Platform tables and fields. Action designers can create application-specific actions to pre-set configuration details. For example, creating a Create Incident Task action ensures that the process analyst uses the correct table and field configuration each time the action is used. You can add application-specific actions by activating the associated spoke. See [Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md).
+    An action is a reusable operation that enables process analysts to automate ServiceNow AI Platform features without having to write code. For example, the **Create Record** action allows process analysts to generate records in a particular table with particular values when certain conditions occur. ServiceNow core actions like Create Record require some familiarity with ServiceNow AI Platform tables and fields. Action designers can create application-specific actions to pre-set configuration details. For example, creating a Create Incident Task action ensures that the process analyst uses the correct table and field configuration each time the action is used. You can add application-specific actions by activating the associated spoke. See [Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-actions.md).
 
 -   **Spokes**
 
-    A spoke is a scoped application containing Workflow Studio actions and subflows for managing specific tables. For example, the **ITSM Spoke** contains actions for managing Incident and Problem records. You can activate additional spokes from the ServiceNow Store or activating the appropriate plugin. Building your own spoke requires familiarity with application development on the ServiceNow AI Platform. For a list of available spokes, see [Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/spokes.md).
+    A spoke is a scoped application containing Workflow Studio actions and subflows for managing specific tables. For example, the **ITSM Spoke** contains actions for managing Incident and Problem records. You can activate additional spokes from the ServiceNow Store or activating the appropriate plugin. Building your own spoke requires familiarity with application development on the ServiceNow AI Platform. For a list of available spokes, see [Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/spokes.md).
 
 
-For detailed instructions for creating a flow, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md).
+For detailed instructions for creating a flow, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-flow.md).
 
 ## Sections of a flow
 
@@ -65,17 +65,17 @@ A flow consists of four sections.
 
     The Trigger section is where you select and define when the flow runs. Each trigger type defines when a flow starts and the starting data available to it. There are triggers for record operations, dates, and application operations.​
 
-    Flows support record-based, schedule-based, and application-based trigger types. For more information about available trigger types, see [Workflow Studio flow trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-triggers.md).
+    Flows support record-based, schedule-based, and application-based trigger types. For more information about available trigger types, see [Workflow Studio flow trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-triggers.md).
 
 -   **2. Action section**
 
-    The Actions section is where you select and configure the steps that make up your flow. You can add [actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/actions.md), [flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic.md), and [subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md) to a flow by opening the associated picker.
+    The Actions section is where you select and configure the steps that make up your flow. You can add [actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/actions.md), [flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-logic.md), and [subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/subflows.md) to a flow by opening the associated picker.
 
     Sequential numbers appear next to each item in the design canvas. Action numbers start with 1 and then increment by 1 as you add more items to the flow.
 
 -   **3. Error handler section**
 
-    The Error handler section of the flows is where you can enable the flow to catch and correct errors. For more information about using the error handler section, see [Flow error handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-error-handler.md).
+    The Error handler section of the flows is where you can enable the flow to catch and correct errors. For more information about using the error handler section, see [Flow error handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-error-handler.md).
 
 -   **4. Data panel**
 

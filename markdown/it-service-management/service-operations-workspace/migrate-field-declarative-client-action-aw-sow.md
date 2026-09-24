@@ -3,11 +3,11 @@ title: Migrate the client action from ITSM Agent Workspace to Service Operations
 description: Configure the client actions to migrate field decorators actions from ITSM Agent Workspace to Service Operations Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/migrate-field-declarative-client-action-aw-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Migration of field decorators from ITSM Agent Workspace to Service Operations Workspace for ITSM, Configure and customize the migration to SOW, Migrate from ITSM Agent Workspace to Service Operations Workspace for ITSM, Migration from ITSM Agent Workspace to Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -93,5 +93,5 @@ Role required: admin
     **Note:** The **ITEM\_SELECTED** and **PREVIEW\_RECORD** actions function in the ITSM Agent Workspace but not in SOW. Therefore, a new action payload named "CREATE\_NEW\_RECORD" Is introduced in SOW. While there could be other action payloads that might not function properly, the base system client actions for List continue to work effectively in SOW post-migration.
 
 
-**Parent Topic:**[Migration of field decorators from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/field-declarative-actions-aw-sow.md)
+**Parent Topic:**[Migration of field decorators from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/field-declarative-actions-aw-sow.md)
 

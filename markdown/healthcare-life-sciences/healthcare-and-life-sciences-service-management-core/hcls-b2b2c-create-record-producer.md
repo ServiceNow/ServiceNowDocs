@@ -3,11 +3,11 @@ title: Create a record producer for B2B2C in Healthcare and Life Sciences Servic
 description: Create a record producer for use with B2B2C.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-b2b2c-create-record-producer.html
-release: australia
+release: brazil
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up B2B2C, Configure, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -18,7 +18,7 @@ Create a record producer for use with B2B2C.
 
 ## Before you begin
 
-Create a table for use with B2B2C. For more information, see [Create a table for B2B2C in Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-b2b2c-create-hcls-case-table.md).
+Create a table for use with B2B2C. For more information, see [Create a table for B2B2C in Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-b2b2c-create-hcls-case-table.md).
 
 Role required: admin
 
@@ -30,7 +30,7 @@ Role required: admin
 
 3.  On the form, fill in the fields.
 
-    **Note:** For details on the fields, refer to [Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_DefRecProdInSCat.md).
+    **Note:** For details on the fields, refer to [Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_DefRecProdInSCat.md).
 
 4.  Click **Save**, then re-open the record.
 
@@ -38,7 +38,7 @@ Role required: admin
 
     1.  Navigate to **Variables** and click **New**.
 
-        **Note:** For details on variables, refer to [Variables to collect data for record producer fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_CreatingVariablesForFieldTypes.md).
+        **Note:** For details on variables, refer to [Variables to collect data for record producer fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_CreatingVariablesForFieldTypes.md).
 
     2.  Add the following variables in **Type Specifications**:
 
@@ -130,5 +130,5 @@ The record producer is created.
 
 ## What to do next
 
-Add your record producer to the CSM portal. For more information, see [Add a record producer to CSM portal for B2B2C in Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-add-record-producer-csm-portal.md).
+Add your record producer to the CSM portal. For more information, see [Add a record producer to CSM portal for B2B2C in Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-add-record-producer-csm-portal.md).
 

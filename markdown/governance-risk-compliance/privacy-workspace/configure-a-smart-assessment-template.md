@@ -3,11 +3,11 @@ title: Configure smart assessment templates for screening assessments
 description: Create a privacy assessment template using the Smart Assessment Engine as a base for sending screening assessments and use it to detect the privacy risks and mitigate those risks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/configure-a-smart-assessment-template.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -124,7 +124,7 @@ The Smart Assessment Engine uses one published version of a template at a time. 
 
 **Note:** Assessments already in Draft, Assigned, or Work in progress state continue against the version they were created with.
 
-To create a version of an existing template, see [Update a privacy assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-new-smart-asmt-version.md).
+To create a version of an existing template, see [Update a privacy assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/create-new-smart-asmt-version.md).
 
-**Parent Topic:**[Configuring Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/configure-privacy-mgmt.md)
+**Parent Topic:**[Configuring Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/configure-privacy-mgmt.md)
 

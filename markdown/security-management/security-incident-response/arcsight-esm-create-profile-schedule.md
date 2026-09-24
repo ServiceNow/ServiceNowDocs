@@ -3,11 +3,11 @@ title: Create a schedule for ArcSight ESM event ingestion ingestion
 description: You can define the polling or pull schedule for new correlated events. During this step, you can verify the existing settings for correlation event retrieval or modify the scheduling as needed. This step also permits you to retrieve historical correlation events using a date range.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/arcsight-esm-create-profile-schedule.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Set up instance, ArcSight ESM Event Ingestion integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -34,15 +34,15 @@ As a user with the sn\_si.admin role, you configure these polling intervals on a
 
 2.  Choose one to schedule how and when correlation events are pulled from the &lt;ArcSight&gt; console.
 
-<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d191197e93">
+<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d190884e93">
 
 Option
 
-</th><th align="left" id="d191197e96">
+</th><th align="left" id="d190884e96">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d191197e102">
+</th></tr></thead><tbody><tr><td id="d190884e102">
 
 **-   Ongoing Event Ingestion field selected
 -   One-Time Retrieval field cleared
@@ -52,7 +52,7 @@ Description
 
 On-going EventBased on the default setting, the ServiceNow AI Platform instance pulls from the ArcSight ESM server for new correlation events every five minutes. Security incidents are created if correlation events are found and incident generation filtering criteria are matched. To balance ingestion polling overhead desire to get the most current data, five minutes is the default setting. However, this value can be modified to as low as one minute if needed.
 
-</td></tr><tr><td id="d191197e129">
+</td></tr><tr><td id="d190884e129">
 
 **-   Ongoing Event Ingestion field cleared
 -   One-Time Retrieval field selected
@@ -85,6 +85,6 @@ After the correlation events are pulled, this setting will not retrieve more cor
 
 4.  Select **Continue** to navigate to the Additional Options page.
 
-    **Note:** The default number of security incidents that can be created and aggregated in a day, and the flow time period are defined in the ArcSight ESM Integration Settings. You can modify these settings if required. See [ArcSight ESM Integration Settings for event ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/arcsight-esm-settings.md) for details.
+    **Note:** The default number of security incidents that can be created and aggregated in a day, and the flow time period are defined in the ArcSight ESM Integration Settings. You can modify these settings if required. See [ArcSight ESM Integration Settings for event ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/arcsight-esm-settings.md) for details.
 
 

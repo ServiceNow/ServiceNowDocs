@@ -3,11 +3,11 @@ title: Resource Management properties
 description: The Resource Management application provides several properties to control allocations, schedules, and other settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/r\_ResourceProperties.html
-release: australia
+release: brazil
 product: Resource Management
 classification: resource-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Resource Management reference, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -331,5 +331,5 @@ Edit the effort fields for a resource assignment even when actual values have be
 true
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Resource Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-mgmt-reference.md)
+</table>**Parent Topic:**[Resource Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/rsrc-mgmt-reference.md)
 

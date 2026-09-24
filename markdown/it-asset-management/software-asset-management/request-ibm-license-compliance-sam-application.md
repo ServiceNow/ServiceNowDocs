@@ -3,11 +3,11 @@ title: Request the IBM License Compliance for Software Asset Management applicat
 description: Request the IBM License Compliance for Software Asset Management application from the ServiceNow Store so that you can integrate the Software Asset Management publisher pack for IBM with an Authorized SAM Provider \(ASP\). Use the integration to track and manage your IBM licenses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/request-ibm-license-compliance-sam-application.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up an ASP integration, CVA integrations, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -54,8 +54,8 @@ If your request is approved, you will receive an email with detailed instruction
 
 Install the application according to the instructions in the email.
 
--   **[License metrics added by the IBM License Compliance for Software Asset Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/license-metrics-added-by-ibm-license-compliance-sam-application.md)**  
+-   **[License metrics added by the IBM License Compliance for Software Asset Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/license-metrics-added-by-ibm-license-compliance-sam-application.md)**  
 The IBM License Compliance for Software Asset Management application adds license metrics that enable you to classify your IBM software products.
 
-**Parent Topic:**[Setting up an IBM Authorized SAM Provider \(ASP\) integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/setting-up-anglepoint-integration.md)
+**Parent Topic:**[Setting up an IBM Authorized SAM Provider \(ASP\) integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/setting-up-anglepoint-integration.md)
 

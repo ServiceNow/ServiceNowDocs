@@ -3,11 +3,11 @@ title: Outcome versioning in Impact
 description: Outcome versioning distinguishes between the standard and enhanced sets of outcome definitions in the Impact Value App, helping you track performance consistently and interpret your results accurately.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/value-library/outcome-versioning-in-impact.html
-release: australia
+release: brazil
 product: Value Library
 classification: value-library
 topic_type: concept
-last_updated: "2026-05-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Objectives and outcomes, Value management, Using Impact, Impact]
 ---

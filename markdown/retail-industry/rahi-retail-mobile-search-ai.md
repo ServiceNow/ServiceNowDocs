@@ -3,9 +3,9 @@ title: Search for assigned cases and tasks using AI Search in Retail Mobile
 description: Use the Search function in Retail Mobile to find cases or tasks based on relevant keywords or descriptions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-mobile-search-ai.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Fulfill In-store operations cases and tasks in Retail Mobile, Manage store plans, Retail]
 ---
@@ -18,7 +18,7 @@ Use the Search function in Retail Mobile to find cases or tasks based on relevan
 
 Role required: sn\_rtl\_instore\_ops.manager or sn\_rtl\_instore\_ops.associate
 
-**Note:** This requires AI search to be enabled within the Retail Mobile instance. For more information, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/overview-ais.md).
+**Note:** This requires AI search to be enabled within the Retail Mobile instance. For more information, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/overview-ais.md).
 
 ## Procedure
 
@@ -29,5 +29,5 @@ Role required: sn\_rtl\_instore\_ops.manager or sn\_rtl\_instore\_ops.associate
 3.  Select a matching store case as task as needed.
 
 
-**Parent Topic:**[Fulfill In-store operations cases and tasks in Retail Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-fulfill-in-store-ops-mobile.md)
+**Parent Topic:**[Fulfill In-store operations cases and tasks in Retail Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-fulfill-in-store-ops-mobile.md)
 

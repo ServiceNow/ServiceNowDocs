@@ -3,11 +3,11 @@ title: Generate an email response by using ServiceNow Otto for Customer Service 
 description: Generate an email response that is based on the case and email context by using the AI icon. With email response, agents can create quick emails or responses, helping minimize errors and ramp up productivity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/generate-email-reply-recommendations.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
@@ -36,54 +36,56 @@ An agent can do these actions by using the AI icon:
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** and open a customer service case that supports the email response.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** and open a customer service case that supports the email response.
 
 2.  Choose how to compose an email.
 
-<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d189116e123">
+<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d193176e124">
 
 Method
 
-</th><th align="left" id="d189116e126">
+</th><th align="left" id="d193176e127">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d189116e132">
+</th></tr></thead><tbody><tr><td id="d193176e133">
 
 **Compose email from More actions**
 
 </td><td>
 
 1.  Select **Compose email**.
-2.  Write six or more words and then select the words that you just wrote to see the AI icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon
-3.  Select the AI icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon. to generate a response.
+2.  Write six or more words and then select the words that you just wrote to see the AI icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist.
+3.  Select the AI icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist. to generate a response.
 4.  Select **Refine** to shorten or elaborate the content.
 5.  Get a recommendation that is based on the existing context.
 
 
-</td></tr><tr><td id="d189116e177">
+</td></tr><tr><td id="d193176e178">
 
 **Compose an email from Activity stream**
 
 </td><td>
 
 1.  In the activity stream, select an existing email that you want to reply to.
-2.  Position your cursor within the email message window to see the AI icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon ..
-3.  Select the AI icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon . to receive a recommendation that is based on the existing context.
+2.  Position your cursor within the email message window to see the AI icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist..
+3.  Select the AI icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist. to receive a recommendation that is based on the existing context.
 
 
 </td></tr></tbody>
 </table>3.  In the email message window, either type a response, or leave blank, and then select the AI icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon..
 
-<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d189116e225">
+    \[Omitted image "now-assist-email-reply-recommendation.png"\] Alt text: Generated email response.
+
+<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d193176e241">
 
 Email message window
 
-</th><th align="left" id="d189116e228">
+</th><th align="left" id="d193176e244">
 
 AI icon
 
-</th></tr></thead><tbody><tr><td id="d189116e234">
+</th></tr></thead><tbody><tr><td id="d193176e250">
 
 **Typed response**
 
@@ -98,7 +100,7 @@ Provides the option to change your tone:
 -   Sympathetic
 
 
-</td></tr><tr><td id="d189116e264">
+</td></tr><tr><td id="d193176e280">
 
 **Left blank**
 
@@ -106,7 +108,7 @@ Provides the option to change your tone:
 
 Generates a recommended email response that is based on the context of the email up to this point.
 
-</td></tr><tr><td id="d189116e273">
+</td></tr><tr><td id="d193176e289">
 
 **Use template**
 
@@ -124,5 +126,5 @@ Generates a recommended email response that is based on the context of the email
 6.  Select **Send Email** or discard the draft if you don’t like the recommendation.
 
 
-**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

@@ -3,11 +3,11 @@ title: Add related assets to a business process
 description: Add related business assets to a business process to gain visibility into the IT assets and their performance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/add-related-assets-to-a-bp.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a business process in the Risk Workspace, Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -41,5 +41,5 @@ A business process is supported by various assets such as business applications,
 6.  Click **Save**.
 
 
-**Parent Topic:**[Create a business process in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-business-process-ws.md)
+**Parent Topic:**[Create a business process in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/create-business-process-ws.md)
 

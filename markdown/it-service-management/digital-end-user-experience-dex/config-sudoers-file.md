@@ -3,11 +3,11 @@ title: Configure ServiceNow sudoers file
 description: Configure the ServiceNow sudoers file to grant the servicenow user the necessary permissions to run specific commands with elevated privileges. This configuration uses a drop-in file in /etc/sudoers.d/ to maintain secure, isolated sudo rules for ServiceNow operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/config-sudoers-file.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [configure sudoers file, sudoers, acc permissions, sudo configuration, servicenow user permissions, grant sudo privileges]
 breadcrumb: [Installing DEX on your local machine, Configure, Digital End-User Experience, IT Service Management]
@@ -83,6 +83,4 @@ Role required: admin
 
     List all allowed commands confirming the rules are active.
 
-
-**Parent Topic:**[Installing DEX on your local machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/installing-dex-local.md)
 

@@ -3,11 +3,11 @@ title: License key discovery
 description: License key discovery in Agent Client Collector for Visibility Content automatically collects software license keys from the Windows registry on managed endpoints.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/license-key-discovery.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-05-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [license key discovery, ACC-VC, Windows registry, software license, agent client collector]
 breadcrumb: [ACC Discovery, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
@@ -27,14 +27,12 @@ License key discovery helps administrators track software license keys across ma
 
 ## Who can use license key discovery
 
-Specific roles are required to configure and view license key discovery data. For details, see the Access control table on the [License key discovery and access control tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/license-key-discovery-reference.md) page.
+Specific roles are required to configure and view license key discovery data. For details, see the Access control table on the [License key discovery and access control tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/license-key-discovery-reference.md) page.
 
 No role can delete license key records. If a key that was previously detected is no longer found on a device, it is marked as **Absent** rather than deleted, preserving the audit trail.
 
--   **[Configure license key discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/configure-license-key-discovery.md)**  
+-   **[Configure license key discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/configure-license-key-discovery.md)**  
 Enable license key discovery and define the registry paths and values you want the Agent Client Collector for Visibility Content Windows agent to collect from managed endpoints.
 
-**Parent Topic:**[Agent Client Collector Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-discovery.md)
-
-**Parent Topic:**[Agent Client Collector File-Based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/file-based-discovery-overview.md)
+**Parent Topic:**[Agent Client Collector Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-discovery.md)
 

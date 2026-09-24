@@ -3,11 +3,11 @@ title: Translate a knowledge article from a translation task
 description: Start translating articles once they are published and assigned to you for translation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation/translate-knowledge-article.html
-release: australia
+release: brazil
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Translating with Dynamic Translation, Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -19,15 +19,15 @@ Start translating articles once they are published and assigned to you for trans
 ## Before you begin
 
 -   Activate the Dynamic Translation plugin \(com.glide.dynamic\_translation\).
--   Enable the **glide.knowman.translation.enable\_translation\_task** property. For more information, see [Translation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/translation-management.md).
+-   Enable the **glide.knowman.translation.enable\_translation\_task** property. For more information, see [Translation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/translation-management.md).
 
 Role required: admin, knowledge\_admin, or knowledge
 
 ## About this task
 
-**Note:** This procedure has been superseded by the Localization Framework. For more information see [Localization Framework support for Knowledge Base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/lf-support-for-kb-articles.md). This information is provided for legacy context.
+**Note:** This procedure has been superseded by the Localization Framework. For more information see [Localization Framework support for Knowledge Base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-framework/lf-support-for-kb-articles.md). This information is provided for legacy context.
 
-For information about how administrators configure the translation API, see [DynamicTranslation API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dyn-translation-apis.md).
+For information about how administrators configure the translation API, see [DynamicTranslation API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-translation/dyn-translation-apis.md).
 
 ## Procedure
 

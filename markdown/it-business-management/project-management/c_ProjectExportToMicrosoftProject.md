@@ -3,11 +3,11 @@ title: Project export to Microsoft Project
 description: If you are using Microsoft Project to manage project activities, you can export a project to Microsoft Project \(mpp\) file, an XML file, or a CSV file.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/c\_ProjectExportToMicrosoftProject.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Importing and exporting projects, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -40,17 +40,17 @@ If tasks in your project contain any of the supported constraints, then the cons
 
 **Note:** Shadow tasks and external dependencies are not exported when you export the project data.
 
--   **[Export project data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_ExportAProjectWithTheProjectForm.md)**  
+-   **[Export project data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_ExportAProjectWithTheProjectForm.md)**  
 Export the project data using the Export module, Project form, or Planning Console. Save the export file to a folder on your system in the Microsoft Project \(MPP\), XML, or CSV format.
 
-**Parent Topic:**[Importing and exporting projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectImportAndExport.md)
+**Parent Topic:**[Importing and exporting projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_ProjectImportAndExport.md)
 
 **Related topics**  
 
 
 [Project field mapping]()
 
-[Create custom field mapping for Microsoft Project import]()
+[Map custom fields for Microsoft Project import]()
 
 [Project import from Microsoft Project]()
 
@@ -58,5 +58,5 @@ Export the project data using the Export module, Project form, or Planning Conso
 
 [Calendars and schedules- Limitations]()
 
-[Importing and exporting projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectImportAndExport.md)
+[Importing and exporting projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_ProjectImportAndExport.md)
 

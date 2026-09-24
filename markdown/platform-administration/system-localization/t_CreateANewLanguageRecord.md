@@ -3,11 +3,11 @@ title: Create a language record
 description: Add a record for a language not provided by an internationalization \(I18N\) plugin to associate new translations with.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/t\_CreateANewLanguageRecord.html
-release: australia
+release: brazil
 product: System Localization
 classification: system-localization
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Translating to an unsupported language, System Localization, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-To translate the interface of an instance to a language for which ServiceNow does not provide an internationalization plugin, you must create a language record for a new translation in the Languages \[sys\_language\] table. For more information about this table, see [Languages table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_LanguagesTable.md).
+To translate the interface of an instance to a language for which ServiceNow does not provide an internationalization plugin, you must create a language record for a new translation in the Languages \[sys\_language\] table. For more information about this table, see [Languages table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-localization/r_LanguagesTable.md).
 
 ## Procedure
 
@@ -36,7 +36,7 @@ To translate the interface of an instance to a language for which ServiceNow doe
     -   **ID**: The [BCP 47](http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry) code for the language, for example, tr.
     -   **Text Direction**: The direction that the instance should use to display the language: Left-to-Right or Right-to-Left.
     -   **Active**: Option to activate the language for the instance.
-    -   **Fallback**: The name of another active language to use as a fallback language. For more information about fallback languages, see [Set a fallback language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/set-fallback-language.md).
+    -   **Fallback**: The name of another active language to use as a fallback language. For more information about fallback languages, see [Set a fallback language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-localization/set-fallback-language.md).
 4.  Select **Submit**.
 
 

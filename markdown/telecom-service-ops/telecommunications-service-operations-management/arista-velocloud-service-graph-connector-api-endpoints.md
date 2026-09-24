@@ -1,18 +1,18 @@
 ---
-title: Arista VeloCloud Service Graph Connector API Endpoints
+title: Arista VeloCloud Service Graph Connector API endpoints
 description: The Service Graph Connector for Arista VeloCloud integrates VeloCloud Orchestrator API data into ServiceNow AI Platform Configuration Management Database \(CMDB\). This document details the API endpoints used and how data flows through the system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/arista-velocloud-service-graph-connector-api-endpoints.html
-release: australia
+release: brazil
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Reference, Telecommunications Service Operations Management]
 ---
 
-# Arista VeloCloud Service Graph Connector API Endpoints
+# Arista VeloCloud Service Graph Connector API endpoints
 
 The Service Graph Connector for Arista VeloCloud integrates VeloCloud Orchestrator API data into ServiceNow AI Platform Configuration Management Database \(CMDB\). This document details the API endpoints used and how data flows through the system.
 
@@ -166,5 +166,5 @@ Edges`URL:/portal/rest/enterprise/getEnterpriseEdges`
 ```
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Telecommunications Service Operations Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/components-installed-with-tsom.md)
+</table>**Parent Topic:**[Telecommunications Service Operations Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/components-installed-with-tsom.md)
 

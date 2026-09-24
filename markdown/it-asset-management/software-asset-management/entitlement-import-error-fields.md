@@ -3,13 +3,13 @@ title: Entitlement import error fields
 description: Entitlement Import Error form and related list field descriptions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/entitlement-import-error-fields.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Reference, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Entitlement import error fields
@@ -99,7 +99,7 @@ License metric
 
 </td><td>
 
-License metric for the license group that the software license is counted against when reconciliation is run. The options for license metric change based on the **Metric group** field. The default value for SaaS entitlements is **User Subscription**.For more information, see [Software license metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMLicenseMetrics.md).
+License metric for the license group that the software license is counted against when reconciliation is run. The options for license metric change based on the **Metric group** field. The default value for SaaS entitlements is **User Subscription**.For more information, see [Software license metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/c_SAMLicenseMetrics.md).
 
  **Note:** Use the Envelopes license metric only for Docusign entitlements.
 
@@ -210,7 +210,7 @@ Unit cost
 
 </td><td>
 
-Unit cost of the software. **Note:** Required for total cost and savings calculations on the [Software Asset Management dashboard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMDashboard.md)
+Unit cost of the software. **Note:** Required for total cost and savings calculations on the [Software Asset Management dashboard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/c_SAMDashboard.md)
 
 </td></tr><tr><td>
 
@@ -229,5 +229,5 @@ Cost center
 Cost center financially responsible for the asset.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)
+</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/references.md)
 

@@ -3,9 +3,9 @@ title: Assess impact categories and dependencies
 description: Assess the impact categories and dependencies in BCM UIB Workspace to get the necessary information for a plan. Use the business impact analysis to identify the recovery time objective for an item and prioritize the assets that have the least and most critical dependencies. Use the information to establish their recovery strategies during the planning phase.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/assess-impact-categories-bia-in-uib-ws.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Structured workflows for BIAs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -35,15 +35,15 @@ Beginning with the Xanadu release, these new columns are added to the BIA depend
 
 3.  To assess different types of business impact categories on the business process, select the **Recovery time objective assessment** tab.
 
-    A sample questionnaire for the Recovery time objective assessment \(RTO assessment\) is shown in the example.\[Omitted image "rto-assessment.png"\] Alt text: RTO assessment questionnaire.You must configure all impact categories in the Recovery time objective assessment. A business process draws a set of impact categories, by default, from the template that you have used for the business impact analysis. For more information, see: [Review an impact category and assess its downtime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/review-impact-category-bia.md).
+    A sample questionnaire for the Recovery time objective assessment \(RTO assessment\) is shown in the example.\[Omitted image "rto-assessment.png"\] Alt text: RTO assessment questionnaire.You must configure all impact categories in the Recovery time objective assessment. A business process draws a set of impact categories, by default, from the template that you have used for the business impact analysis. For more information, see: [Review an impact category and assess its downtime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/review-impact-category-bia.md).
 
 4.  Respond to the questions in the Recovery time objective assessment questionnaire and select **Next**.
 
-    For information on recovery time objective and calculation of recovery time objective, see [RTO, RPO, and recovery tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/rto-rpo-recovery-tiers.md) and [Calculating RTO and RPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/rto-rpo-calculation.md).
+    For information on recovery time objective and calculation of recovery time objective, see [RTO, RPO, and recovery tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/rto-rpo-recovery-tiers.md) and [Calculating RTO and RPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/rto-rpo-calculation.md).
 
 5.  To answer questions related to the data component of the asset, select the **Recovery point objective assessment** tab.
 
-    A sample assessment questionnaire for the Recovery point objective assessment \(RPO assessment\) is shown in the example. \[Omitted image "rpo-assessment.png"\] Alt text: RPO assessment questionnaire.You must configure all impact categories in the Recovery point objective assessment. For more information, see [Assess RPO impact of technology assets on the business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/RPO-asset-impact-assessment.md). For information on recovery point objective and calculation of recovery point objective, see [RTO, RPO, and recovery tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/rto-rpo-recovery-tiers.md) and [Calculating RTO and RPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/rto-rpo-calculation.md).
+    A sample assessment questionnaire for the Recovery point objective assessment \(RPO assessment\) is shown in the example. \[Omitted image "rpo-assessment.png"\] Alt text: RPO assessment questionnaire.You must configure all impact categories in the Recovery point objective assessment. For more information, see [Assess RPO impact of technology assets on the business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/RPO-asset-impact-assessment.md). For information on recovery point objective and calculation of recovery point objective, see [RTO, RPO, and recovery tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/rto-rpo-recovery-tiers.md) and [Calculating RTO and RPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/rto-rpo-calculation.md).
 
 6.  Respond to the questions in the Recovery point objective assessment and select **Next**.
 
@@ -55,15 +55,15 @@ Beginning with the Xanadu release, these new columns are added to the BIA depend
 
 8.  To add an item to a dependency group, select one of the options.
 
-<table id="choicetable_fjs_hqz_dyb"><thead><tr><th align="left" id="d47741e259">
+<table id="choicetable_fjs_hqz_dyb"><thead><tr><th align="left" id="d48666e259">
 
 Step
 
-</th><th align="left" id="d47741e262">
+</th><th align="left" id="d48666e262">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d47741e268">
+</th></tr></thead><tbody><tr><td id="d48666e268">
 
 **__Add__**
 
@@ -80,9 +80,7 @@ Add an item from all the records. The relationship source is BCM. All items from
 -   **Additional details - Comment**
  A sample assessment is shown in the example.\[Omitted image "update-dependencies.png"\] Alt text: Update the dependencies.
 
- **Note:** The **Add** and **Add first level CMDB dependencies** actions are available only while the business impact analysis is in an editable state, such as **Draft** or **Returned**. After the business impact analysis is submitted and moves to the **Pending approval** state, these actions are no longer available, so you cannot add dependency items to the assessment in that state.
-
-</td></tr><tr><td id="d47741e349">
+</td></tr><tr><td id="d48666e331">
 
 **__Add first level CMDB dependencies__**
 
@@ -94,7 +92,7 @@ Add dependencies for which the relationships are identified in CMDB.
 
  A sample assessment is shown in the example.\[Omitted image "first-level-of-dependencies.png"\] Alt text: Add first level CMDB dependencies.
 
-</td></tr><tr><td id="d47741e394">
+</td></tr><tr><td id="d48666e376">
 
 **__Update dependencies__**
 
@@ -102,7 +100,7 @@ Add dependencies for which the relationships are identified in CMDB.
 
 Import all CMDB relationships manually in the respective categories that are defined in the instance.
 
-</td></tr><tr><td id="d47741e407">
+</td></tr><tr><td id="d48666e389">
 
 **Edit __Required Recovery Timeframe__ \(RTO\) for one dependency**
 
@@ -110,7 +108,7 @@ Import all CMDB relationships manually in the respective categories that are def
 
 If you have one dependency in the **Pending** state, you can update its RTO by updating the inline value in the **Required Recovery Timeframe** field as shown in the example.\[Omitted image "req-recovery-timeframe-inline.png"\] Alt text: Updating RTO for one dependency at a time.
 
-</td></tr><tr><td id="d47741e434">
+</td></tr><tr><td id="d48666e416">
 
 **Edit __Required Recovery Timeframe__ for multiple dependencies**
 
@@ -138,7 +136,7 @@ If the administrator has set the **Required Recovery Timeframe** field in the de
 
  Data from the Required Recovery Timeframe and Required Data Backup columns is now pulled into the BCP record.
 
-</td></tr><tr><td id="d47741e528">
+</td></tr><tr><td id="d48666e510">
 
 **Select __Complete__**
 
@@ -150,8 +148,6 @@ This is the final step. You must complete all the pending assessments before sel
 
 </td></tr></tbody>
 </table>    You can prioritize your business continuity and recovery plans based on the criticality of the assets that your business process uses.
-
-    **Note:** Add all required dependency items before you submit the business impact analysis for approval. After submission, the assessment is locked and you cannot add dependencies until the business impact analysis is returned to an editable state.
 
     The completed assessments are shown in the example. The state of each assessment is marked as Complete and it is highlighted in Green. You can open the completed assessments and view their details for reference at any time.
 
@@ -200,13 +196,14 @@ This is the final step. You must complete all the pending assessments before sel
 
         -   The new BIA that is copied from the original BIA has all the RTO, RPO impact, dependency assessment structural details similar to the original BIA.
         -   However, the impact category details for each of these assessments are editable for you to assess the dependency details exclusively for the copied BIA.
-        -   When a BIA that has the RTO or RPO impacted assessments completed is copied, the new copied BIA won't have the new assessment in the **Pending** state. If impact categories of RTO and RPO impact assessments in original BIA are in **Complete** state, the impact categories in copied BIA are in the **Complete** state.
+        -   When a BIA that has the RTO or RPO impacted assessments completed is copied, the new copied BIA won't have the new assessment in the **Pending** state. The impact categories in the copied BIA retain the same state as the original BIA. For example, if the impact categories are in the **Complete** state in the original BIA, they are also in the **Complete** state in the copied BIA.
         -   Therefore, you must assess and enter the disruption duration, response, and required recovery timeframe relevant to the copied BIA.
         -   You can assess the details in the **Results** section. The RTO and RPO values are recalculated after you complete the assessments.
         -   Activities and Work notes are not copied to the new BIA. Enter this information relevant to the new BIA.
-        -   Any attachments attached to the original BIA in any format are copied to the new BIA. However, the PDF generated for the original BIA using the **Generate PDF** button is not copied to new BIA as the assessment data pertains to original BIA. Since you have flexibility to modify assessment details in the copied BIA and generate a PDF, copying the PDF generated for the original BIA has no relevance.
+        -   Any attachments attached to the original BIA in any format are copied to the new BIA. However, the PDF generated for the original BIA using the **Generate PDF** button is not copied. The assessment data in the PDF pertain to the original BIA. You can modify the assessment details in the copied BIA and generate a new PDF.
+        -   The copied BIA retains the original BIA's **BIA owner** and **BIA owner group** values.
         **Note:** You can delete a BIA \(and its related tables\) that is in the **Draft** state. BCM planner and program manager can delete a BIA that is in the **In Review** and **Returned** states, whereas a BCM admin can delete a BIA irrespective of its state.
 
 
-**Parent Topic:**[Structured workflows for BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bia-tasks-performed-by-bia-owner.md)
+**Parent Topic:**[Structured workflows for BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/bia-tasks-performed-by-bia-owner.md)
 

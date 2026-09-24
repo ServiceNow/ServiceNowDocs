@@ -3,11 +3,11 @@ title: \(Optional\) Set keystore properties for signing logout requests for SAML
 description: Set the keystore properties to enable the integration to sign logout requests by using your signed server and signed CA certificates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_OptSetKeystorePropsSignLogoutReqs.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Provider \(SP\) system properties, SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
@@ -34,6 +34,6 @@ Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
 
 4.  Regenerate your SP metadata.
 
-    For more information, see [SP metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_GenerateServiceNowSPMetadata.md).
+    For more information, see [SP metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/t_GenerateServiceNowSPMetadata.md).
 
 

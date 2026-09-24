@@ -3,11 +3,11 @@ title: Customize a case summarization skill in ServiceNow Otto for Customer Serv
 description: If you have the admin role, you can customize a ServiceNow Otto for Customer Service Management \(CSM\) skill so that agents can use the generative AI skills in CRM Workspace and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/customize-a-now-assist-for-csm-skill.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
@@ -40,7 +40,7 @@ From the AI Admin Hub, you can select the input table, related records, and fiel
 
         You can choose to make a copy of the skill before activating it.
 
-    3.  Select the More actions icon\[Omitted image "more\_vertical\_icon.png"\] Alt text: Icon for more actions for the skill in the Active skills section, and create a copy that you can customize by selecting **Make a copy**.
+    3.  Select the More actions icon\[Omitted image "more\_vertical\_icon.png"\] Alt text: for the skill in the Active skills section, and create a copy that you can customize by selecting **Make a copy**.
 
         The copy that you make is listed in the Active skills section.
 
@@ -50,7 +50,7 @@ From the AI Admin Hub, you can select the input table, related records, and fiel
 
 4.  In the General details step, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Additional skill input and trigger information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/additional-skill-input-and-trigger-information-for-now-assist_0.md).
+    For information about the inputs and triggers for each skill, see [Additional skill input and trigger information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/additional-skill-input-and-trigger-information-for-now-assist_0.md).
 
     1.  Enter a name and description for the skill.
 
@@ -129,7 +129,7 @@ Description of the base input field value.
 
     Review and test the default prompt provided. The prompt is fixed and can't be customized directly within this step or from the AI Admin Hub screen.
 
-    To customize or create prompts, select **Edit prompt in AI Skill Kit**. This will redirect you to the AI Skill Kit, where you can manage prompt configurations for the skill. For more info, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit-landing.md)
+    To customize or create prompts, select **Edit prompt in AI Skill Kit**. This will redirect you to the AI Skill Kit, where you can manage prompt configurations for the skill. For more info, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit-landing.md)
 
     1.  For each input template state \(New, Work in progress, or Resolved\), select the prompt to include in the generated summary.
 
@@ -155,9 +155,9 @@ Description of the base input field value.
 
     -   If no changes are made, the default roles sn\_customerservice\_agent and sn\_customerservice.consumer\_agent will automatically appear in **Define Access** and **Select Display**.
     -   If custom roles were added before the upgrade, they’ll be updated automatically by a script.
-    -   If new roles are created after the upgrade, you must manually add them in both the **Define Access** and **Select Display**.
+    -   If new roles are created after the upgrade, you’ll need to manually add them in both the **Define Access** and **Select Display**.
 
-        **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still must manually select it in **Select Display** to make it active.
+        **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still need to manually select it in **Select Display** to make it active.
 
 9.  Configure where to display the case summarization.
 
@@ -169,7 +169,7 @@ Description of the base input field value.
 
         -   **ServiceNow Otto panel**: When selected, the AI skills are available in the panel.
 
-            If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+            If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
             For the skills that appear in the panel, select the down arrow to identify the roles that can use the skill.
 

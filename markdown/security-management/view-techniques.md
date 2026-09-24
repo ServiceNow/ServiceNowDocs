@@ -3,9 +3,9 @@ title: Manage techniques
 description: Manage the techniques that have been imported from the MITRE TAXII collections. The techniques contain various ways attackers have developed to employ a given tactic. You can review and deactivate techniques that aren't relevant to your organization. In STIX, techniques are known as attack patterns.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/view-techniques.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [MITRE-ATT&amp;CK administration, MITRE-ATT&amp;CK framework overview, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -41,16 +41,16 @@ Role required:
 
 4.  Click a technique to view all the associated information with this technique.
 
-    **Note:** The Data Source: Data Component element introduced by MITRE replaces the previous Data Source field. Data component provides an extra sublayer of context to the data sources. If your MITRE-ATT&amp;CK repository contains the old TAXII collections, then you can view the Data Source field. Otherwise, you can view the data sources with the additional context of data components in the Data Source: Data Component field. You can view the new data component field only when the source is Enterprise ATT&amp;CK. For more information, see [data component mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/map-the-data-source-and-data-components.md).
+    **Note:** The Data Source: Data Component element introduced by MITRE replaces the previous Data Source field. Data component provides an extra sublayer of context to the data sources. If your MITRE-ATT&amp;CK repository contains the old TAXII collections, then you can view the Data Source field. Otherwise, you can view the data sources with the additional context of data components in the Data Source: Data Component field. You can view the new data component field only when the source is Enterprise ATT&amp;CK. For more information, see [data component mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/map-the-data-source-and-data-components.md).
 
 5.  To view how these objects are related, select **Show Relationships**.
 
 
 ## What to do next
 
-You can [extend the information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/view-and-extend-information.md) in some of these related list objects. For example, you can add new information for Group, Mitigation, and External References.
+You can [extend the information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/view-and-extend-information.md) in some of these related list objects. For example, you can add new information for Group, Mitigation, and External References.
 
-**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-administration.md)
+**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/mitre-att-ck-administration.md)
 
 **Related topics**  
 

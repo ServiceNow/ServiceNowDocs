@@ -3,11 +3,11 @@ title: Fuzzy numeric search in AI Search
 description: Fuzzy numeric search lets you find indexed records by their Number field values without needing to enter alphabetic prefixes or leading zeroes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/fuzzy-numeric-search.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Search, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -24,7 +24,7 @@ When fuzzy numeric search is activated, AI Search checks all-numeric search term
 
 **Important:**
 
-Fuzzy numeric search only searches records from numbered tables. These are tables with Number fields that have prefixes defined in the Number \[sys\_number\] table. To learn about record numbering and the Number table, see [Record numbering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ManagingRecordNumbering.md).
+Fuzzy numeric search only searches records from numbered tables. These are tables with Number fields that have prefixes defined in the Number \[sys\_number\] table. To learn about record numbering and the Number table, see [Record numbering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ManagingRecordNumbering.md).
 
 Child tables that inherit the Number field from their parent table can't be searched using fuzzy numeric search. Only tables that have their own Number field defined work with this feature.
 
@@ -95,7 +95,7 @@ Search matches these results when using the AND \(conjunctive\) operator:-   Kno
 -   Any indexed record or document that includes `2541` as a whole term \(not a substring\)
 -   Any indexed record or document that includes `828` as a whole term \(not a substring\)
 
-**Note:** For more details on the AND and OR operators, see the description of the **glide.ais.query.search\_operator** system property in [AI Search system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/system-properties-ais.md).
+**Note:** For more details on the AND and OR operators, see the description of the **glide.ais.query.search\_operator** system property in [AI Search system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/system-properties-ais.md).
 
 </td></tr><tr><td>
 
@@ -114,12 +114,12 @@ Search matches these results when using the AND \(conjunctive\) operator:-   Kno
 -   Any indexed record or document that includes `model` as a whole term \(not a substring\)
 -   Any indexed record or document that includes `9433` as a whole term \(not a substring\)
 
-**Note:** For more details on the AND and OR operators, see the description of the **glide.ais.query.search\_operator** system property in [AI Search system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/system-properties-ais.md).
+**Note:** For more details on the AND and OR operators, see the description of the **glide.ais.query.search\_operator** system property in [AI Search system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/system-properties-ais.md).
 
 </td></tr></tbody>
 </table>## Fuzzy numeric search availability
 
-Fuzzy numeric search is deactivated by default. It's only available at search time if your ServiceNow AI Platform® admin has activated it. To view activation steps for this feature, see [Activate fuzzy numeric search in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/activate-fuzzy-numeric-search-ais.md).
+Fuzzy numeric search is deactivated by default. It's only available at search time if your ServiceNow AI Platform® admin has activated it. To view activation steps for this feature, see [Activate fuzzy numeric search in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/activate-fuzzy-numeric-search-ais.md).
 
-**Parent Topic:**[Searching in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/use-ais.md)
+**Parent Topic:**[Searching in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/use-ais.md)
 

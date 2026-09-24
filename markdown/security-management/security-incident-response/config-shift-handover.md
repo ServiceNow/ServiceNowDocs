@@ -3,11 +3,11 @@ title: Configure Shift Handover
 description: Configure Shift Handover settings to provide complete shift information to the next shift analysts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/config-shift-handover.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -16,12 +16,12 @@ breadcrumb: [Configure, Security Incident Response Workspace, Security Incident 
 
 Configure Shift Handover settings to provide complete shift information to the next shift analysts.
 
--   **[Configure Shift Handover Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-shift-handover-templates.md)**  
+-   **[Configure Shift Handover Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/configure-shift-handover-templates.md)**  
 The Admin can define and configure different Shift Handover templates for the Shift Owner to create shift handover records and hand them over to the next shift team.
--   **[Create shifts through Security Incident Response Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-shift-times.md)**  
+-   **[Create shifts through Security Incident Response Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/configure-shift-times.md)**  
 Create shifts through the Security Incident Response Workspace to use when configuring shift handover records.
 
-**Parent Topic:**[Configuring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
+**Parent Topic:**[Configuring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
 
 **Related topics**  
 

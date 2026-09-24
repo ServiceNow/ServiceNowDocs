@@ -3,12 +3,12 @@ title: Add scenarios and review reference data
 description: Select the adverse-event scenarios to test against the scoped service, then review the historical reference data that the system will use to auto-populate simulation inputs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-sca-scenarios-review-refdata.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Scenario Analysis, Operational Resilience, scenarios, reference data, Statistical Model Profile]
-breadcrumb: [Building a scenario analysis using simulation, Scenario analysis using simulation, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Building a scenario analysis using simulation, Conducting a scenario analysis, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Add scenarios and review reference data
@@ -76,5 +76,5 @@ The **Scenarios** and **Reference Data** steps are complete. The playbook advanc
 
 ## What to do next
 
-For information on completing scenario testing, see [Start simulation and run scenario testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/complete-sca-scenario-testing.md).
+For information on completing scenario testing, see [Start simulation and run scenario testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/complete-sca-scenario-testing.md).
 

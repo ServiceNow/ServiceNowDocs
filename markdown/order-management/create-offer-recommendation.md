@@ -3,9 +3,9 @@ title: Create a product offering recommendation
 description: Create product offering recommendations that can be used by your sales agents to upsell or cross-sell additional products in quotes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-offer-recommendation.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring product offering recommendations, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -89,13 +89,13 @@ Brief description of the offering recommendation.
 </td></tr></tbody>
 </table>3.  Select **Save**.
 
-    The product recommendation card for the product is displayed to your agents when they're updating a quote that has the source product offering for this recommendation. For more information on how sales agents use product offering recommendations, see [Get additional product offering recommendations for quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-get-product-offer.md).
+    The product recommendation card for the product is displayed to your agents when they're updating a quote that has the source product offering for this recommendation. For more information on how sales agents use product offering recommendations, see [Get additional product offering recommendations for quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-get-product-offer.md).
 
 
 **Related topics**  
 
 
-[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-product-catalog.md)
 
-[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/product-catalog-managment.md)
 

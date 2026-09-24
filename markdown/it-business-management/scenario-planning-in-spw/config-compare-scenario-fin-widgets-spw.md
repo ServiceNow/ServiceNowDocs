@@ -3,11 +3,11 @@ title: Configure financial widgets in compare scenario
 description: Add or manage existing widgets to view financial insights while comparing scenarios. Define your own attribute from the cost types to view it's details in the Compare scenario page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/config-compare-scenario-fin-widgets-spw.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring scenario planning in Strategic Planning, Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -32,15 +32,15 @@ Role required: admin
 
 3.  Edit an existing widget or create a widget to use it in scenario planning.
 
-<table id="choicetable_rl1_scr_dfc"><thead><tr><th align="left" id="d264021e96">
+<table id="choicetable_rl1_scr_dfc"><thead><tr><th align="left" id="d265041e96">
 
 Choice
 
-</th><th align="left" id="d264021e99">
+</th><th align="left" id="d265041e99">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d264021e105">
+</th></tr></thead><tbody><tr><td id="d265041e105">
 
 **Edit an existing widget**
 
@@ -50,7 +50,7 @@ Description
 2.  Edit the **Script** field to customize and fetch required financial information into the widget.
 
 
-</td></tr><tr><td id="d264021e126">
+</td></tr><tr><td id="d265041e126">
 
 **Create a widget**
 

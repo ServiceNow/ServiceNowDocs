@@ -3,13 +3,13 @@ title: Audit Engagement Overview Performance Analytics dashboard
 description: The Audit Engagement Overview dashboard provides an executive view into audit results and engagement breakdowns by task, allowing areas of concern to be identified quickly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/grc-audit-mgmt-dashboard.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Analytics and Reporting Solutions for Audit Management, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Analytics and reporting solutions, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Audit Engagement Overview Performance Analytics dashboard
@@ -41,7 +41,7 @@ The following roles and tasks are associated with this solution:
 |Engagement Results|Bar \[Omitted image "column-icon.png"\] Alt text: Bar icon|Displays an overall count of audit engagements conducted for each entity. The chart is stacked to display the overall audit results for each entity.|
 |Inadequate Engagements|Single Score \[Omitted image "single-score.png"\] Alt text: Single-score icon|Displays the number of engagements closed with an inadequate result.|
 |Issue Breakdown|Horizontal bar \[Omitted image "horizontal-bar.png"\] Alt text: Horizontal bar icon|Count of issues grouped by Engagement, State, or Response|
-|Overdue Audit Tasks|List \[Omitted image "scorecard-icon.png"\] Alt text: List icon3|List of open audit tasks that have exceeded the planned end date.|
+|Overdue Audit Tasks|List \[Omitted image "scorecard-icon.png"\] Alt text: List icon|List of open audit tasks that have exceeded the planned end date.|
 |Profiles by Engagement|Donut \[Omitted image "donut-icon.png"\] Alt text: Donut icon|Select one or many entities to view and compare their audit findings.|
 |Satisfactory Engagements|Single Score \[Omitted image "single-score.png"\] Alt text: Single-score icon|Displays the number of engagements closed with a satisfactory result.|
 
@@ -53,5 +53,5 @@ Starting with version 18.1.5, the Audit Engagement Overview – Premium dashboar
 
 As this dashboard uses interactive filtering, the licensed version of Performance Analytics is required.
 
-The Audit Engagement Overview dashboard has one view, with reports on engagement results and various drilldowns, with interactive filters.\[Omitted image "audit-engagement-dashbrd.png"\] Alt text: Audit Engagement Overview dashboard showing Engagement Results, Profiles, by Engagement, Controls by ENgagement, and interactive filters
+The Audit Engagement Overview dashboard has one view, with reports on engagement results and various drilldowns, with interactive filters.\[Omitted image "audit-engagement-dashbrd.png"\] Alt text: Audit Engagement Overview dashboard showing Engagement Results, Profiles by Engagement, Controls by Engagement, and interactive filters
 

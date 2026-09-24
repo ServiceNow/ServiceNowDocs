@@ -3,11 +3,11 @@ title: Create an event rule to bind metric events to host CIs
 description: Create event rules to explicitly allow binding of metric events to host CIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/metric-intelligence/event-rule-bind-metrics-to-host.html
-release: australia
+release: brazil
 product: Metric Intelligence
 classification: metric-intelligence
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Optimizing Metric Intelligence, Metric Intelligence, IT Operations Management]
 ---
@@ -45,10 +45,10 @@ To avoid this confusion, Event Management default host binding is disabled for m
 5.  Click **Save**.
 
 
-**Parent Topic:**[Optimizing Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/optimizing-metric-intelligence.md)
+**Parent Topic:**[Optimizing Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/metric-intelligence/optimizing-metric-intelligence.md)
 
 **Related topics**  
 
 
-[Create or edit an event rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-or-edit-event-rule.md)
+[Create or edit an event rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/create-or-edit-event-rule.md)
 

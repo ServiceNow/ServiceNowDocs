@@ -3,11 +3,11 @@ title: Display approvers in workflow stage fields
 description: Enable workflow stage fields to display approvers, change the number of approvers to display, or disable displaying approvers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/legacy-workflow/display-approvers-workflow-stages.html
-release: australia
+release: brazil
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a workflow stage field, Workflow stages, Workflow management, Classic Workflow, Build workflows]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-By default, only workflow stage fields that use the Workflow-driven renderer can display a list of approvers. Only these [workflow stage renderer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/r_WorkflowStageRenderers.md) types support displaying approvers.
+By default, only workflow stage fields that use the Workflow-driven renderer can display a list of approvers. Only these [workflow stage renderer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/legacy-workflow/r_WorkflowStageRenderers.md) types support displaying approvers.
 
 -   Linear renderer
 -   Main flow renderer
@@ -100,5 +100,5 @@ Enables \(true\) or disables \(false\) the Workflow-driven renderer to display a
 
 The workflow stage field renderers you enabled display approvers up to the approver display limit. For example, a Workflow-driven stage field displays up to five approvers when the workflow reaches an approval stage.
 
-**Parent Topic:**[Create a workflow stage field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/t_CreateAWorkflowStageField.md)
+**Parent Topic:**[Create a workflow stage field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/legacy-workflow/t_CreateAWorkflowStageField.md)
 

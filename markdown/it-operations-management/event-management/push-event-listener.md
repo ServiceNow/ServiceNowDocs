@@ -3,11 +3,11 @@ title: Configure a push connector
 description: You can configure listeners and connectors to push event information to the instance or MID Server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/push-event-listener.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -24,13 +24,13 @@ After event collection configuration, Event Management can collect events that a
 
 ## Create integration user
 
-Follow the steps in [Creating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ua-creating-users.md) to create a user and grant the \[evt\_mgmt\_integration\] role to the user.
+Follow the steps in [Creating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ua-creating-users.md) to create a user and grant the \[evt\_mgmt\_integration\] role to the user.
 
 **Note:** Verify that the **Identify Type** of the user is **Machine**.
 
 ## Standard event form
 
-All events must use a standard event form, regardless of how they arrive at the instance. For more information, see [Event field format for event collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMIntegrateRequirementEvent.md).
+All events must use a standard event form, regardless of how they arrive at the instance. For more information, see [Event field format for event collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/c_EMIntegrateRequirementEvent.md).
 
 ## Event collection
 
@@ -50,13 +50,13 @@ Provided by the base system
 
 </td><td>
 
-Listeners and connectors provided with the Event Management application:-   AWS CloudWatch, see [Integrate AWS platform as a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/aws-events-transform-script.md).
--   Azure event messages, see [Integrate Azure Monitor as an authenticated data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/azure-integration.md).
--   BMC TrueSight events, see [Event collection from BMC TrueSight and BMC TrueSight\_v2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-collection-BMCTrueSight.md).
--   Datadog events, see [Integrate Datadog platform events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/datadog-events-integration.md).
--   Dynatrace events, see [Integrate Dynatrace platform events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/dynatrace-events-integration.md).
--   Google Cloud Platform \(GCP\) events, see [Integrate Google Cloud Platform \(GCP\) events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/gcp-events-integration.md)
--   New Relic events, see [Integrate New Relic platform events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/new-relic-events-integration.md).
+Listeners and connectors provided with the Event Management application:-   AWS CloudWatch, see [Integrate AWS platform as a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/aws-events-transform-script.md).
+-   Azure event messages, see [Integrate Azure Monitor as an authenticated data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/azure-integration.md).
+-   BMC TrueSight events, see [Event collection from BMC TrueSight and BMC TrueSight\_v2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/event-collection-BMCTrueSight.md).
+-   Datadog events, see [Integrate Datadog platform events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/datadog-events-integration.md).
+-   Dynatrace events, see [Integrate Dynatrace platform events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/dynatrace-events-integration.md).
+-   Google Cloud Platform \(GCP\) events, see [Integrate Google Cloud Platform \(GCP\) events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/gcp-events-integration.md)
+-   New Relic events, see [Integrate New Relic platform events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/new-relic-events-integration.md).
 -   Generic event collection through the MID Server.
 -   Generic event collection through the instance.
 
@@ -68,7 +68,7 @@ Via MID WebService
 
 </td><td>
 
-You can configure the MID WebService Event Collector to push event messages to the MID Server. For more information, see [Pushing events to the MID Server using web service API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-collection-via-MID-using-push.md).
+You can configure the MID WebService Event Collector to push event messages to the MID Server. For more information, see [Pushing events to the MID Server using web service API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/event-collection-via-MID-using-push.md).
 
 </td></tr><tr><td>
 
@@ -76,8 +76,8 @@ Create your own content
 
 </td><td>
 
-You can configure your own listener:-   Via MID WebServer API. See [Pushing events to the instance using web service API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/send-events-via-web-service.md).
--   Via Custom Transformation. See [Event collection from custom payloads](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-collection-custom-payloads.md).
+You can configure your own listener:-   Via MID WebServer API. See [Pushing events to the instance using web service API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/send-events-via-web-service.md).
+-   Via Custom Transformation. See [Event collection from custom payloads](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/event-collection-custom-payloads.md).
 
 </td></tr><tr><td>
 
@@ -85,9 +85,9 @@ Via SNMP
 
 </td><td>
 
-SNMP listeners provided with the Event Management application:Generic SNMPv2. See [Configure event collection for SNMP traps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMSNMPTrapEvent.md).
+SNMP listeners provided with the Event Management application:Generic SNMPv2. See [Configure event collection for SNMP traps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMSNMPTrapEvent.md).
 
-In addition, you can create your own custom listener. See [Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-listener-transform-script.md).
+In addition, you can create your own custom listener. See [Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-listener-transform-script.md).
 
 </td></tr><tr><td>
 
@@ -95,11 +95,11 @@ Via Email
 
 </td><td>
 
-Email listener. See [Configure event collection from email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureEmailConnector.md).
+Email listener. See [Configure event collection from email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMConfigureEmailConnector.md).
 
 </td></tr></tbody>
 </table>**Related topics**  
 
 
-[Push connector instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/push-connector-instance-form.md)
+[Push connector instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/push-connector-instance-form.md)
 

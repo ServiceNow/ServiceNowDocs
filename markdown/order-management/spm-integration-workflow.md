@@ -3,9 +3,9 @@ title: Strategic Portfolio Management integration workflow
 description: The workflow shows how the Strategic Portfolio Management integration works.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/spm-integration-workflow.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Order Management integration with Strategic Portfolio Management, Integrate, Sales Customer Relationship Management]
 ---
@@ -53,7 +53,7 @@ The Order Management integration with Strategic Portfolio Management uses the Pr
         -   If the offering and site location matches the conditions, automatically creates the site project and site project tasks using the specified site project template.
         -   Site projects are created on **pm\_project table**.
         -   Establishing the relationship between the site project and site location in the relationship table.
-        To configure site project oversight for product offering, see [Configure project oversight for Product offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-site-project-product-offering.md).
+        To configure site project oversight for product offering, see [Configure project oversight for Product offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-site-project-product-offering.md).
 
     -   Project task oversight determination: After Order Management decomposes the order line item into domain orders and order tasks, it does the following:
         -   Checks the project oversight conditions for domain orders. If a domain order meets the project oversight conditions, create the associated project and planned tasks using the project template task specified.

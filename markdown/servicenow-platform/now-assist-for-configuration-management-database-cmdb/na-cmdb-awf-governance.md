@@ -3,11 +3,11 @@ title: Getting advice from ServiceNow Otto on CMDB governance
 description: Data governance can be an overwhelming task. The Provide advice on CMDB governance agentic workflow supports data admins and owners by methodically working through the many-faceted process of improving CMDB data accuracy, completeness, and health. The objective is to help users to trust the data that they use for their work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-governance.html
-release: australia
+release: brazil
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Using agentic workflows, ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,13 +18,13 @@ Data governance can be an overwhelming task. The Provide advice on CMDB governan
 
 ## Access the workflow
 
-See [Get advice on CMDB governance from ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-cmdb-governance.md) for information on accessing the workflow.
+See [Get advice on CMDB governance from ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-cmdb-governance.md) for information on accessing the workflow.
 
 ## Descriptions of AI agents
 
 This topic includes overviews of the actions of AI agents.
 
-There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/find-ai-agents.md).
 
 ## Provide advice on CMDB governance agentic workflow
 
@@ -38,34 +38,34 @@ The Provide advice on CMDB governance agentic workflow supports admins and owner
 
 This section presents overviews of the actions of the AI agents that the CMDB governance agentic workflow uses.
 
-There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/find-ai-agents.md).
 
 -   **CMDB principal class manager AI agent**
 
-    The CMDB principal class manager AI agent determines whether you can set Cl classes as principal, suggests principal classes, and can set or unset a class as principal. Setting a class as a principal class is a practical way to save time because you can configure ServiceNow AI Platform products to display only principal classes in list views. The workflow helps you to decide which CIs you're most likely to work with day-to-day and then provides a link to enable you to set the associated classes as principal classes. For more information, see [Update the list of classes in the Principal Class filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/update-principal-class-filter.md).
+    The CMDB principal class manager AI agent determines whether you can set Cl classes as principal, suggests principal classes, and can set or unset a class as principal. Setting a class as a principal class is a practical way to save time because you can configure ServiceNow AI Platform products to display only principal classes in list views. The workflow helps you to decide which CIs you're most likely to work with day-to-day and then provides a link to enable you to set the associated classes as principal classes. For more information, see [Update the list of classes in the Principal Class filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/update-principal-class-filter.md).
 
 -   **CMDB life cycle manager AI agent**
 
-    The CMDB life cycle manager AI agent helps admins to confirm that CMDB life-cycle policies are in place for principal classes or for specified classes. For more information, see [Working with CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md).
+    The CMDB life cycle manager AI agent helps admins to confirm that CMDB life-cycle policies are in place for principal classes or for specified classes. For more information, see [Working with CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md).
 
 -   **CMDB data certification and attestation manager AI agent**
 
-    The CMDB data certification and attestation manager AI agent retrieves the data certification and attestation policies for a CI class and for similar classes. It can also create a data certification and an attestation policy. For more information, see [Data Certification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_DataCertification.md).
+    The CMDB data certification and attestation manager AI agent retrieves the data certification and attestation policies for a CI class and for similar classes. It can also create a data certification and an attestation policy. For more information, see [Data Certification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_DataCertification.md).
 
 -   **CMDB health metrics manager AI agent**
 
-    The CMDB health metrics manager AI agent displays information on CMDB Health Dashboard jobs, health metrics status, and health scores. If the jobs aren't configured, the workflow provides a link to the setup instructions. For more information, see [CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealth.md).
+    The CMDB health metrics manager AI agent displays information on CMDB Health Dashboard jobs, health metrics status, and health scores. If the jobs aren't configured, the workflow provides a link to the setup instructions. For more information, see [CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealth.md).
 
 -   **CMDB data ownership manager AI agent**
 
     The CMDB data ownership manager AI agent helps you to assess the quality of CI ownership data for a CI class to determine ownership, validate ownership, and evaluate ownership quality. You can validate fields that reference sys\_user or sys\_user\_group like **Assigned To**, **Managed by Group** \(default\), **Support Group**, and so on. The agent answers the following questions:
 
-    -   Is CI ownership specified? Is the **Managed by group** attribute value set for the CI? Does it indicate an active and correctly configured record? The value of the system property for ownership is a default field for the evaluation. For the **Managed by group** CI attribute, you can specify the percentage values that classify the result as `Poor`, `Average`, or `Healthy`. For more information, see [Property settings for ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-data-fdn-properties.md).
+    -   Is CI ownership specified? Is the **Managed by group** attribute value set for the CI? Does it indicate an active and correctly configured record? The value of the system property for ownership is a default field for the evaluation. For the **Managed by group** CI attribute, you can specify the percentage values that classify the result as `Poor`, `Average`, or `Healthy`. For more information, see [Property settings for ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-data-fdn-properties.md).
     -   If you provide a user referencing value: Does the **User Referencing** value indicate an active record? This evaluation identifies CIs that have inactive users and CIs with no **User** value.
     -   If you provide a user referencing value: Does the **Group Referencing** value indicate an active record? This evaluation identifies CIs that have inactive groups, empty groups \(no users\), and CIs with no **Group** value.
 
--   **[Get advice on CMDB governance from ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-cmdb-governance.md)**  
+-   **[Get advice on CMDB governance from ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-cmdb-governance.md)**  
 Work through the process of improving CMDB data accuracy, completeness, and health. The objective is to help users to trust the data that they use for their work.
 
-**Parent Topic:**[Using agentic workflows in ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-using.md)
+**Parent Topic:**[Using agentic workflows in ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-using.md)
 

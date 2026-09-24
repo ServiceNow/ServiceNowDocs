@@ -3,11 +3,11 @@ title: Viewing Cloud Account Management dashboards
 description: Cloud Account Management has two types of dashboards: one for requesters and another for admins. Depending on the logged- in user, an appropriate dashboard appears.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/about-cam-dashboard.html
-release: australia
+release: brazil
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [View cloud workspace dashboard]
 breadcrumb: [Use, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
@@ -59,5 +59,5 @@ can access the Cloud asset overview page by navigating to **All** &gt; **Cloud W
 
 \[Omitted image "cam-cloud-asset-overview.png"\] Alt text: Cloud asset overview page
 
-**Note:** You can enable or disable the Asset collection configuration to list the CIs. For more information, see [Configure cloud asset collection table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/configure-cloud-asset-collection-table.md).
+**Note:** You can enable or disable the Asset collection configuration to list the CIs. For more information, see [Configure cloud asset collection table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/configure-cloud-asset-collection-table.md).
 

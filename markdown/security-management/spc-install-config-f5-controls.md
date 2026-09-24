@@ -3,9 +3,9 @@ title: Configure the F5 BIG-IP integrations for mitigation controls monitoring
 description: The ITOM IP-based Discovery application and the F5 BIG-IP API integrations require separate configuration steps. You configure the ITOM IP-based Discovery application to import asset details. You configure the F5 BIG-IP API Integration to gather mitigation data about the assets that are monitored by ITOM IP-based Discovery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/spc-install-config-f5-controls.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Exploit protection \(WAF\), Use mitigation controls, Security Posture Control, Security Operations]
 ---

@@ -3,11 +3,11 @@ title: SAFe Epic Dashboard
 description: The SAFe Epic Dashboard provides a visualization of how the features of an epic are progressing over a given period of time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/safe-epic-dashboard.html
-release: australia
+release: brazil
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Performance Analytics Content Pack for Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -84,7 +84,7 @@ If you are upgrading from version 1.0.2 or earlier of Performance Analytics Cont
 -   Epic Cumulative Flow Diagram
 -   Story Cycle Time
 
-For more information, see [Using Solution Library for Essential SAFe dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/using-solution-library-for-essential-safe-dashboards.md).
+For more information, see [Using Solution Library for Essential SAFe dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/using-solution-library-for-essential-safe-dashboards.md).
 
 <table id="table_fcx_vdk_k3b"><thead><tr><th>
 
@@ -198,7 +198,7 @@ If there are too many stories at any area of the chart and the bubbles appear cr
  \[Omitted image "cycle-time-zoom.gif"\] Alt text: Cycle Time Zoom
 
 </td></tr></tbody>
-</table>You can customize the Burnup and Cumulative Flow Diagram reports. For more information, see [Customizing Essential SAFe dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/customizing-safe-dashboard-reports.md).
+</table>You can customize the Burnup and Cumulative Flow Diagram reports. For more information, see [Customizing Essential SAFe dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/customizing-safe-dashboard-reports.md).
 
-**Parent Topic:**[Performance Analytics Content Pack for Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/pa-content-pack-essential-safe.md)
+**Parent Topic:**[Performance Analytics Content Pack for Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/pa-content-pack-essential-safe.md)
 

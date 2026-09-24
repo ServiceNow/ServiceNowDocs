@@ -3,9 +3,9 @@ title: Update a branded app
 description: Request and publish an update to a ServiceNow mobile app that has been branded with your unique company identity. Updates can only be requested for approved, completed builds of branded apps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/update-branded-app.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Request, test, &amp; publish, Custom branded apps, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -83,7 +83,7 @@ Mobile Application Management \(MAM\)
 
 </td><td>
 
-Whether you want to use a MAM vendor with your apps. For more information, see [Mobile application management \(MAM\) integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mam.md).
+Whether you want to use a MAM vendor with your apps. For more information, see [Mobile application management \(MAM\) integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mam.md).
 
  To enable a MAM vendor, select the **Use Mobile Application Management** toggle.
 
@@ -139,7 +139,7 @@ This table shows all ServiceNow instances used for your organization. Select the
 
 -   This functionality can only be edited when you submit a new branded app request or when you update a branded app.
 -   If you’re updating an iOS branded app, you must download the Apple App Site Association \(AASA\) JSON file after you submit this request and install the file on all instances in the URL list.
-To learn more about deep links and universal links, see [Mobile URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-urls.md).
+To learn more about deep links and universal links, see [Mobile URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-urls.md).
 
 </td></tr><tr><td colspan="2">
 
@@ -156,7 +156,7 @@ Turn on this toggle to build an instance URL into your branded app so end-users 
  **Note:**
 
 -   This instance URL can only be added when you submit a new branded app request or when you update a branded app.
--   Don’t select this option if you’re using AppConfig to preconfigure a default instance URL through an EMM suite or an embedded MAM SDK app. For more information, see [AppConfig for Mobile Apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/appconfig.md).
+-   Don’t select this option if you’re using AppConfig to preconfigure a default instance URL through an EMM suite or an embedded MAM SDK app. For more information, see [AppConfig for Mobile Apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/appconfig.md).
 
 
 </td></tr><tr><td>
@@ -223,14 +223,14 @@ After you complete the request form and submit it, your ServiceNow instance buil
 
 After the build successfully completes, select one of the below topic links to test and publish your updated branded app.
 
--   **[Test and publish an updated Android app for private distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/testpub-updat-and-app-priv.md)**  
+-   **[Test and publish an updated Android app for private distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/testpub-updat-and-app-priv.md)**  
 After you have requested an updated Android branded mobile app for private distribution, perform these steps to test and publish it.
--   **[Test and publish an updated iOS app for private distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/testpub-updat-ios-app-priv.md)**  
+-   **[Test and publish an updated iOS app for private distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/testpub-updat-ios-app-priv.md)**  
 AFter you have requested an updated iOS app for private distribution, perform these steps to test and publish it.
--   **[Test and publish an updated Android app for public distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/testpub-updat-and-app-pub.md)**  
+-   **[Test and publish an updated Android app for public distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/testpub-updat-and-app-pub.md)**  
 After you have requested an updated Android app for public distribution, perform these steps to test and publish it.
--   **[Test and publish an updated iOS app for public distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/testpub-updat-ios-app-pub.md)**  
+-   **[Test and publish an updated iOS app for public distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/testpub-updat-ios-app-pub.md)**  
 After you have requested an updated iOS branded mobile app for public distribution, perform these steps to test and publish it.
 
-**Parent Topic:**[Request, test, and publish a branded mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/request-test-pub-branded-mob-app.md)
+**Parent Topic:**[Request, test, and publish a branded mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/request-test-pub-branded-mob-app.md)
 

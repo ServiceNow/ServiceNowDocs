@@ -3,11 +3,11 @@ title: Edit log path configurations
 description: Modify a log path configuration in the log shipper check instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/accl-edit-log-path.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [ACC log policies, Agent Client Collector Log Analytics, Agent Client Collector, IT Operations Management]
 ---
@@ -57,7 +57,7 @@ Role required: evt\_mgmt\_admin
 
     1.  Check the box next to the log path configuration that you want to delete.
 
-        **Note:** You can select multiple log path configurations, but a check must have at least one log path configured for it to enable streaming logs. For more information about checks, see [Checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/checks-policies.md).
+        **Note:** You can select multiple log path configurations, but a check must have at least one log path configured for it to enable streaming logs. For more information about checks, see [Checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/checks-policies.md).
 
     2.  Select **Delete**.
 

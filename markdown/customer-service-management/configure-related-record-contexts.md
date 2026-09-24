@@ -3,9 +3,9 @@ title: Configure related record contexts
 description: This type of configuration record defines the context in which related records appear in the Related Records tab.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-related-record-contexts.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure dynamic related records, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---

@@ -3,9 +3,9 @@ title: View related details for a security incident artifact
 description: If your case includes security incident artifacts, you can view any related details contained in each security incident referenced by the case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/view-related-details-for-sec-inc-artifact.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Related details for case artifacts, Security artifact analysis, Security Case Management, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -35,7 +35,7 @@ Role required: sn\_ti.case\_user\_write
 5.  You can also click **Security Annotation** tab to view annotations for the selected artifact.
 
 
-**Parent Topic:**[Related details for case artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/related-details-for-case-artifacts.md)
+**Parent Topic:**[Related details for case artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/related-details-for-case-artifacts.md)
 
 **Related topics**  
 

@@ -1,0 +1,77 @@
+---
+title: Create a bot in Slack
+description: You must create a self-configured bot in the targeted workspace in Slack to be able to integrate with the Virtual Agent.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/create-self-config-bot-slack.html
+release: brazil
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Integrating a self-configured bot with Slack workspace, Integrate Virtual Agent with Slack, Slack, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
+---
+
+# Create a bot in Slack
+
+You must create a self-configured bot in the targeted workspace in Slack to be able to integrate with the Virtual Agent.
+
+## Before you begin
+
+Role required: none
+
+**Note:** Users must have permissions to create a bot in the targeted workspace.
+
+## Procedure
+
+1.  Log in to [Slack API](https://api.slack.com/apps).
+
+2.  Navigate to **Your Apps** &gt; **Create New App**.
+
+3.  Enter an **App Name**, select your **Slack Workspace**, and then select **Create App**.
+
+4.  Configure interactive components.
+
+    1.  Navigate to **Interactivity** &gt; **Shortcuts** in the left menu and turn on **Interactivity**.
+
+    2.  Update the **Request URL**.
+
+        If you are setting up your self-configured bot on a ServiceNow instance, then the request URL must be `https://<instance-name>/api/now/v1/cs/adapter/slack/actions`.
+
+    3.  Select **Save**.
+
+5.  Configure event subscriptions.
+
+    1.  select **Event Subscriptions** in the left menu and turn on **Enable Events**.
+
+    2.  Update the **Request URL**.
+
+        If you are setting up your self-configured bot on a ServiceNow instance, then the request URL must be `https://<instance-name>.service-now.com/api/now/v1/cs/adapter/slack/events`.
+
+    3.  Wait for the Request URL to get verified.\[Omitted image "slack-event-subscriptions.png"\] Alt text: The Request URL field displays green "Verified" text with a check mark.
+
+    4.  Under Subscribe to bot events, select **Add Bot User Event** and add `message.im`.
+
+    5.  Select **Save**.
+
+6.  Navigate to the **Incoming Webhook** tab, and then slide the **Activate Incoming Webhooks** toggle switch to enable it.
+
+7.  Configure OAuth and permissions.
+
+    1.  Select OAuth &amp; Permissions from the left menu and navigate to **Scopes** &gt; **Bot Scopes**.
+
+    2.  Select **Add an OAuth Scope** and add the following scopes:
+
+        -   chat:write
+        -   files:read
+        -   files:write
+        -   im.history
+        -   incoming-webhook
+        -   team:read
+        -   users:read
+        -   users:read.email
+8.  Navigate to **OAuth &amp; Permissions**, select **Install to Workspace**, and then select **Allow**.
+
+    \[Omitted image "allow-bot-install.png"\] Alt text: Dialog box window for allowing or canceling installation of a Test Bot in a Slack workspace.
+
+
+**Parent Topic:**[Integrating a self-configured bot with Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-integ-single-slack.md)
+

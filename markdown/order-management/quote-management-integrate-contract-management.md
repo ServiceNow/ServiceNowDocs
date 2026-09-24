@@ -3,9 +3,9 @@ title: Integrate with Contract Management Pro
 description: With the integration of Quote Management and Contract Management Pro, sales agents can initiate contract requests while finalizing a deal and formalizing agreements between you and your customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-management-integrate-contract-management.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quote Management reference, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
@@ -30,18 +30,18 @@ Role required: admin
 
 4.  Complete the initial configuration steps to set up this integration.
 
-    For more information on setting up Contract Management Pro, see [Configuring Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-config-cmpro.md).
+    For more information on setting up Contract Management Pro, see [Configuring Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/cncore-config-cmpro.md).
 
 
--   **[Run fix scripts to update Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/run-fix-scripts-update-contract-management-pro.md)**  
+-   **[Run fix scripts to update Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/run-fix-scripts-update-contract-management-pro.md)**  
 Manually run fix scripts after you have installed the demo data.
 
-**Parent Topic:**[Quote Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-reference.md)
+**Parent Topic:**[Quote Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-management-reference.md)
 
 **Related topics**  
 
 
-[Configuring Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-config-cmpro.md)
+[Configuring Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/cncore-config-cmpro.md)
 
-[Initiate a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-create-contract.md)
+[Initiate a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-management-create-contract.md)
 

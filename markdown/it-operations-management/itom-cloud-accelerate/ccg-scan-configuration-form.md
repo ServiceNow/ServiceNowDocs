@@ -3,11 +3,11 @@ title: Cloud Configuration Governance Scan configuration form
 description: The Cloud Configuration Governance Scan configuration form displays detailed information about the scan configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/ccg-scan-configuration-form.html
-release: australia
+release: brazil
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -61,7 +61,7 @@ You can select an Amazon Web Services \(AWS\) management account, and then add a
 
     -   An assume role configuration exists for the management account.
     -   Cloud Discovery has completed the datacenter discovery for the member accounts.
-For more information on creating assume role configurations, see [Configure temporary credential access for trusted AWS accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-iam-role-aws-account.md).
+For more information on creating assume role configurations, see [Configure temporary credential access for trusted AWS accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/configure-iam-role-aws-account.md).
 
 2.  Save the form.
 3.  In the empty row of the Datacenter Filters list, double-click the datacenter cell, and then select a datacenter.
@@ -110,5 +110,5 @@ Resources
 Comma-separated list of the cloud identifiers.This field appears only when the **Freeform** option is selected.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Configuration Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/ccg-reference.md)
+</table>**Parent Topic:**[Cloud Configuration Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-cloud-accelerate/ccg-reference.md)
 

@@ -3,13 +3,13 @@ title: Domain separation and lifecycle reports
 description: There are certain domain separation aspects to consider when running software lifecycle reports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/domain-sep-sam-lifecycle.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Domain separation and Software Asset Management, Reference, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Domain separation and Software Asset Management, Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Domain separation and lifecycle reports
@@ -53,7 +53,7 @@ If the SP sets up software models for Cisco corporate as well as Cisco Mexico, e
 |Walmart USA|SQL Server 2012|2014|5| | |
 |Walmart Mexico|SQL Server 2012|2014|20| | |
 
-To learn more about software lifecycles, see [Create software models in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/record-terms-software-licenses.md). To learn about domain separation path setup, see [Domain separation setup and administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparationSetup.md)
+To learn more about software lifecycles, see [Create software models in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/record-terms-software-licenses.md). To learn about domain separation path setup, see [Domain separation setup and administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_DomainSeparationSetup.md)
 
-**Parent Topic:**[Domain separation and Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/domain-separation-software-asset-management.md)
+**Parent Topic:**[Domain separation and Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/domain-separation-software-asset-management.md)
 

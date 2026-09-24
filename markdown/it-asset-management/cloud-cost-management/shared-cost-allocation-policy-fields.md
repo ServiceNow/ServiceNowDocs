@@ -3,13 +3,13 @@ title: List of Shared cost allocation policy fields
 description: Fields on the Shared cost allocation policy creation form help you create a shared cost allocation policy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/shared-cost-allocation-policy-fields.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Reference, Cloud Cost Management, IT Asset Management, Asset Management]
+breadcrumb: [Cloud Cost Management reference, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # List of Shared cost allocation policy fields
@@ -304,5 +304,5 @@ Allocation percentage
 Percentage of the shared cost allocation for each cloud resource.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Cost Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/reference-cloudinsights.md)
+</table>**Parent Topic:**[Cloud Cost Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/reference-cloudinsights.md)
 

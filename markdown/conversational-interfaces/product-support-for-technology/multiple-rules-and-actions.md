@@ -3,11 +3,11 @@ title: Multiple Proactive Triggers rules and actions
 description: The Proactive Triggers feature uses rules and actions to trigger context-specific Virtual Agent conversations with end users on the web client.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/product-support-for-technology/multiple-rules-and-actions.html
-release: australia
+release: brazil
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Proactive Triggers, Proactive Triggers, Manage people and work, Conversational Interfaces]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Configuring Proactive Triggers, Proactive Triggers, Manage people a
 
 The Proactive Triggers feature uses rules and actions to trigger context-specific Virtual Agent conversations with end users on the web client.
 
-An admin enables the [Proactive Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/product-support-for-technology/enable-proactive-triggers.md) feature.
+An admin enables the [Proactive Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/product-support-for-technology/enable-proactive-triggers.md) feature.
 
 An admin then creates rules and defines actions that are triggered by those rules. Admins can create multiple rules and actions. They also specify the end user that the rules and actions apply to.
 
@@ -41,5 +41,5 @@ It may be necessary to clear the rule's history for the rule to function as anti
 **Related topics**  
 
 
-[Manage Proactive Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/product-support-for-technology/manage-proactive-triggers-2.md)
+[Manage Proactive Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/product-support-for-technology/manage-proactive-triggers-2.md)
 

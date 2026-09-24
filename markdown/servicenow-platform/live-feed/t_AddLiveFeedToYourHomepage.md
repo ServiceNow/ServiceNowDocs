@@ -3,11 +3,11 @@ title: Add Live Feed to your homepage
 description: You can add Live Feed to your own homepage or to a global homepage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_AddLiveFeedToYourHomepage.html
-release: australia
+release: brazil
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Live Feed UI overview, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -33,5 +33,5 @@ Role required: none
     **Note:** Administrators can add Live Feed to a global homepage to make it available for all homepage users by default. Users with any role can add Live Feed to their homepage; however, administrators can restrict this ability.
 
 
-**Parent Topic:**[Live Feed UI overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/r_LiveFeedUIOverview.md)
+**Parent Topic:**[Live Feed UI overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/r_LiveFeedUIOverview.md)
 

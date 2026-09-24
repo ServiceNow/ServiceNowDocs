@@ -3,9 +3,9 @@ title: Resize a logo for your login screen
 description: After you have uploaded a logo for your login screen, you can resize the logo by creating and setting a system property.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/tb-resize-logo.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Upload new logo, Global styles, Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -18,7 +18,7 @@ After you have uploaded a logo for your login screen, you can resize the logo by
 
 Role required: ui\_builder\_admin
 
-For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
+For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/granular-admin-roles.md).
 
 ## Procedure
 
@@ -28,7 +28,7 @@ For information on granular roles, see [Granular admin roles](https://raw.github
 
     The entire list of properties in the System Properties \[sys\_properties\] table appears.
 
-2.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) called glide.ui.polaris.login.logo.height.
+2.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) called glide.ui.polaris.login.logo.height.
 
 3.  Set the system property **Value** to the maximum CSS height value for your logo.
 
@@ -47,5 +47,5 @@ For information on granular roles, see [Granular admin roles](https://raw.github
     At the next launch, your logo is resized based on how you configured the system property.
 
 
-**Parent Topic:**[Upload a new logo to your Theme Builder theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-upload-logo.md)
+**Parent Topic:**[Upload a new logo to your Theme Builder theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/tb-upload-logo.md)
 

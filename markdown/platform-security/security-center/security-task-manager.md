@@ -3,11 +3,11 @@ title: Security Tasks
 description: Use Security Tasks to monitor, prioritize, and assign all your security-related tasks in one place.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/security-task-manager.html
-release: australia
+release: brazil
 product: Security Center
 classification: security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Security Center, Platform Security]
 ---
@@ -39,6 +39,8 @@ The Security Tasks use the following roles:
 
 Use the check boxes to the left of the items in the list to select multiple items. When one of more tasks is selected, you can use the **Delete** button to delete the selected tasks, or the **Edit** button to assign the selected tasks to yourself.
 
+\[Omitted image "sec-task-mgr-2.png"\] Alt text: Selected tasks on the task list
+
 ## Create Security Tasks
 
 Create a Security Task with the **+Create Task** button, which is available various platform security pages.
@@ -56,22 +58,22 @@ For example, in Security Center, on the Best Practices tool details page, the ad
 </td></tr></tbody>
 </table>## Automatically generated tasks
 
-Security Tasks can be automatically generated. Automatic Security Task generation is triggered by an associated event that occurred on the platform. Learn more about generated Security Tasks in [Automatic Security Task generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/auto-sec-task.md).
+Security Tasks can be automatically generated. Automatic Security Task generation is triggered by an associated event that occurred on the platform. Learn more about generated Security Tasks in [Automatic Security Task generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/auto-sec-task.md).
 
 ## Edit and assign Security Tasks
 
-Edit Security Tasks to assign them to users, define due dates, and provide additional details to the users who will complete these tasks. For details, see [Edit Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/create-edit-security-tasks.md).
+Edit Security Tasks to assign them to users, define due dates, and provide additional details to the users who will complete these tasks. For details, see [Edit Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/create-edit-security-tasks.md).
 
 ## Export tasks
 
-You can export Security Tasks into the format of your choice. For details, see [Export Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/export-security-tasks.md).
+You can export Security Tasks into the format of your choice. For details, see [Export Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/export-security-tasks.md).
 
--   **[Automatic Security Task generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/auto-sec-task.md)**  
+-   **[Automatic Security Task generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/auto-sec-task.md)**  
 Learn about how and when your instance generates Security Tasks.
--   **[Edit Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/create-edit-security-tasks.md)**  
+-   **[Edit Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/create-edit-security-tasks.md)**  
 Learn how to create, edit, delete, or export Security Tasks in Security Center
--   **[Export Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/export-security-tasks.md)**  
-Export Security Tasks into files that you can download and use in other software.
+-   **[Export Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/export-security-tasks.md)**  
+Learn how to export Security Tasks into files you can download and use in other software.
 
-**Parent Topic:**[Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sec-center-v2.md)
+**Parent Topic:**[Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sec-center-v2.md)
 

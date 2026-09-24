@@ -3,9 +3,9 @@ title: Control specific app usage
 description: To support your organization's authentication policies, admins can control which mobile apps can log in to ServiceNow instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/control-mobile-app-usage.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring the Mobile Platform, Mobile Platform]
 ---

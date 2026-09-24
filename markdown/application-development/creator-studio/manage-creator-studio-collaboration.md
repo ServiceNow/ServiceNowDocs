@@ -3,13 +3,13 @@ title: Manage Creator Studio collaboration permissions on the ServiceNow AI Plat
 description: In Creator Studio, you can control how people work together on apps by setting up permissions called collaboration descriptors. These descriptors define what users can and cannot do.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/manage-creator-studio-collaboration.html
-release: australia
+release: brazil
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Collaboration, Administer, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Collaboration, Administer, Creator Studio, Developing your application, Building applications]
 ---
 
 # Manage Creator Studio collaboration permissions on the ServiceNow AI Platform
@@ -22,7 +22,7 @@ Role required: app\_engine\_admin, and permission to Manage collaborators
 
 ## About this task
 
-Users with the Manage collaborators permission can adjust who can collaborate on the apps they own. For more information, check [Manage collaborators for an app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-manage-collaborators.md).
+Users with the Manage collaborators permission can adjust who can collaborate on the apps they own. For more information, check [Manage collaborators for an app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-manage-collaborators.md).
 
 **Note:** The way that collaboration permissions appear may vary depending on whether your instance has App Engine Studio installed.
 
@@ -30,13 +30,13 @@ Users with the Manage collaborators permission can adjust who can collaborate on
 
 1.  Navigate to **All** &gt; **App Engine** &gt; **Collaboration** &gt; **Descriptors**.
 
-2.  Edit the permissions for a [collaboration descriptor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-glossary.md), such as owner or editor.
+2.  Edit the permissions for a [collaboration descriptor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-glossary.md), such as owner or editor.
 
     1.  Find and select the **Name** of the descriptor you want to modify.
 
     2.  Choose a **Development permission set**, such as **Service Catalog**, to update its permissions.
 
-        For a list of permissions, see [Collaboration permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/collaboration-permissions.md).
+        For a list of permissions, see [Collaboration permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/collaboration-permissions.md).
 
     3.  Select **Save** and **Update**.
 
@@ -54,8 +54,8 @@ Users with the Manage collaborators permission can adjust who can collaborate on
 
         For more information, see the following topics:
 
-        -   [Assign collaboration descriptors to users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/assign-descriptor-user.md)
-        -   [Assign collaboration descriptors to groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/assign-descriptor-group.md)
+        -   [Assign collaboration descriptors to users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/assign-descriptor-user.md)
+        -   [Assign collaboration descriptors to groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/assign-descriptor-group.md)
     5.  Select **Save**.
 
 4.  If you need a new collaboration descriptor, create a custom one.
@@ -112,7 +112,7 @@ Option for inviting other collaborators with this role.
 
 ## Result
 
-You've now set up collaboration descriptors, defined permissions, and assigned roles to users and groups for specific apps. For complete details on using the Collaboration app, see [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-collaboration.md).
+You've now set up collaboration descriptors, defined permissions, and assigned roles to users and groups for specific apps. For complete details on using the Collaboration app, see [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/application-collaboration.md).
 
-**Parent Topic:**[Administering collaboration in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-admin-collab-tasks.md)
+**Parent Topic:**[Administering collaboration in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-admin-collab-tasks.md)
 

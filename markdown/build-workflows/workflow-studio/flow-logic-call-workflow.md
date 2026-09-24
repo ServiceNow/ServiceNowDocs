@@ -3,11 +3,11 @@ title: Call a workflow flow logic
 description: Run a published and active workflow from your flow. You can use the flow data as a workflow input. For example, you can specify the current record as a workflow input.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-logic-call-workflow.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Flow logic, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -81,7 +81,7 @@ In this example, the flow calls the **Routine Change** workflow. The **Wait?** o
 
 **Note:** If you cancel the workflow or delete the context record prior to the workflow finishing, the flow logic state is set to **Complete**.
 
-**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic.md)
+**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-logic.md)
 
 **Related topics**  
 

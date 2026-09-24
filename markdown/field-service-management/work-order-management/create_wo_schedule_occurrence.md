@@ -3,11 +3,11 @@ title: Generate work orders for schedule occurrences
 description: Generate work orders for schedule occurrences to maintain a record of specific occurrences or maintenance cycles of the schedule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/create\_wo\_schedule\_occurrence.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Generate work orders, Configure work plans, Planned Work Management, Set up work orders and tasks, Configure, Field Service Management]
 ---
@@ -61,5 +61,5 @@ A list of work orders is automatically generated for the selected schedule occur
 **Related topics**  
 
 
-[Associate work order template to a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/associate-work-schedule-to-wotemplate.md)
+[Associate a work order template to a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/associate-work-schedule-to-wotemplate.md)
 

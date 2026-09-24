@@ -3,11 +3,11 @@ title: Run a Schedule report to view my schedule
 description: An On-Call Rotation Schedule report shows users or groups that are on-call for a specified time period.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/run-schedule-report-oncall.html
-release: australia
+release: brazil
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Viewing On-Call Scheduling reports, On-Call Scheduling, IT Service Management]
 ---
@@ -43,5 +43,5 @@ Example Formatted report: The report shows on-call commitments for all specified
 
 \[Omitted image "ScheduleReportFormattedReport.png"\] Alt text: Formatted Schedule report
 
-**Parent Topic:**[Viewing On-Call Scheduling reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/viewing-reports.md)
+**Parent Topic:**[Viewing On-Call Scheduling reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/viewing-reports.md)
 

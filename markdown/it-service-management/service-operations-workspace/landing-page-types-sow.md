@@ -3,11 +3,11 @@ title: Types of landing pages in Service Operations Workspace for ITSM
 description: Landing pages provide an agent with quick visibility into the work assigned, announcements, upcoming tasks, and so on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/landing-page-types-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access controls in Service Operations Workspace for ITSM, Getting started with Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -25,7 +25,7 @@ Other landing pages are available if you have the corresponding plugins installe
 
 **Important:**
 
--   A user's access to the landing page is based on the audience associated with that page. Configure the audiences with the required service desk groups and the users that are part of these service desk groups can then access the landing page. For information about audiences, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/add-audiences.md).
+-   A user's access to the landing page is based on the audience associated with that page. Configure the audiences with the required service desk groups and the users that are part of these service desk groups can then access the landing page. For information about audiences, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/add-audiences.md).
 -   When multiple audiences are available for the landing page, the audience with the least order is considered.
 
 ## Criteria to access the tier 1 landing page

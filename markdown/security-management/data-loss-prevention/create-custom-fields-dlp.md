@@ -1,20 +1,20 @@
 ---
-title: Create additional incident data fields
-description: Create Additional Incident Data Fields for the DLP incidents. You can create different types of fields such as string, number, check box, choice, date and time, and use them in the DLP incident forms.
+title: Create Additional Incident Data Fields
+description: Create your Additional Incident Data Fields for the DLP incidents. You can create different types of Additional Incident Data Fields such as string, number, check box, choice, date and time, and use them in the DLP incident forms.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/create-custom-fields-dlp.html
-release: australia
+release: brazil
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Administer, Data Loss Prevention Incident Response, Security Operations]
 ---
 
-# Create additional incident data fields
+# Create Additional Incident Data Fields
 
-Create Additional Incident Data Fields for the DLP incidents. You can create different types of fields such as string, number, check box, choice, date and time, and use them in the DLP incident forms.
+Create your Additional Incident Data Fields for the DLP incidents. You can create different types of Additional Incident Data Fields such as string, number, check box, choice, date and time, and use them in the DLP incident forms.
 
 ## Before you begin
 
@@ -23,13 +23,11 @@ Role required:
 -   sn\_dlir.admin
 -   sn\_dlir.analyst and sn\_dlir.analyst\_read
 
-**Important:** Additional incident data fields for DLP incidents are supported only on the San Diego version or later.
+**Important:** Additional Incident Data Fields for DLP incidents are supported only on the San Diego version or later.
 
 ## About this task
 
-Additional Incident Data Fields are not stored as columns on the DLP incident table. Unlike standard table-level fields, they cannot be queried directly through list views, reports, or scripts that reference incident table fields.
-
-Additional Incident Data Fields view differs by role. DLP Analysts can view and set field values in the DLP Ops portal. DLP End Users can set field values, but fields that contain no value are hidden from them in the DLP Workspace. For example, an unchecked **Check box** or a **Choice** field with no selection is not displayed to end users.
+Additional Incident Data Fields are associated with Field level restrictions, so if there are any Field level restrictions then it applies to Additional Incident Data Fields on the DLP Ops portal and End user portal.
 
 ## Procedure
 
@@ -71,12 +69,12 @@ If you select the Additional Incident Data Fields type as **Choice**, then after
 To create an Additional Incident Data Fields choice option:
 
     1.  Open the required Additional Incident Data Fields.
-    2.  In the Custom Choice Field Options section, select **New**.
+    2.  In the Custom Choice Field Options section, click **New**.
     3.  In the Option Name field, define the required option name.
-    4.  Select **Submit**.
+    4.  Click **Submit**.
 -   **Date**
 -   **Date/Time**
- **Note:** After you select a type for your new Additional Incident Data Fields, you can't modify it. If you want to modify the type, you must create a new Additional Incident Data Fields again with the required type. For **Check box** and **Choice** field types, DLP end users will not see the field in the DLP Workspace unless it contains a value \(a checked box or a selected choice\).
+ **Note:** After you select a type for your new Additional Incident Data Fields, you are not allowed to modify it. If you want to modify the type, then you have to create a new Additional Incident Data Fields again with the required type.
 
 </td></tr><tr><td>
 
@@ -103,10 +101,10 @@ Description
 Description for the Additional Incident Data Fields you created.
 
 </td></tr></tbody>
-</table>4.  Select **Submit**.
+</table>4.  Click **Submit**.
 
 
-**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
+**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
 
 **Related topics**  
 

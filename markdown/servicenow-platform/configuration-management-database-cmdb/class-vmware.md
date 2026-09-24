@@ -3,20 +3,20 @@ title: VMware vCenter Object \[cmdb\_ci\_vcenter\_object\] class
 description: Attributes, identification rule, and other important schema structures for Virtual Machine related classes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/class-vmware.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [CMDB schema model, Explore, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB schema model, CMDB hierarchy, Explore, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # VMware vCenter Object \[cmdb\_ci\_vcenter\_object\] class
 
 Attributes, identification rule, and other important schema structures for Virtual Machine related classes.
 
-For descriptions of common CMDB tables in a base system, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
+For descriptions of common CMDB tables in a base system, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
 
 ## Schema description​
 

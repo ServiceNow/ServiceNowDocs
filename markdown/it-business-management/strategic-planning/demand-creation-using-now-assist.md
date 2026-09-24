@@ -3,11 +3,11 @@ title: Create demands by using the conversational experience in Virtual Agent
 description: Use the conversational experience of ServiceNow Otto for Virtual Agent to create a demand from any application that supports Virtual Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/demand-creation-using-now-assist.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Create a demand,]
 breadcrumb: [Create a demand, Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
@@ -19,7 +19,7 @@ Use the conversational experience of ServiceNow Otto for Virtual Agent to create
 
 ## Before you begin
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 -   An application that supports Virtual Agent is installed.
 -   The conversational experience for demand creation is configured.
@@ -88,5 +88,5 @@ Using the context that you provided, Virtual Agent automatically matches it to t
 **Related topics**  
 
 
-[Using ServiceNow® Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/using-now-assist-in-va.md)
+[bundle-convint.using-now-assist-in-va]
 

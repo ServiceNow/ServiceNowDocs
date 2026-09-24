@@ -3,11 +3,11 @@ title: Outcomes based contextual learning recommendations
 description: Outcomes based contextual learning recommendations provide data-driven recommendations for your operational outcomes. This includes tailored trainings for your outcome results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/value-library/contextual-learning-recommendations.html
-release: australia
+release: brazil
 product: Value Library
 classification: value-library
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Value management, Using Impact, Impact]
 ---

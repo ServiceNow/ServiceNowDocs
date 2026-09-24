@@ -1,20 +1,20 @@
 ---
-title: Configure AI Agents for CSM - Complaint Case workflow
-description: Configure the AI Agents for CSM - Complaint Case workflow by defining key requirements and security controls. The workflow is then tested and made available through various channels.
+title: Configure the Accelerate Complaint Case Handling agentic workflow
+description: Configure the Accelerate Complaint Case Handling agentic workflow by defining key requirements and security controls. The workflow is then tested and made available through various channels.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/acc-complaint-case-handling-agentic-wkfl.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Accelerate complaint case handling collection, Use agentic AI in CSM, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
-# Configure AI Agents for CSM - Complaint Case workflow
+# Configure the Accelerate Complaint Case Handling agentic workflow
 
-Configure the AI Agents for CSM - Complaint Case workflow by defining key requirements and security controls. The workflow is then tested and made available through various channels.
+Configure the Accelerate Complaint Case Handling agentic workflow by defining key requirements and security controls. The workflow is then tested and made available through various channels.
 
 ## Before you begin
 
@@ -24,11 +24,11 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage.**.
 
-2.  Select **AI Agents for CSM - Complaint Case**.
+2.  Select **Accelerate Complaint Case Handling**.
 
 3.  Define the key requirements.
 
-    For more information on defining key requirements, refer to [General guidelines for writing prompts for agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gg-creating-aia.md).
+    For more information on defining key requirements, refer to [General guidelines for writing prompts for agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gg-creating-aia.md).
 
     1.  Write a clear description and list of steps.
 
@@ -57,7 +57,7 @@ Role required: admin
 
 5.  Add triggers.
 
-    Add triggers if you want an agentic workflow or AI agent to launch according to pre-defined rules. Triggers spare your users the effort of reaching out for help.
+    You can add triggers if you want an agentic workflow or AI agent to launch according to pre-defined rules, and you want to spare your users the effort of reaching out for help, add a trigger.
 
     If you do not add triggers, the workflow executes only in response to users' requests for help.
 

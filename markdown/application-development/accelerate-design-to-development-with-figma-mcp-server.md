@@ -3,11 +3,11 @@ title: MCP connections and Build Agent
 description: MCP connections enable Build Agent to access external tools and resources through standardized communication. Use these connections to integrate third-party applications like Figma for accelerated design-to-development workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/accelerate-design-to-development-with-figma-mcp-server.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -38,13 +38,13 @@ In Connect Hub, an MCP connector represents a configured connection between Serv
 
 ## Configuration details
 
-For details on configuring MCP connections in Build Agent, see [Connect Build Agent to a supported MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-connct-mcp-server.md). For more information on MCP connections, see [Additional connector configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/additional-configs-mcr.md).
+For details on configuring MCP connections in Build Agent, see [Connect Build Agent to a supported MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-connct-mcp-server.md). For more information on MCP connections, see [Additional connector configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/additional-configs-mcr.md).
 
 ## Connect to supported MCP servers
 
 Build Agent can use any MCP connection that's available in an instance's registry, though you must manually authenticate the connection the first time you use it with Build Agent.
 
-For details on adding a new MCP connection in Workflow Data Fabric, see [Model Context Protocol connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/model-context-protocol-connector.md).
+For details on adding a new MCP connection in Workflow Data Fabric, see [Model Context Protocol connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/model-context-protocol-connector.md).
 
 An example prompt: `Let's create a new project to track my baby's sleep and create issues in Linear based on inputs from the tracker`.
 
@@ -61,17 +61,15 @@ The end-to-end flow for making an MCP server available is:
 3.  You authenticate the connection in Personal Integrations.
 4.  You enable the MCP server in Build Agent settings.
 
-For details on enabling MCP connections, see [Client registration using custom connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mcp-custom.md).
+For details on enabling MCP connections, see [Client registration using custom connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/mcp-custom.md).
 
 Individual MCP servers are enabled by default, but the complete flow must be completed before any server is available for use.
 
-For details on adding a new MCP connection in Workflow Data Fabric, see [Model Context Protocol connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/model-context-protocol-connector.md).
+For details on adding a new MCP connection in Workflow Data Fabric, see [Model Context Protocol connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/model-context-protocol-connector.md).
 
 ## View available tools per MCP server
 
 You can view the list of tools available for each connected MCP server in the **MCP servers** pane in the Build Agent settings panel. Expand a server by selecting the chevron next to the server name to see its tools and descriptions.
-
-**Note:** You must be on Australia Patch 5 or later to view MCP tools.
 
 \[Omitted image "ba-mcp-list-tools.png"\] Alt text: MCP Servers panel listing enabled servers with Zoom Chat expanded to show available tools and descriptions.
 
@@ -79,7 +77,7 @@ You can view the list of tools available for each connected MCP server in the **
 
 Connect the Figma MCP server to the Build Agent to accelerate the transition of your Figma designs to enterprise-grade applications on the ServiceNow AI Platform®.
 
-**Note:** You can upload additional types of files to accelerate development, such as images and code files. For more information, see [Supported file types for Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-supported-file-types.md).
+**Note:** You can upload additional types of files to accelerate development, such as images and code files. For more information, see [Supported file types for Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-supported-file-types.md).
 
 The Figma MCP \(Model Context Protocol\) server establishes a secure connection between the Build Agent and Figma using OAuth for login authentication. This server enables the Build Agent to access structured design data directly from Figma files, rather than relying on static screen captures. With the available data, the Build Agent can effectively create applications.
 
@@ -95,5 +93,5 @@ The process of converting Figma designs to applications is as follows:
 
 **Note:** An allowlist process is required to connect the Build Agent MCP client to the Figma MCP server. Contact Now Support to initiate the process.
 
-**Parent Topic:**[Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-build-agent.md)
+**Parent Topic:**[Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/exploring-build-agent.md)
 

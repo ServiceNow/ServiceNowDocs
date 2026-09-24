@@ -3,11 +3,11 @@ title: View Patterns commands through the Discovery Patterns module
 description: View all the commands required for an infrastructure or application pattern to verify you have sufficient permissions to run discovery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/view-command-pattern-discovery.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Discovery commands for probes and patterns, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -27,7 +27,7 @@ Role required: discovery\_admin
 
 ## About this task
 
-The discovery\_admin role is required to access the **Discovery Patterns** module. Starting with Pattern Designer Enhancements version 3.9.0, the new pde\_viewer role can view pattern commands through the **Command List** module but can't edit or modify them. For more information, see [View Patterns commands through the Command List module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/view-pattern-command-in-command-list.md).
+The discovery\_admin role is required to access the **Discovery Patterns** module. Starting with Pattern Designer Enhancements version 3.9.0, the new pde\_viewer role can view pattern commands through the **Command List** module but can't edit or modify them. For more information, see [View Patterns commands through the Command List module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/view-pattern-command-in-command-list.md).
 
 ## Procedure
 
@@ -42,14 +42,14 @@ The discovery\_admin role is required to access the **Discovery Patterns** modul
 
 You’re redirected to the Command List form filtered for the selected pattern.
 
-For more information on the Command List form fields, see [Command List form for pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/commands-list-discovery.md).
+For more information on the Command List form fields, see [Command List form for pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/commands-list-discovery.md).
 
 **Related topics**  
 
 
-[Discovery commands for probes and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-command-probe-pattern.md)
+[Discovery commands for probes and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-command-probe-pattern.md)
 
-[Validate commands used in pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/validate-discovery-commands.md)
+[Validate commands used in pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/validate-discovery-commands.md)
 
-[View command validation task results in pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/view-command-validation-task-results.md)
+[View command validation task results in pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/view-command-validation-task-results.md)
 

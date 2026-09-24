@@ -3,9 +3,9 @@ title: Dynamic Schema
 description: Define a hierarchy of categories and enable users to describe a record using one or more attributes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-schema.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Administer, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -48,9 +48,9 @@ Dynamic Schema is composed of the following elements.
 
 You have flexibility when deciding how to implement Dynamic Schema.
 
--   You can add attributes directly to a dynamic attribute store field without creating formal definitions first. These attributes are considered transient and are treated as having string values in scripts and queries. You can provide a definition for the attribute and modify its type at any time. Modifying the type of an attribute doesn't affect the stored data but changes how the system interacts with that data. See [Working with attributes transiently](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/transient-attributes.md).
--   You can take advantage of additional platform support and reuse for attributes by defining them in a dynamic namespace. Defining a dynamic attribute record enables you to specify its type, set choice options, organize it into dynamic categories and more. See [Working with Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/working-with-dynamic-schema.md).
--   You can create a dynamic namespace independently. You can add dynamic attributes and dynamic categories to that namespace, and then associate that namespace with one or more dynamic attribute store fields. This enables you to reuse attributes across multiple store fields. See [Create a dynamic namespace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-dynamic-namespace.md).
+-   You can add attributes directly to a dynamic attribute store field without creating formal definitions first. These attributes are considered transient and are treated as having string values in scripts and queries. You can provide a definition for the attribute and modify its type at any time. Modifying the type of an attribute doesn't affect the stored data but changes how the system interacts with that data. See [Working with attributes transiently](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/transient-attributes.md).
+-   You can take advantage of additional platform support and reuse for attributes by defining them in a dynamic namespace. Defining a dynamic attribute record enables you to specify its type, set choice options, organize it into dynamic categories and more. See [Working with Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/working-with-dynamic-schema.md).
+-   You can create a dynamic namespace independently. You can add dynamic attributes and dynamic categories to that namespace, and then associate that namespace with one or more dynamic attribute store fields. This enables you to reuse attributes across multiple store fields. See [Create a dynamic namespace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-dynamic-namespace.md).
 
 ## Use cases
 
@@ -65,7 +65,7 @@ You have flexibility when deciding how to implement Dynamic Schema.
 
 Dynamic Schema also provides global APIs that enable you to access and manage dynamic attributes in your tables using JavaScripts. The following lists the APIs and methods that support dynamic attributes.
 
--   [GlideAggregate - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideAggregateAPI.md)
+-   [GlideAggregate - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/c_GlideAggregateAPI.md)
 
     The following GlideAggregate methods support the usage of dynamic attributes:
 
@@ -77,10 +77,10 @@ Dynamic Schema also provides global APIs that enable you to access and manage dy
     -   groupBy\(\)
     -   orderBy\(\)
     -   orderByAggregate\(\)
--   [GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
--   [GlideElementDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideElementDynamicAttStoreAPI.md)
--   [GlideDynamicNamespace - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideDynamicNamespaceAPI.md)
--   [GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
+-   [GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
+-   [GlideElementDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/GlideElementDynamicAttStoreAPI.md)
+-   [GlideDynamicNamespace - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/GlideDynamicNamespaceAPI.md)
+-   [GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
 
     The following GlideRecord methods support dynamic attributes:
 

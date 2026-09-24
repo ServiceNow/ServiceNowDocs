@@ -3,9 +3,9 @@ title: Exploring the AI Portfolio tab on the Enterprise Architecture Workspace d
 description: The AI Portfolio tab on the Enterprise Architecture Workspace dashboard provides visualization widgets that show how business applications and AI systems in your organization are associated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-dashboard-exploring-ai-portfolio-tab.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Exploring Portfolio list view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -39,16 +39,16 @@ The **AI Portfolio** tab contains two widgets. Both widgets source their data fr
 
 If no AI systems are associated with any business applications, the widgets display the default empty state.
 
-**Parent Topic:**[Exploring Portfolio list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/portfolio-list-view.md)
+**Parent Topic:**[Exploring Portfolio list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/portfolio-list-view.md)
 
 **Related topics**  
 
 
-[AI Control Tower integration with Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-aict.md)
+[AI Control Tower integration with Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-aict.md)
 
-[Explore the Enterprise Architecture Workspace dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-workspace-dashboard.md)
+[Explore the Enterprise Architecture Workspace dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-workspace-dashboard.md)
 
-[Add an existing AI system to a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-ai-system-to-ba.md)
+[Add an existing AI system to a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-add-ai-system-to-ba.md)
 
-[AI Control Tower Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower-home-page.md)
+[AI Control Tower Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower-home-page.md)
 

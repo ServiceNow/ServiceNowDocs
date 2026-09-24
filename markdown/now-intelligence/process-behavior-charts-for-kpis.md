@@ -3,9 +3,9 @@ title: KPI Signals
 description: KPI Signals notifies you when the behavior of a process changes significantly. This feature applies standard statistical Process Behavior Charts to Performance Analytics indicators.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-behavior-charts-for-kpis.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Platform Analytics experience, Platform Analytics]
 ---
@@ -18,19 +18,19 @@ KPI Signals notifies you when the behavior of a process changes significantly. T
 
 <table id="table_o5y_trj_mcc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explanation of signals, anti-signals, and when there is no signal.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/exploring-kpi-signals.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explanation of signals, anti-signals, and when there is no signal.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/exploring-kpi-signals.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate KPI Signals for an indicator and configure signal detection and notification. Add responsible users.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configuring-kpi-signals.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate KPI Signals for an indicator and configure signal detection and notification. Add responsible users.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/configuring-kpi-signals.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-actionable-analytics.svg"\] Alt text:Respond to KPI Signals notifications by fixing the issue and dismissing the signal or resetting the baseline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/using-kpi-signals.md)
+[Use\[Omitted image "bus-actionable-analytics.svg"\] Alt text:Respond to KPI Signals notifications by fixing the issue and dismissing the signal or resetting the baseline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/using-kpi-signals.md)
 
 </td><td>
 
-[Role reference\[Omitted image "bus-learn.svg"\] Alt text:Roles relevant to KPI Signals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-signals-roles.md)
+[Role reference\[Omitted image "bus-learn.svg"\] Alt text:Roles relevant to KPI Signals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/kpi-signals-roles.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

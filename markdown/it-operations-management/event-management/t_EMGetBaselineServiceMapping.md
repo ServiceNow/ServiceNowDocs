@@ -3,11 +3,11 @@ title: Activate and configure Service Mapping for top-down discovery
 description: A top-down discovery provides a list of CIs and their interrelationships. This information is useful for managing software services and hardware issues that are associated with alerts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMGetBaselineServiceMapping.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Application services in Event Management, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -31,12 +31,12 @@ In Event Management, Service Mapping relationships appear on alerts. You can vie
     Service Mapping, which is closely related to Event Management, provides tools to discover the relationships between network, hardware, software, storage, and other devices.
 
 
-**Parent Topic:**[Application services in Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/application-service-event-management.md)
+**Parent Topic:**[Application services in Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/application-service-event-management.md)
 
 **Related topics**  
 
 
-[Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_ServiceMappingOverview.md)
+[Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/c_ServiceMappingOverview.md)
 
-[Request Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_ActivateServiceMappingPlugin.md)
+[Request Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/t_ActivateServiceMappingPlugin.md)
 

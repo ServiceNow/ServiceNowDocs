@@ -3,11 +3,11 @@ title: Onboard Rally to DevOps Change Velocity — Workspace
 description: Connect to your Rally instance using the DevOps Change Workspace playbook to configure webhooks and discover plans.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/rally-connect-workspace.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Rally, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Connect to your Rally instance using the DevOps Change Workspace playbook to con
 
 ## Before you begin
 
-Complete the tasks specified in the [Getting started with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/setting-up-devops-change-velocity.md) topic.
+Complete the tasks specified in the [Getting started with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/setting-up-devops-change-velocity.md) topic.
 
 Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
@@ -26,15 +26,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Rally.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d444873e95">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d454771e95">
 
 Option
 
-</th><th align="left" id="d444873e98">
+</th><th align="left" id="d454771e98">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d444873e104">
+</th></tr></thead><tbody><tr><td id="d454771e104">
 
 **Homepage**
 
@@ -44,19 +44,19 @@ Steps
 2.  On the  Connect to a tool  modal, select Rally from the Plan category.
 
 
-</td></tr><tr><td id="d444873e128">
+</td></tr><tr><td id="d454771e128">
 
 **Applications module**
 
 </td><td>
 
 1.  Select **Applications** \(\[Omitted image "applications-icon.png"\] Alt text: Applications icon.\) from the primary navigation.
-2.  Select an existing application, or create one. To create an application, see [Create an application - Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/app-create-workspace.md).
+2.  Select an existing application, or create one. To create an application, see [Create an application - Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/app-create-workspace.md).
 3.  From the  Recommended actions  pane, select the  **Connect a tool ** card.
 4.  On the  Connect to a tool  modal, select Rally from the Plan category.
 
 
-</td></tr><tr><td id="d444873e177">
+</td></tr><tr><td id="d454771e177">
 
 **Tools module**
 
@@ -80,11 +80,11 @@ Steps
         -   Basic Auth: Enter the password or access token of your Rally instance.
         -   OAuth 2.0: Enter your OAuth credential.
 
-            For information on setting up your OAuth 2.0 credentials for Rally, see [Setting up Rally OAuth 2.0 credentials for DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/setting-up-rally-oauth-2-0-credentials-for-devops.md).
+            For information on setting up your OAuth 2.0 credentials for Rally, see [Setting up Rally OAuth 2.0 credentials for DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/setting-up-rally-oauth-2-0-credentials-for-devops.md).
 
     3.  \(Optional\) If your Rally instance is attached to a MID Server, select the **Use MID Server** option and enter its details.
 
-        A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MIDServerSelector.md).
+        A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_MIDServerSelector.md).
 
 4.  Select **Connect**.
 
@@ -114,7 +114,7 @@ Steps
 
 6.  Configure webhooks automatically in Rally to send real-time notifications.
 
-    **Note:** If you prefer not to configure webhooks, you can enable nightly polling to fetch data for all tracked plans by selecting the **Enable import polling** check box in [DevOps properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-administration.md).
+    **Note:** If you prefer not to configure webhooks, you can enable nightly polling to fetch data for all tracked plans by selecting the **Enable import polling** check box in [DevOps properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/dev-ops-administration.md).
 
     1.  Select the plans that you want to track.
 
@@ -149,12 +149,12 @@ From the tool record page, you can do the following:
 -   Discover plans and configure webhooks.
 -   Assign groups to control access to the tool using the **Maintained by** field.
 -   From the **Plans** tab, select a plan to view its details such as imported work items, features, and others.
--   To import historical data from the plans, associate the plans with an application, and import the data. For more information, see [Associate tool objects to applications - Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/apps-associate-objects-wkspc.md).
+-   To import historical data from the plans, associate the plans with an application, and import the data. For more information, see [Associate tool objects to applications - Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/apps-associate-objects-wkspc.md).
 
-**Parent Topic:**[Rally integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/rally-devops-integration.md)
+**Parent Topic:**[Rally integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/rally-devops-integration.md)
 
 **Related topics**  
 
 
-[Configure webhooks from the tool record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/configure-webhooks-from-the-tool-record.md)
+[Configure webhooks from the tool record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/configure-webhooks-from-the-tool-record.md)
 

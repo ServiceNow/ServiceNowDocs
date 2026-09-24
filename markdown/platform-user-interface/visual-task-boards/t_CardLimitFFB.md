@@ -3,13 +3,13 @@ title: Configure the card limit for Visual Task boards
 description: Freeform and data driven boards can display up to 1,000 cards by default. You can change the default card limit by adding a system property.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/t\_CardLimitFFB.html
-release: australia
+release: brazil
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with Visual Task Board cards, Using Visual Task Boards, Visual Task Boards, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Working with Visual Task Board cards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Configure the card limit for Visual Task boards
@@ -26,7 +26,7 @@ You can set card limit for both Freeform board and Flexible and Guided board in 
 
 ## Procedure
 
-1.  [Add a new system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) with the following field values:
+1.  [Add a new system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) with the following field values:
 
     |Field|Value|
     |-----|-----|
@@ -38,5 +38,5 @@ You can set card limit for both Freeform board and Flexible and Guided board in 
     **Note:** Performance degradation may occur if you set the **Value** to a number greater than 1,000, especially on tablet devices.
 
 
-**Parent Topic:**[Working with Visual Task Board cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/r_TaskCards.md)
+**Parent Topic:**[Working with Visual Task Board cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/visual-task-boards/r_TaskCards.md)
 

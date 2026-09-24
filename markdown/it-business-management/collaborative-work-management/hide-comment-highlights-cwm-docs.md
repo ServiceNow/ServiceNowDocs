@@ -3,11 +3,11 @@ title: Hide or show comment highlights in Docs
 description: Toggle comment highlight visibility in Docs to switch between a clean reading view and a markup view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/hide-comment-highlights-cwm-docs.html
-release: australia
+release: brazil
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [CWM, collaborative work management, docs, comments, hide, highlights, view]
 breadcrumb: [Collaborate with Docs, Use, Collaborative Work Management, Strategic Portfolio Management]
@@ -19,7 +19,7 @@ Toggle comment highlight visibility in Docs to switch between a clean reading vi
 
 ## Before you begin
 
-[Add comments to Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/add-comments-to-docs-in-cwm.md).
+[Add comments to Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/add-comments-to-docs-in-cwm.md).
 
 Role required: sn\_cwm.cwm\_user
 
@@ -50,5 +50,5 @@ Hiding comment highlights switches the Doc to a clean reading view without marku
     The comment highlights are displayed in the document.
 
 
-**Parent Topic:**[Collaborative documentation using CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-docs.md)
+**Parent Topic:**[Collaborative documentation using CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/cwm-docs.md)
 

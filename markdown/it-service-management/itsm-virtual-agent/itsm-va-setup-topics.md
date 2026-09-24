@@ -3,11 +3,11 @@ title: Pre-built setup topics for Virtual Agent
 description: Use pre-built setup topics to create a standard welcome greeting and a conversation closing. In addition, setup topics can provide user feedback and surveys, as well as error handling.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-virtual-agent/itsm-va-setup-topics.html
-release: australia
+release: brazil
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using ITSM Virtual Agent pre-built topics, ITSM Virtual Agent, IT Service Management]
 ---
@@ -16,9 +16,9 @@ breadcrumb: [Using ITSM Virtual Agent pre-built topics, ITSM Virtual Agent, IT S
 
 Use pre-built setup topics to create a standard welcome greeting and a conversation closing. In addition, setup topics can provide user feedback and surveys, as well as error handling.
 
-For more information about setup topics, see [Setting up chat experiences for Virtual Agent users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-conversation-settings.md).
+For more information about setup topics, see [Setting up chat experiences for Virtual Agent users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-conversation-settings.md).
 
-For a complete list of setup topics that are included with Virtual Agent, see [Working with setup topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/working-setup-topics.md).
+For a complete list of setup topics that are included with Virtual Agent, see [Working with setup topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/working-setup-topics.md).
 
 ## Dynamic Greeting Topic
 
@@ -34,7 +34,7 @@ When the end time is known, the virtual agent includes the message:
 
 The dynamic greeting is followed by the standard greeting, which asks the user to enter information.
 
-For more information about configuring the greeting setup topic, see [Change the Virtual Agent greeting messages in the Greeting setup topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-welcome-topic-selection-msgs.md).
+For more information about configuring the greeting setup topic, see [\(Legacy\) Change the Virtual Agent greeting messages in the Greeting setup topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-welcome-topic-selection-msgs.md).
 
-**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/using-itsm-va.md)
+**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-virtual-agent/using-itsm-va.md)
 

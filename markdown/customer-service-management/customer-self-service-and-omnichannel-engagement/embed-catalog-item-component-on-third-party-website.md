@@ -3,13 +3,13 @@ title: Embed the Catalog item component instance on the third-party website
 description: Embed the global code and component code of the Catalog item component instance that you configured so that you can enable your customers to start using the Catalog item component instance on your third-party website.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-catalog-item-component-on-third-party-website.html
-release: australia
+release: brazil
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Catalog item component, Configure web components, Web Embeddables, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Catalog item component, Configure web components, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Embed the Catalog item component instance on the third-party website
@@ -18,7 +18,7 @@ Embed the global code and component code of the Catalog item component instance 
 
 ## Before you begin
 
-You must configure the Catalog item component instance. For information, see [Configure the Catalog item component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-catalog-item-component-on-instance.md).
+You must configure the Catalog item component instance. For information, see [Configure the Catalog item component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-catalog-item-component-on-instance.md).
 
 Role required: None
 

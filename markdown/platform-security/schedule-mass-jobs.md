@@ -3,9 +3,9 @@ title: Schedule mass encryption, decryption, and rekeying jobs
 description: Schedule encryption, decryption, and rekeying jobs to run at a time that is best for your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/schedule-mass-jobs.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Encrypting fields and attachments, Using Field Encryption, Field Encryption, Encryption]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_kmf.cryptographic\_manager
 
 ## About this task
 
-Mass encryption and decryption is also available from the Encrypted Field Configurations form. See [Run mass encryption or decryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/mass-enc-dec.md) for instructions.
+Mass encryption and decryption is also available from the Encrypted Field Configurations form. See [Run mass encryption or decryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/mass-enc-dec.md) for instructions.
 
 ## Procedure
 
@@ -125,5 +125,5 @@ Job status information when the job is running, has completed, or has errors.
     -   Click **Update** to save any changes you make to the job schedule.
     -   Click **Delete** to delete the scheduled job.
 
-**Parent Topic:**[Encrypting fields and attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/field-encryption-key-management.md)
+**Parent Topic:**[Encrypting fields and attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/field-encryption-key-management.md)
 

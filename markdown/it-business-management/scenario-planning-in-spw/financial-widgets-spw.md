@@ -3,11 +3,11 @@ title: Financial widgets in Strategic Planning
 description: Financial widgets provide at-a-glance visibility into the portfolio’s financial health. These widgets aggregate cost, budget, and benefit data to help you monitor spending, track variances, and measure return on investment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/financial-widgets-spw.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-04-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Financial planning for planning items, Explore, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -97,5 +97,5 @@ Financial widgets provide at-a-glance visibility into the portfolio’s financia
 -   Use fiscal year breakdowns to identify seasonal spending patterns.
 -   Compare ROI and NPV together for comprehensive investment analysis.
 
-**Parent Topic:**[Financial planning for planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/financials-strategic-planning.md)
+**Parent Topic:**[Financial planning for planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/financials-strategic-planning.md)
 

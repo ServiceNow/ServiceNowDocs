@@ -3,11 +3,11 @@ title: Configure the demand AI skills
 description: Configure the generative AI skills for demands by defining their triggers, display locations, and access settings to make it available to users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/configure-the-demand-summarization-skill-ppm.html
-release: australia
+release: brazil
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 ## About this task
 
-**Important:** These generative AI skills are turned on by default. The skills will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** These generative AI skills are turned on by default. The skills will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 
@@ -36,7 +36,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 5.  Review the input fields for the skill.
 
-    For more information, see [Inputs for AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/inputs-for-ai-skills-ppm.md).
+    For more information, see [Inputs for AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/inputs-for-ai-skills-ppm.md).
 
     A check mark next to each step indicates whether the step is completed, partially completed, or not completed. After configuring a step, select **Save and continue** to go to the next step. Return to a previous step by selecting **Back**.
 
@@ -64,15 +64,15 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 11. Review the configuration and select **Activate**.
 
 
--   **[Copy and customize the demand summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/clone-customize-the-demand-summarization-skill-ppm.md)**  
+-   **[Copy and customize the demand summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/clone-customize-the-demand-summarization-skill-ppm.md)**  
 Copy the base demand summarization skill and customize it with your own fields, related entities, and prompt to summarize demands.
 
-**Parent Topic:**[Configuring Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/configuring-demand-management.md)
+**Parent Topic:**[Configuring Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/configuring-demand-management.md)
 
 **Related topics**  
 
 
-[Summarize demands with the demand summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/demand-summary-demand-classic.md)
+[Summarize demands with the demand summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/demand-summary-demand-classic.md)
 
-[AI skills for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/similar-demand-identification-using-now-assist.md)
+[AI skills for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/similar-demand-identification-using-now-assist.md)
 

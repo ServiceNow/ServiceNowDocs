@@ -3,11 +3,11 @@ title: Workflow of a risk using Advanced Risk
 description: When you migrate to advanced risk assessment, you can view the various states of the risks take the necessary actions. This ability simplifies your view of the risk form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/risk-lifecycle-using-advanced-risk.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manage risks, risk statements, and risk frameworks, Explore, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -128,7 +128,7 @@ This is the state of the risk when the risk is no longer valid but the organizat
 -   **Navigate to assessment scope**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Manage risks, risk statements, and risk frameworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/r_RiskRegister.md)
+</table>**Parent Topic:**[Manage risks, risk statements, and risk frameworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/r_RiskRegister.md)
 
 **Related topics**  
 

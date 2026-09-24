@@ -3,9 +3,9 @@ title: Procurement analytics on the CBS dashboard
 description: The Procurement tab on the Core Business Suite Analytics dashboard tracks open case volume and resolution trends for procurement requests, helping managers monitor purchasing activity and identify staffing gaps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/procurement-analytics-cbs-dashboard.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Procurement analytics, CBS Analytics, Core Business Suite dashboard, procurement cases, performance trends]
 breadcrumb: [CBS Analytics overview, View Core Business Suite Analytics, Use, Core Business Suite]
@@ -92,5 +92,5 @@ Chart shows case volume broken down by procurement case type. -   Inquiry
 -   Due diligence
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Core Business Suite Analytics overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-analytics-overview.md)
+</table>**Parent Topic:**[Core Business Suite Analytics overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/cbs-analytics-overview.md)
 

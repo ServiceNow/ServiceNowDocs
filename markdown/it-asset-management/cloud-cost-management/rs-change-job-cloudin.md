@@ -3,11 +3,11 @@ title: Move a resource to a different Rightsizing job
 description: You can add resources to a currently scheduled job, move resources from one job to another, or remove resources from a job.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/rs-change-job-cloudin.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Resize resources with Rightsizing, Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -37,7 +37,7 @@ If either condition is met, the app sends an email notification to the owner of 
 
 ## Procedure
 
-1.  Navigate to **Cloud Cost Management Workspace** &gt; **Operations** &gt; **Recommendations** &gt; **Rightsizing**.
+1.  Navigate to **Cloud Cost Management Workspace** &gt; **Optimization** &gt; **Rightsizing**.
 
 2.  In the list on the appropriate tab, select the check boxes for the resources to rightsize.
 
@@ -95,13 +95,13 @@ Change template
 
 </td><td>
 
-This field appears only when the **Approval type** is set to **Auto approval**.
+This field appears only when the **Approval type** is selected as **Auto approval**.
 
-Change request template \(Standard Change type\) to be used. If no template appears in the list, you must create one.
+Change request template \(Standard Change type\) to be used. If no template appears in the list, you must create one. See [Create a change request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/create-a-change-request-template.md).
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Resize resources with Rightsizing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/resize-res-ci.md)
+**Parent Topic:**[Resize resources with Rightsizing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/resize-res-ci.md)
 

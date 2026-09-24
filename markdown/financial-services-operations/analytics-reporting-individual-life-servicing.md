@@ -3,9 +3,9 @@ title: Analytics and reporting for Individual Life Servicing
 description: Individual Life Servicing contains preconfigured dashboards with actionable data visualizations that can help your organization improve your business processes and quantify the value of self-service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/analytics-reporting-individual-life-servicing.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Individual Life Servicing, Life Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -16,5 +16,5 @@ Individual Life Servicing contains preconfigured dashboards with actionable data
 
 Use the Performance Analytics widgets on a dashboard to visualize data over time, analyze your business processes, and identify areas of improvement.
 
-The [Individual Life Servicing dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/individual-life-servicing-dashboard.md) is available for Individual Life Servicing.
+The [Individual Life Servicing dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/individual-life-servicing-dashboard.md) is available for Individual Life Servicing.
 

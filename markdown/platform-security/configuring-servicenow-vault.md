@@ -3,9 +3,9 @@ title: Configuring ServiceNow Vault
 description: Learn how to install and configure ServiceNow Vault.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/configuring-servicenow-vault.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Vault]
 ---
@@ -16,19 +16,23 @@ Learn how to install and configure ServiceNow Vault.
 
 ## Configuration overview
 
--   [Install ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/install-vault.md)
+-   [Install ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/install-vault.md)
 
     Install the ServiceNow Vault application and assign the required roles to users who need access to the Vault console.
 
--   [ServiceNow Vault roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/vault-roles.md)
+-   [Install Vault Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/install-vault-suite.md)
+
+    Install all ServiceNow Vault capabilities in a single step, from either the Application Manager or the ServiceNow Vault tile on Admin Home.
+
+-   [ServiceNow Vault roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/vault-roles.md)
 
     Learn about the roles necessary to use ServiceNow Vault and elevate to them so that you can access the full range of Vault capabilities.
 
--   [Install Vault plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/install-vault-plugins.md)
+-   [Install Vault plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/install-vault-plugins.md)
 
     Install and verify the plug-ins needed to make the most of ServiceNow Vault.
 
--   [Install ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-now-assist-vault.md)
+-   [Install ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/configuring-now-assist-vault.md)
 
     Install ServiceNow Otto for Vault to make use of generative and agentic AI capabilities within ServiceNow Vault.
 
@@ -37,5 +41,5 @@ Learn how to install and configure ServiceNow Vault.
 
 Guided setup provides a sequence of tasks that help you configure ServiceNow Vault on your ServiceNow instance. To open guided setup for ServiceNow Vault, navigate to **All** &gt; **Vault** &gt; **Vault console**.
 
-For more information, see [Use guided setup for ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/use-vault-guided-setup.md).
+For more information, see [Use guided setup for ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/use-vault-guided-setup.md).
 

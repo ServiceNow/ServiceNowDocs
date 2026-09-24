@@ -3,11 +3,11 @@ title: Problem resolved \(advanced\)
 description: This advanced example demonstrates a table notification that generates an automatic message on Live Feed whenever a problem is closed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/c\_Example2ProblemResolvedAdvanced.html
-release: australia
+release: brazil
 product: Live Feed
 classification: live-feed
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Live Feed table notification examples, Live Feed table notifications, Administering Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -45,10 +45,10 @@ It also adds a message about the assigned user and posts the message from the as
     ```
 
 
-**Parent Topic:**[Live Feed table notification examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_LFTableNotifiExamples.md)
+**Parent Topic:**[Live Feed table notification examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/c_LFTableNotifiExamples.md)
 
 **Related topics**  
 
 
-[Live Feed table notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_SetUpLiveFeedTableNotifications.md)
+[Live Feed table notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/c_SetUpLiveFeedTableNotifications.md)
 

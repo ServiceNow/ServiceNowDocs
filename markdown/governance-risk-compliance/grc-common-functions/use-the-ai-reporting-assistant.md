@@ -3,13 +3,13 @@ title: Generate reports through AI for document designer
 description: Generate reports from ServiceNow instance data by using prompts through the AI for document designer directly within Microsoft Word.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/use-the-ai-reporting-assistant.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
-breadcrumb: [AI for document designer, Microsoft Word based audit report templates using Document designer, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [AI for document designer, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Generate reports through AI for document designer
@@ -18,7 +18,7 @@ Generate reports from ServiceNow instance data by using prompts through the AI f
 
 ## Before you begin
 
-The ServiceNow Document designer add-in must be installed. For more information, see [Install the ServiceNow Document Designer add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/install-document-designer.md).
+The ServiceNow Document designer add-in must be installed. For more information, see [Install the ServiceNow Document Designer add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/install-document-designer.md).
 
 Role required: sn\_grc\_doc\_design.reader
 
@@ -42,10 +42,10 @@ Role required: sn\_grc\_doc\_design.reader
 6.  View all AI-generated content inserted during this conversation by selecting **Manage content**.
 
 
-**Parent Topic:**[AI for document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/ai-reporting-assistant.md)
+**Parent Topic:**[AI for document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/ai-reporting-assistant.md)
 
 **Related topics**  
 
 
-[Customize the appearance of AI for document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/customize-the-appearance-of-ai-reporting-assistant-content.md)
+[Customize the appearance of AI for document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/customize-the-appearance-of-ai-reporting-assistant-content.md)
 

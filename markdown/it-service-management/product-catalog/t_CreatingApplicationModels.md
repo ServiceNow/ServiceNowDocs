@@ -3,11 +3,11 @@ title: Create application models
 description: You can create application models that can be managed and tracked within a Scrum development process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/product-catalog/t\_CreatingApplicationModels.html
-release: australia
+release: brazil
 product: Product Catalog
 classification: product-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Models, Product Catalog, Asset Management common applications, IT Service Management]
 ---
@@ -28,15 +28,15 @@ Role required: model\_manager
 
 3.  Complete the form.
 
-    For general field descriptions, see [Model form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/r_ModelFormFields.md). There are no fields specific to application models.
+    For general field descriptions, see [Model form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/product-catalog/r_ModelFormFields.md). There are no fields specific to application models.
 
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/c_Models.md)
+**Parent Topic:**[Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/product-catalog/c_Models.md)
 
 **Related topics**  
 
 
-[Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development.md)
+[Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development.md)
 

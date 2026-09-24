@@ -3,11 +3,11 @@ title: Create schedule entries in the Schedule calendar
 description: Add events such as meeting, time-off, or appointment to display them in the schedule calendar.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/create-events-next-experience-ui.html
-release: australia
+release: brazil
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -34,7 +34,7 @@ A calendar view displays events for a specified time period. A time line view di
 
 3.  Select **Show Schedule** related link.
 
-    Using the Next Experience user interface, you can view the schedules in the schedule calendar for all schedule types except the roster type. The schedules of roster type display in the [on-call schedule.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_OnCallScheduling.md)
+    Using the Next Experience user interface, you can view the schedules in the schedule calendar for all schedule types except the roster type. The schedules of roster type display in the [on-call schedule.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/c_OnCallScheduling.md)
 
 4.  Create a schedule entry.
 
@@ -70,5 +70,5 @@ A calendar view displays events for a specified time period. A time line view di
             **Note:** If the **Timezone** field value is **Floating**, then the calendar uses the start and end dates from the time zone of the logged-in user.
 
 
-**Parent Topic:**[Using time configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/using-time-configuration.md)
+**Parent Topic:**[Using time configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/using-time-configuration.md)
 

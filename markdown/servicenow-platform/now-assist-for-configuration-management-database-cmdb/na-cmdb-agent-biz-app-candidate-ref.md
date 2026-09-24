@@ -3,11 +3,11 @@ title: Business application candidate agent reference
 description: Reference information for the Business application candidate agent, including system properties, configuration limits, table names, role requirements, and operational constraints.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-agent-biz-app-candidate-ref.html
-release: australia
+release: brazil
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2026-07-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [system properties, configuration, limits, reference, Business application candidate agent, ServiceNow Otto for CMDB]
 breadcrumb: [Reference, ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
@@ -144,7 +144,7 @@ Access to all Business application candidate agent tables, forms, and configurat
 -   Accept or reject recommendations
 -   Create or modify business application records and relationships
 
-**Parent Topic:**[ServiceNow Otto for CMDB reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-reference.md)
+**Parent Topic:**[ServiceNow Otto for CMDB reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-reference.md)
 
 **Related topics**  
 

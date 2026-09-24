@@ -3,9 +3,9 @@ title: Components installed with MCP for Strategic Portfolio Management
 description: Reference information to provide additional details about MCP for Strategic Portfolio Management such as the fields, user roles, and tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/installed-with-mcp-for-spm.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-06-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, MCP for Strategic Portfolio Management, Strategic Portfolio Management]
 ---

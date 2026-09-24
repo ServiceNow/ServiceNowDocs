@@ -3,13 +3,13 @@ title: View your hardware asset repair tasks using the Mobile Agent application
 description: View the Troubleshoot asset, Repair asset, and Evaluate asset tasks assigned to you by using the Mobile Agent application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/view-ham-repair-tasks-using-mobile-agent.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage hardware asset repair tasks, Manage hardware asset tasks using the Mobile Agent application, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage hardware asset repair tasks using the Mobile Agent application, Manage hardware asset tasks using the Mobile Agent application, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # View your hardware asset repair tasks using the Mobile Agent application
@@ -45,7 +45,7 @@ Role required: admin or asset
     3.  Select the fields by which to sort your tasks.
 
 
-**Parent Topic:**[Manage hardware asset repair tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/repair-orders-mobile-agent-ham.md)
+**Parent Topic:**[Manage hardware asset repair tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/repair-orders-mobile-agent-ham.md)
 
 **Related topics**  
 

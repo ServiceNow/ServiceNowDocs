@@ -3,11 +3,11 @@ title: Automated Test Framework design considerations
 description: Create reliable, scalable, and efficient tests by following these design considerations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/automated-test-framework-design-considerations.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Automated Test Framework \(ATF\) reference, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -33,11 +33,11 @@ Reduce test design time by running multiple tests and test suites in parallel. D
 
 Prevent resource conflicts by running tests that create their own data. Tests that run with existing data prevent other tests that need the same data from running in parallel.
 
-**Note:** If you have two or more resource conflicting tests, see [Mark tests as mutually exclusive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/mutual-exclusion-rule.md) to create a mutual exclusion rule that prevents them from running in parallel.
+**Note:** If you have two or more resource conflicting tests, see [Mark tests as mutually exclusive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/mutual-exclusion-rule.md) to create a mutual exclusion rule that prevents them from running in parallel.
 
 ## Parameterized testing
 
-Run a test multiple times with different test data for each run. Create parameters to store test data for each test run. See [Parameterized test components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/parameterized-tests.md) for more information.
+Run a test multiple times with different test data for each run. Create parameters to store test data for each test run. See [Parameterized test components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/parameterized-tests.md) for more information.
 
 -   Create parameters to store test data for each test run.
 -   Ensure that the parameterized tests support standard Automated Test Framework \(ATF\) features, such as reports, test suites, and data rollback. Copying a parameterized test copies all parameters, test run data sets, and test steps.
@@ -67,7 +67,7 @@ Test customized user interfaces such as UI pages and UI macros by retrieving the
 
 -   **Use HTML attributes to override page component testing properties**
 
-    Change the testing properties of a particular page component using HTML attributes that are specific to Automated Test Framework. See [Override component test actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/develop-testable-components.md).
+    Change the testing properties of a particular page component using HTML attributes that are specific to Automated Test Framework. See [Override component test actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/develop-testable-components.md).
 
 -   **Retrieve page components again when you move tests to another instance**
 
@@ -84,16 +84,16 @@ Move your tests to the production system to clone the most updated instances for
 
 |Warning messages|Design considerations|
 |----------------|---------------------|
-|`Impersonating an existing user may cause unexpected behavior for this test. Avoid potential issues by adding a 'Create a User' step instead. See the documentation for Test Design Considerations`.|Create a new user to ensure proper roles and groups and avoid using existing records. See [General testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/automated-test-framework-design-considerations.md) for more information.|
-|`Using a table that extends Application File [sys_metadata] may cause unexpected behavior for other tests running in parallel. See the documentation for Test Design Considerations`.|Avoid running a test with a table that extends the Application File because it might affect other tests. See [Parallel testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/automated-test-framework-design-considerations.md) for more information.|
-|`Using a system table may cause unexpected behavior for other tests running in parallel. See the documentation for Test Design Considerations`.|Avoid using a system table because it might affect other tests running in parallel. See [Parallel testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/automated-test-framework-design-considerations.md) for more information.|
-|`Using an existing record may cause unexpected behavior for this test. See the documentation for Test Design Considerations`.|Avoid using existing records because these records might not have the state and values as expected by the test. Use records created during the test to ensure proper state and values. See [General testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/automated-test-framework-design-considerations.md) for more information.|
-|`Modifying an existing record may cause unexpected behavior for other tests running in parallel. See the documentation for Test Design Considerations`.|Avoid using existing records because it might affect other tests. Use records created during the test. See [General testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/automated-test-framework-design-considerations.md) for more information.|
+|`Impersonating an existing user may cause unexpected behavior for this test. Avoid potential issues by adding a 'Create a User' step instead. See the documentation for Test Design Considerations`.|Create a new user to ensure proper roles and groups and avoid using existing records. See [General testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/automated-test-framework-design-considerations.md) for more information.|
+|`Using a table that extends Application File [sys_metadata] may cause unexpected behavior for other tests running in parallel. See the documentation for Test Design Considerations`.|Avoid running a test with a table that extends the Application File because it might affect other tests. See [Parallel testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/automated-test-framework-design-considerations.md) for more information.|
+|`Using a system table may cause unexpected behavior for other tests running in parallel. See the documentation for Test Design Considerations`.|Avoid using a system table because it might affect other tests running in parallel. See [Parallel testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/automated-test-framework-design-considerations.md) for more information.|
+|`Using an existing record may cause unexpected behavior for this test. See the documentation for Test Design Considerations`.|Avoid using existing records because these records might not have the state and values as expected by the test. Use records created during the test to ensure proper state and values. See [General testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/automated-test-framework-design-considerations.md) for more information.|
+|`Modifying an existing record may cause unexpected behavior for other tests running in parallel. See the documentation for Test Design Considerations`.|Avoid using existing records because it might affect other tests. Use records created during the test. See [General testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/automated-test-framework-design-considerations.md) for more information.|
 |`Using assert type '--None--' may cause unexpected behavior for server UI actions. Avoid potential issues by setting the assert type and using a timeout. See the documentation for Test Design Considerations`.|Server UI actions cause the current form to submit and the page to reload. Select an assert type other than **None** to avoid any unexpected behavior for server UI actions. Set a timeout to ensure that your test waits for the form to be submitted or not submitted before moving on to the next step. When testing server UI actions, the **None** assert type configures automatically to **Form submitted to server**.|
 
 ## Domain separation testing
 
-When testing domain separation, you must set the domain first. This should be part of the first impersonation step of each of the ATF test steps when they are dependent on a domain being set. To learn more about domain separation recommended practices, see [Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md).
+When testing domain separation, you must set the domain first. This should be part of the first impersonation step of each of the ATF test steps when they are dependent on a domain being set. To learn more about domain separation recommended practices, see [Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/bp-domain-sep-recommended.md).
 
-**Parent Topic:**[Automated Test Framework \(ATF\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-ref-overview.md)
+**Parent Topic:**[Automated Test Framework \(ATF\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-ref-overview.md)
 

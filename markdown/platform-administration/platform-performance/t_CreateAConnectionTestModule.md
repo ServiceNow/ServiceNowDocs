@@ -3,11 +3,11 @@ title: Add a module to test connection speed
 description: A connection test can indicate the connection speed between your computer and your instance. A connection speed test \(/connection\_test.do\) is available as a UI page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/t\_CreateAConnectionTestModule.html
-release: australia
+release: brazil
 product: Platform Performance
 classification: platform-performance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Resolve issues, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -24,15 +24,15 @@ Role required: admin
 
 1.  Perform the appropriate action for your version of the UI.
 
-<table id="choicetable_bbq_5lz_hfc"><thead><tr><th align="left" id="d65650e54">
+<table id="choicetable_bbq_5lz_hfc"><thead><tr><th align="left" id="d65605e54">
 
 UI version
 
-</th><th align="left" id="d65650e57">
+</th><th align="left" id="d65605e57">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d65650e63">
+</th></tr></thead><tbody><tr><td id="d65605e63">
 
 **Core UI**
 
@@ -42,7 +42,7 @@ Steps
 2.  Open the application menu to which you want to add the module, for example, **System Diagnostics**.
 
 
-</td></tr><tr><td id="d65650e94">
+</td></tr><tr><td id="d65605e94">
 
 **UI15**
 
@@ -61,5 +61,5 @@ Select and hold \(or right-click\) an application menu, such as **System Diagnos
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Resolving platform performance issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/resolving-plat-performance-issues.md)
+**Parent Topic:**[Resolving platform performance issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/platform-performance/resolving-plat-performance-issues.md)
 

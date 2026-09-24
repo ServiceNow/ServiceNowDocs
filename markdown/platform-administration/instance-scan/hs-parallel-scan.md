@@ -3,11 +3,11 @@ title: Parallel scans
 description: Parallel scan is a functionality in Instance Scan that allows multiple scans to run in parallel instead of sequential execution. This improves efficiency and reduces wait times when several scans are executed concurrently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/instance-scan/hs-parallel-scan.html
-release: australia
+release: brazil
 product: Instance Scan
 classification: instance-scan
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Using Instance Scan, Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -33,9 +33,9 @@ Parallel scan uses a queue-based execution model when `glide.scan.queue.enabled`
 
 **Note:** Parallel scan is applicable on full scan, test scan, suite scan, and reactive scan. It is not applicable with point scan.
 
-See [Instance Scan properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-sys-properties.md) for more information.
+See [Instance Scan properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/instance-scan/hs-sys-properties.md) for more information.
 
-**Parent Topic:**[Using Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-using-scans.md)
+**Parent Topic:**[Using Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/instance-scan/hs-using-scans.md)
 
 **Related topics**  
 

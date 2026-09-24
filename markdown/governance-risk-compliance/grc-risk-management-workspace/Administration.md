@@ -3,11 +3,11 @@ title: Risk Management Administration
 description: Using the Risk Management application, administrators can customize risk categories, risk criteria, risk management properties, and risk assessment types.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/Administration.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Risk Management detailed setup, Configure, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -36,7 +36,7 @@ Risk criteria thresholds define a high/likely or low/unlikely score as shown:
 
 ## Assessment types
 
-Risk managers can create a new set of questions for each risk assessment. See [Create an assessment type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-assessment-type.md).
+Risk managers can create a new set of questions for each risk assessment. See [Create an assessment type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/create-assessment-type.md).
 
-**Parent Topic:**[Risk Management detailed setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/setup-risk-management.md)
+**Parent Topic:**[Risk Management detailed setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/setup-risk-management.md)
 

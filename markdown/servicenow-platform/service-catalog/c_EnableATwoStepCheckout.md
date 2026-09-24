@@ -3,11 +3,11 @@ title: Service Catalog checkout models
 description: The service catalog defaults to one-step checkout model, but also allows two-step checkout. Administrators and users with the catalog\_admin role can enable and configure the two-step checkout model and control how the delivery address is populated.You can enable the two-step checkout to specify a recipient, delivery address, and special instructions for an order.Administrators can control how the delivery address is populated. By default the delivery address is defined by the client script called set location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/c\_EnableATwoStepCheckout.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Catalog request fulfillment, Configuring Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,7 +26,7 @@ The service catalog also supports a two-step checkout model. Under this model, w
 
 Access check for a catalog item is performed during its checkout. This check is also applicable in scripts and APIs.
 
-**Parent Topic:**[Service Catalog request fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-fulfillment.md)
+**Parent Topic:**[Service Catalog request fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/request-fulfillment.md)
 
 ## Enable the two-step checkout process
 

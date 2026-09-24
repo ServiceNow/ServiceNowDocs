@@ -3,9 +3,9 @@ title: Configure a relationship data item for an embedded list
 description: Configure relationship data items so you can control the information that appears in embedded lists within a record screen.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-data-item-relationship.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Data items, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-A relationship data item is required to create an embedded list. Embedded lists are lists that can be embedded within a record screen. For more information on embedded lists in mobile, see [Embedded lists for a record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-embedded-list.md).
+A relationship data item is required to create an embedded list. Embedded lists are lists that can be embedded within a record screen. For more information on embedded lists in mobile, see [Embedded lists for a record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-embedded-list.md).
 
 ## Procedure
 
@@ -76,7 +76,7 @@ Table
 
 </td><td>
 
-The table you want the data item to pull information from. This table is the table of records that is embedded as list on the parent record screen.**Note:** Custom tables are not available by default. You can change this behavior by modifying the **subscription.custom\_table.enforce\_entitlement** system property. For details on making this change, see [Allow or restrict access to custom tables in mobile data items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-allow-custom-tables.md).
+The table you want the data item to pull information from. This table is the table of records that is embedded as list on the parent record screen.**Note:** Custom tables are not available by default. You can change this behavior by modifying the **subscription.custom\_table.enforce\_entitlement** system property. For details on making this change, see [Allow or restrict access to custom tables in mobile data items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-allow-custom-tables.md).
 
 </td></tr><tr><td>
 
@@ -118,7 +118,7 @@ Use a script to determine the conditions of your data item. A text window to ent
 
 -   **Append Encoded Query**
 
-Use this option only when creating data items for your chart screens. For details on that data item type, see [Configure an encoded query data item for chart screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-relative-url-data-item.md).
+Use this option only when creating data items for your chart screens. For details on that data item type, see [Configure an encoded query data item for chart screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-relative-url-data-item.md).
 
 </td></tr><tr><td>
 
@@ -126,7 +126,7 @@ Condition
 
 </td><td>
 
-Set of conditions for the data item to conform to. You can create conditions using the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).**Note:** This field is only available when you select `Declarative` in the **Condition type** field.
+Set of conditions for the data item to conform to. You can create conditions using the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ConditionBuilder.md).**Note:** This field is only available when you select `Declarative` in the **Condition type** field.
 
 </td></tr><tr><td>
 
@@ -172,5 +172,5 @@ Parameters
 
 ## What to do next
 
-After creating a relationship data item, create a list screen using this newly created data item. For more information, see [List screen configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-configure-list-screen.md).
+After creating a relationship data item, create a list screen using this newly created data item. For more information, see [List screen configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-configure-list-screen.md).
 

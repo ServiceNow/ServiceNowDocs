@@ -3,11 +3,11 @@ title: Enforce scoped ACL access for information request playbooks \[New in Secu
 description: Use the glide.enforce\_security\_scope.sn\_gsm\_info\_req property to control access to playbook data for the Information Request playbooks feature.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-enforce-scoped-acl-access-for-information-request-playbooks.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Access control, Hardening settings, Platform Security]
 
 Use the **glide.enforce\_security\_scope.sn\_gsm\_info\_req** property to control access to playbook data for the Information Request playbooks feature.
 
-The Information Request Playbook application enables public sector end users to submit and track public record requests and provides government agents with a pre-defined process for handling and resolving these requests. If **glide.enforce\_security\_scope.sn\_gsm\_info\_req** is not set to true, unexpected access could be granted to playbook data for the Information Request playbooks application. Set this property to true to only consider ACLs from the sn\_gsm\_info\_req scope when granting access.
+The Information Request Administration application enables public sector end users to submit and track public record requests and provides government agents with a pre-defined process for handling and resolving these requests. If **glide.enforce\_security\_scope.sn\_gsm\_info\_req** is not set to true, unexpected access could be granted to playbook data for the Information Request playbooks application. Set this property to true to only consider ACLs from the sn\_gsm\_info\_req scope when granting access.
 
 ## More information
 
@@ -74,7 +74,7 @@ Category
 
 </td><td>
 
-[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -100,9 +100,9 @@ References
 
 </td><td>
 
--   [Using Information Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-ir-playbooks.md)
--   [Configure Information Requests service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/awa-psds-overview.md)
+-   [Using Information Request Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-using-ir-playbooks.md)
+-   [Configure Information Requests service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/awa-psds-overview.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
+</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

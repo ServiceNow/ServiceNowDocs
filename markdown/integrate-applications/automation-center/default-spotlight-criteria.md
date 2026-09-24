@@ -3,11 +3,11 @@ title: Default criteria
 description: ServiceNow Spotlight is available with default criteria. Each field provides a score based on the default criteria.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/default-spotlight-criteria.html
-release: australia
+release: brazil
 product: Automation Center
 classification: automation-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Spotlight feature, Configure, Automation Center, Workflow Data Fabric]
 ---
@@ -51,5 +51,5 @@ The default ServiceNow Spotlight criteria are given in the following tables.
 |3-ess critical|80|
 |4-not critical|20|
 
-**Parent Topic:**[Working with ServiceNow Spotlight feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/spotlight-ac.md)
+**Parent Topic:**[Working with ServiceNow Spotlight feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/spotlight-ac.md)
 

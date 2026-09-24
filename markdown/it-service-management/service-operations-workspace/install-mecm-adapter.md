@@ -3,11 +3,11 @@ title: Install Microsoft Endpoint Configuration Manager\(MECM\) for Investigatio
 description: You can install the Microsoft Endpoint Configuration Manager for Investigation \(sn\_mecm\_adapter\) application if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they aren’t already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/install-mecm-adapter.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setting up investigation framework using Microsoft Endpoint Configuration Manager for Investigation, Setting up Investigation Framework in Service Operations Workspace, Setting up integrations in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -16,14 +16,11 @@ breadcrumb: [Setting up investigation framework using Microsoft Endpoint Configu
 
 You can install the Microsoft Endpoint Configuration Manager for Investigation \(sn\_mecm\_adapter\) application if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they aren’t already installed.
 
-## Before you begin
-
--   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
--   Review the [Service Operations Workspace ITSM Applications](https://tpp.servicenow.com/sn_appstore_store.do#!/tpp/application/editapplication/213afe191b860dd029bd1f03b24bcbd1?st=appdetail) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
-
-Role required: admin
-
 ## About this task
+
+**Important:**
+
+Starting with the Brazil release, Microsoft Endpoint Configuration Manager for Investigation is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 The Microsoft Endpoint Configuration Manager for Investigation \(sn\_mecm\_adapter\) application enables you to retrieve and display the CI metrics information for the affected CIs with the ci\_computer or ci\_server class on the **Investigation** tab of the Incident record. You can configure the display of the CI metrics data using the Investigate Framework module, which is installed along with this application. The CI metrics information of the affected CIs helps you to analyze and resolve the issue.
 
@@ -32,7 +29,14 @@ The following items are installed with Microsoft Endpoint Configuration Manager 
 -   Store applications
 -   Roles
 
-For more information, see [Components installed with Microsoft Endpoint Configuration Manager for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/components-installed-mecm-adapter.md).
+For more information, see [Components installed with Microsoft Endpoint Configuration Manager for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/components-installed-mecm-adapter.md).
+
+## Before you begin
+
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Review the [Service Operations Workspace ITSM Applications](https://tpp.servicenow.com/sn_appstore_store.do#!/tpp/application/editapplication/213afe191b860dd029bd1f03b24bcbd1?st=appdetail) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
+
+Role required: admin
 
 ## Procedure
 
@@ -57,5 +61,5 @@ For more information, see [Components installed with Microsoft Endpoint Configur
 6.  Select **Install**.
 
 
-**Parent Topic:**[Setting up investigation framework using Microsoft Endpoint Configuration Manager for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/set-up-investigate-fw-mecm.md)
+**Parent Topic:**[Setting up investigation framework using Microsoft Endpoint Configuration Manager for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/set-up-investigate-fw-mecm.md)
 

@@ -3,11 +3,11 @@ title: Closing tasks on Mobile Agent
 description: A work order is automatically closed when all work order tasks associated with it have been closed.Close a work order task as complete or as incomplete with optionally a follow-on task to complete.Respond to a task that was sent back to you for review. Update the work order task with the requested details and submit the task back to reviewer.Receive a digital signature and confirmation from a customer that a work order has been completed.Enable customers to digitally sign and confirm a work order on the Mobile Agent application after it has been closed.Cancel a work order if it is no longer needed or suspend a work order if you want to work on it later.Record a break from a work order task on Mobile Agent if you are unable to continue the work for any reason. You can resume the work order task when you start working on it again. The system automatically tracks and calculates the actual time taken to complete the task even though you worked at different intervals.Record the duration for executing a task using the Mobile Agent application.Record incidental expenses associated with your business travel through the Mobile Agent application to execute work order tasks.Edit or delete your logged incidentals from WOT forms or from My Incidentals applets.Generate a summary directly from the work order task record.Generate work order task closure summaries in the ServiceNow Agent app to create detailed notes and close tasks faster.Use the Parts Manager AI agent to validate parts usage when closing work order tasks on the ServiceNow Agent mobile application using ServiceNow Otto for Field Service Management \(FSM\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/close-wo-wot-mobile.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 keywords: [Parts Manager, AI agent, validate parts, mobile]
 breadcrumb: [ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
@@ -39,28 +39,23 @@ Role required: wm\_agent
 
 5.  Either close the task after work is complete or close it with a follow-on task pending.
 
-<table id="choicetable_rb4_1gc_qfb"><thead><tr><th align="left" id="d73080e163">
+<table id="choicetable_rb4_1gc_qfb"><thead><tr><th align="left" id="d75330e163">
 
 To
 
-</th><th align="left" id="d73080e166">
+</th><th align="left" id="d75330e166">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d73080e172">
+</th></tr></thead><tbody><tr><td id="d75330e172">
 
 **Close a work order task after work has been completed**
 
 </td><td>
 
-1.  Select **Close Complete**.
-2.  In the **Close Complete** page, select **Closure Note**.
-3.  Provide the work completion details.
-4.  Select **Done** to save the details.
-5.  Automatically create and route a new work order task when the current task is closed as complete by turning on the **Has follow-on task** option.
- **Note:** Your **Work agent status** is automatically updated as On Shift to indicate that you are available to work on another task.
+Select **Close Complete**.**Note:** Your **Work agent status** is automatically updated as On Shift to indicate that you are available to work on another task.
 
-</td></tr><tr><td id="d73080e223">
+</td></tr><tr><td id="d75330e190">
 
 **Close a work order task as incomplete**
 
@@ -86,7 +81,7 @@ A clone of the work order task set to **Draft** state is created and the origina
 </td></tr></tbody>
 </table>6.  Generate a signed PDF summary for the work order task by tapping **Preview Work Summary**.
 
-    The PDF summary captures the details of the task, and the responses submitted in the smart assessment questionnaire along with the score. For more information, see [Enable PDF summaries at work order task level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/enable-pdf-summary.md). For more information on assessment scoring, see [Scoring assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/scoring-in-assessments.md)
+    The PDF summary captures the details of the task, and the responses submitted in the smart assessment questionnaire along with the score. For more information, see [Enable PDF summaries at work order task level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/enable-pdf-summary.md).
 
 
 ### Result
@@ -96,9 +91,9 @@ When all work order tasks associated with a work order are closed, the work orde
 **Related topics**  
 
 
-[Closing work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/c_CloseAWorkOrder.md)
+[Closing work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/c_CloseAWorkOrder.md)
 
-[System properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/r_InstalledWithFSM.md)
+[System properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/r_InstalledWithFSM.md)
 
 ## Respond to a reviewed work order task
 
@@ -106,13 +101,13 @@ Respond to a task that was sent back to you for review. Update the work order ta
 
 ### Before you begin
 
-Ensure that the Field Service Quality Management plugin is active. For more information, see [Activate Field Service Quality Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/activate-quality-mgmt.md).
+Ensure that the Field Service Quality Management plugin is active. For more information, see [Activate Field Service Quality Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/activate-quality-mgmt.md).
 
 Role required: wm\_agent
 
 ### About this task
 
-When you close a work order task, the task is sent to a reviewer. The reviewer can either mark the task as complete or request more information. For more information, see [Review a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/review-send-task-back.md). You will receive a notification about the work order task that needs review.
+When you close a work order task, the task is sent to a reviewer. The reviewer can either mark the task as complete or request more information. For more information, see [Review a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/review-send-task-back.md). You will receive a notification about the work order task that needs review.
 
 ### Procedure
 
@@ -157,7 +152,7 @@ Receive a digital signature and confirmation from a customer that a work order h
 
 The **Sign and Confirm** button must be enabled to receive digital confirmation from a customer after a work order is closed.
 
-The signed PDF summaries capability must be enabled to generate a work order summary and get the customer signature on the work order after it has been closed. For more information on enabling the PDF summaries capability, see [Signed PDF summaries for closed work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/work-order-sign-and-confirm-pdf.md).
+The signed PDF summaries capability must be enabled to generate a work order summary and get the customer signature on the work order after it has been closed. For more information on enabling the PDF summaries capability, see [Signed PDF summaries for closed work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/work-order-sign-and-confirm-pdf.md).
 
 When all work order tasks associated with the work order are closed, the work order is automatically closed.
 
@@ -210,15 +205,15 @@ Role required: admin
 
 5.  Do one of the following to enable the **Sign and Confirm** button.
 
-<table id="choicetable_jfb_1sy_cgb"><thead><tr><th align="left" id="d73080e907">
+<table id="choicetable_jfb_1sy_cgb"><thead><tr><th align="left" id="d75330e871">
 
 To
 
-</th><th align="left" id="d73080e910">
+</th><th align="left" id="d75330e874">
 
 Complete these steps
 
-</th></tr></thead><tbody><tr><td id="d73080e916">
+</th></tr></thead><tbody><tr><td id="d75330e880">
 
 **Enable the Sign and confirm option to display when you swipe a work order from a list**
 
@@ -229,7 +224,7 @@ Complete these steps
 3.  Select the **Button Instances belonging to Master Item** tab.
 
 
-</td></tr><tr><td id="d73080e946">
+</td></tr><tr><td id="d75330e910">
 
 **Enable the Sign and confirm option to display when you open a work order form**
 
@@ -440,6 +435,10 @@ Role required: wm\_qualifier, wm\_dispatcher, wm\_agent
 
 A summary is generated for the work order task.
 
+### Generate a summary for a work-in-progress task
+
+Alex the technician is finishing a printer repair task. To wrap up the task, they generate a summary using the procedure.
+
 ### What to do next
 
 You can mark the summary as helpful or unhelpful, copy the summary, or refresh to generate the summary again.
@@ -452,7 +451,7 @@ Generate work order task closure summaries in the ServiceNow Agent app to create
 
 Agents can only generate summaries for the work order tasks that are assigned to them. The work order task must be in the **Work in Progress** state. Work notes must have at least 200 words to generate a summary.
 
-For more information on how to close work order tasks, see [Close a complete work order task on a mobile device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/close-complete-wot-fsc.md).
+For more information on how to close work order tasks, see [Close a complete work order task on a mobile device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/close-complete-wot-fsc.md).
 
 Role required: agent
 
@@ -470,7 +469,7 @@ Role required: agent
 
 4.  Tap the **Closure notes** field.
 
-5.  Tap \[Omitted image "icon-ai-sparkle.png"\] Alt text: Generate closure notes icon. **Generate closure notes**.
+5.  Tap \[Omitted image "icon-otto-outline-24.svg"\] Alt text: Otto icon **Generate closure notes**.
 
 
 ### Result
@@ -491,25 +490,23 @@ Role required: wm\_agent
 
 The Parts Manager AI agent analyzes your work notes to identify which parts were used during a service task. After validation, the agent automatically updates inventory and parts statuses.
 
-**Note:** This feature uses AI to generate results. AI-generated content may not be accurate or complete. Review the validated parts summary before confirming the results.
+**Note:** This feature uses AI to generate results. AI-generated content may not always be accurate or complete. Review the validated parts summary before confirming the results.
 
 ### Procedure
 
-1.  Log in to the ServiceNow Agent mobile application.
+1.  Navigate to **My Work**.
 
-2.  Tap **My Work**.
+2.  Tap a work order task under **My Tasks**.
 
-3.  Tap a work order task under **My Tasks**.
+3.  Tap ServiceNow Otto® from the navigation bar to open ServiceNow Otto® Virtual Agent.
 
-4.  Tap **ServiceNow Otto** on the navigation bar to open ServiceNow Otto Virtual Agent.
-
-5.  Ask AI to validate parts for the work order task.
+4.  Ask Now Assist to validate parts for the work order task.
 
     The Parts Manager AI agent analyzes your work notes and the work order task details, then presents a summary of validated parts. The summary includes parts used, parts removed, and parts not used.
 
-6.  Review the validated parts summary and select **Yes** or **No** when prompted to mark the validation as done.
+5.  Review the validated parts summary and select **Yes** or **No** when prompted to mark the validation as done.
 
-7.  Tap **Submit**.
+6.  Tap **Submit**.
 
     The parts statuses and inventory are updated based on the validated results.
 

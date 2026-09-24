@@ -3,11 +3,11 @@ title: New action task form
 description: Use the new action task form to create action tasks for the appropriate owners.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/new-action-task-form.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Add action tasks to a request, Use, Personal Data Rights \(PDR\), Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -36,5 +36,5 @@ The following table lists the descriptions of the field values.
 |Activity|
 |Additional comments|Additional comments or information for the task owners.|
 
-**Parent Topic:**[Add action tasks to a Personal Data Rights request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/add-action-tasks-to-a-personal-data-rights-request.md)
+**Parent Topic:**[Add action tasks to a Personal Data Rights request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/add-action-tasks-to-a-personal-data-rights-request.md)
 

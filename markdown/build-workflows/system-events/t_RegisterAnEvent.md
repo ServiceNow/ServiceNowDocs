@@ -3,11 +3,11 @@ title: Register an event
 description: You can register an event for a specific table and a business rule that fires the event.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/system-events/t\_RegisterAnEvent.html
-release: australia
+release: brazil
 product: System Events
 classification: system-events
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing system events, System Events, Build workflows]
 ---
@@ -18,7 +18,7 @@ You can register an event for a specific table and a business rule that fires th
 
 ## Before you begin
 
-Role required: events\_admin
+Role required: admin
 
 ## Procedure
 
@@ -56,7 +56,7 @@ Queue
 
 </td><td>
 
-Name of the queue that the event is placed into when triggered.Use only lowercase letters, no spaces, and no special characters except underscore \(\_\). For example, `my_queue`. See [Using custom queues to process events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/useful-server-side-scripts.md).
+Name of the queue that the event is placed into when triggered.Use only lowercase letters, no spaces, and no special characters except underscore \(\_\). For example, `my_queue`. See .
 
 </td></tr><tr><td>
 
@@ -94,5 +94,5 @@ Short description of the purpose of the event.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Managing system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/system-events/managing-system-events.md)
+**Parent Topic:**[Managing system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/system-events/managing-system-events.md)
 

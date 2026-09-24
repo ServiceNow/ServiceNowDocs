@@ -3,13 +3,13 @@ title: Identify the supply and demand for models within a stockroom in the Hardw
 description: Use the Supply vs Demand report to evaluate the available and incoming quantity of models in your stockroom and the requests for these models from different service locations. This report helps you determine if you have enough assets to meet the demand.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/identify-supply-demand-ham.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage stockrooms with inventory reports, Manage stockrooms, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage stockrooms with inventory reports in the Hardware Asset Workspace, Reporting and performance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Identify the supply and demand for models within a stockroom in the Hardware Asset Workspace
@@ -80,5 +80,5 @@ Role required: asset
     The Supply vs Demand graph updates to show the recently calculated values.
 
 
-**Parent Topic:**[Manage stockrooms with inventory reports in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-stockroom-inventory-report-ham.md)
+**Parent Topic:**[Manage stockrooms with inventory reports in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/manage-stockroom-inventory-report-ham.md)
 

@@ -3,11 +3,11 @@ title: Get User Info Azure AD activity
 description: The Get User Info activity returns the named user's information from the Azure Active Directory.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/r\_GetUserInfoAzureADActivity.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Azure AD activity pack, Orchestration activity packs, Classic Orchestration, Workflow Data Fabric]
 ---
@@ -16,9 +16,9 @@ breadcrumb: [Azure AD activity pack, Orchestration activity packs, Classic Orche
 
 The Get User Info activity returns the named user's information from the Azure Active Directory.
 
-To access this activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **Azure AD**. This activity was built with the [REST web service activity template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateARESTWebServiceActivity.md).
+To access this activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **Azure AD**. This activity was built with the [REST web service activity template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/t_CreateARESTWebServiceActivity.md).
 
-**Important:** The REST message used for this activity must be configured to use [OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_OAuthApplications.md).
+**Important:** The REST message used for this activity must be configured to use [OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_OAuthApplications.md).
 
 ## Input variables
 
@@ -96,5 +96,5 @@ The **user\_info** array contains attributes that can be leveraged by other acti
 |User does not exist|Activity was unable to find the named user in the customer tenant domain.|
 |Failure|Activity failed to connect to Azure AD.|
 
-**Parent Topic:**[Azure AD activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_AzureADActivityPack.md)
+**Parent Topic:**[Azure AD activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/c_AzureADActivityPack.md)
 

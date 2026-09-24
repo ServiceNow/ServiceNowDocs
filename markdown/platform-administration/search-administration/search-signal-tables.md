@@ -3,11 +3,11 @@ title: Search signal tables
 description: Search uses tables to store details from user searches, search refinements, and interactions with search results. These details are called search signals. Data from the search signal tables helps improve the relevancy of search results in your system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/search-signal-tables.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Search signals, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -16,9 +16,9 @@ breadcrumb: [Search signals, Search administration, Configure core features, Adm
 
 Search uses tables to store details from user searches, search refinements, and interactions with search results. These details are called search signals. Data from the search signal tables helps improve the relevancy of search results in your system.
 
-Search signals refer to user, query, and similar data stored in columns on search suggestion tables. For a guide to search suggestion tables and their columns, see [Search Suggestions tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-suggestions/understanding-search-suggestion-tables.md).
+Search signals refer to user, query, and similar data stored in columns on search suggestion tables. For a guide to search suggestion tables and their columns, see [Search Suggestions tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-suggestions/understanding-search-suggestion-tables.md).
 
-**Note:** Because the search signal tables are system tables, they are excluded from the Reporting module by default. To learn about enabling reporting on system tables, see [Reporting on system tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_ReportOnSystemTables.md).
+**Note:** Because the search signal tables are system tables, they are excluded from the Reporting module by default. To learn about enabling reporting on system tables, see [Reporting on system tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/c_ReportOnSystemTables.md).
 
 ## Search Signal Event table
 
@@ -113,7 +113,7 @@ The Search Signal Result Event \[sys\_search\_signal\_result\_event\] table stor
 |Search Signal Event|Reference to the record for the search on the Search Signal Event \[sys\_search\_signal\_event\] table.|
 |Number|Record number for the selected search result.|
 |Domain|Domain to which the selected search result belongs.|
-|Use for Suggestions|Option indicating whether AI Search uses this result selection when computing auto-complete suggestions. For more details, see [Auto-complete suggestions in AI Search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/auto-complete-ais.md)|
+|Use for Suggestions|Option indicating whether AI Search uses this result selection when computing auto-complete suggestions. For more details, see [Auto-complete suggestions in AI Search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/auto-complete-ais.md)|
 |Source URL|URL for the selected search result.|
 |Action Data|JSON array of objects representing the search result selection action.|
 

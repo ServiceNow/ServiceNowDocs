@@ -3,9 +3,9 @@ title: Configure a resource generator for providing assignment group as an outco
 description: Configure a resource generator of type decision table that provides an assignment group for a given router model and associated issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ex-resorce-generator-assignment-grp.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Example: Recommend an assignment group for a router issue, Example configurations, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -51,5 +51,5 @@ Role required: sn\_nb\_action.next\_best\_action\_author, sn\_nb\_action.resourc
 
 ## What to do next
 
-[Create a field recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ex-create-field-recommendation-assg-grp.md) that you can use while creating recommended action for recommending assignment group field value.
+[Create a field recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ex-create-field-recommendation-assg-grp.md) that you can use while creating recommended action for recommending assignment group field value.
 

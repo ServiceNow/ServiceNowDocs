@@ -3,11 +3,11 @@ title: Create skill categories using sample data
 description: Onboard your team quickly using the skill taxonomy framework provided with your application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/skills-management/create-skill-categories-seed-data.html
-release: australia
+release: brazil
 product: Skills Management
 classification: skills-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Define the skill taxonomy, Configuring Skills Management, Skills Management, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,7 +26,7 @@ The sample data provides 150 records that you can use to get started building yo
 
 ## Procedure
 
-1.  [Activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md) the Skills Library Data for Skills Management \(com.snc.skills\_management.seed\_data\) plugin.
+1.  [Activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivateAPlugin.md) the Skills Library Data for Skills Management \(com.snc.skills\_management.seed\_data\) plugin.
 
 2.  Navigate to **Skills** &gt; **Skill Taxonomy**.
 

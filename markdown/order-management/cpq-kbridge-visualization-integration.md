@@ -3,7 +3,7 @@ title: Integrating kBridge visualization
 description: Integrate kBridge for real-time 3D visualization. Sync configuration inputs with visual updates to enhance user experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-kbridge-visualization-integration.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -14,7 +14,7 @@ breadcrumb: [Integrating CPQ with visualization tools, CPQ with other apps, Inte
 
 Integrate kBridge for real-time 3D visualization. Sync configuration inputs with visual updates to enhance user experience.
 
-CPQ supports several different 3D visualization options in the end-user configuration experience. CPQ can be implemented to use kBridge as a visualization component that is updated in real time in the CPQ UI as the user changes configuration inputs \(one-way communication\). In addition, bidirectional \(two-way\) communication may be defined so that user manipulations of the graphic update CPQ configuration fields.
+CPQ supports several different 3D visualization options in the end-user configuration experience. CPQ can be implemented to use kBridge as a visualization component. The component is updated in real time in the CPQ UI as the user changes configuration inputs \(one-way communication\). In addition, bidirectional \(two-way\) communication may be defined so that user manipulations of the graphic update CPQ configuration fields.
 
 The following video shows how to integrate CPQ with kBridge for real-time updates:
 
@@ -99,7 +99,7 @@ width: number
   },
   setActiveTriggers: ['set.set2.triggerBoolean'],
   listenerFields: { 
-    listenerFieldName: { name: 'ServiceNow CPQTestSet', refChain: 'world.application.model' }
+    listenerFieldName: { name: 'logikTestSet', refChain: 'world.application.model' }
   },
   height: 800,
   width: 1200,

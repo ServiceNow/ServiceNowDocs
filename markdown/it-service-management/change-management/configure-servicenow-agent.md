@@ -3,11 +3,11 @@ title: Download the Mobile Agent mobile application
 description: Access Mobile Agent on your mobile device to manage your change tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/configure-servicenow-agent.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mobile experience for Change Management, Use, Change Management, IT Service Management]
 ---
@@ -33,5 +33,5 @@ The Mobile Agent mobile application runs on the Mobile App Builder mobile platfo
 3.  Download and install the ServiceNow Agent application.
 
 
-**Parent Topic:**[Mobile experience for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/mobile-experience-cm.md)
+**Parent Topic:**[Mobile experience for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/mobile-experience-cm.md)
 

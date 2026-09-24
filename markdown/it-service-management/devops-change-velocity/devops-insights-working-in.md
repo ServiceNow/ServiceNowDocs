@@ -3,11 +3,11 @@ title: DevOps Insights reports
 description: To help you plan and implement updates to your DevOps processes, DevOps Insights displays a variety of configurable reports that are grouped by type of metric. From the DevOps Change Workspace, select the DevOps Insights icon \( filter icon \) to view the reports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/devops-insights-working-in.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [DevOps Change Velocity, IT Service Management]
 ---
@@ -30,7 +30,7 @@ Each report provides both a summary of an important business metric and access t
 
 -   By default, many reports display data for the last 30 days. Select the **Date** icon \(\[Omitted image "devops-date-range-filter-pill.png"\] Alt text: Date icon\) to configure a custom date range.
 -   Point to a specific data point in a chart to view detailed data.
--   Select a specific data point to view the key performance indicator \(KPI\) details for the report in a separate tab. You can then use the powerful data-management tools in the [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-overview.md) application to drill deeply into the data.
+-   Select a specific data point to view the key performance indicator \(KPI\) details for the report in a separate tab. You can then use the powerful data-management tools in the [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/pa-overview.md) application to drill deeply into the data.
 -   To apply any filter other than the date filter, select the filter icon and then move filter categories from the **Available** list to the **Applied** list.
 -   Filters appear at the top of the tab. For each report, the Applied filter icon \(\[Omitted image "devops-icon-filter-insights.png"\] Alt text: Applied filter icon\) displays the number of filters that are currently applied to a report. Select the icon to view and configure the filters that are applied to a widget.
 

@@ -3,11 +3,11 @@ title: Delete a portfolio plan view
 description: Delete a customized portfolio plan view if it is no longer needed or if the maximum limit of ten shared or three private views has been reached.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/delete-portfolio-plan-view-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Manage portfolio plan views, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -41,12 +41,12 @@ Role required: sn\_align\_core.ap\_read\_only
     \[Omitted image "delete-view-ppw.gif"\] Alt text: Delete portfolio plan view.
 
 
-**Parent Topic:**[Managing portfolio plan views in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/managing-portfolio-plan-views-ppw.md)
+**Parent Topic:**[Managing portfolio plan views in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/managing-portfolio-plan-views-ppw.md)
 
 **Related topics**  
 
 
-[Create a portfolio plan view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-portfolio-plan-view-ppw.md)
+[Create a portfolio plan view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/create-portfolio-plan-view-ppw.md)
 
-[Edit a portfolio plan view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/edit-portfolio-plan-view-ppw.md)
+[Edit a portfolio plan view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/edit-portfolio-plan-view-ppw.md)
 

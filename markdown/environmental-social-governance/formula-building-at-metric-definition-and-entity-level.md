@@ -3,9 +3,9 @@ title: Formula building in a calculated metric definition
 description: In a calculated metric definition, you can build formulas using operands, operators, and functions to perform calculations on metric data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/formula-building-at-metric-definition-and-entity-level.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -24,31 +24,27 @@ You can set default values for operands in the Calculated Metric Definition Sett
 
 Each time you save an edited formula on a calculated metric definition that has been executed, a new formula version is created. Formula versions are listed in the **Versions** related list on the calculated metric definition. Each version has an Applicable from date and an Applicable to date. The Applicable to date is empty for the currently active version and is set to the day before the new version's Applicable from date when a newer version is saved.
 
-You can edit a formula at any time, including after the calculated metric definition has been executed. For more information, see [Edit a calculated metric definition formula](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/edit-a-calculated-metric-definition-formula.md).
+You can edit a formula at any time, including after the calculated metric definition has been executed. For more information, see .
 
 ## Formula calculation levels
 
 When you build a formula in a calculated metric definition, you can build it at either the metric definition level or the entity level. Before you save the calculated metric definition and build the formula for metric definition score calculation, you must specify the calculation level in the Calculation level field. The two levels are as follows:
 
--   **Metric definition**: If you select **Metric definition** in the **Calculation level** field, the data across all child metric definitions or child metrics is used for calculation. When you select **Execute**, the formula is applied and the calculated metric definition data is generated. For more information, see [Configure the formula builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configure-formula-builder.md).
+-   **Metric definition**: If you select **Metric definition** in the **Calculation level** field, the data across all child metric definitions or child metrics is used for calculation. When you select **Execute**, the formula is applied and the calculated metric definition data is generated. For more information, see [Configure the formula builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/configure-formula-builder.md).
 -   **Entity**: If you select **Entity** in the **Calculation level** field and specify the calculation method using the formula builder, child metrics are created for the calculated metric definition. These metrics are created for each distinct entity associated with the metric definitions used as operands in the formula. When you select **Execute**, the formula is applied and the metric data is generated. When you select Aggregate, the metric data is aggregated and the calculated metric data is generated.
 
 **Important:**
 
-Ad hoc metric data from child metrics is not included in CMD formula calculations at either level. Only data from scheduled child metric tasks feeds into the CMD score. For more information, see [Ad hoc metric data task limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/ad-hoc-metric-data-task-limitations.md).
+Ad hoc metric data from child metrics is not included in CMD formula calculations at either level. Only data from scheduled child metric tasks feeds into the CMD score. For more information, see [Ad hoc metric data task limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/ad-hoc-metric-data-task-limitations.md).
 
--   **[General guidelines for formula building](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/Formula-building-general-guidelines.md)**  
+-   **[General guidelines for formula building](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/Formula-building-general-guidelines.md)**  
 While building a custom formula in a calculated metric definition, keep these general guidelines in mind to easily create your formulas.
--   **[Configure the formula builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configure-formula-builder.md)**  
+-   **[Configure the formula builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/configure-formula-builder.md)**  
 Specify the formula context, the tables, and the identifiers before you can build a formula.
--   **[Import a formula into a calculated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/import-a-formula-into-a-cmd.md)**  
+-   **[Import a formula into a calculated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/import-a-formula-into-a-cmd.md)**  
 Directly import any formula that is stored in Microsoft Excel spreadsheets into a calculated metric definition. This import helps in quickly building your formula for performing calculations.
--   **[Create a formula](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-formula.md)**  
+-   **[Create a formula](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/create-a-formula.md)**  
 Build your own formula using either entities or metric definitions.
--   **[Configure a metric definition setting record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/activate-default-values-for-cmd-calculations.md)**  
-Configure a metric definition setting record to define default values for missing operands in calculated metric definition formulas, or to set a variance base value used when calculating dynamic threshold variance. Activate the default record, or create a new record for a specific metric, metric definition, calculated metric definition, or for all of them.
--   **[Edit a calculated metric definition formula](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/edit-a-calculated-metric-definition-formula.md)**  
-Edit a formula in a calculated metric definition to update the calculation logic or apply changes to historical data.
 
-**Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configuring-grc-metrics.md)
+**Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/configuring-grc-metrics.md)
 

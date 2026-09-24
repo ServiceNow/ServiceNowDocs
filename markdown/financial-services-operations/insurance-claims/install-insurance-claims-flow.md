@@ -3,11 +3,11 @@ title: Install Insurance claims
 description: If you have the admin role, you can install the Insurance claims application \(sn\_ins\_gen\_claim\). The application includes demo data and installs related ServiceNow Store applications and plugins that aren’t already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/install-insurance-claims-flow.html
-release: australia
+release: brazil
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Insurance claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---

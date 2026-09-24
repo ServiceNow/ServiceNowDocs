@@ -3,11 +3,11 @@ title: ServiceNow Otto in Remote Hands Request Management application
 description: Remote Hands Request Summarization is an ServiceNow Otto capability that provides a contextual overview of a Remote Hands case
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/servicenow-otto-in-remote-hands-request-management-application.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Explore, Telecommunications Network Inventory]
 ---

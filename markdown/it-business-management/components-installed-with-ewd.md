@@ -3,9 +3,9 @@ title: Components installed with Enterprise-Wide Deployment
 description: Several types of components are installed with installation of the Enterprise-Wide Deployment application, such as user roles, tables, and scheduled jobs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/components-installed-with-ewd.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Reference, SPM Enterprise-Wide Deployment, Strategic Portfolio Management]
 ---
@@ -61,5 +61,5 @@ Determines whether system administrators bypass partition role requirements to a
 Set to **true** to grant administrators access to all partitioned data without partition role assignment.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[SPM Enterprise-Wide Deployment reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ewd-reference.md)
+</table>**Parent Topic:**[SPM Enterprise-Wide Deployment reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ewd-reference.md)
 

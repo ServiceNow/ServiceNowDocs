@@ -3,11 +3,11 @@ title: Schedule a knowledge article for publishing in Microsoft Word
 description: Set a specific time and day for the draft version of a knowledge article created in Microsoft Word to be published automatically.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/schedule-article-publishing-word.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Authoring a knowledge article in Microsoft Word, Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -19,15 +19,15 @@ Set a specific time and day for the draft version of a knowledge article created
 ## Before you begin
 
 -   You must have contribute access to the knowledge base that stores the knowledge article you want to schedule for publishing.
--   You must have logged in to your ServiceNow instance from the Word Online application. For more information, see [Log in to your ServiceNow instance for authoring knowledge articles in Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/authenticate-article-word.md).
+-   You must have logged in to your ServiceNow instance from the Word Online application. For more information, see [Log in to your ServiceNow instance for authoring knowledge articles in Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/authenticate-article-word.md).
 
 -   You must have signed in to your Office 365 account.
 
 Ensure that the system administrator verifies the following settings:
 
--   Knowledge Management Advanced plugin \(com.snc.knowledge\_advanced\) is activated. For more information, see [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md).
--   The article versioning feature is enabled. For more information, see [Article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/article-versioning.md).
--   The Knowledge Management - Add-in for Microsoft Word is enabled. \(For more information, see [Configure Knowledge Management - Add-in for Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configure-km-add-in-word.md).\)
+-   Knowledge Management Advanced plugin \(com.snc.knowledge\_advanced\) is activated. For more information, see [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md).
+-   The article versioning feature is enabled. For more information, see [Article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/article-versioning.md).
+-   The Knowledge Management - Add-in for Microsoft Word is enabled. \(For more information, see [Configure Knowledge Management - Add-in for Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/configure-km-add-in-word.md).\)
 
 ## Procedure
 
@@ -64,12 +64,12 @@ If approvals are disabled, the state of the knowledge article is changed to **Sc
 
 If approvals are enabled, the state of the knowledge article is changed to Review. If the article is approved, the state of the article is changed to Scheduled for Publish. If the article was approved after the scheduled publish date, the article is published immediately.
 
-The version number of the knowledge article increments based on the publishing workflow. For more information, see [Knowledge article version numbers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-article-version-numbers.md).
+The version number of the knowledge article increments based on the publishing workflow. For more information, see [Knowledge article version numbers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/knowledge-article-version-numbers.md).
 
 **Related topics**  
 
 
-[Knowledge workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeWorkflows.md)
+[Knowledge workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/r_KnowledgeWorkflows.md)
 
-[Approve an article that is being reviewed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/approve-article-in-review.md)
+[Approve an article that is being reviewed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/approve-article-in-review.md)
 

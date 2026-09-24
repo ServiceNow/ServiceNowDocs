@@ -3,11 +3,11 @@ title: Service Portal roles
 description: Service Portal installs these roles.Manages the configuration of portals created by Service Portal.Manages posting announcements to portals.Can create Usage Insights settings for Service Portal.Users with this role can view the Analytics Dashboard link and settings within in the application navigator, and have viewer role permissions for portal metrics in the Service Portal Analytics Dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/service-portal-roles.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Portal reference, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -16,9 +16,9 @@ breadcrumb: [Service Portal reference, Service Portal, Configure UIs and portals
 
 Service Portal installs these roles.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
-**Parent Topic:**[Service Portal reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/reference-service-portal.md)
+**Parent Topic:**[Service Portal reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/reference-service-portal.md)
 
 ## Service Portal administrator \[sp\_admin\]
 

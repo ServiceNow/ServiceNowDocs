@@ -3,11 +3,11 @@ title: Create a problem task model
 description: Create custom Problem Management models with states and transitions tailored to your use cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/create-problem-task-model.html
-release: australia
+release: brazil
 product: Problem Management
 classification: problem-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring Problem Management, Problem Management, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Create custom Problem Management models with states and transitions tailored to 
 
 ## Before you begin
 
-See considerations for enabling Problem Management models at [Problem Management models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/problem-mgmt-models.md).
+See considerations for enabling Problem Management models at [Problem Management models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/problem-mgmt-models.md).
 
 Role required: admin
 
@@ -29,7 +29,7 @@ Role required: admin
     -   In the navigation filter, enter `prb_task_model.list`.
     -   Navigate to **All** &gt; **Problem** &gt; **Administration** &gt; **Problem Task Models**.
 
-        **Note:** For more information about enabling menu items for Problem Management models, see [Enable or disable an application menu or module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_EnDisableAppMenuOrMod.md).
+        **Note:** For more information about enabling menu items for Problem Management models, see [Enable or disable an application menu or module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_EnDisableAppMenuOrMod.md).
 
     1.  Select **New**.
 
@@ -37,7 +37,7 @@ Role required: admin
 
     3.  On the Problem Task Model form, fill in the fields.
 
-        For more information, see [Problem task model form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/problem-task-model-form.md).
+        For more information, see [Problem task model form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/problem-task-model-form.md).
 
 2.  Choose the states for your custom model by selecting **Save** from the form context menu icon \(\[Omitted image "form-context-menu.png"\] Alt text: Form context menu icon.\).
 
@@ -72,7 +72,7 @@ Role required: admin
 
     2.  On the Model State Transition Condition form, fill in the fields.
 
-        For more information, see [Problem Management model state transition condition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/problem-model-state-transition-condition.md).
+        For more information, see [Problem Management model state transition condition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/problem-model-state-transition-condition.md).
 
     3.  Select **Submit** for each transition condition you add.
 
@@ -107,9 +107,9 @@ Role required: admin
 
 Your custom problem task model is available as a choice for the roles specified in your interceptor.
 
-**Parent Topic:**[Configuring Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/configuring-problem-mgmt.md)
+**Parent Topic:**[Configuring Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/configuring-problem-mgmt.md)
 
-**Previous topic:**[Create a problem model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/create-problem-model.md)
+**Previous topic:**[Create a problem model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/create-problem-model.md)
 
-**Next topic:**[Applying CSDM guidelines to Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/pm-use-case-product-view.md)
+**Next topic:**[Applying CSDM guidelines to Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/pm-use-case-product-view.md)
 

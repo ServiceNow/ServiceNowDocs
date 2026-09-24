@@ -3,13 +3,13 @@ title: Embed the Catalog browse component on the third-party website
 description: Embed the global code and component code of the Catalog browse component that you configured in your instance so that you can enable your customers to start using the component on your third-party website.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/we-embed-catalog-browse-on-third-party-web.html
-release: australia
+release: brazil
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Catalog browse component, Configure web components, Web Embeddables, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Catalog browse component, Configure web components, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Embed the Catalog browse component on the third-party website
@@ -18,7 +18,7 @@ Embed the global code and component code of the Catalog browse component that yo
 
 ## Before you begin
 
-You must configure the Catalog browse component instance. For information, see [Configure the Catalog browse component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-config-catalog-browse-comp.md).
+You must configure the Catalog browse component instance. For information, see [Configure the Catalog browse component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-config-catalog-browse-comp.md).
 
 Role required: None
 

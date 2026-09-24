@@ -3,11 +3,11 @@ title: Configure supervisor lists for service channels
 description: Configure supervisor lists in a service channel to view the list of active work items across service channels and queues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/configure-lists-channels-configurable-wfo-itsm.html
-release: australia
+release: brazil
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up Channels, Channels, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_channel\_mgmt.admin
 
 ## About this task
 
-A database view that defines table joins is used for generating reports for a supervisor list. For example, you can create a database view that can join the Incident table to the Interaction and Metric tables. When you use this database view, and create a supervisor list to report on the active work items, you may include fields from any of these three tables. For more information, see [Working with database views for reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DatabaseViews.md).
+A database view that defines table joins is used for generating reports for a supervisor list. For example, you can create a database view that can join the Incident table to the Interaction and Metric tables. When you use this database view, and create a supervisor list to report on the active work items, you may include fields from any of these three tables. For more information, see [Working with database views for reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_DatabaseViews.md).
 
 **Note:** You can configure three supervisor lists for each service channel. The first three lists with the lowest order number appear in Channel Management.
 
@@ -36,7 +36,7 @@ A database view that defines table joins is used for generating reports for a su
 
 3.  Click the **Supervisor Lists** tab.
 
-    **Note:** If you do not see the **Supervisor Lists** tab, you must [configure the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) and the Reports related list.
+    **Note:** If you do not see the **Supervisor Lists** tab, you must [configure the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md) and the Reports related list.
 
 4.  Click **New**.
 
@@ -96,5 +96,5 @@ Number that displays the order.**Note:** The first three lists with the lowest o
     The supervisor list is added to the service channels and appears in the Channels module in Manager Workspace.
 
 
-**Parent Topic:**[Setting up Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-channels-configurable-workforce-optimization-itsm.md)
+**Parent Topic:**[Setting up Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-channels-configurable-workforce-optimization-itsm.md)
 

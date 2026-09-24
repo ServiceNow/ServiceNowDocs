@@ -3,9 +3,9 @@ title: View sequence tasks
 description: View sequence tasks assigned to you from the CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/view-sequence-tasks.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer Engagement Sequences, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -20,7 +20,7 @@ Role required: sequence viewer \[sn\_crm\_sequence.viewer\]
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -28,21 +28,21 @@ Role required: sequence viewer \[sn\_crm\_sequence.viewer\]
 
 4.  View your in-progress sequence tasks by selecting **My Active Sequence Tasks**.
 
-    For more information, see [My sequence task list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sequence-task-list-view.md).
+    For more information, see [My sequence task list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/sequence-task-list-view.md).
 
 5.  View the sequence steps for a record by selecting it.
 
 
 ## What to do next
 
-Engage with your prospective customers by following the activities in the sequence steps. For more information, see [Complete predefined customer engagement tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/execute-sequence-steps.md).
+Engage with your prospective customers by following the activities in the sequence steps. For more information, see [Complete predefined customer engagement tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/execute-sequence-steps.md).
 
-**Parent Topic:**[Using Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-customer-engagement-sequences.md)
+**Parent Topic:**[Using Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-customer-engagement-sequences.md)
 
 **Related topics**  
 
 
-[Configuring Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-customer-engagement-sequences.md)
+[Configuring Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configuring-customer-engagement-sequences.md)
 
-[Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-customer-engagement-sequences.md)
+[Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-customer-engagement-sequences.md)
 

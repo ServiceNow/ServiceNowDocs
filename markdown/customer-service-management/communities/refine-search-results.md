@@ -3,11 +3,11 @@ title: Refine your search results
 description: Refine your search results to narrow down the content displayed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/refine-search-results.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Search the community, Using communities, Communities, Customer Service Management]
 ---
@@ -19,6 +19,10 @@ Refine your search results to narrow down the content displayed.
 ## Before you begin
 
 Role required: sn\_communities.community\_user
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Procedure
 
@@ -35,5 +39,5 @@ Role required: sn\_communities.community\_user
     The search results page displays content based on the filter criteria.
 
 
-**Parent Topic:**[Search the community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/search.md)
+**Parent Topic:**[Search the community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/search.md)
 

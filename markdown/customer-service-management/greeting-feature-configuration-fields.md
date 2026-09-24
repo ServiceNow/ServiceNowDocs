@@ -3,9 +3,9 @@ title: Greeting feature configuration
 description: Understand the configuration of the Greeting feature in the Engagement Messenger to configure the field values.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/greeting-feature-configuration-fields.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Engagement Messenger reference, Reference, Customer Service Management]
 ---

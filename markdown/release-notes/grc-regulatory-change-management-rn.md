@@ -1,104 +1,87 @@
 ---
 title: Regulatory Change Management release notes
-description: The ServiceNow Regulatory Change Management application enables you to check upcoming regulatory changes, assess their impact, and implement risk and compliance-related changes. Regulatory Change Management was enhanced and updated in the Australia release.The ServiceNow Regulatory Change Management application enables you to check upcoming regulatory changes, assess their impact, and implement risk and compliance-related changes. Regulatory Change Management was enhanced and updated in the Australia release.The ServiceNow Regulatory Change Management application enables you to check upcoming regulatory changes, assess their impact, and implement risk and compliance-related changes. Regulatory Change Management was enhanced and updated in the Australia release.The ServiceNow Regulatory Change Management application enables you to check upcoming regulatory changes, assess their impact, and implement risk and compliance-related changes. Regulatory Change Management was enhanced and updated in the Australia release.The ServiceNow Regulatory Change Management application enables you to check upcoming regulatory changes, assess their impact, and implement risk and compliance-related changes. Regulatory Change Management was enhanced and updated in the Australia release.
+description: The ServiceNow Regulatory Change Management application enables you to check upcoming regulatory changes, assess their impact, and implement risk and compliance-related changes. Regulatory Change Management was enhanced and updated in the Brazil release.Regulatory Change Management version 23.0.3 extends AI alert summarization to every state, adds AI Data Explorer to widgets on the RCM home page, traces regulatory action tasks to their impacted area records, and offers filters to scope entity selection when initiating risk assessments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/grc-regulatory-change-management-rn.html
-release: australia
+release: brazil
 topic_type: topic
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Governance, Risk, and Compliance release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+keywords: [regulatory change management, ai data explorer, risk assessment, action tasks, alert summarization]
+breadcrumb: [Governance, Risk, and Compliance release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Regulatory Change Management release notes
 
-The ServiceNow® Regulatory Change Management application enables you to check upcoming regulatory changes, assess their impact, and implement risk and compliance-related changes. Regulatory Change Management was enhanced and updated in the Australia release.
+The ServiceNow® Regulatory Change Management application enables you to check upcoming regulatory changes, assess their impact, and implement risk and compliance-related changes. Regulatory Change Management was enhanced and updated in the Brazil release.
 
 ## About Regulatory Change Management
 
--   ServiceNow Otto is the new name for the Now Assist experience, delivering agentic AI, multimodal interactions, and autonomous cross-system workflow orchestration.
--   Update an assessment template to send new assessments with the latest version, without disrupting the ones that are already in progress.
+-   Identify and triage regulatory alerts from third-party providers or RSS feeds.
+-   Map incoming regulatory content to your organization's internal regulatory taxonomy.
+-   Assess the impact of a regulatory change and the inherent legal, reputational, financial, and business risk on an entity.
+-   Create and track action tasks to implement a regulatory change.
+-   Streamline regulatory alert analysis, summarization, and impact assessment with ServiceNow Otto skills and agentic workflows in Regulatory Change Management.
 
-[Early availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-all-other-fixes.md)
-
-Review the updated skill family name for Regulatory change management Now Assist skills.
-
-[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
-
-Review the updated AI experience with three licensing tiers.
-
-See [Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/reg-change-mgmt-landing-page.md) for more information.
+See [Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/reg-change-mgmt-landing-page.md) for more information.
 
 ## Activation and other requirements
 
-**Important:** Regulatory Change Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Note:** Regulatory Change Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 -   **Activation information**
 
     Install Regulatory Change Management and ServiceNow Otto for IRM by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/grc-rn-landing.md)
+**Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/grc-rn-landing.md)
 
-## August 2026
+## Version 23.0.3
 
-The ServiceNow® Regulatory Change Management application enables you to check upcoming regulatory changes, assess their impact, and implement risk and compliance-related changes. Regulatory Change Management was enhanced and updated in the Australia release.
-
-### What's changed
-
--   **[ServiceNow Otto® name announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
-
-    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.The Now Assist for IRM \(sn\_irm\_gen\_ai\) plugin, which provides generative AI capabilities for RCM, has been renamed to ServiceNow Otto for IRM.
-
-
-## July 2026
-
-The ServiceNow® Regulatory Change Management application enables you to check upcoming regulatory changes, assess their impact, and implement risk and compliance-related changes. Regulatory Change Management was enhanced and updated in the Australia release.
+Regulatory Change Management version 23.0.3 extends AI alert summarization to every state, adds AI Data Explorer to widgets on the RCM home page, traces regulatory action tasks to their impacted area records, and offers filters to scope entity selection when initiating risk assessments.
 
 ### What's changed
 
--   **[Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+-   **[Entity filtering in the risk assessment modal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/impact-assessment-tasks.md)**
 
-    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+    When you initiate a risk assessment from a regulatory alert, the Evaluate risk impact dialog box includes a **Filter by** drop-down. Use **Entities by Impacted Areas** or **Entities by Recommendations** to scope your entity selection.
 
--   **[Default AI model provider for regulatory alert recommendation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-recommendation-skill-for-a-regulatory-alert.md)**
+-   **[Regulatory alert summarization in all regulatory alert states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-alert-summarization.md)**
 
-    After upgrading to version 22.4.0, the regulatory alert recommendation skills in ServiceNow Otto for Integrated Risk Management \(IRM\) use AWS Claude as the default model provider.
+    Generate a regulatory alert summary in any state. The AI-generated summary includes new sections such as alert overview, scope, actions and outcomes, and velocity analysis. Select **Share to alert summary** to save the summary to the alert record.
 
--   **[Default AI model provider for agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-agentic-ai-workflows.md)**
+-   **[Enhanced input data for regulatory alert summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/input-data-rcm-skill.md)**
 
-    After upgrading to version 22.4.0, the Get regulatory analysis and Generate regulatory action plans agentic workflows use AWS Claude as the default model provider.
+    The regulatory alert summarization skill uses additional input data to generate a summary. New input fields include enriched insights, coordinator details, functional domain, and alert type, among others. The skill also incorporates data from the impacted areas and regulatory change tasks related lists.
 
+-   **[Regulatory alert number on the Details tab of an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/reg-feed-overview-in-ws.md)**
 
-## April 2026
+    The regulatory alert number is displayed on the Details tab of a regulatory alert.
 
-The ServiceNow® Regulatory Change Management application enables you to check upcoming regulatory changes, assess their impact, and implement risk and compliance-related changes. Regulatory Change Management was enhanced and updated in the Australia release.
+-   **[New column on regulatory assessment tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/respond-to-a-regulatory-assessment.md)**
 
-### What's changed
+    The Regulatory assessments tab in **GRC Tasks** displays the regulatory alert for an assessment in the Record column.
 
--   **Now Assist skills for Risk &amp; Sustainability**
+-   **[Compliance library items traced to their corresponding regulatory action tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/action-tasks.md)**
 
-    The skill family name Regulatory change management has been updated to Regulatory change to improve naming clarity and consistency within Now Assist skills for Risk &amp; Sustainability under the Technology workflow module in the AI Admin Hub Center.
+    Compliance library records, including citations, control objectives, controls, and policies, feature a Regulatory action tasks tab that links the action tasks linked to these records. This enables you to navigate from the impacted area record in the compliance library directly to its action task in RCM. Similarly, from the Action tasks tab of a regulatory alert, you can navigate to the impacted citations, control objectives, controls, or policies.
 
+-   **[Email notification redirection to workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/email-notifications-in-rcm.md)**
 
--   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
-
-    The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
-
-    -   Foundation: AI basics to deliver insights
-    -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets, and create your own
-    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    Email notification links for RCM records redirect users to the Compliance Workspace instead of the classic environment.
 
 
-## Australia
+### What's deprecated or removed
 
-The ServiceNow® Regulatory Change Management application enables you to check upcoming regulatory changes, assess their impact, and implement risk and compliance-related changes. Regulatory Change Management was enhanced and updated in the Australia release.
+-   **Now LLM service deprecation**
 
-### What's new
+    Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
--   **[Smart assessment versioning of regulatory assessment templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/update-reg-assessment-template.md)**
 
-    You can create a version of an existing regulatory assessment template to revise the questionnaire and response options, without disrupting assessments that are already in progress. New regulatory assessments use the latest published version of the template.
+### Plugin information
+
+-   **New plugins**
+
+    AI Data Explorer \(sn\_pa\_ai\_canvas\): Install the plugin to enable regulatory change managers and users to analyze regulatory data using natural language queries. On the Regulatory Change Management dashboard of the Compliance Workspace, select the Explore with AI icon \[Omitted image "icon-otto-outline-24.svg"\] on the widgets to open AI Data Explorer and gather insights about underlying regulatory data. For information on installing, configuring and using it, see [Use AI to explore data with AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/ai-data-explorer.md).
 
 

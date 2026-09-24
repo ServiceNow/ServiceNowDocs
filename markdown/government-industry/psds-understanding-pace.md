@@ -3,9 +3,9 @@ title: Understanding Policy as Code Engine \(PaCE\) and the Social Benefits Play
 description: PaCE enables you to manage, administer, and audit eligibility rules \(policies\) from a centralized location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-understanding-pace.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using the Eligibility Rules Engine, Using Social Benefits Playbook, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---

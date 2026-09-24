@@ -3,11 +3,11 @@ title: TRM Category form
 description: Add a new request or edit an existing request to create a TRM category.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/trm-category-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # TRM Category form
@@ -24,12 +24,12 @@ Add a new request or edit an existing request to create a TRM category.
 |Parent Category|Select a parent category to add the category to a hierarchical structure. Look up and select a category from the TRM Categories page.|
 |Owner|Owner of the TRM category, responsible for maintaining consistent technology compliance standards for that TRM category.|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-form-field-information.md)
 
 **Related topics**  
 
 
-[Manage TRM categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-configure-trm-categories.md)
+[Manage TRM categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-configure-trm-categories.md)
 
-[Add or edit a TRM category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-new-trm-category.md)
+[Add or edit a TRM category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-new-trm-category.md)
 

@@ -3,13 +3,13 @@ title: Domain separation and Visual Task Boards
 description: Domain separation is supported in the Visual Task Boards application. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/domain-separation-visual-task-boards.html
-release: australia
+release: brazil
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Visual Task Boards reference, Visual Task Boards, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Visual Task Boards reference, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Domain separation and Visual Task Boards
@@ -26,7 +26,7 @@ Domain separation is supported in the Visual Task Boards application. Domain sep
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-separated-apps.md).
 
 ## How domain separation works in Visual Task Boards
 
@@ -34,10 +34,10 @@ Visual Task Boards that are "data-driven" show the data from tables that are lik
 
 Condition-based criteria is used to filter that data. Free-form VTBs' use Private Tasks \(vtb\_task\), which supports domain separation as an extension of Task and inherits domain separation logic as a result.
 
-**Parent Topic:**[Visual Task Boards reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/vis-task-boards-ref.md)
+**Parent Topic:**[Visual Task Boards reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/visual-task-boards/vis-task-boards-ref.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-sep-landing-page.md)
 

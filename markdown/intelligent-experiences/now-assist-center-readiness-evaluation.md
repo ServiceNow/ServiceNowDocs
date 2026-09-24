@@ -3,12 +3,12 @@ title: AI readiness assessments in AI Admin Center
 description: The AI readiness assessment helps to simplify and automate the generative AI and agentic AI implementation assessment process. It automates assessment processes, evaluates data readiness, and provides actionable insights to help you quickly adopt AI capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-readiness-evaluation.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Explore, AI Admin Center, Enable AI experiences]
+breadcrumb: [Explore, AI Admin Center, Getting started with AI, Enable AI Experiences]
 ---
 
 # AI readiness assessments in AI Admin Center
@@ -51,9 +51,9 @@ AI readiness assessment appears in several places in AI Admin Center.
     The assessment details page shows the detailed results of a readiness assessment for a specific area of your instance. It shows readiness by category and lists the important issues to resolve to achieve AI implementation readiness.
 
 
-For more information on using AI readiness assessments in AI Admin Center, see [Increasing AI readiness in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-readiness-evaluation.md).
+For more information on using AI readiness assessments in AI Admin Center, see [Increasing AI readiness in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-using-readiness-evaluation.md).
 
-**Parent Topic:**[Exploring AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-center.md)
+**Parent Topic:**[Exploring AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/exploring-now-assist-center.md)
 
 **Related topics**  
 

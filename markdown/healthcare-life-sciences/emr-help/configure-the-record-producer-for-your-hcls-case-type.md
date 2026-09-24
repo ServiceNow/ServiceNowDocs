@@ -3,11 +3,11 @@ title: Configure the record producer for your healthcare case type
 description: Update the Healthcare Case record producer to point to your newly created table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/emr-help/configure-the-record-producer-for-your-hcls-case-type.html
-release: australia
+release: brazil
 product: EMR Help
 classification: emr-help
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure healthcare case types, Configure, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -47,5 +47,5 @@ You have configured the record producer to point to your newly created table.
 
 ## What to do next
 
-[Configure the request definition for your healthcare case type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/configure-the-request-defintion-for-your-hcls-case-type.md).
+[Configure the request definition for your healthcare case type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/emr-help/configure-the-request-defintion-for-your-hcls-case-type.md).
 

@@ -3,11 +3,11 @@ title: Add OT devices that are associated with the selected equipment model enti
 description: Use OT devices to review the OT devices that are associated with the selected equipment model entity and its child entities. You can also select and associate other OT devices to the selected equipment model entity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/view-ot-assets-equipment-model-entity.html
-release: australia
+release: brazil
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Review and update the equipment model details, Managing equipment models, Use, Industrial Process Manager, Operational Technology]
 ---
@@ -25,11 +25,11 @@ Role required: To add OT devices, the logged in user has to have a combination o
 -   cmdb\_ot\_viewer, cmdb\_ot\_editor or cmdb\_ot\_admin role
 -   cmdb\_ot\_isa\_editor or cmdb\_ot\_isa\_admin role
 
-**Note:** To learn more about assigning user roles, see [Assign Industrial Process Manager user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/assign-manufacturing-process-manager-roles.md).
+**Note:** To learn more about assigning user roles, see [Assign Industrial Process Manager user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/assign-manufacturing-process-manager-roles.md).
 
 ## About this task
 
-Users with an assigned cmdb\_ot\_isa\_admin role can view equipment model entities for any site. However, users with assigned cmdb\_ot\_isa\_editor or cmdb\_ot\_isa\_viewer roles can only access those sites that an administrator has granted access to for specific users. To learn more about granting site access, see [Assign or remove equipment model site access for non-administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/create-user-criteria-for-equipment-model-entity-site-users.md).
+Users with an assigned cmdb\_ot\_isa\_admin role can view equipment model entities for any site. However, users with assigned cmdb\_ot\_isa\_editor or cmdb\_ot\_isa\_viewer roles can only access those sites that an administrator has granted access to for specific users. To learn more about granting site access, see [Manage equipment model site access for non-administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/create-user-criteria-for-equipment-model-entity-site-users.md).
 
 ## Procedure
 
@@ -39,21 +39,21 @@ Users with an assigned cmdb\_ot\_isa\_admin role can view equipment model entiti
 
 2.  In the **Equipment model view for** field, select the site you want to view equipment model information for.
 
-3.  In the selector pane, expand the equipment model hierarchy, and then click the entity that you want to view.
+3.  In the selector pane, expand the equipment model hierarchy, and then select the entity that you want to view.
 
-4.  To view the associated OT devices for the equipment model entity and its child entities, click **Mapped OT Devices**.
+4.  To view the associated OT devices for the equipment model entity and its child entities, select **Mapped OT Devices**.
 
 5.  Review the associated OT devices or the associate additional OT devices to the selected equipment model entity.
 
-<table id="choicetable_nnq_bxc_3qb"><thead><tr><th align="left" id="d95862e151">
+<table id="choicetable_nnq_bxc_3qb"><thead><tr><th align="left" id="d96195e151">
 
 Task
 
-</th><th align="left" id="d95862e154">
+</th><th align="left" id="d96195e154">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d95862e160">
+</th></tr></thead><tbody><tr><td id="d96195e160">
 
 **Review the associated OT devices for the selected equipment model entity**
 
@@ -61,31 +61,31 @@ Description
 
 Proceed to the next step and review the OT devices form.
 
-</td></tr><tr><td id="d95862e169">
+</td></tr><tr><td id="d96195e169">
 
 **Associate the additional OT devices to the selected equipment model entity**
 
 </td><td>
 
-1.  Click **Add**.
+1.  Select **Add**.
 2.  In the OT devices form, select the additional OT devices that you want to associate with the equipment model entity.
-3.  Click **Add** to add them to the OT devices form.
-4.  To edit the columns on the table, select the List Actions \(\[Omitted image "List\_PersonalizeListIcon.png"\] Alt text: List Actions icon\) icon. Select **Edit columns** to choose the columns you want to display. For example, if you want to display the IP address column for the OT devices, select **IP Address** from the Available columns and click **OK**.
+3.  Select **Add** to add them to the OT devices form.
+4.  To edit the columns on the table, select the List Actions \(\[Omitted image "List\_PersonalizeListIcon.png"\] Alt text: List Actions icon\) icon. Select **Edit columns** to choose the columns you want to display. For example, if you want to display the IP address column for the OT devices, select **IP Address** from the Available columns and select **OK**.
 
 
-</td></tr><tr><td id="d95862e214">
+</td></tr><tr><td id="d96195e214">
 
 **Remove the OT devices from the selected equipment model entity**
 
 </td><td>
 
 1.  In the Mapped OT Devices list view, select the OT devices that you want to remove.
-2.  Click **Remove**.
+2.  Select **Remove**.
 
 
 </td></tr></tbody>
-</table>6.  Click **Save**.
+</table>6.  Select **Save**.
 
 
-**Parent Topic:**[Review and update the equipment model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/equipment-model-workspace.md)
+**Parent Topic:**[Review and update the equipment model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/equipment-model-workspace.md)
 

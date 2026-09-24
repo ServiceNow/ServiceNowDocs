@@ -3,9 +3,9 @@ title: Configure LINE
 description: Configure LINE integration with CSM omnichannel so customers can contact support from LINE and agents can manage those interactions in the CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/omnichannel-consumer-messaging-line.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [LINE messaging, omnichannel integration, customer service]
 breadcrumb: [Configure consumer messaging apps, Configure omnichannel, Configure, Customer Service Management]
@@ -27,7 +27,11 @@ The following workflow shows how to install, configure and implement LINE messag
 
 <table id="table_etn_sgk_zjc"><thead><tr><th>
 
-Task
+ 
+
+</th><th>
+
+Configuration step
 
 </th><th>
 
@@ -39,7 +43,11 @@ Role
 
 </th></tr></thead><tbody><tr><td>
 
-1. [Install Conversational Integration with LINE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/messg-line-install.md)
+1
+
+</td><td>
+
+[Install Conversational Integration with LINE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/messg-line-install.md)
 
 </td><td>
 
@@ -51,7 +59,11 @@ Admin, System Admin
 
 </td></tr><tr><td>
 
-2. [Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-integration-messaging-apps.md)
+2
+
+</td><td>
+
+[Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-integration-messaging-apps.md)
 
 </td><td>
 
@@ -63,7 +75,11 @@ Admin
 
 </td></tr><tr><td>
 
-3. [Configure Conversational Integration with LINE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/messg-line-configure.md)
+3
+
+</td><td>
+
+[Configure Conversational Integration with LINE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/messg-line-configure.md)
 
 </td><td>
 
@@ -75,7 +91,11 @@ LINE Platform Mgr, Admin
 
 </td></tr><tr><td>
 
-4. [Set up Conversational Integration with LINE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/messg-line-setup.md)
+4
+
+</td><td>
+
+[Set up Conversational Integration with LINE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/messg-line-setup.md)
 
 </td><td>
 
@@ -87,7 +107,11 @@ Admin
 
 </td></tr><tr><td>
 
-5. [Integrating LINE with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/messg-integrate-line-csm.md)
+5
+
+</td><td>
+
+[Integrating LINE with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/messg-integrate-line-csm.md)
 
 </td><td>
 
@@ -99,7 +123,11 @@ Admin
 
 </td></tr><tr><td>
 
-6. [Capturing information from a user in a LINE chat conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/messg-line-capture-info.md)
+6
+
+</td><td>
+
+[Capturing information from a user in a LINE chat conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/messg-line-capture-info.md)
 
 </td><td>
 
@@ -111,7 +139,11 @@ Admin
 
 </td></tr><tr><td>
 
-7. [Configure case routing and assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-case-routing-assignment.md)
+7
+
+</td><td>
+
+[Configure case routing and assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-case-routing-assignment.md)
 
 </td><td>
 
@@ -123,7 +155,11 @@ Admin
 
 </td></tr><tr><td>
 
-8. \(Optional\) [AWA for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/awa-csm-overview.md)
+8
+
+</td><td>
+
+\(Optional\) [AWA for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/awa-csm-overview.md)
 
 </td><td>
 
@@ -135,7 +171,11 @@ Admin
 
 </td></tr><tr><td>
 
-9. [Set up CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-set-up.md)
+9
+
+</td><td>
+
+[Set up CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-config-workspace-set-up.md)
 
 </td><td>
 
@@ -147,7 +187,11 @@ Admin
 
 </td></tr><tr><td>
 
-10. [Transfer LINE chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/messg-line-live-agent-conv.md)
+10
+
+</td><td>
+
+[Transfer LINE chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/messg-line-live-agent-conv.md)
 
 </td><td>
 

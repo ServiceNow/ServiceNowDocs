@@ -3,9 +3,9 @@ title: Monitoring and analyzing connections added for Service Graph Connectors i
 description: The Overview page in the Service Graph Connector Central \(SGC Central\) view of the Service Graph Workspace or CMDB Workspace provides a centralized dashboard view for administrators to monitor the installation, performance, and error handling of Service Graph Connectors.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/sgcc-overview-page-features.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Managing connections, SGC Central, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -52,12 +52,12 @@ Use the Overview page to monitor and troubleshoot your Service Graph Connectors 
 
 |Feature|Description|
 |-------|-----------|
-|[Connections overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-overview-page-features.md)|Displays the current state of your configured Service Graph Connector connections, including status, execution results, and error summaries.|
-|[Ingested and processed data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-overview-page-features.md)|Displays key metrics related to the data imported and processed from third-party applications.|
-|[Data processing performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-overview-page-features.md)|Displays how many configuration items \(CIs\) were added or updated over time, in addition to the number of processing errors.|
-|[Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-overview-page-features.md)|Enables narrowing the data shown in graphs and metrics based on connector type, connection, data source, or date range.|
-|[Indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-overview-page-features.md)|Enables viewing of high-level metrics that reflect the volume and quality of imported data and help identify issues such as incomplete or failed import set processing.|
-|[Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-overview-page-features.md)|Enables real-time visualizations that provide insights into data ingestion, processing trends, and error categorization across your Service Graph Connector connections.|
+|[Connections overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-overview-page-features.md)|Displays the current state of your configured Service Graph Connector connections, including status, execution results, and error summaries.|
+|[Ingested and processed data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-overview-page-features.md)|Displays key metrics related to the data imported and processed from third-party applications.|
+|[Data processing performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-overview-page-features.md)|Displays how many configuration items \(CIs\) were added or updated over time, in addition to the number of processing errors.|
+|[Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-overview-page-features.md)|Enables narrowing the data shown in graphs and metrics based on connector type, connection, data source, or date range.|
+|[Indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-overview-page-features.md)|Enables viewing of high-level metrics that reflect the volume and quality of imported data and help identify issues such as incomplete or failed import set processing.|
+|[Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-overview-page-features.md)|Enables real-time visualizations that provide insights into data ingestion, processing trends, and error categorization across your Service Graph Connector connections.|
 
 ## Connections overview
 
@@ -160,7 +160,7 @@ Displays the number of import set runs that ended in an error, including those i
 
 -   **Error summary**
 
-Provides a short description of the most recent error, if any. The summary includes error type and cause. A **View details** link may be available for diagnosing a processing error. To learn more, see [Diagnose a processing error in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-diagnose-proc-errors.md).
+Provides a short description of the most recent error, if any. The summary includes error type and cause. A **View details** link may be available for diagnosing a processing error. To learn more, see [Diagnose a processing error in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-diagnose-proc-errors.md).
 
 -   **Last processed on**
 
@@ -221,17 +221,17 @@ Import sets
 
 </td><td>
 
-Number of import sets processed by data sources based on the [selected filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-overview-page-features.md), with the count of success, partial, and error statuses.Select the **View all import sets** link to view a complete list of processed import sets.
+Number of import sets processed by data sources based on the [selected filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-overview-page-features.md), with the count of success, partial, and error statuses.Select the **View all import sets** link to view a complete list of processed import sets.
 
 </td><td>
 
-[SGC.Integrations.ImportSet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-overview-page-features.md)
+[SGC.Integrations.ImportSet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-overview-page-features.md)
 
- [SGC.Fully.successful.ImportSet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-overview-page-features.md)
+ [SGC.Fully.successful.ImportSet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-overview-page-features.md)
 
- [SGC.Part.success.ImportSet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-overview-page-features.md)
+ [SGC.Part.success.ImportSet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-overview-page-features.md)
 
- [SGC.Fully.error.ImportSet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-overview-page-features.md)
+ [SGC.Fully.error.ImportSet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-overview-page-features.md)
 
 </td></tr><tr><td>
 
@@ -239,11 +239,11 @@ Imported rows
 
 </td><td>
 
-Count of rows imported across all import sets based on the [selected filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-overview-page-features.md).Select the **View all latest import set rows ingested** link to view a complete list of import set rows ingested.
+Count of rows imported across all import sets based on the [selected filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-overview-page-features.md).Select the **View all latest import set rows ingested** link to view a complete list of import set rows ingested.
 
 </td><td>
 
-[SGC.Integrations.Importset.rows.ingested](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-overview-page-features.md)
+[SGC.Integrations.Importset.rows.ingested](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-overview-page-features.md)
 
 </td></tr><tr><td>
 
@@ -251,7 +251,7 @@ CIs
 
 </td><td>
 
-Total CIs processed based on the [selected filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-overview-page-features.md), with the count of added and updated CIs.Select the **View all inserted and updated records** link to view a complete list of inserted and updated CIs.
+Total CIs processed based on the [selected filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-overview-page-features.md), with the count of added and updated CIs.Select the **View all inserted and updated records** link to view a complete list of inserted and updated CIs.
 
 </td><td>
 
@@ -263,7 +263,7 @@ Partial or incomplete CIs
 
 </td><td>
 
-Total CIs that are partial payloads based on the [selected filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-overview-page-features.md), with the count of partial and incomplete categories.Select the **View all partial and incomplete records** link to view a complete list of partial and incomplete CIs.
+Total CIs that are partial payloads based on the [selected filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-overview-page-features.md), with the count of partial and incomplete categories.Select the **View all partial and incomplete records** link to view a complete list of partial and incomplete CIs.
 
 </td><td>
 
@@ -292,15 +292,15 @@ CIs and errors trends
 
 </td><td>
 
-Daily trends for CIs that were added, updated, and any data processing errors occurred during data import process based on the [selected filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-overview-page-features.md).
+Daily trends for CIs that were added, updated, and any data processing errors occurred during data import process based on the [selected filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-overview-page-features.md).
 
 </td><td>
 
-[Records added](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-overview-page-features.md)
+[Records added](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-overview-page-features.md)
 
- [Records updated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-overview-page-features.md)
+ [Records updated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-overview-page-features.md)
 
- [Errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-overview-page-features.md)
+ [Errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-overview-page-features.md)
 
 </td></tr><tr><td>
 

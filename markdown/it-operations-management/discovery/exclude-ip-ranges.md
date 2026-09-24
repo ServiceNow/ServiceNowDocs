@@ -3,11 +3,11 @@ title: Exclude IP ranges from a Discovery range set
 description: You can specify a range of IP addresses that you want to exclude from your Discovery query.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/exclude-ip-ranges.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Discovery IP address configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -36,15 +36,15 @@ Role required: discovery\_admin or agent\_admin
 
 5.  Choose one of the following options from the **Type** drop-down list.
 
-<table id="choicetable_vp2_g1m_dgc"><thead><tr><th align="left" id="d72040e112">
+<table id="choicetable_vp2_g1m_dgc"><thead><tr><th align="left" id="d72318e112">
 
 Option
 
-</th><th align="left" id="d72040e115">
+</th><th align="left" id="d72318e115">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d72040e121">
+</th></tr></thead><tbody><tr><td id="d72318e121">
 
 **IP Address List**
 
@@ -52,7 +52,7 @@ Description
 
 Enables you to exclude non-consecutive IP addresses by listing individual IP addresses in the **Discovery Range Item IPs** related list.**Note:** After you select **IP Address List** as the **Type**, you must right-click the header and select **Save** before you can begin adding IPs to the related list.
 
-</td></tr><tr><td id="d72040e144">
+</td></tr><tr><td id="d72318e144">
 
 **IP Address Range**
 
@@ -60,7 +60,7 @@ Enables you to exclude non-consecutive IP addresses by listing individual IP add
 
 Enables you to exclude a range of IPs by providing the starting and ending IP addresses.
 
-</td></tr><tr><td id="d72040e153">
+</td></tr><tr><td id="d72318e153">
 
 **IP Network**
 

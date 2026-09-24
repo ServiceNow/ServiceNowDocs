@@ -3,11 +3,11 @@ title: Configure TISC add-on in Splunk
 description: Configure the TISC add-on in Splunk to connect your account, define data inputs, and pull observable records into the KV store for search and analysis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-configure-splunk.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 keywords: [configure, tisc add-on, splunk]
 breadcrumb: [TISC add-on for Splunk overview, TISC Security Tools integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
@@ -181,7 +181,7 @@ Sample JSON filter:
 ```
 
 </td></tr></tbody>
-</table>    **Note:** Accounts are active by default, but inputs are inactive by default. Activate inputs to start importing data. For possible filters refer to Observable\_filters section in [Adds observable source records to the Threat Intelligence Security Center \(TISC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/tisc-api.md#title_tisc-POST-observables) application.
+</table>    **Note:** Accounts are active by default, but inputs are inactive by default. Activate inputs to start importing data. For possible filters refer to Observable\_filters section in [Adds observable source records to the Threat Intelligence Security Center \(TISC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/tisc-api.md#title_tisc-POST-observables) application.
 
 9.  Select **Add** to save the inputs.
 
@@ -245,5 +245,5 @@ Sample JSON filter:
     These fields along with any others defined by your criteria will be available in Splunk and can be viewed, searched, and analyzed through the search tab.
 
 
-**Parent Topic:**[TISC add-on for Splunk overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-addon-splunk.md)
+**Parent Topic:**[TISC add-on for Splunk overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-addon-splunk.md)
 

@@ -3,9 +3,9 @@ title: Add users to a watch list
 description: Watch lists enable you and others to subscribe to notifications of a task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_UseAWatchList.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -22,7 +22,7 @@ Role required: none
 
 1.  Navigate to a record that you want to add watchers to.
 
-    **Note:** Not all records have watch lists. If you’re unable to see a watch list, you may have to [adjust your form view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/view-management-overview.md) or ask your administrator to update the form to add a watch list.
+    **Note:** Not all records have watch lists. If you’re unable to see a watch list, you may have to [adjust your form view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/view-management-overview.md) or ask your administrator to update the form to add a watch list.
 
 2.  Expand the watch list by selecting the lock icon \( \[Omitted image "LockIconNE.png"\] Alt text: lock icon\).
 
@@ -39,8 +39,8 @@ Role required: none
     |\[Omitted image "NEIconAddEmail.png"\] Alt text: Add email address icon|Enter an email address for users who aren’t in the User \[sys\_user\] table or don’t have an email address defined in their user record|
 
 
--   **[Configure email notifications for watch lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ConfigNotifications4WatchLists.md)**  
+-   **[Configure email notifications for watch lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_ConfigNotifications4WatchLists.md)**  
 Watch lists \(glide\_list field type\) allow multiple users to subscribe to notifications of a task. You can specify conditions in an email notification to send email notifications to the members when the conditions are met.
 
-**Parent Topic:**[Forms in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingForms.md)
+**Parent Topic:**[Forms in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_UsingForms.md)
 

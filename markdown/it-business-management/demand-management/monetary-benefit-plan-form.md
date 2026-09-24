@@ -3,11 +3,11 @@ title: Monetary Benefit Plan form
 description: Use the Monetary Benefit Plan form to specify the estimated benefit accrued by a demand for a fiscal period.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/monetary-benefit-plan-form.html
-release: australia
+release: brazil
 product: Demand Management
 classification: demand-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Demand Management forms, Reference, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -170,7 +170,7 @@ Entered currency
 
 </td><td>
 
-Currency for the benefit plan.If the selected currency is different from the default currency configured in the Financial Management application, the [budget reference rate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_BudgetReferenceRates.md) is used to calculate the financial benefit of the demand.
+Currency for the benefit plan.If the selected currency is different from the default currency configured in the Financial Management application, the [budget reference rate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/c_BudgetReferenceRates.md) is used to calculate the financial benefit of the demand.
 
 </td></tr><tr><td>
 
@@ -213,5 +213,5 @@ Recurring
 Check box to indicate if the benefit is recurring for each fiscal period in the benefit breakdown.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Demand Management forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/demand-management-forms.md)
+</table>**Parent Topic:**[Demand Management forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/demand-management-forms.md)
 

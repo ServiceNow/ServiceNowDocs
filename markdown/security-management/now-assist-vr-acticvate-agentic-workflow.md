@@ -3,9 +3,9 @@ title: Configure an agentic workflow
 description: You can configure agentic workflows from the AI Agent Studio, but you must duplicate them to modify settings. The USEM AI agents included with the application and used in the agentic workflows are activated by default and aren't editable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/now-assist-vr-acticvate-agentic-workflow.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure AI skills and agentic workflows for USEM, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -16,11 +16,11 @@ You can configure agentic workflows from the AI Agent Studio, but you must dupli
 
 ## Before you begin
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
-The ServiceNow Otto® panel must be activated. See [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md) for more information.
+The ServiceNow Otto® panel must be activated. See [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md) for more information.
 
 Role required: aia-admin
 
@@ -36,7 +36,7 @@ Role required: aia-admin
 
     **Note:**
 
-    If you want to modify an agentic workflow, you must [duplicate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md) it, adjust the settings to suit your specific needs, and then activate the duplicate.
+    If you want to modify an agentic workflow, you must [duplicate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-aia-usecase.md) it, adjust the settings to suit your specific needs, and then activate the duplicate.
 
     The Guided setup is displayed. The pages are read-only.
 
@@ -46,7 +46,7 @@ Role required: aia-admin
 
     All the information will be copied except any UI actions, and any triggers will be inactive. Change the new workflow’s description to clearly differentiate this workflow for the LLM.
 
-    **Important:** This AI agentic workflow uses the Knowledge Graph to connect vulnerability data for its responses. You cannot modify the default Knowledge Graph that is used for this agentic workflow, but you can duplicate it and make changes to create a customized Knowledge Graph. See [Using Knowledge Graph Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-knowledge-graph-designer.md) for more information.
+    **Important:** This AI agentic workflow uses the Knowledge Graph to connect vulnerability data for its responses. You cannot modify the default Knowledge Graph that is used for this agentic workflow, but you can duplicate it and make changes to create a customized Knowledge Graph. See [Using Knowledge Graph Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/using-knowledge-graph-designer.md) for more information.
 
     After you create your customized Knowledge Graph, you must modify the sn\_vul\_ai.retrieve\_vr\_data\_knowledge\_graph\_schema system property so it points to your new Knowledge Graph.
 

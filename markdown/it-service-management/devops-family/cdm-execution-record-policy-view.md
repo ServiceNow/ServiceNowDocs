@@ -3,11 +3,11 @@ title: View the execution record for a policy run
 description: View the execution record to analyze policy execution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-execution-record-policy-view.html
-release: australia
+release: brazil
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Validating and correcting configuration data, Using DevOps Config, DevOps Config, IT Service Management]
 ---
@@ -18,7 +18,7 @@ View the execution record to analyze policy execution.
 
 ## Before you begin
 
-**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
+**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
 
 Role required: cdm\_viewer or cdm\_editor or cdm\_exporter\_editor or cdm\_policy\_editor or cdm\_admin
 

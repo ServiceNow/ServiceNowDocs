@@ -3,11 +3,11 @@ title: Configure the MID WebService Event Collector Context
 description: Configure the MID WebService Event Collector Context to provide a URL method to push event messages from an external source to the MID Server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-em-context-extension.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-05-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -84,7 +84,7 @@ MID Web Server Extension
 
 </td><td>
 
-Specify and then start the MID Web Server extension. The supported authentication methods are listed in the **Authentication Type** field of the MID Web Server extension. For information about how to configure a MID Web Server extension, see [Configure the MID Web Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-mid-web-server-extension.md).
+Specify and then start the MID Web Server extension. The supported authentication methods are listed in the **Authentication Type** field of the MID Web Server extension. For information about how to configure a MID Web Server extension, see [Configure the MID Web Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-mid-web-server-extension.md).
 
 </td></tr><tr><td>
 
@@ -152,7 +152,7 @@ Replace the variables in the default format of the URL `http://<my-instance>.ser
 
 **Example showing the URL to push messages not in jsonv2 format**
 
-The format of the URL to push event messages from an external source that are not in jsonv2 format is `http://{MID_Server_IP}:{MID_Web_Server_Port}/api/mid/em/inbound_event/Transform={Name_of_Transform_Script}`. The \{Name\_of\_Transform\_Script\} variable is the full name of the script and always begins with the text: TransformEvents\_. Specify the script name as the `Transform` header parameter and always start with the prefix `TransformEvents_`.
+The format of the URL to push event messages from an external source that are not in jsonv2 format is `http://{MID_Server_IP}:{MID_Web_Server_Port}/api/mid/em/inbound_event/Transform={Name_of_Transform_Script}`. The \{Name\_of\_Transform\_Script\} variable is the full name of the script and always begins with the text: TransformEvents\_. Specify the script name as the `Transform` header parameter with the prefix `TransformEvents_`.
 
 For this example, assume that the script name is EventsToProcess, the URL is therefore:`http://10.138.64.27:8097/api/mid/em/inbound_event/TransformEvents_EventsToProcess`
 
@@ -241,11 +241,11 @@ This configuration distributes incoming requests across both MID servers. If one
 **Related topics**  
 
 
-[Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-mid-web-server-extension.md)
+[Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-mid-web-server-extension.md)
 
-[Event collection from BMC TrueSight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-collection-BMCTrueSight.md)
+[Event collection from BMC TrueSight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/event-collection-BMCTrueSight.md)
 
-[Event collection from Microsoft Azure Monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-collection-MicrosoftAzure.md)
+[Event collection from Microsoft Azure Monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/event-collection-MicrosoftAzure.md)
 
-[Event collection from Google Cloud Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-collection-GCP.md)
+[Event collection from Google Cloud Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/event-collection-GCP.md)
 

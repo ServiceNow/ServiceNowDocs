@@ -3,12 +3,12 @@ title: Change text in the Show me everything button
 description: Configure the text in the Show me everything button displayed in the chat window to control the display of the initial greetings and the Show me everything button in Virtual Agent conversations. Edit the message in the System Properties \[sys\_properties\] table, or in a copy of the Greetings setup topic.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/change-va-showme.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [VIrtual Agent, show me everything, button, change, text, system properties, sys\_properties]
 breadcrumb: [Working with setup topics, Customizing a chat experience, Configure, Virtual Agent, Conversational Interfaces]
 ---
@@ -19,15 +19,15 @@ Configure the text in the **Show me everything** button displayed in the chat wi
 
 ## Before you begin
 
-If you’re updating the Greetings setup topic in Assistant Designer Asset library, first [Create a copy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/duplicate-virtual-agent-topic.md) of the Greetings setup topic, since the prebuilt Greetings setup topic is read-only.
+If you’re updating the Greetings setup topic, first [Create a copy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/duplicate-virtual-agent-topic.md) of the Greetings setup topic, since the prebuilt Greetings setup topic is read-only.
 
 Role required: virtual\_agent\_admin or admin
 
 ## About this task
 
-You can change the Virtual Agent greeting message by updating the default greeting through the System Properties \[sys\_properties\] table, or in the Greetings setup topic in Assistant Designer Asset library.
+You can change the Virtual Agent greeting message by either updating the default greeting through the System Properties \[sys\_properties\] table, or changing the message in the Greetings setup topic itself in AI assets.
 
-If you change the message in the System Properties table, the default greetings setup topic shows the updated message. Any custom greetings topics that don't override the default **Show me everything** also show the message. If you change the greeting message through Assistant Designer Asset library, you can make more targeted changes, such as a message for an HR-based greeting topic.
+If you change the message in the System Properties table, the default greetings setup topic \(and any custom greetings topics that don't override the default **Show me everything**\) all show the updated message. If you change the greeting message, you can make more targeted changes, such as a message for an HR-based greeting topic.
 
 The Greetings setup topic contains the Send Topic Picker script action, which controls the text in the **Show me everything** button. To change the text, edit the Send Topic Picker script action in the copy of the Greetings setup topic.
 
@@ -35,15 +35,15 @@ The Greetings setup topic contains the Send Topic Picker script action, which co
 
 1.  Navigate to **All** and use one of the following methods.
 
-<table id="choicetable_llf_w4t_d1c"><thead><tr><th align="left" id="d62825e132">
+<table id="choicetable_llf_w4t_d1c"><thead><tr><th align="left" id="d60784e129">
 
 Method
 
-</th><th align="left" id="d62825e135">
+</th><th align="left" id="d60784e132">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d62825e141">
+</th></tr></thead><tbody><tr><td id="d60784e138">
 
 **System properties**
 
@@ -51,10 +51,10 @@ Description
 
 1.  Input `sys_properties.list`.
 2.  Under **com.glide.cs.topic\_picker\_button\_label**, set the value to a message of your choice, such as `Show me everything.`
-3.  Select the Save icon \[Omitted image "icon\_save.png"\] Alt text: Save icon..
+3.  Select the Save icon \[Omitted image "icon\_save.png"\] Alt text:.
 
 
-</td></tr><tr><td id="d62825e176">
+</td></tr><tr><td id="d60784e172">
 
 **Assistant Designer Asset library**
 
@@ -62,11 +62,10 @@ Description
 
 1.  Navigate to **Conversational Interfaces** &gt; **Assistant Designer**.
 2.  Select the **Asset library** tab.
-3.  Set the topic discovery toggle switch to **LLM** or **NLU/Keyword** depending on which type you're working with.
-4.  Select the copy of the Greetings setup topic that you created.
-5.  In the **Flow** tab, select the node for the Send Topic Picker script action.
-6.  In the Script action properties sheet, select the Script icon \[Omitted image "icon-script.png"\] Alt text: Script icon. to open the **Action expression** script.
-7.  Change the `greetingMessage` text string as needed, and select **Save**. For example, to change the button text to **Show more**, you would change the script as follows:
+3.  Select the copy of the Greetings setup topic that you created.
+4.  In the **Flow** tab, select the node for the Send Topic Picker script action.
+5.  In the Script action properties sheet, select the Script icon \[Omitted image "icon-script.png"\] Alt text: Script icon. to open the **Action expression** script.
+6.  Change the `greetingMessage` text string as needed, and select **Save**. For example, to change the button text to **Show more**, you would change the script as follows:
 
     ```
 (function execute() {
@@ -75,12 +74,12 @@ Description
 })()
     ```
 
-8.  Preview the change in the chat window by selecting **Test** in the header bar. The button text change displays as follows:
+7.  Preview the change in the chat window by selecting **Test** in the header bar. The button text change displays as follows:
 
 \[Omitted image "va-showme-button-chg.png"\] Alt text: Virtual Agent bot displaying the change in the text with the Show me everything option when you tested.
 
-9.  Select **Save** in the header bar.
-10. When you're ready to make the topic active, select **Publish**.
+8.  Select **Save** in the header bar.
+9.  When you're ready to make the topic active, select **Publish**.
 
 
 </td></tr></tbody>
@@ -91,7 +90,5 @@ If you follow the System Properties method, your change to the greeting message 
 
 ## What to do next
 
-If you customized your Greetings topic, add it to the default chat experience or to a new custom chat experience that you created. For details, see [Configure a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-default-chat-experience.md).
-
-**Parent Topic:**[Working with setup topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/working-setup-topics.md)
+If you customized your Greetings topic, add it to an existing assistant or to a new assistant that you created. For details, see [Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/manage-assistant-chat-experience.md).
 

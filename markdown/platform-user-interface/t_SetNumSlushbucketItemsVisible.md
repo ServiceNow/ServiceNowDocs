@@ -3,9 +3,9 @@ title: Set the number of list collector items visible in the available column
 description: You can modify the glide.xmlhttp.excessive property to change the number of items that appear in the Available column of the list collector.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_SetNumSlushbucketItemsVisible.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure items on forms or in lists using a list collector, Common UI elements, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -31,10 +31,10 @@ Role required: admin
 4.  Save the property.
 
 
-**Parent Topic:**[Configure items on forms or in lists using a list collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_UseSlushbuckets.md)
+**Parent Topic:**[Configure items on forms or in lists using a list collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_UseSlushbuckets.md)
 
 **Related topics**  
 
 
-[Add a property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
+[Add a property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
 

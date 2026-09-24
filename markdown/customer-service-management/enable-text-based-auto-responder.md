@@ -3,9 +3,9 @@ title: Enable text search recommendations in Auto-Responder notifications
 description: Configure the Auto-Responder feature to send recommendations that match a text search of a case short description to resolve a customer service case when Predictive Intelligence results are insufficient or unavailable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/enable-text-based-auto-responder.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Auto-Responder notifications, Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -16,8 +16,8 @@ Configure the Auto-Responder feature to send recommendations that match a text s
 
 ## Before you begin
 
--   Activate the Predictive Intelligence for Customer Service Management plugin \(com.snc.csm\_ml\). For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md) and [Predictive Intelligence for CSM solution definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/predictive-intelligence-for-csm.md).
--   Set the application scope to Email Notification Script for Contextual Search Results using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
+-   Activate the Predictive Intelligence for Customer Service Management plugin \(com.snc.csm\_ml\). For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivateAPlugin.md) and [Predictive Intelligence for CSM solution definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/predictive-intelligence-for-csm.md).
+-   Set the application scope to Email Notification Script for Contextual Search Results using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationPicker.md).
 
 Role required: admin
 

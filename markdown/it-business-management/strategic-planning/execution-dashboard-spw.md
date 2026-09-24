@@ -3,11 +3,11 @@ title: Execution Dashboard in Strategic Planning Workspace
 description: The Execution Dashboard helps portfolio and product managers gain real-time visibility into delivery progress across work items, enabling portfolio leads to detect delays, course-correct early, and keep the strategy on track.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/execution-dashboard-spw.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 breadcrumb: [Explore, Dashboards, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -113,5 +113,5 @@ The Execution Dashboard provides various analytics across different tabs, includ
 |--------------------|-----------|
 |Planned cost by location|Estimated cost by location for executing the plan.|
 
-**Parent Topic:**[Exploring Dashboards in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/exploring-dashboards-spw.md)
+**Parent Topic:**[Exploring Dashboards in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/exploring-dashboards-spw.md)
 

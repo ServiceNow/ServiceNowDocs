@@ -3,11 +3,11 @@ title: Create a column type check
 description: Retrieve all records containing a specific column field type from all tables in an instance by selecting Create a new Column Type Check. The Column Type Check type implements the rule you created to iterate all records matching the target column field type.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/instance-scan/hs-create-column-health-check.html
-release: australia
+release: brazil
 product: Instance Scan
 classification: instance-scan
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a check, Using Instance Scan, Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -21,7 +21,7 @@ Retrieve all records containing a specific column field type from all tables in 
 Role required: scan\_admin
 
 ```
-Before performing this task you must complete [Create a check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-create-health-check.md).
+Before performing this task you must complete [Create a check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/instance-scan/hs-create-health-check.md).
 ```
 
 ## Procedure
@@ -154,5 +154,5 @@ Script that executes against each record in a table containing a field of the de
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Create a check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-create-health-check.md)
+**Parent Topic:**[Create a check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/instance-scan/hs-create-health-check.md)
 

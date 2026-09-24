@@ -3,9 +3,9 @@ title: Configure mobile re-authentication login timespan
 description: Define a time period in seconds that a user is not required to re-authenticate themselves. This parameter only applies when a user has permission to re-authenticate multiple times.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-reauthentication-token-lifespan.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Re-authentication, System properties, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -37,5 +37,5 @@ Role required: admin
     |Value|Integer value in seconds.|
 
 
-**Parent Topic:**[Configure mobile re-authentication system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-reautentication-concept.md)
+**Parent Topic:**[Configure mobile re-authentication system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-reautentication-concept.md)
 

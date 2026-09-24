@@ -3,11 +3,11 @@ title: Configure an agent on a proxy server
 description: Configure an Agent Client Collector on a proxy server when monitoring services external to the host server, such as URLs or external databases in the cloud.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/configure-agent-proxy-server.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using proxy agents in ACC, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -30,7 +30,7 @@ Proxy agents should be dedicated agents, as running other apps on a proxy agent 
 
 2.  Select the policy containing the checks that you want to run on a proxy server.
 
-    You must configure a proxy server for checks and policies that monitor external services. For details on these checks and policies, see [Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-policies-checks.md).
+    You must configure a proxy server for checks and policies that monitor external services. For details on these checks and policies, see [Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/agent-policies-checks.md).
 
 3.  Select the **Proxy Settings** tab.
 
@@ -106,5 +106,5 @@ Clear this option to load balance the selected multi proxy agents that monitor t
 </table>5.  Select **Activate**.
 
 
-**Parent Topic:**[Using proxy agents in Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/proxy-agent.md)
+**Parent Topic:**[Using proxy agents in Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/proxy-agent.md)
 

@@ -3,9 +3,9 @@ title: Create an external credential vault record in RPA Hub
 description: Create an external credential vault record in RPA Hub to register your external credential vault for further usage by the robot.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-ext-cred-rpa.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [External credential vault, Credential Management, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,9 +16,9 @@ Create an external credential vault record in RPA Hub to register your external 
 
 ## Before you begin
 
-Familiarize yourself with the external credentials concepts. For more information, see [External credential vault in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/external-credentials-rpa.md).
+Familiarize yourself with the external credentials concepts. For more information, see [External credential vault in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/external-credentials-rpa.md).
 
-Verify that you’ve completed the tasks that are related to configuring the external credentials in RPA Hub. For more information, see [Steps to configure an external credential vault in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/config-ext-cred-rpa.md).
+Verify that you’ve completed the tasks that are related to configuring the external credentials in RPA Hub. For more information, see [Steps to configure an external credential vault in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/config-ext-cred-rpa.md).
 
 Role required: sn\_rpa\_fdn.rpa\_release\_manager or sn\_rpa\_fdn.rpa\_admin
 

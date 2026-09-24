@@ -3,11 +3,11 @@ title: Delete a connection using the map editor
 description: While editing a map, you can delete a connection \(a relationship record\) from the CMDB. The CIs that are involved in the connection are not deleted from the CMDB.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/unified-map/unified-map-delete-connection.html
-release: australia
+release: brazil
 product: Unified Map
 classification: unified-map
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Editing a map, Use, Unified Map, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -38,7 +38,7 @@ The map editor does not support the following actions:
     -   The CI is removed from the map \(hidden\).
     -   The record of the CI in the CMDB is not deleted.
 
-You can learn more about relationships at [CI relationships in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationships.md).
+You can learn more about relationships at [CI relationships in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationships.md).
 
 At any time, select the reset icon \[Omitted image "icon-um-reset-map.png"\] to undo all unsaved changes.
 
@@ -57,11 +57,11 @@ At any time, select the reset icon \[Omitted image "icon-um-reset-map.png"\] to 
 **Related topics**  
 
 
-[CI relationships in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationships.md)
+[CI relationships in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationships.md)
 
-[Suggested class relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/r_SuggestedRelationshipModel.md)
+[Suggested class relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/r_SuggestedRelationshipModel.md)
 
-[Add a suggested relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_AddANewSuggestedRelationship.md)
+[Add a suggested relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/t_AddANewSuggestedRelationship.md)
 
-[Create or modify a connection using the map editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-edit-connection.md)
+[Create or modify a connection using the map editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/unified-map/unified-map-edit-connection.md)
 

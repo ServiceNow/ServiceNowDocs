@@ -3,9 +3,9 @@ title: Transform the data in RPA Desktop Design Studio
 description: Transform the data in RPA Desktop Design Studio by using the Transform Data option at a component level. With this option, you can edit the output value of the Data port by using VB.NET, C\#.NET, or JavaScript.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/transform-data-gen-rpa-studio.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,7 +16,7 @@ Transform the data in RPA Desktop Design Studio by using the **Transform Data** 
 
 ## Before you begin
 
-Configure a component. For more information, see [Use a component in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-components.md).
+Configure a component. For more information, see [Use a component in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-components.md).
 
 Role required: none
 
@@ -48,5 +48,5 @@ The **Transform Data** option can be used to modify any data that comes from the
 6.  If there are any errors in the Script section, resolve the errors that are displayed in the ERRORS section and then click **OK**.
 
 
-**Parent Topic:**[Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-studio-use.md)
+**Parent Topic:**[Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/rpa-studio-use.md)
 

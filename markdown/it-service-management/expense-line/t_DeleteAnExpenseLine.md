@@ -3,11 +3,11 @@ title: Delete an expense line
 description: Deleting an expense line also deletes all expense allocations that were generated from the expense line.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/expense-line/t\_DeleteAnExpenseLine.html
-release: australia
+release: brazil
 product: Expense Line
 classification: expense-line
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Expense lines and expense allocations, Expense Line, IT Service Management]
 ---
@@ -35,7 +35,7 @@ Deleting expense lines and allocations should be limited to an emergency case on
 4.  In the confirmation dialog box, click **Delete**.
 
 
-**Parent Topic:**[Expense lines and expense allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/expense-line/c_ExpenseLinesAndAllocations.md)
+**Parent Topic:**[Expense lines and expense allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/expense-line/c_ExpenseLinesAndAllocations.md)
 
 **Related topics**  
 

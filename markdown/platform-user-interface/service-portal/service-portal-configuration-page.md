@@ -3,11 +3,11 @@ title: Service Portal configuration page
 description: Most Service Portal configuration is accessible through the Service Portal configuration page landing page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/service-portal-configuration-page.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Understanding Service Portal, Exploring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -24,5 +24,5 @@ You can also access the configuration page by appending your URL with sp\_config
 
 Use each option on the Service Portal config page to set up the different parts of your portal.
 
-**Parent Topic:**[Understanding Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-what-to-know.md)
+**Parent Topic:**[Understanding Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/sp-what-to-know.md)
 

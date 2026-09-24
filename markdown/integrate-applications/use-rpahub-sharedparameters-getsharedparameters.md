@@ -3,9 +3,9 @@ title: Use the GetSharedParameters component
 description: Get the values of multiple shared parameters set up for multiple bot processes on the RPA Hub using the GetSharedParameters component.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-rpahub-sharedparameters-getsharedparameters.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Shared Parameters, RPA Hub, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,15 +16,15 @@ Get the values of multiple shared parameters set up for multiple bot processes o
 
 ## Before you begin
 
-Set multiple shared parameters and associate multiple bot processes on the RPA Hub. For more information, see [Create a shared parameter in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-shared-parameter.md) and [Assign a bot process to a shared parameter in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/assign-botprocess-shared-parameter.md).
+Set multiple shared parameters and associate multiple bot processes on the RPA Hub. For more information, see [Create a shared parameter in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-shared-parameter.md) and [Assign a bot process to a shared parameter in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/assign-botprocess-shared-parameter.md).
 
-Assign the automation to the bot process by using the **Assign bot process** option in the **Design** tab of RPA Desktop Design Studio. For more information, see [Assign bot process to an automation project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/assign-bot-process.md).
+Assign the automation to the bot process by using the **Assign bot process** option in the **Design** tab of RPA Desktop Design Studio. For more information, see [Assign bot process to an automation project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/assign-bot-process.md).
 
 Role required: none
 
 ## About this task
 
-You can configure the properties for the GetSharedParameters component. For more information about these properties, see [Properties of the shared parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/properties-rpahub-shared-parameters.md).
+You can configure the properties for the GetSharedParameters component. For more information about these properties, see [Properties of the shared parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/properties-rpahub-shared-parameters.md).
 
 ## Procedure
 
@@ -112,5 +112,5 @@ Yes
 </table>10. To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Shared Parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/shared-parameters.md)
+**Parent Topic:**[Shared Parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/shared-parameters.md)
 

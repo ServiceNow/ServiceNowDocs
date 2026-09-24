@@ -3,22 +3,18 @@ title: Publisher optimizations for Microsoft
 description: View licensing optimizations for Microsoft by selecting Microsoft from the Publisher drop-down list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/pub-opt-microsoft.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Reference, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Publisher optimizations for Microsoft
 
 View licensing optimizations for Microsoft by selecting **Microsoft** from the **Publisher** drop-down list.
-
-**Important:** To view the recommended licensing optimizations for Microsoft, you must activate the Software Asset Management Professional for Microsoft plugin \(com.snc.samp.microsoft\) on your ServiceNow® instance. To view the recommended licensing optimizations for your Microsoft 365 subscriptions, you must also request and install the Software Asset Management - SaaS License Management application from the [ServiceNow Store](https://store.servicenow.com/).
-
-For more information on license optimization, see [License optimization for Microsoft subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/o365-usage-activity.md).
 
 <table id="table_vcq_xwt_2xb"><thead><tr><th>
 
@@ -99,7 +95,7 @@ Number of licenses per month that can be downgraded or reclaimed based on recomm
 
 </td></tr><tr><td>
 
-On-Premise potential savings by optimizing licenses
+On-Premises potential savings by optimizing licenses
 
 </td><td>
 
@@ -132,14 +128,14 @@ Cost savings that you have achieved for licenses on your physical hosts and clus
 Select the report to view details about the cost savings that you have achieved for each host or cluster.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)
+</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/references.md)
 
 **Related topics**  
 
 
-[Evaluating software usage activity for Microsoft 365 subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/o365-usage-activity.md)
+[Evaluating software usage activity for Microsoft 365 subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/o365-usage-activity.md)
 
-[Reclamation rules for Microsoft 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/m365-reclamation-rules.md)
+[Reclamation rules for Microsoft 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/m365-reclamation-rules.md)
 
-[Microsoft 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/microsoft-o365.md)
+[Microsoft 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/microsoft-o365.md)
 

@@ -3,7 +3,7 @@ title: Admin APIs: Blueprint import and export
 description: You can export a blueprint to back it up, or export and import a blueprint to move it from one CPQ environment to another.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-admin-apis-blueprint-import-and-export.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -28,7 +28,7 @@ You can also view the CPQ open source API documentation on Github:
 
 To learn how to set up admin API keys for calling blueprint APIs, see:
 
-[Intro to admin API keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-admin-api-keys.md)
+[Intro to admin API keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-admin-api-keys.md)
 
 ## Blueprint export APIs
 

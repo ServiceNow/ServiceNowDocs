@@ -3,11 +3,11 @@ title: Risk assessment
 description: There are two methods to calculate the risk of a change. The Change Management- Risk Calculator plugin is activated in the base system by default. Change Management - Risk Assessment is optional.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/c\_RskAsmtCalc.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Analyze change request risk and impact, Reference, Change Management, IT Service Management]
 ---
@@ -21,21 +21,21 @@ There are two methods to calculate the risk of a change. The Change Management- 
 
 The two methods can be used individually or together, depending on your requirements. If the methods are used together, the highest risk value from both methods is always selected.
 
-\[Omitted image "risk\_assessment\_calculation.png"\] Alt text: Risk assessment calculation
+\[Omitted image "image.risk\_assessment\_calculation"\] Alt text: Risk assessment calculation
 
 **Note:** If both Risk Assessment and Risk Calculator are active but you want to use only one method, remove conditions for the method you do not want to use.
 
-If you activate Change Management - Risk Assessment, the administrator can add the **Task Assessment** &gt; **Task** related list to the change request form, if necessary. The related list displays risk assessments associated with the change request. [Perform risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_AssessRisk.md)
+If you activate Change Management - Risk Assessment, the administrator can add the **Task Assessment** &gt; **Task** related list to the change request form, if necessary. The related list displays risk assessments associated with the change request. [Perform risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_AssessRisk.md)
 
--   **[Define risk assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_DefineARiskAssessment.md)**  
+-   **[Define risk assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_DefineARiskAssessment.md)**  
 Change Management - Risk Assessment provides a flexible way to capture information from the end user to calculate the risk of the associated change request. You can define the risk assessment questions, thresholds, and conditions that calculate risk for any change request.
--   **[Perform risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_AssessRisk.md)**  
+-   **[Perform risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_AssessRisk.md)**  
 You can perform risk assessment of existing change requests after the risk assessment criteria are defined. After assessing the risk, you can view the risk assessment responses in the change request.
 
-**Parent Topic:**[Analyze change request risk and impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-risk-conflict-analysis.md)
+**Parent Topic:**[Analyze change request risk and impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-risk-conflict-analysis.md)
 
 **Related topics**  
 
 
-[Perform risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_AssessRisk.md)
+[Perform risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_AssessRisk.md)
 

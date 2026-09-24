@@ -3,11 +3,11 @@ title: Modify the displayed field
 description: The list view of the Reference Lookup defines the fields displayed in the Task Relations field and editing interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/t\_ModifyTheDisplayedField.html
-release: australia
+release: brazil
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Many-to-many task relations, Working with Task table, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -31,5 +31,5 @@ Role required: admin
     The selected List layout is used as the display value for records within the Task Relations field.
 
 
-**Parent Topic:**[Creating many-to-many task relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_ManyToManyTaskRelations.md)
+**Parent Topic:**[Creating many-to-many task relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/c_ManyToManyTaskRelations.md)
 

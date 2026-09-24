@@ -3,11 +3,11 @@ title: Configure elastic event pull connectors for MPN
 description: Configure a mobile private network \(MPN\) pull connector instance to collect metrics, including latency KPIs, from specified KPI domains in Elastic data store. The connector publishes metrics for assurance monitoring and analytics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/configure-mpn-connectors-for-events-and-metrics.html
-release: australia
+release: brazil
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-05-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]
 ---
@@ -64,20 +64,20 @@ Roles required: tsom\_assurance\_admin and assigned roles for MID Server.
 7.  Select **Update**.
 
 
-**Parent Topic:**[Configure Telecom Assurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/set-up-fault-management.md)
+**Parent Topic:**[Configure Telecom Assurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/set-up-fault-management.md)
 
 **Related topics**  
 
 
-[MPN latency KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/nokia-mpn-latency-kpis.md)
+[MPN latency KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/nokia-mpn-latency-kpis.md)
 
-[View metric to CI and resource binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/view-metric-to-CI-binding.md)
+[View metric to CI and resource binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/view-metric-to-CI-binding.md)
 
-[Event field mapping configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_EMEventFieldMapping.md)
+[Event field mapping configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/c_EMEventFieldMapping.md)
 
-[Create an event rule to bind metric events to host CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-rule-bind-metrics-to-host.md)
+[Create an event rule to bind metric events to host CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-rule-bind-metrics-to-host.md)
 
-[View metric values in the Insights Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/view-metrics-explorer.md)
+[View metric values in the Insights Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/view-metrics-explorer.md)
 
-[Create an Insights Explorer view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-metric-explorer-view.md)
+[Create an Insights Explorer view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/create-metric-explorer-view.md)
 

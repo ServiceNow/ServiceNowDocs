@@ -3,11 +3,11 @@ title: Sign document templates for PDF documents using CAC or PIV smart card
 description: Use the PDF document template to initiate digital signing, review, and generate a filled PDF document using a Common Access Card \(CAC\) or Personal Identification Verification \(PIV\) card.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/sign-pdf-documents-cac-piv.html
-release: australia
+release: brazil
 product: Document Management Services
 classification: document-management-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Digital signature for PDF documents using CAC or PIV smart cards, Use, Document Management, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ Use the PDF document template to initiate digital signing, review, and generate 
 
 Adobe Acrobat Reader must be installed on your desktop.
 
-A document template must be set up for signing documents. For more information, see [Set up a document template for signing documents using a CAC or PIV smart card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/create-document-template.md).
+A document template must be set up for signing documents. For more information, see [Set up a document template for signing documents using a CAC or PIV smart card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/create-document-template.md).
 
 Role required: none
 
@@ -30,7 +30,7 @@ Role required: none
 
 1.  Initiate the PDF document signing process with a custom implementation using script.
 
-    For more information, see [Using Document Templates: Custom use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/doc-temp-gen.md).
+    For more information, see [Using Document Templates: Custom use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/doc-temp-gen.md).
 
     **Note:** HR cases can skip this step as custom implementation using scripts is for cases related to non-HR applications.
 
@@ -57,5 +57,5 @@ Role required: none
     The signature is successfully captured and authenticated after document validation.
 
 
-**Parent Topic:**[Digital signature for PDF documents using CAC or PIV smart cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/digital-signature.md)
+**Parent Topic:**[Digital signature for PDF documents using CAC or PIV smart cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/digital-signature.md)
 

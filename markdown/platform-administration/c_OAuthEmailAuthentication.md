@@ -3,9 +3,9 @@ title: OAuth email authentication
 description: OAuth enables your instance to receive and send email through a third-party email account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_OAuthEmailAuthentication.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Advanced email setup, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -26,12 +26,12 @@ Activating the Email - OAuth support for IMAP and SMTP plugin allows you to use 
 
 **Note:** For configuring SMTP and IMAP email accounts with Microsoft Office 365 using OAuth 2.0, see [KB0816072](https://support.servicenow.com/nav_to.do?uri=%2Fkb%3Fid%3Dkb_article_view%26sysparm_article%3DKB0816072).
 
-See [Outbound REST with OAuth 2.0 profile tutorial - integrating with Google Contacts API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OAuth2ProfileTutorialGoogle.md) for an example of using an OAuth 2.0 profile to authenticate an outbound REST message with Google to retrieve contact information. Also see [OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_OAuthApplications.md) for more information on OAuth 2.0 support in the instance.
+See [Outbound REST with OAuth 2.0 profile tutorial - integrating with Google Contacts API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/c_OAuth2ProfileTutorialGoogle.md) for an example of using an OAuth 2.0 profile to authenticate an outbound REST message with Google to retrieve contact information. Also see [OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_OAuthApplications.md) for more information on OAuth 2.0 support in the instance.
 
--   **[Activate OAuth email authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActOAuthEmailAuthPlugin.md)**  
+-   **[Activate OAuth email authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActOAuthEmailAuthPlugin.md)**  
 You can activate the Email:OAUTH support for IMAP, Microsoft Graph \(Receiving\), and SMTP plugin \(com.glide.email.oauth\) for Notifications if you have the admin role.
--   **[Enable OAuth 2.0 for email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_SetUpOAuth2ForEmail.md)**  
+-   **[Enable OAuth 2.0 for email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_SetUpOAuth2ForEmail.md)**  
 Setting up OAuth 2.0 for email requires you to obtain access and refresh tokens from your email provider.
 
-**Parent Topic:**[Advanced email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_AlternateEmailConfigurations.md)
+**Parent Topic:**[Advanced email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_AlternateEmailConfigurations.md)
 

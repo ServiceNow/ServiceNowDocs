@@ -3,11 +3,11 @@ title: Add a scripted extension point for Connect Support chats
 description: Implement the ConversationServerInteractionService extension point, which enables you to create custom scripts that use context variables from pre-chat surveys presented to requesters in the Agent Chat client.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/create-connect-extension-point.html
-release: australia
+release: brazil
 product: Connect
 classification: connect
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Connect Support administration, Connect Support, Connect, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---

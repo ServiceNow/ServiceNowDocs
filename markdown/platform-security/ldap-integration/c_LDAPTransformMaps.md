@@ -3,11 +3,11 @@ title: LDAP transform maps
 description: The transform map moves data from the import set table to the target table \(User or Group\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/c\_LDAPTransformMaps.html
-release: australia
+release: brazil
 product: LDAP integration
 classification: ldap-integration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Import and map data, LDAP integration, Authentication, Access Management]
 ---

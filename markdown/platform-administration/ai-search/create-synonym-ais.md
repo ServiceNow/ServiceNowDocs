@@ -3,11 +3,11 @@ title: Create synonyms
 description: Define terms to treat as equivalent in search queries.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/create-synonym-ais.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Synonyms, Search profiles, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -22,7 +22,7 @@ Role required: ais\_admin
 
 ## About this task
 
-You must have already created a synonym dictionary. For information on creating synonym dictionaries, see [Create a synonym dictionary linked to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-synonym-dict-ais.md).
+You must have already created a synonym dictionary. For information on creating synonym dictionaries, see [Create a synonym dictionary linked to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/create-synonym-dict-ais.md).
 
 ## Procedure
 
@@ -34,7 +34,7 @@ You must have already created a synonym dictionary. For information on creating 
 
 4.  On the Dictionary Term form, fill in the fields.
 
-    For a description of the field values, see [Dictionary Term form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/dictionary-term-form-ais.md).
+    For a description of the field values, see [Dictionary Term form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/dictionary-term-form-ais.md).
 
 5.  Select **Submit**.
 
@@ -53,5 +53,5 @@ This example shows a synonym defining `vacation`, `holiday`, `PTO`, and the phra
 
 \[Omitted image "synonym-example-vacation.png"\] Alt text: The AI Search Dictionary Term new record form in Synonym view shows Term set to vacation and Payload set to \["holiday","pto","time off"\].
 
-**Parent Topic:**[Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/synonyms-ais.md)
+**Parent Topic:**[Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/synonyms-ais.md)
 

@@ -3,9 +3,9 @@ title: Using Playbooks for Portals
 description: Whether you're a customer service agent or a customer, you can use Customer Service Management \(CSM\) playbooks on service portals to complete the tasks and activities that you need to resolve your cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/using-playbooks-for-portals.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer communication, Use, Customer Service Management]
 ---
@@ -35,9 +35,9 @@ The playbook includes multiple stages. Each stage has one or more activities to 
 **Related topics**  
 
 
-[Creating an onboarding case with Playbooks for Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-an-onboarding-case-with-portal-playbook.md)
+[Creating an onboarding case with Playbooks for Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-an-onboarding-case-with-portal-playbook.md)
 
-[Creating a guided onboarding case from CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-a-guided-onboarding-case-from-workspace.md)
+[Creating a guided onboarding case from CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-a-guided-onboarding-case-from-workspace.md)
 
-[Create an onboarding request from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-an-onboarding-request-from-catalog.md)
+[Create an onboarding request from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-an-onboarding-request-from-catalog.md)
 

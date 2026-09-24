@@ -3,9 +3,9 @@ title: Enable Virtual Agent for mobile applications
 description: Give your users the ability to chat with a virtual agent through a ServiceNow mobile application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mobile-virtual-agent.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure a contextual link to Virtual Agent, Action functions, Mobile functions, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -18,7 +18,7 @@ Give your users the ability to chat with a virtual agent through a ServiceNow mo
 
 Role required: admin
 
-To include virtual agent functionality in your mobile applications, you first must activate and configure Virtual Agent. For details on this process see [Planning and configuring Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-virtual-agent.md).
+To include virtual agent functionality in your mobile applications, you first must activate and configure Virtual Agent. For details on this process see [Planning and configuring Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-virtual-agent.md).
 
 ## Procedure
 
@@ -49,5 +49,5 @@ To include virtual agent functionality in your mobile applications, you first mu
 10. Select **Save**.
 
 
-**Parent Topic:**[Configure a contextual link to Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-av-context-action.md)
+**Parent Topic:**[Configure a contextual link to Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-av-context-action.md)
 

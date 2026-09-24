@@ -3,9 +3,9 @@ title: Tables installed with FSM for Schedule Optimization
 description: The following tables are installed with the Field Service Management plugin, but are only used by Schedule Optimization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/tables-installed-with-fsm-for-schedule-optimization.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Schedule Optimization components, Reference, Field Service Management]
 ---
@@ -51,12 +51,12 @@ Captures agent/task events from the following pre-defined triggers:-   PTO submi
 Relates a group or territory to an intraday job
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Schedule Optimization components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/schedule-optimization-components.md)
+</table>**Parent Topic:**[Schedule Optimization components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/schedule-optimization-components.md)
 
 **Related topics**  
 
 
-[Optimizing technician schedules at set intervals throughout the day](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/optimize-your-schedules-intraday.md)
+[Optimizing technician schedules at set intervals throughout the day](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/optimize-your-schedules-intraday.md)
 
-[Configure intraday optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/configure-intraday-optimization.md)
+[Configure intraday optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/configure-intraday-optimization.md)
 

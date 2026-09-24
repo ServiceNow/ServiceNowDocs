@@ -3,11 +3,11 @@ title: Parameters of MID Server distributed cluster
 description: The following MID Server parameters support the MID Server Distributed cluster type.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/opsintelgnc-mid-server-param.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ACC-M reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [ACC-M reference, Agent Client Collector reference, Agent Client Col
 
 The following MID Server parameters support the MID Server Distributed cluster type.
 
-You can access these parameters in the **Configuration Parameters** related list of a MID Server. To add and set any of these parameter, see [Add a MID Server parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-parameters.md).
+You can access these parameters in the **Configuration Parameters** related list of a MID Server. To add and set any of these parameter, see [Add a MID Server parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-parameters.md).
 
 <table id="table_psp_b3r_mbb"><thead><tr><th>
 
@@ -73,5 +73,5 @@ The amount of off heap memory used by Metric Intelligence to process data series
 -   **Default value**: 4096
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-monitoring-reference.md)
+</table>**Parent Topic:**[Agent Client Collector Monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-monitoring-reference.md)
 

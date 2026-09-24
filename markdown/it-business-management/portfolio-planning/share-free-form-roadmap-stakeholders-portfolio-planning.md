@@ -3,11 +3,11 @@ title: Share a free-form roadmap with stakeholders
 description: Add people from your organization who are the stakeholders for the work involved in your roadmap plan so that they have visibility into the roadmap's progress.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/share-free-form-roadmap-stakeholders-portfolio-planning.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Create a free-form roadmap, Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
@@ -19,9 +19,9 @@ Add people from your organization who are the stakeholders for the work involved
 
 ## Before you begin
 
--   [Create a free-form roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-free-form-roadmap-portfolio-planning-workspace.md).
+-   [Create a free-form roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/create-free-form-roadmap-portfolio-planning-workspace.md).
 
--   Ensure that the users that you add as stakeholders have the appropriate role to access the roadmap. For more details on user roles, see [Components installed with Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/installed-with-portfolio-planning.md).
+-   Ensure that the users that you add as stakeholders have the appropriate role to access the roadmap. For more details on user roles, see [Components installed with Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/installed-with-portfolio-planning.md).
 
 
 Role required: sn\_align\_core.apw\_user
@@ -57,5 +57,5 @@ Change the access level or remove access for a user or a group.
 2.  From the user or group card, select the action menu icon \(\[Omitted image "action-menu-icon.png"\] Alt text: Action menu icon.\).
 3.  Select the right access level or select **Remove**.
 
-**Parent Topic:**[Create a free-form roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-free-form-roadmap-portfolio-planning-workspace.md)
+**Parent Topic:**[Create a free-form roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/create-free-form-roadmap-portfolio-planning-workspace.md)
 

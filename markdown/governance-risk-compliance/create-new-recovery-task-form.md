@@ -1,18 +1,18 @@
 ---
 title: Create Recovery task form
-description: Use the Create Recovery task form in the BCM Configurable Workspace to input the necessary details regarding the recovery task.
+description: Use the Create New Recovery task form in the BCM Configurable Workspace to input the necessary details regarding the recovery task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-recovery-task-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Add recovery tasks, Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Create Recovery task form
 
-Use the Create Recovery task form in the BCM Configurable Workspace to input the necessary details regarding the recovery task.
+Use the Create New Recovery task form in the BCM Configurable Workspace to input the necessary details regarding the recovery task.
 
 ## Create Recovery task form
 
@@ -72,7 +72,7 @@ Don’t include this task in time calculation option
 
 Option to exclude specific event tasks from time calculations.
 
- When this flag is checked, the selected task is excluded from time calculations during an event. In the Crisis management app, checking this flag confirms that task is not included in **Actual time taken** and **Total effort** for assets and the activated plan associated with the event.
+ When this flag is checked, the selected task is excluded from time calculations during an event. In the Crisis management app, the task is not included in the **Actual time taken** and **Total effort** field updates. This applies to both the asset and the activated plan associated with the event.
 
  For scenarios with multiple tasks, you can exclude specific tasks from overall time calculations, effectively removing them from the total time estimate. This enables for more accurate time tracking by focusing only on relevant tasks. Any task that is excluded isn’t considered in the plan and asset time calculation.
 
@@ -202,7 +202,7 @@ Option to activate a related plan for the recovery task.
 
  The enhanced application software checks for cyclic dependencies among the recovery tasks, as these can lead to errors during execution. If a cyclic dependency is detected in a task, an error message is displayed, helping prevent further actions on that task. If the dependency level of the tasks is more than 10, you can’t save the recovery task record.
 
- You can record estimated duration of a recovery task and view sequence of the recovery tasks in the plan. The tasks are organized based on their dependencies.
+ You can also record the estimated duration of a recovery task and view the sequence of the recovery tasks in the plan. The tasks are organized based on their dependencies.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -240,14 +240,6 @@ Recovery team
 
 Recovery team that the recovery task is assigned to.
 
-</td></tr><tr><td>
-
-All assets from plan
-
-</td><td>
-
-Specifies the asset scope for the recovery task. Defaults to all assets defined in the plan. Narrow the scope when the task applies only to a subset of the plan's assets.
-
 </td></tr><tr><td class="sub-head" colspan="2">
 
 Plan details
@@ -275,14 +267,6 @@ Recovery strategy
 </td><td>
 
 Recovery strategy defined on the **Recovery strategy** tab.
-
-</td></tr><tr><td>
-
-Plan loss scenario
-
-</td><td>
-
-Scopes the recovery task to a specific loss scenario defined in the plan, such as Loss of Datacenters. Tasks scoped to a loss scenario are surfaced only when the plan is exercised under that scenario type. The **Plan loss scenario** and **Task group** columns appear on the **Recovery tasks** tab of the loss scenario record.
 
 </td></tr><tr><td>
 
@@ -317,5 +301,5 @@ Backup assignee
 Assignees that are used as a backup if the automated task fails during the execution.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Add recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-a-recovery-task.md)
+</table>**Parent Topic:**[Add recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/add-a-recovery-task.md)
 

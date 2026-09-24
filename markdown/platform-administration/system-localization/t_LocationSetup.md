@@ -3,11 +3,11 @@ title: Set up locations
 description: If your organization supports more than one distinct location, you can configure these locations in the platform to help further identify users, assets, and incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/t\_LocationSetup.html
-release: australia
+release: brazil
 product: System Localization
 classification: system-localization
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring System Localization, System Localization, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---

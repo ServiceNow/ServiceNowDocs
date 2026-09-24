@@ -3,11 +3,11 @@ title: Add hierarchical relationships between entities
 description: Define hierarchical relationships between entities \(Global → Regional → Country-level\) using Upstream and Downstream options. Adding an hierarchy creates a clear organizational structure.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/add-hierarchical-relationships.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring access control, Access control by legal entity, Use, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -41,5 +41,5 @@ Role required: sn\_privacy.admin
 7.  Select **Save**.
 
 
-**Parent Topic:**[Configuring access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/configure-access-control-by-legal-entity.md)
+**Parent Topic:**[Configuring access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/configure-access-control-by-legal-entity.md)
 

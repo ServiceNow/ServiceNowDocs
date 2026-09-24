@@ -3,11 +3,11 @@ title: Tutorial for Build Agent in ServiceNow Studio
 description: Learn to develop reusable server-side logic and build a ServiceNow application in Build Agent, from data modeling through testing, using agentic development.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/build-agent-tutorial.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -34,5 +34,5 @@ To get started with Build Agent, try one of the following approaches.
 -   Document an existing app: Open a custom scoped app and ask Build Agent to summarize its architecture, data model, roles, and key components. This produces useful documentation with no risk to the app.
 -   Extend an existing app or base system table: Add a field, a business rule, or an ACL to an app you're familiar with. Build Agent supports global-scope tables such as Incident, as well as custom and ServiceNow Store apps.
 
-**Parent Topic:**[Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-build-agent.md)
+**Parent Topic:**[Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/exploring-build-agent.md)
 

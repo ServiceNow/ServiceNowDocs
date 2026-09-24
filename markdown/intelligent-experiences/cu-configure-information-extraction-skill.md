@@ -3,11 +3,11 @@ title: Configure Information Extraction skill
 description: Configure the Extract information from documents skill \(Information Extraction skill\) to define how AI agents identify and pull structured data from unstructured sources. Use this configuration to control extraction behavior, map output fields, and integrate results into your workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/cu-configure-information-extraction-skill.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
-breadcrumb: [Configure, Content Understanding, Enable AI experiences]
+breadcrumb: [Configure, Content Understanding, Generative AI skills, Enable AI Experiences]
 ---
 
 # Configure Information Extraction skill
@@ -18,5 +18,14 @@ The Information Extraction skill processes unstructured documents and returns st
 
 **Note:** AI-generated extraction results may not always be accurate. Review extracted data before using it in automated decisions or business processes.
 
-The Extract Information from documents skill can't be cloned. To set up the skill, activate the skill and configure a use case. See [Activate the Extract Information from documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-info-extraction-skill.md) and [Set up a use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/set-up-use-case.md).
+To set up the Information Extraction skill, activate the skill and configure a use case. See [Activate the Extract Information from documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-info-extraction-skill.md) and [Set up a use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/set-up-use-case.md).
+
+-   **[Activate the Extract Information from documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-info-extraction-skill.md)**  
+Activate the Information Extraction skill, so AI agents can analyze and extract information from documents using generative AI.
+-   **[Set up a use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/set-up-use-case.md)**  
+Create a use case to define the information to extract from a document for processing.
+-   **[Turn on full automation mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/turn-on-full-automation.md)**  
+Turn on Full automation mode to automatically complete and submit document tasks without an agent review. Full automation mode is turned off by default in document extraction use cases.
+
+**Parent Topic:**[Configuring Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-content-understanding.md)
 

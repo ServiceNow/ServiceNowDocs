@@ -3,9 +3,9 @@ title: Anomalies detection in performance metrics
 description: Instance Observer proactively detects the anomalies for cyclical or non-cyclical metrics under the performance chart for the Impact Total package on production instances. Anomalies represent metrics outliers based on historical patterns. Every anomaly may not represent an issue, but, notifies you and you decide the criticality and configure alerts, accordingly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/anomalies-detection.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Real-time Instance health monitoring and analysis, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
@@ -29,14 +29,6 @@ There are five cyclical metrics being tracked:
 -   The x-axis represents time, and the y-axis represents the actual metrics as per date range selected. For example, the line chart displays the transaction count values over time. Anomalies are denoted by red color coding on the chart and represent the occurrence of an anomaly in the data. The placement of the red mark depends on the criteria or algorithm used to detect anomalies.
 -   The range represents the upper and lower boundary limits with a normal distribution of the metrics based on their historical dataset pattern.
 -   The mean line represents the four week average value of the metrics to compare the deviation at a given point in time.
-
-## Anomaly tool and alerts
-
-The AI Anomaly tool functions as a robust solution to identify anomalies within performance data. The approach involves utilizing AI-based anomaly detection across diverse metrics within the system.
-
-The Anomalies tab indicates the number of triggered anomalies within the chosen timeframe. An anomaly is a data point that is unusual or doesn't conform to the expected patterns based on historical trends. In addition to visualization, the AI Anomaly tool empowers you to establish alerts based on the identified anomalies.
-
-**Note:** For more information on configuring anomaly alerts, see [Configure anomaly alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-anomaly-alerts.md).
 
 ## Job anomaly detection
 
@@ -71,12 +63,12 @@ Drill down from the hourly scheduled job count into an individual recurrence job
 
 ## Anomaly response
 
-All anomalies don’t represent an issue, but, the outliers detected based on historical patterns. Configure alerts accordingly after analyzing the criticality of the anomaly detected. See [Configure anomaly alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-anomaly-alerts.md) for more information on alerts.
+All anomalies don’t represent an issue, but, the outliers detected based on historical patterns. Configure alerts accordingly after analyzing the criticality of the anomaly detected. See [Configure anomaly alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-anomaly-alerts.md) for more information on alerts.
 
--   **[Configure anomaly alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-anomaly-alerts.md)**  
+-   **[Configure anomaly alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-anomaly-alerts.md)**  
 Configure anomaly alerts based on metrics outliers on historical patterns in Instance Observer.
--   **[Anomaly detection algorithm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/anomaly-detection-algorithm.md)**  
+-   **[Anomaly detection algorithm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/anomaly-detection-algorithm.md)**  
 Instance Observer is performing anomalies detection through the Z-score Statistical model, otherwise referred to as a univariate method.
 
-**Parent Topic:**[Real-time Instance health monitoring and analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-performance.md)
+**Parent Topic:**[Real-time Instance health monitoring and analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/instance-observer-performance.md)
 

@@ -3,11 +3,11 @@ title: Step 7. Create rollup record configurations
 description: Create rollup record configuration to link and unlink additional records to MSI.Writing a script for a Security Case to roll up record configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-rollup-record-configurations.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Rollup example use case implementation for a Security Case, Rollup Framework for MSIM, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -37,10 +37,10 @@ To rollup information such as configuration items, observables, and indicator of
 
 ## What to do next
 
--   For more detailed information, see [Configure Rollup Records in Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/roll-up-record-configuration-in-major-security-incident-management.md)
--   For a security case example information, see [Writing script for a Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-rollup-record-configurations.md)
+-   For more detailed information, see [Configure Rollup Records in Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/roll-up-record-configuration-in-major-security-incident-management.md)
+-   For a security case example information, see [Writing script for a Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/create-rollup-record-configurations.md)
 
-**Parent Topic:**[Rollup example use case implementation for a Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/use-case-for-a-security-case.md)
+**Parent Topic:**[Rollup example use case implementation for a Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/use-case-for-a-security-case.md)
 
 ## Writing script for a Security Case
 

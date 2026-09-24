@@ -3,9 +3,9 @@ title: Ingest MITRE D3FEND data
 description: Ingest MITRE D3FEND data \(tactics, techniques, and artifacts\) from the MITRE website to integrate with the Security Incident Response application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/ingest-mitre-defend-data.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [MITRE D3FEND framework, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---

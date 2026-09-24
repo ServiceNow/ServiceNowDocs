@@ -3,9 +3,9 @@ title: Modify state decision tables in Care Team Operations for Facilities
 description: Use Decision Builder to change the state mappings for cases and incidents work orders in Care Team Operations for Facilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-facilities-modify-state-tables.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Care Team Operations for Facilities, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -16,9 +16,9 @@ Use Decision Builder to change the state mappings for cases and incidents work o
 
 The Healthcare Facilities case state sync map displays all current mappings between Healthcare Facilities case and work order states.
 
-To modify these state mappings, see [Modify decision table structure in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/format-decision-table-in-decision-designer.md)**.**
+To modify these state mappings, see **.**
 
-To learn more about decisions tables, see [Edit decision tables using draft authoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/edit-decision-tables-using-draft-authoring.md) and [Use decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/use-decision-tables.md).
+To learn more about decisions tables, see  and .
 
 The source table aligns with the input state and the destination table aligns with the output state.
 

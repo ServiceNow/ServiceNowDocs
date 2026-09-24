@@ -3,9 +3,9 @@ title: Keep native apps active during authentication on Android devices
 description: Use the preventAppKillOnAuth property on your ServiceNow instance to help prevent Android devices from killing the mobile app when put to background during login. Use this configuration to allow for a smoother authentication experience by keeping the app active until users complete or cancel the login process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/active-authentication-android.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Mobile properties, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -72,7 +72,7 @@ Application
 
 Application scope where the mobile property is applied. To select a different application scope, select the globe icon \(\[Omitted image "globe-icon.png"\] Alt text: Globe icon\) on the instance banner. Then select **Application scope:_application\_scope_**.
 
- For information about how mobile properties are affected by application scope, see [Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-properties.md).
+ For information about how mobile properties are affected by application scope, see [Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-properties.md).
 
 </td></tr><tr><td>
 
@@ -148,5 +148,5 @@ Enter either `Agent`, `Request`, or the name of a custom app type created by use
 8.  Select **Submit**.
 
 
-**Parent Topic:**[Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-properties.md)
+**Parent Topic:**[Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-properties.md)
 

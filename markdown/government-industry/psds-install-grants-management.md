@@ -3,9 +3,9 @@ title: Install Grants Management for Public Sector Digital Services
 description: You can install the Grants Management application \(com.sn.gsm\_grants\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plug-ins if they aren’t already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-install-grants-management.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Grants Management, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---

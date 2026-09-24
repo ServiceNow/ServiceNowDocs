@@ -3,7 +3,7 @@ title: ServiceNow Quote Experience use case: Document generation with Google Doc
 description: Generate documents from ServiceNow Quote Experience by using Google Docs and Google Apps Script.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/transaction-manager-use-case-document-generation-with-google-docs.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 7
@@ -40,7 +40,7 @@ Google Apps Script includes GET and POST requests.
 
 This [video](https://www.youtube.com/watch?v=N3vnUgjQCGU) explains how the `doGet` and `doPost` work in a Google Doc app script.
 
-When using ServiceNow Quote Experience, you need to transform the JSON to send over to Google Docs. Below is an example template. If you are using a webhook, see [Webhooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-webhooks.md) for how the data will be sent over to Google Docs.
+When using ServiceNow Quote Experience, you need to transform the JSON to send over to Google Docs. Below is an example template. If you are using a webhook, see [Webhooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-webhooks.md) for how the data will be sent over to Google Docs.
 
 The following code block shows an example Transform Template, sent as a POST to the doPost function.
 
@@ -271,5 +271,5 @@ If needed, you can roll back to an older version of your web app:
 
 This provides an easy way to revert any issues that may arise with newer versions.
 
-**Parent Topic:**[ServiceNow Quote Experience: Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/transaction-manager-use-cases.md)
+**Parent Topic:**[ServiceNow Quote Experience: Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/transaction-manager-use-cases.md)
 

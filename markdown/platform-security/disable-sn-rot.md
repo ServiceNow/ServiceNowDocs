@@ -3,9 +3,9 @@ title: Disable ServiceNow Root of Trust
 description: Run a scheduled job on your trusted instance to disable Root of Trust.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/disable-sn-rot.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Root of Trust Settings, Configure, Code Signing, Platform Security]
 ---
@@ -20,7 +20,7 @@ Role required: admin, security\_admin, and sn\_kmf.cryptographic\_manager
 
 Code Signing must be enabled on your protected and trusted instances. You can verify by checking that the **com.snc.kmf.signature.validation.flag** system property is set to `true`.
 
-This procedure is part of a series of procedures to change to a customer Root of Trust \(ROT\) on your instances. For an overview of this process, see [Change your Root of Trust configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/change-rot-overview.md).
+This procedure is part of a series of procedures to change to a customer Root of Trust \(ROT\) on your instances. For an overview of this process, see [Change your Root of Trust configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/change-rot-overview.md).
 
 ## Procedure
 
@@ -64,4 +64,6 @@ This procedure is part of a series of procedures to change to a customer Root of
 ## Result
 
 Executing the scheduled job sets the ROT property to true. Your instance is configured to use the customer root of trust.
+
+**Parent Topic:**[Change your Root of Trust configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/change-rot-overview.md)
 

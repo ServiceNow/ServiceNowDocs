@@ -3,13 +3,13 @@ title: Card Data Security container
 description: The Card Data Security container enables secure handling of Payment Card Information \(PCI\) card data within Financial Services Operations card dispute workflows through integration with a tokenizer service. This allows users to work with sensitive card information without exposing PCI data directly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/card-data-security-component.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-21"
 reading_time_minutes: 3
-keywords: [card data security container, pci card data, tokenizer service integration, card number reveal, reveal pan, mask pan, primary account number, pan, dispute workspace, ui builder component, payment card information, fso card number reveal viewport pages]
+keywords: [card data security container, pci card data, tokenizer service integration, card number reveal, reveal pan, mask pan, primary account number, pan, dispute workspace, ui builder component, payment card information, fso card number reveal viewport pages, zip file viewer, revealmode]
 breadcrumb: [Configure, Card Data Security, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
@@ -17,14 +17,14 @@ breadcrumb: [Configure, Card Data Security, Dispute Management, Banking applicat
 
 The Card Data Security container enables secure handling of Payment Card Information \(PCI\) card data within Financial Services Operations card dispute workflows through integration with a tokenizer service. This allows users to work with sensitive card information without exposing PCI data directly.
 
-**Note:** Card Data Security container requires context-aware authorization to function correctly. See [Set up OAuth for Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-oauth-for-card-data-security.md) for more information.
+**Note:** Card Data Security container requires context-aware authorization to function correctly. See [Set up OAuth for Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/set-up-oauth-for-card-data-security.md) for more information.
 
 ## Key capabilities
 
 This component offers the following capabilities:
 
 -   Secure card number display within the ServiceNow interface via integration with the tokenizer service \(preconfigured in Card Data Security\)
--   Secure viewing and download of documents stored in the tokenizer service containing PCI data \(preconfigured in Card Data Security\)
+-   Secure viewing and download of documents stored in the tokenizer service containing PCI data \(preconfigured in Card Data Security\), including individual files within a ZIP archive
 -   Secure card number input through an embedded iframe interface
 -   Document upload functionality for files containing PCI data
 -   Configurable features through UI Builder properties
@@ -41,7 +41,7 @@ For more information about this component's configuration options and adding it 
 
 -   [Component developer documentation for Card Data Security](https://developer.servicenow.com/dev.do#!/reference/next-experience/australia/now-components/sn-card-data-security-container/overview)
 -   [UI Builder setup documentation for Card Data Security](https://developer.servicenow.com/dev.do#!/reference/next-experience/australia/now-components/sn-card-data-security-container/uib-setup)
--   [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-components.md)
+-   [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/work-components.md)
 
 ## Card Number Reveal Component
 
@@ -108,14 +108,12 @@ After installing Card Data Security, the Attachments view in the contextual side
 -   **Issuer**, which shows files added by the dispute agent.
 -   **Merchant**, which shows files received from the card network, acquirer, or merchant, stored in the tokenizer service vault.
 
-For more information, see [Manage attachments in Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.md).
-
 **Related topics**  
 
 
-[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md)
+[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder-overview.md)
 
-[Page collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/page-collections.md)
+[Page collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/page-collections.md)
 
-[Extend your UI experience with viewport components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/viewports-overview.md)
+[Extend your UI experience with viewport components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/viewports-overview.md)
 

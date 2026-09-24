@@ -3,12 +3,12 @@ title: Explore AI agents
 description: Learn how the AI agents enhance live agent productivity by mimicking human-like intelligence to manage tasks ranging from automated responses to complex problem solving.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/exploring-ai-agents.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 keywords: [AI Agents, agentic AI]
-breadcrumb: [AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Explore AI agents
@@ -35,19 +35,19 @@ Example: Imagine you need to reset your password. Multiple AI agents might be 
 
 ## agentic AI framework
 
--   **[AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md)**
+-   **[AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-agent-studio.md)**
 
     The AI Agent Studio enables you to create, manage, and test AI agents and agentic workflows in a unified environment.
 
--   **[agentic system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-glossary.md)**
+-   **[agentic system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-glossary.md)**
 
     The ServiceNow AI Platform's agentic system uses AI agents, orchestrated by an Orchestrator, to execute Agentic workflows.
 
--   **[AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-glossary.md)**
+-   **[AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-glossary.md)**
 
     On the ServiceNow AI Platform agentic system, an AI agent contains a set of large language model \(LLM\) instructions with the tools to accomplish tasks.
 
--   **[agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-glossary.md)**
+-   **[agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-glossary.md)**
 
     Agentic workflows are smart, context-aware, automated processes designed and executed by AI agents. They represent dynamic, human-like processes where specialized AI agents collaborate to accomplish complex goals. Here are a few key characteristics of Agentic workflows:
 
@@ -55,11 +55,11 @@ Example: Imagine you need to reset your password. Multiple AI agents might be 
     -   **Adaptive**: Adjust to changing situations and business needs.
     -   **Collaborative**: Work together to complete complex tasks.
     -   **Intelligent**: Use large language models and business data to make informed decisions.
--   **[orchestrator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-glossary.md)**
+-   **[orchestrator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-glossary.md)**
 
     The AI agent Orchestrator is a central management system that coordinates AI agents to verify they collaborate effectively to complete complex workflows.
 
-    For more information, see [Understand AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/understand-na-aia.md).
+    For more information, see [Understand AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/understand-na-aia.md).
 
 -   **Guided Setup**
 
@@ -91,5 +91,5 @@ Navigate to **All** &gt; **AI Agent Studio** &gt; **Overview** &gt; **Get an ove
 
 agentic AI has two components: AI agents and agentic workflows. By using the guided setup in AI Agent Studio, you create AI agents and workflows, add tools or define triggers, and define the availability or display location. After they're created, you can duplicate, modify, and test them in AI Agent Studio.
 
-In run time, triggers in the primary and secondary interfaces cause agentic workflow execution, where one or more AI agents execute the plan with the help of the AI agent Orchestrator to accomplish the task. After agentic workflow execution, the output appears in the ServiceNow Otto panel. To learn more about an AI agent Orchestrator is, see the [Understand AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/understand-na-aia.md).
+In run time, triggers in the primary and secondary interfaces cause agentic workflow execution, where one or more AI agents execute the plan with the help of the AI agent Orchestrator to accomplish the task. After agentic workflow execution, the output appears in the ServiceNow Otto panel. To learn more about an AI agent Orchestrator is, see the [Understand AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/understand-na-aia.md).
 

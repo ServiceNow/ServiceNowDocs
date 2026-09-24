@@ -3,11 +3,11 @@ title: Set up the Microsoft 365 Excel spoke
 description: Integrate the ServiceNow instance and Microsoft 365 Excel by using the OAuth credentials to authenticate ServiceNow requests.Create a credential record for the Microsoft Azure Portal Specify whether record is for a host, instance, server, custom application, or account: account. The Microsoft 365 Excel Spoke connection and credential alias uses these credentials to authorize actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-office-365-excel.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Microsoft 365 Excel Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---

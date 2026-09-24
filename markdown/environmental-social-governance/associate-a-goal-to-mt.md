@@ -3,9 +3,9 @@ title: Map a goal to a material topic
 description: Map a goal to a material topic so that you can track the actions being taken for the chosen topic. Based on this mapping exercise, you can act on the goals with the most significant material impact.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/associate-a-goal-to-mt.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create an Operational Sustainability Management \(formerly ESG Management\) goal, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -30,20 +30,20 @@ You can add or remove goals from a material topic only when the material topic i
 
 3.  To add a goal, do the following:
 
-    1.  Select the Goals related list.
+    1.  Click the Goals related list.
 
-    2.  Select **Add**.
+    2.  Click **Add**.
 
     3.  Select the goals to add.
 
-    4.  Select **Add**.
+    4.  Click **Add**.
 
-    5.  Select **Save**.
+    5.  Click **Save**.
 
 
 ## Result
 
 The goal is mapped to the material topic. This goal can now track the progress toward your chosen theme or topic.
 
-**Parent Topic:**[Create an Operational Sustainability Management \(formerly ESG Management\) goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-esg-goal.md)
+**Parent Topic:**[Create an Operational Sustainability Management \(formerly ESG Management\) goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/create-esg-goal.md)
 

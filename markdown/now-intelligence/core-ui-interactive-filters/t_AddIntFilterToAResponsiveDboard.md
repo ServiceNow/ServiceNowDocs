@@ -3,11 +3,11 @@ title: Add an interactive filter widget to a responsive dashboard
 description: Add an interactive filter to a dashboard to filter reports on that dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/core-ui-interactive-filters/t\_AddIntFilterToAResponsiveDboard.html
-release: australia
+release: brazil
 product: Core UI Interactive Filters
 classification: core-ui-interactive-filters
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Interactive Filters on dashboards, Interactive Filters, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -22,9 +22,9 @@ Role required: The dashboard\_admin role is required to create or edit Core UI R
 
 ## About this task
 
-To be effective, interactive filters must be based on the same tables as the reports they filter. Reports based on the user table, for example, do not follow Interactive Filters that are based on the incident table. For more information, see [Make a report follow interactive filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/core-ui-interactive-filters/t_MakeAReportASubscriber.md).
+To be effective, interactive filters must be based on the same tables as the reports they filter. Reports based on the user table, for example, do not follow Interactive Filters that are based on the incident table. For more information, see [Make a report follow interactive filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/core-ui-interactive-filters/t_MakeAReportASubscriber.md).
 
-For more information on which interactive filters are available, see [Creating Interactive Filters of different types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/core-ui-interactive-filters/r_AvailableHomepagePublisherTypes.md). From this topic you can learn more about creating and configuring the different filters.
+For more information on which interactive filters are available, see [Creating Interactive Filters of different types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/core-ui-interactive-filters/r_AvailableHomepagePublisherTypes.md). From this topic you can learn more about creating and configuring the different filters.
 
 In this animation, the two visualizations and the interactive filter are all based on the incident table. Both visualizations are configured to follow filters. When you select one of the filter options, in this case, Active is true, Active is False, or All, both visualizations refresh to follow the choice.
 
@@ -40,7 +40,7 @@ In this animation, the two visualizations and the interactive filter are all bas
 
 4.  Select the type of filter to add, such as **Choice list** or **Reference**.
 
-    You can also add a new filter. For more information, see [Creating Interactive Filters of different types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/core-ui-interactive-filters/r_AvailableHomepagePublisherTypes.md).
+    You can also add a new filter. For more information, see [Creating Interactive Filters of different types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/core-ui-interactive-filters/r_AvailableHomepagePublisherTypes.md).
 
 5.  Select the filter you want to add.
 
@@ -49,7 +49,7 @@ In this animation, the two visualizations and the interactive filter are all bas
     \[Omitted image "add-if-resp-db.gif"\] Alt text: Animated gif showing the steps to add an interactive filter to a dashboard
 
 
-**Parent Topic:**[Interactive Filters on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/core-ui-interactive-filters/c_PublishersOnHomepages.md)
+**Parent Topic:**[Interactive Filters on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/core-ui-interactive-filters/c_PublishersOnHomepages.md)
 
 **Related topics**  
 

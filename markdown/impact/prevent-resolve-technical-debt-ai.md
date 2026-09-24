@@ -3,9 +3,9 @@ title: Prevent and resolve technical debt with AI
 description: Use the Scan Engine and ServiceNow Otto AI agent to prevent technical debt as you code or remediate existing findings from completed scans.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/prevent-resolve-technical-debt-ai.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Platform Health, Using Impact, Impact]
 ---
@@ -13,10 +13,6 @@ breadcrumb: [Platform Health, Using Impact, Impact]
 # Prevent and resolve technical debt with AI
 
 Use the Scan Engine and ServiceNow Otto AI agent to prevent technical debt as you code or remediate existing findings from completed scans.
-
-Impact Platform Health delivers AI-generated code fixes at two critical points in your development lifecycle. Whether you're actively writing code or cleaning up existing technical debt, the Scan Engine detects violations against your defined coding standards and ServiceNow Otto generates fixes automatically. This unified approach reduces manual remediation time and improves platform quality across your ServiceNow instances.
-
-The Scan Engine examines your instances for findings related to active definitions stored in the Scan Findings table. You can view findings, apply manual fixes, generate AI-suggested fixes, or submit exceptions for findings you believe aren't valid.
 
 ## Prevention and remediation workflows
 
@@ -95,6 +91,6 @@ The AI fix engine handles common coding violations quickly and accurately. Commo
 
 Choose the workflow that matches your current task.
 
--   You're writing code and want to catch violations before saving, See [Use Real-time prevention monitoring while coding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/real-time-prevention-monitoring.md)
--   A scan has completed and you want to fix existing findings, See [Remediate existing findings with AI-suggested fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/batch-remediation-with-ai.md).
+-   You're writing code and want to catch violations before saving, See [Use Real-time prevention monitoring while coding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/real-time-prevention-monitoring.md)
+-   A scan has completed and you want to fix existing findings, See [Remediate existing findings with AI-suggested fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/batch-remediation-with-ai.md).
 

@@ -3,11 +3,11 @@ title: Duplicate a Doc in CWM
 description: Save time by duplicate an existing Doc to copy all its pages and content without having to copy the information manually in the Collaborative Work Management workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/duplicate-doc-in-cwm.html
-release: australia
+release: brazil
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Collaborate with Docs, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Save time by duplicate an existing Doc to copy all its pages and content without
 
 ## Before you begin
 
-[Create a Doc in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-a-doc-in-cwm.md).
+[Create a Doc in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/create-a-doc-in-cwm.md).
 
 Role required: sn\_cwm.cwm\_user
 
@@ -43,5 +43,5 @@ Role required: sn\_cwm.cwm\_user
 
 The new Doc is added to the same Space as the original Doc. If necessary, you can move it to a different Space or a different position in the same Space.
 
-**Parent Topic:**[Collaborative documentation using CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-docs.md)
+**Parent Topic:**[Collaborative documentation using CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/cwm-docs.md)
 

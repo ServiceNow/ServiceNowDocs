@@ -3,11 +3,11 @@ title: Export RIDAC data from All RIDAC page
 description: Export your RIDAC data as a file from All RIDAC page. Use this file to provide RIDAC updates to external stakeholders or a wider audience. Save time by generating an export file with the latest information and avoid copying information into different files.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/export-ridac-pw.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-06-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage RIDAC, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -28,7 +28,7 @@ The RIDAC export allows you to export RIDAC data into an external file for backu
 
 1.  Open a project from the home page of Project Workspace.
 
-    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Navigate to **RIDAC** &gt; **All RIDAC**.
 
@@ -45,12 +45,12 @@ The RIDAC export allows you to export RIDAC data into an external file for backu
 
 The RIDAC data is downloaded in the selected file format.
 
-**Parent Topic:**[Manage Risk, Issue, Decision, Action, or Request Change \(RIDAC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/manage-ridac-pw.md)
+**Parent Topic:**[Manage Risk, Issue, Decision, Action, or Request Change \(RIDAC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/manage-ridac-pw.md)
 
 **Related topics**  
 
 
-[Associate existing RIDAC records for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/associate-ridac-project-workspace.md)
+[Associate existing RIDAC records for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/associate-ridac-project-workspace.md)
 
-[Convert one RIDAC record to another for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/convert-ridac-project-workspace.md)
+[Convert one RIDAC record to another for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/convert-ridac-project-workspace.md)
 

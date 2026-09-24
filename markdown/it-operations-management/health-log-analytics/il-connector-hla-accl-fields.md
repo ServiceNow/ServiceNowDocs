@@ -3,11 +3,11 @@ title: ACC Log Analytics \(ACC-L\) integration configuration fields
 description: Description of the fields on the ACC Log Analytics \(ACC-L\) integration configuration forms for Health Log Analytics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/il-connector-hla-accl-fields.html
-release: australia
+release: brazil
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ACC, Agent Client Collector, Log Analytics, data input, integration, configuration, field, description, ServiceNow, Health Log Analytics, HLA]
 breadcrumb: [Integration configuration fields, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
@@ -17,7 +17,7 @@ breadcrumb: [Integration configuration fields, Health Log Analytics reference, H
 
 Description of the fields on the ACC Log Analytics \(ACC-L\) integration configuration forms for Health Log Analytics.
 
-For the ACC Log Analytics \(ACC-L\) integration setup procedure, see [Set up an ACC Log Analytics integration for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/il-connector-hla-accl.md).
+For the ACC Log Analytics \(ACC-L\) integration setup procedure, see [Set up an ACC Log Analytics integration for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/il-connector-hla-accl.md).
 
 <table id="table_l3c_pxl_whc"><thead><tr><th>
 
@@ -173,5 +173,5 @@ Drop if queue is full
 Option to discard logs if many processes are waiting in the queue to access the MID Server.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+</table>**Parent Topic:**[Integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)
 

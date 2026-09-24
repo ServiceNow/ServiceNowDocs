@@ -3,11 +3,11 @@ title: Exploring Next Experience for Demand Management
 description: Next Experience for Demand Management enables you to create, evaluate, and prioritize demands, throughout the demand life cycle.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/explore-demand-workspace.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: concept
-last_updated: "2026-05-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [explore]
 breadcrumb: [Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
@@ -50,9 +50,9 @@ Next Experience for Demand Management provides benefits for demand managers and 
 
 To learn more about configuring and using Next Experience for Demand Management, see:
 
--   [Configuring Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/setting-up-demand-workspace.md)
--   [Using Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/use-demands-dmnd-wpc.md)
--   [Managing financials for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/managing-financials-dw.md)
--   [Collaborate with docs in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/docs-for-demands-dw.md)
--   [Next Experience for Demand Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/demand-workspace-reference.md)
+-   [Configuring Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/setting-up-demand-workspace.md)
+-   [Using Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/use-demands-dmnd-wpc.md)
+-   [Managing financials for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/managing-financials-dw.md)
+-   [Collaborate with docs in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/docs-for-demands-dw.md)
+-   [Next Experience for Demand Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/demand-workspace-reference.md)
 

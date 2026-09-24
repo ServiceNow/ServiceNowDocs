@@ -3,11 +3,11 @@ title: AWA manager \[awa\_manager\]
 description: The AWA manager monitors the performance of agents across all service channels.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-roles-4.html
-release: australia
+release: brazil
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Advanced Work Assignment roles, Reference, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---

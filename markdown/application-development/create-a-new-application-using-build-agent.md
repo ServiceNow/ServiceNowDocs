@@ -1,29 +1,31 @@
 ---
-title: Create an application using Build Agent
+title: Create an application using Build Agent default mode
 description: Create a custom application by describing your requirements in plain language to Build Agent. The AI agent generates and builds the application code based on your input.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/create-a-new-application-using-build-agent.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
-# Create an application using Build Agent
+# Create an application using Build Agent default mode
 
 Create a custom application by describing your requirements in plain language to Build Agent. The AI agent generates and builds the application code based on your input.
 
 ## Before you begin
 
-Install and enable Build Agent. For more information, see [Install Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-build-agent.md).
+Install and enable Build Agent. For more information, see [Install Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/install-build-agent.md).
 
-If you prefer to access Build Agent in the ServiceNow IDE, you must first create a workspace. For more information, see [Create a workspace in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/create-workspace-servicenow-ide.md).
+You can also use Autonomous Engineer to implement complex plans. For more information, see [Autonomous Engineer in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-autonomous-engineer.md).
+
+If you prefer to access Build Agent in the ServiceNow IDE, you must first create a workspace. For more information, see [Create a workspace in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/create-workspace-servicenow-ide.md).
 
 **Note:** Build Agent requires the ServiceNow SDK version 4.0 at a minimum. If you’re using an older version, Build Agent prompts you to upgrade to ServiceNow SDK 4.0.
 
-For some prompting guidelines and ideas, see [Example prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-example-prompts.md).
+For some prompting guidelines and ideas, see [Example prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent-example-prompts.md).
 
 Role required: admin
 
@@ -41,17 +43,17 @@ A ServiceNow app is a package that performs a specific task for a specified grou
 
     \[Omitted image "ba-sns-full-page-chat.png"\] Alt text: ServiceNow Studio home screen with a Build Agent prompt input area, Recents panel, Recent chats panel, and Plans panel listing example plans with statuses.
 
-2.  In the chat panel, describe the application that you want to create in plain language or select a prompt.
+2.  In the chat panel, with **Default** mode selected, describe the application that you want to create in plain language or select a prompt.
 
-<table id="choicetable_qzh_hj2_lgc"><thead><tr><th align="left" id="d252666e220">
+<table id="choicetable_qzh_hj2_lgc"><thead><tr><th align="left" id="d245584e242">
 
 Scenario
 
-</th><th align="left" id="d252666e223">
+</th><th align="left" id="d245584e245">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d252666e229">
+</th></tr></thead><tbody><tr><td id="d245584e251">
 
 **Describe the app you want to create**
 
@@ -59,7 +61,7 @@ Actions
 
 Describe the application that you want to create, and then select the Send icon \[Omitted image "ba-send-icon.png"\] Alt text:. For example, `Create a basic to-do task tracker app with a user interface. Name the application Planner.`You can also attach images, such as architectural diagrams or UI wireframes, to provide context for prompts.
 
-</td></tr><tr><td id="d252666e247">
+</td></tr><tr><td id="d245584e269">
 
 **Select a predetermined prompt**
 
@@ -86,16 +88,16 @@ Describe the application that you want to create, and then select the Send icon 
 
 4.  If your application has a user interface, you can preview the app in a tab in ServiceNow Studio to inspect how it looks.
 
-    You can keep prompting to refine the app, its appearance, and functionality. For more information, see [Edit an existing application using Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/edit-an-existing-application-using-build-agent.md).
+    You can keep prompting to refine the app, its appearance, and functionality. For more information, see [Edit an existing application using Build Agent default mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/edit-an-existing-application-using-build-agent.md).
 
 
 ## Result
 
-Review the application and its metadata in ServiceNow Studio using the change log. For more information, see [Build Agent checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-conversational-change-log.md). You can also review the application using the File Navigator in ServiceNow Studio. For more information, see [Find an app or app file using the Navigator panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/qs-find-app-app-file-using-navigator-panel.md).
+Review the application and its metadata in ServiceNow Studio using the change log. For more information, see [Checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-conversational-change-log.md). You can also review the application using the File Navigator in ServiceNow Studio. For more information, see [Find an app or app file using the Navigator panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/qs-find-app-app-file-using-navigator-panel.md).
 
-For information on deploying your application, see [Deploying what you built with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-deployment.md).
+For information on deploying your application, see [Deploying what you built with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent-deployment.md).
 
-For information on troubleshooting issues, see [Issues and solutions in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-troubleshooting.md).
+For information on troubleshooting issues, see [Issues and solutions in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent-troubleshooting.md).
 
 Build Agent displays the details of your app in a new ServiceNow Studio tab.
 
@@ -105,5 +107,5 @@ If you want to view source code, open the ServiceNow IDE within ServiceNow Studi
 
 \[Omitted image "build-agent-file-explorer.png"\] Alt text: File Explorer showing project structure with folders and configuration files
 
-**Parent Topic:**[Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/use-build-agent.md)
+**Parent Topic:**[Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/use-build-agent.md)
 

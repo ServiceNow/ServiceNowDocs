@@ -3,11 +3,11 @@ title: Service Graph Connector for VMware Workspace ONE UEM
 description: Use the Service Graph Connector for VMware Workspace ONE UEM to pull data from VMware Workspace ONE Unified Endpoint Management \(UEM\) into your ServiceNow Instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/cmdb-integration-workspace-one.html
-release: australia
+release: brazil
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -36,20 +36,20 @@ The integration imports different hardware assets into the ServiceNow® Configur
 
 The following are examples on how you can use the Service Graph Connector for different ServiceNow applications:
 
--   [IT Operations Management \(ITOM\) Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility-landing-page.md)
+-   [IT Operations Management \(ITOM\) Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility-landing-page.md)
     -   Detailed hardware and application inventory for Android, Apple, and Windows mobile devices. The inventory can be used with or without Software Asset Management \(SAM\).
     -   Compliance tracking for mobile devices. You can build your own device \(BYOD\) or use corporate-owned devices.
--   [IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/r_ITServiceManagement.md)
+-   [IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/r_ITServiceManagement.md)
     -   Incident, problem, change on discovered configuration items \(CI\).
     -   Ownership tracking and assignment for mobile devices.
 
 ## Guided setup
 
-The guided setup for the Service Graph Connector for VMware Workspace ONE UEM provides an organized sequence of tasks to configure the integration on your instance. To access the guided setup, see [Configure Service Graph Connector for VMware Workspace ONE UEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-workspace-one-integration.md).
+The guided setup for the Service Graph Connector for VMware Workspace ONE UEM provides an organized sequence of tasks to configure the integration on your instance. To access the guided setup, see [Configure Service Graph Connector for VMware Workspace ONE UEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/configure-workspace-one-integration.md).
 
 ## CMDB integrations dashboard
 
-The Integration Commons for CMDB store app provides a dashboard with a central view of the status, processing results, and processing errors of all installed integrations. You can see metrics for all integration runs. You can filter the view to a specific CMDB integration, a specific time duration, or a specific integration run. For more details about monitoring Workspace ONE integrations in the CMDB Integrations Dashboard, see [Using the CMDB Integrations Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md).
+The Integration Commons for CMDB store app provides a dashboard with a central view of the status, processing results, and processing errors of all installed integrations. You can see metrics for all integration runs. You can filter the view to a specific CMDB integration, a specific time duration, or a specific integration run. For more details about monitoring Workspace ONE integrations in the CMDB Integrations Dashboard, see [Using the CMDB Integrations Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md).
 
 ## Data mapping
 
@@ -73,12 +73,12 @@ The data is then inserted into the following target tables:
 
 **Note:** To view any additional information such as the device owner, type of ownership, or compliance status, you need to switch to the SG-Workspace ONE UEM view. This view displays a **SG-Workspace ONE UEM Device Related** tab in the related list tabs with the additional information.
 
-For more information on where data is saved when pulling data from VMware Workspace ONE Unified Endpoint Management \(UEM\), see [CMDB classes targeted in Service Graph Connector for VMware Workspace ONE UEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-workspaceone-classes.md).
+For more information on where data is saved when pulling data from VMware Workspace ONE Unified Endpoint Management \(UEM\), see [CMDB classes targeted in Service Graph Connector for VMware Workspace ONE UEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/cmdb-workspaceone-classes.md).
 
-You can use the IntegrationHub ETL app to view the data maps. See [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md) for more information.
+You can use the IntegrationHub ETL app to view the data maps. See [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md) for more information.
 
 **Related topics**  
 
 
-[Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-sgc-available.md)
+[Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/cmdb-sgc-available.md)
 

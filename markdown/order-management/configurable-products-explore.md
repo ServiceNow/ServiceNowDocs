@@ -3,11 +3,11 @@ title: Configurable products
 description: Learn how configurable products connect blueprints to end-user configuration experiences in CPQ, supporting both headless and Salesforce-integrated use cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configurable-products-explore.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [CPQ Configurator, Configure, price, quote apps, Explore, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Configurable products
@@ -57,5 +57,5 @@ The setup process depends on your Managed Package version used for CPQ: Once con
 **Related topics**  
 
 
-[Setting up configurable products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configurable_products.md)
+[Setting up configurable products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configurable_products.md)
 

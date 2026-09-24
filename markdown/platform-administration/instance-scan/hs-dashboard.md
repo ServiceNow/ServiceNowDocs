@@ -3,11 +3,11 @@ title: Instance Scan dashboard
 description: The Instance Scan dashboard is a system wide visual representation of the health of your instance. The dashboard helps you to manage and analyze the results of full scan against your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/instance-scan/hs-dashboard.html
-release: australia
+release: brazil
 product: Instance Scan
 classification: instance-scan
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring Instance Scan, Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---

@@ -3,11 +3,11 @@ title: TPRM Risk activity page
 description: The Risk activity page enables you to quickly identify assessments, issues, and tasks that need attention.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-ws-risk-activity-page.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Viewing third-party risk reports, Monitor third-party risk, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -39,5 +39,5 @@ To view the Risk activity page, select **Workspaces** &gt; **Vendor Management W
     For each external risk assessment, the system auto-assigns a unique ID number that starts with the text VRA. Select a VRA number to work on the risk assessment on the **External assessments** tab.
 
 
-**Parent Topic:**[Viewing third-party risk reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/unified-vrm-workspace.md)
+**Parent Topic:**[Viewing third-party risk reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/unified-vrm-workspace.md)
 

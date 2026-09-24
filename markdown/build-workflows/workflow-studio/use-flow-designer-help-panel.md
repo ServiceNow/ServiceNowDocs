@@ -3,11 +3,11 @@ title: Use the Workflow Studio help panel
 description: Browse topics in the side help panel to learn more about building flows and actions, working with data and spokes, and stepping through guided tours in Workflow Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/use-flow-designer-help-panel.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Getting started, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---

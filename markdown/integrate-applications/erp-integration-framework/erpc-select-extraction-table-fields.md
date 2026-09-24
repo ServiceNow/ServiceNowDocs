@@ -3,14 +3,14 @@ title: Select fields for an extraction table in Zero Copy Connector for ERP
 description: Add or remove fields for an extraction table in Zero Copy Connector for ERP\(Enterprise Resource Planning\). For example, you may want to remove fields with sensitive information, such as birthdays.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erpc-select-extraction-table-fields.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, extraction, table, field, add, remove, delete]
-breadcrumb: [Extracting and transforming data, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Extracting and transforming data, Data retrieval, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Select fields for an extraction table in Zero Copy Connector for ERP
@@ -19,7 +19,7 @@ Add or remove fields for an extraction table in Zero Copy Connector for ERP\(Ent
 
 ## Before you begin
 
-If you don't see the fields that you want to add to the extraction table, you must first add them to the model. For more information, see [Choose output parameters for a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-manage-outputs.md).
+If you don't see the fields that you want to add to the extraction table, you must first add them to the model. For more information, see [Choose output parameters for a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-manage-outputs.md).
 
 Role required: sn\_erp\_integration.erp\_admin
 
@@ -43,4 +43,6 @@ Role required: sn\_erp\_integration.erp\_admin
 
 5.  Confirm that the fields appear correctly as columns on the extraction table by selecting the **Extraction table fields** tab.
 
+
+**Parent Topic:**[ERP data extraction and transformation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-extraction-tables.md)
 

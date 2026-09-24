@@ -3,9 +3,9 @@ title: Data quality properties
 description: System property that controls how long data quality records are retained in the data quality audit and unmatched resource queue tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/data-quality-properties.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-06-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Data Catalog, Workflow Data Fabric]
 ---
@@ -35,5 +35,5 @@ Number of days that records in the data quality audit \[sn\_dcg\_core\_dq\_audit
 -   Other possible values: Any integer from 1 to 90
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data catalog reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-catalog-reference.md)
+</table>**Parent Topic:**[Data catalog reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/data-catalog-reference.md)
 

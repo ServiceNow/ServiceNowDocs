@@ -3,11 +3,11 @@ title: Digital Portfolio Management related applications and data sources
 description: Digital Portfolio Management \(DPM\) enables you to use related applications to view and edit service details in the plan-build-run life cycle. All related applications are optional, so they aren't required to use the DPM experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-related-products.html
-release: australia
+release: brazil
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Reference, Digital Portfolio Management, IT Service Management]
 ---
@@ -26,7 +26,7 @@ DPM has three main data sources:
 -   Needs attention attributes are from data brokers. For more information, see [KB1519343](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1519343).
 -   Performance Analytics indicators, data collection jobs, and key performance indicator \(KPI\) groups.
 
-For an overview on how DPM aligns with the Common Service Data Model \(CSDM\), see [Apply the CSDM guidelines to Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-csdm.md).
+For an overview on how DPM aligns with the Common Service Data Model \(CSDM\), see [Apply the CSDM guidelines to Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-csdm.md).
 
 To view details on the Digital Portfolio Management data sources including data elements, source tables, fields, and required plugins, see [KB1123710](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1123710), and select the option to **Download the Data Sources Excel File**.
 
@@ -324,7 +324,7 @@ To see roadmap data:
 
  To see flow metrics and accelerate metrics:
 
- Enable DevOps for DPM \(see [Configure the Digital Portfolio Management experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-experience.md)\)
+ Enable DevOps for DPM \(see [Configure the Digital Portfolio Management experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-configure-experience.md)\)
 
 -   To see details in the DevOps Change Workspace, select **View DevOps Insights** from the Flow metrics section.
 -   To see details in the DevOps Change Workspace, select **View Accelerate metrics in DevOps** from the Accelerate metrics section.
@@ -550,5 +550,5 @@ Strategic Planning \(formerly known as Alignment Planner Workspace\) is a pro ve
 
 \[Omitted image "dpm-ref-run.png"\] Alt text: Run data sources for services and service offerings.
 
-**Parent Topic:**[Digital Portfolio Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-reference-cfw.md)
+**Parent Topic:**[Digital Portfolio Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-reference-cfw.md)
 

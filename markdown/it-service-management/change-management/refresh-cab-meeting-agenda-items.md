@@ -3,11 +3,11 @@ title: Modify CAB meeting details
 description: You can modify the agenda items for a specific CAB meeting.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/refresh-cab-meeting-agenda-items.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create a single CAB meeting occurrence, Working with the CAB Workbench, Use, Change Management, IT Service Management]
 ---
@@ -24,13 +24,13 @@ Role required: itil, sn\_change\_read, sn\_change\_write, or sn\_change\_cab.cab
 
 After you update the CAB board or change request conditions, refresh the CAB meeting to apply the updates. If you add new board members or attendees to the meeting, they are notified via email invitations after the meeting is refreshed.
 
-**Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
+**Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
 
 ## Procedure
 
 1.  Navigate to the CAB meeting whose agenda you want to modify using one of the following steps.
 
-<table id="choicetable_mh3_bkv_lz"><tbody><tr><td id="d343640e91">
+<table id="choicetable_mh3_bkv_lz"><tbody><tr><td id="d351275e91">
 
 **Open from the CAB meeting list**
 
@@ -40,7 +40,7 @@ After you update the CAB board or change request conditions, refresh the CAB mee
 2.  Select and open the CAB meeting to modify.
 
 
-</td></tr><tr><td id="d343640e121">
+</td></tr><tr><td id="d351275e121">
 
 **Open from the CAB definition list**
 
@@ -127,10 +127,10 @@ Check box to mark each pre-approved change request as **Complete** in the CAB me
 5.  Click **Update** to save your changes.
 
 
-**Parent Topic:**[Create a single CAB meeting occurrence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-a-cab-meeting.md)
+**Parent Topic:**[Create a single CAB meeting occurrence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-a-cab-meeting.md)
 
 **Related topics**  
 
 
-[OR conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingORConditions.md)
+[OR conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_UsingORConditions.md)
 

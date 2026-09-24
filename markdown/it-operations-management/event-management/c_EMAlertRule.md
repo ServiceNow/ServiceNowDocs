@@ -3,11 +3,11 @@ title: Alert lifecycle configuration
 description: Event Management provides various modules, templates, and properties for configuring alerts and the actions that execute for these alerts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/c\_EMAlertRule.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -16,10 +16,10 @@ breadcrumb: [Manage and monitor alerts, Configure, Event Management, ITOM AIOps,
 
 Event Management provides various modules, templates, and properties for configuring alerts and the actions that execute for these alerts.
 
--   **[Configure the alert active interval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMSetTheAlertActiveInterval.md)**  
-The active interval property \(**evt\_mgmt.active\_interval**\) determines how Event Management handles a new event that is similar to events that appear on an existing closed alert. The system either reopens the alert and adds the event information to it, or creates a new alert.
--   **[Configure alert flapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigAlertStateFlapDetect.md)**  
+-   **[Configure the alert active interval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMSetTheAlertActiveInterval.md)**  
+The active interval property \(**evt\_mgmt.active\_interval**\) determines how Event Management handles a new event that is similar to events that appear on an existing closed alert. The system uses the active interval, event, and existing closed alert information to either reopen the alert and add the event information, or create a new alert.
+-   **[Configure alert flapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMConfigAlertStateFlapDetect.md)**  
 Set flapping properties to determine when an alert enters and exits the flapping state. Flapping can indicate configuration problems \(that is, thresholds set too low\), troublesome services, or real network problems.
 
-**Parent Topic:**[Manage and monitor alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMAlert.md)
+**Parent Topic:**[Manage and monitor alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/c_EMAlert.md)
 

@@ -3,11 +3,11 @@ title: Configuring System events
 description: Plan, configure, and implement system events without having to complete any extra configurations first. Follow the task listed in the configuration overview to implement automated job scheduling.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-events/configuring-system-events.html
-release: australia
+release: brazil
 product: System Events
 classification: system-events
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [System Events, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,12 +18,12 @@ Plan, configure, and implement system events without having to complete any extr
 
 ## Configuration overview
 
-[Implement automated job scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-events/auto-job-scheduling.md)
+[Implement automated job scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-events/auto-job-scheduling.md)
 
 Implement the message processing framework \(automated jobs scheduling\) by using the Queue Registration link on the Event Registration form.
 
--   **[Implement automated job scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-events/auto-job-scheduling.md)**  
+-   **[Implement automated job scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-events/auto-job-scheduling.md)**  
 Implement the message processing framework \(automated jobs scheduling\) by using the Queue Registration link on the Event Registration form.
 
-**Parent Topic:**[System Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-events/system-events-landing.md)
+**Parent Topic:**[System Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-events/system-events-landing.md)
 

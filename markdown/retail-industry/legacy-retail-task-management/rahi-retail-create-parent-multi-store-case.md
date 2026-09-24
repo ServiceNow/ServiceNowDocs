@@ -3,11 +3,11 @@ title: Create a parent multi-store case in Retail Task Management Core
 description: Create a parent multi-store case for your retail organization using Retail Task Management Core.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/legacy-retail-task-management/rahi-retail-create-parent-multi-store-case.html
-release: australia
+release: brazil
 product: \[Legacy\] Retail Task Management
 classification: legacy-retail-task-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create multi-store cases, Retail Task Management, Retail]
 ---

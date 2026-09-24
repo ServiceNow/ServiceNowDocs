@@ -3,11 +3,11 @@ title: LEAP settings fields
 description: LEAP settings page field values help estimate cost and time savings when automation is used. These settings support cost predictability.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-settings-fields.html
-release: australia
+release: brazil
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: reference
-last_updated: "2026-08-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Reference, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
@@ -50,7 +50,7 @@ Average time spent on each work note entry and helps estimate the total time imp
 
 </td></tr><tr><td>
 
- 
+P1 - High priority incidents
 
 </td><td>
 
@@ -138,7 +138,7 @@ Default resolution steps filter
 
 </td><td>
 
-A condition builder filter that determines which automation opportunities are eligible for resolution step generation. The default filter is `automation_priority=40`, which corresponds to Critical priority. Update the filter using the condition builder to change the priority scope.
+A condition builder filter that determines which automation opportunities are eligible for resolution step generation. By default, this filter is set to 'Critical priority' \(automation\_priority=40\). Therefore, resolution steps are generated only for critical automation opportunities. To include additional priorities, update the filter in the condition builder. The condition builder is accessible when you edit LEAP settings. Example: To generate resolution steps for both Critical and High priority automation opportunities, update the filter to select both Critical and High priority.\[Omitted image "change-automation-priority-filter.png"\] Alt text: Change the default resolution step generation criteria
 
 </td></tr></tbody>
 </table>## LEAP AI agent settings fields
@@ -201,7 +201,7 @@ Default knowledge base
 
 </td><td>
 
-The knowledge base where articles created automatically by the LEAP AI agent are stored. This field is mandatory. You cannot save settings without selecting a value.
+The knowledge base where articles created automatically by the LEAP AI agent are stored. This field is mandatory. You can't save settings without selecting a value.
 
  Articles created through the ServiceNow Otto panel are also routed to this knowledge base.
 

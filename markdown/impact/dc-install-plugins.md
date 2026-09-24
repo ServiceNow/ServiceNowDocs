@@ -3,9 +3,9 @@ title: Install Impact Value Management Data Collection Content Pack Apps depende
 description: Install the dependent plugins for Impact Value Management Data Collection Content Pack apps
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/dc-install-plugins.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enable data collection for Value Management, Configuring Impact, Impact]
 ---
@@ -31,15 +31,15 @@ Role required: admin
 
     The following dependent plugins must be installed to support the functionality of Data Collection apps:
 
-<table id="choicetable_jpr_lyl_k2c"><thead><tr><th align="left" id="d46088e99">
+<table id="choicetable_jpr_lyl_k2c"><thead><tr><th align="left" id="d48663e99">
 
 Data Collection Content Pack
 
-</th><th align="left" id="d46088e102">
+</th><th align="left" id="d48663e102">
 
 Dependent plugins
 
-</th></tr></thead><tbody><tr><td id="d46088e108">
+</th></tr></thead><tbody><tr><td id="d48663e108">
 
 **IT Operations Management \(ITOM\)**
 
@@ -47,7 +47,7 @@ Dependent plugins
 
 Event Management Core \(sn\_em\_ai\)
 
-</td></tr><tr><td id="d46088e117">
+</td></tr><tr><td id="d48663e117">
 
 **HR Service Delivery \(HRSD\)
 
@@ -57,7 +57,7 @@ Event Management Core \(sn\_em\_ai\)
 
 Human Resources Scoped App: Core \(com.sn\_hr\_core\)
 
-</td></tr><tr><td id="d46088e129">
+</td></tr><tr><td id="d48663e129">
 
 **Strategic Portfolio Management \(SPM\)
 
@@ -69,7 +69,7 @@ Human Resources Scoped App: Core \(com.sn\_hr\_core\)
 -   Goal Framework \(sn\_gf\)
 
 
-</td></tr><tr><td id="d46088e150">
+</td></tr><tr><td id="d48663e150">
 
 **Application Portfolio Management \(APM\)**
 
@@ -77,7 +77,7 @@ Human Resources Scoped App: Core \(com.sn\_hr\_core\)
 
 Enterprise Architecture \(com.snc.apm\)
 
-</td></tr><tr><td id="d46088e160">
+</td></tr><tr><td id="d48663e160">
 
 **App Engine**
 
@@ -85,15 +85,15 @@ Enterprise Architecture \(com.snc.apm\)
 
 App Engine Studio \(sn\_app\_eng\_studio\)
 
-</td></tr><tr><td id="d46088e169">
+</td></tr><tr><td id="d48663e169">
 
-**Customer Service \(CSM\)**
+**Customer Service Management\(CSM\)**
 
 </td><td>
 
-Customer Service Management\(com.sn\_customerservice\)
+Case Management Core\(com.sn\_customerservice\)
 
-</td></tr><tr><td id="d46088e178">
+</td></tr><tr><td id="d48663e178">
 
 **Security Operations \(SecOps\)
 
@@ -107,7 +107,7 @@ Customer Service Management\(com.sn\_customerservice\)
 -   Vulnerability Response \(sn\_vul\)
 
 
-</td></tr><tr><td id="d46088e205">
+</td></tr><tr><td id="d48663e205">
 
 **Hardware Asset Management \(HAM\)**
 
@@ -115,7 +115,7 @@ Customer Service Management\(com.sn\_customerservice\)
 
 Hardware Asset Management \(sn\_hamp\)
 
-</td></tr><tr><td id="d46088e214">
+</td></tr><tr><td id="d48663e214">
 
 **Software Asset Management \(SAM\)
 
@@ -127,7 +127,7 @@ Hardware Asset Management \(sn\_hamp\)
 -   SaaS License Management plugin \(com.sn\_sam\_saas\_int\)
 
 
-</td></tr><tr><td id="d46088e235">
+</td></tr><tr><td id="d48663e235">
 
 **Integrated Risk Management \(IRM\)
 
@@ -141,7 +141,7 @@ Hardware Asset Management \(sn\_hamp\)
 -   ServiceNow risk assessment \(sn\_risk\_assessment\)
 
 
-</td></tr><tr><td id="d46088e263">
+</td></tr><tr><td id="d48663e263">
 
 **IT Service Management**
 
@@ -151,5 +151,5 @@ Event Management \(com.glideapp.itom.snac\)
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Enable data collection for Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-toolkit.md)
+**Parent Topic:**[Enable data collection for Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-toolkit.md)
 

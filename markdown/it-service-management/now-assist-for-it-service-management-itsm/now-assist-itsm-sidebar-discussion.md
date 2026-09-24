@@ -3,11 +3,11 @@ title: Summarize a Sidebar discussion by using ServiceNow Otto for IT Service Ma
 description: Generate a summary of Sidebar discussions between agents, requesters, and subject matter experts by using the Sidebar discussion summarization skill in the ServiceNow Otto for IT Service Management \(ITSM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-sidebar-discussion.html
-release: australia
+release: brazil
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -19,8 +19,8 @@ Generate a summary of Sidebar discussions between agents, requesters, and subjec
 
 ## Before you begin
 
--   Next Experience must be enabled to summarize Sidebar discussions in Core UI. For more information, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-adoption-paths.md).
--   The Sidebar Chat Summarization skill must be enabled. For more information, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
+-   Next Experience must be enabled to summarize Sidebar discussions in Core UI. For more information, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-adoption-paths.md).
+-   The Sidebar Chat Summarization skill must be enabled. For more information, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
 
 Role required: itil
 
@@ -36,7 +36,7 @@ You can do these actions by using the Sidebar discussion summarization skill:
 
 You can use Sidebar discussion summarization for any task table that you have enabled Sidebar on.
 
-Summarizing Sidebar chats integrated with Microsoft Teams is supported. For more information, see [Sidebar and Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar-teams-overview.md).
+Summarizing Sidebar chats integrated with Microsoft Teams is supported. For more information, see [Sidebar and Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/sidebar-teams-overview.md).
 
 ## Procedure
 
@@ -52,15 +52,15 @@ Summarizing Sidebar chats integrated with Microsoft Teams is supported. For more
 
 4.  Add the summary to the incident work notes, and provide feedback about it.
 
-<table id="choicetable_oz1_rtx_1cc"><thead><tr><th align="left" id="d458997e253">
+<table id="choicetable_oz1_rtx_1cc"><thead><tr><th align="left" id="d469172e253">
 
 Option
 
-</th><th align="left" id="d458997e256">
+</th><th align="left" id="d469172e256">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d458997e262">
+</th></tr></thead><tbody><tr><td id="d469172e262">
 
 **Save the summary information by adding it to the incident work notes**
 
@@ -71,7 +71,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d458997e289">
+</td></tr><tr><td id="d469172e289">
 
 **Provide feedback for the summary**
 

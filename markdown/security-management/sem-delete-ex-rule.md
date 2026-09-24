@@ -3,9 +3,9 @@ title: Delete an exception rule
 description: Delete an exception rule that is not required anymore. For example, you can delete a rule if you don't want to defer a finding during ingestion.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-delete-ex-rule.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Configuring an exception rule, Configure rules to manage findings, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -16,7 +16,7 @@ Delete an exception rule that is not required anymore. For example, you can dele
 
 ## Before you begin
 
-Role required: See [Access control lists \(ACLs\) for administration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-acls-for-admin-rules.md)
+Role required: See [Access control lists \(ACLs\) for administration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-acls-for-admin-rules.md)
 
 ## About this task
 
@@ -36,6 +36,4 @@ Deleting a rule cancels the associated remediation task \(VUL\). The related fin
 
     The associated remediation task is also deleted. The related findings are reopened, and group rules are applied to the individual findings.
 
-
-**Parent Topic:**[Configuring an exception rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-exception-rule.md)
 

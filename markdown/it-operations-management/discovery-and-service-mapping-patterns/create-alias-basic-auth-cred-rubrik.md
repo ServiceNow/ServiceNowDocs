@@ -3,11 +3,11 @@ title: Create a basic authentication credential alias for Rubrik discovery
 description: Create an alias and add it to a basic authentication credential to discover Rubrik clusters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/create-alias-basic-auth-cred-rubrik.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2026-05-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Rubrik Cluster, Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -46,19 +46,19 @@ Role required: discovery\_admin
 
     5.  Configure the rest of the **Basic Auth Credentials** form fields.
 
-        For more information, see [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md).
+        For more information, see [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_BasicAuthCredentialsForm.md).
 
     6.  Select **Submit**.
 
 
 ## What to do next
 
-Create a serverless discovery schedule. For more information, see [Create a serverless discovery schedule for Rubrik cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-rubrik.md).
+Create a serverless discovery schedule. For more information, see [Create a serverless discovery schedule for Rubrik cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-rubrik.md).
 
-**Parent Topic:**[Rubrik Cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/rubrik-discovery.md)
+**Parent Topic:**[Rubrik Cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/rubrik-discovery.md)
 
 **Related topics**  
 
 
-[Rubrik Cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/rubrik-discovery.md)
+[Rubrik Cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/rubrik-discovery.md)
 

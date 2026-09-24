@@ -1,20 +1,20 @@
 ---
 title: Use Project Diagnostics to detect corrupt project data
-description: Project Diagnostics uses the Application Diagnostics Tool to detect corrupt data in a project, such as tasks with invalid parents, tasks without top tasks, and invalid or cyclic relations in a project.
+description: Project Diagnostics uses the Application Diagnostics Tool to detect corrupt project data. Examples include tasks with invalid parents, tasks without top tasks, and invalid or cyclic relations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/project-diagnostics.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Project Diagnostics, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Use Project Diagnostics to detect corrupt project data
 
-Project Diagnostics uses the Application Diagnostics Tool to detect corrupt data in a project, such as tasks with invalid parents, tasks without top tasks, and invalid or cyclic relations in a project.
+Project Diagnostics uses the Application Diagnostics Tool to detect corrupt project data. Examples include tasks with invalid parents, tasks without top tasks, and invalid or cyclic relations.
 
 ## Before you begin
 
@@ -22,21 +22,21 @@ Role required: it\_pps\_admin
 
 ## About this task
 
-Project Diagnostics can also detect whether date calculations in a project appear to be incorrect, the planning console does not open for a project, or a few tasks or relationships do not appear in the planning console.
+Project Diagnostics can also detect whether date calculations in a project appear to be incorrect. It can also identify when the planning console does not open for a project or when tasks or relationships don't appear in the planning console.
 
 ## Procedure
 
 1.  Determine whether you want to run a diagnostic scan on a single project or multiple projects.
 
-<table id="choicetable_ez5_jcj_hkb"><thead><tr><th align="left" id="d123364e55">
+<table id="choicetable_ez5_jcj_hkb"><thead><tr><th align="left" id="d123380e55">
 
 Scope
 
-</th><th align="left" id="d123364e58">
+</th><th align="left" id="d123380e58">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d123364e64">
+</th></tr></thead><tbody><tr><td id="d123380e64">
 
 **All Projects**
 
@@ -44,7 +44,7 @@ Steps
 
 Navigate to **All** &gt; **Project Administration** &gt; **Project Diagnostics**.
 
-</td></tr><tr><td id="d123364e88">
+</td></tr><tr><td id="d123380e88">
 
 **Single Project**
 
@@ -62,15 +62,15 @@ Navigate to **All** &gt; **Project Administration** &gt; **Project Diagnostics**
 
 4.  From the **Diagnostics** section, run a single diagnostic scan or multiple scans on the projects matching the filter criteria.
 
-<table id="choicetable_hqd_pcj_hkb"><thead><tr><th align="left" id="d123364e154">
+<table id="choicetable_hqd_pcj_hkb"><thead><tr><th align="left" id="d123380e154">
 
 Task
 
-</th><th align="left" id="d123364e157">
+</th><th align="left" id="d123380e157">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d123364e163">
+</th></tr></thead><tbody><tr><td id="d123380e163">
 
 **Run multiple diagnostic scans**
 
@@ -80,7 +80,7 @@ Steps
 2.  Select **Run Diagnostics** at the top-right corner of the page.
 
 
-</td></tr><tr><td id="d123364e184">
+</td></tr><tr><td id="d123380e184">
 
 **Run a specific diagnostic scan**
 
@@ -96,5 +96,5 @@ Steps
 
 ## What to do next
 
-Add your own [diagnostic scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/create-diagnostic-scan-map-script.md) and [fix scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/add-diagnostic-and-fix-script.md).
+Add your own [diagnostic scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/create-diagnostic-scan-map-script.md) and [fix scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/add-diagnostic-and-fix-script.md).
 

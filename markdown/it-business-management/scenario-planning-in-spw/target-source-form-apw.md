@@ -3,11 +3,11 @@ title: Target Source form
 description: Use the Target Source form to create and configure a source for your targets so that the actual value of the target is auto-updated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/target-source-form-apw.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Form field information for Strategic Planning, Reference, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -109,5 +109,5 @@ Custom script
 Custom script to fetch the required data from any ServiceNow AI Platform table for the target source.This field is available when the **Type** field is set to **Custom**. Or, when the **Type** field is set to **Assessment/Survey** and the **Advanced** field is set to **true**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/form-field-information-for-strategic-planning.md)
+</table>**Parent Topic:**[Form field information for Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/form-field-information-for-strategic-planning.md)
 

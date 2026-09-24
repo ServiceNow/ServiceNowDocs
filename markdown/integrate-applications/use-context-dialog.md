@@ -3,9 +3,9 @@ title: Use the Capture element dialog
 description: Identify and capture the elements on a web-based, Java, or Windows application screen by using the Capture element dialog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-context-dialog.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Chromium connector, Connectors, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -58,5 +58,5 @@ Role required: none
     \[Omitted image "elements-captured.png"\] Alt text: Elements captured.
 
 
-**Parent Topic:**[Chromium connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/chrome-connector.md)
+**Parent Topic:**[Chromium connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/chrome-connector.md)
 

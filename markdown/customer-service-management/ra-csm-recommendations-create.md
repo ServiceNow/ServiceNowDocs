@@ -3,9 +3,9 @@ title: Create a recommendation in Recommended Actions
 description: Create a recommendation with an action type of guidance, field recommendation, or guided decision tree to suggest helpful actions to agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-csm-recommendations-create.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring the Recommended Actions application, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -58,7 +58,7 @@ Then you define the action inputs, which are the parameters that enable agents t
 
     2.  In the **Document** field, select the desired action by clicking the lookup icon.
 
-        You can also create an action of type guidance, field recommendation, or guided decision tree. For more information, see [Creating guidance and field recommendation in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-config-recommendations.md).
+        You can also create an action of type guidance, field recommendation, or guided decision tree. For more information, see [Creating guidance and field recommendation in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-csm-config-recommendations.md).
 
     3.  Select **OK**.
 
@@ -68,9 +68,9 @@ Then you define the action inputs, which are the parameters that enable agents t
 
 8.  In the **Resource generator** field, select or create a resource generator and then save the record.
 
-    For more information, see [Create a resource generator in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-resource-generators-create.md). Guidances and field value recommendations can use resource generators to find relevant resources for the action inputs.
+    For more information, see [Create a resource generator in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-csm-resource-generators-create.md). Guidances and field value recommendations can use resource generators to find relevant resources for the action inputs.
 
-    The **Action type**, **Action**, and **Recommendation hint** fields are not available for AI search resource generator. You can select the action type as a guidance and an action when you configure the search result mapping for AI search. For more information, see [Map AI search results with guidance inputs in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-create-search-result-mapping-for-ai-search.md).
+    The **Action type**, **Action**, and **Recommendation hint** fields are not available for AI search resource generator. You can select the action type as a guidance and an action when you configure the search result mapping for AI search. For more information, see [Map AI search results with guidance inputs in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-create-search-result-mapping-for-ai-search.md).
 
 9.  For guidances and guided decision trees: in the **Recommendation hint** field, enter a hint text.
 
@@ -84,7 +84,7 @@ Then you define the action inputs, which are the parameters that enable agents t
 
     Action types and actions need inputs. These parameters enable agents to complete an action. You can choose static values for action inputs or you can use a resource generator to supply values.
 
-<table id="choicetable_gx1_2sx_f5b"><tbody><tr><td id="d66178e317">
+<table id="choicetable_gx1_2sx_f5b"><tbody><tr><td id="d67606e314">
 
 **Use a static value**
 
@@ -92,7 +92,7 @@ Then you define the action inputs, which are the parameters that enable agents t
 
 Enter the value in the field in the input field or use the lookup icon to select a value from the list.
 
-</td></tr><tr><td id="d66178e326">
+</td></tr><tr><td id="d67606e323">
 
 **Use a pill picker**
 

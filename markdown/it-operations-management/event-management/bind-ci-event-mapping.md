@@ -3,11 +3,11 @@ title: Example: Bind alerts to CIs using dynamic CI types
 description: Use event field mapping to dynamically bind alerts to the appropriate CIs based on event attributes, eliminating the need for separate event rules for each CI type \(also known as CI class\). This approach simplifies configuration, improves accuracy, and enhances alert to CI binding.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/bind-ci-event-mapping.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Overriding default binding, Binding alerts to CIs, Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---

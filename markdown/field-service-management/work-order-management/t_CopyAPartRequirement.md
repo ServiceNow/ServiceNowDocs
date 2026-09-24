@@ -3,11 +3,11 @@ title: Copy a part requirement
 description: Copy a part requirement to quickly create another, similar part requirement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/t\_CopyAPartRequirement.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a part requirement, Part requirements, Manage inventory in FSM, Manage work order tasks, Prepare work orders, Use, Field Service Management]
 ---
@@ -18,7 +18,7 @@ Copy a part requirement to quickly create another, similar part requirement.
 
 ## Before you begin
 
-Role required: wm\_agent, wm\_qualifier, wm\_dispatcher, wm\_admin, or [qualifier combination role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md)
+Role required: wm\_agent, wm\_qualifier, wm\_dispatcher, wm\_admin, or [qualifier combination role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md)
 
 ## Procedure
 

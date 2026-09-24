@@ -3,11 +3,11 @@ title: Enable pa\_dashboard records in scoped applications
 description: When application administration is enabled for a scoped application, access control list \(ACL\) rules for the scoped application are applied. To allow your scope to use the ACLs defined on the \[pa\_dashboards\] table but out of your scoped app, inherit the \[pa\_dashboards\] ACLs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/enable-pa-db-records-scoped-apps.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Share a responsive dashboard, Working with responsive dashboards, Create and use dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -26,7 +26,7 @@ Scope required: the scope of your application.
 
 1.  Set the system property **glide.security.scoped\_administration.honor\_global\_acl** to true.
 
-    Often this property is already set to true, so additional update is not necessary. For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+    Often this property is already set to true, so additional update is not necessary. For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 2.  Switch the scope to the scope that the dashboard is created in.
 

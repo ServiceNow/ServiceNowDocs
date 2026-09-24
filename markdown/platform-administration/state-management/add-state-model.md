@@ -3,11 +3,11 @@ title: Add a state model and transitions
 description: Add a state model and transitions to specify conditions for moving between states.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/state-management/add-state-model.html
-release: australia
+release: brazil
 product: State Management
 classification: state-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [State Management, Configure core features, Administer the ServiceNow AI Platform]
 ---

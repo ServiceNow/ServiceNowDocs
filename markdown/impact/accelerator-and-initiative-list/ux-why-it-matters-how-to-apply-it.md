@@ -3,13 +3,13 @@ title: UX: Build a Foundation for Better Experiences
 description: This Accelerator takes examples directly from the Impact customer’s instance to develop their understanding of User Experience \(UX\) and demonstrate how investing in UX directly influences the success of their ServiceNow investment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/ux-why-it-matters-how-to-apply-it.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Architecture Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # UX: Build a Foundation for Better Experiences

@@ -3,9 +3,9 @@ title: Monitor the plan list and generate the PDF
 description: Monitor the list of the business continuity plans \(BCPs\) in the BCM mobile application. You can save and generate the PDF of a plan record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/view-plans-list-and-generate-pdf.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing plans with BCM mobile application, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -20,7 +20,15 @@ Role required: sn\_bcp.plan\_manager, sn\_bcp.plan\_viewer
 
 ## About this task
 
-Users with BCM plan program manager, program manager, plan manager, plan viewer, or plan contributor role can view the plan list icon in the BCM mobile application. On accessing the icon, you can view a list of approved plans.
+Users with the following roles can view the plan list icon:
+
+-   Business Continuity Management \(BCM\) plan program manager
+-   BCM program manager
+-   BCM plan manager
+-   BCM Plan Viewer
+-   BCM plan contributor
+
+Select the icon to view a list of approved plans.
 
 To access the plan list screen, both the BCM mobile application and the BCM planning application must be installed.
 
@@ -46,7 +54,7 @@ To access the plan list screen, both the BCM mobile application and the BCM plan
 
     The PDF is generated and a message is displayed that the selected plan PDF has been successfully generated for download.
 
-4.  To save a plan, tap **Save** icon in the plan view, enter name in the 'Save the item' dialog box, and tap **Done**.
+4.  To save a particular plan, select **Save** icon in the toolbar, provide a name for the plan in the 'Save the item' dialog box, and tap **Done**.
 
     The Save functionality is provided as part of the base version.
 

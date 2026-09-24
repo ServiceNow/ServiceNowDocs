@@ -3,11 +3,11 @@ title: Approve block list entries for the Check Point NGTP integration
 description: An approval process for Block List entries is part of the preconfigured workflow. You approve Block List entries before the entries are activated on Block Lists. After you approve the Block List entry, the Gateway retrieves the entry, and your observable is blocked from that point forward.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/approve-blk-list-entries.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with block lists, Check Point Next Generation Threat Prevention integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

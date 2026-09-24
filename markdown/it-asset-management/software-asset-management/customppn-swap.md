@@ -3,26 +3,28 @@ title: Custom publisher part numbers \(PPN\)
 description: Propagate changes to entitlements and software models by replacing your custom PPNs and custom discovery maps \(DMAPs\) with the Software Asset Management Content Service PPNs and DMAPs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/customppn-swap.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Software models and Software entitlements, Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software models and software entitlements, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Custom publisher part numbers \(PPN\)
 
 Propagate changes to entitlements and software models by replacing your custom PPNs and custom discovery maps \(DMAPs\) with the Software Asset Management Content Service PPNs and DMAPs.
 
-**Note:** Custom PPNs that use a part number that is not a valid SKU from the publisher can't be replaced.
+**Note:**
+
+A custom PPN can only be replaced if its part number maps to a genuine publisher SKU in the normalized product catalog. Replacement works by matching the part number against the publisher's authoritative content library. The engine then swaps the custom entry for the standardized product record. If the part number isn't a valid SKU, nothing in the catalog matches it. The normalization engine can't validate or replace it, so it remains a manually-maintained custom entry that you must manage yourself. For information on custom part numbers, see [Custom publisher part numbers \(PPN\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/customppn-swap.md) and [Add a custom part number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sam-add-custom-part-number.md).
 
 Once the Content Service updates are downloaded to your instance, the scheduled job, **SAM - Find Product Definition Suggestions**, runs. The scheduled job checks all custom PPN and DMAP records to find corresponding PPN and DMAP matches on the Content Service. If a match for the custom PPN and DMAP is found, then a suggestion record is created in the Part number suggestions \[samp\_sw\_part\_number\_suggestion\] table. You can view the suggestions record by navigating to the **Part number suggestions** option.
 
 **Note:** If you have excluded custom PPNs from the Content Service by selecting the **Exclude from content service** option in the Custom Part Number form, then suggestions aren't shown for those custom PPNs.
 
-**Note:** For details on viewing the suggestion records, see [View publisher part number \(PPN\) suggestions in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/view-customppn-workspace.md) or [View publisher part number \(PPN\) suggestions in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/View-customppn-classic.md).
+**Note:** For details on viewing the suggestion records, see [View publisher part number \(PPN\) suggestions in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/view-customppn-workspace.md) or [View publisher part number \(PPN\) suggestions in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/View-customppn-classic.md).
 
 You can accept or reject the suggestions. If you accept the suggestion, the custom PPN and DMAP are replaced with the Content Service PPN and DMAP. All changes to entitlements and software models are propagated automatically.
 
@@ -43,5 +45,5 @@ The propagation of the Content Service DMAP results in the following changes:
     -   Any custom components that were added are deleted, as stated in a warning.
     -   Life cycles get overwritten \(with a warning message\).
 
-**Parent Topic:**[Software models and Software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-models-and-entitlements.md)
+**Parent Topic:**[Software models and software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/software-models-and-entitlements.md)
 

@@ -3,9 +3,9 @@ title: Respond to a community thread from a case
 description: For cases that are created from a community discussion, customer service agents can view and respond to the discussion in a new browser tab.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-respond-to-thread.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
 ---

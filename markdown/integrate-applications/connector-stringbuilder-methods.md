@@ -3,9 +3,9 @@ title: StringBuilder connector methods
 description: The StringBuilder connector methods enable you to create, append, update, replace, or remove strings in your automation workflow in RPA Desktop Design Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/connector-stringbuilder-methods.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [StringBuilder, Connectors, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -179,7 +179,7 @@ Returns the output of the Append and AppendLine methods.
 
 ## Configure inputs for the parameters
 
-To enter inputs for parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+To enter inputs for parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-input-port-properties.md).
 
-**Parent Topic:**[StringBuilder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/stringbuilder-connector.md)
+**Parent Topic:**[StringBuilder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/stringbuilder-connector.md)
 

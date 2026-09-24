@@ -3,11 +3,11 @@ title: CMDB and Data Foundations settings assessed in the CMDB success advisor
 description: The Configuration Management Database \(CMDB\) and Data Foundations settings review provides a configuration-level assessment of the CMDB configuration item \(CI\) classes for your principal classes to support data quality, life cycle management, and integration accuracy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-settings.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Data Foundations settings assessment, CMDB Data Manager policies review, reconciliation rules review, CI creation from assets using IRE, CI classes missing managed by group]
 breadcrumb: [Analyze CMDB settings, Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
@@ -92,5 +92,5 @@ Marks CIs as retired when no longer in use.
 </table>**Related topics**  
 
 
-[Administer CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/administer-data-manager.md)
+[Administer CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/administer-data-manager.md)
 

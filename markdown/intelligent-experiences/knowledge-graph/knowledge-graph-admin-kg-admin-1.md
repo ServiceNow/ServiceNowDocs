@@ -3,13 +3,13 @@ title: Knowledge Graph Admin \[kg\_admin\]
 description: This user can create and update Knowledge Graph schema using Knowledge Graph designer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/knowledge-graph-admin-kg-admin-1.html
-release: australia
+release: brazil
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Knowledge Graph roles, Reference for Knowledge Graph, Knowledge Graph, Enable AI experiences]
+breadcrumb: [Knowledge Graph roles, Reference for Knowledge Graph, Knowledge Graph, Managing data for AI, Enable AI Experiences]
 ---
 
 # Knowledge Graph Admin \[kg\_admin\]

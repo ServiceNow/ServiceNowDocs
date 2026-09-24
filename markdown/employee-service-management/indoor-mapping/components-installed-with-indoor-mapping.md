@@ -3,11 +3,11 @@ title: Map components installed with Indoor Mapping
 description: Several types of components are installed with the Indoor Mapping application, including user roles, tables, and scheduled jobs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/components-installed-with-indoor-mapping.html
-release: australia
+release: brazil
 product: Indoor Mapping
 classification: indoor-mapping
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Reference, Indoor Mapping, Workplace Service Delivery, Employee Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Reference, Indoor Mapping, Workplace Service Delivery, Employee Ser
 
 Several types of components are installed with the Indoor Mapping application, including user roles, tables, and scheduled jobs.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 Demo data is available for this plugin.
 
@@ -536,9 +536,15 @@ Sync script Notification
 A notification is sent to the administrator if changes were made to Indoor Mapping map data objects and the synchronization script is not run. The notification reminds the administrator that the data might not be in synchronized and that the synchronization process must be run.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Indoor Mapping references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/indoor-mapping-references.md)
+</table>**Parent Topic:**[Indoor Mapping references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/indoor-mapping/indoor-mapping-references.md)
 
-**Previous topic:**[Indoor Mapping references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/indoor-mapping-references.md)
+**Previous topic:**[Indoor Mapping references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/indoor-mapping/indoor-mapping-references.md)
 
-**Next topic:**[Indoor Mapping terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/indoor-mapping-common-terminology.md)
+**Next topic:**[Indoor Mapping terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/indoor-mapping/indoor-mapping-common-terminology.md)
+
+**Parent Topic:**[Indoor Mapping references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/indoor-mapping/indoor-mapping-references.md)
+
+**Previous topic:**[Indoor Mapping references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/indoor-mapping/indoor-mapping-references.md)
+
+**Next topic:**[Indoor Mapping terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/indoor-mapping/indoor-mapping-common-terminology.md)
 

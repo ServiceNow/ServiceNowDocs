@@ -3,11 +3,11 @@ title: Configure Microsoft Teams connection with Major Security Incident Managem
 description: Set up Major Security Incident Management with Microsoft Teams connection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configure-teams-msim.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrate Major Security Incident Management with Microsoft Teams, Integrate, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -22,7 +22,7 @@ Prerequisite: Make sure that you have registered an application in Azure Active 
 
 Role required: admin
 
-**Note:** This Administration UI path replaces the manual System OAuth and Connections &amp; Credentials configuration steps. For more information, see [Establish MS Teams Graph connection on ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/msim-micorsoft-team-requirements.md).
+**Note:** This Administration UI path replaces the manual System OAuth and Connections &amp; Credentials configuration steps. For more information, see [Establish Microsoft Teams Graph connection on ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/msim-micorsoft-team-requirements.md).
 
 ## Procedure
 
@@ -69,5 +69,5 @@ Role required: admin
 7.  Select **Show Advanced Details** to view the configuration details.
 
 
-**Parent Topic:**[Integrate Major Security Incident Management with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/integrate-teams-msim.md)
+**Parent Topic:**[Integrate Major Security Incident Management with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/integrate-teams-msim.md)
 

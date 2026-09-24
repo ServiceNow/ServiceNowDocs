@@ -3,11 +3,11 @@ title: Install Digital End-User Experience
 description: Digital End-User Experience \(DEX\) is available with activation of the Digital End-User Experience \[sn\_dex\] plugin. You must have the admin role to install the DEX product \[sn\_dex\]. During installation, Application and Device Health is included as a component in DEX.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/install-app-device-health.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [install application device health, device health plugin, install dex application, activate dex plugin]
 breadcrumb: [Installing DEX on your local machine, Configure, Digital End-User Experience, IT Service Management]
@@ -31,7 +31,7 @@ The following items are installed with Digital End-User Experience:
 -   Roles
 -   Tables
 
-For more information, see [Installed with DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/components-installed-with-dex.md).
+For more information, see [Installed with DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/components-installed-with-dex.md).
 
 For information about DEX data migration, see the [KB1646364](https://support.servicenow.com/kb_view.do?sysparm_article=KB1646364) article in the knowledge base.
 
@@ -59,6 +59,4 @@ For information about DEX data migration, see the [KB1646364](https://support.se
 
     **Warning:** Digital End-User Experience is installed with Mutual Transport Layer Security \(mTLS\) automatically enabled on the ServiceNow instance. As an updated, more secure version of SSL, mTLS enhances security by encrypting data and verifying the identity of both the client and server before establishing a connection. If you have legacy security products on any other integrations with ServiceNow, they might break after DEX installation. Update to support TLS or mTLS, aligning with the enhanced security features.
 
-
-**Parent Topic:**[Installing DEX on your local machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/installing-dex-local.md)
 

@@ -3,11 +3,11 @@ title: Assign assignment group to your service
 description: After creating the services for your service set \(department\), assign the assignment groups to the services in the service sets to enable agents to transfer tickets to the appropriate routing group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/assign-group-to-service.html
-release: australia
+release: brazil
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure service to use Universal Request, Setting up and configuring Universal Request, Universal Request, Employee Service Management]
 ---
@@ -35,5 +35,5 @@ Assigning assignment groups to the various departmental service sets facilitates
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Configure service to use Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/config-service-for-ur.md)
+**Parent Topic:**[Configure service to use Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/universal-request-for-hr-service-delivery/config-service-for-ur.md)
 

@@ -3,11 +3,11 @@ title: Edit a scheduled data import from CMDB performance insights
 description: Edit a scheduled data import directly from CMDB performance insights for your Service Graph Connectors. Consider enabling Concurrent Import with a custom size partition to split incoming data into multiple import sets and transform the import sets concurrently to reduce processing time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/insights-schedule-data-import.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -41,12 +41,12 @@ Role required: sn\_cmdb\_admin \(CMDB Admin\) and one of these roles:
 
     You may need to change your application scope to create or edit a scheduled data import from CMDB Workspace.
 
-    For more information about updating a scheduled data import, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_ScheduleADataImport.md).
+    For more information about updating a scheduled data import, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/t_ScheduleADataImport.md).
 
 8.  Select **Update**.
 
 
-**Parent Topic:**[CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)
+**Parent Topic:**[CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)
 
 **Related topics**  
 

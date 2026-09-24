@@ -3,9 +3,9 @@ title: Control the default price list on transaction header or header line
 description: Define the default price list displayed to your sales and order agents on the transaction header or header line by using the Price List Defaulting Matrix.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/som-control-default-pricelist.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---

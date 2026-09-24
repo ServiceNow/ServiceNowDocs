@@ -3,11 +3,11 @@ title: Add parallel activities
 description: If the When to Start field is set to With Previous, then parallel activities can be initiated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/parallel-activities.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create playbooks for Manual Phishing in Workflow Studio, Playbook for Manual Phishing, Process-based Playbooks, Security Incident Response playbooks, Playbook Resources, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -32,5 +32,5 @@ To overcome this, in the base system an activity definition called **Update Task
 
 A process definition always requires a trigger condition. But, if you aren’t sure when the process should be triggered, you can still create a process definition with a dummy trigger condition. Set the trigger condition as **sys\_id is empty**. This condition will never be met.
 
-**Parent Topic:**[Create playbooks for Manual Phishing in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-process-manual-phishing.md)
+**Parent Topic:**[Create playbooks for Manual Phishing in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/create-process-manual-phishing.md)
 

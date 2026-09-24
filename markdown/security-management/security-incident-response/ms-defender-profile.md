@@ -3,11 +3,11 @@ title: Create an incident profile
 description: Determine the Microsoft Defender incidents that are suitable for creating security incidents by creating an incident profile in your ServiceNow AI Platform instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/ms-defender-profile.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Microsoft Defender integration for Security Operations, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -98,5 +98,5 @@ Optional description of the profile.
 
 ## What to do next
 
-[Map incident fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/microsoft-defender-mapping.md)
+[Map incident fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/microsoft-defender-mapping.md)
 

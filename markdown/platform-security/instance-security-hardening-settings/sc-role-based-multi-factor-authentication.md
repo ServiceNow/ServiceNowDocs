@@ -3,11 +3,11 @@ title: Activate role based multi-factor authentication
 description: Use the glide.authenticate.multifactor property to enforce role-based multi-factor authentication \(MFA\) for all users assigned to specific roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-role-based-multi-factor-authentication.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Hardening settings, Platform Security]
 ---
@@ -16,9 +16,16 @@ breadcrumb: [Authentication, Hardening settings, Platform Security]
 
 Use the **glide.authenticate.multifactor** property to enforce role-based multi-factor authentication \(MFA\) for all users assigned to specific roles.
 
-The **glide.authenticate.multifactor** system property enforces multi-factor authentication based on the roles assigned to the user. If this property is set to **true**, then it enforces role-based multi-factor authentication for all users described in the Multi-factor Criteria \[multi\_factor\_criteria\] table. This table enforces multi-factor authentication based on the roles assigned to the user. If a user has been assigned admin, security\_admin or user\_admin roles in the multi-factor roles list, MFA is enforced.
+The **glide.authenticate.multifactor** property enforces multi-factor authentication \(MFA\) based on the roles assigned to the user. When set to **true**, the platform enforces role-based MFA for all users whose roles are listed in the Multi-factor Criteria \[multi\_factor\_criteria\] table.
 
-Ensure that the property **glide.authenticate.multifactor** is set to **true** and that the Multi-factor Criteria \[multi\_factor\_criteria\] table has a **Role base multi-factor authentication** record with the **Active** field set to **true**.
+The Multi-factor Criteria \[multi\_factor\_criteria\] table defines which roles require MFA authentication. If a user has been assigned admin, security\_admin or user\_admin roles in the multi-factor roles list, MFA is enforced.
+
+Enforcing MFA based on roles strengthens authentication security and aligns with best practices for protecting privileged accounts.
+
+-   Navigate to /sys\_properties\_list.do on the instance and verify that the **glide.authenticate.multifactor** property exists and is set to `true`.
+
+-   Navigate to `/multi_factor_criteria_list.do` on the instance and verify that the **Role based multi-factor authentication** record has **Active** set to **true**.
+
 
 ## More information
 
@@ -72,7 +79,8 @@ Default value
 
 </td><td>
 
-&lt;none&gt;
+-   false
+-   The Multi-factor Criteria \[multi\_factor\_criteria\] table record with sys\_id `d427668b73003300fdbd04fbc4f6a7b6` is shipped in a zbooted instance but is not set to active
 
 </td></tr><tr><td>
 
@@ -89,7 +97,7 @@ Category
 
 </td><td>
 
-[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
+[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
 
 </td></tr><tr><td>
 
@@ -99,7 +107,7 @@ Security risk
 
 -   Severity score: 5.7
 -   CVSS rating: Medium
--   Security risk details: Enforcing MFA based on roles strengthens authentication security and aligns with best practices for protecting privileged accounts.
+-   Security risk details: Enforcing MFA based on roles strengthens authentication security. This approach aligns with best practices for protecting privileged accounts.
 
 </td></tr><tr><td>
 
@@ -107,7 +115,7 @@ Functional impact
 
 </td><td>
 
-Enabling this property improves the experience of the user. It acts as an extra layer of protection and security against compromised credentials.
+Users assigned the admin, security\_admin, or user\_admin role will be prompted for a second authentication factor at login, and their password. Users without one of these roles are unaffected.
 
 </td></tr><tr><td>
 
@@ -115,8 +123,8 @@ Dependencies and prerequisites
 
 </td><td>
 
-None
+For role-based MFA enforcement to take effect, **glide.authenticate.multifactor** must be set to **true** and Multi-factor Criteria \[multi\_factor\_criteria\] must be active.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
+</table>**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

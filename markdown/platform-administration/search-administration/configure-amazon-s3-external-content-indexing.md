@@ -3,13 +3,13 @@ title: Configure Amazon S3 for external content indexing
 description: Create an Identity and Access Management \(IAM\) user in the Amazon Web Services \(AWS\) Management Console. Define an access key for your new user to allow the Amazon S3 external content connector to access your Amazon S3 source system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-amazon-s3-external-content-indexing.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Amazon S3 external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -27,7 +27,7 @@ Role required: none
 
 The Amazon S3 external content connector retrieves content from buckets in your Amazon S3 source system using the Amazon Web Services \(AWS\) API. To access your Amazon S3 buckets, the connector uses an access key ID and secret access key that you define for a new Identity and Access Management \(IAM\) user. You specify bucket access permissions for this IAM user with an IAM policy.
 
-Your ServiceNow AI Platform needs this IAM user's access key ID and secret access key to configure the Amazon S3 external content connector for proper connection to your AWS account.
+Your ServiceNow AI Platform administrator needs this IAM user's access key ID and secret access key to configure the Amazon S3 external content connector for proper connection to your AWS account.
 
 **Important:** All content the connector retrieves from your Amazon S3 buckets is treated as public content, searchable by everyone who has access to your configured AI Search experience.
 
@@ -114,7 +114,7 @@ Your ServiceNow AI Platform needs this IAM user's access key ID and secret acces
 
     3.  On the Set permissions page, select **Attach policies directly** in the Permissions options section.
 
-    4.  In the Permissions policies list, select the option for the new IAM policy that you created in step [1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-amazon-s3-external-content-indexing.md), then select **Next**.
+    4.  In the Permissions policies list, select the option for the new IAM policy that you created in step [1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-amazon-s3-external-content-indexing.md), then select **Next**.
 
         \[Omitted image "aws-mc-iam-set-permissions-user.png"\] Alt text: Set permissions page for new user in AWS Management Console IAM web service.
 
@@ -126,9 +126,9 @@ Your ServiceNow AI Platform needs this IAM user's access key ID and secret acces
 
 3.  Create an access key for your new IAM user:
 
-    1.  Select **View user** in the message that appeared when you completed step [2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-amazon-s3-external-content-indexing.md).
+    1.  Select **View user** in the message that appeared when you completed step [2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-amazon-s3-external-content-indexing.md).
 
-        If the message and **View user** link are no longer visible, navigate to **Access management** &gt; **Users** in the AWS Management Console, then select the user that you created in step [2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-amazon-s3-external-content-indexing.md).
+        If the message and **View user** link are no longer visible, navigate to **Access management** &gt; **Users** in the AWS Management Console, then select the user that you created in step [2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-amazon-s3-external-content-indexing.md).
 
     2.  In the Security credentials tab, navigate to the Access keys section and select **Create access key**.
 
@@ -159,9 +159,9 @@ Your ServiceNow AI Platform needs this IAM user's access key ID and secret acces
 
 ## What to do next
 
-Provide the IAM user access key and secret access key that you copied in step [3.f](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-amazon-s3-external-content-indexing.md) to your ServiceNow AI Platform admins. Your admin needs these items to configure an Amazon S3 external content connector to retrieve searchable content and security principals from your Amazon S3 buckets.
+Provide the IAM user access key and secret access key that you copied in step [3.f](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-amazon-s3-external-content-indexing.md) to your ServiceNow AI Platform admins. Your admin needs these items to configure an Amazon S3 external content connector to retrieve searchable content and security principals from your Amazon S3 buckets.
 
-For details on creating and configuring an Amazon S3 external content connector, see [Create an Amazon S3 external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-amazon-s3.md).
+For details on creating and configuring an Amazon S3 external content connector, see [Create an Amazon S3 external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-ext-cont-connector-amazon-s3.md).
 
-**Parent Topic:**[Amazon S3 external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/amazon-s3-external-content-connector.md)
+**Parent Topic:**[Amazon S3 external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/amazon-s3-external-content-connector.md)
 

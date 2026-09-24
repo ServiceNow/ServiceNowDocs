@@ -3,9 +3,9 @@ title: Configure project oversight for Product offering
 description: Specify the conditions and decision rules that qualify the product offering for site project oversight. You also specify the project template task used by Order Management to create the project for product offerings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-site-project-product-offering.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up project oversight conditions and decision rules, Configuring the Strategic Portfolio Management integration, Order Management integration with Strategic Portfolio Management, Integrate, Sales Customer Relationship Management]
 ---

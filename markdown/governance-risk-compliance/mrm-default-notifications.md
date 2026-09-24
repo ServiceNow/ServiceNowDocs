@@ -3,9 +3,9 @@ title: Default Model Risk Management email notifications
 description: Default Model Risk Management notifications inform users about important events and status changes throughout the Model Risk Management workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/mrm-default-notifications.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Model Risk Management, Governance, Risk, and Compliance]
 ---
@@ -40,5 +40,5 @@ To access these configurations, navigate to **All** &gt; **System Notification**
 |Notify model owner for new model|A model is created.|Model owner|
 |New model submission|A model is submitted for review.|Model Risk Governance team|
 
-**Parent Topic:**[Model Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/mrm-reference.md)
+**Parent Topic:**[Model Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/mrm-reference.md)
 

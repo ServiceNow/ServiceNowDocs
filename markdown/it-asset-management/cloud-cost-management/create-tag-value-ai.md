@@ -3,11 +3,11 @@ title: Add or update a tag value for an AI Service tag category
 description: Associate a tag name with its corresponding tag value whenever a new AI service or a category within an existing AI service is introduced for Amazon Web Services \(AWS\), Microsoft Azure, or Google Cloud Platform \(GCP\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/create-tag-value-ai.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create and update a tag category, Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -47,7 +47,7 @@ Role required: insights\_admin \[sn\_clin\_core.insights\_admin\]
 
 9.  If you want to update the tag value of an AI service that you have created, select **Add/update tag values**.
 
-    **Note:** You can't update the tag values for the default cloud categories for managing AI services. To view the default cloud categories for managing AI services within the Machine Learning service category, see [List of default Cloud categories for AI services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/ai-service-provider-list.md).
+    **Note:** You can't update the tag values for the default cloud categories for managing AI services. To view the default cloud categories for managing AI services within the Machine Learning service category, see [List of default Cloud categories for AI services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/ai-service-provider-list.md).
 
     1.  Select the **Update** tab.
 
@@ -68,24 +68,24 @@ Role required: insights\_admin \[sn\_clin\_core.insights\_admin\]
 
 ## Result
 
-After a tag name is associated with its corresponding tag value, you can view the spend data of the AI service you added on the Spend analytics page. For more information, see [Spend analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/spend-anaytics.md).
+After a tag name is associated with its corresponding tag value, you can view the spend data of the AI service you added on the Spend analytics page. For more information, see [Spend analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/spend-anaytics.md).
 
 ## What to do next
 
 After you add a tag value for an AI Service tag category, you must reimport the billing data to generate the spend for the added tag.
 
-**Parent Topic:**[Create and update a tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/tag-category-crud-cloudin.md)
+**Parent Topic:**[Create and update a tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/tag-category-crud-cloudin.md)
 
 **Related topics**  
 
 
-[Cost usage tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/tags-overview.md)
+[Cost usage tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/tags-overview.md)
 
-[Create and update a tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/tag-category-crud-cloudin.md)
+[Create and update a tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/tag-category-crud-cloudin.md)
 
-[Schedule and manage the jobs that download AWS billing data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/aws-bill-dwnld-job-cloudin.md)
+[Schedule and manage the jobs that download AWS billing data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/aws-bill-dwnld-job-cloudin.md)
 
-[Schedule and manage the jobs that download Azure billing data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/schedule-azure-billing-job.md)
+[Schedule and manage the jobs that download Azure billing data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/schedule-azure-billing-job.md)
 
-[Schedule and manage the jobs that download Google Cloud billing data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/gcp-bill-dwnld-job-cloudin.md)
+[Schedule and manage the jobs that download Google Cloud billing data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/gcp-bill-dwnld-job-cloudin.md)
 

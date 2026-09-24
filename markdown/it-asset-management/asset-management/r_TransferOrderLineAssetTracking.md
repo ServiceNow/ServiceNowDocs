@@ -1,20 +1,20 @@
 ---
 title: Transfer order line asset tracking
-description: Understand how asset states and stock information update automatically as a transfer order line progresses through each stage. Consumables and non-consumables are tracked differently.
+description: As transfer order line actions are triggered, the stock information and states of any affected assets are updated. Consumables and non-consumables are tracked differently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/r\_TransferOrderLineAssetTracking.html
-release: australia
+release: brazil
 product: Asset Management
 classification: asset-management
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Manage transfer order, Use, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Transfer order line asset tracking
 
-Understand how asset states and stock information update automatically as a transfer order line progresses through each stage. Consumables and non-consumables are tracked differently.
+As transfer order line actions are triggered, the stock information and states of any affected assets are updated. Consumables and non-consumables are tracked differently.
 
 When an asset is included in a transfer order line, the following takes place:
 
@@ -22,12 +22,12 @@ When an asset is included in a transfer order line, the following takes place:
 -   The Active TO option on the asset form is automatically selected to show that the asset is part of a transfer order and cannot be added to multiple transfer orders
 -   The asset is removed from the pool of available assets and changed to a state of In Stock Pending Transfer
 
--   **[Transfer order line asset tracking of non-consumables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/r_TrsferOrderLneAssetTrackNonConsum.md)**  
+-   **[Transfer order line asset tracking of non-consumables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/r_TrsferOrderLneAssetTrackNonConsum.md)**  
 When transfer order line stages change for non-consumables, it affects asset substates.
--   **[Transfer order line asset tracking consumables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/r_TrsferOrderLneAssetTrackConsum.md)**  
+-   **[Transfer order line asset tracking consumables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/r_TrsferOrderLneAssetTrackConsum.md)**  
 When a consumable is added to a transfer order line, the stock for the consumable is split into two records and the transfer order links to the newly created stock line.
 
-**Parent Topic:**[Manage transfer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/manage-transfer-orders.md)
+**Parent Topic:**[Manage transfer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/manage-transfer-orders.md)
 
 **Related topics**  
 
@@ -38,9 +38,11 @@ When a consumable is added to a transfer order line, the stock for the consumabl
 
 [Customize transfer order line tasks]()
 
-[Delete a transfer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/t_DeleteATransferOrder.md)
+[Transfer assets using transfer orders]()
 
-[Delete a transfer order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/t_DeleteATransferOrderLine.md)
+[Delete a transfer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/t_DeleteATransferOrder.md)
 
-[Return items received in a transfer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/t_ReturnItemsRecInXferOrder.md)
+[Delete a transfer order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/t_DeleteATransferOrderLine.md)
+
+[Return items received in a transfer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/t_ReturnItemsRecInXferOrder.md)
 

@@ -3,11 +3,11 @@ title: Special cases in job schedules
 description: Some special cases require care in job scheduling.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/r\_SpecialCasesInJobSchedules.html
-release: australia
+release: brazil
 product: Time Configuration
 classification: time-configuration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Scheduled jobs, System scheduler, Explore, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -85,20 +85,20 @@ Scheduled Script Execution and Scheduled Jobs are categorized as data records in
 
 You can optionally export and import data records via XML. However, to prevent unexpected data changes, Schedule Item \[sys\_trigger\] records are not created for data records imported from an XML file such as an update set. To run scheduled jobs or scripts imported from another instance, update the corresponding job or script record in the target instance.
 
-**Parent Topic:**[Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_ScheduledJobs.md)
+**Parent Topic:**[Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/c_ScheduledJobs.md)
 
 **Related topics**  
 
 
-[Advanced options for scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/advanced-options-for-scheduled-jobs.md)
+[Advanced options for scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/advanced-options-for-scheduled-jobs.md)
 
-[Create a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_CreateAScheduledJob.md)
+[Create a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/t_CreateAScheduledJob.md)
 
-[Enable run types for scheduled job child tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/customize-run-times-for-scheduled-jobs.md)
+[Enable run types for scheduled job child tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/customize-run-times-for-scheduled-jobs.md)
 
-[Personalize the system date format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_PersonalizeTheSystemDateFormat.md)
+[Personalize the system date format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/t_PersonalizeTheSystemDateFormat.md)
 
-[Set a system time zone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_SetASystemTimeZone.md)
+[Set a system time zone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/t_SetASystemTimeZone.md)
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-sep-landing-page.md)
 

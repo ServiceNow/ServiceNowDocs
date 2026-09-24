@@ -3,7 +3,7 @@ title: Configure the Government case summarization skill in ServiceNow Otto for 
 description: Activate and customize the Government case summarization skill in the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application. Government service agents can use the generative AI skills in CSM Configurable Workspace and in Public Sector Digital Services Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-customize-case-summ.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 6
@@ -48,7 +48,7 @@ Role required: admin
 
 7.  In the General details step, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs for ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-skill-inputs.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs for ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/now-assist-psds-skill-inputs.md).
 
     1.  Enter a name and description for the skill.
 
@@ -202,7 +202,7 @@ Resolved
 
         -   **ServiceNow Otto panel**: When selected, the ServiceNow Otto skills are available in the ServiceNow Otto panel.
 
-            If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+            If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
             For the skills that appear in the ServiceNow Otto panel, select the down arrow to identify the roles that can use the skill.
 

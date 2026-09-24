@@ -3,11 +3,11 @@ title: Process a commercial claim
 description: A processor can initiate a claim, review a claim to verify it and after an adjuster’s evaluation, complete fulfillment tasks and close a claim.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/manually\_validate\_claim.html
-release: australia
+release: brazil
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Commercial Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -28,15 +28,15 @@ Update and close the tasks of the claim case.
 
 2.  Open the claim case and task one of the following ways.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d116553e76">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d118292e76">
 
 Option
 
-</th><th align="left" id="d116553e79">
+</th><th align="left" id="d118292e79">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d116553e85">
+</th></tr></thead><tbody><tr><td id="d118292e85">
 
 **From the landing page**
 
@@ -44,7 +44,7 @@ Steps
 
 Select an active case from the My pending tasks or My open claims list.
 
-</td></tr><tr><td id="d116553e94">
+</td></tr><tr><td id="d118292e94">
 
 **From the case playbook**
 
@@ -61,7 +61,7 @@ Select an active case from the My pending tasks or My open claims list.
     -   **Fulfillment**
 
 
-</td></tr><tr><td id="d116553e157">
+</td></tr><tr><td id="d118292e157">
 
 **From a commercial auto claim case**
 
@@ -74,7 +74,7 @@ Select an active case from the My pending tasks or My open claims list.
 5.  In the case, select the **Tasks** tab and select the claim task.
 
 
-</td></tr><tr><td id="d116553e205">
+</td></tr><tr><td id="d118292e205">
 
 **From the Commercial auto claim tasks list**
 
@@ -101,15 +101,15 @@ Select an active case from the My pending tasks or My open claims list.
 
 5.  Close the task from the playbook activity or the task form.
 
-<table id="choicetable_snm_pcf_25b"><thead><tr><th align="left" id="d116553e289">
+<table id="choicetable_snm_pcf_25b"><thead><tr><th align="left" id="d118292e289">
 
 Claim task
 
-</th><th align="left" id="d116553e292">
+</th><th align="left" id="d118292e292">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d116553e298">
+</th></tr></thead><tbody><tr><td id="d118292e298">
 
 **To submit incident details**
 
@@ -117,7 +117,7 @@ Action
 
 In the case playbook, select **Mark complete**.
 
-</td></tr><tr><td id="d116553e310">
+</td></tr><tr><td id="d118292e310">
 
 **To validate a claim**
 
@@ -125,7 +125,7 @@ In the case playbook, select **Mark complete**.
 
 A claim validation task is created when a business rule determines a duplicate claim due to the same insurance policy and loss date.To validate a claim: In the task form, select **Approve** to validate the claim or **Reject** to deny and close the claim.
 
-</td></tr><tr><td id="d116553e328">
+</td></tr><tr><td id="d118292e328">
 
 **To add claim property, participant, or coverage information**
 
@@ -133,7 +133,7 @@ A claim validation task is created when a business rule determines a duplicate c
 
 In the case playbook, select **Save**.
 
-</td></tr><tr><td id="d116553e340">
+</td></tr><tr><td id="d118292e340">
 
 **To initiate a claim**
 
@@ -141,7 +141,7 @@ In the case playbook, select **Save**.
 
 In the case playbook, select **Submit**.
 
-</td></tr><tr><td id="d116553e353">
+</td></tr><tr><td id="d118292e353">
 
 **To close a claim**
 

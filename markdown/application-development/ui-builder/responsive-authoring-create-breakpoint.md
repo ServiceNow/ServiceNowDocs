@@ -3,11 +3,11 @@ title: Create a breakpoint for responsive authoring
 description: Learn how to create custom breakpoints for responsive authoring to control the look and feel of a page at different form factors.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/responsive-authoring-create-breakpoint.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Responsive authoring, Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -38,11 +38,11 @@ Add up to three additional breakpoints. For example, there's a default form fact
 
 2.  Open an experience to work in or create an experience by selecting **Create &gt; Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Open an existing page created from scratch with responsive authoring or create a page from scratch with responsive authoring.
 
-    For more information about how to create a page, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
+    For more information about how to create a page, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-page.md).
 
 4.  Select the menu icon next to the three form factor icons.
 
@@ -69,5 +69,5 @@ Add up to three additional breakpoints. For example, there's a default form fact
     **Note:** The default form factors \(desktop, tablet, and mobile\) can't be edited or removed.
 
 
-**Parent Topic:**[Responsive authoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/responsive-authoring.md)
+**Parent Topic:**[Responsive authoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/responsive-authoring.md)
 

@@ -3,9 +3,9 @@ title: Use Screen Summarization
 description: Screen Summarization is a feature that supports visually impaired and low-vision users by providing AI-generated summaries of workspace pages and their sections. The page and section summaries can be read aloud with a screen reader.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/use-screen-summarization.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -19,8 +19,6 @@ Screen Summarization is a feature that supports visually impaired and low-vision
 Install Screen Summarization by requesting it from the ServiceNow® Store. Visit the [ServiceNow® Store](https://store.servicenow.com/store) to view all the available apps and information about submitting requests to the store.
 
 Role required: workspace\_user
-
-## About this task
 
 \[Omitted video\] Description: Screen Summarization overview and instructions on how to use it
 

@@ -3,10 +3,10 @@ title: Quote transaction fields
 description: ServiceNow Quote Experience supports five field types at two levels —transaction \(header\) and transaction line —enabling administrators to capture all required quote data in CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-fields.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-05-07"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -38,7 +38,7 @@ Every field, regardless of type, includes these standard attributes and settings
     -   Read-only — Users can view but cannot modify the field
     -   No Access — Field is hidden from users
 
-For details on configuring access control rules for different user groups, see [ServiceNow Quote Experience: Access Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-transaction-manager-transaction-access-control.md).
+For details on configuring access control rules for different user groups, see [ServiceNow Quote Experience: Access Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-transaction-manager-transaction-access-control.md).
 
 <table id="table_nwg_ldp_hjc"><thead><tr><th>
 
@@ -90,40 +90,29 @@ Date/Time
 
 Stores both date and time values in UTC format \(YYYY-MM-DDTHH:MM:SSZ\) to ensure consistency across time zones.You can set a default date/time value that pre-fills when a transaction is created. The Not Before and Not After constraints restrict the date/time range users can select, enforcing business rules such as "quotes cannot be created for dates in the past" or "expiration dates must be within 30 days."
 
-For detailed guidance on date and time field configuration and best practices, see [Date and time field fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-date-time-field-behavior.md).
+For detailed guidance on date and time field configuration and best practices, see [Date and time field fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-date-time-field-behavior.md).
 
 </td></tr></tbody>
 </table>## System-provided fields
 
 ServiceNow Quote Experience provides a set of system-provided fields at both levels that are commonly used in transaction processing.
 
-Transaction-level system fields cover the following categories: pricing information, opportunity information, transaction information, and account information. For a complete list, see [Transaction-level system fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-header-level-system-fields.md).
+Transaction-level system fields cover the following categories: pricing information, opportunity information, transaction information, and account information. For a complete list, see [Transaction-level system fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-header-level-system-fields.md).
 
-Transaction line-level system fields cover the following categories: pricing information, transaction line information, configuration information, product information, and order information. For a complete list, see [Transaction line-level system fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-line-level-system-fields.md).
+Transaction line-level system fields cover the following categories: pricing information, transaction line information, configuration information, product information, and order information. For a complete list, see [Transaction line-level system fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-line-level-system-fields.md).
 
 ## Custom fields
 
 Custom fields can be added to a blueprint through the ServiceNow Quote Experience administration interface. Fields created through the interface are automatically associated with the blueprint.
 
--   **[Create a transaction field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-field.md)**  
-Create a custom field in ServiceNow Quote Experience to capture additional data at the transaction \(header\) level or the transaction line level in CPQ.
--   **[Transaction-level system fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-header-level-system-fields.md)**  
-Reference for the system-provided fields at the transaction \(header\) level in Quote Experience, including variable names, descriptions, who can modify each field, and default values.
--   **[Transaction line-level system fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-line-level-system-fields.md)**  
-Reference for the system-provided fields at the transaction line level in CPQ ServiceNow Quote Experience, including variable names, descriptions, who can modify each field, and default values.
--   **[Date and time field fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-date-time-field-behavior.md)**  
-Reference for how date and time fields behave in CPQ ServiceNow Quote Experience rules and scripts, including comparison operators, null handling, and supported aggregate functions.
-
-**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-crm-tm-quoting-configure.md)
-
 **Related topics**  
 
 
-[Create a transaction field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-field.md)
+[Create a transaction field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-create-field.md)
 
-[Transaction-level system fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-header-level-system-fields.md)
+[Transaction-level system fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-header-level-system-fields.md)
 
-[Transaction line-level system fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-line-level-system-fields.md)
+[Transaction line-level system fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-line-level-system-fields.md)
 
-[Date and time field fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-date-time-field-behavior.md)
+[Date and time field fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-date-time-field-behavior.md)
 

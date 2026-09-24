@@ -3,9 +3,9 @@ title: Recommended Actions in the chat interaction record
 description: The Recommended Actions feature is available by default in the contextual side panel for chat interaction records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-csm-chat-interaction-record.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Recommended Actions for Service, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---

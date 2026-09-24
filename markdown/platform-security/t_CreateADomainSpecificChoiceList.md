@@ -3,9 +3,9 @@ title: Create a domain-specific choice list
 description: Administrators can configure choice lists to contain entries specific to a particular domain.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_CreateADomainSpecificChoiceList.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setup and administration, Domain separation for service providers, Access Management]
 ---

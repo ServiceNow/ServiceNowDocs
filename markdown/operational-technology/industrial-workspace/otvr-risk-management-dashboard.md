@@ -3,11 +3,11 @@ title: Operational Technology Risk Management dashboard
 description: The Operational Technology \(OT\) Risk Management dashboard contains the risk score and the vulnerability items \(VITs\) of the OT devices at each level of the equipment model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/otvr-risk-management-dashboard.html
-release: australia
+release: brazil
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dashboard Library in the Industrial Workspace, Explore, Industrial Workspace, Operational Technology]
 ---
@@ -40,5 +40,5 @@ You can use the Site list to search for and select the site that you want to vie
 
 Select the **OT Vulnerability Risk** from the Select Risk Type list to view the rolled up risk score and the VITs for the selected sites.
 
-**Parent Topic:**[Dashboard Library in the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/dashboard-library-industrial-workspace.md)
+**Parent Topic:**[Dashboard Library in the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/dashboard-library-industrial-workspace.md)
 

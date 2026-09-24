@@ -3,11 +3,11 @@ title: Enforce security rules to sharing dashboards
 description: Use the glide.cms.dashboards.sharing\_with\_secure\_search property to control whether users can share dashboards.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-enforce-security-rules-to-sharing-dashboards.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Access control, Hardening settings, Platform Security]
 
 Use the **glide.cms.dashboards.sharing\_with\_secure\_search** property to control whether users can share dashboards.
 
-When the **glide.cms.dashboards.sharing\_with\_secure\_search** system property is not set to **true**, a user can share a dashboard to groups and roles that they do not personally have access to. This property enforces ACLs on searching the User \[sys\_user\], Roles \[sys\_user\_role\], and Groups \[sys\_user\_group\] tables when sharing a dashboard.
+When the **glide.cms.dashboards.sharing\_with\_secure\_search** system property is not set to **true**, a user can share a dashboard to groups and roles that they don't personally have access to. This property enforces ACLs on searching the User \[sys\_user\], Roles \[sys\_user\_role\], and Groups \[sys\_user\_group\] tables when sharing a dashboard.
 
 Set the **glide.cms.dashboards.sharing\_with\_secure\_search** system property is set to **true**.
 
@@ -68,7 +68,7 @@ Default value
 
 </td><td>
 
-&lt;none&gt;
+false
 
 </td></tr><tr><td>
 
@@ -84,7 +84,7 @@ Category
 
 </td><td>
 
-[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -110,7 +110,7 @@ References
 
 </td><td>
 
-[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/access-control.md)
+
 
 </td></tr><tr><td>
 
@@ -121,5 +121,5 @@ Functional impact
 This property applies security rules to the list of users, user groups, and roles that are visible when sharing dashboards.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
+</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

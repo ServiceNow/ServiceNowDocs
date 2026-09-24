@@ -3,9 +3,9 @@ title: Create a Configurable Workspace page
 description: Create a Configurable Workspace page from scratch or with a page template in UI Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/create-configurable-workspace-page-uib.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -18,7 +18,7 @@ Create a Configurable Workspace page from scratch or with a page template in UI 
 
 Role required: ui\_builder\_admin, admin
 
-[Create a Configurable Workspace experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-configurable-workspace-experience-uib.md)
+[Create a Configurable Workspace experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/create-configurable-workspace-experience-uib.md)
 
 ## Procedure
 
@@ -38,7 +38,7 @@ Role required: ui\_builder\_admin, admin
 
 6.  Review the URL parameters, and select **Looks good**.
 
-7.  Create the [variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configurable-workspace-glossary.md) for your page by completing the following fields.
+7.  Create the [variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configurable-workspace-glossary.md) for your page by completing the following fields.
 
     A page variant in UI Builder is a variation of a page that exists at the same path and targets different audiences depending on audience criteria.
 

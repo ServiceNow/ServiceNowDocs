@@ -3,11 +3,11 @@ title: View the status of a request using the dispute tracker
 description: Track the progress of card disputes case requests using the dispute tracker.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/view-the-status-of-a-request.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a case with portal intake, Intake, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -31,5 +31,5 @@ Role required: sn\_customerservice.consumer or sn\_customerservice.customer
 4.  Check the status of the disputed case, view the list of disputed transactions, and review the submitted documents in the dispute tracker.
 
 
-**Parent Topic:**[Create a dispute case with Dispute Intake in Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/creating-an-onboarding-case-with-dispute-playbook-for-portal.md)
+**Parent Topic:**[Create a dispute case with Dispute Intake in Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/creating-an-onboarding-case-with-dispute-playbook-for-portal.md)
 

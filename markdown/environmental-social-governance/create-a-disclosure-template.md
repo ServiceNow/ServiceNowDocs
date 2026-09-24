@@ -3,9 +3,9 @@ title: Create a disclosure template
 description: Create your own unique Microsoft Word disclosure templates tailored to different types of disclosures. Utilize these templates that you create when you generate specific disclosures. The templates help to streamline the disclosure process by implementing customized templates for efficiency and consistency.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-a-disclosure-template.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Disclosures in Operational Sustainability Management \(formerly ESG Management\), Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -71,5 +71,5 @@ Document to add.**Note:** The file extension must be .docx.
     **Note:** Ensure that the size of the file does not exceed 10 MB and only one template for each disclosure type is defined.
 
 
-**Parent Topic:**[Disclosures in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-disclosures.md)
+**Parent Topic:**[Disclosures in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/esg-disclosures.md)
 

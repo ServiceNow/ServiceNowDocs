@@ -3,13 +3,13 @@ title: Reference for Knowledge Graph
 description: Knowledge Graph uses the following terminologies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/reference-for-knowledge-graph.html
-release: australia
+release: brazil
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Knowledge Graph, Enable AI experiences]
+breadcrumb: [Knowledge Graph, Managing data for AI, Enable AI Experiences]
 ---
 
 # Reference for Knowledge Graph

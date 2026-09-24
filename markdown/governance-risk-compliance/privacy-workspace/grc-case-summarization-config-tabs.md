@@ -3,11 +3,11 @@ title: GRC case summarization skill configuration fields
 description: Review the skill details on each configuration tab before activating the GRC case summarization skill. Even after activation, these fields can be edited to refine the AI-generated summary.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/grc-case-summarization-config-tabs.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activate GRC case summarization, Case summarization for privacy cases, ServiceNow Otto for Privacy Management, Privacy Management, Governance, Risk, and Compliance]
 ---

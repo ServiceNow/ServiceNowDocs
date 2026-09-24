@@ -3,9 +3,9 @@ title: Questions in data visualizations
 description: You can group or filter table data in data visualizations by questions. The table must support questions.In visualizations of data from the Task \[task\] hierarchy of tables, you can use questions defined for the table to filter or group the data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/questions-in-dv.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -32,9 +32,9 @@ If there is a Record Producer associated with the table, variables defined in th
 -   Macro
 -   Container
 
-You cannot group by Record Producer variables. For more information, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_RecordProducer.md).
+You cannot group by Record Producer variables. For more information, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_RecordProducer.md).
 
-**Parent Topic:**[Configure data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-data-visualizations.md)
+**Parent Topic:**[Configure data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/configure-data-visualizations.md)
 
 ## Use questions in data visualizations
 
@@ -56,7 +56,7 @@ Use a question as a filter, a group by, or an alternative group by.
 
 2.  Select one of the following options.
 
-<table id="choicetable_p2g_2qf_v5"><tbody><tr><td id="d229793e182">
+<table id="choicetable_p2g_2qf_v5"><tbody><tr><td id="d233231e182">
 
 **Use the question as a filter**
 
@@ -64,7 +64,7 @@ Use a question as a filter, a group by, or an alternative group by.
 
 Add or edit a data source and select **Add custom conditions**. If any custom conditions have already been defined, select **+ Add**. Then select **Questions** at the bottom of the field list.
 
-</td></tr><tr><td id="d229793e200">
+</td></tr><tr><td id="d233231e200">
 
 **Add the question as a __group by__**
 
@@ -72,7 +72,7 @@ Add or edit a data source and select **Add custom conditions**. If any custom co
 
 Under **Group by**, select **+ Add**. Then select **Questions** at the bottom of the field list.
 
-</td></tr><tr><td id="d229793e221">
+</td></tr><tr><td id="d233231e221">
 
 **Add the question as an alternative group by**
 
@@ -80,7 +80,7 @@ Under **Group by**, select **+ Add**. Then select **Questions** at the bottom of
 
 Under **Group by**, select **Add alternative group by**. Then select **Questions**.
 
-</td></tr><tr><td id="d229793e239">
+</td></tr><tr><td id="d233231e239">
 
 **Add the question as a column or row in a pivot table**
 

@@ -3,11 +3,11 @@ title: Enrolling in the Password Reset application to reset your password
 description: The self-service process is a typical process that you might follow to reset your password. Your experience might differ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/c\_EnrollInPasswordReset.html
-release: australia
+release: brazil
 product: Password Reset
 classification: password-reset
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -39,7 +39,7 @@ The self-service process is a typical process that you might follow to reset you
 
 Some organizations auto-enroll users in a Password Reset program. Your organization could offer end users the option to enroll for one or more methods of verifying your identity when resetting the password. End users can enroll for most Password Reset programs on a mobile device.
 
-**Note:** By default, the dark theme doesn't apply to the Password Reset Enrollment form. Users can change the theme to the dark theme. For more information about the dark theme, see [Exploring themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md).
+**Note:** By default, the dark theme doesn't apply to the Password Reset Enrollment form. Users can change the theme to the dark theme. For more information about the dark theme, see [Exploring themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-theming.md).
 
 End users might enroll for any combination of the following methods:
 

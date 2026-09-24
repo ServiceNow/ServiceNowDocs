@@ -3,11 +3,11 @@ title: Approve evidence before evidence review
 description: Approve the evidence being provided before the requester views the evidence. When evidence is provided in response to an evidence request, the evidence may need an approval before the evidence is sent back to the requester. This ability ensures security and confidentiality of the evidence.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/approve-evidence-pc.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage evidence requests, Classic UI, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---

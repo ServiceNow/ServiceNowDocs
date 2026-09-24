@@ -3,12 +3,12 @@ title: Manage your documents and work papers with Audit Management as cloud file
 description: You can manage your documents and work papers with Audit Management as cloud files using cloud providers like Microsoft instead of attaching them to the record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/manage-cloud-docs-using-onedrive-int.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
@@ -17,6 +17,8 @@ breadcrumb: [Audit Management overview, Audit Management, Governance, Risk, and 
 You can manage your documents and work papers with Audit Management as cloud files using cloud providers like Microsoft instead of attaching them to the record.
 
 Beginning with the Washington DC release, the document integration functionality is supported on the engagement and audit task records.
+
+**Note:** Beginning with 23.x.x release, engagement, control test, and evidence records also have a native Documents panel, separate from the cloud file integration described in this topic. Use this topic for the Microsoft based cloud file integration. For the native Documents panel, see [Using Document Management System in Audit Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/manage-documents-panel.md).
 
 ## Key benefits of workpapers and document management using Microsoft
 

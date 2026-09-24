@@ -3,9 +3,9 @@ title: Assign roles for Care Team Operations for Biomed
 description: Confirm that the correct roles are assigned to users of Care Team Operations for Biomed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-biomed-set-up-roles.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up roles and responsibilities in Care Team Operations for Biomed, Configure, Care Team Operations for Biomed, Healthcare Operations, Healthcare and Life Sciences]
 ---

@@ -3,11 +3,11 @@ title: Implement automated job scheduling
 description: Implement the message processing framework \(automated jobs scheduling\) by using the Queue Registration link on the Event Registration form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-events/auto-job-scheduling.html
-release: australia
+release: brazil
 product: System Events
 classification: system-events
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring system events, System Events, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -150,5 +150,5 @@ Optional field to describe about this queue related information
     If any queue with your suggested queue name already exists in the manual jobs scheduling configuration, the configurations of the existing queue are retrieved. You can then validate and update them as required.
 
 
-**Parent Topic:**[Configuring System events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-events/configuring-system-events.md)
+**Parent Topic:**[Configuring System events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-events/configuring-system-events.md)
 

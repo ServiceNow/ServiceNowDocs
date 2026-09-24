@@ -3,12 +3,12 @@ title: Activate the GRC case summarization skill
 description: Activate the GRC case summarization skill from the AI Admin Hub to generate AI-powered summaries of compliance case records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/activate-case-summarization-cocm.html
-release: australia
+release: brazil
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Case summarization for compliance cases, AI in Compliance Case Management, Compliance Case Management, Governance, Risk, and Compliance]
 ---
 
@@ -20,7 +20,7 @@ Activate the **GRC case summarization** skill from the AI Admin Hub to generate 
 
 Role required: sn\_nowassist\_admin.nsa\_admin and sn\_nowassist\_admin.user
 
-**Note:** The skill is turned on by default if you have ServiceNow Otto for IRM installed. The skill is automatically available to appropriate role users for the applications. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Note:** The skill is turned on by default if you have ServiceNow Otto for IRM installed. The skill is automatically available to appropriate role users for the applications. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 
@@ -34,7 +34,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin and sn\_nowassist\_admin.user
 
 4.  Review the skill configuration details on each tab, and select **Save and continue**.
 
-    For a description of each skill configuration tab, see [GRC case summarization skill configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/case-summarization-config-fields.md).
+    For a description of each skill configuration tab, see [GRC case summarization skill configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/case-summarization-config-fields.md).
 
 5.  On the **Review and activate** tab, verify the full configuration and select **Activate**.
 
@@ -47,17 +47,17 @@ Role required: sn\_nowassist\_admin.nsa\_admin and sn\_nowassist\_admin.user
 
 ## What to do next
 
-You can edit the skill configurations from the AI Admin Hub console after activation. For instructions, refer to .
+You can edit the skill configurations from the AI Admin Hub console after activation. For instructions, refer to [Customize a ServiceNow Otto for Integrated Risk Management \(IRM\) skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/customize-a-skill.md).
 
--   **[GRC case summarization skill configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/case-summarization-config-fields.md)**  
+-   **[GRC case summarization skill configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/case-summarization-config-fields.md)**  
 Review the skill details on each configuration tab before activating the GRC case summarization skill. Even after activation, these fields can be edited to refine the AI-generated summary.
 
-**Parent Topic:**[GRC case summarization skill for compliance cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/compliance-case-summarization-skill.md)
+**Parent Topic:**[GRC case summarization skill for compliance cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/compliance-case-summarization-skill.md)
 
 **Related topics**  
 
 
-[Summarize a compliance case using GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/summarize-compliance-case.md)
+[Summarize a compliance case using GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/summarize-compliance-case.md)
 
-[Summarize a privacy case using the GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/summarize-privacy-case.md)
+[Summarize a privacy case using the GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/summarize-privacy-case.md)
 

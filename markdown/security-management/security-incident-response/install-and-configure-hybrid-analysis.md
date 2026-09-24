@@ -3,11 +3,11 @@ title: Install and configure Hybrid Analysis
 description: Before you run the integration on your instance, complete the installation and configuration steps so the Hybrid Analysis application properly integrates with ServiceNow AI Platform Security Operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/install-and-configure-hybrid-analysis.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Hybrid Analysis integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -60,7 +60,7 @@ For the Madrid release and later family releases, the com.snc.si\_dep plugin is 
 3.  Security Support Orchestration
 4.  Security Incident Response
 
- For more information on setting up your ServiceNow AI Platform instance for the integration, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/activate-entitled-store-app.md).
+ For more information on setting up your ServiceNow AI Platform instance for the integration, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/activate-entitled-store-app.md).
 
 </td></tr></tbody>
 </table>Role required: admin
@@ -89,7 +89,7 @@ Perform the following steps to update system properties and install and configur
 
     \[Omitted image "hybrid-analysis-system-property.png"\] Alt text: Attributes for the system property required for this integration.
 
-4.  If you have not installed the application for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/install-non-core-apps.md) and follow the steps to install it.
+4.  If you have not installed the application for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/install-non-core-apps.md) and follow the steps to install it.
 
 5.  After the installation completes, navigate to **Integrations** &gt; **Integrations Configurations** and locate the Hybrid Analysis tile.
 
@@ -108,9 +108,9 @@ Perform the following steps to update system properties and install and configur
     If an error message is displayed during the configuration, the Hybrid Analysis API key may be invalid.
 
 
-**Parent Topic:**[Hybrid Analysis integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/hybrid-analysis-lookups.md)
+**Parent Topic:**[Hybrid Analysis integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/hybrid-analysis-lookups.md)
 
-**Previous topic:**[Hybrid Analysis integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/hybrid-analysis-lookups.md)
+**Previous topic:**[Hybrid Analysis integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/hybrid-analysis-lookups.md)
 
-**Next topic:**[Verify expected results for Hybrid Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/verify-expected-results-hybrid-analysis-.md)
+**Next topic:**[Verify expected results for Hybrid Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/verify-expected-results-hybrid-analysis-.md)
 

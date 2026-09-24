@@ -3,11 +3,11 @@ title: Telecom Router Pattern
 description: The ServiceNow Telecom Discovery application uses the Telecom Router discovery pattern to find SNMP-based routers in the network. Discovering some of these resources requires updating the Telecommunications Discovery Patterns \(TSOM Patterns\) from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/telecom-router-pattern.html
-release: australia
+release: brazil
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Direct Discovery with Discovery Patterns, Telecom Discovery, Telecom Visibility, Explore, Telecommunications Service Operations Management]
 ---
@@ -28,8 +28,8 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   Subscription to TSOM.
 -   Confirm that your network router devices have SNMP access.
--   On the ServiceNow instance, configure SNMP credentials. For more information, see [SNMP support for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_SNMPSupportForDiscovery.md).
--   For setting up TSOM Patterns, see [Install Horizontal Discovery and set up Discovery Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/install-horizontal-telecommunication-discoverypatterns.md).
+-   On the ServiceNow instance, configure SNMP credentials. For more information, see [SNMP support for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/c_SNMPSupportForDiscovery.md).
+-   For setting up TSOM Patterns, see [Install Horizontal Discovery and set up Discovery Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/install-horizontal-telecommunication-discoverypatterns.md).
 
 ## Impacted CMDB CIs and CI Relationships \(Physical Layer\)
 

@@ -3,11 +3,11 @@ title: Verify SLA definition using SLA timeline
 description: You can verify that a task is mapped appropriately with a defined SLA using the SLA timeline. If a task is mapped with the SLA definition, the SLA timeline displays a graphical representation of the progress of the task SLA.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/Verify-sla-definition-using-sla-timeline.html
-release: australia
+release: brazil
 product: Service Level Management
 classification: service-level-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Monitoring Service Level Agreement \(SLA\), Using Service Level Management, Service Level Management, IT Service Management]
 ---
@@ -41,5 +41,5 @@ Role required: admin
     When a selected task does not have any task SLA attached to it, the SLA timeline still displays the update to the task when the Show all Task updates check box is selected. This information can be used for debugging the task SLA.
 
 
-**Parent Topic:**[Monitoring Service Level Agreement \(SLA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/c_SLAForTheEndUser.md)
+**Parent Topic:**[Monitoring Service Level Agreement \(SLA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/c_SLAForTheEndUser.md)
 

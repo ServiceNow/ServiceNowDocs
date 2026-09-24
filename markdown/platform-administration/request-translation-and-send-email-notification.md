@@ -3,9 +3,9 @@ title: Request a translation for an email notification, template or layout
 description: Request a translation to send an email in the recipient’s preferred language.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/request-translation-and-send-email-notification.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Static translation, Multilingual email notifications, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -16,11 +16,11 @@ Request a translation to send an email in the recipient’s preferred language.
 
 ## Before you begin
 
-An email notification must exist. For more information, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
+An email notification must exist. For more information, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateANotification.md).
 
 You must activate the Glide Notification Translation \(com.glide.notification.translation\) plugin.
 
-The [Localization Framework settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/localization-settings.md) should be configured to request the translation for the artifact configurations and add languages.
+The [Localization Framework settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-framework/localization-settings.md) should be configured to request the translation for the artifact configurations and add languages.
 
 Role required: admin
 
@@ -44,7 +44,7 @@ Notification recipients must be defined as active users in the User \[sys\_user\
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Static translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/static-translation.md)
+**Parent Topic:**[Static translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/static-translation.md)
 
 **Related topics**  
 

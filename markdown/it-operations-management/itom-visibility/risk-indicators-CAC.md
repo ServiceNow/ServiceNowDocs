@@ -3,11 +3,11 @@ title: Cryptographic risk indicators
 description: Risk indicators highlight cryptographic assets that need attention so you can prioritize remediation and track compliance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/risk-indicators-CAC.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2024-12-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [risk assessment, vulnerability indicators, compliance, security metrics]
 breadcrumb: [Explore, Cryptographic Asset Compliance, ITOM Visibility, IT Operations Management]
@@ -17,14 +17,14 @@ breadcrumb: [Explore, Cryptographic Asset Compliance, ITOM Visibility, IT Operat
 
 Risk indicators highlight cryptographic assets that need attention so you can prioritize remediation and track compliance.
 
-Cryptographic Asset Compliance evaluates assets against policies and raises a risk indicator when an asset meets a risk condition. Risk indicators are based on policies, and each indicator points to a specific weakness, such as a weak algorithm or a missing owner. For more information, see [About Policy as Code Engine policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/policies-and-risk-indicators.md). For more information about risk detection criteria, see [Risk indicator definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/risk-indicator-definitions.md).
+Cryptographic Asset Compliance evaluates assets against policies and raises a risk indicator when an asset meets a risk condition. Risk indicators are based on policies, and each indicator points to a specific weakness, such as a weak algorithm or a missing owner. For more information, see [About Policy as Code Engine policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/policies-and-risk-indicators.md). For more information about risk detection criteria, see [Risk indicator definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/risk-indicator-definitions.md).
 
 ## Supported risk indicators
 
 For certificates:
 
 -   Weak algorithm: Uses a deprecated or quantum-vulnerable algorithm.
--   Trusted CA risk: Issued by an untrusted or unrecognized certificate authority. For more information, see [Configure trusted certificate authorities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/add-trusted-certificate-authorities.md).
+-   Trusted CA risk: Issued by an untrusted or unrecognized certificate authority. For more information, see [Configure trusted certificate authorities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/add-trusted-certificate-authorities.md).
 -   No owner: Has no assigned owner or responsible party.
 -   No environment: Is not classified by environment.
 -   No renewal process: Has no defined renewal workflow.

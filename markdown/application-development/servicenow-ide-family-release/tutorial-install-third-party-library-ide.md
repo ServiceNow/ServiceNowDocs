@@ -3,11 +3,11 @@ title: Tutorial part 4: Install and use a third-party library
 description: Install a third-party library from Node Package Manager \(npm\) and use it in a JavaScript module.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-ide-family-release/tutorial-install-third-party-library-ide.html
-release: australia
+release: brazil
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Getting started: Create your first application in the ServiceNow IDE, Explore, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -18,7 +18,7 @@ Install a third-party library from Node Package Manager \(npm\) and use it in a 
 
 ## Before you begin
 
-Complete [Tutorial part 3: Define a table in ServiceNow Fluent code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/tutorial-define-table-fluent-ide.md).
+Complete [Tutorial part 3: Define a table in ServiceNow Fluent code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/tutorial-define-table-fluent-ide.md).
 
 Role required: admin
 
@@ -108,7 +108,7 @@ After you update any field on a record in the To-do Items \[x\_snc\_hello\_world
 
 ## What to do next
 
-Continue to [Tutorial part 5: Clone the application on a different instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/tutorial-clone-application-ide.md).
+Continue to [Tutorial part 5: Clone the application on a different instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/tutorial-clone-application-ide.md).
 
-**Parent Topic:**[Getting started: Create your first application in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/getting-started-create-application-ide.md)
+**Parent Topic:**[Getting started: Create your first application in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/getting-started-create-application-ide.md)
 

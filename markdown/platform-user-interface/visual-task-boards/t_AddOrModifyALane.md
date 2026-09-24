@@ -3,13 +3,13 @@ title: Add or modify Visual Task Board lanes
 description: Any board member can change the names and add new lanes to accommodate the task workflow you want to track. When you create a freeform or flexible task board, it includes the default lanes To Do, Doing, and Done.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/t\_AddOrModifyALane.html
-release: australia
+release: brazil
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Creating Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Creating Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Add or modify Visual Task Board lanes
@@ -34,7 +34,7 @@ Unlike guided boards, the lanes on a freeform or flexible task board do not matc
 
 3.  Perform any of the following actions.
 
-<table id="choicetable_chv_rys_kv"><tbody><tr><td id="d47885e107">
+<table id="choicetable_chv_rys_kv"><tbody><tr><td id="d48749e107">
 
 **Create a new lane**
 
@@ -44,7 +44,7 @@ Unlike guided boards, the lanes on a freeform or flexible task board do not matc
 2.  Enter a title for the lane, then press the Enter key.
  The **Add Lane** option is always available for freeform and flexible boards. It is available for guided boards only if the lanes are based on a reference field, such as **Assigned to**.
 
-</td></tr><tr><td id="d47885e137">
+</td></tr><tr><td id="d48749e137">
 
 **Edit a lane name**
 
@@ -54,7 +54,7 @@ Unlike guided boards, the lanes on a freeform or flexible task board do not matc
 2.  Enter a title for the lane, then press the Enter key.
 
 
-</td></tr><tr><td id="d47885e155">
+</td></tr><tr><td id="d48749e155">
 
 **Rearrange lanes**
 
@@ -62,7 +62,7 @@ Unlike guided boards, the lanes on a freeform or flexible task board do not matc
 
 Select a lane header and drag the lane to the desired drop zone. To cancel the move, press the Escape key while you drag the lane.You can also change the lane order from the board configuration menu.
 
-</td></tr><tr><td id="d47885e167">
+</td></tr><tr><td id="d48749e167">
 
 **Hide a lane**
 
@@ -72,7 +72,7 @@ Select a lane header and drag the lane to the desired drop zone. To cancel the m
 2.  Select **Hide Lane**.
 
 
-</td></tr><tr><td id="d47885e194">
+</td></tr><tr><td id="d48749e194">
 
 **Unhide a lane**
 
@@ -83,7 +83,7 @@ Select a lane header and drag the lane to the desired drop zone. To cancel the m
 3.  Select the hidden lane in the **Lane Configuration** section.
 
 
-</td></tr><tr><td id="d47885e228">
+</td></tr><tr><td id="d48749e228">
 
 **Delete a lane**
 
@@ -94,7 +94,7 @@ Select a lane header and drag the lane to the desired drop zone. To cancel the m
 3.  In the confirmation dialog box, click **Delete**. When you delete a lane on a freeform or flexible board, all the cards in the deleted lane are archived.
  The **Delete Lane** option is always available for freeform and flexible boards. It is available for guided boards only if the lanes are based on a reference field, and only for lanes that contain no cards.
 
-</td></tr><tr><td id="d47885e261">
+</td></tr><tr><td id="d48749e261">
 
 **Exclude Child Table Records**
 
@@ -111,7 +111,7 @@ The Child table lanes and records are excluded.
 </table>    **Note:** When moving the card from lane to another, if you get an error message while having write access to the record then create a system property **glide.vtb.enable\_list\_edit\_acl** and set it to **false**.
 
 
-**Parent Topic:**[Creating Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/c_VisualTaskBoardUse.md)
+**Parent Topic:**[Creating Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/visual-task-boards/c_VisualTaskBoardUse.md)
 
 **Related topics**  
 

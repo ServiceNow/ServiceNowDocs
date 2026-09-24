@@ -3,11 +3,11 @@ title: Respond to healthcare requests
 description: As a healthcare agent, you can respond to healthcare requests to resolve issues raised by a patient.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-respond-healthcare-req.html
-release: australia
+release: brazil
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage healthcare requests in Workspace, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -16,5 +16,5 @@ breadcrumb: [Manage healthcare requests in Workspace, Healthcare and Life Scienc
 
 As a healthcare agent, you can respond to healthcare requests to resolve issues raised by a patient.
 
-Patients can submit a healthcare request via a phone call or a chat. As a healthcare agent, you can respond to healthcare requests by accepting a work item from a patient or accessing the interaction records that store work items. For more information, see [Interaction Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management.md).
+Patients can submit a healthcare request via a phone call or a chat. As a healthcare agent, you can respond to healthcare requests by accepting a work item from a patient or accessing the interaction records that store work items. For more information, see [Interaction Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/interaction-management.md).
 

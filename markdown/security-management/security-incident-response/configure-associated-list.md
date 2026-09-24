@@ -3,11 +3,11 @@ title: Configure each associated list from the view to handle run time data rend
 description: Configure each associated list from the view to handle run time data rendering.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configure-associated-list.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure SI design time investigation, Configure, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -20,7 +20,7 @@ Configure each associated list from the view to handle run time data rendering.
 
 **Note:** This step is mandatory for each associated list configured in the associated info view. Otherwise, the associated list will not be available on the investigation page.
 
-Each of the associated list added \(while mapping an associated info view to an entry point list\) [Mapping View of the Associate Info to the entry point list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/map-view-to-the-entry-point-list.md) \(or from the view directly\) need an additional configuration to filter the data with respect to the runtime record selection and filters selection.
+Each of the associated list added \(while mapping an associated info view to an entry point list\) [Mapping View of the Associate Info to the entry point list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/map-view-to-the-entry-point-list.md) \(or from the view directly\) need an additional configuration to filter the data with respect to the runtime record selection and filters selection.
 
 Role required: admin
 
@@ -43,5 +43,5 @@ Role required: admin
     In the slush bucket window, add or remove columns as required.
 
 
-**Parent Topic:**[Configure SI design time investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-investigation-canvas-records.md)
+**Parent Topic:**[Configure SI design time investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/configure-investigation-canvas-records.md)
 

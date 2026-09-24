@@ -3,9 +3,9 @@ title: Configure paths for different failure code conditions
 description: Configure a path for each failure code condition to provide appropriate guidance to agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-path-for-200-failure-code.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Example configuration of a decision tree, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -24,7 +24,7 @@ When the failure code received by the customer is 200, the path that leads to th
 
 \[Omitted image "ex-200-failure-code-path.png"\] Alt text: Path for 200 error code conditions
 
-For more information about how to configure a path, see [Determine the next node displayed in a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-path-in-gdb.md).
+For more information about how to configure a path, see [Determine the next node displayed in a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-path-in-gdb.md).
 
 ## Procedure
 

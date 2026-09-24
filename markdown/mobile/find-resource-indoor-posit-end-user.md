@@ -3,9 +3,9 @@ title: Find resources with indoor positioning
 description: When indoor positioning is enabled on your device, you can get step-by-step interactive directions to resources in a building that has been mapped for this feature.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/find-resource-indoor-posit-end-user.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Indoor positioning, Indoor Wayfinding and reservations, Using the mobile apps, Mobile Platform]
 ---
@@ -46,15 +46,15 @@ Role required: none
 
 5.  Depending on whether you allowed the mobile app to use your location, use the following steps.
 
-<table id="choicetable_sht_lj2_zvb"><thead><tr><th align="left" id="d105487e174">
+<table id="choicetable_sht_lj2_zvb"><thead><tr><th align="left" id="d106019e174">
 
 Option
 
-</th><th align="left" id="d105487e177">
+</th><th align="left" id="d106019e177">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d105487e183">
+</th></tr></thead><tbody><tr><td id="d106019e183">
 
 **If you allowed the mobile app to use your location**
 
@@ -68,7 +68,7 @@ Your path to the person or resource appears on the map.
 
 Follow the path and your position is updated automatically. Directions appear on the top banner, which indicate the way to turn \(left or right\) and if you must climb stairs. In addition, the distance, time left to travel to the resource, and expected arrival time also appear on your device. This information is updated in real time.
 
-</td></tr><tr><td id="d105487e215">
+</td></tr><tr><td id="d106019e215">
 
 **If you didn't allow the mobile app to use your location**
 

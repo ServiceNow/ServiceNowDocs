@@ -3,11 +3,11 @@ title: Create a function field to perform a database function
 description: Create a function field that displays the results of a database function, such as a mathematical operation, field length computation, or day of the week calculation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/create-a-function-field-to-perform-a-database-function.html
-release: australia
+release: brazil
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Displaying function results, Work with database views, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -26,7 +26,7 @@ If you create a function field directly on the database view, you must use the v
 
 For example, if the variable prefix for the Incidents table is `inc2` and you want to return the length of the description field, the function definition would be `glidefunction:length(inc2_description)`. If the variable prefix for the Metric Instance table is `mi` and you want to concatenate the Definition and Value fields, the function definition would be `glidefunction:concat(mi_definition.name,' ',mi_value)`.
 
-For information on supported functions, see [Report on function fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/function-fields-reporting.md).
+For information on supported functions, see [Report on function fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/function-fields-reporting.md).
 
 ## Procedure
 
@@ -118,7 +118,7 @@ The variable prefix `inc` is included because the function field is defined on t
 
 ## What to do next
 
-[Display function results in a database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/display-function-results-in-a-database-view.md)
+[Display function results in a database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/display-function-results-in-a-database-view.md)
 
-**Parent Topic:**[Displaying function results in a database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/displaying-function-results-in-a-database-view.md)
+**Parent Topic:**[Displaying function results in a database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/displaying-function-results-in-a-database-view.md)
 

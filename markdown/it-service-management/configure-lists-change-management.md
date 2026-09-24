@@ -3,9 +3,9 @@ title: Configure lists for Simplified Change Management
 description: Configure which columns appear in the change lists for your IT fulfiller staff.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/configure-lists-change-management.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 keywords: [Change Management, list configuration, admin experience]
 breadcrumb: [Configuring Simplified Change Management, Configuring the fulfiller experience in Simplified IT Service Management, Configure integrations and ITSM experiences in Simplified IT Service Management, Configure and integrate, Simplified IT Service Management, IT Service Management]
@@ -62,5 +62,5 @@ The Lists module in Simplified Change Management allows you to customize the col
 
 You have reviewed and configured the change lists experience used by your IT fulfiller staff.
 
-**Parent Topic:**[Configuring Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configuring-change-management-experience-in-it-service-management.md)
+**Parent Topic:**[Configuring Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/configuring-change-management-experience-in-it-service-management.md)
 

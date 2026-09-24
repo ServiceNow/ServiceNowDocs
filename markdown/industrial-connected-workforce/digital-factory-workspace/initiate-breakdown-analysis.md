@@ -3,11 +3,11 @@ title: Initiate a breakdown analysis
 description: Start a breakdown analysis to investigate the root cause of a recurring or complex issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/initiate-breakdown-analysis.html
-release: australia
+release: brazil
 product: Digital Factory Workspace
 classification: digital-factory-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Breakdown Management, Industrial Workflows, Use, Digital Factory Workspace, Industrial Connected Workforce]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_icw.deviation\_user or sn\_icw.deviation\_expert
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Digital Factory Workspace** &gt; **Select Lists view icon** \(\[Omitted image "icon-list-menu-icw.png"\] Alt text: List menu icon.\).
+1.  Navigate to **Workspaces** &gt; **Digital Factory Workspace** &gt; **Select Lists view icon** \(\[Omitted image "image.icon-list-menu-icw"\] Alt text:\).
 
 2.  From the list of breakdowns, select the breakdown task for which you want to initiate the root cause analysis.
 
@@ -30,7 +30,7 @@ Role required: sn\_icw.deviation\_user or sn\_icw.deviation\_expert
 
 4.  On the Breakdown analysis form, fill in the field Description and change other fields as needed.
 
-    For a description of the field values, see [Root cause analysis form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/root-cause-analysis-form.md).
+    For a description of the field values, see [Root cause analysis form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/root-cause-analysis-form.md).
 
 5.  Select **Save**.
 
@@ -38,11 +38,11 @@ Role required: sn\_icw.deviation\_user or sn\_icw.deviation\_expert
 
 6.  From the Recommendations sidebar, attach a standard related to the breakdown analysis.
 
-    To learn more about the Recommended Actions in the Digital Factory Workspace, see [Recommended Actions for the Industrial Connected Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/recommended-actions-icw.md).
+    To learn more about the Recommended Actions in the Digital Factory Workspace, see [Recommended Actions for the Industrial Connected Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/recommended-actions-icw.md).
 
 7.  On the Review information form, fill in the fields.
 
-    For a description of the field values, see [Breakdown analysis form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/breakdown-analysis-form.md).
+    For a description of the field values, see [Breakdown analysis form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/breakdown-analysis-form.md).
 
 8.  Select **Mark Complete**.
 
@@ -60,7 +60,7 @@ Role required: sn\_icw.deviation\_user or sn\_icw.deviation\_expert
 
 11. To create a follow-up action, select **Create New Follow-up Action** and fill in the fields.
 
-    For a description of the field values, see [Action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/action-form.md).
+    For a description of the field values, see [Action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/action-form.md).
 
 12. After you're done with this step, select **Mark complete**.
 
@@ -79,5 +79,5 @@ Role required: sn\_icw.deviation\_user or sn\_icw.deviation\_expert
 
 The state of the analysis moves to Closed and the record is displayed in **Lists** &gt; **Root cause analyses** &gt; **Done**.
 
-**Parent Topic:**[Breakdown Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/breakdown-analysis.md)
+**Parent Topic:**[Breakdown Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/breakdown-analysis.md)
 

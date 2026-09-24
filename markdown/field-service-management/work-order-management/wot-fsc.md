@@ -3,11 +3,11 @@ title: Field Service Contractor for mobile
 description: Managers and agents of contractor companies can use the Field Service Contractor for mobile application to view and manage the work order tasks assigned to them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/wot-fsc.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
@@ -21,5 +21,5 @@ Organizations can outsource their work order tasks to contractor companies. The 
 **Related topics**  
 
 
-[Field Service Contractor for mobile feature of the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/field-service-contractor-portal-mobile.md)
+[Field Service Contractor for mobile feature of the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/field-service-contractor-portal-mobile.md)
 

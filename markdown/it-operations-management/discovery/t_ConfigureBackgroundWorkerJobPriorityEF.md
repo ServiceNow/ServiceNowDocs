@@ -3,11 +3,11 @@ title: Configure background worker job priority for Event Framework
 description: Configure the job priority of background workers to help prevent noncritical tasks from preempting important work, which promotes system efficiency and stability.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/t\_ConfigureBackgroundWorkerJobPriorityEF.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Optimizing Discovery load for Event Framework, Configure Discovery to use Event Framework, Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -22,8 +22,8 @@ Confirm the following:
 
 -   You're using Discovery Admin Workspace v1.9.0 or later.
 -   You're using the Xanadu Patch 9, Yokohama Patch 4, or later version of the ServiceNow AI Platform®.
--   The **discovery.use.event.processing** system property is turned on. For more information, see [Configure Discovery to use Event Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_ConfigureDiscoveryEventFramework.md).
--   The **com.glide.queue.discovery.sensors.processing\_jobs.priority** and **com.glide.queue.discovery.cloud.sensors.processing\_jobs.priority** system properties are configured. For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+-   The **discovery.use.event.processing** system property is turned on. For more information, see [Configure Discovery to use Event Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/t_ConfigureDiscoveryEventFramework.md).
+-   The **com.glide.queue.discovery.sensors.processing\_jobs.priority** and **com.glide.queue.discovery.cloud.sensors.processing\_jobs.priority** system properties are configured. For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 Role required: discovery\_admin
 
@@ -49,5 +49,5 @@ By default, Event Framework jobs have a priority of 100. If Discovery is preempt
 4.  Select **Update**.
 
 
-**Parent Topic:**[Optimizing Discovery load for Event Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_FineTuneDiscoLoadEF.md)
+**Parent Topic:**[Optimizing Discovery load for Event Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c_FineTuneDiscoLoadEF.md)
 

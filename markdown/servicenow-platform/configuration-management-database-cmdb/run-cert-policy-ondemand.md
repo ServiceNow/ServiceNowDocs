@@ -3,11 +3,11 @@ title: Run a certification policy on-demand
 description: Run a certification policy in CMDB Workspace, when needed, regardless of the policy recurring schedule. A manual, on-demand run doesn't interfere with the policy's specified schedule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/run-cert-policy-ondemand.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-04-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data Certification, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---

@@ -3,11 +3,11 @@ title: Review merchant representment
 description: Review the representment evidence provided by a merchant during a chargeback request. A representment is the process where a business can prove that a charge that is being questioned is valid and the consumer's charge should not be reversed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/review-representment.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Initiating a chargeback, Resolving disputes without network integration, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -20,7 +20,7 @@ Review the representment evidence provided by a merchant during a chargeback req
 
 Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dispute\_agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -63,9 +63,9 @@ If a merchant disagrees with a chargeback, they can submit representment evidenc
 
 The task state moves to the Closed complete state.
 
-If the representment is accepted and the transaction has provisional credit, proceed to [Reverse provisional credit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/reverse-provisional-credit.md). If the representment is accepted with no provisional credit, proceed to [Return funds to merchant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/refund-merchant.md).
+If the representment is accepted and the transaction has provisional credit, proceed to [Reverse provisional credit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/reverse-provisional-credit.md). If the representment is accepted with no provisional credit, proceed to [Return funds to merchant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/refund-merchant.md).
 
-If the representment is not accepted, proceed to [Provide final credit to customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/provide-final-credit-to-customer.md) or [Convert provisional credit to final credit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/convert-provisional-credit-to-final-credit.md).
+If the representment is not accepted, proceed to [Provide final credit to customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/provide-final-credit-to-customer.md) or [Convert provisional credit to final credit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/convert-provisional-credit-to-final-credit.md).
 
-**Parent Topic:**[Initiating a chargeback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/initiate-a-chargeback.md)
+**Parent Topic:**[Initiating a chargeback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/initiate-a-chargeback.md)
 

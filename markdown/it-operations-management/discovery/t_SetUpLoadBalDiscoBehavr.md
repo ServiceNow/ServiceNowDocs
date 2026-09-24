@@ -3,11 +3,11 @@ title: Set up a load balancing behavior
 description: When multiple MID Servers are configured to scan the same protocol, you can set up load balancing behavior to automatically balance the work between MID Servers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/t\_SetUpLoadBalDiscoBehavr.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Discovery behaviors, Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -79,7 +79,7 @@ For example, an organization has 50 remote locations, varying in size from 10 de
     |Functionality|Select All except Windows \(no WMI\) from the list. This functionality causes the MID Server to scan all remaining protocols after Discovery has run the WMI scans.|
     |MID Servers|Enter the name of the MID Server that scans all remaining devices. To enable automatic load balancing, add an additional MID Server in this field.|
 
-5.  Create a [Discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md) for each time zone and name the behavior you created.
+5.  Create a [Discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md) for each time zone and name the behavior you created.
 
     1.  Navigate to **Discovery** &gt; **Discovery Schedules** and select **New** in the record list.
 
@@ -104,7 +104,7 @@ For example, an organization has 50 remote locations, varying in size from 10 de
     \[Omitted image "DiscoverySchedule.png"\] Alt text: Discovery Schedule
 
 
-**Parent Topic:**[Discovery behaviors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryBehaviors.md)
+**Parent Topic:**[Discovery behaviors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c_DiscoveryBehaviors.md)
 
 **Related topics**  
 

@@ -3,9 +3,9 @@ title: Examples of navigating by URL
 description: A list of example URLs that demonstrate ways to open pages in the ServiceNow application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/r\_NavigatingByURLExamples.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Navigate to a record or module using a URL, Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -68,5 +68,5 @@ Schema: `https://<baseURL>/nav_to.do?uri=<table name>_list.do?sysparm_<sysparmTy
 |-----------|-------|
 |Returns a comma-separated value file of records in the Incident table that meet the query conditions.|`https://<instance name>.service-now.com/nav_to.do?uri=incident_list.do?sysparm_query=active=false&CSV`|
 
-**Parent Topic:**[Navigate to a record or module using a URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/navigate-using-url.md)
+**Parent Topic:**[Navigate to a record or module using a URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/navigate-using-url.md)
 

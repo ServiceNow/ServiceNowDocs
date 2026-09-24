@@ -3,9 +3,9 @@ title: Create a Socialsuite connection
 description: Create a Socialsuite connection to sync material topics and materiality assessment results from Socialsuite into your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-a-socialsuite-connection.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating Operational Sustainability Management with Socialsuite, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -44,7 +44,7 @@ Role required: admin or connection\_admin
 
 ## What to do next
 
-After establishing the connection, you can sync material topics from Socialsuite. For more information, see [Sync material topics from Socialsuite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/sync-material-topics-from-socialsuite.md).
+After establishing the connection, you can sync material topics from Socialsuite. For more information, see [Sync material topics from Socialsuite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/sync-material-topics-from-socialsuite.md).
 
-**Parent Topic:**[Integrating Operational Sustainability Management with Socialsuite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrate-operational-sustainability-with-SocialSuite.md)
+**Parent Topic:**[Integrating Operational Sustainability Management with Socialsuite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/integrate-operational-sustainability-with-SocialSuite.md)
 

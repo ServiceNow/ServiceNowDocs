@@ -3,11 +3,11 @@ title: Add a device to an Operational Technology system service
 description: Add an Operational Technology \(OT\) device to an OT system service to create a relationship between the equipment model entity that the device belongs to and the OT system service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/add-devices-to-ot-system-service.html
-release: australia
+release: brazil
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Modeling an Operational Technology system service, Use, Operational Technology Manager, Operational Technology]
 ---
@@ -46,5 +46,5 @@ After you add the OT devices, the following relationships are created:
 -   The Depends on::Used by relationship between the selected configuration item \(CI\) and the OT system service
 -   The Managed by::Manages relationship between the OT system service and CI's equipment model entity.
 
-**Parent Topic:**[Modeling an Operational Technology system service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/modeling-ot-system.md)
+**Parent Topic:**[Modeling an Operational Technology system service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/modeling-ot-system.md)
 

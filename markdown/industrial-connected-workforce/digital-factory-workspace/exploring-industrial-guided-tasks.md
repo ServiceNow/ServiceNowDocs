@@ -3,11 +3,11 @@ title: Exploring Industrial Guided Tasks
 description: Manage your industrial guided task \(IGT\) standards with Industrial Guided Tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/exploring-industrial-guided-tasks.html
-release: australia
+release: brazil
 product: Digital Factory Workspace
 classification: digital-factory-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Digital Factory Workspace, Industrial Connected Workforce]
 ---
@@ -51,8 +51,8 @@ The Industrial Guided Tasks application enables you to:
 -   Compare execution results across standard versions to measure the impact of improvements to the standard.
 -   Automatically track actual task execution duration on the Digital Factory Workspace and ICW mobile. Use this data to measure the percentage of tasks closed on time and compare actual versus planned performance.
 
--   **[Scoring in Industrial Guided Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/scoring-industrial-guided-tasks.md)**  
+-   **[Scoring in Industrial Guided Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/scoring-industrial-guided-tasks.md)**  
 Scoring enables the automatic calculation of performance scores after completing an Industrial Guided Task \(IGT\).
 
-**Parent Topic:**[Exploring Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/exploring-digital-factory-workspace.md)
+**Parent Topic:**[Exploring Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/exploring-digital-factory-workspace.md)
 

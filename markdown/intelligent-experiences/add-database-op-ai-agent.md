@@ -3,11 +3,11 @@ title: Add a record operation to an AI agent
 description: Add a record operation to an AI agent in AI Agent Studio to create, update, look up, or delete records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-database-op-ai-agent.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Add a record operation to an AI agent

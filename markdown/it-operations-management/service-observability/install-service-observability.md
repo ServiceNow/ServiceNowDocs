@@ -3,11 +3,11 @@ title: Install Service Observability
 description: If you have the system admin role, you can install the Service Observability application \(sn\_sow\_svcobs\). The application installs related ServiceNow Store applications and plug-ins if they aren't already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-observability/install-service-observability.html
-release: australia
+release: brazil
 product: Service Observability
 classification: service-observability
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Service Observability, Service Observability, ITOM AIOps, IT Operations Management]
 ---
@@ -32,7 +32,7 @@ The following items are installed with Service Observability:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/components-installed-with-service-observability.md).
+For more information, see [Components installed with Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-observability/components-installed-with-service-observability.md).
 
 ## Procedure
 
@@ -53,5 +53,5 @@ For more information, see [Components installed with Service Observability](http
 5.  Select **Install**.
 
 
-**Parent Topic:**[Configuring Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/configuring-service-observability.md)
+**Parent Topic:**[Configuring Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-observability/configuring-service-observability.md)
 

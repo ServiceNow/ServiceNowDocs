@@ -3,11 +3,11 @@ title: Configure all catalog items or record producers to create a universal req
 description: Reduce the implementation time by configuring all catalog items or all record producers at a time for universal request creation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/configure-all-cat-items-ur.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Catalog configuration for Universal Request, Integrating Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,7 +26,7 @@ For catalog items, RITM should be registered as a service in Universal Request.
 
 For record producers, the target table should be registered as a service in Universal Request.
 
-For information about service configurations, see [Service Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/ur-service-config-form.md).
+For information about service configurations, see [Service Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/ur-service-config-form.md).
 
 ## Procedure
 
@@ -59,5 +59,5 @@ For information about service configurations, see [Service Configuration form](h
     2.  Click **Submit**.
 
 
-**Parent Topic:**[Service Catalog configuration for Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/ur-catalog-config.md)
+**Parent Topic:**[Service Catalog configuration for Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/ur-catalog-config.md)
 

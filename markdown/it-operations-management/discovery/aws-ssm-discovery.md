@@ -3,11 +3,11 @@ title: AWS SSM discovery
 description: AWS Systems Manager \(SSM\) Agent discovery introduces a streamlined, agent-based approach to discovering Amazon Elastic Compute Cloud \(EC2\) using AWS SSM. This integration enhances Discovery by leveraging SSM agents to reduce dependency on traditional MID Server configurations, simplify credential management, and improve scalability across multi-region environments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/aws-ssm-discovery.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 5
 breadcrumb: [Discovery for AWS, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -44,7 +44,7 @@ Confirm that you have the required versions of the following applications and pl
 -   CMDB CI Class Models version 1.74.0 or later.
 -   Discovery and Service Mapping Patterns version 1.27.0 or later.
 
-Install the MID Server. For more information, see [Install and configure the MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/mid-server-configuration-cloud.md).
+Install the MID Server. For more information, see [Install and configure the MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/mid-server-configuration-cloud.md).
 
 Verify that you have an AWS user account with administrative access.
 
@@ -97,11 +97,11 @@ For more information on AWS Management Console configuration, see the [Amazon SS
 
     -   **glide.discovery.enable\_ssm**
     -   **glide.discovery.ssm.enable\_windows**
-    The AWS SSM Agent runs with root \(Linux\) or SYSTEM \(Windows\) privileges, meaning any command sent through it can execute with full system access. Due to this high level of access, SSM is turned off by default for security reasons. For more information, see [Enable AWS SSM-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/enable-aws-ssm-based-discovery.md).
+    The AWS SSM Agent runs with root \(Linux\) or SYSTEM \(Windows\) privileges, meaning any command sent through it can execute with full system access. Due to this high level of access, SSM is turned off by default for security reasons. For more information, see [Enable AWS SSM-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/enable-aws-ssm-based-discovery.md).
 
 -   **Define root and non-root credentials**
 
-    The MID Server property **mid.discovery.aws\_ssm.linux.fallback\_root\_user** enables EC2 instances to default to the root user. By default, this setting is **false**, but if you don’t want to set up alternate user credentials, you can enable it to run commands as root. If you leave this setting turned off, you must create a credential record in the AWS SSM Instance Users \[aws\_ssm\_instance\_user\_credentials\] table, where you simply provide the user name that should be used to run commands on the instance. For more information, [Enable root fallback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/enable-root-fallback.md) and [Configure custom user credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/configure-custom-user-credentials.md).
+    The MID Server property **mid.discovery.aws\_ssm.linux.fallback\_root\_user** enables EC2 instances to default to the root user. By default, this setting is **false**, but if you don’t want to set up alternate user credentials, you can enable it to run commands as root. If you leave this setting turned off, you must create a credential record in the AWS SSM Instance Users \[aws\_ssm\_instance\_user\_credentials\] table, where you simply provide the user name that should be used to run commands on the instance. For more information, [Enable root fallback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/enable-root-fallback.md) and [Configure custom user credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/configure-custom-user-credentials.md).
 
 -   **Configure MID Server properties**
 
@@ -111,17 +111,17 @@ For more information on AWS Management Console configuration, see the [Amazon SS
     -   **mid.discovery.aws\_ssm.kms\_key\_region**
     -   **mid.discovery.aws\_ssm.s3\_bucket\_name**
     -   **mid.discovery.aws\_ssm.s3\_bucket\_region**
-    For more information, see [Configure MID Server for AWS S3 access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/configure-mid-server-aws-s3-access.md) and [Configure MID Server for AWS KMS access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/config-mid-server-aws-kms-access.md).
+    For more information, see [Configure MID Server for AWS S3 access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/configure-mid-server-aws-s3-access.md) and [Configure MID Server for AWS KMS access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/config-mid-server-aws-kms-access.md).
 
 -   **Enable MID Server capability**
 
-    You must enable the new MID Server capability for AWS SSM so the MID Server can support running SSM discovery. By default, this capability is included if you're using the **ALL** capability. However, if you're using individual capabilities, you must manually add the new **AWS SSM** capability to your MID Servers. For information about adding a capability, see [Configure MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigureCapabilities.md).
+    You must enable the new MID Server capability for AWS SSM so the MID Server can support running SSM discovery. By default, this capability is included if you're using the **ALL** capability. However, if you're using individual capabilities, you must manually add the new **AWS SSM** capability to your MID Servers. For information about adding a capability, see [Configure MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_ConfigureCapabilities.md).
 
 
 ## Cloud Discovery schedule configuration
 
 -   **Create a Cloud Discovery schedule**
 
-    SSM discovery can be deployed within an AWS-based Cloud Discovery schedule in the Discovery Admin Workspace. To do this, go to the Deep discovery step, enable the **Create an IP-based discovery schedule** toggle, and select **Discover servers though AWS Systems Manager \(SSM\) Agent** as the Discovery method. For more information, see [Create an AWS Discovery schedule in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-AWS-schedule-DAW.md).
+    SSM discovery can be deployed within an AWS-based Cloud Discovery schedule in the Discovery Admin Workspace. To do this, go to the Deep discovery step, enable the **Create an IP-based discovery schedule** toggle, and select **Discover servers though AWS Systems Manager \(SSM\) Agent** as the Discovery method. For more information, see [Create an AWS Discovery schedule in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/create-AWS-schedule-DAW.md).
 
 

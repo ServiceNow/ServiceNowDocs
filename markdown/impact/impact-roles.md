@@ -3,11 +3,11 @@ title: Roles installed with Impact
 description: Impact offers many roles to assign to fit your business needs. When you log in to Impact, you’ll see a personalized view of your objectives, metrics, and recommendations tied directly to your role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/impact-roles.html
-release: australia
+release: brazil
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Impact reference, Impact]
+breadcrumb: [General reference, Impact reference, Impact]
 ---
 
 # Roles installed with Impact
@@ -169,8 +169,6 @@ sn\_impact\_common.Impact Development Team Lead
 
 -   View all team findings and scan results
 -   Manage team members
--   Approve exception requests
--   Decline exception requests
 -   Access Development Team Lead dashboard
 -   Perform on-demand scans excluding scheduled scans
 
@@ -230,6 +228,23 @@ sn\_se.scan\_engine\_user
 -   Access Scan Engine findings
 -   View scan initiation buttons without initiation functions
 -   View Scan Engine results
+
+</td></tr><tr><td>
+
+Scan Engine
+
+</td><td>
+
+Exception Approver
+
+</td><td>
+
+sn\_se.scan\_engine\_exception\_approver
+
+</td><td>
+
+-   Approve and reject exception reason requests
+-   Receive and triage exception notifications
 
 </td></tr><tr><td>
 
@@ -364,5 +379,5 @@ sn\_impact\_common.Impact Partner
 -   Request advisory sessions
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Impact reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-reference.md)
+</table>**Parent Topic:**[General reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/general-reference.md)
 

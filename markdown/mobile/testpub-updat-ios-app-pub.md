@@ -3,9 +3,9 @@ title: Test and publish an updated iOS app for public distribution
 description: After you have requested an updated iOS branded mobile app for public distribution, perform these steps to test and publish it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/testpub-updat-ios-app-pub.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Update a branded app, Request, test, &amp; publish, Custom branded apps, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -28,7 +28,7 @@ Role required: admin
     -   You don't need to create a new Apple iOS Distribution Certificate or a provisioning profile for apps that already exist and you're only updating the version number. For example, updating version 17.5 to 18.0. However, if your certificate has expired per your Keychain Access program on your Mac, see [KB0997467](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0997467) for instructions.
 2.  When your testers receive an email from Apple TestFlight with a link to test your branded app, use TestFlight to check the following if they've changed from your original request:
 
-    -   App has the correct name, icon, splash screen, branding, and theming. For more information, see [Create a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-create-theme.md).
+    -   App has the correct name, icon, splash screen, branding, and theming. For more information, see [Create a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/tb-create-theme.md).
     -   App uses the default instance you specified for login if you selected the instance pre-fill option when you requested the branded app.
     -   EULA and privacy policy listed in the mobile app **Settings** tab under **Legal** link to the policies you specified.
     See [Apple documentation](https://developer.apple.com/testflight/) for information about using TestFlight.
@@ -38,7 +38,7 @@ Role required: admin
     -   Set up push notifications by downloading the Apple push certificate \(`p12` file\) and uploading it to your app's push application record:
         -   Create your push notification certificate \(`p12` file\). For instructions, see [KB1506609](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1506609).
         -   Access the Push Applications table on your instance by navigating to **All** &gt; **Push Application**.
-        -   Configure your push applications. For instructions, see [Configure push applications for iOS branded apps using certificate based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-push-setup-ios.md).
+        -   Configure your push applications. For instructions, see [Configure push applications for iOS branded apps using certificate based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-push-setup-ios.md).
         -   \(Optional\) Test your push notifications by using out-of-the-box configurations. For more information, see [KB0829093](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0829093).
     -   If you updated your universal links table with new instance URLs, you must upload the new universal links file to each of those instances:
 
@@ -52,7 +52,7 @@ Role required: admin
     -   **Approve** the build to move forward with publishing the app to your end users.
 5.  Customize your app's workflows:
 
-    Use Mobile App Builder to customize your app. See [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mab-concept.md) for detailed information about how you can customize your branded app.
+    Use Mobile App Builder to customize your app. See [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mab-concept.md) for detailed information about how you can customize your branded app.
 
 6.  Publish your updated iOS branded app for public distribution.
 
@@ -66,8 +66,8 @@ Role required: admin
         -   [Custom app](https://www.servicenow.com/docs/r/mobile-release-notes/mobile-apps.html)
 7.  Update your app before you update your ServiceNow family version, or at least once per year to keep your push notifications working and to leverage the most up to date ServiceNow mobile features.
 
-    For more information, see [Tested devices and supported versions for ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-supported-devices.md).
+    For more information, see [Tested devices and supported versions for ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-supported-devices.md).
 
 
-**Parent Topic:**[Update a branded app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/update-branded-app.md)
+**Parent Topic:**[Update a branded app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/update-branded-app.md)
 

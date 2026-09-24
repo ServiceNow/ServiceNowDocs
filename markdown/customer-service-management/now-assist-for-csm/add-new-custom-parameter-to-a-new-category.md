@@ -3,11 +3,11 @@ title: Add custom parameter to a new category
 description: Create a custom category and add a custom parameter to it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/add-new-custom-parameter-to-a-new-category.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-02-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Automated quality assurance, Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]

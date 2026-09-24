@@ -3,11 +3,11 @@ title: Agile 2.0 Sprint Dashboard
 description: Track the progress of your stories in the current sprint and forecast sprint completion using the Sprint Dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/agile-development-sprint-dashboard.html
-release: australia
+release: brazil
 product: Agile Development
 classification: agile-development
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Performance Analytics Content Pack for Agile 2.0, Agile Development, Strategic Portfolio Management]
 ---
@@ -105,17 +105,17 @@ scrum\_user
 
 -   **Percent Completed**
 
-    Indicates the percentage of work that has been completed in the sprint using story points. This widget lets you see at a glance how much work has been completed in the sprint. Together with the adjacent Time Elapsed widget, these widgets let you see whether you are completing work at a rate consistent with achieving the sprint goal on schedule.
+    Indicates the percentage of work that has been completed in the sprint using story points. This widget lets you see at a glance how much work has been completed in the sprint. Together with the adjacent Time Elapsed widget, these widgets let you easily see whether you are completing work at a rate consistent with achieving the sprint goal on schedule.
 
 -   **Time Elapsed**
 
-    Indicates the percentage of time that has elapsed between the start date and planned end date of the sprint. Together with the adjacent Percent Completed widget, these widgets let you see whether you are completing work at a rate consistent with achieving the sprint goal on schedule.
+    Indicates the percentage of time that has elapsed between the start date and planned end date of the sprint. Together with the adjacent Percent Completed widget, these widgets let you easily see whether you are completing work at a rate consistent with achieving the sprint goal on schedule.
 
 -   **Committed Points**
 
     Indicates the committed scope \(in number of story points\) of the sprint. Together with the adjacent Scope widget, these widgets show the difference between the sprint's committed and current scope.
 
-    **Note:** This widget is not visible by default. You can add it from Reports to your dashboard. For more information, see [Edit a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/t_EditADashboard.md).
+    **Note:** This widget is not visible by default. You can add it from Reports to your dashboard. For more information, see [Edit a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/t_EditADashboard.md).
 
 -   **Missing Estimates**
 
@@ -135,7 +135,7 @@ If you are upgrading from version 1.0.2 or earlier of Performance Analytics Cont
 -   Sprint Burnup
 -   Sprint Cumulative Flow Diagram
 
-For more information, see [Upgrading the layout of Agile 2.0 dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/using-solution-library-for-agile-2.0-dashboards.md).
+For more information, see [Upgrading the layout of Agile 2.0 dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/using-solution-library-for-agile-2.0-dashboards.md).
 
 **Note:** For all reports shown in the Sprint dashboard, the planned end date of the Sprints is used as a filter. Completed Sprints appear in the chart only if their Planned end date is less than or equal to the current date.
 
@@ -215,7 +215,7 @@ Monitor the progress of all the stories of your sprint between its actual start 
  **Note:** Stories in Ready and Cancelled states are not included in this report.
 
 </td></tr></tbody>
-</table>You can customize the Burnup, Burndown, and Cumulative Flow Diagram reports. For more information, see [Customizing Agile 2.0 dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/customizing-dashboard-reports.md).
+</table>You can customize the Burnup, Burndown, and Cumulative Flow Diagram reports. For more information, see [Customizing Agile 2.0 dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/customizing-dashboard-reports.md).
 
-**Parent Topic:**[Performance Analytics Content Pack for Agile 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/pa-content-pack-for-agile-2.0.md)
+**Parent Topic:**[Performance Analytics Content Pack for Agile 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/pa-content-pack-for-agile-2.0.md)
 

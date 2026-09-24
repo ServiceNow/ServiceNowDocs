@@ -3,9 +3,9 @@ title: External credential vault in RPA Hub
 description: With the external credential vault feature, you can retrieve robot credentials, application credentials, or Time-based One-time Password \(TOTP\) seed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/external-credentials-rpa.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Credential Management, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -25,13 +25,13 @@ Based on the input provided in the **External Credential** check box, either on 
 -   If the input is false \(if the check box isn’t selected\), the credentials are saved or retrieved from the instance.
 -   If the input is true \(if the check box is selected in the robot credential form, an application credential form\), the credentials are fetched from a configured external credential vault. If the check box is selected in the TOTP authenticator form, the seed is fetched from a configured external credential vault.
 
-For more information about configuring these fields, see [Create a robot credential in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-credential-set-botprocess.md), [Create an application credential in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-application-credential.md), and [Create a TOTP authenticator in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/map-totp-credential-set-rpa.md).
+For more information about configuring these fields, see [Create a robot credential in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-credential-set-botprocess.md), [Create an application credential in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-application-credential.md), and [Create a TOTP authenticator in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/map-totp-credential-set-rpa.md).
 
 Examples of an external credential vault are CyberArk, Azure key Vault, and so on.
 
 If the **External Credential** check box isn’t enabled, the API returns the data stored in the **Password2** field of the ServiceNow instance and then the robot uses the sensitive data for the automation execution.
 
-If the **External Credential** check box is enabled, the credentials are fetched from a configured external credential vault. In this scenario, the API internally triggers a subflow. This subflow makes a REST API call to the external credential vault. You can route this REST API call via MID Server. Or, you can directly establish a connection with the external credential vault. This implementation is dependent on your organizational requirements. The MID Server resides in the customers' environment. For more information about MID Server, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md).
+If the **External Credential** check box is enabled, the credentials are fetched from a configured external credential vault. In this scenario, the API internally triggers a subflow. This subflow makes a REST API call to the external credential vault. You can route this REST API call via MID Server. Or, you can directly establish a connection with the external credential vault. This implementation is dependent on your organizational requirements. The MID Server resides in the customers' environment. For more information about MID Server, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-landing.md).
 
 After the REST API call fetches the credential from the vault, the credentials are sent to the robot.
 
@@ -41,9 +41,9 @@ After the REST API call fetches the credential from the vault, the credentials a
 
 You must configure the external credential settings appropriately, so that the data isn’t stored or logged in the ServiceNow instance.
 
-Verify that the value of the **Reporting** field is set to **Off** for the subflow of your external credential vault, for example **Demo CyberArk Subflow**. This setting verifies that the sensitive data isn’t captured or logged. For more information about configuring this setting, see [Activate flow reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/enable-flow-reporting.md).
+Verify that the value of the **Reporting** field is set to **Off** for the subflow of your external credential vault, for example **Demo CyberArk Subflow**. This setting verifies that the sensitive data isn’t captured or logged. For more information about configuring this setting, see [Activate flow reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/enable-flow-reporting.md).
 
-To configure the external credential vault in RPA Hub, see [Steps to configure an external credential vault in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/config-ext-cred-rpa.md).
+To configure the external credential vault in RPA Hub, see [Steps to configure an external credential vault in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/config-ext-cred-rpa.md).
 
-Outbound request logging enables you to understand what third party services your instance accesses and the volume of outbound requests. Additionally, logging can provide valuable information when debugging outbound integrations. For more information about system logging or outbound logging, see [Configure outbound logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/outbound-logging-configure.md) and [Outbound web service logging properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/outbound-logging-properties.md).
+Outbound request logging enables you to understand what third party services your instance accesses and the volume of outbound requests. Additionally, logging can provide valuable information when debugging outbound integrations. For more information about system logging or outbound logging, see [Configure outbound logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/outbound-logging-configure.md) and [Outbound web service logging properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/outbound-logging-properties.md).
 

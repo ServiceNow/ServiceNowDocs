@@ -3,11 +3,11 @@ title: View controls in grid view
 description: View and edit controls and their requirements in a hierarchical data grid that enables bulk operations and in-line editing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/view-controls-in-grid-view.html
-release: australia
+release: brazil
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2026-04-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [RMF step 3 - Implement controls, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---

@@ -3,11 +3,11 @@ title: Major incident dashboard
 description: Review major incident information at a glance on your mobile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/mim-dashboard-mobile.html
-release: australia
+release: brazil
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing major incidents using Major Incident applet, ITSM Mobile Agent, IT Service Management]
 ---
@@ -24,6 +24,6 @@ Tap on any of the areas to open a detailed graphical representation of the assoc
 
 **Note:**
 
--   The data visualization changes for Major incident dashboard are available in the base system for both the new or upgrade customers. You can also view mobile analytics in Platform analytics workspace to configure or create new data visualization. For more information, see [Create a mobile analytics preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-dashboard-preview.md).
+-   The data visualization changes for Major incident dashboard are available in the base system for both the new or upgrade customers. You can also view mobile analytics in Platform analytics workspace to configure or create new data visualization. For more information, see [Create a mobile analytics preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mobile-dashboard-preview.md).
 -   For the upgrade customers who have already customized the analytics sections, the data visualizations changes are not available by default. You can enable the new analytics section records from the Mobile Agent section of the Mobile App Builder to view the visualized changes.
 

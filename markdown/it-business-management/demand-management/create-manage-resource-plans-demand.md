@@ -3,11 +3,11 @@ title: Create and manage resource assignments for a demand
 description: As a resource requester, find the availability of the resources, and create and manage the resource assignments for a demand.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/create-manage-resource-plans-demand.html
-release: australia
+release: brazil
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a demand, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -30,13 +30,13 @@ Role required: it\_demand\_manager
 
 4.  On the Resource assignment new record form, fill in the fields.
 
-    For a description of the field names, see [New Resource Assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/create-ra-form-rmw.md).
+    For a description of the field names, see [New Resource Assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/create-ra-form-rmw.md).
 
 5.  Select **Submit**.
 
 
--   **[Recalculate costs of resource assignments of a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/recalculate-resource-costs-of-a-demand.md)**  
+-   **[Recalculate costs of resource assignments of a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/recalculate-resource-costs-of-a-demand.md)**  
 Recalculate the costs of all active resource assignments of a demand after hourly rates change in the associated rate model. Recalculating keeps plan costs up to date.
 
-**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreatingDemands.md)
+**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/t_CreatingDemands.md)
 

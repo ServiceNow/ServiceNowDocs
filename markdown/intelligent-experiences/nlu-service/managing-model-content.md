@@ -1,18 +1,18 @@
 ---
-title: Build and train your model
+title: \(Legacy\) Build and train your model
 description: After creating a model, build the model's content by adding intents, entities, vocabulary, and test set utterances. Your NLU model content determines how the model responds to user inputs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/managing-model-content.html
-release: australia
+release: brazil
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Model management, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Build and train your model
+# \(Legacy\) Build and train your model
 
 After creating a model, build the model's content by adding intents, entities, vocabulary, and test set utterances. Your NLU model content determines how the model responds to user inputs.
 
@@ -33,7 +33,7 @@ When your model receives user input, it uses an intent to perform a system actio
 
 Intents contain training utterances, or examples of user inputs that would trigger the system action. Provide realistic utterances that the model might encounter from your users. The quality of training utterances affects the accuracy of your model.
 
-For more information, see [NLU intents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/intents.md).
+For more information, see [\(Legacy\) NLU intents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/intents.md).
 
 ## Entities
 
@@ -43,7 +43,7 @@ NLU entities fall into two categories: system-defined and user-defined. System e
 
 All entities are reusable across other NLU models. However, you must add them to a training utterance for each model to use them.
 
-For more information, see [NLU entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/entities.md).
+For more information, see [\(Legacy\) NLU entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/entities.md).
 
 ## Vocabulary
 
@@ -55,21 +55,21 @@ For example, your model includes an entity for the term computer. When a user ty
 
 You can also use tables and lists as vocabulary sources. Your models can look up the vocabulary sources when predicting intents.
 
-For more information, see [NLU vocabulary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/using-nlu-vocabulary.md).
+For more information, see [\(Legacy\) NLU vocabulary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/using-nlu-vocabulary.md).
 
 ## Test set
 
 Your model contains a default test set that you can use to evaluate the model’s performance. Initially the test set is empty, ready to be populated with your content. Add test utterances and their expected intents to build the test set.
 
-For more information, see [Test set creation and management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-test-set-creation-management.md).
+For more information, see [\(Legacy\) Test set creation and management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/nlu-test-set-creation-management.md).
 
 ## Test panel
 
 Access the test panel by clicking **Train model** or **Try model** in the **Build and train your model** phase. Training incorporates new content into your model. With **Try model**, you can manually enter individual utterances to test what intents the model predicts for them.
 
-For more information, see [Train and try your NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/test-train-nlu-model.md).
+For more information, see [\(Legacy\) Train and try your NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/test-train-nlu-model.md).
 
-You can also use the test panel to provide feedback on your model's predictions. Your feedback helps improve intent prediction. See [Test panel feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/test-model-panel-feedback.md).
+You can also use the test panel to provide feedback on your model's predictions. Your feedback helps improve intent prediction. See [\(Legacy\) Test panel feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/test-model-panel-feedback.md).
 
 ## Settings
 
@@ -77,5 +77,5 @@ Use the **Settings** tab to edit the name, short description, and confidence thr
 
 \[Omitted image "managing-model-contentT1.png"\] Alt text: Settings tab of an example model.
 
-For more information on the confidence threshold, see [Test and publish your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/testing-your-model.md). For more information on Settings, see [NLU model settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-model-settings.md).
+For more information on the confidence threshold, see [\(Legacy\) Test and publish your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/testing-your-model.md). For more information on Settings, see [\(Legacy\) NLU model settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/nlu-model-settings.md).
 

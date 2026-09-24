@@ -3,11 +3,11 @@ title: Generating a project data analysis
 description: Generate an analysis of your project data according to your categorization rules, then refine and share the analysis so you can make data-driven decisions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/mining-a-task-mining-project.html
-release: australia
+release: brazil
 product: Task Mining
 classification: task-mining
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Task Mining, Platform Analytics]
 ---
@@ -20,19 +20,19 @@ The process to generate a project data analysis is as follows:
 
 1.  Run a mining job on a Task Mining project to generate an analysis of your project data according to your categorization rules so you can make data-driven decisions.
 
-    For more information, see [Run a mining job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/mine-project-data.md).
+    For more information, see [Run a mining job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/mine-project-data.md).
 
 2.  Improve your Task Mining project's analysis before sharing the project to identify gaps in categorization. If you request modifications, you can then run the mining job again to check the result.
 
-    For more information, see [Refine the presentation of your data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/preview-data-based-on-categorization-rules.md).
+    For more information, see [Refine the presentation of your data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/preview-data-based-on-categorization-rules.md).
 
 3.  Determine which process owners have access to the project's analysis.
 
-    For more information, see [Share a Task Mining analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/share-projects.md).
+    For more information, see [Share a Task Mining analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/share-projects.md).
 
 
 **Related topics**  
 
 
-[Task Mining analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/task-mining-dashboard.md)
+[Task Mining analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/task-mining-dashboard.md)
 

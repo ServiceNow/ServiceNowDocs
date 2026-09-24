@@ -3,9 +3,9 @@ title: API discovery and synthetic monitoring integration
 description: Synthetic Monitoring integrates with API Insights to enable proactive monitoring of discovered APIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/api-discovery-integration.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [synthetic monitoring, API Insights, discovery, integration]
 breadcrumb: [Explore, Synthetic monitoring, ITOM AIOps, IT Operations Management]
@@ -34,7 +34,7 @@ The integration eliminates manually configuring endpoint details, as the API com
 The following workflow describes how API discovery integrates with synthetic monitoring:
 
 1.  API Insights discovers an API endpoint in your environment and represents it in the CMDB as an API component CI.
-2.  You create a synthetic monitor directly against that existing API component CI. See [Create a synthetic monitor for a discovered API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitor-for-discovered-api.md).
+2.  You create a synthetic monitor directly against that existing API component CI. See [Create a synthetic monitor for a discovered API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/create-synthetic-monitor-for-discovered-api.md).
 3.  The monitor continuously tests the API at the specified frequency.
 4.  Test results are displayed on the monitor details page.
 5.  Alerts are generated when tests fail based on your configured criteria.

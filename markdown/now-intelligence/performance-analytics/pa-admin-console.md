@@ -3,11 +3,11 @@ title: Performance Analytics Admin Console
 description: From a single console, administrators can manage Platform Analytics Solution content, manage Performance Analytics widgets and dashboards, diagnose and resolve errors, view usage analytics, modify configuration settings and access ServiceNow help.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/pa-admin-console.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -41,9 +41,9 @@ Users with the admin or pa\_admin roles can navigate to **Performance Analytics*
 
     Click **Dashboards** to explore all of the dashboards in your instance sorted by group. Expand the group to view the individual dashboards.
 
-    Click **KPIs** to open the [Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_UsePerformanceAnalyticsScorecards.md), where you see an exploratory view of your indicators.
+    Click **KPIs** to open the [Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_UsePerformanceAnalyticsScorecards.md), where you see an exploratory view of your indicators.
 
-    Use [\(Legacy\) Dependency Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/impact-analysis.md) to view, analyze, and manage your Performance Analytics components.
+    Use [\(Legacy\) Dependency Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/impact-analysis.md) to view, analyze, and manage your Performance Analytics components.
 
 -   **\[Omitted image "3.png"\] Alt text: Red number 3 indicating the Troubleshoot tile in the Admin console layoutTroubleshoot**
 
@@ -51,30 +51,30 @@ Users with the admin or pa\_admin roles can navigate to **Performance Analytics*
 
     **Note:** If either of the numbers on the Troubleshoot card are greater than 0, there may be something wrong with your Performance Analytics implementation.
 
-    -   Click **Diagnostic Errors** to view the Diagnostic Executions list, a summary of how many diagnostic tests were run, and how many issues were found. Use the **State** field to track which issues have been resolved. For more information on diagnostic executions, see [Analytics Diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/self-diagnostics.md).
-    -   Click **Failed Jobs** to view the Scheduled Data Collection list. A failed job is a scheduled job for which the latest complete run is in the state **collected\_error**. For more information on data collection, see [Performance Analytics data collection and cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_ClctData.md).
+    -   Click **Diagnostic Errors** to view the Diagnostic Executions list, a summary of how many diagnostic tests were run, and how many issues were found. Use the **State** field to track which issues have been resolved. For more information on diagnostic executions, see [Analytics Diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/self-diagnostics.md).
+    -   Click **Failed Jobs** to view the Scheduled Data Collection list. A failed job is a scheduled job for which the latest complete run is in the state **collected\_error**. For more information on data collection, see [Performance Analytics data collection and cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_ClctData.md).
 -   **\[Omitted image "4.png"\] Alt text: Red number 4 indicating the Usage tile in the Admin console layoutUsage**
 
     Dashboards with statistics about data collection jobs and report usage.
 
-    -   Use the **Data Collection Overview** dashboard to track and manage data collection. Note that data collection jobs are not run by default. dashboard widgets do not show data until you run the associated data collection jobs. For more information, see [Performance Analytics data collection and cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_ClctData.md).
-    -   Use the **Reports Usage** dashboard to track and manage report usage. For more information, see [Report statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-statistics.md).
+    -   Use the **Data Collection Overview** dashboard to track and manage data collection. Note that data collection jobs are not run by default. dashboard widgets do not show data until you run the associated data collection jobs. For more information, see [Performance Analytics data collection and cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_ClctData.md).
+    -   Use the **Reports Usage** dashboard to track and manage report usage. For more information, see [Report statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/report-statistics.md).
 -   **\[Omitted image "5.png"\] Alt text: Red number 5 indicating the Advanced Configuration tile in the Admin console layoutAdvanced Configuration**
 
     Quick links to advanced configuration settings.
 
-    -   [Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-properties.md)
-    -   [Reporting properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/reporting-properties.md)
-    -   [Responsive dashboard properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/dashboard-properties.md)
+    -   [Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/pa-properties.md)
+    -   [Reporting properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/reporting-properties.md)
+    -   [Responsive dashboard properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/dashboard-properties.md)
 -   **\[Omitted image "6.png"\] Alt text: Red number 6 indicating the Help tile in the Admin console layoutHelp**
 
     The community, product documentation, and the video tutorials on the ServiceNow YouTube channel provide additional insights into Performance Analytics functionality.
 
 
-**Parent Topic:**[Configure Performance Analytics advanced features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PADataArchitecture.md)
+**Parent Topic:**[Configure Performance Analytics advanced features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_PADataArchitecture.md)
 
 **Related topics**  
 
 
-[Interactive Analysis information panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/interactive-analysis-info-panel.md)
+[Interactive Analysis information panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/interactive-analysis-info-panel.md)
 

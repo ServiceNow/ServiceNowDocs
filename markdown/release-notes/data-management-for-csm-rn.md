@@ -1,260 +1,122 @@
 ---
 title: Data Management for CSM release notes
-description: The ServiceNow Data Management for Customer Service Management \(CSM\) application enables you to organize and manage the data for both your internal users and external customers. Data Management for CSM was enhanced and updated in the Australia release.The ServiceNow Data Management for Customer Service Management \(CSM\) application enables you to organize and manage the data for both your internal users and external customers. Data Management for CSM was enhanced and updated in the Australia release.The ServiceNow Data Management for Customer Service Management \(CSM\) application enables you to organize and manage the data for both your internal users and external customers. Data Management for CSM was enhanced and updated in the Australia release.The ServiceNow Data Management for Customer Service Management \(CSM\) application enables you to organize and manage the data for both your internal users and external customers. Data Management for CSM was enhanced and updated in the Australia release.The ServiceNow Data Management for Customer Service Management \(CSM\) application enables you to organize and manage the data for both your internal users and external customers. Data Management for CSM was enhanced and updated in the Australia release.The ServiceNow Data Management for Customer Service Management \(CSM\) application enables you to organize and manage the data for both your internal users and external customers. Data Management for CSM was enhanced and updated in the Australia release.The ServiceNow Data Management for Customer Service Management \(CSM\) application enables you to organize and manage the data for both your internal users and external customers. Data Management for CSM was enhanced and updated in the Australia release.
+description: The ServiceNow Data Management for Customer Service Management \(CSM\) application enables you to organize and manage the data for both your internal users and external customers. Data Management for CSM was enhanced and updated in the Brazil release. See the following sections for release notes by version.CSM Data Management unifies billing schedules and payment profiles for clearer visibility into billing accounts. It adds related-party and return merchandise authorization \(RMA\) tracking on sold products directly from the portal. It also auto-proposes major and child cases for business organization outages in the Brazil release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/data-management-for-csm-rn.html
-release: australia
+release: brazil
 topic_type: topic
-last_updated: "2026-03-12"
-reading_time_minutes: 10
-breadcrumb: [Customer Service Management release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Customer Service Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Data Management for CSM release notes
 
-The ServiceNow® Data Management for Customer Service Management \(CSM\) application enables you to organize and manage the data for both your internal users and external customers. Data Management for CSM was enhanced and updated in the Australia release.
+The ServiceNow® Data Management for Customer Service Management \(CSM\) application enables you to organize and manage the data for both your internal users and external customers. Data Management for CSM was enhanced and updated in the Brazil release. See the following sections for release notes by version.
 
-## About Data Management for CSM
+## About Data Management
 
--   Implement granular administrative roles across the Customer Data Foundation \(CDF\) for better access control over user permissions and data.
--   Support unified user modeling with Contact as Consumer functionality, enabling the user to function as both a business-to-business \(B2B\) and a business-to-consumer \(B2C\).
--   Migrate the Household \(com.snc.household\) plugin to ServiceNow Store for improved packaging and deployment flexibility.
--   Renamed Service Model Foundation entities for clarity and consistency. Update any configurations, scripts, or integrations that reference these entities.
--   Enable billing account support on Sold Products to give agents instant financial context, accelerate billing case resolution, and improve billing accuracy and transparency.
+-   Unify billing schedules and payment profiles across all billing accounts, with visibility into when each account is billed, who is responsible for payment, and how payments are collected.
+-   Manage related parties and deal context on sold products, and enable customers to create and track Return Merchandise Authorization \(RMA\) cases directly from the portal.
+-   Track business organization outages efficiently. As a major case manager, get auto-proposed major cases and child cases for every affected organization, ensuring consistent updates across all impacted accounts.
 
-See [Data management for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-data-management.md) feature for more information.
+See [Data management for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-data-management.md) feature for more information.
 
 ## Activation and other requirements
 
-**Important:** Business Location and Install Base Management are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
-
 -   **Activation information**
 
-    CSM is a ServiceNow AI Platform application that is available with activation of the Customer Service Management \(CSM\) plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ActivateCustomerService.md).
+    CSM is a ServiceNow AI Platform application that is available with activation of the Customer Service Management \(CSM\) plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/t_ActivateCustomerService.md).
 
-    Additional CSM features are available with the activation of other plugins. For details, see [Additional plugins for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_CustServMgmtAddtlPluginsTable.md).
+    Additional CSM features are available with the activation of other plugins. For details, see .
 
-    Sales Customer Relationship Management is a ServiceNow AI Platform feature that is available with the activation of the Lead to Cash Core plugin \(com.snd.l2c.core\). For details, see [Exploring Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-exploring.md).
+    Sales Customer Relationship Management is a ServiceNow AI Platform feature that is available with the activation of the Lead to Cash Core plugin \(com.snd.l2c.core\). For details, see [Exploring Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-exploring.md).
 
 -   **Browser requirements**
 
-    Starting with the Australia release, data management for Customer Service Management doesn't support mobile devices and Internet Explorer. For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/browser-support.md).
+    Starting with the Brazil release, data management for Customer Service Management doesn't support mobile devices and Internet Explorer. For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/browser-support.md).
 
 
-**Parent Topic:**[Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/customer-service-mgmt-rn-landing.md)
+**Parent Topic:**[Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/customer-service-mgmt-rn-landing.md)
 
-## August 2026
+## Version 1.0
 
-The ServiceNow® Data Management for Customer Service Management \(CSM\) application enables you to organize and manage the data for both your internal users and external customers. Data Management for CSM was enhanced and updated in the Australia release.
-
-### What's new
-
--   **[External staff can resolve customer cases at their locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/access-limitations-for-ext-loc-customer-agent.md)**
-
-    The external location consumer agents \(having sn\_customerservice.svc\_location\_consumer\_agent and snc\_external roles\) at external organization \(formerly external business location\) can create, view, update, and close customer cases directly from the classic environment, the same way internal location staff already can. This extends consistent, timely customer service across company-owned and third-party locations.
-
--   **[External staff can view colleague contact details at their location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-data-model-tables.md)**
-
-    An external staff member with sn\_customerservice.service\_organization\_contributor role, can view the business phone number, mobile phone number, and email address of other external staff members at their organization in the classic environment.
-
-
-## July 2026
-
-The ServiceNow® Data Management for Customer Service Management \(CSM\) application enables you to organize and manage the data for both your internal users and external customers. Data Management for CSM was enhanced and updated in the Australia release.
+CSM Data Management unifies billing schedules and payment profiles for clearer visibility into billing accounts. It adds related-party and return merchandise authorization \(RMA\) tracking on sold products directly from the portal. It also auto-proposes major and child cases for business organization outages in the Brazil release.
 
 ### What's new
 
--   **[Create Return Merchandise Authorization case lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-return-merchandise-authorization-case-lines.md)**
+-   **[Restricted Customer Access now controls visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/associate-customers-or-bus-loc-to-so.md)**
 
-    Enable agents to initiate return requests directly from sold product records along with install base items. Return cases automatically map order and product details to the case, giving users an end-to-end visibility into their returns and reducing processing times.
+    Extended the organization customer criteria for a business organization with a new **Restricted Customer Access** check box that controls visibility of customer records. When enabled, business organization staff can view only the customer and consumer records that satisfy the configured criteria at their business organization. This applies to both service and sales personas. Upgrade customers must run the one-time scheduled job, **Remove Legacy roles from Loc Mgr Contrib** to enable restricted customer access configuration.
 
--   **[Proactive Customer Service Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/proactive-service-operations.md)**
+-   **[New business organization-scoped contributor personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-contributor-user-roles.md)**
 
-    Event management operators now have a dedicated customer service management role for access control when setting up new installations. The access to customer data for event management operators is granted through a limited scope role \(sn\_pro\_cs\_ops.csm\_evt\_mgmt\_stakeholder\) instead of the global platform role \(evt\_mgmt\_operator\) role.
+    Added two new roles, Business Org Account Contributor \[sn\_bus\_loc.business\_org\_account\_contributor\] and Business Org Consumer Contributor \[sn\_bus\_loc.business\_org\_account\_contributor\] that grant location-scoped equivalents of the existing Account Contributor and Consumer Contributor roles. With Business Org Account Contributor role, you can create cases for accounts supported by your business organization. You can also track and manage cases created by you for the accounts associated with your organization. With Business Org Consumer Contributor role, you can create cases for consumers or households supported by your business organization. You can also track and manage cases created by you for the consumers or households associated with your organization.
 
--   **[How life-cycle values for Asset, CI, and IBI are synchronized](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-asset-CI-IBI-sync-options.md)**
+-   **Proactive Customer Service extended to business organizations**
 
-    Configure a model category as a product instance to enable the system to synchronize life cycle values between asset and install base item. The synchronization uses the life cycle stage and life cycle state status values.
+    Extended proactive customer service and major case management to business organizations, alongside the existing support for accounts and consumers. When a network alert affects install base items belonging to a business organization, the system can propose a major case and build a recipient list of the affected business organizations. If the major case manager accepts the proposal, they can create a child case for each affected business organization, so all affected business organizations are tracked and updated under a single major case. Business Organization staff can track cases from Business Organization Support Portal.
 
+-   **[Billing account address](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/associate-location-with-billing-account.md)**
 
-## June 2026
+    Associate one or more locations with a billing account using the new Billing Account Address \[sn\_billing\_account\_address\] table. Each address record captures the address type, identifies the primary address, and tracks whether the address is active or inactive.
 
-The ServiceNow® Data Management for Customer Service Management \(CSM\) application enables you to organize and manage the data for both your internal users and external customers. Data Management for CSM was enhanced and updated in the Australia release.
+-   **[Billing account payment profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/add-payment-profile-to-billing-account.md)**
 
-### What's new
+    Define payment information for a billing account using the new Billing Account Payment Profile \[sn\_billing\_account\_payment\_profile\] table, which captures the payment method and related payment details for the account.
 
--   **[Business Organization Self Contributor persona](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-data-model-roles.md)**
+-   **[Payment responsibility on billing accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/add-payment-profile-to-billing-account.md)**
 
-    Create and track service cases for themselves and for sold products and install base items at a business location that are assigned to them. Use the Business Organization Self Contributor \[sn\_bus\_loc.business\_org\_self\_contributor\] role. This role is available to frontline, field, and location-based workers. A new Buyer Organization Member field on the sold product and install base item lets managers associate these records with specific members.
+    Specify who pays for a billing account with the new Paying party and Paying billing account fields, supporting self, parent, and designated-account payment relationships.
 
--   **[Hierarchy-scoped access for business organization members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-assign-responsibilities.md)**
+-   **[Billing schedules on billing accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/set-up-billing-schedule-for-billing-account.md)**
 
-    Grant business organization members hierarchy-scoped access across child locations with administrator or manager-controlled exclusions using a new organization hierarchy responsibility, Organization Hierarchy Contributor \[org\_hierarchy\_contributor\]. Two new fields control the scope: Excluded Locations on the assignment, and Restricted on the business location.
+    Define when billing occurs for a billing account with the new Billing Schedule field, which links the account to a platform schedule and its schedule entry records. The new billing account schedule viewer \[sn\_billing\_account.schedule\_viewer\] and writer \[sn\_billing\_account.schedule\_writer\] roles control read and write access to these schedules.
 
+-   **New fields across the Customer Data Foundation tables**
+
+    Added fields to the core customer data model tables to support segmentation, life cycle tracking, and external-system integration:
+
+    -   **Account table**: Account stage, Account status, Customer since, Relationship tier, Market segment, Total ACV, and External ID
+    -   **Contact table**: External ID
+    -   **Consumer table**: Consumer stage, Consumer status, Customer since, Relationship tier, and External ID
+    -   **Account Team Member table**: Active, Start date, and End date
 
 ### What's changed
 
--   **Modify action limited to parent sold products**
+-   **Project task assignment access for business organization staff**
 
-    Perform the **Modify** action for only root sold products.The **Modify** action is inactive for child sold products across the list view, detail view, and hierarchical list.
+    Gain write access to the Assignment group and Assigned to field, and read access to the Priority field, on business organization project tasks with the Location Project Member \[sn\_bus\_loc.location\_project\_stakeholder\] or Location Project Manager Contributor \[sn\_bus\_loc.location\_manager\_project\_stakeholder\] role.
 
+-   **[Billing account roles and responsibility access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/granular-roles-and-supported-entities-CAM.md)**
 
-## April 2026
+    Updated billing account roles and responsibility access to align with the expanded billing account capabilities. Extended access to Billing Account Address, Billing Account Payment Profile, and Billing Schedule \(schedule and schedule entry\) through:
 
-The ServiceNow® Data Management for Customer Service Management \(CSM\) application enables you to organize and manage the data for both your internal users and external customers. Data Management for CSM was enhanced and updated in the Australia release.
+    -   Billing Account platform granular and CRM granular roles
+    -   Billing Account responsibilities through the customer access management \(CAM\) framework
+-   **[Create a sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-sold-item.md)**
 
-### What's changed
+    Edit and view multiple related parties in the sold product enable users to review the details of a deal and review deal context without leaving the record. **Deal type** and **Route to Market** aren't captured on the sold product, with route to market options filtered automatically based on the selected deal type.
 
--   **[Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md)**
+-   **[Create return merchandize authorization \(RMA\) cases directly from the business portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/rma-case-self-service.md)**
 
-    Renamed Service Model Foundation entities to improve clarity and maintain consistency across the platform. Review your existing configurations, scripts, or integrations that reference these entities and update them accordingly.
+    Initiate an RMA case from the business portal without contacting an agent to reduce the back-and-forth for returns and replacements.
 
-    **Note:** The entity name changes are available in the Business Location 5.2.0 store app.
-
-
-## Australia Early Availability
-
-The ServiceNow® Data Management for Customer Service Management \(CSM\) application enables you to organize and manage the data for both your internal users and external customers. Data Management for CSM was enhanced and updated in the Australia release.
-
-### What's new
-
--   **[Configuring a contact as a consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configuring-a-contact-as-a-unified-consumer.md)**
-
-    Model a single user who functions as both a contact and a consumer within your customer data structure. This capability improves administrative efficiency by reducing the overhead of creating and maintaining multiple user records for the same individual. It also provides a unified experience, eliminating the must switch logins across different personas.
-
--   **[Billing accounts data model enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-related-parties-to-a-billing-account.md)**
-
-    Grant contacts and consumers access to billing accounts through the related parties data model, using out of base system responsibilities and roles.
-
--   **[Service Model Foundation Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/granular-admin-roles.md)**
-
-    Added new granular admin roles to enable targeted permission assignments based on functional responsibilities, replacing broad admin access.
-
--   **[Add related parties to an install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-related-party-install-base.md)**
-
-    The Sold product is enhanced to support Related pricing.
-
--   **[Adding related parties to a sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-related-parties-to-sp.md)**
-
-    Use flexible price and quantity ramps that adapt over a product’s lifecycle, enabling time-based pricing, segment modifications during post-sale workflows, and accurate calculations across multi-year contracts.
-
--   **[Sold product form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/sold-product-form.md)**
-
-    Use scheduled jobs to update the state of the Sold product based on start and end dates. Automatic state updates ensure fair access and predictable billing. This reduces errors through accurate lifecycle management and delta pricing.
-
--   **[Sold product form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/sold-product-form.md)**
-
-    Billing Account support on Sold Products to give agents immediate financial context, streamline billing‑related case resolution, and improve billing accuracy and transparency for customers and enterprises.
-
-
-### What's changed
-
--   **[Household plugin migration to ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-customer-service-household.md)**
-
-    Starting with the Australia release, the Household family plugin \(com.snc.household\) has been migrated to the ServiceNow Store as a standalone application. Any new enhancements to this application are delivered through the Household store app. This change provides improved packaging, versioning, and deployment flexibility for B2C implementations that require household relationship management.
-
-
--   **[Customer Life Cycle Management Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-life-cycle-management-workflows.md)**
-
-    Added core primitives to support price and quantity ramps, enabling flexible, time‑based changes across the sold product lifecycle. The feature delivers scalable pricing aligned with usage, simplifies post-sale workflows, and improves revenue forecasting without custom scripts.
-
--   **[Sold product form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/sold-product-form.md)**
-
-    Create future‑dated subscription products in a **Pending Activation** state to improve the Add‑Order‑to‑Sold‑Product process. It also ensures lifecycle accuracy, predictable billing, and fair access for customers while improving revenue recognition for businesses.
-
+    -   Enable customer contacts to view the list of their RMA cases from the **Request** menu on the portal to track their requests in progress.
+    -   Customer contacts can open individual RMA cases and drill into case lines to review its status and details.
 
 ### Plugin information
 
 -   **Renamed or changed plugins**
 
-    The following plugins are moved to store. The Customer Service Household \(com.snc.household\) plugin has been renamed to Customer Household Data Model \(com.snc.household\).
+    Customer Service Base Entities \(com.snc.cs\_base\): Renamed to CRM Base Entities \(com.snc.cs\_base\).
 
-    -   CSM Contributor User \(com.snc.csm\_contributor\_user\)
-    -   Outsourced Customer Service \(com.snc.csm\_ocs\)
-    -   Service Organization \(com.snc.service\_organization\)
-    -   Outsourced service provider \(com.snc.outsourced\_service\_provider\)
-    -   CSM Data Classification \(com.snc.csm\_data\_privacy\): Renamed to CRM Data Classification.
-    -   Customer Service Household \(com.snc.household\): Renamed to CRM Household Entities.
+    Customer Service Base Extension Entities \(com.snc.cs\_base\_extension\): Renamed to CRM Base Extension Entities \(com.snc.cs\_base\_extension\).
 
-## Australia
+    Customer Data Models for B2B2C \(com.sn\_csm\_b2b\_consumers\): Renamed to CRM B2B2C Entities \(com.sn\_csm\_b2b\_consumers\).
 
-The ServiceNow® Data Management for Customer Service Management \(CSM\) application enables you to organize and manage the data for both your internal users and external customers. Data Management for CSM was enhanced and updated in the Australia release.
+    Customer Service Install Base Characteristics \(com.snc.install\_base\_characteristics\): Renamed to Customer Install Base Characteristics \(com.snc.install\_base\_characteristics\).
 
-### What's new
+    Customer Service Install Base Management \(com.snc.install\_base\): Renamed to Customer Install Base Management \(com.snc.install\_base\).
 
--   **[Granular administrative roles for Customer Data Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-data.md)**
-
-    Implemented administrative roles that provide fine-grained access control across CDF. These roles can be assigned to administrators and other personas based on job functions and security requirements. It includes the following capabilities:
-
-    -   Added 25 admin roles with specific read, write, create, and delete permissions.
-    -   Updated Before you begin sections across all Customer Data Foundation configuration topics with role prerequisites.
-    -   Improved security compliance through role-based access segregation.
--   **[New fields in the Customer Account table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-data.md)**
-
-    Added the following fields to the Customer Account \(customer\_account\) table to improve business identification and record management:
-
-    -   DUNS Number: Store the Data Universal Numbering System \(DUNS\) identifier for business accounts to support data enrichment and third party integrations.
-    -   Active: Indicates whether an account record is active for filtering and workflow purposes.
--   **[Description field added Customer Data Foundation configuration tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-cust-access-mgmt-tables.md)**
-
-    Added a Description field to the following Customer Data Foundation \(CDF\) configuration tables to capture additional details about each record:
-
-    -   Related Party Configuration \[sn\_customerservice\_related\_party\_configuration\] table
-    -   Responsibility Definition \[sn\_customerservice\_responsibility\_def\] table
-    -   Responsibility Access Configuration \[sn\_customerservice\_responsibility\_access\_config\] table
-
-### What's changed
-
--   **[Enhanced Customer Data Viewer role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/business-stakeholder-for-csm.md)**
-
-    The Customer Data Viewer \(sn\_customerservice.customer\_data\_viewer\) role includes expanded access to additional data tables and menu items. These enhancements enable users to view a broader range of customer data while maintaining read-only access restrictions. With this enhancement, you can:
-
-    -   Extend access to additional tables for the customer data viewer role
-        -   Inherit household role in customer data viewer role
-    -   Explore additional menu items now accessible to the customer data viewer role.
-
--   **[Guided setup access for granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/import-csm-accounts.md)**
-
-    Access to foundation data steps in guided setup now aligns with CDF admin roles. This access change enables administrators to delegate specific configuration tasks to users based on their assigned roles, providing greater flexibility in managing setup responsibilities.
-
--   **[Extensible account code support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-account-code-account-path.md)**
-
-    Updated the account code generation logic to support dynamic length scalability. Account codes now automatically expand from 4 digits to 5 or more as needed, ensuring unlimited account growth without manual intervention. Administrators can resolve invalid insert errors by clearing the system property to regenerate codes based on the maximum existing code.
-
--   **[Declarative Responsibility Framework enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/declarative-resposibility-framework.md)**
-
-    Introduced usability and functional enhancements to the Customer Access Management \(CAM\) Declarative Responsibility Framework. These updates streamline access configuration management and improve flexibility for responsibility definitions. With this enhancement, you can now:
-
-    -   Import or copy access configurations from one responsibility definition to another.
-    -   Manage CAM-related assets through improved cleanup capabilities.
-    -   Reference any field name in the Responsibility Definition field configuration.
--   **[Unified User configuration enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configuring-unified-user.md)**
-
-    Added a system property \(sn\_customerservice.consumer.allowed\_user\_types\) to enhance unified user management. This property specifies which user types \(classes\) can be associated with consumers.
-
--   **[Configuring billing accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configuring-billing-accounts.md)**
-
-    Visualize a billing account's hierarchy directly from the account, making large parent-and-child account structures easier to navigate. The default view now adapts to the billing account type. The **Billing account type** field is populated automatically from the source customer to reduce manual setup and keep records consistent.
-
-
-### What's deprecated or removed
-
--   As part of the CAM Declarative Responsibility Framework enhancements, the following legacy fields have been marked deprecated:
-    -   **Restrict access to** field from the Responsibility Access Configuration \[sn\_customerservice\_responsibility\_access\_config\] table
-    -   **Applicable to** field from the Responsibility Definition \[sn\_customerservice\_responsibility\_def\] table
--   Starting with the Australia release, the Household plugin \(com.snc.household\) is available as a store plugin. The family version of the plugin is being prepared for future deprecation. On upgrading, customers will automatically move to the store version of the plugin. It will be hidden from the family plugins and no longer installed on new instances but will continue to be supported as a store plugin. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
-
--   **Restrict access to** field from the Responsibility Access Configuration \[sn\_customerservice\_responsibility\_access\_config\] table
--   **Applicable to** field from the Responsibility Definition \[sn\_customerservice\_responsibility\_def\] table
-
-### Plugin information
-
--   **Plugins planned for deprecation**
-
-    The following plugins are planned for deprecation in a future release:
-
-    These plugins are planned for deprecation in the C release. Beginning with the Australia release these plugins will be migrated to a store application. Upgrade your instance to Australia or later release versions and the store applications will be automatically installed.
-
-    -   CSM Contributor User \(com.snc.csm\_contributor\_user\)
-    -   Service Organization \(com.snc.service\_organization\)
 

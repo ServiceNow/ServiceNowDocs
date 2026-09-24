@@ -3,11 +3,11 @@ title: Limit metrics collection and evaluation
 description: You can limit the metrics you send from the MID Server to the instance, either by de-activating a specific CI or an entire CI type.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-limit-metrics-collection.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enable metrics collection and evaluation, ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---

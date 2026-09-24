@@ -3,9 +3,9 @@ title: Add members to HQ group to complete playbook
 description: Add approvers to the Retail HQ Governance group so the system can send playbook stage approval requests when all sections are marked complete or skipped.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/add-members-to-hq-group-spmr.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Retail Strategic Portfolio Management Suite, Strategic Portfolio Management]
 ---

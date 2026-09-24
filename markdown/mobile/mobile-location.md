@@ -3,9 +3,9 @@ title: Using location tracking for mobile
 description: Use location tracking so that you can keep a record of your location, either for a defined period of time or while you perform tasks .
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-location.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Mobile app settings, Using the mobile apps, Mobile Platform]
 ---

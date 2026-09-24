@@ -3,11 +3,11 @@ title: Defining Security Control Lists
 description: Use this feature to add or remove observables in bulk.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/define-security-control-lists.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [About Security Control Lists in TISC, Administer, Threat Intelligence Security Center, Security Operations]
 ---

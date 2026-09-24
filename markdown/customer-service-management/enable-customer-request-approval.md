@@ -3,9 +3,9 @@ title: Enable external customers to approve requests and changes
 description: Enable your external customers to approve change and request records related to customer service cases from the Customer Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/enable-customer-request-approval.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up CSM integration with IT Service Management, Integrate with IT Service Management, Integrate, Customer Service Management]
 ---

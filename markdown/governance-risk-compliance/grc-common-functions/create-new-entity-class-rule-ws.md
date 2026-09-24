@@ -3,11 +3,11 @@ title: Create an entity class rule
 description: Create a rule for an entity class. Entity class rules provide the classification of the entities at the class level. You can create a new entity class rule for an entity class that is associated with a table. After creating the new entity class rule, the Entity class rules table is updated with the new record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/create-new-entity-class-rule-ws.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Entity class rules, Explore entities, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -40,5 +40,5 @@ Roles required: sn\_grc.manager, sn\_risk\_workspace.IT\_risk\_manager, and sn\_
 4.  To save the entity class rule, click **Save**.
 
 
-**Parent Topic:**[Entity class rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/entity-class-rules-in-risk-ws.md)
+**Parent Topic:**[Entity class rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/entity-class-rules-in-risk-ws.md)
 

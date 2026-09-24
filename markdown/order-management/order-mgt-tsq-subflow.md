@@ -3,9 +3,9 @@ title: Process Qualification Request subflow
 description: The Process Qualification Request subflow generates a qualification request based on the customer order, sends the request to the third party inventory system, and executes the integration request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/order-mgt-tsq-subflow.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service qualification requests, Managing service orders, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -32,12 +32,12 @@ If the response is received asynchronously, the response should be passed to the
 
 In this example response, the `qualificationresult` is set to Qualified for all the service orders in the hierarchy and the final `result` is also set to Qualified.
 
-**Parent Topic:**[Service qualification requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-tsq-about.md)
+**Parent Topic:**[Service qualification requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-tsq-about.md)
 
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-order-management.md)
 

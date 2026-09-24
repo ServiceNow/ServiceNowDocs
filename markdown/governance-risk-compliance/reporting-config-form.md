@@ -1,18 +1,18 @@
 ---
 title: Create Reporting Configuration form
-description: On the Create Reporting Configuration form, fill in the fields.
+description: On the Create New Reporting Configuration form, fill in the fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/reporting-config-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-05-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create Reporting configurations, Generating Microsoft Word reports using Document designer, Manage, Using Digital resilience incident reporting, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Create Reporting Configuration form
 
-On the Create Reporting Configuration form, fill in the fields.
+On the Create New Reporting Configuration form, fill in the fields.
 
 <table id="table_xhd_4dv_fjc"><thead><tr><th>
 

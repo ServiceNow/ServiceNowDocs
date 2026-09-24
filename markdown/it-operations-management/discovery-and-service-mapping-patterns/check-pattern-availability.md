@@ -3,11 +3,11 @@ title: Check which plugin contains a required pattern
 description: Since ServiceNow releases discovery patterns using two different plugins, you may need to check which plugin to install or upgrade.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/check-pattern-availability.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Pattern Designer and related applications, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -54,5 +54,5 @@ ServiceNow releases all discovery patterns using the following applications:
     \[Omitted image "pattern-list-check-plugin.png"\] Alt text: View the supporting application for patterns.
 
 
-**Parent Topic:**[Configuring Pattern Designer and related applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/configuring-pattern-designer-plugins.md)
+**Parent Topic:**[Configuring Pattern Designer and related applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/configuring-pattern-designer-plugins.md)
 

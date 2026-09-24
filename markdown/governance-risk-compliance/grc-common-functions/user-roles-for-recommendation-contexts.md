@@ -3,11 +3,11 @@ title: User roles for recommendation contexts
 description: Users with different roles can read, create, or edit recommendation contexts for a regulatory alert.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/user-roles-for-recommendation-contexts.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Recommendation contexts and templates, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -23,5 +23,5 @@ Users with different roles can read, create, or edit recommendation contexts for
 |sn\_reco\_template.recommendation\_reader|Users with this role can read the recommendation templates.|
 |sn\_reco\_template.recommendation\_writer|User with this role can create and edit recommendation templates.|
 
-**Parent Topic:**[Recommendation contexts and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/recommendation-contexts.md)
+**Parent Topic:**[Recommendation contexts and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/recommendation-contexts.md)
 

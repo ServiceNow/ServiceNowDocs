@@ -3,11 +3,11 @@ title: Create a top-level investment
 description: Create a top-level investment for the investment entity record for which you want to receive and allocate funds.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/investment-funding/create-top-level-investment.html
-release: australia
+release: brazil
 product: Investment Funding
 classification: investment-funding
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Investment Funding, Strategic Portfolio Management]
 ---
@@ -84,11 +84,11 @@ Option that indicates that this is a top-level investment. This setting cannot b
 
 ## What to do next
 
--   [Fund a top-level investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/add-fund-top-investment.md) to meet the business goals.
--   [Create a business case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/add-business-case.md) to define the business need of the investment.
+-   [Fund a top-level investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/investment-funding/add-fund-top-investment.md) to meet the business goals.
+-   [Create a business case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/investment-funding/add-business-case.md) to define the business need of the investment.
 
--   **[Fund a top-level investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/add-fund-top-investment.md)**  
+-   **[Fund a top-level investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/investment-funding/add-fund-top-investment.md)**  
 Allocate funds to a top-level investment so that the investment owner can distribute funds further.
 
-**Parent Topic:**[Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/investment-funding-overview.md)
+**Parent Topic:**[Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/investment-funding/investment-funding-overview.md)
 

@@ -3,11 +3,11 @@ title: Copy intraday schedule automation flows
 description: Duplicate the three intraday schedule automation flows installed with the Field Service Management Scheduling Flow Designer Flows plugin so if something breaks in the flows you activated, you can copy the originals again.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/copy-intraday-scheduleing-flows.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Intraday schedule automation, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
@@ -42,5 +42,5 @@ Role required: admin
 **Related topics**  
 
 
-[Intra-day schedule automation flows and subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/intraday-scheduling-flows.md)
+[Intra-day schedule automation flows and subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/intraday-scheduling-flows.md)
 

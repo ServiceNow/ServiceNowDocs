@@ -3,11 +3,11 @@ title: Subscribe Triggers
 description: View the list of all the subscribed webhook triggers for the current webhook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/subscribe-triggers.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure webhooks, Working with Webhooks, Administer, Threat Intelligence Security Center, Security Operations]
 ---
@@ -43,5 +43,5 @@ Role required: sn\_sec\_tisc.admin
     **Note:** You can also **Unsubscribe** the webhook from the selected trigger\(s\).
 
 
-**Parent Topic:**[Configure webhooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/setup-webhooks.md)
+**Parent Topic:**[Configure webhooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/setup-webhooks.md)
 

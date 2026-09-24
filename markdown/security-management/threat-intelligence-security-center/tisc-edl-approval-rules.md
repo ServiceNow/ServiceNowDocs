@@ -3,11 +3,11 @@ title: Define Palo Alto Networks Approval Rules
 description: Activate approval workflows to require approval or rejection of EDL entries before they take effect.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-edl-approval-rules.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Palo Alto Networks integration, Firewall integration, TISC Security Tools integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
@@ -62,12 +62,12 @@ As a TISC admin, you define these approval rules to grant consent on approval re
 5.  Select **Enable** to enable the approval rule.
 
 
-**Parent Topic:**[Palo Alto Networks integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/palo-alto-networks-integration.md)
+**Parent Topic:**[Palo Alto Networks integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/palo-alto-networks-integration.md)
 
 **Related topics**  
 
 
-[Create EDL for Palo Alto Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/create-new-edl.md)
+[Create EDL for Palo Alto Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/create-new-edl.md)
 
-[Approve EDL entries for Palo Alto Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-approve-edl-entries.md)
+[Approve EDL entries for Palo Alto Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-approve-edl-entries.md)
 

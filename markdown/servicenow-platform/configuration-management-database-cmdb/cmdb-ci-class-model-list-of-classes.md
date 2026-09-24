@@ -3,11 +3,11 @@ title: List of classes added by the CMDB CI Class Models app
 description: Alphabetical list of classes that are added by the CMDB CI Class Models ServiceNow Store app. The app adds class models \(name, label, and a description of the type of information stored in the table\) to the base-system CMDB. The app can also update the label \(display name\) of an existing base class.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-ci-class-model-list-of-classes.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 34
 breadcrumb: [Reference, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Alphabetical list of classes that are added by the CMDB CI Class Models ServiceN
 
 ## Classes added by the CMDB CI Class Models app
 
-For more information, see [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
+For more information, see [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
 
 |Table name|Label \(Display name\)|Table description|
 |----------|----------------------|-----------------|

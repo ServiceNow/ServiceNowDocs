@@ -3,11 +3,11 @@ title: Telecom Discovery
 description: ServiceNow AI Platform Telecom Discovery provides visibility into your telecom network infrastructure by extending ITOM Visibility to support telecom-specific use cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/exploring-telecom-discovery.html
-release: australia
+release: brazil
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Telecom Visibility, Explore, Telecommunications Service Operations Management]
 ---
@@ -59,7 +59,7 @@ This approach helps CSPs adapt and reduce onboarding time when expanding their d
 **Related topics**  
 
 
-[Configure Telecom Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configuring-tsom-visibility.md)
+[Configure Telecom Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/configuring-tsom-visibility.md)
 
-[Use Telecom Discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/using-telecom-discovery-patterns.md)
+[Use Telecom Discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/using-telecom-discovery-patterns.md)
 

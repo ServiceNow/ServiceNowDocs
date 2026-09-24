@@ -1,0 +1,575 @@
+---
+title: Combined Knowledge Graph release notes for upgrades from Zurich to Brazil
+description: Consolidated page of all release notes for Knowledge Graph from Zurich to Brazil.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-knowledgegraph-release-notes.html
+release: brazil
+topic_type: reference
+last_updated: "2026-09-24"
+reading_time_minutes: 8
+breadcrumb: [Products combined by family]
+---
+
+# Combined Knowledge Graph release notes for upgrades from Zurich to Brazil
+
+Consolidated page of all release notes for Knowledge Graph from Zurich to Brazil.
+
+## How to use this page
+
+To help you prepare for your upgrade, we have combined the cross-family Knowledge Graph release notes onto one page. Read this summary of the new features, changes, and updated information for your product from Zurich to Brazil.
+
+**Tip:** If there were no updates for a release notes section in a certain family release, we included a short note for your reference. For example, if a product did not have any updates in Tokyo, the row says "No updates for this release."
+
+## Important information for upgrading Knowledge Graph to Brazil
+
+Before you upgrade to Brazil, review these pre- and post-upgrade tasks and complete the tasks as needed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## New features
+
+Between your current release family and Brazil, new features were introduced for Knowledge Graph.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **[\[Placeholder link text to key using-graph-query-builder\]](https://www.servicenow.com/docs/access?context=using-graph-query-builder&family=zurich&ft:locale=en-US)**
+
+A visual interface to build and run Knowledge Graph queries without coding, enabling users to explore entities, relationships, and apply filters easily. It also supports natural language queries converted by LLMs for intuitive querying and offers options to save and reuse the queries later.
+
+
+ -   **[Tagging in Knowledge Graph Designer](https://www.servicenow.com/docs/access?context=tagging-in-knowledge-graph&family=zurich&ft:locale=en-US)**
+
+The Knowledge Graph landing page now includes a dedicated tagging section that allows users to create, edit, and manage tags.
+
+
+ -   **[Using Enterprise graph schema](https://www.servicenow.com/docs/access?context=global-graph-schema&family=zurich&ft:locale=en-US)**
+
+Enterprise Graph is a pre-configured Knowledge Graph schema that eliminates the need for custom schema creation in KG designer. By mapping all tables, the Enterprise Graph schema enhances the breadth of query capabilities, enabling database queries across all instance tables.
+
+
+ -   **[Tagging in Knowledge Graph Designer](https://www.servicenow.com/docs/access?context=tagging-in-knowledge-graph&family=zurich&ft:locale=en-US)**
+
+Tags are lists of key tables that are important for answering natural language questions. They provide hints to Enterprise Graph on which tables to prioritize when retrieving information, thereby improving the accuracy of results.
+
+
+ -   **[Test a Knowledge Graph schema](https://www.servicenow.com/docs/access?context=test-a-knowledge-graph-schema&family=zurich&ft:locale=en-US)**
+
+Enter a query and test the Knowledge Graph schema using different LLM options. You can also add previous conversations before you run the query.
+
+
+ -   **[Configure LLM for Knowledge Graph](https://www.servicenow.com/docs/access?context=configure-gpt-4-0-for-knowledge-graph&family=zurich&ft:locale=en-US)**
+
+Select and configure between Now LLM Service, Azure OpenAI GPT-4.1 and GPT-4.1 mini, Google Gemini 2.0 Flash and 2.5 Pro, and AWS Anthropic Claude 3.7 Sonnet LLM providers with ServiceNow third-party model strategy.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   **[\[Placeholder link text to key using-graph-query-builder\]](https://www.servicenow.com/docs/access?context=using-graph-query-builder&family=australia&ft:locale=en-US)**
+
+A visual interface to build and run Knowledge Graph queries without coding, enabling users to explore entities, relationships, and apply filters easily. It also supports natural language queries converted by LLMs for intuitive querying and offers options to save and reuse the queries later.
+
+
+ -   **[Configuration item relationships and Knowledge Graph](https://www.servicenow.com/docs/access?context=ci-relationships-knowledge-graph&family=australia&ft:locale=en-US)**
+
+Enables users to ask natural language questions about how services, servers, databases, and other CIs relate to one another without writing queries or navigating CMDB tables directly.
+
+
+ -   **[Tagging in Knowledge Graph Designer](https://www.servicenow.com/docs/access?context=tagging-in-knowledge-graph&family=australia&ft:locale=en-US)**
+
+The Knowledge Graph landing page now includes a dedicated tagging section that allows users to create, edit, and manage tags.
+
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Changes
+
+Between your current release family and Brazil, some changes were made to existing Knowledge Graph features.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
+
+Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+
+
+ -   **[Using Knowledge Graph Designer](https://www.servicenow.com/docs/access?context=using-knowledge-graph-designer&family=zurich&ft:locale=en-US)**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   **[\[Placeholder link text to key access-graph-query-builder\]](https://www.servicenow.com/docs/access?context=access-graph-query-builder&family=australia&ft:locale=en-US)**
+
+New Query Builder section on Knowledge Graph Designer landing page. You can also directly access it from the main menu.
+
+
+ -   **[Create Knowledge Graph tag](https://www.servicenow.com/docs/access?context=create-knowledge-graph-tags&family=australia&ft:locale=en-US)**
+
+The new option to add AI instructions at node, property, and edge level when creating a tag, gives more business context to natural language queries.
+
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Removed
+
+Between your current release family and Brazil, some Knowledge Graph features or functionality were removed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Deprecations
+
+Between your current release family and Brazil, some Knowledge Graph features or functionality were deprecated.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+-   **[Now LLM Service deprecation notice](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=brazil&ft:locale=en-US)**
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+
+</td></tr></tbody>
+</table>## Activation information
+
+Review information on how to activate Knowledge Graph.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **Activation information**
+
+Knowledge Graph is a ServiceNow AI Platform feature that is active on installation, by default.
+
+
+**Important:** Knowledge Graph is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   **Activation information**
+
+Knowledge Graph is a ServiceNow AI Platform feature that is active on installation, by default.
+
+
+**Important:** Knowledge Graph is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+-   **Activation information**
+
+Knowledge Graph is available with activation of any Now Assist plugin from the ServiceNow Store.
+
+
+</td></tr></tbody>
+</table>## Additional requirements
+
+If any additional requirements were introduced or changed for Knowledge Graph we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **Additional requirements**
+
+Ensure that your instance is upgraded to XP7.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Browser requirements
+
+If any specific browser requirements were introduced or changed for Knowledge Graph we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Accessibility information
+
+Review details on accessibility information for Knowledge Graph, such as specific requirements or compliance levels.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Localization information
+
+If there are specific localization considerations for Knowledge Graph we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Highlight information
+
+If there are specific highlight considerations for Knowledge Graph we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+Zurich patch 13:
+
+-   Improved search results accuracy with enhanced Knowledge Graph integration in ServiceNow Otto panel, ServiceNow® Otto for Virtual Agent, and AI Agents.
+
+ [Zurich Patch 12](https://www.servicenow.com/docs/access?context=zurich-patch-12&family=zurich&ft:locale=en-US)
+
+-   ServiceNow Otto is the new AI experience brand. ServiceNow Now Assist is now ServiceNow Otto.
+-   Run queries visually using the Graph Query Builder to select entities, add relationships and filters without writing query syntax.
+
+ [Zurich Patch 11](https://www.servicenow.com/docs/access?context=zurich-patch-11&family=zurich&ft:locale=en-US)
+
+-   Knowledge Graph now supports queries with Glidelist references.
+
+ [Zurich Patch 7](https://www.servicenow.com/docs/access?context=zurich-patch-7&family=zurich&ft:locale=en-US)
+
+-   Knowledge Graph landing page now includes a dedicated tagging section that allows users to create, edit, and manage tags.
+-   Tagging configuration has been enhanced to support table synonyms, column synonyms, data filters and column filters to improve the accuracy of natural language queries.
+-   Added an interactive guided tour for admins, providing step-by-step walk through of key features and configurations to simplify setup.
+-   Supports Configuration item \(CI\) Relationship queries, enabling natural language questions about CMDB configuration item dependencies and infrastructure topology.
+
+ [Zurich Patch 5](https://www.servicenow.com/docs/access?context=zurich-patch-5&family=zurich&ft:locale=en-US)
+
+-   Review changes to Now Assist usage measurement.
+
+ [Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
+
+-   Users can use the new Enterprise Graph Knowledge Graph schema to map all instance tables and their relationships, enabling natural language queries across the entire database. It simplifies setup by eliminating custom schema creation and supports enhanced query accuracy.
+-   Admins can create and use tags to prioritize relevant tables for specific use cases.
+-   Users have the option to select Enterprise Graph\(small\) mode to restricts queries to tables in specified tags for narrower use cases, improving runtime speed and requiring tag specification.
+-   Knowledge Graph now supports aggregate queries.
+
+ [Zurich Patch 2](https://www.servicenow.com/docs/access?context=zurich-patch-2&family=zurich&ft:locale=en-US)
+
+-   Admins can create Knowledge Graph schema with Workflow Data Fabric tables that enables users to retrieve data from different systems without moving them. This ensures efficiency and security when working with external tables. This enables Knowledge Graph functionality to external tables
+
+ [Zurich Patch 1](https://www.servicenow.com/docs/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)
+
+-   Supports nodes from parent and grandparent nodes in the hierarchy.
+-   Supports Configuration Management Database \(CMDB\) queries in Now Assist panel.
+
+ Zurich EA
+
+-   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Knowledge Graph in addition to Now LLM Service and Azure OpenAI.
+-   Select your preferred large language model \(LLM\) provider for Now Assist platform. Apart from Now LLM Service, the platform supports Azure OpenAI GPT-4.1 and GPT-4.1 mini, Google Gemini 2.0 Flash and 2.5 Pro, and AWS Anthropic Claude 3.7 Sonnet LLM providers with ServiceNow® third-party model strategy.
+
+ See [Knowledge Graph](https://www.servicenow.com/docs/access?context=knowledge-graph-landing&family=zurich&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+[\[Placeholder link text to key australia-patch-6\]](https://www.servicenow.com/docs/access?context=australia-patch-6&family=australia&ft:locale=en-US)
+
+-   Improved search results accuracy with enhanced Knowledge Graph integration in ServiceNow Otto® panel, ServiceNow® Otto for Virtual Agent, and AI Agents.
+
+ [Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
+
+-   ServiceNow Otto is the new AI experience brand. ServiceNow Now Assist is now ServiceNow Otto.
+-   Run queries visually using the Graph Query Builder to select entities, add relationships and filters without writing query syntax.
+
+ [Australia Patch 4](https://www.servicenow.com/docs/access?context=australia-patch-4&family=australia&ft:locale=en-US)
+
+-   Knowledge Graph now supports queries with Glidelist references.
+
+ [Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
+
+-   Knowledge Graph landing page now includes a dedicated tagging section that allows users to create, edit, and manage tags.
+-   Tagging configuration has been enhanced to support table synonyms, column synonyms, data filters and column filters to improve the accuracy of natural language queries.
+-   Added an interactive guided tour for admins, providing step-by-step walk through of key features and configurations to simplify setup.
+-   Supports Configuration item \(CI\) Relationship queries, enabling natural language questions about CMDB configuration item dependencies and infrastructure topology.
+
+ See [Knowledge Graph](https://www.servicenow.com/docs/access?context=knowledge-graph-landing&family=australia&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+-   Improved search results accuracy with enhanced Knowledge Graph integration in ServiceNow® Otto for Virtual Agent Virtual Agent, ServiceNow Otto panel and AI Agent applications.
+
+
+ See [Knowledge Graph](https://www.servicenow.com/docs/access?context=knowledge-graph-landing&family=brazil&ft:locale=en-US) for more information.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/rn-combined-intro.md)
+

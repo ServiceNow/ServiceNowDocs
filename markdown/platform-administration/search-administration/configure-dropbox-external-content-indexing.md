@@ -3,13 +3,13 @@ title: Configure Dropbox for external content indexing
 description: Create and authorize an OAuth 2.0 application in the Dropbox App Console to allow the Dropbox external content connector to access your Dropbox source system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-dropbox-external-content-indexing.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Dropbox external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -99,12 +99,12 @@ To allow the connector to access your Dropbox source system via the Dropbox APIs
 
 Provide the following items to your connector administrator:
 
--   The app key that you copied in step [2.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-dropbox-external-content-indexing.md).
--   The app secret that you copied in step [2.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-dropbox-external-content-indexing.md).
+-   The app key that you copied in step [2.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-dropbox-external-content-indexing.md).
+-   The app secret that you copied in step [2.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-dropbox-external-content-indexing.md).
 
 Your connector administrator needs these items to configure a Dropbox external content connector to retrieve files in user folders, files in team folders, and security principals from your Dropbox source system.
 
-For details on creating and configuring a Dropbox external content connector, see [Create a Dropbox external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-dropbox.md).
+For details on creating and configuring a Dropbox external content connector, see [Create a Dropbox external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-ext-cont-connector-dropbox.md).
 
-**Parent Topic:**[Dropbox external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/dropbox-external-content-connector.md)
+**Parent Topic:**[Dropbox external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/dropbox-external-content-connector.md)
 

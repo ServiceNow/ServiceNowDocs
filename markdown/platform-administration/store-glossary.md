@@ -3,9 +3,9 @@ title: ServiceNow Store glossary
 description: Review important terms related to the ServiceNow Store to help determine which listings meet your organization's needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/store-glossary.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, ServiceNow Store, Administering applications, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Reference, ServiceNow Store, Administering applications, Get starte
 
 Review important terms related to the ServiceNow Store to help determine which listings meet your organization's needs.
 
-**Parent Topic:**[ServiceNow Store reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/store-reference.md)
+**Parent Topic:**[ServiceNow Store reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/store-reference.md)
 
 ## application
 
@@ -36,7 +36,7 @@ Services, dashboards, and implementation guides offered by ServiceNow partners a
 
 ## custom tables
 
-A non-exempt table created by a platform administrator and not included as part of the base ServiceNow AI Platform system. Custom table entitlements are included with certain licenses and subscriptions. For more information, see [Custom tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/custom-tables.md).
+A non-exempt table created by a platform administrator and not included as part of the base ServiceNow AI Platform system. Custom table entitlements are included with certain licenses and subscriptions. For more information, see [Custom tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/custom-tables.md).
 
 ## generative AI
 

@@ -3,11 +3,11 @@ title: Close a card dispute
 description: After you have completed all tasks in a card dispute case, you can add final details and close the case in the Closure playbook stage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/closure-dispute-case.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -56,5 +56,5 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
     **Note:** For Mastercard disputes, if an error message is displayed in the **Activity** work notes, the **Close** button displays again so you can retry.
 
 
-**Parent Topic:**[Managing dispute service requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/managing-card-disputes.md)
+**Parent Topic:**[Managing dispute service requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/managing-card-disputes.md)
 

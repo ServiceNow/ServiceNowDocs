@@ -3,11 +3,11 @@ title: Create or update a component library
 description: Create a component library to manage components that can be reused across multiple applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-comp-library-create.html
-release: australia
+release: brazil
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sharing components among applications — Component libraries, Using DevOps Config, DevOps Config, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Create a component library to manage components that can be reused across multip
 
 ## Before you begin
 
-**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
+**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
 
 Role required: cdm\_admin
 
@@ -76,6 +76,6 @@ A component library is created. The state of the library is set to Not Available
 
 ## What to do next
 
-1.  [Add shared component in a component library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-comp-library-add-component.md).
-2.  [Activate a component library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-comp-library-activate.md).
+1.  [Add shared component in a component library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/cdm-comp-library-add-component.md).
+2.  [Activate a component library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/cdm-comp-library-activate.md).
 

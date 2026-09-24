@@ -3,13 +3,13 @@ title: Configure a payslip report in Workday
 description: Configure a custom report for payroll data in Workday. The Workday external content connector uses this report to make content and metadata from your payroll data searchable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-payslip-report-workday.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Workday external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -19,7 +19,7 @@ Configure a custom report for payroll data in Workday. The Workday external cont
 
 ## Before you begin
 
-A Workday admin must have already an integration system user and an unconstrained integration system security group in your Workday tenant. For details on this preliminary task, see [Configure Workday security settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-workday-security-settings.md).
+A Workday admin must have already an integration system user and an unconstrained integration system security group in your Workday tenant. For details on this preliminary task, see [Configure Workday security settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-workday-security-settings.md).
 
 You need an account with the following privileges in your organization's Workday tenant:
 
@@ -91,7 +91,7 @@ This task is optional. The Workday external content connector can retrieve paysl
 
     2.  On the Transfer Ownership of Custom Reports page, in the New Owner field, enter or select the **ISU SNOW ACL** integration system user account.
 
-        **Important:** If you don't see this integration system user account in the system, check that a Workday admin has completed the [Configure Workday security settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-workday-security-settings.md) preliminary task.
+        **Important:** If you don't see this integration system user account in the system, check that a Workday admin has completed the [Configure Workday security settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-workday-security-settings.md) preliminary task.
 
     3.  Select **OK**.
 
@@ -155,13 +155,13 @@ This task is optional. The Workday external content connector can retrieve paysl
 
 Provide the following items to the connector administrator who creates your Workday external content connectors:
 
--   The base URL for your Workday tenant that you copied in step [10.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-payslip-report-workday.md).
--   The Workday tenant name that you copied in step [10.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-payslip-report-workday.md).
--   The custom payslip report owner's user name that you copied in step [10.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-payslip-report-workday.md).
--   The custom payslip report's name alias that you copied in step [10.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-payslip-report-workday.md).
--   The period date indicator WID \(Workday ID\) that you copied in step [10.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-payslip-report-workday.md).
+-   The base URL for your Workday tenant that you copied in step [10.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-payslip-report-workday.md).
+-   The Workday tenant name that you copied in step [10.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-payslip-report-workday.md).
+-   The custom payslip report owner's user name that you copied in step [10.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-payslip-report-workday.md).
+-   The custom payslip report's name alias that you copied in step [10.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-payslip-report-workday.md).
+-   The period date indicator WID \(Workday ID\) that you copied in step [10.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-payslip-report-workday.md).
 
 Your connector administrator needs these items to configure a Workday external content connector to retrieve searchable content and metadata from payroll information in your Workday source system.
 
-**Parent Topic:**[Workday external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/workday-external-content-connector.md)
+**Parent Topic:**[Workday external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/workday-external-content-connector.md)
 

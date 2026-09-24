@@ -3,9 +3,9 @@ title: Outsourced Customer Service
 description: Outsourcing is a business practice where an enterprise hires another company or individuals to perform tasks, manage operations, or provide services. These functions were previously handled by the enterprise's own employees.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/outsourced-service-provider.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Extend capabilities, Configure, Customer Service Management]
 ---
@@ -24,7 +24,7 @@ Outsourced Service Providers \(OSPs\) are organizations engaged by enterprises t
 
 If you have the administrator role, you can activate the Outsourced Customer Service plugin \(com.snc.outsourced\_service\_provider\).
 
-**Note:** The Outsourced Customer Service plugin \(com.snc.outsourced\_service\_provider\) requires the Customer Service \(com.sn\_customerservice\) plugin to get activated. The Outsourced Customer Service plugin is moved to the App Store beginning with Australia release.
+**Note:** The Outsourced Customer Service plugin \(com.snc.outsourced\_service\_provider\) requires the Case Management Core \(com.sn\_customerservice\) plugin to get activated. The Outsourced Customer Service plugin is moved to the App Store beginning with Australia release.
 
 The Outsourced Customer Service plugin adds the **Customer Service** &gt; **Outsourced Customer Service** module to the application navigator. If you have the administrator \(sn\_csm\_ocs.csm\_ocs\_admin\) role, you can access this module. The administrator \(sn\_csm\_ocs.csm\_ocs\_admin\) can assign the following roles to users:
 
@@ -39,11 +39,11 @@ Activating the Outsourced Service Provider plugin adds the Outsourced Customer S
 **Related topics**  
 
 
-[Set up Outsourced Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-outsourced-cust-serv.md)
+[Set up Outsourced Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-outsourced-cust-serv.md)
 
-[Outsourced Service Provider agent tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/osp-agent-tasks.md)
+[Outsourced Service Provider agent tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/osp-agent-tasks.md)
 
-[Outsourced Service Provider manager tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/osp-manager-tasks.md)
+[Outsourced Service Provider manager tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/osp-manager-tasks.md)
 
-[Roles for Outsourced Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/roles-ocs.md)
+[Roles for Outsourced Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/roles-ocs.md)
 

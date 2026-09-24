@@ -3,11 +3,11 @@ title: Impact radius for regulatory alerts of type regulatory event
 description: Impact radius typically refers to the extent to which a regulatory change affects an organization. Adding impacted areas to a regulatory alert of type regulatory event helps to calculate the impact radius of a regulatory alert.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/impact-calculation-approval.html
-release: australia
+release: brazil
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage regulatory tasks, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -39,7 +39,7 @@ Prior to the Yokohama release, the Regulatory Change Management users had the op
 -   Risk framework
 -   Risk
 
-**Note:** Impacted areas can be added to regulatory alerts that are of type regulatory event. For more information, see [Add impacted areas manually to a regulatory alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/add-impacted-area-reg-alert.md)
+**Note:** Impacted areas can be added to regulatory alerts that are of type regulatory event. For more information, see [Add impacted areas manually to a regulatory alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/add-impacted-area-reg-alert.md)
 
 ## Impact radius calculation
 

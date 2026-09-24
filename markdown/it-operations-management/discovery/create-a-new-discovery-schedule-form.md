@@ -3,11 +3,11 @@ title: Create a new discovery schedule form reference
 description: The Create a new discovery schedule form displays information related to the schedule and the target cloud provider. The Create a new discovery schedule form is available in the Cloud Discovery Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/create-a-new-discovery-schedule-form.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Discovery reference, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Discovery reference, Discovery, ITOM Visibility, IT Operations Mana
 
 The Create a new discovery schedule form displays information related to the schedule and the target cloud provider. The Create a new discovery schedule form is available in the Cloud Discovery Workspace.
 
-For instructions on this procedure, see [Create a discovery schedule in Cloud Discovery Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cloud-operations-disco-create-schedule.md).
+For instructions on this procedure, see [Create a discovery schedule in Cloud Discovery Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/cloud-operations-disco-create-schedule.md).
 
 <table id="id_uym_wnr_gwb"><thead><tr><th>
 
@@ -89,5 +89,5 @@ MID Servers
 MID Servers you want to use with use with the Cloud Discovery schedule.This field appears only when the Specific MID Server value is selected from the MID selection types field.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Discovery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-references.md)
+</table>**Parent Topic:**[Discovery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-references.md)
 

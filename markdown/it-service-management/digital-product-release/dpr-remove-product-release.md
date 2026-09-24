@@ -3,11 +3,11 @@ title: Remove a product from a multi-product release
 description: Remove an included product from a multi-product release when the product is no longer part of the release plan.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-remove-product-release.html
-release: australia
+release: brazil
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [remove product from release, remove included product, cancel child release]
 breadcrumb: [Manage releases for digital products and services, Use, Digital Product Release, IT Service Management]
@@ -49,5 +49,5 @@ You can only remove included products. The primary product can’t be removed. P
 -   All pending and in-progress phases and tasks within those phases on the product release are cancelled.
 -   Policy mappings for the child release are marked inactive. Policy counts on the main release are recalculated to exclude the removed product.
 
-**Parent Topic:**[Manage releases for digital products and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-manage-releases.md)
+**Parent Topic:**[Manage releases for digital products and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-manage-releases.md)
 

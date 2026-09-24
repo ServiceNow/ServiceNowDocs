@@ -3,11 +3,11 @@ title: Edit a report
 description: Analysts can modify an unpublished report in Security Incident Response and share it via email.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/edit-report-sir.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reports in Security Incident Response, Working with Security Incident Records, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -53,5 +53,5 @@ Role required: sn\_si.analyst
     3.  Select **Send** to share the report over email.
 
 
-**Parent Topic:**[Reports in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/report-templates-sir.md)
+**Parent Topic:**[Reports in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/report-templates-sir.md)
 

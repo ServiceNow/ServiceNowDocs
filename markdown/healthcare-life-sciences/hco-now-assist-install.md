@@ -3,11 +3,11 @@ title: Install ServiceNow Otto for Care Team Operations
 description: Install the ServiceNow Otto for Care Team Operations application \[sn\_cto\_now\_assist\].
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-now-assist-install.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, ServiceNow Otto for Care Team Operations, Healthcare and Life Sciences]
+breadcrumb: [Configure, ServiceNow Otto for Care Team Operations, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Install ServiceNow Otto for Care Team Operations

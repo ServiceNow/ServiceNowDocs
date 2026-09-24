@@ -3,11 +3,11 @@ title: Personal Data Rights request type form
 description: Use the Request Type form in the Personal Data Rights application to categorize the personal data rights requests by their type.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/pdr-request-type-form.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure request type, Configure, Personal Data Rights \(PDR\), Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -31,5 +31,5 @@ The following table lists the descriptions of the field values.
 |Inbound Email Configuration|
 |Group email|Email address that automatically generates a request upon receiving an email.|
 
-**Parent Topic:**[Configuring Personal Data Rights request type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/configure-pdr-request-type.md)
+**Parent Topic:**[Configuring Personal Data Rights request type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/configure-pdr-request-type.md)
 

@@ -3,9 +3,9 @@ title: Set up a ribbon configuration in CRM Workspace
 description: Create a ribbon setting and add that setting to a ribbon configuration for CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-csm-config-ws-ribbon.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -20,15 +20,15 @@ Role required: workspace\_admin, ui\_builder\_admin, admin
 
 ## About this task
 
+The form ribbon displays information that provides agents with a quick overview of the case details. Agents can also use links in the ribbon to create email messages or place phone calls.
+
 Use the steps in this task to set up a ribbon configuration for CRM Workspace.
 
 -   Create a ribbon setting, such as creating another version of the Customer 360 ribbon component.
 -   Add the ribbon setting to a ribbon configuration.
 -   Set the width and the order of the ribbon setting within the ribbon configuration.
 
-**Note:** You can also use ribbon settings from CSM Agent Workspace in CRM Workspace if you add the setting to the ribbon configuration.
-
-One ribbon configuration **CSM/FSM Configurable Workspace Ribbon Config**, is included with CRM Workspace. This configuration includes the Customer 360, Timeline, and Active SLA ribbon components. You can use this configuration in the base system without completing any additional configuration steps.
+One ribbon configuration, CRM Workspace Ribbon Config, is included with CRM Workspace. This configuration includes the Customer 360, Timeline, and Active SLA ribbon components. You can use this configuration in the base system without completing any additional configuration steps.
 
 ## Procedure
 
@@ -118,7 +118,7 @@ Experience restricted
 
 </td><td>
 
-If set to true, the ribbon component is restricted to Configurable Workspaces.
+If set to true, the ribbon component is restricted to configurable workspaces.
 
  If set to false, the ribbon component is global and appears in CSM Agent Workspace \(legacy\).
 
@@ -131,9 +131,7 @@ If set to true, the ribbon component is restricted to Configurable Workspaces.
 
     1.  Navigate to **Now Experience Framework** &gt; **Configuration Settings** &gt; **UX Ribbon Configurations**.
 
-    2.  Select **New**.
-
-    3.  Fill in the fields on the UX Ribbon Configuration form.
+    2.  Select **New** and fill in the fields on the UX Ribbon Configurations form.
 
         |Field|Description|
         |-----|-----------|
@@ -142,13 +140,13 @@ If set to true, the ribbon component is restricted to Configurable Workspaces.
         |Active|Toggle to turn this component on/off in the ribbon for this table.|
         |Description|Short description of this ribbon configuration that displays in the UX Ribbon Configurations list.|
 
-    4.  Select **Submit**.
+    3.  Select **Submit**.
 
 3.  Add the ribbon setting to the ribbon configuration.
 
     1.  Navigate to **Now Experience Framework** &gt; **Configuration Settings** &gt; **Ribbon Configuration Settings**.
 
-    2.  Select the configuration from the UX Ribbon Configurations list.
+    2.  Select **New** to create a ribbon configuration and add the ribbon setting to the configuration.
 
     3.  Fill in the fields on the Ribbon Configuration Setting form.
 
@@ -198,7 +196,9 @@ Order
 
 </td><td>
 
-The location of this component in the ribbon. Ordering the components goes from left to right. For example, if you associate three components with a table, the component with the lowest order appears on the left and the component with the highest order appears on the right.
+The location of this component in the ribbon. Ordering the components goes from left to right. For example, if you associate three components with a table:-   The component with the lowest order appears on the left.
+-   The component with the highest order appears on the right.
+
 
 </td></tr><tr><td>
 
@@ -206,7 +206,7 @@ Width
 
 </td><td>
 
-The number of columns the component occupies in the ribbon. The width of the page is 12 columns. When using multiple components, the total combined width of all the components must equal 12 or less.**Note:** The width is ignored if the ribbon is configured to display in the [contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-display-header-in-sidebar.md).
+The number of columns the component occupies in the ribbon. The width of the page is 12 columns. When using multiple components, the total combined width of all the components must equal 12 or less.**Note:** The width is ignored if the ribbon is configured to display in the [contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/config-csm-display-header-in-sidebar.md).
 
 </td></tr><tr><td>
 
@@ -224,6 +224,6 @@ Toggle to turn this component on/off in the ribbon for this table.
 
 You can display the form ribbon at the top of the form or in the Contextual side panel. For more information, see the following topics:
 
--   [CSM Configurable Workspace form ribbon and components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-agent-workspace-ribbon.md)
--   [Display the form ribbon and form header secondary values in the Contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-display-header-in-sidebar.md)
+-   [CRM Workspace form ribbon and components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-agent-workspace-ribbon.md)
+-   [Display the form ribbon and form header secondary values in the Contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/config-csm-display-header-in-sidebar.md)
 

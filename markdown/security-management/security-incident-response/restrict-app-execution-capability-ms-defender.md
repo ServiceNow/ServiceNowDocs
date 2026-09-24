@@ -3,11 +3,11 @@ title: Configure Restrict App Execution capability in Microsoft Defender for End
 description: To contain an attack, restrict or lock a device and prevent subsequent attempts of potentially malicious programs from running.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/restrict-app-execution-capability-ms-defender.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Additional Configurations, Microsoft Defender for Endpoint integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -47,7 +47,7 @@ Role required: sn\_si.admin or sn\_si.analyst
 5.  Validate the status of the action on the Additional Actions on Endpoint related lists.
 
 
-**Parent Topic:**[Additional Configurations in Microsoft Defender for Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/additional-configurations-in-defender.md)
+**Parent Topic:**[Additional Configurations in Microsoft Defender for Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/additional-configurations-in-defender.md)
 
 **Related topics**  
 

@@ -3,7 +3,7 @@ title: How price is displayed on a layout with multiple BOMs
 description: CPQ shows only the price of the products in each bill of materials.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/how\_does\_pricing\_on\_multiple\_boms\_displayed\_on\_a\_layout\_behave.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -21,5 +21,5 @@ When multiple bills of material \(BOMs\) are displayed in a layout, CPQ automati
 **Related topics**  
 
 
-[Customizing the currency display in the shopping cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/layout_how_do_i_customize_currency_display_in_shopping_cart.md)
+[Customizing the currency display in the shopping cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/layout_how_do_i_customize_currency_display_in_shopping_cart.md)
 

@@ -3,13 +3,13 @@ title: Select multiple tables
 description: Choose one or multiple nodes to view in the Enterprise graph canvas.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/select-a-table.html
-release: australia
+release: brazil
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Enterprise graph schema, Knowledge Graph, Enable AI experiences]
+breadcrumb: [Using Enterprise graph schema, Knowledge Graph, Managing data for AI, Enable AI Experiences]
 ---
 
 # Select multiple tables

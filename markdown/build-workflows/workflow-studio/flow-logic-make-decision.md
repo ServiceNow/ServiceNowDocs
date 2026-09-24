@@ -3,11 +3,11 @@ title: Make a decision flow logic
 description: You can use the decision table branching logic in situations where multiple conditional paths are required, as an alternative to nested If, Else If, or Else flow logic. For example, if you want to determine what kind of car insurance you need, you can add inputs such as your age, accident history, and car model to the decision table to determine a level of insurance coverage. This logic can save you time and present a more readable format than nested if conditions or switch case statements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-logic-make-decision.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Flow logic, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Flow logic, Flows, subflows, and actions reference, Flows, subflows
 
 You can use the decision table branching logic in situations where multiple conditional paths are required, as an alternative to nested If, Else If, or Else flow logic. For example, if you want to determine what kind of car insurance you need, you can add inputs such as your age, accident history, and car model to the decision table to determine a level of insurance coverage. This logic can save you time and present a more readable format than nested if conditions or switch case statements.
 
-The **Make a decision** flow logic requires that you create an external decision table for its branch paths. Each decision table answer produces a separate branch path within your flow. Decision tables accept any number of inputs and support any number of decisions. You can configure the Make a decision flow logic to return a single or multiple answers and to display the answers as branch paths or record data pills. For more information on decision tables, see [Exploring decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/decision-designer-overview.md).
+The **Make a decision** flow logic requires that you create an external decision table for its branch paths. Each decision table answer produces a separate branch path within your flow. Decision tables accept any number of inputs and support any number of decisions. You can configure the Make a decision flow logic to return a single or multiple answers and to display the answers as branch paths or record data pills. For more information on decision tables, see [Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/decision-designer-overview.md).
 
 **Note:**
 
@@ -119,7 +119,7 @@ The **Flow execution details** tab provides runtime information about the flow l
 2.  The action shows details about the decision table configuration and inputs.
 3.  Each possible answer for the decision table is represented as a branch. The state field indicates whether the branch was evaluated and the evaluation result. This section also displays details about the actions that are taken within a branch. Branches that evaluate to true are highlighted in green.
 
-**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic.md)
+**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-logic.md)
 
 **Related topics**  
 

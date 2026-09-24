@@ -3,11 +3,11 @@ title: Firewall audits
 description: Firewall Audits and Reporting provides a flexible auditing framework to track your firewall policy ownership and the necessity of a firewall policy. You can trigger a random audit to measure your security hygiene on the firewall policy and ownership, as well as perform proactive audits on a regular basis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/Firewall-audits.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Firewall Audits and Reporting, ITOM Visibility, IT Operations Management]
 ---

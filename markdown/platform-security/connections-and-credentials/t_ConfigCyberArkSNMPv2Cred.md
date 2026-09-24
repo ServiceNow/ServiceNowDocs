@@ -3,11 +3,11 @@ title: Configure CyberArk for SNMPv2 credentials
 description: If your system uses SNMPv2, you can create a special file to map the attribute in a credential to the community string.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/t\_ConfigCyberArkSNMPv2Cred.html
-release: australia
+release: brazil
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CyberArk integration configuration, CyberArk credential storage integration, External credential storage, Get started with credentials, Connections and Credentials, Access Management]
 ---
@@ -49,5 +49,5 @@ SNMPv2 is not natively supported in CyberArk. If your organization has created c
 
 On credential look-up, the MID Server attempts to find this attribute for the credential. If the attribute is not found, the MID Server then looks in the password field. If the password field is empty, the credential look-up fails.
 
-**Parent Topic:**[CyberArk integration configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_CyberArkIntegrationConfiguration.md)
+**Parent Topic:**[CyberArk integration configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/connections-and-credentials/c_CyberArkIntegrationConfiguration.md)
 

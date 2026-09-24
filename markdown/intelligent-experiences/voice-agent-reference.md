@@ -3,11 +3,11 @@ title: AI voice agent reference
 description: Reference information for AI voice agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/voice-agent-reference.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2025-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 15
-breadcrumb: [Deploy AI voice agents, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Deploy AI voice agents, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # AI voice agent reference

@@ -3,12 +3,12 @@ title: Implement access control in AI Agent Studio
 description: Implement security in AI Agent Studio through access control lists \(ACLs\), user identities, and role filtering with the access control-based security measures in the agentic system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/implement-aias-security-new.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 keywords: [agentic AI Security, ACLs in AI agents]
-breadcrumb: [Configure AI Agent Studio, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Configure AI Agent Studio, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Implement access control in AI Agent Studio
@@ -66,7 +66,7 @@ There are two possible user configurations to select from:
 
 -   **AI user**: A dedicated user identity that the AI agent or an agentic workflow runs as during execution, which has assigned roles that remain consistent regardless of who or how the execution is invoked. For example, an AI agent or an agentic workflow may need to be run with elevated privileges that the dynamic user might not have. If configured as a dynamic user, the execution would fail. However, if the AI agent or agentic workflow is configured to run as an AI user that has the elevated roles assigned to it, the execution will succeed even when invoked by a user with lower privileges.
 
-    **Note:** If you don't have a suitable AI user but want to use the **AI user** identity, you must create a record on the User \[sys\_user\] table. See [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUser.md) and select **AI user** as the identity type.
+    **Note:** If you don't have a suitable AI user but want to use the **AI user** identity, you must create a record on the User \[sys\_user\] table. See [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAUser.md) and select **AI user** as the identity type.
 
 
 ## Role filtering
@@ -125,5 +125,5 @@ A common source of confusion is assuming that ACLs define agent actions. They do
 
 **Note:** Configuring only one of these mechanisms leaves a gap in the agent's security posture. Therefore, it is necessary to configure the security mechanisms across the AI Agent Studio and other AI components such as generative AI Sills, Flows, and Flow Actions.
 
-For more information, see [Configure access controls across AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-aias-acls.md).
+For more information, see [Configure access controls across AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-aias-acls.md).
 

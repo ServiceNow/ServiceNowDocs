@@ -3,9 +3,9 @@ title: Make a domain the default
 description: Made a domain the default domain to which the system automatically assigns task and user records that are not already assigned to a domain.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_MakeAnMSPDomainTheDefault.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setup and administration, Domain separation for service providers, Access Management]
 ---

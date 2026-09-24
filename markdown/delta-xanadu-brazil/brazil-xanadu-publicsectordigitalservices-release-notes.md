@@ -1,0 +1,824 @@
+---
+title: Combined Public Sector Digital Services release notes for upgrades from Xanadu to Brazil
+description: Consolidated page of all release notes for Public Sector Digital Services from Xanadu to Brazil.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-publicsectordigitalservices-release-notes.html
+release: brazil
+topic_type: reference
+last_updated: "2026-09-24"
+reading_time_minutes: 25
+breadcrumb: [Products combined by family]
+---
+
+# Combined Public Sector Digital Services release notes for upgrades from Xanadu to Brazil
+
+Consolidated page of all release notes for Public Sector Digital Services from Xanadu to Brazil.
+
+## How to use this page
+
+To help you prepare for your upgrade, we have combined the cross-family Public Sector Digital Services release notes onto one page. Read this summary of the new features, changes, and updated information for your product from Xanadu to Brazil.
+
+**Tip:** If there were no updates for a release notes section in a certain family release, we included a short note for your reference. For example, if a product did not have any updates in Tokyo, the row says "No updates for this release."
+
+## Important information for upgrading Public Sector Digital Services to Brazil
+
+Before you upgrade to Brazil, review these pre- and post-upgrade tasks and complete the tasks as needed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+After the upgrade, certain public sector menus and menu items in CSM Configurable Workspace revert to their original CSM label names. You can relabel these items for public sector use by updating the UX List Categories for Customer and Service Organizations. For more details on relabeling, navigate to **All** &gt; **Constituent Service** &gt; **Administration** &gt; **Guided Setup**, and select **Configurable Workspace for Public Sector Digital Services** &gt; **Customize Workspace Labels Manually**.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **Upgrade information**
+
+After the upgrade, certain public sector menus and menu items in the CRM Workspace revert to their original CSM label names. You can relabel these items for public sector use by updating the labels for the **Customer**, **Accounts**, and **Service Organizations** UX list category records. For more details on relabeling, navigate to **All** &gt; **Constituent Service** &gt; **Administration** &gt; **Guided Setup**, and select **Configurable Workspace for Public Sector Digital Services** &gt; **Customize Workspace Labels Manually**.
+
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **Upgrade information**
+
+After the upgrade, certain public sector menus and menu items in CRM Workspace revert to their original CSM label names. You can relabel these items for public sector use by updating the labels for the Customer, Accounts, and Service Organizations UX list category records. For more details on relabeling, navigate to **All** &gt; **Constituent Service** &gt; **Administration** &gt; **Guided Setup**, and select **Configurable Workspace for Public Sector Digital Services** &gt; **Customize Workspace Labels Manually**.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   **Upgrade information**
+
+After the upgrade, certain public sector menus and menu items in CRM Workspace revert to their original CSM label names. You can relabel these items for public sector use by updating the labels for the Customer, Accounts, and Service Organizations UX list category records. For more details on relabeling, navigate to **All** &gt; **Constituent Service** &gt; **Administration** &gt; **Guided Setup**, and select **Configurable Workspace for Public Sector Digital Services** &gt; **Customize Workspace Labels Manually**.
+
+Customers who have not opted into new third-party LLM models may be silently routed to them during skill execution. If the new model is not provisioned or available in the customer's environment, this will result in skill execution failures. Check the models your skills are using in the AI Admin Hub console.
+
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+After the upgrade, certain public sector menus and menu items in CRM Workspace revert to their original CSM label names. You can relabel these items for public sector use by updating the labels for the Customer, Accounts, and Service Organizations UX list category records. For more details on relabeling, navigate to **All** &gt; **Constituent Service** &gt; **Administration** &gt; **Guided Setup**, and select **Configurable Workspace for Public Sector Digital Services** &gt; **Customize Workspace Labels Manually**.
+
+ Customers who have not opted into new third-party LLM models may be silently routed to them during skill execution. If the new model is not provisioned or available in the customer's environment, this will result in skill execution failures. Check the models your skills are using in the AI Admin Hub console.
+
+</td></tr></tbody>
+</table>## New features
+
+Between your current release family and Brazil, new features were introduced for Public Sector Digital Services.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+-   **[Agent updates to License and Permit Playbook](https://www.servicenow.com/docs/access?context=public-sector-resolving-lpr-case-playbooks&family=xanadu&ft:locale=en-US)**
+
+Specify the license details and add license endorsements directly from the workspace in License and Permit Playbook.
+
+-   **[Guided Constituent Experience for License and Permit Playbook](https://www.servicenow.com/docs/access?context=psds-create-license-request-user&family=xanadu&ft:locale=en-US)**
+
+Streamline how you communicate with your constituents with easy appointment booking. You can also simplify complex license and permit applications with the save and resume and guided data entry functionality in License and Permit Playbook as part of the playbooks-on-portal experience.​
+
+-   **[Document redaction for Information Request Playbook](https://www.servicenow.com/docs/access?context=psds-ir-playbooks-doc-redaction&family=xanadu&ft:locale=en-US)**
+
+Redact sensitive content, data, or entire documents within the document management tool in the Information Request Playbook. You can either highlight bodies of text, or search for strings of text and designate them to be redacted. This functionality is only available to information request case agents for documents in the Published or Draft state. New versions of the same document are generated each time that text is redacted or unredacted.
+
+-   **[Now Assist for Public Sector Digital Services \(PSDS\)](https://www.servicenow.com/docs/access?context=now-assist-for-psds&family=xanadu&ft:locale=en-US)**
+
+Condense case records into short summaries by using the case summarization skill in the Now Assist for PSDS application. Agents can use the resolution summarization skill to generate resolution information for a case, propose the resolution to the customer, and add the information to the case record. The Now Assist for PSDS application brings generative AI case summarization and resolution notes generation to Public Sector Digital Services.
+
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **[Grants Management](https://www.servicenow.com/docs/access?context=using-public-sector-digital-services&family=yokohama&ft:locale=en-US)**
+
+Simplify and streamline Grant application intake and screening​ with Grants Management:​ Intake and Screening, a part of Grants Management. Improve self-service with a Grants Portal that streamlines finding, applying for, and tracking grants, with added features such as guided intake, and a save, resume, and export functionality. Set up and manage grant programs easily with guided steps​ using Grants Management: ​Program Set Up​, which guides grant program managers through the process of creating, publishing, and managing grant programs.​
+
+-   **[Communicate and share citizen and agent data securely between agencies using Service Exchange for Public Sector Digital Services](https://www.servicenow.com/docs/access?context=servicebridge-psds-exploring&family=yokohama&ft:locale=en-US)**
+
+Connect multiple ServiceNow instances to provide seamless support and service experiences across the Public Sector​ using Service Bridge for Public Sector Digital Services. Service Bridge enables unified case collaboration across agencies, streamlined approval workflows for funding distribution, and real-time crisis coordination with dynamic task management. Agencies can share citizen &amp; agency data securely through ​compliance-driven access.​​​
+
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **[Agentic AI](https://www.servicenow.com/docs/access?context=agentic-ai-psds-explore&family=zurich&ft:locale=en-US)**
+
+Define the fees for information requests and autonomously assess waivers against an agency's criteria​. You can automate the process of synthesizing similar information requests and associated fees, and apply those fees to cases​. Your case fields are automatically filled in and integrated into the Information Request Playbook workflow and ServiceNow's AI framework.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   **[Rolling grant approvals](https://www.servicenow.com/docs/access?context=psds-gm-rolling-grant-approvals-concept&family=australia&ft:locale=en-US)**
+
+Propose awards and declines for any scored subset of applications at any time. The Rolling grant approval feature enhances the Grants management funding workflow, by giving Grant Program Managers the flexibility to propose awards and declines for any scored subset of applications at any time, without waiting for the entire proposal portfolio to complete review. From this release, Grant Program Managers can choose to process funding decisions incrementally as proposals are scored, or continue working in the traditional full-portfolio model.
+
+The feature introduces the Funding Allocation Request as a new record type — an approval packet that groups a subset of proposals for Grant Program Director review. The Grant Program Director can either approve the Funding Allocation Request or reject it, returning all proposals in the batch, regardless of whether they were on the funding or decline track. The proposals in the rejected batch feed back into the Grant Program Manager's working queue, re-entering the funding pool for future review and funding allocation opportunities. The Funding Allocation Requests introduce an alternative to the previous all-or-none approval model and enable continuous, long-running grant programs to operate on a single program record.
+
+Release result letters per proposal for Rolling grant approval scenarios in Grants Management. Once a proposal’s funding or decline decision is approved through its Funding Allocation Request \(FAR\), the corresponding award, decline, or ineligibility letter can be issued to that applicant independently—without waiting for program-wide completion.
+
+-   **[GOV.UK Developer Toolkit GDS Service Portal](https://www.servicenow.com/docs/access?context=psds-gdsp-overview&family=australia&ft:locale=en-US)**
+
+Launch citizen-facing services using the GOV.UK Developer Toolkit, a collection of pre-built, GDS-compliant portal widgets that developers and partners can use to build service portals for UK government agencies. The GOV.UK Developer Toolkit comes with standardized components \(homepage, FAQs, Registration, Profile, login, case detail, knowledge search, record producers\) that can be used to assemble portals that meet UK accessibility and design standards and are compliant with GOV.UK Design System patterns​. WCAG 2.2AA compliant, and 400% zoom/reflow support has been added.
+
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+-   **[Rolling grant approvals](https://www.servicenow.com/docs/access?context=psds-gm-rolling-grant-approvals-concept&family=brazil&ft:locale=en-US)**
+
+The Rolling grant approval feature enhances the grants management funding workflow. It gives grant program managers the flexibility to propose awards and declines for any scored subset of applications at any time. Grant program managers no longer need to wait for the entire proposal portfolio to complete review. They can process funding decisions incrementally as proposals are scored, or continue working in the traditional full-portfolio model.
+
+The feature introduces the Funding Allocation Request as a new record type — an approval packet that groups a subset of proposals for Grant Program Director review. The Grant Program Director can approve the Funding Allocation Request or reject it. Rejection returns all proposals in the batch, regardless of whether they were on the funding or decline track. The proposals in the rejected batch feed back into the Grant Program Manager's working queue, re-entering the funding pool for future review and funding allocation opportunities. The Funding Allocation Requests introduce an alternative to the previous all-or-none approval model and enable continuous, long-running grant programs to operate on a single program record.
+
+Release result letters per proposal for Rolling grant approval scenarios in Grants Management. Once a proposal’s funding or decline decision is approved through its Funding Allocation Request \(FAR\), the corresponding letter can be issued to that applicant. Award, decline, or ineligibility letters can be issued independently without waiting for program-wide completion.
+
+-   **[Investigative Case Management](https://www.servicenow.com/docs/access?context=psds-explore-inv-case-management&family=brazil&ft:locale=en-US)**
+
+Create an investigative case using Investigative Case Management. Investigative Case Management guides investigators through the process of organizing, tracking, and resolving investigations, ​developing case details,​ assigning investigators and team members​, and track evidence with logging and metadata. The following features are available as part of Investigative Case Management:
+
+    -   Entity Management
+    -   Evidence Management
+With Entity Management, investigators can create investigative tasks and workflows for investigative activities with automated metadata capture \(time, source, entities, classification\)​, as well as define processing with teams and attorneys and collaborate across agencies/divisions. With Evidence Management, investigators can log and triage evidence metadata \(digital, physical, testimonial\)​ and maintain an audit trail \(Chain of Custody logging\), as well as draft, review, and create reports with supporting evidence​​.
+
+-   **[Task Tab and Field Service Management case escalation in Investigative Case Management](https://www.servicenow.com/docs/access?context=psds-using-icm&family=brazil&ft:locale=en-US)**
+
+Use the Tasks tab in the investigative case record to view and create investigative tasks directly within the case context. Use the **Create Work Order** to escalate a case directly to an Field Service Management work order without leaving the ICM workspace​​.
+
+-   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=brazil&ft:locale=en-US)**
+
+The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
+-   **[Use ServiceNow Otto for Public Sector Digital Services \(PSDS\) Skills to create case narratives and screen documents](https://www.servicenow.com/docs/access?context=now-assist-psds-using&family=brazil&ft:locale=en-US)**
+
+Complete case narratives and make refinements to investigative case records using ServiceNow Otto for PSDS Gen-AI skills. Investigators can streamline case narrative refinement by editing content, adjusting tone, and regenerating the narrative for clarity and completeness.
+
+-   **[Use the Case Narrative Refinement AI Agent to refine case narratives in Investigative Case Management](https://www.servicenow.com/docs/access?context=psds-using-na-refine-icm-case-narrative&family=brazil&ft:locale=en-US)**
+
+Produce clear, accurate, and well-structured case narratives using the Case narrative refinement AI agent, embedded within the case record page. This AI agent analyzes existing narratives and related case data to suggest improvements in clarity, structure, tone, and completeness, and highlighting gaps and inconsistencies.
+
+-   **[Document Screening AI Skill for Social Benefits Playbook](https://www.servicenow.com/docs/access?context=psds-ai-skill-doc-screening&family=brazil&ft:locale=en-US)**
+
+Validate large volumes of uploaded documents, verify information, flag issues, and highlight key details using the Document Screening AI Skill in Social Benefits Playbook, part of ServiceNow Otto for Public Sector Digital Services \(PSDS\).
+
+-   **[GOV.UK Developer Toolkit GDS Service Portal](https://www.servicenow.com/docs/access?context=psds-gdsp-overview&family=brazil&ft:locale=en-US)**
+
+Launch citizen-facing services using the GOV.UK Developer Toolkit. This collection of pre-built, GDS-compliant portal widgets enables developers and partners to build service portals for UK government agencies. The GOV.UK Developer toolkit includes standardized components such as homepage, FAQs, Registration, Profile, login, case detail, knowledge search, and record producers. Use these components to assemble portals that meet UK accessibility and design standards and comply with GOV.UK Design System patterns. The toolkit is WCAG 2.2AA compliant and supports 400% zoom and reflow.
+
+-   **[Granular configuration admin roles](https://www.servicenow.com/docs/access?context=roles-installed-with-public-sector-digital-services&family=brazil&ft:locale=en-US)**
+
+Several new granular admin roles enable admins to complete administrative configuration tasks on the Public Sector Digital Services platform without requiring the full admin role. These granular access roles enable a high-level administrator to define and assign custom roles that contain only the specific permissions a user needs. This decreases the number of users with full administrative power over the instance. For more information on granular admin roles, see [Granular admin roles](https://www.servicenow.com/docs/access?context=granular-admin-roles&family=brazil&ft:locale=en-US).
+
+
+</td></tr></tbody>
+</table>## Changes
+
+Between your current release family and Brazil, some changes were made to existing Public Sector Digital Services features.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+-   **[Constituent Service Dashboard Migration to Platform Analytics](https://www.servicenow.com/docs/access?context=constituent-services-dashboard&family=xanadu&ft:locale=en-US)**
+
+The Constituent Service Dashboard has been migrated to Next Experience Platform Analytics. Next Experience is a ServiceNow AI Platform® feature that is active by default when the user loads or upgrades to the Xanadu release. The dashboard migration to Next Experience enables continuous visualization of historical and real-time process statistics in role-based dashboards, which enable individual stakeholders to make informed decisions. The new dashboard can be accessed by navigating to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**.
+
+-   **[Enhancements to Social Benefits Playbook](https://www.servicenow.com/docs/access?context=psds-using-sb-playbooks&family=xanadu&ft:locale=en-US)**
+
+Use the enhanced Social Benefits Playbook to view an updated constituent card with more detailed information about the primary applicant. Cancel draft cases, bypass the initial eligibility screening, and skip playbook activities by using the updated process playbook in the Government Service Portal.
+
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **[Constituent Service Dashboard Migration to Platform Analytics](https://www.servicenow.com/docs/access?context=constituent-services-dashboard&family=yokohama&ft:locale=en-US)**
+
+The Constituent Service Dashboard has been migrated to Next Experience Platform Analytics. Next Experience is a ServiceNow AI Platform® feature that is active by default when the user loads or upgrades to the Yokohama release. The dashboard migration to Next Experience enables you to visualize historical and real-time process statistics in role-based dashboards, which enable individual stakeholders to make informed decisions. The new dashboard can be accessed by navigating to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**.
+
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+-   **[Enhancements to Constituent Service Portals](https://www.servicenow.com/docs/access?context=portals-psds-exploring&family=zurich&ft:locale=en-US)**
+
+UI Enhancements have been made to all Public Sector Digital Services constituent portals by replacing legacy widgets \(for example, portal banners, data lists\) with standardized, CSM Configurable Widgets and components. The update ensures backward compatibility, migration guidance, usage analytics, and provide training for admins, and also enables dynamic data rendering, better filtering, and improved accessibility across service flows.
+
+
+ -   **[Enhancements to Grants Management: Program Setup](https://www.servicenow.com/docs/access?context=psds-using-grants-management-playbook&family=zurich&ft:locale=en-US)**
+
+In the Grants Management: program setup, grant program managers can now add new points of contact for the applicants to the grants program in the Define Program stage. In the Publish Program stage, new fields have been added for program announcement removal. Grants program managers can now set grants programs to auto-remove at a defined date, and set application close to disable new applications from being submitted through the Grants Management portal.
+
+-   **[Enhancements to Grants Management portal](https://www.servicenow.com/docs/access?context=psds-gmp-using-grants-mgmt-portal&family=zurich&ft:locale=en-US)**
+
+Enable grant program managers to turn off new grant proposal submissions after the proposal close date. Applicants can no longer submit proposals after the proposal close date, keeping the process on schedule and helping prevent late submissions from being reviewed.
+
+Enable applicants to review and download the results letter and merit review summary \(where applicable\) of their grants application, as well as accept or decline their award, all within the new **Results** tab of the Grants Management portal. Notify constituents about a pending award decision through the portal.
+
+
+ -   **[Constituent Service Dashboard Migration to Platform Analytics](https://www.servicenow.com/docs/access?context=constituent-services-dashboard&family=zurich&ft:locale=en-US)**
+
+The Constituent Service Dashboard has been migrated to Next Experience Platform Analytics. Next Experience is a ServiceNow AI Platform® feature that is active by default when you load or upgrade to the Zurich release. The dashboard migration to Next Experience enables you to visualize historical and real-time process statistics in role-based dashboards. Access the new dashboard by navigating to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=australia&ft:locale=en-US)**
+
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+-   **[Large language models](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=brazil&ft:locale=en-US)**
+
+
+
+-   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=brazil&ft:locale=en-US)**
+
+
+
+-   **[Enhancements to Grants Management: Program Setup](https://www.servicenow.com/docs/access?context=psds-using-grants-management-playbook&family=brazil&ft:locale=en-US)**
+    -   [Establish program budget](https://www.servicenow.com/docs/access?context=psds-config-gmp-pgr-budget&family=brazil&ft:locale=en-US)
+
+Use the restructured Program Budget step that is now organized into three sections: Program Budget, Budget Categories, and Award Allocation. Grant Program Managers can select from three award models—Single Award, Multiple Equal Awards, or Multiple Variable Awards—with budgets automatically derived from the Awards category. Real-time calculations update the Budget allocated and Balance left fields as you enter category percentages. This enhancement prevents completion until all of the program budget is allocated across the categories.
+
+    -   [Configure lifecycle stepper](https://www.servicenow.com/docs/access?context=psds-config-gmp-pgr-lifecycle-stepper&family=brazil&ft:locale=en-US)
+
+Disable the six-step grant program lifecycle stepper at the instance level, reducing ambiguity about grant program state. By default, the stepper indicating the Preparing Program, Accepting Proposals, Evaluating, Awarding, Post-Award, and Closed states is hidden in the Grant Program record page. Admins can enable it if required for deployments that follow a batch or competitive grant lifecycle. When turned off, program state is conveyed through existing status fields.
+
+-   **[Enhancements to Grants Management: Proposal Playbook](https://www.servicenow.com/docs/access?context=psds-using-grants-management-playbook&family=brazil&ft:locale=en-US)**
+    -   [Screen a grant application](https://www.servicenow.com/docs/access?context=psds-using-gmp-grant-proposal-screen&family=brazil&ft:locale=en-US)
+
+Flag and route a document back to the applicant while reviewing the proposal details in the screening step. The document persists in the Flagged section with all metadata intact. Grant program managers and Grant program directors can reverse the flag by selecting the reset status icon to move it back to Requires Verification with no data loss. Select Request Documents at the bottom of the Verify Documents screen to route flagged documents back to applicants automatically. This action creates a case task assigned to the applicant, sends a notification in the applicant portal prompting re-upload, and changes the document status to Pending Resubmission. After the applicant uploads the corrected document, the Upload Additional Documents activity closes and you can continue verification, maintaining a complete audit trail throughout the process.
+
+-   ****
+
+</td></tr></tbody>
+</table>## Removed
+
+Between your current release family and Brazil, some Public Sector Digital Services features or functionality were removed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Deprecations
+
+Between your current release family and Brazil, some Public Sector Digital Services features or functionality were deprecated.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Activation information
+
+Review information on how to activate Public Sector Digital Services.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+Install Public Sector Digital Services applications by requesting them from the ServiceNow Store. For details on installing the applications, see [Configuring Public Sector Digital Services](https://www.servicenow.com/docs/access?context=configuring-public-sector-digital-services&family=xanadu&ft:locale=en-US). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **Activation information**
+
+Install Public Sector Digital Services applications by requesting them from the ServiceNow Store. For details on installing the applications, see [Configuring Public Sector Digital Services](https://www.servicenow.com/docs/access?context=configuring-public-sector-digital-services&family=yokohama&ft:locale=en-US). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **Activation information**
+
+Install Public Sector Digital Services applications by requesting them from the ServiceNow Store. For details on installing the applications, see [Configure](https://www.servicenow.com/docs/access?context=configuring-public-sector-digital-services&family=zurich&ft:locale=en-US). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   **Activation information**
+
+Install Public Sector Digital Services by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+Install Public Sector Digital Services by requesting it from the ServiceNow Store. 
+
+</td></tr></tbody>
+</table>## Additional requirements
+
+If any additional requirements were introduced or changed for Public Sector Digital Services we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Browser requirements
+
+If any specific browser requirements were introduced or changed for Public Sector Digital Services we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Accessibility information
+
+Review details on accessibility information for Public Sector Digital Services, such as specific requirements or compliance levels.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Localization information
+
+If there are specific localization considerations for Public Sector Digital Services we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Highlight information
+
+If there are specific highlight considerations for Public Sector Digital Services we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+-   Added enhancements to License and Permit Playbook, including updates to the Intake stage for applicants on the constituent Government Service Portal, and added functionality for specifying license details and license endorsements on the agent playbook.
+-   Added enhancements to Social Benefits Playbook, including updates to the Intake and Decision stage, and updates to the process playbook for applicants on the Government Service Portal.
+-   Redact sensitive content or data from PDF documents in the Information Request Playbook.
+-   Auto-generate case summaries and case resolution notes for cases in the Social Benefits Playbook by using the Now Assist for Public Sector Digital Services \(PSDS\) application.
+
+ See [Public Sector Digital Services](https://www.servicenow.com/docs/access?context=bun-public-sector-landing-page&family=xanadu&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   Review requests for grants, and create new grant programs using Grants Management.
+-   Connect multiple ServiceNow instances to provide seamless support and service experiences across the Public Sector​ using for Service Bridge for Public Sector Digital Services.
+-   Utilize the Chat summarization skill, powered by Now LLM, to auto-generate chat summaries for customer-agent interactions in the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application.
+
+ See [Public Sector Digital Services](https://www.servicenow.com/docs/access?context=bun-public-sector-landing-page&family=yokohama&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   Create funding programs to establish top-level budgets and timelines that flow down to associated grant programs.
+-   Simplify and streamline the grant application decisions​ with Grants Management:​ Evaluation &amp; Decision.
+-   Enable merit reviewers to track, score, and monitor grant applications via a dedicated Reviewer Service portal.
+-   Enable applicants to review and download the results letter and merit review summary of their grants application, and accept or decline their award, all within the new **Results** tab of the Grants Management portal.
+-   Define fees for and autonomously assess fee waivers against agency-defined criteria for information requests with the Help manage public information requests agentic AI Agent, part of the Public Sector Digital Services AI Agent Collection application.
+
+ See [Public Sector Digital Services](https://www.servicenow.com/docs/access?context=bun-public-sector-landing-page&family=zurich&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   Manage field operations and view/create investigative tasks directly within the case context using the Tasks tab, found within an ICM investigative case record. Use the **Create Work Order** button to allow a case to be escalated to an Field Service Management work order without leaving the ICM workspace.
+-   ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Public Sector Digital Services \(PSDS\). Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+-   Control the visibility of the grant program lifecycle stepper on the Grant Program record page by disabling or enabling it per instance.
+-   Route flagged documents back to applicants, prompting re-upload of the corrected document, maintaining a complete audit trail within the system. Flagged documents now persist in the system rather than being deleted immediately.
+-   Enter award information and allocate budget across categories using the restructured Program Budget activity. The new three-section workflow separates total program budget, budget categories, and award allocation types for a clearer, more intuitive budget configuration experience. Budget allocations and balances update in real-time as you enter percentages across categories.
+-   Enable other governments to launch citizen-facing services using the GOV.UK Developer Toolkit, a library of reusable portal widgets that follow UK GDS guidelines, enabling ServiceNow developers to build compliant service portals for UK government customers.
+
+-   Submit funding and decline recommendations, as a Grant Program Manager for any scored subset of proposals as a Funding Allocation Request, enabling incremental funding decisions without waiting for the entire portfolio to complete review. The Grant Program Director can approve or reject each request, with rejected proposals returning to the working queue for future consideration.
+-   Release result letters per proposal as each Funding Allocation Request decision is approved, rather than waiting for all decisions across the program to be finalized. This enables rolling notification of award, decline, or ineligibility outcomes in Grants Management.
+
+-   Consolidate the case narrative, evidence, entities, team assignments, investigative tasks, and related cases into a single record page with Investigative Case Management Foundation.
+-   Manage persons, property, vehicles, organizations, locations, and events, including specialized entity types like firearms with detailed identification, specifications, origin, and ballistic information, and link them to cases and to each other with Investigative Case Management Entity Management.
+-   Manage physical and digital evidence tied to investigative cases, with structure fields for collection details, source and context, security classification, and links to related entities such as persons, vehicles, locations, and organizations using Investigative Case Management Evidence Management.
+-   Create Chain of custody documentation in every evidence record, capturing each transfer from the moment of collection.
+-   Synthesize narratives, entities, evidence, and activity history into a structured summary using Investigative Case Management Case Summarization.
+-   Validate large volumes of uploaded documents, verify information, flag issues, and highlight key details for case agents with the Document Screening Al Skill, used with ServiceNow Otto for Public Sector Digital Services \(PSDS\).
+
+ See [Public Sector Digital Services \(PSDS\)](https://www.servicenow.com/docs/access?context=bun-public-sector-landing-page&family=australia&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+-   Manage field operations and view/create investigative tasks directly within the case context using the Tasks tab, found within an ICM investigative case record. Use the **Create Work Order** button to allow a case to be escalated to an Field Service Management work order without leaving the ICM workspace.
+-   ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Public Sector Digital Services \(PSDS\). Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+-   Control the visibility of the grant program lifecycle stepper on the Grant Program record page by disabling or enabling it per instance.
+-   Route flagged documents back to applicants, prompting re-upload of the corrected document, maintaining a complete audit trail within the system. Flagged documents now persist in the system rather than being deleted immediately.
+-   Enter award information and allocate budget across categories using the restructured Program Budget activity. The new three-section workflow separates total program budget, budget categories, and award allocation types for a clearer, more intuitive budget configuration experience. Budget allocations and balances update in real-time as you enter percentages across categories.
+-   Enable other governments to launch citizen-facing services using the GOV.UK Developer Toolkit, a library of reusable portal widgets that follow UK GDS guidelines. ServiceNow developers can build compliant service portals for UK government customers.
+
+-   Submit funding and decline recommendations as a Grant Program Manager for any scored subset of proposals as a Funding Allocation Request. This enables incremental funding decisions without waiting for the entire portfolio to complete review. The Grant Program Director can approve or reject each request, with rejected proposals returning to the working queue for future consideration.
+-   Release result letters per proposal as each Funding Allocation Request decision is approved, rather than waiting for all decisions across the program to be finalized. This enables rolling notification of award, decline, or ineligibility outcomes in Grants Management.
+
+-   Consolidate the case narrative, evidence, entities, team assignments, investigative tasks, and related cases into a single record page with Investigative Case Management Foundation.
+-   Manage persons, property, vehicles, organizations, locations, and events with Investigative Case Management Entity Management. Specialized entity types like firearms include detailed identification, specifications, origin, and ballistic information and can be linked to cases and to each other.
+-   Manage physical and digital evidence tied to investigative cases using Investigative Case Management Evidence Management. Structured fields capture collection details, source, context, security classification, and links to related entities such as persons, vehicles, locations, and organizations.
+-   Create Chain of custody documentation in every evidence record, capturing each transfer from the moment of collection.
+-   Synthesize narratives, entities, evidence, and activity history into a structured summary using Investigative Case Management Case Summarization.
+-   Validate large volumes of uploaded documents, verify information, flag issues, and highlight key details for case agents with the Document Screening Al Skill, used with ServiceNow Otto for Public Sector Digital Services \(PSDS\).
+
+ See [Public Sector Digital Services \(PSDS\)](https://www.servicenow.com/docs/access?context=bun-public-sector-landing-page&family=brazil&ft:locale=en-US) for more information.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/rn-combined-intro.md)
+

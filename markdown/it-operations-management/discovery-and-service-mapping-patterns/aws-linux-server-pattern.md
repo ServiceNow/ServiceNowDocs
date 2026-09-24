@@ -3,11 +3,11 @@ title: AWS Linux Server pattern-based discovery
 description: Discovery and Service Mapping Patterns finds AWS Linux Server configuration items \(CIs\) in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/aws-linux-server-pattern.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-08-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [AWS Linux Server discovery, AWS Linux Server pattern, AWS SSM server CI, EC2 Linux server]
 breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
@@ -21,7 +21,7 @@ Discovery and Service Mapping Patterns finds AWS Linux Server configuration item
 
 -   **Verify the AWS discovery prerequisites**
 
-    For more information, see the prerequisites section in [AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md).
+    For more information, see the prerequisites section in [AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md).
 
 -   **Verify that AWS SSM is enabled**
 
@@ -29,7 +29,7 @@ Discovery and Service Mapping Patterns finds AWS Linux Server configuration item
 
 -   **Enable Linux Server CI creation**
 
-    Set the **sn\_itom\_pattern.aws\_cloud\_discovery\_populate\_server\_ci** system property to **true**. For more information, see [Configure Server CI creation during AWS cloud discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/configure-aws-server-ci-cloud-discovery.md).
+    Set the **sn\_itom\_pattern.aws\_cloud\_discovery\_populate\_server\_ci** system property to **true**. For more information, see [Configure Server CI creation during AWS cloud discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/configure-aws-server-ci-cloud-discovery.md).
 
 -   **Verify SSM Agent execution context**
 
@@ -37,7 +37,7 @@ Discovery and Service Mapping Patterns finds AWS Linux Server configuration item
 
 -   **Configure the Discovery schedule to support GovCloud**
 
-    Discovering AWS GovCloud \(US\) accounts requires using a datacenter URL when setting up an AWS service account. For more information, see [Create AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-aws-service-accounts.md).
+    Discovering AWS GovCloud \(US\) accounts requires using a datacenter URL when setting up an AWS service account. For more information, see [Create AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/create-aws-service-accounts.md).
 
 
 ## Data collected by Discovery during horizontal discovery
@@ -168,5 +168,5 @@ The AWS - Linux Server \(LP\) pattern creates the following relationships and re
 |---|-----|-------------|
 |Serial Number \[cmdb\_serial\_number\]|Configuration item \[cmdb\_ci\]|Linux Server \[cmdb\_ci\_linux\_server\]|
 
-**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
+**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 

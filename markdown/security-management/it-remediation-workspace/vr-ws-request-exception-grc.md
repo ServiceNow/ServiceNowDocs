@@ -3,11 +3,11 @@ title: Request an exception using GRC: Policy and Compliance Management in the I
 description: Request a policy exception for the host vulnerable item \(VIT\), application vulnerable item \(AVIT\), container vulnerable item \(CVIT\) or remediation task \(VUL, AVUL, CVUL, or CRG\) from the IT Remediation Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/it-remediation-workspace/vr-ws-request-exception-grc.html
-release: australia
+release: brazil
 product: IT Remediation Workspace
 classification: it-remediation-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, IT Remediation Workspace, Vulnerability Response Workspaces, Unified Security Exposure Management, Security Operations]
 ---
@@ -49,7 +49,7 @@ Role required:
 
 5.  On the form, fill in the fields.
 
-    For more information on the form fields, see [Request exception form fields for policy exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/it-remediation-workspace/itr-ws-request-exception-form-grc.md).
+    For more information on the form fields, see [Request exception form fields for policy exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/it-remediation-workspace/itr-ws-request-exception-form-grc.md).
 
 6.  Select **Request Exception**.
 
@@ -59,6 +59,6 @@ Role required:
 
     A message appears that your request is successfully submitted for approval.
 
-    For more information on the Policy Exception Integration and the hand-off between the remediation owner and the compliance manager, see [Policy and Compliance Management optional setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-compliance-optional-steps.md).
+    For more information on the Policy Exception Integration and the hand-off between the remediation owner and the compliance manager, see [Policy and Compliance Management optional setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-compliance-optional-steps.md).
 
 

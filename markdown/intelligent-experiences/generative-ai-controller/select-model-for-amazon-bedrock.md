@@ -3,14 +3,14 @@ title: Select a model for Amazon Bedrock
 description: Choose which large language model \(LLM\) to use with Amazon Bedrock for custom skills.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generative-ai-controller/select-model-for-amazon-bedrock.html
-release: australia
+release: brazil
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [aws bedrock]
-breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Select a model for Amazon Bedrock
@@ -19,7 +19,7 @@ Choose which large language model \(LLM\) to use with Amazon Bedrock for custom 
 
 ## Before you begin
 
-You must have the latest version of Generative AI Controller and the Amazon Bedrock spoke installed on your instance. You must also set up your API credentials. For more information, see [Configure API credentials for Amazon Bedrock](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-amazon-bedrock.md).
+You must have the latest version of Generative AI Controller and the Amazon Bedrock spoke installed on your instance. You must also set up your API credentials. For more information, see [Configure API credentials for Amazon Bedrock](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-amazon-bedrock.md).
 
 Role required: admin
 
@@ -58,5 +58,5 @@ Your chosen model with the Amazon Bedrock provider will be used for custom skill
 
 You can create custom skills with the Amazon Bedrock provider in AI Skill Kit and perform step 6 to set the new model.
 
-Configure generative AI skills in the AI Admin Hub console to use this capability. For more information, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+Configure generative AI skills in the AI Admin Hub console to use this capability. For more information, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md).
 

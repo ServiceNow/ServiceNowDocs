@@ -3,11 +3,11 @@ title: Scope items in an assessment
 description: The scope of an assessment is the specific record that the assessment targets — such as a control, vendor, or entity. Scope items keep that record in view for responders and reviewers, and other SAE features use scope to behave intelligently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/sae-scope-items.html
-release: australia
+release: brazil
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: concept
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [scope, scope item, assessment scope, scope items, reference information]
 breadcrumb: [Triggering assessments, Configure, Smart Assessment Engine, Governance, Risk, and Compliance]
@@ -38,7 +38,7 @@ A useful way to think about it:
     Provides the answers.
 
 
-Scope items aren't configured on a template or template category. Scope is assigned at the time the assessment is created — typically through an assessment trigger, a Flow Designer action, or a public API call. After an assessment is created, responders, reviewers, and administrators can view its scope items but can't add, change, or remove them from the responder experience.
+Scope items aren't configured on a template or template category. Scope is assigned at the time the assessment is created — typically through an assessment trigger, a Flow Designer action, or a public API call. Once an assessment is created, responders, reviewers, and administrators can view its scope items but can't add, change, or remove them from the responder experience.
 
 ## Where scope items appear in the assessment
 
@@ -69,7 +69,7 @@ In the assessment header, navigation panel, and section viewer, no more than thr
 
 ## Setting scope items on an assessment
 
-Scope items are set when the assessment instance is created. The supported entry point is Assessment trigger or Flow Designer action. These pass scope items as an input parameter when triggering the assessment.
+Scope items are set when the assessment instance is created. The supported entry point is Assessment trigger or Flow Designer action. This pass scope items as an input parameter when triggering the assessment.
 
 Each scope item is an object with a **table** value \(the source table name\) and a **record** value \(the sys ID of the source record\). Scope items are cascade-deleted when the assessment instance is deleted.
 
@@ -107,5 +107,5 @@ The assessment scope is supported by two tables in the Smart Assessment Engine d
     Links an assessment instance to one or more scope items.
 
 
-For a full list of tables installed by Smart Assessment Engine, see [Tables installed in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/tables-installed-in-smart-assessment-engine.md).
+For a full list of tables installed by Smart Assessment Engine, see [Tables installed in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/tables-installed-in-smart-assessment-engine.md).
 

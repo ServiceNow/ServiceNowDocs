@@ -3,11 +3,11 @@ title: Log in to the GRC Mobile application
 description: Open the GRC Mobile application and add a ServiceNow AI Platform instance with Policy and Compliance Management to your mobile device.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/mobile-login-P-C-app.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Managing mobile experience for GRC Policy and Compliance, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,7 @@ Open the GRC Mobile application and add a ServiceNow AI Platform® instance with
 
 ## Before you begin
 
-Verify that you have completed the setup steps described in [Setup checklist for the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-setup-plcy_cmply-app.md).
+Verify that you have completed the setup steps described in [Setup checklist for the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-setup-plcy_cmply-app.md).
 
 Role required: GRC Compliance manager \(sn\_compliance.manager\)
 
@@ -34,7 +34,7 @@ Time to complete this task: 5-7 minutes.
 
 2.  If the ServiceNow AI Platform instance with the Policy and Compliance Management core application is not already added to your mobile device, follow these steps to add it.
 
-    1.  On the Instances screen that is displayed, tap the plus icon.
+    1.  On the Instances screen that is displayed, tap the plus icon \(\[Omitted image "mobile\_instances\_plus.png"\] Alt text: Plus icon.\).
 
         A screen is displayed that prompts you to enter and save an address of a ServiceNow AI Platform instance.
 
@@ -113,5 +113,5 @@ If you cannot view the Instances screen after you tap the **ServiceNow Agent** a
 
 Select one of the following topics for more information about each applet.
 
-**Parent Topic:**[Managing mobile experience for GRC Policy and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-policy_compliance-ovrvw.md)
+**Parent Topic:**[Managing mobile experience for GRC Policy and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-policy_compliance-ovrvw.md)
 

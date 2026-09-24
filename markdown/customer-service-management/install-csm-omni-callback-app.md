@@ -3,9 +3,9 @@ title: Install Omnichannel Callback for Customer Service Management
 description: You can install the Omnichannel Callback for Customer Service Management application \(sn\_callback\) if you have the admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/install-csm-omni-callback-app.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Omnichannel Callback, Configure Voice, Configure omnichannel, Configure, Customer Service Management]
 ---
@@ -55,7 +55,7 @@ The following items are installed with the Omnichannel Callback for Customer Ser
 **Related topics**  
 
 
-[Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-icc-for-ccaas.md)
+[Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/enable-icc-for-ccaas.md)
 
-[Plugin requirements for voice and callback integrations with contact centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/plugin-requirements-for-external-call-routing-integration-for-contact-centers.md)
+[Plugin requirements for voice and callback integrations with contact centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/plugin-requirements-for-external-call-routing-integration-for-contact-centers.md)
 

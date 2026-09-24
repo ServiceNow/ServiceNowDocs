@@ -3,11 +3,11 @@ title: Set up Multi-factor authentication for the first time
 description: If your administrator enabled MFA on your profile but you have not yet set up the application, you can set it up upon login.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_SetUpMultiFactorAuthUponLogin.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using MFA, Multi-factor authentication, Authentication, Access Management]
 ---

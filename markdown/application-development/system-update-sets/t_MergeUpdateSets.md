@@ -3,11 +3,11 @@ title: Merge update sets
 description: Merge multiple update sets into a single update set.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/system-update-sets/t\_MergeUpdateSets.html
-release: australia
+release: brazil
 product: System Update Sets
 classification: system-update-sets
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, System update sets, Deploying applications, Building applications]
 ---
@@ -18,7 +18,7 @@ Merge multiple update sets into a single update set.
 
 ## Before you begin
 
-The batch update sets feature accomplishes the same outcome with a more predictable and robust solution. See [Update set batching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/us-hier-overview.md).
+The batch update sets feature accomplishes the same outcome with a more predictable and robust solution. See [Update set batching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/system-update-sets/us-hier-overview.md).
 
 Role required: admin
 
@@ -49,5 +49,5 @@ Role required: admin
 8.  Delete or empty the original update sets to avoid committing an older change by mistake.
 
 
-**Parent Topic:**[Configuring System Update Sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/configure-system-update-sets.md)
+**Parent Topic:**[Configuring System Update Sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/system-update-sets/configure-system-update-sets.md)
 

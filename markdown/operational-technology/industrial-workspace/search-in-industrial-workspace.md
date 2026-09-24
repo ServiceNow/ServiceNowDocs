@@ -3,11 +3,11 @@ title: Search for a record in the Industrial Workspace
 description: Search for a record in the Industrial Workspace related to Operational Technology \(OT\) data, or Configuration Management Database \(CMDB\) data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/search-in-industrial-workspace.html
-release: australia
+release: brazil
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: task
-last_updated: "2026-06-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Industrial Workspace, Operational Technology]
 ---
@@ -23,7 +23,7 @@ Search for a record in the Industrial Workspace related to Operational Technolog
 
 ## About this task
 
-The Industrial Workspace search is configured to show Natural Language Query \(NLQ\) Genius Results for each search. For more information about how NLQ Genius Results are used in the Industrial Workspace, see [NLQ Genius Results used in the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/nlq-genius-results-industrial-workspace.md). For more information about NLQ Genius Results, see [NLQ Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/genius-result-nlq-ais.md).
+The Industrial Workspace search is configured to show Natural Language Query \(NLQ\) Genius Results for each search. For more information about how NLQ Genius Results are used in the Industrial Workspace, see [NLQ Genius Results used in the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/nlq-genius-results-industrial-workspace.md). For more information about NLQ Genius Results, see [NLQ Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/genius-result-nlq-ais.md).
 
 Using the search bar in the Industrial Workspace, you can search and find results for the following records.
 
@@ -55,5 +55,5 @@ Using the search bar in the Industrial Workspace, you can search and find result
     1.  In the Search bar, select the **Choose search context** \(\[Omitted image "choose-seach-context.png"\] Alt text: Choose search context icon available in the Search bar.\) icon.
     2.  From the drop-down, select **Industrial Workspace**.
 
-**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/using-industrial-workspace.md)
+**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/using-industrial-workspace.md)
 

@@ -3,9 +3,9 @@ title: Configure recovery tier for impact assessment
 description: Configure and use recovery tier to assign a single recovery time and name to a similar range of recovery time objective \(RTO\) values.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-recovery-tier-bia.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [BCM in the Classic Workspace, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -24,13 +24,13 @@ Recovery tiers are also associated with other organizational expectations such a
 
 Recovery tiers are used in these areas:
 
--   BIA scores and impact assessment results
--   Element recovery times
+-   BIA scores and impact assessment result.
+-   Element recovery times.
 
 Some examples of recovery tiers include:
 
--   Tier 1 – Mission Critical: 2 hours RTO
--   Tier 5 – Non-Essential: 1 week RTO
+-   Tier 1 – Mission Critical: 2 hours RTO.
+-   Tier 5 – Non-Essential: 1 week RTO.
 
 Although there is no limitation to the number of recovery tiers, an organization can set 4 to 6 recovery tiers.
 

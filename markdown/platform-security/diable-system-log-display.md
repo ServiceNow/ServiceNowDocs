@@ -3,9 +3,9 @@ title: Disable stack trace formatting in system logs
 description: Enable viewing original unformatted log messages by disabling the collapsible stack trace formatting in system logs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/diable-system-log-display.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [System logs, Logs, Platform Security]
 ---

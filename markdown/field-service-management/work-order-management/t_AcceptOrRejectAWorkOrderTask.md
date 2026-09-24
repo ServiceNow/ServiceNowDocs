@@ -3,11 +3,11 @@ title: Accept or reject a work order task
 description: Accept a work order task if you are ready to work on that task. Reject the task and provide a reason if you cannot work on that task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/t\_AcceptOrRejectAWorkOrderTask.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Execute work order tasks, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
@@ -34,15 +34,15 @@ The task must be in **Assigned** state for an agent to accept or reject the task
 
 3.  Accept or reject the task.
 
-<table id="choicetable_mqd_4y5_djb"><thead><tr><th align="left" id="d112953e116">
+<table id="choicetable_mqd_4y5_djb"><thead><tr><th align="left" id="d115960e116">
 
 To
 
-</th><th align="left" id="d112953e119">
+</th><th align="left" id="d115960e119">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d112953e125">
+</th></tr></thead><tbody><tr><td id="d115960e125">
 
 **Accept the task**
 
@@ -50,7 +50,7 @@ Do the following
 
 Click **Accept**. The work order task moves to **Accepted** state.
 
-</td></tr><tr><td id="d112953e140">
+</td></tr><tr><td id="d115960e140">
 
 **Reject the task.**
 
@@ -76,7 +76,7 @@ Available options:
 
 The reason for rejecting the task is populated in the work notes and the task moves to **Pending Dispatch** state.
 
- **Note:** The rejected task is not dynamically scheduled to the same agent for the next 24 hours. This is controlled by the work.management.rejected.technician.duration [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/r_PropInstallWFieldServMgmnt.md). However, as an agent you can manually assign the work order task back to yourself or as a dispatcher you can assign it back to the same agent.
+ **Note:** The rejected task is not dynamically scheduled to the same agent for the next 24 hours. This is controlled by the work.management.rejected.technician.duration [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/r_PropInstallWFieldServMgmnt.md). However, as an agent you can manually assign the work order task back to yourself or as a dispatcher you can assign it back to the same agent.
 
 </td></tr></tbody>
 </table>    \[Omitted image "accept-reject-task.png"\] Alt text: accept and reject buttons

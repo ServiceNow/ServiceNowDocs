@@ -3,11 +3,11 @@ title: Install DevOps Change Velocity
 description: Install the DevOps Change Velocity application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/activate-dev-ops.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, DevOps Change Velocity, IT Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 Ensure that the application and all of its associated store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 
-If you’re installing DevOps Change Velocity in your production instance for the first time, ensure that you opt-in to the following required products. For more information, see [Opt in to the ServiceNow Store products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/optin-optout-prod.md).
+If you’re installing DevOps Change Velocity in your production instance for the first time, ensure that you opt-in to the following required products. For more information, see .
 
 <table id="table_ux3_lfg_cyb"><tbody><tr><td>
 
@@ -128,11 +128,11 @@ To install the DevOps application on a subprod instance, navigate to the DevOps 
 
 Installing DevOps Change Velocity also installs the dependent applications, user roles, tables, scheduled jobs, and other components.
 
-See [Components installed with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/installed-with-dev-ops.md).
+See [Components installed with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/installed-with-dev-ops.md).
 
 ## What to do next
 
-[Assign roles and tasks using workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/assign-roles-tasks-workspace.md).
+[Assign roles and tasks using workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/assign-roles-tasks-workspace.md).
 
-**Note:** Roles that are installed with DevOps Change Velocity are listed in [Components installed with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/installed-with-dev-ops.md).
+**Note:** Roles that are installed with DevOps Change Velocity are listed in [Components installed with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/installed-with-dev-ops.md).
 

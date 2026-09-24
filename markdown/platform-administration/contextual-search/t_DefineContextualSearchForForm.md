@@ -3,11 +3,11 @@ title: Configure table for a contextual search
 description: Configure the options for the contextual search that a table performs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/contextual-search/t\_DefineContextualSearchForForm.html
-release: australia
+release: brazil
 product: Contextual Search
 classification: contextual-search
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring contextual search, Contextual search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -180,7 +180,7 @@ Enable search as
 
 </td><td>
 
-Option to enable searching as a different user. The message box describes the settings available when you select this option.\[Omitted image "search-as.png"\] Alt text: Search as field For more information on using **Search as**, see [Enable viewing of search results for the current and another selected user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/t_SearchAsDifferentUser.md).
+Option to enable searching as a different user. The message box describes the settings available when you select this option.\[Omitted image "search-as.png"\] Alt text: Search as field For more information on using **Search as**, see [Enable viewing of search results for the current and another selected user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/contextual-search/t_SearchAsDifferentUser.md).
 
 </td></tr></tbody>
 </table>3.  Click **Submit**.
@@ -190,5 +190,5 @@ Option to enable searching as a different user. The message box describes the se
     **Note:** Search results only appear for Search Fields that are visible on the form.
 
 
-**Parent Topic:**[Configuring contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/configuring-contextual-search.md)
+**Parent Topic:**[Configuring contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/contextual-search/configuring-contextual-search.md)
 

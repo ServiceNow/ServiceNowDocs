@@ -3,14 +3,14 @@ title: REST API connector for Zero Copy Connector for ERP
 description: Use the REST API connector to connect to any RESTful API with standardized API specification formats.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-rest-api-connector.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
 last_updated: "2026-08-05"
 reading_time_minutes: 2
 keywords: [zero, copy, connector, erp, canvas, data hub, integration, rest, api, openapi, swagger, postman]
-breadcrumb: [Connecting to ERP with REST, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Adding an entity to a model, ERP models, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # REST API connector for Zero Copy Connector for ERP
@@ -21,22 +21,22 @@ Use the REST API connector to connect to any RESTful API with standardized API s
 
 You can use REST APIs to access business data from ERP \(Enterprise Resource Planning\) systems. Integrating these APIs requires manual processes. The REST API connector solves this by providing a reusable, low-code integration layer.
 
-For API details, see [sn\_erp\_integration API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md).
+For API details, see [sn\_erp\_integration API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md).
 
 ## REST service connection configuration
 
-REST connections use the HTTP connection template. For more information, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-https-connection.md).
+REST connections use the HTTP connection template. For more information, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/create-https-connection.md).
 
 ## Authentication options
 
 The connector supports the following authentication options:
 
--   Basic Auth: A username and password \(Base64-encoded\). For more information, see [Basic authentication credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md).
--   JWT \(JSON Web Token\): A bearer token authentication. For more information, see [JWT Bearer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/jwt-bearer.md).
--   API Key: A key passed as a header or query parameter. For more information, see [API key credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/API-key-credential-form.md).
--   OAuth 2.0: A token authentication with automatic token refresh. For more information, see [Manage OAuth tokens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ManageTokens.md).
+-   Basic Auth: A username and password \(Base64-encoded\). For more information, see [Basic authentication credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_BasicAuthCredentialsForm.md).
+-   JWT \(JSON Web Token\): A bearer token authentication. For more information, see [JWT Bearer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/jwt-bearer.md).
+-   API Key: A key passed as a header or query parameter. For more information, see [API key credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/API-key-credential-form.md).
+-   OAuth 2.0: A token authentication with automatic token refresh. For more information, see [Manage OAuth tokens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_ManageTokens.md).
 
-ServiceNow Vault stores credentials securely. For more information, see [Exploring ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/exploring-servicenow-vault.md).
+ServiceNow Vault stores credentials securely. For more information, see [Exploring ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/exploring-servicenow-vault.md).
 
 The system validates that the configured credential type matches one of the authentication schemes defined in the API specification before allowing execution.
 
@@ -49,13 +49,15 @@ Import a REST API definition using one of the following methods:
 
 ## Mapping data to your data model
 
-After you import a REST service, use the Model Manager to define entities and map API response fields to the data model. For more information, see [Add a REST entity to a model operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/add-a-rest-entity-to-a-model-operation.md).
+After you import a REST service, use the Model Manager to define entities and map API response fields to the data model. For more information, see [Add a REST entity to a model operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/add-a-rest-entity-to-a-model-operation.md).
 
 ## MID Server support
 
-If your REST API runs on-premises or behind a firewall, you can route API calls through a MID Server. The connection record includes a midServerName property that routes traffic through the designated MID Server. Cloud-hosted APIs can connect directly without a MID Server. For more information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md).
+If your REST API runs on-premises or behind a firewall, you can route API calls through a MID Server. The connection record includes a midServerName property that routes traffic through the designated MID Server. Cloud-hosted APIs can connect directly without a MID Server. For more information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-landing.md).
 
 ## REST API connector tables
 
-For information about the REST API connector tables that support Zero Copy Connector for ERP, see [REST API connector tables for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-rest-api-tables.md).
+For information about the REST API connector tables that support Zero Copy Connector for ERP, see [REST API connector tables for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-rest-api-tables.md).
+
+**Parent Topic:**[Adding an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md)
 

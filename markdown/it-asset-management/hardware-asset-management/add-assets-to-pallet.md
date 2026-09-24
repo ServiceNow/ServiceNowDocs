@@ -3,13 +3,13 @@ title: Add assets to a pallet
 description: Add base, hardware, bundle, consumable, and other pallet assets to an in-stock pallet to track and manage the assets in a stockroom as a group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/add-assets-to-pallet.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage your inventory through pallet assets, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage your inventory through pallet assets, Inventory and stockroom operations, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Add assets to a pallet
@@ -63,7 +63,7 @@ When an asset that is a parent to other assets is added to a pallet, all its chi
 
     The assets that you added to the pallet are added to the list shown in the Assets tab. The state, substate, location, stockroom, aisle, and space details of the assets are synced with the pallet.
 
-    **Note:** Only the substate of pre-allocated assets isn't synced with the pallet. For more information, see [Create pre-allocated assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/t_CreatingPreAllocatedAssets.md).
+    **Note:** Only the substate of pre-allocated assets isn't synced with the pallet. For more information, see [Create pre-allocated assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/t_CreatingPreAllocatedAssets.md).
 
 6.  Add consumable assets to the pallet.
 
@@ -78,7 +78,7 @@ When an asset that is a parent to other assets is added to a pallet, all its chi
     The consumable asset that you added to the pallet is added to the list shown in the Assets tab.
 
 
-**Parent Topic:**[Manage your inventory through pallet assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/pallets-for-inventory-management.md)
+**Parent Topic:**[Manage your inventory through pallet assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/pallets-for-inventory-management.md)
 
 **Related topics**  
 

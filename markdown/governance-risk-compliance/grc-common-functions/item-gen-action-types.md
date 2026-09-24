@@ -3,11 +3,11 @@ title: Operational changes in item generation of common controls
 description: Operational changes are made in item generation mainly because item generation either creates a control or activates an existing standard control. When it comes to associating a control to an entity, then associating a reliant entity to a common control takes precedence over creating a control for that entity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/item-gen-action-types.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Use the item generation process, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -28,7 +28,7 @@ To create a common control, select **Common** in the **Function** field of the C
 2.  Use Reliant entity types related list in the Control form to add entity types to the common control. You can also remove the reliant entity types using the **Remove** button.
 3.  Use the **Inherit common controls** UI action in the Controls related list of the Risk form to select common controls grouped by control objectives.
 
-**Note:** For more information on reliant entity associations for a common control, see [Create a control using the Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/create-control-ws.md) and [Convert standard control to common control and add reliant entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/convert-standard-control-common.md).
+**Note:** For more information on reliant entity associations for a common control, see [Create a control using the Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-compliance-management-workspace/create-control-ws.md) and [Convert standard control to common control and add reliant entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-compliance-management-workspace/convert-standard-control-common.md).
 
 ## Item generation – Assumptions
 
@@ -124,5 +124,5 @@ Deactivate item
 -   Standard item: Deletes risks to control associations based on the Risk statement and Control objective associations.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using the item generation process to generate controls and risks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/item-generation-process.md)
+</table>**Parent Topic:**[Using the item generation process to generate controls and risks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/item-generation-process.md)
 

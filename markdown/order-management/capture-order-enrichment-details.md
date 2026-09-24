@@ -3,9 +3,9 @@ title: Capture order enrichment details for complex fulfillment
 description: Collect additional order details and technical information necessary for order decomposition and fulfillment, promoting accurate delivery and helping prevent delays or fallouts for complex products or services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/capture-order-enrichment-details.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Enriching orders, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -28,21 +28,21 @@ You can enrich order and order line items that meet the following conditions:
 
 ## Procedure
 
-1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace.** .
+1.  Navigate to  **Workspaces** &gt; **CRM Workspace.** .
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to the order enrichment task using either of the following options.
 
-<table id="choicetable_ctl_t4y_pgc"><thead><tr><th align="left" id="d78689e108">
+<table id="choicetable_ctl_t4y_pgc"><thead><tr><th align="left" id="d79633e110">
 
 Navigation option
 
-</th><th align="left" id="d78689e111">
+</th><th align="left" id="d79633e113">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d78689e117">
+</th></tr></thead><tbody><tr><td id="d79633e119">
 
 **From Customer Orders**
 
@@ -54,7 +54,7 @@ Steps
 4.  Select the order enrichment task to open the task record and view its details.
 
 
-</td></tr><tr><td id="d78689e153">
+</td></tr><tr><td id="d79633e155">
 
 **From Order Tasks**
 
@@ -100,12 +100,12 @@ The order record is updated with all necessary fulfillment details. The order st
 
 ## What to do next
 
-[Approve orders in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-om-approve-product-order.md)
+[Approve orders in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-om-approve-product-order.md)
 
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-order-management.md)
 

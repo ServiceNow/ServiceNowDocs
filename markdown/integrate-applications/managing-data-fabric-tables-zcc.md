@@ -3,9 +3,9 @@ title: Managing data fabric tables
 description: Access data virtually from an external source or a local table on your instance using data fabric tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/managing-data-fabric-tables-zcc.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Zero Copy Connectors, Workflow Data Fabric]
 ---
@@ -53,9 +53,9 @@ Note the following requirements when creating references between tables:
     -   Type: record
     -   Operation: data\_fabric
     -   Name: User \[sys\_user\]
-    For details on creating a record ACL rule, see [Configure an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_CreateAnACLRule.md).
+    For details on creating a record ACL rule, see [Configure an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_CreateAnACLRule.md).
 
--   To see values in a reference column when viewing records in the new data fabric table, you must set the Display attribute to true for the referenced column. You can manage this attribute in the referenced table's definition. See [Select a field as the table display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_SelectTheDisplayValue.md).
+-   To see values in a reference column when viewing records in the new data fabric table, you must set the Display attribute to true for the referenced column. You can manage this attribute in the referenced table's definition. See [Select a field as the table display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_SelectTheDisplayValue.md).
 -   Ensure the referenced table has at least one primary key column.
 -   Ensure the primary key column in the referenced table contains unique values.
 -   Ensure the primary key column matches the data type of the source column.
@@ -74,18 +74,18 @@ After a data fabric table is connected to a data source, each time the data fabr
 
 For additional data fabric table limitations, see [KB2017730](https://support.servicenow.com/kb?sys_kb_id=68859e2147a0ae5448cb2920326d43fc&id=kb_article_view).
 
--   **[Create a data fabric table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-data-fabric-table-zcc.md)**  
+-   **[Create a data fabric table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-data-fabric-table-zcc.md)**  
 Retrieve data from an internal or external source by creating a data fabric table.
--   **[Update data mapping in a data fabric table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/update-data-fabric-table-zcc.md)**  
+-   **[Update data mapping in a data fabric table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/update-data-fabric-table-zcc.md)**  
 Update the data mapping between a source table and a data fabric table.
--   **[Delete a data fabric table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/delete-data-fabric-table-zcc.md)**  
+-   **[Delete a data fabric table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/delete-data-fabric-table-zcc.md)**  
 Remove a data fabric table from your instance by deleting it.
--   **[View data fabric table records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/view-data-fabric-table-zcc.md)**  
+-   **[View data fabric table records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/view-data-fabric-table-zcc.md)**  
 View the records that are currently in a data fabric table.
--   **[Change the connection in a data fabric table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/change-source-data-fabric-table-zcc.md)**  
+-   **[Change the connection in a data fabric table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/change-source-data-fabric-table-zcc.md)**  
 Connect a data fabric table to a different data source.
--   **[Deploying a data fabric table from one instance to another](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/copying-data-fabric-table-zcc.md)**  
+-   **[Deploying a data fabric table from one instance to another](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/copying-data-fabric-table-zcc.md)**  
 Copy a data fabric table from one instance to another through an update set.
 
-**Parent Topic:**[Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/zero-copy-connectors.md)
+**Parent Topic:**[Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/zero-copy-connectors.md)
 

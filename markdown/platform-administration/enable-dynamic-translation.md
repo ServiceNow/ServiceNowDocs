@@ -3,9 +3,9 @@ title: Enable dynamic translation for email notifications
 description: Enable dynamic translation for a notification to send dynamically translated emails to recipients in their preferred language.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/enable-dynamic-translation.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dynamic translation, Multilingual email notifications, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -16,11 +16,11 @@ Enable dynamic translation for a notification to send dynamically translated ema
 
 ## Before you begin
 
-An email notification must exist. For more information, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
+An email notification must exist. For more information, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateANotification.md).
 
 You must activate the Glide Notification Translation \(com.glide.notification.translation\) plugin.
 
-Set the system property for the dynamic translation. For more information see, [Enable dynamic translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/enable-email-notification-translation.md).
+Set the system property for the dynamic translation. For more information see, [Enable dynamic translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/enable-email-notification-translation.md).
 
 Role required: admin
 
@@ -43,9 +43,9 @@ Notification recipients must be defined as active users in the User \[sys\_user\
 
 ## What to do next
 
-[Preview email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_PreviewingNotifications.md)
+[Preview email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_PreviewingNotifications.md)
 
-**Parent Topic:**[Dynamic translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation.md)
+**Parent Topic:**[Dynamic translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-translation.md)
 
 **Related topics**  
 

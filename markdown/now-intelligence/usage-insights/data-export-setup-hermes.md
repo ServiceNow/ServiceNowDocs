@@ -3,11 +3,11 @@ title: Setting up a secure connection to Hermes
 description: Configure SSL encryption for your Kafka consumers by generating an instance-signed certificate and configuring your Kafka client with SSL to securely connect to the managed Hermes cluster and consume data export results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/data-export-setup-hermes.html
-release: australia
+release: brazil
 product: Usage Insights
 classification: usage-insights
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Bulk export of Usage Insights data via REST API, Using Usage Insights, Usage Insights, Platform Analytics]
 ---
@@ -61,9 +61,9 @@ Verify network connectivity to Hermes and confirm you have a Kafka consumer envi
 
 5.  Copy the certificate files to your Kafka consumer environment that will connect to Hermes.
 
-    Transfer the keystore and truststore files from your local machine to each Kafka consumer client. For the full setup procedure and ACL configuration, see [Set up a secure connection to the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/set-up-secure-connection-to-hermes.md).
+    Transfer the keystore and truststore files from your local machine to each Kafka consumer client. For the full setup procedure and ACL configuration, see [Set up a secure connection to the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/set-up-secure-connection-to-hermes.md).
 
-    To learn more about Hermes messaging service, see [Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/hermes-messaging-service.md).
+    To learn more about Hermes messaging service, see [Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/hermes-messaging-service.md).
 
     Example \(using SCP\):
 
@@ -142,12 +142,12 @@ Verify network connectivity to Hermes and confirm you have a Kafka consumer envi
 
     **Note:** Both configurations use the same `group.id` value. This is intentional and required for high availability.
 
-9.  Start consuming data export results as described in [Consuming data export results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/consuming-data-export-results.md).
+9.  Start consuming data export results as described in [Consuming data export results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/usage-insights/consuming-data-export-results.md).
 
 
 ## What to do next
 
-Submit data export requests and consume results from the Kafka topic. See [Consuming data export results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/consuming-data-export-results.md) to learn more.
+Submit data export requests and consume results from the Kafka topic. See [Consuming data export results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/usage-insights/consuming-data-export-results.md) to learn more.
 
-**Parent Topic:**[Bulk export of Usage Insights data via REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/data-export-restapi.md)
+**Parent Topic:**[Bulk export of Usage Insights data via REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/usage-insights/data-export-restapi.md)
 

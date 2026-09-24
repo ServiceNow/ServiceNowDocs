@@ -3,9 +3,9 @@ title: Playbooks for Field Service Management
 description: Playbooks provide step-by-step guidance for your Field Service teams to complete activities involved in field service tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/playbooks.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Field Service Management]
 ---
@@ -22,13 +22,13 @@ A playbook takes a workflow and breaks it into multiple stages. Each stage inclu
 -   Status indicators that display the current state of each activity or step.
 -   Check boxes and counters that indicate where an agent is in the workflow.
 
-The following image illustrates the Appointment Booking Playbook workflow created using a playbook.
+The following image illustrates the Appointment Booking Playbook workflow created using a playbook.\[Omitted image "Playbooks-fsm.png"\] Alt text: Workflow displaying the steps to book appointments, Start Process, Display Rules, Collect Data, Send Confirmation Email, and Appointment Feedback. Each step has one or more tasks associated with it.
 
 ## Playbooks for the ServiceNow Agent
 
 Playbooks for the ServiceNow Agent application include stages for completing a work order task. Playbooks can be viewed under a selected work order task on the **My work** page. Tasks that have an active playbook associated with it display a **View Playbooks** button.
 
-Playbooks are organized in stages to provide a guided experience. They direct you to new or existing features of the mobile application and maintain a checklist of completed stages on that work order task. Stages can be marked complete or skipped at your discretion. The stages progress as follows:
+Playbooks direct you to new or existing features of the mobile application and maintain a checklist of completed stages on that work order task. Stages can be marked complete or skipped at your discretion. The stages progress as follows:
 
 1.  Troubleshoot
 2.  Parts
@@ -37,8 +37,6 @@ Playbooks are organized in stages to provide a guided experience. They direct yo
 5.  Verify work completion
 6.  Close work order task
 
-For more information, see [Playbooks on ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/playbooks-now-mobile-agent-app.md).
-
 ## Request apps on the Store
 
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
@@ -46,5 +44,5 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 **Related topics**  
 
 
-[Configuring Playbooks for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/configuring-playbooks-fsm.md)
+[Configuring Playbooks for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/configuring-playbooks-fsm.md)
 

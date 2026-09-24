@@ -3,11 +3,11 @@ title: Pulls and pushes
 description: Developers synchronize their instances to the parent instance by pulling and pushing versions of customized records and resolving collisions between versions on the parent instance and the development instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/c\_PullsAndPushes.html
-release: australia
+release: brazil
 product: Team Development
 classification: team-development
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Administer, Team Development, Planning your application, Building applications]
 ---

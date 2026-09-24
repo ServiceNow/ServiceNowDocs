@@ -3,11 +3,11 @@ title: Content lookup portal for Hardware Asset Management
 description: The Content lookup portal gives you visibility into the data stored in the Content Library as part of the IT Asset Management Content Service via an intuitive user interface.Install the IT Asset Management Content lookup \(sn\_itam\_contlookup\) application to view the data stored in the Hardware Asset Management Content Service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/content-lookup-ham.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Hardware Asset Workspace, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -18,7 +18,7 @@ The Content lookup portal gives you visibility into the data stored in the Conte
 
 The Content Library is a repository of hardware product names and all additional information such as hardware product lifecycle dates and model numbers. This information is stored in different tables in the Content Library.
 
-The Content library portal application is available in the ServiceNow Store. After you install the application, verify that the AI Search \(com.glide.ais\) plugin is activated. For more information about installing Content library portal application, see [Install Content lookup to view Hardware Asset Management data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/content-lookup-ham.md).
+The Content library portal application is available in the ServiceNow Store. After you install the application, verify that the AI Search \(com.glide.ais\) plugin is activated. For more information about installing Content library portal application, see [Install Content lookup to view Hardware Asset Management data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/content-lookup-ham.md).
 
 The Content lookup portal enables you to do the following:
 
@@ -41,7 +41,7 @@ On the Content lookup portal, you can view the information based on the applicat
     -   Hardware Products
     -   Hardware Models
     -   Hardware Lifecycles
--   If both Software Asset Management Professional and Hardware Asset Management applications are installed and you have both asset and sam\_user roles, you can view both hardware and software content tabs. For more information about the Software Asset Management Content library portal, see the [Content lookup portal for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/content-search-portal.md).
+-   If both Software Asset Management Professional and Hardware Asset Management applications are installed and you have both asset and sam\_user roles, you can view both hardware and software content tabs. For more information about the Software Asset Management Content library portal, see the [Content lookup portal for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/content-search-portal.md).
 
 The Content lookup portal uses the AI search functionality and helps you to search for a specific hardware manufacturer, product, and model number. After you enter your search criteria in the search bar, the search results are listed with the most relevant matches at the top. Using the Filters section, you can further narrow down the result.
 
@@ -168,11 +168,13 @@ View a list of hardware products released in the Content Library. On the Hardwar
 
 View a list of hardware models released in the Content Library. On the Hardware models list, only active models are displayed with a default filter condition applied. Select the Model number to view the model details.
 
-On the Hardware Model form, the **Copy model details** option enables you to copy the details of a model and add a model entry to the Product Model \[cmdb\_model\] table. For more information about copying model details, see [Copy a hardware model from the Content lookup portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/copy-hardware-model.md).
+On the Hardware Model form, the **Copy model details** option enables you to copy the details of a model and add a model entry to the Product Model \[cmdb\_model\] table. For more information about copying model details, see [Copy a hardware model from the Content lookup portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/copy-hardware-model.md).
 
 ## Hardware Lifecycles tab
 
 View a list of life cycle records of hardware models released in the Content Library. On the Hardware lifecycles list, only active lifecycles are displayed with a default filter condition applied. Select the Product model to view the hardware product lifecycle details.
+
+**Parent Topic:**[Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/using-ham-workspace.md)
 
 ## Install Content lookup to view Hardware Asset Management data
 
@@ -187,7 +189,7 @@ Role required: asset
 
 ### About this task
 
-If you have installed the Software Asset Management Professional \(com.sn\_samp\_master\) plugin, you can view data stored in the Software Asset Management Content service. If you have installed both Software Asset Management Professional \(com.sn\_samp\_master\) and Hardware Asset Management \(com.sn\_hamp\) plugins, you can view both their content data on the IT Asset Management Content lookup \(sn\_itam\_contlookup\) application. You can also filter your search results based on the content type, such as software or hardware. For more information about installing the Content lookup portal for Software Asset Management, see [Install Content lookup portal for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/install-contentlookup.md).
+If you have installed the Software Asset Management Professional \(com.sn\_samp\_master\) plugin, you can view data stored in the Software Asset Management Content service. If you have installed both Software Asset Management Professional \(com.sn\_samp\_master\) and Hardware Asset Management \(com.sn\_hamp\) plugins, you can view both their content data on the IT Asset Management Content lookup \(sn\_itam\_contlookup\) application. You can also filter your search results based on the content type, such as software or hardware. For more information about installing the Content lookup portal for Software Asset Management, see [Install Content lookup portal for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/install-contentlookup.md).
 
 ### Procedure
 

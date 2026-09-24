@@ -3,11 +3,11 @@ title: Set up outbound connections
 description: Outbound connections enable ServiceNow to send data to, read data from, or trigger actions in external systems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/set-up-outbound-connections.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Connections and Credentials, Connect, Workflow Data Fabric]
+breadcrumb: [Connections and Credentials, Connect, Workflow Data Fabric Home, Workflow Data Fabric]
 ---
 
 # Set up outbound connections
@@ -24,7 +24,7 @@ Role required: admin
 
 2.  Click the **Connections and Credentials** tab.
 
-3.  You can [create a new external system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connecthub-create-external-systems.md).
+3.  You can [create a new external system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/connecthub-create-external-systems.md).
 
 4.  Click **Create** and select **Outbound Connection**.
 
@@ -39,7 +39,7 @@ Role required: admin
     |Connection name|Name of the external system that you want to create an outbound connection to. For example, *Jira*.|
     |Description|A description for the connection to the external system.|
     |Protocol|The connection protocol to connect to the external system.|
-    |Retry Policy|Retry policy for the connection. For more information, see [Retry policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/retry-policy.md).|
+    |Retry Policy|Retry policy for the connection. For more information, see [Retry policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/retry-policy.md).|
     | | |
 
 8.  Choose between using a configuration template or custom credentials for adding an endpoint.
@@ -56,7 +56,7 @@ Role required: admin
 
 11. Enable the MID server option and configure the server information.
 
-    For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigureAMIDServerCluster.md).
+    For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_ConfigureAMIDServerCluster.md).
 
 12. Click **Add Endpoint** to add additional endpoints for different environments.
 

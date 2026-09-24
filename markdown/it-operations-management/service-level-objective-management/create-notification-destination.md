@@ -3,11 +3,11 @@ title: Create a notification destination in SRM
 description: Set up notification destinations to help keep teams informed about service reliability.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-level-objective-management/create-notification-destination.html
-release: australia
+release: brazil
 product: Service Level Objective Management
 classification: service-level-objective-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using SLO Management, Service Level Objective Management, ITOM AIOps, IT Operations Management]
 ---
@@ -23,7 +23,7 @@ Before creating notification destinations, set up the Microsoft Teams Graph spok
 -   `ChannelMessage.Send`
 -   `Group.ReadWrite.All**`
 
-For setup instructions, see Set up the Microsoft Teams Graph spoke.
+For setup instructions, see [Set up the Microsoft Teams Graph spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/set-up-msteams.md).
 
 Role required: srm\_manager, srm\_admin, or admin
 
@@ -41,15 +41,15 @@ Create a notification destination to deliver messages to a specific Microsoft Te
 
 4.  Select the **SLO Notification destinations** tab, select **Create a destination**, and then fill out the form.
 
-<table id="choicetable_q13_wwy_vfc"><thead><tr><th align="left" id="d95318e143">
+<table id="choicetable_q13_wwy_vfc"><thead><tr><th align="left" id="d95970e143">
 
 Field
 
-</th><th align="left" id="d95318e146">
+</th><th align="left" id="d95970e146">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d95318e152">
+</th></tr></thead><tbody><tr><td id="d95970e152">
 
 **Channel URL**
 
@@ -57,7 +57,7 @@ Description
 
 Deep link to the relevant Microsoft Teams channel. You can find deep links to channels in Microsoft Teams. They follow this general format: `https://teams.microsoft.com/l/channel/19%abcdef`.
 
-</td></tr><tr><td id="d95318e172">
+</td></tr><tr><td id="d95970e172">
 
 **Destination name**
 
@@ -83,10 +83,10 @@ Display name of the notification destination.Teams see this name when adding not
 
 To use and learn more about notification destinations, visit the following pages:
 
--   [Create SLOs, SLIs, and error budget policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/sr-create-slo-sli.md)
--   [Notifications for breached error budgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/srm-notifications-messages.md)
+-   [Create SLOs, SLIs, and error budget policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-level-objective-management/sr-create-slo-sli.md)
+-   [Notifications for breached error budgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-level-objective-management/srm-notifications-messages.md)
 
 You can also edit and delete notification destinations from the SLO Notification destinations tab. Deleting a notification destination removes it from all error budget policies where it was previously used.
 
-**Parent Topic:**[Using SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/using-service-level-objective-management.md)
+**Parent Topic:**[Using SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-level-objective-management/using-service-level-objective-management.md)
 

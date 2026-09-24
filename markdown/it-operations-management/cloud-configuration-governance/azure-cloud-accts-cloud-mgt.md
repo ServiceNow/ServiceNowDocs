@@ -3,11 +3,11 @@ title: Set up a cloud account for Azure
 description: A cloud account is the logical representation in Cloud Provisioning and Governance of all or part of your managed cloud infrastructure. A cloud account can include multiple service accounts — even service accounts from different providers. For each service account, you specify which datacenters to include in the cloud account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/azure-cloud-accts-cloud-mgt.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Day 1 setup guide for Microsoft Azure Cloud on Cloud Provisioning and Governance, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_cmp.cloud\_admin
 
 ## About this task
 
-See [Cloud accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-accounts.md) for more information about cloud accounts.
+See [Cloud accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/cloud-accounts.md) for more information about cloud accounts.
 
 **Note:** Cloud providers often use different names for accounts, regions, and credential settings. Because the ServiceNow application supports several cloud providers, the app uses general-purpose names for the settings. In Azure, the region-specific containers for virtual resources are called regions. In Cloud Provisioning and Governance, regions are called datacenters or logical datacenters \(LDCs\). The term logical is used to reinforce the idea that Cloud Provisioning is provider-agnostic. All infrastructure or applications that are deployed using Cloud Provisioning are associated with a datacenter..
 
@@ -45,7 +45,7 @@ See [Cloud accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
     **Note:**
 
     -   Select only those LDCs/Regions where your infrastructure resources are present. If you don't have any resources under these new data centers, exclude them while you run the full discovery.
-    -   To discover resources in additional regions, raise an access request to the required endpoints. Contact GCP Support for access.
+    -   To discover resources in certain regions or LDCs, raise an access request to the required endpoints with GCP Support. These regions include North America \(US East, US West, and Canada Central\), South America, Europe, Africa, Middle East, and Asia Pacific.
     The Cloud Account dashboard appears. The datacenters that you selected appear on the **Datacenters** tab.
 
 5.  Click a datacenter.

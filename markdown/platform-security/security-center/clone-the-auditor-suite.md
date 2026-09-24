@@ -3,11 +3,11 @@ title: Clone the access controls auditor suite
 description: Clone and customize the default access controls auditor suite in your instance to create a new suite tailored to your organization's security practices.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/clone-the-auditor-suite.html
-release: australia
+release: brazil
 product: Security Center
 classification: security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a scan suite, Scan suites, Security scanner, Security configuration console, Security Center, Platform Security]
 ---
@@ -55,5 +55,5 @@ The default access controls auditor suite provided with your instance can't be m
 8.  Select **Execute Suite Scan**.
 
 
-**Parent Topic:**[Create a scan suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/create-new-suite.md)
+**Parent Topic:**[Create a scan suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/create-new-suite.md)
 

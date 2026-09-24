@@ -3,9 +3,9 @@ title: Activity stream
 description: The activity stream helps agents stay informed by displaying a running history of updates and communications within a CRM Workspace record like field changes, comments, work notes, and emails.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-config-ws-activity-stream.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, C
 
 The activity stream helps agents stay informed by displaying a running history of updates and communications within a CRM Workspace record like field changes, comments, work notes, and emails.
 
-\[Omitted image "csm-default-record-page-activity-stream.png"\] Alt text: The activity stream in the CSM Configurable Workspace is central to the record page and shows the record activity, including the user, action, and time
+\[Omitted image "csm-default-record-page-activity-stream.png"\] Alt text: The activity stream in the CRM Workspace is central to the record page and shows the record activity, including the user, action, and time
 
 ## Activity Stream component
 
@@ -26,8 +26,8 @@ The Activity Stream component is configured and customized by admins in UI Build
 
 ## Additional information
 
-For more information about working with the activity stream, see the following topics in the [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md) documentation:
+For more information about working with the activity stream, see the following topics in the [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/workspace-landing-page.md) documentation:
 
--   [Administering Activity stream for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/administer-activity-stream-configurable-workspace.md)
--   [Using the Activity stream in Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/using-activity-stream-configurable-workspace.md)
+-   [Administering Activity stream for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/administer-activity-stream-configurable-workspace.md)
+-   [Using the Activity stream in Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/using-activity-stream-configurable-workspace.md)
 

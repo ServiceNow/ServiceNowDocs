@@ -3,9 +3,9 @@ title: Approve an exception rule request
 description: Assess exception rule requests from users so that you can approve or reject these requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-approve-ex-rule-request.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Configuring an exception rule, Configure rules to manage findings, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -24,7 +24,7 @@ Exception approver level 1 user group members can approve the level 1 exception 
 
 **Note:**
 
-If you are deploying the VR application for the first time, the flow designer for exception management is enabled by default. If you are already using the workflow, you can update to the flow designer. In both cases, you cannot change it back to workflow. To configure approval rules for exception management and false positive, see [Configure approval rules for Exception Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/exception-mgt-approval-rules.md).
+If you are deploying the VR application for the first time, the flow designer for exception management is enabled by default. If you are already using the workflow, you can update to the flow designer. In both cases, you cannot change it back to workflow. To configure approval rules for exception management and false positive, see [Configure approval rules for Exception Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/exception-mgt-approval-rules.md).
 
 ## Procedure
 
@@ -40,6 +40,4 @@ If you are deploying the VR application for the first time, the flow designer fo
 
     You can review the **Impacted findings** metric on the **Overview** tab to see how many findings match the rule's conditions. Select the count to view the matching findings or refresh it to recalculate based on the latest data.
 
-
-**Parent Topic:**[Configuring an exception rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-exception-rule.md)
 

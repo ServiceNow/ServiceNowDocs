@@ -3,9 +3,9 @@ title: Redox Inbound Integration
 description: With the ServiceNow Redox Inbound Integration application, use the real-time bidirectional data exchange with external healthcare systems via the Redox platform​.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hcls-redox-app.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -26,19 +26,19 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 <table id="table_b4t_hhl_nnb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text: Learn about how healthcare organizations use Redox Inbound Integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hcls-redox-explore.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text: Learn about how healthcare organizations use Redox Inbound Integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hcls-redox-explore.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hcls-redox-app-config.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hcls-redox-app-config.md)
 
 </td></tr><tr><td>
 
-[Exchange data\[Omitted image "bus-integration-and-apis.svg"\] Alt text: Exchange real-time data between different healthcare systems.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hcls-redox-use.md)
+[Exchange data\[Omitted image "bus-integration-and-apis.svg"\] Alt text: Exchange real-time data between different healthcare systems.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hcls-redox-use.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about supported data models and event types.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hcls-redox-app-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about supported data models and event types.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hcls-redox-app-reference.md)
 
 </td></tr></tbody>
 </table>

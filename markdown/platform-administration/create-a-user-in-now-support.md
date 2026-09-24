@@ -3,9 +3,9 @@ title: Create a user in Now Support
 description: You can create users in Now Support and assign them access roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-a-user-in-now-support.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Now Support administration, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -37,7 +37,7 @@ Role required: admin
 8.  Select **Submit**.
 
 
-**Parent Topic:**[Now Support administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-support-administration.md)
+**Parent Topic:**[Now Support administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/now-support-administration.md)
 
 **Related topics**  
 

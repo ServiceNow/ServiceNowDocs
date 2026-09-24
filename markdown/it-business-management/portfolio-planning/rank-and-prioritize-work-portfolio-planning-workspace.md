@@ -3,11 +3,11 @@ title: Rank planning items
 description: Rank the planning items that are added to the pipeline of your portfolio plan and decide on their priority so that you can start planning your portfolio roadmap.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/rank-and-prioritize-work-portfolio-planning-workspace.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Prioritize portfolio plan work, Portfolio Planning, Strategic Portfolio Management]
@@ -19,7 +19,7 @@ Rank the planning items that are added to the pipeline of your portfolio plan an
 
 ## Before you begin
 
--   [Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-portfolio-plan-in-portfolio-planning-workspace.md).
+-   [Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/create-portfolio-plan-in-portfolio-planning-workspace.md).
 -   Ensure that the planning items in the Prioritization tab are sorted by the Rank column in ascending order.
 
 Role required: sn\_align\_core.apw\_user
@@ -42,15 +42,15 @@ The Rank column helps you quickly identify the rank of an item relative to the o
 
 3.  From the Prioritization tab, rank the planning items according to your priority by rearranging their order.
 
-<table id="choicetable_pfl_vwb_zsb"><thead><tr><th align="left" id="d134569e146">
+<table id="choicetable_pfl_vwb_zsb"><thead><tr><th align="left" id="d134793e146">
 
 Choice
 
-</th><th align="left" id="d134569e149">
+</th><th align="left" id="d134793e149">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d134569e155">
+</th></tr></thead><tbody><tr><td id="d134793e155">
 
 **Reorder a single planning item**
 
@@ -60,7 +60,7 @@ Use the Rearrange rows icon \(\[Omitted image "icon-rearrange.png"\] Alt text: R
 
  \[Omitted image "backlog-v2-single-reorder.gif"\] Alt text: Prioritization page single row reorder
 
-</td></tr><tr><td id="d134569e180">
+</td></tr><tr><td id="d134793e180">
 
 **Reorder multiple planning items at once**
 
@@ -73,8 +73,8 @@ Use the Rearrange rows icon \(\[Omitted image "icon-rearrange.png"\] Alt text: R
 </td></tr></tbody>
 </table>    Repeat this step until the ranking of the planning items align with your business priorities. To get better visibility of data that you need:
 
-    -   Sort or group the list by the required columns. See [Personalize Prioritization view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/personalize-prioritization-page-portfolio-planning-workspace.md).
-    -   Filter the planning items. See [Apply quick filters for Prioritization and Roadmap data in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/quick-fiters-prioitization-roadmap-ppw.md).
+    -   Sort or group the list by the required columns. See [Personalize Prioritization view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/personalize-prioritization-page-portfolio-planning-workspace.md).
+    -   Filter the planning items. See [Apply quick filters for Prioritization and Roadmap data in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/quick-fiters-prioitization-roadmap-ppw.md).
     **Tip:** Using the Row context menu \(\[Omitted image "icon-row-context-menu.png"\] Alt text: Row context menu\), you can also assign the highest and lowest ranks to the planning items using the **Move to top** and **Move to bottom** options respectively.
 
 

@@ -3,11 +3,11 @@ title: Hide time zone labels
 description: Dispatchers can hide the time zone label that shows on the time indicator on the calendar for a cleaner look.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/hide-time-zone-labels.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Time zones, Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
@@ -20,7 +20,7 @@ Dispatchers can hide the time zone label that shows on the time indicator on the
 
 Role required: wm\_dispatcher
 
-You must turn on the `Enable resource time indicators` setting to see this option. For more information, see [Enable Dispatcher Workspace settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/dispatcher-wrkspc-settings.md).
+You must turn on the `Enable resource time indicators` setting to see this option. For more information, see [Enable Dispatcher Workspace settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/dispatcher-wrkspc-settings.md).
 
 ## About this task
 

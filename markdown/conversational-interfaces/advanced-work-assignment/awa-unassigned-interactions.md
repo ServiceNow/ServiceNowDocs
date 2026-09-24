@@ -3,11 +3,11 @@ title: Check unassigned interactions
 description: View a list of unassigned interactions in Advanced Work Assignment from chat and phone that are currently waiting in the queue and are not assigned to any agents. You can use this list to debug, implement advanced work assignments, or determine why certain work items are not being assigned.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-unassigned-interactions.html
-release: australia
+release: brazil
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---

@@ -3,11 +3,11 @@ title: Add stakeholders to a demand
 description: Delegate assignments and track demand progress by managing the stakeholders associated with a demand.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/add-and-manage-stakeholders-for-a-demand-dw.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -24,7 +24,7 @@ Role required: it\_demand\_manager
 
 A demand can have multiple stakeholders and a stakeholder can be associated with multiple demands.
 
-To create, edit, or delete demand stakeholders, you can also use the **Add stakeholders** Playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md).
+To create, edit, or delete demand stakeholders, you can also use the **Add stakeholders** Playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md).
 
 ## Procedure
 
@@ -44,7 +44,7 @@ To create, edit, or delete demand stakeholders, you can also use the **Add stake
 
 7.  On the Demand Stakeholder form, fill in the fields.
 
-    For a description of the field values, see [Demand stakeholder form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-stakeholder-form-dw.md).
+    For a description of the field values, see [Demand stakeholder form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/create-stakeholder-form-dw.md).
 
 8.  Select **Save**.
 

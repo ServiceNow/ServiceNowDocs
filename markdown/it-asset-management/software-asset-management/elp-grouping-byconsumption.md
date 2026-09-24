@@ -3,13 +3,13 @@ title: Effective License Position \(ELP\) report for grouping by consumption
 description: Get a comprehensive overview of your software license position across various organizational levels by generating an ELP report.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/elp-grouping-byconsumption.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Software reconciliation for compliance, Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software reconciliation for compliance, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Effective License Position \(ELP\) report for grouping by consumption
@@ -26,7 +26,7 @@ All the ELP data reports you have generated can be found in the ELP Grouping sub
 
 A grouping result is only deleted if you rerun the reconciliation process with grouping for the same publisher and product.
 
-For details on generating an ELP report, see [Generate an Effective License Position \(ELP\) report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/generate-elp-report-sam.md).
+For details on generating an ELP report, see [Generate an Effective License Position \(ELP\) report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/generate-elp-report-sam.md).
 
 ## Use case scenario of an ELP report
 
@@ -40,5 +40,5 @@ Once the report is generated, a record is created for a unique combination of pu
 
 \[Omitted image "elpgrouping-report.png"\] Alt text: ELP grouping report
 
-**Parent Topic:**[Software reconciliation for compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMReconciliation.md)
+**Parent Topic:**[Software reconciliation for compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/c_SAMReconciliation.md)
 

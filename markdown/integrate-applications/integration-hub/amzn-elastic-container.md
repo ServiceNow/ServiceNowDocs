@@ -3,7 +3,7 @@ title: Amazon Elastic Container Service Spoke
 description: Manage clusters, instances, services and so on, in Amazon Elastic Container Service account from your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/amzn-elastic-container.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
@@ -85,5 +85,5 @@ The Amazon Elastic Container Service spoke provides actions to automate Amazon E
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up the Amazon Elastic Container Service spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-amzn-elastic-contnr.md).
+For information about setting up the spoke, see [Set up the Amazon Elastic Container Service spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-amzn-elastic-contnr.md).
 

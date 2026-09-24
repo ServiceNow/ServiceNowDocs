@@ -3,11 +3,11 @@ title: Clone the ServiceNow Otto for CSM skills
 description: Clone an AI skill to experiment with settings and configure it for your business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/clone-the-now-assist-for-csm-skills.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -30,11 +30,11 @@ Unified Admin Experience for GenAI Skills:
 
 There are 2 ways to clone ServiceNow Otto for CSM skills:
 
-1.  [Make a copy of AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md) from AI Admin Hub console.
+1.  [Make a copy of AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md) from AI Admin Hub console.
 
     \[Omitted video\] Description: Prompt configurability in the AI Admin Hub for setting up case/incident summarization skill copies
 
-2.  [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit-landing.md) Clone from AI Skill Kit.
+2.  [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit-landing.md) Clone from AI Skill Kit.
 
     \[Omitted video\] Description: AI Skill Kit video that shows how to build a custom skill.
 

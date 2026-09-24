@@ -3,9 +3,9 @@ title: Create a map marker
 description: Add a map marker icon and define the click behavior to differentiate between data on your Map Page using the Classic Environmentlis.Select a relative or absolute URL for a map marker icon to display a data item on the Map Page, and determine the map marker priority on the Map Page.Define the click actions for your Map Page marker. Click actions enable you to define what happens when you click a map marker on your Map Page.Choose a Map Page where you want to apply your map marker.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-map-markers.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Create an advanced Map Page, Map pages, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -16,7 +16,7 @@ Add a map marker icon and define the click behavior to differentiate between dat
 
 ## Before you begin
 
-Set up a [map data item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-map-data-items.md) before you accomplish this task.
+Set up a [map data item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-map-data-items.md) before you accomplish this task.
 
 Role required: admin
 
@@ -109,7 +109,7 @@ Optional application scope for your map marker, if other than Global.
 
 Set up map marker icons and map marker click actions to finish configuring map markers.
 
-**Parent Topic:**[Create an advanced Map Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-advanced-map-page.md)
+**Parent Topic:**[Create an advanced Map Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/create-advanced-map-page.md)
 
 ## Set up map marker icons
 
@@ -151,7 +151,7 @@ Role required: admin
 
 ### What to do next
 
-Continue to the next task to [define map marker click actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-map-markers.md).
+Continue to the next task to [define map marker click actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-map-markers.md).
 
 ## Define map marker click actions
 
@@ -196,7 +196,7 @@ Select a dialog box that displays form details, or script your own click actions
 
 ### What to do next
 
-Continue to the next task to complete your [map marker setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-map-markers.md).
+Continue to the next task to complete your [map marker setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-map-markers.md).
 
 ## Select map markers
 

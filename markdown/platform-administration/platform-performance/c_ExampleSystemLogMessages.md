@@ -3,11 +3,11 @@ title: Example system log messages
 description: An example of system log messages for transactions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/c\_ExampleSystemLogMessages.html
-release: australia
+release: brazil
 product: Platform Performance
 classification: platform-performance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -42,5 +42,5 @@ An example of system log messages for transactions.
     ```
 
 
-**Parent Topic:**[Platform performance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/platform-performance-references.md)
+**Parent Topic:**[Platform performance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/platform-performance/platform-performance-references.md)
 

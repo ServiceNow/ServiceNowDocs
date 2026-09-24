@@ -3,11 +3,11 @@ title: Enable Guided Activity View
 description: Guide end users through a playbook, step-by-step.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/enable-guided-activity-view.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customize Playbook Experience, Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -19,11 +19,11 @@ Guide end users through a playbook, step-by-step.
 ## Before you begin
 
 -   Role required: admin or playbook.admin
--   Familiarize yourself with how to begin customizing the playbook experience in UI Builder. To learn more, see [Customizing the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-customize-playbook.md).
+-   Familiarize yourself with how to begin customizing the playbook experience in UI Builder. To learn more, see [Customizing the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/playbook-customize-playbook.md).
 
 ## About this task
 
-Guide end users through a playbook, one activity at a time. If you have a lot of end users encountering issues in a particular area, and you want to walk them through a series of questions that lead to a particular Instruction activity to complete work \(or even KB activity for final instruction\), consider using the **Guided** activity view. There are out-of-the-box playbooks that use the **Guided** activity view for employee self-service requests, such as time off or benefit requests, available through the [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-center-landing-page.md).
+Guide end users through a playbook, one activity at a time. If you have a lot of end users encountering issues in a particular area, and you want to walk them through a series of questions that lead to a particular Instruction activity to complete work \(or even KB activity for final instruction\), consider using the **Guided** activity view. There are out-of-the-box playbooks that use the **Guided** activity view for employee self-service requests, such as time off or benefit requests, available through the [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-center-landing-page.md).
 
 **Note:**
 

@@ -3,11 +3,11 @@ title: Set Investment Funding preferences
 description: As an administrator, you can set global defaults for Investment Funding preferences, which affect the funding behavior.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/investment-funding/set-funding-preferences.html
-release: australia
+release: brazil
 product: Investment Funding
 classification: investment-funding
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Investment Funding administration, Investment Funding, Strategic Portfolio Management]
 ---
@@ -40,25 +40,25 @@ Role required: sn\_invst\_pln\_investment\_admin
 
 4.  Select the **Hide actuals in tree view** check box to hide the actual amount of an investment in the tree view cards.
 
-5.  Select the **Allow fund overallocation** check box to enable additional allocation of funds than the received funds.
+5.  Select the **Allow fund overallocation** check box to enable allocation of funds in addition to the received funds.
 
     The **Fund overallocation percent \(%\)** and **Allow fund overallocation at investment level** fields are enabled.
 
-6.  In the **Fund overallocation percent \(%\)** field, enter the percentage by which funds can be allocated additional to the received funds.
+6.  In the **Fund overallocation percent \(%\)** field, enter the percentage by which funds can be allocated in addition to the received funds.
 
     For example, if the received fund amount is $200,000, and you enter 10% in the **Fund overallocation percent** field, a total of $220,000 can be used for funding.
 
 7.  Select the **Allow fund overallocation at investment level** check box to enable investment owners who funded the investment and remain in the allocation to override the fund overallocation percent at investment level.
 
-8.  Select **Save**.
+8.  Click **Save**.
 
 9.  Select an option from the confirmation window that is displayed:
 
     -   Update the overallocation preferences at the investment level for all existing investments
     -   Update the overallocation preferences at the investment level for existing investments that have not overridden the overallocation percentage
     -   Update the overallocation preferences at the investment level only for new investments
-10. Select **Confirm**.
+10. Click **Confirm**.
 
 
-**Parent Topic:**[Investment Funding administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/investment-funding-administration.md)
+**Parent Topic:**[Investment Funding administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/investment-funding/investment-funding-administration.md)
 

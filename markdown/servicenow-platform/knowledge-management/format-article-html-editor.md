@@ -3,11 +3,11 @@ title: Formatting options for knowledge articles
 description: You can apply formatting to a knowledge article using the HTML editor.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/format-article-html-editor.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Editing functions for knowledge articles in the HTML editor, Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -29,5 +29,5 @@ You can use the options on the HTML toolbar to apply the following formatting in
 -   Insert bookmarks to the article content that can link to specific parts of the text with an ID.
 -   Identify and resolve accessibility related issues in a knowledge article using the Accessibility checker in the toolbar.
 
-For more information, see [Formatting icons for HTML fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_Formatting.md).
+For more information, see [Formatting icons for HTML fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_Formatting.md).
 

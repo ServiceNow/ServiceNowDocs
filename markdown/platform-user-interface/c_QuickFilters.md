@@ -3,9 +3,9 @@ title: Quick filters
 description: To quickly filter a list using a value in a field, right-click in the field and select Show Matching or Filter Out. For date fields, choose from Show Before, Show After, and Filter Out.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_QuickFilters.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Filters and breadcrumbs, Lists in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -24,5 +24,5 @@ For date and date-time fields, you can also use **Show After** or **Show Before*
 
 Using the quick filter method to filter out a particular value builds the following conditions: \[field\] \[is not\] \[value\] or \[field\] \[is\] \[empty\]. Records that contain empty or null values still display in the filtered list. If you manually create a filter, it does not automatically include the OR condition \[field\] \[is\] \[empty\], so records that have an empty or null value do not display in the filtered list.
 
-**Parent Topic:**[Filters and breadcrumbs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingFiltersAndBreadcrumbs.md)
+**Parent Topic:**[Filters and breadcrumbs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_UsingFiltersAndBreadcrumbs.md)
 

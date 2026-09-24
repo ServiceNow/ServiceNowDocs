@@ -3,11 +3,11 @@ title: Create a demand
 description: Create demands to capture the strategic and operational requirements and centralize information for stakeholder assessment and prioritization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-a-demand-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -77,7 +77,7 @@ The **Category** field selection determines the selections available in the **Ty
     -   Change
     -   Defect
     -   No Conversion
-For more information, see [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/demand-form-ppw.md).
+For more information, see [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/demand-form-ppw.md).
 
 </td></tr><tr><td>
 
@@ -85,7 +85,7 @@ Start date
 
 </td><td>
 
-The preliminary or estimated date when the work is initially planned to begin.**Note:** The **Start date** column label is changed to **Planned start date**. This change is applicable only for new customers who begin using the Australia version. To facilitate continuity, you continue to see the prior labels.
+The preliminary or estimated date when the work is initially planned to begin.
 
 </td></tr><tr><td>
 
@@ -93,7 +93,7 @@ Due date
 
 </td><td>
 
-The preliminary or estimated date when the planned work is expected to be completed.**Note:** The **Due date** column label is changed to **Planned end date**. This change is applicable only for new customers who begin using the Australia version. To facilitate continuity, you continue to see the prior labels.
+The preliminary or estimated date when the planned work is expected to be completed.
 
 </td></tr><tr><td>
 
@@ -113,5 +113,5 @@ Description of the demand.
 
 ## What to do next
 
-Review and refine the demand details and progress the demand. See [Update demand details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/update-the-demand-details-ppw.md).
+Review and refine the demand details and progress the demand. See [Update demand details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/update-the-demand-details-ppw.md).
 

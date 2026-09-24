@@ -3,9 +3,9 @@ title: Configure a calendar screen
 description: Create a screen that displays a calendar with a list of related records. Users can see which records are related to dates on the calendar.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/configure-calendar-1.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Calendar screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -72,7 +72,7 @@ Fetch type
 
 </td><td>
 
-Control when the data is loaded onto the screen. Select the On-demand option for optimum load time performance. For more information, see [Mobile fetch types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/applet-fetch-types.md).
+Control when the data is loaded onto the screen. Select the On-demand option for optimum load time performance. For more information, see [Mobile fetch types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/applet-fetch-types.md).
 
 </td></tr><tr><td>
 
@@ -104,7 +104,7 @@ Custom filters
 
 </td><td>
 
-Option to determine the fields that users can filter by. Use this option to help users find the events that they need.Users can bookmark the selected filters for future reference, by selecting the bookmark icon. For more information, see [Mobile list screen filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-list-filters.md).
+Option to determine the fields that users can filter by. Use this option to help users find the events that they need.Users can bookmark the selected filters for future reference, by selecting the bookmark icon. For more information, see [Mobile list screen filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-list-filters.md).
 
 </td></tr><tr><td>
 
@@ -124,7 +124,7 @@ Option to create a quick action button to display directly on the user’s calen
 
 If more than one quick action function is configured, a menu from the bottom displays and the user selects the relevant event. For example, create a new incident or create a work order task.
 
-For more information, see [Quick actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-config-quick-actions.md).
+For more information, see [Quick actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-config-quick-actions.md).
 
 **Note:** Quick action function instances can’t be reused so you must configure a new one. However, you can use an existing function to configure your quick action function instance.
 
@@ -134,7 +134,7 @@ Top menu function instances
 
 </td><td>
 
-Option to determine whether to use top menu functions to display additional options.Use the top menu function location for less frequently used actions. You can also use the option on forms when you have more actions listed than conveniently fit in the footer. For more information, see [Use your navigation function as a top menu selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-launcher-navigation-example-3.md).
+Option to determine whether to use top menu functions to display additional options.Use the top menu function location for less frequently used actions. You can also use the option on forms when you have more actions listed than conveniently fit in the footer. For more information, see [Use your navigation function as a top menu selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-launcher-navigation-example-3.md).
 
 </td></tr><tr><td>
 
@@ -142,7 +142,7 @@ Input form screen
 
 </td><td>
 
-Option for a calendar screen to display content from a record. For example, the user selects a contact from a menu in a preconfigured input form screen. After tapping this option, the calendar screen opens with filtered data for the selected contact.For more information, see [Input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-input-screen.md).
+Option for a calendar screen to display content from a record. For example, the user selects a contact from a menu in a preconfigured input form screen. After tapping this option, the calendar screen opens with filtered data for the selected contact.For more information, see [Input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/parameter-input-screen.md).
 
 </td></tr><tr><td>
 
@@ -163,11 +163,11 @@ Determine which user roles can access this screen. If you've selected no roles, 
 </td></tr></tbody>
 </table>6.  In the Icon section, either select an existing icon or create an icon.
 
-    This icon represents the calendar screen in a launcher screen. For more information about creating icons, see [Mobile icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-icon.md).
+    This icon represents the calendar screen in a launcher screen. For more information about creating icons, see [Mobile icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mobile-icon.md).
 
 7.  In the Quick action functions instance area, either select an existing function instance or create a new one.
 
-    You can create more than one quick action function instance. For more information see, [Quick actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-config-quick-actions.md).
+    You can create more than one quick action function instance. For more information see, [Quick actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-config-quick-actions.md).
 
     **Note:** The quick action button is an effective way for users to add events to the calendar.
 
@@ -210,7 +210,7 @@ Determine which user roles can access this screen. If you've selected no roles, 
     4.  \(Optional\) **Interleaved field** - Select the field that sorts the event stream containing your data items. If you don't select a field, the data items are separated by source.
 13. In the **Data Item** section, select **New** to create a data item for your calendar event stream, or select **Choose** to reference an existing data item.
 
-    The data items displayed corresponds to the data table that you selected from the **Table** field in the Calendar event stream record. For more information on creating data items, see [Configure a standard data item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-create-data-item.md).
+    The data items displayed corresponds to the data table that you selected from the **Table** field in the Calendar event stream record. For more information on creating data items, see [Configure a standard data item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-studio-create-data-item.md).
 
 14. In the **List item config** section, select **New**, to ensure a visual display appears on your mobile device, or select **Choose** to reference an existing list item config.
 
@@ -288,7 +288,7 @@ On tap function instance
 
 Determine what actions appear when a user taps on a list item.
 
- Select a navigation function or select **New** to create one. For more information about creating a navigation function, see [Navigation functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-nav-functions.md).
+ Select a navigation function or select **New** to create one. For more information about creating a navigation function, see [Navigation functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-nav-functions.md).
 
  **Note:** This option only appears when **Use a function instance** is selected for **On tap**.
 
@@ -352,7 +352,7 @@ Determines the actions performed or appears when a user initiates a swipe gestur
 
         The Mobile Card Builder tool displays in a new tab.
 
-    2.  Make any required changes to your incident list card. For more information about working with Mobile Card Builder, see [Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-card-builder.md).
+    2.  Make any required changes to your incident list card. For more information about working with Mobile Card Builder, see [Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-card-builder.md).
     3.  Select **Save**.
 25. Select **Save**.
 

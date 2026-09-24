@@ -3,11 +3,11 @@ title: Extend a resource plan
 description: You can extend the date of an allocated resource plan and allocate resources for the extended period.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/extend-resource-plan.html
-release: australia
+release: brazil
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Resource plans, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -20,9 +20,9 @@ You can extend the date of an allocated resource plan and allocate resources for
 
 **Important:** Resource plans in Resource Management will no longer be available for new customers from future releases.
 
-You're encouraged [migrate your existing resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md) to work on resource assignments which offers more flexibility and start using Resource Management Workspace.
+You're encouraged [migrate your existing resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md) to work on resource assignments which offers more flexibility and start using Resource Management Workspace.
 
-Resource requester can [extend an assigned or unassigned resource assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/manage-resource-allocations-rmw.md) using Resource Management Workspace.
+Resource requester can [extend an assigned or unassigned resource assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/manage-resource-allocations-rmw.md) using Resource Management Workspace.
 
 Role required: resource\_manager
 
@@ -42,7 +42,7 @@ For example, assume that you allocated 100 hours for 2 months, 50 hours for each
 
 4.  In the Extend resource plan dialog box, fill in the fields.
 
-    For a description of the field names, see [Extend resource plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/extnd-rsrc-plan.md).
+    For a description of the field names, see [Extend resource plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/extnd-rsrc-plan.md).
 
 
 ## Result
@@ -53,7 +53,7 @@ For example, assume that you allocated 100 hours for 2 months, 50 hours for each
 -   Number of requested FTE or hours or person days is divided equally for each allocation period and is pre-filled in each allocation record.
 -   Extending the resource plan invokes the rate model for getting the hourly rates.
 
-**Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourcePlans.md)
+**Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/c_ResourcePlans.md)
 
 **Related topics**  
 
@@ -72,11 +72,11 @@ For example, assume that you allocated 100 hours for 2 months, 50 hours for each
 
 [Request a change to a resource plan]()
 
-[Recalculate costs of a resource plan]()
+[Recalculate costs of a resource plan of a project or demand]()
 
 [Update cost plan related to a resource plan]()
 
-[Complete an allocated resource plan]()
+[Complete a resource plan]()
 
 [Cancel a resource plan]()
 

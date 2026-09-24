@@ -3,11 +3,11 @@ title: Schedule data import
 description: Activate and schedule the trigger flow on a configuration record so that Process Mining automatically pulls new audit log data at a set interval.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/schedule-import.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-07-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Process Mining for Workday and Salesforce, Import external data, Process Mining, Platform Analytics]
 ---
@@ -26,7 +26,7 @@ Role required: sn\_process\_mining\_admin
 
     The Connector Configurations page is displayed.
 
-    \[Omitted image "app-conn-config.png"\] Alt text: Connector configurations list
+    \[Omitted image "image.app-conn-config"\] Alt text: Connector configurations list
 
 2.  Select **Schedule Import**.
 

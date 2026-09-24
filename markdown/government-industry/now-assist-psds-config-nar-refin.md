@@ -3,7 +3,7 @@ title: Configure the Investigative case narrative refinement skill in ServiceNow
 description: Activate and customize the Investigative case narrative refinement skill in the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application so that investigators can use the generative AI skills in CSM Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-config-nar-refin.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-03-04"
 reading_time_minutes: 2
@@ -39,7 +39,7 @@ The Investigative Case Management Case narrative refinement skill helps investig
     -   The asset was previously turned on, and then turned off again.
     -   An admin has adjusted roles for the asset.
 
-For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 -   Confirm that the following applications and plugins are installed:
 
@@ -58,7 +58,7 @@ For more information, see [AI agents, skills, and agentic workflows on by defaul
 
 3.  Select **ICM Case Narrative**.
 
-4.  Select the more actions \(\[Omitted image "more-actions-na-psds.png"\]\) icon for that record, and select **Activate** or **Deactivate**.
+4.  Select the more actions \(\[Omitted image "more-actions-na-psds.png"\] Alt text: more options icon\) icon for that record, and select **Activate** or **Deactivate**.
 
     **Note:** This configuration is Activated by Default.
 
@@ -68,7 +68,7 @@ For more information, see [AI agents, skills, and agentic workflows on by defaul
 
 6.  In the workflow side panel, select Configure Experience.
 
-    Here, you can change the default actions for the skill when the AI sparkle icon \(\[Omitted image "icon-ai-sparkle.png"\]\) context menu is selected in the case narrative field. You can also add and configure tones as necessary for the case narrative output. Tones such as Casual, Formal, Shorten and Elaborate are selected by default.
+    Here, you can change the default actions for the skill when the AI sparkle icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: ai sparkle icon\) context menu is selected in the case narrative field. You can also add and configure tones as necessary for the case narrative output. Tones such as Casual, Formal, Shorten and Elaborate are selected by default.
 
 7.  Select **Save and Continue** whenever prompted.
 

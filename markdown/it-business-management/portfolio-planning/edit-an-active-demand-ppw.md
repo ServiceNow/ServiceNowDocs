@@ -3,11 +3,11 @@ title: Edit a draft demand in Employee Slate
 description: Update the details of a draft demand in Employee Slate before submitting it for a demand manager's review.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/edit-an-active-demand-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-08-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [edit, demand, My Demands widget, Employee Work]
 breadcrumb: [Work with demands in Employee Slate, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
@@ -25,17 +25,19 @@ Role required: snc\_internal
 
 ## Procedure
 
-1.  Open a demand from **My Demands** or **Requests**.
+1.  Navigate to **Employee Slate** &gt; **Canvas**.
 
-<table id="choicetable_dx3_nxp_jkc"><thead><tr><th align="left" id="d122142e93">
+2.  Open a demand from **My Demands** or **Requests**.
+
+<table id="choicetable_dx3_nxp_jkc"><thead><tr><th align="left" id="d121769e108">
 
 Goal
 
-</th><th align="left" id="d122142e96">
+</th><th align="left" id="d121769e111">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d122142e102">
+</th></tr></thead><tbody><tr><td id="d121769e117">
 
 **From My Demands**
 
@@ -47,7 +49,7 @@ Action
     2.  Select a demand from the list.
 
 
-</td></tr><tr><td id="d122142e128">
+</td></tr><tr><td id="d121769e143">
 
 **From Requests**
 
@@ -60,16 +62,16 @@ Action
 
 
 </td></tr></tbody>
-</table>2.  In the Demand Details section, select the Edit icon.
+</table>3.  In the Demand Details section, select the Edit icon.
 
-3.  Update the fields.
+4.  Update the fields.
 
-    For information on the field values, see [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/demand-form-ppw.md).
+    For information on the field values, see [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/demand-form-ppw.md).
 
-4.  Select **Save**.
+5.  Select **Save**.
 
 
 ## Result
 
-After you submit the demand, the fields are set to read-only, though you can still add comments and attachments.
+After you submit the demand, the fields are set to read-only. You can still add comments and attachments.
 

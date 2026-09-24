@@ -3,20 +3,20 @@ title: Software Asset Management migration
 description: Migrate from the Software Asset Management plugin \(ITSM Software Asset Management feature of Asset Management\) to the Software Asset Management application to take advantage of more powerful features. Manual actions by the customer are required after plugin activation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/c\_SAMMigration.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
-breadcrumb: [Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software Asset Management migration
 
 Migrate from the Software Asset Management plugin \(ITSM Software Asset Management feature of Asset Management\) to the Software Asset Management application to take advantage of more powerful features. Manual actions by the customer are required after plugin activation.
 
-After automatic changes are performed during plugin activation, successful migration from the Software Asset Management \(com.snc.software\_asset\_management\) plugin to the Software Asset Management Professional \(com.snc.samp\) plugin requires a [manual procedure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_MigrateSAMCustom.md) to be performed by the customer.
+After automatic changes are performed during plugin activation, successful migration from the Software Asset Management \(com.snc.software\_asset\_management\) plugin to the Software Asset Management Professional \(com.snc.samp\) plugin requires a [manual procedure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/t_MigrateSAMCustom.md) to be performed by the customer.
 
 Customizations to forms and lists may need to be manually overwritten by the customer after plugin activation. In addition, certain fields in software models, software entitlements, user/device allocations forms require manual configuration by the customer after plugin activation.
 
@@ -65,5 +65,5 @@ The Software Asset Management Professional \(com.snc.samp\) plugin performs thes
     |Business rules|Legacy business rules applied to discovery models are disabled.|
 
 
-**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

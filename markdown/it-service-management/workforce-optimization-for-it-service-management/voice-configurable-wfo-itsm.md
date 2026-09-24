@@ -3,11 +3,11 @@ title: Using Voice with Workforce Optimization for ITSM
 description: Use Voice to deflect incidents away from your human agents using bots. You can record phone interactions when agents resolve issues. Also, you can monitor those interactions to evaluate and improve the quality of incident resolutions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/voice-configurable-wfo-itsm.html
-release: australia
+release: brazil
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Routing work items, Channels, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -26,9 +26,9 @@ With the Voice application, you can:
 -   Analyze the call transcripts and sentiments of users after an interaction is complete so that you can create assessments and provide feedback and training for agents.
 -   Synchronize agent presence within the queue.
 
-**Note:** You can integrate any third-party telephony service with the [ServiceNow Voice Center application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cloud-call-center-overview.md). By default, the Voice provides you with the ability to integrate with the Amazon Connect application.
+**Note:** You can integrate any third-party telephony service with the [ServiceNow Voice Center application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cloud-call-center-overview.md). By default, the Voice provides you with the ability to integrate with the Amazon Connect application.
 
-You can visualize the metrics from the Amazon Connect phone queues that are routed through Voice using the Channels application in Workforce Optimization for ITSM.The Voice application uses [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-overview.md) to report data from the Amazon Connect queues.
+You can visualize the metrics from the Amazon Connect phone queues that are routed through Voice using the Channels application in Workforce Optimization for ITSM.The Voice application uses [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/awa-overview.md) to report data from the Amazon Connect queues.
 
 ## Voice Amazon Connect integration workflow
 
@@ -41,7 +41,7 @@ Here's how the Voice integrates with Amazon Connect:
 As a manager, you can:
 
 -   Monitor your agent's calls as they resolve customer issues.
--   View synchronized [agent presence states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-experience.md) within the Channels application in Workforce Optimization for ITSM.
+-   View synchronized [agent presence states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/agent-experience.md) within the Channels application in Workforce Optimization for ITSM.
 -   Assess your agents by reviewing recordings of the agent interaction and call transcripts.
 -   Analyze sentiments from the call transcripts and use that information to coach and train your agents.
 
@@ -51,12 +51,12 @@ As an agent, you can:
 -   Analyze call transcripts and listen to recordings after you complete an interaction.
 -   Place outbound calls using automated outbound dialing.
 
--   **[Associate Amazon Connect queues for ITSM to a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-cloudcallcenter-itsm-configurable-workspace.md)**  
+-   **[Associate Amazon Connect queues for ITSM to a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-cloudcallcenter-itsm-configurable-workspace.md)**  
 Set up phone queues for Amazon Connect to gain visibility into the queues using Workforce Optimization for ITSM.
--   **[Listen in to an agent call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/listen-in-to-agent-call-configurable-workspace.md)**  
+-   **[Listen in to an agent call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/listen-in-to-agent-call-configurable-workspace.md)**  
 Monitor agent calls when they are resolving issues for external callers by using Workforce Optimization for ITSM.
--   **[Analyze transcripts and sentiments for the Amazon Connect phone channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/analyze-transcripts-sentiments-wfo-itsm-confgurable-workspace.md)**  
+-   **[Analyze transcripts and sentiments for the Amazon Connect phone channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/analyze-transcripts-sentiments-wfo-itsm-confgurable-workspace.md)**  
 Analyze your agent's call recordings, transcripts, and sentiment reports. With this information, you can assess the call quality and train your agents to handle calls better in the future.
 
-**Parent Topic:**[Routing work items using Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-channels-workforce-optimization-itsm.md)
+**Parent Topic:**[Routing work items using Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-channels-workforce-optimization-itsm.md)
 

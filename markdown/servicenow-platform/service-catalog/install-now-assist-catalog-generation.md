@@ -3,11 +3,11 @@ title: Install AI Authoring for Catalog Builder
 description: Install the ServiceNow Otto for Creator application from the ServiceNow Store to get AI Authoring for Catalog Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/install-now-assist-catalog-generation.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [generative AI, AI Authoring in Catalog Builder]
 breadcrumb: [AI Authoring for Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
@@ -46,12 +46,12 @@ AI Authoring for Catalog Builder is a capability within the ServiceNow Otto for 
 
         **Note:** If the skill isn’t active, select **View details**. Then on the Service Catalog page, turn on the Catalog item generation skill.
 
-        For more information about AI Admin Hub, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+        For more information about AI Admin Hub, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md).
 
 
 ## What to do next
 
 Grant the catalog\_builder\_editor role to enable users to create catalog items using ServiceNow Otto.
 
-**Parent Topic:**[AI Authoring for Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/now-assist-for-catalog-generation.md)
+**Parent Topic:**[AI Authoring for Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/now-assist-for-catalog-generation.md)
 

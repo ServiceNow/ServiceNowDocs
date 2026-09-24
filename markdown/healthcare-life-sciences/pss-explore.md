@@ -3,9 +3,9 @@ title: Exploring Patient Support Services
 description: Whether you're starting or expanding your implementation of the Patient Support Services application, consider learning more about features available to streamline the onboarding, education, and engagement processes for your patients.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pss-explore.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Patient Support Services, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -64,7 +64,7 @@ Manage enrollment requests and complete to-do items, such as training tasks.
 
 </td><td>
 
-[Manage enrollment requests in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-using-workspace.md)
+[Manage enrollment requests in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pss-using-workspace.md)
 
 </td><td>
 
@@ -76,7 +76,7 @@ Book appointments for support programs and complete to-do items assigned to you 
 
 </td><td>
 
-[Complete to-do items for Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-complete-to-do.md)
+[Complete to-do items for Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pss-complete-to-do.md)
 
 </td><td>
 
@@ -88,12 +88,12 @@ Book appointments for enrollment training requests.
 
 </td><td>
 
-[Booking appointments for Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-booking-appt-patient.md)
+[Booking appointments for Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pss-booking-appt-patient.md)
 
 </td><td>
 
 Care Coordinator
 
 </td></tr></tbody>
-</table>To get started with the Patient Support Services application, see [Configuring Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-config-app.md).
+</table>To get started with the Patient Support Services application, see [Configuring Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pss-config-app.md).
 

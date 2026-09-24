@@ -3,11 +3,11 @@ title: Copy an action
 description: Copy an action to give it a new name and move it to another application scope.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/copy-action.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create an action in Workflow Studio, Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -53,5 +53,5 @@ You can't copy the default actions created by ServiceNow, Inc., nor can you copy
 
 Workflow Studio opens the new action.
 
-**Parent Topic:**[Create an action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-action.md)
+**Parent Topic:**[Create an action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-action.md)
 

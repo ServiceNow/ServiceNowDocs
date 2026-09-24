@@ -3,11 +3,11 @@ title: Domain separation and the Walk-up Experience application
 description: This is an overview of domain separation as it pertains to the Walk-up Experience application and how it relates to Service Portal pages, interaction queues, and configurations. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/domain-separation-walkup-experience.html
-release: australia
+release: brazil
 product: Walk-Up Experience
 classification: walk-up-experience
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Walk-up Experience reference, Walk-up Experience, IT Service Management]
 ---
@@ -26,7 +26,7 @@ This is an overview of domain separation as it pertains to the Walk-up Experienc
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-separated-apps.md).
 
 ## Walk-up Experience overview
 
@@ -56,7 +56,7 @@ The elements of Service Portal that are used as part of the walk-up experience a
 -   Theme \(Walk-up theme\)
 -   Widgets \(Online check-in experience, walk-up queue on site, walk-up check-in, walk-up exit survey, walk-up home, walk-up schedule\)
 
-To learn more, see [Domain separation and Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/domain-separation-service-portal.md).
+To learn more, see [Domain separation and Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/domain-separation-service-portal.md).
 
 For data separation, the Walk-up Experience application uses the domain of the walk-up requester to determine in which domain the requester data should be placed.
 
@@ -81,10 +81,10 @@ As part of the Walk-up Experience, records in the following tables can be domain
 -   Walk-up contexts `[wu_context]`
 -   Interactions `[interaction]`
 
-**Parent Topic:**[Walk-up Experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walk-up-experience-reference.md)
+**Parent Topic:**[Walk-up Experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/walk-up-experience/walk-up-experience-reference.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-sep-landing-page.md)
 

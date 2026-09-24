@@ -3,11 +3,11 @@ title: Use ADAMSync to populate ADAM
 description: Administrators use MS ADAMSync to populate LDAP directories that use MS ADAM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/c\_UsingADAMSyncToPopulateADAM.html
-release: australia
+release: brazil
 product: LDAP integration
 classification: ldap-integration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Active Directory Application Mode \(ADAM\), LDAP integration, Authentication, Access Management]
 ---
@@ -18,7 +18,7 @@ Administrators use MS ADAMSync to populate LDAP directories that use MS ADAM.
 
 **Note:**
 
-This document assumes you have at least a basic level of understanding with Microsoft Windows Server, Active Directory, and ADAM and that you already have a functional [Active Directory Application Mode \(ADAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ldap-integration/c_ActiveDirectoryApplicationMode.md) instance with a partition.
+This document assumes you have at least a basic level of understanding with Microsoft Windows Server, Active Directory, and ADAM and that you already have a functional [Active Directory Application Mode \(ADAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/ldap-integration/c_ActiveDirectoryApplicationMode.md) instance with a partition.
 
 These are sample procedures. Due to the complexity and the fact that it is running in your environment, we cannot offer direct support. We recommend you work with Microsoft or a Microsoft consultant if you run into any trouble.
 

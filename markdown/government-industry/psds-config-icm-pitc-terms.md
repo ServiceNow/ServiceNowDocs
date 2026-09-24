@@ -3,7 +3,7 @@ title: Configure terms and conditions for sign and submit in Investigative Case 
 description: Configure the terms and conditions that are displayed when investigators are asked to provide a signature before submitting a chain of custody log entry.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-icm-pitc-terms.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-04-07"
 reading_time_minutes: 1

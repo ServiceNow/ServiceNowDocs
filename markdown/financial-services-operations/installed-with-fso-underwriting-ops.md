@@ -3,9 +3,9 @@ title: Components installed with Personal Lines Underwriting
 description: Several types of components are installed with installation of the Personal Lines Underwriting application \(sn\_ins\_underwrite\), including tables and user roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/installed-with-fso-underwriting-ops.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Personal Lines Servicing, Property and Casualty Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Reference, Personal Lines Servicing, Property and Casualty Insuranc
 
 Several types of components are installed with installation of the Personal Lines Underwriting application \(sn\_ins\_underwrite\), including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 The Personal Lines Underwriting plugin \(sn\_ins\_underwrite\) is automatically installed with the Personal Lines Servicing plugin.
 
@@ -95,5 +95,5 @@ Underwriting Service Task \(Personal\)\[sn\_ins\_underwrite\_b2c\_task\]
 Stores all underwriting tasks for personal policy service requests for all Financial Services Operations applications. This table extends the Financial Task \[sn\_bom\_task\] table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Personal Lines Servicing reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/ins-policy-ops-reference.md)
+</table>**Parent Topic:**[Personal Lines Servicing reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/ins-policy-ops-reference.md)
 

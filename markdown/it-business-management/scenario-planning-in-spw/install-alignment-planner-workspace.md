@@ -3,11 +3,11 @@ title: Install Strategic Planning
 description: Install the Strategic Planning application from ServiceNow Store if you have the admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/install-alignment-planner-workspace.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -50,5 +50,5 @@ The following components are installed with installation of the Strategic Planni
 -   Roles
 -   Tables
 
-See [Components installed with Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/components-installed-with-alignment-planner-workspace.md) for more information.
+See [Components installed with Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/components-installed-with-alignment-planner-workspace.md) for more information.
 

@@ -3,11 +3,11 @@ title: Remote tables
 description: Connect the ServiceNow AI Platform to third-party sources, or to another instance, so that you can retrieve external data and optionally cache it in memory.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/remote-tables/remote-tables.html
-release: australia
+release: brazil
 product: Remote Tables
 classification: remote-tables
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,13 +28,13 @@ Use the following components to build an external data framework:
 
     The table definition is in the ServiceNow AI Platform, but its rows, or external records, live in memory. You create a remote table the same way that you would create a standard internal table. You define columns and controls and designate application access for it just like you would do for an internal table. Unlike an internal table, a remote table doesn’t get its records from the ServiceNow AI Platform database. It gets its records from running an associated query script against an external data source.
 
-    To learn more about creating remote tables, see [Create a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/create-remote-table.md).
+    To learn more about creating remote tables, see [Create a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/remote-tables/create-remote-table.md).
 
 -   **Script definitions**
 
     You create and associate script definitions with a remote table. The external data that you retrieved using the query script can be cached in memory. You can also designate how this data is cached and how long the data is cached in memory. Every time that you refresh a list that contains the external data from a remote table, the associated query script runs again. For editable remote tables, you can create insert, update, and delete script definitions in addition to the query script definition.
 
-    To learn more about script definitions and how to associate them with a remote table, see [Create script definitions for a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/create-remote-table-script.md).
+    To learn more about script definitions and how to associate them with a remote table, see [Create script definitions for a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/remote-tables/create-remote-table-script.md).
 
 
 ## How remote tables work
@@ -62,7 +62,7 @@ Set up and use remote tables in your enterprise when:
 -   You want to fetch external data for temporary use without storing it in the ServiceNow AI Platform. For example, you can create a remote table that fetches weather-related data that appears on a home page when a user logs in. You would then create an associated query script definition that retrieves this data from a third-party weather source that is based on the user's location.
 -   You want to retrieve customer details that are stored in an external Customer Relationship Management \(CRM\) application for viewing in Customer Service Management functions such as Agent Workspace.
 
-    **Note:** To learn more about data retrieval for Customer Service Management, see [Third-party data integration for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-third-party-data-integration.md).
+    **Note:** To learn more about data retrieval for Customer Service Management, see [Third-party data integration for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-third-party-data-integration.md).
 
 -   You want to retrieve and view personnel data from Human Capital Management \(HCM\) applications such as Workday or SAP SuccessFactors for use in HR Service Delivery functions.
 
@@ -81,20 +81,20 @@ Choose whether to use a remote table or Integration Hub to process external data
 -   When you want to cache external data temporarily, use remote tables.
 -   If you want more advanced importing and transformation options, including Workflow Studio, or if you want to develop custom integrations, use the Integration Hub.
 
-**Note:** If you create a remote table that uses the data from an external source that is outside of the ServiceNow AI Platform, you must have an Integration Hub subscription entitlement. To learn more about the Integration Hub, see [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integrationhub.md).
+**Note:** If you create a remote table that uses the data from an external source that is outside of the ServiceNow AI Platform, you must have an Integration Hub subscription entitlement. To learn more about the Integration Hub, see [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integrationhub.md).
 
--   **[Activate the remote tables plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/activate-remote-tables-plugin.md)**  
+-   **[Activate the remote tables plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/remote-tables/activate-remote-tables-plugin.md)**  
 If you have the admin role, you can activate the Remote Tables plugin \(com.glide.script.vtable\). This plugin includes demo data and activates related plugins if they aren’t already active.
--   **[Create a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/create-remote-table.md)**  
+-   **[Create a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/remote-tables/create-remote-table.md)**  
 Create a remote table using data retrieved from an external source.
--   **[Create script definitions for a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/create-remote-table-script.md)**  
+-   **[Create script definitions for a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/remote-tables/create-remote-table-script.md)**  
 Define scripts for a remote table to retrieve data from an external data source or edit data in the external source.
--   **[Create a flow definition for a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/create-remote-table-flow.md)**  
+-   **[Create a flow definition for a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/remote-tables/create-remote-table-flow.md)**  
 Build and create a flow for a remote table so that you can retrieve data from an external source with it.
--   **[Debugging remote table script definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/debugging-remote-table-scripts.md)**  
+-   **[Debugging remote table script definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/remote-tables/debugging-remote-table-scripts.md)**  
 You can enable session debugging for remote table script definitions. To enable script definition logging in a session debug log, set the **glide.script.vtable.log.debug** property to **true**.
--   **[Domain separation and remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/domain-separation-remote-tables.md)**  
+-   **[Domain separation and remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/remote-tables/domain-separation-remote-tables.md)**  
 Domain separation is unsupported in remote tables. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[Manage instance data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/manage-data-sources.md)
+**Parent Topic:**[Manage instance data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/manage-data-sources.md)
 

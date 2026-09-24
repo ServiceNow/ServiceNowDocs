@@ -3,9 +3,9 @@ title: Use the ActionSet Mouse action
 description: Do various mouse device actions on the desktop, Windows applications, and web pages on the Internet Explorer browser using the ActionSet Mouse action in RPA Desktop Design Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-actionset-mouse-action.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use the ActionSet component, Actions \(UI\), Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -20,13 +20,13 @@ Role required: none
 
 ## About this task
 
-Configure the properties for the ActionSet Mouse action. For more information about these properties, see [ActionSet-Mouse Action properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/actionset-actions-properties.md).
+Configure the properties for the ActionSet Mouse action. For more information about these properties, see [ActionSet-Mouse Action properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/actionset-actions-properties.md).
 
 ## Procedure
 
 1.  Right-click the anchor.
 
-    To know about the anchor, see [Anchor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/anchor.md).
+    To know about the anchor, see [Anchor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/anchor.md).
 
 2.  Click **Mouse Action**.
 
@@ -47,5 +47,5 @@ Configure the properties for the ActionSet Mouse action. For more information ab
 7.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Use the ActionSet component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-actionsui-actionset.md)
+**Parent Topic:**[Use the ActionSet component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/use-actionsui-actionset.md)
 

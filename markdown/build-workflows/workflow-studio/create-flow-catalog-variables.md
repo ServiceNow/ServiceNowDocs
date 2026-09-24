@@ -3,11 +3,11 @@ title: Create flow Service Catalog variables
 description: Create Service Catalog variables that are only available to a specific Service Catalog flow. Flow-specific variables are available to catalog tasks and actions in the flow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-flow-catalog-variables.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 breadcrumb: [Create a flow, Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -24,7 +24,7 @@ Role required: flow\_designer or admin
 
 Flow Service Catalog variables display in the **Catalog Variables** field of the Create Catalog Task and Get Catalog Variables actions. They display in the **Flow:variablename** format and are only available to the flow in which they are defined.
 
-For more information about Service Catalog actions, see [Create Catalog Task action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-catalog-task-flow-designer.md) and [Get Catalog Variables action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/get-cat-variables-flow-designer.md).
+For more information about Service Catalog actions, see [Create Catalog Task action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-catalog-task-flow-designer.md) and [Get Catalog Variables action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/get-cat-variables-flow-designer.md).
 
 ## Procedure
 
@@ -68,7 +68,7 @@ Type
 
 </td><td>
 
-The variable type that you want to create. For more information, see [Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_VariableTypes.md).
+The variable type that you want to create. For more information, see [Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_VariableTypes.md).
 
 </td></tr><tr><td>
 
@@ -244,7 +244,7 @@ Show help
 
 </td><td>
 
-If selected, displays the [help text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_DefineHelpInformation.md) and instructions for the variable.**Note:**
+If selected, displays the [help text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_DefineHelpInformation.md) and instructions for the variable.**Note:**
 
 -   It is not available for break and check box variables.
 -   Help text and instructions are not available for a variable set.
@@ -310,7 +310,7 @@ Variable Width
 
 </td><td>
 
-Width for the variable on the catalog item page, to specify what percentage of the screen size that it can span. For details, see [Configure a default width for service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-variable-width.md).This field appears for all variable types except for break, container end, container start, container split, container layout, and label variables.
+Width for the variable on the catalog item page, to specify what percentage of the screen size that it can span. For details, see [Configure a default width for service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configure-variable-width.md).This field appears for all variable types except for break, container end, container start, container split, container layout, and label variables.
 
 </td></tr><tr><td>
 
@@ -320,7 +320,7 @@ Enable also request for
 
 Option to allow a catalog item request to be submitted for multiple users. After you select this option, the **Also request for** field is displayed along with Requested For variable in a catalog item. -   This functionality is only applicable in Service Portal.
 -   This field is applicable only for the Requested For variable.
-For information about delegated request experience, see [Delegated request experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/delegated-request-exp.md).
+For information about delegated request experience, see [Delegated request experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/delegated-request-exp.md).
 
 </td></tr><tr><td>
 
@@ -333,7 +333,7 @@ Option to specify the roles that can submit a catalog item request for multiple 
 -   This field appears only when the **Enable also request for** check box is selected.
  **Note:** If no role is specified, anyone who has access to the catalog item can submit the request.
 
-For information about delegated request experience, see [Delegated request experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/delegated-request-exp.md).
+For information about delegated request experience, see [Delegated request experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/delegated-request-exp.md).
 
 </td></tr><tr><td>
 
@@ -483,7 +483,7 @@ Macro
 
 </td><td>
 
-[UI macro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_UIMacros.md) to insert into the catalog item.This field appears for macro, macro with label, and UI page variables.
+UI macro to insert into the catalog item.This field appears for macro, macro with label, and UI page variables.
 
 </td></tr><tr><td>
 
@@ -515,7 +515,7 @@ Recurring price if checked
 
 </td><td>
 
-Price that increments for the item, when the user requests more than one order of the item.This field appears for check box variables. For more information about prices and recurring prices, see [Using variables for price setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ServiceCatalogVariablePricing.md).
+Price that increments for the item, when the user requests more than one order of the item.This field appears for check box variables. For more information about prices and recurring prices, see [Using variables for price setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_ServiceCatalogVariablePricing.md).
 
 </td></tr><tr><td>
 
@@ -531,7 +531,7 @@ Reference qual
 
 </td><td>
 
-Qualifiers to restrict data that is available in the field.Supports reference qualifiers and advance qualifiers. For more information, see [Reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ReferenceQualifiers.md).
+Qualifiers to restrict data that is available in the field.Supports reference qualifiers and advance qualifiers. For more information, see [Reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ReferenceQualifiers.md).
 
  Returns all matching results \(no maximum\).
 
@@ -603,7 +603,7 @@ Validation Regex
 
 </td><td>
 
-Regular expression that validates the variable value. This field is displayed only for Single Line Text and Wide Single Line Text variable types.To define regular expressions, see [Define a regular expression for a variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/define-regex-vrble.md).
+Regular expression that validates the variable value. This field is displayed only for Single Line Text and Wide Single Line Text variable types.To define regular expressions, see [Define a regular expression for a variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/define-regex-vrble.md).
 
  **Note:**
 
@@ -618,7 +618,7 @@ Variable attributes
 
 </td><td>
 
-Attributes that define the behavior and restrictions for a variable. For information on variable attributes, see [Service catalog variable attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/variable-attributes.md).
+Attributes that define the behavior and restrictions for a variable. For information on variable attributes, see [Service catalog variable attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/variable-attributes.md).
 
 </td></tr><tr><td>
 
@@ -728,5 +728,5 @@ If the catalog item has a variable that's making the item non-conversational, fo
 
 Access the variable in the flow by adding a Create Catalog Task or Get Catalog Variables action.
 
-**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md)
+**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-flow.md)
 

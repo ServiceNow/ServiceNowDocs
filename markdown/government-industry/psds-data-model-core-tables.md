@@ -3,7 +3,7 @@ title: Tables and Flows installed with Public Sector Digital Services Core
 description: This section describes the tables and flows installed with the Public Sector Digital Services Core application and shows how they store and manage information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-data-model-core-tables.html
-release: australia
+release: brazil
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -168,5 +168,5 @@ Resolve blocked by record if user information is provided for Government case\[r
 Removes the blocked by record if the case task is closed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Public Sector Digital Services Core Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-data-model-core.md)
+</table>**Parent Topic:**[Public Sector Digital Services Core Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-data-model-core.md)
 

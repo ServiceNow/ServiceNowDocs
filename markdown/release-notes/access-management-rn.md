@@ -1,28 +1,28 @@
 ---
 title: Access Management release notes
-description: The ServiceNow Access Management application provides robust tools to manage security data on the ServiceNow AI Platform. Access Management includes many controls, such as access control lists \(ACLs\), Security Attributes, Security Data Filters, and Machine Identity Access Control. These controls provide granular control and help improve security for managing data access. Access Management was enhanced and updated in the Australia release.The ServiceNow Access Management application provides robust tools to manage security data on the ServiceNow AI Platform. Access Management includes many controls, such as access control lists \(ACLs\), Security Attributes, Security Data Filters, and Machine Identity Access Control. These controls provide granular control and help improve security for managing data access. Access Management was enhanced and updated in the Australia release.
+description: The ServiceNow Access Management application provides robust tools to manage security data on the ServiceNow AI Platform. Access Management includes many controls, such as access control lists \(ACLs\), security attributes, security data filters, and machine identity access control. These controls provide granular control and help improve security for managing data access. See the following sections for release notes by version.The Brazil Early Availability release adds security features for Access Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/access-management-rn.html
-release: australia
+release: brazil
 topic_type: topic
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow AI Platform security release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+breadcrumb: [ServiceNow AI Platform security release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Access Management release notes
 
-The ServiceNow® Access Management application provides robust tools to manage security data on the ServiceNow AI Platform. Access Management includes many controls, such as access control lists \(ACLs\), Security Attributes, Security Data Filters, and Machine Identity Access Control. These controls provide granular control and help improve security for managing data access. Access Management was enhanced and updated in the Australia release.
+The ServiceNow® Access Management application provides robust tools to manage security data on the ServiceNow AI Platform. Access Management includes many controls, such as access control lists \(ACLs\), security attributes, security data filters, and machine identity access control. These controls provide granular control and help improve security for managing data access. See the following sections for release notes by version.
 
 ## About Access Management
 
-Early Availability
+-   Validate access controls configured within various resources and agentic assets with Access Analyzer.
+-   Improve your security posture by ensuring that access to applications and data is granted on a least privilege basis with Zero Trust Access.
+-   Use Access Findings, the proactive detection and remediation layer within Access Management Console, to run base system access checks against your instance on a daily schedule.
+-   Restrict access to data by requiring users to pass a set of requirements before they can interact with it by using ACLs.
+-   Control which Customer Service and Support employees can access your instance, and when, using the SNC Access Control plugin \(com.snc.snc\_access\_control\).
 
--   Use ServiceNow® Access Analyzer v6.1, a self-service tool designed for AI administrators or creators to validate the access controls configured within agentic assets \(agentic workflows and AI agents\).
--   Use new preconfigured query ACLs for most platform plugins, as part of ongoing security risk mitigation. These base system ACLs significantly reduce the need to run the QueryRangeACLAuditor tool.
--   Use Access Findings, the proactive detection and remediation layer within Access Management Console, to run eight base system access checks against your instance on a daily schedule. This surfaces prioritized findings when misconfigurations are detected, and provides a complete remediation workflow including AI-powered guidance.
-
-See [Access Control Lists \(ACLs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control-rules.md) for more information.
+See [Access Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/access-management-landing.md) for more information.
 
 ## Activation and other requirements
 
@@ -31,20 +31,21 @@ See [Access Control Lists \(ACLs\)](https://raw.githubusercontent.com/ServiceNow
     Access Management is a ServiceNow AI Platform feature that is active by default.
 
 
-**Parent Topic:**[ServiceNow AI Platform security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-security-rn-landing.md)
+## Accessibility and localization
 
-## Australia Early Availability
+-   **Accessibility information**
 
-The ServiceNow® Access Management application provides robust tools to manage security data on the ServiceNow AI Platform. Access Management includes many controls, such as access control lists \(ACLs\), Security Attributes, Security Data Filters, and Machine Identity Access Control. These controls provide granular control and help improve security for managing data access. Access Management was enhanced and updated in the Australia release.
+    Coral is the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme uses brand-neutral illustrations. A dark theme option is available for web and mobile experiences.
+
+
+## Brazil Early Availability
+
+The Brazil Early Availability release adds security features for Access Management.
 
 ### What's changed
 
--   **[Query ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/query-acl-rule.md)**
+-   **[Explore Access Control Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/exploring-access-control-list.md)**
 
-    Query ACLs now load automatically during plugin installation for most platform plugins. These preconfigured ACLs reduce the need to run the QueryRangeACLAuditor tool to generate query ACLs. Store app query ACLs aren't included in preconfigured query ACLs. For more information about preconfigured query ACLs, see the [Maintenance Information \[KB2046494\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2046494) article in the Now Support Knowledge Base.Existing custom query ACLs are preserved and loaded as inactive. To view inactive ACLs, use this command: `<INSTANCE_URL>/sys_security_acl_list.do?[query_parameters]`QueryRangeACLAuditor tool modifications are preserved.
-
--   **[ACL types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/acl-rule-types.md)**
-
-    Core field and datatype ACLs are replaced with more comprehensive rules to optimize ACL volume.
+    Improve access control predictability by enforcing strict denial when none of the referenced roles referenced in an ACL exist on the instance. This behavior doesn't apply to ACLs that have a mix of valid and invalid roles. This behavior is on by default for new instances. If you upgraded to this release, use the **glide.security.acl\_with\_invalid\_roles\_strict\_deny** property to turn it on. Navigate to **All** &gt; **Access Management** &gt; **Access Findings** to find these ACLs in the Access Checks list.
 
 

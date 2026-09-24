@@ -3,9 +3,9 @@ title: Work on a document verification task
 description: A document agent can review and approve or reject a document submitted for verification.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/doc-processor-work-on-doc-verification-task.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Document Processor, Integrate, Financial Services Operations \(FSO\)]
 ---
@@ -16,7 +16,7 @@ A document agent can review and approve or reject a document submitted for verif
 
 ## Before you begin
 
-**Note:** An OCR-processed document can be automatically reviewed and approved. For information on OCR-processed documents, see [Integrating with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/integration-with-document-intelligence.md).
+**Note:** An OCR-processed document can be automatically reviewed and approved. For information on OCR-processed documents, see [Integrating with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/integration-with-document-intelligence.md).
 
 Role required: sn\_doc\_processor.agent​
 
@@ -36,27 +36,21 @@ Role required: sn\_doc\_processor.agent​
 
 5.  Verify the completeness of all documents that are submitted.
 
-    If a document has been processed through OCR, you can select **Open in DocIntel** to review the document and update document field values.
-
-    The **External ID** field in the document verification task is populated with the ID of the Document Intelligence use case that processes and extracts the data.
-
-    Review and update any extracted values in the **Extracted Values** related list.
-
-    For more information, see [Integrating with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/integration-with-document-intelligence.md).
+    If a document has been processed through OCR, you can select **Open in DocIntel** to review the document and update document field values, or check the **Field values** tab to review extracted document field values. For more information, see [Integrating with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/integration-with-document-intelligence.md).
 
 6.  From the **Notes and Activity** tab in the **Work notes** field, enter any comments.
 
 7.  Select one of the following options.
 
-<table id="choicetable_t3f_5r1_wnb"><thead><tr><th align="left" id="d136836e209">
+<table id="choicetable_t3f_5r1_wnb"><thead><tr><th align="left" id="d139508e195">
 
 Task
 
-</th><th align="left" id="d136836e212">
+</th><th align="left" id="d139508e198">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d136836e218">
+</th></tr></thead><tbody><tr><td id="d139508e204">
 
 **Verify**
 
@@ -64,7 +58,7 @@ Action
 
 Select **Verify** if the document details are sufficient.
 
-</td></tr><tr><td id="d136836e230">
+</td></tr><tr><td id="d139508e216">
 
 **Reject**
 

@@ -3,11 +3,11 @@ title: Scheduling components in Workforce Optimization for ITSM
 description: Workforce Optimization for ITSM has roles to administer agent shifts and schedules and properties to configure default behavior.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-scheduling-reference.html
-release: australia
+release: brazil
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Scheduling, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -231,7 +231,7 @@ Navigate to **All** &gt; **User Administration** &gt; **User Preferences** and a
 
 **Note:** To set a system-wide user preference, select the **System** check box.
 
-For information on setting user preferences, see [User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPreferences.md).
+For information on setting user preferences, see [User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_UserPreferences.md).
 
 <table id="table_urf_2s3_dtb"><thead><tr><th>
 

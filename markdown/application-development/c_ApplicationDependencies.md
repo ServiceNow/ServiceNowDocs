@@ -1,35 +1,20 @@
 ---
 title: Dependencies for custom applications
-description: Every custom application record includes a related list identifying its dependencies on other applications. Dependencies are references from your custom application to functionality provided by other applications or plugins installed on the instance.
+description: Every custom application record includes a related list identifying its dependencies on other applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/c\_ApplicationDependencies.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Build your first app, Standard app development, Getting Started guide for developers, Building applications]
+breadcrumb: [Anatomy of an application, Learning about developing on the ServiceNow AI Platform, Building applications]
 ---
 
 # Dependencies for custom applications
 
-Every custom application record includes a related list identifying its dependencies on other applications. Dependencies are references from your custom application to functionality provided by other applications or plugins installed on the instance.
+Every custom application record includes a related list identifying its dependencies on other applications.
 
-The ServiceNow AI Platform tracks dependencies automatically so that when your application is installed on another instance, the platform can:
+Administrators can review this list to determine whether an application poses any risk to existing processes or data. Application developers can use this list to ensure that their applications have the proper access to other applications.
 
--   Verify that required components are present.
--   Prompt the administrator to install missing components before installation proceeds.
-
-Without accurate dependency information, your application may fail on instances where those supporting components are missing.
-
-The platform determines dependencies based on the components your application references outside its own scope. Common examples include:
-
--   A business rule that calls a script include from another application.
--   A flow that uses an action provided by an installed spoke.
--   Any application metadata that explicitly references components outside the application scope.
-
-To remove a dependency, navigate to the application record and locate the Dependencies related list. Before deleting a dependency record, confirm that the application no longer references any components from that application or plugin. Removing a required dependency causes errors on instances where the supporting component is not installed.
-
-\[Omitted image "app-dependencies.png"\] Alt text: Remove dependencies from the custom app record by accessing the Dependencies related list.
-
-**Parent Topic:**[Build your first application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-your-first-app.md)
+\[Omitted image "application-dependencies.png"\] Alt text: The Dependencies related list for the Marketing Events application displays one dependency to the Company extension plugin.
 

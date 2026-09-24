@@ -3,9 +3,9 @@ title: Knowledge feature configuration
 description: Understand the configuration and related lists of the Knowledge feature in Engagement Messenger to configure the field values.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/knowledge-feature-configuration-fields.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Engagement Messenger reference, Reference, Customer Service Management]
 ---
@@ -32,7 +32,7 @@ Article category that is shown on the home page of the messenger. You can select
 
 -   Featured articles: Articles that are based on the keywords that are associated with the articles.
 
-For information on displaying articles in the Featured content section, see [Add a knowledge article to featured content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_PinAnArticle.md).
+For information on displaying articles in the Featured content section, see [Add a knowledge article to featured content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_PinAnArticle.md).
 
 -   Most viewed articles: Articles that have the highest view among the articles of your knowledge base.
 

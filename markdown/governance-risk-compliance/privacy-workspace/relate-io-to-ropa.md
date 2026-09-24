@@ -3,11 +3,11 @@ title: Map an information object to a question response
 description: Map the \[PI\] Information objects to the responses of the assessment questions that must be associated to the processing activity. This association helps the privacy teams to understand what personal information is being processed by the processing activity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/relate-io-to-ropa.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a privacy assessment, Configure, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -29,7 +29,7 @@ You can relate information objects to an assessment question only if the questio
 -   Numeric Scale
 -   Ranking
 
-To understand more about information objects and their uses, see [Information objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/information-objects.md).
+To understand more about information objects and their uses, see [Information objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/information-objects.md).
 
 ## Procedure
 
@@ -60,5 +60,5 @@ To understand more about information objects and their uses, see [Information ob
 
 The information objects are related to the processing activity.
 
-**Parent Topic:**[Create a privacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-assessment-template.md)
+**Parent Topic:**[Create a privacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/create-assessment-template.md)
 

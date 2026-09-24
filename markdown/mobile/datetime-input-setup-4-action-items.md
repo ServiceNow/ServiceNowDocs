@@ -3,9 +3,9 @@ title: Date/time input setup for different action item types
 description: After you create an input form screen and define its IncludeTimezone attribute for date/time inputs, you must associate the input form screen with an action item. How you set up the date/time inputs depends on the type of action item you use.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/datetime-input-setup-4-action-items.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure inputs, Configure an input form screen, Input form screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -36,7 +36,7 @@ Make sure that date/time inputs are mapped to date/time fields in the back-end i
 
 </td><td>
 
-You must convert the date/time input value to UTC/GMT. Refer to the following script examples for more information. For more information about scripting in general for ServiceNow, see [Scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_Script.md) **Note:** Customizations might be needed depending on the use case involved.
+You must convert the date/time input value to UTC/GMT. Refer to the following script examples for more information. For more information about scripting in general for ServiceNow, see [Scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/c_Script.md) **Note:** Customizations might be needed depending on the use case involved.
 
 </td></tr></tbody>
 </table>## GlideDateTime script example

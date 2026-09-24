@@ -3,11 +3,11 @@ title: Create Location filter criteria
 description: Use location filter criteria to filter input for users authentication based on the user location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/create-location-filter-criteria.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Location Filter, Filter criteria, Adaptive authentication, Authentication, Access Management]
 ---

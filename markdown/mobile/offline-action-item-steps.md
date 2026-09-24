@@ -3,9 +3,9 @@ title: Using action items and action item steps in ofﬂine mode
 description: Action items or writeback actions are user-initiated actions that send data changes to the ServiceNow instance. While offline, writeback actions are queued and automatically synced back, once connectivity is restored.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/offline-action-item-steps.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-06-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -65,21 +65,21 @@ The writeback action serves as the parent, containing one or more steps that can
         -   Marks changes for later sync to the instance but reflects the changes for the user within the app and affecting workflows where this data is used while offline. For example, for filtering data in lists which show/hide buttons according to conditions.
         -   Limited to simple, rule-based validations \(no advanced scripting\).
         -   Final updates and server logic occur only after the device reconnects.
--   **When to use an offline multistep**
+-   **What to use an offline multistep**
 
-    You should consider using offline multistep when users need to continue working without connectivity and immediate feedback of their actions that affect workflows within the app is important also in offline. Offline steps are used for:
+    You should consider using offline multistep when users need to continue working without connectivity and immediate feedback of their actions that affect workflows within the app is important also in Offline. Offline steps are used for:
 
     -   Showing users the look and feel of their changes while offline.
     -   Applying basic record updates that don’t require complex scripting.
     -   Selecting the Save progress button in input forms stores the data locally on the user’s device.
     -   Ensuring business-critical actions remain available even in areas with poor or no network coverage.
 
--   **[General guidelines for action items synchronization behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/action-item-general-guideline.md)**  
+-   **[General guidelines for action items synchronization behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/action-item-general-guideline.md)**  
 When working with action items keep these general guidelines in mind for usability and a good user experience.
--   **[Configure action items and action steps in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-action-item-offline.md)**  
+-   **[Configure action items and action steps in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/configure-action-item-offline.md)**  
 Configure action items to execute actions like create, edit and delete records while in offline mode. For an action item to perform multiple processes you must define separate action steps.
--   **[Offline record reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/offline-record-reconciliation.md)**  
+-   **[Offline record reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/offline-record-reconciliation.md)**  
 Configure offline mode to include associated records in the offline cache when users perform an action in online mode.
 
-**Parent Topic:**[Offline mode setup options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/offline-setup-options.md)
+**Parent Topic:**[Offline mode setup options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/offline-setup-options.md)
 

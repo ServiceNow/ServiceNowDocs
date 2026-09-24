@@ -3,13 +3,13 @@ title: Refresh content for an external content connector
 description: Refresh searchable content and metadata, including unchanged items, for an external content connector by running a one-time full or partial content crawl.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/refresh-content-external-content-connector.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Crawl, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -19,7 +19,7 @@ Refresh searchable content and metadata, including unchanged items, for an exter
 
 ## Before you begin
 
-To run crawls for external content connectors, your instance must have inbound mTLS support enabled. For details on verifying that this feature is enabled on your instance, see [Verify whether inbound mTLS support is activated for your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/verify-adcv2-inbound-mtls-enabled.md).
+To run crawls for external content connectors, your instance must have inbound mTLS support enabled. For details on verifying that this feature is enabled on your instance, see [Verify whether inbound mTLS support is activated for your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/verify-adcv2-inbound-mtls-enabled.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 
@@ -33,7 +33,7 @@ You can force an external content connector to refresh some or all of its search
 
 1.  Navigate to **All** &gt; **External Content Connectors** &gt; **External Content Admin Home**.
 
-2.  In the Connectors list, select the record for the external content connector that you want to refresh content searchable content and metadata for.
+2.  In the Connectors list, select the record for the external content connector that you want to refresh searchable content and metadata for.
 
 3.  In the connector editor's Settings tab, select **Index management**.
 
@@ -46,7 +46,7 @@ You can force an external content connector to refresh some or all of its search
 
 The external content connector runs a one-time full content crawl to refresh its searchable content and metadata.
 
-This one-time crawl appears in the connector's crawl history with name **Force reindex** so you can monitor its status. For details on monitoring crawl history, see [Review crawl history for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/review-crawl-ext-cont-connector.md).
+This one-time crawl appears in the connector's crawl history with name **Force reindex** so you can monitor its status. For details on monitoring crawl history, see [Review crawl history for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/review-crawl-ext-cont-connector.md).
 
-**Parent Topic:**[Crawling content with External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/using-ext-cont-connectors.md)
+**Parent Topic:**[Crawling content with External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/using-ext-cont-connectors.md)
 

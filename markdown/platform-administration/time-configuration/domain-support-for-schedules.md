@@ -3,11 +3,11 @@ title: Domain support and schedules
 description: Domain separation is supported in schedules. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data. Activate the Domain Support \[com.glide.domain\] plugin to enable the domain separation functionality for schedules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/domain-support-for-schedules.html
-release: australia
+release: brazil
 product: Time Configuration
 classification: time-configuration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Schedules, Explore, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -26,7 +26,7 @@ Domain separation is supported in schedules. Domain separation enables you to se
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-separated-apps.md).
 
 ## Overview
 
@@ -57,7 +57,7 @@ For example, consider the relationship of the Schedule \[cmn\_schedule\] \(paren
 
 **Note:** The **domain\_master** attribute ensures that the child and parent record domains remain the same as the domain for the child that is derived from the specified reference field.
 
-**Parent Topic:**[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_UseSchedules.md)
+**Parent Topic:**[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/c_UseSchedules.md)
 
 **Related topics**  
 

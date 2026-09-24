@@ -3,13 +3,13 @@ title: Portal Taxonomy Topic widget
 description: The Portal Taxonomy Topic widget displays topics as cards on your portal page. It enables your users to access knowledge articles and catalog items related to a topic displayed on your portal in a Portal Browse Taxonomy widget.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-taxo-topic-widget.html
-release: australia
+release: brazil
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Set up Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Portal Taxonomy Topic widget
@@ -20,5 +20,5 @@ Display topic-related information to your users through cards displayed on your 
 
 \[Omitted image "port-taxo-topic.png"\] Alt text: The Portal Taxonomy Topic widget displaying different services and resources as taxonomy topics.
 
-For more information, see [Add and configure the Portal Taxonomy Topic widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/add-conf-port-taxo-topic.md).
+For more information, see [Add and configure the Portal Taxonomy Topic widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/add-conf-port-taxo-topic.md).
 

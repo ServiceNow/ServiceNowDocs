@@ -3,11 +3,11 @@ title: Integrate Azure with REST API key token
 description: Integrate using an API key to establish secure communication and automate data exchange via REST API. This simplifies integration, enabling seamless access to services and enhancing operational efficiency.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/integrate-azure-api-key.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrate Azure Monitor as an authenticated data source, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -51,5 +51,5 @@ Role required: evt\_mgmt\_integration
     \[Omitted image "em-rest-api-token.png"\] Alt text: Rest API token generated in the Token field.
 
 
-**Parent Topic:**[Integrate Azure Monitor as an authenticated data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/azure-integration.md)
+**Parent Topic:**[Integrate Azure Monitor as an authenticated data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/azure-integration.md)
 

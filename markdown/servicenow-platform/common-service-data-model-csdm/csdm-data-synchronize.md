@@ -3,11 +3,11 @@ title: Synchronizing group assignment attributes
 description: To empower a particular user group to manage a collection of CIs or CI classes, set group assignment attributes through the Technology management offering or the CI Class Manager. The operation synchronizes the group attribute data across all CIs that belong to the specified CI class or groups of CIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/common-service-data-model-csdm/csdm-data-synchronize.html
-release: australia
+release: brazil
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Dynamic CI group and service type, Implement, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,8 +20,8 @@ To empower a particular user group to manage a collection of CIs or CI classes, 
 
 **Note:** The **Managed by Group** setting identifies the group that manages a CI class \(ensuring that it is complete and correct\). It might or might not be the same group as repairs an individual CI.
 
--   [Synchronize user groups for a technology management offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-enable-tso.md): Directly set the **Support group**, **Change group**, or **Managed by group** attributes in a Technology management offering. The settings are applied to all CIs that are associated with the Technology management offering.
--   [Set the group for a CI or an entire class of CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-data-synchronize-enable.md): Set the **Managed by group** attribute for a specific class in the CI Class Manager. All CIs within the class will have their **Managed by group** field populated based on the value specified in the CI Class Manager. With this method, the **Managed by group** setting is applied only to the CIs that aren’t associated with a Technology management offering. For CIs that are managed by a Technology management offering, the **Managed by group** field is first synchronized with its dynamic CI group. The field is then synchronized with the CIs in the dynamic CI group, overwriting the entry from the CI Class Manager. For instructions, see [Synchronize user groups for a technology management offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-enable-tso.md).
+-   [Synchronize user groups for a technology management offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-enable-tso.md): Directly set the **Support group**, **Change group**, or **Managed by group** attributes in a Technology management offering. The settings are applied to all CIs that are associated with the Technology management offering.
+-   [Set the group for a CI or an entire class of CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-data-synchronize-enable.md): Set the **Managed by group** attribute for a specific class in the CI Class Manager. All CIs within the class will have their **Managed by group** field populated based on the value specified in the CI Class Manager. With this method, the **Managed by group** setting is applied only to the CIs that aren’t associated with a Technology management offering. For CIs that are managed by a Technology management offering, the **Managed by group** field is first synchronized with its dynamic CI group. The field is then synchronized with the CIs in the dynamic CI group, overwriting the entry from the CI Class Manager. For instructions, see [Synchronize user groups for a technology management offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-enable-tso.md).
 -   Use Support Group and Change Group: By using dynamic CI groups, data synchronization enables you to manage data that can't be discovered. The values in the **Support Group** and **Change Group** \(previously labeled **Assignment Group**\) fields in the cmdb\_ci table are synchronized with their related dynamic CI groups and with all the CIs that are contained as part of that dynamic CI group object. For guidance, see the following information:
     -   CMDB Groups: [https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.html](https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.html)
     -   Dynamic CI Groups: [https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/populate-app-service-dynamic-group.html](https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/populate-app-service-dynamic-group.html)
@@ -31,12 +31,12 @@ To empower a particular user group to manage a collection of CIs or CI classes, 
 
 \[Omitted image "csdm-team-data-sync.png"\] Alt text: Team data synchronization.
 
-**Parent Topic:**[Matching the usage of dynamic CI groups to service type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-dynamic-ci-groups-by-service.md)
+**Parent Topic:**[Matching the usage of dynamic CI groups to service type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-dynamic-ci-groups-by-service.md)
 
 **Related topics**  
 
 
-[CI Class Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ci-class-manager-landing-page.md)
+[CI Class Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/ci-class-manager-landing-page.md)
 
-[Synchronize user groups for a technology management offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-enable-tso.md)
+[Synchronize user groups for a technology management offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-enable-tso.md)
 

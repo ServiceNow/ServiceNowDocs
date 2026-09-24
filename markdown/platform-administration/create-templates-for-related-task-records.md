@@ -3,9 +3,9 @@ title: Create templates for related task records
 description: Administrators can create a template for a Task table record that also creates one or more related records in the child Task table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-templates-for-related-task-records.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Form templates, Administer, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -26,12 +26,12 @@ Administrators must understand the parent-child relationships between Task table
 
 ## Procedure
 
-1.  From the parent Task table template, [configure the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) to add these fields.
+1.  From the parent Task table template, [configure the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md) to add these fields.
 
     -   **Next Related Child Template**
     -   **Next Related Template**
     -   **Link element**
-2.  [Create a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateATemplateUsingTheTmplForm.md) for the parent Task table.
+2.  [Create a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateATemplateUsingTheTmplForm.md) for the parent Task table.
 
     For example, create this template for the Change table.
 
@@ -79,7 +79,7 @@ Template
 
 
 </td></tr></tbody>
-</table>3.  [Create a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateATemplateUsingTheTmplForm.md) for the first related task.
+</table>3.  [Create a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateATemplateUsingTheTmplForm.md) for the first related task.
 
     For example, create this template for the Change Task table.
 
@@ -134,7 +134,7 @@ Link element
 Change request
 
 </td></tr></tbody>
-</table>4.  [Create a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateATemplateUsingTheTmplForm.md) for each additional related task.
+</table>4.  [Create a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateATemplateUsingTheTmplForm.md) for each additional related task.
 
     For example, create one additional template for the Change Task table.
 
@@ -206,9 +206,9 @@ Change request
 
 ## What to do next
 
-[Create a module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAModuleForATemplate.md) for the parent Task table template so that child templates can be applied to related task records. For example, create a module for **Add server to network**.
+[Create a module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAModuleForATemplate.md) for the parent Task table template so that child templates can be applied to related task records. For example, create a module for **Add server to network**.
 
-**Parent Topic:**[Using form templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_Templates.md)
+**Parent Topic:**[Using form templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_Templates.md)
 
 **Related topics**  
 

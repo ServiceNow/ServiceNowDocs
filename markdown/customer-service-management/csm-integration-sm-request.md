@@ -3,9 +3,9 @@ title: CSM integration with Request Management
 description: Integration with the Request ManagementCSM application enables customer service agents to create request records from cases or associate existing request records to cases. It also enables customers to create requests from the Customer and Consumer Service Portals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-integration-sm-request.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Overview, Integrate with IT Service Management, Integrate, Customer Service Management]
 ---
@@ -38,11 +38,11 @@ The following roles enable customer service agents to view and create requests f
 -   sn\_request\_read
 -   sn\_request\_write
 
-For more information, see [Assign CSM/ITSM integration roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/assign-csm-itsm-integration-roles.md).
+For more information, see [Assign CSM/ITSM integration roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/assign-csm-itsm-integration-roles.md).
 
 ## Enabling the Create Request UI action for case types
 
-To enable the **Create Request** UI action for a case type table that extends the Case \[sn\_customerservice\_case\] table, add an entry for the case type to the Request Parent Mapping \[request\_parent\_mapping\] table. For more information, see [Enable the Create Request UI action for case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-create-request-case-type.md).
+To enable the **Create Request** UI action for a case type table that extends the Case \[sn\_customerservice\_case\] table, add an entry for the case type to the Request Parent Mapping \[request\_parent\_mapping\] table. For more information, see [Enable the Create Request UI action for case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/enable-create-request-case-type.md).
 
 ## Synchronizing data between the request and the case
 
@@ -63,9 +63,9 @@ If the case is the parent of the request, notifications to the requester are sup
 **Related topics**  
 
 
-[Create a request on behalf of a customer or consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/agent-create-request-for-customer.md)
+[Create a request on behalf of a customer or consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/agent-create-request-for-customer.md)
 
-[Create a request record from a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-item-agent-tasks.md)
+[Create a request record from a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-item-agent-tasks.md)
 
-[Create a request from the Customer and Consumer Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-request-from-csp.md)
+[Create a request from the Customer and Consumer Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-request-from-csp.md)
 

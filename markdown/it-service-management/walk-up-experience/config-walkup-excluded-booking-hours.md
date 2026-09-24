@@ -3,11 +3,11 @@ title: Configure excluded hours for Walk-up Experience appointment booking
 description: Using the Appointment Booking application, you can specify excluded appointment hours in the schedule for your Walk-up Experience location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/config-walkup-excluded-booking-hours.html
-release: australia
+release: brazil
 product: Walk-Up Experience
 classification: walk-up-experience
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure Walk-up Experience appointment booking, Walk-up Experience appointment booking administration, Book Walk-up Experience appointments, Configure, Walk-up Experience, IT Service Management]
 ---
@@ -99,5 +99,5 @@ Reconfigure the **Holiday Schedule** field on the Appointment Booking Service Co
     \[Omitted image "AvailableAppointments.png"\] Alt text: Available appointments with accurate off hours times
 
 
-**Parent Topic:**[Configure Walk-up Experience appointment booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-appointment-booking-config.md)
+**Parent Topic:**[Configure Walk-up Experience appointment booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/walk-up-experience/walkup-appointment-booking-config.md)
 

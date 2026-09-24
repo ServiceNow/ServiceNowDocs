@@ -3,9 +3,9 @@ title: Mobile Publishing build statuses
 description: Learn what the Mobile Publishing build statuses "Build in progress" and "Ready for testing" mean and what actions they require from you.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/mob-pub-build-statuses.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Request, test, &amp; publish, Custom branded apps, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -31,14 +31,14 @@ When the build status becomes "Ready for testing," one of the following actions 
 
 |New/Update|Operating System|Private/Public distribution|"Ready for testing" action required|
 |----------|----------------|---------------------------|-----------------------------------|
-|New|Android|Private|See [Test and publish a new branded Android app for private distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/testpubnu-andapp-privdist.md).|
-|New|iOS|Private|See [Test and publish a new branded iOS app for private distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/testpubnu-iosapp-privdist.md).|
-|New|Android|Public|See [Test and publish a new branded Android app for public distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/testpubnu-andapp-pubdist.md).|
-|New|iOS|Public|See [Test and publish a new branded iOS app for public distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/testpubnu-iosapp-pubdist.md).|
-|Updated|Android|Private|See [Test and publish an updated Android app for private distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/testpub-updat-and-app-priv.md).|
-|Updated|iOS|Private|See [Test and publish an updated iOS app for private distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/testpub-updat-ios-app-priv.md).|
-|Updated|Android|Public|See [Test and publish an updated Android app for public distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/testpub-updat-and-app-pub.md).|
-|Updated|iOS|Public|See [Test and publish an updated iOS app for public distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/testpub-updat-ios-app-pub.md).|
+|New|Android|Private|See [Test and publish a new branded Android app for private distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/testpubnu-andapp-privdist.md).|
+|New|iOS|Private|See [Test and publish a new branded iOS app for private distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/testpubnu-iosapp-privdist.md).|
+|New|Android|Public|See [Test and publish a new branded Android app for public distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/testpubnu-andapp-pubdist.md).|
+|New|iOS|Public|See [Test and publish a new branded iOS app for public distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/testpubnu-iosapp-pubdist.md).|
+|Updated|Android|Private|See [Test and publish an updated Android app for private distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/testpub-updat-and-app-priv.md).|
+|Updated|iOS|Private|See [Test and publish an updated iOS app for private distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/testpub-updat-ios-app-priv.md).|
+|Updated|Android|Public|See [Test and publish an updated Android app for public distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/testpub-updat-and-app-pub.md).|
+|Updated|iOS|Public|See [Test and publish an updated iOS app for public distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/testpub-updat-ios-app-pub.md).|
 
-**Parent Topic:**[Request, test, and publish a branded mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/request-test-pub-branded-mob-app.md)
+**Parent Topic:**[Request, test, and publish a branded mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/request-test-pub-branded-mob-app.md)
 

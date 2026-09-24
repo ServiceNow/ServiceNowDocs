@@ -3,11 +3,11 @@ title: Basic authentication
 description: Legacy API authentication method using username and password, with restricted usage and varying behaviour in zBoot and upgraded instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/basic-authentication.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [API Authentication, Authentication, Access Management]
 ---

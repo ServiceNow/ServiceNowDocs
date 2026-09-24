@@ -3,11 +3,11 @@ title: Activate Orchestration
 description: The Orchestration \(com.snc.runbook\_automation\) plugin is available within a separate subscription from the rest of the ServiceNow platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/t\_ActivateOrchestration.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Classic Orchestration, Workflow Data Fabric]
 ---
@@ -56,7 +56,7 @@ Which plugin would you like to activate
 
 Select the name of the plugin to activate.
 
- **Note:** If the plugin isn't listed, or if you're activating on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box. Enter the plugin name in the field that appears.
+ **Note:** If the system doesn't list the plugin you want or if you're activating the plugin on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box and then enter the name of the plugin.
 
 </td></tr><tr id="date-time"><td>
 
@@ -74,16 +74,16 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
--   **[List of Orchestration plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/list-orchestration-plugins.md)**  
+-   **[List of Orchestration plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/list-orchestration-plugins.md)**  
 This table lists all plugins available for Orchestration and their dependencies.
--   **[Orchestration Runtime plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/orchestration-runtime-plugin.md)**  
+-   **[Orchestration Runtime plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/orchestration-runtime-plugin.md)**  
 The Orchestration – Runtime plugin enables other applications on the ServiceNow® platform to automate tasks, without requiring an Orchestration subscription.
--   **[List of Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/r_ListOfOrchestrationActivities.md)**  
+-   **[List of Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/r_ListOfOrchestrationActivities.md)**  
 Use Orchestration activities in a Workflow to integrate with third-party systems.
--   **[Available activity packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_ActivateAnActivityPack.md)**  
+-   **[Available activity packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/t_ActivateAnActivityPack.md)**  
 Activity packs are available with your subscription to Orchestration.
--   **[Deprecated Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/r_OrchestrationBasicActivities.md)**  
+-   **[Deprecated Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/r_OrchestrationBasicActivities.md)**  
 These Orchestration activities have been deprecated.
 
-**Parent Topic:**[Classic Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/r-orchestration.md)
+**Parent Topic:**[Classic Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/r-orchestration.md)
 

@@ -3,11 +3,11 @@ title: View community feedback and bookmarks tables
 description: View feedback and bookmarks tables to view which community content was given feedback or was bookmarked.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/view-feedback-bookmark-tables.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring communities, Communities, Customer Service Management]
 ---
@@ -22,6 +22,10 @@ Role required: sn\_communities.admin, sn\_communities.community\_moderator, sn\_
 
 **Note:** Communities users \(sn\_communities.community\_user\) have read access to the bookmarks table and the feedback table. Users can only view another user's bookmark and feedback records for content they themselves can access. Bookmark and feedback record visibility is constrained by the viewer's access to the underlying content.
 
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Community** &gt; **Feedback**.
@@ -31,7 +35,7 @@ Role required: sn\_communities.admin, sn\_communities.community\_moderator, sn\_
     -   Click **Feedback** to view the content feedback was given for, the type of the feedback, and who provided it.
     -   Click **Bookmarks** to view the content that was bookmarked and who added it.
 
-**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-communities.md)
+**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/configure-communities.md)
 
 **Related topics**  
 

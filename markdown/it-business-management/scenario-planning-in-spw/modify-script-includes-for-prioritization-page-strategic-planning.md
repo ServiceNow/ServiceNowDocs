@@ -3,11 +3,11 @@ title: Modify Script Includes for Prioritization page in Strategic Planning
 description: Modify the Script Includes for List and Hierarchy views of the Prioritization page to change the columns to be highlighted in these views in the workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/modify-script-includes-for-prioritization-page-strategic-planning.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Customizing highlighted fields, Prioritization display settings in Strategic Planning, Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
@@ -50,15 +50,15 @@ Portfolio Planning uses a dual-file script architecture to enable safe customiza
 
 2.  Update the column name in the **Script** field of the Script Include.
 
-<table id="choicetable_fs4_s21_hkc"><thead><tr><th align="left" id="d98597e195">
+<table id="choicetable_fs4_s21_hkc"><thead><tr><th align="left" id="d98022e195">
 
 For this view
 
-</th><th align="left" id="d98597e198">
+</th><th align="left" id="d98022e198">
 
 Follow these steps
 
-</th></tr></thead><tbody><tr><td id="d98597e204">
+</th></tr></thead><tbody><tr><td id="d98022e204">
 
 **Prioritization view**
 
@@ -107,7 +107,7 @@ The required function is updated.
 
 The Priority column is now highlighted in the Prioritization List view. During the next product upgrade, the ServiceNow Controlled file \(`APWBacklogConfigImpl`\) will be updated, but your customization in the Config file will remain intact and will not conflict.
 
-</td></tr><tr><td id="d98597e283">
+</td></tr><tr><td id="d98022e283">
 
 **Hierarchy view**
 
@@ -152,7 +152,7 @@ The Priority column is now highlighted in the Prioritization Hierarchy view. Dur
 </table>
 ## What to do next
 
-[Customize highlighted values for Prioritization columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/customize-highlighted-fields-prioritzation-page-strategic-planning-workspace.md)
+[Customize highlighted values for Prioritization columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/customize-highlighted-fields-prioritzation-page-strategic-planning-workspace.md)
 
-**Parent Topic:**[Customize highlighted fields on Prioritization page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/customizing-highlighted-fields-prioritization-page-strategic-planning.md)
+**Parent Topic:**[Customize highlighted fields on Prioritization page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/customizing-highlighted-fields-prioritization-page-strategic-planning.md)
 

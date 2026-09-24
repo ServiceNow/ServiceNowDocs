@@ -3,9 +3,9 @@ title: Customize showing a full conversation in UI Builder
 description: Customize the show full conversation feature in UI Builder to display the entire email thread between the customer and agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customize-show-full-conversation.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Email Interaction, Configure Email, Configure omnichannel, Configure, Customer Service Management]
 ---
@@ -16,13 +16,13 @@ Customize the show full conversation feature in UI Builder to display the entire
 
 ## Before you begin
 
-A duplicate variant must be configured by an administrator. If the duplicate variant isn’t configured, you can't enable Show full conversation. For more information, see [Customize the email interaction experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customize-email-interaction-experience.md).
+A duplicate variant must be configured by an administrator. If the duplicate variant isn’t configured, you can't enable Show full conversation. For more information, see [Customize the email interaction experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customize-email-interaction-experience.md).
 
 Role required: admin
 
 ## About this task
 
-For more information on UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md).
+For more information on UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder-overview.md).
 
 **Note:** By default, **Enable Email Show full conversation** is enabled for Email Interaction for CSM.
 

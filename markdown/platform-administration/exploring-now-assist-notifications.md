@@ -3,12 +3,12 @@ title: Explore AI in Notifications
 description: Automates inbound email processing and enables the creation and modification of email notifications, templates, and layouts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/exploring-now-assist-notifications.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [explore]
-breadcrumb: [Notification agent and agentic workflows in Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Notification agent and agentic workflows in Notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Explore AI in Notifications
@@ -45,7 +45,7 @@ Automate inbound email processing by intelligently understanding requests, extra
 
 </td><td>
 
-[Use email agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/use-agentic-ai-notifications.md)
+[Use email agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/use-agentic-ai-notifications.md)
 
 </td><td>
 
@@ -57,7 +57,7 @@ Create and modify email notifications, templates, and layouts through conversati
 
 </td><td>
 
-[Notification agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/notification-creation-agent.md)
+[Notification agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/notification-creation-agent.md)
 
 </td><td>
 
@@ -68,7 +68,6 @@ Admin
 
 To learn more about configuring and using the Notification agent and agentic workflows with email notifications, see:
 
--   [Configure email agentic workflows in Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-agentic-workflows-in-notifications.md)
--   [General guidelines for creating and mapping an intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/guidelines-creating-intent.md)
--   [Notification agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/notification-creation-agent.md)
+-   [Configure email agentic workflows in Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configuring-agentic-workflows-in-notifications.md)
+-   [General guidelines for creating and mapping an intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/guidelines-creating-intent.md)
 

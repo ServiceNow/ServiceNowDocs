@@ -3,11 +3,11 @@ title: Chat with an agent from the Business Portal
 description: Chat with a virtual agent or a customer service agent from the business portal to resolve issues quickly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_StartAChatWithAnAgent-business-portal.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Business Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Business Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Chat with an agent from the Business Portal
@@ -36,7 +36,7 @@ If the agent creates a case or links the discussion to an existing case, you can
 **Related topics**  
 
 
-[Get help using virtual agent conversations from Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/business-portal-virtual-agent-conversation.md)
+[Get help using virtual agent conversations from Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/business-portal-virtual-agent-conversation.md)
 
-[Create a product case from Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_CreateACaseFrom-businessportal.md)
+[Create a product case from Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/t_CreateACaseFrom-businessportal.md)
 

@@ -3,9 +3,9 @@ title: BCM Configurable Workspace
 description: Starting with version 5.x.x, the Business Continuity Management application supports BCM Configurable Workspace. You can perform your business continuity tasks with an intuitive functionality in BCM Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/bcm-workspace.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Explore, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -23,15 +23,15 @@ BCM Configurable Workspace \(also known as Business Continuity Workspace\) offer
 3.  Respond to the alerts in Crisis map and manage the recovery tasks effectively.
 4.  Visualize 360-degree relationship data for your business impact analysis, planning, exercises, and crisis events records and get a complete overview of all dependencies.
 
-The Business Continuity Workspace in the classic Workspace is automatically updated to point to BCM Configurable Workspace. For information on BCM classic Workspace, see [Using BCM Classic Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/mainitain-bcm-with-classic-workspace.md).
+The Business Continuity Workspace in the classic Workspace is automatically updated to point to BCM Configurable Workspace. For information on BCM classic Workspace, see [Using BCM Classic Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/mainitain-bcm-with-classic-workspace.md).
 
 ## Configurable and role-driven Workspace
 
 The BCM Configurable Workspace is configurable and role-driven, offering a unique experience tailored to each user or role in your organization. Logging in with specific user roles provides access to different functions and corresponding user interface views.
 
-For more information on the user roles in the BCM application, see [Components installed with Business Continuity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/installed-with-bcm.md).
+For more information on the user roles in the BCM application, see [Components installed with Business Continuity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/installed-with-bcm.md).
 
-For more information on the store apps, see [Business Continuity Management and ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-and-store.md).
+For more information on the store apps, see [Business Continuity Management and ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/bcm-and-store.md).
 
 ## Support for the BCM Classic Workspace
 
@@ -73,9 +73,9 @@ When you log in to the Business Continuity Management application with a specifi
 When you launch Business Continuity Workspace, the Workspace sidebar includes icons for these components.
 
 -   Home page: Displays key continuity tasks in a single-pane view.
--   Tasks page: Displays assigned tasks for the logged‑in user. For more information, see [My tasks page view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/my-tasks-page-uib-ws.md).
--   Lists: Displays counts and statuses for BIA, planning, exercise, and crisis event records. For more information, see [List view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/list-view-uib-ws.md).
--   Crisis map: Displays real-time threat alerts from different locations in a map view. For more information, see [Crisis map view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/crisis-map-uib-ws.md).
+-   Tasks page: Displays assigned tasks for the logged‑in user. For more information, see [My tasks page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/my-tasks-page-uib-ws.md).
+-   Lists: Displays counts and statuses for BIA, planning, exercise, and crisis event records. For more information, see [List view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/list-view-uib-ws.md).
+-   Crisis map: Displays real-time threat alerts from different locations in a map view. For more information, see [Crisis map view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/crisis-map-uib-ws.md).
 
 ## Managing functional components
 
@@ -83,20 +83,20 @@ Manage the functional components of the BCM application in the BCM Configurable 
 
 -   **Business impact analysis**
 
-    A business impact analysis helps you identify high‑risk assets and measure the consequences of disruptions. You can estimate recovery time, evaluate dependencies, and assess business and technical impacts. For details on creating and managing BIAs, see [Business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bia-uib.md) and [Structured workflows for BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bia-tasks-performed-by-bia-owner.md).
+    A business impact analysis helps you identify high‑risk assets and measure the consequences of disruptions. You can estimate recovery time, evaluate dependencies, and assess business and technical impacts. For details on creating and managing BIAs, see [Business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/bia-uib.md) and [Structured workflows for BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/bia-tasks-performed-by-bia-owner.md).
 
 -   **Business continuity planning**
 
-    Continuity planning enables you to prepare recovery strategies, documentation, and loss scenarios. You can also define recovery teams and associate related plans. For more information, see [Business continuity planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-uib.md) and [Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md).
+    Continuity planning enables you to prepare recovery strategies, documentation, and loss scenarios. You can also define recovery teams and associate related plans. For more information, see [Business continuity planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/bcp-uib.md) and [Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md).
 
 -   **Exercise management**
 
-    Exercises simulate crisis conditions and help validate continuity plans. You can manage events, review outcomes, and refine plans for future scenarios. For more information, see [Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md).
+    Exercises simulate crisis conditions and help validate continuity plans. You can manage events, review outcomes, and refine plans for future scenarios. For more information, see [Structured workflows for exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md).
 
 -   **Crisis management**
 
-    Crisis management enables you to respond to actual disruptions, prioritize activities, and manage actions that reduce operational impact. For details, see [Crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/crisis-management-uib.md) and [Structured workflows for Crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/perform-tasks-to-manage-crisis-events.md).
+    Crisis management enables you to respond to actual disruptions, prioritize activities, and manage actions that reduce operational impact. For details, see [Crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/crisis-management-uib.md) and [Structured workflows for crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/perform-tasks-to-manage-crisis-events.md).
 
-    **Note:** For setting up Business Continuity Management, see [General administration setup for BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-bcm-bcmadmin-tasks.md).
+    **Note:** For setting up Business Continuity Management, see [General administration setup for BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/set-up-bcm-bcmadmin-tasks.md).
 
 

@@ -3,9 +3,9 @@ title: Jumbo apps and entitlement validation
 description: Jumbo apps are large application bundles that support mandatory and optional app selection during installation. Entitlement validation confirms that admins have appropriate licensing for mandatory apps before installation proceeds, while optional apps display licensing status inline to inform installation decisions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-jumbo-apps-valid.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Administer, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -48,8 +48,8 @@ Entitlement validation follows these rules:
 -   App Manager is the source of truth: All entitlement queries delegate to App Manager APIs. Product Hub doesn't cache or override App Manager licensing rules. If App Manager reports an app as unlicensed, it is treated as unlicensed regardless of other factors.
 -   Installation fails if App Manager validation fails: Even if pre-modal and modal-level validation passes, if App Manager rejects the install request during submission \(for example, due to a changed licensing state or validation rule\), the installation is blocked with an error message.
 
--   **[Entitlement validation rules reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-entitlement-validation-rules.md)**  
+-   **[Entitlement validation rules reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ia-entitlement-validation-rules.md)**  
 Technical reference documenting entitlement validation rules, error states, and validation logic for jumbo apps and App Manager integration in product bundle installation workflows.
 
-**Parent Topic:**[Administer ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-administer.md)
+**Parent Topic:**[Administer ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ia-administer.md)
 

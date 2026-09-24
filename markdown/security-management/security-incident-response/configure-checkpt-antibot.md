@@ -3,11 +3,11 @@ title: Configure the Check Point Anti-bot - Email Parser integration
 description: The Check Point Anti-bot - Email Parser integration uses email notifications to drive enrichment, and response workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configure-checkpt-antibot.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Check Point Anti-bot - Email Parser integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -36,7 +36,7 @@ A Check Point Anti-bot email parser template is provided to use for the integrat
 
 4.  Select the **Check Point Anti-bot** link to edit the settings in the template email parser provided.
 
-    At a minimum, fill in the `Email is from` field. To create an email parser, see [Create email parsers in Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/parsing-emails.md).
+    At a minimum, fill in the `Email is from` field. To create an email parser, see [Create email parsers in Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/parsing-emails.md).
 
 5.  Check the **Active** box.
 

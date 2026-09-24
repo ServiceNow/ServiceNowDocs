@@ -3,11 +3,11 @@ title: Configure tier 1 landing page metric cards
 description: Configure the data displayed in donuts in the Overview section of the tier 1 landing page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/customize-first-level-cards.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Landing page configurations in Service Operations Workspace for ITSM, Getting started with Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -38,7 +38,7 @@ You can customize header label, data source, metric, group by field, and `viewAl
 
 4.  If the PAR dashboard is active on the landing page, do the following:
 
-    1.  [Configure the tier 1 dashboard configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-db-in-ac.md).
+    1.  [Configure the tier 1 dashboard configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/edit-db-in-ac.md).
 
         **Note:** If you’re creating a dashboard, you can use the saved visualizations to create a card for the dashboard. The data visualization is visible only to the users based on the respective roles.
 
@@ -207,5 +207,5 @@ You can customize header label, data source, metric, group by field, and `viewAl
 6.  Select **Update**.
 
 
-**Parent Topic:**[Landing page configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/landing-page-configurations-sow-itsm.md)
+**Parent Topic:**[Landing page configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/landing-page-configurations-sow-itsm.md)
 

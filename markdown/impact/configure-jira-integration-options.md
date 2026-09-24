@@ -3,11 +3,11 @@ title: Configure Jira user story integration
 description: Configure the Jira user story integration to create work items in a Jira project directly from Scan Engine finding records.The following leading practices are guidelines for creating Jira integration scripts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/configure-jira-integration-options.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [User story integration, Configure Scan Engine integrations, Configuring Impact, Impact]
+breadcrumb: [User story integration, Configure Scan Engine integrations, Activate Scan Engine and review settings, Impact Guided Setup, Configuring Impact, Impact]
 ---
 
 # Configure Jira user story integration
@@ -43,7 +43,7 @@ Role required: Scan Engine Admin \(sn\_se.scan\_engine\_admin\)
 8.  Select **Update**.
 
 
-**Parent Topic:**[User story integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/user-story-integration-properties.md)
+**Parent Topic:**[User story integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/user-story-integration-properties.md)
 
 ## Jira integration script leading practices
 

@@ -3,9 +3,9 @@ title: Understand the ServiceNow UI experiences
 description: You can develop in the following ServiceNow AI Platform user interfaces: the Next Experience UI, the Workspace UI, the Classic Environment, and the Core UI. This topic explains these user interfaces.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/understand-different-ui-experiences.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Learning about developing on the ServiceNow AI Platform, Building applications]
 ---
@@ -26,7 +26,7 @@ Benefits
 
 </th></tr></thead><tbody><tr><td>
 
-[Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md)
+[Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-landing-page.md)
 
 </td><td>
 
@@ -37,11 +37,11 @@ Benefits
     -   Use the Favorites, History, and Workspaces menu items to navigate to and pin important resources.
     -   Easily switch between Core UI applications and configurable workspaces.
     -   Find your recently viewed items in a single menu.
-    -   Create custom menus for your end users. For more information, see [Configure custom menus for Unified Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-custom-menu.md).
+    -   Create custom menus for your end users. For more information, see [Configure custom menus for Unified Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-custom-menu.md).
 
 </td></tr><tr><td>
 
-[Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md)
+[Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/workspace-landing-page.md)
 
 </td><td>
 
@@ -64,7 +64,7 @@ Keep informed of updates and surface important insights with a live activity fee
 
 </td></tr><tr><td>
 
-[Working in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/working-in-classic-lists-and-forms.md)
+[Working in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/working-in-classic-lists-and-forms.md)
 
 </td><td>
 
@@ -79,7 +79,7 @@ Create applications and develop with the full power of the ServiceNow AI Platfor
 
 </td></tr><tr><td>
 
-[Working in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/working-in-ui16-and-ui15.md)
+[Working in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/working-in-ui16-and-ui15.md)
 
 </td><td>
 

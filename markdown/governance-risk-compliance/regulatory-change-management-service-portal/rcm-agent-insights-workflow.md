@@ -3,7 +3,7 @@ title: Get regulatory analysis agentic workflow
 description: The get regulatory analysis workflow provides AI-driven insights into regulatory alerts, identifying impacted areas, compliance gaps, and recommended actions for risk mitigation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/rcm-agent-insights-workflow.html
-release: australia
+release: brazil
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
@@ -42,7 +42,7 @@ You can activate it by selecting **Get analysis** from the **Ask ServiceNow Otto
 
 By reducing manual research and supporting decision-making, the workflow helps organizations address compliance requirements across multiple regulatory frameworks while providing a structured approach for accuracy, scalability, and operational efficiency.
 
-For more information, see [Use agentic AI in ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/use-agentic-ai-in-risk-sustainability.md), [Activate the get regulatory analysis agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/activate-rcm-agent-workflow.md), and [Analyze and enrich regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/get-rcm-reg-insight.md).
+For more information, see [Use agentic AI in ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/use-agentic-ai-in-risk-sustainability.md), [Activate the get regulatory analysis agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/activate-rcm-agent-workflow.md), and [Analyze and enrich regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/get-rcm-reg-insight.md).
 
 ## Benefits of the workflow
 
@@ -81,7 +81,7 @@ Get regulatory analysis agentic workflow
 
 </td><td>
 
-Analyze and enrich regulatory alerts by using the get regulatory analysis agentic workflow in the ServiceNow Otto panel. This agentic workflow uses web search to enhance alert context and recommends potential impacts on citations, policies, and control objectives to support faster and more accurate compliance decisions. For more information, see [Activate the get regulatory analysis agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/activate-rcm-agent-workflow.md)and [Analyze and enrich regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/get-rcm-reg-insight.md).
+Analyze and enrich regulatory alerts by using the get regulatory analysis agentic workflow in the ServiceNow Otto panel. This agentic workflow uses web search to enhance alert context and recommends potential impacts on citations, policies, and control objectives to support faster and more accurate compliance decisions. For more information, see [Activate the get regulatory analysis agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/activate-rcm-agent-workflow.md)and [Analyze and enrich regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/get-rcm-reg-insight.md).
 
 </td><td>
 
@@ -93,23 +93,23 @@ Generate regulatory action plan agentic workflow
 
 </td><td>
 
-Generate regulatory action plans by using the generate regulatory action plan agentic workflow in the ServiceNow Otto panel. This agentic workflow analyzes impacted areas and similar historical alerts to create change tasks and action tasks that help implement regulatory change.For more information, see [Activate the Generate regulatory action plan agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/activate-rcm-agent-actions-workflow.md) and [Generate regulatory action plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/generate_regulatory_action_plans.md).
+Generate regulatory action plans by using the generate regulatory action plan agentic workflow in the ServiceNow Otto panel. This agentic workflow analyzes impacted areas and similar historical alerts to create change tasks and action tasks that help implement regulatory change.For more information, see [Activate the Generate regulatory action plan agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/activate-rcm-agent-actions-workflow.md) and [Generate regulatory action plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/generate_regulatory_action_plans.md).
 
 </td><td>
 
 sn\_grc\_reg\_change.user and sn\_grc\_comp\_genai.reg\_change\_ai\_agent\_user
 
 </td></tr></tbody>
-</table>**Note:** The get regulatory analysis agentic workflow relies on recommendation templates and alert configurations to generate actionable insights and tasks. Ensure that templates are properly set up and alerts are categorized to support workflow execution. For more information, see [Recommendation contexts and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/recommendation-contexts.md), [Create a recommendation context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/configure-recommendation-context.md), and [Create a recommendation template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-a-recommendation-template.md).
+</table>**Note:** The get regulatory analysis agentic workflow relies on recommendation templates and alert configurations to generate actionable insights and tasks. Ensure that templates are properly set up and alerts are categorized to support workflow execution. For more information, see [Recommendation contexts and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/recommendation-contexts.md), [Create a recommendation context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/configure-recommendation-context.md), and [Create a recommendation template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/create-a-recommendation-template.md).
 
 **Related topics**  
 
 
-[Explore ServiceNow Otto skills and agentic workflows in Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/rcm-exploring-now-assist-for-irm.md)
+[Explore ServiceNow Otto skills and agentic workflows in Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/rcm-exploring-now-assist-for-irm.md)
 
-[Supporting information for ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/now-assist-irm-supporting-info.md)
+[Supporting information for ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/now-assist-irm-supporting-info.md)
 
-[Analyze and enrich regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/get-rcm-reg-insight.md)
+[Analyze and enrich regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/get-rcm-reg-insight.md)
 
-[Generate regulatory action plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/generate_regulatory_action_plans.md)
+[Generate regulatory action plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/generate_regulatory_action_plans.md)
 

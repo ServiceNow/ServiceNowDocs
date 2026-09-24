@@ -3,9 +3,9 @@ title: Configure Financial Services Operations AI agents
 description: Configure Financial Services Operations AI agents to define their tools, access controls, triggers, and active status. You can also review Knowledge Graph tag records that supply structured and unstructured data to improve AI agent performance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/configure-fso-ai-agents.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-05-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Financial Services Operations, AI agents, AI Agent Studio, Knowledge Graph, agentic AI, ACH dispute, banking CSR, insurance CSR, agent configuration, triggers, access controls]
 audience: administrator
@@ -16,7 +16,7 @@ breadcrumb: [Enable AI capabilities, Configure, Financial Services Operations \(
 
 Configure Financial Services Operations AI agents to define their tools, access controls, triggers, and active status. You can also review Knowledge Graph tag records that supply structured and unstructured data to improve AI agent performance.
 
-For a list of all AI agents in FSO, see [AI capabilities in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/ai-capabilities-in-fso.md).
+For a list of all AI agents in FSO, see [AI capabilities in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/ai-capabilities-in-fso.md).
 
 ## Access the AI agent configuration
 
@@ -48,7 +48,7 @@ To access the agent configuration:
 
 ## Modifying AI agents
 
-To modify an AI agent in ServiceNow Otto for Financial Services Operations, duplicate the AI agent and make changes to the duplicate. For more information, see [Duplicate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-ai-agent.md) and [Modify an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-ai-agent.md).
+To modify an AI agent in ServiceNow Otto for Financial Services Operations, duplicate the AI agent and make changes to the duplicate. For more information, see [Duplicate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-ai-agent.md) and [Modify an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/modify-ai-agent.md).
 
 ## Access Knowledge Graph Tags configuration
 
@@ -77,7 +77,7 @@ The following shows each FSO application's knowledge graph tag records that list
 **Related topics**  
 
 
-[Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph-landing.md)
+[Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/knowledge-graph-landing.md)
 
-[Tagging in Knowledge Graph Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/tagging-in-knowledge-graph.md)
+[Tagging in Knowledge Graph Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/tagging-in-knowledge-graph.md)
 

@@ -3,11 +3,11 @@ title: Domain properties installed with Event Management
 description: Use the domain properties installed with Event Management to provide metadata that identifies the appropriate domain table for event creation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/installed-domain-properties.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Reference, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -63,5 +63,5 @@ Field that provides the domain path.-   **Type**: string
 -   **Default value**: sys\_domain\_path
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-management-reference.md)
+</table>**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/event-management-reference.md)
 

@@ -3,11 +3,11 @@ title: Summarize demands with the demand summarization skill
 description: Summarize demand records using the demand summarization skill. The skill reviews the demand fields and related lists and helps create a clear summary of the demand.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/summarize-demand-in-demand-workspace.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI skill, ServiceNow Otto, Gen AI, Generative AI, SPM, Strategic Portfolio Management, Demand summarization]
 breadcrumb: [Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
@@ -21,7 +21,7 @@ Summarize demand records using the demand summarization skill. The skill reviews
 
 ## Before you begin
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: it\_demand\_user, it\_demand\_manager, sn\_ppm\_read
 

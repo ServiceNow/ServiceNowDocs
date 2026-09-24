@@ -3,11 +3,11 @@ title: Classify data
 description: Group data by type, using pre-defined or user-defined data classifications. Assign data classifications to specific table columns in the Dictionary \[sys\_dictionary\] table. When you assign data classifications, it creates entries in the Dictionary-Data Class \[m2m\_dictionary\_dataclass\] table, which you can then review in the Overview dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/dps-classify-data.html
-release: australia
+release: brazil
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data classification, Data privacy, Data Privacy, Platform Privacy]
 ---

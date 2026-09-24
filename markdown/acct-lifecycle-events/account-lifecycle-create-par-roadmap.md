@@ -3,9 +3,9 @@ title: Create a product adoption roadmap
 description: Create a product adoption roadmap that guides customers through optimal product adoption to achieve maximum business value.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-create-par-roadmap.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Product adoption, Customer success, Use, Customer Success Management]
 ---
@@ -26,7 +26,7 @@ Use this task to create a visual roadmap that helps communicate product adoption
 
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and navigate to the **Success portfolio overview** page.
+1.  Navigate to **Workspace** &gt; **CRM Workspace** and navigate to the **Success portfolio overview** page.
 
 2.  Select an engagement from the list and navigate to the **Product adoption** tab.
 
@@ -40,11 +40,11 @@ Use this task to create a visual roadmap that helps communicate product adoption
     -   By capability: Organize specific capabilities within products for short term, tactical planning. Use this to focus on adopting features and functions.
 6.  Specify how the roadmap is to be created:
 
-    -   **From scratch**: Manually configure all roadmap settings and add products or capabilities.
-    -   **Template**: Use a pre-configured template that includes lanes, items, and phase field settings. Select a template from the **Template** drop down list and select **Finish**. The roadmap is created based on the pre-configured values defined in the template. See [Define a product adoption roadmap template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-par-roadmap-temp.md) for details.
-    -   **ServiceNow Otto**: Generate a roadmap using ServiceNow Otto. See [Generate a product adoption roadmap using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-tmt-generate-par-roadmap.md) for details.
+    -   From scratch: Manually configure all roadmap settings and add products or capabilities.
+    -   Template: Use a pre-configured template that includes lanes, items, and phase field settings. Select a template from the **Template** drop down list and select **Finish**. The roadmap is created based on the pre-configured values defined in the template. See [Define a product adoption roadmap template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-create-par-roadmap-temp.md) for details.
+    -   ServiceNow Otto: Generate a roadmap using ServiceNow Otto. See [Generate a product adoption roadmap using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-generate-par-roadmap.md) for details.
 
-        **Note:** The ServiceNow Ottooption is displayed only if:
+        **Note:** The ServiceNow Otto option is displayed only if:
 
         -   The ServiceNow Otto for TMT plugin has been installed.
         -   The **Lookup similar engagements** skill has been enabled.
@@ -60,7 +60,7 @@ Use this task to create a visual roadmap that helps communicate product adoption
         -   Select **Cancel** to discard the roadmap without saving it.
         -   Select **Edit name** to modify the name of the roadmap.
     -   Each time you finalize the roadmap, the system creates a version record that captures an immutable snapshot of the roadmap state. You can revert to any previous version at any time.
-    See [Product adoption roadmap versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-par-versioning.md) for details.
+    See [Product adoption roadmap versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-par-versioning.md) for details.
 
 9.  After you finalize the roadmap, you can do the following:
 
@@ -69,14 +69,14 @@ Use this task to create a visual roadmap that helps communicate product adoption
     -   Duplicate: Select **Duplicate map** to make a copy of the roadmap.
     -   Retire: Select **Retire** to archive the roadmap.
 
-**Parent Topic:**[Product adoption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-use-product-adopt.md)
+**Parent Topic:**[Product adoption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-use-product-adopt.md)
 
 **Related topics**  
 
 
-[View a product adoption roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-view-par-roadmap.md)
+[View a product adoption roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-view-par-roadmap.md)
 
-[Product adoption roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-par-roadmap.md)
+[Product adoption roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-par-roadmap.md)
 
-[Product adoption roadmap versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-par-versioning.md)
+[Product adoption roadmap versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-par-versioning.md)
 

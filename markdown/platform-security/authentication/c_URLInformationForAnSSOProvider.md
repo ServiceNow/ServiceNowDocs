@@ -3,11 +3,11 @@ title: URL information for an SSO provider
 description: During a login challenge resulting from a URL link into the instance that requires an SSO session, the referring URL might need to be supplied to the SSO provider so that after authentication, the URL can be passed back to the instance and linked to the correct resource.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/c\_URLInformationForAnSSOProvider.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SAML 2.0 concepts, SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---

@@ -3,11 +3,11 @@ title: Enable article optimization recommendations
 description: Enable article optimization recommendations in ServiceNow Otto to activate AI-powered improvement suggestions for knowledge articles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-in-knowledge-management/enable-ao-recommendations.html
-release: australia
+release: brazil
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
 topic_type: task
-last_updated: "2026-07-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [article optimization recommendations, AI Skills, knowledge optimization, AI Admin]
 breadcrumb: [Configure ServiceNow Otto in Knowledge Management, ServiceNow Otto in Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
@@ -36,5 +36,5 @@ Role required: admin
 6.  Select **Save**.
 
 
-**Parent Topic:**[Configuring ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configuring-now-assist-km.md)
+**Parent Topic:**[Configuring ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-in-knowledge-management/configuring-now-assist-km.md)
 

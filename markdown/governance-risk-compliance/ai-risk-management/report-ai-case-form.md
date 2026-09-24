@@ -3,12 +3,13 @@ title: Report an AI case form
 description: Use the Report an AI case form in the Employee Center to report an AI case with the necessary details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/report-ai-case-form.html
-release: australia
+release: brazil
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [report AI case form, AI case fields, Employee Center]
 breadcrumb: [Report an AI case, Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
@@ -35,5 +36,5 @@ See the following table for a description of the field values.
 |Impacted department|Department that is affected by the AI case. For example, Customer support.|
 |Sub-location of occurrence|Sublocation of the case occurrence. For example, the sub location is Tokyo.|
 
-**Parent Topic:**[Report an AI case from the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/report-ai-case.md)
+**Parent Topic:**[Report an AI case from the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/report-ai-case.md)
 

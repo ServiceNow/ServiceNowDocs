@@ -1,18 +1,18 @@
 ---
 title: Configure Forecast Categories
-description: Configure the forecast categories in CSM configurable workspace.
+description: Configure the forecast categories in CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-forecast-categories.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sales Forecasting, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Configure Forecast Categories
 
-Configure the forecast categories in CSM configurable workspace.
+Configure the forecast categories in CRM Workspace.
 
 ## Before you begin
 
@@ -48,7 +48,7 @@ If required, users can either delete or make a forecast category inactive. When 
 **Related topics**  
 
 
-[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-sales-forecasting.md)
+[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-sales-forecasting.md)
 
-[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-forecasting.md)
+[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/sales-forecasting.md)
 

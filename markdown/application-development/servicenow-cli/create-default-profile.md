@@ -3,13 +3,13 @@ title: Create a default profile
 description: Create a connection profile that the ServiceNow CLI uses by default. You must create a default profile to set up the CLI's initial connection with an instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-cli/create-default-profile.html
-release: australia
+release: brazil
 product: ServiceNow CLI
 classification: servicenow-cli
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring and managing your ServiceNow CLI connection profiles, ServiceNow CLI, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Configuring and managing your ServiceNow CLI connection profiles, ServiceNow CLI, Developing your application, Building applications]
 ---
 
 # Create a default profile
@@ -76,5 +76,5 @@ By default, the information in this profile is used when you run a command that 
     The command creates a record in the instance specified in the default profile with the specified connection options.
 
 
-**Parent Topic:**[Configuring and managing your ServiceNow CLI connection profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-cli/configure-profile.md)
+**Parent Topic:**[Configuring and managing your ServiceNow CLI connection profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-cli/configure-profile.md)
 

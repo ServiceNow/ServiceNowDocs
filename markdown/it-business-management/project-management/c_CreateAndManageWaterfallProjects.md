@@ -3,11 +3,11 @@ title: Create and manage waterfall projects
 description: Plan, create, and manage projects using the Waterfall methodology.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/c\_CreateAndManageWaterfallProjects.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -51,7 +51,7 @@ The following tables, arranged by task group, list the tasks involved in creatin
 |Monitor the testing progress|The Test Plans list, Test Plan form, and Test Case form all display results for test cases and individual tests.|
 |Testing sign-off|Select the **Sign-off Test Plan** related link on Test Plan form.|
 
-**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
+**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CreateAProject.md)
 
 **Related topics**  
 
@@ -71,6 +71,10 @@ The following tables, arranged by task group, list the tasks involved in creatin
 [Recalculating costs of all resource plans in a project]()
 
 [Create an expense line]()
+
+[Schedule a project from a start date]()
+
+[Apply or change a task constraint]()
 
 [Update a project]()
 
@@ -100,5 +104,5 @@ The following tables, arranged by task group, list the tasks involved in creatin
 
 [Migrate financial baselines of projects to Next Experience]()
 
-[Create baseline of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectBaseline.md)
+[Create baseline of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CreateAProjectBaseline.md)
 

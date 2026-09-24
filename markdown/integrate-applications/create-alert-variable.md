@@ -3,9 +3,9 @@ title: Create an alert variable for an alert rule in RPA Hub
 description: Create a variable to configure the messages of an alert rule.Use the Alert variable form to create a variable for an alert rule message configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-alert-variable.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Alert rule and variable, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -18,7 +18,7 @@ Create a variable to configure the messages of an alert rule.
 
 You must do this task in the classic environment.
 
-Create an alert rule. For more information, see [Create an alert rule to generate custom notifications in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-alert-rule-rpa.md).
+Create an alert rule. For more information, see [Create an alert rule to generate custom notifications in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-alert-rule-rpa.md).
 
 Role required: sn\_rpa\_fdn.rpa\_support\_user, sn\_rpa\_fdn.rpa\_developer, or sn\_rpa\_fdn.rpa\_admin
 
@@ -39,7 +39,7 @@ Alert variable refers to a variable or parameter associated with alerts of RPA H
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Alert rule and variable in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/alert-rule-rpa-hub.md)
+**Parent Topic:**[Alert rule and variable in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/alert-rule-rpa-hub.md)
 
 ## Alert variable form in RPA Hub
 

@@ -3,11 +3,11 @@ title: Configure special handling notes for the Now Mobile Agent application
 description: Use special handling notes to notify users about important information on an individual work task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/configure-shn-fsm-mobile.html
-release: australia
+release: brazil
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the Now Mobile Agent application, Setting up Field Service Mobile Agent, Configure, Field Service Management]
 ---
@@ -32,6 +32,6 @@ Role required: sn\_shn.admin
 
 5.  Click **Submit**.
 
-6.  To modify special handling notes properties, see [Configure special handling notes properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_EnableOnScreenAlertProperties.md).
+6.  To modify special handling notes properties, see [Configure special handling notes properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/t_EnableOnScreenAlertProperties.md).
 
 

@@ -3,11 +3,11 @@ title: Compare results and execution times for different automated test and suit
 description: You can compare execution times for different runs of an automated test or automated test suite. You can also compare results over time for a single automated test suite.Compare how long it took the system to execute each test across different runs of the same test suite.Compare how many tests passed versus failed across different runs of the same test suite.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-compare-runs.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Administering the Automated Test Framework \(ATF\), Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -37,7 +37,7 @@ Role required: atf\_test\_admin or atf\_test\_designer
     The system displays the Compare test result execution times bar graph.
 
 
-**Parent Topic:**[Administering the Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-admin-overview.md)
+**Parent Topic:**[Administering the Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-admin-overview.md)
 
 ## Compare execution times for different runs of the same automated test suite
 

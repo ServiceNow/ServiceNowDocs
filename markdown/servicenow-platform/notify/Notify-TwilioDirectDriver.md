@@ -3,11 +3,11 @@ title: Notify Twilio Direct driver
 description: The Notify-Twilio integration with the Notify-Twilio Direct driver provides APIs and workflow activities for applications to handle various notification features.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/Notify-TwilioDirectDriver.html
-release: australia
+release: brazil
 product: Notify
 classification: notify
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -34,7 +34,7 @@ To enhance the security, another set of user credentials are added in the system
 
 **Note:** Twilio Direct creates the Standard type API keys.
 
-If the instance is connected to Twilio and you upgrade to Australia, the Twilio will not be disconnected from your instance and continues to use the Account SID and Auth key. However, if the administrator disconnects Twilio from the instance and re-connect the Twilio service, the additional record will be created to enhance the security.
+If the instance is connected to Twilio and you upgrade to Brazil, the Twilio will not be disconnected from your instance and continues to use the Account SID and Auth key. However, if the administrator disconnects Twilio from the instance and re-connect the Twilio service, the additional record will be created to enhance the security.
 
 ## Activation Information
 
@@ -42,10 +42,10 @@ For new customers, only the Notify-Twilio Direct driver is available by default.
 
 The Notify plugin must be active to access Notify.
 
-**Parent Topic:**[Exploring Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/exploring-notify.md)
+**Parent Topic:**[Exploring Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/notify/exploring-notify.md)
 
 **Related topics**  
 
 
-[Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/t_ConfigureNotifyWithTwilio.md)
+[Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/notify/t_ConfigureNotifyWithTwilio.md)
 

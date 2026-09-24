@@ -3,11 +3,11 @@ title: AWS Lambda discovery with Patterns
 description: The ServiceNow Discovery and Service Mapping applications can find and map Lambda functions that run in your AWS cloud. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/aws-lambda-discovery.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -32,7 +32,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **User policy for AWS user**
 
-    If you use Identity and Access Management \(IAM\) to manage users in Amazon Web Services \(AWS\) platform, ensure that you created a user policy for the AWS user. For more information, refer to [Control AWS access and permissions using policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aws-create-user-policy-cloud-mgt.md) in the ServiceNow Cloud Provisioning and Governance documentation.
+    If you use Identity and Access Management \(IAM\) to manage users in Amazon Web Services \(AWS\) platform, ensure that you created a user policy for the AWS user. For more information, refer to [Control AWS access and permissions using policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aws-create-user-policy-cloud-mgt.md) in the ServiceNow Cloud Provisioning and Governance documentation.
 
 -   **AWS service account with credentials**
 
@@ -66,7 +66,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **MID Server**
 
-    When installing the MID Server, ensure that the host machine meets or exceeds the [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerSystemRequirements.md) published on the ServiceNow documentation site.
+    When installing the MID Server, ensure that the host machine meets or exceeds the [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_MIDServerSystemRequirements.md) published on the ServiceNow documentation site.
 
 
 ## Verify the REST API Permissions
@@ -189,12 +189,12 @@ The Pattern Designer fails because of a timeout during pattern debugging \(and n
 By default, the **sa.debugger.max\_timeout**parameter is set to 240 seconds.Increase the value of this parameter on the relevant MID Server.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
+</table>**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 
 **Related topics**  
 
 
-[Test patterns for discovering AWS API Gateway and AWS Lambda](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/test-patterns-for-discovering-aws-api-and-aws-lambda.md)
+[Test patterns for discovering AWS API Gateway and AWS Lambda](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/test-patterns-for-discovering-aws-api-and-aws-lambda.md)
 
-[Define a Cloud REST Query for cloud computing devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/cloud-rest-query-pattern.md)
+[Define a Cloud REST Query for cloud computing devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/cloud-rest-query-pattern.md)
 

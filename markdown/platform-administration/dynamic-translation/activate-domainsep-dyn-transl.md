@@ -3,11 +3,11 @@ title: Request for domain separation in Dynamic Translation
 description: Enable the support for the Dynamic Translation framework in domain-separated instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation/activate-domainsep-dyn-transl.html
-release: australia
+release: brazil
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Dynamic Translation, Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -59,7 +59,7 @@ Which plugin would you like to activate
 
 Select the name of the plugin to activate.
 
- **Note:** If the plugin isn't listed, or if you're activating on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box. Enter the plugin name in the field that appears.
+ **Note:** If the system doesn't list the plugin you want or if you're activating the plugin on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box and then enter the name of the plugin.
 
 </td></tr><tr id="date-time"><td>
 
@@ -79,12 +79,12 @@ Select the date and time to activate the plugin.
 
 ## What to do next
 
-For information about configuring domain separation in Dynamic Translation, see [Domain separation and Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/domain-sep-dynamic-translation.md).
+For information about configuring domain separation in Dynamic Translation, see [Domain separation and Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-translation/domain-sep-dynamic-translation.md).
 
-**Parent Topic:**[Configuring Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/configuring-dynamic-translation.md)
+**Parent Topic:**[Configuring Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-translation/configuring-dynamic-translation.md)
 
 **Related topics**  
 
 
-[Available plugins and applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[Available plugins and applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-of-plugins.md)
 

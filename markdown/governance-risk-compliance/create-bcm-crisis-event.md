@@ -3,9 +3,9 @@ title: Review event details and start an exercise event
 description: Review the details of an event in the Details tab, start an event to test your business continuity or recovery plan, and monitor completion of the event.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-bcm-crisis-event.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Structured workflows for Exercise and Crisis Management, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -223,7 +223,7 @@ Additional information about the exercise event.
 
         You can view the approval details in the Approvals related list with its name, level of approval, and the state of the approval.
 
-        Select the Approval History related list to view the approval state, name of the approver, event number, date of approval request, and comments if any.
+        Select the Approval History related list. It displays the approval state, approver name, event number, approval request date, and any comments.
 
         **Note:** If you are a BCM Program Manager, then you can see the **Approve** and **Reject** buttons.
 

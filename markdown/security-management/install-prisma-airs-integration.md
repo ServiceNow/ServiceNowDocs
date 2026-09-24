@@ -3,9 +3,9 @@ title: Install the Vulnerability Response Integration with Palo Alto Prisma AIRS
 description: Install and configure the Vulnerability Response Integration with Palo Alto Prisma AIRS in your ServiceNow AI Platform instance. Import AI security scan results, posture findings, and model validation data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/install-prisma-airs-integration.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore the Palo Alto Prisma AIRS Integration for AI Security Exposure Management, Integrate, Unified Security Exposure Management, Security Operations]
 ---
@@ -61,8 +61,8 @@ The admin assigns the following ServiceNow AI Platform roles for this integratio
     -   Prisma AIRS - Red Team Scan Guardrails — Retrieves detailed guardrails information.
 6.  Configure execution options for each integration.
 
-    -   To run integrations on demand, use the **Execute Now** button. See [Running integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/install-prisma-airs-integration.md).
-    -   To run integrations on a recurring schedule, configure a schedule for each integration. See the following section, [Running integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/install-prisma-airs-integration.md).
+    -   To run integrations on demand, use the **Execute Now** button. See [Running integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/install-prisma-airs-integration.md).
+    -   To run integrations on a recurring schedule, configure a schedule for each integration. See the following section, [Running integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/install-prisma-airs-integration.md).
     **Note:** The integrations use business rules that are activated by default to process incoming data.
 
 
@@ -87,6 +87,4 @@ Scheduling integrations:
 4.  Configure your desired frequency, for example, daily or hourly.
 5.  Save the integration record.
 6.  Perform these steps for each integration.
-
-**Parent Topic:**[Explore the Palo Alto Prisma AIRS Integration for AI Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/prisma-airs-integration.md)
 

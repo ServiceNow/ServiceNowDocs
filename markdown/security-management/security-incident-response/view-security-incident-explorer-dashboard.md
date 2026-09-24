@@ -3,11 +3,11 @@ title: View Security Incident Explorer dashboard
 description: With this dashboard, security managers are able to view security incidents summarized and grouped by category, subcategory, location, priority and business impact.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/view-security-incident-explorer-dashboard.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View SIR Workspace Dashboards, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -32,7 +32,7 @@ Role required: sn\_si.analyst \(Read\), sn\_si.manager or sn\_si.admin \(Write\)
 
     \[Omitted image "security-incident-explorer-dashboard.png"\] Alt text: Security Analysts Overview dashboard
 
-    View the Security Incident Explorer dashboard for further action. For detailed information on Security Incident Explorer dashboard, see [Security Incident Explorer dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/si-explorer-dashboard.md)
+    View the Security Incident Explorer dashboard for further action. For detailed information on Security Incident Explorer dashboard, see [Security Incident Explorer dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/si-explorer-dashboard.md)
 
     In the current release, the following list of reports is not supported in the Security Incident Explorer dashboard: 
 

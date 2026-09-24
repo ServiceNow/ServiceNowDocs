@@ -3,9 +3,9 @@ title: Import installed products with guided setup
 description: Installed products provide information on the sold products and how they are deployed or installed. Import installed products to create an association between sold products and install base items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/import-csm-installed-products.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Installed products, Configure install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---

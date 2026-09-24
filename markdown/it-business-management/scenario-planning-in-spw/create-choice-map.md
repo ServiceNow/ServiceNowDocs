@@ -3,11 +3,11 @@ title: Create a choice map
 description: Map the choice list for each field map for fields with a list of values from Strategic Planning to Agile Development 2.0, SAFe, Project Portfolio Management and vice-versa.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/create-choice-map.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create custom mapping configurations, Configuring Strategic Planning with PPM, Agile 2.0, and SAFe, Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Map the choice list for each field map for fields with a list of values from Str
 
 ## Before you begin
 
-Ensure that you have created a field map and it contains choice fields with a list of values. For more information, see [Create a field map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-field-map.md).
+Ensure that you have created a field map and it contains choice fields with a list of values. For more information, see [Create a field map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/create-field-map.md).
 
 Role required: sn\_align\_core.apw\_admin
 
@@ -34,7 +34,7 @@ Role required: sn\_align\_core.apw\_admin
 
 5.  Create a new choice map by selecting **New** in the Choice Maps tab.
 
-6.  In the [Choice map form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/choice-map-form.md), fill in the fields.
+6.  In the [Choice map form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/choice-map-form.md), fill in the fields.
 
 7.  Click **Submit**.
 

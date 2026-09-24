@@ -3,11 +3,11 @@ title: Configuring the Azure pipeline for DevOps
 description: Change control, artifacts, and packages can be configured in the Azure pipeline for integration with DevOps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/config-azure-pipeline-dev-ops.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Azure DevOps, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -18,8 +18,8 @@ Change control, artifacts, and packages can be configured in the Azure pipeline 
 
 You can configure change control in Azure pipelines two ways.
 
--   Use the [Azure Invoke REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-azure-change-control-api.md).
--   Use the [ServiceNow DevOps extension for Azure DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/config-dev-ops-extensions-azure.md).
+-   Use the [Azure Invoke REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/dev-ops-azure-change-control-api.md).
+-   Use the [ServiceNow DevOps extension for Azure DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/config-dev-ops-extensions-azure.md).
 
 The **ServiceNow DevOps** extension for Azure DevOps includes:
 
@@ -27,5 +27,5 @@ The **ServiceNow DevOps** extension for Azure DevOps includes:
 -   ServiceNow DevOps Release Gate
 -   Azure build \(CI\) pipeline agent and server job custom tasks
 
-**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/azure-devops-integration-dev-ops.md)
+**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/azure-devops-integration-dev-ops.md)
 

@@ -3,11 +3,11 @@ title: Teams in Workforce Optimization
 description: Use Teams to track and analyze performance trends for your teams from a single location. You can monitor the trends for each agent within your team and compare your agents or team members with one another.Analyze trends to monitor your team's performance and adherence within a KPI group. Analyze the data by drilling down into the data for a team, a specific team member, an indicator, or a case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/using-teams-wfo-fsm.html
-release: australia
+release: brazil
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workforce Optimization, Managing workforce, Use, Field Service Management]
 ---
@@ -42,7 +42,7 @@ Role required: sn\_wfo\_fsm.manager
 
 3.  Select a date range to view your teams' performance for that time period.
 
-    You can set the default date range using the sn\_team\_perf.default\_date\_range property. For more information, see [Workforce Optimization for Field Service components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/components-wfo-fsm.md).
+    You can set the default date range using the sn\_team\_perf.default\_date\_range property. For more information, see [Workforce Optimization for Field Service components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/components-wfo-fsm.md).
 
 4.  Analyze team performance.
 

@@ -3,9 +3,9 @@ title: Clone a task plan template
 description: Clone an existing task plan template to create a new template that includes the items, conditions, and hierarchy of the original template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/clone-task-plan-template.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Task Plan Templates, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_task\_plan.admin or sn\_task\_plan.creator role
 
 ## About this task
 
-When you clone a task plan template, the system creates a new task plan template with a unique record number and opens the cloned template in a new tab. The system creates the new template in Draft status and in the active state. The cloned template is also added to the task plan template list.
+When you clone a task plan template, the system creates a new template with a unique record number, sets it to Draft status and active state, adds it to the task plan template list, and opens it in a new tab.
 
 The cloned template includes the following:
 
@@ -28,6 +28,8 @@ The cloned template includes the following:
 -   Template item attachments.
 -   Template item conditions.
 -   Child Template Items related list.
+-   Affected service organizations.
+-   Document references.
 
 **Note:** The Clone button is disabled if more than one task plan template is selected.
 

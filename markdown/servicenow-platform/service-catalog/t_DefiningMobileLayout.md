@@ -3,11 +3,11 @@ title: Define the mobile layout
 description: You can configure the Classic Mobile layout for categories within a service catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_DefiningMobileLayout.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Classic Mobile devices, Service Catalog customization, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -41,7 +41,7 @@ By default, service catalog categories appear on mobile devices in the same orde
     **Note:** To return the display to the default desktop layout settings for the portal page associated with that catalog, click the **Replace categories with desktop layout** related link.
 
 
-**Parent Topic:**[Configure Classic Mobile devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_ServiceCatalogOnMobileDevices.md)
+**Parent Topic:**[Configure Classic Mobile devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/t_ServiceCatalogOnMobileDevices.md)
 
 **Related topics**  
 

@@ -3,11 +3,11 @@ title: Define an audience for your variant
 description: An audience represents a group of users in your organization. You can define who can access this page variant by adding one or more predefined audiences.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/learn-by-example-define-audience.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Learn UI Builder by example, Learning UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -53,7 +53,7 @@ In the previous procedure, you created a page variant that can be viewed by anyo
 
 Select the **Next topic** link to learn how to apply conditions to the variant so that the variant is visible only when the defined conditions are met.
 
-**Parent Topic:**[Learn UI Builder by example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/learning-uib-by-example.md)
+**Parent Topic:**[Learn UI Builder by example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/learning-uib-by-example.md)
 
 **Related topics**  
 

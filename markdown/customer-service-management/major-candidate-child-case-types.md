@@ -3,10 +3,10 @@ title: Major, candidate, and child cases
 description: Major issue management uses major case candidates to identify potential issues that impact multiple customers. Managers approve candidate cases for promotion to major cases, which you use to manage issue resolution. The system creates child cases for impacted customers and links them to the corresponding major case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/major-candidate-child-case-types.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-22"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Major issue management overview, Manage cases, Use, Customer Service Management]
 ---
 
@@ -16,17 +16,18 @@ Major issue management uses major case candidates to identify potential issues t
 
 ## Major cases
 
-A major case contains information about a specific issue that affects multiple customers. The major case itself is not linked to specific accounts, contacts, or consumers. Instead, customer-specific information is stored in the child cases that are linked to the major case.
+A major case contains information about a specific issue that affects multiple customers. The major case itself is not linked to specific accounts, contacts, consumers, or business organizations. Instead, customer-specific information is stored in the child cases that are linked to the major case.
 
 The recipients list associated with the major case identifies customers impacted by the issue. Select a list in the **Affected Customers** field in the Major Case Information form section of the Major Case form. After adding the list, you can automatically create child cases for all customers on the list. These cases are added to the **Child Cases** related list on the Major Case form.
 
-With [synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/major-candidate-child-case-types.md) enabled, updates to the parent major case are automatically synchronized to the associated child cases. When the major case is closed, the system also closes associated child cases in the following states: New, Open, Awaiting Customer Info.
+With [synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/major-candidate-child-case-types.md) enabled, updates to the parent major case are automatically synchronized to the associated child cases. When the major case is closed, the system also closes associated child cases in the following states: New, Open, Awaiting Customer Info.
 
 When the `enable_case_type_for_major_case` property is set to `true`, the system uses the `sys_class_name` of the candidate case to determine the case type of the resulting major case and its child cases, rather than defaulting to the base Case table.
 
 To identify major cases in the list view, check the value in the **Major case state** field.
 
--   Major cases have a state of Proposed or Accepted.
+-   Major cases have a state of Accepted.
+-   Major case candidates have a state of either Proposed or Rejected.
 -   Regular cases have a blank value.
 
 In the form view, major cases and major case candidates display the Major Case Information form section.
@@ -49,11 +50,11 @@ If a major case candidate is rejected, the system reverts it to a regular case.
 
 ## Child cases
 
-Child cases are linked to a major case. The system creates one child case for each account \(B2B\) or consumer \(B2C\) that is affected by the major case issue. Child cases are created from the recipients list on the major case, and a major issue manager can also add them manually.
+Child cases are linked to a major case. The system creates one child case for each account \(B2B\), consumer \(B2C\), or business organizations that is affected by the major case issue. Child cases are created from the recipients list on the major case, and a major issue manager can also add them manually.
 
-When the system creates child cases, it copies the short description from the major case to each child case. The system does not create duplicate child cases. If a child case already exists for an account or consumer, the system does not create another one.
+When the system creates child cases, it copies the short description from the major case to each child case. The system does not create duplicate child cases. If a child case already exists for an account, consumer, or or business organizations the system does not create another one.
 
-When you create child cases, you can enter text in a pop-up window. This text is added to the **Work notes** field on the child case form. These comments are added only to the newly created child cases. The major case and any existing child cases are not updated.
+When you create child cases, you can enter text in a pop-up window. This text is added to the **Additional comments** field on the child case form. These comments are added only to the newly created child cases. The major case and any existing child cases are not updated.
 
 The primary contact for an account is automatically added to the child case as a contact and is included on the child case watchlist.
 
@@ -61,17 +62,11 @@ The primary contact for an account is automatically added to the child case as a
 
 When a major case is in the **Proposed** state, the AI detection workflow populates the **Suggested child cases** related list with cases that have been identified as potential members of the major case group.
 
-As a major issue manager, take the following steps:
-
--   Review the suggested child cases
--   Use the **Add to major case** action on the **Suggested child cases** related list to add the cases as child cases of that major case.
-
-    **Note:** This action is available only when the major case state is **Accepted** and the case is in a non-terminal state.
-
+A major issue manager can review the suggested child cases and use the **Add to major case** action on the **Suggested child cases** related list to add the cases as child cases of that major case. This action is available only when the major case state is **Accepted** and the case is in a non-terminal state.
 
 When a suggested child case is added to the major case, it is removed from the **Suggested child cases** list and added to the **Child Cases** related list.
 
-When a major case moves to the **Accepted** state, all of the suggested child cases are moved to the **Child Cases** related list.
+When a major case moves to the **Accepted** state, all of the suggested child cases become child cases and are moved to the **Child Cases** related list.
 
 ## Synchronization between major cases and associated child cases
 

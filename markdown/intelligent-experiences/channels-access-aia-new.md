@@ -3,11 +3,11 @@ title: Select channels and processing messages for an AI agent
 description: In the guided setup for an AI agent, select whether to use it in the ServiceNow Otto panel or an Otto assistant.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/channels-access-aia-new.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create an AI agent, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Create an AI agent, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Select channels and processing messages for an AI agent
@@ -49,5 +49,5 @@ You have completed the channels section of the guided setup for creating an AI a
 
 ## What to do next
 
-Move to the next section, [Manage memory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/map-ltm-aia-new.md).
+Move to the next section, [Manage memory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/map-ltm-aia-new.md).
 

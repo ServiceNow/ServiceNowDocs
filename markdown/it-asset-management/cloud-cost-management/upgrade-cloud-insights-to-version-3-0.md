@@ -3,11 +3,11 @@ title: Upgrade Cloud Cost Management
 description: You upgrade Cloud Cost Management on the System Applications page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/upgrade-cloud-insights-to-version-3-0.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -28,9 +28,9 @@ Role required: sys\_admin
 
 3.  Find the **Cloud Cost Management** app.
 
-4.  In the selection list, select **Update** for version **9.0**.
+4.  In the selection list, select **Update** for version **11.0**.
 
-    You can also update to the 9.0 version from 8.1 onwards.
+    You can also update to the 11.0 version from 8.1 onwards.
 
 5.  When the update is complete, clear the browser cache.
 

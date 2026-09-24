@@ -3,11 +3,11 @@ title: Activate GRC: Performance Analytics Integration
 description: The GRC: Performance Analytics Integration plugin provides an integration between Performance Analytics and the Risk Management and Policy and Compliance Management applications. This plugin provides more insight into organizational risk and compliance performance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/activate-grc-pa-prem-integ-2.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Monitor risks using GRC Performance Analytics Indicators, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -36,17 +36,17 @@ This plugin includes demo data and activates related plugins if they are not alr
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 
 ## What to do next
 
 After activating the GRC: Performance Analytics Integration plugin on an instance with customized related lists on content \(risk or control objective\) or items \(risk or control\), you may have to manually add the PA Indicator to content relationships and/or the PA indicator to item relationships.
 
-**Parent Topic:**[Monitor risks using GRC Performance Analytics Indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/pa-indicators-risk.md)
+**Parent Topic:**[Monitor risks using GRC Performance Analytics Indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/pa-indicators-risk.md)
 
 **Related topics**  
 
 
-[List of plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[List of plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)
 

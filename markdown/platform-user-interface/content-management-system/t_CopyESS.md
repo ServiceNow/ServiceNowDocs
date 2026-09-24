@@ -3,11 +3,11 @@ title: Customize a copy of a page template
 description: One good source for templates is the base system sample site. It is easy to copy pages and restyle them into new page templates to meet different business requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_CopyESS.html
-release: australia
+release: brazil
 product: Content Management System
 classification: content-management-system
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Content Management templates, Configure Content Management sites, Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -44,8 +44,8 @@ The Employee Self-Service portal is provided as a working example and design tem
 
 8.  Click **Update**.
 
-9.  Use the page in other sites you created by [assigning pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_AssignAPageToASite.md) to a site.
+9.  Use the page in other sites you created by [assigning pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/t_AssignAPageToASite.md) to a site.
 
 
-**Parent Topic:**[Content Management templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentManagementTemplates.md)
+**Parent Topic:**[Content Management templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/c_ContentManagementTemplates.md)
 

@@ -3,9 +3,9 @@ title: View the process jobs of a bot process in RPA Hub
 description: View a list of execution logs of a bot process in RPA Hub.Use the Process job form to view a list of the execution logs of a bot process.A process job represents the execution of a bot process on a robot.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/view-process-jobs-botprocess.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Success, Failed, Canceled, Skipped, Abandoned, Running, RPA Hub]
 breadcrumb: [Monitor, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
@@ -17,7 +17,7 @@ View a list of execution logs of a bot process in RPA Hub.
 
 ## Before you begin
 
-Create a bot process. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess.md).
+Create a bot process. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-botprocess.md).
 
 Role required: sn\_rpa\_fdn.rpa\_release\_manager, sn\_rpa\_fdn.rpa\_support\_user, sn\_rpa\_fdn.rpa\_developer, sn\_rpa\_fdn.rpa\_business\_user, or sn\_rpa\_fdn.rpa\_admin
 
@@ -37,14 +37,14 @@ A process job represents the execution of a bot process on a robot.
 
 5.  On the **Process Jobs** tab, select the process job that you want to view.
 
-    For more information, see [Process job states in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/view-process-jobs-botprocess.md).
+    For more information, see [Process job states in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/view-process-jobs-botprocess.md).
 
 6.  Open a process job record to view an associated automation log.
 
 7.  In the Automation Logs tab, view the details.
 
 
-**Parent Topic:**[Monitoring automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/monitoring-automations-rpa.md)
+**Parent Topic:**[Monitoring automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/monitoring-automations-rpa.md)
 
 ## Process job form in RPA Hub
 
@@ -95,7 +95,7 @@ State of the process job:-   Success
 -   Canceled
 -   Abandoned
 
-For more information about process job states and their scenarios, see [Process job states in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/view-process-jobs-botprocess.md).
+For more information about process job states and their scenarios, see [Process job states in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/view-process-jobs-botprocess.md).
 
 </td></tr><tr><td>
 
@@ -117,7 +117,7 @@ Source of the trigger.-   **Schedule**- If the automation is triggered via a sch
 -   **Manual**- If the attended automation is triggered by a user or if the unattended automation is triggered by **Start Process**.
 -   **Embedded Task Automation**- If the attended automation is triggered from the ServiceNow form.
 
-For more information, see [Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/embedded-task-auto-rpa.md).
+For more information, see [Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/embedded-task-auto-rpa.md).
 
 
 </td></tr><tr><td>

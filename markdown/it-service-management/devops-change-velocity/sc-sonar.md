@@ -3,11 +3,11 @@ title: Onboard SonarQube to DevOps Change Velocity — Service Catalog
 description: Connect your Sonar instance using the ServiceNow Service Catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/sc-sonar.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SonarQube, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -86,5 +86,5 @@ Optional. Select MID Server for an on-premises tool that is attached to a 
     A request is created. When the request is approved, the tool is connected.
 
 
-**Parent Topic:**[SonarQube integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/sonarqube-devops-integration-devops.md)
+**Parent Topic:**[SonarQube integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/sonarqube-devops-integration-devops.md)
 

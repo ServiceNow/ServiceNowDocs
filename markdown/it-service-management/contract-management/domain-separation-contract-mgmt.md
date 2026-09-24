@@ -3,11 +3,11 @@ title: Domain separation and Contract Management
 description: Domain separation is unsupported in Contract Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/contract-management/domain-separation-contract-mgmt.html
-release: australia
+release: brazil
 product: Contract Management
 classification: contract-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Contract Management, Asset Management common applications, IT Service Management]
 ---
@@ -29,9 +29,9 @@ Domain separation is unsupported in Contract Management. Domain separation enabl
 
 **Warning:** Contract data is separated by domain, but automated contract processes might not respect domain boundaries. Test all automated workflows in your domain-separated environment before deploying to production.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-separated-apps.md).
 
-**Parent Topic:**[Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/c_ContractManagement.md)
+**Parent Topic:**[Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/contract-management/c_ContractManagement.md)
 
 **Related topics**  
 
@@ -46,5 +46,5 @@ For more information on support levels, see [Application support for domain sepa
 
 [Condition check definitions]()
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-sep-landing-page.md)
 

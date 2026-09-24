@@ -3,11 +3,11 @@ title: Legacy: Major incident overview dashboard
 description: Major Incident Overview module provides two versions of the Performance Analytics \(PA\) Dashboard to review major incident information at a glance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/major-incident-overview.html
-release: australia
+release: brazil
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Managing major incidents, Incident Management, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Major Incident Overview module provides two versions of the Performance Analytic
 
 **Important:**
 
-Starting in Xanadu release, the Major incident overview dashboard is deprecated. Users can use [Major incident dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/major-incident.md) to view the process and communication related metrics for Open and Closed major incidents.
+Starting in Xanadu release, the Major incident overview dashboard is deprecated. Users can use [Major incident dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/major-incident.md) to view the process and communication related metrics for Open and Closed major incidents.
 
 Users with itil, sn\_incident\_write, major\_incident\_manager or communication\_manager role can access the dashboard.
 
@@ -155,12 +155,12 @@ Major Incident Overview – Premium provides the following additional functions:
 
 \[Omitted image "major-incident-overview-premium.png"\] Alt text: Major incident overview - premium
 
-**Parent Topic:**[Managing major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/major-incident-management.md)
+**Parent Topic:**[Managing major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/major-incident-management.md)
 
 **Related topics**  
 
 
-[Create and use dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-and-edit-dashboards.md)
+[Create and use dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-and-edit-dashboards.md)
 
-[Major incident workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/major-incident-workbench.md)
+[Major incident workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/major-incident-workbench.md)
 

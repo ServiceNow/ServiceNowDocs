@@ -3,11 +3,11 @@ title: Allocate IP address slots in a subnetwork
 description: Allocate IP address slots to create one Allocated IP Address record for each address in a subnetwork CIDR. Reserved addresses \(the first and last for IPv4, or the first for IPv6\) are flagged automatically and can't be promoted to IP Address records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/allocate-ip-address-slots-in-a-subnetwork.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Manage IP addresses, Inventory number allocation, Define inventory records, Use, Telecommunications Network Inventory]
 ---
@@ -24,7 +24,7 @@ The IP Subnetwork must be in an active state \(Life Cycle Stage = Operational an
 
 The subnetwork must not already have allocated IP records. To re-allocate, delete the existing allocated IP records first.
 
-The subnetwork's CIDR must contain at most 64 addresses. This means the prefix length must be /26 or longer for IPv4, or /122 or longer for IPv6. For more information, see [Bulk allocation limits for allocated IP addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/bulk-allocation-limits-for-allocated-ip-addresses.md).
+The subnetwork's CIDR must contain at most 64 addresses. This means the prefix length must be /26 or longer for IPv4, or /122 or longer for IPv6. For more information, see [Bulk allocation limits for allocated IP addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/bulk-allocation-limits-for-allocated-ip-addresses.md).
 
 Role required: `core.dc_ops_agent, sn_ni_core.inventory_agent`
 
@@ -32,7 +32,7 @@ Role required: `core.dc_ops_agent, sn_ni_core.inventory_agent`
 
 Allocating IP address slots creates one Allocated IP Address record for every address in the subnetwork's CIDR. Each record carries an Is Reserved flag, set automatically for protocol-reserved addresses. It also carries an Is Managed flag, set automatically once an IP Address record is created from the slot. The slot records form the inventory that you draw from when creating individual IP Address records using the from allocated IPs method.
 
-This task is the first step of the per-host allocation method. If you instead want to create a single IP Address record representing the subnetwork as a whole \(the at-subnet-level method\), do not run this task. See [Create an IP Address record at subnet level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-an-ip-address-record-at-subnet-level.md).
+This task is the first step of the per-host allocation method. If you instead want to create a single IP Address record representing the subnetwork as a whole \(the at-subnet-level method\), do not run this task. See [Create an IP Address record at subnet level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/create-an-ip-address-record-at-subnet-level.md).
 
 ## Procedure
 
@@ -69,18 +69,18 @@ This task is the first step of the per-host allocation method. If you instead wa
 
 ## What to do next
 
-Create IP Address records from one or more of the allocated IP slots. See [Create an IP Address record from allocated IPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-ip-address-records-from-allocated-ips.md).
+Create IP Address records from one or more of the allocated IP slots. See [Create an IP Address record from allocated IPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/create-ip-address-records-from-allocated-ips.md).
 
-**Parent Topic:**[Manage IP addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/manage-ip-addresses.md)
+**Parent Topic:**[Manage IP addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/manage-ip-addresses.md)
 
 **Related topics**  
 
 
-[Create an IP Address record from allocated IPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-ip-address-records-from-allocated-ips.md)
+[Create an IP Address record from allocated IPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/create-ip-address-records-from-allocated-ips.md)
 
-[Bulk allocation limits for allocated IP addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/bulk-allocation-limits-for-allocated-ip-addresses.md)
+[Bulk allocation limits for allocated IP addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/bulk-allocation-limits-for-allocated-ip-addresses.md)
 
-[Allocated IP Address form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/allocated-ip-address-form.md)
+[Allocated IP Address form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/allocated-ip-address-form.md)
 
-[Create an IP Subnetwork record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-an-ip-subnetwork-record.md)
+[Create an IP Subnetwork record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/create-an-ip-subnetwork-record.md)
 

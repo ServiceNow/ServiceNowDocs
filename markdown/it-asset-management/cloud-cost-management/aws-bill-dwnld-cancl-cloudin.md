@@ -3,11 +3,11 @@ title: Cancel an AWS Billing download job
 description: A Billing download job obtains billing and usage data from each payer account for AWS. The Rightsizing, Unused resources, and Business hours processes use billing and usage data when generating recommendations. You can cancel any Billing download job individually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/aws-bill-dwnld-cancl-cloudin.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up access to AWS billing and usage data, Configure Cloud Cost Management for AWS, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---

@@ -3,7 +3,7 @@ title: Set up a webhook for the Jenkins spoke
 description: Set up a webhook application to receive the required updates from Jenkins at your ServiceNow instance.Create a authorization key to authorise requests from Jenkins.Authorise requests from Jenkins by providing authorization key for webhook in your ServiceNow instance.Receive updates from Jenkins by providing the authorization key in Jenkins.Provide user friendly descriptions to the subflows in the Jenkins v2 spoke.Provide subflows as answers to the conditions mentioned in the decision table. When the specified conditions are met, the associated subflow is triggered.Create a webhook routing policy and customize subflow as per your requirement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/receive-jenkins-upd.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -61,7 +61,7 @@ Role required: admin
 
     |Field|Description|
     |-----|-----------|
-    |Authorization Key|Authorization key you had generated. See [Create authorization key for the Jenkins v2 spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/receive-jenkins-upd.md) for more information.|
+    |Authorization Key|Authorization key you had generated. See [Create authorization key for the Jenkins v2 spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/receive-jenkins-upd.md) for more information.|
     |Name|Name to identify the webhook client record.|
 
 4.  Click **Submit**.
@@ -94,7 +94,7 @@ Role required: admin.
     |Field|Description|
     |-----|-----------|
     |Kind|Select **Secret text**.|
-    |Secret|Enter authorization key. See [Create authorization key for the Jenkins v2 spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/receive-jenkins-upd.md) for more information.|
+    |Secret|Enter authorization key. See [Create authorization key for the Jenkins v2 spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/receive-jenkins-upd.md) for more information.|
     |ID|Provide unique identifier to identify the record.|
 
 6.  Click **Add**.
@@ -182,7 +182,7 @@ Condition
 
 </td><td>
 
-Conditions to be met when the required events occur in Jenkins. See [Jenkins v2 Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jenkins-spoke.md) for information about the supported fields.
+Conditions to be met when the required events occur in Jenkins. See [Jenkins v2 Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/jenkins-spoke.md) for information about the supported fields.
 
 </td></tr><tr><td>
 
@@ -217,7 +217,7 @@ Role required: admin
 
 4.  Customize the Jenkins Webhook Answer Subflow: Process build information subflow as per your requirement and publish it.
 
-    See [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/subflows.md) for more information about creating and using subflows and [Jenkins v2 Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jenkins-spoke.md) for information about the fields that the routing policies and subflows support.
+    See [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/subflows.md) for more information about creating and using subflows and [Jenkins v2 Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/jenkins-spoke.md) for information about the fields that the routing policies and subflows support.
 
 5.  Navigate to **Jenkins v2** &gt; **WebHook Answer Subflows**.
 
@@ -272,7 +272,7 @@ Condition
 
 </td><td>
 
-Conditions to be met when the required events occur in Jenkins. See [Jenkins v2 Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jenkins-spoke.md) for information about the supported fields.
+Conditions to be met when the required events occur in Jenkins. See [Jenkins v2 Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/jenkins-spoke.md) for information about the supported fields.
 
 </td></tr><tr><td>
 

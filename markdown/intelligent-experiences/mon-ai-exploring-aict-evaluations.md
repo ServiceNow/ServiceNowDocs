@@ -3,12 +3,12 @@ title: Exploring AI system monitoring in AI Control Tower
 description: Learn how AI Control Tower automatically scores live AI interactions against quality and safety metrics using an OpenTelemetry-based data model of sessions, traces, and spans.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mon-ai-exploring-aict-evaluations.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, explore]
-breadcrumb: [Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, explore]
+breadcrumb: [Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Exploring AI system monitoring in AI Control Tower
@@ -107,23 +107,23 @@ AI Control Tower provides three complementary governance areas:
 -   Govern enforces policies, approvals, and compliance requirements.
 -   Insights provides ongoing operational visibility into how those systems actually perform.
 
-Insights depends on inventory, since only managed assets are evaluated. The relationship also runs in reverse: connecting an AI system to send trace data can surface other AI systems and agents that aren't yet tracked, adding them to inventory automatically and helping you manage AI sprawl. To learn more about connecting your AI systems for evaluation and populating inventory, see [Configuring trace connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring-trace-connections.md).
+Insights depends on inventory, since only managed assets are evaluated. The relationship also runs in reverse: connecting an AI system to send trace data can surface other AI systems and agents that aren't yet tracked, adding them to inventory automatically and helping you manage AI sprawl. To learn more about connecting your AI systems for evaluation and populating inventory, see [Configuring trace connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configuring-trace-connections.md).
 
 ## Monitoring benefits
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Automatically score live AI interactions without manual review using LLM-based judges fine-tuned for evaluation criteria.|[How evaluation scoring works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-how-evaluation-scoring-works.md)|AI steward|
-|Define what quality and safety mean for your organization by selecting metrics and assigning weights to create a custom scoring formula.|[Configure an evaluation metric template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-configure-metric-templates.md)|AI steward|
-|Track quality and safety trends over time to catch gradual regressions, not just one-off failures.|[Reviewing quality and safety scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-reviewing-ai-system-scores.md)|AI steward, AI asset owner|
-|Drill from portfolio-level scores down to a specific span in a trace to pinpoint exactly where an AI system's behavior broke down.|[Investigating low-scoring sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-investigating-low-scoring-sessions.md)|AI steward, AI asset owner|
-|Assess the quality and safety performance of a specific AI system by reviewing its scores, metric breakdowns, trends, and evaluated sessions.|[Monitoring an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-asset-monitor.md)|AI steward, AI asset owner|
+|Automatically score live AI interactions without manual review using LLM-based judges fine-tuned for evaluation criteria.|[How evaluation scoring works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-how-evaluation-scoring-works.md)|AI steward|
+|Define what quality and safety mean for your organization by selecting metrics and assigning weights to create a custom scoring formula.|[Configure an evaluation metric template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-configure-metric-templates.md)|AI steward|
+|Track quality and safety trends over time to catch gradual regressions, not just one-off failures.|[Reviewing quality and safety scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-reviewing-ai-system-scores.md)|AI steward, AI asset owner|
+|Drill from portfolio-level scores down to a specific span in a trace to pinpoint exactly where an AI system's behavior broke down.|[Investigating low-scoring sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-investigating-low-scoring-sessions.md)|AI steward, AI asset owner|
+|Assess the quality and safety performance of a specific AI system by reviewing its scores, metric breakdowns, trends, and evaluated sessions.|[Monitoring an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-asset-monitor.md)|AI steward, AI asset owner|
 
 ## What to explore next
 
 To learn more about configuring and monitoring in AI Control Tower, see:
 
--   [Configuring monitoring and evaluations in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-configuring-aict-evaluations.md)
--   [Reviewing AI system quality and safety scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-reviewing-ai-system-scores.md)
--   [Investigating low-scoring sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-investigating-low-scoring-sessions.md)
+-   [Configuring monitoring and evaluations in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-configuring-aict-evaluations.md)
+-   [Reviewing AI system quality and safety scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-reviewing-ai-system-scores.md)
+-   [Investigating low-scoring sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-investigating-low-scoring-sessions.md)
 

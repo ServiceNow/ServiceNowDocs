@@ -3,11 +3,11 @@ title: Create a business calendar group
 description: For Performance Analytics and Reporting to use business calendars, organize several calendars into a business calendar group. An application might also contain a business calendar group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/create-business-calendar-group.html
-release: australia
+release: brazil
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating business calendars, Use, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,7 +18,7 @@ For Performance Analytics and Reporting to use business calendars, organize seve
 
 ## Before you begin
 
-Role required: business\_calendar\_admin
+Role required: admin
 
 ## About this task
 
@@ -53,10 +53,10 @@ The Gregorian Calendar group comes with the base system. It includes the Week, M
 
 Each business calendar record \(Week, Month, Quarter, and Year\) also shows which groups it belongs to.
 
-**Parent Topic:**[Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/business-calendars.md)
+**Parent Topic:**[Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/business-calendars.md)
 
 **Related topics**  
 
 
-["Indicators with business calendars" in Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/t_CreateAnAutomatedIndicator.md)
+["Indicators with business calendars" in Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/t_CreateAnAutomatedIndicator.md)
 

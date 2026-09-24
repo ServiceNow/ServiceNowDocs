@@ -3,11 +3,11 @@ title: Access control for incidents
 description: To help separate Operational Technology \(OT\) and Information Technology \(IT\) data, only OT users can view OT incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-incident-management/access-control-ot-incidents.html
-release: australia
+release: brazil
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Operational Technology Incident Management, Operational Technology]
 ---
@@ -24,7 +24,7 @@ The following table describes the roles and permissions for the users that have 
 |sn\_ot\_incident\_read|Can only read OT incidents.|
 |sn\_ot\_incident\_admin|Can create, view, edit, and delete incident records for any equipment model entity.|
 
-For more information about access control rules, see Access control rules in application administration apps.
+For more information about access control rules, see [Access control rules in application administration apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ACL-access-checks.md).
 
-**Parent Topic:**[Using Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/using-operational-technology-incident-mgt.md)
+**Parent Topic:**[Using Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-incident-management/using-operational-technology-incident-mgt.md)
 

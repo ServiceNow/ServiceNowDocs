@@ -3,11 +3,11 @@ title: Change the time that an agent worked on a crew task
 description: Update the time that an agent spent on a crew task if they spent more or less time on the task than the rest of the crew.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/change-agent-task-time.html
-release: australia
+release: brazil
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Crew operations, Managing workforce, Use, Field Service Management]
 ---

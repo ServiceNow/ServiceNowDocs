@@ -3,11 +3,11 @@ title: Set up Platform URLs for catalog modules
 description: You can direct users to a specific catalog via a URL to a module in that particular catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_SetURLsForCatalogModules.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service catalog setup, Configuring Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -39,5 +39,5 @@ When you create a module for your catalog page, you can direct users to a specif
     **Note:** To ensure peak performance, define both parameters correctly.
 
 
-**Parent Topic:**[Service catalog setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/p_ServiceCatalogs.md)
+**Parent Topic:**[Service catalog setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/p_ServiceCatalogs.md)
 

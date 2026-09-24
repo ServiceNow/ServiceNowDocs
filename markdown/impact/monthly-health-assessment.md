@@ -3,9 +3,9 @@ title: Monthly Health Assessment
 description: The Monthly Health Assessment feature provides Impact Guided customers with a self-service capability that automates Health Assessment scans and reports to provide details that can help you to improve the health of your ServiceNow platform implementation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/monthly-health-assessment.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [HealthScan tech KPIs, HealthScan, Impact Delivery Instance reference, Impact reference, Impact]
 ---
@@ -38,7 +38,7 @@ With the opt-in and self-service, you receive the following benefits:
 -   Monthly Health Assessment scans of a selected instance run on the sixth day of each month. Detailed scan reports will be available within a couple of weeks.
 -   Automated findings reports and recommendations to improve the health of your ServiceNow implementation
 
-See [Schedule Monthly Health Assessment scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/schedule-monthly-health-assessment-scans.md) for setup information.
+See [Schedule Monthly Health Assessment scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/schedule-monthly-health-assessment-scans.md) for setup information.
 
 ## Requested customer resources
 
@@ -55,8 +55,8 @@ For customer agreements and terms, refer to the applicable Impact Accelerator de
 
 ServiceNow resources are not responsible for implementation or management of the Monthly Health Assessment.  However, your Impact squad may assist with instance switching and cancellation of the service.
 
--   **[Schedule Monthly Health Assessment scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/schedule-monthly-health-assessment-scans.md)**  
+-   **[Schedule Monthly Health Assessment scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/schedule-monthly-health-assessment-scans.md)**  
 Automate monthly Health Assessment scans and reports to help improve the health of your ServiceNow platform implementation.
 
-**Parent Topic:**[Diagnose with tech KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-tech-kpis.md)
+**Parent Topic:**[Diagnose with tech KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/impact-tech-kpis.md)
 

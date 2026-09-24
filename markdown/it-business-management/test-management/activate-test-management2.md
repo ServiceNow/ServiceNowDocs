@@ -3,11 +3,11 @@ title: Activate Test Management 2.0
 description: Activate the Test Management 2.0 plugin \(com.snc.test\_management.2.0\) if you've the admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/activate-test-management2.html
-release: australia
+release: brazil
 product: Test Management
 classification: test-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Test Management 2.0, Test Management applications, Strategic Portfolio Management]
 ---
@@ -32,6 +32,6 @@ Role required: admin
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 

@@ -3,13 +3,13 @@ title: View Zoom room metrics
 description: View detailed metrics for your organization's Zoom rooms using DEX.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/view-zoom-room-metrics.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Monitor, Digital End-User Experience, IT Service Management]
+breadcrumb: [Monitor application performance, Manage, Digital End-User Experience, IT Service Management]
 ---
 
 # View Zoom room metrics
@@ -20,13 +20,16 @@ View detailed metrics for your organization's Zoom rooms using DEX.
 
 Role required: admin
 
--   Set up DEX for Zoom. For more information, see [Configuring DEX for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/configuring-DEX-for-Zoom.md)
--   Configure advanced monitoring to monitor Zoom calls with DEX. For more details, see [Enable application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/enable-app-monitor.md).
+-   Set up DEX for Zoom. For more information, see [Configuring DEX for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/configuring-DEX-for-Zoom.md)
+-   Configure advanced monitoring to monitor Zoom calls with DEX. For more details, see [Enable application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/enable-app-monitor.md).
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
+    -   AMER \(Americas\): `itomcnc-prod-gateway-amer.sncapps.service-now.com:443`
+    -   EMEA \(Europe\): `itomcnc-prod-gateway-emea.sncapps.service-now.com:443`
+    -   APAC \(Asia Pacific\): `itomcnc-prod-gateway-apac.sncapps.service-now.com:443`
 2.  In the primary navigation pane, select the Applications icon \(\[Omitted image "icon-applications.png"\] Alt text: The Applications icon.\).
 
 3.  Select **Zoom**.

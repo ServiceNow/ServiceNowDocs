@@ -3,11 +3,11 @@ title: Create an intake record
 description: Use the Prioritize tab to add a demand, product idea, or feedback record. Selecting New in any list opens a full form. The form fields differ by record type.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-plan-create-intake-record.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Prioritize AI plan intake, Use, Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Enable AI experiences]
+breadcrumb: [Prioritize AI plan intake, Use, Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create an intake record
@@ -32,9 +32,9 @@ Role required: sn\_ai\_governance.ai\_steward
 
     For field information, see:
 
-    -   [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-plan-demand-form.md)
-    -   [Feedback form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-feedback-form.md)
-    -   [Product idea form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-product-idea-form.md)
+    -   [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-plan-demand-form.md)
+    -   [Feedback form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-feedback-form.md)
+    -   [Product idea form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-product-idea-form.md)
     **Note:**
 
     -   For demand and product idea: The **Investment Type** field must be set to **Artificial Intelligence** or the **Product** field must be set to **AI System**.

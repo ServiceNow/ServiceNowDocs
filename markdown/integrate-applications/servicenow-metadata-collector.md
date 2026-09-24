@@ -3,9 +3,9 @@ title: ServiceNow metadata collector
 description: Provides read-only access to metadata from a ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/servicenow-metadata-collector.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
 ---
@@ -330,10 +330,10 @@ Supports ServiceNow instances that expose the Table API. Tested with ServiceNow 
 
 The collector authenticates to ServiceNow using Basic Authentication \(User name and Password\).
 
--   **[Prepare to run the ServiceNow collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-servicenow-collector.md)**  
+-   **[Prepare to run the ServiceNow collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/prepare-to-run-servicenow-collector.md)**  
 Create a ServiceNow user and configure permissions before running the collector.
--   **[Create a ServiceNow metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-servicenow-metadata-collector.md)**  
+-   **[Create a ServiceNow metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-servicenow-metadata-collector.md)**  
 Create a collector to import metadata from ServiceNow.
 
-**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-metadata-collectors-dc.md)
+**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-metadata-collectors-dc.md)
 

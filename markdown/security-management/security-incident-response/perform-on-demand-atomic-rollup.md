@@ -3,11 +3,11 @@ title: Perform on demand atomic rollup
 description: Rollup framework cannot handle updates to the existing linked records. In such cases, on demand atomic rollup should happen for linked records, which can be achieved via business rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/perform-on-demand-atomic-rollup.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Rollup Framework for MSIM, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -29,7 +29,7 @@ For example, once a security incident is linked to MSI, the related information 
 |Sync rolled up affected user \(sn\_si\_m2m\_task\_affected\_user\)|Use this business rule handles the rollup and removal of linked affected users from Security Incident, Security Case and Remediation task.|
 |Sync rolled up affected CI \(task\_ci\)|Use this business rule handles the rollup and removal of associated configuration items from Security Incident, Security Case and Remediation task.|
 
-**Parent Topic:**[Rollup Framework for MSIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/roll-up-framework-for-major-security-incident-management.md)
+**Parent Topic:**[Rollup Framework for MSIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/roll-up-framework-for-major-security-incident-management.md)
 
 **Related topics**  
 

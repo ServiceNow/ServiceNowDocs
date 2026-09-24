@@ -3,11 +3,11 @@ title: Defer demands
 description: Defer demands in Next Experience for Demand Management to move them to the backlog when they aren't feasible to act on currently, such as when resources aren't available. After deferral, demands can be reviewed and moved to any other demand state.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/delete-demands-from-dw.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---

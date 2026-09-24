@@ -3,9 +3,9 @@ title: Define the reference key
 description: By default, reference fields store the sys\_id of the record in the database.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_DefineTheReferenceKey.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Add a reference field, Reference field type, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---

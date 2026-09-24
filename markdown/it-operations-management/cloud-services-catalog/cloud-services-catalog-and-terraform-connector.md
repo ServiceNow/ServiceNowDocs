@@ -3,11 +3,11 @@ title: Cloud Services Catalog and Terraform Connector
 description: Use the Cloud Services Catalog app with Terraform Connector support with all its features that help in provisioning and managing cloud resources across various public and private clouds.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/cloud-services-catalog-and-terraform-connector.html
-release: australia
+release: brazil
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Cloud Services Catalog administration guide, Configure, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -24,9 +24,9 @@ Key features of Terraform Connector:
     -   Google Cloud Provider
 -   Discover the Infrastructure as Code \(IaC\) templates to discover the IaC \(Terraform\) templates from the Terraform environment.
 -   Generate catalog items using the Terraform templates, utilizing them to provision resources across different cloud environments.
--   Utilize the multiple repositories structure support with the Terraform app. See [Use multiple repositories structure with Terraform Connector app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/use-multiple-repositories-structure-with-terraform-connector.md) to learn more.
+-   Utilize the multiple repositories structure support with the Terraform app. See [Use multiple repositories structure with Terraform Connector app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/use-multiple-repositories-structure-with-terraform-connector.md) to learn more.
 
-For more information on Terraform Connector, configuring the advanced features, and how to use it, visit [Exploring Cloud Services Catalog Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/exploring-cpg-terraform-connector.md).
+For more information on Terraform Connector, configuring the advanced features, and how to use it, visit [Exploring Cloud Services Catalog Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/exploring-cpg-terraform-connector.md).
 
-**Parent Topic:**[Cloud Services Catalog administration guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/cloud-services-catalog-administration-guide.md)
+**Parent Topic:**[Cloud Services Catalog administration guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-services-catalog/cloud-services-catalog-administration-guide.md)
 

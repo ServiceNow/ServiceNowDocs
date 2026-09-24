@@ -3,9 +3,9 @@ title: Create GCP service accounts
 description: Create Google Cloud Platform \(GCP\) service accounts on the ServiceNow AI Platform to access your GCP account during GCP discovery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/create-gcp-service-accounts.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up Google Cloud Platform service accounts, Set up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ Create Google Cloud Platform \(GCP\) service accounts on the ServiceNow AI Platf
 
 ## Before you begin
 
-Verify that Google API credentials have been created. For more information, see [Configure the Google API credentials for Cloud Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-create-google-api-credentials.md).
+Verify that Google API credentials have been created. For more information, see [Configure the Google API credentials for Cloud Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-create-google-api-credentials.md).
 
 Retrieve the **project\_id** value from the JSON key file that is associated with the service account.
 
@@ -44,7 +44,7 @@ Role required: discovery\_admin
 
 ## What to do next
 
-Schedule a GCP cloud discovery. For more information, see [Create a discovery schedule in Cloud Discovery Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cloud-operations-disco-create-schedule.md).
+Schedule a GCP cloud discovery. For more information, see [Create a discovery schedule in Cloud Discovery Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/cloud-operations-disco-create-schedule.md).
 
-**Parent Topic:**[Set up Google Cloud Platform service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/set-up-gcp-service-accounts.md)
+**Parent Topic:**[Set up Google Cloud Platform service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/set-up-gcp-service-accounts.md)
 

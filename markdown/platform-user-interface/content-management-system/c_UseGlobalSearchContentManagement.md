@@ -3,11 +3,11 @@ title: Global search in Content Management
 description: When you add global search to a CMS site, two different search result blocks can display, depending on the user role: global or no global.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/c\_UseGlobalSearchContentManagement.html
-release: australia
+release: brazil
 product: Content Management System
 classification: content-management-system
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -25,7 +25,7 @@ The header search bar and the Search dynamic block in the base system both autom
 
 In order for the global search to work properly, it is important to ensure that the DEFAULT directs users to a working content page. If not, the results from the global search link back to the frame set, not to pages within the CMS site.
 
-**Note:** The global search is similar to the normal frame set user interface and ties to the same roles \([Set global text search properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/set-global-text-search-properties.md)\).
+**Note:** The global search is similar to the normal frame set user interface and ties to the same roles \([Set global text search properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/set-global-text-search-properties.md)\).
 
 ## Search Results \(Global\)
 
@@ -33,7 +33,7 @@ Before you use the **Search Results \(Global\)** dynamic block, define Configure
 
 The **Search Results \(No Global\)** dynamic block does not require any additional configuration.
 
-**Parent Topic:**[Content Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentManagementSystem.md)
+**Parent Topic:**[Content Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/c_ContentManagementSystem.md)
 
 **Related topics**  
 

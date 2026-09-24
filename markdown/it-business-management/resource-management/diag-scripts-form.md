@@ -3,11 +3,11 @@ title: Diagnostics Scripts form
 description: Use the Diagnostic Scripts form to scan the data in your application for any corruption.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/diag-scripts-form.html
-release: australia
+release: brazil
 product: Resource Management
 classification: resource-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Resource Management reference, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -22,5 +22,5 @@ Use the Diagnostic Scripts form to scan the data in your application for any cor
 |Description|Details of the diagnostic script. The description enables the user to understand the functions of the script.|
 |Diagnostic script|The actual code for the diagnostic script.|
 
-**Parent Topic:**[Resource Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-mgmt-reference.md)
+**Parent Topic:**[Resource Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/rsrc-mgmt-reference.md)
 

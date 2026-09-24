@@ -3,11 +3,11 @@ title: Site filter in the Industrial Workspace
 description: You can use the site filter in the Operational Technology \(OT\) Visibility dashboard, the Operational Technology Vulnerability Response \(PA\) dashboard, and the OT Vulnerability Risk Rollup dashboard to view data for specific sites.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/ot-devices-dashboard-filters-vr.html
-release: australia
+release: brazil
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Industrial Workspace, Operational Technology]
 ---
@@ -33,8 +33,8 @@ The site filter lets you do the following actions:
     **Note:** If there's no site assigned to an OT device, the filter shows **No site assigned**. To have the correct sites shown on the dashboard, you must assign a site to the device and then assign a business unit to that site.
 
 
--   **[Use the site filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
-Use the site in the Operational Technology \(OT\) Visibility dashboard, the Operational Technology Vulnerability Response \(PA\) dashboard, and the OT Vulnerability Risk Rollup dashboard to filter the data by the selected site or sites.
+-   **[Use the site filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)**  
+Filter dashboard data by site in the Operational Technology \(OT\) Visibility, Operational Technology Vulnerability Response \(PA\), and the Operational Technology \(OT\) Risk Rollup dashboards.
 
-**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/using-industrial-workspace.md)
+**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/using-industrial-workspace.md)
 

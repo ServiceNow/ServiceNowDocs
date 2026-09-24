@@ -3,11 +3,11 @@ title: Copy Splunk Enterprise Event Ingestion profiles from one instance to anot
 description: You can export and import Splunk Enterprise Event Ingestion profiles settings from one ServiceNow AI Platform instance to a different ServiceNow AI Platform instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/export-and-import-splunk-event-profile-data.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integration architecture and external systems connection, Splunk Enterprise Event Ingestion integration for Security Operations by ServiceNow, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -73,5 +73,5 @@ This functionality allows the security administrator to copy profiles that have 
 13. Review and update the Source and MID Server details as required.
 
 
-**Parent Topic:**[Integration architecture and external systems connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-integration-architecture.md)
+**Parent Topic:**[Integration architecture and external systems connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/splunk-event-ingest-integration-architecture.md)
 

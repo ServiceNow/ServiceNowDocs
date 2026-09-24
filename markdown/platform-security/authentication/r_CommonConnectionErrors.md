@@ -3,11 +3,11 @@ title: Common IdP connection errors
 description: The following table describes some of the common IdP connection errors and their solutions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/r\_CommonConnectionErrors.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Test IdP connections, Multi-Provider SSO configurations, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---

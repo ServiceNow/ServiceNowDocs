@@ -3,11 +3,11 @@ title: Enable HAProxy load balancer discovery with probes
 description: If you prefer not to start using the default HAProxy pattern-based discovery, enable probe-based HAProxy discovery to continue using it instead.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/enable-haproxy-lb-discovery-probe.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [HAProxy using probes, Load balancers, Network device discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -39,10 +39,10 @@ Role required: discovery\_admin
 
 ## What to do next
 
-Schedule a horizontal discovery to discover HAProxy load balancer with probes. For more information, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
+Schedule a horizontal discovery to discover HAProxy load balancer with probes. For more information, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
 
 **Related topics**  
 
 
-[HAProxy load balancer discovery using probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_LoadBalancerHAProxy.md)
+[HAProxy load balancer discovery using probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/c_LoadBalancerHAProxy.md)
 

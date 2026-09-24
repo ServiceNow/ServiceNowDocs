@@ -3,9 +3,9 @@ title: Zero Trust Access system properties
 description: Use system properties to enable and customize Zero Trust Access to meet your security requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/session-access-system-properties.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Zero Trust Access, Access Management]
 ---
@@ -75,4 +75,13 @@ Information to be displayed when some privileges have been removed from the sess
 Description that you want to display to your users regarding limiting or removal of privileges. Sample Description:`Based on security policies defined by the administrator, some of your roles have been removed from this session. Please get in touch with your administrator for more information.`
 
 </td></tr></tbody>
-</table>
+</table>The `glide.authenticate.session_access.user_info_message` property supports translation for the default out-of-box message only. The default message is delivered through a `sys_ui_message` record and is automatically displayed in the user's selected language.
+
+If you modify this property to use a custom message and require it to appear in languages other than English, you must define the translations manually. For each language, create `sys_ui_message` record with the following values:
+
+-   **Code**: `session_access_info_message_code`
+-   **Key**: Identical to the value configured in the property
+-   **Message**: The translated text of the property value for that language
+
+Use the default English `sys_ui_message` record \(Code: `session_access_info_message_code`\) as a reference template. Once the records are created, the custom message is displayed in the corresponding language at login when a user's session access is reduced.
+

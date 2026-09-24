@@ -1,22 +1,22 @@
 ---
-title: Disable MultiSSO Debugging
+title: Disable Multi-SSO debugging
 description: The glide.authenticate.multisso.debug property controls debug logging for Multi-SSO.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-disable-multisso-debugging.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuration, Hardening settings, Platform Security]
 ---
 
-# Disable MultiSSO Debugging
+# Disable Multi-SSO debugging
 
 The **glide.authenticate.multisso.debug** property controls debug logging for Multi-SSO.
 
-The **glide.authenticate.multisso.debug** system property controls debug logging for multiSSO.
+The **glide.authenticate.multisso.debug** system property controls debug logging for Multi SSO.
 
 Ensure that the property **glide.authenticate.multisso.debug** is set to **false**.
 
@@ -68,7 +68,7 @@ Default value
 
 </td><td>
 
-&lt;none&gt;
+false
 
 </td></tr><tr><td>
 
@@ -84,7 +84,7 @@ Category
 
 </td><td>
 
-[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-configuration.md)
+[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-configuration.md)
 
 </td></tr><tr><td>
 
@@ -113,5 +113,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-configuration.md)
+</table>**Parent Topic:**[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-configuration.md)
 

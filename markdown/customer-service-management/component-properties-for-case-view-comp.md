@@ -3,9 +3,9 @@ title: Component properties for the Case view
 description: Component properties enable you to configure the behavior of the Case view component instance on a third-party website.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/component-properties-for-case-view-comp.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Web Embeddables component properties, Web Embeddables reference, Reference, Customer Service Management]
 ---
@@ -168,11 +168,11 @@ Option to show or hide error messages for the end user on the third-party websit
 </table>**Related topics**  
 
 
-[Configure the Case view component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-case-view-component-on-instance.md)
+[Configure the Case view component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-case-view-component-on-instance.md)
 
-[Embed the Case view component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-case-view-comp-on-third-party-website.md)
+[Embed the Case view component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-case-view-comp-on-third-party-website.md)
 
-[Event handler in the enhanced Case view component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/we-case-view-event-handler.md)
+[Event handler in the enhanced Case view component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/we-case-view-event-handler.md)
 
-[Sample code to handle the Case view component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-case-view-sample-code.md)
+[Sample code to handle the Case view component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-case-view-sample-code.md)
 

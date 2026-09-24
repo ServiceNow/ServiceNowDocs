@@ -3,9 +3,9 @@ title: Use mobile application to perform agent and manager tasks
 description: Customer service agents manage cases and real-time notifications help in taking immediate action. Customer service managers can approve escalations and perform tasks on major issues with a swipe.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-mobile-agent-mgr-task.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Getting started mobile application, Mobile experience for CSM, Schedules and sites, Use, Customer Service Management]
 ---
@@ -270,5 +270,5 @@ Review and approve change requests \(role: approver\_user\)**Note:** Agents with
 A change request requires team members or a manager to assess the change request. They evaluate the request and approve or reject.**Note:** When a change request is raised, users who are part of the group that has permissions to approve are notified. The approvers review and approve them.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Get started with the Customer Service mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/install-customer-service-mobile-app.md)
+</table>**Parent Topic:**[Get started with the Customer Service mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/install-customer-service-mobile-app.md)
 

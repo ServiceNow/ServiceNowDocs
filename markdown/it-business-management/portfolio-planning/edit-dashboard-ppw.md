@@ -3,11 +3,11 @@ title: Edit a dashboard
 description: Customize or edit a dashboard as needed by adding sections, filters, images, lists, process mining maps, and rich text. If the dashboard has been shared, any changes you make are applied globally.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/edit-dashboard-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Create a dashboard, Use dashboards, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -25,7 +25,7 @@ Role required: sn\_align\_core.apw\_user
 **Note:**
 
 -   You can edit dashboards that you own or those you’ve been granted permission to edit.
--   Only an administrator can edit the out-of-the-box dashboard that is Execution Dashboard. However, you can [duplicate an out-of-the-box dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/copy-dashboard-ppw.md) and customize it as needed.
+-   Only an administrator can edit the out-of-the-box dashboard that is Execution Dashboard. However, you can [duplicate an out-of-the-box dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/copy-dashboard-ppw.md) and customize it as needed.
 
 You can use the following elements to create or edit your dashboard.
 
@@ -53,15 +53,15 @@ You can use the following elements to create or edit your dashboard.
 
 3.  From the dashboard header, select **Edit**.
 
-<table id="choicetable_qzs_rly_zbc"><thead><tr><th align="left" id="d297445e230">
+<table id="choicetable_qzs_rly_zbc"><thead><tr><th align="left" id="d299045e230">
 
 For this
 
-</th><th align="left" id="d297445e233">
+</th><th align="left" id="d299045e233">
 
 Perform these steps
 
-</th></tr></thead><tbody><tr><td id="d297445e239">
+</th></tr></thead><tbody><tr><td id="d299045e239">
 
 **Add a tab**
 
@@ -75,7 +75,7 @@ A new tab appears with the default name New Tab.
 3.  Press Enter to update the name of the tab.
 
 
-</td></tr><tr><td id="d297445e265">
+</td></tr><tr><td id="d299045e265">
 
 **Add a dashboard element**
 
@@ -112,20 +112,20 @@ The dashboard is updated with the latest changes.
 ## What to do next
 
 -   Add more elements and customize your dashboard as required.
--   For detailed instructions on editing a dashboard using the Platform Analytics experience in Portfolio Planning, see [Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-db-in-ac.md).
+-   For detailed instructions on editing a dashboard using the Platform Analytics experience in Portfolio Planning, see [Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/edit-db-in-ac.md).
 
-**Parent Topic:**[Create a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-dashboard-ppw.md)
+**Parent Topic:**[Create a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/create-dashboard-ppw.md)
 
 **Related topics**  
 
 
-[View a dashboard in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/view-dashboard-ppw.md)
+[View a dashboard in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/view-dashboard-ppw.md)
 
-[Create a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-dashboard-ppw.md)
+[Create a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/create-dashboard-ppw.md)
 
-[Duplicate a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/copy-dashboard-ppw.md)
+[Duplicate a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/copy-dashboard-ppw.md)
 
-[Share a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/share-dashboard-ppw.md)
+[Share a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/share-dashboard-ppw.md)
 
-[Add a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/add-platform-dashboard-to-ppw.md)
+[Add a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/add-platform-dashboard-to-ppw.md)
 

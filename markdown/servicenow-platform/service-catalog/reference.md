@@ -3,11 +3,11 @@ title: Reference
 description: A reference variable references a record in another table. For example, a variable named point\_of\_contact references the User \[sys\_user\] table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/reference.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Types of service catalog variables, Service catalog variables, Service Catalog Reference, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,11 +16,11 @@ breadcrumb: [Types of service catalog variables, Service catalog variables, Serv
 
 A reference variable references a record in another table. For example, a variable named point\_of\_contact references the User \[sys\_user\] table.
 
-For attributes supported by this variable, see [variable attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/variable-attributes.md).
+For attributes supported by this variable, see [variable attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/variable-attributes.md).
 
 Keep the following information in mind when you create a reference variable:
 
--   Reference variables use the [auto-complete feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_AutoCompleteForReferenceFields.md) . To ensure that users have enough information to make the selection, configure the [reference lookup list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ReferenceLookup.md) .
+-   Reference variables use the [auto-complete feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_AutoCompleteForReferenceFields.md) . To ensure that users have enough information to make the selection, configure the [reference lookup list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ReferenceLookup.md) .
 -   Reference variables store the sys\_id of the selected record \(like reference fields\). To use the display value in a script, use the same methods as for a reference field.
 
 ```
@@ -29,7 +29,7 @@ current.variables.<variable name>.getDisplayValue()
 
 \[Omitted image "VariableReferenceG.png"\] Alt text: A reference variable
 
-**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)
+**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)
 
 **Related topics**  
 
@@ -44,7 +44,7 @@ current.variables.<variable name>.getDisplayValue()
 
 [Date, Date and time, and Duration]()
 
-[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/email.md)
+[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/email.md)
 
 [HTML]()
 

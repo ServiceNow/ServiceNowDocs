@@ -3,11 +3,11 @@ title: Touchpoint analysis
 description: Touchpoint analysis studies specific record updates within a process to identify areas of high interaction. This enables process optimization by surfacing opportunities for automation, ultimately improving performance and lowering operational costs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/touchpoint-analysis.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Analyzing and getting process insights, Use, Process Mining, Platform Analytics]
 ---
@@ -18,11 +18,11 @@ Touchpoint analysis studies specific record updates within a process to identify
 
 Touchpoint analysis is calculated after considering "Audit" updates from non-excluded users and it focusses on the specified activity definitions.
 
-To enable touchpoint analysis for a project, set it in the process configuration for the table. For more information about setting touchpoint analysis in process configuration, see [Configure impact metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/impact-metrics.md).
+To enable touchpoint analysis for a project, set it in the process configuration for the table. For more information about setting touchpoint analysis in process configuration, see [Configure impact metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/impact-metrics.md).
 
-To set touchpoint metrics in a project, see [Set metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/metrics.md).
+To set touchpoint metrics in a project, see [Set metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/metrics.md).
 
-To know more about how to view touchpoints from the process map, see the entry for Touchpoint analysis under the Process map section in [Analyst workbench page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/analyst-workbench-dashboard.md).
+To know more about how to view touchpoints from the process map, see the entry for Touchpoint analysis under the Process map section in [Analyst workbench page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/analyst-workbench-dashboard.md).
 
-**Parent Topic:**[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/analyze-get-process-insights.md)
+**Parent Topic:**[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/analyze-get-process-insights.md)
 

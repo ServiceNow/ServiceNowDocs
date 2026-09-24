@@ -3,11 +3,11 @@ title: Schedule a suite scan
 description: Create a schedule to regularly trigger a suite scan even when you don’t have an active session.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/instance-scan/hc-schedule-suite-scan.html
-release: australia
+release: brazil
 product: Instance Scan
 classification: instance-scan
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Using Instance Scan, Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -41,7 +41,9 @@ Role required: admin.
     -   **Full Instance**: Scans all the available records in the instance.
     -   **Scoped App**: Scans selected scoped apps. You can select multiple scoped apps.
     -   **Update Set**: Scans multiple update sets.
-6.  Select **Schedule Scan**.\[Omitted image "hc-schedule-suite-scan.png"\] Alt text: Image showing Schedule Suite Scan modal
+6.  Select **Schedule Scan**.
+
+    \[Omitted image "hc-schedule-suite-scan.png"\] Alt text: Image showing Schedule Suite Scan modal
 
     **Note:** If a record is inactive, the checks don't generate any findings for that record.
 
@@ -143,7 +145,7 @@ Timezone used to run the scan.
     The scan that has been scheduled displays under Schedule related list.
 
 
-**Parent Topic:**[Using Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-using-scans.md)
+**Parent Topic:**[Using Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/instance-scan/hs-using-scans.md)
 
 **Related topics**  
 

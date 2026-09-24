@@ -3,11 +3,11 @@ title: TISC Data Model
 description: The data model and architecture of threat intelligence security center module is designed to support threat intelligence platform capabilities and different security views that provides detailed data for threat analysts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/understanding-the-data-model.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -18,7 +18,7 @@ The data model and architecture of threat intelligence security center module is
 
 The data model has the data structures which are represented as objects in the Threat intelligence repository.
 
-**Parent Topic:**[Threat Intel Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-intelligence-security-center-library.md)
+**Parent Topic:**[Threat Intel Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/threat-intelligence-security-center-library.md)
 
 **Related topics**  
 

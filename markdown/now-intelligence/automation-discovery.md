@@ -1,22 +1,22 @@
 ---
 title: Automation Discovery
-description: ServiceNow Automation Discovery helps you identify automation opportunities for your workflows. Use the discovery reports to implement or improve automation solutions like Virtual Agent \(VA\), and Agent assist.
+description: ServiceNow Automation Discovery helps you identify automation opportunities for your workflows. From the Brazil release, Automation Discovery is deprecated and no longer supported. .
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/automation-discovery.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Platform Analytics]
 ---
 
 # Automation Discovery
 
-ServiceNow® Automation Discovery helps you identify automation opportunities for your workflows. Use the discovery reports to implement or improve automation solutions like Virtual Agent \(VA\), and Agent assist.
+ServiceNow® Automation Discovery helps you identify automation opportunities for your workflows. From the Brazil release, Automation Discovery is deprecated and no longer supported. .
 
 ## Summary usage
 
-**Important:** Starting with the Zurich release, Automation Discovery is deprecated. It will be hidden and no longer installed on new instances but will continue to be supported in Australia. Support will be withdrawn in a future release. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+**Important:** The deprecation of Automation Discovery was announced in the Zurich release. From the Brazil release, Automation Discovery is no longer deployed, enhanced, or supported. You can continue to use existing deployments but can't initiate new ones. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Automation Discovery analyzes your records to help you identify opportunities for automation.
 
@@ -28,7 +28,7 @@ For applications such as Virtual Agent, Automation Discovery helps you implement
 
 ## Installation
 
-Automation Discovery is available from the ServiceNow Store. For more information, see [Install Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/install-automation-discovery.md).
+Automation Discovery is available from the ServiceNow Store. For more information, see [Install Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/install-automation-discovery.md).
 
 ## Language support
 
@@ -54,7 +54,7 @@ The **Automation Discovery Reports** page lists your created reports. For each r
 |Frequency|Number of times to run the report.|
 |Status|Status of the report.|
 
-To create a new report, see [Create an Automation Discovery report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-auto-discovry-report.md).
+To create a new report, see [Create an Automation Discovery report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-auto-discovry-report.md).
 
 To view results, select the name of the report.
 
@@ -84,7 +84,7 @@ The **Actions You Can Take** card shows what you can do with the automation oppo
 
 In Topic Recommendations, you can add topics to your Natural Language Understanding \(NLU\) models and to Virtual Agent. If you add an opportunity to a model, the **Action Taken** shows the corresponding intent or model.
 
-To learn more see [Using Virtual Agent Topic Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-topic-recommendations.md) and [NLU models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-models.md).
+To learn more see [Using Virtual Agent Topic Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-topic-recommendations.md) and [\(Legacy\) NLU models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-models.md).
 
 You can also create custom topics for opportunities that are not VA ready. For more information about creating custom topics, see [Creating Virtual Agent Topics](https://developer.servicenow.com/dev.do#!/learn/learning-plans/quebec/servicenow_application_developer/app_store_learnv2_virtualagent_quebec_creating_topics) on the ServiceNow Developer Site.
 
@@ -111,5 +111,5 @@ Enabling sampling of data before clustering is run can help speed up the report 
 **Related topics**  
 
 
-[Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent-landing-page.md)
+[Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent-landing-page.md)
 

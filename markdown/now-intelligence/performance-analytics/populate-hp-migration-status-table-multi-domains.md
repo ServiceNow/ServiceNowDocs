@@ -3,11 +3,11 @@ title: Populate the homepage migration status table for multiple domains
 description: By default, the flow to populate the homepage migration status table applies only to the global domain. You can create a flow to apply to the other domains in your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/populate-hp-migration-status-table-multi-domains.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Homepage migration status table, Homepage deprecation, Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---

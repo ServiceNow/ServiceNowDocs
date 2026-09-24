@@ -3,11 +3,11 @@ title: Configure the Platform Analytics Solution for Health Log Analytics
 description: Run diagnostics, review and customize components, and start collecting data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-config.html
-release: australia
+release: brazil
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Platform Analytics Solutions for Health Log Analytics, Analytics and Reporting in Health Log Analytics, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -67,5 +67,5 @@ Role required: pa\_admin
 11. Edit and activate the scheduled data collection job for this Platform Analytics Solution, **\[PA HLA\] Historic Data Collection**.
 
 
-**Parent Topic:**[Platform Analytics Solutions for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-content-pack.md)
+**Parent Topic:**[Platform Analytics Solutions for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-content-pack.md)
 

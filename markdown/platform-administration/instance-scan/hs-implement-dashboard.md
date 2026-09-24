@@ -3,11 +3,11 @@ title: Using the Instance Scan dashboard
 description: Compare and analyze the results of the scans in your instance by representing it on the premium Performance Analytics \(PA\) dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/instance-scan/hs-implement-dashboard.html
-release: australia
+release: brazil
 product: Instance Scan
 classification: instance-scan
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Instance Scan, Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -18,7 +18,7 @@ Compare and analyze the results of the scans in your instance by representing it
 
 ## Before you begin
 
-You've created some checks to execute the full scan. See [Create a check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-create-health-check.md) and [Execute a full scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-execute-full-scan.md) for more information.
+You've created some checks to execute the full scan. See [Create a check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/instance-scan/hs-create-health-check.md) and [Execute a full scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/instance-scan/hs-execute-full-scan.md) for more information.
 
 Role required: admin.
 
@@ -47,7 +47,7 @@ Role required: admin.
 
 A dashboard showing the results of scans is created.
 
-**Parent Topic:**[Using Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-using-scans.md)
+**Parent Topic:**[Using Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/instance-scan/hs-using-scans.md)
 
 **Related topics**  
 

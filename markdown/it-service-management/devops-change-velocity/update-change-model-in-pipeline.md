@@ -3,11 +3,11 @@ title: Update change model in pipeline
 description: Update the change model in your existing pipeline steps using the DevOps Pipeline Migration to Change Models catalog item.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/update-change-model-in-pipeline.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [DevOps change models, Accelerate your DevOps change process, DevOps Change Velocity, IT Service Management]
 ---
@@ -71,7 +71,7 @@ The DevOps Pipeline Migration to Change Models catalog item enables you to updat
 
     **Note:** If any of the pipelines you selected in step 8 has any data policy, which doesn’t allow the pipeline steps to be updated, the same is updated as an error in the worknotes of the corresponding request.
 
-<table id="choicetable_vjt_yl1_yyb"><tbody><tr><td id="d94435e272">
+<table id="choicetable_vjt_yl1_yyb"><tbody><tr><td id="d95187e272">
 
 **Approved and successful**
 
@@ -82,7 +82,7 @@ The DevOps Pipeline Migration to Change Models catalog item enables you to updat
 -   An email notification is sent to the requester specifying that the migration request has been successful.
 
 
-</td></tr><tr><td id="d94435e303">
+</td></tr><tr><td id="d95187e303">
 
 **Rejected and unsuccessful**
 
@@ -95,5 +95,5 @@ The DevOps Pipeline Migration to Change Models catalog item enables you to updat
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[DevOps change models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-change-multimodel.md)
+**Parent Topic:**[DevOps change models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/devops-change-multimodel.md)
 

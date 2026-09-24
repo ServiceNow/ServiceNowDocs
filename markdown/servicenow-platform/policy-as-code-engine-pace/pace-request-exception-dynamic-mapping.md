@@ -3,11 +3,11 @@ title: Request an exception for Dynamic Mapping
 description: Request an exception on policies that are dynamically mapped to conditions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-request-exception-dynamic-mapping.html
-release: australia
+release: brazil
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Map policies using Dynamic Mapping, PaCE mapping, Manage PaCE policies, Administer PaCE policies, Policy as Code Engine \(PaCE\), Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Request an exception on policies that are dynamically mapped to conditions.
 
 ## Before you begin
 
-You need to have the Governance, Risk, and Compliance \(GRC\) application installed to have the Request Exception button to show up on the mappings list. If you don't have the GRC application, see the [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/download-grc-first-time.md) topic.
+You need to have the Governance, Risk, and Compliance \(GRC\) application installed to have the Request Exception button to show up on the mappings list. If you don't have the GRC application, see the [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/download-grc-first-time.md) topic.
 
 Role required: sn\_pace.admin
 

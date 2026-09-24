@@ -3,11 +3,11 @@ title: Install and configure Splunk Enterprise Security Notable Event Ingestion 
 description: Install and configure Splunk Enterprise Security Notable Event Ingestion integration for Security Operations application from the ServiceNow Store on your ServiceNow AI Platform instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/splunk-event-ingest-install-and-configure-security.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Splunk Enterprise Security event ingestion integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -28,7 +28,7 @@ Assign a Security Analyst \(ess\_analyst\) user role in Splunk ES to perform all
 
 ## Procedure
 
-1.  If you have not installed the Splunk Enterprise Security Event Ingestion application from the ServiceNow Store for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/install-non-core-apps.md) and follow the steps to install it.
+1.  If you have not installed the Splunk Enterprise Security Event Ingestion application from the ServiceNow Store for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/install-non-core-apps.md) and follow the steps to install it.
 
 2.  After you have successfully installed the application, navigate to **All** &gt; **Security Operations** &gt; **Integrations** &gt; **Integration Configurations**.
 
@@ -36,15 +36,15 @@ Assign a Security Analyst \(ess\_analyst\) user role in Splunk ES to perform all
 
 4.  On the form, fill in the fields.
 
-<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d271165e151">
+<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d270839e151">
 
 Field
 
-</th><th align="left" id="d271165e154">
+</th><th align="left" id="d270839e154">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d271165e160">
+</th></tr></thead><tbody><tr><td id="d270839e160">
 
 **Name**
 
@@ -52,7 +52,7 @@ Description
 
 Name of the Splunk Enterprise Security console or Splunk Cloud instance used for the integration.Spaces are supported for names, but parentheses are not supported. For example, enter `SplunkES2`.
 
-</td></tr><tr><td id="d271165e181">
+</td></tr><tr><td id="d270839e181">
 
 **Splunk API Base URL**
 
@@ -60,7 +60,7 @@ Name of the Splunk Enterprise Security console or Splunk Cloud instance used for
 
 URL for your Splunk Enterprise Security console or Splunk Cloud instance. The URL should include the API port, for example: `https://mysplunkserver.com:8089`
 
-</td></tr><tr><td id="d271165e199">
+</td></tr><tr><td id="d270839e199">
 
 **Basic Authentication**
 
@@ -68,7 +68,7 @@ URL for your Splunk Enterprise Security console or Splunk Cloud instance. The UR
 
 Default is disabled.If you are using API Account User Name and API Password for configuration, enable the check box.
 
-</td></tr><tr><td id="d271165e211">
+</td></tr><tr><td id="d270839e211">
 
 **API Account User Name**
 
@@ -76,7 +76,7 @@ Default is disabled.If you are using API Account User Name and API Password for 
 
 User name that you created for your API user account on the Splunk Enterprise Security console.
 
-</td></tr><tr><td id="d271165e224">
+</td></tr><tr><td id="d270839e224">
 
 **API Password**
 
@@ -84,7 +84,7 @@ User name that you created for your API user account on the Splunk Enterprise Se
 
 Password that you created for your API user account on the Splunk Enterprise Security console.
 
-</td></tr><tr><td id="d271165e236">
+</td></tr><tr><td id="d270839e236">
 
 **Token Based \(available from version 12.0.0\)**
 
@@ -92,7 +92,7 @@ Password that you created for your API user account on the Splunk Enterprise Sec
 
 Token that you created for your API user account on the Splunk Enterprise Security console.
 
-</td></tr><tr><td id="d271165e245">
+</td></tr><tr><td id="d270839e245">
 
 **Token**
 
@@ -100,7 +100,7 @@ Token that you created for your API user account on the Splunk Enterprise Securi
 
 Token that you created for your API user account on the Splunk Enterprise Security console.
 
-</td></tr><tr><td id="d271165e257">
+</td></tr><tr><td id="d270839e257">
 
 **On Premises Deployment**
 
@@ -108,7 +108,7 @@ Token that you created for your API user account on the Splunk Enterprise Securi
 
 Default is disabled. If you’re using an on-premise based version of Splunk Enterprise Security, verify that this check box is selected.
 
-</td></tr><tr><td id="d271165e271">
+</td></tr><tr><td id="d270839e271">
 
 **MID Server**
 
@@ -134,5 +134,5 @@ If you want to change the MID Server, then you have to reconfigure it from the A
 
 ## What to do next
 
-[Create and name an event profile for the Splunk Enterprise Security event ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-create-profile-security.md)
+[Create and name an event profile for the Splunk Enterprise Security event ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/splunk-event-ingest-create-profile-security.md)
 

@@ -3,11 +3,11 @@ title: Kanban Portfolio dashboard in EAP
 description: The Kanban Portfolio dashboard in Enterprise Agile Planning \(EAP\) provides progress metrics and work item status for your EAP portfolios of the Kanban configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/kanban-portfolio-dashboard.html
-release: australia
+release: brazil
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reports and dashboards, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---

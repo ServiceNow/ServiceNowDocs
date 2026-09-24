@@ -3,9 +3,9 @@ title: Assign a robot to a bot process in RPA Hub
 description: Assign a robot to an unattended bot process to execute the automation \(package\) that is mapped to it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/assign-robots.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Adding details for your bot process, Configuring a bot process record, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -18,11 +18,11 @@ Assign a robot to an unattended bot process to execute the automation \(package\
 
 Ensure that the **Enable Robot Pool** option isn’t selected in the Robot Pool section of the Details tab of the bot process.
 
-Familiarize yourself with robot pool concepts. For more information, see [Robot pool in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/robot-pool-rpa.md).
+Familiarize yourself with robot pool concepts. For more information, see [Robot pool in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/robot-pool-rpa.md).
 
 You can assign robots with a life cycle stage status of **In Use** to a bot process.
 
-Do this task only when you select the **Process Type** field as **Unattended** on the Bot process configuration form while you're creating a bot process. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess.md), [Bot process configuration form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess-config.md), and [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/select-botprocess.md).
+Do this task only when you select the **Process Type** field as **Unattended** on the Bot process configuration form while you're creating a bot process. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-botprocess.md), [Bot process configuration form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-botprocess-config.md), and [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/select-botprocess.md).
 
 Role required: sn\_rpa\_fdn.rpa\_release\_manager or sn\_rpa\_fdn.rpa\_admin
 
@@ -30,7 +30,7 @@ Role required: sn\_rpa\_fdn.rpa\_release\_manager or sn\_rpa\_fdn.rpa\_admin
 
 If the bot process has enabled the robot pool option, then you can’t assign robots. The **Assigned Robots** tab is hidden.
 
-To assign robots via robot pool, enable the robot pool option on the bot process form. For more information, see [Enable robot pool for a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/enable-robot-pool.md).
+To assign robots via robot pool, enable the robot pool option on the bot process form. For more information, see [Enable robot pool for a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/enable-robot-pool.md).
 
 ## Procedure
 
@@ -51,5 +51,5 @@ To assign robots via robot pool, enable the robot pool option on the bot process
 8.  Select **Save**.
 
 
-**Parent Topic:**[Adding details to your bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/post-req-bot-process-rpa.md)
+**Parent Topic:**[Adding details to your bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/post-req-bot-process-rpa.md)
 

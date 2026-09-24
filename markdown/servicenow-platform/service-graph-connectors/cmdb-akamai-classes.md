@@ -3,11 +3,11 @@ title: CMDB classes targeted in Service Graph Connector for Akamai API Security
 description: When you complete setting up the connection, you can configure the integration to periodically pull data from Akamai API Security. The data is saved in tables that extend from the Configuration item \[cmdb\_ci\] table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/cmdb-akamai-classes.html
-release: australia
+release: brazil
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: reference
-last_updated: "2026-06-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Akamai API Security, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -53,5 +53,5 @@ The following attributes in the Key Value \[cmdb\_key\_value\] table are populat
 **Related topics**  
 
 
-[Service Graph Connector for Akamai API Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-integration-akamai.md)
+[Service Graph Connector for Akamai API Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-integration-akamai.md)
 

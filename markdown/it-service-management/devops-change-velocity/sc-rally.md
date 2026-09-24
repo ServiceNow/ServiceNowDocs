@@ -3,11 +3,11 @@ title: Onboard Rally to DevOps Change Velocity — Service Catalog
 description: Create, connect, discover, and configure your Rally instance using the ServiceNow Service Catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/sc-rally.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Rally, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -71,7 +71,7 @@ Credential type
 </td><td>
 
 Select Basic Auth or OAuth 2.0, depending on the credentials you're using.-   For Basic Auth, enter the password or access token.
--   For OAuth 2.0, enter the credentials. For information on setting up your OAuth 2.0 credentials for Rally, see [Setting up Rally OAuth 2.0 credentials for DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/setting-up-rally-oauth-2-0-credentials-for-devops.md).
+-   For OAuth 2.0, enter the credentials. For information on setting up your OAuth 2.0 credentials for Rally, see [Setting up Rally OAuth 2.0 credentials for DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/setting-up-rally-oauth-2-0-credentials-for-devops.md).
 
 
 </td></tr><tr><td>
@@ -153,5 +153,5 @@ Select the dates for which you want to import the data. By default, the last 30 
     A request is created. When the request is approved, the plan objects are associated to the app record, which enables real-time tracking. Historical data is also imported for the selected plans. The **Track** field is automatically enabled for imported plans.
 
 
-**Parent Topic:**[Rally integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/rally-devops-integration.md)
+**Parent Topic:**[Rally integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/rally-devops-integration.md)
 

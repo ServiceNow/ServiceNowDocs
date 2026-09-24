@@ -3,14 +3,14 @@ title: Text bot response control
 description: Use the Text bot response control in a Virtual Agent topic to display a bot response as text. You can format the Text bot responses using the text editor controls. For example, you can bold or italicize the text, as well as include links, bulleted lists, and emojis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-text-response.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Virtual Agent, designer, Text response, bot response, control, node]
-breadcrumb: [Assistant Designer bot responses, Assistant Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer bot responses, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Text bot response control
@@ -130,18 +130,11 @@ A no-code condition statement or low-code script that specifies a condition for 
 
 |Channel|Support|Constraints|
 |-------|-------|-----------|
-|Web UI|Supported|None|
-|Mobile UI|Supported|None|
-|ServiceNow Otto panel|Supported|None|
 |Microsoft Teams|Supported|None|
 |Slack|Supported|None|
-|Workplace|Supported|None|
-|Facebook Messenger|Supported|Plain text string only|
 |SMS Twilio|Supported|None|
-|LINE|Supported|None|
 |WhatsApp|Supported|None|
-|Apple Messages for Business|Supported|None|
-|Alexa \(Voice\)|Supported|For screen devices, full support. For nonscreen devices, the header is read.|
+|Google Chat|Supported|None|
 
 ## Example Text bot response script
 
@@ -186,5 +179,5 @@ Text bot response output
 \[Omitted image "rich-text-example-web-ui.png"\] Alt text: Text response with emojis that reads, "We could not find any assets currently assigned to you." A phone number, additional steps, and a link are included.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-bot-responses.md)
+</table>**Parent Topic:**[Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-bot-responses.md)
 

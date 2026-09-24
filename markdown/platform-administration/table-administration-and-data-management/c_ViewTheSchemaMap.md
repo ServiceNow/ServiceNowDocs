@@ -3,11 +3,11 @@ title: Analyzing table relationships
 description: The schema map shows the selected table in yellow, typically centered, and all tables related to that table, typically shown at the sides.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/c\_ViewTheSchemaMap.html
-release: australia
+release: brazil
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [View table refs and extensions, Managing tables and indexes, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -67,5 +67,5 @@ Here, the Server `[cmdb_ci_server]` table extends from Computer `[cmdb_ci_comput
 
 Similarly, the Computer table displays the columns from the Hardware and Configuration Item tables.
 
-**Parent Topic:**[Viewing table references and extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_SchemaMapForTables.md)
+**Parent Topic:**[Viewing table references and extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/c_SchemaMapForTables.md)
 

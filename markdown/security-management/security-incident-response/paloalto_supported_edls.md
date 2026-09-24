@@ -3,11 +3,11 @@ title: Supported External Dynamic Lists for Palo Alto Networks Next-Generation F
 description: The ServiceNow Palo Alto Networks Next-Generation Firewall integration supports External Dynamic Lists \(EDLs\) that accept IP, URL, and domain observables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/paloalto\_supported\_edls.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Palo Alto Networks Next-Generation Firewall integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -89,9 +89,9 @@ Wildcards are not supported.
 </td></tr></tbody>
 </table>For more information about formatting guidelines and EDLs, see ["Formatting Guidelines for an External Dynamic List" in the PAN-OS 10.0 Administrator's Guide](https://docs.paloaltonetworks.com/pan-os/10-0/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/formatting-guidelines-for-an-external-dynamic-list.html) on the Palo Alto Networks website.
 
-**Parent Topic:**[Palo Alto Networks Next-Generation Firewall integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto_integration.md)
+**Parent Topic:**[Palo Alto Networks Next-Generation Firewall integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/paloalto_integration.md)
 
-**Previous topic:**[Create the API account role for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto-create-snrole.md)
+**Previous topic:**[Create the API account role for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/paloalto-create-snrole.md)
 
-**Next topic:**[Create an EDL for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/palo_alto_config_edl.md)
+**Next topic:**[Create an EDL for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/palo_alto_config_edl.md)
 

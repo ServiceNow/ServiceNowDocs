@@ -3,16 +3,16 @@ title: Update a cache in Product Catalog Management
 description: Regenerate the cache associated with product offerings or product offering catalogs after changing the Unit of Measure in a product offering or category-related hierarchies in a product offering catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/som-update-cache-catalog-mgmt.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Caching in Product Catalog Management, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Update a cache in Product Catalog Management
 
-Regenerate the cache associated with product offerings or product offering catalogs after changing the **Unit of Measure** in a product offering or category-related hierarchies in a product offering catalog.
+Regenerate the cache associated with product offerings or product offering catalogs after changing the Unit of Measure in a product offering or category-related hierarchies in a product offering catalog.
 
 ## Before you begin
 
@@ -22,15 +22,15 @@ Role required: sn\_prd\_pm.product-catalog\_admin, sn\_prd\_pm.product-catalog\_
 
 1.  Navigate to the record that you updated.
 
-<table id="choicetable_tty_nql_p1c"><thead><tr><th align="left" id="d120616e59">
+<table id="choicetable_tty_nql_p1c"><thead><tr><th align="left" id="d121643e56">
 
 Feature change
 
-</th><th align="left" id="d120616e62">
+</th><th align="left" id="d121643e59">
 
 Navigate to
 
-</th></tr></thead><tbody><tr><td id="d120616e68">
+</th></tr></thead><tbody><tr><td id="d121643e65">
 
 **Unit of Measure \(UOM\) for a product offering**
 
@@ -40,7 +40,7 @@ Navigate to
 2.  Select the product offering record that you just updated.
 
 
-</td></tr><tr><td id="d120616e98">
+</td></tr><tr><td id="d121643e95">
 
 **Product offering catalog changes-   Catalog to category
 -   Category to sub-category
@@ -53,7 +53,7 @@ Navigate to
 
 
 </td></tr></tbody>
-</table>2.  Right-click the **Additional actions** menu in the record header and select **Regenerate Configuration JSON**.
+</table>2.  Right-click the **Additional actions** menu in the record header and select **Regenerate Product Offering Cache**.
 
     The system immediately updates the associated cache for the product offering or product offering catalog. You can then view the changes that you made to the **Unit of Measure** in a product offering or the product offering catalog.
 
@@ -61,7 +61,7 @@ Navigate to
 **Related topics**  
 
 
-[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-product-catalog.md)
 
-[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/product-catalog-managment.md)
 

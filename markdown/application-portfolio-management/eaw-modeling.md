@@ -3,9 +3,9 @@ title: Exploring Enterprise Modeling and Visualization in the EA Workspace
 description: Enterprise Modeling and Visualization in EA Workspace helps you with diagramming and modeling capabilities and enable you to model the future state of your IT and its relationship to the business landscape.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-modeling.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-05-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -58,7 +58,7 @@ You can install the Enterprise Modeling and Visualization \[com.snc.apm\_modelli
 
     When you hover over a shape icon in the **Shapes** panel, a preview popover appears to the right of the panel. The popover shows a larger view of the shape and its label. Moving to a different shape icon, using either the mouse or the arrow keys, updates the popover to the new shape. The popover closes when you move the mouse away from the icon, press Tab on the keyboard, start dragging a shape, or scroll the panel.
 
--   **Label connector lines**: Select a connector line between shapes in a diagram and select **T+** in the connector toolbar to add a label. For more information, see [Add labels to connector lines between shapes in a diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-add-labels-to-connector-lines.md).
+-   **Label connector lines**: Select a connector line between shapes in a diagram and select **T+** in the connector toolbar to add a label. For more information, see [Add labels to connector lines between shapes in a diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-modeling-add-labels-to-connector-lines.md).
 
     You can perform the following actions for the labels:
 
@@ -68,14 +68,14 @@ You can install the Enterprise Modeling and Visualization \[com.snc.apm\_modelli
     -   Use undo or redo action for a label
     **Note:** In read-only mode or after the diagram is submitted for approval, label actions are unavailable.
 
--   **Connector line properties**: Select a connector between two shapes to display a toolbar on top of the connector. The toolbar has two forms depending on the notation of the connected shapes:
+-   **Connector line properties**: Select a connector between two shapes to display a toolbar above the connector. The toolbar has two forms depending on the notation of the connected shapes:
 
     -   If both connected shapes are ArchiMate shapes, the toolbar shows the following controls:
 
         -   **Relationship type**: Sets the ArchiMate relationship type from a predefined list, including Access, Aggregation, Assignment, Association, Composition, Flow, Influence, Realization, Serving, Specialization, Triggering, and Used by.
         -   **Swap direction**: Reverses the connector orientation, switching the left and right sides.
         -   **T+**: Adds a text label to the connector.
-        \[Omitted image "connector-line-archimate.png"\] Alt text: ArchiMate connector toolbar showing the relationship type list, Flip control, and T+ button on top of the connector line linking two shapes.
+        \[Omitted image "connector-line-archimate.png"\] Alt text: ArchiMate connector toolbar showing the relationship type list, Flip control, and T+ button before a connector linking two shapes.
 
     -   If at least one connected shape is a non-ArchiMate shape \(for example, a CSDM or AWS shape\), or when connecting shapes from two different notations, the toolbar shows the following controls:
 
@@ -87,7 +87,7 @@ You can install the Enterprise Modeling and Visualization \[com.snc.apm\_modelli
         -   **T+**: Adds a text label to the connector.
         \[Omitted image "connector-line-non-archimate.png"\] Alt text: Non-ArchiMate connector toolbar showing line style, start arrow, Flip, end arrow, icon, and T+ controls above a connector linking two shapes.
 
-    For more information, see [Shape connector properties in Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-connector-properties.md) and [Set shape connector properties in Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-set-connector-properties.md).
+    For more information, see [Shape connector properties in Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-connector-properties.md) and [Set shape connector properties in Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-set-connector-properties.md).
 
 -   **Version**: This field enables you to view and open a different version of the diagram.
 
@@ -101,7 +101,7 @@ You can install the Enterprise Modeling and Visualization \[com.snc.apm\_modelli
 
     \[Omitted image "diagram-changes-undo-redo.png"\] Alt text: Undo and Redo buttons highlighted on a diagram page.
 
--   **Align and distribute shapes**: Select two or more shapes on the canvas to align them to a common edge or center. Select three or more shapes to also distribute them at equal spacing. For more information, see [Align and distribute shapes in a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-align-distribute-shapes.md).
+-   **Align and distribute shapes**: Select two or more shapes on the canvas to align them to a common edge or center. Select three or more shapes to also distribute them at equal spacing. For more information, see [Align and distribute shapes in a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-align-distribute-shapes.md).
 
     \[Omitted image "modeling-align-options.png"\] Alt text: The alignment and distribution options available on the diagram canvas page.
 
@@ -142,43 +142,43 @@ The following table lists the keyboard shortcuts available for navigating:
 |Enter|Select the focused shape, relationship, or control.|
 |Shift + Enter|Move focus to shape or relationship adornments.|
 
--   **[Shapes to create a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-shapes.md)**  
+-   **[Shapes to create a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-modeling-shapes.md)**  
 The shapes available in Enterprise Modeling and Visualization help you create diagrams. You can add a shape to the canvas by either selecting the shape or by dragging the shape from the **Shapes** palette to the canvas.
--   **[Shape connector properties in Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-connector-properties.md)**  
+-   **[Shape connector properties in Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-connector-properties.md)**  
 When you select a connector between two shapes in an enterprise modeling diagram, a toolbar appears above the connector. Use the toolbar to define the relationship type or visual style of the connector.
--   **[ArchiMate shapes support in the Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-archimate.md)**  
+-   **[ArchiMate shapes support in the Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-modeling-archimate.md)**  
 ArchiMate® shapes are industry-standard elements used by enterprise architects to create diagrams that represent relationships across different domains of an enterprise. ArchiMate is a registered trademark of The Open Group. Enterprise Modeling and Visualization supports ArchiMate shapes along with General and Enterprise Architecture shapes.
--   **[AWS shapes support in the Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/ea-modeling-aws.md)**  
+-   **[AWS shapes support in the Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/ea-modeling-aws.md)**  
 Enterprise Modeling and Visualization supports Amazon Web Services \(AWS\) shape libraries for modeling cloud architectures. These shapes enable architects to design future-state cloud diagrams aligned with CMDB and CSDM standards.
--   **[CSDM shapes support in the Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/align-with-csdm5.md)**  
+-   **[CSDM shapes support in the Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/align-with-csdm5.md)**  
 ServiceNow CSDM data model defines standardized relationships between service-related objects in the CMDB. It ensures consistency across ITSM, ITOM, and EA practices. In Enterprise Architecture Workspace, CSDM shapes represent these objects visually in diagrams, enabling architects to model business capabilities, applications, services, and technical components in alignment with the Now Platform.
--   **[Custom shapes support in the Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-custom-shapes.md)**  
+-   **[Custom shapes support in the Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-modeling-custom-shapes.md)**  
 Custom shapes are the user-defined graphical elements that can be used to represent specific concepts, processes, systems, or roles in your diagrams. These shapes can be tailored to fit the unique needs of your organization, making your diagrams more meaningful and easier to understand.
--   **[Business process modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/business-process-modeling.md)**  
+-   **[Business process modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/business-process-modeling.md)**  
 Business processes are a structured sequence of tasks that are grouped, helping to accomplish specific business outcomes. A business process modeling diagram or a BPMN \(Business Process Model and Notation\) diagram is a visual representation of a business process.
--   **[Business process map diagrams from images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-bpm-diagram-from-image.md)**  
+-   **[Business process map diagrams from images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-bpm-diagram-from-image.md)**  
 Use the ServiceNow AI lens skill to generate a business process map \(BPM\) diagram automatically by uploading an image of an existing process diagram from any tool.
 
-**Parent Topic:**[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/explore-eaw.md)
+**Parent Topic:**[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/explore-eaw.md)
 
 **Related topics**  
 
 
-[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)
+[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)
 
-[Configure Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-setup-modeling.md)
+[Configure Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-setup-modeling.md)
 
-[Add or edit diagram version details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-or-edit-diagram-version-details.md)
+[Add or edit diagram version details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-add-or-edit-diagram-version-details.md)
 
-[Shape connector properties in Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-connector-properties.md)
+[Shape connector properties in Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-connector-properties.md)
 
-[Set shape connector properties in Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-set-connector-properties.md)
+[Set shape connector properties in Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-set-connector-properties.md)
 
-[Add labels to connector lines between shapes in a diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-add-labels-to-connector-lines.md)
+[Add labels to connector lines between shapes in a diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-modeling-add-labels-to-connector-lines.md)
 
-[Approve or reject a modeling diagram request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-approve-diagram-req.md)
+[Approve or reject a modeling diagram request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-approve-diagram-req.md)
 
-[Delete a shape](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-delete-shape.md)
+[Delete a shape](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-modeling-delete-shape.md)
 
-[Delete Enterprise Modeling and Visualization diagrams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-delete-diagram.md)
+[Delete Enterprise Modeling and Visualization diagrams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-modeling-delete-diagram.md)
 

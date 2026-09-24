@@ -3,11 +3,11 @@ title: Onboard MCP server approval playbook
 description: The Onboard playbook tracks the MCP server through assessment, testing, and deployment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-onboard-mcp-server-approval-playbook.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [MCP server approval playbook workflow, Working with MCP server records, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [MCP server approval playbook workflow, Working with MCP server records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Onboard MCP server approval playbook

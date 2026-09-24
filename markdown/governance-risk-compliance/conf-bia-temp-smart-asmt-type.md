@@ -3,9 +3,9 @@ title: Configure BIA templates with Smart Assessment
 description: Configure a business impact analysis \(BIA\) template in the Business Continuity Workspace with the Smart Assessment. Select the type of the elements, impact categories, and dependencies that are assessed in the BIA. The Smart Assessment lets you choose a custom Smart Assessment template for the BIA.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/conf-bia-temp-smart-asmt-type.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Setup for a BIA, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -24,9 +24,9 @@ A BIA created using the Smart Assessment template includes Smart Assessment inst
 
 Impact category completion configuration for Smart Assessment: To configure Impact category completion for Smart Assessment, navigate to **All &gt; Business Continuity &gt; General Administration &gt; Properties**. Set the **Mark the Impact Assessment as Complete once all required questions are answered, or all questions \(required and optional\) are answered** property. Choose the preferred option to show completion based on required or all questions.
 
-For the initial setup checklist for Smart Assessment Engine, see [Configuring Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/smart-assessment-engine-cf-config.md).
+For the initial setup checklist for Smart Assessment Engine, see [Configuring Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/smart-assessment-engine-cf-config.md).
 
-**Note:** The BIA template references the impact assessment template by template family and not by a specific version. Therefore, future BIAs automatically use the latest published version. Verify that the Post Assessment Actions on the new version are reviewed and published before triggering new BIAs — otherwise, the RTO, RPO, MTPD, and Recovery Tier fields will not be populated. For more information, see [Using latest assessment template for conducting BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-smart-asmt-template.md).
+**Note:** The BIA template references the impact assessment template by template family and not by a specific version. Therefore, future BIAs automatically use the latest published version. Verify that the Post Assessment Actions on the new version are reviewed and published before triggering new BIAs — otherwise, the RTO, RPO, MTPD, and Recovery Tier fields will not be populated. For more information, see [Using latest assessment template for conducting BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/using-smart-asmt-template.md).
 
 ## Procedure
 
@@ -38,7 +38,7 @@ For the initial setup checklist for Smart Assessment Engine, see [Configuring Sm
 
 3.  On the form, fill in the fields.
 
-    For more information on the fields in the form, see [BIA template form for the legacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bia-template-new-record-form.md).
+    For more information on the fields in the form, see [BIA template form for the legacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/bia-template-new-record-form.md).
 
 4.  Select **Smart Assessment** as the assessment type.
 
@@ -48,7 +48,7 @@ For the initial setup checklist for Smart Assessment Engine, see [Configuring Sm
 
     When you select the Smart Assessment, the **Impact categories** field is not displayed in the BIA template form. Instead, the **Impact assessment templates** field is displayed. The templates shown, like Recovery point objective and Recovery time objective, are demo data with a format similar to legacy assessments.
 
-    The Impact assessment template is the Smart Assessment template you configured following the steps outlined in [Create Smart Assessment templates for BIA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/conf-impact-asmt-template.md).
+    The Impact assessment template is the Smart Assessment template you configured following the steps outlined in [Create Smart Assessment templates for BIA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/conf-impact-asmt-template.md).
 
 5.  Choose the Impact assessment templates for assessments.
 
@@ -56,9 +56,11 @@ For the initial setup checklist for Smart Assessment Engine, see [Configuring Sm
 
 7.  To save the BIA template, select **Submit**.
 
-8.  To display result fields on the assessment card in Impact analysis record, open the BIA template, map BIA fields to the Impact assessment template, and save the mapping.
+8.  Open the BIA template.
 
-    The BIA template with the Smart Assessment type is set up in the instance. The related list for the BIA template depends on the selected impact assessment template. For example, choosing the Recovery Point Objective template shows the same related list mapped to the BIA fields. For more information, see [Create Smart Assessment templates for BIA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/conf-impact-asmt-template.md).
+    To display result fields on the assessment card in the Impact analysis record, map the BIA fields to the Impact assessment template and save the mapping.
+
+    The BIA template with the Smart Assessment type is set up in the instance. The related list for the BIA template depends on the selected impact assessment template. For example, choosing the Recovery Point Objective template shows the same related list mapped to the BIA fields. For more information, see [Create Smart Assessment templates for BIA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/conf-impact-asmt-template.md).
 
     \[Omitted image "bia-rel-list.png"\] Alt text: Related list.
 
@@ -70,15 +72,15 @@ For the initial setup checklist for Smart Assessment Engine, see [Configuring Sm
 
     \[Omitted image "bia-asmts-based-on-imp-asmt-templates.png"\] Alt text: Cards.
 
-    Previously, the **Assessments** tab showed a single assessment card and an **Open assessment** button. The layout has been updated to a two-column arrangement. Assessment cards are now displayed dynamically, enabling you to attach multiple assessments to a BIA. For example, one card appears in a single row, while seven cards are distributed across four rows: three rows of two cards and one row of one card.
+    Previously, the **Assessments** tab showed a single assessment card and an **Open assessment** button. Beginning with the Yokohama release, the layout has been updated to a two-column arrangement. Assessment cards are now displayed dynamically, enabling you to attach multiple assessments to a BIA. For example, one card is shown alone in a row, while seven cards are distributed across four rows: three rows of two cards and one row of one card.
 
     **Note:** The selected BIA fields are populated on the cards only if they are not empty.
 
     Selecting the Dependency assessment card opens the BIA assessment. When BCM users submit the assessment, the automation configured in the Smart Assessment template updates the configured result fields.
 
 
--   **[BIA template record form for the Smart assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bia-smart-temp-ref-form.md)**  
+-   **[BIA template record form for the Smart assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/bia-smart-temp-ref-form.md)**  
 Use the BIA template record form to configure the business impact analysis with the Smart assessment. You can add details such as name, description, primary element assessed and select the impact assessment template in the form.
 
-**Parent Topic:**[Setup for a business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-admin-tasks.md)
+**Parent Topic:**[Setup for a business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/bcm-admin-tasks.md)
 

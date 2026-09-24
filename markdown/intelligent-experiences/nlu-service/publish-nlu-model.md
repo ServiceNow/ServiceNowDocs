@@ -1,18 +1,18 @@
 ---
-title: Publish your NLU model
+title: \(Legacy\) Publish your NLU model
 description: Publish your Natural Language Understanding \(NLU\) model to activate it and make it available for use in other applications that consume NLU.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/publish-nlu-model.html
-release: australia
+release: brazil
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Test and publish your model, Model management, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) Test and publish your model, \(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Publish your NLU model
+# \(Legacy\) Publish your NLU model
 
 Publish your Natural Language Understanding \(NLU\) model to activate it and make it available for use in other applications that consume NLU.
 
@@ -44,7 +44,7 @@ If your model is already published, you can publish it again. However, you must 
 
 4.  On the **Test and publish your model** screen, select **Run new test** to assess the model using its default test set.
 
-    Testing can be skipped, but model performance may not be optimal. If testing is skipped, a confirmation message displays, asking if you want to continue without testing. For more information on testing, see [Test and publish your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/testing-your-model.md).
+    Testing can be skipped, but model performance may not be optimal. If testing is skipped, a confirmation message displays, asking if you want to continue without testing. For more information on testing, see [\(Legacy\) Test and publish your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/testing-your-model.md).
 
 5.  Click **Publish model**.
 

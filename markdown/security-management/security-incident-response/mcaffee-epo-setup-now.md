@@ -3,11 +3,11 @@ title: Set up your ServiceNow AI Platform instance for the McAfee ePO integratio
 description: The following section lists the setup tasks that you’re required to complete in your ServiceNow AI Platform instance prior to installing the application for the McAfee ePO integration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/mcaffee-epo-setup-now.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [McAfee ePO integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -72,7 +72,7 @@ Security Incident Response Dependency plugin \(com.snc.si\_dep\) is required. Th
 4.  Security Support Common
 5.  Security Support Orchestration
 
- For more information about installing the Security Operations core applications, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/activate-entitled-store-app.md).
+ For more information about installing the Security Operations core applications, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/activate-entitled-store-app.md).
 
 </td></tr><tr><td>
 
@@ -94,12 +94,12 @@ If this option is enabled, prior approval is required before host machines are i
 
 If your organization wants an extra level of control over these actions, enable the **Require approval** option during the configuration step for a profile.
 
-By default, approval authority is assigned to the ServiceNow AI Platform® security incident administrator \(sn\_si.admin\). This authority can be reassigned to an approval group. Within the group, any member has permission to approve or reject requests.You select an active approval group during the configuration step of your profile setup. For more information, see [Create an approval group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-approval-group-mcafee.md).
+By default, approval authority is assigned to the ServiceNow AI Platform® security incident administrator \(sn\_si.admin\). This authority can be reassigned to an approval group. Within the group, any member has permission to approve or reject requests.You select an active approval group during the configuration step of your profile setup. For more information, see [Create an approval group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/create-approval-group-mcafee.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcaffee-epo-overview-arch.md)
+</table>**Parent Topic:**[McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/mcaffee-epo-overview-arch.md)
 
-**Previous topic:**[Checklist for the McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcafee-epo_checklist.md)
+**Previous topic:**[Checklist for the McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/mcafee-epo_checklist.md)
 
-**Next topic:**[Set up your McAfee ePO console to integrate with Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcafee-epo-setup-mcafee.md)
+**Next topic:**[Set up your McAfee ePO console to integrate with Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/mcafee-epo-setup-mcafee.md)
 

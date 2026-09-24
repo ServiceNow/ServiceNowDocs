@@ -3,9 +3,9 @@ title: Create an email account
 description: You can create email accounts in addition to the accounts provisioned for you.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ConfigureAnEmailAccount.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Email accounts, Create, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -60,7 +60,7 @@ A shared address refers to a shared mailbox that multiple users or team members 
 
 A forwarding address is an email address where emails are automatically redirected or forwarded from another account.
 
- **Note:** Account type is specific to personal corporate mailbox. For more information,see [Personal corporate mailbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/personal-corporate-mailbox.md).
+ **Note:** Account type is specific to personal corporate mailbox. For more information,see [Personal corporate mailbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/personal-corporate-mailbox.md).
 
 </td></tr><tr><td>
 
@@ -197,7 +197,7 @@ System Address Filter
 
 System address filter to apply to the email account. If left blank, the system uses the default system address filter for inbound or outbound email.
 
- For more information, see [System address filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-address-filters.md).
+ For more information, see [System address filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-address-filters.md).
 
 </td></tr></tbody>
 </table>3.  Select **Submit**.
@@ -206,7 +206,7 @@ System address filter to apply to the email account. If left blank, the system u
 
     The system displays a pop-up window with the results of the connection test.
 
-    \[Omitted image "connection-successful.png"\] Alt text: Connection Test dialog showing a successful connection result
+    \[Omitted image "connection-successful.png"\] Alt text: Connection Test pop-up window displaying the results connection successful.
 
     If the test succeeds, select **Close** to return to the email account record. If the test fails, select **View Logs** to display more information about the test results.
 
@@ -219,5 +219,5 @@ The system uses the email account to send or receive email.
 
 Enable the system to send or receive email.
 
-**Parent Topic:**[Email accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailAccounts.md)
+**Parent Topic:**[Email accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_EmailAccounts.md)
 

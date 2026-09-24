@@ -3,9 +3,9 @@ title: Scheduled export reference qualifiers
 description: Use reference qualifiers to specify the users and groups in the recipients field of scheduled exports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/scheduled-export-ref-qualifiers.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Schedule the export of dashboards and data visualizations, Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -34,7 +34,7 @@ Role required: admin
 
 5.  On the Reference Specification tab of the dictionary entry, use the condition builder to add filter conditions to the User list.
 
-    For example, configure the reference qualifier condition \[Name\] \[starts with\] \[b\]. Only users whose names start with the letter B will show up in the list of users in the recipients list when configuring an export. For more examples, see [Auto-complete for reference fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_AutoCompleteForReferenceFields.md).
+    For example, configure the reference qualifier condition \[Name\] \[starts with\] \[b\]. Only users whose names start with the letter B will show up in the list of users in the recipients list when configuring an export. For more examples, see [Auto-complete for reference fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_AutoCompleteForReferenceFields.md).
 
 6.  Select **Update**.
 
@@ -51,7 +51,7 @@ Role required: admin
 
 ## What to do next
 
-For more information, see [Reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ReferenceQualifiers.md).
+For more information, see [Reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ReferenceQualifiers.md).
 
-**Parent Topic:**[Schedule the export of dashboards and data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/schedule-export-dboards-data-viz.md)
+**Parent Topic:**[Schedule the export of dashboards and data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/schedule-export-dboards-data-viz.md)
 

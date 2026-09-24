@@ -3,9 +3,9 @@ title: Fivetran metadata collector
 description: Provides read-only access to metadata from a Fivetran account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/fivetran-metadata-collector.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
 ---
@@ -73,10 +73,10 @@ The collector authenticates using a Fivetran API key. The API key owner must hav
 
 See the [Fivetran role-based access control documentation](https://fivetran.com/docs/getting-started/fivetran-dashboard/account-management/role-based-access-control#rolesinourrbacmodel) for details on API keys and permissions.
 
--   **[Prepare to run the Fivetran collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-fivetran-collector.md)**  
+-   **[Prepare to run the Fivetran collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/prepare-to-run-fivetran-collector.md)**  
 Create a Fivetran API key before running the collector.
--   **[Create a Fivetran metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-fivetran-metadata-collector.md)**  
+-   **[Create a Fivetran metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-fivetran-metadata-collector.md)**  
 Create a collector to import metadata from Fivetran.
 
-**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-metadata-collectors-dc.md)
+**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-metadata-collectors-dc.md)
 

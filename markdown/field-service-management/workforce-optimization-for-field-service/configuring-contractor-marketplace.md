@@ -3,11 +3,11 @@ title: Configuring Field Service Marketplace
 description: You can configure Contractor Marketplace to enable dispatchers to push tasks to marketplace when internal agents are unavailable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/configuring-contractor-marketplace.html
-release: australia
+release: brazil
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Contractor capabilities, Set up workforce, Configure, Field Service Management]
 ---
@@ -20,11 +20,11 @@ Contractor managers receive notifications in the Field Service Contractor for mo
 
 ## Configuration overview
 
-1.  [Activate Field Service Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/activate-contractor-marketplace.md)
-2.  [Create a marketplace engagement method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/create-marketplace-eng-mthd.md)
+1.  [Activate Field Service Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/activate-contractor-marketplace.md)
+2.  [Create a marketplace engagement method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/create-marketplace-eng-mthd.md)
 
 **Related topics**  
 
 
-[Allowing contractors to bid on work orders and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/using-fsm-marketplace.md)
+[Allowing contractors to bid on work orders and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/using-fsm-marketplace.md)
 

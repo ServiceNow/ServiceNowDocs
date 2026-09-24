@@ -3,11 +3,11 @@ title: Create a user criteria record for Service Portal
 description: Create a user criteria record to apply to items in Service Portal and control user access to pages, widgets, widget instances, and search sources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/create-user-criteria-record.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [User criteria for Service Portal, Managing portal access, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-You can [apply existing user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/widget-user-criteria.md) to records in Service Portal through Service Portal configuration \(**Service Portal** &gt; **Service Portal configuration**\). You can only create user criteria within the platform UI.
+You can [apply existing user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/widget-user-criteria.md) to records in Service Portal through Service Portal configuration \(**Service Portal** &gt; **Service Portal configuration**\). You can only create user criteria within the platform UI.
 
 ## Procedure
 
@@ -160,5 +160,5 @@ Determines whether all elements from each populated criteria field must match. I
 </table>5.  Click **Submit**.
 
 
-**Parent Topic:**[User criteria for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/user-criteria.md)
+**Parent Topic:**[User criteria for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/user-criteria.md)
 

@@ -3,9 +3,9 @@ title: Define fields and weights for the risk rule for Unified Security Exposure
 description: Customize risk rule parameters and weights to generate risk scores that reflect your organization's specific finding and asset data. By selecting relevant fields for the risk rule, you can create an effective risk scoring framework that meets your organization's unique needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-vuln-calc-define-risk-rule-fields.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Configure rules to manage findings, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -18,8 +18,8 @@ Customize risk rule parameters and weights to generate risk scores that reflect 
 
 Additionally, you can use attributes in the configuration\_item \[cmdb\_ci\] in the Configuration Management Database \(CMDB\) to help you create logic for your Unified Security Exposure Management risk calculators. If, for example, you determine that CIs that are external-facing in your organization are more vulnerable and might require immediate remediation, you can assign attributes such as **Internet Facing** for these CIs. This attribute, and others, are listed in the Common Service Data Model release notes for the Orlando family release. For current information and guidance on the CMDB, see the following topics:
 
--   [Common Service Data Model conceptual model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/csdm-conceptual-model.md)
--   [CMDB schema model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ConfigurationManagementDatabase.md)
+-   [Common Service Data Model conceptual model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/csdm-conceptual-model.md)
+-   [CMDB schema model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_ConfigurationManagementDatabase.md)
 
 Role required: sn\_sec\_cmn.admin \(read-only viewers: sn\_sec\_cmn.read\)
 
@@ -129,7 +129,7 @@ Condition
 
 </td><td>
 
-Field that appears only when Custom conditions are selected from the Choose reference table. Preview the items in this table that match the defined conditions.**Note:** After you integrate with Early Warning for Security Exposure Management, the early warning flag and Admiralty score become available as risk rule criteria, giving you finer control over how early warnings affect your vulnerability scores. For more information, see [Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/armis-early-warning-integration.md).
+Field that appears only when Custom conditions are selected from the Choose reference table. Preview the items in this table that match the defined conditions.**Note:** After you integrate with Early Warning for Security Exposure Management, the early warning flag and Admiralty score become available as risk rule criteria, giving you finer control over how early warnings affect your vulnerability scores. For more information, see [Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/armis-early-warning-integration.md).
 
 </td></tr></tbody>
 </table>8.  Select **Submit**.
@@ -159,7 +159,10 @@ Use case: Third-party vendors, like Qualys and Tenable, provide their own scores
 4.  From the Choose reference table list, select **Vulnerable item**.
 5.  From the Field list, select **Vulnerability.Source Severity**.
 6.  In the **Weight** field, enter the relative importance of this field within the risk rule. The value must be an integer from 0 through 100.
-7.  In the Define Value Weightages section, add field values, and assign a weight to them.
+7.  In the Define Value Weightage section, add field values, and assign a weight to them.
+
+    \[Omitted image "risk-rule-vi-example.jpg"\] Alt text: Risk rule VI example.
+
 8.  Select **Submit**.
 
 Example 2: Add a business criticality as a criterion for a risk rule.
@@ -184,6 +187,9 @@ The mapping between the CI and services is stored in the Related Services \[sn\_
 7.  In the **Aggregation** field, select **Minimum** to retrieve the most critical service for this use case \(**1- Most critical** value\) or Maximum to retrieve the least critical service for this use case \(**4 – Not critical** value\) for this use case.
 8.  In the **Weight** field, enter the relative importance of this field within the risk rule. The value must be an integer from 0 through 100.
 9.  In the Define Value Weightages section, add field values, and assign a weight to them.
+
+    \[Omitted image "risk-rule-ci-ref-table-define-value-weightages.png"\] Alt text: Risk rule CI reference table.
+
 10. Select **Submit**.
 
 Example 3: Add a conditional criterion to the risk calculator.
@@ -202,19 +208,20 @@ To add a conditional criterion to the risk rule, do the following:
 6.  In the **Field name** field, enter the name **CI Exposure**.
 7.  In the **Weight** field, enter the relative importance of this field within the risk rule. The value must be an integer from 0 through 100.
 8.  In the **Condition** field, select **Name** &gt; **starts with** and enter the value **external**.
+
+    \[Omitted image "risk-rule-custom-conditions.jpg"\] Alt text: Custom conditions for a new risk rule.
+
 9.  Select **Submit**.
 
     **Note:** Adding conditional criteria to your risk rule might degrade performance.
 
 
-**Parent Topic:**[Configure rules to manage findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-rules-manage-findings.md)
-
 **Related topics**  
 
 
-[Vulnerability Response calculators and vulnerability calculator rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vuln-calculators-rules.md)
+[Vulnerability Response calculators and vulnerability calculator rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/vuln-calculators-rules.md)
 
-[Create a Vulnerability Response calculator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/create-vul-calculator.md)
+[Create a Vulnerability Response calculator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/create-vul-calculator.md)
 
-[Filtering within Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vr-filtering.md)
+[Filtering within Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/vr-filtering.md)
 

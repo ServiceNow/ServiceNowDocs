@@ -3,13 +3,13 @@ title: Associate a catalog item with a remote record producer
 description: Associate a service catalog item with your provider's remote record producer to send the order details to your provider for fulfillment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/associate-catalog-item-with-record-producer.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage Service Catalog items, Zero Touch request flow, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage Service Catalog items for the Zero Touch request flow, Configure Zero Touch request flow, Integrations and advanced configuration, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Associate a catalog item with a remote record producer

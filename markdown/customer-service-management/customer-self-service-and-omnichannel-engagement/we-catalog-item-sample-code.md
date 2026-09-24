@@ -3,13 +3,13 @@ title: Sample code for the Catalog item component
 description: Sample code is provided to define an action when an event is triggered. Update the sample code for your use case before embedding the component on your webpage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/we-catalog-item-sample-code.html
-release: australia
+release: brazil
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Catalog item component, Configure web components, Web Embeddables, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Catalog item component, Configure web components, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Sample code for the Catalog item component
@@ -99,11 +99,11 @@ open(secondaryURL,'_self');
 **Related topics**  
 
 
-[Configure the Catalog item component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-catalog-item-component-on-instance.md)
+[Configure the Catalog item component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-catalog-item-component-on-instance.md)
 
-[Embed the Catalog item component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-catalog-item-component-on-third-party-website.md)
+[Embed the Catalog item component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-catalog-item-component-on-third-party-website.md)
 
-[Component properties for the Catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/component-properties-for-catalog-item.md)
+[Component properties for the Catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/component-properties-for-catalog-item.md)
 
-[Event handler in the Catalog item component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/we-catalog-item-event-handler.md)
+[Event handler in the Catalog item component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/we-catalog-item-event-handler.md)
 

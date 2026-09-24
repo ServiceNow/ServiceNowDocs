@@ -3,11 +3,11 @@ title: Install Operational Technology Incident Management
 description: You can install the Operational Technology Incident Management application \(sn\_ot\_inc\_mgmt\) if you have the admin role. The application installs related ServiceNow Store applications and plugins if they are not already installed.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the above sentence. Changed Service to Incident in these topics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-incident-management/install-operational-technology-service-management.html
-release: australia
+release: brazil
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure, Operational Technology Incident Management, Operational Technology]
 ---
@@ -23,21 +23,21 @@ You can install the Operational Technology Incident Management application \(sn\
     -   **Required ServiceNow plugins**
         -   **CMDB CI Class Models \(sn\_cmdb\_ci\_class\)**
 
-            The CMDB CI Class Models store app adds class models that extend the CMDB class hierarchy, including class descriptions, identification rules, identifier entries, and dependent relationships. For more information, see [CMDB CI Class Models store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models.md).
+            The CMDB CI Class Models store app adds class models that extend the CMDB class hierarchy, including class descriptions, identification rules, identifier entries, and dependent relationships. For more information, see [CMDB CI Class Models store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-ci-class-models.md).
 
         -   **ISA Equipment Model \(sn\_isa\_model\)**
 
-            The data model for ISA-95 equipment model entities and templates. For more information, see [ISA-95 equipment model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/isa-95-equipment-model.md).
+            The data model for ISA-95 equipment model entities and templates. For more information, see [ISA-95 equipment model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/isa-95-equipment-model.md).
 
 -   Operational Technology Incident Management requires either one or both of the following ServiceNow Store applications. Ensure that at least one of these applications is installed before you install Operational Technology Incident Management.
     -   **Required ServiceNow Store applications**
         -   **Operational Technology Manager**
 
-            The Operational Technology Manager application creates the foundational data and relationships that enables your enterprise to use the ServiceNow® Operational Technology solution. Operational Technology Manager supports the use of the Configuration Management Database \(CMDB\), Service Graph Connectors, and Discovery applications in the ServiceNow AI Platform. For more information, see [Configuring the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/configuring-operational-technology-manager.md).
+            The Operational Technology Manager application creates the foundational data and relationships that enables your enterprise to use the ServiceNow® Operational Technology solution. Operational Technology Manager supports the use of the Configuration Management Database \(CMDB\), Service Graph Connectors, and Discovery applications in the ServiceNow AI Platform. For more information, see [Configuring the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/configuring-operational-technology-manager.md).
 
         -   **Industrial Process Manager**
 
-            The Industrial Process Manager application creates the ISA-95 Equipment Model data foundation that is required for the ServiceNow® Industrial solution, enabling you to create your own version of the equipment models in each of your industrial sites. For more information, see [Configuring the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/configuring-manufacturing-process-mgr.md).
+            The Industrial Process Manager application creates the ISA-95 Equipment Model data foundation that is required for the ServiceNow® Industrial solution, enabling you to create your own version of the equipment models in each of your industrial sites. For more information, see [Configure the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/configuring-manufacturing-process-mgr.md).
 
 -   Role required: admin
 
@@ -49,7 +49,7 @@ The following items are installed with Operational Technology Incident Managemen
 -   Store applications
 -   Roles and ACLs
 
-For more information about the roles and ACLs installed, see [Components installed with Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/components-installed-with-operational-technology-service-management.md).
+For more information about the roles and ACLs installed, see [Components installed with Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-incident-management/components-installed-with-operational-technology-service-management.md).
 
 **Note:** For Operational Technology Service Management users with no license for Operational Technology Visibility, note the following:
 
@@ -75,5 +75,5 @@ You should upgrade to the latest versions so you have access to the Operational 
 4.  Select **Install**.
 
 
-**Parent Topic:**[Configuring Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/configuring-operational-technology-incident-mgt.md)
+**Parent Topic:**[Configuring Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-incident-management/configuring-operational-technology-incident-mgt.md)
 

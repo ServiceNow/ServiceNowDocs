@@ -3,11 +3,11 @@ title: Attach a predefined tag to an alert grouping definition
 description: Get started faster with alert clustering by attaching a predefined alert clustering tag to a tag-based alert clustering definition in Event Management. By associating a predefined tag, you ensure that alerts meeting the specified criteria are grouped effectively, facilitating quicker identification and response to related incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/alert-clustering-predefined-tag.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Tag cluster alert grouping, Mixed alert grouping, Alert grouping types and creation methods, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -24,7 +24,7 @@ Role required: evt\_mgmt\_admin
 
 The Tag Based Alert Clustering Engine application comes with a set of predefined alert clustering tags. Attach a tag to a tag-based alert clustering definition to specify the conditions that must be met for alert correlation. This enables effective grouping of alerts based on shared characteristics, improving the accuracy and efficiency of incident response and management.
 
-**Note:** To group alerts using tag-based grouping, create a grouping automation in Service Operations Workspace. For more information, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/group-alert-sow-itom.md).
+**Note:** To group alerts using tag-based grouping, create a grouping automation in Service Operations Workspace. For more information, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/group-alert-sow-itom.md).
 
 ## Procedure
 
@@ -36,7 +36,7 @@ The Tag Based Alert Clustering Engine application comes with a set of predefined
 
 4.  Use the search field to locate a predefined alert clustering tag, and then select the green check mark to confirm your selection.
 
-    **Note:** Predefined tags are recognizable by their description, which includes “out of the box.” For a complete list of the available predefined tags, see [List of predefined alert grouping tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-clustering-predefined-tag-list.md).
+    **Note:** Predefined tags are recognizable by their description, which includes “out of the box.” For a complete list of the available predefined tags, see [List of predefined alert grouping tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/alert-clustering-predefined-tag-list.md).
 
 5.  Select **Save**.
 

@@ -3,11 +3,11 @@ title: Set UiPath WebHook routing policies
 description: Set the UiPath WebHook routing policies to enable the data to get populated in the ServiceNow tables, and then used by Automation Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/routing-policies.html
-release: australia
+release: brazil
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring UiPath, Configure, Automation Center, Workflow Data Fabric]
 ---
@@ -29,5 +29,5 @@ Role required: none
     When UiPath data comes to the ServiceNow instance, these routing policies take care of triggering the corresponding flows to store data in ServiceNow tables. By default, the flag is set to **False**.
 
 
-**Parent Topic:**[Configuring UiPath with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/uipath-config.md)
+**Parent Topic:**[Configuring UiPath with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/uipath-config.md)
 

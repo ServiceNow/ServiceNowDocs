@@ -3,9 +3,9 @@ title: Configure Identity Provider attribute for Session Access
 description: Use Identity Provider \(IDP\) attribute created from the Security Assertion Markup Language \(SAML\) response and OpenID Connect \(OIDC\) for removing or restricting user session access to the instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/configure-idp-session-access.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Tutorial: Use ZTA, Zero Trust Access, Access Management]
 ---
@@ -51,7 +51,7 @@ The following procedure shows steps to configure the IDP attribute from the SAML
 
     3.  Choose the **Policy**.
 
-        To know more on how to create policy using different filter criteria using Adaptive Authentication policy creation, see [Filter criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/adaptive-auth-filter-criteria.md).
+        To know more on how to create policy using different filter criteria using Adaptive Authentication policy creation, see [Filter criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/adaptive-auth-filter-criteria.md).
 
     4.  Choose Action as Remove Roles.
 
@@ -67,7 +67,7 @@ The following procedure shows steps to configure the IDP attribute from the SAML
 
         Based on this configuration, when the risk score attribute value from the Okta \(IDP\) beyond 80, the user isn’t authenticated with the roles \(**employee**\) and its child roles that were removed to the instance, the user is only authenticated with other roles assigned. If the risk score is from 60 through 80, the user is authenticated to the instance with all the roles.
 
-        For more information on how to create Post Authentication Context's Policy with Policy inputs and Condition, see [Post-authentication context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/post-auth-context.md).
+        For more information on how to create Post Authentication Context's Policy with Policy inputs and Condition, see [Post-authentication context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/post-auth-context.md).
 
         **Note:** If the **Enable Session Access** property is inactive, then the configuration for Session Access doesn’t restrict or remove the roles of the user.
 

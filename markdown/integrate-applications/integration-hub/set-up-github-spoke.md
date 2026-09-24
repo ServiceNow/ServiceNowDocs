@@ -3,7 +3,7 @@ title: Set up the GitHub spoke
 description: Integrate your ServiceNow instance with the GitHub and GitHub Enterprise Server to automate flows and perform actions on GitHub and GitHub Enterprise Server. For example, create a flow that creates a branch on GitHub and retrieves its details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-github-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -108,7 +108,7 @@ Use Mid Server
 
 -   Enter `1` if your ServiceNow instance requires a MID Server to connect with GitHub.
 -   Enter `0` if your ServiceNow instance does not require a MID Server to connect with GitHub.
- **Important:** To enable this option, you must already have a MID Server set up on your instance. See [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md) for detailed instructions.
+ **Important:** To enable this option, you must already have a MID Server set up on your instance. See [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-landing.md) for detailed instructions.
 
 </td></tr><tr><td>
 
@@ -127,7 +127,7 @@ Personal access token that you had generated on GitHub.
 
     **Important:** Generate a personal access token on the GitHub Enterprise server.
 
-    To learn to generate a personal access token on the GitHub Enterprise server, see [Integrate with GitHub Enterprise Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/integrating-with-github-server.md).
+    To learn to generate a personal access token on the GitHub Enterprise server, see [Integrate with GitHub Enterprise Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/integrating-with-github-server.md).
 
     1.  Select the GitHub Server connection card.
 
@@ -167,7 +167,7 @@ Use Mid Server
 
 -   Enter `1` if your ServiceNow instance requires a MID Server to connect with the GitHub Enterprise server.
 -   Enter `0` if your ServiceNow instance does not require a MID Server to connect with the GitHub Enterprise server.
- **Important:** To enable this option, you must already have a MID Server set up on your instance. See [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md) for detailed instructions.
+ **Important:** To enable this option, you must already have a MID Server set up on your instance. See [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-landing.md) for detailed instructions.
 
 </td></tr><tr><td>
 

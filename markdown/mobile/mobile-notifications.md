@@ -3,9 +3,9 @@ title: Mobile notifications
 description: Mobile notifications appear as badges on your ServiceNow mobile app screen. The notifications alert you to required actions or events.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-notifications.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using the mobile apps, Mobile Platform]
 ---

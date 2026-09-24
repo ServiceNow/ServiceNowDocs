@@ -3,11 +3,11 @@ title: Life cycle management of records in Service Graph Connector for GCP
 description: Life cycle management in the in the Service Graph Connector for GCP monitors and updates the statuses of GCP resources throughout their entire life cycle, from creation to deletion.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-cmdb-gcp-lc.html
-release: australia
+release: brazil
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, GCP, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Life cycle management in the in the Service Graph Connector for GCP monitors and
 
 The life cycle management process helps maintain the accuracy and integrity of data in the Configuration Management Database \(CMDB\).
 
-In life cycle management, the record removal process involves systematically deleting obsolete or unnecessary resources. This step ensures that outdated entries are cleared, keeping the CMDB accurate and up-to-date. See [Record removal process in Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-gcp-removal.md).
+In life cycle management, the record removal process involves systematically deleting obsolete or unnecessary resources. This step ensures that outdated entries are cleared, keeping the CMDB accurate and up-to-date. See [Record removal process in Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-gcp-removal.md).
 
 ## Life cycle management for CIs in Service Graph Connector for GCP
 
@@ -615,5 +615,5 @@ Key Value \[cmdb\_key\_value\]
 Not applicable
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Graph Connector for GCP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-gcp-reference.md)
+</table>**Parent Topic:**[Service Graph Connector for GCP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-gcp-reference.md)
 

@@ -1,26 +1,26 @@
 ---
-title: Create an OT Discovery schedule and run the Discovery process
-description: Define Operational Technology \(OT\) Discovery schedules that orchestrate how and when the Discovery for an OT function should run. You can also perform an immediate Quick Discovery or an actual OT Discovery run.
+title: Create and run the OT Discovery schedule and the Discovery process
+description: Define Operational Technology \(OT\) Discovery schedules that orche schedules that orchestrate how and when the Discovery strate how and when the Discovery for an OT function should run. You can also perform an immediate Quick Discovery or an actual OT Discovery run.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/run-discovery-for-operational-technology.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [IT Discovery for Operational Technology \(OT\) Networks, Operational Technology Discovery, Operational Technology]
 ---
 
-# Create an OT Discovery schedule and run the Discovery process
+# Create and run the OT Discovery schedule and the Discovery process
 
-Define Operational Technology \(OT\) Discovery schedules that orchestrate how and when the Discovery for an OT function should run. You can also perform an immediate Quick Discovery or an actual OT Discovery run.
+Define Operational Technology \(OT\) Discovery schedules that orche schedules that orchestrate how and when the Discovery strate how and when the Discovery for an OT function should run. You can also perform an immediate Quick Discovery or an actual OT Discovery run.
 
 ## Before you begin
 
 Do the following actions before you run IT Discovery for OT Networks:
 
--   Install and configure the standard Discovery application. To learn more, see [Discovery setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-setup.md).
--   Install the CMDB CI Class Models plugin. To learn more, see [Operational Technology \(OT\) extension classes installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/install-operation-technology-ot-extension-classes.md).
--   Install the Mid Server. To learn more, see [Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-installation.md).
+-   Install and configure the standard Discovery application. To learn more, see [Discovery setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-setup.md).
+-   Install the CMDB CI Class Models plugin. To learn more, see [Operational Technology \(OT\) extension classes installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/install-operation-technology-ot-extension-classes.md).
+-   Install the Mid Server. To learn more, see [Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-installation.md).
 
 Role required: ot\_discovery\_admin
 
@@ -28,17 +28,17 @@ Role required: ot\_discovery\_admin
 
 1.  Navigate to **All** &gt; **OT Discovery** &gt; **OT Discovery Schedules**.
 
-2.  Run Quick Discovery or select or create an OT discovery schedule.
+2.  Run Quick Discovery or select or create an OT Discovery schedule.
 
-<table id="choicetable_dcf_hl5_vpb"><thead><tr><th align="left" id="d26753e145">
+<table id="choicetable_dcf_hl5_vpb"><thead><tr><th align="left" id="d26880e154">
 
 Task
 
-</th><th align="left" id="d26753e148">
+</th><th align="left" id="d26880e157">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d26753e154">
+</th></tr></thead><tbody><tr><td id="d26880e163">
 
 **Run an immediate Quick Discovery**
 
@@ -49,36 +49,36 @@ Select **Quick Discovery** and do the following actions:1.  In the **Target IP**
 3.  Select **OK**.
 
 
-</td></tr><tr><td id="d26753e196">
+</td></tr><tr><td id="d26880e205">
 
-**Select or create an OT discover schedule**
+**Select or create an OT Discovery schedule**
 
 </td><td>
 
-1.  Select an existing OT discovery schedule or select **New** to create one.
+1.  Select an existing OT Discovery schedule or select **New** to create a new schedule.
 2.  Perform the steps that follow to create the OT discovery schedule record in the OT Discovery Schedule form.
 
 
 </td></tr></tbody>
 </table>3.  In the form, fill in the OT Discovery Schedule fields.
 
-<table id="choicetable_fxf_qpx_nsb"><thead><tr><th align="left" id="d26753e229">
+<table id="choicetable_fxf_qpx_nsb"><thead><tr><th align="left" id="d26880e244">
 
 Field
 
-</th><th align="left" id="d26753e232">
+</th><th align="left" id="d26880e247">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d26753e238">
+</th></tr></thead><tbody><tr><td id="d26880e253">
 
 **Name**
 
 </td><td>
 
-Unique, descriptive name for your OT discovery schedule.
+Unique, descriptive name for your OT Discovery schedule.
 
-</td></tr><tr><td id="d26753e247">
+</td></tr><tr><td id="d26880e265">
 
 **Discover**
 
@@ -90,9 +90,9 @@ Uses Discovery identifiers to match devices with configuration items \(CIs\) in 
 
 -   **IP addresses**
 
-Scans devices without the use of credentials. These scans discover all the active IP addresses in the specified range and create device history records, but don't update the CMDB. IP address scans also show multiple IP addresses that are running on a single device. Identify devices by class and by type, such as Windows computers and Cisco network gear.
+Scans devices without the use of credentials. These scans discover all the active IP addresses in the specified range and create device history records, but do not update the CMDB. IP address scans also show multiple IP addresses that are running on a single device. Identify devices by class and by type, such as Windows computers and Cisco network gear.
 
-</td></tr><tr><td id="d26753e298">
+</td></tr><tr><td id="d26880e316">
 
 **Default Purdue level**
 
@@ -101,7 +101,7 @@ Scans devices without the use of credentials. These scans discover all the activ
 Purdue level that you want the OT discovery schedule to run in or select **--None--** for all Purdue levels.**Note:** To learn more about Purdue levels, see [https://subscription.packtpub.com/book/networking\_and\_servers/9781788395151/1/ch01lvl1sec10/the-purdue-model-for-industrial-control-systems](https://subscription.packtpub.com/book/networking_and_servers/9781788395151/1/ch01lvl1sec10/the-purdue-model-for-industrial-control-systems).
 
 </td></tr></tbody>
-</table>    Most of the fields on this form are identical to or operate in the same manner as the standard Discovery form. Only those fields that differ from the standard Discovery scheduling appear in this topic. To learn more about the remaining fields, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_CreateADiscoverySchedule.md)
+</table>    Most of the fields on this form are identical to or operate in the same manner as the standard Discovery form. Only those fields that differ from the standard Discovery scheduling appear in this topic. To learn more about the remaining fields, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/t_CreateADiscoverySchedule.md)
 
 4.  Run the Discovery process right away, or save the OT discovery schedule to run at the times you designated in the record.
 
@@ -115,5 +115,5 @@ Purdue level that you want the OT discovery schedule to run in or select **--Non
 
 When the IT Discovery for OT Networks process runs, it creates a history record in the Discovery Status related list.
 
-**Parent Topic:**[IT Discovery for Operational Technology \(OT\) Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/discovery-for-operational-technology.md)
+**Parent Topic:**[IT Discovery for Operational Technology \(OT\) Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/discovery-for-operational-technology.md)
 

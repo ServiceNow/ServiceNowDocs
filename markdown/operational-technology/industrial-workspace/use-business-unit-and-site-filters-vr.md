@@ -1,20 +1,20 @@
 ---
 title: Use the site filter
-description: Use the site in the Operational Technology \(OT\) Visibility dashboard, the Operational Technology Vulnerability Response \(PA\) dashboard, and the OT Vulnerability Risk Rollup dashboard to filter the data by the selected site or sites.
+description: Filter dashboard data by site in the Operational Technology \(OT\) Visibility, Operational Technology Vulnerability Response \(PA\), and the Operational Technology \(OT\) Risk Rollup dashboards.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/use-business-unit-and-site-filters-vr.html
-release: australia
+release: brazil
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: task
-last_updated: "2026-06-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Site filter in the Industrial Workspace, Use, Industrial Workspace, Operational Technology]
 ---
 
 # Use the site filter
 
-Use the site in the Operational Technology \(OT\) Visibility dashboard, the Operational Technology Vulnerability Response \(PA\) dashboard, and the OT Vulnerability Risk Rollup dashboard to filter the data by the selected site or sites.
+Filter dashboard data by site in the Operational Technology \(OT\) Visibility, Operational Technology Vulnerability Response \(PA\), and the Operational Technology \(OT\) Risk Rollup dashboards.
 
 ## Before you begin
 
@@ -37,5 +37,5 @@ Role required: cmdb\_ot\_isa\_viewer with site access
     1.  In the **Available** column, select each site that you want to view data for.
     2.  To move your selected site or sites to the **Applied** column, click the **Move selected items** icon \[Omitted image "apply-icon.png"\] Alt text: Move selected items icon.
 
-**Parent Topic:**[Site filter in the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[Site filter in the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)
 

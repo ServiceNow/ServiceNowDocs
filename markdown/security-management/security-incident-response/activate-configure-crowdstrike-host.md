@@ -3,11 +3,11 @@ title: Get started with the CrowdStrike Falcon Host integration
 description: The Integration Configuration feature allows you to quickly activate and set up third-party security integrations, including the CrowdStrike Falcon Host integration. Before you can use the CrowdStrike Falcon Host integration, you must download it from the ServiceNow Store and then add a user name and password.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/activate-configure-crowdstrike-host.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CrowdStrike Falcon Host integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -25,7 +25,7 @@ Role required: sn\_si\_admin
 
 ## Procedure
 
-1.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/download-app-first-time.md).
+1.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/download-app-first-time.md).
 
 2.  When the installation is complete, navigate to **Security Operations** &gt; **Integrations** &gt; **Integration Configurations**.
 

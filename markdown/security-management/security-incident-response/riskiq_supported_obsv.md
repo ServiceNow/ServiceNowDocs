@@ -3,11 +3,11 @@ title: Supported observables for RISKIQ and RISKIQ WHOISIQ
 description: The RISKIQ API supports automatic SSL certificate lookups on IP address, file hash, Certificate Serial Number, domain, and URL observables. URL and domain observables are enriched automatically with the WHOISIQ API. For observable enrichment on other types of observables with the WHOISIQ API, create observables and run lookups manually from the Observables table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/riskiq\_supported\_obsv.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [RISKIQ and WHOISIQ integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -80,9 +80,9 @@ RISKIQ WHOISIQ API
 Manual lookup is run from the Observables table.Results are displayed on the **Observable Enrichment Results** tab on the Observable record.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[RISKIQ and WHOISIQ integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/riskiq-lookups.md)
+</table>**Parent Topic:**[RISKIQ and WHOISIQ integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/riskiq-lookups.md)
 
-**Previous topic:**[RISKIQ and WHOISIQ integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/riskiq-lookups.md)
+**Previous topic:**[RISKIQ and WHOISIQ integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/riskiq-lookups.md)
 
-**Next topic:**[Install and configure RISKIQ and WHOISIQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/install-and-config-riskiq.md)
+**Next topic:**[Install and configure RISKIQ and WHOISIQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/install-and-config-riskiq.md)
 

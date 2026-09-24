@@ -3,11 +3,11 @@ title: Override the MID Server selection filter
 description: Use the override feature to write your own filter condition that overrides the normal MID Server selection criteria for an application. An override has precedence over the default filter and can be defined for a specific selection condition.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/override\_mid\_server\_selector.html
-release: australia
+release: brazil
 product: MID Server
 classification: mid-server
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [MID Server selection, Configuring MID Servers, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Use the override feature to write your own filter condition that overrides the n
 
 ## Before you begin
 
-Before attempting to create an override filter, be sure you understand the criteria the platform uses to select MID Servers. See [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md) for details.
+Before attempting to create an override filter, be sure you understand the criteria the platform uses to select MID Servers. See [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md) for details.
 
 Role required: admin
 
@@ -74,5 +74,5 @@ var result = [];
  }
 ```
 
-**Parent Topic:**[MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md)
+**Parent Topic:**[MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md)
 

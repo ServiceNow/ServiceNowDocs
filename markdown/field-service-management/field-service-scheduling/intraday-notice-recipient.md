@@ -3,11 +3,11 @@ title: Change the recipients of notifications for intraday schedule automation
 description: You can change who receives notifications related to intraday schedule automation, so only the necessary recipients receive the notifications. For example, if an agent is late for a task, you can configure notifications to only be sent to the dispatcher.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/intraday-notice-recipient.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Intraday schedule automation, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
@@ -32,15 +32,15 @@ Role required: admin
 
 5.  Select the Data Pill Picker icon \[Omitted image "data-pill-pick.png"\] Alt text: data pill picker for the field you want to change the recipients of intraday schedule automation notifications.
 
-<table id="choicetable_u45_d4c_vgc"><thead><tr><th align="left" id="d76330e99">
+<table id="choicetable_u45_d4c_vgc"><thead><tr><th align="left" id="d78778e99">
 
 Action input
 
-</th><th align="left" id="d76330e102">
+</th><th align="left" id="d78778e102">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d76330e108">
+</th></tr></thead><tbody><tr><td id="d78778e108">
 
 **Recipient user field**
 
@@ -48,7 +48,7 @@ Description
 
 Determine the recipient of the notification by choosing a sys\_user field.
 
-</td></tr><tr><td id="d76330e120">
+</td></tr><tr><td id="d78778e120">
 
 **Recipient group fields**
 
@@ -56,7 +56,7 @@ Determine the recipient of the notification by choosing a sys\_user field.
 
 Choose a different group to receive notifications.
 
-</td></tr><tr><td id="d76330e129">
+</td></tr><tr><td id="d78778e129">
 
 **Scripted recipients**
 

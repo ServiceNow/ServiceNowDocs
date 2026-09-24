@@ -3,11 +3,11 @@ title: Use the Debug filter
 description: The debug interactive filter helps you create custom filters. This filter displays a JSON array representation of all active filters on a dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/core-ui-interactive-filters/c\_DebugPublisher.html
-release: australia
+release: brazil
 product: Core UI Interactive Filters
 classification: core-ui-interactive-filters
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Custom interactive filters, Interactive Filters, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -39,5 +39,5 @@ To use the debug filter, add it to a dashboard. The debug filter is read-only an
 
 The Debug widget is added to your dashboard.
 
-**Parent Topic:**[Custom interactive filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/core-ui-interactive-filters/c_CustomPublishers.md)
+**Parent Topic:**[Custom interactive filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/core-ui-interactive-filters/c_CustomPublishers.md)
 

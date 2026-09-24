@@ -3,12 +3,12 @@ title: Automate generation and distribution of a report
 description: Generate and distribute scheduled reports via email.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/schedule-report.html
-release: australia
+release: brazil
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 10
+last_updated: "2026-09-10"
+reading_time_minutes: 11
 breadcrumb: [Create a scheduled job, Scheduled jobs, System scheduler, Explore, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -18,9 +18,9 @@ Generate and distribute scheduled reports via email.
 
 ## Before you begin
 
-Roles required: system\_scheduler\_admin
+Roles required: admin
 
-A user with the report\_scheduler role can also create a scheduled report through a different navigation path. For more information, see [Schedule emails of Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/t_ScheduleAReport.md).
+A user with the report\_scheduler role can also create a scheduled report through a different navigation path. For more information, see [Schedule emails of Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/t_ScheduleAReport.md).
 
 ## About this task
 
@@ -130,7 +130,7 @@ For example, if the business calendar represents a fiscal year, and the starting
 
 **Note:** When you select **Business Calendar: Entry Start** or **Business Calendar: Entry End**, you can apply an offset factor to schedule the job to run before or after the time span of the selected business calendar. If you select a business calendar and all its business calendar spans are in the past, the job would never run since that is an invalid configuration. To learn more, see the **Offset type** and **Offset** fields.
 
-To learn more about creating and using business calendars and defining business calendar entries, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/business-calendars.md) and [Define business calendar entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/define-business-calendar-entries.md).
+To learn more about creating and using business calendars and defining business calendar entries, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/business-calendars.md) and [Define business calendar entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/define-business-calendar-entries.md).
 
 </td></tr><tr><td>
 
@@ -187,11 +187,21 @@ Duration of the repeat interval for each scheduled job execution. Enter the dura
 
 </td></tr><tr><td>
 
+Advanced
+
+</td><td id="advanced-sched-job">
+
+Enables advanced scheduling options for greater flexibility in job planning and execution. You can configure jobs to start on a future date, end on a particular date, and define how the job should repeat. For more information, see [Advanced options for scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/advanced-options-for-scheduled-jobs.md).
+
+</td></tr><tr><td>
+
 Starting
 
-</td><td>
+</td><td id="starting-field">
 
-Allows you to define the beginning window of time when you would like your job to start running. The job will actually run at the time specified in **Run time**. Select the calendar date and time. The **Starting** field appears only if you select one of the following **Run** types in the **Run** field:-   **Daily**
+Allows you to define the beginning window of time \(date and time\) when you would like your job to start running. Within this window, the job actually starts at the time specified in the **Time** field.The **Starting** field appears only if you select the **Advanced** option and one of the following values in the **Run** field:
+
+-   **Daily**
 -   **Day and Month in Year**
 -   **Day in Week in Month in Year**
 -   **Monthly**
@@ -199,7 +209,29 @@ Allows you to define the beginning window of time when you would like your job t
 -   **Periodically**
 -   **Week in Month**
 -   **Weekly**
-For the run type **Periodically**, the **Starting** time is the date and time of the first scheduled job generation.
+For the run type **Periodically**, the starting time is the date and time of the first scheduled job generation.
+
+For more information, see [Starting and Ending fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/advanced-options-for-scheduled-jobs.md).
+
+</td></tr><tr><td>
+
+Ending
+
+</td><td id="ending-field">
+
+Allows you to define the ending window of time \(date and time\) when you would like your job to stop running. Within this window, the job actually stops at the time specified in the **Time** field.The **Ending** field appears only if you select the **Advanced** option and one of the following values in the **Run** field:
+
+-   **Daily**
+-   **Day and Month in Year**
+-   **Day in Week in Month in Year**
+-   **Monthly**
+-   **Once**
+-   **Periodically**
+-   **Week in Month**
+-   **Weekly**
+For the run type **Periodically**, the ending time is the date and time of the first scheduled job generation.
+
+For more information, see [Starting and Ending fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/advanced-options-for-scheduled-jobs.md).
 
 </td></tr><tr><td>
 
@@ -270,7 +302,7 @@ Condition
 
 </td><td>
 
-A conditional script that determines if a scheduled job should run. The last expression of the script should evaluate to a Boolean \(true/false\) value. This text box appears only if you select **Use conditions**. For more information about scripts on the ServiceNow platform, see [Scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_Script.md).**Warning:** Conditional scripts for scheduled emails are executed in the sandbox. Therefore, function definitions aren't allowed. Some API calls and keywords are also not allowed. For more information, see Script sandbox property.
+A conditional script that determines if a scheduled job should run. The last expression of the script should evaluate to a Boolean \(true/false\) value. This text box appears only if you select **Use conditions**. For more information about scripts on the ServiceNow platform, see [Scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/c_Script.md).**Warning:** Conditional scripts for scheduled emails are executed in the sandbox. Therefore, function definitions aren't allowed. Some API calls and keywords are also not allowed. For more information, see Script sandbox property.
 
 </td></tr><tr><td>
 
@@ -354,16 +386,16 @@ Shows when **Page size** is set to **Custom**. For non-standard paper sizes, mul
 
 To edit the scheduled email of a report job, open the job from the Scheduled Jobs list. To stop scheduled emails of a report, delete the relevant job's row from the Scheduled Jobs list.
 
-**Parent Topic:**[Create a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_CreateAScheduledJob.md)
+**Parent Topic:**[Create a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/t_CreateAScheduledJob.md)
 
 **Related topics**  
 
 
-[Advanced options for scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/advanced-options-for-scheduled-jobs.md)
+[Advanced options for scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/advanced-options-for-scheduled-jobs.md)
 
-[Create a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_CreateAScheduledJob.md)
+[Create a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/t_CreateAScheduledJob.md)
 
-[Personalize the system date format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_PersonalizeTheSystemDateFormat.md)
+[Personalize the system date format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/t_PersonalizeTheSystemDateFormat.md)
 
-[Set a system time zone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_SetASystemTimeZone.md)
+[Set a system time zone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/t_SetASystemTimeZone.md)
 

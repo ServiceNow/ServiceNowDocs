@@ -3,9 +3,9 @@ title: Navigate Impact
 description: Use Impact to obtain new and updated features quickly. Leverage the home page for a personalized value guidance to get relevant and immediate access to the right content, at the right time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/impact-in-platform-home.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Using Impact, Impact]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Using Impact, Impact]
 
 Use Impact to obtain new and updated features quickly. Leverage the home page for a personalized value guidance to get relevant and immediate access to the right content, at the right time.
 
-**Important:** To access Impact, be sure to have the appropriate entitlements. See [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-packages1.md) for the details. For setup information, see [Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md).
+**Important:** To access Impact, be sure to have the appropriate entitlements. See [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/impact-packages1.md) for the details. For setup information, see [Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configuring-impact-platform.md).
 
 ## Impact Home page
 
@@ -49,10 +49,10 @@ If it’s a recommendation related to Strategic Portfolio Management \(SPM\), th
 
 For more information on convert to work item, see:
 
--   [Manage work items with recommendations for the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/convert-spm-entity-impact-entity-recommendations.md)
--   [Manage work items from an initiative in the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/create-spm-work-item-impact-entity.md)
+-   [Manage work items with recommendations for the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/convert-spm-entity-impact-entity-recommendations.md)
+-   [Manage work items from an initiative in the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/create-spm-work-item-impact-entity.md)
 
-For more information on recommendations, see [Use the recommendations list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/using-recommendations-iip-ws.md).
+For more information on recommendations, see [Use the recommendations list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/using-recommendations-iip-ws.md).
 
 ## Learn about Impact
 
@@ -93,7 +93,7 @@ When you are on an Impact page, to view its contextual help content, select the 
 
 This section displays your subscription package along the name and role of the Impact team members you interact with, in your Impact journey.
 
-For more information on the team and roles, see [Work with experts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-squad.md).
+For more information on the team and roles, see [Work with experts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/impact-squad.md).
 
 ## Partners
 
@@ -113,7 +113,7 @@ View the Strategic Portfolio Management or the Collaborative Work Management \(C
 
 Select **View work items** to view or edit Strategic Portfolio Management \(SPM\) or Collaborative Work Management \(CWM\) work items created in Impact.
 
-For more information, see [Work items in Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/creating-work-items-using-recommendations-and-initiatives.md).
+For more information, see [Work items in Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/creating-work-items-using-recommendations-and-initiatives.md).
 
 ## Stay updated
 
@@ -125,5 +125,5 @@ The release notes link takes you to Impact features and content that are documen
 
 If you are in the Impact Store Application, access Quick links that take you directly to the Impact Delivery Instance, which was formerly known as Impact Digital Experience \(IDE\) portal.
 
-Select [Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-activity-center/impact-activity-center.md) and [Benefits &amp; Usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-features.md) to know more about the features listed in this section.
+Select [Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/impact-activity-center/impact-activity-center.md) and [Benefits &amp; Usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/impact-features.md) to know more about the features listed in this section.
 

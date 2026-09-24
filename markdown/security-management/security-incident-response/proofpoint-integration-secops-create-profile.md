@@ -3,11 +3,11 @@ title: Create an event profile for the Proofpoint Integration for Security Opera
 description: Create an event profile to identify the events you want to import from the Proofpoint product.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/proofpoint-integration-secops-create-profile.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Proofpoint Integration for Security Operations, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -128,15 +128,15 @@ Optional description for this event profile.
 
 11. Select one of the import type and how often you want to import event data.
 
-<table id="choicetable_ehs_bq4_b2c"><thead><tr><th align="left" id="d135606e415">
+<table id="choicetable_ehs_bq4_b2c"><thead><tr><th align="left" id="d135664e415">
 
 Option
 
-</th><th align="left" id="d135606e418">
+</th><th align="left" id="d135664e418">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d135606e424">
+</th></tr></thead><tbody><tr><td id="d135664e424">
 
 **Ongoing Events Ingestion**
 
@@ -147,7 +147,7 @@ Option to import events at a regular interval that is defined with a start date,
 -   **Input initial Ingestion Time**
 
 
-</td></tr><tr><td id="d135606e448">
+</td></tr><tr><td id="d135664e448">
 
 **One Time Retrieval**
 

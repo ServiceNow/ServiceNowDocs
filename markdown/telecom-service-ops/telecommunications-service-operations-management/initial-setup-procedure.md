@@ -3,11 +3,11 @@ title: Set up Nokia Altiplano
 description: Learn how to install and configure the Service Graph Connector for Nokia Altiplano, including optional demo data, connectivity setup, and data collection schedules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/initial-setup-procedure.html
-release: australia
+release: brazil
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure Nokia Altiplano SGC, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
@@ -44,7 +44,7 @@ Verify the active application scope is Service Graph Connector \(SGC\) for Nokia
 
     3.  Select **Mark as Complete** when done.
 
-        **Note:** For more information on how to install and configure MID Server, see [Configuring MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-mid-server.md).
+        **Note:** For more information on how to install and configure MID Server, see [Configuring MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configure-mid-server.md).
 
     4.  Configure or skip the validation step.
 
@@ -69,7 +69,7 @@ Verify the active application scope is Service Graph Connector \(SGC\) for Nokia
         2.  In the **User name** field, specify your Nokia Altiplano instance user name.
         3.  In the **Password** field, specify your Nokia Altiplano instance password.
 
-            **Note:** Other authentication fields may be required depending on the authentication methods used in your Nokia Altiplano instance. By default, we use [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md) \(as part of the Guided setup\).
+            **Note:** Other authentication fields may be required depending on the authentication methods used in your Nokia Altiplano instance. By default, we use [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_BasicAuthCredentialsForm.md) \(as part of the Guided setup\).
 
         4.  Leave the rest of the fields as default, select **Submit** and then select **Mark as Complete**.
     4.  Create HTTP Connection by selecting **Configure**
@@ -84,15 +84,15 @@ Verify the active application scope is Service Graph Connector \(SGC\) for Nokia
         5.  Leave the rest of the fields as default, select **Submit** and then select **Mark as Complete**.
 5.  Configure Data Collection Schedule either for bulk discovery or filtered discovery by clicking **Get Started**and then click **Configure**.
 
-<table id="choicetable_h3d_ndy_yfc"><thead><tr><th align="left" id="d34465e357">
+<table id="choicetable_h3d_ndy_yfc"><thead><tr><th align="left" id="d35415e357">
 
 To
 
-</th><th align="left" id="d34465e360">
+</th><th align="left" id="d35415e360">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d34465e366">
+</th></tr></thead><tbody><tr><td id="d35415e366">
 
 **Schedule data collection for bulk discovery \(Use bulk discovery data source for all devices in connection alias\)**
 
@@ -107,7 +107,7 @@ Do the following
 -   In the **Time** field, enter the time in hours, minutes, and seconds.
 
 
-</td></tr><tr><td id="d34465e423">
+</td></tr><tr><td id="d35415e423">
 
 **Schedule data collection for filtered discovery \(Use Filtering Discovery data source for specific OLT filter criteria for each connection alias\)**
 
@@ -147,11 +147,11 @@ The following snapshot helps you confirm the configuration set up of Nokia Altip
 **Related topics**  
 
 
-[Set up multiple Nokia Altiplano instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/multi-instance-setup.md)
+[Set up multiple Nokia Altiplano instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/multi-instance-setup.md)
 
-[Configure concurrent import and parallel loading](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configure-concurrent-import-and-parallel-loading.md)
+[Configure concurrent import and parallel loading](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/configure-concurrent-import-and-parallel-loading.md)
 
-[Mapping Nokia Altiplano CIs and Relationships in CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/data-mapping.md)
+[Mapping Nokia Altiplano CIs and Relationships in CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/data-mapping.md)
 
-[System components installed with Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/properties-installed-with-nokia-altiplano.md)
+[System components installed with Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/properties-installed-with-nokia-altiplano.md)
 

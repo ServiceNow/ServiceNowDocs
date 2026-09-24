@@ -3,9 +3,9 @@ title: Extend ServiceNow AI Platform capabilities
 description: Extend the ServiceNow AI Platform with additional applications and features.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/capabilities-bundle-landingpage.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 ---
 
@@ -19,27 +19,27 @@ Choose one of these tiles to get started.
 
 <table id="table_kqk_ttx_r5b" class="nav-card"><tbody><tr><td>
 
-[Manage the Configuration Management Database \(CMDB\) \[Omitted image "bus-database.svg"\] Alt text: Configure connected devices, apps, and services you use with a powerful decision support tool.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/manage-cmdb.md)
+[Manage the Configuration Management Database \(CMDB\) \[Omitted image "bus-database.svg"\] Alt text: Configure connected devices, apps, and services you use with a powerful decision support tool.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/manage-cmdb.md)
 
 </td><td>
 
-[Manage Instance Data Sources \[Omitted image "bus-it-leader.svg"\] Alt text: Handle all your data efficiently across instances, databases, and more.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/manage-data-sources.md)
+[Manage Instance Data Sources \[Omitted image "bus-it-leader.svg"\] Alt text: Handle all your data efficiently across instances, databases, and more.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/manage-data-sources.md)
 
 </td><td>
 
-[Manage Content \[Omitted image "bus-documentation.svg"\] Alt text: Create and share documents and knowledge articles with your users.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/manage-content.md)
+[Manage Content \[Omitted image "bus-documentation.svg"\] Alt text: Create and share documents and knowledge articles with your users.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/manage-content.md)
 
 </td></tr><tr><td>
 
-[Manage Services \[Omitted image "bus-gender-neutral-leader-c-suite.svg"\] Alt text: Manage service-related applications like self-service, and the service catalog.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/manage-services.md)
+[Manage Services \[Omitted image "bus-gender-neutral-leader-c-suite.svg"\] Alt text: Manage service-related applications like self-service, and the service catalog.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/manage-services.md)
 
 </td><td>
 
-[Manage People and Work \[Omitted image "bus-community.svg"\] Alt text: Take care of administrative and management demands in one place.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/manage-people.md)
+[Manage People and Work \[Omitted image "bus-community.svg"\] Alt text: Take care of administrative and management demands in one place.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/manage-people.md)
 
 </td><td>
 
-[Additional Capabilities \[Omitted image "bus-start-developing.svg"\] Alt text: Explore additional capabilities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-platform-additional-capabilities.md)
+[Additional Capabilities \[Omitted image "bus-start-developing.svg"\] Alt text: Explore additional capabilities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-platform-additional-capabilities.md)
 
 </td></tr></tbody>
 </table>## Manage the CMDB

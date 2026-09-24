@@ -3,11 +3,11 @@ title: Permissions management for Cloud Governance roles
 description: Permissions are user group-level access rights to features in the Cloud Provisioning and Governance application and to specific records in the instance, such as blueprints or cloud accounts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/cloud-permissions.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -110,8 +110,8 @@ Manage \[Create and update\]
 Cloud admins must map templates to appropriate resource profiles. To collaborate or reuse existing resource profiles and templates.
 
 </td></tr></tbody>
-</table>-   **[Assign a cloud permission](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-permissions.md)**  
+</table>-   **[Assign a cloud permission](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/create-permissions.md)**  
 Assign a permission to refine the actions that are allowed or prohibited for users based on the user group they belong to.
 
-**Parent Topic:**[Cloud Admin Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-admin-portal.md)
+**Parent Topic:**[Cloud Admin Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/cloud-admin-portal.md)
 

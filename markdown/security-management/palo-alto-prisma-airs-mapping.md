@@ -3,10 +3,10 @@ title: Field mapping for the Prisms AIRS integration
 description: Review source and target fields and view imported data on tables and records in your ServiceNow ServiceNow AI Platform instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/palo-alto-prisma-airs-mapping.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-09-03"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Explore the Palo Alto Prisma AIRS Integration for AI Security Exposure Management, Integrate, Unified Security Exposure Management, Security Operations]
 ---
 
@@ -150,6 +150,4 @@ Tables populated by validation findings:
 -   AI Threat Signatures \(sn\_sec\_ai\_threat\_signature\)
 -   AI Validation Threats \(sn\_sec\_ai\_validation\_threat\)
 -   AI Validation Findings \(sn\_sec\_ai\_validation\_finding\)
-
-**Parent Topic:**[Explore the Palo Alto Prisma AIRS Integration for AI Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/prisma-airs-integration.md)
 

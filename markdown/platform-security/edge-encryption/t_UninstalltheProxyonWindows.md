@@ -3,11 +3,11 @@ title: Uninstall the Edge Encryption proxy on Windows
 description: You can uninstall the Edge Encryption proxy. If you are upgrading the proxy, it is not necessary to shut down and uninstall the current version.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/t\_UninstalltheProxyonWindows.html
-release: australia
+release: brazil
 product: Edge Encryption
 classification: edge-encryption
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Installing Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -37,5 +37,5 @@ Before shutting down the Edge Encryption proxy, ensure that no users are connect
 5.  Delete the files in the distribution folder.
 
 
-**Parent Topic:**[Installing Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_InstallEdgeEncryptionProxy.md)
+**Parent Topic:**[Installing Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/c_InstallEdgeEncryptionProxy.md)
 

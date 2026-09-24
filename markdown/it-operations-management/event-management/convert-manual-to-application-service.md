@@ -3,11 +3,11 @@ title: Convert manual services to application services using API
 description: You can use a JavaScript API to convert existing manual services to application services. Event Management can use application services to monitor service performance and identify health issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/convert-manual-to-application-service.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Application services in Event Management, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -27,7 +27,7 @@ During the conversion process:
 -   The configuration items \(CIs\) of the manual service are retained in the application services after the conversion.
 -   The system queries the CMDB for the latest CI changes and applies CI impact rules.
 
-The maximum number of CI connections added to application services during this operation is controlled by the [sa.service.max\_ci\_service\_population](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/components-installed-app-services.md) property. By default, the value is 1,000 \(one thousand connections\). Increasing the number of CI connections may cause performance issues. To adjust the maximum number of added CI connections, add the sa.service.max\_ci\_service\_population property, as described in [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+The maximum number of CI connections added to application services during this operation is controlled by the [sa.service.max\_ci\_service\_population](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/components-installed-app-services.md) property. By default, the value is 1,000 \(one thousand connections\). Increasing the number of CI connections may cause performance issues. To adjust the maximum number of added CI connections, add the sa.service.max\_ci\_service\_population property, as described in [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 Attempting to process more CIs than the value specified in the sa.service.max\_ci\_service\_population property causes the operation to fail.
 
@@ -66,10 +66,10 @@ var bsManager = new SNC.BusinessServiceManager();
 var res = bsManager.migrateManualToApplicationService("451047c6c0a8016400de0ae6df9b9d76");
 ```
 
-**Parent Topic:**[Application services in Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/application-service-event-management.md)
+**Parent Topic:**[Application services in Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/application-service-event-management.md)
 
 **Related topics**  
 
 
-[BusinessServiceManager - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/BusinessServiceManagerAPI.md)
+[BusinessServiceManager - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/BusinessServiceManagerAPI.md)
 

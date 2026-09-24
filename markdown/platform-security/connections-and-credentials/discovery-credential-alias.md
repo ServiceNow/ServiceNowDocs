@@ -3,11 +3,11 @@ title: Credential aliases for Discovery
 description: Credential aliases for Discovery allow an administrator to use specific credentials on Discovery schedules. You can configure behaviors for your aliases that determine how strictly the system enforces their use.Create the alias and then add that alias to a credential in the credential record. You can add a credential to multiple aliases and add multiple credentials to a single alias.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/discovery-credential-alias.html
-release: australia
+release: brazil
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Get started with credentials, Connections and Credentials, Access Management]
 ---
@@ -35,7 +35,7 @@ The MID Server then selects a credential in the following order:
 
 1.  The MID Server keeps only credentials that match the command type for the probe, such as SSH, Windows, or SNMP.
 2.  The MID Server filters the remaining credentials by tag. A credential stays eligible if it is linked to a tag value defined on the schedule, or if the record has no **credential\_tag** parameter. Otherwise, the MID Server drops the credential.
-3.  The MID Server applies [affinity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_CredentialAffinity.md). If a credential's sys\_id matches the **credential\_id** value for the device, the MID Server moves that credential to the top of the list. The MID Server tries the remaining credentials in the sequence set by their Order value.
+3.  The MID Server applies [affinity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/connections-and-credentials/c_CredentialAffinity.md). If a credential's sys\_id matches the **credential\_id** value for the device, the MID Server moves that credential to the top of the list. The MID Server tries the remaining credentials in the sequence set by their Order value.
 
 The MID Server iterates until it finds a credential that works.
 

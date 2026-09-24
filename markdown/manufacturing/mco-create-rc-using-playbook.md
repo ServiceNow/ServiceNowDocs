@@ -3,9 +3,9 @@ title: Create a repair claim using playbook
 description: Create a repair claim for the products under warranty or recall using the playbook experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-create-rc-using-playbook.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Repair claim, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
@@ -26,13 +26,13 @@ Role required: Manufacturing operations admin
 
 2.  **Claim details**
 
-    1.  On the Enter claim details form, fill-in the [Claim details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-claim-details-form.md) details.
+    1.  On the Enter claim details form, fill-in the [Claim details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-claim-details-form.md) details.
     2.  Select **Continue**.
 3.  **Claim jobs**
 
     1.  Select **Add claim jobs**.
     2.  Set **Type** as **Warranty** or **Recall**.
-    3.  On the Repair claim jobs form, fill in the [Repair claim form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/repair-claim-form.md) details.
+    3.  On the Repair claim jobs form, fill in the [Repair claim form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/repair-claim-form.md) details.
     4.  Select **Save**.
     5.  Select **Submit**.
 4.  **Claim review**
@@ -54,4 +54,6 @@ Role required: Manufacturing operations admin
 
 6.  Select **Submit**.
 
+
+**Parent Topic:**[Repair claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-use-repair-claim.md)
 

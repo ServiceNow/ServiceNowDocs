@@ -3,11 +3,11 @@ title: Edit a reliability metric
 description: Update a reliability metric to keep it relevant and aligned with your team's goals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-level-objective-management/sr-edit-sli-slo.html
-release: australia
+release: brazil
 product: Service Level Objective Management
 classification: service-level-objective-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using SLO Management, Service Level Objective Management, ITOM AIOps, IT Operations Management]
 ---
@@ -63,5 +63,5 @@ Managing SLOs requires ongoing updates to make sure that they reflect your relia
 
 **Note:** If you reactivate a retired SLO, SRM creates and activates a new copy of it. For example: If there are two versions of an SLO, Uptime \(1\) and Uptime \(2\), and you reactivate Uptime \(1\), SRM creates an active version called Uptime \(3\).
 
-**Parent Topic:**[Using SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/using-service-level-objective-management.md)
+**Parent Topic:**[Using SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-level-objective-management/using-service-level-objective-management.md)
 

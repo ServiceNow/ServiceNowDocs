@@ -3,11 +3,11 @@ title: Reuse components with Angular Providers
 description: Angular Providers are reusable components that can be injected into multiple widgets. To ensure quick loading widgets and a high performing portal, create Angular Providers instead of overloading your client controllers with persistent data and additional logic. With Angular Providers, you can maintain data for the lifetime of your Service Portal and reuse components and data objects across multiple widgets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/angular-providers.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Developing custom widgets, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -114,5 +114,5 @@ To learn more, visit [Angular Providers](https://docs.angularjs.org/guide/provid
 
 To use an Angular Provider with multiple widgets, register your Provider with each widget and update the appropriate scripts.
 
-**Parent Topic:**[Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/widget-dev-guide.md)
+**Parent Topic:**[Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/widget-dev-guide.md)
 

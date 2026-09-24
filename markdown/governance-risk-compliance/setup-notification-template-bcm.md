@@ -3,9 +3,9 @@ title: Define a template for emergency notification
 description: Create a template with pre-defined information that you can use to send notification quickly to your users in an emergency.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/setup-notification-template-bcm.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setup steps for emergency notification, Integrating Crisis Management with Everbridge, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---

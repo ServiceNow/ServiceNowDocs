@@ -3,9 +3,9 @@ title: Create a License and Permit request on behalf of a constituent or busines
 description: Government service agents can create requests on behalf of constituents or business from the Government Service Portal. Constituents can also create and submit license/permit requests on behalf of someone else through the Government Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-proxy-application-gsp-lpr.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [How to create a License and Permit request on behalf of a constituent or business, Create a License and Permit request]
 breadcrumb: [Using License and Permit Playbook, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
@@ -39,7 +39,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
 
 8.  Enter the name of the constituent or business that the requester is submitting the application on behalf of, and select **Save**.
 
-    **Note:** All license/permit co-applicants must have a business contact account associated with your business to be included on a license/permit application. Each contact can create an account by registering on the Government Service Portal, or a government service agent can create a business contact record for them. For information on how agents can create a business contact record from information entered in a License and Permit application, see [Create a business contact account from license or permit application data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-multi-party-create-business-contact.md).
+    **Note:** All license/permit co-applicants must have a business contact account associated with your business to be included on a license/permit application. Each contact can create an account by registering on the Government Service Portal, or a government service agent can create a business contact record for them. For information on how agents can create a business contact record from information entered in a License and Permit application, see [Create a business contact account from license or permit application data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-multi-party-create-business-contact.md).
 
 9.  Select any add-ons, such as permit endorsements.
 

@@ -3,13 +3,13 @@ title: Edit a Git repository configuration
 description: You can edit a Git repository's integration with App Engine Studio \(AES\) to change the network protocol selection, credentials or other field entries.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/source-control-edit-repo.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrate with Git source control, Configure AES, Configure, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Integrate with Git source control, Configure AES, Configure, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Edit a Git repository configuration
@@ -86,7 +86,7 @@ Credential
 
 </td><td>
 
-Saved credentials to use for the source control connection. All application developers on the instance share a single set of credentials per repository. For information on working with credentials, see [Get started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/credentials-getting-started.md).
+Saved credentials to use for the source control connection. All application developers on the instance share a single set of credentials per repository. For information on working with credentials, see [Get started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/credentials-getting-started.md).
 
 </td></tr></tbody>
 </table>    \[Omitted image "aes-app-properties-repo-purple.png"\] Alt text: View and edit application repository configurations
@@ -94,5 +94,5 @@ Saved credentials to use for the source control connection. All application deve
 5.  Select **Save**.
 
 
-**Parent Topic:**[AES integration with a Git source control repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-source-control-integration.md)
+**Parent Topic:**[AES integration with a Git source control repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-source-control-integration.md)
 

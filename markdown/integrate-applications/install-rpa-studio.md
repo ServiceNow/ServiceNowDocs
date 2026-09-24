@@ -3,9 +3,9 @@ title: Install RPA Desktop Design Studio
 description: Install the RPA Desktop Design Studio application in your Windows machine if you have the admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/install-rpa-studio.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,7 +16,7 @@ Install the RPA Desktop Design Studio application in your Windows machine if you
 
 ## Before you begin
 
-Download and unzip the installation file for the RPA Desktop Design Studio application. For more information, see [Download the RPA applications from RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/download-installer-rpa.md).
+Download and unzip the installation file for the RPA Desktop Design Studio application. For more information, see [Download the RPA applications from RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/download-installer-rpa.md).
 
 Ensure that you meet the hardware and software requirements.
 
@@ -64,5 +64,5 @@ You can see the RPA Desktop Design Studio icon on your desktop.
 
 ## What to do next
 
-Set up the RPA Desktop Design Studio application. For more information, see [Set up RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-rpa-studio.md).
+Set up the RPA Desktop Design Studio application. For more information, see [Set up RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/set-up-rpa-studio.md).
 

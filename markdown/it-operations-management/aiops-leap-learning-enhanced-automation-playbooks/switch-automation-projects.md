@@ -3,11 +3,11 @@ title: Switch between automation projects
 description: Switch between Automation Projects to view metrics, reports, and automation opportunities scoped to a specific project.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/switch-automation-projects.html
-release: australia
+release: brazil
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 keywords: [automation project, multi-taxonomy, LEAP configuration]
 breadcrumb: [Manage automation projects, Use, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]

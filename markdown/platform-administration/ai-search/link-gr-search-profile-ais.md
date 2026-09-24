@@ -3,11 +3,11 @@ title: Link a Genius Result configuration to a search profile
 description: Link a Genius Result configuration to one or more search profiles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/link-gr-search-profile-ais.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Genius Results, Search profiles, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -38,7 +38,7 @@ AI Search evaluates active Genius Result configurations for a search profile in 
 
 4.  On the Search Profile - Genius Result Mapping form, fill in the fields.
 
-    For a description of the field values, see [Search Profile - Genius Result Mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-prof-gr-mapping-form-ais.md).
+    For a description of the field values, see [Search Profile - Genius Result Mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/search-prof-gr-mapping-form-ais.md).
 
 5.  Select **Submit**.
 
@@ -47,5 +47,5 @@ AI Search evaluates active Genius Result configurations for a search profile in 
 
 The new Genius Result configuration link appears in the search profile's Genius Results related list.
 
-**Parent Topic:**[Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/genius-results-ais.md)
+**Parent Topic:**[Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/genius-results-ais.md)
 

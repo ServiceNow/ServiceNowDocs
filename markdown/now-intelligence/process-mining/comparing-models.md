@@ -3,11 +3,11 @@ title: Comparing projects
 description: Comparing projects side by side enables you to investigate performance differences or deviations from an ideal route.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/comparing-models.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Analyzing and getting process insights, Use, Process Mining, Platform Analytics]
 ---
@@ -27,12 +27,12 @@ Comparing projects lets you analyze two versions or scenarios from the same proj
 
 From the project comparison view, you can refine activities and connections for each map. You can also apply filters and routes, and compare statistics between them.
 
--   **[Start a comparison](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/start-comparison.md)**  
+-   **[Start a comparison](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/start-comparison.md)**  
 Begin a side-by-side project comparison.
--   **[Compare statistics and transitions between two projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/compare-statistics-two-models.md)**  
+-   **[Compare statistics and transitions between two projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/compare-statistics-two-models.md)**  
 Compare records, routes, average case duration, and transitions of two side-by-side projects.
--   **[Change a project version name](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/edit-version-name.md)**  
+-   **[Change a project version name](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/edit-version-name.md)**  
 Change the name of a project version for easier referencing when viewing and comparing.
 
-**Parent Topic:**[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/analyze-get-process-insights.md)
+**Parent Topic:**[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/analyze-get-process-insights.md)
 

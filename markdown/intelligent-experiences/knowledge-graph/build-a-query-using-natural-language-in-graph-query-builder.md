@@ -3,13 +3,13 @@ title: Build a query using natural language in Graph Query Builder
 description: You can also ask a question in natural language, the Graph Query Builder populates the query in the builder and runs it to get results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/build-a-query-using-natural-language-in-graph-query-builder.html
-release: australia
+release: brazil
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: task
-last_updated: "2026-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Graph Query Builder, Knowledge Graph, Enable AI experiences]
+breadcrumb: [Graph Query Builder, Knowledge Graph, Managing data for AI, Enable AI Experiences]
 ---
 
 # Build a query using natural language in Graph Query Builder
@@ -28,9 +28,9 @@ Role required: kg\_admin
 
     If you select Enterprise Graph or Enterprise Graph \(small\), you will see an additional tag selection field to scope the available entities to specific tables.
 
-    Tags aren't available for custom graphs.
+    **Note:** Tags aren't available for user created graphs.
 
-    \[Omitted image "nlq\_query\_builder.png"\] Alt text:
+    \[Omitted image "nlq\_query\_builder.png"\] Alt text: Graph query builder
 
 3.  Select one or more tags from the drop-down, if you want to run a query using Enterprise Graph or Enterprise Graph \(small\).
 
@@ -38,7 +38,7 @@ Role required: kg\_admin
 
     Example: `Show me all the incidents assigned to users in customer support department`.
 
-    \[Omitted image "nlq\_query\_builder\_example.png"\] Alt text:
+    \[Omitted image "nlq\_query\_builder\_example.png"\] Alt text: Graph query builder example
 
 5.  Select an LLM to use from the following options:
 

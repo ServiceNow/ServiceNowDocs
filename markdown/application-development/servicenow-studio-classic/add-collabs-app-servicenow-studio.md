@@ -3,12 +3,12 @@ title: Add collaborators to an app in ServiceNow Studio
 description: Add collaborators to an app in ServiceNow Studio so other developers can co-develop the app with you.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/add-collabs-app-servicenow-studio.html
-release: australia
+release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-05-07"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Collaborating on apps, Configure, ServiceNow Studio, Developing your application, Building applications]
 ---
 
@@ -30,7 +30,7 @@ Role required: admin or delegated\_developer
 
 3.  Access collaboration settings by selecting the more options icon \[Omitted image "sn-studio-more-options-icon.png"\] Alt text: and selecting **Invite**.
 
-    \[Omitted image "sn-studio-collab-select-as2.png"\] Alt text: Invite collaborators to work on your app using the more options menu on the app details page.
+    \[Omitted image "sn-studio-collab-select-bs1.png"\] Alt text: Invite collaborators to work on your app using the Invite menu.
 
 4.  In the **Invite people by name or group** field, enter the name of the user or group you want to invite.
 
@@ -40,12 +40,12 @@ Role required: admin or delegated\_developer
 
     If you are an editor for the app, you can select only the editor descriptor.
 
-    -   For more information about collaboration descriptors, see [Collaborating on apps using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/manage-app-collab-servicenow-studio.md).
-    -   For a list of all collaboration permissions, see [Collaboration permissions for ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-collab-permissions.md).
+    -   For more information about collaboration descriptors, see [Collaborating on apps using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/manage-app-collab-servicenow-studio.md).
+    -   For a list of all collaboration permissions, see [Collaboration permissions for ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/servicenow-studio-collab-permissions.md).
 6.  Select **Send** to invite the collaborator.
 
     -   If the user is new to the ServiceNow AI Platform, an admin must approve the request. After approval, both the requester and the user receive an email confirming that the user has been added to the application.
     -   If the user is not new to the ServiceNow AI Platform, the collaboration request is auto-approved. Both the requester and the user receive an email confirming that the user has been added to the application.
 
-**Parent Topic:**[Collaborating on apps using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/manage-app-collab-servicenow-studio.md)
+**Parent Topic:**[Collaborating on apps using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/manage-app-collab-servicenow-studio.md)
 

@@ -3,11 +3,11 @@ title: Collaborate on a request
 description: Within a request, you can enter comments that are visible to the submitter, allowing for collaboration between the two of you. For collaboration with other agents, you can enter comments that are not visible to the submitter.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_CollaborateOnARequest.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Facilities requests, Facilities service management process, Facilities Service Management overview, Facilities Service Management, Service Management]
+breadcrumb: [Request Management in a Service Management application, Service Management]
 ---
 
 # Collaborate on a request
@@ -27,7 +27,5 @@ Within a request, you can enter comments that are visible to the submitter, allo
 4.  To correspond with other agents, enter content that you do not want the submitter to see in the **Work notes** field.
 
 
-**Parent Topic:**[Facilities requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_FacilitiesRequests.md)
-
-**Parent Topic:**[Request Management in a Service Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/rm-sm-application.md)
+**Parent Topic:**[Request Management in a Service Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-management-for-the-enterprise/rm-sm-application.md)
 

@@ -3,11 +3,11 @@ title: Connect to an API creation tool from API Insights
 description: Initiate API creation directly from the API Insights workspace by connecting to an external API design tool of your choice.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/api-insights/api-insights-create.html
-release: australia
+release: brazil
 product: API Insights
 classification: api-insights
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage API data, API Insights, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Initiate API creation directly from the API Insights workspace by connecting to 
 
 ## Before you begin
 
-The application administrator must configure an API creation tool. See [Configure settings to manage APIs in API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights-config-settings.md).
+The application administrator must configure an API creation tool. See [Configure settings to manage APIs in API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/api-insights/api-insights-config-settings.md).
 
 Role required: sn\_api\_insights\_ws.api\_mgmt\_architect
 

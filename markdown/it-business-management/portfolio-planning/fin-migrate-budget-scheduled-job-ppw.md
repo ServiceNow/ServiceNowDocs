@@ -3,11 +3,11 @@ title: Activate a scheduled job to migrate budget to Next Experience
 description: Activate the Migrate budget for active demands and projects scheduled job to migrate budget of active planning items from Classic UI to Next Experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/fin-migrate-budget-scheduled-job-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure financials for Portfolio Planning, Configure, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -28,7 +28,7 @@ Role required: admin
 
 3.  Edit the fields on the Scheduled Script Execution form to customize the job and meet your requirements.
 
-    For more information about the field description and scripts, see [Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ScheduleAScriptExecution.md#t_ScheduleScriptExecution).
+    For more information about the field description and scripts, see [Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ScheduleAScriptExecution.md#t_ScheduleScriptExecution).
 
 4.  Select **Execute Now** to execute the scheduled job or select **Update** to save your changes.
 

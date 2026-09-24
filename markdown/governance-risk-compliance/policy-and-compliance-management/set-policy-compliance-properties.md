@@ -3,11 +3,11 @@ title: Set Policy and Compliance Management properties
 description: Set properties to control various aspects and behaviors in the software.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/set-policy-compliance-properties.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Perform, Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -95,7 +95,7 @@ Compliance administrators can change this setting.-   Type: string
 </table>
 ## What to do next
 
-Return to the [Policy and Compliance Management setup checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/policy-compliance-impl-checklist.md).
+Return to the [Policy and Compliance Management setup checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/policy-compliance-impl-checklist.md).
 
-**Parent Topic:**[Perform Policy and Compliance Management administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/perform-policy-compliance-admin.md)
+**Parent Topic:**[Perform Policy and Compliance Management administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/perform-policy-compliance-admin.md)
 

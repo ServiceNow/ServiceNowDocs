@@ -3,11 +3,11 @@ title: Create an IP Address record from allocated IPs
 description: Create one or more IP Address records by selecting allocated IP slots and promoting them to active CMDB Configuration Items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create-ip-address-records-from-allocated-ips.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 breadcrumb: [Manage IP addresses, Inventory number allocation, Define inventory records, Use, Telecommunications Network Inventory]
 ---
@@ -18,9 +18,9 @@ Create one or more IP Address records by selecting allocated IP slots and promot
 
 ## Before you begin
 
-Install all required [Modeling your workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.md) plugins.
+Install all required [Model your workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.md) plugins.
 
-The IP Subnetwork must contain allocated IP records. If it does not, see [Allocate IP address slots in a subnetwork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/allocate-ip-address-slots-in-a-subnetwork.md).
+The IP Subnetwork must contain allocated IP records. If it does not, see [Allocate IP address slots in a subnetwork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/allocate-ip-address-slots-in-a-subnetwork.md).
 
 The IP Subnetwork must not have an existing subnet-level IP Address record. If it does, delete that record first, or use the From allocated IPs method on a different subnetwork.
 
@@ -30,7 +30,7 @@ Role required: `core.dc_ops_agent, sn_ni_core.inventory_agent`
 
 This task is the per-host allocation method. The system creates one IP Address record for each selected allocated IP that is not reserved. Reserved addresses in the selection are skipped automatically and reported in the result banner.
 
-The two IP allocation methods \(from allocated IPs and at subnet level\) are mutually exclusive on a given subnetwork. After the first IP Address record is created by either method, the other method is locked for that subnetwork until all IP Address records are deleted. To learn more, see [CMDB relationships for IP address records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/cmdb-relationships-for-ip-address-records.md).
+The two IP allocation methods \(from allocated IPs and at subnet level\) are mutually exclusive on a given subnetwork. After the first IP Address record is created by either method, the other method is locked for that subnetwork until all IP Address records are deleted. To learn more, see [CMDB relationships for IP address records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/cmdb-relationships-for-ip-address-records.md).
 
 ## Procedure
 
@@ -85,18 +85,18 @@ The two IP allocation methods \(from allocated IPs and at subnet level\) are mut
 
 Two CMDB relationships are created for each IP Address record. The Manages relationship links the new record to its source allocated IP slot. The Contains relationship links it to the parent subnetwork.
 
-The corresponding allocated IP record's **Is Managed** flag is set to selected automatically. If you later delete the IP Address record, both relationships are removed and the allocated IP slot's **Is Managed** flag is cleared. The slot itself is preserved and can be promoted again. For more information, see [CMDB relationships for IP address records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/cmdb-relationships-for-ip-address-records.md).
+The corresponding allocated IP record's **Is Managed** flag is set to selected automatically. If you later delete the IP Address record, both relationships are removed and the allocated IP slot's **Is Managed** flag is cleared. The slot itself is preserved and can be promoted again. For more information, see [CMDB relationships for IP address records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/cmdb-relationships-for-ip-address-records.md).
 
-**Parent Topic:**[Manage IP addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/manage-ip-addresses.md)
+**Parent Topic:**[Manage IP addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/manage-ip-addresses.md)
 
 **Related topics**  
 
 
-[Create an IP Address record at subnet level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-an-ip-address-record-at-subnet-level.md)
+[Create an IP Address record at subnet level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/create-an-ip-address-record-at-subnet-level.md)
 
-[Allocate IP address slots in a subnetwork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/allocate-ip-address-slots-in-a-subnetwork.md)
+[Allocate IP address slots in a subnetwork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/allocate-ip-address-slots-in-a-subnetwork.md)
 
-[IP Address form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/ip-address-form.md)
+[IP Address form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/ip-address-form.md)
 
-[CMDB relationships for IP address records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/cmdb-relationships-for-ip-address-records.md)
+[CMDB relationships for IP address records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/cmdb-relationships-for-ip-address-records.md)
 

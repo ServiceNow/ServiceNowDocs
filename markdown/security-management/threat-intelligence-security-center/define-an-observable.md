@@ -3,11 +3,11 @@ title: Define an Observable
 description: Observables can be retrieved from scheduled feed ingestion or from the import assistant. However, you can create observables, as needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/define-an-observable.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Observables, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -34,7 +34,7 @@ Role required: sn\_sec\_tisc.analyst
 
 4.  On the form, fill in the fields.
 
-    **Note:** Whenever you either create a new observable or view the existing observables, the **Attachments** pane is by default displayed on the form view. You can either click the Attachments icon on the right-contextual menu or go to **Preferences** &gt; **Workspaces** and disable the **Show the sidebar**. For more information, see [Configure Next Experience Workspace preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-workspace-preferences.md).
+    **Note:** Whenever you either create a new observable or view the existing observables, the **Attachments** pane is by default displayed on the form view. You can either click the Attachments icon on the right-contextual menu or go to **Preferences** &gt; **Workspaces** and disable the **Show the sidebar**. For more information, see [Configure Next Experience Workspace preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-workspace-preferences.md).
 
 <table id="table_hmw_qzm_2yb"><thead><tr><th>
 
@@ -508,7 +508,7 @@ Observable
 
 </td><td>
 
-List of observables related to this observable.**Note:** This section also contains the potential relationships between two observables. For more information, see [Confirm observable-observable potential relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/define-observable-observable-potential-relationship.md)and see [Define observable-observable relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/define-observable-observable.md) for the confirmed relationships between the two observables.
+List of observables related to this observable.**Note:** This section also contains the potential relationships between two observables. For more information, see [Confirm observable-observable potential relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/define-observable-observable-potential-relationship.md)and see [Define observable-observable relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/define-observable-observable.md) for the confirmed relationships between the two observables.
 
 </td></tr><tr><td>
 
@@ -585,10 +585,10 @@ If the observable is an IP address, this list shows any resources \(configuratio
 </td></tr></tbody>
 </table>**Note:**
 
-1.  You can link and unlink the related records associated with this object. For more information, see [Link Threat Intel Related Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/link-threat-intel-releated-records.md).
-2.  Also, from the **Related Records** section, you can confirm the relationships between two Observables using the **Potential Relationships** section available on the **Observables** form view. For more information on see, [Confirm Potential Relationships from Related Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/confirm-potential-relationships.md).
-3.  You can add observables to cases. For more information, see [Add to Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/add-to-case.md).
-4.  You can also run enrichment actions to observables. For more information, see [Run Enrichment Actions within a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/run-enrichment-results.md).
+1.  You can link and unlink the related records associated with this object. For more information, see [Link Threat Intel Related Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/link-threat-intel-releated-records.md).
+2.  Also, from the **Related Records** section, you can confirm the relationships between two Observables using the **Potential Relationships** section available on the **Observables** form view. For more information on see, [Confirm Potential Relationships from Related Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/confirm-potential-relationships.md).
+3.  You can add observables to cases. For more information, see [Add to Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/add-to-case.md).
+4.  You can also run enrichment actions to observables. For more information, see [Run Enrichment Actions within a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/run-enrichment-results.md).
 
-**Parent Topic:**[Observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/observables.md)
+**Parent Topic:**[Observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/observables.md)
 

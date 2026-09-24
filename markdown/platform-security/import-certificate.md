@@ -3,9 +3,9 @@ title: Import the revocation request configuration
 description: Import the update set into the protected instance to initiate the certificate revocation process. Approvers receive email notifications and they should complete the approval workflow before the certificate is revoked. The approval means that the revocations are confirmed, authorized, and traceable for security and compliance purposes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/import-certificate.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quorum Controlled Certificate Revocation, Configure, Code Signing, Platform Security]
 ---
@@ -55,4 +55,6 @@ Role required: sn\_cse.codesigning\_admin, sn\_cse.quorum\_requester, security\_
 
 9.  Select **Approver details** and review the status of the quorum requests.
 
+
+**Parent Topic:**[Quorum Controlled Certificate Revocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/certificate-revocation.md)
 

@@ -3,9 +3,9 @@ title: Designate or remove multiple survey users at one time
 description: Use the Survey Category form to designate or remove multiple survey users at a time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_SurveyCategoryForm.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Survey users and groups, Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -35,7 +35,7 @@ Role required: admin or survey\_admin
     The changes are also reflected in the **Survey Users** related list on the survey definition.
 
 
-**Parent Topic:**[Survey users and groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyUsersAndGroups.md)
+**Parent Topic:**[Survey users and groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SurveyUsersAndGroups.md)
 
 **Related topics**  
 

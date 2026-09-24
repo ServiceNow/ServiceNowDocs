@@ -3,9 +3,9 @@ title: Setup screens for offline mode
 description: Setup ofﬂine mode for your mobile screen so that users can work without an internet connection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/setup-screens-offline.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Supported screens, Align apps, screens, and functions, Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -35,5 +35,5 @@ Role required: mobile\_admin, admin
 5.  Select **Save**.
 
 
-**Parent Topic:**[Supported screens for offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/screens-offline.md)
+**Parent Topic:**[Supported screens for offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/screens-offline.md)
 

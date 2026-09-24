@@ -3,11 +3,11 @@ title: Change template management flows
 description: Change template management flows trigger and manage steps for the template proposal, modification, and retirement processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/change-template-management-flows.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create and propose a change template, Create a Change model, Configure, Change Management, IT Service Management]
 ---
@@ -26,5 +26,5 @@ The two types of flows are the STTRM Template Publish Approval flow and the STTR
 
 The approver for both of these flows are determined by the users and groups defined for template in the change model's Template Management section.
 
-**Parent Topic:**[Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-change-template.md)
+**Parent Topic:**[Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-change-template.md)
 

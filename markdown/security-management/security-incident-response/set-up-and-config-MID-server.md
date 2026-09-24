@@ -3,11 +3,11 @@ title: Set up SSH credentials to the MID Server
 description: Palo Alto Networks Firewall sends API calls to the MID Server. As such, ensure that SSH credentials have been created for the MID Server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/set-up-and-config-MID-server.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Palo Alto Networks - Firewall integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

@@ -3,11 +3,11 @@ title: Data migrated from a demand to a created project
 description: Data fields are migrated from a demand to a project when the project is created from the demand.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/data-copied-from-demand-to-project.html
-release: australia
+release: brazil
 product: Demand Management
 classification: demand-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data migrated from demands to artifacts, Reference, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -123,5 +123,5 @@ Project Currency Financial
 If the multicurrency feature is active, the project financial fields are calculated according to the project currency and reference rate.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data migrated from demands to artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/data-copied-from-demands-to-artifacts.md)
+</table>**Parent Topic:**[Data migrated from demands to artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/data-copied-from-demands-to-artifacts.md)
 

@@ -3,9 +3,9 @@ title: Configure client credential flow for SMTP OAuth2 using certificate-based 
 description: Configure an OAuth application profile to authenticate using certificates for outbound email.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/config-credential-flow-certificate.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Send email using client credential flow, Advanced email setup, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -95,19 +95,19 @@ Role required: Microsoft Azure portal administrator and admin
 
 9.  Navigate to **Overview** &gt; **Endpoints** and copy the **OAuth 2.0 token endpoint \(v2\)** to a text file.
 
-    You use the **OAuth 2.0 token endpoint \(v2\)** when configuring a JWT provider. For more information, see [Configure a JWT provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/config-jwt-credential-flow.md).
+    You use the **OAuth 2.0 token endpoint \(v2\)** when configuring a JWT provider. For more information, see [Configure a JWT provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/config-jwt-credential-flow.md).
 
 
 ## What to do next
 
-[Configure a JWT provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/config-jwt-credential-flow.md)
+[Configure a JWT provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/config-jwt-credential-flow.md)
 
--   **[Configure a JWT provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/config-jwt-credential-flow.md)**  
+-   **[Configure a JWT provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/config-jwt-credential-flow.md)**  
 Configure a JWT provider on the ServiceNow AI Platform to configure an OAuth application profile to authenticate using certificates.
--   **[Generate a SHA-1 thumbprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/generate-sha-1-thumbprint.md)**  
+-   **[Generate a SHA-1 thumbprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/generate-sha-1-thumbprint.md)**  
 Generate an SHA-1 thumbprint using the JWT provider's sys\_id, the Java Key Store \(JKS\) certificate's sys\_id, and the JKS certificate's alias to the GraphCertificateOAuthTemplate script.
--   **[Create an OAuth API script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-oauth-api-script-cred-flow.md)**  
+-   **[Create an OAuth API script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-oauth-api-script-cred-flow.md)**  
 Create and duplicate an OAuth API script for application registry.
 
-**Parent Topic:**[Sending email using client credential flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/send-email-client-credential-flow.md)
+**Parent Topic:**[Sending email using client credential flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/send-email-client-credential-flow.md)
 

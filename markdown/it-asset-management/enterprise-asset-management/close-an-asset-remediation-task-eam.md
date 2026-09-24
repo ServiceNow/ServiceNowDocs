@@ -3,11 +3,11 @@ title: Close an enterprise asset remediation task
 description: View the open enterprise asset remediation from the Inventory view and close the task after updating the Model category and Model fields value for the asset.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/close-an-asset-remediation-task-eam.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Open asset remediation tasks, close an asset remediation task, asset remediation tasks]
 breadcrumb: [Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
@@ -71,10 +71,10 @@ For this new asset record, the application can’t automatically determine the *
     The closed asset remediation task isn’t listed on the Open asset remediation tasks list.
 
 
-**Parent Topic:**[Create and manage enterprise asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-enterprise-asset-inventory.md)
+**Parent Topic:**[Create and manage enterprise asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/managing-enterprise-asset-inventory.md)
 
 **Related topics**  
 
 
-[Complete multi scan enterprise asset inventory audit using the ServiceNow Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/complete-multi-scan-inventory-audit-using-mobile-app-eam.md)
+[Complete multi scan enterprise asset inventory audit using the ServiceNow Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/complete-multi-scan-inventory-audit-using-mobile-app-eam.md)
 

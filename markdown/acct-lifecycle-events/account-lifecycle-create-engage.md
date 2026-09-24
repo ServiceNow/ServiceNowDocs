@@ -3,9 +3,9 @@ title: Create an engagement
 description: Create an engagement record that centralizes all internal and external activities that are involved in the customer success journey.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-create-engage.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage engagements, Customer success, Use, Customer Success Management]
 ---
@@ -24,7 +24,7 @@ After the account onboarding has been completed, the next step is to create an e
 
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
+1.  Navigate to **Workspace** &gt; **CRM Workspace** and select the **List** icon.
 
 2.  Navigate to the **Customer Success** &gt; **All Engagements** and select **New**.
 
@@ -204,5 +204,5 @@ Any internal notes regarding this engagement.
 
 After you have created the engagement, you can create objectives, outcomes, touchpoints, and risk signals for the customer account associated with this engagement.
 
-**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-manage-engage.md)
+**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-manage-engage.md)
 

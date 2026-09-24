@@ -3,9 +3,9 @@ title: Synthetic monitoring Landing Page
 description: Read the following to understand what is displayed on the Synthetic monitoring landing page where you can view aggregate information about your synthetic monitors.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/ref-synthetic-monitoring-landing-page.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Synthetic monitoring, ITOM AIOps, IT Operations Management]
 ---
@@ -31,5 +31,5 @@ The cards show aggregate information for all monitors, whether they're active or
 
 By default, this list displays all monitors that have been created. You can select a card at the top of the page to filter to a list of monitors with that state. Select a monitor to view its details page.
 
-**Parent Topic:**[Synthetic monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/synthetic-monitoring-reference.md)
+**Parent Topic:**[Synthetic monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/synthetic-monitoring-reference.md)
 

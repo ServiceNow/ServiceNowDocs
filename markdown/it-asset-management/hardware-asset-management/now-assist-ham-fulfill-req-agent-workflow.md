@@ -3,14 +3,14 @@ title: ServiceNow Otto for Hardware Asset Management \(HAM\) AI agent collection
 description: Use the Help manage hardware asset requests agentic workflow, driven by AI agents, to handle your employees' hardware asset requests automatically. The AI agents fulfill requests by either consuming the available local stock, or by generating transfer orders or purchase orders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/now-assist-ham-fulfill-req-agent-workflow.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 keywords: [AI Agents, agentic AI]
-breadcrumb: [Fulfilling hardware asset requests, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Fulfilling hardware asset requests, Procurement and fulfillment, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # ServiceNow Otto for Hardware Asset Management \(HAM\) AI agent collection Help manage hardware asset requests agentic workflow
@@ -19,7 +19,7 @@ Use the Help manage hardware asset requests agentic workflow, driven by AI agent
 
 \[Omitted video\] Description: Agentic AI for Hardware Asset Management
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 ## Help manage hardware asset requests agentic workflow overview
 
@@ -178,7 +178,7 @@ Link a vendor catalog item to the product model
 
 Refer to the information provided here on the AI agents related to the Help manage hardware asset requests agentic workflow.
 
-To modify the Help manage hardware asset request agentic workflow [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
+To modify the Help manage hardware asset request agentic workflow [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
 
 **Important:** In the Edit trigger form, make sure that the **Active** button is turned on to enable the AI agent to trigger autonomously.
 
@@ -226,5 +226,5 @@ Sources the requested item by either creating a purchase order autonomously or a
 -   Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 -   Select **Help manage hardware asset requests**.
 
-**Parent Topic:**[Fulfilling hardware asset requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/fulfilling-hardware-asset-requests.md)
+**Parent Topic:**[Fulfilling hardware asset requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/fulfilling-hardware-asset-requests.md)
 

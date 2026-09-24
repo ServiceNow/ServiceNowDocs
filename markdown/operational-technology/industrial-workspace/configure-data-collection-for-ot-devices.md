@@ -3,11 +3,11 @@ title: Configure the data collection for Operational Technology devices
 description: Configure the data collection for Operational Technology \(OT\) devices so that you can collect and display the daily data for all indicators from Performance Analytics. This configuration ensures that your OT data is displayed accurately on the OT Visibility dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/configure-data-collection-for-ot-devices.html
-release: australia
+release: brazil
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setting up the Operational Technology Visibility dashboard, Configure, Industrial Workspace, Operational Technology]
 ---
@@ -49,7 +49,7 @@ The OT Visibility dashboard is now showing the correct data for the collected OT
 
 ## What to do next
 
-Now, you can review the indicator sources and determine if you need to override the default records collection. For more information, see [Review the indicator sources for a large number of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/change-indicator-sources-for-larger-number-of-records-otm.md).
+Now, you can review the indicator sources and determine if you need to override the default records collection. For more information, see [Review the indicator sources for a large number of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/change-indicator-sources-for-larger-number-of-records-otm.md).
 
-**Parent Topic:**[Setting up the Operational Technology Visibility dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/setting-up-the-ot-devices-dashboard.md)
+**Parent Topic:**[Setting up the Operational Technology Visibility dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/setting-up-the-ot-devices-dashboard.md)
 

@@ -1,22 +1,24 @@
 ---
-title: Virtual Agent and NLU Workbench integration
+title: \(Legacy\) Virtual Agent and NLU Workbench integration
 description: Virtual Agent administrators can access and update their NLU models from within the Virtual Agent Designer user interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/virtual-agent-nlu-model-builder-integration.html
-release: australia
+release: brazil
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2026-04-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Virtual Agent and NLU Workbench integration
+# \(Legacy\) Virtual Agent and NLU Workbench integration
 
 Virtual Agent administrators can access and update their NLU models from within the Virtual Agent Designer user interface.
 
-**Note:** If you have Now Assist in Virtual Agent, you can continue to use your existing NLU topics and migrate them into new LLM topics using the topic migration feature within Virtual Agent Designer. For more information on topic migration, see [Migrate NLU topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/migrate-nlu-llm.md).
+Starting with the Brazil release, Natural Language Understanding is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
+
+**Note:** If you have Now Assist in Virtual Agent, you can continue to use your existing NLU topics and migrate them into new LLM topics using the topic migration feature within Virtual Agent Designer. For more information on topic migration, see [Migrate NLU topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/migrate-nlu-llm.md).
 
 ## Integration setup tasks, roles, and details
 
@@ -33,14 +35,14 @@ Virtual Agent administrators must also apply their NLU model to a conversation t
 -   In **Topic Properties**, select the NLU model, the NLU intent, and the topic switching behavior.
 -   For input controls used in the topic flow, set the NLU properties for entity extraction.
 
-Optionally, admins can activate Dialog Acts to enable Virtual Agent to respond flexibly when users make a modification in mid-conversation. Currently available response types are Modify, Affirm, and Negate, based on the last 5 exchanges in the conversation. Dialog Acts can be configured for English only, in Topic Properties. For more information see [Dialog Acts for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/c_dialog-acts.md).
+Optionally, admins can activate Dialog Acts to enable Virtual Agent to respond flexibly when users make a modification in mid-conversation. Currently available response types are Modify, Affirm, and Negate, based on the last 5 exchanges in the conversation. Dialog Acts can be configured for English only, in Topic Properties. For more information see [\(Legacy\) Dialog Acts for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/c_dialog-acts.md).
 
 After the NLU model is complete and associated with a Virtual Agent conversation topic, administrators with the virtual\_agent\_admin or admin role can do the following from within the Virtual Agent Designer user interface.
 
 -   Update NLU intent utterances.
 -   Train, test, and publish the NLU model.
 
-For more information, see [Natural Language Understanding \(NLU\) topic discovery in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-NLU.md).
+For more information, see [Natural Language Understanding \(NLU\) topic discovery in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-NLU.md).
 
 ## Publishing topics from Virtual Agent
 

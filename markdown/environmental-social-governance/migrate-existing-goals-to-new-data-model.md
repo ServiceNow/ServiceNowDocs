@@ -3,9 +3,9 @@ title: Migrate existing goals data to Goal Framework
 description: With the admin role, you can migrate the existing goals data to the Goal Framework tables by running the scheduled job.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/migrate-existing-goals-to-new-data-model.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create an Operational Sustainability Management \(formerly ESG Management\) goal, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -20,7 +20,7 @@ Role required: sys\_admin
 
 ## About this task
 
-If you're an existing user of IT Business Management, then you must migrate your existing goals to the Goal Framework. New customers automatically have the new framework and they do not need to run the job mentioned in this procedure.
+If you are an existing user of IT Business Management, then you must migrate your existing goals to the Goal Framework. New customers automatically have the new framework and they do not need to run the job mentioned in this procedure.
 
 ## Procedure
 
@@ -82,8 +82,8 @@ migrateStrategyWorkItemRelData
 **Note:** The name of the dummy goal will be prefixed with `Goal:`, followed by the strategy name.
 
 </td></tr></tbody>
-</table>4.  Select **Execute Now**.
+</table>4.  Click **Execute Now**.
 
 
-**Parent Topic:**[Create an Operational Sustainability Management \(formerly ESG Management\) goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-esg-goal.md)
+**Parent Topic:**[Create an Operational Sustainability Management \(formerly ESG Management\) goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/create-esg-goal.md)
 

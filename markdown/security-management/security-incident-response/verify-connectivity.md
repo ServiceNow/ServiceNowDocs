@@ -3,11 +3,11 @@ title: Verify connectivity for LogRhythm
 description: Verify your connection to the LogRhythm Client Console by sending curl requests to test the LogRhythm REST API. The verification process is optional.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/verify-connectivity.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Troubleshooting the LogRhythm integration, LogRhythm Overview, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_si.admin
 
 ## About this task
 
-To verify the connection to the LogRhythm Client Console is working properly after you set up the LogRhythm REST APIs, send two curl requests from the computer hosting the MID Server you configured in [Install the plugin and configure LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/install-and-config-logrhythm.md).
+To verify the connection to the LogRhythm Client Console is working properly after you set up the LogRhythm REST APIs, send two curl requests from the computer hosting the MID Server you configured in [Install the plugin and configure LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/install-and-config-logrhythm.md).
 
 The LogRhythm REST API uses WSSE for authentication, which requires some outside scripting to work with Curl and Postman.
 
@@ -35,5 +35,5 @@ The LogRhythm REST API uses a token for authentication, so you can make the actu
     For a successful connection to the LogRhythm REST API, you should receive an HTTP 404, but the response body contains `Alarm ID: 0 not found`.
 
 
-**Parent Topic:**[Troubleshooting the LogRhythm integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/troubleshooting-logrhythm-integration.md)
+**Parent Topic:**[Troubleshooting the LogRhythm integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/troubleshooting-logrhythm-integration.md)
 

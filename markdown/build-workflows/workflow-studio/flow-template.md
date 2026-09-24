@@ -3,11 +3,11 @@ title: Flow Template Builder
 description: Enable citizen developers to create their own flow templates. Flow Templates guide flow authors to create flows for common use cases. Use the flow template builder to define flows, actions, and flow template variables.Create template from a flow in Workflow Studio to guide flow authors through the creation of a flow with the same configuration and customized template input values for the components.Create a flow from an existing App Engine Studio automation template. Follow the template guidance to provide values for template inputs that accept dynamic data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-template.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -22,7 +22,7 @@ Template authors can create templates from the flow with the required configurat
 
 In App Engine Studio, administrator can add automations in the required app by creating flows using these active templates.\[Omitted image "template-add-automation.png"\] Alt text: Create flow from template in App Engine Studio.
 
-**Parent Topic:**[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md)
+**Parent Topic:**[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flows.md)
 
 ## Create a template using Flow Template Builder
 
@@ -138,7 +138,7 @@ Create a flow from an existing App Engine Studio automation template. Follow the
 
 ### Before you begin
 
--   [Create a template using Flow Template Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-template.md) and activate it.
+-   [Create a template using Flow Template Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-template.md) and activate it.
 
     **Note:** If the template is modified, the template must be activated again for the changes to be reflected in App Engine Studio.
 

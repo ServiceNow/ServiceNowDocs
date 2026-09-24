@@ -3,11 +3,11 @@ title: Apache Kafka and Apache Zookeeper discovery
 description: ServiceNow Discovery uses the Kafka and Zookeeper discovery pattern to find Kafka data built on the Zookeeper synchronization service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/kafka-zookeeper-discovery.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -92,5 +92,5 @@ Kafka and Zookeeper process should be running on the host.
 
 The Kafka and Zookeeper pattern does not create any CI relationships.
 
-**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

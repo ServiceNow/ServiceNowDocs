@@ -3,9 +3,9 @@ title: Send survey invitations to users
 description: You can send survey invitations using the Assign Survey or Send Invitations buttons on the Survey Definition form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_SendSurveyInvitationsToUsers.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Survey distribution, Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -38,7 +38,7 @@ Each of the buttons generates survey instances assigned to the appropriate users
 
 3.  Complete one of the following actions.
 
-<table id="choicetable_yzz_24g_45"><tbody><tr><td id="d630078e123">
+<table id="choicetable_yzz_24g_45"><tbody><tr><td id="d628030e123">
 
 **Assign a survey to users listed in the Survey Users related list**
 
@@ -46,7 +46,7 @@ Each of the buttons generates survey instances assigned to the appropriate users
 
 Click **Send invitations**.
 
-</td></tr><tr><td id="d630078e135">
+</td></tr><tr><td id="d628030e135">
 
 **Assign a survey to any user**
 
@@ -58,7 +58,7 @@ Click **Assign Survey** and select one or more users, and then click **OK**.
 </table>    The system creates a survey instance assigned to the user or users, assuming the user is eligible to receive a new survey instance. When you use the **Assign Survey** button, the selected user is not saved as a survey user.
 
 
-**Parent Topic:**[Survey distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDistribution.md)
+**Parent Topic:**[Survey distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SurveyDistribution.md)
 
 **Related topics**  
 

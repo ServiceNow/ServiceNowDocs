@@ -3,11 +3,11 @@ title: Verify that your instance meets the prerequisites for AI Search for Next 
 description: Walk through Guided Setup tasks to confirm that your instance meets the requirements for AI Search for Next Experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/verify-ais-next-exp-prereqs.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring AI Search for Next Experience, AI Search for Next Experience, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,7 +18,7 @@ Walk through Guided Setup tasks to confirm that your instance meets the requirem
 
 ## Before you begin
 
-The AI Search for Next Experience ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/install-ais-next-experience-app.md).
+The AI Search for Next Experience ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/install-ais-next-experience-app.md).
 
 Role required: ais\_admin
 
@@ -54,7 +54,7 @@ The **Prerequisites** Guided Setup tasks walk you through verifying that your in
 
     3.  If the system reports any other enablement status, ask your administrator to enable Next Experience on your instance, then repeat this task after it's enabled.
 
-        For details on enabling Next Experience, see [Enable Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-adoption-paths.md).
+        For details on enabling Next Experience, see [Enable Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-adoption-paths.md).
 
 6.  Index content and metadata for AI Search indexed sources used in global search.
 
@@ -64,7 +64,7 @@ The **Prerequisites** Guided Setup tasks walk you through verifying that your in
 
     2.  Select all indexed sources marked with the alert triangle icon \[Omitted image "icon-alert-triangle.png"\] Alt text:, then index their content by selecting **Actions on selected rows…** &gt; **Index All Tables**.
 
-        For more information on indexing tables from multiple indexed sources, see [Perform a full table index or reindex for multiple AI Search indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/index-multiple-sources-ais.md).
+        For more information on indexing tables from multiple indexed sources, see [Perform a full table index or reindex for multiple AI Search indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/index-multiple-sources-ais.md).
 
     3.  When indexing is complete, close the browser tab and return to the **Prerequisites** Guided Setup category tab.
 
@@ -75,7 +75,7 @@ The **Prerequisites** Guided Setup tasks walk you through verifying that your in
 
 ## What to do next
 
-Now that you've satisfied the prerequisites, it's time to migrate your existing Zing search application configurations for use with AI Search. For details on this procedure, see [Migrate Zing search application configurations to AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/migrate-srch-apps-ais-next-exp.md).
+Now that you've satisfied the prerequisites, it's time to migrate your existing Zing search application configurations for use with AI Search. For details on this procedure, see [Migrate Zing search application configurations to AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/migrate-srch-apps-ais-next-exp.md).
 
-**Parent Topic:**[Configuring AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-ais-next-experience.md)
+**Parent Topic:**[Configuring AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/configuring-ais-next-experience.md)
 

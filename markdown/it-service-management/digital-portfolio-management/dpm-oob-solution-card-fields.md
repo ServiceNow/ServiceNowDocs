@@ -3,11 +3,11 @@ title: Digital Portfolio Management homepage default solution cards
 description: Digital Portfolio Management uses certain fields to auto-generate a set of default solution cards to display on your DPM homepage. After you add or remove solutions from your homepage, DPM remembers your updates by displaying your personalized solutions cards instead of the auto-generated set.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-oob-solution-card-fields.html
-release: australia
+release: brazil
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Digital Portfolio Management, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Digital Portfolio Management uses certain fields to auto-generate a set of defau
 
 ## DPM homepage overview
 
-Each time that you log in to the DPM Workspace, the system uses certain fields to display a set of default solution cards. You can use the personalize option to add or remove solutions to your homepage. For more information, see [Personalize the Digital Portfolio Management Workspace home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-personalize-homepage.md).
+Each time that you log in to the DPM Workspace, the system uses certain fields to display a set of default solution cards. You can use the personalize option to add or remove solutions to your homepage. For more information, see [Personalize the Digital Portfolio Management Workspace home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-personalize-homepage.md).
 
 After you add or remove solutions, the DPM system remembers your updates in the **dpm\_home\_page\_item** table so that next time you log in to the DPM Workspace, your personalized homepage displays. The system no longer generates a set of default solution cards for you.
 
@@ -89,7 +89,7 @@ You can personalize your DPM homepage to adjust the solution card count. For exa
 
 The DPM application uses certain fields to auto-generate a set of default solution cards to display when you first login to DPM \(before you personalize\).
 
-**Note:** Starting with the Australia release, the \[cmdb\_ci\_service\_technical\] table is labeled Technology Management Service in the user interface \(formerly labeled Technology management service\). Additionally, the \[service\_offering\] table is labeled Technology Management Offering in the user interface \(formerly labeled Technology management service offering\).
+**Note:** Starting with the Brazil release, the \[cmdb\_ci\_service\_technical\] table is labeled Technology Management Service in the user interface \(formerly labeled Technology management service\). Additionally, the \[service\_offering\] table is labeled Technology Management Offering in the user interface \(formerly labeled Technology management service offering\).
 
 <table id="table_cft_ksw_2zb"><thead><tr><th>
 
@@ -166,5 +166,5 @@ cmdb\_ci\_service\_auto including dynamic configuration item \(CI\) groups
 -   Managed by 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Digital Portfolio Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-reference-cfw.md)
+</table>**Parent Topic:**[Digital Portfolio Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-reference-cfw.md)
 

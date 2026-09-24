@@ -3,7 +3,7 @@ title: Use model versioning
 description: Use model versioning in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to determine the version of a model on development and production instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-use-model-versioning.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
@@ -19,7 +19,7 @@ Use model versioning in Zero Copy Connector for ERP \(Enterprise Resource Planni
 
 ## Before you begin
 
-For versioning to take place, the **sn\_erp\_integration.enableModelModification** system property must be set to true on your development instance. For more information about the system property, see [Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md).
+For versioning to take place, the **sn\_erp\_integration.enableModelModification** system property must be set to true on your development instance. For more information about the system property, see [Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md).
 
 Role required: sn\_erp\_integration.erp\_admin
 
@@ -43,4 +43,6 @@ As you work with model records on a development instance, at certain intervals y
 
     \[Omitted image "erp-model-versions2.png"\] Alt text: Model record with version number highlighted.
 
+
+**Parent Topic:**[Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md)
 

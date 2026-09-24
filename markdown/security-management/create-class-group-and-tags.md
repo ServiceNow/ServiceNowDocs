@@ -3,10 +3,10 @@ title: Set up security tag groups and tags
 description: You can assign tags to security incidents, response tasks, vulnerable items, observables, IoCs, and security cases to create metadata on the responding record and define who should have access to specific types of security content. The tags can be added to security groups to organize them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/create-class-group-and-tags.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Security Operations common functionality, Security Operations]
 ---
 
@@ -17,6 +17,8 @@ You can assign tags to security incidents, response tasks, vulnerable items, obs
 ## Before you begin
 
 -   Manual security tags are preserved when automatic tags are applied to security incidents to avoid any analyst-curated information loss. The Source column in the Applied Security Tags table tracks whether tags are added manually or automatically by rules.
+-   Automatic tag application is available only for security incidents and observables/IoCs. For response tasks, vulnerable items, and security cases, you can create a security tag rule. However, tags aren't applied automatically unless the owning application adds a business rule or scheduler job to invoke the rule.
+-   Security tag rules apply only to records created or updated after the rule is activated. Records that already exist and match the rule's conditions aren't tagged retroactively.
 -   Role required: sn\_si.admin
 
 ## Procedure
@@ -111,10 +113,10 @@ Brief description of this group.
     **Note:** You can also create tags by selecting **New** button on the list view. The procedure is the same.
 
 
--   **[Create security tag rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-security-tag-rules.md)**  
+-   **[Create security tag rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/create-security-tag-rules.md)**  
 Security tag rules provide filtering for security tag access.
--   **[Import security tag rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/import-security-tag-rules.md)**  
+-   **[Import security tag rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/import-security-tag-rules.md)**  
 You can import security tag rules from other tables in your deployment.
 
-**Parent Topic:**[Security Operations common functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sec-ops-common-functionality.md)
+**Parent Topic:**[Security Operations common functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sec-ops-common-functionality.md)
 

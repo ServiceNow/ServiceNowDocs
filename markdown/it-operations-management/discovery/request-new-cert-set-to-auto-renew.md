@@ -1,18 +1,18 @@
 ---
-title: Request certificates and set them to auto-renew
+title: Request certificates with auto-renewal
 description: Set your certificate to auto-renew when you first request it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/request-new-cert-set-to-auto-renew.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Automated certificate renewal, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Request certificates and set them to auto-renew
+# Request certificates with auto-renewal
 
 Set your certificate to auto-renew when you first request it.
 
@@ -20,9 +20,9 @@ Set your certificate to auto-renew when you first request it.
 
 Complete the following tasks to configure your system to renew your certificates automatically:
 
-1.  [Configure MID Server for automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/configure-mid-server-automatic-cert-renewal.md)
-2.  [Add the required applications and capabilities to your MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/add-req-apps-capabilities-to-mid-server.md)
-3.  [Configure automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/config-sys-props-for-auto-cert-renewal.md)
+1.  [Configure MID Server for automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/configure-mid-server-automatic-cert-renewal.md)
+2.  [Add required applications and capabilities to MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/add-req-apps-capabilities-to-mid-server.md)
+3.  [Configure system properties for auto-renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/config-sys-props-for-auto-cert-renewal.md)
 
 Role required: pki\_admin or admin
 
@@ -32,9 +32,9 @@ Role required: pki\_admin or admin
 
 2.  Select the check box **Want to Generate CSR?**
 
-3.  On the Request a new certificate form, fill in the fields.
+3.  On the "request a new certificate" form, fill in the fields.
 
-    For a description of the field values, see [Certificate request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/req-new-cert-form-table-fields.md).
+    For a description of the field values, see [,](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/req-new-cert-form-table-fields.md).
 
 4.  Select **Generate**.
 

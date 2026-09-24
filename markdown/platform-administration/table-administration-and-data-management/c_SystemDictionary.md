@@ -3,11 +3,11 @@ title: System dictionary
 description: View a list of all tables in columns in your instance from the system dictionary.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/c\_SystemDictionary.html
-release: australia
+release: brazil
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring tables, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -31,5 +31,5 @@ In most cases, use the following interfaces rather than creating entries directl
 -   To create tables and fields, use the Tables module.
 -   To create fields, configure the table form.
 
-**Parent Topic:**[Exploring ServiceNow AI Platform tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/exploring-table-administration.md)
+**Parent Topic:**[Exploring ServiceNow AI Platform tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/exploring-table-administration.md)
 

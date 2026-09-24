@@ -3,11 +3,11 @@ title: Diagnose and resolve a technology product support case
 description: As a customer service agent, review, diagnose, resolve, and close a case for the service-related issue experienced by the customer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/diagnose-resolve-hitechcases.html
-release: australia
+release: brazil
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Use, Technology Product Support Case, Product Support for Technology]
 ---
@@ -66,9 +66,9 @@ The technology product support case progresses through several stages from start
 
     3.  Expand the cards in the **Available Test Suite**.
 
-        To set up test definitions, see [Setting up test definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/settingup-test-specifications.md).
+        To set up test definitions, see [Setting up test definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/settingup-test-specifications.md).
 
-        To set up test group, see [Setting up a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/setting-test-group.md).
+        To set up test group, see [Setting up a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/setting-test-group.md).
 
     4.  In the manual test, select single/multiple tests.
 
@@ -138,5 +138,5 @@ The technology product support case progresses through several stages from start
 
 The technology product support case is resolved and closed successfully.
 
-**Parent Topic:**[Using Technology Product Support Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/use-technology-product-support-case.md)
+**Parent Topic:**[Using Technology Product Support Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/use-technology-product-support-case.md)
 

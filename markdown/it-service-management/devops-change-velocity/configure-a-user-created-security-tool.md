@@ -3,11 +3,11 @@ title: Configure user-created security tool
 description: Connect your custom security tool that is integrated with your CI/CD pipelines to DevOps Change Velocity to retrieve security scan results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/configure-a-user-created-security-tool.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [DevOps user-created security tool integration, User created, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -162,5 +162,5 @@ By default, when you onboard your tool from workspace, you have to enter the man
     \[Omitted image "cus-sec-tool-05.png"\] Alt text: JSON entry in the securityToolsUIConfig UX page property
 
 
-**Parent Topic:**[DevOps user-created security tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-security-tool-integration.md)
+**Parent Topic:**[DevOps user-created security tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/devops-security-tool-integration.md)
 

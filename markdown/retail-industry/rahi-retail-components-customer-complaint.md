@@ -3,9 +3,9 @@ title: Components installed with Retail customer complaint
 description: Certain roles and dependencies must be considered when using the Retail customer complaint plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-components-customer-complaint.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Components installed with plugins, Reference, Retail]
 ---
@@ -84,5 +84,5 @@ Create, update, resolve, and manage retail complaint cases.
 -   sn\_customerservice\_manager
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-components-installed-with-plugins.md)
+</table>**Parent Topic:**[Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-components-installed-with-plugins.md)
 

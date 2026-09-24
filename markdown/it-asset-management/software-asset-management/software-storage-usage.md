@@ -3,13 +3,13 @@ title: Software storage usage fields
 description: Determine the usage information for SaaS applications for generating downgrade subscriptions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/software-storage-usage.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software storage usage fields
@@ -25,5 +25,5 @@ Determine the usage information for SaaS applications for generating downgrade s
 |Product|Name of the product for the usage record.|
 |Is deleted|Indicates whether the user's storage account, such as Microsoft OneDrive or mailbox, has been deleted.|
 
-**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)
+**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/references.md)
 

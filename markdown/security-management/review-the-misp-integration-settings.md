@@ -3,9 +3,9 @@ title: Review the MISP integration settings
 description: Review the MISP integration for Security Operations settings and modify the default system properties to suit your environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/review-the-misp-integration-settings.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [MISP administration, MISP integration for Security Operations, Threat Intelligence integrations, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -117,8 +117,8 @@ Rollup of MITRE-ATT&amp;CK information from the MISP observable enrichment resul
 </td></tr></tbody>
 </table>    **Note:**
 
-    -   To use the MITRE™ technique extraction features in MISP, you must [enable the MITRE-ATT&amp;CK feature in the Threat Intelligence module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/get-started-with-mitre.md).
-    -   The MISP integration for Security Operations introduces two base system MITRE-ATT&amp;CK technique extraction rules for MISP - MISP galaxies and MISP tags. For more information on auto-extraction rules in MITRE-ATT&amp;CK, see [auto-extract technique rules for importing MITRE-ATT&amp;CK information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/auto-extract-technique-rules.md).
+    -   To use the MITRE™ technique extraction features in MISP, you must [enable the MITRE-ATT&amp;CK feature in the Threat Intelligence module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/get-started-with-mitre.md).
+    -   The MISP integration for Security Operations introduces two base system MITRE-ATT&amp;CK technique extraction rules for MISP - MISP galaxies and MISP tags. For more information on auto-extraction rules in MITRE-ATT&amp;CK, see [auto-extract technique rules for importing MITRE-ATT&amp;CK information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/auto-extract-technique-rules.md).
 3.  Click **Save**.
 
 
@@ -126,7 +126,7 @@ Rollup of MITRE-ATT&amp;CK information from the MISP observable enrichment resul
 
 Your modified integration settings are saved and applied.
 
-**Parent Topic:**[MISP administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/misp-administration.md)
+**Parent Topic:**[MISP administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/misp-administration.md)
 
 **Related topics**  
 

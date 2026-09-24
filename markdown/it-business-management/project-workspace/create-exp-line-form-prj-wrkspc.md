@@ -3,11 +3,11 @@ title: Create expense line form
 description: Use this form to create expense lines for your actual expense.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/create-exp-line-form-prj-wrkspc.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Form field information for Project Workspace, Project Workspace reference, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -113,5 +113,5 @@ Summary type
 Business purpose of the expense line.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/form-field-information-for-project-workspace.md)
+</table>**Parent Topic:**[Form field information for Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/form-field-information-for-project-workspace.md)
 

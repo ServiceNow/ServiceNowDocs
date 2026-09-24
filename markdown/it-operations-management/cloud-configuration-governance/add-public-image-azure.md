@@ -3,11 +3,11 @@ title: Add an Azure public image to Cloud Provisioning and Governance
 description: You can make any Azure image selectable in an OS profile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/add-public-image-azure.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Resource Profiles, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -123,5 +123,5 @@ Vendor
     This step also creates a relationship between the public image and the logical datacenter \(LDC\) in the CMDB.
 
 
-**Parent Topic:**[Resource Profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-resource-profiles.md)
+**Parent Topic:**[Resource Profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/cloud-resource-profiles.md)
 

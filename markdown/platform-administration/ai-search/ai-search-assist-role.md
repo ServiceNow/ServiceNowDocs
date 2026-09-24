@@ -3,11 +3,11 @@ title: AI Search Assist roles
 description: AI Search Assist includes the following roles.Configure and manage AI Search Assist settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/ai-search-assist-role.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [AI Search record producer for Service Portal, Integrate, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -16,9 +16,9 @@ breadcrumb: [AI Search record producer for Service Portal, Integrate, AI Search,
 
 AI Search Assist includes the following roles.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
-**Parent Topic:**[AI Search Assist record producer integration for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/ai-search-assist.md)
+**Parent Topic:**[AI Search Assist record producer integration for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/ai-search-assist.md)
 
 ## AI Search Assist administrator \[aisa\_admin\]
 

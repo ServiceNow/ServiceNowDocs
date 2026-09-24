@@ -3,11 +3,11 @@ title: Ask ServiceNow Otto for summary of contract documents
 description: Generate summaries, frequently asked questions \(FAQs\), or ask questions to retrieve specific information from contract documents in Contract Management Pro.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-summarize-contract-cmr.html
-release: australia
+release: brazil
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Contract summarization, Summarize contract, Ask ServiceNow Otto]
 breadcrumb: [Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
@@ -19,9 +19,9 @@ Generate summaries, frequently asked questions \(FAQs\), or ask questions to ret
 
 ## Before you begin
 
--   The smart documents skill must be activated. For more information, see [Configure the smart documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-skill-smart-documents.md).
--   Your role and relevant tables must be configured to use this feature. For more information, see [Configuring contract summarization for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-conf-cntr-summary.md).
--   The ServiceNow Otto panel must be enabled. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+-   The smart documents skill must be activated. For more information, see [Configure the smart documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configure-skill-smart-documents.md).
+-   Your role and relevant tables must be configured to use this feature. For more information, see [Configuring contract summarization for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cmpro-conf-cntr-summary.md).
+-   The ServiceNow Otto panel must be enabled. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md).
 -   Role required: sn\_cm\_core.contract\_fulfiller
 
 ## About this task
@@ -80,10 +80,12 @@ Workspace used by your application
 
     \[Omitted image "cmpro-summary-nap.png"\] Alt text: ServiceNow Otto panel displaying options to summarize the document, generate FAQs, and ask questions.
 
-    For more information on using AI for generating summaries, see [Generate a document summary by using ServiceNow Otto in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/generate-document-summary-now-assist.md) and [Generate summary and ask questions using ServiceNow Otto in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ask-questions-faqs-now-assist.md).
+    For more information on using AI for generating summaries, see [Generate a document summary by using ServiceNow Otto in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/generate-document-summary-now-assist.md) and [Generate summary and ask questions using ServiceNow Otto in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/ask-questions-faqs-now-assist.md).
 
     You can also summarize supporting documents and signed contracts using Ask Otto in the document viewer.
 
 
-**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
+**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
+
+**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 

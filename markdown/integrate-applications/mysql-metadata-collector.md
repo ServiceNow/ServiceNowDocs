@@ -3,9 +3,9 @@ title: MySQL metadata collector
 description: The MySQL metadata collector provides read-only access to metadata from an external MySQL database.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/mysql-metadata-collector.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
 ---
@@ -87,10 +87,10 @@ The harvested metadata includes catalog pages for the following data asset types
 
 The MySQL collector supports username/password authentication to MySQL.
 
--   **[Prepare to run the MySQL collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-mysql-collector.md)**  
+-   **[Prepare to run the MySQL collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/prepare-to-run-mysql-collector.md)**  
 Create a MySQL user and grant permissions before running the collector.
--   **[Create a MySQL metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-mysql-metadata-collector.md)**  
+-   **[Create a MySQL metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-mysql-metadata-collector.md)**  
 Create a collector to import metadata from MySQL.
 
-**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-metadata-collectors-dc.md)
+**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-metadata-collectors-dc.md)
 

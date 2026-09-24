@@ -3,11 +3,11 @@ title: Submit your idea for app development
 description: With your carefully-planned idea in hand, you are ready to submit it through Application Intake for approval and development in App Engine Studio \(AES\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/application-intake/submit-intake-request.html
-release: australia
+release: brazil
 product: Application Intake
 classification: application-intake
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Planning your application, Building applications]
 ---
@@ -18,7 +18,7 @@ With your carefully-planned idea in hand, you are ready to submit it through App
 
 ## Before you begin
 
-If you have not already [activated the Apply for Citizen Development standard catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/activate-catalog-item-for-app-intake.md), you must do so before you can perform this procedure.
+If you have not already [activated the Apply for Citizen Development standard catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/activate-catalog-item-for-app-intake.md), you must do so before you can perform this procedure.
 
 Role required: none
 
@@ -60,5 +60,5 @@ If the idea is approved, developers can build the app with the guided, intuitive
 
 If the admin approves your request, you can start building your app in App Engine Studio. You should receive a confirmation email with access to build the app.
 
-If you are an admin who approves requests, learn more about [managing AEMC requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/manage-aemc-requests.md).
+If you are an admin who approves requests, learn more about [managing AEMC requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/manage-aemc-requests.md).
 

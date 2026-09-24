@@ -3,9 +3,9 @@ title: ServiceNow Otto for Unified Security Exposure Management
 description: Set up, manage, and optimize your generative‑AI solutions on the ServiceNow AI Platform in the Unified Security Exposure Management workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/now-assist-for-usem-landing-ties.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Security Operations]
 ---
@@ -16,19 +16,19 @@ Set up, manage, and optimize your generative‑AI solutions on the ServiceNow AI
 
 ## Now Assist &gt; ServiceNow Otto announcement
 
-Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 <table id="table_q5c_fff_r2c" class="nav-card presentation"><tbody><tr><td>
 
-[Use generative AI skills\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Learn how to use generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-now-assist-skills-vulnerability-response.md)
+[Use generative AI skills\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Learn how to use generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/using-now-assist-skills-vulnerability-response.md)
 
 </td><td>
 
-[Use agentic workflows\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Learn how to use agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-now-assist-ai-agents-vr.md)
+[Use agentic workflows\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Learn how to use agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/using-now-assist-ai-agents-vr.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to configure the generative AI skills and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuring-now-assist-for-vulnerability-response.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to configure the generative AI skills and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/configuring-now-assist-for-vulnerability-response.md)
 
 </td></tr><tr><td>
 
@@ -36,7 +36,7 @@ Now Assist introduced AI on the platform. As that experience has evolved, there'
 
 </td><td>
 
-[\[Omitted image "bus-ai-otto.svg"\] Alt text:Get supporting information about the AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-vulnerability-response-reference.md)
+\[Omitted image "bus-ai-otto.svg"\] Alt text:Get supporting information about the AI agents and agentic workflows
 
 </td><td>
 
@@ -55,12 +55,12 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 -   Advanced: AI to boost productivity across relevant use cases
 -   Prime: Act autonomously with all AI assets, and create your own
 
-For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 For information about AI assets that are available on the ServiceNow AI Platform, see the following topics:
 
--   [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills.md)
--   [Agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-aia-use-cases-list.md)
+-   [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills.md)
+-   [Agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/sn-aia-use-cases-list.md)
 
 **Important:**
 
@@ -75,9 +75,9 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect the vulnerability data that you import as well as information about the configuration items in your CMDB. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect the vulnerability data that you import as well as information about the configuration items in your CMDB. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md).
 
 ## Helpful resources
 

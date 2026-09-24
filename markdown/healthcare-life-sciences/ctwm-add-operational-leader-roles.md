@@ -3,9 +3,9 @@ title: Assign operational leader roles
 description: Assign your operational leaders the correct roles so that they can leverage the Operational Rounding playbook to create task plan templates for care teams.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-add-operational-leader-roles.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up roles and responsibilities, Configure, Care Team Work Management, Healthcare Operations, Healthcare and Life Sciences]
 ---

@@ -3,11 +3,11 @@ title: Change default values of copied fields
 description: Change the default values of in the new partial project.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_ChangeDefaultValCopiedProjTasks.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Copy an existing task or project, Create a project task from a project, Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -42,10 +42,10 @@ Actual duration and the actual start and end dates are reset to null values. The
     ```
 
 
-**Parent Topic:**[Copy an existing task or project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CopyExistingTaskorProject.md)
+**Parent Topic:**[Copy an existing task or project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CopyExistingTaskorProject.md)
 
 **Related topics**  
 
 
-[Copy an existing task or project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CopyExistingTaskorProject.md)
+[Copy an existing task or project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CopyExistingTaskorProject.md)
 

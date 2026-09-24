@@ -3,11 +3,11 @@ title: Create a speedometer or a dial visualization for a score widget
 description: To show the latest score of an indicator compared to the range of scores, use a speedometer or dial visualization in a score widget. A speedometer also shows the indicator target.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/create-speedometer-widget.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Score widgets, Performance Analytics widgets, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -22,7 +22,7 @@ Role required: pa\_admin or admin
 
 ## About this task
 
-**Note:** This feature is part of the Core UI front end. It is not supported on Platform Analytics dashboards or UI Builder pages, except to a limited extent when migrated in compatibility mode. To build Platform Analytics components, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-data-visualizations.md) or [Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/interactive-filters-workspace.md).
+**Note:** This feature is part of the Core UI front end. It is not supported on Platform Analytics dashboards or UI Builder pages, except to a limited extent when migrated in compatibility mode. To build Platform Analytics components, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/analytics-center-data-visualizations.md) or [Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/interactive-filters-workspace.md).
 
 This feature is deprecated, meaning it is in maintenance mode and is no longer being augmented or changed. Only security fixes to this feature will be addressed.
 
@@ -30,11 +30,11 @@ A speedometer visualization shows the latest score with a needle on a speedomete
 
 The speedometer is particularly useful when a target is set on the indicator. If a direction is set on the indicator \(minimize or maximize\), the visualization reproduces the target and the 3- or 5-color traffic light set on the indicator. For example, the following speedometer shows the Average age open incidents indicator with a Minimize direction, a target of 10, and a 3-color traffic light.
 
-To create a target color scheme, see [Indicator targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-targets.md).
+To create a target color scheme, see [Indicator targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/pa-targets.md).
 
 \[Omitted image "speedometer-score-widget.png"\] Alt text: Speedometer of the average age of open incidents with a target of 10 and a three color traffic light. Ten to 11 is yellow and more than11 is red.
 
-The dial visualization does not show the indicator [target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md).
+The dial visualization does not show the indicator [target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md).
 
 \[Omitted image "dial-score-widget.png"\] Alt text: Dial visualization of the latest score of average age of open incidents
 
@@ -68,7 +68,7 @@ Breakdown and Element
 
 </td><td>
 
-Only the scores that match the specified element of this breakdown are shown. Select values for both **Breakdown** and **Element**. Otherwise, only scores that are not associated with any element of the breakdown are shown. **Note:** Instead of specifying an element for the first-level breakdown, you can specify an elements filter in the **Elements Settings** tab. Use elements filters for creating personal visualizations. For more information, see [Additional settings for time series widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/optional-settings-ts-widgets.md).
+Only the scores that match the specified element of this breakdown are shown. Select values for both **Breakdown** and **Element**. Otherwise, only scores that are not associated with any element of the breakdown are shown. **Note:** Instead of specifying an element for the first-level breakdown, you can specify an elements filter in the **Elements Settings** tab. Use elements filters for creating personal visualizations. For more information, see [Additional settings for time series widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/optional-settings-ts-widgets.md).
 
  **Important:** If the widget is for a formula indicator, all contributing indicators in the formula must support the breakdown. Otherwise an error message instead of a value appears in the widget on a dashboard.
 
@@ -90,7 +90,7 @@ Time series
 
 </td><td>
 
-Runs a function on the indicator scores for a specific time period, such as a 7-day sum or average. For more information, see [Applying time series aggregations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/applying-time-series-aggregations.md).**Note:** Business and fiscal calendars do not support time series aggregations. You cannot set a time series aggregation on a widget for an indicator that uses such a calendar.
+Runs a function on the indicator scores for a specific time period, such as a 7-day sum or average. For more information, see [Applying time series aggregations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/applying-time-series-aggregations.md).**Note:** Business and fiscal calendars do not support time series aggregations. You cannot set a time series aggregation on a widget for an indicator that uses such a calendar.
 
 </td></tr></tbody>
 </table>7.  To have the widget follow the breakdown elements that are selected on a breakdown dashboard, follow these steps:
@@ -107,13 +107,13 @@ Runs a function on the indicator scores for a specific time period, such as a 7-
 
     **Note:** If multiple elements are selected on the breakdown dashboard, only the aggregate value of the elements can be shown.
 
-    For more information, see [Configure widgets for breakdown dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/set-up-widgets-for-breakdown-dashboards.md).
+    For more information, see [Configure widgets for breakdown dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/set-up-widgets-for-breakdown-dashboards.md).
 
 8.  In the **Speedometer/Dial Settings** tab, either select Auto scale, which shows the range of actual scores on the speedometer, or specify another scale.
 
 9.  In the **Element Settings** tab, you can select an element filter instead of selecting a specific element in the **Element** field.
 
-    Use this approach to personalize which breakdowns are shown depending on the viewer. For more information about using element filters to personalize widgets, see [Personalized visuals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/personalized-visuals.md).
+    Use this approach to personalize which breakdowns are shown depending on the viewer. For more information about using element filters to personalize widgets, see [Personalized visuals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/personalized-visuals.md).
 
 10. Click **Submit**.
 
@@ -125,9 +125,9 @@ To view the widget, add it to a dashboard or a portal.
 **Related topics**  
 
 
-[Edit a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_EditADashboard.md)
+[Edit a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/t_EditADashboard.md)
 
-[Performance Analytics widgets on Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/service-portal-pa-widget.md)
+[Performance Analytics widgets on Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/service-portal-pa-widget.md)
 
-[Indicator targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-targets.md)
+[Indicator targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/pa-targets.md)
 

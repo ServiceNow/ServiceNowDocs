@@ -3,11 +3,11 @@ title: Prioritization display settings in Strategic Planning
 description: Configure the way data is shown on the Prioritization tab of the workspace so that your planning managers view the information that is relevant for them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/configuring-prioritization-and-roadmap-settings-strategic-planning.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -16,22 +16,22 @@ breadcrumb: [Configure, Portfolio Planning in Strategic Planning Workspace, Stra
 
 Configure the way data is shown on the Prioritization tab of the workspace so that your planning managers view the information that is relevant for them.
 
--   **[Configuring additional columns for Prioritization in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/customizing-the-default-backlog-view-in-alignment-planner-workspace.md)**  
+-   **[Configuring additional columns for Prioritization in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/customizing-the-default-backlog-view-in-alignment-planner-workspace.md)**  
 Customize the default column configuration for the Prioritization page of your portfolio plan so that your planning managers can select the appropriate data points they need.
--   **[Customize highlighted fields on Prioritization page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/customizing-highlighted-fields-prioritization-page-strategic-planning.md)**  
+-   **[Customize highlighted fields on Prioritization page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/customizing-highlighted-fields-prioritization-page-strategic-planning.md)**  
 Customize the fields to be highlighted on the Prioritization page of a portfolio plan according to your planning manager's needs.
--   **[Modify Script Includes for milestone icons in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/modify-script-includes-for-milestone-icons-spw.md)**  
+-   **[Modify Script Includes for milestone icons in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/modify-script-includes-for-milestone-icons-spw.md)**  
 Modify the Script Includes for milestone icons in the roadmap and portfolio plan to customize the icons displayed in the Roadmap tab in the workspace.
--   **[Update the display limit of Prioritization and Roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/update-the-display-limit-of-roadmap-item-milestones.md)**  
+-   **[Update the display limit of Prioritization and Roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/update-the-display-limit-of-roadmap-item-milestones.md)**  
 Create a system property to update the display limit of the items shown in Prioritization and Roadmap views in Strategic Planning Workspace.
--   **[Configure additional source tables for a free-form roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/configure-additional-source-tables-for-a-roadmap.md)**  
+-   **[Configure additional source tables for a free-form roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/configure-additional-source-tables-for-a-roadmap.md)**  
 Add new tables to roadmap preferences and configure their details so that these tables can be used as source tables while creating a free-form roadmap in Strategic Planning.
--   **[Customize planning item display preferences for roadmaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/configure-source-table-preferences-for-roadmap.md)**  
+-   **[Customize planning item display preferences for roadmaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/configure-source-table-preferences-for-roadmap.md)**  
 Update the default display configuration of planning item attributes in Prioritization, portfolio plan Roadmap, and Free-form roadmap pages so that data relevant to you is displayed in Strategic Planning Workspace.
--   **[Hierarchy tab display configuration in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/hierarchy-display-configuration-strategic-planning.md)**  
+-   **[Hierarchy tab display configuration in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/hierarchy-display-configuration-strategic-planning.md)**  
 Show or hide parent records of planning items shown in the Hierarchy tab for high-level and regular portfolio plans by configuring system properties.
--   **[Update execution URLs for planning item demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/update-execution-url-for-demand-spw.md)**  
+-   **[Update execution URLs for planning item demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/update-execution-url-for-demand-spw.md)**  
 Run this scheduled job after upgrading to update execution URLs on existing demand planning items so they redirect correctly to the Demands module.
 
-**Parent Topic:**[Configuring Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/setting-up-alignment-planner-workspace.md)
+**Parent Topic:**[Configuring Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/setting-up-alignment-planner-workspace.md)
 

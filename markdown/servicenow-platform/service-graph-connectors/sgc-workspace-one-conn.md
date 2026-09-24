@@ -3,11 +3,11 @@ title: Accessing the connection details of Service Graph Connector for VMware Wo
 description: You can access the connection details of the Service Graph Connector for VMware Workspace ONE UEM in a single view using the common connection framework \(CCF\) included within the Integration Commons for CMDB \(sn\_cmdb\_int\_util\) store app.Access the details of a VMware Workspace ONE UEM connection configured for the Service Graph Connector for VMware Workspace ONE UEM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-workspace-one-conn.html
-release: australia
+release: brazil
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [SGC-VMware Workspace ONE UEM, SGC-Workspace ONE UEM, SGC VMware Workspace ONE UEM, SGC Workspace ONE UEM, SGC for VMware Workspace ONE UEM, SGC for Workspace ONE UEM, VMware Workspace ONE UEM SGC, Workspace ONE UEM SGC, Service Graph Connector for VMware Workspace ONE UEM, Service Graph Connector for Workspace ONE UEM, VMware Workspace ONE UEM connection details, Workspace ONE UEM connection details, VMware Workspace ONE UEM connection, Workspace ONE UEM connection, common connection framework, CCF, SGC-VMware Workspace ONE UEM, SGC-Workspace ONE UEM, SGC VMware Workspace ONE UEM, SGC Workspace ONE UEM, SGC for VMware Workspace ONE UEM, SGC for Workspace ONE UEM, VMware Workspace ONE UEM SGC, Workspace ONE UEM SGC, Service Graph Connector for VMware Workspace ONE UEM, Service Graph Connector for Workspace ONE UEM, VMware Workspace ONE UEM connection details, Workspace ONE UEM connection details, VMware Workspace ONE UEM connection, Workspace ONE UEM connection, common connection framework, CCF]
 breadcrumb: [VMware Workspace ONE UEM, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
@@ -17,7 +17,7 @@ breadcrumb: [VMware Workspace ONE UEM, Service Graph Connectors, Integrating thi
 
 You can access the connection details of the Service Graph Connector for VMware Workspace ONE UEM in a single view using the common connection framework \(CCF\) included within the Integration Commons for CMDB \(sn\_cmdb\_int\_util\) store app.
 
-With the CCF feature, you can access all connections for a connector. Connection details include the alias, properties, data sources, and associated scheduled data imports. In addition, you can test a connection. Additional details may appear depending on the connector type. For more information, see [Accessing the connection details of Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-conn-fw.md).
+With the CCF feature, you can access all connections for a connector. Connection details include the alias, properties, data sources, and associated scheduled data imports. In addition, you can test a connection. Additional details may appear depending on the connector type. For more information, see [Accessing the connection details of Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-conn-fw.md).
 
 ## Access the details of a VMware Workspace ONE UEM connection
 

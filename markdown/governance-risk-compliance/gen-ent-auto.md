@@ -3,11 +3,11 @@ title: Generate entities automatically using a scheduled job
 description: Generate entities automatically via scheduled job once pillars, entity types, and entity filters are active. Entities are individual records matching your filter criteria. For actual entity creation, you should run the GRC Profile Generation scheduled job in the GRC: Profiles application rather than using entity filters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/gen-ent-auto.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up pillars, entity types, entity filters, and entities, Configure, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Setting up pillars, entity types, and entities, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Generate entities automatically using a scheduled job
@@ -40,6 +40,6 @@ Entities can be generated using two methods. This section describes the automati
 
 6.  Open an entity type and check the entities related list.
 
-    **Note:** Generate entities automatically using the scheduled job. Use manual addition from the Operational Resilience Workspace for exceptions or one-off additions that don't fit the filter criteria. For adding entities from the Operational Resilience Workspace using the **Add to OpRes** UI action, see [Add entities manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/gen-ent-manually.md).
+    **Note:** Generate entities automatically using the scheduled job. Use manual addition from the Operational Resilience Workspace for exceptions or one-off additions that don't fit the filter criteria. For adding entities from the Operational Resilience Workspace using the **Add to OpRes** UI action, see [Add entities manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/gen-ent-manually.md).
 
 

@@ -3,9 +3,9 @@ title: Manage subscriptions in an on-premise installation
 description: Download licensing and usage definition data to view and manage subscriptions for your on-premise installation.After a request for on-premise entitlement data is processed, you can find and download the data through Now Support.Import entitlement data for your on-premise instance to manage subscriptions for the instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/manage-subscriptions-on-prem.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Subscription Management, Get started, Administer the ServiceNow AI Platform]
 ---

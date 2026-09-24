@@ -3,11 +3,11 @@ title: Copy a project
 description: Another option for creating a project is to copy an existing project with all its tasks and relationships. After you specify the start date for the copy, the system adjusts all task start and end dates automatically.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_CopyAProject.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -35,12 +35,12 @@ Role required: it\_project\_manager
 
 Actual duration and the actual start and end dates are reset to null values. The state is set to **New** and percent complete is set to **0**.
 
-By default only the short description, planned dates and duration fields are copied from source project to the target project. If additional columns must be copied, they should be declared in the [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/r_InstalledWithProjectManagement.md) **List of attributes that will be copied from the originating project task**.
+By default only the short description, planned dates and duration fields are copied from source project to the target project. If additional columns must be copied, they should be declared in the [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/r_InstalledWithProjectManagement.md) **List of attributes that will be copied from the originating project task**.
 
--   **[Change default values of copied project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_ModifyTheCopyProjectUIPage.md)**  
+-   **[Change default values of copied project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_ModifyTheCopyProjectUIPage.md)**  
 Reset or change the default values for copied fields in the new copied partial or complete project.
 
-**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
+**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CreateAProject.md)
 
 **Related topics**  
 
@@ -62,6 +62,10 @@ Reset or change the default values for copied fields in the new copied partial o
 [Create an expense line]()
 
 [Create and manage waterfall projects]()
+
+[Schedule a project from a start date]()
+
+[Apply or change a task constraint]()
 
 [Update a project]()
 
@@ -89,5 +93,5 @@ Reset or change the default values for copied fields in the new copied partial o
 
 [Migrate financial baselines of projects to Next Experience]()
 
-[Change default values of copied project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_ModifyTheCopyProjectUIPage.md)
+[Change default values of copied project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_ModifyTheCopyProjectUIPage.md)
 

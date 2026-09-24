@@ -3,9 +3,9 @@ title: Add CIs to existing cases
 description: You can add configuration items to one or more existing cases. After the CIs have been added to cases, you can use Security Case Management to analyze the data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/add-cis-to-cases-sir.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuration items in cases, Case creation from security artifacts, Security Case Management, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -49,7 +49,7 @@ You need to navigate to the CIs you want to add to the existing cases.
     A message indicates that the selected records have been added to the cases, along with a link to the cases in Security Case Management.
 
 
-**Parent Topic:**[Configuration items in cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/cases-from-cis.md)
+**Parent Topic:**[Configuration items in cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/cases-from-cis.md)
 
 **Related topics**  
 

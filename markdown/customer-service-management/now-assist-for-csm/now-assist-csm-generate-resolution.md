@@ -1,27 +1,21 @@
 ---
 title: Generate the resolution notes for a case by using ServiceNow Otto for Customer Service Management \(CSM\)
-description: Generate resolution notes for a case by using the resolution notes generation skill in the ServiceNow Otto for Customer Service Management \(CSM\) application. You can propose the resolution to the customer and add it to the case record. By generating resolution notes, you can wrap up cases faster and provide information to other agents who might encounter similar issues.Use the ServiceNow Otto context menu in the resolution notes field of the case form in both Core UI \(UI16\) and Workspace to create resolution note.
+description: Use the resolution notes generation skill in ServiceNow Otto for Customer Service Management \(CSM\) to generate resolution notes for a case. You can propose the resolution to the customer and add it to the case record. By generating the resolution notes, you can wrap up cases faster and provide information about the case resolution to other agents who might encounter similar issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/now-assist-csm-generate-resolution.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
+breadcrumb: [Generate resolution notes in case form, Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Generate the resolution notes for a case by using ServiceNow Otto for Customer Service Management \(CSM\)
 
-Generate resolution notes for a case by using the resolution notes generation skill in the ServiceNow Otto for Customer Service Management \(CSM\) application. You can propose the resolution to the customer and add it to the case record. By generating resolution notes, you can wrap up cases faster and provide information to other agents who might encounter similar issues.
-
-## About this task
-
-Watch this video to learn how to generate the resolution notes for a case.
-
-\[Omitted video\] Description: Generate resolution notes for a case
+Use the resolution notes generation skill in ServiceNow Otto for Customer Service Management \(CSM\) to generate resolution notes for a case. You can propose the resolution to the customer and add it to the case record. By generating the resolution notes, you can wrap up cases faster and provide information about the case resolution to other agents who might encounter similar issues.
 
 ## Before you begin
 
@@ -52,6 +46,8 @@ You can also generate resolution information on demand from the ServiceNow Otto 
     -   **Resolution notes**
     If the **Resolution notes** field on the case record is empty, the resolution notes generation skill adds the information to this field in the modal.
 
+    \[Omitted image "now-assist-csm-propose-solution-modal.png"\] Alt text: AI-generated resolution information for a case record.
+
 3.  Select a **Resolution code** for the case.
 
     A resolution code describes how the case was resolved. For example, common resolution codes include:
@@ -77,45 +73,5 @@ You can also generate resolution information on demand from the ServiceNow Otto 
     -   The case moves to the Resolved state.
     -   The resolution is proposed to the customer.
 
-**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
-
-## Generate resolution notes in case form
-
-Use the ServiceNow Otto context menu in the resolution notes field of the case form in both Core UI \(UI16\) and Workspace to create resolution note.
-
-### Before you begin
-
-Role required: admin
-
-### About this task
-
-You can generate resolution notes for a case in both the CSM Configurable Workspace and Core UI. Use the ServiceNow Otto context menu within the resolution notes field in the case form.
-
-An agent can do these actions by using the AI icon \[Omitted image "icon-ai-sparkle.png"\]:
-
--   Generate resolution notes based on the case context.
--   Refine the recommendation by elaborating or shortening the content.
-
-**Note:** The case must be in the open state.
-
-### Procedure
-
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** and open a customer service case that is in an open state.
-
-2.  Navigate to the Resolution notes field in the case form.
-
-3.  Select the AI icon \[Omitted image "icon-ai-sparkle.png"\].
-
-    AI icon \[Omitted image "icon-ai-sparkle.png"\] generates a recommended text that is based on the context of the case.
-
-    \[Omitted image "now-assist-csm-resolutionnotes-caseform-generate.png"\] Alt text: Resolution notes is generated
-
-4.  Select **Insert** to add the generated content into the resolution notes field.
-
-5.  Review the generated content and select **Refine** to modify the content.
-
-    You get the option to either elaborate or shorten the content as needed.
-
-    \[Omitted image "now-assist-csm-resolutionnotes-caseform-refine.png"\] Alt text: Shorten or elaborate the resolution note
-
+**Parent Topic:**[Generate resolution notes in case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/gen-resolution-notes-in-case-form.md)
 

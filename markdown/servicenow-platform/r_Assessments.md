@@ -3,9 +3,9 @@ title: Assessments
 description: Use assessments to evaluate, score, and rank records from any table in the system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_Assessments.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---

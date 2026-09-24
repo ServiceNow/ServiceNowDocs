@@ -3,11 +3,11 @@ title: View an Operational Technology Unified Map
 description: View an Operational Technology \(OT\) Unified Map in the Industrial Workspace that displays the relationships between devices and other CIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/view-ot-unified-map.html
-release: australia
+release: brazil
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Industrial Workspace, Operational Technology]
 ---
@@ -64,5 +64,5 @@ You can now view the OT Unified Map. On the Unified Map, you can also see the hi
 -   Active OT Alerts
 -   OT Vulnerable Items
 
-**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/using-industrial-workspace.md)
+**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/using-industrial-workspace.md)
 

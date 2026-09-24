@@ -3,11 +3,11 @@ title: Customize content in the left side panel for a playbook page
 description: Components that can be added to the left side panel include Customer360, Timeline, Active SLA, or a custom ribbon component. You can update the ribbon component attributes based on the fields you want to display in the left side panel on the playbook page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customize-content-left-side-panel.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure templates and pages, Workspace, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Playbook pages, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Customize content in the left side panel for a playbook page
@@ -28,7 +28,7 @@ Any changes made to the configuration will affect other record pages and page va
 
 2.  Select a ribbon setting for your table.
 
-    If a ribbon setting doesn’t exist for your table, you can create one. For more information, see [Set up a ribbon configuration in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-config-ws-ribbon.md).
+    If a ribbon setting doesn’t exist for your table, you can create one. For more information, see [Set up a ribbon configuration in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/config-csm-config-ws-ribbon.md).
 
 3.  Select values for the **Ribbon component** and the **Ribbon Component Attributes**.
 

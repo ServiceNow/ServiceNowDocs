@@ -3,11 +3,11 @@ title: SRM incident states
 description: Incidents can be in a few different states depending on how they are acted on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-incident-states.html
-release: australia
+release: brazil
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Reliability Management reference, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
@@ -75,5 +75,5 @@ Canceled
 Incident was triaged but found to be a duplicate incident, an unnecessary incident, or not an incident at all.To reopen an incident. Select **New**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Reliability Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/service-reliability-management-reference.md)
+</table>**Parent Topic:**[Service Reliability Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-reliability-management/service-reliability-management-reference.md)
 

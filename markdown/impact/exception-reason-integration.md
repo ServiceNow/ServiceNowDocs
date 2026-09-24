@@ -3,11 +3,11 @@ title: Exception reason integration
 description: You can synchronize exception reasons from non-production to Production instances once a record is created or updated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/exception-reason-integration.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Scan Engine integrations, Configuring Impact, Impact]
+breadcrumb: [Configure Scan Engine integrations, Activate Scan Engine and review settings, Impact Guided Setup, Configuring Impact, Impact]
 ---
 
 # Exception reason integration
@@ -27,12 +27,12 @@ When **Enable approvals in production** is selected in Scan Engine Properties, t
 
 ## Prerequisites
 
--   My SN Instances registration is complete. See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/register-your-instance.md).
--   Authentication is configured. See [Configure the Basic authentication method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-basic-auth-method.md) or [Configure the OAuth authentication method development instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-oauth-auth-method.md).
+-   My SN Instances registration is complete. See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/register-your-instance.md).
+-   Authentication is configured. See [Configure the Basic authentication method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-basic-auth-method.md) or [Configure the OAuth authentication method development instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-oauth-auth-method.md).
 -   Role required: `sn_se.scan_engine_admin`.
 
--   **[Sync exception reasons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/syncing-exception-reasons.md)**  
+-   **[Sync exception reasons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/syncing-exception-reasons.md)**  
 Configure the Exception reason integration to automatically synchronize exception reasons between your non-production and production instances.
 
-**Parent Topic:**[Configure Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-integration-scan-engine.md)
+**Parent Topic:**[Configure Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/instance-integration-scan-engine.md)
 

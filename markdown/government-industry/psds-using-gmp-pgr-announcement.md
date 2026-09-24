@@ -3,7 +3,7 @@ title: Set up the grants program announcement details
 description: Build the program announcement. Define the required forms, terms and conditions, required budget categories, and external-facing point of contact. Provides you with an opportunity to review the grant details.Add members of your internal program team to a points of contact list to allow them to be contacted by grant seekers. This list is displayed on the grants program announcement page.Add links, knowledge articles, or documents that provide supplemental information about this program, its sponsoring agency, impact, or any other details that may help grant seekers better understand this opportunity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-gmp-pgr-announcement.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-11"
 reading_time_minutes: 3
@@ -32,7 +32,7 @@ A new record is created in the sn\_plng\_att\_core\_resource\_assignment table w
 
 To ensure a user can be added as a point of contact, make sure the user has the **pps\_resource** role and an employee profile \(sn\_employee\_profile\) record. For information on how to create an employee profile, see.
 
-**Note:** Points of contact can only be added from the internal team list record. To add members to the internal team list record, see [Add members to a Grant Program internal program team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gmp-using-add-members-internal-program-team.md).
+**Note:** Points of contact can only be added from the internal team list record. To add members to the internal team list record, see [Add members to a Grant Program internal program team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-gmp-using-add-members-internal-program-team.md).
 
 ### Before you begin
 
@@ -53,7 +53,7 @@ Role required: admin, sn\_svc\_appl\_pgm\_mg.grant\_program\_manager
 
 ### What to do next
 
-[Configure program resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-gmp-pgr-announcement.md).
+[Configure program resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-using-gmp-pgr-announcement.md).
 
 ## Configure program resources
 

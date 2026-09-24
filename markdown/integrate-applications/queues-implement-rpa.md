@@ -3,9 +3,9 @@ title: Queue implementation in RPA Hub
 description: In RPA Hub, the queues are implemented to distribute the workload among various robots. Work Items \(WI\) within a queue are processed simultaneously by two or more robots.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/queues-implement-rpa.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -41,29 +41,29 @@ The State transition of a work item guides you through the stages of its life cy
 
 6.  After the robot completes the processing, it updates the work item to complete using the **UpdateWorkItem** component and picks the next work item that is Step 2.
 
--   **[Create a queue in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-queue.md)**  
+-   **[Create a queue in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-queue.md)**  
 Create a queue in RPA Hub to manage the work items that you want the robot to process.
--   **[Assign a bot process to a queue from Queues menu in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/assign-botprocess-queue.md)**  
+-   **[Assign a bot process to a queue from Queues menu in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/assign-botprocess-queue.md)**  
 Assign a bot process to a queue in RPA Hub so that it can interact with this queue. You can assign more than one bot process to a queue. Any robot that is associated with the assigned bot process can insert the work item, pick the work item, and update the work item.
--   **[Unassign a bot process from a queue in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/unassign-botprocess-queue.md)**  
+-   **[Unassign a bot process from a queue in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/unassign-botprocess-queue.md)**  
 Unassign a bot process from a queue in RPA Hub to stop an interaction with this queue.
 
-**Parent Topic:**[Using RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-rpa-hub.md)
+**Parent Topic:**[Using RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/managing-rpa-hub.md)
 
 **Related topics**  
 
 
-[Create a queue in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-queue.md)
+[Create a queue in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-queue.md)
 
-[Assign a bot process to a queue from Queues menu in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/assign-botprocess-queue.md)
+[Assign a bot process to a queue from Queues menu in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/assign-botprocess-queue.md)
 
-[Manage your work items in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-work-queue-items.md)
+[Manage your work items in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/manage-work-queue-items.md)
 
-[Using auto-retry functionality for your failed work items in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/auto-retry-wqi-rpa.md)
+[Using auto-retry functionality for your failed work items in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/auto-retry-wqi-rpa.md)
 
-[Queue form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queue-form.md)
+[Queue form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/queue-form.md)
 
-[Work item form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-work-queue-items.md)
+[Work item form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/manage-work-queue-items.md)
 
-[Queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queue-connector.md)
+[Queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/queue-connector.md)
 

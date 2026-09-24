@@ -3,11 +3,11 @@ title: Create Connection &amp; Credential form
 description: Learn about the fields of the Create Connection &amp; Credential form, which is used while setting up SPW Jira Integrations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/create-connection-credential-form.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, SPW Jira Integrations, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -56,13 +56,13 @@ API key
 </td><td>
 
 -   For Jira Cloud, enter the API token that you generated. For more information, see .
--   For Jira Server/Data Center, enter the PAT that you generated. For more information, see [Create Personal Access Token in Jira for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-personal-access-token-pat-in-jira-server-data-center.md).
+-   For Jira Server/Data Center, enter the PAT that you generated. For more information, see [Create Personal Access Token in Jira for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/create-personal-access-token-pat-in-jira-server-data-center.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[SPW Jira Integrations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/spw-jira-integrations-reference.md)
+</table>**Parent Topic:**[SPW Jira Integrations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/spw-jira-integrations-reference.md)
 
 **Related topics**  
 
 
-[Create connection and credentials for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-connection-and-credentials.md)
+[Create connection and credentials for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/create-connection-and-credentials.md)
 

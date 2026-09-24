@@ -3,13 +3,13 @@ title: View details about an alert in Express List
 description: View information about the impact and cause of an alert on the alert's Overview tab in the Express List.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/use-alert-overview-tab.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Respond to alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Responding to and working with alerts in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # View details about an alert in Express List
@@ -56,7 +56,7 @@ Impact
 
 Lists the Configuration item and any services impacted by the alert.The **Impacted Services** tile includes the following subtabs:
 
--   **Application services:** The application services affected by the alert. For details on application services, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/application-services.md).
+-   **Application services:** The application services affected by the alert. For details on application services, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/application-services.md).
 -   **Related service offerings:** The service offerings connected to the application services affected by the alert.
 Application services and their related service offerings display on a many-to-many basis. That is, several service offerings can relate to one or more application services, and several application services can relate to one or more service offerings.
 

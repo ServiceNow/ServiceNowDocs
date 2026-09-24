@@ -3,11 +3,11 @@ title: Set Entity based record access rules
 description: Use entity-based record access rules to secure records and enable continuous monitoring. These rules automatically apply restrictions to new or modified records, ensuring access settings stay enforced without manual updates. When entities or processing activities change, the system updates access controls automatically.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/eba-access-rules-config-privacy.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring access control, Access control by legal entity, Use, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -43,5 +43,5 @@ This task explains how to activate entity-based record access rules for continuo
 
 EBA rules are automatically applied to records whenever changes occur in the entity structure.
 
-**Parent Topic:**[Configuring access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/configure-access-control-by-legal-entity.md)
+**Parent Topic:**[Configuring access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/configure-access-control-by-legal-entity.md)
 

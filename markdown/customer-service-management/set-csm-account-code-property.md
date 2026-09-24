@@ -3,9 +3,9 @@ title: Set the account code property
 description: After importing customer account information, update the com.snc.cs\_base.last.generated.code.tree.path property with the correct account code value.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/set-csm-account-code-property.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Import accounts and contacts with guided setup, Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---

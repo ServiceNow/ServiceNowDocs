@@ -3,11 +3,11 @@ title: Create a variable set for Cloud Provisioning and Governance
 description: Reduce the number of steps required to create and manage multiple catalog items and order guides by creating variable sets. With variable sets, you don't have to create variables individually for each catalog item.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/configure-ui-group.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a cloud catalog item, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_cmp.cloud\_service\_designer
 
 Create a collection of structured variables that can be reused across multiple catalog items and order guides using variable sets.
 
-Add a new variable set when you need specific request form variables for running actions such as post-provisioning. Variable sets also collect additional information such as custom tags.
+Add a new variable set when you need specific request form variables for running actions such as post-provisioning. Variable sets are also useful for collecting additional information such as custom tags.
 
 You can modify the variable set and the changes are reflected across all the catalog items that are associated with the variable set. Variable sets also allow you to define catalog client scripts and UI policies that are applicable to the variables in the set.
 

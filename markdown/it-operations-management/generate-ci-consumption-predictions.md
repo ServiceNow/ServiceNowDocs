@@ -3,9 +3,9 @@ title: Predict CI consumption for 2026 Packaging SKU
 description: Forecast your licensing needs by comparing your current ITOM subscription unit usage against the predicted usage under 2026 Packaging SKUs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/generate-ci-consumption-predictions.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [CI consumption, prediction, 2026 Packaging, 2026 Packaging SKU migration]
 breadcrumb: [Use, ITOM/OT SU Licensing and subscriptions, IT Operations Management]

@@ -3,11 +3,11 @@ title: Screen, anchor, and step properties in AI Desktop Actions
 description: Learn about the properties of screens, anchors, and steps. There are multiple types of steps and each step type has distinct properties. You can update the properties to modify the behavior of the steps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/screen-anchor-and-action-properties-ad.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-05-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Design defined desktop actions, AI Desktop Actions, Enable AI experiences]
+breadcrumb: [Design defined desktop actions, AI Desktop Actions, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Screen, anchor, and step properties in AI Desktop Actions

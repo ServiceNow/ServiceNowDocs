@@ -3,11 +3,11 @@ title: Roles installed with GRC: Approver Configurator
 description: Various roles are installed with the activation of the GRC: Approver Configurator application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/roles-installed-with-approver-configurator.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Approver Configurator for setting up approvals for setting up approvals, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -68,5 +68,5 @@ Approver Configurator developer\[sn\_grc\_appr.developer\]
 sn\_grc\_appr.admin
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using Approver Configurator for setting up approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/approval-configuration.md)
+</table>**Parent Topic:**[Using Approver Configurator for setting up approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/approval-configuration.md)
 

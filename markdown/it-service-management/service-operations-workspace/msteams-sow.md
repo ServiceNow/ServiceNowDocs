@@ -3,11 +3,11 @@ title: ServiceNow integrations with Microsoft Teams in Service Operations Worksp
 description: You can create a connected experience for users in Service Operations Workspace through ServiceNow integrations with Microsoft Teams.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/msteams-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -30,16 +30,16 @@ From the **Collaborate** panel of the task record, you can perform any of the fo
 -   Initiate a chat conversation from the record.
 -   Import messages from an existing chat conversation to the record.
 
-An agent can view the user presence before contacting the user. For information about the refresh duration for user presence in Service Operations Workspace, see [Specify the refresh duration for user presence in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/specify-refresh-duration-user-presence.md).
+An agent can view the user presence before contacting the user. For information about the refresh duration for user presence in Service Operations Workspace, see [Specify the refresh duration for user presence in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/specify-refresh-duration-user-presence.md).
 
 \[Omitted image "collaborate-panel.png"\] Alt text: Collaborate panel from the sidebar
 
-For more information about Service Operations Workspace through ServiceNow integrations with Microsoft Teams, see [ServiceNow for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/c_ServiceNowForMSTeams.md).
+For more information about Service Operations Workspace through ServiceNow integrations with Microsoft Teams, see [ServiceNow for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/c_ServiceNowForMSTeams.md).
 
--   **[Collaborate on a task record using Microsoft Teams in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/start-msteams-chat-sow.md)**  
+-   **[Collaborate on a task record using Microsoft Teams in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/start-msteams-chat-sow.md)**  
 Start or import a Microsoft Teams chat from a task record in Service Operations Workspace.
 
-**Parent Topic:**[Managing IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/managing-services-operations-in-organization.md)
+**Parent Topic:**[Managing IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/managing-services-operations-in-organization.md)
 
 **Related topics**  
 

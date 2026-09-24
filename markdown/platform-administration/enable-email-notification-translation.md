@@ -3,9 +3,9 @@ title: Enable dynamic translation
 description: Enable dynamic translation of notifications for the instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/enable-email-notification-translation.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dynamic translation, Multilingual email notifications, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -44,7 +44,7 @@ You must activate the Glide Notification Translation \(com.glide.notification.tr
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Dynamic translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation.md)
+**Parent Topic:**[Dynamic translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-translation.md)
 
 **Related topics**  
 

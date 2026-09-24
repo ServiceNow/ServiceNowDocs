@@ -3,7 +3,7 @@ title: Document Screening Al Skill for Public Sector Digital Services
 description: Document Screening Al Skill is an Al-powered capability built on ServiceNow Otto for Document Intelligence and available through ServiceNow Otto for PSDS.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-ai-skill-doc-screening.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -32,7 +32,7 @@ The Document Screening Skill uses Al-driven document intelligence. Key capabilit
 -   Ul Integration: Validation results are displayed directly next to each uploaded document, allowing human agents to confirm or dispute the classification.
 -   Al-Assisted Message Composition: Agents can quickly generate messages requesting corrected documents, which are reprocessed automatically on re-upload.
 
-For more information on Document Intelligence, see [Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence-landing.md).
+For more information on Document Intelligence, see .
 
 The Document Screening Skill delivers measurable value across agencies:
 
@@ -58,5 +58,5 @@ There are 6 stages of Document Verifications
 -   Pre-Flagged : Flagged by AI
 -   Screening failed by AI : System unable to process documents
 
-For more information on how to activate and customize \(what\) of the Document screening skill, see [Activate the Document screening Al skill in ServiceNow Otto for PSDS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-ai-skills-doc-screening-activate.md).
+For more information on how to activate and customize \(what\) of the Document screening skill, see [Activate the Document screening Al skill in ServiceNow Otto for PSDS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-ai-skills-doc-screening-activate.md).
 

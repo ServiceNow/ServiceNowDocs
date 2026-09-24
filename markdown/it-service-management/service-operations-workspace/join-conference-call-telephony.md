@@ -3,11 +3,11 @@ title: Join or leave a conference call from Twilio in Service Operations Workspa
 description: Join an existing Twilio conference call to participate in a discussion to resolve an incident. You can leave the call without affecting other participants.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/join-conference-call-telephony.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Twilio to make conference calls in Service Operations Workspace, Notify in Service Operations Workspace, Collaboration in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -41,5 +41,5 @@ Role required: itil
     -   To join the call, select **Join call**.
     -   To leave the call, select **Leave call**.
 
-**Parent Topic:**[Use Twilio to make conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/telephony-sow.md)
+**Parent Topic:**[Use Twilio to make conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/telephony-sow.md)
 

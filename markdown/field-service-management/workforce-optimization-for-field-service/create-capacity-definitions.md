@@ -3,11 +3,11 @@ title: Create a capacity definition
 description: Allocate work to different types of tasks based on the reserved capacity percentage and defined source of capacity for a territory.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/create-capacity-definitions.html
-release: australia
+release: brazil
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Capacity and Reservations Management, Set up workforce, Configure, Field Service Management]
 ---
@@ -137,7 +137,7 @@ Reservation name
 
 </td><td>
 
-Name of the capacity reservation rule that applies to the capacity definition. The available capacity is reserved for various work order tasks as per the reservation rule.This field appears only when the Set capacity by buckets option is cleared. For more information, see [Capacity reservation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/capacity-reservations.md).
+Name of the capacity reservation rule that applies to the capacity definition. The available capacity is reserved for various work order tasks as per the reservation rule.This field appears only when the Set capacity by buckets option is cleared. For more information, see [Capacity reservation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/capacity-reservations.md).
 
 </td></tr></tbody>
 </table>5.  Click **Submit**.

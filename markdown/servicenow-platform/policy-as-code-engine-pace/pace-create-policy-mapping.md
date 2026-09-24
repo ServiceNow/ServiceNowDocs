@@ -3,11 +3,11 @@ title: Define mappings for a PaCE policy
 description: You can map a policy to any number of objects. When you map a policy, validate the inputs, and execute the policy, a compliant, non-compliant, or compliant-exception decision is returned.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-create-policy-mapping.html
-release: australia
+release: brazil
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Map PaCE policies, Manage PaCE policies, Administer PaCE policies, Policy as Code Engine \(PaCE\), Extend ServiceNow AI Platform capabilities]
 ---
@@ -42,6 +42,6 @@ Role required: sn\_pace.mapping\_admin
 
 5.  Select the check box to the left of each object that you want to map the policy to, and click **Map Policy**.
 
-    The new mapping input is added to the list of policy mappings. In addition, an alert message indicates whether the mapping is valid and active. For information about editing existing mapping inputs, see [Edit mapping inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-edit-mapping-inputs.md).
+    The new mapping input is added to the list of policy mappings. In addition, an alert message indicates whether the mapping is valid and active. For information about editing existing mapping inputs, see [Edit mapping inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/policy-as-code-engine-pace/pace-edit-mapping-inputs.md).
 
 

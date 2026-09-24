@@ -3,11 +3,11 @@ title: Edit a parameter in the base system
 description: Update the weight of a parameter and enable or disable it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/edit-a-parameter-in-base-system.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-02-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Automated quality assurance, Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
@@ -32,7 +32,7 @@ Use the parameter editor to modify the weight of a selected parameter. You can a
 
 2.  Edit the Weight field.
 
-    Enter a new numeric weight value to adjust the parameter’s impact.
+    Enter a new numeric weight value to adjust the parameter's impact.
 
 3.  To enable or disable the parameter, select or clear the **Active** check box.
 
@@ -40,7 +40,7 @@ Use the parameter editor to modify the weight of a selected parameter. You can a
 
 4.  Review the remaining fields.
 
-    All other fields are read-only and can’t be modified.
+    All other fields are read-only and can't be modified.
 
 5.  Select **Save**.
 

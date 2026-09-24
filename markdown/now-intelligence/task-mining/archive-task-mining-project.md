@@ -3,11 +3,11 @@ title: Archive or reopen a Task Mining project
 description: Prepare to delete an unused project according to your data retention policy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/archive-task-mining-project.html
-release: australia
+release: brazil
 product: Task Mining
 classification: task-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Defining the scope of projects, Use, Task Mining, Platform Analytics]
 ---
@@ -34,7 +34,7 @@ Role required: admin
 
     \[Omitted image "tm-archive-confirm.png"\] Alt text: Screenshot showing the Archive confirmation panel.
 
-    Your project is scheduled to close after the end of your Project retention period. For more information, see [Modify the Task Mining data retention period](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/define-data-retention.md).
+    Your project is scheduled to close after the end of your Project retention period. For more information, see [Modify the Task Mining data retention period](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/define-data-retention.md).
 
 5.  Navigate to the project you archived that you want to reopen.
 
@@ -50,5 +50,5 @@ Role required: admin
 **Related topics**  
 
 
-[Modify the Task Mining data retention period](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/define-data-retention.md)
+[Modify the Task Mining data retention period](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/define-data-retention.md)
 

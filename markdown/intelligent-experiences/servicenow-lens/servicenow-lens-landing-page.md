@@ -3,14 +3,14 @@ title: ServiceNow AI Lens
 description: With ServiceNow AI Lens, which is a ServiceNow AI application, you can use generative AI to scan, extract, comprehend, and synthesize data to optimize your workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/servicenow-lens/servicenow-lens-landing-page.html
-release: australia
+release: brazil
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ServiceNow Lens, ServiceNow Lens overview, Get started with ServiceNow Lens, ServiceNow Lens AI guidelines, Now Assist, AI Lens]
-breadcrumb: [Enable AI experiences]
+breadcrumb: [Generative AI skills, Enable AI Experiences]
 ---
 
 # ServiceNow AI Lens
@@ -21,19 +21,19 @@ With ServiceNow AI Lens, which is a ServiceNow® AI application, you can use gen
 
 <table id="table_rc5_b15_42c" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about ServiceNow AI Lens concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-explore.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about ServiceNow AI Lens concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-explore.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow AI Lens application to get started.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/install-sn-lens.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow AI Lens application to get started.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/install-sn-lens.md)
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Capture screens to analyze, comprehend, and use data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-use.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Capture screens to analyze, comprehend, and use data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-use.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about ServiceNow AI Lens components, such as roles, tables, and limitations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about ServiceNow AI Lens components, such as roles, tables, and limitations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-reference.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -59,7 +59,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about scripts \(and associated script records\) in which ServiceNow Otto for code generation is called. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about scripts \(and associated script records\) in which ServiceNow Otto for code generation is called. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md).
 

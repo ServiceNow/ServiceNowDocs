@@ -3,11 +3,11 @@ title: Add a substitute model for an enterprise model
 description: On an enterprise model record, specify the related models that you can substitute the enterprise model with.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/add-enterprise-model-substitute.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create and manage enterprise models, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
@@ -43,5 +43,5 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterptrise\_asset\_manager
     4.  On the **Substitutes** tab, select the Refresh list icon \[Omitted image "refresh-list-icon.png"\] Alt text: to populate the list of newly added substitute models.
 
 
-**Parent Topic:**[Create and manage enterprise models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-models.md)
+**Parent Topic:**[Create and manage enterprise models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-models.md)
 

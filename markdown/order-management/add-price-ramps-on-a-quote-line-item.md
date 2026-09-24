@@ -3,9 +3,9 @@ title: Add price ramps on a quote line item
 description: Add price ramps to quote line items to define incremental price changes for recurring product offerings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/add-price-ramps-on-a-quote-line-item.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -36,7 +36,7 @@ Use price ramps to specify how the price of a configurable product offering in a
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon.
 
@@ -80,5 +80,5 @@ Use price ramps to specify how the price of a configurable product offering in a
     **Note:** Only segments created by splitting can be removed. Original ramp segments cannot be removed.
 
 
-**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-mgmt-using.md)
 

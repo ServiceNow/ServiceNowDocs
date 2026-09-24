@@ -3,9 +3,9 @@ title: SPM Enterprise-Wide Deployment
 description: SPM Enterprise-Wide Deployment \(EWD\) provides data partitioning capabilities for Strategic Portfolio Management \(SPM\) tables that enable organizations to separate and control record visibility across functions such as departments and business units.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/ewd-landing-page.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Strategic Portfolio Management]
 ---
@@ -20,27 +20,27 @@ For additional security, you can install the Extended Security for Enterprise-Wi
 
 <table id="table_kzf_qkz_qzb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn the key features and business value of Enterprise-Wide Deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/explore-ewd.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn the key features and business value of Enterprise-Wide Deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/explore-ewd.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure partition to separate and control record visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/configure-ewd.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure partition to separate and control record visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/configure-ewd.md)
 
 </td><td>
 
-[Assign partition role \[Omitted image "bus-sdlc.svg"\] Alt text: Grant users access to partitioned records with PMO role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/assign-pmo-roles-for-visibility-across-all-partitions.md)
+[Assign partition role \[Omitted image "bus-sdlc.svg"\] Alt text: Grant users access to partitioned records with PMO role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/assign-pmo-roles-for-visibility-across-all-partitions.md)
 
 </td></tr><tr><td>
 
-[Enable additional security \[Omitted image "bus-sdlc.svg"\] Alt text: Enable additional security for partitioned tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enable-additional-security-extended-security-ewd.md)
+[Enable additional security \[Omitted image "bus-sdlc.svg"\] Alt text: Enable additional security for partitioned tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enable-additional-security-extended-security-ewd.md)
 
 </td><td>
 
-[Supported tables \[Omitted image "bus-learn.svg"\] Alt text: See the list of tables and related entities that are supported for partition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/supported-tables-for-partition-ewd.md)
+[Supported tables \[Omitted image "bus-learn.svg"\] Alt text: See the list of tables and related entities that are supported for partition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/supported-tables-for-partition-ewd.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components, form fields, and general guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ewd-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components, form fields, and general guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ewd-reference.md)
 
 </td></tr></tbody>
 </table>## Helpful resources

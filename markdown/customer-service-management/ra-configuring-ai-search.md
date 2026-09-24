@@ -3,9 +3,9 @@ title: Configuring AI search in Recommended Actions
 description: As an admin, configure AI search in Recommended Actions to enable agents to perform an AI search to find relevant resources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-configuring-ai-search.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -34,7 +34,7 @@ Deselect the **Hide Search** button in UI Builder to display the AI search tab i
 
 </td></tr><tr><td>
 
-[Create a context and select a search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-contexts-create.md)
+[Create a context and select a search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-csm-contexts-create.md)
 
 </td><td>
 
@@ -43,7 +43,7 @@ Deselect the **Hide Search** button in UI Builder to display the AI search tab i
 
 </td></tr><tr><td>
 
-[Map AI search results with guidance inputs in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-create-search-result-mapping-for-ai-search.md)
+[Map AI search results with guidance inputs in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-create-search-result-mapping-for-ai-search.md)
 
 </td><td>
 
@@ -51,7 +51,7 @@ Map AI search results with guidance inputs to enable the AI search results to be
 
 </td></tr><tr><td>
 
-[Automatically map AI search results with guidance inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-configuring-ai-search-automatically.md)
+[Automatically map AI search results with guidance inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-configuring-ai-search-automatically.md)
 
 </td><td>
 
@@ -59,7 +59,7 @@ Automatically create AI search results for a search configuration application in
 
 </td></tr><tr><td>
 
-[Configure dynamic filters in AI Search for Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-configure-contextual-filtering.md)
+[Configure dynamic filters in AI Search for Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-configure-contextual-filtering.md)
 
 </td><td>
 
@@ -68,7 +68,7 @@ Configure AI Search to preprocess contextual inputs from Recommended Actions so 
 </td></tr></tbody>
 </table>## Configuring genius results
 
-In the search profile of your selected search application configuration, link the following Genius Result configurations to display actionable top results. For more information, see [Link a Genius Result configuration to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/link-gr-search-profile-ais.md).
+In the search profile of your selected search application configuration, link the following Genius Result configurations to display actionable top results. For more information, see [Link a Genius Result configuration to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/link-gr-search-profile-ais.md).
 
 <table id="table_jry_4cb_1zb"><thead><tr><th>
 
@@ -108,9 +108,9 @@ Now Assist Q&amp;A
 
 </td><td>
 
-Displays the top search results extracted from the HTML fields of the records on the Knowledge \[kb\_knowledge\] table and the tables that extend it. Each answer card shows an answer snippet extracted by Now LLM from a knowledge article. For reference, the answer card also includes a link the user can select to view the source knowledge article.**Note:** Now Assist in the AI Search application \(com.ais\_assist\) is required to link the Now Assist Q&amp;A Genius Result configuration to your search profile. For more information, see [ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-ais.md).
+Displays the top search results extracted from the HTML fields of the records on the Knowledge \[kb\_knowledge\] table and the tables that extend it. Each answer card shows an answer snippet extracted by Now LLM from a knowledge article. For reference, the answer card also includes a link the user can select to view the source knowledge article.**Note:** Now Assist in the AI Search application \(com.ais\_assist\) is required to link the Now Assist Q&amp;A Genius Result configuration to your search profile. For more information, see [ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/now-assist-ais.md).
 
-**Important:** Starting with the Now Assist in AI Search 11 release, the Now Assist Q&amp;A Genius Results feature is in maintenance mode. This feature will remain available but will not be updated or supported. Similar and improved functionality is available in the newer Now Assist Multi-Content Response Genius Results feature. For more details on this feature, see [Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-multi-content-qna-genius-results.md).
+**Important:** Starting with the Now Assist in AI Search 11 release, the Now Assist Q&amp;A Genius Results feature is in maintenance mode. This feature will remain available but will not be updated or supported. Similar and improved functionality is available in the newer Now Assist Multi-Content Response Genius Results feature. For more details on this feature, see [Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/now-assist-multi-content-qna-genius-results.md).
 
 </td></tr><tr><td>
 
@@ -118,7 +118,7 @@ Now Assist Multi-Content Response
 
 </td><td>
 
-Displays a single top search result that summarizes content from multiple sources. The answer card shows one grouped summary with numbered citations that link to the source records, such as knowledge articles, and Service catalog items. You can select the **Copy summary** button to copy the summary and share it with customers. For more information on theNow Assist Multi-Content Response, see [Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-multi-content-qna-genius-results.md).\[Omitted image "na-mcr.png"\] Alt text: Now Assist-Multi Content Response in Recommended Actions contextual Side Panel
+Displays a single top search result that summarizes content from multiple sources. The answer card shows one grouped summary with numbered citations that link to the source records, such as knowledge articles, and Service catalog items. You can select the **Copy summary** button to copy the summary and share it with customers. For more information on theNow Assist Multi-Content Response, see [Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/now-assist-multi-content-qna-genius-results.md).\[Omitted image "na-mcr.png"\] Alt text: Now Assist-Multi Content Response in Recommended Actions contextual Side Panel
 
 </td></tr></tbody>
 </table>## Customizing Recommended Actions UIB component for AI search
@@ -131,5 +131,5 @@ Customize the Recommended Actions UIB component to align with your organization'
 
 For more information, see [Recommended Actions UIB setup](https://developer.servicenow.com/dev.do#!/reference/next-experience/vancouver/now-components/sn-next-best-action-list-connected/uib-setup).
 
-Explore advanced customization options, such as adjusting the number of results to view on a page, identifying genius results to add to the search profile, and configuring search sources. For more information, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-ais.md).
+Explore advanced customization options, such as adjusting the number of results to view on a page, identifying genius results to add to the search profile, and configuring search sources. For more information, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configuring-ais.md).
 

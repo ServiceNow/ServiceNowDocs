@@ -3,9 +3,9 @@ title: Change mobile analytics views for accessibility
 description: You have the option to change the data analytics views from color segments to black and white patterns. This option can be used for accessibility purposes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/accessibility-chart-view.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Accessibility features in mobile, Using the mobile apps, Mobile Platform]
 ---

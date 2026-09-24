@@ -3,7 +3,7 @@ title: Solution configuration terminology
 description: Terms used in solution configurations and their definitions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/solution-configuration-terminology.html
-release: australia
+release: brazil
 topic_type: reference
 last_updated: "2026-03-26"
 reading_time_minutes: 1
@@ -28,14 +28,14 @@ Terms used in solution configurations and their definitions.
 |Target field|The field on the child blueprint that receives the value from the source field through a field mapping. Target fields are read-only during a configuration session.|
 |Solution BOM|The consolidated bill of materials that aggregates all products added across every configuration in the session, including children and grandchildren. The solution BOM is returned when a solution is saved.|
 
-**Parent Topic:**[CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)
 
 **Related topics**  
 
 
-[Solution configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/solution-configurations.md)
+[Solution configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/solution-configurations.md)
 
-[Field mapping in solution configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/field-mapping-in-solution-configuration.md)
+[Field mapping in solution configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/field-mapping-in-solution-configuration.md)
 
-[Bill of Materials in solution configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/bill-of-materials-in-solution-configuration.md)
+[Bill of Materials in solution configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/bill-of-materials-in-solution-configuration.md)
 

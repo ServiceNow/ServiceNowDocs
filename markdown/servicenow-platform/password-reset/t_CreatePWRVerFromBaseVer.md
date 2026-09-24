@@ -3,11 +3,11 @@ title: Create a Password Reset verification from an existing verification
 description: The Password Reset application includes several example verifications that you can use as they are or as the basis for a custom verification. If the verification types in the base system do not meet your needs, you can create a custom verification type.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/t\_CreatePWRVerFromBaseVer.html
-release: australia
+release: brazil
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customizing Password Reset processes, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -37,5 +37,5 @@ Role required: password\_reset\_admin
     **Note:** Each verification type has properties that control the user experience. Review the property settings and update as needed.
 
 
-**Parent Topic:**[Customizing Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/customizing-password-reset.md)
+**Parent Topic:**[Customizing Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/customizing-password-reset.md)
 

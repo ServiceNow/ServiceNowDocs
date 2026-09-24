@@ -3,11 +3,11 @@ title: Create expense lines for a demand
 description: Create an expense line to capture the cost associated with a specific source, such as a user or a fixed asset, for a demand.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/add-or-edit-expense-lines-demand-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage financials for demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -44,7 +44,7 @@ You can also create or edit expense lines from the **Expense Lines** tab in the 
 
 6.  On the New expense line form, fill in the fields.
 
-    For a description of the field values, see [Expense line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-expense-line-form-ppw.md).
+    For a description of the field values, see [Expense line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/create-expense-line-form-ppw.md).
 
 7.  Select **Save**.
 

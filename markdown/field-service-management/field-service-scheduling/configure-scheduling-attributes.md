@@ -3,11 +3,11 @@ title: Create a scheduling attribute for Schedule Optimization
 description: Create scheduling attributes to specify which tasks to optimize and define the rules to perform the optimization. You can create different scheduling attributes configurations for each policy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/configure-scheduling-attributes.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
@@ -20,7 +20,7 @@ Create scheduling attributes to specify which tasks to optimize and define the r
 
 Role required: wm\_admin
 
-You must [Configure Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/schedule-optimization-engine.md).
+You must [Configure Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/schedule-optimization-engine.md).
 
 ## About this task
 
@@ -42,7 +42,7 @@ You must [Configure Schedule Optimization](https://raw.githubusercontent.com/Ser
 
     4.  Select a secondary travel estimate provider.
 
-        If you do not set up a secondary travel estimate provider and your primary configuration is unavailable, optimization will use the default straight-line configuration. For more information, see [Setting up a travel estimate provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/setting-up-a-travel-estimate-provider.md).
+        If you do not set up a secondary travel estimate provider and your primary configuration is unavailable, optimization will use the default straight-line configuration. For more information, see [Setting up a travel estimate provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/setting-up-a-travel-estimate-provider.md).
 
 4.  Select **Submit**.
 
@@ -58,7 +58,7 @@ You must [Configure Schedule Optimization](https://raw.githubusercontent.com/Ser
 
     4.  Select **Submit**.
 
-        If your task filter references a custom field or a custom table, you must grant the sharedservice.worker user read access to those elements. For example, this applies if you use a table other than the default work order task table to submit work orders. For details, see [User access requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/schedule-optimization-integration-user-access-requirements.md).
+        If your task filter references a custom field or a custom table, you must grant the sharedservice.worker user read access to those elements. For example, this applies if you use a table other than the default work order task table to submit work orders. For details, see [User access requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/schedule-optimization-integration-user-access-requirements.md).
 
         The **Optimization Restricted** tab is displayed after the task filter record is created. This read-only field shows the conditions of work order tasks that are excluded from the optimization run.
 
@@ -77,5 +77,5 @@ You must [Configure Schedule Optimization](https://raw.githubusercontent.com/Ser
 
 ## What to do next
 
-[Create a batch for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-an-optimization-batch.md)
+[Create a batch for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/create-an-optimization-batch.md)
 

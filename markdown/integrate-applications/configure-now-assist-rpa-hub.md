@@ -3,9 +3,9 @@ title: Install ServiceNow Otto for RPA Hub
 description: If you have the admin role, you can install the ServiceNow Otto for RPA Hub application so that your human agents or users can get started with developing automations faster.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/configure-now-assist-rpa-hub.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Now Assist, generative AI]
 breadcrumb: [Configure, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
@@ -30,15 +30,15 @@ If you have the admin role, you can install the ServiceNow Otto for RPA Hub appl
 
 1.  Perform any of the following tasks to install the ServiceNow Otto for RPA Hub application.
 
-<table id="choicetable_b2q_dpq_y2c"><thead><tr><th align="left" id="d105541e123">
+<table id="choicetable_b2q_dpq_y2c"><thead><tr><th align="left" id="d104359e123">
 
 Option
 
-</th><th align="left" id="d105541e126">
+</th><th align="left" id="d104359e126">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d105541e132">
+</th></tr></thead><tbody><tr><td id="d104359e132">
 
 **From AI Admin Hub**
 
@@ -51,7 +51,7 @@ Action
 5.  Select **Install**.
 
 
-</td></tr><tr><td id="d105541e196">
+</td></tr><tr><td id="d104359e196">
 
 **From System Applications**
 
@@ -80,7 +80,7 @@ To view the installed plugins, navigate to **All** &gt; **AI Admin Hub** &gt; **
 
 ## What to do next
 
-If you're upgrading to the Yokohama Patch 3 release, reindex the data source. For more information, see [Perform a full table index or reindex for multiple AI Search indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/index-multiple-sources-ais.md). In the step 2 of this procedure, select the indexed source as RPA Component \[sn\_rpa\_na\_rpa\_component\].
+If you're upgrading to the Yokohama Patch 3 release, reindex the data source. For more information, see [Perform a full table index or reindex for multiple AI Search indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/index-multiple-sources-ais.md). In the step 2 of this procedure, select the indexed source as RPA Component \[sn\_rpa\_na\_rpa\_component\].
 
-Turn on the Robotic Process Automation \(RPA\) bot generation skill to use generative AI to create automations, activities, and automation logic additions from text instructions and preview options. For more information, see [Turn on the RPA bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/turn-rpa-bot-generation-skill.md).
+Turn on the Robotic Process Automation \(RPA\) bot generation skill to use generative AI to create automations, activities, and automation logic additions from text instructions and preview options. For more information, see [Turn on the RPA bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/turn-rpa-bot-generation-skill.md).
 

@@ -3,11 +3,11 @@ title: Upgrade tools and resources
 description: Learn about ServiceNow products and tools that can improve your upgrade experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/upgrade-tools.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-04-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Prepare your upgrade, Australia release notes]
+breadcrumb: [Prepare your upgrade, Brazil release notes]
 ---
 
 # Upgrade tools and resources
@@ -18,13 +18,13 @@ Learn about ServiceNow products and tools that can improve your upgrade experien
 
 Use these ServiceNow products to automate parts of your upgrade testing and manage your upgrades from one central place.
 
--   **[Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework.md)**
+-   **[Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework.md)**
 
     The Automated Test Framework \(ATF\) enables you to create and run automated tests to confirm that your instance works after making a change. For example, after an upgrade, during application development, or when deploying instance configurations with update sets. Review failed test results to identify the changes that caused the failure and the changes that you should review.
 
     **Note:** By default, the system property to run automated tests is disabled to prevent you from accidentally running them on a production system. Run tests only on development, test, and other non-production instances to avoid data corruption and outage.
 
--   **[Upgrade Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/uc-landing-page.md)**
+-   **[Upgrade Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/uc-landing-page.md)**
 
     Use ServiceNow® Upgrade Center to plan and manage your upgrades. Use the Upgrade Preview module to explore different release versions available to you and gain insights about the experience of an upgrade without actually upgrading your instance. You can also monitor the status of any ongoing upgrade and view the summary of your latest upgrade with the new Upgrade Monitor module. The Upgrade Center also features an Upgrade visual task board \(VTB\) to manage post-upgrade skips. A separate Upgrade History module can be used to view all your past upgrades.
 
@@ -45,7 +45,7 @@ In addition to upgrade-related products, you can also use ServiceNow's upgrade t
 
 -   **Sample upgrade project plans**
 
-    The [Upgrade planning checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrades-planning-checklist.md) provides a quick look at the steps in an upgrade. If you'd like to track your upgrade progress in Excel, PDF, or Microsoft Project, you can download these sample project plans to get started.
+    The [Upgrade planning checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/upgrades-planning-checklist.md) provides a quick look at the steps in an upgrade. If you'd like to track your upgrade progress in Excel, PDF, or Microsoft Project, you can download these sample project plans to get started.
 
     -   [PDF](https://downloads.docs.servicenow.com/enus/paris/upgrade/servicenow-upgrade-planning-checklist.pdf)
     -   [Excel](https://downloads.docs.servicenow.com/enus/paris/upgrade/servicenow_upgrade_sample_project_plan_v1.0.xlsx)
@@ -53,22 +53,26 @@ In addition to upgrade-related products, you can also use ServiceNow's upgrade t
 
 ## Best practices
 
-Visit the ServiceNow [Best Practices](https://mynow.servicenow.com/now/best-practices/home) website for more information on how to accelerate outcomes with expert-curated best practices.
+Visit the ServiceNow Customer Success Center website for information on upgrade value and best practices.
 
--   **[Upgrade quickly and maintain platform health](https://mynow.servicenow.com/now/best-practices/success-packs/core-platform-upgrade)**
+-   **[Upgrade value calculator](https://www.servicenow.com/success/value-calculator-upgrades.html)**
 
-    Plan and execute smooth ServiceNow AI Platform upgrades, reduce risk, cut costs, and adopt new features faster across your ServiceNow instance.
+    Determine the potential business value of staying current with ServiceNow upgrades.
 
--   **[Balance value and risk with platform customizations](https://mynow.servicenow.com/now/best-practices/assets/businesssmart-customization)**
+-   **[Playbook: Upgrade quickly and maintain platform health](https://www.servicenow.com/success/playbook/upgrade-fast.html)**
+
+    Use upgrade processes and tools to conduct your upgrades, and learn how to make changes to your baseline system when required.
+
+-   **[Balance value and risk with platform customizations](https://www.servicenow.com/success/playbook/innovate-at-scale.html)**
 
     Learn when and how to customize your instance to maximize value and minimize upgrade impact.
 
 
 ## Resources
 
--   **[ServiceNow Impact success plans](https://www.servicenow.com/impact.html)**
+-   **[ServiceNow Customer Success Center](https://www.servicenow.com/success.html)**
 
-    Receive long-term adoption guidance and support with an Impact success plan tailored to you.
+    Browse prescriptive content and tools such as playbooks, checklists, and quick answers to gain more value from your ServiceNow implementation.
 
 -   **[Expert services](https://www.servicenow.com/services/expert-services.html)**
 

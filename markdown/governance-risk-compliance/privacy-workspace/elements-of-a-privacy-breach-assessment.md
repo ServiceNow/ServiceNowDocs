@@ -3,11 +3,11 @@ title: Elements of a privacy breach assessment
 description: A privacy breach assessment must clearly indicate the jurisdiction in which the breach occurred. This is crucial because each jurisdiction operates under distinct laws and regulations pertaining to privacy and data protection. It must also specify the personally identifiable information \(PI\) artifacts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/elements-of-a-privacy-breach-assessment.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Privacy breach assessments, Explore, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---

@@ -1,146 +1,47 @@
 ---
 title: Opportunity Management release notes
-description: The ServiceNow Opportunity Management application enables your sales agents and account executives to create and manage opportunities. These opportunities track potential sales based on customer needs. Opportunity Management was enhanced and updated in the Australia release.The ServiceNow Opportunity Management application enables your sales agents and account executives to create and manage opportunities. These opportunities track potential sales based on customer needs. Opportunity Management was enhanced and updated in the Australia release.The ServiceNow Opportunity Management application enables your sales agents and account executives to create and manage opportunities. These opportunities track potential sales based on customer needs. Opportunity Management was enhanced and updated in the Australia release.The ServiceNow Opportunity Management application enables your sales agents and account executives to create and manage opportunities. These opportunities track potential sales based on customer needs. Opportunity Management was enhanced and updated in the Australia release.The ServiceNow Opportunity Management application enables your sales agents and account executives to create and manage opportunities. These opportunities track potential sales based on customer needs. Opportunity Management was enhanced and updated in the Australia release.The ServiceNow Opportunity Management application enables your sales agents and account executives to create and manage opportunities. These opportunities track potential sales based on customer needs. Opportunity Management was enhanced and updated in the Australia release.The ServiceNow Opportunity Management application enables your sales agents and account executives to create and manage opportunities. These opportunities track potential sales based on customer needs. Opportunity Management was enhanced and updated in the Australia release.
+description: The ServiceNow Opportunity Management application enables your sales agents and account executives to create and manage opportunities. See the following sections for release notes by version.The September 2026 release includes ServiceNow Otto support for better user experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/opportunity-management-rn.html
-release: australia
+release: brazil
 topic_type: topic
-last_updated: "2026-07-22"
-reading_time_minutes: 5
-breadcrumb: [Sales Customer Relationship Management release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Sales Customer Relationship Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Opportunity Management release notes
 
-The ServiceNow® Opportunity Management application enables your sales agents and account executives to create and manage opportunities. These opportunities track potential sales based on customer needs. Opportunity Management was enhanced and updated in the Australia release.
+The ServiceNow® Opportunity Management application enables your sales agents and account executives to create and manage opportunities. See the following sections for release notes by version.
 
 ## About Opportunity Management
 
--   Record your planned or completed customer interaction or sales activity associated with an opportunity using a Touchpoint to capture engagement context throughout the sales life cycle.
--   Associate competitors with opportunity product and product family, capture win/loss reasons, and record contributing factors to report and analyze competitor trends, product‑level competitive pressure, and opportunity outcome patterns.
--   Split opportunity revenue across multiple contributors using opportunity allocations to ensure accurate attribution, incentive crediting, and forecast reporting for collaborative sales teams.
--   Capture Direct or Indirect deal types to align opportunities with defined routes to market.
--   Create touchpoints and schedule meetings directly from an opportunity record for a consolidated view of all customer interactions.
--   Prioritize deals with an AI-powered probability score, qualitative ratings, and explainable insights integrated into the opportunity workspace.
--   Create, view, and update opportunity records and related entities using natural language from the MCP client.
--   Summarize an opportunity with Now Assist for a quick snapshot of status, risks, and recent engagement.
--   Configure a guided selling playbook to enforce mandatory stage activities, surface stage-specific guidance to sales agents, and consolidate all deal-related actions in a unified opportunity workspace.
--   Manage opportunity line items, competitor details, and touchpoint information conversationally within the conversational interface without navigating to individual records.
--   Enforce mandatory win or loss reason capture before agents move an opportunity to a closed stage to keep outcome data complete and reportable.
--   Track quote tasks for the primary quote directly in the opportunity Action Center, and guide agents with contextual empty states when no actions are pending.
+-   Evaluate an opportunity's total worth with integrated pricing that computes the combined prices of each product offering, helping teams strategize resource and budget allocation for deals.
+-   Focus your sales team on deals with the highest financial impact by analyzing the potential revenue of each opportunity.
+-   Customize offers that meet customer needs while maintaining profitability, using real-time pricing insights during negotiation.
+-   Generate an AI summary for an opportunity to get information from emails, touchpoints, deal stage, and line items without opening every related record.
+-   Review AI-generated win probability scores and contextual insights to assess deal health, prioritize pipeline opportunities, and identify risks.
+-   Ask questions and issue commands to work on an opportunity in plain language using an MCP client and ServiceNow Otto.
 
-See [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md) for more information.
+See [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/opportunity-management.md) for more information.
 
 ## Activation and other requirements
-
-**Important:** Opportunity Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 -   **Activation information**
 
     Install Opportunity Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sales-order-management-rn-landing.md)
+**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/sales-order-management-rn-landing.md)
 
-## August 2026
+## Version 14.1.0
 
-The ServiceNow® Opportunity Management application enables your sales agents and account executives to create and manage opportunities. These opportunities track potential sales based on customer needs. Opportunity Management was enhanced and updated in the Australia release.
-
-### What's new
-
--   **[Mandatory reason fields on closed opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-guided-selling-exit-criteria.md)**
-
-    Enforce completion of the win or loss reason fields before agents move an opportunity to the Closed Won or Closed Lost stage. Admins enable this enforcement for each outcome using system properties.
-
-
-## July 2026
-
-The ServiceNow® Opportunity Management application enables your sales agents and account executives to create and manage opportunities. These opportunities track potential sales based on customer needs. Opportunity Management was enhanced and updated in the Australia release.
+The September 2026 release includes ServiceNow Otto support for better user experience.
 
 ### What's new
 
--   **[Guided selling on opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-guided-selling-opportunity.md)**
+-   **[ServiceNow Otto support on Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/crm-conversational-query.md)**
 
-    Guided selling on opportunity helps enforce process compliance and manage all deal-related actions from a unified workspace by letting you:
+    Retrieve, update, and create opportunity records and related CRM data from ServiceNow Otto using natural language.
 
-    -   Configure mandatory exit criteria per opportunity stage to enforce process compliance and prevent stage advancement until required actions are complete.
-    -   Guide sellers with stage-contextual playbook activities, progress indicators, and inline compact playbook views all without leaving the opportunity **Overview** tab.
-    -   Consolidate all deal-related tasks, meetings, touchpoints, and stage guidance into a single Action Center panel that updates in real time.
-    -   Display quote tasks for the primary quote as cards in the opportunity Action Center, with the same mark complete and add notes actions as other tasks.
-    -   Guide agents with contextual empty states to create a task when no actions are pending.
-
-## June 2026
-
-The ServiceNow® Opportunity Management application enables your sales agents and account executives to create and manage opportunities. These opportunities track potential sales based on customer needs. Opportunity Management was enhanced and updated in the Australia release.
-
-### What's new
-
--   **[Manage touchpoints on an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-touchpoints-opportunity.md)**
-
-    Create touchpoints, log interaction activities, and schedule meetings directly from an opportunity record. A consolidated view of all touchpoints and meetings on an opportunity provides full visibility into customer engagement throughout the sales cycle.
-
-
--   **[Opportunity probability score and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)**
-
-    Enable sales representatives, managers, and revenue operations teams to prioritize deals using an AI-powered probability score \(0–100%\) with qualitative ratings. The score is integrated into the opportunity workspace and includes an opportunity summary covering stage, annual contract value \(ACV\), forecast category, close date, engagement history, and the most recent notes.
-
-
--   **[Manage opportunities in the MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-opportunity-records.md)**
-
-    Create, retrieve, update, and delete opportunity records and related entities including contacts, competitors, tasks, touchpoints, and line items from any MCP client, without navigating to individual record forms.
-
-
--   **[AI summarization for opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/now-assist-som-summarize-opportunity.md)**
-
-    Generate AI-powered summaries of opportunity data including emails, tasks, meetings, and notes for a snapshot of current status, identify potential risks early, and reduce ramp-up time when transitioning ownership of an opportunity.
-
-
-## Australia General Availability
-
-The ServiceNow® Opportunity Management application enables your sales agents and account executives to create and manage opportunities. These opportunities track potential sales based on customer needs. Opportunity Management was enhanced and updated in the Australia release.
-
-### What's new
-
--   **Manage opportunity via conversational AI**
-
-    Use a conversational AI to:
-
-    -   Manage opportunity line items: Search the product catalog and add, update, or remove line items directly from the AI interface without opening records.
-    -   Update competitor product details: Create, update, and read product family, incumbent status, and product offering fields on opportunity competitor records.
-    -   Update and view touchpoint notes: Edit touchpoint notes and see the touchpoint description when fetching a record.
-
-## April 2026
-
-The ServiceNow® Opportunity Management application enables your sales agents and account executives to create and manage opportunities. These opportunities track potential sales based on customer needs. Opportunity Management was enhanced and updated in the Australia release.
-
-### What's new
-
--   **[Support for opportunity allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-allocations.md)**
-
-    Divide sales credit across multiple contributors on a single opportunity for accurate attribution and compensation.
-
-
--   **[Customer entities on opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-details-tab.md)**
-
-    Capture the deal type \(Direct or Indirect\) on customer entities to align opportunities with defined routes to market and support consistent, compliant processing across systems and teams.
-
-
-## Australia
-
-The ServiceNow® Opportunity Management application enables your sales agents and account executives to create and manage opportunities. These opportunities track potential sales based on customer needs. Opportunity Management was enhanced and updated in the Australia release.
-
-### What's new
-
--   **[View touchpoint records for a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-tasks-tab.md)**
-
-    Gain complete visibility into customer engagement by viewing a complete touchpoint timeline on every opportunity so that teams have context at their fingertips.
-
--   **[Add competitors to an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-competitors-tab.md)**
-
-    Identify and store competitor information for product offerings and product family within an opportunity.​
-
-
-### What's deprecated or removed
-
--   Removed the **New** Opportunity Line button from the platform and workspace view.
 

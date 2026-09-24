@@ -3,11 +3,11 @@ title: Restore excluded patterns
 description: Restoring excluded patterns to the learned patterns report lets you reintegrate valuable insights lost due to incorrect alerts. This flexibility maintains accurate alert aggregation and enhances monitoring. For example, if you excluded a pattern due to an incorrect alert, you can restore it without that alert, ensuring relevant data remains accessible for analysis and decision-making.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/restore-excluded-patterns.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Automated alert grouping, Alert grouping types and creation methods, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---

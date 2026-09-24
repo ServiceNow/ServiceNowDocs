@@ -3,11 +3,11 @@ title: Create an IP Address record at subnet level
 description: Create a single IP Address record that represents an entire IP Subnetwork as one Configuration Item. The IP Address record uses the subnetwork'ss CIDR as its value, rather than a single host address. This method is used when the subnetwork is bound to a service, port, customer, or interface as a single entity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create-an-ip-address-record-at-subnet-level.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Manage IP addresses, Inventory number allocation, Define inventory records, Use, Telecommunications Network Inventory]
 ---
@@ -30,7 +30,7 @@ Role required: core.dc\_ops\_agent, sn\_ni\_core.inventory\_agent
 
 This task is the at-subnet-level allocation method. The system creates one IP Address record whose value is the subnetwork's CIDR \(for example, `10.10.1.0/26`\). The record represents the subnetwork as a single CMDB Configuration Item and is linked to the subnetwork through a Contains relationship.
 
-The two IP allocation methods \(from allocated IPs and at subnet level\) are mutually exclusive on a given subnetwork. After the first IP Address record is created by either method, the other method is locked for that subnetwork until all IP Address records are deleted. For more information, see [CMDB relationships for IP address records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/cmdb-relationships-for-ip-address-records.md).
+The two IP allocation methods \(from allocated IPs and at subnet level\) are mutually exclusive on a given subnetwork. After the first IP Address record is created by either method, the other method is locked for that subnetwork until all IP Address records are deleted. For more information, see [CMDB relationships for IP address records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/cmdb-relationships-for-ip-address-records.md).
 
 This method does not require the subnetwork's allocated IP records to be created first. The IP Address record is bound directly to the subnetwork, not to any individual address slot.
 
@@ -73,22 +73,22 @@ This method does not require the subnetwork's allocated IP records to be created
 
 ## Result
 
-The system writes one CMDB relationship: IP Subnetwork → Contains → IP Address. This links the IP Address record to the parent subnetwork. The system does not write a Manages relationship because the IP Address record is not bound to a specific allocated IP slot. For more information, see [CMDB relationships for IP address records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/cmdb-relationships-for-ip-address-records.md).
+The system writes one CMDB relationship: IP Subnetwork → Contains → IP Address. This links the IP Address record to the parent subnetwork. The system does not write a Manages relationship because the IP Address record is not bound to a specific allocated IP slot. For more information, see [CMDB relationships for IP address records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/cmdb-relationships-for-ip-address-records.md).
 
 ## What to do next
 
 Bind the IP Address record to the service, port, customer, or interface it represents by populating the **Owned By Configuration Item** field on the record.
 
-**Parent Topic:**[Manage IP addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/manage-ip-addresses.md)
+**Parent Topic:**[Manage IP addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/manage-ip-addresses.md)
 
 **Related topics**  
 
 
-[Create an IP Address record from allocated IPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-ip-address-records-from-allocated-ips.md)
+[Create an IP Address record from allocated IPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/create-ip-address-records-from-allocated-ips.md)
 
-[CMDB relationships for IP address records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/cmdb-relationships-for-ip-address-records.md)
+[CMDB relationships for IP address records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/cmdb-relationships-for-ip-address-records.md)
 
-[IP Address form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/ip-address-form.md)
+[IP Address form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/ip-address-form.md)
 
-[Create an IP Subnetwork record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-an-ip-subnetwork-record.md)
+[Create an IP Subnetwork record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/create-an-ip-subnetwork-record.md)
 

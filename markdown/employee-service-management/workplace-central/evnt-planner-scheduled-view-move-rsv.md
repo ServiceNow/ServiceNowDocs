@@ -3,11 +3,11 @@ title: Move reservations between Reservable modules using the Schedule view
 description: Reservation or space planners can move or update reservation between Reservable modules. Planners with sn\_wsd\_rsv.bypass\_module\_validation role can bypass the Reservable module configuration settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/evnt-planner-scheduled-view-move-rsv.html
-release: australia
+release: brazil
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2026-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Working with schedule view, Working with Event planner, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -137,7 +137,7 @@ As a reservation or space planner, you can perform the following actions:
 
         While moving a shift-based reservation, the shift-based Reservable module of which the space is part of is preselected.
 
-        **Note:** You can move a location within the same shift-based reservation and not to a different shift-based reservation. Two different shifts aren’t available for selection in the confirm reservation changes dialog box when you try to move a reservation. Space planners can move a shift-based reservation to a non-shift Reservable module \(Desks, meeting rooms, and so on\). For example: **Desks within a Shift** Reservable module can be moved to **Desks** Reservable Module. For more information, see [Allow Event planners to handle reservations with more flexibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/event-planner-bypass-validation-rule-overview.md).
+        **Note:** You can move a location within the same shift-based reservation and not to a different shift-based reservation. Two different shifts aren’t available for selection in the confirm reservation changes dialog box when you try to move a reservation. Space planners can move a shift-based reservation to a non-shift Reservable module \(Desks, meeting rooms, and so on\). For example: **Desks within a Shift** Reservable module can be moved to **Desks** Reservable Module. For more information, see [Allow Event planners to handle reservations with more flexibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-central/event-planner-bypass-validation-rule-overview.md).
 
 9.  Select the Show reservation details icon \(\[Omitted image "wsd-show-reservation-details-icon.png"\] Alt text: Reservation details icon.\) to open the Reservation details side-panel context window.
 
@@ -169,5 +169,7 @@ As a reservation or space planner, you can perform the following actions:
         Follow Step 7 to Step 8 as required.
 
 
-**Parent Topic:**[Working with schedule view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-schedule-view.md)
+**Parent Topic:**[Working with schedule view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-central/working-with-schedule-view.md)
+
+**Parent Topic:**[Working with schedule view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-central/working-with-schedule-view.md)
 

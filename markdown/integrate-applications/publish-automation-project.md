@@ -3,9 +3,9 @@ title: Publish an automation project in RPA Desktop Design Studio
 description: Publish an automation project to RPA Hub from RPA Desktop Design Studio as a package or as a template. After publication, you can quickly deploy automation solutions in the RPA platforms by using the packages or by using a template as a framework to create automations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/publish-automation-project.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Use, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,11 +16,11 @@ Publish an automation project to RPA Hub from RPA Desktop Design Studio as a pac
 
 ## Before you begin
 
-Ensure that the automation project file is open in RPA Desktop Design Studio. For more information, see [Open a local automation project in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/open-project-rpa-studio.md).
+Ensure that the automation project file is open in RPA Desktop Design Studio. For more information, see [Open a local automation project in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/open-project-rpa-studio.md).
 
 Ensure that the automation project file is in a separate folder. All the files and folders in the current project file location are published to the RPA Hub.
 
-Verify the connection manager setup in the RPA Desktop Design Studio. For more information, see [Set up RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-rpa-studio.md).
+Verify the connection manager setup in the RPA Desktop Design Studio. For more information, see [Set up RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/set-up-rpa-studio.md).
 
 Role required: sn\_rpa\_fdn.rpa\_developer or sn\_rpa\_fdn.rpa\_admin
 
@@ -42,24 +42,24 @@ Publishing an automation project as a template makes it the framework for creati
 
         \[Omitted image "cqc-results.png"\] Alt text: Code quality check performed during publishing of a project.
 
-        You can publish a package with errors or with both errors and warnings only if the property **sn\_rpa\_fdn.restrict\_package\_by\_severity** is set as **No restriction** in RPA Hub. For more information, see [Configure RPA Hub properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpahub-sys-properties.md). As shown in the following example, these packages are highlighted with the message `Automation contains one or more errors or warnings` when you begin to publish a project.
+        You can publish a package with errors or with both errors and warnings only if the property **sn\_rpa\_fdn.restrict\_package\_by\_severity** is set as **No restriction** in RPA Hub. For more information, see [Configure RPA Hub properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/rpahub-sys-properties.md). As shown in the following example, these packages are highlighted with the message `Automation contains one or more errors or warnings` when you begin to publish a project.
 
         \[Omitted image "cqc-publish-error2.png"\] Alt text: Error displayed when you're publishing a project with errors or warnings.
 
-        For more information on the compliance rules that the Code quality check follows when a package is published from RPA Desktop Design Studio, see [Code quality check compliance for RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/cqc-publish-studio.md).
+        For more information on the compliance rules that the Code quality check follows when a package is published from RPA Desktop Design Studio, see [Code quality check compliance for RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/cqc-publish-studio.md).
 
     -   When you enable the **sn\_rpa\_fdn.code\_signing\_required** system property on the instance, it impacts the existing bot processes that are associated with the packages on the same instance because you didn't enable code signing on them earlier while you were publishing from RPA Desktop Design Studio to RPA Hub. As a result, the automations that corresponded to these bot processes failed. To run the failed automation successfully, you must publish the package again with the code signing from RPA Desktop Design Studio to RPA Hub.
 3.  Publish an automation project as a package or template.
 
-<table><thead><tr><th align="left" id="d207113e251">
+<table><thead><tr><th align="left" id="d205419e251">
 
 Option
 
-</th><th align="left" id="d207113e254">
+</th><th align="left" id="d205419e254">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d207113e260">
+</th></tr></thead><tbody><tr><td id="d205419e260">
 
 **Publish the automation project as a package**
 
@@ -85,7 +85,7 @@ Action
 7.  Select **OK**.
 
 
-</td></tr><tr><td id="d207113e342">
+</td></tr><tr><td id="d205419e342">
 
 **Publish the automation project as a template**
 
@@ -122,5 +122,5 @@ Action
     **Note:** This step is applicable only if you’re publishing the automation project as a package.
 
 
-**Parent Topic:**[Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-studio-use.md)
+**Parent Topic:**[Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/rpa-studio-use.md)
 

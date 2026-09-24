@@ -3,9 +3,9 @@ title: Workforce system properties
 description: Modify the Workforce configuration by setting system properties to enable visibility for both group and territory views.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-system-properties.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Workforce, CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---

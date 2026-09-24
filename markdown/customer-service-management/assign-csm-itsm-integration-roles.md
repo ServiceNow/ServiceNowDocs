@@ -3,9 +3,9 @@ title: Assigning CSM/ITSM integration roles
 description: To enable the Service Management integration features, assign the CSM/ITSM integration roles that are included with the Incident Management application.Several types of roles are available with CSM integration with ITSM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/assign-csm-itsm-integration-roles.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Setting up CSM integration with IT Service Management, Integrate with IT Service Management, Integrate, Customer Service Management]
 ---
@@ -16,8 +16,8 @@ To enable the Service Management integration features, assign the CSM/ITSM integ
 
 The Service Management integration plugins do not add any roles to the customer service agent role \(sn\_customerservice\_agent\). To enable the Service Management integration features, you must assign the CSM/ITSM integration roles included with the Incident Management application.
 
--   Assign roles to agents using guided setup. For more information, see [Integrate with IT Service Management using Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-sm-integration.md).
--   Assign roles to agents using the ServiceNow AI Platform user administration feature. For more information, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignARoleToAUser.md).
+-   Assign roles to agents using guided setup. For more information, see [Integrate with IT Service Management using Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-csm-sm-integration.md).
+-   Assign roles to agents using the ServiceNow AI Platform user administration feature. For more information, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignARoleToAUser.md).
 
 ## CSM/ITSM integration roles
 
@@ -227,7 +227,7 @@ Users with this role can:-   Create a request.
 
 </td></tr><tr><td>
 
-Proxy contact\[sn\_customerservice.proxy\_contact\]
+Proxy contact\[sn\_csm\_proxy\_cont\]
 
 </td><td>
 

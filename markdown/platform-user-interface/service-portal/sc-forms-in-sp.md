@@ -3,11 +3,11 @@ title: Service Catalog forms in Service Portal
 description: Service Catalog forms are rendered within Service Portal widgets in a two-column layout. Complex forms may not display as expected.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/sc-forms-in-sp.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Supported features in Service Portal, Exploring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -21,7 +21,7 @@ Service Catalog forms are rendered within Service Portal widgets in a two-column
 Use the following recommendations as a guide to building scalable forms that can be used in both applications:
 
 -   Keep forms simple. Because forms with multiple containers, variable sets, and client scripts do not always display as expected in Service Portal, keep forms short to eliminate conversion and debugging issues.
--   Think in mobile. Any support for Catalog Client Scripts or Catalog UI Policies is the same as in mobile. Review the following resource: Mobile client GlideForm \(g form\) scripting and migration.
+-   Think in mobile. Any support for Catalog Client Scripts or Catalog UI Policies is the same as in mobile. Review the following resource: [Mobile client GlideForm \(g form\) scripting and migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/r_MobilePlatformMigrationImpacts.md).
 
 ## Form rendering in Service Portal
 

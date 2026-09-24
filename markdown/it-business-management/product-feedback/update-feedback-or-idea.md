@@ -3,11 +3,11 @@ title: Update Feedback or Product idea records from the list page
 description: Edit the details of a feedback or product idea record and make real-time updates using the list page of feedback or product ideas.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/product-feedback/update-feedback-or-idea.html
-release: australia
+release: brazil
 product: Product Feedback
 classification: product-feedback
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Feedback in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -34,25 +34,25 @@ Modify feedback or product idea records within the list view or side panel using
 
 3.  Update the record details, attach files, or delete the feedback or product idea record.
 
-<table id="choicetable_yky_q3f_tzb"><thead><tr><th align="left" id="d273930e88">
+<table id="choicetable_yky_q3f_tzb"><thead><tr><th align="left" id="d275035e88">
 
 Choice
 
-</th><th align="left" id="d273930e91">
+</th><th align="left" id="d275035e91">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d273930e97">
+</th></tr></thead><tbody><tr><td id="d275035e97">
 
 **Update feedback or product idea record**
 
 </td><td>
 
-Double-click on the feedback or product idea field on the grid to make inline edits. You can select the short description of feedback or product idea to open the full details page. Bulk edit rows in the list view to enable quick updates without editing each record individually. For feedback or product idea field information, see [Feedback form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/feedback-form.md) and [Product idea form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/product-idea-form.md).
+Double-click on the feedback or product idea field on the grid to make inline edits. You can select the short description of feedback or product idea to open the full details page. Bulk edit rows in the list view to enable quick updates without editing each record individually. For feedback or product idea field information, see [Feedback form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/product-feedback/feedback-form.md) and [Product idea form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/product-feedback/product-idea-form.md).
 
  **Note:** You can’t make inline edits for read-only fields.
 
-</td></tr><tr><td id="d273930e135">
+</td></tr><tr><td id="d275035e135">
 
 **Add worknotes or attachments**
 
@@ -64,7 +64,7 @@ From the full details page:
 -   Compose work notes and select **Post Work notes**.
 
 
-</td></tr><tr><td id="d273930e161">
+</td></tr><tr><td id="d275035e161">
 
 **Delete feedback or product idea record**
 

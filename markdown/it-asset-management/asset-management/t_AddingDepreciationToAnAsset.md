@@ -3,11 +3,11 @@ title: Add depreciation to an asset
 description: Depreciation is the reduction in the value of an asset over time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/t\_AddingDepreciationToAnAsset.html
-release: australia
+release: brazil
 product: Asset Management
 classification: asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage various assets through asset classes, Use, Base Asset Management, Common applications, Asset Management]
 ---
@@ -30,7 +30,7 @@ The ServiceNow AI Platform calculates the read-only **Residual date** and **Resi
 
 When an asset is in the **In Use** state, the asset form populates a Deprecation effective date.
 
-For more information about fixed assets and depreciation, see [Using Depreciation with Fixed Assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/c_CreatingFixedAssets.md).
+For more information about fixed assets and depreciation, see [Using Depreciation with Fixed Assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/c_CreatingFixedAssets.md).
 
 ## Procedure
 
@@ -38,7 +38,7 @@ For more information about fixed assets and depreciation, see [Using Depreciatio
 
 2.  Select an asset.
 
-3.  Fill in the **Depreciation**, **Depreciation effective date**, **Salvage Value**, and **Covered by fixed asset** fields as described in [Create assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/t_CreatingAssets.md).
+3.  Fill in the **Depreciation**, **Depreciation effective date**, **Salvage Value**, and **Covered by fixed asset** fields as described in [Create assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/t_CreatingAssets.md).
 
     Consider these points.
 
@@ -51,7 +51,7 @@ For more information about fixed assets and depreciation, see [Using Depreciatio
     The **Residual date**, **Residual value**, and **Depreciated amount** fields are automatically calculated.
 
 
-**Parent Topic:**[Manage various assets through asset classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/c_AssetClasses.md)
+**Parent Topic:**[Manage various assets through asset classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/c_AssetClasses.md)
 
 **Related topics**  
 

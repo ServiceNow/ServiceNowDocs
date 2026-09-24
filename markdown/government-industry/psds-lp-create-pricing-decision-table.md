@@ -3,9 +3,9 @@ title: Create a pricing configuration decision table for the License and Permit 
 description: The License and Permit Playbook uses decision tables to configure pricing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-lp-create-pricing-decision-table.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure decision tables, License and Permit Playbook, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
@@ -18,9 +18,9 @@ The License and Permit Playbook uses decision tables to configure pricing.
 
 In the License and Permit Playbook, pricing is established by the following:
 
-1.  Determining the application endorsements on which fees will be based. For more information on adding pricing endorsement fields, see [Add an endorsement field to a pricing configuration decision table in License and Permit Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-lpr-decision-tables-pricing-endorsements.md).
+1.  Determining the application endorsements on which fees will be based. For more information on adding pricing endorsement fields, see [Add an endorsement field to a pricing configuration decision table in License and Permit Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-lpr-decision-tables-pricing-endorsements.md).
 2.  Creating a decision table to capture the logic used to determine the fees charged.
-3.  Associating the newly created decision table to the license/permit cases. For information on how to associate a decision table with a license/permit case, see [Associate a decision table with a License &amp; Permit case type​​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-associate-decision-table-with-lpr.md).
+3.  Associating the newly created decision table to the license/permit cases. For information on how to associate a decision table with a license/permit case, see [Associate a decision table with a License &amp; Permit case type​​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-associate-decision-table-with-lpr.md).
 
 Each license/permit case references a specific decision table for pricing, which defines pricing based on the license/permit type and selected endorsements, and is unique to each extended License Permit Case Table.
 
@@ -74,14 +74,14 @@ Role required: admin
 
 19. Select the plus icon that appears below Results, and choose **Add Condition Column** to add another pricing field.
 
-    Repeat until all pricing fields or other endorsement fields are added. For more information on endorsements, see [Pricing endorsements in License and Permit Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-lpr-decision-tables-pricing-endorsements.md).
+    Repeat until all pricing fields or other endorsement fields are added. For more information on endorsements, see [Pricing endorsements in License and Permit Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-lpr-decision-tables-pricing-endorsements.md).
 
 20. Select **Save** to save the decision table, then select **Publish**.
 
 
 ## Result
 
-The decision table is now created and can be associated with the License and Permit case type. For more information on how to do this, see [Associate a decision table with a License &amp; Permit case type​​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-associate-decision-table-with-lpr.md).
+The decision table is now created and can be associated with the License and Permit case type. For more information on how to do this, see [Associate a decision table with a License &amp; Permit case type​​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-associate-decision-table-with-lpr.md).
 
-As an admin, you can use a price adjustment definition to add adjustments to field prices based on the conditions of fields that are not price fields, such as residency status of the constituent for the location they are requesting in. For more information on how to add price adjustment definitions, see [Add a price adjustment definition to a decision table​ in License and Permit Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-decision-table-price-adjustment.md).
+As an admin, you can use a price adjustment definition to add adjustments to field prices based on the conditions of fields that are not price fields, such as residency status of the constituent for the location they are requesting in. For more information on how to add price adjustment definitions, see [Add a price adjustment definition to a decision table​ in License and Permit Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-decision-table-price-adjustment.md).
 

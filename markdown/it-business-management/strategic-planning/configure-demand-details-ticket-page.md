@@ -3,11 +3,11 @@ title: Configure the demand details fields in Employee Slate
 description: Configure the fields that appear in the demand details ticket page in Employee Slate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/configure-demand-details-ticket-page.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-09-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Work with demands in Employee Slate, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---

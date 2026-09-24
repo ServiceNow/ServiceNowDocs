@@ -3,11 +3,11 @@ title: Suite schedule record
 description: The Suite Results record displays information about one test suite schedule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-suite-schedule-record.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Suite schedules, Automated Test Framework \(ATF\) reference, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -31,10 +31,10 @@ The Suite Results record displays information about one test suite schedule.
 |Condition|If **Conditional** is checked, the script to execute for determining the conditions under which the system should run the test suites in this schedule.|
 |Scheduled Suite Runs \(related list\)|The test suites the system should run on this schedule.|
 
-**Parent Topic:**[Suite schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/suite-schedules-module.md)
+**Parent Topic:**[Suite schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/suite-schedules-module.md)
 
 **Related topics**  
 
 
-[Schedule an automated test suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-sched-suite-steps.md)
+[Schedule an automated test suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-sched-suite-steps.md)
 

@@ -3,11 +3,11 @@ title: Understand why an SLA did not trigger as expected
 description: Describes the conditions when an SLA might not trigger as expected.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/why-sla-did-not-trigger.html
-release: australia
+release: brazil
 product: Service Level Management
 classification: service-level-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SLA timeline, Service Level Management reference, Service Level Management, IT Service Management]
 ---
@@ -34,5 +34,5 @@ On inspecting the details for the task update that triggered the SLA start condi
 
 \[Omitted image "why-sla-did-not-trigger-4.png"\] Alt text: SLA conditions that caused stage change
 
-**Parent Topic:**[SLA timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/c_SLATimeline.md)
+**Parent Topic:**[SLA timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/c_SLATimeline.md)
 

@@ -3,11 +3,11 @@ title: Configure Agent Client Collector for use with Service Mapping
 description: Configure Agent Client Collector to discover and map application services without having to configure credentials for the MID Server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/configure-acc-for-service-mapping.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Advanced Service Mapping configuration, Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -18,9 +18,9 @@ Configure Agent Client Collector to discover and map application services withou
 
 ## Before you begin
 
-Ensure that Agent Client Collector has been configured. For more information, see [Application patterns for the Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/application-patterns-acc.md).
+Ensure that Agent Client Collector has been configured. For more information, see [Application patterns for the Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/application-patterns-acc.md).
 
-Verify that agents have the necessary privileges to execute the required application pattern commands for successful completion of top-down discovery. For more information, see [Privileged SSH commands for probe-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-ssh-command-require-priv.md) and [Non-privileged SSH commands during probe-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-ssh-probe-commands.md).
+Verify that agents have the necessary privileges to execute the required application pattern commands for successful completion of top-down discovery. For more information, see [Privileged SSH commands for probe-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-ssh-command-require-priv.md) and [Non-privileged SSH commands during probe-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-ssh-probe-commands.md).
 
 **Important:** This configuration requires a MID Server that is up and running to work correctly. Service Mapping selects the MID Server to which the target agent connects, in order to run commands through the agent.
 

@@ -1,18 +1,18 @@
 ---
-title: Initiate a chat with the assignment group from a major incident
+title: Initiate chat with assignment group from major incident
 description: Initiate a chat with the assignment group members from a major incident record to discuss about the resolution of the issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/initiate-chat-assignment-grp-major-inc-itsm-mobile.html
-release: australia
+release: brazil
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Collaboration with major incidents, Managing major incidents using Major Incident applet, ITSM Mobile Agent, IT Service Management]
 ---
 
-# Initiate a chat with the assignment group from a major incident
+# Initiate chat with assignment group from major incident
 
 Initiate a chat with the assignment group members from a major incident record to discuss about the resolution of the issue.
 

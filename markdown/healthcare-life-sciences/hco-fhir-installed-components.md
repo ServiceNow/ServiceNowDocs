@@ -3,9 +3,9 @@ title: Components installed with the EMR Provider Directory Sync
 description: Several types of components are installed with the EMR Provider Directory Sync. These include a user role, a sync log table, a scheduled job, flows, a business rule, flow actions, and a decision table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-fhir-installed-components.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-06-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [installed components, roles, scheduled job, sync log]
 breadcrumb: [EMR Provider Directory Sync, Healthcare Integrations, Healthcare and Life Sciences]
@@ -62,10 +62,10 @@ FHIR Sync Log
 
 </td><td>
 
-Records one row per resource type per sync run, with start and end times, processed and skipped counts, status, correlation ID, and a transport error message. For field details, see [FHIR Sync Log fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-fhir-sync-log-fields.md).
+Records one row per resource type per sync run, with start and end times, processed and skipped counts, status, correlation ID, and a transport error message. For field details, see [FHIR Sync Log fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hco-fhir-sync-log-fields.md).
 
 </td></tr></tbody>
-</table>The application also writes to tables owned by other applications but does not install them. These include the Healthcare Organization, Location, and Practitioner tables, the business location tables, the user table, and the service organization member tables. See [FHIR-to-HCLS field mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-fhir-field-mappings.md).
+</table>The application also writes to tables owned by other applications but does not install them. These include the Healthcare Organization, Location, and Practitioner tables, the business location tables, the user table, and the service organization member tables. See [FHIR-to-HCLS field mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hco-fhir-field-mappings.md).
 
 ## Scheduled jobs installed
 
@@ -118,11 +118,11 @@ Each per-resource import decomposes into additional child subflows — a per-rec
 
 |Decision table|Description|
 |--------------|-----------|
-|`FhirOrgTypeToBusinessLocationClass`|Classifies an imported FHIR Organization as an internal or external business location based on its organization type. Editable by admins. See [Configure the organization classification decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-fhir-configure-decision-table.md).|
+|`FhirOrgTypeToBusinessLocationClass`|Classifies an imported FHIR Organization as an internal or external business location based on its organization type. Editable by admins. See [Configure the organization classification decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hco-fhir-configure-decision-table.md).|
 
 ## Spoke components used
 
-EMR Provider Directory Sync uses read-only actions from the [HL7 FHIR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/fhir-spoke-landing.md) to fetch provider-directory data. The following FHIR Spoke actions are called by the import subflows:
+EMR Provider Directory Sync uses read-only actions from the [HL7 FHIR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/fhir-spoke-landing.md) to fetch provider-directory data. The following FHIR Spoke actions are called by the import subflows:
 
 -   Look up Organization by ID
 -   Look up Organizations Stream
@@ -133,7 +133,7 @@ EMR Provider Directory Sync uses read-only actions from the [HL7 FHIR Spoke](htt
 -   Look up PractitionerRole by ID
 -   Look up PractitionerRoles Stream
 
-All eight actions authenticate through the shared `HL7 FHIR` Connection &amp; Credential Alias defined in the HL7 FHIR Spoke. For setup details, see [HL7 FHIR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/fhir-spoke-landing.md).
+All eight actions authenticate through the shared `HL7 FHIR` Connection &amp; Credential Alias defined in the HL7 FHIR Spoke. For setup details, see [HL7 FHIR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/fhir-spoke-landing.md).
 
 ## System properties installed
 

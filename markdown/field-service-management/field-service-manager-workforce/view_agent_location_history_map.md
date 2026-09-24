@@ -3,11 +3,11 @@ title: View agent location history map
 description: Access a historical map of field service agents' locations to track and analyze their activities over time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/view\_agent\_location\_history\_map.html
-release: australia
+release: brazil
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing agents and tasks from Workforce, Managing workforce, Use, Field Service Management]
 ---

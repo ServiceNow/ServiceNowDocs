@@ -3,11 +3,11 @@ title: Integrate Instana with OAuth authentication
 description: Integrate Instana with Event Management with ServiceNow using OAuth authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/instana-oauth-authentication.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Integrate Instana events, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -98,5 +98,5 @@ Role required: evt\_mgmt\_admin
     4.  On the **Details** tab, locate the **Actions** section on the right side of the page and in the **Show Event on Instana UI** cell, select **Launch app**.
 
 
-**Parent Topic:**[Integrate Instana events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/instana-integration.md)
+**Parent Topic:**[Integrate Instana events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/instana-integration.md)
 

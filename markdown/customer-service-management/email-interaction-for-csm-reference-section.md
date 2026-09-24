@@ -1,16 +1,16 @@
 ---
 title: Email Interaction for CSM reference
-description: Lookup data and configuration details for Email Interaction for CSM. Use these references when setting up or managing email interactions in Customer Service Management.
+description: Reference topics provide additional information about Email Interaction for CSM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/email-interaction-for-csm-reference-section.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-04-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Customer Service Management]
 ---
 
 # Email Interaction for CSM reference
 
-Lookup data and configuration details for Email Interaction for CSM. Use these references when setting up or managing email interactions in Customer Service Management.
+Reference topics provide additional information about Email Interaction for CSM.
 

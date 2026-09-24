@@ -3,11 +3,11 @@ title: Assigning data classifications to dictionary entries
 description: Assign data classifications to specific table columns in the Dictionary \[sys\_dictionary\] table. When you assign data classifications, it creates entries in the Dictionary-Data Class \[m2m\_dictionary\_dataclass\] table, which you can then review in the Overview dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/data-classification/apply-data-classification-codes-dictionary-entries.html
-release: australia
+release: brazil
 product: Data Classification
 classification: data-classification
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data Classification, Platform Privacy]
 ---
@@ -36,6 +36,6 @@ Role required: data\_classification\_admin and admin
 
     You can select multiple data classifications as needed.
 
-    See [Data dictionary tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DataDictionaryTables.md) for additional information.
+    See  for additional information.
 
 

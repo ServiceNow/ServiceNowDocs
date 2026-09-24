@@ -3,11 +3,11 @@ title: Connect data to your components
 description: Bind data exposed by local data resources to components on your UI Builder page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/connect-data.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Connect data components, Dynamically expose data in UI Builder pages \(advanced feature\), Advanced UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -22,7 +22,7 @@ Role required: ui\_builder\_admin
 
 ## About this task
 
-Data binding is the process of associating data with a UI element that displays the information. Before binding data to components you must add a data resource to your UI Builder page, see [Add and configure data resources to a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-data-resources.md) for more information.
+Data binding is the process of associating data with a UI element that displays the information. Before binding data to components you must add a data resource to your UI Builder page, see [Add and configure data resources to a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/add-data-resources.md) for more information.
 
 ## Procedure
 
@@ -30,17 +30,17 @@ Data binding is the process of associating data with a UI element that displays 
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Create or open a page.
 
 4.  Add a data resource to your page.
 
-    For more information, see [Add and configure data resources to a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-data-resources.md).
+    For more information, see [Add and configure data resources to a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/add-data-resources.md).
 
 5.  Add a component to your page.
 
-    You need a component on your page before you can bind a data resource to it. For more information, see [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md).
+    You need a component on your page before you can bind a data resource to it. For more information, see [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-components.md).
 
 6.  Select the **Configure** tab from the configuration panel in UI Builder.
 
@@ -73,5 +73,5 @@ Data binding is the process of associating data with a UI element that displays 
 12. Select **Save** in the UI Builder header.
 
 
-**Parent Topic:**[Connect data components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/connect-data-components.md)
+**Parent Topic:**[Connect data components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/connect-data-components.md)
 

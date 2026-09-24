@@ -3,12 +3,13 @@ title: MITRE attack and defend technique graph
 description: The MITRE attack and defend technique graph provides security analysts with an interactive, node-based visualization of attack techniques, defense techniques, and associated artifacts for a security incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/mitre-attack-defend-graph-sir.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
+keywords: [mitre attack and defend graph in SIR Workspace, mitre attack technique, mitre defend technique]
 breadcrumb: [Working with Security Incident Records, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -32,8 +33,6 @@ The graph consists of the following node types arranged in a hierarchical struct
 -   Artifact nodes: Second or third level nodes representing specific artifacts related to defend techniques.
 
 Nodes at the same hierarchical level can have cross-references, creating connecting edges when the same node relates to multiple parent nodes.
-
-Attack technique nodes are labeled and iconized according to their source framework. The source framework is either MITRE-ATT&amp;CK or MITRE ATLAS. You can visually distinguish which framework a technique belongs to at a glance.
 
 ## Available actions
 
@@ -84,7 +83,7 @@ The graph displays relationships between nodes using connecting lines \(edges\):
 -   Cross-level references: When nodes at the same hierarchical level share relationships, connecting lines appear between them.
 -   Edge labels: Labels on the edges between defend techniques and artifacts indicate the relationship type \(sourced from MITRE-ATT&amp;CK data\).
 
-**Parent Topic:**[Working with Security Incident Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-analyst-workspace.md)
+**Parent Topic:**[Working with Security Incident Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/using-analyst-workspace.md)
 
 **Related topics**  
 

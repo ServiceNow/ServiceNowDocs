@@ -3,11 +3,11 @@ title: Exploring platform performance
 description: The ServiceNow AI Platform provides configurations, monitoring, and diagnostics that administrators can use to support optimized system performance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/exploring-platform-performance.html
-release: australia
+release: brazil
 product: Platform Performance
 classification: platform-performance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -38,7 +38,7 @@ Instance administrators can optimize ServiceNow AI Platform performance by takin
 
 To learn more about improving ServiceNow AI Platform performance, see:
 
--   [Configuring the ServiceNow AI Platform to optimize performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/configuring-platform-performance.md)
--   [Resolving platform performance issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/resolving-plat-performance-issues.md)
--   [Monitoring platform performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/monitoring-platform-performance.md)
+-   [Configuring the ServiceNow AI Platform to optimize performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/platform-performance/configuring-platform-performance.md)
+-   [Resolving platform performance issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/platform-performance/resolving-plat-performance-issues.md)
+-   [Monitoring platform performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/platform-performance/monitoring-platform-performance.md)
 

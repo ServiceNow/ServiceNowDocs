@@ -3,11 +3,11 @@ title: Configure a parent mapping for a request
 description: You can configure a mapping that specifies the association between the parent record and the request record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/configure-mapping-for-request.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Catalog request fulfillment, Configuring Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -66,11 +66,11 @@ Parent requestor
 
 </td><td>
 
-User reference field on the parent table that is specified as the requestor of the request.**Note:** For delegated request experience, the user from the parent table record is populated in the Requested For variable. For information on delegated request experience, see [Delegated request experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/delegated-request-exp.md).
+User reference field on the parent table that is specified as the requestor of the request.**Note:** For delegated request experience, the user from the parent table record is populated in the Requested For variable. For information on delegated request experience, see [Delegated request experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/delegated-request-exp.md).
 
 </td></tr></tbody>
 </table>3.  Click **Submit**.
 
 
-**Parent Topic:**[Service Catalog request fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-fulfillment.md)
+**Parent Topic:**[Service Catalog request fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/request-fulfillment.md)
 

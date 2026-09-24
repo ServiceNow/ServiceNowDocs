@@ -3,11 +3,11 @@ title: Set up risk rating scales for scoring
 description: The risk rating scale helps business users better understand risk assessment results. For example, in the default settings, risk scores in the 20 through 39 range indicate high risk, while scores in the 60 through 79 range indicate low risk.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-risk-rating-scales-config.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Classic assessments, Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -23,6 +23,10 @@ Role required: admin or sn\_vdr\_risk\_asmt.vendor\_risk\_manager
 ## About this task
 
 **Note:** Many organizations find that the default settings represent their needs appropriately and don’t change the settings.
+
+**Note:**
+
+The steps below describe the risk rating scale for the classic assessment engine. For SAE assessments, navigate to **Workspaces** &gt; **Vendor Management Workspace**select the list icon \[Omitted image "ws-list-icon.png"\] Alt text: and then navigate to **Assessment Setup** &gt; **Default Risk Rating Scales** instead to view or modify the SAE default rating scale.
 
 ## Procedure
 

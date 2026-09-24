@@ -3,9 +3,9 @@ title: Using Advanced Approval Management AI
 description: Advanced Approval Management AI enables approval requesters and approvers to manage quote approvals using natural language requests in an MCP client, without opening a ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/use-advanced-approval-mgmt-ai.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [use]
 breadcrumb: [Configure, price, quote apps, Use, Sales Customer Relationship Management]
@@ -45,19 +45,19 @@ Approval users use the chat feature in the MCP client to perform, manage, and tr
     4.  If needed, add an ad-hoc approver for an approval rule relevant to the quote.
     5.  Act on an approval request by approving or rejecting the quote with a comment.
 
--   **[Get quote details in an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/get-quote-details-mcp.md)**  
+-   **[Get quote details in an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/get-quote-details-mcp.md)**  
 Retrieve quote header and line-level information using natural language in a Model Context Protocol \(MCP\) client.
--   **[Get approval history and status in an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/get-approval-history-mcp.md)**  
+-   **[Get approval history and status in an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/get-approval-history-mcp.md)**  
 Retrieve the approval history and status for a quote approval by using natural language in a Model Context Protocol \(MCP\) client. You can use this information to review past approval decisions and check the progress of an in-progress approval.
--   **[Preview approval routing in an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/get-approval-preview-mcp.md)**  
+-   **[Preview approval routing in an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/get-approval-preview-mcp.md)**  
 View the approval routing to be triggered for a quote that has not been submitted for approval by using natural language in a Model Context Protocol \(MCP\) client. You can view the approval rules to be applied and the assigned approvers in the routing sequence.
--   **[Submit an approval request in an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/submit-approval-request-mcp.md)**  
+-   **[Submit an approval request in an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/submit-approval-request-mcp.md)**  
 Submit an entity such as a quote for approval or resubmit an entity that currently has no active approval request by using natural language in an MCP client.
 
-**Parent Topic:**[Using configure, price, quote applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-cpq.md)
+**Parent Topic:**[Using configure, price, quote applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-cpq.md)
 
 **Related topics**  
 
 
-[Configuring Advanced Approval Management AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-advanced-approval-mgmt-ai.md)
+[Configuring Advanced Approval Management AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configuring-advanced-approval-mgmt-ai.md)
 

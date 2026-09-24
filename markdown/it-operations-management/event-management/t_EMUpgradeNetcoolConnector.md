@@ -3,11 +3,11 @@ title: Configure event collection from IBM Netcool
 description: Configure the IBM Netcool\_V2 connector to receive events from IBM Netcool/OMNIbus Object Servers and Impact Servers. The IBM Netcool\_V2 connector uses REST API calls and is bidirectional.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMUpgradeNetcoolConnector.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -54,15 +54,15 @@ To use IBM Netcool\_V2 connector, configure a connector instance for the MID Ser
 
 4.  In the Connector Parameters section, specify the value of the required Netcool parameters.
 
-<table id="choicetable_ict_hmx_n4b"><thead><tr><th align="left" id="d210460e250">
+<table id="choicetable_ict_hmx_n4b"><thead><tr><th align="left" id="d211858e250">
 
 Connector
 
-</th><th align="left" id="d210460e253">
+</th><th align="left" id="d211858e253">
 
 Required parameters
 
-</th></tr></thead><tbody><tr><td id="d210460e259">
+</th></tr></thead><tbody><tr><td id="d211858e259">
 
 **IBM Netcool\_V2**
 
@@ -90,10 +90,10 @@ Required parameters
 9.  After a successful test, select the **Active** check box and then click **Update**.
 
 
-**Parent Topic:**[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
+**Parent Topic:**[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
 
 **Related topics**  
 
 
-[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
+[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
 

@@ -3,9 +3,9 @@ title: Configure logo, colors, and system defaults for Core UI
 description: You can use the Basic Configuration Core UI module to brand your instance with your company logo and colors and set basic system defaults. This place is the best starting point if you are setting up your instance for the first time or if you have recently enabled Core UI.The La Jolla theme is the new brand theme for ServiceNow. When you upgrade to Madrid, your theme is automatically upgraded to the La Jolla theme. Any customizations you have made to the system theme will not be upgraded. Use the styles in the list below to upgrade or revert any styles to the new or old theme.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_ConfigureLogoColorsSysDfltsUI16.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Customizing instance appearance, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -33,7 +33,7 @@ Each color selection option provides a color picker to select a color. The text 
 
 Refer to [HTML Color Names \(W3CSchools\)](http://www.w3schools.com/tags/ref_colornames.asp) for information about HTML color names.
 
-**Note:** This information is only applicable for instances that do not have Next Experience enabled. For theming information for Next Experience, see [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md).
+**Note:** This information is only applicable for instances that do not have Next Experience enabled. For theming information for Next Experience, see [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-theming.md).
 
 ## Procedure
 
@@ -309,7 +309,7 @@ Switches the main content \(everything other than the application navigator and 
 
 After you save the configuration changes, all users who select the **System** theme in their UI personalization options see the new configuration colors.
 
-**Parent Topic:**[Customizing instance appearance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/customizing-instance-appearance.md)
+**Parent Topic:**[Customizing instance appearance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/customizing-instance-appearance.md)
 
 ## La Jolla and cobalt theme comparison
 

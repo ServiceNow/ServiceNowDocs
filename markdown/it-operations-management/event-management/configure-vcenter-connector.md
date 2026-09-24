@@ -3,11 +3,11 @@ title: Configure event collection from vCenter
 description: Configure the VMware vCenter Server \(vCenter or vCenter\_V2\) connector instance to receive events from your VMware vSphere environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-vcenter-connector.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -30,7 +30,7 @@ Starting from the Xanadu release, the OOTB \(Out-Of-The-Box\) event rules provid
 
 **Note:** This feature applies only to active event rules.
 
-This connector has the **debug** and **logPayloadForDebug** log parameters enabled. The **debug** parameter logs debug messages, such as calls made to the source system to retrieve events. The **logPayloadForDebug** parameter logs event and metric payloads from the source system. Once debugging is complete, set this parameter to **false** to prevent overloading the system. By default, the vRealize\_V2 connector communicates with the vRealize Operations API using JSON. To use the legacy XML format, set the **useXMLResponse** parameter to **true**.
+This connector has the **debug** and **logPayloadForDebug** log parameters enabled. The **debug** parameter logs debug messages, such as calls made to the source system to retrieve events. The **logPayloadForDebug** parameter logs event and metric payloads from the source system. Once debugging is complete, set this parameter to **false** to prevent overloading the system. To use the legacy XML format, set the **useXMLResponse** parameter to **true**.
 
 ## Procedure
 
@@ -85,5 +85,5 @@ This connector has the **debug** and **logPayloadForDebug** log parameters enabl
 9.  Click **Update**.
 
 
-**Parent Topic:**[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
+**Parent Topic:**[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
 

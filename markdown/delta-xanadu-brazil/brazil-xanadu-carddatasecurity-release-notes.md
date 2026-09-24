@@ -1,0 +1,637 @@
+---
+title: Combined Card Data Security release notes for upgrades from Xanadu to Brazil
+description: Consolidated page of all release notes for Card Data Security from Xanadu to Brazil.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-carddatasecurity-release-notes.html
+release: brazil
+topic_type: reference
+last_updated: "2026-09-24"
+reading_time_minutes: 4
+breadcrumb: [Products combined by family]
+---
+
+# Combined Card Data Security release notes for upgrades from Xanadu to Brazil
+
+Consolidated page of all release notes for Card Data Security from Xanadu to Brazil.
+
+## How to use this page
+
+To help you prepare for your upgrade, we have combined the cross-family Card Data Security release notes onto one page. Read this summary of the new features, changes, and updated information for your product from Xanadu to Brazil.
+
+**Tip:** If there were no updates for a release notes section in a certain family release, we included a short note for your reference. For example, if a product did not have any updates in Tokyo, the row says "No updates for this release."
+
+## Important information for upgrading Card Data Security to Brazil
+
+Before you upgrade to Brazil, review these pre- and post-upgrade tasks and complete the tasks as needed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## New features
+
+Between your current release family and Brazil, new features were introduced for Card Data Security.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **[Card Data Security](https://www.servicenow.com/docs/access?context=card-data-security&family=zurich&ft:locale=en-US)**
+
+Tokenize secure card data in FSO dispute workflows by integrating with a tokenizer service through Card data security. You can configure which values to tokenize, establish connections to core systems and third-party systems like Visa and Mastercard, and manage tokenizer resource configurations.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   **[View documents in the tokenizer service vault](https://www.servicenow.com/docs/access?context=card-data-security-component&family=australia&ft:locale=en-US)**
+
+Use the Card data security container to display documents in the tokenizer service vault without storing sensitive documents in your ServiceNow instance.
+
+-   **[PAN display](https://www.servicenow.com/docs/access?context=reveal-a-pan-using-card-data-security&family=australia&ft:locale=en-US)**
+
+Display, mask, or redact PAN values in the workspace with the Card data security container.
+
+-   **[Updated attachment panel](https://www.servicenow.com/docs/access?context=manage-attachments-in-card-data-security&family=australia&ft:locale=en-US)**
+
+View external documents from card networks, acquirers, and merchants at the transaction level of a dispute, which are stored in the tokenizer service vault.
+
+-   **[Mastercard and Visa integration updates](https://www.servicenow.com/docs/access?context=spokes&family=australia&ft:locale=en-US)**
+
+Updated Mastercard and Visa actions and integrations to support document download in Card data security.
+
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Changes
+
+Between your current release family and Brazil, some changes were made to existing Card Data Security features.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   **[Attachments panel](https://www.servicenow.com/docs/access?context=manage-attachments-in-card-data-security&family=australia&ft:locale=en-US)**
+
+A UI builder page has been added to display external documents from card networks, acquirers, and merchants at the transaction level when Card data security is installed.
+
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Removed
+
+Between your current release family and Brazil, some Card Data Security features or functionality were removed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Deprecations
+
+Between your current release family and Brazil, some Card Data Security features or functionality were deprecated.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Activation information
+
+Review information on how to activate Card Data Security.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+-   **Activation information**
+
+Install Card data security by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
+
+
+</td></tr></tbody>
+</table>## Additional requirements
+
+If any additional requirements were introduced or changed for Card Data Security we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Browser requirements
+
+If any specific browser requirements were introduced or changed for Card Data Security we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Accessibility information
+
+Review details on accessibility information for Card Data Security, such as specific requirements or compliance levels.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Localization information
+
+If there are specific localization considerations for Card Data Security we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Highlight information
+
+If there are specific highlight considerations for Card Data Security we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+-   Display sensitive documents, and mask or reveal PANs in the FSO workspace with the Card data security container.
+-   View external documents from card networks, acquirers, and merchants at the transaction level of a dispute in an updated Attachments view.
+
+ See [Card Data Security](https://www.servicenow.com/docs/access?context=card-data-security&family=brazil&ft:locale=en-US) for more information.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/rn-combined-intro.md)
+

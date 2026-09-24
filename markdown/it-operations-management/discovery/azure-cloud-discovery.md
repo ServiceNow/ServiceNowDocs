@@ -3,11 +3,11 @@ title: Discovery for Microsoft Azure
 description: If your cloud resources are in an Azure cloud, you must create a user identity called a service principal that grants permissions to the MID Server to access selected resources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/azure-cloud-discovery.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -51,7 +51,7 @@ Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servi
 
 ## Data collected by Service Mapping during top-down discovery
 
-To include discovered components into service instances, enable CI relationships used in tag-based discovery by Service Mapping. These CI relationships are available from the 1.0.68 release on the ServiceNow Store. For operational steps, see [Tag-based discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/tag_discovery_configuration.md).
+To include discovered components into service instances, enable CI relationships used in tag-based discovery by Service Mapping. These CI relationships are available from the 1.0.68 release on the ServiceNow Store. For operational steps, see [Tag-based discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/tag_discovery_configuration.md).
 
 Service Mapping uses tag-based discovery to create service instance maps including the Cloud components. The Service Mapping application comes with the following preconfigured CI relationships used for tag-based discovery. These CI relationships are available from the 1.0.68 release on the ServiceNow Store.
 
@@ -843,8 +843,8 @@ canonical\_hosted\_zone\_name
 </td></tr></tbody>
 </table>## Useful information
 
--   [Microsoft Azure discovery solutions comparison](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/azure-discovery-methods.md)
--   [Set up Azure service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/setup-azure-service-accounts.md)
--   [Install and configure MID Servers to access cloud environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/mid-server-configuration-cloud.md)
--   [Microsoft Azure Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md)
+-   [Microsoft Azure discovery solutions comparison](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/azure-discovery-methods.md)
+-   [Set up Azure service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/setup-azure-service-accounts.md)
+-   [Install and configure MID Servers to access cloud environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/mid-server-configuration-cloud.md)
+-   [Microsoft Azure Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md)
 

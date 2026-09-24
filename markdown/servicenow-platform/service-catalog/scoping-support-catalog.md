@@ -3,11 +3,11 @@ title: Service Catalog scoping
 description: Scoping support is available to define the limits of entities in Service Catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/scoping-support-catalog.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -27,8 +27,8 @@ Scoping support is available to define the limits of entities in Service Catalog
 -   The rule base of an order guide can have items from different scopes.
 -   The scope of the record producer and the target table should be the same.
 
--   **[Scriptable service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ScriptableServiceCatalogVariables.md)**  
+-   **[Referencing Service Catalog variables in server-side scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/c_ScriptableServiceCatalogVariables.md)**  
 You can use scripting to reference any request item variable from a table in scoped and non-scoped environment.
 
-**Parent Topic:**[Configuring Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/configuring-service-catalog.md)
+**Parent Topic:**[Configuring Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/configuring-service-catalog.md)
 

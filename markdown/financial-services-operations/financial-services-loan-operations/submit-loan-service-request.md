@@ -3,11 +3,11 @@ title: Submit a loan service request as a requester
 description: Help your customers by submitting a loan service request for them. As a requester in the front office, you can do this service for your customer \(consumer or business contact\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-loan-operations/submit-loan-service-request.html
-release: australia
+release: brazil
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Submitting a loan service request, Use, Loan Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -37,15 +37,15 @@ Business customers and consumers can also submit loan service requests from the 
 
 3.  Create a loan request from the customer record or an interaction record.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d105425e115">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d107131e115">
 
 Option
 
-</th><th align="left" id="d105425e118">
+</th><th align="left" id="d107131e118">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d105425e124">
+</th></tr></thead><tbody><tr><td id="d107131e124">
 
 **Personal loan service request for a consumer**
 
@@ -55,7 +55,7 @@ Steps
 2.  Click the customer record that you want to open.
 
 
-</td></tr><tr><td id="d105425e151">
+</td></tr><tr><td id="d107131e151">
 
 **Business loan service request for a business customer**
 
@@ -65,7 +65,7 @@ Steps
 2.  Click the customer record that you want to open.
 
 
-</td></tr><tr><td id="d105425e181">
+</td></tr><tr><td id="d107131e181">
 
 **Loan service request from an interaction record**
 
@@ -73,7 +73,7 @@ Steps
 
 1.  In the **Lists** tab, under **Interactions**, click **My Interactions**.
 2.  Click the interaction record for the customer that you want to open.
- For information on how to create an interaction, see [Create an interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-interactions.md).
+ For information on how to create an interaction, see [Create an interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/create-interactions.md).
 
 </td></tr></tbody>
 </table>4.  Click **Create Loan Request**.

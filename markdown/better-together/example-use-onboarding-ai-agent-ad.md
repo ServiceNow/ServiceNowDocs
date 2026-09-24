@@ -3,9 +3,9 @@ title: Example: Execute employee onboarding automatically
 description: As an HR coordinator, automatically onboard new employees by triggering an AI agent that executes the complete employee provisioning workflow from the ServiceNow Otto panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/better-together/example-use-onboarding-ai-agent-ad.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [employee onboarding, AI agent execution, desktop actions, HR automation, workflow automation]
 breadcrumb: [Building desktop automations from Task Mining data, Solutions]
@@ -19,8 +19,8 @@ As an HR coordinator, automatically onboard new employees by triggering an AI ag
 
 To access the AI Desktop Actions functionality, perform the following steps:
 
--   Enable AI Desktop Actions on your ServiceNow instance. For more information, see [Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-agentic-desktop.md).
--   Download the AI Desktop Actions installer to automate repetitive tasks across applications and systems. For more information, see [Download AI Desktop Actions installer for defined desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/download-agentic-desktop-installer.md).
+-   Enable AI Desktop Actions on your ServiceNow instance. For more information, see [Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-agentic-desktop.md).
+-   Download the AI Desktop Actions installer to automate repetitive tasks across applications and systems. For more information, see [Download AI Desktop Actions installer for defined desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/download-agentic-desktop-installer.md).
 
 Confirm that the following system requirements are met:
 
@@ -49,7 +49,7 @@ Confirm that the following system requirements are met:
 
 **Note:** Screen resolution and scaling must be the same between the systems used for recording the agent's desktop actions and the execution environment.
 
-Familiarize yourself with the AI Desktop Actions Execution workspace. For more information, see [AI Desktop Actions Execution workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/agentic-desktop-excution-workspace.md).
+Familiarize yourself with the AI Desktop Actions Execution workspace. For more information, see [AI Desktop Actions Execution workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/agentic-desktop-excution-workspace.md).
 
 Role required: now\_assist\_panel\_user
 
@@ -129,7 +129,7 @@ The AI agent shows each step as it executes them.
 
 </td><td>
 
-The AI agent performs the tasks in the Execution workspace that shows the execution status. For more information, see [AI Desktop Actions Execution workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/agentic-desktop-excution-workspace.md#ad-execution-status).
+The AI agent performs the tasks in the Execution workspace that shows the execution status. For more information, see [AI Desktop Actions Execution workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/agentic-desktop-excution-workspace.md#ad-execution-status).
 
 </td></tr><tr><td>
 
@@ -186,15 +186,15 @@ The Execution workspace returns to the ready state.
 
 11. Use the smart sizing options to enable your desktop executions automatically adapt to your display.
 
-<table id="choicetable_tbg_qwv_23c"><thead><tr><th align="left" id="d24024e583">
+<table id="choicetable_tbg_qwv_23c"><thead><tr><th align="left" id="d23530e583">
 
 Option
 
-</th><th align="left" id="d24024e586">
+</th><th align="left" id="d23530e586">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d24024e592">
+</th></tr></thead><tbody><tr><td id="d23530e592">
 
 **Fit to window**
 
@@ -202,7 +202,7 @@ Description
 
 Scales the execution screen to fit within the display area of the Execution workspace. The entire screen is visible without scrolling.Shortcut: `ctrl+shift+w`
 
-</td></tr><tr><td id="d24024e605">
+</td></tr><tr><td id="d23530e605">
 
 **Original resolution**
 

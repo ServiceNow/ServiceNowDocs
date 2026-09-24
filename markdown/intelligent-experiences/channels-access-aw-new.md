@@ -3,11 +3,11 @@ title: Select channels for an agentic workflow
 description: In the guided setup for an agentic workflow, configure where users can engage with the agentic workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/channels-access-aw-new.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create an agentic workflow, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Create an agentic workflow, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Select channels for an agentic workflow
@@ -53,5 +53,5 @@ You have completed the channels section of the guided setup for creating an agen
 
 ## What to do next
 
-You can save the agentic workflow by selecting **Save**, and you can [test your agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-ai-asset-new.md) by selecting **Run test**.
+You can save the agentic workflow by selecting **Save**, and you can [test your agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-ai-asset-new.md) by selecting **Run test**.
 

@@ -3,11 +3,11 @@ title: Test Agent references
 description: The reference topics provide additional information about Test Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/test-agent-references.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Test Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 

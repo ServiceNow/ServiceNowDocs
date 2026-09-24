@@ -3,7 +3,7 @@ title: Amazon DynamoDB Spoke
 description: Manage streams, tables, and tags in your Amazon DynamoDB database from your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/amazon-dyndb-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
@@ -86,5 +86,5 @@ Integration Hub uses aliases to manage connection and credential information, an
 
 **Note:** Two Credential aliases are available for the Amazon DynamoDB spoke.
 
-For information about setting up the spoke, see [Set up the Amazon DynamoDB spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-dyndb.md).
+For information about setting up the spoke, see [Set up the Amazon DynamoDB spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-dyndb.md).
 

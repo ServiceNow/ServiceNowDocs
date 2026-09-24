@@ -3,9 +3,9 @@ title: Using queues for outbound calls
 description: Use the toggle in the Global Call window to set a default queue for all your outbound calls during your current browser session, or select a queue for every call.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/using-queues-for-outbound-calls.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-01-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Queue selection, ICC for voice calls, Integrating with Computer Telephony Integration \(CTI\), Integrate, Customer Service Management]
 ---
@@ -35,5 +35,5 @@ The toggle enables you to set a default queue for all your outbound calls during
     -   With the toggle is turned off, a selected outbound queue can be used for that call only.
     -   After closing the window, the selection window appears again on the next call attempt.
 
-See [Select queues from keypad, directory, and Interaction record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/select-queue-for-outbound-calls-from-keypad.md).
+See [Select queues from keypad, directory, and Interaction record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/select-queue-for-outbound-calls-from-keypad.md).
 

@@ -3,11 +3,11 @@ title: Activate a playbook page or page variant
 description: Activate a playbook page or page variant and set the page order. The system uses the active page with the lowest order number to display records in CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-process-based-page.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure templates and pages, Workspace, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Playbook pages, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Activate a playbook page or page variant
@@ -24,7 +24,7 @@ Some playbook pages and page variants are not active by default. You need to act
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
 
-2.  In the Experiences list, select **CSM/FSM Configurable Workspace**.
+2.  In the Experiences list, select CRM Workspace.
 
 3.  Find one of the following pages by scrolling through the Pages and variants list to the Record section:
 
@@ -41,7 +41,7 @@ Some playbook pages and page variants are not active by default. You need to act
 
 6.  In the **Order** field, set the order number for the page.
 
-    Each page has an order number. The page with the lowest order number is the default page. When the system displays a record in CRM Workspace, it uses this default page to display the record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-ws-set-record-page-order.md).
+    Each page has an order number. The page with the lowest order number is the default page. When the system displays a record in CRM Workspace, it uses this default page to display the record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/config-csm-ws-set-record-page-order.md).
 
 7.  In the **Variant conditions** field, specify the table value.
 
@@ -53,11 +53,11 @@ Some playbook pages and page variants are not active by default. You need to act
 **Related topics**  
 
 
-[Create a page from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/reuse-page-definitions.md)
+[Create a page from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/reuse-page-definitions.md)
 
-[Edit a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/edit-page.md)
+[Edit a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/edit-page.md)
 
-[Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-variant.md)
+[Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-variant.md)
 
-[Edit page variant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/edit-variant-settings.md)
+[Edit page variant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/edit-variant-settings.md)
 

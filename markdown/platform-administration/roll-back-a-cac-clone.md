@@ -3,9 +3,9 @@ title: Roll back a clone
 description: Roll back a clone to remove the latest cloning updates on a cloning target if a mistake was made or an error has occurred.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/roll-back-a-cac-clone.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---

@@ -3,9 +3,9 @@ title: Remediation view
 description: The Remediation view in the Security Exposure Management workspace provides remediation owners and vulnerability managers with a consolidated view of remediation tasks, findings \(vulnerable items and configuration test results\), and assets \(configuration items\) that are associated with exposure findings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-workspaces-ui-remediation-module.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Exposure Management Workspace, Explore, Unified Security Exposure Management, Security Operations]
 ---

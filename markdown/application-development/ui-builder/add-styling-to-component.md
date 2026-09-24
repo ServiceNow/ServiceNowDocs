@@ -3,11 +3,11 @@ title: Change the default appearance of components
 description: Set the styles for components and wrappers to change the default appearance.Set CSS styles for a component to change its default appearance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/add-styling-to-component.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Customize UI Builder pages using components, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -26,9 +26,9 @@ Role required: ui\_builder\_admin
 
 This task describes how to add styles to components and the wrappers \(such as Body, column layouts, or a column\) containing components. Customize component styling by selecting the component in the Content tree or apply styles to multiple components by placing components inside a wrapper.
 
-For information about adding styling to your entire experience, see [Manage the visual style of UI Builder experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/manage-the-visual-style-of-ui-builder-experiences.md).
+For information about adding styling to your entire experience, see [Manage the visual style of UI Builder experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/manage-the-visual-style-of-ui-builder-experiences.md).
 
-This task applies to the new layout system introduced in Australia. If your page is using the old layout system, see [Add styling to a component using the old layout system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-styling-to-component.md) for more information.
+This task applies to the new layout system introduced in Brazil. If your page is using the old layout system, see [Add styling to a component using the old layout system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/add-styling-to-component.md) for more information.
 
 **Note:** As you add and configure components on the page, the stage shows your work. If you make changes and the updates do not load on the stage, select the **Open menu** icon and then select **Developer &gt; Reload Stage**. Reloading the stage shows your changes, but does not save them. To save your work, select **Save** at the top right.
 
@@ -40,11 +40,11 @@ This task applies to the new layout system introduced in Australia. If your page
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Create or open a page or page variant.
 
-    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-page.md).
 
 4.  In the Content panel, select a component or wrapper \(for example, Body, a column layout, or a column\) for which you want to add styling.
 
@@ -123,12 +123,12 @@ This task applies to the new layout system introduced in Australia. If your page
     -   `z-index`
     \[Omitted image "uib-css-code-editor.png"\] Alt text: CSS styles code editor.
 
-    **Important:** Some components contain built-in styling configurations that you can't override with CSS in UI Builder. For information about overriding these style configurations, see [Manage the visual style of UI Builder experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/manage-the-visual-style-of-ui-builder-experiences.md).
+    **Important:** Some components contain built-in styling configurations that you can't override with CSS in UI Builder. For information about overriding these style configurations, see [Manage the visual style of UI Builder experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/manage-the-visual-style-of-ui-builder-experiences.md).
 
 8.  In the main header, select **Save** to save your changes.
 
 
-**Parent Topic:**[Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md)
+**Parent Topic:**[Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-components.md)
 
 ## Add styling to a component using the old layout system
 
@@ -142,7 +142,7 @@ Role required: ui\_builder\_admin
 
 This task describes how to add styles to the wrapper containing your component, which is generally recommended instead of applying styles to the component directly. Make sure that the component whose styles that you want to define is placed within a container component to put the component in a wrapper. Your component's wrapper is one level higher than the component in the Content hierarchy and is labeled by default as `Main`.
 
-To add styling to an entire page, you can use standards-based CSS in the wrapper for the page. For information about adding styling to your entire experience, see [Manage the visual style of UI Builder experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/manage-the-visual-style-of-ui-builder-experiences.md).
+To add styling to an entire page, you can use standards-based CSS in the wrapper for the page. For information about adding styling to your entire experience, see [Manage the visual style of UI Builder experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/manage-the-visual-style-of-ui-builder-experiences.md).
 
 ### Procedure
 
@@ -150,11 +150,11 @@ To add styling to an entire page, you can use standards-based CSS in the wrapper
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Create or open a page or page variant.
 
-    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-page.md).
 
     **Note:** A component must be placed in a container before adding styles to the component.
 
@@ -185,7 +185,7 @@ To add styling to an entire page, you can use standards-based CSS in the wrapper
     -   `min-width`
     -   `max-width`
     -   `z-index`
-    **Important:** Some components contain built-in styling configurations that you cannot override with CSS in UI Builder. For information about overriding these style configurations, see [Manage the visual style of UI Builder experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/manage-the-visual-style-of-ui-builder-experiences.md).
+    **Important:** Some components contain built-in styling configurations that you cannot override with CSS in UI Builder. For information about overriding these style configurations, see [Manage the visual style of UI Builder experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/manage-the-visual-style-of-ui-builder-experiences.md).
 
 6.  In the main header, select **Save** to save your changes.
 

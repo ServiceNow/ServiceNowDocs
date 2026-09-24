@@ -3,11 +3,11 @@ title: Create a gamification badge
 description: Create gamification badges that users can earn for achievements within the community.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/gamification-create-badge.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Administer gamification, Configuring communities, Communities, Customer Service Management]
 ---
@@ -19,6 +19,10 @@ Create gamification badges that users can earn for achievements within the commu
 ## Before you begin
 
 Role required: sn\_gamification.admin
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## About this task
 
@@ -94,5 +98,5 @@ The image file for the badge. Click to add the icon, choose the desired image fi
     The newly created badge appears on the Gamification Badges list.
 
 
-**Parent Topic:**[Administer gamification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communities-gamification-administer.md)
+**Parent Topic:**[Administer gamification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/communities-gamification-administer.md)
 

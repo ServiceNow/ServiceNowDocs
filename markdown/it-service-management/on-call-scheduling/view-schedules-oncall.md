@@ -3,11 +3,11 @@ title: View On-Call schedules
 description: The tiled grouping of on-call shift schedules helps you to review shifts rather than having to search through all shifts in the system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/view-schedules-oncall.html
-release: australia
+release: brazil
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Viewing schedules and request time-off, On-Call Scheduling, IT Service Management]
 ---
@@ -24,9 +24,9 @@ Role required: itil, rota\_manager, or rota\_admin
 
 Each card on the On-Call Schedules page represents a shift and identifies the on-call members. A card displays the group name, the shift name, and rosters \(Primary and Secondary\).
 
-On-Call schedules enable you to view the presence of on-call members. For more information on presence, see [User presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPresence.md).
+On-Call schedules enable you to view the presence of on-call members. For more information on presence, see [User presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_UserPresence.md).
 
-**Note:** By default, on-call schedules are loaded in batches of 20. You can use the **com.snc.on\_call\_rotation.landing\_page.group\_limit** property update the setting. For details, see [System properties for On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/on-call-properties.md).
+**Note:** By default, on-call schedules are loaded in batches of 20. You can use the **com.snc.on\_call\_rotation.landing\_page.group\_limit** property update the setting. For details, see [System properties for On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/on-call-properties.md).
 
 ## Procedure
 
@@ -51,7 +51,7 @@ On-Call schedules enable you to view the presence of on-call members. For more i
 
     **Note:** Each shift card displays only the first two rosters.
 
-    If you are a shift manager or roster member, the schedule opens. For more information, see [Updating an On-Call schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/update-schedule-oncall.md). In all other cases, you are redirected to the calendar view. For more information on on-call scheduling calendars, see [Manage shifts from the Calendar view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/customize-calendar-view-oncall.md).
+    If you are a shift manager or roster member, the schedule opens. For more information, see [Updating an On-Call schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/update-schedule-oncall.md). In all other cases, you are redirected to the calendar view. For more information on on-call scheduling calendars, see [Manage shifts from the Calendar view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/customize-calendar-view-oncall.md).
 
 5.  To view roster and escalation details, click **Roster and escalation details** on the shift card.
 
@@ -59,12 +59,12 @@ On-Call schedules enable you to view the presence of on-call members. For more i
 
     -   Roster: Displays a list of all rosters and contact number, email address, group, and the shift for the active On-Call member.
     -   Escalation Path: Displays the escalation path defined for the shift.
-    **Note:** By default, the details of the on-call member of the primary roster are displayed. Click **Send a direct message** to send a direct message to the on-call member. Alternatively, call the member if the Notify WebRTC is configured. For more information on real-time messaging, see [Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_Connect.md). For information on Notify WebRTC, see [Forward call workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_WorkflowActivityForwardCall.md). For information on the **Specify a valid Notify Number with voice capability** property that enables the Notify WebRTC for on-call, see [System properties for On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/on-call-properties.md).
+    **Note:** By default, the details of the on-call member of the primary roster are displayed. Click **Send a direct message** to send a direct message to the on-call member. Alternatively, call the member if the Notify WebRTC is configured. For more information on real-time messaging, see [Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_Connect.md). For information on Notify WebRTC, see [Forward call workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_WorkflowActivityForwardCall.md). For information on the **Specify a valid Notify Number with voice capability** property that enables the Notify WebRTC for on-call, see [System properties for On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/on-call-properties.md).
 
 6.  To view gaps and conflicts in a shift, click the info badge on the shift card.
 
     -   This is applicable only for group managers, shift managers, and delegated shift managers.
-    -   This information is displayed based on the setting of the **com.snc.on\_call\_rotation.landing\_page.show\_pending\_actions** property. For more information, see [System properties for On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/on-call-properties.md).
+    -   This information is displayed based on the setting of the **com.snc.on\_call\_rotation.landing\_page.show\_pending\_actions** property. For more information, see [System properties for On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/on-call-properties.md).
 
-**Parent Topic:**[Viewing schedules and request time-off](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/viewing-schedules-and-escalation.md)
+**Parent Topic:**[Viewing schedules and request time-off](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/viewing-schedules-and-escalation.md)
 

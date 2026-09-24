@@ -3,9 +3,9 @@ title: Sightings Search - Determine Observables activity
 description: The Sightings Search - Determine Observables workflow activity determines which observables to include in the workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/determine-observables-sightings-search-activity.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Operations Integration - Sightings Search Flow, Create sightings search configuration records, Security Operations Integration- Sightings Search capability, Integration capabilities, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -43,5 +43,5 @@ The output variables contain data that can be used in subsequent activities.
 |--------|-----------|
 |observables|Filtered observables|
 
-**Parent Topic:**[Security Operations Integration - Sightings Search Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-integration-sightings-search-workflow.md)
+**Parent Topic:**[Security Operations Integration - Sightings Search Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/secops-integration-sightings-search-workflow.md)
 

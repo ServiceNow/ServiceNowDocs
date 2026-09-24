@@ -3,11 +3,11 @@ title: Actionable notifications for incidents in ITSM Virtual Agent
 description: Notify employees of pending tasks and incident alerts with notifications from ITSM Virtual Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-virtual-agent/itsm-actionable-notification-flows.html
-release: australia
+release: brazil
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [ITSM Virtual Agent pre-built actionable notifications, ITSM Virtual Agent, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [ITSM Virtual Agent pre-built actionable notifications, ITSM Virtual
 
 Notify employees of pending tasks and incident alerts with notifications from ITSM Virtual Agent.
 
-You must activate notifications in Workflow Studio in order to use them. For details, see [Set up actionable notifications for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/setup-actionable-notifications.md).
+You must activate notifications in Workflow Studio in order to use them. For details, see [Set up actionable notifications for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-virtual-agent/setup-actionable-notifications.md).
 
 ## Incident commented
 
@@ -62,5 +62,5 @@ The end user can also give feedback and add comments to the incident​.
 
 \[Omitted image "KB3.png"\] Alt text: Knowledge Base article attached to incident notification.
 
-**Parent Topic:**[ITSM Virtual Agent pre-built actionable notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-actionable-notifications.md)
+**Parent Topic:**[ITSM Virtual Agent pre-built actionable notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-virtual-agent/itsm-actionable-notifications.md)
 

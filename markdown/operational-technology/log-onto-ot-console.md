@@ -3,9 +3,9 @@ title: Log on to the Discovery Console for OT
 description: This sections describes your initial log onto the OT Discovery Collector.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/log-onto-ot-console.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-05-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the Discovery Console for OT, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -24,5 +24,5 @@ Copy or note the password you entered or generated. Select the check box next to
 
 \[Omitted image "console-log-in-B.png"\] Alt text: Register initial User
 
-**Parent Topic:**[Configure the Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-ot-discovery-console.md)
+**Parent Topic:**[Configure the Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/configure-ot-discovery-console.md)
 

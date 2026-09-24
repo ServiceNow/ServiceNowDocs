@@ -3,11 +3,11 @@ title: Lock workflow activity
 description: The Lock activity prevents other instances of this workflow from continuing past this activity until the lock is released.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-activities/r\_LockActivity.html
-release: australia
+release: brazil
 product: Workflow Activities
 classification: workflow-activities
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Utility workflow activities, Workflow activities reference, Workflow activities, Classic Workflow, Build workflows]
 ---
@@ -62,7 +62,7 @@ Key
 
 </td><td>
 
-A unique mutex key. The [Unlock activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_UnlockActivity.md) activity uses this key to release the lock.
+A unique mutex key. The [Unlock activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_UnlockActivity.md) activity uses this key to release the lock.
 
 </td></tr><tr><td class="subhead" colspan="2">
 

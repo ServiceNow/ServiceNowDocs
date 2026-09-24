@@ -3,11 +3,11 @@ title: Create Catalog Task action
 description: Creates a record in the Catalog Task \[sc\_task\] table associated to a requested item in the Requested Items \[sc\_req\_item\] table. Adds the catalog task record as data to be used in the flow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-catalog-task-flow-designer.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Actions, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -46,7 +46,7 @@ Provide a value for each input that your flow needs. To add dynamic values, you 
 
     Data type: **Template Value**
 
-    The field values that you want to set in the catalog task. If adding the action to a subflow, you can allow flow designers to dynamically set field values. See [Create a template value input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/template-value.md).
+    The field values that you want to set in the catalog task. If adding the action to a subflow, you can allow flow designers to dynamically set field values. See [Create a template value input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/template-value.md).
 
 -   **Wait**
 
@@ -88,5 +88,5 @@ In this example, the Service Catalog Item request flow first requests manager an
 
 In this example, the flow execution details show the requested item record number and the catalog task record number. The action state is listed as waiting since the Wait input was selected. The flow waits until the catalog task is closed before continuing.
 
-**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-actions.md)
 

@@ -1,21 +1,20 @@
 ---
 title: Add a tool
-description: Add and configure tools in the AI Skill Kit tool canvas to gather data and context before a prompt runs. Tools can be chained sequentially, run in parallel, or branched conditionally using decision nodes.
+description: Add and manage tools visually in the Tools editor, including decision branching, to execute different tools for your skill. Adding decision branches between tools enables you to define the conditions that need to be met for a tool to run. If no conditions are met, the default branch's step is executed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/add-a-tool.html
-release: australia
+release: brazil
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: task
-last_updated: "2026-08-03"
-reading_time_minutes: 5
-keywords: [tool, tool node, decision node, AI Skill Kit]
-breadcrumb: [Create a prompt, Using AI Skill Kit, AI Skill Kit, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Create a prompt, Using AI Skill Kit, AI Skill Kit, Generative AI skills, Enable AI Experiences]
 ---
 
 # Add a tool
 
-Add and configure tools in the AI Skill Kit tool canvas to gather data and context before a prompt runs. Tools can be chained sequentially, run in parallel, or branched conditionally using decision nodes.
+Add and manage tools visually in the Tools editor, including decision branching, to execute different tools for your skill. Adding decision branches between tools enables you to define the conditions that need to be met for a tool to run. If no conditions are met, the default branch's step is executed.
 
 ## Before you begin
 
@@ -23,94 +22,87 @@ Role required: sn\_skill\_builder.admin
 
 ## About this task
 
-A tools are utilities that run before the skill prompt executes. They gather data, call services, or run scripts. Their outputs can be referenced in the prompt template as context. The input for a tool can be a skill input or the output of a previous tool in the canvas.
+A tool is a utility that is configured to convert skill inputs into skill outputs. The tool outputs can be referenced in a prompt template to introduce context to a prompt. The input for a tool can be a skill input or the output of another tool.
 
-The **Add tools** tab displays a visual canvas showing the execution flow of your skill: from **Start**, through any tool and decision nodes you add, to the skill prompt, and then to **End**. You add nodes to the flow by selecting the **\(+\)** icon on a connector between existing nodes.
+You can use the Tool editor to configure tools and link them to each other.
 
-Two types of nodes are available:
-
--   **Tool Nodes**
-
-    Tool nodes run a single tool such as a script, flow action, retriever, or web search. Tool nodes execute sequentially by default. When adding a tool node, you can select **Add as parallel node** to place it alongside an existing node at the same level in the flow. Then, both tools run simultaneously and their outputs are both available downstream.
-
--   **Decision nodes**
-
-    Decision nodes route execution to one of several downstream tool nodes based on conditions. Branches are evaluated in order. The first fulfilled condition runs and the rest are skipped. A default branch runs if no conditions are met.
-
-
-**Important:** Decision nodes require all destination tool nodes to already exist on the canvas. Create all tool nodes that the decision will route to before adding the decision node.
+Decision nodes enable you to execute different tools, based on the logic of the branch. A decision node can contain multiple branches but needs one default branch.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **AI Skill Kit** &gt; **Home**.
 
-2.  Select the skill that you want to add a tool to.
+2.  Select the skill you want to add a tool to.
 
-3.  Select the **2. Add tools** tab.
+3.  Select the **Tool editor** tab.
 
-4.  Select the **\(+\)** icon on the connector where you want to insert a node.
+4.  Select the \(+\) icon to add a node.
 
-    The **Add node** dialog opens. Select **Tool node** or **Decision node**. Decision node is only selectable after at least one tool node exists on the canvas.
+5.  Select the type of node that you want to add.
 
-5.  To add a tool node, select **Tool node** and then **Add**.
+<table id="table_ibf_j2z_12c"><thead><tr><th>
 
-    1.  In the **Add tool** dialog, select a tool type from the **Tool type** dropdown.
+Node type
 
-        |Tool type|Description|
-        |---------|-----------|
-        |Flow Action|Runs a flow action from Workflow Studio as a tool.|
-        |Retriever|Retrieves records or data from the platform to use as context in the prompt. See [Add a retriever](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/add-retriever.md).|
-        |Script|Runs a custom server-side script as a tool.|
-        |Skill|Calls another published skill as a tool, enabling skill chaining.|
-        |Sub Flow|Runs a subflow from Workflow Studio as a tool.|
-        |Web Search|Searches the web and returns results to use as context in the prompt. See [Add a web search tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/add-web-search.md).|
-        |Predictive Intelligence|Uses a Predictive Intelligence solution to classify or predict values as part of the skill flow. See .|
-        |Document Intelligence|Extracts structured data from documents as part of the skill flow. See .|
+</th><th>
 
-    2.  If you want this tool to run simultaneously with another tool at the same level in the flow, select **Add as parallel node**.
+Steps
 
-        When selected, the tool is placed alongside the next node in the flow rather than above it. Both tools run at the same time and their outputs are available to the next step downstream.
+</th></tr></thead><tbody><tr><td>
 
-    3.  Select **Configure tool**.
+Tool node
 
-    4.  Complete the five-step configuration wizard.
+ Types of tools:
 
-        |Step|Description|
-        |----|-----------|
-        |1. General info|Enter a name for the tool node. The description and resource fields have defaults based on the tool type selected.|
-        |2. Tool inputs|Configure the inputs for the tool. The available fields depend on the tool type. Input values can be set as static values, references to skill inputs, or script-generated values.|
-        |3. Tool outputs|Review the outputs the tool produces. Output names and types are fixed by the tool type and cannot be edited. Optionally, select **Truncate** to prevent an output from exceeding token limits. Avoid truncating outputs that are critical to the prompt.|
-        |4. Tool conditions \(optional\)|Set conditions that determine whether the tool runs or is skipped during execution. Select **None \(Always run\)** to run the tool unconditionally, or define conditions using **Script** or **Filters**.|
-        |5. Summary|Review the tool configuration before adding it to the canvas.|
+-   Script
+-   SubFlow
+-   Flow Action
+-   Retriever
+-   Skill
+-   Web search
 
-    5.  Select **Add tool**.
+**Note:** If you select Google as your web search tool provider, the web search tool uses [Grounding with Google Search](https://cloud.google.com/vertex-ai/generative-ai/docs/grounding/grounding-with-google-search), offered under a Global Standard deployment. Because grounding is not [data resident](https://cloud.google.com/vertex-ai/generative-ai/docs/security-controls), Google's global infrastructure routes traffic to a global data center for each web search request. This processing location may be different from the data processing location that you chose for your ServiceNow instance. Consider your organization's data policies before enabling skills that have Google web search tools.
 
-6.  To add a decision node, select **Decision node** and then **Add**.
-
-    **Important:** All tool nodes that the decision will route to must already exist on the canvas before you add the decision node. The **Destination node** dropdown only lists nodes already on the canvas.
-
-    1.  Enter a **Name** for the decision node.
-
-        The **Originating node** field is read-only and is automatically populated with the upstream tool node.
-
-    2.  For each branch, enter a **Branch name** and select a **Destination node**.
-
-    3.  Under **Branch conditions**, select **Filters** or **Script** and define the conditions that must be met for this branch to execute.
-
-        Branches are evaluated in the order they appear. Once a branch condition is fulfilled, all subsequent branches are skipped. Use the arrow controls to reorder branches.
-
-    4.  Select **Add branch** to add additional branches.
-
-    5.  Select **Add**.
-
-        The default branch executes if no other branch conditions are met.
-
-7.  Select **Run tools** to test the tool flow.
+-   Predictive Intelligence
 
 
-## What to do next
+</td><td>
 
-After adding and testing your tools, configure the prompt to reference tool outputs using the **+ Inputs and tools** button in the prompt editor. To learn more, see [Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/create-prompt-template.md).
+1.  Select a tool type.
+2.  Name the tool.
+3.  Select a condition.
 
-**Parent Topic:**[Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/create-prompt-template.md)
+
+</td></tr><tr><td>
+
+Decision node
+
+</td><td>
+
+1.  Name the node.
+2.  Select **Add branch**
+    1.  Name the branch.
+    2.  Select a Destination node.
+    3.  Set the conditions.
+3.  Select a Destination node.
+
+
+</td></tr></tbody>
+</table>    \[Omitted image "nask-tool-editor.png"\] Alt text: Tool editor tab in AI Skill Kit
+
+6.  Select **Add**.
+
+7.  Select **Run tools** to test the tools.
+
+
+-   **[Add a retriever](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/add-retriever.md)**  
+Add a retriever to your prompt to augment and add context to your prompts with AI search results.
+-   **[Add a web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/add-web-search.md)**  
+Add a web search as a tool in AI Skill Kit. Adding a web search as a tool enables you to add search results to your prompt.
+-   **[Add Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/add-predictive-intelligence.md)**  
+Add predictive intelligence as a tool in AI Skill Kit. Predictive intelligence models enable you to predict, estimate, and identify patterns that can be used to route work, populate forms, estimate wait times, and more.
+-   **[Add Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/add-document-intelligence.md)**  
+Add Document Intelligence as a tool in AI Skill Kit to extract structured data from documents as part of your skill's execution flowflow.
+
+**Parent Topic:**[Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/create-prompt-template.md)
 

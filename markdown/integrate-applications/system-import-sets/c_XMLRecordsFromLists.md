@@ -3,11 +3,11 @@ title: XML records from lists
 description: You can directly export records as XML from any list or form.During the import of XML records, the system attempts to match some reference field display values to a local sys\_id value.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/c\_XMLRecordsFromLists.html
-release: australia
+release: brazil
 product: System Import Sets
 classification: system-import-sets
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Importing from another ServiceNow instance, Import sets, Imports, Workflow Data Fabric]
 ---
@@ -30,7 +30,7 @@ The XML import process directly inserts records into the target table. During th
 
 This process is good for directly copying records from one system to another but does not remove the need to know the relationships between tables. If you need validate or transform data or reconcile the sys ID values of reference fields, use an XML import set instead.
 
-**Parent Topic:**[Importing from another ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportingFromAnotherSNInstance.md)
+**Parent Topic:**[Importing from another ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/c_ImportingFromAnotherSNInstance.md)
 
 ## Automatic matching of display values
 

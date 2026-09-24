@@ -3,9 +3,9 @@ title: View test details
 description: View the results of an individual synthetic test run by a monitor.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/view-test-details.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Identifying system issues with synthetic monitoring, Synthetic monitoring, ITOM AIOps, IT Operations Management]
 ---

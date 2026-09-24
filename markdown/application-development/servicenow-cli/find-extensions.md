@@ -3,13 +3,13 @@ title: Manage ServiceNow CLI extensions
 description: Add extensions to the ServiceNow CLI to load additional functionality and commands, update existing extensions, or remove extensions you no longer need.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-cli/find-extensions.html
-release: australia
+release: brazil
 product: ServiceNow CLI
 classification: servicenow-cli
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow CLI, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [ServiceNow CLI, Developing your application, Building applications]
 ---
 
 # Manage ServiceNow CLI extensions
@@ -63,5 +63,5 @@ Role required: none.
         ```
 
 
-**Parent Topic:**[ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-cli/servicenow-cli.md)
+**Parent Topic:**[ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-cli/servicenow-cli.md)
 

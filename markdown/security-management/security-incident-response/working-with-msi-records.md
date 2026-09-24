@@ -3,11 +3,11 @@ title: Working with MSI Records
 description: Using the Security Incident Response workspace, you can propose, promote, or link security incidents as major security incidents when the incidents are identified as critical threat to the organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/working-with-msi-records.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -24,14 +24,14 @@ The Major Security Incident Management \(MSIM\) UI actions are displayed on the 
 
 \[Omitted image "msi-records.png"\] Alt text: MSI integration
 
--   **[Propose as Major Security Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/propose-to-major-security-incident.md)**  
+-   **[Propose as Major Security Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/propose-to-major-security-incident.md)**  
 Propose a security incident as a Major Security Incident \(MSI\).
--   **[Promote to Major Security Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/promote-to-major-security-incident.md)**  
+-   **[Promote to Major Security Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/promote-to-major-security-incident.md)**  
 Promote a security incident to major security incident.
--   **[Link to Major Security Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/link-to-major-security-incident.md)**  
+-   **[Link to Major Security Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/link-to-major-security-incident.md)**  
 Link a security incident to a major security incident as child security incident\(s\).
 
-**Parent Topic:**[Using SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-sir-workspace.md)
+**Parent Topic:**[Using SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/using-sir-workspace.md)
 
 **Related topics**  
 

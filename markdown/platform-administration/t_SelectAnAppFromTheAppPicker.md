@@ -3,11 +3,11 @@ title: Select an application from the application picker
 description: Use the application picker to select the application scope to which any new records and updates apply.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_SelectAnAppFromTheAppPicker.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, Legacy Application Manager, Administering applications, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Administer your apps, Administering applications, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Select an application from the application picker
@@ -39,11 +39,11 @@ Application developers must select an application as their current scope context
 
 ## What to do next
 
-The application picker is part of the Next Experience picker. For more information, see [Exploring Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-pickers.md).
+The application picker is part of the Next Experience picker. For more information, see [Exploring Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-pickers.md).
 
-For more information about application scoping, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md).
+For more information about application scoping, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationScope.md).
 
-For more information about selecting update sets, see [Select the current update set in Unified Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/select-update-set-system-settings.md).
+For more information about selecting update sets, see [Select the current update set in Unified Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/select-update-set-system-settings.md).
 
-**Parent Topic:**[Using Legacy Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/using-legacy-application-manager.md)
+**Parent Topic:**[Administer your apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_ManagingApplications.md)
 

@@ -3,9 +3,9 @@ title: View cases
 description: OSP manager or agent, you must be able to view all application modules with the list of cases for customers, consumers, and products served by your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/osp-view-cases.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Outsourced Service Provider agent tasks, Manage cases, Use, Customer Service Management]
 ---

@@ -3,11 +3,11 @@ title: Predictions in Information Extraction skill
 description: A prediction is the value that the Information Extraction skill infers for each field, table, or question in a use case. Predictions drive automation decisions and can be applied automatically or reviewed by a person, depending on the use case configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictions.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
-breadcrumb: [Information Extraction skill, Explore, Content Understanding, Enable AI experiences]
+breadcrumb: [Information Extraction skill, Explore, Content Understanding, Generative AI skills, Enable AI Experiences]
 ---
 
 # Predictions in Information Extraction skill
@@ -18,7 +18,7 @@ A prediction is the value that the Information Extraction skill infers for each 
 
 A prediction is the value that the Information Extraction skill infers for a field, table, or question in a specific use case. When you submit a document for processing, the skill processes its content and generates a prediction for each field, table cell, and question set in that use case.
 
-A prediction shows what the skill identifies as the correct value based on the content in the document. Whether a prediction is applied without review or reviewed by a person depends on the automation setting for the use case. To understand how automation settings control whether predictions are applied automatically or sent for review, see [Automation modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/automation-modes.md).
+A prediction shows what the skill identifies as the correct value based on the content in the document. Whether a prediction is applied without review or reviewed by a person depends on the automation setting for the use case. To understand how automation settings control whether predictions are applied automatically or sent for review, see [Automation modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/automation-modes.md).
 
 ## Prediction sources
 
@@ -31,5 +31,5 @@ A prediction shows what the skill identifies as the correct value based on the c
 **Related topics**  
 
 
-[Use cases in Information Extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/cu-use-cases.md)
+[Use cases in Information Extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/cu-use-cases.md)
 

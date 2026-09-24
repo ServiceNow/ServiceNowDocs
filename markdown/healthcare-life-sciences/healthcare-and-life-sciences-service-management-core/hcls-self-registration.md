@@ -3,11 +3,11 @@ title: Configure the self-registration feature on the Patient Portal
 description: Enable or disable the self-registration feature on the Patient Portal by setting the value of the Enables self registration on Healthcare patient Portal property \(sn\_hcls.enable\_self\_registration\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-self-registration.html
-release: australia
+release: brazil
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring the Patient Portal, Configure, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -18,7 +18,7 @@ Enable or disable the self-registration feature on the Patient Portal by setting
 
 ## Before you begin
 
-Set the application scope to Healthcare and Life Sciences using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
+Set the application scope to Healthcare and Life Sciences using the application picker. For more information, see Application picker.
 
 Role required: admin
 

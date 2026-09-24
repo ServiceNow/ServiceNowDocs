@@ -3,12 +3,12 @@ title: ACL types
 description: Create ACLs on different components of the system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/acl-rule-types.html
-release: australia
+release: brazil
 product: Access Control
 classification: access-control
 topic_type: concept
-last_updated: "2026-06-23"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Explore Access Control Lists, Access Control Lists \(ACLs\), Access Management]
 ---
 
@@ -20,7 +20,7 @@ Create ACLs on different components of the system.
 
 Record ACLs consist of table and field names.
 
--   The table name is the table that you want to secure. If other tables extend from this table, then the table is considered a parent table. ACLs for parent tables apply to any table that extends the parent table.
+-   The table name is the table that you want to secure. If other tables extend from this table, then the table is considered a parent table. ACL rules for parent tables apply to any table that extends the parent table.
 -   The field name is the field that you want to secure. Some fields are part of multiple tables because of table extension. ACLs for fields in a parent table apply to any table that extends the parent table.
 
 ACLs can secure the following record operations:
@@ -178,7 +178,7 @@ Allows a data fabric table to reference a local table.
 This processing order ensures that users gain access to more specific objects before gaining access to more general objects. A user must pass both table and field ACLs to access a record object.
 
 -   If a user fails a table ACL, the user is denied access to all fields in the table, even if the user passes a field ACL.
--   If a user passes a table ACL, but fails a field ACL, the user cannot access the field described by the field ACL condition.
+-   If a user passes a table ACL, but fails a field ACL, the user can't access the field described by the field ACL.
 
 \[Omitted image "acl-matching.png"\] Alt text: ACL matching
 
@@ -188,7 +188,7 @@ Processor ACLs specify the processor you want to secure. For a list of available
 
 By default, an ACL for the EmailClientProcessor is included to restrict the email client to users with the itil role.
 
-Processor ACLs honor the STAR \(\*\) rule if they can't find a more specific ACL for those resources.
+Processor ACLs honor the STAR \(\*\) rule if they cannot find a more specific ACL for those resources.
 
 ## Table ACLs
 
@@ -200,7 +200,7 @@ Table ACLs are processed in the following order:
 2.  Match the parent table name. For example, task.
 3.  Match any table name \(\*\). For example, \*.
 
-If a user fails all table ACLs, the user cannot access any fields in the table. If a user passes a table ACL, the system then evaluates the field ACLs.
+If a user fails all table ACLs, the user can't access any fields in the table. If a user passes a table ACL, the system then evaluates the field ACLs.
 
 ## Field ACLs
 
@@ -240,4 +240,27 @@ Script include ACLs specify the client-callable script include to be secured. Fo
 The base system does not include any ACLs for client-callable script includes.
 
 Client-callable script include ACLs honor the STAR \(\*\) rule if they cannot find a more specific ACL for those resources.
+
+## Hierarchical scope ACLs
+
+Hierarchical scope ACLs apply to the REST API resource type only. They don't use table extension.
+
+Table extension ACLs work through the table class hierarchy. A child table inherits its parent's ACL \(for example, incident inherits from task\). Hierarchical scope ACLs use a different mechanism: the resource name is a slash-delimited path, and the system strips one segment off the end until it finds a match. For more information, see [record ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/access-control/acl-rule-types.md).
+
+For a resource named a/b/c/d, hierarchical scope ACLs are processed in the following order:
+
+1.  a/b/c/d
+2.  a/b/c
+3.  a/b
+4.  a
+5.  \* \(wildcard\)
+
+Evaluation stops at the first level with a matching ACL.
+
+Hierarchical scope ACLs support the execute operation only. Hierarchical scope ACLs evaluate these conditions:
+
+-   **Requires role**
+-   **Security Attribute Condition**
+
+Data conditions and scripts aren't supported, because there's no record to evaluate them against.
 

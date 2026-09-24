@@ -3,13 +3,13 @@ title: DEX alert grouping
 description: When several alerts are triggered from events governed by the same metric rule in DEX, the alert grouping mechanism automatically consolidates them. This mechanism reduces the need for users to manage individual alerts, streamline their response process, and enable faster issue resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/alert-grouping.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [DEX Alerts, Configure, Digital End-User Experience, IT Service Management]
+breadcrumb: [DEX Alerts, Monitor application performance, Manage, Digital End-User Experience, IT Service Management]
 ---
 
 # DEX alert grouping

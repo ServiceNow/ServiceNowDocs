@@ -3,11 +3,11 @@ title: View the change history of application services in legacy Agent Workspace
 description: View changes made to a service instance and to the individual configuration items \(CIs\) comprising the service in Agent Workspace. You can also compare the service status before and after a certain change or problem. The change history is useful for maintenance, planning, or troubleshooting procedures.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/workspace-view-history-app-service.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Application service analysis and maintenance using legacy Agent Workspace, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -34,7 +34,7 @@ The default timeline range is the recent week. The upper limit of the time range
 
 The time range cannot contain more than 1 thousand changes. If there are more changes within the selected range, the history scale automatically adjusts to display 1 thousand changes.
 
-To view validation status of changes and changes to related items, like tracked configuration files, use the classic Service Mapping UI. For more information, see [View the change history of application services in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_ViewCIChanges.md) and [Compare two versions of an application service in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_CompareBS.md).
+To view validation status of changes and changes to related items, like tracked configuration files, use the classic Service Mapping UI. For more information, see [View the change history of application services in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/t_ViewCIChanges.md) and [Compare two versions of an application service in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/t_CompareBS.md).
 
 ## Procedure
 
@@ -83,5 +83,5 @@ To view validation status of changes and changes to related items, like tracked 
             \[Omitted image "ws-map-history-select-CI.png"\] Alt text: Select CI to view corresponding change record in the Change history pane
 
 
-**Parent Topic:**[Application service analysis and maintenance using legacy Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-analysis-maintenance-legacy-workspace.md)
+**Parent Topic:**[Application service analysis and maintenance using legacy Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/service-analysis-maintenance-legacy-workspace.md)
 

@@ -3,11 +3,11 @@ title: Comparing Microsoft Azure Sentinel and Microsoft Graph Security API integ
 description: You can view the differences between Microsoft Azure Sentinel and Microsoft Graph Security API integrations and choose the right integration with your ServiceNow AI Platform instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/comparing-azure-sentinel-and-graph-security-api-integrations-with-sir.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Microsoft Azure Sentinel integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

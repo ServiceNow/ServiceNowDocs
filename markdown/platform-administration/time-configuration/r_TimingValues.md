@@ -3,11 +3,11 @@ title: Timing values
 description: Timing values are broken down into several sections.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/r\_TimingValues.html
-release: australia
+release: brazil
 product: Time Configuration
 classification: time-configuration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Client transaction timings, Reference, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -36,5 +36,5 @@ The following timings are reported at the bottom right of many forms and lists:
 |Network Time|client\_network\_time|Time the network takes to process the request. Calculated by subtracting the time of the user's request, from the time the page starts loading in the browser, and then subtracting the server processing time.|load\_time - start\_time - server\_time|
 |Browser Time|browser\_time|Time the browser takes to deliver the page by subtracting the time the page is fully rendered from the time the page starts loading in the browser.|load\_completion\_time - load\_time|
 
-**Parent Topic:**[Client transaction timings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_ClientTransactionTimings.md)
+**Parent Topic:**[Client transaction timings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/r_ClientTransactionTimings.md)
 

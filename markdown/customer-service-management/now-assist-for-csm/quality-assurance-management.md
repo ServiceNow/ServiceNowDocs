@@ -3,11 +3,11 @@ title: Automated quality assurance
 description: Configure the Automated quality assurance skill to generate quality assurance scores and feedback for closed cases through automatic review based on defined scoring criteria.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/quality-assurance-management.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-02-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -77,7 +77,7 @@ Add, configure, review, and activate the Automated quality assurance skill, incl
 
     -   Enabling or Disabling Parameters
 
-        1.  Locate the  **Active**  toggle or check box for the parameter you want to enable or disable.
+        1.  Locate the **Active** toggle or check box for the parameter you want to enable or disable.
         2.  Toggle the parameter status: Enable the toggle to activate the parameter in quality scoring and disable the toggle to exclude the parameter from quality scoring. When you disable a parameter, the system prompts you to redistribute its weight among remaining active parameters. Adjust the weights of other parameters to verify that the total equals 100%. Weight redistribution is required because all active parameter weights must sum to 100% for accurate scoring.
     -   Adjusting Parameter Weights
 
@@ -89,7 +89,7 @@ Add, configure, review, and activate the Automated quality assurance skill, incl
 
 7.  Select **Define Availability** to review when the side panel on the dashboard is active and available to customize.
 
-    Customize availability by setting specific conditions to enable the contextual side panel on the case record page. Alternatively, choose the default **Skill is always available** option to view the side panel for all cases. Select **Field** and **Value** to set conditions.
+    Admins can customize availability and set specific conditions to enable the contextual side panel on the case record page. Alternatively, choose the default **Skill is always available** option to view the side panel for all cases. Select **Field** and **Value** to set conditions to define availability.
 
 8.  Select **Define triggers** to choose how a base skill is automatically triggered.
 
@@ -103,7 +103,7 @@ Add, configure, review, and activate the Automated quality assurance skill, incl
 
 11. Select **Display** to activate the skill and make it visible in the In-product desktop for specific roles.
 
-    **Note:** The skill appears on forms and workspaces. By default, the skill is available to customer service managers and customer service agents’ roles. Admins can deactivate the skill to hide it from managers and agents during testing the configuration accuracy.
+    **Note:** The skill appears on forms and workspaces. By default, the skill is available to customer service managers and customer service agents' roles. Admins can deactivate the skill to hide it from managers and agents during testing the configuration accuracy.
 
 12. Select **Review and Activate** to check the default setup and a summary of your selections.
 
@@ -119,7 +119,7 @@ Add, configure, review, and activate the Automated quality assurance skill, incl
 **Related topics**  
 
 
-[Use automated quality assurance dashboard as a live agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/use-quality-assurance-dashboard-as-an-agent.md)
+[Use automated quality assurance dashboard as a live agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/use-quality-assurance-dashboard-as-an-agent.md)
 
-[Use automated quality assurance dashboard as a manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/use-quality-assurance-dashboard-as-a-manager.md)
+[Use automated quality assurance dashboard as a manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/use-quality-assurance-dashboard-as-a-manager.md)
 

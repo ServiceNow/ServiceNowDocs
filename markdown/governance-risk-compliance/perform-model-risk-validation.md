@@ -3,9 +3,9 @@ title: Perform model validation
 description: Perform model validation to assess and validate the model, collect required documents, report any issues, and determine if the model is fit for use. This process confirms that the model meets required standards and is ready for deployment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/perform-model-risk-validation.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Model Risk Management, Governance, Risk, and Compliance]
 ---
@@ -39,7 +39,7 @@ You can perform the listed activities in any sequence.
 
 2.  To perform model validation from the Model Risk Workspace, navigate to **All** &gt; **Model Risk Workspace** and do the following:
 
-    1.  Select the list icon \[Omitted image "list-icon-mrm.png"\] Alt text:.
+    1.  Select the list icon \[Omitted image "list-icon.png"\] Alt text:.
 
     2.  From the list, navigate to **Models** &gt; **Pre-deployment**.
 
@@ -53,7 +53,7 @@ You can perform the listed activities in any sequence.
 
 4.  To send an evidence collection request, select **Create Request**.
 
-    For more information, see [Request evidence for model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/request-evidence-for-model.md).
+    For more information, see [Request evidence for model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/request-evidence-for-model.md).
 
 5.  In the Validation Checklist stage, select **Open** to perform the validation.
 
@@ -76,13 +76,13 @@ You can perform the listed activities in any sequence.
 
 The model validation task is submitted for approval. If no approvers are configured, the task is marked as completed.
 
--   **[Request evidence for model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/request-evidence-for-model.md)**  
+-   **[Request evidence for model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/request-evidence-for-model.md)**  
 Send evidence collection request for all the required documents to complete the model validation. Evidence request helps validators to electronically request the information that they need from the model owner to perform model validation.
 
-**Parent Topic:**[Using Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-mrm.md)
+**Parent Topic:**[Using Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/using-mrm.md)
 
 **Related topics**  
 
 
-[Request evidence for model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/request-evidence-for-model.md)
+[Request evidence for model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/request-evidence-for-model.md)
 

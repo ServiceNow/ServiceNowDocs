@@ -3,11 +3,11 @@ title: Data storage in Splunk
 description: Configure and retrieve Key-Value store lookups used by TISC during its integration with Splunk.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-storage-splunk.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [data, storage, lookups, key-value, splunk, tisc, tisc integrations]
 breadcrumb: [TISC add-on for Splunk overview, TISC Security Tools integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
@@ -66,5 +66,5 @@ inputlookup <tisc_store_lookup>" example : | inputlookup tisc_store_lookup
 Query to lookup records in the KV store.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[TISC add-on for Splunk overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-addon-splunk.md)
+</table>**Parent Topic:**[TISC add-on for Splunk overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-addon-splunk.md)
 

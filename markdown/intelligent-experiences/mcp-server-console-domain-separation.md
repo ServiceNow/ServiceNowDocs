@@ -3,11 +3,11 @@ title: Domain separation and MCP Server Console
 description: If any conkeyrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file.Domain separation is supported for MCP Server Console. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mcp-server-console-domain-separation.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, MCP Server Console, Enable AI experiences]
+breadcrumb: [Reference, MCP Server Console, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Domain separation and MCP Server Console
@@ -23,7 +23,7 @@ Domain separation is supported for MCP Server Console. Domain separation enables
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-separated-apps.md).
 
 ## How domain separation works in MCP Server Console
 
@@ -36,11 +36,11 @@ Domain separation limits the MCP tools and servers that a user can access based 
 
 -   An MCP tool can be attached to a server within the same domain.
 -   When a tool or server is created via the UI, it is stamped with the creating user's current `sys_domain`. This stamp is the source of truth for all visibility and scoping decisions.
-
-**Parent Topic:**[MCP Server Console reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mcp-server-console-reference.md)
+-   
+**Parent Topic:**[MCP Server Console reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mcp-server-console-reference.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-sep-landing-page.md)
 

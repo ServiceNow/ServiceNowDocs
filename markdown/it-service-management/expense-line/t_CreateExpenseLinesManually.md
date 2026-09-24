@@ -3,11 +3,11 @@ title: Create expense lines manually
 description: You can create expense lines at a single level or in a hierarchy to better organize expense information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/expense-line/t\_CreateExpenseLinesManually.html
-release: australia
+release: brazil
 product: Expense Line
 classification: expense-line
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Expense lines and expense allocations, Expense Line, IT Service Management]
 ---
@@ -56,7 +56,7 @@ Use a hierarchy if it makes sense for your organization. In the example below, t
     |Cost center|The cost center financially responsible for the item identified in **Source ID**, if any.|
 
 
-**Parent Topic:**[Expense lines and expense allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/expense-line/c_ExpenseLinesAndAllocations.md)
+**Parent Topic:**[Expense lines and expense allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/expense-line/c_ExpenseLinesAndAllocations.md)
 
 **Related topics**  
 

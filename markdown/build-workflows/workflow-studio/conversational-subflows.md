@@ -3,13 +3,13 @@ title: Conversational subflows
 description: Run a Workflow Studio subflow from a Now Assist conversation. Create and configure the conversational skill from Workflow Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/conversational-subflows.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-04-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Explore subflows, Flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
+breadcrumb: [Explore subflows, Explore flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Conversational subflows
@@ -20,19 +20,19 @@ Workflow Studio offers a selection of preconfigured subflows that are available 
 
 ## Automatic skill activation
 
-This Platform workflow skill is automatically activated when you install a Now Assist product. For more information about Platform workflow skill activation, see [Generative AI skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-on-now-platform.md).
+This Platform workflow skill is automatically activated when you install a Now Assist product. For more information about Platform workflow skill activation, see [Now Assist skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-on-now-platform.md).
 
 ## User role access
 
-Give personnel an appropriate role to access conversational subflows. See [User roles for conversational subflows and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/user-roles-for-conversational-subflows-and-actions.md).
+Give personnel an appropriate role to access conversational subflows. See [User roles for conversational subflows and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/user-roles-for-conversational-subflows-and-actions.md).
 
 ## Making a subflow conversation compatible
 
 To make a subflow conversation compatible, you must perform the following steps.
 
 -   Turn on the subflows and actions skill. See .
--   Give personnel an appropriate role to access conversational subflows. See [User roles for conversational subflows and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/user-roles-for-conversational-subflows-and-actions.md).
--   Choose subflow inputs that are compatible with Conversational Interfaces. See [Supported input data types for conversational subflows and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/supported-input-data-types-for-conversational-subflows-and-actions.md).
+-   Give personnel an appropriate role to access conversational subflows. See [User roles for conversational subflows and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/user-roles-for-conversational-subflows-and-actions.md).
+-   Choose subflow inputs that are compatible with Conversational Interfaces. See [Supported input data types for conversational subflows and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/supported-input-data-types-for-conversational-subflows-and-actions.md).
 -   Add tooltip hint text to all subflow inputs.
 -   Publish the subflow.
 
@@ -86,7 +86,7 @@ Conversational subflows and actions support a limited number of input data types
 **Related topics**  
 
 
-[Conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/conversational-actions.md)
+[Conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/conversational-actions.md)
 
-[Configure subflow conversational settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/configure-subflow-conversation-settings.md)
+[Configure subflow conversational settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/configure-subflow-conversation-settings.md)
 

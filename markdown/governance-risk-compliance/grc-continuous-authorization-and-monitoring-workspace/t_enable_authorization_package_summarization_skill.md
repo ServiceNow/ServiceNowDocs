@@ -3,11 +3,11 @@ title: Reactivate Authorization package summarization skill
 description: Activate or deactivate the authorization package summarization skill from the AI Admin Panel to control whether users can generate summaries.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/t\_enable\_authorization\_package\_summarization\_skill.html
-release: australia
+release: brazil
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: task
-last_updated: "2026-08-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [enable, activate, skill, authorization package summarization, Now Assist Admin, CAM]
 breadcrumb: [Generate an authorization package summary, Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
@@ -57,5 +57,5 @@ The authorization package summarization skill comes pre-activated when the plugi
     You’re redirected to the **AI Skills** home page.
 
 
-**Parent Topic:**[Generate an authorization package summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/t_generate_authorization_package_summary.md)
+**Parent Topic:**[Generate an authorization package summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/t_generate_authorization_package_summary.md)
 

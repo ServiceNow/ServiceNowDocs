@@ -3,9 +3,9 @@ title: Create, update, and group recovery tasks
 description: Create tasks in a plan to recover your business from various disaster situations. Prioritize the tasks by determining the critical assets that have to be recovered and estimate the time by which the task must be completed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/bcp-recovery-tasks-grid.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Structured workflows for Business Continuity Planning, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -62,7 +62,7 @@ Scope
 
 </td><td>
 
-Asset that the task recovers. If this field is empty, the task recovers the asset at the plan level. Otherwise, it recovers the recovery task scope.
+Asset that the task recovers. If field is empty, the task recovers asset at the plan level. Otherwise, it recovers the recovery task scope.
 
 </td></tr><tr><td>
 

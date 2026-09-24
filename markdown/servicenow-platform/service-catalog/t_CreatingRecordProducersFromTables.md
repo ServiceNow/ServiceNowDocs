@@ -3,11 +3,11 @@ title: Create record producers from tables
 description: You can create Service Catalog record producers directly from a table record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_CreatingRecordProducersFromTables.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Record Producer, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -53,7 +53,7 @@ To create a record producer from a table record:
     -   If the field type is **Choice**, a corresponding question choice is created for each field choice.
     -   The new record producer is added to the **Record Producers** related list on the table record.
 
-**Parent Topic:**[Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_RecordProducer.md)
+**Parent Topic:**[Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/c_RecordProducer.md)
 
 **Related topics**  
 

@@ -3,11 +3,11 @@ title: Create an ETL transform map
 description: IntegrationHub ETL provides a guided setup which walks you through the completion of all necessary tasks for creating an ETL transform map for a specific integration.Provide basic details for the integration, such as the source of the data that you want to integrate into CMDB, and import the source data.Review sample records of raw source data, which will be integrated into the CMDB. Transform and prepare data to align with the target classes and attributes, if needed.There are several requirements and guidelines for mapping source data to target CMDB classes and attributes. Also, there is an option of deactivating class mappings while preserving the settings for an easy reactivation. Review these concepts to ensure proper processing by the Identification and Reconciliation Engine \(IRE\).Choose target classes and attributes in the CMDB to map source data columns to. You can map a data column to a specific target class, or add conditions so that the choice of target class depends on specific data values.Add relationships that exist among the target CMDB classes, for an integration.Preview the results of the sample data integration.Configure a schedule for importing data to CMDB using this ETL Transform Map.Use various transforms in IntegrationHub ETL to convert and prepare source data for mapping to the CMDB.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/integration-hub-etl/create-etl-transform-map.html
-release: australia
+release: brazil
 product: Integration Hub ETL
 classification: integration-hub-etl
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 40
 breadcrumb: [IntegrationHub ETL, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,7 +30,7 @@ Provide basic details for the integration, such as the source of the data that y
 
 The data source that you plan to select for the ETL Transform Map must exist in the same application scope as the one being used in the current session.
 
-When you open an ETL transform map, by default the map is not validated. You can enable this validation step by [adding the system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) **sn\_int\_studio.validation.enabled** to the System Properties \[sys\_properties\] table and then setting it to **true**. After validation is complete, you choose how to handle validation errors.
+When you open an ETL transform map, by default the map is not validated. You can enable this validation step by [adding the system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) **sn\_int\_studio.validation.enabled** to the System Properties \[sys\_properties\] table and then setting it to **true**. After validation is complete, you choose how to handle validation errors.
 
 Role required: cmdb\_inst\_admin
 
@@ -161,7 +161,7 @@ Discovery source associated with a new **CMDB Application**. Appears if you set 
 **Related topics**  
 
 
-[Create an Import Set data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/c_CreateNewDataSource.md)
+[Create an Import Set data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/c_CreateNewDataSource.md)
 
 ## Preview and prepare data
 
@@ -212,11 +212,11 @@ For a demo about working with nested payload data, watch the [Integration Hub - 
 
     You can't create new transforms for nested objects at this top-level view of the data. A nested object column contains number links which indicate the number of nested items for the record. To create a new transform for nested objects, click that number link to drill down to the actual nested data. Alternatively, navigate in the Data Structure panel to the nested object for which you want to create a transform.
 
-    A transform of nested data can reference parent objects of the nested data being transformed. Using the [sample payload for nested data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md) as an example, a transform for an interface object can reference the parent computer object but can't reference a software object.
+    A transform of nested data can reference parent objects of the nested data being transformed. Using the [sample payload for nested data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md) as an example, a transform for an interface object can reference the parent computer object but can't reference a software object.
 
     1.  In the New Transform sidebar on the right, select a **Transform Type** and modify the **Transform Description** if appropriate.
 
-        For more details about transform types, see [Transform types in IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-hub-etl/create-etl-transform-map.md).
+        For more details about transform types, see [Transform types in IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/integration-hub-etl/create-etl-transform-map.md).
 
     2.  Select **Hide initial column used for this transform** to hide from the current view all the columns that were used for this transform.
 
@@ -330,10 +330,10 @@ You must map data to all required attributes of the target class in addition to 
 
     The following system properties let you modify how IRE uses the **source\_recency\_timestamp** value in a payload to update the **last\_scan** attribute in the Source \[sys\_object\_source\] table:
 
-    -   [glide.identification\_engine.skip\_updating\_last\_scan\_if\_older](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/properties-id-reconciliation.md)
-    -   [glide.identification\_engine.ire\_message\_listener\_skip\_updating\_last\_scan\_to\_now](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/properties-id-reconciliation.md)
+    -   [glide.identification\_engine.skip\_updating\_last\_scan\_if\_older](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/properties-id-reconciliation.md)
+    -   [glide.identification\_engine.ire\_message\_listener\_skip\_updating\_last\_scan\_to\_now](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/properties-id-reconciliation.md)
 
-For more information about how IRE uses **source\_native\_key** and **source\_recency\_timestamp** for CI identification, see [Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ire.md).
+For more information about how IRE uses **source\_native\_key** and **source\_recency\_timestamp** for CI identification, see [Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/ire.md).
 
 ### Conditional class
 
@@ -343,7 +343,7 @@ For example, if a display name contains 'Windows', then 'Windows Server' is sele
 
 ### Associated class
 
-An associated class lets you select the CMDB class to be associated with a target non-CMDB table. Setting an associated class is required for IRE processing if the non-CMDB table is not configured for IRE processing. For a non-CMDB table that is supported and configured for IRE processing, setting an associated class is optional. See [IRE support for non-CMDB tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ire-support-non-cmdb-tables.md) for more information.
+An associated class lets you select the CMDB class to be associated with a target non-CMDB table. Setting an associated class is required for IRE processing if the non-CMDB table is not configured for IRE processing. For a non-CMDB table that is supported and configured for IRE processing, setting an associated class is optional. See [IRE support for non-CMDB tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/ire-support-non-cmdb-tables.md) for more information.
 
 The software Instance is a non-CMDB class but it does not have IRE rules associated with it. So, things we said about it here pre-Utah are still valid. But for non-CMDB classes with IRE rules it's not mandatory to have an association. For example “If the target class for mapping is a non-CMDB class with a reference to a CMDB class, you must select the CMDB class to associate the non-CMDB target class with” non-CMDB class with IRE rules Instead of “you must” it should be. “You can”. Same with the Example it's not valid for non-CMDB with IRE rules.
 
@@ -405,7 +405,7 @@ Role required: cmdb\_inst\_admin
 
 Data columns that you map can be either source data columns which were not transformed, or transformed data columns. For example, to integrate a data column into the Computer and Software Package classes, select those classes as target classes and then map data columns into specific attributes in those classes.
 
-When you configure mapping for a class, relationship, or a lookup rule, those items are always initially set as activated. For details about the results of deactivating mappings, see [Deactivating class mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-hub-etl/create-etl-transform-map.md).
+When you configure mapping for a class, relationship, or a lookup rule, those items are always initially set as activated. For details about the results of deactivating mappings, see [Deactivating class mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/integration-hub-etl/create-etl-transform-map.md).
 
 **Note:** Changing a class impacts any mappings that were already configured for the class, sometimes deleting those mappings. Details about the affected mappings and the impact, appear in the Affected mappings dialog box before you proceed with the class change. However, these details appear only when the change is from a CMDB class to another CMDB class or from a non-CMDB class to another non-CMDB class.
 
@@ -469,12 +469,12 @@ When you configure mapping for a class, relationship, or a lookup rule, those it
 
             This restriction applies differently when mapping to attributes in lookup tables. All mappings to attributes in a lookup table also must be from the same source branch. However, that source branch can be different than the source branch you used with non-lookup tables.
 
-            **Note:** You can work around this restriction by using the [Copy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-hub-etl/create-etl-transform-map.md) transform in the data preparation step, to copy attributes from a parent level to a child level. Prepare the data so that all the attributes that you want to map, are at the same level.
+            **Note:** You can work around this restriction by using the [Copy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/integration-hub-etl/create-etl-transform-map.md) transform in the data preparation step, to copy attributes from a parent level to a child level. Prepare the data so that all the attributes that you want to map, are at the same level.
 
         -   When you drag a column to map from the Data sidebar, the fields of CMDB target attributes that are valid for the mapping, are highlighted by a green frame. If you attempt to drop a column in an invalid target attribute, the respective field is highlighted by a red frame and an error appears.
-    2.  Click **Add Attribute**. Then, in the Add Attribute dialog box, from the **Attribute** list, select one or more items as target attributes to map data to. You can also scroll down to the **IRE Settings** section of the list and select one of the [robust import set transformer properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/robust-import-set-xform-props.md). Click **Save**.
+    2.  Click **Add Attribute**. Then, in the Add Attribute dialog box, from the **Attribute** list, select one or more items as target attributes to map data to. You can also scroll down to the **IRE Settings** section of the list and select one of the [robust import set transformer properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/robust-import-set-xform-props.md). Click **Save**.
 
-        For information about precedence order between robust import set transformer properties defined at the individual item level and at the IRE payload level, see [robust import set transformer properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/robust-import-set-xform-props.md) .
+        For information about precedence order between robust import set transformer properties defined at the individual item level and at the IRE payload level, see [robust import set transformer properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/robust-import-set-xform-props.md) .
 
     3.  Map any lookup rules such as the 'Serial Number Lookup 1' rule.
 
@@ -482,7 +482,7 @@ When you configure mapping for a class, relationship, or a lookup rule, those it
 
         After mapping a field of a lookup rule, you can set the Activate/Deactivate Lookup rule toggle switch for a rule, to on or off.
 
-    4.  Click **View Class Details** to view the current class in [CI Class Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ci-class-manager-landing-page.md).
+    4.  Click **View Class Details** to view the current class in [CI Class Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/ci-class-manager-landing-page.md).
 
     5.  Click the **Transform Data** tab to navigate to the data preparation page where you can review and further transform data that you want to map.
 
@@ -505,7 +505,7 @@ Role required: cmdb\_inst\_admin
 
 ### About this task
 
-When creating relationships with nested data, you can't create a relationship between sibling objects from the nested data. Using the [sample payload for nested data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md) as an example, you can't create a relationship between interfaces and software.
+When creating relationships with nested data, you can't create a relationship between sibling objects from the nested data. Using the [sample payload for nested data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md) as an example, you can't create a relationship between interfaces and software.
 
 ITOM Visibility, if available, uses enhanced discovery patterns to identify and add CI relationships to the Suggested Relationships table in the base system. When applicable, use the Suggested Relationships table to select relationships that are in compliance with Common Service Data Model \(CSDM\) standards.
 
@@ -519,15 +519,15 @@ ITOM Visibility, if available, uses enhanced discovery patterns to identify and 
 
 3.  To add relationships, select **Add Relationship** or **Add Conditional Relationship** if you want to specify attribute conditions that must be met before adding a relationship. Then, complete the following actions as needed.
 
-<table id="choicetable_rvq_52s_2nb"><thead><tr><th align="left" id="d484616e1742">
+<table id="choicetable_rvq_52s_2nb"><thead><tr><th align="left" id="d482888e1742">
 
 Option
 
-</th><th align="left" id="d484616e1745">
+</th><th align="left" id="d482888e1745">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d484616e1751">
+</th></tr></thead><tbody><tr><td id="d482888e1751">
 
 **Add Relationship**
 
@@ -537,7 +537,7 @@ Description
 2.  Click **Add**.
 
 
-</td></tr><tr><td id="d484616e1781">
+</td></tr><tr><td id="d482888e1781">
 
 **Add Conditional Relationship**
 
@@ -572,7 +572,7 @@ Role required: cmdb\_inst\_admin
 
 Run an integration test and view a summary of the results, for the sample data \(by default,up to 100 records\). The summary includes total numbers for relationships that were created, mapped classes, partial and incomplete payloads that IRE couldn’t process. You can also view detailed messages from Robust Transform Engine \(RTE\) and from Identification Reconciliation Engine \(IRE\).
 
-**Note:** Most IntegrationHub ETL log messages \(from RTE and IRE\) are informational. However, even if the **com.glide.import\_set.importlog\_level** and the **glide.importlog.log\_to\_table** system properties are set to not add INFO log messages, IntegrationHub ETL does render INFO log messages. For more details about these properties, see [Import sets properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/r_ImportSetsProperties.md).
+**Note:** Most IntegrationHub ETL log messages \(from RTE and IRE\) are informational. However, even if the **com.glide.import\_set.importlog\_level** and the **glide.importlog.log\_to\_table** system properties are set to not add INFO log messages, IntegrationHub ETL does render INFO log messages. For more details about these properties, see [Import sets properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/r_ImportSetsProperties.md).
 
 After you view the details in the summary page, you can return to any step to make adjustments and then rerun the integration.
 
@@ -639,7 +639,7 @@ Role required: cmdb\_inst\_admin
 
 5.  Fill out the Scheduled Data Import form and then click **Submit**.
 
-    See [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_ScheduleADataImport.md) for details about the form fields.
+    See [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/t_ScheduleADataImport.md) for details about the form fields.
 
 6.  Click **Mark as Complete**.
 
@@ -648,7 +648,7 @@ Role required: cmdb\_inst\_admin
 
 Use various transforms in IntegrationHub ETL to convert and prepare source data for mapping to the CMDB.
 
-Transforms from the [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md) store app, are also available in IntegrationHub ETL.
+Transforms from the [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md) store app, are also available in IntegrationHub ETL.
 
 ### Concatenation
 

@@ -3,11 +3,11 @@ title: Business application form
 description: Using the business application form, you can add any business application to assess and track its costs, usage, business value, functional fitment, and risks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-apprat-business-application-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Business application form
@@ -455,10 +455,10 @@ Status of the application that meets your requirements or complies with the poli
 |-----|-----------|
 |Work notes|Work notes entered by you.|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-form-field-information.md)
 
 **Related topics**  
 
 
-[Edit business application details in list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-edit-business-application-details.md)
+[Edit business application details in list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-edit-business-application-details.md)
 

@@ -3,13 +3,13 @@ title: Find alert records in Express List using text search
 description: Perform a text search for alert records in a filtered list of alerts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/el-free-text-search.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Assign and manage alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Assigning and managing alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Find alert records in Express List using text search

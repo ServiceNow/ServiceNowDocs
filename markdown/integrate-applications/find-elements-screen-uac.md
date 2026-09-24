@@ -3,9 +3,9 @@ title: Find the elements on the application screen
 description: Use the locators of the captured elements to find the elements on the application screen while using the Universal App Connector \(UAC\) in the RPA Desktop Design Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/find-elements-screen-uac.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Universal app connector, Connectors, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,9 +16,9 @@ Use the locators of the captured elements to find the elements on the applicatio
 
 ## Before you begin
 
-Familiarize yourself with UAC concepts. For more information, see [Universal app connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/universal-app-connector.md).
+Familiarize yourself with UAC concepts. For more information, see [Universal app connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/universal-app-connector.md).
 
-Configure the UAC. For more information, see [Use the Universal App Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-uac.md).
+Configure the UAC. For more information, see [Use the Universal App Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-uac.md).
 
 Verify that you have open or active Windows, Java, Google Chrome, or Edge applications.
 
@@ -38,7 +38,7 @@ The UAC provides multiple locator types. For example, the XPath locator provides
 
 2.  Configure Universal App Connector and add a screen.
 
-    For more information, see [Use the Universal App Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-uac.md).
+    For more information, see [Use the Universal App Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-uac.md).
 
 3.  Under the Screens and elements pane, select an element under a screen.
 
@@ -166,5 +166,5 @@ Enables you to fine-tune or trim the path to an element.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Universal app connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/universal-app-connector.md)
+**Parent Topic:**[Universal app connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/universal-app-connector.md)
 

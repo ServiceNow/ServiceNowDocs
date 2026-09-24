@@ -3,11 +3,11 @@ title: Configure link to your privacy policy
 description: When Usage Insights is enabled, the ServiceNow Services Privacy Statement is linked by default. However, administrators can update the link to point to the organization privacy policy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/uxa-config-link-privacy-policy.html
-release: australia
+release: brazil
 product: Usage Insights
 classification: usage-insights
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [How users consent to tracking in Usage Insights, User privacy, tracking, and consent, Configuring Usage Insights, Usage Insights, Platform Analytics]
 ---
@@ -20,7 +20,7 @@ When Usage Insights is enabled, the ServiceNow Services Privacy Statement is lin
 
 Role required: admin
 
-Users can choose to enable or turn off tracking in their settings. To learn more about enabling tracking, see [How users consent to tracking in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/user-exp-analytics-user-set.md).
+Users can choose to enable or turn off tracking in their settings. To learn more about enabling tracking, see [How users consent to tracking in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/usage-insights/user-exp-analytics-user-set.md).
 
 To learn more about the default privacy statement, see the [ServiceNow Services Statement](https://www.servicenow.com/service-privacy.html).
 
@@ -37,5 +37,5 @@ To learn more about the default privacy statement, see the [ServiceNow Services 
 5.  Select **Update**.
 
 
-**Parent Topic:**[How users consent to tracking in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/user-exp-analytics-user-set.md)
+**Parent Topic:**[How users consent to tracking in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/usage-insights/user-exp-analytics-user-set.md)
 

@@ -3,9 +3,9 @@ title: View sold product information in CRM Workspace
 description: Enable customer service agents or managers to view the sold products and the service offerings associated to the sold product for an account or consumer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-sold-product-info-workspace.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
 ---

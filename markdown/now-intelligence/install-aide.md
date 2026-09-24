@@ -3,9 +3,9 @@ title: Install AI Data Explorer
 description: Verify that AI Data Explorer is installed, and install it if it is not.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/install-aide.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
@@ -41,12 +41,12 @@ Role required: now\_assist\_explorer\_admin or higher
 
 You are navigated to a location where you can get the plugin. Follow all steps on that location, including those regarding licensing.
 
-**Parent Topic:**[Configure AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-aide-explorer.md)
+**Parent Topic:**[Configure AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/configure-aide-explorer.md)
 
 **Related topics**  
 
 
-[Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md)
+[Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md)
 
-[Getting apps and trials from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/getting-apps-trials.md)
+[Getting apps and trials from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/getting-apps-trials.md)
 

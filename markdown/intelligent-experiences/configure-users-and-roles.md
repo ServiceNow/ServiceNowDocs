@@ -3,12 +3,12 @@ title: Configure users and roles
 description: Add and manage role to a user group to grant its members the corresponding permissions in AI Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/configure-users-and-roles.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, AI Control Tower, Enable AI experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Configure users and roles
@@ -45,5 +45,5 @@ Confirm the following:
         **Note:** You can't remove yourself from the group.
 
 
-**Parent Topic:**[Configuring AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring.md)
+**Parent Topic:**[Configuring AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configuring.md)
 

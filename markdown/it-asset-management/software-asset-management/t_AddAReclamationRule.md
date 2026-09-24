@@ -3,13 +3,13 @@ title: Add a software reclamation rule
 description: Add a reclamation rule to aggregate usage records and to identify unused software.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/t\_AddAReclamationRule.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 6
-breadcrumb: [SAM Administration, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software Asset Management administration, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Add a software reclamation rule
@@ -24,7 +24,7 @@ Role required: sam\_admin
 
 If you select the **Notify user** option in the reclamation rule, then the user has a chance to respond with approval during the process of reclamation. If no response is received during a specified period, the software rights are automatically reclaimed. If the user still wants to keep the software installation, it becomes the responsibility of the manager to approve or decline the removal.
 
-For information on creating a reclamation rule for SCCM products, see [Create a reclamation rule to import Microsoft SCCM usage data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-reclamation-rule-sccm.md).
+For information on creating a reclamation rule for SCCM products, see [Create a reclamation rule to import Microsoft SCCM usage data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-reclamation-rule-sccm.md).
 
 ## Procedure
 
@@ -208,7 +208,7 @@ Amount of time to keep unused software before it’s reclaimed.-   One Month Ago
 
     After the reclamation rule is created, add software products to the reclamation rule. You can also add a custom software product.
 
-    Additionally, you can specify filter conditions on software products that are suite parents. For details on adding a custom software product, see [Add a custom software product in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddACustomProduct.md). For details on filter conditions, refer to [Software reclamation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sw-reclamation-rules.md).
+    Additionally, you can specify filter conditions on software products that are suite parents. For details on adding a custom software product, see [Add a custom software product in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/t_AddACustomProduct.md). For details on filter conditions, refer to [Software reclamation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sw-reclamation-rules.md).
 
 5.  Select **Edit** in the Software Products related list to add software products.
 

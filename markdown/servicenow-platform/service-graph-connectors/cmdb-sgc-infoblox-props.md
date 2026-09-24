@@ -3,11 +3,11 @@ title: Service Graph Connector for Infoblox properties
 description: Service Graph Connector for Infoblox properties control the behavior of the connector.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/cmdb-sgc-infoblox-props.html
-release: australia
+release: brazil
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Infoblox, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -96,9 +96,7 @@ sn\_infoblox\_integ.included\_network\_regex
 
 </td><td>
 
-Enter the list of IP addresses to be imported. Specify the list in pipe-delimited string format.For information about configuring this property to prevent system property cache invalidation, see the [Configure Service Graph Connector for Infoblox \[KB2523896\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2523896) article in the Now Support Knowledge Base.
-
--   Type: string
+Enter the list of IP addresses to be imported. Specify the list in pipe-delimited string format.-   Type: string
 -   Default value: empty
 -   Location: System Property \[sys\_properties\] table
 
@@ -108,18 +106,16 @@ sn\_infoblox\_integ.excluded\_network\_regex
 
 </td><td>
 
-Enter the list of IP addresses to be excluded from the import. Specify the list in pipe-delimited string format.For information about configuring this property to prevent system property cache invalidation, see the [Configure Service Graph Connector for Infoblox \[KB2523896\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2523896) article in the Now Support Knowledge Base.
-
--   Type: string
+Enter the list of IP addresses to be excluded from the import. Specify the list in pipe-delimited string format.-   Type: string
 -   Default value: empty
 -   Location: System Property \[sys\_properties\] table
 
 </td></tr></tbody>
 </table>## Related content
 
-[Data mapping for Service Graph Connector for Infoblox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-data-mapping-infoblox.md)
+[Data mapping for Service Graph Connector for Infoblox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/cmdb-data-mapping-infoblox.md)
 
-[CMDB classes targeted in Service Graph Connector for Infoblox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-infoblox-classes.md)
+[CMDB classes targeted in Service Graph Connector for Infoblox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-infoblox-classes.md)
 
-**Parent Topic:**[Service Graph Connector for Infoblox reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-infoblox-reference.md)
+**Parent Topic:**[Service Graph Connector for Infoblox reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-infoblox-reference.md)
 

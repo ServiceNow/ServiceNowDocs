@@ -3,9 +3,9 @@ title: Approve certificate revocation
 description: Review and approve certificate revocation requests from the email approval notifications that are sent to your registered email address. Review the approval notification and select the Click here to approve or Click here to reject link to access the protected instance and act. You can also access the approval request and the code-signing quorum request directly from the email.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/cerificate-revocation-approval.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quorum Controlled Certificate Revocation, Configure, Code Signing, Platform Security]
 ---
@@ -36,4 +36,6 @@ Role required: sn\_cse.codesigning\_admin, approver\_user
 ## Result
 
 The Code Signing quorum request is approved. If you have enabled the MID Server restart while exporting the revocation request, the MID Server restarts for the request to be activated.
+
+**Parent Topic:**[Quorum Controlled Certificate Revocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/certificate-revocation.md)
 

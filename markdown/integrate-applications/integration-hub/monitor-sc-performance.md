@@ -3,11 +3,11 @@ title: Monitor and optimize Stream Producer performance
 description: Monitor Stream Producer performance metrics and change data capture \(CDC\) queue health to identify bottlenecks and optimize for your deployment scale and throughput requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/monitor-sc-performance.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-07-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [performance, monitoring, optimization, CDC queue, lag, statistics]
 breadcrumb: [Stream Producer, Using Stream Connect for Apache Kafka, Import and stream data, Integration Hub, Workflow Data Fabric]
@@ -59,5 +59,5 @@ The Stream Producer Scheduled Job runs automatically every minute \(on each acti
 
 You're now monitoring Stream Producer performance and can identify optimization opportunities based on queue lag and processing time trends.
 
-**Parent Topic:**[Stream Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-producer.md)
+**Parent Topic:**[Stream Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/stream-producer.md)
 

@@ -3,11 +3,11 @@ title: Bulk export of Usage Insights data via REST API
 description: Usage Insights data export is a store app that enables you to programmatically export Usage Insights usage data from your ServiceNow instance for integration with your enterprise analytics platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/data-export-restapi.html
-release: australia
+release: brazil
 product: Usage Insights
 classification: usage-insights
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Using Usage Insights, Usage Insights, Platform Analytics]
 ---
@@ -55,12 +55,12 @@ Create end-to-end views of user behavior that spans ServiceNow and other platfor
 
 **Note:** Select the columns you need and apply filters to keep export volume within the rate and usage limits.
 
--   **[Preparing for the Usage Insights data export via REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/data-export-submit-request.md)**  
+-   **[Preparing for the Usage Insights data export via REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/usage-insights/data-export-submit-request.md)**  
 Submit an export request to the Usage Insights data export API to extract usage data asynchronously and consume results from a Kafka topic.
--   **[Setting up a secure connection to Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/data-export-setup-hermes.md)**  
+-   **[Setting up a secure connection to Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/usage-insights/data-export-setup-hermes.md)**  
 Configure SSL encryption for your Kafka consumers by generating an instance-signed certificate and configuring your Kafka client with SSL to securely connect to the managed Hermes cluster and consume data export results.
--   **[Consuming data export results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/consuming-data-export-results.md)**  
+-   **[Consuming data export results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/usage-insights/consuming-data-export-results.md)**  
 Consume the results of usage insights data exported via REST API, from the Kafka topic.
 
-**Parent Topic:**[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/using-uxa.md)
+**Parent Topic:**[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/usage-insights/using-uxa.md)
 

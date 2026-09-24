@@ -3,11 +3,11 @@ title: Interactive Analysis aggregations
 description: When you work with Interactive Analysis, you can view data from the perspectives of record counts, sums, averages, and distinct counts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/interactive-analysis-aggregations.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Interactive Analysis, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -26,7 +26,7 @@ When you work with Interactive Analysis, you can view data from the perspectives
 
 -   **Average, Sum, Count Distinct**
 
-    Select **Average**, **Sum**, or **Count Distinct**, to show a list of fields from the selected **Table**. You may further be able to aggregate on fields from extended tables. See [How to report on extended tables.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/t_AccessFieldExtendedTable.md) Select a field to **Aggregate by** from this list. For example, if you select an integer field, such as **Reassignment count**, the data is expressed as a decimal value number. For more information, see [Column reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_CreateColumnCharts.md).
+    Select **Average**, **Sum**, or **Count Distinct**, to show a list of fields from the selected **Table**. You may further be able to aggregate on fields from extended tables. See [How to report on extended tables.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/t_AccessFieldExtendedTable.md) Select a field to **Aggregate by** from this list. For example, if you select an integer field, such as **Reassignment count**, the data is expressed as a decimal value number. For more information, see [Column reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_CreateColumnCharts.md).
 
     **Note:** For duration values, the unit of measurement displayed in the aggregation axis cannot be customized.
 
@@ -35,5 +35,5 @@ When you work with Interactive Analysis, you can view data from the perspectives
 
 \[Omitted image "ia-aggregation-sum-rc.png"\] Alt text: Interactive analysis with Sum aggregation and Priority field
 
-**Parent Topic:**[Interactive Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/interactive-analysis.md)
+**Parent Topic:**[Interactive Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/interactive-analysis.md)
 

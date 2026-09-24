@@ -3,11 +3,11 @@ title: Compare two versions of an article
 description: Select and compare two versions of a knowledge article.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/compare-two-article-versions.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use article versioning, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ Select and compare two versions of a knowledge article.
 
 Role required: knowledge\_manager, knowledge\_admin
 
-**Note:** For better comparison experience of the knowledge article versions, see [Compare knowledge article versions in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/compare-article-versions-agent.md).
+**Note:** For better comparison experience of the knowledge article versions, see [Compare knowledge article versions in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/compare-article-versions-agent.md).
 
 ## Procedure
 
@@ -37,5 +37,5 @@ Role required: knowledge\_manager, knowledge\_admin
 5.  Click **Done** to return to the Knowledge form.
 
 
-**Parent Topic:**[Use article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/use-article-versioning_0.md)
+**Parent Topic:**[Use article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/use-article-versioning_0.md)
 

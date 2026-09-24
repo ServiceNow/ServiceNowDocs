@@ -3,7 +3,7 @@ title: Credly spoke
 description: Credly integration helps employees prove, manage, and showcase their skills more effectively, addressing common issues related to skill verification, visibility, recognition, and career development.Also reuse this short description in the release notes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/credly-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
@@ -26,11 +26,11 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Credly spoke v1.0.0 is the latest version.
+Credly spoke v1.0.0 is the latest version. For version history of the spoke, see [Credly Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-credly-spoke.html?contentId=mRA4yJoDbEBE6vFNukMdBw).
 
 ## Supported versions
 
-This spoke was built for australia, and is compatible with later Washington DC and Xanadu versions.
+This spoke was built for brazil, and is compatible with later Washington DC and Xanadu versions.
 
 ## Key features
 

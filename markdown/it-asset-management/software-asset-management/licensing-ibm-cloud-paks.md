@@ -3,11 +3,11 @@ title: Licensing for IBM Cloud Paks
 description: When you integrate the Software Asset Management publisher pack for IBM with Software Asset Management providers that are authorized to participate in the IBM Client Value Acceleration \(CVA\) Program, the Software Asset Management application supports licensing rules for IBM Cloud Paks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/licensing-ibm-cloud-paks.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [CVA integrations, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -31,7 +31,7 @@ In the following example, a user wants to deploy various Bundled Programs as par
 
 Based on the conversion ratios and the number of rights that are required for each Bundled Program, you must license the Cloud Pak using a total of 100 rights.
 
-See [IBM virtual processor core \(VPC\) licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-virtual-processor-core-licensing.md) for more information on VPC licensing.
+See [IBM virtual processor core \(VPC\) licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/ibm-virtual-processor-core-licensing.md) for more information on VPC licensing.
 
-**Parent Topic:**[Client Value Acceleration \(CVA\) integrations for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-asp-integration.md)
+**Parent Topic:**[Client Value Acceleration \(CVA\) integrations for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/ibm-asp-integration.md)
 

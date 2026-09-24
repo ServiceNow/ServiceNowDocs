@@ -3,11 +3,11 @@ title: Configure on demand optimization
 description: Enable dispatchers to respond to unexpected changes by configuring on demand intraday optimization, giving them the ability to run Schedule Optimization ad hoc directly from Dispatcher Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/configure-on-demand-optimization.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Intraday optimization, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
@@ -18,7 +18,7 @@ Enable dispatchers to respond to unexpected changes by configuring on demand int
 
 ## Before you begin
 
-Activate and configure intraday optimization. For more information, see [Activate intraday optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/activate-intraday-optimization.md) and [Configure intraday optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/configure-intraday-optimization.md).
+Activate and configure intraday optimization. For more information, see [Activate intraday optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/activate-intraday-optimization.md) and [Configure intraday optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/configure-intraday-optimization.md).
 
 Role required: wm\_admin
 
@@ -32,7 +32,7 @@ Dispatchers with the 'schedule\_optimization\_user' role can manually trigger op
 
 1.  Navigate to **All** &gt; **Schedule Optimization** &gt; **Administration** &gt; **Scheduling Attributes**.
 
-2.  Select an existing **Scheduling attribute** and proceed to step 3 or select **New** to [Create a scheduling attribute for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/configure-scheduling-attributes.md).
+2.  Select an existing **Scheduling attribute** and proceed to step 3 or select **New** to [Create a scheduling attribute for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/configure-scheduling-attributes.md).
 
 3.  In the **On demand applicable policies** related list, select **Edit** to add a policy or select **New** to create a policy.
 
@@ -42,7 +42,7 @@ Dispatchers with the 'schedule\_optimization\_user' role can manually trigger op
 
 5.  Navigate to **All** &gt; **Schedule Optimization** &gt; **Intraday optimization** &gt; **Configurations**.
 
-6.  Select an existing **Intraday configuration** and proceed to step 7 or select **New** to [Configure intraday optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/configure-intraday-optimization.md).
+6.  Select an existing **Intraday configuration** and proceed to step 7 or select **New** to [Configure intraday optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/configure-intraday-optimization.md).
 
 7.  In the **Qualifiers** tab, set **Enable on demand optimization** to true.
 
@@ -58,5 +58,5 @@ Intraday optimization can now be triggered on demand by dispatchers to adapt to 
 **Related topics**  
 
 
-[Run optimization for your groups or territories from Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/optimize-agent-schedules-on-demand-in-dispatcher-workspace.md)
+[Run optimization for your groups or territories from Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/optimize-agent-schedules-on-demand-in-dispatcher-workspace.md)
 

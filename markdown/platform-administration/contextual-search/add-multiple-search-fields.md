@@ -3,11 +3,11 @@ title: Add multiple search fields for contextual search
 description: Add multiple search fields if you want to search from a field other than the short description without using the related search box.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/contextual-search/add-multiple-search-fields.html
-release: australia
+release: brazil
 product: Contextual Search
 classification: contextual-search
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing contextual search, Contextual search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -86,5 +86,5 @@ Order in which the field appears in the search fields list. If there are multipl
 
 Use the **Default** column to set one search field as the default search field.
 
-**Parent Topic:**[Managing contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/working-with-contextual-search.md)
+**Parent Topic:**[Managing contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/contextual-search/working-with-contextual-search.md)
 

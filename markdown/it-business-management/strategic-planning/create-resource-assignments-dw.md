@@ -3,11 +3,11 @@ title: Create resource assignments for demands
 description: Create and manage resource assignments for demands directly from Next Experience for Demand Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/create-resource-assignments-dw.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -22,7 +22,7 @@ Role required: it\_demand\_manager
 
 ## About this task
 
-To create, edit, or remove resource assignment records, you can also use the **Estimate resource requirements** Playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md).
+To create, edit, or remove resource assignment records, you can also use the **Estimate resource requirements** Playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md).
 
 ## Procedure
 
@@ -42,7 +42,7 @@ To create, edit, or remove resource assignment records, you can also use the **E
 
 7.  On the Resource assignment form, fill in the fields.
 
-    For a description of the field values, see [Resource assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-resource-assignment-form-dw.md) form.
+    For a description of the field values, see [Resource assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/create-resource-assignment-form-dw.md) form.
 
 8.  Select **Save**.
 

@@ -3,12 +3,12 @@ title: Create a subflow with Now Assist
 description: Use generative AI to create a subflow from text directions and images.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-subflow-now-asist.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Build subflows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
@@ -21,8 +21,8 @@ Use generative AI to create a subflow from text directionsand images.
 -   Roles required:
     -   admin, flow\_designer, or a delegated developer permission
     -   now.assist.creator
--   Turn on the flow generation skill. See .
--   Turn on the flow generation with images skill. See .
+-   Turn on the flow generation skill. See [Turn on the flow generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/turn-on-the-flow-generation-skill.md).
+-   Turn on the flow generation with images skill. See [Turn on the flow generation with images skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/turn-on-the-flow-generation-with-images-skill.md).
 
 ## About this task
 
@@ -77,7 +77,7 @@ Try and example
 Series of text examples to insert into the Now Assist directions field. Select this option to insert example text in the directions field. Each example illustrates directions that will build a subflow outline. Trying an example overwrites any directions text that you previously added. You can use the undo and redo options to revert to your previous directions.
 
 </td></tr></tbody>
-</table>    For general guidelines about writing Now Assist directions, see [Create a flow with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow-now-assist.md).
+</table>    For general guidelines about writing Now Assist directions, see [Create a flow with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-flow-now-assist.md).
 
 4.  Select **Show additional properties** and fill in the fields.
 
@@ -156,7 +156,7 @@ Priority level at which you want the system to run this subflow by default. Opti
 -   Low
 -   Medium \(Default\)
 -   High
- To learn about flow priority levels, see [Flow priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-priority.md).
+ To learn about flow priority levels, see [Flow priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-priority.md).
 
 </td></tr></tbody>
 </table>5.  Select **Generate subflow preview**.
@@ -167,7 +167,7 @@ Priority level at which you want the system to run this subflow by default. Opti
 
 6.  If the generated subflow preview does not meet your needs, you can update the Now Assist directions, and select **Regenerate preview**.
 
-    Each time you generate or regenerate a subflow, the operation counts as an assist tracked by your Now Assist subscription. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitoring-now-assist-usage.md).
+    Each time you generate or regenerate a subflow, the operation counts as an assist tracked by your Now Assist subscription. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/monitoring-now-assist-usage.md).
 
 7.  If you want to stop generating the subflow and return to the Workflow Studio homepage, you can select **Discard subflow**.
 
@@ -180,5 +180,5 @@ Priority level at which you want the system to run this subflow by default. Opti
 
 Now Assist creates a subflow outline with the name you provided. If the large language model couldn't find a matching action, flow logic, or subflow for your request, it may add one or more placeholder steps instead.
 
-**Parent Topic:**[Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md)
+**Parent Topic:**[Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/subflows.md)
 

@@ -3,11 +3,11 @@ title: Create a credential for the MicrosoftTranslation alias
 description: Authorize actions of Microsoft Azure Translator Service spoke by creating a credential for the MicrosoftTranslation connection and credential alias.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation/create-credential-ms-translation.html
-release: australia
+release: brazil
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Microsoft Azure Translator Service spoke, Integration with other translation services, Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -100,9 +100,9 @@ Alias to use the credential.
 </table>5.  Select **Submit**.
 
 
-**Parent Topic:**[Microsoft Azure Translator Service spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/microsoft-translation-spoke.md)
+**Parent Topic:**[Microsoft Azure Translator Service spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-translation/microsoft-translation-spoke.md)
 
-**Previous topic:**[Microsoft Azure Translator Service spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/microsoft-translation-spoke.md)
+**Previous topic:**[Microsoft Azure Translator Service spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-translation/microsoft-translation-spoke.md)
 
-**Next topic:**[Create a connection for the MicrosoftTranslation alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-connection-ms-translation.md)
+**Next topic:**[Create a connection for the MicrosoftTranslation alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-translation/create-connection-ms-translation.md)
 

@@ -3,11 +3,11 @@ title: Create the API account role for Palo Alto Networks Next-Generation Firewa
 description: An API account role is required in your ServiceNow AI Platform instance for this integration. The Username and Password associated with this account are created in the ServiceNow AI Platform and entered in Palo Alto Networks so the Palo Alto Networks Next-Generation Firewall authenticates with the ServiceNow AI Platform when retrieving EDL entries.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/paloalto-create-snrole.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Palo Alto Networks Next-Generation Firewall integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -66,9 +66,9 @@ The ServiceNow AI Platform® admin creates an API account role \(sn\_sec\_panfw.
     The user record is displayed. This record verifies that the user account has been assigned. The **State** is active, and the role is not inherited.
 
 
-**Parent Topic:**[Palo Alto Networks Next-Generation Firewall integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto_integration.md)
+**Parent Topic:**[Palo Alto Networks Next-Generation Firewall integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/paloalto_integration.md)
 
-**Previous topic:**[Set up and install Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto_install.md)
+**Previous topic:**[Set up and install Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/paloalto_install.md)
 
-**Next topic:**[Supported External Dynamic Lists for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto_supported_edls.md)
+**Next topic:**[Supported External Dynamic Lists for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/paloalto_supported_edls.md)
 

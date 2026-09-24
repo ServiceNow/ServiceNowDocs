@@ -3,11 +3,11 @@ title: Configure AI Search Assist for a record producer
 description: Configure AI Search Assist settings for a record producer to help users view related Catalog Item and knowledge article search results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/configure-ai-search-assist.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [AI Search record producer for Service Portal, Integrate, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -66,5 +66,5 @@ If Contextual Search has been configured for the same record producer, and is sh
 
 If these conditions aren't all met, then Contextual Search is the fallback for the same record producer to make sure you see related search results.
 
-**Parent Topic:**[AI Search Assist record producer integration for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/ai-search-assist.md)
+**Parent Topic:**[AI Search Assist record producer integration for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/ai-search-assist.md)
 

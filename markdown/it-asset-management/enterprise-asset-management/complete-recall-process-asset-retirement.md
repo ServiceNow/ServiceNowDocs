@@ -3,11 +3,11 @@ title: Complete the recall process for an enterprise asset through an asset reti
 description: Perform all tasks that are required for an asset retirement so that you can complete the recall process for an enterprise asset that has been recalled by the asset vendor.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/complete-recall-process-asset-retirement.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Completing a recall order for your enterprise assets, Managing recalled enterprise assets, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
@@ -18,7 +18,7 @@ Perform all tasks that are required for an asset retirement so that you can comp
 
 ## Before you begin
 
-Before you can proceed with retiring a recalled enterprise asset, you must complete the Prepare task for that asset. See [Complete the Prepare task for a recalled enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/complete-prepare-task-recall-order.md) for detailed instructions.
+Before you can proceed with retiring a recalled enterprise asset, you must complete the Prepare task for that asset. See [Complete the Prepare task for a recalled enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/complete-prepare-task-recall-order.md) for detailed instructions.
 
 Role required: sn\_eam.enterprise\_asset\_manager or enterprise\_asset\_technician
 
@@ -78,9 +78,9 @@ The recalled asset record moves to the Completed stage. In addition, the state a
 
 ## What to do next
 
-Complete the asset retirement by disposing of the recalled enterprise asset using a disposal order. See [Create a disposal order in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eamdisposal-order.md) for detailed instructions.
+Complete the asset retirement by disposing of the recalled enterprise asset using a disposal order. See [Create a disposal order in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-eamdisposal-order.md) for detailed instructions.
 
 After you successfully dispose of the recalled enterprise asset, you can complete the recall process for all remaining enterprise assets that are included in the recall order. After all corresponding recalled asset records reach the Completed stage, the state of the recall order changes to Completed.
 
-**Parent Topic:**[Completing a recall order for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/completing-recall-order-enterprise-assets.md)
+**Parent Topic:**[Completing a recall order for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/completing-recall-order-enterprise-assets.md)
 

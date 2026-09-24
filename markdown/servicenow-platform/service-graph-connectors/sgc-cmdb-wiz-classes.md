@@ -3,11 +3,11 @@ title: Target tables for storing Service Graph Connector for Wiz data
 description: When you complete setting up the connection, you can configure the integration to periodically pull data from a Wiz project. The data is saved in tables that extend from the CMDB CI classes and other non-CMDB classes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.html
-release: australia
+release: brazil
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 19
 breadcrumb: [Wiz, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---

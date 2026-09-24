@@ -3,11 +3,11 @@ title: Get page route metrics
 description: Filter metrics for an application by page route in the Performance Analyzer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/performance-analyzer/get-page-route-metrics.html
-release: australia
+release: brazil
 product: Performance Analyzer
 classification: performance-analyzer
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Test applications, Performance Analyzer, Testing and debugging applications, Building applications]
 ---

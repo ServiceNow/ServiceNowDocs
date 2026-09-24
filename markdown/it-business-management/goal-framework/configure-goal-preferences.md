@@ -3,11 +3,11 @@ title: Configure goal preferences
 description: Configure goal preferences to manage goals such as the calendar type used for goal setting, weighted average calculation for goal progress, and deletion of goals and targets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/goal-framework/configure-goal-preferences.html
-release: australia
+release: brazil
 product: Goal Framework
 classification: goal-framework
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---

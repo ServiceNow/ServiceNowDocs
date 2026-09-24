@@ -3,9 +3,9 @@ title: Create a Security Operations enrichment data map
 description: Transform data from JSON, XML, or Properties file format to ServiceNow records using enrichment data maps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/create-enrichment-data-map.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Security Operations enrichment data mapping, Security Operations common functionality, Security Operations]
 ---
@@ -207,5 +207,5 @@ The table to which the fields to map are going.
 </table>7.  Select **Submit**.
 
 
-**Parent Topic:**[Security Operations enrichment data mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/enrichment-data-mapping.md)
+**Parent Topic:**[Security Operations enrichment data mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/enrichment-data-mapping.md)
 

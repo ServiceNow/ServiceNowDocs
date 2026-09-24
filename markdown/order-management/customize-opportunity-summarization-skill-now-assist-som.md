@@ -3,9 +3,9 @@ title: Customize the opportunity summarization skill in ServiceNow Otto for Sale
 description: Configure the opportunity summarization skill to generate AI-powered opportunity summaries in the CRM Workspace, including which data sources and fields contribute to the summary.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/customize-opportunity-summarization-skill-now-assist-som.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [opportunity summarization, generative AI skill, customize skill]
 breadcrumb: [Opportunity Management, Sales automation apps, Configure, Sales Customer Relationship Management]
@@ -17,7 +17,7 @@ Configure the opportunity summarization skill to generate AI-powered opportunity
 
 ## Before you begin
 
-Use the AI Admin Hub console to configure the opportunity summarization skill. For additional information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
+Use the AI Admin Hub console to configure the opportunity summarization skill. For additional information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-now-assist.md).
 
 Role required: admin
 
@@ -124,7 +124,7 @@ Description of the base input field value.
 
 6.  Customize the prompt output.
 
-    Review and test the default prompt. To customize prompts, select **Edit prompt in AI Skill Kit**. For more information, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit-landing.md).
+    Review and test the default prompt. To customize prompts, select **Edit prompt in AI Skill Kit**. For more information, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit-landing.md).
 
     1.  Select a record in the Test output section and test the prompt response by selecting **Run Test**.
 
@@ -158,5 +158,5 @@ Description of the base input field value.
 **Related topics**  
 
 
-[Summarize an opportunity using ServiceNow Otto for Sales Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/now-assist-som-summarize-opportunity.md)
+[Summarize an opportunity using ServiceNow Otto for Sales Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/now-assist-som-summarize-opportunity.md)
 

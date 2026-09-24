@@ -3,13 +3,13 @@ title: Install Project Workspace
 description: You can install the Project Workspace application \(sn\_pw\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/install-project-workspace.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring projects with Project Workspace, Configure, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Configuring projects with Project Workspace, Configuring Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Install Project Workspace
@@ -20,7 +20,7 @@ You can install the Project Workspace application \(sn\_pw\) if you have the adm
 
 -   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [Project Workspace](https://store.servicenow.com/sn_appstore_store.do#!/store/application/47e2b69f533f201016f6ddeeff7b12fa) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
--   Starting with Australia release, installing the PPM Standard plugin also installs the Project Workspace application.
+-   Starting with Brazil release, installing the PPM Standard plugin also installs the Project Workspace application.
 -   Ensure you have activated the PPM Standard plugin \(com.snc.financial\_planning\_pmo\).
 
 Role required: admin
@@ -54,5 +54,5 @@ Role required: admin
 
 Planning attributes dependency plug-in is installed along with Project Workspace.
 
-**Parent Topic:**[Configuring projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configure-projects-pw.md)
+**Parent Topic:**[Configuring projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/configure-projects-pw.md)
 

@@ -3,9 +3,9 @@ title: Activate Data Collection for ITSM
 description: Activate the Data Collection Pack for ITSM after you enable and configure it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/dc-itsm-activate.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Impact Value Management Data Collection Content Pack for ITSM, Enable data collection for Value Management, Configuring Impact, Impact]
 ---
@@ -44,18 +44,18 @@ Role required: admin, pa\_admin, or pa\_data\_collector
 
     1.  Navigate to **Performance/Platform Analytics &gt; Data Collector&gt; Jobs**, and then open **Impact VM – ITSM – Historical Data Collection**.
 
-        **Important:** Do NOT select Active as Historical Data collection within Performance/Platform Analytics runs on an on-demand basis.
+        **Important:** Do not select Active as Historical Data collection within Performance/Platform Analytics runs on an on-demand basis.
 
         For historical job execution, adjust the Relative start months according to the available data.
 
-        -   If you do not have a full version of Performance/Platform Analytics, historical data won’t be captured beyond 180 days from the job execution date.
-        -   If you have the full version of Performance/Platform Analytics, you can change the Relative start date to a longer timeframe than 6 months. For example, you could change Relative start from 6 months ago to 12 months ago.
+        -   If you don't have a full version of Performance/Platform Analytics, historical data won’t be captured beyond 180 days from the job execution date.
+        -   If you have the full version of Performance/Platform Analytics, you can change the Relative start date to a longer time frame than 6 months. For example, you could change Relative start from 6 months ago to 12 months ago.
     2.  Select **Execute Now** to run the historical data collection job.
 
     3.  Navigate to **Platform Analytics &gt; Dashboard**, and then open **Impact VM – ITSM**.
 
-        There are two tabs: Monthly - ITSM and Quarterly - ITSM. To validate historical data for any specific indicator, select the widget on the dashboard.
+        There are two tabs: **Monthly - ITSM** and **Quarterly - ITSM**. To validate historical data for any specific indicator, select the widget on the dashboard.
 
 
-**Parent Topic:**[Impact Value Management Data Collection Content Pack for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-itsm.md)
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-itsm.md)
 

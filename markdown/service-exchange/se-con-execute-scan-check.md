@@ -3,11 +3,11 @@ title: Execute a scan suite as a consumer
 description: Execute a scan suite to identify issues in your instance and review the scan results.Modify the scan suite schedule to change when a scan suite runs automatically in your consumer instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-exchange/se-con-execute-scan-check.html
-release: australia
+release: brazil
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use for consumers, Service Exchange for Consumers, Service Exchange]
 ---
@@ -61,5 +61,5 @@ Role required: admin \(sb\_admin\)
 **Related topics**  
 
 
-[Service Exchange Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/se-se-center.md)
+[Service Exchange Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/se-se-center.md)
 

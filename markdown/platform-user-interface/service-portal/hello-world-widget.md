@@ -3,11 +3,11 @@ title: Hello World widgets
 description: The Hello World widgets are included with Service Portal as examples of how to use and create widgets. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/hello-world-widget.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Example widgets, Widget library, Using portal widgets, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -22,7 +22,7 @@ To view the Hello World widgets, navigate to **Service Portal** &gt; **Service P
 
 \[Omitted image "HelloWorld1.png"\] Alt text: Hello World 1 widget, showing the HTML and client script in the IDE
 
-Hello world 1 displays how the HTML template and the client script communicate. For more information on using the client script in Service Portal, see [Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/widget-dev-guide.md).
+Hello world 1 displays how the HTML template and the client script communicate. For more information on using the client script in Service Portal, see [Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/widget-dev-guide.md).
 
 Use the widget list to switch to Hello World 2 or 3.
 
@@ -32,9 +32,9 @@ Hello World 2 includes an example of how the server script can be used as well.
 
 \[Omitted image "HelloWorld3.png"\] Alt text: Hello World 3 widget, showing the HTML, client, server, and link function scripts in the IDE
 
-For more information on Service Portal APIs, see the GlideSPSriptable API.
+For more information on Service Portal APIs, see the [GlideSPSriptable API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/c_GlideSPScriptableScopedAPI.md).
 
-**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
+**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
 
 **Related topics**  
 

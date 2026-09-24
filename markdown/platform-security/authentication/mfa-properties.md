@@ -3,12 +3,12 @@ title: Multi-factor Authentication system properties
 description: Use system properties to enable and customize MFA to meet your security requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/mfa-properties.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Configuring MFA, Multi-factor authentication, Authentication, Access Management]
 ---
 
@@ -46,7 +46,7 @@ Number of times that a user can choose to skip the setup of MFA. The default is 
 
 </td><td>
 
-Number of minutes that the reset code is valid. See [Log in with Multi-factor Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_LogOnWithMultifactorAuth.md). The default is 5.**Note:** This property is for email OTP validation time.
+Number of minutes that the reset code is valid. See [Log in with Multi-factor Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/t_LogOnWithMultifactorAuth.md). The default is 5.**Note:** This property is for email OTP validation time.
 
 </td></tr><tr><td>
 
@@ -64,7 +64,7 @@ The property's value is used in the following calculation: `current time - X/2` 
 
 </td><td>
 
-Set your instance to prompt a user for MFA when they log in from a new device or browser. The default is yes.
+Enables "remember this browser" for multi-factor authentication. When enabled, a user who has completed MFA on a given browser or device isn't prompted again on subsequent logins from that same browser or device for the configured time period. The user is prompted for MFA again only when logging in from a new browser or device. Default: true.
 
 </td></tr><tr><td>
 
@@ -72,7 +72,7 @@ Set your instance to prompt a user for MFA when they log in from a new device or
 
 </td><td>
 
-After MFA remembers the browser, the user is not challenged for MFA in the same browser for this duration. The default is 8 hours.
+Sets how long a remembered browser stays trusted after MFA is completed. Within this period, the user isn't challenged for MFA again in the same browser. Default: 8 hours.**Note:** Browser trust relies on a browser fingerprint \(BFP\) — a hash computed from a set of browser and device parameters. If one of those parameters changes during the validity period — for example, screen resolution changes when an external monitor is connected or disconnected — the fingerprint no longer matches the one recorded when MFA was last completed, and the user is challenged for MFA again earlier than the validity period would suggest.
 
 </td></tr><tr><td>
 

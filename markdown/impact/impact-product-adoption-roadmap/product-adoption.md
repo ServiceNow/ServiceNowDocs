@@ -3,11 +3,11 @@ title: Product adoption
 description: View your capabilities, product adoption roadmaps, and subscriptions for your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/impact-product-adoption-roadmap/product-adoption.html
-release: australia
+release: brazil
 product: Impact Product Adoption Roadmap
 classification: impact-product-adoption-roadmap
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Impact, Impact]
 ---
@@ -18,13 +18,13 @@ View your capabilities, product adoption roadmaps, and subscriptions for your Se
 
 <table id="table_uqc_flp_fsb" class="nav-card"><tbody><tr><td>
 
-[Entitlements and usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-product-adoption-roadmap/capabilities-map.md)
+[Entitlements and usage using capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/impact-product-adoption-roadmap/capabilities-map.md)
 
  \[Omitted image "bus-extend-visability.svg"\] Alt text: View the full landscape of your licensed ServiceNow products and the status of their utilization.
 
 </td><td align="center">
 
-[Build implementation plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-product-adoption-roadmap/impact-par.md)
+[Build implementation plans with product adoption roadmaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/impact-product-adoption-roadmap/impact-par.md)
 
  \[Omitted image "bus-workflow.svg"\] Alt text:
 
@@ -32,7 +32,7 @@ View your capabilities, product adoption roadmaps, and subscriptions for your Se
 
 </td><td>
 
-[Subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/subscriptions.md)
+[Subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/subscriptions.md)
 
  \[Omitted image "bus-business-management.svg"\] Alt text:
 

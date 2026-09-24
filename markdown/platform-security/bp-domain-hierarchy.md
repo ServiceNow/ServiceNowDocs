@@ -3,9 +3,9 @@ title: Setting up domain hierarchies
 description: You can avoid slowdowns and performance impacts in your instance by knowing how domain hierarchies work and by setting them up properly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-domain-hierarchy.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Recommended practices for service providers, Domain separation for service providers, Access Management]
 ---
@@ -24,7 +24,7 @@ For the same reasons, even if you must change the domain hierarchy, never do a m
 
 In the syslog\_domain table, look for an information entry in the Message column for **DWR execution completed.** to confirm that DWR is completed.
 
-**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
+**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/bp-domain-sep-recommended.md)
 
 **Related topics**  
 

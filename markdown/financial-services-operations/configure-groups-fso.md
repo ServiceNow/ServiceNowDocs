@@ -3,9 +3,9 @@ title: Configure groups
 description: Configure user groups for Financial Services Operations applications for assignment of cases and tasks. You can assign roles to groups to provide access to all group members or assign roles to individual users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/configure-groups-fso.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Financial Services Operations \(FSO\)]
 ---
@@ -48,18 +48,18 @@ Any rule that is applied to a group is automatically assigned to group members. 
     -   To configure an existing group, open the group that you want to configure.
 3.  On the form, fill in the fields.
 
-    For detailed instructions and field descriptions, see [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAGroup.md).
+    For detailed instructions and field descriptions, see [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAGroup.md).
 
 4.  Click **Submit** or **Update**.
 
 
 ## What to do next
 
--   Assign roles to the group. For more information, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md).
+-   Assign roles to the group. For more information, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignRoleToGroup.md).
 
     Configure agent connector and contributor roles for the group, if required.
 
-    **Important:** For the agent connector or contributor role to work, they must be combined with one of the roles in CSM industry data model or Contributor users. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
+    **Important:** For the agent connector or contributor role to work, they must be combined with one of the roles in CSM industry data model or Contributor users. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 -   Add users to the group.
 -   Associate groups with assignment rules.

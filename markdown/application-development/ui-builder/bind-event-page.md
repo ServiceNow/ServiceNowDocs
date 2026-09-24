@@ -3,11 +3,11 @@ title: Bind an event to a page
 description: Use page event mappings to bind data elements within UI Builder so that you can add event actions to your page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/bind-event-page.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Bind events to add actions, Manage actions in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -35,11 +35,11 @@ You can bind an event to a page by using the following types of events:
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-experiences.md) for more information.
 
 3.  Open or create a page.
 
-    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-page.md).
 
 4.  Highlight the page body in the content tree.
 
@@ -51,15 +51,15 @@ You can bind an event to a page by using the following types of events:
 
 6.  Add an event handler in one of the following ways.
 
-<table id="choicetable_tqw_v1s_znb"><thead><tr><th align="left" id="d118057e178">
+<table id="choicetable_tqw_v1s_znb"><thead><tr><th align="left" id="d114157e178">
 
 To add this event handler
 
-</th><th align="left" id="d118057e181">
+</th><th align="left" id="d114157e181">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d118057e187">
+</th></tr></thead><tbody><tr><td id="d114157e187">
 
 **Page event mappings**
 
@@ -73,7 +73,7 @@ Do this
 3.  To add the event handler to your page, click **Add**.
 
 
-</td></tr><tr><td id="d118057e257">
+</td></tr><tr><td id="d114157e257">
 
 **Variant event mappings**
 
@@ -93,7 +93,7 @@ Do this
 -   These mappings are automatically created on a page save when you have mapped a component's dispatched event to another event. For example, when you map a **Button clicked** event to the **Link to destination** event, the event creates a dispatched relay event and a variant event mapping after you save the page.
 
 
-</td></tr><tr><td id="d118057e330">
+</td></tr><tr><td id="d114157e330">
 
 **Dispatched events**
 
@@ -120,7 +120,7 @@ Do this
 
 -   These events are often used to create relay event mappings. You can select a **Target parent event handler** to model the payload fields after the selected event. You can also manually create payload fields for your dispatched event.
 
-</td></tr><tr><td id="d118057e437">
+</td></tr><tr><td id="d114157e437">
 
 **Handled events**
 
@@ -138,5 +138,5 @@ Do this
 8.  To preview your page and test the data resource event that you set up, select \[Omitted image "preview-button.png"\] Alt text: Preview button..
 
 
-**Parent Topic:**[Bind events to add actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/bind-events.md)
+**Parent Topic:**[Bind events to add actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/bind-events.md)
 

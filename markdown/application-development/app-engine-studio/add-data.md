@@ -1,20 +1,22 @@
 ---
 title: Create a data model for your application
-description: Create a data model in App Engine Studio \(AES\) for your application by creating the tables that will house your application data. Create data tables that will be used in your application by creating the table from scratch, uploading a spreadsheet or PDF, or by using an existing table as a template. You can also create and schedule data imports by mapping a spreadsheet to an existing table in your application.
+description: Create a data model in App Engine Studio \(AES\) for your application by creating the tables that will house your application data. Create data tables that will be used in your application by creating the table from scratch, uploading a spreadsheet, or by using an existing table as a template. You can also create and schedule data imports by mapping a spreadsheet to an existing table in your application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/add-data.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Enhance your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Enhance your app, Build, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Create a data model for your application
 
-Create a data model in App Engine Studio \(AES\) for your application by creating the tables that will house your application data. Create data tables that will be used in your application by creating the table from scratch, uploading a spreadsheetor PDF, or by using an existing table as a template. You can also create and schedule data imports by mapping a spreadsheet to an existing table in your application.
+Create a data model in App Engine Studio \(AES\) for your application by creating the tables that will house your application data. Create data tables that will be used in your application by creating the table from scratch, uploading a spreadsheet, or by using an existing table as a template. You can also create and schedule data imports by mapping a spreadsheet to an existing table in your application.
+
+**Note:** Starting with the Brazil release, the PDF extractor tool has been deprecated. The feature is hidden and no longer available for installation or use. The capability to create tables from PDFs is available with Build Agent. For more information, see [Migrating to Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-migrating-to-build-agent.md).
 
 Creating a data model and populating data into user interfaces are crucial starting points for any new application. Users may provide data, such as their name and phone number, when they fill in a form, and other users may refer to data as they fulfill a request.
 
@@ -28,7 +30,7 @@ Application templates automatically add data to your application. If you use a t
 
 ## Forms
 
-When you add data to your app, any associated form views display in the **Experience** section of your app. To edit the form, select it in the **Experience** section. Form views can be edited in the **Forms** tab of Table Builder. For more information, see [Forms in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/form-view-configuration.md).
+When you add data to your app, any associated form views display in the **Experience** section of your app. To edit the form, select it in the **Experience** section. Form views can be edited in the **Forms** tab of Table Builder. For more information, see [Forms in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/form-view-configuration.md).
 
 ## Table extension
 
@@ -40,7 +42,7 @@ Many organizations create extensible standardized tables for their citizen devel
 
 To make a table in your application extensible, select **Make extensible** during table creation. After extending an existing table, you can further customize the new table by adding more columns.
 
-The following table provides a list of commonly extended tables in the ServiceNow AI Platform. For more information on commonly extended tables and models for extension, see [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-extension-and-classes.md).
+The following table provides a list of commonly extended tables in the ServiceNow AI Platform. For more information on commonly extended tables and models for extension, see [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-extension-and-classes.md).
 
 <table id="table_o5c_hmf_25b"><thead><tr><th>
 
@@ -343,16 +345,16 @@ Stores data that allows you to require authorization on tasks before the work is
 </td></tr></tbody>
 </table>Use the methods listed below to create a data model and add data to your application.
 
--   **[Create a blank table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/use-existing-table.md)**  
+-   **[Create a blank table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/use-existing-table.md)**  
 Add a data table to your application from an existing table that you or someone else previously created or from scratch.
--   **[Use a spreadsheet to add data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/upload-multi-sheets.md)**  
+-   **[Use a spreadsheet to add data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/upload-multi-sheets.md)**  
 Add data tables and records to your application by uploading a Microsoft Excel spreadsheet.
--   **[Use a PDF to create data tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/pdf-extractor.md)**  
+-   **[Use a PDF to create data tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/pdf-extractor.md)**  
 Create tables from a PDF form using the PDF extractor tool in App Engine Studio.
--   **[Create a data integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/import-map-data-existing-table.md)**  
+-   **[Create a data integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/import-map-data-existing-table.md)**  
 Add new or updated information to your current data sets by importing it into existing tables in your application through the power of Integration Hub. Schedule future imports to add data at specific times.
--   **[Modify application data tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/edit-data.md)**  
+-   **[Modify application data tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/edit-data.md)**  
 Use Table Builder to modify data tables used in your application.
 
-**Parent Topic:**[Enhance your app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/customize-application.md)
+**Parent Topic:**[Enhance your app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/customize-application.md)
 

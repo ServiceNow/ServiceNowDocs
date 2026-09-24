@@ -3,11 +3,11 @@ title: Consume test messages from a Hermes topic using the Kafka client
 description: Consume test messages from a Hermes topic by configuring two consumer clients.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/consume-messages-hermes.html
-release: australia
+release: brazil
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Produce and consume messages, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,9 +18,9 @@ Consume test messages from a Hermes topic by configuring two consumer clients.
 
 ## Before you begin
 
--   Secure your Kafka topics by generating a ServiceNow® instance-signed certificate and keystore. You must provide truststore and keystore details when you configure the Hermes consumers. See [Set up a secure connection to the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/set-up-secure-connection-to-hermes.md).
--   Download and install Apache Kafka. See [Prepare your Apache Kafka client environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/prepare-kafka-client-environment.md).
--   Create a topic and produce test messages in the Hermes Kafka cluster before you can consume messages. For details, see [Create a test topic in Hermes using the Kafka client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/create-hermes-topic.md) and [Produce test messages to a Hermes topic using the Kafka client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/produce-messages-hermes.md).
+-   Secure your Kafka topics by generating a ServiceNow® instance-signed certificate and keystore. You must provide truststore and keystore details when you configure the Hermes consumers. See [Set up a secure connection to the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/multi-instance-framework-hermes/set-up-secure-connection-to-hermes.md).
+-   Download and install Apache Kafka. See [Prepare your Apache Kafka client environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/multi-instance-framework-hermes/prepare-kafka-client-environment.md).
+-   Create a topic and produce test messages in the Hermes Kafka cluster before you can consume messages. For details, see [Create a test topic in Hermes using the Kafka client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/multi-instance-framework-hermes/create-hermes-topic.md) and [Produce test messages to a Hermes topic using the Kafka client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/multi-instance-framework-hermes/produce-messages-hermes.md).
 
 Role required: admin
 

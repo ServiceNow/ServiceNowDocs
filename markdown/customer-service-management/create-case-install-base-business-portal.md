@@ -3,11 +3,11 @@ title: Create a case for install base from the Business Portal
 description: Create a case about a question or issue on your install base from the business portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-case-install-base-business-portal.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Business Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Business Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Create a case for install base from the Business Portal
@@ -93,7 +93,7 @@ A more detailed description of the customer question, issue, or problem.
 **Related topics**  
 
 
-[View install base information from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-install-base-info-business-portal.md)
+[View install base information from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/view-install-base-info-business-portal.md)
 
-[View or modify a case from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ViewOrModCaseFrom-businessportal.md)
+[View or modify a case from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/t_ViewOrModCaseFrom-businessportal.md)
 

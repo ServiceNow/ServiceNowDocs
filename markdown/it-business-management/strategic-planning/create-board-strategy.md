@@ -3,11 +3,11 @@ title: Create a board
 description: Create boards that bring strategic priorities, goals, and targets together in one focused view, helping your organization stay aligned and drive measurable business outcomes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/create-board-strategy.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manage boards, Strategy and Goals, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -125,16 +125,16 @@ Apply the filters to see the required records on the board.For example, you can 
 
 The board is created and displays the Strategy page, Goals page, or both, depending on what you selected to track.
 
-**Parent Topic:**[Managing boards in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/managing-boards-strategy.md)
+**Parent Topic:**[Managing boards in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/managing-boards-strategy.md)
 
 **Related topics**  
 
 
-[Create a strategic plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-strategic-plan-strategy.md)
+[Create a strategic plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/create-strategic-plan-strategy.md)
 
-[Create a strategic priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-strategic-priority-strategy.md)
+[Create a strategic priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/create-strategic-priority-strategy.md)
 
-[Create a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-goal-strategy.md)
+[Create a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/create-goal-strategy.md)
 
-[Share a board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/share-board-strategy.md)
+[Share a board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/share-board-strategy.md)
 

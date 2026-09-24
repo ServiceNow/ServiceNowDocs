@@ -3,11 +3,11 @@ title: Create an export set from a list
 description: You can quickly create an export set from a list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-export-sets/t\_CreateAnExportSetFromAList.html
-release: australia
+release: brazil
 product: System Export Sets
 classification: system-export-sets
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create an export set, Export sets, Exports, Workflow Data Fabric]
 ---

@@ -1,18 +1,18 @@
 ---
-title: New web or installed application form
+title: Add web or installed application form
 description: Using a custom form, you can add an application to be monitored for compliance or performance metrics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/admin-new-app-form.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Administration cards, DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Service Management]
 ---
 
-# New web or installed application form
+# Add web or installed application form
 
 Using a custom form, you can add an application to be monitored for compliance or performance metrics.
 
@@ -67,7 +67,7 @@ Enable page-level monitoring
 
 </td><td>
 
-Specific pages to monitor within the domain.You can add a specific page to monitor after adding and saving the application to monitored applications. In the Application management table, select the added application to set up one or more pages. See [Set up page-level monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/set-up-page-level-monitoring.md) for more details.
+Specific pages to monitor within the domain.You can add a specific page to monitor after adding and saving the application to monitored applications. In the Application management table, select the added application to set up one or more pages. See [Set up page-level monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/set-up-page-level-monitoring.md) for more details.
 
 This field appears only if you select **Web application** under the **New** drop-down list.
 
@@ -110,8 +110,8 @@ Option to add a Software Asset Management \(SAM\) product to enable tracking of 
 
 This field appears only when you're editing a web application.
 
-For more information, see [Using DEX or SAM for application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/using-dex-or-sam-for-app-monitoring.md).
+For more information, see [Using DEX or SAM for application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/using-dex-or-sam-for-app-monitoring.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Administration cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/administration-cards.md)
+</table>**Parent Topic:**[Administration cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/administration-cards.md)
 

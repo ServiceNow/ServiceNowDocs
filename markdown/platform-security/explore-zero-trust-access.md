@@ -3,9 +3,9 @@ title: Explore Zero Trust Access
 description: Zero Trust Access \(ZTA\) is a security model that assumes that no user or device is trusted by default.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/explore-zero-trust-access.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Zero Trust Access, Access Management]
 ---
@@ -41,7 +41,7 @@ It enables the security admins to reduce or limit user access in a session based
 Following are some of the use cases of Zero Trust Access:
 
 -   Reduce privileges based on the risk associated with the session. For example, a fulfiller role user logging from outside the trusted network can be configured to have only the requester role for the session.
--   Reduce access based on IDP response for a user session, if the user is using an untrusted device. For more information, see [Configure Identity Provider attribute for Session Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-idp-session-access.md).
+-   Reduce access based on IDP response for a user session, if the user is using an untrusted device. For more information, see [Configure Identity Provider attribute for Session Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/configure-idp-session-access.md).
 
 This role relegation ensures that the user doesn’t have any other existing privileges in a session. When the user is logging in from a trusted network, all the existing privileges are assigned for a session.
 
@@ -55,5 +55,5 @@ Zero Trust Access - Session Access mobile can be enabled by enabling the **glide
 
 To use Zero Trust Access - Session Access mobile with the IDP attributes you can configure the **glide.authenticate.session\_access.mobile.refresh\_token\_interval** field. This enables the administrators to effectively control the session access based on refresh token.
 
-For more information, see [Configure Zero Trust Access for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-zero-trust-access-mobile.md).
+For more information, see [Configure Zero Trust Access for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/configure-zero-trust-access-mobile.md).
 

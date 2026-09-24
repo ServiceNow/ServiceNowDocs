@@ -3,7 +3,7 @@ title: Set up the Microsoft Azure Notification Hub spoke
 description: Set up your ServiceNow instance to integrate with the Microsoft Azure Notification Hub. Setting enables the Microsoft Azure Notification Hub to authenticate requests from your ServiceNow instance.Set up the Microsoft Azure Resource Management connection alias to do the actions under the Notification Hub Management and Namespace Management categories of the Microsoft Azure Notification Hub spoke.Establish a connection between the Microsoft Azure Notification Hub SAS connection alias and the Microsoft Azure portal.Generate a shared access key that you must provide to create a connection between the Microsoft Azure Notification Hub SAS connection alias and the Microsoft Azure portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-azure-notif-hub.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -30,7 +30,7 @@ Set up the Microsoft Azure Resource Management connection alias to do the action
 
 Role required: admin
 
--   To view the procedure to set up the Microsoft Azure Resource Management connection alias, see [Set up the Microsoft Azure Resource Management spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-res-mngmt.md).
+-   To view the procedure to set up the Microsoft Azure Resource Management connection alias, see [Set up the Microsoft Azure Resource Management spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-res-mngmt.md).
 
 ## Set up Microsoft Azure Notification Hub SAS connection alias
 
@@ -71,7 +71,7 @@ spoke.
     |Connection name|Name of the connection record.|
     |Credential name|Name of the credential that is used to access the Microsoft Azure Notification Hub SAS.|
     |Shared Access Key Name|Name of the shared access key to the Microsoft Azure Notification Hub SAS.|
-    |Shared Access Key|Shared access key to the Microsoft Azure Notification Hub SAS. Generate the key from the Microsoft Azure portal. To view the procedure, see [Generate shared access key for Microsoft Azure Notification Hub SAS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-azure-notif-hub.md).|
+    |Shared Access Key|Shared access key to the Microsoft Azure Notification Hub SAS. Generate the key from the Microsoft Azure portal. To view the procedure, see [Generate shared access key for Microsoft Azure Notification Hub SAS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-azure-notif-hub.md).|
 
 9.  Select **Create**.
 
@@ -110,5 +110,5 @@ Role required: admin.
 **Related topics**  
 
 
-[Set up Microsoft Azure Notification Hub SAS connection alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-azure-notif-hub.md)
+[Set up Microsoft Azure Notification Hub SAS connection alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-azure-notif-hub.md)
 

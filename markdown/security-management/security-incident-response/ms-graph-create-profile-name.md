@@ -3,11 +3,11 @@ title: Identify source for the profile
 description: Specify the name and source for the profile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/ms-graph-create-profile-name.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a profile, Microsoft Graph Security API alert ingestion integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

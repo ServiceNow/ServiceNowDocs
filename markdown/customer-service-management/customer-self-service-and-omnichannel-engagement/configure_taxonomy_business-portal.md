@@ -3,13 +3,13 @@ title: Configure a taxonomy on Business and Consumer Portal to define topics rel
 description: Configure a taxonomy on the Business or Consumer Portal to organize topics that are relevant to your users, such as orders, returns, or payments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/configure\_taxonomy\_business-portal.html
-release: australia
+release: brazil
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Business and Consumer Portal, Configure portals, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Configure Business and Consumer Portal, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure a taxonomy on Business and Consumer Portal to define topics relevant to your users
@@ -42,7 +42,7 @@ For example, topics relevant to an e-commerce site can be orders, returns, payme
 
 6.  On the Edit Members page, move the required taxonomy from **Collection** to the **Taxonomy List**.
 
-    You can also create a taxonomy. For more information, see [Create taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/create-taxonomy-content.md).
+    You can also create a taxonomy. For more information, see [Create taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/create-taxonomy-content.md).
 
     **Note:** Only one taxonomy can be associated with a portal.
 
@@ -51,10 +51,10 @@ For example, topics relevant to an e-commerce site can be orders, returns, payme
 
 ## What to do next
 
-Create and associate topics to the new taxonomy and associate catalog items and knowledge articles to the topics created. For details, see [Associate connected content to a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/associate-content-to-topics.md).
+Create and associate topics to the new taxonomy and associate catalog items and knowledge articles to the topics created. For details, see [Associate connected content to a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/associate-content-to-topics.md).
 
 **Related topics**  
 
 
-[Create and associate topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/create-topics-for-taxonomy.md)
+[Create and associate topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/create-topics-for-taxonomy.md)
 

@@ -3,9 +3,9 @@ title: Create a default filter for list selector records
 description: You can set a default filter to restrict which related records users can select when editing a reference field. Default filters are simple to set up but lack a dynamic filtering element, which prevents the end user from changing the default filter.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_CreateDefaultRelatedRecSecFilter.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Related lists, Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -35,7 +35,7 @@ A filter is used to restrict the records that are listed in the slushbucket that
     When users click the **Edit** button in the related list, the list of records they can select is filtered according to the default filter.
 
 
-**Parent Topic:**[Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_RelatedLists.md)
+**Parent Topic:**[Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_RelatedLists.md)
 
 **Related topics**  
 
@@ -52,7 +52,7 @@ A filter is used to restrict the records that are listed in the slushbucket that
 
 [Add fields to selections in a related list]()
 
-[Configure reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConfigureReferenceQualifiers.md)
+[Configure reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ConfigureReferenceQualifiers.md)
 
-[Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md)
+[Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ConditionBuilder.md)
 

@@ -3,9 +3,9 @@ title: Notification example: notify an assignment group of updates to Priority 1
 description: Notify users by email when there are updates to high priority incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_Ex4Priority1IncUpdateNotif.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create an email notification, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -152,7 +152,7 @@ Priority ${priority} Incident updated
         -   Comments from the incident record
 6.  Test that the email notification sends to an assignment group when its Priority 1 Incident is updated.
 
-    1.  [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md) who has an email address that you can monitor, and then [create a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAGroup.md) that includes the user that you created.
+    1.  [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/t_CreateAUser.md) who has an email address that you can monitor, and then [create a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/t_CreateAGroup.md) that includes the user that you created.
 
     2.  Navigate to **Incident** &gt; **Open**, and then open an incident in which the **Priority** is **1 - Critical**.
 
@@ -165,5 +165,5 @@ Priority ${priority} Incident updated
     6.  Check the email account of the user member in the assignment group.
 
 
-**Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md)
+**Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateANotification.md)
 

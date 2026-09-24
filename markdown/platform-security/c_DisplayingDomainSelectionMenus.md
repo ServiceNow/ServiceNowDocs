@@ -3,9 +3,9 @@ title: Use domain selection menus
 description: The instance offers domain selection via two menu formats.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/c\_DisplayingDomainSelectionMenus.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Advanced administration, Setup and administration, Domain separation for service providers, Access Management]
 ---
@@ -19,12 +19,12 @@ The instance offers domain selection via two menu formats.
 
 The placement of these pickers and the procedure to show or hide them differ depending on the user interface version.
 
--   **[Enable domain selection menus in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_EnableDomainReferencePickerProperty.md)**  
+-   **[Enable domain selection menus in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_EnableDomainReferencePickerProperty.md)**  
 Displaying the domain picker in Core UI enables the domain selector by default. After enabling the domain selector, you can add a system property to enable the domain reference picker.
--   **[Restrict access to the domain picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_RestrictAccesstoDomainPicker.md)**  
+-   **[Restrict access to the domain picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_RestrictAccesstoDomainPicker.md)**  
 Use a system property to restrict access to the domain picker in Core UI and Next Experience.
 
-**Parent Topic:**[Advanced domain separation administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparationAdministration.md)
+**Parent Topic:**[Advanced domain separation administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_DomainSeparationAdministration.md)
 
 **Related topics**  
 

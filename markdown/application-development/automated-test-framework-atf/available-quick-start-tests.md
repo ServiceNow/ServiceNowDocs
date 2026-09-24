@@ -3,12 +3,12 @@ title: Available quick start tests by application or feature
 description: Validate that your instance still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize the ServiceNow -provided quick start tests to pass when using your instance-specific data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/available-quick-start-tests.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 111
+last_updated: "2026-09-10"
+reading_time_minutes: 110
 breadcrumb: [Quick start tests, Automated Test Framework \(ATF\) test types and techniques, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
 
@@ -18,7 +18,7 @@ Validate that your instance still works after you make any configuration change 
 
 **Danger**
 
-By default, the system property that is used to run automated tests is turned off to prevent you from accidentally running these tests on a production system. To avoid data corruption or an outage, run tests only on development, test, and other non-production instances. See [Enable or disable executing Automated Test Framework tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-enable-tests.md).
+By default, the system property that is used to run automated tests is disabled to prevent you from accidentally running these tests on a production system. To avoid data corruption or an outage, run tests only on development, test, and other non-production instances. See [Enable or disable executing Automated Test Framework tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-enable-tests.md).
 
 ## Agile Development 2.0
 
@@ -186,7 +186,7 @@ Verify a Demand is converted to a scrum story
 
 </td><td>
 
-If the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) is active, verify that a Demand can be converted to an Agile 2.0 story using the **Create Story** related link on the Demand form. For more information on how to create an Agile 2.0 story from a demand, see [Create an artifact from a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/t_CrtArtftDmdMnu.md).
+If the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) is active, verify that a Demand can be converted to an Agile 2.0 story using the **Create Story** related link on the Demand form. For more information on how to create an Agile 2.0 story from a demand, see [Create an artifact from a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/t_CrtArtftDmdMnu.md).
 
 </td><td>
 
@@ -198,14 +198,14 @@ Verify a Demand is converted to a scrum epic
 
 </td><td>
 
-If the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) is active, verify that a Demand can be converted to an Agile 2.0 epic using the **Create Epic** related link on the Demand form.For more information on how to create an Agile 2.0 epic from a demand, see [Create an artifact from a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/t_CrtArtftDmdMnu.md).
+If the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) is active, verify that a Demand can be converted to an Agile 2.0 epic using the **Create Epic** related link on the Demand form.For more information on how to create an Agile 2.0 epic from a demand, see [Create an artifact from a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/t_CrtArtftDmdMnu.md).
 
 </td><td>
 
 Quebec
 
 </td></tr></tbody>
-</table>To learn more about Agile Development 2.0, see [Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-landing-page.md).
+</table>To learn more about Agile Development 2.0, see [Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-landing-page.md).
 
 ## Enterprise Architecture \(formerly Application Portfolio Management\)
 
@@ -219,7 +219,7 @@ Enterprise Architecture quick start tests require enabling the Enterprise Archit
 |Enterprise Architecture: Test for Indicator Score and Application Score generation|Verify the creation of indicator, scoring profile, and generation of indicator scores and application scores.|Paris|
 |Enterprise Architecture: Business Application with Information Object and Data Domain|Verify the creation of business application, information object, and addition of the CRUD operations in relation attributes.|Quebec|
 
-To learn more about Enterprise Architecture \(formerly Application Portfolio Management\), see [Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/application-portfolio-management-landing-page.md) .
+To learn more about Enterprise Architecture \(formerly Application Portfolio Management\), see [Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/application-portfolio-management-landing-page.md) .
 
 ## Assessments and Surveys
 
@@ -237,7 +237,7 @@ Assessments and Surveys quick start tests require activating the Automated Test 
 |Assessment: Scale and Template support|Create, publish, and assign the assessment. Then take the assessment.|Rome|
 |Assessment: Basic test flow|Verify the basic flow of an assessment.|Orlando|
 
-To learn more about Assessments and Surveys, see [Service administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ServiceAdministration.md).
+To learn more about Assessments and Surveys, see [Service administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_ServiceAdministration.md).
 
 ## Change Management
 
@@ -301,7 +301,7 @@ Change Management quick start tests require activating the Change Management - A
 |Share Change Schedule Definition|Validate the sharing of change schedules definitions.|Orlando|
 |Create Standard Change via Service Portal|Create Standard Change from Service Portal|Yokohama|
 
-To learn more about Change Management, see [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_ITILChangeManagement.md).
+To learn more about Change Management, see [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/c_ITILChangeManagement.md).
 
 ## Cloud Provisioning and Governance
 
@@ -363,7 +363,7 @@ Cloud Provisioning and Governance quick start tests require activating the follo
 |CMP: Verify stack status after Day2 - Start operation|Validate the status of the stack status changed from 'Off' to 'On' after the Start operation.|Orlando|
 |CMP: Verify stack status after Day2 - De-provision operation|Validate the status of the stack status changed from 'On' to 'terminate' after the de-provisioning operation.|Orlando|
 
-To learn more about Cloud Provisioning and Governance, see [Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-management-v2-landing-page.md).
+To learn more about Cloud Provisioning and Governance, see [Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-management-v2-landing-page.md).
 
 ## Coaching
 
@@ -382,7 +382,7 @@ Coaching quick start tests requires activation of the Coaching plugin \(com.sn\_
 |Coaching: Submit Coaching survey as a Coach user.|Verify that coach can submit survey for a trainee.|Quebec|
 |Coaching: Submit Coaching survey as a Traineer user.|Verify that trainee can submit survey for a coach.|Quebec|
 
-To learn more about coaching, see [Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cf-coaching-landing.md).
+To learn more about coaching, see [Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/cf-coaching-landing.md).
 
 ## Communities
 
@@ -407,7 +407,7 @@ Communities quick start tests require activating the Customer Communities plugin
 |Post a video with 'Disable comment' option|Verify a video is posted with `Disable comments` option as selected.|Orlando|
 |Pin a video as Featured|Verify that a video is marked as featured by community administrator in the forum and community home page.|Orlando|
 
-To learn more about Communities, see [Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/servicenow-communities.md).
+To learn more about Communities, see [Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/servicenow-communities.md).
 
 ## Configuration Compliance
 
@@ -419,7 +419,7 @@ Configuration Compliance quick start tests require activating the Configuration 
 |Configuration Compliance - Reapply Group Rule|Reapply a test result group rule.|Yokohama|
 |Configuration Compliance - Delete Group Rule|Delete a test result group rule.|Yokohama|
 
-To learn more about Configuration Compliance, see [Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vr-config-compliance-landing.md).
+To learn more about Configuration Compliance, see [Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vr-config-compliance-landing.md).
 
 ## Configuration Management Database \(CMDB\)
 
@@ -531,7 +531,7 @@ Paris
 |Test|Description|Release version|
 |----|-----------|---------------|
 |CMDB REL EDITOR:Relationship Editor|Check addition of relations to a CI and deletion of relations from a CI using sn\_cmdb\_editor and itil user roles.|New York|
-|CMDB REL FORMATTER:Relationship Formatter|Check accuracy of CI information, relationship types, relationships, associated records such as change tickets, and settings such as CMDB views \(relationship filters\), displayed for a specific CI in relationship formatter using sn\_cmdb\_editor and itil user roles.|New York|
+|CMDB REL FORMATTER:Relationship Formatter|Check CI information, relationship types, relationships, associated records, and CMDB views displayed in relationship formatter using sn\_cmdb\_editor and itil user roles.|New York|
 
 |Test|Description|Release version|
 |----|-----------|---------------|
@@ -543,7 +543,7 @@ Paris
 |CMDB SDK: Update a CI using REST APIs|Test updating of a CI using CMDB REST APIs.|New York|
 |CMDB SDK: Query for a CI using REST APIs|Test querying a CI using CMDB REST APIs.|New York|
 
-To learn more about Configuration Management Database, see [Configuration Management Database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ITILConfigurationManagement.md).
+To learn more about Configuration Management Database, see [Configuration Management Database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_ITILConfigurationManagement.md).
 
 ## Continual Improvement Management
 
@@ -556,7 +556,7 @@ Continual Improvement Management quick start tests require activating the Contin
 |CIM: Inbound integration from Problem Management|Create an improvement initiative from a problem.|Paris|
 |CIM: Inbound integration from Survey Management|Create an improvement initiative from a survey.|Paris|
 
-To learn more about Continual Improvement Management, see [Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cim-landing-page.md).
+To learn more about Continual Improvement Management, see [Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/cim-landing-page.md).
 
 ## Customer Service Management
 
@@ -567,7 +567,7 @@ All Customer Service Management quick start tests require activating the Custome
 -   Case Playbook for Onboarding \(sn\_onboarding\)
 -   Consumer Service Portal \(com.glide.service-portal.consumer-portal\)
 -   CSM Contributor User \(com.snc\_csm\_contributor\_user\)
--   CSM Extension for Proxy Contacts \(com.snc.csm\_proxy\_contacts\)
+-   Customer Proxy Contacts \(com.snc.csm\_proxy\_contacts\)
 -   Customer Household Data Model \(com.snc.household\)
 -   Customer Service Management for Orders \(com.snc.csm.order\)
 -   Customer Service Portal \(com.glide.service-portal.customer-portal\)
@@ -997,7 +997,7 @@ CSM - Employee creating case OBO customer
 
 </td><td>
 
-As an employee with the proxy contact role \(sn\_customerservice\_proxy\_contact\), create a case from the self-service portal on behalf of a customer. **Note:** Requires the CSM Extension for Proxy Contacts.
+As an employee with the proxy contact role \(sn\_customerservice\_proxy\_contact\), create a case from the self-service portal on behalf of a customer. **Note:** Requires the Customer Proxy Contacts.
 
 </td><td>
 
@@ -1618,7 +1618,7 @@ CSP - Create product case as an internal unified consumer from CSP Portal
 
 </td><td>
 
-This test verifies the functionality of creating a product case as an internal unified consumer from the CSP portal in conjunction with the Customer Service and Consumer Service Portal plugins, using the Customer Service Management \(CSM\) demo data plugin.
+Verifies creating a product case as an internal unified consumer from the CSP portal. Requires the Customer Service and Consumer Service Portal plugins with the Customer Service Management \(CSM\) demo data plugin.
 
 </td><td>
 
@@ -1630,7 +1630,7 @@ CSP - Create product case as an external unified consumer from CSP Portal
 
 </td><td>
 
-This test verifies the functionality of creating a product case as an external unified consumer from the CSP portal in conjunction with the Customer Service and Consumer Service Portal plugins, using the Customer Service Management \(CSM\) demo data plugin.
+Verifies creating a product case as an external unified consumer from the CSP portal. Requires the Customer Service and Consumer Service Portal plugins with the Customer Service Management \(CSM\) demo data plugin.
 
 </td><td>
 
@@ -1689,7 +1689,7 @@ Rome
 |CSM PPM: Case creation from project workflow|As a customer service agent, create a case from a CSM project record in CRM Workspace.|Yokohama|
 |CSM PPM: Case creation from project task workflow|As a customer service agent, create a case from a CSM project task record in CRM Workspace.|Yokohama|
 
-To learn more about Customer Service Management, see [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceManagement.md).
+To learn more about Customer Service Management, see [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_CustomerServiceManagement.md).
 
 ## Dashboards
 
@@ -1700,7 +1700,7 @@ Dashboards quick start tests require activating the Automated Test Framework - R
 |Responsive Dashboard Sharing|Confirm dashboard sharing by impersonating users.|Madrid|
 |Responsive Dashboard Visibility|Confirm dashboard visibility by impersonating users.|Madrid|
 
-To learn more about Dashboards, see [Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dashboards-landing-page.md).
+To learn more about Dashboards, see [Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/dashboards-landing-page.md).
 
 ## DevOps
 
@@ -1713,7 +1713,7 @@ DevOps quick start tests are available when you install the DevOps application f
 |DevOps Orchestration Tool Flow|Verify the Workflow Studio flow for a DevOps orchestration tool.|Madrid|
 |DevOps Plan Tool Flow|Verify the Workflow Studio flow for a DevOps planning tool.|Madrid|
 
-To learn more about DevOps, see [DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-landing-page-new.md).
+To learn more about DevOps, see [DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-landing-page-new.md).
 
 ## Employee Center
 
@@ -1978,7 +1978,7 @@ Essential SAFe: Feature tests
 
 </td><td>
 
-If the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) is active, verify that a Demand can be converted to a SAFe feature using the **Create SAFe Feature** related link on the Demand form. For more information on how to create an SAFe feature from a demand, see [Create an artifact from a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/t_CrtArtftDmdMnu.md).
+If the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) is active, verify that a Demand can be converted to a SAFe feature using the **Create SAFe Feature** related link on the Demand form. For more information on how to create an SAFe feature from a demand, see [Create an artifact from a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/t_CrtArtftDmdMnu.md).
 
 </td><td>
 
@@ -2086,7 +2086,7 @@ Essential SAFe: Story tests
 
 </td><td>
 
-If the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) is active, verify that a Demand can be converted to a SAFe story using the **Create SAFe Story** related link on the Demand form. For more information on how to create a SAFe story from a demand, see [Create an artifact from a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/t_CrtArtftDmdMnu.md).
+If the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) is active, verify that a Demand can be converted to a SAFe story using the **Create SAFe Story** related link on the Demand form. For more information on how to create a SAFe story from a demand, see [Create an artifact from a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/t_CrtArtftDmdMnu.md).
 
 </td><td>
 
@@ -2126,7 +2126,7 @@ Essential SAFe: Epic tests
 
 </td><td>
 
-If the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) is active, verify that a Demand can be converted to a SAFe epic using the **Create SAFe Epic** related link on the Demand form.For more information on how to create a SAFe epic agile from a demand, see [Create an artifact from a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/t_CrtArtftDmdMnu.md).
+If the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) is active, verify that a Demand can be converted to a SAFe epic using the **Create SAFe Epic** related link on the Demand form.For more information on how to create a SAFe epic agile from a demand, see [Create an artifact from a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/t_CrtArtftDmdMnu.md).
 
 </td><td>
 
@@ -2154,14 +2154,14 @@ Essential SAFe: Team PI Objective tests
 
 Verify the functionality of creating and updating team PI Objectives-   Verify that you can create a team-level PI objective
 -   Verify that you can update the created PI objective with the planned business value \(PBV\) and actual business value \(ABV\)
--   Verify that the percentage of business value achieved is computed as the percentage of ABV complete for committed PI objectives compared to the team PBV in the PI
+-   Verify that the percentage of business value achieved is computed as the percentage of ABV complete for committed PI objectives compared to team PBV
 
 </td><td>
 
 Rome
 
 </td></tr></tbody>
-</table>To learn more about Essential SAFe, see [Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/essential-overview.md).
+</table>To learn more about Essential SAFe, see [Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/essential-overview.md).
 
 ## Event Management
 
@@ -2171,7 +2171,7 @@ Event Management quick start tests require activating the Event Management plugi
 |----|-----------|---------------|
 |EMSelfMonitoring|Track problems with the Event Management plugin after upgrade. To understand the details of issues found, open the All Alerts list. Search for alerts that failed, whose source is `EMSelfMonitoring`, and that were opened or reopened since the upgrade. The exact time for filtering can be found in the error message.|Madrid|
 
-To learn more about Event Management, see [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_EM.md).
+To learn more about Event Management, see [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/c_EM.md).
 
 ## Field Service Management
 
@@ -2585,7 +2585,7 @@ Create a time worked entry as a dispatcher or qualifier
 
 </td><td>
 
-Australia
+Brazil
 
 </td></tr><tr><td>
 
@@ -2600,7 +2600,7 @@ Flag a work order task from CSM/FSM Configurable workspace
 
 </td><td>
 
-Australia
+Brazil
 
 </td></tr></tbody>
 </table>## Finance Close Automation
@@ -2639,7 +2639,7 @@ Granular Delegation quick start tests require activating the Granular Delegation
 
 |Test|Description|Release version|
 |----|-----------|---------------|
-|\[Delegation\] Admin - Adding a delegation rule with delegator and delegate user criteria|Ensures a delegate or delegator honors the user criteria assigned to an HR task.|Australia|
+|\[Delegation\] Admin - Adding a delegation rule with delegator and delegate user criteria|Ensures a delegate or delegator honors the user criteria assigned to an HR task.|Brazil|
 
 ## GRC Audit Management
 
@@ -2675,7 +2675,7 @@ GRC: Create and process a milestone
 
 </td><td>
 
-Create a milestone in an engagement. The due date cannot be in the past and the completion date cannot be in the future. For a milestone in open state, the percent complete is 0 and changes when the milestone state changes.
+Create a milestone in an engagement. The due date cannot be in the past and the completion date cannot be in the future. For a milestone in open state, the percent complete is 0 and changes with the milestone state.
 
 </td><td>
 
@@ -2687,7 +2687,7 @@ GRC: Cost and Resource plan rollup
 
 </td><td>
 
-Create an audit plan and associate an engagement to it. Add a cost plan and resource plan to this engagement. Notice that these costs are rolled up to the plan. Any edits to these costs in the engagement are reflected in the plan.
+Create an audit plan and associate an engagement to it. Add a cost plan and resource plan to this engagement. Notice that these costs are rolled up to the plan. Any edits to these costs in engagement reflects in the plan.
 
 </td><td>
 
@@ -2699,7 +2699,7 @@ GRC: Create Engagement Project Manual and automatic
 
 </td><td>
 
-On an engagement in the validate state, perform the Enable advanced planning ui-action. Notice that an engagement project gets created. When the state of an engagement associated to an audit plan having "Advanced planning capabilities" is changed to validate, an engagement project gets created automatically.
+On an engagement in the validate state, perform the Enable advanced planning ui-action. An engagement project gets created. When the state of an engagement associated to an audit plan having "Advanced planning capabilities" is changed to validate, an engagement project gets created automatically.
 
 </td><td>
 
@@ -2711,14 +2711,14 @@ GRC: Auditable Unit with Detailed Risk Assessment
 
 </td><td>
 
-Create an Auditable unit with method as "Detailed Risk Assessment." Request for Assessing the Risk Assessment by adding the Assessor. After the assessor responds and marks Assessment as Complete, the risk assessment fields are automatically updated.
+Create an Auditable unit with method as "Detailed Risk Assessment" and request for Assessing the Risk Assessment by adding the Assessor. Once the assessor responds and marks Assessment as Complete after performing the control assessment and residual assessment, the risk assessment fields are automatically updated.
 
 </td><td>
 
 Paris
 
 </td></tr></tbody>
-</table>To learn more about Audit Management, see [Audit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/c_GRCAudits.md).
+</table>To learn more about Audit Management, see [Audit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/c_GRCAudits.md).
 
 ## GRC Continuous Authorization and Monitoring
 
@@ -2791,7 +2791,7 @@ Verifies if a system owner can create an Authorization Boundary by completing th
 Quebec \(compatible with Paris and Orlando\)
 
 </td></tr></tbody>
-</table>To learn more about Continuous Authorization and Monitoring, see [Continuous Authorization and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-cam-landing-page.md).
+</table>To learn more about Continuous Authorization and Monitoring, see [Continuous Authorization and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-cam-landing-page.md).
 
 ## GRC Policy and Compliance Management
 
@@ -2803,7 +2803,7 @@ GRC: Policy and Compliance Management quick start tests require activating the P
 |GRC: Create Policy Exception and Flow|Create a policy exception and navigate through its states.|Paris|
 |GRC: Policy Lifecycle|Create a policy and navigate through its states.|Paris|
 
-To learn more about Policy and Compliance Management, see [Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/r_PolicyComplianceMgmt.md).
+To learn more about Policy and Compliance Management, see [Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/r_PolicyComplianceMgmt.md).
 
 ## GRC Risk Management
 
@@ -2822,7 +2822,7 @@ GRC: Risk Management quick start tests require activating the Risk Management pl
 |GRC: ATF flow for Indicator \(Basic\)|Create an indicator template with type basic and result as failed. Associate a control objective to it and give the supporting data. Execute one of the indicators thus formed. The associated control will become non- compliant and an issue will be generated.|New York|
 |GRC: ATF flow for indicator \(Script\)|Create an indicator template with type script and enter a script and set the value of result.passed and result.value. Associate a control objective to it. Execute one of the indicators. The associated control will become non-compliant and an issue will be generated.|New York|
 
-To learn more about Risk Management, see [Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-overview.md).
+To learn more about Risk Management, see [Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-overview.md).
 
 ## Hardware Asset Management
 
@@ -2985,7 +2985,7 @@ Validates the Contract Renewal flow with Contract Manager user.
 Tokyo
 
 </td></tr></tbody>
-</table>To learn more about Hardware Asset Management, see [Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/ham-landing-page.md).
+</table>To learn more about Hardware Asset Management, see [Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/ham-landing-page.md).
 
 ## HR Service Delivery
 
@@ -3387,7 +3387,7 @@ San Diego
 
 **Note:** Requires plugin activation of Human Resources Scoped App: Core plugin \(com.sn\_hr\_core\)
 
-To learn more about HR Service Delivery, see [HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery.md).
+To learn more about HR Service Delivery, see [HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery.md).
 
 ## Incident Management
 
@@ -3413,7 +3413,7 @@ Incident Management quick start tests require activating the Incident Management
 |INCIDENT MGMT: Parent and child Incident state sync up after reopening an Incident|Test to verify that the state of a child Incident synchronizes with the parent Incident when the parent Incident is reopened.|Madrid|
 |INCIDENT MGMT: Verify creation of knowledge article from an Incident|Test to verify the creation of a knowledge article from an Incident using the **Create Knowledge** UI action on the Incident form. The UI action is visible when you activate the KCS Integration for Incident Management plugin \(com.snc.incident.knowledge\).|Orlando|
 
-To learn more about Incident Management, see [Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_IncidentManagement.md).
+To learn more about Incident Management, see [Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/c_IncidentManagement.md).
 
 ## Incident Management in Service Operations Workspace
 
@@ -3424,7 +3424,7 @@ Incident Management in Service Operations Workspace quick start tests are availa
 |SOW Incident: Create problem from incident|Test to verify the creation of a problem record from an Incident using the **Create Problem** UI action on the Incident form.|Xanadu \(August store release, 6.0 version\)|
 |SOW Incident: Verify Assign to me button functionality|Test to verify the assignment of the incident record to the logged-in user using the **Assign to me** UI option on the Record information side panel of the Incident form.|Xanadu \(August store release, 6.0 version\)|
 
-To learn more about Incident Management in Service Operations Workspace, see [Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-sow.md).
+To learn more about Incident Management in Service Operations Workspace, see [Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-sow.md).
 
 ## Integration Commons for CMDB
 
@@ -3443,7 +3443,7 @@ To learn more about Incident Management in Service Operations Workspace, see [In
 |CMDB INT: Validate Related Entries|Validate all related classes against the data dictionary for related entries.|Paris|
 |CMDB INT: Validate Relationships|Validate CMDB integration relationships.|Paris|
 
-To learn more about Integration Commons for CMDB, see [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-commons-for-cmdb.md).
+To learn more about Integration Commons for CMDB, see [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/integration-commons-for-cmdb.md).
 
 ## Investment Funding
 
@@ -3488,11 +3488,11 @@ Validation of bottom-up funding
 Paris
 
 </td></tr></tbody>
-</table>To learn more about Investment Funding, see [Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding-overview.md).
+</table>To learn more about Investment Funding, see [Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/investment-funding-overview.md).
 
 ## Knowledge Management
 
-Knowledge Management quick start tests require activating the following plugins: Knowledge Management Core \(com.glideapp.knowledge\), Knowledge Management Advanced Installer \(com.snc.knowledge\_advanced.installer\), Knowledge Blocks \(com.snc.knowledge\_blocks\), and Customer Service Management Demo Data \(com.snc.customerservice.demo\).
+Knowledge Management quick start tests require activating the Knowledge Management Core plugin \(com.glideapp.knowledge\), the Knowledge Management Advanced Installer plugin \(com.snc.knowledge\_advanced.installer\), and the Knowledge Blocks plugin \(com.snc.knowledge\_blocks\). The tests also require activating the Customer Service Management Demo Data plugin \(com.snc.customerservice.demo\).
 
 <table id="table_whf_nfg_h1c"><thead><tr><th>
 
@@ -3771,7 +3771,7 @@ Verify the success of a Knowledge - Approval Publish workflow by recalling and t
 Quebec
 
 </td></tr></tbody>
-</table>To learn more about Knowledge Management, see [Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management.md).
+</table>To learn more about Knowledge Management, see [Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management.md).
 
 ## Leader Hub
 
@@ -3811,7 +3811,7 @@ Release version
 Xanadu
 
 </td></tr></tbody>
-</table>To learn more about Leader Hub, see [Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/td-lh-landing.md).
+</table>To learn more about Leader Hub, see [Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/td-lh-landing.md).
 
 ## Legal Request Management
 
@@ -3824,7 +3824,7 @@ Legal Request Management quick start tests require installing the following apps
 |----|-----------|---------------|
 |LRM: Privacy Request Test|Tests to validate submission and fulfillment of Privacy legal requests.|Utah|
 
-To learn more about Legal Request Management, see [Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-management-overview.md).
+To learn more about Legal Request Management, see [Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-management-overview.md).
 
 ## Major Incident Major Incident Management
 
@@ -3849,7 +3849,7 @@ Major Incident Management quick start tests require activating the Incident Mana
 |MIM: Major Incident workbench layout verification|Test is to verify Major Incident workbench layout verification.|Orlando|
 |MIM: Verify communication task from MI workbench|Test is to verify communication task from MI workbench.|Orlando|
 
-To learn more about Major Incident Management, see [Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/major-incident-management.md).
+To learn more about Major Incident Management, see [Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/major-incident-management.md).
 
 ## On-Call Scheduling
 
@@ -3874,7 +3874,7 @@ Activate the On-Call Scheduling plugin \(com.snc.on\_call\_rotation\) to run the
 |On-call: Verify On-Call workbench|Test to verify the On-Call workbench layout.|Orlando|
 |On-call: Hide or show shifts|Verify whether you can hide or show shifts from On-Call calendar|Orlando|
 
-To learn more about On-Call Scheduling, see [On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_OnCallScheduling.md).
+To learn more about On-Call Scheduling, see [On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/c_OnCallScheduling.md).
 
 ## Metric Intelligence
 
@@ -3911,11 +3911,11 @@ An individual test that verifies the following:
 Madrid
 
 </td></tr></tbody>
-</table>To learn more about Metric Intelligence, see [Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/operational-metrics.md).
+</table>To learn more about Metric Intelligence, see [Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/operational-metrics.md).
 
 ## Predictive Intelligence
 
-Predictive Intelligence quick start tests require activating the Predictive Intelligence \[com.glide.platform\_ml\] plugin. To execute critical upgrade tests on existing machine learning solutions, create a basic authorization profile named ml\_atf in the Basic Auth Configurations table \(sys\_auth\_profile\_basic.list\). The user attached to the ml\_atf authorization profile must have the ml\_admin role.
+Predictive Intelligence quick start tests require activating the Predictive Intelligence \[com.glide.platform\_ml\] plugin. To execute critical upgrade tests on existing machine learning solutions, create a basic authorization profile named ml\_atf in the Basic Auth Configurations table \(sys\_auth\_profile\_basic.list\). To run the tests successfully, the user attached to the ml\_atf authorization profile must have the ml\_admin role.
 
 |Test|Description|
 |----|-----------|
@@ -4205,7 +4205,7 @@ Verify Problem task state management of a general type Problem.
 Madrid
 
 </td></tr></tbody>
-</table>To learn more about Problem Management, see [Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_ProblemManagement.md).
+</table>To learn more about Problem Management, see [Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/c_ProblemManagement.md).
 
 ## Project Portfolio Management
 
@@ -4459,7 +4459,7 @@ Validate project preference "close project milestone tasks when they change to w
 
 </td><td>
 
-Validate that milestone tasks are closed when their state is changed to Work in Progress. This test uses the project preference "close project milestone tasks when they change to work state".
+Validate that milestone tasks are closed when their state changes to Work in Progress. The project preference "close project milestone tasks when they change to work state" must be set.
 
 </td><td>
 
@@ -4471,7 +4471,7 @@ Validate project preference "Enable move project for WIP projects"
 
 </td><td>
 
-Validate that the project start date changes appropriately for a project in WIP state. This test uses the project preference "Enable move project for WIP projects".
+Validate that the project start date changes appropriately for a WIP project after setting the "Enable move project for WIP projects" preference.
 
 </td><td>
 
@@ -4483,7 +4483,7 @@ Validate project preference "Rollup project start date from tasks"
 
 </td><td>
 
-Validate that the start date of a project task does not roll up to the project. This test deselects the project preference "Rollup project start date from tasks" and verifies behavior when project planned dates differ from the project task start date.
+Validate that the project task start date does not roll up to the project after deselecting the "Rollup project start date from tasks" preference.
 
 </td><td>
 
@@ -4508,7 +4508,7 @@ Validate Planned start date of a project can be shifted by using the Move projec
 
 </td><td>
 
-Validate that the Planned start date can be updated to a later or earlier date using the Move project related link.
+Validate that the Planned start date can be updated to a later or earlier date using the Move project related link for projects in Planning or Open state.
 
 </td><td>
 
@@ -4633,7 +4633,7 @@ Verify aggregated cost of all resource plans roll up to the corresponding projec
 
 </td><td>
 
-Validate that the aggregated cost of all resource plans on a project or demand roll up to the Planned Cost and Allocated Cost fields. Verify that costs also roll up to the Resource Cost section of respective projects and demands.
+Validate that the aggregated cost of all resource plans on a project or demand roll up to the Planned Cost and Allocated Cost fields. Verify the costs also roll up to the Resource Cost section of respective projects and demands.
 
 </td><td>
 
@@ -4735,7 +4735,7 @@ Validate that actual hours in operational resource plan and time card are equal
 
 </td><td>
 
-Validate that when a time card category is mapped with an operational work type, the actual hours match between the resource plan and time card after submission.
+Validate that a time card category is mapped with an operational work type. On submitting the time card, verify that the actual hours in the resource plan and time card are equal.
 
 </td><td>
 
@@ -4766,7 +4766,7 @@ Validate that the resource plans associated with a project, project task, or dem
 Rome
 
 </td></tr></tbody>
-</table>To learn more about Project Portfolio Management, see [Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/c_ProjectPortfolioSuite.md).
+</table>To learn more about Project Portfolio Management, see [Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/c_ProjectPortfolioSuite.md).
 
 ## Project Currency test suite
 
@@ -4777,19 +4777,19 @@ Project currency quick start tests require activating the PPM Standard Multicurr
 |Verify cost in project currency on cost plan|Validate the calculation of cost line breakdown with budget reference rate and verify roll up to cost plan and also for the project in project currency.|Orlando|
 |Verify benefit in project currency on benefit plan|Validate the calculation of benefit line breakdown with budget reference rate and verify roll up to benefit plan and also for the project in project currency.|Orlando|
 
-To learn more about PPM Standard, see [PPM Standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/c_ProjectPortfolioSuiteWithFinancials.md).
+To learn more about PPM Standard, see [PPM Standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/c_ProjectPortfolioSuiteWithFinancials.md).
 
 ## Reporting
 
 The Reporting quick start test Automated Test Framework - Reporting plugin \(com.glide.automated\_testing\_impl.report\) is active by default or instance reboot.
 
-**Note:** Reporting quick start tests do not test report access from dashboards. To test dashboards, see [Quick start tests for Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/quick-start-tests-dashboards.md).
+**Note:** Reporting quick start tests do not test report access from dashboards. To test dashboards, see [Quick start tests for Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/quick-start-tests-dashboards.md).
 
 |Test|Description|Release version|
 |----|-----------|---------------|
 |Report Visibility|Confirm whether reports are still visible to users whom they are shared with.|Madrid|
 
-## Software Asset Management Foundation plugin Software Asset Management
+## Basic Software Asset Management Software Asset Management
 
 Software Asset Management quick start tests require activating the Software Asset Management Professional plugin \(com.snc.samp\). Some quick start tests require activating the following additional plugins.
 
@@ -5004,7 +5004,7 @@ SAM - Software Entitlement Creation Using Custom PPN
 
 </td><td>
 
-Creates a custom software product, a custom DMAP for the custom product, a custom Part Number for the custom DMAP, and a software entitlement using the custom Part Number. Verifies that a software model is automatically created.
+Creates a custom software product, custom DMAP, custom Part Number, and software entitlement using the custom Part Number. Verifies that a software model is automatically created.
 
 </td><td>
 
@@ -5047,7 +5047,7 @@ Tests that the **Subscription software** and **Ignore installs** fields are pres
 New York
 
 </td></tr></tbody>
-</table>To learn more about Software Asset Management, see [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/c_SoftwareAssetMgmt.md).
+</table>To learn more about Software Asset Management, see [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/c_SoftwareAssetMgmt.md).
 
 ## Security Incident Response
 
@@ -5334,7 +5334,7 @@ Summarize a closed security incident and validate the displayed sections.
 Zurich
 
 </td></tr></tbody>
-</table>To learn more about Security Incident Response, see [Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sir-landing-page.md).
+</table>To learn more about Security Incident Response, see [Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sir-landing-page.md).
 
 ## Service Level Management
 
@@ -5346,7 +5346,7 @@ Service Level Management quick start tests require activating the Service Level 
 |SLM: Service Level Management Task SLA cancelled workflow|Tests that a user can create a task SLA and cancel the workflow.|Orlando|
 |SLM: Service Level Management Task SLA timer REST API|Tests that the SLA Timer API response matches data expected by SLA Timer Seismic component.|Paris|
 
-To learn more about Service Level Management, see [Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-mgmt-landing-page.md).
+To learn more about Service Level Management, see [Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-mgmt-landing-page.md).
 
 ## Service Mapping
 
@@ -5407,7 +5407,7 @@ Run this test to check that the Service Mapping UI is fully functional after an 
 Orlando
 
 </td></tr></tbody>
-</table>To learn more about Service Mapping, see [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_ServiceMappingOverview.md).
+</table>To learn more about Service Mapping, see [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/c_ServiceMappingOverview.md).
 
 ## Service Portfolio Management Premium
 
@@ -5706,7 +5706,7 @@ Verify a service cannot move forward to Catalog phase without a service portfoli
 Paris
 
 </td></tr></tbody>
-</table>To learn more about Service Portfolio Management Premium, see [Service Portfolio Management Premium](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/SPM2-landing-page.md).
+</table>To learn more about Service Portfolio Management Premium, see [Service Portfolio Management Premium](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/SPM2-landing-page.md).
 
 ## Skills Management
 
@@ -5723,9 +5723,9 @@ Skills Management quick start tests require activating the Skills Management plu
 |Skills MGMT: Create a skill from Manage IT Skills user interface.|Verify that you can create a skill from the Manage IT Skills user interface.|Orlando|
 |Skills MGMT: Add skills and skill levels to users in the Manage IT Skills user interface.|Verify that you can add skills and associated skill levels to users in the Manage IT Skills user interface.|Orlando|
 |Skills MGMT: Select a skill and add users to the skill in the Manage IT Skills user interface.|Verify that you can select a skill and add the skill and associated skill levels to one or more users in the Manage IT Skills user interface.|Orlando|
-|Skills MGMT: Select a skill that does not have a skill level and add users to that skill in the Manage IT Skills user interface.|Verify that you can select a skill without a skill level and add it to one or more users in the Manage IT skills user interface.|Orlando|
+|Skills MGMT: Select a skill that does not have a skill level and add users to that skill in the Manage IT Skills user interface.|Verify that you can select a skill without a skill level and add it to users in the Manage IT skills user interface.|Orlando|
 
-To learn more about Skills Management, see [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management.md).
+To learn more about Skills Management, see [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/skills-management.md).
 
 ## Test Management 2.0
 
@@ -5744,7 +5744,7 @@ Test Management 2.0 quick start tests require activating the Test Management 2.0
 |Should not be able to assign a test not in ready state|Validate test assignment.|Madrid|
 |Test progress should roll up for test plan and test cycle|Validate test progress for test plan and test cycle.|Madrid|
 
-To learn more about Test Management 2.0, see [Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management2-landing-page.md).
+To learn more about Test Management 2.0, see [Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/test-management2-landing-page.md).
 
 ## Universal Request
 
@@ -5828,7 +5828,7 @@ Vulnerability Response quick start tests require activating the Vulnerability Re
 |VR: Create Vulnerable Item via Form|Determine whether a user can successfully create a vulnerable item from the Vulnerable Item form.|Madrid|
 |VR: Vulnerability Group Life Cycle|Determine whether a user can successfully resolve a vulnerability group.|Madrid|
 |VR: Vulnerable Item life cycle|Determine whether a user can successfully move a vulnerable item through its life cycle, and also determine whether a closed vulnerable item can be reopened.|Madrid|
-|VR: Rollup Calculator|Determine whether the rollup risk calculator can provide an overall risk score for an entire group of vulnerable items. The score uses the scores for all vulnerable items in a vulnerability group.|New York|
+|VR: Rollup Calculator|Determine whether the rollup risk calculator can provide an overall risk score for an entire group of vulnerable items. The score uses the scores for all the vulnerable items in a vulnerability group.|New York|
 |VR: Vulnerability Response Assignment Rules|Determine whether a sample set of assignment rules can successfully auto-assign vulnerable items to an assignment group for remediation.|New York|
 |VR: Vulnerability Calculators|Test the vulnerability calculators.|New York|
 |VR: CI Lookup - Qualys|Create a new lookup rule with method "field\_matching" called "Lookup By Network Adapter" for Qualys. Determine whether a configuration item is successfully matched in the Discovered Item table by network adapter and IP address with the new lookup rule.|Orlando|
@@ -5844,7 +5844,7 @@ Vulnerability Response quick start tests require activating the Vulnerability Re
 |Remediation target rules: VI import test|Tests VR remediation target rules during import.|Paris|
 |VR: Classification Rule|A sample classification rule that automatically classifies a vulnerability.|Tokyo|
 
-To learn more about Vulnerability Response, see [Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vuln-landing-page.md).
+To learn more about Vulnerability Response, see [Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vuln-landing-page.md).
 
 ## Walk-up Experience
 
@@ -5857,7 +5857,7 @@ Walk-up Experience quick start tests require activating the Walk-up Experience p
 |Onsite checkin \(ESS User\)|Verify that users with the ESS role can check into an onsite queue location.|Orlando|
 |Onsite checkin \(Guest\)|Verify that guest users can check into an onsite queue location.|Orlando|
 
-To learn more about Walk-up Experience, see [Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walkup-experience-landing-page.md).
+To learn more about Walk-up Experience, see [Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/walkup-experience-landing-page.md).
 
-**Parent Topic:**[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/quick-start-tests.md)
+**Parent Topic:**[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/quick-start-tests.md)
 

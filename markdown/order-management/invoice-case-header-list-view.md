@@ -3,9 +3,9 @@ title: Invoice case details on the Business Portal
 description: Field descriptions for invoice case headers and invoice case line list views on the Business Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/invoice-case-header-list-view.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-04-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Business Portal reference, Reference, Sales Customer Relationship Management]
 ---
@@ -230,5 +230,5 @@ Contact
 Customer contact for the invoice case.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Business Portal reference for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-business-portal-reference.md)
+</table>**Parent Topic:**[Business Portal reference for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-business-portal-reference.md)
 

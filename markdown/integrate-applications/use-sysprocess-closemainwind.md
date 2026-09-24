@@ -3,9 +3,9 @@ title: Use the CloseMainWindow component
 description: Closes any Windows application by providing the Process ID as input.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-sysprocess-closemainwind.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [System process, Utilities, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the CloseMainWindow component. For more information about these properties, see [Properties of the System Process components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/util-sysprocess-prop.md).
+You can configure the properties for the CloseMainWindow component. For more information about these properties, see [Properties of the System Process components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/util-sysprocess-prop.md).
 
 ## Procedure
 
@@ -28,7 +28,7 @@ You can configure the properties for the CloseMainWindow component. For more inf
 
 2.  Drag the CloseMainWindow component to the Design surface.
 
-3.  To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+3.  To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the CloseMainWindow to the corresponding ports of the other component as described in the following table.
 
@@ -80,9 +80,9 @@ As part of your automation workflow, after you have opened an app, such as Windo
 
 Add the Start App component and GetWindowProcessID component before the CloseMainWindow component and connect the ports as shown in the image.
 
-For more information about these components, see [Use the Start App component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-general-start-app.md) and [Use the GetWindowProcessID component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-sysprocess-getwindprocessid.md).
+For more information about these components, see [Use the Start App component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/use-general-start-app.md) and [Use the GetWindowProcessID component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/use-sysprocess-getwindprocessid.md).
 
 \[Omitted image "closemainwindow-sys-process-rpa.png"\] Alt text: CloseMainWindow component in a simple workflow showing ProcessId as parameter.
 
-**Parent Topic:**[System process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-process-utilities.md)
+**Parent Topic:**[System process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-process-utilities.md)
 

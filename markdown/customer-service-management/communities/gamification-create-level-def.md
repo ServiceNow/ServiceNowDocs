@@ -3,11 +3,11 @@ title: Manage gamification levels
 description: Manage the predefined levels for global, forum, and topic expertise.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/gamification-create-level-def.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Administer gamification, Configuring communities, Communities, Customer Service Management]
 ---
@@ -19,6 +19,10 @@ Manage the predefined levels for global, forum, and topic expertise.
 ## Before you begin
 
 Role required: sn\_gamification.admin
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## About this task
 
@@ -34,8 +38,8 @@ Gamification includes predefined global, forum, and topic levels.
 
 4.  Click **Submit**.
 
-    Adding new level definitions is not recommended unless there is a strong use case. If you need to add or modify level ranges in existing level definitions, see [Manage gamification level ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/gamification-create-level-range.md).
+    Adding new level definitions is not recommended unless there is a strong use case. If you need to add or modify level ranges in existing level definitions, see [Manage gamification level ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/gamification-create-level-range.md).
 
 
-**Parent Topic:**[Administer gamification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communities-gamification-administer.md)
+**Parent Topic:**[Administer gamification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/communities-gamification-administer.md)
 

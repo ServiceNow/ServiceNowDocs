@@ -3,11 +3,11 @@ title: Install ITOM Visibility using ServiceNow Otto for Setup
 description: Install all required ITOM Visibility applications and plugins from the IT Operations Management Product Hub.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/install-nowassist-setup-itom-visibility.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [ITOM Visibility, IT Operations Management]
 ---
@@ -24,16 +24,16 @@ Verify the following:
 -   You have installed the ServiceNow Otto for Platform plugin \(sn\_genai\_platform\).
 -   You have installed the Generative AI Controller plugin \(sn\_generative\_ai\).
 -   You have installed the AI Skill Kit plugin \(sn\_skill\_builder\).
--   You have installed the ServiceNow Otto for IT Operations Management \(ITOM\) plugin. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/install-now-assist-itom.md).
--   You have activated the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+-   You have installed the ServiceNow Otto for IT Operations Management \(ITOM\) plugin. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/install-now-assist-itom.md).
+-   You have activated the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md).
 -   You have activated the following assistants:
 
     -   ServiceNow Otto - Platform assistant
     -   ServiceNow Otto for Virtual Agent
-    For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
+    For more information, see [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md).
 
--   You have activated Now LLM Service as a provider. For more information, see [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md).
--   You have set up AI Search. For more information, see [AI Search readiness for ServiceNow Otto on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-impl-ai-search.md).
+-   You have activated Now LLM Service as a provider. For more information, see [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/manage-large-language-models.md).
+-   You have set up AI Search. For more information, see [AI Search readiness for Now Assist on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/sn-ai-impl-ai-search.md).
 -   You have installed the following ServiceNow Otto for Setup applications from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home):
     -   ServiceNow Otto for Setup \(sn\_ia\)
     -   ServiceNow Otto for Setup Common \(sn\_ia\_common\)

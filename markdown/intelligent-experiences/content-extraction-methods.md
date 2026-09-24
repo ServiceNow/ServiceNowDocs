@@ -3,11 +3,11 @@ title: Content extraction methods
 description: The Extract information from documents skill \(Information Extraction skill\) supports three extraction methods—field, table, and Q&amp;A—each suited for different types of document data. Understanding which method to use helps you capture and store the right information in ServiceNow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/content-extraction-methods.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
-breadcrumb: [Information Extraction skill, Explore, Content Understanding, Enable AI experiences]
+breadcrumb: [Information Extraction skill, Explore, Content Understanding, Generative AI skills, Enable AI Experiences]
 ---
 
 # Content extraction methods
@@ -71,5 +71,5 @@ You can combine multiple methods within a single use case to handle all of the d
 **Related topics**  
 
 
-[Use cases for the Information Extraction skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/cu-use-cases.md)
+[Use cases for the Information Extraction skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/cu-use-cases.md)
 

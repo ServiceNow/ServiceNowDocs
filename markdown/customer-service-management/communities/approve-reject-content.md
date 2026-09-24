@@ -3,11 +3,11 @@ title: Approve or reject content
 description: Approve or reject content that a user reported as inappropriate or that is associated with a particular community profile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/approve-reject-content.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Moderate a community, Configuring communities, Communities, Customer Service Management]
 ---
@@ -19,6 +19,10 @@ Approve or reject content that a user reported as inappropriate or that is assoc
 ## Before you begin
 
 Role required: sn\_communities.community\_moderator, sn\_communities.moderation\_admin
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## About this task
 
@@ -46,5 +50,5 @@ Each task requires the moderator to approve or reject the reported item. If the 
     **Note:** You can review the outcome of existing and past moderation tasks by navigating to **Community** &gt; **Moderation** &gt; **Moderation Outcomes**. Click a task to view the details of the moderation task.
 
 
-**Parent Topic:**[Moderate a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/moderate-communities.md)
+**Parent Topic:**[Moderate a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/moderate-communities.md)
 

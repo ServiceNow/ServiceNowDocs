@@ -3,11 +3,11 @@ title: Leaderboard widgets
 description: Leaderboard widgets appear on the Community homepage and on forum and topic landing pages. These widgets display the users with the highest point totals within the community, forum, or topic.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/gamification-ui-leaderboard-widget.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Gamification user interface components, Gamification, Using communities, Communities, Customer Service Management]
 ---
@@ -16,7 +16,11 @@ breadcrumb: [Gamification user interface components, Gamification, Using communi
 
 Leaderboard widgets appear on the Community homepage and on forum and topic landing pages. These widgets display the users with the highest point totals within the community, forum, or topic.
 
-The leaderboard widget shows the top five users. If there are more than five users that have earned points within the community, forum, or topic, **Show Leaderboard** appears at the bottom. Click this button to display all of the users on the [leaderboard page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/gamification-ui-leaderboard.md).
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+The leaderboard widget shows the top five users. If there are more than five users that have earned points within the community, forum, or topic, **Show Leaderboard** appears at the bottom. Click this button to display all of the users on the [leaderboard page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/gamification-ui-leaderboard.md).
 
 \[Omitted image "CommunitiesForumLeaderboardWidget.png"\] Alt text: Leaderboard ranking the top users by total points.
 
@@ -29,5 +33,5 @@ System administrators can configure settings for the leaderboard widget:
 -   The leaderboard type \(community, forum, or topic\)
 -   Anchor to a specific forum or topic \(not recommended\)
 
-**Parent Topic:**[Gamification user interface components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communities-gamification-UI.md)
+**Parent Topic:**[Gamification user interface components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/communities-gamification-UI.md)
 

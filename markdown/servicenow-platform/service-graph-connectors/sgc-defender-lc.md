@@ -3,11 +3,11 @@ title: Life cycle management of records in Service Graph Connector for Microsoft
 description: Life cycle management in the Service Graph Connector for Microsoft Defender Endpoint monitors and updates the statuses of Microsoft Defender for Endpoint resources throughout their entire life cycle, from creation to deletion.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-defender-lc.html
-release: australia
+release: brazil
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Microsoft Defender for Endpoint, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---

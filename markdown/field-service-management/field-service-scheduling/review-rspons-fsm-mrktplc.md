@@ -3,11 +3,11 @@ title: Assign a task to a contractor on Field Service Marketplace
 description: Review contractor responses then assign the task to a contractor on Field Service Marketplace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/review-rspons-fsm-mrktplc.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Allowing contractors to bid on work orders and tasks, Scheduling and dispatching, Use, Field Service Management]
 ---
@@ -20,9 +20,9 @@ Review contractor responses then assign the task to a contractor on Field Servic
 
 Role required: sn\_mktplace\_core.mktplace\_requestor
 
-Ensure that the Field Service Marketplace plugin is active. For more information, see [Activate Field Service Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/activate-contractor-marketplace.md).
+Ensure that the Field Service Marketplace plugin is active. For more information, see [Activate Field Service Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/activate-contractor-marketplace.md).
 
-The task must be pushed to marketplace first. For more information, see [Push a request to Field Service Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/push-task-fsm-mktplc.md).
+The task must be pushed to marketplace first. For more information, see [Push a request to Field Service Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/push-task-fsm-mktplc.md).
 
 .
 

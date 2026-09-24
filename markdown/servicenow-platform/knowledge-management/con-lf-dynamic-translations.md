@@ -3,11 +3,11 @@ title: Add a custom Localization Framework setting to enable machine translation
 description: Add a custom Localization Framework setting to enable machine translation for bulk translations of knowledge articles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/con-lf-dynamic-translations.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure translation management, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,10 +18,10 @@ Add a custom Localization Framework setting to enable machine translation for bu
 
 ## Before you begin
 
--   [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md).
--   [Activate Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/activate-lf-plugin.md).
--   [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateALanguage.md).
--   Bulk Translation is available with the base Australia release. If you are upgrading from a previous release, you must configure the following settings:
+-   [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md).
+-   [Activate Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/activate-lf-plugin.md).
+-   [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivateALanguage.md).
+-   Bulk Translation is available with the base Brazil release. If you are upgrading from a previous release, you must configure the following settings:
     -   Enable the Localization Framework by setting the **glide.knowman.translation.enable\_lf\_article\_translation** system property to true.
     -   Set the **glide.knowman.translation.enable\_translation\_task** system property to false.
     -   Set the **glide.knowman.translation.enable\_localization\_framework** system property to true.
@@ -52,7 +52,7 @@ Role required: admin
 
 11. Enable the creation of bulk translation localization projects.
 
-    -   To enable manual creation, select **Enable projects**. For more information, see [Create translation projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/projects-localization-framework.md).
+    -   To enable manual creation, select **Enable projects**. For more information, see [Create translation projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/projects-localization-framework.md).
     -   To enable the auto-creation of the localization projects, select **Enable projects** and **Enable auto creation**.
 
         If auto creation is enabled, selected localization requested items \(LRITMs\) are automatically bundled into a single localization project.
@@ -66,7 +66,7 @@ Role required: admin
 
 ## What to do next
 
-[Translate knowledge articles using Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/dynamic-translation-translate-articles.md)
+[Translate knowledge articles using Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/dynamic-translation-translate-articles.md)
 
-**Parent Topic:**[Configure translation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configure-translation-management.md)
+**Parent Topic:**[Configure translation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/configure-translation-management.md)
 

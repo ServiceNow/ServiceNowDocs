@@ -3,11 +3,11 @@ title: Security Incident Response- Get Network Statistics flow
 description: The Security Incident Response Get Network Statistics flow retrieves the network statistics for an affected Windows-based resource when added to a security incident in the Analysis state.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/obtain-network-statistics-workflow.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Security Incident Response Orchestration workflows and activities, Understand Security Incident Response Orchestration workflows and workflow templates, Security Incident Response Orchestration, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -30,15 +30,15 @@ Existing security incidents are automatically updated when you are in the **Anal
 
 The flow process actions include:
 
--   [Get Configuration Item FQDN Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/get-config-FQDN-activity.md)
+-   [Get Configuration Item FQDN Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/get-config-FQDN-activity.md)
 -   Determine Shell Script by OS
 -   If statement is executed by Powershell
--   [Legacy: Execution Tracking - Begin Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/execution-tracking-begin.md)
--   [Get Network Statistics via netstat Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/get-network-stats-netstat-activity.md)
--   [Legacy: Capability Execution Tracking- Failure Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/capability-execution-tracking-failure.md)
--   [Create Enrichment Data records Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-enrich-data-records.md)
--   [Legacy: Capability Execution Tracking- Failure Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/capability-execution-tracking-failure.md) - Returns enrichment ID.
--   [Legacy: Capability Execution Tracking - Complete Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/capability-execution-tracking-complete.md)
+-   [Legacy: Execution Tracking - Begin Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/execution-tracking-begin.md)
+-   [Get Network Statistics via netstat Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/get-network-stats-netstat-activity.md)
+-   [Legacy: Capability Execution Tracking- Failure Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/capability-execution-tracking-failure.md)
+-   [Create Enrichment Data records Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/create-enrich-data-records.md)
+-   [Legacy: Capability Execution Tracking- Failure Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/capability-execution-tracking-failure.md) - Returns enrichment ID.
+-   [Legacy: Capability Execution Tracking - Complete Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/capability-execution-tracking-complete.md)
 
 ## Procedure
 
@@ -50,14 +50,14 @@ The flow process actions include:
 
 4.  Click **Update**.
 
-    Security Incident Response Orchestration provides network statistics information in the **Related Links** &gt; **Security Incident Enrichments** tab. For more information see, [Security Operations enrichment data mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/enrichment-data-mapping.md).
+    Security Incident Response Orchestration provides network statistics information in the **Related Links** &gt; **Security Incident Enrichments** tab. For more information see, [Security Operations enrichment data mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/enrichment-data-mapping.md).
 
-    Actions specific to this flow are described here. For more information on other actions, see [Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/common-wf-activities.md).
+    Actions specific to this flow are described here. For more information on other actions, see [Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/common-wf-activities.md).
 
 
-**Parent Topic:**[Security Incident Response Orchestration workflows and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sec-inc-resp-orchestration-workflows.md)
+**Parent Topic:**[Security Incident Response Orchestration workflows and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/sec-inc-resp-orchestration-workflows.md)
 
-**Parent Topic:**[Security Operations Integration- Get Network Statistics capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/get-network-statistics-capability.md)
+**Parent Topic:**[Security Operations Integration- Get Network Statistics capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/get-network-statistics-capability.md)
 
 **Related topics**  
 

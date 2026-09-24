@@ -3,7 +3,7 @@ title: Generate the Smartsheet Application Programming Interface \(API\) key
 description: Generate the Smartsheet API key to be a part of every API call in an HTTP authorization header. Authenticating the API key is a part of the integration process between the ServiceNow instance and Smartsheet.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/generate-smartsheet-api-key.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task

@@ -3,9 +3,9 @@ title: Exploring the architecture analyzer
 description: You can use the Architecture Analyzer in the Enterprise Architecture Workspace to visually explore and analyze the relationships between architectural entities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-explore-arch-analyzer.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -39,12 +39,12 @@ You can perform the following on the architecture analyzer page:
     -   To clear all entities from the canvas and the selections made in the **Add to canvas** boxes, select the **Clear** button \(\[Omitted image "arch-anlyzer-clear-canvas.png"\] Alt text: Clear button icon\)
     -   To download the exploration canvas in image format, select the download as an image icon \(\[Omitted image "arch-anlyzer-download-exploration.png"\] Alt text: Download icon\)
 
-**Parent Topic:**[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/explore-eaw.md)
+**Parent Topic:**[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/explore-eaw.md)
 
 **Related topics**  
 
 
-[Working with architecture analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-architecture-analyzer.md)
+[Working with architecture analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-work-with-architecture-analyzer.md)
 
-[Create an exploration in the architecture analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-exploration-in-arch-analyzer.md)
+[Create an exploration in the architecture analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-exploration-in-arch-analyzer.md)
 

@@ -3,9 +3,9 @@ title: Supported functions for offline mode
 description: Functions define the actions users can perform from a screen, such as tapping a button, icon, or menu option. In offline mode, only functions configured as available on offline are accessible to users without network connectivity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/functions-offline.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Align apps, screens, and functions, Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -34,12 +34,12 @@ Here are some examples:
 
 **Note:** For function instances, a function is available offline only when both the button instance and the button itself are configured to be available offline.
 
--   **[Display and hide functions in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/buttons-offline.md)**  
+-   **[Display and hide functions in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/buttons-offline.md)**  
 Define whether to show or hide buttons while users are in offline mode on their Mobile Agent app.
--   **[Configure offline mode properties for action functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-offline-properties-action-funct.md)**  
+-   **[Configure offline mode properties for action functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/config-offline-properties-action-funct.md)**  
 Determine which fields and functions are available to users when working in offline mode.
--   **[Configure offline mode properties for function instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-offline-property-function-instance.md)**  
+-   **[Configure offline mode properties for function instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/config-offline-property-function-instance.md)**  
 Determine if the function instance available to users in online mode is also available in offline mode. This option gives you more control over how users manage their offline tasks.
 
-**Parent Topic:**[Set up and align the app, screen, and function hierarchy for offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/align-app-screen-function.md)
+**Parent Topic:**[Set up and align the app, screen, and function hierarchy for offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/align-app-screen-function.md)
 

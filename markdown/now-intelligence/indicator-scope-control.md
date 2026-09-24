@@ -3,9 +3,9 @@ title: Indicator scope control
 description: Indicator Scope Control provides an admin-curated list that boosts selected Performance Analytics indicators in ambient AI search results, with optional custom descriptions to improve search accuracy. Create a Query Generation indicator configuration record to add a Performance Analytics indicator to the scope control boost list. The boost list can improve search rankings for high-quality indicators.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/indicator-scope-control.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [Indicator Scope Control, Performance Analytics, AI search, ambient search, indicator boost, Query Generation, configure, Indicator Scope Control, Performance Analytics, boost, configuration]
 breadcrumb: [Configure, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
@@ -102,15 +102,15 @@ Indicator Scope Control has no impact when it is not used:
 
 -   **Entry-point indicators unaffected**
 
-    Indicators that are both on the boost list and passed as entry-point context \(via dashboard widgets or API\) are boosted and then pinned to the top with no conflict.
+    Indicators that are both on the boost list and passed as entry-point context \(via dashboard widgets or API\) are pinned to the top with no conflict.
 
 
-**Parent Topic:**[Configuring Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configuring-query-generation.md)
+**Parent Topic:**[Configuring Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/configuring-query-generation.md)
 
 **Related topics**  
 
 
-[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
+[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
 
 ## Set up indicator scope control
 

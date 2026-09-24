@@ -3,9 +3,9 @@ title: BCM dependencies related Main node configurations
 description: When the Business Continuity Management application is installed in an instance, BCM dependencies are fetched into the Operational Resilience application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/bcm-dep-config-to-opres.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring 360º views for services and processes, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---

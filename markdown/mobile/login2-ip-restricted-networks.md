@@ -3,11 +3,11 @@ title: Log in to instances on IP-restricted networks with your mobile device
 description: Learn how to log in with your mobile device to a ServiceNow instance that uses adaptive authentication to restrict access based on IP addresses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/login2-ip-restricted-networks.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with mobile accounts, Using the mobile apps, Mobile Platform]
+breadcrumb: [Working with mobile instances, Using the mobile apps, Mobile Platform]
 ---
 
 # Log in to instances on IP-restricted networks with your mobile device
@@ -24,7 +24,7 @@ Make sure you have access to a company-provided computer to begin the registrati
 
 To register your mobile device, you must begin by logging in to the ServiceNow instance using a company-provided computer. This computer should use an IP address that has access to the instance.
 
-Registering your mobile device and your ServiceNow account credentials with the instance, sets up a trust relationship between your profile and the instance. If more than one user must use a single mobile device, your ServiceNow instance administrator can configure that by using system properties.
+Registering your mobile device and your ServiceNow instance credentials with the instance, sets up a trust relationship between your profile and the instance. If more than one user must use a single mobile device, your ServiceNow instance administrator can configure that by using system properties.
 
 ## Procedure
 
@@ -44,7 +44,7 @@ Registering your mobile device and your ServiceNow account credentials with the 
 
 6.  Press **Submit** on your mobile device to send the validation secret to the ServiceNow instance server.
 
-    After submitting the QR code to the instance, an account login screen displays on the mobile device.
+    After submitting the QR code to the instance, an instance login screen displays on the mobile device.
 
 7.  Enter your user name and password to log in to the ServiceNow instance as usual.
 

@@ -3,11 +3,11 @@ title: Add a knowledge block to a knowledge article in Agent Workspace
 description: Add a knowledge block to a knowledge article in Agent Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/add-knowledge-block-to-article-workspace.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Knowledge blocks authoring in Agent Workspace, Using knowledge blocks, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ Add a knowledge block to a knowledge article in Agent Workspace.
 
 -   Both the knowledge article and the knowledge block must be in the same knowledge base.
 -   You must have contribute access to the knowledge base.
--   Ensure that the knowledge blocks feature is enabled for the knowledge base that the article is in. For more information, see [Enable knowledge blocks for each knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/enable-knowledge-blocks-for-knowledge-base.md).
+-   Ensure that the knowledge blocks feature is enabled for the knowledge base that the article is in. For more information, see [Enable knowledge blocks for each knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/enable-knowledge-blocks-for-knowledge-base.md).
 
 Role required: agent\_workspace\_user and knowledge
 
@@ -32,7 +32,7 @@ Role required: agent\_workspace\_user and knowledge
 
 3.  Click an existing article link.
 
-    For more information, see [Edit a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/edit-article-workspace.md).
+    For more information, see [Edit a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/edit-article-workspace.md).
 
     **Note:**
 
@@ -42,18 +42,18 @@ Role required: agent\_workspace\_user and knowledge
 
 5.  Search for the article to which you want to add the knowledge block.
 
-    To use condition builder with advanced search, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
+    To use condition builder with advanced search, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ConditionBuilder.md).
 
 6.  Click **Insert** to add the knowledge block to the article.
 
-    If there are no knowledge blocks, click **Create New Block** and follow the procedure to create another block. For more information, see [Create a knowledge block in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-knowledge-block-workspace.md).
+    If there are no knowledge blocks, click **Create New Block** and follow the procedure to create another block. For more information, see [Create a knowledge block in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/create-knowledge-block-workspace.md).
 
 7.  Click **Update** to save your changes.
 
-    **Note:** You can preview the article with the blocks. For more information, see [Preview a knowledge article with knowledge blocks in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/preview_blocks_agent.md).
+    **Note:** You can preview the article with the blocks. For more information, see [Preview a knowledge article with knowledge blocks in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/preview_blocks_agent.md).
 
 8.  Click **Publish** to publish the article.
 
-    The knowledge article is published depending on the workflow setting of its knowledge base. For more information, see [Publish a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/publish-knowledge-article-workspace.md).
+    The knowledge article is published depending on the workflow setting of its knowledge base. For more information, see [Publish a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/publish-knowledge-article-workspace.md).
 
 

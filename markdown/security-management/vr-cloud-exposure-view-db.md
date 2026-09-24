@@ -3,9 +3,9 @@ title: Viewing the Cloud Exposure View dashboard
 description: The Cloud Exposure View is a module that is supported by Security Exposure Management workspace. Select interactive visualizations and filter aggregated data for your cloud assets by category to view findings for your security exposures. Cloud security teams can monitor and act on all their cloud-related security findings from multiple vendors across their cloud environments from within the workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/vr-cloud-exposure-view-db.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Security Exposure Management Workspace, Explore, Unified Security Exposure Management, Security Operations]
 ---
@@ -24,7 +24,7 @@ Roles required:
 -   sn\_vul\_cmn.usem\_admin to configure workspace rules
 -   For vulnerability findings remediation by product:
 
-See [Security Exposure Management Workspace Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-new-roles-installed.md)
+See [Security Exposure Management Workspace Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-new-roles-installed.md)
 
 ## Top-level filters
 
@@ -93,7 +93,7 @@ Select a card and then select the filters on the new tabs that are displayed to 
     -   Red
     -   Orange
     -   Yellow
--   View toxic combinations and assets with the least compliant scores that have the most security exposures due to failed configurations. Both misconfigurations and issues are populated on test results in Configuration Compliance. This data is imported by the [Understanding the Wiz Vulnerability Response Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vr-wiz-exploring-host-cf.md), and this data is not displayed unless Configuration Compliance and the Wiz Vulnerability Response Integration are installed.
+-   View toxic combinations and assets with the least compliant scores that have the most security exposures due to failed configurations. Both misconfigurations and issues are populated on test results in Configuration Compliance. This data is imported by the [Understanding the Wiz Vulnerability Response Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/vr-wiz-exploring-host-cf.md), and this data is not displayed unless Configuration Compliance and the Wiz Vulnerability Response Integration are installed.
 
     Findings with failed test results are color-coded. You can select the date range for the last 7 days or the last 30 days.
 

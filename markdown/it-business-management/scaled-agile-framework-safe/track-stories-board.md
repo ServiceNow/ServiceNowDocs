@@ -3,11 +3,11 @@ title: Track your SAFe tasks from the Board view
 description: Track the progress of your SAFe stories and scrum tasks. View their transition from one state \(lane\) to another in a visual task board.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/track-stories-board.html
-release: australia
+release: brazil
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SAFe Board — Team level, Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -43,5 +43,5 @@ Role required: safe\_scrum\_user or safe\_admin
         2.  In the form, fill in the fields.
         3.  Click **Submit**.
 
-**Parent Topic:**[SAFe Board — Team level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/team-level-tabs.md)
+**Parent Topic:**[SAFe Board — Team level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/team-level-tabs.md)
 

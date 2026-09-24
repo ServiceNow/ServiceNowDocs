@@ -3,11 +3,11 @@ title: Monitor health in CSDM and CMDB Data Foundations Dashboards
 description: The ServiceNow CSDM and CMDB Data Foundations Dashboards store app contains dashboards with insights into the key foundational metrics of your CMDB and Common Service Data Model \(CSDM\). This app uses ServiceNow health benchmarks to provide recommendations to ensure that the CMDB and CSDM are properly configured for optimal usage and to mitigate any potential risks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/csdm-cmdb-foundations-dashboards.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,11 +26,11 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 The CSDM and CMDB Data Foundations Dashboards store app provides dashboards that complement each other. See the respective sections for each of the following dashboards:
 
--   **[CMDB Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-data-foundations-dashboard.md)**
+-   **[CMDB Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-data-foundations-dashboard.md)**
 
     Evaluates various configurations and customizations in the CMDB. This dashboard checks that important data is valid and properly configured, and identifies and provides visibility into potential risks in the implementation. Use the CMDB Data Foundations dashboard to prevent issues and support continuous effective functioning of the CMDB.
 
--   **[CSDM Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/csdm-data-foundations-dashboard.md)**
+-   **[CSDM Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/csdm-data-foundations-dashboard.md)**
 
     The CSDM Data Foundations dashboard displays key CSDM metrics on a single page to assist you in getting the full benefit from your ServiceNow AI Platform® products.
 
@@ -81,6 +81,6 @@ It might be useful to manage the performance impact of some metrics that are gre
     -   **Aggregate limit**: The maximum number or percentage of non-compliant CIs that are reported for the metric. Once that threshold is reached, counting for the metric stops for the run and the score for the metric is set to 0 \(you can't customize the default value\).
     -   **Fail count threshold**: The threshold of the number of consecutive metric runs that failed due to exceeding the metric's **Runtime threshold**. When that threshold is reached, the respective metric is automatically deactivated.
     -   **Runtime threshold**: The time threshold in seconds that is considered too long for a metric run. When exceeded, the current metric run is considered failed.
-    For most metrics, when the number of consecutive runs that fail because the runtime exceeds **Runtime threshold**, is greater than the **Fail count threshold**, the system automatically deactivates the metric. You can manually reactivate a deactivated metric by setting its **Active** column to **true**. An exception to those column definitions and usage is the CMDB **CIs Processed via IRE** metric. For details, see [CMDB Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-data-foundations-dashboard.md).
+    For most metrics, when the number of consecutive runs that fail because the runtime exceeds **Runtime threshold**, is greater than the **Fail count threshold**, the system automatically deactivates the metric. You can manually reactivate a deactivated metric by setting its **Active** column to **true**. An exception to those column definitions and usage is the CMDB **CIs Processed via IRE** metric. For details, see [CMDB Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-data-foundations-dashboard.md).
 
 

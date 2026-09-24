@@ -3,11 +3,11 @@ title: Supported metadata in Build Agent
 description: Metadata and app file types that Build Agent can create and manage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/build-agent-supported-metadata.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-08-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-keywords: [metadata, app files, development workflow, compatibility, business rules, client scripts, forms, tables, workflows, UI components, scripted REST APIs, ATF tests, LDAP, data import, JavaScript modules, application menus, record insertion, Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [metadata, app files, development workflow, compatibility, business rules, client scripts, forms, tables, workflows, UI components, scripted REST APIs, ATF tests, LDAP, data import, JavaScript modules, application menus, record insertion, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Reference, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -17,7 +17,9 @@ Metadata and app file types that Build Agent can create and manage.
 
 For metadata types not listed in this table, query Build Agent directly.
 
-**Important:** Build Agent only creates metadata supported by ServiceNow® Fluent. For more information, see [ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-fluent.md). For the latest API reference, see [https://servicenow.github.io/sdk/](https://servicenow.github.io/sdk/)
+**Important:** Build Agent and Autonomous Engineer only create metadata supported by ServiceNow® Fluent. For more information, see [ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-fluent.md). For the latest API reference, see [https://servicenow.github.io/sdk/](https://servicenow.github.io/sdk/)
+
+## Supported metadata
 
 <table id="table_supported-metadata"><thead><tr><th>
 
@@ -41,7 +43,7 @@ Application menus and modules
 
 </td><td>
 
-Application menus are the top-level categories in the application navigator sidebar. Modules are the individual links within those categories and can link to tables, URLs, lists, or other platform resources. When Build Agent creates a new application with tables, it generates the corresponding navigator structure so users can access the application from the sidebar.
+Application menus are the top-level categories in the application navigator sidebar. Modules are the individual links within those categories and can link to tables, URLs, lists, or other platform resources. When Build Agent or Autonomous Engineer creates a new application with tables, it generates the corresponding navigator structure so users can access the application from the sidebar.
 
 </td></tr><tr><td>
 
@@ -113,7 +115,7 @@ Custom AI agents
 
 </td><td>
 
-AI agents scoped to application data models, roles, and ACLs. For more information, see [Create agentic workflows, agents, and skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-custom-ai-agent.md).
+AI agents scoped to application data models, roles, and ACLs. For more information, see [Create agentic workflows, agents, and skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-custom-ai-agent.md).
 
 </td></tr><tr><td>
 
@@ -129,7 +131,7 @@ Data import pipeline
 
 </td><td>
 
-Build Agent creates the full data import pipeline: data sources, staging tables, import sets, and transform maps. Supported source types include CSV, Excel, JSON, XML, JDBC, LDAP, and REST. Specify the external data source, target table, and field mapping, and Build Agent generates the pipeline artifacts. The capability covers both one-time bulk loads and recurring scheduled imports.
+Build Agent creates the full data import pipeline: data sources, staging tables, import sets, and transform maps. Supported source types include CSV, Excel, JSON, XML, JDBC, LDAP, and REST. Specify the external data source, target table, and field mapping, and Build Agent or Autonomous Engineer generates the pipeline artifacts. The capability covers both one-time bulk loads and recurring scheduled imports.
 
 </td></tr><tr><td>
 
@@ -193,7 +195,7 @@ JavaScript modules
 
 </td><td>
 
-Build Agent creates JavaScript modules for organizing reusable server-side code within an application. Modules support standard import and export patterns and can reference server-side APIs. Use this pattern when multiple business rules, script includes, or other server-side scripts must share utility functions, constants, or logic without duplicating code.
+Build Agent or Autonomous Engineer creates JavaScript modules for organizing reusable server-side code within an application. Modules support standard import and export patterns and can reference server-side APIs. Use this pattern when multiple business rules, script includes, or other server-side scripts must share utility functions, constants, or logic without duplicating code.
 
 </td></tr><tr><td>
 
@@ -209,7 +211,7 @@ LDAP server configurations
 
 </td><td>
 
-Build Agent creates LDAP server configurations and LDAP server URLs for connecting to external directory services such as Active Directory and OpenLDAP. LDAP server configurations include failover and load-balancing URL configurations and SSL settings. For importing records from the directory into ServiceNow tables, use a data import pipeline instead.
+Build Agent or Autonomous Engineer creates LDAP server configurations and LDAP server URLs for connecting to external directory services such as Active Directory and OpenLDAP. LDAP server configurations include failover and load-balancing URL configurations and SSL settings. To import records from the directory into ServiceNow tables, use a data import pipeline instead.
 
 </td></tr><tr><td>
 
@@ -225,9 +227,10 @@ Playbooks
 
 </td><td>
 
-Representations of cross-enterprise business processes that organize tasks and activities into logical stages to guide users through a record lifecycle. Playbooks combine triggers that specify when to start, stages that group sequences of activities, and activities that define the automation and user-facing experience. Build Agent can create playbook configurations and activity definitions to help organizations digitize and standardize their business processes.To generate a playbook in Build Agent attach a file, such as an image, an XML, or a text description.
+Representations of cross-enterprise business processes that organize tasks and activities into logical stages to guide users through a record lifecycle. Playbooks combine triggers that specify when to start, stages that group sequences of activities, and activities that define the automation and user-facing experience. Build Agent or Autonomous Engineer can create playbook configurations and activity definitions to help organizations digitize and standardize their business processes.To generate a playbook in Build Agent or Autonomous Engineer, attach a file, such as an image, an XML file, or a text description.
 
-For more information on playbooks, see [Workflow Studio Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio-playbooks-landing.md).
+-   For details on playbooks support in Build Agent and Autonomous Engineer, see .
+-   For more information on playbooks, see [Workflow Studio playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio-playbooks-landing.md).
 
 </td></tr><tr><td>
 
@@ -235,7 +238,7 @@ Record insertion
 
 </td><td>
 
-Build Agent inserts data into any table, including tables that don't have a dedicated build skill. The functionality covers seed data, demo data, reference data, and configuration records. The same approach applies to creating metadata records on platform tables that Build Agent does not have a specialized skill for yet.
+Build Agent or Autonomous Engineer inserts data into any table, including tables that don't have a dedicated build skill. The functionality covers seed data, demo data, reference data, and configuration records. The same approach applies to creating metadata records on platform tables that Build Agent or Autonomous Engineer don't have a specialized skill for yet.
 
 </td></tr><tr><td>
 
@@ -398,5 +401,5 @@ Workspaces
 Agent-facing interfaces built with configurable workspace components.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Build Agent reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-reference-landing.md)
+</table>**Parent Topic:**[Build Agent reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent-reference-landing.md)
 

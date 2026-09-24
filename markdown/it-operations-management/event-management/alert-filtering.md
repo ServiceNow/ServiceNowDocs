@@ -3,11 +3,11 @@ title: Configure filters for automatic alert groups
 description: Filter alerts and alert groups to reduce alert noise. Only alerts that match the filter are included in the group of the selected group type \(Automated, CMDB, or Text\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/alert-filtering.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Scheduled jobs and parameters for alert grouping, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---

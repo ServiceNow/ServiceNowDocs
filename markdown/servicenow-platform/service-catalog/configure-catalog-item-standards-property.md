@@ -3,11 +3,11 @@ title: Configure catalog item standards property
 description: Enable or disable the Catalog Item Standards feature by configuring the "Catalog item standards" property.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/configure-catalog-item-standards-property.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-07-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Catalog item standards for catalog item generation, AI Authoring for Catalog Builder reference, AI Authoring for Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -41,12 +41,12 @@ The "Catalog item standards" property controls whether best practices from the C
     If you enabled the property, confirm that your best practices are published in the Catalog Best Practices article.
 
 
-**Parent Topic:**[Catalog item standards for catalog item generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/guidance-for-catalog-item-creation.md)
+**Parent Topic:**[Catalog item standards for catalog item generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/guidance-for-catalog-item-creation.md)
 
 **Related topics**  
 
 
-[Catalog item standards for catalog item generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/guidance-for-catalog-item-creation.md)
+[Catalog item standards for catalog item generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/guidance-for-catalog-item-creation.md)
 
-[Catalog Item Standards scope and examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-item-standards-scope-and-examples.md)
+[Catalog Item Standards scope and examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/catalog-item-standards-scope-and-examples.md)
 

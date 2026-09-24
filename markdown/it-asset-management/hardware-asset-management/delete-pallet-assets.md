@@ -3,13 +3,13 @@ title: Delete pallet assets
 description: Delete a pallet asset when no assets are associated with it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/delete-pallet-assets.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage your inventory through pallet assets, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage your inventory through pallet assets, Inventory and stockroom operations, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Delete pallet assets
@@ -39,7 +39,7 @@ You can delete a pallet only if it’s empty. Remove any assets before trying to
 
 The pallet that you deleted is no longer shown under the Pallets tab.
 
-**Parent Topic:**[Manage your inventory through pallet assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/pallets-for-inventory-management.md)
+**Parent Topic:**[Manage your inventory through pallet assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/pallets-for-inventory-management.md)
 
 **Related topics**  
 

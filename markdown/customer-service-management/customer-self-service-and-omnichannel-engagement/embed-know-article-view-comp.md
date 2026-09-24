@@ -3,13 +3,13 @@ title: Embed the Knowledge article view component instance on the third-party we
 description: Embed the global code and component code of the Knowledge article view component instance that you configured so that you can enable your customers to start using the Knowledge article view component instance on your third-party website.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-know-article-view-comp.html
-release: australia
+release: brazil
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Knowledge article view component, Configure web components, Web Embeddables, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Knowledge article view component, Configure web components, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Embed the Knowledge article view component instance on the third-party website
@@ -18,7 +18,7 @@ Embed the global code and component code of the Knowledge article view component
 
 ## Before you begin
 
-You must configure the Knowledge article view component instance. For information, see [Configure the Knowledge article view component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-know-article-view-comp.md).
+You must configure the Knowledge article view component instance. For information, see [Configure the Knowledge article view component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-know-article-view-comp.md).
 
 Role required: None
 

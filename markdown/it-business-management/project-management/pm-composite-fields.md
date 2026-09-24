@@ -3,11 +3,11 @@ title: Composite Fields
 description: A composite field combines information from two fields in a table to form a single field.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/pm-composite-fields.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Basics of Project Management, Exploring Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -28,7 +28,7 @@ For example, the **Task** field on the Project Tasks list displays the short des
     -   To search by the number using the list header, enter an asterisk \(\*\) before the search term. For example, \*PRJTASK0010016.
     -   To search by the number using the filter, create a condition similar to: \[Task\] \[contains\] \[PRJTASK0010016\].
 
-**Parent Topic:**[Basics of Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectTasks.md)
+**Parent Topic:**[Basics of Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_ProjectTasks.md)
 
 **Related topics**  
 
@@ -56,4 +56,6 @@ For example, the **Task** field on the Project Tasks list displays the short des
 [Project and portfolio funding]()
 
 [Project scheduling in Project Management]()
+
+[Task constraints]()
 

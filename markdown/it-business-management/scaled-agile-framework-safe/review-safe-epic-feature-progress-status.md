@@ -3,11 +3,11 @@ title: Reviewing progress status for SAFe features and epics
 description: Understand if your work would be completed by the planned end dates by reviewing progress status of your SAFe features and epics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/review-safe-epic-feature-progress-status.html
-release: australia
+release: brazil
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Work Progress Status for SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -28,7 +28,7 @@ The estimated completion date displays a date with the likelihood of the epic's 
 
 \[Omitted image "epics-progress-status.png"\] Alt text: A screenshot showing the progress status indicators of SAFe epics
 
-The [\[SAFe\] daily data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/enable-safe-daily-data-collection-job.md) helps generate the burnup report for your epics and features. Using the data generated for these epic burnup reports, an estimated completion date is determined. You can see that this date is the intersection of Completed and Scope forecast series in the respective burnup reports.
+The [\[SAFe\] daily data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/enable-safe-daily-data-collection-job.md) helps generate the burnup report for your epics and features. Using the data generated for these epic burnup reports, an estimated completion date is determined. You can see that this date is the intersection of Completed and Scope forecast series in the respective burnup reports.
 
 Based on this estimated completion date, the progress status for your SAFe epics and features is determined. Progress status is calculated only under the following conditions:
 
@@ -41,12 +41,12 @@ The color of the progress status indicator is determined using the following con
 -   Yellow: Estimated completion date is beyond the planned end date by a deviation of 1% to 14%.
 -   Red: Estimated completion date is beyond the planned end date by a deviation of 15% or more.
 
-**Parent Topic:**[Work Progress Status for SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/work-progress-status-safe-overview.md)
+**Parent Topic:**[Work Progress Status for SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/work-progress-status-safe-overview.md)
 
 **Related topics**  
 
 
-[SAFe Feature Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/safe-feature-dashboard.md)
+[SAFe Feature Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/safe-feature-dashboard.md)
 
-[SAFe Epic Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/safe-epic-dashboard.md)
+[SAFe Epic Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/safe-epic-dashboard.md)
 

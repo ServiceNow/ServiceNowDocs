@@ -3,11 +3,11 @@ title: Perform CRI profile assessment per CRI guidelines using control assessmen
 description: Perform CRI profile assessment based on the tiering questionnaire of an entity to determine the compliance status of the controls and know the compliance score that rolls up to the entity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/perform-cri-assess-pc-ws.html
-release: australia
+release: brazil
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage control objectives and policies, Use, GRC Compliance workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -36,7 +36,7 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst, sn\_compliance
 
     When a CRI profile assessment is initiated, the assessment is generated using the latest published version of the template.
 
-    For more information, see [Assessment template versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/template-versioning.md)
+    For more information, see [Assessment template versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/template-versioning.md)
 
 5.  Select the CRI profile assessments related list and refresh the page to view the assessment.
 

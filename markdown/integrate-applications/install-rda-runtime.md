@@ -3,9 +3,9 @@ title: Install Attended Robot
 description: You can install the Attended Robot application in your Windows machine if you have the admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/install-rda-runtime.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Attended Robot, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,7 +16,7 @@ You can install the Attended Robot application in your Windows machine if you ha
 
 ## Before you begin
 
-Download and unzip the installation file for the Attended Robot application. For more information, see [Download the RPA applications from RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/download-installer-rpa.md).
+Download and unzip the installation file for the Attended Robot application. For more information, see [Download the RPA applications from RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/download-installer-rpa.md).
 
 Ensure that you meet the hardware and software requirements.
 
@@ -67,5 +67,5 @@ You can see the Attended Robot icon on your desktop.
 
 ## What to do next
 
-Set up the Attended Robot application. For more information, see [Set up Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-rda-runtime.md).
+Set up the Attended Robot application. For more information, see [Set up Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/set-up-rda-runtime.md).
 

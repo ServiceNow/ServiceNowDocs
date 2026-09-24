@@ -3,12 +3,12 @@ title: Delete a use case
 description: Delete a use case and its associated fields, tables, questions, integrations, and flows from a skill when the use case is no longer needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/delete-use-case.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, Gen AI, Generative AI, Document Intelligence]
-breadcrumb: [Manage use case, Information Extraction skill, Configure, Content Understanding, Enable AI experiences]
+breadcrumb: [Manage use case, Reference, Content Understanding, Generative AI skills, Enable AI Experiences]
 ---
 
 # Delete a use case
@@ -38,5 +38,5 @@ Role required: DocIntel Admin \[sn\_docintel.admin\] or DocIntel Manager \[sn\_d
 
 The use case is deleted, including its associated fields, tables, questions, integrations, and flows.
 
-**Parent Topic:**[Manage use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-use-case.md)
+**Parent Topic:**[Manage use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/cu-manage-use-case.md)
 

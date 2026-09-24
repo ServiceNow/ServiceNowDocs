@@ -3,9 +3,9 @@ title: Using the IntegrationHub Salesforce spoke
 description: Use the Salesforce spoke to integrate a Salesforce account with your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-csm-integration-salesforce.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using remote tables and the Salesforce spoke, Reference Salesforce integration using remote tables, Third-party data integration for CSM, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -20,15 +20,15 @@ Role required: admin
 
 ## Procedure
 
-1.  To configure the Salesforce spoke, follow the instructions in [Set up the Salesforce spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-sf-spk.md).
+1.  To configure the Salesforce spoke, follow the instructions in [Set up the Salesforce spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/setup-sf-spk.md).
 
 
-**Parent Topic:**[Using remote tables and the Salesforce spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-integration-remote-tables.md)
+**Parent Topic:**[Using remote tables and the Salesforce spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-integration-remote-tables.md)
 
 **Related topics**  
 
 
-[Using remote tables and the Salesforce spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-integration-remote-tables.md)
+[Using remote tables and the Salesforce spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-integration-remote-tables.md)
 
-[Connect Customer Account and Salesforce Opportunities using a related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-related-list-opportunity-table.md)
+[Connect Customer Account and Salesforce Opportunities using a related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-related-list-opportunity-table.md)
 

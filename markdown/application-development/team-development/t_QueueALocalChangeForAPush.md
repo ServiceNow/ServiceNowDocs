@@ -3,11 +3,11 @@ title: Queue a local change for a push
 description: Application developers can queue a local change for a push to ensure the changes are available to other developers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/t\_QueueALocalChangeForAPush.html
-release: australia
+release: brazil
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Team Development, Planning your application, Building applications]
 ---
@@ -36,7 +36,7 @@ Role required: none
 
     This step is a recommended best practice.
 
-<table id="choicetable_c1h_cgc_bq"><tbody><tr><td id="d68325e118">
+<table id="choicetable_c1h_cgc_bq"><tbody><tr><td id="d66574e118">
 
 **To remove changes from the queue**
 
@@ -44,7 +44,7 @@ Role required: none
 
 Select the check boxes beside the rows and select **Do Not Push** from the Actions choice list.
 
-</td></tr><tr><td id="d68325e136">
+</td></tr><tr><td id="d66574e136">
 
 **To remove changes from the queue and choose to ignore them instead**
 

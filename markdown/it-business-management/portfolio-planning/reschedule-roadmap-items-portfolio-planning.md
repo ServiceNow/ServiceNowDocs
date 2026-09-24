@@ -3,11 +3,11 @@ title: Reschedule roadmap items
 description: Update the planned dates of your roadmap items to account for any changes in your scheduling priorities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/reschedule-roadmap-items-portfolio-planning.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace, roadmap]
 breadcrumb: [Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
@@ -25,15 +25,15 @@ Role required: sn\_align\_core.apw\_user
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d89423e90">
+<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d88686e90">
 
 Roadmap type
 
-</th><th align="left" id="d89423e93">
+</th><th align="left" id="d88686e93">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d89423e99">
+</th></tr></thead><tbody><tr><td id="d88686e99">
 
 **Portfolio plan roadmap**
 
@@ -43,7 +43,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d89423e120">
+</td></tr><tr><td id="d88686e120">
 
 **Free-form roadmap**
 
@@ -59,5 +59,5 @@ From the Free-form Roadmaps tab, select a roadmap.
     \[Omitted image "update-roadmap-item.gif"\] Alt text: Update planned dates of a roadmap item.
 
 
-**Parent Topic:**[Planning roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/planning-roadmaps-in-portfolio-planning.md)
+**Parent Topic:**[Planning roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/planning-roadmaps-in-portfolio-planning.md)
 

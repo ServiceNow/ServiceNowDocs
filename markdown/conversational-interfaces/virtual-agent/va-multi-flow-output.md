@@ -3,13 +3,13 @@ title: Multi-response bot response control
 description: Use the Multi-response bot response control in a Virtual Agent topic to sequentially display two or more outputs. Outputs can be text, image, link, or HTML. Users can move from one output to the next through a provided navigation button.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-multi-flow-output.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Assistant Designer bot responses, Assistant Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer bot responses, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Multi-response bot response control
@@ -91,7 +91,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 |LINE|Not supported|Not applicable|
 |WhatsApp|Not supported|Not applicable|
 |Apple Messages for Business|Not supported|Not applicable|
-|Alexa \(Voice\)|Partial support|Supported on devices with screens. For non-screen devices, the user receives a message if unsupported elements are used: `We found a link`. For details, see [Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-settings-for-alexa.md).|
+|Alexa \(Voice\)|Partial support|Supported on devices with screens. For non-screen devices, the user receives a message if unsupported elements are used: `We found a link`. For details, see [\(Legacy\) Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-settings-for-alexa.md).|
 
 ## Example Multi-response control
 
@@ -114,5 +114,5 @@ Multi-response output
 \[Omitted image "va-multi-flow-web.png"\] Alt text: A basic response includes text output followed by a hyperlink.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-bot-responses.md)
+</table>**Parent Topic:**[Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-bot-responses.md)
 

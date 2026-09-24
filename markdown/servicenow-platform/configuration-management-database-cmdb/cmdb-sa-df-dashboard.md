@@ -3,7 +3,7 @@ title: Monitoring CMDB data quality using dashboard metrics in CMDB success advi
 description: The CMDB success advisor for Data Foundations dashboard enables CMDB administrators to identify and address data quality issues specific to principal classes in the Configuration Management Database \(CMDB\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-dashboard.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
@@ -17,17 +17,17 @@ breadcrumb: [Use Data Foundations advisor, CMDB success advisor, Configuration M
 
 The CMDB success advisor for Data Foundations dashboard enables CMDB administrators to identify and address data quality issues specific to principal classes in the Configuration Management Database \(CMDB\).
 
-**Important:** Charts display up to the top 10 values. Any remaining values are grouped into an **Others** category. When you select a segment or count on a chart from a CMDB success advisor dashboard, the KPI Details page opens. On the page, you can analyze how a specific metric trends over time. Additionally, the Remediation actions panel appears when remediation actions are available for that card. Use the panel to improve the quality of CMDB. To learn more, see [KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details.md) and [Improving CMDB data quality for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-remediation.md).
+**Important:** Charts display up to the top 10 values. Any remaining values are grouped into an **Others** category. When you select a segment or count on a chart from a CMDB success advisor dashboard, the KPI Details page opens. On the page, you can analyze how a specific metric trends over time. Additionally, the Remediation actions panel appears when remediation actions are available for that card. Use the panel to improve the quality of CMDB. To learn more, see [KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/kpi-details.md) and [Improving CMDB data quality for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-remediation.md).
 
 \[Omitted image "cmdb-sa-df-dashboard.png"\] Alt text: CMDB success advisor for Data Foundations dashboard overview.
 
-**Note:** If the Performance Analytics data collector exceeds its row limit during data processing, a notification banner appears on the dashboard indicating that some metrics could not be loaded. For more information, see [Data collector Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-dc-props.md).
+**Note:** If the Performance Analytics data collector exceeds its row limit during data processing, a notification banner appears on the dashboard indicating that some metrics could not be loaded. For more information, see [Data collector Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/pa-dc-props.md).
 
 ## Access the dashboard
 
-To open the dashboard, select **View insights** for Data Foundations on the CMDB success advisor landing page. See [Access CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-access.md). The dashboard header displays a **Last updated** timestamp reflecting the completion time of the most recent Data Foundations data collector job run.
+To open the dashboard, select **View insights** for Data Foundations on the CMDB success advisor landing page. See [Access CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-access.md). The dashboard header displays a **Last updated** timestamp reflecting the completion time of the most recent Data Foundations data collector job run.
 
-**Note:** The CMDB success advisor for Data Foundations dashboard is available only after the setup process is complete. For more information, see [CMDB success advisor for Data Foundations setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-config-settings.md).
+**Note:** The CMDB success advisor for Data Foundations dashboard is available only after the setup process is complete. For more information, see [CMDB success advisor for Data Foundations setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-config-settings.md).
 
 ## Required roles
 
@@ -67,7 +67,7 @@ CMDB administrator
 
 The dashboard provides clear, consolidated insights into principal CI class data quality and completeness. Use the dashboard to identify and resolve data quality issues within the CMDB through dedicated sections, filters, indicators, and visual reports. Gain valuable insights into CMDB performance related to Data Foundations. Targeted CMDB metrics focus remediation efforts. Regularly monitor these metrics and follow suggested remediation actions to systematically improve CMDB data quality over time.
 
-**Important:** The dashboard data is filtered based on the Selected principal classes and Date range filters. See [Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-dashboard.md).
+**Important:** The dashboard data is filtered based on the Selected principal classes and Date range filters. See [Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-dashboard.md).
 
 <table><thead><tr><th>
 
@@ -85,11 +85,11 @@ CMDB data quality insights generated by AI
 
 Displays an AI-generated summary of CMDB data quality for Data Foundations outcomes and lists the top 5 issues with guided remediation actions.Issues are ranked primarily by the percentage of CIs or CI classes that each issue affects, not by severity, within four categories, in this order: **Data integrity**, **CI attributes**, **Reconciliation and governance**, and **Data Manager policies**. Foundational data integrity issues, such as duplicate CIs and stale CIs, are evaluated first because they can inflate the counts behind other issues.
 
-A percentage gap of more than 15 points between issues in the same category can change their default order. A percentage gap of more than 40 points between issues in different categories can also change their default order. For the reasoning behind the ranking and recommendations, see [Summarize CMDB readiness with the ServiceNow Otto skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-skill-summ-rdy.md).
+A percentage gap of more than 15 points between issues in the same category can change their default order. A percentage gap of more than 40 points between issues in different categories can also change their default order. For the reasoning behind the ranking and recommendations, see [Summarize CMDB readiness with the ServiceNow Otto skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-skill-summ-rdy.md).
 
 Select **View reasoning** to open the Reasoning popover, which explains the ranking and includes a **Learn more** link to the same topic.
 
-**Note:** Available only when the summarize CMDB readiness skill is configured. See [Configure the summarize CMDB readiness skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-config-summ-rdy.md).
+**Note:** Available only when the summarize CMDB readiness skill is configured. See [Configure the summarize CMDB readiness skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-config-summ-rdy.md).
 
 </td></tr><tr><td>
 
@@ -109,7 +109,7 @@ Displays the breakdown of operational CIs by data integration source to highligh
 
 </td></tr><tr><td>
 
-[CIs missing key attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-dashboard.md)
+[CIs missing key attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-dashboard.md)
 
 </td><td>
 
@@ -117,7 +117,7 @@ Displays completeness metrics per principal CI class, identifying classes below 
 
 </td></tr><tr><td>
 
-[CI data quality issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-dashboard.md)
+[CI data quality issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-dashboard.md)
 
 </td><td>
 
@@ -145,9 +145,9 @@ Key metrics for the completeness of CI attributes across principal classes, iden
 
 |Card|Description|Indicators|
 |----|-----------|----------|
-|CIs missing name|Total number of CI records from principal classes missing a name, measured daily, where the CI does not have a name specified.|[DF CIs missing name](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-indicators.md)|
-|CIs missing managed by group|Total number of CI records from principal classes missing a managed by group, measured daily, where the CI does not have a managed by group assigned.|[DF CIs missing managed by group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-indicators.md)|
-|CIs missing location|Total number of CI records from principal classes missing a location, measured daily, where the CI does not have a location assigned.|[DF CIs missing location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-indicators.md)|
+|CIs missing name|Total number of CI records from principal classes missing a name, measured daily, where the CI does not have a name specified.|[DF CIs missing name](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-indicators.md)|
+|CIs missing managed by group|Total number of CI records from principal classes missing a managed by group, measured daily, where the CI does not have a managed by group assigned.|[DF CIs missing managed by group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-indicators.md)|
+|CIs missing location|Total number of CI records from principal classes missing a location, measured daily, where the CI does not have a location assigned.|[DF CIs missing location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-indicators.md)|
 
 ## CI data quality issues
 
@@ -171,19 +171,19 @@ Stale CIs
 
 </td><td>
 
-Principal class CIs not updated within the expected maintenance window, causing data gaps and inaccuracies that affect incident and change impact analysis. Additionally filtered by the [Stale CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-dashboard.md) filter.When you select a segment on the Stale CIs chart, the KPI Details page title reflects the Stale CI filter value selected at the time \(for example, "CIs not updated in last 30 days"\).
+Principal class CIs not updated within the expected maintenance window, causing data gaps and inaccuracies that affect incident and change impact analysis. Additionally filtered by the [Stale CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-dashboard.md) filter.When you select a segment on the Stale CIs chart, the KPI Details page title reflects the Stale CI filter value selected at the time \(for example, "CIs not updated in last 30 days"\).
 
 </td><td>
 
-[DF CIs not updated in last 7 days](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-indicators.md)[DF CIs not updated in last 14 days](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-indicators.md)
+[DF CIs not updated in last 7 days](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-indicators.md)[DF CIs not updated in last 14 days](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-indicators.md)
 
-[DF CIs not updated in last 30 days](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-indicators.md)
+[DF CIs not updated in last 30 days](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-indicators.md)
 
-[DF CIs not updated in last 60 days](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-indicators.md)
+[DF CIs not updated in last 60 days](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-indicators.md)
 
-[DF CIs not updated in last 90 days](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-indicators.md)
+[DF CIs not updated in last 90 days](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-indicators.md)
 
-**Note:** The CIs not updated card data is additionally filtered based on the Stale CI filter. See [Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-dashboard.md).
+**Note:** The CIs not updated card data is additionally filtered based on the Stale CI filter. See [Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-dashboard.md).
 
 </td></tr><tr><td>
 
@@ -195,7 +195,7 @@ Operational CIs identified as duplicates within principal classes, causing ambig
 
 </td><td>
 
-[DF Duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-indicators.md)
+[DF Duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-indicators.md)
 
 </td></tr></tbody>
 </table>

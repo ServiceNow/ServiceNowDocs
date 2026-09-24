@@ -3,9 +3,9 @@ title: Identify and resolve duplicate articles
 description: Learn how to find and manage duplicate knowledge articles in the Knowledge Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/identify-duplicate-articles.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Knowledge Center, Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -46,5 +46,5 @@ The duplicate articles are resolved, improving content accuracy and reducing red
 **Related topics**  
 
 
-[Merge duplicate articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/merge-duplicate-articles.md)
+[Merge duplicate articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-in-knowledge-management/merge-duplicate-articles.md)
 

@@ -3,9 +3,9 @@ title: Opres with CSDM header Main node configuration
 description: The Opres with CSDM header Main node configuration, used by new customers, fetches CMDB objects such as business services, business processes, service offerings, and application services into Operational Resilience. Existing customers typically use the Service \(CMDB\) Main node configuration. Administrators or UI Builder administrators can display or hide the Services overview or Business services overview tab from the Workspace view based on organizational needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/opres-with-csdm-header.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring 360º views for services and processes, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -29,7 +29,7 @@ You can configure the node relationships in the Opres with CSDM header Main node
 
 \[Omitted image "node-rel-config-opres-w-csdm-header.png"\] Alt text: Opres with CSDM header Main node configuration.
 
-The following illustration shows the node relationship configurations for Opres with CSDM header Main node configuration, provided as the base version. For each relationship \[cmdb\_rel\_ci\] table, you can set up combined relationship configurations. For example, for a business service as the parent class, you can configure its relationship to a service offering. You can then configure relationships to a business process and to an application service.
+The following illustration shows the node relationship configurations for Opres with CSDM header Main node configuration, provided as the base version. For each relationship \[cmdb\_rel\_ci\] table, you can set up combined relationship configurations. For example, you can configure a business service as the parent class. You can then configure its relationship to a service offering, to a business process, and to an application service.
 
 \[Omitted image "node-rel-example.png"\] Alt text: Relationships.
 
@@ -37,7 +37,7 @@ The relationship of the CMDB objects is shown in the illustration. The data show
 
 \[Omitted image "csdm-objects-rel.png"\] Alt text: CSDM objects.
 
-For information on updating the node relationship configurations, see [Configure the Node relationship configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/update-node-rel-config.md)
+For information on updating the node relationship configurations, see [Configure the Node relationship configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/update-node-rel-config.md)
 
 .
 

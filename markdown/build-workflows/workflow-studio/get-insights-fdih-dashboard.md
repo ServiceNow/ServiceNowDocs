@@ -3,11 +3,11 @@ title: Get insights from the FDIH Dashboard
 description: Use the FDIH Dashboard to get insights on flow executions and historical performance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/get-insights-fdih-dashboard.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [FDIH Dashboard, Flow administration, Configure flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -55,5 +55,5 @@ Role required: admin
 6.  To reset the column width, click the column settings icon \(\[Omitted image "column-settings-icon.png"\] Alt text: Column settings icon.\), and then click **Reset widths**.
 
 
-**Parent Topic:**[FDIH Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/fdih-dashboard.md)
+**Parent Topic:**[FDIH Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/fdih-dashboard.md)
 

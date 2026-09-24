@@ -3,11 +3,11 @@ title: Configure an auto-populate value for a question in Catalog Builder
 description: Configure the value of a question to populate automatically whenever the value of another question of the reference type changes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/config-auto-populate-value-for-question-cat-builder.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a question for a catalog item in Catalog Builder, Creating or editing catalog item template, Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -62,10 +62,10 @@ In a catalog item, for example, you can set up the value of the “Name of the m
 
         **Note:** To search any value, enter what you're looking for, for example, `manager` or dot-walk to get the required value.
 
-        For more information about dot-walking, see [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_DotWalking.md).
+        For more information about dot-walking, see [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_DotWalking.md).
 
 8.  Select **Insert question**.
 
 
-**Parent Topic:**[Create a question for a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-question-cat-builder.md)
+**Parent Topic:**[Create a question for a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/create-question-cat-builder.md)
 

@@ -3,11 +3,11 @@ title: Components installed with Test Management
 description: Several types of components are installed with activation of the Test Management plugin, including tables and user roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/installed-with-testmanagement.html
-release: australia
+release: brazil
 product: Test Management
 classification: test-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activate Test Management, Test Management 1.0, Test Management applications, Strategic Portfolio Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Activate Test Management, Test Management 1.0, Test Management appl
 
 Several types of components are installed with activation of the Test Management plugin, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 ## Roles installed
 

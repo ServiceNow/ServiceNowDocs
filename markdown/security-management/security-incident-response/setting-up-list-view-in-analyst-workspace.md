@@ -3,11 +3,11 @@ title: List view in SIR Workspace
 description: The list view consists of the security incidents, response tasks, phishing emails, and assessments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/setting-up-list-view-in-analyst-workspace.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Explore, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -21,6 +21,8 @@ The list view has pre applied filters such as Assigned to Me, Assigned to Team, 
 Using these list categories and filtered lists, analysts can quickly find the required Security Incidents and Response Tasks records that they need to work on.
 
 To get to the list view, select the list icon \(\[Omitted image "listview-icon.png"\] Alt text: list view icon\). When you select a record in a list view, the record opens in a new tab.
+
+In SIR Workspace 2.0, selecting **New** still creates the incident and opens it in the current classic form, not the new Investigate page. This is current, interim behavior.
 
 ## List types
 
@@ -61,7 +63,7 @@ View the list of security incidents and navigate to the desired incident to star
 -   The analyst can select one or more security incident\(s\) and assign those incidents to the other users.
 -   The analyst can delete the security incidents.
 -   The analyst can create a new security incident.
--   The analyst can apply the quick filters. Apply the filters by clicking on the **Quick Filters** option instead of using the advance **Filter** option. Using the quick filters, you can quickly filter the list of security incidents that needs immediate attention. For more information, see [Working with quick filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-quick-filters.md).
+-   The analyst can apply the quick filters. Apply the filters by clicking on the **Quick Filters** option instead of using the advance **Filter** option. Using the quick filters, you can quickly filter the list of security incidents that needs immediate attention. For more information, see [Working with quick filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/configure-quick-filters.md).
 -   The analysts can refresh the list of incidents.
 -   The analyst can export the list view to Excel, CSV, JSON, and PDF formats.
 
@@ -102,7 +104,7 @@ View the list of response tasks and navigate to the desired response task to sta
 -   The analyst can create a new response task.
 -   The analyst can apply the quick filters. Apply the filters by clicking on the **Quick Filters** option instead of using the advance **Filter** option. Using the quick filters, you can quickly filter the list of response tasks that needs immediate attention.
 -   The analysts can refresh the list of response tasks.
--   The analyst can export the list view to Excel, CSV, JSON, and PDF formats. For more information, see [Export Security Incidents or Response Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/export-security-incidents-or-response-tasks.md).
+-   The analyst can export the list view to Excel, CSV, JSON, and PDF formats. For more information, see [Export Security Incidents or Response Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/export-security-incidents-or-response-tasks.md).
 
 </td></tr><tr><td>
 
@@ -114,7 +116,7 @@ View the list of all Phishing emails. The list view will be sorted based on the 
 
 </td><td>
 
--   Report Phishing Email. For more information, see [Report Phish Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/report-phish-email.md) on how to report a phishing email.
+-   Report Phishing Email. For more information, see [Report Phish Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/report-phish-email.md) on how to report a phishing email.
 -   Delete phishing emails.
 -   Export the phishing emails list view to Excel, CSV, JSON, and PDF formats.
 
@@ -132,26 +134,26 @@ View the list of assessments needed to perform post incident review.-   **My pen
 Take assessments.
 
 </td></tr></tbody>
-</table>-   **[Personalize a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/personalize-a-list.md)**  
+</table>-   **[Personalize a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/personalize-a-list.md)**  
 Security analysts or managers can personalize the security incidents or response tasks or phishing emails custom list view based on their individual preferences.
--   **[Apply quick filters on Security Incidents and Response Tasks lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/use-quick-filters-for-security-incidents.md)**  
+-   **[Apply quick filters on Security Incidents and Response Tasks lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/use-quick-filters-for-security-incidents.md)**  
 Apply the predefined quick filters on Security Incidents and Response Tasks lists to get the desired work items.
--   **[Assign Security Incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/assign-security-incident.md)**  
+-   **[Assign Security Incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/assign-security-incident.md)**  
 Assign security incidents.
--   **[Close multiple security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/close-multiple-incidents-sir.md)**  
+-   **[Close multiple security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/close-multiple-incidents-sir.md)**  
 Close multiple security incidents at the same time to avoid having to close related incidents individually, such as incidents created with a common root cause or false positive incidents.
--   **[Assign Response Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/assign_response_tasks.md)**  
+-   **[Assign Response Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/assign_response_tasks.md)**  
 Assign Response tasks for a security issue.
--   **[Report Phish Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/report-phish-email.md)**  
+-   **[Report Phish Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/report-phish-email.md)**  
 Report phishing emails from the lists view.
--   **[Working with quick filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-quick-filters.md)**  
+-   **[Working with quick filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/configure-quick-filters.md)**  
 Quick filters are easily accessible filters that are available on, security incidents and response tasks lists.
--   **[Export Security Incidents or Response Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/export-security-incidents-or-response-tasks.md)**  
+-   **[Export Security Incidents or Response Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/export-security-incidents-or-response-tasks.md)**  
 Export the security incidents or response tasks from the list view.
--   **[Manage Shift Handover records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/manage-shift-handover-records.md)**  
+-   **[Manage Shift Handover records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/manage-shift-handover-records.md)**  
 Use the Shift Handover records list view to create, edit, copy, or delete Shift Handover records. Each Shift Handover record is associated with a Shift Handover Report Template.
 
-**Parent Topic:**[Exploring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/exploring-security-incident-response-workspace.md)
+**Parent Topic:**[Exploring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/exploring-security-incident-response-workspace.md)
 
 **Related topics**  
 

@@ -3,9 +3,9 @@ title: Using the order orchestration UI
 description: By using the order orchestration user interface \(UI\), you can make sure that you do all the tasks that are required to fulfill your customer orders. You can also view the complete order hierarchy, the status of the associated decomposed orders, the order line items, and the order tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/orchestration-plans-for-order-fulfillment.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Order orchestration, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -54,14 +54,14 @@ If the same customer also orders an optional SD-WAN Security product for each lo
 
 To initiate the fulfillment process for a multi-site order, the Order Management application decomposes the order into multiple domain orders for fulfillment. The domain orders are the product, service, and resource orders that are generated during decomposition. Each decomposed order has a corresponding fulfillment flow with several order tasks. To fulfill an order by the delivery dates that you promise to your customer, you must complete all the related domain orders and resolve all the related order tasks on time.
 
-**Parent Topic:**[Order orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-orchestration.md)
+**Parent Topic:**[Order orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-orchestration.md)
 
 **Related topics**  
 
 
-[Order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reviewing-orchestration-plans-order-fulfillment.md)
+[Order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/reviewing-orchestration-plans-order-fulfillment.md)
 
-[Review an order orchestration plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/review-order-fulfillment-orchestration-plan.md)
+[Review an order orchestration plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/review-order-fulfillment-orchestration-plan.md)
 
-[Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/fallout-management-overview.md)
+[Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/fallout-management-overview.md)
 

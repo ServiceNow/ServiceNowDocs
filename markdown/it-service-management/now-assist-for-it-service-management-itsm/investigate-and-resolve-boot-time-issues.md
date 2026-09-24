@@ -3,11 +3,11 @@ title: Investigate boot time issues
 description: Identify the root cause of boot time issues and get resolutions such as remedial actions, self-help instructions, and relevant knowledge articles to resolve the boot time issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/investigate-and-resolve-boot-time-issues.html
-release: australia
+release: brazil
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
@@ -34,7 +34,7 @@ You can view boot time metrics in two locations: the **Insights** page and the *
 
 **Tip:** To view boot time on the **Insights** page, go to **Digital Employee Experience** &gt; **Insights** and select **System Time**. Review the **Boot time** and **Last boot timestamp** columns.
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 

@@ -3,11 +3,11 @@ title: View Configuration Compliance tests
 description: Use this module to research detailed information about these tests. Included are the expert source citations that were used when creating them, the third-party configuration policies in which they are used, and the results obtained from the scan.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/view-vuln-config-compl-tests.html
-release: australia
+release: brazil
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Reference, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
@@ -63,7 +63,7 @@ Result
 
 </td><td>
 
-Status of the scan. Pass or Fail. If this test belongs to multiple remediation tasks, then its state is determined following an [order of precedence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/vuln-config-compl-correlation.md).
+Status of the scan. Pass or Fail. If this test belongs to multiple remediation tasks, then its state is determined following an [order of precedence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/configuration-compliance/vuln-config-compl-correlation.md).
 
 </td></tr><tr><td>
 

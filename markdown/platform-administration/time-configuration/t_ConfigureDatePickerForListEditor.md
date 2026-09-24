@@ -3,11 +3,11 @@ title: Configure the date picker for the list editor
 description: A system property enables you to choose between two date picker configurations for the list editor.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/t\_ConfigureDatePickerForListEditor.html
-release: australia
+release: brazil
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Date and Date/Time fields, Explore, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -34,10 +34,10 @@ Role required: admin
     |true|Calendar only appears for a date picker, which is the default behavior in Core UI.|
 
 
-**Parent Topic:**[Date and Date/Time fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_UseDateAndTimeFields.md)
+**Parent Topic:**[Date and Date/Time fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/r_UseDateAndTimeFields.md)
 
 **Related topics**  
 
 
-[List editor administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/r_AdministeringTheListEditor.md)
+[List editor administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-administration/r_AdministeringTheListEditor.md)
 

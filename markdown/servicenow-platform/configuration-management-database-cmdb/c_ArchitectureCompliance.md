@@ -3,11 +3,11 @@ title: Architecture Compliance
 description: Architecture Compliance manages scheduled or on-demand audits of CMDB data to determine which configuration items \(CI\) match expected attributes. The compliance audits check servers to ensure that their physical resources, such as CPU speed or memory, comply with certain standards.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/c\_ArchitectureCompliance.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [CMDB Compliance, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---

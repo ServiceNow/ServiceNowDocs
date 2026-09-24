@@ -3,9 +3,9 @@ title: Using the activity stream in the Mobile Agent
 description: If you're a government service agent, you can access the activity stream from within the case card in the Mobile Agent. You can also communicate with requesters and make internal notes about the work on a record, which means that you can relay and track information more efficiently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-mobile-playbook-using-activity-stream.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mobile Agent, Use, Public Sector Digital Services \(PSDS\)]
 ---

@@ -3,11 +3,11 @@ title: Get Latest Response Text From Email action
 description: Provide the most recent reply or forward message in an e-mail chain to other actions in your flow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/get-latest-response-text-from-email-flow-designer.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Actions, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -57,5 +57,5 @@ String
 Body text for the most recent reply or forward message in the Email \[sys\_email\] record that you selected for the action's input.**Note:** If you select an Email \[sys\_email\] record with a Type of New for this action's input, the Latest Response Text output will be the entire body text of the e-mail.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
+</table>**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-actions.md)
 

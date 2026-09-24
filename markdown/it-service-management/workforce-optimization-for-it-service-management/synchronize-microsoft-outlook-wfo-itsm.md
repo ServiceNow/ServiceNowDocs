@@ -3,11 +3,11 @@ title: Synchronize agent calendar in Workforce Optimization for ITSM with the Mi
 description: Streamline the way that agents manage their calendar so that they can view their schedule in one location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/synchronize-microsoft-outlook-wfo-itsm.html
-release: australia
+release: brazil
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up, Scheduling, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -24,8 +24,8 @@ When the two calendars are integrated, agents with the Shift Planning Agent \(sn
 
 **Note:** When you create events of type **Custom**, you must use extension points to synchronize the custom events in the two calendars.
 
--   **[Set up the Workforce Optimization for ITSM agent calendar integration with their Microsoft Outlook calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
+-   **[Set up the Workforce Optimization for ITSM agent calendar integration with their Microsoft Outlook calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)**  
 Display the schedules, shifts, and events from the agent's calendar also in their Microsoft Outlook calendar when you synchronize both the calendars.
 
-**Parent Topic:**[Setting up Scheduling in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-scheduling-configurable-workforce-optimization-itsm.md)
+**Parent Topic:**[Setting up Scheduling in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-scheduling-configurable-workforce-optimization-itsm.md)
 

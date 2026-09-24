@@ -3,9 +3,9 @@ title: Configure related party configurations
 description: Configure the responsibilities of your retail staff by linking related party entity responsibilities to responsibility definitions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-configure-titles-labels.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Retail]
 ---
@@ -35,7 +35,7 @@ Area, regional, or store managers can be given any type of responsibility.
 
 You can add, remove, or change the responsibilities associated with your users. ServiceNow recommends that you create a new related party configuration instead of modifying existing configurations.
 
-For more information, see the Organization Core responsibilities table in [Create related party configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/adding-related-party-config-to-case.md).
+For more information, see the Organization Core responsibilities table in [Create related party configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/adding-related-party-config-to-case.md).
 
 ## Procedure
 

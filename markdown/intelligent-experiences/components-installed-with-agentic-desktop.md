@@ -3,11 +3,11 @@ title: Components installed with AI Desktop Actions
 description: Several types of components are installed with activation of the sn\_desktop\_agents plugin, including user roles and tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/components-installed-with-agentic-desktop.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2025-11-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Reference, AI Desktop Actions, Enable AI experiences]
+breadcrumb: [Reference, AI Desktop Actions, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Components installed with AI Desktop Actions
@@ -369,5 +369,5 @@ Roles and permissions
 sys\_admin: Read
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Desktop Actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/agentic-desktop-reference.md)
+</table>**Parent Topic:**[AI Desktop Actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/agentic-desktop-reference.md)
 

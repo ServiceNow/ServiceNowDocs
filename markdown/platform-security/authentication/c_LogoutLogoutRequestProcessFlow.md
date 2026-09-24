@@ -3,11 +3,11 @@ title: Logout \(LogoutRequest\) process flow
 description: During logout, the instance issues the SAML 2.0 LogoutRequest service call to the IdP.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/c\_LogoutLogoutRequestProcessFlow.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SAML 2.0 concepts, SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---

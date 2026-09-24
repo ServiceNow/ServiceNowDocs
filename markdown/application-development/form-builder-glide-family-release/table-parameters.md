@@ -3,11 +3,11 @@ title: Table properties in Table Builder
 description: Various table and table column properties can be modified by using Table Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/form-builder-glide-family-release/table-parameters.html
-release: australia
+release: brazil
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Table Builder reference, Table Builder, Builder library, Developing your application, Building applications]
 ---
@@ -54,7 +54,7 @@ Type of information that the column contains. For example, to contain plain text
 
  Depending on the type that you select, fill in the additional fields to further define the table column. For example, if you select **String**, define the character limit of the string input. Or, if you select **Choice**, define the choices that users can choose from.
 
- See [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
+ See [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_FieldTypes.md).
 
 </td></tr><tr><td>
 
@@ -149,5 +149,5 @@ Application access controls
 2.  In the **Application Access Controls** field, select Read, Create, Update, and/or Delete selection boxes to specify the desired level of access for the table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Table Builder reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/fb-reference.md)
+</table>**Parent Topic:**[Table Builder reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/fb-reference.md)
 

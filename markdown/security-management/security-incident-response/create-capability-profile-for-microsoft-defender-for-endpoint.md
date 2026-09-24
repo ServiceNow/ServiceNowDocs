@@ -3,11 +3,11 @@ title: Create a capability profile for the Microsoft Defender for Endpoint integ
 description: Create a profile and select the Microsoft Defender for Endpoint capabilities that you want the profile to run.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-capability-profile-for-microsoft-defender-for-endpoint.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Microsoft Defender for Endpoint integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -109,5 +109,5 @@ Option to indicate that the profile is active. After the profile is active, the 
 
 ## What to do next
 
-The next step is to configure your profile. Before you configure the settings for the profile, you may prefer to review the how profiles and configured and triggering conditions. For more information, see [Trigger conditions in a configuration item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/trigger-conditions-configuration-item.md).
+The next step is to configure your profile. Before you configure the settings for the profile, you may prefer to review the how profiles and configured and triggering conditions. For more information, see [Trigger conditions in a configuration item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/trigger-conditions-configuration-item.md).
 

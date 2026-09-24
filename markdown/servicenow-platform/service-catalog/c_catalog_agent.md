@@ -3,11 +3,11 @@ title: Catalog Agent for Premium chat
 description: The Catalog Agent for Premium chat uses AI Agent conversation through ServiceNow Otto to guide requesters through a conversational catalog request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/c\_catalog\_agent.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-06-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [catalog agent, agentic AI, Catalog Builder, conversational catalog request]
 breadcrumb: [Conversational catalog item requests, Conversational Catalog Requests, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
@@ -40,5 +40,5 @@ Consider the following when using the Catalog Agent:
 -   ServiceNow Otto must be active on the instance for the Catalog Agent to function.
 -   AI-generated responses during the conversation reflect the information provided by the requester. Catalog managers must review variable mappings to verify the Catalog Agent collects the correct data for each item.
 
-**Parent Topic:**[Conversational catalog item requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/explore.md)
+**Parent Topic:**[Conversational catalog item requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/explore.md)
 

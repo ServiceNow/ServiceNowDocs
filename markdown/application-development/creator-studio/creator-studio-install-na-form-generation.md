@@ -3,13 +3,13 @@ title: Install ServiceNow Otto for Creator for form generation in Creator Studio
 description: Install the ServiceNow Otto for Creator application from the ServiceNow Store to get AI in Creator Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-install-na-form-generation.html
-release: australia
+release: brazil
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-07-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Form generation, Configure, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Form generation, Configure, Creator Studio, Developing your application, Building applications]
 ---
 
 # Install ServiceNow Otto for Creator for form generation in Creator Studio
@@ -40,14 +40,14 @@ Role required: admin
 
     3.  On the Service Catalog card, verify that the catalog item generation skill is active.
 
-        **Note:** If the Service Catalog card displays **Not started** or **Inactive** for the catalog item generation skill, you must activate it. To learn more, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
+        **Note:** If the Service Catalog card displays **Not started** or **Inactive** for the catalog item generation skill, you must activate it. To learn more, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
 
-    For more information about using the AI Admin Hub to access information about setting up, configuring, and monitoring ServiceNow Otto applications, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
+    For more information about using the AI Admin Hub to access information about setting up, configuring, and monitoring ServiceNow Otto applications, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-now-assist.md).
 
 
 ## What to do next
 
-Grant the now.assist.creator role to the Creator Studio users to create forms using AI in Creator Studio. To learn more, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignARoleToAUser.md) and [Creator Studio roles and personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/roles-creator-studio.md).
+Grant the now.assist.creator role to the Creator Studio users to create forms using AI in Creator Studio. To learn more, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignARoleToAUser.md) and [Creator Studio roles and personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/roles-creator-studio.md).
 
-**Parent Topic:**[Configuring form generation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-configure-now-assist.md)
+**Parent Topic:**[Configuring form generation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-configure-now-assist.md)
 

@@ -3,9 +3,9 @@ title: Create custom metric type
 description: Create your own custom metric type if you don’t find the metric type that you want in Survey Designer while designing surveys.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/create-custom-templates-questions.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Survey designer, Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,18 +30,18 @@ You can use the Custom Metric Type module for surveys to create the custom metri
 
 3.  On the Custom Metric form, fill in the fields.
 
-    For a description of the field values, see [Custom Metric form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/custom-metric-form-fields.md).
+    For a description of the field values, see [Custom Metric form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/custom-metric-form-fields.md).
 
 4.  Select **Submit**.
 
     **Note:**
 
     -   Updating or deleting existing values in the **Macro**, **Widget**, and **Result type** fields might cause inconsistent effects.
-    -   The custom metric type that you created doesn’t appear for the public surveys. To make it visible for the public surveys, open the Service Portal configuration and configure your survey widget to make it public. For more information about configuring widget security, see [Configure widget security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-widget-security.md).
+    -   The custom metric type that you created doesn’t appear for the public surveys. To make it visible for the public surveys, open the Service Portal configuration and configure your survey widget to make it public. For more information about configuring widget security, see [Configure widget security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-widget-security.md).
     -   If the custom metric type is inactive or deleted, the question is not rendered on the survey form.
     -   If the value in the **Macro** or **Widget** field is updated, the updated value is used to render a survey form even if an instance was created before updating the values for macros or widgets.
 
-**Parent Topic:**[Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md)
+**Parent Topic:**[Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SurveyDesigner.md)
 
 **Related topics**  
 

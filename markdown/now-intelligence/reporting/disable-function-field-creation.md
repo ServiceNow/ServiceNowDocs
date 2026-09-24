@@ -3,11 +3,11 @@ title: Disable function field creation
 description: Configure a system property to remove the ability to create function fields in the Report Designer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/disable-function-field-creation.html
-release: australia
+release: brazil
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Report on function fields, Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -37,5 +37,5 @@ Role required: admin.
 
 The option to configure function fields doesn’t appear in the Report Designer for any user.
 
-**Parent Topic:**[Report on function fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/function-fields-reporting.md)
+**Parent Topic:**[Report on function fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/function-fields-reporting.md)
 

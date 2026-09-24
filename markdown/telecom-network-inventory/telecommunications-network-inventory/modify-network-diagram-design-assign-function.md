@@ -3,11 +3,11 @@ title: Modify the Design and Assign function layout
 description: Modify the Design and Assign function layout in the Telecommunications Network Inventory application by configuring the endpoint. You can create the layout according to your network service requirement
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/modify-network-diagram-design-assign-function.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Design and Assign function, Configure, Telecommunications Network Inventory]
 ---
@@ -35,5 +35,5 @@ By default, the Design and assign function layout shows three sections such as a
 4.  Select **Update**.
 
 
-**Parent Topic:**[Configuring Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)
+**Parent Topic:**[Configuring Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)
 

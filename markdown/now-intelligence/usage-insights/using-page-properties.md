@@ -3,11 +3,11 @@ title: Using page properties
 description: Filter a page detail page by one or more page properties to see how usage differs across page attributes such as owner, category, or load time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/using-page-properties.html
-release: australia
+release: brazil
 product: Usage Insights
 classification: usage-insights
 topic_type: task
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Using page properties]
 breadcrumb: [Page properties analytics, Viewing session analytics, Using Usage Insights, Usage Insights, Platform Analytics]
@@ -70,5 +70,5 @@ Filters apply to the entire page detail page. When you apply a page property fil
 
 The page detail view reports usage for the filtered subset of page occurrences only.
 
-**Parent Topic:**[Page properties analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/page-properties-analytics.md)
+**Parent Topic:**[Page properties analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/usage-insights/page-properties-analytics.md)
 

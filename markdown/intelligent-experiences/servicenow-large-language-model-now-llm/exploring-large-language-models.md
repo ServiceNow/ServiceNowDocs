@@ -3,13 +3,13 @@ title: Large language models on the ServiceNow AI Platform
 description: ServiceNow AI Platform utilises large language models \(LLM\) for generative AI and agentic AI functionality. You can choose the ServiceNow LLM or supported third-party models. LLMs bring about the Generative AI application capabilities by understanding and generating human language, and processing vast amount of data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.html
-release: australia
+release: brazil
 product: ServiceNow Large Language Model \(Now LLM\)
 classification: servicenow-large-language-model-now-llm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Enable AI experiences]
+breadcrumb: [Large language models and providers, Enable AI Experiences]
 ---
 
 # Large language models on the ServiceNow AI Platform
@@ -105,29 +105,29 @@ Claude 3.7 Sonnet
 
 ## Large language model selection
 
-This selection is supported at various levels such as, skill, skill group and instance levels. However, the controls that define LLMs mapping to different skills, allowed at various global locations, are configured and approved in AI Control Tower by the AI steward. The model provider options for custom skills created in Now Assist skill kit and AI Agent Studio are also configured in AI Control Tower. See [Configure third-party LLMs using AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/configure-third-party-llms-using-ai-control-tower.md) to learn more.
+This selection is supported at various levels such as, skill, skill group and instance levels. However, the controls that define LLMs mapping to different skills, allowed at various global locations, are configured and approved in AI Control Tower by the AI steward. The model provider options for custom skills created in Now Assist skill kit and AI Agent Studio are also configured in AI Control Tower. See [Configure third-party LLMs using AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/configure-third-party-llms-using-ai-control-tower.md) to learn more.
 
 The **Manage large language models** feature enables the admin persona to perform additional actions like:
 
 -   Edit the model provider at the instance, skill group and skill levels
--   Deactivate active skills which are non-compliant with fallback as **No**. See [AI model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to learn more.
+-   Deactivate active skills which are non-compliant with fallback as **No**. See [AI model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-model-providers.md) to learn more.
 -   View audit history on policy updates by AI steward in AI Control Tower
 -   Select allowed model providers across domain separated instances.
 
-See [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md) to learn about managing.
+See [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/manage-large-language-models.md) to learn about managing.
 
-For more information on selecting and updating model providers, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-model-providers.md).
+For more information on selecting and updating model providers, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/edit-model-providers.md).
 
--   **[Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/now-llm-model-updates.md)**  
+-   **[Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/now-llm-model-updates.md)**  
 Review these updates to learn which model providers and models are available for your skills and agents. Review the model cards for information about how each model is intended to be used.
--   **[General guidelines for writing instructions for generative AI large language models \(LLMs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/llm-instruction-guidelines.md)**  
+-   **[General guidelines for writing instructions for generative AI large language models \(LLMs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/llm-instruction-guidelines.md)**  
 When using Now Assist products and skills, you may have the option to give specific instructions or other guidance to the LLM. Writing generative AI instructions is different from conducting a keyword search. Use the following general guidelines when crafting your instructions.
--   **[Long term stable models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/long-term-stable-models.md)**  
+-   **[Long term stable models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/long-term-stable-models.md)**  
 Long term stable \(LTS\) models support regulated industries, such as financial institutions, with stronger AI lifecycle management, governance, transparency, and compliance tools.
--   **[Discrepancies when using different AI search tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/aisearch-differences.md)**  
+-   **[Discrepancies when using different AI search tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/aisearch-differences.md)**  
 Different AI search tools may return different answers for the same or similar searches. This difference in results is expected. It occurs because each large language model \(LLM\) uses a different approach to find results and generate answers that match your search.
--   **[Providers and Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/providers-and-models.md)**  
+-   **[Providers and Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/providers-and-models.md)**  
 You can bring your own large language model \(LLM\) provider and API to use with Now Assist.
 
-**Parent Topic:**[Enable AI experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-products.md)
+**Parent Topic:**[Large language models and providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platai-large-language-models-providers.md)
 

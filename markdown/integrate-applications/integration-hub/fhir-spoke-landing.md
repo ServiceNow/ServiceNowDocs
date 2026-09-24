@@ -3,7 +3,7 @@ title: HL7 FHIR Spoke
 description: Integrate ServiceNow with any HL7 FHIR R4-conformant server. The HL7 FHIR Spoke gives Workflow Studio authors a typed, paginated, error-handled way to read FHIR R4 provider-directory resources — Organization, Location, Practitioner, and PractitionerRole — from your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/fhir-spoke-landing.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
@@ -27,6 +27,10 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 ## Integration Hub subscription
 
 This spoke requires an Integration Hub subscription. For more information, see [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
+
+## Spoke version
+
+HL7 FHIR Spoke v2.0.0 is the latest version. For version history of the spoke, see [HL7 FHIR Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-hl7-fhir-spoke.html?contentId=v38STcRtksTASS8uRyyy1g).
 
 ## Supported versions
 
@@ -63,15 +67,15 @@ The HL7 FHIR Spoke provides actions to read FHIR R4 provider-directory resources
 |PractitionerRole Management|Look up PractitionerRole by ID|Retrieves a single FHIR PractitionerRole resource by its logical ID.|
 |Look up PractitionerRoles Stream|Searches and streams PractitionerRole resources with automatic pagination.|
 
-All actions are read-only \(HTTP GET\). Write operations, real-time event triggers such as CDS Hooks or FHIR subscriptions, and FHIR resources beyond the four provider-directory resources are out of scope. For the inputs and outputs of each action, see [HL7 FHIR Spoke actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/fhir-spoke-actions.md).
+All actions are read-only \(HTTP GET\). Write operations, real-time event triggers such as CDS Hooks or FHIR subscriptions, and FHIR resources beyond the four provider-directory resources are out of scope. For the inputs and outputs of each action, see [HL7 FHIR Spoke actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/fhir-spoke-actions.md).
 
 **Note:** Spoke actions return raw FHIR field values; the consuming flow owns all persistence and field mapping.
 
 ## Connection and credential alias requirements
 
-Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r-credentials.md).
+Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r-credentials.md).
 
 All eight actions route through a single Connection &amp; Credential Alias named `HL7 FHIR`, so the FHIR server URL and OAuth credentials are bound once at install time and reused by every action.
 
-For information about setting up the spoke, see [Activate the HL7 FHIR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/fhir-spoke-activate.md).
+For information about setting up the spoke, see [Activate the HL7 FHIR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/fhir-spoke-activate.md).
 

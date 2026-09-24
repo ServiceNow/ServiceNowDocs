@@ -3,11 +3,11 @@ title: Activate flow reporting
 description: Choose whether to generate execution details for all flows and actions run, just for individual flows and actions, or just when you test a flow or action. Specify the level of detail the execution details contain.Generate execution details for an individual flow, subflow, or action every time it runs, not just during testing.Generate execution details for all items that Workflow Studio runs rather than just generating execution details during testing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/enable-flow-reporting.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Flow administration, Configure flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Flow administration, Configure flows, Flows, subflows, and actions,
 
 Choose whether to generate execution details for all flows and actions run, just for individual flows and actions, or just when you test a flow or action. Specify the level of detail the execution details contain.
 
-**Parent Topic:**[Flow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-administration.md)
+**Parent Topic:**[Flow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-administration.md)
 
 ## Activate reporting for an individual flow, subflow, or action
 

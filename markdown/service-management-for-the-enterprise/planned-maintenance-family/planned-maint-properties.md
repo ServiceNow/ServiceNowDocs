@@ -3,11 +3,11 @@ title: Property settings for Planned Maintenance
 description: You configure Planned Maintenance properties at Planned Maintenance Properties .
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/planned-maintenance-family/planned-maint-properties.html
-release: australia
+release: brazil
 product: Planned Maintenance \(Family\)
 classification: planned-maintenance-family
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing maintenance plans, Planned Maintenance, Service Management]
 ---
@@ -43,5 +43,5 @@ Preserve the calculated interval trigger. See the illustration.
 </td></tr></tbody>
 </table>\[Omitted image "property-preserve-calc.png"\] Alt text: Properties controlling trigger calculation
 
-**Parent Topic:**[Managing maintenance plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/planned-maintenance-family/c_MaintPlanMgmt.md)
+**Parent Topic:**[Managing maintenance plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-management-for-the-enterprise/planned-maintenance-family/c_MaintPlanMgmt.md)
 

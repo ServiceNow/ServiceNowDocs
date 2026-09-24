@@ -3,9 +3,9 @@ title: Modifying data retention and table cleanup policy for Lead-to-Cash Proces
 description: Modify the default data retention and table cleanup policy for Lead-to-Cash Process Management to match your organizations requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/modifying-table-cleanup-policy-l2c-process-management.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Lead-to-Cash Process Management, Order operations apps, Configure, Sales Customer Relationship Management]
 ---
@@ -21,12 +21,12 @@ By default, records are deleted from the Business Process Record \[sn\_bo\_core\
 
 You can modify the data retention and table cleanup policy depending on your expected load and volume.
 
-To find out how to modify the data retention and table cleanup frequency for Lead-to-Cash Process Management, see [Modify data retention policy for ATF test results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/atf-edit-table-cleanup.md).
+To find out how to modify the data retention and table cleanup frequency for Lead-to-Cash Process Management, see [Modify data retention policy for ATF test results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/atf-edit-table-cleanup.md).
 
 **Related topics**  
 
 
-[Table cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/table-cleanup.md)
+[Table cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/table-cleanup.md)
 
-[Autoflush form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/atf-auto-flush.md)
+[Autoflush form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/atf-auto-flush.md)
 

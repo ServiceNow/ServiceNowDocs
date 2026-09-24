@@ -3,11 +3,11 @@ title: Prefill in conversational catalog request
 description: The generalized prefill capability for conversational catalog request automatically populates catalog item form fields using data sourced from the requesting user's profile and from the active chat conversation history. This reduces manual data entry for requesters, improves form completion accuracy, and accelerates time-to-submission for service requests raised through the conversational interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/prefill-in-conversational-catalog-request.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-04-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [LLM topic blocks, Conversational Catalog Requests reference, Conversational Catalog Requests, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -34,10 +34,10 @@ In conversational catalog requests, the system extracts contextual information s
 -   Stated an urgency or preferred resolution date, those values prefill date or priority fields on the catalog item.
 -   Described a business justification or request reason earlier in the conversation, that text prefills a description or justification variable.
 
-**Parent Topic:**[LLM topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/llm-topic-blocks-reference.md)
+**Parent Topic:**[LLM topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/llm-topic-blocks-reference.md)
 
 **Related topics**  
 
 
-[Prefilling variable values on the catalog item form in the portal and Next Experience UIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/prefill-variable-values-catalog-item-form.md)
+[Prefilling variable values on the catalog item form in the portal and Next Experience UIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/prefill-variable-values-catalog-item-form.md)
 

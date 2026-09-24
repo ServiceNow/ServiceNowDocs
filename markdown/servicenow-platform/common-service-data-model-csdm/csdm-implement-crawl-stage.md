@@ -3,11 +3,11 @@ title: CSDM implementation stage — Crawl
 description: In the Crawl stage, you work on base-system CMDB tables that are associated with IT Service Management \(ITSM\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/common-service-data-model-csdm/csdm-implement-crawl-stage.html
-release: australia
+release: brazil
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Implement, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -40,7 +40,7 @@ During this stage, you work on the following base-system CMDB tables:
 -   Application \[cmdb\_ci\_appl\] table \(discoverable\)
 -   Server/host \(discoverable\)
 
-**Note:** Some of the classes that you implement in this stage are logical CIs. Logical CIs aren’t created through Discovery, so their **Model ID** values might not refer to product model \(application model, service model, or software model\) records. To help you to migrate to a product-centric management paradigm, each instance of a logical CI should be associated with a product model. See [Auto-generate product models for logical CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-auto-create-prod-model-for-ci.md).
+**Note:** Some of the classes that you implement in this stage are logical CIs. Logical CIs aren’t created through Discovery, so their **Model ID** values might not refer to product model \(application model, service model, or software model\) records. To help you to migrate to a product-centric management paradigm, each instance of a logical CI should be associated with a product model. See [Auto-generate product models for logical CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-auto-create-prod-model-for-ci.md).
 
 \[Omitted image "implementation-stage-crawl.png"\] Alt text: Tables that you work on during the Crawl stage.
 
@@ -54,7 +54,7 @@ Start by focusing on applications and the application-related data in these area
 
 -   **Agile Development Component \[cmdb\_ci\_sdlc\_component\] table**
 
-    An AGILE DEVELOPMENT component is a CI that represents a unique development effort of code. It represents parts of a larger business application or digital product broken down into its individually developed components. In other words, the AGILE DEVELOPMENT component is a software element of a larger application or technology. AGILE DEVELOPMENT component CI records in the AGILE DEVELOPMENT Component \[cmdb\_ci\_sdlc\_component\] table enable the DevOps product to provide enhanced capabilities for visualizing and managing your application development pipeline.
+    An Agile development component is a CI that represents a unique development effort of code. It represents parts of a larger business application or digital product broken down into its individually developed components. In other words, the Agile development component is a software element of a larger application or technology. Agile development component CI records in the Agile Development Component \[cmdb\_ci\_sdlc\_component\] table enable the DevOps product to provide enhanced capabilities for visualizing and managing your application development pipeline.
 
     The table represents the software part or element of a larger whole for applications and infrastructure. Related material may serve as representative of developmental details. It can be used if you must identify the stratification of a business application or digital product.
 
@@ -70,18 +70,18 @@ Start by focusing on applications and the application-related data in these area
 
     Because service instances are logical in nature, they should use the Logical life-cycle value pairs. Service instances follow the same life-cycle guidance as any other logical CI.
 
-    See [Use Service instance \(Application Services\) dashboard to monitor health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.md).
+    See [Use Service instance \(Application Services\) dashboard to monitor health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.md).
 
 -   **Application \[cmdb\_ci\_appl\] table**
 
     An application is a base-system CMDB table that represents the discoverable instance of an application: code related to a process in use on a host. This table isn't an inventory of your applications. Because of the high level of complexity involved, don't try to manually populate the application table. Discovery creates and maintains this table.
 
-    **Important:** The application table \[cmdb\_ci\_appl\] isn't an inventory or portfolio of your applications. Don't make the mistake of storing managed application details in the application table. Those details \(inventory or application portfolio objects\) belong in the business application table \(as documented in [Design &amp; Planning domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/design-domain.md)\).
+    **Important:** The application table \[cmdb\_ci\_appl\] isn't an inventory or portfolio of your applications. Don't make the mistake of storing managed application details in the application table. Those details \(inventory or application portfolio objects\) belong in the business application table \(as documented in [Design &amp; Planning domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/design-domain.md)\).
 
     The application might be identified as the root cause of an incident. However, if you're not using Event Management, the application might not be the initial cause.
 
     If you're using Discovery, applications are automatically related to their host, which provides an impact hierarchy from server-to-host applications.
 
 
-**Parent Topic:**[Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-implementation-stages.md)
+**Parent Topic:**[Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-implementation-stages.md)
 

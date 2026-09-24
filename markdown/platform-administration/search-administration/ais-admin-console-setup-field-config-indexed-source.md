@@ -3,14 +3,14 @@ title: Set up a field configuration for an indexed source
 description: Set up indexed source field configurations to control how AI Search indexes content for a specific field in your source table records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/ais-admin-console-setup-field-config-indexed-source.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Managing indexed sources from the AI Search Admin console, Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Managing indexed sources, Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Set up a field configuration for an indexed source
@@ -23,7 +23,7 @@ Role required: ais\_admin
 
 ## About this task
 
-A field setting controls the indexing behavior for a specified field \(column\) on all records from an indexed source. For more information, see [Field settings for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/field-settings-ais.md).
+A field setting controls the indexing behavior for a specified field \(column\) on all records from an indexed source. For more information, see [Field settings for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/field-settings-ais.md).
 
 ## Procedure
 
@@ -125,7 +125,7 @@ The new field setting appears in the Field configurations section.
 
 ## What to do next
 
-To make the new field configurations take effect, perform a full table reindex for the indexed source. For more information, [Index the content from an indexed source for searchability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ais-admin-console-start-content-indexing.md) see
+To make the new field configurations take effect, perform a full table reindex for the indexed source. For more information, [Index the content from an indexed source for searchability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/ais-admin-console-start-content-indexing.md) see
 
-**Parent Topic:**[Managing indexed sources from the AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ais-managing-indexed-source.md)
+**Parent Topic:**[Managing indexed sources from the AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/ais-managing-indexed-source.md)
 

@@ -3,11 +3,11 @@ title: Link an item to the hardware catalog
 description: After you create a vendor catalog item, link the item to the hardware catalog for viewing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/product-catalog/t\_LinkAnItemToTheHardwareCatalog.html
-release: australia
+release: brazil
 product: Product Catalog
 classification: product-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a vendor catalog item, Vendor catalog items, Product Catalog, Common applications, Asset Management]
 ---
@@ -39,7 +39,7 @@ To see the **Link to Hardware Catalog Item** related link on the Vendor Catalog 
     The page refreshes to the selected hardware catalog item. The vendor catalog item is listed in the **Vendor Catalog Items** related list.
 
 
-**Parent Topic:**[Create a vendor catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/t_CreateAVendorCatalogItem.md)
+**Parent Topic:**[Create a vendor catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/product-catalog/t_CreateAVendorCatalogItem.md)
 
 **Related topics**  
 

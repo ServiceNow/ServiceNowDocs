@@ -3,9 +3,9 @@ title: Configure SSO for Amazon Connect integration
 description: Configure Single Sign-On \(SSO\) between Amazon Connect and ServiceNow so that agents authenticated through a shared identity provider \(IdP\) are automatically signed into the Amazon Connect Softphone without a second login.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configure-sso-with-amazon-connect.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Amazon Connect SSO, single sign-on, SAML, SSO Login URL]
 breadcrumb: [Amazon Connect SSO integration with ServiceNow, Integrate ServiceNow Voice with Amazon Connect, Integrating Voice with other applications, ServiceNow Voice, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
@@ -78,5 +78,5 @@ This task covers the three configuration areas required to enable SSO between Se
 
 After configuration, agents who are authenticated in ServiceNow through the shared IdP are automatically signed into Amazon Connect when they open the softphone. No second login is required.
 
-**Parent Topic:**[Amazon Connect SSO integration with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/amazon-connect-sso-integration-with-servicenow.md)
+**Parent Topic:**[Amazon Connect SSO integration with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/amazon-connect-sso-integration-with-servicenow.md)
 

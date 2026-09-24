@@ -3,11 +3,11 @@ title: Microsoft 365 integration
 description: Create an integration with Microsoft 365 to download subscription information that is compared with software installations for compliance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/microsoft-o365.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -53,7 +53,7 @@ SAM managers can perform the following actions:
 -   Get user subscription information for all the Microsoft 365 plans purchased on the Microsoft 365 admin center, such as Microsoft Office 365, Microsoft 365.
 -   Determine license compliance of Microsoft 365 subscriptions by reconciling user subscription, entitlement, and software installations.
 -   View active, inactive, and unassigned subscriptions by their last activity date.
--   Get user activity for individual Microsoft Office 365 software products within Microsoft 365 subscriptions. For more information, see [Evaluating software usage activity for Microsoft 365 subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/o365-usage-activity.md).
+-   Get user activity for individual Microsoft Office 365 software products within Microsoft 365 subscriptions. For more information, see [Evaluating software usage activity for Microsoft 365 subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/o365-usage-activity.md).
 -   Get user activity with device-specific activation count details from the Microsoft 365 admin portal that helps in identifying users who have activated their Microsoft subscriptions on at least one device. The activation count also helps SAM managers accurately determine the total number of activations across both desktops and devices.
 -   Receive automated optimization recommendations and workflows for your Microsoft 365 subscriptions. These optimizations include suggestions for downgrading plans, addressing low usage, identifying overlapping licenses, and consolidating subscriptions.
 -   Determine potential savings while acting on the recommendation.
@@ -62,9 +62,9 @@ SAM managers can perform the following actions:
 **Related topics**  
 
 
-[Integrating with Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/integrate-with-microsoft.md)
+[Integrating with Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/integrate-with-microsoft.md)
 
-[Evaluating software usage activity for Microsoft 365 subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/o365-usage-activity.md)
+[Evaluating software usage activity for Microsoft 365 subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/o365-usage-activity.md)
 
-[Publisher optimizations for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/pub-opt-microsoft.md)
+[Publisher optimizations for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/pub-opt-microsoft.md)
 

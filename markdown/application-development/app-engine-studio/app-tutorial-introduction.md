@@ -3,13 +3,13 @@ title: Planning your application
 description: Plan out your application before building it in App Engine Studio to streamline the development process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/app-tutorial-introduction.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [App creation tutorial, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [App creation tutorial, Build, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Planning your application
@@ -30,7 +30,7 @@ Step 1
 
 </td><td>
 
-[Planning your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-introduction.md)
+[Planning your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-introduction.md)
 
 </td></tr><tr><td>
 
@@ -42,7 +42,7 @@ Step 2
 
 </td><td>
 
-[Create an app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-an-app.md)
+[Create an app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-create-an-app.md)
 
 </td></tr><tr><td>
 
@@ -54,7 +54,7 @@ Step 3
 
 </td><td>
 
-[Building a data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-data-model.md)
+[Building a data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-data-model.md)
 
 </td></tr><tr><td>
 
@@ -66,7 +66,7 @@ Step 4
 
 </td><td>
 
-[Creating user experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-experience-layer.md)
+[Creating user experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-experience-layer.md)
 
 </td></tr><tr><td>
 
@@ -78,7 +78,7 @@ Step 5
 
 </td><td>
 
-[Adding logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-logic-automation-layer.md)
+[Adding logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-logic-automation-layer.md)
 
 </td></tr><tr><td>
 
@@ -90,7 +90,7 @@ Step 6
 
 </td><td>
 
-[Test your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-test-app.md)
+[Test your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-test-app.md)
 
 </td></tr></tbody>
 </table>\[Omitted video\] Description: Introduction to the app creation tutorial series. Learn how to develop a plan for your application before building it by identifying your application use case, visualizing your app workflow, and outlining your user and data needs.
@@ -105,7 +105,7 @@ Step 6
 
 Start by identifying the use case for your application. In our tutorial, we’re creating an application to manage employee travel requests for an organization. The app automates the entire travel request process and involves users such as employees, managers, regional heads, and travel desk agents as needed.
 
-Consider the problem that you aim to solve with your application. To determine if your use case is a good fit for the tools featured in this tutorial, see [Plan your app development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/before-you-begin.md).
+Consider the problem that you aim to solve with your application. To determine if your use case is a good fit for the tools featured in this tutorial, see [Plan your app development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/before-you-begin.md).
 
 ## Step 2: Visualize the workflow for your application
 
@@ -147,14 +147,14 @@ Use the following prompts to outline the functional requirements for your applic
 
 4.  Consider the roles and permissions for your application.
 
-    Roles determine whether users have access to application content. Permissions are the individual abilities that a user has within application content, such as creating, reading, updating, and deleting. You can determine the roles for your application and configure permissions for each role at a later step in the tutorial. For more information about roles in App Engine Studio, see [Configure AES personas and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-personas-roles.md).
+    Roles determine whether users have access to application content. Permissions are the individual abilities that a user has within application content, such as creating, reading, updating, and deleting. You can determine the roles for your application and configure permissions for each role at a later step in the tutorial. For more information about roles in App Engine Studio, see [Configure AES personas and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-personas-roles.md).
 
 5.  Think about how you want to organize the data collected by your application.
 
-    The data that your application collects is automatically stored in tables. You might want to organize the data across different tables, depending on the processes that your application completes. You can decide how you want to organize the data for your application a later step in the tutorial. For more information about data organization in App Engine Studio, see [Create a data model for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-data.md).
+    The data that your application collects is automatically stored in tables. You might want to organize the data across different tables, depending on the processes that your application completes. You can decide how you want to organize the data for your application a later step in the tutorial. For more information about data organization in App Engine Studio, see [Create a data model for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/add-data.md).
 
 
 ## Next steps
 
-Once you’ve developed a plan for your application, you can begin building the application in App Engine Studio. Proceed to the next step: [Create an app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-an-app.md).
+Once you’ve developed a plan for your application, you can begin building the application in App Engine Studio. Proceed to the next step: [Create an app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-create-an-app.md).
 

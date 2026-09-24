@@ -3,12 +3,12 @@ title: Integrating MCP server with third-party identity providers
 description: Configure the ServiceNow Model Context Protocol \(MCP\) server to authenticate users through a third-party identity provider \(IDP\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/integrating-mcp-server-with-third-party-identity-providers.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [MCP and third-party IDP]
-breadcrumb: [Connect, MCP Server Console, Enable AI experiences]
+breadcrumb: [Connect, MCP Server Console, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Integrating MCP server with third-party identity providers
@@ -39,17 +39,17 @@ The final phase is Integration and testing that involves connecting the MCP clie
 2.  Authenticate
 3.  Verify tool calls
 
--   **[ServiceNow\(Glide\) configuration for IDP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-configuration-for-idp.md)**  
+-   **[ServiceNow\(Glide\) configuration for IDP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-configuration-for-idp.md)**  
 This process involves setting up the necessary tables and mappings within your ServiceNow instance. This includes configuring ServiceNow, creating the MCP server, and connecting the MCP client.
--   **[Integrate and test IDP with MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrate-and-test-idp-with-mcp-server.md)**  
+-   **[Integrate and test IDP with MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/integrate-and-test-idp-with-mcp-server.md)**  
 This phase within integration of MCP server with IDP involves connecting the MCP client \(such as Claude Desktop\) to the configured systems.
 
-**Parent Topic:**[Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/connect-mcp-server-client.md)
+**Parent Topic:**[Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/connect-mcp-server-client.md)
 
 **Related topics**  
 
 
-[Integrate and test IDP with MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrate-and-test-idp-with-mcp-server.md)
+[Integrate and test IDP with MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/integrate-and-test-idp-with-mcp-server.md)
 
-[ServiceNow\(Glide\) configuration for IDP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-configuration-for-idp.md)
+[ServiceNow\(Glide\) configuration for IDP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-configuration-for-idp.md)
 

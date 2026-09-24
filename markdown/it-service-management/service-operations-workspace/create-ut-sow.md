@@ -3,11 +3,11 @@ title: Create a universal task for a universal request in Service Operations Wor
 description: Create a universal task for a request and assign it to the employee or create multiple tasks for a request by using Universal Task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/create-ut-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Universal Task in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -193,5 +193,5 @@ Information about how to resolve the Universal Task or steps taken to resolve it
     |**__Submit__**|Task is created. The state of the task remains New, and no notification is sent to the employee.|
 
 
-**Parent Topic:**[Universal Task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/using-ut-sow.md)
+**Parent Topic:**[Universal Task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/using-ut-sow.md)
 

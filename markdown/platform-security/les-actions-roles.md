@@ -3,9 +3,9 @@ title: Log Export Service actions and required roles
 description: Log Export Service uses role-based access control to restrict actions to authorized users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/les-actions-roles.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [log export service, LES, roles, permissions, actions, reference]
 breadcrumb: [Reference, Log Export Service \(LES\), Platform Security]
@@ -27,48 +27,50 @@ Log Export Service includes the following three primary roles:
 
 -   **sn\_logstoanalytics.admin**
 
-    Application administrator role. Installed with the LES application and allows a non-admin user to configure and use LES.
+    Application administrator role. Installed with the Log Export Service application and allows a non-admin user to configure and use Log Export Service.
 
 -   **admin**
 
-    System administrator role. Required to install the LES store application and to perform platform-level setup tasks.
+    System administrator role. Required to install the Log Export Service Store application and to perform platform-level setup tasks.
 
 -   **hermes\_admin**
 
-    Required to generate the certificates that secure the connection between LES and the Hermes Messaging Service.
+    Required to generate the certificates that secure the connection between Log Export Service and the Hermes Messaging Service.
 
 
-|Action|Description|Required roles|Instance Type|
-|------|-----------|--------------|-------------|
+|Action|Description|Required roles|Component|
+|------|-----------|--------------|---------|
 |Initial setup and configuration|
-|Install Log Export Service application|Install LES from the ServiceNow Store.|admin|Instance|
-|Review Hermes Messaging Service diagnostics|Verify that the Hermes Messaging Service is up and running, check connectivity, and view topics.|admin|Instance|
-|Run Kafka consumer guided setup|Step through the initial configuration of LES for an external Kafka consumer.|admin|Instance|
-|Run MID Server consumer guided setup|Step through the initial configuration of LES for a dedicated MID Server consumer.|admin|Instance|
+|Install Log Export Service application|Install Log Export Service from the ServiceNow Store.|admin|Instance|
+|Review Hermes Messaging Service diagnostics|Verify that the Hermes Messaging Service is running, check connectivity, and view topics.|admin|Instance|
+|Run Kafka consumer guided setup|Step through the initial configuration of Log Export Service for an external Kafka consumer.|admin|Instance|
+|Run MID Server consumer guided setup|Step through the initial configuration of Log Export Service for a dedicated MID Server consumer.|admin|Instance|
 |Log source configuration|
-|Create a log source configuration|Regulate and set filters on the logs to be forwarded by creating a source record for each log source.|admin, sn\_logstoanalytics.admin|Instance|
-|Create source type and multiple topics|Consume logs for each source type by creating multiple Kafka topics.|admin, sn\_logstoanalytics.admin|Instance|
-|Validate Log Producer|View live log records in a topic by using the Hermes Topic Inspector.|admin, sn\_logstoanalytics.admin|Instance|
+|Create a log source configuration|Regulate and set filters on the logs to be forwarded by creating a source record for each log source.|admin or sn\_logstoanalytics.admin|Instance|
+|Create source type and multiple topics|Consume logs for each source type by creating multiple Kafka topics.|admin or sn\_logstoanalytics.admin|Instance|
+|Validate Log Producer|View live log records in a topic by using the Hermes Topic Inspector.|admin or sn\_logstoanalytics.admin|Instance|
 |Kafka consumer configuration|
-|Generate certificates for Hermes secure connection|Generate the certificates required to authorize a client that pulls logs from the Hermes Messaging Service.|admin, hermes\_admin|Instance|
+|Generate certificates for Hermes secure connection|Generate the certificates required to authorize a client that pulls logs from the Hermes Messaging Service.|admin or hermes\_admin|Instance|
 |Configure Kafka consumer processes|Create consumer processes with separate bootstrap addresses to connect to both Hermes Kafka clusters for failover.|admin|External Kafka|
 |Verify Kafka consumer pulling logs|Verify that the chosen Kafka consumer can pull log events from the Hermes Messaging Service.|admin|External Kafka|
 |MID Server consumer configuration|
-|Install and validate dedicated MID Server|Install a MID Server dedicated to LES, and validate it to enable it to execute automation tasks.|admin|Both|
+|Install and validate dedicated MID Server|Install a MID Server dedicated to Log Export Service, and validate it to enable it to execute automation tasks.|admin|Both|
 |Add MID Server properties for Hermes|Configure properties that establish the Kafka connection between the MID Server and the Hermes Messaging Service.|admin|Instance|
-|Configure Log REST push destination|Create a Destination Configuration record that defines the REST endpoint that the MID Server Extension forwards logs to.|admin, sn\_logstoanalytics.admin|Instance|
-|Configure LES Consumer Context|Update the LES Consumer MID Server Extension record to execute on the dedicated MID Server installed for LES.|admin|Instance|
-|Configure Consumer|Create a Consumer record specifying the Hermes topic to retrieve logs from and the destination configuration to relay them to.|admin, sn\_logstoanalytics.admin|Instance|
-|Test MID Connection|Verify connectivity from the MID Server environment to the Hermes cluster.|admin, sn\_logstoanalytics.admin|Instance|
-|Verify MID Server integration|Monitor the Consumer Status view to confirm the MID Server process is relaying messages to the REST endpoint.|admin, sn\_logstoanalytics.admin|Instance|
+|Configure Log REST push destination|Create a Destination Configuration record that defines the REST endpoint that the MID Server Extension forwards logs to.|admin or sn\_logstoanalytics.admin|Instance|
+|Configure LES Consumer Context|Update the LES Consumer MID Server Extension record to execute on the dedicated MID Server installed for Log Export Service.|admin|Instance|
+|Configure Consumer|Create a Consumer record specifying the Hermes topic to retrieve logs from and the destination configuration to relay them to.|admin or sn\_logstoanalytics.admin|Instance|
+|Test MID Connection|Verify connectivity from the MID Server environment to the Hermes cluster.|admin or sn\_logstoanalytics.admin|Instance|
+|Verify MID Server integration|Monitor the Consumer Status view to confirm the MID Server process is relaying messages to the REST endpoint.|admin or sn\_logstoanalytics.admin|Instance|
 |Administration and monitoring|
-|Update the glide.les.disable\_logs\_forwarding system property|Pause or resume LES log forwarding during migration or database reseeding operations.|admin|Instance|
-|Review log report dashboard|Analyze the size of each data log and consumption metrics across LES sources.|admin, sn\_logstoanalytics.admin|Instance|
+|Update the glide.les.disable\_logs\_forwarding system property|Pause or resume Log Export Service log forwarding during migration or database reseeding operations.|admin|Instance|
+|Review log report dashboard|Analyze the size of each data log and consumption metrics across Log Export Service sources.|admin or sn\_logstoanalytics.admin|Instance|
 
-**Parent Topic:**[Log Export Service \(LES\) references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-references.md)
+**Parent Topic:**[Log Export Service \(LES\) references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/les-references.md)
 
 **Related topics**  
 
 
 [Log Export Service roles]()
+
+[Properties installed with Log Export Service]()
 

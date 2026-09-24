@@ -3,11 +3,11 @@ title: View the sample questions in the base system
 description: TPRM includes sample questionnaires that you can use to define questionnaire templates for your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-view-base-sys-questions.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Classic assessments, Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,7 @@ TPRM includes sample questionnaires that you can use to define questionnaire tem
 
 ## Before you begin
 
-To include sample questionnaires, you select **Load demo data** while installing TPRM. See [Configuring Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-configuring.md) for installation instructions.
+To include sample questionnaires, you select **Load demo data** while installing TPRM. See [Configuring Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-configuring.md) for installation instructions.
 
 Role required: admin or sn\_vdr\_risk\_asmt.vendor\_risk\_admin
 
@@ -70,5 +70,5 @@ A set of related questions within a questionnaire template.**Note:** There can b
 **Related topics**  
 
 
-[Using the SIG questionnaire for a risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-sig-use-and-support.md)
+[Using the SIG questionnaire for a risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-sig-use-and-support.md)
 

@@ -3,11 +3,11 @@ title: Define the model state transitions for a privacy case
 description: Define the transition conditions to control how a compliance case traverses through the different workflow states by using the Privacy Case Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/create-a-model-state-transition-for-privacy-case.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -46,13 +46,13 @@ The state transitions are a list of conditions for entering or exiting each stat
 
 9.  On the form, fill in the fields.
 
-    For a description of the field values on the GRC model state transition form, see [GRC model state transition condition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/pcm-state-model-transition-condition-form.md).
+    For a description of the field values on the GRC model state transition form, see [GRC model state transition condition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/pcm-state-model-transition-condition-form.md).
 
 10. Select **Submit**.
 
 
--   **[GRC model state transition condition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/pcm-state-model-transition-condition-form.md)**  
+-   **[GRC model state transition condition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/pcm-state-model-transition-condition-form.md)**  
 Use the GRC Model State Transition Condition form to define the transition conditions to control how a compliance case traverses through the different workflow states by using the Privacy Case Management application.
 
-**Parent Topic:**[Configuring Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/configuring-privacy-case-management.md)
+**Parent Topic:**[Configuring Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/configuring-privacy-case-management.md)
 

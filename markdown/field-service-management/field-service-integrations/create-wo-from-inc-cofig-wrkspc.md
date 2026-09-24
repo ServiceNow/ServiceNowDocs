@@ -3,11 +3,11 @@ title: Create a work order from incident record in the CRM Workspace
 description: Create a work order directly from the incident record using the CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-integrations/create-wo-from-inc-cofig-wrkspc.html
-release: australia
+release: brazil
 product: Field Service Integrations
 classification: field-service-integrations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integration with Incident Management, Integrating Field Service Management with other applications, Configure, Field Service Management]
 ---
@@ -41,5 +41,5 @@ An incident record can accommodate only one work order at a time. You can create
 
 A work order is created successfully from the incident.
 
-**Parent Topic:**[Integration with Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/incident-for-fsm.md)
+**Parent Topic:**[Integration with Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-integrations/incident-for-fsm.md)
 

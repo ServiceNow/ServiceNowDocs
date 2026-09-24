@@ -3,9 +3,9 @@ title: SPM custom tables
 description: Strategic Portfolio Management \(SPM\) includes several custom tables that enable you to enhance SPM according to your specific business requirements. These tables are provided without predefined business logic, allowing you to use them as fully customizable entities to suit your unique needs.The SPM custom tables enable organizations to scale Strategic Portfolio Management by integrating custom features and business-specific functionality.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/spm-extension-capabilities-overview.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Strategic Portfolio Management]
 ---
@@ -132,11 +132,11 @@ PPM Standard
 </table>**Related topics**  
 
 
-[Planning item configuration for lenses and portfolio plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/planning-items-for-lenses-and-portfolio-plans.md)
+[Planning item configuration for lenses and portfolio plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/planning-items-for-lenses-and-portfolio-plans.md)
 
-[Define a planning item type in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-planning-organization-and-planning-item-type.md)
+[Define a planning item type in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/create-planning-organization-and-planning-item-type.md)
 
-[Enable custom item types in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/enable-custom-item-types-strategic-planning-workspace.md)
+[Enable custom item types in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/enable-custom-item-types-strategic-planning-workspace.md)
 
-[Investment Funding administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/investment-funding-administration.md)
+[Investment Funding administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/investment-funding/investment-funding-administration.md)
 

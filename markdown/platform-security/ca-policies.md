@@ -3,9 +3,9 @@ title: Policies
 description: View the different continuous authentication policies that are created.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/ca-policies.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring CA, Continuous Authentication \(CA\), Zero Trust Access, Access Management]
 ---
@@ -33,9 +33,9 @@ To access the policies page, navigate to **All** &gt; **Continuous Authenticatio
 **Related topics**  
 
 
-[Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ca-metrics.md)
+[Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/ca-metrics.md)
 
-[System properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ca-system-properties.md)
+[System properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/ca-system-properties.md)
 
-[Exploring Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/explore-continuous-auth.md)
+[Exploring Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/explore-continuous-auth.md)
 

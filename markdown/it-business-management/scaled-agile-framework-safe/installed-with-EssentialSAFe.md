@@ -3,11 +3,11 @@ title: Components installed with Essential SAFe
 description: Several types of components are installed with activation of the Agile - Scaled Agile Framework - Essential SAFe plugin \(com.snc.sdlc.safe\), including tables and user roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/installed-with-EssentialSAFe.html
-release: australia
+release: brazil
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -255,7 +255,7 @@ SAFe team predictability measure\[sn\_safe\_pi\_m2m\_group\]
 Stores the business value achieved per team from PI objectives which is used for team-level predictability measure data.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/essential-overview.md)
+</table>**Parent Topic:**[Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/essential-overview.md)
 
 **Related topics**  
 

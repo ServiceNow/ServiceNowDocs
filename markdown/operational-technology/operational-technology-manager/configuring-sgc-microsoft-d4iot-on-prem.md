@@ -3,11 +3,11 @@ title: Configure the Service Graph Connector for Microsoft Defender for IoT \(On
 description: Use the Guided Setup for the Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\) to lead you through the integration steps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/configuring-sgc-microsoft-d4iot-on-prem.html
-release: australia
+release: brazil
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\), Integrate, Operational Technology Manager, Operational Technology]
 ---
@@ -20,10 +20,10 @@ Use the Guided Setup for the Service Graph Connector for Microsoft Defender for 
 
 Dependencies and requirements:
 
--   The [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-commons-for-cmdb.md) store app, which is automatically installed.
--   The [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models.md), which is automatically installed.
+-   The [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/integration-commons-for-cmdb.md) store app, which is automatically installed.
+-   The [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-ci-class-models.md), which is automatically installed.
 -   The ITOM Discovery License plugin \(com.snc.itom.discovery.license\). You must activate this plugin.
--   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_ActivateTheDiscoveryPlugin.md).
+-   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/t_ActivateTheDiscoveryPlugin.md).
 -   The Datastream Action plugin \(com.glide.hub.action\_type.datastream\), which is automatically installed.
 
 Role required: admin
@@ -34,7 +34,7 @@ Role required: admin
 
 1.  Ensure that the application scope is set to the Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\) application by using the application picker.
 
-    For more information, see .
+    For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationPicker.md).
 
 2.  Navigate to **All** &gt; **Service Graph Connector Microsoft D4IoT** &gt; **Guided Setup**.
 
@@ -113,7 +113,7 @@ com.glide.communications.httpclient.verify\_revoked\_certificate
 
 </td><td>
 
-Set to **false**.If you need to add this system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+Set to **false**.If you need to add this system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 </td></tr><tr><td>
 
@@ -134,7 +134,7 @@ Set to **true**.
         |Hostname check|**false**|
         |Revocation check|**false**|
 
-        For more information, see [MID Server certificate check policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-security-checks.md).
+        For more information, see [MID Server certificate check policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-security-checks.md).
 
         The connection shows that it is set correctly when the progress window shows the Completion code **Success**, and the number of records processed shows as the same number of sensors in the connection manager.
 
@@ -254,7 +254,7 @@ If you are using the Operational Technology Vulnerability Response application w
     4.  Select **SG-OT Microsoft D4IoT Devices Scheduled Import** to review or change the devices import schedule as needed.
 
         -   By default, the devices import schedule is configured to run daily at midnight.
-        -   Devices are queried by sensor. The Service Graph Connector queries for devices detected by validated sensors. For information about configuring Network Intrusion Detection System \(NIDS\) appliances, see [Validate the NIDS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/validate-nids.md).
+        -   Devices are queried by sensor. The Service Graph Connector queries for devices detected by validated sensors. For information about configuring Network Intrusion Detection System \(NIDS\) appliances, see [Validate the NIDS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/validate-nids.md).
     5.  Select **Active** to activate the devices import schedule.
 
     6.  Select **SG-OT Microsoft D4IoT Connections Scheduled Import** to review or change the connections import schedule as needed.
@@ -263,5 +263,5 @@ If you are using the Operational Technology Vulnerability Response application w
         -   Connections are only imported if both devices \(Source &amp; Destination in Microsoft API, or Parent &amp; Child in the CMDB\) are already in the CMDB.
         -   Import devices before importing connections.
 
-**Parent Topic:**[Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/integration-sgc-microsoft-defender-iot-on-prem.md)
+**Parent Topic:**[Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/integration-sgc-microsoft-defender-iot-on-prem.md)
 

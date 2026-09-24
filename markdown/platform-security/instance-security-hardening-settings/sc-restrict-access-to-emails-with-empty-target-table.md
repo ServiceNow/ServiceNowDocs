@@ -3,11 +3,11 @@ title: Restrict access to emails with empty target table
 description: Activate the glide.email.email\_with\_no\_target\_visible\_to\_all property to restrict user access to emails, unless they were the one who sent the email or have an admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-restrict-access-to-emails-with-empty-target-table.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
@@ -68,7 +68,7 @@ Default value
 
 </td><td>
 
-&lt;none&gt;
+FALSE
 
 </td></tr><tr><td>
 
@@ -84,7 +84,7 @@ Category
 
 </td><td>
 
-[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -94,7 +94,7 @@ Security risk
 
 -   Severity score: 6.5
 -   CVSS rating: Medium
--   Security risk details: Emails that lack a specific target record may become visible to all users, resulting in unauthorized access to potentially sensitive communication and violating principles of least privilege and data confidentiality.
+-   Security risk details: Emails without a target record are visible to all users, allowing unauthorized access to sensitive communication and violating data confidentiality principles.
 
 </td></tr><tr><td>
 
@@ -113,5 +113,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
+</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

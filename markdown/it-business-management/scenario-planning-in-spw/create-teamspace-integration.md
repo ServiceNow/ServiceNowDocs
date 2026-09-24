@@ -3,11 +3,11 @@ title: Working with Teamspaces
 description: Strategic Planning can be integrated with Project Portfolio Management's Teamspaces to access and manage relevant projects and demands with the corresponding planning item records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/create-teamspace-integration.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Strategic Planning with PPM, Agile 2.0, and SAFe, Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -38,5 +38,5 @@ To integrate teamspaces with Strategic Planning records:
 **Related topics**  
 
 
-[Create a table map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-custom-table-maps-for-custom-planning-items.md)
+[Create a table map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/create-custom-table-maps-for-custom-planning-items.md)
 

@@ -3,11 +3,11 @@ title: Use the script include for Scripted Extension Point
 description: Use the script include for Scripted Extension Point to update the custom fields on the iManage storage based on the mapping provided in the functions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/implement-script-include-for-extn-pt.html
-release: australia
+release: brazil
 product: Legal Request Management
 classification: legal-request-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create implementation in Scripted Extension Point, Configure legal storage system, Configure, Legal Request Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ Use the script include for Scripted Extension Point to update the custom fields 
 
 The processes below explain how to implement the script include for Scripted Extension Point.
 
--   On the script include form, the script field is auto populated with the structure of expected function definitions. For more information on script include form, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md).
+-   On the script include form, the script field is auto populated with the structure of expected function definitions. For more information on script include form, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/c_ScriptIncludes.md).
 -   In the script include, the function have inputs that is available when the implementation is called.
 -   In case of iManage Extension Point \(sn\_lg\_ops.iManageCustomFieldHelperExtension\), following are the function definition, expectation and possible outputs:
 
@@ -78,5 +78,5 @@ The possible script would be as follows:
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Create implementation in Scripted Extension Point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/create-scripted-extension-point.md)
+**Parent Topic:**[Create implementation in Scripted Extension Point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-request-management/create-scripted-extension-point.md)
 

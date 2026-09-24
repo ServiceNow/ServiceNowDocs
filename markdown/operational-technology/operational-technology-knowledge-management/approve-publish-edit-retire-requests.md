@@ -3,11 +3,11 @@ title: Approve requests to publish or retire a knowledge article
 description: Approve requests to publish or retire a knowledge article to help ensure that the knowledge base is up to date.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-knowledge-management/approve-publish-edit-retire-requests.html
-release: australia
+release: brazil
 product: Operational Technology Knowledge Management
 classification: operational-technology-knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Operational Technology Knowledge Management, Operational Technology]
 ---
@@ -39,5 +39,5 @@ If you're assigned as the manager of an OT knowledge base receive, you can recei
 
 The user who created the approval request is notified via email.
 
-**Parent Topic:**[Using Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-knowledge-management/using-operational-technology-knowledge-management.md)
+**Parent Topic:**[Using Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-knowledge-management/using-operational-technology-knowledge-management.md)
 

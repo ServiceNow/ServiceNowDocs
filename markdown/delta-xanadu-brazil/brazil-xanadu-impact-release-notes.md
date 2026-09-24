@@ -1,0 +1,919 @@
+---
+title: Combined Impact release notes for upgrades from Xanadu to Brazil
+description: Consolidated page of all release notes for Impact from Xanadu to Brazil.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-impact-release-notes.html
+release: brazil
+topic_type: reference
+last_updated: "2026-09-24"
+reading_time_minutes: 21
+breadcrumb: [Products combined by family]
+---
+
+# Combined Impact release notes for upgrades from Xanadu to Brazil
+
+Consolidated page of all release notes for Impact from Xanadu to Brazil.
+
+## How to use this page
+
+To help you prepare for your upgrade, we have combined the cross-family Impact release notes onto one page. Read this summary of the new features, changes, and updated information for your product from Xanadu to Brazil.
+
+**Tip:** If there were no updates for a release notes section in a certain family release, we included a short note for your reference. For example, if a product did not have any updates in Tokyo, the row says "No updates for this release."
+
+## Important information for upgrading Impact to Brazil
+
+Before you upgrade to Brazil, review these pre- and post-upgrade tasks and complete the tasks as needed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **Upgrade information**
+
+The Impact Store Application configuration requires a sequence of tasks. See [Configuring the Impact Store Application](https://www.servicenow.com/docs/access?context=configuring-impact-platform&family=yokohama&ft:locale=en-US) for details.
+
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **Upgrade information**
+
+The Impact Store Application configuration requires a sequence of tasks in a unified registration process. See [Configure the Impact Store Application](https://www.servicenow.com/docs/access?context=configuring-impact-platform&family=zurich&ft:locale=en-US).
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   **Upgrade information**
+
+The Impact Store Application configuration requires a sequence of tasks in a unified registration process. See [Configuring Impact](https://www.servicenow.com/docs/access?context=configuring-impact-platform&family=australia&ft:locale=en-US).
+
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+-   **Upgrade information**
+
+The Impact Store Application configuration requires a sequence of tasks in a unified registration process. See [Configuring Impact](https://www.servicenow.com/docs/access?context=configuring-impact-platform&family=brazil&ft:locale=en-US).
+
+
+</td></tr></tbody>
+</table>## New features
+
+Between your current release family and Brazil, new features were introduced for Impact.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+-   **[Initiatives &amp; Accelerators](https://www.servicenow.com/docs/access?context=impact-initiatives&family=xanadu&ft:locale=en-US)**
+    -   [Jumpstart Your Now Assist for Creator](https://www.servicenow.com/docs/access?context=jumpstart-now-assist-creator&family=xanadu&ft:locale=en-US) and [SPP-AU](https://www.servicenow.com/docs/access?context=jumpstart-now-assist-creator-spp-au&family=xanadu&ft:locale=en-US) version
+    -   [Jumpstart Your Now Assist for IT Service Management \(ITSM\)](https://www.servicenow.com/docs/access?context=jumpstart-now-assist-itsm&family=xanadu&ft:locale=en-US) and [SPP-AU](https://www.servicenow.com/docs/access?context=jumpstart-now-assist-itsm-spp-au&family=xanadu&ft:locale=en-US) version
+    -   [Jumpstart Your Service Mapping](https://www.servicenow.com/docs/access?context=jumpstart-service-mapping&family=xanadu&ft:locale=en-US) and [SPP-AU](https://www.servicenow.com/docs/access?context=jumpstart-service-mapping-spp-au&family=xanadu&ft:locale=en-US) version
+    -   [Jumpstart Your Database Management](https://www.servicenow.com/docs/access?context=data-management&family=xanadu&ft:locale=en-US)
+    -   [Jumpstart Your CSM Configurable Workspace](https://www.servicenow.com/docs/access?context=csm-configurable-workspace&family=xanadu&ft:locale=en-US)
+    -   [TuneUp Your Employee Center](https://www.servicenow.com/docs/access?context=tuneup-employee-center&family=xanadu&ft:locale=en-US)
+    -   [Introduction to Instance Readiness Assessment](https://www.servicenow.com/docs/access?context=introduction-instance-readiness-assessment&family=xanadu&ft:locale=en-US)
+    -   [CoEI Influencing Funding Strategy](https://www.servicenow.com/docs/access?context=coei-influencing-factor-assessment-part-2&family=xanadu&ft:locale=en-US)
+    -   [UX: Catalog Request Experience Review](https://www.servicenow.com/docs/access?context=ux-accelerator-service-request-experience-review&family=xanadu&ft:locale=en-US)
+    -   [Generative AI - Virtual Agent Conversational Catalog](https://www.servicenow.com/docs/access?context=generative-ai-conversational-catalog&family=xanadu&ft:locale=en-US)
+    -   [Value Potential](https://www.servicenow.com/docs/access?context=value-potential-undeployed-apps&family=xanadu&ft:locale=en-US)
+-   **[Initiatives &amp; Accelerators](https://www.servicenow.com/docs/access?context=impact-initiatives&family=xanadu&ft:locale=en-US)**
+    -   [Extend Your Employee Center to Pro](https://www.servicenow.com/docs/access?context=extend-employee-center-pro&family=xanadu&ft:locale=en-US): Provides prescriptive guidance on extending the Employee Center capabilities to include Pro features.
+    -   [Jumpstart Your CSDM: Foundation](https://www.servicenow.com/docs/access?context=jumpstart-csdm&family=xanadu&ft:locale=en-US): Provides an overview and breakdown of the CSDM with a focus on Foundation data.
+    -   [Jumpstart Your Document Intelligence](https://www.servicenow.com/docs/access?context=jumpstart-document-intelligence&family=xanadu&ft:locale=en-US): Provides a demonstration of the possibilities and capabilities of Document Intelligence.
+    -   [Jumpstart Your Employee Center](https://www.servicenow.com/docs/access?context=jumpstart-employee-center&family=xanadu&ft:locale=en-US): Includes a demonstration of the possibilities and capabilities available with the ServiceNow Employee Center portal in your instance.
+    -   [Jumpstart Your Event Management](https://www.servicenow.com/docs/access?context=jumpstart-event-mgmt&family=xanadu&ft:locale=en-US): Provides a demonstration of the possibilities and capabilities of Event Management.
+    -   [Jumpstart Your Issue Auto Resolution](https://www.servicenow.com/docs/access?context=jumpstart-issue-auto-resolution&family=xanadu&ft:locale=en-US): Provides a demonstration of the possibilities and capabilities of Issue Auto Resolution within your ServiceNow platform.
+    -   [Jumpstart Your Process Mining](https://www.servicenow.com/docs/access?context=jumpstart-process-mining&family=xanadu&ft:locale=en-US): Provides a demonstration of the possibilities and capabilities of Process Mining.
+    -   [UX: Taxonomy Review and Design](https://www.servicenow.com/docs/access?context=ux_review_unified_taxonomy&family=xanadu&ft:locale=en-US): Optimizes content structure and navigation in your portal, with a focus on Knowledge and Catalog to improve usability and help users easily find the correct information.
+    -   [Common Service Data Model \(CSDM\) Assessment - Business Services \(Run\) - Advanced](https://www.servicenow.com/docs/access?context=csdm_assessment_business_services&family=xanadu&ft:locale=en-US): Provides an assessment and guidance for CSDM Run maturity, including Business Services, Business Service Offerings, Request Catalog Items, and \(Business\) Service Portfolio.
+    -   [Common Service Data Model \(CSDM\) Assessment Technical Services \(Walk\) - Advanced](https://www.servicenow.com/docs/access?context=csdm_assessment_technical_services&family=xanadu&ft:locale=en-US): Provides an assessment and guidance for CSDM Walk maturity, including Technical Services and Technical Service Offerings.
+    -   ServiceNow Protected Platform – Australia \(SPP-AU\) versions of Accelerators are available, where applicable. The [Accelerator catalog](https://www.servicenow.com/docs/access?context=accelerator-catalog&family=xanadu&ft:locale=en-US) is updated with this information.
+-   **[HealthScan](https://www.servicenow.com/docs/access?context=healthscan&family=xanadu&ft:locale=en-US)**
+    -   Consent for the self-service capability that automates monthly Health Assessment scans and reports to provide details that can help you to improve the health of your ServiceNow platform implementation.
+    -   Consume HealthScan service environment script outputs in a clear format for Self-hosted NSG Air-gapped customers.
+    -   Access HealthScan commercial features as a GCC or NSC customer.
+-   **[Value Journey](https://www.servicenow.com/docs/access?context=impact-value-journey&family=xanadu&ft:locale=en-US)**
+    -   Use the auto generated objectives and outcomes to save time and effort in the Impact Value Journey.
+    -   View monthly or quarterly trends and curated recommendations for generated outcomes. See Trends, Benchmarks, and recommendations related to the outcome.
+    -   Trends and Benchmarks will be available for outcomes with data.
+    -   Use the Data Collection App, available from the ServiceNow® Store, to transfer data automatically into your Impact portal.
+-   **[Impact Instance Observer](https://www.servicenow.com/docs/access?context=io-overview&family=xanadu&ft:locale=en-US)**
+    -   Detect additional anomalies for 16 metrics with Release 18.
+    -   Configure self-serve alerts for Garbage Collection using Host Health.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **[Impact Store Application](https://www.servicenow.com/docs/access?context=impact-store-app&family=yokohama&ft:locale=en-US)**
+    -   [Impact Home page](https://www.servicenow.com/docs/access?context=impact-in-platform-home&family=yokohama&ft:locale=en-US)Use the Impact home page, an organized collaborative portal, which guides you to your relevant content and helps focus and accomplish your tasks with seamless interaction with Impact application features.
+    -   [Use Guided Setup to synchronize and migrate data to the Impact Store Application](https://www.servicenow.com/docs/access?context=guided-setup-impact-in-app&family=yokohama&ft:locale=en-US): Use the simplified interface to synchronize and configure your Impact Store App with the Impact Delivery Instance.
+    -   [Grant temporary instance access to your Impact Squad](https://www.servicenow.com/docs/access?context=hop-access-impact-squad&family=yokohama&ft:locale=en-US) to facilitate effective support and rapid issue resolution.
+    -   [Convert an Impact entity to SPM entity as a work item](https://www.servicenow.com/docs/access?context=convert-spm-entity-impact-entity-recommendations&family=yokohama&ft:locale=en-US): Create an Impact entity and associate the SPM record details to it, which helps you to avoid manual intervention in converting the entities from Impact to SPM portals to avoid duplication of entities in the process.
+    -   [Using recommendations list in Impact home page](https://www.servicenow.com/docs/access?context=using-recommendations-iip-ws&family=yokohama&ft:locale=en-US):
+        -   Sort the recommendations list using the search and filter options by entering a keyword or phrase to narrow down the list and find the recommendations that you’re looking for.
+        -   Convert Impact recommendations and free-form initiatives into actionable, trackable Strategic Portfolio Management \(SPM\) or Collaborative Work Management \(CWM\) work items. [Creating work items using recommendations and initiatives](https://www.servicenow.com/docs/access?context=creating-work-items-using-recommendations-and-initiatives&family=yokohama&ft:locale=en-US).
+    -   [Impact Store Application product adoption](https://www.servicenow.com/docs/access?context=impact-in-platform-product-adoption&family=yokohama&ft:locale=en-US)
+        -   Use the Product Adoption Roadmap \(PAR\) to view a recommended implementation sequence for your capabilities:
+            -   [Create and publish a product adoption roadmap](https://www.servicenow.com/docs/access?context=create-product-adoption-roadmap&family=yokohama&ft:locale=en-US): Use pre-defined ServiceNow templates or build from your own.
+            -   Use Product Adoption Roadmap Templates with pre-defined sequence of capabilities for ITSM \(\(IT Service Management\)\), ITOM \(\(IT Operations Management\)\), and Security Operations.
+            -   View and edit phase-specific notes for a capability to understand prerequisites, plan training, and additional implementation considerations.
+            -   Customize your roadmap by adding or removing capabilities as needed.
+            -   Request Related Accelerators \(if available\) to improve adoption of the capabilities
+    -   [Manage Capabilities Map](https://www.servicenow.com/docs/access?context=manage-capability-maps&family=yokohama&ft:locale=en-US):
+        -   Explore, track, and manage the descriptions, notes, and related resources for your entitled capabilities.
+        -   Use the updated Data Collection Content Packs to automatically transfer Impact Value Metrics to the centralized Impact instance to manage the Value Journey, including Setting Value Baselines and Targets, Outcome Performance Reviews, and the Value Report.
+        -   Use the Capability Details page to view and manage comprehensive information related to a capability in your product adoption journey. The full-page layout replaces the previous pop-up view, making it easier to access, navigate and manage important details, such as usage status and notes in one centralized location.
+        -   View and add adoption guidance for different phases, such as prerequisites and implementation instructions in notes specific to a phase.
+        -   Measure a selected business objective under the same product across multiple ServiceNow instances. Use the Instance option on the Objectives and Outcomes, and Outcomes Insights to filter business objectives and outcomes by the ServiceNow instance. Add and edit the business objectives connected to the capability.
+    -   [Impact Platform Health](https://www.servicenow.com/docs/access?context=impact-healthscan-store-app&family=yokohama&ft:locale=en-US):
+        -   Use Proactive Code Check to track compliance against coding leading practices and organizational standards.
+        -   Activate Proactive Code Check in the Health Store Application to scan update sets and check compliance standards and adherence to leading practices.
+        -   Scan update sets for leading practice violations in a non-production environment with Proactive Code Check and improve code quality, reduce errors, and enhance system stability.
+-   **[Impact Delivery Instance \(formerly Impact Digital Experience\)](https://www.servicenow.com/docs/access?context=impact-digital-experience&family=yokohama&ft:locale=en-US)**
+    -   [Connect to the provider instance](https://www.servicenow.com/docs/access?context=connect-instance-impact-store-app&family=yokohama&ft:locale=en-US): The administrator or a named contact log in to your instance to facilitate the connection of data with the Impact Store Application.
+    -   [Product Adoption](https://www.servicenow.com/docs/access?context=product-adoption&family=yokohama&ft:locale=en-US): Start an initiative from an individual capability to log and track your activities toward the implementation. The reference of the created initiative is available in the capability details and initiatives roadmap. The reference of the created initiative is available in the capability details and initiatives roadmap.
+    -   [Healthscan definitions updates: May 2025 store](https://www.servicenow.com/docs/access?context=healthscan-definitions-may-store&family=yokohama&ft:locale=en-US): Some HealthScan definitions have been updated or deprecated for the May store release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **[Generative AI-powered Root cause analysis](https://www.servicenow.com/docs/access?context=generative-ai-root-cause-anal&family=zurich&ft:locale=en-US)**
+
+Generate a structured root cause summary using a large language model \(LLM\) anomaly detection system that can automate the process and analyze system logs, performance metrics, and alerts. This root cause summary simplifies the analysis process and helps to diagnose the problem before the issue occurs.
+
+**Note:**
+
+The Generative AI-powered summarization component is not available to users in the regulated market.
+
+-   **[Instance Observer alerts for Guided-tier customers](https://www.servicenow.com/docs/access?context=io-alerts-guided-cust&family=zurich&ft:locale=en-US)**
+
+The top six alert cards evaluated to be most important based on alerts that users have used and benefited from in the past are now available to Guided-tier Instance Observer customers in addition to the Advanced-tier and Total-tier customers.
+
+-   **[Use popular alerts to receive notifications](https://www.servicenow.com/docs/access?context=io-alerts-popular-total-adv-cust&family=zurich&ft:locale=en-US)**
+
+View the most popular alerts displayed on the first page of the Configure Alerts page. You can also set up alerts and view notifications.
+
+-   **[Accelerator request](https://www.servicenow.com/docs/access?context=accelerator-request&family=zurich&ft:locale=en-US)**
+
+Request and manage accelerators across different instances from both Impact Delivery Instance and Impact Store Application. Interact with the experts in Impact from the Impact Store Application.
+
+-   **[Accelerator Catalog](https://www.servicenow.com/docs/access?context=accelerator-catalog&family=zurich&ft:locale=en-US)**
+
+Use the following new accelerators:
+
+Technical Accelerators:
+
+    -   [Jumpstart Your CSDM:Crawl](https://www.servicenow.com/docs/access?context=jumpstart-your-CSDM-crawl&family=zurich&ft:locale=en-US): Get an overview of the crawl phase of the Common Service Data Model \(CSDM\) maturity journey, a brief assessment of current crawl data, and actionable steps to complete the phase.
+    -   [Jumpstart Your External Content Connectors \(XCC\)](https://www.servicenow.com/docs/access?context=jumpstart-your-external-content-connectors&family=zurich&ft:locale=en-US): Get a demonstration of the possibilities and capabilities of External Content Connectors \(XCC\).
+    -   [Jumpstart Your Now Assist in Document Intelligence​](https://www.servicenow.com/docs/access?context=jumpstart-your-now-assist-document-intelligence&family=zurich&ft:locale=en-US): Get a demonstration of the possibilities and capabilities of Now Assist in Document Intelligence.
+    -   [Jumpstart Your Strategic Portfolio Management-Project Workspace](https://www.servicenow.com/docs/access?context=jumpstart-your-SPM-project-workspace&family=zurich&ft:locale=en-US): Get a demonstration of the possibilities and capabilities of Project Workspaces within Strategic Portfolio Management \(SPM\).
+    -   [Jumpstart Your Workflow Automation: Playbooks](https://www.servicenow.com/docs/access?context=jumpstart-your-workflow-automation-playbooks&family=zurich&ft:locale=en-US): Get a demonstration of the possibilities and capabilities of playbooks in Workflow Studio.
+    -   [Jumpstart Your AI Control Tower](https://www.servicenow.com/docs/access?context=jumpstart-your-ai-control-tower&family=zurich&ft:locale=en-US): Get a demonstration of the possibilities and capabilities of ServiceNow’s AI Control Tower.
+    -   [Jumpstart Your SPM-Collaborative Work Management](https://www.servicenow.com/docs/access?context=jumpstart-your-spm-collaborative-work-management&family=zurich&ft:locale=en-US): Get a demonstration of how customers can set up and utilize CWM to plan, manage, visualize, and collaborate on work with their teams.
+    -   [Jumpstart Your Now Mobile for Employees](https://www.servicenow.com/docs/access?context=jumpstart-your-now-mobile-for-employees&family=zurich&ft:locale=en-US): Get an introduction and overview of the base system capabilities and a demonstration of the configuration steps needed to get started with Now Mobile.
+    -   [Jumpstart Your ITOM Discovery](https://www.servicenow.com/docs/access?context=jumpstart-your-itom-discovery&family=zurich&ft:locale=en-US): Get foundational guidance for successful IT Operations Management \(ITOM\) Discovery implementation, and a demonstration of its possibilities and capabilities.
+Strategic Accelerators:
+
+    -   [ITOM Maturity Accelerator](https://www.servicenow.com/docs/access?context=ITOM-maturity-assessment&family=zurich&ft:locale=en-US): Get guidance on fine-tuning IT Operations Management \(ITOM\) with a base-level understanding of maturity tied to business outcomes.
+    -   [Stakeholder Path to Value](https://www.servicenow.com/docs/access?context=stakeholder-path-to-value&family=zurich&ft:locale=en-US): Get deep qualitative insights into how process owners and key stakeholders utilize the ServiceNow platform to deliver vital services across the organization.
+    -   [Foundations of AI Governance](https://www.servicenow.com/docs/access?context=foundations-of-ai-governance&family=zurich&ft:locale=en-US): Foundational knowledge that will help you start your AI Management journey and take control of your AI deployments.
+-   **[Value management](https://www.servicenow.com/docs/access?context=impact-in-platform-business-outcomes&family=zurich&ft:locale=en-US)**
+
+[Value reports](https://www.servicenow.com/docs/access?context=business-value-reports&family=zurich&ft:locale=en-US)
+
+    -   Use value reports to evaluate the impact of improvements in key success metrics over time and translate them into operational and monetary value.
+    -   View a report created by your delivery team for a product implemented across multiple ServiceNow instances. This feature is available only to Total-tier and Advanced-tier customers, or Guided-tier customers subscribed to the accelerator-for-value reports.
+[Gen AI based outcome summarization](https://www.servicenow.com/docs/access?context=gen-ai-based-outcome-summarizatio&family=zurich&ft:locale=en-US)
+
+    -   Collect information from multiple areas like adoption, metrics, and initiatives, and generate key insights.
+    -   View the outcome metrics for a positive or negative trend.
+    -   Monitor which recommended applications are adopted over time to determine effectiveness.
+    -   Track the consumption of related accelerators to support outcomes and identify any gaps or underused accelerators.
+[Install dependent plugins](https://www.servicenow.com/docs/access?context=dc-install-plugins&family=zurich&ft:locale=en-US)
+
+Install at least one dependency plugin to enable data collection jobs in Impact value management data collection apps. For Strategic Portfolio Management, two dependency plugins must be installed to enable data collection functionality.
+
+-   **[Work items](https://www.servicenow.com/docs/access?context=creating-work-items-using-recommendations-and-initiatives&family=zurich&ft:locale=en-US)**
+    -   Create a work item from a capability mapped to a Product Adoption Roadmap, and view the created work item in the Work Items section of the details page of the capability.
+    -   Manage and track the SPM and \(CWM\) work items created in Impact on the Work Items page.
+    -   Access a centralized Work Items page to track and manage all the SPM and CWM work items created in Impact.
+    -   Filter and track work items using aspects like Impact source, state, progress, and status.
+-   **[Product Adoption](https://www.servicenow.com/docs/access?context=product-adoption&family=zurich&ft:locale=en-US)**
+    -   Update information by editing the Usage Status directly on the details page of each capability.
+    -   View the last updated information of the Capabilities Map, including the user and the timestamp.
+    -   View who is editing the Product Adoption Roadmap when it is in the locked state.
+    -   Filter and view overall adoption status by product using the Product filter drop-down list.
+    -   Product Adoption Roadmap templates are now available for Customer Service Management, Field Service Management, and Governance, Risk, and Compliance.
+    -   Unlock a locked Product Adoption Roadmap if you have an Impact admin or platform owner role. When you unlock it, all changes to the current version are discarded and the Product Adoption Roadmap reverts to its last published version.
+
+    -   View a Now Assist generated summary of description, features, benefits, and related resources when you select a capability.
+    -   Filter entitled capabilities by the subscriptions.
+    -   View which subscriptions provide entitlement to an entitled capability in the **Included with these subscriptions** section when you select a capability.
+-   **[Consumption Report](https://www.servicenow.com/docs/access?context=ide-consumption-report&family=zurich&ft:locale=en-US)**
+
+The Consumption report provides an overview of your Impact tier features and their usage, which helps you identify your underused or unused Impact benefits.[Gen AI based consumption report summarization](https://www.servicenow.com/docs/access?context=gen-ai-based-consumption-report-summarization&family=zurich&ft:locale=en-US)
+
+    -   Monitor the overall consumption of the accelerator in your plan. This information could include status details for ongoing, completed, and not yet started accelerators.
+    -   View the usage details for the Instance observer and Developer Support seats.
+    -   View the overall summary of the active Now Support cases and the enhanced case response time for Impact P1 and P2 support cases for your account.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   **[Roles installed with Impact](https://www.servicenow.com/docs/access?context=impact-roles&family=australia&ft:locale=en-US)**
+
+Grant selected users with partner accounts access to the Impact Store Application through the new **Impact Partner** role. Users assigned with the partner role can efficiently manage Impact for their customers. You can view the users added as partners on the Impact homepage.
+
+-   **[Manage capabilities maps](https://www.servicenow.com/docs/access?context=manage-capability-maps&family=australia&ft:locale=en-US)**
+
+Version 7.0.0: The Capabilities Map homepage now shows true application capabilities organized by product line.
+
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Changes
+
+Between your current release family and Brazil, some changes were made to existing Impact features.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+-   **[Accelerator catalog](https://www.servicenow.com/docs/access?context=accelerator-catalog&family=xanadu&ft:locale=en-US)**
+    -   Updates to the [\[Placeholder link text to key bundle-ipact.training-strategy-assessment\]](https://www.servicenow.com/docs/access?context=training-strategy-assessment&family=xanadu&ft:locale=en-US) Accelerator
+    -   The UX \(User Experience\) Design: Employee Center Accelerator name is changed to [UX: Design for Employee Center](https://www.servicenow.com/docs/access?context=ux-design-employee-center&family=xanadu&ft:locale=en-US)
+    -   The User Experience Review: Employee Center Accelerator name is changed to [UX: Portal Experience Review](https://www.servicenow.com/docs/access?context=ux-review-employee-center&family=xanadu&ft:locale=en-US)
+-   **[HealthScan definitions updates: November release](https://www.servicenow.com/docs/access?context=healthscan-definitions-nov-store&family=xanadu&ft:locale=en-US)**
+
+Some definitions have been deprecated or enhanced to improve performance, reduce false positives, and meet the latest coding practices.
+
+-   **Accelerators with minor updates to the descriptions**
+    -   The [Center of Excellence &amp; Innovation Design](https://www.servicenow.com/docs/access?context=CoEI-design&family=xanadu&ft:locale=en-US)
+    -   [TuneUp Your Hardware Asset Management](https://www.servicenow.com/docs/access?context=tuneup-hw-asset-management&family=xanadu&ft:locale=en-US)
+    -   [TuneUp Your Software Asset Management](https://www.servicenow.com/docs/access?context=tuneup-sw-asset-mgmt&family=xanadu&ft:locale=en-US)
+    -   [UX: Design for Employee Center](https://www.servicenow.com/docs/access?context=ux-design-employee-center&family=xanadu&ft:locale=en-US)
+    -   [UX: Portal Experience Review](https://www.servicenow.com/docs/access?context=ux-review-employee-center&family=xanadu&ft:locale=en-US)
+    -   [Jumpstart Your Strategic Portfolio Management – Planning Workspace](https://www.servicenow.com/docs/access?context=jumpstart-spm-planning-workspace&family=xanadu&ft:locale=en-US)
+-   **[Objectives and outcomes](https://www.servicenow.com/docs/access?context=value-blueprint&family=xanadu&ft:locale=en-US)**
+
+Value Blueprint is renamed to Objectives and outcomes.​
+
+-   **[HealthScan definitions updates: August release](https://www.servicenow.com/docs/access?context=healthscan-definitions-aug-store&family=xanadu&ft:locale=en-US)**
+
+Some definitions have been deprecated or enhanced to improve performance, reduce false positives, and meet the latest coding practices.
+
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **New [Impact Store Application](https://www.servicenow.com/docs/access?context=impact-store-app&family=yokohama&ft:locale=en-US) experience**
+
+The new Impact Store Application provides a more efficient, streamlined way for you to work. For information about how to upgrade, see [Configuring the Impact Store Application](https://www.servicenow.com/docs/access?context=configuring-impact-platform&family=yokohama&ft:locale=en-US). Note that [Impact Delivery Instance \(formerly Impact Digital Experience\)](https://www.servicenow.com/docs/access?context=impact-digital-experience&family=yokohama&ft:locale=en-US) is still supported in this release.
+
+-   **[Accelerator catalog](https://www.servicenow.com/docs/access?context=accelerator-catalog&family=yokohama&ft:locale=en-US)**
+
+Minor updates have been incorporated into the following accelerators:
+
+    -   [Jumpstart Your GenAI](https://www.servicenow.com/docs/access?context=jumpstart-gen-ai&family=yokohama&ft:locale=en-US)
+    -   [Jumpstart Your Now Assist Skill Kit](https://www.servicenow.com/docs/access?context=jumpstart-now-assist-skill-kit&family=yokohama&ft:locale=en-US)
+    -   [Jumpstart Your Document Intelligence](https://www.servicenow.com/docs/access?context=jumpstart-document-intelligence&family=yokohama&ft:locale=en-US)
+    -   [On-Demand Value Report](https://www.servicenow.com/docs/access?context=on-demand-value-report&family=yokohama&ft:locale=en-US)
+    -   [LSD Maturity Assessment](https://www.servicenow.com/docs/access?context=lsd-maturity-assessment&family=yokohama&ft:locale=en-US)
+The following Accelerators are renamed:
+
+    -   Jumpstart Your Now Assist for ITSM is now [Jumpstart Your AI Agents for ITSM](https://www.servicenow.com/docs/access?context=jumpstart-your-ai-agents-for-itsm&family=yokohama&ft:locale=en-US)
+    -   Jumpstart Your Now Assist for CSM is now [Jumpstart Your AI Agents for CSM](https://www.servicenow.com/docs/access?context=jumpstart-ai-agents-csm&family=yokohama&ft:locale=en-US)
+-   **[Data Collection Toolkit](https://www.servicenow.com/docs/access?context=data-collection-toolkit&family=yokohama&ft:locale=en-US)**
+    -   Download the content packs for both regulated \(GCC/NSC\) and non-regulated customers.
+    -   Automatically transfer Impact Value Metrics to the centralized Impact instance to manage the value journey, including setting value baselines and targets, outcome performance reviews, and the value report with the enhanced toolkit.
+-   **[Impact Delivery Instance \(formerly Impact Digital Experience\)](https://www.servicenow.com/docs/access?context=impact-digital-experience&family=yokohama&ft:locale=en-US)**
+
+With the Yokohama release, Impact Digital Experience \(IDE\) has been renamed as Impact Delivery Instance \(IDI\).
+
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **[Value management](https://www.servicenow.com/docs/access?context=impact-in-platform-business-outcomes&family=zurich&ft:locale=en-US)**
+
+    |Previous name|New name|
+    |-------------|--------|
+    |Impact Value Journey|Impact Value|
+    |Value Blueprint|Objectives and Outcomes|
+    |Outcomes Performance|Outcomes Insights|
+    |Business Objectives|Objectives|
+    |Business Value Report|Value Report|
+    |Data collection toolkit|Impact Value Management data collection apps|
+
+-   **[Capability Details Page](https://www.servicenow.com/docs/access?context=capability-details&family=zurich&ft:locale=en-US)**
+
+The Notes Specific to a Phase in the Capabilities Details page has been renamed Guidelines for Phase.
+
+-   **[Impact home page](https://www.servicenow.com/docs/access?context=impact-in-platform-home&family=zurich&ft:locale=en-US)**
+    -   The My Work Items page enables you to track and manage Strategic Portfolio Management and Collaborative Work Management work items created in Impact.
+    -   Provides information about key Impact features, an Impact demonstration video, a guided tour that supports with the navigation of Impact features and a dialog displaying the new features in the release for the first time customers.
+-   **[Recommendations](https://www.servicenow.com/docs/access?context=using-recommendations-iip-ws&family=zurich&ft:locale=en-US)**
+
+The Accelerator recommendations that are already implemented by the customer appear as auto-accepted in the list of recommendations.
+
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[The outcome summarization Now Assist skill is now turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills&family=zurich&ft:locale=en-US)**
+
+This skill is automatically available to appropriate role users for the application. This change simply activates the skill and does not touch the roles that may be needed to use the skill. The new default behavior works as follows:
+
+    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Zurich Patch 4\): Any previously unconfigured skill is turned on automatically \(the skill was never turned on, then off again\). Previously configured skills that were turned on, then off, remain inactive.
+-   **[Configure Impact with Guided Setup](https://www.servicenow.com/docs/access?context=guided-setup-impact-in-app&family=zurich&ft:locale=en-US)**
+
+Use automated registration, the preferred method, to initiate the connection and registration to the Impact Delivery Instance provider instance in one combined step.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   **[Run Impact Guided Setup](https://www.servicenow.com/docs/access?context=guided-setup-impact-in-app&family=australia&ft:locale=en-US)**
+
+The Impact Guided Setup provides a more efficient, streamlined way for you to configure the Impact Store Application. For information about how to upgrade, see [Configuring Impact](https://www.servicenow.com/docs/access?context=configuring-impact-platform&family=australia&ft:locale=en-US).
+
+-   **[Prevent and resolve technical debt with AI](https://www.servicenow.com/docs/access?context=prevent-resolve-technical-debt-ai&family=australia&ft:locale=en-US)**
+
+Review enforcement messages for Update Set completion: Enforcement messages clarify which suite or scan type is required to meet completion criteria.Fix violations from JPMC issue analysis: Use new Scan Engine definitions that address real-world JPMC-identified violations.Deactivate base system Scan Engine definitions: Remove OOTB definitions from your instance without requiring an override.Sync exception reasons across instances: Synchronize exception reasons across multi-instance environments.Register your instance with streamlined guidance: Follow improved setup instructions for initial Scan Engine configuration.
+
+
+ -   **[Entitlements and usage](https://www.servicenow.com/docs/access?context=capabilities-map&family=australia&ft:locale=en-US)**
+
+Recommended capabilities has been renamed Squad-prioritized capabilities.
+
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Removed
+
+Between your current release family and Brazil, some Impact features or functionality were removed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Deprecations
+
+Between your current release family and Brazil, some Impact features or functionality were deprecated.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+The Expert Connect Accelerator is no longer supported as of Yokohama.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+Starting with Impact Zurich version 6.0.8 ServiceNow Store release, Proactive Code Check is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+ The Jumpstart Your Document Intelligence Accelerator has been removed.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+On-demand value report and Value potential accelerators have been removed.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Activation information
+
+Review information on how to activate Impact.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **Activation information**
+
+Impact is available for activation with a separate subscription. Your Customer Success Manager sets entitlement information for access.
+
+    -   Impact Delivery Instance is accessed using your unique portal URL. Your Impact Squad sends you login information to access your IDI portal.
+    -   For the Impact Store Application, see [Install the Impact Store Application from the ServiceNow Store](https://www.servicenow.com/docs/access?context=install-impact-innovation-lab&family=yokohama&ft:locale=en-US) for activation details.
+    -   Proactive Code Check can be activated in your production and non-production instances. See [Configuring Proactive Code Check](https://www.servicenow.com/docs/access?context=configuring-proactive-code-check&family=yokohama&ft:locale=en-US) for details.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **Activation information**
+    -   **[Impact](https://www.servicenow.com/docs/access?context=impact-landing-page&family=zurich&ft:locale=en-US)**
+
+See [Impact packages](https://www.servicenow.com/docs/access?context=impact-packages&family=zurich&ft:locale=en-US) for information on package entitlement and features activation.
+
+See [Configuring Impact](https://www.servicenow.com/docs/access?context=configuring-impact&family=zurich&ft:locale=en-US) for details on configuring Impact and its features.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   **Activation information**
+    -   **[Impact](https://www.servicenow.com/docs/access?context=impact-landing-page&family=australia&ft:locale=en-US)**
+
+For information on package entitlement and features activation, see [\[Placeholder link text to key impact-packages1\]](https://www.servicenow.com/docs/access?context=impact-packages1&family=australia&ft:locale=en-US).
+
+For details on configuring Impact and its features, see [\[Placeholder link text to key configuring-impact-platform\]](https://www.servicenow.com/docs/access?context=configuring-impact-platform&family=australia&ft:locale=en-US).
+
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+-   **Activation information**
+
+Install Impact by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
+
+
+</td></tr></tbody>
+</table>## Additional requirements
+
+If any additional requirements were introduced or changed for Impact we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Browser requirements
+
+If any specific browser requirements were introduced or changed for Impact we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Accessibility information
+
+Review details on accessibility information for Impact, such as specific requirements or compliance levels.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Localization information
+
+If there are specific localization considerations for Impact we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Highlight information
+
+If there are specific highlight considerations for Impact we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+-   Jumpstart your understanding and assessment of ServiceNow platform capabilities with new Accelerators that provide a demonstration of the possibilities and capabilities with instance features and maximize value exactly where you need it.
+-   Jumpstart your understanding and assessment of ServiceNow platform capabilities with new Accelerators that provide a demonstration of the possibilities and capabilities with instance features and maximize value exactly where you need it.
+-   View monthly and quarterly trends and curated recommendations for auto-generated outcomes with the updated Objectives and outcomes, formerly Value Blueprint.
+
+ See [Impact](https://www.servicenow.com/docs/access?context=impact-landing-page&family=xanadu&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   Adopt ServiceNow products and measure their value, gain access to expert guidance and personalized recommendations, maintain a high-performing platform, and enhance business continuity with 24 x 7 technical support.
+-   Access the Impact Store Application integrated within your ServiceNow instance and connected to the Impact Delivery Instance \(IDI\) portal.
+-   Use Proactive Code Check to track compliance against leading practices for coding and organizational standards.
+-   Jumpstart your understanding and assessment of ServiceNow platform capabilities with new Accelerators that provide a demonstration of the possibilities and capabilities with instance features and maximize value exactly where you need it.
+
+ See [Impact Store Application](https://www.servicenow.com/docs/access?context=impact-store-app&family=yokohama&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   Manage health checks, findings, and remediation workflows with AI-powered tools directly on-platform to accelerate insights and remediation with the new Platform Health Scan Engine for the Impact Store Application.
+-   Use the automated setup method to simplify the Impact Store Application configuration.
+-   Deploy the AI Control Tower Accelerator to help customers configure governance for AI investments and demonstrate strategic value.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   Version 9.0.0
+    -   [Initiate update set scans](https://www.servicenow.com/docs/access?context=initiate-update-set-scans&family=australia&ft:locale=en-US): Use Full Scan or Suite Scan to validate update sets against all active definitions or a curated suite.
+    -   View the full financial story behind every product outcome using product value. The new [Product value](https://www.servicenow.com/docs/access?context=product-value-overview&family=australia&ft:locale=en-US) page brings together operational metrics, monetized value, trend charts, calculation transparency, and the assumptions behind them.
+-   Version 8.0.0
+    -   Identify problematic lines and receive proposed solutions by engaging an AI analysis panel with the [Prevent technical debt with real-time code fixes](https://www.servicenow.com/docs/access?context=real-time-prevention-monitoring&family=australia&ft:locale=en-US) feature.
+    -   Submit exception requests directly from Recommend-level findings [Submit exceptions for Scan Engine findings](https://www.servicenow.com/docs/access?context=submitting-exception-reasons-scan-engine&family=australia&ft:locale=en-US)
+    -   Get a high-level estimate of your Impact app storage usage so you can proactively plan your storage management.
+    -   Discover, filter, launch, and complete accelerators independently and also download a self-served 90-day action plan with On-demand accelerators.
+    -   Manage Impact accounts with the dedicated partner role support where partners can manage Impact on behalf of customers without manual intervention.
+-   Version 7.0.0:
+    -   Streamline the Impact Store Application configuration with the updated Impact guided setup.
+    -   Proactively identify, prioritize, and resolve technical debt with the Impact Health Agent, a collection of AI-native tools embedded within the Impact Platform Health experience.
+    -   Provide access to partners with the impact\_partner\_role.
+    -   View true applications capabilities organized by product lines.
+
+ See [Impact](https://www.servicenow.com/docs/access?context=impact-landing-page&family=australia&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+-   Achieve success your way with tailored resources, driving outcomes aligned to your business priorities.
+-   Accelerate business outcomes faster with the AI control tower, reducing time to measurable impact.
+-   Adopt ServiceNow products and AI innovations rapidly, ensuring your team moves at the speed of transformation.
+-   Maximize your ServiceNow investment, proving its value to stakeholders through measurable adoption and outcomes.
+-   Improve platform health with proactive guidance, keeping your instance optimized and future-ready.
+
+ See [Impact](https://www.servicenow.com/docs/access?context=impact-landing-page&family=brazil&ft:locale=en-US) for more information.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/rn-combined-intro.md)
+

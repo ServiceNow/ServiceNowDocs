@@ -3,9 +3,9 @@ title: View quote analytics on Partner portal
 description: View detailed analytics related to all the quotes associated to a channel partner on the Partner portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/view-quote-analytics-on-partner-portal.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Partner Relationship Management, Use, Sales Customer Relationship Management]
 ---
@@ -94,10 +94,10 @@ The top 5 quotes filtered by highest amount value.
 </td></tr></tbody>
 </table>4.  You can also view all the active quotes from highest to lowest in quote amount.
 
-    To learn more about the fields on the Quotes list, see [Quote details forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-detail-form-fields.md).
+    To learn more about the fields on the Quotes list, see [Quote details forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-detail-form-fields.md).
 
 5.  View all the quotes that the user has access to from the **All Quotes** tab.
 
 
-**Parent Topic:**[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-partner-relationship-management.md)
+**Parent Topic:**[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-partner-relationship-management.md)
 

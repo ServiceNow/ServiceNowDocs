@@ -3,13 +3,13 @@ title: Complete a single scan inventory audit using the ServiceNow Agent app
 description: Scan your inventory assets by using the ServiceNow Agent app for single scan audit records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/scan-assets-agent-app.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Audit hardware asset inventory, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Audit hardware asset inventory, Inventory and stockroom operations, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Complete a single scan inventory audit using the ServiceNow Agent app
@@ -48,7 +48,7 @@ Role required: asset, sn\_itam\_common.asset\_audit\_admin or sn\_itam\_common.a
 
     The List of assets and models screen is displayed, showing the scanned asset record.
 
-    **Note:** When the scanned asset record doesn't exist in your ServiceNow instance, the List of assets and models screen is empty. You can create an asset record for the new asset in the inventory. For more information, see [Create an asset from the inventory audit screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/inventory-audit-create-asset.md).
+    **Note:** When the scanned asset record doesn't exist in your ServiceNow instance, the List of assets and models screen is empty. You can create an asset record for the new asset in the inventory. For more information, see [Create an asset from the inventory audit screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/inventory-audit-create-asset.md).
 
 10. On the List of assets and models screen, slide the scanned asset record to the left side.
 
@@ -73,19 +73,19 @@ Role required: asset, sn\_itam\_common.asset\_audit\_admin or sn\_itam\_common.a
 
 ## Result
 
-The audit result field values are updated on the **Details** tab screen. For a detailed field description, see [Audit results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/audit-results.md).
+The audit result field values are updated on the **Details** tab screen. For a detailed field description, see [Audit results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/audit-results.md).
 
 ## What to do next
 
 -   Review the inventory audit result.
 -   Tap the audit result field values to view the detailed list of the assets.
 
-**Parent Topic:**[Audit hardware asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-inventory-audit.md)
+**Parent Topic:**[Audit hardware asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/ham-inventory-audit.md)
 
 **Related topics**  
 
 
-[View audit results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/view-audit-results.md)
+[View audit results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/view-audit-results.md)
 
-[Create an asset from the inventory audit screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/inventory-audit-create-asset.md)
+[Create an asset from the inventory audit screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/inventory-audit-create-asset.md)
 

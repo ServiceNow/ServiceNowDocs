@@ -3,11 +3,11 @@ title: Create an Oracle connection
 description: Establish a zero copy connection to an external Oracle database in Zero Copy Connector Hub.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-oracle-connection-zcc.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Oracle, Primary connectors, Zero Copy Connectors, Workflow Data Fabric]
+breadcrumb: [Oracle, Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
 # Create an Oracle connection
@@ -95,15 +95,15 @@ Option to enable table statistics. Optimize SQL queries using table statistics b
 </td></tr></tbody>
 </table>4.  Configure the authentication method that you want to use with Oracle.
 
-<table id="choicetable_hsy_pmb_2fc"><thead><tr><th align="left" id="d680851e236">
+<table id="choicetable_hsy_pmb_2fc"><thead><tr><th align="left" id="d673866e236">
 
 Option
 
-</th><th align="left" id="d680851e239">
+</th><th align="left" id="d673866e239">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d680851e245">
+</th></tr></thead><tbody><tr><td id="d673866e245">
 
 **Username / Password**
 
@@ -115,7 +115,7 @@ Option to use basic authentication.
 2.  Enter the database password associated with the username.
 
 
-</td></tr><tr><td id="d680851e266">
+</td></tr><tr><td id="d673866e266">
 
 **OAuth**
 
@@ -125,22 +125,22 @@ Option to use OAuth authentication.
 
  OAuth authentication requires an OAuth entity profile configured in the Application Registries \[oauth\_entity\] table with your Oracle or IdP credentials. Oracle supports only the Access Token credential type.
 
- This option keeps credentials within the instance and uses the ServiceNow AI Platform OAuth framework for token lifecycle management. For details on creating an OAuth entity profile, see [Use a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_UseAThirdPartyOAuthProvider.md). When configuring the profile, select **Client Credentials** as the grant type. If your OAuth provider requires scopes, add them on the OAuth Entity Scopes tab. Consult your data source or identity provider documentation for the required scope values.
+ This option keeps credentials within the instance and uses the ServiceNow AI Platform OAuth framework for token lifecycle management. For details on creating an OAuth entity profile, see [Use a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/t_UseAThirdPartyOAuthProvider.md). When configuring the profile, select **Client Credentials** as the grant type. If your OAuth provider requires scopes, add them on the OAuth Entity Scopes tab. Consult your data source or identity provider documentation for the required scope values.
 
  Select the OAuth entity profile for your Oracle or IdP service principal.
 
 </td></tr></tbody>
 </table>5.  Configure connection security.
 
-<table id="choicetable_ejt_ldh_b3c"><thead><tr><th align="left" id="d680851e306">
+<table id="choicetable_ejt_ldh_b3c"><thead><tr><th align="left" id="d673866e306">
 
 Option
 
-</th><th align="left" id="d680851e309">
+</th><th align="left" id="d673866e309">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d680851e315">
+</th></tr></thead><tbody><tr><td id="d673866e315">
 
 **Default**
 
@@ -148,7 +148,7 @@ Description
 
 Select this option to use Java security CA certificates to establish a secure connection with the data source.This option uses public certificates that are already available in the Java security truststore.
 
-</td></tr><tr><td id="d680851e326">
+</td></tr><tr><td id="d673866e326">
 
 **mTLS**
 
@@ -159,15 +159,15 @@ Select this option if your data source requires two-way SSL and uses its own cer
 </td></tr></tbody>
 </table>6.  If you selected mTLS, select a keystore type and configure the required certificates.
 
-<table id="choicetable_zzc_z2h_b3c"><thead><tr><th align="left" id="d680851e345">
+<table id="choicetable_zzc_z2h_b3c"><thead><tr><th align="left" id="d673866e345">
 
 Option
 
-</th><th align="left" id="d680851e348">
+</th><th align="left" id="d673866e348">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d680851e354">
+</th></tr></thead><tbody><tr><td id="d673866e354">
 
 **Keystore - PEM \(secure\)**
 
@@ -202,7 +202,7 @@ and ending with:
 2.  Enter the PEM file password associated with the wallet.
 
 
-</td></tr><tr><td id="d680851e394">
+</td></tr><tr><td id="d673866e394">
 
 **Keystore - JKS \(secure\)**
 
@@ -239,7 +239,7 @@ A test connection is made to the external data source, verifying that the connec
 
 ## What to do next
 
-If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-access-connection-zcc.md).
+If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/manage-access-connection-zcc.md).
 
 If the connection fails, verify the connection details with your data source administrator and try again.
 

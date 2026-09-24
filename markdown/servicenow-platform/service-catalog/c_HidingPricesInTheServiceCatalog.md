@@ -3,11 +3,11 @@ title: Hiding prices in the service catalog
 description: Administrators can configure options to hide catalog item prices in the service catalog for listings of specific items, for specific types of items, or for all items.Configure service catalog properties to hide prices globally.You can hide prices for specific items to match your organizational requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/c\_HidingPricesInTheServiceCatalog.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Catalog customization, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -23,7 +23,7 @@ Item prices can appear in the following locations:
 -   The **Shopping Cart** panel.
 -   The Edit Cart, Order Confirmation, and Order Status pages.
 
-**Parent Topic:**[Service Catalog customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/p_ServiceCatalogCustomization.md)
+**Parent Topic:**[Service Catalog customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/p_ServiceCatalogCustomization.md)
 
 ## Hide prices globally
 

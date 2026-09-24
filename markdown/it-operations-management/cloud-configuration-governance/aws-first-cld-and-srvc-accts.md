@@ -3,11 +3,11 @@ title: Set up a cloud account and service account for AWS
 description: A service account is a secure record on your instance that stores the credential and access information for your provider account. Discovery uses the information to access your provider account to get data on each resource in each specified datacenter. A cloud account is the logical representation in Cloud Provisioning and Governance of all or part of your managed cloud infrastructure. A cloud account can include multiple service accounts — even service accounts from different providers. For each service account, you specify which datacenters to include in the cloud account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/aws-first-cld-and-srvc-accts.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Day 1 setup guide for Amazon Web Services on Cloud Provisioning and Governance, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -78,7 +78,7 @@ Discovery credentials
 
 The credentials needed for ServiceNow applications to access this account. You may configure this field at a later stage, while configuring access to AWS accounts.
 
- -   If you [configured AWS credentials at ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aws-create-creds-cloud-mgt.md) , select the magnifying glass icon, and then select the name of the relevant AWS credential.
+ -   If you [configured AWS credentials at ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aws-create-creds-cloud-mgt.md) , select the magnifying glass icon, and then select the name of the relevant AWS credential.
 -   To use other AWS accounts to access this account, leave the field blank. For example, you don't need to specify the AWS credentials for accounts assuming IAM roles or member accounts using their management account for access.
 
 
@@ -132,7 +132,7 @@ Is master account
 
 Management account flag.It appears when you select **AWS datacenter** from the Datacenter Type drop-down. Select the check box to associate the AWS service account with the management account. Select this check box only for accounts that you previously configured in the AWS Management Console as management accounts with some member accounts belonging to them. See the [AWS documentation](https://aws.amazon.com/documentation/) for information on AWS Organizations.
 
-**Note:** You will need to setup the correct permission in AWS or the Organization role for a standard credential. For more information, see [Control AWS access and permissions using policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aws-create-user-policy-cloud-mgt.md).
+**Note:** You will need to setup the correct permission in AWS or the Organization role for a standard credential. For more information, see [Control AWS access and permissions using policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aws-create-user-policy-cloud-mgt.md).
 
 </td></tr><tr><td>
 
@@ -152,7 +152,7 @@ Name of the trusted account. Configure this field only for accounts that don't u
     **Note:**
 
     -   Select only those LDCs/Regions where your infrastructure resources are present. If you don't have any resources under these new data centers, exclude them while you run the full discovery.
-    -   To discover resources in additional regions, raise an access request to the required endpoints. Contact GCP Support for access.
+    -   To discover resources in certain regions or LDCs, raise an access request to the required endpoints with GCP Support. These regions include North America \(US East, US West, and Canada Central\), South America, Europe, Africa, Middle East, and Asia Pacific.
     The Cloud Account dashboard appears. The datacenters that you selected appear on the **Datacenters** tab.
 
 7.  Click a datacenter.
@@ -171,7 +171,7 @@ Name of the trusted account. Configure this field only for accounts that don't u
 **Related topics**  
 
 
-[Set up an additional cloud account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/add-cloud-account-cloud-mgt.md)
+[Set up an additional cloud account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/add-cloud-account-cloud-mgt.md)
 
-[Add an AWS service account to the cloud account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/aws-add-service-account-cloud-mgt.md)
+[Add an AWS service account to the cloud account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/aws-add-service-account-cloud-mgt.md)
 

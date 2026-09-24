@@ -3,13 +3,13 @@ title: Review solution similarity examples
 description: Review the similarity examples generated during solution training to determine whether the similarity score threshold meets your business requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/review-similarity-examples.html
-release: australia
+release: brazil
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [View solution training progress, Creating and training solutions, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [View solution training progress, Creating and training solutions, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Review solution similarity examples
@@ -54,5 +54,5 @@ On domain-separated instances, the following procedure displays records from all
 
 ## What to do next
 
-If you decide to adjust the Similarity Score Threshold for your similarity solution, see [update its similarity solution threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/update-similarity-threshold.md).
+If you decide to adjust the Similarity Score Threshold for your similarity solution, see [update its similarity solution threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/predictive-intelligence/update-similarity-threshold.md).
 

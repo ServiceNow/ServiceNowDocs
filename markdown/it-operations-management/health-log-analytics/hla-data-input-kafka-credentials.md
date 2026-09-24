@@ -3,11 +3,11 @@ title: Kafka SSL credentials fields
 description: Description of the fields on the Kafka SSL credentials form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-kafka-credentials.html
-release: australia
+release: brazil
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Apache Kafka data input configuration fields, Data input configuration fields, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -44,7 +44,7 @@ SASL Mechanism
 
 </td><td>
 
-The SASL authentication mechanism to be used by the Kafka client. The options are: -   PLAIN
+The SASL authentication mechanism to be used by the Kafka client. The options are:-   PLAIN
 -   SCRAM-SHA-256
 -   SCRAM-SHA-512
 -   OAUTHBEARER
@@ -59,7 +59,7 @@ Token endpoint URL
 
 The token provider URL where credentials are sent to fetch access tokens. This value is defined in the client properties file.
 
-This field appears only when the **SASL Mechanism** is **OAUTHBEARER**.
+ This field appears only when the **SASL Mechanism** is **OAUTHBEARER**.
 
 </td></tr><tr><td>
 
@@ -69,7 +69,7 @@ Client ID
 
 Unique, public identifier for the application. The authorization server uses it to recognize the calling application. This value is defined in the client properties file.
 
-This field appears only when the **SASL Mechanism** is **OAUTHBEARER**.
+ This field appears only when the **SASL Mechanism** is **OAUTHBEARER**.
 
 </td></tr><tr><td>
 
@@ -79,7 +79,7 @@ Client Secret
 
 Private password known only to the application and the authorization server. Used to prove the application's identity. This value is defined in the client properties file.
 
-This field appears only when the **SASL Mechanism** is **OAUTHBEARER**.
+ This field appears only when the **SASL Mechanism** is **OAUTHBEARER**.
 
 </td></tr><tr><td>
 
@@ -89,7 +89,7 @@ Scope
 
 Defines the level of access or permissions requested by the application.
 
-This field appears only when the **SASL Mechanism** is **OAUTHBEARER**.
+ This field appears only when the **SASL Mechanism** is **OAUTHBEARER**.
 
 </td></tr><tr><td>
 
@@ -99,7 +99,7 @@ OAUTH extensions
 
 Custom metadata or additional parameters for the token request or validation process, in key-value pairs.
 
-This field appears only when the **SASL Mechanism** is **OAUTHBEARER**.
+ This field appears only when the **SASL Mechanism** is **OAUTHBEARER**.
 
 </td></tr><tr><td>
 
@@ -199,16 +199,16 @@ Semicolon-separated string of additional Kafka consumer properties. For example:
 
 </th></tr></thead><tbody><tr><td>
 
-SASL Mechanism
+SASL mechanism
 
 </td><td>
 
-The SASL authentication mechanism to be used by the Kafka client. The options are: -   PLAIN
+The SASL authentication mechanism to be used by the Kafka client.The options are:-   PLAIN
 -   SCRAM-SHA-256
 -   SCRAM-SHA-512
 -   OAUTHBEARER
 
-Default: PLAIN.
+ Default: PLAIN.
 
 </td></tr><tr><td>
 
@@ -218,7 +218,7 @@ Token endpoint URL
 
 The token provider URL where credentials are sent to fetch access tokens. This value is defined in the client properties file.
 
-This field appears only when the **SASL Mechanism** is **OAUTHBEARER**.
+ This field appears only when the **SASL Mechanism** is **OAUTHBEARER**.
 
 </td></tr><tr><td>
 
@@ -228,7 +228,7 @@ Client ID
 
 Unique, public identifier for the application. The authorization server uses it to recognize the calling application. This value is defined in the client properties file.
 
-This field appears only when the **SASL Mechanism** is **OAUTHBEARER**.
+ This field appears only when the **SASL Mechanism** is **OAUTHBEARER**.
 
 </td></tr><tr><td>
 
@@ -238,7 +238,7 @@ Client Secret
 
 Private password known only to the application and the authorization server. Used to prove the application's identity. This value is defined in the client properties file.
 
-This field appears only when the **SASL Mechanism** is **OAUTHBEARER**.
+ This field appears only when the **SASL Mechanism** is **OAUTHBEARER**.
 
 </td></tr><tr><td>
 
@@ -248,7 +248,7 @@ Scope
 
 Defines the level of access or permissions requested by the application.
 
-This field appears only when the **SASL Mechanism** is **OAUTHBEARER**.
+ This field appears only when the **SASL Mechanism** is **OAUTHBEARER**.
 
 </td></tr><tr><td>
 
@@ -258,7 +258,7 @@ OAUTH extensions
 
 Custom metadata or additional parameters for the token request or validation process, in key-value pairs.
 
-This field appears only when the **SASL Mechanism** is **OAUTHBEARER**.
+ This field appears only when the **SASL Mechanism** is **OAUTHBEARER**.
 
 </td></tr><tr><td>
 
@@ -292,5 +292,5 @@ Additional Kafka consumer properties
 Semicolon-separated string of additional Kafka consumer properties. For example: ssl.protocol=TLSv1.2;ssl.enabled.protocols=TLSv1.2,TLSv1.1
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Apache Kafka data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-kafka-ref.md)
+</table>**Parent Topic:**[Apache Kafka data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-data-input-kafka-ref.md)
 

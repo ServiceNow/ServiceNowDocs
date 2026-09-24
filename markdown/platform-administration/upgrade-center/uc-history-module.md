@@ -3,11 +3,11 @@ title: Upgrade History module
 description: The Upgrade History module tracks every upgrade made to an instance. You can also view the complete report of an old upgrade or a recently completed upgrade version using this module.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-center/uc-history-module.html
-release: australia
+release: brazil
 product: Upgrade Center
 classification: upgrade-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring Upgrade Center, Upgrade Center, Upgrade, Administer the ServiceNow AI Platform]
 ---
@@ -66,11 +66,11 @@ Copies to review
 Total number of copied records to review whose base records have been upgraded
 
 </td></tr></tbody>
-</table>Select Skipped Record VTB related link to view and manage skipped records over VTB. See [Skipped Records visual task board \(VTB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-vtb-history.md) for more information.
+</table>Select Skipped Record VTB related link to view and manage skipped records over VTB. See [Skipped Records visual task board \(VTB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-center/uc-vtb-history.md) for more information.
 
-Select View Upgrade Plan History related link to view the details of the upgrade plan configuration. See [Upgrade Plan overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-upgrade-plan.md) for more information.
+Select View Upgrade Plan History related link to view the details of the upgrade plan configuration. See [Upgrade Plan overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-center/uc-upgrade-plan.md) for more information.
 
 Select View Upgrade Summary Report related link to view the summary of an older upgrade over Upgrade Monitor module.
 
-See [Review skipped records using related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-access-rl.md) for more information about related lists.
+See [Review skipped records using related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-center/uc-access-rl.md) for more information about related lists.
 

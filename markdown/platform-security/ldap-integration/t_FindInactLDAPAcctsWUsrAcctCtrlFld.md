@@ -3,11 +3,11 @@ title: Find inactive LDAP accounts by using the userAccountControl field
 description: Identify when an Active Directory \(AD\) user is deleted \(or made inactive\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/t\_FindInactLDAPAcctsWUsrAcctCtrlFld.html
-release: australia
+release: brazil
 product: LDAP integration
 classification: ldap-integration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Inactive LDAP user accounts, LDAP record synchronization, LDAP integration, Authentication, Access Management]
 ---

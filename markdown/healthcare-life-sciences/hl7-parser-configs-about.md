@@ -3,9 +3,9 @@ title: Parser configurations
 description: Parser configurations define which HL7 segments and fields ServiceNow extracts from a received message. Each value is written to an output path in the message log's parsed data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hl7-parser-configs-about.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-05-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [parser configuration, HL7 parser, parser config]
 breadcrumb: [HL7 v2.x Integration, Healthcare Integrations, Healthcare and Life Sciences]

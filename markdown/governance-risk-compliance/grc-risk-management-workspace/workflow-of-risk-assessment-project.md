@@ -3,11 +3,11 @@ title: Workflow of risk assessment project
 description: The risk assessment project workflow is a structured process to assess multiple risks and controls simultaneously using Risk Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/workflow-of-risk-assessment-project.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Risk assessment project, Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -25,10 +25,10 @@ The following diagram shows the workflow of a risk assessment project.
 The stages of a risk assessment project are as follows:
 
 1.  **Define**: In this stage, the risk assessment project is created. A risk assessment project user \(\[sn\_risk\_advanced.risk\_asmt\_project\_user\]\) or a risk assessment project manager \(\[sn\_risk\_advanced.risk\_asmt\_project\_manager\]\) can create a risk assessment project and complete the following tasks:
-    1.  Define the context by including the assessable entity and the risk assessment methodology \(RAM\).
+    1.  Define the context by including the risk assessment methodology \(RAM\), one or more entity classes, and one or more assessable entities.
     2.  Specify the project name and description.
     3.  Identify and add the relevant stakeholders, including the project owner, assessors, and watchlist users.
-2.  **Risk scoping**: In this stage, the risk assessment project owner is responsible for defining the risks to be assessed. The following options are available to map risks for the selected composite or single entity:
+2.  **Risk scoping**: In this stage, the risk assessment project owner is responsible for defining the risks to be assessed. The following options are available to map risks for the selected composite, single, or multiple entities:Risks that are mapped to the selected entities are added to the project automatically.
     -   **Create risks from upstream entities**
 
         Option to add risks based on underlying relationships with selected entities. Risks are automatically mapped from the underlying entities. You can remove them without deleting them from the underlying entities. This option is specific to composite entities.
@@ -55,7 +55,7 @@ The stages of a risk assessment project are as follows:
         The project moves to the Assessment stage for the assessor to address identified issues and make necessary revisions.
 
 
-**Note:** After the project reaches the Completed state, you can create a new project with the same RAM and entity. When the new project reaches the Completed state, the old project moves to the Archived state.
+**Note:** After the project reaches the Completed state, you can create a project with the same RAM and entities. When the new project reaches the Completed state, the old project moves to the Archived state.You can't create a project for a RAM and entity combination that already has an active project in progress.
 
-**Parent Topic:**[Risk assessment project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-assessment-project.md)
+**Parent Topic:**[Risk assessment project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-assessment-project.md)
 

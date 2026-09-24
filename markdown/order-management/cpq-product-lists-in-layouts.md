@@ -3,7 +3,7 @@ title: Product lists in layouts
 description: Define and customize product lists in CPQ layouts to display data from bills of materials \(BOMs\) and product details. Configure list placement, columns, and display settings in the layout CSV file or the layout editor to present clear, structured product and pricing information to end users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-product-lists-in-layouts.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
@@ -78,5 +78,5 @@ For advanced BOM, enable **Use resizable columns** option to allow re-sizable co
 
 \[Omitted image "cpq-product-list-setup.png"\] Alt text: Product list properties
 
-For more information, see [Displaying multiple product lists in layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/displaying_multiple_productlists_in_layouts.md).
+For more information, see [Displaying multiple product lists in layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/displaying_multiple_productlists_in_layouts.md).
 

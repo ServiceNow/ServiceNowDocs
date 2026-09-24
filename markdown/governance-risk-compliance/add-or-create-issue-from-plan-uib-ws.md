@@ -3,9 +3,9 @@ title: Add or create an issue from a plan
 description: Add an existing issue or create an issue from a business continuity plan to track problems identified during continuity planning.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-or-create-issue-from-plan-uib-ws.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [BCM, issues, plan]
 breadcrumb: [Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
@@ -23,7 +23,7 @@ Role required: sn\_bcp.plan\_contributor, sn\_bcp.plan\_manager, or sn\_bcm.prog
 
 ## About this task
 
-The **Issues** related list appears on a plan record when GRC: Profiles is installed. For more information, see [Managing issues from Business Continuity Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/managing-issues-in-bcm.md).
+The **Issues** related list appears on a plan record when GRC: Profiles is installed. For more information, see [Managing issues from Business Continuity Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/managing-issues-in-bcm.md).
 
 ## Procedure
 
@@ -31,15 +31,15 @@ The **Issues** related list appears on a plan record when GRC: Profiles is insta
 
 2.  Complete the following steps to create or manage an issue from a plan record.
 
-<table id="choicetable_p55_b3s_jkc"><thead><tr><th align="left" id="d159828e109">
+<table id="choicetable_p55_b3s_jkc"><thead><tr><th align="left" id="d161938e109">
 
 Step
 
-</th><th align="left" id="d159828e112">
+</th><th align="left" id="d161938e112">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d159828e118">
+</th></tr></thead><tbody><tr><td id="d161938e118">
 
 **Create or add an issue from the plan record**
 
@@ -66,11 +66,13 @@ The classification, issue source, and issue source reference are set automatical
 
 Use this option when you want to associate an existing issue with the plan as an additional source. The plan is recorded as a secondary source of the issue.
 
+\[Omitted image "add-issue-from-plan.png"\] Alt text: Add issue from plan record.
+
 5.  To remove an issue, select it from the list and choose **Remove**.
 
 The issue association is removed from the plan; the issue record isn't deleted from the instance.
 
-</td></tr><tr><td id="d159828e188">
+</td></tr><tr><td id="d161938e193">
 
 **Link a plan from the issue record**
 
@@ -90,16 +92,16 @@ The issue association is removed from the plan; the issue record isn't deleted f
     \[Omitted image "pdf-template-updated-to-include-issues-section.png"\] Alt text: Issue details in the Plan report.
 
 
-**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
+**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
 
 **Related topics**  
 
 
-[Managing issues from Business Continuity Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/managing-issues-in-bcm.md)
+[Managing issues from Business Continuity Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/managing-issues-in-bcm.md)
 
-[Dependencies for integrating the Issues module with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/issues-bcm-dependencies.md)
+[Issues module integration dependencies with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/issues-bcm-dependencies.md)
 
-[Add or create an issue from an exercise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-or-create-issue-from-event-uib-ws.md)
+[Add or create an issue from an exercise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/add-or-create-issue-from-event-uib-ws.md)
 
-[Report an issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/report-grc-issue-frm-plan.md)
+[Report an issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/report-grc-issue-frm-plan.md)
 

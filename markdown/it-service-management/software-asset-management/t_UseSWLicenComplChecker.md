@@ -3,11 +3,11 @@ title: Check your software license compliance using the legacy Software License 
 description: You can check your software license compliance using the Software License Compliance Checker that is included in the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/t\_UseSWLicenComplChecker.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Legacy Software License Compliance Checker, Legacy Software Asset Management plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
@@ -38,5 +38,5 @@ Role required: sam
     \[Omitted image "SoftwareLicenseComplianceChecker.png"\] Alt text: Software Counters list
 
 
-**Parent Topic:**[Legacy Software License Compliance Checker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_SoftwareLicenseComplianceChecker.md)
+**Parent Topic:**[Legacy Software License Compliance Checker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management/c_SoftwareLicenseComplianceChecker.md)
 

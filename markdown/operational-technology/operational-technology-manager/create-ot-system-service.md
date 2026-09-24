@@ -3,11 +3,11 @@ title: Create an Operational Technology system service
 description: Create an Operational Technology \(OT\) system service to model a distributed control system \(DCS\) and all of its related components, such as control modules and programming logic controls \(PLCs\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/create-ot-system-service.html
-release: australia
+release: brazil
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Modeling an Operational Technology system service, Use, Operational Technology Manager, Operational Technology]
 ---
@@ -274,7 +274,7 @@ Status of the system service.
 
 ## What to do next
 
-Now you can add OT devices to the system service. For more information, see [Add a device to an Operational Technology system service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/add-devices-to-ot-system-service.md).
+Now you can add OT devices to the system service. For more information, see [Add a device to an Operational Technology system service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/add-devices-to-ot-system-service.md).
 
-**Parent Topic:**[Modeling an Operational Technology system service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/modeling-ot-system.md)
+**Parent Topic:**[Modeling an Operational Technology system service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/modeling-ot-system.md)
 

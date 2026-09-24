@@ -3,11 +3,11 @@ title: CMDB Compliance
 description: CMDB Compliance is a tool set that enables administrators to certify CMDB data for correctness and fix any discrepancies found in the data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/c\_Compliance.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Configuration Management Database \(CMDB\), Configuration Managemen
 
 CMDB Compliance is a tool set that enables administrators to certify CMDB data for correctness and fix any discrepancies found in the data.
 
-**Note:** For compliance in the context of internal business goals and objectives, and external legislation and regulations, see [Exploring Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-compliance.md).
+**Note:** For compliance in the context of internal business goals and objectives, and external legislation and regulations, see [Exploring Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-compliance.md).
 
 ## Certification options
 

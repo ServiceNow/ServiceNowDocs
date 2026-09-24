@@ -3,9 +3,9 @@ title: Create a retail organization
 description: Create a retail organization to enable management of hierarchical stores and franchises that simplifies store associate management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-create-retail-organization.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Retail]
 ---

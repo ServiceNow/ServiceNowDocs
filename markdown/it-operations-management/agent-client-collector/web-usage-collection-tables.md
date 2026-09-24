@@ -3,11 +3,11 @@ title: Web usage data collection tables and fields
 description: Description of the tables and their fields used when gathering web usage data from your Windows and macOS machines.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/web-usage-collection-tables.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-03-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [ACC-VC reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
@@ -177,5 +177,5 @@ Metric monitoring \(monitored\)
 Indicates whether the application is monitored for metrics. Read-only.Default: false
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector for Visibility Content reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.md)
+</table>**Parent Topic:**[Agent Client Collector for Visibility Content reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.md)
 

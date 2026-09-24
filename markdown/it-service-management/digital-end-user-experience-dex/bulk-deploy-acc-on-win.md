@@ -3,11 +3,11 @@ title: Install Agent Client Collector on Windows using Microsoft Intune
 description: Use Microsoft Intune to install Agent Client Collector \(ACC\) on multiple Windows devices at once, promoting consistent deployment across your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/bulk-deploy-acc-on-win.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Deploying DEX to employees, Configure, Digital End-User Experience, IT Service Management]
 ---
@@ -20,7 +20,8 @@ Use Microsoft Intune to install Agent Client Collector \(ACC\) on multiple Windo
 
 \[Omitted video\] Description: Installing ACC on user devices using Microsoft Intune
 
--   Create an agent registration key. For more information, see [Create an ACC registration key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/setup-acc.md).
+-   Create an agent registration key. For more information, see [Create an ACC registration key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/create-acc-reg-key.md).
+-   Uninstall the ACC agent from your candidate test devices. For more information, see [Uninstall the Agent Client Collector agent from a device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/uninstall-acc-agent.md).
 
 Role required: agent\_client\_collector\_admin
 
@@ -28,11 +29,13 @@ Role required: agent\_client\_collector\_admin
 
 The following procedure describes how to mass-deploy ACC using Microsoft Intune. Your organization might have a different method to accomplish this task.
 
+To mass-deploy ACC using Microsoft Configuration Manager instead, see [Bulk deploy Agent Client Collector on Windows using Microsoft Configuration Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/bulk-deploy-acc-on-win-mcm.md).
+
 ## Procedure
 
 1.  On the ServiceNow instance, download the installation package:
 
-    1.  Navigate to **Self-Service** &gt; **Agent Client Collector** &gt; **Deployment** &gt; **Agent Downloads**.
+    1.  Navigate to **All** &gt; **Agent Client Collector** &gt; **Deployment** &gt; **Agent Downloads**.
 
     2.  Download the MSI installer by selecting the Download icon \(\[Omitted image "icon-download-blue.png"\]\) under the Windows Downloads section.
 
@@ -40,7 +43,7 @@ The following procedure describes how to mass-deploy ACC using Microsoft Intune.
 
 2.  In Microsoft Intune, navigate to **Apps** &gt; **Windows**.
 
-3.  Select **+ Create**.
+3.  Select **Create**.
 
 4.  From the **Select app type** drop-down menu, select **Line-of-business app**, then click **Select**.
 
@@ -70,9 +73,9 @@ Complete the required fields as shown in the following procedure.1.  Name your a
 4.  Paste the command that you copied earlier into **Command-line arguments** and remove content before `/quiet`.
 5.  In the command string `/quiet /qn /norestart CONNECT_WITHOUT_MID="true" ACC_CNC="*ACC\_CNC*" REGISTRATION_KEY="*REGISTRATION KEY*" INSTANCE_URL="*INSTANCE URL*" LOCALUSERNAME="*local user name*"`, confirm or enter the variable parameters as follows:
     -   ACC\_CNC: one of the following gateway URLs, based on your location:
-        -   AMER \(Americas\): `itomcnc-prod-gateway.amer.sncapps.service-now.com:443`
-        -   EMEA \(Europe\): `itomcnc-prod-gateway.emea.sncapps.service-now.com:443`
-        -   APAC \(Asia Pacific\): `itomcnc-prod-gateway.apac.sncapps.service-now.com:443`
+        -   AMER \(Americas\): `itomcnc-prod-gateway-amer.sncapps.service-now.com:443`
+        -   EMEA \(Europe\): `itomcnc-prod-gateway-emea.sncapps.service-now.com:443`
+        -   APAC \(Asia Pacific\): `itomcnc-prod-gateway-apac.sncapps.service-now.com:443`
     -   REGISTRATION KEY: ACC registration key
     -   INSTANCE\_URL: URL that contains your ServiceNow instance name
     -   LOCALUSERNAME: `SYSTEM`

@@ -3,9 +3,9 @@ title: Create a new help context
 description: You can create new help contexts to supplement or replace the default help contexts. For example, if your organization has heavily customized a form, you might create a new help context for that form. The customized help context could link to more relevant information, such as a company knowledge base article.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_CreateANewHelpContext.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Context-sensitive help, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -64,6 +64,8 @@ Document
 
 Click the reference lookup icon \(\[Omitted image "IconReferencelookup.png"\] Alt text: Reference lookup icon\) to open the document selection dialog box \(pictured\). Select the table and document \(record\) for this help context.
 
+ \[Omitted image "select-the-document.png"\] Alt text: Help context document select
+
  This field is only visible if you have selected **Record** as the **Type**.
 
 </td></tr><tr><td>
@@ -72,7 +74,7 @@ Language
 
 </td><td>
 
-Select the language of the help page to which you are linking. The choices available depend on which I18n Translation plugins you have activated. For more information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateALanguage.md).
+Select the language of the help page to which you are linking. The choices available depend on which I18n Translation plugins you have activated. For more information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivateALanguage.md).
 
  This field allows you to create multiple help contexts for the same form, list, or record, each directing to a help page in a different language. For example, you might have two help contexts for Form X: one for English and the other for Spanish. If a user whose language is set to Spanish clicks the help icon while viewing Form X, the help page defined in the Spanish help context opens.
 
@@ -98,7 +100,7 @@ URL or page name
 
 </td><td>
 
-Identifies the topic to display when a user clicks the help icon while viewing a form, list, or record. You can enter the complete URL of the help page or just the target file name if you set a [base URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ContextSensitiveHelp.md) in the **help.base.default** system property.
+Identifies the topic to display when a user clicks the help icon while viewing a form, list, or record. You can enter the complete URL of the help page or just the target file name if you set a [base URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ContextSensitiveHelp.md) in the **help.base.default** system property.
 
 </td></tr></tbody>
 </table>    **Note:** If you reconfigure the fields on the form, you see the available fields **Plugin ID** and **System Property Base URL**. Do not use these fields. They are for internal use only.
@@ -106,12 +108,12 @@ Identifies the topic to display when a user clicks the help icon while viewing a
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Context-sensitive help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ContextSensitiveHelp.md)
+**Parent Topic:**[Context-sensitive help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ContextSensitiveHelp.md)
 
 **Related topics**  
 
 
 [Help context types and prioritization]()
 
-[Context-sensitive help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ContextSensitiveHelp.md)
+[Context-sensitive help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ContextSensitiveHelp.md)
 

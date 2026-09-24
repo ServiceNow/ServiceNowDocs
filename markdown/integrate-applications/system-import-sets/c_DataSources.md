@@ -3,11 +3,11 @@ title: Data sources
 description: Data sources are used to create an import set so that data can be processed, if necessary, prior to being mapped onto a production table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/c\_DataSources.html
-release: australia
+release: brazil
 product: System Import Sets
 classification: system-import-sets
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Import sets, Imports, Workflow Data Fabric]
 ---

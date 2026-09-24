@@ -3,9 +3,9 @@ title: Activate AI Data Explorer skills
 description: Enable AI Data Explorer skills under AI skills for Data and Analytics to give users AI-assisted, shared spaces to explore data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/activate-aide-explorer.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
@@ -18,9 +18,9 @@ Enable AI Data Explorer skills under AI skills for Data and Analytics to give us
 
 The correct Workflow Data Fabric entitlement is required.
 
-**Important:** These generative AI skills are turned on by default. The skills will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** These generative AI skills are turned on by default. The skills will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
-The Query Generation skills "analytics query generation" and "analytics insight generation" are required. To support queries on indicator data, the Query Generation skill "analytics query generation for indicators" is required. These skills are active by default. For more information, see [Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/enable-query-generation.md).
+The Query Generation skills "analytics query generation" and "analytics insight generation" are required. To support queries on indicator data, the Query Generation skill "analytics query generation for indicators" is required. These skills are active by default. For more information, see [Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/enable-query-generation.md).
 
 Role required: now\_assist\_explorer\_admin or higher
 
@@ -55,9 +55,9 @@ Assign the now\_assist\_explorer\_user role, and activate the AI Data Explorer s
 
 7.  Configure the analytics exploration skill.
 
-    1.  In the **Advanced analysis** page, you can activate record-level analysis or deactivate indicator support.
+    1.  In the **Advanced options** page, you can activate record-level analysis, or indicator support.
 
-        For record-level analysis, you can also set which tables it applies to. For more information, see [Configure record level analysis in AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/record-level-analysis.md) and [Deactivate indicator support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/aide-deactivate-indicator-support.md).
+        For record-level analysis, you can also set which tables it applies to. For more information, see [Configure record level analysis in AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/record-level-analysis.md) and [Deactivate indicator support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/aide-deactivate-indicator-support.md).
 
     2.  Select **Save and continue**.
 
@@ -76,8 +76,6 @@ Assign the now\_assist\_explorer\_user role, and activate the AI Data Explorer s
 8.  To enable users to generate recommendations based on the findings in their exploration, turn on the exploration action recommendation skill.
 
     You can set the roles that can generate recommendations. The default role is now\_assist\_explorer\_user. This role contains sn\_query\_gen.user, granting necessary access to Query Generation.
-
-    Requires Australia Patch 1 and the associated application upgrade.
 
 9.  To enable users to generate summaries of explorations, turn on the exploration summarization skill.
 
@@ -98,5 +96,5 @@ Assign the now\_assist\_explorer\_user role, and activate the AI Data Explorer s
     4.  Browse the review and select **Activate**.
 
 
-**Parent Topic:**[Configure AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-aide-explorer.md)
+**Parent Topic:**[Configure AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/configure-aide-explorer.md)
 

@@ -3,11 +3,11 @@ title: Contract life cycle
 description: From creation until closure, contracts follow a life cycle that determines which fields can be edited.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/contract-management/c\_ContractLifeCycle.html
-release: australia
+release: brazil
 product: Contract Management
 classification: contract-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Contract Management use, Contract Management, Asset Management common applications, IT Service Management]
 ---
@@ -18,7 +18,7 @@ From creation until closure, contracts follow a life cycle that determines which
 
 When a contract is in **Draft** state, almost all fields on the contract record can be edited. After a contract moves past the **Draft** state, certain date, renewal, extension, and financial fields become read-only. The **State** field and **Substate** field are read-only.
 
-The **Contract Compliance Checks** schedule job runs on the Contract \[ast\_contract\] table automatically each night. For more information about the scheduled job, see [Use Condition Check Definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/c_UseConditionCheckDefinitions.md). The scheduled job performs the following actions:
+The **Contract Compliance Checks** schedule job runs on the Contract \[ast\_contract\] table automatically each night. For more information about the scheduled job, see [Use Condition Check Definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/contract-management/c_UseConditionCheckDefinitions.md). The scheduled job performs the following actions:
 
 -   Changes the contract state to **Active** if the contract is approved and reaches the specified start date.
 -   Renews the contract if the contract is approved for renewal and reaches the specified start date.
@@ -56,7 +56,7 @@ In addition to a state, a contract can also have a substate.
 |Extension Rejected|Contract extension rejected by the approver.|
 |None|No substate is specified.|
 
-**Parent Topic:**[Contract Management use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/c_UseContractManagement.md)
+**Parent Topic:**[Contract Management use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/contract-management/c_UseContractManagement.md)
 
 **Related topics**  
 

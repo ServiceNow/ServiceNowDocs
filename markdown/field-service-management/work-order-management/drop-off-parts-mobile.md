@@ -3,11 +3,11 @@ title: View schedule and track the parts for drop-off
 description: You can view the parts that you have scheduled for drop off from your personal stockroom to another stockroom.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/drop-off-parts-mobile.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Inventory, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
@@ -32,6 +32,6 @@ The transfer order line for drop-off must be in **Draft** or **Requested** state
 
     You can view the list of parts that you have scheduled for drop off.
 
-    For more information on dropping off an asset, refer to [Drop off an asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/t_DropOffAnAsset.md).
+    For more information on dropping off an asset, refer to [Drop off an asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/t_DropOffAnAsset.md).
 
 

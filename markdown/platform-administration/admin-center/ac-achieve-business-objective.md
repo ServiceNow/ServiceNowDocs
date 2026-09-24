@@ -3,11 +3,11 @@ title: Adoption blueprints
 description: Adoption blueprints display the applications and features available to you and the recommended solutions to achieve business goals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/admin-center/ac-achieve-business-objective.html
-release: australia
+release: brazil
 product: Admin Center
 classification: admin-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Discovering adoption blueprints, Admin Center, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -30,7 +30,7 @@ Some of the goals based on which adoption blueprints are recommended:
 
 Each adoption blueprint displays the progress you have made in working towards your strategic goal. The number of applications that have been installed includes only the recommended applications.
 
-See [Select your adoption blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/admin-center/ac-select-business-objective.md) for more information.
+See [Select your adoption blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/admin-center/ac-select-business-objective.md) for more information.
 
 Select **Share** if you want to share information about adoption blueprints, recommended applications and features. You can share the information with more than one recipient. The recipients are notified via email. You can also view the people with whom the details have been shared previously.
 
@@ -57,10 +57,10 @@ In each of the tracks, the applications are mentioned in the following order:
 
 **Note:** The recommended applications don't need to be installed at all or in the order listed.
 
--   **[Select your adoption blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/admin-center/ac-select-business-objective.md)**  
+-   **[Select your adoption blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/admin-center/ac-select-business-objective.md)**  
 Select an adoption blueprint that matches one of the strategic goals of your organizations. It also gives you a list of recommended applications that can be installed in the right combination to realize your business goal.
--   **[Install applications for an adoption blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/admin-center/ac-install-app.md)**  
+-   **[Install applications for an adoption blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/admin-center/ac-install-app.md)**  
 Install applications from the selected adoption blueprint to work towards achieving a certain business goal of your organization.
 
-**Parent Topic:**[Discovering adoption blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/admin-center/ac-discover-ab.md)
+**Parent Topic:**[Discovering adoption blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/admin-center/ac-discover-ab.md)
 

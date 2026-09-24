@@ -3,11 +3,11 @@ title: Analytics Time sheet
 description: The Analytics Time sheet provides comprehensive time sheet activities and reports to the time card approvers and time card users. The dashboard uses Performance Analytics to provide a trend of historical data and regular reports. It gives an overview of the time sheet activities of resources, time sheet approval and rejection rate, over-allocated and under-allocated resource counts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/ppm-collaboration/time-sheet-dashboard.html
-release: australia
+release: brazil
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Project Portfolio Management Platform Analytics Solutions, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Project Portfolio Management Platform Analytics Solutions, Project 
 
 The Analytics Time sheet provides comprehensive time sheet activities and reports to the time card approvers and time card users. The dashboard uses Performance Analytics to provide a trend of historical data and regular reports. It gives an overview of the time sheet activities of resources, time sheet approval and rejection rate, over-allocated and under-allocated resource counts.
 
-**Important:** Starting with Australia release, **Time Sheet Dashboard** is renamed to **Analytics Time sheet** for new customers.
+**Important:** Starting with Brazil release, **Time Sheet Dashboard** is renamed to **Analytics Time sheet** for new customers.
 
 \[Omitted image "time-sheet-dashboard-overviewtab.png"\] Alt text: Screenshot for Overview tab of Analytics Time sheet
 
@@ -272,5 +272,5 @@ Bar chart \[Omitted image "column-icon.png"\] Alt text: Bar chart
 Time cards grouped by expense types: Capital Expense \(Capex\) and Operating Expense \(Opex\).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Project Portfolio Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/project-portfolio-content-pack.md)
+</table>**Parent Topic:**[Project Portfolio Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/project-portfolio-content-pack.md)
 

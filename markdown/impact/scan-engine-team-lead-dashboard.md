@@ -3,9 +3,9 @@ title: Scan Engine Team Lead dashboard
 description: The Team Lead dashboard includes trend charts and the following overview modules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/scan-engine-team-lead-dashboard.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Track Platform Health trends, Platform Health, Using Impact, Impact]
 ---
@@ -180,8 +180,6 @@ Update sets
 
 The following tables show the data source for each overview module and trend chart in the Team Lead dashboard.
 
-**Note:** All components require either the impact.development.team.lead or impact.app.admin role to use.
-
 | | |
 |---|---|
 |Total team technical debt|sn\_se\_summary\_scan\_detail|
@@ -273,5 +271,4 @@ Real time preventions trend
 sn\_se\_summary\_scan\_detail
 
 </td></tr></tbody>
-</table>**Note:** The Team Lead dashboard charts only include data for members underneath the defined team lead.
-
+</table>

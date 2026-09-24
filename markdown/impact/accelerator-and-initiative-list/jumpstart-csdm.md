@@ -3,11 +3,11 @@ title: Jumpstart Your CSDM: Foundation
 description: The Jumpstart Your Common Service Data Model \(CSDM\): Foundation Accelerator provides an overview and breakdown of the CSDM with a focus on Foundation data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-csdm.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
@@ -18,13 +18,11 @@ The Jumpstart Your Common Service Data Model \(CSDM\): Foundation Accelerator pr
 
 ## Accelerator Overview
 
-Jumpstart Your CSDM: Foundation provides Impact customers with an overview of the CSDM in  a comprehensible format. Through an applied demonstration, we illustrate how organizations can leverage this data framework to  configure ServiceNow products and applications by first populating their data into the appropriate Foundation tables. Additionally, this offering equips our  customers with essential ServiceNow resources and leading practice guides on how to get started using the CSDM.​ For more information on CSDM, see [Common Service Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/csdm-landing-page.md).
+Jumpstart Your CSDM: Foundation provides Impact customers with an overview of the CSDM in  a comprehensible format. Through an applied demonstration, we illustrate how organizations can leverage this data framework to  configure ServiceNow products and applications by first populating their data into the appropriate Foundation tables. Additionally, this offering equips our  customers with essential ServiceNow resources and leading practice guides on how to get started using the CSDM.​ For more information on CSDM, see [Common Service Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/csdm-landing-page.md).
 
 ## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
-
-Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 
 ## What You Get
 
@@ -35,7 +33,7 @@ Offered pursuant to the applicable ServiceNow Impact Package and Accelerator des
     -   Provisions a temporary instance
     -   Installs required CSDM plugins
     -   Assesses current CSDM alignment via Instance scan
--   **Customer Coaching Session \#1 \(up to 90 minutes\)**
+-   **Customer Coaching Session \#1 \(up to 1.5 hrs\)**
 
     Includes the following:
 
@@ -44,11 +42,13 @@ Offered pursuant to the applicable ServiceNow Impact Package and Accelerator des
     -   Demonstration of the CSDM Data Foundations Dashboard
     -   Discussion of assessment results
     -   Leading practices guides and resources
-    -   30 days of access to the temporary instance is provided
--   **Customer Coaching Session \#2  \(Optional upon Customer request - up to 60 minutes\)**
+-   **Customer Coaching Session \#2  \(Optional upon Customer request - up to 1 hr\)**
 
     Opportunity for Q&amp;A related to CSDM Foundation data
 
+-   **Output**
+    -   30-day access to the temporary instance and Technical Accelerator Consultant with whom you met for any further questions or in-depth explorations
+    -   Copy of the Coaching Session Deck
 
 ## Requested Customer Resources
 
@@ -60,6 +60,10 @@ Offered pursuant to the applicable ServiceNow Impact Package and Accelerator des
 |ITSM Manager\(s\) \(Recommended\)|Responsible for setting SOP’s and governance around the IT Service Management operations.|
 |Service Owner\(s\) \(Recommended\)|A senior leader within each business unit for each major process or service \(for example, incident, change, employee onboarding\) who is accountable for ensuring the process is fit for purpose. |
 |Trusted Service Partners \(Recommended\)|Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customer going forward.|
+
+## Requested Information/Access
+
+**Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
 
 ## Exclusions
 

@@ -3,11 +3,11 @@ title: Conduct a CAB meeting in the CAB workbench
 description: Start and conduct a Change Advisory Board meeting in the CAB Workbench in Service Operations Workspace to review the agenda and approve or schedule changes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/cm-manage-cab-meeting-workbench-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [CAB in Service Operations Workspace, CAB Workbench in Service Operations Workspace]
 breadcrumb: [Change Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
@@ -103,7 +103,7 @@ Role required: sn\_change\_cab.cab\_manager
     -   **Meeting end time**: Shows when the meeting ended.
     -   **Meeting notes**: Shows notes taken during the meeting and decision comments on agenda items.
 
-**Parent Topic:**[Change Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/change-sow.md)
+**Parent Topic:**[Change Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/change-sow.md)
 
 **Related topics**  
 

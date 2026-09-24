@@ -3,13 +3,13 @@ title: Creator Studio quick start
 description: This quick start guides you through the process of building your first app in Creator Studio and requesting its deployment.Create your app first. Later, we'll continue building it out.Let's add a form so people can make a request. Forms contain questions that people respond to when submitting a service desk request.Add questions to the form and define what they are asking to gather the information that your fulfiller needs to evaluate the request. You can then publish it to make its catalog items available.Add a playbook to create automation for your app, for example, to automatically assign a record to a manager for approval.Add an activity to your playbook to define what the automation does.Now that you've made an app, it's time to submit it for review so admins can approve and deploy it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-quick-start.html
-release: australia
+release: brazil
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 17
-breadcrumb: [Explore, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Explore, Creator Studio, Developing your application, Building applications]
 ---
 
 # Creator Studio quick start
@@ -20,7 +20,7 @@ At a minimum, you need to create the app, and then add and customize a form, whi
 
 Building your first app is a good way to understand how Creator Studio enables easy app creation.
 
-For a more thorough tutorial where you build a gift card request app, see [Creator Studio tutorial](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-tutorial-landing.md).
+For a more thorough tutorial where you build a gift card request app, see [Creator Studio tutorial](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-tutorial-landing.md).
 
 Your system administrator must add you to the Creator Studio Users group.
 
@@ -32,7 +32,7 @@ Create your app first. Later, we'll continue building it out.
 
 Your system administrator must add you to the Creator Studio Users group.
 
-**Note:** If you don't have permission to create apps yourself, you can ask your admin to create one for you. See [Ask an admin to create an app for you in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-request-app-added.md) to find out how.
+**Note:** If you don't have permission to create apps yourself, you can ask your admin to create one for you. See [Ask an admin to create an app for you in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-request-app-added.md) to find out how.
 
 ### About this task
 
@@ -46,14 +46,14 @@ You can also watch a short video on how to create an app.
 
     \[Omitted image "crs-all-menu-callouts.png"\] Alt text: Select the All menu and search for Creator Studio
 
-    The Creator Studio home page appears. To learn more about working in the home page, check out [Find existing apps in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/view-apps-creator-studio-home-page.md).
+    The Creator Studio home page appears. To learn more about working in the home page, check out [Find existing apps in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/view-apps-creator-studio-home-page.md).
 
 2.  Select the **Create app** button to start the process of creating an app.
 
     \[Omitted image "crs-create-app-button-search.png"\] Alt text: Select the Create app button
 
-    -   If you're a system administrator, you can read more about this topic in [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-collaboration.md).
-    -   If you want to know how to request an admin to create the app for you, check out [Ask an admin to create an app for you in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-request-app-added.md).
+    -   If you're a system administrator, you can read more about this topic in [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/application-collaboration.md).
+    -   If you want to know how to request an admin to create the app for you, check out [Ask an admin to create an app for you in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-request-app-added.md).
 3.  Select the type of app you want to build, such as **Service Desk**.
 
     Service Desk apps enable users to submit requests, report issues, and access support related to services within your company.
@@ -99,7 +99,7 @@ Your system administrator must add you to the Creator Studio Users group.
 
 3.  Choose how you want to build the form:
 
-    -   To use Now Assist, stay on the **Build with AI** tab and enter directions for the form you want. To learn more, see [Generating forms with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-text-to-form.md).
+    -   To use Now Assist, stay on the **Build with AI** tab and enter directions for the form you want. To learn more, see [Generating forms with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-text-to-form.md).
 
         **Note:** You can select **Try an example** to see some examples of the available directions. To see a quick mock up of what the form will look like, select the **generate form preview** button. If you want a different form, change the provided direction and select **Regenerate preview** for a quick look.
 
@@ -111,7 +111,7 @@ Your system administrator must add you to the Creator Studio Users group.
         |Short description|Some information on what the form is used for.|
         |Long description|Additional details for the form. You can include content like images and links to other sources of information \(for example, a knowledge base article\).|
 
-    If you don't see the option to **Build with AI** tab, you need to check with your admin. To install AI for Form generation, see [Configuring form generation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-configure-now-assist.md).
+    If you don't see the option to **Build with AI** tab, you need to check with your admin. To install AI for Form generation, see [Configuring form generation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-configure-now-assist.md).
 
 4.  Select **Save and edit form**.
 
@@ -142,9 +142,9 @@ Your system administrator must add you to the Creator Studio Users group.
 
     \[Omitted image "crs-form-questions-sets-dynamic-update.png"\] Alt text: Entering details for a question on a form
 
-3.  Make the form's appearance change based on how users answer questions by adding [dynamic behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-glossary.md) to it on the **Behaviors** tab.
+3.  Make the form's appearance change based on how users answer questions by adding [dynamic behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-glossary.md) to it on the **Behaviors** tab.
 
-    For example, if a user says they want a T-shirt for an event they're attending, you can make a **T-shirt size** field required. Get the details on adding dynamic in [Make a form change based on responses in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-dynamic-behavior.md).
+    For example, if a user says they want a T-shirt for an event they're attending, you can make a **T-shirt size** field required. Get the details on adding dynamic in [Make a form change based on responses in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-dynamic-behavior.md).
 
 4.  Automatically populate a question's answer based on the answer to another question on the form \(record choices questions only\) by selecting the **Add auto-fill** option.
 
@@ -174,7 +174,7 @@ Select the value field
 
 </td><td>
 
-Field in the source table for the record choices question that contains the value you want to use as the answer to the current question.You must select the edit icon \(\[Omitted image "crs-edit-pencil-icon-purple.png"\] Alt text:\), navigate to the field in the source table that contains the auto-populated answer, and select to **Apply** it. For more info on selecting fields in a table, see [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_DotWalking.md).
+Field in the source table for the record choices question that contains the value you want to use as the answer to the current question.You must select the edit icon \(\[Omitted image "crs-edit-pencil-icon-purple.png"\] Alt text:\), navigate to the field in the source table that contains the auto-populated answer, and select to **Apply** it. For more info on selecting fields in a table, see [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_DotWalking.md).
 
 </td></tr></tbody>
 </table>5.  Select **Save and close** when you finish modifying the question.
@@ -183,7 +183,7 @@ Field in the source table for the record choices question that contains the valu
 
     You can also add questions by selecting the add icon \(+\) that appears when you click on an existing question on the form. If you're adding a pre-configured **Question set**, you must select the question set from the modal that appears when you drag it onto the form.
 
-    For a description of question types and how they're used, see [Available question types in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-form-elements-ref.md).
+    For a description of question types and how they're used, see [Available question types in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-form-elements-ref.md).
 
 7.  Change a question type by selecting the question and then choosing the new question type in the **Content type** field of the Question details panel.
 
@@ -205,7 +205,7 @@ Field in the source table for the record choices question that contains the valu
 
         \[Omitted image "crs-section-edit-hover.png"\] Alt text: Hover over the section name to edit it
 
-        For more information, see [Layout options for forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-form-layout-options.md).
+        For more information, see [Layout options for forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-form-layout-options.md).
 
     3.  Select **Save** in the Section details/Question details panel when you’re done revising the form’s layout.
 
@@ -240,7 +240,7 @@ Your system administrator must add you to the Creator Studio Users group.
 
 1.  Select **+ Add automation** in the navigation panel for the form you want to add a playbook to.
 
-    **Note:** If the form isn't yet published, you must first mark it as ready. For more information, see [Publish a form for your app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-publish-form.md).
+    **Note:** If the form isn't yet published, you must first mark it as ready. For more information, see [Publish a form for your app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-publish-form.md).
 
     \[Omitted image "crs-add-auto-new.png"\] Alt text: Select add automation for the form
 
@@ -265,7 +265,7 @@ Your system administrator must add you to the Creator Studio Users group.
 
         **Note:** You can't change an playbook's trigger type after you finish creating the playbook. Instead, create a new playbook with a different trigger.
 
-        However, you can edit the trigger condition, such as making the playbook run conditionally based on a specific answer to a question. For more information, see [Edit the trigger for a playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-add-trigger-automation.md).
+        However, you can edit the trigger condition, such as making the playbook run conditionally based on a specific answer to a question. For more information, see [Edit the trigger for a playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-add-trigger-automation.md).
 
     2.  If you chose a trigger that includes a form being updated, specify how often that app should **Run your playbook**.
 
@@ -277,12 +277,12 @@ Your system administrator must add you to the Creator Studio Users group.
         -   **For every update**
     3.  Specify the conditions that must be met for the playbook to begin running by selecting **Add conditions**.
 
-        -   If you want to trigger the playbook based on the value of a column in a table, select the **[Field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-glossary.md)** that you want to be the trigger, as well as its condition **Operator** and the specific trigger **Value**. For example, when a **Start date** is **after** the **Date** needed.
+        -   If you want to trigger the playbook based on the value of a column in a table, select the **[Field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-glossary.md)** that you want to be the trigger, as well as its condition **Operator** and the specific trigger **Value**. For example, when a **Start date** is **after** the **Date** needed.
         -   If you want to trigger the playbook based on the response from a form, select **Questions** as the trigger **Field**. Then select the question you want in the **Question** field, the condition **Operator** and the answer's **Value**.
 
             \[Omitted image "crs-trigger-question-answer.png"\] Alt text: Use a specific answer to a form's question as trigger
 
-        Add as many conditions as you need. For more information, see [Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-cond-state-using-cond-build.md).
+        Add as many conditions as you need. For more information, see [Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/create-cond-state-using-cond-build.md).
 
     4.  Select **Create**.
 
@@ -301,7 +301,7 @@ Your system administrator must add you to the Creator Studio Users group.
 
 ### About this task
 
-If you want to include an if/then statement to define circumstances for the [activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-glossary.md), add a decision. See [Add a decision to an app's playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-add-decision-automation.md) for details.
+If you want to include an if/then statement to define circumstances for the [activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-glossary.md), add a decision. See [Add a decision to an app's playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-add-decision-automation.md) for details.
 
 ### Procedure
 
@@ -381,7 +381,7 @@ Update the value of the specified fields on the record that the form generates w
 
     \[Omitted image "cs-assign-to-properties.png"\] Alt text: Activity details panel
 
-5.  Complete the details for the activity, using [Add activities to an app's playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-add-activities-automation.md) for information on how to finish creating the activity.
+5.  Complete the details for the activity, using [Add activities to an app's playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-add-activities-automation.md) for information on how to finish creating the activity.
 
 6.  Select the **Save and close** button to finish setting up your activity.
 
@@ -424,7 +424,7 @@ Your system administrator must add you to the Creator Studio Users group.
 
 6.  Next, you must decide which of the app's activated playbooks will run on production after the app is deployed. In the Review playbooks modal, select the **Run on production** option for each playbook that you want to run on records that the app generates.
 
-    **Note:** If you can't select a playbook, you need to go back to the **Automations** section of Creator Studio and activate it. If you need a refresher on that, check out [Activate a playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-activate-automation.md).
+    **Note:** If you can't select a playbook, you need to go back to the **Automations** section of Creator Studio and activate it. If you need a refresher on that, check out [Activate a playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-activate-automation.md).
 
 7.  Select **Continue** when you're happy with the playbooks being deployed to run on production.
 
@@ -444,18 +444,18 @@ New version
 
 </td><td>
 
-[Version number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-glossary.md) of the app you're requesting for deployment. Creator Studio automatically generates an updated version number, but you can change it.Follow your organization's versioning guidelines, or use the x.y.z format, where x = major update, y = minor update, and z = patch.
+[Version number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-glossary.md) of the app you're requesting for deployment. Creator Studio automatically generates an updated version number, but you can change it.Follow your organization's versioning guidelines, or use the x.y.z format, where x = major update, y = minor update, and z = patch.
 
 </td></tr><tr><td>
 
-[Release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-glossary.md)
+[Release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-glossary.md)
 
 </td><td>
 
 Details on what's changed in this new version of the app, or a general description of what the app does if this is its first version.
 
 </td></tr></tbody>
-</table>    Read more about this step of requesting deployment in [App versioning and release notes for Creator Studio apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-app-release-versioning.md).
+</table>    Read more about this step of requesting deployment in [App versioning and release notes for Creator Studio apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-app-release-versioning.md).
 
     \[Omitted image "cs-deploy-versioning.png"\] Alt text: Versioning info on deployment request
 

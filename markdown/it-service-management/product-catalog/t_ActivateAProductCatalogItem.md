@@ -3,11 +3,11 @@ title: Activate a product catalog item
 description: Activate a product catalog item to make it available in the product catalog and the service catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/product-catalog/t\_ActivateAProductCatalogItem.html
-release: australia
+release: brazil
 product: Product Catalog
 classification: product-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Product catalog items, Product Catalog, Asset Management common applications, IT Service Management]
 ---
@@ -30,7 +30,7 @@ You can activate the item from either the list view or the record.
 
 2.  Complete one of the following actions.
 
-<table id="choicetable_wlj_fwj_k5"><tbody><tr><td id="d318538e92">
+<table id="choicetable_wlj_fwj_k5"><tbody><tr><td id="d325029e92">
 
 **Activate one or more items from the list view**
 
@@ -38,7 +38,7 @@ You can activate the item from either the list view or the record.
 
 Select the check box next to one or more items in the record list and select **Activate** below the list.
 
-</td></tr><tr><td id="d318538e109">
+</td></tr><tr><td id="d325029e109">
 
 **Activate from the record**
 
@@ -48,7 +48,7 @@ Select **Activate** under **Related Links**.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Product catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/c_ManagingProductCatalogItems.md)
+**Parent Topic:**[Product catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/product-catalog/c_ManagingProductCatalogItems.md)
 
 **Related topics**  
 

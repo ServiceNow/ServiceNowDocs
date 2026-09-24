@@ -3,9 +3,9 @@ title: Preview a page
 description: Test that your page appears and functions as intended.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/preview-page-servicenow-ai-experience-lab-for-vs-code.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Preview inline, Inline preview, ServiceNow AI Experience Lab for VS Code, Preview page]
 breadcrumb: [Use, ServiceNow Lux Lab for VS Code extension, Building pro-code applications, Developing your application, Building applications]
@@ -17,7 +17,7 @@ Test that your page appears and functions as intended.
 
 ## About this task
 
-Certain pages aren't previewable in the ServiceNow Lux Lab for VS Code extension and must be previewed by deploying to your instance. To learn about deploying, see [Deploy changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/deploy-changes-servicenow-ai-experience-lab-for-vs-code.md).
+Certain pages aren't previewable in the ServiceNow Lux Lab for VS Code extension and must be previewed by deploying to your instance. To learn about deploying, see [Deploy changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/deploy-changes-servicenow-ai-experience-lab-for-vs-code.md).
 
 ## Before you begin
 
@@ -79,7 +79,7 @@ ServiceNow SDK
 
 </td><td>
 
-4.10 or later
+4.12.1 or later
 
 </td><td>
 
@@ -96,7 +96,7 @@ ServiceNow instance
 
 </td><td>
 
-[Prepare your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/rn-prepare-landing-page.md)
+[Prepare your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/rn-prepare-landing-page.md)
 
 </td></tr></tbody>
 </table>## Procedure
@@ -107,12 +107,14 @@ ServiceNow instance
 
 3.  Select the expand icon for the page that you want to preview.
 
-4.  Right click or select and hold the page.js file that you want to preview and select **AIUX: Launch Preview**.
+4.  Right click or select and hold the page.js file that you want to preview and select **Lux: Launch Preview**.
 
     A preview of your page appears. You can preview how your page appears on different devices, expand the preview panel, and interact with page elements.
+
+    \[Omitted image "servicenow-lux-lab-vs-code-preview.png"\] Alt text: A rendered page shown in the Preview panel.
 
 
 ## What to do next
 
-If your page isn't already accessible from other pages, [add the page to the navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/add-page-to-navigation-servicenow-ai-experience-lab-for-vs-code.md). Otherwise, you can [deploy your changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/deploy-changes-servicenow-ai-experience-lab-for-vs-code.md).
+If your page isn't already accessible from other pages, [add the page to the navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/add-page-to-navigation-servicenow-ai-experience-lab-for-vs-code.md). Otherwise, you can [deploy your changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/deploy-changes-servicenow-ai-experience-lab-for-vs-code.md).
 

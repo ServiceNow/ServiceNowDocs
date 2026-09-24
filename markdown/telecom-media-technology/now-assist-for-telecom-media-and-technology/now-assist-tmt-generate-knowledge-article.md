@@ -3,11 +3,11 @@ title: Generate a knowledge article for a service problem case using ServiceNow 
 description: Generate the knowledge articles for resolved and closed cases within the CRM Workspace and classic environment with ServiceNow Otto.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-generate-knowledge-article.html
-release: australia
+release: brazil
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use generative AI skills, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -20,7 +20,7 @@ Generate the knowledge articles for resolved and closed cases within the CRM Wor
 
 To generate a knowledge article for a case, the case must be in the resolved and closed state. The case must not already have a knowledge article linked to it.
 
-Install the Knowledge Management Advanced plugin to use the Knowledge Centered Service \(KCS\) template when you’re generating knowledge articles. For more information, see [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/activate-knowledge-advanced-plugin.md).
+Install the Knowledge Management Advanced plugin to use the Knowledge Centered Service \(KCS\) template when you’re generating knowledge articles. For more information, see [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/activate-knowledge-advanced-plugin.md).
 
 Make sure that your administrator enables ServiceNow Otto experience on the Create Article page to ensure that the following knowledge base generation criteria is configured:
 
@@ -41,7 +41,7 @@ In  CRM Workspace and classic environment, you can generate the knowledge arti
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Open a case that is assigned to you.
 
@@ -89,10 +89,10 @@ In  CRM Workspace and classic environment, you can generate the knowledge arti
     The ServiceNow Otto success message disappears which means that it’s no longer a Now LLM Service generated article.
 
 
-**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 
 **Related topics**  
 
 
-[ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-knowledge-management.md)
+[ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-knowledge-management.md)
 

@@ -3,7 +3,7 @@ title: The CPQ Technology and Product Training Portal
 description: The CPQ Training Portal includes self-paced video training content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/new\_logik\_io\_technology\_and\_product\_training\_portal.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 6
@@ -60,5 +60,5 @@ In the Student Home page you can view the Course Catalog and select courses, mon
 
 For more information about the Training Portal and how to purchase a subscription to the Portal, contact CPQ Training or your CPQ Sales Representative.
 
-**Parent Topic:**[CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)
 

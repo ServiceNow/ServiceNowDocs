@@ -3,11 +3,11 @@ title: Integrate ThousandEyes with basic authentication
 description: Integrate ThousandEyes with Event Management by adding a webhook in the ThousandEyes platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/thousandeyes-events-webhook.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Integrate ThousandEyes platform events, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -18,11 +18,11 @@ Integrate ThousandEyes with Event Management by adding a webhook in the Thousand
 
 ## Before you begin
 
-Verify that the Event Management Connectors \(sn\_em\_connector\) plugin is installed on the ServiceNow AI Platform instance.
+Ensure that the Event Management Connectors \(sn\_em\_connector\) plugin is installed on the ServiceNow AI Platform instance.
 
 Discovery for ThousandEyes services is not supported, so you must create a CI manually in the ServiceNow instance for event binding to work.
 
-Verify you have created a user with an **Identify Type** of **Machine** and the evt\_mgmt\_integration role.
+Confirm you have created a user with an **Identify Type** of **Machine** and the evt\_mgmt\_integration role.
 
 Role required: evt\_mgmt\_admin
 
@@ -32,15 +32,7 @@ Configure the Event Management environment for the collection of events from Tho
 
 ## Procedure
 
-1.  In the ServiceNow instance, complete the following steps to create a CI.
-
-    1.  From the navigation bar, navigate to **All** &gt; **Configuration** &gt; **CI Class Manager**.
-
-    2.  Click **Hierarchy** and search for `HTTP(S) Endpoint`.
-
-    3.  Select **CI List** and create a new CI.
-
-2.  In the ThousandEyes platform, create a notification destination.
+1.  In the ThousandEyes platform, create a notification destination.
 
     1.  From the navigation bar, navigate to **Alerts** &gt; **Alert Rules**.
 

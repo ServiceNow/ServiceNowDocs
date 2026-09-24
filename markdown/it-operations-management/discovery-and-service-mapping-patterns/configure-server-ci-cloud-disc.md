@@ -3,11 +3,11 @@ title: Configure Server CI creation during cloud discovery
 description: Create Server CIs during cloud discovery without running IP-based discovery, reducing discovery time in large environments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/configure-server-ci-cloud-disc.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2026-05-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [cloud discovery, Server CI, Windows Server, Linux Server, system property, pattern extension]
 breadcrumb: [Server CI population during cloud discovery, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
@@ -51,12 +51,12 @@ The **sn\_itom\_pattern.cloud\_discovery\_populate\_server\_ci** property contro
 
 Run cloud discovery or wait for the next scheduled discovery run for the changes to apply.
 
-**Parent Topic:**[Server CI population during cloud discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/server-ci-cloud-discovery.md)
+**Parent Topic:**[Server CI population during cloud discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/server-ci-cloud-discovery.md)
 
 **Related topics**  
 
 
-[Azure virtual machine pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-vm-pattern.md)
+[Azure virtual machine pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-vm-pattern.md)
 
-[Azure Virtual Machine Scale Sets \(VMSS\) Instance discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/AzureVMScaleSetInstance.md)
+[Azure Virtual Machine Scale Sets \(VMSS\) Instance discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/AzureVMScaleSetInstance.md)
 

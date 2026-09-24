@@ -3,9 +3,9 @@ title: Change instance banner logo in Next Experience
 description: Change the instance banner logo displayed on the Unified Navigation and the login page to reflect your company logo.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/change-instance-logo.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Next Experience themes, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -39,5 +39,5 @@ Role required: admin
 6.  To restore the default instance logo, update the **glide.product.image.light** system property value to **now-next-experience-logo.svg**.
 
 
-**Parent Topic:**[Configuring Next Experience themes and preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/config-next-experience-themes-prefs.md)
+**Parent Topic:**[Configuring Next Experience themes and preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/config-next-experience-themes-prefs.md)
 

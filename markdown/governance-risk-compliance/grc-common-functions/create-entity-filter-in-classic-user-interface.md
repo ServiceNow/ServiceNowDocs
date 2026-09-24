@@ -3,11 +3,11 @@ title: Create an entity filter in the Core UI
 description: Create an entity filter under an entity type in the classic user interface. The entity filter defines the table from which data is pulled into each entity type for display. If the entities belong to an application, the users who have access to the entity class that is associated with the entity can only view those entities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/create-entity-filter-in-classic-user-interface.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Entity filters, Explore entities, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -24,9 +24,9 @@ Role required: sn\_grc.manager
 
 1.  In the classic user interface, navigate to the **Entity types** list.
 
-2.  Select an entity type in the list and navigate to the **Entity Filters** tab.
+2.  Click an entity type in the list and navigate to the **Entity Filters** tab.
 
-3.  To create an entity filter, select **New**.
+3.  To create a new entity filter, click **New**.
 
 <table id="table_kv1_tx3_jqb"><thead><tr><th>
 
@@ -96,5 +96,5 @@ Option to use **Owner** field information in the query. The owner is the identif
 </table>4.  To save the entity filter, click **Submit**.
 
 
-**Parent Topic:**[Entity filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/what-is-an-entity-filter.md)
+**Parent Topic:**[Entity filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/what-is-an-entity-filter.md)
 

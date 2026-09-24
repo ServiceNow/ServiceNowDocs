@@ -3,11 +3,11 @@ title: Create a connection to ILMT or BigFix Inventory
 description: If you're using an HTTP connection or you've finished the initial configuration for HTTPS, establish a connection between your IBM server and the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/set-up-ibm-platform.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [ILMT and BigFix Inventory integrations, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -147,7 +147,7 @@ SSL certificate
     -   Without the MID Server:
         1.  In a new tab or window, upload the certificate to your ServiceNow instance.
 
-Refer to [HTTPS without the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/setting-up-ibm-ilmt.md) for detailed instructions.
+Refer to [HTTPS without the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/setting-up-ibm-ilmt.md) for detailed instructions.
 
         2.  Return to the HTTP\(s\) Connection form.
         3.  Enable your ServiceNow instance to build a connection URL by selecting the **URL builder** check box.
@@ -164,12 +164,12 @@ The **Protocol** field is replaced by the **Protocol profile** field.
 
         5.  In the **Protocol profile** field, select the search icon \[Omitted image "search-icon.png"\] to locate and select the HTTPS protocol profile that specifies the certificate used for mutual authentication.
 
-You must select the same protocol profile that you created in [HTTPS without the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/setting-up-ibm-ilmt.md).
+You must select the same protocol profile that you created in [HTTPS without the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/setting-up-ibm-ilmt.md).
 
     -   With the MID Server:
         1.  In a new tab or window, upload the certificate to your ServiceNow instance.
 
-Refer to [HTTPS with the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/setting-up-ibm-ilmt.md) for detailed instructions.
+Refer to [HTTPS with the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/setting-up-ibm-ilmt.md) for detailed instructions.
 
         2.  Return to the HTTP\(s\) Connection form and then select the **Use MID server** check box.
 
@@ -185,26 +185,26 @@ Select one of the following options:
 
 If you select this option, the **Advanced MID Server Configuration** tab displays the **Capabilities** and **MID Application** fields. You can use these fields to filter the list of available MID Servers based on supported MID Server capabilities and applications.
 
-                -   To filter this list based on MID Server capabilities, select the Unlock Capabilities icon \(\[Omitted image "unlock-icon.png"\] Alt text: Unlock capabilities icon.\) in the **Capabilities** field. After you unlock the field, select the Lookup using list icon \(\[Omitted image "search-icon.png"\] Alt text: Lookup using list icon.\) to search for and select the desired capabilities.
-                -   To filter this list based on MID Server applications, select the Lookup using list icon \(\[Omitted image "search-icon.png"\] Alt text: Lookup using list icon.\) in the **MID Application** field to search for and select the desired applications.
-See [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MIDServerSelector.md) for more information on MID Server capabilities and applications.
+                -   To filter this list based on MID Server capabilities, select the Unlock Capabilities icon \[Omitted image "bus-unlock.svg"\] Alt text: in the **Capabilities** field. After you unlock the field, select the Lookup using list icon \[Omitted image "search-icon.png"\] to search for and select the desired capabilities.
+                -   To filter this list based on MID Server applications, select the Lookup using list icon \[Omitted image "search-icon.png"\] in the **MID Application** field to search for and select the desired applications.
+See [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_MIDServerSelector.md) for more information on MID Server capabilities and applications.
 
             -   **Specific MID Server**: Enables you to select a specific MID Server for the connection.
 
-If you select this option, the **Advanced MID Server Configuration** tab displays the **MID Server** field. Select the Lookup using list icon \(\[Omitted image "search-icon.png"\] Alt text: Lookup using list icon.\) in the **MID Server** field to search for and select the MID Server that you want to use for the connection.
+If you select this option, the **Advanced MID Server Configuration** tab displays the **MID Server** field. Select the Lookup using list icon \[Omitted image "search-icon.png"\] in the **MID Server** field to search for and select the MID Server that you want to use for the connection.
 
-**Important:** To select a specific MID Server for the connection, you must deselect the **Included in application ALL** check box for any applications that are configured to use the specified MID Server. For more information on this check box, refer to the Select applications to include in the definition of ALL for a MID Server section of [Configure a default MID Server for each application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SpecifyMIDServerApplications.md).
+**Important:** To select a specific MID Server for the connection, you must deselect the **Included in application ALL** check box for any applications that are configured to use the specified MID Server. For more information on this check box, refer to the Select applications to include in the definition of ALL for a MID Server section of [Configure a default MID Server for each application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_SpecifyMIDServerApplications.md).
 
             -   **Specific MID Cluster**: Enables you to select a specific MID Server cluster for the connection.
 
-If you select this option, the **Advanced MID Server Configuration** tab displays the **MID Cluster** field. Select the Lookup using list icon \(\[Omitted image "search-icon.png"\] Alt text: Lookup using list icon.\) in the **MID Cluster** field to search for and select the MID Server cluster that you want to use for the connection.
+If you select this option, the **Advanced MID Server Configuration** tab displays the **MID Cluster** field. Select the Lookup using list icon \[Omitted image "search-icon.png"\] in the **MID Cluster** field to search for and select the MID Server cluster that you want to use for the connection.
 
 </td></tr></tbody>
 </table>5.  Set up the connection timeout.
 
     Use one of the following options to set up the connection timeout:
 
-    -   **glide.http.outbound.max\_timeout.enabled system property**: The ServiceNow AI Platform **glide.http.outbound.max\_timeout.enabled** system property enables you to specify the number of seconds that RESTMessageV2 and SOAPMessageV2 APIs wait for a response from a synchronous call. You can configure this system property by opening a new tab or window and then navigating to **System Properties** &gt; **All Properties** &gt; **glide.http.outbound.max\_timeout.enabled**. If this system property is set to **true** or is not available on your ServiceNow instance, your instance uses a default timeout value of 30 seconds. If this system property is set to **false**, your ServiceNow instance uses a default timeout value 600 seconds. See [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) for more information on this system property.
+    -   **glide.http.outbound.max\_timeout.enabled system property**: The ServiceNow AI Platform **glide.http.outbound.max\_timeout.enabled** system property enables you to specify the number of seconds that RESTMessageV2 and SOAPMessageV2 APIs wait for a response from a synchronous call. You can configure this system property by opening a new tab or window and then navigating to **System Properties** &gt; **All Properties** &gt; **glide.http.outbound.max\_timeout.enabled**. If this system property is set to **true** or is not available on your ServiceNow instance, your instance uses a default timeout value of 30 seconds. If this system property is set to **false**, your ServiceNow instance uses a default timeout value 600 seconds. See [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_AvailableSystemProperties.md) for more information on this system property.
     -   **Connection timeout field**: The **Connection timeout** field on the HTTP\(s\) Connection form enables you to specify the number of seconds that your ServiceNow instance waits to establish the given connection.
 
         **Important:** This option is applicable only in the San Diego and later releases. In the Rome and earlier releases, you must set up the connection timeout using only the **glide.http.outbound.max\_timeout.enabled** system property.
@@ -275,5 +275,5 @@ Offset value that prevents your ServiceNow instance from re-importing virtual ma
         -   To view all data that was imported into the License Consumption \[samp\_ilmt\_sw\_install\] table, navigate to **Integration - ILMT / BigFix Inventory** &gt; **Import Set Data** &gt; **License Consumption**.
         -   To view all data that was imported into the Computer \[cmdb\_ci\_computer\] table, navigate to **Integration - ILMT / BigFix Inventory** &gt; **Import Set Data** &gt; **Computers**.
 
-**Parent Topic:**[IBM License Metric Tool \(ILMT\) and BigFix Inventory integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-ilmt-bigfix-inventory-integration.md)
+**Parent Topic:**[IBM License Metric Tool \(ILMT\) and BigFix Inventory integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/ibm-ilmt-bigfix-inventory-integration.md)
 

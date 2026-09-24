@@ -3,11 +3,11 @@ title: Customize a skill in ServiceNow Otto for TMT
 description: If you have the admin role, you can customize a ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) skill so that agents can use the generative AI skills in CRM Workspace and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-customize.html
-release: australia
+release: brazil
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configure, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -48,7 +48,7 @@ From the AI Admin Hub console, you can select the input table, related records, 
 
 4.  In the General details step, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs for ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-skill-inputs.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs for ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-skill-inputs.md).
 
     1.  Enter a name and description for the skill.
 
@@ -175,7 +175,7 @@ Description of the base input field value.
 
         -   **ServiceNow Otto panel**: When selected, the ServiceNow Otto skills are available in the ServiceNow Otto panel.
 
-            If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+            If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
             For the skills that appear in the ServiceNow Otto panel, select the down arrow to identify the roles that can use the skill.
 

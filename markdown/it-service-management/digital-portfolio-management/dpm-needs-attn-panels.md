@@ -3,11 +3,11 @@ title: Work with Needs attention panels in Digital Portfolio Management
 description: Digital Portfolio Management \(DPM\) enables you to view items that need attention in the context of your solutions. Categories in each Needs attention panel differ based on the solution type. You may not act on an item that needs attention, but you can see its status and severity to make data-driven decisions about your solutions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-needs-attn-panels.html
-release: australia
+release: brazil
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Work with solution data in Digital Portfolio Management, Digital Portfolio Management, IT Service Management]
 ---
@@ -175,10 +175,10 @@ To see Risk data, you must have the Technology Lifecycle Management plugin insta
 -   Software Asset Management \[com.snc.sams\]
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Work with solution data in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-working-with.md)
+</table>**Parent Topic:**[Work with solution data in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-working-with.md)
 
 **Related topics**  
 
 
-[Configure Needs attention panels in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-needs-attention.md)
+[Configure Needs attention panels in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-configure-needs-attention.md)
 

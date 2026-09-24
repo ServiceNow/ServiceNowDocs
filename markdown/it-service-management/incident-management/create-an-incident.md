@@ -3,11 +3,11 @@ title: Create an incident
 description: Create an incident record to document a deviation from an expected standard of operation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/create-an-incident.html
-release: australia
+release: brazil
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Managing incidents, Incident Management, IT Service Management]
 ---
@@ -32,7 +32,7 @@ This procedure describes how an ITIL agent completes the Incident form. Incident
 
     **Note:** If the **Incident** module is not visible in the **All** menu, contact your system administrator to verify that the **itil** or **sn\_incident\_write** role is assigned to you.
 
-2.  [Use a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/t_UseATemplateFromAForm.md), if one exists for the type of incident that you are logging.
+2.  [Use a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/t_UseATemplateFromAForm.md), if one exists for the type of incident that you are logging.
 
     If the organization uses form templates, then you can apply a template to pre-populate some of the fields for specific types of incidents.
 
@@ -98,7 +98,7 @@ Configuration item
 
 </td><td>
 
-Affected CI, if applicable.After a CI is selected, you can click the open **Dependency views** icon \(\[Omitted image "dependency-icon-r.png"\] Alt text: Open dependency view\) next to the field to see how the CI maps into the infrastructure. The dependency view shows you what is impacted and whether other CIs or services are experiencing issues. To capture information on the affected CIs, refer to [Capture information on affected configuration items in an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/track-ci.md).
+Affected CI, if applicable.After a CI is selected, you can click the open **Dependency views** icon \(\[Omitted image "dependency-icon-r.png"\] Alt text: Open dependency view\) next to the field to see how the CI maps into the infrastructure. The dependency view shows you what is impacted and whether other CIs or services are experiencing issues. To capture information on the affected CIs, refer to [Capture information on affected configuration items in an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/track-ci.md).
 
 When adding configuration items to the **Configuration item** field of an incident form, the search result containing a list of configuration items \(CI\) is displayed and sorted based on the CI names in alphabetical order.
 
@@ -131,7 +131,7 @@ State
 
 </td><td>
 
-State of the incident. The state moves and tracks incidents through several stages of resolution.**Tip:** Use the **State** field, rather than the **Incident State** or **Problem State** fields, as your primary means of tracking the state of an incident because this state progresses through the entire processing cycle. To learn more, see [Life cycle of an Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/c_IncidentManagementStateModel.md).
+State of the incident. The state moves and tracks incidents through several stages of resolution.**Tip:** Use the **State** field, rather than the **Incident State** or **Problem State** fields, as your primary means of tracking the state of an incident because this state progresses through the entire processing cycle. To learn more, see [Life cycle of an Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/c_IncidentManagementStateModel.md).
 
 </td></tr><tr><td>
 
@@ -316,15 +316,15 @@ The incident is created.
     -   DEX requires a separate entitlement.
     -   This link is available to the agent only if the following conditions are met:
         -   The selected CI is of type Device, which is also known as Endpoint.
-        -   The DEX plugin is installed on the instance. For more information on DEX, see [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-landing.md).
+        -   The DEX plugin is installed on the instance. For more information on DEX, see [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/dex-landing-cf.md).
         -   The DEX agent is installed on the selected CI.
 
-**Parent Topic:**[Managing incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/work-on-incidents.md)
+**Parent Topic:**[Managing incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/work-on-incidents.md)
 
 **Related topics**  
 
 
-[Create a record from incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/t_PromoteAnIncident.md)
+[Create a record from incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/t_PromoteAnIncident.md)
 
-[Managing major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/major-incident-management.md)
+[Managing major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/major-incident-management.md)
 

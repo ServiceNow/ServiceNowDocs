@@ -3,9 +3,9 @@ title: Chart interactions in a data visualization
 description: You can set what occurs when a user interacts with a visualization, such as by selecting a bar column. Possibilities include navigating to a URL, opening another data visualization, and filtering all visualizations on the dashboard by the selected value.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/dv-chart-interactions.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [How to filter all visualizations on a dashboard by selected value, How to configure URL navigation in data visualization, drilldown]
 breadcrumb: [Configure, Data visualizations, Platform Analytics experience, Platform Analytics]
@@ -17,15 +17,15 @@ You can set what occurs when a user interacts with a visualization, such as by s
 
 \[Omitted video\] Description: Adding a Drill down to visualization interaction to a data visualization
 
-The configuration panel of a data visualization includes a section labeled Chart interaction. In this section, you set what is called "on-click behavior." This term refers to what happens when a user interacts with a segment of the visualization that represents a value. Examples include selecting a point on a time series or a segment of a pie or donut. You can also disable chart interactions for the visualization.
+The configuration panel of a data visualization includes a section labeled Chart interaction. In this section, you set the on-click behavior. On-click behavior defines what happens when a user interacts with a visualization segment that represents a value. Examples include selecting a point on a time series or a segment of a pie or donut. You can also disable chart interactions for the visualization.
 
-**Important:** You cannot configure chart interactions for data visualizations on technical dashboards or other UI Builder pages. You can only enable and configure custom on-click events. Turn on-click events on or off with the **Enable drilldowns** toggle, then configure handlers for them. For information about configuring on-click events from data visualizations on a technical dashboard, see [Add a drilldown event to a data visualization on a technical dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-custom-drilldown-event.md).
+**Important:** You cannot configure chart interactions for data visualizations on technical dashboards or other UI Builder pages. You can only enable and configure custom on-click events. Turn on-click events on or off with the **Enable drilldowns** toggle, then configure handlers for them. For information about configuring on-click events from data visualizations on a technical dashboard, see [Add a drilldown event to a data visualization on a technical dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/add-custom-drilldown-event.md).
 
 The following actions are available for a chart interaction:
 
 -   **Go to data view**
 
-    Opens a view of the data appropriate to the data type. For information about the views for each data source, see [Data views for different data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/visualization-drilldown-in-config-ws.md).
+    Opens a view of the data appropriate to the data type. For information about the views for each data source, see [Data views for different data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/visualization-drilldown-in-config-ws.md).
 
     **Note:** Go to data view is the default interaction for all supported data sources.
 
@@ -35,7 +35,7 @@ The following actions are available for a chart interaction:
 
 -   **Apply as filter**
 
-    Filters all applicable data visualizations on the dashboard by the value of the selected segment. Does not apply when the Group by field is a time duration. Available only for Horizontal and Vertical Bar and Pie/Donut visualizations, and only for table and indicator data sources. Not available on UI Builder. For more information, see [Make a data visualization act as a filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/make-dv-act-as-filter.md).
+    Filters all applicable data visualizations on the dashboard by the value of the selected segment. Does not apply when the Group by field is a time duration. Available only for Horizontal and Vertical Bar and Pie/Donut visualizations, and only for table and indicator data sources. Not available on UI Builder. For more information, see [Make a data visualization act as a filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/make-dv-act-as-filter.md).
 
 -   **Drill down to chart**
 
@@ -111,10 +111,10 @@ All except Calendar, Indicator scorecard, List, and Geomap
 Table
 
 </td></tr></tbody>
-</table>-   **[Configure visualization interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-go-data.md)**  
+</table>-   **[Configure visualization interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/configure-go-data.md)**  
 Select what happens when a viewer interacts with a section of a data visualization that you are editing.
--   **[Data views for different data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/visualization-drilldown-in-config-ws.md)**  
+-   **[Data views for different data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/visualization-drilldown-in-config-ws.md)**  
 When the chart interaction for a data visualization is set to Go to data, interacting with a data value on the visualization opens different pages depending on the data source.
 
-**Parent Topic:**[Configure data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-data-visualizations.md)
+**Parent Topic:**[Configure data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/configure-data-visualizations.md)
 

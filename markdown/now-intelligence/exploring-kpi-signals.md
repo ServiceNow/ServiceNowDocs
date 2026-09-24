@@ -3,9 +3,9 @@ title: Exploring KPI Signals
 description: KPI Signals notifies you when the behavior of a process changes significantly. This feature applies standard statistical Process Behavior Charts to Performance Analytics indicators.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/exploring-kpi-signals.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [KPI Signals, Platform Analytics experience, Platform Analytics]
 ---
@@ -47,12 +47,12 @@ The following diagram shows the workflow for setting up KPI Signals for a Perfor
 
 ## Other exploration topics
 
--   **[Signal, no signal, and anti-signal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/signal-no-signal-anti-signal.md)**  
+-   **[Signal, no signal, and anti-signal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/signal-no-signal-anti-signal.md)**  
 When KPI Signals detects abnormal variation in the scores of a KPI, it generates a signal. When KPI Signals does not detect abnormal variation for a significant amount of time, it generates an "anti-signal." The anti-signal lets you know that your workflow is under control.
--   **[View KPI Signals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/view-kpi-signals.md)**  
+-   **[View KPI Signals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/view-kpi-signals.md)**  
 Access KPI Signals from the KPI Details page.
 
-**Parent Topic:**[KPI Signals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-behavior-charts-for-kpis.md)
+**Parent Topic:**[KPI Signals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-behavior-charts-for-kpis.md)
 
 **Related topics**  
 

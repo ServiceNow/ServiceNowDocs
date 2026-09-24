@@ -3,11 +3,11 @@ title: Testing and troubleshooting ADAM setup
 description: The primary tool used for testing is LDP. This allows you to fully test user authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/r\_TestingAndTroubleshooting.html
-release: australia
+release: brazil
 product: LDAP integration
 classification: ldap-integration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Active Directory Application Mode \(ADAM\), LDAP integration, Authentication, Access Management]
 ---

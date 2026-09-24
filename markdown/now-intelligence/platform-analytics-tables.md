@@ -3,9 +3,9 @@ title: Platform Analytics tables
 description: The following tables relate to Platform Analytics data visualizations and dashboards and can be accessed through scripts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/platform-analytics-tables.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Platform Analytics experience, Platform Analytics]
 ---
@@ -94,5 +94,5 @@ Analytics Library Scan Executions
 Stores the logs of the scheduled library management jobs
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Platform Analytics experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/platform-analytics-exp-reference.md)
+</table>**Parent Topic:**[Platform Analytics experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/platform-analytics-exp-reference.md)
 

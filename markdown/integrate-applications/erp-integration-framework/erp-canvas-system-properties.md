@@ -3,7 +3,7 @@ title: Zero Copy Connector for ERP system properties
 description: System properties that control Zero Copy Connector for ERP behavior, including debug logging, OData connections, and ETL extraction settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-system-properties.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
@@ -320,4 +320,5 @@ true \| false
 Indicates whether a CSRF token is sent for OData calls in Zero Copy Connector for ERP operations.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Zero Copy Connector for ERP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-integration-reference.md)
+

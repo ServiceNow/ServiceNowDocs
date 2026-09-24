@@ -3,11 +3,11 @@ title: Sample scripts from the change events business rule
 description: Several scripts are found in the baseline change events business rule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/system-events/r\_ChangeEventsSampleScripts.html
-release: australia
+release: brazil
 product: System Events
 classification: system-events
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [System events reference, System Events, Build workflows]
 ---
@@ -61,5 +61,5 @@ if (current.start_date.changes() || current.end_date.changes() || current.assign
 }
 ```
 
-**Parent Topic:**[System events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/system-events/system-events-reference.md)
+**Parent Topic:**[System events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/system-events/system-events-reference.md)
 

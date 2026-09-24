@@ -3,11 +3,11 @@ title: Cloud Cost Management reference
 description: Reference topics provide additional information about the lists and forms that you use to configure and administer Cloud Cost Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/reference-cloudinsights.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -16,32 +16,34 @@ breadcrumb: [Cloud Cost Management, IT Asset Management, Asset Management]
 
 Reference topics provide additional information about the lists and forms that you use to configure and administer Cloud Cost Management.
 
--   **[Domain separation and Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/domain-separation-cloudin.md)**  
+-   **[Domain separation and Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/domain-separation-cloudin.md)**  
 Domain separation is unsupported for Cloud Cost Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
--   **[Cloud Cost Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/cloud-insights-roles.md)**  
-You assign Cloud Cost Management roles to user groups and to individual users based on user activities and responsibilities.
--   **[Components installed with Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/installed-with-ci.md)**  
+-   **[Cloud Cost Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/cloud-insights-roles.md)**  
+Roles are installed with the activation of the Cloud Cost Management application.
+-   **[Components installed with Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/installed-with-ci.md)**  
 Several types of components are installed with activation of the Cloud Cost Management application, including tables, user roles, and scheduled jobs.
--   **[System properties for Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/sys-pro-ci.md)**  
+-   **[System properties for Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/sys-pro-ci.md)**  
 These system properties are available for the Cloud Cost Management application.
--   **[Cloud service categories in Cloud Cost Management for Amazon AWS Cloud services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/aws-service-category-crossref.md)**  
+-   **[Cloud service categories in Cloud Cost Management for Amazon AWS Cloud services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/aws-service-category-crossref.md)**  
 In Cloud Cost Management, provider services are grouped into service categories. This grouping enables you to use filters to focus your analysis on particular types of service \(for example, Compute or Database\). To perform more targeted analysis, you can filter for particular services within a service category \(for example, Amazon ElastiCache or Azure Database for PostgreSQL are services in the Database category\).
--   **[Cloud service categories in Cloud Cost Management for Microsoft Azure services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/azure-service-category-crossref.md)**  
+-   **[Cloud service categories in Cloud Cost Management for Microsoft Azure services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/azure-service-category-crossref.md)**  
 In Cloud Cost Management, provider services are grouped into service categories. This grouping enables you to use filters to focus your analysis on particular types of service \(for example, Compute or Database\). To perform more targeted analysis, you can filter for particular services within a service category \(for example, Amazon ElastiCache or Azure Database for PostgreSQL are services in the Database category\).
--   **[Cloud service categories in Cloud Cost Management for Google Cloud services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/gcp-service-category-crossref.md)**  
+-   **[Cloud service categories in Cloud Cost Management for Google Cloud services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/gcp-service-category-crossref.md)**  
 In Cloud Cost Management, provider services are grouped into service categories. This grouping enables you to use filters to focus your analysis on particular types of service \(for example, Compute or Database\). To perform more targeted analysis, you can filter for particular services within a service category \(for example, Amazon ElastiCache or Azure Database for PostgreSQL are services in the Database category\).
--   **[List of Budget policy creation fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/budget-policy-fields.md)**  
+-   **[List of Budget policy creation fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/budget-policy-fields.md)**  
 Fields on the Budget policy creation form help you create a budget policy to specify a budgeted amount, cost type, reset period, and other aspects of the budget.
--   **[List of Shared cost allocation policy fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/shared-cost-allocation-policy-fields.md)**  
+-   **[List of Shared cost allocation policy fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/shared-cost-allocation-policy-fields.md)**  
 Fields on the Shared cost allocation policy creation form help you create a shared cost allocation policy.
--   **[List of default tag categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/default-tag-categories.md)**  
+-   **[List of default tag categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/default-tag-categories.md)**  
 View the list of default tag categories on the Tag categories page. A tag category helps you to enable multiple tag names for representing costs against a single business entity.
--   **[List of default Cloud categories for AI services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/ai-service-provider-list.md)**  
+-   **[List of default Cloud categories for AI services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/ai-service-provider-list.md)**  
 List of default Cloud categories applicable to the Machine Learning service category for managing AI services.
--   **[Supported CI class types for Amazon AWS Cloud services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/aws-supported-ci-class-types.md)**  
+-   **[Supported CI class types for Amazon AWS Cloud services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/aws-supported-ci-class-types.md)**  
 Supported CI class types for AWS enable assigning cost and usage data correctly using the CI placement process. The CI placement process places a subset of CIs into corresponding CI tables that are used in the recommendation generation process for Cloud Cost Management.
--   **[Supported CI class types for Microsoft Azure services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/azure-supported-ci-class-types.md)**  
+-   **[Supported CI class types for Microsoft Azure services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/azure-supported-ci-class-types.md)**  
 Supported CI class types for Microsoft Azure enable assigning cost and usage data correctly using the CI placement process. The CI placement process places a subset of CIs into corresponding CI tables that are used in the recommendation generation process for Cloud Cost Management.
--   **[Supported CI class types for Google Cloud services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/gcp-supported-ci-class-types.md)**  
+-   **[Supported CI class types for Google Cloud services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/gcp-supported-ci-class-types.md)**  
 Supported CI class types for Google Cloud enable assigning cost and usage data correctly using the CI placement process. Some CI class types are placed immediately. The CI placement process places a subset of CIs into corresponding CI tables that are used in the recommendation generation process for Cloud Cost Management.
+
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/asset-management-landing-page.md)
 

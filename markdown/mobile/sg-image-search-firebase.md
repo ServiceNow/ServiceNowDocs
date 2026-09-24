@@ -3,9 +3,9 @@ title: Create a Firebase account
 description: Create a Google Firebase project and enable the Google Vision API.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-image-search-firebase.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure photo search, Mobile photo search, Global search, Launcher screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -73,5 +73,5 @@ Photo search requires a Google Cloud / Firebase account to analyze images and re
 19. Click **Update**.
 
 
-**Parent Topic:**[Configure photo search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-configure-image-search.md)
+**Parent Topic:**[Configure photo search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-configure-image-search.md)
 

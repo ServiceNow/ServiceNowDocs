@@ -3,9 +3,9 @@ title: Overview help pages
 description: The overview help feature included with the base system displays slides with introductory information on new features offered in the ServiceNow platform. An administrator can hide the option from the help menu.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/overview-help-pages.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -34,10 +34,10 @@ To find the property, type `sys_properties.list` in the application navigator. F
 
 \[Omitted image "WhatsNewHidden.png"\] Alt text: Help panel open with the What's New option hidden
 
--   **[Create custom overview help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-custom-overview-help-pages.md)**  
+-   **[Create custom overview help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/create-custom-overview-help-pages.md)**  
 You can edit existing overview help pages to display your own custom panels to selected users.
--   **[Example of adding a panel to an existing overview help page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/example-add-slide-to-existing-page.md)**  
+-   **[Example of adding a panel to an existing overview help page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/example-add-slide-to-existing-page.md)**  
 This example adds panels to the existing overview help page that display only for users with specific roles and when a specific plugin is activated.
 
-**Parent Topic:**[User interface configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/p_NavigationAndUIConfiguration.md)
+**Parent Topic:**[User interface configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/p_NavigationAndUIConfiguration.md)
 

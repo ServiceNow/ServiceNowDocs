@@ -3,11 +3,11 @@ title: Create a failure mode from a functional location
 description: Create a failure mode from a functional location in the Digital Factory Workspace to help identify and organize equipment or process issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/create-failure-mode.html
-release: australia
+release: brazil
 product: Digital Factory Workspace
 classification: digital-factory-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Industrial Failure Modes, Use, Digital Factory Workspace, Industrial Connected Workforce]
 ---
@@ -34,7 +34,7 @@ You can create failure modes from a functional location or an equipment entity. 
 
 4.  On the Failure mode form, fill in the fields.
 
-    For a description of the field values, see [Failure mode form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/failure-mode-form.md).
+    For a description of the field values, see [Failure mode form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/failure-mode-form.md).
 
 5.  Select **Save**.
 
@@ -43,5 +43,5 @@ You can create failure modes from a functional location or an equipment entity. 
 
 The failure mode is displayed in the list of failure modes for the functional location or equipment and all inherited items.
 
-**Parent Topic:**[Industrial Failure Modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-failure-modes.md)
+**Parent Topic:**[Industrial Failure Modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-failure-modes.md)
 

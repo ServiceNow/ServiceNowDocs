@@ -3,11 +3,11 @@ title: Create a CI class
 description: Create a CI class \(table\) that is an extension of an existing CI class. Then create identification and reconciliation rules for the new class.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/t\_CreateCIType.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [CMDB classifications and class dependency, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -29,7 +29,7 @@ Role required:
 
 The CI Class Manager is a centralized location for managing CMDB tables and for creating a class that is derived from another CMDB class. Creating a class requires basic details such as a label and a name. Identification and reconciliation rules are also required to ensure that the class can be successfully identified by the identification engine.
 
-For more information about extending a class and how attributes are derived from a parent class in that process, see [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-extension-and-classes.md).
+For more information about extending a class and how attributes are derived from a parent class in that process, see [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-extension-and-classes.md).
 
 ## Procedure
 
@@ -59,7 +59,7 @@ Display name
 
 </td><td>
 
-A unique label for the class \(such as Laptops or Thin Clients\). The label appears on list and form views for the class. Updating the **Label** field also updates the label record in the language file for the current language. See Field Labels in [Data dictionary tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DataDictionaryTables.md).Maximum string length is 80 characters.
+A unique label for the class \(such as Laptops or Thin Clients\). The label appears on list and form views for the class. Updating the **Label** field also updates the label record in the language file for the current language. See Field Labels in [Data dictionary tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_DataDictionaryTables.md).Maximum string length is 80 characters.
 
 </td></tr><tr><td>
 
@@ -103,28 +103,28 @@ Principal Class
 
 </td><td>
 
-Denotes whether this class is included in the [Principal Class filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/update-principal-class-filter.md). If this class is included in the Principal Class filter, then CIs from this class appear in CI list views when the Principal Class filter is applied.
+Denotes whether this class is included in the [Principal Class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/principal-class-filter.md) filter. If this class is included in the Principal Class filter, then CIs from this class appear in CI list views when the Principal Class filter is applied.
 
 </td></tr></tbody>
 </table>6.  On the **Add Attributes** tab, click the + sign and enter details for each new class column.
 
 7.  Click **Next**.
 
-    For description of the different columns in the list view, see [Dictionary entry form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_DictionaryEntryForm.md). To designate an attribute as a CI identifier for class identification, double-click the attribute's Identification Rule column and set it to **true**.
+    For description of the different columns in the list view, see [Dictionary entry form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_DictionaryEntryForm.md). To designate an attribute as a CI identifier for class identification, double-click the attribute's Identification Rule column and set it to **true**.
 
 8.  On the **Set Identification Rule** tab, examine the **Derived** identification rule and its **Identifier Entries**.
 
-    You can click **Replace** to replace the derived rule with a new identification rule and new identifier entries specific to the new class. See [Identification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCIIdentificationRule.md) for details about identification rules and identifier entries.
+    You can click **Replace** to replace the derived rule with a new identification rule and new identifier entries specific to the new class. See [Identification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCIIdentificationRule.md) for details about identification rules and identifier entries.
 
-9.  On the **Dependencies** tab, click **Add dependency** to add [dependent rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ServiceRulesMetadata.md).
+9.  On the **Dependencies** tab, click **Add dependency** to add [dependent rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_ServiceRulesMetadata.md).
 
     The **Dependencies** tab appears only if there are dependent identification rules for the selected class.
 
 10. On the **Add Reconciliation Rules** tab, click **Add** to create the following rules:
 
-    1.  [Reconciliation Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-reconciliation-rule.md)
+    1.  [Reconciliation Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/create-reconciliation-rule.md)
 
-    2.  [Data Refresh Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-datasource-staleness-rule.md)
+    2.  [Data Refresh Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/create-datasource-staleness-rule.md)
 
 11. On the **Add Suggested Relationships** tab, review the diagram of the class derived suggested relationships.
 
@@ -143,24 +143,24 @@ Denotes whether this class is included in the [Principal Class filter](https://r
 14. Click **Done**.
 
 
-**Parent Topic:**[CMDB classifications and class dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBClassifications.md)
+**Parent Topic:**[CMDB classifications and class dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBClassifications.md)
 
 **Related topics**  
 
-
-[Dependent CIs management]()
 
 [CMDB record types]()
 
 [Related Lists of CI components]()
 
+[Principal Class]()
+
+[Dependent CIs management]()
+
+[View and edit class definitions and metadata]()
+
 [Reclassify a CI]()
 
 [Delete CIs]()
 
-[View and edit class definitions and metadata]()
-
-[Principal Class]()
-
-[CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md)
+[CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md)
 

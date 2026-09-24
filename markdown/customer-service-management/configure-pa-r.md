@@ -3,9 +3,9 @@ title: Configure Customer Service Platform Analytics Solutions
 description: Enable Customer Service Platform Analytics Solutions to view preconfigured dashboards with actionable data visualizations to improve your business processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-pa-r.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Extend capabilities, Configure, Customer Service Management]
 ---

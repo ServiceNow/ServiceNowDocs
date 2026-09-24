@@ -3,11 +3,11 @@ title: Create a custom resource block
 description: If the blocks in the base system do not provide the cloud resources that you need to provision, you can create a custom resource block.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-resource-block.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Resource blocks in Cloud Provisioning and Governance, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -65,7 +65,7 @@ Default Guest InterfaceCreate interface
 
 Select the guest interface that contains the operations you need for the resource. Later you can further define and select the operations to use for this default guest interface. The system gives you a set of default operations for each interface.
 
- If another resource block specifies a **Host interface** that matches what you specify here in the **Guest interface** field, that resource block can be a potential host for this resource block. See the Host interface field description.
+ If another resource block specifies a **Host interface** that matches what you specify here, that resource block can be a potential host for this resource block. See the Host interface field description.
 
  If you select the **Create interface** check box, enter a name for the guest interface. The system creates the guest interface, opens the resource block that you are configuring in the resource block form, and lists the new interface in the **Resource Guest Interface** related list. See the description of the Resource Guest Interface in the following steps.
 
@@ -157,12 +157,12 @@ Select the interface that the potential host of this resource block must offer u
     6.  Click **Submit** or **Update**.
 
 
--   **[Specify a host resource for a resource block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/specify-host-resource-cmp.md)**  
+-   **[Specify a host resource for a resource block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/specify-host-resource-cmp.md)**  
 Hosts that support the **Host interface** of a resource block are potential hosts for the resource block. You use the **Host interface** setting to further limit the options that are presented to the stack requester while selecting a host type.
--   **[Specify the bindings for resource blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/specify-resource-bindings-cmp.md)**  
+-   **[Specify the bindings for resource blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/specify-resource-bindings-cmp.md)**  
 Bindings represent endpoint relationships. For example, a storage volume might implement an endpoint type of Block EP \(cmdb\_ci\_endpoint\_block\). A virtual server might consume an endpoint of that type. Bindings must support the Guest interface that is specified for the resource block.
--   **[Configure endpoint operation mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/configure-endpoint-mapping-cmp.md)**  
+-   **[Configure endpoint operation mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/configure-endpoint-mapping-cmp.md)**  
 You can configure endpoint mapping on a storage volume to make a connection to a resource.
 
-**Parent Topic:**[Resource blocks in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/resource-blocks.md)
+**Parent Topic:**[Resource blocks in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/resource-blocks.md)
 

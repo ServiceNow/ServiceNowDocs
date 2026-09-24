@@ -3,9 +3,9 @@ title: Configure activity types for the Customer History view
 description: Create an activity type to display in the activity feed on the Customer History view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-activity-types-ca.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure the Customer History view, Configure Customer Central, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 An activity type is an action that a contact or consumer performs. These actions are displayed in the activity feed on the Customer History view.
 
-Activity types are displayed in the Customer History view in Agent Workspace.
+Activity types are displayed in the Customer History view in CRM Workspace.
 
 \[Omitted image "activity-type.png"\] Alt text: Agent Workspace displaying activity types in Customer History view. In this example, cases are highlighted on the Customer History tab.
 

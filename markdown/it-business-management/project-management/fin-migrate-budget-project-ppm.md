@@ -3,11 +3,11 @@ title: Migrate budget of active projects to Next Experience
 description: Migrate the project budget to Next Experience to manage the financials using Project Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/fin-migrate-budget-project-ppm.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -26,15 +26,15 @@ Role required: it\_project\_manager
 
 2.  Migrate baselines using one of the following options.
 
-<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d192266e85">
+<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d192539e85">
 
 Choice
 
-</th><th align="left" id="d192266e88">
+</th><th align="left" id="d192539e88">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d192266e94">
+</th></tr></thead><tbody><tr><td id="d192539e94">
 
 **Using list actions**
 
@@ -45,7 +45,7 @@ Description
 3.  On the migrate budget confirmation window, select **OK**.
 
 
-</td></tr><tr><td id="d192266e124">
+</td></tr><tr><td id="d192539e124">
 
 **Using related links**
 
@@ -56,7 +56,7 @@ Description
 3.  On the migrate budget confirmation window, select **OK**.
 
 
-</td></tr><tr><td id="d192266e151">
+</td></tr><tr><td id="d192539e151">
 
 **Activate a scheduled job**
 
@@ -66,7 +66,7 @@ Description
 2.  Filter the Name field to locate the **Migrate budget for active demands and projects** scheduled job and open it.
 3.  Select **Active** and on the Scheduled Script Execution form, fill the fields.
 
-For a description of the field names, see [Scheduled Script Execution Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/scheduled-script-execution-form.md).
+For a description of the field names, see [Scheduled Script Execution Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/scheduled-script-execution-form.md).
 
 4.  Select **Update**.
 
@@ -75,7 +75,7 @@ For a description of the field names, see [Scheduled Script Execution Form](http
 </table>    **Note:** After migration, you won't be able to view the budget on Classic UI. You're encouraged to manage budget using the Financials in Next Experience.
 
 
-**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
+**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CreateAProject.md)
 
 **Related topics**  
 
@@ -97,6 +97,10 @@ For a description of the field names, see [Scheduled Script Execution Form](http
 [Create an expense line]()
 
 [Create and manage waterfall projects]()
+
+[Schedule a project from a start date]()
+
+[Apply or change a task constraint]()
 
 [Update a project]()
 
@@ -124,5 +128,5 @@ For a description of the field names, see [Scheduled Script Execution Form](http
 
 [Migrate financial baselines of projects to Next Experience]()
 
-[Migrate financial baselines of projects to Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/migrate-fin-baselines-projects.md)
+[Migrate financial baselines of projects to Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/migrate-fin-baselines-projects.md)
 

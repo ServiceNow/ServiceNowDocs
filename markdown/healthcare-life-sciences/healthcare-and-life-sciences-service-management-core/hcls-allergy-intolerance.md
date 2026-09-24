@@ -3,11 +3,11 @@ title: Allergy intolerance table
 description: The Allergy intolerance \[sn\_hcls\_allergy\] table stores the information about a clinical assessment of an allergy or intolerance; a propensity, or a potential risk to an individual, to have an adverse reaction on future exposure to the specified substance, or class of substance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-allergy-intolerance.html
-release: australia
+release: brazil
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Data model tables, Reference, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -184,7 +184,7 @@ Alpha-numeric profile identifier of the allergy intolerance.
 
  The value is auto-generated and is incremented every time you add a new allergy or intolerance to your ServiceNow instance. The initial value for the **Number** field is ALLR00001001.
 
-**Note:** To customize the number, define the auto-numbering format for the Allergy intolerance \[sn\_hcls\_allergy\] table. For more information, see [Add auto-numbering records in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AutoNumberingRecordsInATable.md).
+**Note:** To customize the number, define the auto-numbering format for the Allergy intolerance \[sn\_hcls\_allergy\] table. For more information, see [Add auto-numbering records in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AutoNumberingRecordsInATable.md).
 
 </td></tr><tr><td>
 
@@ -251,5 +251,5 @@ Assertion about certainty associated with a propensity or potential risk of a re
  For more information about the available statuses, see [allergy intolerance verification statuses](https://www.hl7.org/fhir/valueset-allergyintolerance-verification.html) defined in the FHIR specifications.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-data-tables.md)
+</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-data-tables.md)
 

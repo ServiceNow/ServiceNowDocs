@@ -3,11 +3,11 @@ title: Set up the Amazon Connect spoke
 description: Integrate the ServiceNow instance and Amazon Connect account using AWS credential to authenticate ServiceNow requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-amzn-connect.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Amazon Connect Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---

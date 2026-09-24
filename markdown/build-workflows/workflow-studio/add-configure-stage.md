@@ -3,11 +3,11 @@ title: Add and configure a stage in a playbook
 description: Add and configure a stage in your playbook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/add-configure-stage.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -20,21 +20,21 @@ Add and configure a stage in your playbook.
 
 Role required: playbook.admin or pd\_author
 
-Review [Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md).
+Review [Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md).
 
 ## Procedure
 
 1.  Add a stage.
 
-<table id="choicetable_z1g_1yz_21c"><thead><tr><th align="left" id="d39356e75">
+<table id="choicetable_z1g_1yz_21c"><thead><tr><th align="left" id="d39466e75">
 
 View
 
-</th><th align="left" id="d39356e78">
+</th><th align="left" id="d39466e78">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d39356e84">
+</th></tr></thead><tbody><tr><td id="d39466e84">
 
 **Diagram**
 
@@ -44,7 +44,7 @@ Steps
 2.  In the mini-picker, select the dotted square icon. \[Omitted image "diagram-stage-icon.png"\] Alt text: Square dotted stage icon in Diagram view mini-picker.
 
 
-</td></tr><tr><td id="d39356e113">
+</td></tr><tr><td id="d39466e113">
 
 **Board**
 
@@ -94,11 +94,11 @@ Choose when you want your stage to start running. Options include:-   **When pla
 
 
 </td></tr></tbody>
-</table>    2.  **Show additional options** in the activity for [even more granular control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/advanced-instruction-activity.md).
+</table>    2.  **Show additional options** in the activity for [even more granular control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/advanced-instruction-activity.md).
 
         **Warning:** Changing the advanced property fields of an activity can potentially break your automation. Make sure you understand how the playbook and its activities flow before you make changes.
 
-<table id="choicetable_ffz_mct_vlb"><tbody><tr><td id="d39356e257">
+<table id="choicetable_ffz_mct_vlb"><tbody><tr><td id="d39466e257">
 
 **Display order**
 
@@ -106,15 +106,15 @@ Choose when you want your stage to start running. Options include:-   **When pla
 
 When there are multiple stages running at the same time, define the order in which stages appear during a playbook run.**Note:** In Workflow Studio, this can also be helpful when viewing parallel activities in Diagram view.
 
-</td></tr><tr><td id="d39356e277">
+</td></tr><tr><td id="d39466e277">
 
 **Start with delay**
 
 </td><td>
 
-Specify a duration of time to wait before running an stage whose start rule and conditions have been met. For more information, see [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/start-with-delay-properties.md).
+Specify a duration of time to wait before running an stage whose start rule and conditions have been met. For more information, see [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/start-with-delay-properties.md).
 
-</td></tr><tr><td id="d39356e300">
+</td></tr><tr><td id="d39466e300">
 
 **Restart rules**
 
@@ -123,7 +123,7 @@ Specify a duration of time to wait before running an stage whose start rule and 
 Choose what this activity does when a playbook is restarted:-   **Skip on restart**: Skip this stage when the run is due to a restart.
 -   **Run always**: Always run this stage, including first runs.
 -   **Skip on first run**: Skip this stage during the first run.
-For more information, see [Configure restart for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/enable-define-restart.md).
+For more information, see [Configure restart for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/enable-define-restart.md).
 
 </td></tr></tbody>
 </table>3.  Under the **Runtime permissions** tab, add sets of users, user groups, user criteria and roles, and define whether they can add optional activities to the stage or restart the stage and its activities.
@@ -137,7 +137,7 @@ For more information, see [Configure restart for Playbooks](https://raw.githubus
 
 ## What to do next
 
-[Add and configure your activities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/add-configure-activity.md)
+[Add and configure your activities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/add-configure-activity.md)
 
-**Parent Topic:**[Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md)
+**Parent Topic:**[Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md)
 

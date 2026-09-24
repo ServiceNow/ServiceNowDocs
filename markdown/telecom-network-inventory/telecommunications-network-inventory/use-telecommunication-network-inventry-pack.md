@@ -3,11 +3,11 @@ title: Use an attribute pack in the CI record
 description: Use an attribute pack to capture the attributes that you define for a configuration item \(CI\) record in the Telecommunications Network Inventory application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/use-telecommunication-network-inventry-pack.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Attribute pack for CI records, Use, Telecommunications Network Inventory]
 ---
@@ -39,9 +39,9 @@ The attribute pack tables are added on the **Packs** tab.
 
 ## What to do next
 
-You can update the fields in the pack table that you’ve added. To learn more, see [Review and update a pack for a CI record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/review-update-pack-table.md).
+You can update the fields in the pack table that you’ve added. To learn more, see [Review and update a pack for a CI record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/review-update-pack-table.md).
 
-**Parent Topic:**[Attribute pack for CI records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-pack-table-ci-record.md)
+**Parent Topic:**[Attribute pack for CI records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/using-pack-table-ci-record.md)
 
 **Related topics**  
 

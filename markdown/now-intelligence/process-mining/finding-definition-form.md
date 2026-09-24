@@ -3,11 +3,11 @@ title: Rule-based finding definition form
 description: Use the Create Improvement opportunity definition form to create a finding definition from the Finding Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/finding-definition-form.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Process Mining, Platform Analytics]
 ---
@@ -92,5 +92,5 @@ Active
 Select the field if you want this finding definition to be active. By default, it’s selected.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Process Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-mining-reference.md)
+</table>**Parent Topic:**[Process Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/process-mining-reference.md)
 

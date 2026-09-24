@@ -3,11 +3,11 @@ title: Configure the main tag on a page
 description: Specify the main content of a page to include in the &lt;main&gt; tag to improve search engine optimization and accessibility.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/configure-main-tag-on-page.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Improving search engine optimization for portals, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -53,5 +53,5 @@ In the HTML of the page, the **&lt;main&gt;** tag contains the container, row, o
 
 \[Omitted image "main-tag.png"\] Alt text: Main tag configured for a page in Service Portal Designer
 
-**Parent Topic:**[Improving search engine optimization for portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/seo-sp.md)
+**Parent Topic:**[Improving search engine optimization for portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/seo-sp.md)
 

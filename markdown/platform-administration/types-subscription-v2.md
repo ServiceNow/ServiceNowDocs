@@ -1,20 +1,20 @@
 ---
 title: Types of subscriptions in Subscription Management
-description: Subscriptions to ServiceNow applications come in different types. The type of subscription determines the allocation of users, access to applications, and custom application and table entitlements.
+description: Subscriptions to ServiceNow applications come in different types. The type of subscription determines the allocation ofusers, access to applications, and custom application and table entitlements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/types-subscription-v2.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Subscription Management, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Types of subscriptions in Subscription Management
 
-Subscriptions to ServiceNow applications come in different types. The type of subscription determines the allocation of users, access to applications, and custom application and table entitlements.
+Subscriptions to ServiceNow applications come in different types. The type of subscription determines the allocation ofusers, access to applications, and custom application and table entitlements.
 
-Each type of product subscription is measured according to a meter. For details on the different types of meters and what they measure see [KB0727967](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0727967).
+Each type of product subscription is measured according to a meter. For details on the different types of meters and what they measure see [Values for Subscription-Based Products \[KB0727967\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0727967).
 
 <table id="table_jls_2y3_yq"><thead><tr><th>
 
@@ -116,5 +116,5 @@ Automatically allocated by your instance
 Provides entitlements for an organization's number of active users regardless of their role assignments. An active user is any user whose record in the Users \[sys\_user\] table has a value in the **User ID** field and has the **Active** field set to true.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Subscription Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/subscription-management-reference-v2.md)
+</table>**Parent Topic:**[Subscription Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/subscription-management-reference-v2.md)
 

@@ -3,9 +3,9 @@ title: Create a customer play task
 description: Create a customer play task to define a planned action that a provider or customer must complete in support of a customer play. A customer play task must be clearly defined and can be visible to internal stakeholders or external customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-create-success-case-task.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a customer play, Manage playbooks, Customer success, Use, Customer Success Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_acct\_lc.customer\_success\_agent
 
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
+1.  Navigate to **Workspace** &gt; **CRM Workspace** and select the **List** icon.
 
 2.  Navigate to the **Customer Success** &gt; **All Customer Plays**.
 
@@ -207,7 +207,7 @@ Any additional information that must be provided to the customer. This informati
 ## What to do next
 
 -   Select **Discuss** to start a sidebar discussion about this customer play task. In the pop-up window, select the participants who must participate in the discussion, enter a brief message, and select **Start discussion**. A window appears with a link to the record for this initiative. Select **Open record** and start the discussion. When the discussion has been completed, you can see the details in the **Activity stream**.
--   Create success play: See [Create a success play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-success-play.md).
+-   Create success play: See [Create a success play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-create-success-play.md).
 
-**Parent Topic:**[Create a customer play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-success-case-playbook.md)
+**Parent Topic:**[Create a customer play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-create-success-case-playbook.md)
 

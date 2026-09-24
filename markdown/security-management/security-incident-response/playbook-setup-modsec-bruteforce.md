@@ -3,11 +3,11 @@ title: Set up the ModSec Brute force by IP Burst playbook
 description: Use the following steps to set up the ModSec Brute force by IP Burst playbook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-setup-modsec-bruteforce.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Playbook for ModSec Brute force by IP Burst, Flow-based Playbooks, Security Incident Response playbooks, Playbook Resources, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -48,5 +48,5 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
     -   **Category** is **Unauthorized access**.
     -   **Subcategory** is **Brute force password cracking attempts**.
 
-**Parent Topic:**[Playbook for ModSec Brute force by IP Burst](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-modsec-bruteforce-ip.md)
+**Parent Topic:**[Playbook for ModSec Brute force by IP Burst](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/playbook-modsec-bruteforce-ip.md)
 

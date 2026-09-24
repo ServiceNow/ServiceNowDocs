@@ -1,19 +1,19 @@
 ---
-title: Change the Virtual Agent greeting messages in the Greeting setup topic
+title: \(Legacy\) Change the Virtual Agent greeting messages in the Greeting setup topic
 description: The Virtual Agent greeting setup topic provides default greeting messages for your conversations. Customize these greetings by adding system properties that change the default welcome message and the top selection message prompting users to enter an issue or request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-welcome-topic-selection-msgs.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [getgreetingmessage, define greeting, live chat automated greetings, greeting message for customers, live chat greetings, greeting words, servicenow virtual agent greeting message, facebook messenger greeting examples, custom greetings and setup servicenow]
 breadcrumb: [Working with setup topics, Customizing a chat experience, Configure, Virtual Agent, Conversational Interfaces]
 ---
 
-# Change the Virtual Agent greeting messages in the Greeting setup topic
+# \(Legacy\) Change the Virtual Agent greeting messages in the Greeting setup topic
 
 The Virtual Agent greeting setup topic provides default greeting messages for your conversations. Customize these greetings by adding system properties that change the default welcome message and the top selection message prompting users to enter an issue or request.
 
@@ -134,6 +134,4 @@ Enter the text that specifies the next selection action that the user can make a
 </td></tr></tbody>
 </table>    2.  Select **Submit**.
 
-
-**Parent Topic:**[Working with setup topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/working-setup-topics.md)
 

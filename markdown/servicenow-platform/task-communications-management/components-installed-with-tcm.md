@@ -3,11 +3,11 @@ title: Components installed with Task Communications Management
 description: Several types of components are installed with the Task Communications Management plugin, including tables and user roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/task-communications-management/components-installed-with-tcm.html
-release: australia
+release: brazil
 product: Task Communications Management
 classification: task-communications-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Activate Task Communications Management, Task Communications Management plugins, Task Communications Management, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Activate Task Communications Management, Task Communications Manage
 
 Several types of components are installed with the Task Communications Management plugin, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 Demo data is available for this feature.
 
@@ -235,7 +235,7 @@ Configure all Task Communications Management features including communication pl
 -   sn\_comm\_management.comm\_plan\_mgr
 
 </td></tr></tbody>
-</table>To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
+</table>To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
-**Parent Topic:**[Activate Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/task-communications-management/activate-tcm-plugin.md)
+**Parent Topic:**[Activate Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/task-communications-management/activate-tcm-plugin.md)
 

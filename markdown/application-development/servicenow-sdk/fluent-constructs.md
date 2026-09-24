@@ -3,11 +3,11 @@ title: ServiceNow Fluent language constructs
 description: ServiceNow Fluent language constructs provide additional functionality for development in source code with ServiceNow Fluent APIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-sdk/fluent-constructs.html
-release: australia
+release: brazil
 product: ServiceNow SDK
 classification: servicenow-sdk
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Fluent API reference, Reference, ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -115,5 +115,5 @@ Record({
 })
 ```
 
-**Parent Topic:**[ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/servicenow-fluent-api-reference.md)
+**Parent Topic:**[ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/servicenow-fluent-api-reference.md)
 

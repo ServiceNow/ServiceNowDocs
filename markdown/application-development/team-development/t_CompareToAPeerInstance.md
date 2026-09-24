@@ -3,11 +3,11 @@ title: Compare to peer instances
 description: You can compare the local instance to any other remote instance and commit any current versions from the remote instance on your development instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/t\_CompareToAPeerInstance.html
-release: australia
+release: brazil
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Team Development, Planning your application, Building applications]
 ---
@@ -30,7 +30,7 @@ To compare the local instance to a peer instance:
 
 ## Procedure
 
-1.  Ensure that the peer instance is [defined as a remote instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_DefineARemoteInstance.md).
+1.  Ensure that the peer instance is [defined as a remote instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/team-development/t_DefineARemoteInstance.md).
 
 2.  Navigate to **Team Development** &gt; **Team Dashboard**.
 

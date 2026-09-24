@@ -3,11 +3,11 @@ title: Edge Encryption
 description: ServiceNow Edge Encryption encrypts sensitive data on your company premises before sending it over the Internet to your ServiceNow instance \(encrypted in flight\), where it remains encrypted at rest.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/edge-encryption.html
-release: australia
+release: brazil
 product: Edge Encryption
 classification: edge-encryption
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Encryption]
 ---
@@ -24,33 +24,33 @@ For details, see the Deprecation Process \[[KB0867184](https://support.serviceno
 
 <table id="table_t4k_14f_ryb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "icon-explore.png"\] Alt text: Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_EdgeEncryptionOverview.md)
+[Explore\[Omitted image "icon-explore.png"\] Alt text: Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/c_EdgeEncryptionOverview.md)
 
- [Learn the features and business value of Edge Encryption.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_EdgeEncryptionOverview.md)
-
-</td><td>
-
-[Plan\[Omitted image "icon-set-up.png"\] Alt text: Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_EdgeEncryptionPlanning.md)
-
- [Understand how to plan for Edge Encryption.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_EdgeEncryptionPlanning.md)
-
-</td></tr><tr><td>
-
-[Install\[Omitted image "bus-actionable-analytics.svg"\] Alt text: Logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_InstallEdgeEncryptionProxy.md)
-
- [Install Edge Encryption.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_InstallEdgeEncryptionProxy.md)
+ [Learn the features and business value of Edge Encryption.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/c_EdgeEncryptionOverview.md)
 
 </td><td>
 
-[Upgrading Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_UpdateEdgeEncryptionProxy.md)Upgrade\[Omitted image "icon-reference.png"\] Alt text: Reference
+[Plan\[Omitted image "icon-set-up.png"\] Alt text: Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/c_EdgeEncryptionPlanning.md)
 
- [Know about how to upgrade Edge Encryption.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_UpdateEdgeEncryptionProxy.md)
+ [Understand how to plan for Edge Encryption.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/c_EdgeEncryptionPlanning.md)
 
 </td></tr><tr><td>
 
-[Configure\[Omitted image "icon-manage.png"\] Alt text: Reviewing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/edge-config.md)
+[Install\[Omitted image "bus-actionable-analytics.svg"\] Alt text: Logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/c_InstallEdgeEncryptionProxy.md)
 
- [Understand how to configure Edge Encryption.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/edge-config.md)
+ [Install the Edge Encryption.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/c_InstallEdgeEncryptionProxy.md)
+
+</td><td>
+
+[Upgrading Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/c_UpdateEdgeEncryptionProxy.md)Upgrade\[Omitted image "icon-reference.png"\] Alt text: Reference
+
+ [Know about how to upgrade Edge Encryption.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/c_UpdateEdgeEncryptionProxy.md)
+
+</td></tr><tr><td>
+
+[Configure\[Omitted image "icon-manage.png"\] Alt text: Reviewing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/edge-config.md)
+
+ [Understand how to configure the Edge Encryption.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/edge-config.md)
 
 </td><td>
 

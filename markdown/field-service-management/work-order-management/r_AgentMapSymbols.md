@@ -3,11 +3,11 @@ title: Agent map symbols
 description: The agent map shows your location, the tasks assigned to you for the current day, tasks that have been accepted, and other tasks that have not yet been assigned.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/r\_AgentMapSymbols.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Execute from the agent map, Execute work order tasks, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---

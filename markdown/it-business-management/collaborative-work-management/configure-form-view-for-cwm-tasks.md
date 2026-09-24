@@ -3,11 +3,11 @@ title: Configure the form view for CWM tasks and connected work items
 description: Configure which fields appear when you open a CWM task or connected work item by customizing the default form view for the relevant table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/configure-form-view-for-cwm-tasks.html
-release: australia
+release: brazil
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-06-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -38,7 +38,7 @@ CWM displays fields from the default view of a table's record form in the task s
 
 4.  Configure the form using Form Builder.
 
-    For instances without Form Builder, use Form Design or Form Layout instead. For more information, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+    For instances without Form Builder, use Form Design or Form Layout instead. For more information, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).
 
 5.  Add or remove the fields you want to display, and save your changes.
 
@@ -50,9 +50,9 @@ The updated fields appear in the task side panel when you open tasks or connecte
 **Related topics**  
 
 
-[Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md)
+[Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md)
 
-[Show or hide fields on a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md)
+[Show or hide fields on a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md)
 
-[Update details of connected work items in CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/update-details-of-connected-work-items-in-cwm-boards.md)
+[Update details of connected work items in CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/update-details-of-connected-work-items-in-cwm-boards.md)
 

@@ -3,9 +3,9 @@ title: Completeness Rules by Investigative Case Management Entity Type
 description: While most entity record fields are not mandatory, each entity record contains a completeness field that tracks whether the record has sufficient data to be searchable within ICM. The following rules outline the minimum amount of information required for each entity record type to be considered complete.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-icm-ref-entity-man-completeness-rules.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Investigative Case Management reference, Reference, Public Sector Digital Services \(PSDS\)]
 ---

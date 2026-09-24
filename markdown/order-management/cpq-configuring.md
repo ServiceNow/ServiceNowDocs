@@ -3,7 +3,7 @@ title: Configuring CPQ Configurator
 description: Learn how to set up products, rules, pricing, and layouts in CPQ using configuration engine. You can define how users select, customize, and validate products during the quoting process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-configuring.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -57,9 +57,9 @@ The Commerce Logic Engine is built from modular components that define how produ
 
 To build your first configuration:
 
--   Upload a sample blueprint using the Matrix Loader. See [Configure the Matrix Loader](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-using-the-matrix-loader.md).
--   Create a configurable product in Salesforce CPQ \(SFDC\) and associate it with your blueprint, or create a configurable product offering in Product Catalog Management. See [Create configurable product offerings and associated blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-create-configurable-prod-offerings.md).
--   Launch the configuration experience by adding the product to a quote and verifying that the blueprint-driven UI works as expected. See [Set up blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/blueprints_101.md).
+-   Upload a sample blueprint using the Matrix Loader. See [Configure the Matrix Loader](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-using-the-matrix-loader.md).
+-   Create a configurable product in Salesforce CPQ \(SFDC\) and associate it with your blueprint, or create a configurable product offering in Product Catalog Management. See [Create configurable product offerings and associated blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-create-configurable-prod-offerings.md).
+-   Launch the configuration experience by adding the product to a quote and verifying that the blueprint-driven UI works as expected. See [Set up blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/blueprints_101.md).
 
 ## Examples of commerce logic in action
 

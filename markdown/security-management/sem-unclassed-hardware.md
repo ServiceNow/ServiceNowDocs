@@ -3,9 +3,9 @@ title: Managing unclassed hardware
 description: An asset is classified as unclassed hardware when it cannot be matched to an existing configuration item \(CI\) in the Configuration Management Database \(CMDB\) using defined lookup rules during import.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-unclassed-hardware.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Associating finding with a configuration item using lookup rules, Automating prioritization and triaging, Security Exposure Management workflow, Explore, Unified Security Exposure Management, Security Operations]
 ---
@@ -70,10 +70,10 @@ The following extracts show the IRE payload for creating CI in Unclassed Hardwar
 
 In this scenario, the existing Unclassed Hardware CI is not reclassified as a Windows Server. Instead, a new CI is created under Windows Server. This is because the identification rule depends on the Hardware CI’s name. As you can see from the payloads, the name received from Unified Security Exposure Management matches the FQDN/NETBIOS, whereas the Discovery payload provides only the host name.
 
-**Parent Topic:**[Associating finding with a configuration item using lookup rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-associate-finding-configuration-item-using-lookup-rules.md)
+**Parent Topic:**[Associating finding with a configuration item using lookup rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-associate-finding-configuration-item-using-lookup-rules.md)
 
 **Related topics**  
 
 
-[Reclassify unclassed hardware](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-reclassify-unclassed-hardware.md)
+[Reclassify unclassed hardware](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-reclassify-unclassed-hardware.md)
 

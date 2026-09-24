@@ -3,11 +3,11 @@ title: Set up prioritized intraday optimization with matching rules
 description: Configure prioritized intraday optimization to use matching rules that narrow job assignment decisions. Matching rules deliver focused, efficient job recommendations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/set-up-prioritized-intraday-optimization-with-matching-rules.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Matching rules for prioritized intraday optimization, Optimization for prioritized events, Intraday optimization, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
@@ -18,9 +18,9 @@ Configure prioritized intraday optimization to use matching rules that narrow jo
 
 ## Before you begin
 
--   Complete the setup in [Create an intraday optimization configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/configure-intraday-optimization.md).
--   Matching rules for prioritized intraday optimization require [Territory-Based Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/territory-based-optimization.md) to be enabled. Configurations using assignment groups don’t support matching rules.
--   Install the Field Service Management Demo Data \[com.snc.work\_management.demo\] plugin to access example matching rules. For more information see, [Activate Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/t_ActivateFieldServiceManagement.md).
+-   Complete the setup in [Create an intraday optimization configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/configure-intraday-optimization.md).
+-   Matching rules for prioritized intraday optimization require [Territory-Based Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/territory-based-optimization.md) to be enabled. Configurations using assignment groups don’t support matching rules.
+-   Install the Field Service Management Demo Data \[com.snc.work\_management.demo\] plugin to access example matching rules. For more information see, [Activate Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/t_ActivateFieldServiceManagement.md).
 
 Role required: wm\_admin
 
@@ -51,7 +51,7 @@ You can use these example matching rules or create your own.
 
 4.  Move the desired matching rules from the **Collection** list to the **Matching Rules** list and select **Save**.
 
-    **Note:** To create custom matching rules instead, see [Create matching rules for intraday events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-matching-rules-for-intraday-events.md).
+    **Note:** To create custom matching rules instead, see [Create matching rules for intraday events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/create-matching-rules-for-intraday-events.md).
 
 5.  Set the **Enable matching rules** field to **True** for each qualifier that should use matching rules.
 
@@ -71,7 +71,7 @@ When intraday optimization runs for the selected qualifier and detects an event 
 **Related topics**  
 
 
-[Activate intraday optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/activate-intraday-optimization.md)
+[Activate intraday optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/activate-intraday-optimization.md)
 
-[Configure intraday optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/configure-intraday-optimization.md)
+[Configure intraday optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/configure-intraday-optimization.md)
 

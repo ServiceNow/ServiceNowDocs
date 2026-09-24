@@ -3,9 +3,9 @@ title: Example allowing configuration records for a table
 description: You can permit other application scopes to create configuration records on application data tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/c\_ExampleGrantingAccessToConfigRecs.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Design-time access to application tables, Table design and runtime settings, Application access settings, Contextual development environment, Learning about developing on the ServiceNow AI Platform, Building applications]
 ---
@@ -62,5 +62,5 @@ The following diagram illustrates the effect of granting other application scope
 
 \[Omitted image "EffectsOfGrantAllDesignTimeAccess.png"\] Alt text: Granting access to configuration records
 
-**Parent Topic:**[Design-time access to application tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_DesignTimeAccessToAppTables.md)
+**Parent Topic:**[Design-time access to application tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_DesignTimeAccessToAppTables.md)
 

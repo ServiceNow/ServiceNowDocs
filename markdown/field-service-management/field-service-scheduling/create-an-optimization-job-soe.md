@@ -3,11 +3,11 @@ title: Create a scope for Schedule Optimization
 description: A scope defines the scheduling attribute configuration, horizon offset, horizon range, and qualifiers for an optimization run. Scopes are required for batch optimization to run.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/create-an-optimization-job-soe.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
@@ -24,7 +24,7 @@ Role required: wm\_admin
 
 \[Omitted video\] Description: This video demonstrates how to create a scope for Schedule Optimization
 
-When the Territory Planning plugin is installed and the Territory Model is active, qualifiers are automatically set to territories and scopes for assignment groups are no longer possible. For more information, see [Territory-Based Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/territory-based-optimization.md).
+When the Territory Planning plugin is installed and the Territory Model is active, qualifiers are automatically set to territories and scopes for assignment groups are no longer possible. For more information, see [Territory-Based Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/territory-based-optimization.md).
 
 ## Procedure
 

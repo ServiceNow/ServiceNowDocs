@@ -3,9 +3,9 @@ title: Advanced conditions for email notifications
 description: Use an advanced condition to send a notification based on the current email record, changing field values, or system properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_OptSpecifyingAdvancedCond.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create an email notification, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -51,10 +51,10 @@ The advanced condition script uses the following business rule global variables:
 
 **Note:** The **Advanced condition** field is evaluated in addition to other conditions you set on the notification. Both the **Condition** and **Advanced condition** must evaluate to true in order to send the notification.
 
-**Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md)
+**Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateANotification.md)
 
 **Related topics**  
 
 
-[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md)
+[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateANotification.md)
 

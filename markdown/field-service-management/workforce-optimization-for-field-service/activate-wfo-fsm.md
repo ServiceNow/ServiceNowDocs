@@ -3,11 +3,11 @@ title: Activate Workforce Optimization for Field Service
 description: You can activate the Workforce Optimization for Field Service plugin \(com.snc.app\_fsm\_wfo\) for Field Service Management if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/activate-wfo-fsm.html
-release: australia
+release: brazil
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Workforce Optimization, Set up workforce, Configure, Field Service Management]
 ---
@@ -27,19 +27,19 @@ Workforce Optimization for Field Service requires the following ServiceNow Store
 -   **Required ServiceNow Store applications to use in Field Service Manager Workspace**
     -   **Shift Scheduling for Field Service \(com.snc.sn\_fsm\_shift\_schdl\)**
 
-        Integrate the agent shift scheduling functionalities for Field Service Management Workforce Optimization. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installing-applications-in-application-manager.md).
+        Integrate the agent shift scheduling functionalities for Field Service Management Workforce Optimization. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/installing-applications-in-application-manager.md).
 
     -   **Team Management for Field Service \(com.snc.sn\_fsm\_team\_mgmt \)**
 
-        Implements team performance functionalities for Field Service Management Workforce Optimization. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installing-applications-in-application-manager.md).
+        Implements team performance functionalities for Field Service Management Workforce Optimization. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/installing-applications-in-application-manager.md).
 
     -   **Coaching \(com.sn\_coaching\)**
 
-        Facilitates the coaching of employees on their work through the use of coaching opportunities that can be conditionally configured. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installing-applications-in-application-manager.md).
+        Facilitates the coaching of employees on their work through the use of coaching opportunities that can be conditionally configured. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/installing-applications-in-application-manager.md).
 
     -   **Coaching with Learning \(com.sn\_coach\_learning\)**
 
-        Coach employees on their work through the use of coaching opportunities, taking advantage of critical moments in a process, that can be conditionally configured. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installing-applications-in-application-manager.md).
+        Coach employees on their work through the use of coaching opportunities, taking advantage of critical moments in a process, that can be conditionally configured. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/installing-applications-in-application-manager.md).
 
 
 Role required: admin
@@ -52,7 +52,7 @@ The following items are installed with Workforce Optimization for Field Service:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Workforce Optimization for Field Service components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/components-wfo-fsm.md).
+For more information, see [Workforce Optimization for Field Service components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/components-wfo-fsm.md).
 
 ## Procedure
 
@@ -66,7 +66,7 @@ For more information, see [Workforce Optimization for Field Service components](
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 
 ## Result

@@ -3,11 +3,11 @@ title: Activate Major Incident Management
 description: You can activate the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/activate-major-incident-management-plugin.html
-release: australia
+release: brazil
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Major Incident Management plugins, Managing major incidents, Incident Management, IT Service Management]
 ---
@@ -18,13 +18,15 @@ You can activate the Incident Management - Major Incident Management plugin \(co
 
 ## Before you begin
 
-Confirm that the application and all of its associated ServiceNow store applications have valid ServiceNow entitlements. For more information, see [Store installation links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+Confirm that the application and all of its associated ServiceNow store applications have valid ServiceNow® entitlements.
 
 Role required: admin
 
 ## About this task
 
-Incident Management - Major Incident Management plugin \(com.snc.incident.mim\) must be manually activated for new and existing customers
+Starting Brazil release, a scheduled job is available. The scheduled job executes a batch installation on a new provisioned instance to automatically install applications such as Major Incident Management applications if the customer has the necessary ServiceNow® entitlements. This is applicable only on new provisioned zboot instance. In case, the application is not installed automatically, you can still use this procedure to install and activate the application manually.
+
+You must manually activate the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\) for new and existing customers.
 
 Incident Management - Major Incident Management plugin activates these related plugins if they are not already active:
 
@@ -46,7 +48,7 @@ Notify\[com.snc.notify\]
 
 </td><td>
 
-Provides platform features for workflow-driven voice calls, conference calls, and SMS messages. Requires the Twilio Direct Driver and a separate contract with Twilio for SMS and Voice capabilities.**Note:** Existing users already using Twilio Driver need to [migrate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_MigrateToTwilioDirectDriver.md) to Twilio Direct Driver.
+Provides platform features for workflow-driven voice calls, conference calls, and SMS messages. Requires the Twilio Direct Driver and a separate contract with Twilio for SMS and Voice capabilities.**Note:** Existing users already using Twilio Driver need to [migrate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_MigrateToTwilioDirectDriver.md) to Twilio Direct Driver.
 
 </td></tr><tr><td>
 
@@ -69,24 +71,24 @@ Provides the ability to create on-call schedules and escalation trees. When an i
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 
--   **[Components installed with Incident Management - Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/installed-with-mim.md)**  
+-   **[Components installed with Incident Management - Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/installed-with-mim.md)**  
 Several types of components are installed with activation of the Incident Management - Major Incident Management plugin, including tables and user roles.
--   **[Slack notification installed with Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/slack-notification-installed-with-MIM.md)**  
+-   **[Slack notification installed with Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/slack-notification-installed-with-MIM.md)**  
 Slack notifications are added with activation of Incident Management – Major Incident Management.
 
-**Parent Topic:**[Major Incident Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/mim-plugins.md)
+**Parent Topic:**[Major Incident Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/mim-plugins.md)
 
 **Related topics**  
 
 
-[Managing major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/major-incident-management.md)
+[Managing major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/major-incident-management.md)
 
-[Legacy: Major incident overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/major-incident-overview.md)
+[Legacy: Major incident overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/major-incident-overview.md)
 
-[Major incident workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/major-incident-workbench.md)
+[Major incident workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/major-incident-workbench.md)
 
-[List of Australia plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[List of Brazil plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-of-plugins.md)
 

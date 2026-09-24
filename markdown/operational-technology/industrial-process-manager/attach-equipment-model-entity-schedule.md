@@ -3,13 +3,13 @@ title: Attach a schedule to an equipment model entity
 description: Attach an existing schedule to an equipment model entity with the Industrial Process Manager application. Attaching a schedule to an equipment model entity applies the schedule and its entries to that entity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/attach-equipment-model-entity-schedule.html
-release: australia
+release: brazil
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Associate a schedule with an equipment model entity, Managing an equipment model entity schedule, Configure, Industrial Process Manager, Operational Technology]
+breadcrumb: [Associate a schedule with an equipment model entity, Managing an equipment model entity schedule, Configure the Industrial Process Manager, Industrial Process Manager, Operational Technology]
 ---
 
 # Attach a schedule to an equipment model entity
@@ -41,5 +41,5 @@ Role required: sn\_isa\_schedule\_admin
 
 The attached schedule is now applied to the equipment model entity. You can view and manage the attached schedule in the equipment model entity record.
 
-**Parent Topic:**[Associate a schedule with an equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/associate-schedules-with-equipment-model-entity.md)
+**Parent Topic:**[Associate a schedule with an equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/associate-schedules-with-equipment-model-entity.md)
 

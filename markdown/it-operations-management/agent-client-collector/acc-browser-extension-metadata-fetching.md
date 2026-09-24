@@ -3,11 +3,11 @@ title: Browser extension metadata fetching
 description: Assess shadow IT and shadow AI risk in your organization by using browser extension metadata fetching in Agent Client Collector for Visibility \(ACC-VC\). This capability is an optional layer on top of browser extension discovery that collects each extension's metadata.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-browser-extension-metadata-fetching.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-08-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [browser extension metadata, browser extension discovery, ACC-VC]
 breadcrumb: [Browser extension discovery and categorization, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
@@ -40,5 +40,5 @@ Turning on browser extension metadata fetching increases the amount of data the 
 
 **Note:** If you turn off browser extension metadata fetching after previously turning it on, existing metadata records aren't deleted, but they stop being refreshed.
 
-**Parent Topic:**[Browser extension discovery and categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-browser-extension-discovery.md)
+**Parent Topic:**[Browser extension discovery and categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-browser-extension-discovery.md)
 

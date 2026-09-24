@@ -3,9 +3,9 @@ title: Convert a UI policy to a data policy
 description: To make a UI policy the default setting, convert the UI policy to a data policy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ConvertAUIPolicyToADataPolicy.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data policy, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -44,5 +44,5 @@ For a UI policy to be eligible for conversion to a data policy, the following co
 **Related topics**  
 
 
-[Data policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DataPolicy.md)
+[Data policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_DataPolicy.md)
 

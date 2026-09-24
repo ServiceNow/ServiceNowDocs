@@ -3,11 +3,11 @@ title: Evaluate CMDB settings for Data Foundations
 description: Identify and evaluate settings including CMDB reconciliation rules, CI creation business rules, and CMDB Data Manager policies that support data quality and life cycle management for your principal classes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-eval-settings.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Data Foundations settings evaluation, CMDB reconciliation rules, CI creation business rules, Data Manager policies for principal classes, Settings tab status tiles, requires attention settings]
 breadcrumb: [Analyze CMDB settings, Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
@@ -39,15 +39,15 @@ Role required: sn\_cmdb\_admin
 
 5.  Evaluate each setting that requires attention and use the available actions to open the related configuration pages and make updates.
 
-<table id="choicetable_acr_fw5_ggc"><thead><tr><th align="left" id="d272299e163">
+<table id="choicetable_acr_fw5_ggc"><thead><tr><th align="left" id="d270801e163">
 
 Action
 
-</th><th align="left" id="d272299e166">
+</th><th align="left" id="d270801e166">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d272299e172">
+</th></tr></thead><tbody><tr><td id="d270801e172">
 
 **Manage policies**
 
@@ -55,7 +55,7 @@ Description
 
 Opens the Data Manager overview page where you can create or update life cycle policies \(archive, attestation, certification, delete, retire\) for your principal classes.
 
-</td></tr><tr><td id="d272299e181">
+</td></tr><tr><td id="d270801e181">
 
 **Create policy**
 
@@ -63,7 +63,7 @@ Opens the Data Manager overview page where you can create or update life cycle p
 
 Opens the New policy form to create a policy for a principal class. The **Create policy** action is available in the policy summary dialog box displayed after selecting the policy coverage count in the **Classes with active policies** column within the Review Data Manager policies section.
 
-</td></tr><tr><td id="d272299e198">
+</td></tr><tr><td id="d270801e198">
 
 **View attributes**
 
@@ -71,7 +71,7 @@ Opens the New policy form to create a policy for a principal class. The **Create
 
 Opens the CI class attributes list to review and manage custom attributes for your principal classes. Use this action to identify classes with more than 10 active custom attributes.
 
-</td></tr><tr><td id="d272299e207">
+</td></tr><tr><td id="d270801e207">
 
 **Configure property**
 
@@ -79,7 +79,7 @@ Opens the CI class attributes list to review and manage custom attributes for yo
 
 Opens the system property configuration page to enable or disable CI creation from assets using IRE for applicable principal classes.
 
-</td></tr><tr><td id="d272299e217">
+</td></tr><tr><td id="d270801e217">
 
 **CI Class Manager**
 
@@ -96,5 +96,5 @@ Opens CI Class Manager to add the **Managed by group** field to CI classes that 
 **Related topics**  
 
 
-[Administer CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/administer-data-manager.md)
+[Administer CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/administer-data-manager.md)
 

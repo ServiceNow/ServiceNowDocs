@@ -3,11 +3,11 @@ title: Query record form fields
 description: A description of the fields in the query record form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/query-record-fields.html
-release: australia
+release: brazil
 product: Platform Performance
 classification: platform-performance
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -109,5 +109,5 @@ Average execution time \(ms\)
 The average duration to execute one of these similar queries.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Platform performance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/platform-performance-references.md)
+</table>**Parent Topic:**[Platform performance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/platform-performance/platform-performance-references.md)
 

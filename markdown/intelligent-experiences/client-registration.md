@@ -3,18 +3,18 @@ title: Client registration and AI Gateway setup
 description: Once an MCP server has been managed and approved, register the clients that will connect to it via AI Gateway.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/client-registration.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with MCP server records, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Working with MCP server records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Client registration and AI Gateway setup
 
 Once an MCP server has been managed and approved, register the clients that will connect to it via AI Gateway.
 
-Client registration establishes a secure OAuth 2.1 connection between your AI agent platform and the MCP server through AI Gateway. The registration process generates credentials — client ID and client secret to authenticate your agents when they make requests to the MCP server.
+Client registration establishes a secure OAuth 2.1 connection between your AI agent platform and the MCP server through AI Gateway. The registration process generates credentials client ID and client secret to authenticate your agents when they make requests to the MCP server.
 
 ## Selecting a registration type
 

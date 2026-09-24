@@ -3,11 +3,11 @@ title: AI Search index fields
 description: List of fields available on records in the AI Search index. AI Search populates these fields with values from source record fields during indexing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/index-fields-list-ais.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -172,5 +172,5 @@ The following AI Search index fields appear on all records indexed from ServiceN
 -   sys\_id
 -   table
 
-**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/reference-ais.md)
+**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/reference-ais.md)
 

@@ -3,14 +3,14 @@ title: Creating catalog templates for use in Creator Studio apps
 description: As a ServiceNow admin, you can create customized catalog templates in Service Catalog to guide users through adding forms in Creator Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-creating-catalog-templates.html
-release: australia
+release: brazil
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [create form template, create catalog template]
-breadcrumb: [Templates and forms, Administer, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Templates and forms, Administer, Creator Studio, Developing your application, Building applications]
 ---
 
 # Creating catalog templates for use in Creator Studio apps
@@ -27,9 +27,9 @@ When you add a catalog template to help users create forms in Creator Studio, yo
 
 Additionally, you may want to use the catalog template to restrict the catalogs that users can choose when creating an app.
 
-For more details on how to add catalog templates, see [Creating or editing catalog item template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-cat-item-template-cat-builder.md).
+For more details on how to add catalog templates, see [Creating or editing catalog item template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/create-cat-item-template-cat-builder.md).
 
 Check out an article on [Creating catalog templates for Creator Studio](https://www.servicenow.com/community/creator-studio-blogs/creator-studio-for-admins-creating-catalog-templates-for-creator/ba-p/3053357).
 
-**Parent Topic:**[Administering templates and forms for Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-administering-forms.md)
+**Parent Topic:**[Administering templates and forms for Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-administering-forms.md)
 

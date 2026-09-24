@@ -3,9 +3,9 @@ title: Use the Click method for Universal App Connector
 description: Use the Click method to perform a click action on an element.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-click-method-uac.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Universal app connector, Connectors, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -22,13 +22,13 @@ Role required: None
 
 ## About this task
 
-For information on the various additional operations that are available for the application screens and elements, see [Additional options for application screens and elements in Universal App Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/contextmenu-application-screens.md).
+For information on the various additional operations that are available for the application screens and elements, see [Additional options for application screens and elements in Universal App Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/contextmenu-application-screens.md).
 
 ## Procedure
 
 1.  Configure Universal App Connector.
 
-    To learn more about configuring the application screens and child elements, see [Use the Universal App Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-uac.md).
+    To learn more about configuring the application screens and child elements, see [Use the Universal App Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-uac.md).
 
 2.  Under Global Objects, double-click the **UniversalApplication** object.
 
@@ -80,12 +80,12 @@ For information on the various additional operations that are available for the 
 
     For example, if you select a Java application screen or element, the Java connector methods are displayed in Object Explorer.
 
-    -   For more information on Java connector methods, see [Java connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/java-connector-methods.md).
-    -   For more information on Google Chrome and Microsoft Edge connector methods, see [Chromium connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connectors-chrome-methods.md).
+    -   For more information on Java connector methods, see [Java connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/java-connector-methods.md).
+    -   For more information on Google Chrome and Microsoft Edge connector methods, see [Chromium connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/connectors-chrome-methods.md).
 
-    -   For more information on Windows connector methods, see [Windows Connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connectors-windows-methods.md).
+    -   For more information on Windows connector methods, see [Windows Connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/connectors-windows-methods.md).
     -   If you have captured a web application screen and you want to execute a custom JavaScript on it, you can use the ExecuteJavascript method.
 
 
-**Parent Topic:**[Universal app connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/universal-app-connector.md)
+**Parent Topic:**[Universal app connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/universal-app-connector.md)
 

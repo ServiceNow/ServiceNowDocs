@@ -3,9 +3,9 @@ title: Setting up project oversight conditions and decision rules
 description: As an admin, you create and maintain the conditions and decision rules that determine whether an order item qualifies as a project that can be tracked in Strategic Portfolio Management. You also specify the project template that Order Management uses to create that project for the order item.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/setting-up-project-oversight.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring the Strategic Portfolio Management integration, Order Management integration with Strategic Portfolio Management, Integrate, Sales Customer Relationship Management]
 ---
@@ -18,7 +18,7 @@ Set the conditions and decision rules for project oversight of order lines and a
 
 For example, in the Project Oversight Management for Order Line Item form, you use the decision table to add or change condition columns. You also specify the decision rules, including the project template, to be applied.
 
-For more information on adding or changing conditions in decision tables, see [Decision Builder user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/decision-builder-user-interface.md).
+For more information on adding or changing conditions in decision tables, see [Decision Builder user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/decision-builder-user-interface.md).
 
 **Note:** If Order Management demo data is installed, the decision table for each project oversight form displays the condition columns and the decision rows added for demo data. You can add, change, or delete the condition columns and decision rows as needed.
 

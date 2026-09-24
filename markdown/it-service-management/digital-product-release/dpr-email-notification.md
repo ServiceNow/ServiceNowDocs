@@ -3,11 +3,11 @@ title: Email notifications in Digital Product Release
 description: List of automated email notifications that are installed with Digital Product Release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-email-notification.html
-release: australia
+release: brazil
 product: Digital Product Release
 classification: digital-product-release
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Email notifications in Digital Product Release, Email notifications in DPR]
 breadcrumb: [Reference, Digital Product Release, IT Service Management]
@@ -29,5 +29,5 @@ The following table lists automated email notifications that trigger at key even
 |Release task rejected|Notifies when the release task approval request is rejected.|Task approval request is rejected|Release owner|
 |Release task approval request|Notifies to review and approve or reject the release task request.|Task approval request submitted|Approver|
 
-**Parent Topic:**[Digital Product Release reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-reference.md)
+**Parent Topic:**[Digital Product Release reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-reference.md)
 

@@ -3,11 +3,11 @@ title: Writing effective stories in Agile Development 2.0
 description: Well-written stories are easy to understand by all developers and members of team members, such as Testing or Documentation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/how-to-write-stories.html
-release: australia
+release: brazil
 product: Agile Development
 classification: agile-development
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Agile Development 2.0 reference, Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
@@ -93,5 +93,5 @@ Acceptance criteria define the boundaries of a user story, and are used to confi
     4.  Log in as an interested party.
     5.  Check that you have received an email for the logged incident.
 
-**Parent Topic:**[Agile Development 2.0 reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/agile-development-2-reference.md)
+**Parent Topic:**[Agile Development 2.0 reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/agile-development-2-reference.md)
 

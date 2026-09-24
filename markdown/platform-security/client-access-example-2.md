@@ -3,9 +3,9 @@ title: Add your certificate to the ServiceNow Trusted Key Store
 description: Upload your key and certificate to the ServiceNow Trusted Key Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/client-access-example-2.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring client accessible secrets, Secrets Management, Platform Security]
 ---
@@ -100,5 +100,5 @@ Paste the certificate information that you copied in step 4.
 </table>8.  Select **Submit** to save the record.
 
 
-**Parent Topic:**[Configuring client accessible secrets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/client-access-secret-landing.md)
+**Parent Topic:**[Configuring client accessible secrets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/client-access-secret-landing.md)
 

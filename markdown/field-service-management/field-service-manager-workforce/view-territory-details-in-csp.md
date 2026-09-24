@@ -3,11 +3,11 @@ title: View territory information in contextual side panel
 description: The contextual side panel offers valuable insights and easy access to territory information, helping you make well-informed decisions and efficiently manage your territories.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/view-territory-details-in-csp.html
-release: australia
+release: brazil
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing territories and agents, Managing workforce, Use, Field Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_fsm\_tp.fsm\_territory\_planner, sn\_fsm\_tp.fsm\_territory\_
 
 ## About this task
 
-The contextual side panel provides comprehensive details about territories, markers, shapes, and heatmaps. Administrators can configure the displayed fields to show precisely the information needed. For more information, see [Configure territory fields to appear in Territory Planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configure-fields-to-appear-in-contextual-side-panel.md).
+The contextual side panel provides comprehensive details about territories, markers, shapes, and heatmaps. Administrators can configure the displayed fields to show precisely the information needed. For more information, see [Configure territory fields to appear in Territory Planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/configure-fields-to-appear-in-contextual-side-panel.md).
 
 In the contextual side panel:
 
@@ -40,15 +40,15 @@ Territory Key Performance Indicators \(KPIs\) offer valuable insights into the p
 
 3.  View details in the contextual side panel.
 
-<table id="choicetable_wc2_mgn_2yb"><thead><tr><th align="left" id="d152966e123">
+<table id="choicetable_wc2_mgn_2yb"><thead><tr><th align="left" id="d156129e123">
 
 To view
 
-</th><th align="left" id="d152966e126">
+</th><th align="left" id="d156129e126">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d152966e132">
+</th></tr></thead><tbody><tr><td id="d156129e132">
 
 **Map overlay data items**
 
@@ -58,7 +58,7 @@ Do the following
 -   You can customize the display using the Settings icon \(\[Omitted image "IconPersonalizeList.png"\] Alt text: Settings icon\).
 
 
-</td></tr><tr><td id="d152966e156">
+</td></tr><tr><td id="d156129e156">
 
 **Territory**
 

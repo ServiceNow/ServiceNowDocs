@@ -3,9 +3,9 @@ title: Filter native Data snapshots indicator scores in KPI Details
 description: Filter native Data snapshots indicators by the fields on their Data snapshots sources. For fields that refer to tables with report hierarchies, roll up scores to the parent field.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/filter-data-snapshots-indicator-scores.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Examining indicators, KPI Details, Platform Analytics experience, Platform Analytics]
 ---
@@ -20,7 +20,7 @@ Role required: None. However, upgraded instances may require pa\_viewer.
 
 ## Procedure
 
-1.  Open KPI Details for a native Data snapshots indicator, as described in [View KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/view-kpi-details.md).
+1.  Open KPI Details for a native Data snapshots indicator, as described in [View KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/view-kpi-details.md).
 
 2.  In the sidebar of KPI Details, select the Filter icon. \[Omitted image "kpi-details-filter-icon.png"\] Alt text: Filter icon highlighted on sidebar.
 
@@ -66,12 +66,12 @@ Role required: None. However, upgraded instances may require pa\_viewer.
 
 8.  If you have selected multiple elements, select how to display the elements.
 
-    By default, the aggregate score is displayed. Select **Display as separate time series** to show each element separately. You can make a selection only in cases where both aggregate and separate score displays are possible. For more information, see [Aggregate score of multiple elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/apply-brkdowns-element-kpi-details.md).
+    By default, the aggregate score is displayed. Select **Display as separate time series** to show each element separately. You can make a selection only in cases where both aggregate and separate score displays are possible. For more information, see [Aggregate score of multiple elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/apply-brkdowns-element-kpi-details.md).
 
 9.  Click **Apply**
 
 
-**Parent Topic:**[Examining indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details-components.md)
+**Parent Topic:**[Examining indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/kpi-details-components.md)
 
 **Related topics**  
 

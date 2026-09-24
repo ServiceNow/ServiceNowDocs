@@ -3,12 +3,12 @@ title: Components installed with AI Control Tower
 description: Several types of components are installed with activation of AI Control Tower, including plugins, user roles, and tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-installed-with.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-05-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [AI Control Tower, installed components, plugins, roles, tables]
-breadcrumb: [Reference, AI Control Tower, Enable AI experiences]
+breadcrumb: [Reference, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Components installed with AI Control Tower
@@ -17,7 +17,7 @@ Several types of components are installed with activation of AI Control Tower, i
 
 ## Plugins installed
 
-Activation of AI Control Tower installs the following plugins. Additional plugins listed in [Additional plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-installed-with.md) extend AI Control Tower with capabilities for discovery, security, dashboards, and reporting.
+Activation of AI Control Tower installs the following plugins. Additional plugins listed in [Additional plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-installed-with.md) extend AI Control Tower with capabilities for discovery, security, dashboards, and reporting.
 
 |Plugin|Plugin ID|Description|
 |------|---------|-----------|
@@ -69,7 +69,6 @@ Leads the execution of AI Control Tower initiatives, configures governance and a
 
 </td><td>
 
--   sn\_ai\_governance.workspace\_admin
 -   sn\_nowassist\_admin.user
 -   sn\_aia.admin
 -   aig\_admin

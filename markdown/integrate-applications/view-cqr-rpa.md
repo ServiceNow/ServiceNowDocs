@@ -3,9 +3,9 @@ title: View the code quality rules list in RPA Hub
 description: View a list of the pre-defined code quality check rules along with their active status and severity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/view-cqr-rpa.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Code quality check, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -29,12 +29,12 @@ Role required: sn\_rpa\_fdn.rpa\_release\_manager, sn\_rpa\_fdn.rpa\_business\_u
 4.  Open a rule to view the details.
 
 
-**Parent Topic:**[Code quality check in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/code-quality-check-rpa.md)
+**Parent Topic:**[Code quality check in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/code-quality-check-rpa.md)
 
 **Related topics**  
 
 
-[Code quality rules list in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/cqr-list-rpa.md)
+[Code quality rules list in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/cqr-list-rpa.md)
 
-[Code quality rule form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/edit-cqr-rpa.md)
+[Code quality rule form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/edit-cqr-rpa.md)
 

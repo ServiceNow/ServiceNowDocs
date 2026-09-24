@@ -3,11 +3,11 @@ title: Summarize the contents of an app in ServiceNow Studio
 description: Generate a summary of your app using ServiceNow Otto for Creator in ServiceNow Studio. After reviewing the summary, you can use it as a description for your app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/summarize-an-app-in-servicenow-studio.html
-release: australia
+release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, generative AI, servicenow studio]
 breadcrumb: [App summary generation, AI tools and files, Use, ServiceNow Studio, Developing your application, Building applications]
@@ -54,5 +54,5 @@ If your company has a robust citizen development program and has many developers
 
 After you create an initial app summary, the **Summarize** button becomes the **Summary** button. If you see **Summary**, know that an app summary has already been created and can be edited as needed.
 
-**Parent Topic:**[App summary generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-landing.md)
+**Parent Topic:**[App summary generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-landing.md)
 

@@ -3,11 +3,11 @@ title: Generate and improve Docs content with ServiceNow Otto \(CWM\)
 description: Use ServiceNow Otto within your Docs to generate new content, summarize or expand sections, and refine drafts. Avoid starting Docs from scratch, save time, and keep your content relevant. Use ServiceNow Otto within your Docs to generate new content, summarize or expand sections, and refine drafts. Avoid starting Docs from scratch, save time, and keep your content relevant.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/generate-summarize-and-refine-content-of-docs-with-now-assist.html
-release: australia
+release: brazil
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Collaborate with Docs, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Use ServiceNow Otto within your Docs to generate new content, summarize or expan
 
 ## Before you begin
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: sn\_cwm\_ai.cwm\_ai\_user
 
@@ -36,15 +36,15 @@ You can interact with ServiceNow Otto directly in your Doc to create content, ad
 
 3.  From your Doc, open the page you want to work with and use ServiceNow Otto for any of your use cases.
 
-<table id="choicetable_l3j_vx2_lgc"><thead><tr><th align="left" id="d313825e126">
+<table id="choicetable_l3j_vx2_lgc"><thead><tr><th align="left" id="d315404e126">
 
 Choice
 
-</th><th align="left" id="d313825e129">
+</th><th align="left" id="d315404e129">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d313825e135">
+</th></tr></thead><tbody><tr><td id="d315404e135">
 
 **Work with content of the whole page**
 
@@ -60,7 +60,7 @@ Some examples are:
     -   For product teams: **Analyze the customer feedback comments in this Doc, group into top 5 themes, and suggest top 3 enhancements for highest impact.**
  **Note:** ServiceNow Otto uses the context from your Doc page to generate a response.
 
-</td></tr><tr><td id="d313825e183">
+</td></tr><tr><td id="d315404e183">
 
 **Refine, elaborate, or improve the existing content within the page**
 
@@ -76,7 +76,7 @@ Some examples are:
     -   **Rewrite this in a casual tone.**
 \[Omitted image "na-inline-open-text.png"\] Alt text: ServiceNow Otto inline prompt for selected content on the page.
 
-</td></tr><tr><td id="d313825e234">
+</td></tr><tr><td id="d315404e234">
 
 **Take assistance on a blank page**
 
@@ -93,7 +93,7 @@ Some examples are:
 
 \[Omitted image "na-blank-page-nacm.png"\] Alt text: Creating first draft for a page using ServiceNow Otto.
 
-</td></tr><tr><td id="d313825e287">
+</td></tr><tr><td id="d315404e287">
 
 **Answer questions in the context of this Doc**
 
@@ -113,5 +113,5 @@ Whether the content in the Doc is added manually or generated using ServiceNow O
     **Important:** Because the output is AI-generated, review it to ensure accuracy.
 
 
-**Parent Topic:**[Collaborative documentation using CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-docs.md)
+**Parent Topic:**[Collaborative documentation using CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/cwm-docs.md)
 

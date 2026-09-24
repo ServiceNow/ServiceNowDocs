@@ -3,11 +3,11 @@ title: Service Mapping
 description: The ServiceNow Service Mapping application discovers all application services in your organization and builds a comprehensive map of all devices, applications, and configuration profiles used in these application services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/c\_ServiceMappingOverview.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ITOM Visibility, IT Operations Management]
 ---
@@ -34,11 +34,11 @@ Map services across dynamic cloud-based providers with a high degree of accuracy
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about the various methods of mapping application services.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-get-started.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about the various methods of mapping application services.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/service-mapping-get-started.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-setup.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/service-mapping-setup.md)
 
 </td><td>
 
@@ -46,11 +46,11 @@ Map services across dynamic cloud-based providers with a high degree of accuracy
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-service-map.svg"\] Alt text:Review mapping application services for analysis and maintenance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/using-service-mapping.md)
+[Use\[Omitted image "bus-service-map.svg"\] Alt text:Review mapping application services for analysis and maintenance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/using-service-mapping.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components like roles, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components like roles, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/service-mapping-reference.md)
 
 </td><td>
 

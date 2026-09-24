@@ -3,11 +3,11 @@ title: Create repair orders for enterprise assets in the Inventory view
 description: Request repair of enterprise assets that are defective or pending repair by creating a repair order in the Inventory view of Enterprise Asset Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/repair-orders-for-eam-assets-in-inventory-view.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Request repair of defective enterprise assets, Manage repair of defective assets in your stockroom in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
@@ -110,5 +110,5 @@ Notes about the repair order.
 5.  Select **Save**.
 
 
-**Parent Topic:**[Request repair of defective enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/request-repair-defective-eam-assets.md)
+**Parent Topic:**[Request repair of defective enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/request-repair-defective-eam-assets.md)
 

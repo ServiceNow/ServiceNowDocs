@@ -3,9 +3,9 @@ title: Configure an external authentication browser for ServiceNow mobile apps
 description: Admins can configure an external browser for mobile apps. This external browser is used during authentication so external URLs that are opened by the same browser can maintain sessions and cookies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/config-ext-auth-browser-ios.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Mobile authentication, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -96,5 +96,5 @@ To enable end users to access links on different platforms that use the same SSO
 6.  Select **Update** to save your changes.
 
 
-**Parent Topic:**[Mobile authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-authentication.md)
+**Parent Topic:**[Mobile authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-authentication.md)
 

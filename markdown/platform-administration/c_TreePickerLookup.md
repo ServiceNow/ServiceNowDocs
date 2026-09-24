@@ -3,9 +3,9 @@ title: Tree picker lookup
 description: The reference lookup can be rendered in the tree picker format by modifying the dictionary and adding the attribute tree\_picker.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_TreePickerLookup.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference lookup, Decorations, Reference field type, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -21,5 +21,5 @@ You cannot customize the label names used in the tree picker. The label names ar
 **Related topics**  
 
 
-[Tree picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_TreePicker.md)
+[Tree picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_TreePicker.md)
 

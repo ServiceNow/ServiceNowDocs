@@ -3,11 +3,11 @@ title: Playbooks in Project Workspace
 description: Organize and guide project teams with Playbooks to maintain consistency, streamline projects, and keep work on track.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/playbooks-in-pw.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Project planning in Project Workspace, Explore, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -20,7 +20,7 @@ Organize and guide project teams with Playbooks to maintain consistency, streaml
 
 A Playbook provides a guided framework that helps you follow a process step by step. It shows what to do, when to do it, and where to find the tools or information required to complete each task.
 
-Playbooks provide a structured way to manage work by guiding teams through predefined steps. You can apply a playbook to processes such as managing a project, resolving an issue, launching a product, onboarding new employees, or define key steps of a process. For more information on playbooks, see [Workflow studio playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md).
+Playbooks provide a structured way to manage work by guiding teams through predefined steps. You can apply a playbook to processes such as managing a project, resolving an issue, launching a product, onboarding new employees, or define key steps of a process. For more information on playbooks, see [Workflow studio playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/process-automation-designer.md).
 
 ## Playbook benefits
 
@@ -41,14 +41,14 @@ Project default playbook is a free-form playbook where all stages and tasks are 
 
 In a Stage-gate playbook, the stages and tasks must be completed in a linear order. Each stage must be finished before moving to the next one. The stages are visible only when all activities in the previous stage are completed or skipped. After completing a stage, project managers can still return to previous stages if needed. This playbook is commonly used in research and development projects.
 
-**Parent Topic:**[Project planning in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/project-planning-in-pw.md)
+**Parent Topic:**[Project planning in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/project-planning-in-pw.md)
 
 **Related topics**  
 
 
-[Workflow Studio Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio-playbooks-landing.md)
+[bundle-crworkflow.workflow-studio-playbooks-landing]
 
-[Playbooks configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configure-playbooks-pw.md)
+[Playbooks configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/configure-playbooks-pw.md)
 
-[Use Playbooks in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/use-playbooks-pw.md)
+[Use Playbooks in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/use-playbooks-pw.md)
 

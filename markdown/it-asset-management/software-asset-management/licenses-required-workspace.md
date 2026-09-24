@@ -3,13 +3,13 @@ title: View calculations for your licenses in workspace
 description: Evaluate the license compliance of software applications by viewing the details for all required licenses through the Software Asset Workspace License usage view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/licenses-required-workspace.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Use SAM Workspace, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # View calculations for your licenses in workspace
@@ -28,7 +28,7 @@ Role required: sam\_admin and sam\_user
 
 3.  View the number of licenses purchased and required by selecting the **License Metric Results** tab.
 
-    For more information about the fields in the License Metric Results tab, see the License metric results table in [License usage publisher fields in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/workbench-publisherfields-workspace.md).
+    For more information about the fields in the License Metric Results tab, see the License metric results table in [License usage publisher fields in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/workbench-publisherfields-workspace.md).
 
 4.  View the details about the required licenses by selecting a value for a configuration item under the **License required** column.
 
@@ -190,7 +190,7 @@ A detailed license consumption summary post reconciliation. The summary gives yo
 </td></tr></tbody>
 </table>7.  View the infrastructure of a configuration item and the metric attributes applied by selecting the **License consumption breakdown** tab.
 
-    For more information on the license calculation for CrowdStrike products, see [License usage breakdown for CrowdStrike products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/license-usage-crowdstrike.md).
+    For more information on the license calculation for CrowdStrike products, see [License usage breakdown for CrowdStrike products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/license-usage-crowdstrike.md).
 
     \[Omitted image "license-consumption-breakdown.png"\] Alt text: License consumption breakdown of a configuration item.
 
@@ -246,5 +246,5 @@ A detailed license consumption summary post reconciliation. The summary gives yo
     |Mandatory|Requirement of a suite component. A suite component can be Optional, Always Mandatory, or Mandatory Group.|
 
 
-**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
 

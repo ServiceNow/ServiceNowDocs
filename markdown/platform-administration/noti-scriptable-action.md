@@ -3,9 +3,9 @@ title: Create a scriptable notification action
 description: Select Scriptable Action from the Notification Action wizard to create a scriptable notification action.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/noti-scriptable-action.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Select provider notification action capabilities, Create, Provider notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -19,7 +19,7 @@ Select **Scriptable Action** from the Notification Action wizard to create a scr
 Role required: admin
 
 ```
-Before performing this task, you must complete [Select provider notification action capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/noti-provider-action-capabilities.md).
+Before performing this task, you must complete [Select provider notification action capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/noti-provider-action-capabilities.md).
 ```
 
 ## Procedure
@@ -40,5 +40,5 @@ Before performing this task, you must complete [Select provider notification act
 3.  Select **Submit**.
 
 
-**Parent Topic:**[Select provider notification action capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/noti-provider-action-capabilities.md)
+**Parent Topic:**[Select provider notification action capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/noti-provider-action-capabilities.md)
 

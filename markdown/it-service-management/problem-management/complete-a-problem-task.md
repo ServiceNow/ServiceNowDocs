@@ -3,11 +3,11 @@ title: Complete a problem task
 description: Resolve and complete the problem task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/complete-a-problem-task.html
-release: australia
+release: brazil
 product: Problem Management
 classification: problem-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing Problems, Problem Management, IT Service Management]
 ---
@@ -31,5 +31,5 @@ Role required: admin, problem\_admin, problem\_coordinator, problem\_manager, or
     **Note:** You can configure the Problem properties to reanalyze a task even after it is closed by selecting **Re-assess**. The state of the task changes from **Closed** to **Assess**. After all the problem tasks are completed or canceled, a notification is sent to the problem coordinator regarding the same.
 
 
-**Parent Topic:**[Managing Problems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/problem-mgmt-lifecycle.md)
+**Parent Topic:**[Managing Problems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/problem-mgmt-lifecycle.md)
 

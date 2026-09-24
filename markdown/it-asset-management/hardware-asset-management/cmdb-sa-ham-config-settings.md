@@ -3,13 +3,13 @@ title: CMDB success advisor for HAM setup
 description: Use the CMDB success advisor application to configure and manage the CMDB success advisor for Hardware Asset Management \(HAM\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/cmdb-sa-ham-config-settings.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use HAM advisor, Asset and CI management, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Use HAM advisor, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # CMDB success advisor for HAM setup
@@ -22,15 +22,15 @@ Review the [CMDB success advisor](https://store.servicenow.com/store/app/db28ec5
 
 ## Set up overview
 
-1.  [Manage opt in HAM resource categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-opt-categories.md).
+1.  [Manage opt in HAM resource categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-opt-categories.md).
 
     Opt in to Hardware Asset Management \(HAM\) license resource categories to make the corresponding model categories available for selection in CMDB success advisor for HAM.
 
-2.  [Get started with CMDB success advisor setup for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-get-started.md).
+2.  [Get started with CMDB success advisor setup for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-get-started.md).
 
     Set up your HAM specific advisor dashboard by selecting model categories to define the HAM advisor scope.
 
-3.  [Manage HAM advisor scope in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-optimize-dashboard.md).
+3.  [Manage HAM advisor scope in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-optimize-dashboard.md).
 
     After completing the initial setup, you can continue to improve your CMDB data quality by adjusting model category selection for your current HAM goals.
 
@@ -38,7 +38,7 @@ Review the [CMDB success advisor](https://store.servicenow.com/store/app/db28ec5
 **Related topics**  
 
 
-[Configuring CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-sa-configuring.md)
+[Configuring CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-sa-configuring.md)
 
-[Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-landing-page.md)
+[Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/ham-landing-page.md)
 

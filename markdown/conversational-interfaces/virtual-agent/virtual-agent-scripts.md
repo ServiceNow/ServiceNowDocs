@@ -3,14 +3,14 @@ title: Virtual Agent scripts
 description: Use ServiceNow Virtual Agent script methods and variables to write chat scripts, such as response, trigger, and flow scripts. Variables can also provide context for your live support topics and conversations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/virtual-agent-scripts.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 keywords: [Virtual Agent, scripts, context, topics, user input, record, variables, vaSystem, methods]
-breadcrumb: [Virtual Agent technical reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Virtual Agent technical reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Virtual Agent scripts
@@ -33,9 +33,9 @@ In Virtual Agent, the following variables are available for use in scripts that 
 
 -   **ServiceNow record variables**
 
-    If you create a script for a topic that queries a ServiceNow table, then the record object \(GlideRecord\) returned is automatically available for use in the topic. The variable syntax is `vaInputs.myvar` where `myvar` is the record object. For details on querying ServiceNow tables to return a record object, see [Querying tables in script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_UsingGlideRecordToQueryTables.md).
+    If you create a script for a topic that queries a ServiceNow table, then the record object \(GlideRecord\) returned is automatically available for use in the topic. The variable syntax is `vaInputs.myvar` where `myvar` is the record object. For details on querying ServiceNow tables to return a record object, see Querying tables in script.
 
-    Use dot-walking in variables that contain a ServiceNow record to specify a particular field in the table. The syntax is `vaInputs.myvar.field`. For details on dot-walking within a script, see [Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/dot-walking-examples.md).
+    Use dot-walking in variables that contain a ServiceNow record to specify a particular field in the table. The syntax is `vaInputs.myvar.field`. For details on dot-walking within a script, see [Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/dot-walking-examples.md).
 
 -   **Accessing user input and ServiceNow record variables**
 
@@ -59,7 +59,7 @@ vaInputs.myvar == "expected value"
 
 Evaluates whether `myvar` matches an expected value. **Note:** Values for user input variables are assigned using user input controls. These values can’t be changed in your scripts.
 
- -   The Australia release supports additional data types. For more information, see [Input data types in Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-data-types.md).
+ -   The Brazil release supports additional data types. For more information, see [Input data types in Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-data-types.md).
 -   By default, the user variable is available and is a reference to the sys\_user record for the user.
 
 
@@ -107,7 +107,7 @@ vaInputs.myvar.unbindEntity\(\);
 
 Removes the value of input variables that the NLU prediction service slot-filled with extracted entities \(unbinds it from the initial input value\). For example, if the user decides to change their choice on a confirmation prompt, you can unbind the entity's value from the input variable. The user will then be prompted again when they loop back to the corresponding input node.
 
- **Note:** NLU must be enabled on the topic. In the Assistant Designer, select the **Properties** tab to set up NLU. For information about defining NLU entities, see [Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/entities.md).
+ **Note:** NLU must be enabled on the topic. In the Assistant Designer, select the **Properties** tab to set up NLU. For information about defining NLU entities, see [Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/entities.md).
 
 </td></tr></tbody>
 </table>
@@ -121,7 +121,7 @@ You can define script variables for information that is not stored in ServiceNow
 
 The variable syntax is `vaVars.myvar`, where `myvar` is the name that you assign to the variable. For example, you can assign a value to the variable using `vaVars.myvar = value;`. Unlike user input variables, script variables can be assigned values in a script.
 
-For information about defining a script variable in a topic, see [Define script variables for a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/define-script-variables-topic.md).
+For information about defining a script variable in a topic, see [Define script variables for a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/define-script-variables-topic.md).
 
 ## Context variables
 
@@ -141,11 +141,11 @@ A number of Live Agent variables are available for use in topic scripts. These v
 -   *search\_text*
 -   *short\_description*
 
-The variable syntax is `vaContext.LiveAgent_myvar`, where `myvar` is one of the available [live agent context variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/live-agent-chat-context-vars.md). Access the variable using `vaContext.LiveAgent_myvar = value;`.
+The variable syntax is `vaContext.LiveAgent_myvar`, where `myvar` is one of the available [live agent context variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/live-agent-chat-context-vars.md). Access the variable using `vaContext.LiveAgent_myvar = value;`.
 
 To use Live Agent variables in topic scripts, open the topic in Assistant Designer. On the **Properties** tab, select the pencil icon next to **Live Agent Variables** to add them to the topic.
 
-For information about live agent context variables that are included with Virtual Agent, see [Live agent chat context variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/live-agent-chat-context-vars.md).
+For information about live agent context variables that are included with Virtual Agent, see [Live agent chat context variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/live-agent-chat-context-vars.md).
 
 |Method|Description|
 |------|-----------|
@@ -204,7 +204,7 @@ vaSystem.connectToAgent\(\)
 
 </td><td>
 
-Connects the customer to a live agent. For more information on this method, see [Transferring Virtual Agent conversations to a live agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/transfer-to-live-agent.md).
+Connects the customer to a live agent. For more information on this method, see [Transferring Virtual Agent conversations to a live agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/transfer-to-live-agent.md).
 
 </td></tr><tr><td>
 
@@ -395,18 +395,16 @@ sn\_cs.VASystemObject.getTranscriptById\(&lt;conversation sysId&gt;\)
 Gets the transcript for the current Virtual Agent conversation.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Virtual Agent technical reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-advanced-technical-reference.md)
+</table>**Parent Topic:**[Virtual Agent technical reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-advanced-technical-reference.md)
 
 **Related topics**  
 
 
-[Domain separation and Virtual Agent]()
-
 [Virtual Agent interaction records]()
 
-[Input data types in Virtual Agent topics]()
+[Data management in Conversational Interfaces]()
 
-[NLU system entities]()
+[Input data types in Virtual Agent topics]()
 
 [Virtual Agent URL parameters]()
 

@@ -3,11 +3,11 @@ title: Creating a guided onboarding case from CRM Workspace
 description: An agent can create a case for a contact or a consumer when the contact or consumer reaches out through a phone call, email, or chat from the CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-a-guided-onboarding-case-from-workspace.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Playbooks for Portals, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Playbooks for Portals, Customer communication, Use, Customer Service Management]
 ---
 
 # Creating a guided onboarding case from CRM Workspace
@@ -55,7 +55,7 @@ The following diagram shows how an agent processes a case.
 **Related topics**  
 
 
-[Create an onboarding request from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-an-onboarding-request-from-catalog.md)
+[Create an onboarding request from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-an-onboarding-request-from-catalog.md)
 
-[Creating an onboarding case with Playbooks for Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-an-onboarding-case-with-portal-playbook.md)
+[Creating an onboarding case with Playbooks for Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-an-onboarding-case-with-portal-playbook.md)
 

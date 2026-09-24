@@ -3,13 +3,13 @@ title: Create a slide for the Portal Banner Carousel widget
 description: Create a slide to include images in the Portal Banner Carousel widget that a user can scroll through.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/create-carousel-slides.html
-release: australia
+release: brazil
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Portal Banner Carousel widget, Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Portal Banner Carousel widget, Set up Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Create a slide for the Portal Banner Carousel widget
@@ -18,7 +18,7 @@ Create a slide to include images in the Portal Banner Carousel widget that a use
 
 ## Before you begin
 
-The UI Components for Customer Portals plugin must have been activated. For more information, see [Activate the UI Components for Customer Portals plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-config-portal-widget.md).
+The UI Components for Customer Portals plugin must have been activated. For more information, see [Activate the UI Components for Customer Portals plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-config-portal-widget.md).
 
 Role required: sp\_admin
 
@@ -54,7 +54,7 @@ HREF/URL
 
 </td><td>
 
-The URL that opens an internal web page or a portal page in the same tab and an external page or a portal in a new tab.**Note:** For more information about linking to a page within a portal, see [Page navigation in Service Portal by URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/navigate-by-portal-url.md).
+The URL that opens an internal web page or a portal page in the same tab and an external page or a portal in a new tab.**Note:** For more information about linking to a page within a portal, see [Page navigation in Service Portal by URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/navigate-by-portal-url.md).
 
 </td></tr><tr><td>
 

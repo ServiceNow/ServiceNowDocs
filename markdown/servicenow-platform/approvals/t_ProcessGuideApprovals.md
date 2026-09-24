@@ -3,11 +3,11 @@ title: Approve with a process guide
 description: Process guides work similarly to approval rules in that their execution is controlled via a condition.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/approvals/t\_ProcessGuideApprovals.html
-release: australia
+release: brazil
 product: Approvals
 classification: approvals
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Approval rules, Classic approvals, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Approval rules, Classic approvals, Exploring Service Administration
 
 Process guides work similarly to approval rules in that their execution is controlled via a condition.
 
-**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
+**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
 
 ## Before you begin
 
@@ -59,5 +59,5 @@ You can link a process guide to a execution task.
     1.  All catalog tasks are generated when a request is first submitted, but tasks which aren't active yet have a state of "pending". So if you do not want to send out approval requests until a task has actually started, add "state=open" as part of your condition.
     2.  There is a "Default" process guide in the system for catalog tasks with a sequence number of 10,000. It behaves exactly the same way the old, pre-process guide code did in regards to approvals. Approvals are based on the execution of task-related lists.
 
-**Parent Topic:**[Approval rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/c_ApprovalRules.md)
+**Parent Topic:**[Approval rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/approvals/c_ApprovalRules.md)
 

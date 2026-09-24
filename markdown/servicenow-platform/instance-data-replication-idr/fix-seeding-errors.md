@@ -3,11 +3,11 @@ title: Fix seeding errors in Instance Data Replication
 description: Retry Instance Data Replication \(IDR\) seeding on tables with seeding errors, which occur from network problems and failed inserts, so that you don't have to do a full seeding.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/fix-seeding-errors.html
-release: australia
+release: brazil
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Resolving errors, Administer, Instance Data Replication, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,7 @@ Role required: idr\_admin or admin
 
 ## About this task
 
-The maximum for a retry reseeding request is 10,000 errors. If you have more errors, perform a [full seeding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/seed-consumer-instance.md).
+The maximum for a retry reseeding request is 10,000 errors. If you have more errors, perform a [full seeding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/instance-data-replication-idr/seed-consumer-instance.md).
 
 **Note:** Seeding is not a replacement for cloning. Do not use IDR to clone instances.
 
@@ -48,5 +48,5 @@ Do not retry full seeding if you exceed any of the following limitations:
     -   Retry seeding for all errors by selecting **Retry All Errors**.
     -   Retry seeding for specific errors by selecting the check box next to each error and then selecting **Retry Selected Errors**.
 
-**Parent Topic:**[Resolving data replication errors in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/common-issues-idr.md)
+**Parent Topic:**[Resolving data replication errors in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/instance-data-replication-idr/common-issues-idr.md)
 

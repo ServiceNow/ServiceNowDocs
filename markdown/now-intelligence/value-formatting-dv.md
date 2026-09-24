@@ -3,7 +3,7 @@ title: Value formatting in data visualizations
 description: In most data visualizations, you can configure how numerical values look when you publish the report.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/value-formatting-dv.html
-release: australia
+release: brazil
 topic_type: reference
 last_updated: "2025-05-06"
 reading_time_minutes: 3
@@ -15,6 +15,8 @@ breadcrumb: [Configure, Data visualizations, Platform Analytics experience, Plat
 In most data visualizations, you can configure how numerical values look when you publish the report.
 
 ## Types of value formatting
+
+Access value formatting from the **Format values** button in the **Metric** section of the configuration panel of your data visualization.
 
 -   **Unit format**
 
@@ -101,5 +103,5 @@ Summary of rounding options:
 |-2.5|-3|-2|-2|-3|-3|-2|-2|
 |-5.5|-6|-5|-5|-6|-6|-5|-6|
 
-**Parent Topic:**[Configure data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-data-visualizations.md)
+**Parent Topic:**[Configure data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/configure-data-visualizations.md)
 

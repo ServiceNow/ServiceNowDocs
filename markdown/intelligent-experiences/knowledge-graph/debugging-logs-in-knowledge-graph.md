@@ -3,14 +3,14 @@ title: Analyze Knowledge Graph logs for debugging
 description: Review Knowledge Graph logs and history to analyze performance and diagnose issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/debugging-logs-in-knowledge-graph.html
-release: australia
+release: brazil
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [generative AI, Now Assist]
-breadcrumb: [Test a Knowledge Graph schema, Using Knowledge Graph Designer, Knowledge Graph, Enable AI experiences]
+breadcrumb: [Test a Knowledge Graph schema, Using Knowledge Graph Designer, Knowledge Graph, Managing data for AI, Enable AI Experiences]
 ---
 
 # Analyze Knowledge Graph logs for debugging

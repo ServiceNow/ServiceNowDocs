@@ -3,11 +3,11 @@ title: Installing Sidebar
 description: You can install Sidebar, which is part of the Omni-Experience Standard Feature Set, if you have the admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/sidebar/install-sidebar.html
-release: australia
+release: brazil
 product: Sidebar
 classification: sidebar
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Sidebar, Sidebar, Conversational Interfaces]
 ---
@@ -52,6 +52,6 @@ The following items are installed with Sidebar:
 
 6.  If you want to use the Search KB quick action, enable AI Search.
 
-    For more information, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/overview-ais.md) and [AI Search Availability \[KB0867751\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867751).
+    For more information, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/overview-ais.md) and [AI Search Availability \[KB0867751\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867751).
 
 

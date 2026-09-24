@@ -1,0 +1,207 @@
+---
+title: \(Legacy\) Text user input control for NLU
+description: The Text user input control in a Virtual Agent topic prompts the user for a text string.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/va-text-input-nlu.html
+release: brazil
+topic_type: reference
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+keywords: [Virtual Agent, Designer, Text, user input, control, node, string]
+breadcrumb: [User input controls for NLU, Virtual Agent Designer interface reference, NLU reference, \(Legacy\) Virtual Agent for NLU, Conversational Interfaces]
+---
+
+# \(Legacy\) Text user input control for NLU
+
+The Text user input control in a Virtual Agent topic prompts the user for a text string.
+
+## Text user input control properties for NLU topic discovery
+
+<table id="table_ir2_jn5_g1c"><thead><tr><th>
+
+Property
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Node name
+
+</td><td>
+
+Name that identifies this node in the topic flow.
+
+</td></tr><tr><td>
+
+Variable name
+
+</td><td>
+
+Name of the variable that stores the user response to this prompt. The variable name is automatically created from the **Node name** property.
+
+</td></tr><tr><td>
+
+Prompt
+
+</td><td>
+
+Prompt or question for the user. The prompt can be either a text string or a script that returns text. This value is used only when the default value is not specified. For example: `What's your name?`
+
+</td></tr><tr><td>
+
+Input format
+
+</td><td>
+
+Text format that is validated when a user enters certain text items. If the user doesn't enter the expected format, an error message indicates that the format is not valid and asks the user to reenter the text. Choose the format of the text item to be validated:
+
+-   Text: Any text string \(no validation\).
+-   Email: Format that consists of an email prefix \(user name\), the @ symbol, and domain.
+-   IP address \(IPV4, IPV6\): Data communication delivery format for Internet Protocol version 4 or version 6.
+-   Phone number \(E.164\): Internationally recognized standard phone number format.
+-   URL: Web address format.
+-   Custom: A script that provides a validation rule for a custom text format. The script should include related error messages that are displayed when the expected format is not entered.
+
+For phone and IP address format examples, see [E.164 phone formats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_ConfigureE.164PhoneNumberFields.md) and [IP address field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r-IPAddressFieldType.md).
+
+</td></tr><tr><td>
+
+NLU entity
+
+</td><td>
+
+Option to associate an NLU entity with the node. If an NLU entity is associated with the input variable for this node, Virtual Agent can slot-fill the specified value based on the user's utterance. Select an entity from the list of entities associated with the topic intent.
+
+ When you specify an entity for the node, the Do not ask users to confirm recognized entity toggle switch is displayed. When enabled, users are not prompted to confirm the extracted entity.
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+Advanced
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+Make this input secure
+
+</td></tr><tr><td>
+
+Enable
+
+</td><td>
+
+Toggle switch that encrypts the input control. When enabled, the user input is masked and appears as a series of dots in the chat window.
+
+</td></tr><tr><td>
+
+Hash function\[Visible when Make this input secure is enabled\]
+
+</td><td>
+
+The method digest algorithm based on the standard WS-security standard. Choose one of the following:
+
+-   **SHA-256 \(lower case\)**
+-   **SHA-1 \(lower case\)**
+
+For more information about the WS-security standards, see [WS-Security properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/ws-security-properties.md).
+
+</td></tr><tr><td>
+
+Encryption salt\[Visible when Make this input secure is enabled\]
+
+</td><td>
+
+Random data that is used as an additional input to a one-way function that hashes data.
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+Default value
+
+</td></tr><tr><td>
+
+Predefine a value for user input
+
+</td><td>
+
+Predefined value for the user response to the question or prompt. The response defined in the **Default value confirmation** field asks the user to confirm the default value. If the user responds with `no`, the value becomes null. The default value can be either a text string or a script that returns text. For example, if you're using dot-walking, the default value might be: `Script Variables > Last username`. Or if you're using a script, the default value might be: `{{vaScripts.lastUsername}}`.
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+Confirmation messages
+
+</td></tr><tr><td>
+
+Input completion confirmation
+
+</td><td>
+
+Bot response shown to the user when the node interaction is complete. The message can be either a text string or a script that returns text. For example, if you're using dot-walking: `Thanks, (Input Variables > Username)!` Or if you're using a script, the acknowledgement might be: `Thanks, {{vaInputs.username}}!`
+
+</td></tr><tr><td>
+
+Default value confirmation
+
+</td><td>
+
+Message that asks the user to verify that the value in the **Default value** field is correct. This message is used instead of a value in the **Prompt** field. It can contain either a text string or a script that returns text. For example, if you're using dot-walking: `Are you (Input Variables > Username)?` Or if you're using a script, the confirmation message might be: `Are you {{vaScripts.lastUsername}}?`.
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+Conversation switching
+
+</td></tr><tr><td>
+
+Turn on to let users change the subject
+
+</td><td>
+
+Option to enable NLU prediction for this node. If enabled, users can enter text to answer questions, regardless of the type of input control being used. Virtual Agent uses this utterance to match another existing intent, letting the user switch topics.
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+Hide or skip this node
+
+</td></tr><tr><td>
+
+Conditionally show this node if
+
+</td><td>
+
+No-code condition statement or low-code script that specifies a condition for presenting this node in the conversation. The condition must evaluate to true.
+
+</td></tr><tr><td>
+
+Allow user to skip this node if
+
+</td><td>
+
+No-code condition statement or low-code script that specifies a condition for letting users skip this node in the conversation. The condition must evaluate to true. You can set this field using either the condition builder or a script.
+
+</td></tr><tr><td>
+
+Skip reprompting
+
+</td><td>
+
+No-code condition statement or low-code script that specifies a condition for letting users skip reprompting in the conversation. When a preceding node is revisited through a topic loopback or Dialog Act, Virtual Agent bypasses this node and automatically retains its original value.
+
+</td></tr></tbody>
+</table>## Channel support
+
+**Note:** Virtual Agent Designer controls may display and function differently in other channels.
+
+|Channel|NLU/keyword support|Constraints|
+|-------|-------------------|-----------|
+|Web UI|Supported|None.|
+|Mobile UI|Supported|None.|
+|Microsoft Teams|Supported|None.|
+|Slack|Supported|Slack users can edit text previously entered in a conversation. However, Virtual Agent processes messages as they are first entered. If aSlack user edits text input, such as a comment to update a case, then Virtual Agent does not evaluate the edited update.|
+|SMS Twilio|Supported|None.|
+|LINE|Supported|The maximum character limit is 5000 characters.|
+|WhatsApp \(powered by Twilio\)|Supported|None.|
+|WhatsApp|Supported|The maximum limit is 4,096 characters.|
+|Apple Messages for Business|Supported|None.|
+|Alexa \(Voice\)|Supported|For screen devices, character limits may apply. For more information, see the [Alexa developer documentation](https://developer.amazon.com/en-US/docs/alexa/custom-skills/display-interface-reference.html).|
+
+**Parent Topic:**[\(Legacy\) Virtual Agent Designer user input controls for NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-user-inputs-nlu.md)
+

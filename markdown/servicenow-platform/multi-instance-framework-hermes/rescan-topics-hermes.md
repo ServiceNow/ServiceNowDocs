@@ -3,11 +3,11 @@ title: Rescan topics in Hermes
 description: Synchronize topic records in your instance with topics in the Hermes Kafka cluster by rescanning.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/rescan-topics-hermes.html
-release: australia
+release: brazil
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing topics, Manage namespaces and topics, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -33,5 +33,5 @@ Role required: kafka\_admin
 
 Topic records are added to the Kafka Topics \[sys\_kafka\_topic\] table for each topic discovered in the Hermes Kafka cluster. The topic refresh date and time that appears in **All** &gt; **Hermes Messaging Service** &gt; **Topics** is updated.
 
-**Parent Topic:**[Managing topics in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/managing-topics-hermes.md)
+**Parent Topic:**[Managing topics in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/multi-instance-framework-hermes/managing-topics-hermes.md)
 

@@ -3,11 +3,11 @@ title: Database Administrator \(DBA\) report discovery
 description: Discovery and Service Mapping uses the Patterns extension sections to provide a Database Administrator report \(DBA report\) for the Apache Cassandra, Microsoft SQL, MySQL, MongoDB, and Oracle databases. The extension sections for each DB pattern populate the related entries tables. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/dba-report-discovery-pattern.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [NetApp, Server, Cluster, Patterns]
 breadcrumb: [Database discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
@@ -40,7 +40,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Verify the configuration of the credentials**
 
-    For more information, see [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
+    For more information, see [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md).
 
 <table id="table_uzm_pxs_lyb"><tbody><tr><td>
 
@@ -113,7 +113,7 @@ Discovery credentials should have read access to: -   Run `â€œlsnrctl servicesâ€
 </td></tr></tbody>
 </table>-   **Verify that a Discovery schedule is configured**
 
-    For more information, see [create a discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/running-discoveries.md)
+    For more information, see [create a discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/running-discoveries.md)
 
 
 ## Data collected by the extension section of the Apache Cassandra pattern
@@ -684,5 +684,5 @@ Oracle Top 10 Queries
 -   ci
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/database-discovery.md)
+</table>**Parent Topic:**[Database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/database-discovery.md)
 

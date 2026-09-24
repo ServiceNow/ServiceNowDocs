@@ -3,13 +3,13 @@ title: Fulfill hardware asset requests manually by using the Standard Hardware A
 description: Use a hardware asset request flow for requesting, sourcing, and deploying hardware catalog items from the Service Catalog application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/hardware-request-flow.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Fulfilling hardware asset requests, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Fulfilling hardware asset requests, Procurement and fulfillment, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Fulfill hardware asset requests manually by using the Standard Hardware Asset Request flow
@@ -67,7 +67,7 @@ The Workflow Studio application is used to create the Standard Hardware Asset Re
 
 13. In the Source Request form layout, select **Add Transfer Order** or **Add Purchase Order** to source the request via a transfer order or a purchase order.
 
-    After you procure the catalog item,the Asset pick task is created for the Requested item only if the asset is sourced from the stockroom which has the Asset Pick task enabled. Otherwise the Deployment task is created for the Requested itemwithout the Asset pick task.For details, see [Enable the Asset pick task for your stockroom in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/enable-pick-task-for-stockroom-ham.md).
+    After you procure the catalog item,the Asset pick task is created for the Requested item only if the asset is sourced from the stockroom which has the Asset Pick task enabled. Otherwise the Deployment task is created for the Requested itemwithout the Asset pick task.For details, see [Enable the Asset pick task for your stockroom in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/enable-pick-task-for-stockroom-ham.md).
 
 14. Select the Requested items related list and select the requested item.
 
@@ -77,7 +77,7 @@ The Workflow Studio application is used to create the Standard Hardware Asset Re
     -   If the Pick task isn't enabled, complete the Deploy task.
 16. Complete the Asset pick task using the Mobile Agent application.
 
-    For details on completing this step, see [Manage hardware asset pick tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-asset-pick-task-ham-mobile-app.md).
+    For details on completing this step, see [Manage hardware asset pick tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/manage-asset-pick-task-ham-mobile-app.md).
 
     The Deployment task is created for the requested item.
 
@@ -86,5 +86,5 @@ The Workflow Studio application is used to create the Standard Hardware Asset Re
     In the Standard Hardware Asset Request flow, the action that is associated with deploying the assets is complete. The **State**, **Assigned**, **Installed**, **Location**, and **Assigned to** fields of asset are updated. The CI that is associated with the asset is also updated.
 
 
-**Parent Topic:**[Fulfilling hardware asset requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/fulfilling-hardware-asset-requests.md)
+**Parent Topic:**[Fulfilling hardware asset requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/fulfilling-hardware-asset-requests.md)
 

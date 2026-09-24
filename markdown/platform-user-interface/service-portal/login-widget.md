@@ -3,11 +3,11 @@ title: Login widget
 description: The login widget controls user access to your site. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/login-widget.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Example widgets, Widget library, Using portal widgets, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -24,7 +24,7 @@ The widget uses credentials from the User \[sys\_user\] record. In the **User na
 
 \[Omitted image "WidgetLogin.png"\] Alt text: Default login widget on the Service Portal landing page
 
-The login widget by default includes a **Forgot Password?** link that enables users to reset their password using the Password Reset application. For more information about Password Reset configuration, see [Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset-landing-page.md).
+The login widget by default includes a **Forgot Password?** link that enables users to reset their password using the Password Reset application. For more information about Password Reset configuration, see [Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset-landing-page.md).
 
 **Note:** When the user selects **Forgot Password?**, the system redirects the user to the page value specified in the **glide.security.password\_reset.uri** system property.
 
@@ -36,7 +36,7 @@ External user self-registration enables a large group of users to register to a 
 
 \[Omitted image "self-registration-widget.png"\] Alt text: Self-registration link.
 
-For more information on external user self-registration, see [Enable external users to self-register to your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/external-user-self-registration.md).
+For more information on external user self-registration, see [Enable external users to self-register to your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/external-user-self-registration.md).
 
 ## PIV/CAC authentication
 
@@ -46,9 +46,9 @@ After self-registering their PIV/CAC card, a user can log in by inserting their 
 
 \[Omitted image "piv-cac-login.png"\] Alt text: Login page with PIV/CAC option
 
-Before a user can register their PIV/CAC card, an administrator must activate certificate-based authentication and then set up PIV/CAC authentication. For more information on this setup process, see [Personal Identity Verification \(PIV\) card or Common Access Card \(CAC\) based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/certificate-based-authentication.md).
+Before a user can register their PIV/CAC card, an administrator must activate certificate-based authentication and then set up PIV/CAC authentication. For more information on this setup process, see [Personal Identity Verification \(PIV\) card or Common Access Card \(CAC\) based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/certificate-based-authentication.md).
 
-For more information on how a user self-registers their PIV/CAC card, see [Register your PIV/CAC card for Service Portal login](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/piv-cac-login.md).
+For more information on how a user self-registers their PIV/CAC card, see [Register your PIV/CAC card for Service Portal login](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/piv-cac-login.md).
 
 ## Instance options
 
@@ -59,7 +59,7 @@ Use the instance options to configure the login widget for a portal page.
 |Show panel|Show or hide the panel that appears behind the login widget. The panel helps the widget stand out from the page background rather than blending in.|
 |Use Advanced View|Changes the widget layout. Adds the **Forgot Password?** link to the left of the **Login** button and adds field names for **User name** and **Password** instead of hint text.|
 
-**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
+**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
 
 **Related topics**  
 

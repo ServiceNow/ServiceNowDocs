@@ -3,7 +3,7 @@ title: Check eligibility of an applicant
 description: Check eligibility of an applicant submitting through the Portal using the predefined eligibility rules created with Policy as Code Engine \(PaCE\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-gmp-check-eligibility.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-03-18"
 reading_time_minutes: 1

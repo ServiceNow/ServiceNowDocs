@@ -3,9 +3,9 @@ title: Set up Google Maps API
 description: You enable the geolocation feature using the appropriate entries from a Google Maps API for Business license, or a Google Maps JavaScript API Key.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/set-up-google-maps-api.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Map pages, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -32,15 +32,15 @@ Update your configuration to authenticate using an API key only \(that is, set *
 
     **Note:** You are required to use your own Google Maps JavaScript API Key from Google and not use any ServiceNow AI Platform® generated key.
 
-<table id="choicetable_okq_vnj_smb"><thead><tr><th align="left" id="d55125e112">
+<table id="choicetable_okq_vnj_smb"><thead><tr><th align="left" id="d55964e112">
 
 Existing Google Maps API for Business license available?
 
-</th><th align="left" id="d55125e118">
+</th><th align="left" id="d55964e118">
 
 Tasks
 
-</th></tr></thead><tbody><tr><td id="d55125e124">
+</th></tr></thead><tbody><tr><td id="d55964e124">
 
 **Existing license available**
 
@@ -55,7 +55,7 @@ Tasks
 
 The Google Maps Client ID–based configuration is being deprecated. Client ID authentication will not be supported starting May 2026, and configurations relying on it will no longer work.
 
-</td></tr><tr><td id="d55125e198">
+</td></tr><tr><td id="d55964e198">
 
 **No license available**
 
@@ -291,7 +291,7 @@ Maximum number of records in a table that can be processed using the scheduled j
     5.  Click **Save**.
 
 
-**Parent Topic:**[Map pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_MapPages.md)
+**Parent Topic:**[Map pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_MapPages.md)
 
 **Related topics**  
 

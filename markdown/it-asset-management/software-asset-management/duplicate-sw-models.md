@@ -3,13 +3,13 @@ title: Automatic creation of software models
 description: Software models are automatically created for software installations if one doesn't already exist.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/duplicate-sw-models.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Software models and Software entitlements, Explore, Software Asset Management, IT Asset Management, Asset Management]
+last_updated: "2025-07-31"
+reading_time_minutes: 2
+breadcrumb: [Software models and software entitlements, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Automatic creation of software models
@@ -32,12 +32,12 @@ A software model is only created if no match is found. The software model is cre
 
 Discovery maps are associated to software models only if a discovery map exists for that software model. If a corresponding discovery map doesn't exist in the Content Service library, a software model still gets created without a discovery map.
 
-You can identify whether a software model or software model result is created automatically by checking which property is used: **com.snc.samp.automaticsmrcreation**, **com.snc.samp.automaticsmcreation**, or **com.snc.samp.unlicensed\_smr\_creation**. In the Software Model list view, select the gear icon to display the `Created source` column. If the value in this property says `System property`, then it indicates that the software model was automatically created by one of the properties.
+You can identify whether a software model or software model result is created automatically by checking which property is used: **com.snc.samp.automaticsmrcreation**, **com.snc.samp.automaticsmcreation**, or **com.snc.samp.unlicensed\_smr\_creation**. In the Software Model list view, select the gear icon to display the `Created source` column. If the value in this property says `System property`, then it indicates that the software model was automatically created by one of the properties. After you enable the properties, wait for the scheduled reconciliation to run, or trigger it manually, to see the results.
 
-**Parent Topic:**[Software models and Software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-models-and-entitlements.md)
+**Parent Topic:**[Software models and software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/software-models-and-entitlements.md)
 
 **Related topics**  
 
 
-[Software Asset Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-properties.md)
+[Software Asset Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sam-properties.md)
 

@@ -3,11 +3,11 @@ title: Configure time recording categories for Field Service Management
 description: You can configure time recording categories to align with the work your Field Service agents do.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/configure-time-categories.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Time Recording, Work order tasks, Set up work orders and tasks, Configure, Field Service Management]
 ---

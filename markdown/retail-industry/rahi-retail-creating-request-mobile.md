@@ -3,9 +3,9 @@ title: Create a store inquiry case from a mobile app
 description: Create a store inquiry case from a mobile app to report issues on behalf of the store that you’re associated with. By creating case from a mobile app, you can immediately get visibility into the progress, issues, or status of your case without having to use a computer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-creating-request-mobile.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage store inquiries, Retail]
 ---
@@ -32,5 +32,5 @@ Role required: Store associate or Store manager
     |**Detailed description of the inquiry including any specific questions**|Details about this request.|
 
 
-**Parent Topic:**[Manage store inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-manage-store-inquiries.md)
+**Parent Topic:**[Manage store inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-manage-store-inquiries.md)
 

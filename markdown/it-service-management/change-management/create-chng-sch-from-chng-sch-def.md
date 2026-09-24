@@ -3,11 +3,11 @@ title: Create a change schedule from the change schedule definition
 description: You can define a change schedule from a change schedule definition record. Change schedule definitions help you to define the content that displays in the change summary popover, the users, groups or roles with whom a schedule is to be shared, and related span style colors.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/create-chng-sch-from-chng-sch-def.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Change schedules, Configure, Change Management, IT Service Management]
 ---
@@ -203,7 +203,7 @@ Options to define style conditions to determine the color of a span using a cond
 </table>3.  Click **Submit**.
 
 
-**Parent Topic:**[Change schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-schedule.md)
+**Parent Topic:**[Change schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-schedule.md)
 
 **Related topics**  
 

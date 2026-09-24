@@ -3,11 +3,11 @@ title: Configure settings on the consumer instance
 description: As a consumer, you can configure and define default settings on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-configure-consumer-settings.html
-release: australia
+release: brazil
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure for consumers, Service Exchange for Consumers, Service Exchange]
 ---

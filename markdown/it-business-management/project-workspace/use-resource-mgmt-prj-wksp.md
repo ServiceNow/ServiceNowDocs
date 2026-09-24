@@ -3,11 +3,11 @@ title: Resource planning with Project Workspace
 description: Use the Resource Management application to allocate and manage your resources in the Project Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/use-resource-mgmt-prj-wksp.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -48,8 +48,8 @@ From the above example, you can see the breakdown of the approved work items alo
 
 Within the Resource Allocation view, the Approved state is prioritized and listed first, followed by other statuses based on their order in the record list. Additionally, if a user has no capacity during a given period, the corresponding cell is displayed in red color.
 
--   **[Resource assignments in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/resource-assignments-pw.md)**  
+-   **[Resource assignments in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/resource-assignments-pw.md)**  
 Optimize project execution by assigning resources to tasks within the Project Workspace. You can create resource assignments for any project or project task, specifying the tasks to be performed and the resources to be allocated.
 
-**Parent Topic:**[Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/project-workspace-landing-page.md)
+**Parent Topic:**[Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/project-workspace-landing-page.md)
 

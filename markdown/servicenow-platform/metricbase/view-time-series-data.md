@@ -3,11 +3,11 @@ title: Access MetricBase data using the list command
 description: Use the list command on a table in the MetricBase database to view time-series data. The data reveals the behavior of the entity that supplies the data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/metricbase/view-time-series-data.html
-release: australia
+release: brazil
 product: MetricBase
 classification: metricbase
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Accessing data, Define and collect data, MetricBase, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---

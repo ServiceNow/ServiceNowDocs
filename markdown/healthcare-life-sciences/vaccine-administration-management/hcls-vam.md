@@ -3,11 +3,11 @@ title: Vaccine Administration Management
 description: The ServiceNow Vaccine Administration Management application provides a workflow for users, healthcare providers, and clinicians to manage vaccinations for infectious diseases, such as COVID-19, from start to finish.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/vaccine-administration-management/hcls-vam.html
-release: australia
+release: brazil
 product: Vaccine Administration Management
 classification: vaccine-administration-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -22,23 +22,23 @@ The Vaccine Administration Management application accelerates the immunization p
 
 <table id="table_b4t_hhl_nnb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text: Learn about how clinicians and healthcare providers use Vaccine Administration Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/exploring-vaccine-administration-management.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text: Learn about how clinicians and healthcare providers use Vaccine Administration Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/vaccine-administration-management/exploring-vaccine-administration-management.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
 
 </td><td>
 
-[Register\[Omitted image "bus-manage.svg"\] Alt text:Use the Patient Portal to register for a vaccination.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/hcls-vam-user-experience.md)
+[Register\[Omitted image "bus-manage.svg"\] Alt text:Use the Patient Portal to register for a vaccination.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/vaccine-administration-management/hcls-vam-user-experience.md)
 
 </td></tr><tr><td>
 
-[Manage\[Omitted image "bus-manager.svg"\] Alt text:Use the Clinician Portal to find and manage vaccination appointments for users.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/hcls-vam-clinician-experience.md)
+[Manage\[Omitted image "bus-manager.svg"\] Alt text:Use the Clinician Portal to find and manage vaccination appointments for users.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/vaccine-administration-management/hcls-vam-clinician-experience.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/vaccine-management-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/vaccine-administration-management/vaccine-management-reference.md)
 
 </td><td>
 

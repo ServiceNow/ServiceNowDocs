@@ -3,9 +3,9 @@ title: Use the Set Text component
 description: Set text in text boxes and drop-down lists within applications, check boxes, radio button controls, web pages on Internet Explorer browser or Windows applications by using the Set Text component in RPA Desktop Design Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-actionsui-set-text.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Actions \(UI\), Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -22,7 +22,7 @@ Role required: none
 
 The Set Text component uses inter-process communication \(IPC\) to interact with application controls. You can use it to enter any text data, such as a user name, an address, or a survey response, in any situation where text entry is accepted.
 
-You can configure the properties for the Set Text component. For more information about these properties, see [Properties of Actions \(UI\) components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/properties-actions-ui-components.md).
+You can configure the properties for the Set Text component. For more information about these properties, see [Properties of Actions \(UI\) components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/properties-actions-ui-components.md).
 
 ## Procedure
 
@@ -48,7 +48,7 @@ You can configure the properties for the Set Text component. For more informatio
 
 7.  Add an anchor to the captured image by doing the following actions:
 
-    An anchor is a unique identifier that enables the Set Text component to identify the location where the text is set. Although adding an anchor is a good approach, it's optional. If you don't add an anchor, the Set Text component treats the whole captured image as an anchor. For more information on anchor, see [Anchor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/anchor.md).
+    An anchor is a unique identifier that enables the Set Text component to identify the location where the text is set. Although adding an anchor is a good approach, it's optional. If you don't add an anchor, the Set Text component treats the whole captured image as an anchor. For more information on anchor, see [Anchor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/anchor.md).
 
     1.  In the Set Text component, right-click the image, and click **Add Anchor**.
 
@@ -80,7 +80,7 @@ You can configure the properties for the Set Text component. For more informatio
 
         The selected area is captured as an alternate image in the Set Text component.
 
-9.  To configure the text input, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+9.  To configure the text input, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-input-port-properties.md).
 
 10. Connect the data and control ports of the Set Text component to the corresponding ports of the other components as described in the following table.
 
@@ -107,5 +107,5 @@ The name is set in the Name field, as shown in the image.
 
 \[Omitted image "ActionSet\_SetText\_4.PNG"\] Alt text: Name set in the field.
 
-**Parent Topic:**[Actions \(UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/actions-ui.md)
+**Parent Topic:**[Actions \(UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/actions-ui.md)
 

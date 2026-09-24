@@ -1,27 +1,27 @@
 ---
-title: Order Management for business organization
+title: Order Management for business location
 description: Integrate Service Model Foundation with Order Management to support channel sales.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/order-managment-for-business-location.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integration with Sales Customer Relationship Management, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
-# Order Management for business organization
+# Order Management for business location
 
 Integrate Service Model Foundation with Order Management to support channel sales.
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/renamed-entities.md).
 
 ## Overview of the integration
 
 Use the Order Management Business Locations plugin \(com.snc.business\_organization\_orm\) to perform the following actions.
 
--   Create orders for business organizations \(formerly business locations\)
--   Modify and manage orders for the business organizations \(formerly business locations\)
+-   Create orders for business locations
+-   Modify and manage orders for the business locations
 -   Track seller and buyer details of the order
 
 ## Data model
@@ -140,7 +140,7 @@ Boolean
 </table>**Related topics**  
 
 
-[Roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/personas-roles-and-tables-post-integration.md)
+[Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/personas-roles-and-tables-post-integration.md)
 
-[Activate Order Management for Business Locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-order-management-for-business-locations.md)
+[Activate Order Management for Business Locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/activate-order-management-for-business-locations.md)
 

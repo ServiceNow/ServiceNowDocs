@@ -3,11 +3,11 @@ title: External roles in self-registration
 description: To prevent inadvertently providing access to external users, you can assign the snc\_external role to all external users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/external-roles-self-registration.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activate External User Self-Registration, Self-register to ServiceNow instance, Authentication, Access Management]
 ---
@@ -24,5 +24,5 @@ By default, users with the snc\_external role cannot access:
 -   Non-record type resources, such as processors and UI pages without the snc\_external role or a role that inherits the snc\_external role.
 -   Platform Analytics dashboards.
 
-Beginning with the Paris release, you must enable an exclude-list property to enforce the explicit assignment of snc\_external roles. For information about enabling the property, see [Prevent future internal role assignments for external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/fix-csm-external-user-roles-task4.md).
+Beginning with the Paris release, you must enable an exclude-list property to enforce the explicit assignment of snc\_external roles. For information about enabling the property, see Prevent future internal role assignments for external users.
 

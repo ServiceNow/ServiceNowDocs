@@ -3,9 +3,9 @@ title: View CI health in Metric Explorer
 description: View the health and performance of an alert's CI using Metric Explorer, to help troubleshoot problematic areas in the CI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/view-metric-explorer.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [CI health in SOW ITOM]
 breadcrumb: [Service Operations Workspace, Configure, ITOM AIOps, IT Operations Management]
@@ -102,5 +102,5 @@ Displays metrics on entry points that relate to the service that the CI is impac
     \[Omitted image "alert-on-CI.png"\] Alt text: Alert indicator on graph
 
 
-**Parent Topic:**[Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/workspace-dashboard-use.md)
+**Parent Topic:**[Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/workspace-dashboard-use.md)
 

@@ -3,11 +3,11 @@ title: Activate Field Service Agent Efficiency
 description: You can activate the Field Service Agent Efficiency plugin \(com.snc.fsm\_agent\_efficiency\) if you have the admin role. The application includes demo data and installs related plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/activate-field-service-agent-efficiency.html
-release: australia
+release: brazil
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Agent Efficiency, Set up workforce, Configure, Field Service Management]
 ---
@@ -33,7 +33,7 @@ The following items are installed with Field Service Agent Efficiency:
 -   Plugins
 -   Tables
 
-For more information, see [Field Service Agent Efficiency components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-agent-efficiency-components.md).
+For more information, see [Field Service Agent Efficiency components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-agent-efficiency-components.md).
 
 ## Procedure
 
@@ -47,6 +47,6 @@ For more information, see [Field Service Agent Efficiency components](https://ra
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 

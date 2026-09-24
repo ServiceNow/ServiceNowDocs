@@ -1,18 +1,18 @@
 ---
-title: Deny by default with empty ACLs \[Updated in Security Center 1.3\]
+title: Deny by default with empty ACLs
 description: Use the glide.sm.default\_mode property to control the default behavior of security manager when it finds that existing Access Control List \(ACL\) rules are a part of wildcard table ACL rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-security-manager-default-deny.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Architecture, design, and threat modeling, Hardening settings, Platform Security]
 ---
 
-# Deny by default with empty ACLs \[Updated in Security Center 1.3\]
+# Deny by default with empty ACLs
 
 Use the **glide.sm.default\_mode** property to control the default behavior of security manager when it finds that existing Access Control List \(ACL\) rules are a part of wildcard table ACL rules.
 
@@ -54,7 +54,7 @@ Category
 
 </td><td>
 
-[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
+[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
 
 </td></tr><tr><td>
 
@@ -68,6 +68,14 @@ Best security practice would be to restrict an Access to the tables by an unauth
 </td></tr><tr><td>
 
 Recommended value
+
+</td><td>
+
+deny
+
+</td></tr><tr><td>
+
+Default value
 
 </td><td>
 
@@ -95,10 +103,10 @@ References
 
 </td><td>
 
-[Default deny property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/c_DefaultDenyProperty.md)
+[Default deny property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/access-control/c_DefaultDenyProperty.md)
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+</table>To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
+**Parent Topic:**[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
 

@@ -3,9 +3,9 @@ title: Remove a goal from a business capability
 description: You can remove the goals associated with a business capability in the Enterprise Architecture Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-remove-goal-from-business-capability.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage business capabilities, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -39,10 +39,10 @@ Role required: sn\_apm.apm\_user
 8.  Select **Remove**.
 
 
-**Parent Topic:**[Manage business capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-business-capabilities.md)
+**Parent Topic:**[Manage business capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-manage-business-capabilities.md)
 
 **Related topics**  
 
 
-[Add a goal to a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-goal-to-business-capability.md)
+[Add a goal to a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-add-goal-to-business-capability.md)
 

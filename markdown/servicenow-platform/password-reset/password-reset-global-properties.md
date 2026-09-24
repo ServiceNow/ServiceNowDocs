@@ -3,11 +3,11 @@ title: Password Reset global properties
 description: You can configure the Password Reset global properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/password-reset-global-properties.html
-release: australia
+release: brazil
 product: Password Reset
 classification: password-reset
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Password Reset reference, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -44,7 +44,7 @@ password\_reset.enroll \_reminder.email\_template
 
 The instance can send email reminders to users who are not yet enrolled in the Password Reset process.
 
-Template to use for the email messages that remind users to enroll for the password reset process. See [Send email to remind users to enroll for Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/config-pwd-reset-enroll-reminder.md).
+Template to use for the email messages that remind users to enroll for the password reset process. See [Send email to remind users to enroll for Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/config-pwd-reset-enroll-reminder.md).
 
 </td></tr><tr><td>
 
@@ -89,7 +89,7 @@ Enables or disables CAPTCHA functionality.-   Type: true\|false
 
  The Password Reset application uses Google re-CAPTCHA as the default CAPTCHA service. To use the base system CAPTCHA, change the **password\_reset.captcha.google.enabled** system property to **false**.
 
- See [Configure Google reCAPTCHA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_ConfigureGoogleRecaptcha.md)
+ See [Configure Google reCAPTCHA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/t_ConfigureGoogleRecaptcha.md)
 
 </td></tr><tr><td class="sub-head" colspan="3">
 
@@ -207,7 +207,7 @@ Number of security questions that are displayed on the Verify page while a user 
 -   Default value: 3 \(questions\)
 -   Possible values: Integers that are less than the number specified for the **Number of security questions required during enrollment** property \(the num\_enroll parameter\).
 
- **Note:** You can override this property setting for a Password Reset process by configuring the **num\_reset** parameter. See [Specify the number of required security questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_SecurityQuestionTypeVerif.md).
+ **Note:** You can override this property setting for a Password Reset process by configuring the **num\_reset** parameter. See [Specify the number of required security questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/t_SecurityQuestionTypeVerif.md).
 
 </td></tr><tr><td>
 
@@ -228,7 +228,7 @@ Number of questions that a user must provide answers to while enrolling for the 
  **Note:**
 
 -   While attempting to verify identity, if a user answers a question incorrectly, the application refreshes with a random set of the specified questions in random order. You should, therefore, require more questions than specified for the **Number of security questions required during enrollment** property \(the num\_reset parameter\).
--   You can override this property setting for a Password Reset process by configuring the **num\_enroll** parameter. See [Specify the number of required security questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_SecurityQuestionTypeVerif.md).
+-   You can override this property setting for a Password Reset process by configuring the **num\_enroll** parameter. See [Specify the number of required security questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/t_SecurityQuestionTypeVerif.md).
 
 </td></tr><tr><td>
 
@@ -483,11 +483,11 @@ You can add the `glide.pwd_reset.onetime.token.validity` property to the System 
 
 Properties accessible from the System Properties \[sys\_properties\] table:
 
--   For Password Reset on mobile devices, you can specify the URL that the user is taken to when user taps the **Forgot password?** button. See the `glide.security.password_reset.uri` property in [High Security Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_HighSecuritySettings.md) . Default: **/$pwd\_reset.do?sysparm\_url=ss\_default**
+-   For Password Reset on mobile devices, you can specify the URL that the user is taken to when user taps the **Forgot password?** button. See the `glide.security.password_reset.uri` property in [High Security Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_HighSecuritySettings.md) . Default: **/$pwd\_reset.do?sysparm\_url=ss\_default**
 -   If `glide.security.forgot_password.display.link` is set to **true**, displays the **Forgot Password?** link on the login page.
 
 **Related topics**  
 
 
-[Configure Password Reset properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_SetPwdResetProps.md)
+[Configure Password Reset properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/t_SetPwdResetProps.md)
 

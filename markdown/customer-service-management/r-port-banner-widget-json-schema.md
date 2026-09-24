@@ -3,9 +3,9 @@ title: Portal Banner widget JSON parameters
 description: JSON parameters define aspects of the Portal Quick Links widget on the Portal Banner widget.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/r-port-banner-widget-json-schema.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [JSON parameter in Configurable Portal Widgets, Configurable Portal Widgets reference, Reference, Customer Service Management]
 ---
@@ -67,4 +67,10 @@ quick\_links
 Name of the field in the presentation section. The default text is `Quick Links`.
 
 </td></tr></tbody>
-</table>
+</table>**Related topics**  
+
+
+[Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-banner-widget.md)
+
+[Add and configure the Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-banner-widget-inst-opt.md)
+

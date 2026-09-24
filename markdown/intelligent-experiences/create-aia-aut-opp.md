@@ -3,11 +3,11 @@ title: Create an AI agent from an automation opportunity
 description: Use automation opportunities identified on your instance to create AI agents in AI Agent Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-aia-aut-opp.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Create an AI agent, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Create an AI agent, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Create an AI agent from an automation opportunity
@@ -52,7 +52,7 @@ Automation opportunities are determined by data available on your instance. Anal
 
     AI generates the name, description, how-to instructions, and AI agent expertise. It also adds relevant tools if they're available. You may need to create more tools for your AI agent to fulfill all of the steps in the how-to instructions. Steps missing tools are identified in the **Tools** section under the list of currently applied tools.
 
-8.  [Define the security controls for your AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-aia-new.md).
+8.  [Define the security controls for your AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/define-sec-aia-new.md).
 
     Specify which users can invoke the AI agent with the **Allowed users** dropdown. If you choose **Users with specific roles**, you can choose which roles are required to use the AI agent.
 
@@ -62,19 +62,19 @@ Automation opportunities are determined by data available on your instance. Anal
 
     Test scenarios are generated automatically as part of the applied opportunity context. They may take a few minutes to generate, so they won't appear right away. Once they're generated, they are added to the AI agent automatically. You can still edit test scenarios after they're generated.
 
-    You can [add your own scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-scenarios-aia.md) or remove unwanted generated ones.
+    You can [add your own scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-scenarios-aia.md) or remove unwanted generated ones.
 
-10. [Add a trigger to your AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-trigger-aia-new.md).
+10. [Add a trigger to your AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-trigger-aia-new.md).
 
     If you only want your AI agent to be used in chats, you don't need to add a trigger.
 
-11. [Select which channels users can access your AI agent from](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/channels-access-aia.md).
+11. [Select which channels users can access your AI agent from](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/channels-access-aia.md).
 
     ServiceNow Otto is recommended.
 
 12. Map long-term memory categories.
 
-    For more information about long-term memory, see [Set up long-term memory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/long-term-memory-aia-new.md).
+    For more information about long-term memory, see [Set up long-term memory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/long-term-memory-aia-new.md).
 
 13. Select **Save** to save all changes made to the AI agent.
 
@@ -83,7 +83,7 @@ Automation opportunities are determined by data available on your instance. Anal
 
 A new AI agent is built based on an identified automation opportunity.
 
-Before activating your new AI agent, [manually test your AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-ai-asset-new.md) on sample records to confirm it behaves as expected. Select **Run test** to start. You can also [evaluate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/launch-aia-eval.md) using your test scenarios to identify behavior patterns and possible optimizations. You can't run both a manual test and an evaluation at the same time.
+Before activating your new AI agent, [manually test your AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-ai-asset-new.md) on sample records to confirm it behaves as expected. Select **Run test** to start. You can also [evaluate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/launch-aia-eval.md) using your test scenarios to identify behavior patterns and possible optimizations. You can't run both a manual test and an evaluation at the same time.
 
 When you're satisfied with the AI agent's performance, you can select **Activate** to make it available to users.
 

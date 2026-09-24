@@ -3,11 +3,11 @@ title: Preview evidence files for ICAP
 description: Preview DLP incident evidence files in the DLP IR Analyst workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/preview-file-icap.html
-release: australia
+release: brazil
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [DLP Analyst workspace]
 breadcrumb: [Internet Content Adaption Protocol \(ICAP\) integration for DLP IR, Integrate, Data Loss Prevention Incident Response, Security Operations]
@@ -22,7 +22,7 @@ Preview DLP incident evidence files in the DLP IR Analyst workspace.
 -   Navigate to **All** &gt; **DLP Administration** &gt; **Advanced Settings**.
 -   Make sure the **sn\_icap\_dlp.enable\_evidence\_file\_preview** property is already enabled.
 
-**Important:** While using the Evidence files action in the DLP analyst workspace, the evidence files are temporarily stored in the ServiceNow database in an unencrypted format for the duration you have selected using **sn\_dlir.preview\_temp\_files\_cleanup\_interval** property from the **Advanced Settings** page. You can disable the **Evidence Files** preview feature if you don't want to store any data in the ServiceNow database. For more information, see [Configure advanced settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/configure-advanced-settings-dlp.md).
+**Important:** While using the Evidence files action in the DLP analyst workspace, the evidence files are temporarily stored in the ServiceNow database in an unencrypted format for the duration you have selected using **sn\_dlir.preview\_temp\_files\_cleanup\_interval** property from the **Advanced Settings** page. You can disable the **Evidence Files** preview feature if you don't want to store any data in the ServiceNow database. For more information, see [Configure advanced settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/configure-advanced-settings-dlp.md).
 
 Role required: sn\_dlir.analyst
 
@@ -75,5 +75,5 @@ Role required: sn\_dlir.analyst
     **Note:** Evidence Files apart from the office docs, eml files, text, and image extensions won’t be supported for preview. Binary files won’t be rendered and have to be downloaded to preview their content. The preview evidence file feature also works for archived incidents.
 
 
-**Parent Topic:**[Internet Content Adaption Protocol \(ICAP\) integration for DLP IR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/icap-dlp-integration.md)
+**Parent Topic:**[Internet Content Adaption Protocol \(ICAP\) integration for DLP IR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/icap-dlp-integration.md)
 

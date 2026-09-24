@@ -3,11 +3,11 @@ title: Configuring Prioritization and Roadmap settings in Portfolio Planning
 description: Configure the way data is shown on the Prioritization and Roadmap pages of the workspace so that your planning managers view the information that is relevant for them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/configuring-prioritization-and-roadmap-settings-in-portfolio-planning.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -16,20 +16,20 @@ breadcrumb: [Configure, Portfolio Planning, Strategic Portfolio Management]
 
 Configure the way data is shown on the Prioritization and Roadmap pages of the workspace so that your planning managers view the information that is relevant for them.
 
--   **[Highlighted fields on the Prioritization tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/customizing-highlighted-fields-prioritization-page-portfolio-planning-workspace.md)**  
+-   **[Highlighted fields on the Prioritization tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/customizing-highlighted-fields-prioritization-page-portfolio-planning-workspace.md)**  
 Customize the fields to be highlighted on the Prioritization tab of a portfolio plan according to your planning manager's needs.
--   **[Modify Script Includes for milestone icons in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/modify-script-includes-for-milestone-icons-ppw.md)**  
+-   **[Modify Script Includes for milestone icons in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/modify-script-includes-for-milestone-icons-ppw.md)**  
 Modify the Script Includes for milestone icons of the roadmap and portfolio plan to customize the icons to be shown in the Roadmap tab in the workspace.
--   **[Configure additional source tables for free-form roadmap in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/configure-additional-source-tables-free-form-roadmap.md)**  
+-   **[Configure additional source tables for free-form roadmap in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/configure-additional-source-tables-free-form-roadmap.md)**  
 Add new tables to roadmap preferences and configure their details so that these tables can be used as source tables while creating a free-form roadmap in Portfolio Planning.
--   **[Customize planning item display preferences in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/update-source-table-preferences-roadmap-portfolio-planning.md)**  
+-   **[Customize planning item display preferences in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/update-source-table-preferences-roadmap-portfolio-planning.md)**  
 Update source table configurations so that you can customize the roadmap view in Portfolio Planning according to your business priorities.
--   **[Update the display limit of items for Prioritization and Roadmap in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/update-items-display-limit-backlog-prioritization-roadmap.md)**  
+-   **[Update the display limit of items for Prioritization and Roadmap in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/update-items-display-limit-backlog-prioritization-roadmap.md)**  
 Create a system property to update the display limit of the items shown in Prioritization page, Roadmap page, and the item milestones on the roadmap view in Portfolio Planning.
--   **[Hierarchy view configuration in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/hierarchy-display-config-ppw.md)**  
+-   **[Hierarchy view configuration in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/hierarchy-display-config-ppw.md)**  
 Show or hide parent records of planning items shown in the Hierarchy view for high-level and regular portfolio plans by configuring system properties.
--   **[Update execution URLs for planning item demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/update-execution-urls-for-existing-demands.md)**  
+-   **[Update execution URLs for planning item demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/update-execution-urls-for-existing-demands.md)**  
 Run this scheduled job after upgrading to update execution URLs on existing demand planning items so they redirect correctly to the Demands module.
 
-**Parent Topic:**[Configuring Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/configuring-portfolio-planning.md)
+**Parent Topic:**[Configuring Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/configuring-portfolio-planning.md)
 

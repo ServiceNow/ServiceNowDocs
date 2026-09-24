@@ -3,9 +3,9 @@ title: Assessment metric type form
 description: Use the Assessment Metric Type form to create an assessment questionnaire template instead of using the default template for Operational vulnerability.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/op-vul-assmt-metric-type-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up the Vulnerability Assessment Template, Setting up the Operational vulnerability module, Completing general administrative tasks, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -30,6 +30,6 @@ For a description of the fields, see the following table:
 |Condition|Filter conditions for the assessment template.|
 |Description|Purpose of the assessment template and the reason for its creation.|
 |Related lists|
-|Metric categories|All metric categories for this assessment. For more information on the Metric category form, see [Metric Category form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metric-category-form.md).|
-|Assessable records|All assessable records associated to the metric category. For more information on the Assessable records, see [Assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_assessable-records.md).|
+|Metric categories|All metric categories for this assessment. For more information on the Metric category form, see [Metric Category form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/metric-category-form.md).|
+|Assessable records|All assessable records associated to the metric category. For more information on the Assessable records, see [Assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_assessable-records.md).|
 

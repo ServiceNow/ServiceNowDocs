@@ -3,10 +3,10 @@ title: ServiceNow Quote Experience layout UI effects
 description: Reference for UI effect types, parameters, access conditions, and YAML and JSON code examples for configuring button behavior in ServiceNow Quote Experience layouts in CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-ui-effects.html
-release: australia
+release: brazil
 topic_type: reference
 last_updated: "2026-05-07"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Layouts, ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -197,12 +197,10 @@ uiEffect:
 variableName: exportLines
 ```
 
-**Parent Topic:**[Quote transaction layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-layouts.md)
-
 **Related topics**  
 
 
-[Quote transaction layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-layouts.md)
+[Quote transaction layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-layouts.md)
 
-[Create a quote transaction layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-layout.md)
+[Create a quote transaction layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-create-layout.md)
 

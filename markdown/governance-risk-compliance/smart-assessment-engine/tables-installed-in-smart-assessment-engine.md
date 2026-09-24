@@ -3,12 +3,12 @@ title: Tables installed in Smart Assessment Engine
 description: Tables are added with activation of GRC: Smart Assessment Engine.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/tables-installed-in-smart-assessment-engine.html
-release: australia
+release: brazil
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: reference
-last_updated: "2026-04-13"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 breadcrumb: [Components installed with Smart Assessment Engine, Reference, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
 
@@ -184,7 +184,7 @@ Assessment Question Instance\[sn\_smart\_asmt\_question\_instance\]
 
 </td><td>
 
-Stores runtime instances of questions for a specific assessment. Captures user responses for text, number, date, currency, reference, and selected options. Also stores condition evaluation results for visibility, preferred answer, justification, and attachment along with response metadata.
+Stores runtime instances of questions for a specific assessment. Captures user responses for text, number, date, currency, reference, and selected options. Also stores condition evaluation results for visibility, preferred answer, justification, and attachment along with response metadata.**Note:** The platform audit capability is turned off for this table.
 
 </td></tr><tr><td>
 
@@ -240,7 +240,7 @@ Assessment Instance to Persona to Users\[sn\_smart\_asmt\_m2m\_instance\_persona
 
 </td><td>
 
-Many-to-many relationship table that is used to map users to personas for specific assessment instances. Tracks persona-level ownership via primary owner.
+Many-to-many relationship table that is used to map users to personas for specific assessment instances. Tracks persona-level ownership via owner.
 
 </td></tr><tr><td>
 
@@ -274,8 +274,18 @@ Combined Assessment Transaction\[sn\_smart\_asmt\_combined\_assessment\_transact
 
 Stores transaction records for copying responses, justifications, and attachments between combined assessment instances. Tracks transaction type and status.
 
+</td></tr><tr><td>
+
+Smart Assessment Instance Activity\[sn\_smart\_asmt\_instance\_activity\]
+
+</td><td>
+
+Stores the change history for question instances. Each record includes references to the assessment, section, and question instances. Records the action performed \(response changed, justification changed, or flag state changed\) and the action source \(Manual, Automated, or AI assisted\). Also stores who performed the action, when, and the old and new values.
+
 </td></tr></tbody>
-</table>## Tables installed with Smart Assessment Scoring
+</table>**Note:** A question bank uses the same Assessment Template \[sn\_smart\_asmt\_template\], Section \[sn\_smart\_asmt\_section\], and Question \[sn\_smart\_asmt\_question\] tables as an assessment template. A type value on the Assessment Template table distinguishes a question bank from a template, and the Section and Question tables include additional fields that track question bank publish counts and each question's draft, ready to publish, published, or retired state.
+
+## Tables installed with Smart Assessment Scoring
 
 <table id="table_nnj_cxq_t3c"><thead><tr><th>
 
@@ -331,7 +341,7 @@ Scoring Normalization Strategy\[sn\_smart\_scoring\_normalization\_strategy\]
 
 </td><td>
 
-Extends the sys\_metadata table and stores reusable, system-provided normalization strategies defined via scripts.
+Extends the sys\_metadata table and stores reusable, system-provided normalization strategies defined via scripts. Read-only.
 
 </td></tr><tr><td>
 
@@ -339,7 +349,7 @@ Scoring Normalization Strategy Input\[sn\_smart\_scoring\_normalization\_strateg
 
 </td><td>
 
-Extends the sys\_metadata table and defines input parameters of number or choice type for normalization strategies.
+Extends the sys\_metadata table and defines input parameters of number or choice type for normalization strategies. Read-only.
 
 </td></tr><tr><td>
 
@@ -347,7 +357,7 @@ Scoring Normalization Strategy Input Choice\[sn\_smart\_scoring\_normalization\_
 
 </td><td>
 
-Extends the sys\_metadata table and stores choice values for choice-type normalization strategy inputs.
+Extends the sys\_metadata table and stores choice values for choice-type normalization strategy inputs. Read-only.
 
 </td></tr><tr><td>
 
@@ -584,6 +594,14 @@ Response Option Migration\[sn\_smart\_asmt\_mig\_response\_option\_migration\]
 </td><td>
 
 Stores migration records for converting legacy metric definitions and template definitions to smart assessment response options within a question migration.
+
+</td></tr><tr><td>
+
+Question Bank Migration\[sn\_smart\_asmt\_mig\_question\_bank\_migration\]
+
+</td><td>
+
+Stores migration records for converting a classic question bank or an existing assessment template into a question bank, tracking the source, target, migration status, and errors.
 
 </td></tr></tbody>
 </table>

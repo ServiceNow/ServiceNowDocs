@@ -3,9 +3,9 @@ title: Create a Quick Scan
 description: Create a Quick Scan from the Auto Query page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/create-quick-scan.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Auto Query page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -51,7 +51,7 @@ A Quick Scan has fewer options to choose from, but it also runs quickly at appro
 
 8.  Select a **Scan Type**.
 
-    You can choose from the Simplified Query Type selection or toggle the **Advanced** button and select from the advanced query types. See the [Auto Query page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/auto-query-console.md) for additional information about Query Types.
+    You can choose from the Simplified Query Type selection or toggle the **Advanced** button and select from the advanced query types. See the [Auto Query page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/auto-query-console.md) for additional information about Query Types.
 
 9.  On the Confirmation page, select the **Run Quick Scan** button to start the scan.
 
@@ -60,5 +60,5 @@ A Quick Scan has fewer options to choose from, but it also runs quickly at appro
     \[Omitted image "quick-scan-warning.png"\] Alt text: Confirmation warning
 
 
-**Parent Topic:**[Auto Query page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/auto-query-console.md)
+**Parent Topic:**[Auto Query page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/auto-query-console.md)
 

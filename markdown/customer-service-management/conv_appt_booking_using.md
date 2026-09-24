@@ -3,9 +3,9 @@ title: Using Conversational Appointment Booking
 description: Customers can initiate an appointment booking conversation in a chat on your support portal using a Virtual Agent, and Agents can use Autopilot to display Virtual Agent topics during conversations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/conv\_appt\_booking\_using.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer communication, Use, Customer Service Management]
 ---
@@ -24,5 +24,5 @@ Customers can complete the following tasks with a Virtual Agent:
 
 ## Conversational Appointment Booking for Agents
 
-Agents can use Autopilot to display Virtual Agent topics during Agent Chat conversations. For more information, see [Conversation Autopilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-agent-chat-using.md).
+Agents can use Autopilot to display Virtual Agent topics during Agent Chat conversations. For more information, see [Conversation Autopilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/ci-agent-chat-using.md).
 

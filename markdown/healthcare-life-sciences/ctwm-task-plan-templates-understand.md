@@ -3,9 +3,9 @@ title: Task Plan Templates in Care Team Work Management
 description: Understand how task plan templates can be leveraged from Customer Service Management in Care Team Work Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-task-plan-templates-understand.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Care Team Work Management, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -16,15 +16,15 @@ Understand how task plan templates can be leveraged from Customer Service Manage
 
 Care Team Work Management enables for the creation of custom task plan templates to define the repeatable tasks and records that must be created for care team agents. When the template is applied, these tasks and records are automatically created.
 
-For information about how task plan templates work, see [Task Plan Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/task-plan-templates.md).
+For information about how task plan templates work, see .
 
 ## Creating task plans for Care Team Work Management
 
 When creating a task plan template, you must create a **Task plan configuration** for your task plans to pre-fill information into task plan template fields.
 
-For more information, see [Create a task plan template configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/task_plan_template_configurations.md).
+For more information, see .
 
-You can create one or more template items, such as a task or record, for a task plan template. When the task plan template is applied, these records are automatically created. For more information, see [Create a template item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-task-plan-template-item.md).
+You can create one or more template items, such as a task or record, for a task plan template. When the task plan template is applied, these records are automatically created. For more information, see .
 
 Multiple template items can be created from the same configuration. For example, multiple Orchestration tasks can be generated from one single configuration. Or, a task plan for a medical device audit might be configured to generate Biomed cases as child cases to the parent Orchestration case.
 

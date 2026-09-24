@@ -3,11 +3,11 @@ title: Create a schedule plan
 description: Manage your team's schedule by creating a schedule plan that covers a span of time and includes your team's work shifts. You can also assign agents to shifts based on their skills and availability. This way, you can make sure that you are using your resources in the best way possible for your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/create-schedule-plan-wfo-itsm.html
-release: australia
+release: brazil
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Scheduling your teams' work, Scheduling, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -24,16 +24,16 @@ Role required: sn\_shift\_planning.admin
 
 ## About this task
 
-You can set the number of days to cache agent schedules using the **sn\_shift\_planning.number\_of\_days\_to\_cache** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-scheduling-reference.md).
+You can set the number of days to cache agent schedules using the **sn\_shift\_planning.number\_of\_days\_to\_cache** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-scheduling-reference.md).
 
 If you do any of the following:
 
 -   Import agent schedules using table import
 -   Disable business rules and use a script to load the data
 
-you must manually run the **Shift Planning - Delete All Agent Schedules Cache** [schedule job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-scheduling-reference.md) to clear the cache.
+you must manually run the **Shift Planning - Delete All Agent Schedules Cache** [schedule job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-scheduling-reference.md) to clear the cache.
 
-**Note:** Your administrator can set user preferences for the pagination size to view schedule plans. For more information see, [Scheduling in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-scheduling-reference.md)
+**Note:** Your administrator can set user preferences for the pagination size to view schedule plans. For more information see, [Scheduling in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-scheduling-reference.md)
 
 ## Procedure
 
@@ -79,8 +79,8 @@ you must manually run the **Shift Planning - Delete All Agent Schedules Cache** 
 
     1.  In the **Assign agents** field, search for agents and add one or more agents to add to the shift.
     2.  To publish the schedule plan, select **Publish**.
-    It may take a few minutes for the screen to refresh. For more information on publishing a schedule plan, see [Publish a schedule plan for visibility into team coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/publish-schedule-wfo-itsm.md).
+    It may take a few minutes for the screen to refresh. For more information on publishing a schedule plan, see [Publish a schedule plan for visibility into team coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/publish-schedule-wfo-itsm.md).
 
 
-**Parent Topic:**[Scheduling your teams' work in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/scheduling-configurable-workforce-optimization-itsm.md)
+**Parent Topic:**[Scheduling your teams' work in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/scheduling-configurable-workforce-optimization-itsm.md)
 

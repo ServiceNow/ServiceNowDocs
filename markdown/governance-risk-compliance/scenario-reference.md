@@ -3,9 +3,9 @@ title: Scenario record form
 description: Use the Scenario New record form to create a scenario and test how an event that is associated with a scenario can impact your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/scenario-reference.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a scenario and link it to an event, Completing general administrative tasks, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---

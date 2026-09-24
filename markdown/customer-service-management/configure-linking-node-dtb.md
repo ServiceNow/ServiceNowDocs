@@ -3,9 +3,9 @@ title: Link an activated decision tree to this decision tree
 description: Nest and invoke a decision tree from a linking node when specific conditions are met in Decision Tree Builder. Use nested trees to execute complex troubleshooting and reuse existing decision trees.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-linking-node-dtb.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring decision trees in Decision Tree Builder, Configuring guidances and decision trees, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -38,7 +38,7 @@ Role required: admin, sn\_gd\_core.decision\_tree\_author
 
 9.  Enter values or link inputs to reuse answers from prior nodes.
 
-    For more information, see [Reuse answers at decision points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/map-inputs-in-decision-guidance-node.md).
+    For more information, see [Reuse answers at decision points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/map-inputs-in-decision-guidance-node.md).
 
 10. Select **Save and close**.
 

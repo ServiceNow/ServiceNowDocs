@@ -3,11 +3,11 @@ title: Setting up an IBM Authorized SAM Provider \(ASP\) integration
 description: Before you can integrate the Software Asset Management publisher pack for IBM with an Authorized SAM Provider \(ASP\), complete the setup process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/setting-up-anglepoint-integration.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CVA integrations, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -18,12 +18,12 @@ Before you can integrate the Software Asset Management publisher pack for IBM wi
 
 To integrate with an ASP, you must request and install the IBM License Compliance for Software Asset Management application from the ServiceNow® Store. If you are integrating with Anglepoint, you must also request and install Anglepoint's IBM Licensing for Software Asset Management application from the ServiceNow® Store. You must also upload the IBM software discovery catalog from the ASP to your ServiceNow instance.
 
--   **[Request the IBM License Compliance for Software Asset Management application for Authorized Software Asset Management Provider \(ASP\) integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/request-ibm-license-compliance-sam-application.md)**  
+-   **[Request the IBM License Compliance for Software Asset Management application for Authorized Software Asset Management Provider \(ASP\) integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/request-ibm-license-compliance-sam-application.md)**  
 Request the IBM License Compliance for Software Asset Management application from the ServiceNow® Store so that you can integrate the Software Asset Management publisher pack for IBM with an Authorized SAM Provider \(ASP\). Use the integration to track and manage your IBM licenses.
--   **[Request Anglepoint's IBM Licensing for Software Asset Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/request-anglepoint-application.md)**  
+-   **[Request Anglepoint's IBM Licensing for Software Asset Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/request-anglepoint-application.md)**  
 If you are integrating the Software Asset Management publisher pack for IBM with Anglepoint, request Anglepoint's IBM Licensing for Software Asset Management application from the ServiceNow® Store. This application extends the base Software Asset Management File Names \[samp\_file\_name\], File Maps \[samp\_file\_map\], and File Sets \[samp\_file\_set\] tables so that you can store IBM software information from Anglepoint.
--   **[Upload the IBM software discovery catalog to your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/upload-anglepoint-software-discovery-catalog.md)**  
+-   **[Upload the IBM software discovery catalog to your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/upload-anglepoint-software-discovery-catalog.md)**  
 Upload the IBM software discovery catalog to your ServiceNow instance so that discovery tools, such as the ServiceNow® Discovery application, can identify the IBM software that is discovered in your environment.
 
-**Parent Topic:**[Client Value Acceleration \(CVA\) integrations for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-asp-integration.md)
+**Parent Topic:**[Client Value Acceleration \(CVA\) integrations for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/ibm-asp-integration.md)
 

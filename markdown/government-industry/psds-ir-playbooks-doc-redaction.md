@@ -1,18 +1,18 @@
 ---
-title: Redact sensitive data from a document in Information Request Playbook
-description: As a legal reviewer, you can redact sensitive data from PDF documents by either searching keywords or selecting text in Information Request Playbook.
+title: Redact sensitive data from a document in Information Request Administration
+description: As a legal reviewer, you can redact sensitive data from PDF documents by either searching keywords or selecting text in Information Request Administration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-ir-playbooks-doc-redaction.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Information Request Playbook, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using Information Request Administration, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Redact sensitive data from a document in Information Request Playbook
+# Redact sensitive data from a document in Information Request Administration
 
-As a legal reviewer, you can redact sensitive data from PDF documents by either searching keywords or selecting text in Information Request Playbook.
+As a legal reviewer, you can redact sensitive data from PDF documents by either searching keywords or selecting text in Information Request Administration.
 
 ## About this task
 
@@ -27,7 +27,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.business\_agent, sn\_gsm.agen
 
 ## Procedure
 
-1.  Open the Information Request Playbook by navigating to Lists in the CRM Workspace.
+1.  Open the Information Request Administration by navigating to Lists in the CRM Workspace.
 
 2.  Navigate to the **Information Requests** list and select **All**.
 

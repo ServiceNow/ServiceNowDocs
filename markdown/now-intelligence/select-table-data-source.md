@@ -3,9 +3,9 @@ title: Select a table data source for a data visualization
 description: Select a table whose records you want to display. Filter by predefined or custom conditions. Preview a list of records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/select-table-data-source.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Selecting data sources, Configure, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -16,7 +16,7 @@ Select a table whose records you want to display. Filter by predefined or custom
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -28,7 +28,7 @@ This procedure assumes you're in the process of creating or editing a data visua
 
 1.  Start to create a data visualization, or open an existing visualization for editing.
 
-    For more information, see [Creating data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/creating-data-visualizations.md).
+    For more information, see [Creating data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/creating-data-visualizations.md).
 
 2.  Choose one of the following:
 
@@ -43,15 +43,15 @@ This procedure assumes you're in the process of creating or editing a data visua
 
 4.  Select a predefined filter.
 
-    Predefined filters are defined on the Report Sources \[sys\_report\_source\] table. For more information, see [Report sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_ReportSources.md).
+    Predefined filters are defined on the Report Sources \[sys\_report\_source\] table. For more information, see [Report sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_ReportSources.md).
 
 5.  Select **+Add custom conditions** and build a filter in the ServiceNow AI Platform Condition builder.
 
-    For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
+    For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ConditionBuilder.md).
 
 6.  With **+Add custom conditions** open, add a relationship with a field in another table by expanding **Related list condition**.
 
-    For information about building a related list condition, see [Add related list conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-related-list-query.md).
+    For information about building a related list condition, see [Add related list conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/create-related-list-query.md).
 
 7.  Run your filter query or save it as a predefined condition on the Report Sources table.
 
@@ -64,7 +64,7 @@ This procedure assumes you're in the process of creating or editing a data visua
     You return to the data visualization editor. In the configuration panel, you can add Group by fields and set other data properties, depending on the visualization type.
 
 
-**Parent Topic:**[Selecting data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/selecting-data-sources.md)
+**Parent Topic:**[Selecting data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/selecting-data-sources.md)
 
 **Related topics**  
 

@@ -3,11 +3,11 @@ title: Collaboration workflows
 description: The collaboration workflow involves the issuer initiating pre-arbitration and arbitration for processing errors and consumer disputes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/collaboration-workflow.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Pre-arbitration and arbitration overview, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -26,5 +26,5 @@ The collaboration workflow involves the issuer initiating pre-arbitration and ar
 6.  The case is sent to Visa; they adjudicate and provide the final ruling on the case.
 7.  Either party can appeal the decision if they are dissatisfied and meet the appeal guidelines from Visa.
 
-**Parent Topic:**[Pre-arbitration and arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/pre-arbitration-and-arbitration-overview.md)
+**Parent Topic:**[Pre-arbitration and arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/pre-arbitration-and-arbitration-overview.md)
 

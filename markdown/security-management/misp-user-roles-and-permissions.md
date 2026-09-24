@@ -3,9 +3,9 @@ title: MISP user roles and permissions
 description: Review the user roles that are required in the MISP integration for Security Operations integration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/misp-user-roles-and-permissions.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Getting started with MISP integration for Security Operations, MISP administration, MISP integration for Security Operations, Threat Intelligence integrations, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -31,5 +31,5 @@ Review the user roles that are required in the MISP integration for Security Ope
 |Add New Attribute to event|✓|✓|
 |Create Event in MISP|✓|✓|
 
-**Parent Topic:**[Getting started with MISP integration for Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/get-started-with-misp-integration-for-security-operations.md)
+**Parent Topic:**[Getting started with MISP integration for Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/get-started-with-misp-integration-for-security-operations.md)
 

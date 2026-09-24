@@ -3,11 +3,11 @@ title: Work plan example
 description: You can create a work plan to define a maintenance schedule for multiple assets based on their installation date.To schedule a warranty maintenance for assets based on their installation date, define a general plan by applying filtering conditions to the assets table, \[alm\_assets\] to identify the matching record of assets require maintenance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/example-planned-work.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create a work order for the planned work, Manage work orders, Prepare work orders, Use, Field Service Management]
 ---
@@ -120,14 +120,14 @@ Create third schedule
 </td></tr></tbody>
 </table>6.  Complete the remaining configurations.
 
-    For more information, see [Associate work order template to a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/associate-work-schedule-to-wotemplate.md) and [Create planned work records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/create-planned-work-records.md).
+    For more information, see [Associate a work order template to a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/associate-work-schedule-to-wotemplate.md) and [Create planned work records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/create-planned-work-records.md).
 
 7.  Create work orders for the planed work.
 
-    For more information, see [Create a work order for the planned work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/creating-work-orders-from-planned-work.md).
+    For more information, see [Create a work order for the planned work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/creating-work-orders-from-planned-work.md).
 
 
 ### Result
 
-The Hospital device maintenance plan schedules all assets for maintenance based on their installation date as mentioned in the [15 years Maintenance Plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/example-planned-work.md) image.
+The Hospital device maintenance plan schedules all assets for maintenance based on their installation date as mentioned in the [15 years Maintenance Plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/example-planned-work.md) image.
 

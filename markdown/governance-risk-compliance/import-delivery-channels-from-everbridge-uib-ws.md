@@ -3,9 +3,9 @@ title: Import the delivery channels from Everbridge
 description: Import the delivery channels from the Everbridge instance. You can then easily send the notifications through the delivery channels.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/import-delivery-channels-from-everbridge-uib-ws.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setup for Everbridge notifications, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -31,5 +31,5 @@ You may face challenges in connecting with your stakeholders at the time of a cr
     All delivery channels are imported from the Everbridge instance successfully. When the notification is successful, you receive a message of confirmation from Everbridge.
 
 
-**Parent Topic:**[Setup for Everbridge notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/setup-steps-for-emergency-notification-uib-ws.md)
+**Parent Topic:**[Setup for Everbridge notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/setup-steps-for-emergency-notification-uib-ws.md)
 

@@ -3,11 +3,11 @@ title: ServiceNow Otto for Zero Copy Connector workflow troubleshooting
 description: Use generative AI logs and Workflow Studio to troubleshoot issues with ServiceNow Otto for Zero Copy Connector agentic workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/now-assist-zero-copy-connectors-workflow-troubleshooting.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-07-22"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use agentic AI, ServiceNow Otto for Zero Copy Connector, Workflow Data Fabric]
 ---
 
@@ -29,6 +29,6 @@ A second option is to enable a system property and use Workflow Studio. The com.
 
     \[Omitted image "erp-data-explorer-workflow6.png"\] Alt text: Workflow studio operations tab, with two executions highlighted.
 
-    For more information, see [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio.md).
+    For more information, see [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio.md).
 
 

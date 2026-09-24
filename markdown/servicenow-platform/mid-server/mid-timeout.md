@@ -3,11 +3,11 @@ title: MID Server Governance
 description: Improve MID Server security by setting an automatic timeout to invalidate and shut down inactive MID Servers. You can enable this feature and set the inactivity timeout period globally and for each MID Server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-timeout.html
-release: australia
+release: brazil
 product: MID Server
 classification: mid-server
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Securing and encrypting MID Server data, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -58,7 +58,7 @@ The auto-invalidated state of a MID Server can be cleared by selecting the **Cle
 
 The purpose is a text field that the customer can update at any point to indicate the intended usage for the MID Server. This field is purely descriptive and has no further interactions.
 
-**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-security-encryption.md)
+**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-server-security-encryption.md)
 
 **Related topics**  
 
@@ -82,8 +82,6 @@ The purpose is a text field that the customer can update at any point to indicat
 [Rekey a MID Server]()
 
 [Add SSL certificates for the MID Server]()
-
-[Specify an external TrustStore for the MID Server]()
 
 [MID Server SSH cryptographic algorithms]()
 

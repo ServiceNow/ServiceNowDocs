@@ -3,9 +3,9 @@ title: Configure user criteria for a service definition
 description: After creating a service definition, configure user-specific criteria to control which users can access and use that service definition to create a case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-user-criteria-for-a-service-definition.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring service definitions, Service definitions, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -40,7 +40,7 @@ For example, you can configure user criteria for service definitions like Produc
 
     You can also create a user criteria record by selecting **New** on the User Criteria pop-up window and filling in the fields on the User Criteria form.
 
-    For more information about the fields on this form, see [User criteria form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/user-criteria-form.md).
+    For more information about the fields on this form, see [User criteria form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/user-criteria-form.md).
 
 5.  Enable the **Active** check box.
 

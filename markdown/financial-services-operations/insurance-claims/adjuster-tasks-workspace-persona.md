@@ -3,11 +3,11 @@ title: Adjuster activities
 description: In Individual Life Claims, if you have the sn\_ins\_claim\_indl.dbn\_adjuster role you can view a summary of your claims work in the landing page. You can work on your claim tasks from the claim workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/adjuster-tasks-workspace-persona.html
-release: australia
+release: brazil
 product: Insurance Claims
 classification: insurance-claims
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Individual Life Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---

@@ -3,11 +3,11 @@ title: The ECC queue for Discovery
 description: The External Communication Channel \(ECC\) Queue is a connection point between your ServiceNow instance and other systems that integrate with it, most commonly a MID Server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/r\_DiscoveryStatusECCQueue.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Discovery status, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -40,7 +40,7 @@ You can access the ECC queue from either of these locations:
 -   **Discovery** &gt; **Output and Artifacts** &gt; **ECC Queue**
 -   **ECC** &gt; **Queue**
 
-The following image is an example of a record in the ECC queue. This record shows that a ConnectorProbe was instructed to run and has been processed. Note the XML payload it returned as the discovery task collected data. See [The MID Server ECC queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ecc-queue-mid-server.md) for a description of each field.
+The following image is an example of a record in the ECC queue. This record shows that a ConnectorProbe was instructed to run and has been processed. Note the XML payload it returned as the discovery task collected data. See [The MID Server ECC queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/ecc-queue-mid-server.md) for a description of each field.
 
 \[Omitted image "ECCQueue.png"\] Alt text: An example ECC Queue
 
@@ -85,10 +85,10 @@ Save ECC queue attachments
 The normal behavior for Discovery sensors is to delete attachments to ECC queue entries on successful sensor processing. Enabling this property overrides this behavior, and forces attachments to be preserved. This is typically done for debugging purposes.To enable this property, navigate to **Discovery Definition** &gt; **Properties**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Discovery status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryStatus.md)
+</table>**Parent Topic:**[Discovery status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c_DiscoveryStatus.md)
 
 **Related topics**  
 
 
-[Manage ECC Queue content for a MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ecc-queue-mid-server.md)
+[Manage ECC Queue content for a MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/ecc-queue-mid-server.md)
 

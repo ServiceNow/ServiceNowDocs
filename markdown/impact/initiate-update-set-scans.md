@@ -3,12 +3,12 @@ title: Initiate update set scans
 description: Scan open update sets for findings to gain insights into what you're importing and exporting across your environments. When Suite Scan is enabled, choose between scanning all active definitions or a curated suite.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/initiate-update-set-scans.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [update set scans, Suite Scan, scan engine]
-breadcrumb: [Run on-demand scans, Run your first scan, Run Impact Guided Setup, Configuring Impact, Impact]
+breadcrumb: [Run on-demand scans, Scan your instance, Impact Guided Setup, Configuring Impact, Impact]
 ---
 
 # Initiate update set scans
@@ -80,12 +80,12 @@ Displays: "The Scan Engine 'Update Set completion condition' requires a scan res
     If the scan fails to meet completion criteria, a message explains which conditions were not met.
 
 
-**Parent Topic:**[Run on-demand scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/using-impact-scan-engine.md)
+**Parent Topic:**[Run on-demand scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/using-impact-scan-engine.md)
 
 **Related topics**  
 
 
-[Configure update set scanning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/update-set-scanning-properties2.md)
+[Configure update set scanning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/update-set-scanning-properties2.md)
 
-[Customize Scan Engine definition suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/create-scan-engine-definition-suites.md)
+[Customize Scan Engine definition suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/create-scan-engine-definition-suites.md)
 

@@ -3,11 +3,11 @@ title: Activate and pull RSS feeds
 description: Use the Workflow Studio to pull RSS feeds from the defined RSS sources after you activate the workflow. Regular pulling of RSS feeds ensures that you to stay on top of all your regulatory compliance needs. By default, the schedule to pull the feeds runs daily.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/activate-the-rss-feed-workflow.html
-release: australia
+release: brazil
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up the RSS feeds infrastructure, Configure, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,7 @@ Use the Workflow Studio to pull RSS feeds from the defined RSS sources after you
 
 ## Before you begin
 
-The workflow to pull RSS feeds is built with ServiceNow® Workflow Studio, so make sure you're familiar with the [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md) basics.
+The workflow to pull RSS feeds is built with ServiceNow® Workflow Studio, so make sure you're familiar with the [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/flow-designer.md) basics.
 
 Role required: admin
 

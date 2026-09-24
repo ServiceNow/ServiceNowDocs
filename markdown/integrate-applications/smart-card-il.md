@@ -3,9 +3,9 @@ title: Smart Card in RPA Hub
 description: Smart card login for a Windows machine is a secure method of logging into the system using a physical smart card instead of a username and password. It’s commonly used in organizations to enhance security, particularly in environments with high security requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/smart-card-il.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Secure login method for Windows machine, Smart Card for login to Windows machine]
 breadcrumb: [Credential Management, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
@@ -23,5 +23,5 @@ An intermittent issue is observed where Smart Card auto-login fails after a full
 
 ## Robotic Process Automation \(RPA\)
 
-For more information and how to set up RPA, see [RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-hub-landing-page.md).
+For more information and how to set up RPA, see [RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/rpa-hub-landing-page.md).
 

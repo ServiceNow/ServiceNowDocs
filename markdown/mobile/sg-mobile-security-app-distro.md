@@ -3,9 +3,9 @@ title: Internal mobile app distribution
 description: Internal distribution of ServiceNow mobile apps is supported through all major EMM vendors.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mobile-security-app-distro.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Device security, Mobile security, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -20,11 +20,11 @@ Customers are able to pull the app for iOS or Android from the Apple App store a
 
 Mobile app distribution providers:
 
--   Airwatch: For more information, see [AirWatch Mobile Device Management \(MDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/airwatch-mdm.md)
--   Blackberry: For more information, see [BlackBerry Unified Endpoint Management \(UEM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/blackberry-uem.md)
--   Intune: For more information, see [Intune mobile device management \(MDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/intune-mdm.md)
--   IBM: For more information, see [IBM Maas360 mobile device management \(MDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/IBM-MaaS360-mdm.md)
--   MobileIron - For more information, see [MobileIron Mobile Device Management \(MDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobileiron-mdm.md)
+-   Airwatch: For more information, see [AirWatch Mobile Device Management \(MDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/airwatch-mdm.md)
+-   Blackberry: For more information, see [BlackBerry Unified Endpoint Management \(UEM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/blackberry-uem.md)
+-   Intune: For more information, see [Intune mobile device management \(MDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/intune-mdm.md)
+-   IBM: For more information, see [IBM Maas360 mobile device management \(MDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/IBM-MaaS360-mdm.md)
+-   MobileIron - For more information, see [MobileIron Mobile Device Management \(MDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobileiron-mdm.md)
 
-**Parent Topic:**[Device security for ServiceNow Mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-security.md)
+**Parent Topic:**[Device security for ServiceNow Mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mobile-security.md)
 

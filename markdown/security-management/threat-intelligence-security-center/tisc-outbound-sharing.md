@@ -3,11 +3,11 @@ title: Configuring Outbound Intel Sharing Controls
 description: Use this section to configure outbound sharing controls, which determine the entities enabled for intelligence sharing from TISC to external systems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-outbound-sharing.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Exploring Outbound Intel Sharing, Configuring Threat Intelligence External Sharing, Administer, Threat Intelligence Security Center, Security Operations]
 ---
@@ -69,17 +69,17 @@ Role required: sn\_sec\_tisc.admin
 
 11. After you make the necessary changes to the sharing controls, then select **Publish** to publish the sharing controls.
 
-    Once the sharing controls are published, they are available for use within intelligence outbound sharing templates. For more information, see [Configuring Outbound Intel Sharing Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-intel-sharing-templates.md).
+    Once the sharing controls are published, they are available for use within intelligence outbound sharing templates. For more information, see [Configuring Outbound Intel Sharing Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-intel-sharing-templates.md).
 
 
 ## What to do next
 
 Refer to the following sections for guidance on external intelligence sharing using both the GUI and automated procedures.
 
--   [Sharing of Outbound Intelligence Records from GUI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-create-intel-records-lib.md)
--   [Automated sharing of high-risk IOC's with trusted partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-automated-sharing-flow.md)[Configuring Outbound Intel Sharing Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-intel-sharing-templates.md)
+-   [Sharing of Outbound Intelligence Records from GUI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-create-intel-records-lib.md)
+-   [Automated sharing of high-risk IOC's with trusted partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-automated-sharing-flow.md)[Configuring Outbound Intel Sharing Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-intel-sharing-templates.md)
 
-**Parent Topic:**[Exploring Outbound Intel Sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-outbound-intel-sharing.md)
+**Parent Topic:**[Exploring Outbound Intel Sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-outbound-intel-sharing.md)
 
 **Related topics**  
 

@@ -1,11 +1,11 @@
 ---
 title: Explore playbooks for retail projects
-description: Playbooks in Retail Strategic Portfolio Management Suite provide a guided, structured approach to managing store life cycle projects from initiation to completion. This helps project teams follow a consistent process across every store scenario.
+description: Playbooks in Retail Strategic Portfolio Management Suite provide a guided, structured approach to managing store life cycle projects from initiation to completion, helping project teams follow a consistent process across every store scenario.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/playbooks-spm-retail-suite.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-05-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 keywords: [playbooks, SPM retail suite, SPM Retail, store life cycle playbook, retail project playbook]
 breadcrumb: [Explore, Retail Strategic Portfolio Management Suite, Strategic Portfolio Management]
@@ -13,7 +13,7 @@ breadcrumb: [Explore, Retail Strategic Portfolio Management Suite, Strategic Por
 
 # Explore playbooks for retail projects
 
-Playbooks in Retail Strategic Portfolio Management Suite provide a guided, structured approach to managing store life cycle projects from initiation to completion. This helps project teams follow a consistent process across every store scenario.
+Playbooks in Retail Strategic Portfolio Management Suite provide a guided, structured approach to managing store life cycle projects from initiation to completion, helping project teams follow a consistent process across every store scenario.
 
 Without prescribed playbooks, high-volume store projects typically have three core problems.
 
@@ -50,7 +50,7 @@ These stages serve two purposes: they give project managers a prescribed sequenc
 
 ## Embedded approvals and exit criteria at every stage
 
-Every playbook stage includes the approvals, sign-offs, and exit criteria required before the project can transition to the next stage. With the Retail Strategic Portfolio Management Suite playbooks, governance is built into the project flow rather than relying on offline review meetings or ad hoc emails. As a result, capital commitments, lease decisions, and go-live readiness are gated consistently across every project.
+Every playbook stage includes the approvals, sign-offs, and exit criteria required before the project can transition to the next stage. With the Retail Strategic Portfolio Management Suite playbooks, governance is built into the project flow rather than relying on offline review meetings or ad hoc emails, so capital commitments, lease decisions, and go-live readiness are gated consistently across every project.
 
 ## Portfolio-level visibility across all playbook stages
 
@@ -58,7 +58,7 @@ Every project of a given type runs the same playbook with the same stages and ac
 
 ## Purpose of playbooks in Retail Strategic Portfolio Management Suite
 
-Playbooks provide a structured way to manage store life cycle projects by guiding project teams through predefined stages and activities. They show what to do, when to do it, and what information is required to complete each step. For more information on playbooks and how to create them, see [Workflow studio playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md).
+Playbooks provide a structured way to manage store life cycle projects by guiding project teams through predefined stages and activities. They show what to do, when to do it, and what information is required to complete each step. For more information on playbooks and how to create them, see [Workflow studio playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/process-automation-designer.md).
 
 In Retail Strategic Portfolio Management Suite, playbooks help project managers and delivery teams in the following ways:
 
@@ -113,11 +113,7 @@ Playbooks add value to store life cycle management in the following ways:
 **Related topics**  
 
 
-[Workflow Studio Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio-playbooks-landing.md)
+[bundle-crworkflow.workflow-studio-playbooks-landing]
 
-[Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/building-a-process.md)
-
-[Designing Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-experience-admins.md)
-
-[Explore Retail Strategic Portfolio Management Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/explore-spm-retail-suite.md)
+[Explore Retail Strategic Portfolio Management Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/explore-spm-retail-suite.md)
 

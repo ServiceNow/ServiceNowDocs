@@ -3,9 +3,9 @@ title: Defining transient products
 description: When you create product offerings and technical specifications, you can identify single-use products and services as transient, to differentiate them from persistent products. Examples of one-time use products include installation or consulting services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configuring-transient-products.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create product offerings, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -26,13 +26,14 @@ When defining transient products, note the following restrictions:
 -   Parent and child product offerings: Transient parent product offerings and parent specifications must have transient child product offerings and child specifications. However, non-transient parent product offerings and parent specifications can have transient child product offerings and child product specifications.
 -   Linking product offerings to product specifications: A transient product offering must be linked to a transient product specification and vice versa.
 -   Specification relationships: When defining specification relationships for a transient product, you can associate only a transient service specification or resource specification. Transient product orders are decomposed as indicated in the associated specification.
+-   Turning on the **Transient** option for a published product offering doesn't require creating a new version. Turning it off still requires one.
 
-For details on setting the **Transient** option for product offerings and specifications, see [Create product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-create-product-offering.md)
+For details on setting the **Transient** option for product offerings and specifications, see [Create product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-create-product-offering.md)
 
 **Related topics**  
 
 
-[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-product-catalog.md)
 
-[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/product-catalog-managment.md)
 

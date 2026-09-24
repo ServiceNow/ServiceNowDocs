@@ -3,11 +3,11 @@ title: Event Management architecture
 description: Event Management architecture integrates data collection, processing, and alerting into a unified system for streamlined IT issue detection and resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/em-architecture.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Event Management, ITOM AIOps, IT Operations Management]
 ---

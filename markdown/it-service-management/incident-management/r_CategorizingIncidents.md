@@ -3,11 +3,11 @@ title: Incident categories and subcategories
 description: Categorization of incidents helps in routing to the right team and saves a lot of time in troubleshooting and bringing the service to normalcy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/r\_CategorizingIncidents.html
-release: australia
+release: brazil
 product: Incident Management
 classification: incident-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Incident Management, Incident Management, IT Service Management]
 ---
@@ -83,12 +83,12 @@ Database
 -   Oracle
 
 </td></tr></tbody>
-</table>-   **[Configure incident category or subcategory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/t_AddRemoveIncCatSubbCat.md)**  
+</table>-   **[Configure incident category or subcategory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/t_AddRemoveIncCatSubbCat.md)**  
 Configure incident category and subcategory for easy classification of incidents which helps in routing incidents to the right team. You can also generate reports based on category and subcategory of incidents.
--   **[Add a category or a subcategory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/add-new-category.md)**  
+-   **[Add a category or a subcategory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/add-new-category.md)**  
 Add category or subcategory to assign incidents to the correct team and save time in troubleshooting and bringing the service to normalcy.
--   **[Delete a category or a subcategory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/remove-category-subcategory.md)**  
+-   **[Delete a category or a subcategory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/remove-category-subcategory.md)**  
 Delete a category or subcategory if your organization no longer uses the category or subcategory.
 
-**Parent Topic:**[Configuring Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-configuration.md)
+**Parent Topic:**[Configuring Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/incident-configuration.md)
 

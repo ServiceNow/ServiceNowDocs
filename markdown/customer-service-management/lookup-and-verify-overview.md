@@ -3,9 +3,9 @@ title: Lookup and verify
 description: The lookup and verify feature enables customer service agents to quickly look up contacts or consumers using information such as the name, phone number, or record number.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/lookup-and-verify-overview.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -27,7 +27,7 @@ Agents can perform a type-ahead search across multiple configurable fields such 
 
 ## Plugins
 
-The lookup and verify feature is included with the Customer Service \(com.sn\_customerservice\) plugin. This plugin provides the configuration for contact and consumer lookup as well as **Lookup Contact** and **Lookup Consumer** UI actions that can be added to the interaction record in CRM Workspace.
+The lookup and verify feature is included with the Case Management Core \(com.sn\_customerservice\) plugin. This plugin provides the configuration for contact and consumer lookup as well as **Lookup Contact** and **Lookup Consumer** UI actions that can be added to the interaction record in CRM Workspace.
 
 **Note:** These actions are not enabled by default. The workspace admin can enable these actions as part of the lookup and verify feature configuration.
 
@@ -35,7 +35,7 @@ The lookup and verify feature is included with the Customer Service \(com.sn\_cu
 
 Two lookup and verify configurations are provided with the feature, one for contacts and one for consumers. Navigate to **Workspace Experience** &gt; **Lookup and Verify** &gt; **Configuration** to access the Lookup and Verify Configurations list.
 
-**Note:** To see the contact and consumer lookup and verify configurations, you must activate the CSM Lookup and Verify plugin \(com.snc.sn\_csm\_lookup\_verify\).
+**Note:** To see the contact and consumer lookup and verify configurations, you must activate the CRM Workspace Lookup and Verify plugin \(com.snc.uib.lookup\_verify\).
 
 For each configuration, the workspace administrator can:
 
@@ -73,5 +73,5 @@ The lookup and verify feature uses the following tables:
 **Related topics**  
 
 
-[Look up and verify a contact or consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/lookup-verify-contact-consumer.md)
+[Look up and verify a contact or consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/lookup-verify-contact-consumer.md)
 

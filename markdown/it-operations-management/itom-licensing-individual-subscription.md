@@ -3,9 +3,9 @@ title: ITOM/OT SU Licensing Individual \(ala carte\) subscription
 description: You can purchase subscriptions for individual ITOM applications \(ala carte\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-licensing-individual-subscription.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ITOM/OT SU Licensing subscription types, Explore, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---

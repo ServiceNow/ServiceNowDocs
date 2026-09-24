@@ -3,11 +3,11 @@ title: Data Quality tab
 description: The Data Quality tab quantifies the demand, demand tasks, and assessment records that have missing information in key fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/r\_demand\_dashboard\_widgets.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
-last_updated: "2026-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [demand dashboard widgets, reference, Demand Management]
 breadcrumb: [Explore, Monitor and track demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]

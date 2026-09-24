@@ -3,11 +3,11 @@ title: Agent Client Collector Framework use case
 description: The Agent Client Collector Framework \(ACC-F\) use case demonstrates how a financial organization can use Agent Client Collector Framework to assist in IT asset discovery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-framework-use-case.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Exploring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---

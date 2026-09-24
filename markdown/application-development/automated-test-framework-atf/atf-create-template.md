@@ -3,11 +3,11 @@ title: Create an automated test steps template
 description: Reduce testing time by creating a template containing a list of steps to add all at once to an automated test.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-create-template.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with test step templates, Administering the Automated Test Framework \(ATF\), Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -53,10 +53,10 @@ Many tests follow similar patterns. One common pattern, for example, is to open 
 8.  Click **Submit**.
 
 
-**Parent Topic:**[Working with test step templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-templates.md)
+**Parent Topic:**[Working with test step templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-templates.md)
 
 **Related topics**  
 
 
-[Add a predefined list of steps \(template\) to an automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-use-template.md)
+[Add a predefined list of steps \(template\) to an automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-use-template.md)
 

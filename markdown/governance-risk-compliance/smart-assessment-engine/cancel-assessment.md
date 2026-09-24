@@ -1,24 +1,26 @@
 ---
 title: Cancel assessment
-description: If an assessment is no longer needed, you can cancel it to terminate its progress. Once canceled, the assessment becomes read only.
+description: If an assessment is no longer needed, you can cancel it to terminate its progress. Once canceled, the assessment is set to read only.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/cancel-assessment.html
-release: australia
+release: brazil
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Respond to assessments, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
 
 # Cancel assessment
 
-If an assessment is no longer needed, you can cancel it to terminate its progress. Once canceled, the assessment becomes read only.
+If an assessment is no longer needed, you can cancel it to terminate its progress. Once canceled, the assessment is set to read only.
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_smart\_asmt.assessment\_admin, or you must be the requestor of the assessment \(or an active delegate of the requestor\).
+
+For more information on delegation, see [Delegation in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/delegation-in-sae.md).
 
 ## Procedure
 

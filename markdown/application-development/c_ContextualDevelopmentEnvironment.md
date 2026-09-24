@@ -3,9 +3,9 @@ title: Contextual development environment
 description: The platform is a contextual development environment that displays the currently selected application, identifies the scope of every application artifact, and prevents any changes that violate the access settings for an application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/c\_ContextualDevelopmentEnvironment.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Learning about developing on the ServiceNow AI Platform, Building applications]
 ---

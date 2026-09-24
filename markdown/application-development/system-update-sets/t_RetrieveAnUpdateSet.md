@@ -3,11 +3,11 @@ title: Retrieve an update set
 description: Retrieve completed update sets from another instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/system-update-sets/t\_RetrieveAnUpdateSet.html
-release: australia
+release: brazil
 product: System Update Sets
 classification: system-update-sets
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Working with update sets, System update sets, Deploying applications, Building applications]
 ---
@@ -114,5 +114,5 @@ Enter any other relevant information about the remote instance.
 8.  To view retrieved update set, navigate to **System Update Sets** &gt; **Retrieved Update Sets**.
 
 
-**Parent Topic:**[Working with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/using-system-update-sets.md)
+**Parent Topic:**[Working with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/system-update-sets/using-system-update-sets.md)
 

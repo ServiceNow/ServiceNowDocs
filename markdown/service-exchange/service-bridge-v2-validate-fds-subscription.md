@@ -3,11 +3,11 @@ title: Validate foundation data sync subscription items
 description: Configure the sample data received from the provider to validate a foundation data sync \(FDS\) subscription item.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-validate-fds-subscription.html
-release: australia
+release: brazil
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure inbound FDS as consumers, Configure for consumers, Service Exchange for Consumers, Service Exchange]
 ---
@@ -22,9 +22,9 @@ Role required: admin
 
 ## About this task
 
-After you create an FDS offering request, the provider acknowledges the request and sends you a sample payload. This payload helps you understand the structure and type of data you’ll receive.
+After you create an FDS offering request, the provider acknowledges the request and sends you a sample payload. This payload helps you understand the structure and type of data you will receive.
 
-After the provider sends the sample, a subscription is generated for each offering in the FDS offering request. Each subscription contains a subscription item for each table the provider is sharing. You must configure the incoming sample data to validate the FDS subscription items.
+After the provider sends the sample, a subscription is generated for each offering in the FDS offering request and each subscription contains a subscription item for each table the provider is sharing. You must configure the incoming sample data to validate the FDS subscription items.
 
 ## Procedure
 
@@ -57,19 +57,17 @@ After the provider sends the sample, a subscription is generated for each offeri
 
         For unresolved relationships, the banner remains until you complete the configuration.
 
-6.  Configure incoming data using either IntegrationHub ETL or a transform map.
+6.  Configure incoming data using either IntegrationHub ETL or a transform map depending on whether you are working with a Configuration Management Database \(CMDB\), CMDB with **Maintain sysID** enabled by the provider, or a non-CMDB table.
 
-    The choice depends on whether you are working with a Configuration Management Database \(CMDB\), CMDB with **Maintain sysID** enabled by the provider, or a non-CMDB table.
-
-<table id="choicetable_msz_gll_sfc"><thead><tr><th align="left" id="d26379e185">
+<table id="choicetable_msz_gll_sfc"><thead><tr><th align="left" id="d26570e184">
 
 Option
 
-</th><th align="left" id="d26379e188">
+</th><th align="left" id="d26570e187">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d26379e194">
+</th></tr></thead><tbody><tr><td id="d26570e193">
 
 **Configure data integration for CMDB tables**
 
@@ -77,17 +75,17 @@ Description
 
 1.  Select the **ETL Transform Map Assistance** button.
 
-A message is displayed stating that you’re about to navigate to the ETL Transform Map Assistant guided setup.
+A message is displayed stating that you're about to navigate to the ETL Transform Map Assistant guided setup.
 
 2.  Confirm your choice by selecting **OK**.
-3.  Use the guided setup to complete the mapping to integrate third-party data into CMDB. For details, see .
+3.  Use the guided setup to complete the mapping to integrate third-party data into CMDB. For details, see [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/integrationhub-etl.md).
 
 **Note:** Since FDS provides display values for reference fields, if you want to use reference data, you must create a table lookup transform mapping to retrieve the Sys ID from the reference table. For more details, see [Foundation Data Sync :: Known issues and workarounds \[KB2299760\]](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=8a2b463c873aaadc57288519dabb354b)
 
 4.  Close the browser tab to return to the Subscription Item page.
 
 
-</td></tr><tr><td id="d26379e237">
+</td></tr><tr><td id="d26570e237">
 
 **Configure data integration for CMDB tables \(__Maintain sysID__ enabled by the provider\)**
 
@@ -95,14 +93,14 @@ A message is displayed stating that you’re about to navigate to the ETL Transf
 
 1.  Select the **Transform Map** button.
 
-A message is displayed stating that you’re about to navigate to the Transform Map to complete the configuration.
+A message is displayed stating that you're about to navigate to the Transform Map to complete the configuration.
 
 2.  Confirm your choice by selecting **OK**.
-3.  Complete the configuration. For details, see [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_CreateATransformMap.md).
+3.  Complete the configuration. For details, see [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/t_CreateATransformMap.md).
 4.  Close the browser tab to return to the Subscription Item page.
 
 
-</td></tr><tr><td id="d26379e279">
+</td></tr><tr><td id="d26570e279">
 
 **Configure data integration for non-CMDB table**
 
@@ -110,10 +108,10 @@ A message is displayed stating that you’re about to navigate to the Transform 
 
 1.  Select the **Transform Map** button.
 
-A message is displayed stating that you’re about to navigate to the Transform Map to complete the configuration.
+A message is displayed stating that you're about to navigate to the Transform Map to complete the configuration.
 
 2.  Confirm your choice by selecting **OK**.
-3.  Complete the configuration. For details, see [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_CreateATransformMap.md).
+3.  Complete the configuration. For details, see [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/t_CreateATransformMap.md).
 4.  Close the browser tab to return to the Subscription Item page.
 
 
@@ -127,5 +125,5 @@ After you complete the configuration, the state of the subscription item and of 
 
 ## What to do next
 
-[Accept the subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-accept-fds-subscription.md).
+[Accept the subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-accept-fds-subscription.md).
 

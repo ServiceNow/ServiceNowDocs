@@ -3,11 +3,11 @@ title: Add events to track components with unsaved changes
 description: Locate dirty state components through event configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/dirty-state-event.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [UI Builder, dirty state, unsaved changes, search events, components]
 breadcrumb: [Manage actions in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
@@ -31,7 +31,7 @@ You can add the **Screen status changed to dirty** event to check which componen
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Create or open a page.
 
@@ -60,5 +60,5 @@ You can add the **Screen status changed to dirty** event to check which componen
     The dirty state event now appears in the configuration panel, enabling you to quickly check the `isDirty` property and determine if the component has unsaved changes without adding additional events.
 
 
-**Parent Topic:**[Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-events.md)
+**Parent Topic:**[Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-events.md)
 

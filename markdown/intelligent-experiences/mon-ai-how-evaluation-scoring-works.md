@@ -3,12 +3,12 @@ title: How evaluation scoring works
 description: Understand how AI Control Tower calculates quality and safety scores so you can interpret results accurately and configure scoring to reflect your priorities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mon-ai-how-evaluation-scoring-works.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Explore, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Explore, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # How evaluation scoring works
@@ -79,7 +79,7 @@ You don't have to include every evaluated metric in your metric template. Metric
 
 AI Control Tower also evaluates a set of security metrics that assess risks specific to AI system inputs and outputs, such as prompt injection attempts and exposed personal data. Security metrics serve a different purpose than quality and safety metrics: they identify risks rather than measure performance.
 
-Security metrics aren't available in monitoring metric templates and don't contribute to composite quality or safety scores. For details on security metrics, see [Configuring security metrics in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-configuring.md).
+Security metrics aren't available in monitoring metric templates and don't contribute to composite quality or safety scores. For details on security metrics, see [Configuring security metrics in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configuring.md).
 
 ## When a metric in your template isn't evaluated
 

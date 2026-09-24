@@ -3,9 +3,9 @@ title: Create a new emission activity
 description: Create new emission activities to track the activity that leads to emissions if you do not want to use the standard emission activities provided through the Unified content management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-an-emission-activity.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up the emission factor library, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -35,5 +35,5 @@ Role required: sn\_esg.program\_manager, sn\_esg.admin
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Set up the emission factor library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/set-up-the-emission-factor-library.md)
+**Parent Topic:**[Set up the emission factor library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/set-up-the-emission-factor-library.md)
 

@@ -3,7 +3,7 @@ title: Assigning access permissions to Salesforce objects and fields
 description: Configure permissions for non-Admin users in Salesforce to enable configuration and reconfiguration with CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-access-permissions-to-salesforce-objects-and-fields.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

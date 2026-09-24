@@ -3,7 +3,7 @@ title: Create incidents
 description: Configure automation rules to automatically create incidents from alerts that require immediate attention and resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/create-incidents.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
@@ -43,7 +43,7 @@ Incident creation rules automatically generate incident records from alerts that
 
     The Respond to alert page opens.
 
-5.  Follow the steps in [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/respond-alert-sow-itom.md).
+5.  Follow the steps in [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/respond-alert-sow-itom.md).
 
 6.  To complete the setup, select **Mark as configured**.
 

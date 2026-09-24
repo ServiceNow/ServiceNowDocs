@@ -3,11 +3,11 @@ title: Create and manage contracts for enterprise assets
 description: Create contracts for your enterprise assets and manage them by taking actions on contracts that are nearing expiration or already expired.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-manage-enterprise-asset-contracts.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
@@ -18,7 +18,7 @@ Create contracts for your enterprise assets and manage them by taking actions on
 
 You can take action on certain enterprise asset contracts that are either nearing their expiration or have already expired.
 
-If a maintenance or warranty contract is expiring or has already expired, you can renew the contract by using the contract renewal workflow. For more information on renewing expiring maintenance and warranty contracts, see [Contract renewal workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/cont-renew-wf.md).
+If a maintenance or warranty contract is expiring or has already expired, you can renew the contract by using the contract renewal workflow. For more information on renewing expiring maintenance and warranty contracts, see [Contract renewal workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/contract-management/cont-renew-wf.md).
 
 If a lease contract is expiring or has already expired, you can choose to:
 
@@ -26,10 +26,12 @@ If a lease contract is expiring or has already expired, you can choose to:
 -   buy out the associated enterprise assets so that you can permanently add them to your asset inventory,
 -   or extend the contract.
 
-For more information on managing expiring lease contracts, see [Managing expiring contracts for leased enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-expiring-contracts-leased-assets.md).
+For more information on managing expiring lease contracts, see [Managing expiring contracts for leased enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/managing-expiring-contracts-leased-assets.md).
 
--   **[Create a contract for your leased enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eam-lease-contract.md)**  
+-   **[Create a contract for your leased enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-eam-lease-contract.md)**  
 Create a contract to define the lease details of your enterprise assets.
--   **[Managing expiring contracts for leased enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-expiring-contracts-leased-assets.md)**  
+-   **[Managing expiring contracts for leased enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/managing-expiring-contracts-leased-assets.md)**  
 You can use the Contract and lease management view to track and take action on leased enterprise assets that are nearing the end of their contracts. You can choose to return your leased enterprise assets, buy out your leased enterprise assets, or extend your lease contracts.
+
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/asset-management-landing-page.md)
 

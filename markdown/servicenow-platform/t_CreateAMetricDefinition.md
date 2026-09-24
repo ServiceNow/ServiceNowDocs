@@ -3,9 +3,9 @@ title: Create an assessment metric definition
 description: Metrics with Choice or Likert Scale data types must have metric definitions defined to represent answer options on questionnaires.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_CreateAMetricDefinition.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create an assessment metric for a category, Assessment metrics, Assessment administrator tasks, Using assessments, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -37,12 +37,12 @@ Each metric definition appears as one answer option for a question on an assessm
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Create an assessment metric for a category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAMetric.md)
+**Parent Topic:**[Create an assessment metric for a category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateAMetric.md)
 
 **Related topics**  
 
 
-[Assessment metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentMetrics.md)
+[Assessment metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_AssessmentMetrics.md)
 
-[Metric templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MetricTemplates.md)
+[Metric templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_MetricTemplates.md)
 

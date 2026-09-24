@@ -3,11 +3,11 @@ title: Start a comparison
 description: Begin a side-by-side project comparison.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/start-comparison.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Comparing projects, Analyzing and getting process insights, Use, Process Mining, Platform Analytics]
 ---
@@ -51,5 +51,5 @@ You can perform a comparison of a main or linked project.
 
 Compare transitions or statistics between the two projects.
 
-**Parent Topic:**[Comparing projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/comparing-models.md)
+**Parent Topic:**[Comparing projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/comparing-models.md)
 

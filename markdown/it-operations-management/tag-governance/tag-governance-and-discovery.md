@@ -3,11 +3,11 @@ title: Discovering tags
 description: The Discovery and Cloud Discovery features discover all resources in the CMDB as well as cloud resources from cloud providers such as Amazon AWS Cloud, Microsoft Azure Cloud, and Google Cloud Platform \(GCP\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/tag-governance/tag-governance-and-discovery.html
-release: australia
+release: brazil
 product: Tag Governance
 classification: tag-governance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Tag Governance, ITOM Visibility, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ The Discovery and Cloud Discovery features discover all resources in the CMDB as
 
 ## The role of discovery
 
-Discovery and Cloud Provisioning and Governance can discover tags that are used by all major cloud providers and container ecosystems through Service Mapping patterns. Once the tags are discovered, Service Mapping can create application services that are based on the tags. Typically, organizations use tagging in virtualized, hyper-converged, or multi-cloud infrastructures. For examples of the infrastructure types and tags used for them, see [Tag-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/tag-based-mapping.md).
+Discovery and Cloud Provisioning and Governance can discover tags that are used by all major cloud providers and container ecosystems through Service Mapping patterns. Once the tags are discovered, Service Mapping can create application services that are based on the tags. Typically, organizations use tagging in virtualized, hyper-converged, or multi-cloud infrastructures. For examples of the infrastructure types and tags used for them, see [Tag-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/tag-based-mapping.md).
 
 Discovery also collects cloud tags that are specific to each virtual machine \(VM\) and saves them to the Key Value \[cmdb\_key\_value\] table.
 

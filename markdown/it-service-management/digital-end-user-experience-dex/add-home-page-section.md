@@ -3,13 +3,13 @@ title: Add a section in the Desktop Assistant home page
 description: Add a section to the Desktop Assistant home page to organize related cards under that section for easy navigation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/add-home-page-section.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up Desktop Assistant, Configure, Digital End-User Experience, IT Service Management]
+breadcrumb: [Setting up Desktop Assistant, Configure, Digital End-User Experience, IT Service Management]
 ---
 
 # Add a section in the Desktop Assistant home page
@@ -18,7 +18,7 @@ Add a section to the Desktop Assistant home page to organize related cards under
 
 ## Before you begin
 
-Confirm that the DEX Desktop Assistant \[sn\_dex\_desktop\] application has been installed. For more information, see [Install Application and Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/install-app-device-health.md) and [Download and install Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/download-desktop-experience.md).
+Confirm that the DEX Desktop Assistant \[sn\_dex\_desktop\] application has been installed. For more information, see [Install Application and Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/install-app-device-health.md) and [Download and install Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/download-desktop-experience.md).
 
 Role required: sn\_dex\_desktop.admin
 
@@ -62,5 +62,5 @@ The section is created on the Desktop Assistant home page.
 
 ## What to do next
 
-After you create a section, you can add cards to it. For information about creating and configuring cards with icons, see [Create a hyperlink card in Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/create-hyperlink-card.md).
+After you create a section, you can add cards to it. For information about creating and configuring cards with icons, see [Create a hyperlink card in Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/create-hyperlink-card.md).
 

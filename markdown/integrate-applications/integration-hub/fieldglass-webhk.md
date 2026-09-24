@@ -3,7 +3,7 @@ title: Set up webhook for the SAP Fieldglass spoke
 description: Retrieve the required information from SAP Fieldglass instance to your ServiceNow instance by setting up webhook to authenticate the requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/fieldglass-webhk.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task

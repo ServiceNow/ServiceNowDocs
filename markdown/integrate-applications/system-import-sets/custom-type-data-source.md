@@ -3,11 +3,11 @@ title: Custom \(Load by Script\) type data source
 description: Use a custom script to store any type of incoming data in the import set table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/custom-type-data-source.html
-release: australia
+release: brazil
 product: System Import Sets
 classification: system-import-sets
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Data sources, Import sets, Imports, Workflow Data Fabric]
 ---
@@ -20,7 +20,7 @@ When you select a **Type** of **Custom \(Load by Script\)** for your data source
 
 The **Data Loader** script loads the data. You can also **Enable parallel loading** to use a script to partition the data into smaller sections, then load them in parallel. Parallel loading can enable your integrations to finish in less time and create less of an impact on other tasks. Parallel jobs are usually processed immediately. If you need to delay a job, you can configure a delay in the Data Loader script.
 
-**Note:** With parallel loading, you must be running a concurrent import and the **Partition Method** for the import must be set to **Custom size**. For more information see, [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md).
+**Note:** With parallel loading, you must be running a concurrent import and the **Partition Method** for the import must be set to **Custom size**. For more information see, [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md).
 
 ## Data Loader script
 

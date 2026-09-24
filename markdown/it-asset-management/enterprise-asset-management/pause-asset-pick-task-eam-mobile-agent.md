@@ -3,11 +3,11 @@ title: Pause an enterprise asset pick task using the Mobile Agent application
 description: Record a break from an enterprise asset pick task by using the Mobile Agent application if you’re not continuing to work on it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/pause-asset-pick-task-eam-mobile-agent.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Record time worked on pick up tasks, Manage enterprise asset pick tasks using the Mobile Agent application, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]
 ---

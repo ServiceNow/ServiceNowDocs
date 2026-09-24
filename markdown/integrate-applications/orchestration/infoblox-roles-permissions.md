@@ -3,11 +3,11 @@ title: Infoblox roles and permissions
 description: Define the roles and permissions that the Infoblox activities need to access the various resources on the Infoblox server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/infoblox-roles-permissions.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Infoblox DDI activity pack, Orchestration activity packs, Classic Orchestration, Workflow Data Fabric]
 ---
@@ -45,5 +45,5 @@ This example shows a default DHCP admin role, its resources, and the related per
 
 \[Omitted image "InfobloxResourcesAndPermissions.png"\] Alt text:
 
-**Parent Topic:**[Infoblox DDI activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_InfobloxDDIActivityPack.md)
+**Parent Topic:**[Infoblox DDI activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/c_InfobloxDDIActivityPack.md)
 

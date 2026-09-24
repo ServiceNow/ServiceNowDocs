@@ -3,9 +3,9 @@ title: Configure Zing tag indexing for text search
 description: Zing text indexing is available for tags on records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_ConfZingTagIndexTextSearch.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Tags, Common UI elements, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -16,7 +16,7 @@ Zing text indexing is available for tags on records.
 
 ## Before you begin
 
-Text indexing must be enabled for the table that you want to index tags for. For instructions for this procedure, see [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-single-table-for-indexing.md).
+Text indexing must be enabled for the table that you want to index tags for. For instructions for this procedure, see [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-single-table-for-indexing.md).
 
 Role required: admin
 
@@ -58,5 +58,5 @@ After you turn on text indexing for tags on a table, records on the table are re
 -   When you modify a tag, as long as fewer than 100 records are affected. If there are more records, you must manually reindex.
 -   When you manually reindex an entire table \(required after initial tag indexing setup\).
 
-**Parent Topic:**[Tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_Tags.md)
+**Parent Topic:**[Tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_Tags.md)
 

@@ -3,9 +3,9 @@ title: Enable Push Notifications for Care Team Mobile
 description: Push notifications for Care Team Mobile must be enabled manually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-mobile-enable-push-notifications.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Care Team Mobile, Care Team Mobile, Healthcare Operations, Healthcare and Life Sciences]
 ---

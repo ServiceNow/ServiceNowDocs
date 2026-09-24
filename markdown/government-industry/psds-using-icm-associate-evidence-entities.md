@@ -3,9 +3,9 @@ title: Associate and link evidence to entities
 description: Link associated evidence records to other entities within a case created in the Investigative Case Management application workspace. All evidence records available in the master index can be linked to an entity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-icm-associate-evidence-entities.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Evidence Management, Investigative Case Management, Solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
@@ -20,7 +20,7 @@ Role required: icm.investigator, supervisory\_agent, admin
 
 With ICM Evidence Management, investigators can create and associate the record for an item of evidence to other entities within the case, all from one workspace.
 
-Before you can link an entity to an evidence record, make sure an entity record has been created for it **within** the case. For more information on how to create an entity record for a related person, property, vehicle, or other entity and associate it with the case, see [Add entities to an investigative case using Investigative Case Management Entity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-icm-add-entities.md).
+Before you can link an entity to an evidence record, make sure an entity record has been created for it **within** the case. For more information on how to create an entity record for a related person, property, vehicle, or other entity and associate it with the case, see [Add entities to an investigative case using Investigative Case Management Entity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-using-icm-add-entities.md).
 
 ## Procedure
 

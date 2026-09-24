@@ -3,9 +3,9 @@ title: Track the service health of install base items in Agent Workspace
 description: Track the operational status of install base items belonging to an account, to better correlate customer issues and provide faster responses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/service-health-tracking-csm.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Proactive Customer Service Operations, Automate and optimize, Use, Customer Service Management]
 ---
@@ -42,5 +42,5 @@ As a customer service agent, you can view the service health status of install b
 **Related topics**  
 
 
-[Service health status for install base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/service-health-pcso.md)
+[Service health status for install base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/service-health-pcso.md)
 

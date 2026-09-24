@@ -3,9 +3,9 @@ title: Create a knowledge block in the Knowledge Center
 description: Create a knowledge block to define a reusable piece of content that can be inserted into knowledge articles in a knowledge base. The knowledge block is secured by user criteria, which controls what users, groups, and roles, can read the content in an article, allowing display of content that is relevant only to them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/kc-create-a-knowledge-block.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Using knowledge blocks in the Knowledge Center, Using Knowledge Center, Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -17,7 +17,7 @@ Create a knowledge block to define a reusable piece of content that can be inser
 ## Before you begin
 
 -   -   You must have 'contribute' access to the knowledge base.
--   Confirm that the knowledge blocks feature is enabled for the knowledge base that the article is in. For more information, see [Enable knowledge blocks in the Knowledge Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/kc-enable-knowledge-blocks.md)
+-   Confirm that the knowledge blocks feature is enabled for the knowledge base that the article is in. For more information, see [Enable knowledge blocks in the Knowledge Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/kc-enable-knowledge-blocks.md)
 
 Role required: knowledge
 
@@ -82,7 +82,7 @@ Ownership Group
 
 </td><td>
 
-Ownership group for the knowledge block. This field appears when the ownership groups feature is enabled \(see [Ownership groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/enable-ownership-group.md)\).**Note:** Knowledge blocks can be used without the ownership groups feature.
+Ownership group for the knowledge block. This field appears when the ownership groups feature is enabled \(see [Ownership groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/enable-ownership-group.md)\).**Note:** Knowledge blocks can be used without the ownership groups feature.
 
 </td></tr><tr><td>
 
@@ -90,7 +90,7 @@ Can Read
 
 </td><td>
 
-User criteria to apply for read access at the knowledge block level.**Note:** User criteria set at the knowledge base and knowledge block level control which users can read block content within an article. \(For more information, see [Select user criteria for a knowledge block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/select-user-criteria-for-knowledge-block.md).\)
+User criteria to apply for read access at the knowledge block level.**Note:** User criteria set at the knowledge base and knowledge block level control which users can read block content within an article. \(For more information, see [Select user criteria for a knowledge block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/select-user-criteria-for-knowledge-block.md).\)
 
 </td></tr><tr><td>
 
@@ -98,7 +98,7 @@ Can’t Read
 
 </td><td>
 
-User criteria to apply for can’t read access at the knowledge block level.**Note:** User criteria set at the knowledge base and knowledge block level control which you can read block content within an article. \(For more information, see [Select user criteria for a knowledge block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/select-user-criteria-for-knowledge-block.md).\)
+User criteria to apply for can’t read access at the knowledge block level.**Note:** User criteria set at the knowledge base and knowledge block level control which you can read block content within an article. \(For more information, see [Select user criteria for a knowledge block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/select-user-criteria-for-knowledge-block.md).\)
 
 </td></tr><tr><td>
 
@@ -132,7 +132,7 @@ Version
 
 </td><td>
 
-Version number of the knowledge block. This field is automatically set to a version number when the article versioning feature is enabled.**Note:** Knowledge blocks can be used without the article versioning feature. To learn more about article versioning, including how to disable the feature, see [Article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/article-versioning.md).
+Version number of the knowledge block. This field is automatically set to a version number when the article versioning feature is enabled.**Note:** Knowledge blocks can be used without the article versioning feature. To learn more about article versioning, including how to disable the feature, see [Article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/article-versioning.md).
 
 </td></tr><tr><td>
 

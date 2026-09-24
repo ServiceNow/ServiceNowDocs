@@ -1,18 +1,18 @@
 ---
 title: Configure activity stream tile colors
-description: Administrators can control how activity tile colors display in the activity stream for both collapsed and expanded views.
+description: Administrators can control how activity tile colors display in the activity stream in CRM Workspace for both collapsed and expanded views.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-activity-stream-tile-colors.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Configure activity stream tile colors
 
-Administrators can control how activity tile colors display in the activity stream for both collapsed and expanded views.
+Administrators can control how activity tile colors display in the activity stream in CRM Workspace for both collapsed and expanded views.
 
 ## Before you begin
 
@@ -33,7 +33,7 @@ You can control whether the activity stream tile color appears on the border onl
 
     **Note:** These fields must be of type Journal Input for the attribute to work correctly.
 
-4.  In the **Attributes** related list, click **New**.
+4.  In the Attributes related list, select **New**.
 
 5.  Enter the following attribute information:
 
@@ -45,7 +45,7 @@ You can control whether the activity stream tile color appears on the border onl
         |BORDER\_ONLY|Applies variant colors only to the border of the tile in both collapsed and expanded views.|
         |BORDER\_AND\_BACKGROUND|Applies variant colors to both the border and background of the tile in both collapsed and expanded views.|
 
-6.  Click **Submit**.
+6.  Select **Submit**.
 
 7.  Refresh the activity stream to view the changes.
 

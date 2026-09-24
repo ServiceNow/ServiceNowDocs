@@ -3,13 +3,13 @@ title: Reconcile for compliance
 description: Run reconciliation to determine a license compliance position.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/recon-for-comp-sg.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Microsoft 365 SaaS License Management success guide, Success Guides, Success portal view in Software Asset Workspace, Software Asset Workspace, Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Microsoft 365 SaaS License Management success guide, Success Guides, Success portal view in Software Asset Workspace, Software Asset Workspace, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Reconcile for compliance
@@ -41,10 +41,10 @@ Role required: sam\_admin
 
 6.  Monitor the status and progress values to confirm completion.
 
-    Refresh the Reconciliation Results page to view the updated values. If the **Assigned to** value is empty for computers with Microsoft 365 application installs, the reconciliation might not work. For information about validating installation and usage data, see [Validate subscription, installation, and usage data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/validate-sub-sg.md).
+    Refresh the Reconciliation Results page to view the updated values. If the **Assigned to** value is empty for computers with Microsoft 365 application installs, the reconciliation might not work. For information about validating installation and usage data, see [Validate subscription, installation, and usage data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/validate-sub-sg.md).
 
 
 ## What to do next
 
-[Identify savings opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/identify-sav-opp-sg.md)
+[Identify savings opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/identify-sav-opp-sg.md)
 

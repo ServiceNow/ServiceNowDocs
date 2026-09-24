@@ -3,11 +3,11 @@ title: Microsoft Azure Application Gateway discovery with Patterns
 description: The ServiceNow Discovery application uses the Azure Application Gateway \(LP\) pattern for discovering this product, while the Service Mapping application discovers Application Gateway using the Azure Application Gateway TD \(LBS\) pattern. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/azure-application-gateway-discovery.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Microsoft Azure discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -255,10 +255,10 @@ Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\]
 
 Service Mapping performs the top-down discovery of the Azure Application Gateway in the context of application services. Service Mapping discovers the outgoing http connections from Azure Application Gateway service to pool members, such as virtual machines.
 
-**Parent Topic:**[Microsoft Azure Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md)
+**Parent Topic:**[Microsoft Azure Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md)
 
 **Related topics**  
 
 
-[Define a Cloud REST Query for cloud computing devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/cloud-rest-query-pattern.md)
+[Define a Cloud REST Query for cloud computing devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/cloud-rest-query-pattern.md)
 

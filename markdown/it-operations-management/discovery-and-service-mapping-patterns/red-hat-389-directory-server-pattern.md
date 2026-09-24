@@ -3,11 +3,11 @@ title: Red Hat 389 Directory Server pattern-based discovery
 description: Discovery and Service Mapping Patterns uses the Red Hat - Directory Server pattern to find 389 Directory Server instances running on UNIX servers. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/red-hat-389-directory-server-pattern.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-08-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Red Hat 389 Directory Server, directory server discovery, application pattern]
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
@@ -26,7 +26,7 @@ Discovery and Service Mapping Patterns uses the Red Hat - Directory Server patte
     -   ITOM Content Service
 -   **Create SSH credentials**
 
-    For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+    For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 -   **Verify permission to query the RPM database**
 
@@ -34,7 +34,7 @@ Discovery and Service Mapping Patterns uses the Red Hat - Directory Server patte
 
 -   **Schedule a horizontal discovery**
 
-    For more information, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
+    For more information, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
 
 
 ## Data collected by Discovery during horizontal discovery
@@ -68,5 +68,5 @@ The Red Hat - Directory Server pattern creates the following relationships and r
 
 \* Populated only when a Software Asset Management plugin is activated.
 
-**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

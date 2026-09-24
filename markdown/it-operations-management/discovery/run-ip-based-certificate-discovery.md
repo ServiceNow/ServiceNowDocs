@@ -1,18 +1,18 @@
 ---
-title: Run IP-based certificate discovery
+title: Run IP-Based Certificate Discovery
 description: Enable the Transfer Layer Security \(TLS\) port probe \[tls\_ssl\_certs\] and scan for certificates on an IP address or multiple IP addresses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/run-ip-based-certificate-discovery.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Visibility to TLS certificates, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Run IP-based certificate discovery
+# Run IP-Based Certificate Discovery
 
 Enable the Transfer Layer Security \(TLS\) port probe \[tls\_ssl\_certs\] and scan for certificates on an IP address or multiple IP addresses.
 
@@ -48,7 +48,7 @@ Role required: Certificate administrator, discovery\_admin, or admin
 
     3.  Fill out each text field with its corresponding value.
 
-        For more information on the fields and values, see [IP-Based Discovery Schedule Form Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/ip-based-cert-discovery-schedule-table.md).
+        For more information on the fields and values, see [IP-Based Discovery Schedule form and fields table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/ip-based-cert-discovery-schedule-table.md).
 
     4.  Select and hold \(or right-click\) above **Discovery Schedule** and select **Save**.
 
@@ -62,7 +62,7 @@ Role required: Certificate administrator, discovery\_admin, or admin
 
     8.  Fill each field with its corresponding value.
 
-        For more information on the fields and values, see [Setting Your IP Addresses Form and Fields Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/setting-up-your-ip-addresses.md).
+        For more information on the fields and values, see [Setting Your IP Addresses form and fields table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/setting-up-your-ip-addresses.md).
 
     9.  Select **Submit**.
 
@@ -76,7 +76,7 @@ Role required: Certificate administrator, discovery\_admin, or admin
 
     3.  Enter your Target IP into the **Target IP** field.
 
-        **Warning:** Make sure that your IP address is accessible to the MID Server you’re using. If it doesn’t, you have to set [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/discovery-credential-alias.md).
+        **Warning:** Make sure that your IP address is accessible to the MID Server you’re using. If it doesn’t, you have to set [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/discovery-credential-alias.md).
 
     4.  Select **OK**.
 

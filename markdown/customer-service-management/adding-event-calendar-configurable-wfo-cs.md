@@ -3,9 +3,9 @@ title: Add events to the team calendar
 description: Create a meeting, training, time-off request, or an ad hoc work event from the team calendar.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/adding-event-calendar-configurable-wfo-cs.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Schedule, Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_shift\_planning.admin
 
 ## About this task
 
-You can create custom event types and add or remove the desired fields. For more information, see [Create event types to display them on the team calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-scheduling-configurable-wfo-cs.md).
+You can create custom event types and add or remove the desired fields. For more information, see [Create event types to display them on the team calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/setup-scheduling-configurable-wfo-cs.md).
 
 ## Procedure
 
@@ -34,15 +34,15 @@ You can create custom event types and add or remove the desired fields. For more
 
 5.  Create an event.
 
-<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d113526e118">
+<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d116053e118">
 
 To
 
-</th><th align="left" id="d113526e121">
+</th><th align="left" id="d116053e121">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d113526e127">
+</th></tr></thead><tbody><tr><td id="d116053e127">
 
 **Create a meeting, training, or time-off request.**
 
@@ -67,7 +67,7 @@ In the **Attendees** field, start typing the name of each of the attendees for t
     6.  In the **Description** field, enter a description for the meeting.
 
 
-</td></tr><tr><td id="d113526e233">
+</td></tr><tr><td id="d116053e233">
 
 **Create a work shift**
 
@@ -84,5 +84,5 @@ In the **Attendees** field, start typing the name of each of the attendees for t
 </table>6.  Click **Save**.
 
 
-**Parent Topic:**[Scheduling in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/scheduling-configurable-wfo-cs.md)
+**Parent Topic:**[Scheduling in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/scheduling-configurable-wfo-cs.md)
 

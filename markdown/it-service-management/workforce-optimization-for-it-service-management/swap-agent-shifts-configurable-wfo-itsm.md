@@ -3,11 +3,11 @@ title: Swap your agents' shifts in Workforce Optimization for ITSM
 description: Swap an agent's shift in your assignment group with another agent who can work on that shift and skip the approval process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/swap-agent-shifts-configurable-wfo-itsm.html
-release: australia
+release: brazil
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Scheduling your teams' work, Scheduling, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -39,5 +39,5 @@ Role required: sn\_shift\_planning.admin
     The team calendar displays the updated schedule.
 
 
-**Parent Topic:**[Scheduling your teams' work in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/scheduling-configurable-workforce-optimization-itsm.md)
+**Parent Topic:**[Scheduling your teams' work in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/scheduling-configurable-workforce-optimization-itsm.md)
 

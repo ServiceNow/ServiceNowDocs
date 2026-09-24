@@ -3,9 +3,9 @@ title: Email notifications dashboard
 description: The email notification dashboard provides visibility into key metrics and enables admins to configure the dashboard to enable access to other users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/email-notifications-dashboard.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -25,7 +25,7 @@ The dashboard enhances visibility and supports proactive management of email not
 
 \[Omitted video\] Description: Email notifications dashboard
 
-Data collection is triggered by configuring and executing jobs. For more information, see [Configure jobs for email notifications dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-jobs-email-dashboard.md).
+Data collection is triggered by configuring and executing jobs. For more information, see [Configure jobs for email notifications dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-jobs-email-dashboard.md).
 
 **Note:** Configuration of jobs is required for data to be displayed on the dashboard.
 
@@ -159,10 +159,10 @@ The top 100 notifications for Most triggered, Last triggered, Most opted-out and
 
 To view all the email notifications, select **View all email notifications**.
 
--   **[Configure jobs for email notifications dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-jobs-email-dashboard.md)**  
+-   **[Configure jobs for email notifications dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-jobs-email-dashboard.md)**  
 Configure data collection jobs for the email notification dashboard.
 
-**Parent Topic:**[Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md)
+**Parent Topic:**[Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_EmailNotifications.md)
 
 **Related topics**  
 

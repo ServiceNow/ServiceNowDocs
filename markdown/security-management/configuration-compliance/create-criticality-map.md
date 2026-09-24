@@ -3,11 +3,11 @@ title: Create a Configuration Compliance criticality map
 description: Configuration Compliance criticality mapping provides a transform map for third-party source criticality fields to recognizable fields in Configuration Compliance severity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/create-criticality-map.html
-release: australia
+release: brazil
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---

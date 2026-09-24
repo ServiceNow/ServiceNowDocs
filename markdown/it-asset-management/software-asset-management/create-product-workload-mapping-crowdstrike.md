@@ -3,13 +3,13 @@ title: Create a product workload mapping for CrowdStrike products
 description: Create a product workload mapping for your CrowdStrike products for accurately associating specific products with the types of workloads they manage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/create-product-workload-mapping-crowdstrike.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use SAM Workspace, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a product workload mapping for CrowdStrike products
@@ -18,7 +18,7 @@ Create a product workload mapping for your CrowdStrike products for accurately a
 
 ## Before you begin
 
-You must create a CrowdStrike integration profile before creating a workload mapping. For more information, see [Integrating with CrowdStrike](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrate-with-crowdstrike.md).
+You must create a CrowdStrike integration profile before creating a workload mapping. For more information, see [Integrating with CrowdStrike](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/integrate-with-crowdstrike.md).
 
 Role required: sam\_admin or sam\_integrator
 
@@ -92,10 +92,10 @@ License metric for the selected software model.-   **Reserved Hourly Average Sen
 
 The mapping that you have created appears in the CrowdStrike product workload mapping list.
 
-**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
 
 **Related topics**  
 
 
-[Integrating with CrowdStrike](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrate-with-crowdstrike.md)
+[Integrating with CrowdStrike](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/integrate-with-crowdstrike.md)
 

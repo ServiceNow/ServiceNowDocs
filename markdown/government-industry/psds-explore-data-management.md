@@ -3,9 +3,9 @@ title: Data management for Public Sector Digital Services
 description: Data management refers to the processes and tools used to collect, organize, secure, and use constituent-related data effectively so that government service agent teams can deliver better service experiences. You can give your managers and agents a comprehensive view of constituent data, including constituent details, products and services, assets, service contracts, and entitlements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-explore-data-management.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Public Sector Digital Services \(PSDS\)]
 ---
@@ -37,21 +37,21 @@ Customer data includes information about the constituents and users who are exte
 -   B2B: In the business-to-business \(B2B\) business model, customer data includes details about accounts and contacts.
 -   B2C: In the business-to-consumer \(B2C\) business model, it includes details about consumers and households.
 
-To learn more about customer and constituent data, see [Customer Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-customer-data.md).
+To learn more about customer and constituent data, see [Customer Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-customer-data.md).
 
 ## Product data
 
 This data can include information about products and product models, service catalog items, sold products, install base items \(the instance as configured for the user\), and installed products. When assisting constituents, your service agents can quickly select the correct product data, add the details to case records, and view related details like knowledge articles and resolved cases.
 
-To learn more about product data, see [Product Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-product-data.md).
+To learn more about product data, see [Product Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-product-data.md).
 
 ## Service Model Foundation
 
 Service Model Foundation refers to a set of pre-designed business and technical data frameworks that helps set up and manage how services are delivered and supported. It provides a standardized way to configure, monitor, and support service requests, applications, cases, and workflows across various business locations or government service organizations.
 
-To learn more about the Service Model Foundation, see [Service Model Foundation overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-industry-data-model.md).
+To learn more about the Service Model Foundation, see [Service Model Foundation overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-industry-data-model.md).
 
-For more information on using the BLSP portal to add staff to your business location, create cases, work orders, and more, refer to the [Using the BLSP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-business-location-service-portal.md).
+For more information on using the BLSP portal to add staff to your business location, create cases, work orders, and more, refer to the [Using the BLSP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-using-business-location-service-portal.md).
 
 ## Internal user data
 
@@ -61,5 +61,5 @@ Internal user data includes the information about the people within your service
 
 Business stakeholders are internal users who directly influence service processes. They can create, view, and approve cases and requests across your service organization.
 
-To learn more about the business stakeholders, see [Business Stakeholder for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/roles-installed-with-public-sector-digital-services.md).
+To learn more about the business stakeholders, see [Business Stakeholder for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/roles-installed-with-public-sector-digital-services.md).
 

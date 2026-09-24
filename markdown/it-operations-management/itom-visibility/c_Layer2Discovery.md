@@ -3,11 +3,11 @@ title: Layer 2 discovery
 description: Discovery can detect the physical connections, known as layer 2, between network devices.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/c\_Layer2Discovery.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Network device discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Discovery uses multiple probes to gather information about network adapters and 
 
 \[Omitted image "Layer2DiscoveryProbesDiagram.png"\] Alt text: Layer 2 probes
 
-For example, if Discovery finds a switch in a network, it triggers the **SNMP - Switch - Vlan** probe and the **SNMP - Network - ARPTable** probe. For every Vlan that Discovery finds, it triggers various switch probes. If a switch has routing capabilities, Discovery triggers the **SNMP - Routing** probe to collect network adapter information in the Network Adapter \[cmdb\_ci\_network\_adapter\] table. If Discovery finds a server, it triggers the appropriate Address Resolution Protocol \(ARP\) probe for that operating system. Discovery also supports the use of patterns, such as the **Network Switch** and **Network Router** patterns, which are available by default in Discovery. See [Network switch and router discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoNWRouteAndSwitch.md) for more information.
+For example, if Discovery finds a switch in a network, it triggers the **SNMP - Switch - Vlan** probe and the **SNMP - Network - ARPTable** probe. For every Vlan that Discovery finds, it triggers various switch probes. If a switch has routing capabilities, Discovery triggers the **SNMP - Routing** probe to collect network adapter information in the Network Adapter \[cmdb\_ci\_network\_adapter\] table. If Discovery finds a server, it triggers the appropriate Address Resolution Protocol \(ARP\) probe for that operating system. Discovery also supports the use of patterns, such as the **Network Switch** and **Network Router** patterns, which are available by default in Discovery. See [Network switch and router discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/r_DataCollDiscoNWRouteAndSwitch.md) for more information.
 
 During the discovery of a network device, Discovery creates records in the Router Interface \[dscy\_router\_interface\] table and the Switchport \[dscy\_switchport\] table. This information contains network adapter information for that device. For SNMP-enabled devices, Discovery gathers the information from a routing probe during the exploration phase. The Layer 2 protocol cache probe runs next to collect neighbor data from the device.
 
@@ -331,5 +331,5 @@ These port tables are populated during horizontal Discovery of a device:
 -   Router Interface \[dscy\_router\_interface\]
 -   Load Balancer Interface \[cmdb\_ci\_lb\_interface\]
 
-**Parent Topic:**[Network device discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_NetworkDevices.md)
+**Parent Topic:**[Network device discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/c_NetworkDevices.md)
 

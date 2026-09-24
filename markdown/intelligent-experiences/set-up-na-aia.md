@@ -3,11 +3,11 @@ title: Set up AI agents
 description: The default \(base system\) AI agents provide preconfigured agentic workflows that address common business challenges across ServiceNow applications. Before activating the default AI agents, you must verify that your instance meets the prerequisites and complete the required configuration steps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/set-up-na-aia.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-02-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Configure, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Set up AI agents

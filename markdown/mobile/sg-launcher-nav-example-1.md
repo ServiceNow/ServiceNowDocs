@@ -3,9 +3,9 @@ title: Create a navigation function
 description: Create a navigation function that directs to a screen or launcher screen.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-launcher-nav-example-1.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure navigation to a launcher screen, Navigation functions, Mobile functions, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -22,7 +22,7 @@ Navigation functions enable you to define simple ways for end users to navigate 
 
 ## About this task
 
-In the following steps you create a navigation function to direct your users to an existing screen or launcher. You will need to have an existing screen or screen launcher to use as a destination for this function. For detail on creating screen launchers, see [Launcher screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-applet-launcher.md).
+In the following steps you create a navigation function to direct your users to an existing screen or launcher. You will need to have an existing screen or screen launcher to use as a destination for this function. For detail on creating screen launchers, see [Launcher screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mobile-applet-launcher.md).
 
 ## Procedure
 
@@ -120,7 +120,7 @@ Condition type
 
 Type of condition to use.
 
--   **Declarative:** Adds a conditional builder to the form. For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
+-   **Declarative:** Adds a conditional builder to the form. For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ConditionBuilder.md).
 -   **Script:** Adds a script condition field to the form.
 **Note:** Displays only if **Context** is set to **Record**.
 
@@ -151,9 +151,9 @@ Button attributes
 Specifies an additional attribute for a button. Select **New** to configure this option. You can select from the following button attributes:
 
  -   **alerts\_require\_dismissal**: The button attribute when set to true enables the banner messages to persist until the user dismisses it. By default, banner messages are automatically dismissed.
--   **used\_for\_deeplink**: The button attribute when set to true determines that the button is used for deep linking. For more information, see [Deep linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/deep-link-mobile.md).
+-   **used\_for\_deeplink**: The button attribute when set to true determines that the button is used for deep linking. For more information, see [Deep linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/deep-link-mobile.md).
 -   **trigger\_offline\_cache\_download**: The button attribute when set to true triggers offline cache generation. After the cache is successfully generated, a download of it is triggered.
--   **check\_acl\_on\_url\_parameter\_field**: When this button attribute is selected and set to true any field in the URL string, is checked against the ACL. To opt-out of the check, mark the parameter as false \(access control list\). For example, a string like `{{meeting_id}}`. If a field does not pass this check, the field value is not included in the URL.
+-   **check\_acl\_on\_url\_parameter\_field**: When this button attribute is selected and set to true any field in the URL string is checked against the ACL. To opt-out of the check, mark the parameter as false \(access control list\). For example, a string like `{{meeting_id}}`. If a field does not pass this check, the field value is not included in the URL.
 
 
 </td></tr><tr><td>
@@ -224,5 +224,5 @@ UI parameters for the source screen.**Note:** Displays only if the redirection p
 </table>6.  Select **Save**.
 
 
-**Parent Topic:**[Configure navigation to a launcher screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-launcher-nav-example.md)
+**Parent Topic:**[Configure navigation to a launcher screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-launcher-nav-example.md)
 

@@ -3,9 +3,9 @@ title: Methods and events of the Form Renderer element
 description: The Form Renderer element in RPA Desktop Design Studio enables you to build forms quickly with controls such as TextBox, ComboBox, CheckBox, RadioButton, ToggleButton, Date, Time, and PasswordBox.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/form-control-formreneder.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Methods and events of elements, Reference, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -94,10 +94,10 @@ The methods and events of the Form Renderer element are displayed in the Object 
     Occurs when the focus moves out of the current element.
 
 
-**Parent Topic:**[Methods and events of elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/form-control-methods-events.md)
+**Parent Topic:**[Methods and events of elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/form-control-methods-events.md)
 
 **Related topics**  
 
 
-[Configure the form fields for the Form Renderer element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-form-fields.md)
+[Configure the form fields for the Form Renderer element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-form-fields.md)
 

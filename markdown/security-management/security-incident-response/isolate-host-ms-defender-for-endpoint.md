@@ -3,11 +3,11 @@ title: Configure Isolate Host capability in Microsoft Defender for Endpoint
 description: Isolate the host from accessing the network in Microsoft Defender for Endpoint based on the severity of the attack. Isolating the host from the network enables you to prevent any other malicious activities or potential attacks on other hosts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/isolate-host-ms-defender-for-endpoint.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Additional Configurations, Microsoft Defender for Endpoint integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -45,7 +45,7 @@ Role required: sn\_si.admin or sn\_si.analyst
 6.  View the data, and validate the isolate host details on the related lists.
 
 
-**Parent Topic:**[Additional Configurations in Microsoft Defender for Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/additional-configurations-in-defender.md)
+**Parent Topic:**[Additional Configurations in Microsoft Defender for Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/additional-configurations-in-defender.md)
 
 **Related topics**  
 

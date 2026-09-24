@@ -3,9 +3,9 @@ title: Components installed with Financial Services Document Processor
 description: Several types of components are installed with installation of the Document Processor application, including tables and user roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/components-installed-fso-document-processor.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Document Processor, Integrate, Financial Services Operations \(FSO\)]
 ---
@@ -218,8 +218,8 @@ Document Processor
 
 </td><td>
 
-This UI Builder page displays the list of required documents defined in the document list definition as a playbook activity. If the document list item indicates that the document can be deferred or have an exception, these options appear in this page. See [Create document list item definitions for a document list definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/doc-processor-associate-document-list-items-to-category.md) for more information.**Note:** This component requires CSM workspace to be installed.
+This UI Builder page displays the list of required documents defined in the document list definition as a playbook activity. If the document list item indicates that the document can be deferred or have an exception, these options appear in this page. See [Create document list item definitions for a document list definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/doc-processor-associate-document-list-items-to-category.md) for more information.**Note:** This component requires CSM workspace to be installed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Financial Services Operations Document Processor reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-document-processor-reference.md)
+</table>**Parent Topic:**[Financial Services Operations Document Processor reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-document-processor-reference.md)
 

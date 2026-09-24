@@ -3,9 +3,9 @@ title: Channel Management in Workforce Optimization for Customer Service
 description: Channel management lets you monitor important metrics across different channels and queues, manage the work being done by your team members, and collaborate with them to solve complex issues for your end-customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/explore-channels-configurable-wfo-cs.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -57,7 +57,7 @@ Each help request includes metadata such as agent name, interaction type, and du
 
 Understand how you can monitor important metrics \(or key process indicators\) across different channels and queues. Manage the work being done by your team members \(or agents in your teams\) and collaborate with them to solve complex issues for your end-customers.
 
-The example employee manages Customer Service operations for a large organization and has 12 teams. Each team has anywhere from 8 through 15 agents. The employee must ensure that incoming work gets effectively routed to the right groups across all channels. This can be done by setting up [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-overview.md) as per the business requirement.
+The example employee manages Customer Service operations for a large organization and has 12 teams. Each team has anywhere from 8 through 15 agents. The employee must ensure that incoming work gets effectively routed to the right groups across all channels. This can be done by setting up [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/awa-overview.md) as per the business requirement.
 
 Once the employee has configured Advanced Work Assignment \(AWA\) appropriately, they can add key performance indicators \(KPIs\) to the channels and queues, and monitor the operational performance of the teams in real time.
 
@@ -69,15 +69,15 @@ Get an overview on how you can manually assign work items, monitor ongoing cases
 
 Get an overview on how managers can add service channels, queues, and configure KPIs.
 
--   **[Using Channel Management in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configurable-channels-wfo-cs.md)**  
+-   **[Channel Management in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configurable-channels-wfo-cs.md)**  
 Use Channel Management to keep a track of the real-time performance of work done by your team members through channels and queues views. You can also drill down into specific cases and chats and collaborate with your team members to achieve better results.
 
-**Parent Topic:**[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-configurable-wfo-cs.md)
+**Parent Topic:**[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/use-configurable-wfo-cs.md)
 
 **Related topics**  
 
 
-[Setting up service channels and queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-channels-queues-configurable-wfo-cs.md)
+[Setting up service channels and queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/setup-channels-queues-configurable-wfo-cs.md)
 
-[Using Channel Management in WFO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-channels-configurable-wfo-cs.md)
+[Using Channel Management in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/use-channels-configurable-wfo-cs.md)
 

@@ -3,11 +3,11 @@ title: Reset password using service-desk assistance
 description: Resetting the password enables the user to log in to their system and resume their work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/reset-password-sd-pr-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reset password, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -123,8 +123,8 @@ The email address of the user is displayed. You must ask the email address of th
 
 10. Select **Exit** in the confirmation modal displays to indicate that the password has been shared with the user.
 
-    To know about errors that you encounter while you reset the password, refer [Password Reset in Service Operations Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/pr-sow-reference.md).
+    To know about errors that you encounter while you reset the password, refer [Password Reset in Service Operations Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/pr-sow-reference.md).
 
 
-**Parent Topic:**[Resetting password using Service-desk assisted Password Reset in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/resetting-password-pr-sow.md)
+**Parent Topic:**[Resetting password using Service-desk assisted Password Reset in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/resetting-password-pr-sow.md)
 

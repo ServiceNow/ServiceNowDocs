@@ -3,9 +3,9 @@ title: Allowing locked out users to process inbound email actions
 description: A property is available to allow locked out users to trigger inbound actions. For example, enabling the property can allow locked out users to reset their password and send email to the instance asking for assistance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_AllowLockedUsersInbdEmailAct.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [References, Inbound email, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -35,5 +35,5 @@ Enables \(true\) or disables \(false\) the ability for locked out users to trigg
 </td></tr></tbody>
 </table>**Warning:** Enabling this property \(**glide.pop3.process\_locked\_out**\) also enables users from untrusted domains to trigger inbound actions. The user must still be active.
 
-**Parent Topic:**[References for Inbound email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/references-inbound-email.md)
+**Parent Topic:**[References for Inbound email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/references-inbound-email.md)
 

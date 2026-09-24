@@ -3,11 +3,11 @@ title: Project eligibility analysis AI agent
 description: This Strategic Portfolio Management agent performs checks for project and project task related requests. The agent analyzes requests to check impact on a project due to project task. It checks if the project summary email skill is enabled for the instance and whether the skill was enabled for a given project.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/spm-project-eligibility-analysis-ai-agent.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Strategic Portfolio Management AI agents, Strategic Portfolio Management, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Strategic Portfolio Management AI agents, Strategic Portfolio Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Project eligibility analysis AI agent
@@ -51,7 +51,7 @@ Manage long-term memory
 
 </td><td>
 
-When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-aia-reference.md).
+When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/na-aia-reference.md).
 
 </td></tr><tr><td>
 
@@ -92,7 +92,7 @@ Triggers
 
 </td><td>
 
-Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-trigger-aia.md).
+Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-trigger-aia.md).
 
 </td></tr><tr><td>
 
@@ -111,7 +111,7 @@ Used in agentic workflows
 Generate Project Summary
 
 </td></tr></tbody>
-</table>Learn more about Strategic Portfolio Management at [Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/r_ITBusinessManagement.md).
+</table>Learn more about Strategic Portfolio Management at [Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/r_ITBusinessManagement.md).
 
-**Parent Topic:**[Strategic Portfolio Management AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/spm-ai-agents-overview.md)
+**Parent Topic:**[Strategic Portfolio Management AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/spm-ai-agents-overview.md)
 

@@ -3,9 +3,9 @@ title: Migrating to Column Level Encryption
 description: Scheduled jobs migrate your keys and encrypted data from Encryption Support to Column Level Encryption.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/migration-to-platform-encryption-2.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Column Level Encryption, Column Level Encryption, Encryption]
 ---
@@ -37,8 +37,8 @@ Because of this, field encryption modules on the target clone instance may have 
 
     The active module encryption key is used to encrypt inserted data as needed on the target clone instance. The deactivated module is used to decrypt existing data that was cloned over as part of the system clone.
 
-    To use a single key to decrypt and encrypt all data, you can run a module rekeying job. For more information about module rekeying jobs, see [Schedule mass encryption, decryption, and rekeying jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/schedule-mass-jobs.md).
+    To use a single key to decrypt and encrypt all data, you can run a module rekeying job. For more information about module rekeying jobs, see [Schedule mass encryption, decryption, and rekeying jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/schedule-mass-jobs.md).
 
 
-**Parent Topic:**[Configuring Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-column-level-encryption-2.md)
+**Parent Topic:**[Configuring Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/configuring-column-level-encryption-2.md)
 

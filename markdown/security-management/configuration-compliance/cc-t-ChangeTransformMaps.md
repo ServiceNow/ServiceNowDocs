@@ -3,13 +3,13 @@ title: Modify transform maps
 description: Transform maps are provided with base configurations and are sufficient usually. You can modify transform mappings depending on the needs of your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/cc-t-ChangeTransformMaps.html
-release: australia
+release: brazil
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Resolving Qualys Vulnerability Integration issues, Qualys, Integrate with other applications, Configuration Compliance, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Resolving Qualys Vulnerability Integration issues, Qualys, Integrate, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
 
 # Modify transform maps

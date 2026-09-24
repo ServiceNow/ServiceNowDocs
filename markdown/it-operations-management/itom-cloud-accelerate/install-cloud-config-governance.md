@@ -3,11 +3,11 @@ title: Install Cloud Configuration Governance
 description: You can install the Cloud Configuration Governance application \(com.sn.itom.ccg\) if you have the admin role. The application installs related ServiceNow Store applications and plugins if they aren’t already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/install-cloud-config-governance.html
-release: australia
+release: brazil
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -45,7 +45,7 @@ Cloud Configuration Governance uses the ServiceNow® ITOM Cloud Accelerate subsc
 
 ## What to do next
 
-To access the base system contents such as policies, configuration collectors, remediations, and more, install the CCG Content Pack application. For more information, see [Install CCG Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/install-ccg-content-pack.md).
+To access the base system contents such as policies, configuration collectors, remediations, and more, install the CCG Content Pack application. For more information, see [Install CCG Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-cloud-accelerate/install-ccg-content-pack.md).
 
-**Parent Topic:**[Exploring Cloud Configuration Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/exploring-cloud-configuration-governance.md)
+**Parent Topic:**[Exploring Cloud Configuration Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-cloud-accelerate/exploring-cloud-configuration-governance.md)
 

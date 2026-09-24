@@ -3,11 +3,11 @@ title: Agentic AI in the Change Management application
 description: Use the ITSM change management agentic workflows to manage and complete tasks autonomously in the Change Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/using-agentic-workflows.html
-release: australia
+release: brazil
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -22,12 +22,12 @@ Use the ITSM change management agentic workflows to manage and complete tasks au
 To access the change request agentic workflows, make sure that you install the following applications:
 
 1.  ServiceNow Otto for IT Service Management \(ITSM\) \(sn\_itsm\_gen\_ai\) plugin.
-2.  Change Management application. For more information, see [Configuring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/configure-change-management.md).
+2.  Change Management application. For more information, see [Configuring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/configure-change-management.md).
 
 **Note:**
 
--   Before you begin, review these [Important considerations for using ServiceNow Otto for IT Service Management \(ITSM\) agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/important-considerations-itsm-agentic-ai.md).
--   For all available ITSM Agentic AI applications, see [Use agentic AI in ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-ai-agents-use-cases.md).
+-   Before you begin, review these [Important considerations for using ServiceNow Otto for IT Service Management \(ITSM\) agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-for-it-service-management-itsm/important-considerations-itsm-agentic-ai.md).
+-   For all available ITSM Agentic AI applications, see [Use agentic AI in ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-ai-agents-use-cases.md).
 
 ## Agentic workflows for the change management application
 

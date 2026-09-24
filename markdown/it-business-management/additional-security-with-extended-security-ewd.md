@@ -1,22 +1,22 @@
 ---
 title: Additional security with Extended Security for EWD
-description: Additional security is an ACL enforcement feature available with Extended Security for Enterprise-Wide Deployment that applies partition-based access control to four partitioned tables: Project, Demand, Program, and Portfolio.
+description: Additional security is an ACL \(Access Control List\) enforcement feature available with Extended Security for Enterprise-Wide Deployment that applies partition-based access control to four partitioned tables: Project, Demand, Program, and Portfolio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/additional-security-with-extended-security-ewd.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, SPM Enterprise-Wide Deployment, Strategic Portfolio Management]
 ---
 
 # Additional security with Extended Security for EWD
 
-Additional security is an ACL enforcement feature available with Extended Security for Enterprise-Wide Deployment that applies partition-based access control to four partitioned tables: Project, Demand, Program, and Portfolio.
+Additional security is an ACL \(Access Control List\) enforcement feature available with Extended Security for Enterprise-Wide Deployment that applies partition-based access control to four partitioned tables: Project, Demand, Program, and Portfolio.
 
-## What is additional security?
+## What is additional security
 
-Additional security is an optional feature that strengthens access control in Enterprise Wide Deployment by enforcing partition-based ACL \(Access Control List\) rules at the table level. When enabled for a table, users can only read, create, update, or delete records within their assigned partition, regardless of their role or existing table permissions.
+Additional security is an optional feature that strengthens access control in Enterprise-Wide Deployment by enforcing partition-based ACL rules at the table level. When enabled for a table, users can only read, create, update, or delete records within their assigned partition, regardless of their role or existing table permissions.
 
 This provides a second layer of protection beyond traditional role-based access control \(RBAC\), ensuring that partition boundaries are enforced at the database level.
 
@@ -65,5 +65,5 @@ When additional security is enabled, users can only access tables and records wi
 
 Additional security is configured on a per-table basis in the SPM Configure console under **Partitions** &gt; **Enable additional security**. Each table has a checkbox; when checked, partition-based ACL enforcement is enabled for that table.
 
-Changes take effect immediately after save. Existing records retain their partition assignment; access restrictions apply to all future queries. For instructions to enable additional security, see [Enable additional security for partitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enable-additional-security-extended-security-ewd.md).
+Changes take effect immediately after save. Existing records retain their partition assignment; access restrictions apply to all future queries. For instructions to enable additional security, see [Enable additional security for partitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enable-additional-security-extended-security-ewd.md).
 

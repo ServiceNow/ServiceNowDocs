@@ -3,11 +3,11 @@ title: Add selection criteria for an appointment slot recommendation rule
 description: Enhance appointment booking by adding selection criteria to your recommendation rules. Selection criteria help determine the best appointment slots to recommend to your customers—ensuring optimal scheduling based on factors like proximity, skill availability, or travel time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/add-selection-criteria-for-an-appointment-slot-recommendation-rule.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Appointment slot recommendation, Configure Appointment Booking, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---

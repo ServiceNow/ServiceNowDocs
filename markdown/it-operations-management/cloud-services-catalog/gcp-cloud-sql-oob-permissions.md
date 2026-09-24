@@ -3,11 +3,11 @@ title: Google Cloud Platform Cloud SQL Out Of Box permissions
 description: Google Cloud Platform Cloud SQL Out Of Box catalog items permissions
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/gcp-cloud-sql-oob-permissions.html
-release: australia
+release: brazil
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [GCP Cloud SQL, Out Of Box Catalogs using Cloud Services Catalog, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -63,5 +63,5 @@ Deprovision
 cloudsql.instances.delete
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Google Cloud Platform Cloud SQL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/google-cloud-platform-cloud-sql.md)
+</table>**Parent Topic:**[Google Cloud Platform Cloud SQL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-services-catalog/google-cloud-platform-cloud-sql.md)
 

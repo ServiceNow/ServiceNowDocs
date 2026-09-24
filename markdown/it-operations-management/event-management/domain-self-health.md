@@ -3,11 +3,11 @@ title: Monitor self-health with domain separation
 description: Use domain separation to enable self-health to display Event Management health issues that are based on data, rules, and settings from the logged in user domain. The selected domain must not contain any child domains.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/domain-self-health.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Self-health monitors for Event Management, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -61,10 +61,10 @@ Further configuration is required for CI creation, receipt of events, and alert 
 3.  In the **Value** field, specify the `sys_id` of the domain.
 4.  Select **Update**.
 
-**Parent Topic:**[Self-health monitors for Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/self-monitoring.md)
+**Parent Topic:**[Self-health monitors for Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/self-monitoring.md)
 
 **Related topics**  
 
 
-[Domain separation setup and basic administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparationSetup.md)
+[Domain separation setup and basic administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_DomainSeparationSetup.md)
 

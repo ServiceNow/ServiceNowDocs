@@ -3,11 +3,11 @@ title: Change policies based on security summary tables
 description: You can use the security conditions that are available in the base system or customize them based on your requirement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/change-condition-for-security-framework.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Additional info - Veracode, Veracode, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -20,7 +20,7 @@ The vulnerability severity conditions are present in the **Fetch Risk Sonar Secu
 
 If the severity condition is classified as **HIGH** or **VERY HIGH** from Veracode or Checkmarx, then the change request is automatically rejected.
 
-If you are an upgrading customer and you want to customize the conditions with any additional security data or change the existing conditions, you must update the script in the **Fetch Risk Sonar Security and Incident data** action in the change flow. Ensure that you are referring to the **Application Vulnerability Scan Summary Details \(sn\_vul\_app\_vul\_scan\_summary\_details\)** table in the script when you customize. For more information, see [Security scan results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/security-tool-framework.md).
+If you are an upgrading customer and you want to customize the conditions with any additional security data or change the existing conditions, you must update the script in the **Fetch Risk Sonar Security and Incident data** action in the change flow. Ensure that you are referring to the **Application Vulnerability Scan Summary Details \(sn\_vul\_app\_vul\_scan\_summary\_details\)** table in the script when you customize. For more information, see [Security scan results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/security-tool-framework.md).
 
-**Parent Topic:**[Veracode integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/veracode-integration-with-devops-change-velocity.md)
+**Parent Topic:**[Veracode integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/veracode-integration-with-devops-change-velocity.md)
 

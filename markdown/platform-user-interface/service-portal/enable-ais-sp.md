@@ -3,11 +3,11 @@ title: Enable and configure AI Search in Service Portal
 description: Enable and define the AI Search experience in your portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/enable-ais-sp.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-04-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [AI Search in Service Portal, Configuring search in a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -26,9 +26,9 @@ Role required: sp\_admin or admin
 
 AI Search is enabled in Service Portal for all new and zBoot customers by default.
 
-If you're upgrading to Australia as an existing customer, AI Search is inactive in Service Portal by default. You can enable it by updating the portal record.
+If you are upgrading to Brazil as an existing customer, AI Search is disabled in Service Portal by default. You can enable it by updating the portal record.
 
-If you leave AI Search inactive, the portal uses the legacy search experience.
+If you leave AI Search disabled, the portal uses the legacy search experience.
 
 ## Procedure
 
@@ -40,13 +40,13 @@ If you leave AI Search inactive, the portal uses the legacy search experience.
 
     A search application configuration defines search experience settings, such as the search engine, search results limit, and suggestions limit. A search application configuration is selected by default, but you can select a different configuration if needed.
 
-    For more information on defining a search application configuration, see [Defining search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/defining-search-app-cfgs-ais.md).
+    For more information on defining a search application configuration, see [Defining search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/defining-search-app-cfgs-ais.md).
 
 4.  In the **Search Results Configuration** field, select the search results configuration to enable for the portal.
 
     A search results configuration defines how search results are displayed. A search results configuration is selected by default, but you can select a different configuration if needed.
 
-    For more information on defining a search results configuration, see [Create an EVAM definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/define-composite-dataset.md).
+    For more information on defining a search results configuration, see [Create an EVAM definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/define-composite-dataset.md).
 
 5.  Select **Update**.
 
@@ -55,15 +55,15 @@ If you leave AI Search inactive, the portal uses the legacy search experience.
 
 AI Search is enabled throughout the portal. Employees or customers can use AI Search the next time they log in.
 
-The Search Sources related list is hidden from the portal record. You now define search sources in the AI Search application. For more information, see [Defining search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-sources-ais.md).
+The Search Sources related list is hidden from the portal record. You now define search sources in the AI Search application. For more information, see [Defining search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-sources-ais.md).
 
 To use AI Search for knowledge articles, you can keep the default **Knowledge Bases** search source or select a custom one.
 
-**Note:** If you're experiencing issues using AI Search for knowledge articles, check that the associated search profile is linked to a knowledge bases search source. For more information, see [Link a search source to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/link-search-source-profile-ais.md).
+**Note:** If you're experiencing issues using AI Search for knowledge articles, check that the associated search profile is linked to a knowledge bases search source. For more information, see [Link a search source to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/link-search-source-profile-ais.md).
 
 ## What to do next
 
-Search widgets that you cloned or customized before a system upgrade may not be compatible with AI Search. You can resolve this issue by running a fix script that reclassifies search widget instances. For more information, see [Reclassify cloned or customized search widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/reclassify-search-widgets.md).
+Search widgets that you cloned or customized before a system upgrade may not be compatible with AI Search. You can resolve this issue by running a fix script that reclassifies search widget instances. For more information, see [Reclassify cloned or customized search widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/reclassify-search-widgets.md).
 
-**Parent Topic:**[AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/ai-search.md)
+**Parent Topic:**[AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/ai-search.md)
 

@@ -3,11 +3,11 @@ title: Courses of Action
 description: Courses of action is an action taken either to prevent an attack or to respond to an attack that is in progress.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/course-of-action.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Threat Entities, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -20,8 +20,8 @@ Courses of action describes technical or automated responses such as applying pa
 
 For example, courses of action to mitigate a vulnerability could describe applying the patch that fixes it.
 
--   **[Define Courses of Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/define-course-of-action.md)**  
+-   **[Define Courses of Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/define-course-of-action.md)**  
 Define courses of action to prevent an attack or to respond to an attack that is in progress.
 
-**Parent Topic:**[Threat Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-threat-entities.md)
+**Parent Topic:**[Threat Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-threat-entities.md)
 

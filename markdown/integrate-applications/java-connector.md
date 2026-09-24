@@ -3,9 +3,9 @@ title: Java
 description: The Java connector enables you to perform various actions on Java applications as part of an automation in the RPA Desktop Design Studio
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/java-connector.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Connectors, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -20,10 +20,10 @@ In the context of RPA Desktop Design Studio, a Java application has three levels
 
 To use the Java connector, do the following steps:
 
-1.  Use the Java connector. See [Use a connector in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-connector.md).
-2.  Configure the connector. See [Configure the Java connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-java-connector.md).
-3.  Expose the methods. See [Use connector method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-connector-method.md).
-4.  Use the methods. See [Use a component in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-components.md).
+1.  Use the Java connector. See [Use a connector in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/use-connector.md).
+2.  Configure the connector. See [Configure the Java connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-java-connector.md).
+3.  Expose the methods. See [Use connector method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/use-connector-method.md).
+4.  Use the methods. See [Use a component in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-components.md).
 
 Java connector methods are available at the following levels:
 
@@ -41,12 +41,12 @@ Java connector methods are available at the following levels:
 
 As a workaround, copy the WindowsAccessBridge-64.dll available on the Oracle website for the particular Java version to C:\\Windows\\System32 folder on the target machine.
 
--   **[Configure the Java connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-java-connector.md)**  
+-   **[Configure the Java connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-java-connector.md)**  
 Configure the Java connector to set up the Java application screens and elements on which the automation will be performed. After setting up, you can expose methods at the connector, screen, and element levels.
--   **[Java connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/java-connector-methods.md)**  
+-   **[Java connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/java-connector-methods.md)**  
 The Java connector exposes methods at the connector, screen, and element levels. While all types of elements have common methods, they also have different methods.
--   **[Java connector properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/java-connector-properties.md)**  
+-   **[Java connector properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/java-connector-properties.md)**  
 View or update Java connector properties.
 
-**Parent Topic:**[Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connectors.md)
+**Parent Topic:**[Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/connectors.md)
 

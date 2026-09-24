@@ -3,11 +3,11 @@ title: Execute a suite scan
 description: Execute suites of available checks against a specific target to have targeted scan results by selecting Execute Suite Scan.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/instance-scan/hc-execute-suite-scan.html
-release: australia
+release: brazil
 product: Instance Scan
 classification: instance-scan
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Executing a scan, Using Instance Scan, Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -46,7 +46,7 @@ Role required: admin.
     **Note:** If a record is inactive, the checks don't generate any findings for that record.
 
 
-**Parent Topic:**[Executing a scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-execute-scans.md)
+**Parent Topic:**[Executing a scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/instance-scan/hs-execute-scans.md)
 
 **Related topics**  
 

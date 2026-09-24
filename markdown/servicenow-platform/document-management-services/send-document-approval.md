@@ -3,11 +3,11 @@ title: Send a document version for approval
 description: Add a single or multiple reviewers and approvers for the document approval and review.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/send-document-approval.html
-release: australia
+release: brazil
 product: Document Management Services
 classification: document-management-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Document Management in Workspace, Use, Document Management, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ Add a single or multiple reviewers and approvers for the document approval and r
 
 Role required: none
 
-For more information, see [Document approval and publish process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/document-review-approval.md)
+For more information, see [Document approval and publish process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/document-review-approval.md)
 
 ## Procedure
 
@@ -55,5 +55,5 @@ For more information, see [Document approval and publish process](https://raw.gi
 15. Select **View more details** to view all details for the document.
 
 
-**Parent Topic:**[Document Management in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/document-management-workspace.md)
+**Parent Topic:**[Document Management in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/document-management-workspace.md)
 

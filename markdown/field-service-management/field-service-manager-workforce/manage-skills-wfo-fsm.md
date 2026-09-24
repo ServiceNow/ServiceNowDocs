@@ -3,11 +3,11 @@ title: Manage skills using Workforce Optimization for Field Service
 description: Add or update skills for an agent. You can approve predicted skills if the skill is necessary for the agent to complete assigned tasks. You can also reject a skill if it doesn't apply to the agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/manage-skills-wfo-fsm.html
-release: australia
+release: brazil
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Coaching, Workforce Optimization, Managing workforce, Use, Field Service Management]
 ---
@@ -34,21 +34,21 @@ You can view skills for all users grouped by assignment group and the overall sk
 
 3.  Click the **Skills** tab.
 
-    You can view the list of all assigned skills and the skill level for each agent on your team. For more information on skills and skills levels, see [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management.md).
+    You can view the list of all assigned skills and the skill level for each agent on your team. For more information on skills and skills levels, see [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/skills-management.md).
 
     You can also filter the skill matrix based on users, groups, skill type, skill level, or skill category. Reset the filter if you want to view the skills for all users.
 
 4.  Add a skill or skill level.
 
-<table id="choicetable_ufk_1hx_nlb"><thead><tr><th align="left" id="d42933e123">
+<table id="choicetable_ufk_1hx_nlb"><thead><tr><th align="left" id="d44237e123">
 
 To
 
-</th><th align="left" id="d42933e126">
+</th><th align="left" id="d44237e126">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d42933e132">
+</th></tr></thead><tbody><tr><td id="d44237e132">
 
 **Add a skill**
 
@@ -59,7 +59,7 @@ Do this
 3.  Click **OK**.
 The skill gets automatically added to the agent.
 
-</td></tr><tr><td id="d42933e162">
+</td></tr><tr><td id="d44237e162">
 
 **Update a skill level**
 

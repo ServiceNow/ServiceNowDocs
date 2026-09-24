@@ -3,11 +3,11 @@ title: Prioritizing AI plan in AI Control Tower
 description: View and manage AI-related intake items, demands, product ideas, and product feedback, through analytics tiles, contextual filters, and filterable lists in Prioritize tab. All three lists support creation of new records from this tab.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-plan-use-the-prioritize-tab.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use, Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Enable AI experiences]
+breadcrumb: [Use, Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Prioritizing AI plan in AI Control Tower
@@ -112,7 +112,7 @@ sn\_align\_core\_feedback
 **Related topics**  
 
 
-[AI Plan configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-plan-configuring.md)
+[AI Plan configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-plan-configuring.md)
 
-[Planning and tracking AI work in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-plan-using.md)
+[Planning and tracking AI work in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-plan-using.md)
 

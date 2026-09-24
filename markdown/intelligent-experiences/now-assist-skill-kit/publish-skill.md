@@ -3,13 +3,13 @@ title: Finalize and publish a skill
 description: When you’re satisfied with your prompt, you can publish your custom skill. Publishing the skill enables a Otto admin to activate it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/publish-skill.html
-release: australia
+release: brazil
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: task
-last_updated: "2026-07-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Using AI Skill Kit, AI Skill Kit, Enable AI experiences]
+breadcrumb: [Using AI Skill Kit, AI Skill Kit, Generative AI skills, Enable AI Experiences]
 ---
 
 # Finalize and publish a skill
@@ -24,7 +24,7 @@ Role required: sn\_skill\_builder.admin
 
 Publishing a skill is a two-part process. First, you must finalize at least one prompt. Finalizing a prompt marks it as ready for use, and is required before the skill can be published. Then you publish the skill, which changes its state from **Draft** to **Published** and makes it visible to a Otto admin for activation in AI Admin Hub.
 
-**Tip:** Make sure your deployment settings are configured before publishing. Once published, the skill appears in AI Admin Hub under the workflow category you selected. To learn more, see [Configure deployment and skill settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md).
+**Tip:** Make sure your deployment settings are configured before publishing. Once published, the skill appears in AI Admin Hub under the workflow category you selected. To learn more, see [Configure deployment and skill settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md).
 
 ## Procedure
 
@@ -34,7 +34,7 @@ Publishing a skill is a two-part process. First, you must finalize at least one 
 
 3.  Make any necessary changes to the prompt and test it.
 
-    To learn more about testing your prompt, see [Test a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/test-prompt-template.md).
+    To learn more about testing your prompt, see [Test a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/test-prompt-template.md).
 
 4.  In the **Skill contents** sidebar, select the prompt that you want to finalize.
 
@@ -53,13 +53,13 @@ Publishing a skill is a two-part process. First, you must finalize at least one 
 
 ## What to do next
 
-A Otto admin must activate the skill before users can trigger it. To learn more about activating a skill, see [Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/activate-skill.md).
+A Otto admin must activate the skill before users can trigger it. To learn more about activating a skill, see [Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/activate-skill.md).
 
-To create a copy of a published skill to use as a starting point for a new one, see [Clone a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/clone-and-edit-servicenow-skill.md).
+To create a copy of a published skill to use as a starting point for a new one, see [Clone and edit a ServiceNow skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/clone-and-edit-servicenow-skill.md).
 
-To set a prompt as the default for a skill, use the **Set as the default prompt** toggle in the prompt editor. To learn more about managing prompts, see [Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/create-prompt-template.md).
+To set a prompt as the default for a skill, use the **Set as the default prompt** toggle in the prompt editor. To learn more about managing prompts, see [Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/create-prompt-template.md).
 
-**Parent Topic:**[Using AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
+**Parent Topic:**[Using AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
 
 **Related topics**  
 

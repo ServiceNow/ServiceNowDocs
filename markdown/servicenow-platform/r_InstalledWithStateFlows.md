@@ -3,9 +3,9 @@ title: Installed with state flows
 description: Several types of components are installed with state flows.Tables are added with state flows.Business rules are added with state flows.Script includes are added with state flows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_InstalledWithStateFlows.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [State flows, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [State flows, Exploring Service Administration, Service Administrati
 
 Several types of components are installed with state flows.
 
-**Parent Topic:**[State flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_StateFlows.md)
+**Parent Topic:**[State flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_StateFlows.md)
 
 ## Tables installed with state flows
 

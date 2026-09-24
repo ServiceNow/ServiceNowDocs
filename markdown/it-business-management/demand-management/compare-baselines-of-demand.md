@@ -3,11 +3,11 @@ title: Compare financial baselines of a demand
 description: You can compare baselines to review the variances in the financial data of a demand and see what changed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/compare-baselines-of-demand.html
-release: australia
+release: brazil
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create a baseline of a demand, Create a demand, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -22,23 +22,23 @@ Role required: it\_demand\_manager
 
 ## About this task
 
-You can [create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/create-demand-baseline.md) multiple baselines at various stages of a demand's life cycle. For example, at the end of each phase or after every calendar month or quarter. Each baseline captures the financial data of the demand at a particular moment. Use baselines to identify and review changes made to the demand. Having multiple baselines and comparing them helps you track the performance of your demand.
+You can [create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/create-demand-baseline.md) multiple baselines at various stages of a demand's life cycle. For example, at the end of each phase or after every calendar month or quarter. Each baseline captures the financial data of the demand at a particular moment. Use baselines to identify and review changes made to the demand. Having multiple baselines and comparing them helps you track the performance of your demand.
 
-With the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin activated and Demand Currency view enabled, you can view and compare demand financial details in baselines using the demand currency. For fields available only in the Demand Currency view, see [Multicurrency in Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/multicurrency-demand.md).
+With the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin activated and Demand Currency view enabled, you can view and compare demand financial details in baselines using the demand currency. For fields available only in the Demand Currency view, see [Multicurrency in Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/multicurrency-demand.md).
 
 ## Procedure
 
 1.  To compare financial baselines of a demand, perform one of the following options.
 
-<table id="choicetable_ydr_q2x_xfb"><thead><tr><th align="left" id="d302423e97">
+<table id="choicetable_ydr_q2x_xfb"><thead><tr><th align="left" id="d304028e97">
 
 Option
 
-</th><th align="left" id="d302423e100">
+</th><th align="left" id="d304028e100">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d302423e106">
+</th></tr></thead><tbody><tr><td id="d304028e106">
 
 **From the Demand form**
 
@@ -51,7 +51,7 @@ Steps
 5.  On the Demand Workbench, select the baseline information icon \( \[Omitted image "new-baseline-info-icon.png"\] Alt text: \) and then select **Compare Baselines**.
 
 
-</td></tr><tr><td id="d302423e165">
+</td></tr><tr><td id="d304028e165">
 
 **From the Baseline form**
 
@@ -97,5 +97,5 @@ Steps
     -   To view a cost plan or benefit plan comparative data in yearly, quarterly, or monthly format, select the **Year** or **Quarter** or **Month** views respectively.
     -   To view details of a fiscal year, select the **Expand** icon \[Omitted image "new-expand-icon.png"\] Alt text: or **Collapse** icon \[Omitted image "new-collapse-icon.png"\] Alt text:.
 
-**Parent Topic:**[Create a baseline of a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/create-demand-baseline.md)
+**Parent Topic:**[Create a baseline of a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/create-demand-baseline.md)
 

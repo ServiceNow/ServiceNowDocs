@@ -3,9 +3,9 @@ title: Mobile screen types
 description: Learn how to use screens in ServiceNow mobile. Use screens to make your mobile app functionality available to your end users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mobile-applet.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -28,7 +28,7 @@ Launcher screen
 
  Launcher screens serve as landing pages or home pages. Using a launcher screen, you can access screens in various formats, as well as search, do quick actions, and find user information.
 
- For more information, see [Launcher screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-applet-launcher.md).
+ For more information, see [Launcher screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mobile-applet-launcher.md).
 
 </td><td>
 
@@ -40,7 +40,7 @@ List screen
 
  Use list screens to display a list of records queried from a data item. List screens can be configured together with a record screen. When both screens are configured together, your users can tap a record on the list screen to display the record screen for that record.
 
- For more information, see [List screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/list-screen.md).
+ For more information, see [List screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/list-screen.md).
 
 </td><td>
 
@@ -52,7 +52,7 @@ Grouped list screen
 
  Use a grouped list screen to display a list of records that are grouped by a specific field. A group list screen uses a special group by data item.
 
- For more information, see [Grouped list screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/grouped-list-screen.md).
+ For more information, see [Grouped list screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/grouped-list-screen.md).
 
 </td><td>
 
@@ -64,7 +64,7 @@ Record screen
 
  User record screens to display information from one specific record. On a record screen, you can configure up to 4 different types of embedded screens as segments. These 4 different types of embedded screens include details, activity, related lists, and embedded lists.
 
- For more information, see [Record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/form-screen.md).
+ For more information, see [Record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/form-screen.md).
 
 </td><td>
 
@@ -80,7 +80,7 @@ Map screen
 -   \(Optional\) The activity stream screen shows the activity stream details for a selected record.
 -   \(Optional\) The related lists screen shows the related lists for a selected record.
 
- For more information, see [Map screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/map-screen.md).
+ For more information, see [Map screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/map-screen.md).
 
 </td><td>
 
@@ -92,7 +92,7 @@ Calendar screen
 
  Use a calendar screen to display records associated with date fields. Users can tap a date on the calendar portion of the screen to see records associated with a specific date, in the event stream displayed in the lower portion of the screen. The record screen shows additional information that you define when a user taps a record.
 
- For more information, see [Calendar screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/calendar-screen.md).
+ For more information, see [Calendar screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/calendar-screen.md).
 
 </td><td>
 
@@ -106,7 +106,7 @@ Mobile web screen
 
  Relative URLs that direct your users to open pages within your instance are opened inside the mobile app. URLs that open external links will open the link in the default browser of the user's mobile device.
 
- For more information, see [Mobile web screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/url-screen.md).
+ For more information, see [Mobile web screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/url-screen.md).
 
 </td><td>
 
@@ -121,7 +121,7 @@ Chart screen
  -   The chart screen can display time series and single score reports that are used in the web-based UI.
 -   The chart screen can display score type reporting charts that are configured to use the **Latest score** visualization.
 
- For more information, see [Chart screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/chart-screen.md).
+ For more information, see [Chart screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/chart-screen.md).
 
 </td><td>
 
@@ -135,7 +135,7 @@ Input form screen
 
  Input form screens are screens that you use to execute an action or a function. They are not the first screen a user interacts with in a workflow.
 
- For more information, see [Input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-input-screen.md).
+ For more information, see [Input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/parameter-input-screen.md).
 
 </td><td>
 

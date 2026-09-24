@@ -3,9 +3,9 @@ title: Create a user
 description: Create a user account that can access the Discovery Console for OT.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/create-user-ot-console.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Users page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -35,5 +35,5 @@ Role required: user
     |Roles|Roles that the user account needs. If needed, you can select more than one role.|
 
 
-**Parent Topic:**[Users page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/users-page.md)
+**Parent Topic:**[Users page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/users-page.md)
 

@@ -3,11 +3,11 @@ title: Scheduled Script Execution form
 description: Scheduled Jobs are automated pieces of work that can be performed at a specific time or on a recurring schedule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/goal-framework/scheduled-script-execution-form-gf.html
-release: australia
+release: brazil
 product: Goal Framework
 classification: goal-framework
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
@@ -86,7 +86,7 @@ Migrate goal relationships for assigned entities
 
 </td><td>
 
-\(For Strategic Planning users\) Populates the fields, **Assigned entity type** and **Assigned entity** on the [Goal form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/goal-form-egm.md) based on the data in the Goal Relationship \[sn\_gf\_goal\_m2m\_relationship\] table if you've created an m2m relationship with lens entities other than **Company**, **Business Unit**, **Department**, and **Portfolio**.If users had already created m2m relationship, they may use this script to move those relationships from the m2m table to the goals table to access and manage those goals in the respective portfolio plans.
+\(For Strategic Planning users\) Populates the fields, **Assigned entity type** and **Assigned entity** on the [Goal form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/goal-form-egm.md) based on the data in the Goal Relationship \[sn\_gf\_goal\_m2m\_relationship\] table if you've created an m2m relationship with lens entities other than **Company**, **Business Unit**, **Department**, and **Portfolio**.If users had already created m2m relationship, they may use this script to move those relationships from the m2m table to the goals table to access and manage those goals in the respective portfolio plans.
 
  If the goal has only one relationship with an assign entity table type, the **Assign entity type** and **Assign entity** fields are populated on the Goal \[sn\_gf\_goal\] table based on the Goal Relationship \[sn\_gf\_goal\_m2m\_relationship\] table.
 

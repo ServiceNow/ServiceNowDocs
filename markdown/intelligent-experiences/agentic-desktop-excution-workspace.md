@@ -3,11 +3,11 @@ title: AI Desktop Actions Execution workspace
 description: Execution workspace enables you to test, run, and monitor your desktop actions. It enables you to observe how your automations interact with desktop applications, including handling situations where human input is needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/agentic-desktop-excution-workspace.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2025-11-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Defined desktop actions for desktop, Explore, AI Desktop Actions, Enable AI experiences]
+breadcrumb: [Defined desktop actions for desktop, Explore, AI Desktop Actions, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # AI Desktop Actions Execution workspace
@@ -122,7 +122,7 @@ Automation execution is canceled. The user canceled the execution manually.
 </table>**Related topics**  
 
 
-[Example: Use AI agents to process badge-related requests automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/example-use-badging-ai-agent-ad.md)
+[Example: Use AI agents to process badge-related requests automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/example-use-badging-ai-agent-ad.md)
 
-[Example: Use AI agents to automatically enter data into the shipping management app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/example-use-shipping-ai-agent-ad.md)
+[Example: Use AI agents to automatically enter data into the shipping management app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/example-use-shipping-ai-agent-ad.md)
 

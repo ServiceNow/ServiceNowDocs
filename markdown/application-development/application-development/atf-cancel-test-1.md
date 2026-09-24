@@ -2,9 +2,9 @@
 title: Cancel running automated test
 description: You can cancel a running test from the Run Test progress dialog.
 locale: en-US
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 ---
 
@@ -20,7 +20,7 @@ Role required: atf\_test\_admin or atf\_test\_designer
 
 ## Procedure
 
-1.  If necessary, [display the Run Test progress dialog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-view-progress.md).
+1.  If necessary, [display the Run Test progress dialog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-view-progress.md).
 
 2.  Click **Cancel Pending Steps**.
 

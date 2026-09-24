@@ -3,9 +3,9 @@ title: Robotic Process Automation \(RPA\) Hub glossary
 description: Learn about the terms and concepts that are unique to Robotic Process Automation \(RPA\) Hub.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/rpa-hub-glossary.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms]
 breadcrumb: [Reference, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
@@ -15,7 +15,7 @@ breadcrumb: [Reference, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflo
 
 Learn about the terms and concepts that are unique to Robotic Process Automation \(RPA\) Hub.
 
-**Parent Topic:**[RPA Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-hub-reference.md)
+**Parent Topic:**[RPA Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/rpa-hub-reference.md)
 
 ## A
 
@@ -87,7 +87,7 @@ Glossary terms are grouped alphabetically.
 
 ### execution logs
 
-Logs that are captured when an automation is executed by either an attended or an unattended robot. These logs help in understanding the errors and the end-to-end logging of automation execution. For more information, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/select-botprocess.md).
+Logs that are captured when an automation is executed by either an attended or an unattended robot. These logs help in understanding the errors and the end-to-end logging of automation execution. For more information, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/select-botprocess.md).
 
 ## G
 

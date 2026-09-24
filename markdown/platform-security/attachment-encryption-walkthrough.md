@@ -3,9 +3,9 @@ title: Attachment encryption walkthrough
 description: This walkthrough shows you how to encrypt an attachment in your instance using Field Encryption Enterprise with the Key Management Framework \(KMF\). It also shows you how to use your own key.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/attachment-encryption-walkthrough.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Column Level Encryption Enterprise examples, Using Column Level Encryption, Column Level Encryption, Encryption]
 ---
@@ -16,7 +16,7 @@ This walkthrough shows you how to encrypt an attachment in your instance using F
 
 ## Before you begin
 
-**Note:** This procedure only applies to Field Encryption Enterprise functionality. See [Activate Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/activate-platform-encryption.md) for more information on obtaining Field Encryption Enterprise.
+**Note:** This procedure only applies to Field Encryption Enterprise functionality. See [Activate Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/activate-platform-encryption.md) for more information on obtaining Field Encryption Enterprise.
 
 Role required: sn\_kmf.cryptographic\_manager
 
@@ -36,7 +36,7 @@ We show you how to encrypt attachments to only be visible to users who are grant
 
 2.  Create a cryptographic module.
 
-    See [Create cryptographic module for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-PE-cryptographic-module.md) for more information.
+    See [Create cryptographic module for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/create-PE-cryptographic-module.md) for more information.
 
 3.  Navigate to **All** &gt; **System Security** &gt; **Field Encryption** &gt; **Field Encryption Experience**.
 
@@ -133,9 +133,11 @@ Method
 The **Single Module** option is used to apply the policies for one module. **Multiple Modules** is used to apply the policies across multiple modules.
 
 </td></tr></tbody>
-</table>7.  Select **Save**.
+</table>    \[Omitted image "image.fe-efc-table"\] Alt text: Encrypted Field Configuration table
 
-    Establish a Module Access Policy \(MAP\) to assign access to the cryptographic module. Refer to [Create a module access policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/create-module-access-policy.md) for additional information.
+7.  Select **Save**.
+
+    Establish a Module Access Policy \(MAP\) to assign access to the cryptographic module. Refer to [Create a module access policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platform-encryption/create-module-access-policy.md) for additional information.
 
 8.  Navigate to **All** &gt; **System Security** &gt; **Field Encryption** &gt; **Field Encryption Experience** &gt; **Configurations** &gt; **Access Policies**.
 
@@ -164,6 +166,8 @@ The **Single Module** option is used to apply the policies for one module. **Mul
 
     Once the attachment is uploaded, it will be available from the Activities screen.
 
+    \[Omitted image "image.fe-attachment-available-per-role"\] Alt text: Attachment available per role
+
 14. Log in as a user that doesn't have access to the module.
 
 15. Open the incident and scroll to the **Activities:** section.
@@ -175,5 +179,5 @@ The **Single Module** option is used to apply the policies for one module. **Mul
 
 You have successfully used your customer-supplied key to control access to a specific attachment using Field Encryption Enterprise.
 
-**Parent Topic:**[Column Level Encryption Enterprise examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/kmf-walkthroughs-tutorials-2.md)
+**Parent Topic:**[Column Level Encryption Enterprise examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/kmf-walkthroughs-tutorials-2.md)
 

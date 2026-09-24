@@ -3,11 +3,11 @@ title: Calibrate fingerprint-based discovery
 description: Fine-tune discovering applications based on processes, if the discovery results are not satisfactory.Fingerprint-based discovery relies on Predictive Intelligence for generating suggestions for discovery. If the Application Fingerprints dashboard does not display any suggestions, verify that the Predictive Intelligence is configured correctly.Adjust definitions of process-based suggestions before starting discovery. Typically, you need to fine-tune automatically generated suggestions if the accuracy is less than 100%. Predictive Intelligence creates suggestions and provides the accuracy estimate for each suggestion. The lack of accuracy may result in the failure to discover required applications or the discovery of wrong applications in addition to the correctly discovered applications.Fine-tune the regular expression in the classifier rule to make discovery results more precise. Predictive Intelligence extracts regular expressions from processes and assigns them to classifier rules as part of creating suggestions. If you're not satisfied with the discovery results or the suggestion accuracy is lower than 100%, modify the regular expression.By default, the fingerprint-based discovery is enabled. Disable application discovery based on processes, if Predictive Intelligence does not generate enough processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/calibrate-process-based-discovery.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Discover applications based on fingerprints, Running discoveries in your network, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -82,7 +82,7 @@ If the **Application Fingerprints** dashboard does not display any suggestions, 
 
         \[Omitted image "pi-clustering-solution.png"\] Alt text: Verify that the clustering solution is active.
 
-    5.  If the State value is not Solution Complete, configure Predictive Intelligence as described in [Configuration tips for Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/troubleshooting-predictive-intelligence.md).
+    5.  If the State value is not Solution Complete, configure Predictive Intelligence as described in [Configuration tips for Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/troubleshooting-predictive-intelligence.md).
 
 4.  Check that the clustering solution created enough process groups, which become suggestions.
 
@@ -92,9 +92,9 @@ If the **Application Fingerprints** dashboard does not display any suggestions, 
 
     3.  If there are less than 1000 processes, discover more processes by running horizontal discovery on additional IP ranges or subnets.
 
-    4.  If there are still less than 1000 processes after discovering additional IP ranges or subnets, [disable the fingerprint-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/calibrate-process-based-discovery.md).
+    4.  If there are still less than 1000 processes after discovering additional IP ranges or subnets, [disable the fingerprint-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/calibrate-process-based-discovery.md).
 
-5.  Check that the **Application suggestion - ITOM Autodisco** transaction is not slow-loading, as described in [View and kill active transaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ViewAndKillAnActiveTransaction.md).
+5.  Check that the **Application suggestion - ITOM Autodisco** transaction is not slow-loading, as described in [View and kill active transaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ViewAndKillAnActiveTransaction.md).
 
     If this transaction is running for a long time, kill it.
 
@@ -138,7 +138,7 @@ Role required: discovery\_admin
 
 8.  Click **Update**.
 
-9.  If you are not sure how to change the classifier rule, fine-tune it after performing the initial discovery as described in [Adjust regular expression used for fingerprint-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/calibrate-process-based-discovery.md).
+9.  If you are not sure how to change the classifier rule, fine-tune it after performing the initial discovery as described in [Adjust regular expression used for fingerprint-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/calibrate-process-based-discovery.md).
 
 
 ## Adjust the regular expression for fingerprint discovery
@@ -206,7 +206,7 @@ Role required: discovery\_admin
 
 ### Procedure
 
-1.  Add the system property **sys\_property process.clustering.appfingerprint.enabled** as described in [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+1.  Add the system property **sys\_property process.clustering.appfingerprint.enabled** as described in [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 2.  To disable, enter `false` in the **Value** field.
 

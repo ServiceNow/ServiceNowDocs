@@ -3,11 +3,11 @@ title: Generate regulatory action plans
 description: Generate regulatory action plans by using the generate regulatory action plan agentic workflow in the ServiceNow Otto panel. This agentic workflow analyzes impacted areas and similar historical alerts to create change tasks and action tasks that help implement regulatory change.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/generate\_regulatory\_action\_plans.html
-release: australia
+release: brazil
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Now Assist, generative AI]
 breadcrumb: [Generate regulatory action plan workflow, AI in Regulatory Change Management, Regulatory Change Management, Governance, Risk, and Compliance]
@@ -19,13 +19,13 @@ Generate regulatory action plans by using the generate regulatory action plan ag
 
 ## Before you begin
 
-**Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: sn\_grc\_comp\_genai.reg\_change\_ai\_agent\_user
 
-Impacted areas must be associated with the regulatory alert. If no impacted areas are associated with the alert, the workflow returns a validation message and no tasks are created. For more information on adding impacted areas, see [Add impacted areas manually to a regulatory alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/add-impacted-area-reg-alert.md).
+Impacted areas must be associated with the regulatory alert. If no impacted areas are associated with the alert, the workflow returns a validation message and no tasks are created. For more information on adding impacted areas, see [Add impacted areas manually to a regulatory alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/add-impacted-area-reg-alert.md).
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 ## About this task
 
@@ -33,7 +33,7 @@ The generate regulatory action plan agentic workflow helps regulatory change man
 
 **Note:**
 
-When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly. To modify this workflow, duplicate it and adjust the settings according to your requirements. You can activate the workflow template by making the triggers active and setting the display settings to include the ServiceNow Otto panel. For more information, see [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md).
+When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly. To modify this workflow, duplicate it and adjust the settings according to your requirements. You can activate the workflow template by making the triggers active and setting the display settings to include the ServiceNow Otto panel. For more information, see [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-aia-usecase.md).
 
 ## Procedure
 
@@ -53,15 +53,15 @@ When you modify an agentic workflow, AI agent, or tool, make sure that you updat
 
 4.  Review the proposed action plan and choose whether to accept or dismiss it.
 
-<table id="choicetable_action_plan_options"><thead><tr><th align="left" id="d260752e237">
+<table id="choicetable_action_plan_options"><thead><tr><th align="left" id="d264413e237">
 
 Option
 
-</th><th align="left" id="d260752e240">
+</th><th align="left" id="d264413e240">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d260752e246">
+</th></tr></thead><tbody><tr><td id="d264413e246">
 
 **Accept action plan**
 
@@ -79,7 +79,7 @@ After initiating the generate regulatory action plan agentic workflow, it create
 -   The "other" type is used to capture non-standard or cross-functional activities that don’t directly map to impacted areas such as citations, control objectives, controls, or policies. These tasks are typically broader in scope and can apply to the entire regulatory alert rather than specific impacted elements.
 
 
-</td></tr><tr><td id="d260752e296">
+</td></tr><tr><td id="d264413e296">
 
 **Dismiss action plan**
 
@@ -105,16 +105,16 @@ In the ServiceNow Otto panel, ask the agent to dismiss the regulatory change and
 
 Navigate to the **Regulatory tasks** tab to review, assign, or delete the generated tasks. You can manage all tasks created by the workflow from this tab. Only change and action tasks in the New state can be deleted manually from a regulatory alert. You can assign tasks to users and update task details for tasks in the New and In Progress state.
 
-For more information on tasks, see [Regulatory change tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/regulatory-change-tasks.md) and [Action tasks in Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/action-tasks.md).
+For more information on tasks, see [Regulatory change tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/regulatory-change-tasks.md) and [Action tasks in Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/action-tasks.md).
 
 **Related topics**  
 
 
-[Using agentic workflows in IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/using-agentic-ai-workflows.md)
+[Using agentic workflows in IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/using-agentic-ai-workflows.md)
 
-[Activate the Generate regulatory action plan agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/activate-rcm-agent-actions-workflow.md)
+[Activate the Generate regulatory action plan agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/activate-rcm-agent-actions-workflow.md)
 
-[Add impacted areas manually to a regulatory alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/add-impacted-area-reg-alert.md)
+[Add impacted areas manually to a regulatory alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/add-impacted-area-reg-alert.md)
 
-[Accept or dismiss recommendations for regulatory alert impacted citations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/manage-recommendation-reg-alert.md)
+[Accept or dismiss recommendations for regulatory alert impacted citations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/manage-recommendation-reg-alert.md)
 

@@ -3,13 +3,13 @@ title: Set lane limits on a Visual Task Board
 description: You can set a limit to the number of cards added to a lane on a Visual Task Board. If the limit is not set, any number of cards can be added to a lane by default.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/configure-wip-lane-limit.html
-release: australia
+release: brazil
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customizing and configuring Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Customizing and configuring Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Set lane limits on a Visual Task Board
@@ -43,5 +43,5 @@ The number appears on the lane header. \[Omitted image "lanelimitnotexceeded.png
 
 If a card is moved to a lane with exceeded WIP lane limit, an error message appears at the top of the page. The member who moves a card to the lane with exceeded limit can view the error message.
 
-**Parent Topic:**[Customizing and configuring Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/configuring-vis-task-boards.md)
+**Parent Topic:**[Customizing and configuring Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/visual-task-boards/configuring-vis-task-boards.md)
 

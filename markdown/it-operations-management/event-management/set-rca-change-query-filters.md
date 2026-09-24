@@ -3,11 +3,11 @@ title: Customize RCA settings
 description: Modify default settings that determine RCA behavior.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/set-rca-change-query-filters.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Probable Root Cause Analysis \(RCA\), Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -307,5 +307,5 @@ False
 3.  Click **Submit**.
 
 
-**Parent Topic:**[Probable Root Cause Analysis \(RCA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/probable-rca.md)
+**Parent Topic:**[Probable Root Cause Analysis \(RCA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/probable-rca.md)
 

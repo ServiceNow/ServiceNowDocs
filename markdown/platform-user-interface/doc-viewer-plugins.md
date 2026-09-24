@@ -3,9 +3,9 @@ title: Document Viewer plugins
 description: With Document Viewer, you can view documents directly in the ServiceNow Platform rather than having to download them. Two new plugins enhance the experience and provide more options for document viewing. You can collaborate with other people, copy, delete, restore, and view version history directly in a ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/doc-viewer-plugins.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Document Viewer, Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -36,7 +36,7 @@ To use this feature, install the following plugins:
 
 ​
 
-See [List of plugins \(Rome\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md) for a complete list of ServiceNow plugins.
+See [List of plugins \(Rome\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-of-plugins.md) for a complete list of ServiceNow plugins.
 
 After installation, you can use the base system subflows or customize them.​ Configure the subflows in the Document actions table.​ Once configured, they can be invoked as UI actions from List views or can be invoked through Script Include APIs.​
 
@@ -46,7 +46,7 @@ After installation, you can use the base system subflows or customize them.​ C
 
 -   **Microsoft Azure AD __Spoke for IntegrationHub__**
 
-    The [Microsoft Azure AD Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/microsoft-azure-ad-spoke.md) for Integration Hub provides actions that a Process Analyst can use when designing flows. The actions allow them to automate the management of users, security groups, and office groups. User management includes applying licenses that result in user provisioning into Office 365.
+    The [Microsoft Azure AD Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/microsoft-azure-ad-spoke.md) for Integration Hub provides actions that a Process Analyst can use when designing flows. The actions allow them to automate the management of users, security groups, and office groups. User management includes applying licenses that result in user provisioning into Office 365.
 
 -   **Multi Provider Document Service Framework plugin \(glide plugin\)**
 
@@ -125,10 +125,10 @@ After installation, you can use the base system subflows or customize them.​ C
 -   Provider\_detail​
 -   user
 
-**Parent Topic:**[Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/Documentviewer.md)
+**Parent Topic:**[Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/Documentviewer.md)
 
 **Related topics**  
 
 
-[Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/Documentviewer.md)
+[Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/Documentviewer.md)
 

@@ -3,11 +3,11 @@ title: Require authorization for WSDL request
 description: Use the glide.basicauth.required.wsdl property to designate if incoming WSDL \(Web Services Description Language\) requests should require basic authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-wsdl-request-authorization.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [API and web service, Hardening settings, Platform Security]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [API and web service, Hardening settings, Platform Security]
 
 Use the **glide.basicauth.required.wsdl** property to designate if incoming WSDL \(Web Services Description Language\) requests should require basic authentication.
 
-If **glide.basicauth.required.wsdl** system property is not set to the recommended value of **true**, then Basic Authentication for WSDL requests are disabled. WSDL is a protocol that is used to describe web services such as instance table schemas, and is not a mechanism for sharing the data within tables. Setting this property to **true** allows for disclosure of table schemas to unauthenticated users.
+If **glide.basicauth.required.wsdl** system property is not set to the recommended value of **true**, then Basic Authentication for WSDL requests are turned off. WSDL is a protocol that is used to describe web services such as instance table schemas, and is not a mechanism for sharing the data within tables. Setting this property to **true** allows for disclosure of table schemas to unauthenticated users.
 
 Ensure the property **glide.basicauth.required.wsdl** exists in the System Properties \[sys\_properties\] table and is set to **true**.
 
@@ -72,7 +72,7 @@ Default value
 
 </td><td>
 
-&lt;none&gt;
+true
 
 </td></tr><tr><td>
 
@@ -88,7 +88,7 @@ Category
 
 </td><td>
 
-[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
+[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
 
 </td></tr><tr><td>
 
@@ -118,5 +118,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
+</table>**Parent Topic:**[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
 

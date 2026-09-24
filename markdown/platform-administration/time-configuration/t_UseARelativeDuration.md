@@ -3,11 +3,11 @@ title: Use a relative duration
 description: When you define an SLA, you can set the Duration type to be a relative duration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/t\_UseARelativeDuration.html
-release: australia
+release: brazil
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -41,5 +41,5 @@ This example demonstrates how a relative duration of End of next business day wo
     **Note:** Pause conditions are not compatible with Relative Durations.
 
 
-**Parent Topic:**[Using time configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/using-time-configuration.md)
+**Parent Topic:**[Using time configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/using-time-configuration.md)
 

@@ -3,13 +3,13 @@ title: Configure crawl settings for a WordPress external content connector
 description: Specify the pages and blog posts you want your WordPress external content connector to crawl. Define inclusion or exclusion filters to dictate the types of content the crawl retrieves and feeds to AI Search for indexing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-crawl-settings-wordpress-external-content-connector.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-05-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [WordPress external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -19,7 +19,7 @@ Specify the pages and blog posts you want your WordPress external content connec
 
 ## Before you begin
 
-A connector administrator must have already created the WordPress external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a WordPress external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-wordpress.md).
+A connector administrator must have already created the WordPress external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a WordPress external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-ext-cont-connector-wordpress.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 
@@ -79,7 +79,7 @@ If one of your connectors reaches the content indexing limit, you can update its
 
         As an example, you might enter `Company news`, `Tech blog`, and `Press events` to only retrieve searchable content from blog posts that belong to the specified categories.
 
-    -   To retrieve blog posts belonging to all but a specified set of categories from the source system, select **Exclude only these blog posts**, then use the **Categories to exclude** field and **Add** button to enter URLs for categories you want the connector to exclude when crawling blog posts.
+    -   To retrieve blog posts belonging to all but a specified set of categories from the source system, select **Exclude only these categories**, then use the **Categories to exclude** field and **Add** button to enter URLs for categories you want the connector to exclude when crawling blog posts.
 
         As an example, you might enter `Testing` to exclude searchable content from blog posts that belong to the specified category.
 
@@ -94,11 +94,11 @@ If one of your connectors reaches the content indexing limit, you can update its
     -   To retrieve pages and blog posts with all states from the source system, select **Crawl all states**.
     -   To retrieve only pages and blog posts with a specified set of states from the source system, select **Include only these states**, then use the **States to include** field and **Add** button to enter states you want the connector to include when crawling.
 
-        As an example, you might enter `publish` to only retrieve pages and blog that have this state.
+        As an example, you might enter `publish` to only retrieve pages and blog posts that have this state.
 
     -   To retrieve pages and blog posts with all but a specified set of states from the source system, select **Exclude only these states**, then use the **States to exclude** field and **Add** button to enter states you want the connector to exclude when crawling.
 
-        As an example, you might enter `private`, `future`, `pending`, and `draft` to exclude pages and blog that have any of the specified states.
+        As an example, you might enter `private`, `future`, `pending`, and `draft` to exclude pages and blog posts that have any of the specified states.
 
 9.  Select one of the following **Attachments** options:
 
@@ -111,7 +111,7 @@ If one of your connectors reaches the content indexing limit, you can update its
 
         As an example, you might enter `.csv` to exclude attachments with the Comma-Separated Values \(CSV\) file format.
 
-    For details on the supported attachment file extensions, see [Binary file extensions supported in External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/file-extensions-ext-cont-connector.md).
+    For details on the supported attachment file extensions, see [Binary file extensions supported in External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/file-extensions-ext-cont-connector.md).
 
 10. If you want AI Search to automatically generate captions for content in attachments and files retrieved by the connector, select the **Multimodal captions** option.
 
@@ -119,8 +119,8 @@ If one of your connectors reaches the content indexing limit, you can update its
 
     This option is only available when the Platform Multimodal Service plugin is activated on your instance.
 
-    -   For details on activating the plugin, see [Activate the Platform Multimodal Service plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/activate-platform-multimodal-service-plugin.md).
-    -   To learn how to select the VLM \(visual learning model\) provider and model used for the Platform Multimodal Service, see [Configure multimodal captioning for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.md).
+    -   For details on activating the plugin, see [Activate the Platform Multimodal Service plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/activate-platform-multimodal-service-plugin.md).
+    -   To learn how to select the VLM \(visual learning model\) provider and model used for the Platform Multimodal Service, see [Configure multimodal captioning for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.md).
 11. Select **Save and validate**.
 
 
@@ -130,7 +130,7 @@ The WordPress external content connector is updated with your modified crawl set
 
 ## What to do next
 
-To retrieve content from your WordPress source system using your modified crawl settings, create and run a one-time content crawl for your WordPress external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-content-crawl-external-content-connector.md).
+To retrieve content from your WordPress source system using your modified crawl settings, create and run a one-time content crawl for your WordPress external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-content-crawl-external-content-connector.md).
 
-**Parent Topic:**[WordPress external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/wordpress-external-content-connector.md)
+**Parent Topic:**[WordPress external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/wordpress-external-content-connector.md)
 

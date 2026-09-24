@@ -3,11 +3,11 @@ title: Get Catalog Variables action
 description: Select variables from multiple template catalog items and variable sets using the Get Catalog Variables action.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/get-cat-variables-flow-designer.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Actions, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -42,7 +42,7 @@ Provide a value for each input that your flow needs. To add dynamic values, you 
 
     Data type: **Slush Bucket**
 
-    The list of catalog variables whose values you want to get from the requested item record. Each catalog variable that you select is displayed as a data pill in the data pane. You can define flow-specific variables that are displayed in the Available list. To define flow-specific variables, see [Create flow Service Catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow-catalog-variables.md).
+    The list of catalog variables whose values you want to get from the requested item record. Each catalog variable that you select is displayed as a data pill in the data pane. You can define flow-specific variables that are displayed in the Available list. To define flow-specific variables, see [Create flow Service Catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-flow-catalog-variables.md).
 
 
 ## Outputs
@@ -53,7 +53,7 @@ These outputs appear in the Data panel. You can use them as inputs elsewhere in 
 
     Data type: **Varies by catalog variable type**
 
-    The data pane displays a separate data pill for each catalog variable selected from the Catalog Variables input. For a list of supported Service Catalog types, see [Supported Service Catalog variable types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/supported-service-catalog-types.md).
+    The data pane displays a separate data pill for each catalog variable selected from the Catalog Variables input. For a list of supported Service Catalog types, see [Supported Service Catalog variable types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/supported-service-catalog-types.md).
 
 
 ## Get catalog variables for hardware items
@@ -66,5 +66,5 @@ In this example, a flow runs when someone requests an item from the Service Cata
 
 The flow execution details show that the Submitted Request links to a request for a standard laptop. Of the three catalog variables, the string variable is empty and the two Boolean variables are false.
 
-**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-actions.md)
 

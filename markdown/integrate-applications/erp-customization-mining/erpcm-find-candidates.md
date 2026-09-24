@@ -3,13 +3,13 @@ title: Save potential candidates to replatform
 description: Use ERP Semantic Mining to save ERP \(Enterprise Resource Planning\) app candidates to replatform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-customization-mining/erpcm-find-candidates.html
-release: australia
+release: brazil
 product: ERP Customization Mining
 classification: erp-customization-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use, ERP Semantic Mining overview, Workflow Data Fabric]
+breadcrumb: [Use, ERP Semantic Mining overview, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Save potential candidates to replatform
@@ -20,13 +20,13 @@ Use ERP Semantic Mining to save ERP \(Enterprise Resource Planning\) app candida
 
 **Important:** Starting with the Zurich release, ERP Semantic Mining is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
-Admins must first configure the connection to the ERP system in Zero Copy Connector for ERP. For more information, see [Working with ERP systems in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-work-with-systems.md).
+Admins must first configure the connection to the ERP system in Zero Copy Connector for ERP. For more information, see [Working with ERP systems in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-work-with-systems.md).
 
 Role required: sn\_erp\_mining.erp\_user
 
 ## About this task
 
-Candidates are custom applications in your ERP system. ERP Semantic Mining scans your system of record to build a profile based on application logs and database activity logs. ERP Semantic Mining also scans for custom applications based on customized namespaces and other criteria. Replatformed apps use the ERP system as the live data source.
+Candidates are custom applications in your ERP system. ERP Semantic Mining scans your system of record to build a profile based on application logs and database activity logs. ERP Semantic Mining also scans for custom applications based on customized namespaces and other criteria. Replatformed apps use the ERP system of record as the live data source.
 
 **Note:**
 
@@ -42,7 +42,7 @@ If you delete a candidate from ERP Semantic Mining, the candidate automatically 
 
 3.  Select the candidate that you want to save as potential.
 
-    Alternatively, you can select a candidate directly on the ERP Semantic Mining home page. For more information, see [Browse an overview of candidates in ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erpcm-view-home-page-overview.md).
+    Alternatively, you can select a candidate directly on the ERP Semantic Mining home page. For more information, see [Browse an overview of candidates in ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-customization-mining/erpcm-view-home-page-overview.md).
 
 4.  Select the **Select as potential candidate** button.
 
@@ -55,9 +55,9 @@ Selecting a candidate as a potential candidate changes the candidate status from
 
 ## What to do next
 
-After you identify candidates, use Zero Copy Connector for ERP to view custom fields in remote and extraction tables, and add them to your ERP model. For more information, see [Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md).
+After you identify candidates, use Zero Copy Connector for ERP to view custom fields in remote and extraction tables, and add them to your ERP model. For more information, see [Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md).
 
-ERP Semantic Mining also recommends possible next steps for each candidate. For more information, see [Check candidate recommendations in ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erpcm-work-with-recommendations.md).
+ERP Semantic Mining also recommends possible next steps for each candidate. For more information, see [Check candidate recommendations in ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-customization-mining/erpcm-work-with-recommendations.md).
 
-**Parent Topic:**[Finding and working with candidates to replatform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/work-with-candidates.md)
+**Parent Topic:**[Finding and working with candidates to replatform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-customization-mining/work-with-candidates.md)
 

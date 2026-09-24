@@ -3,10 +3,10 @@ title: Portal Banner widget instance options form
 description: Instance options enable you to configure the Portal Banner widget on a portal page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/banner-widget-inst-options.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Configurable Portal widgets instance options, Configurable Portal Widgets reference, Reference, Customer Service Management]
 ---
 
@@ -40,7 +40,7 @@ Description
 
 </td><td>
 
-Required subtitle that appears below the heading. The default description is `This is home page description`.
+Required subtitle that appears under the heading. The default description is `This is home page description`.
 
 </td></tr><tr><td>
 
@@ -48,7 +48,7 @@ Background Image
 
 </td><td>
 
-Image to appear as the background on the banner. **Note:** You can select images from the Images \[db\_image\] table or upload a new image to it. For more information, see [Storing images in the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_StoringImagesInTheDatabase.md).
+Image to appear as the background on the banner. **Note:** You can select images from the Images \[db\_image\] table or upload a new image to it. For more information, see [Storing images in the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_StoringImagesInTheDatabase.md).
 
 </td></tr><tr><td>
 
@@ -87,7 +87,7 @@ Show Search bar
 
 </td><td>
 
-Option to display the search bar on the Portal Banner widget to search content.**Note:** You can enable the AI search for a banner widget to get quick results. For more information, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/enable-ais-sp.md).
+Option to display the search bar on the Portal Banner widget to search content.**Note:** You can enable the AI search for a banner widget to get quick results. For more information, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/enable-ais-sp.md).
 
 </td></tr><tr><td>
 
@@ -184,7 +184,7 @@ Buttons Condition Script
 
 </td><td>
 
-Script to show or hide the primary or secondary button.You can use the scripted extension point to implement the condition script. By default, the new script displays both buttons and doesn’t include any condition. For more information, see [Provide web page link buttons to display on the Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-scripted-extension-banner.md).
+Script to show or hide the primary or secondary button.You can use the scripted extension point to implement the condition script. By default, the new script displays both buttons and doesn’t include any condition. For more information, see [Provide web page link buttons to display on the Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-scripted-extension-banner.md).
 
 </td></tr><tr><td>
 
@@ -200,11 +200,17 @@ Widget Option Schema
 
 </td><td>
 
-Defines the parameters of the widget that you want to add.For more information, see [Add a widget in the Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-banner-option-schema.md).
+Defines the parameters of the widget that you want to add.For more information, see [Add a widget in the Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-banner-option-schema.md).
 
 </td></tr></tbody>
 </table>**Related topics**  
 
 
-[Add and configure the Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-banner-widget-inst-opt.md)
+[Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-banner-widget.md)
+
+[Add and configure the Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-banner-widget-inst-opt.md)
+
+[Provide web page link buttons to display on the Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-scripted-extension-banner.md)
+
+[Add a widget in the Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-banner-option-schema.md)
 

@@ -3,11 +3,11 @@ title: Summarize a service problem case using ServiceNow Otto for Telecommunicat
 description: Generate a summary from the fields that you selected on the service problem case record. Quickly understand the case context by using the service problem case summarization skill in the ServiceNow Otto for TMT application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-summarize-case.html
-release: australia
+release: brazil
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use generative AI skills, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -27,9 +27,9 @@ The service problem case summarization skill provides you with a concise summary
 -   Generate an initial summary of a service problem case so that you can understand the service problem case context.
 -   Summarize all the work that has been done on a service problem case.
 
-The service problem case summarization skill is available in CSM/FSM Configurable Workspace and in Core UI.
+The service problem case summarization skill is available in CRM Workspace and in Core UI.
 
--   In CSM/FSM Configurable Workspace, you use the Service Problem Case summary by ServiceNow Otto component to generate a summary. This component appears below the Case highlights card.
+-   In CRM Workspace, you use the Service Problem Case summary by ServiceNow Otto component to generate a summary. This component appears below the Case highlights card.
 -   In Core UI, you select the **Summarize** button on the service problem case record to generate a summary.
 
 The service problem case summarization skill checks the service problem case record to determine if there is enough information available to create a summary:
@@ -43,7 +43,7 @@ If there is enough data, the Service Problem Case summary component displays the
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Service Problem Case**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **Service Problem Case**.
 
 2.  Open a service problem case.
 
@@ -55,15 +55,15 @@ If there is enough data, the Service Problem Case summary component displays the
 
 4.  After you're finished summarizing a service problem case, manage the results.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d39892e168">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d40053e168">
 
 Option
 
-</th><th align="left" id="d39892e171">
+</th><th align="left" id="d40053e171">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d39892e177">
+</th></tr></thead><tbody><tr><td id="d40053e177">
 
 **View more or less summary details**
 
@@ -73,7 +73,7 @@ Procedure
 -   To see fewer summary details, select the View less icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\).
 
 
-</td></tr><tr><td id="d39892e207">
+</td></tr><tr><td id="d40053e207">
 
 **Provide feedback for the summary**
 
@@ -83,7 +83,7 @@ Procedure
 -   If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).
  This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d39892e240">
+</td></tr><tr><td id="d40053e240">
 
 **Copy the case summary**
 
@@ -91,7 +91,7 @@ Procedure
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the service problem case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d39892e255">
+</td></tr><tr><td id="d40053e255">
 
 **View the information about the case summary**
 
@@ -101,5 +101,5 @@ To check some details about the summary, select the more info icon \(\[Omitted i
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 

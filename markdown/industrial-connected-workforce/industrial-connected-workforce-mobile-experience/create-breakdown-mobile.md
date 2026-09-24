@@ -3,11 +3,11 @@ title: Create a breakdown in the Industrial Connected Workforce Mobile Experienc
 description: Create a breakdown when the impact of the anomaly increases. For example, when the duration of production impairment increases as the problem remains unresolved.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/create-breakdown-mobile.html
-release: australia
+release: brazil
 product: Industrial Connected Workforce Mobile Experience
 classification: industrial-connected-workforce-mobile-experience
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Industrial Connected Workforce Mobile Experience, Industrial Connected Workforce]
 ---
@@ -30,13 +30,13 @@ Role required: sn\_icw.deviation\_user or sn\_icw.deviation\_expert
 
 3.  On the Breakdown form, fill in the fields.
 
-    For a description of the field values, see [Deviation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/deviation-form-mobile.md).
+    For a description of the field values, see [Deviation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/deviation-form-mobile.md).
 
 4.  Select **Next**.
 
 5.  On the Deviation form, fill in the fields.
 
-    For a description of the field values, see [Deviation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/deviation-form-mobile.md).
+    For a description of the field values, see [Deviation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/deviation-form-mobile.md).
 
 6.  Select **Next**.
 
@@ -55,5 +55,5 @@ Role required: sn\_icw.deviation\_user or sn\_icw.deviation\_expert
 
 The breakdown is created and displayed in the list of industrial tasks. You can choose to initiate a breakdown analysis from the newly created breakdown.
 
-**Parent Topic:**[Using the Industrial Connected Workforce Mobile Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/using-icw-mobile-experience.md)
+**Parent Topic:**[Using the Industrial Connected Workforce Mobile Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/using-icw-mobile-experience.md)
 

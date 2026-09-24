@@ -3,9 +3,9 @@ title: Create a manual adjustment for a forecast
 description: Adjust forecasts manually to fine-tune them for greater accuracy. Create the adjustment for a specified time period and analyze how it impacts your forecast.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-manual-adjustment-forecast-configurable-wfo.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Setting up Demand Forecast, Optimize workforce operations, Extend capabilities, Configure, Customer Service Management]
 ---
@@ -28,17 +28,17 @@ Managers can make manual adjustments to the forecasts for 15-, 30-, and 60-minut
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Select the Schedule \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon.\) icon.
+2.  Click the Schedule \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon.\) icon.
 
-3.  Select **Forecasts**.
+3.  Click **Forecasts**.
 
 4.  Select the forecast model for which you want to make a manual adjustment.
 
-5.  Select the Manual Adjustments \(\[Omitted image "manual-adjustment-new.png"\] Alt text: Manual Adjustments icon.\) icon.
+5.  Click the Manual Adjustments \(\[Omitted image "manual-adjustment-new.png"\] Alt text: Manual Adjustments icon.\) icon.
 
 6.  Make a manual adjustment.
 
-    1.  Select the plus \(+\) sign.
+    1.  Click the plus \(+\) sign.
     2.  Fill in the following fields.
 
 <table id="table_uwd_qxv_dpb"><thead><tr><th>
@@ -104,19 +104,19 @@ The total is 34.
  The total is 34.
 
 </td></tr></tbody>
-</table>    3.  Select **Save**.
+</table>    3.  Click **Save**.
     The manual adjustment is created in **Draft** state. The manual adjustment is calculated and displays as a green line in the forecast model. You can analyze or update the forecast with this manual adjustment before you publish it.
 
 7.  Publish the manual adjustment.
 
-    1.  Select the saved manual adjustment that you want to use for forecasting resources.
-    2.  Select **Publish**. The state changes to **Ready to Publish**.
+    1.  Click the saved manual adjustment that you want to use for forecasting resources.
+    2.  Click **Publish**. The state changes to **Ready to Publish**.
     When the **Forecast resources for future** job is run, it calculates the forecast, checks for manual adjustments, applies those values if any, and moves it to the **Published** state.
 
     **Note:**
 
     -   When you unpublish a forecast, it moves to **Draft** state. You can delete a forecast that is in **Draft** state.
-    -   If you want to end a manual adjustment after it has started and before its end date, you can select **End Now**.
+    -   If you want to end a manual adjustment after it has started and before its end date, you can click **End Now**.
     The forecast will no longer be used in the resource conversion formula.
 
     When the manual adjustment is published:
@@ -125,5 +125,5 @@ The total is 34.
     -   The adjusted values will be used in the resource conversion formula and the demand forecast displayed on the calendar.
     -   Any other manual adjustment configurations that were created would be unpublished and moved to **Draft** state.
 
-**Parent Topic:**[Setting up Demand Forecast in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configuring-demand-forecast-configurable-wfo-cs.md)
+**Parent Topic:**[Setting up Demand Forecast in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configuring-demand-forecast-configurable-wfo-cs.md)
 

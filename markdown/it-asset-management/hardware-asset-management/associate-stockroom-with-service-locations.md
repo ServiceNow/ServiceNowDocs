@@ -3,13 +3,13 @@ title: Associate a stockroom with service locations
 description: Manage sourcing requests that consume from local stockrooms effectively by associating your stockroom with multiple service locations. Optimize your loaner asset workflow and automated asset tasks by serving multiple locations using a single stockroom.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/associate-stockroom-with-service-locations.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage stockrooms, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Configure stockrooms, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Associate a stockroom with service locations
@@ -24,7 +24,7 @@ Role required: inventory\_admin
 
 **Note:**
 
-You can't add service locations to a stockroom that is excluded from providing location coverage. For more details, see [Exclude a stockroom from service locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/exclude-stockroom-from-service-locations.md).
+You can't add service locations to a stockroom that is excluded from providing location coverage. For more details, see [Exclude a stockroom from service locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/exclude-stockroom-from-service-locations.md).
 
 ## Procedure
 
@@ -49,16 +49,16 @@ You can't add service locations to a stockroom that is excluded from providing l
 
 The selected locations are added to the list shown in the **Service locations** tab.
 
-**Parent Topic:**[Manage stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-your-stockrooms.md)
+**Parent Topic:**[Configure stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/configure-stockrooms-ham.md)
 
 **Related topics**  
 
 
-[Source requests from local stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/consume-local-asset-stock.md)
+[Source requests from local stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/procurement/consume-local-asset-stock.md)
 
-[Request a loaner asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/loaner-asset-request.md)
+[Request a loaner asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/loaner-asset-request.md)
 
-[Create a transfer order from a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/t_CreatingTransferOrderFromReq.md)
+[Create a transfer order from a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/procurement/t_CreatingTransferOrderFromReq.md)
 
-[Asset life-cycle automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/asset-lifecycle-automation.md)
+[Asset life-cycle automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/asset-lifecycle-automation.md)
 

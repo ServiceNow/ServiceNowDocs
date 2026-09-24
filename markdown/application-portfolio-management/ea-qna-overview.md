@@ -3,9 +3,9 @@ title: Exploring Enterprise Architecture query agent
 description: The Enterprise Architecture query agent answers natural language questions about your enterprise architecture portfolio, returning AI-generated answers grounded into their Enterprise Architecture data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/ea-qna-overview.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-05-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -16,9 +16,9 @@ The Enterprise Architecture query agent answers natural language questions about
 
 \[Omitted image "ea-qna.png"\] Alt text: Enterprise Architecture Workspace home page with the ServiceNow Otto panel open, displaying a prompt to enter a natural language question about enterprise architecture.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 The Enterprise Architecture Explorer Query Agent is a ServiceNow Otto agent for Enterprise Architecture. It lets architects and portfolio managers query their EA data using natural language, without navigating dashboards or building reports manually.
 
@@ -165,11 +165,11 @@ The Enterprise Architecture query agent is available through the ServiceNow Otto
 
 The Enterprise Architecture query agent uses the ServiceNow Knowledge Graph to answer questions about CMDB relationships and infrastructure data. An administrator must enable the required Knowledge Graph system properties before the agent can access this data.
 
-After the system properties are enabled, Knowledge Graph runs scheduled jobs to process your CMDB data. The time required for initial processing varies by the volume of data in your instance and may take several days or longer. During this period, responses that rely on CMDB relationship data may be incomplete. Results improve progressively as processing continues. If the Knowledge Graph data processing is in progress, the Knowledge Graph Designer displays a notification. This means that the scheduled jobs required to set up the enterprise graph are still running. The Enterprise Architecture query agent is not available until this process is complete and the notification is no longer displayed. To speed up the process, you can import enterprise graph descriptions from a sub-production instance where setup has already completed. For more information, see [Enterprise Graph initial setup in production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/initial-setup-for-enterprise-graph-schema.md).
+After the system properties are enabled, Knowledge Graph runs scheduled jobs to process your CMDB data. The time required for initial processing varies by the volume of data in your instance and may take several days or longer. During this period, responses that rely on CMDB relationship data may be incomplete. Results improve progressively as processing continues. If the Knowledge Graph data processing is in progress, the Knowledge Graph Designer displays a notification. This means that the scheduled jobs required to set up the enterprise graph are still running. The Enterprise Architecture query agent is not available until this process is complete and the notification is no longer displayed. To speed up the process, you can import enterprise graph descriptions from a sub-production instance where setup has already completed. For more information, see [Enterprise Graph initial setup in production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/initial-setup-for-enterprise-graph-schema.md).
 
 \[Omitted image "ea-qna-kg-setup-banner.png"\] Alt text: Knowledge Graph Designer page showing a setup-in-progress notification banner indicating the Enterprise Graph is not yet available for queries.
 
-For enable the Knowledge Graph system properties, see [Enable Knowledge Graph system properties for the Enterprise Architecture query agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/set-kg-system-properties-ea-qna.md).
+For enable the Knowledge Graph system properties, see [Enable Knowledge Graph system properties for the Enterprise Architecture query agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/set-kg-system-properties-ea-qna.md).
 
 All data displayed by the Enterprise Architecture query agent is sourced directly from the ServiceNow® Knowledge Graph, which is built from and continuously updated by your instance's CMDB data. When you submit a question, the agent queries the Knowledge Graph to identify relevant records, relationships, and attributes before generating a response.
 
@@ -179,20 +179,20 @@ This means the agent does not draw on general knowledge or external sources. Eve
 
 For information on the ServiceNow Knowledge Graph see the links.
 
--   [Exploring Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-knowledge-graph.md)
--   [Setting up Enterprise graph in sub-production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/setting-up-global-graph-in-production-instance.md)
--   [Configuration item relationships and Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ci-relationships-knowledge-graph.md)
+-   [Exploring Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/exploring-knowledge-graph.md)
+-   [Setting up Enterprise graph in sub-production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/setting-up-global-graph-in-production-instance.md)
+-   [Configuration item relationships and Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ci-relationships-knowledge-graph.md)
 
-**Parent Topic:**[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/explore-eaw.md)
+**Parent Topic:**[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/explore-eaw.md)
 
 **Related topics**  
 
 
-[Working with Enterprise Architecture query agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/ea-qna-use.md)
+[Working with Enterprise Architecture query agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/ea-qna-use.md)
 
-[Working with AI agent agentic workflow in ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/using-na-ea-ai-agents.md)
+[Working with AI agent agentic workflow in ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/using-na-ea-ai-agents.md)
 
-[Enable Knowledge Graph system properties for the Enterprise Architecture query agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/set-kg-system-properties-ea-qna.md)
+[Enable Knowledge Graph system properties for the Enterprise Architecture query agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/set-kg-system-properties-ea-qna.md)
 
-[Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md)
+[Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md)
 

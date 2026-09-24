@@ -3,11 +3,11 @@ title: Release-based development use case in Agile Development
 description: An example of release-based development and delivery model using Agile Development.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/release-based-agile-development-use-case.html
-release: australia
+release: brazil
 product: Agile Development
 classification: agile-development
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Agile Development use cases, Exploring Agile Development 2.0, Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
@@ -29,5 +29,5 @@ The usual activities involved in a release-based agile development are:
     In Agile Development 2.0, navigate to **Agile Development** &gt; **Agile Board** &gt; **Sprint Planning**.
 
 
-**Parent Topic:**[Agile Development use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/agile-workflow-use-cases.md)
+**Parent Topic:**[Agile Development use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/agile-workflow-use-cases.md)
 

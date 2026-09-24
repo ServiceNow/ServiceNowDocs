@@ -1,20 +1,20 @@
 ---
-title: Test the Service Graph Connector for Microsoft Excel
-description: The troubleshooting actions can help resolve common issues when importing your Operational Technology devices or data. Access the System Log to troubleshoot for these errors.
+title: Testing the Service Graph Connector for Microsoft Excel
+description: These troubleshooting actions can help resolve common issues when importing your Operational Technology devices or data. Access the System Log to troubleshoot for these errors.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/excel-service-graph-connector-troubleshooting.html
-release: australia
+release: brazil
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring the Service Graph Connector for Microsoft Excel, Service Graph Connector for Microsoft Excel, Use, Operational Technology Manager, Operational Technology]
 ---
 
-# Test the Service Graph Connector for Microsoft Excel
+# Testing the Service Graph Connector for Microsoft Excel
 
-The troubleshooting actions can help resolve common issues when importing your Operational Technology devices or data. Access the System Log to troubleshoot for these errors.
+These troubleshooting actions can help resolve common issues when importing your Operational Technology devices or data. Access the System Log to troubleshoot for these errors.
 
 These logs can be used to debug any issues or to find the Service Graph Connector steps are executed properly.
 
@@ -75,7 +75,7 @@ The validation state is set to Pending validation, when the following attributes
 -   Rack Number
 -   Slot Number
 
- For more information about the system properties, see [Review the system properties used by the Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/access-system-properties-used-by-service-graph-connector.md).
+ For more information about the system properties, see [Review the system properties used by the Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/access-system-properties-used-by-service-graph-connector.md).
 
 </td></tr><tr><td>
 
@@ -108,5 +108,5 @@ Only the existing site records in the CMDB are considered.
  If the entity\_name for the site does not match, the value is set to empty.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring the Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/configuring-service-graph-connector-for-excel.md)
+</table>**Parent Topic:**[Configuring the Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/configuring-service-graph-connector-for-excel.md)
 

@@ -3,11 +3,11 @@ title: Add pre- or post-provisioning operations to a catalog item
 description: Create a post-provisioning operation using subflows on a template-based catalog item.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/add-postprov-example-subflows.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a cloud catalog item, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -73,5 +73,5 @@ Role required: Cloud user, designer, admin, sn\_cmp.cloud\_service\_designer
     |---|-----|
     |`flowcorrelationid`|`$(Script:CMPFlowStepHandler.generateCorrelationId)`|
 
--   To check whether the flow completes successfully, see [Create a response action for Cloud Provisioning and Governance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-subflow-action-cloud-provision-governance.md)
+-   To check whether the flow completes successfully, see [Create a response action for Cloud Provisioning and Governance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/create-subflow-action-cloud-provision-governance.md)
 

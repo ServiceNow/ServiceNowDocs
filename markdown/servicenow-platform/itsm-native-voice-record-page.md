@@ -3,9 +3,9 @@ title: Enable native voice control in Service Operations Workspace
 description: Enable the native voice control to allow the agents to manage the calls using the Interaction Controls Component and the Customer History tab component.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/itsm-native-voice-record-page.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating ServiceNow Voice with ITSM, Integrating Voice with other applications, ServiceNow Voice, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -54,5 +54,5 @@ The agent can switch between phone interactions and chat interactions. If an int
 6.  Select **Update**.
 
 
-**Parent Topic:**[Integrating ServiceNow Voice with ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integrate-ccc-itsm.md)
+**Parent Topic:**[Integrating ServiceNow Voice with ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/integrate-ccc-itsm.md)
 

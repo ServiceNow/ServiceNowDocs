@@ -3,11 +3,11 @@ title: Create a personalized backlog in Agile Development 2.0
 description: Create filters to define which stories appear in your backlog in Agile Development 2.0.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/create-a-backlog.html
-release: australia
+release: brazil
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing your product development using Agile Development 2.0, Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
@@ -90,5 +90,5 @@ Filter criteria that are applied to stories in the backlog.The default filter cr
 
 You can create any number of personal backlogs that match different priorities. Access all your personal backlogs by navigating to **Agile Development** &gt; **Personal Backlogs** and also on the Backlog tab of your Agile Board.
 
-**Parent Topic:**[Managing your product development using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/using-agile-development-2-0.md)
+**Parent Topic:**[Managing your product development using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/using-agile-development-2-0.md)
 

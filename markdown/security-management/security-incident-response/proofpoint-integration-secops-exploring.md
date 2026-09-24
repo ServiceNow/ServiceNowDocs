@@ -3,11 +3,11 @@ title: Exploring the Proofpoint Integration for Security Operations
 description: You can configure event profiles in SIR to ingest events from Proofpoint. SIR creates an incident for each ingested event which analysts can review or work on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/proofpoint-integration-secops-exploring.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Proofpoint Integration for Security Operations, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -68,7 +68,7 @@ Managers
 
 To learn more about configuring and using Proofpoint, see:
 
--   [Configuring the Proofpoint Integration for Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/proofpoint-integration-secops-configuring.md)
--   [Review Proofpoint integration settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/review-proofpoint-integration-setting-sir.md)
--   [View the Proofpoint Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/view-proofpoint-dashboard.md)
+-   [Configuring the Proofpoint Integration for Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/proofpoint-integration-secops-configuring.md)
+-   [Review Proofpoint integration settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/review-proofpoint-integration-setting-sir.md)
+-   [View the Proofpoint Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/view-proofpoint-dashboard.md)
 

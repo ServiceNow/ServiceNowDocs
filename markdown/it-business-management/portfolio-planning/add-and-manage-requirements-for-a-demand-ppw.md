@@ -3,11 +3,11 @@ title: Add requirements for a demand
 description: Define and manage requirements for a demand to capture its functional and technical specifications. Demand managers can associate planned tasks with the requirement, and assign an owner responsible for verifying that requirements are met.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/add-and-manage-requirements-for-a-demand-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -38,7 +38,7 @@ Role required: it\_demand\_manager
 
 7.  On the Requirement form, fill in the fields.
 
-    For a description of the field values, see [Requirement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-requirement-form-ppw.md).
+    For a description of the field values, see [Requirement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/create-requirement-form-ppw.md).
 
 8.  Select **Save**.
 

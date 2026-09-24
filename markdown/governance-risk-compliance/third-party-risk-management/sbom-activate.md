@@ -3,12 +3,12 @@ title: Activate SBOM support
 description: Install the required applications and verify prerequisites to enable SBOM collection in Third-party Risk Management \(TPRM\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/sbom-activate.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-05-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [SBOM, Software Bill of Materials, activation, Third-Party Risk Management, TPRM, Smart Assessment Engine]
 breadcrumb: [Smart Assessment Engine assessments, Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -38,8 +38,11 @@ An SBOM \(Software Bill of Materials\) is a structured inventory of the software
 
     |Application|ID|
     |-----------|---|
-    |SBOM Core|`sn_sbom_core`|
-    |Data Model for SBOM|`sn_sbom_dm`|
+    |Security Support Common|com.snc.security\_support.common|
+    |Data Model for SBOM|com.snc.sbom\_dm|
+    |SBOM Core|com.snc.sbom\_core|
+
+    **Note:** Starting with version 23.0.x, **Security Support Common** is required in addition to the core SBOM applications, as a soft dependency. Install **Security Support Common** before installing the other required SBOM applications. This dependency was added to enable parallel processing and resolves an issue where a product model record wasn't created after SBOM document processing completed.
 
     Core SBOM data structures and processing capabilities are available in the instance.
 
@@ -49,8 +52,8 @@ An SBOM \(Software Bill of Materials\) is a structured inventory of the software
 
     |Application|ID|
     |-----------|---|
-    |SBOM Response|`sn_sbom_resp`|
-    |Vulnerability Response|`sn_vul`|
+    |SBOM Response|`com.snc.sbom_resp`|
+    |Vulnerability Response|`com.snc.vulnerability`|
 
     **Note:** These applications enable vulnerability context for SBOM components but are not required to collect SBOM files.
 
@@ -69,18 +72,18 @@ An SBOM \(Software Bill of Materials\) is a structured inventory of the software
 
 ## What to do next
 
-After installing SBOM support, you can request an SBOM from a third party through an engagement-level external assessment. For next steps, see [Request a software bill of materials from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-sbom-collect.md).
+After installing SBOM support, you can request an SBOM from a third party through an engagement-level external assessment. For next steps, see [Request a software bill of materials from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-sbom-collect.md).
 
 **Related topics**  
 
 
-[Exploring software bill of materials collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-sbom-exploring.md)
+[Exploring software bill of materials collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-sbom-exploring.md)
 
-[Collecting software bill of materials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-sbom.md)
+[Collecting software bill of materials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-sbom.md)
 
-[Request a software bill of materials from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-sbom-collect.md)
+[Request a software bill of materials from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-sbom-collect.md)
 
-[Review an SBOM submission from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/sbom-review.md)
+[Review an SBOM submission from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/sbom-review.md)
 
-[SBOM records and relationships in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-sbom-relationship.md)
+[SBOM records and relationships in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-sbom-relationship.md)
 

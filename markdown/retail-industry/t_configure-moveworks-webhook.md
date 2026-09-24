@@ -3,11 +3,11 @@ title: Configure the ServiceNow Otto webhook connection
 description: Configure the otto\_webhook Connection &amp; Credential Alias so ServiceNow can deliver webhook events to the ServiceNow Otto listener.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/t\_configure-moveworks-webhook.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2025-07-01"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Otto integration overview, Configure, Retail]
+breadcrumb: [ServiceNow Otto for Break-Fix and Store Audit overview, ServiceNow Otto for Retail Service Management \(RSM\), Retail]
 ---
 
 # Configure the ServiceNow Otto webhook connection
@@ -42,4 +42,6 @@ Role required: admin
 
     If the call does not arrive, check **System Logs** &gt; **Outbound HTTP Requests**.
 
+
+**Parent Topic:**[ServiceNow Otto for Break-Fix and Store Audit overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/moveworks-breakfix-storeaudit-overview.md)
 

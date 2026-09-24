@@ -3,11 +3,11 @@ title: Add optional prompts to the ServiceNow AI Lens Launcher
 description: Add optional prompts to the ServiceNow AI Lens launcher button.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/add-optional-prompts.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure a Lens launcher button, Configuring Otto, ServiceNow Otto for Mobile, Mobile Platform]
+breadcrumb: [Configure Lens launcher button, Configuring Otto, ServiceNow Otto for Mobile, Mobile Platform]
 ---
 
 # Add optional prompts to the ServiceNow AI Lens Launcher
@@ -31,5 +31,5 @@ Role required: admin
 5.  Select **Submit** to save your progress.
 
 
-**Parent Topic:**[Configure a Lens launcher button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-lens-launcher-button.md)
+**Parent Topic:**[Configure Lens launcher button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/configure-lens-launcher-button.md)
 

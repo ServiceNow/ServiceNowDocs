@@ -3,11 +3,11 @@ title: Check the review status of a pushed change
 description: If the parent instance requires pushed changes to undergo code review, changes are placed in the Awaiting Code Review stage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/t\_CheckReviewStatusOfAPushedChange.html
-release: australia
+release: brazil
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Team Development, Planning your application, Building applications]
 ---
@@ -22,7 +22,7 @@ Role required: none.
 
 ## About this task
 
-If you configure the parent instance to send [notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/c_CodeReviewNotifications.md), it sends the submitting developer a notification when the pushed changes are approved or rejected. Developers can also manually check the status of their pushed changes from the Pushes and Pulls module on the submitting instance.
+If you configure the parent instance to send [notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/team-development/c_CodeReviewNotifications.md), it sends the submitting developer a notification when the pushed changes are approved or rejected. Developers can also manually check the status of their pushed changes from the Pushes and Pulls module on the submitting instance.
 
 ## Procedure
 

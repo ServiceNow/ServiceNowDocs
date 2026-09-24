@@ -3,11 +3,11 @@ title: Spend view
 description: Ensure accurate spend reporting by using the Spend view in the Cloud Cost Management Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/spend-view-ccm-ws.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Cloud Cost Management Workspace, Explore, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -27,7 +27,7 @@ Use the Spend dashboard to analyze and understand the spend on your assets that 
 -   Cost allocation \(This month\)
 -   Spend per region \(This month\)
 
-The Spend dashboard displays detailed reports for the listed categories. Select a report to view the cloud resource spend and fields in the list view. For more information on these reports, see [Spend dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/spend-view-ccm-ws.md). Access the Spend view by navigating to **Workspaces** &gt; **Cloud Cost Management Workspace** &gt; **Spend**.
+The Spend dashboard displays detailed reports for the listed categories. Select a report to view the cloud resource spend and fields in the list view. For more information on these reports, see [Spend dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/spend-view-ccm-ws.md). Access the Spend view by navigating to **Workspaces** &gt; **Cloud Cost Management Workspace** &gt; **Spend**.
 
 \[Omitted image "ccm-spend-view-ws.png"\] Alt text: Spend dashboard in the Cloud Cost Management Workspace.
 

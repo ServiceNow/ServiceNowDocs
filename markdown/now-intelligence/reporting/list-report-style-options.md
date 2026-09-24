@@ -3,11 +3,11 @@ title: List report style options
 description: Add a title to your list report configure the title's size, color, and alignment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/list-report-style-options.html
-release: australia
+release: brazil
 product: Reporting
 classification: reporting
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [List reports, Report types, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---

@@ -3,11 +3,11 @@ title: Magnit Spoke
 description: The ServiceNow Magnit spoke pulls contingent workers from the Magnit application into a ServiceNow instance and creates onboarding tasks for those contingent workers from a ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/magnit-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---

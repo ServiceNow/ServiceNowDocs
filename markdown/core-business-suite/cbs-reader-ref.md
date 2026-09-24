@@ -3,9 +3,9 @@ title: CBS Knowledge Readers form
 description: Field descriptions for the CBS Knowledge Readers form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/cbs-reader-ref.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2025-01-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [CBS Knowledge Readers form, field descriptions, user criteria, Core Business Suite]
 breadcrumb: [Reference, Core Business Suite]
@@ -31,5 +31,5 @@ Field descriptions for the CBS Knowledge Readers form.
 |**Match All**|Selected when users must match all specified criteria.|
 |**Script**|Custom script to determine user eligibility. This field appears only when the **Advanced** check box is selected.|
 
-**Parent Topic:**[Core Business Suite reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-reference-parent.md)
+**Parent Topic:**[Core Business Suite reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/cbs-reference-parent.md)
 

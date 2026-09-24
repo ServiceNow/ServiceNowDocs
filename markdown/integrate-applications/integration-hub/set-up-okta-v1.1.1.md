@@ -3,7 +3,7 @@ title: Set up Okta spoke
 description: Integrate the Okta spoke with Okta to automate various actions on Okta. For example, you can automate the activation of a user on Okta. To integrate, connect your ServiceNow instance and Okta using an API key or OAuth authentication.Integrate the ServiceNow instance and your Okta account using an API key to authenticate ServiceNow requests.Generate an API key on your Okta organization or developer account to have the connection record authenticated by the Okta developer's or organizational account.Create Credential records to the Okta application that you created. The Okta spoke connection and credential alias uses these credentials to authorize actions.Create a Connection record to the Okta API. The Okta spoke connection and credential alias uses these connections to perform actions in Okta.Integrate the ServiceNow instance and your Okta account by creating a custom OAuth application in Okta to authenticate the ServiceNow requests.Create a custom OAuth application in your Okta developer's account to enable OAuth 2.0 authentication of the requests from your ServiceNow instance.Create a connection record that contains the information to connect to the Okta server. Your ServiceNow instance uses this form to send authentication requests to the OAuth application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-okta-v1.1.1.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -121,7 +121,7 @@ API Key
 
 </td><td>
 
-API token that you had generated in your Okta account in the format `SSWS <API token>`. Replace `<API token>` with the API token.To learn how to generate an API token, see [Generate an API key to request authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-okta-v1.1.1.md).
+API token that you had generated in your Okta account in the format `SSWS <API token>`. Replace `<API token>` with the API token.To learn how to generate an API token, see [Generate an API key to request authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/set-up-okta-v1.1.1.md).
 
 </td></tr><tr><td>
 
@@ -322,7 +322,7 @@ Create a connection record that contains the information to connect to the Okta 
 
 #### Before you begin
 
-**Important:** If you have configured different OAuth scopes as mentioned in step 9 of [Create an OAuth application in Okta](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-okta-v1.1.1.md), do not perform this procedure. Instead, perform the steps outlined in [Connect to a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connect-3rd-party-oauth-provider.md) and add the corresponding OAuth scopes that align with your Okta Web Application that are granted in step 9 of [Create an OAuth application in Okta](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-okta-v1.1.1.md).
+**Important:** If you have configured different OAuth scopes as mentioned in step 9 of [Create an OAuth application in Okta](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/set-up-okta-v1.1.1.md), do not perform this procedure. Instead, perform the steps outlined in [Connect to a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/connect-3rd-party-oauth-provider.md) and add the corresponding OAuth scopes that align with your Okta Web Application that are granted in step 9 of [Create an OAuth application in Okta](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/set-up-okta-v1.1.1.md).
 
 Role required: admin.
 

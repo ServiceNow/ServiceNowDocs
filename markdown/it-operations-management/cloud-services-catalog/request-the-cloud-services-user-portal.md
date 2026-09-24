@@ -3,11 +3,11 @@ title: Requesting Cloud Services
 description: Submit a request for one of the available service catalog item in cloud services. You can find the catalogs under Browse Cloud Services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/request-the-cloud-services-user-portal.html
-release: australia
+release: brazil
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -35,5 +35,5 @@ Role required: sn\_cmp.cloud\_service\_user
     When you submit a request for an item in the service catalog, the system typically provisions the stack immediately. Sometimes, your request must be approved first.
 
 
-**Parent Topic:**[Using Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/using-cloud-services-catalog.md)
+**Parent Topic:**[Using Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-services-catalog/using-cloud-services-catalog.md)
 

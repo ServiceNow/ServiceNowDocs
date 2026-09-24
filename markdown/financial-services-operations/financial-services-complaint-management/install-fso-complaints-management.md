@@ -3,11 +3,11 @@ title: Install Financial Services Complaint Management
 description: You can install the Financial Services Complaint Management application \(sn\_bom\_compl\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-complaint-management/install-fso-complaints-management.html
-release: australia
+release: brazil
 product: Financial Services Complaint Management
 classification: financial-services-complaint-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Complaint Management, Common applications, Financial Services Operations \(FSO\)]
 ---
@@ -31,7 +31,7 @@ The following items are installed with Financial Services Complaint Management:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Financial Services Complaint Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-complaint-management/installed-with-fso-complaints-mgmt.md).
+For more information, see [Components installed with Financial Services Complaint Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-complaint-management/installed-with-fso-complaints-mgmt.md).
 
 ## Procedure
 

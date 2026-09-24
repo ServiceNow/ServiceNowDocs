@@ -3,11 +3,11 @@ title: Pagination in Meraki pull connector metrics requests
 description: The Meraki pull connector handles pagination automatically for metrics API requests, ensuring complete data retrieval for large organizations where API responses are returned in multiple pages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/meraki-pull-connector-pagination.html
-release: australia
+release: brazil
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Performance management: Metric collection, Telecom Assurance, Explore, Telecommunications Service Operations Management]
 ---
@@ -22,5 +22,5 @@ The pull connector now follows pagination links in API responses and issues subs
 
 No configuration is required to enable this behavior. The connector handles pagination transparently as part of each scheduled metrics collection cycle.
 
-For the page size used by each endpoint, see [Page limits for Meraki pull connector endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/meraki-pull-connector-page-limits.md).
+For the page size used by each endpoint, see [Page limits for Meraki pull connector endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/meraki-pull-connector-page-limits.md).
 

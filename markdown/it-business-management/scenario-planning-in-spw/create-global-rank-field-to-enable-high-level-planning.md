@@ -3,11 +3,11 @@ title: Create global rank column for high-level planning
 description: Create a global rank column for planning item types that do not extend the Planning Item \[sn\_align\_planning\_item\] table so that you can enable high-level planning for these items in Strategic Planning Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/create-global-rank-field-to-enable-high-level-planning.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [High-level planning configuration in Strategic Planning, Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -91,12 +91,12 @@ Application
 Application scope of the table.This field is populated automatically based on the table that you selected.
 
 </td></tr></tbody>
-</table>    For complete details of the Dictionary Entry form fields, see [Dictionary entry form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_DictionaryEntryForm.md).
+</table>    For complete details of the Dictionary Entry form fields, see [Dictionary entry form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_DictionaryEntryForm.md).
 
 5.  Save the form.
 
 
 ## What to do next
 
-Create a rank configuration for the global rank field you created. See [Create rank configuration for high-level planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-rank-configuration-enable-high-level-planning.md).
+Create a rank configuration for the global rank field you created. See [Create rank configuration for high-level planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/create-rank-configuration-enable-high-level-planning.md).
 

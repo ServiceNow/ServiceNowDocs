@@ -3,9 +3,9 @@ title: Define field styles
 description: Field styles enable you to declare individual CSS styles for a field in a list or form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_DefineFieldStyles.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Customize, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -111,12 +111,12 @@ color:white;
     javascript: current.state == "Completed" && current.error_tables > 0
     ```
 
-4.  To add alternative text for a style, [configure the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) to add the alternative text field.
+4.  To add alternative text for a style, [configure the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md) to add the alternative text field.
 
     For styles like the VIP style icon, you can add alternative text so that screen readers can differentiate between the style and the text.
 
 5.  Select **Submit** or **Update**.
 
 
-**Parent Topic:**[Customizing fields on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/customize-fields-now-platform-landing.md)
+**Parent Topic:**[Customizing fields on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/customize-fields-now-platform-landing.md)
 

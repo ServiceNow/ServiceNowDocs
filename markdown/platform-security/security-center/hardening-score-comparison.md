@@ -3,11 +3,11 @@ title: Hardening score comparison
 description: Gain visibility to the health of your hardening settings and use this data to improve the security posture of your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/hardening-score-comparison.html
-release: australia
+release: brazil
 product: Security Center
 classification: security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security hardening, Security configuration console, Security Center, Platform Security]
 ---
@@ -36,8 +36,8 @@ The hardening score comparison page displays hardening settings with changes in 
 
 -   **Changed hardening settings**
 
-    Displays the list of hardening settings that have changed compliance statues between the selected dates. Review settings that became non-compliant and decreased your hardening comparison score for opportunities to make them compliant to increase your score. See [Increase hardening compliance score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/increase-hardening-comp-score.md).
+    Displays the list of hardening settings that have changed compliance statues between the selected dates. Review settings that became non-compliant and decreased your hardening comparison score for opportunities to make them compliant to increase your score. See [Increase hardening compliance score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/increase-hardening-comp-score.md).
 
 
-**Parent Topic:**[Security hardening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-hardening.md)
+**Parent Topic:**[Security hardening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-hardening.md)
 

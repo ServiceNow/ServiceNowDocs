@@ -3,13 +3,13 @@ title: Capability details
 description: View the various details for a capability using the Capability details page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/impact-product-adoption-roadmap/capability-details.html
-release: australia
+release: brazil
 product: Impact Product Adoption Roadmap
 classification: impact-product-adoption-roadmap
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-21"
 reading_time_minutes: 1
-breadcrumb: [Entitlements and usage, Product adoption, Using Impact, Impact]
+breadcrumb: [Entitlements and usage using capabilities, Product adoption, Using Impact, Impact]
 ---
 
 # Capability details

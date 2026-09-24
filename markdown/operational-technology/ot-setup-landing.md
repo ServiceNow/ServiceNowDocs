@@ -3,9 +3,9 @@ title: Operational Technology Setup
 description: You can complete Operational Technology \(OT\) configuration items by navigating through the Admin Home and Product Hub, which use the ServiceNow Otto for Setup framework.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/ot-setup-landing.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-08-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Operational Technology]
 ---
@@ -18,19 +18,19 @@ You can complete Operational Technology \(OT\) configuration items by navigating
 
 <table id="table_pjt_ntj_jkc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about how to use the Admin Home, Product Hub, and Configuration Console to complete Operational Technology configuration items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/explore-ot-setup.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about how to use the Admin Home, Product Hub, and Configuration Console to complete Operational Technology configuration items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/explore-ot-setup.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Access the Operational Technology card, Product Hub, and Configuration Console available from the Admin Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-ot-setup.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Access the Operational Technology card, Product Hub, and Configuration Console available from the Admin Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/configure-ot-setup.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Complete the Operational Technology configuration items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/use-ot-setup.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Complete the Operational Technology configuration items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/use-ot-setup.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about related information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-setup-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about related information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/ot-setup-reference.md)
 
 </td></tr></tbody>
 </table>## Helpful resources

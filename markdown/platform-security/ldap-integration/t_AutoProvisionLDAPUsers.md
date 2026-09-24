@@ -3,11 +3,11 @@ title: Auto provision LDAP users
 description: You automatically provision users who are in the LDAP server but not yet in your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/t\_AutoProvisionLDAPUsers.html
-release: australia
+release: brazil
 product: LDAP integration
 classification: ldap-integration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [LDAP integration setup, LDAP integration, Authentication, Access Management]
 ---

@@ -3,11 +3,11 @@ title: Create an action input from a step input
 description: Create an action input based on the data type of a step input. Map the step input value to the new action input.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-action-input-from-step-input.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create an action in Workflow Studio, Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -47,5 +47,5 @@ Workflow Studio creates an input named after the step and input type. For exampl
 
 \[Omitted image "create-action-input-from-step-input-mapping.png"\] Alt text: Example action input named after the create record step.
 
-**Parent Topic:**[Create an action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-action.md)
+**Parent Topic:**[Create an action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-action.md)
 

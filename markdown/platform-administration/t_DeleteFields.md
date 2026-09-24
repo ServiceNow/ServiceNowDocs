@@ -3,9 +3,9 @@ title: Delete a field from a table
 description: You can delete custom fields that you created. Custom fields begin with u\_. It is recommended that you remove the field from forms and lists instead of deleting it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_DeleteFields.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customize, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -45,5 +45,5 @@ You cannot delete base system fields. In addition, any missing base system field
     4.  To proceed, click **Delete**.
 
 
-**Parent Topic:**[Customizing fields on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/customize-fields-now-platform-landing.md)
+**Parent Topic:**[Customizing fields on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/customize-fields-now-platform-landing.md)
 

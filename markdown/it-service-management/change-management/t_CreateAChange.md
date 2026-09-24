@@ -3,12 +3,12 @@ title: Create a change request
 description: Create a change request to implement a controlled process for modifying approved and supported configuration items \(CIs\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_CreateAChange.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: task
 last_updated: "2025-01-30"
-reading_time_minutes: 13
+reading_time_minutes: 14
 breadcrumb: [Use, Change Management, IT Service Management]
 ---
 
@@ -39,7 +39,7 @@ To modify fields after saving, verify that the change request is still in an edi
 
 1.  Create the change request with one of these options.
 
-<table id="choicetable_agp_ckc_3t"><tbody><tr><td id="d194247e96">
+<table id="choicetable_agp_ckc_3t"><tbody><tr><td id="d197108e96">
 
 **From the Change application**
 
@@ -47,7 +47,7 @@ To modify fields after saving, verify that the change request is still in an edi
 
 You can create all three types of change from the **Change** application. This is the main entry point for creating a change request.1.  Navigate to **All** &gt; **Change** &gt; **Create New**.
 2.  Select **Normal**, **Emergency**, or **Standard** changes.
- If you are an upgrade customer and willing to use change models, you must enable the change model properties. For information on change models and its properties, see [Change model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/manage-change-models.md).
+ If you are an upgrade customer and willing to use change models, you must enable the change model properties. For information on change models and its properties, see [Change model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/manage-change-models.md).
 
  When you enable the change model properties, you see the following tabs when you navigate to **All** &gt; **Change** &gt; **Create New**.
 
@@ -57,7 +57,7 @@ You can create all three types of change from the **Change** application. This i
 -   **All**: All models are available to select.
 
 
-</td></tr><tr><td id="d194247e192">
+</td></tr><tr><td id="d197108e192">
 
 **From an incident or a problem**
 
@@ -67,7 +67,7 @@ As a user with the sn\_change\_write role, you can create a standard, normal, or
 2.  Right-click the form header and select **Create Normal Change**, **Create Standard Change**, or **Create Emergency Change**.
 
 
-</td></tr><tr><td id="d194247e219">
+</td></tr><tr><td id="d197108e219">
 
 **From an existing change record**
 
@@ -136,13 +136,15 @@ Configuration item
 
 Select **Add** to add a CI for the change. You can add a CI for a change in **New** state only.
 
+**Important:** You can set or change the primary configuration item \(CI\) only while the change request is in the **New** state. After the change moves past **New**, manage additional CIs through the Affected CIs related list. For details, see [Associate multiple CIs with a change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/c_AffectedCIsAndImpactedServices.md).
+
 CI that the change applies to. Change requests can be associated with any type of CI, including service offerings, providing detailed access to SLA and availability requirements.When you select a dynamic CI group, all the configuration items related to the selected dynamic group will be populated in the Affected CIs related list. In the Affected CIs related list, you can also manually add and delete the dynamic CI groups. When you add a dynamic CI group, all the related CIs are added, and when you remove a dynamic CI group, the related CIs are removed.
 
- After selecting a CI, you can click the health dashboard icon \(\[Omitted image "Change\_CIHealthIcon.png"\] Alt text: Health dashboard icon.\) to view the CI health details.
+ After selecting a CI, you can select the health dashboard icon \(\[Omitted image "Change\_CIHealthIcon.png"\] Alt text: Health dashboard icon.\) to view the CI health details.
 
  **Note:** By default, Service Offering is filtered out and CIs with Principal Class are selected. The Principal Class filter functionality is applicable to new customers starting from the Paris release.
 
- See [Refresh impacted services properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/refreshing-impacted-services-properties.md)
+ See [Refresh impacted services properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/refreshing-impacted-services-properties.md)
 
 </td></tr><tr><td>
 
@@ -158,7 +160,7 @@ Risk
 
 </td><td>
 
-Risk level for the change. The Risk value is **-- None --** until you define it as **High**, **Moderate**, or **Low**. You can also use [Risk Calculation and Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_RskAsmtCalc.md) to drive the risk value of the change.
+Risk level for the change. The Risk value is **-- None --** until you define it as **High**, **Moderate**, or **Low**. You can also use [Risk Calculation and Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/c_RskAsmtCalc.md) to drive the risk value of the change.
 
 </td></tr><tr><td>
 
@@ -174,7 +176,7 @@ Model
 
 </td><td>
 
-Change model being used for the change request.For information about Change models, see [Change model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/manage-change-models.md).
+Change model being used for the change request.For information about Change models, see [Change model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/manage-change-models.md).
 
 </td></tr><tr><td>
 
@@ -182,7 +184,7 @@ Type
 
 </td><td>
 
-The type of change request. The field displays **Model** if the Change model has not been configured with a defined Type. This field is read-only.For information about creating Change models, see [Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-a-change-model.md).
+The type of change request. The field displays **Model** if the Change model has not been configured with a defined Type. This field is read-only.For information about creating Change models, see [Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-a-change-model.md).
 
 </td></tr><tr><td>
 
@@ -198,7 +200,7 @@ Conflict status
 
 </td><td>
 
-Status that indicates whether a scheduling conflict exists for this change, or whether conflict detection has not run. A conflict status \(Conflict, No Conflict, Not Run\) means that the change overlaps a blackout window, an active change, or falls outside a maintenance window. To resolve a conflict, review the conflicts listed in the Conflict section and reschedule the change. For more information, see [Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ConflictDetection.md).
+Status that indicates whether a scheduling conflict exists for this change, or whether conflict detection has not run. A conflict status \(Conflict, No Conflict, Not Run\) means that the change overlaps a blackout window, an active change, or falls outside a maintenance window. To resolve a conflict, review the conflicts listed in the Conflict section and reschedule the change. For more information, see [Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/c_ConflictDetection.md).
 
 </td></tr><tr><td>
 
@@ -260,8 +262,8 @@ The base system includes example categories, such as Risk and Compliance, Financ
 
 **Note:**
 
--   For more information about dynamic categories, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
--   To configure the Risk and compliance category, see .
+-   For more information about dynamic categories, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-schema.md).
+-   To configure the Risk and compliance category, see [Configure the compliance dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/configure-compliance-dynamic-schema.md).
 
 
 </td></tr><tr><td>
@@ -276,8 +278,8 @@ The attributes provided in the base system are examples. You can deactivate them
 
 **Note:**
 
--   You can also read and update attribute values from scripts, including risk condition scripts and business rules. Use the dynamic schema scripting API to conditionally respond to attribute values or trigger downstream actions. For information about the scripting API, dynamic attributes, transient attributes, and configuration options, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
--   To configure the Risk and compliance attributes, see .
+-   You can also read and update attribute values from scripts, including risk condition scripts and business rules. Use the dynamic schema scripting API to conditionally respond to attribute values or trigger downstream actions. For information about the scripting API, dynamic attributes, transient attributes, and configuration options, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-schema.md).
+-   To configure the Risk and compliance attributes, see [Configure the compliance dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/configure-compliance-dynamic-schema.md).
 
 
 </td></tr></tbody>
@@ -299,7 +301,7 @@ The attributes provided in the base system are examples. You can deactivate them
 
     3.  If there is an unplanned CI activity, select the **Unauthorized** check box to determine if the change is an unauthorized change.
 
-        For more information, see [Unauthorized change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/unauthorized-change-request.md).
+        For more information, see [Unauthorized change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/unauthorized-change-request.md).
 
         **Note:** This check box is available only for emergency change requests.
 
@@ -329,7 +331,7 @@ Affected CIs
 
 </td><td>
 
-List of CIs \(from the CMDB\) affected by the change. You can associate multiple affected CIs with a change.
+List of CIs \(from the CMDB\) affected by the change. You can associate multiple affected CIs with a change, including after the change has moved past the **New** state, when the primary configuration item can no longer be edited directly. For details, see [Associate multiple CIs with a change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/c_AffectedCIsAndImpactedServices.md) and [Add affected CIs using a BSM map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/c_AffectedCIsAndImpactedServices.md).
 
 </td></tr><tr><td>
 
@@ -408,27 +410,27 @@ List of agenda items and details of respective items. For example, the meeting s
 
 ## What to do next
 
-[Process a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_ProcessAChangeRequest.md)
+[Process a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_ProcessAChangeRequest.md)
 
--   **[Create a change request from a configuration item \(CI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateAChangeFromACI.md)**  
+-   **[Create a change request from a configuration item \(CI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_CreateAChangeFromACI.md)**  
 Create a change request from a list of configuration items \(CIs\), or add selected CIs from a list to a change record.
--   **[Create a standard change request from the catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_RaiseNewStdCngeFmTempl.md)**  
+-   **[Create a standard change request from the catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_RaiseNewStdCngeFmTempl.md)**  
 You can create a standard change request from the published standard change catalog templates.
--   **[Copy a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/copy-a-change-request.md)**  
+-   **[Copy a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/copy-a-change-request.md)**  
 You can copy details of an active or canceled change request to a new change request.
--   **[Create a change task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-a-change-task.md)**  
+-   **[Create a change task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-a-change-task.md)**  
 You can create change tasks for a change request. A change task is a piece of work related to the change request. For example, there can be tasks to plan the change, implement the change, and test, and review the work.
--   **[Unauthorized change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/unauthorized-change-request.md)**  
+-   **[Unauthorized change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/unauthorized-change-request.md)**  
 Understand how an unauthorized change activity on a configuration item \(CI\) is captured and managed, so that you can review and take timely action on this change.
 
-**Parent Topic:**[Using Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/using-change-management.md)
+**Parent Topic:**[Using Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/using-change-management.md)
 
 **Related topics**  
 
 
-[Legacy: State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ChangeStateModel.md)
+[State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/c_ChangeStateModel.md)
 
-[Place a change request on hold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_PlaceAChangeRequestOnHold.md)
+[Place a change request on hold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_PlaceAChangeRequestOnHold.md)
 
-[Conflict calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-conflict-calendar.md)
+[Conflict calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-conflict-calendar.md)
 

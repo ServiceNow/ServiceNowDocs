@@ -3,11 +3,11 @@ title: List collector
 description: The list collector variable creates an interface that lets you select and add multiple records from a table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/list-collector.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Types of service catalog variables, Service catalog variables, Service Catalog Reference, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Types of service catalog variables, Service catalog variables, Serv
 
 The list collector variable creates an interface that lets you select and add multiple records from a table.
 
-For attributes supported by this variable, see [variable attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/variable-attributes.md).
+For attributes supported by this variable, see [variable attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/variable-attributes.md).
 
 \[Omitted image "VariableListCollectorG.png"\] Alt text: A list collector variable
 
@@ -29,7 +29,7 @@ For attributes supported by this variable, see [variable attributes](https://raw
 -   The values in the referenced table do not appear if the user is not logged in.
 -   The list collector displays a maximum of 100 items in a list. After moving items to the **Selected** list, you can click **Run Filter** to refresh the **Available** list. This action will add more available items to the list, to a maximum of 100 items.
 
-**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)
+**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)
 
 **Related topics**  
 
@@ -44,7 +44,7 @@ For attributes supported by this variable, see [variable attributes](https://raw
 
 [Date, Date and time, and Duration]()
 
-[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/email.md)
+[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/email.md)
 
 [HTML]()
 

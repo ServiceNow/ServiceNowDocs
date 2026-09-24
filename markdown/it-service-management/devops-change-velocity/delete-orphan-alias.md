@@ -3,11 +3,11 @@ title: Delete orphan connection and credential aliases
 description: Delete the connection and credential aliases that do not label any connection or credential record by running a background script. This helps you in freeing up space in your system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/delete-orphan-alias.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage, DevOps Change Velocity, IT Service Management]
 ---
@@ -52,5 +52,5 @@ Role required: System Admin \(admin\)
 4.  Select **Run script**.
 
 
-**Parent Topic:**[Managing DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/using-devops-change-velocity.md)
+**Parent Topic:**[Managing DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/using-devops-change-velocity.md)
 

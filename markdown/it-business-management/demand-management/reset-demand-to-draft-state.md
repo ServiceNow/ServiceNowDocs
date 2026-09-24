@@ -3,11 +3,11 @@ title: Reset a demand to Draft state
 description: A demand can be moved back to the Draft state, if necessary.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/reset-demand-to-draft-state.html
-release: australia
+release: brazil
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -47,7 +47,7 @@ A demand can be reset to Draft from the Completed, Approved, Screening, or Submi
 -   All the score values in **Assessment Data** tab are reset to default.
 -   All active assessments for the demand are canceled. New assessments are triggered when the demand moves to the Screening state and if the **Assessment Required** field on the demand form is set to true.
 
-**Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/r_UsingDemandManagement.md)
+**Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/r_UsingDemandManagement.md)
 
 **Related topics**  
 

@@ -3,11 +3,11 @@ title: Create custom trigger types
 description: Create your own trigger type during the rule creation process that is specific to your organization for improved Proactive Triggers usage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/product-support-for-technology/create-custom-trigger-types.html
-release: australia
+release: brazil
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring Proactive Triggers, Proactive Triggers, Manage people and work, Conversational Interfaces]
 ---

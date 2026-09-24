@@ -3,11 +3,11 @@ title: Configure the due date logic for shift approval flows
 description: As an administrator, you can configure the due date logic for the time-off request and shift-swap request approval flows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/configure-time-off-shift-swap-approval-flows.html
-release: australia
+release: brazil
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setting up, Scheduling, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -131,10 +131,10 @@ Enter the due date for the requestee agent to approve.\[Omitted image "shift-swa
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Setting up Scheduling in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-scheduling-configurable-workforce-optimization-itsm.md)
+**Parent Topic:**[Setting up Scheduling in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-scheduling-configurable-workforce-optimization-itsm.md)
 
 **Related topics**  
 
 
-[Build your first flow in Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/build-your-first-flow.md)
+[Build your first flow in Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/build-your-first-flow.md)
 

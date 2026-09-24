@@ -3,11 +3,11 @@ title: Entity lifecycle management
 description: Review entity changes and their impact on associated risks and controls before the changes take effect.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/entity-change-management.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-09-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -28,12 +28,12 @@ Open change tasks appear on the **Needs review** tab of the **Impact approvals**
 
 A reviewer can accept the proposed changes or edit the entity filter condition and preview the revised impact. Saving the edited filter also accepts the changes. After a change task is accepted, the proposed changes take effect and the completed task appears on the **History** tab.
 
--   **[Configure entity approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/configure-entity-approvals.md)**  
+-   **[Configure entity approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/configure-entity-approvals.md)**  
 Specify which types of entity changes require review before they take effect.
--   **[Review and accept entity changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/review-and-accept-entity-changes.md)**  
+-   **[Review and accept entity changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/review-and-accept-entity-changes.md)**  
 Review the impact of proposed entity changes and accept the changes when the impact is expected.
--   **[Edit an entity filter from a change task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/edit-an-entity-filter-from-a-change-task.md)**  
+-   **[Edit an entity filter from a change task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/edit-an-entity-filter-from-a-change-task.md)**  
 Modify an entity filter condition and preview the revised impact before saving the filter and accepting the entity changes.
 
-**Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/common-grc-features.md)
+**Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 

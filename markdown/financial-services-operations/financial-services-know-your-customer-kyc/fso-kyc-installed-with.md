@@ -3,11 +3,11 @@ title: Components installed with Financial Services Know Your Customer
 description: Several types of components are installed with activation of the Financial Services Know Your Customer \(com.sn\_bom\_kyc\) plugin, including tables and user roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-know-your-customer-kyc/fso-kyc-installed-with.html
-release: australia
+release: brazil
 product: Financial Services Know Your Customer \(KYC\)
 classification: financial-services-know-your-customer-kyc
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Know Your Customer, Common applications, Financial Services Operations \(FSO\)]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Know Your Customer, Common applications, Financial Services Operati
 
 Several types of components are installed with activation of the Financial Services Know Your Customer \(com.sn\_bom\_kyc\) plugin, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 This application is automatically installed when you install any of the following Financial Services Operations \(KYC\) applications. Financial Services Know Your Customer manages the KYC tasks that are used in workflows across Financial Services Operations applications.
 

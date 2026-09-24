@@ -3,11 +3,11 @@ title: Complete a questionnaire for work order task
 description: Complete the answers to questions associated with a work order task and store the responses for future reference. For example, you can create questionnaires for verifying the condition of an equipment before it’s repaired.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/complete-questionnaire-mobile-app.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Prioritizing on ServiceNow Agent, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
@@ -22,7 +22,7 @@ Agents can’t view each others completed questionnaire, even if the agent imper
 
 ## Before you begin
 
-You can view a questionnaire in a work order task if it’s made available for that task. For more information on creating questionnaires and associating them with work orders or work order tasks, see [Work order questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/work-order-questionnaire.md).
+You can view a questionnaire in a work order task if it’s made available for that task. For more information on creating questionnaires and associating them with work orders or work order tasks, see [Work order questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/work-order-questionnaire.md).
 
 Role required: wm\_agent or wm\_dispatcher
 

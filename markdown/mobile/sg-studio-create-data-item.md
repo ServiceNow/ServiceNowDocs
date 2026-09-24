@@ -3,9 +3,9 @@ title: Configure a standard data item
 description: Configure a standard data item to query data for your screens that do not require parameter input.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-studio-create-data-item.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Data items, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -82,7 +82,7 @@ Table
 
 </td><td>
 
-The table you want the data item to pull information from.**Note:** Custom tables are not available by default. You can change this behavior by modifying the **subscription.custom\_table.enforce\_entitlement** system property. For details on making this change, see [Allow or restrict access to custom tables in mobile data items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-allow-custom-tables.md).
+The table you want the data item to pull information from.**Note:** Custom tables are not available by default. You can change this behavior by modifying the **subscription.custom\_table.enforce\_entitlement** system property. For details on making this change, see [Allow or restrict access to custom tables in mobile data items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-allow-custom-tables.md).
 
 </td></tr><tr><td>
 
@@ -108,7 +108,7 @@ Use a script to determine the conditions of your data item. A text window to ent
 
 -   **Append Encoded Query**
 
-Use this option only when creating data items for your chart screens. For details on that data item type, see [Configure an encoded query data item for chart screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-relative-url-data-item.md).
+Use this option only when creating data items for your chart screens. For details on that data item type, see [Configure an encoded query data item for chart screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-relative-url-data-item.md).
 
 </td></tr><tr><td>
 
@@ -116,7 +116,7 @@ Condition
 
 </td><td>
 
-Set of conditions for the data item to conform to. You can create conditions using the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).**Note:** This field is only available when you select `Declarative` in the **Condition type** field.
+Set of conditions for the data item to conform to. You can create conditions using the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ConditionBuilder.md).**Note:** This field is only available when you select `Declarative` in the **Condition type** field.
 
 </td></tr><tr><td>
 
@@ -152,12 +152,12 @@ Lets you adds fields to the form that allow you to configure how to sort the lis
 
 ## What to do next
 
-Associate a data item with a screen. For more information, see [Mobile screen types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-applet.md).
+Associate a data item with a screen. For more information, see [Mobile screen types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mobile-applet.md).
 
 **Related topics**  
 
 
-[Configure a parametrized data item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-config-parametrized-data-item.md)
+[Configure a parametrized data item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-config-parametrized-data-item.md)
 
-[Configure a group by data item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-create-group-data-item.md)
+[Configure a group by data item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-create-group-data-item.md)
 

@@ -3,11 +3,11 @@ title: Granular Findings
 description: Granular findings may be reviewed using the Granular Findings tool.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/data-discovery/granular-findings.html
-release: australia
+release: brazil
 product: Data Discovery
 classification: data-discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Scanning with Granular Configuration, Exploring Data Discovery \(Classic\), Data Discovery, Platform Privacy]
 ---
@@ -18,7 +18,7 @@ Granular findings may be reviewed using the Granular Findings tool.
 
 ## Reviewing Granular Findings
 
-**Granular Findings** is used to review up to 500 findings from [Granular Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery/granular-configuration.md). When there are 500 findings, scanning of Granular Configurations is paused until action is taken.
+**Granular Findings** is used to review up to 500 findings from [Granular Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-discovery/granular-configuration.md). When there are 500 findings, scanning of Granular Configurations is paused until action is taken.
 
 <table id="table_m35_cwt_dcc"><thead><tr><th>
 

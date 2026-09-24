@@ -3,11 +3,11 @@ title: Types of due diligence
 description: In the due diligence process, you typically conduct several types of due diligence to gather relevant information and assess various aspects of the third party. The particular types of due diligence that you conduct vary depending on the nature and criticality of the engagement and the risks involved.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-due-diligence-types.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Why conduct due diligence, Explore, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -47,15 +47,15 @@ Financial due diligence evaluates a third party or engagement's financial health
 
 -   Questionnaire templates with financial questions and document requests that you can send to the third party or engagement using an assessment through the third‑party portal.
 
-    For more information see, [Sample questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-questionnaire-types.md) and [Create an external assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-assessment.md).
+    For more information see, [Sample questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-questionnaire-types.md) and [Create an external assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-assessment.md).
 
 -   Due Diligence Request \(DDR\) workflows that orchestrate internal review, external assessment, approvals, and contract risk checks.
 
-    For more information see, [Due diligence workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-workflow-in-workspace.md).
+    For more information see, [Due diligence workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-workflow-in-workspace.md).
 
 -   Reports and dashboards to track active requests, aging items, and completion timelines.
 
-    For more information see, [Monitoring the due diligence request process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-overview.md).
+    For more information see, [Monitoring the due diligence request process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-overview.md).
 
 
 Access these features by navigating to the **Vendor Management Workspace**:
@@ -66,7 +66,7 @@ Access these features by navigating to the **Vendor Management Workspace**:
 4.  To send financial questionnaires or document requests from a DDR or an Assessment record, create an assessment.
 5.  Use the Due Diligence Management page to monitor status and aging.
 
-For more information see, [Monitoring the due diligence request process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-overview.md) and [Create an external assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-assessment.md).
+For more information see, [Monitoring the due diligence request process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-overview.md) and [Create an external assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-assessment.md).
 
-**Note:** Activate the Third‑party Risk Due Diligence plugin \(com.sn\_tprm\_dd\) to enable preconfigured workflows and the Risk Concentration Map. For more information, see [Configuring Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-configuring.md) and [Enable the TPRM Risk concentration map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-risk-map-configure.md).
+**Note:** Activate the Third‑party Risk Due Diligence plugin \(com.sn\_tprm\_dd\) to enable preconfigured workflows and the Risk Concentration Map. For more information, see [Configuring Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-configuring.md) and [Enable the TPRM Risk concentration map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-risk-map-configure.md).
 

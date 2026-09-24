@@ -3,11 +3,11 @@ title: Use the Threat Hunting Playbook
 description: Run threat hunt on a Case record — from capturing the hunt hypothesis through to creating a Security incident or reporting.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-use-threat-hunt-playbook.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-05-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [tisc, threat hunting, playbook, intake, triage, scoping, threat hunt, review outcomes, post hunt]
 breadcrumb: [Threat Hunting Playbook, Using playbooks, Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
@@ -21,7 +21,7 @@ Run threat hunt on a Case record — from capturing the hunt hypothesis through 
 
 Role required: sn\_sec\_tisc.analyst
 
-Confirm that the Threat Hunting playbook is active. See [Activate the Threat Hunting Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-activate-threat-hunt-playbook.md) for the activation details.
+Confirm that the Threat Hunting playbook is active. See [Activate the Threat Hunting Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-activate-threat-hunt-playbook.md) for the activation details.
 
 For the Scoping stage, MITRE data must be present in the instance. MITRE data sources are shipped in a deactivated state — an administrator must activate and run a MITRE data source before TTPs can be selected.
 
@@ -43,7 +43,7 @@ The playbook progresses through six stages in sequence. Each stage has specific 
 
 4.  To initiate the Threat Hunting playbook on a Case, create a Case with the **Case Type** set to **Threat Hunting** and **Status** set to **Draft**.
 
-    You can also attach the playbook manually and initiate the playbook. For more information, see [Add the Threat Hunting Playbook to a Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-add-playbook-manually.md).
+    You can also attach the playbook manually and initiate the playbook. For more information, see [Add the Threat Hunting Playbook to a Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-add-playbook-manually.md).
 
 5.  Open the Case record and select the **Playbooks**.
 
@@ -154,18 +154,18 @@ Adds the selected techniques and its matrix and tactic metadata to the case desc
     |**Complete Playbook**|Finalizes the playbook. The playbook is marked as complete on the Case record and can't be re-initiated on the same Case.|
 
 
-**Parent Topic:**[Threat Hunting Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-threat-hunt-playbook.md)
+**Parent Topic:**[Threat Hunting Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-threat-hunt-playbook.md)
 
 **Related topics**  
 
 
-[Threat Hunting Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-threat-hunt-playbook.md)
+[Threat Hunting Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-threat-hunt-playbook.md)
 
-[Activate the Threat Hunting Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-activate-threat-hunt-playbook.md)
+[Activate the Threat Hunting Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-activate-threat-hunt-playbook.md)
 
-[Add the Threat Hunting Playbook to a Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-add-playbook-manually.md)
+[Add the Threat Hunting Playbook to a Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-add-playbook-manually.md)
 
-[Associate MITRE Techniques to a Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-associate-mitre-technique.md)
+[Associate MITRE Techniques to a Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-associate-mitre-technique.md)
 
-[Creating case task using Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-create-case-task.md)
+[Creating case task using Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-create-case-task.md)
 

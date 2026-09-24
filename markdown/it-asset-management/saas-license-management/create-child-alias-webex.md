@@ -3,11 +3,11 @@ title: Create a child alias to set up multiple Cisco Webex integration profiles
 description: Create a child alias to set up multiple Cisco Webex integration profiles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/saas-license-management/create-child-alias-webex.html
-release: australia
+release: brazil
 product: SaaS License Management
 classification: saas-license-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -24,7 +24,7 @@ Role required: sam\_integrator
 
 1.  Create a Cisco Webex integration profile.
 
-    For more information about creating an integration profile, see [Integrating with Cisco Webex](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrate-with-webex-apps.md).
+    For more information about creating an integration profile, see [Integrating with Cisco Webex](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/integrate-with-webex-apps.md).
 
 2.  Open the connection &amp; credential record set on the integration profile.
 
@@ -62,7 +62,7 @@ Role required: sam\_integrator
 14. Select **Save** and publish the integration profile.
 
 
-**Parent Topic:**[SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/sam-subscription-management.md)
+**Parent Topic:**[SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/sam-subscription-management.md)
 
 **Related topics**  
 

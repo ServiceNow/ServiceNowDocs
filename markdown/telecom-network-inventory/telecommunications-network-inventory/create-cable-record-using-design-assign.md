@@ -3,11 +3,11 @@ title: Create a cable record by using design and assign
 description: Create a cable record using the design and assign function in the Telecommunications Network Inventory application. By creating the cable and related strand records, you can fulfill an order request for a fiber optical cable record.DOC1090321
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create-cable-record-using-design-assign.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Design &amp; Assign Network, Use, Telecommunications Network Inventory]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 
 ## About this task
 
-When you instantiate a cable template, it creates the corresponding configuration item \(CI\) records in the Fiber Optical Cable \[cmdb\_ci\_fiber\_optical\_cable\] and Fiber Strand \[cmdb\_ci\_fiber\_strand\] tables. To learn more about the cable data model, see [Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/uses-for-network-inventory-data.md).
+When you instantiate a cable template, it creates the corresponding configuration item \(CI\) records in the Fiber Optical Cable \[cmdb\_ci\_fiber\_optical\_cable\] and Fiber Strand \[cmdb\_ci\_fiber\_strand\] tables. To learn more about the cable data model, see [Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/uses-for-network-inventory-data.md).
 
 ## Procedure
 
@@ -38,7 +38,7 @@ When you instantiate a cable template, it creates the corresponding configuratio
 
 6.  On the **Details** tab, fill in the fields.
 
-    For a description of the field values, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
+    For a description of the field values, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
 
 7.  Select **Save**.
 
@@ -61,12 +61,12 @@ When you instantiate a cable template, it creates the corresponding configuratio
 
 The cable and related strand records are created.
 
-**Parent Topic:**[Instantiating your network inventory by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md)
+**Parent Topic:**[Instantiating your network inventory by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md)
 
 **Related topics**  
 
 
-[Create an inventory template for cable models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-inventory-tenplate-cable-models.md)
+[Create an inventory template for cable models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/create-inventory-tenplate-cable-models.md)
 
-[Create a cable model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-a-cable-model.md)
+[Create a cable model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/create-a-cable-model.md)
 

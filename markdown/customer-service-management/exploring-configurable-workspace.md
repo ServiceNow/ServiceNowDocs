@@ -3,11 +3,11 @@ title: Explore CRM Workspace
 description: CRM Workspace is a workspace that can easily be configured and extended using UI Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/exploring-configurable-workspace.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Migrating to Configurable Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Migrating to CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Explore CRM Workspace
@@ -28,18 +28,18 @@ A page in a workspace is made up of components that enable your users to accompl
 
 You build out the functionality within the page by adding the components that you need for your user experience. Components are elements like buttons and data visualizations. UI Builder comes with a library of components you can add to the page.
 
-After the components are on your page, you can change the layout any way you want. For example, you can use themes to make a page match your company's styles and standards. For more information, see [Manage the visual style of UI Builder experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/manage-the-visual-style-of-ui-builder-experiences.md).
+After the components are on your page, you can change the layout any way you want. For example, you can use themes to make a page match your company's styles and standards. For more information, see [Manage the visual style of UI Builder experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/manage-the-visual-style-of-ui-builder-experiences.md).
 
 Add an event mapping to a component. Event mapping is an important process within UI Builder. When you build pages with components, you need those pages to actually perform actions for users. For example, you can map a button to an event handler to perform a button action when a user selects that button. Another example may be adding a data resource such as a form. You could set up an event handler to notify a user when the page succeeds in loading the form.
 
 UI Builder is as powerful as you need it. You can build simple web experiences, or you can create complex data-driven experiences.
 
-## Setting up CSM Configurable Workspace
+## Setting up CRM Workspace
 
-For more information about configuring different features in CSM Configurable Workspace, such as ribbon configurations, form headers, and UI actions, see [Set up CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-set-up.md).
+For more information about configuring different features in CRM Workspace, such as ribbon configurations, form headers, and UI actions, see [Set up CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-config-workspace-set-up.md).
 
 **Related topics**  
 
 
-[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md)
+[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder-overview.md)
 

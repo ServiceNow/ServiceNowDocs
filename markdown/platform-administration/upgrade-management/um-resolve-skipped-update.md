@@ -3,11 +3,11 @@ title: Resolve a skipped update and set a resolution status
 description: Review the reason for each skipped record to resolve each skipped update after an upgrade.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-resolve-skipped-update.html
-release: australia
+release: brazil
 product: Upgrade Management
 classification: upgrade-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reviewing upgrade history, Upgrade History tool in Upgrade Console, Upgrade Console tools, Use, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
@@ -48,7 +48,7 @@ When an object is customized, the system adds a corresponding record to the Cust
 
 3.  In the Skipped Changes to Review related list, select the update record to resolve.
 
-    See [Review skipped records using related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-access-rl.md).
+    See [Review skipped records using related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-management/um-access-rl.md).
 
 4.  Review the list of changes.
 
@@ -132,5 +132,5 @@ From the **Resolution** list, choose **Not Reviewed** to defer the decision on h
 
 Only skipped updates with a **Resolution Status** of **Not Reviewed** or without a resolution set appear in the Skipped Changes to Review related list. Any action you take that changes the **Resolution Status** to a value other than **Not Reviewed** or **--None--** removes the skipped update from list and moves it to the Skipped Changes Reviewed related list.
 
-**Parent Topic:**[Reviewing upgrade history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-review-history.md)
+**Parent Topic:**[Reviewing upgrade history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-management/um-review-history.md)
 

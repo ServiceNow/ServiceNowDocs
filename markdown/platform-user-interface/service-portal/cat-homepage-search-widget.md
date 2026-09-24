@@ -3,11 +3,11 @@ title: Catalog Homepage Search widget
 description: Give your users the option to search the Service Catalog as soon as they log in. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/cat-homepage-search-widget.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Service Catalog widgets, Widget library, Using portal widgets, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -30,7 +30,7 @@ Alternatively, to navigate to a list of Service Catalog categories, users can se
 
 Use the instance options to configure the Catalog Homepage Search widget for a portal page.
 
-**Note:** The AI Search instance options apply only if AI Search is enabled in your portal. For more information on enabling AI Search for Service Portal, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/enable-ais-sp.md).
+**Note:** The AI Search instance options apply only if AI Search is enabled in your portal. For more information on enabling AI Search for Service Portal, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/enable-ais-sp.md).
 
 <table id="table_ydc_fpv_bkb"><thead><tr><th>
 
@@ -72,7 +72,7 @@ Search Application
 
 Defines search experience settings for the widget, such as the search engine, search results limit, and suggestions limit. By default, the widget uses the same search application configuration as the portal, but you can override this configuration at the widget level.
 
- For more information on defining a search application configuration, see [Defining search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/defining-search-app-cfgs-ais.md).
+ For more information on defining a search application configuration, see [Defining search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/defining-search-app-cfgs-ais.md).
 
 </td></tr><tr><td>
 
@@ -82,7 +82,7 @@ Search Results Configuration
 
 Defines how search results are displayed after using the widget. By default, the widget uses the same search results configuration as the portal, but you can override this configuration at the widget level.
 
- For more information on defining a search results configuration, see [Define a composite dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/define-composite-dataset.md).
+ For more information on defining a search results configuration, see [Define a composite dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/define-composite-dataset.md).
 
 </td></tr><tr><td>
 
@@ -106,7 +106,7 @@ AI Search Source Filter
 
 </td><td>
 
-Content that portal users can search on, including tables in your instance or external data sources. For more information, see [Defining search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-sources-ais.md).
+Content that portal users can search on, including tables in your instance or external data sources. For more information, see [Defining search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-sources-ais.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -118,10 +118,10 @@ Typeahead Search
 
 </td><td>
 
-Configuration of the search bar. You configure the search bar by using the instance options for the [Typeahead Search widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/typeahead-search-widget.md). Use the syntax `{field1:'value1',field2:'value2'}`. For example, to configure the title, color, and size of the search bar, enter the following: `{title:'Search...',color:'default',size:'lg'}`.
+Configuration of the search bar. You configure the search bar by using the instance options for the [Typeahead Search widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/typeahead-search-widget.md). Use the syntax `{field1:'value1',field2:'value2'}`. For example, to configure the title, color, and size of the search bar, enter the following: `{title:'Search...',color:'default',size:'lg'}`.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sc-widgets.md)
+</table>**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/sc-widgets.md)
 
 **Related topics**  
 

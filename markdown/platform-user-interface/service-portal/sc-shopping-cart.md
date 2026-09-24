@@ -3,11 +3,11 @@ title: SC Shopping Cart widget
 description: The SC Shopping Cart widget \(sc-shopping-cart-v2\), used with Service Catalog, stores all your orders at one place. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/sc-shopping-cart.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Service Catalog widgets, Widget library, Using portal widgets, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -38,12 +38,12 @@ Use the widget instance options to customize the settings for the SC Shopping Ca
 |Cart Template|Enter the name of a ng-template you want to use to provide a different template for the shopping cart. By default, two ng-templates are provided: `small_shopping_cart_v2.html` and `large_shopping_cart_v2.html`.|
 |Auto update cart|Automatically updates the cart across all sessions.|
 
--   **[Enable the Shopping Cart widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/enable-shopping-cart.md)**  
+-   **[Enable the Shopping Cart widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/enable-shopping-cart.md)**  
 The shopping cart widget is enabled automatically for instances upgrading to Istanbul, however, there are several ways to manually enable or disable the widget.
--   **[Enable automatic updates to the shopping cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/enable-auto-update-cart.md)**  
+-   **[Enable automatic updates to the shopping cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/enable-auto-update-cart.md)**  
 Automatically update the shopping cart across all sessions when users make changes from multiple tabs and platforms.
 
-**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sc-widgets.md)
+**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/sc-widgets.md)
 
 **Related topics**  
 
@@ -86,5 +86,5 @@ Automatically update the shopping cart across all sessions when users make chang
 
 [Clone a widget]()
 
-[Add a catalog item to the shopping cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/add-to-cart-portal.md)
+[Add a catalog item to the shopping cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/add-to-cart-portal.md)
 

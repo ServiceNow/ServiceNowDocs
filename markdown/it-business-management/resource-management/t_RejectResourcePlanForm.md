@@ -3,11 +3,11 @@ title: Reject a resource plan from the Resource Plan form
 description: Resource managers can reject plans from the Resource Plan form or from the Resource Workbench.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/t\_RejectResourcePlanForm.html
-release: australia
+release: brazil
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Resource allocation, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -31,7 +31,7 @@ Role required: resource\_manager
 4.  Select **Reject**.
 
 
-**Parent Topic:**[Resource allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/r_AllocatingResources.md)
+**Parent Topic:**[Resource allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/r_AllocatingResources.md)
 
 **Related topics**  
 

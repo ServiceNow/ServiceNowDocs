@@ -3,11 +3,11 @@ title: Exploring the ServiceNow SDK
 description: Learn about developing applications in source code locally and installing changes on an instance with the ServiceNow SDK.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-sdk/servicenow-sdk.html
-release: australia
+release: brazil
 product: ServiceNow SDK
 classification: servicenow-sdk
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -24,7 +24,7 @@ In Visual Studio Code, you can develop applications in source code using Service
 
 The ServiceNow SDK includes a command-line interface \(CLI\) for managing changes between an instance and a local application. Using simple CLI commands, you can authenticate to an instance, create or convert an application, transform application metadata \(XML\) into ServiceNow Fluent code, build and install the application on the instance, and more.
 
-The ServiceNow SDK also serves as the application packaging service that builds applications in the ServiceNow IDE. For more information, see [Exploring the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/exploring-servicenow-ide.md).
+The ServiceNow SDK also serves as the application packaging service that builds applications in the ServiceNow IDE. For more information, see [Exploring the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/exploring-servicenow-ide.md).
 
 ## ServiceNow SDK workflow
 
@@ -32,7 +32,7 @@ The following infographic shows the workflow for developers to get started devel
 
 \[Omitted image "sdk-workflow.png"\] Alt text: Process for using the SDK in a local environment to develop applications and interface with an instance. For details, refer to the following description.
 
-1.  A developer installs the ServiceNow SDK locally. For more information, see [Install the ServiceNow SDK in an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/install-servicenow-sdk.md).
+1.  A developer installs the ServiceNow SDK locally. For more information, see [Install the ServiceNow SDK in an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/install-servicenow-sdk.md).
 2.  Using the CLI, the developer authenticates to a non-production instance to interface between their local environment and the instance with the `now-sdk auth` command. The developer must have the admin role on the instance.
 3.  The developer creates an application \(`now-sdk init`\) or converts an existing application from the instance \(`now-sdk init --from`\) for use with the ServiceNow SDK.
 4.  In Visual Studio Code, the developer can define application metadata in source code using ServiceNow Fluent, create custom JavaScript modules, or use third-party libraries.
@@ -66,7 +66,7 @@ Develop applications offline, outside of an instance in Visual Studio Code and m
 
 </td><td>
 
-[Developing applications with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/developing-applications-sdk.md)[Visual Studio Code documentation](https://code.visualstudio.com/docs)
+[Developing applications with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/developing-applications-sdk.md)[Visual Studio Code documentation](https://code.visualstudio.com/docs)
 
 </td><td>
 
@@ -78,7 +78,7 @@ Write source code to define the metadata that makes up ServiceNow applications
 
 </td><td>
 
-[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-fluent.md)
+[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-fluent.md)
 
 </td><td>
 
@@ -90,7 +90,7 @@ Organize and reuse code within an application scope with custom JavaScript modul
 
 </td><td>
 
-[JavaScript modules and third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/javascript-modules-third-party-libraries.md)
+[JavaScript modules and third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/javascript-modules-third-party-libraries.md)
 
 </td><td>
 

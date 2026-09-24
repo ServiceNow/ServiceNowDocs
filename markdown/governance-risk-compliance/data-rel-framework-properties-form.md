@@ -3,9 +3,9 @@ title: Data Relationships Framework properties form
 description: Use the Data Relationships Framework properties form to configure the relationship properties for Data Relationships Framework APIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/data-rel-framework-properties-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the properties, Data Relationships Framework, Reference, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -45,7 +45,7 @@ Maximum number of nodes to be processed
 
 Maximum number of nodes to be processed when the Data Relationships Framework API is called.
 
- The default value is 10,000. For example, when the API is called, it displays the results for a maximum of 10,000 nodes.
+ The default value is 10,000. For example, when the API is called, it displays the results for a maximum 10,000 nodes.
 
 </td></tr><tr><td>
 
@@ -55,8 +55,8 @@ Maximum number of levels to be processed
 
 Maximum number of levels to be processed when the Data Relationships Framework API is called.
 
- The default value is 5. For example, when the API is called, it processes maximum of 5 levels of the relationships and does not go deeper than 5 levels.
+ The default value is 5. For example, when the API is called, it processes maximum 5 levels of the relationships and does not go deeper than 5 levels.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure the properties for the Data Relationships Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-properties-for-data-rel-framework.md)
+</table>**Parent Topic:**[Configure the properties for the Data Relationships Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/configure-properties-for-data-rel-framework.md)
 

@@ -3,9 +3,9 @@ title: View all drivers
 description: View the list of all available drivers in the Enterprise Architecture Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-all-drivers.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [drivers, business architecture, portfolio]
 breadcrumb: [Manage drivers, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
@@ -34,10 +34,10 @@ Role required: sn\_apm.apm\_user
 
 A list of drivers are displayed. The list includes the following columns: **Name**, **Description**, **Driver type**, **Source**, and **Urgency**.
 
-**Parent Topic:**[Manage drivers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-drivers.md)
+**Parent Topic:**[Manage drivers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-manage-drivers.md)
 
 **Related topics**  
 
 
-[Add or edit a driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-or-edit-a-driver.md)
+[Add or edit a driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-add-or-edit-a-driver.md)
 

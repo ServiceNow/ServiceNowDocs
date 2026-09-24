@@ -3,11 +3,11 @@ title: Assessment templates
 description: The AI Risk and Compliance application uses assessment templates to evaluate AI assets for risk, regulatory compliance, and ethical alignment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/airc-assessment-templates.html
-release: australia
+release: brazil
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 15
 keywords: [assessment templates, smart assessment engine, post assessment actions, AI Risk and Compliance]
 breadcrumb: [AI governance life cycle, Explore, AI Risk and Compliance, Governance, Risk, and Compliance]
@@ -31,7 +31,7 @@ After upgrading to version 22.3.5, if you have the AI risk and compliance admin 
 
 **Important:** Only one version of a template can be in a Published state at a time. Publishing a new version automatically retires the previous published version.
 
-For more information on template versioning in SAE, see [Template versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/template-versioning.md).
+For more information on template versioning in SAE, see [Template versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/template-versioning.md).
 
 ## Assessment workspace
 
@@ -44,7 +44,7 @@ Use the Assessment Workspace to perform the following actions:
 -   Publish draft templates to make them available for use in assessments.
 -   Create assessment templates to support custom assessment requirements.
 
-**Note:** Assessment templates are delivered in **Draft** state and must be published before they can be used in assessments. If you have the AIRC manager \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager\] role you can publish assessments. To publish a template, navigate to **All** &gt; **Assessment Workspace**, open the template, and select **Publish**. Only one version of a template can be in a **Published** state at a time. Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager. For more information on creating and editing assessments using Smart Assessment Engine, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md) and [Post-assessment automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/impact-automation.md).
+**Note:** Assessment templates are delivered in **Draft** state and must be published before they can be used in assessments. If you have the AIRC manager \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager\] role you can publish assessments. To publish a template, navigate to **All** &gt; **Assessment Workspace**, open the template, and select **Publish**. Only one version of a template can be in a **Published** state at a time. Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager. For more information on creating and editing assessments using Smart Assessment Engine, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md) and [Post-assessment automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/impact-automation.md).
 
 ## Assessment template structure
 
@@ -143,7 +143,7 @@ Business configuration enables organizations to tailor assessment automation and
 
     After configuration, complete a test assessment and verify that the expected control objectives and risk statements are generated and mapped to the AI system once the assessment is marked as Closed complete.
 
-    For more information on post-assessment automations and configurations, see [Post-assessment automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/impact-automation.md) and [Configure post-assessment actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/configure-post-assessment-actions.md).
+    For more information on post-assessment automations and configurations, see [Post-assessment automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/impact-automation.md) and [Configure post-assessment actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/configure-post-assessment-actions.md).
 
 -   **Post-assessment action configuration example**
 
@@ -198,7 +198,7 @@ Business configuration enables organizations to tailor assessment automation and
 
 ## Assessment templates inventory
 
-The following table lists assessment templates available for AI systems, AI models, and AI cases. Templates delivered with AI Risk and Compliance are provided in **Draft** state. To publish templates, see the note in the [Assessment workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/airc-assessment-templates.md) section.
+The following table lists assessment templates available for AI systems, AI models, and AI cases. Templates delivered with AI Risk and Compliance are provided in **Draft** state. To publish templates, see the note in the [Assessment workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/airc-assessment-templates.md) section.
 
 |Name|Description|Applies to|Default state|When to use|
 |----|-----------|----------|-------------|-----------|

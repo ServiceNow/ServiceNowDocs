@@ -3,11 +3,11 @@ title: Release Overview dashboard for a multi-product release
 description: The Release overview dashboard displays key metrics and status information for a product release within a multi-product release, enabling product teams to assess readiness.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-release-overview-dashboard-multi.html
-release: australia
+release: brazil
 product: Digital Product Release
 classification: digital-product-release
 topic_type: concept
-last_updated: "2026-08-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Release dashboards, Explore, Digital Product Release, IT Service Management]
 ---
@@ -42,7 +42,7 @@ Risk score
 
 </td><td>
 
-Risk level of a release. This score is calculated based on the overdue tasks and policy failures.For more information, see [Risk score for a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-risk-score-release.md).
+Risk level of a release. This score is calculated based on the overdue tasks and policy failures.For more information, see [Risk score for a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-risk-score-release.md).
 
 </td></tr><tr><td>
 
@@ -103,7 +103,7 @@ Number of related tasks \(incidents, problems\) linked to the release, grouped b
 </td></tr></tbody>
 </table>**Note:** Counts and charts reflect only tasks, policies, approvals, and other items mapped to active phases. Items associated with a cancelled or superseded phase \(for example, after a phase restart\) aren't included.
 
-**Parent Topic:**[Digital Product Release dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-dashboard-release.md)
+**Parent Topic:**[Digital Product Release dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-dashboard-release.md)
 
 **Related topics**  
 

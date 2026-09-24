@@ -3,11 +3,11 @@ title: Total Cost of Ownership \(TCO\) for enterprise assets
 description: You can configure your Total Cost of Ownership \(TCO\) to track the total cost of your assets and to enable capital planning.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/confifure-eam-asset-tco.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Configure, Enterprise Asset Management, Asset Management]
 ---
@@ -95,10 +95,10 @@ TCO reports support domain separation.
 
 ## Upgrade considerations
 
-If you’re upgrading to Australia, after the scheduled job **TCO Upgrade for Enterprise Assets** runs, the following updates are made:
+If you’re upgrading to Brazil, after the scheduled job **TCO Upgrade for Enterprise Assets** runs, the following updates are made:
 
 -   The **Asset** field on task records is populated on all the expense lines using the source table mentioned in the **Source ID** field. The source table defines from where the expense line has been created. Whether it’s being created for a task, a configuration item, a contract, or for a purchase asset. When the scheduled job **TCO Upgrade for Enterprise Assets** runs, it searches for all task records and populates asset references from the task record to the corresponding expense line for the task. Similarly, the same scheduled job searches for all configuration items \(CI\) and populates asset references from the CI to the corresponding expense lines.
--   The **Expense category** field, introduced in Australia, is populated based on the source of the expense line. There are several expense categories for tasks. For example, the expense lines created for a purchase asset and for a contract asset have different expense categories. Similarly, there are different expense categories for CIs too.
+-   The **Expense category** field, introduced in Brazil, is populated based on the source of the expense line. There are several expense categories for tasks. For example, the expense lines created for a purchase asset and for a contract asset have different expense categories. Similarly, there are different expense categories for CIs too.
 -   The following three fields in an asset record get populated:
     -   cmn\_asset\_tco: View this field in the Financial section in an asset record.
     -   cmn\_end\_of\_useful\_life: View this field in an asset record by selecting the vertical ellipsis next to **Asset Details** and then select **Show XML**.
@@ -112,22 +112,22 @@ Configuring TCO involves the following procedures:
 
 -   Create task rate cards to capture costs per task type.
 
-    For detailed instructions, see [Create a task rate card in Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eam-task-rate-card.md).
+    For detailed instructions, see [Create a task rate card in Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-eam-task-rate-card.md).
 
 -   Create labor rate cards to capture costs by the time consumed on an hourly basis.
 
-    For detailed instructions, see [Create a labor rate card in Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eam-labor-rate-card.md).
+    For detailed instructions, see [Create a labor rate card in Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-eam-labor-rate-card.md).
 
 -   Create a TCO report to compare the actual or projected TCO of assets and a TCO report source.
 
-    For detailed instructions, see [Create a TCO report in Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eam-tco-report.md).
+    For detailed instructions, see [Create a TCO report in Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-eam-tco-report.md).
 
 -   Create a TCO report source to add sources to a TCO report.
 
-    For detailed instructions, see [Create a TCO report source in Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-tco-report-source-eam.md).
+    For detailed instructions, see [Create a TCO report source in Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-tco-report-source-eam.md).
 
 -   Create expense lines for closed tasks.
 
-    For detailed instructions, see [Create expense lines for closed tasks in Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-expenselines-closed-tasks-eam.md).
+    For detailed instructions, see [Create expense lines for closed tasks in Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-expenselines-closed-tasks-eam.md).
 
 

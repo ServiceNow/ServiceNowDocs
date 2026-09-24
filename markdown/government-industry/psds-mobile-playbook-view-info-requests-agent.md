@@ -3,9 +3,9 @@ title: Track information requests with the Mobile Agent
 description: Track and view the details of all the information requests that are assigned to you by using the Mobile Agent on your mobile device.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-mobile-playbook-view-info-requests-agent.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mobile Agent, Use, Public Sector Digital Services \(PSDS\)]
 ---
@@ -40,6 +40,6 @@ When you select a case in the Mobile Agent app, a form opens with the following 
 
 3.  Select the information request case that you want to see more details for.
 
-    For a detailed description of the information request case fields, see [Information Request case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/information-request-case-form.md).
+    For a detailed description of the information request case fields, see [Information Request case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/information-request-case-form.md).
 
 

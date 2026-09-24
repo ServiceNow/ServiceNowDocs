@@ -3,9 +3,9 @@ title: Summarize a banking customer profile with AI
 description: Use the Customer Profile Summarization skill to generate an AI-powered overview of a customer's status and information within the Customer 360 page in Agentic Contact Center for Banking. This feature helps customer service representatives quickly understand a customer's status to provide personalized, real-time support.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/summarize-customer-profile-fso.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Agentic Contact Center for Banking, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -24,6 +24,8 @@ Role required: sn\_fso\_csr.business\_agent, sn\_fso\_csr.personal\_agent
 
 The Customer profile summarization skill provides a concise, comprehensive summary of a customer's status in the Customer 360 workspace as part of Agentic Contact Center for Banking.
 
+\[Omitted image "agentic-contact-center-c360-context-summary.png"\] Alt text: Customer profile summary panel showing profile and status information.
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Financial Services Workspace**.
@@ -34,15 +36,15 @@ The Customer profile summarization skill provides a concise, comprehensive summa
 
 3.  After the summary is generated, you can perform additional actions.
 
-<table id="choicetable_ybr_pjr_mbc"><thead><tr><th align="left" id="d44265e107">
+<table id="choicetable_ybr_pjr_mbc"><thead><tr><th align="left" id="d44297e114">
 
 Option
 
-</th><th align="left" id="d44265e110">
+</th><th align="left" id="d44297e117">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d44265e116">
+</th></tr></thead><tbody><tr><td id="d44297e123">
 
 **Refresh the customer summary**
 
@@ -50,7 +52,7 @@ Procedure
 
 Select the refresh icon \(\[Omitted image "icon-refresh.png"\] Alt text: Refresh icon.\) to generate another customer summary.
 
-</td></tr><tr><td id="d44265e131">
+</td></tr><tr><td id="d44297e138">
 
 **Provide feedback for the summary**
 
@@ -58,7 +60,7 @@ Select the refresh icon \(\[Omitted image "icon-refresh.png"\] Alt text: Refresh
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d44265e154">
+</td></tr><tr><td id="d44297e161">
 
 **View the information about the case summary**
 
@@ -66,7 +68,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 If you want to review details about the summary, select the more info icon \(\[Omitted image "icon-more-info.png"\] Alt text: More info icon.\).
 
-</td></tr><tr><td id="d44265e169">
+</td></tr><tr><td id="d44297e176">
 
 **Expand or collapse the summary**
 
@@ -78,16 +80,16 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expa
 </table>
 ## What to do next
 
-Use an AI agent to engage in Q&amp;A, anticipate customer needs, and surface insights. For more information, see [Generate customer insights in the Customer 360 page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/generate-customer-insights-customer-360-workspace.md).
+Use an AI agent to engage in Q&amp;A, anticipate customer needs, and surface insights. For more information, see [Generate customer insights in the Customer 360 page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/generate-customer-insights-customer-360-workspace.md).
 
-**Parent Topic:**[Using Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/using-agentic-contact-center-for-banking.md)
+**Parent Topic:**[Using Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/using-agentic-contact-center-for-banking.md)
 
 **Related topics**  
 
 
-[AI in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/exploring-now-assist-for-financial-services-operations-fso.md)
+[AI in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/exploring-now-assist-for-financial-services-operations-fso.md)
 
-[AI skills in Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/ai-skills-agentic-contact-center-banking.md)
+[AI skills in Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/ai-skills-agentic-contact-center-banking.md)
 
-[Configure banking customer profile summarization in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-customer-profile-summarization-fso.md)
+[Configure banking customer profile summarization in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-customer-profile-summarization-fso.md)
 

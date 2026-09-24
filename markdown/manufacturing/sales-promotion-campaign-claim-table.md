@@ -1,20 +1,20 @@
 ---
 title: Sales Promotion Campaign Claim tables
-description: This section explains the sales promotion campaign claims tables in Manufacturing Commercial Operations.
+description: The sales promotion campaign claim tables store the promotion, case, and claim details used to manage sales promotion campaigns in Manufacturing Commercial Operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/sales-promotion-campaign-claim-table.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sales promotion campaign data model, Data model, Reference, Manufacturing Commercial Operations]
 ---
 
 # Sales Promotion Campaign Claim tables
 
-This section explains the sales promotion campaign claims tables in Manufacturing Commercial Operations.
+The sales promotion campaign claim tables store the promotion, case, and claim details used to manage sales promotion campaigns in Manufacturing Commercial Operations.
 
-## Sales Promotion plugin
+## Sales Promotion feature
 
 The sales promotion feature adds or modifies the existing tables:
 
@@ -22,7 +22,7 @@ The sales promotion feature adds or modifies the existing tables:
 -   Case \[sn\_customerservice\_case\]
 -   Case Line \[sn\_case\_line\]
 
-The sales promotion plugin adds the following tables.
+The sales promotion feature adds the following tables.
 
 <table id="table_ywt_vgz_r2c"><thead><tr><th>
 
@@ -38,7 +38,7 @@ Sales Promotion\[sn\_sales\_prm\_mgmt\_sales\_promotion\]
 
 </td><td>
 
-Stores the sales promotion details, which includes promotion name, start and end date of the promotion, incentive type, and incentive percentage. The checklist template provides the details of the documents required during the approval process.
+Stores the sales promotion details, which include promotion name, start and end date of the promotion, incentive type, and incentive percentage. The checklist template provides the details of the documents required during the approval process.
 
 </td></tr><tr><td>
 
@@ -49,8 +49,6 @@ Promotion Type\[sn\_sales\_prm\_mgmt\_promotion\_type\]
 Stores the promotion type details. Possible types are the following: -   trading promotion
 -   senior citizen promotion
 -   veteran promotion
-
-.
 
 </td></tr><tr><td>
 
@@ -82,7 +80,7 @@ Claim Case\[sn\_claim\_cmn\_case\]
 
 </td><td>
 
-Stores the input provided by the dealer to the manufacturer when the claim request is raised. This information is retrieved from the Promotion input table.
+Stores the input provided by the dealer to the manufacturer when the claim request is raised. Retrieves this information from the Promotion input table.
 
 </td></tr><tr><td>
 
@@ -98,7 +96,7 @@ Sales Promotion Claim Case\[sn\_sls\_prm\_clm\_mgt\_case\]
 
 </td><td>
 
-Stores the claim case and claim case line progress state information. For example, if the claim case is in the draft, submitted, review, or approved states.
+Stores the claim case and claim case line progress state information. For example, the claim case can be in the draft, submitted, review, or approved state.
 
 </td></tr><tr><td>
 
@@ -141,7 +139,7 @@ Case Line\[sn\_case\_line\]
 Stores the case line item records.
 
 </td></tr></tbody>
-</table>To learn more about the Case and Case Line, see [Case Lines and Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-case-mgmt-case-lines.md).
+</table>To learn more about the Case and Case Line, see .
 
-**Parent Topic:**[Sales promotion campaign data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/sales-promotion-campaign-claims.md)
+**Parent Topic:**[Sales promotion campaign data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/sales-promotion-campaign-claims.md)
 

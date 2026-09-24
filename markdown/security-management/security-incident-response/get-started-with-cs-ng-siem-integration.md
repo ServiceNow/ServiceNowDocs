@@ -3,11 +3,11 @@ title: Get started with CrowdStrike Next-Gen SIEM integration
 description: Activate and set up the CrowdStrike Next-Gen SIEM integration for Security Operation plug-in to interface with your ServiceNow AI Platform instance and Security Incident Response product.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/get-started-with-cs-ng-siem-integration.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CrowdStrike Next-Gen SIEM integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -61,7 +61,7 @@ The Security Incident Response plugin \(com.snc.security\_incident\) is required
 
 </td></tr><tr><td>
 
-[Install and configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/cs-ng-siem-integration.md)
+[Install and configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/cs-ng-siem-integration.md)
 
 </td><td>
 

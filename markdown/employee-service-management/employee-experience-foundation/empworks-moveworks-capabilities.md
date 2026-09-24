@@ -3,7 +3,7 @@ title: Moveworks capabilities
 description: You can handle work tasks, find information, and get things done faster with the Moveworks AI assistant. Chat naturally to update records, search company content, get answers, and complete requests without switching between different systems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/empworks-moveworks-capabilities.html
-release: australia
+release: brazil
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
@@ -134,10 +134,10 @@ You can request services and items from the catalog of your company in two ways:
     You can tell the AI assistant what you need in natural language. It asks for the required information through the conversation and submits your request when you've provided everything needed.
 
 
-For a full list of features, see [EmployeeWorks capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-capabilities-common.md).
+For a full list of features, see [EmployeeWorks capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/eslate-capabilities-common.md).
 
 **Related topics**  
 
 
-[EmployeeWorks capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-capabilities-common.md)
+[EmployeeWorks capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/eslate-capabilities-common.md)
 

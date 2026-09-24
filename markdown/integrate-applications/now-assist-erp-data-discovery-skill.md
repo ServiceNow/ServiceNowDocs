@@ -3,11 +3,11 @@ title: ServiceNow Otto for Zero Copy Connector ERP data discovery skill
 description: Use the ERP data discovery skill in ServiceNow Otto for Zero Copy Connector to query SAP standard database tables for data and records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/now-assist-erp-data-discovery-skill.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-07-22"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use generative AI, ServiceNow Otto for Zero Copy Connector, Workflow Data Fabric]
 ---
 
@@ -17,7 +17,7 @@ Use the ERP data discovery skill in ServiceNow Otto for Zero Copy Connector to q
 
 ## Now Assist ERP data discovery overview
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 The sn\_erp\_integration.erp\_ai\_user role is required to work with generative AI and agentic AI in ServiceNow Otto for ZCC.
 
@@ -31,7 +31,7 @@ The sn\_erp\_integration.erp\_ai\_user role is required to work with generative 
 
 ## Prerequisites for using ERP data discovery
 
-Follow the instructions in [Configure ServiceNow Otto for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-now-assist-for-zero-copy-connectors.md) to install the plugin.
+Follow the instructions in [Configure ServiceNow Otto for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-now-assist-for-zero-copy-connectors.md) to install the plugin.
 
 ## Asking ServiceNow Otto for ERP data
 

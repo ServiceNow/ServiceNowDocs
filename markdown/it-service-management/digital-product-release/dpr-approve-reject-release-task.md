@@ -3,11 +3,11 @@ title: Approve or reject a release task
 description: Review a release task and approve or reject it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-approve-reject-release-task.html
-release: australia
+release: brazil
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage releases for digital products and services, Use, Digital Product Release, IT Service Management]
 ---
@@ -63,5 +63,5 @@ If the requested item was assigned to a user group for approval, then the state 
 -   The rejection comments posted by the approver is added to the release task's Activities section.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Manage releases for digital products and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-manage-releases.md)
+</table>**Parent Topic:**[Manage releases for digital products and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-manage-releases.md)
 

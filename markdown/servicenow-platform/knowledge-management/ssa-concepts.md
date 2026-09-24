@@ -3,11 +3,11 @@ title: Self-Service Analytics concepts
 description: You can quantify your self-service effectiveness by measuring case deflections.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/ssa-concepts.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Self-Service Analytics, Exploring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,8 +26,8 @@ The system includes predefined configurations for the Self-Service Analytics fra
 
 Self-service analytics is based on the activity pattern associated with a deflection outcome. It consists of the following main components:
 
--   Activity pattern \(see [Activity pattern components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/ssa-concepts.md)\)
--   Deflection outcome \(see [Deflection outcome components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/ssa-concepts.md)\)
+-   Activity pattern \(see [Activity pattern components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/ssa-concepts.md)\)
+-   Deflection outcome \(see [Deflection outcome components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/ssa-concepts.md)\)
 
 ## Activity pattern components
 
@@ -39,7 +39,7 @@ Self-service analytics is based on the activity pattern associated with a deflec
 
 -   **Deflection outcome**
 
-    An activity pattern can lead to a deflection outcome. See [Deflection outcome components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/ssa-concepts.md).
+    An activity pattern can lead to a deflection outcome. See [Deflection outcome components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/ssa-concepts.md).
 
 -   **Primary activity**
 
@@ -49,7 +49,7 @@ Self-service analytics is based on the activity pattern associated with a deflec
 
 -   **Pattern element group**
 
-    A logical combination of two pattern elements, pattern element group, or both and how many times the combination occurs. For more information, see [Pattern element group components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/ssa-concepts.md).
+    A logical combination of two pattern elements, pattern element group, or both and how many times the combination occurs. For more information, see [Pattern element group components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/ssa-concepts.md).
 
 
 ## Pattern element group components
@@ -147,10 +147,10 @@ Self-service analytics is based on the activity pattern associated with a deflec
     Associates deflection configuration with an activity pattern. A deflection pattern is implemented as a table.
 
 
-**Parent Topic:**[Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/self-service-analytics.md)
+**Parent Topic:**[Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/self-service-analytics.md)
 
 **Related topics**  
 
 
-[Configure Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/config-ssa.md)
+[Configure Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/config-ssa.md)
 

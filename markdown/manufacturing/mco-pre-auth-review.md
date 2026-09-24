@@ -3,9 +3,9 @@ title: Review and approve a pre-authorization request
 description: Review and approve the pre-authorization request submitted by a dealer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-pre-auth-review.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Pre-authorization requests, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
@@ -37,4 +37,6 @@ Role required: sn\_claim\_cmn.warranty\_specialist
 
 5.  Select **Confirm**.
 
+
+**Parent Topic:**[Pre-authorization requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-agents-pre-auth-requests.md)
 

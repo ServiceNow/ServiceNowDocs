@@ -3,11 +3,11 @@ title: Roles for Parallel Review and Feedback
 description: When you integrate Parallel Review and Feedback with other applications, users must have the necessary roles to review records, capture feedback, and track the closure of feedback.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/roles-for-parallel-review-and-feedback.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Parallel Review and Feedback in Advanced Risk, Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -81,5 +81,5 @@ sn\_risk.reader
 Users with this role have read-access to feedback.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Parallel Review and Feedback in Advanced Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/integrate-advanced-risk-with-parallel-review-feedback.md)
+</table>**Parent Topic:**[Parallel Review and Feedback in Advanced Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/integrate-advanced-risk-with-parallel-review-feedback.md)
 

@@ -3,9 +3,9 @@ title: Lookup remote information in the system of record
 description: This use case illustrates how to use a REST API call to lookup financial transaction details for a customer’s mortgage account on a remote banking system \(system of record\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/fso-int\_guide-agt\_table\_lookup.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Integration use cases, Developer resources, Financial Services Operations \(FSO\)]
 ---
@@ -20,25 +20,29 @@ Using the consumer and financial account information, a script within the Servic
 
 **Note:** This use case assumes the bank application exposes the REST endpoint GET /api/getTransactions that returns the requested consumer details and their associated financial account.
 
+\[Omitted image "fso-remote\_look\_sys\_record.png"\] Alt text: Workflow that shows how to lookup financial transaction details on a remote banking system of record.
+
 The following is an example of what the financial transaction details received from the remote bank application might look like when they appear on the FSO case form:
 
-The following diagram shows the application flow for this use case scenario and provides brief remarks on any required processing. In this implementation, the data obtained from the remote bank application is store in remote tables. [Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables.md) are only cached in memory, they are never stored in the ServiceNow database tables. You can also implement this scenario by writing the remote data to the corresponding ServiceNow database tables. The [s](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-int_guide-agt_submit_case.md) scenario illustrates how to store data in the ServiceNow database tables using the [GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) API.
+\[Omitted image "fso-remote\_look\_trans\_detail.png"\] Alt text: FSO case form that shows the transaction details received from the remote bank application.
+
+The following diagram shows the application flow for this use case scenario and provides brief remarks on any required processing. In this implementation, the data obtained from the remote bank application is store in remote tables. [Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/remote-tables.md) are only cached in memory, they are never stored in the ServiceNow database tables. You can also implement this scenario by writing the remote data to the corresponding ServiceNow database tables. The [s](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/fso-int_guide-agt_submit_case.md) scenario illustrates how to store data in the ServiceNow database tables using the [GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) API.
 
 <table id="table_rmq_ywq_bpb"><tbody><tr><td>
 
- 
+\[Omitted image "fso-remote\_table\_sys\_record.png"\] Alt text: Workflow that shows a case, where the agent enters the required information and uses the REST API calls to lookup financial transaction details on a remote banking system.
 
 </td><td>
 
-1.  The agent enters the required information on the FSO form. Using this information, formulate the REST call /api/getTransactions using the [RESTMessageV2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_RESTMessageV2API.md) API and send it to the remote bank application to obtain the customer's financial transaction details.
+1.  The agent enters the required information on the FSO form. Using this information, formulate the REST call /api/getTransactions using the [RESTMessageV2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/c_RESTMessageV2API.md) API and send it to the remote bank application to obtain the customer's financial transaction details.
 2.  The remote bank application processes the request and returns the specified customer's financial transaction details.
-3.  The financial transaction details are cached on the ServiceNow instance in remote tables using the [v\_table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_tableAPI.md) API.
+3.  The financial transaction details are cached on the ServiceNow instance in remote tables using the [v\_table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/v_tableAPI.md) API.
 4.  The transaction details are then displayed on the FSO form.
 
 </td></tr></tbody>
 </table>## Example code
 
-The follow code example shows how to use the [RESTMessageV2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_RESTMessageV2API.md) API to create and execute the REST call to the external bank application. It then store the return results in a [remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables.md) using the [v\_table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_tableAPI.md) API. Before you can use the v\_table API you must activate the Remote Tables \(com.glide.script.vtable\) plugin.
+The follow code example shows how to use the [RESTMessageV2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/c_RESTMessageV2API.md) API to create and execute the REST call to the external bank application. It then store the return results in a [remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/remote-tables.md) using the [v\_table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/v_tableAPI.md) API. Before you can use the v\_table API you must activate the Remote Tables \(com.glide.script.vtable\) plugin.
 
 ```
 (function executeQuery (v_table, v_query) {

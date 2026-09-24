@@ -3,9 +3,9 @@ title: Obtain a survey instance URL
 description: You can distribute a survey instance URL to allow the assigned user to open a survey questionnaire.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_ObtainASurveyInstanceURL.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Survey URLs, Survey distribution, Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -37,7 +37,7 @@ The survey instance URL is available on the survey instance record.
 5.  Distribute the URL to the assigned user.
 
 
-**Parent Topic:**[Survey URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyURLs.md)
+**Parent Topic:**[Survey URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SurveyURLs.md)
 
 **Related topics**  
 

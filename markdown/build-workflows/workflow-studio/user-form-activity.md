@@ -3,11 +3,11 @@ title: User Form activity
 description: Use this activity to surface a record to the end user. This activity requires you to select a table and record, and the desired form view that should be surfaced to the end user in your playbook. The end user can then interact with this record accordingly. Display a form during runtime to collect input values for your playbook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/user-form-activity.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Playbooks reference, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -22,7 +22,7 @@ This activity is available as a common activity. Users with the admin, playbook.
 
 ## Inputs
 
-Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see [Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/dot-walking-examples.md).
+Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see [Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/dot-walking-examples.md).
 
 <table id="table_ajt_sr3_plb"><thead><tr><th>
 
@@ -163,7 +163,7 @@ The attachment record containing the attachments that end users can upload durin
 </td></tr></tbody>
 </table>## Advanced inputs
 
-After configuring the required inputs for your activity, you can also choose to configure additional inputs. In the side panel, select **Show additional options** to display these advanced inputs. For more information, see [Activity experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/activity-definitions.md).
+After configuring the required inputs for your activity, you can also choose to configure additional inputs. In the side panel, select **Show additional options** to display these advanced inputs. For more information, see [Activity experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/activity-definitions.md).
 
 <table id="table_cjj_sr3_plb"><thead><tr><th>
 
@@ -223,7 +223,7 @@ True/False
 
 </td><td>
 
-Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/start-with-delay-properties.md).**Note:** Select **Show additional options** to see this field.
+Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/start-with-delay-properties.md).**Note:** Select **Show additional options** to see this field.
 
 </td></tr><tr><td>
 
@@ -254,7 +254,7 @@ What an activity or stage does during restart:-   **Skip on restart**: The stage
 -   **Run always**: The stage or activity always runs, whether during an initial or restarted run.
 -   **Skip on first run**: The stage or activity runs only on restart. It never runs during an initial run.
 
-To learn more about enabling and configuring restart for playbooks, stages, and activities, see [Configure restart for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/enable-define-restart.md).
+To learn more about enabling and configuring restart for playbooks, stages, and activities, see [Configure restart for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/enable-define-restart.md).
 
 **Note:** Select **Show additional options** to see this field.
 

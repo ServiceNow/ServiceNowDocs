@@ -3,13 +3,13 @@ title: Configure your ServiceNow AI Platform instance for external content index
 description: Create and configure a non-interactive service user account on your ServiceNow AI Platform source instance to allow access by the ServiceNow instance external content connector.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-sn-aip-instance-external-content-indexing.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [ServiceNow instance external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -21,7 +21,7 @@ Create and configure a non-interactive service user account on your ServiceNow A
 
 Role required: admin and security\_admin
 
-**Note:** The security\_admin role is an elevated privilege role. To learn more about elevated privilege roles, see [Elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_ElevatedPrivilege.md). For details on the security\_admin elevated privilege role, see [Security\_admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-admin-role.md).
+**Note:** The security\_admin role is an elevated privilege role. To learn more about elevated privilege roles, see [Elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_ElevatedPrivilege.md). For details on the security\_admin elevated privilege role, see [Security\_admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-admin-role.md).
 
 ## About this task
 
@@ -33,9 +33,9 @@ Perform all of these steps on the ServiceNow AI Platform instance that you want 
 
 1.  On your source instance, create a new non-interactive user and save its user ID.
 
-    1.  Create a new user by following the steps from [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md).
+    1.  Create a new user by following the steps from [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/t_CreateAUser.md).
 
-        **Note:** Make sure to select the **Web service access only** option on the new user record. This option designates your new user as a non-interactive user. To learn more about how non-interactive users differ from interactive users, see [Non-interactive sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_NonInteractiveSessions.md).
+        **Note:** Make sure to select the **Web service access only** option on the new user record. This option designates your new user as a non-interactive user. To learn more about how non-interactive users differ from interactive users, see [Non-interactive sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/c_NonInteractiveSessions.md).
 
     2.  Copy the **User ID** for your new source instance user account and store it in a secure location.
 
@@ -43,19 +43,19 @@ Perform all of these steps on the ServiceNow AI Platform instance that you want 
 
 2.  On your source instance, generate and copy a strong password for your new user.
 
-    1.  Generate a strong password for your new user by following the steps from [Configure password for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/reset-your-password.md).
+    1.  Generate a strong password for your new user by following the steps from [Configure password for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/reset-your-password.md).
 
     2.  Store the copied password in a secure location.
 
         **Important:** Your connector administrator needs this user account's password when configuring the ServiceNow instance external content connector on your destination instance.
 
-3.  On your source instance, add your new user to the **MFA Exempted User Group** by following the steps from [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AddAUserToAGroup.md).
+3.  On your source instance, add your new user to the **MFA Exempted User Group** by following the steps from [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/t_AddAUserToAGroup.md).
 
     **Note:** Inclusion in this group exempts your new user from the default requirement to use multi-factor authentication \(MFA\) when logging in to your source instance. This configuration is needed for proper operation of the ServiceNow instance external content connector.
 
 4.  On your source instance, create a new custom role in the Global application scope.
 
-    1.  Select the Global application scope, following the steps from [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_SelectAnAppFromTheAppPicker.md).
+    1.  Select the Global application scope, following the steps from [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationPicker.md).
 
     2.  Navigate to **All** &gt; **User Administration** &gt; **Roles**.
 
@@ -138,7 +138,7 @@ Insert a new row with the name of your new custom role.
         |-----|---------|-----|
         |Sys ID|is|ee3ebfdc9f4112108647e8c40b0a1cb0|
 
-        For details on creating and applying filters to limit records shown in a table's list view, see [Create a filter in List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreatingFilters.md).
+        For details on creating and applying filters to limit records shown in a table's list view, see [Create a filter in List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_CreatingFilters.md).
 
         This filter should display a single Access Control record with Decision Type **Deny Unless**.
 
@@ -150,18 +150,18 @@ Insert a new row with the name of your new custom role.
 
 6.  On your source instance, assign roles to your new user.
 
-    1.  Assign your new custom role to your new user by following the steps from [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
+    1.  Assign your new custom role to your new user by following the steps from [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
 
-    2.  Assign each of the following roles to your new user by following the steps from [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
+    2.  Assign each of the following roles to your new user by following the steps from [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
 
         |Role|Description|
         |----|-----------|
-        |access\_analyzer\_admin|Grants the user access to tables relating to access control in your source instance, including the Access Control \[sys\_security\_acl\], Role \[sys\_user\_role\], and Table \[sys\_db\_object\] tables. To learn more about access control, see [Access Control Lists \(ACLs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control-rules.md).|
-        |catalog\_manager|Grants the user access to Service Catalog items in your source instance. For more details on this base system role, see [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_BaseSystemRoles.md).|
-        |itil|Grants the user access to incidents and user criteria in your source instance. For more details on this base system role, see [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_BaseSystemRoles.md).|
-        |knowledge\_admin|Grants the user access to KB articles in your source instance. For more details on this base system role, see [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_BaseSystemRoles.md).|
-        |snc\_platform\_rest\_api\_access|Grants the user access to Platform Rest APIs in your source instance. The ServiceNow instance external content connector uses the [Attachment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_AttachmentAPI.md) and [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_TableAPI.md) to access your source instance during crawls. For more details on this base system role, see [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_BaseSystemRoles.md).|
-        |snc\_read\_only|Restricts the user to read-only access on all tables that it has access to. For more details on this base system role, see [Read-only role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_ReadOnlyRole.md).|
+        |access\_analyzer\_admin|Grants the user access to tables relating to access control in your source instance, including the Access Control \[sys\_security\_acl\], Role \[sys\_user\_role\], and Table \[sys\_db\_object\] tables. To learn more about access control, see [Access Control Lists \(ACLs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/access-control-rules.md).|
+        |catalog\_manager|Grants the user access to Service Catalog items in your source instance. For more details on this base system role, see [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/r_BaseSystemRoles.md).|
+        |itil|Grants the user access to incidents and user criteria in your source instance. For more details on this base system role, see [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/r_BaseSystemRoles.md).|
+        |knowledge\_admin|Grants the user access to KB articles in your source instance. For more details on this base system role, see [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/r_BaseSystemRoles.md).|
+        |snc\_platform\_rest\_api\_access|Grants the user access to Platform Rest APIs in your source instance. The ServiceNow instance external content connector uses the [Attachment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/c_AttachmentAPI.md) and [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/c_TableAPI.md) to access your source instance during crawls. For more details on this base system role, see [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/r_BaseSystemRoles.md).|
+        |snc\_read\_only|Restricts the user to read-only access on all tables that it has access to. For more details on this base system role, see [Read-only role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/c_ReadOnlyRole.md).|
 
 
 ## What to do next
@@ -169,12 +169,12 @@ Insert a new row with the name of your new custom role.
 Provide the following items to the connector administrator who will create the ServiceNow instance connector on your destination instance:
 
 -   The URL for your ServiceNow AI Platform source instance. As an example, you might provide `https://example.service-now.com/` as the instance URL.
--   The user ID for the non-interactive service user you created on your source instance, as copied in step [1.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-sn-aip-instance-external-content-indexing.md). As an example, you might provide `sn.instance.connector` as the user ID.
--   The password for the non-interactive service user you created on your source instance, as copied in step [2.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-sn-aip-instance-external-content-indexing.md).
+-   The user ID for the non-interactive service user you created on your source instance, as copied in step [1.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-sn-aip-instance-external-content-indexing.md). As an example, you might provide `sn.instance.connector` as the user ID.
+-   The password for the non-interactive service user you created on your source instance, as copied in step [2.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-sn-aip-instance-external-content-indexing.md).
 
 Your connector administrator needs these items to configure a ServiceNow instance external content connector on your destination instance to retrieve content and security principals from your ServiceNow AI Platform source instance.
 
-For details on creating and configuring a ServiceNow instance external content connector, see [Create a ServiceNow instance external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-snow-instance.md).
+For details on creating and configuring a ServiceNow instance external content connector, see [Create a ServiceNow instance external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-ext-cont-connector-snow-instance.md).
 
-**Parent Topic:**[ServiceNow instance external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/servicenow-instance-external-content-connector.md)
+**Parent Topic:**[ServiceNow instance external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/servicenow-instance-external-content-connector.md)
 

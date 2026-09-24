@@ -3,9 +3,9 @@ title: Consumer Service Portal changes
 description: Activating the Customer Household Data Model plugin lets you view households and their members on the Consumer Service Portal, and also view or create cases for household members.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/industry-data-model-portal-changes.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring households, Customer data, Set up your environment, Configure, Customer Service Management]
 ---

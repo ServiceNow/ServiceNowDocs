@@ -3,9 +3,9 @@ title: MITRE ATLAS information in the MITRE Card
 description: The MITRE Card displays MITRE ATLAS technique information that has been aggregated from threat lookups, observables, or SIEM integrations associated with a security incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/mitre-atlas-card.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [MITRE ATLAS framework, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---

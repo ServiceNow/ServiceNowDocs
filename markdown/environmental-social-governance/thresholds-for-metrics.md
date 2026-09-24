@@ -3,9 +3,9 @@ title: Thresholds for metrics
 description: In the context of metrics, thresholds refer to predetermined values or limits used to assess the performance of a metric. These thresholds are typically defined based on specific criteria or objectives and serve as reference points to determine whether the measured value or performance meets, exceeds, or falls below the desired level.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/thresholds-for-metrics.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Exploring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -18,19 +18,19 @@ Thresholds use color-coded indicators to signify different levels of perform
 
 **Important:**
 
-Threshold fields and metric status are not evaluated for ad hoc metric data tasks. For more information, see [Ad hoc metric data task limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/ad-hoc-metric-data-task-limitations.md).
+Threshold fields and metric status are not evaluated for ad hoc metric data tasks. For more information, see [Ad hoc metric data task limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/ad-hoc-metric-data-task-limitations.md).
 
 ## Types of thresholds
 
 The two types of threshold for a metric are static and dynamic:
 
 -   Static: A static threshold for a metric or a metric definition refers to a fixed value used as a limit for tracking a metric.
--   Dynamic: Dynamic thresholds are specified in percentages and calculate variance based on previous period data. For example, if you track electricity consumption and the value in January 2026 is 700 kWh, you can define threshold conditions to monitor changes in subsequent periods. Using the condition builder, you can specify conditions such as "percentage change is between 5% and 10%" or "percentage change exceeds 15%." Each threshold level is assigned a unique color to provide visual indicators. When February 2026 data is collected and the percentage change from January falls within your defined conditions, the system displays the corresponding color indicator and triggers any configured actions such as sending notifications or creating issues. When the previous period value is null or zero, the system uses a configured variance base value to calculate the percentage change instead of skipping the calculation. For more information, see [Metric definition setting record fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/metric-definition-setting-record-fields.md). 
+-   Dynamic: Dynamic thresholds are specified in percentages and calculate variance based on previous period data. For example, if you track electricity consumption and the value in January 2026 is 700 kWh, you can define threshold conditions to monitor changes in subsequent periods. Using the condition builder, you can specify conditions such as "percentage change is between 5% and 10%" or "percentage change exceeds 15%." Each threshold level is assigned a unique color to provide visual indicators. When February 2026 data is collected and the percentage change from January falls within your defined conditions, the system displays the corresponding color indicator and triggers any configured actions such as sending notifications or creating issues. 
 
 **Related topics**  
 
 
-[Create a threshold for a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-threshold-for-a-metric.md)
+[Create a threshold for a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/create-a-threshold-for-a-metric.md)
 
-[Copy a threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/copy-thresholds.md)
+[Copy a threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/copy-thresholds.md)
 

@@ -3,11 +3,11 @@ title: TCP connection discovery
 description: Discovery identifies and classifies information about TCP connections using the ADM and ADME probes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r\_DataCollDiscoTCPConnections.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Network device discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -283,7 +283,7 @@ Discovery launches these probes when enhanced ADM is activated:
 
 |Probe|Description|
 |-----|-----------|
-|Windows - ADM Enhanced|Performs the same functions as the Windows ADM probe with additional parameters to control continuous TCP-based discovery. This probe is compatible with WinRM and non-WinRM supported MID Servers. Configure your MID Server using the `mid.windows.management_protocol` parameter. See [MID Server parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-parameters.md) for the values you can use for this parameter.|
+|Windows - ADM Enhanced|Performs the same functions as the Windows ADM probe with additional parameters to control continuous TCP-based discovery. This probe is compatible with WinRM and non-WinRM supported MID Servers. Configure your MID Server using the `mid.windows.management_protocol` parameter. See [MID Server parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-parameters.md) for the values you can use for this parameter.|
 |UNIX - ADM Enhanced|Performs the same functions as the UNIX ADM probe with additional parameters to control continuous TCP-based discovery.|
 
 Use these probe parameters with the enhanced ADM probes:
@@ -310,7 +310,7 @@ max.adme\_result\_payload\_size
 
 </td><td>
 
-Controls the size of the result, including the payload.**Note:** If this is greater than the [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerProperties.md) mid.discovery.max\_payload\_size, a configuration error can occur.
+Controls the size of the result, including the payload.**Note:** If this is greater than the [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_MIDServerProperties.md) mid.discovery.max\_payload\_size, a configuration error can occur.
 
 </td></tr><tr><td>
 
@@ -321,10 +321,10 @@ Controls the size of the result, including the payload.**Note:** If this is grea
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Network device discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_NetworkDevices.md)
+</table>**Parent Topic:**[Network device discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/c_NetworkDevices.md)
 
 **Related topics**  
 
 
-[Application Dependency Mapping \(ADM\) for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_ApplicationDependencyMapping.md)
+[Application Dependency Mapping \(ADM\) for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_ApplicationDependencyMapping.md)
 

@@ -3,11 +3,11 @@ title: Configure email recommendation
 description: Configure email reply recommendation to help agents generate and refine efficient email responses based on conversation context.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/configure-email-reply-recommendation-in-now-assist.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
@@ -84,8 +84,8 @@ Input fields
 
     Default and Custom Roles:
 
-    -   If no changes are made, the default role sn\_customerservice\_agent or sn\_customerservice.consumer\_agent  will automatically appear in **Define Access** and **Select Display**.
-    -   If custom roles were added before the upgrade, they’ll be updated automatically by a script.
+    -   If no changes are made, the default role sn\_customerservice\_agent or sn\_customerservice.consumer\_agent will automatically appear in **Define Access** and **Select Display**.
+    -   If custom roles were added before the upgrade, they'll be updated automatically by a script.
     -   If new roles are created after the upgrade, you must manually add them in both the **Define Access** and **Select Display**.
 
         **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still must manually select it in **Select Display** to make it active.

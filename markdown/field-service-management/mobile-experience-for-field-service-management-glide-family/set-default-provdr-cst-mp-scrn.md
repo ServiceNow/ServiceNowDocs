@@ -3,11 +3,11 @@ title: Set the default provider for a Custom Map Screen
 description: Configure a map screen to enable site maps on the Mobile Agent application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/set-default-provdr-cst-mp-scrn.html
-release: australia
+release: brazil
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Site Mapping for Field Service Management, Setting up Field Service Mobile Agent, Configure, Field Service Management]
 ---
@@ -18,7 +18,7 @@ Configure a map screen to enable site maps on the Mobile Agent application.
 
 ## Before you begin
 
-Ensure there is a Custom Map Provider. For more information, see [Create a Custom Map Provider record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/create-custom-map-prvdr-rcrd.md).
+Ensure there is a Custom Map Provider. For more information, see [Create a Custom Map Provider record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/create-custom-map-prvdr-rcrd.md).
 
 Role required: admin, or wm\_admin
 

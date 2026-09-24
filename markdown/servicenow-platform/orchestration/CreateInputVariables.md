@@ -3,11 +3,11 @@ title: Create input variables
 description: Create the variables to pass into the activity in the Inputs form of the activity designer.After you create the input variables, map them to the fields in the Execution Command form.Use the input variables you created to configure the command that Orchestration executes on the Windows target machine.You can test the input parameters of a custom activity during its development without having to run the activity in a workflow context.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/CreateInputVariables.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Create custom activities using custom activity designer templates, Orchestration activity designer, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -53,7 +53,7 @@ Roles required: workflow\_admin or activity\_creator
 7.  Click **Continue** to advance to the **Execution Command** stage or click **Go to Pre-Processing \(Advanced\)** to create a script that runs before the activity executes.
 
 
-**Parent Topic:**[Create custom activities using custom activity designer templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/create-custom-activities.md)
+**Parent Topic:**[Create custom activities using custom activity designer templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/create-custom-activities.md)
 
 ## Map an input variable
 
@@ -86,7 +86,7 @@ Create the input variables you need in the **Inputs** form before you can advanc
 
 Role required: activity\_creator, admin
 
-**Note:** You can test the PowerShell connection between the MID Server and the target computer without having to run the acvitity in a workflow context. For details, see [test template outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/CreateInputVariables.md).
+**Note:** You can test the PowerShell connection between the MID Server and the target computer without having to run the acvitity in a workflow context. For details, see [test template outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/CreateInputVariables.md).
 
 ### Procedure
 
@@ -112,7 +112,7 @@ Input
 
 </td><td>
 
-Input variable builder. [Create variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/CreateInputVariables.md) to [map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/CreateInputVariables.md) to available fields.
+Input variable builder. [Create variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/CreateInputVariables.md) to [map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/CreateInputVariables.md) to available fields.
 
 </td></tr><tr><td>
 
@@ -170,7 +170,7 @@ Credential tag
 
 </td><td>
 
-Specific [Credential aliases for Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_AssignCredsOrchActivities.md) this activity must use to run Powershell commands on the host. If this field is left blank, the MID Server tries all the available credentials until it finds a valid one, ending with the MID Server service account. If a credential alias is defined, the MID Server tries the credentials for that alias only and does not try the MID Server service account. This field is not available when the **Use MID service account** check box is selected.
+Specific [Credential aliases for Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_AssignCredsOrchActivities.md) this activity must use to run Powershell commands on the host. If this field is left blank, the MID Server tries all the available credentials until it finds a valid one, ending with the MID Server service account. If a credential alias is defined, the MID Server tries the credentials for that alias only and does not try the MID Server service account. This field is not available when the **Use MID service account** check box is selected.
 
 </td></tr><tr><td>
 
@@ -225,7 +225,7 @@ An input test executes only the input parameters against an endpoint and not the
 
     \[Omitted image "TestDesignerSOAPInputsResponse.png"\] Alt text: Response payload from inputs test
 
-5.  To map appropriate parameter values in the payload to variables in the **Outputs** stage automatically, select an [auto-mapping option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/automap-output-variable-inputs.md).
+5.  To map appropriate parameter values in the payload to variables in the **Outputs** stage automatically, select an [auto-mapping option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/automap-output-variable-inputs.md).
 
 6.  Alternately, you can click **Save for parsing rules** to copy the entire payload to the parsing rules.
 

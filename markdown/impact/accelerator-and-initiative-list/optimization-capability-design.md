@@ -3,11 +3,11 @@ title: Optimization Capability Design
 description: This Accelerator provides support in designing capabilities and features to enhance platform health and drive ServiceNow product adoption.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/optimization-capability-design.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-04-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Optimization, Capability Design, Platform Health, User Stories, ServiceNow Adoption]
 breadcrumb: [Optimization Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]

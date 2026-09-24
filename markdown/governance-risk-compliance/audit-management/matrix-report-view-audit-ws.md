@@ -3,13 +3,13 @@ title: View matrix report in landing page and record page of Audit Workspace
 description: View the Matrix report in the Audit Workspace that presents the data in a structured format.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/matrix-report-view-audit-ws.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Audit Workspace for the Auditor, Audit Workspace Overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Audit Workspace for the Auditor, Audit Workspace overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # View matrix report in landing page and record page of Audit Workspace
@@ -42,7 +42,7 @@ The report helps to analyze relationships between different objects such as asse
 
     Since risk is the base source table, all the risk-related fields are displayed on the left pane. Level 0 is the risk, which is the default base table. All the data that are fetched from the risk record are Level 1.
 
-    For example, in the preceding illustration, for the **Loss of Availability** risk listed on the left pane you can view all the risk-related details that you configured from the target tables on the right pane. The control details that are retrieved from the Control table, the test plans for the control, the issues related to the control, and the issues related to the risk are all displayed in separate tabs that come from the configuration on the right pane.
+    For example, in the preceding illustration, the **Loss of Availability** risk is listed on the left pane. You can view all the risk-related details that you configured from the target tables on the right pane. The right pane displays separate tabs for the control details, test plans, control-related issues, and risk-related issues.
 
     For the record page display type matrix configuration, you can view the matrix report in the List view of the Audit Workspace.
 

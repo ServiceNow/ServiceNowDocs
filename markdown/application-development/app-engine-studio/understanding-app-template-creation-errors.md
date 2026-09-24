@@ -3,13 +3,13 @@ title: Identifying and fixing app template creation errors
 description: Learn how to identify and fix your app when unsupported features or metadata stop the template creation process in App Engine Studio \(AES\).Errors that occurred during the creation of a custom template that are displayed in the Scan Failure \[sys\_app\_scan\_failure\] table and their cause.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/understanding-app-template-creation-errors.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Build a custom template, Use an app template, Create your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Build a custom template, Use an app template, Create your app, Build, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Identifying and fixing app template creation errors
@@ -24,9 +24,9 @@ When an error happens during the template creation process, an error message is 
 
 \[Omitted image "template-errors-purple.png"\] Alt text: Template creation failure notification
 
-You can identify which elements of your application are causing it to fail the template creation process by selecting **View all errors**, which displays the Scan Failure \[sys\_app\_scan\_failure\] table. For more information about the errors in the table and their cause, see [Template creation errors in the Scan Failure table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/understanding-app-template-creation-errors.md).
+You can identify which elements of your application are causing it to fail the template creation process by selecting **View all errors**, which displays the Scan Failure \[sys\_app\_scan\_failure\] table. For more information about the errors in the table and their cause, see [Template creation errors in the Scan Failure table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/understanding-app-template-creation-errors.md).
 
-**Parent Topic:**[Build a custom template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/build-custom-template.md)
+**Parent Topic:**[Build a custom template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/build-custom-template.md)
 
 ## Template creation errors in the Scan Failure table
 
@@ -34,7 +34,7 @@ Errors that occurred during the creation of a custom template that are displayed
 
 ### Error messages
 
-For more information about what types of records are allowed and skipped, see [Supported features and metadata in custom templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/supported-features-metadata-custom-templates.md).
+For more information about what types of records are allowed and skipped, see [Supported features and metadata in custom templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/supported-features-metadata-custom-templates.md).
 
 <table id="table_jyq_4qt_z5b"><thead><tr><th>
 

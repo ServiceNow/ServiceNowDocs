@@ -3,7 +3,7 @@ title: Clone a store plan
 description: Clone an existing store plan to create a new store plan that includes the items, conditions, and hierarchy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-clone-store-plan.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -45,5 +45,5 @@ The cloned store plan includes the store plan items.
 
 The system creates a copy of the selected Store plan and opens the cloned store plan in a new tab.
 
-**Parent Topic:**[Manage store plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-manage-store-plans.md)
+**Parent Topic:**[Manage store plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-manage-store-plans.md)
 

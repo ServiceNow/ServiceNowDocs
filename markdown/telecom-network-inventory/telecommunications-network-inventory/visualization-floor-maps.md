@@ -3,11 +3,11 @@ title: Floor map
 description: Use the floor map in the Telecommunications Network Inventory application to view a layout of your datacenter infrastructure. You can view the network assets placement and monitor the operational data on the map.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/visualization-floor-maps.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Visualize network infrastructure, Explore, Telecommunications Network Inventory]
 ---
@@ -150,7 +150,7 @@ Rack view shows the visual representation of a rack. The Rack view also shows th
 </td></tr></tbody>
 </table>## Managing your floor map
 
-You can upload and manage the datacenter map objects using the Indoor Mapping Map Studio. You can view the respective floor plans for a selected building in a datacenter campus using the floor map. To learn more, see [Upload and manage floor map for your datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-floor-map-data-center.md).
+You can upload and manage the datacenter map objects using the Indoor Mapping Map Studio. You can view the respective floor plans for a selected building in a datacenter campus using the floor map. To learn more, see [Upload and manage floor map for your datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/create-floor-map-data-center.md).
 
 ## Access
 
@@ -160,5 +160,5 @@ Access the floor map in the Telecommunications Network Inventory workspace as fo
 2.  Select the blue hub icon \(\[Omitted image "icon-blue-hub.png"\] Alt text: Blue Hub Icon.\).
 3.  Select the **Floor map** tab.
 
-To learn more about how to use the floor map, see [Floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-floor-map.md).
+To learn more about how to use the floor map, see [Floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/using-floor-map.md).
 

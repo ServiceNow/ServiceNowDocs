@@ -3,11 +3,11 @@ title: Upload, validate, and import the OT device inventory spreadsheet
 description: Chat with an AI agent in the ServiceNowOtto panel to begin the process for uploading, validating, and importing your Operational Technology \(OT\) device data into the OT CMDB.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/upload-import-validate-ot-device-inventory-spreadsheet.html
-release: australia
+release: brazil
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: task
-last_updated: "2026-07-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Import your device spreadsheet into OT CMDB, Agentic AI for the Operational Technology Manager, Use, Operational Technology Manager, Operational Technology]
 ---
@@ -18,7 +18,7 @@ Chat with an AI agent in the ServiceNowOtto panel to begin the process for uploa
 
 ## Before you begin
 
-The ServiceNow Otto panel must be activated. For more information, see [Activate the panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+The ServiceNow Otto panel must be activated. For more information, see [Activate the panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 Role required: ot\_excel\_import\_user and now\_assist\_panel\_user
 
@@ -30,7 +30,7 @@ Role required: ot\_excel\_import\_user and now\_assist\_panel\_user
 
 2.  Enter a prompt such as `I want to import an OT device` to initiate the Import OT device spreadsheet into OT CMDB agentic workflow.
 
-    The OT Excel import task AI agent begins the workflow process and creates an OT Excel SGC Import Task record. For more information about import tasks, see [Using the Service Graph Connector for Microsoft Excel through import tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/use-excel-sgc-through-import-tasks.md).
+    The OT Excel import task AI agent begins the workflow process and creates an OT Excel SGC Import Task record. For more information about import tasks, see [Using the Service Graph Connector for Microsoft Excel through import tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/use-excel-sgc-through-import-tasks.md).
 
 3.  Select **Open OT Excel SGC Import Task**.
 
@@ -40,7 +40,7 @@ Role required: ot\_excel\_import\_user and now\_assist\_panel\_user
 
 5.  After you fill out the spreadsheet with your OT device inventory, upload it in the Attachment panel.
 
-    For more information about how to fill out the spreadsheet, see [Prepare your Pre-import OT Worksheet Entry Review tool for Service Graph Connector import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/preparing-your-pre-import-ot-worksheet-entry-review-tool-for-sgc-import.md).
+    For more information about how to fill out the spreadsheet, see [Prepare your Pre-import OT Worksheet Entry Review tool for Service Graph Connector import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/preparing-your-pre-import-ot-worksheet-entry-review-tool-for-sgc-import.md).
 
 6.  In the ServiceNow Otto panel, enter a prompt such as `Done` to alert the agent that you have uploaded the spreadsheet.
 
@@ -52,7 +52,7 @@ Role required: ot\_excel\_import\_user and now\_assist\_panel\_user
 
 8.  If you want to create a remediation task for the invalid records, enter `Yes`.
 
-    The agent creates a remediation task for all invalid records so you can resolve them as needed. For more information about possible validation errors, see [Managing Validations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/managing-validations.md).
+    The agent creates a remediation task for all invalid records so you can resolve them as needed. For more information about possible validation errors, see [Managing Validations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/managing-validations.md).
 
     The agent then asks whether to proceed importing the valid or partially invalid staging records.
 
@@ -69,5 +69,5 @@ Role required: ot\_excel\_import\_user and now\_assist\_panel\_user
 
 To verify the CMDB import, navigate to the Industrial Workspace list view and open the **All OT Devices** list. The recently imported OT device records appear in the list.
 
-**Parent Topic:**[Import the OT device spreadsheet into OT CMDB agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/now-assist-otm-aiagents-import-ot-device-workflow.md)
+**Parent Topic:**[Import the OT device spreadsheet into OT CMDB agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/now-assist-otm-aiagents-import-ot-device-workflow.md)
 

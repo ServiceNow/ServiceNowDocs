@@ -3,11 +3,11 @@ title: Add secrets to Docker for Headless Browser setup in Linux
 description: Create a Docker secret, which stores the password of the ServiceNow user who will log into the instance to execute the tests. Docker Secrets is a feature of ServiceNow for securely storing the passwords that will be used in containers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/headless-browser-add-secrets-docker.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Headless Browser setup for Linux, Headless Browser for Automated Test Framework, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -18,7 +18,7 @@ Create a Docker secret, which stores the password of the ServiceNow user who wil
 
 ## Before you begin
 
-Complete Step 3: [Create the Docker image and containers for Headless Browser setup in Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/headless-browser-create-docker-image-containers.md)
+Complete Step 3: [Create the Docker image and containers for Headless Browser setup in Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/headless-browser-create-docker-image-containers.md)
 
 Role required: none.
 
@@ -45,9 +45,9 @@ Role required: admin on your ServiceNow instance and local administrator on the 
 
 The result is your secret ID, which you must save for later use. The secret ID will be added to the ServiceNow instance in the **sys\_property** `sn_atf.headless.secret_id`.
 
-**Parent Topic:**[Headless Browser setup for Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/headless-browser-procedure-linux.md)
+**Parent Topic:**[Headless Browser setup for Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/headless-browser-procedure-linux.md)
 
-**Previous topic:**[Create the Docker image and containers for Headless Browser setup in Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/headless-browser-create-docker-image-containers.md)
+**Previous topic:**[Create the Docker image and containers for Headless Browser setup in Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/headless-browser-create-docker-image-containers.md)
 
-**Next topic:**[Set up instance for Headless Browser in Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/headless-browser-instance-setup.md)
+**Next topic:**[Set up instance for Headless Browser in Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/headless-browser-instance-setup.md)
 

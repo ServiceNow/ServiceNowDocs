@@ -3,11 +3,11 @@ title: Jenkins log levels and Log Recorders
 description: Set log levels in the Jenkins plugin for ServiceNow DevOps based on the extent of log detail you need for debugging.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/devops-jenkins-log-recorders.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Additional information - Jenkins, Jenkins, Integrate, DevOps Change Velocity, IT Service Management]
 ---

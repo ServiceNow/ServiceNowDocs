@@ -3,11 +3,11 @@ title: Activate the Care Team Operations Case Creation AI voice agent
 description: Activate the Care Team Operations Case Creation AI voice agent to enable care team members to create and manage cases over the phone.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-now-assist-activate-voice-agent.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, ServiceNow Otto for Care Team Operations, Healthcare and Life Sciences]
+breadcrumb: [Configure, ServiceNow Otto for Care Team Operations, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Activate the Care Team Operations Case Creation AI voice agent
@@ -18,7 +18,7 @@ Activate the Care Team Operations Case Creation AI voice agent to enable care te
 
 Role required: admin
 
-For information on configuring and deploying AI Voice Agents, see [Deploy AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/deploy-ai-agents-for-voice.md).
+For information on configuring and deploying AI Voice Agents, see [Deploy AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/deploy-ai-agents-for-voice.md).
 
 **Note:**
 

@@ -3,11 +3,11 @@ title: Configure mTLS authentication for a MID Web Server
 description: Enhance security in your MID Web Server extension by enabling mTLS authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-mid-web-server-extension-mTLS.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [MID Web Server and agent mTLS Authentication, Configure the MID Web Server extension, MID Web Server, Event Management setup, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -18,9 +18,9 @@ Enhance security in your MID Web Server extension by enabling mTLS authenticatio
 
 ## Before you begin
 
-Ensure that you have enabled Transport Layer Security \(TLS\) on the agent. For details, see [Connect the agent to the MID Server using mTLS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/enable-tls-agent.md).
+Ensure that you have enabled Transport Layer Security \(TLS\) on the agent. For details, see [Connect the agent to the MID Server using mTLS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/enable-tls-agent.md).
 
-Ensure that the **insecure-skip-tls-verify** parameter in the `acc.yml` configuration file is set to `false`. For details on the `acc.yml` file, see [Configuration file options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-yml-options.md).
+Ensure that the **insecure-skip-tls-verify** parameter in the `acc.yml` configuration file is set to `false`. For details on the `acc.yml` file, see [Configuration file options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-yml-options.md).
 
 **Note:** This procedure includes commands for both CentOS 7/Linux and Windows Server environments. Select the commands relevant for your host operating system. If working with another Linux distribution, adapt the commands as needed for your specific OS.
 
@@ -135,5 +135,5 @@ The MID Web Server extension searches the following locations \(in the specified
 
 ## What to do next
 
-[Connect the agent to the MID Server using mTLS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/enable-tls-agent.md).
+[Connect the agent to the MID Server using mTLS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/enable-tls-agent.md).
 

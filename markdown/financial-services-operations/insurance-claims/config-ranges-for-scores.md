@@ -3,11 +3,11 @@ title: Configure the fraud score ranges with UI Builder
 description: Configure the fraud score ranges by using the UI Builder. You can configure certain fields, such as the Ranges field, in the fraud information page of the CSM Configurable Workspace, so that you can set the score range.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/config-ranges-for-scores.html
-release: australia
+release: brazil
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Generate and view a claim's fraud score, Use, Commercial Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -44,5 +44,5 @@ Role required: admin
 **Related topics**  
 
 
-[CRM Workspace record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-record-pages.md)
+[CRM Workspace record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-config-workspace-record-pages.md)
 

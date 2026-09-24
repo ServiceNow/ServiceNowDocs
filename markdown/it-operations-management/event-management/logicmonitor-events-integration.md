@@ -3,11 +3,11 @@ title: Integrate Logicmonitor events
 description: Integrate Logicmonitor with Event Management to send events into ServiceNow by adding a webhook using Basic Authentication, it will also be available with bi-directional functionality.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/logicmonitor-events-integration.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -77,5 +77,5 @@ Starting from the Xanadu release, the OOTB \(Out-Of-The-Box\) event rules provid
     **Note:** To map the CI to the **cmdb\_ci\_vm\_object** record instead of the **cmdb\_ci\_server**, enable the event rule created for Logicmonitor. The Logicmonitor's collector name, which comes in as a hostname in the payload, should be the same as the object\_id of the virtual machine discovered in the **cmdb\_ci\_vm\_object** record.
 
 
-**Parent Topic:**[Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-listener-transform-script.md)
+**Parent Topic:**[Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-listener-transform-script.md)
 

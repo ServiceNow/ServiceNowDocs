@@ -3,11 +3,11 @@ title: Manually add CIs to an application service
 description: Add configuration items to manually created application services or to services discovered by Service Mapping.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/manually-add-ci-to-business-service.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Service instances \(Application services\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,8 +18,8 @@ Add configuration items to manually created application services or to services 
 
 ## Before you begin
 
--   Verify that the CI type for the configuration item \(CI\) that you are planning to add, exists. If necessary, create the CI type as described in [Create CI types for Service Mapping and Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_CreateCITypeForSM.md).
--   Add CIs to the CMDB for the device or application that you want to add, if necessary. See [Populate the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_OptionsToPopulateCMDB.md) for more information.
+-   Verify that the CI type for the configuration item \(CI\) that you are planning to add, exists. If necessary, create the CI type as described in [Create CI types for Service Mapping and Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/t_CreateCITypeForSM.md).
+-   Add CIs to the CMDB for the device or application that you want to add, if necessary. See [Populate the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_OptionsToPopulateCMDB.md) for more information.
 
 Role required: app\_service\_admin or service\_mapping\_admin
 
@@ -29,11 +29,11 @@ Adding a CI to an application service requires creating a relationship between t
 
 -   Adding a method to populate the application service.
 
-    Navigate to **CSDM** &gt; **Manage Technology Management Services** &gt; **Application Service**. Select an application service and then use the **Populate the Application Service** tab to choose a method to populate the application service. For more details, see [Create an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-it-services.md).
+    Navigate to **CSDM** &gt; **Manage Technology Management Services** &gt; **Application Service**. Select an application service and then use the **Populate the Application Service** tab to choose a method to populate the application service. For more details, see [Create an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/create-it-services.md).
 
 -   Using the application service service map as described in the steps below.
 
-    The default relationship type of the added connection in this case is **Depends on::Used by**. You can modify this default relationship type by changing the value of the **sa.it\_service.manual\_ci\_rel\_type** property. See [Components installed with application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/components-installed-app-services.md) for more information.
+    The default relationship type of the added connection in this case is **Depends on::Used by**. You can modify this default relationship type by changing the value of the **sa.it\_service.manual\_ci\_rel\_type** property. See [Components installed with application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/components-installed-app-services.md) for more information.
 
 
 **Important:** You cannot fine-tune or edit tag-based and dynamic services from the map.
@@ -49,7 +49,7 @@ You can manually connect a CI only to actual CIs existing in the CMDB, not to a 
 -   Qualifier \[cmdb\_ci\_qualifier\]
 -   Application cluster \[cmdb\_ci\_application\_cluster\]
 
-There are system records in the Manual CI Exclusions/Inclusions \[svc\_manual\_ci\_exclusions\_inclusions\] table. See [Components installed with application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/components-installed-app-services.md) for more information.
+There are system records in the Manual CI Exclusions/Inclusions \[svc\_manual\_ci\_exclusions\_inclusions\] table. See [Components installed with application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/components-installed-app-services.md) for more information.
 
 **Note:** The Manual CI Exclusions/Inclusions \[svc\_manual\_ci\_exclusions\_inclusions\] table doesn't include CIs added using traversal rules.
 
@@ -61,7 +61,7 @@ If working with an service instance discovered by Service Mapping, manually add 
 -   To add a temporary placeholder for a CI, which Service Mapping did not discover. In this case you are planning to perform necessary troubleshooting to ensure that Service Mapping discovers this CI in the future. For example, add an IBM WebSphere Message Broker to the Bank Customer Portal service.
 -   To create an service instance that combines entry points and CIs automatically discovered by Service Mapping with entry points and CIs from the CMDB. After you manually add an entry point, you can update the service instance with CIs from the CMDB based on the relationships defined there.
 
-For additional information related to Service Mapping, see [Pattern customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_MappingPatternsCustomization.md) and [Enable traffic-based discovery for CI types or specific CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_CreateATrafficBasedDiscoveryRule.md).
+For additional information related to Service Mapping, see [Pattern customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/c_MappingPatternsCustomization.md) and [Enable traffic-based discovery for CI types or specific CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/t_CreateATrafficBasedDiscoveryRule.md).
 
 ## Procedure
 
@@ -122,7 +122,7 @@ Select the CI from the list of CIs of the selected CI type.**Note:** To eliminat
 
         **Note:** If you do not see the **Manually add a connection** option in the right-click menu, check that you are logged in with the user that belongs to the same domain as the application service.
 
-    3.  Configure attributes for the entry point as described in [Entry points attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/r_EntryPointsforBizSvcDef.md).
+    3.  Configure attributes for the entry point as described in [Entry points attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/r_EntryPointsforBizSvcDef.md).
 
     4.  Click **Submit**.
 
@@ -154,7 +154,7 @@ Select the CI from the list of CIs of the selected CI type.**Note:** To eliminat
 **Related topics**  
 
 
-[Link application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/link-services-to-services.md)
+[Link application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/link-services-to-services.md)
 
-[addCI\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/BusinessServiceManagerAPI.md)
+[addCI\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/BusinessServiceManagerAPI.md)
 

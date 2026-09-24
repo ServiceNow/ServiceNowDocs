@@ -3,11 +3,11 @@ title: Define action properties
 description: Create and configure a Data Source request action in Integration Hub. After the request action is published in Integration Hub, you can choose it as a Request action in the Data Source record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/define-action-properties.html
-release: australia
+release: brazil
 product: System Import Sets
 classification: system-import-sets
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a REST \(Integration Hub\) type data source, Create a data source, Data sources, Import sets, Imports, Workflow Data Fabric]
 ---
@@ -61,11 +61,11 @@ Role required: import\_admin
 
     3.  Select **Script step** from the Action Outline.
 
-    4.  Configure the Script step as described in [Script step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/javascript-step-action-designer.md).
+    4.  Configure the Script step as described in [Script step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/javascript-step-action-designer.md).
 
 9.  Select **REST step** from the Action Outline.
 
-10. Configure the REST step as described in [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/rest-request-action-designer.md).
+10. Configure the REST step as described in [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/rest-request-action-designer.md).
 
 11. Choose from the following:
 
@@ -75,5 +75,5 @@ Role required: import\_admin
     -   Click **Save** to save the request action.
     -   Click **Publish** to publish the request action and make it available for use.
 
-**Parent Topic:**[Create a REST \(Integration Hub\) type data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/create-rest-type-data-source.md)
+**Parent Topic:**[Create a REST \(Integration Hub\) type data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/create-rest-type-data-source.md)
 

@@ -3,9 +3,9 @@ title: Health Assessment Dashboard
 description: View detailed Health Assessment results closer collaboration with the Impact squad to prioritize, review, and address best practice platform health findings.​
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/health-assessment-dashboard.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [HealthScan tech KPIs, HealthScan, Impact Delivery Instance reference, Impact reference, Impact]
 ---
@@ -165,8 +165,8 @@ Link to KB articles or product documentation regarding how to address the findin
 
 **Note:** This feature is available in Impact Guided, Advanced, and Total packages.
 
--   **[Manage Health Assessment Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/manage-health-assessment-dashboard.md)**  
+-   **[Manage Health Assessment Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/manage-health-assessment-dashboard.md)**  
 Address platform health findings from the Health Assessment Dashboard.
 
-**Parent Topic:**[Diagnose with tech KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-tech-kpis.md)
+**Parent Topic:**[Diagnose with tech KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/impact-tech-kpis.md)
 

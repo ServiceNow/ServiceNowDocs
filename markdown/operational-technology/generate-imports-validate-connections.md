@@ -3,9 +3,9 @@ title: Generate imports and validate the connections
 description: For each ServiceNow OT Discovery connection, configure the name and run as user for each import job. Each connection will generate a new Scheduled Import Set and Data Source.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/generate-imports-validate-connections.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -65,5 +65,5 @@ Role required: admin
 14. Return to the Guided Setup page.
 
 
-**Parent Topic:**[Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-ot-discovery.md)
+**Parent Topic:**[Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/sgc-ot-discovery.md)
 

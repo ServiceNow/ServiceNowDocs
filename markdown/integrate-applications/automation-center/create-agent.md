@@ -3,13 +3,13 @@ title: Create an agent for Task Mining requests
 description: Create an automation request agent to efficiently manage the tasks of the Task Mining automation request without manual intervention.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/create-agent.html
-release: australia
+release: brazil
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integration with Task Mining, Automation Center integrations, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Working with automations, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Create an agent for Task Mining requests
@@ -24,8 +24,8 @@ Role required: sn\_ac.automation\_admin, sn\_ac.automation\_technical\_user
 
 Consider the following when using this feature:
 
--   Only requests created from Task Mining are supported. For more information, see [Integration with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/integration-with-automation-center.md).
--   User task step summarization skill must be activated and the automation request must be in **In progress** state. For more information about the skill, see [Activate skills for ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/activate-skill.md).
+-   Only requests created from Task Mining are supported. For more information, see [Integration with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/integration-with-automation-center.md).
+-   User task step summarization skill must be activated and the automation request must be in **In progress** state. For more information about the skill, see [Activate skills for ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/activate-skill.md).
 
 ## Procedure
 
@@ -51,16 +51,16 @@ Consider the following when using this feature:
 
     You can select the current instance or any other instance. Verify that the instance you choose has Automation Center installed.
 
-    To configure an instance, set the connection alias for the **AC Agent Enablement connection** alias. For information on configuring an instance, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-alias.md).
+    To configure an instance, set the connection alias for the **AC Agent Enablement connection** alias. For information on configuring an instance, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/connection-alias.md).
 
     A summary of the agent that is in progress is displayed.
 
 6.  Select **Create agent in AI studio** after reviewing the content.
 
-    For the detailed procedure to create an agent in AI Agent Studio, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md).
+    For the detailed procedure to create an agent in AI Agent Studio, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-next-best-action-agent.md).
 
     The agent is created for the automation request.
 
 
-**Parent Topic:**[Integration with Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/integrating-with-task-mining.md)
+**Parent Topic:**[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/automations.md)
 

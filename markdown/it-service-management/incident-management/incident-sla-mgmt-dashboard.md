@@ -3,11 +3,11 @@ title: Legacy: Incident SLA Management dashboard
 description: See how well the incidents that are subject to a Service Level Agreement meet the deadlines of those SLAs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/incident-sla-mgmt-dashboard.html
-release: australia
+release: brazil
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Legacy: Incident SLA Management Platform Analytics Solutions, Reporting incidents, Incident Management, IT Service Management]
 ---
@@ -18,11 +18,11 @@ See how well the incidents that are subject to a Service Level Agreement meet th
 
 **Important:**
 
-Starting in Xanadu release, the Incident SLA Management dashboard is deprecated. Users can use [Incident management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident.md) to view whether the incidents that are subject to a Service Level Agreement, meet the deadlines of those SLAs.
+Starting in Xanadu release, the Incident SLA Management dashboard is deprecated. Users can use [Incident management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident.md) to view whether the incidents that are subject to a Service Level Agreement, meet the deadlines of those SLAs.
 
 The dashboard title indicates that it is inactive because you activate the solution after configuration and data collection.
 
-\[Omitted image "image.incident-sla-management"\] Alt text: Animated tour of the tabs of the Incident SLA Management dashboard
+\[Omitted image "incident-sla-management.gif"\] Alt text: Animated tour of the tabs of the Incident SLA Management dashboard
 
 ## End user and roles
 
@@ -133,5 +133,5 @@ The dashboard title indicates that it is inactive because you activate the solut
 -   Assignment Group
 -   Task SLA Breached Status
 
-**Parent Topic:**[Legacy: Incident SLA Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-sla-content-pack.md)
+**Parent Topic:**[Legacy: Incident SLA Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/incident-sla-content-pack.md)
 

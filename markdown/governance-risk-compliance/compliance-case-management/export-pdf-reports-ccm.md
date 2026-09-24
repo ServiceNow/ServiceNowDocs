@@ -3,11 +3,11 @@ title: Export a report to PDF
 description: Create Portable Document Format \(PDF\) reports for compliance cases or requests using predefined or customized templates in the GRC: Compliance Case Management application. This feature enables the stakeholders who may not have access to the application can still access the data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/export-pdf-reports-ccm.html
-release: australia
+release: brazil
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Compliance Case Management, Governance, Risk, and Compliance]
 ---
@@ -22,13 +22,13 @@ Role required: sn\_comp\_case.compliance\_​case\_analyst
 
 ## About this task
 
-You can export compliance data to PDF reports for easy sharing with audit teams, partners, or internal committees, eliminating the requirement for application access. A compliance administrator can select a predefined template or create a customized document template to generate reports. For more information, see [Configure a PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/configure-editable-pdf.md).
+You can export compliance data to PDF reports for easy sharing with audit teams, partners, or internal committees, eliminating the requirement for application access. A compliance administrator can select a predefined template or create a customized document template to generate reports. For more information, see [Configure a PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/configure-editable-pdf.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  Select the list \[Omitted image "ws-list-icon.png"\] icon.
+2.  Select the list \[Omitted image "ws-list-icon.png"\] Alt text: List icon.
 
 3.  To generate a compliance case report, select **All cases**.
 
@@ -51,5 +51,5 @@ You can export compliance data to PDF reports for easy sharing with audit teams,
 10. To download a local copy of the PDF report, select the More actions \[Omitted image "more-actions.png"\] icon on the PDF report, and select **Download**.
 
 
-**Parent Topic:**[Using Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/use-compliance-case-management.md)
+**Parent Topic:**[Using Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/use-compliance-case-management.md)
 

@@ -3,9 +3,9 @@ title: Signature Verification Status
 description: View the status of valid, invalid, and missing signatures across different applications to assess code signing coverage. Use this information to identify areas that may require additional attention or action.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/signature-verification-status.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Health and Status Dashboard, Code Signing, Platform Security]
 ---
@@ -104,5 +104,5 @@ Text field
 Date and time when the script was last scanned for signature verification in the format: `DD/MM/YY/H:S (Day/Month/Year/Hour:Minute)`
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Code Signing Health and Status Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/code-signing-health-and-status-dashboard.md)
+</table>**Parent Topic:**[Code Signing Health and Status Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/code-signing-health-and-status-dashboard.md)
 

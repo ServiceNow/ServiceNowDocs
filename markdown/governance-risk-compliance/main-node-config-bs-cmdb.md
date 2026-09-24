@@ -3,9 +3,9 @@ title: Service \(CMDB\) Main node configuration
 description: The Service \(CMDB\) Main node configuration defines the relationships for the services. Existing customers typically use the Service \(CMDB\) Main node configuration, while new customers use the Opres with CSDM header Main node configuration. Administrators can display or hide the Services overview or Business services overview based on organizational needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/main-node-config-bs-cmdb.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring 360º views for services and processes, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---

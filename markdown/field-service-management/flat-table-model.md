@@ -3,9 +3,9 @@ title: Data model for denormalized tables in Field Service Management
 description: Use the table below to reference the Field Service Management weekly resource span denormalized table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/flat-table-model.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Field Service Management]
 ---
@@ -24,5 +24,5 @@ Use the table below to reference the Field Service Management weekly resource sp
 |Spans|JSON|List of weekly schedule and event spans|
 |Domain|Domain id| |
 
-**Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-reference.md)
+**Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/fsm-reference.md)
 

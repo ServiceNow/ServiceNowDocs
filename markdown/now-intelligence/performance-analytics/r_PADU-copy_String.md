@@ -3,11 +3,11 @@ title: PADomainUtils - copy\(String runAs\)
 description: Copies Performance Analytics records to a different domain.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/r\_PADU-copy\_String.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [PADomainUtils - Global, Domain separation, Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [PADomainUtils - Global, Domain separation, Configure advanced featu
 
 Copies Performance Analytics records to a different domain.
 
-To copy dashboards or scheduled jobs, see [copyDashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/PADU-copyDashboard_S_S.md) and [copyJob](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/r_PADU-copyJob_String_String.md).
+To copy dashboards or scheduled jobs, see [copyDashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/PADU-copyDashboard_S_S.md) and [copyJob](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/r_PADU-copyJob_String_String.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -32,5 +32,5 @@ var pa = new SNC.PADomainUtils();
 pa.copy('09ff3d105f231000b12e3572f2b4775d');
 ```
 
-**Parent Topic:**[PADomainUtils - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PADomainUtils.md)
+**Parent Topic:**[PADomainUtils - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_PADomainUtils.md)
 

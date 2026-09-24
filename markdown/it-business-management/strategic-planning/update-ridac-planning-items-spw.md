@@ -3,11 +3,11 @@ title: Populate planning items on RIDAC records
 description: Run the scheduled job to populate the planning item field on RIDAC records that were created before the Strategic Planning was installed. This job ensures legacy RIDAC records appear correctly in related lists and reports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/update-ridac-planning-items-spw.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-07-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [backfill, planning item, scheduled job, RIDAC, migration]
 breadcrumb: [Configure, RIDAC, Strategic Planning, Strategic Portfolio Management]

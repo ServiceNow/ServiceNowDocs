@@ -3,13 +3,13 @@ title: Configure the Portal Polaris Header widget for your portal
 description: Associate the Portal Polaris Header widget as your header for the selected theme on your portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-config-portal-polaris-header.html
-release: australia
+release: brazil
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Portal Polaris Header widget, Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Portal Polaris Header widget, Set up Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure the Portal Polaris Header widget for your portal
@@ -26,15 +26,15 @@ Unlike other widgets in the Configurable Portal widgets, the Portal Polaris Head
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Service Portal** &gt; **Portal**.
+1.  Navigate to **All** &gt; **Service Portal** &gt; **Portals**.
 
-2.  On the Service Portal page, search and select `Customer Support` in the Title column.
+2.  On the Service Portals page, search and select `Customer Support` in the Title column.
 
 3.  On the Customer Support page, in the **Theme** field, select the Preview this record icon \(\[Omitted image "preview-record.png"\] Alt text: Preview this record\).
 
 4.  Select **Open Record** on the Theme pop-up window.
 
-5.  On the Portal Next Experience Theme page, in the **Header** field, select the Lookup using list icon \(\[Omitted image "lookup-list.jpg"\] Alt text: Look up list\).
+5.  On the Portal Theme page, in the **Header** field, select the Lookup using list icon \(\[Omitted image "lookup-list.jpg"\] Alt text: Look up list\).
 
     **Note:** If a message appears about the application scope, select **here** to be able to edit the record.
 

@@ -3,11 +3,11 @@ title: Access the Unified Map feature from the Service Mapping Workspace
 description: View a hierarchical map of CIs and the relationships between them by adding access to the Unified Map feature to the Service Mapping Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/view-unified-map-sm-workspace.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -28,7 +28,7 @@ Role required: service\_mapping\_admin
 
 ## About this task
 
-Review [Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-workspace-unified-map.md) to learn more about the Unified Map feature.
+Review [Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-workspace-unified-map.md) to learn more about the Unified Map feature.
 
 **Note:** The Unified Map feature offers limited Service Mapping functionality.
 
@@ -53,14 +53,14 @@ Review [Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
     A new tab opens displaying the Unified Map for the application service in the CMDB Workspace.
 
 
-**Parent Topic:**[Using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/using-service-mapping.md)
+**Parent Topic:**[Using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/using-service-mapping.md)
 
 **Related topics**  
 
 
-[View the attributes of a CI or a relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map-show-attributes.md)
+[View the attributes of a CI or a relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/unified-map-show-attributes.md)
 
-[View service instances for a CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map-show-app-service.md)
+[View service instances on Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/unified-map-show-app-service.md)
 
-[View historical changes for a CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map-show-ci-changes.md)
+[View historical changes for a CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/unified-map-show-ci-changes.md)
 

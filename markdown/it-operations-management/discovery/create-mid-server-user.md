@@ -3,7 +3,7 @@ title: Create a MID Server user
 description: Create a user account with the mid\_server role so MID Servers can authenticate and communicate with the ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/create-mid-server-user.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
@@ -22,9 +22,9 @@ Create a user account with the mid\_server role so MID Servers can authenticate 
 Verify the following:
 
 -   You're using the Zurich Patch 8 or later version of the ServiceNow AI Platform.
--   You have installed the ITOM Visibility plugin. For more information, see [Install ITOM Visibility using ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/install-nowassist-setup-itom-visibility.md).
--   You have installed the ServiceNow Otto for IT Operations Management \(ITOM\) plugin. For more information, see [Install ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/install-na-itom.md).
--   You're on the Configure IT Operations Management page of the Configuration Console. For more information, see [Access the ITOM Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/access-itom-config-console-disco.md).
+-   You have installed the ITOM Visibility plugin. For more information, see [Install ITOM Visibility using ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/install-nowassist-setup-itom-visibility.md).
+-   You have installed the ServiceNow Otto for IT Operations Management \(ITOM\) plugin. For more information, see [Install ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/install-na-itom.md).
+-   You're on the Configure IT Operations Management page of the Configuration Console. For more information, see [Access the ITOM Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/access-itom-config-console-disco.md).
 
 Role required: admin
 
@@ -62,7 +62,7 @@ User ID
 
 </td><td>
 
-Enter a user name for the MID Server user. This name is specified in the **mid.instance.username** parameter of the configuration file that the MID Server installer creates. For details, see [MID Server parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-parameters.md).
+Enter a user name for the MID Server user. This name is specified in the **mid.instance.username** parameter of the configuration file that the MID Server installer creates. For details, see [MID Server parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-parameters.md).
 
  **Note:** Avoid using the same MID Server logged in user across multiple MID Servers.
 
@@ -87,5 +87,5 @@ Enter a password for the MID Server user. This password is specified in the **mi
 **Related topics**  
 
 
-[Create the MID Server user and grant the role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SetupMIDServerRole.md)
+[Create the MID Server user and grant the role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_SetupMIDServerRole.md)
 

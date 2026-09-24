@@ -3,11 +3,11 @@ title: Activate or deactivate a Stream Producer
 description: Activate a Stream Producer configuration to begin capturing and streaming table changes to your Kafka topic. You can deactivate it at any time to stop streaming changes. When you deactivate a producer, any unprocessed messages in the CDC queue are discarded.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/activate-stream-producer.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-07-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [activate, deactivate, Stream Producer, start, stop]
 breadcrumb: [Stream Producer, Using Stream Connect for Apache Kafka, Import and stream data, Integration Hub, Workflow Data Fabric]
@@ -63,5 +63,5 @@ The Stream Producer is activated or deactivated as requested. If you activated t
 
 After activating a Stream Producer, you can monitor activity and metrics in the **Stream Producer CDC Statistics** related list on the Stream Producer form. Statistics are updated periodically and show the number of messages sent and other activity metrics.
 
-**Parent Topic:**[Stream Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-producer.md)
+**Parent Topic:**[Stream Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/stream-producer.md)
 

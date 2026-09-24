@@ -3,11 +3,11 @@ title: Configure CyberArk Certificate Manager SaaS credentials
 description: Configure authentication credentials so Certificate Inventory and Management can communicate with CyberArk Certificate Manager SaaS for automated certificate life-cycle management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/configure-cyberark-venafi-creds.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2024-12-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [CyberArk Certificate Manager SaaS credentials configuration]
 breadcrumb: [Certificate management with CyberArk Certificate Manager SaaS, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
@@ -54,7 +54,7 @@ Role required: pki\_admin or admin
 
 5.  Assign a credential alias to the credential.
 
-    For more information, see [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/discovery-credential-alias.md).
+    For more information, see [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/discovery-credential-alias.md).
 
     1.  In the **Credential alias** field, select the Unlock Credential alias icon \[Omitted image "lock-icon.png"\].
 

@@ -3,11 +3,11 @@ title: Create a work order
 description: When off-site work is required, create a work order to provide field service agents with the information they must fulfill the request. You can create a work order from scratch or from another existing work order.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-create-work-order.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Product non-conformance without playbook, MCO workspace, Use, Manufacturing Commercial Operations]
+breadcrumb: [Product non-conformance, Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a work order
@@ -26,7 +26,7 @@ Role required: Quality Issue Management Admin, product non-conformance submitter
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **List** &gt; **Product Non Conformance Case** &gt; **Correction Actions**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **List** &gt; **Product Non Conformance Case** &gt; **Correction Actions**.
 
     **Note:** Work order can be created from Product Non Conformance tasks, Containment actions, Product Quality Investigation Tasks, Corrective, and Preventive actions.
 
@@ -40,7 +40,7 @@ Role required: Quality Issue Management Admin, product non-conformance submitter
 
 5.  On the Work Order form, fill in the fields.
 
-    For a description of the field values, see [Work order form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/work-order-form.md).
+    For a description of the field values, see [Work order form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/work-order-form.md).
 
 6.  Select **Save**.
 
@@ -48,4 +48,6 @@ Role required: Quality Issue Management Admin, product non-conformance submitter
 ## Result
 
 The work order is created and awaits for qualification to create a work order task.
+
+**Parent Topic:**[Product non-conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-related-lists-product-non-conformance.md)
 

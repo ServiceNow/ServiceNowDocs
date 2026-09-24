@@ -3,26 +3,20 @@ title: Case playbook: vertical stages record page
 description: The Case playbook: vertical stages page is a record page that you can use in CRM Workspace. This page includes a playbook with a vertical stage picker that displays in the left panel and can track overall progress on the UI in a vertical view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-playbook-vertical-stages.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 8
-breadcrumb: [Configure templates and pages, Workspace, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [Playbook pages, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Case playbook: vertical stages record page
 
 The Case playbook: vertical stages page is a record page that you can use in CRM Workspace. This page includes a playbook with a vertical stage picker that displays in the left panel and can track overall progress on the UI in a vertical view.
 
-The Case playbook: vertical stages record page is created from the [Case playbook: vertical stages template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-vertical-stages.md).
+The Case playbook: vertical stages record page is created from the [Case playbook: vertical stages template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-playbook-templates.md).
 
-The Case playbook: vertical stages record page is available with the Playbooks for Customer Service Management v6.0 store application. For more information, see [Playbook plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-csm-playbooks.md).
-
-## Case playbook: vertical stages page template
-
-The Case playbook: Vertical stages page template includes a vertical stage picker on the left side of the page. For details about the components included in this template, see [Playbook template components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-templates.md).
-
-\[Omitted image "case-playbook-template-vertical-stages.png"\] Alt text: Case playbook: vertical stages page template with a stage picker that displays on the side of the user interface
+The Case playbook: vertical stages record page is available with the Playbooks for Customer Service Management v6.0 store application. For more information, see [Playbook plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/setting-up-csm-playbooks.md).
 
 ## Case playbook: vertical stages page variant
 
@@ -42,7 +36,7 @@ Active
 
 </td><td>
 
-The Case playbook: vertical stages page variant is not active by default. Enabling the **Active** check box makes the page variant available to the selected audience.The **Active** setting combined with the page order determines the page that CRM Workspace uses to display record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-ws-set-record-page-order.md).
+The Case playbook: vertical stages page variant is not active by default. Enabling the **Active** check box makes the page variant available to the selected audience.The **Active** setting combined with the page order determines the page that CRM Workspace uses to display record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/config-csm-ws-set-record-page-order.md).
 
 </td></tr><tr><td>
 
@@ -66,13 +60,13 @@ Audience
 
 </td><td>
 
-The audience determines who can see the page variant. The Case playbook: vertical stages page variant doesn't have an audience. This means everyone with access to the experience can see this page variant.For more information, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/add-audiences.md).
+The audience determines who can see the page variant. The Case playbook: vertical stages page variant doesn't have an audience. This means everyone with access to the experience can see this page variant.For more information, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/add-audiences.md).
 
 </td></tr></tbody>
 </table>To access the settings for this page variant:
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
-2.  Select the **CSM/FSM Configurable Workspace** experience.
+2.  Select the CRM Workspace experience.
 3.  In the Record section of the Pages and variants list, select **Case playbook: vertical stages**.
 4.  Select **Settings** at the top of the page.
 
@@ -97,7 +91,7 @@ Form heading
 The page header includes record information that is displayed in the primary and secondary fields:-   The primary field displays the short description of the record.
 -   The secondary fields display the additional record information such as the priority, state, and contact or consumer details.
 
-You can configure the fields that appear in the page header. For more information, see [Customize the page header for a playbook page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customize-process-form-header.md).
+You can configure the fields that appear in the page header. For more information, see [Customize the page header for a playbook page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customize-process-form-header.md).
 
 </td></tr><tr><td>
 
@@ -115,7 +109,7 @@ Action bar
 
 The action bar contains the actions available to users while working on case records. The specific actions are determined by factors such as the user role, case state, and other attributes.-   **Record details**: Displays the record details.
 -   **Playbook details**: Displays the playbook details.
--   **In-progress Actions**: Provides a list of minimized [modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-modeless-dialog.md) and includes a badge that displays the number of items in the list. From this list, an agent can select an item to open the minimized comment, work note, or email.
+-   **In-progress Actions**: Provides a list of minimized [modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-playbook-modeless-dialog.md) and includes a badge that displays the number of items in the list. From this list, an agent can select an item to open the minimized comment, work note, or email.
 -   **Create**: Create records such as work orders, incidents, and requests.
 -   **Compose**: Compose comments, work notes, and emails in modeless dialogs.
 -   **Save**: Save changes to the case record.
@@ -182,7 +176,7 @@ The lookup component enables agents to look up contact or consumer information a
 -   Select an email address on a lookup card to open a draft email in the email composer in a sub-tab.
 -   Select a phone number on a lookup card to make a call.
 
-For more information, see [Playbook lookup component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-lookup-component.md).
+For more information, see [Playbook lookup component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-playbook-lookup-component.md).
 
 </td></tr><tr><td>
 
@@ -196,7 +190,7 @@ The case summarization component appears below the lookup component. When an age
 -   Post the summary to the activity stream.
 -   Refresh the summary.
 
-The case summarization component requires the Now Assist for Customer Service Management \(CSM\) application to be activated and configured. For more information, see [Playbook case summarization component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-case-summary-component.md).
+The case summarization component requires the Now Assist for Customer Service Management \(CSM\) application to be activated and configured. For more information, see [Playbook case summarization component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-playbook-case-summary-component.md).
 
 </td></tr><tr><td>
 
@@ -219,17 +213,17 @@ Contextual side panel
 
 </td><td>
 
-The contextual side panel component includes different tools that agents can use to research and resolve customer issues. The contextual side panel in the Case playbook: horizontal stages page includes the following tabs.-   [Activity Stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-activity-stream-component.md)
+The contextual side panel component includes different tools that agents can use to research and resolve customer issues. The contextual side panel in the Case playbook: horizontal stages page includes the following tabs.-   [Activity Stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-playbook-activity-stream-component.md)
 -   Agent Assist
 -   Recommended Actions
--   [Related Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-related-items-component.md)
+-   [Related Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-playbook-related-items-component.md)
 -   Attachments
 -   Response Templates
--   [Email Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-email-templates.md)
+-   [Email Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-email-templates.md)
 -   Templates
 -   Record Information
 
-For more information about the tabs in the contextual side panel, see [Playbook contextual side panel component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-side-panel-component.md).
+For more information about the tabs in the contextual side panel, see [Playbook contextual side panel component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-playbook-side-panel-component.md).
 
 </td></tr><tr><td>
 
@@ -237,9 +231,9 @@ Activity stream
 
 </td><td>
 
-The activity stream component displays a list of activities occurring on a case record. This list can be collapsed to provide a quick view of case activities or expanded to provide more detail about individual activities.For more information, For more information, see [Playbook activity stream component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-activity-stream-component.md).
+The activity stream component displays a list of activities occurring on a case record. This list can be collapsed to provide a quick view of case activities or expanded to provide more detail about individual activities.For more information, For more information, see [Playbook activity stream component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-playbook-activity-stream-component.md).
 
-**Note:** The Case playbook: vertical stages page uses [modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-modeless-dialog.md) for composing comments, work notes, and emails.
+**Note:** The Case playbook: vertical stages page uses [modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-playbook-modeless-dialog.md) for composing comments, work notes, and emails.
 
 </td></tr><tr><td>
 
@@ -247,7 +241,7 @@ Compose email and Compose comments modeless dialogs
 
 </td><td>
 
-A modeless dialog is a window that overlays the main window content. You can use modeless dialogs to create and post comments and work notes to the activity stream. You can also compose and send emails as you work through the stages and activities in a playbook. For more information, see [Playbook modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-modeless-dialog.md).
+A modeless dialog is a window that overlays the main window content. You can use modeless dialogs to create and post comments and work notes to the activity stream. You can also compose and send emails as you work through the stages and activities in a playbook. For more information, see [Playbook modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-playbook-modeless-dialog.md).
 
 </td></tr></tbody>
 </table>

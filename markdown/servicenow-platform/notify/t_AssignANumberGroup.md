@@ -3,11 +3,11 @@ title: Associate a number to a number group
 description: Associate a Notify number to a number group to use inbound and outbound workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/t\_AssignANumberGroup.html
-release: australia
+release: brazil
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Numbers and number groups, Notify reference, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -42,5 +42,5 @@ Role required: notify\_admin
 3.  Click **Update**.
 
 
-**Parent Topic:**[Numbers and number groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NumberGroups.md)
+**Parent Topic:**[Numbers and number groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/notify/c_NumberGroups.md)
 

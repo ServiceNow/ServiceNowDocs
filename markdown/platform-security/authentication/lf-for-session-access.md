@@ -3,11 +3,11 @@ title: Use Location Filter for Session Access
 description: Use the location filter criteria created in Session Access to reduce roles based on the location of the user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/lf-for-session-access.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Tutorial: Use Location Filter criteria, Location Filter, Filter criteria, Adaptive authentication, Authentication, Access Management]
 ---
@@ -97,6 +97,6 @@ Choose the role from the Group List.
 
     -   If **Remove Roles**, the users from the configured countries in the location filter will be removed with the roles configured for the session.
     -   If **Limit To Roles**, the users from the configured countries in the location filter has only the roles that are configured for the session.
-    To know more about how to remove or limit roles for a session, see [Tutorial: Use Zero Trust Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/use-zero-trust-access.md).
+    To know more about how to remove or limit roles for a session, see [Tutorial: Use Zero Trust Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/use-zero-trust-access.md).
 
 

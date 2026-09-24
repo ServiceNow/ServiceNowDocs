@@ -3,9 +3,9 @@ title: MCO initial setup
 description: Configure the basic settings and organizational structure required before using Manufacturing Commercial Operations features.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-initial-setup.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Manufacturing Commercial Operations]
 ---
@@ -20,9 +20,9 @@ Before you can use Manufacturing Commercial Operations \(MCO\) features, you mus
 
 To learn more about MCO configuring and implementation, see:
 
--   [Set up Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-setup.md)
--   [Implement a sales promotion setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-sales-promotion-setup.md)
--   [Implement a recall campaign set up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-recall-campaign-setup.md)
--   [Configure dealer portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-configure-dealer-portal.md)
--   [Set up inbound DMS integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-configure-dms.md)
+-   [Set up Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-setup.md)
+-   [Implement a sales promotion setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-sales-promotion-setup.md)
+-   [Implement a recall campaign set up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-recall-campaign-setup.md)
+-   [Configure dealer portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-configure-dealer-portal.md)
+-   [Set up inbound DMS integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-configure-dms.md)
 

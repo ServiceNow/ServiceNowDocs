@@ -3,13 +3,13 @@ title: Configure Fluid Topics for external content indexing
 description: Generate an API key in your Fluid Topics tenant to allow the Fluid Topics external content connector to access your Fluid Topics source system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-fluid-topics-external-content-indexing.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Fluid Topics external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -79,11 +79,11 @@ To allow the connector to access your source system via the API, you must genera
 Provide the following items to your connector administrator:
 
 -   The URL for your Fluid Topics tenant.
--   The API key that you copied in step [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-fluid-topics-external-content-indexing.md).
+-   The API key that you copied in step [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-fluid-topics-external-content-indexing.md).
 
 Your connector administrator needs these items to configure a Fluid Topics external content connector to retrieve content and security principals from your Fluid Topics source system.
 
-For details on creating and configuring a Fluid Topics external content connector, see [Create a Fluid Topics external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-fluid-topics.md).
+For details on creating and configuring a Fluid Topics external content connector, see [Create a Fluid Topics external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-ext-cont-connector-fluid-topics.md).
 
-**Parent Topic:**[Fluid Topics external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/fluid-topics-external-content-connector.md)
+**Parent Topic:**[Fluid Topics external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/fluid-topics-external-content-connector.md)
 

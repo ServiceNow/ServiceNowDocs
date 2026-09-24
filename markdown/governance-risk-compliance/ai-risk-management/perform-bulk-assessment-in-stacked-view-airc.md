@@ -3,12 +3,13 @@ title: Perform bulk assessment in stacked view
 description: Perform assessments on multiple risks and controls simultaneously in a risk assessment project using AI Risk and Compliance Workspace. You can assess inherent risks, effectiveness of controls, residual risks, and target risks. You can define risk responses that enable you to manage and mitigate the risks identified during the risk assessment process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/perform-bulk-assessment-in-stacked-view-airc.html
-release: australia
+release: brazil
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+keywords: [stacked view, bulk risk assessment, risk assessment project]
 breadcrumb: [Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
@@ -95,5 +96,22 @@ You can perform the bulk risk assessment either from the Employee Center or AI C
     Assessments are validated again in this stage. Review the assessment summary before you submit. You can’t make any changes after submission.
 
 
-**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
+## Result
+
+The bulk risk assessment is submitted for approval. The project moves to the **Approval** stage. If any risk has a High inherent rating, the approval request is sent to the project owner. Once approved, the project moves to **Completed**.
+
+## What to do next
+
+After submission, the project moves to the Approval stage. If any risk has a High inherent rating, the approval is sent to the project owner. Once approved, the project moves to Completed. For an alternative assessment interface, see [Perform bulk assessment in grid view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/perform-bulk-assessment-in-grid-view-airc.md).
+
+**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
+
+**Related topics**  
+
+
+[Create bulk risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/create-bulk-risk-assessment-airc.md)
+
+[Perform bulk assessment in grid view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/perform-bulk-assessment-in-grid-view-airc.md)
+
+[Risk assessment project in AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/risk-assessment-project-airc.md)
 

@@ -1,20 +1,20 @@
 ---
 title: An overview of alerts for Event Management operators
-description: Understand how alerts are generated from events, what to look for in an alert, and how alerts can be grouped together.
+description: As an Event Management operator, understand how alerts are generated from events, what to look for in alerts, and how alerts are grouped.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/operator-events-alerts.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Event Management Operator Tutorial, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # An overview of alerts for Event Management operators
 
-Understand how alerts are generated from events, what to look for in an alert, and how alerts can be grouped together.
+As an Event Management operator, understand how alerts are generated from events, what to look for in alerts, and how alerts are grouped.
 
 This is the first lesson in the Event Management tutorial.
 
@@ -40,7 +40,7 @@ Lesson 2
 
 </td><td>
 
-[An overview of application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-application-services.md)
+[An overview of application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/operator-application-services.md)
 
 </td></tr><tr><td>
 
@@ -52,7 +52,7 @@ Lesson 3
 
 </td><td>
 
-[Event Management operator workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-user-interfaces.md)
+[Event Management operator workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/operator-user-interfaces.md)
 
 </td></tr><tr><td>
 
@@ -64,14 +64,14 @@ Lesson 4
 
 </td><td>
 
-[What operators do](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-process.md)
+[What operators do](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/operator-process.md)
 
 </td></tr></tbody>
 </table>Your organization already has an event monitoring tool in place, such as Microsoft System Center Operations Manager \(SCOM\), Nagios, SolarWinds, and so on. When an issue occurs on your network, such as a computer going down or a database failure, the event monitoring tools send events to your ServiceNow instance. The Event Management application processes the events according to the settings that your administrator configured, and then generates alerts. An alert is an indicator that the issue requires some type of action.
 
 \[Omitted image "operator-event-management-overview.png"\] Alt text: An operator view of Event Management
 
-As an Event Management operator, your role is to view alerts. Depending on how Event Management is implemented in your organization, take an action to help resolve the underlying issue or notify someone who can. You will see the phases of a typical alert management process later in this tutorial.
+As an Event Management operator, your role is to view alerts. Depending on how Event Management is implemented in your organization, take an action to help resolve the underlying issue or notify someone who can. Later in this tutorial, you will see the phases of a typical alert management process.
 
 ## Alert priority and severity
 
@@ -140,7 +140,7 @@ The alert no longer needs action.
 </table>
 ## Correlated alerts
 
-Some alerts are related to each other. For example, if a router goes down, several separate alerts could be generated, one for each server connected to the router. All of these alerts are related, or correlated. To help you manage correlated alerts, Event Management can automatically group them and establish a two-level hierarchy. One root alert, called the primary alert, appears at the top. Other related alerts, called secondary alerts, appear under the primary alert. When you view alerts, primary alerts stand out by default so you know which alert to focus on without being distracted by the secondary alerts.
+Some alerts are related to each other. For example, if a router goes down, several separate alerts could be generated, one for each server connected to the router. All of these alerts are related, or correlated. To help you manage correlated alerts, Event Management can automatically group them and establish a two-level hierarchy. One root alert, called the primary alert, appears at the top, and other related alerts, called secondary alerts, appear under the primary alert. When you view alerts, primary alerts stand out by default so you know which alert to focus on without being distracted by the secondary alerts.
 
 In our example, if a router goes down on your network, network communication is also affected for connected servers, assuming they cannot reach any other routers. The router outage becomes the primary alert and the alerts generated on the server are secondary alerts that are correlated under the router alert.
 
@@ -162,7 +162,7 @@ As another example, consider a loose network cable that causes momentary, repeat
 
 ## Continue the tutorial
 
-Proceed to the next lesson: [Application services for Event Management operators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-application-services.md).
+Proceed to the next lesson: [Application services for Event Management operators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/operator-application-services.md).
 
-**Parent Topic:**[Event Management Operator Tutorial](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-guide-em.md)
+**Parent Topic:**[Event Management Operator Tutorial](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/operator-guide-em.md)
 

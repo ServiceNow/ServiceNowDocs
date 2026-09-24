@@ -3,11 +3,11 @@ title: Cancel a playbook
 description: Cancel a playbook to stop a business workflow when no longer valid.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/cancel-playbook.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Running Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -43,5 +43,5 @@ If your playbook admin has added a cancel action to your playbook experience, yo
     \[Omitted image "playbook-cancel-banner.png"\] Alt text: Canceled banner
 
 
-**Parent Topic:**[Running Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)
+**Parent Topic:**[Running Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)
 

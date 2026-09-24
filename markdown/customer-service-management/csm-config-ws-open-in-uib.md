@@ -1,18 +1,18 @@
 ---
-title: Open the CSM/FSM Configurable Workspace experience in UI Builder
-description: Access the CSM/FSM Configurable Workspace experience in UI Builder for editing.
+title: Open the CRM Workspace experience in UI Builder
+description: Access the CRM Workspace experience in UI Builder for editing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-config-ws-open-in-uib.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# Open the CSM/FSM Configurable Workspace experience in UI Builder
+# Open the CRM Workspace experience in UI Builder
 
-Access the CSM/FSM Configurable Workspace experience in UI Builder for editing.
+Access the CRM Workspace experience in UI Builder for editing.
 
 ## Before you begin
 
@@ -26,10 +26,10 @@ Role required: ui\_builder\_admin, admin
 
 2.  Select the **Experiences** tab.
 
-3.  Select the **CSM/FSM Configurable Workspace** experience.
+3.  Select the CRM Workspace experience.
 
 
 ## Result
 
-The CSM/FSM configurable experience opens in UI Builder.
+The CRM Workspace experience opens in UI Builder.
 

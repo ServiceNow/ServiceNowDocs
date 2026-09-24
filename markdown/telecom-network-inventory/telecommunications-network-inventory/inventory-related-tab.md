@@ -3,12 +3,12 @@ title: Related tabs in the Network inventory forms
 description: The related tabs in the Network Inventory forms display the related records that dynamically change based on the connection and relationships with the other network assets. You can selectively view, modify, or update these records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/inventory-related-tab.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
 
@@ -85,7 +85,7 @@ Change Requests
 
 </td><td>
 
-List of the Change Request records. To learn more about the change requests, see [Create a change request from Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create_a_change_request_in_tni.md).**Note:** This tab is available only for the Network Site, Telco Equipment, and Physical Connections forms.
+List of the Change Request records. To learn more about the change requests, see [Create a change request from Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/create_a_change_request_in_tni.md).**Note:** This tab is available only for the Network Site, Telco Equipment, and Physical Connections forms.
 
 </td></tr><tr><td>
 
@@ -101,7 +101,7 @@ Physical Connections
 
 </td><td>
 
-List of the physical connections that are associated with the network inventory.**Note:** This tab is available only for the Telco Equipment form.
+List of all physical connections where the equipment or interfaces in the rack or cabinet are an endpoint. A connection appears if any of its endpoint fields \(Port A, Port Z, Equipment A, or Equipment Z\) matches equipment or an interface from equipment in the rack or cabinet. Connections that span sites are included. **Note:** This tab is available only on Rack / Cabinet records and on equipment level
 
 </td></tr><tr><td>
 
@@ -109,7 +109,21 @@ Logical Connections
 
 </td><td>
 
-List of the logical connections that are associated with the network inventory.**Note:** This tab is available only for the Telco Equipment form.
+List of all network interfaces from equipment placed in the rack or cabinet, including interfaces from equipment nested at any depth in the hierarchy.
+
+ **Note:**
+
+This tab is available only on Rack and Cabinet records \(cmdb\_ci\_container\_rack and cmdb\_ci\_container\_cabinet\). It does not appear on individual equipment records.
+
+.
+
+</td></tr><tr><td>
+
+Network Interfaces
+
+</td><td>
+
+List of all network interfaces from equipment placed in the rack or cabinet, including interfaces from equipment nested at any depth in the hierarchy. Note: This tab is available only on Rack and Cabinet records \(cmdb\_ci\_container\_rack and cmdb\_ci\_container\_cabinet\). It does not appear on individual equipment records. **Note:** This tab is available for the Rack and Cabinet forms.
 
 </td></tr><tr><td>
 
@@ -125,7 +139,7 @@ Number Elements
 
 </td><td>
 
-List of the number elements that are associated with your virtual local area network \(VLAN\) or link aggregation group \(LAG\). To learn more about the number elements fields, see [Commonly used network asset instance identification fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/commonly-used-tni-identification-fields.md).**Note:** This tab is available only for the Telco Equipment, Network Interface, Physical Connections, Logical Connections, and Inventory Number forms.
+List of the number elements that are associated with your virtual local area network \(VLAN\) or link aggregation group \(LAG\). To learn more about the number elements fields, see [Commonly used network asset instance identification fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/commonly-used-tni-identification-fields.md).**Note:** This tab is available only for the Telco Equipment, Network Interface, Physical Connections, Logical Connections, and Inventory Number forms.
 
 </td></tr><tr><td>
 
@@ -141,7 +155,7 @@ Connection elements
 
 </td><td>
 
-List of the connection elements that are added for the logical connections. These elements should be the valid logical connections between the sites when the computation performs the path search. After creating a connection element, a relationship is created between the logical or physical connection and the next element under its default relationship type. To learn more about the connection element fields, see [Connection Element form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/connection-element-form.md).
+List of the connection elements that are added for the logical connections. These elements should be the valid logical connections between the sites when the computation performs the path search. After creating a connection element, a relationship is created between the logical or physical connection and the next element under its default relationship type. To learn more about the connection element fields, see [Connection Element form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/connection-element-form.md).
 
  **Note:**
 
@@ -154,7 +168,7 @@ Inventory Numbers
 
 </td><td>
 
-List of the inventory numbers that are associated with your network inventory. To learn more about the number elements, see [Define your inventory numbering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-inventory-numbers.md).**Note:** This tab is available only for the Inventory Number form.
+List of the inventory numbers that are associated with your network inventory. To learn more about the number elements, see [Define your inventory numbering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-inventory-numbers.md).**Note:** This tab is available only for the Inventory Number form.
 
 </td></tr><tr><td>
 
@@ -258,7 +272,7 @@ CMDB 360 Data
 
 </td><td>
 
-List of all discovery sources at the CI attribute level. To learn more, see [CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multisource-cmdb.md).
+List of all discovery sources at the CI attribute level. To learn more, see [CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/multisource-cmdb.md).
 
 </td></tr><tr><td>
 
@@ -290,7 +304,7 @@ Vendor Catalog Items
 
 </td><td>
 
-List of all vendor catalogs of this inventory. To learn more, see [Vendor Catalog Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/c_ManageVendorCatalogItems.md).
+List of all vendor catalogs of this inventory. To learn more, see [Vendor Catalog Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/c_ManageVendorCatalogItems.md).
 
 </td></tr><tr><td>
 
@@ -314,7 +328,7 @@ Packs
 
 </td><td>
 
-List of all added packs. To learn more, see [Attribute packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunication-network-inventory-pack.md).
+List of all added packs. To learn more, see [Attribute packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunication-network-inventory-pack.md).
 
 </td></tr><tr><td>
 
@@ -322,7 +336,7 @@ Capacity Metrics
 
 </td><td>
 
-List of capacity metric records that are associated with the network inventory record. To learn more see, [View a capacity metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/modify-capacity-metric.md).**Note:** This tab is available only for equipment, rack, slot, cabinet, card and interface records.
+List of capacity metric records that are associated with the network inventory record. To learn more see, [View a capacity metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/modify-capacity-metric.md).**Note:** This tab is available only for equipment, rack, slot, cabinet, card and interface records.
 
 </td></tr><tr><td>
 
@@ -365,10 +379,10 @@ Places
 List of place records.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
+</table>**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
 
 **Related topics**  
 
 
-[Reviewing and updating network inventory via Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-workspace.md)
+[Reviewing and updating your network inventory with the Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-workspace.md)
 

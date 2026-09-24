@@ -3,13 +3,13 @@ title: Customize themes for Desktop Assistant
 description: Customize themes for the Desktop Assistant application by applying available themes or modifying specific theme CSS variables to align with your organization's branding.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/customize-da-theme.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Set up Desktop Assistant, Configure, Digital End-User Experience, IT Service Management]
+breadcrumb: [Setting up Desktop Assistant, Configure, Digital End-User Experience, IT Service Management]
 ---
 
 # Customize themes for Desktop Assistant
@@ -18,7 +18,7 @@ Customize themes for the Desktop Assistant application by applying available the
 
 ## Before you begin
 
-Confirm that the DEX Desktop Assistant \[sn\_dex\_desktop\] application has been installed. For more information, see [Install Application and Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/install-app-device-health.md) and [Download and install Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/download-desktop-experience.md).
+Confirm that the DEX Desktop Assistant \[sn\_dex\_desktop\] application has been installed. For more information, see [Install Application and Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/install-app-device-health.md) and [Download and install Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/download-desktop-experience.md).
 
 Role required: sn\_dex\_desktop.admin
 
@@ -30,15 +30,15 @@ Role required: sn\_dex\_desktop.admin
 
     **Note:** Employee Center \(EC\) Theme is the default theme applied for Desktop Assistant.
 
-<table id="choicetable_eqs_cbd_phc"><thead><tr><th align="left" id="d169808e168">
+<table id="choicetable_eqs_cbd_phc"><thead><tr><th align="left" id="d172105e168">
 
 Method
 
-</th><th align="left" id="d169808e171">
+</th><th align="left" id="d172105e171">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d169808e177">
+</th></tr></thead><tbody><tr><td id="d172105e177">
 
 **Apply another available theme**
 
@@ -52,7 +52,7 @@ The selected theme is updated in the **Theme** field of the Desktop Assistant fo
 3.  Select **Update**.
 
 
-</td></tr><tr><td id="d169808e222">
+</td></tr><tr><td id="d172105e222">
 
 **Customize the default theme by modifying specific CSS variables**
 
@@ -67,7 +67,7 @@ The selected theme is updated in the **Theme** field of the Desktop Assistant fo
 4.  Select **Update**.
 
 
-</td></tr><tr><td id="d169808e292">
+</td></tr><tr><td id="d172105e292">
 
 **Customize a theme other than the default theme**
 
@@ -88,6 +88,6 @@ The selected theme is updated in the **Theme** field of the Desktop Assistant fo
 
 
 </td></tr></tbody>
-</table>    For more information, see [Variables to customize a theme for Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/da-theme-variables.md).
+</table>    For more information, see [Variables to customize a theme for Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/da-theme-variables.md).
 
 

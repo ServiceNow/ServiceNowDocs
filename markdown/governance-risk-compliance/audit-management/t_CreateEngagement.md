@@ -3,12 +3,12 @@ title: Create an engagement
 description: Audit managers create engagements to manage audit information and collect entities, controls, and control tests that are relevant to the audit.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/t\_CreateEngagement.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Manage engagements, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
@@ -20,14 +20,16 @@ Audit managers create engagements to manage audit information and collect entiti
 
 Role required: sn\_audit.admin or sn\_audit.manager
 
-**Note:** For more information on engagements, see [Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/c_Engagements.md).
+**Note:** For more information on engagements, see [Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/c_Engagements.md).
+
+Starting with Audit Management version 23.x.x, you can store supporting documents in Microsoft Word or PDF formats on evidence, engagement, and control test records. Use the ServiceNow Otto® panel to ask questions or summarize documents. Use voice assist to enable voice chat and audio summaries. For more information, see [Using Document Management System in Audit Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/manage-documents-panel.md).
 
 ## About this task
 
 To know more about how to define a control and control objective, see:
 
--   [Create a control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_CreateAControl.md)
--   [Create a control objective](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_CreateAPolicyStatement.md)
+-   [Create a control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/t_CreateAControl.md)
+-   [Create a control objective](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/t_CreateAPolicyStatement.md)
 
 ## Procedure
 
@@ -119,7 +121,7 @@ Auditors
 
 </td><td>
 
-Auditors were assigned to the engagement.
+Auditors assigned to the engagement.
 
 </td></tr><tr><td>
 
@@ -331,11 +333,19 @@ Confidential
 
 </td><td>
 
-Option to enable confidentiality of the record. Only the assigned users or groups of users can access the record.For more information on the confidential option, see [Confidentiality flag for audit and compliance records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/confidentiality-flag-audit-pc.md).
+Option to enable confidentiality of the record. Only the assigned users or groups of users can access the record.For more information on the confidential option, see [Confidentiality flag for audit and compliance records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/confidentiality-flag-audit-pc.md).
 
 </td></tr></tbody>
 </table>3.  Select **Submit**.
 
+4.  Attach a document with the record in the Document panel.
 
-**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/c_Engagements.md)
+5.  Ask questions about the document in the ServiceNow Otto® panel.
+
+6.  Use voice assist to navigate documents with voice commands and receive audio summaries.
+
+    For more information, see [Using Document Management System in Audit Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/manage-documents-panel.md).
+
+
+**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/c_Engagements.md)
 

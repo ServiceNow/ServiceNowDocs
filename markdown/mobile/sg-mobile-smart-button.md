@@ -3,9 +3,9 @@ title: Smart button functions
 description: Use smart buttons to interact with native applications on your mobile device, such as your phone, map, or email applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mobile-smart-button.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Mobile functions, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -84,7 +84,7 @@ Context determines whether a smart button uses information in a record, or stati
     Use global context when you want to create a button that does not depend on information in the record. For example, you want to create a smart button that calls your company's support number. This number remains the same no matter where the smart button is placed in your application. When creating a smart button with the global context, you have a **Phone Number** field where you can input the number.
 
 
-For examples of configuring smart buttons, see [Configure a smart button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-config-smart-button.md).
+For examples of configuring smart buttons, see [Configure a smart button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-studio-config-smart-button.md).
 
 ## Smart button advanced configurations
 
@@ -99,5 +99,5 @@ Use advanced configurations to control when your button appears, based on condit
 
 ServiceNow mobile supports deep linking to third party applications using the **URL** smart buttons. To make use of this feature, enter a properly formatted URI in the **URL** field. The format for a deep linking URI varies depending on the target app. For information on these URI formats, refer to deep linking documentation provided by the third party vendors.
 
-Administrators can use the **glide.sg.allowed\_external\_deeplinks** property to define which third party apps. For details on this property, see [Configure which external apps are available for deep linking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-allow-deeplink.md).
+Administrators can use the **glide.sg.allowed\_external\_deeplinks** property to define which third party apps. For details on this property, see [Configure which external apps are available for deep linking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-allow-deeplink.md).
 

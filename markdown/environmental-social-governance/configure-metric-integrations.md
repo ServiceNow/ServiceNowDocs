@@ -3,9 +3,9 @@ title: Modify the Operational Sustainability Integration with Watershed
 description: Modify the Operational Sustainability Integration with Watershed configurations to specify how you want to import data from Watershed to generate metrics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/configure-metric-integrations.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with Watershed, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -45,5 +45,5 @@ The ServiceNow AI Platform provides a pre-configured integration to import data 
 4.  Select **Update**.
 
 
-**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Watershed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrate-esg-with-watershed.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Watershed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/integrate-esg-with-watershed.md)
 

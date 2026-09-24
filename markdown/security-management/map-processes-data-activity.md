@@ -3,9 +3,9 @@ title: Map Processes Data Flow Action
 description: The Map Processes Data flow action maps Carbon Black process data within the flow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/map-processes-data-activity.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Operations Carbon Black Integration - Get Running Processes Flow, Security Operations Integration- Get Running Processes capability, Integration capabilities, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -43,5 +43,5 @@ The output variables contain data that can be used in subsequent activities.
 |output|Formatted return data on running processes used by the abstract workflow.|
 |processes|List of processes in an array.|
 
-**Parent Topic:**[Security Operations Carbon Black Integration - Get Running Processes Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-integration-cb-get-running-processes-workflow.md)
+**Parent Topic:**[Security Operations Carbon Black Integration - Get Running Processes Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/secops-integration-cb-get-running-processes-workflow.md)
 

@@ -3,9 +3,9 @@ title: Rollback an update job
 description: Rollback a completed update job to revert the updates to the records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/rollback-update-job.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Updating records safely in Core UI, Manage data growth in Core UI, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -37,5 +37,5 @@ If you want to revert the updates to records made through an update job, execute
 
 The rollback job is executed immediately and the updated records are reverted to their prior versions. If you want to update the records again, create an update job using the same conditions, and then schedule the update job or execute it immediately.
 
-**Parent Topic:**[Updating records safely in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/updating-records-safely.md)
+**Parent Topic:**[Updating records safely in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/updating-records-safely.md)
 

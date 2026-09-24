@@ -3,9 +3,9 @@ title: Understanding AI Data Explorer
 description: AI Data Explorer is your AI companion for instant insights and deep data explorations. Ask quick questions, receive tailored recommendations, and collaborate with AI and your colleagues to build long-term analysis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/exploring-aide.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
@@ -16,7 +16,7 @@ AI Data Explorer is your AI companion for instant insights and deep data explora
 
 ## AI Data Explorer overview
 
-The objective of AI Data Explorer is to bring your thoughts into one place by empowering users to explore, generate interesting findings, and collaborate seamlessly. This is achieved through an AI-assisted, interactive [exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) that serves as a centralized space for data-driven decision making.
+The objective of AI Data Explorer is to bring your thoughts into one place by empowering users to explore, generate interesting findings, and collaborate seamlessly. This is achieved through an AI-assisted, interactive [exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) that serves as a centralized space for data-driven decision making.
 
 **Note:** AI Data Explorer supports English only. Queries in other languages are not supported.
 
@@ -33,12 +33,12 @@ AI Data Explorer can be divided into the following sections:
     It also shows which other users are currently in the exploration. You can share an exploration only if you own it or it has been shared with you with sharing rights.
 
 -   \[Omitted image "callout-3.png"\] Alt text: 3 Exploration content. This section displays the results of data exploration queries. The results typically include a data visualization or list and a summary of the contents of that visualization or list. The exploration can also include its purpose or goal and any text that the participants have added, such as a discussion about the results.
--   \[Omitted image "callout-4.png"\] Alt text: 4 Field for adding your own text. See [Write or edit text in an exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/write-text-exploration.md).
+-   \[Omitted image "callout-4.png"\] Alt text: 4 Field for adding your own text. See [Write or edit text in an exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/write-text-exploration.md).
 -   \[Omitted image "callout-5.png"\] Alt text: 5 Follow-on section. Here you can perform a number of actions to follow up on your original question and response:
     -   Ask a new question, to generate a new response. This questions is not necessarily related to the original one.
-    -   Switch between Extended and Standard analysis. Extended analysis provides more detail but is more resource-intensive. For more information, see [Extended analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/hidden-insights.md).
+    -   Switch between Extended and Standard analysis. Extended analysis provides more detail but is more resource-intensive. For more information, see [Extended analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/hidden-insights.md).
     -   Ask a suggested follow-up question.
-    -   Receive AI recommendations of actions to take based on your current exploration. For more information, see [View recommended actions in AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/expl-view-recommended-actions.md).
+    -   Receive AI recommendations of actions to take based on your current exploration. For more information, see [View recommended actions in AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/expl-view-recommended-actions.md).
 
 ## AI Data Explorer users
 
@@ -86,7 +86,7 @@ Anyone with whom the exploration is shared either without editing rights or with
 
 To learn more about configuring and using AI Data Explorer, see:
 
--   [Activate AI Data Explorer skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/activate-aide-explorer.md)
--   [Using AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/use-aide.md)
--   [AI Data Explorer reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/aide-reference.md)
+-   [Activate AI Data Explorer skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/activate-aide-explorer.md)
+-   [Using AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/use-aide.md)
+-   [AI Data Explorer reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/aide-reference.md)
 

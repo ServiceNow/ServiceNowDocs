@@ -3,11 +3,11 @@ title: Software Asset Analytics dashboard
 description: View true-up costs and license, compliance, and removal summaries trend charts on the Software Asset Analytics dashboard integrated with Performance Analytics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/c\_SAMDashSAA.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Platform Analytics Solution for Software Asset Management classic, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -16,10 +16,10 @@ breadcrumb: [Platform Analytics Solution for Software Asset Management classic, 
 
 View true-up costs and license, compliance, and removal summaries trend charts on the Software Asset Analytics dashboard integrated with Performance Analytics.
 
-**Note:** The Software Asset Analytics dashboard is no longer available for new Australia users who have activated the Software Asset Management Professional \(com.snc.samp\) plugin or upgraded to Australia without activating the Software Asset Management Professional \(com.snc.samp\) plugin prior to Australia.
+**Note:** The Software Asset Analytics dashboard is no longer available for new Brazil users who have activated the Software Asset Management Professional \(com.snc.samp\) plugin or upgraded to Brazil without activating the Software Asset Management Professional \(com.snc.samp\) plugin prior to Brazil.
 
--   If you activated the Software Asset Management Professional \(com.snc.samp\) plugin prior to Australia but didn't activate the Workspace plugin \(com.sn\_sam\_workspace\), you have access to this dashboard.
--   If you activated the Software Asset Workspace \(sn\_sam\_workspace\) store application after upgrading to Australia, you won’t be able to access this dashboard from the **Software Asset** navigation menu in your instance. You can however access this dashboard from the **Dashboards** navigation menu.
+-   If you activated the Software Asset Management Professional \(com.snc.samp\) plugin prior to Brazil but didn't activate the Workspace plugin \(com.sn\_sam\_workspace\), you have access to this dashboard.
+-   If you activated the Software Asset Workspace \(sn\_sam\_workspace\) store application after upgrading to Brazil, you won’t be able to access this dashboard from the **Software Asset** navigation menu in your instance. You can however access this dashboard from the **Dashboards** navigation menu.
 
 The Software Asset Analytics dashboard tab is accessed by navigating to **Software Asset** &gt; **Overview**. Select an element within a report to see more information, or add and move widgets as needed.
 
@@ -29,7 +29,7 @@ The graphs show important statistics about the software that is being tracked. I
 
 **Note:** If you are not seeing data in the Overview dashboard, verify the **glide.cms.enable.responsive\_grid\_layout** system property is set to true.
 
-## Overview of analytics dashboard
+## Overview tab
 
 <table id="table_vgl_c3y_tz"><thead><tr><th>
 
@@ -65,7 +65,7 @@ Product Results
 
 </td><td>
 
-Number of publishers that have at least one software model out of compliance.Select the report to view the results in the [Software license usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-license-workbench.md).
+Number of publishers that have at least one software model out of compliance.Select the report to view the results in the [Software license usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sam-license-workbench.md).
 
 </td></tr><tr><td>
 
@@ -77,7 +77,7 @@ Product Results
 
 </td><td>
 
-Number of products that have at least one software model out of compliance.Select the report to view the results in the [Software license usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-license-workbench.md).
+Number of products that have at least one software model out of compliance.Select the report to view the results in the [Software license usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sam-license-workbench.md).
 
 </td></tr><tr><td>
 
@@ -379,5 +379,5 @@ Removal Candidates Breakdown
 Active removal candidates in various breakdowns \(State, Publisher, Product, Justification, and Last Updated\).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Platform Analytics Solution for Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-asset-mgmt-content-pack.md)
+</table>**Parent Topic:**[Platform Analytics Solution for Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/software-asset-mgmt-content-pack.md)
 

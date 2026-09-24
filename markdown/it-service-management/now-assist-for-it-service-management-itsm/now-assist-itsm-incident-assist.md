@@ -3,12 +3,12 @@ title: Ask questions about an incident by using the ServiceNow Otto panel
 description: Quickly obtain common incident related information conversationally within the incident record by asking questions in the ServiceNow Otto panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-incident-assist.html
-release: australia
+release: brazil
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
@@ -23,10 +23,15 @@ Role required: itil
 
 ## About this task
 
-**Important:**
+**Important:** The features in the \[DEPRECATED\] Incident assist skill are available in the Incident assist workflow. You can turn off this skill and use the [Incident assist agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-incident-assist-workflow.md) that has enhanced capabilities.
 
--   Starting with the Australia Patch 2, the Incident assist skill has been deprecated, moved to the **Archive** section, and is no longer available for use.
--   Starting Australia Patch 5, Now Assist is renamed to ServiceNow Otto.
+To turn off the skill:
+
+1.  Navigate to **Admin** &gt; **AI Admin Hub**.
+2.  Select the **AI Skills** tab.
+3.  Go to **Technology** &gt; **ITSM**.
+4.  Select the Ask questions about an incident by using the ServiceNow Otto panel skill.
+5.  Select **Deactivate skill**.
 
 \[DEPRECATED\] Incident assist topics in the ServiceNow Otto panel include:
 
@@ -55,7 +60,7 @@ You can ask questions about an incident by using the ServiceNow Otto panel in Co
 
 3.  In the ServiceNow Otto panel, either type in a question related to an incident assist topic, or select **Answer questions about an incident** and select an \[DEPRECATED\] Incident assist topic to ask about.
 
-    **Note:** Incident assist uses index sources for which incidents, problems, and change requests are indexed. Similar resolved incidents are retrieved by comparing an incoming incident with past resolved incidents for smarter resolution. Similar past active incidents are displayed in the ServiceNow Otto panel and also in the Incident form via related search. For information on indexed sources, see [Managing indexed sources from the AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ais-managing-indexed-source.md).
+    **Note:** Incident assist uses index sources for which incidents, problems, and change requests are indexed. Similar resolved incidents are retrieved by comparing an incoming incident with past resolved incidents for smarter resolution. Similar past active incidents are displayed in the ServiceNow Otto panel and also in the Incident form via related search. For information on indexed sources, see [Managing indexed sources from the AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ais-managing-indexed-source.md).
 
     \[Omitted image "now-assist-itsm-inc-assist-pan.png"\] Alt text: Incident assist panel in Service Operations Workspace in an incident.
 

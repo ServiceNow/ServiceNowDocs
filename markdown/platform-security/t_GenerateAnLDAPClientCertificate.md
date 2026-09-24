@@ -3,9 +3,9 @@ title: Generating an LDAP client certificate
 description: Generate an LDAP client certificate for mutual authentication using OpenSSL. The final output is a PKCS\#12 certificate stored within a Java keystore.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_GenerateAnLDAPClientCertificate.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Certificates, Encryption]
 ---
@@ -50,7 +50,7 @@ Enter these commands in a command line interface.
     keytool -importkeystore -srckeystore test1-certificate.pfx -srcstoretype PKCS12 -destkeystore test1.jks
     ```
 
-4.  [Upload the certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_UploadACertificateToAnInstance.md) in the keystore file \(`test1.jks`\) to the instance.
+4.  [Upload the certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_UploadACertificateToAnInstance.md) in the keystore file \(`test1.jks`\) to the instance.
 
     **Note:**
 
@@ -59,12 +59,12 @@ Enter these commands in a command line interface.
 
 ## What to do next
 
-[Uploading a certificate to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_UploadACertificateToAnInstance.md)
+[Uploading a certificate to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_UploadACertificateToAnInstance.md)
 
--   **[Generating a server certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_GenerateAServerCertificate.md)**  
+-   **[Generating a server certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_GenerateAServerCertificate.md)**  
 You can use keytool to generate a new Java keystore file, create a certificate signing request \(CSR\), and import the private key, public certificate pair, and signed certificates into the keystore.
 
-**Parent Topic:**[Certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_Certificates.md)
+**Parent Topic:**[Certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_Certificates.md)
 
 **Related topics**  
 

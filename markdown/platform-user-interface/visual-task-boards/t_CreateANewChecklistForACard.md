@@ -3,13 +3,13 @@ title: Create a checklist for a Visual Task Board card
 description: You can create a unique checklist for each Visual Task Board card or create a task from a checklist item.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/t\_CreateANewChecklistForACard.html
-release: australia
+release: brazil
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Visual Task Board checklists, Using Visual Task Boards, Visual Task Boards, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Visual Task Board checklists, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Create a checklist for a Visual Task Board card
@@ -53,5 +53,5 @@ Role required: none
     4.  Click **Update**.
 
 
-**Parent Topic:**[Visual Task Board checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/c_VisualTaskBoardChecklists.md)
+**Parent Topic:**[Visual Task Board checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/visual-task-boards/c_VisualTaskBoardChecklists.md)
 

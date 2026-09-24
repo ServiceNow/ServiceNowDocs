@@ -3,11 +3,11 @@ title: Create client script in Catalog Builder
 description: You can create client scripts to customize the catalog item, such as to control the behavior of the catalog items after they're published.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/create-client-scripts-in-catalog-builder.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Edit a catalog item in Catalog Builder, Creating or editing catalog item template, Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -42,13 +42,13 @@ Role required: admin and catalog\_builder\_developer
 
 10. Select **Add script**.
 
-    For more information about the fields in the Actions and Settings tabs, see [Catalog client script form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/client-script-form.md).
+    For more information about the fields in the Actions and Settings tabs, see [Catalog client script form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/client-script-form.md).
 
 
-**Parent Topic:**[Edit a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/edit-cat-item-cat-builder.md)
+**Parent Topic:**[Edit a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/edit-cat-item-cat-builder.md)
 
 **Related topics**  
 
 
-[Catalog builder developer \[catalog\_builder\_developer\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_ServiceCatalogManagementTermsandRoles.md)
+[Catalog builder developer \[catalog\_builder\_developer\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/r_ServiceCatalogManagementTermsandRoles.md)
 

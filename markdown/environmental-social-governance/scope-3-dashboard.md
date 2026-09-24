@@ -1,18 +1,18 @@
 ---
 title: Scope 3 dashboard
-description: The Scope 3 dashboard helps you to calculate and track scope 3 emissions to know about your organization's operational sustainability impact and confirm compliance with evolving regulations. Scope 3 emissions refer to indirect emissions in your value chain, for example, the emissions generated from procurement of equipment.
+description: The Scope 3 dashboard helps you to calculate and track scope 3 emissions to gain a complete understanding of your organization's operational sustainability impact and ensure compliance with evolving regulations. Scope 3 emissions refer to indirect emissions in your value chain, for example, the emissions generated from procurement of equipment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/scope-3-dashboard.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Explore, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Scope 3 dashboard
 
-The Scope 3 dashboard helps you to calculate and track scope 3 emissions to know about your organization's operational sustainability impact and confirm compliance with evolving regulations. Scope 3 emissions refer to indirect emissions in your value chain, for example, the emissions generated from procurement of equipment.
+The Scope 3 dashboard helps you to calculate and track scope 3 emissions to gain a complete understanding of your organization's operational sustainability impact and ensure compliance with evolving regulations. Scope 3 emissions refer to indirect emissions in your value chain, for example, the emissions generated from procurement of equipment.
 
 Integrated with the Operational Sustainability Workspace, the Scope 3 dashboard is useful for ESG program managers and ESG administrators to get an overview of the trends of the organization's scope 3 emissions. To view the scope 3 dashboard, you must activate the Scope 3 emissions management \(sn\_esg\_scope3\) plugin. This application starts collecting data only after the plugin is activated and the necessary categories and models tables are configured. If you want to view historical data on the dashboard, then the data must be imported into the system.
 
@@ -25,7 +25,7 @@ There are 15 categories of greenhouse gases \(GHGs\) for which you can report yo
 -   Category 1 Purchased goods and services: This category refers to the extraction, production, and transportation of goods and services purchased or acquired by the reporting company in the reporting year.
 -   Category 2 Capital goods: This category refers to the extraction, production, and transportation of capital goods purchased or acquired by the reporting company in the reporting year. Capital goods are physical assets like buildings, machinery, and equipment that are used to produce consumer goods or services.
 
-The dashboard displays the scope 3 data for GHG category, spend category, and supplier category. The following sections explain these categories.
+The dashboard displays the scope 3 data for GHG category, spend category, and supplier category. The following sections explain these categories. Understanding these types of data helps you to understand the data that is displayed on the Scope 3 dashboard.
 
 ## Spend category data
 
@@ -45,13 +45,13 @@ The supplier category data uses the following calculation methodologies.
 
 Emissions from purchased goods and services, classified under Scope 3 category 1 of the Greenhouse Gas \(GHG\) Protocol and capital goods classified under category 2, refer to the indirect emissions generated from a company's procurement of goods and services. The GHG category also uses the EEIO, LCA, and supplier calculation methodologies.
 
--   **[Reports on the scope 3 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/reports-on-the-scope-3-dashboard.md)**  
+-   **[Reports on the scope 3 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/reports-on-the-scope-3-dashboard.md)**  
 The Scope 3 dashboard displays a variety of reports to easily gauge the sustainability impact of the scope 3 emissions of an organization. All the reports on this dashboard can be drilled down for detailed metric definitions and the entities that provide the data for each report.
 
-**Parent Topic:**[Exploring Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-new-explore.md)
+**Parent Topic:**[Exploring Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/esg-new-explore.md)
 
 **Related topics**  
 
 
-[Configuring the Scope 3 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configuring-the-scope-3-dashboard.md)
+[Configuring the Scope 3 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/configuring-the-scope-3-dashboard.md)
 

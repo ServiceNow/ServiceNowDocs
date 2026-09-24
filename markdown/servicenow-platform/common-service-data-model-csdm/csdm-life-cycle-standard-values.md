@@ -3,11 +3,11 @@ title: Enabling life-cycle synchronization from legacy to asset
 description: You can align life-cycle values for each product instance on the asset, CI, and IBI tables. A one-time process moves legacy status values for asset and CI across the platform to standard CSDM life-cycle value pairs \(life cycle stage and life cycle stage status\). Business rules then run regularly to promote identical IBI, asset, and CI life-cycle data for each product instance.Use the Life Cycle Mapping module to specify how existing legacy status values should be converted to CSDM life-cycle value pairs \(life cycle stage and life cycle stage status\). You map both asset and CI legacy status values to life-cycle value pairs.Activate life-cycle synchronization to migrate your legacy asset and CI status settings to the CSDM standard life-cycle value pairs. After the one-time migration process, business rules maintain synchronization among IBI, asset, and CI life-cycle values.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.html
-release: australia
+release: brazil
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 breadcrumb: [Implement, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,16 +18,16 @@ You can align life-cycle values for each product instance on the asset, CI, and 
 
 This topic provides an overview of the entire align and synchronize process.
 
--   Detailed instructions for running the align and synchronize process appears in [Migrate legacy asset and CI settings to CSDM life-cycle values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md).
--   A detailed reference to all synchronization options appears in [How life-cycle values for Asset, CI, and IBI are synchronized](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/cmdb-asset-CI-IBI-sync-options.md).
+-   Detailed instructions for running the align and synchronize process appears in [Migrate legacy asset and CI settings to CSDM life-cycle values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md).
+-   A detailed reference to all synchronization options appears in [Synchronizing life-cycle values for Asset, CI, and IBI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/cmdb-asset-CI-IBI-sync-options.md).
 
-**Tip:** Terms used in this document are defined in [CSDM life-cycle terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-life-cyle-terms.md).
+**Tip:** Terms used in this document are defined in [CSDM life-cycle terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-life-cyle-terms.md).
 
 ## Why enable CSDM life-cycle synchronization between CI and asset entities
 
 When the one-time data synchronization operation finishes, CSDM life-cycle values for each product instance as represented in the asset and CI tables will be identical. Business rules then synchronize life-cycle value pairs among the asset, CI, and IBI tables. The business rules then run on regular schedules to promote that life-cycle values for the asset, CI, and IBI tables remain aligned.
 
-See [How life-cycle values for Asset, CI, and IBI are synchronized](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/cmdb-asset-CI-IBI-sync-options.md).
+See [Synchronizing life-cycle values for Asset, CI, and IBI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/cmdb-asset-CI-IBI-sync-options.md).
 
 The following products, for example, benefit from the standardized values:
 
@@ -37,7 +37,7 @@ The following products, for example, benefit from the standardized values:
 
 ## How the mapping between legacy status values and CSDM life-cycle values is specified
 
-A life-cycle value pair is the combination life cycle stage and life cycle stage status values for a CI, asset, or IBI over the life cycle of a product instance. The base system includes the life-cycle mapping \[life\_cycle\_mapping\] table that holds mapping rules. The default rules specify how to align common legacy status values to a CSDM life-cycle value pair. You can update and add rules as needed. \(The table is described more fully in [Life cycle mapping table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-life-cyle-terms.md).\)
+A life-cycle value pair is the combination life cycle stage and life cycle stage status values for a CI, asset, or IBI over the life cycle of a product instance. The base system includes the life-cycle mapping \[life\_cycle\_mapping\] table that holds mapping rules. The default rules specify how to align common legacy status values to a CSDM life-cycle value pair. You can update and add rules as needed. \(The table is described more fully in [Life cycle mapping table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-life-cyle-terms.md).\)
 
 \[Omitted image "csdm-lifecycle-mapping-form-annota.png"\] Alt text: Mapping rule that specifies the mapping between a legacy status value and the equivalent CSDM life-cycle value pair.
 
@@ -69,7 +69,7 @@ To start the align and synchronization process, you select **Enable life cycle s
     -   After the one-time alignment, legacy status values between CI and asset will be auto-synced. The report therefore identifies hardware statuses or install statuses that aren't present or that are included in an inactive mapping rule between asset and CI.
 -   **Manual process: If there are mapping errors, add or update mappings**
 
-    Add missing mapping rules and confirm that current rules are correct and active. The buttons open mapping tables where you can update mapping rules. Instructions for updating individual rules appear in [Map legacy status values to CSDM life-cycle values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md).
+    Add missing mapping rules and confirm that current rules are correct and active. The buttons open mapping tables where you can update mapping rules. Instructions for updating individual rules appear in [Map legacy status values to CSDM life-cycle values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md).
 
 -   **Run the discrepancy check again**
 
@@ -128,9 +128,9 @@ Immediately after synchronization operations are completed, business rules run t
 
 ## Activate life-cycle alignment and synchronization
 
-Instructions [Migrate legacy asset and CI settings to CSDM life-cycle values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md)
+Instructions [Migrate legacy asset and CI settings to CSDM life-cycle values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md)
 
-**Parent Topic:**[Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-implementation-stages.md)
+**Parent Topic:**[Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-implementation-stages.md)
 
 ## Map legacy status values to CSDM life-cycle values
 
@@ -142,11 +142,11 @@ Role required: itil\_admin or asset\_admin
 
 ### About this task
 
-Several legacy statuses are automatically mapped to the **Life Cycle Stage** and **Life Cycle Stage Status** fields. For more information, see [Legacy status values that are auto-updated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-status-auto-updated.md).
+Several legacy statuses are automatically mapped to the **Life Cycle Stage** and **Life Cycle Stage Status** fields. For more information, see [Legacy status values that are auto-updated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-status-auto-updated.md).
 
 Because the base system includes many default mappings, you might not have to create many custom mappings. To view the list of default mappings, navigate to **All** &gt; **CSDM** &gt; **Life Cycle Mapping**.
 
-**Tip:** Terms used in this document are defined in [CSDM life-cycle terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-life-cyle-terms.md).
+**Tip:** Terms used in this document are defined in [CSDM life-cycle terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-life-cyle-terms.md).
 
 In the following example, your existing data uses a status attribute named **Install Status** for hardware CIs. You configure the Life cycle mapping form to map the existing **Pending Install** value of the **Install Status** attribute to the **Deploy/Test** life-cycle value pair in the CMDB.
 
@@ -156,13 +156,13 @@ In the following example, your existing data uses a status attribute named **Ins
 
 1.  Navigate to **All** &gt; **CSDM** &gt; **Life Cycle Mapping**.
 
-2.  On the Life cycle mappings list view, select **New** and then fill in the Life cycle mapping form as described in [Life cycle mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-mapping-form.md).
+2.  On the Life cycle mappings list view, select **New** and then fill in the Life cycle mapping form as described in [Life cycle mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-mapping-form.md).
 
 3.  Select **Submit**.
 
 4.  Repeat the process and, when you have mapped all legacy status values, migrate them to the CMDB.
 
-    For instructions, see [Migrate legacy asset and CI settings to CSDM life-cycle values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md).
+    For instructions, see [Migrate legacy asset and CI settings to CSDM life-cycle values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md).
 
 
 ## Migrate legacy asset and CI settings to CSDM life-cycle values
@@ -171,7 +171,7 @@ Activate life-cycle synchronization to migrate your legacy asset and CI status s
 
 ### Before you begin
 
-**Tip:** Terms used in this document are defined in [CSDM life-cycle terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-life-cyle-terms.md).
+**Tip:** Terms used in this document are defined in [CSDM life-cycle terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-life-cyle-terms.md).
 
 Before you enable life-cycle synchronization, navigate to **CSDM** &gt; **Life Cycle Mapping**. Review the prepopulated mappings in the **Life Cycle Mappings** list view:
 
@@ -202,12 +202,12 @@ Role required: itil\_admin or asset\_admin
 
 One-time synchronization is done. All cmdb\_ci and asset records should have *life cycle stage* and *life cycle stage status* values, either coming directly from what the asset had \(if you have an asset/CI combo\), or from the life cycle mapping table directly for non-asset CIs.
 
-Business rules now perform ongoing alignment of life-cycle data as described in [Enabling life-cycle synchronization from legacy to asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md).
+Business rules now perform ongoing alignment of life-cycle data as described in [Enabling life-cycle synchronization from legacy to asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md).
 
 ### What to do next
 
 After the data has migrated successfully, you can start managing data following the CSDM model:
 
-1.  [Activate the CSDM Activation \(com.snc.cmdb.csdm.activation\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
-2.  Use the [CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md) to centrally govern the life cycle of CIs in bulk and in a standard and consistent way.
+1.  [Activate the CSDM Activation \(com.snc.cmdb.csdm.activation\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivateAPlugin.md).
+2.  Use the [CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md) to centrally govern the life cycle of CIs in bulk and in a standard and consistent way.
 

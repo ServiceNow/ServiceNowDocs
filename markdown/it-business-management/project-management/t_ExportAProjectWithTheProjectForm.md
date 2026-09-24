@@ -3,11 +3,11 @@ title: Export project data
 description: Export the project data using the Export module, Project form, or Planning Console. Save the export file to a folder on your system in the Microsoft Project \(MPP\), XML, or CSV format.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_ExportAProjectWithTheProjectForm.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Project export to Microsoft Project, Importing and exporting projects, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -30,15 +30,15 @@ The option for exporting the project data in MPP and CSV format is available whe
 
 1.  Export the project data from any of the following options.
 
-<table id="choicetable_jrq_jjk_jlb"><thead><tr><th align="left" id="d329927e86">
+<table id="choicetable_jrq_jjk_jlb"><thead><tr><th align="left" id="d331803e86">
 
 Location
 
-</th><th align="left" id="d329927e89">
+</th><th align="left" id="d331803e89">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d329927e95">
+</th></tr></thead><tbody><tr><td id="d331803e95">
 
 **From the Export module**
 
@@ -48,7 +48,7 @@ Steps
 2.  Select a project From the Project to export list and select **Export**.
 
 
-</td></tr><tr><td id="d329927e131">
+</td></tr><tr><td id="d331803e131">
 
 **From the Project form**
 
@@ -59,7 +59,7 @@ Steps
 3.  In the Project form, select **Export to MS Project** from the context menu.
 
 
-</td></tr><tr><td id="d329927e170">
+</td></tr><tr><td id="d331803e170">
 
 **From the Planning Console**
 
@@ -87,13 +87,13 @@ Steps
 -   Use the XML file to import the project data into other ServiceNow instances or Microsoft Project.
 -   Use the CSV file to view project data using other applications.
 
--   **[Export project tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_ExportProjectTasks.md)**  
+-   **[Export project tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_ExportProjectTasks.md)**  
 The task being exported must be associated with a project that uses either the Project Management Schedule or the Default MS Project schedule.
 
-**Parent Topic:**[Project export to Microsoft Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectExportToMicrosoftProject.md)
+**Parent Topic:**[Project export to Microsoft Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_ProjectExportToMicrosoftProject.md)
 
 **Related topics**  
 
 
-[Importing and exporting projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectImportAndExport.md)
+[Importing and exporting projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_ProjectImportAndExport.md)
 

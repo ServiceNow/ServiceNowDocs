@@ -3,9 +3,9 @@ title: Work on an individual life insurance underwriting task
 description: An underwriter can work on an individual life insurance underwriting task to evaluate the policy request and analyze risks for an insurance policy customer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/work-indiv-life-insurance-underwriting-task.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Individual Life Servicing, Life Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -32,7 +32,7 @@ Use the case playbook that provides the activities and tasks required to researc
 
 3.  Open the task from the underwriting task list.
 
-<table><tbody><tr><td id="d60073e105">
+<table><tbody><tr><td id="d60288e105">
 
 **From the Individual Life Underwriting task list**
 
@@ -53,15 +53,15 @@ Use the case playbook that provides the activities and tasks required to researc
 
 6.  Close the task from the underwriting task form.
 
-<table><thead><tr><th align="left" id="d60073e182">
+<table><thead><tr><th align="left" id="d60288e182">
 
 Underwriting task
 
-</th><th align="left" id="d60073e185">
+</th><th align="left" id="d60288e185">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d60073e191">
+</th></tr></thead><tbody><tr><td id="d60288e191">
 
 **To review coverage change**
 
@@ -73,7 +73,7 @@ Action
     -   In the task form, in the **State** field, change the state of the task to **Closed Complete**.
 
 
-</td></tr><tr><td id="d60073e229">
+</td></tr><tr><td id="d60288e229">
 
 **To submit a review**
 

@@ -3,11 +3,11 @@ title: Jumpstart Your CSDM for Service Operations
 description: This Accelerator provides a demonstration of the possibilities and capabilities of the Common Service Data Model \(CSDM\) for Service Operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-csdm-for-service-operations.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [CSDM, Service Operations, CMDB, Common Service Data Model]
 breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
@@ -29,7 +29,7 @@ The accelerator aligns you with CSDM leading practices and enables you to build 
 
 ## Prerequisites
 
-Customers are encouraged to complete the [Jumpstart Your CSDM: Foundation accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-csdm.md) before taking this one, as this offering builds on the foundational data required to operate, maintain and support business and technical services.
+Customers are encouraged to complete the [Jumpstart Your CSDM: Foundation accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/jumpstart-csdm.md) before taking this one, as this offering builds on the foundational data required to operate, maintain and support business and technical services.
 
 ## What You Get
 
@@ -43,11 +43,14 @@ Customers are encouraged to complete the [Jumpstart Your CSDM: Foundation accele
 
     -   Overview of the data needed for IT Service and Operations products
     -   Demonstration of accurately populated data using real-world examples
-    -   Temporary instance provided with 30 days access
 -   **Customer Coaching Session \#2 \(Optional upon Customer request - up to 1 hour\)**
 
     Opportunity for Q&amp;A related to CSDM for Service Operations
 
+-   **Output**
+    -   30-day access to the temporary instance and Technical Accelerator Consultant with whom you met for any further questions or in-depth explorations
+    -   Copy of the Coaching Session Deck
+    -   Prerecorded demonstration videos
 
 ## Requested Customer Resources
 
@@ -66,4 +69,8 @@ Customers are encouraged to complete the [Jumpstart Your CSDM: Foundation accele
 ## Requested Information/Access
 
 **Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
+
+## Exclusions
+
+ServiceNow is not responsible for implementing recommendations on Customer’s sub-production or production instances.
 

@@ -3,11 +3,11 @@ title: Show or hide the conversation panel
 description: Show or hide the conversation panel in the real-time transcription \(RTT\) interface using the rtt\_show\_conversation\_tab identity property. This feature allows the contact center providers to control the visibility of the conversation panel using the identity property.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/show-hide-conversation-panel.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ICC voice call features, ICC for voice calls, Integrating with Computer Telephony Integration \(CTI\), Integrate, Customer Service Management]
+breadcrumb: [ICC for voice calls, Integrating with Computer Telephony Integration \(CTI\), Integrate, Customer Service Management]
 ---
 
 # Show or hide the conversation panel

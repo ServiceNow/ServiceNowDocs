@@ -3,9 +3,9 @@ title: Adding participants
 description: This step is the final phase in your simulation where you add agent details and assign call capabilities for each participant.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/adding-participants.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up the Voice Controls Simulator tool, Voice Controls Simulator tool, ICC for voice calls, Integrating with Computer Telephony Integration \(CTI\), Integrate, Customer Service Management]
 ---

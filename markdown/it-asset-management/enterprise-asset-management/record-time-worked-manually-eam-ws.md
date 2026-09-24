@@ -3,11 +3,11 @@ title: Record time worked on a repair task manually in the Enterprise Asset Work
 description: Create an entry for the time worked on a repair task manually in the Enterprise Asset Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/record-time-worked-manually-eam-ws.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Record time worked on asset repair tasks in the Enterprise Asset Workspace, Manage repair of defective assets in your stockroom in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
@@ -55,7 +55,7 @@ Role required: enterprise\_asset\_technician
 
 The Time Worked form is saved and the time card is added to the Time Worked tab of the asset repair task.
 
-**Parent Topic:**[Record time worked on asset repair tasks in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/record-repair-time-eam-ws.md)
+**Parent Topic:**[Record time worked on asset repair tasks in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/record-repair-time-eam-ws.md)
 
 **Related topics**  
 

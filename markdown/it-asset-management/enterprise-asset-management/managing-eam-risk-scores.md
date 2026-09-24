@@ -3,11 +3,11 @@ title: Managing risk in Enterprise Asset Management
 description: Manage risk in the Enterprise Asset Management application by creating configuration values for risk likelihood, risk impact, and risk scores.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/managing-eam-risk-scores.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Enterprise Asset Management, Asset Management]
 ---
@@ -24,7 +24,7 @@ Access the Risk modules for the Enterprise Asset Management application by navig
 -   **Risk Impact**
 -   **Risk Score**
 
-**Note:** For details on configuring values for likelihood, impact, and score, see [Create configuration values for risk likelihood](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/risk-likelihood-config.md), [Create configuration values for risk impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/risk-impact-config.md), or [Create configuration values for risk scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/risk-score-config.md).
+**Note:** For details on configuring values for likelihood, impact, and score, see [Create configuration values for risk likelihood](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/risk-likelihood-config.md), [Create configuration values for risk impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/risk-impact-config.md), or [Create configuration values for risk scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/risk-score-config.md).
 
 After you’ve configured the values in the Risk modules and frozen them, the heat maps are rendered on the following views on the Enterprise Asset Workspace:
 
@@ -35,10 +35,12 @@ If a model is no longer in the **Build** stage and you update the Model's risk s
 
 **Note:** If the model is in the **Build** stage, the **Update risk** button doesn't appear.
 
--   **[Create configuration values for risk likelihood](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/risk-likelihood-config.md)**  
+-   **[Create configuration values for risk likelihood](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/risk-likelihood-config.md)**  
 Use the Risk Likelihood module to create configuration values for the likelihood vector.
--   **[Create configuration values for risk impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/risk-impact-config.md)**  
+-   **[Create configuration values for risk impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/risk-impact-config.md)**  
 Use the Risk Impact module to create configuration values for the impact vector.
--   **[Create configuration values for risk scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/risk-score-config.md)**  
+-   **[Create configuration values for risk scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/risk-score-config.md)**  
 Use the Risk Score module to create configuration values for risk score bands.
+
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/asset-management-landing-page.md)
 

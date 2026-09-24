@@ -3,9 +3,9 @@ title: Reference field icon
 description: On forms, the reference icon \( Core UI reference icon \) appears by populated reference fields. Clicking the icon opens a read-only preview of the referenced record.Use a table's sys\_popup form view to configure the fields in the pop-up form that appear when pointing to a reference icon. If the table has no sys\_popup view, the pop-up uses the default view.Reference pop-ups and click-throughs are hidden by default when a client script, UI policy, variable, or ACL makes the field read-only. The ability to see or click through to the target record does not depend on whether the reference field is writable. You can change the read-only setting.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_ReferenceIcon.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Decorations, Reference field type, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Decorations, Reference field type, Reference, Field administration,
 
 On forms, the reference icon \(\[Omitted image "IconReferenceUI15.png"\] Alt text: Core UI reference icon\) appears by populated reference fields. Clicking the icon opens a read-only preview of the referenced record.
 
-\[Omitted image "image.referenced-record-b20"\] Alt text: Pointing to the reference icon, which looks like the letter I in a circle, opens a preview of the record over the form
+\[Omitted image "ReferencedRecordUI15.png"\] Alt text: Pointing to the reference icon, which looks like the letter I in a circle, opens a preview of the record over the form
 
 The preview remains open until you click somewhere else on the form.
 
@@ -68,7 +68,7 @@ The pop-up form displays in the top form section only.
 **Related topics**  
 
 
-[Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md)
+[Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md)
 
 ## Configure pop-ups on read-only fields
 

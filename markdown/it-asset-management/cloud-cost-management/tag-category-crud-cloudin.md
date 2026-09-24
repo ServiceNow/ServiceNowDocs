@@ -3,11 +3,11 @@ title: Create and update a tag category
 description: Create a tag category to enable multiple tag names for representing costs against a single business entity. For example, multiple users might independently have created the tag names "App", "AppService", and "appl" to indicate applications. With a tag category of "Application", any costs for items tagged App, AppService, or appl are correctly assigned as costs against an application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/tag-category-crud-cloudin.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -39,7 +39,7 @@ This procedure describes the process as performed from the user interface. Alter
 
 2.  On the Tag Categories list, select **New**.
 
-    For the list of default tag categories, see [List of default tag categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/default-tag-categories.md).
+    For the list of default tag categories, see [List of default tag categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/default-tag-categories.md).
 
     **Note:** In this step, you add a single tag name to the category to create the initial category record. You can add any number of tag names to the category later.
 
@@ -99,15 +99,15 @@ The list of tag names that you can add to the category.1.  Select the Lookup ico
 6.  On the **Tag names** list, select the Lookup icon \[Omitted image "search-icon.png"\] to add multiple tag names.
 
 
--   **[Select a tag category source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/select-tag-category-source.md)**  
+-   **[Select a tag category source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/select-tag-category-source.md)**  
 Select a tag category source to control how the Cloud Cost Management application maps cloud resource tags to business entities for cost attribution and reporting.
--   **[Add or update a tag value for an AI Service tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/create-tag-value-ai.md)**  
+-   **[Add or update a tag value for an AI Service tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/create-tag-value-ai.md)**  
 Associate a tag name with its corresponding tag value whenever a new AI service or a category within an existing AI service is introduced for Amazon Web Services \(AWS\), Microsoft Azure, or Google Cloud Platform \(GCP\).
 
-**Parent Topic:**[Using Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/using-cloud-insights.md)
+**Parent Topic:**[Using Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/using-cloud-insights.md)
 
 **Related topics**  
 
 
-[Cost usage tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/tags-overview.md)
+[Cost usage tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/tags-overview.md)
 

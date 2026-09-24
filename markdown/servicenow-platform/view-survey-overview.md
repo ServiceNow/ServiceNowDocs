@@ -3,9 +3,9 @@ title: View survey reports
 description: Use the Survey Overview dashboard to view various survey reports, such as Surveys by Metric Type and State.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/view-survey-overview.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,10 +28,10 @@ The dashboard displays your survey reports arranged in widgets. You can add new 
 
 2.  Click the elements within the reports to view more information.
 
-    For more information about working with dashboards, see [Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dashboards-landing-page.md).
+    For more information about working with dashboards, see [Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/dashboards-landing-page.md).
 
 
-**Parent Topic:**[Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyAdminTasks.md)
+**Parent Topic:**[Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_SurveyAdminTasks.md)
 
 **Related topics**  
 

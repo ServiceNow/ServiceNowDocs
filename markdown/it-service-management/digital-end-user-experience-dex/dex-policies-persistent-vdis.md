@@ -3,11 +3,11 @@ title: DEX policies for persistent VDIs
 description: Policy reference for DEX monitoring on Windows persistent Virtual Desktop Infrastructures \(VDI\). Use this reference to understand available check instances, frequencies, and parameters for application, network, and device monitoring.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/dex-policies-persistent-vdis.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-04-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [DEX Content Playbook reference, Reference, Digital End-User Experience, IT Service Management]
 ---
@@ -288,5 +288,4 @@ Latest
 config\_file\_read
 
 </td></tr></tbody>
-</table>**Parent Topic:**[DEX Content Playbook reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-content-playbook-reference.md)
-
+</table>

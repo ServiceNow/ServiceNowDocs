@@ -3,11 +3,11 @@ title: Fulfill a service request
 description: End users can request published services through the service catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/service-creator/t\_FulfillingServiceRequests.html
-release: australia
+release: brazil
 product: Service Creator
 classification: service-creator
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage a service, Service Creator, Build workflows]
 ---

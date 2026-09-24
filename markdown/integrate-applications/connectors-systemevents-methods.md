@@ -3,9 +3,9 @@ title: SystemEvents connector methods
 description: The SystemEvents connector methods watch various system events and, if needed, stop watching.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/connectors-systemevents-methods.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [System Events, Connectors, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -104,11 +104,11 @@ WatchFileSystem method error.
 </td></tr></tbody>
 </table>-   **Input**
 
-    [Path](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/parameters-systemevents-methods.md)
+    [Path](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/parameters-systemevents-methods.md)
 
-    [FileTypes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/parameters-systemevents-methods.md)
+    [FileTypes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/parameters-systemevents-methods.md)
 
-    [SubDirectories \(Boolean\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/parameters-systemevents-methods.md)
+    [SubDirectories \(Boolean\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/parameters-systemevents-methods.md)
 
 
 ## WatchNetworkAvailability
@@ -143,5 +143,5 @@ Stops or prevents the RPA Desktop Design Studio watching the network availabilit
 
 Stops or prevents RPA Desktop Design Studio watching the network availability events. You can use this method before or after the WatchSessionEvents method was already used.
 
-**Parent Topic:**[System Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-events-connector.md)
+**Parent Topic:**[System Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-events-connector.md)
 

@@ -3,9 +3,9 @@ title: Associate a service definition with a service definition category
 description: After creating a service definition category, you can associate one or more service definitions with the category.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/service-def-category-associate-service.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring service definitions, Service definitions, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---

@@ -3,11 +3,11 @@ title: Call URL export programmatically
 description: Dynamically export data from a script or web service by calling a URL export from any programming language.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/t\_CallURLExportProgrammatically.html
-release: australia
+release: brazil
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Export directly from a URL, Exporting data, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---

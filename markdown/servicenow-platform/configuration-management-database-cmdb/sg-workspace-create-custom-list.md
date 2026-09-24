@@ -3,11 +3,11 @@ title: Create a custom list in the Lists view in CMDB Workspace
 description: Create your own lists of classes that you can then navigate in the Lists view in CMDB Workspace to explore data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/sg-workspace-create-custom-list.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Create your own lists of classes that you can then navigate in the Lists view in
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_cmdb\_user
 
 ## Procedure
 
@@ -43,5 +43,5 @@ Role required: admin
 4.  Select **Create**.
 
 
-**Parent Topic:**[Configuring CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/configuring-cmdb-workspace.md)
+**Parent Topic:**[Configuring CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/configuring-cmdb-workspace.md)
 

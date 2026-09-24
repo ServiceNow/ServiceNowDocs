@@ -3,11 +3,11 @@ title: Configuring ServiceNow Otto for Creator
 description: To get started using ServiceNow Otto for Creator, install ServiceNow Otto for Creator. Then turn on the skills, AI agents, or agentic workflows that you want to use.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/configuring-now-assist-for-creator.html
-release: australia
+release: brazil
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: concept
-last_updated: "2026-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Configure ServiceNow Otto for Creator, ServiceNow Otto for Creator, Now Assist, Now Assist for Creator, create with Now Assist, Configure Now Assist for Creator, Install Now Assist for Creator, Creator Workflow, Creator Pro Plus, Build Agent, Flow generation, App generation]
 breadcrumb: [ServiceNow Otto for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
@@ -19,7 +19,7 @@ To get started using ServiceNow Otto for Creator, install ServiceNow Otto for Cr
 
 ## Installing ServiceNow Otto for Creator
 
-Check your company's entitlements to verify that you have access to ServiceNow Otto for Creator. To start using ServiceNow Otto for Creator, you must request it from the ServiceNow® Store. Once approval has been granted, you can install it on your instance. See [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-now-assist-for-creator.md) for more information.
+Check your company's entitlements to verify that you have access to ServiceNow Otto for Creator. To start using ServiceNow Otto for Creator, you must request it from the ServiceNow® Store. Once approval has been granted, you can install it on your instance. See [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-creator/install-now-assist-for-creator.md) for more information.
 
 ## Activating AI capabilities
 
@@ -35,7 +35,7 @@ To use ServiceNow Otto for Creator, you might need specific roles. Some roles ar
 
 Other roles might be required for ServiceNow Otto® experiences, such as the now\_assist\_panel\_user role for creating applications in ServiceNow Studio with the app generation skill.
 
-ServiceNow Otto for Creator has its own role, now.assist.creator, which might be required for using some ServiceNow Otto for Creator capabilities. See [ServiceNow Otto for Creator \[now.assist.creator\] role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/creator-roles-1.md) for more information.
+ServiceNow Otto for Creator has its own role, now.assist.creator, which might be required for using some ServiceNow Otto for Creator capabilities. See [ServiceNow Otto for Creator \[now.assist.creator\] role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-creator/creator-roles-1.md) for more information.
 
 To learn what roles are required for the ServiceNow Otto for Creator AI capability you want to use, see the product documentation for the capability.
 

@@ -3,11 +3,11 @@ title: Installed with Asset Audit Response
 description: Various components are installed on activation of the Asset Audit Response application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-audits/installed-with-asset-audit-response.html
-release: australia
+release: brazil
 product: Asset Audits
 classification: asset-audits
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Asset Audit Response, IT Asset Management, Asset Management]
 ---
@@ -161,5 +161,5 @@ Evidence Remediation Task\[amg\_evidence\_remediation\_task\]
 List of remediation tasks that are generated for all evidence requests.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Asset Audit Response reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-audits/asset-audit-response-references.md)
+</table>**Parent Topic:**[Asset Audit Response reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-audits/asset-audit-response-references.md)
 

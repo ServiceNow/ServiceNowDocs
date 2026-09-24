@@ -3,12 +3,12 @@ title: Test access to an AI asset
 description: Verify whether a user has access to an agentic AI asset - AI agent and agentic workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/test-access-ai-asset.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Access analyzer, Test access to AI asset]
-breadcrumb: [Implement access control in AI Agent Studio, Configure AI Agent Studio, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Implement access control in AI Agent Studio, Configure AI Agent Studio, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Test access to an AI asset

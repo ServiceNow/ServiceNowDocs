@@ -3,11 +3,11 @@ title: Manage ideas
 description: As an idea manager, manage submitted ideas by reviewing them, making modifications, or deleting outdated ones, identifying duplicates, and updating and tracking their state.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/innovation-management/manage-ideas.html
-release: australia
+release: brazil
 product: Innovation Management
 classification: innovation-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing ideas using Innovation Management, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -36,14 +36,14 @@ The idea manager reviews submitted ideas and, if necessary, requests more inform
 
 4.  Review the idea details and then choose which action to perform on the idea.
 
-    For more information on actions and steps, see [Manage ideas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/manage-ideas-idea-portal.md).
+    For more information on actions and steps, see [Manage ideas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/innovation-management/manage-ideas-idea-portal.md).
 
 5.  Select **Update**.
 
 
 ## What to do next
 
-Convert selected ideas into tasks such as [demand, project, stories, and epics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/create-a-task-for-an-idea.md).
+Convert selected ideas into tasks such as [demand, project, stories, and epics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/innovation-management/create-a-task-for-an-idea.md).
 
-**Parent Topic:**[Managing ideas using Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/using-innovation-management.md)
+**Parent Topic:**[Managing ideas using Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/innovation-management/using-innovation-management.md)
 

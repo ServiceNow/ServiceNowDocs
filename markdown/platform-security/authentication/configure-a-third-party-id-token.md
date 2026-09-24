@@ -3,13 +3,13 @@ title: Configure a third party ID token
 description: Configure a third-party ID token to enable secure authentication by verifying user identities through an external IdP. The third-party ID token improves security by reducing stored credentials, confirms seamless authentication, and supports interoperability with industry standards like OpenID Connect \(OIDC\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/configure-a-third-party-id-token.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Third Party Token Grant, Inbound Integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [Third Party Token Grant, Inbound integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Configure a third party ID token

@@ -3,9 +3,9 @@ title: Bundle and Package IDs for ServiceNow mobile apps
 description: To enforce app policies your mobile application management software may require the bundle or package ID associated with the mobile app. See the following reference for these IDs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mobile-package-ids.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mobile application management \(MAM\), Configuring the Mobile Platform, Mobile Platform]
 ---

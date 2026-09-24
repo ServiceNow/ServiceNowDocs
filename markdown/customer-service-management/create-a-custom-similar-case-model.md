@@ -3,9 +3,9 @@ title: Create a custom similar case model
 description: Set up a training model to help it recognize similarities between two types of tables by comparing their fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-a-custom-similar-case-model.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure, Task Intelligence for Customer Service, Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -77,7 +77,7 @@ Steps in Assess the similarity model:
 
     |Options|Description|
     |-------|-----------|
-    |Recommendations|Shows the top recommendations based on the similarity patterns. Agents can choose to accept or reject the recommendation. You can configure the number of recommended values using Advanced Recommended actions for CSM. For more information, see [Configuring the Recommended Actions application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-recommended-actions.md).|
+    |Recommendations|Shows the top recommendations based on the similarity patterns. Agents can choose to accept or reject the recommendation. You can configure the number of recommended values using Advanced Recommended actions for CSM. For more information, see [Configuring the Recommended Actions application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-recommended-actions.md).|
     |Turn off predictions|Stops the model from performing any predictions.|
     |Monitor only|Monitors and runs the model in the background only without making any predictions on the case form.|
 

@@ -3,11 +3,11 @@ title: View LEAP resolution step recommendations in SOW
 description: Use LEAP to view AI-generated resolution step recommendations that match the incident description in SOW to resolve incidents more efficiently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/view-resolution-steps-in-sow.html
-release: australia
+release: brazil
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 keywords: [resolution steps, LEAP, recommendations, Service Operations Workspace, incident resolution]
 breadcrumb: [Use, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]

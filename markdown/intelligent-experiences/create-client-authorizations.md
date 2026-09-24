@@ -3,12 +3,12 @@ title: Create client authorizations
 description: Establish connections between your MCP clients and servers with client authorizations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-client-authorizations.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [client authorization]
-breadcrumb: [Create an OAuth inbound integration for an MCP client, Connect, MCP Server Console, Enable AI experiences]
+breadcrumb: [Create an OAuth inbound integration for an MCP client, Connect, MCP Server Console, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Create client authorizations
@@ -35,7 +35,7 @@ The the OAuth fields are auto-populated, generating the Client ID and Secret wit
 
 4.  Review all the authorization details that you will need, to integrate the MCP client.
 
-    See [Configure an MCP client to connect to an MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-client-connect-server.md) to details on these URLs.
+    See [Configure an MCP client to connect to an MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-client-connect-server.md) to details on these URLs.
 
     -   Authorization URL
     -   Token URL
@@ -66,7 +66,7 @@ The the OAuth fields are auto-populated, generating the Client ID and Secret wit
 
 ## What to do next
 
-Configure the MCP Client to connect to MCP Server. See [Configure an MCP client to connect to an MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-client-connect-server.md).
+Configure the MCP Client to connect to MCP Server. See [Configure an MCP client to connect to an MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-client-connect-server.md).
 
-**Parent Topic:**[Create an OAuth inbound integration for an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-oauth-inbound-integration-mcp-client.md)
+**Parent Topic:**[Create an OAuth inbound integration for an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-oauth-inbound-integration-mcp-client.md)
 

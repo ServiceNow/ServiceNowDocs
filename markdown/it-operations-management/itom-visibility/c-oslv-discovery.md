@@ -3,11 +3,11 @@ title: Operating system-level virtualization discovery
 description: Discovery can collect image and container information from Operating system-level virtualization \(OS-level virtualization\) engines.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/c-oslv-discovery.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -89,8 +89,8 @@ Operating System Level Virtualization Container \[cmdb\_ci\_oslv\_container\]
 -   Image ID \[image\_id\]
 
 </td></tr></tbody>
-</table>-   **[Docker virtualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c-docker-virtualization.md)**  
+</table>-   **[Docker virtualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/c-docker-virtualization.md)**  
 Discovery uses the **Docker Pattern** to collect data about specific objects in a Docker engine, running on a Linux host.
 
-**Parent Topic:**[Data collected by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/data-collected-by-itom-visibility.md)
+**Parent Topic:**[Data collected by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/data-collected-by-itom-visibility.md)
 

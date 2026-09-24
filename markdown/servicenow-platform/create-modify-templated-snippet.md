@@ -3,9 +3,9 @@ title: Create or modify a response template
 description: Create or modify a response template \(formerly known as a templated snippet\) to define a reusable message that can be copied to case or task forms or used in Agent Chat sessions to provide quick and consistent messages to users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/create-modify-templated-snippet.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Response templates, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -74,7 +74,7 @@ Condition
 
 </td><td>
 
-Conditions that determine when the response template is available for use.When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
+Conditions that determine when the response template is available for use.When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
  **Note:** The conditions available depend on the table you select. For chat response templates, specify the condition: **\[Type\] \[is\] \[Chat\]**
 
@@ -98,14 +98,6 @@ Indicates what groups have access to the response template.Adding groups filters
 
 </td></tr><tr><td>
 
-Language
-
-</td><td>
-
-Language in which you want the response template to be translated. **Note:** Translation feature is available only when the required language plugins are installed on the instance.
-
-</td></tr><tr><td>
-
 Template body
 
 </td><td>
@@ -116,7 +108,9 @@ Text of the response template providing instructions to the agent on how to resp
 
 -   Current user: `${current_user}`
 -   Current date: `${Date}`
- Or, position your cursor where you want the custom variable reference to appear and select the **Insert Current User** or **Insert Current Date** buttons.
+ Or, place your mouse where you want the custom variable reference to appear and select the **Insert Current User** or **Insert Current Date** buttons.
+
+ **Note:** Response templates do not support rich text.
 
 </td></tr><tr><td>
 
@@ -135,7 +129,9 @@ Variables you can add to the template body. For example, if you choose the HR Ca
 
 4.  Click **Submit** or **Update**.
 
-    The Channels related list appears. Channels limit the response template to only the channels you add. If you leave this blank, the response template is available to no channels. This feature allows you to have different messages for chats, emails, or form. For more information, see [Create a response template channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-templated-snippets.md).
+    Channels limit the response template to only the channels you add. If you leave this blank, the response template is available to no channels. This feature allows you to have different messages for chats, emails, or form. For more information, see [Create a response template channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-templated-snippets.md).
+
+    The Channels related list appears.
 
 
 ## What to do next

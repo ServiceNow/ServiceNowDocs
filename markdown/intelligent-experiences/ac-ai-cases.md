@@ -3,12 +3,12 @@ title: AI cases
 description: Investigate and document an incident affecting an AI asset, such as a suspected security breach, data exposure, or policy violation, using a structured case record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ac-ai-cases.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI case, breach, root cause analysis]
-breadcrumb: [Managing tasks and approvals, Address action items, AI Control Tower, Enable AI experiences]
+breadcrumb: [Managing tasks and approvals, Address action items, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # AI cases

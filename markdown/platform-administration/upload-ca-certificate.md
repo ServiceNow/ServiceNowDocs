@@ -3,9 +3,9 @@ title: Upload a CA certificate
 description: Upload a digital CA \(Certificate Authority\) certificate to validate email certificates for secure communication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/upload-ca-certificate.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up S/MIME, Email encryption, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -42,9 +42,9 @@ Role required: admin
 
 ## What to do next
 
-[Upload an email certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upload-email-certificate.md).
+[Upload an email certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upload-email-certificate.md).
 
-**Parent Topic:**[Setting up S/MIME for email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/smime-for-email-signing-and-encryption.md)
+**Parent Topic:**[Setting up S/MIME for email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/smime-for-email-signing-and-encryption.md)
 
 **Related topics**  
 

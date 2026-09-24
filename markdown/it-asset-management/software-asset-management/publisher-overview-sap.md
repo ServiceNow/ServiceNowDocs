@@ -3,11 +3,11 @@ title: Publisher overview for SAP in the Software Asset Workspace
 description: View license usage information related to SAP in the publisher overview for SAP in the Software Asset Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/publisher-overview-sap.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -19,6 +19,8 @@ View license usage information related to SAP in the publisher overview for SAP 
 From the Software Asset Workspace, access the SAP publisher overview by navigating to **License usage** &gt; **Publishers** and then selecting **SAP** from the list of available software publishers.
 
 Results are updated whenever a new reconciliation result is available.
+
+**Note:** Compliance results for SAP S/4HANA Cloud, Private Edition appear under the SAP S/4HANA product results. On-premises Named User compliance results appear under the Named User product results. If your organization has both on-premises and Private Cloud SAP systems, the results are shown separately for each deployment.
 
 \[Omitted image "publisher-overview-sap.png"\] Alt text: SAP publisher overview.
 
@@ -101,12 +103,14 @@ Potential indirect access \(transaction activity\)
 Total number of SAP users with indirect access to the SAP system based on user transaction activity.Users are given a score based on the amount of data received or sent by each connection.
 
 </td></tr></tbody>
-</table>For more details on the license usage information that is provided in the publisher overview, see [License usage publisher fields in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/workbench-publisherfields-workspace.md).
+</table>For more details on the license usage information that is provided in the publisher overview, see [License usage publisher fields in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/workbench-publisherfields-workspace.md).
 
-**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sap-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sap-publisher-pack.md)
 
 **Related topics**  
 
+
+[SAP publisher pack integration architecture]()
 
 [Tables installed with the SAP publisher pack]()
 
@@ -116,9 +120,9 @@ Total number of SAP users with indirect access to the SAP system based on user t
 
 [Establish an SAP connection using OAuth 2.0]()
 
-[Create entitlements for SAP]()
-
 [Create software models for SAP]()
+
+[Create entitlements for SAP]()
 
 [Create a custom SAP named user type]()
 

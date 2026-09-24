@@ -3,11 +3,11 @@ title: Request an order guide from Service Portal
 description: Use the SC Order Guide widget on Service Portal to request an order guide with several catalog items for a specific purpose.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/request-order-guide-portal.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Service Catalog in Service Portal, Integrating Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,7 @@ Role required: requester
 
 Select the **Allow Cloning** instance option on the Order Status page to display the **Additional Actions** section after placing the request.
 
-For information about the SC Order Guide widget, see [SC Order Guide widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/sc-order-guide-widget.md).
+For information about the SC Order Guide widget, see [SC Order Guide widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/sc-order-guide-widget.md).
 
 ## Procedure
 
@@ -112,7 +112,7 @@ For information about the SC Order Guide widget, see [SC Order Guide widget](htt
         -   The **Opened By** field of the cloned requests is updated with the logged in user.
         -   A user can view the cloned request created for the user from the **Requests** menu option or the My Requests widget on the catalog homepage.
 
-**Parent Topic:**[Service Catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-on-portal.md)
+**Parent Topic:**[Service Catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/catalog-on-portal.md)
 
 **Related topics**  
 
@@ -125,7 +125,7 @@ For information about the SC Order Guide widget, see [SC Order Guide widget](htt
 
 [Request a catalog item from Service Portal]()
 
-[Request an order guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_OrderProcess.md)
+[Request an order guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/t_OrderProcess.md)
 
-[Create an order guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreateAnOrderGuide.md)
+[Create an order guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/t_CreateAnOrderGuide.md)
 

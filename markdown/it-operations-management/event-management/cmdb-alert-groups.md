@@ -3,12 +3,12 @@ title: CMDB based alert grouping
 description: CMDB based alert grouping helps organizations manage alerts by organizing them according to their related configuration items \(CIs\) within the Configuration Management Database \(CMDB\). This method groups alerts based on CI relations in applications or infrastructure components. Teams can better understand the impact of issues, respond more effectively to alerts, and maintain service availability.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/cmdb-alert-groups.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Mixed alert grouping, Alert grouping types and creation methods, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -20,9 +20,7 @@ CMDB alert groups are created based on the current relationships between CIs in 
 
 By default, all the existing connections between CIs are used to group alerts. However, given the complexity of IT systems, there are many types of relationships, and organizations can filter which ones to consider when aggregating alerts. For instance, you can filter relationship types by suggested relationships that appears in the CMDB Group CI Relations \[em\_suggested\_relation\_type\] table. You can also filter using the hosting and containment rules \(dependent relationship rules\).
 
-For example, if a server is hosting multiple applications, and there’s a problem with that server, all related alerts can be grouped together. This helps the IT team quickly identify and address the root cause of the issue rather than dealing with each alert in isolation. Similarly, if different processes are running on a server, grouping alerts based on those processes allows teams to see how problems in one area might affect others. This leads to a more comprehensive understanding of the situation.
+For example, if a server is hosting multiple applications, and there’s a problem, all related alerts can be grouped together. This includes alerts for both the server and the applications it hosts. This helps the IT team quickly identify and address the root cause of the issue rather than dealing with each alert in isolation. Similarly, if different processes are running on a server, grouping alerts based on those processes allows teams to see how problems in one area might affect others. This leads to a more comprehensive understanding of the situation.
 
-The CMDB alert groups are effectively displayed in the [Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/el-cmdb-based-link-view.md) within the Service Operations Workspace, which allows teams to easily monitor and manage related alerts. This feature enhances operational efficiency by providing a clear view of alerts that are interconnected based on the current relationships among configuration items \(CIs\).
-
-To create CMDB-based alert grouping, you can also create a grouping automation in Service Operations Workspace. For more information, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/group-alert-sow-itom.md).
+The CMDB alert groups are effectively displayed in the [Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/el-cmdb-based-link-view.md) within the Service Operations Workspace, which allows teams to easily monitor and manage related alerts. This feature enhances operational efficiency by providing a clear view of alerts that are interconnected based on the current relationships among configuration items \(CIs\).
 

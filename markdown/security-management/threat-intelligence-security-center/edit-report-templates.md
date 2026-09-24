@@ -3,11 +3,11 @@ title: Edit a Published Report Template
 description: Customize published report templates by modifying their content fields and related lists to better meet your reporting requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/edit-report-templates.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure report templates, Administer, Threat Intelligence Security Center, Security Operations]
 ---

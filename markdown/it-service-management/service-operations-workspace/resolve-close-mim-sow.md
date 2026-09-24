@@ -3,11 +3,11 @@ title: Resolve and close a major incident
 description: Resolve a major incident to reinstate service after the interruption.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/resolve-close-mim-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing a major incident record, Major Incident Management in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -75,5 +75,5 @@ Brief description on how the major incident was resolved.
 
 The state of the major incident is set to **Closed**.
 
-**Parent Topic:**[Managing a major incident record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/managing-major-incident-sow.md)
+**Parent Topic:**[Managing a major incident record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/managing-major-incident-sow.md)
 

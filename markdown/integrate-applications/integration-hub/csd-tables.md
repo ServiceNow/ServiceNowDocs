@@ -3,11 +3,11 @@ title: Tables installed
 description: These tables are installed with the Client Software Distribution plugin \(com.snc.orchestration.client\_sf\_distribution\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd-tables.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Components installed with CSD, Client Software Distribution, Integration Hub solutions, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -32,5 +32,5 @@ These tables are installed with the Client Software Distribution plugin \(com.sn
 |SCCM Deployment \[sn\_client\_sf\_dist\_sccm\_deployment\]|Contains all discovered SCCM deployments. Contains all discovered SCCM deployments.|
 |SCCM Configuration \[sn\_client\_sf\_dist\_sccm\_config\]|Contains the SCCM application, install and uninstall collections, and Discovery model. This table extends the Client Software Distribution Software Configuration \[sn\_client\_sf\_dist\_software\_config\]|
 
-**Parent Topic:**[Components installed with client software distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/comp-installed-csd-ihub.md)
+**Parent Topic:**[Components installed with client software distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/comp-installed-csd-ihub.md)
 

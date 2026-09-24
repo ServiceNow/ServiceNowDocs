@@ -3,11 +3,11 @@ title: Enable or disable scenario planning in Portfolio Planning
 description: Enable or disable scenario planning in Portfolio Planning.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/enable-scenario-planning-in-portfolio-planning.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure scenario planning in Portfolio Planning, Configure, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -37,5 +37,5 @@ Scenario planning is enabled by default. Use the following steps to disable or e
 
 ## What to do next
 
-[Create a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-a-scenario-in-portfolio-planning.md)
+[Create a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/create-a-scenario-in-portfolio-planning.md)
 

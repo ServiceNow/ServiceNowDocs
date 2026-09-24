@@ -3,11 +3,11 @@ title: Custom interactive filter examples
 description: As an administrator, you can create custom interactive filter widgets to provide advanced filtering options on dashboards.Create custom interactive filter widgets to provide advanced filtering options on dashboards.After you create the interactive filter, add the filtering logic.When the standard selection of date/time filter options doesn't meet your needs, you can create a custom option.You can use a custom interactive filter to filter multiple reports using different tables. There are two different APIs to publish an interactive filter for a single table or multiple tables. This example filters a report on the incident and problem tables by assignment group using a custom interactive filter.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/core-ui-interactive-filters/r\_CustomPublisherExample.html
-release: australia
+release: brazil
 product: Core UI Interactive Filters
 classification: core-ui-interactive-filters
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Custom interactive filters, Interactive Filters, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -20,18 +20,18 @@ As an administrator, you can create custom interactive filter widgets to provide
 
 This example details how to create a custom filter to filter reports on the Task table, or its child tables. The filter only shows records where the current user is the caller. The filter exposes two buttons to the user, one button to add the filter and one to remove the filter.
 
-**Parent Topic:**[Custom interactive filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/core-ui-interactive-filters/c_CustomPublishers.md)
+**Parent Topic:**[Custom interactive filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/core-ui-interactive-filters/c_CustomPublishers.md)
 
 **Related topics**  
 
 
-[Configure a content block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreateAContentBlock.md)
+[Configure a content block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_CreateAContentBlock.md)
 
-[UI scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_UIScripts.md)
+[UI scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/c_UIScripts.md)
 
-[Jelly tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_JellyTags.md)
+[Jelly tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/r_JellyTags.md)
 
-[DashboardMessageHandler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/core-ui-interactive-filters/c_DashboardMessageHandler.md)
+[DashboardMessageHandler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/core-ui-interactive-filters/c_DashboardMessageHandler.md)
 
 ## Create a custom interactive filter widget
 
@@ -169,7 +169,7 @@ Role required: admin.
 
 4.  In the line you added, make the following substitutions.
 
-<table id="choicetable_qnn_gnq_bvb"><tbody><tr><td id="d45072e466">
+<table id="choicetable_qnn_gnq_bvb"><tbody><tr><td id="d45534e466">
 
 **&lt;Time\_Period\_Name&gt;**
 
@@ -177,7 +177,7 @@ Role required: admin.
 
 A unique name for the time period selected. This string is used internally by the system to identify the option and is set to something that can be descriptive of the time period described.Enter the value `112_Last Fortnight`.
 
-</td></tr><tr><td id="d45072e481">
+</td></tr><tr><td id="d45534e481">
 
 **&lt;Beginning\_Time\_Period&gt;**
 
@@ -185,7 +185,7 @@ A unique name for the time period selected. This string is used internally by th
 
 The specific date and time on which this filter starts. This value can use absolute or relative values. It’s much more common to use a relative value that uses the JavaScript URL syntax.Enter the value `gs.daysAgoStart(14)` to indicate that the time interval for this selection should be exactly two weeks ago.
 
-</td></tr><tr><td id="d45072e496">
+</td></tr><tr><td id="d45534e496">
 
 **&lt;Ending\_Time\_Period&gt;**
 
@@ -193,7 +193,7 @@ The specific date and time on which this filter starts. This value can use absol
 
 The specific date and time on which the time period for this filter option should end. This value can also use absolute or relative values. Similar to the **Beginning\_Time\_Period** this value is usually a relative time period to use the JavaScript URL syntax.Enter the value `gs.daysAgoStart(0)` to indicate that the time period ends at the current date and time.
 
-</td></tr><tr><td id="d45072e514">
+</td></tr><tr><td id="d45534e514">
 
 **&lt;Textual\_Representation\_Of\_Time\_Period&gt;**
 

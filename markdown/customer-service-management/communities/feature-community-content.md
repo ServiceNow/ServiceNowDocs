@@ -3,11 +3,11 @@ title: Add featured content in a community
 description: Add or edit featured content in a community to appear in the Featured Content section on the community homepage, forum homepage, or both.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/feature-community-content.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Using communities, Communities, Customer Service Management]
 ---
@@ -57,6 +57,10 @@ Send notifications to community users when content is featured on the community 
 
 Role required: sn\_communities.admin, sn\_communities.community\_moderator, sn\_communities.forum\_admin, or sn\_communities.forum\_moderator
 
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 ## Procedure
 
 1.  Navigate to the community homepage.
@@ -72,7 +76,7 @@ Role required: sn\_communities.admin, sn\_communities.community\_moderator, sn\_
     A notification that content has been featured is sent out to the author of the content, community users who commented on the post, and community users who are subscribed to the post. If featured content has expired or is removed from the featured content list by another user, community and forum administrators are notified.
 
 
-**Parent Topic:**[Using communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/using-communities.md)
+**Parent Topic:**[Using communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/using-communities.md)
 
 **Related topics**  
 

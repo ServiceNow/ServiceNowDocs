@@ -3,11 +3,11 @@ title: Start a conference call using Microsoft Teams in Service Operations Works
 description: Start a conference call from Microsoft Teams to work towards the resolution of an incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/start-conference-call-microsoft-teams.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Microsoft Teams to make conference calls in Service Operations Workspace, Notify in Service Operations Workspace, Collaboration in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -82,5 +82,5 @@ Provide a brief summary about the issue to be discussed in the conference call.
 </table>9.  Select **Start**.
 
 
-**Parent Topic:**[Use Microsoft Teams to make conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/microsoft-teams-sow.md)
+**Parent Topic:**[Use Microsoft Teams to make conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/microsoft-teams-sow.md)
 

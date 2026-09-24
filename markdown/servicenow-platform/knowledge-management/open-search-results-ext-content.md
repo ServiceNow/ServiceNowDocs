@@ -3,11 +3,11 @@ title: Open knowledge search results in source system
 description: While search results are aggregated within your instance, your users can also utilize features available in the source system \(being able to edit in Microsoft SharePoint, for example\). To open knowledge search results in a host system, configure the URL to the external source system to open articles from search results directly in the source system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/open-search-results-ext-content.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integration with external knowledge sources, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ While search results are aggregated within your instance, your users can also ut
 
 ## Before you begin
 
-Make sure the **Open search results in the original source system** import parameter for the [external knowledge source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/define-an-external-knowledge-source.md) is set to **true**.
+Make sure the **Open search results in the original source system** import parameter for the [external knowledge source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/define-an-external-knowledge-source.md) is set to **true**.
 
 You can follow this procedure when you have a file as a knowledge article in Microsoft SharePoint, for example.
 
@@ -54,5 +54,5 @@ Role required: admin
 4.  Click **Update**.
 
 
-**Parent Topic:**[Integration with external knowledge sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-external-content-integration.md)
+**Parent Topic:**[Integration with external knowledge sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/knowledge-external-content-integration.md)
 

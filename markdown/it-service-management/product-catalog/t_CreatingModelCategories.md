@@ -3,11 +3,11 @@ title: Create model categories
 description: You can add custom model categories for your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/product-catalog/t\_CreatingModelCategories.html
-release: australia
+release: brazil
 product: Product Catalog
 classification: product-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Model categories, Product Catalog, Asset Management common applications, IT Service Management]
 ---
@@ -111,7 +111,7 @@ Allow pre-allocation
 
 </td><td>
 
-Add and track items in this category as[Create pre-allocated assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/t_CreatingPreAllocatedAssets.md).
+Add and track items in this category as[Create pre-allocated assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/t_CreatingPreAllocatedAssets.md).
 
 </td></tr><tr><td>
 
@@ -119,7 +119,7 @@ Allow in bundle
 
 </td><td>
 
-Use items in this category in [bundles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/c_CreatingBundledModels.md).
+Use items in this category in [bundles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/product-catalog/c_CreatingBundledModels.md).
 
 </td></tr><tr><td>
 
@@ -141,7 +141,7 @@ Prevents the system from automatically creating assets in a specific model categ
 </table>3.  Select **Submit**.
 
 
-**Parent Topic:**[Model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/c_ModelCategories.md)
+**Parent Topic:**[Model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/product-catalog/c_ModelCategories.md)
 
 **Related topics**  
 
@@ -154,5 +154,5 @@ Prevents the system from automatically creating assets in a specific model categ
 
 [Delete model categories]()
 
-[Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/r-discovery.md)
+[Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/r-discovery.md)
 

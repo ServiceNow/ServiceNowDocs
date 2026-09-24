@@ -3,9 +3,9 @@ title: Script access for cryptographic modules
 description: Scripts can be run to access a cryptographic module policy for a cryptographic purpose.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/script-map.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Encrypting fields and attachments, Using Field Encryption, Field Encryption, Encryption]
 ---
@@ -32,10 +32,10 @@ When creating a module access policy that is set to the script type, there is an
 
 ## Configure script access to encrypted data
 
-Execute a script to run the cryptographic module policy for a cryptographic purpose. Specific read \(decrypt/unwrap\) or write \(encrypt, wrap\) access can be defined based on the module access policy operation granularity. See [Configure script access to encrypted data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-script-encryption.md).
+Execute a script to run the cryptographic module policy for a cryptographic purpose. Specific read \(decrypt/unwrap\) or write \(encrypt, wrap\) access can be defined based on the module access policy operation granularity. See [Configure script access to encrypted data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/configure-script-encryption.md).
 
--   **[Configure script access to encrypted data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-script-encryption.md)**  
+-   **[Configure script access to encrypted data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/configure-script-encryption.md)**  
 Execute a script to run the cryptographic module policy for a cryptographic purpose. Specific read \(decrypt/unwrap\) or write \(encrypt, wrap\) access can be defined based on the module access policy operation granularity.
 
-**Parent Topic:**[Encrypting fields and attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/field-encryption-key-management.md)
+**Parent Topic:**[Encrypting fields and attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/field-encryption-key-management.md)
 

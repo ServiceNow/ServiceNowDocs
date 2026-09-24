@@ -3,11 +3,11 @@ title: Marking Definition
 description: The marking-definition object represents a specific marking. Data markings typically represent handling or sharing requirements for data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/marking-definition.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Threat Entities, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -16,8 +16,8 @@ breadcrumb: [Threat Entities, TISC Library Repository, Threat Intel Library, Use
 
 The marking-definition object represents a specific marking. Data markings typically represent handling or sharing requirements for data.
 
--   **[Define Marking Definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/define-market-definition.md)**  
+-   **[Define Marking Definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/define-market-definition.md)**  
 Define marking definitions to handle and share the requirements for the data.
 
-**Parent Topic:**[Threat Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-threat-entities.md)
+**Parent Topic:**[Threat Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-threat-entities.md)
 

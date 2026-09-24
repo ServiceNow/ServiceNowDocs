@@ -3,11 +3,11 @@ title: Drill down within benchmark KPI data
 description: You can drill down within benchmark KPI data for further analysis within Performance Analytics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/t\_ViewBenchKPIIndScore-cf.html
-release: australia
+release: brazil
 product: Benchmarks
 classification: benchmarks
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Benchmarks, IT Service Management]
 ---
@@ -36,6 +36,6 @@ You can drill down on a benchmark value from the KPI performance trends chart to
 
 3.  To drill down further into the Performance Analytics scorecard, click a value in your benchmark data on the performance trends chart.
 
-    **Note:** For additional analysis on **Chart**, **Scores**, **Comments**, or **More info**, see [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-overview.md).
+    **Note:** For additional analysis on **Chart**, **Scores**, **Comments**, or **More info**, see [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/pa-overview.md).
 
 

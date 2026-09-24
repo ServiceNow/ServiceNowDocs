@@ -3,11 +3,11 @@ title: Reset your password on Windows systems
 description: If your organization uses the Password Reset Windows Application, you can reset your password directly from your Windows login screen.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/t\_RsttPassDeskRst.html
-release: australia
+release: brazil
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enrolling in the Password Reset application to reset your password, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---

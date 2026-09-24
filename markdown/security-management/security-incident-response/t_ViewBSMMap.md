@@ -3,11 +3,11 @@ title: Identify all configuration items affected by a security incident
 description: If you know which resource \(server, desktop or other configuration item\) is behind a security incident and want to identify related resources and business services that can be affected, you can use the Business Service Management \(BSM\) map.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/t\_ViewBSMMap.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View information in a security incident, Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

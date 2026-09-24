@@ -1,19 +1,19 @@
 ---
-title: Using link unfurling in Virtual Agent
+title: Link unfurling in Virtual Agent
 description: Virtual Agent supports link unfurling on the chat widget, mobile devices, and various channels. Link unfurling generates a content-rich preview when a supported link is shared in a conversation with a user, a virtual agent, or in a text-based bot response.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-link-unfurling.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Using, link, unfurling, Virtual Agent, chat widget, mobile devices, preview]
-breadcrumb: [Exploring other Virtual Agent features, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Other Virtual Agent features, Build conversations, Virtual Agent, Conversational Interfaces]
 ---
 
-# Using link unfurling in Virtual Agent
+# Link unfurling in Virtual Agent
 
 Virtual Agent supports link unfurling on the chat widget, mobile devices, and various channels. Link unfurling generates a content-rich preview when a supported link is shared in a conversation with a user, a virtual agent, or in a text-based bot response.
 
@@ -51,8 +51,8 @@ The ServiceNow user interface supports image, video, and text-based OG tags. Whe
 
 Link unfurling is automatically enabled by default. To turn it off, admin users can change the **com.glide.cs.enable\_link\_unfurling** system property to **False**.
 
--   **[Configure link unfurling using the Hostname allow list table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-link-unfurling-hostname-allow-list.md)**  
+-   **[Configure link unfurling using the Hostname allow list table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-link-unfurling-hostname-allow-list.md)**  
 Use the Hostname allow list \[sys\_cs\_hostname\_allow\_list\] table to identify the list of hosts and domains that can be unfurled.
 
-**Parent Topic:**[Exploring other Virtual Agent features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/exploring-other-vad-features.md)
+**Parent Topic:**[Other Virtual Agent features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/exploring-other-vad-features.md)
 

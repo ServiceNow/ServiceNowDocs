@@ -3,9 +3,9 @@ title: Configure assignment rules
 description: Configure rules to automatically assign cases to specific agents or groups based on the rule conditions. You can either modify predefined assignment rules or create new ones.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/configure-assignment-rules-fso-applications.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Financial Services Operations \(FSO\)]
 ---
@@ -86,7 +86,7 @@ Review the assignment rules that are installed with the Financial Services Opera
 |Travel claim baggage adjuster task|sn\_ins\_gen\_claim\_adj\_task|
 |Travel claim trip adjuster task|sn\_ins\_gen\_claim\_adj\_task|
 
-For advanced assignment rules, you can also use the ServiceNow Advanced Work Assignment \(AWA\) feature to automatically assign work items to agents, based on their availability, capacity, and optionally, skills. For more information, see [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-overview.md).
+For advanced assignment rules, you can also use the ServiceNow Advanced Work Assignment \(AWA\) feature to automatically assign work items to agents, based on their availability, capacity, and optionally, skills. For more information, see [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/awa-overview.md).
 
 ## Procedure
 
@@ -98,7 +98,7 @@ For advanced assignment rules, you can also use the ServiceNow Advanced Work Ass
     -   To review an existing rule, filter the list to show the rules for the application tables and then open a rule.
 3.  On the form, fill in the fields.
 
-    For information about the Assignment Rule form fields, see [Create an assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignmentModuleRule.md).
+    For information about the Assignment Rule form fields, see [Create an assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignmentModuleRule.md).
 
 4.  Click **Submit** or **Update**.
 

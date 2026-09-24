@@ -3,11 +3,11 @@ title: Create a policy exception from Employee Center
 description: Use the Employee Center to request exceptions for policies, control objectives, controls, or issues by specifying the reason of exception on a particular list of the systems, applications, networks, or entities for which the exception applies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/create-policy-exception-employee-center.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manage GRC tasks from Employee Center, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---

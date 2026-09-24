@@ -3,11 +3,11 @@ title: Configuration Compliance remediation target rules
 description: With remediation target rules, you can set the expected time frames for remediating test results. You can send notifications to users and groups when target dates are approaching and when they are past due.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/cc-remed-target-rules.html
-release: australia
+release: brazil
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Configure, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Configure, Configuration Compliance, Unified Security Exposure Mana
 
 With remediation target rules, you can set the expected time frames for remediating test results. You can send notifications to users and groups when target dates are approaching and when they are past due.
 
-**Important:** As an Configuration Compliance admin or analyst, you can obtain the latest remediation target date for a specific set of test results in the Vulnerability Manager Workspace. This method is more efficient than running the Remediation Target Rules for all test results in the classic UI, which is a time-consuming process. For more information, see [Re-evaluate the remediation properties of the records in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vmws-reevaluate-remediation-parameters.md).
+**Important:** As an Configuration Compliance admin or analyst, you can obtain the latest remediation target date for a specific set of test results in the Vulnerability Manager Workspace. This method is more efficient than running the Remediation Target Rules for all test results in the classic UI, which is a time-consuming process. For more information, see [Re-evaluate the remediation properties of the records in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-manager-workspace/vmws-reevaluate-remediation-parameters.md).
 
 Roles required: Configuration Compliance administrator \(sn\_vulc\_admin\), or a manager with the sn\_vulc.manage\_remediation\_target\_rules role.
 

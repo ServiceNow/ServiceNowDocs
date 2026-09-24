@@ -3,9 +3,9 @@ title: Define the workItem property in the Work scheduler page configuration
 description: Add the workItem property to the Work scheduler page configuration to receive the workItem object provided by the work queue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/work-sched-create-page-properties-wfo-cs.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a Work scheduler card using the Next Experience UI Builder, Setting up Work scheduler, Optimize workforce operations, Extend capabilities, Configure, Customer Service Management]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Create a Work scheduler card using the Next Experience UI Builder, 
 Add the **workItem** property to the Work scheduler page configuration to receive the **workItem** object provided by the work queue.
 
 ## Before you begin
+
+**Important:**
+
+Starting with the Brazil release, Work scheduler is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Role required: admin, workspace\_admin, or ui\_builder\_admin​
 
@@ -47,7 +51,7 @@ Role required: admin, workspace\_admin, or ui\_builder\_admin​
 
 ## What to do next
 
-[Define event mappings for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/work-sched-event-mapping.md)
+[Define event mappings for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/work-sched-event-mapping.md)
 
-**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-workscheduler-card-wfo-cs.md)
+**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-workscheduler-card-wfo-cs.md)
 

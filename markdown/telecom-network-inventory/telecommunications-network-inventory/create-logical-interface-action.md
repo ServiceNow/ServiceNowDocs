@@ -3,11 +3,11 @@ title: Create Logical Interface function
 description: The Create Logical Interface function enables you to create logical interfaces in the Telecommunications Network Inventory application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create-logical-interface-action.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Function catalog, Reference, Telecommunications Network Inventory]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Function catalog, Reference, Telecommunications Network Inventory]
 
 The Create Logical Interface function enables you to create logical interfaces in the Telecommunications Network Inventory application.
 
-You can use the Create Logical Interface function to create the logical interfaces that are created either as a termination point for logical connections or as a child of a physical or logical interface. A physical or logical Interface can have multiple child logical interfaces. The bandwidth of the logical Interface isn’t fixed and you can configure it as applicable. Also, this function sets the virtual flag of the logical network interface.
+You can use the Create Logical Interface function to create logical interfaces. These interfaces serve either as a termination point for logical connections or as a child of a physical or logical interface. A physical or logical Interface can have multiple child logical interfaces. The bandwidth of the logical Interface isn’t fixed and you can configure it as applicable. Also, this function sets the virtual flag of the logical network interface.
 
 You can use this function as a Workflow Studio action in the Telecommunications Network Inventory workflow.
 
@@ -161,7 +161,7 @@ Option to ensure that each parent interface must only have one child interface.
 True/False
 
 </td></tr></tbody>
-</table>To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/action-inputs-outputs.md).
+</table>To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/action-inputs-outputs.md).
 
 ## Output
 
@@ -171,7 +171,7 @@ The following table lists the information about the function output.
 |----|-----------|---------|
 |Result Id|Returns a glide record of the logical interface.|Record|
 
-**Parent Topic:**[Telecommunications Network Inventory function catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-flow-action.md)
+**Parent Topic:**[Telecommunications Network Inventory function catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-flow-action.md)
 
 **Related topics**  
 

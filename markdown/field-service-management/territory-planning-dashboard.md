@@ -3,9 +3,9 @@ title: Field Service Territory Performance Analytics dashboard
 description: Use this dashboard to view and analyze performance analytics such as open work order tasks, agent utilization on work order tasks, and average travel time across territories.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/territory-planning-dashboard.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Analytics and reporting, Field Service Management]
 ---
@@ -71,5 +71,5 @@ Can manage territories, create new child territories and see how the territories
 |Territory|Reference|Multi select Input|Filter the report results based on a selected territory.|
 |Date|Date|Single select date|Filter the report based on the selected date.|
 
-**Parent Topic:**[Analytics and reporting for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/analytics-reporting-fsm.md)
+**Parent Topic:**[Analytics and reporting for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/analytics-reporting-fsm.md)
 

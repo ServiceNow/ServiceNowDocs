@@ -3,9 +3,9 @@ title: Exploring Care Team Portal
 description: Learn how the Care Team Portal centralizes operational issue reporting for care teams and integrates with the support departments that resolve those issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/care-team-portal-exploring.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-05-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Care Team Portal, Healthcare Operations, Healthcare and Life Sciences]
 ---

@@ -3,11 +3,11 @@ title: Request change form
 description: Use the request change form to change the metrics of a demand, such as demand scope, resource requirement, cost, or schedule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/request-change-form.html
-release: australia
+release: brazil
 product: Demand Management
 classification: demand-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Demand Management forms, Reference, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -137,5 +137,5 @@ Work notes
 Additional information to indicate progress on the demand request change.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Demand Management forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/demand-management-forms.md)
+</table>**Parent Topic:**[Demand Management forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/demand-management-forms.md)
 

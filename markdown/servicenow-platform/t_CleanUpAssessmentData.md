@@ -3,9 +3,9 @@ title: Clean up assessment data
 description: The assessment process generates a considerable amount of data, some of which is not useful after a short time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_CleanUpAssessmentData.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Scheduled assessments, Assessment administrator tasks, Using assessments, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -41,5 +41,5 @@ By default, the scheduled job is executed manually. Administrators can configure
 4.  Click **Execute Now** to run the scheduled job.
 
 
-**Parent Topic:**[Scheduled assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ScheduledAssessments.md)
+**Parent Topic:**[Scheduled assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_ScheduledAssessments.md)
 

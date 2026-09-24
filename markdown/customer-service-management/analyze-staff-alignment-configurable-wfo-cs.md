@@ -3,9 +3,9 @@ title: Analyze staff alignment using Demand Forecast
 description: Use Demand Forecast to plan the number of staff members that you require so that you have enough agents to do the job.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/analyze-staff-alignment-configurable-wfo-cs.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Schedule, Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -40,15 +40,15 @@ Using Demand Forecast, you can:
 
     You can click the filter icon and select the assignment groups and shift plans for which you want to view the staff alignment.
 
-<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d45083e117">
+<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d45586e117">
 
 To analyze staff alignment
 
-</th><th align="left" id="d45083e120">
+</th><th align="left" id="d45586e120">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d45083e126">
+</th></tr></thead><tbody><tr><td id="d45586e126">
 
 **For each day**
 
@@ -67,7 +67,7 @@ The time slots are color-coded as below to show the coverage of agents in a part
 |Red|The number of agents you have scheduled are less than the demand you have for that interval.|
 |Grey|The demand for the number of agents and the number of agents scheduled is zero for that interval.|
 
-</td></tr><tr><td id="d45083e208">
+</td></tr><tr><td id="d45586e208">
 
 **For a given week**
 
@@ -86,7 +86,7 @@ The **Total coverage/demand** row has indicators for the staff alignment.
 2.  Click any of the indications displayed in the **Total coverage/demand** row to analyze further details on the forecast.
  You can also view the coverage and demand for every hour for each group.
 
-</td></tr><tr><td id="d45083e291">
+</td></tr><tr><td id="d45586e291">
 
 **For a given month**
 
@@ -125,5 +125,5 @@ Up to four weeks starting the week containing this date appear on the team calen
     \[Omitted image "demand\_forecast\_and\_scheduling.gif"\] Alt text: Demand Forecast to analyze staff alignment.
 
 
-**Parent Topic:**[Scheduling in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/scheduling-configurable-wfo-cs.md)
+**Parent Topic:**[Scheduling in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/scheduling-configurable-wfo-cs.md)
 

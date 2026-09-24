@@ -3,11 +3,11 @@ title: Create Core UI reports from MetricBase time-series data
 description: Use the MetricBase application to create time-series reports from MetricBase data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/create-report-with-metricbase-data.html
-release: australia
+release: brazil
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -18,13 +18,13 @@ Use the MetricBase application to create time-series reports from MetricBase dat
 
 ## Before you begin
 
-You must have the MetricBase product. To get it, see [Requesting the MetricBase product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/request-metricbase.md). For more information about MetricBase, see [MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase.md).
+You must have the MetricBase product. To get it, see [Requesting the MetricBase product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/request-metricbase.md). For more information about MetricBase, see [MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/metricbase.md).
 
 Roles required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To create a meaningful report, you must have the right to access the data you want to report on.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **New**.
+1.  Navigate to `sys_reports.list` and select **New**.
 
 2.  On the **Data** tab, enter a report name that reflects the information in the report.
 
@@ -43,11 +43,11 @@ Roles required: itil, report\_user, report\_group, report\_global, report\_admin
 
 4.  Choose an existing MetricBase table.
 
-5.  Select **Next**.
+5.  Click **Next**.
 
-6.  On the **Type** tab, select the type of report to create and select **Next**.
+6.  On the **Type** tab, select the type of report to create and click **Next**.
 
-    Only time series reports are available. For information on specific reports types, see [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-types-creation-details-rd.md). To view the updated report, select **Run**.
+    Only time series reports are available. For information on specific reports types, see [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/report-types-creation-details-rd.md). To view the updated report, click **Run**.
 
 7.  On the **Configure** tab, fill in the following fields and select **Next**.
 
@@ -73,7 +73,7 @@ Metric
 
 </td><td>
 
-Metrics determined in your MetricBase database. Select the plus icon \(**+**\) to add multiple metrics. For each metric, you can set one or more transforms. Select the minus icon \(**-**\) to remove a metric.
+Metrics determined in your MetricBase database. Click the plus icon \(**+**\) to add multiple metrics. For each metric, you can set one or more transforms. Click the minus icon \(**-**\) to remove a metric.
 
 </td></tr><tr><td>
 
@@ -84,7 +84,7 @@ Transform
 Data is altered.-   Select no transforms to show the raw data in your report.
 -   Select one transform.
 -   Select multiple transforms to create a transform chain. A transform chain applies a new transform to the results of the previous transform.
-For more information, see [MetricBase transforms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/metricbase-transforms.md).
+For more information, see [MetricBase transforms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/metricbase-transforms.md).
 
 </td></tr><tr><td>
 
@@ -100,22 +100,22 @@ Display data table
 
 </td><td>
 
-Select this option to show report data in a list below the report. The list appears on dashboards where the report is added.All report visualizations show the report data when the [glide.ui.section508](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) system property is set to **true**. The glide.ui.section508 property overrides the **Display data table** field.
+Select this option to show report data in a list below the report. The list appears on dashboards where the report is added.All report visualizations show the report data when the [glide.ui.section508](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_AvailableSystemProperties.md) system property is set to **true**. The glide.ui.section508 property overrides the **Display data table** field.
 
 </td></tr></tbody>
 </table>8.  To limit the information displayed in the report, select the filter icon \(\[Omitted image "List\_FilterIcon.png"\] Alt text: Filter icon\) and specify conditions to filter the report data.
 
-    To learn how to construct conditions, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
+    To learn how to construct conditions, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ConditionBuilder.md).
 
     **Note:** In aggregated and list reports, language-dependent filter conditions may return zero results on localized instances.
 
 9.  On the **Style** tab, fill in the fields as appropriate to configure the appearance of the report.
 
-    See the Style options section of the report that you're creating for more information.
+    See the Style options section of the report that you are creating for more information.
 
-    -   [Area and spline report style options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_CreateAreaAndSplineCharts.md)
-    -   [Line report style options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_CreateLineCharts.md)
-    -   [Step line report style options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/step-reports.md)
+    -   [Area and spline report style options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_CreateAreaAndSplineCharts.md)
+    -   [Line report style options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_CreateLineCharts.md)
+    -   [Step line report style options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/step-reports.md)
 10. Select **Save** to continue editing the visualization, or **Save and close** to return to the Analytics Overview main screen.
 
 
@@ -128,8 +128,8 @@ The report is created from the MetricBase source. If the report visualization is
 -   Select the Report info icon \(\[Omitted image "Form\_ReferenceLookupIcon.png"\] Alt text: Info icon\) and add a description of the report.
 -   Select the sharing icon \(\[Omitted image "ShareIcon.png"\] Alt text: Sharing icon\) to open the **Sharing** menu. On this menu, you can add the report to a dashboard, export the report to PDF, publish the report to the web, and set visibility and schedules.
 
--   **[MetricBase transforms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/metricbase-transforms.md)**  
+-   **[MetricBase transforms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/metricbase-transforms.md)**  
 Transforms enable you to visualize MetricBase data in different ways.
 
-**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdvancedReporting.md)
+**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_AdvancedReporting.md)
 

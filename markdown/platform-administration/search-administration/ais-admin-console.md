@@ -3,13 +3,13 @@ title: AI Search Admin console
 description: The AI Search Admin console application provides AI Search administrators with a no-code management tool to configure, test, and activate AI Search solutions across different types of search applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/ais-admin-console.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -21,7 +21,7 @@ The AI Search Admin console application provides AI Search administrators with a
 
 ## AI Search Admin console overview
 
-The AI Search Admin console is a central hub for managing and monitoring AI Search capabilities across search applications. It provides a streamlined experience for setting up, tracking, and enhancing AI Search configurations. This console supports both AI Search and ServiceNow Otto for AI Search, which makes it easy to integrate advanced AI Search features.
+The AI Search Admin console is a central hub for managing and monitoring AI Search capabilities across search applications. It provides a streamlined experience for setting up, tracking, and enhancing AI Search configurations. This console supports both AI Search and ServiceNow® Otto for AI Search, which makes it easy to integrate advanced AI Search features.
 
 The following example shows the AI Search Admin console home page.
 
@@ -29,11 +29,11 @@ The following example shows the AI Search Admin console home page.
 
 The home page has the following sections that help search administrators understand how AI Search works and how to manage it by using the AI Search Admin console:
 
--   **Set up and manage AI Search**
+-   **Manage AI Search in your applications**
 
     View and configure AI Search for supported applications. Select an application to access its settings or explore all available applications.
 
--   **Manage your search data**
+-   **Indexed sources**
 
     Create, view, or edit index sources to define which data is included in the search indexes. This helps to decide which content appears in search results.
 
@@ -46,7 +46,7 @@ The home page has the following sections that help search administrators underst
     Discover and install applications and plugins to expand the AI Search capabilities in your search application.
 
 
-For more information about the home page and its controls, see [AI Search Admin console Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ais-admin-console-home.md).
+For more information about the home page and its controls, see [AI Search Admin console Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/ais-admin-console-home.md).
 
 ## AI Search Admin console benefits
 

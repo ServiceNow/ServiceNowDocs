@@ -3,9 +3,9 @@ title: Create a quote from an opportunity
 description: Create a quote directly from an opportunity as a sales agent or with integrated roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/opportunity-management-create-quote.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -22,7 +22,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  Navigate to the **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to the **Workspaces** &gt; **CRM Workspace**.
 
 2.  From the **List** view \[Omitted image "list-outline-24.svg"\] Alt text:, select **Opportunity - All**.
 
@@ -30,13 +30,13 @@ Role required: sales\_agent
 
 4.  Select **Create Quote** to create a new quote from the selected opportunity.
 
-    If users with integrated roles create quotes then the channel partners and the related channel partners are copied to the newly created quotes. All the created quotes can be viewed on the **Quotes** tab. For details about integrated roles, see [Integration with Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/integration-with-sales-and-order-management.md).
+    If users with integrated roles create quotes then the channel partners and the related channel partners are copied to the newly created quotes. All the created quotes can be viewed on the **Quotes** tab. For details about integrated roles, see [Integration with Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/integration-with-sales-and-order-management.md).
 
 
 **Related topics**  
 
 
-[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-opportunity-mgmt.md)
 
-[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/opportunity-management.md)
 

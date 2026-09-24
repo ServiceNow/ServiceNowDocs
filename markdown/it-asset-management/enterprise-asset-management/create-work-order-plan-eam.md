@@ -3,13 +3,13 @@ title: Create a work order plan for enterprise assets
 description: Create and manage a work order plan to organize, assign, schedule, and track complex asset tasks for enterprise assets and asset groups.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-work-order-plan-eam.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Asset work order plans, Managing work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
+breadcrumb: [Asset work order plans, Manage work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Create a work order plan for enterprise assets
@@ -30,15 +30,15 @@ A work order plan can be created for individual enterprise assets and asset grou
 
 1.  Create a work order plan.
 
-<table id="choicetable_zfb_tsx_j3c"><thead><tr><th align="left" id="d344497e75">
+<table id="choicetable_zfb_tsx_j3c"><thead><tr><th align="left" id="d349629e75">
 
 Create from
 
-</th><th align="left" id="d344497e78">
+</th><th align="left" id="d349629e78">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d344497e84">
+</th></tr></thead><tbody><tr><td id="d349629e84">
 
 **Work management view**
 
@@ -52,7 +52,7 @@ A list of existing work order plans is displayed.
 3.  Select **New**.
 
 
-</td></tr><tr><td id="d344497e125">
+</td></tr><tr><td id="d349629e125">
 
 **Asset group**
 
@@ -217,7 +217,7 @@ Date and time by which the work order plan must be completed.
     You can track the status of the work order tasks at any time through the associated work order plan.
 
 
-**Parent Topic:**[Manage asset-centric work tasks using work order plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/manage-work-order-plans.md)
+**Parent Topic:**[Manage asset-centric work tasks using work order plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/manage-work-order-plans.md)
 
 **Related topics**  
 

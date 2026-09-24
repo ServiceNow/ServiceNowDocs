@@ -3,11 +3,11 @@ title: Open site map from a network site form
 description: Open Network site map from a network site form in the Telecommunications Network Inventory application. You can understand the geographical location of the network site and information about the connections.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/open-site-map-network-site-form.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Geo map, Network visualization view, Use, Telecommunications Network Inventory]
 ---
@@ -39,5 +39,5 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 
 The Network site map page opens and displays your network site.
 
-**Parent Topic:**[Geo map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-network-site-map.md)
+**Parent Topic:**[Geo map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/using-network-site-map.md)
 

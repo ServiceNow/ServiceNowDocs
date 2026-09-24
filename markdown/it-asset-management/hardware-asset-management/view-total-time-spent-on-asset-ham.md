@@ -3,13 +3,13 @@ title: View the total time worked on all tasks related to a hardware asset
 description: Use the Asset task time summary report to see the details of the time spent on all tasks for an asset and its child assets, grouped by task category.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/view-total-time-spent-on-asset-ham.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Manage and monitor hardware asset performance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage and monitor hardware asset performance, Reporting and performance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # View the total time worked on all tasks related to a hardware asset

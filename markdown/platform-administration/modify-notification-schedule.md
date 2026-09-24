@@ -3,9 +3,9 @@ title: Modify a notification
 description: Modify a notification by establishing a schedule or setting conditions to control the notifications you receive.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/modify-notification-schedule.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Preferences in Next Experience, Notification Preferences, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -41,5 +41,5 @@ Role required: none
 6.  Select **Save**.
 
 
-**Parent Topic:**[System and custom notification and delivery channel preferences in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/advanced-notification-prefrences.md)
+**Parent Topic:**[System and custom notification and delivery channel preferences in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/advanced-notification-prefrences.md)
 

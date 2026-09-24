@@ -3,9 +3,9 @@ title: Editing functions in HTML field editor
 description: Several editing functions are built into TinyMCE.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_EditingFunctions.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the HTML toolbar, Configure a field editor for the HTML field, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Configure the HTML toolbar, Configure a field editor for the HTML f
 
 Several editing functions are built into TinyMCE.
 
-You can add more edit functions to TinyMCE v6.8.3 using the **glide.ui.html.editor.toolbar** property and properties on the **UI Properties** page. For more information on configuring the edit functions, see [Configure the HTML toolbar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConfigureTheTinyMCEHTMLToolbar.md).
+You can add more edit functions to TinyMCE v8.3.0 using the **glide.ui.html.editor.toolbar** property and properties on the **UI Properties** page. For more information on configuring the edit functions, see [Configure the HTML toolbar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ConfigureTheTinyMCEHTMLToolbar.md).
 
 <table id="table_xg1_bcg_vq"><thead><tr><th>
 
@@ -26,7 +26,7 @@ Icon
 
 </th><th>
 
-TinyMCE v6.8.3 Icon
+TinyMCE v8.3.0 Icon
 
 </th><th>
 
@@ -42,7 +42,7 @@ Cut\*
 
 </td><td>
 
-\[Omitted image "TinyMCEV6-cut\_icon.png"\] Alt text: TinyMCE v6.8.3Cut
+\[Omitted image "TinyMCEV6-cut\_icon.png"\] Alt text: TinyMCE v8.3.0 Cut
 
 </td><td>
 
@@ -60,7 +60,7 @@ Copy\*
 
 </td><td>
 
-\[Omitted image "TinyMCEV6-copy\_icon.png"\] Alt text: TinyMCE v6.8.3 Copy
+\[Omitted image "TinyMCEV6-copy\_icon.png"\] Alt text: TinyMCE v8.3.0 Copy
 
 </td><td>
 
@@ -94,7 +94,7 @@ Paste\*
 
 </td><td>
 
-\[Omitted image "TinyMCEV6-paste\_icon.png"\] Alt text: TinyMCE v6.8.3 Paste
+\[Omitted image "TinyMCEV6-paste\_icon.png"\] Alt text: TinyMCE v8.3.0 Paste
 
 </td><td>
 
@@ -112,7 +112,7 @@ Paste as Plain Text\*
 
 </td><td>
 
-\[Omitted image "TinyMCEV6-paste-text\_icon.png"\] Alt text: TinyMCE v6.8.3 Paste as plain text
+\[Omitted image "TinyMCEV6-paste-text\_icon.png"\] Alt text: TinyMCE v8.3.0 Paste as plain text
 
 </td><td>
 
@@ -144,7 +144,7 @@ Undo\*
 
 </td><td>
 
-\[Omitted image "TinyMCEV6-undo\_icon.png"\] Alt text: TinyMCE v6.8.3 Undo
+\[Omitted image "TinyMCEV6-undo\_icon.png"\] Alt text: TinyMCE v8.3.0 Undo
 
 </td><td>
 
@@ -160,7 +160,7 @@ Redo\*
 
 </td><td>
 
-\[Omitted image "TinyMCEV6-redo\_icon.png"\] Alt text: TinyMCE v6.8.3 Redo
+\[Omitted image "TinyMCEV6-redo\_icon.png"\] Alt text: TinyMCE v8.3.0 Redo
 
 </td><td>
 

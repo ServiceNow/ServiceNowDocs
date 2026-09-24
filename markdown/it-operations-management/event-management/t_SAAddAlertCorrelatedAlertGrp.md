@@ -3,11 +3,11 @@ title: Create alert group manually
 description: Manually create an alert group to organize and manage related alerts when not using scheduled jobs. This provides flexibility to group alerts on-demand for effective resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_SAAddAlertCorrelatedAlertGrp.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manual alert grouping, Alert grouping types and creation methods, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -43,5 +43,5 @@ Role required: evt\_mgmt\_admin
     \[Omitted image "em-secondary-alert-3.png"\] Alt text: Secondary alerts are added to the group.
 
 
-**Parent Topic:**[Manual alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/manual-alert-grouping.md)
+**Parent Topic:**[Manual alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/manual-alert-grouping.md)
 

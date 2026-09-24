@@ -3,12 +3,12 @@ title: Configure trace data retention and access
 description: Control how long session, trace, and span data is stored to reduce storage usage, and choose whether that data stays available for analysis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mon-ai-configure-trace-retention.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Configure, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Configure trace data retention and access
@@ -31,15 +31,15 @@ By default, session, trace, and span data is retained for 30 days. If your organ
 
 3.  Choose a trace retention option.
 
-<table id="choicetable_xh1_qdf_hkc"><thead><tr><th align="left" id="d162497e106">
+<table id="choicetable_xh1_qdf_hkc"><thead><tr><th align="left" id="d150599e106">
 
 Option
 
-</th><th align="left" id="d162497e109">
+</th><th align="left" id="d150599e109">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d162497e115">
+</th></tr></thead><tbody><tr><td id="d150599e115">
 
 **Don't keep traces**
 
@@ -51,7 +51,7 @@ Permanently delete session, trace, and span data after approximately 1 day, once
 -   Actionable insights from AI Skill Kit are turned off.
 
 
-</td></tr><tr><td id="d162497e146">
+</td></tr><tr><td id="d150599e146">
 
 **Keep traces for scoring**
 

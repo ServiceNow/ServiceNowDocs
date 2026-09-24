@@ -3,11 +3,11 @@ title: Save keywords for text analytics
 description: You can save keywords that will always filter a text analytics widget. You can save them directly on the widget in a dashboard, choosing from the words in the word cloud. Alternatively, you can create or edit a record of saved keywords.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/select-keywords-default-drilldowns.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Text analytics and text widgets, Performance Analytics widgets, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---

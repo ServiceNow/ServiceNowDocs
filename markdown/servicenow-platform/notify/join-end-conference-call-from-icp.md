@@ -3,11 +3,11 @@ title: Join and end a conference call from incident communications management
 description: After a conference call is initiated, join the call to participate in the discussion or end the call when the conference is no longer required.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/join-end-conference-call-from-icp.html
-release: australia
+release: brazil
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Notify with Incident Communications Management, Using Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,15 +30,15 @@ Role required: notify\_view, ia\_admin or notify\_setup\_admin
 
 4.  For the relevant incident communications task, under **Actions**, perform one of the following actions.
 
-<table id="choicetable_erb_xlq_thb"><thead><tr><th align="left" id="d641807e92">
+<table id="choicetable_erb_xlq_thb"><thead><tr><th align="left" id="d639821e92">
 
 Option
 
-</th><th align="left" id="d641807e95">
+</th><th align="left" id="d639821e95">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d641807e101">
+</th></tr></thead><tbody><tr><td id="d639821e101">
 
 **Join Conference Call**
 
@@ -46,7 +46,7 @@ Description
 
 If you are not already logged into the conference call, you can join the conference.
 
-</td></tr><tr><td id="d641807e112">
+</td></tr><tr><td id="d639821e112">
 
 **End Conference Call**
 
@@ -56,5 +56,5 @@ End the conference when the discussion is over.**Note:** The work notes get upda
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Notify with Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NotifyWithIncidentAlert.md)
+**Parent Topic:**[Using Notify with Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/notify/c_NotifyWithIncidentAlert.md)
 

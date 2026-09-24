@@ -3,11 +3,11 @@ title: Define a portfolio
 description: From SAFe, define a portfolio which is a group of ARTs working towards a single solution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/create-SAFeportfolio.html
-release: australia
+release: brazil
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Portfolio SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -37,10 +37,10 @@ Role required: sn\_portfolio\_safe.safe\_portfolio\_user
 
 ## What to do next
 
--   [Define an Agile Release Train](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/create-SAFeprogram.md)
--   [Define an epic in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/create-SAFeepic.md)
+-   [Define an Agile Release Train](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/create-SAFeprogram.md)
+-   [Define an epic in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/create-SAFeepic.md)
 
-**Parent Topic:**[Portfolio SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/portfolio-overview.md)
+**Parent Topic:**[Portfolio SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/portfolio-overview.md)
 
 **Related topics**  
 

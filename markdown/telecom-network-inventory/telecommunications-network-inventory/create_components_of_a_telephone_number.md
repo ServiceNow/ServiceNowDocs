@@ -3,11 +3,11 @@ title: Create the components of a telephone number
 description: Create a central office code, country code, area code, and rate center for a series of telephone numbers by using the Telecommunications Network Inventory application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create\_components\_of\_a\_telephone\_number.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Telecommunications Network Inventory]
 ---
@@ -16,12 +16,12 @@ breadcrumb: [Configure, Telecommunications Network Inventory]
 
 Create a central office code, country code, area code, and rate center for a series of telephone numbers by using the Telecommunications Network Inventory application.
 
--   **[Create a central office code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create_a_central_office_code.md)**  
+-   **[Create a central office code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/create_a_central_office_code.md)**  
 Create a central office code to allocate it to an area code of a country by using the Telecommunications Network Inventory application.
--   **[Create a country code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create_a_country_code.md)**  
+-   **[Create a country code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/create_a_country_code.md)**  
  Create, review, update, or delete a country code by using the Telecommunications Network Inventory application. A country can have multiple phone formats and phone validations.
--   **[Create an area code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create_an_area_code.md)**  
+-   **[Create an area code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/create_an_area_code.md)**  
 Create, review, update, or delete an area code by using the Telecommunications Network Inventory application.
 
-**Parent Topic:**[Configuring Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/configuring-telecom-network-inventory.md)
+**Parent Topic:**[Configuring Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/configuring-telecom-network-inventory.md)
 

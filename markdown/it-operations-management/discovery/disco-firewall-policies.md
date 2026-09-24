@@ -3,11 +3,11 @@ title: Discover firewall policies
 description: As a member of a security team, you can discover firewall devices, policies, and owner groups from supported vendors \(Palo Alto Panorama and Fortinet FortiManager\), allowing a central view of the footprint. This data is updated in the ServiceNow CMDB. Set up a schedule to discover your firewall policies to help you keep track of your company's valuable information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/disco-firewall-policies.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Visibility to Firewall inventory, Configure, Firewall Audits and Reporting, ITOM Visibility, IT Operations Management]
 ---
@@ -24,7 +24,7 @@ Role required: discovery\_admin, firewall\_admin
 
 Administrators in charge of Discovery can establish a recurring schedule for firewall policy discovery. This schedule utilizes the serverless pattern, connecting with the firewall manager to discover and update information for Configuration Items \(CIs\) in the CMDB.
 
-For Fortinet FortiManager-specific requirements, including MID Server sizing and API endpoint information, see [Fortinet FortiManager discovery requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/fortinet-fortimanager-discovery-requirements.md).
+For Fortinet FortiManager-specific requirements, including MID Server sizing and API endpoint information, see [Fortinet FortiManager discovery requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/fortinet-fortimanager-discovery-requirements.md).
 
 <table id="table_firewall_cis"><thead><tr><th>
 
@@ -89,14 +89,14 @@ Fortinet FortiManager
 
 2.  Create a credential alias for the API key credential created in the previous step.
 
-    You provide this credential alias in the discovery schedule configuration. For more information, see [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/discovery-credential-alias.md).
+    You provide this credential alias in the discovery schedule configuration. For more information, see [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/discovery-credential-alias.md).
 
 3.  To create a Discovery schedule, perform the following steps.
 
     1.  Select **Discover: Serverless**.
     2.  Select the appropriate **MID Server**.
     3.  Right-click the header and select **Save**.
-    For more information on Discovery schedule, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
+    For more information on Discovery schedule, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
 
 4.  From the tab at the bottom of the screen, select the Serverless Execution pattern and then select **New**.
 
@@ -118,5 +118,5 @@ Fortinet FortiManager
 7.  Right-click the header and select **Save**.
 
 
-**Parent Topic:**[Visibility to Firewall inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/use-firewall-audit-rep.md)
+**Parent Topic:**[Visibility to Firewall inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/use-firewall-audit-rep.md)
 

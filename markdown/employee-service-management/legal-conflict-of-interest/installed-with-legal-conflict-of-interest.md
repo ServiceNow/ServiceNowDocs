@@ -3,11 +3,11 @@ title: Components installed with Legal Conflict of Interest
 description: Several types of components are installed with installation of the Legal Conflict of Interest, including tables and user roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-conflict-of-interest/installed-with-legal-conflict-of-interest.html
-release: australia
+release: brazil
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Legal Conflict of Interest, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Reference, Legal Conflict of Interest, Legal Service Delivery Pract
 
 Several types of components are installed with installation of the Legal Conflict of Interest, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 Demo data is available for this feature.
 
@@ -191,5 +191,7 @@ Risk responsesn\_lco\_risk\_response
 Store the risk response records for the evaluated risk factors.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legal Conflict of Interest reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/legal-coi-reference.md)
+</table>**Parent Topic:**[Legal Conflict of Interest reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-conflict-of-interest/legal-coi-reference.md)
+
+**Parent Topic:**[Legal Conflict of Interest reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-conflict-of-interest/legal-coi-reference.md)
 

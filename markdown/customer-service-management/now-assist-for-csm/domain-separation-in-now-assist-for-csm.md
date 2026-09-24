@@ -3,11 +3,11 @@ title: Domain separation in ServiceNow Otto for Customer Service Management \(CS
 description: Domain separation allows users to separate data, processes, and administrative tasks into logical groupings known as domains. Domain separation enables users to independently manage skill configurations, data visibility, and other settings within each domain.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/domain-separation-in-now-assist-for-csm.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -19,19 +19,19 @@ Domain separation allows users to separate data, processes, and administrative t
 
 Setting up domain separation for ServiceNow Otto for CSM involves requesting activation of a plugin, setting options, and assigning users and records to domains.
 
-Domain separation is possible at the skill level and at the individual configuration level. When using the guided setup in the AI Admin Hub, each configuration option has its own record that you can separate by domain. To create a record in a different domain, you must set up the skill in the scope of your preferred domain.
+Domain separation is possible at the skill level and at the individual configuration level. When using the guided setup in the AI Admin Hub console, each configuration option has its own record that you can separate by domain. To create a record in a different domain, you must set up the skill in the scope of your preferred domain.
 
 Global domain is the default domain, and all new domains are created under it. New domains inherit the settings from the global domain if users don’t override the settings in the new domain.
 
 Do the following task to set up domain separation:
 
-1.  Request domain separation. For more information, see [Request domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ActivateDomainSeparation.md).
+1.  Request domain separation. For more information, see [Request domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_ActivateDomainSeparation.md).
 2.  Create a domain by creating an account for CSM
 3.  Configure skills in the domain for ServiceNow Otto for CSM.
 
 ## More information
 
--   Domain separation setup and administration. See [Domain separation setup and administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparationSetup.md).
--   Benefits of domain separation. See [Benefits of domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-advantages-dom-sep.md).
--   Domain separation and Customer Service Management \(CSM\). See [Domain separation and Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/domain-separation-customer-service.md).
+-   Domain separation setup and administration. See [Domain separation setup and administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_DomainSeparationSetup.md).
+-   Benefits of domain separation. See [Benefits of domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/bp-advantages-dom-sep.md).
+-   Domain separation and Customer Service Management \(CSM\). See [Domain separation and Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/domain-separation-customer-service.md).
 

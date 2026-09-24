@@ -3,9 +3,9 @@ title: Risk portfolio dashboard
 description: Get an overall view of all active risks, top risk categories, and the risk scope of all engagements with which you’re associated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-risk-portfolio.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Dashboards, Customer success, Use, Customer Success Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Dashboards, Customer success, Use, Customer Success Management]
 
 Get an overall view of all active risks, top risk categories, and the risk scope of all engagements with which you’re associated.
 
-Login as a user with the `sn_acct_lc.customer_success_agent` role and navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** and select the **Active risk signals** icon to view the Active risk portfolio overview page.
+Login as a user with the `sn_acct_lc.customer_success_agent` role and navigate to **Workspaces** &gt; **CRM Workspace** and select the **Active risk signals** icon to view the Active risk portfolio overview page.
 
 \[Omitted image "account-lifecycle-risk-port.png"\] Alt text: Risk portfolio page
 
@@ -31,7 +31,7 @@ You can do the following:
 -   Select a specific category in a chart to drill down to the list view of all the risks in that category.
 -   Select a chart to drill down to the list of total risks.
 -   Select **View all risk signals** to drill down to the list of all the risk signals.
--   Select the \[Omitted image "icon-menu-square.png"\] Alt text: icon to Create a risk signal manually. See [Create a risk signal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-risk-signal.md).
+-   Select the \[Omitted image "icon-menu-square.png"\] Alt text: icon to Create a risk signal manually. See [Create a risk signal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-create-risk-signal.md).
 
 The list of active risk signals are displayed. You can sort this list by Due date, Priority, Probability, or Created on date. Select **View all risk signals** to view the All risk signals page.
 
@@ -60,10 +60,10 @@ In the Active risk signals section, you can view the following:
     Select the \[Omitted image "open-link-right-outline-24.svg"\] Alt text: icon to drill down to the detailed record page.
 
 
--   **[Risk and issues page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-risk-issues-page.md)**  
+-   **[Risk and issues page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-risk-issues-page.md)**  
 This page provides detailed information about a risk signal including risk occurrences, threshold values, and risk solution.
--   **[Associate risk signals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-risk_signal_solution.md)**  
+-   **[Associate risk signals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-risk_signal_solution.md)**  
 Use this option to associate a risk signal with an internal play or a success case.
 
-**Parent Topic:**[Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-dashboards.md)
+**Parent Topic:**[Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-dashboards.md)
 

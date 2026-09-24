@@ -3,11 +3,11 @@ title: Analyzing data integrations for improving Data Foundations
 description: Improve Data Foundations coverage by analyzing existing and suggested data integrations, including Discovery patterns and Service Graph Connectors.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-data-integrations.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Data Foundations data integrations tab, discovery patterns attribute coverage, service graph connectors, suggested data integrations, integration status indicators]
 breadcrumb: [Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
@@ -21,9 +21,9 @@ Use the **Data integrations** tab in the CMDB success advisor for Data Foundatio
 
 ## Access data integrations
 
-Navigate to the CMDB success advisor landing page, and on the Data Foundations card, select **View insights**. Select the **Data integrations** tab to access integration-related details. For more information, see [Access CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-access.md).
+Navigate to the CMDB success advisor landing page, and on the Data Foundations card, select **View insights**. Select the **Data integrations** tab to access integration-related details. For more information, see [Access CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-access.md).
 
-**Note:** The CMDB success advisor for Data Foundations dashboard is available only after the setup process is complete. For more information, see [CMDB success advisor for Data Foundations setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-config-settings.md).
+**Note:** The CMDB success advisor for Data Foundations dashboard is available only after the setup process is complete. For more information, see [CMDB success advisor for Data Foundations setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-config-settings.md).
 
 ## Required roles
 
@@ -63,8 +63,8 @@ CMDB administrator
 |Feature|Description|
 |-------|-----------|
 |Integration overview|Displays the count of all Discovery patterns and Service Graph Connectors contributing CI data to your principal classes in the CMDB.|
-|Status indicators|Check whether Discovery patterns are active and Service Graph Connectors are installed with active connections. For more information, see [Reviewing data integrations for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-integration-details.md).|
-|Attribute coverage insights|Select the **Attribute coverage** link next to the integration to review which CI attributes it populates for your principal classes. For more information, see [Evaluate Data Foundations data integration coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-evaluate-data-integration.md).|
-|Access integration details|Configure integrations to improve attribute coverage. For more information, see [Evaluate Data Foundations data integration coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-evaluate-data-integration.md).|
-|Suggested integrations|Displays integrations that are recommended but not yet installed, based on the selected advisor scope. For more information, see [View suggested integrations for the Data Foundations advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-sugg-integ.md).|
+|Status indicators|Check whether Discovery patterns are active and Service Graph Connectors are installed with active connections. For more information, see [Reviewing data integrations for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-integration-details.md).|
+|Attribute coverage insights|Select the **Attribute coverage** link next to the integration to review which CI attributes it populates for your principal classes. For more information, see [Evaluate Data Foundations data integration coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-evaluate-data-integration.md).|
+|Access integration details|Configure integrations to improve attribute coverage. For more information, see [Evaluate Data Foundations data integration coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-evaluate-data-integration.md).|
+|Suggested integrations|Displays integrations that are recommended but not yet installed, based on the selected advisor scope. For more information, see [View suggested integrations for the Data Foundations advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-sugg-integ.md).|
 

@@ -3,9 +3,9 @@ title: Activate a decision tree
 description: Activate a completed decision tree so you can use it in playbooks created using Playbooks, in recommendations created using Recommended Actions for Service, or in Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-guided-decision-tree.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring decision trees in Decision Tree Builder, Configuring guidances and decision trees, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -34,7 +34,7 @@ If you make changes to an activated decision tree, remember to activate the deci
 
 4.  In Decision Tree Builder, select **Activate**.
 
-    -   If there are errors in your decision tree, error icons and alert messages are displayed. You must resolve the errors before you can activate the decision tree. For more information, see [Validation error notifications in Decision Tree Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/validation-errors-builder.md).
+    -   If there are errors in your decision tree, error icons and alert messages are displayed. You must resolve the errors before you can activate the decision tree. For more information, see [Validation error notifications in Decision Tree Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/validation-errors-builder.md).
     -   If there are no errors, the confirmation dialog box to activate the decision tree displays.
 5.  In the confirmation dialog box, select **Activate now**.
 
@@ -48,7 +48,7 @@ If you make changes to an activated decision tree, remember to activate the deci
 
 ## What to do next
 
--   Configure recommended actions to use the activated decision tree as a recommendation. The recommendations appear as cards in the contextual side panel of a workspace. For more information, see [Add Guided Decisions to Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-guided-decisions-to-recommended-actions.md).
--   Configure Playbooks to use the activated decision tree as part of a playbook in a record tab. For more information, see [Add Guided Decisions to playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-guided-decision-playbook.md) and [Add Guided Decision with inputs/outputs to Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-gd-input-output-playbook.md).
--   Configure a Service Portal page to use the activated decision tree for providing troubleshooting process to internal users. For more information, see [Add Guided Decisions to Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-guided-decisions-service-portal.md).
+-   Configure recommended actions to use the activated decision tree as a recommendation. The recommendations appear as cards in the contextual side panel of a workspace. For more information, see [Add Guided Decisions to Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/add-guided-decisions-to-recommended-actions.md).
+-   Configure Playbooks to use the activated decision tree as part of a playbook in a record tab. For more information, see [Add Guided Decisions to playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/add-guided-decision-playbook.md) and [Add Guided Decision with inputs/outputs to Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/add-gd-input-output-playbook.md).
+-   Configure a Service Portal page to use the activated decision tree for providing troubleshooting process to internal users. For more information, see [Add Guided Decisions to Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/add-guided-decisions-service-portal.md).
 

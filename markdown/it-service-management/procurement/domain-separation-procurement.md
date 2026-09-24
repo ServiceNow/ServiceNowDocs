@@ -3,11 +3,11 @@ title: Domain separation and Procurement
 description: Domain separation is supported in Procurement processing. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/procurement/domain-separation-procurement.html
-release: australia
+release: brazil
 product: Procurement
 classification: procurement
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Procurement, Asset Management common applications, IT Service Management]
 ---
@@ -26,13 +26,13 @@ The support level is Standard but has some exceptions or special conditions.
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-separated-apps.md).
 
 ## How domain separation works in Procurement
 
 To create or edit Purchase Orders \(POs\) or PO line items that distinguish the domain, customers must be working in the proper domain. When adjusting any configuration, you should be in the domain where you're doing the work. Use the domain picker to choose the correct domain to work in.
 
-**Parent Topic:**[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/c_Procurement.md)
+**Parent Topic:**[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/procurement/c_Procurement.md)
 
 **Related topics**  
 
@@ -51,5 +51,5 @@ To create or edit Purchase Orders \(POs\) or PO line items that distinguish the 
 
 [Receive assets]()
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-sep-landing-page.md)
 

@@ -3,11 +3,11 @@ title: Create regulatory event alerts manually
 description: Create a manual entry of the regulatory changes or updates so that they can be routed to the correct subject matter experts for further analysis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/submit-creation-of-regulatory-event-alerts-manually.html
-release: australia
+release: brazil
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage regulatory tasks, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -179,7 +179,7 @@ Additional comments
 Additional comments related to the alert.
 
 </td></tr></tbody>
-</table>    **Note:** Beginning with the Australia release, the taxonomy section in the form is not available for the new installations.
+</table>    **Note:** Beginning with the Brazil release, the taxonomy section in the form is not available for the new installations.
 
 4.  In the **Coordinator** field, assign the regulatory event alert to a coordinator with the sn\_grc\_reg\_change.user role and select **Save**.
 
@@ -190,5 +190,5 @@ The regulatory event alert is assigned to the selected coordinator.
 
 ## What to do next
 
-[Import the regulatory event alerts in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/import-regulatory-event-alerts-in-bulk.md) and [Assess the impact of a regulatory event alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/assess-impact-of-reg-change-using-ws.md).
+[Import the regulatory event alerts in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/import-regulatory-event-alerts-in-bulk.md) and [Assess the impact of a regulatory event alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/assess-impact-of-reg-change-using-ws.md).
 

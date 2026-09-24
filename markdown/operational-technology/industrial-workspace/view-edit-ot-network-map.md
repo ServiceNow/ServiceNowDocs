@@ -3,11 +3,11 @@ title: View and edit the OT Network Map
 description: View and edit the Operational Technology \(OT\) Network Map in the Industrial Workspace to visualize your OT networks per site and their OT devices.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/view-edit-ot-network-map.html
-release: australia
+release: brazil
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Industrial Workspace, Operational Technology]
 ---
@@ -112,5 +112,5 @@ Role required: cmdb\_ot\_isa\_viewer role and cmdb\_ot\_viewer
 15. To align the map back on the home node, select the **Align to home node** \[Omitted image "align-home-node.png"\] Alt text: icon in the control panel.
 
 
-**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/using-industrial-workspace.md)
+**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/using-industrial-workspace.md)
 

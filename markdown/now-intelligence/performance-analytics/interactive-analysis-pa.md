@@ -3,11 +3,11 @@ title: Interactive Analysis for Performance Analytics
 description: Interactive Analysis enables you to quickly explore Performance Analytics data using visualizations.Launch Interactive Analysis from any list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/interactive-analysis-pa.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -22,7 +22,7 @@ From any Core UI list of records, you can access an interactive set of reports o
 
 \[Omitted image "interactive-analysis-p.png"\] Alt text: Interactive analysis with information panel option
 
-**Parent Topic:**[Configure Performance Analytics fundamentals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PAWidgetsAndDashboards.md)
+**Parent Topic:**[Configure Performance Analytics fundamentals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_PAWidgetsAndDashboards.md)
 
 ## Launch Interactive Analysis
 

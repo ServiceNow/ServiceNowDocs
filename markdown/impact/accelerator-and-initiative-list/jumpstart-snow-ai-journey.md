@@ -3,12 +3,12 @@ title: Jumpstart Your ServiceNow AI Journey
 description: This Accelerator provides guidance on how to achieve your organization's goals and objectives with ServiceNow's AI capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-snow-ai-journey.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
@@ -27,6 +27,9 @@ Jumpstart Your ServiceNow AI Journey helps Impact customers navigate ServiceNow'
 ## What You Get
 
 -   **Session Preparation**
+
+    The Technical Accelerator Consultant:
+
     -   Provision a temporary instance ​\(if applicable\)
     -   Run AI Adoption Scan on the instance copy to assess current usage of AI and related products
     -   Activate and run AI-powered data exploration tools to provide insights on opportunities to leverage AI products
@@ -35,15 +38,20 @@ Jumpstart Your ServiceNow AI Journey helps Impact customers navigate ServiceNow'
     Discovery session to:
 
     -   Set Accelerator expectations
-    -   Conduct rapid SWOT Analysis
     -   Discuss strategic goals and objectives
 -   **Customer Coaching Session \#2 \(Up to 1 hour\)**
 
-    Review of:
+    Delivery session to review:
 
     -   Business objectives
     -   AI Adoption Brief
     -   Impact AI Accelerators Roadmap
+-   **Outputs**
+    -   30-day access to the temporary instance, where applicable
+    -   Technical Accelerator Consultant with whom you met for any further questions or in-depth explorations
+    -   Copy of the Delivery Session Deck containing the roadmap created during the engagement
+    -   AI Adoption Scan results
+    -   AI-powered data exploration results \(if applicable\)
 
 ## Requested Customer Resources
 
@@ -56,13 +64,15 @@ Jumpstart Your ServiceNow AI Journey helps Impact customers navigate ServiceNow'
 
 ## Requested Information/Access
 
+**Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
+
 -   Objectives &amp; horizon – 3 outcomes you want in the next 3–6–12 months.
 -   Scope boundaries – units/products/geographies in vs. out.
 -   Top 3–5 use cases – name, stage \(idea/pilot/prod\), owner.
 -   Constraints – budget/time box, key staffing/tools limits.
 -   Success metrics – how do you quantify success \(MTTR, etc.\)
 
-## Requested Information/Access
+## Exclusions
 
-**Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
+ServiceNow is not responsible for implementing recommendations on Customer’s sub-production or production instances.
 

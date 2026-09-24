@@ -3,11 +3,11 @@ title: Prepare, deploy, and reclaim loaner assets in Enterprise Asset Workspace
 description: Select and prepare the loaner asset or consumable for deployment and reclamation by using loaner asset tasks. Deploy the loaner asset or consumable for a specific period of time, and reclaim it on the return date.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/prepare-deploy-reclaim-eamassets.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Request a loaner asset in Enterprise Asset Workspace, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
@@ -98,5 +98,5 @@ Role required: inventory\_user
     -   The **Stockroom** field is automatically set to the value that was selected on the Reclaim task form.
     -   If the asset is assigned to a future loaner order, the substate changes to Reserved and reflects the details of the loaner order.
 
-**Parent Topic:**[Request a loaner asset in Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/request-eam-assetloaner-request.md)
+**Parent Topic:**[Request a loaner asset in Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/request-eam-assetloaner-request.md)
 

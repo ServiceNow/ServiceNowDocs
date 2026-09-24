@@ -3,11 +3,11 @@ title: Create CrowdStrike API client and generate keys
 description: Create the CrowdStrike API client and generate the client ID and key, which you use to configure the CrowdStrike Falcon Insight integration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-api-clients-and-keys.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CrowdStrike Falcon Insight integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

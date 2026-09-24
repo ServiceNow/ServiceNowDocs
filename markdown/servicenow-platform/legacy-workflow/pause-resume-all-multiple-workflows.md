@@ -3,11 +3,11 @@ title: Pause and resume all or multiple workflows
 description: Use Workflow Pause Group Requests to pause, or resume, groups of workflows, or all active workflows. If pausing a group of workflows, use filtering functions to select the workflows. If pausing all active workflows, select the Pause All check box to indicate that all currently active workflows should be paused.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/pause-resume-all-multiple-workflows.html
-release: australia
+release: brazil
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: task
-last_updated: "2026-07-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Workflow pause utility, Workflow administration, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -34,7 +34,7 @@ Install and activate the Workflow Pause Utility plugin.
 
 3.  To pause all active workflows, select **Pause All**, then click **Update**. To pause a filtered group of active workflow contexts, skip this step.
 
-    All currently active workflow contexts in the instance are paused until you resume them. Use [Workflow pause request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/monitor-workflow-pause-requests.md) to monitor their status.
+    All currently active workflow contexts in the instance are paused until you resume them. Use [Workflow pause request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/legacy-workflow/monitor-workflow-pause-requests.md) to monitor their status.
 
 4.  To pause a filtered group of active workflow contexts, use the **Filter** field, specify the conditions for the search, then click **Update**.
 
@@ -88,5 +88,5 @@ Install and activate the Workflow Pause Utility plugin.
     |Paused Workflow Count|Number of current paused workflow contexts.|
 
 
-**Parent Topic:**[Workflow pause utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/workflow-pause-utility.md)
+**Parent Topic:**[Workflow pause utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/legacy-workflow/workflow-pause-utility.md)
 

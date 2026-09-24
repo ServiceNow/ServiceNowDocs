@@ -3,11 +3,11 @@ title: Run Have I Been Pwned enrichment integration
 description: Run the Have I Been Pwned \(HIBP\) enrichment on an email address or domain name observable to determine whether it has been involved in a known data breach.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-hibp-enrichment-integration.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Have I Been Pwned, HIBP, observable enrichment, integration, breach detection]
 breadcrumb: [Observable Enrichment, Run Enrichment operations in TISC, Observables, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
@@ -21,7 +21,7 @@ Run the Have I Been Pwned \(HIBP\) enrichment on an email address or domain name
 
 Role required: sn\_sec\_tisc.analyst
 
-Ensure that the Have I Been Pwned integration is configured and enabled by your administrator. For more information, see [Configure and enable Have I Been Pwned integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-config-hipw-integration.md).
+Ensure that the Have I Been Pwned integration is configured and enabled by your administrator. For more information, see [Configure and enable Have I Been Pwned integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-config-hipw-integration.md).
 
 ## About this task
 
@@ -182,12 +182,12 @@ You can also view the Have I Been Pwned flags, which indicate the attributes ide
 
 **Note:** The HIBP integration provides breach awareness only. It does not support actions to remediate or resolve breaches, as the breaches originate from external third-party systems.
 
-**Parent Topic:**[Observable Enrichment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-observable-enrichment.md)
+**Parent Topic:**[Observable Enrichment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-observable-enrichment.md)
 
 **Related topics**  
 
 
-[Configure Observable Enrichment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/configure-observable-enrichment.md)
+[Configure Observable Enrichment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/configure-observable-enrichment.md)
 
-[Configure and enable Have I Been Pwned integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-config-hipw-integration.md)
+[Configure and enable Have I Been Pwned integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-config-hipw-integration.md)
 

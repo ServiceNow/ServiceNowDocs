@@ -3,9 +3,9 @@ title: Create additional consumer addresses
 description: Consumers can have multiple addresses, including one primary address.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-consumer-address.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create consumers, Configure consumers, Customer data, Set up your environment, Configure, Customer Service Management]
 ---

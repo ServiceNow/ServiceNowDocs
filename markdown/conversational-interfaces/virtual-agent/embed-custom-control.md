@@ -3,14 +3,14 @@ title: Add a custom control to a Virtual Agent topic or topic block
 description: Add a custom control to a Virtual Agent topic or topic block. During the conversation, you can gather inputs from the user or display outputs to the user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/embed-custom-control.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Add, custom control, Virtual Agent, topic, block]
-breadcrumb: [Customizing Virtual Agent with custom controls, Exploring other Virtual Agent features, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Use custom controls, Other Virtual Agent features, Build conversations, Virtual Agent, Conversational Interfaces]
 ---
 
 # Add a custom control to a Virtual Agent topic or topic block
@@ -21,7 +21,7 @@ Add a custom control to a Virtual Agent topic or topic block. During the convers
 
 Do the following before you start this task:
 
--   [Create and publish the custom input or response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-custom-control.md).
+-   [Create and publish the custom input or response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/create-custom-control.md).
 -   Create a calling topic or topic block in which the custom control will be embedded.
 
 Role required: virtual\_agent\_admin or admin
@@ -32,7 +32,7 @@ Role required: virtual\_agent\_admin or admin
 
 2.  Select the **Asset library** tab.
 
-3.  Open the topic where you will add the custom control.
+3.  In the Asset library, select the topic where you will add the custom control.
 
 4.  In the **Flow** tab, drag the Custom Control icon from the Utilities section of the palette to the appropriate position in the topic flow.
 
@@ -113,7 +113,7 @@ A no-code condition statement or low-code script that specifies a condition for 
 
     Your topic runs in a chat test window.
 
-9.  If no further changes are needed, select **Publish** in the Assistant Designer Asset library header bar.
+9.  If no further changes are needed, select **Publish** in the header bar.
 
 
 ## Result

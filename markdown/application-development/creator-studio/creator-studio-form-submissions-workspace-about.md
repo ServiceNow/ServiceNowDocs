@@ -3,13 +3,13 @@ title: Configuring workspace lists and records for form submissions
 description: So, you’ve built your app, and people are submitting requests through it, that’s great! However, you might be wondering where those requests go after they’re submitted. They live in lists in a workspace where fulfillers can work on submitted forms, which you can customize in Creator Studio to suit your needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-form-submissions-workspace-about.html
-release: australia
+release: brazil
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Build apps, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Build apps, Creator Studio, Developing your application, Building applications]
 ---
 
 # Configuring workspace lists and records for form submissions
@@ -18,7 +18,7 @@ So, you’ve built your app, and people are submitting requests through it, that
 
 ## A little more about workspaces
 
-The Request App Workspace holds form submissions that come in from each of your apps. [Fulfillers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-glossary.md) \(remember, these are the people who work on requests\) can access the workspace through the ServiceNow AI Platform and see submissions for all the apps they're assigned to.
+The Request App Workspace holds form submissions that come in from each of your apps. [Fulfillers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-glossary.md) \(remember, these are the people who work on requests\) can access the workspace through the ServiceNow AI Platform and see submissions for all the apps they're assigned to.
 
 There is only one Request App Workspace per instance. Each app that you build in Creator Studio has its own category in the Request App Workspace, with as many lists as you configure, regardless of how many forms or automations it has.
 
@@ -32,9 +32,9 @@ If it would help your fulfillers to have additional categories, you must ask you
 
 ## Creating lists to support multiple forms
 
-When fulfillers open the workspace to view an app's form submissions, the default "Open" list displays all open requests made through the app. However, if you have multiple forms in your app, fulfillers might find it easier to have separate "Open" lists for each form in the app. In that case, you should create a different list for each separate form and name each of them after the forms. Find out how in [Add a filtered list to a workspace in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-add-filtered-list.md).
+When fulfillers open the workspace to view an app's form submissions, the default "Open" list displays all open requests made through the app. However, if you have multiple forms in your app, fulfillers might find it easier to have separate "Open" lists for each form in the app. In that case, you should create a different list for each separate form and name each of them after the forms. Find out how in [Add a filtered list to a workspace in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-add-filtered-list.md).
 
-Fulfillers can use the "My Lists" feature in Workspace to create custom lists that fit their needs. Tell them how to by checking out [ServiceNow AI Platform® list administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/p_ListAdministration.md).
+Fulfillers can use the "My Lists" feature in Workspace to create custom lists that fit their needs. Tell them how to by checking out [ServiceNow AI Platform® list administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/p_ListAdministration.md).
 
 ## How fulfillers access submitted forms
 
@@ -44,8 +44,8 @@ Fulfillers access the default workspace on the ServiceNow AI Platform by going t
 
 You can preview and interact with how records appear in the workspace category directly within Creator Studio by navigating to the **List categories** section of the navigation panel and selecting a record.
 
--   Answers to the form's questions \(which are catalog variables\) appear on the **Details** tab of the submitted record. For more on form questions, see [Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-work-with-forms.md).
--   Results of any playbooks appear on the **Automations** tab of the submitted record. For more on playbooks, see [Working with automation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-working-with-automations.md).
+-   Answers to the form's questions \(which are catalog variables\) appear on the **Details** tab of the submitted record. For more on form questions, see [Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-work-with-forms.md).
+-   Results of any playbooks appear on the **Automations** tab of the submitted record. For more on playbooks, see [Working with automation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-working-with-automations.md).
 
 Edit how the record a form generates will appear by navigating to the **Record details** section of the navigation panel.
 
@@ -57,16 +57,16 @@ What fulfillers can see in the workspace lists depends on their permissions. For
 
 When fulfillers view a record for an individual request in the workspace, the **Catalog tasks** tab displays the playbook that you configured in Creator Studio.
 
-Fulfillers or admins may also want to monitor the app’s performance as requests come in. This is where the **Dashboard overview** in the Request App Workspace is helpful! On the **Dashboard overview** tab, each app has its own analytics dashboard that shows applicable data, like how many open requests you have or what tasks are related to the app. There’s a lot of helpful information here. Find out more about working with data in [Platform Analytics overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center.md).
+Fulfillers or admins may also want to monitor the app’s performance as requests come in. This is where the **Dashboard overview** in the Request App Workspace is helpful! On the **Dashboard overview** tab, each app has its own analytics dashboard that shows applicable data, like how many open requests you have or what tasks are related to the app. There’s a lot of helpful information here. Find out more about working with data in [Platform Analytics overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/analytics-center.md).
 
--   **[Add a filtered list to a workspace in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-add-filtered-list.md)**  
+-   **[Add a filtered list to a workspace in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-add-filtered-list.md)**  
 Create custom filtered lists in the app submission workspace to view records that meet specific conditions. For example, if your app has multiple forms, you can create a list for each form by filtering on the record type.
--   **[Customize an app's workspace configuration in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-edit-workspace.md)**  
+-   **[Customize an app's workspace configuration in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-edit-workspace.md)**  
 Make changes to the app's workspace category where fulfillers review submitted requests from apps built in Creator Studio to adjust how it appears. For example, you can rearrange columns in its lists and customize how the record generated by the request app looks.
--   **[Change the layout of an app's record in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-work-with-record-details.md)**  
+-   **[Change the layout of an app's record in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-work-with-record-details.md)**  
 Adjust how the submitted records that your app generates will look, such as the order in which fields appear.
--   **[Using the Request App Workspace to fulfill requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-request-app-workspace.md)**  
+-   **[Using the Request App Workspace to fulfill requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-request-app-workspace.md)**  
 After users submit a request through an app built in Creator Studio, fulfillers work on the request's submitted record in the Request App Workspace.
 
-**Parent Topic:**[Building apps with Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/building-apps-with-creator-studio.md)
+**Parent Topic:**[Building apps with Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/building-apps-with-creator-studio.md)
 

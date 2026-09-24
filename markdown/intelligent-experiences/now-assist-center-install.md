@@ -3,12 +3,12 @@ title: Confirm installation of AI Admin Center
 description: Confirm the installation of the AI Admin Center application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-install.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Configure, AI Admin Center, Enable AI experiences]
+breadcrumb: [Configure, AI Admin Center, Getting started with AI, Enable AI Experiences]
 ---
 
 # Confirm installation of AI Admin Center
@@ -58,7 +58,7 @@ Follow these steps to confirm the installation of the AI Admin Center plugin.
 
 The application is installed and available to the appropriate user roles.
 
-**Parent Topic:**[Configuring AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist-center.md)
+**Parent Topic:**[Configuring AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-now-assist-center.md)
 
 **Related topics**  
 

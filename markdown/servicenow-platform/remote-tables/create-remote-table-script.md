@@ -3,11 +3,11 @@ title: Create script definitions for a remote table
 description: Define scripts for a remote table to retrieve data from an external data source or edit data in the external source.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/remote-tables/create-remote-table-script.html
-release: australia
+release: brazil
 product: Remote Tables
 classification: remote-tables
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Remote tables, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -138,7 +138,7 @@ Option to support editing the remote table and its external data source from the
 </td></tr></tbody>
 </table>5.  Customize the following script definitions using the v\_table, v\_query, and v\_record APIs.
 
-    For more information about these APIs, see [v\_table – Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_tableAPI.md), [v\_query – Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_queryAPI.md), and [v\_record - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_recordAPI.md).
+    For more information about these APIs, see [v\_table – Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/v_tableAPI.md), [v\_query – Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/v_queryAPI.md), and [v\_record - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/v_recordAPI.md).
 
 <table id="table_cqs_4gj_jdc"><thead><tr><th>
 
@@ -303,16 +303,16 @@ The delete script definition removes a record from the external source. This scr
 </table>6.  Select **Submit**.
 
 
--   **[Example 1: Retrieving all incident records from an external source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/remote-table-script-def-example1.md)**  
+-   **[Example 1: Retrieving all incident records from an external source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/remote-tables/remote-table-script-def-example1.md)**  
 These are examples of script definitions you might create for retrieval and caching of data from sources external to your current instance. In this first example, we create a script to load all incident records from an external source.
--   **[Example 2: Retrieving specific records from a third-party source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/remote-table-script-def-example2.md)**  
+-   **[Example 2: Retrieving specific records from a third-party source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/remote-tables/remote-table-script-def-example2.md)**  
 In this example, we create a script to retrieve specific types of incident records from a third-party source.
--   **[Example 3: Insert a record in an external source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/remote-table-script-def-example3.md)**  
+-   **[Example 3: Insert a record in an external source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/remote-tables/remote-table-script-def-example3.md)**  
 In this example, we create a script to insert an incident record into the external source.
--   **[Example 4: Update a record in an external source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/remote-table-script-def-example4.md)**  
+-   **[Example 4: Update a record in an external source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/remote-tables/remote-table-script-def-example4.md)**  
 In this example, we create a script to update an incident record in the external source.
--   **[Example 5: Delete a record in an external source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/remote-table-script-def-example5.md)**  
+-   **[Example 5: Delete a record in an external source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/remote-tables/remote-table-script-def-example5.md)**  
 In this example, we create a script to delete an incident record from the external source.
 
-**Parent Topic:**[Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/remote-tables.md)
+**Parent Topic:**[Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/remote-tables/remote-tables.md)
 

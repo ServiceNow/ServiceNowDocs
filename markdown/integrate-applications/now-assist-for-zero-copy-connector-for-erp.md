@@ -3,11 +3,11 @@ title: ServiceNow Otto for Zero Copy Connector
 description: Use the ServiceNow Otto for Zero Copy Connector AI skills and agentic workflows to obtain information about ERP systems, software, models, and data products.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/now-assist-for-zero-copy-connector-for-erp.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-07-22"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Workflow Data Fabric]
 ---
 
@@ -21,23 +21,23 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 -   Advanced: AI to boost productivity across relevant use cases
 -   Prime: Act autonomously with all AI assets, and create your own
 
-For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 <table id="table_fqw_fwq_2hc" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn more about Otto for ZCC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/exploring-now-assist-for-zero-copy-connector.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn more about Otto for ZCC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/exploring-now-assist-for-zero-copy-connector.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure the Otto for ZCC application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-now-assist-for-zero-copy-connectors.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure the Otto for ZCC application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-now-assist-for-zero-copy-connectors.md)
 
 </td></tr><tr><td>
 
-[Use generative AI\[Omitted image "bus-ai-otto.svg"\] Alt text:Use generative AI capabilities offered by Otto for ZCC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/now-assist-for-zero-copy-connectors-skills.md)
+[Use generative AI\[Omitted image "bus-ai-otto.svg"\] Alt text:Use generative AI capabilities offered by Otto for ZCC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/now-assist-for-zero-copy-connectors-skills.md)
 
 </td><td>
 
-[Use agentic AI\[Omitted image "bus-ai-otto.svg"\] Alt text:Use agentic AI workflows offered by Otto for ZCC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/zero-copy-connector-for-erp-ai-agents-use-cases.md)
+[Use agentic AI\[Omitted image "bus-ai-otto.svg"\] Alt text:Use agentic AI workflows offered by Otto for ZCC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/zero-copy-connector-for-erp-ai-agents-use-cases.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -63,5 +63,5 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about applications \(and associated application files\) in which app generation was utilized. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about applications \(and associated application files\) in which app generation was utilized. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 

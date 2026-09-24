@@ -3,11 +3,11 @@ title: Publish a document
 description: Publish a document revision that has been approved.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/publish-a-document.html
-release: australia
+release: brazil
 product: Document Management Services
 classification: document-management-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Document approval and publish process, Use, Document Management, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -37,5 +37,5 @@ After a document has been created and edited, a version can be submitted for dra
 5.  Select **Publish Version**.
 
 
-**Parent Topic:**[Document approval and publish process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/document-review-approval.md)
+**Parent Topic:**[Document approval and publish process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/document-review-approval.md)
 

@@ -3,11 +3,11 @@ title: Access Configuration Console from AIOps Configuration Center
 description: Access ITOM Configuration Console to set up Event Management and configure AIOps capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/access-config-console-aiops-center.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Access Event Management configuration console, Configure Event Management using ServiceNow Otto for Setup, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---

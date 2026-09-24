@@ -3,11 +3,11 @@ title: Workspace Builder components for home pages
 description: Several UI Builder components are available as elements to build home pages and contextual side panels in Workspace Builder. Workspace Builder helps you quickly create workspaces.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/workspace-builder/workspace-builder-components-ref.html
-release: australia
+release: brazil
 product: Workspace Builder
 classification: workspace-builder
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Workspace Builder, Builder library, Developing your application, Building applications]
 ---
@@ -24,8 +24,8 @@ The data visualization component is a container for available chart types for us
 
 For more information on data visualization components, see the following topics and sources:
 
--   [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-data-visualizations.md)
--   [Create a single score data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-sing-sc-ac.md)
+-   [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/analytics-center-data-visualizations.md)
+-   [Create a single score data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-dv-sing-sc-ac.md)
 -   [Developer site data visualization component listing](https://developer.servicenow.com/dev.do#!/reference/now-experience/yokohama/now-components/sn-par-visualization-base/overview)
 
 \[Omitted image "wb-data-viz-purple-new.png"\] Alt text: Data visualization element to be edited
@@ -36,7 +36,7 @@ Filters enable you to filter data visualizations without modifying the visualiza
 
 For more information on using filters components to build a workspace, see the following topics and sources:
 
--   [Next Experience filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/interactive-filters-workspace.md)
+-   [Next Experience filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/interactive-filters-workspace.md)
 -   [Developer site filter component listing](https://developer.servicenow.com/dev.do#!/reference/now-experience/yokohama/now-components/sn-component-filter/overview)
 
 ## Heading components
@@ -77,5 +77,5 @@ Add text to your landing page with a rich text component to explain parts of you
 
 For more information on rich text components, see the [Developer site Rich text component reference](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/now-components/now-rich-text/overview).
 
-**Parent Topic:**[Workspace Builder reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/workspace-builder-reference.md)
+**Parent Topic:**[Workspace Builder reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/workspace-builder/workspace-builder-reference.md)
 

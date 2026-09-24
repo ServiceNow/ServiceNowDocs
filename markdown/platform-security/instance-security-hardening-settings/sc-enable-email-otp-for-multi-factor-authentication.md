@@ -1,30 +1,30 @@
 ---
-title: Enable email OTP for multi-factor authentication
+title: Disable email OTP for multi-factor authentication
 description: Manage how two-factor authentication is applied on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-enable-email-otp-for-multi-factor-authentication.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Hardening settings, Platform Security]
 ---
 
-# Enable email OTP for multi-factor authentication
+# Disable email OTP for multi-factor authentication
 
 Manage how two-factor authentication is applied on your instance.
 
-The property **glide.authenticate.multifactor.email.otp.enabled** controls whether a token for the second authentication factor can be sent via email. Email is considered a weak MFA factor which an attacker is more likely to gain access into for defeating MFA.
+The **glide.authenticate.multifactor.email.otp.enabled** property controls whether a token for the second authentication factor can be sent via email. Email is considered a weak multi-factor authentication \(MFA\) factor which an attacker is more likely to gain access into for defeating MFA.
 
-If the property is false, the user doesn't see email OTP option on the MFA validation screen.
+If the property is set to **false**, the user doesn't see the email OTP option on the MFA validation screen.
 
-If the property is true:
+If the property is **true**:
 
-1.  The email factor is shown in cases where the email factor policy is inactive and no other 2fa registered.
-2.  The email factor is shown if the email factor policy is active and evaluated to true.
-3.  The email factor is not shown if the email factor policy is active and evaluated to false.
+-   The email factor is shown in cases where the email factor policy is inactive and no other 2fa registered.
+-   The email factor is shown if the email factor policy is active and evaluated to **true**.
+-   The email factor is not shown if the email factor policy is active and evaluated to **false**.
 
 ## More information
 
@@ -82,7 +82,7 @@ Category
 
 </td><td>
 
-[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
+[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
 
 </td></tr><tr><td>
 
@@ -92,7 +92,15 @@ Security risk
 
 -   Severity score: 3.1
 -   CVSS score: Low
--   Security risk details: An attacker may successfully bypassing MFA when they have the user's password.
+-   Security risk details: An attacker may successfully bypass MFA when they have the user's password.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+Users who rely solely on the email one time passcode as their multi-factor authentication method will no longer see that option on the MFA validation screen. They must enroll an alternative factor such as an authenticator app, a hardware security key, or SMS before this property is turned off, otherwise they may be unable to complete login until an administrator enrolls an alternative factor for them.
 
 </td></tr><tr><td>
 
@@ -108,8 +116,8 @@ References
 
 </td><td>
 
-[Email as an MFA factor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-with-email.md)
+[Email as an MFA factor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/mfa-with-email.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
+</table>**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

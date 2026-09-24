@@ -3,13 +3,13 @@ title: Commit changes to a repository
 description: Commit changes made in your application in App Engine Studio \(AES\) to a linked Git repository. You can either select a few changes to commit, or commit all changes on the instance at once.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/source-control-commit-changes.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Work with changes in Git, Use AES with a Git source control repository, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Work with changes in Git, Use AES with a Git source control repository, Build, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Commit changes to a repository
@@ -19,7 +19,7 @@ Commit changes made in your application in App Engine Studio \(AES\) to a linked
 ## Before you begin
 
 -   Role required: admin
--   [Link an application or application-customization to source control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/source-control-link-application.md)
+-   [Link an application or application-customization to source control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/source-control-link-application.md)
 
 ## Procedure
 
@@ -48,7 +48,7 @@ Commit changes made in your application in App Engine Studio \(AES\) to a linked
 
     Commits always occur in **include\_untracked** mode in the following cases:
 
-    -   Linking to source control for the first time. \(To learn more, see [Link an application or application-customization to source control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/source-control-link-application.md).\)
+    -   Linking to source control for the first time. \(To learn more, see [Link an application or application-customization to source control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/source-control-link-application.md).\)
     -   Publishing an application that's linked to source control from App Engine Studio.
     -   Selective commit mode is disabled.
 6.  Select **Continue**.
@@ -61,8 +61,8 @@ Commit changes made in your application in App Engine Studio \(AES\) to a linked
 
     -   The system identifies all local changes.
     -   The system commits all local changes to the remote repository.
-    **Note:** For list of known files that don’t have customer update records and are untracked, see [Customer Updates table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_CustomerUpdatesTable.md).
+    **Note:** For list of known files that don’t have customer update records and are untracked, see [Customer Updates table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_CustomerUpdatesTable.md).
 
 
-**Parent Topic:**[Work with changes in Git](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/work-changes-in-git.md)
+**Parent Topic:**[Work with changes in Git](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/work-changes-in-git.md)
 

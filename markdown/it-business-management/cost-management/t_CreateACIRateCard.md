@@ -3,11 +3,11 @@ title: Create a CI rate card
 description: You can add a CI rate card that specifies an hourly rate and associate a rate code.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/cost-management/t\_CreateACIRateCard.html
-release: australia
+release: brazil
 product: Cost Management
 classification: cost-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CI rate cards, Cost Management, Strategic Portfolio Management]
 ---
@@ -102,5 +102,5 @@ A brief description of the rate card.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[CI rate cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/c_CIRateCards.md)
+**Parent Topic:**[CI rate cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/cost-management/c_CIRateCards.md)
 

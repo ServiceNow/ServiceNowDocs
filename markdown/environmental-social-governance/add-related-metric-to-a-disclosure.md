@@ -3,9 +3,9 @@ title: Add metrics to a disclosure
 description: Add any metrics to the disclosure that would help to contribute to the disclosure data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/add-related-metric-to-a-disclosure.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Disclosures in Operational Sustainability Management \(formerly ESG Management\), Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -39,5 +39,5 @@ After you manually add metrics to the disclosure, you can also delete those metr
 7.  Select **Save**.
 
 
-**Parent Topic:**[Disclosures in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-disclosures.md)
+**Parent Topic:**[Disclosures in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/esg-disclosures.md)
 

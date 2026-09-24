@@ -3,9 +3,9 @@ title: Configure project oversight for order lines
 description: Specify the conditions and decision rules that qualify an order line for project oversight. You also specify the project template used by Order Management to create the project for the order line.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-proj-oversight-order-lines.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setting up project oversight conditions and decision rules, Configuring the Strategic Portfolio Management integration, Order Management integration with Strategic Portfolio Management, Integrate, Sales Customer Relationship Management]
 ---

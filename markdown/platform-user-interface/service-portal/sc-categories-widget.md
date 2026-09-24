@@ -3,11 +3,11 @@ title: SC Categories widget
 description: The SC Categories widget displays Service Catalog categories. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/sc-categories-widget.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Service Catalog widgets, Widget library, Using portal widgets, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -24,7 +24,7 @@ If you associate your portal with multiple catalogs, then the SC Categories widg
 
 \[Omitted image "sc-categories-menu.png"\] Alt text: Menu to select a catalog
 
-For more information on associating your portal with catalogs, see [Configure a catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/associate-portal-catalog.md).
+For more information on associating your portal with catalogs, see [Configure a catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/associate-portal-catalog.md).
 
 ## Instance options
 
@@ -111,7 +111,7 @@ Verifies with each item that the user has the right roles to view the catalog it
 -   Omit badges: True
 -   Check canView per item: False
 
-**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sc-widgets.md)
+**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/sc-widgets.md)
 
 **Related topics**  
 
@@ -154,5 +154,5 @@ Verifies with each item that the user has the right roles to view the catalog it
 
 [Clone a widget]()
 
-[Access Service Catalog categories in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/access-categories-portal.md)
+[Access Service Catalog categories in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/access-categories-portal.md)
 

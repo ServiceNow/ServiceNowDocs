@@ -3,7 +3,7 @@ title: CPQ admin settings
 description: Explore the admin settings in CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-admin-settings.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2

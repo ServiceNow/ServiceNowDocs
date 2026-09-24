@@ -3,11 +3,11 @@ title: Create a safety incident from an ICW task
 description: Create a safety incident directly from an existing ICW task when the task reveals a safety-related issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/icw-create-safety-incident-from-task.html
-release: australia
+release: brazil
 product: Digital Factory Workspace
 classification: digital-factory-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ICW Health and Safety Integration, Use, Digital Factory Workspace, Industrial Connected Workforce]
 ---
@@ -35,7 +35,7 @@ You may discover a safety issue while working on an action, deviation, or Indust
     -   Actions
     -   Deviations
     -   Root Cause Analysis
-3.  Select More Actions \(\[Omitted image "more-actions.png"\] Alt text:\) in the top corner.
+3.  Select More Actions \(\[Omitted image "image.more-actions"\] Alt text:\) in the top corner.
 
 4.  Select **Report safety incident**.
 
@@ -58,12 +58,12 @@ You may discover a safety issue while working on an action, deviation, or Indust
 
 The safety incident is created and linked to the originating task through the origin field. The incident appears in the safety incidents list and in the Related tab of the originating task.
 
-**Parent Topic:**[Using ICW Health and Safety Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/using-icw-health-and-safety-integration.md)
+**Parent Topic:**[Using ICW Health and Safety Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/using-icw-health-and-safety-integration.md)
 
 **Related topics**  
 
 
-[Exploring Industrial Connected Workforce Integration with Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/icw-health-and-security-integraton.md)
+[Exploring Industrial Connected Workforce Integration with Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/icw-health-and-security-integraton.md)
 
-[View safety incidents in the Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/icw-view-safety-incident.md)
+[View safety incidents in the Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/icw-view-safety-incident.md)
 

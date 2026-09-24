@@ -3,11 +3,11 @@ title: UI Builder tutorial
 description: Learn how to use the basics of UI Builder to create a page called My Tutorial.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/uib-tutorial.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Exploring UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -20,17 +20,17 @@ Learn how to use the basics of UI Builder to create a page called My Tutorial.
 
 Role required: ui\_builder\_admin
 
-In this UI Builder tutorial, you perform the following tasks to build a [page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-glossary.md) in UI Builder:
+In this UI Builder tutorial, you perform the following tasks to build a [page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/ui-builder-glossary.md) in UI Builder:
 
 -   Start UI Builder.
--   Create a page for your workspace or custom portal experience. For more information about creating pages, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
--   Change the layout of the page to have two columns. For more information, see [Organize components in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-layouts.md).
--   Build your page by adding two container [components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-glossary.md).
+-   Create a page for your workspace or custom portal experience. For more information about creating pages, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-page.md).
+-   Change the layout of the page to have two columns. For more information, see [Organize components in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-layouts.md).
+-   Build your page by adding two container [components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/ui-builder-glossary.md).
 -   Rename your container components in the content tree.
--   Add a **Heading** component and a **Button** component to the first container. Add a **data visualization component** to the second container. For more information about components, see [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md).
+-   Add a **Heading** component and a **Button** component to the first container. Add a **data visualization component** to the second container. For more information about components, see [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-components.md).
 -   Configure your components as follows:
     -   Link the button to the ServiceNow® website.
-    -   Connect the **Data visualization** component to a data source to display task data. For more information about data resources, see [Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/data-resources.md).
+    -   Connect the **Data visualization** component to a data source to display task data. For more information about data resources, see [Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/data-resources.md).
 -   Save your page often.
 -   Preview your page to see how it looks in a browser.
 
@@ -42,19 +42,19 @@ In this UI Builder tutorial, you perform the following tasks to build a [page](h
 
 2.  From the UI Builder home page, choose an experience you want to work in.
 
-    If you don’t see any experiences listed in which to work, contact your administrator to get access to an experience or create an experience. For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md).
+    If you don’t see any experiences listed in which to work, contact your administrator to get access to an experience or create an experience. For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-experiences.md).
 
 3.  Create a page.
 
-<table id="choicetable_n3q_gmd_jjb"><thead><tr><th align="left" id="d73768e242">
+<table id="choicetable_n3q_gmd_jjb"><thead><tr><th align="left" id="d71914e242">
 
 To do this task
 
-</th><th align="left" id="d73768e245">
+</th><th align="left" id="d71914e245">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d73768e251">
+</th></tr></thead><tbody><tr><td id="d71914e251">
 
 **Create a page**
 
@@ -83,7 +83,7 @@ Do the following
 12. Select **Continue**.
 13. On the next screen, select **Build responsive**.
 14. Select **Create**.
-15. After your page is created, the page editor screen appears. You can change advanced settings such as the **URL settings** and **Variant** settings. For this tutorial, you can skip these advanced options. For more information on changing advanced settings, see [Create a UI Builder page: Advanced settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-pages.md).
+15. After your page is created, the page editor screen appears. You can change advanced settings such as the **URL settings** and **Variant** settings. For this tutorial, you can skip these advanced options. For more information on changing advanced settings, see [Create a UI Builder page: Advanced settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-pages.md).
 
 
 </td></tr></tbody>
@@ -91,17 +91,17 @@ Do the following
 
 4.  Change the layout of the page to a two-column layout.
 
-    For more information about layouts, see [Organize components in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-layouts.md).
+    For more information about layouts, see [Organize components in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-layouts.md).
 
-<table id="choicetable_hgv_b1x_d4b"><thead><tr><th align="left" id="d73768e426">
+<table id="choicetable_hgv_b1x_d4b"><thead><tr><th align="left" id="d71914e426">
 
 To do this task
 
-</th><th align="left" id="d73768e429">
+</th><th align="left" id="d71914e429">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d73768e435">
+</th></tr></thead><tbody><tr><td id="d71914e435">
 
 **Change the layout of the page to two columns**
 
@@ -123,21 +123,21 @@ Do the following
 </td></tr></tbody>
 </table>5.  Add a **Heading** component, and a **Button** component to the left column.
 
-<table id="choicetable_q1g_4fl_vnb"><thead><tr><th align="left" id="d73768e504">
+<table id="choicetable_q1g_4fl_vnb"><thead><tr><th align="left" id="d71914e504">
 
 To do this task
 
-</th><th align="left" id="d73768e507">
+</th><th align="left" id="d71914e507">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d73768e513">
+</th></tr></thead><tbody><tr><td id="d71914e513">
 
 **Add a heading component to your left-column container**
 
 </td><td>
 
-You can add components to the page in different ways. For more information on the ways you can add components to your page, see [Table 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md).1.  Select the **+** button in the middle of the left column.
+You can add components to the page in different ways. For more information on the ways you can add components to your page, see [Table 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-components.md).1.  Select the **+** button in the middle of the left column.
 2.  Type `Heading` in the search field.
 3.  Select the **Heading** component to add it to your container. A heading component is a way to add text or a title to your page.
 4.  Select **Add**.
@@ -149,7 +149,7 @@ You can add components to the page in different ways. For more information on th
     -   Leave the Level as **1**.
 
 
-</td></tr><tr><td id="d73768e601">
+</td></tr><tr><td id="d71914e601">
 
 **Add and configure a button component to your left-column container**
 
@@ -161,7 +161,7 @@ Add a **Button** component to your page. Configure the button by changing the te
 2.  Type `Button` in the search field.
 3.  Select the **Button** component in the list.
 
-For more information on adding components to your page, see [Table 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md).
+For more information on adding components to your page, see [Table 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-components.md).
 
 4.  Select the component name in the configuration panel to see the **Component label** and **Component ID**. You can change these to anything you want, as long as they’re unique.
 5.  Configure the button component as follows.
@@ -183,7 +183,7 @@ For more information on adding components to your page, see [Table 1](https://ra
 
 \[Omitted image "tutorial-button-event.png"\] Alt text: Configured event handler for the button component.
 
-For more information about event handlers, see [Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-events.md).
+For more information about event handlers, see [Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-events.md).
 
 7.  Select **Save**. It is always a good idea to save your page often as you work.
 8.  Select **Preview**.
@@ -197,21 +197,21 @@ For more information about event handlers, see [Manage actions in UI Builder pag
 
     A data visualization component contains data that you display in a visual manner. Configure the data visualization component parameters. Then, add a data resource to it.
 
-<table id="choicetable_j31_whl_vnb"><thead><tr><th align="left" id="d73768e814">
+<table id="choicetable_j31_whl_vnb"><thead><tr><th align="left" id="d71914e814">
 
 To do this task
 
-</th><th align="left" id="d73768e817">
+</th><th align="left" id="d71914e817">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d73768e823">
+</th></tr></thead><tbody><tr><td id="d71914e823">
 
 **Add and configure a data visualization component to your right-column container**
 
 </td><td>
 
-You can add components to the page in different ways. For more information on the ways you can add components to your page, see [Table 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md).1.  Select the **+** button in the middle of the right column.
+You can add components to the page in different ways. For more information on the ways you can add components to your page, see [Table 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-components.md).1.  Select the **+** button in the middle of the right column.
 2.  In the **Search** field, start typing `Data visualization` until you see the **Data visualization** component, then select the component to add it to your page.
 3.  Select the component name in the configuration panel to see the **Component label** and **Component ID**. You can change these to anything you want, as long as they’re unique.
 4.  Add a data resource to your data visualization component to bring in customer account data.
@@ -232,15 +232,15 @@ You can add components to the page in different ways. For more information on th
 
 7.  Save the new page one last time.
 
-<table id="choicetable_md1_c5m_vnb"><thead><tr><th align="left" id="d73768e946">
+<table id="choicetable_md1_c5m_vnb"><thead><tr><th align="left" id="d71914e946">
 
 To do this task
 
-</th><th align="left" id="d73768e949">
+</th><th align="left" id="d71914e949">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d73768e955">
+</th></tr></thead><tbody><tr><td id="d71914e955">
 
 **Save your page**
 
@@ -253,15 +253,15 @@ Do the following
 </td></tr></tbody>
 </table>8.  Now preview your page to see what it looks like in a browser.
 
-<table id="choicetable_cyg_qg2_24b"><thead><tr><th align="left" id="d73768e988">
+<table id="choicetable_cyg_qg2_24b"><thead><tr><th align="left" id="d71914e988">
 
 To do this task
 
-</th><th align="left" id="d73768e991">
+</th><th align="left" id="d71914e991">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d73768e997">
+</th></tr></thead><tbody><tr><td id="d71914e997">
 
 **Preview your page**
 
@@ -296,5 +296,5 @@ Do the following
 7.  Saved your new page.
 8.  Previewed your page.
 
-**Parent Topic:**[Exploring UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-custom-experience.md)
+**Parent Topic:**[Exploring UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-custom-experience.md)
 

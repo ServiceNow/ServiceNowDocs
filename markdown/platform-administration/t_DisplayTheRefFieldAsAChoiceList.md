@@ -3,9 +3,9 @@ title: Display a reference field as a choice list
 description: You can display a reference field as a choice list instead of opening a lookup window.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_DisplayTheRefFieldAsAChoiceList.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Add a reference field, Reference field type, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -54,5 +54,5 @@ Role required: personalize\_dictionary
 **Related topics**  
 
 
-[System dictionary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_SystemDictionary.md)
+[System dictionary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/c_SystemDictionary.md)
 

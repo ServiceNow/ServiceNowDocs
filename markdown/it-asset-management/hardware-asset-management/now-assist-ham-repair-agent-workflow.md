@@ -3,25 +3,23 @@ title: ServiceNow Otto for Hardware Asset Management \(HAM\) AI agent collection
 description: Use the Help repair hardware assets agentic workflow, driven by AI agents, to handle the repair requests of defective and out-of-warranty hardware assets automatically. These AI agents validate the repair tasks, provide detailed troubleshooting and repair steps, and finally close the relevant tasks after receiving user confirmation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/now-assist-ham-repair-agent-workflow.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 keywords: [AI Agents, agentic AI]
-breadcrumb: [Repair order fulfillment in the Hardware Asset Workspace, Manage asset repair in stockrooms, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Repair order fulfillment in the Hardware Asset Workspace, Manage repair of defective assets in your stockroom in the Hardware Asset Workspace, Repair and maintenance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # ServiceNow Otto for Hardware Asset Management \(HAM\) AI agent collection Help repair hardware assets agentic workflow
 
 Use the Help repair hardware assets agentic workflow, driven by AI agents, to handle the repair requests of defective and out-of-warranty hardware assets automatically. These AI agents validate the repair tasks, provide detailed troubleshooting and repair steps, and finally close the relevant tasks after receiving user confirmation.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
-
 ## Help repair hardware assets agentic workflow overview
 
-**Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 The AI agents in the Help repair hardware assets agentic workflow offers these benefits:
 
@@ -121,7 +119,7 @@ The AI agents in the Help repair hardware assets agentic workflow offers these b
 
 Roles required:
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 ## AI agents used in the Help repair hardware assets agentic workflow
 
@@ -133,5 +131,5 @@ The Help repair hardware assets agentic workflow uses specific AI agents to vali
 |Evaluate asset AI agent|Performs a web search and provides a detailed evaluation guide to help the technician identify the issue on the asset. Updates the troubleshooting task with the details received from the technician and then closes the task.|
 |Repair asset AI agent|Performs a web search and provides detailed repair steps to help the technician resolve the issue identified on the asset. Updates the repair task with the details received from the technician and then closes the task.|
 
-**Parent Topic:**[Repair order fulfillment in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/fulfilling-repair-orders-ham.md)
+**Parent Topic:**[Repair order fulfillment in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/fulfilling-repair-orders-ham.md)
 

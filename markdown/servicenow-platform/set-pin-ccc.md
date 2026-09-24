@@ -3,9 +3,9 @@ title: Configuring a phone PIN
 description: You can set up or reset a phone PIN that can be used for caller authentication during a call with an agent.Reset the phone PIN for a caller if the caller's account is locked.Set up or reset your phone PIN that can be used for caller authentication when you call an agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/set-pin-ccc.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up ServiceNow Voice, ServiceNow Voice, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ If the **Require authentication** field is set to **true** for an operation hand
 
 **Important:** It is applicable for both ServiceNow Voice for ITSM and ServiceNow Voice for CSM applications.
 
-**Parent Topic:**[Setting up ServiceNow Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ccc-setup.md)
+**Parent Topic:**[Setting up ServiceNow Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/ccc-setup.md)
 
 ## Reset the phone PIN for a caller
 

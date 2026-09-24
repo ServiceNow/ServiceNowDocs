@@ -3,11 +3,11 @@ title: Create a function field
 description: Create a function field to be able to group and stack a report by the results of the field's calculation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/create-function-field.html
-release: australia
+release: brazil
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Report on function fields, Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -62,7 +62,7 @@ Each function field requires a label, a return type, and a definition. The defin
 
 10. Select the fields that the function operates on.
 
-    Some functions require only one field; some require two or three fields. See [Report on function fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/function-fields-reporting.md). Make sure that you separate the fields with commas.
+    Some functions require only one field; some require two or three fields. See [Report on function fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/function-fields-reporting.md). Make sure that you separate the fields with commas.
 
 11. When the syntax is correct, you can save the function field.
 
@@ -75,7 +75,7 @@ Each function field requires a label, a return type, and a definition. The defin
 
 Configured function fields appear in the **Group by** and **Additional group by** lists after you save the report.
 
-Use the created function field it in your report or data visualization configuration. For information on using function fields elsewhere on the ServiceNow AI Platform, see [Function field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-support-functions.md).
+Use the created function field it in your report or data visualization configuration. For information on using function fields elsewhere on the ServiceNow AI Platform, see [Function field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/platform-support-functions.md).
 
-**Parent Topic:**[Report on function fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/function-fields-reporting.md)
+**Parent Topic:**[Report on function fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/function-fields-reporting.md)
 

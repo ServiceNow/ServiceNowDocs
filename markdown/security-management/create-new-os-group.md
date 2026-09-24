@@ -3,9 +3,9 @@ title: Create an operating system group
 description: Operating system groups are used to map an operating system to specific process types and scripts in Security Incident Response workflows. The scripts define how running processes for the defined operating system groups are retrieved. New operating systems can be added as needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/create-new-os-group.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Operations common functionality, Security Operations]
 ---
@@ -41,7 +41,7 @@ Role required: sn\_sec\_cmn.admin
     |Active|Select this check box to activate the operating system group.|
     |Use filter group|Select this check box to use a filter group for locating matching records in the selected table.|
     |Filter group|Select the filter group for locating matching records in the selected table. This field displays only if you selected the **Use filter group** check box.|
-    |Condition|The [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) fields display only if you did not select the **Use filter group** check box.|
+    |Condition|The [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ConditionBuilder.md) fields display only if you did not select the **Use filter group** check box.|
 
 4.  Select and hold \(or right-click\) in the form header and select **Save**.
 
@@ -56,10 +56,10 @@ Role required: sn\_sec\_cmn.admin
 7.  Select **Submit**.
 
 
-**Parent Topic:**[Security Operations common functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sec-ops-common-functionality.md)
+**Parent Topic:**[Security Operations common functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sec-ops-common-functionality.md)
 
 **Related topics**  
 
 
-[Attach a script file to a file synchronized MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-script-attach.md)
+[Attach a script file to a file synchronized MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-script-attach.md)
 

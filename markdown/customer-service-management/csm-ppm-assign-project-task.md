@@ -3,9 +3,9 @@ title: Assign a project task
 description: The customer project manager can assign a customer project task to an internal user, a customer or partner contact, or a contact that has a relationships to the account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-ppm-assign-project-task.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer project manager tasks, Integrating with Customer Project Management, Integrate, Customer Service Management]
 ---

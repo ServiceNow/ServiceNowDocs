@@ -3,9 +3,9 @@ title: Using the Mobile App Builder
 description: Use the Mobile App Builder to create, edit, and manage your records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/mab-building-records.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mobile App Builder, Building tools, Building mobile apps, Mobile Platform]
 ---

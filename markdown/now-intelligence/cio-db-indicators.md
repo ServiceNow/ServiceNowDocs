@@ -3,9 +3,9 @@ title: Chief Information Officer Dashboard indicators
 description: Indicators provide the data used in most of the dashboard’s visualizations. The indicators are used across the dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/cio-db-indicators.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Chief Information Officer \(CIO\) Dashboard, Executive dashboard overview, Platform Analytics]
 ---
@@ -16,9 +16,9 @@ Indicators provide the data used in most of the dashboard’s visualizations. Th
 
 This dashboard employs all three kinds of indicators, Automated, Formula, and Manual. For more information about configuring indicators, see
 
--   [Automated indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/automated-indicators.md)
--   [Formula indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/formula-indicators.md)
--   [Manual indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateAManualIndicator.md)
+-   [Automated indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/automated-indicators.md)
+-   [Formula indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/formula-indicators.md)
+-   [Manual indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/t_CreateAManualIndicator.md)
 
 ## Overview tab
 

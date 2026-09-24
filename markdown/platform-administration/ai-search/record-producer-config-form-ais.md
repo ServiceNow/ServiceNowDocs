@@ -3,11 +3,11 @@ title: Record Producer Configuration form
 description: The Record Producer Configuration form enables you to create an AI Search Assist record producer configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/record-producer-config-form-ais.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -24,5 +24,5 @@ The Record Producer Configuration form enables you to create an AI Search Assist
 |Active|Option to make this record producer configuration active for your instance.|
 |Application|Application scope for this record producer configuration.|
 
-**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/reference-ais.md)
+**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/reference-ais.md)
 

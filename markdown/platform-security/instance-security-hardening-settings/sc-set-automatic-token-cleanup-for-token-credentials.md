@@ -1,24 +1,24 @@
 ---
-title: Set Automatic Token Cleanup for Token Credentials
+title: Set automatic token cleanup for token credentials
 description: Use the com.snc.platform.security.token.auth.cleanup property to ensure that expired API keys and HMAC secrets are deleted, thereby limiting the potential for token reuse.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-set-automatic-token-cleanup-for-token-credentials.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Architecture, design, and threat modeling, Hardening settings, Platform Security]
 ---
 
-# Set Automatic Token Cleanup for Token Credentials
+# Set automatic token cleanup for token credentials
 
 Use the **com.snc.platform.security.token.auth.cleanup** property to ensure that expired API keys and HMAC secrets are deleted, thereby limiting the potential for token reuse.
 
 If the **com.snc.platform.security.token.auth.cleanup** system property is set to the insecure value of **false**, expired API keys and HMAC secrets will not be deleted. This creates a potential for token reuse. If the token was expired due to leakage or compromise, reuse exposes the instance to anyone possessing the leaked token. Expired tokens are kept for the number of days defined by the **com.snc.platform.security.token.auth.days.expired.hmac\_secret.is.kept** and **com.snc.platform.security.token.auth.days.expired.api\_key.is.kept** system properties. Integer values of `0` and greater are valid values. A value of 0 causes the expired tokens to be deleted in the same day. The default of 7 days, or fewer, is recommended.
 
-Ensure the property **com.snc.platform.security.token.auth.cleanup** does not exist in the System Properties \[sys\_properties\] table or is set to **true**. Ensure that the properties **com.snc.platform.security.token.auth.days.expired.api\_key.is.kept** and **com.snc.platform.security.token.auth.days.expired.hmac\_secret.is.kept** do not exist in the System Properties \[sys\_properties\] table or are set to 7 or less.
+Ensure the property **com.snc.platform.security.token.auth.cleanup** doesn't exist in the System Properties \[sys\_properties\] table or is set to **true**. Ensure that the properties **com.snc.platform.security.token.auth.days.expired.api\_key.is.kept** and **com.snc.platform.security.token.auth.days.expired.hmac\_secret.is.kept** don't exist in the System Properties \[sys\_properties\] table or are set to 7 or less.
 
 ## More information
 
@@ -72,7 +72,9 @@ Default value
 
 </td><td>
 
-&lt;none&gt;
+-   true
+-   7
+-   7
 
 </td></tr><tr><td>
 
@@ -90,7 +92,7 @@ Category
 
 </td><td>
 
-[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
+[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
 
 </td></tr><tr><td>
 
@@ -111,5 +113,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
+</table>**Parent Topic:**[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
 

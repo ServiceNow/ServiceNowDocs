@@ -3,11 +3,11 @@ title: Logical connections
 description: Design and assign a logical connection in the Telecommunications Network Inventory application. By using the Design and Assign function, you can fulfill the logical connection design request of a customer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/design-logical-connection-design-assign-playbook.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Design and assign your network services, Explore, Telecommunications Network Inventory]
 ---
@@ -94,9 +94,9 @@ You can expand the pills in the diagram to see all underlying connection element
 </td></tr></tbody>
 </table>## Design and Assign workflow for logical connection
 
-\[Omitted image "design-assign-flow\_copy.png"\] Alt text: Design and Assign workflow for logical logical connection
+\[Omitted image "MMASSET0020713-design-assign-playbook-logical-connection.png"\] Alt text: Infographic showing the workflow diagram of design and assign playbook for logical connection. To learn more, see following text.
 
-The Design and Assign function for a logical connection has the following workflows.
+The Design and Assign function for a logical connection has the following workflow.
 
 1.  Create a change request and add necessary details about your design.
 2.  Provide connection details which influence the design such as logical connection model, bandwidth, and domain.
@@ -109,7 +109,7 @@ The Design and Assign function for a logical connection has the following workfl
 
 By completing these steps, a logical connection record is generated with the associated Configuration Items \(CI\).
 
-To learn more about the steps to design and assign a logical connection, see [Create a logical connection record using the Design and Assign function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-logical-connection-record-design-assign-playbook.md).
+To learn more about the steps to design and assign a logical connection, see [Create a logical connection record using the Design and Assign function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/create-logical-connection-record-design-assign-playbook.md).
 
 ## Access
 
@@ -122,7 +122,7 @@ You can access the Design and Assign function for a logical connection in the Te
 **Related topics**  
 
 
-[Design and assign your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/design-assign-playbook.md)
+[Design and assign your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/design-assign-playbook.md)
 
-[Telecommunications Network Inventory subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/subflow.md)
+[Telecommunications Network Inventory subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/subflow.md)
 

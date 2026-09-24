@@ -3,11 +3,11 @@ title: Monitor schedule adherence of your agents
 description: Use schedule adherence to evaluate whether your agents are adhering to their assigned schedules. You can look for areas where low-value activity can be eliminated or reduced and further analyze staffing levels throughout the day.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/monitor-schedule-adherence.html
-release: australia
+release: brazil
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Scheduling, Workforce Optimization, Managing workforce, Use, Field Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_shift\_planning.admin
 
 ## About this task
 
-For information on schedule adherence, see the "Schedule adherence" section in [Scheduling in Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/scheduling-wfo-fsm.md).
+For information on schedule adherence, see the "Schedule adherence" section in [Scheduling in Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-manager-workforce/scheduling-wfo-fsm.md).
 
 ## Procedure
 

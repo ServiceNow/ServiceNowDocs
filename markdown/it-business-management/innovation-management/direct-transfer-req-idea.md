@@ -3,11 +3,11 @@ title: Configure idea categories for transferring request as Idea
 description: Configure idea states to use when directly transferring an HR case, incident, or a custom task from your department as an idea.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/innovation-management/direct-transfer-req-idea.html
-release: australia
+release: brazil
 product: Innovation Management
 classification: innovation-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Innovation Management, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -28,10 +28,10 @@ When an idea is created in the Idea Portal, it must be associated with at least 
 
 1.  Navigate to **All** &gt; **Universal Request** &gt; **Administration** &gt; **Direct Transfer Configuration**.
 
-2.  Follow the steps as described in [Direct transfer mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/ur-transfer-map-config.md).
+2.  Follow the steps as described in Direct transfer mapping.
 
 3.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/configuring-innovation-management.md)
+**Parent Topic:**[Configuring Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/innovation-management/configuring-innovation-management.md)
 

@@ -3,9 +3,9 @@ title: Create a social media profile
 description: Users with the customer service manager role can create a social media profile for an account, contact, or consumer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-social-profile.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer management, Use, Customer Service Management]
 ---
@@ -92,5 +92,5 @@ The link to the user's social media account.
 **Related topics**  
 
 
-[Social media communication channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/social-media-integration.md)
+[Social media integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/social-media-integration.md)
 

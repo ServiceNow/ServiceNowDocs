@@ -3,11 +3,11 @@ title: Navigate the equipment model with the breadcrumb trail
 description: Use the breadcrumb trail at the top of the page title to open a different level in the equipment model hierarchy from the current functional location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/navigate-with-breadcrumb-trail.html
-release: australia
+release: brazil
 product: Digital Factory Workspace
 classification: digital-factory-workspace
 topic_type: task
-last_updated: "2026-05-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [breadcrumb, functional location, equipment model, navigation]
 breadcrumb: [Functional location vertical navigation, Operational Equipment Model, Industrial Data Models, Use, Digital Factory Workspace, Industrial Connected Workforce]
@@ -38,5 +38,5 @@ Role required: ICW worker
 4.  To return to the top of the equipment model, select the home icon at the start of the breadcrumb trail.
 
 
-**Parent Topic:**[Functional location vertical navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/functional-location-vertical-navigation.md)
+**Parent Topic:**[Functional location vertical navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/functional-location-vertical-navigation.md)
 

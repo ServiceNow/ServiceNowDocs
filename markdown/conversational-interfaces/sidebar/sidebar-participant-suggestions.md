@@ -3,11 +3,11 @@ title: Participant suggestions in Sidebar
 description: Activate Participant suggestions to display a list of users and user groups who may be helpful additions to a Sidebar discussion.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/sidebar/sidebar-participant-suggestions.html
-release: australia
+release: brazil
 product: Sidebar
 classification: sidebar
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring Sidebar, Sidebar, Conversational Interfaces]
 ---

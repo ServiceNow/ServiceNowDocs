@@ -3,9 +3,9 @@ title: Add transient attributes to a record
 description: Store transient attributes and their values on a record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/add-transient-attributes.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Working with attributes transiently, Dynamic Schema, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -32,15 +32,15 @@ After creating a dynamic attribute store field on a table, you can immediately s
 
 3.  Add one or more attributes directly on the form using JSON or via the API.
 
-<table id="choicetable_hbk_hpf_yfc"><thead><tr><th align="left" id="d87571e78">
+<table id="choicetable_hbk_hpf_yfc"><thead><tr><th align="left" id="d87455e78">
 
 Option
 
-</th><th align="left" id="d87571e81">
+</th><th align="left" id="d87455e81">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d87571e87">
+</th></tr></thead><tbody><tr><td id="d87455e87">
 
 **Enter JSON on the form**
 
@@ -53,7 +53,7 @@ Description
 "screen_resolution":"2160p","screen_size":"75","screen_type":"OLED"
     ```
 
-</td></tr><tr><td id="d87571e107">
+</td></tr><tr><td id="d87455e107">
 
 **Call setValue\(\)**
 
@@ -81,7 +81,7 @@ gr.query();
 
 ## What to do next
 
-Decide whether to create formal definitions for each attribute. Providing a formal definition makes the attribute non-transient and allows you to modify its behavior. To provide this definition, navigate to the dynamic namespace record the store field is configured with and create a dynamic attribute record using the name of the attribute you wish to modify. See [Create a dynamic attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/add-dynamic-attributes.md).
+Decide whether to create formal definitions for each attribute. Providing a formal definition makes the attribute non-transient and allows you to modify its behavior. To provide this definition, navigate to the dynamic namespace record the store field is configured with and create a dynamic attribute record using the name of the attribute you wish to modify. See [Create a dynamic attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/add-dynamic-attributes.md).
 
 Note that modifying the definition of an attribute doesn't modify any data stored for that attribute. Rather, it simply modifies how the system interacts with that data. For example, attributes defined as strings sort differently than when defined as integers.
 

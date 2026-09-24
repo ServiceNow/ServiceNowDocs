@@ -3,9 +3,9 @@ title: Slow queries and SQL debugging
 description: Debugging SQL and slow queries can help you resolve slowness issues in an instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-debug-sql.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Recommended practices for service providers, Domain separation for service providers, Access Management]
 ---
@@ -22,11 +22,11 @@ If you do find slow queries, try to analyze why they are slow.
 
 ## Common reasons for slow queries
 
--   A query has too many OR conditions \(for more information, see [Contains queries and domain access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-contains-domain-visibility.md)\). In the domain hierarchy, place the user or a domain at a hierarchy level where contains or visibility is not needed.
--   The query method is not the domain path query method \(for more information, see [Domain paths query method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-query-method.md)\): If you are not using the domain path query method, contact Customer Service and Support.
+-   A query has too many OR conditions \(for more information, see [Contains queries and domain access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/bp-contains-domain-visibility.md)\). In the domain hierarchy, place the user or a domain at a hierarchy level where contains or visibility is not needed.
+-   The query method is not the domain path query method \(for more information, see [Domain paths query method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/bp-domain-query-method.md)\): If you are not using the domain path query method, contact Customer Service and Support.
 -   A query needs a database to be indexed so you can see what is in the database quickly. If you can identify the slow query, run the "explain plan" to see if there are options for indexing available. The "explain plan" is a function of SQL that shows the query and what is going on with it.
 
-**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
+**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/bp-domain-sep-recommended.md)
 
 **Related topics**  
 

@@ -3,11 +3,11 @@ title: Create a scrum program
 description: Create a scrum program to plan sprints and track the progress of the multiple scrum teams that are working together.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/create-scrum-program.html
-release: australia
+release: brazil
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Scrum Programs for Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
@@ -128,6 +128,6 @@ Brief description of the program.
 
 ## What to do next
 
--   [Assign teams to a scrum program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/add-teams-to-scrum-program.md).
--   Click the **Scrum Program Board** related link to [plan your scrum program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/plan-scrum-program.md).
+-   [Assign teams to a scrum program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/add-teams-to-scrum-program.md).
+-   Click the **Scrum Program Board** related link to [plan your scrum program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/plan-scrum-program.md).
 

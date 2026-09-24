@@ -3,13 +3,13 @@ title: Create a public/private key pair for the Microsoft OneDrive external cont
 description: Generate a public/private key pair for the Microsoft OneDrive external content connector. Extract the public key as a DER-encoded binary X.509 format certificate for use in configuring API access for the connector in the Microsoft Entra admin center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/gen-cert-msod-ext-cont-connector.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Microsoft OneDrive external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -64,13 +64,13 @@ To configure public/private key pair authentication for the connector, you need 
 
     5.  When prompted for a key password, press Enter to use the same password you specified for the keystore file.
 
-        **Important:** The key must use the same password as the keystore. Record this password in a secure location. Your connector administrator needs this password when configuring the Microsoft Teams external content connector.
+        **Important:** The key must use the same password as the keystore. Record this password in a secure location. Your connector administrator needs this password when configuring the Microsoft OneDrive external content connector.
 
     The keytool utility generates a new Java KeyStore \(.jks\) file containing your public/private key pair.
 
     **Important:** Ignore the keytool warning message about migrating your keystore to the PKCS12 format. The external content connector only supports the Java KeyStore format.
 
-2.  Export your public key in DER-encoded binary X.509 certificate format by running the following keytool command, replacing `<cer-file>` with a filename of your choice and replacing `<alias>`, `<jks-file>`, and `<password>` with the same values you used in step [1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/gen-cert-msod-ext-cont-connector.md):
+2.  Export your public key in DER-encoded binary X.509 certificate format by running the following keytool command, replacing `<cer-file>` with a filename of your choice and replacing `<alias>`, `<jks-file>`, and `<password>` with the same values you used in step [1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/gen-cert-msod-ext-cont-connector.md):
 
     ```
     keytool -export -alias <alias> -file <cer-file>.cer -keystore <jks-file>.jks -storepass "<password>" -storetype JKS
@@ -105,7 +105,7 @@ DER-encoded binary X.509 format public key certificate file
 
 </td><td>
 
-Provide this certificate file to your Microsoft OneDrive administrator. They will need to upload the certificate to the Microsoft Entra admin center when configuring an OAuth 2.0 application for the Microsoft OneDrive external content connector. For more information on configuring an OAuth 2.0 application in the Microsoft Entra admin center for the Microsoft OneDrive external content connector, see [Configure Microsoft OneDrive for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-microsoft-onedrive-external-content-indexing.md).
+Provide this certificate file to your Microsoft OneDrive administrator. They will need to upload the certificate to the Microsoft Entra admin center when configuring an OAuth 2.0 application for the Microsoft OneDrive external content connector. For more information on configuring an OAuth 2.0 application in the Microsoft Entra admin center for the Microsoft OneDrive external content connector, see [Configure Microsoft OneDrive for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-microsoft-onedrive-external-content-indexing.md).
 
 </td></tr><tr><td>
 
@@ -113,8 +113,8 @@ JKS keystore file and password
 
 </td><td>
 
-Provide this Java KeyStore file and its password to your ServiceNow AI Platform admins. They will need the file and password when configuring the Microsoft OneDrive external content connector. For details on creating and configuring the Microsoft OneDrive external content connector, see [Create a Microsoft OneDrive external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-microsoft-onedrive.md).
+Provide this Java KeyStore file and its password to your ServiceNow AI Platform admins. They will need the file and password when configuring the Microsoft OneDrive external content connector. For details on creating and configuring the Microsoft OneDrive external content connector, see [Create a Microsoft OneDrive external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-ext-cont-connector-microsoft-onedrive.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Microsoft OneDrive external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/microsoft-onedrive-external-content-connector.md)
+</table>**Parent Topic:**[Microsoft OneDrive external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/microsoft-onedrive-external-content-connector.md)
 

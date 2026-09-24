@@ -3,11 +3,11 @@ title: Admin center overview for Enterprise Asset Workspace
 description: Use the Admin center view in the Enterprise Asset Workspace to perform all your configuration and administrative tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/admin-center-overview-eam.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enterprise Asset Workspace, Explore, Enterprise Asset Management, Asset Management]
 ---
@@ -34,8 +34,8 @@ Use the Admin center to perform the following tasks:
 -   Integrate with third-party shipping carriers
 -   Create a knowledge article
 -   Opt-in to Enterprise Asset Management
--   [Create failure and resolution codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/manage-failure-res-codes-eam.md)
--   [Set up the configurations to monitor the key performance indicators \(KPIs\) of the enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/configure-kpi-settings-eam.md)
+-   [Create failure and resolution codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/manage-failure-res-codes-eam.md)
+-   [Set up the configurations to monitor the key performance indicators \(KPIs\) of the enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/configure-kpi-settings-eam.md)
 
 \[Omitted image "admin-view-eam.png"\] Alt text: Admin view
 

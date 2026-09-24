@@ -3,9 +3,9 @@ title: HTTP Response Headers
 description: A response header is a simple name-value pair used in an HTTP response to provide additional information about page content or how the client should process it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/http-response-header.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Extend ServiceNow AI Platform capabilities]
 ---
@@ -65,7 +65,7 @@ If the Internet Explorer request includes the referrer URL header:
 **Related topics**  
 
 
-[Control request and response content type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_SpecifyContentType.md)
+[Control request and response content type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/c_SpecifyContentType.md)
 
 [bundle-psec.cache-control-http-header-value]
 

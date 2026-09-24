@@ -3,11 +3,11 @@ title: Identifying improvement opportunities
 description: Identify improvement opportunities in your organization and determine your improvement goal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/continual-improvement-management/cim-improvement-request.html
-release: australia
+release: brazil
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Continual Improvement Management, IT Service Management]
 ---
@@ -34,5 +34,5 @@ You can identify improvement opportunities based on feedback from cross-function
     |IT Service Management|Review ITSM regularly to identify improvement opportunities for what is not working well.|
 
 
-**Parent Topic:**[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-landing-page.md)
+**Parent Topic:**[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/continual-improvement-management/cim-landing-page.md)
 

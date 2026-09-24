@@ -2,7 +2,7 @@
 title: Provide answers to the decision table
 description: Provide subflows as answers to the conditions mentioned in the decision table. When the specified conditions are met, the associated subflow is triggered.
 locale: en-US
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

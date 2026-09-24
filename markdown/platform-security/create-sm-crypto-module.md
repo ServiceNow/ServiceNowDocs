@@ -3,9 +3,9 @@ title: Create a secret group cryptographic module
 description: Create a secret group cryptographic module to perform encryption and decryption.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/create-sm-crypto-module.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Secrets Management dashboard, Secrets Management, Platform Security]
 ---
@@ -118,5 +118,5 @@ The parent cryptographic module, which is determined by the cryptographic module
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Secrets Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/secrets-dashboard.md)
+**Parent Topic:**[Secrets Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/secrets-dashboard.md)
 

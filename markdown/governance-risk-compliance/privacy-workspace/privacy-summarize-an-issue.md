@@ -3,11 +3,11 @@ title: Use Issue summarization skill to summarize an issue
 description: Use Issue summarization skill to summarize an issue, and obtain a quick context and awareness about an issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/privacy-summarize-an-issue.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
 breadcrumb: [ServiceNow Otto for Privacy Management, Privacy Management, Governance, Risk, and Compliance]
@@ -23,7 +23,7 @@ Role required: sn\_prm\_gen\_ai.user
 
 ## About this task
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 The Issue summarization skill analyzes the issue records including the description, activity log, and remediation tasks, and generates a concise summary that captures the essential information that you need.
 

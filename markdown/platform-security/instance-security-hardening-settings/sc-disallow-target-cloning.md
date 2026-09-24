@@ -3,11 +3,11 @@ title: Disallow target cloning \[New in Security Center 1.3\]
 description: Configure the glide.db.clone.allow\_clone\_target property to prevent your instance from being used as a clone target.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-disallow-target-cloning.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuration, Hardening settings, Platform Security]
 ---
@@ -76,7 +76,7 @@ Category
 
 </td><td>
 
-[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-configuration.md)
+[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-configuration.md)
 
 </td></tr><tr><td>
 
@@ -102,8 +102,8 @@ References
 
 </td><td>
 
--   [Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-clone-landing.md)
--   [Register target instance \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateACloneTarget.md)
+-   
+-   
 
 </td></tr><tr><td>
 
@@ -114,5 +114,5 @@ Functional impact
 This property provides an additional safeguard which prevents a production instance from being cloned to. The default value is false for production instances and true for sub production instances such as dev or qa. To enable an instance to be used as a clone target set this property to true.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-configuration.md)
+</table>**Parent Topic:**[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-configuration.md)
 

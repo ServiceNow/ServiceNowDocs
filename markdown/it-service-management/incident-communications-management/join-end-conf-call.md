@@ -3,11 +3,11 @@ title: Join or end conference call on incident communication task
 description: After a conference call is initiated, join the call to participate in the discussion or end the call when the conference is no longer required.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-communications-management/join-end-conf-call.html
-release: australia
+release: brazil
 product: Incident Communications Management
 classification: incident-communications-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing Incident Communications, Incident Communications Management, IT Service Management]
 ---
@@ -35,15 +35,15 @@ Role required:
 
 5.  In the related links, perform any of the following actions.
 
-<table id="choicetable_qdq_fjq_thb"><thead><tr><th align="left" id="d206993e92">
+<table id="choicetable_qdq_fjq_thb"><thead><tr><th align="left" id="d209516e92">
 
 Option
 
-</th><th align="left" id="d206993e95">
+</th><th align="left" id="d209516e95">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d206993e101">
+</th></tr></thead><tbody><tr><td id="d209516e101">
 
 **Join Conference Call**
 
@@ -51,7 +51,7 @@ Description
 
 If the logged in user is not already a part of the conference call, the user can join the conference.
 
-</td></tr><tr><td id="d206993e110">
+</td></tr><tr><td id="d209516e110">
 
 **End Conference Call**
 
@@ -61,5 +61,5 @@ End the conference when the discussion is over.**Note:** The work notes get upda
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Managing Incident Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-communications-management/working-with-inci-comm-mgmt.md)
+**Parent Topic:**[Managing Incident Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-communications-management/working-with-inci-comm-mgmt.md)
 

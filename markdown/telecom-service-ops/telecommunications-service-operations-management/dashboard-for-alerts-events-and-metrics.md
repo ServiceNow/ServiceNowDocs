@@ -3,11 +3,11 @@ title: SD-WAN Inventory Dashboard
 description: The SD-WAN Inventory Dashboard provides a visual summary of your SD-WAN network inventory, including total customers, sites, devices, and models, with breakdowns by device model and class.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/dashboard-for-alerts-events-and-metrics.html
-release: australia
+release: brazil
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Fault Management: Events and alerts, Telecom Assurance, Explore, Telecommunications Service Operations Management]
 ---

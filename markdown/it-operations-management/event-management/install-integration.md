@@ -3,7 +3,7 @@ title: Install integrations
 description: Access Integrations Launchpad to configure and install integrations for Event Management monitoring tools.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/install-integration.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
@@ -37,7 +37,7 @@ Role required: evt\_mgmt\_admin or evt\_team\_operator
 
     The Integrations Launchpad page opens.
 
-5.  Follow the steps in [Integrations Launchpad in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/integrations-launchpad.md) that apply to your integration installation.
+5.  Follow the steps in [Integrations Launchpad in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/integrations-launchpad.md) that apply to your integration installation.
 
 6.  To complete the setup, select **Mark as configured**.
 

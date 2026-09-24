@@ -3,11 +3,11 @@ title: Create a new variable for a policy version
 description: Create an API Variable, Config Parameter, or Record Reference for the policy version in the Define Variables section of the Policy Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-create-variable-policy-version.html
-release: australia
+release: brazil
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Passing parameters to PaCE policies, Administer PaCE policies, Policy as Code Engine \(PaCE\), Extend ServiceNow AI Platform capabilities]
 ---
@@ -87,7 +87,7 @@ Drop-down list of input types:-   Basic Date/Time
 -   String
 -   Sys ID \(GUID\)
 -   True/False
-Depending on the input you choose, the Advanced Options provides different fields for some inputs. For more information, see the [Data type descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-data-type-descriptions.md) topic.
+Depending on the input you choose, the Advanced Options provides different fields for some inputs. For more information, see the [Data type descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/policy-as-code-engine-pace/pace-data-type-descriptions.md) topic.
 
 **Note:** The list only shows the most common used data types.
 
@@ -139,7 +139,7 @@ A match criteria for your record reference. Choices are as follows.-   Select fi
 -   Error on multiple
 When you create a Record Reference, it will query multiple answers. The match criteria enables you to filter out the match by selecting the first match or return an error if there are multiple answers.
 
-**Note:** This field will only show up in the Record Reference variable form with the qualifier condition fields. For more information about condition fields, see [Policy logic condition fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-policy-logic-fields.md).
+**Note:** This field will only show up in the Record Reference variable form with the qualifier condition fields. For more information about condition fields, see [Policy logic condition fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/policy-as-code-engine-pace/pace-policy-logic-fields.md).
 
 </td></tr></tbody>
 </table>4.  Select **Save**.

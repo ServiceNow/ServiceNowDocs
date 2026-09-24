@@ -1,31 +1,36 @@
 ---
 title: Managing app development using the App Engine Management Center
-description: Track and manage requests, deployments, applications, and collaborative developers for your custom applications using the App Engine Management Center \(AEMC\) in your production instance.
+description: Track and manage requests for new applications, collaboration requests, and insights into developer contributions and custom app production across your organization. You can also assign Developer Sandboxes licenses to managed instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/managing-app-development-using-aemc.html
-release: australia
+release: brazil
 product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, App Engine Management Center, Governing app development, Building applications]
 ---
 
 # Managing app development using the App Engine Management Center
 
-Track and manage requests, deployments, applications, and collaborative developers for your custom applications using the App Engine Management Center \(AEMC\) in your production instance.
+Track and manage requests for new applications, collaboration requests, and insights into developer contributions and custom app production across your organization. You can also assign Developer Sandboxes licenses to managed instances.
 
-You can use AEMC to manage app development for your organization, including reviewing intake, collaboration, and deployment requests. You can also use AEMC to view insights about custom app usage for your organization.
+Use AEMC from your production instance to manage app development across your organization, including:
 
--   **[AEMC features access and benefits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/aemc-feature-access-benefits.md)**  
-Learn about available features and access requirements for AEMC.
--   **[Managing requests using AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/manage-aemc-requests.md)**  
-You can track and approve or reject Intake, App,Collaboration, and Deployment requests using the App Engine Management Center \(AEMC\).
--   **[Managing custom apps using AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/manage-custom-apps-using-aemc.md)**  
+-   Intake requests
+-   App requests
+-   Collaboration requests
+-   Developer Sandboxes licenses
+-   Custom app production and usage
+-   Developer contributions and insights
+
+-   **[Managing requests using AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/manage-aemc-requests.md)**  
+You can track and approve or reject app intake and collaboration using the App Engine Management Center \(AEMC\).
+-   **[Manage custom apps using AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/manage-custom-apps-using-aemc.md)**  
 Review custom app metrics and manage apps through the development life cycle using the App Engine Management Center \(AEMC\).
--   **[Managing developers using AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/manage-developers-using-aemc.md)**  
+-   **[Managing developers using AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/manage-developers-using-aemc.md)**  
 View details about developers working on apps in App Engine Studio and Creator Studio using App Engine Management Center \(AEMC\).
 
-**Parent Topic:**[Using AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/using-aemc.md)
+**Parent Topic:**[Using AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/using-aemc.md)
 

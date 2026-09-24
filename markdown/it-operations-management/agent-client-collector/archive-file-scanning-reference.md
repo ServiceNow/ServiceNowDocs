@@ -3,11 +3,11 @@ title: Archive file scanning filtering rules and limits
 description: Reference information for the filtering rules and performance safeguards that apply when Agent Client Collector for Visibility Content scans ZIP and JAR archive files during File-Based Discovery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/archive-file-scanning-reference.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-06-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [archive file scanning, File-Based Discovery, ZIP, JAR, agent client collector, ACC-VC]
 breadcrumb: [ACC-VC reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
@@ -44,5 +44,5 @@ The following limits are enforced to prevent archive scanning from affecting age
 |Nested archives \(archive inside an archive\)|Not applicable|Not scanned. Only top-level archives on disk are inspected|
 |Global file limit \(**maxFiles**\)|Configured per policy|Archive entries count toward the global file limit; scanning stops when the limit is reached|
 
-**Parent Topic:**[Agent Client Collector for Visibility Content reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.md)
+**Parent Topic:**[Agent Client Collector for Visibility Content reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.md)
 

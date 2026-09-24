@@ -3,11 +3,11 @@ title: Column layouts
 description: Column layouts are used to design and organize UI Builder pages.Add a column layout in UI Builder to build structure and organize components on an experience page.Configure column layouts in UI Builder to add the appropriate number of columns and the look you want on an experience page.In UI Builder, if a column contains multiple components, set the gap between the components.Set advanced column layout options in UI Builder including stack width and column layout height.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/column-layout.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 breadcrumb: [Organize components in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -28,7 +28,7 @@ You can configure the column layout as a whole and the individual columns within
 
 **Note:** Currently, hiding/showing columns in a column layout based on conditions isn't supported.
 
-**Parent Topic:**[Organize components in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-layouts.md)
+**Parent Topic:**[Organize components in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-layouts.md)
 
 ## Add a column layout
 
@@ -44,9 +44,9 @@ Role required: ui\_builder\_admin
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
-3.  [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md) or open a page.
+3.  [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-page.md) or open a page.
 
 4.  Select **+ Add content** in the content tree.
 
@@ -54,7 +54,7 @@ Role required: ui\_builder\_admin
 
     \[Omitted image "nav-toolbox-layouts.png"\] Alt text: Floating component menu in UI Builder with layouts tab displayed listing the basic column layout options.
 
-    The column layout appears on the stage so you can add components to the columns. See [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-components.md) for more information.\[Omitted image "column-layout-on-stage.png"\] Alt text: Column layout with three empty columns.
+    The column layout appears on the stage so you can add components to the columns. See [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/add-components.md) for more information.\[Omitted image "column-layout-on-stage.png"\] Alt text: Column layout with three empty columns.
 
 6.  Add additional column layouts above or below.
 
@@ -81,11 +81,11 @@ Role required: ui\_builder\_admin
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
-3.  [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md) or open a page.
+3.  [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-page.md) or open a page.
 
-4.  If the page doesn't already contain a column layout, [Add a column layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/column-layout.md).
+4.  If the page doesn't already contain a column layout, [Add a column layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/column-layout.md).
 
 5.  Add \(up to a maximum of six\) columns using the content tree, the stage, or the configuration panel.
 
@@ -161,7 +161,7 @@ Role required: ui\_builder\_admin
     -   In the content tree, select and hold \(or right-click\) on a column name or select the Menu icon for a column, and then select **Delete column** from the list.
     -   On the stage, select a single column, select the Menu icon next to the column name, and then select **Delete column** from the list.
     -   In the content tree, select a column layout and then in the configuration panel use the - minus icon next to **Columns** to remove columns from the right side of the column layout.
-    For information about editing column spacing, see [Set the gap between components in columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/column-layout.md).
+    For information about editing column spacing, see [Set the gap between components in columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/column-layout.md).
 
 
 ## Set the gap between components in columns
@@ -178,11 +178,11 @@ Role required: ui\_builder\_admin
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
-3.  [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md) or open a page.
+3.  [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-page.md) or open a page.
 
-4.  If the page doesn't already contain a column layout, [Add a column layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/column-layout.md).
+4.  If the page doesn't already contain a column layout, [Add a column layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/column-layout.md).
 
 5.  Within a single column, add two components
 
@@ -231,11 +231,11 @@ Role required: ui\_builder\_admin
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
-3.  [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md) or open a page.
+3.  [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-page.md) or open a page.
 
-4.  If the page doesn't already contain a column layout, [Add a column layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/column-layout.md).
+4.  If the page doesn't already contain a column layout, [Add a column layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/column-layout.md).
 
 5.  Select a column layout containing two or more columns in the content tree.
 

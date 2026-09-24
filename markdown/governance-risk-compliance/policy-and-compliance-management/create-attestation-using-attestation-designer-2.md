@@ -3,11 +3,11 @@ title: Manage control attestations
 description: Attestations are surveys that gather evidence to prove that a control is implemented. Attestations document how the control is measured. This method is frequently used during the Draft and Monitor state.Use the Attestation Designer to create and edit metric types. Use different metric types for different controls. Select multiple respondents for an attestation, as well as change scoring parameters.Rather than using the default GRC attestation type, the compliance manager can create a new set of questions for each control objective.Policy and Compliance Management and Risk Management offer two methods for consolidating attestations and risk assessments into groups that help eliminate the task of providing repetitive responses for similar assessments. You can provide the same evidence to the grouped assessments or respond to individual assessments in the same user interface.Policy and Compliance Management and Risk Management offer two methods for consolidating attestations and risk assessments into groups that help eliminate the task of providing repetitive responses for similar assessments. You can provide the same evidence to the grouped assessments or respond to individual assessments in the same user interface.You can optionally define additional grouping criteria if the default criteria does not meet your needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/create-attestation-using-attestation-designer-2.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 breadcrumb: [Mandatory setup, Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,7 @@ Attestations are surveys that gather evidence to prove that a control is impleme
 
 The attestation designer provides a single interface that users can use to create and edit attestations, as well as change scoring parameters. The question bank offers a library of questions for various categories, so you do not have to build each questionnaire from scratch.
 
-**Note:** To know more about control attestations, see [An overview of policy life cycle in Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/pc-policy-life-cycle-ovrvw.md).
+**Note:** To know more about control attestations, see [An overview of policy life cycle in Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/pc-policy-life-cycle-ovrvw.md).
 
 Users can create multiple attestation types and set their control objectives to different attestations. A sample attestation called **GRC Attestation** is also provided as the default attestation, which is composed of the following simple questions:
 
@@ -34,9 +34,9 @@ By default, **GRC Attestation** is used for controls and provides the following 
 
 **All Attestations** is contained in the **Controls** section of the Policy and Compliance application and contains all active attestations.
 
-Compliance managers can create attestation types containing different types of questions to fit their needs. See [Create a control attestation using the Attestation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/c_Attestations.md).
+Compliance managers can create attestation types containing different types of questions to fit their needs. See [Create a control attestation using the Attestation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/c_Attestations.md).
 
-Compliance managers can create a new set of questions for each control objective. The Question Bank offers a library of questions for various categories, so you do not have to build each questionnaire from scratch. See [Create an attestation type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/c_Attestations.md).
+Compliance managers can create a new set of questions for each control objective. The Question Bank offers a library of questions for various categories, so you do not have to build each questionnaire from scratch. See [Create an attestation type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/c_Attestations.md).
 
 ## Attestation Designer
 
@@ -44,7 +44,7 @@ The attestation designer provides a single interface that users can use to creat
 
 All attestation records are stored in assessment tables and displayed in Attestation views of those tables.
 
-**Parent Topic:**[Classic UI for Policy and Control Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/using-policy-compliance-legacy-ui.md)
+**Parent Topic:**[Classic UI for Policy and Control Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/using-policy-compliance-legacy-ui.md)
 
 ## Create a control attestation using the Attestation Designer
 
@@ -246,9 +246,9 @@ N
 
 ### What to do next
 
-If you are implementing the [Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/policy-compliance-impl-checklist.md) software, return to the [Policy and Compliance Management setup checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/policy-compliance-impl-checklist.md) and proceed to the next step.
+If you are implementing the [Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/policy-compliance-impl-checklist.md) software, return to the [Policy and Compliance Management setup checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/policy-compliance-impl-checklist.md) and proceed to the next step.
 
-**Parent Topic:**[Policy and Compliance Management mandatory setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/policy-compliance-mandatory-setup.md)
+**Parent Topic:**[Policy and Compliance Management mandatory setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/policy-compliance-mandatory-setup.md)
 
 ## Create an attestation type
 
@@ -336,7 +336,7 @@ Additional criteria
 You can optionally define additional grouping criteria:-   Category
 -   Control Objective/Risk Statement
 -   Entity
- You can also [define additional assessment criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/c_Attestations.md) options if the defaults do not meet your needs.
+ You can also [define additional assessment criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/c_Attestations.md) options if the defaults do not meet your needs.
 
  **Note:** Using these grouping schemes makes sense if the grouped attestations contain multiple instances of the selected criteria. For example, if you selected a group of 20 attestations with 10 associated with one entity and the other 10 associated with a different entity, selecting **Entity** in this field causes two separate groups of attestations to be created. If, however, the group consists of 5 attestations associated with one entity and each of the other 15 attestations associated with different entities, only those 5 are grouped and the rest are ignored.
 
@@ -419,7 +419,7 @@ Additional criteria
 You can optionally define additional grouping criteria:-   Category
 -   Control Objective/Risk Statement
 -   Entity
- You can also [define additional assessment criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/c_Attestations.md) options if the defaults do not meet your needs.
+ You can also [define additional assessment criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/c_Attestations.md) options if the defaults do not meet your needs.
 
  **Note:** Using these grouping schemes makes sense if the grouped attestations contain multiple instances of the selected criteria. For example, if you selected a group of 20 attestations with 10 associated with one entity and the other 10 associated with a different entity, selecting **Entity** in this field causes two separate groups of attestations to be created. If, however, the group consists of 5 attestations associated with one entity and each of the other 15 attestations associated with different entities, only those 5 are grouped and the rest are ignored.
 

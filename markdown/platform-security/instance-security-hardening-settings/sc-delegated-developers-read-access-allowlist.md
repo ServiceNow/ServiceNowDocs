@@ -3,11 +3,11 @@ title: Restrict delegated developers read access \[Updated in Security Center 1.
 description: If com.glide.dd\_allow\_global\_access\_tables does not contain the recommended value of wf\_activity, wf\_activity\_definition, wf\_workflow, wf\_workflow\_version, sp\_portal, sp\_widget, and sp\_page, then those tables could be read by a delegated developer. This could provide the delegated developer read access to sensitive information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-delegated-developers-read-access-allowlist.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
@@ -72,7 +72,7 @@ Category
 
 </td><td>
 
-[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -85,5 +85,5 @@ Security risk
 -   Security risk details: Ensure that **com.glide.dd\_allow\_global\_access\_tables** is set to wf\_activity, wf\_activity\_definition, wf\_workflow, wf\_workflow\_version, sp\_portal, sp\_widget, sp\_page.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
+</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

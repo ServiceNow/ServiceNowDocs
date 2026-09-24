@@ -3,13 +3,13 @@ title: Delete a section from the Desktop Assistant home page
 description: Delete a section from the Desktop Assistant home page when you no longer need it in.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/delete-home-page-section.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up Desktop Assistant, Configure, Digital End-User Experience, IT Service Management]
+breadcrumb: [Setting up Desktop Assistant, Configure, Digital End-User Experience, IT Service Management]
 ---
 
 # Delete a section from the Desktop Assistant home page

@@ -3,13 +3,13 @@ title: Source parts for an Enterprise Asset Management work order or work order 
 description: If the enterprise asset that is associated with your work order or work order task is missing any required assets or parts, source them using a catalog request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/source-parts-eam-work-order.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Managing work for your enterprise assets, Managing work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
+breadcrumb: [Managing work for your enterprise assets, Manage work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Source parts for an Enterprise Asset Management work order or work order task
@@ -24,7 +24,7 @@ Role required: sn\_eam.enterprise\_asset\_manager or wm\_agent
 
 ## About this task
 
-You can verify which assets or parts are missing using the **Part Requirements** tab on the work order or work order task. For more information on part requirements, see [Create a part requirement for an Enterprise Asset Management work order or work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-part-requirement-eam-work-order.md).
+You can verify which assets or parts are missing using the **Part Requirements** tab on the work order or work order task. For more information on part requirements, see [Create a part requirement for an Enterprise Asset Management work order or work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-part-requirement-eam-work-order.md).
 
 You can specify parts requirements that you want to source instead of sourcing all parts requirements.
 
@@ -89,5 +89,5 @@ You can specify parts requirements that you want to source instead of sourcing a
     The dialog box closes and you automatically return to the catalog request record.
 
 
-**Parent Topic:**[Managing work for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-work-enterprise-assets.md)
+**Parent Topic:**[Managing work for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/managing-work-enterprise-assets.md)
 

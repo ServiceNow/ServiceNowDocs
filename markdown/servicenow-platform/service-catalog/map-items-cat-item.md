@@ -3,11 +3,11 @@ title: Specify related items and articles for a catalog item
 description: Specify related items and articles for a catalog item to provide alternatives and additional information. These items and articles are displayed in the catalog item page in Service Portal and Now Mobile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/map-items-cat-item.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -53,13 +53,13 @@ You cannot specify these types of items as related items for a catalog item.
 
     3.  Click the up or down icon to arrange items in the required order and click **Save**.
 
-    **Note:** In Service Portal, use the instance options to configure the number of articles and items shown in the **Related Articles** and **Related Items** section. See [Configure related catalog item widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configure-related-items-widget.md) or [Configure knowledge related articles widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configure-related-articles-widget.md).
+    **Note:** In Service Portal, use the instance options to configure the number of articles and items shown in the **Related Articles** and **Related Items** section. See [Configure related catalog item widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/configure-related-items-widget.md) or [Configure knowledge related articles widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/configure-related-articles-widget.md).
 
 
-**Parent Topic:**[Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_IntroductionToCatalogItems.md)
+**Parent Topic:**[Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/c_IntroductionToCatalogItems.md)
 
 **Related topics**  
 
 
-[Map related articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/map-related-articles.md)
+[Map related articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/map-related-articles.md)
 

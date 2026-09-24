@@ -3,7 +3,7 @@ title: Review and score a grant proposal using the Reviewer Service Portal
 description: As a Merit Reviewer, you can review grant proposals for feasibility, impact, and alignment with the grant program's goals. Reviewers can then score proposals as part of the evaluation stage of the Public Sector Digital Services Grants Management using the Reviewer Service portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-gmp-merit-review-score-application.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

@@ -3,9 +3,9 @@ title: Create a model to predict similar cases
 description: Test and edit the pre-trained similar cases model for predicting similarity in customer service cases and create a model for custom cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-a-model-to-predict-similar-cases.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Task Intelligence for Customer Service, Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -25,7 +25,7 @@ Test and edit the pre-trained similar cases model for predicting similarity in c
     -   Major Case identifier
     -   Similar Open Cases
     -   Similar Resolved Cases
-    To get recommendations for a major case identifier that includes propose major cases and similar major cases, install the [Major Issue Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/major-issue-management-application.md) application and activate the feature as needed to get recommendations. When you install the Task Intelligence for CSM plugin in your production instance, the plugin automatically installs and trains the similar open cases, similar resolved cases, and major case identifier models using your data. These models are then auto-deployed. The similar open case and similar resolved case models show predictions on recommended actions on case form. However, recommendations aren’t enabled for the major case identifier model in the base system.
+    To get recommendations for a major case identifier that includes propose major cases and similar major cases, install the major issue management plugin. Activate the feature as needed to get recommendations. When you install the Task Intelligence for CSM plugin in your production instance, the plugin automatically installs and trains three models using your data: similar open cases, similar resolved cases, and major case identifier. These models are then auto-deployed. The similar open case and similar resolved case models show predictions on recommended actions on case form. However, recommendations aren’t enabled for the major case identifier model in the base system.
 
 
 ## Steps to activate Major Case identifier recommendation
@@ -66,7 +66,7 @@ To enable **Suggested Actions** feature in the Recommended Actions component, fo
 4.  Navigate to **Record** under **Pages and variants**.
 5.  Select **Front-line Case page**.
 
-    **Note:** Verify that you're in the accurate scope to be able to edit.
+    **Note:** Verify that you are in the accurate scope to be able to edit.
 
 6.  Select **Recommended Actions 1** under the Tabs.
 7.  In the Configure tab, turn off the toggle for **Hide recommended actions**.
@@ -85,5 +85,5 @@ By following these steps, you successfully activate the Recommended Actions feat
 
 Result: On opening a case, the recommendations section with two tabs: Search and Suggested Actions is displayed. The recommendations are displayed under Suggested Actions.
 
-Find out how to [Create a custom similar case model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-a-custom-similar-case-model.md), [Edit a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/edit-a-case-prediction-model.md), and [Export a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/export-a-task-intelligence-model.md)
+Find out how to [Create a custom similar case model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-a-custom-similar-case-model.md), [Edit a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/edit-a-case-prediction-model.md), and [Export a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/export-a-task-intelligence-model.md)
 

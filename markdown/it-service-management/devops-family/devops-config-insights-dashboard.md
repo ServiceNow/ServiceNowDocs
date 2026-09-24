@@ -3,11 +3,11 @@ title: Analytics and reporting using the DevOps Config Insights dashboard
 description: Use the DevOps Config Insights dashboard with Performance Analytics to quickly identify configuration errors and take action. View snapshot validation trend, open changesets, and failed snaphots for all applications and deployables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/devops-config-insights-dashboard.html
-release: australia
+release: brazil
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [DevOps Config, IT Service Management]
 ---

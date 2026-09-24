@@ -3,12 +3,12 @@ title: Use AI Data Kit features in AI Admin Center
 description: Use AI Data Kit on the data page in the AI Admin Center workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-use-data-kit-features.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Using other AI applications from AI Admin Center, Setting up AI capabilities and configurations, AI Admin Center, Enable AI experiences]
+breadcrumb: [Using other AI applications from AI Admin Center, Setting up AI capabilities and configurations, AI Admin Center, Getting started with AI, Enable AI Experiences]
 ---
 
 # Use AI Data Kit features in AI Admin Center
@@ -21,11 +21,11 @@ The following applications must be installed before performing this task:
 
 -   AI Admin Center.
 
-    For more information, see [Confirm installation of AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-install.md).
+    For more information, see [Confirm installation of AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-install.md).
 
 -   AI Data Kit.
 
-    For more information, see [Install and configure essential AI plugins using AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-configure-essential-now-assist-plugins.md).
+    For more information, see [Install and configure essential AI plugins using AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-configure-essential-now-assist-plugins.md).
 
 
 Role required: sn\_na\_center.nac\_admin
@@ -50,6 +50,6 @@ In AI Admin Center, the integration of AI Data Kit includes multi-tabbing suppor
 
     Each action you take will open in a new tab in the AI Admin Center workspace.
 
-    For more information on AI Data Kit, see [AI Data Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-kit/now-assist-data-kit-landing.md).
+    For more information on AI Data Kit, see [AI Data Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-data-kit/now-assist-data-kit-landing.md).
 
 

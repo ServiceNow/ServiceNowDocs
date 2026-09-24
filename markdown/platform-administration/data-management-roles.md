@@ -3,9 +3,9 @@ title: Data Management roles
 description: Data Management includes the following roles.The data\_mgmt\_tools\_admin role is a granular admin role designed to provide more targeted permissions for data management tasks, reducing the need to grant full admin access.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/data-management-roles.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -14,9 +14,9 @@ breadcrumb: [Reference, Data Management, Tables and data, Configure core feature
 
 Data Management includes the following roles.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
-**Parent Topic:**[Data Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/data-management-reference.md)
+**Parent Topic:**[Data Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/data-management-reference.md)
 
 ## Data Management tools admin \[data\_mgt\_tools\_admin\]
 

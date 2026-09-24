@@ -3,11 +3,11 @@ title: Manage version
 description: Manage the version of the model providers across skills and instance levels. You can change and update versions for the out-of-box and custom skills.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/manage-version.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2025-10-24"
+last_updated: "2026-09-16"
 reading_time_minutes: 3
-breadcrumb: [Manage AI models, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Manage AI models, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Manage version
@@ -16,33 +16,37 @@ Manage the version of the model providers across skills and instance levels. You
 
 ## Before you begin
 
+Confirm that network access to the provider endpoint is allowed by your instance's proxy or firewall rules.
+
 Role required: admin
 
-See [Default and target model version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/default-and-target-model-model-version.md) to know more about default and target model versions.
+## About this task
+
+To learn more about default and target model versions, see [Default and target model version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/default-and-target-model-model-version.md).
+
+**Note:** Confirm that the model name you enter exactly matches the name configured in your external provider's console. A mismatch may cause the provider configuration to fail.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Admin Hub**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Settings**.
 
-2.  Navigate to **Settings** &gt; **Manage AI models**.
+2.  Select **Manage AI models** &gt; **Manage model version**.
 
-3.  Select **Manage model version**.
+3.  On the **Overview** tab, review the summary of the active, deprecated, retiring model versions, and recommended actions, providing effective version management system to the admins.
 
-4.  View the summary of the active, deprecated, retiring model versions, and recommended actions, providing effective version management system to the admins.
+    **Note:** Model versions in the following states aren't available for selection: deprecated, retired, in review, rejected.
 
-    **Note:** A model version will not be available for selection as target model version, if it is in deprecated, retired, in review or rejected state.
-
-5.  Identify your use case and key factors to choose the model that best fits your needs.
+4.  Identify your use case and key factors to choose the model that best fits your needs.
 
     \[Omitted image "na-admin-manage-versions-instance.png"\] Alt text: Manage model versions
 
-6.  View or update the model version instantly under the **Overview** tab.
+5.  View or update the model version instantly under the **Overview** tab.
 
-7.  Edit the model provider version for out-of-box or custom skills for the instance.
+6.  Edit the model provider version for out-of-box or custom skills for the instance.
 
     Customize it to update it at the skill or skill group level, under the respective tabs. Customizing the model version for skills replaces the instance-level model version currently assigned to each provider. This action is typically reserved for specific situations.
 
-8.  Select **Instance level configuration** to manage the model provider version for the skill across the instance.
+7.  Select **Instance level configuration** to manage the model provider version for the skill across the instance.
 
     \[Omitted image "na-admin-manage-versions-instance-level.png"\] Alt text: Manage version at instance level
 
@@ -62,7 +66,7 @@ See [Default and target model version](https://raw.githubusercontent.com/Service
 
     4.  Select **Update model version** to override ServiceNow shipped mappings or create a default and target model versions mapping.
 
-9.  Select **Skills** to manage the model provider version at the skill level.
+8.  Select **Skills** to manage the model provider version at the skill level.
 
     \[Omitted image "na-admin-manage-versions-skill-level.png"\] Alt text: Manage version at skill level
 
@@ -86,5 +90,5 @@ This program aims to provide an opportunity for the user to explore and experime
 -   The preview models are enabled to provide early access to custom skill users as soon as the new models are available.
 -   The admin can choose to opt-in or out of the program. A toggle is presented in AI control tower allowing the user to opt in to the preview program. The toggle defaults to off.
 
-**Parent Topic:**[Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md)
+**Parent Topic:**[Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/manage-large-language-models.md)
 

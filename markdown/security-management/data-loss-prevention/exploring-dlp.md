@@ -3,11 +3,11 @@ title: Exploring Data Loss Prevention Incident Response
 description: Explore Data Loss Prevention Incident Response application to learn how to manage sensitive information for your customers, such as the financial and proprietary data, health records, or social security numbers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/exploring-dlp.html
-release: australia
+release: brazil
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -29,8 +29,8 @@ By using the Data Loss Prevention Incident Response application, your organizati
 
 Use this section to learn about the key features, various roles involved in working with DLP incidents.
 
--   **[DLP Incident Response overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/understanding-data-loss-prevention.md)**  
+-   **[DLP Incident Response overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/understanding-data-loss-prevention.md)**  
 Learn how you can use the ServiceNow AI Platform and the Data Loss Prevention Incident Response \(DLP IR\) application. Manage sensitive information for your customers, such as the financial and proprietary data, health records, or social security numbers. Automate the remediation workflows with the DLP Incident Response application.
--   **[Get started with DLP Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/get-started-with-dlp.md)**  
+-   **[Get started with DLP Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/get-started-with-dlp.md)**  
 Review the following information before you start setting up your Data Loss Prevention Incident Response \(DLP IR\) application.
 

@@ -3,9 +3,9 @@ title: Explicit Roles in CSM
 description: You can give both internal users and external users access to your instance. However, you might not want both types of users to have the same level of access. To provide added security, every user must have at least one role so that the instance can distinguish between internal and external users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/explicit-roles-in-csm.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Roles installed with Customer Service Management, Components installed with Customer Service Management, Reference, Customer Service Management]
 ---
@@ -16,7 +16,7 @@ You can give both internal users and external users access to your instance. How
 
 As of the Paris release, no user can have both of the explicit roles \(snc\_internal and snc\_external\). Groups and role containment cannot include both roles, either, since that would cause any group member or user who is assigned to such a group or such a role to automatically have both roles. The ServiceNow AI Platform aborts any operation that would create such a scenario.
 
-External users must obtain, at minimum, the snc\_external role. The snc\_external role indicates that the user is external to your organization. They should not have any access to resources unless explicitly allowed through ACLs for the snc\_external role or additional roles that inherit the snc\_external role. By default, users with the snc\_external role cannot access:
+External users must obtain, at minimum, the snc\_external role. The snc\_external role indicates that the user is external to your organization. They should not have any access to resources unless explicitly allowed through ACLs for the snc\_external role or additional roles that inherit the snc\_external role. By default, users with the snc\_external role can't access:
 
 -   Tables without the role that inherits the snc\_external role or the public role.
 -   Non-record type resources, such as processors and UI pages without granting access to the snc\_external role or a role that inherits the snc\_external role.
@@ -30,7 +30,7 @@ Customers \(external users\) using the Customer Service Management application s
 
 ## Explicit Roles plugin
 
-The Customer Service plugin \(com.sn\_customerservice\) activates the Explicit Roles plugin \(com.glide.explicit\_roles\), which adds the snc\_external and snc\_internal roles. When the plugin is activated:
+The Case Management Core plugin \(com.sn\_customerservice\) activates the Explicit Roles plugin \(com.glide.explicit\_roles\), which adds the snc\_external and snc\_internal roles. When the plugin is activated:
 
 -   All users must have either the snc\_internal role to access internal resources or the snc\_external role to access external resources.
 -   All existing users are automatically assigned the snc\_internal role. This role does not change existing access levels or system behavior. Instead, it provides a category to differentiate internal users from external users. All internal users maintain the same level of access as before the plugin was activated.
@@ -52,19 +52,19 @@ The Customer Service plugin \(com.sn\_customerservice\) activates the Explicit R
 -   To restrict access to processors to internal users, the plugin automatically assigns the snc\_internal role to the **\*** ACL with a **Type** of **processor**.
 -   External users must obtain, at minimum, the snc\_external role to access the instance. This role is automatically assigned to external Customer Service Portal contacts. If the Customer Service Portal is not activated, this role must be manually granted to external users'. Access to records is granted through ACLs.
 
-    **Note:** You can use the `isPublic()` function in scripts for Customer Service Portal to change the privacy setting for a single client-callable script include. For more detail, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md).
+    **Note:** You can use the `isPublic()` function in scripts for Customer Service Portal to change the privacy setting for a single client-callable script include. For more detail, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/c_ScriptIncludes.md).
 
--   [Content Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ContentManagementSystem.md) site access is also affected. CMS is set up with Sites \(content\_site\), Pages \(content\_page\), and other resources. Some of the sites may have the **Login page** configured.
+-   [Content Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ContentManagementSystem.md) site access is also affected. CMS is set up with Sites \(content\_site\), Pages \(content\_page\), and other resources. Some of the sites may have the **Login page** configured.
     -   If CMS sites do not have the **Login page** configured, the public role is automatically added to the **Read Roles** field on Pages \(content\_page\) if the field is empty.
     -   If CMS sites have the **Login page** configured, the snc\_internal role is automatically added to the **Read Roles** field on Pages \(content\_page\) if the field is empty.
--   [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ServicePortal.md) site access is also affected.
+-   [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ServicePortal.md) site access is also affected.
 
-    The snc\_internal role is not automatically added to sp\_page, sp\_widget or sp\_instance records. If desired, you can give new records the role by assigning snc\_internal as a default value in the **Roles** field for these records. For details on this process see [Specify a default field value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_SpecifyingADefaultValue.md).
+    The snc\_internal role is not automatically added to sp\_page, sp\_widget or sp\_instance records. If desired, you can give new records the role by assigning snc\_internal as a default value in the **Roles** field for these records. For details on this process see [Specify a default field value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_SpecifyingADefaultValue.md).
 
 
-Do not move [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets.md) among instances with and without the Explicit Roles plugin enabled.
+Do not move [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/system-update-sets.md) among instances with and without the Explicit Roles plugin enabled.
 
-**Note:** This plugin also requires the [Contextual Security Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_ContextualSecurity.md) plugin.
+**Note:** This plugin also requires the [Contextual Security Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_ContextualSecurity.md) plugin.
 
 ## The glide.security.explicit\_roles.internal\_user\_blacklist property
 
@@ -80,7 +80,7 @@ For the Paris release, this property is enabled by default for zBoot instances a
 
 ## Providing table access to external users
 
-You can provide external users access to a table by adding a role to the table that inherits the snc\_external role. For more information, see [Provide external users access to a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ProvideExternalUsersAccessToTables.md).
+You can provide external users access to a table by adding a role to the table that inherits the snc\_external role. For more information, see [Provide external users access to a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/t_ProvideExternalUsersAccessToTables.md).
 
 ## The hasRoles\(\) method
 
@@ -360,5 +360,5 @@ For indirect cases,such as adding an explicit role to a group \(so that a group 
 
 Note that the ServiceNow AI Platform reports only the first potential collision encountered. If repeated attempts continue to fail after remediation, with a new root cause each time, re-evaluate the relevant user/group/role interdependence more broadly. You may want to rethink how groups and role containments are structured.
 
-**Parent Topic:**[Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md)
+**Parent Topic:**[Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md)
 

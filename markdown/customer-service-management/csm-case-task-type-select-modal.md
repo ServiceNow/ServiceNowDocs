@@ -3,9 +3,9 @@ title: Case task type selector
 description: The case task type selector is a component that provides customer service agents with a way to create the right types of tasks while working on cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-case-task-type-select-modal.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Customer service case types, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -87,11 +87,11 @@ Select **Create Task** in the activity viewer
 The **Service** field is auto-filled with the case service. The **Case task service** field lists the task services related to the case service.
 
 </td></tr></tbody>
-</table>Some declarative actions available with the Customer Service Case Types plugin are disabled by default. For more information, see [Configure case type declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-case-type-declarative-action.md).
+</table>Some declarative actions available with the Customer Service Case Types plugin are disabled by default. For more information, see [Configure case type declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/config-case-type-declarative-action.md).
 
 ## Configuring service definitions for cases and case tasks
 
-The system administrator creates the [service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-service-definitions.md) for cases and case tasks, along with their relationships. The service definition manager and service definition admin can also create these service definitions and relationships.
+The system administrator creates the [service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-service-definitions.md) for cases and case tasks, along with their relationships. The service definition manager and service definition admin can also create these service definitions and relationships.
 
-For case task service definitions, the system administrator can include logic and default field values that the system uses when creating the case tasks. For more information, see [Configuring service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-service-definitions-configure.md).
+For case task service definitions, the system administrator can include logic and default field values that the system uses when creating the case tasks. For more information, see [Configuring service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-service-definitions-configure.md).
 

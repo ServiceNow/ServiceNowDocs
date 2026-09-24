@@ -3,9 +3,9 @@ title: Change the order of survey questions
 description: You can easily reorder survey questions at the category level or the question level.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_ChangeTheOrderOfSurveyQuestions.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Survey questions, Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -39,7 +39,7 @@ When you create questions using the survey creator, the system sets the **Order*
 4.  Click **Update**.
 
 
-**Parent Topic:**[Survey questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyQuestion.md)
+**Parent Topic:**[Survey questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SurveyQuestion.md)
 
 **Related topics**  
 

@@ -3,9 +3,9 @@ title: Create a sold product
 description: Create a sold product to track the products or services that are sold to an account or consumer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-sold-item.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Sold products, Configure install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -16,25 +16,29 @@ Create a sold product to track the products or services that are sold to an acco
 
 ## Before you begin
 
-Verify that the Customer Service Install Base Management \(com.snc.install\_base\), Customer Service with Service Portfolio Management \(SPM\) \(com.snc.csm\_spm\), and the Product Catalog Management Core \(com.sn\_prd\_pm\) plugins are installed.
+Verify that the Customer Install Base Management \(com.snc.install\_base\), Customer Service with Service Portfolio Management \(SPM\) \(com.snc.csm\_spm\), and the Product Catalog Management Core \(com.sn\_prd\_pm\) plugins are installed.
 
 Role required: sn\_customerservice\_manager or admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Customer Service** &gt; **Products** &gt; **Sold Products**.
+1.  Navigate to the CRM Workspace.
 
-2.  Select **New**.
+2.  Select the list icon.
 
-3.  On the Sold Product form, fill in the fields.
+3.  Select the Sold Products list.
 
-    To learn more about the descriptions, see [Sold product form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/sold-product-form.md).
+4.  Select **New**.
 
-4.  Right-click the form header and select **Save**.
+5.  On the Sold Product form, fill in the fields.
+
+    To learn more about the descriptions, see [Sold product form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/sold-product-form.md).
+
+6.  Select **Save**.
 
     The Child Sold Products, Install Base Items, Cases, Entitlements, Contracts, Additional Contacts, and Additional Consumers related lists are displayed.
 
-5.  Fill in the related lists as required.
+7.  Fill in the related lists as required.
 
 <table id="table_zch_sgz_3hb"><thead><tr><th>
 
@@ -122,12 +126,14 @@ Sold Product Related Parties
 
 </td><td>
 
-Add contacts, accounts, and consumers as related parties by selecting **New**.
+Add contacts, accounts, consumers, and channel partners as related parties by selecting **New**.The **from header** indicates whether a record is copied from an order header or order line. The field is used as a flag to differentiate the source of the record.
+
+Contacts, accounts, and consumers can login and access the sold products, however, currently channel partners are only added as a record for book keeping.
 
 </td></tr></tbody>
 </table>    **Note:** For business-to-business and business-to-consumer, you can see both the additional contacts and additional consumers in the sold product related lists and you can also add new records.
 
-6.  Select **Update**.
+8.  Select **Update**.
 
     The sold product is added to the account or consumer that you selected. Select an account or consumer to see a list of all sold products that are related to the account or consumer. You can also view a list of sold products according to the product model.
 
@@ -141,9 +147,9 @@ Add contacts, accounts, and consumers as related parties by selecting **New**.
 **Related topics**  
 
 
-[Create and manage sold products for a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-sp-for-business-location.md)
+[Create and manage sold products for a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-sp-for-business-location.md)
 
-[Edit a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/edit-contract.md)
+[Edit a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/edit-contract.md)
 
-[Create an entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-entitlement.md)
+[Create an entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-entitlement.md)
 

@@ -3,9 +3,9 @@ title: Configure Power BI metadata scanning
 description: Enable metadata scanning to access detailed data source information including tables and columns.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/prep-to-run-powerbi-collector-metadata-scan.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Prepare to run the PowerBI collector, PowerBI metadata collector, Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
 ---
@@ -41,5 +41,5 @@ You must be a Power BI administrator to enable metadata scanning settings.
         -   Enhance admin APIs responses with detailed metadata
         -   Enhance admin APIs responses with DAX and mashup expressions
 
-**Parent Topic:**[Prepare to run the PowerBI collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-powerbi-collector.md)
+**Parent Topic:**[Prepare to run the PowerBI collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/prepare-to-run-powerbi-collector.md)
 

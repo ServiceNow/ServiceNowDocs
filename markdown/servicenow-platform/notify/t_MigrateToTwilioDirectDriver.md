@@ -3,11 +3,11 @@ title: Migrate to Notify-Twilio Direct driver
 description: Migrating to Notify-Twilio Direct driver provides next-generation integration with Twilio and Notify.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/t\_MigrateToTwilioDirectDriver.html
-release: australia
+release: brazil
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Notify reference, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -33,5 +33,5 @@ Role required: notify\_admin
     A disconnection of the Twilio driver is initiated and the Account SID and Auth Token are copied to Twilio Direct's configuration page. Twilio Direct is then autoconnected to that account, and you are redirected to the driver's configuration page.
 
 
-**Parent Topic:**[Notify reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/notify-reference-section.md)
+**Parent Topic:**[Notify reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/notify/notify-reference-section.md)
 

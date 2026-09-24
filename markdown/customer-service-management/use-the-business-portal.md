@@ -1,18 +1,18 @@
 ---
 title: Using the Business Portal
-description: Search for answers to questions or known issues, or contact a customer service agent for assistance.
+description: Search for information about a question or an issue, or request assistance from a customer service agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/use-the-business-portal.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer communication, Use, Customer Service Management]
 ---
 
 # Using the Business Portal
 
-Search for answers to questions or known issues, or contact a customer service agent for assistance.
+Search for information about a question or an issue, or request assistance from a customer service agent.
 
 Your Business Portal activity usually begins on the home page. It has configurable widgets to display information.
 
@@ -42,7 +42,7 @@ From the Business Portal home page, you can access and use the following feature
 **Related topics**  
 
 
-[Customer contact self-registration on Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_Business-PortalSelfRegistration.md)
+[Customer contact self-registration on Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_Business-PortalSelfRegistration.md)
 
-[Guest users experience on Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/guest-users-experience-business-portal.md)
+[Guest users experience on Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/guest-users-experience-business-portal.md)
 

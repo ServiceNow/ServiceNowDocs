@@ -3,11 +3,11 @@ title: Integrate McAfee disk encryption with the Password Reset Windows Applicat
 description: You use ePolicy Orchestrator \(ePO\) to enable McAfee MDE 7.2 on a Windows desktop computer to support the Password Reset Windows Application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/win-mcafee-disk-encrypt-password-reset.html
-release: australia
+release: brazil
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Installing and configuring Password Reset Windows Application, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -54,5 +54,5 @@ You use ePolicy Orchestrator \(ePO\) to enable McAfee MDE 7.2 on a Windows deskt
 7.  Restart the computer.
 
 
-**Parent Topic:**[Installing and configuring Password Reset Windows Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/install-configure-password-reset-windows-app.md)
+**Parent Topic:**[Installing and configuring Password Reset Windows Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/install-configure-password-reset-windows-app.md)
 

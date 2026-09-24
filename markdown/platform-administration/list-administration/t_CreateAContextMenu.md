@@ -3,11 +3,11 @@ title: Customize list context menus
 description: You can customize the content and behavior of list context menus.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/t\_CreateAContextMenu.html
-release: australia
+release: brazil
 product: List Administration
 classification: list-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Administer, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -60,7 +60,7 @@ Select the list context menu in which this option appears.
 
 -   List title menus
 -   Column headings
--   [List fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_Fields.md)
+-   [List fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/r_Fields.md)
 
 
 </td></tr><tr><td>
@@ -132,7 +132,7 @@ Action script
 
 </td><td>
 
-The action script runs when someone selects the context menu option. For more information, see [Action script for list context menus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/r_ActionScript.md).
+The action script runs when someone selects the context menu option. For more information, see [Action script for list context menus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-administration/r_ActionScript.md).
 
 </td></tr><tr><td>
 
@@ -140,7 +140,7 @@ Dynamic actions script
 
 </td><td>
 
-The dynamic actions script populates the context menu with dynamic options, such as filters or views. For more information, see [Dynamic actions script for list context menus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/r_DynamicActionsScript.md).
+The dynamic actions script populates the context menu with dynamic options, such as filters or views. For more information, see [Dynamic actions script for list context menus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-administration/r_DynamicActionsScript.md).
 
 </td></tr><tr><td>
 
@@ -148,7 +148,7 @@ onShow script
 
 </td><td>
 
-The onShow script runs before the context menu is displayed, to determine which options appear in the context menu. For more information, see [onShow script for list context menus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/r_OnShowScript.md).
+The onShow script runs before the context menu is displayed, to determine which options appear in the context menu. For more information, see [onShow script for list context menus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-administration/r_OnShowScript.md).
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.

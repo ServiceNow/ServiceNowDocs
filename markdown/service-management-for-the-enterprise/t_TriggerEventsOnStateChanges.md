@@ -3,9 +3,9 @@ title: Trigger events on state changes
 description: You can configure a state flow to trigger a registered system event when a task transitions from a starting state to a specified end state. For example, you can use events to trigger email notifications and create script actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_TriggerEventsOnStateChanges.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [State flow customization, Service management states, Service Management]
 ---
@@ -37,5 +37,5 @@ To create an event that fires when a work order task moves from a starting state
     The ServiceNow system automatically creates a business rule called **State Flow Events for wm\_task**.
 
 
-**Parent Topic:**[State flow customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_StateFlowCustomization.md)
+**Parent Topic:**[State flow customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-management-for-the-enterprise/c_StateFlowCustomization.md)
 

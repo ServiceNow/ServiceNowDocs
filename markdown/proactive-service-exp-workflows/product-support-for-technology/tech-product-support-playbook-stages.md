@@ -3,11 +3,11 @@ title: Playbook stages and activities
 description: The Technology Product Support Case playbook includes stages and activities that assist agents in researching and resolving technology cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook-stages.html
-release: australia
+release: brazil
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Playbook, Explore, Technology Product Support Case, Product Support for Technology]
 ---
@@ -120,7 +120,7 @@ The decision table is provided with the Technology Product Support Case applicat
 
  To enable the diagnostic activity in the troubleshoot stage, select the case category in the decision table as Issue. The diagnostic activity field is field is updated to True.
 
- The status can be changed to False by the agent. For more details on updating decision tables, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-table.md).
+ The status can be changed to False by the agent. For more details on updating decision tables, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/decision-table.md).
 
  The agent can view and do the following actions in these tabs:
 
@@ -211,7 +211,7 @@ The agent updates the following fields:
 
  The agent can also enable the **Add resolution notes to comments** check box to add the resolution information to the case activity stream.
 
-**Note:** If the Now Assist for Customer Service Management \(CSM\) application is installed and the resolution notes generation skill has been configured, the **Resolution notes** field is automatically populated. For more information, see [Using Now Assist for CSM to generate resolution notes for a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md).
+**Note:** If the Now Assist for Customer Service Management \(CSM\) application is installed and the resolution notes generation skill has been configured, the **Resolution notes** field is automatically populated. For more information, see [Using Now Assist for CSM to generate resolution notes for a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md).
 
  -   **Propose resolution**: Completes the activity and moves to the Close stage. The case state changes to Solution Proposed.
 -   **Save**: Saves the information in the activity.
@@ -277,5 +277,5 @@ The Technology Product Case Troubleshoot recommended actions rule:
     -   **Start discussion**: starts a Sidebar discussion.
     -   **Dismiss**: dismisses the recommendation card.
 
-For more information, see [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-nba.md).
+For more information, see [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-nba.md).
 

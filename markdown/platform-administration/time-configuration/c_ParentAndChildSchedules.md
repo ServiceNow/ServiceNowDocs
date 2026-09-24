@@ -3,11 +3,11 @@ title: Parent and child schedules
 description: Schedules can have one of two parent-child relationships with other schedules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/c\_ParentAndChildSchedules.html
-release: australia
+release: brazil
 product: Time Configuration
 classification: time-configuration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Schedules, Explore, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -33,7 +33,7 @@ Parent schedules must have at least one entry that is not an **Excluded** type. 
 
 **Note:** The **Show Schedule** related link shows schedule entries from the current schedule and the child schedule record. For example, when showing the **8-5 weekdays excluding holidays** schedule, holidays are also shown as excluded because the holiday schedule is a child schedule.
 
-**Parent Topic:**[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_UseSchedules.md)
+**Parent Topic:**[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/c_UseSchedules.md)
 
 **Related topics**  
 
@@ -54,7 +54,7 @@ Parent schedules must have at least one entry that is not an **Excluded** type. 
 
 [Domain support and schedules]()
 
-[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_UseSchedules.md)
+[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/c_UseSchedules.md)
 
-[Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_DefineASchedule.md)
+[Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/t_DefineASchedule.md)
 

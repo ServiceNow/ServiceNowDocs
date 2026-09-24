@@ -3,11 +3,11 @@ title: Update content in the privacy library
 description: Update an installed authority document or risk statement version to add newer citations, control objectives, and risk statements to your privacy library.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/update-privacy-mgmt-content.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-05-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [activate risk statements, privacy risk statements, risk statement category, privacy content]
 breadcrumb: [Privacy content accelerator, Privacy Management, Governance, Risk, and Compliance]

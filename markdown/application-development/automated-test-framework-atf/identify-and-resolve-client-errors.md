@@ -3,11 +3,11 @@ title: Identify and resolve client errors
 description: Identify client errors and resolve them in client-side scripts.There are several types of common client error.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/identify-and-resolve-client-errors.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Building and running automated tests with the Automated Test Framework, Automated Test Framework \(ATF\) test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -34,7 +34,7 @@ When client errors occur, the Automated Test Framework fails the test on the ste
 
     This step result appears only on a step that interacts with the UI.
 
-3.  To identify and resolve these script errors, open the developer tools browser console on the [Client Test Runner page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-client-test-runner-module.md).
+3.  To identify and resolve these script errors, open the developer tools browser console on the [Client Test Runner page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-client-test-runner-module.md).
 
     **Note:** For information about how to open the browser console, see the following article: [http://webmasters.stackexchange.com/questions/8525/how-to-open-the-javascript-console-in-different-browsers](http://webmasters.stackexchange.com/questions/8525/how-to-open-the-javascript-console-in-different-browsers)
 
@@ -54,7 +54,7 @@ When client errors occur, the Automated Test Framework fails the test on the ste
 
 Determine the source of the client error by reviewing the script version history. If you customized a base system script, it's possible that the script has new versions that were skipped during upgrade.
 
-**Parent Topic:**[Building and running automated tests with the Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-build-overview.md)
+**Parent Topic:**[Building and running automated tests with the Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-build-overview.md)
 
 ## Example client errors
 
@@ -103,5 +103,5 @@ While identifying problematic scripts, be sure the script has permission to acce
 **Related topics**  
 
 
-[Allowed client errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/whitelisted-client-errors.md)
+[Allowed client errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/whitelisted-client-errors.md)
 

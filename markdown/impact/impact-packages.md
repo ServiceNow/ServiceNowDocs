@@ -3,11 +3,11 @@ title: Impact packages
 description: Impact packages comprise support tools, self-help resources, human-led engagements, discounts, and additional benefits made available to you according to your impact subscription package.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/impact-packages.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Impact reference, Impact]
+breadcrumb: [General reference, Impact reference, Impact]
 ---
 
 # Impact packages
@@ -46,7 +46,7 @@ See the Legal Schedules for Impact for additional information at [https://www.se
 
 ## Accelerator consumption per Impact package
 
-According to the Impact package you have purchased, there’s an allotment of Accelerators from each sub-catalog that you can consume consecutively. See [Accelerator catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/accelerator-catalog.md) for additional information on Accelerators and sub-catalogs.
+According to the Impact package you have purchased, there’s an allotment of Accelerators from each sub-catalog that you can consume consecutively. See [Accelerator catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/accelerator-catalog.md) for additional information on Accelerators and sub-catalogs.
 
 The following consumption allocations apply to all variations \(for example, US PubSec, MSP Dedicated\) and versions \(for example, V3 &amp; V4\) of Impact packages, unless otherwise specified.
 
@@ -151,11 +151,11 @@ Managed Support
 
 -   Upgraded P1/P2 level issue initial target response times
 -   Additional SAM coverage on 1 instance
--   Five [Impact Developer Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/developer-support.md) seats
+-   Five [Impact Developer Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/developer-support.md) seats
 
 </td></tr><tr><td>
 
-[Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md) Features
+[Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/io-overview.md) Features
 
 </td><td align="left">
 
@@ -172,7 +172,7 @@ Ten Instance Observer seats, in addition to the procured Impact package
 
 </td></tr><tr><td>
 
-[Preventive Care](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/preventive-care.md)
+[Preventive Care](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/preventive-care.md)
 
 </td><td align="left">
 
@@ -196,5 +196,5 @@ Platform Health
 -   CSM = Customer Support Manager
 -   SAM = Support Account Manager
 
-**Parent Topic:**[Impact reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-reference.md)
+**Parent Topic:**[General reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/general-reference.md)
 

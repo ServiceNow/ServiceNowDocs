@@ -3,9 +3,9 @@ title: Request other biomed service with Care Team Operations for Biomed
 description: Request non-medical device issue biomed service using the Request other biomed service catalog item from the Care Team Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hcls-cto-biomed-request-other.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create service requests, Care Team Operations for Biomed, Healthcare Operations, Healthcare and Life Sciences]
 ---

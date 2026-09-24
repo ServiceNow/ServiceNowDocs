@@ -3,9 +3,9 @@ title: Order life cycle states
 description: Learn about the order states from initial capture through enrichment, decomposition, fulfillment, and completion.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/order-lifecycle-states.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -89,7 +89,7 @@ On hold
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-order-management.md)
 

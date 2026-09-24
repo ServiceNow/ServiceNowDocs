@@ -3,9 +3,9 @@ title: Public Sector Grants Management reference
 description: Reference tables and forms for configuring and using Grants Management capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-gm-ref.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Public Sector Digital Services \(PSDS\)]
 ---

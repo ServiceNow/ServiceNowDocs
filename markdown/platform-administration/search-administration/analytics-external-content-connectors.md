@@ -3,13 +3,13 @@ title: Analytics for external content connectors
 description: Metrics that show how your external content connector has run over time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/analytics-external-content-connectors.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Reference, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -17,7 +17,7 @@ breadcrumb: [Reference, External Content Connectors, Search administration, Conf
 
 Metrics that show how your external content connector has run over time.
 
-You can view analytics for an external content connector by navigating to the **Analytics** tab in the connector editor. For more details on this procedure, see [Review analytics for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/review-analytics-external-content-connector.md).
+You can view analytics for an external content connector by navigating to the **Analytics** tab in the connector editor. For more details on this procedure, see [Review analytics for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/review-analytics-external-content-connector.md).
 
 ## Date range
 
@@ -152,5 +152,5 @@ User permission crawls
 -   Second value shows the number of failed user permission crawls run for the connector in the selected date range.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[External Content Connectors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/reference-ext-cont-connectors.md)
+</table>**Parent Topic:**[External Content Connectors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/reference-ext-cont-connectors.md)
 

@@ -3,13 +3,13 @@ title: Install the ServiceNow CLI
 description: Install the ServiceNow CLI on a Mac, Windows, or Linux machine.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-cli/download-cli.html
-release: australia
+release: brazil
 product: ServiceNow CLI
 classification: servicenow-cli
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow CLI, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [ServiceNow CLI, Developing your application, Building applications]
 ---
 
 # Install the ServiceNow CLI
@@ -33,12 +33,12 @@ Available for the following operating systems:
 -   Windows
 -   Linux
 
--   **[Install the ServiceNow CLI on Mac](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-cli/install-mac.md)**  
+-   **[Install the ServiceNow CLI on Mac](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-cli/install-mac.md)**  
 Install ServiceNow CLI on a Mac OS using the installer.
--   **[Install the ServiceNow CLI on Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-cli/install-windows.md)**  
+-   **[Install the ServiceNow CLI on Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-cli/install-windows.md)**  
 Install ServiceNow CLI on a Windows OS using the installer.
--   **[Install the ServiceNow CLI on Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-cli/install-linux.md)**  
+-   **[Install the ServiceNow CLI on Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-cli/install-linux.md)**  
 Install ServiceNow CLI on a Linux machine using the installer.
 
-**Parent Topic:**[ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-cli/servicenow-cli.md)
+**Parent Topic:**[ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-cli/servicenow-cli.md)
 

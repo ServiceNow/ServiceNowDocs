@@ -1,26 +1,27 @@
 ---
 title: Use AI to explore dashboards with Dashboard Summary
-description: The Dashboard Summary is your AI companion for instant insight into Platform Analytics dashboard content to help users understand their data and uncover meaningful patters for decision making. The Dashboard summary is available with any Now Assist application.
+description: The Dashboard Summary is your AI companion for instant insight into Platform Analytics dashboard and workspace content. Use the summary to help you understand your data and uncover meaningful patters for decision making. The Dashboard Summary is available with any Now Assist application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/dashboard-summary-landing.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Use AI to explore dashboards with Dashboard Summary
 
-The Dashboard Summary is your AI companion for instant insight into Platform Analytics dashboard content to help users understand their data and uncover meaningful patters for decision making. The Dashboard summary is available with any Now Assist application.
+The Dashboard Summary is your AI companion for instant insight into Platform Analytics dashboard and workspace content. Use the summary to help you understand your data and uncover meaningful patters for decision making. The Dashboard Summary is available with any Now Assist application.
 
 ## Get started
 
 Requirements;
 
--   Australia Patch 3
 -   Any Now Assist application
 -   Platform Analytics experience Bundle v8.4 store application.
+
+**Note:** The Dashboard Summary is not available on technical dashboards.
 
 <table id="table_crq_v4l_w2c" class="nav-card presentation"><tbody><tr><td>
 
@@ -28,7 +29,7 @@ Explore\[Omitted image "bus-explore.svg"\] Alt text:Overview of dashboard summar
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Enable the ServiceNow Otto context menu and supplementary skills for an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-dashboard-summary.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Enable the ServiceNow Otto context menu and supplementary skills for an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/configure-dashboard-summary.md)
 
 </td><td>
 
@@ -52,7 +53,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information from tablesand indicators that will be used to generate analytics. For example, information from the Incident tableor the Number of open incidents indicator could be collected for requests for incident data visualizations. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information from tablesand indicators that will be used to generate analytics. For example, information from the Incident tableor the Number of open incidents indicator could be collected for requests for incident data visualizations. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md).
 

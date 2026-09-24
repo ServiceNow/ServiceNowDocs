@@ -3,11 +3,11 @@ title: Configure push notification \(Okta Verify\)
 description: Configure Okta Verify to receive push notifications for secure and convenient identity verification.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/configure-okta-verify-push-notification.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Push notification - Okta verify, Configure authentication factors for AI voice agents, Authentication factors, Authentication, Access Management]
 ---

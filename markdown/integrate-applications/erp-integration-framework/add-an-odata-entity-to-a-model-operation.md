@@ -3,14 +3,14 @@ title: Add an OData entity to a model operation
 description: Specify the OData entity that a Zero Copy Connector for ERP \(Enterprise Resource Planning\) model uses for a read, update, or create operation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/add-an-odata-entity-to-a-model-operation.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
 last_updated: "2026-08-07"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, odata, entity, model, operation]
-breadcrumb: [OData, Connecting to SAP, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Adding an entity to a model, ERP models, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Add an OData entity to a model operation
@@ -19,7 +19,7 @@ Specify the OData entity that a Zero Copy Connector for ERP \(Enterprise Resourc
 
 ## Before you begin
 
-The read, update, or create operation must be added before an entity can be added to it. For more information, see [Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-manage-models-read-op.md).
+The read, update, or create operation must be added before an entity can be added to it. For more information, see [Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erpc-manage-models-read-op.md).
 
 Role required: sn\_erp\_integration.erp\_admin
 
@@ -43,7 +43,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 8.  In **Select service**, specify the OData service to use.
 
-    If you don't see the service you need, add the service by selecting **+ Add service manually**. For more information, see [Add an OData service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-add-a-service-manually.md).
+    If you don't see the service you need, add the service by selecting **+ Add service manually**. For more information, see [Add an OData service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-add-a-service-manually.md).
 
 9.  Wait for the **OData Endpoints** field to load, and then in **Select the endpoints**, specify an endpoint.
 
@@ -55,4 +55,6 @@ Role required: sn\_erp\_integration.erp\_admin
 
     \[Omitted image "erp-add-odata-entity-to-model2.png"\] Alt text: Manage model tab with entity card showing retrieval date and time.
 
+
+**Parent Topic:**[Adding an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md)
 

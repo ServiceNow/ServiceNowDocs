@@ -3,11 +3,11 @@ title: PPM PIWB template - Find similar demands
 description: Use a guided template that walks you through training the Similar Demands solution definition for finding similar demands.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/ppm-piwb-demand.html
-release: australia
+release: brazil
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -38,10 +38,10 @@ Role required: piwb\_manager
 
     Configure or train the **Similarity** solution for finding similar demands.
 
-    -   To configure the Similar Demands solution definition \(ml\_sn\_global\_global\_similar\_demands\), click **Configure**. For more information, see [Train the similarity solution for Demand Management to find similar demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/train-similarity-solution-dm.md).
+    -   To configure the Similar Demands solution definition \(ml\_sn\_global\_global\_similar\_demands\), click **Configure**. For more information, see [Train the similarity solution for Demand Management to find similar demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/train-similarity-solution-dm.md).
     -   To train the Similar Demands solution definition \(ml\_sn\_global\_global\_similar\_demands\), click **Train**.
 
-**Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/r_UsingDemandManagement.md)
+**Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/r_UsingDemandManagement.md)
 
 **Related topics**  
 

@@ -3,11 +3,11 @@ title: Bind host CIs using CI field matching
 description: When CI Field Matching is used and the CI is a host, the Node value from the alert is used for binding. The system compares the Node with attributes like Name, FQDN, IP, or MAC Address in the CMDB to find a match. This ensures that alerts are correctly linked to the corresponding host CI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/ci-matching-ci-is-host.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Overriding default binding, Binding alerts to CIs, Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -24,7 +24,7 @@ Role required: evt\_mgmt\_admin
 
 When an event enters the system, key field like **Node** is available on the event record. The **Node** field generally represents the name of the server. In CI there is no field like **Node**. However, the value of **Node** from the event is compared with different values in the host CI such as Name, Fully qualified domain name \(FQDN\), IP, or MAC Address. If a match is found, the alert is linked to the corresponding CI. This is the default binding of alerts to CIs. In this binding, the CI must be a host. Host CIs include Computers, OS, Switches, Routers—essentially any CI type or class that extends the \[cmdb\_ci\_hardware\] table.
 
-There may be cases where no match is found because the column names in the event record and the table differ for the same item. In such cases, you can manually create an additional key-value pair with a name matching the table column, ensuring the matching process continues successfully. For information on how to create a manual field, see [Bind CIs using CI field and column matching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/ci-matching-manual-field.md).
+There may be cases where no match is found because the column names in the event record and the table differ for the same item. In such cases, you can manually create an additional key-value pair with a name matching the table column, ensuring the matching process continues successfully. For information on how to create a manual field, see [Bind CIs using CI field and column matching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/ci-matching-manual-field.md).
 
 **Note:** Even if the node successfully binds the alert with the CI, event rules further determine how the binding occurs.
 
@@ -48,11 +48,11 @@ There may be cases where no match is found because the column names in the event
 
 7.  Select **Submit**.
 
-    **Note:** You can also use the Service Operations Workspace to define binding rules. For more information, see [Create Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/enrich-alert-sow-itom.md).
+    **Note:** You can also use the Service Operations Workspace to define binding rules. For more information, see [Create Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/enrich-alert-sow-itom.md).
 
 
 **Related topics**  
 
 
-[Bind non-host CIs using CI field matching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/ci-matching-ci-non-host.md)
+[Bind non-host CIs using CI field matching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/ci-matching-ci-non-host.md)
 

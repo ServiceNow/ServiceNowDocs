@@ -3,11 +3,11 @@ title: Record type icons configured for forms in GRC Common Workspace Elements
 description: The table gives you a list of icons configured for the forms in the Audit Workspace and Compliance Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/record-type-icons-rec-pg-mig.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Workspace page, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -44,5 +44,5 @@ The table gives you a list of icons configured for the forms in the Audit Worksp
 |Citation|sn\_compliance\_citation|\[Omitted image "rec-type-icon-citation.png"\] Alt text: Citation record type icon.|connect-view-document-outline|
 |Control objective|sn\_compliance\_policy\_statement|\[Omitted image "rec-type-icon-control-objective.png"\] Alt text: Control objective record type icon.|clipboard-lines-outline|
 
-**Parent Topic:**[Configure workspace page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/configure-workspace-page.md)
+**Parent Topic:**[Configure workspace page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/configure-workspace-page.md)
 

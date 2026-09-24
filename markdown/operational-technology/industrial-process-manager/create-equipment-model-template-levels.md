@@ -1,18 +1,18 @@
 ---
-title: Create hierarchical sorting levels for an equipment model template
+title: Create hierarchical sorting levels for equipment templates
 description: Create and assign hierarchical levels for your equipment model template. When you assign an equipment template to an equipment model, these levels sort and structure the data you see in it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/create-equipment-model-template-levels.html
-release: australia
+release: brazil
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Defining equipment model templates, Configure, Industrial Process Manager, Operational Technology]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Defining equipment model templates, Configure the Industrial Process Manager, Industrial Process Manager, Operational Technology]
 ---
 
-# Create hierarchical sorting levels for an equipment model template
+# Create hierarchical sorting levels for equipment templates
 
 Create and assign hierarchical levels for your equipment model template. When you assign an equipment template to an equipment model, these levels sort and structure the data you see in it.
 
@@ -30,7 +30,7 @@ You can assign levels to an equipment model template for sorting purposes. For e
 
 2.  Select an equipment model template.
 
-3.  In the Template Levels related list, click **New**.
+3.  In the Template Levels related list, select **New**.
 
 4.  On the form, fill in the fields.
 
@@ -66,9 +66,9 @@ Parent
 
 </td><td>
 
-Identifier for the equipment model template level above this level. If left empty, this level is the top level in the model. For example, you can do the following actions:-   If you are creating a Site level, leave this field empty if it is the top level of the equipment model hierarchy that does not have a parent.
--   If you are creating an Area level, and it is a child to the Site level, select **Site** as its parent.
--   If you are creating a Work Center level, and it is a child to the Area level, select **Area** as its parent.
+Identifier for the equipment model template level before this level. If left empty, this level is the top level in the model. For example, you can do the following actions:-   If you're creating a Site level, leave this field empty if it is the top level of the equipment model hierarchy that does not have a parent.
+-   If you're creating an Area level, and it is a child to the Site level, select **Site** as its parent.
+-   If you're creating a Work Center level, and it is a child to the Area level, select **Area** as its parent.
 
 
 </td></tr><tr><td>
@@ -96,12 +96,12 @@ Order
 Number that indicates the position of the level in the equipment model hierarchy for sorting purposes. The smallest number entered represents the highest hierarchical level. For example, enter `1` for Site if the site represents the highest level in the hierarchy for the equipment model template.
 
 </td></tr></tbody>
-</table>5.  Click **Submit**.
+</table>5.  Select **Submit**.
 
 
 ## What to do next
 
 Create granular types within an equipment model template hierarchical level.
 
-**Parent Topic:**[Defining equipment model templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/defining-equipment-model-templates.md)
+**Parent Topic:**[Defining equipment model templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/defining-equipment-model-templates.md)
 

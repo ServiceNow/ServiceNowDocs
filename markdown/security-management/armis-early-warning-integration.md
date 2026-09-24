@@ -3,10 +3,10 @@ title: Early Warning for Security Exposure Management
 description: Early Warning for Security Exposure Management, powered by Armis, enriches the Central Vulnerability Database \(CVDB\) in Unified Security Exposure Management \(USEM\) with vulnerability intelligence of imminent exploit. This enables your security team to prioritize and patch vulnerabilities before threat actors weaponize them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/armis-early-warning-integration.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-24"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 keywords: [Armis Early Warning, CVE enrichment, vulnerability intelligence, Security Exposure Management]
 breadcrumb: [Integrate, Unified Security Exposure Management, Security Operations]
 ---
@@ -71,7 +71,7 @@ When you integrate Early Warning for Security Exposure Management, two new colum
 
 You can use these columns to filter, sort, and prioritize your vulnerability remediation workflow.
 
-The integration appears in the Security Exposure Management workspace alongside other enrichment integrations, such as CISA Known Exploited Vulnerabilities. From the integration overview page, you can monitor run history, ingestion health, and processing status. For more information, see [Security Exposure Management Workspace List view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-workspace-list-page.md)
+The integration appears in the Security Exposure Management workspace alongside other enrichment integrations, such as CISA Known Exploited Vulnerabilities. From the integration overview page, you can monitor run history, ingestion health, and processing status. For more information, see [Security Exposure Management Workspace List view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-workspace-list-page.md)
 
 ## Admiralty score
 
@@ -122,29 +122,12 @@ The Early Warning for Security Exposure Management integration requires the foll
 -   Vulnerability Integration Framework plugin
 -   Access to Armis vulnerability intelligence feed and valid authentication credentials
 
--   **[Install the required applications for Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/early-warning-install.md)**  
-Install the required applications for Early Warning for Security Exposure Management.
--   **[Set up requirements for Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/early-warning-integration-setup.md)**  
-Complete the following setup steps in your Armis Intelligence Center console environment before you configure Early Warning for Security Exposure Management in your ServiceNow AI Platform® instance.
--   **[Configure the Early Warning for Security Exposure Management integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configure-early-warning-integration.md)**  
-Install and configure the Early Warning for Security Exposure Management integration plugin to ingest vulnerability intelligence and enrich your vulnerability database with threat signals.
--   **[Add Early Warning criteria to a risk rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/add-armis-early-warning-risk-rule.md)**  
-Add the Early Warning flag or Admiralty score as a weighted criterion in a risk rule to prioritize vulnerable items based on vulnerability intelligence data.
--   **[Schedule the Early Warning for Security Exposure Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/schedule-ew-integration.md)**  
-You can schedule the integration import times on the records in the Vulnerability Integrations \[sn\_vul\_int\_fw\_integration\] table and launch them on-demand.
--   **[View Early Warning for Security Exposure Management integration health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/view-armis-early-warning-health.md)**  
-Monitor the Early Warning for Security Exposure Management integration by reviewing run history, ingestion performance, and processing health from the Security Exposure Management Administration console.
--   **[Early Warning CVD Attributes field reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/early-warning-cvd-attributes.md)**  
-The Early Warning CVD Attributes table stores vulnerability intelligence signals for vulnerabilities. Each attribute represents a threat indicator ingested from the Early Warning feed.
-
-**Parent Topic:**[Unified Security Exposure Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/integrating-usem.md)
-
 **Related topics**  
 
 
-[Integrations for Central Vulnerability Database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/cvd-integrations-overview.md)
+[Integrations for Central Vulnerability Database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/cvd-integrations-overview.md)
 
-[Security Exposure Management Workspace List view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-workspace-list-page.md)
+[Security Exposure Management Workspace List view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-workspace-list-page.md)
 
-[Define fields and weights for the risk rule for Unified Security Exposure Management risk calculators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-vuln-calc-define-risk-rule-fields.md)
+[Define fields and weights for the risk rule for Unified Security Exposure Management risk calculators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-vuln-calc-define-risk-rule-fields.md)
 

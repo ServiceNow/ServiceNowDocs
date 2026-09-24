@@ -3,11 +3,11 @@ title: DevOps Config and DevOps Change Velocity
 description: DevOps Change Velocity collects data from all of your DevOps tools, providing visibility across the entire lifecycle of deployment, while DevOps Config manages and validates your DevOps configuration data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/devops-config-devops-change.html
-release: australia
+release: brazil
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring DevOps Config, DevOps Config, IT Service Management]
 ---
@@ -38,5 +38,5 @@ In DevOps Change Velocity, navigate to **DevOps** &gt; **Orchestrate** &gt; **Pi
 
 \[Omitted image "devops-config-change-request.png"\] Alt text: DevOps Config change request
 
-**Parent Topic:**[Exploring DevOps Config](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-getting-started.md)
+**Parent Topic:**[Exploring DevOps Config](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/devops-config-getting-started.md)
 

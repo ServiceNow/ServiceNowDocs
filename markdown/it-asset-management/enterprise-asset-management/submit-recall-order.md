@@ -3,11 +3,11 @@ title: Submit a recall order for your enterprise assets
 description: Submit a recall order to initiate the replacement, repair, or retirement of enterprise assets that have been recalled by the asset vendor. You can also choose to provide your users with additional instructions on how to operate your recalled enterprise assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/submit-recall-order.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Managing recalled enterprise assets, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
@@ -150,7 +150,7 @@ Additional information about the recall order.
 
 ## What to do next
 
-[Acknowledge enterprise assets in the recall order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/acknowledge-recalled-assets-eam.md).
+[Acknowledge enterprise assets in the recall order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/acknowledge-recalled-assets-eam.md).
 
-**Parent Topic:**[Managing recalled enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-recalled-enterprise-assets.md)
+**Parent Topic:**[Managing recalled enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/managing-recalled-enterprise-assets.md)
 

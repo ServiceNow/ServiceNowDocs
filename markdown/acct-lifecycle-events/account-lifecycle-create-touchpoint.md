@@ -3,9 +3,9 @@ title: Create a touchpoint
 description: Create a touchpoint to capture and support conversations between providers and customers during the engagement lifecycle.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-create-touchpoint.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage engagements, Customer success, Use, Customer Success Management]
 ---
@@ -24,7 +24,7 @@ During the lifecycle of an engagement, providers and customers may have frequent
 
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
+1.  Navigate to **Workspace** &gt; **CRM Workspace** and select the **List** icon.
 
 2.  Navigate to **Customer Success** &gt; **All Engagements**.
 
@@ -236,5 +236,5 @@ Clear the check box to make Blocked by capability work.
 6.  Select **Save** to create touchpoint.
 
 
-**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-manage-engage.md)
+**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-manage-engage.md)
 

@@ -3,13 +3,13 @@ title: Case and incident deflection in Virtual Agent
 description: Virtual Agent provides several self-service options for your user that can help deflect tickets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/case-incident-deflection-virtual-agent.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-07-23"
-reading_time_minutes: 4
-breadcrumb: [Build and deploy, Virtual Agent, Conversational Interfaces]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Use, Virtual Agent, Conversational Interfaces]
 ---
 
 # Case and incident deflection in Virtual Agent
@@ -18,39 +18,28 @@ Virtual Agent provides several self-service options for your user that can help 
 
 Deflection occurs when a user asks a question or makes a request that doesn't result in a ticket or human assistance. There are many ways that your customers can self-serve, including using AI Search and reading Knowledge articles. Virtual Agent provides a number of ways for your users to serve themselves.
 
--   **[ServiceNow Otto for Virtual Agent enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md)**
+-   **[Now Assist in Virtual Agent enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/nava-enhanced-chat.md)**
 
-    ServiceNow Otto for Virtual Agent in Virtual Agent enhances the user experience by combining AI Search with generative AI chat skills. These skills can speed up issue resolution and reduce deflection to a live agent.
+    ServiceNow Otto for Virtual Agent enhances the user experience by combining AI Search with generative AI chat skills. These skills can speed up issue resolution and reduce deflection to a live agent.
 
--   **[Issue Auto Resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/auto-resolution-va.md)**
+-   **[Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-gen-ai-catalog-item.md)**
 
-    When a user creates an issue, Issue Auto Resolution uses machine learning and NLU to identify the criticality of the issue and its intent. Issue Auto Resolution the identifies an appropriate Virtual Agent topic for an automatic resolution. If a Virtual Agent topic isn’t found, Issue Auto Resolution does an AI Search to return the most appropriate Knowledge articles, FAQs, or catalog content. The deflection content is then delivered to the user through the configured response channel, such as email, short messaging service \(SMS\), or the Virtual Agent chat widget.
+    This ServiceNow Otto for Virtual Agent skill is available in the AI Admin Hub console. For full catalog functionality in the chat window, enable the generative AI experience for catalog item request submissions.
 
--   **[Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-gen-ai-catalog-item.md)**
+-   **[Configuring agentic conversations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/agentic-conversations-vad.md)**
 
-    This ServiceNow Otto for Virtual Agent in Virtual Agent skill is available in the AI Admin Hub console. For full catalog functionality in the chat window, enable the generative AI experience for catalog item request submissions.
+    AI agents can reason, plan, and execute using additional AI agents, Virtual Agent topics, conversational actions and subflows, catalogs, KB articles, custom skills, and any ServiceNow Otto for Virtual Agent skills.
 
--   **[Agentic conversations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/agentic-conversations-vad.md)**
-
-    AI agents can reason, plan, and execute using additional AI agents, Virtual Agent topics, conversational actions and subflows, catalogs, KB articles, custom skills, and any ServiceNow Otto for Virtual Agent in Virtual Agent skills.
-
--   **[Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/managing-conversational-subflows.md) and [conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/managing-conversational-actions.md)**
+-   **[Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/managing-conversational-subflows.md) and [conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/managing-conversational-actions.md)**
 
     Create conversational subflows and actions in Workflow Studio and use them in Virtual Agent conversations.
 
--   **[Integrating ServiceNow Otto for Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/integrating-now-assist-va-msteams.md)**
+-   **[Integrating ServiceNow Otto for Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/integrating-now-assist-va-msteams.md)**
 
-    Configure ServiceNow Otto for Virtual Agent in Virtual Agent to use Microsoft Teams as the delivery channel.
+    Configure ServiceNow Otto for Virtual Agent to use Microsoft Teams as the delivery channel.
 
--   **[Use the deflection topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/deflections-virtual-agent.md)**
+-   **[Use the deflection topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/deflections-virtual-agent.md)**
 
     Use the pre-built deflection topic block in Virtual Agent to track the issues that Virtual Agent helped to resolve or actually resolved for a user.
 
-
--   **[Using Issue Auto Resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/auto-resolution-va.md)**  
-You can proactively deflect issues and expedite the resolution process for your agent and user with the Issue Auto Resolution \(IAR\) application. Through machine learning and Natural Language Understanding \(NLU\), users get immediate self-service and can access Virtual Agent topics, Knowledge articles, and catalog items.
--   **[Using the deflection topic block to track deflections in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/deflections-virtual-agent.md)**  
-Use the pre-built deflection topic block in ServiceNow® Virtual Agent to track the issues that Virtual Agent helped to resolve or actually resolved for a user. Incident deflection patterns and metrics can help you optimize and analyze the effectiveness of Virtual Agent.
-
-**Parent Topic:**[Building and deploying Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/using-virtual-agent.md)
 

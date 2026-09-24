@@ -3,9 +3,9 @@ title: Create a case team for an investigative case
 description: You can add existing users within your investigative organization to the case and assign them a responsibility. Responsibilities determine a users relationship to the case, at the case level.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-icm-create-case-team.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Case Workspace, Investigative Case Management, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
@@ -16,7 +16,7 @@ You can add existing users within your investigative organization to the case an
 
 ## Before you begin
 
-**Note:** Creating case teams and assigning responsibilities is distinct from creating user groups and assigning roles. Case teams are created at the case level only, and do not affect roles or groups at the user level. For more information on roles, case teams, and responsibilities, see [Assign user personas, roles, groups, and responsibilities in Investigative Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-icm-assign-user-roles-responsibilities.md). To create a case team, you must either create a case, or a case must already have been created within the workspace.
+**Note:** Creating case teams and assigning responsibilities is distinct from creating user groups and assigning roles. Case teams are created at the case level only, and do not affect roles or groups at the user level. For more information on roles, case teams, and responsibilities, see [Assign user personas, roles, groups, and responsibilities in Investigative Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-icm-assign-user-roles-responsibilities.md). To create a case team, you must either create a case, or a case must already have been created within the workspace.
 
 Role required: icm.investigator, admin
 
@@ -34,7 +34,7 @@ Role required: icm.investigator, admin
 
 5.  Select the User from the dropdown.
 
-    If you do not see the desired User's name, have an admin verify that a user record has been created for them on the organization level. For more info on assigning users, see [Assign user personas, roles, groups, and responsibilities in Investigative Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-icm-assign-user-roles-responsibilities.md).
+    If you do not see the desired User's name, have an admin verify that a user record has been created for them on the organization level. For more info on assigning users, see [Assign user personas, roles, groups, and responsibilities in Investigative Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-icm-assign-user-roles-responsibilities.md).
 
 6.  Select their case-level responsibility from the **Investigation role** dropdown.
 

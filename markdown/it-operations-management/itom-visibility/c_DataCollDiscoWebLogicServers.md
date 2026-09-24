@@ -3,11 +3,11 @@ title: WebLogic application server discovery
 description: Discovery creates or updates a CMDB record when it detects an instance of an Oracle or BEA Weblogic application server running on a Windows or Linux system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/c\_DataCollDiscoWebLogicServers.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Software discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -19,7 +19,7 @@ Discovery creates or updates a CMDB record when it detects an instance of an Ora
 ## Requirements
 
 -   **For Windows**
-    -   [PowerShell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_SetUpAMIDServerToUsePowerShell.md) must be enabled on the MID Server.
+    -   [PowerShell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/t_SetUpAMIDServerToUsePowerShell.md) must be enabled on the MID Server.
     -   The WebLogic Administration Server instances that start via WebLogic NodeManager must have the **-Dweblogic.RootDirectory=&lt;path&gt;** parameter defined upon server startup. The Windows credential must also have read permissions on the `config.xml` file.
 -   **For Linux**
     -   Discovery requires the use of these Bourne shell commands:
@@ -45,9 +45,9 @@ Discovery creates or updates a CMDB record when it detects an instance of an Ora
 
 ## Credentials
 
--   [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md)
--   [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md)
--   [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md)
+-   [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md)
+-   [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md)
+-   [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md)
 
 ## Classifier, pattern, and probes
 
@@ -81,7 +81,7 @@ WebLogic
 </td></tr></tbody>
 </table>\*For new instances, these probes are inactive on the classifier. Discovery uses patterns for discovery.
 
-To use patterns, verify that the correct pattern is specified in the horizontal pattern probe on the classifier. See [Add the Horizontal Pattern probe to a classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for instructions.
+To use patterns, verify that the correct pattern is specified in the horizontal pattern probe on the classifier. See [Add the Horizontal Pattern probe to a classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for instructions.
 
 ## Data collected on Windows
 
@@ -164,10 +164,10 @@ cmdb\_ci\_app\_server\_weblogicThis relationship is made between an AdminServer 
 </td></tr></tbody>
 </table>\[Omitted image "weblogic-relationships.png"\] Alt text: Example weblogic relationships
 
--   **[Add sudo access for the Weblogic - Find config.xml probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/t_AddSudoforWeblogic.md)**  
+-   **[Add sudo access for the Weblogic - Find config.xml probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/t_AddSudoforWeblogic.md)**  
 If you are not using the Weblogic pattern, you can add sudo privileges to the Linux, the Weblogic - Find config.xml probe.
--   **[Identifying Windows WebLogic application servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_WeblogicProbesAndSensorsWindows.md)**  
+-   **[Identifying Windows WebLogic application servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/r_WeblogicProbesAndSensorsWindows.md)**  
 If you are not using the Weblogic pattern, Discovery follows this process when it uses the Windows - Active Processes or Linux - Active Processes probes.
 
-**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Software.md)
+**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/c_Software.md)
 

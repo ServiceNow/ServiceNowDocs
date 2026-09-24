@@ -3,9 +3,9 @@ title: Parameters for the Queue connector methods
 description: Learn about the various parameters for the Queue connector methods in RPA Desktop Design Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/queue-connector-method-parameters.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Queue, RPA Hub, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -28,7 +28,7 @@ Name
 
 </td><td>
 
-Name of the work item. The name is recorded under the Name column in the Work Items tab in the RPA Hub.By default, all queue item names are unique. However, you can create duplicates by clearing the **Is Work Item Name Unique** check box on the Queue form. For more information, see, [Queue form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queue-form.md).
+Name of the work item. The name is recorded under the Name column in the Work Items tab in the RPA Hub.By default, all queue item names are unique. However, you can create duplicates by clearing the **Is Work Item Name Unique** check box on the Queue form. For more information, see, [Queue form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/queue-form.md).
 
  After creation, you can find the work item under the **Work Items** tab of the queue, in RPA Hub.
 
@@ -40,7 +40,7 @@ Type
 
 The type of the work item. For example, for an accounting system queue, savings and current are types of accounts.
 
-To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-input-port-properties.md).
 
 </td></tr><tr><td>
 
@@ -152,7 +152,7 @@ Type of the exception:-   **Application** - For example, if an issue persists wi
 </td></tr></tbody>
 </table>## Enter inputs for parameters
 
-To enter inputs for the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+To enter inputs for the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-input-port-properties.md).
 
-**Parent Topic:**[Queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queue-connector.md)
+**Parent Topic:**[Queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/queue-connector.md)
 

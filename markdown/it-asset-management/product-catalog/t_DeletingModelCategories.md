@@ -3,11 +3,11 @@ title: Delete model categories
 description: If a model category is no longer needed, you can delete it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/product-catalog/t\_DeletingModelCategories.html
-release: australia
+release: brazil
 product: Product Catalog
 classification: product-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Model categories, Product Catalog, Common applications, Asset Management]
 ---
@@ -35,7 +35,7 @@ Only model categories that are not referenced by any models can be deleted.
 4.  Click **Delete**.
 
 
-**Parent Topic:**[Model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_ModelCategories.md)
+**Parent Topic:**[Model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/product-catalog/c_ModelCategories.md)
 
 **Related topics**  
 

@@ -3,11 +3,11 @@ title: Create a Quick IP range for a Discovery schedule
 description: Quick ranges enable administrators to define IP addresses to scan in a single comma-delimited string without creating separate records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/t\_CreateAQuickRange.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Discovery IP address configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Quick ranges enable administrators to define IP addresses to scan in a single co
 
 ## Before you begin
 
-Only MID Servers that are up and validated are used with quick ranges. The MID Servers must specify the Discovery application \(or ALL applications\) and have IP ranges configured if you use the auto-select feature on the [Discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
+Only MID Servers that are up and validated are used with quick ranges. The MID Servers must specify the Discovery application \(or ALL applications\) and have IP ranges configured if you use the auto-select feature on the [Discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
 
 Role required: discovery\_admin
 

@@ -3,9 +3,9 @@ title: Add an alternate color palette
 description: Customize a Theme Builder theme by creating an alternate color palette for the theme and publishing it to your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/tb-edit-color-palette.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [add alternate color, alternate color palette, customize a theme, create alternate color theme]
 breadcrumb: [Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
@@ -19,7 +19,7 @@ Customize a Theme Builder theme by creating an alternate color palette for the t
 
 Role required: ui\_builder\_admin
 
-For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
+For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/granular-admin-roles.md).
 
 You can also watch a short video on how to create an alternate color palette.
 
@@ -33,7 +33,7 @@ You can also watch a short video on how to create an alternate color palette.
 
     \[Omitted image "tb-home.png"\] Alt text: Page menu.
 
-2.  From the Home page view, select the Manager page view to see [the themes you have created](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-create-theme.md).
+2.  From the Home page view, select the Manager page view to see [the themes you have created](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/tb-create-theme.md).
 
     **Important:** When you have selected the theme you want to work on, verify that you have selected the correct scope for the theme from the application scope picker.
 
@@ -56,14 +56,14 @@ You can also watch a short video on how to create an alternate color palette.
     -   In the **Color palette name** field, change the color palette name.
     -   Select any of the three brand colors defined in this palette and change them from the color picker.
 
-        **Note:** For dark palettes, only the primary color can be edited. If you want to customize further, see [Edit components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-edit-components.md).
+        **Note:** For dark palettes, only the primary color can be edited. If you want to customize further, see [Edit components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/tb-edit-components.md).
 
 
 ## Result
 
 The alternate color palette is added to your core theme. The theme name now appears as a theme group with the palette recorded under the Color palette drop-down list.\[Omitted image "tb-color-palette-list.png"\] Alt text: Color palette drop-down list.
 
-If your theme is currently published, your alternate color palette is available for selection in the user's Theme preferences. For information on publishing your theme, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-apply-theme.md).
+If your theme is currently published, your alternate color palette is available for selection in the user's Theme preferences. For information on publishing your theme, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/tb-apply-theme.md).
 
-**Parent Topic:**[Manage or edit a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-edit-theme.md)
+**Parent Topic:**[Manage or edit a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/tb-edit-theme.md)
 

@@ -3,9 +3,9 @@ title: Create forecast adjustment
 description: Modify system-generated forecast values based on your judgment and prediction. Sales agents can adjust their individual forecasts and managers can modify team forecasts to align with overall targets. Sales managers can override team-level adjustments and the system automatically recalculates the roll-ups to reflect the updated forecast values.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-forecast-adjustment.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sales Forecasting, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_sales\_forecast.adjustment\_writer
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -45,12 +45,12 @@ Role required: sn\_sales\_forecast.adjustment\_writer
     On your forecast item, the Owner Adjustment field displays the adjusted forecast value and the Hierarchy Forecast value displays the original forecast value.
 
 
-**Parent Topic:**[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-sales-forecasting.md)
+**Parent Topic:**[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-sales-forecasting.md)
 
 **Related topics**  
 
 
-[Configure Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-sales-forecasting.md)
+[Configure Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-sales-forecasting.md)
 
-[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-forecasting.md)
+[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/sales-forecasting.md)
 

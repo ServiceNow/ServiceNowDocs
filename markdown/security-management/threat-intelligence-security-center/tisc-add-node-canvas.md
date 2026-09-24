@@ -3,11 +3,11 @@ title: Adding a new node to the canvas
 description: Use this section to create and add new entities, including observables or objects, directly from the investigation canvas.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-add-node-canvas.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Working with Investigation Canvas, Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -40,15 +40,15 @@ Role required: sn\_sec\_tisc.analyst
     -   Another option to view the **New Node** functionality is to view from the investigation canvas page directly.
 6.  To create a node, select the appropriate **Entity Category** and **Entity Type**.
 
-<table id="choicetable_y4f_vd5_zfc"><thead><tr><th align="left" id="d133492e151">
+<table id="choicetable_y4f_vd5_zfc"><thead><tr><th align="left" id="d133550e151">
 
 Field
 
-</th><th align="left" id="d133492e154">
+</th><th align="left" id="d133550e154">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d133492e160">
+</th></tr></thead><tbody><tr><td id="d133550e160">
 
 **Entity Category**
 
@@ -56,7 +56,7 @@ Description
 
 Select the entity category such as Observable, or Object.
 
-</td></tr><tr><td id="d133492e169">
+</td></tr><tr><td id="d133550e169">
 
 **Entity Type**
 
@@ -96,5 +96,5 @@ Select the entity type from the available options based on the select category.*
     By performing this action, the temporary records are converted to permanent aggregated records within the Threat Intelligence Library.
 
 
-**Parent Topic:**[Working with Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-investigation-canvases.md)
+**Parent Topic:**[Working with Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-investigation-canvases.md)
 

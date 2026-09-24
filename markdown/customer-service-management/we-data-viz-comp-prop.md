@@ -3,9 +3,9 @@ title: Component properties for the Data visualization
 description: Component properties enable you to configure the behavior of the Data visualization component instance on the third-party website.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/we-data-viz-comp-prop.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Web Embeddables component properties, Web Embeddables reference, Reference, Customer Service Management]
 ---
@@ -363,11 +363,11 @@ Determines the color for the chart. You can set color type to default, or single
 </table>**Related topics**  
 
 
-[Configure the Data visualization component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-data-viz-comp.md)
+[Configure the Data visualization component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-data-viz-comp.md)
 
-[Embed the Data visualization component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-data-viz-comp.md)
+[Embed the Data visualization component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-data-viz-comp.md)
 
-[Event handler in the Data visualization component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/we-data-viz-event-handler.md)
+[Event handler in the Data visualization component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/we-data-viz-event-handler.md)
 
-[Sample code for the Data visualization component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-data-viz-sample-code.md)
+[Sample code for the Data visualization component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-data-viz-sample-code.md)
 

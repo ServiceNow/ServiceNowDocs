@@ -3,11 +3,11 @@ title: Dot-walkable Currency Instance fields
 description: You can dot-walk certain fields in the Currency Instance \[fx\_currency2\_instance\] record, and field values stored in the database are consistent with each other. However, in script, since fields can be changed individually, and you change only some of the fields, they can be inconsistent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/currency-administration/fx-currency-dot-walkable-fields.html
-release: australia
+release: brazil
 product: Currency Administration
 classification: currency-administration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Currency administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -35,7 +35,7 @@ When the second operand is another Currency2 field, the condition translates in 
 
 `cost1>cost2` is treated as `cost1.currency=cost2.currency AND cost1.amount>cost2.amount`.
 
-**Parent Topic:**[Currency administration references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/currency-admin-references.md)
+**Parent Topic:**[Currency administration references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/currency-administration/currency-admin-references.md)
 
 **Related topics**  
 

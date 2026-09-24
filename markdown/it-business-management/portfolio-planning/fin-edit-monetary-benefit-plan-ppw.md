@@ -3,11 +3,11 @@ title: Edit monetary benefit plan
 description: Edit a planned monetary benefit plan to revise the benefits, dates, offset, and so on, to maintain the updated financial records as your work progresses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/fin-edit-monetary-benefit-plan-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create monetary benefit plans for your planning items in Portfolio Planning, Manage financials for planning items, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Edit a planned monetary benefit plan to revise the benefits, dates, offset, and 
 
 ## Before you begin
 
--   [Create monetary benefit plans for your planning items in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/fin-manage-monetary-benefit-plans-ppw.md)
+-   [Create monetary benefit plans for your planning items in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/fin-manage-monetary-benefit-plans-ppw.md)
 -   Role required: sn\_align\_ws.spw\_financial\_user
 
 ## Procedure
@@ -31,15 +31,15 @@ Edit a planned monetary benefit plan to revise the benefits, dates, offset, and 
 
 3.  Update a monetary benefit plan using one of the following options.
 
-<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d51727e95">
+<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d50961e95">
 
 Option
 
-</th><th align="left" id="d51727e98">
+</th><th align="left" id="d50961e98">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d51727e104">
+</th></tr></thead><tbody><tr><td id="d50961e104">
 
 **Using Monetary benefit plan related list**
 
@@ -50,7 +50,7 @@ Procedure
 3.  In the Details tab, edit the required fields and select **Save**.
 
 
-</td></tr><tr><td id="d51727e131">
+</td></tr><tr><td id="d50961e131">
 
 **Using finanicals record page**
 

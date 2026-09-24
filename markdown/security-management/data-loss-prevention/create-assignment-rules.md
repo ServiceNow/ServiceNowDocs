@@ -3,11 +3,11 @@ title: Create assignment rules
 description: Create assignment rules and assign the Data Loss Prevention Incident Response \(DLP IR\) incidents to user groups, end users, managers, or user from incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/create-assignment-rules.html
-release: australia
+release: brazil
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Administer, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -31,7 +31,7 @@ Use assignment rules to assign DLP IR incidents to user groups, end users, or to
 
 1.  Navigate to **All** &gt; **DLP Administration** &gt; **Assignment Rules**.
 
-2.  Select **New**.
+2.  Click **New**.
 
 3.  On the form, fill in the fields.
 
@@ -190,24 +190,20 @@ Advanced option to identify the end user. This field appears only when the **Cus
 For example, you can use the email address field to identify the end user.
 
 </td></tr></tbody>
-</table>    The following example shows an assignment rule with the name `Assign 'Medium' Priority Incident to End User`. The condition builder requires the Scan Source to be `Endpoint File System`, and the `Assign to` field is set to `End user`. Then, you can look up the 'Email' of the End user.
+</table>4.  Select the **Assign to** field from the related list section where all the DLP incidents are assigned to.
 
-    \[Omitted image "dlp-assignment-rule.png"\] Alt text: Create the assignment rules for your Data Loss Prevention Incident Response incidents
-
-4.  Select the **Assign to** field from the related list section where all the DLP incidents are assigned to.
-
-    Select **Edit** to add the user group. When you select **Edit** from the related list section and select an item from the **Collections** columns and then add that selected assignee to the Group columns in the **Edit Members** page, and save the list.
+    Click **Edit** to add the user group. When you click **Edit** from the related list section and select an item from the **Collections** columns and then add that selected assignee to the Group columns in the **Edit Members** page, and save the list.
 
     **Note:** You can only view and select groups that have been assigned with the sn\_dlir.analyst role from the related list. You can only select one group.
 
-5.  Select **Submit**.
+5.  Click **Submit**.
 
     You can select one or more assignment rules and reapply it on all existing DLP incidents.
 
-6.  To reapply an assignment rule on all existing DLP incidents, select **Reapply**.
+6.  To reapply an assignment rule on all existing DLP incidents, click **Reapply**.
 
 
-**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
+**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
 
 **Related topics**  
 
@@ -242,7 +238,7 @@ For example, you can use the email address field to identify the end user.
 
 [Create repeat offender identification rules]()
 
-[Create additional incident data fields]()
+[Create Additional Incident Data Fields]()
 
 [DLP SLA Definition form]()
 

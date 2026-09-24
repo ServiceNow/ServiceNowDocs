@@ -3,7 +3,7 @@ title: Activate an AI Agent in Public Sector Digital Services AI Agent Collectio
 description: Configure and activate standalone AI agents to perform various tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-activate-ai-agents.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -64,7 +64,7 @@ To access AI agents for use with Public Sector:
 
 4.  Select **Define the specialty**, review the fields, and confirm that the AI agent meets your requirements.
 
-    If it doesn't meet your requirements, you can edit the AI agent. To modify the AI agent, [Duplicate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-ai-agent.md), and adjust the settings according to your requirements. You can activate the AI agent template by making triggers active and setting the display settings to include the ServiceNow Otto panel.
+    If it doesn't meet your requirements, you can edit the AI agent. To modify the AI agent, [Duplicate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-ai-agent.md), and adjust the settings according to your requirements. You can activate the AI agent template by making triggers active and setting the display settings to include the ServiceNow Otto panel.
 
     **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
@@ -78,11 +78,11 @@ To access AI agents for use with Public Sector:
 
     Triggers can include record conditions, schedules, or inbound email.
 
-    For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-trigger-aia.md).
+    For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-trigger-aia.md).
 
 8.  Select **Channels and status** to choose the channels where this AI agent will be available for users to initiate interactions, and set its availability status.
 
-    For more information, see [Select channels and status for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/channels-access-aia.md).
+    For more information, see [Select channels and status for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/channels-access-aia.md).
 
 9.  Select **Save and test**.
 
@@ -93,7 +93,7 @@ To access AI agents for use with Public Sector:
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
-Use the Testing playground to [Manually test the execution of an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-ai-agent.md) using example utterances.
+Use the Testing playground to [Manually test the execution of an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-ai-agent.md) using example utterances.
 
 If activation fails, check roles and skill configuration.
 

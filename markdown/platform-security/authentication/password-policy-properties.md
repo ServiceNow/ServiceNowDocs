@@ -3,11 +3,11 @@ title: Password policy properties
 description: The password policy properties enable you to administrate password policies, exclude list passwords, and apply a password policy during login.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/password-policy-properties.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enable password policies on your instance, Password complexity requirements, Local authentication, Authentication, Access Management]
 ---

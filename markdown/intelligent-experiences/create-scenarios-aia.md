@@ -3,12 +3,12 @@ title: Create test scenarios for an agentic AI asset
 description: Create different scenarios to evaluate your agentic AI asset's performance across multiple executions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-scenarios-aia.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [agentic evaluation, automated evaluation, automatic evaluation, batch testing, test scenarios, test objectives]
-breadcrumb: [AI Agent Studio, Enable AI experiences]
+breadcrumb: [AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Create test scenarios for an agentic AI asset
@@ -35,15 +35,15 @@ Role required: sn\_aia.admin
 
 5.  Select an input method.
 
-<table><thead><tr><th align="left" id="d186264e129">
+<table><thead><tr><th align="left" id="d173478e129">
 
 Input method
 
-</th><th align="left" id="d186264e132">
+</th><th align="left" id="d173478e132">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d186264e138">
+</th></tr></thead><tbody><tr><td id="d173478e138">
 
 **__Table records__**
 
@@ -51,7 +51,7 @@ Description
 
 Select records from an existing table to test against. You can use table fields as variables when you craft your test objective. Continue to the next step.
 
-</td></tr><tr><td id="d186264e148">
+</td></tr><tr><td id="d173478e148">
 
 **__Manual entry__**
 
@@ -91,5 +91,5 @@ Your agentic AI asset has test scenarios that can be used for automated evaluati
 
 ## What to do next
 
-Add new scenarios to your agentic AI asset, such as ones on different tables, select **Run test** then **Evaluation** to use the scenarios in an automated evaluation. See [Launch an automated evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/launch-aia-eval.md) for the full process details.
+Add new scenarios to your agentic AI asset, such as ones on different tables, select **Run test** then **Evaluation** to use the scenarios in an automated evaluation. See [Launch an automated evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/launch-aia-eval.md) for the full process details.
 

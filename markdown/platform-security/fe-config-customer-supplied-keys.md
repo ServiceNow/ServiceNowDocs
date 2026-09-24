@@ -3,9 +3,9 @@ title: Configure Customer-supplied keys for Field Encryption Enterprise
 description: Bring your own data encryption key to the platform instead of using the one that ServiceNow generates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/fe-config-customer-supplied-keys.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Field Encryption, Field Encryption, Encryption]
 ---
@@ -43,14 +43,14 @@ You must have a symmetric key that has been generated outside of ServiceNow. The
 
 Use the symmetric key you've created on your instance by following these steps:
 
-1.  [Configure properties for customer-supplied key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-properties-for-customer-supplied-key.md)
-2.  [Wrap your customer-supplied key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/wrap-your-customer-supplied-key.md)
+1.  [Configure properties for customer-supplied key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/configure-properties-for-customer-supplied-key.md)
+2.  [Wrap your customer-supplied key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/wrap-your-customer-supplied-key.md)
 3.  
 
--   **[Configure properties for customer-supplied key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-properties-for-customer-supplied-key.md)**  
+-   **[Configure properties for customer-supplied key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/configure-properties-for-customer-supplied-key.md)**  
 Review the system properties for the ephemeral public wrapping key that your instance uses to unwrap customer-supplied keys.
--   **[Wrap your customer-supplied key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/wrap-your-customer-supplied-key.md)**  
+-   **[Wrap your customer-supplied key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/wrap-your-customer-supplied-key.md)**  
 Wrap your symmetric data encryption key with an ephemeral public wrapping key before you can upload it to your instance.
 
-**Parent Topic:**[Configuring Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-column-level-encryption.md)
+**Parent Topic:**[Configuring Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/configuring-column-level-encryption.md)
 

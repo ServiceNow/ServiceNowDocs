@@ -3,9 +3,9 @@ title: Managing ServiceNow mobile apps with BlackBerry UEM
 description: Learn how to manage ServiceNow mobile applications in the BlackBerry UEM \(Unified Endpoint Management\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/configure-blackberry-uem.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [BlackBerry UEM, Device management, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -55,5 +55,5 @@ Role required: admin
     **Note:** If using the instructions above to setup the BlackBerry Access browser as your authentication browser, you must also have an app configuration setup for the BlackBerry Access app. This is necessary to successfully authenticate to ServiceNow integrated apps.
 
 
-**Parent Topic:**[BlackBerry Unified Endpoint Management \(UEM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/blackberry-uem.md)
+**Parent Topic:**[BlackBerry Unified Endpoint Management \(UEM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/blackberry-uem.md)
 

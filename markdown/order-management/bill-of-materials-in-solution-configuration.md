@@ -3,11 +3,11 @@ title: Bill of Materials in solution configuration
 description: The solution bill of materials consolidates products from all configurations in a session, including child and grandchild configurations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/bill-of-materials-in-solution-configuration.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-26"
 reading_time_minutes: 1
-breadcrumb: [Solution configurations, CPQ Configurator, Configure, price, quote apps, Explore, Sales Customer Relationship Management]
+breadcrumb: [Solution configurations, CPQ Configurator, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Bill of Materials in solution configuration
@@ -23,9 +23,9 @@ When two child products share the same parent product and product ID but should 
 **Related topics**  
 
 
-[View the solution bill of materials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-solution-bom.md)
+[View the solution bill of materials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/view-solution-bom.md)
 
-[Solution navigation and layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/solution-navigation-layout.md)
+[Solution navigation and layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/solution-navigation-layout.md)
 
-[Solution configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/solution-configurations.md)
+[Solution configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/solution-configurations.md)
 

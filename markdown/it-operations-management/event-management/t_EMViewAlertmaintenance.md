@@ -3,11 +3,11 @@ title: View all alerts by the maintenance status
 description: The Maintenance status indicates that the CI is under maintenance. For example, there is a software upgrade, and the issues can result from that activity, therefore all maintenance alerts are discarded.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMViewAlertmaintenance.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View alert information, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -41,8 +41,8 @@ The alert maintenance status can change due to any of these reasons:
 
     A value of **true** indicates that the CI is under maintenance.
 
-    **Note:** If the **Maintenance** field is not visible on the Alert form, personalize the list to add the field. For more information, see [Personal lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_PersonalLists.md).
+    **Note:** If the **Maintenance** field is not visible on the Alert form, personalize the list to add the field. For more information, see [Personal lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_PersonalLists.md).
 
 
-**Parent Topic:**[View alert information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMViewAlert.md)
+**Parent Topic:**[View alert information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMViewAlert.md)
 

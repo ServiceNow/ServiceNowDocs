@@ -3,11 +3,11 @@ title: Document Viewer
 description: Document Viewer enables you to view documents directly in the ServiceNow AI Platform rather than having to download them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/Documentviewer.html
-release: australia
+release: brazil
 product: Document Management Services
 classification: document-management-services
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,49 +16,47 @@ breadcrumb: [Document Services, Manage content capabilities, Extend ServiceNow A
 
 Document Viewer enables you to view documents directly in the ServiceNow AI Platform rather than having to download them.
 
-Document Viewer is available in the Classic UI, Service Portals and Workspace.
-
-Document Viewer supports viewing various file types in the platform including a UTF-8 character encoded PDF files up to 50 MB. To use Document Viewer, enable it at instance level.
+Document Viewer supports viewing various file types in the platform including a UTF-8 character encoded PDF file. The maximum document file size is 50 MB. To use Document Viewer, enable it at instance level and for the tables for which you want to use it.
 
 **Note:** Document Viewer also supports FedRAMP instances.
 
-**Supported file types**
+You can view the following file types:
 
 -   MS Word \(.doc\) and \(.docx\)
 -   MS PowerPoint \(.ppt\) and \(pptx\)
 -   MS Excel \(.xls\) and \(.xlsx\)
 -   PDF
--   txt
 -   PNG
 -   JPEG
+-   MP4
 
-Other file types, such as .ZIP or .exe files, are automatically downloaded without opening in Document Viewer. Word documents and spreadsheets are converted to PDF before viewing, which may take a moment to render on first load.
+**Note:** The JPEG file supports image rotation and zoom actions.
 
-## Document Viewer features
+Other document types, for example, .zip or .exe files, are automatically downloaded without requiring Document Viewer. Document viewer converts word documents and spreadsheets to pdf first in order to view them. This might take some time to render the file the first time.
 
-The following features are available in Document Viewer across Workspace, Classic UI, and Service Portals:
+\[Omitted image "DocViewerPDFView.png"\] Alt text: Viewing a PDF file in Document Viewer
 
--   Document summary in text and voice
--   Voice and text based Q&amp;A
--   FAQ
--   Smart redaction
--   Manual redaction
+**Note:**
 
-## Revert to the classic document viewer
+You can only download PDF attachments with in the document.
 
-By default, viewing an attachment opens the Next Experience Document Viewer. To revert to the classic document viewer, a user with the document\_admin role can set the system property value to classic.
+The following table describes the icons used in Document Viewer.
 
-The **com.snc.documentviewer.default** system property determines which document viewer opens when a user selects **View** on an attachment in the Classic UI. By default, the property is set to **next\_experience**, which opens the Next Experience Document Viewer and makes ServiceNow Otto features such as document summary, voice Q&amp;A, smart redaction, and manual redaction available in the Classic UI and Service Portals.
-
-To revert to the classic document viewer:
-
-1.  Navigating to **System Properties** and search for **com.snc.documentviewer.default**.
-2.  Set the value to `classic`.
+|Icon|Description|
+|----|-----------|
+|\[Omitted image "IconDocViewerToggleSidebar.png"\] Alt text: Sidebar toggle icon to preview all the pages in the document|Toggle the sidebar to see a preview of all the pages in the document.|
+|\[Omitted image "IconDocViewerDownloadAttch.png"\] Alt text: Icon to download the attachment|Download the attachment.|
+|\[Omitted image "IconDocViewerPreviousPg.png"\] Alt text: Page up or page down icons to scroll the page|Page up or down using the arrow buttons. You can also scroll or use your keyboard arrow keys.|
+|\[Omitted image "IconDocViewerClockwise.png"\] Alt text: Icon to rotate document page|Rotate the page to the right.|
+|\[Omitted image "IconDocViewerUnClockwise.png"\] Alt text: Icon to rotate page|Rotate the page to the left.|
+|\[Omitted image "IconDocViewerMagnification.png"\] Alt text: Icons to zoom in or zoom out of the document|Zoom in or out of the document.|
+|\[Omitted image "IconDocViewerFitWidth.png"\] Alt text: Icon to increase the page display to full width|Increase the page to the full width of Document Viewer.|
+|\[Omitted image "IconDocViewerSearch.png"\] Alt text: Search bar with arrows to toggle to the next search result|Search for keywords in the document. Use the arrows to toggle to the next search result.|
 
 **Related topics**  
 
 
-[View attachments with Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/view-attachment-doc-viewer.md)
+[View attachments with Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/view-attachment-doc-viewer.md)
 
-[Enable Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/enable-document-viewer.md)
+[Enable Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/enable-document-viewer.md)
 

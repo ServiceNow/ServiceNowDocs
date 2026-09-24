@@ -3,9 +3,9 @@ title: Application File form
 description: Use the Application File form to view relationships between applications and configuration records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/r\_ApplicationFileForm.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Application files, Anatomy of an application, Learning about developing on the ServiceNow AI Platform, Building applications]
 ---
@@ -28,5 +28,5 @@ Use the Application File form to view relationships between applications and con
 |Related Record Versions|Version records for the related configuration record. A version record is created every time a user changes the related record. Use this list to compare versions of the configuration record or to revert to a previous version. See Versions.|
 |Related Record Updates|Local update records for the related configuration record. An update record is created for the most recent change to the related record in a given Update Set. See Update Sets.|
 
-**Note:** You may find it useful to manually add an **Owned By** \(owned\_by\) field to this form. It indicates, for each application, who in IT owns the application and is responsible for maintaining information about it. The Data Certification function uses this field to send certification tasks every quarter, or at any time interval that is configured. You can assign certification tasks to other users, but using this field limits configuration effort. To learn more about adding a field to a form, and about Data Certification, see [Using the form designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_FormDesign.md) and [Data Certification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_DataCertification.md).
+**Note:** You may find it useful to manually add an **Owned By** \(owned\_by\) field to this form. It indicates, for each application, who in IT owns the application and is responsible for maintaining information about it. The Data Certification function uses this field to send certification tasks every quarter, or at any time interval that is configured. You can assign certification tasks to other users, but using this field limits configuration effort. To learn more about adding a field to a form, and about Data Certification, see [Using the form designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_FormDesign.md) and [Data Certification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_DataCertification.md).
 

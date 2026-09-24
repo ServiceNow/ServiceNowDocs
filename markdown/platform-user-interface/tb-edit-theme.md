@@ -3,9 +3,9 @@ title: Manage or edit a theme with Theme Builder
 description: Customize and manage your theme and styling in a time and cost efficient way. After customizing, publish your new theme to either a web or mobile implementation of your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/tb-edit-theme.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [customize theme, edit theme, manage theme, change theme]
 breadcrumb: [Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
@@ -19,7 +19,7 @@ Customize and manage your theme and styling in a time and cost efficient way. Af
 
 Role required: ui\_builder\_admin
 
-For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
+For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/granular-admin-roles.md).
 
 ## Procedure
 
@@ -61,15 +61,15 @@ For information on granular roles, see [Granular admin roles](https://raw.github
     -   Publish: makes the theme available for use.
 3.  Choose the theme you want to edit using one of the following ways.
 
-<table id="choicetable_v1x_lnb_qfc"><thead><tr><th align="left" id="d51972e241">
+<table id="choicetable_v1x_lnb_qfc"><thead><tr><th align="left" id="d52897e241">
 
 Page
 
-</th><th align="left" id="d51972e244">
+</th><th align="left" id="d52897e244">
 
 Option
 
-</th></tr></thead><tbody><tr><td id="d51972e250">
+</th></tr></thead><tbody><tr><td id="d52897e250">
 
 **Manager \(Grid view\)**
 
@@ -77,7 +77,7 @@ Option
 
 From the Published or Unpublished section, choose the theme you want to edit and select **Edit**.
 
-</td></tr><tr><td id="d51972e262">
+</td></tr><tr><td id="d52897e262">
 
 **Manager \(List view\)**
 
@@ -85,7 +85,7 @@ From the Published or Unpublished section, choose the theme you want to edit and
 
 From the Published or Unpublished section, choose the theme you want to edit and select the pencil icon \[Omitted image "pencil-icon.png"\] Alt text:.
 
-</td></tr><tr><td id="d51972e276">
+</td></tr><tr><td id="d52897e276">
 
 **Editor**
 
@@ -104,10 +104,10 @@ Choose the theme you want to edit from the Theme drop-down list.\[Omitted image 
 
     **Note:** The following style records are generated with your theme:
 
-    -   **Your brand palette**: Update the interface colors for your brand. For more information, see [Edit your theme colors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/edit-theme-colors.md).
-    -   **Logo**: Update the logo. You can upload the logo during the theme application from the Overview page. For more information, see [Upload a new logo to your Theme Builder theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-upload-logo.md).
-    -   **Typography**: Update the fonts applied globally to your experience. The fonts are used in headlines, titles, subtitles, body text, and captions. For more information, see [Edit your default font](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/edit-font.md).
-    -   **Shape**: Update the corner shapes of on-screen components. For more information, see [Edit corner shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/edit-corner-shapes.md).
+    -   **Your brand palette**: Update the interface colors for your brand. For more information, see [Edit your theme colors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/edit-theme-colors.md).
+    -   **Logo**: Update the logo. You can upload the logo during the theme application from the Overview page. For more information, see [Upload a new logo to your Theme Builder theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/tb-upload-logo.md).
+    -   **Typography**: Update the fonts applied globally to your experience. The fonts are used in headlines, titles, subtitles, body text, and captions. For more information, see [Edit your default font](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/edit-font.md).
+    -   **Shape**: Update the corner shapes of on-screen components. For more information, see [Edit corner shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/edit-corner-shapes.md).
 5.  Preview your theme before publishing.
 
     1.  Select the **Experiences** tab from the Global styles panel.
@@ -124,19 +124,19 @@ Choose the theme you want to edit from the Theme drop-down list.\[Omitted image 
 
 6.  Publish your theme.
 
-    For more information, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-apply-theme.md).
+    For more information, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/tb-apply-theme.md).
 
 
--   **[Core styles, colors, variants, and alternate color palettes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/difference-themes-variants.md)**  
+-   **[Core styles, colors, variants, and alternate color palettes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/difference-themes-variants.md)**  
 You can tailor the look and feel of the Next Experience UI for different users by configuring the core styles, variants, and alternate color palettes. Core styles define the base theme, variants support accessibility needs, and alternate color palettes provide cosmetic customization options for end users.
--   **[Add an alternate color palette](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-edit-color-palette.md)**  
+-   **[Add an alternate color palette](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/tb-edit-color-palette.md)**  
 Customize a Theme Builder theme by creating an alternate color palette for the theme and publishing it to your instance.
--   **[Working with Global styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/working-with-global-styles.md)**  
+-   **[Working with Global styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/working-with-global-styles.md)**  
 Global styles enable you to edit and define core design elements like fonts, colors, and shapes that apply across your entire theme.
--   **[Working with Component styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/working-with-component-styles.md)**  
+-   **[Working with Component styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/working-with-component-styles.md)**  
 Component styles enable you to fine-tune the appearance of individual UI elements such as buttons, form controls, and navigation without affecting global theme settings. Use component styles when you need more granular control than what Global styles provide.
--   **[Working with Image styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/working-with-image-styles.md)**  
+-   **[Working with Image styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/working-with-image-styles.md)**  
 Image styles enable you to experiment with different color schemes for illustrations and replace default illustrations with your own custom images. The Image styles feature provides flexibility in customizing the visual elements of your theme.
 
-**Parent Topic:**[Configuring Next Experience with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configuring-next-experience-with-theme-builder.md)
+**Parent Topic:**[Configuring Next Experience with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configuring-next-experience-with-theme-builder.md)
 

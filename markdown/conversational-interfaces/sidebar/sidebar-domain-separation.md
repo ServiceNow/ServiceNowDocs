@@ -3,11 +3,11 @@ title: Domain separation and Sidebar
 description: Domain separation is supported for Sidebar . Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/sidebar/sidebar-domain-separation.html
-release: australia
+release: brazil
 product: Sidebar
 classification: sidebar
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Sidebar reference, Sidebar, Conversational Interfaces]
 ---
@@ -25,7 +25,7 @@ Domain separation is supported for Sidebar. Domain separation enables you to sep
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-separated-apps.md).
 
 ## Overview of Domain separation and Sidebar
 
@@ -41,16 +41,16 @@ To fully utilize domain separation, you must be on both the Vancouver version an
 
 If you are a first time Sidebar user in Vancouver \(you did not use Sidebar earlier and are not trued up to the Vancouver store app\) and want to leverage domain separation, Sidebar is inactive by default. Navigate to the Conversational Interfaces settings page for each domain and activate Sidebar manually. Alternatively, you can access the sys\_cs\_collab\_settings table and manually insert a new record for each domain.
 
-There is a known issue with emojis not working as expected when used with domain separation. To work around this issue, go to the Enable Emojis ACE Content block and update the record field with the sys\_cs\_collab\_settings record's sys\_id for the given domain.
+There is a known issue with emojis not working as expected when used with domain separation. A workaround for this issue is to go to the Enable Emojis ACE Content block and update the record field with the sys\_cs\_collab\_settings record's sys\_id for the given domain.
 
 ## Domain separation with the Sidebar and Microsoft Teams integration
 
-If Sidebar and Microsoft Teams are integrated and configured, activating Sidebar prompts a message stating that the Microsoft Teams integration must be manually turned on. Deactivating Sidebar prompts a message stating that the integration with Microsoft Teams will also be turned off.
+If Sidebar and Microsoft Teams are integrated and configured, activating Sidebar prompts a message stating that the Microsoft Teams integration must be manually turned on and deactivating Sidebar prompts a message stating that the integration with Microsoft Teams will also be turned off.
 
 Domain separation will not work with Microsoft Teams if multiple domains are configured. Pairing a unique Microsoft Teams with each domain is not supported.
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-sep-landing-page.md)
 

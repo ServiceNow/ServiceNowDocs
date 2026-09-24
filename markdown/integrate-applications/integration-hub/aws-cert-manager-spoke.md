@@ -3,7 +3,7 @@ title: AWS Certificate Manager Spoke
 description: Manage certificates in AWS Certificate Manager account from your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/aws-cert-manager-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
@@ -73,5 +73,5 @@ The AWS Certificate Manager spoke provides actions to automate AWS Certificate M
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up the AWS Certificate Manager spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-aws-cert-manager.md).
+For information about setting up the spoke, see [Set up the AWS Certificate Manager spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-aws-cert-manager.md).
 

@@ -3,11 +3,11 @@ title: Translate a knowledge article in Agent Workspace
 description: Translate published knowledge articles to make them available in other languages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/translate-directly-workspace.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Authoring a knowledge article in Agent Workspace, Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -27,9 +27,9 @@ Ensure that the system administrator verifies the following settings:
 
     **Note:** The 18N: Internationalization plugin \(com.glide.i18n\) activates the I18N: Knowledge Management Internationalization Plugin v2 plugin.
 
--   The **glide.knowman.translation.enable\_translation\_task** property is set to `true` in the ServiceNow AI Platform interface. For more information, see [Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md).
+-   The **glide.knowman.translation.enable\_translation\_task** property is set to `true` in the ServiceNow AI Platform interface. For more information, see [Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md).
 
-    **Note:** When the **glide.knowman.translation.enable\_translation\_task** property is set to `false`, translate the knowledge article by clicking **New** in the Translated version related list of a Knowledge form. The Knowledge form that is displayed to translate the article is based on the article template of the source knowledge article. You can enter your translation content in the Knowledge form. For more information about the Knowledge form, see [Create a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-article-workspace.md).
+    **Note:** When the **glide.knowman.translation.enable\_translation\_task** property is set to `false`, translate the knowledge article by clicking **New** in the Translated version related list of a Knowledge form. The Knowledge form that is displayed to translate the article is based on the article template of the source knowledge article. You can enter your translation content in the Knowledge form. For more information about the Knowledge form, see [Create a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/create-article-workspace.md).
 
 
 Role required: agent\_workspace\_user
@@ -38,7 +38,7 @@ Role required: agent\_workspace\_user
 
 If you have contribute access to a knowledge article, you can translate a knowledge article directly from the knowledge form.
 
-If your system administrator has configured languages for the knowledge base, you can translate into those languages only. For more information, see [Create a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-a-knowledgebase.md).
+If your system administrator has configured languages for the knowledge base, you can translate into those languages only. For more information, see [Create a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/create-a-knowledgebase.md).
 
 **Note:** The translation management feature isn't available for knowledge blocks in Agent Workspace.
 
@@ -62,7 +62,7 @@ If your system administrator has configured languages for the knowledge base, yo
 
     -   If dynamic translation is enabled, click **Machine translate** to automatically replace the draft content in the Translated language section with machine-translated content in the targeted language.
 
-        **Note:** A default translator configuration should be available. For configuring the translation API, see [Dynamic translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation.md).
+        **Note:** A default translator configuration should be available. For configuring the translation API, see [Dynamic translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-translation.md).
 
         When you click **Machine translate**, any draft content in the Translated language section is automatically replaced with the machine-translated content.
 
@@ -79,7 +79,7 @@ When the translated version of the knowledge article is published, a new knowled
 **Related topics**  
 
 
-[Request translations for missing languages in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/request-translations-agent.md)
+[Request translations for missing languages in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/request-translations-agent.md)
 
-[Translation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/translation-management.md)
+[Translation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/translation-management.md)
 

@@ -3,11 +3,11 @@ title: Configurable Workspace category
 description: Interact directly with the configurable workspace components for simpler test creation.Navigate to a workspace page using a URL. The feature allows for URLs to be entered with or without the preceding domain name.Interact with a seismic component on a workspace page using the Test Page test step.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/test-steps-conf-ws-tests-category.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Automated Test Framework \(ATF\) test step categories, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---

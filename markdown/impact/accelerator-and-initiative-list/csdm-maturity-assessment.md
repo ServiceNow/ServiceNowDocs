@@ -3,11 +3,11 @@ title: CSDM Maturity Assessment
 description: This Accelerator provides insight into your current alignment to the Common Service Data Model \(CSDM\) within ServiceNow and related people, process and governance maturity, providing targeted recommendations on the next steps to unlock additional value from the platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/csdm-maturity-assessment.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [CSDM, Common Service Data Model, Maturity Assessment, Data Model, CMDB]
 breadcrumb: [Architecture Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
@@ -29,7 +29,7 @@ By giving customers, a clear snapshot of their current data management maturity 
 
 ## Prerequisites
 
-Customers are encouraged to complete the [TuneUp Your CMDB technical accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/tuneup-your-cmdb.md) prior to taking this accelerator to ensure we have targeted information about platform data table usage.
+Customers are encouraged to complete the [TuneUp Your CMDB technical accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/tuneup-your-cmdb.md) prior to taking this accelerator to ensure we have targeted information about platform data table usage.
 
 ## What You Get
 

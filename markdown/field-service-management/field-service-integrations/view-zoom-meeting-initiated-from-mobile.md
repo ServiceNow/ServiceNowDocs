@@ -3,11 +3,11 @@ title: View details for recorded conference calls
 description: View details for a recorded Zoom and Microsoft Teams meetings initiated from the Now Agent mobile application by accessing the associated conference record for work order task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-integrations/view-zoom-meeting-initiated-from-mobile.html
-release: australia
+release: brazil
 product: Field Service Integrations
 classification: field-service-integrations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integration with Virtual Conferencing, Integrating Field Service Management with other applications, Configure, Field Service Management]
 ---
@@ -37,5 +37,5 @@ You can access recorded Zoom and Microsoft Teams meetings details from conferenc
     -   To review the Zoom meeting details, open a Zoom recording.
     -   To review the Microsoft Teams meeting details, open a Microsoft Teams recording.
 
-**Parent Topic:**[Integration with Virtual Conferencing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/virtual-conference-integration-fsm.md)
+**Parent Topic:**[Integration with Virtual Conferencing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-integrations/virtual-conference-integration-fsm.md)
 

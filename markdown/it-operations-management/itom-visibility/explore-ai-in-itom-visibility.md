@@ -1,75 +1,27 @@
 ---
 title: AI in ITOM Visibility
-description: AI features in ITOM Visibility help administrators automate service maps, diagnose discovery issues, manage certificates, and resolve incidents using generative AI.
+description: AI features in ITOM Visibility help administrators automate service maps, diagnose discovery issues, manage certificates, and resolve incidents using generative AI and agentic workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/explore-ai-in-itom-visibility.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2026-07-06"
-reading_time_minutes: 10
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 keywords: [Now Assist, AI, ITOM Visibility, generative AI, agentic AI]
 breadcrumb: [ITOM Visibility, IT Operations Management]
 ---
 
 # AI in ITOM Visibility
 
-AI features in ITOM Visibility help administrators automate service maps, diagnose discovery issues, manage certificates, and resolve incidents using generative AI.
+AI features in ITOM Visibility help administrators automate service maps, diagnose discovery issues, manage certificates, and resolve incidents using generative AI and agentic workflows.
 
 AI features in ITOM Visibility span several products. The following tables summarize all available AI features by type and product.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-## MCP servers
-
-MCP servers in ITOM Visibility expose instance data to external AI clients through the Model Context Protocol, giving those clients structured, ACL-enforced access to live CMDB and service data.
-
-<table id="table_explore-visibility-mcp-servers"><thead><tr><th>
-
-Product
-
-</th><th>
-
-AI feature
-
-</th><th>
-
-Description
-
-</th><th>
-
-Use case
-
-</th><th>
-
-Resources
-
-</th></tr></thead><tbody><tr><td>
-
-Service Mapping
-
-</td><td>
-
-Service Mapping MCP server
-
-</td><td>
-
-Exposes five read-only tools through the CMDB MCP Server. The tools give AI clients such as Claude structured access to live application service data, including full service topology, server impact graphs, and unmapped CIs. Authentication uses OAuth 2.0 with JWT tokens and enforces the same ACLs as standard instance API calls.
-
-</td><td>
-
-A Service Mapping administrator or operator wants to query service topology, identify mapping gaps, or assess server impact. They do so by using natural language in an AI client, without navigating the instance UI.
-
-</td><td>
-
--   [Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-mcp-server.md)
--   [Activate the CMDB MCP Server for Service Mapping tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/activate-sm-mcp-server.md)
--   [Connect Claude Desktop to the Service Mapping MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/connect-claude-desktop-sm-mcp.md)
--   [Service Mapping MCP tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/sm-mcp-tools.md)
-
-</td></tr></tbody>
-</table>## Agentic workflows
+## Agentic workflows
 
 Agentic workflows in ITOM Visibility use AI agents to complete investigation and management tasks autonomously or with minimal administrator input.
 
@@ -111,7 +63,7 @@ A discovery administrator notices that a CI attribute is missing and wants to id
 
 </td><td>
 
-[Pattern diagnostic agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/pattern-diagnostic-agentic-workflow.md)
+[Pattern diagnostic agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/pattern-diagnostic-agentic-workflow.md)
 
 </td></tr><tr><td>
 
@@ -131,8 +83,8 @@ A firewall administrator wants to request a new firewall rule by describing it i
 
 </td><td>
 
--   [Firewall rule requests using agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/firewall-rule-requests-ai-workflow.md)
--   [Request firewall rules using agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/firewall-rule-requests-ai-workflow.md)
+-   [Firewall rule requests using agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/firewall-rule-requests-ai-workflow.md)
+-   [Request firewall rules using agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/firewall-rule-requests-ai-workflow.md)
 
 </td></tr><tr><td>
 
@@ -152,10 +104,10 @@ An operator or change manager wants to assess the risk of a change request befor
 
 </td><td>
 
--   [Analyze potential impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/now-assist-itom-analyze-potential-impact-workflow.md)
--   [Assess a change request with the Analyze potential impact workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/use-now-assist-analyze-impact-agentic-workflow.md)
--   [Activate the Service Mapping Candidate skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/activate-sm-candidate-skill.md)
--   [Activate the Service Mapping Candidates Impact skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/activate-sm-candidates-impact-skill.md)
+-   [Analyze potential impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/now-assist-itom-analyze-potential-impact-workflow.md)
+-   [Assess a change request with the Analyze potential impact workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/use-now-assist-analyze-impact-agentic-workflow.md)
+-   [Activate the Service Mapping Candidate skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/activate-sm-candidate-skill.md)
+-   [Activate the Service Mapping Candidates Impact skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/activate-sm-candidates-impact-skill.md)
 
 </td></tr><tr><td>
 
@@ -175,8 +127,8 @@ A LEAP administrator wants to find the most relevant Ansible job templates for a
 
 </td><td>
 
--   [Ansible automation integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/ansible-automation-integration-overview.md)
--   [Ansible discovery agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/ansible-discovery-agent.md)
+-   [Ansible automation integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/ansible-automation-integration-overview.md)
+-   [Ansible discovery agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/ansible-discovery-agent.md)
 
 </td></tr><tr><td>
 
@@ -196,8 +148,8 @@ An incident responder wants to trigger an Ansible automation directly from the S
 
 </td><td>
 
--   [Ansible automation integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/ansible-automation-integration-overview.md)
--   [Execute Ansible automations for incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/execute-ansible-automations-for-incidents.md)
+-   [Ansible automation integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/ansible-automation-integration-overview.md)
+-   [Execute Ansible automations for incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/execute-ansible-automations-for-incidents.md)
 
 </td></tr></tbody>
 </table>## AI agents
@@ -242,8 +194,8 @@ A Service Mapping administrator wants to process a large volume of ML-powered ca
 
 </td><td>
 
--   [AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-ai-specialists.md)
--   [Activate AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/activate-sm-ai-specialists.md)
+-   [AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/service-mapping-ai-agents.md)
+-   [Activate AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/activate-sm-ai-agents.md)
 
 </td></tr><tr><td>
 
@@ -263,8 +215,8 @@ A Service Mapping administrator wants to connect discovered application services
 
 </td><td>
 
--   [AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-ai-specialists.md)
--   [Activate AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/activate-sm-ai-specialists.md)
+-   [AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/service-mapping-ai-agents.md)
+-   [Activate AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/activate-sm-ai-agents.md)
 
 </td></tr><tr><td>
 
@@ -284,7 +236,7 @@ A PKI administrator wants to renew a certificate without manually navigating the
 
 </td><td>
 
-[Renew certificates using the AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/automatically-renew-cert-now-assist.md)
+[Renew certificates using the AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/automatically-renew-cert-now-assist.md)
 
 </td></tr><tr><td>
 
@@ -304,10 +256,10 @@ A LEAP administrator wants to convert a recurring incident pattern into a proble
 
 </td><td>
 
--   [AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/leap-ai-agent.md)
--   [Create LEAP problem records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/create-problem-records.md)
--   [Generate LEAP knowledge base articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/generate-aiops-leap-knowledge-base.md)
--   [Generate LEAP playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/generate-playbooks.md)
+-   [AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/leap-ai-agent.md)
+-   [Create LEAP problem records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/create-problem-records.md)
+-   [Generate LEAP knowledge base articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/generate-aiops-leap-knowledge-base.md)
+-   [Generate LEAP playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/generate-playbooks.md)
 
 </td></tr></tbody>
 </table>## Generative AI skills
@@ -316,8 +268,8 @@ Generative AI skills in ITOM Visibility are discrete, on-demand capabilities tha
 
 |Product|AI feature|Description|Use case|Resources|
 |-------|----------|-----------|--------|---------|
-|Service Mapping|Service Mapping Candidate skill|Classifies application service candidates and generates names and descriptions for the processes within them. Retrieves publisher, product, and description details for each process, then generates a name and description for the candidate. Active by default. Used by the Analyze potential impact agentic workflow.|A Service Mapping administrator wants AI to automatically name and describe application service candidates during a change impact analysis, without manually reviewing each process.|[Activate the Service Mapping Candidate skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/activate-sm-candidate-skill.md)|
-|Service Mapping|Service Mapping Candidates Impact skill|Analyzes connections and effects on servers following a change request, and generates an impact summary of affected components. Active by default. Used by the Analyze potential impact agentic workflow.|A Service Mapping administrator wants AI to automatically summarize which components are affected by a change request, without manually tracing server dependencies.|[Activate the Service Mapping Candidates Impact skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/activate-sm-candidates-impact-skill.md)|
-|Discovery|AI Insights for discovery errors|Analyzes current Discovery errors and surfaces the highest-impact and highest-leverage errors in the Discovery Admin Workspace Diagnostics page. Each insight includes a summary of affected schedules and devices, and recommended remediation steps. Powered by ServiceNow Otto for Error Framework.|A discovery administrator wants to quickly identify which errors to resolve first to have the greatest effect on discovery health, without reviewing every error individually.|[Discovery Admin Workspace Diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-diagnostics.md)|
-|LEAP|AI-generated resolution steps|Uses generative AI to analyze grouped incidents and generate structured resolution steps for each automation opportunity. Resolution steps can be reviewed and modified before use.|A LEAP administrator wants to produce actionable resolution guidance for a recurring incident pattern without manually authoring steps from scratch.|[Generate and modify resolution steps in LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/generating-and-modifying-resolution-steps.md)|
+|Service Mapping|Service Mapping Candidate skill|Classifies application service candidates and generates names and descriptions for the processes within them. Retrieves publisher, product, and description details for each process, then generates a name and description for the candidate. Active by default. Used by the Analyze potential impact agentic workflow.|A Service Mapping administrator wants AI to automatically name and describe application service candidates during a change impact analysis, without manually reviewing each process.|[Activate the Service Mapping Candidate skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/activate-sm-candidate-skill.md)|
+|Service Mapping|Service Mapping Candidates Impact skill|Analyzes connections and effects on servers following a change request, and generates an impact summary of affected components. Active by default. Used by the Analyze potential impact agentic workflow.|A Service Mapping administrator wants AI to automatically summarize which components are affected by a change request, without manually tracing server dependencies.|[Activate the Service Mapping Candidates Impact skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/activate-sm-candidates-impact-skill.md)|
+|Discovery|AI Insights for discovery errors|Analyzes current Discovery errors and surfaces the highest-impact and highest-leverage errors in the Discovery Admin Workspace Diagnostics page. Each insight includes a summary of affected schedules and devices, and recommended remediation steps. Powered by ServiceNow Otto for Error Framework.|A discovery administrator wants to quickly identify which errors to resolve first to have the greatest effect on discovery health, without reviewing every error individually.|[Discovery Admin Workspace Diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-admin-workspace-diagnostics.md)|
+|LEAP|AI-generated resolution steps|Uses generative AI to analyze grouped incidents and generate structured resolution steps for each automation opportunity. Resolution steps can be reviewed and modified before use.|A LEAP administrator wants to produce actionable resolution guidance for a recurring incident pattern without manually authoring steps from scratch.|[Generate and modify resolution steps in LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/generating-and-modifying-resolution-steps.md)|
 

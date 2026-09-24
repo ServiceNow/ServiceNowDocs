@@ -3,11 +3,11 @@ title: Send privacy assessments from multiple processing activities
 description: Send multiple privacy assessments from multiple processing activities. This capability enables you to filter the processing activities by business units, locations, data subjects, and data types.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/send-privacy-assessments-from-multiple-processing-activities.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Types of privacy assessments, Use, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -37,5 +37,5 @@ Role required: sn\_privacy.manager or sn\_privacy.analyst
 7.  Click **Send**.
 
 
-**Parent Topic:**[Types of privacy assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/privacy-assessments.md)
+**Parent Topic:**[Types of privacy assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/privacy-assessments.md)
 

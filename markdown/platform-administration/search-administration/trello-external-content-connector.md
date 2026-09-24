@@ -3,13 +3,13 @@ title: Trello external content connector
 description: The Trello external content connector retrieves boards that are accessible to all users in your Trello source system and makes their content and metadata searchable in AI Search applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/trello-external-content-connector.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -23,17 +23,17 @@ The indexed content and metadata are stored as records in a connector-specific i
 
 **Note:** The Trello external content connector only retrieves searchable content and metadata from boards that can be accessed by all users in your Trello enterprise. It doesn't retrieve content and metadata from secure boards.
 
--   **[Configure Trello for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-trello-external-content-indexing.md)**  
+-   **[Configure Trello for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-trello-external-content-indexing.md)**  
 Create and authorize a Power-Up in the Trello Power-Up Admin Portal to allow the Trello external content connector to access your Trello source system.
--   **[Create a Trello external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-trello.md)**  
+-   **[Create a Trello external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-ext-cont-connector-trello.md)**  
 Create an external content connector to retrieve searchable content from your Trello source system.
--   **[Configure crawl settings for a Trello external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-crawl-settings-trello-external-content-connector.md)**  
+-   **[Configure crawl settings for a Trello external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-crawl-settings-trello-external-content-connector.md)**  
 Specify the workspaces you want your Trello external content connector to crawl. Define inclusion or exclusion filters to dictate the types of content the crawl retrieves and feeds to AI Search for indexing.
 
-**Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configuring-ext-cont-connectors.md)
+**Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configuring-ext-cont-connectors.md)
 
 **Related topics**  
 
 
-[Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-content-crawl-external-content-connector.md)
+[Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-content-crawl-external-content-connector.md)
 

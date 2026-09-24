@@ -3,11 +3,11 @@ title: Create a test suite
 description: A test suite is made up of one or more test cases that are grouped for execution purposes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/t\_CreateATestSuite.html
-release: australia
+release: brazil
 product: Test Management
 classification: test-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Test suites, Setting up the manual testing process, Test Management 1.0, Test Management applications, Strategic Portfolio Management]
 ---
@@ -85,8 +85,8 @@ Detailed description of the test suite.
 You can use the related links and related lists of the new test suite for the following actions:
 
 -   Add this test case to a test plan by clicking the **Add to Test Plan** related link.
--   Create a copy of this test suite by clicking the **Create duplicate** related link. For more information, see [Create a copy of an existing test suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/t_CopyATestSuite.md).
--   Associate test cases to this test suite by using the Test Cases related list. For more information, see [Add a test case to a test suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/t_AddANewTestCaseToATestSuite.md).
+-   Create a copy of this test suite by clicking the **Create duplicate** related link. For more information, see [Create a copy of an existing test suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/test-management/t_CopyATestSuite.md).
+-   Associate test cases to this test suite by using the Test Cases related list. For more information, see [Add a test case to a test suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/test-management/t_AddANewTestCaseToATestSuite.md).
 
-**Parent Topic:**[Test suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/c_TestSuites.md)
+**Parent Topic:**[Test suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/test-management/c_TestSuites.md)
 

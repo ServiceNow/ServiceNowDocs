@@ -3,11 +3,11 @@ title: Default Template form
 description: The Default Template form enables you to create, review, and modify the details for a default template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/tni-default-template-form.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Default Template forms, Reference, Telecommunications Network Inventory]
 ---
@@ -102,13 +102,13 @@ Template
 
 </td><td>
 
-Name of the table attribute and its value. You can use this field to select attributes from the table that you selected in the **Table** field and set specific values for each attribute. When you create a Create Equipment Inventory change request to generate the net asset instances by using this template, it enables you to pass specific values to the configuration that it generates.
+Name of the table attribute and its value. You can use this field to select attributes from the table that you selected in the **Table** field and set specific values for each attribute. When you create a Create Equipment Inventory change request to generate the net asset instances using this template, you can pass specific values to the generated configuration.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Default Template forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/default-template-forms.md)
+</table>**Parent Topic:**[Default Template forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/default-template-forms.md)
 
 **Related topics**  
 
 
-[Create a default template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-default-templates.md)
+[Create a default template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/create-default-templates.md)
 

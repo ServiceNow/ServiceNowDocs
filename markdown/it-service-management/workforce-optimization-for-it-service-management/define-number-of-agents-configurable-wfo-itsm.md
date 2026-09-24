@@ -3,11 +3,11 @@ title: Define the minimum and maximum number of agents to forecast demand
 description: Set the minimum or maximum number of agents required per hour so that you always have the desired staffing coverage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/define-number-of-agents-configurable-wfo-itsm.html
-release: australia
+release: brazil
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Setting up, Demand Forecast, Scheduling, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -73,5 +73,5 @@ When you calculate the number of agents for your staffing needs, you have the op
 
     6.  Click **Submit**.
 
-**Parent Topic:**[Configure Demand Forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configure-data-collection-configurable-wfo-itsm.md)
+**Parent Topic:**[Configure Demand Forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/configure-data-collection-configurable-wfo-itsm.md)
 

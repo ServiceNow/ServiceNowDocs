@@ -3,11 +3,11 @@ title: Client scripts installed with Product Catalog
 description: Product Catalog plugin adds the following client script.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/product-catalog/r\_ClientScriptsProductCatalog.html
-release: australia
+release: brazil
 product: Product Catalog
 classification: product-catalog
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Components installed with Product Catalog, Product Catalog, Common applications, Asset Management]
 ---
@@ -20,5 +20,5 @@ Product Catalog plugin adds the following client script.
 |-------------|-----|---------------|
 |Set Model Fields|\[pc\_vendor\_cat\_item\]|Adds the description and price, if they do not exist, when a vendor catalog item is added to the product catalog.|
 
-**Parent Topic:**[Components installed with Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/r_InstalledWithProductCatalog.md)
+**Parent Topic:**[Components installed with Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/product-catalog/r_InstalledWithProductCatalog.md)
 

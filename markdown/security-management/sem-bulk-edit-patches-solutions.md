@@ -3,9 +3,9 @@ title: Bulk edit host vulnerable items with patches and solutions
 description: Recommend a patch or solution for multiple host vulnerable items concurrently using the bulk edit feature in the Security Exposure Management Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-bulk-edit-patches-solutions.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Using bulk edit in the Security Exposure Management Workspace, Bulk edit in the Security Exposure Management Workspace, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -121,7 +121,7 @@ Unassign
 All the selected items are unassigned for assignment group and remediation owner.**Note:**
 
 -   This field appears when you select the State as Do Not Update.
--   When you unassign records, a remediation task is created which is sent for approval. For more information, see [Remove assignments for host vulnerable items in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vmws-bulk-edit-unassign.md)
+-   When you unassign records, a remediation task is created which is sent for approval. For more information, see [Remove assignments for host vulnerable items in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-manager-workspace/vmws-bulk-edit-unassign.md)
 
 
 </td></tr><tr><td>
@@ -147,6 +147,4 @@ Text that you enter to describe the changes.
 ## Result
 
 A bulk edit asynchronous job updates the selected host vulnerable items \(VITs\). The preferred solution and patch are added to the relevant host vulnerable items \(VITs\). Open a host vulnerable item, and view the preferred solution and patch in the Remediation section of the Details tab.
-
-**Parent Topic:**[Using bulk edit in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-using-bulk-edit.md)
 

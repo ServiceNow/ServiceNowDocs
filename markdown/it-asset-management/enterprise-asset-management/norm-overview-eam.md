@@ -3,11 +3,11 @@ title: Normalization overview for Enterprise Asset Management
 description: Use the Normalization view in the Enterprise Asset Workspace to view information related to normalization such as normalization status, model content service download, lifecycle overview.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/norm-overview-eam.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enterprise Asset Workspace, Explore, Enterprise Asset Management, Asset Management]
 ---
@@ -58,7 +58,7 @@ Normalization status
 
 </td><td>
 
-Normalization status of all the enterprise models. View the count of enterprise models that were normalized and those models that didn't get normalized. For details on the normalization status, see [Normalization status for enterprise models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/norm-status-eam.md).
+Normalization status of all the enterprise models. View the count of enterprise models that were normalized and those models that didn't get normalized. For details on the normalization status, see [Normalization status for enterprise models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/norm-status-eam.md).
 
 </td></tr><tr><td>
 

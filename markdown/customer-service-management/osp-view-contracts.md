@@ -3,9 +3,9 @@ title: View account contracts
 description: As an OSP agent, you can view contracts owned by accounts or consumers in order to create or fulfill a case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/osp-view-contracts.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Outsourced Service Provider agent tasks, Manage cases, Use, Customer Service Management]
 ---

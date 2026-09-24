@@ -3,11 +3,11 @@ title: Off-board a Service Exchange consumer
 description: Off-board an onboarded consumer and remove all related records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-offboard-consumer.html
-release: australia
+release: brazil
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Register a consumer, Use for providers, Service Exchange for Providers, Service Exchange]
 ---
@@ -68,5 +68,5 @@ The following tables are deleted:
     -   sn\_sb\_pro\_provider\_task
     -   sn\_sb\_pro\_remote\_task
 
-**Parent Topic:**[Register a Service Exchange consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-onboarding.md)
+**Parent Topic:**[Register a Service Exchange consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-onboarding.md)
 

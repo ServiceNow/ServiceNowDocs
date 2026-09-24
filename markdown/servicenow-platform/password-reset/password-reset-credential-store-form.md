@@ -3,11 +3,11 @@ title: Password Reset Credential Store form
 description: Description of the fields on the Password Reset Credential Store form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/password-reset-credential-store-form.html
-release: australia
+release: brazil
 product: Password Reset
 classification: password-reset
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Password Reset reference, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,7 @@ Type
 
 </td><td>
 
-Type of credential store that you are connecting to. A ServiceNow credential store type is a template that provides the required set of capabilities for a particular kind of credential store. Credential stores inherit the functionality of the credential store type.**Note:** For an AD credential store, skip this procedure and see [Integrate Password Reset with your Active Directory service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_ConPassResetActiveDir.md). The Password Reset Windows Application supports only AD credential stores.
+Type of credential store that you are connecting to. A ServiceNow credential store type is a template that provides the required set of capabilities for a particular kind of credential store. Credential stores inherit the functionality of the credential store type.**Note:** For an AD credential store, skip this procedure and see [Integrate Password Reset with your Active Directory service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/t_ConPassResetActiveDir.md). The Password Reset Windows Application supports only AD credential stores.
 
 </td></tr><tr><td>
 
@@ -38,7 +38,7 @@ Enforce history policy
 
 </td><td>
 
-Appears only if you select a credential store **Type** of **AD Credential Store** or **Local ServiceNow Instance**. For information on configuring the setting for an AD credential store, see [Configure the connection to an AD credential store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/config-ad-credential-store.md). Select the **Enforce history policy** check box to ensure that users do not reuse passwords. For example, you might configure the history policy to not allow the user to reuse any of the previous 10 passwords. Follow this procedure:
+Appears only if you select a credential store **Type** of **AD Credential Store** or **Local ServiceNow Instance**. For information on configuring the setting for an AD credential store, see [Configure the connection to an AD credential store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/config-ad-credential-store.md). Select the **Enforce history policy** check box to ensure that users do not reuse passwords. For example, you might configure the history policy to not allow the user to reuse any of the previous 10 passwords. Follow this procedure:
 
  1.  Select the **Enforce history policy** check box.
 2.  In the Password Reset Credential Store Parameters related list, create a **password\_history\_limit** parameter.
@@ -58,7 +58,7 @@ Enable password policy
 
 </td><td>
 
-See [Enable password policies on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/enable-password-policies.md)
+See [Enable password policies on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/enable-password-policies.md)
 
 </td></tr><tr><td>
 
@@ -134,5 +134,5 @@ Default settings:-   Selected for local ServiceNow credential stores
 </table>**Related topics**  
 
 
-[Configure the connection to a credential store for the Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateACredentialStore.md)
+[Configure the connection to a credential store for the Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/t_CreateACredentialStore.md)
 

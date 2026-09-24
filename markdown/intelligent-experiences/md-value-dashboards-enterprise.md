@@ -3,11 +3,11 @@ title: Value dashboards
 description: The Value dashboard provides real-time visibility into the productivity gains and financial returns delivered by your AI Control Tower agents. Track hours saved, cost savings, net returns, and system performance to measure ROI and demonstrate AI investment impact.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/md-value-dashboards-enterprise.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 5
-breadcrumb: [Dashboards, Explore, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
+breadcrumb: [Dashboards, Explore, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Value dashboards
@@ -111,5 +111,5 @@ The AI system usage section provides insights into how your AI systems are being
 
 You can view the overall AI system usage displayed agent-wise. This includes details such as persona, deployed date, and actions. It also provides information on the average user using the agent and productivity gains. Furthermore, the report includes the AI system type, vendor, and total AI usage. You can use the time period selector in the top-right corner to adjust the date range and view metrics for different time periods.
 
-To understand more about the value insights from the ServiceNow AI value dashboard, see [ServiceNow AI Value dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/md-servicenow-ai-value-dashboard.md).
+To understand more about the value insights from the ServiceNow AI value dashboard, see [ServiceNow AI Value dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/md-servicenow-ai-value-dashboard.md).
 

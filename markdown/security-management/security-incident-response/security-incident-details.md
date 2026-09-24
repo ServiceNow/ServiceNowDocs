@@ -3,11 +3,11 @@ title: Security Incident Details section
 description: This section displays the security incident form fields that are rendered from the security incident classic UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/security-incident-details.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Working with Security Incident Records, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -59,10 +59,10 @@ The **Details** tab contains the **Activity** stream section within the details 
 10. The newly added section is displayed along with the existing section layout within the security incident form.
 11. Select **Switch to SIR workspace** to jump to the security incident form and the customized section within the **Details** tab of the workspace.
 
--   **[Security incident Details tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/security-incident-details-form.md)**  
+-   **[Security incident Details tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/security-incident-details-form.md)**  
 This section describes all the fields of the **Details** tab of a security incident.
 
-**Parent Topic:**[Working with Security Incident Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-analyst-workspace.md)
+**Parent Topic:**[Working with Security Incident Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/using-analyst-workspace.md)
 
 **Related topics**  
 

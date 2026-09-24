@@ -3,11 +3,11 @@ title: Configure account suspension in Azure
 description: Manage an Azure subscription using the permission and by assigning the role to a user. The role must have the permission to execute the APIs for suspending and reactivating an Azure account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/configuring-azure-suspension-permission.html
-release: australia
+release: brazil
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up Azure cloud, Configuring cloud providers, Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -77,5 +77,5 @@ Role required: Azure admin
 
 You must assign the permission to a role. For more information, see [https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal).
 
-Configure a lock/unlock policy. For more information, see [Set up suspension of a subscription using Azure policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/configuring-lock-unlock-policy-for-azure.md).
+Configure a lock/unlock policy. For more information, see [Set up suspension of a subscription using Azure policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/configuring-lock-unlock-policy-for-azure.md).
 

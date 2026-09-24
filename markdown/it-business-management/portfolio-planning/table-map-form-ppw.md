@@ -3,11 +3,11 @@ title: Table map form
 description: Understand the fields of the table map form. This form is used to create a new custom table map for any record to integrate with Agile Development 2.0, SAFe, and PPM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/table-map-form-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Form field information for Portfolio Planning, Reference, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -27,5 +27,5 @@ Understand the fields of the table map form. This form is used to create a new c
 |Active flag|Ensures that the table map sync is active. This field is checked by default.|
 |Sync attachments|Ensures that the attachments are synced between the applications. This field is checked by default.|
 
-**Parent Topic:**[Form field information for Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/form-field-information-for-portfolio-planning.md)
+**Parent Topic:**[Form field information for Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/form-field-information-for-portfolio-planning.md)
 

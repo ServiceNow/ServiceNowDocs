@@ -3,9 +3,9 @@ title: Insert a line break in the HTML editor
 description: When you use the Enter key, the editor creates a paragraph element \(&lt;p&gt;\) tag, which appears as a double space.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_InsertALineBreak.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Formatting functions in HTML field editors, Configure the HTML toolbar, Configure a field editor for the HTML field, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---

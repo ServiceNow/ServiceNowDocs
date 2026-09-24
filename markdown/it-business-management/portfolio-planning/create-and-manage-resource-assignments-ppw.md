@@ -3,11 +3,11 @@ title: Create resource assignments for demands
 description: Create and manage resource assignments for demands directly from Next Experience for Demand Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-and-manage-resource-assignments-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -22,7 +22,7 @@ Role required: it\_demand\_manager
 
 ## About this task
 
-To create, edit, or remove resource assignment records, you can also use the **Estimate resource requirements** Playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
+To create, edit, or remove resource assignment records, you can also use the **Estimate resource requirements** Playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
 
 ## Procedure
 
@@ -42,7 +42,7 @@ To create, edit, or remove resource assignment records, you can also use the **E
 
 7.  On the Resource assignment form, fill in the fields.
 
-    For a description of the field values, see [Resource assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-resource-assignment-form-ppw.md) form.
+    For a description of the field values, see [Resource assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/create-resource-assignment-form-ppw.md) form.
 
 8.  Select **Save**.
 

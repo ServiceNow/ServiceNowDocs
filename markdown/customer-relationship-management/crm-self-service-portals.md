@@ -3,9 +3,9 @@ title: Self-service portals
 description: Self‑service portals are customer-facing websites in ServiceNow that provide an online place for customers to get information and support. They help customers help themselves by finding answers, submitting requests, and tracking progress, without needing to contact an agent for routine needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-relationship-management/crm-self-service-portals.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Self service, Customer Relationship Management]
 ---
@@ -70,7 +70,7 @@ Self-service portals provide benefits to internal and external users across an o
 **Related topics**  
 
 
-[Configure the Customer and Consumer Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-service-portals.md)
+[Configure the Customer and Consumer Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-csm-service-portals.md)
 
-[Configure Business and Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-business-portal.md)
+[Configure Business and Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-business-portal.md)
 

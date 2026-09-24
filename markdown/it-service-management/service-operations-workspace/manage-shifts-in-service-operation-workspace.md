@@ -3,11 +3,11 @@ title: Manage shifts in service operation workspace
 description: Accept or reject absences requests, resolve gaps and conflicts by providing coverage and scheduling extra time for a shift.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/manage-shifts-in-service-operation-workspace.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Scheduling in service operation workspace, On-Call Scheduling in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -54,5 +54,5 @@ Role required: rota\_manager, rota\_admin
 7.  Right-click a shift card and click **Delete absence** to remove the approved absence request from the calendar.
 
 
-**Parent Topic:**[Scheduling in service operation workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/scheduling-in-service-operation-workspace.md)
+**Parent Topic:**[Scheduling in service operation workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/scheduling-in-service-operation-workspace.md)
 

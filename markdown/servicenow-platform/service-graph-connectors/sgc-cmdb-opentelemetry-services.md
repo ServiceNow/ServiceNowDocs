@@ -3,11 +3,11 @@ title: Linking inferred services with CIs
 description: Create inferred services relationships in your ServiceNow instance with other Cloud Observability application services as originally configured in the application by linking an inferred service configuration item \(CI\) in CMDB with an inferred service from the Cloud Observability application.Link a Cloud Observability inferred service with a CI to create relationships between the inferred service and other Cloud Observability services in your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-cmdb-opentelemetry-services.html
-release: australia
+release: brazil
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [OpenTelemetry, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -65,7 +65,7 @@ Role required: cmdb\_inst\_admin
 
 5.  Select the save icon \(\[Omitted image "Check.png"\] Alt text: Green check mark icon\).
 
-6.  Repeat the steps [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-opentelemetry-services.md) to [5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-opentelemetry-services.md) for each inferred service that you want to link with a CI.
+6.  Repeat the steps [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-opentelemetry-services.md) to [5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-opentelemetry-services.md) for each inferred service that you want to link with a CI.
 
 
 ### Result

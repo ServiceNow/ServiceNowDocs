@@ -3,9 +3,9 @@ title: Customer use case
 description: The customer use case table \(sn\_cust\_disc\_hb\_cust\_use\_case\) is a per-customer record that documents how a specific customer plans to use a product to address a business need. It captures the customer's current process flow and specifies how their implementation aligns to one or more supported use cases from the product catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-cust-dh-tables-uc.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-06-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer Discovery Hub tables, Reference, Customer Success Management]
 ---
@@ -138,12 +138,12 @@ Internal notes about this record.
 |`sn_cust_disc_hb.discovery_viewer`|Read|
 |`sn_cust_disc_hb.discovery_writer`|Read, write|
 
-**Parent Topic:**[Customer Discovery Hub tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-cust-dh-tables.md)
+**Parent Topic:**[Customer Discovery Hub tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-cust-dh-tables.md)
 
 **Related topics**  
 
 
-[Customer Discovery Hub tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-cust-dh-tables.md)
+[Customer Discovery Hub tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-cust-dh-tables.md)
 
-[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-manage-engage.md)
+[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-manage-engage.md)
 

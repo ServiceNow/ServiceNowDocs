@@ -3,9 +3,9 @@ title: Configure a Next Experience landing page footer
 description: Display useful links in the footer of your Next Experience landing pages. The footer contains two fully configurable link set components.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-next-experience-landing-page-footer.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Landing pages, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -59,5 +59,5 @@ The footer is hidden by default. To configure the footer, you enable it in UI Bu
     For more information, see [Link set UIB Setup](https://developer.servicenow.com/dev.do#!/reference/now-experience/rome/shared-components/now-link-set/uib-setup) in the ServiceNow Developer documentation.
 
 
-**Parent Topic:**[Next Experience landing pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-pages.md)
+**Parent Topic:**[Next Experience landing pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-landing-pages.md)
 

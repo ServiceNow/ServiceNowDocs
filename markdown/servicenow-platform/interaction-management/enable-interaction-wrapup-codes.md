@@ -3,11 +3,11 @@ title: Enable interaction wrap-up codes
 description: Enable interaction wrap-up codes and select the wrap-up codes that are available to agents in the interaction wrap-up modeless dialog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/interaction-management/enable-interaction-wrapup-codes.html
-release: australia
+release: brazil
 product: Interaction Management
 classification: interaction-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Interaction wrap up, Configuring Interaction Management, Interaction Management, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -45,5 +45,5 @@ Role required: admin
 8.  Select **Update**.
 
 
-**Parent Topic:**[Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/interaction-wrap-up-state.md)
+**Parent Topic:**[Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/interaction-management/interaction-wrap-up-state.md)
 

@@ -3,11 +3,11 @@ title: Results post cloning for application customizations
 description: The results to expect post cloning for application customization display the expected behaviors based on the state of the application, and the actions to recover your application customizations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/application-repository-self-hosted/what-to-expect-post-clone-for-app-customization.html
-release: australia
+release: brazil
 product: Application Repository \(Self-Hosted\)
 classification: application-repository-self-hosted
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Preserve applications and customizations in development during a system clone, Manage customizations to applications, ServiceNow application repository, Application sharing, Administer your apps, Deploying applications, Building applications]
 ---

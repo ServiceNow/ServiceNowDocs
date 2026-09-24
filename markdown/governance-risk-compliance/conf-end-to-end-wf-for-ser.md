@@ -3,9 +3,9 @@ title: Sample end-to-end workflow for services
 description: Configure an end-to-end workflow for the service to fetch the CSDM dependencies and red flags data to Operational Resilience. You must ensure that entities are generated and associated with pillars, and that the Main node configurations are set up before fetching the required data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/conf-end-to-end-wf-for-ser.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -20,19 +20,19 @@ Role required: sn\_oper\_res.manager
 
 ## About this task
 
-For the configuration sequence and instructions in Operational Resilience, see [Configuring Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-operational-resilience.md).
+For the configuration sequence and instructions in Operational Resilience, see [Configuring Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/configure-operational-resilience.md).
 
-For instructions on creating the Main node configuration records, see [Configure the Main node configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-main-node.md).
+For instructions on creating the Main node configuration records, see [Configure the Main node configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/set-up-main-node.md).
 
 ## Procedure
 
 1.  Download the Operational Resilience application in your instance.
 
-    For instructions on downloading the Operational Resilience application, see [Install Operational Resilience application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/download-opres.md).
+    For instructions on downloading the Operational Resilience application, see [Install Operational Resilience application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/download-opres.md).
 
 2.  Ensure that you have set up the pillars, entity types, entity filters and entities are generated.
 
-    Refer to the configuration instructions on the [Configuring Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-operational-resilience.md) page.
+    Refer to the configuration instructions on the [Configuring Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/configure-operational-resilience.md) page.
 
 3.  Navigate to **Operational Resilience Workspace** &gt; **List** &gt; **Service** and select the service.
 

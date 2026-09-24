@@ -3,9 +3,9 @@ title: Survey question template
 description: Question templates define reusable sets of answer options for survey questions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/c\_SurveyQuestionTemplate.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Survey questions, Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Question templates define reusable rating scales for answering questions, where 
 
 \[Omitted image "TemplateDefinition.png"\] Alt text: Template definition
 
-Templates are available for survey questions that have **Data type** set to **Template**. The following question templates are available in the base system. You can create or update a template as described in [Create a survey question template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateASurveyQuestionTemplate.md).
+Templates are available for survey questions that have **Data type** set to **Template**. The following question templates are available in the base system. You can create or update a template as described in [Create a survey question template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateASurveyQuestionTemplate.md).
 
 |Name|Template definitions|
 |----|--------------------|
@@ -30,12 +30,12 @@ Templates are available for survey questions that have **Data type** set to **Te
 |Satisfaction|Very Dissatisfied, Dissatisfied, Neutral, Satisfied, Very Satisfied|
 |Size|Very Small, Small, Average, Large, Very Large|
 
--   **[Create a survey question template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateASurveyQuestionTemplate.md)**  
+-   **[Create a survey question template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateASurveyQuestionTemplate.md)**  
 You can create and administer question templates.
--   **[Update min and max values to match templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_UpdateQMinAndMaxToMatchTemplates.md)**  
+-   **[Update min and max values to match templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_UpdateQMinAndMaxToMatchTemplates.md)**  
 If you use survey result calculation data, ensure that the **Min** and **Max** values for a question that uses a template are equal to the smallest and largest template definition **Value**.
 
-**Parent Topic:**[Survey questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyQuestion.md)
+**Parent Topic:**[Survey questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SurveyQuestion.md)
 
 **Related topics**  
 

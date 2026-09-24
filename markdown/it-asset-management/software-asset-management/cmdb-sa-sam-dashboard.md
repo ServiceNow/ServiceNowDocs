@@ -3,7 +3,7 @@ title: Monitoring CMDB data quality using dashboard metrics in CMDB success advi
 description: The CMDB success advisor for Software Asset Management \(SAM\) dashboard enables CMDB administrators to identify and address data quality issues specific to software installs and their related configuration items \(CIs\) in the Configuration Management Database \(CMDB\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
@@ -17,15 +17,15 @@ breadcrumb: [Use SAM advisor, Software Asset Management, IT Asset Management, As
 
 The CMDB success advisor for Software Asset Management \(SAM\) dashboard enables CMDB administrators to identify and address data quality issues specific to software installs and their related configuration items \(CIs\) in the Configuration Management Database \(CMDB\).
 
-**Important:** Charts display up to the top 10 values. Any remaining values are grouped into an **Others** category. When you select a segment or count on a chart from a CMDB success advisor dashboard, the KPI Details page opens. On the page, you can analyze how a specific metric trends over time. Additionally, the Remediation actions panel appears when remediation actions are available for that card. Use the panel to improve the quality of CMDB. To learn more, see [KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details.md) and [Improving CMDB data quality for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-remediation.md).
+**Important:** Charts display up to the top 10 values. Any remaining values are grouped into an **Others** category. When you select a segment or count on a chart from a CMDB success advisor dashboard, the KPI Details page opens. On the page, you can analyze how a specific metric trends over time. Additionally, the Remediation actions panel appears when remediation actions are available for that card. Use the panel to improve the quality of CMDB. To learn more, see [KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/kpi-details.md) and [Improving CMDB data quality for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-remediation.md).
 
-If the Performance Analytics data collector exceeds its row limit during data processing, a notification banner appears on the dashboard indicating that some metrics could not be loaded. For more information, see [Data collector Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-dc-props.md).
+If the Performance Analytics data collector exceeds its row limit during data processing, a notification banner appears on the dashboard indicating that some metrics could not be loaded. For more information, see [Data collector Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/pa-dc-props.md).
 
 ## Access the dashboard
 
-To open the dashboard, select **View insights** for SAM on the CMDB success advisor landing page. See [Access CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-sa-access.md).
+To open the dashboard, select **View insights** for SAM on the CMDB success advisor landing page. See [Access CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-sa-access.md).
 
-**Note:** The CMDB success advisor for SAM dashboard is available only after the setup process is complete. For more information, see [CMDB success advisor for SAM setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-config-settings.md).
+**Note:** The CMDB success advisor for SAM dashboard is available only after the setup process is complete. For more information, see [CMDB success advisor for SAM setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-config-settings.md).
 
 ## Required roles
 
@@ -71,13 +71,13 @@ Targeted CMDB metrics focus remediation efforts. Regularly monitor these metrics
 
 The dashboard header displays a **Last updated** timestamp reflecting the most recent completed run of the SAM data collector job.
 
-**Important:** The dashboard data is filtered based on the Software publishers, Software products, CI class categories, and CI classes filters. See [Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard.md).
+**Important:** The dashboard data is filtered based on the Software publishers, Software products, CI class categories, and CI classes filters. See [Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard.md).
 
 |Sub-tab|Description|
 |-------|-----------|
-|[Installs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard.md)|Displays key metrics related to issues in software installation data that affect software inventory accuracy and licensing, limited to installs with a normalized product.|
-|[Installed on](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard.md)|Displays key metrics related to CIs on which the selected software products are installed.|
-|[Virtual CI relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard.md)|Displays key metrics related to CI relationships that connect virtual machine installs to their host infrastructure to support licensing compliance.|
+|[Installs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard.md)|Displays key metrics related to issues in software installation data that affect software inventory accuracy and licensing, limited to installs with a normalized product.|
+|[Installed on](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard.md)|Displays key metrics related to CIs on which the selected software products are installed.|
+|[Virtual CI relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard.md)|Displays key metrics related to CI relationships that connect virtual machine installs to their host infrastructure to support licensing compliance.|
 
 <table><thead><tr><th>
 
@@ -95,11 +95,11 @@ CMDB data quality insights generated by AI
 
 Displays an AI-generated summary of CMDB data quality for SAM outcomes and lists the top 5 issues with guided remediation actions.Issues are ranked primarily by the percentage of CIs or CI classes that each issue affects, not by severity, within five categories, in this order: **Data integrity**, **CI attributes**, **Install attributes**, **Install status** \(or **Life cycle stage** on instances where the CSDM Activation plugin is active\), and **Virtual CI relationships**. Foundational data integrity issues, such as duplicate CIs and stale CIs, are evaluated first because they can inflate the counts behind other issues.
 
-A percentage gap of more than 15 points between issues in the same category can change their default order. A percentage gap of more than 40 points between issues in different categories can also change their default order. For the reasoning behind the ranking and recommendations, see [Summarize CMDB readiness with the ServiceNow Otto skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/na-cmdb-skill-summ-rdy.md).
+A percentage gap of more than 15 points between issues in the same category can change their default order. A percentage gap of more than 40 points between issues in different categories can also change their default order. For the reasoning behind the ranking and recommendations, see [Summarize CMDB readiness with the ServiceNow Otto skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/na-cmdb-skill-summ-rdy.md).
 
 Select **View reasoning** to open the Reasoning popover, which explains the ranking and includes a **Learn more** link to the same topic.
 
-**Note:** Available only when the summarize CMDB readiness skill is configured. See [Configure the summarize CMDB readiness skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/na-cmdb-config-summ-rdy.md).
+**Note:** Available only when the summarize CMDB readiness skill is configured. See [Configure the summarize CMDB readiness skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/na-cmdb-config-summ-rdy.md).
 
 </td></tr></tbody>
 </table>## Filters
@@ -125,18 +125,18 @@ Displays key metrics related to issues in software installation data that affect
 
 |Card|Description|Indicators|
 |----|-----------|----------|
-|Software installs|Total number of software installs in scope, broken down by discovery source.|[Software installs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)|
-|Installs by|Breakdown of software installs by software publisher \(default\), software product, CI class, or latest integration source. Select an option from the drop-down list to change the breakdown.|[Installs by](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)|
-|Software installs by normalization status|Breakdown of software installs by normalization status.|[Software installs by normalization status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)|
-|Software installs missing edition|Software installs missing an edition value, affecting normalization and license reconciliation accuracy.|[Software installs missing edition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)|
-|Software installs missing version|Software installs missing a version value, affecting normalization and license reconciliation accuracy.|[Software installs missing version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)|
-|Server installs missing cloud license|Installs on servers with a cloud provider populated but no cloud license type, for a defined set of qualifying software products, affecting cloud license reporting accuracy.|[Server installs missing cloud license](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)|
+|Software installs|Total number of software installs in scope, broken down by discovery source.|[Software installs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)|
+|Installs by|Breakdown of software installs by software publisher \(default\), software product, CI class, or latest integration source. Select an option from the drop-down list to change the breakdown.|[Installs by](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)|
+|Software installs by normalization status|Breakdown of software installs by normalization status.|[Software installs by normalization status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)|
+|Software installs missing edition|Software installs missing an edition value, affecting normalization and license reconciliation accuracy.|[Software installs missing edition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)|
+|Software installs missing version|Software installs missing a version value, affecting normalization and license reconciliation accuracy.|[Software installs missing version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)|
+|Server installs missing cloud license|Installs on servers with a cloud provider populated but no cloud license type, for a defined set of qualifying software products, affecting cloud license reporting accuracy.|[Server installs missing cloud license](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)|
 
 ## Installed on
 
 Displays key metrics related to CIs on which the selected software products are installed.
 
-The **Installed on** sub-tab name reflects the **Installed on** field on the software installation record, which identifies the CI on which the software is installed. For more information, see [Software installation fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-installation-fields.md).
+The **Installed on** sub-tab name reflects the **Installed on** field on the software installation record, which identifies the CI on which the software is installed. For more information, see [Software installation fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/software-installation-fields.md).
 
 <table id="table_uvg_rz5_zjc"><thead><tr><th>
 
@@ -160,7 +160,7 @@ Breakdown of software installs by the install status, or life cycle stage, of th
 
 </td><td>
 
-[Installs by CI install status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)
+[Installs by CI install status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)
 
 </td></tr><tr><td>
 
@@ -172,7 +172,7 @@ CIs with a software install that are missing an environment value, leading to in
 
 </td><td>
 
-[CIs missing environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)
+[CIs missing environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)
 
 </td></tr><tr><td>
 
@@ -184,7 +184,7 @@ CIs with a software install that aren't assigned to a specific user, leading to 
 
 </td><td>
 
-[CIs missing assigned to](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)
+[CIs missing assigned to](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)
 
 </td></tr><tr><td>
 
@@ -196,7 +196,7 @@ CIs with a software install that are missing key CPU attributes needed for accur
 
 </td><td>
 
-[Server CIs missing CPU attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)
+[Server CIs missing CPU attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)
 
 </td></tr><tr><td>
 
@@ -208,9 +208,9 @@ CIs with a software install that have not been updated within a selectable time 
 
 </td><td>
 
-[CIs not updated in the last 30 days](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)[CIs not updated in the last 60 days](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)
+[CIs not updated in the last 30 days](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)[CIs not updated in the last 60 days](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)
 
-[CIs not updated in the last 90 days](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)
+[CIs not updated in the last 90 days](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)
 
 </td></tr><tr><td>
 
@@ -222,14 +222,14 @@ Software installs on CIs identified as duplicates, with an open de-duplication t
 
 </td><td>
 
-[Duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)
+[Duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)
 
 </td></tr></tbody>
 </table>## Virtual CI relationships
 
 Displays key metrics related to CI relationships that connect virtual machine installs to their host infrastructure. Accurate mappings enable licensing compliance.
 
-**Note:** Run the **CMDB Health Dashboard - Relationship Compliance Processor** scheduled job to populate virtual machine host relationship data. If the job is inactive, the dashboard displays a `Relationship data incomplete` alert with a **Run job** action. The dashboard metrics update after the **CMDB Advisor - SAM Daily Data Collection** scheduled job runs. For more information, see [Components installed with CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-sa-components-installed.md) and [Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ScheduledJobs.md).
+**Note:** Run the **CMDB Health Dashboard - Relationship Compliance Processor** scheduled job to populate virtual machine host relationship data. If the job is inactive, the dashboard displays a `Relationship data incomplete` alert with a **Run job** action. The dashboard metrics update after the **CMDB Advisor - SAM Daily Data Collection** scheduled job runs. For more information, see [Components installed with CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-sa-components-installed.md) and [Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ScheduledJobs.md).
 
 <table id="table_e4p_rz5_zjc"><thead><tr><th>
 
@@ -253,7 +253,7 @@ Software installs on Windows Server or Linux Server virtual CIs that don't have 
 
 </td><td>
 
-[Virtual machines without host CI relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)
+[Virtual machines without host CI relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)
 
 </td></tr><tr><td>
 
@@ -265,7 +265,7 @@ Virtualized by or Member of relationships for virtual server CIs, limited to VMw
 
 </td><td>
 
-[Virtual CIs with incorrect host CI relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)
+[Virtual CIs with incorrect host CI relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)
 
 </td></tr><tr><td>
 
@@ -277,7 +277,7 @@ Comparison of the install status, or life cycle stage, between a virtual server 
 
 </td><td>
 
-[Install status distribution matched](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)[Install status distribution mismatched](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)
+[Install status distribution matched](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)[Install status distribution mismatched](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)
 
 </td></tr></tbody>
 </table>

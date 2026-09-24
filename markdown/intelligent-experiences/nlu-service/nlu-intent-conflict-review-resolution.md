@@ -1,18 +1,18 @@
 ---
-title: Cross-model Conflict Review
+title: \(Legacy\) Cross-model Conflict Review
 description: Identify conflicting intents within or across models so you can take corrective actions, resolve such conflicts, and improve your NLU model performance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/nlu-intent-conflict-review-resolution.html
-release: australia
+release: brazil
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [NLU Workbench - Advanced Features, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) NLU Workbench - Advanced Features, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Cross-model Conflict Review
+# \(Legacy\) Cross-model Conflict Review
 
 Identify conflicting intents within or across models so you can take corrective actions, resolve such conflicts, and improve your NLU model performance.
 
@@ -20,7 +20,7 @@ Identify conflicting intents within or across models so you can take corrective 
 
 As the number of intents within a model increases, two intents may overlap in scope. This may occur when training utterances in one intent are almost identical to utterances in another intent. There may also be conflicting intents across models and even applications.
 
-Utterances may also be marked as `Not relevant`, meaning that no intent should be predicted. When these irrelevant utterances are too similar to utterances assigned to an intent, they are displayed in Conflict Review. For more information, see [Irrelevance detection in NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/irrelevance-detection-nlu.md).
+Utterances may also be marked as `Not relevant`, meaning that no intent should be predicted. When these irrelevant utterances are too similar to utterances assigned to an intent, they are displayed in Conflict Review. For more information, see [\(Legacy\) Irrelevance detection in NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/irrelevance-detection-nlu.md).
 
 To address and fix these issues, Cross-model Conflict Review runs an analysis on your models. Use the analysis to identify and resolve these issues prior to model publication and deployment.
 
@@ -28,7 +28,7 @@ To address and fix these issues, Cross-model Conflict Review runs an analysis on
 
 Cross-model Conflict Review is part of the NLU Workbench - Advanced Features app available on the ServiceNow® Store.
 
-To use Cross-model Conflict Review, ensure that the NLU Workbench - Advanced Features \(com.snc.nlu.workbench.advanced\) plugin is active on your instance. For more information, see [Install NLU Workbench - Advanced Features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/install-nlu-workbench-adv-features.md) and [Activate the NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/activate-nlu-workbench.md).
+To use Cross-model Conflict Review, ensure that the NLU Workbench - Advanced Features \(com.snc.nlu.workbench.advanced\) plugin is active on your instance. For more information, see [\(Legacy\) Install NLU Workbench - Advanced Features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/install-nlu-workbench-adv-features.md) and [Activate the NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/activate-nlu-workbench.md).
 
 ## Roles
 

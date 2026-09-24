@@ -3,11 +3,11 @@ title: Operational Technology Progress Scorecard
 description: The Operational Technology \(OT\) Progress Scorecard lets you compare device and vulnerable item data between your sites.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/ot-progress-scorecard.html
-release: australia
+release: brazil
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Industrial Workspace, Operational Technology]
 ---
@@ -27,7 +27,7 @@ You can also view the site data for the following Operational Technology applica
 -   Operational Technology Incident Management
 -   Operational Technology Change Management
 
-You can configure the OT Progress Scorecard using the Industrial Workspace Admin Guided Setup. For more information about the setup tasks, see [Setting up the Operational Technology Progress Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/setting-up-the-ot-progress-scorecard.md).
+You can configure the OT Progress Scorecard using the Industrial Workspace Admin Guided Setup. For more information about the setup tasks, see [Setting up the Operational Technology Progress Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/setting-up-the-ot-progress-scorecard.md).
 
 ## Scorecard contents
 
@@ -49,7 +49,7 @@ Overall Score \(%\)
 
 </td><td>
 
-The progress of your site determined by the indicators on the scorecard. You can edit the weightage to control how much an indicator contributes to the overall score. For more information, see [Set the system properties for the Operational Technology Progress Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/set-the-system-properties-for-ot-progress-scorecard.md).
+The progress of your site determined by the indicators on the scorecard. You can edit the weightage to control how much an indicator contributes to the overall score. For more information, see [Set the system properties for the Operational Technology Progress Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/set-the-system-properties-for-ot-progress-scorecard.md).
 
 </td></tr><tr><td>
 
@@ -57,7 +57,7 @@ The progress of your site determined by the indicators on the scorecard. You can
 
 </td><td>
 
-The percentage of your OT devices that you expect to have in the Configuration Management Database \(CMDB\).**Note:** If you see a value of -1, then one or more of the values in the % of Expected OT Devices in CMDB indicator is missing the **Expected OT Device** attribute in the OTPSC Attributes table. For information about how to configure expected OT devices see [Configure the expected OT devices for a site](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/configure-expected-ot-devices.md).
+The percentage of your OT devices that you expect to have in the Configuration Management Database \(CMDB\).**Note:** If you see a value of -1, then one or more of the values in the % of Expected OT Devices in CMDB indicator is missing the **Expected OT Device** attribute in the OTPSC Attributes table. For information about how to configure expected OT devices see [Configure the expected OT devices for a site](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/configure-expected-ot-devices.md).
 
 </td></tr><tr><td>
 
@@ -88,7 +88,7 @@ OT Device Data Completeness \(%\)
 
 </td><td>
 
-The percentage of OT devices that meet your data goals. This metric depends on the CMDB Health Dashboard - Completeness Score Calculation job and you must set the required &amp; recommended fields on the CI Class Manager. For more information, see [Configuring CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_CMDBHealthSetupandConfig.md).Completeness is a KPI determined by the following metrics:
+The percentage of OT devices that meet your data goals. This metric depends on the CMDB Health Dashboard - Completeness Score Calculation job and you must set the required &amp; recommended fields on the CI Class Manager. For more information, see [Configuring CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_CMDBHealthSetupandConfig.md).Completeness is a KPI determined by the following metrics:
 
 -   **Required**
 
@@ -99,7 +99,7 @@ Measures the percentage of CIs in which fields that are defined as required, are
 Measures the percentage of CIs in which fields that are set as recommended, aren't populated.
 
 
-For more information about data completeness, see [CMDB Health KPIs and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_CMDBHealthMetrics.md)
+For more information about data completeness, see [CMDB Health KPIs and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_CMDBHealthMetrics.md)
 
 **Note:** If you see a value of -1, then the CMDB Health Dashboard - Completeness Score Calculation job hasn't been run yet. Or the job has been run with an incomplete status.
 
@@ -144,5 +144,5 @@ OT Incidents with OT Context \(%\)
 The percentage of OT incidents that have OT device or equipment model data.**Note:** If you see a value of 0, then no OT devices have been found.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/exploring-industrial-workspace.md)
+</table>**Parent Topic:**[Exploring the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/exploring-industrial-workspace.md)
 

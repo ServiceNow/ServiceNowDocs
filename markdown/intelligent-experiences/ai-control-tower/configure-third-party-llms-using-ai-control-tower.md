@@ -1,25 +1,25 @@
 ---
 title: Configure third-party LLMs using AI Control Tower
-description: Use the AI Control Tower to configure third-party LLMs based on the data routing configuration for the APJC region..
+description: Use the AI Control Tower to configure third-party LLMs based on the data routing configuration for the APJC region.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/configure-third-party-llms-using-ai-control-tower.html
-release: australia
+release: brazil
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Configure, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [Configuring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Configure third-party LLMs using AI Control Tower
 
-Use the AI Control Tower to configure third-party LLMs based on the data routing configuration for the APJC region..
+Use the AI Control Tower to configure third-party LLMs based on the data routing configuration for the APJC region.
 
 ## Before you begin
 
-Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
+Role required: AI steward \[sn\_ai\_governance\_ai\_steward\]
 
 ## Procedure
 
@@ -78,7 +78,7 @@ Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
 The third-party LLMs are configured with the Global data routing configuration for the APJC region.
 
-For information about Data routing, Fallback, and Spillover, see [AI model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md).
+For information about Data routing, Fallback, and Spillover, see [AI model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-model-providers.md)
 
-For information about scenarios for configuring third-party LLMs for regulated markets and AMS &amp; EMEA regions, see [Explore the third-party LLMs and regions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/exploring-third-party-llms-and-data-routing-configuration.md).
+For information about scenarios for configuring third-party LLMs for regulated markets and AMS &amp; EMEA regions, see [Explore Third-party LLMs and regions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/exploring-third-party-llms-and-data-routing-configuration.md)
 

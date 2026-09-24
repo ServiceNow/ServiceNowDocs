@@ -3,10 +3,10 @@ title: Developing your application
 description: Build a custom application to meet the business needs of your organization. Choose a builder for the type of user experience or workflow that you want to create.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/developing-applications.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-16"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Building applications]
 ---
 
@@ -16,27 +16,27 @@ Build a custom application to meet the business needs of your organization. Choo
 
 <table id="table_y5t_rg5_gbc" class="nav-card"><tbody><tr><td>
 
-[Agentic development and Build Agent \[Omitted image "bus-ai-sparkle.svg"\] Alt text: Expedite app development and enhance custom applications with AI using the generative and agentic AI capabilities available on the ServiceNow AI Platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/use-ai-capabilities-in-custom-apps.md)
+[Agentic development and Build Agent \[Omitted image "bus-ai-sparkle.svg"\] Alt text: Expedite app development and enhance custom applications with the AI tools available on the ServiceNow AI Platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/use-ai-capabilities-in-custom-apps.md)
 
 </td><td>
 
-[Build no-code applications with Creator Studio\[Omitted image "bus-automated-testing-framework.svg"\] Alt text: Create and manage custom applications in a simple, no-code environment.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-no-code-applications.md)
+[Build no-code applications with Creator Studio\[Omitted image "bus-automated-testing-framework.svg"\] Alt text: Create and manage custom applications in a simple, no-code environment.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-landing.md)
 
 </td><td>
 
-[Build low-code applications with App Engine \[Omitted image "bus-low-code-dev-tools.svg"\] Alt text: Accelerate innovation with more creators and less complexity. Empower developers of all skill levels to build applications at scale.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-low-code-applications-with-app-engine.md)
+[Build low-code applications with App Engine Studio \[Omitted image "bus-low-code-dev-tools.svg"\] Alt text: Accelerate innovation with more creators and less complexity. Empower developers of all skill levels to build applications at scale.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-overview.md)
 
 </td></tr><tr><td>
 
-[Build applications with ServiceNow Studio \[Omitted image "bus-application-development.svg"\] Alt text: Empower developers with a modern, unified environment for building on the ServiceNow AI Platform using integrated builders and tools.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-landing.md)
+[Build applications with ServiceNow Studio \[Omitted image "bus-application-development.svg"\] Alt text: Empower developers with a modern, unified environment for building on the ServiceNow AI Platform using integrated builders and tools.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/servicenow-studio-landing.md)
 
 </td><td>
 
-[Build pro-code applications \[Omitted image "bus-application-development.svg"\] Alt text: Extend or maintain existing applications and user experiences. Connect applications and data across the enterprise.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-pro-code-applications.md)
+[Build pro-code applications \[Omitted image "bus-application-development.svg"\] Alt text: Extend or maintain existing applications and user experiences. Connect applications and data across the enterprise.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/building-pro-code-applications.md)
 
 </td><td>
 
-[Builder library \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Choose a builder tool to quickly develop an application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/builder-library-table.md)
+[Builder library \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Choose a builder tool to quickly develop an application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/builder-library-table.md)
 
 </td></tr></tbody>
 </table>## Which app builder should I use?
@@ -57,27 +57,15 @@ Features
 
 </th></tr></thead><tbody><tr><td>
 
-Creator Studio: Build an app without code.
+Build Agent: Build an app using natural language prompts.
 
 </td><td>
 
-Process owners, line of business owners
+Developers of all experience levels \(from low-code to Platform and source code\)
 
 </td><td>
 
-Build request-fulfillment apps without writing code. For example, create an application to request office supplies: a user fills out a form, and an approver accepts or denies the request. For more information, see [Exploring Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/exploring-creator-studio.md).
-
-</td></tr><tr><td>
-
-App Engine Studio: Build a range of apps using low-code tools.
-
-</td><td>
-
-Citizen developers
-
-</td><td>
-
-Build a broader range of apps than Creator Studio without writing code.For more information, see [Exploring App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/exploring-aes.md).
+Build full-stack applications via a conversational interface.You can use Build Agent in ServiceNow Studio and the ServiceNow IDE to generate a complete ServiceNow scoped or global application. For more information, see [Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/exploring-build-agent.md).
 
 </td></tr><tr><td>
 
@@ -91,100 +79,47 @@ Citizen developers, Platform developers
 
 Build apps in a unified development environment.ServiceNow Studio provides streamlined navigation, integrated low-code tools, and built-in tracking and packaging so you can develop and ship apps faster. Use Build Agent in ServiceNow Studio to create and update apps with a conversational interaction.
 
-For more information, see [Exploring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/exploring-servicenow-studio.md)and [Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/build-agent-in-servicenow-studio.md).
-
-</td></tr><tr><td>
-
-ServiceNow IDE and ServiceNow SDK: Build apps in source code.
-
-</td><td>
-
-Source code developers
-
-</td><td>
-
-Develop applications in source code with ServiceNow Fluent, create JavaScript modules, and use third-party libraries. ServiceNow Fluent is a domain-specific programming language for creating application metadata in code. Use Build Agent in ServiceNow IDE to create and update apps in source code with a conversational interaction.The ServiceNow IDE runs Visual Studio Code for the Web on the ServiceNow AI Platform. The ServiceNow SDK runs Visual Studio Code Desktop locally. For more information, see [Building applications in source code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications-source-code.md).
+For more information, see [Exploring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/exploring-servicenow-studio.md).
 
 </td></tr></tbody>
 </table>## Agentic development on the ServiceNow AI Platform
 
--   **[Agentic development of full-stack applications with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md)**
+-   **[Agentic development of full-stack applications with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent.md)**
 
-    Use agentic development on the ServiceNow AI Platform with Build Agent, an autonomous AI agent available with ServiceNow Otto for Creator. Describe what you need through back and forth conversations with Build Agent, and Build Agent automatically builds the application, including audit trails, security, and compliance.
+    Agentically develop applications on the ServiceNow AI Platform with Build Agent, an autonomous AI agent available with ServiceNow Otto for Creator. Describe what you need through back and forth conversations with Build Agent, and Build Agent automatically builds the application, including audit trails, security, and compliance.
 
--   **[Generate apps in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-app-gen-using-landing.md)**
+-   **[ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-creator/now-assist-for-creator-landing.md)**
 
-    Use the app generation skill available with ServiceNow Otto for Creator to generate an application in ServiceNow Studio. Describe the app that you want to create and continue the conversation to refine and edit the app further.
+    Use the AI skills, agents, and agentic workflows available with ServiceNow Otto for Creator to generate and enhance applications.
 
--   **[Leverage AI assets in custom apps at runtime with ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md)**
+-   **[Create and use AI assets in apps at runtime with ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md)**
 
-    Enhance App Engine applications with AI agents, skill, and agentic workflows that users can leverage at runtime with ServiceNow Otto for App Engine.
+    Enhance App Engine applications with AI skills, agents, and agentic workflows that users can use at runtime with ServiceNow Otto for App Engine.
 
--   **[Generate code with AI-powered code generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/generate-scripts-from-text.md)**
+-   **[Generate code with AI-powered code generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/generate-scripts-from-text.md)**
 
     Generate scripts from text, code, or a combination of both with AI-powered code generation.
 
 
-## Build no-code applications with Creator Studio
-
--   **[Create applications without coding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-landing.md)**
-
-    Build request-fulfill applications in a simple environment, without using code, in Creator Studio.
-
-
-## Build low-code applications with App Engine
-
-Build low-code apps quickly, with more creators and less complexity. Safely scale cross-enterprise experiences that users want.
-
--   **[Empower creators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/use-app-template.md)**
-
-    Bring creator workflow apps to production quickly for mission-critical tasks. Design with guidance and templates that are all within a holistic low-code dev experience​.
-
--   **[Scale low-code development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/manage-collaboration-requests.md)**
-
-    Empower business and IT to collaborate, manage, and govern low-code app development.​  Set development guardrails, apply standards, and check for compliance, all in one place.
-
--   **[Engage your users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mab-concept.md)**
-
-    Captivate users with a modern unified experience that’s easy to understand. Build mobile-first experiences using an intuitive, low-code designer.
-
-
-## Build applications with the new ServiceNow Studio
+## Build applications with ServiceNow Studio
 
 Build apps smarter and deliver them faster with the new ServiceNow Studio. ServiceNow Studio empowers platform developers with a modern, unified environment for building on the ServiceNow AI Platform. ServiceNow Studio features streamlined navigation to applications and metadata, integrated low-code tools, efficient tracking and packaging of development work that accelerates development processes and enhances productivity.
 
--   **[ServiceNow Studio quick start](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-quick-start.md)**
+-   **[ServiceNow Studio quick start](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/servicenow-studio-quick-start.md)**
 
     Quickly familiarize yourself with new features in ServiceNow Studio.
 
--   **[Build applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/create-an-application-in-servicenow-studio.md)**
+-   **[Build applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/create-an-application-in-servicenow-studio.md)**
 
     Admins can easily build custom or global apps using a guided experience and integrated builders.
 
--   **[Deploy applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/working-with-update-sets-in-servicenow-studio.md)**
+-   **[Deploy applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/working-with-update-sets-in-servicenow-studio.md)**
 
-    Deploy your applications seamlessly using update sets, pipelines, or the Application Repository.
+    Deploy your applications seamlessly using ReleaseOps, update sets, pipelines, or the Application Repository.
 
--   **[ServiceNow Studio Navigator panel taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-file-navigator-taxonomy.md)**
+-   **[ServiceNow Studio Navigator panel taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/servicenow-studio-file-navigator-taxonomy.md)**
 
     Learn more about each type of file you can add to applications in ServiceNow Studio.
-
-
-## Build pro-code applications
-
-Build and deploy apps with fine-grained control. Debug code, manage source control, and publish your apps from a central hub.
-
--   **[Build your apps faster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-pro-code-applications.md)**
-
-    Get all your work done in one place, accelerating the process from coding to deployment.
-
--   **[Develop applications in source code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications-source-code.md)**
-
-    Write code that defines application metadata in an integrated development environment.
-
--   **[Work as a team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/team-development-landing.md)**
-
-    Provide individual developer access to specific application resources for better collaboration.
 
 
 ## Develop in sandbox environments
@@ -193,5 +128,5 @@ Use Developer Sandboxes to create isolated development environments where users 
 
 ## Builder library
 
-Each builder fulfills a specific need or produces a specific type of data, such as Decision Builder, UI Builder, and Workspace Builder. For a complete list of builders, see [Builder Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/builder-library-table.md).
+Each builder fulfills a specific need or produces a specific type of data, such as Decision Builder, UI Builder, and Workspace Builder. For a complete list of builders, see [Builder Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/builder-library-table.md).
 

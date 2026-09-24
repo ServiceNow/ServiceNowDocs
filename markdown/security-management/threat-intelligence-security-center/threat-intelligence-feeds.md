@@ -3,11 +3,11 @@ title: Threat Intelligence Feeds
 description: Configure threat intelligence data sources to automatically import security indicators into your ServiceNow instance. Use feeds to keep threat data current and enhance security monitoring capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/threat-intelligence-feeds.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Integrate, Threat Intelligence Security Center, Security Operations]
 ---
@@ -202,18 +202,18 @@ When you enable a feed, its configuration fields are set to read-only. This beha
 
 The same behavior applies to TAXII collections and to enrichment integrations.
 
--   **[Configure a new threat intelligence feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-new-data-source.md)**  
+-   **[Configure a new threat intelligence feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-new-data-source.md)**  
 Configure a new threat intelligence feed.
--   **[Configure Custom Field Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-field-mapping.md)**  
+-   **[Configure Custom Field Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-field-mapping.md)**  
 Field Mapping allows you to configure how each field in a data feed such as Text, CSV or JSON is interpreted and assigned to the corresponding observable.
--   **[View Threat Intel Feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/base-system-threat-intel-feeds.md)**  
+-   **[View Threat Intel Feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/base-system-threat-intel-feeds.md)**  
 View threat intelligence feeds that automatically imports security data into your TISC ServiceNow instance. This enables real-time threat detection and response capabilities.
--   **[About STIX TAXII](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-intelligence-security-center-feeds.md)**  
+-   **[About STIX TAXII](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/threat-intelligence-security-center-feeds.md)**  
 Structured Threat Information Expression \(STIX\) is a language and serialization format used to exchange cyberthreat intelligence \(CTI\). Trusted Automated Exchange of Intelligence Information \(TAXII\) is a protocol used to exchange cyberthreat intelligence \(CTI\) over HTTPS.
--   **[Duplicate threat intelligence feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-duplicate-feeds.md)**  
+-   **[Duplicate threat intelligence feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-duplicate-feeds.md)**  
 Duplicate a threat feed to create an exact copy with all associated observables, indicators, and actors when you want to modify settings without affecting the original feed.
 
-**Parent Topic:**[Integrate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/integrating-threat-intelligence-security-center.md)
+**Parent Topic:**[Integrate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/integrating-threat-intelligence-security-center.md)
 
 **Related topics**  
 

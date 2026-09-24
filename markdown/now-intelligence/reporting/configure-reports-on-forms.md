@@ -3,11 +3,11 @@ title: Configure charts on forms
 description: You can add reports to forms such as change requests, and configure the report visualizations to display information relevant to the user of the form. The configuration is specific to the current view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/configure-reports-on-forms.html
-release: australia
+release: brazil
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -75,5 +75,5 @@ The following report types are not supported on forms: List, Pivot, Multilevel P
 
 The selected report appears on all forms which are of the same type as the one selected. These reports are filtered based on the report condition extensions.
 
-**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdvancedReporting.md)
+**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_AdvancedReporting.md)
 

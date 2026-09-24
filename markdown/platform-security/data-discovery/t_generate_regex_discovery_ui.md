@@ -3,14 +3,14 @@ title: Generate a regular expression using the discovery UI
 description: Use the Text to RegEx feature in the discovery UI to automatically generate a regular expression from a natural language description of the pattern you need.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/data-discovery/t\_generate\_regex\_discovery\_ui.html
-release: australia
+release: brazil
 product: Data Discovery
 classification: data-discovery
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [generate, regex, discovery UI, data pattern]
-breadcrumb: [Using Text to RegEx, Create new data pattern, Data Discovery sources, Data Discovery Store, Data Discovery, Platform Privacy]
+breadcrumb: [Using Text to RegEx with the classic UI, Create new data pattern, Data Discovery sources, Data Discovery Store, Data Discovery, Platform Privacy]
 ---
 
 # Generate a regular expression using the discovery UI

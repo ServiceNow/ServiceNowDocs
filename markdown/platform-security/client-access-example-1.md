@@ -3,9 +3,9 @@ title: Create encryption keys and certificate
 description: Create encryption keys and a certificate using terminal commands on your local environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/client-access-example-1.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring client accessible secrets, Secrets Management, Platform Security]
 ---
@@ -49,7 +49,7 @@ Role required: none
 
     \[Omitted image "client-side-1.png"\] Alt text: Prompts displayed by openssl
 
-5.  Check the folder you that you chose in step 2 to verify that the private key and public certificate have been created.
+5.  Check the folder you that chose in step 2 to verify that the private key and public certificate have been created.
 
     If you used the same file names as in the step 3 example, you should see the following files:
 
@@ -85,5 +85,5 @@ sm_private_key.pem sm_public_cert.pem > sm_keypair_bundle.pem
 7.  Check the folder again to verify that the new file containing your private key \(sm\_keypair\_bundle.pem\) and public certificate has been created.
 
 
-**Parent Topic:**[Configuring client accessible secrets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/client-access-secret-landing.md)
+**Parent Topic:**[Configuring client accessible secrets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/client-access-secret-landing.md)
 

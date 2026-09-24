@@ -3,11 +3,11 @@ title: Manage a community event
 description: View additional response information on the event, edit or delete events, and download a guest list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/manage-event.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Community events, Post and respond to content in the community, Using communities, Communities, Customer Service Management]
 ---
@@ -21,6 +21,10 @@ View additional response information on the event, edit or delete events, and do
 You must be a registered member of the community and have permission to read events \(**Event Read and Comment Write**\) to be able to respond to events.
 
 Role required: sn\_communities.community\_user who created the event or sn\_communities.admin.
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## About this task
 
@@ -85,7 +89,7 @@ Shows the top five most popular past events and the number of community users th
 
 4.  You have the following options.
 
-<table id="choicetable_ixj_1fr_gbb"><tbody><tr><td id="d219408e201">
+<table id="choicetable_ixj_1fr_gbb"><tbody><tr><td id="d224674e220">
 
 **Edit**
 
@@ -93,7 +97,7 @@ Shows the top five most popular past events and the number of community users th
 
 Click **Edit**. The **Update Event** page opens. An email notification is sent to all community users who responded **Yes**, **Maybe**, or **Waitlist**.
 
-</td></tr><tr><td id="d219408e225">
+</td></tr><tr><td id="d224674e244">
 
 **Delete**
 
@@ -101,7 +105,7 @@ Click **Edit**. The **Update Event** page opens. An email notification is sent t
 
 Click **Delete**. A warning message appears asking if you are sure that to delete the event. An email notification is sent to all community users who responded **Yes**, **Maybe**, or **Waitlist**.
 
-</td></tr><tr><td id="d219408e246">
+</td></tr><tr><td id="d224674e265">
 
 **Add to calendar**
 
@@ -109,7 +113,7 @@ Click **Delete**. A warning message appears asking if you are sure that to delet
 
 An `.ics` file is downloaded that you can add to your calendar. The file includes the title and description of the event, the event location, start and end dates, the event time, and any attachments. If guests have chosen not to share their details, the information is not displayed in the file download.
 
-</td></tr><tr><td id="d219408e258">
+</td></tr><tr><td id="d224674e277">
 
 **Bookmark**
 
@@ -117,7 +121,7 @@ An `.ics` file is downloaded that you can add to your calendar. The file include
 
 The event appears in your bookmarks list on your profile page. If you have already bookmarked the event, you can click **Remove Bookmark**.
 
-</td></tr><tr><td id="d219408e270">
+</td></tr><tr><td id="d224674e289">
 
 **Report content**
 
@@ -125,7 +129,7 @@ The event appears in your bookmarks list on your profile page. If you have alrea
 
 As a community admin, click **Report content** to report inappropriate content in the event.
 
-</td></tr><tr><td id="d219408e283">
+</td></tr><tr><td id="d224674e302">
 
 **Download Guest List**
 
@@ -135,5 +139,5 @@ Download a `.csv` file of the guest list. View the file to see the list of commu
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Community events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/community-events.md)
+**Parent Topic:**[Community events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/community-events.md)
 

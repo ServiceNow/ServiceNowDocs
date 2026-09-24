@@ -3,11 +3,11 @@ title: Configure Agent Client Collector log levels
 description: You configure the log levels that you want the Agent Client Collector logs to contain. All events that match or exceed the specified log level display in the Agent Client Collector logs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-configure-log-levels.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using ACC logs, ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -54,5 +54,5 @@ Role required: agent\_client\_collector\_admin
     **Note:** You must restart the service after changing the log level.
 
 
-**Parent Topic:**[Using Agent Client Collector logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/logs-acc.md)
+**Parent Topic:**[Using Agent Client Collector logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/logs-acc.md)
 

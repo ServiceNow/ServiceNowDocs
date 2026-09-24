@@ -3,11 +3,11 @@ title: Geo map
 description: Use the geo map in Telecommunications Network Inventory to view the geographical location of your network sites and datacenters. You can use the geo map to get the details of the network site and datacenters such as site details, connectivity, and capacity information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/visualization-map.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Visualize network infrastructure, Explore, Telecommunications Network Inventory]
 ---
@@ -148,10 +148,10 @@ You can access the geo map in the Telecommunications Network Inventory workspace
 2.  Select the blue hub icon \(\[Omitted image "icon-blue-hub.png"\] Alt text: Blue Hub Icon.\) to open the Network visualization window.
 3.  Select **Geo map** tab.
 
-To learn more about how to use the geo map, see [View details of the geo map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/view-details-network-site-map.md).
+To learn more about how to use the geo map, see [View details of the geo map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/view-details-network-site-map.md).
 
 **Related topics**  
 
 
-[Geo map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-network-site-map.md)
+[Geo map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/using-network-site-map.md)
 

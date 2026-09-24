@@ -3,9 +3,9 @@ title: Roles and responsibilities in Care Team Work Management
 description: To manage access effectively in Care Team Work Management, first understand how roles and responsibilities work together. These concepts build on the Service Model Foundation \(SMF\) but are adapted for Healthcare Operations-specific use cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-understanding-roles-responsibilities.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Care Team Work Management, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Configure, Care Team Work Management, Healthcare Operations, Health
 
 To manage access effectively in Care Team Work Management, first understand how roles and responsibilities work together. These concepts build on the Service Model Foundation \(SMF\) but are adapted for Healthcare Operations-specific use cases.
 
-To understand how roles and responsibilities function in Healthcare Operations, see [Setting up roles and responsibilities for Healthcare Operations users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/cto-setting-up-roles-responsibilities.md).
+To understand how roles and responsibilities function in Healthcare Operations, see [Setting up roles and responsibilities for Healthcare Operations users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-operations-core/cto-setting-up-roles-responsibilities.md).
 
 Roles control access to features, capabilities, and data in the Care Team Work Management application.
 
@@ -28,7 +28,7 @@ You can assign roles to individual users or groups. When you apply roles to grou
 2.  **sn\_hco\_orc.loc\_support\_agent** or **sn\_hco\_orc.admin** for access to forms from the Healthcare Orchestration plugin.
 3.  **sn\_hco\_orc.plan\_author** for access to task plan creation, scheduling and the ability to select multiple organizations for playbooks.
 
-For instructions on assigning roles to groups, see [Create a group for all care team members in Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hco-create-team-members-group.md).
+For instructions on assigning roles to groups, see [Create a group for all care team members in Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-operations-core/hco-create-team-members-group.md).
 
 The following roles and responsibilities are included with Care Team Work Management.
 

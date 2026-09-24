@@ -3,11 +3,11 @@ title: Planning console tasks
 description: You can perform several tasks on the planning console that you can perform on lists and forms, such as creating project tasks and copying projects. You can also perform several tasks unique to the console.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/r\_PlanningConsoleTasks.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
 breadcrumb: [Using Planning console - Legacy, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -76,7 +76,7 @@ View and modify task status
 
 </td><td>
 
-View the status of the project task based on the difference of the planned end date of the task from the current date. The status of the task updates automatically from Green to Yellow to Red as the planned end date approaches.You can manually update the task status by double-clicking the **Status** column and selecting a different task status. For more information, see **Status** field description in the [Create a project task from a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateATaskFromAProject.md) topic.
+View the status of the project task based on the difference of the planned end date of the task from the current date. The status of the task updates automatically from Green to Yellow to Red as the planned end date approaches.You can manually update the task status by double-clicking the **Status** column and selecting a different task status. For more information, see **Status** field description in the [Create a project task from a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CreateATaskFromAProject.md) topic.
 
 </td></tr><tr><td>
 
@@ -84,7 +84,7 @@ Add an agile phase or a test phase
 
 </td><td>
 
-Right-click a project and select **Add Agile Phase** or **Add Test Phase**. The agile phase icon or test phase icons appear next to the task in the **Name** column. See [phase icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_GanttChart.md). **Note:**
+Right-click a project and select **Add Agile Phase** or **Add Test Phase**. The agile phase icon or test phase icons appear next to the task in the **Name** column. See [phase icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_GanttChart.md). **Note:**
 
 -   The **Add Agile Phase** option is available only for Agile and Hybrid projects. You must also have the Agile Development 2.0 plugin installed.
 -   You can add multiple agile phases and multiple test phases to a project.
@@ -106,7 +106,7 @@ Cancel a resource plan for a Closed project
 
 </td><td>
 
-Right-click the project and select **Cancel Resource Plans**. All past and future allocations for the selected [resource plan are canceled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/cancel-resource-plan-from-project-or-demand.md).The option is available only for a project in any of the Closed states.
+Right-click the project and select **Cancel Resource Plans**. All past and future allocations for the selected [resource plan are canceled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/cancel-resource-plan-from-project-or-demand.md).The option is available only for a project in any of the Closed states.
 
 </td></tr><tr><td>
 
@@ -114,7 +114,7 @@ Complete a resource plan for a Closed project
 
 </td><td>
 
-Right-click the project and select **Complete Resource Plans**. All the requested and resource allocations for the resource plan post the completion date are deleted.The option to [complete resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/complete-resource-plan-from-project-or-demand.md) is available only for a project in any of the Closed states.
+Right-click the project and select **Complete Resource Plans**. All the requested and resource allocations for the resource plan post the completion date are deleted.The option to [complete resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/complete-resource-plan-from-project-or-demand.md) is available only for a project in any of the Closed states.
 
 </td></tr><tr><td>
 
@@ -122,7 +122,7 @@ Add an external dependency between tasks of different projects
 
 </td><td>
 
-Right-click a task and select **Add External Dependency**. Select the project and task to which the [dependency is added](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/create-external-dependency-planning-console.md).
+Right-click a task and select **Add External Dependency**. Select the project and task to which the [dependency is added](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/create-external-dependency-planning-console.md).
 
 </td></tr><tr><td>
 
@@ -184,7 +184,7 @@ Show external dependency notifications
 
 </td><td>
 
-Select the notification bell icon to display the notifications raised in the successor project. The notifications are triggered as a result of changes made in the predecessor project.-   For a [soft dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/external-dependency-types.md), select **Accept** or **Reject** to accept or reject the changes in the notification.
+Select the notification bell icon to display the notifications raised in the successor project. The notifications are triggered as a result of changes made in the predecessor project.-   For a [soft dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/external-dependency-types.md), select **Accept** or **Reject** to accept or reject the changes in the notification.
 -   For a hard dependency, view the displayed notification to review the changes in the notification.
 
 </td></tr><tr><td>
@@ -193,7 +193,7 @@ Save changes to the server
 
 </td><td>
 
-Select the save icon to commit changes made in the planning console. The option is available only when [Client Side Planning Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/client-side-planning-console.md) is enabled.
+Select the save icon to commit changes made in the planning console. The option is available only when [Client Side Planning Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/client-side-planning-console.md) is enabled.
 
 </td></tr><tr><td>
 
@@ -209,7 +209,7 @@ Show or hide columns in the planning console
 
 </td><td>
 
-Select the show or hide columns in gantt icon, and then select or clear the check boxes for the columns available. Admin can [customize](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/custom-columns-planning-console.md) which columns appear in this list. The selection is saved in the user preference. The next time you open the planning console, the same columns you selected will appear.
+Select the show or hide columns in gantt icon, and then select or clear the check boxes for the columns available. Admin can [customize](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/custom-columns-planning-console.md) which columns appear in this list. The selection is saved in the user preference. The next time you open the planning console, the same columns you selected will appear.
 
 </td></tr><tr><td>
 
@@ -217,7 +217,7 @@ Select WBS levels to show
 
 </td><td>
 
-Select the show or hide columns in gantt icon, and then select the level from the [WBS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_WorkBreakdownStructure.md) **Depth** list.
+Select the show or hide columns in gantt icon, and then select the level from the [WBS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_WorkBreakdownStructure.md) **Depth** list.
 
 </td></tr><tr><td>
 
@@ -266,7 +266,7 @@ Create a dependency between tasks
 
 </td><td>
 
-Find the successor task in the relationship and double-click the value in the **Predecessor** column and enter a value that specifies the relationship. See [Predecessor dependencies in the planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/r_ProjectTaskDependencyValues.md) for examples.Alternatively, you can create a relationship between two tasks by connecting the ends of the corresponding task bars in the timeline view.
+Find the successor task in the relationship and double-click the value in the **Predecessor** column and enter a value that specifies the relationship. See [Predecessor dependencies in the planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/r_ProjectTaskDependencyValues.md) for examples.Alternatively, you can create a relationship between two tasks by connecting the ends of the corresponding task bars in the timeline view.
 
 </td></tr><tr><td>
 
@@ -282,7 +282,7 @@ Create a baseline
 
 </td><td>
 
-Select the more options icon, and then select **Create new baseline**. See [Create baseline of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectBaseline.md) for more information.
+Select the more options icon, and then select **Create new baseline**. See [Create baseline of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CreateAProjectBaseline.md) for more information.
 
 </td></tr><tr><td>
 
@@ -300,7 +300,7 @@ Display the critical path
 
 </td><td>
 
-Select the critical path icon. For more information on the critical path, see [Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_GanttChart.md).
+Select the critical path icon. For more information on the critical path, see [Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_GanttChart.md).
 
 </td></tr><tr><td>
 
@@ -365,7 +365,7 @@ Open the project workbench
 
 </td><td>
 
-Select the **Planning Console** selection arrow on the banner and select **Project Workbench**. For more information, see [Using Project workbench - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectWorkbench.md).
+Select the **Planning Console** selection arrow on the banner and select **Project Workbench**. For more information, see [Using Project workbench - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_ProjectWorkbench.md).
 
 </td></tr><tr><td>
 
@@ -381,7 +381,7 @@ Export project data in MPP, CSV, or XML format
 
 </td><td>
 
-Select the more options icon, and then select **Export Planning Console**. For more information, see [Export project data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_ExportAProjectWithTheProjectForm.md).
+Select the more options icon, and then select **Export Planning Console**. For more information, see [Export project data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_ExportAProjectWithTheProjectForm.md).
 
 </td></tr><tr><td>
 
@@ -398,5 +398,5 @@ Select the more options icon, and then select **Print**.**Note:**
 </table>**Related topics**  
 
 
-[Using Planning console - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_TheProjectPlanningConsole.md)
+[Using Planning console - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_TheProjectPlanningConsole.md)
 

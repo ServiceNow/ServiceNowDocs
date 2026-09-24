@@ -3,13 +3,13 @@ title: Create an auditable unit and scope entities at risk
 description: Create auditable units to identify business entities that can possibly be at risk and scope them into audits.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/create-auditable-units-ws.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Audit Supervisor Workspace, Audit Workspace Overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Audit Supervisor Workspace, Audit Workspace overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Create an auditable unit and scope entities at risk
@@ -22,11 +22,11 @@ Role required: sn\_audit.manager, sn\_audit\_ws.supervisor, sn\_audit.user, sn\_
 
 ## About this task
 
-Auditable units are a combination of different entities such as business units, products or services, legal entities, regulatory required audits, processes, programs, systems, policies, regulation, financial statements, and others.
+Auditable units are a combination of different entities such as business units, products or services, legal entities, and regulatory required audits. They can also include processes, programs, systems, policies, regulation, financial statements, and others.
 
-After you determine the nature and scope of the auditable units, your goal is to perform risk assessments, and scope auditable units and entities based on the risk rating.
+After you determine the nature and scope of the auditable units, perform risk assessments. Scope auditable units and entities based on the risk rating.
 
-See also [Perform advanced risk assessment in the Risk workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/perform-ara-workspace.md).
+See also [Perform advanced risk assessment in the Risk workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/perform-ara-workspace.md).
 
 ## Procedure
 
@@ -172,6 +172,6 @@ Residual risk score. The value in this field is derived from advanced risk asses
 
 10. If you have GRC: Advanced Risk application installed and if you have selected Risk Assessment Method as **Detailed Risk Assessment**, then you can assess risk by clicking the **Assess risk** button.
 
-    For more information, see risk assessment method in [Create an auditable unit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/create-auditable-unit.md).
+    For more information, see risk assessment method in [Create an auditable unit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/create-auditable-unit.md).
 
 

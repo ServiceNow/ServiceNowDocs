@@ -3,11 +3,11 @@ title: Personalize the system date format
 description: You can personalize the format in which date values appear in your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/t\_PersonalizeTheSystemDateFormat.html
-release: australia
+release: brazil
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Global date and time field format, Date and Date/Time fields, Explore, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -34,7 +34,7 @@ Personalizing the date format does not change global settings or impact the way 
 3.  Click **Update**.
 
 
-**Parent Topic:**[Global date and time field format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_FormatDateAndTimeFields.md)
+**Parent Topic:**[Global date and time field format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/r_FormatDateAndTimeFields.md)
 
 **Related topics**  
 

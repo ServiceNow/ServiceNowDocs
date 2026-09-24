@@ -3,11 +3,11 @@ title: Life cycle of intangible/logical entities
 description: The intangible/logical life-cycle value pairs represent the overall life cycle of logical assets and CIs as related to their products. A logical or software asset includes items like applications, services, and licenses. The life cycle stage and life cycle stage status values of logical items are visible only in tables related to intangible/logical items in Asset Management and the CMDB.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-logical.html
-release: australia
+release: brazil
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ The intangible/logical life-cycle value pairs represent the overall life cycle o
 
 ## Life-cycle values for intangible/logical CIs, assets, and IBIs
 
-For definitions of the values in the diagram, see [Definitions of life-cycle values for intangible/logical entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-df-intangible-logical.md).
+For definitions of the values in the diagram, see [Definitions of life-cycle values for intangible/logical entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-df-intangible-logical.md).
 
 \[Omitted image "csdm-lifecycle-vp-intangible-logical.png"\] Alt text: Relationships between CSDM stages and life cycle values.
 
@@ -28,7 +28,7 @@ For definitions of the values in the diagram, see [Definitions of life-cycle val
 
 Because service instances are logical in nature, they should use the Logical life-cycle value pairs. Service instances follow the same life-cycle guidance as any other logical CI.
 
-See [Use Service instance \(Application Services\) dashboard to monitor health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.md).
+See [Use Service instance \(Application Services\) dashboard to monitor health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.md).
 
 ## Life cycle inheritance for Business Applications
 
@@ -46,15 +46,15 @@ As a result, Business Application records can display life cycle stages that are
 
 The life cycle inheritance model used by life\_cycle\_control differs from the inheritance behavior of sys\_choice. While sys\_choice uses a “most specific table wins” model \(child table choices override parent table choices\), life cycle controls are aggregated across the class hierarchy. There is currently no mechanism to suppress parent life cycle stages for a child CI class.
 
--   **[Definitions of life-cycle values for intangible/logical entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-df-intangible-logical.md)**  
+-   **[Definitions of life-cycle values for intangible/logical entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-df-intangible-logical.md)**  
 The intangible/logical life-cycle value pairs represent the overall life cycle of logical assets and CIs as related to their products. A logical or software asset includes items like applications, services, and licenses. The life cycle stage and life cycle stage status values of logical items are visible only in tables related to intangible/logical items in Asset Management and the CMDB.
--   **[Intangible/logical tables in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecy-tables-intang-logical.md)**  
+-   **[Intangible/logical tables in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecy-tables-intang-logical.md)**  
 List of intangible/logical tables.
 
-**Parent Topic:**[CSDM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-reference.md)
+**Parent Topic:**[CSDM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-reference.md)
 
 **Related topics**  
 
 
-[Intangible/logical tables in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecy-tables-intang-logical.md)
+[Intangible/logical tables in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecy-tables-intang-logical.md)
 

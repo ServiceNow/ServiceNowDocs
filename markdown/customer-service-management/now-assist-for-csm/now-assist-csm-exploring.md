@@ -3,11 +3,11 @@ title: Exploring ServiceNow Otto for Customer Service Management \(CSM\)
 description: With the ServiceNow Otto for Customer Service Management \(CSM\) application, your agents can use generative AI to summarize the customer chat conversations and case details to get the context of the case. They can also generate the case resolution notes to share with the other agents and wrap up cases faster.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/now-assist-csm-exploring.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [ServiceNow Otto for CSM, Customer Service Management]
@@ -117,11 +117,11 @@ The ServiceNow Otto for CSM application includes generative AI skills that enabl
 
 -   **Conversational subflows and actions in ServiceNow Otto panel**
 
-    Use natural language to trigger subflows or actions, enhancing agent productivity and allowing them to complete tasks efficiently within the panel. For more info, see [Request the generative AI capabilities in Customer Service Management by using the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/request-gen-ai-capabilities-csm-now-assist-panel.md).
+    Use natural language to trigger subflows or actions, enhancing agent productivity and allowing them to complete tasks efficiently within the panel. For more info, see [Request the generative AI capabilities in Customer Service Management by using the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/request-gen-ai-capabilities-csm-now-assist-panel.md).
 
 -   **ServiceNow Otto in Portal case form**
 
-    Guide requesters through a self-service flow using Genius Results to find solutions and reduce the number of cases created. For more info, see [Using generative AI in portal case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-ai-search-with-q-a-within-the-portal-form.md).
+    Guide requesters through a self-service flow using Genius Results to find solutions and reduce the number of cases created. For more info, see [Using Now Assist in portal case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/using-ai-search-with-q-a-within-the-portal-form.md).
 
 -   **Suggested steps generation**
 
@@ -129,15 +129,15 @@ The ServiceNow Otto for CSM application includes generative AI skills that enabl
 
 -   **Activity response generation**
 
-    Use the activity response generation skill to automatically generate recommendations for resolution notes, work notes, and comments. This feature helps agents add meaningful updates to case records, improving efficiency, and interaction. For more info, see [Generate activity stream responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/generate-a-recommendation-to-respond-to-an-activity.md).
+    Use the activity response generation skill to automatically generate recommendations for resolution notes, work notes, and comments. This feature helps agents add meaningful updates to case records, improving efficiency, and interaction. For more info, see [Generate activity stream responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/generate-a-recommendation-to-respond-to-an-activity.md).
 
 -   **Trending topics dashboard**
 
-    Get a comprehensive view of trending topics across cases along with insights and visualizations to facilitate deeper analysis. This feature helps support teams track trend progression, regional impact, and drill down into specific trends using customizable filters. For more info, see [View trending topics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/view-trending-topics-dashboard.md).
+    Get a comprehensive view of trending topics across cases along with insights and visualizations to facilitate deeper analysis. This feature helps support teams track trend progression, regional impact, and drill down into specific trends using customizable filters. For more info, see [View trending topics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/view-trending-topics-dashboard.md).
 
 -   **Sentiment analysis dashboard**
 
-    Get a comprehensive view of customer sentiment across cases and accounts. The dashboard by default uses Azure to explain sentiment changes and lets you drill down to find root causes—helping teams take targeted actions. For more info, see [Use sentiment analysis dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/use-sentiment-analysis-dashboard.md).
+    Get a comprehensive view of customer sentiment across cases and accounts. The dashboard by default uses Azure to explain sentiment changes and lets you drill down to find root causes—helping teams take targeted actions. For more info, see [Use sentiment analysis dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/use-sentiment-analysis-dashboard.md).
 
 -   **Automated quality assurance**
 
@@ -154,31 +154,31 @@ The ServiceNow Otto for CSM application includes generative AI skills that enabl
 
 ## ServiceNow Otto panel in CRM Workspace
 
-An agent can use the panel in CRM Workspace. This conversational interface enables an agent to request a chat summary or case summary and generate the case resolution notes. For more information about the panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+An agent can use the panel in CRM Workspace. This conversational interface enables an agent to request a chat summary or case summary and generate the case resolution notes. For more information about the panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 ## ServiceNow Otto in AI Search
 
-The ServiceNow Otto in AI Search application uses Now LLM Service to extract actionable Q&amp;A Genius Result answers from the knowledge articles that are found in Service Portal, Virtual Agent, Employee Center, and global searches. By using this application, an agent can improve the customer's experience by retrieving the relevant content from the knowledge base and generating concise answers. For more information, see [ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-ais.md).
+The ServiceNow Otto in AI Search application uses Now LLM Service to extract actionable Q&amp;A Genius Result answers from the knowledge articles that are found in Service Portal, Virtual Agent, Employee Center, and global searches. By using this application, an agent can improve the customer's experience by retrieving the relevant content from the knowledge base and generating concise answers. For more information, see [ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/now-assist-ais.md).
 
 ## ServiceNow Otto in Virtual Agent
 
-ServiceNow Otto in the Virtual Agent guided setup can reduce the time and effort needed to deploy AI generated capabilities within Virtual Agent. Your administrators can configure features and skills and sources of information such as knowledge bases and catalogs. For more information, see [Configure AI in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
+ServiceNow Otto in the Virtual Agent guided setup can reduce the time and effort needed to deploy AI generated capabilities within Virtual Agent. Your administrators can configure features and skills and sources of information such as knowledge bases and catalogs. For more information, see [Configure AI in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md).
 
-With the AI generated Multi-Turn Catalog Requests skill, your customers can engage with Virtual Agent in a conversational manner to request catalog items. A customer can request an item and then refine their search by providing additional information. For more information, see [Multi-turn catalog ordering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/using-now-assist-in-va.md#section_pl4_zjw_jzb).
+With the AI generated Multi-Turn Catalog Requests skill, your customers can engage with Virtual Agent in a conversational manner to request catalog items. A customer can request an item and then refine their search by providing additional information. For more information, see [Multi-turn catalog ordering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/using-now-assist-in-va.md#section_pl4_zjw_jzb).
 
 ## Sensitive data handling
 
 Personally identifiable information and other sensitive data can be masked so that it does not appear in generative AI prompts. Placeholder text is sent with the prompt instead, and that placeholder text is replaced with the original text after the response has been received. This two-way masking ensures that your users see the correct values, but the Now LLM Service is not exposed to any sensitive information. For more information, see Multi-turn catalog ordering.
 
--   **[Supporting information for ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-supporting-info.md)**  
+-   **[Supporting information for ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-supporting-info.md)**  
 Get a quick overview of the important information that is related to the ServiceNow Otto for Customer Service Management \(CSM\) application.
 
-**Parent Topic:**[ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm.md)
+**Parent Topic:**[ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/now-assist-csm.md)
 
 **Related topics**  
 
 
-[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)
+[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md)
 
-[Exploring AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-platform.md)
+[Exploring AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/exploring-now-assist-platform.md)
 

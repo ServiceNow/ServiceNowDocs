@@ -3,11 +3,11 @@ title: Get File List activity
 description: The Get File List activity returns a list of files from a given directory and its subdirectories on an SFTP server \(source host\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/r\_GetFileListActivity.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SFTP File Transfer activity pack, Orchestration activity packs, Classic Orchestration, Workflow Data Fabric]
 ---
@@ -26,13 +26,13 @@ The Get File List activity returns a list of files from a given directory and it
 |sourceFiles|List of target files to return. This is a comma separated list that accepts wildcards, such as **\*.txt**.|
 |excludedFiles|List of target files to exclude. This is a comma separated list that accepts wildcards, such as **\*.txt**.|
 |includeSubfolders|True/false variable that determines if files from subfolders are included in the list. The default value for this variable is **false**.|
-|sourceCredentialTag|Specific [Credential aliases for Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_AssignCredsOrchActivities.md) this activity must use to run SSH commands on the host.|
+|sourceCredentialTag|Specific [Credential aliases for Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_AssignCredsOrchActivities.md) this activity must use to run SSH commands on the host.|
 
 ## Output variables
 
 |Variable|Description|
 |--------|-----------|
-|errorMessage|The **executionResult.errorMessages** from the [Activity designer parsing sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateAParsingRule.md). If this variable is not null, the operation has failed. An activity can examine the error message to customize a condition. For example, if the error message contains **NO\_SUCH\_FILE**, the activity can be considered successful, depending on circumstances.|
+|errorMessage|The **executionResult.errorMessages** from the [Activity designer parsing sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/t_CreateAParsingRule.md). If this variable is not null, the operation has failed. An activity can examine the error message to customize a condition. For example, if the error message contains **NO\_SUCH\_FILE**, the activity can be considered successful, depending on circumstances.|
 |result|List of requested files, returned as a JSON string.|
 
 ## Conditions
@@ -42,5 +42,5 @@ The Get File List activity returns a list of files from a given directory and it
 |Success|The activity succeeded in listing the requested files.|
 |Failure|The activity failed to list the requested files.|
 
-**Parent Topic:**[SFTP File Transfer activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationSFTPActivityPack.md)
+**Parent Topic:**[SFTP File Transfer activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/c_OrchestrationSFTPActivityPack.md)
 

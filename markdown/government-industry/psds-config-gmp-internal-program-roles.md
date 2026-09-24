@@ -3,7 +3,7 @@ title: Configure custom internal program team roles
 description: By default, five internal program team personas are included as part of the Grants Management application: Approver, Collaborator, Observer, Program Co-lead, and Program Lead. Set up new roles in the internal program team activity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gmp-internal-program-roles.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-04-30"
 reading_time_minutes: 1
@@ -33,5 +33,5 @@ Role required: admin
 
 ## Result
 
-The new role will appear in the dropdown to be selected during the internal program team activity. To configure read/write access for these roles, see [Configure read/write access roles for the Grants Management internal program team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-internal-team-default-roles.md).
+The new role will appear in the dropdown to be selected during the internal program team activity. To configure read/write access for these roles, see [Configure read/write access roles for the Grants Management internal program team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-internal-team-default-roles.md).
 

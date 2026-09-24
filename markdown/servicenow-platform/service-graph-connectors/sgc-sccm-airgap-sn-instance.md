@@ -3,11 +3,11 @@ title: Configure air gap solution for Microsoft SCCM in a ServiceNow instance
 description: Configure the air gap solution for the Service Graph Connector for Microsoft SCCM in your ServiceNow instance after you finish the configuration in your high-secure and low-secure servers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-sccm-airgap-sn-instance.html
-release: australia
+release: brazil
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring air gap connections, Microsoft SCCM, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -72,7 +72,7 @@ Parent Directory
 
 </td><td>
 
-Path of the Microsoft SCCM directory where the data is stored in your low-secure server.See [Configure air gap solution for Microsoft SCCM in a low-secure server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-sccm-airgap-low-secure.md).
+Path of the Microsoft SCCM directory where the data is stored in your low-secure server.See [Configure air gap solution for Microsoft SCCM in a low-secure server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-sccm-airgap-low-secure.md).
 
 </td></tr><tr><td>
 
@@ -97,5 +97,5 @@ Folder where the data is to be archived if the **Archive Data After Retrieval** 
 **Related topics**  
 
 
-[Perform a test data load for the air gap solution for Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-sccm-airgap-test-load.md)
+[Perform a test data load for the air gap solution for Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-sccm-airgap-test-load.md)
 

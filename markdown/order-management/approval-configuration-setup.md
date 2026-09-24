@@ -3,9 +3,9 @@ title: Approval configuration setup
 description: Configure deal registration approval rules, trigger conditions, approver groups, and reminders to implement your organization's approval workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/approval-configuration-setup.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Deal Registration approvals, Deal Registration, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -16,11 +16,11 @@ Configure deal registration approval rules, trigger conditions, approver groups,
 
 ## Role Required
 
-Deal Reg Admin \(sn\_prm\_dr.deal\_reg\_admin\), this role inherits the Approval Rule Admin role, who can configure deal registration approvals. For more information on Advanced Approval Management, see [Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-advanced-approval-for-sales.md).
+Deal Reg Admin \(sn\_prm\_dr.deal\_reg\_admin\), this role inherits the Approval Rule Admin role, who can configure deal registration approvals. For more information on Advanced Approval Management, see [Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-advanced-approval-for-sales.md).
 
 ## Configuration setup
 
-Deal registration approval configuration uses the standard [Advanced Approval Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-advanced-approval-for-sales.md) application.
+Deal registration approval configuration uses the standard [Advanced Approval Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-advanced-approval-for-sales.md) application.
 
 1.  Create Approval Config: Register the deal entity with the Advanced Approval Framework \(performed once per organization\).
 2.  Define Trigger Conditions: Create conditions that determine when approval is needed \(for example, deal size less than $1 million\).
@@ -54,5 +54,5 @@ Before users can access and work on approval requests, the Deal Registration Adm
 
 You must configure your own approval rules and trigger conditions based on your organization's requirements. Demo data for approval configuration is not included in this release.
 
-**Parent Topic:**[Deal Registration approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/deal-registration-approvals-overview.md)
+**Parent Topic:**[Deal Registration approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/deal-registration-approvals-overview.md)
 

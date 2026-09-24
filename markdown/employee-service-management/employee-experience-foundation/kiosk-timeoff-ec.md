@@ -3,11 +3,11 @@ title: Time off balances in Employee Center Pro Kiosk
 description: The time off balances details in the Employee Center Pro Kiosk is the source of truth for the time off or leave details of the deskless workers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/kiosk-timeoff-ec.html
-release: australia
+release: brazil
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Employee Center Pro Kiosk, Employee Center Pro Kiosk, Employee Center Integrations, Unified Employee Experience, Employee Service Management]
 ---
@@ -33,12 +33,12 @@ The **Time off** tab displays:
 
 **Note:** View your time off balances until and up to a year as supported by default.
 
-The display title of the **Time off** tab is customizable. For more information, see [Customize the time off widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/widget-mapping-time.md).
+The display title of the **Time off** tab is customizable. For more information, see [Customize the time off widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/widget-mapping-time.md).
 
-For more information on customizing the data display in Kiosks, see [Customize data display in Kiosks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-implementation-kiosk.md).
+For more information on customizing the data display in Kiosks, see [Customize data display in Kiosks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/create-implementation-kiosk.md).
 
--   **[Customize the time off widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/widget-mapping-time.md)**  
+-   **[Customize the time off widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/widget-mapping-time.md)**  
 Customize the time off widget on the Employee Profile to display it to your preference.
 
-**Parent Topic:**[Configure Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/deskless-kiosk-config.md)
+**Parent Topic:**[Configure Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/deskless-kiosk-config.md)
 

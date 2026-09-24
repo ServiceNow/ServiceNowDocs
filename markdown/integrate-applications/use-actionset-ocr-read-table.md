@@ -3,9 +3,9 @@ title: Use the ActionSet OCR Read Table action
 description: Extract a table from images in the desktop, Windows applications, and web pages on the Internet Explorer browser by using the OCR Read Table action in RPA Desktop Design Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-actionset-ocr-read-table.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use the ActionSet component, Actions \(UI\), Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,7 +16,7 @@ Extract a table from images in the desktop, Windows applications, and web pages 
 
 ## Before you begin
 
-Capture an image of the target application window and create an anchor. For information about how to do this, see [Use the ActionSet component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-actionsui-actionset.md).
+Capture an image of the target application window and create an anchor. For information about how to do this, see [Use the ActionSet component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/use-actionsui-actionset.md).
 
 Role required: none
 
@@ -24,13 +24,13 @@ Role required: none
 
 The ActionSet OCR \(optical character recognition\) Read Table action can capture a table even when it appears in an image instead of in a text-based format.
 
-You can configure the properties for the OCR Read Table action. For more information about these properties, see [ActionSet OCR Read Table properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/actionset-actions-properties.md).
+You can configure the properties for the OCR Read Table action. For more information about these properties, see [ActionSet OCR Read Table properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/actionset-actions-properties.md).
 
 ## Procedure
 
 1.  Right-click the anchor.
 
-    To know about the anchor, see how to use the [Anchor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/anchor.md).
+    To know about the anchor, see how to use the [Anchor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/anchor.md).
 
 2.  Navigate to **OCR** &gt; **Read Table**.
 
@@ -54,7 +54,7 @@ You can configure the properties for the OCR Read Table action. For more informa
 
     For example, you can choose to consider the first row of the table as a table header.
 
-    For more information about these properties, see [ActionSet OCR Read Table properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/actionset-actions-properties.md).
+    For more information about these properties, see [ActionSet OCR Read Table properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/actionset-actions-properties.md).
 
 7.  Close the ACTIONSET SETTINGS window.
 
@@ -69,5 +69,5 @@ You can configure the properties for the OCR Read Table action. For more informa
 9.  To test the component, right-click the component bar and then click **Run From Here**.
 
 
-**Parent Topic:**[Use the ActionSet component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-actionsui-actionset.md)
+**Parent Topic:**[Use the ActionSet component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/use-actionsui-actionset.md)
 

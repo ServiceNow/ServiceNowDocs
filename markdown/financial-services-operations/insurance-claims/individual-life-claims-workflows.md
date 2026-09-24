@@ -3,11 +3,11 @@ title: Individual Life Claims workflows
 description: The Individual Life Claims application installs automated workflows that you can configure for any individual life claims tasks. These workflows create cases and routes any tasks to different departments in your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/individual-life-claims-workflows.html
-release: australia
+release: brazil
 product: Insurance Claims
 classification: insurance-claims
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Individual Life Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---

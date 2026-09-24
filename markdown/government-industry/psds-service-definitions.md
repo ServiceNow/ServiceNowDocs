@@ -3,9 +3,9 @@ title: Service definitions for Public Sector Digital Services
 description: Service definitions are records used to store the details about a service provided to end users. By using a service definition, you can connect a public service with a case type to extend the types of services that can be requested, and the types of cases that can be created to support those services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-service-definitions.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Case Management, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
@@ -32,7 +32,7 @@ With a service definition, you establish connections between the public services
 
 Service definitions are available with the Customer Service Case Types plugin \(com.snc.csm\_case\_types\) that is automatically activated when you enable the Public Sector Digital Services Core plugin.
 
-For more information on how to create a service definition, see [Configure a service definition for Playbooks in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-create-new-service-definition.md).
+For more information on how to create a service definition, see [Configure a service definition for Playbooks in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-create-new-service-definition.md).
 
 ## Service definition tasks for administrators
 
@@ -45,7 +45,7 @@ The following main components are needed to create a service definition:
 
 ## Service definitions
 
-The following are the main components needed to create a service definition: For additional more information on Service definitions, see [Service definitions for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-service-definitions.md).
+The following are the main components needed to create a service definition: For additional more information on Service definitions, see [Service definitions for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-service-definitions.md).
 
 You can do the following tasks:
 

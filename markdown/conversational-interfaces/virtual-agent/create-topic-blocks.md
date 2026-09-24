@@ -3,14 +3,14 @@ title: Create a reusable topic block
 description: Build a reusable component that performs a specific subflow of tasks and conversational elements in Virtual Agent conversations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-topic-blocks.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 keywords: [Reusable, Topic, Block, Virtual Agent, subflow, conversations]
-breadcrumb: [Maximizing code reuse with topic blocks, Exploring other Virtual Agent features, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Maximizing code reuse with topic blocks, Other Virtual Agent features, Build conversations, Virtual Agent, Conversational Interfaces]
 ---
 
 # Create a reusable topic block
@@ -19,7 +19,7 @@ Build a reusable component that performs a specific subflow of tasks and convers
 
 ## Before you begin
 
-**Tip:** Developers and topic authors may need to access topic blocks created in other application scopes. To give them access, see [Configure cross-scope access privileges for topic blocks and custom controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-cross-scope-privileges.md).
+**Tip:** Developers and topic authors may need to access topic blocks created in other application scopes. To give them access, see [Configure cross-scope access privileges for topic blocks and custom controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-cross-scope-privileges.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -29,13 +29,13 @@ Use topic blocks to run common steps, such as retrieving certain records.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assisant Designer**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
 2.  Select the **Asset library** tab.
 
-3.  In the Asset library, set the topic discovery toggle switch to **LLM** or **NLU/Keyword** depending on which type you want to work with, then do one of the following:
+3.  In the Asset library, do one of the following:
 
-    -   To create a topic block from scratch, select **Create asset** or **Create topic**, depending on your topic discovery setting.
+    -   To create a topic block from scratch, select **Create Asset**.
     -   To create a topic block based on a pre-built topic block, open the topic block and do the following:
         1.  In the header bar, select **Duplicate**.
         2.  Enter the name of the new block and select **Save**.
@@ -55,7 +55,7 @@ Type
 
 </td><td>
 
-List of items that you can create in Assistant Designer Asset library.
+List of items that you can create in Assistant Designer.
 
  Select **Topic Block** and define the additional properties.
 
@@ -93,7 +93,7 @@ Channels
 
 Chat clients in which the topic or topic block will run.
 
- These channels are different from the default channels that are natively supported by Virtual Agent. Your instance may have additional channels for [custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-custom-adapter-framework.md) created for it. For more information about channels, see [Deploying Virtual Agent topics in other channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integrations.md).
+ These channels are different from the default channels that are natively supported by Virtual Agent. Your instance may have additional channels for [custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-custom-adapter-framework.md) created for it. For more information about channels, see [Deploying Virtual Agent topics in other channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-integrations.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -105,9 +105,9 @@ Live agent context variables
 
 </td><td>
 
-Live agent context variables that are defined in the [General Chat Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-context-variables.md).Select the variables that provide dynamic context, which means information from the Virtual Agent chat. This information is transferred from the bot conversation to the live agent.
+Live agent context variables that are defined in the [General Chat Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/ac-configure-context-variables.md).Select the variables that provide dynamic context, which means information from the Virtual Agent chat. This information is transferred from the bot conversation to the live agent.
 
-For information about the default list of live agent variables, see [Live agent chat context variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/live-agent-chat-context-vars.md).
+For information about the default list of live agent variables, see [Live agent chat context variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/live-agent-chat-context-vars.md).
 
 </td></tr><tr><td>
 
@@ -115,7 +115,7 @@ Available for Agent Autopilot
 
 </td><td>
 
-Toggle switch that determines whether the topic block is available to a live agent.When enabled, an agent can search for the topic and invoke the topic. For details, see [Conversation Autopilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-agent-chat-using.md).
+Toggle switch that determines whether the topic block is available to a live agent.When enabled, an agent can search for the topic and invoke the topic. For details, see [Conversation Autopilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/agent-chat/ci-agent-chat-using.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -139,10 +139,10 @@ Categories
 
 </td><td>
 
-Category that contains this block. You can define [custom topic categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-topic-category.md) for your topic blocks.
+Category that contains this block. You can define [custom topic categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/create-topic-category.md) for your topic blocks.
 
 </td></tr></tbody>
-</table>5.  Select **Create asset**.
+</table>5.  Select **Create**.
 
     The **Flow** tab opens. The canvas displays a flow with a **Start** and **End** node.
 
@@ -176,7 +176,7 @@ Type
 
 </td><td>
 
-Type of data being passed to the topic block. For example, **String**, **Boolean**, and so on. The fields change according to your choice. For more information, see [Input data types in Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-data-types.md).
+Type of data being passed to the topic block. For example, **String**, **Boolean**, and so on. The fields change according to your choice. For more information, see [Input data types in Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-data-types.md).
 
 </td></tr><tr><td>
 
@@ -227,9 +227,9 @@ Default value for the variable. This value can be used when previewing the block
 
     The calling topic or topic block passes input parameters to the topic block.
 
-7.  Drag Assistant Designer Asset library controls onto the canvas.
+7.  Drag Assistant Designer controls onto the canvas.
 
-    These controls include the input, bot responses, and utilities. Use them in combination to define the logic that is run in the topic block. For more information, see [Assistant Designer controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-controls.md).
+    These controls include the input, bot responses, and utilities. Use them in combination to define the logic that is run in the topic block. For more information, see [Assistant Designer controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/virtual-agent-controls.md).
 
 8.  To define the output returned from the topic block, do the following:
 
@@ -240,7 +240,7 @@ Default value for the variable. This value can be used when previewing the block
     3.  On the sheet, fill in the following fields.
 
         -   **Name**: Name of the value returned from the topic block.
-        -   **Value**: Either a string with variables or a script that can be used within the calling topic. The **Value** is presented as data pills. These are input variables that you defined \(the **Default Value** specified in the Input Parameters and the input values from the node in the topic block\).
+        -   **Value**: Either a string with variables or a script that can be used within the calling topic. The **Value** is presented as data pills for the input variables that you defined \(the **Default Value** specified in the Input Parameters and the input values from the node in the topic block\).
         For example, the pre-built Contextual Search topic block passes the following output parameters:
 
         \[Omitted image "TopicBlockEndSegment.png"\] Alt text: Output parameters for the Contextual Search topic block include Results returned and Results Helpful.
@@ -266,5 +266,5 @@ Default value for the variable. This value can be used when previewing the block
 
 ## What to do next
 
-[Add a reusable topic block to a calling topic or topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/add-topic-blocks-to-topic.md).
+[Add a reusable topic block to a calling topic or topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/add-topic-blocks-to-topic.md).
 

@@ -3,9 +3,9 @@ title: Change the question in an exploration
 description: Edit a question in an AI Data Explorer exploration and submit it to overwrite the original response.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/change-exploration-question.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [exploration, edit question, change question]
 breadcrumb: [Questions and responses in an exploration, Use, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
@@ -40,5 +40,5 @@ Role required: now\_assist\_explorer\_user and ownership or editing rights to th
     A new response is generated, replacing the old one.
 
 
-**Parent Topic:**[Questions and responses in an exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/ask-expl-questions.md)
+**Parent Topic:**[Questions and responses in an exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/ask-expl-questions.md)
 

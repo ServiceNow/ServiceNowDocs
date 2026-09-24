@@ -3,9 +3,9 @@ title: Run the Workday on demand job
 description: Use the ad-hoc Workday on-demand data import job to pull data for all activated Workday reports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/run-workday-on-demand-job.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with Workday, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---

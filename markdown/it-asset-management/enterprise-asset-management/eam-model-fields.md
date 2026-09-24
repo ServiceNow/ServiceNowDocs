@@ -3,11 +3,11 @@ title: Model fields for Enterprise Asset Management
 description: A detailed description of all model fields in the Enterprise Asset Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/eam-model-fields.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Enterprise Asset Management reference, Enterprise Asset Management, Asset Management]
 ---
@@ -276,7 +276,7 @@ Failure likelihood
 
 The likelihood values for the risk score.
 
- The configuration values that you created for risk likelihood appear as options in this field. The options appear in the format of `value-label`. For example, `1-Low` where 1 is the value and Low is the label. For details, see [Create configuration values for risk likelihood](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/risk-likelihood-config.md).
+ The configuration values that you created for risk likelihood appear as options in this field. The options appear in the format of `value-label`. For example, `1-Low` where 1 is the value and Low is the label. For details, see [Create configuration values for risk likelihood](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/risk-likelihood-config.md).
 
 </td></tr><tr><td>
 
@@ -286,7 +286,7 @@ Failure impact
 
 The impact values for the risk score.
 
- The configuration values that you create for risk impact appear as options in this field. The options appear in the format of `value-label`. For example, `2-Medium` where 2 is the value and Medium is the label. For details, see [Create configuration values for risk impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/risk-impact-config.md).
+ The configuration values that you create for risk impact appear as options in this field. The options appear in the format of `value-label`. For example, `2-Medium` where 2 is the value and Medium is the label. For details, see [Create configuration values for risk impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/risk-impact-config.md).
 
 </td></tr><tr><td>
 
@@ -452,7 +452,7 @@ Indicates that the lifecycle of the model is active.
 |Specifications|Product specifications that come from the vendor.|
 |Features|Product features that come from the vendor.|
 
-**Parent Topic:**[Enterprise Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/reference-enterprise-asset-management.md)
+**Parent Topic:**[Enterprise Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/reference-enterprise-asset-management.md)
 
 **Related topics**  
 

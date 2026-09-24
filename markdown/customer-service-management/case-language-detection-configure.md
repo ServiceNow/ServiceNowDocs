@@ -3,9 +3,9 @@ title: Configure language detection
 description: Activate the required plugins and flows to use the language detection feature.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/case-language-detection-configure.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Task Intelligence for Customer Service, Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Configure, Task Intelligence for Customer Service, Machine learning
 
 Activate the required plugins and flows to use the language detection feature.
 
-For more information about the languages supported by language detection, see this topic: [Languages supported by Task Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/languages-supported-by-language-detection.md).
+For more information about the languages supported by language detection, see this topic: [Languages supported by Task Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/languages-supported-by-language-detection.md).
 
 Follow the steps in the table below to configure the language detection feature for cases.
 
@@ -34,8 +34,8 @@ Ensure that your instance is set up for Predictive Intelligence \(PI\).
 
 Predictive Intelligence is a ServiceNow platform feature that provides a layer of artificial intelligence, which serves as a framework for machine learning models. For more information, see:
 
--   [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence.md)
--   [Machine learning solutions for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/machine-learning-csm.md)
+-   [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/predictive-intelligence.md)
+-   [Machine learning solutions for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/machine-learning-csm.md)
 
 </td></tr><tr><td>
 
@@ -48,7 +48,7 @@ The Task Intelligence for Customer Service application enables customers to leve
  This application automatically activates the following plugins:
 
 -   Predictive Intelligence for Customer Service Management \(com.snc.csm\_ml\)
--   Customer Service \(com.sn\_customerservice\)
+-   Case Management Core \(com.sn\_customerservice\)
 -   Skills Management \(com.snc.skills\_management\)
 -   Dynamic Translation \(com.glide.dynamic\_translation\)
 -   ServiceNow Language Detection Service Spoke \(com.glide.language\_detection\_spoke\)
@@ -69,5 +69,5 @@ To activate the translator:1.  Navigate to **Dynamic Translation** &gt; **Transl
 </table>**Related topics**  
 
 
-[Language detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-language-detection.md)
+[Language detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/case-language-detection.md)
 

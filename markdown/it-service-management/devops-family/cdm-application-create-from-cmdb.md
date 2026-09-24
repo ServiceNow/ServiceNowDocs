@@ -3,11 +3,11 @@ title: Create a CDM application that is based on an existing service in the CMDB
 description: Create an application as the container for all config data for a service \(an application service, application model, or dynamic CI group \[infrastructure\] in the CMDB\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-application-create-from-cmdb.html
-release: australia
+release: brazil
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Create an application in DevOps Config, Configuring DevOps Config, DevOps Config, IT Service Management]
 ---
@@ -18,13 +18,13 @@ Create an application as the container for all config data for a service \(an ap
 
 ## Before you begin
 
-**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
+**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
 
 Role required: CDM Admin \[sn\_cdm.cdm\_admin\]
 
 ## About this task
 
-For the application, you specify the number of deployables to generate and the SDLC environment that the deployables represent. When you upload existing config data into the application, the system maps the data as `[name:value]` pairs \(config data items — CDIs\) in the appropriate node in the data structure of the CDM application. For an overview of the process of preparing a new application to receive config data, see [Preparing an application for config data upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-prep-app-for-upload.md).
+For the application, you specify the number of deployables to generate and the SDLC environment that the deployables represent. When you upload existing config data into the application, the system maps the data as `[name:value]` pairs \(config data items — CDIs\) in the appropriate node in the data structure of the CDM application. For an overview of the process of preparing a new application to receive config data, see [Preparing an application for config data upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/cdm-prep-app-for-upload.md).
 
 ## Procedure
 
@@ -140,20 +140,20 @@ Service in the CMDB that is configured by the data in snapshots of the deployabl
 
 ## What to do next
 
-The application is not yet structured to accept config data, so the next step is to add the data structure. See [Add nodes with config data to CDM application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-data-structure-add-for-upload.md).
+The application is not yet structured to accept config data, so the next step is to add the data structure. See [Add nodes with config data to CDM application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/cdm-data-structure-add-for-upload.md).
 
 **Related topics**  
 
 
-[CDM data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-data-model.md)
+[CDM data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/cdm-data-model.md)
 
-[Viewing and editing config data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-editing-config-data-changesets.md)
+[Viewing and editing config data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/cdm-editing-config-data-changesets.md)
 
-[Define or update a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-component-define.md)
+[Define or update a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/cdm-component-define.md)
 
-[Define or update a collection in an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-collection-define.md)
+[Define or update a collection in an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/cdm-collection-define.md)
 
-[Create or update a variable CDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-variables-crud.md)
+[Create or update a variable CDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/cdm-variables-crud.md)
 
-[How encrypted data is handled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-secrets-managing.md)
+[How encrypted data is handled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/cdm-secrets-managing.md)
 

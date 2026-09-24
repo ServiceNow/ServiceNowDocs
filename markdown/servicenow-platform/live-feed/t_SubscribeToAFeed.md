@@ -3,11 +3,11 @@ title: Subscribe to a feed
 description: Direct members of a feed can subscribe and unsubscribe to the feed in order to receive email notifications whenever any activity in the feed occurs, such as new messages being posted, replies, likes, polls, and @mentions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_SubscribeToAFeed.html
-release: australia
+release: brazil
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use feeds in Live Feed, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -39,5 +39,5 @@ All notifications related to a top-level message, such as replies, mentions, and
     **Note:** If a team is subscribed to receive email notifications for a feed, but a member of the team did not subscribe to the team, that member does not receive the email notifications.
 
 
-**Parent Topic:**[Use feeds in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_UseFeedsInLiveFeed.md)
+**Parent Topic:**[Use feeds in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/c_UseFeedsInLiveFeed.md)
 

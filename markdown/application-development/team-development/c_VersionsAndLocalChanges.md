@@ -3,11 +3,11 @@ title: Versions and local changes
 description: Version records track changes to a customizable record over time so that you can compare or revert to a specific version later.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/c\_VersionsAndLocalChanges.html
-release: australia
+release: brazil
 product: Team Development
 classification: team-development
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Administer, Team Development, Planning your application, Building applications]
 ---

@@ -3,11 +3,11 @@ title: Case summarization using Now Assist
 description: Generate a case summary and quickly understand the case context by using the case summarization skill in Now Assist.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-now-assist.html
-release: australia
+release: brazil
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage healthcare requests in Workspace, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -47,9 +47,9 @@ Click Summarize to generate a summary based on the following field inputs:
 
 The summary displays in the case summary panel once generated. Users can give feedback and share the summary to their work notes.
 
-**Note:** UI Builder can be used to configure the placement of the Case Summary panel within the HCLS case form. For more information, see [Configure UI Builder workspace experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-workspace-settings.md).
+**Note:** UI Builder can be used to configure the placement of the Case Summary panel within the HCLS case form. For more information, see .
 
-For more information on using this capability, see [Summarize case insights by using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-csm-summarize-case.md).
+For more information on using this capability, see .
 
-For information on how to configure Now Assist to use the case summarixation skill, see [Configuring ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-csm-configuring.md).
+For information on how to configure Now Assist to use the case summarixation skill, see .
 

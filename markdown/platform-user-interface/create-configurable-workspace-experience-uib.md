@@ -3,9 +3,9 @@ title: Create a Configurable Workspace experience
 description: Create a Configurable Workspace experience from scratch using UI Builder and the Workspace App Shell.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/create-configurable-workspace-experience-uib.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Configure, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -24,9 +24,9 @@ ServiceNow offers prebuilt Configurable Workspace experiences to target specific
 
 These prebuilt workspaces can be updated and modified in UI Builder instead of creating an experience from scratch.
 
-For a list of prebuilt workspaces ServiceNow offers, see [List of workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/list-of-workspaces.md).
+For a list of prebuilt workspaces ServiceNow offers, see [List of workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/list-of-workspaces.md).
 
-To update an existing Configurable Workspace experience, see [Open a Configurable Workspace experience in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/open-your-configurable-workspace-experience-in-ui-builder.md)
+To update an existing Configurable Workspace experience, see [Open a Configurable Workspace experience in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/open-your-configurable-workspace-experience-in-ui-builder.md)
 
 ## Procedure
 
@@ -73,5 +73,5 @@ Your Configurable Workspace experience opens in UI Builder.
 
 ## What to do next
 
-[Create a Configurable Workspace page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-configurable-workspace-page-uib.md)
+[Create a Configurable Workspace page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/create-configurable-workspace-page-uib.md)
 

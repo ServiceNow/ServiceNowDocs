@@ -3,9 +3,9 @@ title: External Content Integration Sources
 description: When you integrate Coaching With Learning with third-party learning management systems, the source record for Cornerstone OnDemand, Pluralsight, and Udemy applications are automatically created in the Enterprise Service Management Integrations Framework. These source records contain a predefined set of properties and integration services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/integration-source-coaching-with-learning-coaching-wfo-cs.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Integrate Coaching with Learning, Setting up Workforce Optimization Coaching, Optimize workforce operations, Extend capabilities, Configure, Customer Service Management]
 ---
@@ -140,5 +140,5 @@ Integration services interact with Udemy application to pull learning courses in
 -   Pull user activity: Pulls details of user activity on learning courses from Udemy into ServiceNow.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Integrate Coaching with Learning with third-party learning management systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/integrate-learning-third-party-configurable-wfo-cs.md)
+</table>**Parent Topic:**[Integrate Coaching with Learning with third-party learning management systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/integrate-learning-third-party-configurable-wfo-cs.md)
 

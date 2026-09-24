@@ -3,7 +3,7 @@ title: User access
 description: Learn how to grant or revoke admin access for a user. Existing users have admin access by default, while new users have only end-user access.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/please\_share\_your\_feedback\_on\_admin\_assist\_responses.html
-release: australia
+release: brazil
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -51,7 +51,7 @@ To edit a user, click a username in the table.
 **Related topics**  
 
 
-[Using CPQ user access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-using-uam.md)
+[Using CPQ user access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-using-uam.md)
 
-[User Access Control reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-user-access-control-ref.md)
+[User Access Control reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-user-access-control-ref.md)
 

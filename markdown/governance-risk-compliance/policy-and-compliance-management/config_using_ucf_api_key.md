@@ -3,11 +3,11 @@ title: Configure the UCF integration using a UCF-supplied API key
 description: UCF integrates with your ServiceNow instance through an authentication process which validates your subscription.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/config\_using\_ucf\_api\_key.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage UCF integration, Classic UI, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -41,5 +41,5 @@ Prior to configuring the UCF integration, you need a UCF basic subscription and 
 4.  Click **Save Configuration**.
 
 
-**Parent Topic:**[Manage the UCF integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/manage_compliance_frameworks.md)
+**Parent Topic:**[Manage the UCF integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/manage_compliance_frameworks.md)
 

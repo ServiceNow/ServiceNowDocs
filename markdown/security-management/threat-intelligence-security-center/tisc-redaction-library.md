@@ -3,11 +3,11 @@ title: Working on the Redaction Library
 description: Redaction is the process of replacing sensitive information from shared data to protect confidentiality during intelligence sharing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-redaction-library.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Exploring Outbound Intel Sharing, Configuring Threat Intelligence External Sharing, Administer, Threat Intelligence Security Center, Security Operations]
 ---
@@ -59,15 +59,15 @@ By leveraging the Redaction Library feature, TISC administrators and analysts ca
 
 9.  Select **New** to create Redaction Category Value record.
 
-<table id="choicetable_qsf_s3c_qfc"><thead><tr><th align="left" id="d403037e200">
+<table id="choicetable_qsf_s3c_qfc"><thead><tr><th align="left" id="d402895e200">
 
 Field
 
-</th><th align="left" id="d403037e203">
+</th><th align="left" id="d402895e203">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d403037e209">
+</th></tr></thead><tbody><tr><td id="d402895e209">
 
 **Redaction Category**
 
@@ -82,7 +82,7 @@ Indicates the redaction category. Few examples of Redaction Category are as foll
 -   Identification\_Number
 
 
-</td></tr><tr><td id="d403037e237">
+</td></tr><tr><td id="d402895e237">
 
 **Value**
 
@@ -115,10 +115,10 @@ This property enables or disables case sensitivity when applying redaction to sh
 </table>11. Select **Save**.
 
 
--   **[Bulk Import of Redaction Categories and Values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-bulk-import-redaction.md)**  
+-   **[Bulk Import of Redaction Categories and Values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-bulk-import-redaction.md)**  
 Import redaction categories. Bulk importing of redaction categories and their associated values.
 
-**Parent Topic:**[Exploring Outbound Intel Sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-outbound-intel-sharing.md)
+**Parent Topic:**[Exploring Outbound Intel Sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-outbound-intel-sharing.md)
 
 **Related topics**  
 

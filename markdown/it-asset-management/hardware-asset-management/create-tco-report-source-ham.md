@@ -3,13 +3,13 @@ title: Create a TCO report source
 description: Create a Total Cost of Ownership \(TCO\) report source for TCO reports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/create-tco-report-source-ham.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a TCO report, Configure the Total Cost of Ownership of assets, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Create a TCO report in Hardware Asset Workspace, Reporting and performance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a TCO report source
@@ -26,7 +26,7 @@ Role required: asset
 
 2.  Open the report for which you want to create report sources from the Comparative reports section.
 
-    You can also create a comparative report. For more information, see [Create a TCO report in Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-ham-tco-report.md).
+    You can also create a comparative report. For more information, see [Create a TCO report in Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/create-ham-tco-report.md).
 
 3.  Select the **Report sources** tab.
 
@@ -90,12 +90,12 @@ A brief and meaningful description of the report source.
 
 The new report source is added to the list of TCO report sources in the **TCO report sources** tab.
 
-**Parent Topic:**[Create a TCO report in Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-ham-tco-report.md)
+**Parent Topic:**[Create a TCO report in Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/create-ham-tco-report.md)
 
 **Related topics**  
 
 
-[Asset Total Cost of Ownership for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/asset-mgmt-tco.md)
+[Asset Total Cost of Ownership for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/asset-mgmt-tco.md)
 
-[Asset analytics view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/asset-analytics-view.md)
+[Asset analytics view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/asset-analytics-view.md)
 

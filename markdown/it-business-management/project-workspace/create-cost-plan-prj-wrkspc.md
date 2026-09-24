@@ -3,11 +3,11 @@ title: Add, edit, or delete cost plans
 description: Create a cost plan for a required duration to track your planned and actual expenses. Edit cost plans to adjust your planned expenses and delete any de-scoped forecasts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/create-cost-plan-prj-wrkspc.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage financials, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -30,15 +30,15 @@ Role required: it\_project\_manager
 
 2.  Select **Financials** from the left menu.
 
-<table id="choicetable_w3k_syh_pyb"><thead><tr><th align="left" id="d235946e85">
+<table id="choicetable_w3k_syh_pyb"><thead><tr><th align="left" id="d237027e85">
 
 Choice
 
-</th><th align="left" id="d235946e88">
+</th><th align="left" id="d237027e88">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d235946e94">
+</th></tr></thead><tbody><tr><td id="d237027e94">
 
 **To create a cost plan**
 
@@ -50,12 +50,12 @@ A side panel opens to create a cost plan.
 
 2.  On the Cost plan form, fill the fields.
 
-For a description of the field names, see [Create cost plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-cost-plan-form-spw.md).
+For a description of the field names, see [Create cost plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/create-cost-plan-form-spw.md).
 
 3.  Select **Save** to save the cost plan and close the side panel or **Save and add new** to save the cost plan and create a new cost plan.
  The cost plans created for sub projects can be viewed in the Cost screen of the parent project.
 
-</td></tr><tr><td id="d235946e144">
+</td></tr><tr><td id="d237027e144">
 
 **To edit a cost plan**
 
@@ -66,7 +66,7 @@ You can edit a cost plan by one of the following ways.1.  Select the name of the
 
 **Tip:** Use the Tab key to navigate to the next fiscal period and continue editing.
 
-</td></tr><tr><td id="d235946e169">
+</td></tr><tr><td id="d237027e169">
 
 **To delete a cost plan**
 
@@ -78,10 +78,10 @@ You can edit a cost plan by one of the following ways.1.  Select the name of the
  **Note:** Deleted cost plans and the associated expense lines can’t be recovered.
 
 </td></tr></tbody>
-</table>    **Tip:** [Create a financial baseline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-compare-baselines.md) immediately after capturing the initial planned costs to have a snapshot of your planned costs. Use this baseline to compare it against the baselines from later dates, as the work progresses, to identify the variance between initial planned costs and actual expenses.
+</table>    **Tip:** [Create a financial baseline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/create-compare-baselines.md) immediately after capturing the initial planned costs to have a snapshot of your planned costs. Use this baseline to compare it against the baselines from later dates, as the work progresses, to identify the variance between initial planned costs and actual expenses.
 
     This helps you to plan for the future expenses and re-forecast the planned costs.
 
 
-**Parent Topic:**[Managing financials for your projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/using-financials-prj-wrkspc.md)
+**Parent Topic:**[Managing financials for your projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/using-financials-prj-wrkspc.md)
 

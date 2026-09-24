@@ -3,11 +3,11 @@ title: Run procdump flow
 description: The Run procdump flow runs a process dump on a specified process and saves it to a file that can be targeted by security analysts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/invoke\_procdump.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Incident Response Orchestration workflows and activities, Understand Security Incident Response Orchestration workflows and workflow templates, Security Incident Response Orchestration, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -31,10 +31,10 @@ Reasons the procdump can fail includes:
 -   The PROCDUMP environment variable not found
 -   A copy of the dump file fails to copy from the dump path to the file share path
 
--   **[Execute procdump action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/execute_procdump.md)**  
+-   **[Execute procdump action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/execute_procdump.md)**  
 **Execute procdump** is a powershell action that runs the procdump on the selected processes, dumps the data into a file, and posts it to a shared site on an internal network. An analyst can then view a deny listed process, highlighted in red in a security incident, and perform additional analysis on the file.
 
-**Parent Topic:**[Security Incident Response Orchestration workflows and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sec-inc-resp-orchestration-workflows.md)
+**Parent Topic:**[Security Incident Response Orchestration workflows and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/sec-inc-resp-orchestration-workflows.md)
 
 **Related topics**  
 

@@ -3,11 +3,11 @@ title: View cases in Draft state on the portal
 description: Customers can view a list of cases in the Draft state from the Customer and Consumer Service Portals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/playbook-for-portals-my-draft-cases-list.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up predefined Playbooks for Portals, Portal, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Set up predefined Playbooks for Portals, Playbooks for Portals, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # View cases in Draft state on the portal
@@ -29,7 +29,7 @@ The Draft state for the base case is shipped as inactive by default. Customers c
 4.  Clear the **Inactive** check box.
 5.  Select **Update**.
 
-For more information, see [Choice list field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ChoiceLists.md).
+For more information, see [Choice list field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ChoiceLists.md).
 
 ## Case draft state values system property
 

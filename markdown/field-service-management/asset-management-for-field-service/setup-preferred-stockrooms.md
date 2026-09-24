@@ -3,11 +3,11 @@ title: Add preferred stockrooms to an assignment group
 description: Set up preferred stockrooms for work groups so agents can search parts from their preferred stockrooms using the Now Mobile Agent application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/asset-management-for-field-service/setup-preferred-stockrooms.html
-release: australia
+release: brazil
 product: Asset Management for Field Service
 classification: asset-management-for-field-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Stockrooms, Inventory and asset management, Configure, Field Service Management]
 ---
@@ -18,7 +18,7 @@ Set up preferred stockrooms for work groups so agents can search parts from thei
 
 ## Before you begin
 
-The Field Service Advanced Parts Sourcing plugin \(com.snc.fsm\_advanced\_parts\_sourcing\) must be activated. For more information, see [Additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-additional-plugins.md).
+The Field Service Advanced Parts Sourcing plugin \(com.snc.fsm\_advanced\_parts\_sourcing\) must be activated. For more information, see [Additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-additional-plugins.md).
 
 Role required: wm\_admin
 
@@ -47,11 +47,11 @@ Role required: wm\_admin
 
 6.  Select the **Preferred Stockroom** option in the **Part Search Criteria** property to help Field Service agents search parts from the preferred stockrooms using the Now Mobile Agent application.
 
-    For more information, see [Advanced Part Sourcing components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/advanced-part-souring-components.md)
+    For more information, see [Advanced Part Sourcing components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/advanced-part-souring-components.md)
 
 
 **Related topics**  
 
 
-[Setting up Field Service user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/setting-up-field-service-user-groups.md)
+[Setting up Field Service user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/setting-up-field-service-user-groups.md)
 

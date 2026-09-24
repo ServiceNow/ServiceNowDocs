@@ -3,11 +3,11 @@ title: Create capacity buckets to distribute the workload capacity for a day
 description: Create capacity buckets for the selected capacity definition to distribute the workload capacity at different appointment slots throughout the day.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/create-capacity-buckets.html
-release: australia
+release: brazil
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a capacity definition, Capacity and Reservations Management, Set up workforce, Configure, Field Service Management]
 ---

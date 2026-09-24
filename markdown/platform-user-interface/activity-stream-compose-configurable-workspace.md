@@ -3,9 +3,9 @@ title: Compose
 description: Learn about the components in UI Builder that enable admins to create and customize the Compose section for a Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/activity-stream-compose-configurable-workspace.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -18,7 +18,7 @@ Learn about the components in UI Builder that enable admins to create and custom
 
 The Compose area in a Configurable Workspace record page enables agents to communicate with customers and other agents through comments, work notes, and emails.
 
-\[Omitted image "configurable-workspace-compose-record.png"\] Alt text: Standard record page screenshot with the Compose area highlighted
+\[Omitted image "configurable-workspace-compose-record.png"\] Alt text: Compose area on a Configurable Workspace record
 
 ## Activity Stream Compose component
 

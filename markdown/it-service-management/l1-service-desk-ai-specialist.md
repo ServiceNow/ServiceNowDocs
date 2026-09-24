@@ -3,9 +3,9 @@ title: L1 IT Service Desk AI Specialist
 description: The L1 IT Service Desk AI Specialist is an autonomous worker, with pre-built skills and AI agents, that is assigned to teams to investigate and resolve incidents end-to-end.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/l1-service-desk-ai-specialist.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [IT Service Management]
 ---
@@ -22,19 +22,19 @@ Contact your ServiceNow account manager to get started with the L1 IT Service De
 
 <table id="table_z2r_dy2_q3c" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the L1 IT Service Desk AI Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/exploring-l1-sd-ai-specialist.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the L1 IT Service Desk AI Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/exploring-l1-sd-ai-specialist.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the L1 IT Service Desk AI Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configuring-l1-sd-ai-specialist.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the L1 IT Service Desk AI Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/configuring-l1-sd-ai-specialist.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use the L1 IT Service Desk AI Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/using-l1-sd-ai-specialist.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use the L1 IT Service Desk AI Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/using-l1-sd-ai-specialist.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Review table, roles, and properties associated with the L1 IT Service Desk AI Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/reference-l1-sd-ai-specialist.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Review table, roles, and properties associated with the L1 IT Service Desk AI Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/reference-l1-sd-ai-specialist.md)
 
 </td></tr></tbody>
 </table>The L1 IT Service Desk AI Specialist is an autonomous worker that is assigned incidents and resolves them without human intervention. It uses knowledge articles and historical data to investigate incidents, communicates directly with requestors, and escalates to human agents when confidence is low.
@@ -56,17 +56,17 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md).
 
 ## Helpful resources
 
 Some ServiceNow resources that can provide you with helpful information are:
 
--   **\[Omitted image "dcx-icon-community.svg"\]ServiceNow Community**
+-   **Brazil release notes**
 
-    [ServiceNow Community](https://community.servicenow.com/community)
+    [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/l1-it-service-desk-ai-specialist-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/l1-it-service-desk-ai-specialist-rn.md)
 
 -   **\[Omitted image "dcx-icon-dev-portal.svg"\] Developer**
 

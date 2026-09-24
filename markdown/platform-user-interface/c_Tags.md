@@ -3,9 +3,9 @@ title: Tags
 description: Tags are text labels that you can associate with items like records and pages. Tags enable you to group and organize the items. Tags can be visible to any user \(global\), visible only to specific groups or users \(shared\), or visible to a single user \(private\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_Tags.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Common UI elements, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -33,16 +33,16 @@ Conflicts can occur if multiple tags have the same name.
 -   If a private tag and a shared or global tag have the same name, the system appends **\[private\]** to the name of the private tag. For example, **Sample tag \[private\]**.
 -   There cannot be multiple shared or global tags with the same name. If a user attempts to create a shared or global tag with a name that is already in use, an error message appears and the system prevents the tag from being saved.
 
--   **[Administering tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/administering-tags.md)**  
+-   **[Administering tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/administering-tags.md)**  
 If you have an administrator role, you can configure and manage all tags, even tags created by other users. You can also configure notifications, auto-assignment, and Zing indexing for tags.
--   **[Configure Zing tag indexing for text search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ConfZingTagIndexTextSearch.md)**  
+-   **[Configure Zing tag indexing for text search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_ConfZingTagIndexTextSearch.md)**  
 Zing text indexing is available for tags on records.
--   **[Assigning tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_TagAssignment.md)**  
+-   **[Assigning tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_TagAssignment.md)**  
 You can assign tags to records from the form or list view. You can also add tags to a homepage. Tags enable you to group and organize the items.
--   **[Editing tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/editing-tags.md)**  
+-   **[Editing tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/editing-tags.md)**  
 You can edit tags that you created from the list and form views, the **My Tags** module, and the Tagged Documents page. You can also merge tags from the **My Tags** module.
--   **[Using tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/using-tags.md)**  
+-   **[Using tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/using-tags.md)**  
 Use tags to filter records and view tagged documents. Remove a tag when it is no longer useful.
 
-**Parent Topic:**[Common UI elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/p_CommonUIElements.md)
+**Parent Topic:**[Common UI elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/p_CommonUIElements.md)
 

@@ -3,11 +3,11 @@ title: Use the Cloud Operations Dashboard
 description: The Cloud Operations Dashboard breaks down cloud service requests from your end users and cloud stacks that you offer in the Cloud User Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/use-cloud-operations-dashboard.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---

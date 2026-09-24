@@ -3,11 +3,11 @@ title: Operator phase 1: Analyze and acknowledge an alert
 description: As an Event Management operator, the first thing you should do is access alerts and then find the ones you want to focus on. Open the Alert form to analyze the details. Acknowledge the alert to let other operators know that the issue should be addressed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/operator-phase-acknowledge-analyze.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Operator responsibilities, Event Management Operator Tutorial, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -40,7 +40,7 @@ Phase 2
 
 </td><td>
 
-[Triage alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-phase-triage-incident.md)
+[Triage alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/operator-phase-triage-incident.md)
 
 </td></tr><tr><td>
 
@@ -52,10 +52,10 @@ Phase 3
 
 </td><td>
 
-[Close an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-close-alert.md)
+[Close an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/operator-close-alert.md)
 
 </td></tr></tbody>
-</table>You must understand both of your operator environments: the Service Operations Workspace dashboard and Service Operations Workspace. Review [Event Management operator environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-user-interfaces.md) if you have not already done so. This tutorial uses the Service Operations Workspace dashboard.
+</table>You must understand both of your operator environments: the Service Operations Workspace dashboard and Service Operations Workspace. Review [Event Management operator environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/operator-user-interfaces.md) if you have not already done so. This tutorial uses the Service Operations Workspace dashboard.
 
 Role required: evt\_mgmt\_operator
 
@@ -207,7 +207,7 @@ Any existing knowledge base \(KB\) article that is associated with the alert. Wh
 
 5.  Click the **Impact Tree** tab and review the impacts on each CI.
 
-    The percentages next to each CI in the impact tree show you the effect on each CI. In this example, each CI is impacted 100% by the alert. This means the underlying issue that led to the alert is serious enough to impact the functionality of the application service.
+    The percentages next to each CI in the impact tree show you the effect on each CI. In this example, each CI is impacted 100% by the alert. This means the underlying issue is serious enough to impact the functionality of the application service.
 
     \[Omitted image "operator-dashboard-impact-tree.png"\] Alt text: Impact tree
 
@@ -215,7 +215,7 @@ Any existing knowledge base \(KB\) article that is associated with the alert. Wh
 
     Acknowledging an alert does not assign it to you, nor does it create a task like an incident or change request. It simply lets other operators know that you are aware of the issue. After you acknowledge an alert, you will take further action during the triage stage.
 
-<table id="choicetable_w31_kkr_jkb"><tbody><tr><td id="d485354e548">
+<table id="choicetable_w31_kkr_jkb"><tbody><tr><td id="d488180e548">
 
 **Acknowledge a single alert**
 
@@ -225,7 +225,7 @@ With this process, you can acknowledge only the alert that you are viewing.1.  O
 2.  Select the **Acknowledged** check box.
 
 
-</td></tr><tr><td id="d485354e569">
+</td></tr><tr><td id="d488180e569">
 
 **Acknowledge one or more alerts**
 
@@ -246,7 +246,7 @@ With this process, you can acknowledge one alert or multiple related alerts.1.  
 
 ## What to do next
 
-Go to [Operator phase 2: Triage an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-phase-triage-incident.md).
+Go to [Operator phase 2: Triage an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/operator-phase-triage-incident.md).
 
-**Parent Topic:**[What Event Management operators do](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-process.md)
+**Parent Topic:**[What Event Management operators do](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/operator-process.md)
 

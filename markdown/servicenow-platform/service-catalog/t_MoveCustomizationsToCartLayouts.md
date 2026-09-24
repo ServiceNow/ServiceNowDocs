@@ -3,11 +3,11 @@ title: Migrate customizations and enable cart layouts
 description: Move customization to cart layout widgets, and then enable cart layouts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_MoveCustomizationsToCartLayouts.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Migrating to cart layouts, Cart layout, Service Catalog customization, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -53,5 +53,5 @@ In addition, if you have customized the com.glideapp.servicecatalog\_category\_v
 6.  To enable cart layouts, set the service catalog system property **glide.sc.use\_cart\_layouts** to **Yes**.
 
 
-**Parent Topic:**[Migrating to cart layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_MigrateCartLayouts.md)
+**Parent Topic:**[Migrating to cart layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/c_MigrateCartLayouts.md)
 

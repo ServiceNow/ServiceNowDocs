@@ -3,11 +3,11 @@ title: OCM: Managing Change
 description: This Accelerator provides coaching to assess training needs, build enablement plans, close skill gaps, and activate champion networks — equipping users with the knowledge and ability to adopt ServiceNow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/ocm-managing-change.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [OCM, Organizational Change Management, Managing Change, Enablement, Champion Network, Training Needs Analysis]
 breadcrumb: [Strategy Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
@@ -29,7 +29,7 @@ OCM: Managing Change provides Impact customers with coaching — aligned to the 
 
 ## Prerequisites
 
-Completion of [OCM: Preparing for Change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/ocm-preparing-for-change.md) is strongly recommended but not required if the customer already has equivalent readiness elements in place \(for example, an executive sponsor, stakeholder map, and foundational champion network\).
+Completion of [OCM: Preparing for Change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/ocm-preparing-for-change.md) is strongly recommended but not required if the customer already has equivalent readiness elements in place \(for example, an executive sponsor, stakeholder map, and foundational champion network\).
 
 ## What You Get
 

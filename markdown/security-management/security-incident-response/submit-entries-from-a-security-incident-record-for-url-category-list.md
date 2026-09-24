@@ -3,11 +3,11 @@ title: Submit observables from a security incident record to a URL category list
 description: Submit observables that are attached to a security incident record to a configured URL category list by using the allow or block request. Adding observables to the allow or block list for security scans allows users to review content from these URLs and gain access to trusted content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/submit-entries-from-a-security-incident-record-for-url-category-list.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Incident Response integration with Zscaler, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_si.analyst
 
 ## About this task
 
-You submit observable entries by using the allow or block request action from the Associated Observables related list. Observables are artifacts found on a network or operating system that are likely to indicate an intrusion. Use the list of [URL Categories configured previously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-zscaler-internet-access-url-category-manually.md) to select the observable that you want to submit. After you submit the request, an approval request is sent to your approval group.
+You submit observable entries by using the allow or block request action from the Associated Observables related list. Observables are artifacts found on a network or operating system that are likely to indicate an intrusion. Use the list of [URL Categories configured previously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/create-zscaler-internet-access-url-category-manually.md) to select the observable that you want to submit. After you submit the request, an approval request is sent to your approval group.
 
 ## Procedure
 

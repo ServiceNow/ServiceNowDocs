@@ -3,11 +3,11 @@ title: Review CI reliability with an MCP Client
 description: Use an MCP Client with the ITOM MCP Server Console to review configuration item \(CI\) reliability and topology, assess incident impact on reliability, and create service level objectives \(SLOs\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/review-ci-reliability-itom-mcp-server.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [CI reliability and topology assessment, Use the ITOM MCP Server Console, AI in ITOM, IT Operations Management]
 ---
 
@@ -19,7 +19,7 @@ Use an MCP Client with the ITOM MCP Server Console to review configuration item 
 
 ## Before you begin
 
-Verify that the ITOM MCP Server Console is active and the required plugins are installed on your instance. For more information, see [Activate the ITOM MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/activate-itom-mcp-server.md).
+Verify that the ITOM MCP Server Console is active and the required plugins are installed on your instance. For more information, see [Activate the ITOM MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/activate-itom-mcp-server.md).
 
 Role required: sn\_sow\_slo.slo\_operator
 
@@ -42,5 +42,5 @@ Role required: sn\_sow\_slo.slo\_operator
 
 ## What to do next
 
-If you created an SLO, you can learn more about SLOs, including SLO types and compliance periods, in [Reliability metrics in SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/sr-work-SLI-SLO.md). To edit or deactivate an SLO, see [Edit a reliability metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/sr-edit-sli-slo.md).
+If you created an SLO, you can learn more about SLOs, including SLO types and compliance periods, in [Reliability metrics in SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-level-objective-management/sr-work-SLI-SLO.md). To edit or deactivate an SLO, see [Edit a reliability metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-level-objective-management/sr-edit-sli-slo.md).
 

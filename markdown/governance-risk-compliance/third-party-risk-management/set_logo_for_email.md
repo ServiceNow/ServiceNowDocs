@@ -3,11 +3,11 @@ title: Update the header and footer for email notifications
 description: Update the header and footer images used in email notifications by modifying image records for Third-party Risk Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/set\_logo\_for\_email.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -30,15 +30,15 @@ You can update the header and footer images that appear in email notifications. 
 
 2.  Update the header or footer image by completing one of these actions.
 
-<table id="choicetable_ef1_czf_rhc"><thead><tr><th align="left" id="d89925e107">
+<table id="choicetable_ef1_czf_rhc"><thead><tr><th align="left" id="d91288e107">
 
 Action
 
-</th><th align="left" id="d89925e110">
+</th><th align="left" id="d91288e110">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d89925e116">
+</th></tr></thead><tbody><tr><td id="d91288e116">
 
 **Update the header**
 
@@ -48,7 +48,7 @@ Description
 2.  Update the image by selecting **Update** in the image section of the form and then choose your image file.
 
 
-</td></tr><tr><td id="d89925e140">
+</td></tr><tr><td id="d91288e140">
 
 **Update the footer**
 

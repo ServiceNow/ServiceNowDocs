@@ -3,11 +3,11 @@ title: LDAP refresh filters
 description: Filters on the LDAP refresh process can be used to specify processing that ignores inserts of disabled users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/r\_LDAPRefreshFilters.html
-release: australia
+release: brazil
 product: LDAP integration
 classification: ldap-integration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [LDAP record synchronization, LDAP integration, Authentication, Access Management]
 ---

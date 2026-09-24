@@ -3,9 +3,9 @@ title: Create and activate a configured insight for Security Posture Control
 description: You can create your own insights. Configured insights are insights that you can create either using existing policies or your own custom policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/spc-create-custom-insight.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use the workspace, Security Posture Control, Security Operations]
 ---

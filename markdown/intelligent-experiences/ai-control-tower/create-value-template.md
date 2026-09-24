@@ -3,13 +3,13 @@ title: Add a value template
 description: Add a value template to define, calculate, and track the value delivered by an AI asset.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-value-template.html
-release: australia
+release: brazil
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using value templates, Use, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [Using value templates, Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Add a value template
@@ -32,7 +32,7 @@ Role required: \[sn\_ai\_governance\_ai\_steward\]
 
 4.  On the Add value template form, fill in the fields.
 
-    For a description of the field values, see [Add value template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/add-value-template-form.md).
+    For a description of the field values, see [Add value template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/add-value-template-form.md).
 
 5.  Select **Save as draft**.
 

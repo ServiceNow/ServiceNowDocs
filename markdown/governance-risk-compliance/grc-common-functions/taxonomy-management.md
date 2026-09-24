@@ -3,11 +3,11 @@ title: Taxonomy management in GRC
 description: Taxonomy is used to organize, classify, and label the elements of the unstructured content. The content is organized into granular elements that provide more information about the context of the content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/taxonomy-management.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -34,7 +34,7 @@ The new GRC: taxonomy management application provides the following benefits:
 -   It offers the flexibility to add the new taxonomy categories with a new taxonomy class record in addition to the taxonomy categories provided out-of-the-box \(OOTB\).
 -   It helps you to streamline your regulatory compliance, trace the regulatory requirements, and update the external regulations.
 
-**Note:** If you have downloaded the Regulatory Change Management application previously and you are upgrading to the Australia GA release, copy the data from the old taxonomy tables to the new taxonomy tables.
+**Note:** If you have downloaded the Regulatory Change Management application previously and you are upgrading to the Brazil GA release, copy the data from the old taxonomy tables to the new taxonomy tables.
 
-**Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/common-grc-features.md)
+**Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 

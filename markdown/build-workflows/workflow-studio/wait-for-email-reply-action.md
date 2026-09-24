@@ -3,11 +3,11 @@ title: Wait For Email Reply action
 description: Pause a flow until an email reply is received to an outbound email record
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/wait-for-email-reply-action.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Actions, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -33,7 +33,7 @@ Provide a value for each input that your action needs. To add dynamic values, yo
     **Note:** The email record has to meet the following requirements to be valid:
 
     -   The target record field of the email has to be populated.
-    -   The email record that you select must be an outbound email type such as "sent" or "send-ready." You can change the types of outbound email through the**com.glide.hub.flow\_engine.wait\_for\_email\_reply\_input\_state** system property. For more information, see [Workflow Studio flow system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-designer-system-properties.md)
+    -   The email record that you select must be an outbound email type such as "sent" or "send-ready." You can change the types of outbound email through the**com.glide.hub.flow\_engine.wait\_for\_email\_reply\_input\_state** system property. For more information, see [Workflow Studio flow system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-designer-system-properties.md)
 -   **Enable Timeout**
 
     Data type: **True/False**
@@ -99,5 +99,5 @@ Use these general guidelines when creating flows that wait for an email reply.
 
 In this example flow, the flow sends an email when an incident update is resolved. The Wait For Email Reply action waits for three business days for a reply. If there’s a reply, the incident record state is updated to Work in Progress for an agent to review. If there’s no reply, the incident record is updated to the Closed state.
 
-**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-actions.md)
 

@@ -3,13 +3,13 @@ title: Create a blank table
 description: Add a data table to your application from an existing table that you or someone else previously created or from scratch.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/use-existing-table.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Create a data model, Enhance your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Create a data model, Enhance your app, Build, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Create a blank table
@@ -32,7 +32,7 @@ Role required: admin, sn\_app\_eng\_studio.user, or delegated\_developer
 
 5.  Choose from the following choices.
 
-<table id="choicetable_qfr_n3p_tvb"><tbody><tr><td id="d147629e97">
+<table id="choicetable_qfr_n3p_tvb"><tbody><tr><td id="d142857e97">
 
 **Create new table**
 
@@ -42,7 +42,7 @@ Select this option to create a blank table from scratch.1.  Choose **Create new 
 2.  Click **Continue**.
 
 
-</td></tr><tr><td id="d147629e121">
+</td></tr><tr><td id="d142857e121">
 
 **Create from an extensible table**
 
@@ -89,7 +89,7 @@ Make extensible
 
 </td><td>
 
-Option to allow other tables to share data from this table. For more information on table extension, see [Table extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-data.md).
+Option to allow other tables to share data from this table. For more information on table extension, see [Table extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/add-data.md).
 
 </td></tr><tr><td>
 
@@ -128,7 +128,7 @@ Maximum number of digits to allow in the record number. This value determines th
 
 8.  Control who has access to create, read, write, and delete content from this table by adding new roles and/or defining the desired Create, Read, Write, Delete permissions for existing roles.
 
-    Roles that you create in the table persist throughout the application and can be further defined in other tables you add. See [Add application security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-security.md) for more information on how security permissions work.
+    Roles that you create in the table persist throughout the application and can be further defined in other tables you add. See [Add application security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/add-security.md) for more information on how security permissions work.
 
     **Note:** At least one role must have read access for you to be able to preview the table.
 
@@ -184,7 +184,7 @@ Type of information that the column contains. For example, to contain plain text
 
  Depending on the type that you select, fill in the additional fields to further define the table column. For example, if you select **String**, define the character limit of the string input. Or, if you select **Choice**, define the choices that users can choose from.
 
- See [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
+ See [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_FieldTypes.md).
 
 </td></tr><tr><td>
 
@@ -226,7 +226,7 @@ Option to set the column as the display value for the table. A reference field s
 
 ## What to do next
 
-For more information on Table Builder, see [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-landing-page.md).
+For more information on Table Builder, see [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/tb-landing-page.md).
 
-**Parent Topic:**[Create a data model for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-data.md)
+**Parent Topic:**[Create a data model for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/add-data.md)
 

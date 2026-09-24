@@ -3,11 +3,11 @@ title: Define policies in Digital Product Release
 description: Define policies to automate the release workflow based on the different states of the release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-create-policy-admin.html
-release: australia
+release: brazil
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Digital Product Release, IT Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_dpr\_model.release\_admin
 
 ## About this task
 
-The policies are defined using ServiceNow® Policy as Code Engine \(PaCE\), so make sure you’re familiar with the basics. For more information, see [Understanding PaCE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/pace-understanding.md).
+The policies are defined using ServiceNow® Policy as Code Engine \(PaCE\), so make sure you’re familiar with the basics. For more information, see [Understanding PaCE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/pace-understanding.md).
 
 ## Procedure
 
@@ -34,24 +34,24 @@ The policies are defined using ServiceNow® Policy as Code Engine \(PaCE\), so m
 
     -   To create a policy, select **New**.
 
-        For more information on creating a policy, see [Create a PaCE policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/pace-create-policy.md).
+        For more information on creating a policy, see [Create a PaCE policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/pace-create-policy.md).
 
     -   To modify an existing policy, open the policy from the list.
     A policy is created in the inactive state and a draft version of the policy is added.
 
 4.  Select the **Version** tab and open the draft version.
 
-5.  On the Version record form, select the **Policy Builder** tab to [write the policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/pace-write-test-policies.md).
+5.  On the Version record form, select the **Policy Builder** tab to [write the policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/pace-write-test-policies.md).
 
     1.  On the **Define Variables** pane, use API variables, config parameters, record references, and data collectors to write your policy.
 
     2.  Process data from the DevOps application data model related to the product using the base system data collectors.
 
-        The data collectors collect inputs by processing data from ServiceNow or an external data source to provide an output. The output can be used in the policy logic to take a decision. For more information, see [Digital Product Release data collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-data-collector.md).
+        The data collectors collect inputs by processing data from ServiceNow or an external data source to provide an output. The output can be used in the policy logic to take a decision. For more information, see [Digital Product Release data collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-data-collector.md).
 
 6.  Test your policy in the **Test Playground** tab.
 
-    For more information, see [Use the Test Playground for PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/pace-use-test-playground.md).
+    For more information, see [Use the Test Playground for PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/pace-use-test-playground.md).
 
 7.  Select **Save** to save the policy version.
 
@@ -72,5 +72,5 @@ The policies are defined using ServiceNow® Policy as Code Engine \(PaCE\), so m
 
 The policy version is updated as Current and is used the next time the policy is invoked.
 
-For more information, see [Manage PaCE policy versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/pace-policy-versions.md).
+For more information, see [Manage PaCE policy versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/pace-policy-versions.md).
 

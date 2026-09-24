@@ -3,11 +3,11 @@ title: Enable application installation tracking through an update set
 description: You can add specific applications or versions as an app installation and configure to track them in an update set.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/system-update-sets/enable-application-installation-tracking-through-update-set.html
-release: australia
+release: brazil
 product: System Update Sets
 classification: system-update-sets
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, System update sets, Deploying applications, Building applications]
 ---
@@ -43,5 +43,5 @@ This topic is applicable only to global update sets and is enabled by default.
     A message appears notifying you to confirm the app installs for the update set.
 
 
-**Parent Topic:**[Configuring System Update Sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/configure-system-update-sets.md)
+**Parent Topic:**[Configuring System Update Sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/system-update-sets/configure-system-update-sets.md)
 

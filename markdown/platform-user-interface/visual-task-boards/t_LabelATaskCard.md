@@ -3,13 +3,13 @@ title: Label a Visual Task Board card
 description: Labels help categorize tasks and visually distinguish them on the task board.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/t\_LabelATaskCard.html
-release: australia
+release: brazil
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with Visual Task Board cards, Using Visual Task Boards, Visual Task Boards, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Working with Visual Task Board cards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Label a Visual Task Board card
@@ -20,7 +20,7 @@ Labels help categorize tasks and visually distinguish them on the task board.
 
 Role required: none
 
-[Enable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/t_ConfigureLabels.md) labels for the board.
+[Enable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/visual-task-boards/t_ConfigureLabels.md) labels for the board.
 
 ## About this task
 
@@ -34,7 +34,7 @@ You can add one or more labels to a task card.
 
 1.  Do one of the following actions.
 
-<table id="choicetable_t2r_5jd_pt"><tbody><tr><td id="d122873e91">
+<table id="choicetable_t2r_5jd_pt"><tbody><tr><td id="d123500e91">
 
 **Add a label to a card from the quick panel**
 
@@ -44,7 +44,7 @@ You can add one or more labels to a task card.
 2.  Drop the label in the drop zone.
 
 
-</td></tr><tr><td id="d122873e109">
+</td></tr><tr><td id="d123500e109">
 
 **Add a label to a card from the card details**
 
@@ -60,7 +60,7 @@ You can add one or more labels to a task card.
 </table>
 ## What to do next
 
-You can use configuration options to [rename or disable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/t_ConfigureLabels.md) labels or to [hide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/t_ConfigureTheTaskBoard.md) labels altogether.
+You can use configuration options to [rename or disable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/visual-task-boards/t_ConfigureLabels.md) labels or to [hide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/visual-task-boards/t_ConfigureTheTaskBoard.md) labels altogether.
 
-**Parent Topic:**[Working with Visual Task Board cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/r_TaskCards.md)
+**Parent Topic:**[Working with Visual Task Board cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/visual-task-boards/r_TaskCards.md)
 

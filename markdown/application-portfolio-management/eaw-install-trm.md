@@ -3,9 +3,9 @@ title: Install the Technology Reference Model \(TRM\) Model plugin
 description: Install the Technology Reference Model \(TRM\) store application that you purchased from the ServiceNow Store to make it available on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-install-trm.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Technology Reference Model, Configure EA Workspace using the Setup page, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -37,5 +37,5 @@ Role required: admin
 5.  Select **Install**.
 
 
-**Parent Topic:**[Configure Technology Reference Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-config-tech-ref-model.md)
+**Parent Topic:**[Configure Technology Reference Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-config-tech-ref-model.md)
 

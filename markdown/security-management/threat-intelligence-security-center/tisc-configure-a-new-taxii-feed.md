@@ -3,11 +3,11 @@ title: Configure a new TAXII Feed
 description: You can maintain TAXII feeds for sharing STIX-formatted information. Each TAXII feed contains one or more TAXII collections.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-configure-a-new-taxii-feed.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [About STIX TAXII, Threat Intelligence Feeds, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
@@ -195,7 +195,7 @@ Run Frequency of Collections
 
 Scheduling interval applied to the TAXII collection records. Run frequency for a TAXII collection can be modified in the TAXII collection form view if required.**Note:** This setting is applied as default to all fetched TAXII collections. There is an option to override the setting in TAXII Collections if required. TAXII
 
- For more information, see [Scheduled Jobs and how to Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ScheduleAScriptExecution.md).
+ For more information, see [Scheduled Jobs and how to Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ScheduleAScriptExecution.md).
 
 </td></tr><tr><td>
 
@@ -221,5 +221,5 @@ Start date from when the data needs to be fetched. Set this field with the time 
 8.  Enable the TAXII Collections to retrieve the STIX objects available in these TAXII collections.
 
 
-**Parent Topic:**[About STIX TAXII](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-intelligence-security-center-feeds.md)
+**Parent Topic:**[About STIX TAXII](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/threat-intelligence-security-center-feeds.md)
 

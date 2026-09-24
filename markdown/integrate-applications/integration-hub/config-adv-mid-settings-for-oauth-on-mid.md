@@ -3,11 +3,11 @@ title: Set up MID Server for a spoke
 description: Configure MID Server settings on your ServiceNow instance that enables it to integrate with a third-party application via MID Server after you have set up the connection record for a spoke.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -26,7 +26,7 @@ Confirm that you have set up the connection record for the spoke.
 
 ## About this task
 
-Setting up MID Server may be mandatory or optional for the spoke that you set up. For example, configuring MID Server is required for [Microsoft Active Directory v2 Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/ms-ad-v2-spoke.md) but optional for the [Jira Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jira-spoke-v3-0-2.md). Use this procedure to set up the MID Server for your spoke after you have set up your spoke by filling the default connection alias form.
+Setting up MID Server may be mandatory or optional for the spoke that you set up. For example, configuring MID Server is required for [Microsoft Active Directory v2 Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/ms-ad-v2-spoke.md) but optional for the [Jira Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/jira-spoke-v3-0-2.md). Use this procedure to set up the MID Server for your spoke after you have set up your spoke by filling the default connection alias form.
 
 ## Procedure
 
@@ -70,7 +70,7 @@ Option to select a specific MID Server or MID Cluster. Choose any one of the fol
 -   **Specific MID Server**: Your ServiceNow instance uses MID Server that you specify.
 -   **Specific MID Cluster**: Your ServiceNow instance uses the MID Cluster that you specify.
 
-A MID Cluster is a group of MID Servers that enables your ServiceNow instance to handle multiple integrations, and improve integration speed. For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigureAMIDServerCluster.md).
+A MID Cluster is a group of MID Servers that enables your ServiceNow instance to handle multiple integrations, and improve integration speed. For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_ConfigureAMIDServerCluster.md).
 
 </td></tr><tr><td>
 
@@ -78,7 +78,7 @@ Capabilities
 
 </td><td>
 
-The capabilities the MID Server must support to be eligible for selection. The system runs the action or activity from a MID Server that supports the selected capabilities. Only displays if **Use MID server** is selected. Required capabilities determine which MID Server is selected at runtime. To learn more about how a MID Server is selected during runtime, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MIDServerSelector.md).
+The capabilities the MID Server must support to be eligible for selection. The system runs the action or activity from a MID Server that supports the selected capabilities. Only displays if **Use MID server** is selected. Required capabilities determine which MID Server is selected at runtime. To learn more about how a MID Server is selected during runtime, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_MIDServerSelector.md).
 
 **Note:** This field is visible only when **Auto-Select MID Server** is selected from the MID Selection list.
 
@@ -88,7 +88,7 @@ MID Application
 
 </td><td>
 
-The application the MID Server must support to be eligible for selection. The system runs the action from a MID Server that supports the selected application. Only displays if **Use MID server** is selected. To learn more about how a MID Server is selected during runtime, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MIDServerSelector.md).
+The application the MID Server must support to be eligible for selection. The system runs the action from a MID Server that supports the selected application. Only displays if **Use MID server** is selected. To learn more about how a MID Server is selected during runtime, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_MIDServerSelector.md).
 
 **Note:** This field is visible only when **Auto-Select MID Server** is selected from the MID Selection list.
 
@@ -104,5 +104,5 @@ The application the MID Server must support to be eligible for selection. The sy
 
 Confirm that the spoke connection form has the Use MID option.
 
-**Parent Topic:**[Building integrations in Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/building-integrations-ih.md)
+**Parent Topic:**[Building integrations in Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/building-integrations-ih.md)
 

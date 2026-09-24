@@ -3,9 +3,9 @@ title: Log in to the BCM mobile application
 description: Open the BCM mobile app and add a ServiceNow AI Platform instance with BCM to your mobile device.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/log-in-to-bcm-mobile-app.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Managing plans with BCM mobile application, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,7 @@ Open the BCM mobile app and add a ServiceNow AI Platform® instance with BCM to 
 
 Role required: sn\_bcm.manager
 
-Verify that you have completed the setup steps described in [Set up the BCM mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-mobile-app-setup.md).
+Verify that you have completed the setup steps described in [Set up the BCM mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/configure-mobile-app-setup.md).
 
 ## Procedure
 
@@ -89,9 +89,11 @@ Enter a nickname for this instance. If you have multiple instances added to the 
 6.  Access the BCM mobile app interface.
 
 
-If the instances screen for the BCM mobile app isn’t displayed after you tap the ServiceNow Agent app, verify that ServiceNow Agent is permitted as a trusted app. To permit access as a trusted app, navigate to the settings and general device management on your device and tap the option \(**Trust app**, and so on\) to permit access.
+If the instances screen for the BCM mobile app isn’t displayed after you tap the ServiceNow Agent app, verify that the ServiceNow Agent app is permitted as a trusted app.
 
-If an error message appears after you enter your credentials, verify that your username and password for the ServiceNow AI Platform instance are correct.
+To permit access as a trusted app, navigate to the settings and general device management on your device. Tap the option \(**Trust app**, and so on\) to permit access.
+
+If an error message is displayed after you enter your credentials, verify that your user name and password for the ServiceNow AI Platform instance are correct.
 
 If you have problems viewing the landing screen, verify your network connection.
 

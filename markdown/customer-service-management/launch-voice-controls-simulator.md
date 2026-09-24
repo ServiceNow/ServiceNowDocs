@@ -3,9 +3,9 @@ title: Launching the simulator
 description: This feature lets agents set up and test their voice workflow in a simulated environment without the hassle of uploading payloads for testing call-flows. The Voice Controls Simulator is only available from the CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/launch-voice-controls-simulator.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up the Voice Controls Simulator tool, Voice Controls Simulator tool, ICC for voice calls, Integrating with Computer Telephony Integration \(CTI\), Integrate, Customer Service Management]
 ---
@@ -33,5 +33,5 @@ Role required: CCaaS admin
 
 ## What to do next
 
-Configure idle state capabilities, such as outbound call, logout, and phone directory. See [Setting idle state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-idle-state-and-directory.md).
+Configure idle state capabilities, such as outbound call, logout, and phone directory. See [Setting idle state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/setup-idle-state-and-directory.md).
 

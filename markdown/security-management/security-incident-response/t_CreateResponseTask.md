@@ -3,11 +3,11 @@ title: Create response tasks
 description: After a security incident has been created, you can create response tasks to track separate actions to be performed to respond to the security issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/t\_CreateResponseTask.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Record creation from security incidents, Security incident creation, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -53,7 +53,7 @@ Select security tag
 
 </td><td>
 
-If you set up and activated [security tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-class-group-and-tags.md), you can select one or more tags to add metadata to the record or specify the degree of sensitivity of the response task. If you did not set up or activate security tags, this drop-down list is not displayed.
+If you set up and activated [security tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/create-class-group-and-tags.md), you can select one or more tags to add metadata to the record or specify the degree of sensitivity of the response task. If you did not set up or activate security tags, this drop-down list is not displayed.
 
 </td></tr><tr><td>
 

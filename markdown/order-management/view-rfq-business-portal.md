@@ -3,9 +3,9 @@ title: View requests for quotes \(RFQs\) on the Business Portal
 description: Access, review, and track all your submitted quote requests directly from the Business Portal without having to contact a sales agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/view-rfq-business-portal.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing RFQs, Business Portal, Use, Sales Customer Relationship Management]
 ---
@@ -32,15 +32,15 @@ Role required: sn\_customerservice.customer
 
 6.  Check the status of your quote request in the **State** field in the RFQ header section.
 
-    For more information, see [Request for quote \(RFQ\) states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/rfq-states.md).
+    For more information, see [Request for quote \(RFQ\) states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/rfq-states.md).
 
 7.  If the agent has converted the RFQ to a quote, a **View quote** button is available for you to view the quote details.
 
 
-**Parent Topic:**[Managing request for quotes \(RFQs\) using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/rfq-business-portal.md)
+**Parent Topic:**[Managing request for quotes \(RFQs\) using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/rfq-business-portal.md)
 
 **Related topics**  
 
 
-[View quotes from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-quotes-business-portal.md)
+[View quotes from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/view-quotes-business-portal.md)
 

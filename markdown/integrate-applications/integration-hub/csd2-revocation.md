@@ -3,11 +3,11 @@ title: Software revocation
 description: Revoke software without any user interaction if the software can be revoked and has a lease end date using the provider-specific revocation flow.Software deployed by the software provider can be revoked when the application associated with the software configuration has an uninstall collection configured. CSD 2.0 can revoke software requested using the CSD 2.0 catalog. CSD 2.0 can also uninstall software using Microsoft Endpoint Configuration Manager, Microsoft Intune, and Jamf when revocation is triggered from the reclamation candidates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd2-revocation.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Client Software Distribution 2.0 application, Integration Hub solutions, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Client Software Distribution 2.0 application, Integration Hub solut
 
 Revoke software without any user interaction if the software can be revoked and has a lease end date using the provider-specific revocation flow.
 
-**Parent Topic:**[Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd-app-2.md)
+**Parent Topic:**[Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/csd-app-2.md)
 
 ## Revoke software deployed through the service catalog
 

@@ -3,11 +3,11 @@ title: Adding skills to agents' skill set in Workforce Optimization for ITSM
 description: Analyze all skills and the levels for each skill that your agents have from one location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/adding-skills-agents-skillset-wfo-itsm.html
-release: australia
+release: brazil
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Skills Management, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -29,14 +29,14 @@ Using the skill matrix, you can:
     **Note:** Reset the filter if you want to view the skills for all users. When you reset the filters, all filters other than the Skill filter are reset. The Skill filter retains the skill selections that you've applied to display in the skill matrix.
 
 
-You can view up to 50 skills at any point in time. For more information on skills and skills levels, see [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management.md).
+You can view up to 50 skills at any point in time. For more information on skills and skills levels, see [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/skills-management.md).
 
-When your agents gain new skills you can add them manually or use Predictive Intelligence to recommend skills that agents have used that have not yet been added to their skill set. For information on how predictive intelligence works to recommend skills for agents, see [Coaching in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/explore-coaching-configurable-workforce-optimization-itsm.md).
+When your agents gain new skills you can add them manually or use Predictive Intelligence to recommend skills that agents have used that have not yet been added to their skill set. For information on how predictive intelligence works to recommend skills for agents, see [Coaching in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/explore-coaching-configurable-workforce-optimization-itsm.md).
 
--   **[Add or update skills using Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/add-skills-configurable-workspace.md)**  
+-   **[Add or update skills using Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/add-skills-configurable-workspace.md)**  
 Add skills or update skill levels for an agent so that it gets added to their skill set.
--   **[Approve or reject recommended skills in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/approve-reject-recommended-skills-configurable-workspace.md)**  
+-   **[Approve or reject recommended skills in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/approve-reject-recommended-skills-configurable-workspace.md)**  
 Approve predicted skills if the skill is necessary for the agent to complete assigned tasks. If the skill doesn't apply to the agent, you can reject a skill.
 
-**Parent Topic:**[Skills Management in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/skills-management-wfo-itsm.md)
+**Parent Topic:**[Skills Management in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/skills-management-wfo-itsm.md)
 

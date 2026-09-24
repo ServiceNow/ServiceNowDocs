@@ -3,13 +3,13 @@ title: Qualys Knowledge Base Integration is failing
 description: Resolve Qualys Knowledge Base Integration failure by reducing the payload attachment size received from Qualys to the specified limit.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/cc-qualys-kb-integration-failure.html
-release: australia
+release: brazil
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Resolving Qualys Vulnerability Integration issues, Qualys, Integrate with other applications, Configuration Compliance, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Resolving Qualys Vulnerability Integration issues, Qualys, Integrate, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
 
 # Qualys Knowledge Base Integration is failing

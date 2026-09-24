@@ -3,11 +3,11 @@ title: Escalation triggers and policies
 description: Configure the user, notification and on-call escalation preferences by creating escalation trigger rules and policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/work-on-escalation-trigger-rules-and-policies-in-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-21"
 reading_time_minutes: 4
 breadcrumb: [Configuring On-Call Scheduling in Service Operations Workspace, On-Call Scheduling in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -16,13 +16,13 @@ breadcrumb: [Configuring On-Call Scheduling in Service Operations Workspace, On-
 
 Configure the user, notification and on-call escalation preferences by creating escalation trigger rules and policies.
 
-## About this task
-
-To apply an escalation policy to multiple teams, use policy templates in the on-call bulk onboarding. For more information, see [Create on-call schedules for multiple groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/oc-create-bulk-schedule-onboarding.md).
-
 ## Before you begin
 
 Role required: rota\_manager, rota\_admin
+
+## About this task
+
+To apply an escalation policy to multiple teams, use policy templates in the on-call bulk onboarding. For more information, see [Create on-call schedules for multiple groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/oc-create-bulk-schedule-onboarding.md).
 
 ## Procedure
 
@@ -167,15 +167,15 @@ Trigger fields
 List of fields for a specific table which when changed causes the trigger rule to re-run. For example, with table as incident, you can select fields such as assignment group, priority and state.**Note:**
 
 -   This field is visible only if the **Run Trigger** field is set to **Every time trigger field changes**.
--   You can use the Trigger Rule Table Configs table to configure which fields to be displayed for a specific table. You can access the table from the SOW Admin Center. For more information, see [Manage configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/manage-admin-console-sow-itsm.md) and [Configure a table for escalation trigger rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/configure-tables-for-escalation-trigger-rule.md).
+-   You can use the Trigger Rule Table Configs table to configure which fields to be displayed for a specific table. You can access the table from the SOW Admin Center. For more information, see [Manage configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/manage-admin-console-sow-itsm.md) and [Configure a table for escalation trigger rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/configure-tables-for-escalation-trigger-rule.md).
 
 
 </td></tr></tbody>
 </table>9.  Select **Save changes**.
 
 
--   **[Create escalation trigger rules and policy from team record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/edit-escalation-trigger-rules-and-policy-from-team-record.md)**  
+-   **[Create escalation trigger rules and policy from team record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/edit-escalation-trigger-rules-and-policy-from-team-record.md)**  
 Navigate to team record to create new policy and trigger rules
 
-**Parent Topic:**[Configuring On-Call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configuring-oncall-scheduling-sow.md)
+**Parent Topic:**[Configuring On-Call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configuring-oncall-scheduling-sow.md)
 

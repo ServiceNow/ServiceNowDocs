@@ -3,11 +3,11 @@ title: Create an action
 description: Create an action in the Digital Factory Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/create-industrial-action.html
-release: australia
+release: brazil
 product: Digital Factory Workspace
 classification: digital-factory-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Action Management, Industrial Workflows, Use, Digital Factory Workspace, Industrial Connected Workforce]
 ---
@@ -24,11 +24,13 @@ Role required: sn\_icw.action\_user or sn\_icw.action\_expert
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Digital Factory Workspace** &gt; **Add\(\[Omitted image "plus-button.png"\] Alt text: Plus icon.\)** &gt; **New Action**.
+1.  Navigate to **Workspaces** &gt; **Digital Factory Workspace** &gt; **Add** &gt; **New Action**.
+
+    \[Omitted image "create-new-action.png"\] Alt text: New action button highlighted on the home page.
 
 2.  On the Action form, fill in the fields.
 
-    For a description of the field values, see [Action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/action-form.md).
+    For a description of the field values, see [Action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/action-form.md).
 
 3.  Select **Save**.
 
@@ -37,5 +39,5 @@ Role required: sn\_icw.action\_user or sn\_icw.action\_expert
 
 The new action is displayed in the action list and the list of all tasks.
 
-**Parent Topic:**[Action Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-action-management.md)
+**Parent Topic:**[Action Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-action-management.md)
 

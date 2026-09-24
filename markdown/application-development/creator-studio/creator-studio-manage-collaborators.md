@@ -3,13 +3,13 @@ title: Manage collaborators for an app in Creator Studio
 description: Add or remove people who can work on an app, or change their permissions for the app using the Manage collaborators option.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-manage-collaborators.html
-release: australia
+release: brazil
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Collaborate to build apps, Build apps, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Collaborate to build apps, Build apps, Creator Studio, Developing your application, Building applications]
 ---
 
 # Manage collaborators for an app in Creator Studio
@@ -41,7 +41,7 @@ You can invite collaborators or manage collaborators depending on your permissio
 
     -   **Owner** changes the user or group to be an owner for the app.
     -   **Editor** changes the user or group to be an editor for the app.
-    -   **Customize permissions** enables you to select specific things that users can do with the app. For more information, see [Customized app collaboration permissions in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-collab-custom-permissions.md).
+    -   **Customize permissions** enables you to select specific things that users can do with the app. For more information, see [Customized app collaboration permissions in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-collab-custom-permissions.md).
     -   **Remove** revokes the user or group's access to work on the app.
     **Note:** The collaboration descriptor must be in the global scope for it to be used by others.
 
@@ -70,5 +70,5 @@ Unless you customized permissions, which requires the **Save** button, your chan
 
 Your App Engine admin must then approve the changes to collaborators.
 
-**Parent Topic:**[Collaborating with others to build apps in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-collaboration-roles.md)
+**Parent Topic:**[Collaborating with others to build apps in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-collaboration-roles.md)
 

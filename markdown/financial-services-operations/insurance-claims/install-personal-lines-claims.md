@@ -3,11 +3,11 @@ title: Install Personal Lines Claims
 description: If you have the admin role, you can install the Personal Lines Claims application \(sn\_ins\_claim\_pers\). The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/install-personal-lines-claims.html
-release: australia
+release: brazil
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Personal Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -32,7 +32,7 @@ The following items are installed with Personal Lines Claims:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Personal Lines Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/components-installed-personal-lines-claims.md).
+For more information, see [Components installed with Personal Lines Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/insurance-claims/components-installed-personal-lines-claims.md).
 
 ## Procedure
 

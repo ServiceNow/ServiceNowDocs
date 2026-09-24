@@ -3,11 +3,11 @@ title: Create incident response option rules
 description: Create the incident response option rules that end user or analyst can use while responding to an incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/configure-end-user-action.html
-release: australia
+release: brazil
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Administer, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -154,7 +154,7 @@ Target State
 
 The target state of the DLP incident after the end user selects the appropriate action.**Note:**
 
-1.  The **Target State** field will appear only when you select **Response Option** which is of **Type: Basic**. For more information on how the target state types are configured, see [Configure response option for your DLP incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/configure-response-option-mapping.md).
+1.  The **Target State** field will appear only when you select **Response Option** which is of **Type: Basic**. For more information on how the target state types are configured, see [Configure response option for your DLP incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/configure-response-option-mapping.md).
 2.  When a Response Option which is of **Type: Advanced** is selected, you will not be able to set the Target State and will be hidden. The Target State will be assigned based on the custom state that is configured from the flow designer sub flow.
 
 
@@ -170,7 +170,7 @@ Option to determine the user roles to show the response options for.You can choo
 </table>6.  Click **Submit**.
 
 
-**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
+**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
 
 **Related topics**  
 
@@ -205,7 +205,7 @@ Option to determine the user roles to show the response options for.You can choo
 
 [Create repeat offender identification rules]()
 
-[Create additional incident data fields]()
+[Create Additional Incident Data Fields]()
 
 [DLP SLA Definition form]()
 

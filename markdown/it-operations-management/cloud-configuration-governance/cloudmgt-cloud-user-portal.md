@@ -3,11 +3,11 @@ title: Cloud User Portal
 description: The Cloud User Portal gives you immediate access to all day-to-day cloud activities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/cloudmgt-cloud-user-portal.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 breadcrumb: [Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -35,7 +35,7 @@ Launch a Stack
 
 </td><td>
 
-Open the service catalog of items that you can request. You request an item and, when your request is approved, the system launches the stack. See [Launch a stack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloudmgt-launch-stack.md).
+Open the service catalog of items that you can request. You request an item and, when your request is approved, the system launches the stack. See [Launch a stack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/cloudmgt-launch-stack.md).
 
 </td></tr><tr><td>
 
@@ -43,7 +43,7 @@ Manage Stacks
 
 </td><td>
 
-View the stacks assigned to you. See [Manage a stack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloudmgt-manage-stacks.md).
+View the stacks assigned to you. See [Manage a stack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/cloudmgt-manage-stacks.md).
 
 </td></tr><tr><td>
 
@@ -51,7 +51,7 @@ View Activities
 
 </td><td>
 
-View activities for your stacks and resources. Activities include stack requests, change requests, incidents, cloud events, and SSH keys. See [View Activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloudmgt-user-activities.md).
+View activities for your stacks and resources. Activities include stack requests, change requests, incidents, cloud events, and SSH keys. See [View Activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/cloudmgt-user-activities.md).
 
 </td></tr><tr><td>
 
@@ -59,7 +59,7 @@ View Resources
 
 </td><td>
 
-Opens the Resource Details page to view details and status of a resource. See [Manage a resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloudmgt-manage-resources.md).
+Opens the Resource Details page to view details and status of a resource. See [Manage a resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/cloudmgt-manage-resources.md).
 
 </td></tr><tr><td>
 
@@ -67,10 +67,10 @@ Pending Requests
 
 </td><td>
 
-When you submit a request for a stack, the **Activities** page displays the progress and status of the stack request, and a **Pending Requests** link and count appears. Click the link to view a summary of pending stack requests. See [Track a stack request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloudmgt-track-stack-request.md).
+When you submit a request for a stack, the **Activities** page displays the progress and status of the stack request, and a **Pending Requests** link and count appears. Click the link to view a summary of pending stack requests. See [Track a stack request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/cloudmgt-track-stack-request.md).
 
 </td></tr></tbody>
-</table>**Important:** Starting with the Australia release, the Current Month Spend and Budget widgets are deprecated for non domain-separated instances.
+</table>**Important:** Starting with the Brazil release, the Current Month Spend and Budget widgets are deprecated for non domain-separated instances.
 
 <table id="table-boxes"><tbody><tr><td>
 
@@ -102,7 +102,7 @@ Quota
 
 </td><td>
 
-A graph shows your quota consumption for quota-defined resource types such as VM Count, vCPUs Count, Storage Volume Size, Network Count, and Stack Count. You can view the quota that you have consumed compared to your maximum allocated quota. See [Viewing resource quota limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/resource-quota.md).
+A graph shows your quota consumption for quota-defined resource types such as VM Count, vCPUs Count, Storage Volume Size, Network Count, and Stack Count. You can view the quota that you have consumed compared to your maximum allocated quota. See [Viewing resource quota limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/resource-quota.md).
 
 </td></tr><tr><td>
 
@@ -143,7 +143,7 @@ Catalog
 
 </td><td>
 
-View the Service Catalog of items that you can request to launch stacks. When you select a **Service Category** \(VM, Compute, Network, Storage, and so on\), the **All Items** section lists the items in the selected category. Click **Launch** to request an item. See [Launch a stack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloudmgt-launch-stack.md).
+View the Service Catalog of items that you can request to launch stacks. When you select a **Service Category** \(VM, Compute, Network, Storage, and so on\), the **All Items** section lists the items in the selected category. Click **Launch** to request an item. See [Launch a stack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/cloudmgt-launch-stack.md).
 
 </td></tr><tr><td>
 
@@ -151,7 +151,7 @@ Stacks
 
 </td><td>
 
-Lists all stacks that are assigned to you. Select a catalog item to view the stacks that the item launches. Click a stack to view details—all resources, resource properties, activities, and life cycle operations. See [Manage a stack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloudmgt-manage-stacks.md).
+Lists all stacks that are assigned to you. Select a catalog item to view the stacks that the item launches. Click a stack to view details—all resources, resource properties, activities, and life cycle operations. See [Manage a stack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/cloudmgt-manage-stacks.md).
 
 </td></tr><tr><td>
 
@@ -159,7 +159,7 @@ Resources
 
 </td><td>
 
-Lists individual resources of the provisioned stacks that are assigned to you, regardless of who requested the stack. See [Manage a resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloudmgt-manage-resources.md).
+Lists individual resources of the provisioned stacks that are assigned to you, regardless of who requested the stack. See [Manage a resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/cloudmgt-manage-resources.md).
 
 </td></tr><tr><td>
 
@@ -167,7 +167,7 @@ Activities
 
 </td><td>
 
-Stack requests, change requests, cloud life cycle events \(if configured\), and incidents that are associated with your stacks and resources. SSH keys that you created or that were generated for you. See [View Activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloudmgt-user-activities.md).
+Stack requests, change requests, cloud life cycle events \(if configured\), and incidents that are associated with your stacks and resources. SSH keys that you created or that were generated for you. See [View Activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/cloudmgt-user-activities.md).
 
 </td></tr></tbody>
 </table>

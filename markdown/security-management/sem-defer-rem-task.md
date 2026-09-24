@@ -3,10 +3,10 @@ title: Defer a Remediation task
 description: If you identify a finding or remediation task for which a fix is not yet available and can be safely deferred without additional analysis, you can use the Request Exception feature.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-defer-rem-task.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
-reading_time_minutes: 1
+last_updated: "2026-09-24"
+reading_time_minutes: 2
 breadcrumb: [Exception Management Overview, Use, Unified Security Exposure Management, Security Operations]
 ---
 
@@ -34,6 +34,8 @@ A scheduled job runs every day checking for deferred remediation tasks that have
 
 3.  Click **Request Exception**.
 
+    **Note:** If the matching approval rule has a questionnaire configured, a **Take Questionnaire** modal appears before the deferral form. Complete the questionnaire and select **Submit**; the deferral request remains in **Draft** state until the questionnaire is submitted. The questionnaire response is attached to the approval record and is visible to the approver during review.
+
 4.  Fill in the fields on the form, as appropriate.
 
 <table id="table_s52_yvn_r6"><thead><tr><th>
@@ -52,7 +54,9 @@ Until
 
 Select the date when the Defer state expires and the remediation task is reactivated.
 
- After the record is submitted, if [email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/t_DefineEmailNotifications.md) are defined, members of the group receive an email when the expiration date is within one week. When the defer date expires, the remediation task is set back to **Open** and a second email notification is sent out.
+ The maximum deferral period is determined by the **Duration** setting in the Exception Management Configuration \(default: 365 days\).
+
+ After the record is submitted, if [email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/t_DefineEmailNotifications.md) are defined, members of the group receive an email when the expiration date is within one week. When the defer date expires, the remediation task is set back to **Open** and a second email notification is sent out.
 
 </td></tr><tr><td>
 
@@ -83,6 +87,4 @@ Enter any other relevant information.
 
     The group is marked In Review. A **Reopen** related link appears. The reopen date and reason appear in work notes under the **Change Approvals** tab.
 
-
-**Parent Topic:**[Exception Management Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-exception-management-overview.md)
 

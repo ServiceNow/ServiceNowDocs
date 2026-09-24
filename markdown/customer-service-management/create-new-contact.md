@@ -3,9 +3,9 @@ title: Create a contact in Microsoft Outlook
 description: As an account manager, you can create a contact when you receive an email from a customer whose details aren’t in the Microsoft Outlook contacts list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-new-contact.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Microsoft Outlook with CSM, Schedules and sites, Use, Customer Service Management]
 ---
@@ -16,7 +16,7 @@ As an account manager, you can create a contact when you receive an email from a
 
 ## Before you begin
 
-Role required: sn\_customerservice.contact\_manager and sn\_customerservice.proxy\_contact
+Role required: sn\_customerservice.contact\_manager and sn\_csm\_proxy\_cont
 
 ## Procedure
 

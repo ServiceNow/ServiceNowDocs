@@ -3,11 +3,11 @@ title: API Insights properties
 description: API Insights properties control the behavior of the application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/api-insights/api-insights-props.html
-release: australia
+release: brazil
 product: API Insights
 classification: api-insights
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, API Insights, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -161,5 +161,5 @@ Set the property to `true` to enable showing the Metric Base widgets on the API 
 -   Location: System Property \[sys\_properties\] table
 
 </td></tr></tbody>
-</table>**Parent Topic:**[API Insights reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights-reference.md)
+</table>**Parent Topic:**[API Insights reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/api-insights/api-insights-reference.md)
 

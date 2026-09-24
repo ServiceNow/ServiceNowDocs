@@ -3,11 +3,11 @@ title: Configure CI Actions
 description: Configure the CI Action Framework to add a new CI action or modify an existing one.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/config-ci-action-fw.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Setting up Investigation Framework in Service Operations Workspace, Setting up integrations in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -17,6 +17,10 @@ breadcrumb: [Setting up Investigation Framework in Service Operations Workspace,
 Configure the CI Action Framework to add a new CI action or modify an existing one.
 
 ## Before you begin
+
+**Important:**
+
+Starting with the Brazil release, Microsoft Endpoint Configuration Manager for Investigation and Agent Client Collector for Investigation are being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Role required: sn\_cimaf.sn\_cimaf\_admin
 
@@ -377,7 +381,7 @@ Type of choice list that must be applicable for the parameter.**Note:** This fie
 
 ## What to do next
 
-You must configure the Remedial Actions Framework. For more information, see [Configure the Remedial Actions Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/config-remedial-action-fw.md).
+You must configure the Remedial Actions Framework. For more information, see [Configure the Remedial Actions Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/config-remedial-action-fw.md).
 
-**Parent Topic:**[Setting up Investigation Framework in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/set-up-investigate.md)
+**Parent Topic:**[Setting up Investigation Framework in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/set-up-investigate.md)
 

@@ -3,11 +3,11 @@ title: Create or modify map icons
 description: Upload new icons or modify existing icons to customize the icon displayed for a CI in maps in Dependency Views, Service Mapping, and Event Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/t\_CreateModifyNGBSMMapIcons.html
-release: australia
+release: brazil
 product: Dependency Views
 classification: dependency-views
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Administer, Dependency Views, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_cmdb\_admin or admin
 
 ## About this task
 
-The icons used in Dependency Views maps are listed in the Map Icons module. Records in the **Map Icons** list are arranged by CI classes, such as cmdb\_ci\_linux\_server. The path to the default image files is https://&lt;instance name&gt;.service-now.com/images/app.ngbsm/&lt;image name.svg&gt;. For information about uploading images to the database, see [Storing images in the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_StoringImagesInTheDatabase.md).
+The icons used in Dependency Views maps are listed in the Map Icons module. Records in the **Map Icons** list are arranged by CI classes, such as cmdb\_ci\_linux\_server. The path to the default image files is https://&lt;instance name&gt;.service-now.com/images/app.ngbsm/&lt;image name.svg&gt;. For information about uploading images to the database, see [Storing images in the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_StoringImagesInTheDatabase.md).
 
 Role required: admin or cmdb\_admin roles are required to access the records in this table \[ngbsm\_icon\] to upload new icons.
 
@@ -63,7 +63,7 @@ Role required: admin or cmdb\_admin roles are required to access the records in 
 
 You can modify a Dependency Views map indicator to use the new icon.
 
-**Parent Topic:**[Administer Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/p_AdministerNGBSM.md)
+**Parent Topic:**[Administer Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/dependency-views/p_AdministerNGBSM.md)
 
 **Related topics**  
 

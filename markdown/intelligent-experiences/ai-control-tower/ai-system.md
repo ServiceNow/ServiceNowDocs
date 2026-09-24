@@ -1,20 +1,20 @@
 ---
 title: AI systems
-description: Explore the AI systems in detail with examples.
+description: Explore AI systems in detail with examples.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-system.html
-release: australia
+release: brazil
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Definitions of AI asset inventory, Explore, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [Definitions of AI asset inventory, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # AI systems
 
-Explore the AI systems in detail with examples.
+Explore AI systems in detail with examples.
 
 -   **AI system**
 

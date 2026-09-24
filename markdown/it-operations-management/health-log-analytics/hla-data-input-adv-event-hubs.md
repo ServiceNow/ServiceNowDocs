@@ -3,11 +3,11 @@ title: Configure advanced settings for Microsoft Azure Event Hubs data inputs in
 description: Configure advanced settings for data inputs used for streaming log data from Microsoft Azure Event Hubs to your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-adv-event-hubs.html
-release: australia
+release: brazil
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Advanced manual data input configuration, Set up data inputs manually, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -36,11 +36,11 @@ You can set system parameters for reading log data that determine the actions th
 
 4.  On the form, fill in the fields.
 
-    For a description of the fields, see [Microsoft Azure Event Hubs data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-event-hubs-ref.md).
+    For a description of the fields, see [Microsoft Azure Event Hubs data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-data-input-event-hubs-ref.md).
 
 5.  In the Streaming Sources related list, verify that this data input is streaming log data from all relevant endpoint devices.
 
-    For more information about streaming sources, see [Identify and resolve a log streaming issue in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-streaming.md).
+    For more information about streaming sources, see [Identify and resolve a log streaming issue in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-data-input-streaming.md).
 
 6.  Select **Save**.
 
@@ -62,10 +62,10 @@ You can set system parameters for reading log data that determine the actions th
 8.  Select **Publish** to publish the data input to the MID Server.
 
 
-**Parent Topic:**[Advanced data input configuration in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-adv-configuration.md)
+**Parent Topic:**[Advanced data input configuration in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-data-input-adv-configuration.md)
 
 **Related topics**  
 
 
-[Configure a Microsoft Azure Event Hubs data input in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-event-hubs.md)
+[Configure a Microsoft Azure Event Hubs data input in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-data-input-event-hubs.md)
 

@@ -3,9 +3,9 @@ title: Perform the self-attestation assessment
 description: Create an assessment for the self-attestation and certify the resilience status of services in the Operational Resilience Workspace. Perform the self-attestation assessment using the Smart Assessment template provided with the base system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-attestation-in-ws.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Certifying services using self-attestation, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -36,15 +36,15 @@ Role required: sn\_oper\_res.manager
 
     You can select the type of assessment as shown in the table.
 
-<table id="choicetable_ltj_f4q_xfc"><thead><tr><th align="left" id="d128912e125">
+<table id="choicetable_ltj_f4q_xfc"><thead><tr><th align="left" id="d130592e125">
 
 Choice
 
-</th><th align="left" id="d128912e128">
+</th><th align="left" id="d130592e128">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d128912e134">
+</th></tr></thead><tbody><tr><td id="d130592e134">
 
 **Select __Smart assessment__.**
 
@@ -52,7 +52,7 @@ Description
 
 Select the Smart Assessment method for performing the self-attestation.
 
-</td></tr><tr><td id="d128912e152">
+</td></tr><tr><td id="d130592e152">
 
 **Select __Legacy assessment__.**
 
@@ -67,7 +67,7 @@ Select the Legacy assessment method for performing the self-attestation.
 
     The attestation template contains the pre-defined questions for the assessment. The Operational Resilience application provides an attestation template as part of the base system.
 
-    **Note:** If you have the sn\_oper\_res.admin role, you can customize the default attestation template for your own business needs. For information on creating a customized attestation template, see [Create and edit the attestation template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-attestation-template.md).
+    **Note:** If you have the sn\_oper\_res.admin role, you can customize the default attestation template for your own business needs. For information on creating a customized attestation template, see [Create and edit the attestation template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-new-attestation-template.md).
 
 6.  To use the Smart Assessment, select the default **Self attestation assessment template** populated in the **Smart assessment templates** field.
 
@@ -75,9 +75,9 @@ Select the Legacy assessment method for performing the self-attestation.
 
     **Note:** Before starting the self-attestation process, verify that Operational Resilience administrator has set up and published the Self-attestation template in the Assessment Workspace. If the Smart Assessment template for Self-attestation is not set up and published in the Assessment Workspace, it will not be displayed for selection in the **Smart assessment templates** field in the self-attestation form.
 
-    For information on setting up Smart Assessment templates, see [Create and edit the attestation template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-attestation-template.md).
+    For information on setting up Smart Assessment templates, see [Create and edit the attestation template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-new-attestation-template.md).
 
-    For information on Smart Assessment documentation, see [Create a Smart Assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-sm-asmt-temp-as-ws.md) and [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
+    For information on Smart Assessment documentation, see [Create a Smart Assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-sm-asmt-temp-as-ws.md) and [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
 
     \[Omitted image "self-attest-default-questions.png"\] Alt text: Default questionnaire.
 
@@ -97,7 +97,7 @@ Select the Legacy assessment method for performing the self-attestation.
 
     The following informational message is displayed: **Select the e-signature to be embedded in the template.**
 
-    **Note:** You must select the supported file format, such as either the JPEG, PNG, BMP, GIF, ICO, SVG format, for the signature image. If you select a file format that is not supported, such as the Microsoft Word format, the following error message is displayed on the screen: **Selected file type is invalid. Valid field types: JPEG, PNG, BMP, GIF, ICO, SVG.**
+    **Note:** You must select the supported file format, such as either the JPEG, PNG, BMP, GIF, ICO, SVG format, for the signature image. If you select a file format that is not supported, such as the Microsoft Word format, the following error message is displayed on the screen: **Selected file type is invalid. Valid file types: JPEG, PNG, BMP, GIF, ICO, SVG.**
 
     If you want to delete an existing image and add a new image instead, you can use the **Delete** icon in the **Signature** field and add another signature image.
 
@@ -128,5 +128,5 @@ Select the Legacy assessment method for performing the self-attestation.
 
 ## What to do next
 
-Request responses on the assessment and then submit the self-attestation to the owner for the certification. For more information, see [Submit the self-attestation report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/update-a-self-attestation-record-in-ws.md).
+Request responses on the assessment and then submit the self-attestation to the owner for the certification. For more information, see [Submit the self-attestation report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/update-a-self-attestation-record-in-ws.md).
 

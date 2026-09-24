@@ -3,11 +3,11 @@ title: Use LDAPS with ADAM
 description: The default configuration for userProxy object authentication is to enforce LDAPS \(secure LDAP\) communications. LDAPS requires SSL certificates to secure the network traffic.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/r\_UsingLDAPSWithADAM.html
-release: australia
+release: brazil
 product: LDAP integration
 classification: ldap-integration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Active Directory Application Mode \(ADAM\), LDAP integration, Authentication, Access Management]
 ---

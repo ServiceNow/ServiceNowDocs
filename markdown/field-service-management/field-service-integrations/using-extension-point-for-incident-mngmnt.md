@@ -3,11 +3,11 @@ title: Using extension point for incident management
 description: Extension points enable you to extend the functionality of an application and integrate customizations without altering the application code. Extension points are stored in the Extension Point \[sys\_extension\_point\] table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-integrations/using-extension-point-for-incident-mngmnt.html
-release: australia
+release: brazil
 product: Field Service Integrations
 classification: field-service-integrations
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up Incident Management, Integration with Incident Management, Integrating Field Service Management with other applications, Configure, Field Service Management]
 ---
@@ -30,5 +30,5 @@ The default extension points that are provided with an application cannot be mod
     **Note:** API names used in the implementation must remain the same so the extension point can identify the implementation. Otherwise, an error will result.
 
 
-**Parent Topic:**[Setting up Incident Management for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/setting-up-incident-fsm.md)
+**Parent Topic:**[Setting up Incident Management for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-integrations/setting-up-incident-fsm.md)
 

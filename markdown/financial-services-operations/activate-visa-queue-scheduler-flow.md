@@ -3,9 +3,9 @@ title: Configure the Visa Queue Scheduler Flow
 description: Use the Visa Queue Scheduler Flow to control the frequency at which Visa batch queues are processed. This flow runs as a scheduled job at a predefined time interval, triggering the subflow that processes incoming batch queues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/activate-visa-queue-scheduler-flow.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Visa, Integrate, Financial Services Operations \(FSO\)]
 ---
@@ -30,8 +30,8 @@ Role required: admin
 
 4.  Select **Activate**.
 
-    **Note:** When using Financial Services Operations Integration with Visa for the first time, you must activate the Visa Queue Scheduler Flow and set the desired frequency. For more information, see [Batch queue APIs processing and scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/components-installed-with-the-financial-services-operations-integration-with-visa.md).
+    **Note:** When using Financial Services Operations Integration with Visa for the first time, you must activate the Visa Queue Scheduler Flow and set the desired frequency. For more information, see [Batch queue APIs processing and scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/components-installed-with-the-financial-services-operations-integration-with-visa.md).
 
 
-**Parent Topic:**[Configuring Financial Services Operations Integration with Visa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configuring-financial-services-operations-integration-with-visa.md)
+**Parent Topic:**[Configuring Financial Services Operations Integration with Visa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configuring-financial-services-operations-integration-with-visa.md)
 

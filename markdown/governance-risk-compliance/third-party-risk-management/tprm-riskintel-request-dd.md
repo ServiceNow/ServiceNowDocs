@@ -3,11 +3,11 @@ title: Request a risk intelligence report associated with a due diligence reques
 description: Request a risk intelligence report \(RIR\) or score to gain insight on how trustworthy a particular third party can be as part of the due diligence request process by using the Third-party Risk Management application. By associating your RIR request with a due diligence request, all activity, scores, reports, and details are available for you to see.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-riskintel-request-dd.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use risk intelligence reports and scores, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,7 @@ Request a risk intelligence report \(RIR\) or score to gain insight on how trust
 
 ## Before you begin
 
-You must set up and register all risk intelligence providers and set up request types so that they’re available as selections in the Risk intelligence report request form. For more information, see [Register a risk intelligence provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-register.md), [Set up a risk intelligence provider service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-set-up.md), and [Set up a request type for a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-request-type.md).
+You must set up and register all risk intelligence providers and set up request types so that they’re available as selections in the Risk intelligence report request form. For more information, see [Register a risk intelligence provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-register.md), [Set up a risk intelligence provider service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-set-up.md), and [Set up a request type for a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-request-type.md).
 
 Role required: sn\_vdr\_risk\_asmt.vendor\_assessor that is the due diligence request owner, sn\_vdr\_risk\_asmt.vendor\_risk\_manager, or sn\_vdr\_risk\_asmt.contract\_negotiator assigned to the due diligence request.
 
@@ -38,11 +38,11 @@ You can order different types of risk intelligence reports such as credit risk r
 
 4.  On the **Risk Intelligence report request** tab, select **New** and specify the **Provider** and **Request type**.
 
-    For descriptions of all these fields, see [Risk intelligence report request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-rir-form.md).
+    For descriptions of all these fields, see [Risk intelligence report request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-rir-form.md).
 
 5.  In the Sanction section of the form, enter any sanction-related information.
 
-    For information on how to track sanctions screening information, see [Track sanctions-related information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintel-track-sanctions.md).
+    For information on how to track sanctions screening information, see [Track sanctions-related information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintel-track-sanctions.md).
 
 6.  Select **Save**.
 

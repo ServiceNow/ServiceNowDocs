@@ -3,12 +3,12 @@ title: Review results and decide the treatment
 description: Review the simulation output metrics, then select a treatment strategy to address the identified risk.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/review-sca-results-treatment-decision.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Scenario Analysis, Operational Resilience, simulation results, treatment decision, Accept, Mitigate, Avoid, Transfer]
-breadcrumb: [Building a scenario analysis using simulation, Scenario analysis using simulation, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Building a scenario analysis using simulation, Conducting a scenario analysis, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Review results and decide the treatment
@@ -68,5 +68,5 @@ The **Results** step surfaces the quantitative output of the simulation. Review 
 
 ## Result
 
-The simulation results have been reviewed and a treatment decision has been recorded. The optional **Operational Vulnerabilities** and **Issues** steps are now available. For more information on adding operational vulnerabilities and issues, see [Log operational vulnerabilities and issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-sca-op-vul-and-issues.md).
+The simulation results have been reviewed and a treatment decision has been recorded. The optional **Operational Vulnerabilities** and **Issues** steps are now available. For more information on adding operational vulnerabilities and issues, see [Log operational vulnerabilities and issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/add-sca-op-vul-and-issues.md).
 

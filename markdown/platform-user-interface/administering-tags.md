@@ -3,9 +3,9 @@ title: Administering tags
 description: If you have an administrator role, you can configure and manage all tags, even tags created by other users. You can also configure notifications, auto-assignment, and Zing indexing for tags.You can create a tag directly from the Tags list.From the Tags module, you can edit all tags.Configure the system to automatically assign a tag to records that match conditions defined in the tag record.You can enable the system to send a notification when a record with a certain tag is updated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/administering-tags.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Tags, Common UI elements, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -16,7 +16,7 @@ If you have an administrator role, you can configure and manage all tags, even t
 
 You must have the tags\_admin role for these administrative tasks.
 
-**Parent Topic:**[Tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_Tags.md)
+**Parent Topic:**[Tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_Tags.md)
 
 ## Create a tag from the Tags list
 
@@ -112,7 +112,7 @@ Configure the system to automatically assign a tag to records that match conditi
 
 ### Before you begin
 
-Role required: tags\_admin, however for users with the tags\_admin role to be able to create conditions for labels, you need to create the following ACLs. Creating ACLs requires the security\_admin elevated role. Include tags\_admin as a required role for each ACL. For more information on creating an ACL, see [Create an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_CreateAnACLRule.md).
+Role required: tags\_admin, however for users with the tags\_admin role to be able to create conditions for labels, you need to create the following ACLs. Creating ACLs requires the security\_admin elevated role. Include tags\_admin as a required role for each ACL. For more information on creating an ACL, see [Create an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_CreateAnACLRule.md).
 
 |Name|Operation|
 |----|---------|
@@ -159,7 +159,7 @@ Use automatically assigned tags to group high urgency incidents, overdue inciden
 **Related topics**  
 
 
-[Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md)
+[Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md)
 
 ## Configure notifications for tagged records
 

@@ -3,7 +3,7 @@ title: Configure AI Search for ServiceNow Otto for Public Sector Digital Service
 description: Activate the ServiceNow Otto in AI Search application to extract actionable Q&amp;A Genius Result answers from knowledge articles found in the Service Portal, Virtual Agent, Employee Center, and global searches using generative AI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-configuring-ai-search-toggle.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

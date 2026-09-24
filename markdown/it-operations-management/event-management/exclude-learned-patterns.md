@@ -3,11 +3,11 @@ title: Exclude patterns from learned patterns
 description: Exclude CI-based or CI class-based alerts and patterns when you encounter alerts incorrectly added to a learned pattern by the Learned Patterns job. For example, a pattern might include an alert that occurred at the same time as other alerts but is not actually related to them. This maintains accuracy, ensuring better alert groupings and improved management efficiency.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/exclude-learned-patterns.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Automated alert grouping, Alert grouping types and creation methods, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -47,5 +47,5 @@ You select the incorrect alert in a pattern to exclude the entire pattern to whi
 
 The entire pattern is removed from the Learned Patterns report and listed on the Excluded Patterns page, located at **Event Management** &gt; **Administration** &gt; **Excluded patterns**.
 
-If the pattern includes other alerts, you can restore it by reclaiming those alerts as a learned pattern. For further details, see [Restore excluded patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/restore-excluded-patterns.md).
+If the pattern includes other alerts, you can restore it by reclaiming those alerts as a learned pattern. For further details, see [Restore excluded patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/restore-excluded-patterns.md).
 

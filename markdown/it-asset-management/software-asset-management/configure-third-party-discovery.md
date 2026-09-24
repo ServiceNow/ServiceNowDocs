@@ -3,13 +3,13 @@ title: Configure third-party discovery sources for Software Asset Management
 description: Set up a third-party discovery source for Software Asset Management to populate the Software Installation \[cmdb\_sam\_sw\_install\] table with the software found in your environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/configure-third-party-discovery.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [SAM Administration, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software Asset Management administration, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Configure third-party discovery sources for Software Asset Management
@@ -18,7 +18,7 @@ Set up a third-party discovery source for Software Asset Management to populate 
 
 ## Before you begin
 
-To use the features of the Software Asset Management application with any third-party discovery source, you must populate the CMDB application and the related tables that reside on the ServiceNow instance. The Software Asset Management application uses the IRE API to help you populate the Software asset management tables. As the IRE API relies on the configuration item \(CI\) identifiers, the SAM tables require a relationship to the CI for IRE support. For more information on the IRE API, see [Identification and Reconciliation Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ire.md).
+To use the features of the Software Asset Management application with any third-party discovery source, you must populate the CMDB application and the related tables that reside on the ServiceNow instance. The Software Asset Management application uses the IRE API to help you populate the Software asset management tables. As the IRE API relies on the configuration item \(CI\) identifiers, the SAM tables require a relationship to the CI for IRE support. For more information on the IRE API, see [Identification and Reconciliation Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/ire.md).
 
 Role required: sam\_developer
 
@@ -34,12 +34,12 @@ Role required: sam\_developer
 
 4.  Send the payload to the ServiceNow instance using the IRE REST API.
 
-    For information on a sample payload, see [Sample payload for generic software install records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/payload-details.md).
+    For information on a sample payload, see [Sample payload for generic software install records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/payload-details.md).
 
     In the payload, make sure to send the sys\_class\_name of the CI, so that the CI is not reclassified when an insert or update operation is performed.
 
     An entry is created in the Software Installation \[cmdb\_sam\_sw\_install\] table with a display name, publisher, and version. Reconciliation is run against the content service and a discovery model is identified for that software. If a discovery model does not exist, a discovery model is automatically created for the software. You can start using the Software Asset Management application.
 
 
-**Parent Topic:**[Software Asset Management administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMAdministration.md)
+**Parent Topic:**[Software Asset Management administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/c_SAMAdministration.md)
 

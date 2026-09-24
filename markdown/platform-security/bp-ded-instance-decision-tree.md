@@ -3,9 +3,9 @@ title: Service provider reference architecture decision trees
 description: You can use decision trees and a comparison chart to determine if a new customer should be added to a shared instance or to their own dedicated instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-ded-instance-decision-tree.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service provider reference architecture, Recommended practices for service providers, Domain separation for service providers, Access Management]
 ---
@@ -24,7 +24,5 @@ Use these decision trees to help your customers decide whether to use a managed 
 
 ## SP reference architecture comparison
 
-\[Omitted image "bp-dedicated-ds-hybrid-siam.png"\] Alt text: Dedicated DS hybrid SIAM
-
-**Parent Topic:**[Service provider reference architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-sp-reference-arch-ds.md)
+**Parent Topic:**[Service provider reference architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/bp-sp-reference-arch-ds.md)
 

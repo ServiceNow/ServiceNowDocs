@@ -3,11 +3,11 @@ title: Set up OAuth 2.0 Authorization Code for Bitbucket Cloud
 description: Set up OAuth 2.0 Authorization Code credentials for Bitbucket in DevOps Change Velocity to use a more secure authentication method.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/set-up-oauth-2-0-authorization-code.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Bitbucket, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -186,5 +186,5 @@ Select the order to apply this credential. For example, enter `100`.
 12. Select the **Get OAuth Token** related link to generate the OAuth token.
 
 
-**Parent Topic:**[Bitbucket integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/bitbucket-integration-dev-ops.md)
+**Parent Topic:**[Bitbucket integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/bitbucket-integration-dev-ops.md)
 

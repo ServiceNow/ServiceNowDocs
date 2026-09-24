@@ -3,11 +3,11 @@ title: Get a list of widgets per page
 description: Get a summary of all widgets that appear on Service Portal pages. Use this data to better understand widget customizations and page usage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/portal-analyzer.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Analyzing portal performance and usage, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -46,13 +46,13 @@ Use the exported list to consider which pages and widgets to focus on while rede
 
 5.  Review the list and, if needed, export it as a CSV, Excel, XML, JSON, or PDF file to reference during a system upgrade.
 
-    For more information on exporting list data, see [List export](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/export-list-data.md).
+    For more information on exporting list data, see [List export](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/export-list-data.md).
 
 
-**Parent Topic:**[Analyzing portal performance and usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/using-portal-analytics.md)
+**Parent Topic:**[Analyzing portal performance and usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/using-portal-analytics.md)
 
 **Related topics**  
 
 
-[Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ScheduledJobs.md)
+[Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ScheduledJobs.md)
 

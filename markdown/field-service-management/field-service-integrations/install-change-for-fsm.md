@@ -1,18 +1,18 @@
 ---
-title: Activate Change Management for Field Service
+title: Install Change Management for Field Service
 description: You can install the Change Management for Field Service application \(sn\_fsm\_chg\_mng\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-integrations/install-change-for-fsm.html
-release: australia
+release: brazil
 product: Field Service Integrations
 classification: field-service-integrations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integration with Change Management, Integrating Field Service Management with other applications, Configure, Field Service Management]
 ---
 
-# Activate Change Management for Field Service
+# Install Change Management for Field Service
 
 You can install the Change Management for Field Service application \(sn\_fsm\_chg\_mng\) if you have the admin role.The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
 
@@ -23,7 +23,7 @@ You can install the Change Management for Field Service application \(sn\_fsm\_c
     -   **Required ServiceNow plugins**
         -   **CRM Workspace \(com.snc.uib.csm\_agent\_workspace\)**
 
-            Enable your agents to engage with customers, answer questions, create cases, and resolve issues. For more information, see [Set up CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-set-up.md).
+            Enable your agents to engage with customers, answer questions, create cases, and resolve issues. For more information, see [Set up CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-config-workspace-set-up.md).
 
 
 Role required: admin

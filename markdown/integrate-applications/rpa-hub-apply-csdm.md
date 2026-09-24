@@ -3,9 +3,9 @@ title: Applying the CSDM guidelines to RPA Hub
 description: Apply Common Service Data Model \(CSDM\) guidelines to RPA Hub.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/rpa-hub-apply-csdm.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -24,7 +24,7 @@ CSDM is the data model standard for all products that use the Configuration Mana
 -   The CSDM data model supports multiple configuration strategies and includes guidelines for using base-system tables and relationships.
 -   You can use the CMDB query builder to create reports showing CMDB configuration items \(CIs\) and their relationships.
 
-For more information about the CSDM, see [Common Service Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/csdm-landing-page.md).
+For more information about the CSDM, see [Common Service Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/csdm-landing-page.md).
 
-For more information about implementing the CSDM framework in stages, see [Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/csdm-implementation-stages.md).
+For more information about implementing the CSDM framework in stages, see [Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/csdm-implementation-stages.md).
 

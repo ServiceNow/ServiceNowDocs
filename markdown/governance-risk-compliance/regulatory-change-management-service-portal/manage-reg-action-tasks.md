@@ -3,11 +3,11 @@ title: Create an action task
 description: Create an action task that is related to the regulatory change tasks and source document import tasks so that you can complete the regulatory tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/manage-reg-action-tasks.html
-release: australia
+release: brazil
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Regulatory Change Management, Governance, Risk, and Compliance]
 ---

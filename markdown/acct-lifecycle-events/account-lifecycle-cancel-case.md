@@ -3,9 +3,9 @@ title: Close or cancel an account onboarding case
 description: You can close or cancel an account boarding case and all the related activities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-cancel-case.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage account onboarding cases, Account onboarding, Use, Customer Success Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_acct\_lc.agent
 
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
+1.  Navigate to **Workspace** &gt; **CRM Workspace** and select the **List** icon.
 
 2.  Navigate to the **Customer Success** &gt; **All Onboarding Cases** and open the onboarding case you want to cancel.
 
@@ -44,5 +44,5 @@ Role required: sn\_acct\_lc.agent
         **Note:** Before you close an account onboarding case, you must close or cancel or the related account onboarding case tasks. If an associated child task is still open, a warning message is displayed. You must first close or cancel the child tasks and then proceed with closing the account onboarding case.
 
 
-**Parent Topic:**[Manage account onboarding cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-manage-acct-onboard.md)
+**Parent Topic:**[Manage account onboarding cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-manage-acct-onboard.md)
 

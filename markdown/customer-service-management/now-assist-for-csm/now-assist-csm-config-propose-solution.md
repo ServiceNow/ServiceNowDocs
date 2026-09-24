@@ -3,11 +3,11 @@ title: Configure Propose Solution actions
 description: Add generative AI-specific functionality to the Case form by configuring the Propose Solution UI action and declarative action that are included with the ServiceNow Otto for Customer Service Management \(CSM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/now-assist-csm-config-propose-solution.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -42,7 +42,7 @@ To use the generative AI functionality, you must deactivate the Propose Solution
 
     2.  Configure the list to show the Application column.
 
-        For more information on how to configure a list, see [Configure the list layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConfigureTheListLayout.md).
+        For more information on how to configure a list, see [Configure the list layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ConfigureTheListLayout.md).
 
     3.  Filter the list to display **Propose Solution** in the **Name** field.
 

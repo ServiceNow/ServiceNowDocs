@@ -3,11 +3,11 @@ title: Monitoring queues in Instance Data Replication
 description: Monitor the replication record queue, message produced queue, message consumed queue, and the messages processed for all replications sets through the Instance Data Replication \(IDR\) Queue Dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/idr-queue-dashboard.html
-release: australia
+release: brazil
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Administer, Instance Data Replication, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -97,7 +97,7 @@ If the producer is sending records to the message queue and the consumer is not 
 
 Position your cursor over a point in the chart to see the message count and replication set name for that point.
 
-**Parent Topic:**[Administering Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/administering-instance-data-replication.md)
+**Parent Topic:**[Administering Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/instance-data-replication-idr/administering-instance-data-replication.md)
 
 **Related topics**  
 

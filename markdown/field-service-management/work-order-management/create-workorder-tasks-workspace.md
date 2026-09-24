@@ -3,11 +3,11 @@ title: Create work order tasks in CSM Agent Workspace
 description: Create work order tasks to track the work created for a work order.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/create-workorder-tasks-workspace.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage work order tasks, Prepare work orders, Use, Field Service Management]
 ---
@@ -32,7 +32,7 @@ Role required: wm\_qualifier and sn\_customerservice\_agent, or wm\_qualifier an
 
     -   To create a work order task using a work order template, click the search icon in the **Template** field and select the template for this work order.
     -   To create a work order task manually, click **New** and fill in the required fields.
-    For field descriptions, refer to [Create a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/t_CreateAWorkOrderTask.md).
+    For field descriptions, refer to [Create a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/t_CreateAWorkOrderTask.md).
 
 5.  Click **Save**.
 
@@ -40,7 +40,7 @@ Role required: wm\_qualifier and sn\_customerservice\_agent, or wm\_qualifier an
 **Related topics**  
 
 
-[Qualify work order tasks in CSM Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/qualify-workorder-tasks-workspace.md)
+[Qualify work order tasks in CSM Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/qualify-workorder-tasks-workspace.md)
 
-[Book work order appointment in the CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/appointment-booking/book-workorder-appointment-workspace.md)
+[Book work order appointment in the CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/appointment-booking/book-workorder-appointment-workspace.md)
 

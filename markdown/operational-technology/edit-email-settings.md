@@ -3,9 +3,9 @@ title: Edit email settings
 description: Edit the email settings as needed to match the settings on your mail server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/edit-email-settings.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Settings page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -39,5 +39,5 @@ Role required: admin
 5.  Select **Save**.
 
 
-**Parent Topic:**[Settings page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/settings-page-console.md)
+**Parent Topic:**[Settings page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/settings-page-console.md)
 

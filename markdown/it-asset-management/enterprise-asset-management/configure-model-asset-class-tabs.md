@@ -3,11 +3,11 @@ title: Configure tabs in the Enterprise Asset Workspace
 description: Configure the options to hide or display various tabs, including tabs that are associated with specific model categories, in the Enterprise model management view and Enterprise asset estate view of the Enterprise Asset Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/configure-model-asset-class-tabs.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Enterprise Asset Management, Asset Management]
 ---
@@ -22,11 +22,13 @@ Role required: sn\_eam.enterprise\_admin
 
 ## Procedure
 
-1.  Navigate to **Enterprise Asset Workspace** &gt; **Admin center**.
+1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
 
-2.  In the navigation panel of the Admin center view, select **Model and asset tabs**.
+2.  From the Enterprise Asset Workspace, open the Admin center view.
 
-3.  From the list of available tab configurations, select the configuration that you want to modify.
+3.  In the navigation panel of the Admin center view, select **Model and asset tabs**.
+
+4.  From the list of available tab configurations, select the configuration that you want to modify.
 
     The Enterprise Asset Management application includes the following tab configurations by default:
 
@@ -46,11 +48,11 @@ Role required: sn\_eam.enterprise\_admin
     -   Multimedia Production Equipment class tab configuration
     **Important:**
 
-    You can also select **New** to create an additional tab configuration for any custom top tier model category that you have added under the enterprise model category. However, ServiceNow strongly recommends that you use only existing top tier model categories, such as Medical or Construction, with custom sub-categories instead. For more information on creating custom model categories, see [Create model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-custom-model-category.md).
+    You can also select **New** to create an additional tab configuration for any custom top tier model category that you have added under the enterprise model category. However, ServiceNow strongly recommends that you use only existing top tier model categories, such as Medical or Construction, with custom sub-categories instead. For more information on creating custom model categories, see [Create model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-custom-model-category.md).
 
-    If you choose to create an additional tab configuration, you must also use UI Builder to manually add the corresponding model and asset tabs to the Enterprise model management view and Enterprise asset estate view. For detailed instructions, see [Add tabbed content to UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/tabs-components.md).
+    If you choose to create an additional tab configuration, you must also use UI Builder to manually add the corresponding model and asset tabs to the Enterprise model management view and Enterprise asset estate view. For detailed instructions, see [Add tabbed content to UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/tabs-components.md).
 
-4.  On the tab configuration record, modify the fields as needed.
+5.  On the tab configuration record, modify the fields as needed.
 
 <table id="table_rhx_2rh_zgc"><thead><tr><th>
 
@@ -109,6 +111,6 @@ Domain
 Domain that the tab configuration is available in.
 
 </td></tr></tbody>
-</table>5.  Select **Save**.
+</table>6.  Select **Save**.
 
 

@@ -3,11 +3,11 @@ title: Foundation data sync
 description: Foundation data sync \(FDS\) enables structured, periodic data sharing from provider to consumer and consumer to provider instances. FDS ensures that both providers and consumers can share and receive accurate, up‑to‑date foundational data, supporting better service delivery and operational alignment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-explore-foundation-data-sync.html
-release: australia
+release: brazil
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2026-05-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [foundation data sync, FDS, data sharing, CMDB, provider consumer data]
 breadcrumb: [Explore, Service Exchange]
@@ -17,7 +17,7 @@ breadcrumb: [Explore, Service Exchange]
 
 Foundation data sync \(FDS\) enables structured, periodic data sharing from provider to consumer and consumer to provider instances. FDS ensures that both providers and consumers can share and receive accurate, up‑to‑date foundational data, supporting better service delivery and operational alignment.
 
-FDS is a data synchronization mechanism that enables a provider instance to share foundational data, such as server, hardware, network information with consumer instances. It also enables consumer instances to share foundational data with provider instances on a scheduled cadence \(daily, weekly, or monthly\).
+FDS is a data synchronization mechanism that enables a provider instance to share foundational data, such as server, hardware, network information with consumer instances and consumers instance to provider instances on a scheduled cadence \(daily, weekly, or monthly\).
 
 FDS supports two separate unidirectional data flows, allowing both providers and consumers to act as either data source or recipient depending on the business need:
 
@@ -72,11 +72,11 @@ ABC company also needs visibility into XYZ to understand the consumption pattern
 **Related topics**  
 
 
-[Configure outbound foundation data sync as providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-using-foundation-data-sync.md)
+[Configure outbound foundation data sync as providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-using-foundation-data-sync.md)
 
-[Configuring inbound foundation data sync as providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-configure-inboun-fds-providers.md)
+[Configuring inbound foundation data sync as providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-configure-inboun-fds-providers.md)
 
-[Configure inbound foundation data sync as a consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-using-foundation-data-sync-for-consumer.md)
+[Configure inbound foundation data sync as a consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-using-foundation-data-sync-for-consumer.md)
 
-[Configure outbound foundation data sync as consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/using-provider-bound-fds-consumer.md)
+[Configure outbound foundation data sync as consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/using-provider-bound-fds-consumer.md)
 

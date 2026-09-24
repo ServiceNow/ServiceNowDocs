@@ -3,11 +3,11 @@ title: Using the lsof Command
 description: Use the ls of command to return active TCP connections and can be installed on Solaris and AIX target machines.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/t\_UsingTheLsofCommand.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Application Mapping for UNIX, Software discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -39,5 +39,5 @@ Role required: admin
 7.  Repeat this procedure for the AIX classification probe.
 
 
-**Parent Topic:**[Application Mapping for UNIX discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_DiscoveryAppMapForUNIX.md)
+**Parent Topic:**[Application Mapping for UNIX discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/c_DiscoveryAppMapForUNIX.md)
 

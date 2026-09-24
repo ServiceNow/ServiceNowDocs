@@ -3,11 +3,11 @@ title: Redirect agents of a specific group to Service Operations Workspace
 description: Enable only agents of specific user groups to be automatically redirected to Service Operations Workspace after logging in to the ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/redirect-specific-agent-group-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Landing page redirection in Service Operations Workspace for ITSM, Getting started with Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -46,5 +46,5 @@ Only the agents who are part of specified user groups are redirected to Service 
         2.  On the **Edit Members** form, add the itil role from the **Collection** list to the **Roles List** list.
         3.  Select **Save**.
 
-**Parent Topic:**[Landing page redirection in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/landing-page-redirection-sow-itsm.md)
+**Parent Topic:**[Landing page redirection in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/landing-page-redirection-sow-itsm.md)
 

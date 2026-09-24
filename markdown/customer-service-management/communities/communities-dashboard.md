@@ -3,11 +3,11 @@ title: Communities dashboard
 description: The Communities dashboard displays up-to-date status on community usage, membership, content type and activity, and trends by forum, topic, and admin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/communities-dashboard.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Platform Analytics Solutions for Communities, Configuring communities, Communities, Customer Service Management]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Platform Analytics Solutions for Communities, Configuring communiti
 # Communities dashboard
 
 The Communities dashboard displays up-to-date status on community usage, membership, content type and activity, and trends by forum, topic, and admin.
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Access the dashboard by navigating to **All** &gt; **Platform Analytics** &gt; **Dashboards**. On the dashboard page, search Communities Dashboard.
 
@@ -249,5 +253,5 @@ Single Score
 View the number of posts featured by different users per month.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Platform Analytics Solutions for Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communities-content-pack.md)
+</table>**Parent Topic:**[Platform Analytics Solutions for Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/communities-content-pack.md)
 

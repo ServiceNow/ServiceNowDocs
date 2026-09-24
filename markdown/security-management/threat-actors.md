@@ -3,9 +3,9 @@ title: Threat actors
 description: Threat Actors are individuals, groups, or organizations who act with malicious intent. Threat actors applies for STIX 2.x.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-actors.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [IoC Repository, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -20,10 +20,10 @@ Threat Actors use their resources, and the resources of an Intrusion Set, to con
 
 You can identify Threat Actors by their motives, capabilities, goals, sophistication level, past activities, resources they have access to, and their role in the organization.
 
--   **[Define threat actors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/define-threat-actors.md)**  
+-   **[Define threat actors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/define-threat-actors.md)**  
 Define threat actors who are individuals, groups, or organizations who act with malicious intent.
 
-**Parent Topic:**[IoC Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ioc-repository.md)
+**Parent Topic:**[IoC Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/ioc-repository.md)
 
 **Related topics**  
 

@@ -3,13 +3,13 @@ title: Import Microsoft 365 subscription entitlements
 description: Import Microsoft 365 subscription entitlements into the ServiceNow Software Asset Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/imp-m365-ent.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Microsoft 365 SaaS License Management success guide, Success Guides, Success portal view in Software Asset Workspace, Software Asset Workspace, Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Microsoft 365 SaaS License Management success guide, Success Guides, Success portal view in Software Asset Workspace, Software Asset Workspace, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Import Microsoft 365 subscription entitlements
@@ -124,10 +124,10 @@ Software Asset Workspace
 
         If the discovery map doesn't match, add or edit directly on the software model form and select **Update**.
 
-        **Tip:** After the entitlements are imported, you might need additional subscriptions purchases during the true-up process with Microsoft. For more information, see. [Creating reserve entitlements for Microsoft online services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/creating-0365-reserve-entitlements.md).
+        **Tip:** After the entitlements are imported, you might need additional subscriptions purchases during the true-up process with Microsoft. For more information, see. [Creating reserve entitlements for Microsoft online services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/creating-0365-reserve-entitlements.md).
 
 
 ## What to do next
 
-[Reconcile for compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/recon-for-comp-sg.md)
+[Reconcile for compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/recon-for-comp-sg.md)
 

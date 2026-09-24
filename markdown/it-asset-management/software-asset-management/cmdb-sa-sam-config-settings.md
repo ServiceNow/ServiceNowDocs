@@ -3,11 +3,11 @@ title: CMDB success advisor for SAM setup
 description: Use the CMDB success advisor application to configure and manage the CMDB success advisor for Software Asset Management \(SAM\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/cmdb-sa-sam-config-settings.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-07-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use SAM advisor, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -22,11 +22,11 @@ Review the [CMDB success advisor](https://store.servicenow.com/store/app/db28ec5
 
 ## Set up overview
 
-1.  [Get started with CMDB success advisor setup for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-get-started.md).
+1.  [Get started with CMDB success advisor setup for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-get-started.md).
 
     Set up your SAM specific advisor dashboard by selecting software products to define the SAM advisor scope.
 
-2.  [Manage SAM advisor scope in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-optimize-dashboard.md).
+2.  [Manage SAM advisor scope in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-optimize-dashboard.md).
 
     After completing the initial setup, you can continue to improve your CMDB data quality by adjusting the software product selection for your current SAM goals.
 
@@ -34,5 +34,5 @@ Review the [CMDB success advisor](https://store.servicenow.com/store/app/db28ec5
 **Related topics**  
 
 
-[Configuring CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-sa-configuring.md)
+[Configuring CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-sa-configuring.md)
 

@@ -3,13 +3,13 @@ title: View and edit OT system properties
 description: View and edit all of the Operational Technology \(OT\) related system properties for different applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/view-and-edit-ot-system-properties.html
-release: australia
+release: brazil
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Industrial Process Manager, Operational Technology]
+breadcrumb: [Configure the Industrial Process Manager, Industrial Process Manager, Operational Technology]
 ---
 
 # View and edit OT system properties
@@ -44,5 +44,5 @@ You can modify the system properties for the following OT applications from **Al
 4.  Select **Update**.
 
 
-**Parent Topic:**[Configuring the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/configuring-manufacturing-process-mgr.md)
+**Parent Topic:**[Configure the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/configuring-manufacturing-process-mgr.md)
 

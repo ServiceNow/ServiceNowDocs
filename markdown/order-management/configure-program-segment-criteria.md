@@ -3,9 +3,9 @@ title: Configure Program Segment Criteria
 description: Create records in the program segment criteria \(sn\_prm\_program\_segment\_criteria\) table based on different records on the entity criteria \(sn\_req\_criteria\_customer\_condition\) table and segments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-program-segment-criteria.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Data model for PRM, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -28,17 +28,17 @@ Role required: sn\_prm.partner\_ui
 
 4.  On the form, fill in the fields.
 
-    To learn more about the fields and descriptions, see [Program segment criteria table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/program-segment-criteria-table-fields.md).
+    To learn more about the fields and descriptions, see [Program segment criteria table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/program-segment-criteria-table-fields.md).
 
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Data model for Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/data-model-for-partner-relationship-management.md)
+**Parent Topic:**[Data model for Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/data-model-for-partner-relationship-management.md)
 
 **Related topics**  
 
 
-[Configure Program Segment Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-program-segment-mapping.md)
+[Configure Program Segment Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-program-segment-mapping.md)
 
-[Configure Program Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-program-criteria.md)
+[Configure Program Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-program-criteria.md)
 

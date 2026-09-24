@@ -3,11 +3,11 @@ title: Configure Service Mapping to work with the Configuration Management Datab
 description: Configure Service Mapping to use the existing data within your CMDB to run top-down discovery and map application services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/map-app-services-with-cmdb.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Advanced Service Mapping configuration, Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Configure Service Mapping to use the existing data within your CMDB to run top-d
 
 ## Before you begin
 
-Verify that the necessary tables are populated with data according to the process explained in [CMDB-based mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/cmdb-based-mapping.md).
+Verify that the necessary tables are populated with data according to the process explained in [CMDB-based mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/cmdb-based-mapping.md).
 
 -   Transmission Control Protocol \(TCP\) Connection \[cmdb\_tcp\] table
 -   Running Process \[cmdb\_running\_process\] table

@@ -3,9 +3,9 @@ title: Components installed with Retail In-store Operations
 description: Certain roles and dependencies must be considered when using the Retail In-store Operations plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-components-in-store-operations.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Components installed with plugins, Reference, Retail]
 ---
@@ -34,6 +34,8 @@ Retail In-store Operations
 
  \[com.sn\_rtl\_in\_store\_ops\] 
 
+\[com.sn\_rtl\_instore\_ops\]
+
 </td><td>
 
 The Retail In-store Operations plugin allows store team members to report and track in-store operational issues, whether for routine or cyclical demands. This ensures that issues are documented and monitored for consistent execution and support.
@@ -61,7 +63,7 @@ Contains roles
 
 </th></tr></thead><tbody><tr><td>
 
-sn\_rtl\_in\_store\_ops.associate
+sn\_rtl\_in\_store\_ops.associatesn\_rtl\_instore\_ops.associate
 
 </td><td>
 
@@ -71,19 +73,19 @@ Create, update, and close Store Operations case for their stores. Can view and c
 
 -   sn\_retail.associate\_fulfiller
 -   wm\_location\_agent
--   questionnaire\_user
 
 </td></tr><tr><td>
 
-sn\_rtl\_in\_store\_ops.manager
+sn\_rtl\_in\_store\_ops.managersn\_rtl\_instore\_ops.manager
 
 </td><td>
 
-Create, update, and close Store Operations case for the stores and associated child locations they manage. Can create, update, and close Store tasks and assign tasks to others in the stores and associated child locations they manage.
+Can Create, update, and close Store Operations case for the stores and associated child locations they manage. Can create, update, and close Store tasks and assign tasks to others in the stores and associated child locations they manage.
 
 </td><td>
 
 -   sn\_rtl\_in\_store\_ops.associate
+-   sn\_rtl\_instore\_ops.associate
 -   sn\_retail.manager\_fulfiller
 -   wm\_location\_assignment\_manager
 
@@ -102,5 +104,5 @@ Create, update, and close Store Operations case for the stores and associated ch
 |Supporting retail organization |Same as requesting retail organization |
 |Due Date |2 hours from now \(date/time\) |
 
-**Parent Topic:**[Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-components-installed-with-plugins.md)
+**Parent Topic:**[Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-components-installed-with-plugins.md)
 

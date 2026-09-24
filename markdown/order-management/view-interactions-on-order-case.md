@@ -3,11 +3,11 @@ title: View customer context for an order exception chat
 description: View the customer's account and contact details on the interaction record and the AI-generated chat summary in the Active Chat panel when the order exception AI agent hands off a chat to a live agent in the CSM/FSM Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/view-interactions-on-order-case.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Order case self-service, Business Portal, Use, Sales Customer Relationship Management]
 ---
 
@@ -17,17 +17,17 @@ View the customer's account and contact details on the interaction record and th
 
 ## Before you begin
 
-Chat Summarization must be configured by your admin to enable the AI summarization and recommendation features in Active Chat. For more information, see [Configure chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-chat-summarization-in-now-assist_0.md).
+Chat Summarization must be configured by your admin to enable the AI summarization and recommendation features in Active Chat. For more information, see [Configure chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-chat-summarization-in-now-assist_0.md).
 
 Role required: sn\_order\_case.order\_agent, awa\_agent, and now\_assist\_panel\_user
 
 ## About this task
 
-When a customer's chat for an order exception is escalated to a live agent, the agent can accept the chat from the CSM/FSM Configurable Workspace Inbox. After the agent accepts the chat, the Active Chat panel opens with an AI-generated summary of the conversation between the order exception AI agent and the customer, and the associated interaction record opens alongside with the customer's account and contact details already populated.
+When a customer's chat for an order exception is escalated to a live agent, the agent can accept the chat from the CRM Workspace Inbox. After the agent accepts the chat, the Active Chat panel opens with an AI-generated summary of the conversation between the order exception AI agent and the customer, and the associated interaction record opens alongside with the customer's account and contact details already populated.
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Accept the order exception chat from the Inbox.
 
@@ -42,10 +42,10 @@ When a customer's chat for an order exception is escalated to a live agent, the 
 3.  Review the AI-generated chat summary in the Active Chat panel to understand the customer's request and what the order exception AI agent has done so far.
 
 
-**Parent Topic:**[Order case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-case-self-service.md)
+**Parent Topic:**[Order case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-case-self-service.md)
 
 **Related topics**  
 
 
-[Order Operations Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-case-mgmt-order-ops.md)
+[Order Operations Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-case-mgmt-order-ops.md)
 

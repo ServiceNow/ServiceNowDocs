@@ -3,9 +3,9 @@ title: Data catalog roles
 description: Assign roles to specify what different users can see and do.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/data-catalog-roles.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Data Catalog, Workflow Data Fabric]
 ---
@@ -16,7 +16,7 @@ Assign roles to specify what different users can see and do.
 
 ## Roles
 
-For more information about managing and assigning roles, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ua-creating-roles.md).
+For more information about managing and assigning roles, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ua-creating-roles.md).
 
 <table id="table_qpl_rqy_j3c"><thead><tr><th>
 
@@ -75,5 +75,5 @@ Searches and views catalog assets, explores relationships and lineage, and conne
 sn\_nowassist\_wdf.creator\_admin
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data catalog reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-catalog-reference.md)
+</table>**Parent Topic:**[Data catalog reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/data-catalog-reference.md)
 

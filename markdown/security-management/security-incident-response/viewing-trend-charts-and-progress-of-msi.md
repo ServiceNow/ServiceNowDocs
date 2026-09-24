@@ -3,11 +3,11 @@ title: View Major Security Incident impact metrics
 description: Provides up-to-date summary reporting of the impact and progress of major security incidents, which is an important aspect of managing a major security incident using the new workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/viewing-trend-charts-and-progress-of-msi.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Use, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -173,7 +173,7 @@ Select a category for the timeline event.The following categories are provided a
 -   **Custom**.
 -   **Response**.
 -   **Threat**.
-To add or configure a Timeline event category, see [Configure timeline categories for major security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configuring-msi-administration-settings.md).
+To add or configure a Timeline event category, see [Configure timeline categories for major security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/configuring-msi-administration-settings.md).
 
 </td></tr><tr><td>
 
@@ -207,7 +207,7 @@ Option to link the timeline event to a major security incident record.
 
 6.  Select the **Refresh** icon to display the latest timeline events.
 
-**Parent Topic:**[Using Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/major-security-incident-setup.md)
+**Parent Topic:**[Using Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/major-security-incident-setup.md)
 
 **Related topics**  
 

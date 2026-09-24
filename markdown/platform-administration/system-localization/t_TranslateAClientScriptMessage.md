@@ -3,11 +3,11 @@ title: Translate a client script message
 description: Translate the messages used by client scripts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/t\_TranslateAClientScriptMessage.html
-release: australia
+release: brazil
 product: System Localization
 classification: system-localization
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Translating individual UI strings, Translating custom content, System Localization, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,7 +18,7 @@ Translate the messages used by client scripts.
 
 ## Before you begin
 
-Create a client script that contains messages. For information about creating client scripts, see [Client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/client-scripts.md).
+Create a client script that contains messages. For information about creating client scripts, see [Client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/client-scripts.md).
 
 Role required: admin
 
@@ -52,6 +52,6 @@ For example, if you add the string `Please populate the Reason` field to the Mes
 
 4.  Select **Submit**.
 
-    A new record is added to the Message `[sys_ui_message]` table for the localized message key string. For more information about this table, see [Message table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_MessageTable.md).
+    A new record is added to the Message `[sys_ui_message]` table for the localized message key string. For more information about this table, see [Message table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-localization/r_MessageTable.md).
 
 

@@ -3,13 +3,13 @@ title: User device license consumption fields
 description: SAM managers can view the client access license \(CAL\) usage details for Microsoft Windows Server in the User Device License Consumption table and create CAL records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/user-device-license-consumption.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # User device license consumption fields
@@ -20,7 +20,7 @@ The User Device License Consumption \[samp\_user\_device\_license\_consumption\]
 
 To learn more about Microsoft usage access logging for CAL, see [Microsoft User Access Logging](https://learn.microsoft.com/en-us/windows-server/administration/user-access-logging/manage-user-access-logging).
 
-For more information on Microsoft specific license metrics, see [Supported Microsoft 365 license types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/supported-microsoft-365-license-types.md).
+For more information on Microsoft specific license metrics, see [Supported Microsoft 365 license types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/supported-microsoft-365-license-types.md).
 
 The User Device License Consumption table is a child table of the Configuration Item \[cmdb\_ci\] table.
 
@@ -37,5 +37,5 @@ The User Device License Consumption table is a child table of the Configuration 
 |Discovery source|Discovery source for which license consumption is evaluated.|
 |Product code|The code of the product for which the license consumption record is created.|
 
-**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)
+**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/references.md)
 

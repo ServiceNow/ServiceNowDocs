@@ -3,11 +3,11 @@ title: Add vulnerability significance charts to an overview
 description: If the Vulnerability Response plugin is activated, you can add vulnerability significance definition charts and other visualizations to the Overview.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/t\_AddVulnSignTreemaps.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Incident Response Overview dashboard, Visual representation of Security Incident Response reporting, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -41,5 +41,5 @@ Role required: sn\_si.admin
 5.  Close the **Add content** box.
 
 
-**Parent Topic:**[Security Incident Response Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/c_SIROverview.md)
+**Parent Topic:**[Security Incident Response Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/c_SIROverview.md)
 

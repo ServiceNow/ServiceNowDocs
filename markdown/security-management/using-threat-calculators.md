@@ -3,9 +3,9 @@ title: Using Threat Lookup Finding Calculators
 description: Use the Threat Lookup Finding Calculator to calculate the observable findings for your integration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/using-threat-calculators.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Threat Lookup Finding Calculators, Threat Intelligence administration, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---

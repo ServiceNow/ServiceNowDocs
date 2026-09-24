@@ -3,11 +3,11 @@ title: Question change history
 description: Review a log of every response, justification, and flag state change made to a question throughout the lifecycle of an assessment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/sae-question-change-history.html
-release: australia
+release: brazil
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: concept
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [change history, question history, audit, activity]
 breadcrumb: [Respond to assessments, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
@@ -20,8 +20,6 @@ Review a log of every response, justification, and flag state change made to a q
 ## Change history overview
 
 Question change history tracks changes to a question's response, justification, and flag state. Changes are tracked regardless of whether the assessment is open, closed, or cancelled. Each entry records a timestamp, who made the change, what changed, and the previous and new values.
-
-**Note:** This feature is available starting with Australia Patch 2.
 
 Each question card includes a change history icon. Selecting it opens the **Change history** panel. The panel logs changes to three parts of a question: the response, the justification, and the flag state. Changes are tracked for the entire lifecycle of the assessment.
 
@@ -41,13 +39,13 @@ To avoid logging every intermediate keystroke, the system merges consecutive res
 -   If a different user changes the same field during that window, a separate entry is created. Changes made by different users are never merged, regardless of the time between them.
 -   If a user reverts a field to its pre-edit value within the window, the entries covering that back-and-forth are removed, since they represent no net change.
 
-Flag state changes are never merged, even when the same user makes multiple flag changes seconds apart. Every flag transition is logged as its own entry because each state — Unflagged, Flagged, and Resolved — is meaningful on its own. For more information about flag states, see [Collaboration in assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/collaboration-in-assessments.md).
+Flag state changes are never merged, even when the same user makes multiple flag changes seconds apart. Every flag transition is logged as its own entry because each state — Unflagged, Flagged, and Resolved — is meaningful on its own. For more information about flag states, see [Collaboration in assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/collaboration-in-assessments.md).
 
 AI assisted response changes follow the same merge rule as manual changes. Consecutive AI assisted changes to the same field by the same user are coalesced into a single entry within the merge window. For example, trying several AI-suggested responses before settling on one produces one entry. Manual and AI assisted changes never merge with each other. Switching between them starts a new entry, regardless of timing.
 
 **Note:**
 
--   The default merge window is 300 seconds. An Assessment admin can change this value in the `sn_smart_asmt.activity_merge_window_in_seconds` system property.
+-   The default merge window is 300 seconds. An Assessment admin can change this value in the `sn_smart_asmt.activity_merge_window_in_seconds` system property. For details, see [Properties installed with Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/properties-installed-in-smart-assessment-engine.md).
 -   Reducing the value produces more granular history; increasing it produces fewer, larger entries. A change to this property applies only to activity recorded after the change is made.
 
 ## Who made the change

@@ -3,11 +3,11 @@ title: Play workflow activity
 description: The Play activity plays a sound file on a Notify call.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/r\_WorkflowActivityPlay.html
-release: australia
+release: brazil
 product: Notify
 classification: notify
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Notify workflow activities, Notify reference, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -31,5 +31,5 @@ The conditions determine which transition comes after this activity. The **play*
 
 You can create an error condition to handle errors with the sound file. The activity transitions through the error condition if the specified sound file is not available, or has an unsupported mime type. Supported mime types are listed on the Notify Audio MIME Types \[notify\_mime\_type\] table.
 
-**Parent Topic:**[Notify workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NotifyActivities.md)
+**Parent Topic:**[Notify workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/notify/c_NotifyActivities.md)
 

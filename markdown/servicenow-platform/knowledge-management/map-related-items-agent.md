@@ -3,11 +3,11 @@ title: Map a related item in Agent Workspace
 description: Manually map catalog items related to a knowledge article in Agent Workspace to enable employees to request the related catalog item.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/map-related-items-agent.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Authoring a knowledge article in Agent Workspace, Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,7 +24,7 @@ Role required: agent\_workspace\_user
 
 ## About this task
 
-This task provides steps to map related catalog items when editing an article in Agent Workspace. You can also map related catalog items when editing an article from the Knowledge Management application in the ServiceNow AI Platform interface. For more information, see [Map catalog items related to an article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/map-related-items.md).
+This task provides steps to map related catalog items when editing an article in Agent Workspace. You can also map related catalog items when editing an article from the Knowledge Management application in the ServiceNow AI Platform interface. For more information, see [Map catalog items related to an article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/map-related-items.md).
 
 ## Procedure
 
@@ -88,12 +88,12 @@ Order in which you want the catalog item to appear in the Related Items section 
 
 The mapped catalog items are listed in the Related Items section on the Knowledge Management article view page in Knowledge Management Service Portal.
 
-**Note:** Because system administrators can configure the number of catalog items shown in the Related Items section, not all mapped related catalog items might appear in the Related Items section. For more information, see [Configure related catalog item widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configure-related-items-widget.md).
+**Note:** Because system administrators can configure the number of catalog items shown in the Related Items section, not all mapped related catalog items might appear in the Related Items section. For more information, see [Configure related catalog item widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/configure-related-items-widget.md).
 
 **Related topics**  
 
 
-[Edit a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/edit-article-workspace.md)
+[Edit a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/edit-article-workspace.md)
 
-[Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_IntroductionToCatalogItems.md)
+[Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/c_IntroductionToCatalogItems.md)
 

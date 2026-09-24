@@ -3,11 +3,11 @@ title: F5 BIG-IP load balancer discovery
 description: Discovery and Service Mapping can find F5 BIG-IP load balancers via SNMP, SSH, and through the REST API.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/c\_LoadBalancerF5BIGIP.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2026-08-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Load balancers, Network device discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Discovery and Service Mapping can find F5 BIG-IP load balancers via SNMP, SSH, a
 
 You can download VMware images of BIG-IP with a free 90-day trial from [https://www.f5.com/trial](https://www.f5.com/trial).
 
-For F5 Global Traffic Manager \(GTM\) BIG-IP load balancers, Discovery resolves DNS names for the F5 GTM hardware and all associated servers that receive distributed traffic. To view this data, navigate to **All** &gt; **Configuration** &gt; **Load Balancers** &gt; **LB Hardware**, open the F5 load balancer record, and select the **DNS Names for CIs** related list. [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_ServiceMappingOverview.md) uses this information to map F5 relationships.
+For F5 Global Traffic Manager \(GTM\) BIG-IP load balancers, Discovery resolves DNS names for the F5 GTM hardware and all associated servers that receive distributed traffic. To view this data, navigate to **All** &gt; **Configuration** &gt; **Load Balancers** &gt; **LB Hardware**, open the F5 load balancer record, and select the **DNS Names for CIs** related list. [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/c_ServiceMappingOverview.md) uses this information to map F5 relationships.
 
 **Note:** If your F5 BIG-IP device is part of a failover cluster, it can be associated with two cluster nodes. In this case, one of the nodes appears as Operational in the **Operational Status** field, and the other appears as Non-Operational.
 
@@ -34,15 +34,15 @@ For F5 Global Traffic Manager \(GTM\) BIG-IP load balancers, Discovery resolves 
     -   CMDB CI Class Models
 -   To successfully discover the load balancer pool members, set the **display service names** option \(**bigpipe.displayservicenames**\) of the load balancer to **false** on the F5 load balancer.
 -   For F5 Load Balancer pattern:
-    -   Configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_SNMPCredentials.md) on the ServiceNow AI Platform.
-    -   \(Optional\) If there are iRules or SNMP community credentials aren't enough for discovering outgoing connections, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+    -   Configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_SNMPCredentials.md) on the ServiceNow AI Platform.
+    -   \(Optional\) If there are iRules or SNMP community credentials aren't enough for discovering outgoing connections, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
         **Note:** If you don't want to use SSH credentials, you can use the REST API to create a connection to F5 BIG-IP devices.
 
         Service Mapping uses the SSH credentials to retrieve connections that aren't from CMDB. Discovering connections using the SSH protocol is a failover mechanism for the SNMP-based discovery.
 
 -   For F5 Load Balancer SSH pattern:
-    -   Configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+    -   Configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
     -   Verify permissions for the following SSH commands. In newer versions of F5 BIG-IP, only A-type GTM pools are supported.
         -   `list auth partition all`
         -   `list sys global-settings`
@@ -102,7 +102,7 @@ For F5 Global Traffic Manager \(GTM\) BIG-IP load balancers, Discovery resolves 
             -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/mx"`
             -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/naptr"`
             -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/srv"`
-    -   Create [basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md) credentials.
+    -   Create [basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_BasicAuthCredentialsForm.md) credentials.
 -   For F5 REST OAuth 2.0 authentication pattern:
     -   Verify read-only permission for the following APIs:
         -   `"https://" + $ipAddress + "/mgmt/shared/authn/login"`
@@ -135,22 +135,22 @@ For F5 Global Traffic Manager \(GTM\) BIG-IP load balancers, Discovery resolves 
             -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/mx"`
             -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/naptr"`
             -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/srv"`
-    -   Create [basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md) credentials.
-    -   Create [a credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/discovery-credential-alias.md) for the basic authentication credential.
-    -   Create a [serverless discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/create-serverless-sched-f5-rest-oauth.md).
+    -   Create [basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_BasicAuthCredentialsForm.md) credentials.
+    -   Create [a credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/discovery-credential-alias.md) for the basic authentication credential.
+    -   Create a [serverless discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/create-serverless-sched-f5-rest-oauth.md).
 -   For top-down discovery using Service Mapping, provide permissions to run the following APIs:
 
     -   `https://" get_attr {"managementIP"}"/mgmt/tm/ltm/"get_attr {"irule"}`
     -   `https://" get_attr {"managementIP"}"/mgmt/tm/ltm/virtual/~Common~"get_attr {"vip_name"}`
     -   `https://" get_attr {"computer_system.managementIP"}"/mgmt/tm/ltm/pool/"get_attr {"pool_name"}"/members?`
--   \(Optional\) For top-down discovery with Service Mapping, configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
+-   \(Optional\) For top-down discovery with Service Mapping, configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md).
 -   \(Optional\) For top-down discovery with Service Mapping, provide a user with permissions to run the following commands:
     -   bigpipe commands \(for BIG-IP LTM F5 or BIG-IP GTM F5 version 9\)
     -   bigpipe and Traffic Management Shell \(TMSH\) commands \(for BIG-IP LTM F5 or BIG-IP GTM F5 version 10\)
     -   Traffic Management Shell \(TMSH\) commands \(for BIG-IP LTM F5 or BIG-IP GTM F5 version 11\)
     -   Traffic Management Shell \(TMSH\) advanced commands \(for BIG-IP LTM F5 or BIG-IP GTM F5 version 10, 11, and 12\)
     -   The **show cm traffic-group – get command** for discovering F5 BIG-IP Device Service Clustering
--   \(Optional\) For top-down discovery with Service Mapping, give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+-   \(Optional\) For top-down discovery with Service Mapping, give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 ## F5 cluster discovery
 
@@ -191,7 +191,7 @@ These patterns are used for standard horizontal discovery including identifying 
 -   F5REST
 -   F5 REST OAuth 2.0 authentication
 
- **Note:** The F5 Load Balancer and F5 Load Balancer SSH patterns include the extension section that discovers [F5 certificates.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/f5-certificate-discovery.md)
+ **Note:** The F5 Load Balancer and F5 Load Balancer SSH patterns include the extension section that discovers [F5 certificates.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/f5-certificate-discovery.md)
 
 </td></tr><tr><td>
 
@@ -210,7 +210,7 @@ These patterns use iRules to get information via REST. Service Mapping uses thes
 -   F5 BigIP LTM
 
 </td></tr></tbody>
-</table>To use patterns, verify that the correct pattern is specified in the horizontal pattern probe on the classifier. See [Add the Horizontal Pattern probe to a classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for instructions.
+</table>To use patterns, verify that the correct pattern is specified in the horizontal pattern probe on the classifier. See [Add the Horizontal Pattern probe to a classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for instructions.
 
 ## Data collected by Discovery during horizontal discovery
 
@@ -316,5 +316,5 @@ The following relationships are created to support F5 BIG-IP load balancer disco
 
 Service Mapping performs the top-down discovery of the GTM BIG-IP load balancer in the context of application services. It discovers configured URLs of the GTM BIG-IP load balancers.
 
-**Parent Topic:**[Load balancer discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_LoadBalancers.md)
+**Parent Topic:**[Load balancer discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/c_LoadBalancers.md)
 

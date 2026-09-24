@@ -3,7 +3,7 @@ title: Add a read table entity to a model operation
 description: Specify the read table entity that a Zero Copy Connector for ERP \(Enterprise Resource Planning\) model uses for a read, update, or create operation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/add-a-read-table-entity-to-a-model-operation.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
@@ -19,7 +19,7 @@ Specify the read table entity that a Zero Copy Connector for ERP \(Enterprise Re
 
 ## Before you begin
 
-The read, update, or create operation must be added before an entity can be added to it. For more information, see [Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-manage-models-read-op.md).
+The read, update, or create operation must be added before an entity can be added to it. For more information, see [Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erpc-manage-models-read-op.md).
 
 Role required: sn\_erp\_integration.erp\_admin
 
@@ -43,13 +43,13 @@ Role required: sn\_erp\_integration.erp\_admin
 
     \[Omitted image "erpc-add-entity-manager-ys2.png"\] Alt text: Select the type of entity you're adding.
 
-    You can select **Preview table data** to view table details before specifying an entity. For more information, see [Preview read table entities in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-preview-entity.md).
+    You can select **Preview table data** to view table details before specifying an entity. For more information, see [Preview read table entities in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-preview-entity.md).
 
 8.  Select an entity, for example, a read table name.
 
     The AI Search for this field helps you find entities faster, for example, by entering `Countries` instead of `T005`.
 
-    For table read operations, you may need to check the **Model entities** tab of the current or another related model to get the table name. Alternatively, ask your SAP administrator. For more information, see [View and edit models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/view-and-work-with-erp-data-models.md).
+    For table read operations, you may need to check the **Model entities** tab of the current or another related model to get the table name. Alternatively, ask your SAP administrator. For more information, see [View and edit models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/view-and-work-with-erp-data-models.md).
 
 9.  Select **Add entity**.
 
@@ -67,4 +67,6 @@ Role required: sn\_erp\_integration.erp\_admin
 
         Deleting an entity removes all of its related field mappings and table joins.
 
+
+**Parent Topic:**[Adding an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md)
 

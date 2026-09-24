@@ -3,13 +3,13 @@ title: Create a custom stopwords list
 description: Exclude common words you want the system to ignore during training and prediction.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/create-custom-stopwords-list.html
-release: australia
+release: brazil
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Predictive Intelligence, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Configure Predictive Intelligence, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Create a custom stopwords list
@@ -63,5 +63,5 @@ In this example scenario, you create a custom stopwords list for the Brazilian P
 
 Assign a custom or default stopwords list to a classification, similarity, clustering, or regression solution definition.
 
-**Parent Topic:**[Configure Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/configure-predictive-intelligence.md)
+**Parent Topic:**[Configure Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/predictive-intelligence/configure-predictive-intelligence.md)
 

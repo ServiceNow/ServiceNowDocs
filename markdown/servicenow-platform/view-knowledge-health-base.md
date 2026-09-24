@@ -3,9 +3,9 @@ title: View the Knowledge Health Score dashboard
 description: View the instance-level health score gauge on the Knowledge Management homepage and navigate to the knowledge base health view to identify content that needs attention.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/view-knowledge-health-base.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [knowledge health score, knowledge management dashboard, knowledge base health, health score gauge]
 breadcrumb: [Using Knowledge Center, Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
@@ -19,7 +19,7 @@ View the instance-level health score gauge on the Knowledge Management homepage 
 
 Role required: admin
 
-You must enable [Enable article health score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-healthscore-calculation.md) property and [Enable article optimization recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/enable-ao-recommendations.md) skill to view knowledge health score.
+You must enable [Enable article health score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-healthscore-calculation.md) property and [Enable article optimization recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-in-knowledge-management/enable-ao-recommendations.md) skill to view knowledge health score.
 
 ## Procedure
 
@@ -41,7 +41,7 @@ You must enable [Enable article health score calculation](https://raw.githubuser
 
 7.  Follow the recommendation displayed for each article to improve its health score.
 
-    For more information, see [Review and optimize articles using Article Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/kc-review-and-optimize-articles.md) and [Generate and edit articles using the article editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/kc-edit-knowledge-article.md).
+    For more information, see [Review and optimize articles using Article Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/kc-review-and-optimize-articles.md) and [Generate and edit articles using the article editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/kc-edit-knowledge-article.md).
 
 8.  After editing the article, select **Save**.
 
@@ -50,18 +50,18 @@ You must enable [Enable article health score calculation](https://raw.githubuser
 
 ## Result
 
-The Knowledge Base health view displays the health scores for the selected Knowledge Base, the finding cards with affected article counts, and the list of articles with their individual health scores.
+The Knowledge base health view displays the health scores for the selected Knowledge Base, the finding cards with affected article counts, and the list of articles with their individual health scores.
 
 **Related topics**  
 
 
-[Enable article health score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-healthscore-calculation.md)
+[Enable article health score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-healthscore-calculation.md)
 
-[Enable article optimization recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/enable-ao-recommendations.md)
+[Enable article optimization recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-in-knowledge-management/enable-ao-recommendations.md)
 
-[View article optimization analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/view-article-optimization.md)
+[View article optimization analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/view-article-optimization.md)
 
-[Generate and edit articles using the article editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/kc-edit-knowledge-article.md)
+[Generate and edit articles using the article editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/kc-edit-knowledge-article.md)
 
-[Review and optimize articles using Article Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/kc-review-and-optimize-articles.md)
+[Review and optimize articles using Article Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/kc-review-and-optimize-articles.md)
 

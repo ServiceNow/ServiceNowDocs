@@ -3,11 +3,11 @@ title: Viewing the cloud accounts page
 description: The Cloud accounts page displays information used to access and manage the life cycle of multiple cloud subscription accounts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/viewing-cloud-accounts-page.html
-release: australia
+release: brazil
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Viewing Cloud Account Management dashboards, Use, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -35,5 +35,5 @@ The following metrics are displayed:
 -   **Due for certification**: The number of accounts due for certification.
 -   **Unmanaged**: The number of unmanaged accounts.
 
-For more information, see [Cloud account details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/cloud-accounts-details.md).
+For more information, see [Cloud account details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/cloud-accounts-details.md).
 

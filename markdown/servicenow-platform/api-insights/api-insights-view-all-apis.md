@@ -3,11 +3,11 @@ title: Viewing all APIs in API Insights
 description: Manage and monitor all APIs within your organization by reviewing their life cycle stages, identifying missing critical attributes, and accessing helpful resources to ensure proper API maintenance and governance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/api-insights/api-insights-view-all-apis.html
-release: australia
+release: brazil
 product: API Insights
 classification: api-insights
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Manage API data, API Insights, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -34,7 +34,7 @@ By default, the page displays the following data:
 
 -   **API data table**
 
-    Lists all APIs with detailed columns for the API name, the number of consumers, management platform, life cycle stage, version, and the number of API requests processed per minute for each API listed in the table. This table provides an overview of the APIs and their status within the organization. You can select an API from the **Name** column to view API details and request access to the API managed by your team. See [Request access to an API in API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights-req-access.md).
+    Lists all APIs with detailed columns for the API name, the number of consumers, management platform, life cycle stage, version, and the number of API requests processed per minute for each API listed in the table. This table provides an overview of the APIs and their status within the organization. You can select an API from the **Name** column to view API details and request access to the API managed by your team. See [Request access to an API in API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/api-insights/api-insights-req-access.md).
 
 -   **Available actions and filters in the API data table**
 
@@ -80,7 +80,7 @@ By default, the page displays the following data:
 
 -   **APIs missing data section**
 
-    Highlights the APIs missing key attributes like business context, ownership groups, product models, and design helping to identify issues in API governance. You can select the numeric value displayed in each card to identify and resolve issues with API data. See [Identifying and remediating missing API data in API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights-resolve-gaps.md).
+    Highlights the APIs missing key attributes like business context, ownership groups, product models, and design helping to identify issues in API governance. You can select the numeric value displayed in each card to identify and resolve issues with API data. See [Identifying and remediating missing API data in API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/api-insights/api-insights-resolve-gaps.md).
 
 -   **Helpful resources**
 

@@ -3,11 +3,11 @@ title: Extend the pricing model
 description: The pricing model is useful if you want the price or recurring price to be dynamically calculated based on how a user completes the ordering form. You can extend the pricing model of a catalog item by editing the item price or the recurring price.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_ExtendThePricingModel.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Catalog customization, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -27,5 +27,5 @@ Role required: admin
 2.  Edit the CatalogPriceCalculator script to customize the item price and the CatalogRecurringPriceCalculator script to customize the recurring price.
 
 
-**Parent Topic:**[Service Catalog customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/p_ServiceCatalogCustomization.md)
+**Parent Topic:**[Service Catalog customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/p_ServiceCatalogCustomization.md)
 

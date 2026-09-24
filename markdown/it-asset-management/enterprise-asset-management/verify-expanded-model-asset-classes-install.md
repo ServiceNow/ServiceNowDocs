@@ -3,11 +3,11 @@ title: Verify successful installation of the Expanded Model and Asset Classes ap
 description: After you request and install the Expanded Model and Asset Classes application, verify that all enterprise model and asset classes have been added to the CMDB class hierarchy successfully.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/verify-expanded-model-asset-classes-install.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Install Expanded Model and Asset Classes, Expanded Model and Asset Classes, Enterprise Asset Management, Asset Management]
 ---

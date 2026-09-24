@@ -3,7 +3,7 @@ title: Meeting page
 description: The meeting page is a structured workspace for preparing and following up on touchpoint meetings. It displays pre-meeting or post-meeting content depending on the meeting state.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-meeting-page.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-08-21"
 reading_time_minutes: 2
@@ -16,11 +16,11 @@ The meeting page is a structured workspace for preparing and following up on tou
 
 To view the meeting page, follow these steps:
 
-1.  Navigate to the **List** view in the **CSM/FSM Configurable Workspace** and select **All Touchpoints**.
-2.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace** &gt; **List** &gt; **All Touchpoints**.
+1.  Navigate to the **List** view in the **CRM Workspace** and select **All Touchpoints**.
+2.  Navigate to **All** &gt; **CRM Workspace** &gt; **List** &gt; **All Touchpoints**.
 3.  Open a Touchpoint record from the list, navigate to the **Meeting** tab and select \[Omitted image "open-link-right-outline-24.svg"\] Alt text: to the Meeting page.
 
-    The content displayed on the meeting page depends on the meeting state. When the state is **Draft** or **Scheduled**, the [Meeting preparation brief](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-meeting-pre.md) page is displayed. When the state is **Completed**, the [Meeting recap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-meeting-post.md) page is displayed.
+    The content displayed on the meeting page depends on the meeting state. When the state is **Draft** or **Scheduled**, the [Meeting preparation brief](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-meeting-pre.md) page is displayed. When the state is **Completed**, the [Meeting recap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-meeting-post.md) page is displayed.
 
 
 ## Meeting and account information
@@ -44,17 +44,17 @@ The Meeting and account information panel is present in both the pre-meeting and
 
 The Related Items panel displays related lists for the meeting record, including occurrences, meeting participants, and meeting summary.
 
--   **[Meeting preparation brief](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-meeting-pre.md)**  
+-   **[Meeting preparation brief](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-meeting-pre.md)**  
 When a meeting is in **Draft** or **Scheduled** state, the meeting page displays the preparation brief to help customer success managers prepare for the conversation.
--   **[Meeting recap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-meeting-post.md)**  
+-   **[Meeting recap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-meeting-post.md)**  
 When a meeting is completed, the meeting page displays a recap of the meeting, including an AI-generated summary, success tasks, and records associated with the meeting.
 
-**Parent Topic:**[Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-use-touchpoints.md)
+**Parent Topic:**[Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-use-touchpoints.md)
 
 **Related topics**  
 
 
-[Meeting preparation brief](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-meeting-pre.md)
+[Meeting preparation brief](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-meeting-pre.md)
 
-[Meeting recap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-meeting-post.md)
+[Meeting recap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-meeting-post.md)
 

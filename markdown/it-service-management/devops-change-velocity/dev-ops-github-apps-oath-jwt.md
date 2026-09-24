@@ -3,11 +3,11 @@ title: OAuth 2.0 credentials for GitHub Apps - JWT
 description: Perform the following steps to integrate your GitHub Apps using the JWT bearer token.Create a custom GitHub App from your GitHub account to enable OAuth 2.0 authentication with your ServiceNow instance.Generate a Java KeyStore \(JKS\) certificate for the JWT authentication.Enable the JWT Bearer Grant token authentication by attaching the valid GitHub Java KeyStore \(JKS\) certificate to your ServiceNow instance.Create a JSON Web Token \(JWT\) signing key to assign to your GitHub Java KeyStore certificate.Add a JSON Web Token \(JWT\) provider to your ServiceNow instance for GitHub.Use the information generated during GitHub App account configuration to register GitHub as an OAuth provider and allow the instance to request OAuth 2.0 tokens.Create a credential record to the GitHub App provider previously created to authorize actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/dev-ops-github-apps-oath-jwt.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Setting up GitHub OAuth 2.0 credentials for DevOps Change Velocity, GitHub, Integrate, DevOps Change Velocity, IT Service Management]
 ---

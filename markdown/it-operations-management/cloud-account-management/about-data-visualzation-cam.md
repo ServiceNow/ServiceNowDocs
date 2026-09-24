@@ -3,11 +3,11 @@ title: About data visualization in Cloud Account Management
 description: The Cloud Account Management overview dashboard gives a clear view of all cloud accounts and their compliance status. Cloud Account Management pulls data from Cloud Configuration Governance to create a simple, visual overview of compliance. As an admin, you can take the necessary actions for the reported vulnerabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/about-data-visualzation-cam.html
-release: australia
+release: brazil
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -37,5 +37,5 @@ The workflow for creating a scan configuration for data visualization.
     -   Cloud Account Management integrates with the Cloud Cost Management Workspace to track budgets and usage of each account.
     -   Confirm Cloud Cost Management Workspace version 8.1 or above is installed, and billing is configured.
 
-To set up data visualization, see [Set up scan configuration for data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/set-up-data-visualization.md).
+To set up data visualization, see [Set up scan configuration for data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/set-up-data-visualization.md).
 

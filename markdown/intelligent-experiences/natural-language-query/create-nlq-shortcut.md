@@ -3,13 +3,13 @@ title: Create an NLQ shortcut
 description: Create a semantic shortcut to help improve the ability of NLQ to recognize the various ways your users request data. Semantic shortcuts operate similarly to NLQ synonyms by mapping common words to columns, but for a selected table when certain conditions are met.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/natural-language-query/create-nlq-shortcut.html
-release: australia
+release: brazil
 product: Natural Language Query
 classification: natural-language-query
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configuring NLQ, Natural Language Query, Enable AI experiences]
+breadcrumb: [Configuring NLQ, Natural Language Query, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Create an NLQ shortcut
@@ -26,12 +26,12 @@ Like NLQ synonyms, semantic shortcuts enable you to map common words in your use
 
 Semantic shortcuts provide a condition builder so that you can filter which records are covered by the terms you provide.
 
-Some semantic shortcuts are provided in the base system, and you can add more for your use cases and business requirements. Review NLQ logs of actual user utterances to find possible terms to add. For more information, see [View NLQ logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/natural-language-query/view-nlq-logs.md).
+Some semantic shortcuts are provided in the base system, and you can add more for your use cases and business requirements. Review NLQ logs of actual user utterances to find possible terms to add. For more information, see [View NLQ logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/natural-language-query/view-nlq-logs.md).
 
 You can create a new shortcut, or modify an existing shortcut, as follows.
 
 -   If any shortcut already exists for your target table and filter conditions, you must add your new shortcut to the current record. Separate multiple shortcuts with a comma.
--   Shortcuts can point to reference fields, using dot-walking. For more information, see [Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/dot-walking-examples.md).
+-   Shortcuts can point to reference fields, using dot-walking. For more information, see [Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/dot-walking-examples.md).
 -   Synonyms are case-insensitive in queries.
 -   Synonyms can contain apostrophes and periods, but not commas.
 -   Synonym and shortcut records are associated to one table. You can associate the same synonym term to more than one table, but you must create a record for each table.
@@ -106,7 +106,7 @@ The following image shows an example of a semantic shortcut used on incident rec
 
 A user can enter `show me incident backlog` or `unassigned incidents` and the system displays incidents with an empty Assigned to field.
 
-**Parent Topic:**[Configuring NLQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/natural-language-query/configuring-nlq.md)
+**Parent Topic:**[Configuring NLQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/natural-language-query/configuring-nlq.md)
 
 **Related topics**  
 

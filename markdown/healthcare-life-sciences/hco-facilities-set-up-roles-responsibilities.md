@@ -3,9 +3,9 @@ title: Setting up roles and responsibilities in Care Team Operations for Facilit
 description: To manage access effectively in Care Team Operations for Facilities, first understand how roles and responsibilities work together. These concepts build on the Service Model Foundation \(SMF\) but are adapted for Healthcare Operations-specific use cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-facilities-set-up-roles-responsibilities.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Care Team Operations for Facilities, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Configure, Care Team Operations for Facilities, Healthcare Operatio
 
 To manage access effectively in Care Team Operations for Facilities, first understand how roles and responsibilities work together. These concepts build on the Service Model Foundation \(SMF\) but are adapted for Healthcare Operations-specific use cases.
 
-To understand how roles and responsibilities function in Healthcare Operations, see [Setting up roles and responsibilities for Healthcare Operations users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/cto-setting-up-roles-responsibilities.md).
+To understand how roles and responsibilities function in Healthcare Operations, see [Setting up roles and responsibilities for Healthcare Operations users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-operations-core/cto-setting-up-roles-responsibilities.md).
 
 The following roles and responsibilities are included with Care Team Operations for Facilities:
 
@@ -45,6 +45,6 @@ Can view/resolve all cases under their assignment group, tracks, and fulfill cas
 </td></tr></tbody>
 </table>## What to do next
 
-1.  [Set up roles for Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-facilities-assign-roles.md)
-2.  [Assign responsibilities to Care Team Operations for Facilities users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-facilities-assign-roles_0.md)
+1.  [Set up roles for Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/cto-facilities-assign-roles.md)
+2.  [Assign responsibilities to Care Team Operations for Facilities users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/cto-facilities-assign-roles_0.md)
 

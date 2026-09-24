@@ -3,9 +3,9 @@ title: Enable an audit deletion estimate
 description: Enable the audit deletion estimation feature that calculates the approximate number of records that will be deleted based on retention policies. This information helps you make an informed decision before applying a retention policy, which permanently deletes audit data and cannot be reversed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/configure-audit-deletion-estimation.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Audit Management Console, Configuring auditing for a table, Auditing]
 ---

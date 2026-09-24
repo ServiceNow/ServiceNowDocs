@@ -3,11 +3,11 @@ title: ITSM spoke
 description: Provides flow and actions associated with ITSM. Requires the ITSM application suite.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/itsm-spoke.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Spokes, Flow integrations, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -35,7 +35,7 @@ Provides flow and actions associated with ITSM. Requires the ITSM application su
 |Create Outage|Creates a cmdb\_ci outage record for a configuration item. The **Task** field is populated only if the source is a task record. If the source is non-task record such as an alert record, the **Task** field is empty.|
 |Create Problem from Incident|Creates a Problem record from an Incident record.|
 |Create Request|Creates a Request record.|
-|Create Standard Change Request|Creates a Change Request record of type Standard. For more information, see [IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/r_ITServiceManagement.md).|
+|Create Standard Change Request|Creates a Change Request record of type Standard. For more information, see [IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/r_ITServiceManagement.md).|
 |Create Task|Creates a child task record for a Task table record. For example, creates an Incident Task record for an Incident record.|
 |Create Task Outage Relationship|Creates a Task Outage Relationship record where cmdb\_ci outage record and task record are inputs to the action.|
 |Create Standard Change Request from Incident|Creates a Change Request record of type Standard from an Incident record.|
@@ -51,5 +51,5 @@ Users with the admin, flow\_designer, or action\_designer roles can open and vie
 
 For example, the Create Normal Change Request from Incident action uses the common Task table fields for Short description, Configuration Item, Priority, Domain, Company, and Description to create a Change Request from an Incident.
 
-**Parent Topic:**[Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/spokes.md)
+**Parent Topic:**[Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/spokes.md)
 

@@ -3,11 +3,11 @@ title: Slack slash commands
 description: Slash commands provides a quick way to invoke your app to perform specific actions from Slack.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/collaboration-services/slack-commands.html
-release: australia
+release: brazil
 product: Collaboration Services
 classification: collaboration-services
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Slack integration - Incident Management, Collaboration services, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Slack integration - Incident Management, Collaboration services, IT
 
 Slash commands provides a quick way to invoke your app to perform specific actions from Slack.
 
-You need to [configure slash commands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-slack.md) to execute the commands. Only a user with the sn\_incident\_write, itil or admin role can execute the commands.
+You need to [configure slash commands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/set-up-slack.md) to execute the commands. Only a user with the sn\_incident\_write, itil or admin role can execute the commands.
 
 <table id="table_eg5_4td_jnb"><thead><tr><th>
 

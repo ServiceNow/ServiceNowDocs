@@ -1,25 +1,25 @@
 ---
 title: Decision tables reference
-description: Decision table properties and administration details for Workflow Studio.
+description: Reference topics provide additional information about decision tables properties and administration in Workflow Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/decision-builder-reference.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-07-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Decision tables, Workflow Studio, Build workflows]
 ---
 
 # Decision tables reference
 
-Decision table properties and administration details for Workflow Studio.
+Reference topics provide additional information about decision tables properties and administration in Workflow Studio.
 
--   **[Decision Builder system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/decision-designer-system-properties.md)**  
+-   **[Decision Builder system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/decision-designer-system-properties.md)**  
 Use system properties to set limits on the maximum number of inputs and decisions for decision tables created in Decision Builder.
--   **[Domain separation and Decision Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/domain-separation-decision-builder.md)**  
-Domain separation in Decision Builder enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control which users can see and access data within each domain.
+-   **[Domain separation and Decision Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/domain-separation-decision-builder.md)**  
+This is an overview of domain separation as it pertains to Decision Builder. Domain separation allows you to separate data, processes, and administrative tasks into logical groupings called domains. You can then control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[Workflow Studio decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio-decision-tables-landing.md)
+**Parent Topic:**[Workflow Studio decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/workflow-studio-decision-tables-landing.md)
 

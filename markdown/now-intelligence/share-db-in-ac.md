@@ -3,10 +3,10 @@ title: Share a Platform Analytics dashboard
 description: Share a dashboard with other users, groups, or roles to create a shared view of data that you can use to collaborate. You can grant viewing rights or both viewing and editing rights.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/share-db-in-ac.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-04"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 keywords: [How to share a dashboard, How to share a Platform Analytics dashboard, How to share a Next Experience dashboard]
 breadcrumb: [Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -33,7 +33,7 @@ Rights to the underlying data only matter when the visualizations contain raw da
 
 1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**
 
-2.  Select the [dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dashboards-glossary.md) you want to share.
+2.  Select the [dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/dashboards-glossary.md) you want to share.
 
 3.  Select the **More actions** button \(\[Omitted image "icon-vert-3dot-p.png"\] Alt text: More actions button\) and choose **Share**.
 
@@ -53,15 +53,15 @@ Rights to the underlying data only matter when the visualizations contain raw da
 
 6.  Select one of the following options.
 
-<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d39173e176">
+<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d39504e176">
 
 **Add as viewer**
 
 </td><td>
 
-Grant only viewing rights to the users, groups, or roles you're sharing the dashboard with. They cannot edit it.
+Grant only viewing rights to the users, groups, or roles you're sharing the dashboard with. Users who only have viewing rights can make changes to the dashboard's content, but aren't able to save those changes.
 
-</td></tr><tr><td id="d39173e185">
+</td></tr><tr><td id="d39504e185">
 
 **Add as editor**
 
@@ -72,7 +72,7 @@ Grant editing rights to the users, groups, or roles you're sharing the dashboard
 </td></tr></tbody>
 </table>7.  Select **Copy link with filter** or **Copy link** to copy the dashboard's URL to the clipboard.
 
-    The URL points to the tab that was open when you opened the **Share dashboard** dialogue. **Copy link with filter** also applies the filters as they're configured on the dashboard or dashboard tab.
+    The URL points to the tab that was open when you opened the **Share dashboard** dialogue. **Copy link with filter** also applies the filters as they're configured on the dashboard or dashboard tab. For more information, see [URL filter parameters for dashboard filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/url-filter-parameters.md)
 
 8.  Select **Confirm**.
 
@@ -83,23 +83,29 @@ The roles, groups, and users you have shared the dashboard with appear when you 
 
 \[Omitted image "db-share-dialog.png"\] Alt text: Dashboard sharing dialog showing who the dashboard has been shared with and whether they can edit or only view it.
 
-**Tip:** The users, groups, and roles with which a dashboard is shared are also visible in the dashboard details. For more information, see [Configure Platform Analytics dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/config-db-in-ac.md).
+**Tip:** The users, groups, and roles with which a dashboard is shared are also visible in the dashboard details. For more information, see [Configure Platform Analytics dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/config-db-in-ac.md).
 
 ## What to do next
 
-You can change the rights of whom you have shared the dashboard with in the Share Dashboard dialog, under the Can view/Can edit list for each user, group, or role.
+-   Change the rights of those you have shared the dashboard with in the Share Dashboard dialog, under the Can view/Can edit list for each user, group, or role.
 
-\[Omitted image "db-share-rights-selector.png"\] Alt text: Rights selector for a user, group, or role that a dashboard was shared with.
+    \[Omitted image "db-share-rights-selector.png"\] Alt text: Rights selector for a user, group, or role that a dashboard was shared with.
 
--   **[Dashboard sharing reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/share-db-ref-qualifiers.md)**  
-Use reference qualifiers to limit the users, groups, and roles in the recipients field of shared dashboards.
+-   [Show more information in the Share Dashboard window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/share-db-ref-qualifiers-more-info.md)
 
-**Parent Topic:**[Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/common-dashboard-tasks.md)
+-   **[Dashboard sharing reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/share-db-ref-qualifiers.md)**  
+Use reference qualifiers to limit the users, groups, and roles and to provide more information in the recipients field of shared dashboards.
+-   **[Show more information in the Share Dashboard window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/share-db-ref-qualifiers-more-info.md)**  
+Clarify users, groups, and roles in the **Share Dashboard** window so users can share with the right audience.
+
+**Parent Topic:**[Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/common-dashboard-tasks.md)
 
 **Related topics**  
 
 
 [Create a dashboard with the in-line editor]()
+
+[Create Core UI dashboards on upgraded instances]()
 
 [Edit Platform Analytics dashboards]()
 

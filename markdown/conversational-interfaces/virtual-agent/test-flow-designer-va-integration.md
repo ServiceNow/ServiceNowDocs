@@ -3,13 +3,13 @@ title: Test the Action utility
 description: Test the Action utility to make sure that the integrated action works as intended in the conversation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/test-flow-designer-va-integration.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Integrating Virtual Agent with Workflow Studio workflows, Exploring other Virtual Agent features, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Integrating Virtual Agent with Workflow Studio workflows, Other Virtual Agent features, Build conversations, Virtual Agent, Conversational Interfaces]
 ---
 
 # Test the Action utility
@@ -32,7 +32,7 @@ When you test the subflow or action associated with the Action utility, you see 
 
 Topic authors can also see the test results in the Conversation Task FDIH Invocations \[sys\_cs\_fdih\_invocation\_list\] table.
 
-**Note:** If you have turned on and set up ServiceNow Otto in Virtual Agent, you can work with conversational actions and subflows from the Assistant Designer home page. For each assistant, you can test topics, subflows, and actions by using the Assistant Designer home page **Test Assistant** button. Assistant Designer opens a Workflow Studio tab where you can test subflows and actions. For more information on conversational actions and subflows, see [Conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/conversational-actions.md) and [Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/conversational-subflows.md). You can still integrate actions and subflows that are not conversational from Workflow Studio into Virtual Agent topics via Assistant Designer. The following content is only relevant to actions or subflows that can't be made conversational in Workflow Studio.
+**Note:** If you have turned on and set up ServiceNow Otto for Virtual Agent, you can work with conversational actions and subflows from the Assistant Designer Asset library. For each assistant, you can test topics, subflows, and actions by using the Assistant Designer Asset library **Test Assistant** button. Assistant Designer Asset library opens a Workflow Studio tab where you can test subflows and actions. For more information on conversational actions and subflows, see [Conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/conversational-actions.md) and [Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/conversational-subflows.md). You can still integrate actions and subflows that are not conversational from Workflow Studio into Virtual Agent topics via Assistant Designer Asset library. The following content is only relevant to actions or subflows that can't be made conversational in Workflow Studio.
 
 ## Procedure
 
@@ -46,9 +46,9 @@ Topic authors can also see the test results in the Conversation Task FDIH Invoca
 
     If an action or subflow in the test window is slow to respond or appears to be waiting, you see a relevant error message.
 
-    By default, a scheduled job checks the conversation flow every 120 seconds. For more information about scheduled jobs, see [Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ScheduledJobs.md).
+    By default, a scheduled job checks the conversation flow every 120 seconds. For more information about scheduled jobs, see [Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ScheduledJobs.md).
 
-    You can change this interval, as needed. To change the interval, see [Specify the action workflow timeout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-fdih-action-timeout.md).
+    You can change this interval, as needed. To change the interval, see [Specify the action workflow timeout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-fdih-action-timeout.md).
 
 5.  Troubleshoot the Action utility node:
 
@@ -57,5 +57,5 @@ Topic authors can also see the test results in the Conversation Task FDIH Invoca
 6.  Select **Save** when you're finished.
 
 
-**Parent Topic:**[Integrating Virtual Agent with Workflow Studio workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-flow-designer-integration.md)
+**Parent Topic:**[Integrating Virtual Agent with Workflow Studio workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-flow-designer-integration.md)
 

@@ -3,11 +3,11 @@ title: Create offboarding requests for AI assets
 description: Create an offboarding request to retire AI assets that are no longer needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-ai-asset-offboarding-request-newexperience.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing your AI asset lifecycle, Working with AI asset records, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Managing your AI asset lifecycle, Working with AI asset records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create offboarding requests for AI assets
@@ -83,5 +83,5 @@ Justification for creating the request.
     The offboarding workflow is initiated. The **Impacted assets** and the**Offboarding workflow** tabs also appear.
 
 
-**Parent Topic:**[Managing your AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-lifecycle-newexperience.md)
+**Parent Topic:**[Managing your AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/manage-lifecycle-newexperience.md)
 

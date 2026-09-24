@@ -3,11 +3,11 @@ title: Create appointment booking advanced configuration
 description: Create advanced appointment schedules to offer customers specific time slots—like Morning, Afternoon, and Evening—for scheduling appointments. Advanced schedules let you customize availability to meet unique business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/appintment-booking-day-level-config.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure Appointment Booking, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---

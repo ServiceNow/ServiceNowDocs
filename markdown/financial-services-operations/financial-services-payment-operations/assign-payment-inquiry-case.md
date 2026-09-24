@@ -3,11 +3,11 @@ title: Assign a payment inquiry case
 description: Assign a payment inquiry case to yourself or to another inquiry agent so that you or another agent can start investigating the case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-payment-operations/assign-payment-inquiry-case.html
-release: australia
+release: brazil
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing payment inquiries, Use, Payment Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -43,5 +43,5 @@ When a payment inquiry request is submitted, the inquiry case is automatically a
 
 The case is assigned to an inquiry agent. If the agent also belongs to an agent assignment group, the group's name appears in the **Assignment group** field.
 
-**Parent Topic:**[Managing payment inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/managing-payment-inquiries.md)
+**Parent Topic:**[Managing payment inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-payment-operations/managing-payment-inquiries.md)
 

@@ -3,11 +3,11 @@ title: Planned task hierarchy
 description: The Task Hierarchy tool available for Planned Task displays the relationship between parent and child planned tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/t\_PlannedTaskHierarchy.html
-release: australia
+release: brazil
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Planned tasks, Working with Task table, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -45,5 +45,5 @@ The Task Hierarchy can be added to any planned task table by:
     The hierarchy should now be available as a UI Action on the form of the new table.
 
 
-**Parent Topic:**[Extending the Task table with Planned tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_PlannedTask.md)
+**Parent Topic:**[Extending the Task table with Planned tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/c_PlannedTask.md)
 

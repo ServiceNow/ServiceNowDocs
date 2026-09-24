@@ -3,11 +3,11 @@ title: Define filters to apply for the Incident creation
 description: Define and set filter conditions to drill down the incoming  Symantec DLP  incidents. Determine the incidents that should be created as DLP incidents in ServiceNow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/define-filters-symantec.html
-release: australia
+release: brazil
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a profile for Symantec DLP integration, Symantec Integration for Data Loss Prevention Incident Response, Integrate, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -70,5 +70,5 @@ Filtering helps you to isolate DLP incidents and to limit the number of DLP inci
 
 To configure the schedule, click **Continue**.
 
-**Parent Topic:**[Create a profile for Symantec DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/create-profile-symantec-dlp.md)
+**Parent Topic:**[Create a profile for Symantec DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/create-profile-symantec-dlp.md)
 

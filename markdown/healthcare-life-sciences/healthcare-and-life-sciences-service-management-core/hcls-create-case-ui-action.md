@@ -3,11 +3,11 @@ title: Configure interactions for healthcare case types
 description: You can add a create case UI action to enable agents to create a healthcare-related case from an interaction.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-case-ui-action.html
-release: australia
+release: brazil
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Display patient information on a healthcare case, Set up your Healthcare Workspace, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Display patient information on a healthcare case, Set up your Healt
 
 You can add a create case UI action to enable agents to create a healthcare-related case from an interaction.
 
-By default, a UI action to create a case from an interaction is not available. As an administrator, you can create a UI action for creating healthcare-related cases and add the UI action to the Interaction form. For more information, see [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EditingAUIAction.md).
+By default, a UI action to create a case from an interaction is not available. As an administrator, you can create a UI action for creating healthcare-related cases and add the UI action to the Interaction form. For more information, see [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_EditingAUIAction.md).
 
-**Note:** Agents use CRM Workspace for resolving healthcare cases. To use UI actions in CRM Workspace, each UI action must have a corresponding form action. For more information, see [Set up a form action in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-config-ws-form-action.md).
+**Note:** Agents use CRM Workspace for resolving healthcare cases. To use UI actions in CRM Workspace, each UI action must have a corresponding form action. For more information, see Set up a form action in CSM Configurable Workspace.
 

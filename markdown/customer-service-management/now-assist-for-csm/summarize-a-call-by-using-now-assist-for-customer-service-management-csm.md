@@ -3,11 +3,11 @@ title: Summarize a call by using ServiceNow Otto for Customer Service Management
 description: Generate a summary of the call conversation between a live agent and a customer by using the call summarization skill in the ServiceNow Otto for Customer Service Management \(CSM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/summarize-a-call-by-using-now-assist-for-customer-service-management-csm.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
@@ -19,7 +19,7 @@ Generate a summary of the call conversation between a live agent and a customer 
 
 ## Before you begin
 
-To make the skill available in the AI Admin Hub console, install [Install ServiceNow Voice applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/install-ccc-apps.md).
+To make the skill available in the AI Admin Hub console, install [Install ServiceNow Voice applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/install-ccc-apps.md).
 
 Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, sn\_csm\_agent
 
@@ -28,7 +28,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, 
 The call summarization skill enables you to do the following actions:
 
 -   Summarize calls between live agents and callers when either party ends the interaction.
--   Generate a call summary on demand from the ServiceNow Otto panel. For more information, see [Request the generative AI capabilities in Customer Service Management by using the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/request-gen-ai-capabilities-csm-now-assist-panel.md).
+-   Generate a call summary on demand from the ServiceNow Otto panel. For more information, see [Request the generative AI capabilities in Customer Service Management by using the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/request-gen-ai-capabilities-csm-now-assist-panel.md).
 -   When real-time transcription is enabled, agents can see a transcript of the voice calls while interacting with the customers. With real-time transcription, an agent gets a better understanding of the customer issues, and a manager gains insights into the customer trends and agent training gaps.
 -   When real-time transcription is turned off, agents don't see the conversation panel. Once the transcripts are ready, agents can see a ServiceNow Otto banner showing field predictions being generated. Then, another banner shows up with the predicted fields.
 -   A call summary is available for both outbound and inbound calls. For more information, see [Real time transcriptions for ServiceNow Voice for Customer Service Management](https://www.servicenow.com/docs/access?context=using-voice-rtt).
@@ -36,7 +36,7 @@ The call summarization skill enables you to do the following actions:
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Set your status as Available in CRM Workspace so that you can receive a call request when a customer calls in and requests to speak to an agent.
 
@@ -50,7 +50,7 @@ The call summarization skill enables you to do the following actions:
 
 4.  If enabled, transfer a call to another agent after accepting an incoming call and do the following actions:
 
-    You must have Advanced Work Assignment set up for an agent-to-agent transfer. For more information, see [advanced work assignment setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/installing-awa.md).
+    You must have Advanced Work Assignment set up for an agent-to-agent transfer. For more information, see [advanced work assignment setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/installing-awa.md).
 
     1.  From the keypad, select **Quick connects** while you’re still connected to the customer.
 
@@ -75,6 +75,8 @@ The call summarization skill enables you to do the following actions:
 
 7.  Select **Save**.
 
+    \[Omitted image "now-assist.csm-call-summary.png"\] Alt text: AI-generated call summary for an interaction.
+
 
 ## What to do next
 
@@ -82,5 +84,5 @@ If necessary, you can create a case from an interaction record. The system uses 
 
 The system displays the AI icon \(\[Omitted image "bus-ai-sparkle.svg"\] Alt text: AI icon.\) next to these fields and removes the icon if the agent changes the fields and saves the record.
 
-**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

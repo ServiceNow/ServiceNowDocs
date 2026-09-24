@@ -3,11 +3,11 @@ title: Changes to score\_start/end because of different user time zones
 description: For formula indicators, the values of the variables score\_start and score\_end are calculated based on the time zone of the user who is executing the formula. If users in different time zones execute the same formula, the values of score\_start and score\_end change.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/time-zones-indicator-formulas.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Formula indicators, Indicators, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -34,7 +34,7 @@ Three different users view a dashboard widget with this formula indicator on 18 
 -   One user is in the US/Pacific time zone. Their `score_end` value is "2019-10-19 06:59:59", and the score for the date 19 October is returned.
 -   One user is in the GMT time zone. Their `score_end` value matches the database server, "2019-10-18 23:59:59", and the score for the date 18 October is returned.
 
-**Parent Topic:**[Formula indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/formula-indicators.md)
+**Parent Topic:**[Formula indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/formula-indicators.md)
 
 **Related topics**  
 
@@ -53,5 +53,5 @@ Three different users view a dashboard widget with this formula indicator on 18 
 
 [Indexing multiple indicators in a formula]()
 
-[Performance Analytics variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-scripts.md)
+[Performance Analytics variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/pa-scripts.md)
 

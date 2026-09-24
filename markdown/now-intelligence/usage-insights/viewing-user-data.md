@@ -3,11 +3,11 @@ title: Viewing user analytics
 description: The Users page within the Data Foundation module enables views of individual user journeys through your applications, from their first session to the most recent within the defined date range.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/viewing-user-data.html
-release: australia
+release: brazil
 product: Usage Insights
 classification: usage-insights
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Usage Insights, Usage Insights, Platform Analytics]
 ---
@@ -105,5 +105,5 @@ You can filter the Users list by date range, User type, and Country by default. 
 
 **Note:** The Add filter options use a logical AND operator. Meaning that the results must meet both the criteria in the default filters AND the criteria in the additional filters to be included in the visualizations.
 
-**Parent Topic:**[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/using-uxa.md)
+**Parent Topic:**[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/usage-insights/using-uxa.md)
 

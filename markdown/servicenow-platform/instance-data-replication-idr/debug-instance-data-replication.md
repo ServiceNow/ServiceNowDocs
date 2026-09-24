@@ -3,11 +3,11 @@ title: Identify Instance Data Replication errors
 description: Identify Instance Data Replication \(IDR\) errors by viewing the metadata for messages between producer and consumer instances, payload error logs, and message logs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/debug-instance-data-replication.html
-release: australia
+release: brazil
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Resolving errors, Administer, Instance Data Replication, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,7 +24,7 @@ Role required: idr\_admin or admin
 
 1.  View the producer or consumer metadata logs.
 
-<table id="choicetable_h3s_qkz_pkb"><tbody><tr><td id="d360198e62">
+<table id="choicetable_h3s_qkz_pkb"><tbody><tr><td id="d358298e62">
 
 **Producer**
 
@@ -32,7 +32,7 @@ Role required: idr\_admin or admin
 
 Navigate to **Instance Data Replication** &gt; **Producer Replication Sets**, select a producer replication set and click the **Replication Metadata Logs** related link.
 
-</td></tr><tr><td id="d360198e83">
+</td></tr><tr><td id="d358298e83">
 
 **Consumer**
 
@@ -60,5 +60,5 @@ Navigate to **Instance Data Replication** &gt; **Consumer Replication Sets**, se
         The Instance Data Replication Log form shows the message and message level.
 
 
-**Parent Topic:**[Resolving data replication errors in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/common-issues-idr.md)
+**Parent Topic:**[Resolving data replication errors in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/instance-data-replication-idr/common-issues-idr.md)
 

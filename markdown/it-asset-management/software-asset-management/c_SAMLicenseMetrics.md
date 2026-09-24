@@ -3,13 +3,13 @@ title: Software license metrics
 description: License metrics are set in software entitlements and used for reconciliation in various metric groups and software model combinations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/c\_SAMLicenseMetrics.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 15
-breadcrumb: [Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software license metrics
@@ -18,13 +18,13 @@ License metrics are set in software entitlements and used for reconciliation in 
 
 Each metric group has a set of license metrics that are specific to the publisher.
 
-You can view the Metric Attributes related list in software models to set the attribute value. For more information, see [Software model fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-model-fields.md).
+You can view the Metric Attributes related list in software models to set the attribute value. For more information, see [Software model fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/software-model-fields.md).
 
-You can also add custom license metrics. For more information, see [Add a custom license metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/add-custom-license-metric.md). You can use the Resource Value \[samp\_sw\_resource\_value\] table to enhance the custom license metric capability by doing a 1:1 calculation between the Unit consumption column in the Resource Value \[samp\_sw\_resource\_value\] table and the Licenses required column in the License Metric Results \[samp\_license\_metric\_result\] table.
+You can also add custom license metrics. For more information, see [Add a custom license metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/add-custom-license-metric.md). You can use the Resource Value \[samp\_sw\_resource\_value\] table to enhance the custom license metric capability by doing a 1:1 calculation between the Unit consumption column in the Resource Value \[samp\_sw\_resource\_value\] table and the Licenses required column in the License Metric Results \[samp\_license\_metric\_result\] table.
 
 Adobe, Citrix, IBM \(includes both IBM and Red Hat\), Microsoft, Oracle, SAP, and VMware publisher packs are available as add-ons. They provide the capability to manage software licensed under the publisher licensing models.
 
-Installing [SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/sam-subscription-management.md) adds the Subscription and Consumption metric groups.
+Installing [SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/sam-subscription-management.md) adds the Subscription and Consumption metric groups.
 
 You can view descriptions of your license metrics by selecting the reference \[Omitted image "reference-icon.png"\] icon next to the **License metric** field in your software entitlements.
 
@@ -58,7 +58,7 @@ If multiple rights are assigned to a user in a user allocation, then the user ha
 
 Citrix **Note:** Citrix license metrics are visible only if the Citrix publisher pack is installed.
 
-A discovery process is required for Citrix data to be collected. Admin users must create a [Discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_CreateADiscoverySchedule.md) to run on the Citrix Delivery Controller for communication with the Citrix License Server.
+A discovery process is required for Citrix data to be collected. Admin users must create a [Discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/t_CreateADiscoverySchedule.md) to run on the Citrix Delivery Controller for communication with the Citrix License Server.
 
 See for information on the Citrix discovery pattern and tables.
 
@@ -107,7 +107,7 @@ CPU core count * CPU count
 -   Resource Consumption. Consumption-based license metric that supports CAL reconciliation. A 1:1 ratio calculation between the Unit consumption column in the Resource Value \[samp\_sw\_resource\_value\] table and the Licenses required column in the License Metric Results \[samp\_license\_metric\_result\] table.
 -   Concurrent User: Licenses the number of simultaneous users accessing the program.
 
-**Note:** For the Concurrent User license metric, create a related record in the Resource Value \[samp\_sw\_resource\_value\] table to identify the resource being measured. For more information, see [Create a resource value record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-resource-value-record.md).
+**Note:** For the Concurrent User license metric, create a related record in the Resource Value \[samp\_sw\_resource\_value\] table to identify the resource being measured. For more information, see [Create a resource value record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-resource-value-record.md).
 
 
 </td></tr><tr><td>
@@ -164,7 +164,7 @@ IBM **Note:** IBM license metrics are visible only if the IBM publisher pack is 
 
  **Note:** The following license metrics are available from Australia Patch 6 onwards.
 
-For each license metric in the following list that you select on a software entitlement, create a related record in the Resource Value \[samp\_sw\_resource\_value\] table to identify the resource being measured. For more information, see [Create a resource value record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-resource-value-record.md).
+For each license metric in the following list that you select on a software entitlement, create a related record in the Resource Value \[samp\_sw\_resource\_value\] table to identify the resource being measured. For more information, see [Create a resource value record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-resource-value-record.md).
 
 -   Application Instance: Licenses each running instance of an IBM software product deployed on a server, container, or virtual environment.
 -   Concurrent User: Licenses the number of simultaneous users accessing an IBM software product.
@@ -188,7 +188,7 @@ Microsoft **Note:** Microsoft license metrics are visible only if the Microsoft 
 </td><td>
 
 -   Device CAL: Licenses the number of device client access licenses to server software.
--   Per Core: Licenses the cores on both the physical server and the virtual cores that support virtual machines and presents a cost-efficient model based on the number of rights used. For information on Per Core for Microsoft SQL Server Enterprise edition with Software Assurance, see [Create entitlements for Microsoft Software Assurance in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-entitlement-microsoft-sa.md).
+-   Per Core: Licenses the cores on both the physical server and the virtual cores that support virtual machines and presents a cost-efficient model based on the number of rights used. For information on Per Core for Microsoft SQL Server Enterprise edition with Software Assurance, see [Create entitlements for Microsoft Software Assurance in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-entitlement-microsoft-sa.md).
 
 **Note:** Per Core \(Physical Core\) and Per Core \(Virtual OSE\) metrics is deprecated from the New York release. Any existing entitlements using Per Core \(Physical Core\) and Per Core \(Virtual OSE\) metrics are replaced with Per Core. You may see a change in your reconciliation results.
 
@@ -228,7 +228,7 @@ If you are reconciling Oracle server software, such as Oracle Database Server or
 **Note:** The number of licenses required is determined by the total number of employees and not the number of employees using Oracle Java SE Universal.
 
 
- **Note:** You can select the level of aggregation for the reconciliation calculation of VMware -based Oracle instances using the **com.snc.samp.oracle.reconlevel** property. See [Software Asset Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-properties.md).
+ **Note:** You can select the level of aggregation for the reconciliation calculation of VMware -based Oracle instances using the **com.snc.samp.oracle.reconlevel** property. See [Software Asset Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sam-properties.md).
 
 </td></tr><tr><td>
 
@@ -248,7 +248,8 @@ SAP **Note:** SAP license metrics are visible only if the SAP publisher pack is 
 -   Named User: Licenses the number of named users that can be assigned a Named User Type. The Named User Type is defined by the software model linked to the entitlement.
 -   Engine Measurement: Licenses the amount of engine usage.
 -   Digital Access: Licenses the indirect usage of SAP applications through a third-party application or a non-SAP intermediary software by the count of documents created by the third-party application.
--   Full Usage Equivalent \(FUE\): Licenses the number of users that are authorized to access specified solution capabilities of SAP S/4HANA Cloud Public Edition.
+-   User Subscription: Licenses the number of users that are authorized to access specified solution capabilities of SAP S/4HANA Cloud, Public Edition.
+-   Full Usage Equivalent \(FUE\): Licenses the number of users that are authorized to access specified solution capabilities of SAP S/4HANA Cloud, Private Edition.
 
 </td></tr><tr><td>
 
@@ -290,8 +291,8 @@ Applies to subscription-based VMware suite products: VMware vSphere Standard \(V
 
 
 </td></tr></tbody>
-</table>-   **[Unlimited software licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/unltd-allocations-rights.md)**  
+</table>-   **[Unlimited software licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/unltd-allocations-rights.md)**  
 Unlimited software licenses help you to create entitlements with unlimited allocations and unlimited rights, allowing you to license any number of software installations with no true-up cost.
 
-**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

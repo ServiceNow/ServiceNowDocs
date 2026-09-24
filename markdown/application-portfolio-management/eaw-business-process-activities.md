@@ -3,9 +3,9 @@ title: Exploring business process activities
 description: Business process activities represent discrete units of work within workflows. Knowing how they differ from business processes helps you model organizational tasks accurately.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-business-process-activities.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [business process activity, business process, business actor]
 breadcrumb: [Exploring the business architecture, Exploring Portfolio list view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
@@ -33,10 +33,10 @@ You can:
 
 When you model a business process activity in a diagram, the default relationship between a business process activity and a business actor is Performed by :: Performs.
 
-**Parent Topic:**[Exploring the business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-business-architecture.md)
+**Parent Topic:**[Exploring the business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-business-architecture.md)
 
 **Related topics**  
 
 
-[Manage business process activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-business-process-activities.md)
+[Manage business process activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-manage-business-process-activities.md)
 

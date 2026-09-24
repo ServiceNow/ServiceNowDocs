@@ -3,9 +3,9 @@ title: Download a GRC application from the ServiceNow Store for the first time
 description: Downloading an application from the ServiceNow Store for the first time involves several easy steps. Some steps are performed on the ServiceNow Store and some in your ServiceNow AI Platform instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/download-grc-first-time.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [GRC and the ServiceNow Store, Governance, Risk, and Compliance]
 ---
@@ -30,7 +30,7 @@ Dependency plugins are automatically installed when you activate these GRC core 
 
 For example, when you activate the Risk Management application, the Risk Management Dependencies plugin is also activated.
 
-**Important:** Vendor Risk Management, you must first activate the Vendor Risk Management Dependencies plugin before activating the Vendor Risk Management application. For more information, see [Activate an entitled GRC ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/activate-entitled-grc-app.md).
+**Important:** Vendor Risk Management, you must first activate the Vendor Risk Management Dependencies plugin before activating the Vendor Risk Management application. For more information, see [Activate an entitled GRC ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/activate-entitled-grc-app.md).
 
 ## Procedure
 
@@ -42,5 +42,5 @@ For example, when you activate the Risk Management application, the Risk Managem
 **Related topics**  
 
 
-[List of plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_ActivateGRCPandC.md)
+[List of plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/t_ActivateGRCPandC.md)
 

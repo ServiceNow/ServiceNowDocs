@@ -3,9 +3,9 @@ title: Anomaly insights
 description: The reference topic gives additional information for anomaly charts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/addl-inf-io-anomaly.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [Anomaly details]
 breadcrumb: [Instance monitoring and performance metrics, Monitor instance performance, Platform Health, Using Impact, Impact]
@@ -345,7 +345,7 @@ Max
     -   Default chart metric values will not match with anomaly chart metric values for node-level metrics, because the default chart aggregates at the node level whereas the anomaly chart aggregates at the instance level. Note that the aggregation type \(Max\) remains the same across both charts for these metrics.
     -   Anomaly chart data is available for a maximum of 28 days from the current date.
 
-**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 

@@ -3,11 +3,11 @@ title: Evidence request workflow
 description: Evidence request helps users to electronically request the information that they need from the first and second line of defense. The individuals being audited can then immediately upload their documents to the system, significantly reducing manual processing time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/evidence-request-workflow.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: concept
-last_updated: "2026-09-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Audit evidence request, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---

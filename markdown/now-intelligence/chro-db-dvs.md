@@ -3,9 +3,9 @@ title: Chief Human Resources Officer Dashboard data visualizations
 description: Use these data visualizations to get high-level and detailed views of how information is used in your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/chro-db-dvs.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Chief Human Resources Officer \(CHRO\) Dashboard, Executive dashboard overview, Platform Analytics]
 ---

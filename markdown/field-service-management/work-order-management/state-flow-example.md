@@ -3,11 +3,11 @@ title: State flow example
 description: Your business processes might require work order tasks to be accepted automatically when dispatched to an agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/state-flow-example.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Customize state flows, Work orders, Set up work orders and tasks, Configure, Field Service Management]
 ---

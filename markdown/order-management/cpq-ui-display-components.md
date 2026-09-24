@@ -3,7 +3,7 @@ title: UI display components
 description: View examples of picklist, text, and number fields as they appear to end users in the CPQ UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-ui-display-components.html
-release: australia
+release: brazil
 topic_type: reference
 last_updated: "2026-03-16"
 reading_time_minutes: 2
@@ -487,5 +487,5 @@ Button label
 |----|-------|----------|-----|
 |**Boolean**|Labels for true and false states|\[Omitted image "cpq\_display-components-boolean.png"\] Alt text: Boolean field| |
 
-**Parent Topic:**[CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)
 

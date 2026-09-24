@@ -3,11 +3,11 @@ title: Import a self-signed certificate
 description: Import a self-signed certificate in a Windows system by using the Certificate Import Wizard. The Certificate Import Wizard is required to complete the self-signed certificate import process on a Windows Operating System \(OS\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/import-self-signed-certificate.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ACC certificates, ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Import a self-signed certificate in a Windows system by using the Certificate Im
 
 ## Before you begin
 
-Ensure that you have followed the procedure for importing a self-signed certificate in a Windows system, as described in [Add a self-signed certificate to the OS truststore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/add-certificate-trust-store.md).
+Ensure that you have followed the procedure for importing a self-signed certificate in a Windows system, as described in [Add a self-signed certificate to the OS truststore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/add-certificate-trust-store.md).
 
 Role required: agent\_client\_collector\_admin
 
@@ -49,5 +49,5 @@ The certificate is imported into the truststore.
 
 If a security warning appears, select **Confirm** to confirm the import.
 
-**Parent Topic:**[Agent Client Collector certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-certificates.md)
+**Parent Topic:**[Agent Client Collector certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-certificates.md)
 

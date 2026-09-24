@@ -3,11 +3,11 @@ title: Automation Center Executions dashboard
 description: The Automation Center Executions dashboard helps you manage the health of automations in one central place. You can also​ import automation metrics and data from third-party providers regardless of the technology used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/executions-dash.html
-release: australia
+release: brazil
 product: Automation Center
 classification: automation-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workspace, Explore, Automation Center, Workflow Data Fabric]
 ---
@@ -115,5 +115,5 @@ The Insights panel provides information about insights, which draw your attentio
 
 \[Omitted image "insights-widget.jpg"\] Alt text: Insights example
 
-**Parent Topic:**[Automation Center Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-workspace-ui.md)
+**Parent Topic:**[Automation Center Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/automation-center-workspace-ui.md)
 

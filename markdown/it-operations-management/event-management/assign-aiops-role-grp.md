@@ -3,7 +3,7 @@ title: Assign Event Management operator role to group
 description: Assign the evt\_mgmt\_operator role to groups to enable operations teams to work with alerts and manage Event Management workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/assign-aiops-role-grp.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task

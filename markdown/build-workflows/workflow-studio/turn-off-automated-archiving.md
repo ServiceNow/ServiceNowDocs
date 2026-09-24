@@ -3,11 +3,11 @@ title: Turn off automated archiving
 description: Turn off the automatic archiving of context records for your complete and cancelled playbooks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/turn-off-automated-archiving.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Archive process contexts, Administering Playbooks, Configure, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -20,7 +20,7 @@ Turn off the automatic archiving of context records for your complete and cancel
 
 Role required: playbook.admin
 
-If you want to change the number of days to before a playbook is archived instead, see [Configure archive settings for process contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/config-archive-settings-process-contexts.md).
+If you want to change the number of days to before a playbook is archived instead, see [Configure archive settings for process contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/config-archive-settings-process-contexts.md).
 
 ## Procedure
 
@@ -43,5 +43,5 @@ If you want to change the number of days to before a playbook is archived instea
 
 \[Omitted image "turn-off-archiving.gif"\] Alt text: The process to edit the archiving property.
 
-**Parent Topic:**[Archive process contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/archive-process-executions.md)
+**Parent Topic:**[Archive process contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/archive-process-executions.md)
 

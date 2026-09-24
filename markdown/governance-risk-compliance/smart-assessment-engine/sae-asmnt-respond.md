@@ -3,11 +3,11 @@ title: Respond to an assessment
 description: Respond to an assessment that has been assigned to your queue. Your responses to the assessment help with making informed decisions and taking targeted actions by using the Smart Assessment Engine application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/sae-asmnt-respond.html
-release: australia
+release: brazil
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Respond to assessments, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -47,5 +47,15 @@ When you’re assigned a task to respond to an assessment, you submit your respo
     Your responses are automatically saved.
 
 6.  Select **Submit**.
+
+7.  Alternatively, you can complete smart assessment responses from the Employee Center.
+
+    To respond to an assessment from the portal:
+
+    1.  In the Employee Center, open **My Assessments**.
+
+    2.  Open the assigned assessment and answer the questions.
+
+    3.  Select **Submit**.
 
 

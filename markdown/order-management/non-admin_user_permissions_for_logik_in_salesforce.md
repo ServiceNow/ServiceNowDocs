@@ -3,7 +3,7 @@ title: Assigning non-Admin user permissions for CPQ in Salesforce
 description: You need to apply certain user permissions in Salesforce in order to use CPQ properly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/non-admin\_user\_permissions\_for\_logik\_in\_salesforce.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2

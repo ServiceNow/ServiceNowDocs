@@ -3,11 +3,11 @@ title: Inspect different page types
 description: Inspect and troubleshoot the functionality of different page types like UI Pages, Service Portal, Standard UI, and Custom URL using the Page Inspector.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-inspect-page-types.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Page Inspector, Custom UI test steps, UI test steps, Building and running automated tests with the Automated Test Framework, Automated Test Framework \(ATF\) test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -70,5 +70,5 @@ Custom Platform URL to be inspected.**Note:** Don’t copy-paste the complete UR
 </table>3.  Click **Inspect**.
 
 
-**Parent Topic:**[Page Inspector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-page-inspector.md)
+**Parent Topic:**[Page Inspector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-page-inspector.md)
 

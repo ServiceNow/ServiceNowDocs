@@ -3,11 +3,11 @@ title: Set the trigger condition and priority for a workflow
 description: Define which issues a workflow applies to and determine the order in which it is evaluated relative to other workflows on the same table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/set-the-trigger-condition-and-priority-for-a-workflow.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-09-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Issue workflows, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,7 @@ Define which issues a workflow applies to and determine the order in which it is
 
 ## Before you begin
 
-The workflow's states must already be mapped to playbook stages. See [Map states to playbook stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/map-states-to-playbook-stages.md).
+The workflow's states must already be mapped to playbook stages. See [Map states to playbook stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/map-states-to-playbook-stages.md).
 
 Role required: sn\_grc\_issue\_mgmt.issue\_workflow\_admin
 
@@ -32,15 +32,15 @@ If multiple active workflows on the same table match an issue, the workflow with
 
 1.  Define how the workflow's trigger condition is evaluated.
 
-<table><thead><tr><th align="left" id="d338125e69">
+<table><thead><tr><th align="left" id="d343153e69">
 
 Option
 
-</th><th align="left" id="d338125e72">
+</th><th align="left" id="d343153e72">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d338125e78">
+</th></tr></thead><tbody><tr><td id="d343153e78">
 
 **No condition**
 
@@ -48,7 +48,7 @@ Action
 
 No action is required. The workflow applies to any issue on the selected table.
 
-</td></tr><tr><td id="d338125e88">
+</td></tr><tr><td id="d343153e90">
 
 **__Field-based condition__**
 
@@ -56,7 +56,7 @@ No action is required. The workflow applies to any issue on the selected table.
 
 Leave **Scripted condition** cleared. Select **Edit conditions**, define the condition criteria, and then select **Set**.
 
-</td></tr><tr><td id="d338125e108">
+</td></tr><tr><td id="d343153e112">
 
 **__Scripted condition__**
 
@@ -80,7 +80,7 @@ The workflow is evaluated for new issues on the selected table according to its 
 
 ## What to do next
 
-Configure approvals for the workflow. See [Configure approvals for a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/configure-approvals-for-a-workflow.md).
+Configure approvals for the workflow. See [Configure approvals for a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/configure-approvals-for-a-workflow.md).
 
-**Parent Topic:**[Issue workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/issue-workflows.md)
+**Parent Topic:**[Issue workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/issue-workflows.md)
 

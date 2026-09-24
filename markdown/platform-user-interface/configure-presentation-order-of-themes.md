@@ -3,9 +3,9 @@ title: Publish multiple themes in Next Experience
 description: Publish multiple themes and set the order of your Next Experience custom and Theme Builder themes to configure how they’re displayed in the user's Theme preferences.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-presentation-order-of-themes.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Multi-theme management, Configuring Next Experience themes, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -32,7 +32,7 @@ Publishing multiple themes applies to web instances only.
 
 3.  On the form, fill in the fields.
 
-    **Note:** Themes created with Theme Builder are automatically added to the UX Parent App Theme table during publishing and don’t require a new record form. To create a theme with Theme Builder see [Create a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-create-theme.md).
+    **Note:** Themes created with Theme Builder are automatically added to the UX Parent App Theme table during publishing and don’t require a new record form. To create a theme with Theme Builder see [Create a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/tb-create-theme.md).
 
     \[Omitted image "ux-parent-app-theme-record.png"\] Alt text: UX Parent App Theme record.
 
@@ -90,5 +90,5 @@ Parent application that you want the theme to apply to.
     After the record has been added to the UX Parent App Themes table, you’re able to change the **Applicability**, **Order**, and **UX App** fields, as needed. If no records are listed in the table and the **glide.ui.polaris.theme.custom** value is empty, the Unified Navigation base theme is displayed.
 
 
-**Parent Topic:**[Multi-theme management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/multi-theme-management.md)
+**Parent Topic:**[Multi-theme management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/multi-theme-management.md)
 

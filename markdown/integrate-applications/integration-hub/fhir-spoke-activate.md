@@ -3,7 +3,7 @@ title: Activate the HL7 FHIR Spoke
 description: Install the HL7 FHIR Spoke from the ServiceNow Store and verify that the required platform plugins are active so that the eight FHIR actions are available in Workflow Studio.Bind the FHIR server URL and OAuth credentials to the shared HL7 FHIR Connection &amp; Credential Alias so that all eight spoke actions can authenticate to and read from your FHIR R4 server.Add an HL7 FHIR Spoke stream action to a flow to search a FHIR resource and process each matching record as it streams in, with pagination handled automatically by the spoke.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/fhir-spoke-activate.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -45,7 +45,7 @@ HL7 FHIR Spoke is distributed as a scoped application in the ServiceNow Store. A
 
 ## Result
 
-The HL7 FHIR Spoke is installed and its actions are available to flow authors. Before the actions can read from a FHIR server, configure the connection and credentials. See [Configure the HL7 FHIR connection and credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/fhir-spoke-activate.md).
+The HL7 FHIR Spoke is installed and its actions are available to flow authors. Before the actions can read from a FHIR server, configure the connection and credentials. See [Configure the HL7 FHIR connection and credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/fhir-spoke-activate.md).
 
 ## Configure the HL7 FHIR connection and credentials
 
@@ -82,7 +82,7 @@ The spoke ships a Connection &amp; Credential Alias named `HL7 FHIR` with an att
 
 ### Result
 
-All eight HL7 FHIR Spoke actions can now authenticate to your FHIR server through the shared alias. To add a stream action to a flow, see [Add a FHIR stream action to a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/fhir-spoke-activate.md).
+All eight HL7 FHIR Spoke actions can now authenticate to your FHIR server through the shared alias. To add a stream action to a flow, see [Add a FHIR stream action to a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/fhir-spoke-activate.md).
 
 ## Add a FHIR stream action to a flow
 
@@ -92,7 +92,7 @@ Add an HL7 FHIR Spoke stream action to a flow to search a FHIR resource and proc
 
 Role required: a Workflow Studio authoring role, such as `flow_designer`.
 
-The `HL7 FHIR` connection and credentials must be configured. See [Configure the HL7 FHIR connection and credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/fhir-spoke-activate.md).
+The `HL7 FHIR` connection and credentials must be configured. See [Configure the HL7 FHIR connection and credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/fhir-spoke-activate.md).
 
 ### About this task
 
@@ -110,7 +110,7 @@ Stream actions use the data stream action template, which retrieves results page
 
 4.  Set any optional FHIR R4 search parameters to filter the results — for example, **name** or **active**.
 
-    For the full set of search parameters per resource, see [HL7 FHIR Spoke actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/fhir-spoke-actions.md).
+    For the full set of search parameters per resource, see [HL7 FHIR Spoke actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/fhir-spoke-actions.md).
 
 5.  Add a **For Each** flow logic block that iterates over the action's stream output.
 

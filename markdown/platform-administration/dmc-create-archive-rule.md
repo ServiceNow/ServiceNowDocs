@@ -3,9 +3,9 @@ title: Create an archive rule in Data Management Console
 description: Define a rule for archiving records.Define one or more conditions that identify the records to be archived.Delete archived records after a specified amount of time by configuring optional destroy rule conditions.Archive, clear, or delete related records when an archive rule runs.View a summary of your archive rule and decide whether to activate it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/dmc-create-archive-rule.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Archiving records in Data Management Console, Manage data growth in Data Management, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -26,15 +26,15 @@ Because you can define multiple archive rules for a table, verify any existing a
 
 1.  Access the create rule wizard in the Data Management Console in one of the following ways.
 
-<table id="choicetable_snz_r2m_13c"><thead><tr><th align="left" id="d284086e67">
+<table id="choicetable_snz_r2m_13c"><thead><tr><th align="left" id="d282707e67">
 
 Option
 
-</th><th align="left" id="d284086e70">
+</th><th align="left" id="d282707e70">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d284086e76">
+</th></tr></thead><tbody><tr><td id="d282707e76">
 
 **Overview tab**
 
@@ -45,7 +45,7 @@ Steps
 3.  Select **Create rule**.
 
 
-</td></tr><tr><td id="d284086e114">
+</td></tr><tr><td id="d282707e114">
 
 **Rules tab**
 
@@ -64,7 +64,7 @@ Steps
 
     2.  Enter a name and description for the rule.
 
-        The name is used as the [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DisplayValues.md) for references to this rule.
+        The name is used as the [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_DisplayValues.md) for references to this rule.
 
     3.  Select **Save and continue**.
 
@@ -181,7 +181,7 @@ Role required: admin
         For example, you create an archive rule on the Problem \[problem\] table. You can include related incident records by selecting the **Problem in Incident** field reference field on the Incident \[incident\] table.
 
         -   The **Archive** action archives any incident record that references an archived problem.
-        -   The **Clear** action updates any incident record with a reference to the archived problem record by clearing the reference. If the reference is a [many-to-many relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_ManyToManyTaskRelations.md), the related record rule deletes the reference instead of clearing the reference.
+        -   The **Clear** action updates any incident record with a reference to the archived problem record by clearing the reference. If the reference is a [many-to-many relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/c_ManyToManyTaskRelations.md), the related record rule deletes the reference instead of clearing the reference.
         -   The **Delete** action deletes any incident record that references the archived problem record.
     -   **Document ID fields**
 

@@ -3,11 +3,11 @@ title: Install and activate Incident Communications Management
 description: Install and activate the Incident Communications Management \(com.snc.iam\) plugin if you have the admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-communications-management/t\_ActivateIncidentAlertManagement.html
-release: australia
+release: brazil
 product: Incident Communications Management
 classification: incident-communications-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Incident Communications Management, Incident Communications Management, IT Service Management]
 ---
@@ -32,13 +32,13 @@ Role required: major\_incident\_manager, ia\_admin, or admin
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Configuring Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-communications-management/config-inci-comm-mngmt.md)
+**Parent Topic:**[Configuring Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-communications-management/config-inci-comm-mngmt.md)
 
 **Related topics**  
 
 
-[Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-communications-management/c_IncidentAlertManagement.md)
+[Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-communications-management/c_IncidentAlertManagement.md)
 

@@ -3,11 +3,11 @@ title: Equipment on ServiceNow Agent
 description: Check in, check out, or report broken equipment using the My Equipment applet in the ServiceNow Agent mobile app.Check out or check back in equipment assigned to your work order tasks or crew through the ServiceNow Agent mobile app.Report breakdowns of equipment assigned to your work order tasks or crew through the ServiceNow Agent mobile app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/update-equipment-statuses-with-the-now-mobile-agent-application.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---

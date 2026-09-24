@@ -3,12 +3,12 @@ title: Review a scenario
 description: Review a scenario created by your colleague on a building in a read-only mode.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/review-a-scenario.html
-release: australia
+release: brazil
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2026-03-25"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Working with Space Optimization, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -57,17 +57,41 @@ You can review a scenario created by your colleague from the Space Optimization 
 
 6.  On the stack plan, point to or select a bar to view more details.
 
-    If you select a bar, you can view the details related to the bar on the right panel. For more information about the stack plan view features, refer to [Scenario and Building - Views, states, settings, and key features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/scenario-planning-views-actions-keyfeatures-.md).
+    If you select a bar, you can view the details related to the bar on the right panel. For more information about the stack plan view features, refer to [Scenario and Building - Views, states, settings, and key features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-central/scenario-planning-views-actions-keyfeatures-.md).
 
 7.  View the scenario plan on a floor directly by selecting the **Floor map view** tab.
 
     **Note:** You can view the scenario plan on a floor map only if the floor map is configured using the Workplace Indoor Mapping Map studio.
 
 
-**Parent Topic:**[Working with Space Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-space-optimization.md)
+**Parent Topic:**[Working with Space Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-central/working-with-space-optimization.md)
+
+**Parent Topic:**[Working with Space Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-central/working-with-space-optimization.md)
 
 **Related topics**  
 
+
+[Create a scenario]()
+
+[Viewing or editing a scenario]()
+
+[Publish a scenario]()
+
+[Send a scenario for approval]()
+
+[Change owner of a scenario]()
+
+[Deploy a scenario]()
+
+[View scenario change details]()
+
+[Create a copy of an existing scenario]()
+
+[View or edit space allocations of a building]()
+
+[Work on a space assist request]()
+
+[Map based space administration]()
 
 [Create a scenario]()
 

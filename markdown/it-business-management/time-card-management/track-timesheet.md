@@ -3,11 +3,11 @@ title: Track your time sheets
 description: View and track the time sheets grouped according to the date of submission such as the current week, last week, or older.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/time-card-management/track-timesheet.html
-release: australia
+release: brazil
 product: Time Card Management
 classification: time-card-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Approve or reject time card from mobile, Mobile Time Sheets, Time Card management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -32,5 +32,5 @@ Role required: timecard\_approver or timecard\_admin
     -   To view the time sheets for the last week, tap **Last week** tab.
     -   To view the time sheets for previous weeks, tap **Older** tab.
 
-**Parent Topic:**[Approve or reject a time sheet or time card from your mobile device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/approve-reject-timesheet-mobile.md)
+**Parent Topic:**[Approve or reject a time sheet or time card from your mobile device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/time-card-management/approve-reject-timesheet-mobile.md)
 

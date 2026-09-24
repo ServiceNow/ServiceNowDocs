@@ -3,11 +3,11 @@ title: Extension points
 description: Use extension points to extend the functionality of an application without altering the original application code. Recommendation contexts use extension points to enable additional functionality while configuring the recommendation contexts or templates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/extension-points.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Recommendation contexts and templates, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -39,7 +39,7 @@ You can create extension points to process the custom code that uses the followi
     Extension points that are used in client-side UI scripting, typically for modifying forms.
 
 
-For more information about extension points, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md).
+For more information about extension points, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/extension-points.md).
 
-**Parent Topic:**[Recommendation contexts and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/recommendation-contexts.md)
+**Parent Topic:**[Recommendation contexts and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/recommendation-contexts.md)
 

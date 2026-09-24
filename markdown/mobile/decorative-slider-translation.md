@@ -3,9 +3,9 @@ title: Configure translated values for decorative slider
 description: Add translated values to your decorative slider.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/decorative-slider-translation.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure a decorative slider, Number render types and compatible input attributes, Input form screen attributes for inputs, Configure inputs, Configure an input form screen, Input form screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -18,7 +18,7 @@ Add translated values to your decorative slider.
 
 Role required: admin
 
-You first need to create a decorative slider before you can add translated values. For more information, see [Configure a decorative slider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/decorative-slider.md).
+You first need to create a decorative slider before you can add translated values. For more information, see [Configure a decorative slider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/decorative-slider.md).
 
 Access your decorative slider record from your input form screen and keep a record of all the Label values contained within the JSON script. These are the name values that you will be identifying for translation.
 
@@ -26,7 +26,7 @@ Access your decorative slider record from your input form screen and keep a reco
 
 1.  Navigate to the Input record in the navigation tree within Mobile App Builder, which contains the decorative slider input attribute for translating.
 
-    **Note:** For instructions on creating a decorative slider, see [Configure a decorative slider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/decorative-slider.md).
+    **Note:** For instructions on creating a decorative slider, see [Configure a decorative slider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/decorative-slider.md).
 
 2.  Select **New** from the Inputs attribute area.
 
@@ -53,7 +53,7 @@ Access your decorative slider record from your input form screen and keep a reco
 10. Select **New** in the Inputs attribute table, and then complete the table as follows.
 
     1.  In the **Label \(translate\)** field, enter the translated word that corresponds to the word in the **Value** field. For example, for an Italian translation, the **Value** field may contain the word **high**, the **Label \(translate\)** field would contain the word **alto**.
-    2.  In the Language field, enter the abbreviation for translated language you want the word to appear. For example, **it** for Italian or **es** for Spanish. For more information on abbreviations for languages, see [Languages table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_LanguagesTable.md).
+    2.  In the Language field, enter the abbreviation for translated language you want the word to appear. For example, **it** for Italian or **es** for Spanish. For more information on abbreviations for languages, see [Languages table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_LanguagesTable.md).
     3.  In the **Element** field, enter the text `translated_value`.
     4.  In the **Value** field, enter the word that needs translating.
 

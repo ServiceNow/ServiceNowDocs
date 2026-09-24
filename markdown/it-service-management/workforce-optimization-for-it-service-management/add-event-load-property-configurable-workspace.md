@@ -3,11 +3,11 @@ title: Configure an event load order in Workforce Optimization for ITSM
 description: Add a system property to display your preferred event categories first on the calendar.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/add-event-load-property-configurable-workspace.html
-release: australia
+release: brazil
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure event categories for the ITSM Manager Workspace, Setting up, Scheduling, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -20,7 +20,7 @@ Add a system property to display your preferred event categories first on the ca
 
 **Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-Set the map application scope to **Shift Planning**. For information on how to set the scope, see [Set map application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-map-application-scope.md).
+Set the map application scope to **Shift Planning**. For information on how to set the scope, see [Set map application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/set-map-application-scope.md).
 
 Role required: admin
 
@@ -100,5 +100,5 @@ sn\_shift\_planning.admin
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Configure event categories for the ITSM Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/categorize-events-configurable-wfo-itsm.md)
+**Parent Topic:**[Configure event categories for the ITSM Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/categorize-events-configurable-wfo-itsm.md)
 

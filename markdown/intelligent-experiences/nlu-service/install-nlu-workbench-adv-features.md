@@ -1,18 +1,18 @@
 ---
-title: Install NLU Workbench - Advanced Features
+title: \(Legacy\) Install NLU Workbench - Advanced Features
 description: You can install the NLU Workbench - Advanced Features application \(com.snc.nlu.workbench.advanced\) if you have the admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/install-nlu-workbench-adv-features.html
-release: australia
+release: brazil
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [NLU Workbench - Advanced Features, Natural Language Understanding, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [\(Legacy\) NLU Workbench - Advanced Features, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Install NLU Workbench - Advanced Features
+# \(Legacy\) Install NLU Workbench - Advanced Features
 
 You can install the NLU Workbench - Advanced Features application \(com.snc.nlu.workbench.advanced\) if you have the admin role.
 
@@ -24,24 +24,26 @@ You can install the NLU Workbench - Advanced Features application \(com.snc.nlu.
     -   **Required ServiceNow plugins**
         -   **Predictive Intelligence \(com.glide.platform\_ml\)**
 
-            Enables various Predictive Intelligence and Machine Learning capabilities for training models. See [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence-landing.md).
+            Enables various Predictive Intelligence and Machine Learning capabilities for training models. See [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence-landing.md).
 
         -   **NLU Workbench - Core \(com.glide.nlu\)**
 
-            Adds NLU Model capabilities. See [Activate the NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/activate-nlu-workbench.md)
+            Adds NLU Model capabilities. See [\(Legacy\) Activate the NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/activate-nlu-workbench.md)
 
         -   **NLU Workbench \(com.snc.nlu\_studio\)**
 
-            Create and train NLU models. See [Activate the NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/activate-nlu-workbench.md).
+            Create and train NLU models. See [\(Legacy\) Activate the NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/activate-nlu-workbench.md).
 
 
 Role required: admin
 
 ## About this task
 
+Starting with the Brazil release, Natural Language Understanding is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 Tables are installed with NLU Workbench - Advanced Features.
 
-For more information, see [Components installed with NLU Workbench - Advanced Features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/installed-with-nlu-wrkbnch-adv-features.md).
+For more information, see [\(Legacy\) Components installed with NLU Workbench - Advanced Features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/installed-with-nlu-wrkbnch-adv-features.md).
 
 ## Procedure
 
@@ -66,6 +68,6 @@ The following available ServiceNow Store application is installed separately fro
 
 -   **Intent Discovery**
 
-    Discover user intents from requests, incidents, or cases to help maximize deflection with Virtual Agent and NLU. For more information, see [Install Intent Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/install-intent-discovery.md).
+    Discover user intents from requests, incidents, or cases to help maximize deflection with Virtual Agent and NLU. For more information, see [\(Legacy\) Install Intent Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/install-intent-discovery.md).
 
 

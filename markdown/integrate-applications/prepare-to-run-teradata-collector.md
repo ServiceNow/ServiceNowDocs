@@ -3,9 +3,9 @@ title: Prepare to run the Teradata Collector
 description: Create a dedicated Teradata user with the permissions required for the metadata collector to harvest metadata from a target database.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/prepare-to-run-teradata-collector.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Teradata, metadata collector, database user, permissions]
 breadcrumb: [Teradata metadata collector, Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
@@ -47,7 +47,7 @@ The user has the permissions required to run the Teradata metadata collector.
 
 ## What to do next
 
-Use these credentials when configuring the collector parameters. See [Create a Teradata metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-teradata-metadata-collector.md).
+Use these credentials when configuring the collector parameters. See [Create a Teradata metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-teradata-metadata-collector.md).
 
-**Parent Topic:**[Teradata metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/teradata-metadata-collector.md)
+**Parent Topic:**[Teradata metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/teradata-metadata-collector.md)
 

@@ -3,11 +3,11 @@ title: Customize a playbook in Service Portal
 description: Use the Service Portal Designer to customize the playbook runtime experience for Service Portal users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/customize-playbook-service-portal.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Playbooks in Service Portal, Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -23,7 +23,7 @@ Use the Service Portal Designer to customize the playbook runtime experience for
 
     **Note:** A key difference in Service Portal is that the playbook record generator is used instead of the record producer. The Service Portal requester enters the information for the record generator and uses the Next or Continue declarative action to move to the next activity​.
 
-    To learn more about playbook record generators, see [Playbook record generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-record-generator-overview.md).
+    To learn more about playbook record generators, see [Playbook record generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/playbook-record-generator-overview.md).
 
 
 ## Procedure

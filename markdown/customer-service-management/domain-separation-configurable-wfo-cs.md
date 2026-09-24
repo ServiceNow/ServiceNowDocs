@@ -3,9 +3,9 @@ title: Domain separation in Workforce Optimization for Customer Service
 description: Domain separation is supported in Workforce Optimization for Customer Service. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data. Domain separation in Workforce Optimization for Customer Service is configured to apply to all features of the application. Separation of data is configured along with separation of logic and process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/domain-separation-configurable-wfo-cs.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Optimize workforce operations, Extend capabilities, Configure, Customer Service Management]
 ---
@@ -24,7 +24,7 @@ Domain separation is supported in Workforce Optimization for Customer Service. D
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-separated-apps.md).
 
 ## How domain separation works in Workforce Optimization for Customer Service
 
@@ -32,7 +32,7 @@ Domain separation in Workforce Optimization for Customer Service does not requir
 
 ## Domain separation for Channel Management in Workforce Optimization for Customer Service
 
-The work items, such as cases, interactions, and their associated actions, appear based on the selected domain. For information on how work assignments are routed based on domain in Channel Management, refer to [Domain separation and Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-domain-separation.md)
+The work items, such as cases, interactions, and their associated actions, appear based on the selected domain. For information on how work assignments are routed based on domain in Channel Management, refer to [Domain separation and Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/awa-domain-separation.md)
 
 The domain-separated tables for Channel Management are as follows:
 
@@ -69,12 +69,12 @@ Domain separated tables for Skill Recommendation
 
 ## Domain separation for Coaching in Workforce Optimization for Customer Service
 
-For information on how domain separation works in Coaching for Workforce Optimization for ITSM, refer to [Domain separation and Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cf-domain-separation-coaching.md)
+For information on how domain separation works in Coaching for Workforce Optimization for ITSM, refer to [Domain separation and Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/cf-domain-separation-coaching.md).
 
-**Parent Topic:**[Optimize workforce operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-configurable-wfo-cs.md)
+**Parent Topic:**[Optimize workforce operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/setup-configurable-wfo-cs.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-sep-landing-page.md)
 

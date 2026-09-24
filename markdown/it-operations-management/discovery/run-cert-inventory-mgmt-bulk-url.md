@@ -3,11 +3,11 @@ title: Use bulk certificate upload
 description: In Certificate Inventory and Management version 1.2.0 and later, you can import up to 5000 SSL certificates in bulk using a single .xlsx file.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/run-cert-inventory-mgmt-bulk-url.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Visibility to TLS certificates, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -33,30 +33,19 @@ The default admin is assigned both the pki\_user and pki\_admin roles. The users
 
 3.  Open the downloaded `sample_cmdb_ci_certificate.xlsx` file.
 
-4.  Refer to the sample values in the columns as a guide, and add the SSL certificate's properties into the corresponding columns.
+4.  Refer to the values in the sample rows as a guide and add the SSL certificate's properties into the corresponding columns.
 
-    Each entry in the Excel sheet corresponds to a CI certificate. Ensure the following mandatory columns are filled in.
+    Each entry in the Excel sheet corresponds to a CI certificate. For a description of each field in the `sample_cmdb_ci_certificate.xlsx` field, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/bulk-certificate-upload-template-fields.md)
 
-    -   root\_issuer
-    -   issuer
-    -   subject\_common\_name
-    -   issuer\_common\_name
-    -   fingerprint
-    -   issuer\_distinguished\_name
-    -   subject\_distinguished\_name
-    -   fingerprint\_algorithm
-    -   valid\_to: Cannot be less than valid\_fom. By milliseconds. For example, 1586789478000 represents 13 April 2020 14:51:18
-    -   valid\_from: By milliseconds. For example, 1586789478000 represents 13 April 2020 14:51:18
-    -   signature\_algorithm
-    -   key\_size
-    -   state: issued, installed, revoked, retired, or other
-    **Note:** For maintaining the certificate’s chain relationship, every certificate must have the fingerprint of its root certificate in the **root\_issuer** column and the fingerprint of its issuer in the **issuer** column. For self-signed certificates, both **root\_issuer** and **issuer** must have the value of the certificate's fingerprint.
+    **Note:**
 
-5.  Save the `sample_cmdb_ci_certificate.xlsx` file.
+    -   For maintaining the certificate’s chain relationship, every certificate must have the fingerprint of its root certificate in the **root\_issuer** column and the fingerprint of its issuer in the **issuer** column.
+    -   For self-signed certificates, both **root\_issuer** and **issuer** must have the value of the certificate's fingerprint.
+5.  Delete the sample rows and then save the `sample_cmdb_ci_certificate.xlsx` file.
 
-6.  Navigate to **Certificate Management** &gt; **Bulk Upload Certificates**.
+6.  Navigate back to the Bulk Upload Certificates form.
 
-7.  Select **Browse File** and choose the complete `sample_cmdb_ci_certificate.xlsx` file.
+7.  Select **Browse File** and choose the updated `sample_cmdb_ci_certificate.xlsx` file.
 
 8.  Select **Upload**.
 

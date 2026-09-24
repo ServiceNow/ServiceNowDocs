@@ -3,11 +3,11 @@ title: Install Playbooks for Field Service Management
 description: Install the Playbooks for Field Service Management application \(sn\_fsm\_playbook\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/activate-fsm-playbook.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Playbooks, Set up work orders and tasks, Configure, Field Service Management]
 ---
@@ -31,13 +31,13 @@ Role required: admin
 
             Enables you to manage work requests that are performed on location by field service agents.
 
-            For information, see [Activate Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/t_ActivateFieldServiceManagement.md).
+            For information, see [Activate Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/t_ActivateFieldServiceManagement.md).
 
         -   **Process Automation Designer Core \(com.glide.pad.core\)**
 
             Enables you to create a simplified and task-oriented view of your process.
 
-            For more information, see [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md) platform feature.
+            For more information, see [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/process-automation-designer.md) platform feature.
 
 
 ## Procedure

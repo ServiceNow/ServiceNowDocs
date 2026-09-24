@@ -3,9 +3,9 @@ title: Configure colors for tile icon illustrations
 description: Configure and control the colors automatically applied to tile icon illustrations to keep your visual experience engaging while maintaining brand recognition.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-tile-icon-colors.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Tile icon illustrations, Image styles, Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -18,7 +18,7 @@ Configure and control the colors automatically applied to tile icon illustration
 
 Role required: ui\_builder\_admin
 
-For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
+For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/granular-admin-roles.md).
 
 ## About this task
 
@@ -73,7 +73,7 @@ As a category, all tile icon illustrations share color hook mappings. As a resul
 
 The new colors are applied to all tile icon illustration types.
 
-If your theme is published, your illustration edits are visible to users who have your theme applied on refresh. For information about publishing themes, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-apply-theme.md).
+If your theme is published, your illustration edits are visible to users who have your theme applied on refresh. For information about publishing themes, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/tb-apply-theme.md).
 
-**Parent Topic:**[Tile icon illustrations in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tile-icons-in-tb.md)
+**Parent Topic:**[Tile icon illustrations in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/tile-icons-in-tb.md)
 

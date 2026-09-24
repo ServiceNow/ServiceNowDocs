@@ -3,11 +3,11 @@ title: AI extraction supported entities and fields
 description: Threat entity types that AI extraction identifies in an uploaded document, and the AI-generated fields that it adds to the extracted records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-ai-extraction-fields.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: reference
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI extraction, Analysis Score, Analysis Reasoning]
 breadcrumb: [Import data using AI, Import Intelligence in TISC, Use, Threat Intelligence Security Center, Security Operations]
@@ -44,12 +44,12 @@ When you submit the import, the Analysis Score and Analysis Reasoning values are
 
 The Confidence value on the extracted records comes from the Confidence field that you set in the definitions section of the import. It isn't AI-generated.
 
-To support extraction of a higher number of threat entities, use Content Understanding v6.2.0 or higher. For more information, see [Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/content-understanding-landing.md).
+To support extraction of a higher number of threat entities, use Content Understanding v6.2.0 or higher. For more information, see [Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/content-understanding-landing.md).
 
-**Parent Topic:**[Import data using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/import-data-using-ai.md)
+**Parent Topic:**[Import data using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/import-data-using-ai.md)
 
 **Related topics**  
 
 
-[Import data using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/import-data-using-ai.md)
+[Import data using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/import-data-using-ai.md)
 

@@ -3,11 +3,11 @@ title: Palo Alto Networks - Firewall integration
 description: To perform Palo Alto Networks - Firewall integration, ensure that you have a MID Server set up with SSH credentials. If a firewall is not already set up, add one.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/palo-alto-firewall-landing-page.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -20,36 +20,36 @@ To perform Palo Alto Networks - Firewall integration, ensure that you have a MID
 
 Explore
 
- [Security Incident Response integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir_integrations.md)
+ [Security Incident Response integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/sir_integrations.md)
 
 </td><td>
 
 Set up
 
- -   [Activate and configure the Palo Alto Networks Firewall Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/activate-config-firewall.md)
--   [Set up SSH credentials to the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/set-up-and-config-MID-server.md)
+ -   [Activate and configure the Palo Alto Networks Firewall Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/activate-config-firewall.md)
+-   [Set up SSH credentials to the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/set-up-and-config-MID-server.md)
 
 </td></tr><tr><td>
 
 Use
 
- [Palo Alto Networks Firewall Launcher Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/secops-integration-paloalto-firewall-launcher-workflow.md)
+ [Palo Alto Networks Firewall Launcher Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/secops-integration-paloalto-firewall-launcher-workflow.md)
 
 </td><td>
 
 Develop
 
- -   [ServiceNow Security Operations integration development guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_IntegrationWritingGuidelines.md)
--   [Tips for writing integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_BestPractisesIntegrations.md)
+ -   [ServiceNow Security Operations integration development guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/c_IntegrationWritingGuidelines.md)
+-   [Tips for writing integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/c_BestPractisesIntegrations.md)
 -   [Developer training](https://developer.servicenow.com/app.do#!/training/landing)
 -   [Developer documentation](https://developer.servicenow.com/app.do#!/documentation)
--   [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md)
+-   [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md)
 
 </td></tr><tr><td>
 
 Troubleshoot and get help
 
- -   [Integration troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_IntegrationTroubleshooting.md)
+ -   [Integration troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/c_IntegrationTroubleshooting.md)
 -   [Ask or answer questions in the Security Operations community](https://community.servicenow.com/community/security-operations)
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)

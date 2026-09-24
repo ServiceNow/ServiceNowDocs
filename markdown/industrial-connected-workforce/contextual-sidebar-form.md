@@ -3,9 +3,9 @@ title: User preference form
 description: The following table describes the field values for the user preference form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/contextual-sidebar-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Industrial Connected Workforce Core, Industrial Connected Workforce]
 ---
@@ -23,5 +23,5 @@ The following table describes the field values for the user preference form.
 |Type|Data type of entry accepted for the Value. Select **true \| false**.|
 |System|Option to enable or disable the system-wide default. Select this option.|
 
-**Parent Topic:**[Industrial Connected Workforce reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/icw-reference.md)
+**Parent Topic:**[Industrial Connected Workforce reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/icw-reference.md)
 

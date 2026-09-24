@@ -3,11 +3,11 @@ title: Remove the text index for a child table
 description: You can remove the text index for a child table if you no longer want the search engine to return results for that child table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/remove-index-child-table.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Zing indexes words, Zing text indexing and search engine, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -56,7 +56,7 @@ To disable text indexing for a specific child table, set that table's **No text 
 
 The system no longer indexes or queries the child table for text search results. Indexing continues for other tables in the table's hierarchy.
 
-**Parent Topic:**[Zing indexes words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/zing-indexes-words.md)
+**Parent Topic:**[Zing indexes words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/zing-indexes-words.md)
 
 **Related topics**  
 

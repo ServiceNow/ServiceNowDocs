@@ -3,11 +3,11 @@ title: Jumpstart Your Knowledge Management
 description: The Jumpstart Your Knowledge Management Accelerator provides a demonstration of the possibilities and capabilities of Knowledge Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-knowledge-management.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
@@ -24,14 +24,15 @@ Jumpstart Your Knowledge Management provides Impact customers with an  overvie
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
 
-Offered pursuant to the applicable Impact Accelerator Description available at  [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
-
 ## What you get
 
 -   **Session preparation**
-    -   Provision a temporary instance
-    -   Activate related plugins
--   **Customer coaching session \#1 \(up to 90 minutes\)**
+
+    The Technical Accelerator Consultant:
+
+    -   Provisions a temporary instance
+    -   Activates related plugins
+-   **Customer coaching session \#1 \(up to 1.5 hrs\)**
 
     Includes the following:
 
@@ -41,11 +42,13 @@ Offered pursuant to the applicable Impact Accelerator Description available at�
         -   Initial setup and configuration support
         -   Strategies for managing and consuming Knowledge effectively
     -   Key resources and leading practices guides
-    -   30 days access to the temporary instance is provided
--   **Customer coaching session \#2 \(optional upon customer request, up to 60 minutes\)**
+-   **Customer coaching session \#2 \(optional upon customer request, up to 1 hr\)**
 
     Opportunity for Q&amp;A related to Knowledge Management.
 
+-   **Output**
+    -   30-day access to the temporary instance and Technical Accelerator Consultant with whom you met for any further questions or in-depth explorations
+    -   Copy of the Coaching Session Deck
 
 ## Requested customer resources
 
@@ -60,9 +63,9 @@ One or more customer resource is requested. The specific number of resources pro
 |Developers|Writes code for the ServiceNow platform.| |✓|
 |Trusted Service Partners|Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customer going forward.| |✓|
 
-## Requested information / access
+## Requested Information/Access
 
-Refer to the applicable Impact Accelerator description available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
+**Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
 
 ## Exclusions
 

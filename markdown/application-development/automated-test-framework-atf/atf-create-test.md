@@ -3,11 +3,11 @@ title: Create a new automated test
 description: Create a named automated test containing a series of steps to execute.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-create-test.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Building and running automated tests with the Automated Test Framework, Automated Test Framework \(ATF\) test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -32,7 +32,7 @@ Role required: atf\_test\_admin or atf\_test\_designer
 
 4.  Enable parameterized testing to run a test multiple times with different test data for each run.
 
-    For more information, see [Parameterized tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/parameterized-tests.md).
+    For more information, see [Parameterized tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/parameterized-tests.md).
 
 5.  Enter a **Description** for your test.
 
@@ -43,16 +43,16 @@ Role required: atf\_test\_admin or atf\_test\_designer
 
 ## What to do next
 
-[Add steps to an automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-create-step.md).
+[Add steps to an automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-create-step.md).
 
--   **[Add a predefined list of steps \(template\) to an automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-use-template.md)**  
+-   **[Add a predefined list of steps \(template\) to an automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-use-template.md)**  
 With test templates you can add a predefined list of steps to a test. Any list of steps that follows a set pattern makes a good candidate for a template.
--   **[Add steps to an automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-create-step.md)**  
+-   **[Add steps to an automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-create-step.md)**  
 Create a series of steps for an automated test to run in a specified order.
--   **[Change automated test step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-edit-test-step.md)**  
+-   **[Change automated test step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-edit-test-step.md)**  
 If necessary, edit a test step after you create it.
--   **[Edit automated test step order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-edit-step-order.md)**  
+-   **[Edit automated test step order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-edit-step-order.md)**  
 By default, steps execute in the order in which you created them. You can change this order by editing the **Execution Order** field.
 
-**Parent Topic:**[Building and running automated tests with the Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-build-overview.md)
+**Parent Topic:**[Building and running automated tests with the Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-build-overview.md)
 

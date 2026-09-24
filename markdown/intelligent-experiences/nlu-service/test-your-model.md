@@ -1,26 +1,26 @@
 ---
-title: Test your model
+title: \(Legacy\) Test your model
 description: Test your Natural Language Understanding \(NLU\) model against its default test set. Testing helps determine how your model is performing with the current content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/test-your-model.html
-release: australia
+release: brazil
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Test and publish your model, Model management, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) Test and publish your model, \(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Test your model
+# \(Legacy\) Test your model
 
 Test your Natural Language Understanding \(NLU\) model against its default test set. Testing helps determine how your model is performing with the current content.
 
 ## Before you begin
 
 -   Make sure that the NLU Model Builder - Core plugin, NLU Model Builder plugin, NLU Workbench - Advanced Features plugin and Predictive Intelligence plugin are all installed and activated.
--   Have a trained model for Virtual Agent or AI Search. For more information, see [Build and train your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/managing-model-content.md).
--   Have a test set for testing models. For more information, see [Test set creation and management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-test-set-creation-management.md).
+-   Have a trained model for Virtual Agent or AI Search. For more information, see [\(Legacy\) Build and train your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/managing-model-content.md).
+-   Have a test set for testing models. For more information, see [\(Legacy\) Test set creation and management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/nlu-test-set-creation-management.md).
 -   Role required: nlu\_editor, nlu\_admin, or admin. The editor must be assigned to the model.
 
 ## About this task

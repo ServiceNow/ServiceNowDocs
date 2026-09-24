@@ -3,11 +3,11 @@ title: Overview tab sections for Log Analytics alert groups
 description: The alert Overview tab in Health Log Analytics helps you understand Log Analytics groups.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-op-ovrvw-tab-log-anltcs-alerts-sow.html
-release: australia
+release: brazil
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Overview tab, Log Analytics group, Log Analytics alerts, alert correlations, log correlator, alerts in group, identified issue, impacted services, configuration items, Service Operations Workspace]
 breadcrumb: [Information on the alert Overview tab, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
@@ -17,7 +17,7 @@ breadcrumb: [Information on the alert Overview tab, Health Log Analytics referen
 
 The alert **Overview** tab in Health Log Analytics helps you understand Log Analytics groups.
 
-For a detailed description of Log Analytics groups, see [Types of Health Log Analytics alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-log-analytics-alert-types.md).
+For a detailed description of Log Analytics groups, see [Types of Health Log Analytics alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-op-log-analytics-alert-types.md).
 
 ## Summary
 
@@ -120,7 +120,7 @@ Priority group that indicates the order in which to resolve alerts. Choices are 
 -   **High**
 -   **Moderate**
 -   **Low**
-The priority group value is more important than severity alone. For example, a high priority and low severity alert should be addressed before a low priority and high severity alert. For information on how priority is calculated, see [Alert priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-priority.md).
+The priority group value is more important than severity alone. For example, a high priority and low severity alert should be addressed before a low priority and high severity alert. For information on how priority is calculated, see [Alert priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/alert-priority.md).
 
 </td></tr><tr><td>
 
@@ -188,5 +188,5 @@ Most recent time when the alert information or state was updated.
     \[Omitted image "hla-ovrvw-tab-impact-sow.png"\] Alt text: Impact section provides information on the impacted CIs and services.
 
 
-**Parent Topic:**[Sections and cards on the alert Overview tab in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-alert-overview-tab.md)
+**Parent Topic:**[Sections and cards on the alert Overview tab in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-alert-overview-tab.md)
 

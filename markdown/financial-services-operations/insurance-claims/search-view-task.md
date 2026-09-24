@@ -3,11 +3,11 @@ title: View ad-hoc and system generated tasks for a claim
 description: View a pending task to prioritize your claim work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/search-view-task.html
-release: australia
+release: brazil
 product: Insurance Claims
 classification: insurance-claims
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Add an ad-hoc task, Use, Commercial Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---

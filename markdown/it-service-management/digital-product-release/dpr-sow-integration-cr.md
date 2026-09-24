@@ -3,11 +3,11 @@ title: Associating change requests with releases in Service Operations Workspace
 description: The integration between Service Operations Workspace \(SOW\) and Digital Product Release \(DPR\) workspaces provide a unified release and change management experience. You can associate releases with change requests across both workspaces.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-sow-integration-cr.html
-release: australia
+release: brazil
 product: Digital Product Release
 classification: digital-product-release
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [SOW integration, Statement of Work, change request integration, workspace integration, interoperable routes]
 breadcrumb: [Explore, Digital Product Release, IT Service Management]
@@ -25,7 +25,7 @@ This seamless experience streamlines collaboration between Change and Release te
 -   Import affected configuration items \(CIs\) from releases into changes.
 -   View release details in the SOW workspace.
 
-For more information, see [Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/sow-landing-page.md).
+For more information, see [Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/sow-landing-page.md).
 
 ## Prerequisites
 
@@ -51,7 +51,7 @@ If a change is associated with a release, the card displays the following key de
 
 To open the release record page, select the release name link.
 
-For more information, see [Create a change request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-change-sow.md).
+For more information, see [Create a change request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-change-sow.md).
 
 ## Affected CIs import
 
@@ -59,14 +59,14 @@ You can import affected configuration items \(CIs\) from release phases directly
 
 For large CI sets, the import process runs asynchronously. Manually refresh the list if the imported CIs don’t appear immediately.
 
-For more information, see [Create a change request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-change-sow.md).
+For more information, see [Create a change request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-change-sow.md).
 
-**Parent Topic:**[Exploring Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-exploring-digital-product-release.md)
+**Parent Topic:**[Exploring Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-exploring-digital-product-release.md)
 
 **Related topics**  
 
 
-[Manage change requests in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-release-change-request.md)
+[Manage change requests in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-work-release-change-request.md)
 
-[Change Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/change-sow.md)
+[Change Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/change-sow.md)
 

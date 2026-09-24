@@ -3,9 +3,9 @@ title: Configure offline mode properties for action functions
 description: Determine which fields and functions are available to users when working in offline mode.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/config-offline-properties-action-funct.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Supported functions, Align apps, screens, and functions, Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -92,5 +92,5 @@ This setting controls which screens should visually reflect that a record was mo
 </table>7.  Select **Save**.
 
 
-**Parent Topic:**[Supported functions for offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/functions-offline.md)
+**Parent Topic:**[Supported functions for offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/functions-offline.md)
 

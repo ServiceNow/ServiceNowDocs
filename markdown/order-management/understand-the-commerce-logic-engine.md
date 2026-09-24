@@ -3,11 +3,11 @@ title: The CPQ Configurator
 description: The CPQ Configurator is an advanced commerce logic solution that allows businesses to configure and sell products more effectively. Unlike traditional product-based systems, CPQ uses an attribute-based configuration model. This ensures that users are guided through selections, rules are enforced automatically, and only valid outcomes are generated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/understand-the-commerce-logic-engine.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [CPQ Configurator, Configure, price, quote apps, Explore, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # The CPQ Configurator

@@ -3,11 +3,11 @@ title: Add and modify test cycles and test execution suites in Test Management 2
 description: Add and modify test cycles and test execution suites from a single user interface without having to switch between multiple user interfaces and forms.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/use-planning-tab.html
-release: australia
+release: brazil
 product: Test Management
 classification: test-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Test Board in Test Management 2.0, Testing using Test Management 2.0, Test Management 2.0, Test Management applications, Strategic Portfolio Management]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_test\_management.test\_manager
 
 In Test Management 2.0, a test plan is broken into test cycles, and test cycles are broken into test execution suites. A test cycle represents a phase or iteration of testing within a test plan, such as regression testing or smoke testing. A test execution suite is the smallest unit of organization, containing the individual test assignments for testers.
 
-Use the **Planning** tab to manage this hierarchy from a single view. For more information about key terms, see [Test Management 2.0 overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/overview-test-management2.md).
+Use the **Planning** tab to manage this hierarchy from a single view. For more information about key terms, see [Test Management 2.0 overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/test-management/overview-test-management2.md).
 
 ## Procedure
 
@@ -36,15 +36,15 @@ Use the **Planning** tab to manage this hierarchy from a single view. For more i
 
 4.  Add or modify test plans and test execution suites in the Test plan work item hierarchy.
 
-<table id="choicetable_lwp_mjz_sfb"><thead><tr><th align="left" id="d314122e111">
+<table id="choicetable_lwp_mjz_sfb"><thead><tr><th align="left" id="d315701e111">
 
 Option
 
-</th><th align="left" id="d314122e114">
+</th><th align="left" id="d315701e114">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d314122e120">
+</th></tr></thead><tbody><tr><td id="d315701e120">
 
 **To add a test cycle**
 
@@ -54,7 +54,7 @@ Description
 2.  Right-click and select **Add Test Cycle**, or click the add icon \(\[Omitted image "add.png"\] Alt text: Add icon\).
 
 
-</td></tr><tr><td id="d314122e147">
+</td></tr><tr><td id="d315701e147">
 
 **To edit a test cycle in a form**
 
@@ -64,7 +64,7 @@ Description
 2.  Right-click and select **Edit**.
 
 
-</td></tr><tr><td id="d314122e168">
+</td></tr><tr><td id="d315701e168">
 
 **To delete a test cycle with its test execution suites**
 
@@ -74,7 +74,7 @@ Description
 2.  Right-click and select **Delete**.
 
 
-</td></tr><tr><td id="d314122e189">
+</td></tr><tr><td id="d315701e189">
 
 **To add a test execution suite**
 
@@ -84,7 +84,7 @@ Description
 2.  Right-click and select **Add Execution Suite**, or click the add icon \( \[Omitted image "add.png"\] Alt text: Add icon\).
 
 
-</td></tr><tr><td id="d314122e217">
+</td></tr><tr><td id="d315701e217">
 
 **To edit a test execution suite in a form**
 
@@ -94,7 +94,7 @@ Description
 2.  Right-click and select **Edit**.
 
 
-</td></tr><tr><td id="d314122e238">
+</td></tr><tr><td id="d315701e238">
 
 **To add tests to a test execution suite**
 
@@ -104,7 +104,7 @@ Description
 2.  Right-click and select **Add tests**.
 
 
-</td></tr><tr><td id="d314122e259">
+</td></tr><tr><td id="d315701e259">
 
 **To add test sets to a test execution suite**
 
@@ -114,7 +114,7 @@ Description
 2.  Right-click and select **Add test sets**.
 
 
-</td></tr><tr><td id="d314122e280">
+</td></tr><tr><td id="d315701e280">
 
 **To hide or display columns**
 
@@ -127,15 +127,15 @@ Description
 </td></tr></tbody>
 </table>5.  View the summary or adjust the duration of a task in the Gantt chart.
 
-<table id="choicetable_kbs_3kz_sfb"><thead><tr><th align="left" id="d314122e313">
+<table id="choicetable_kbs_3kz_sfb"><thead><tr><th align="left" id="d315701e313">
 
 Option
 
-</th><th align="left" id="d314122e316">
+</th><th align="left" id="d315701e316">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d314122e322">
+</th></tr></thead><tbody><tr><td id="d315701e322">
 
 **To view the summary of a task**
 
@@ -143,7 +143,7 @@ Description
 
 Point to a task to see the details of the task in a pop-up.
 
-</td></tr><tr><td id="d314122e343">
+</td></tr><tr><td id="d315701e343">
 
 **To change the planned start or end dates of a task**
 
@@ -151,7 +151,7 @@ Point to a task to see the details of the task in a pop-up.
 
 Click the task, and drag the left or right edge of the task bar to the required date.
 
-</td></tr><tr><td id="d314122e352">
+</td></tr><tr><td id="d315701e352">
 
 **To move a task to a new date**
 
@@ -159,7 +159,7 @@ Click the task, and drag the left or right edge of the task bar to the required 
 
 Click the task, and drag the whole task bar to a new date.
 
-</td></tr><tr><td id="d314122e361">
+</td></tr><tr><td id="d315701e361">
 
 **To zoom the calendar in or out**
 
@@ -171,5 +171,5 @@ When the zoom level in calender is selected as **Auto Fit**, the Gantt view fits
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Test Board in Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/test-board.md)
+**Parent Topic:**[Test Board in Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/test-management/test-board.md)
 

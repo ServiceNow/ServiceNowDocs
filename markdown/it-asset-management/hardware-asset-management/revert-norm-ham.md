@@ -3,13 +3,13 @@ title: Revert normalization of hardware and consumable models
 description: Revert the normalization of hardware and consumable models in the Hardware Asset Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/revert-norm-ham.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Work with hardware normalization, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Configure Hardware Model Normalization, Integrations and advanced configuration, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Revert normalization of hardware and consumable models
@@ -20,7 +20,7 @@ Revert the normalization of hardware and consumable models in the Hardware Asset
 
 Role required: Users with assetor model\_admin role \(without Domain separation\), assetor model\_admin and domain\_admin \(with Domain separation\).
 
-**Note:** The model\_admin role is available only if the OT Asset Management application is activated on your ServiceNow instance. This role enables you to revert the normalization status of OT hardware models. For more details on OT assets, see [OT Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/ot-asset-ws-otam.md). The model\_admin role includes the mode\_manager sub-role.
+**Note:** The model\_admin role is available only if the OT Asset Management application is activated on your ServiceNow instance. This role enables you to revert the normalization status of OT hardware models. For more details on OT assets, see [OT Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/ot-asset-ws-otam.md). The model\_admin role includes the mode\_manager sub-role.
 
 ## About this task
 
@@ -30,15 +30,15 @@ Hardware and consumable models with a status of **Fully Normalized**, **Partiall
 
 1.  Navigate to a normalized hardware or consumable record.
 
-<table id="choicetable_dsq_fhg_ywb"><thead><tr><th align="left" id="d296608e98">
+<table id="choicetable_dsq_fhg_ywb"><thead><tr><th align="left" id="d299636e98">
 
 Interface
 
-</th><th align="left" id="d296608e101">
+</th><th align="left" id="d299636e101">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d296608e107">
+</th></tr></thead><tbody><tr><td id="d299636e107">
 
 **Core UI**
 
@@ -48,7 +48,7 @@ Action
 -   For consumable models, navigate to **All** &gt; **Product Catalog** &gt; **Product Models** &gt; **Consumable models**.
 
 
-</td></tr><tr><td id="d296608e155">
+</td></tr><tr><td id="d299636e155">
 
 **Hardware Asset Workspace**
 
@@ -76,5 +76,5 @@ After the revert normalization process is complete, the following changes take p
 -   The deactivated rule can no longer normalize any more models. The deactivated rule can't be reactivated. It’s a one-time procedure.
 -   The **Revert Normalization** option on the model record is replaced with the **Normalize** option.
 
-**Parent Topic:**[Work with hardware normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.md)
+**Parent Topic:**[Configure Hardware Model Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.md)
 

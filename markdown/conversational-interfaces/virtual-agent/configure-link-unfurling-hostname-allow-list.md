@@ -3,13 +3,13 @@ title: Configure link unfurling using the Hostname allow list table
 description: Use the Hostname allow list \[sys\_cs\_hostname\_allow\_list\] table to identify the list of hosts and domains that can be unfurled.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/configure-link-unfurling-hostname-allow-list.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using link unfurling, Exploring other Virtual Agent features, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Link unfurling, Other Virtual Agent features, Build conversations, Virtual Agent, Conversational Interfaces]
 ---
 
 # Configure link unfurling using the Hostname allow list table
@@ -74,5 +74,5 @@ Domain group. The default is global.
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Using link unfurling in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-link-unfurling.md)
+**Parent Topic:**[Link unfurling in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-link-unfurling.md)
 

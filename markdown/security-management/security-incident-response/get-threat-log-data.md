@@ -1,14 +1,14 @@
 ---
 title: Get Log Data Flow
-description: If Security Incident Response, Threat Intelligence, and Palo Alto Networks - Firewall are activated, the Security Operations Palo Alto Networks - Get Log Data flow automatically executes when the Source IP for observables in a security incident is changed.The Palo Alto Firewall: Get Log flow action schedules a query on the firewall to retrieve logs and returns a JobID used to retrieve the log data.After the Palo Alto Firewall: Get Log action queues the search query to the firewall and the job runs, the Palo Alto Firewall: Job Data Action action retrieves the threat log data from the firewall.
+description: If Security Incident Response, Threat Intelligence, and Palo Alto Networks - Firewall are activated, the Security Operations Palo Alto Networks - Get Log Data flow automatically executes when the Source IP for observables in a security incident is changed.This action retrieves the API key from the firewall.The Palo Alto Firewall: Get Firewall Config flow action gets all the related firewall configuration information from the database, and makes it available for use by the subsequent action.The Palo Alto Firewall: Get Log flow action schedules a query on the firewall to retrieve logs and returns a JobID used to retrieve the log data.After the Palo Alto Firewall: Get Log action queues the search query to the firewall and the job runs, the Palo Alto Firewall: Job Data Action action retrieves the threat log data from the firewall.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/get-threat-log-data.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Palo Alto Networks - Firewall integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -36,6 +36,58 @@ During flow execution, firewall configuration information is retrieved from the 
 
     The **Security Operations Palo Alto Networks - Get Log Data** flow executes and enriched threat log data is attached to the security incident. The information is also parsed and displayed in the **Firewall Logs** section under the **Enrichment Data** tab.
 
+
+## Palo Alto Firewall: Get API Key Action
+
+This action retrieves the API key from the firewall.
+
+### Input variables
+
+Input variables determine the initial behavior of the action. All input variable entries listed are mandatory.
+
+|Variable|Description|
+|--------|-----------|
+|Username \[string\]|The user name of the firewall administrator.|
+|Password \[string\]|The firewall administrator password.|
+|FirewallIpAddress \[string\]|The IP address of the firewall.|
+
+### Output variables
+
+The output variables contain data that can be used in subsequent actions. The output consists of data from the firewall configuration, as well as dynamically generated data.
+
+|Variable|Description|
+|--------|-----------|
+|APIKey \[string\]|The firewall API key.|
+
+## Palo Alto Firewall: Get Firewall Config Action
+
+The **Palo Alto Firewall: Get Firewall Config** flow action gets all the related firewall configuration information from the database, and makes it available for use by the subsequent action.
+
+### Input variables
+
+Input variables determine the initial behavior of the action.
+
+|Variable|Description|
+|--------|-----------|
+|firewallSysid \[string\]|The system id of the firewall. This input variable is mandatory.|
+|typeOfValueToBeBlocked \[string\]|The type of value to be blocked on the firewall: IP, URL, or Domain.|
+|firewallIPAddress \[string\]|The IP address of the firewall.|
+
+### Output variables
+
+The output variables contain data that can be used in subsequent actions. The output consists of data from the firewall configuration, as well as dynamically generated data.
+
+|Variable|Description|
+|--------|-----------|
+|ipEDLName \[string\]|The External Dynamic List name for IP addresses.|
+|urlEDLName \[string\]|The External Dynamic List name for URLs.|
+|domainEDLName \[string\]|The External Dynamic List name for domains.|
+|firewallVersionSysId \[string\]|The system id for the firewall version.|
+|refreshEDLCommand \[string\]|The command to be used to refresh the EDL from the source.|
+|ShowEDLDetailsCommand \[string\]|The command to be used to get the EDL details.|
+|status \[Boolean\]|True indicates success. False indicates failure.|
+|error \[string\]|The error, if any, that occurred in the action.|
+|endpoint \[Encrypted\]|The encrypted endpoint from the database.|
 
 ## Palo Alto Firewall- Get Log Action
 

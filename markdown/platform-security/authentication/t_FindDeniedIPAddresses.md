@@ -3,11 +3,11 @@ title: Find denied IP addresses
 description: Find Denied IP addresses in the instance's node log files.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_FindDeniedIPAddresses.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [IP range based authentication, Authentication, Access Management]
 ---

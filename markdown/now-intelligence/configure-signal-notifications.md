@@ -3,9 +3,9 @@ title: Configure signal notifications
 description: As a responsible user, you receive email reminders about signals that have not been resolved. You can configure how frequently you get these reminders and the maximum number of reminders to get for a signal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/configure-signal-notifications.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, KPI Signals, Platform Analytics experience, Platform Analytics]
 ---
@@ -59,10 +59,10 @@ In this last case, you can set how frequently a KPI is checked for resolution. Y
     Length of time to calculate the baseline for the KPI * Anti-signal factor
     ```
 
-    The default anti-signal factor is two. Set this factor if you decide it needs to be changed. For more information, see [Signal, no signal, and anti-signal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/signal-no-signal-anti-signal.md).
+    The default anti-signal factor is two. Set this factor if you decide it needs to be changed. For more information, see [Signal, no signal, and anti-signal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/signal-no-signal-anti-signal.md).
 
 8.  Click **Save**.
 
 
-**Parent Topic:**[Configuring KPI Signals for an indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configuring-kpi-signals.md)
+**Parent Topic:**[Configuring KPI Signals for an indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/configuring-kpi-signals.md)
 

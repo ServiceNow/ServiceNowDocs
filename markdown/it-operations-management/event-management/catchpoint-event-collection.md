@@ -3,11 +3,11 @@ title: Integrate Catchpoint events
 description: Integrate Catchpoint with Event Management by adding an alert webhook in the Catchpoint platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/catchpoint-event-collection.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -140,5 +140,5 @@ Alerts start flowing from the Catchpoint connector into the Event Management plu
 |1|Critical|
 |2/3|Clear|
 
-**Parent Topic:**[Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-listener-transform-script.md)
+**Parent Topic:**[Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-listener-transform-script.md)
 

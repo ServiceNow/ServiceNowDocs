@@ -1,18 +1,18 @@
 ---
-title: Reconnect CPQ after refreshing the Salesforce org
-description: Reconnect the CPQ environment to a new or refreshed SFDC org.
+title: Reconnect Logik after refreshing the Salesforce org
+description: Reconnect the Logik environment to a new or refreshed SFDC org.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/reconnect-logik-after-refreshing-the-salesforce-org.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CPQ integration with Salesforce B2B Commerce, CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
 
-# Reconnect CPQ after refreshing the Salesforce org
+# Reconnect Logik after refreshing the Salesforce org
 
-Reconnect the CPQ environment to a new or refreshed SFDC org.
+Reconnect the Logik environment to a new or refreshed SFDC org.
 
 ## Before you begin
 
@@ -20,24 +20,22 @@ Role required: Admin
 
 ## Procedure
 
-1.  Submit a support case through the support site.
+1.  Submit a support case through the support site or by emailing
 
-    Open a ticket by using the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
+    Provide the new org ID, the My Domain URL, and the custom URL of the Logik environment. The custom URL will have the form `https://<tenant>.<sector>.CPQ`.
 
-    Provide the new org ID, the My Domain URL, and the custom URL of the CPQ environment. The custom URL will have the form `https://<tenant>.<sector>.cpq`.
+2.  If a Logik user exists on the org, send a password reset request for the user.
 
-2.  If a CPQ user exists on the org, send a password reset request for the user.
-
-3.  If no CPQ user exists on the org, create a user.
+3.  If no Logik user exists on the org, create a user.
 
 
 ## Result
 
-You will be notified when the migration of the CPQ environment to the new org is complete.
+You will be notified when the migration of the Logik environment to the new org is complete.
 
-If CPQ has confirmed the migration is complete but you are unable to give a user access to the org, follow these steps:
+If Logik has confirmed the migration is complete but you are unable to give a Logik user access to the org, follow these steps:
 
-1.  Navigate to the CPQ Tenant: Setup &gt; Custom Settings &gt; Click Manage next to the CPQ Tenant.
-2.  Edit or confirm that the Administration URL is set to the custom URL of your CPQ environment: `https://<tenant>.<sector>.cpq`.
-3.  Navigate to Installed Packages &gt; Find Salesforce CPQ &gt; Configure &gt; Additional Settings, and update the Salesforce CPQ External Configurator URL to your CPQ URL followed by `/ui/configure: https://<tenant>.<sector>.cpq/ui/configure`.
+1.  Navigate to the Logik Tenant: Setup &gt; Custom Settings &gt; Click Manage next to the Logik Tenant.
+2.  Edit or confirm that the Administration URL is set to the custom URL of your Logik environment: `https://<tenant>.<sector>.CPQ`.
+3.  Navigate to Installed Packages &gt; Find Salesforce CPQ &gt; Configure &gt; Additional Settings, and update the Salesforce CPQ External Configurator URL to your Logik URL followed by `/ui/configure: https://<tenant>.<sector>.CPQ/ui/configure`.
 

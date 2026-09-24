@@ -3,11 +3,11 @@ title: Change highlighting of calendar report events
 description: Field styles control the highlighting of events in calendar reports. Manage field styles to change how highlighting works.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/t\_HighlightACalendarEntry.html
-release: australia
+release: brazil
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customize calendar reports, Administering reports, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -28,7 +28,7 @@ You can change only the background color of calendar events. All other CSS is ig
 
 **Note:**
 
-[Define field styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_DefineFieldStyles.md) for the appropriate table.
+[Define field styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_DefineFieldStyles.md) for the appropriate table.
 
 -   To define field styles for all calendar reports, define the style on the Task \[task\] table.
 -   To define field styles that apply only to calendars that are a based on a specific table or report source, define the field styles on that table.
@@ -54,7 +54,7 @@ If calendar reports are configured to use field styles from their tables or repo
 5.  Select **Update**.
 
 
-**Parent Topic:**[Customize calendar reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_CustomizeCalendarReports.md)
+**Parent Topic:**[Customize calendar reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_CustomizeCalendarReports.md)
 
 **Related topics**  
 

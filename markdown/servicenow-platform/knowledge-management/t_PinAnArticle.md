@@ -3,11 +3,11 @@ title: Add a knowledge article to featured content
 description: Add a knowledge article to appear in the Featured content section of the knowledge homepage and at the top of knowledge search results page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/t\_PinAnArticle.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuration tasks for knowledge managers, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -58,7 +58,7 @@ Adding an article to featured content requires associating an article to specifi
 
 The featured content on the knowledge service portal displays the article.
 
-**Parent Topic:**[Configuration tasks for knowledge managers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/c_KnowledgeManager.md)
+**Parent Topic:**[Configuration tasks for knowledge managers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/c_KnowledgeManager.md)
 
 **Related topics**  
 

@@ -3,11 +3,11 @@ title: Process executions
 description: A process execution is a single, runtime instance of a playbook. Process execution records provide runtime information about playbooks, such as the current state and input record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/process-executions.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Playbooks reference, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -29,7 +29,7 @@ By default, each process execution record contains the following information:
 |Name|Name of the playbook that triggered this process execution|
 |Created|Date and time when the playbook triggered|
 |Input Record|Table name and record number that triggered this process execution|
-|State|Current status of the overall process execution. For more information, see [Process execution states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-executions.md).|
+|State|Current status of the overall process execution. For more information, see [Process execution states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/process-executions.md).|
 
 ## Process execution states
 

@@ -3,9 +3,9 @@ title: Guidelines for segments
 description: Follow these suggestions to help you use segments in the semantic layer effectively.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/general-guidelines-segments.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Segments, Tuning the semantic layer, Configure, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
@@ -59,7 +59,7 @@ Manual segments are the recommended way to ship domain-specific saved searches w
 
 ## Property tuning suggestions
 
-Use these suggestions to adjust system properties when segments are not performing as expected. For a complete list of all segment properties and their defaults, see [Query Generation properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-properties.md).
+Use these suggestions to adjust system properties when segments are not performing as expected. For a complete list of all segment properties and their defaults, see [Query Generation properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/querygen-properties.md).
 
 -   **Segments are not matching user questions**
 
@@ -82,14 +82,14 @@ Use these suggestions to adjust system properties when segments are not performi
     Enable the AI Search property **segments.ais\_batch\_fetch\_enabled**. Without batch search, manual and automated segments compete for the same result slots. Batch search gives each type a dedicated search, significantly improving manual segment coverage.
 
 
-**Parent Topic:**[Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-segments.md)
+**Parent Topic:**[Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/querygen-segments.md)
 
 **Related topics**  
 
 
-[Create a manual segment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-create-segment-manually.md)
+[Create a manual segment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/querygen-create-segment-manually.md)
 
-[Manual segment data model and sync behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/manual-segment-data-model-sync.md)
+[Manual segment data model and sync behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/manual-segment-data-model-sync.md)
 
-[Shipping manual segments via plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/shipping-manual-segments-plugins.md)
+[Shipping manual segments via plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/shipping-manual-segments-plugins.md)
 

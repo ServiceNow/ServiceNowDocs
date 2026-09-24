@@ -3,11 +3,11 @@ title: Domain separation and Workflow
 description: Domain separation is supported in the Workflow application. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.Delegated administration allows child domains to inherit workflows from higher up the domain hierarchy and to override them with domain-specific versions if necessary.When a user starts a new workflow, the workflow runs with that user's domain and credentials.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/c\_WorkflowsAndDomainSeparation.html
-release: australia
+release: brazil
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Workflow concepts, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,8 +32,8 @@ When domain separation is enabled, workflows and workflow activities inherit the
 
 While workflows are managed by multiple tables, only the following tables are used for domain separation features:
 
--   **Workflow \[wf\_workflow\]** and **Workflow Version \[wf\_workflow\_version\]**: used for [Process administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DelegatedAdministration.md) or process separation.
--   **Workflow Context \[wf\_context\]**: used for [Understanding domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparation.md).
+-   **Workflow \[wf\_workflow\]** and **Workflow Version \[wf\_workflow\_version\]**: used for [Process administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_DelegatedAdministration.md) or process separation.
+-   **Workflow Context \[wf\_context\]**: used for [Understanding domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_DomainSeparation.md).
 
 **Note:** The Workflow Version table \[wf\_workflow\_version\] table does not contain a domain field; Workflow Version records inherit their domain from the parent Workflow record.
 
@@ -41,12 +41,12 @@ The Workflow Editor displays a workflow's domain in the title bar after the work
 
 \[Omitted image "WorkflowEditorDomain.png"\] Alt text:
 
-**Parent Topic:**[Workflow concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/c_WorkflowConcepts.md)
+**Parent Topic:**[Workflow concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/legacy-workflow/c_WorkflowConcepts.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-sep-landing-page.md)
 
 ## Workflows and delegated administration
 

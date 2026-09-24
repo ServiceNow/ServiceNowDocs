@@ -3,11 +3,11 @@ title: Standards hub in the Industrial Connected Workforce Mobile Experience
 description: The Industrial Standards Library or Standards hub in the Industrial Connected Workforce Mobile Experience is a collection of published standards and knowledge articles available within your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/standards-hub-mobile.html
-release: australia
+release: brazil
 product: Industrial Connected Workforce Mobile Experience
 classification: industrial-connected-workforce-mobile-experience
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Industrial Connected Workforce Mobile Experience, Industrial Connected Workforce]
 ---
@@ -39,7 +39,7 @@ After creating a task from a standard in the Standards hub on mobile, you can pe
 -   Put the task on hold
 -   Cancel the task
 
-For more information about requesting and creating a standard, see [Create an Industrial Guided Task with the Industrial Connected Workforce Mobile Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/create-igt-icw-mobile.md).
+For more information about requesting and creating a standard, see [Create an Industrial Guided Task with the Industrial Connected Workforce Mobile Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/create-igt-icw-mobile.md).
 
-**Parent Topic:**[Exploring Industrial Connected Workforce Mobile Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/exploring-icw-mobile-experience.md)
+**Parent Topic:**[Exploring Industrial Connected Workforce Mobile Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/exploring-icw-mobile-experience.md)
 

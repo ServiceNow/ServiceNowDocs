@@ -3,7 +3,7 @@ title: Set up a bidirectional webhook
 description: Configure a webhook to subscribe to Salesforce events with a ServiceNow callback URL.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-webhook-salesforce.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -75,7 +75,7 @@ Configure a webhook to subscribe to Salesforce events with a ServiceNow callback
 
 7.  Configure the default subflows or create customsubflows.
 
-    These subflows are triggered when the required events occur in Salesforce instance. For more information, see [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/subflows.md).
+    These subflows are triggered when the required events occur in Salesforce instance. For more information, see [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/subflows.md).
 
 8.  Configure the webhook routing policy.
 

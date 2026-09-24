@@ -3,9 +3,9 @@ title: Using Teams in Workforce Optimization for Customer Service
 description: Use Teams to track and analyze performance trends for your teams from a single location. You can monitor the trends for each agent within your team and compare your agents or team members with one another.Analyze trends to monitor your team's performance and adherence within a KPI group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/teams-configurable-wfo-cs.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Teams, Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -25,7 +25,7 @@ With Teams, you can do the following:
 -   Targets can be set on the KPIs through the team performance page at the global or individual level. When such targets are set, the trendline reflects the targets.
 -   Drill down to the individual agent level to view a 360 degree view of the current work, historical KPIs, presence history, channel capacity utilization, skills, and upcoming time-offs.
 
-**Parent Topic:**[Teams in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/explore-teams-configurable-wfo-cs.md)
+**Parent Topic:**[Teams in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/explore-teams-configurable-wfo-cs.md)
 
 ## Analyze the performance trends for your teams
 
@@ -47,7 +47,7 @@ Analyze the data by drilling down into the data for a team, a specific team memb
 
 3.  Select a date range to view your teams' performance for that time period.
 
-    You can set the default date range using the **sn\_team\_perf.default\_date\_range** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md).
+    You can set the default date range using the **sn\_team\_perf.default\_date\_range** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/components-installed-configurable-wfo-cs.md).
 
 4.  Analyze team performance.
 

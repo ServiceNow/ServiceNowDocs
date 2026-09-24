@@ -3,11 +3,11 @@ title: Configure client session access role
 description: The Embedded Session Role Configuration \(Client Access Role configuration\) record is created by default, which included removal of admin and security admin roles \(high privilege roles\) for the users using the UI components on the third-party portals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/configure-client-session-access-role.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Web Embeddables, Authentication, Access Management]
 ---

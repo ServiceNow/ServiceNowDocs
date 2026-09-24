@@ -3,11 +3,11 @@ title: Multi-Factor Authentication factor policies
 description: Use the MFA factor policies to specify the types of authentication factors that you would like to permit for your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/mfa-factor-policies.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [MFA verification methods, Configuring MFA, Multi-factor authentication, Authentication, Access Management]
 ---
@@ -22,7 +22,7 @@ Implementing MFA factor policies is essential for enhancing the security of your
 
 \[Omitted image "mfa-factor-policy.png"\] Alt text: MFA context - Factor Policy homepage
 
-To use the MFA factor policies you have to configure the policy inputs and policy conditions along with an MFA Context. To know more, see [Multi-factor Authentication context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-auth-context.md).
+To use the MFA factor policies you have to configure the policy inputs and policy conditions along with an MFA Context. To know more, see [Multi-factor Authentication context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/mfa-auth-context.md).
 
 Following are the MFA factor policies available in ServiceNow that enables you to specify the types of authentication factors that are permitted or required:
 
@@ -35,11 +35,11 @@ To get the most out of MFA factor policies, you need to understand how to config
 **Related topics**  
 
 
-[Multi-factor Authentication context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-auth-context.md)
+[Multi-factor Authentication context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/mfa-auth-context.md)
 
-[FIDO2 as an MFA factor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-with-fido.md)
+[FIDO2 as an MFA factor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/mfa-with-fido.md)
 
-[SMS as an MFA factor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-with-sms.md)
+[SMS as an MFA factor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/mfa-with-sms.md)
 
-[Email as an MFA factor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-with-email.md)
+[Email as an MFA factor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/mfa-with-email.md)
 

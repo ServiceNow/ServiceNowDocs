@@ -3,9 +3,9 @@ title: Interaction page for Agentic Contact Center for Insurance
 description: The Interaction page is a dedicated workspace for insurance CSR \(customer service representative\) agents. It consolidates customer identification, interaction history, and live call transcript analysis into a single view during active customer interactions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/interactionpage-agentic-contact-centre-for-insurance.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-05-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [insurance contact center, interaction page, interaction workspace, live call transcript, ai-driven assistance, customer context summary, interaction form, wrap-up, handle customer calls, active customer interaction, csr interaction, call transcript analysis]
 breadcrumb: [Exploring Agentic Contact Center for Insurance, Agentic Contact Center for Insurance, Insurance applications, Financial Services Operations \(FSO\)]
@@ -25,7 +25,7 @@ As the conversation progresses, the AI agent processes the customer's request, a
 
 CSRs can also type their own questions directly into the ServiceNow Otto panel at any time. The panel displays responses from the AI agent in a structured format that may include insights, recommendations, and guidance based on the content and sentiment of the conversation.
 
-For more information, see [Exploring Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/explore-agentic-contact-center-for-insurance.md).
+For more information, see [Exploring Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/explore-agentic-contact-center-for-insurance.md).
 
 ## Policyholder context summary
 
@@ -40,7 +40,7 @@ The customer summary includes:
 
 The customer summary is not visible when no account or consumer has been associated with the interaction.
 
-For more information, see [Summarize an insurance customer interaction in Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/summarize-insurance-customer-context.md).
+For more information, see [Summarize an insurance customer interaction in Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/summarize-insurance-customer-context.md).
 
 ## Interaction form
 
@@ -85,15 +85,15 @@ The CSR wraps up the interaction when it concludes. When wrap-up codes are set u
 
 For more information, see the following topics:
 
--   [Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-wrap-up-state.md)
--   [Use AI to generate wrap up code and notes summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ai-generated-wrap-up-codes-and-notes-summary.md)
+-   [Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/interaction-wrap-up-state.md)
+-   [Use AI to generate wrap up code and notes summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ai-generated-wrap-up-codes-and-notes-summary.md)
 
 **Related topics**  
 
 
-[CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md)
+[CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-workspaces-configure.md)
 
-[Exploring Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/explore-agentic-contact-center-for-insurance.md)
+[Exploring Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/explore-agentic-contact-center-for-insurance.md)
 
-[Customer 360 page for Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/customer-360-insurance-agentic-contact-centre.md)
+[Customer 360 page for Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/customer-360-insurance-agentic-contact-centre.md)
 

@@ -3,11 +3,11 @@ title: Enable high-level planning for a lens entity
 description: To enable high-level planning on for an entity in Strategic Planning Workspace, update the lens entity configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/enable-high-level-planning-for-lens-entity.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [High-level planning configuration in Strategic Planning, Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ To enable high-level planning on for an entity in Strategic Planning Workspace, 
 
 ## Before you begin
 
-[Create portfolio plan configuration for high-level planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-portfolio-plan-configuration-for-high-level-planning.md).
+[Create portfolio plan configuration for high-level planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/create-portfolio-plan-configuration-for-high-level-planning.md).
 
 Role required: admin
 
@@ -40,7 +40,7 @@ For this task, consider the example of Strategic Investments as the lens and the
 
     For example, set the Planning enabled field of Strategic Priority entity to **true**.
 
-    If your high-level entity is not a part of your lens structure, you can add it. See [Add or modify lens structure in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/define-lens-structure-in-alignment-planner-workspace.md).
+    If your high-level entity is not a part of your lens structure, you can add it. See [Add or modify lens structure in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/define-lens-structure-in-alignment-planner-workspace.md).
 
     \[Omitted image "planning-enabled-field.png"\] Alt text: Planning enabled field for a lens entity in the Lens structures related list of a Lens form.
 
@@ -55,5 +55,5 @@ Your planning managers can now create portfolio plans on the Strategic Investmen
 
 ## What to do next
 
-[Populate global rank for high-level planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/populate-global-rank-for-high-level-planning-items.md).
+[Populate global rank for high-level planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/populate-global-rank-for-high-level-planning-items.md).
 

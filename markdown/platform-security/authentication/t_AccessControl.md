@@ -3,11 +3,11 @@ title: IP address access control
 description: Apply an IP access control to outbound traffic, inbound traffic, or bidirectional traffic. The system only blocks an IP address if a matching Deny rule exists and no matching Allow rule exists. By default, there are no restrictions on access to your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_AccessControl.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [IP range based authentication, Authentication, Access Management]
 ---
@@ -18,11 +18,11 @@ Apply an IP access control to outbound traffic, inbound traffic, or bidirectiona
 
 ## Before you begin
 
-**Note:** Use the Adaptive Authentication \(AA\) pre-authentication context policy to enforce IP based authentications and restrictions for additional capabilities. For more information, see [Adaptive authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/adaptive-authentication.md).
+**Note:** Use the Adaptive Authentication \(AA\) pre-authentication context policy to enforce IP based authentications and restrictions for additional capabilities. For more information, see [Adaptive authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/adaptive-authentication.md).
 
 Role required: admin
 
-**Important:** IP Address Control access control rules can affect the MID Server outbound traffic. If you configure the denylist, add the MID Server IP addresses as allowlist exceptions to avoid connectivity disruptions. For MID Server IP requirements, see [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerSystemRequirements.md)
+**Important:** IP Address Control access control rules can affect the MID Server outbound traffic. If you configure the denylist, add the MID Server IP addresses as allowlist exceptions to avoid connectivity disruptions. For MID Server IP requirements, see [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_MIDServerSystemRequirements.md)
 
 ## Procedure
 
@@ -48,7 +48,7 @@ MID Server traffic
 
 </td><td>
 
-MID Server outbound connections use the MID Server host IP address and not the instance. When using rules, add the MID Server host IP addresses to allowlist with the **Outbound** direction to avoid blocking MID Server traffic. For a list of MID Server IP requirements, see [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerSystemRequirements.md)
+MID Server outbound connections use the MID Server host IP address and not the instance. When using rules, add the MID Server host IP addresses to allowlist with the **Outbound** direction to avoid blocking MID Server traffic. For a list of MID Server IP requirements, see [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_MIDServerSystemRequirements.md)
 
 </td></tr><tr><td>
 

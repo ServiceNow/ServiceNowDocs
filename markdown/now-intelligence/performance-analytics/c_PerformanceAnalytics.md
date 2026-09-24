@@ -3,11 +3,11 @@ title: Performance Analytics concepts
 description: Performance Analytics uses terms and concepts that can differ from industry norms due to the unique nature of the ServiceNow platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/c\_PerformanceAnalytics.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Explore, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -61,13 +61,13 @@ Performance Analytics includes the following concepts and components:
 
     -   The Performance Analytics function of aggregating, or collecting, indicator scores over time. The indicator configuration includes the frequency with which indicator scores are collected.
     -   Statistical functions applied to collected indicator scores over a time period. For example, you can apply a 3-month SUM to indicator scores. Aggregation functions can be added either in the indicator form or later in the the Analytics Hub or widget. Aggregation functions in the Analytics Hub or widget are named time series.
--   **[Breakdown mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-breakdown-mapping.md)**
+-   **[Breakdown mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/create-breakdown-mapping.md)**
 
     specify the relationships, or 'map,' breakdowns to indicator sources. A breakdown mapping either specifies a field on the indicator source or specifies a script that queries the indicator source. The latter is sometimes called a scripted breakdown mapping, and a breakdown with such a mapping is called a scripted breakdown.
 
--   **[Breakdown sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_DefiningABreakdownSource.md)**
+-   **[Breakdown sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/t_DefiningABreakdownSource.md)**
 
-    specify which unique values, called breakdown elements, a breakdown contains. A breakdown source is defined as a set of records from a table or database view or as a bucket group. External data is supported via Workflow Data Fabric tables. Multiple breakdowns can use the same breakdown source. For example, instead of seeing ALL assignment groups for the Number of Open Changes indicator, you can limit the element list to just those groups that are part of the change process by configuring the Breakdown Source.
+    specify which unique values, called breakdown elements, a breakdown contains. A breakdown source is defined as a set of records from a table \(including Workflow Data Fabric\) or database view or as a bucket group. External data is supported via Workflow Data Fabric tables. Multiple breakdowns can use the same breakdown source. For example, instead of seeing ALL assignment groups for the Number of Open Changes indicator, you can limit the element list to just those groups that are part of the change process by configuring the Breakdown Source.
 
 -   **[Bucket groups]()**
 
@@ -100,10 +100,10 @@ Performance Analytics includes the following concepts and components:
     Snapshots are kept for the main indicator and for first-level breakdowns. Second-level breakdown snapshots are derived as an intersection of the two first-level breakdown snapshot lists.
 
 
--   **[Put a Spotlight on records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/put-spotlight-on-records.md)**  
+-   **[Put a Spotlight on records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/put-spotlight-on-records.md)**  
 Use the Spotlight feature to illuminate records that you might overlook.
--   **[Try out Complimentary Performance Analytics for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/r_StUpPAInctMgmt.md)**  
+-   **[Try out Complimentary Performance Analytics for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/r_StUpPAInctMgmt.md)**  
 Complimentary Performance Analytics for Incident Management is a limited version of Performance Analytics that is included in the base system, enabling you to become familiar with the functionality. Subscribe to Performance Analytics for complete functionality.
 
-**Parent Topic:**[Exploring Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_GetStartedwithPA.md)
+**Parent Topic:**[Exploring Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_GetStartedwithPA.md)
 

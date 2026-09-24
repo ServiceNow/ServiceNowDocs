@@ -3,11 +3,11 @@ title: Preventive Care
 description: Preventive Care is a premium, engineer-led diagnostic of instance performance executed on a regular cadence and available as an add-on package to all ServiceNow Impact customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/preventive-care.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Initiatives catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---

@@ -3,11 +3,11 @@ title: Flow execution details retention
 description: Due to the large amount of data consumed by flow execution details, your instance uses data retention policies to delete this data after a set time period.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-reporting.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-06-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Flow administration, Configure flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -18,11 +18,11 @@ Due to the large amount of data consumed by flow execution details, your instanc
 
 ## Generating flow execution details
 
-By default, the system only generates execution details when you run a test. To generate flow execution details, see [Activate flow reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/enable-flow-reporting.md)
+By default, the system only generates execution details when you run a test. To generate flow execution details, see [Activate flow reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/enable-flow-reporting.md)
 
 ## Scheduled table cleanup
 
-The system uses a standard table cleaner records to determine when to remove execution details. Each type of flow execution content is stored in its own table and has its own retention period. Once a record is older than its default retention period, it is deleted if it is in a completed state. To learn more about how to find and configure table cleaner records, see [Table cleaner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-cleaner.md).
+The system uses a standard table cleaner records to determine when to remove execution details. Each type of flow execution content is stored in its own table and has its own retention period. Once a record is older than its default retention period, it is deleted if it is in a completed state. To learn more about how to find and configure table cleaner records, see [Table cleaner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-cleaner.md).
 
 <table id="table_hmm_shn_z2b"><thead><tr><th>
 
@@ -163,7 +163,7 @@ Table that stores replicated log entries from the Log \[syslog\] table. Enables 
 
 The system removes these records in 28 days when the table is rotated or when it removes the context record, whichever comes first.
 
- The table rotation on sys\_flow\_log is configurable. For more information, see [Table rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TableRotation.md).
+ The table rotation on sys\_flow\_log is configurable. For more information, see [Table rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_TableRotation.md).
 
 </td></tr><tr><td>
 
@@ -190,5 +190,5 @@ A message displays at the top of the flow report to indicate that action reports
 
 To know the period until which a data recovery request is accepted, see the [Instance Backup and Recovery \[KB0547654\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0547654) article in the Now Support Knowledge Base.
 
-**Parent Topic:**[Flow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-administration.md)
+**Parent Topic:**[Flow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-administration.md)
 

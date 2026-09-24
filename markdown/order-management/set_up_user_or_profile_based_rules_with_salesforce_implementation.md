@@ -3,7 +3,7 @@ title: Set up user-based or profile-based rules with Salesforce implementation
 description: You can set up a message rule to control access to a field based on the user's role or ID.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/set\_up\_user\_or\_profile\_based\_rules\_with\_salesforce\_implementation.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

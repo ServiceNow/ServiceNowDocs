@@ -3,11 +3,11 @@ title: Deployment analyzer rules
 description: The deployment analyzer contains five rules that are included by default with ReleaseOps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/releaseops/deployment-analyzer-rules.html
-release: australia
+release: brazil
 product: ReleaseOps
 classification: releaseops
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, ReleaseOps, Deploying applications, Building applications]
 ---
@@ -26,5 +26,5 @@ The deployment analyzer contains five rules that are included by default with Re
 
 **Note:** Any means that the rule will act as an or search with other rules. All means that the rule will match only if no other rules match.
 
-**Parent Topic:**[ReleaseOps reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/releaseops-reference.md)
+**Parent Topic:**[ReleaseOps reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/releaseops-reference.md)
 

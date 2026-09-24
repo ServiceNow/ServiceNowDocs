@@ -3,11 +3,11 @@ title: Define a skill level type
 description: Define skill levels \(for example, beginner, intermediate, advanced\) for different skill level types \(for example, a language or an IT certification\) so you can associate skill levels to users and define skill levels and types required for tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/skills-management/define-skill-level-type.html
-release: australia
+release: brazil
 product: Skills Management
 classification: skills-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Skills Management, Skills Management, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---

@@ -3,11 +3,11 @@ title: Revoke certificates through CyberArk Certificate Manager SaaS
 description: Revoke a certificate through the CyberArk Certificate Manager SaaS to invalidate it before its scheduled expiration date.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/revoke-cert-cyberark-venafi.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2024-12-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [CyberArk Certificate Manager SaaS certificate revocation]
 breadcrumb: [Certificate management with CyberArk Certificate Manager SaaS, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]

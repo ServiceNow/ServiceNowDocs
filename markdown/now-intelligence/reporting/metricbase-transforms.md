@@ -3,11 +3,11 @@ title: MetricBase transforms
 description: Transforms enable you to visualize MetricBase data in different ways.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/metricbase-transforms.html
-release: australia
+release: brazil
 product: Reporting
 classification: reporting
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Create reports from MetricBase time-series data, Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -258,7 +258,7 @@ Sum
 
 </td><td>
 
-Calculates the sum of the data points within the metric dataset. See [Sum transform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/metricbase-transforms.md) for more information.
+Calculates the sum of the data points within the metric dataset. See [Sum transform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/metricbase-transforms.md) for more information.
 
 </td></tr><tr><td>
 
@@ -330,5 +330,5 @@ is \[1, 3\] rather than \[4\].
 }
 ```
 
-**Parent Topic:**[Create Core UI reports from MetricBase time-series data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/create-report-with-metricbase-data.md)
+**Parent Topic:**[Create Core UI reports from MetricBase time-series data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/create-report-with-metricbase-data.md)
 

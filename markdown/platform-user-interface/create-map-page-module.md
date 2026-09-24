@@ -3,9 +3,9 @@ title: Create a map page module
 description: You can create a new application module for desktop or smartphone users to display a Google map page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/create-map-page-module.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Map pages, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -126,7 +126,7 @@ Define the URL for this module in the format `map_page.do?sysparm_name=<map page
 </table>6.  Click **Submit**.
 
 
-**Parent Topic:**[Map pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_MapPages.md)
+**Parent Topic:**[Map pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_MapPages.md)
 
 **Related topics**  
 

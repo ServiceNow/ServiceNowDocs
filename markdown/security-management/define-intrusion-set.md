@@ -3,9 +3,9 @@ title: Define an intrusion set
 description: Define an intrusion set that is a grouped set of adversarial behaviors and resources with common properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/define-intrusion-set.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Intrusion set, IoC Repository, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -26,15 +26,15 @@ Role required: sn\_ti.admin
 
 3.  Complete the fields in the form as appropriate.
 
-<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d80074e80">
+<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d80109e80">
 
 Field
 
-</th><th align="left" id="d80074e83">
+</th><th align="left" id="d80109e83">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d80074e89">
+</th></tr></thead><tbody><tr><td id="d80109e89">
 
 **Name**
 
@@ -42,7 +42,7 @@ Description
 
 Enter a descriptive name to identify the intrusion set.
 
-</td></tr><tr><td id="d80074e98">
+</td></tr><tr><td id="d80109e98">
 
 **First Seen**
 
@@ -50,7 +50,7 @@ Enter a descriptive name to identify the intrusion set.
 
 The time that this intrusion set was first seen performing malicious activities.
 
-</td></tr><tr><td id="d80074e107">
+</td></tr><tr><td id="d80109e107">
 
 **Last Seen**
 
@@ -58,7 +58,7 @@ The time that this intrusion set was first seen performing malicious activities.
 
 The time that this intrusion set was last seen performing malicious activities.
 
-</td></tr><tr><td id="d80074e116">
+</td></tr><tr><td id="d80109e116">
 
 **Primary Motivation**
 
@@ -66,7 +66,7 @@ The time that this intrusion set was last seen performing malicious activities.
 
 The primary reason, motivation, or purpose behind this intrusion set. The motivation is why the Intrusion Set wants to achieve the goal \(what they are trying to achieve\).For example, an intrusion set with a goal to disrupt the finance sector in a country might be motivated by ideological hatred of capitalism.
 
-</td></tr><tr><td id="d80074e129">
+</td></tr><tr><td id="d80109e129">
 
 **Resource Level**
 
@@ -74,7 +74,7 @@ The primary reason, motivation, or purpose behind this intrusion set. The motiva
 
 This property specifies the organizational level at which this intrusion set typically works, which in turn determines the resources available for use in an attack.
 
-</td></tr><tr><td id="d80074e138">
+</td></tr><tr><td id="d80109e138">
 
 **Source**
 
@@ -82,7 +82,7 @@ This property specifies the organizational level at which this intrusion set typ
 
 Specifies the threat source from which this record is created.
 
-</td></tr><tr><td id="d80074e147">
+</td></tr><tr><td id="d80109e147">
 
 **Description**
 
@@ -90,7 +90,7 @@ Specifies the threat source from which this record is created.
 
 A description that provides more details and context about the intrusion set, potentially including its purpose and its key characteristics.
 
-</td></tr><tr><td id="d80074e156">
+</td></tr><tr><td id="d80109e156">
 
 **Aliases**
 
@@ -98,7 +98,7 @@ A description that provides more details and context about the intrusion set, po
 
 Alternative names to identify this intrusion set.
 
-</td></tr><tr><td id="d80074e165">
+</td></tr><tr><td id="d80109e165">
 
 **Goals**
 
@@ -106,7 +106,7 @@ Alternative names to identify this intrusion set.
 
 The high-level goals of this intrusion set, namely, what are they trying to do. For example, they may be motivated by personal gain, but their goal is to steal credit card numbers. To do this, they may execute specific campaigns that have detailed objectives like compromising point of sale systems at a large retailer.
 
-</td></tr><tr><td id="d80074e177">
+</td></tr><tr><td id="d80109e177">
 
 **Source ID**
 
@@ -114,7 +114,7 @@ The high-level goals of this intrusion set, namely, what are they trying to do. 
 
 Unique identifier for this object in the threat source.
 
-</td></tr><tr><td id="d80074e187">
+</td></tr><tr><td id="d80109e187">
 
 **Created Time in Source**
 
@@ -122,7 +122,7 @@ Unique identifier for this object in the threat source.
 
 Specifies the time the object is created in the source.
 
-</td></tr><tr><td id="d80074e196">
+</td></tr><tr><td id="d80109e196">
 
 **Modified Time in Source**
 
@@ -243,5 +243,5 @@ Vulnerabilities
 Lists a weakness or defect in a software or hardware that attackers exploit which is associated with this object.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Intrusion set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-intrusion-sets.md)
+</table>**Parent Topic:**[Intrusion set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-intrusion-sets.md)
 

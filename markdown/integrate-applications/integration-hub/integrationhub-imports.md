@@ -3,11 +3,11 @@ title: Integration Hub - Import
 description: Automate data import tasks through a consolidated interface that provides a guided, step-by-step experience. Define external data sources, specify target tables, map how source data becomes target data, and schedule regular imports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/integrationhub-imports.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 breadcrumb: [Import and stream data, Integration Hub, Workflow Data Fabric]
 ---
@@ -18,7 +18,7 @@ Automate data import tasks through a consolidated interface that provides a guid
 
 Managing imports through Integration Hub simplifies the process of importing data from external sources and transforming it to ServiceNow tables. You can configure, run, and schedule your data imports all through a single interface.
 
-You can access Integration Hub - Import directly through App Engine Studio to build data integrations for your custom applications. For more information, see Adding data in App Engine Studio.
+You can access Integration Hub - Import directly through App Engine Studio to build data integrations for your custom applications. For more information, see [Adding data in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/add-data.md).
 
 ## Benefits
 
@@ -48,7 +48,7 @@ There are three steps to importing data.
     After you've configured the data source and determined the data mapping, you can run the import. You can also schedule the import to run later. When the import runs, data is gathered from the source, moved to a staging table, and transformed to the target tables according to the specifications in your mapping.
 
 
-For more details about how importing data works, see [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/import-sets-landing-page.md).
+For more details about how importing data works, see [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/import-sets-landing-page.md).
 
 ## Integration Hub import environment
 
@@ -97,7 +97,7 @@ The source configuration section has these components.
 
     If the data source is an Excel or CSV file, the File upload section appears here. You can drag a file over or browse to upload. Accepts XLSX, XLS, CSV, and ZIP files.
 
-    If the data source is a Data Stream action, the Connection section appears here. For Data Stream actions that use a connection alias, you can override the default connection alias with any of its children's aliases. Select the connection alias from the menu. For more information, see [Create a Connection and Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-alias.md).
+    If the data source is a Data Stream action, the Connection section appears here. For Data Stream actions that use a connection alias, you can override the default connection alias with any of its children's aliases. Select the connection alias from the menu. For more information, see [Create a Connection and Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/connection-alias.md).
 
 -   **3. Configuration section**
 
@@ -135,7 +135,7 @@ The table selection section has these components.
 
 -   **2. Transform Settings**
 
-    Button to configure the transform settings for your integration. You can specify batch size and empty-field handling, enable verbose mode, or run a script before or after the integration. For more information, see [Transform settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/transform-settings.md).
+    Button to configure the transform settings for your integration. You can specify batch size and empty-field handling, enable verbose mode, or run a script before or after the integration. For more information, see [Transform settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/transform-settings.md).
 
     The **Transform Settings** button doesn't appear until you've added at least one target table.
 
@@ -149,7 +149,7 @@ The table selection section has these components.
 
     -   **Properties**: Opens the Mapping Properties window where you can view or edit the options to run the table's business rules when importing and to run the import synchronously.
     -   **Edit mapping**: Opens the data-mapping section where you can create or edit your data mapping.
-    -   **Table Configuration**: Opens Table Builder where you can configure the target table. This option is only available if you have Table Builder installed. For more information, see .
+    -   **Table Configuration**: Opens Table Builder where you can configure the target table. This option is only available if you have Table Builder installed. For more information, see [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/tb-landing-page.md).
     -   **Revalidate**: Checks to see if there are any changes to the target entity schema. If changes are detected, the target table card displays a message saying the target schema has changed. Selecting the target table card opens a window where you can **Update** the target entity schema or **Cancel** to keep the schema the same. Revalidate your table whenever you edit the target table's configuration.
     -   **Delete**: Deletes the target table from the integration.
 
@@ -241,7 +241,7 @@ The execution details section has these components.
 
 -   **2. Execution Details**
 
-    Section with cards showing the total number of rows imported, processed, pending, or skipped, and the number of errors that occurred. If the import is processed concurrently, this section also includes a Partitions card. For more information, see [Concurrent imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/concurrent-imports.md).
+    Section with cards showing the total number of rows imported, processed, pending, or skipped, and the number of errors that occurred. If the import is processed concurrently, this section also includes a Partitions card. For more information, see [Concurrent imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/concurrent-imports.md).
 
     You can click the cards to filter the results. Filtered results display in the Import Set Rows tab toward the bottom of the page. For example, clicking the **Pending** card displays the pending rows. Clicking **Total rows imported** or **Clear Selection** clears the filters.
 
@@ -310,14 +310,14 @@ Follow these guidelines to achieve the benefits offered by Integration Hub impor
     Modifying Data Stream actions used as data sources might change the mapping from source to target. When the output for a Data Stream action changes, the Map to target page displays a warning that the complex object schema has changed. You might need to reconfigure the mapping.
 
 
--   **[Configure a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-data-source.md)**  
+-   **[Configure a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/configure-data-source.md)**  
 Start importing data with Integration Hub by creating a data source. A data source specifies how and where to get the data you want to import.
--   **[Map source data to a target table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/map-source-data-target.md)**  
+-   **[Map source data to a target table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/map-source-data-target.md)**  
 Specify how source data is transformed to your target tables.
--   **[Run or schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/run-schedule-data-imports.md)**  
+-   **[Run or schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/run-schedule-data-imports.md)**  
 Specify when to run a data import by creating a schedule. Schedule an import to run at a specific time, at regular intervals, or after a parent import. You can also run your import immediately.
--   **[Transform settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/transform-settings.md)**  
+-   **[Transform settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/transform-settings.md)**  
 Configure the transform settings for your Integration Hub - Import integration. Specify batch size and empty-field handling, enable verbose mode, or run a script before or after the integration.
 
-**Parent Topic:**[Importing and streaming data in Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/importing-streaming-data-ih.md)
+**Parent Topic:**[Importing and streaming data in Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/importing-streaming-data-ih.md)
 

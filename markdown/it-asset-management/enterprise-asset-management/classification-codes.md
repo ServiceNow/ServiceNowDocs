@@ -3,11 +3,11 @@ title: Model classification
 description: Use model classification to organize and categorize enterprise models and their associated assets in a structured, consistent way across the ServiceNow platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/classification-codes.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Enterprise Asset Management data model, Explore, Enterprise Asset Management, Asset Management]
 ---
@@ -81,12 +81,12 @@ The Enterprise Model Classification table is not seeded out-of-the-box. Organiza
 |G|Building sitework|Ambulance entrances, helipads, parking lots, and landscaping|
 |Z|General|General conditions, overhead, administration, and contingency|
 
-**Parent Topic:**[Enterprise Asset Management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/eam-data-model.md)
+**Parent Topic:**[Enterprise Asset Management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/eam-data-model.md)
 
 **Related topics**  
 
 
-[Create a source for classification codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-class-source-eam.md)
+[Create a source for classification codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-class-source-eam.md)
 
-[Import classification codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/import-class-codes-eam.md)
+[Import classification codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/import-class-codes-eam.md)
 

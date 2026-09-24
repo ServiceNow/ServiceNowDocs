@@ -3,9 +3,9 @@ title: Set up personal corporate mailbox
 description: Set up your personal corporate mailboxes with ServiceNow platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/integrate-personal-corporate-mailbox.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Personal corporate mailbox, Advanced email setup, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -34,8 +34,6 @@ Role required: user\_email\_account
 
     3.  Select **Save**.
 
-    **Note:** The itil role is required to create an email device.
-
 4.  Set up personal mailbox.
 
     1.  In the Set up personal mailbox section, select the **Set up personal mailbox** option.
@@ -44,13 +42,11 @@ Role required: user\_email\_account
 
         For **Password** as the authentication type, enter the App password provided by your email service provider in the **App password** field.
 
-        **Note:** The password flow is deprecated for Microsoft as of September 2025. For more information about generating app passwords for Google or Yahoo! accounts, see [Google: Sign in with app passwords](https://support.google.com/accounts/answer/185833?hl=en) and [Yahoo!: Generate and manage 3rd-party app passwords](https://help.yahoo.com/kb/SLN15241.html?guccounter=1).
-
     3.  In the **User email** field, enter the email address of the mailbox that you want to connect.
 
     4.  Select a template from the list of configured user email account templates.
 
-        To configure a new template aside from the preconfigured templates, see [Configure templates for personal corporate mailboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-personal-corporate-mailbox.md).
+        To configure a new template aside from the preconfigured templates, see [Configure templates for personal corporate mailboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-personal-corporate-mailbox.md).
 
     5.  Review the information.
 
@@ -63,5 +59,5 @@ Role required: user\_email\_account
         **Note:** At least one mailbox must be connected to view the connected mailboxes.
 
 
-**Parent Topic:**[Personal corporate mailbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/personal-corporate-mailbox.md)
+**Parent Topic:**[Personal corporate mailbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/personal-corporate-mailbox.md)
 

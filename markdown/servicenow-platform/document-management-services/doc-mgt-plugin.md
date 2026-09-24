@@ -3,11 +3,11 @@ title: Document Management plugin
 description: With the ServiceNow Document Management plugin \(com.snc.platform\_document\_management\), you can create documents, manage large numbers of documents efficiently, and track each version. The plugin is independent, with no dependencies on existing plugins and has been built on the existing sys\_attachment framework.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/doc-mgt-plugin.html
-release: australia
+release: brazil
 product: Document Management Services
 classification: document-management-services
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Document Management, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -29,5 +29,5 @@ The application contains four modules:
 -   Lists
 -   List Entries
 
-**Parent Topic:**[Exploring Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/explore-doc-management.md)
+**Parent Topic:**[Exploring Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/explore-doc-management.md)
 

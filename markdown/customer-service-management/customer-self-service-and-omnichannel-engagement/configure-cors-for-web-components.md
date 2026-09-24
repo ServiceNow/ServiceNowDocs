@@ -3,13 +3,13 @@ title: Configure CORS \(Cross-Origin Resource Sharing\) rules before embedding S
 description: Configure a CORS rule to enable cross-domain requests between ServiceNow components and the website that you want to embed the web components.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-cors-for-web-components.html
-release: australia
+release: brazil
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up Web Embeddables, Web Embeddables, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Set up Web EmbeddablesWeb Embeddable, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure CORS \(Cross-Origin Resource Sharing\) rules before embedding ServiceNow components
@@ -20,14 +20,14 @@ Configure a CORS rule to enable cross-domain requests between ServiceNow compone
 
 You must have the following setup in to configure CORS rules for components:
 
--   You must activate the ServiceNow components. For more information, see [Activate Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/act-web-embeddables.md).
+-   You must activate the ServiceNow components. For more information, see [Activate Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/act-web-embeddables.md).
 -   At least one ServiceNow component configured on your instance.
 
 Role required: admin
 
 ## About this task
 
-You can use the existing CORS rules to enable secure communication between ServiceNow components and the external website. You can also set up a CORS rule so that ServiceNow components are able to make cross-origin requests to retrieve dynamic translations. For more information on creating and defining CORS rules, see [Define a CORS rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/t_DefineACORSRule.md).
+You can use the existing CORS rules to enable secure communication between ServiceNow components and the external website. You can also set up a CORS rule so that ServiceNow components are able to make cross-origin requests to retrieve dynamic translations. For more information on creating and defining CORS rules, see [Define a CORS rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/t_DefineACORSRule.md).
 
 ## Procedure
 
@@ -53,5 +53,5 @@ The domain name that you’ve entered is configured with CORS rules and can be u
 **Related topics**  
 
 
-[Define a CORS rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/t_DefineACORSRule.md)
+[Define a CORS rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/t_DefineACORSRule.md)
 

@@ -3,11 +3,11 @@ title: AO Overview dashboard
 description: Users with the Authorization Official \[sn\_irm\_cont\_auth.authorization\_official\] role can view the reports in the AO Overview module.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/reports-ao-overview.html
-release: australia
+release: brazil
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Analytics and Reporting, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,7 @@ Users with the Authorization Official \[sn\_irm\_cont\_auth.authorization\_offic
 
 **Important:** Starting with version 18.1.2 of CAM users on Vancouver or Washington DC can view the AO Overview dashboard in the Next Experience UI Framework.
 
-For more information on navigation steps and dashboard appearance, see [Analytics and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/cam-pa-next-exp-dashboards.md).
+For more information on navigation steps and dashboard appearance, see [Analytics and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/continuous-risk-monitoring/cam-pa-next-exp-dashboards.md).
 
 ## Accessing the dashboard
 
@@ -37,7 +37,7 @@ The Authorization Packages tab on the AO Overview dashboard provides central vis
 |Report|Description|
 |------|-----------|
 |Packages Pending Approval|The number of authorization packages for which approval has been requested, but that haven’t yet received approval.|
-|Packages with Overridden Impact|The number of authorization packages with an impact that have been overridden. For more information, see [RMF step 1 - Categorize the authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/categorize.md).|
+|Packages with Overridden Impact|The number of authorization packages with an impact that have been overridden. For more information, see [RMF step 1 - Categorize the authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/continuous-risk-monitoring/categorize.md).|
 |Packages by Step|The number of authorization packages categorized by steps \(for example, Monitor, Access, Select, and so forth\).|
 |Packages by Impact|The number of authorization packages categorized by impact levels.|
 |Pending Approvals|A list of all packages pending approval.|

@@ -3,11 +3,11 @@ title: Execute a skipped record rule
 description: Run skipped record rules based on your set conditions to resolve skipped records in an upgrade. The rules either execute automatically during an upgrade or can run on demand after an upgrade.Execute the skipped record rules on demand on the skipped records whenever it's required.Execute the skipped record rules automatically during the upgrade on the skipped records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-center/uc-execute-skipped-record-rule.html
-release: australia
+release: brazil
 product: Upgrade Center
 classification: upgrade-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Administering Upgrade Center, Upgrade Center, Upgrade, Administer the ServiceNow AI Platform]
 ---
@@ -20,7 +20,7 @@ Run skipped record rules based on your set conditions to resolve skipped records
 
 Role required: admin
 
-**Parent Topic:**[Administering Upgrade Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-administration.md)
+**Parent Topic:**[Administering Upgrade Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-center/uc-administration.md)
 
 **Related topics**  
 
@@ -47,15 +47,15 @@ Role required: admin
 
 2.  Execute the rules on demand using either of the following ways.
 
-<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d302536e144">
+<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d300470e144">
 
 Option
 
-</th><th align="left" id="d302536e147">
+</th><th align="left" id="d300470e147">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d302536e153">
+</th></tr></thead><tbody><tr><td id="d300470e153">
 
 **Using Run Now**
 
@@ -66,7 +66,7 @@ Steps
 
 **Note:** When you select **Run Now**, a progress bar shows up to display the progress of the rule execution.
 
-</td></tr><tr><td id="d302536e179">
+</td></tr><tr><td id="d300470e179">
 
 **Using View Latest Upgrade History tab**
 

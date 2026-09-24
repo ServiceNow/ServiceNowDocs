@@ -3,11 +3,11 @@ title: Duplicate a free-form roadmap
 description: Create a roadmap with the data of an existing roadmap. If the roadmap you want to create is similar to an existing roadmap, duplicating the existing roadmap saves your time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/copy-roadmap-in-strategic-planning.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Plan roadmaps, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_align\_core.apw\_user
 
 ## About this task
 
-Create a standalone roadmap to plan work across multiple units of your organization, such as projects of all departments. To learn more about free-form roadmaps, see [Roadmaps in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/roadmap-planning-overview.md).
+Create a standalone roadmap to plan work across multiple units of your organization, such as projects of all departments. To learn more about free-form roadmaps, see [Roadmaps in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/roadmap-planning-overview.md).
 
 ## Procedure
 
@@ -55,5 +55,5 @@ Create a standalone roadmap to plan work across multiple units of your organizat
 -   Update, personalize, and collaborate with your roadmap.
 -   Add milestones or create dependencies for the items planned on your roadmap.
 
-**Parent Topic:**[Planning roadmaps in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/roadmaps-in-alignment-planner-workspace.md)
+**Parent Topic:**[Planning roadmaps in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/roadmaps-in-alignment-planner-workspace.md)
 

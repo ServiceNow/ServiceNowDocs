@@ -3,11 +3,11 @@ title: Approval assistance AI agent
 description: This AI agent handles all queries related to approval records for the current user.This AI agent that enables you to see your list of pending approvals, as well as see the details about your pending approvals. You can then approve or reject requests and tickets in ServiceNow Otto for Virtual Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/plat-approval-assistance-ai-agent.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow AI Platform AI agents, ServiceNow AI Platform, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [ServiceNow AI Platform AI agents, ServiceNow AI Platform, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Approval assistance AI agent
@@ -24,8 +24,6 @@ The agent retrieves and filters pending approvals, provides detailed information
     -   Fetch full details for a specific approval record, always retrieving the most current data.
     -   Generate and display a checklist evaluation for the approval, grouping criteria by status and providing reference article links.
     -   Prompt the user to choose an approval action, handle e-signature requirements if applicable, and confirm the result of the action.
-
-For more information, see [Using the approval assistance AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/plat-approval-assistance-ai-agent.md).
 
 <table><thead><tr><th>
 
@@ -57,7 +55,7 @@ Manage long-term memory
 
 </td><td>
 
-When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-aia-reference.md).
+When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/na-aia-reference.md).
 
 </td></tr><tr><td>
 
@@ -104,7 +102,7 @@ Triggers
 
 </td><td>
 
-Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-trigger-aia.md).
+Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-trigger-aia.md).
 
 </td></tr><tr><td>
 
@@ -123,7 +121,7 @@ Used in agentic workflows
 Not applicable.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow AI Platform AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-ai-agents-overview.md)
+</table>**Parent Topic:**[ServiceNow AI Platform AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-ai-agents-overview.md)
 
 ## Using the approval assistance AI agent
 
@@ -135,9 +133,9 @@ Roles required: approver\_user, sn\_request\_approver\_read, snc\_internal
 
 The benefit of using the approval assistance AI agent is that you don't need to navigate to a specific page to approve your tickets. You can ask the AI agent about your pending approval requests and then tell the AI agent to approve or reject those approvals. The AI agent will ask follow-up questions and offer context-aware responses to simplify your experience.
 
-Ask you administrator to configure the display fields and the knowledge base \(KB\) search fields to generate a Gen AI checklist to assist the approval assistance AI agent in making targeted decisions. The checklist uses KB articles and policies to assist the agent in decision making. The checklist fetches information from knowledge base articles about specific requester approval tickets. An approval\_admin and admin role are required to configure the agent. For more information, see [Configure Service Portal Approval Configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-approval-assistance-ai-agent.md).
+Ask you administrator to configure the display fields and the knowledge base \(KB\) search fields to generate a Gen AI checklist to assist the approval assistance AI agent in making targeted decisions. The checklist uses KB articles and policies to assist the agent in decision making. The checklist fetches information from knowledge base articles about specific requester approval tickets. An approval\_admin and admin role are required to configure the agent. For more information, see [Configure Service Portal Approval Configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-approval-assistance-ai-agent.md).
 
-**Note:** Provide cross-scope privileges to the Requester Agents - Foundation plugin for tables whose records are restricted within the scope of an application. For more information, see [Define cross-scope access to an application resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/set-RCA-level.md).
+**Note:** Provide cross-scope privileges to the Requester Agents - Foundation plugin for tables whose records are restricted within the scope of an application. For more information, see [Define cross-scope access to an application resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/set-RCA-level.md).
 
 ### Prerequisites and setup
 

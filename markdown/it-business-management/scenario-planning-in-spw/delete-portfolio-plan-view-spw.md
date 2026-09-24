@@ -3,11 +3,11 @@ title: Delete a portfolio plan view
 description: Delete a customized portfolio plan view if it is no longer needed or if the maximum limit of ten shared or three private views has been reached.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/delete-portfolio-plan-view-spw.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Manage portfolio plan views, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -41,12 +41,12 @@ Role required: sn\_align\_core.ap\_read\_only
     \[Omitted image "delete-view-spw.gif"\] Alt text: Delete portfolio plan view.
 
 
-**Parent Topic:**[Managing portfolio plan views in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/managing-portfolio-plan-views-spw.md)
+**Parent Topic:**[Managing portfolio plan views in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/managing-portfolio-plan-views-spw.md)
 
 **Related topics**  
 
 
-[Create a portfolio plan view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-portfolio-plan-view-spw.md)
+[Create a portfolio plan view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/create-portfolio-plan-view-spw.md)
 
-[Edit a portfolio plan view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/edit-portfolio-plan-view-spw.md)
+[Edit a portfolio plan view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/edit-portfolio-plan-view-spw.md)
 

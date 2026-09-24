@@ -3,7 +3,7 @@ title: Set up Microsoft Dynamics CRM spoke
 description: Integrate the ServiceNow instance and Microsoft Dynamics CRM by using the Windows credentials to authenticate ServiceNow requests.Create a custom OAuth application from your Microsoft Dynamics CRM account to enable OAuth 2.0 authentication with the Microsoft Dynamics CRM.Use the information generated during Microsoft Dynamics CRM account configuration to register Microsoft Dynamics CRM as an OAuth provider and allow the instance to request OAuth 2.0 tokens.Create Credential records for the Microsoft Dynamics CRM custom OAuth application you created during Microsoft Dynamics CRM account configuration. The Microsoft Dynamics CRM spoke connection and credential aliases use these credentials to authorize actions.Create Connection records to your Microsoft Azure account. The Microsoft Dynamics CRM spoke connection and credential alias uses these connections to perform actions on Microsoft Dynamics CRM.Register Microsoft Dynamics CRM webhook in ServiceNow to notify the ServiceNow application when certain events occur in Microsoft Dynamics CRM.Create webhook routing policy and subflow according to your requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-ms-dynamics-crm.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -80,7 +80,7 @@ Complete these steps from your Azure Developer account. See the [Azure](https://
 
 ### What to do next
 
-[Register Microsoft Dynamics CRM as OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-ms-dynamics-crm.md).
+[Register Microsoft Dynamics CRM as OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-ms-dynamics-crm.md).
 
 ## Register Microsoft Dynamics CRM as OAuth provider
 
@@ -238,7 +238,7 @@ Role required: admin.
 
 4.  Customize the subflow according to your requirement and publish it.
 
-    See [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-subflow.md) for more information about creating and using subflows.
+    See [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-subflow.md) for more information about creating and using subflows.
 
 5.  Navigate to **Dynamics CRM Webhook Details** &gt; **Decision Policy**.
 

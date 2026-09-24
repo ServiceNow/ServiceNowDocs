@@ -3,9 +3,9 @@ title: Define the payload for a custom modal
 description: Set your action button to open a custom modal by defining the payload parameters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/define-the-payload-for-a-custom-modal.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure a custom form modal, Configure action buttons, Declarative actions, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -16,11 +16,11 @@ Set your action button to open a custom modal by defining the payload parameters
 
 ## Before you begin
 
--   [Create a form action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-a-new-form-action.md)
--   Open your record page in UIB or create a page variant in UIB
--   [Design your page variant in UIB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/design-a-page-variant-in-uib.md)
--   [Configure your page variant as a modal in UIB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-a-page-variant-as-a-modal-in-uib.md)
--   [Create a UX add-on event mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-a-ux-add-on-event-mapping.md)
+-   [Create a form action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/create-a-new-form-action.md)
+-   Open your record page in UIB or [create a page variant in UIB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-variant.md)
+-   [Design your page variant in UIB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/design-a-page-variant-in-uib.md)
+-   [Configure your page variant as a modal in UIB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-a-page-variant-as-a-modal-in-uib.md)
+-   [Create a UX add-on event mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/create-a-ux-add-on-event-mapping.md)
 
 Role required: admin
 

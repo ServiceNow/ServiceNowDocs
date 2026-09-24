@@ -3,9 +3,9 @@ title: System properties
 description: These system properties control the behavior of the Data Management capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_SetArchiveRuleProcessingBehavior.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -28,7 +28,7 @@ The archive process uses a producer and consumer model. Records are queued for a
 
 **Note:** The archive and destroy properties listed in the table are not used if the Archive Job Execution Chunks \[sys\_archive\_run\_chunk\] table is deleted.
 
-To manually control how many records the archive rule and destroy processes at one interval, you can change these default settings by [adding the following system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+To manually control how many records the archive rule and destroy processes at one interval, you can change these default settings by [adding the following system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 |Name|Description|Type|Default Value|
 |----|-----------|----|-------------|
@@ -78,5 +78,5 @@ Limits how long the cleaner spends trying to batch-delete records per rule durin
 -   Default value: 1200
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/data-management-reference.md)
+</table>**Parent Topic:**[Data Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/data-management-reference.md)
 

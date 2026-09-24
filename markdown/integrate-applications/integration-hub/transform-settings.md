@@ -3,11 +3,11 @@ title: Transform settings
 description: Configure the transform settings for your Integration Hub - Import integration. Specify batch size and empty-field handling, enable verbose mode, or run a script before or after the integration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/transform-settings.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integration Hub - Import, Import and stream data, Integration Hub, Workflow Data Fabric]
 ---
@@ -20,7 +20,7 @@ Configure the transform settings for your Integration Hub - Import integration. 
 
 You can configure the transform settings for your integration by selecting the **Transform Settings** button at the top of the Map to target page in Integration Hub - Import.
 
-**Note:** The **Transform Settings** button doesn't appear until you've added at least one target table to the Map to target page. For more information, see [Map source data to a target table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/map-source-data-target.md).
+**Note:** The **Transform Settings** button doesn't appear until you've added at least one target table to the Map to target page. For more information, see [Map source data to a target table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/map-source-data-target.md).
 
 <table id="table_snt_djm_3xb"><thead><tr><th>
 
@@ -104,5 +104,5 @@ Option to run a script after inserting or updating data. Send notifications, cal
 -   **importLog**: The log that records information about data import activity.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub-imports.md)
+</table>**Parent Topic:**[Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/integrationhub-imports.md)
 

@@ -1,9 +1,9 @@
 ---
 title: Jira Spoke
-description: Manage issues, users, stories, groups, projects, sprints, and webhooks, and look up audit logs in Jira. Retrieve Jira data to use in a flow. Use bi-directional webhooks and subscribe to Jira with a ServiceNow callback URL. Install Now Assist for Integration Hub and start using the available AI agents to perform tasks in your ServiceNow instance. Set up triggers for the required events to enable webhooks to connect with your ServiceNow instance.
+description: Manage issues, users, stories, and groups in Jira. Retrieve Jira data to use in a flow. Use bi-directional webhooks and subscribe to Jira with a ServiceNow callback URL.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/jira-spoke-v3-0-2.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
@@ -14,7 +14,7 @@ breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workfl
 
 # Jira Spoke
 
-Manage issues, users, stories, groups, projects, sprints, and webhooks, and look up audit logs in Jira. Retrieve Jira data to use in a flow. Use bi-directional webhooks and subscribe to Jira with a ServiceNow callback URL. Install Now Assist for Integration Hub and start using the available AI agents to perform tasks in your ServiceNow instance. Set up triggers for the required events to enable webhooks to connect with your ServiceNow instance.
+Manage issues, users, stories, and groups in Jira. Retrieve Jira data to use in a flow. Use bi-directional webhooks and subscribe to Jira with a ServiceNow callback URL.
 
 ## Request apps on the Store
 
@@ -49,7 +49,7 @@ This spoke was built for API version v2, but may be compatible with later versio
 **Note:**
 
 -   If your Jira instance supports another API version, specify the API version in **API Version** in the respective connection record under the Attributes related list. By default, the **API Version** is `2`.
--   Jira Service Desk isn’t supported by the Jira spoke. ServiceNow offers [Jira Service Management Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jira-serv-mngmt.md) to integrate with Jira Service Management that is the new version of Jira Service Desk.
+-   Jira Service Desk isn’t supported by the Jira spoke. ServiceNow offers [Jira Service Management Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/jira-serv-mngmt.md) to integrate with Jira Service Management that is the new version of Jira Service Desk.
 
 ## Jira Webhooks module
 
@@ -161,9 +161,9 @@ Version
 -   Merged To Version Description
 
 </td></tr></tbody>
-</table>To use other conditions in the routing policy, create a routing policy in the Jira WebHook Routing Policies module and specify conditions as per your requirement. See [Set up a bi-directional webhook for the Jira spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-jira302-webhooks.md) for information regarding setting up and configuring the webhooks.
+</table>To use other conditions in the routing policy, create a routing policy in the Jira WebHook Routing Policies module and specify conditions as per your requirement. See [Set up a bi-directional webhook for the Jira spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-jira302-webhooks.md) for information regarding setting up and configuring the webhooks.
 
-**Tip:** To set up and use webhooks, you should configure webhook registries, decision tables, and create subflows. For a low-code alternative with less configurations, you can use [Spoke triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jira-spoke-v3-0-2.md).
+**Tip:** To set up and use webhooks, you should configure webhook registries, decision tables, and create subflows. For a low-code alternative with less configurations, you can use [Spoke triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/jira-spoke-v3-0-2.md).
 
 ## Spoke subflow
 
@@ -250,7 +250,7 @@ While customizing subflows, you must ensure that the subflows are configured to 
 
 **Note:**
 
--   You must configure webhooks to use the spoke subflow. See [Set up a bi-directional webhook for the Jira spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-jira302-webhooks.md) for information regarding setting up and configuring the webhook.
+-   You must configure webhooks to use the spoke subflow. See [Set up a bi-directional webhook for the Jira spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-jira302-webhooks.md) for information regarding setting up and configuring the webhook.
 -   The sample subflow runs as a user by default. The subflow can be configured to run as system.
 
 ## Spoke triggers
@@ -275,7 +275,7 @@ Use triggers in the Jira spoke to subscribe to the required events. The endpoint
 |Sprint Closed|Trigger is initiated when a sprint is closed.|
 |Sprint Started|Trigger is initiated when a sprint is started.|
 
-For information about setting up the triggers for the Jira spoke, see [Set up triggers for the Jira spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jira-ext-trigger.md). For more information about inbound integration, see [Conditional and event-driven inbound integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conditional-and-event-driven-inbound-integration.md).
+For information about setting up the triggers for the Jira spoke, see [Set up triggers for the Jira spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/jira-ext-trigger.md). For more information about inbound integration, see [Conditional and event-driven inbound integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/conditional-and-event-driven-inbound-integration.md).
 
 ## Spoke actions
 
@@ -808,16 +808,16 @@ Updates webhook with the given ID in Jira.**Note:** This action isn’t supporte
 </td></tr></tbody>
 </table>## Available AI agents
 
-Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [Now Assist for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 
--   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-use-case-ai-agents.md) for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
+-   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-use-case-ai-agents.md) for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
 
-    You can also search for other available AI agents and add them to your agentic workflow. See [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md) for more information.
+    You can also search for other available AI agents and add them to your agentic workflow. See [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/find-ai-agents.md) for more information.
 
--   You can create a clone of the required spoke AI agent and customize it as per your requirement. See [Duplicate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-ai-agent.md) for more information about creating a clone.
--   See [AI Agent Studio \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md) for information about AI agents.
+-   You can create a clone of the required spoke AI agent and customize it as per your requirement. See [Duplicate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-ai-agent.md) for more information about creating a clone.
+-   See [AI Agent Studio \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/na-ai-agents.md) for information about AI agents.
 
 Available AI agents include:
 
@@ -832,7 +832,7 @@ Available AI agents include:
 |Jira group management AI agent|Manages groups by performing actions such as, creating and deleting groups, adding and removing users, retrieving details about groups, retrieving data and updates, and retrieving group members.|
 |Jira issue management AI agent|Manages issues by performing actions such as, deleting issues, managing transitions, handling watchers, and working with attachments. Also, manages transitions, comments, attachments, and watchers.|
 
-There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/find-ai-agents.md).
 
 **Note:** Ensure that the user running an AI agent has the required roles and permissions to access data or perform operations on data in the table that is associated with the AI agent.
 

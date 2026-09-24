@@ -3,11 +3,11 @@ title: GCP Load Balancer pattern-based discovery
 description: Discovery and Service Mapping Patterns finds GCP Load Balancers on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/gcp-load-balancer-pattern.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [GCP Load Balancer, Google Cloud Platform Load Balancer, GCP discovery, GCP patterns, HTTP load balancer, HTTPS load balancer, TCP load balancer, UDP load balancer]
 breadcrumb: [GCP discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
@@ -26,7 +26,7 @@ Both patterns populate the same CMDB tables.
 
 ## Pattern-based discovery and mapping requirements
 
-Verify the GCP discovery prerequisites section in [Google Cloud Platform \(GCP\) Cloud discovery using Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/gcp-cloud-discovery-patterns.md).
+Verify the GCP discovery prerequisites section in [Google Cloud Platform \(GCP\) Cloud discovery using Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/gcp-cloud-discovery-patterns.md).
 
 ## Data collected by Discovery during horizontal discovery
 
@@ -301,5 +301,5 @@ The Google Cloud Platform \(GCP\) - Load Balancer - TCP - UDP pattern creates re
 |Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\]|Uses::Used by|Load Balancer Pool \[cmdb\_ci\_lb\_pool\]|
 |Cloud Load Balancer Health Service \[cmdb\_ci\_lb\_health\_service\]|Used by::Uses|Load Balancer Pool \[cmdb\_ci\_lb\_pool\]|
 
-**Parent Topic:**[Google Cloud Platform \(GCP\) Cloud discovery using Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/gcp-cloud-discovery-patterns.md)
+**Parent Topic:**[Google Cloud Platform \(GCP\) Cloud discovery using Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/gcp-cloud-discovery-patterns.md)
 

@@ -3,13 +3,13 @@ title: Disable Dynamic Translation for LLM Virtual Agent conversations
 description: Enable dynamic translation of chat messages into English before they are sent to the large language model in generative AI topics to support users who speak other languages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generative-ai-controller/disable-dynamic-translation-for-llm-va-conversations.html
-release: australia
+release: brazil
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Disable Dynamic Translation for LLM Virtual Agent conversations

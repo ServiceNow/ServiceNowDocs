@@ -3,11 +3,11 @@ title: Filter records
 description: Set additional filters to limit the number of records that are displayed on a screen. Filtering records in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/filter-records-agent-mobile.html
-release: australia
+release: brazil
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring ITSM Mobile Agent, ITSM Mobile Agent, IT Service Management]
 ---
@@ -36,7 +36,7 @@ Role required: itil or group manager
 
 5.  Repeat steps 1- 4 with the Filters screen displayed to continue setting your filter criteria.
 
-6.  Tap the and AND icon after you set all criteria to create AND conditions.
+6.  Tap the and icon after you set all criteria to create AND conditions.
 
 7.  Alternatively, tap the OR icon to create OR conditions.
 

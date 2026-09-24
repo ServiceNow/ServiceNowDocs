@@ -3,11 +3,11 @@ title: Assign Policy and Compliance Management issues with the GRC Mobile applic
 description: Assign unassigned Policy and Compliance Management issues to a member of your assignment group. Navigate through the record to view more details about the Control Objective, the Control record, and Remediation Tasks associated with an issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/mobile-issues-p-and-c.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Managing mobile experience for GRC Policy and Compliance, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -26,7 +26,7 @@ Time to complete this task: 5-10 minutes.
 
 ## Procedure
 
-1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-login-P-C-app.md).
+1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-login-P-C-app.md).
 
 2.  With the Policy and Compliance landing screen displayed, under the section titled, `Team's Unassigned Work`, tap **Issues**.
 
@@ -36,7 +36,7 @@ Time to complete this task: 5-10 minutes.
 
     The Issues screen is displayed with a list of records.
 
-3.  If you want to reduce the number of records that are displayed on the screen, see [Filter records with the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-pc-set-filters.md) to search for records that match specific search criteria.
+3.  If you want to reduce the number of records that are displayed on the screen, see [Filter records with the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-pc-set-filters.md) to search for records that match specific search criteria.
 
     Filtering records on screens in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform. Setting filters can reduce the number of records that are displayed on screens.
 
@@ -57,15 +57,15 @@ Time to complete this task: 5-10 minutes.
 
     \[Omitted image "mobile-issue-record.jpg"\] Alt text: Issue record.
 
-<table id="choicetable_sgf_5fd_xhb"><thead><tr><th align="left" id="d92728e236">
+<table id="choicetable_sgf_5fd_xhb"><thead><tr><th align="left" id="d94110e236">
 
 Option
 
-</th><th align="left" id="d92728e239">
+</th><th align="left" id="d94110e239">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d92728e245">
+</th></tr></thead><tbody><tr><td id="d94110e245">
 
 **Details tab**
 
@@ -82,7 +82,7 @@ Tap the **Control/Risk** field to expand it. A list of records is displayed. Tap
 -   At the top right of the screen with the Issue screen displayed, tap the menu icon \( \[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon.\) to edit and assign the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d92728e289">
+</td></tr><tr><td id="d94110e289">
 
 **Activity Stream tab**
 
@@ -92,7 +92,7 @@ Choose one to continue.-   View work notes and additional comments. Tap the plus
 -   At the top right of the screen, tap the menu icon \( \[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon.\) to edit and assign the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d92728e319">
+</td></tr><tr><td id="d94110e319">
 
 **Related List tab**
 
@@ -105,7 +105,7 @@ View the related lists.
 3.  After your review, navigate back to the issue record and tap the menu \( \[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon.\) to edit and assign the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d92728e352">
+</td></tr><tr><td id="d94110e352">
 
 **Screen icons at the bottom of the screen.**
 
@@ -120,5 +120,5 @@ On the bottom of the screen, choose one to continue.-   Tap the Policy and Compl
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Managing mobile experience for GRC Policy and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-policy_compliance-ovrvw.md)
+**Parent Topic:**[Managing mobile experience for GRC Policy and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-policy_compliance-ovrvw.md)
 

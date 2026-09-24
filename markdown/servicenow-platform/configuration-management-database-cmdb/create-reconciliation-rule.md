@@ -3,11 +3,11 @@ title: Create a CI reconciliation rule
 description: Create a static or a dynamic CI reconciliation rule.A static reconciliation rule specifies class attributes that discovery sources are authorized to update, and prevents unauthorized discovery sources from overwriting the attributes' values. A static reconciliation rule also specifies the prioritization among multiple discovery sources. Without static reconciliation rules, discovery sources can overwrite each other's updates to attribute values.A dynamic reconciliation rule uses CMDB 360 data to choose a value such as the largest value that is reported, for updating a CI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/create-reconciliation-rule.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Reconciliation rules, Configure, CMDB Identification and Reconciliation \(IRE\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ If both, static and dynamic reconciliation rules exist for the same CI attribute
 
 **Note:** You can't create a reconciliation rule for system fields or for Identification and Reconciliation Engine \(IRE\) specific fields such as the Discovery source \(discovery\_source\) field. Also, reconciliation rules can't be dot-walked using reference fields.
 
-**Parent Topic:**[Reconciliation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/r_ReconciliationRulesPrinciples.md)
+**Parent Topic:**[Reconciliation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/r_ReconciliationRulesPrinciples.md)
 
 **Related topics**  
 
@@ -37,7 +37,7 @@ Role required: sn\_cmdb\_editor and itil have read access, sn\_cmdb\_admin and i
 
 ### About this task
 
-Static reconciliation rules are used in conjunction with [data refresh rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-datasource-staleness-rule.md) to determine reconciliation steps for a CI. These rules determine if, when, and by which discovery source a CI can be updated. If multiple discovery sources are authorized to update the same class attributes, assign a priority to each of these discovery sources to prevent them from overwriting each other's updates.
+Static reconciliation rules are used in conjunction with [data refresh rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/create-datasource-staleness-rule.md) to determine reconciliation steps for a CI. These rules determine if, when, and by which discovery source a CI can be updated. If multiple discovery sources are authorized to update the same class attributes, assign a priority to each of these discovery sources to prevent them from overwriting each other's updates.
 
 After an authorized discovery source updates an attribute, subsequent updates are accepted only from the same discovery source or from a discovery source with a higher priority. Updates from a discovery source with a lower priority are rejected, unless these two conditions are met:
 
@@ -70,7 +70,7 @@ If there is a dynamic reconciliation rule for the same CI attribute as in a stat
 
 6.  Select the **Static Reconciliation Rule** tile if it appears.
 
-    If [CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md) is not enabled, you can't create a dynamic reconciliation rule and the tiles to choose the rule type do not appear.
+    If [CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md) is not enabled, you can't create a dynamic reconciliation rule and the tiles to choose the rule type do not appear.
 
 7.  Fill out the fields on the **Add Data Sources &amp; Prioritize** tab, and then select **Next**.
 
@@ -142,7 +142,7 @@ Conditions that CIs must meet for the rule to be applicable.
  For example, to apply this rule only to CIs that are associated with the Finance department, select this condition: **\[Department\] \[is\] \[Finance\]**.
 
 </td></tr></tbody>
-</table>    **Note:** The [glide.identification\_engine.enable\_reconciliation\_filter\_before\_update](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/properties-id-reconciliation.md) system property determines when filter conditions are applied. By default, those filter conditions are applied after attribute values have changed during payload processing. Set this property to **true** so that Identification and Reconciliation Engine \(IRE\) applies the filter conditions before attribute values change.
+</table>    **Note:** The [glide.identification\_engine.enable\_reconciliation\_filter\_before\_update](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/properties-id-reconciliation.md) system property determines when filter conditions are applied. By default, those filter conditions are applied after attribute values have changed during payload processing. Set this property to **true** so that Identification and Reconciliation Engine \(IRE\) applies the filter conditions before attribute values change.
 
 
 ### What to do next
@@ -151,9 +151,9 @@ Conditions that CIs must meet for the rule to be applicable.
     -   **Attributes**: To show only reconciliation rules for a specific attribute.
     -   **Discovery sources**: To show only reconciliation rules for a specific discovery source.
 -   Select **Preview Rule** to see per attribute, the precedence order between any discovery sources that are authorized to update that attribute and any dynamic reconciliation rules.
--   If [CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md) is enabled, you can:
+-   If [CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md) is enabled, you can:
     -   Select **Preview Data** to see all attributes for a specific CI. Also, for each attribute, the current CMDB value and discovery sources reported values for the attribute.
-    -   Select **Recompute** to [recompute CI attribute values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/recompute-attribute-values.md) after changing reconciliation rules.
+    -   Select **Recompute** to [recompute CI attribute values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/recompute-attribute-values.md) after changing reconciliation rules.
 -   Navigate to **All** &gt; **Configuration** &gt; **Identification/Reconciliation** &gt; **Reconciliation Definitions** to see a list view of all definitions of reconciliation rules.
 
 ## Create a dynamic reconciliation rule
@@ -162,7 +162,7 @@ A dynamic reconciliation rule uses CMDB 360 data to choose a value such as the l
 
 ### Before you begin
 
-[CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md) must be enabled.
+[CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md) must be enabled.
 
 Role required: sn\_cmdb\_editor and itil have read access, sn\_cmdb\_admin and itil\_admin \(on top\) have full access
 
@@ -225,6 +225,6 @@ Conditions that CIs must meet for the rule to be applicable.
     -   **Discovery sources**: To show only reconciliation rules for a specific discovery source.
 -   Select **Preview Rule** to see per attribute, the precedence order between any discovery sources that are authorized to update that attribute and any dynamic reconciliation rules.
 -   Select **Preview Data** to see all attributes for a specific CI. Also, for each attribute, the current CMDB value and discovery sources reported values for the attribute.
--   [Recompute CI attribute values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/recompute-attribute-values.md).
+-   [Recompute CI attribute values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/recompute-attribute-values.md).
 -   Navigate to **All** &gt; **Configuration** &gt; **Identification/Reconciliation** &gt; **Reconciliation Definitions** to see a list view of all definitions of reconciliation rules.
 

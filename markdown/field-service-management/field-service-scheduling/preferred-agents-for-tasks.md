@@ -3,11 +3,11 @@ title: Assigning preferred agents to work on tasks
 description: Preferred agents are agents who are most familiar with the context of tasks they've been assigned and are preferred by customers. For example, they could be agents who work on-site at a customer premise or are associated with the customer contracts or entitlements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/preferred-agents-for-tasks.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Assigning tasks using Dynamic Scheduling, Scheduling and dispatching, Use, Field Service Management]
 ---
@@ -88,5 +88,5 @@ This example shows how when a customer books an appointment, it’s automaticall
     Navigate to **Field Service** &gt; **Dispatching** &gt; **Dispatcher Workspace** and see that the task has been assigned to the preferred agent Mona Lisa.
 
 
-For more information on adding a preferred agent to a work order task see, [Set technician preferences for tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/assign-preferred-agents-tasks.md).
+For more information on adding a preferred agent to a work order task see, [Set technician preferences for tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/assign-preferred-agents-tasks.md).
 

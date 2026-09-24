@@ -3,11 +3,11 @@ title: Create an Asset put away task in the Enterprise Asset Workspace
 description: Create an Asset put away task manually for the In stock assets in the Enterprise Asset Workspace to track the movement of assets within the stockroom.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-asset-put-away-task-eam.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [create asset put away task, asset put away,]
 breadcrumb: [Putting away enterprise assets, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
@@ -35,7 +35,7 @@ You can create an asset put away task in the Enterprise Asset Workspace for the 
     -   In the Stockrooms tab, select a Stockroom and then in the Open stockroom tasks section, select the **Open put away tasks** card. Select **New**.
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [Asset put away task fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/put-away-task-form-eam.md).
+    For a description of the field values, see [Asset put away task fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/put-away-task-form-eam.md).
 
 4.  Save your modifications.
 
@@ -45,5 +45,5 @@ You can create an asset put away task in the Enterprise Asset Workspace for the 
         **Note:** **Drop off location** field value is required to close the Asset put away task.
 
 
-**Parent Topic:**[Manage asset put away using the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/manage-asset-putaway-stockroom-enterprise-asset-workspace.md)
+**Parent Topic:**[Manage asset put away using the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/manage-asset-putaway-stockroom-enterprise-asset-workspace.md)
 

@@ -1,16 +1,16 @@
 ---
-title: Request Predictive Intelligence for Major Incident Management
+title: Activate Predictive Intelligence for Major Incident Management
 description: Activate Predictive Intelligence for Major Incident Management by requesting the Predictive Intelligence for Major Incident Management plugin \(com.snc.incident.mim.ml\_solution\) through the Now Support Service Catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/request-pred-intelli-mim.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Machine learning solutions for IT Service Management, IT Service Management]
 ---
 
-# Request Predictive Intelligence for Major Incident Management
+# Activate Predictive Intelligence for Major Incident Management
 
 Activate Predictive Intelligence for Major Incident Management by requesting the Predictive Intelligence for Major Incident Management plugin \(com.snc.incident.mim.ml\_solution\) through the Now Support Service Catalog.
 
@@ -28,6 +28,10 @@ The following plugins are installed with Predictive Intelligence for Major Incid
 
 -   Incident Management - Major Incident Management \(com.snc.incident.mim\)
 -   Predictive Intelligence for Incident Management \(com.snc.incident.ml\_solution\)
+
+On a non-production instance, you can install the plugin via the Application Manager.
+
+The following procedure describes how to request the plugin via the Now Support Service Catalog for a production instance, if needed after subscription purchase.
 
 ## Procedure
 
@@ -59,7 +63,7 @@ Plugin Name
 
 </td><td>
 
-Enter: ``
+Enter: `Predictive Intelligence for Major Incident Management (com.snc.incident.mim.ml_solution)`
 
 </td></tr><tr><td>
 
@@ -75,5 +79,5 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
-**Parent Topic:**[Machine learning solutions for IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/machine-learning-itsm.md)
+**Parent Topic:**[Machine learning solutions for IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/machine-learning-itsm.md)
 

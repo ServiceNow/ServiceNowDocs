@@ -3,9 +3,9 @@ title: Create a launcher screen
 description: Use launcher screens in a dashboard layout, for users to access mobile screen types, as selected by you.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/launcher-screen-template.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Launcher screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -34,15 +34,15 @@ The launcher screen configuration page contains all the sections that make up a 
 
 3.  Create a launcher screen by using one of the following methods.
 
-<table id="choicetable_e2v_z3s_s1c"><thead><tr><th align="left" id="d82846e92">
+<table id="choicetable_e2v_z3s_s1c"><thead><tr><th align="left" id="d83204e92">
 
 Method
 
-</th><th align="left" id="d82846e95">
+</th><th align="left" id="d83204e95">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d82846e101">
+</th></tr></thead><tbody><tr><td id="d83204e101">
 
 **Using the Screens menu option**
 
@@ -52,7 +52,7 @@ Procedure
 2.  Select the Launcher screen type, and then select **Continue**.
 
 
-</td></tr><tr><td id="d82846e128">
+</td></tr><tr><td id="d83204e128">
 
 **Using the All mobile records menu option**
 
@@ -119,7 +119,7 @@ Header function instance
 
 </td><td>
 
-Determine if this launcher section contains a header section. For more information, see [Configure a launcher screen header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/create-alp-header.md).
+Determine if this launcher section contains a header section. For more information, see [Configure a launcher screen header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/create-alp-header.md).
 
 </td></tr><tr><td>
 
@@ -127,7 +127,7 @@ Search configuration
 
 </td><td>
 
-Determine if this launcher section contains a search area. For more information, see [Global search for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-search-config.md).
+Determine if this launcher section contains a search area. For more information, see [Global search for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-search-config.md).
 
 </td></tr><tr><td>
 
@@ -135,7 +135,7 @@ Launcher sections
 
 </td><td>
 
-Determine what UI sections are contained in this launcher screen. For more information, see [Launcher screen UI sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/alp-ui-sections.md).
+Determine what UI sections are contained in this launcher screen. For more information, see [Launcher screen UI sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/alp-ui-sections.md).
 
 </td></tr><tr><td>
 
@@ -143,7 +143,7 @@ Quick action function instance
 
 </td><td>
 
-Determine if this launcher section contains any quick action functions. For more information, see [Quick actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-config-quick-actions.md).
+Determine if this launcher section contains any quick action functions. For more information, see [Quick actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-config-quick-actions.md).
 
 </td></tr><tr><td>
 
@@ -151,7 +151,7 @@ Access control type
 
 </td><td>
 
-Option to assign either user role permissions or user criteria permissions for this launcher screen. For more information, see [User roles and user criteria permissions for mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/roles-user-criteria.md).
+Option to assign either user role permissions or user criteria permissions for this launcher screen. For more information, see [User roles and user criteria permissions for mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/roles-user-criteria.md).
 
 </td></tr><tr><td>
 
@@ -172,7 +172,7 @@ Determine which user criteria can access this launcher screen. If you have not s
 </td></tr></tbody>
 </table>5.  Configure the relevant sections for your launcher screen.
 
-    You can add any of the following sections to a launcher screen, as detailed in these links: [Configure a launcher screen header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/create-alp-header.md), [Global search for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-search-config.md), [Launcher screen UI sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/alp-ui-sections.md), and [Quick actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-config-quick-actions.md).
+    You can add any of the following sections to a launcher screen, as detailed in these links: [Configure a launcher screen header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/create-alp-header.md), [Global search for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-search-config.md), [Launcher screen UI sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/alp-ui-sections.md), and [Quick actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-config-quick-actions.md).
 
 6.  Select **Save**.
 

@@ -3,9 +3,9 @@ title: Post case review approvals
 description: Enable an optional approval process for post case review documents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/case-digests-pcr-approvals.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Post case reviews, Customer Service case digests, Configure case digests, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---

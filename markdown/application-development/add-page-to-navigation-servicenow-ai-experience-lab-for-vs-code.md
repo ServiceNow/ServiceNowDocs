@@ -3,10 +3,10 @@ title: Add a page to the navigation
 description: Add pages to the navigation to make them accessible from other pages, such as a home page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/add-page-to-navigation-servicenow-ai-experience-lab-for-vs-code.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-06"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Use, ServiceNow Lux Lab for VS Code extension, Building pro-code applications, Developing your application, Building applications]
 ---
 
@@ -80,7 +80,7 @@ ServiceNow SDK
 
 </td><td>
 
-4.10 or later
+4.12.1 or later
 
 </td><td>
 
@@ -97,7 +97,7 @@ ServiceNow instance
 
 </td><td>
 
-[Prepare your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/rn-prepare-landing-page.md)
+[Prepare your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/rn-prepare-landing-page.md)
 
 </td></tr></tbody>
 </table>## Procedure
@@ -116,6 +116,25 @@ ServiceNow instance
 
     **Note:** To add pages to L2, include an `l2Nav: [{icon, title, action}]` array on the L1 page you pass to `addNavItem`. The page accepts \{icon, title, action, l2Nav?, l3Nav?\}.
 
+    A navigation entry has the following format:
+
+    ```
+    setup(ctx) {
+      const items = [
+        {
+          icon: 'home',
+          title: i18n.getMessage('Home'),
+          action: {type: 'navigate', path: '/home'}
+        },
+        {
+          icon: 'list',
+          title: i18n.getMessage('Incidents'),
+          action: {type: 'navigate', path: '/incidents'}
+        }
+      ];
+    }
+    ```
+
     |Action|Code to add in application.js|
     |------|-----------------------------|
     |Add pages to L1 sidebar|`addNavItem(item, {source?})`|
@@ -130,6 +149,6 @@ ServiceNow instance
 
     For more information, see the following resources:
 
-    -   [Preview a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/preview-page-servicenow-ai-experience-lab-for-vs-code.md)
-    -   [Deploy changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/deploy-changes-servicenow-ai-experience-lab-for-vs-code.md)
+    -   [Preview a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/preview-page-servicenow-ai-experience-lab-for-vs-code.md)
+    -   [Deploy changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/deploy-changes-servicenow-ai-experience-lab-for-vs-code.md)
 

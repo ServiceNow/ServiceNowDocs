@@ -3,11 +3,11 @@ title: Citizen Development Program Design
 description: Provides prescriptive guidance on enabling Citizen Development for your ServiceNow platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/citizen-development-accelerator.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Strategy Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
@@ -22,7 +22,7 @@ The Citizen Development Program Design Accelerator provides Impact customers wit
 
 This Accelerator includes workshops to assess and create a prioritized list of candidates for Citizen Development, determine the required screening and training for them, and assess operational and technical governance to identify any necessary adjustments.
 
-For more information on the Citizen Development and low code development, see [Exploring App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-aes.md).
+For more information on the Citizen Development and low code development, see .
 
 ## Package Availability
 

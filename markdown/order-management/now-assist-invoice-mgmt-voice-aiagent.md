@@ -3,11 +3,11 @@ title: Dispute invoice cases via calls
 description: Use the AI voice agents to create and manage cases for invoice-related issues such as disputing order quantity with voice calls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/now-assist-invoice-mgmt-voice-aiagent.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Invoice case self-service, Business Portal, Use, Sales Customer Relationship Management]
 ---
 
@@ -44,5 +44,5 @@ Role required: sn\_customerservice.customer
 
 The AI voice agent then creates an invoice case corresponding to the disputed invoice, and provides the invoice case number to the customer over the phone call.
 
-**Parent Topic:**[Invoice and invoice case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/invoice-case-self-service.md)
+**Parent Topic:**[Invoice and invoice case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/invoice-case-self-service.md)
 

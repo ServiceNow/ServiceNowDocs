@@ -3,11 +3,11 @@ title: Update the entity name or parent of an equipment model entity
 description: Update the entity name or parent fields in an equipment model entity record as needed to help keep your equipment model information up to date.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/update-the-name-or-parent-equipment-model-entity.html
-release: australia
+release: brazil
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Review and update the equipment model details, Managing equipment models, Use, Industrial Process Manager, Operational Technology]
 ---
@@ -39,5 +39,5 @@ Role required: cmdb\_ot\_isa\_editor
 
 When you update the **Entity name** or **Parent** fields, the fields are also updated in the tree component in the Equipment Model Manager and the site filter on the Operational Technology \(OT\) landing page in the Industrial Workspace.
 
-**Parent Topic:**[Review and update the equipment model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/equipment-model-workspace.md)
+**Parent Topic:**[Review and update the equipment model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/equipment-model-workspace.md)
 

@@ -3,9 +3,9 @@ title: Technology risk calculation in Enterprise Architecture Workspace
 description: Assess the technology risks of your business applications by calculating their risks. Technology risks are calculated at the hardware model and software product levels to determine the risk at the business application level.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-technology-risk-calc.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Exploring Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace, Exploring Technology Portfolio view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -95,10 +95,10 @@ A business application can run on many software models. The risk of a business a
 
 You can customize the script that is executed to calculate the risks at the product model risk level \(hardware and software models\). The script also calculates risks at the application service risk level and business application risk level.
 
-**Parent Topic:**[Exploring Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-tpm.md)
+**Parent Topic:**[Exploring Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-tpm.md)
 
 **Related topics**  
 
 
-[TLM lifecycle timelines on Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-tpm-lifecycle-timelines-on-gantt-chart.md)
+[TLM lifecycle timelines on Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-tpm-lifecycle-timelines-on-gantt-chart.md)
 

@@ -3,11 +3,11 @@ title: Configure actions for standard ticket page
 description: You can configure specific actions to be directly available on the standard ticket page. Requesters are able to initiate these actions. Scriptable APIs can also trigger these actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/configure-actions-for-standard-ticket-page.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure the standard ticket page, Standard ticket page, Creating portal pages, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -142,14 +142,14 @@ Option to enable adding text input by users for the action. If you select this c
 </table>5.  Select **Update**.
 
 
-**Parent Topic:**[Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-st-page.md)
+**Parent Topic:**[Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/configure-st-page.md)
 
 **Related topics**  
 
 
-[Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-st-page.md)
+[Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/configure-st-page.md)
 
-[Enable instance options for the Activity tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/enable-instanceop-activity.md)
+[Enable instance options for the Activity tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/enable-instanceop-activity.md)
 
-[Configure tabs for standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-tabs-for-standard-ticket-page.md)
+[Configure tabs for standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/configure-tabs-for-standard-ticket-page.md)
 

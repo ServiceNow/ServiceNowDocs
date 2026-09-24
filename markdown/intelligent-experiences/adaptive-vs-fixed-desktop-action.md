@@ -3,12 +3,12 @@ title: When to use adaptive vs. defined path desktop actions
 description: Use this guide to determine which type of desktop action best fits your automation scenario before you begin configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/adaptive-vs-fixed-desktop-action.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [adaptive desktop action, defined desktop action, deterministic desktop action, probabilistic desktop action]
-breadcrumb: [Explore, AI Desktop Actions, Enable AI experiences]
+breadcrumb: [Explore, AI Desktop Actions, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # When to use adaptive vs. defined path desktop actions

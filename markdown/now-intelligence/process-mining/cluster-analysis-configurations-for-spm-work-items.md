@@ -3,20 +3,20 @@ title: Cluster analysis configurations for SPM work items
 description: The Process Mining application provides solution definitions for demands, that you can use to configure cluster analysis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/cluster-analysis-configurations-for-spm-work-items.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [SPM, Activate content packs, Activate, Process Mining, Platform Analytics]
+breadcrumb: [SPM, Automatic content pack delivery, Activate content packs, Activate, Process Mining, Platform Analytics]
 ---
 
 # Cluster analysis configurations for SPM work items
 
 The Process Mining application provides solution definitions for demands, that you can use to configure cluster analysis.
 
-**Important:** This feature is available with the ServiceNow Store Process Mining SPM content pack v1.0. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+**Important:** This feature is included with the Process Mining SPM content pack, which is delivered automatically when SPM is installed on your instance. For more information, see [Automatic delivery of content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/process-mining-content-pack-delivery.md).
 
 ## Clustering solution definition configurations
 
@@ -30,5 +30,5 @@ A Process Mining administrator \(sn\_process\_mining\_admin\) can access the SPM
 
 The clustering solution definitions also contain the purity fields for demands, which are department, business\_unit, and priority.
 
-**Parent Topic:**[Content pack for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/integration-with-spm.md)
+**Parent Topic:**[Content pack for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/integration-with-spm.md)
 

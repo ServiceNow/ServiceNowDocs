@@ -3,9 +3,9 @@ title: Create a case from affected users
 description: You can create a security case from affected users in the User \[sys\_user\] table. After the affected users have been used to create a new case, you can use Security Case Management to analyze the data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/create-cases-from-affected-users.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Affected users in cases, Case creation from security artifacts, Security Case Management, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -56,7 +56,7 @@ You need to navigate to the users you want to use to create a case.
 7.  Click the link to view the new case.
 
 
-**Parent Topic:**[Affected users in cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/cases-from-affected-users.md)
+**Parent Topic:**[Affected users in cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/cases-from-affected-users.md)
 
 **Related topics**  
 

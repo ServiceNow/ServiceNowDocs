@@ -3,11 +3,11 @@ title: Glossary Proactive Service Experience Workflows
 description: Learn about the terms and concepts that are unique to Proactive Service Experience Workflows.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/glossary-psew.html
-release: australia
+release: brazil
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms]
 breadcrumb: [Reference, Proactive Service Experience Workflows, Product Support for Technology]
@@ -55,7 +55,7 @@ Glossary terms are grouped alphabetically.
 
 ### escalation
 
-The process of moving an incident to a higher level of support for faster resolution. PSEW includes predefined stages of escalation: Triage, L1 investigation, L2 investigation, L3 investigation, and Resolution. To learn more, see [About escalating incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/psew-escalate-incident.md).
+The process of moving an incident to a higher level of support for faster resolution. PSEW includes predefined stages of escalation: Triage, L1 investigation, L2 investigation, L3 investigation, and Resolution. To learn more, see [About escalating incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/psew-escalate-incident.md).
 
 ## H
 
@@ -63,7 +63,7 @@ Glossary terms are grouped alphabetically.
 
 ### hermes kafka
 
-A messaging service used to publish outbound notifications to external systems, particularly for cloud customers. To learn more, see [Producing outbound API notifications using Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/hermes-stream-connect-kafka-workflow.md).
+A messaging service used to publish outbound notifications to external systems, particularly for cloud customers. To learn more, see [Producing outbound API notifications using Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/hermes-stream-connect-kafka-workflow.md).
 
 ## I
 
@@ -95,7 +95,7 @@ Glossary terms are grouped alphabetically.
 
 ### operations account 360
 
-A view within the Service Operations Workspace that provides a comprehensive overview of a customer's or partner's account, including key contacts, products, services, and performance metrics. To learn more, see [Service delivery overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/account-360-analytics-dashboard.md).
+A view within the Service Operations Workspace that provides a comprehensive overview of a customer's or partner's account, including key contacts, products, services, and performance metrics. To learn more, see [Service delivery overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/account-360-analytics-dashboard.md).
 
 ### open message bus
 
@@ -127,11 +127,11 @@ Glossary terms are grouped alphabetically.
 
 ### TMF 621 rest API
 
-A standard API that is used to create incident records from external systems, enabling integration with network management systems. To learn more, see [Trouble Ticket Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/trouble-ticket-open-api.md).
+A standard API that is used to create incident records from external systems, enabling integration with network management systems. To learn more, see [Trouble Ticket Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/trouble-ticket-open-api.md).
 
 ### trouble ticket notification
 
-A feature that sends notifications to third-party systems about incidents or cases created in ServiceNow, either reactively or proactively. To learn more, see [Exploring API Notification Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/handling-trouble-ticket-notifications.md).
+A feature that sends notifications to third-party systems about incidents or cases created in ServiceNow, either reactively or proactively. To learn more, see [Exploring API Notification Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/handling-trouble-ticket-notifications.md).
 
 ## W
 

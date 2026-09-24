@@ -3,11 +3,11 @@ title: Quick start tests for Agile Development 2.0
 description: Validate that Agile Development 2.0 still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/quick-start-tests-agiledevelopment2.0.html
-release: australia
+release: brazil
 product: Agile Development
 classification: agile-development
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Validate that Agile Development 2.0 still works after you make any configuration
 
 **Danger**
 
-By default, the system property that is used to run automated tests is disabled to prevent you from accidentally running these tests on a production system. To avoid data corruption or an outage, run tests only on development, test, and other non-production instances. See [Enable or disable executing Automated Test Framework tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/atf-enable-tests.md).
+By default, the system property that is used to run automated tests is disabled to prevent you from accidentally running these tests on a production system. To avoid data corruption or an outage, run tests only on development, test, and other non-production instances. See [Enable or disable executing Automated Test Framework tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/atf-enable-tests.md).
 
 Agile Development 2.0 quick start tests require activating the Agile Development 2.0 plugin \(com.snc.sdlc.agile.2.0\) and the Agile Development 2.0 - ATF Tests plugin \(com.snc.sdlc.agile.2.0.atf \).
 
@@ -184,7 +184,7 @@ Verify a Demand is converted to a scrum story
 
 </td><td>
 
-If the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) is active, verify that a Demand can be converted to an Agile 2.0 story using the **Create Story** related link on the Demand form. For more information on how to create an Agile 2.0 story from a demand, see [Create an artifact from a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CrtArtftDmdMnu.md).
+If the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) is active, verify that a Demand can be converted to an Agile 2.0 story using the **Create Story** related link on the Demand form. For more information on how to create an Agile 2.0 story from a demand, see [Create an artifact from a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/t_CrtArtftDmdMnu.md).
 
 </td><td>
 
@@ -196,7 +196,7 @@ Verify a Demand is converted to a scrum epic
 
 </td><td>
 
-If the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) is active, verify that a Demand can be converted to an Agile 2.0 epic using the **Create Epic** related link on the Demand form.For more information on how to create an Agile 2.0 epic from a demand, see [Create an artifact from a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CrtArtftDmdMnu.md).
+If the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) is active, verify that a Demand can be converted to an Agile 2.0 epic using the **Create Epic** related link on the Demand form.For more information on how to create an Agile 2.0 epic from a demand, see [Create an artifact from a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/t_CrtArtftDmdMnu.md).
 
 </td><td>
 
@@ -206,5 +206,5 @@ Quebec
 </table>**Related topics**  
 
 
-[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/quick-start-tests.md)
+[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/quick-start-tests.md)
 

@@ -3,11 +3,11 @@ title: ServiceNow AI Creator skills dashboard
 description: The ServiceNow AI Creator skills dashboard provides insight into how your organization uses AI-powered creator skills—automated code generation, documentation, and testing capabilities—to boost developer productivity. Monitor skill satisfaction, usage patterns, and outcomes to optimize adoption and identify high-performing skills across your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/md-servicenow-ai-creator-skills.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow AI dashboard, Dashboards, Explore, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
+breadcrumb: [ServiceNow AI dashboard, Dashboards, Explore, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # ServiceNow AI Creator skills dashboard

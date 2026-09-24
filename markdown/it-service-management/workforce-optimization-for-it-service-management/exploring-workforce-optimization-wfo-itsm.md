@@ -3,11 +3,11 @@ title: Exploring Workforce Optimization for ITSM
 description: Use Workforce Optimization for ITSM to optimize your workforce and manage your teams efficiently. Coach your teams so that they gain the skills that let you address the demands from your customers. Efficiently schedule your teams work to provide better coverage with integrated channel management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/exploring-workforce-optimization-wfo-itsm.html
-release: australia
+release: brazil
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -16,21 +16,21 @@ breadcrumb: [Workforce Optimization for ITSM, IT Service Management]
 
 Use Workforce Optimization for ITSM to optimize your workforce and manage your teams efficiently. Coach your teams so that they gain the skills that let you address the demands from your customers. Efficiently schedule your teams work to provide better coverage with integrated channel management.
 
-**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
-
 ## Workforce Optimization for ITSM overview
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 As a manager, you can monitor the demand for agents and skills in your organization to resolve issues. Assess agent skills, identify areas where they need improvement and provide training to enhance their skills set. Track your teams performance, and manage the schedule of all agents in your assignment group—all from a unified location.
 
 As an agent, you can manage your own schedule, access the schedules of your peers and request time off or shift swaps.
 
-To plan for your Workforce Optimization for ITSM implementation, see [Getting started with Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/getting-started-workforce-optimization-itsm.md).
+To plan for your Workforce Optimization for ITSM implementation, see [Getting started with Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/getting-started-workforce-optimization-itsm.md).
 
 ## Workforce Optimization for ITSM workflow
 
 The image displays the manager workflow between the different modules in Workforce Optimization for ITSM. Each of these modules can be used independently or together in the application.
 
-\[Omitted image "manager-wfo-itsm.png"\] Alt text: Infographic that shows the Workforce Optimization for ITSM Manager workflow. See the text description for the infographic next section.
+\[Omitted image "manager-wfo-itsm.png"\] Alt text: Infographic that shows the Workforce Optimization for ITSM Manager workflow. See the text description for the infographic in the next section.
 
 ## Channel Management
 
@@ -93,9 +93,9 @@ Easily find tasks that you must complete in a module in Workforce Optimization f
 
 |Workforce Optimization for ITSM modules|Benefit|Finding tasks to complete in the module|
 |---------------------------------------|-------|---------------------------------------|
-|Channels|Automatically route work to assigned groups|[Getting started with Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/exploring-channels-configurable-workforce-optimization-itsm.md)|
-|Schedule|Schedule your teams' work using Schedule|[Getting started with Scheduling in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/explore-schedule-configurable-wfo-itsm.md)|
-|Work Scheduler|Assign work using Work scheduler|[Getting started with Work scheduler in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/work-scheduling-wfo-itsm.md)|
-|Teams|Analyze team performance using Teams|[Getting started with Teams in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/explore-teams-configurable-workforce-optimization-itsm.md)|
-|Coaching|Train your teams with Coaching with Learning|[Getting started with Coaching in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/explore-coaching-configurable-workforce-optimization-itsm.md)|
+|Channels|Automatically route work to assigned groups|[Getting started with Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/exploring-channels-configurable-workforce-optimization-itsm.md)|
+|Schedule|Schedule your teams' work using Schedule|[Getting started with Scheduling in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/explore-schedule-configurable-wfo-itsm.md)|
+|Work Scheduler|Assign work using Work scheduler|[Getting started with Work scheduler in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/work-scheduling-wfo-itsm.md)|
+|Teams|Analyze team performance using Teams|[Getting started with Teams in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/explore-teams-configurable-workforce-optimization-itsm.md)|
+|Coaching|Train your teams with Coaching with Learning|[Getting started with Coaching in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/explore-coaching-configurable-workforce-optimization-itsm.md)|
 

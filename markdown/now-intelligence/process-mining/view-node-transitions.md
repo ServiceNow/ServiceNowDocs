@@ -3,11 +3,11 @@ title: Viewing activity transitions
 description: View activity transitions you've defined from the Bottleneck Analysis feature.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/view-node-transitions.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Viewing metrics and activity transitions, Analyzing and getting process insights, Use, Process Mining, Platform Analytics]
 ---
@@ -32,10 +32,10 @@ Select a transition link from the list to edit activities for the selected filte
 
 \[Omitted image "transition-link2.png"\] Alt text: Transition link to edit a transition filter
 
-**Parent Topic:**[Viewing metrics and activity transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/view-metrics.md)
+**Parent Topic:**[Viewing metrics and activity transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/view-metrics.md)
 
 **Related topics**  
 
 
-[Applying a process step filter on an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/node-to-node-conditions.md)
+[Applying a process step filter on an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/node-to-node-conditions.md)
 

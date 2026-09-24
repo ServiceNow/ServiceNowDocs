@@ -3,11 +3,11 @@ title: Phase 5 - If applicable: Upgrade and validate your other non-production i
 description: After you've configured and refined your development instance, request to upgrade any other non-production instances you have, such as a test instance. Immediately after the upgrade is complete, apply the post-upgrade changes made to your development instance, including activating optional plugins, installing and upgrading applications, and applying update sets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/upgrades-phase-5.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Upgrade to the Australia release, Australia release notes]
+breadcrumb: [Upgrade to the Brazil release, Brazil release notes]
 ---
 
 # Phase 5 - If applicable: Upgrade and validate your other non-production instances, such as your test instance
@@ -50,6 +50,6 @@ After you have applied your development update sets to your test instance, perfo
 
 7.  Perform functional testing and monitor the performance of your instance.
 
-    Reproduce the typical user activities that occur on your production instance. The [Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework.md) can greatly assist you in testing your non-production instances. You can use Automated Test Framework quick start tests and product testing suites to help you jump start your testing before and after upgrades. For a list of available tests and activation information, see [Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/quick-start-tests.md). For extra testing coverage, you can also conduct user acceptance testing \(UAT\).
+    Reproduce the typical user activities that occur on your production instance. The [Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework.md) can greatly assist you in testing your non-production instances. You can use Automated Test Framework quick start tests and product testing suites to help you jump start your testing before and after upgrades. For a list of available tests and activation information, see [Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/quick-start-tests.md). For extra testing coverage, you can also conduct user acceptance testing \(UAT\).
 
 

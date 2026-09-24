@@ -3,9 +3,9 @@ title: Enable ServiceNow Otto to generate wrap up code and notes summary
 description: Configure ServiceNow Otto in your ServiceNow instance to enable the feature to automatically analyze interaction transcripts and recommend wrap up codes and generate notes summaries. This configuration allows agents to use AI-generated suggestions during the wrap up process or manually invoke the skill.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/enable-ai-wrap-up-code-and-notes-summary-generation.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Import wrap-up codes, CCaaS Admin Console, Integrating with contact centers, Integrate, Customer Service Management]
 ---
@@ -18,7 +18,7 @@ Configure ServiceNow Otto® in your ServiceNow instance to enable the feature to
 
 After an Interaction ends or is transferred to a new agent, the interaction may enter a wrap up state. During this state, agents must select a wrap up code and enter notes to document the interaction. ServiceNow Otto® can analyze the interaction transcript and recommend an appropriate wrap up code based on the conversation and available wrap up code options. The skill also generates a summary of the interaction to populate the notes field. You can configure the system to automatically generate these recommendations when wrap up begins. Alternatively, you can enable manual generation where agents click a button to invoke the skill when needed. Manual generation gives customers control over token usage by calling the LLM only when requested.
 
-See [Use AI to generate wrap up code and notes summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ai-generated-wrap-up-codes-and-notes-summary.md) and [AI interaction wrap-up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/interaction-wrapup-ai-generated.md).
+See [Use AI to generate wrap up code and notes summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ai-generated-wrap-up-codes-and-notes-summary.md) and [AI interaction wrap-up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/interaction-wrapup-ai-generated.md).
 
 Role required: admin
 

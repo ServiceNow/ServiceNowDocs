@@ -3,11 +3,11 @@ title: View experience theme
 description: View the theme applied to your experience. The theme sets the visual style of the experience and provides a consistent look and feel across all pages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/view-experience-theme.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage the visual style of UI Builder experiences, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -26,7 +26,7 @@ Role required: ui\_builder\_admin
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Select **Experience settings** in the UI Builder header.
 
@@ -41,8 +41,8 @@ Role required: ui\_builder\_admin
 
 If you want to customize the theme, there are two options:
 
--   **Theme Builder** enables you to create, edit, manage, and apply Next Experience themes using a friendly visual interface. For more information, see [Configuring Next Experience with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configuring-next-experience-with-theme-builder.md).
--   If you are an admin user comfortable working in style records and JSON code, you can create a custom theme to override the default Polaris style. This option gives you the most control over typefaces, colors, and images \(including the banner and logo\) in a theme. For more information, see [Configuring Next Experience themes and preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/config-next-experience-themes-prefs.md).
+-   **Theme Builder** enables you to create, edit, manage, and apply Next Experience themes using a friendly visual interface. For more information, see [Configuring Next Experience with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configuring-next-experience-with-theme-builder.md).
+-   If you are an admin user comfortable working in style records and JSON code, you can create a custom theme to override the default Polaris style. This option gives you the most control over typefaces, colors, and images \(including the banner and logo\) in a theme. For more information, see [Configuring Next Experience themes and preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/config-next-experience-themes-prefs.md).
 
-**Parent Topic:**[Manage the visual style of UI Builder experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/manage-the-visual-style-of-ui-builder-experiences.md)
+**Parent Topic:**[Manage the visual style of UI Builder experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/manage-the-visual-style-of-ui-builder-experiences.md)
 

@@ -3,7 +3,7 @@ title: Setting the number format of an editable field
 description: Learn how to create a user-editable field that maintains a specified format.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/formatted\_numbers\_display.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -58,5 +58,5 @@ To view a list of supported units, see [ECMAScript® 2026 Internationalization A
 
 You can use customUnit for units not in this list.
 
-**Parent Topic:**[Using CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-using.md)
+**Parent Topic:**[Using CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-using.md)
 

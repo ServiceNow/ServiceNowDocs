@@ -3,11 +3,11 @@ title: Submit a time card for a demand task
 description: Record and submit the time spent on a demand task to calculate actual cost and effort. The reported hours are used to track work performed and support demand planning.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/submit-a-time-card-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create demand tasks, Manage demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -26,15 +26,15 @@ Role required: timecard\_user
 
 2.  Create a time card.
 
-<table id="choicetable_jfv_4xf_2hb"><thead><tr><th align="left" id="d111255e74">
+<table id="choicetable_jfv_4xf_2hb"><thead><tr><th align="left" id="d110932e74">
 
 Assignment type
 
-</th><th align="left" id="d111255e77">
+</th><th align="left" id="d110932e77">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d111255e83">
+</th></tr></thead><tbody><tr><td id="d110932e83">
 
 **Demand task assigned to you**
 
@@ -44,7 +44,7 @@ Actions
 2.  Select the **Add to Time Sheet** link.
 
 
-</td></tr><tr><td id="d111255e107">
+</td></tr><tr><td id="d110932e107">
 
 **Demand task assigned to you as an additional assignee**
 
@@ -64,5 +64,5 @@ Actions
 
 ## Result
 
-The time card moves to the Submitted state and is sent to an approver for review. For details on the approval process, see [Approve or reject a time card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/approve-time-card.md).
+The time card moves to the Submitted state and is sent to an approver for review. For details on the approval process, see [Approve or reject a time card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/time-card-management/approve-time-card.md).
 

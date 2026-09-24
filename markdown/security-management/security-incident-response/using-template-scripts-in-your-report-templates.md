@@ -3,11 +3,11 @@ title: Use Template Scripts in your Report Templates
 description: Create a script to include the related lists data, date operations, and any other data that aren’t directly dot-walkable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/using-template-scripts-in-your-report-templates.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a Report Template, Configure Major Security Incident status reports, Manage MSIM status reports, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -64,5 +64,5 @@ Example: `${template_script:msi_collab_cards}`
     **Note:** You can also create your own template script to include the related lists data, date operations, and any other data that aren’t directly dot-walkable, in addition to the listed template scripts.
 
 
-**Parent Topic:**[Create a Report Template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-report-template.md)
+**Parent Topic:**[Create a Report Template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/create-report-template.md)
 

@@ -3,11 +3,11 @@ title: Create a reserve entitlement for Microsoft online services in Software As
 description: Create a reserve entitlement for all Microsoft online services in the Software Asset Management classic application so that you can add licenses to an existing Microsoft 365 subscription.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/create-o365-reserve.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Creating reserve entitlements for Microsoft online services, Microsoft 365 integration, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -33,7 +33,7 @@ Role required: sam\_user or sam\_admin
     |Start date|Start date for the new licenses.|
     |End date|The earliest anniversary of the source entitlement end date. This field is calculated automatically.|
     |Purchased rights|Number of new licenses.|
-    |Monthly unit cost|Unit cost of the source entitlement divided by the duration of the source entitlement \(in months\). This field is calculated automatically.|
+    |Monthly unit cost|The per-license monthly cost of your Microsoft 365 subscription, calculated by dividing the unit cost of the source entitlement by its duration in months. This value reflects your actual Microsoft 365 agreement pricing and is used to calculate true-up costs and optimization savings such as license reclamation.|
     |Software model|Software model for the existing entitlement. This field populates automatically.|
     |Source entitlement|Existing entitlement used to create the reserve entitlement. This field populates automatically.|
 
@@ -44,7 +44,7 @@ Role required: sam\_user or sam\_admin
 
 ## What to do next
 
-Run a reconciliation to include the new reserve entitlement in the true-up cost calculation. Navigate to **Software Asset** &gt; **Office 365 &amp; Adobe Cloud** to view the [Office 365 &amp; Adobe Cloud dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/dashboard-microsoft.md). The cost of the reserve entitlement is included in True-up Cost and is not included in Current Subscription Spend.
+Run a reconciliation to include the new reserve entitlement in the true-up cost calculation. Navigate to **Software Asset** &gt; **Office 365 &amp; Adobe Cloud** to view the [Office 365 &amp; Adobe Cloud dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/dashboard-microsoft.md). The cost of the reserve entitlement is included in True-up Cost and is not included in Current Subscription Spend.
 
 When you pass the end date of the reserve entitlement, the SAM - Subscription Maintenance scheduled job creates a new entitlement to replace it.
 

@@ -3,13 +3,13 @@ title: Configure AES personas and roles
 description: The responsibilities of your staff are controlled by roles assigned to each member. Personas aren’t explicitly part of App Engine Studio \(AES\) but administrators assign roles to give team members permission to configure or use AES.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/aes-personas-roles.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2026-06-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configure AES, Configure, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Configure AES, Configure, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Configure AES personas and roles
@@ -201,7 +201,7 @@ sn\_app\_eng\_studio.admin
 
 </td><td>
 
-Granular admin role that provides access to App Engine Studio and enables administrative access to AES tables. Can be combined with other granular admin roles or delegated development for additional permissions. For more information about granular admin roles, see [Platform security granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platsec-granular-roles.md).
+Granular admin role that provides access to App Engine Studio and enables administrative access to AES tables. Can be combined with other granular admin roles or delegated development for additional permissions. For more information about granular admin roles, see [Platform security granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platsec-granular-roles.md).
 
 </td></tr><tr><td>
 
@@ -228,7 +228,7 @@ sn\_table\_bldr\_wzd.table\_bldr\_wzd\_admin
 Granular admin role that provides access to manage permissions during table creation in AES.
 
 </td></tr></tbody>
-</table>**Important:** Granular admin roles cannot manage tables that depend on ServiceNow AI Platform tables, such as the Experience Visibility Control table \(sn\_udc\_experience\_visibility\_control\) or Preferred Tables \(sn\_preferred\_table\). To manage such tables, additional granular admin roles are necessary. For more information, see [Platform security granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platsec-granular-roles.md).
+</table>**Important:** Granular admin roles cannot manage tables that depend on ServiceNow AI Platform tables, such as the Experience Visibility Control table \(sn\_udc\_experience\_visibility\_control\) or Preferred Tables \(sn\_preferred\_table\). To manage such tables, additional granular admin roles are necessary. For more information, see [Platform security granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platsec-granular-roles.md).
 
-**Parent Topic:**[Configure App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/configure-aes.md)
+**Parent Topic:**[Configure App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/configure-aes.md)
 

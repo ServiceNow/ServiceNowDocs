@@ -3,11 +3,11 @@ title: Multi-source service mapping
 description: Multi-source service mapping combines data from multiple discovery methods to create a single, comprehensive service map that provides complete visibility into your organization's hybrid IT infrastructure.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/multi-source-service-mapping.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Service Mapping, ITOM, CMDB, Configuration item, service map, unified service, Keystone, service instance, service\_mapping\_admin]
 breadcrumb: [Choose the right method for discovering and mapping services, Exploring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
@@ -42,7 +42,7 @@ Multi-source service mapping can combine data from the following sources:
     -   Traffic-based mapping is based on network traffic connections between devices and applications. This method helps identify communication patterns and dependencies based on actual network behavior.
 -   **Manual service maps**
 
-    Manually selecting specific CIs without automation. By converting manual services to a dynamic application services, you can synchronize the manually created CI relationships into a Service Map view. These maps are maintained by administrators and are best fit for static services. For more information, see: [Convert legacy manual services to dynamic application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/convert-manual-app-ser-to-dynamic.md)
+    Manually selecting specific CIs without automation. By converting manual services to a dynamic application services, you can synchronize the manually created CI relationships into a Service Map view. These maps are maintained by administrators and are best fit for static services. For more information, see: [Convert legacy manual services to dynamic application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/convert-manual-app-ser-to-dynamic.md)
 
 -   **Dynamic CI groups**
 
@@ -65,6 +65,10 @@ Multi-source service mapping offers several advantages for organizations managin
 
     Service-level actions can improve Mean Time to Resolve \(MTTR\) and business outcomes compared to CI-level fixes, as teams work from a unified view rather than fragmented information.
 
+-   **Business context and reporting**
+
+    Enriching unified services with business context details such as business applications, parent services, and service offerings enables better visibility into how technical services support business operations. This improves reporting and analytics.
+
 
 ## Use cases
 
@@ -80,14 +84,14 @@ Multi-source service mapping is valuable in the following scenarios:
 
 -   **Reporting and Compliance**
 
-    A unified view enables more accurate statistics and reports for Service Level Agreement \(SLA\) compliance. Organizations can avoid manually correlating data from multiple separate service maps.
+    A unified view provides more accurate statistics and reports for Service Level Agreement \(SLA\) compliance than manually correlating data from multiple separate service maps.
 
 
 ## Multi-source service-mapping workflows
 
 The multi-source service-mapping process follows these key phases:
 
--   **[Creating a unified service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/unified-map-create-service-instance.md)**
+-   **[Creating a unified service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/unified-map-create-service-instance.md)**
 
     Service Mapping administrators can access this flow through the Service Mapping workspace. They can search for services based on properties related to the services, such as server tag, or UR and choose the services to unify. They can choose mapped and unmapped services from various types. For example, they can unify a top-down service with a tag-based service. Unmapped services can be added to the unified service and converted to mapped services along the process. A ranking algorithm suggests the top recommendations of services to merge, according to the criteria provided.
 
@@ -95,13 +99,13 @@ The multi-source service-mapping process follows these key phases:
 
     After creating the unified service, the feature automatically transforms the selected unmapped services into non-operational service instances. This happens in order to prevent automatic discovery and impact on ITOM or ITSM processes. The Service Mapping administrator can choose to convert the services to operational using the **Mapped application services** list.
 
-    When the process of creating the unified service is complete, the unified service map is displayed in the "Unified map" format through the CMDB Workspace. This view shows the complete consolidated service.
+    When the process of creating the unified service is complete, the unified service map is displayed in the "Unified map" format through the CMDB Workspace. This shows the complete consolidated view.
 
--   **[Editing the unified service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/unified-map-edit-unified-service.md)**
+-   **[Editing the unified service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/unified-map-edit-unified-service.md)**
 
     The Service Mapping administrator can add additional services from various types or remove a service if needed. The feature doesn't support unification of unified services, only single services.
 
--   **[Deleting the unified service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/unified-map-delete-unified-service.md)**
+-   **[Deleting the unified service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/unified-map-delete-unified-service.md)**
 
     The Service Mapping administrator can delete the unified service if needed. Child services remain non-operational by default.
 
@@ -112,5 +116,5 @@ To use multi-source service mapping, your ServiceNow instance must have the foll
 
 -   At least Australia family version installed.
 -   Service Mapping Plus installed and updated to the latest version.
--   At least two existing services to unify, or at least two sources of data that are actively updated. If there are no existing services on your instance, choose a method to create the services. For more information, see: [Choose the right method for discovering and mapping services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/choose-mapping-method.md).
+-   At least two existing services to unify, or at least two sources of data that are actively updated. If there are no existing services on your instance, choose a method to create the services. For more information, see: [Choose the right method for discovering and mapping services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/choose-mapping-method.md).
 

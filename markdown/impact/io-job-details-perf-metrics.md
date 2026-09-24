@@ -3,9 +3,9 @@ title: Job details performance metrics
 description: The metrics provide the job details performance snapshot within the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/io-job-details-perf-metrics.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-05-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Instance monitoring and performance metrics, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
@@ -33,7 +33,7 @@ The metrics provide the job details performance snapshot within the ServiceNow A
     Tabular representation of the top 50 jobs that have been executed multiple times, including their respective counts. This data is available for the past 6 months.
 
 
-**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 

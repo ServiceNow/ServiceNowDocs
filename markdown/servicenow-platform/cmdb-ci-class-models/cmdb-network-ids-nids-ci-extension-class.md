@@ -3,13 +3,13 @@ title: Network Intrusion Detection System \(NIDS\) CI extension class
 description: The Network Intrusion Detection System \(NIDS\) \[cmdb\_ci\_nids\] class builds the relationships between passive network monitoring appliances, and the devices on the network that it discovers.​ A NIDS Manager manages the NIDS sensors that detect the devices and builds "detects::detected by” relationships between the NIDS records \(parent\) and the CIs it discovers \(child\).​
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/cmdb-ci-class-models/cmdb-network-ids-nids-ci-extension-class.html
-release: australia
+release: brazil
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [CMDB CI class models, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB CI class models, CMDB hierarchy, Explore, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Network Intrusion Detection System \(NIDS\) CI extension class
@@ -34,7 +34,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 This section lists the classes that the CMDB CI Class Models app adds or updates.See the class columns table for further details about the columns added for each class.
 
-CMDB CI Class Models: Release 1.30 adds the following classes for the Network Intrusion Detection System \(NIDS\). For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
+CMDB CI Class Models: Release 1.30 adds the following classes for the Network Intrusion Detection System \(NIDS\). For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
 
 |Class|Extends|Description|
 |-----|-------|-----------|

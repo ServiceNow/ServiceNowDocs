@@ -3,11 +3,11 @@ title: Create a PI data element type
 description: Create categories to help responders to identify personal data elements within specific categories. For example, for a PI data element type such as Personal information, the PI data elements can be Name, Age, Employer ID, Marital Status, Email, and so on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/create-pi-data-element-type.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure privacy breach assessment, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -40,5 +40,5 @@ Role required: sn\_privacy\_case.privacy\_case\_admin
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring privacy breach assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/configure-privacy-breach-assessment.md)
+**Parent Topic:**[Configuring privacy breach assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/configure-privacy-breach-assessment.md)
 

@@ -3,11 +3,11 @@ title: View all tasks in Field Service Manager Mobile
 description: Manager’s can view all the tasks assigned to assignment groups or territories they manage to get a complete view of the team’s workload.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/view-all-manager-mobile.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Field Service Manager Mobile, Completing work on mobile, Use, Field Service Management]
 ---
@@ -28,15 +28,15 @@ Role required: wm\_manager, sn\_fsm\_tp.fsm\_territory\_resource\_manager
 
 3.  Choose from the following
 
-<table id="choicetable_b12_4gj_xhc"><thead><tr><th align="left" id="d152656e74">
+<table id="choicetable_b12_4gj_xhc"><thead><tr><th align="left" id="d155816e74">
 
 Selection
 
-</th><th align="left" id="d152656e77">
+</th><th align="left" id="d155816e77">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d152656e83">
+</th></tr></thead><tbody><tr><td id="d155816e83">
 
 **Tap an item under __Tasks by priority__**
 
@@ -44,7 +44,7 @@ Result
 
 To see the list of tasks that has the priority you selected.
 
-</td></tr><tr><td id="d152656e94">
+</td></tr><tr><td id="d155816e94">
 
 **Tap an item under __Tasks by team__**
 
@@ -52,7 +52,7 @@ To see the list of tasks that has the priority you selected.
 
 To see all the tasks assigned to that team
 
-</td></tr><tr><td id="d152656e105">
+</td></tr><tr><td id="d155816e105">
 
 **Tap a task under __Tasks in progress__**
 

@@ -3,9 +3,9 @@ title: Create answers for questions
 description: Create answer options for questions with the Choice or Likert Scale data type.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_CreateAnAnswerForAQuestion.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create quizzes with forms, Using Quizzes, Quizzes, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -31,24 +31,24 @@ When you create a question with one of these data types, the Assessment Metric D
 3.  Set the order in which the answers appear in the quiz by providing a hierarchical number in the **Value** field.
 
 
-**Parent Topic:**[Create quizzes with forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_CreateQuizzesWithForms.md)
+**Parent Topic:**[Create quizzes with forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_CreateQuizzesWithForms.md)
 
 **Related topics**  
 
 
-[Create quizzes with forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_CreateQuizzesWithForms.md)
+[Create quizzes with forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_CreateQuizzesWithForms.md)
 
-[Create a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateaQuiz.md)
+[Create a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateaQuiz.md)
 
-[Set up a category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SetUpACategory.md)
+[Set up a category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_SetUpACategory.md)
 
-[Select a user for a category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SelectAUserForACategory.md)
+[Select a user for a category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_SelectAUserForACategory.md)
 
-[Data types for quizzes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_AvailableDataTypes.md)
+[Data types for quizzes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_AvailableDataTypes.md)
 
-[Change the order of an answer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ChangeTheOrderOfAnAnswer.md)
+[Change the order of an answer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_ChangeTheOrderOfAnAnswer.md)
 
-[Distribute a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_DistributeAQuiz.md)
+[Distribute a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_DistributeAQuiz.md)
 
-[Modify a published quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ModifyAPublishedQuiz.md)
+[Modify a published quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_ModifyAPublishedQuiz.md)
 

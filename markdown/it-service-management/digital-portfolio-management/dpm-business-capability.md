@@ -3,11 +3,11 @@ title: Relate business capabilities to view in Digital Portfolio Management
 description: You can relate business capabilities for a service or for a business application to see them in the Digital Portfolio Management \(DPM\) Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-business-capability.html
-release: australia
+release: brazil
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Digital Portfolio Management, IT Service Management]
 ---
@@ -27,7 +27,7 @@ There are two conditions to create a CI relationship in DPM.
 1.  The business capability must be created.
 2.  The business capability must be related to a service.
 
-You can create a business capability by navigating to **All** &gt; **CSDM** &gt; **Design** &gt; **Business Capability**. For information about configuration item \(CI\) relationships, see [Create or edit a CI relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateCIRelationship.md).
+You can create a business capability by navigating to **All** &gt; **CSDM** &gt; **Design** &gt; **Business Capability**. For information about configuration item \(CI\) relationships, see [Create or edit a CI relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateCIRelationship.md).
 
 ## Procedure
 
@@ -56,12 +56,12 @@ You can create a business capability by navigating to **All** &gt; **CSDM** &gt;
     -   On the business capability record, in the Related Items section.
     -   In the DPM Workspace, on the Info tab of a service or business application.
 
-**Parent Topic:**[Configuring Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-cfw.md)
+**Parent Topic:**[Configuring Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-configure-cfw.md)
 
 **Related topics**  
 
 
-[View service and service offering details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-service-details.md)
+[View service and service offering details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-service-details.md)
 
-[View business application details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-business-apps-details.md)
+[View business application details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-business-apps-details.md)
 

@@ -1,22 +1,22 @@
 ---
-title: Resolving an information request case using the Information Request Playbook
-description: You can use playbooks to create cases and to complete the tasks and activities that are needed to resolve specific types of cases.Complete the Intake stage as your first step in resolving a case using the Information Request Playbook.Complete the Review stage as your second step in resolving a case using the Information Request Playbook.Complete the Process stage as your third step in resolving a case using the Information Request Playbook.Complete the Decision stage as your last step in resolving a case using the Information Request Playbook.
+title: Resolving an information request case using the Information Request Administration
+description: You can use playbooks to create cases and to complete the tasks and activities that are needed to resolve specific types of cases.Complete the Intake stage as your first step in resolving a case using the Information Request Administration.Complete the Review stage as your second step in resolving a case using the Information Request Administration.Complete the Process stage as your third step in resolving a case using the Information Request Administration.Complete the Decision stage as your last step in resolving a case using the Information Request Administration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/public-sector-resolving-info-case-playbooks.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Using Information Request Playbook, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using Information Request Administration, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Resolving an information request case using the Information Request Playbook
+# Resolving an information request case using the Information Request Administration
 
 You can use playbooks to create cases and to complete the tasks and activities that are needed to resolve specific types of cases.
 
-**Note:** Verify that the Information Request Playbook application, which is separate from the Public Sector Digital Services Core application, has been installed and configured. For instructions, see [Install and configure the Information Request Playbook application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/configuring-information-request-playbook.md).
+**Note:** Verify that the Information Request Administration application, which is separate from the Public Sector Digital Services Core application, has been installed and configured. For instructions, see [Install and configure the Information Request Administration application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/configuring-information-request-playbook.md).
 
-By default, the following stages are available to you as an information request case agent in the Information Request Playbook in the CRM Workspace.
+By default, the following stages are available to you as an information request case agent in the Information Request Administration in the CRM Workspace.
 
 -   Intake
 -   Review
@@ -25,17 +25,17 @@ By default, the following stages are available to you as an information request 
 
 ## Stages in an Information Request Playbook
 
-The Information Request Playbook experience starts with the Intake stage. This stage is the default playbook stage for a new information request case. Use this playbook stage to gather information about the requester, the documents being requested, and any exemption categories that the request falls into. You can also request additional information from the requester.
+The Information Request Administration experience starts with the Intake stage. This stage is the default playbook stage for a new information request case. Use this playbook stage to gather information about the requester, the documents being requested, and any exemption categories that the request falls into. You can also request additional information from the requester.
 
 The playbook continues with the Review stage. In this stage, you can do the initial troubleshooting on the case, evaluate similar or duplicate requests, and determine whether the information requested can be released and if a fee needs to be charged. You can move the case to the next stage when the requester accepts the fee, or if a fee waiver is submitted and approved.
 
 The playbook continues with the Process stage. In this stage, you can assess resources, request a fee approval, create case tasks, and add or request new information before the case resolution begins. The case status changes to Work in Progress once the fee payment is processed or waived. The case is then sent for legal review. After legal review is complete, the case is moved to the Decision stage. You may solicit additional information from the requester at any time during this stage.
 
-The final stage of the Information Request Playbook is the Decision stage. At the Decision stage, the status of the case is updated from Review in Progress to Ready for Decision after the case has passed legal review. A notification is sent to the requester that lets them know that case approval has been has obtained and the requested documents have been uploaded. The requester can then either accept or reject the document. If the requester accepts the documents, the case is automatically closed. If the requester rejects the solution, the case is reopened, and the agent must propose another outcome.
+The final stage of the Information Request Administration is the Decision stage. At the Decision stage, the status of the case is updated from Review in Progress to Ready for Decision after the case has passed legal review. A notification is sent to the requester that lets them know that case approval has been has obtained and the requested documents have been uploaded. The requester can then either accept or reject the document. If the requester accepts the documents, the case is automatically closed. If the requester rejects the solution, the case is reopened, and the agent must propose another outcome.
 
-## Complete the Intake stage in Information Request Playbook
+## Complete the Intake stage in Information Request Administration
 
-Complete the Intake stage as your first step in resolving a case using the Information Request Playbook.
+Complete the Intake stage as your first step in resolving a case using the Information Request Administration.
 
 ### Before you begin
 
@@ -47,13 +47,13 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
 
 2.  Select **New**.
 
-    The Information Request Playbook opens and initiates the first activity for collecting the request details.
+    The Information Request Administration opens and initiates the first activity for collecting the request details.
 
 3.  On the Enter Request Details activity card, fill in the information.
 
 4.  Select **Save**.
 
-    A case is created with the information request information. The case number is added to the tab and the first activity in the Intake stage is marked as complete. The second activity in this stage is highlighted as the current activity. If you have enabled the Similar Request documents UI activity, this will display as the second activity. For more information, see [Configure Similar Request Documents UI in Information Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-ir-playbooks-configure-similar-request-documents.md).
+    A case is created with the information request information. The case number is added to the tab and the first activity in the Intake stage is marked as complete. The second activity in this stage is highlighted as the current activity. If you have enabled the Similar Request documents UI activity, this will display as the second activity. For more information, see [Configure Similar Request Documents UI in Information Request Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-ir-playbooks-configure-similar-request-documents.md).
 
 5.  Select a related document to link it to the request, and select **Next**.
 
@@ -68,9 +68,9 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
     The Intake stage is now complete and the case is moved to the Review stage.
 
 
-## Complete the Review stage in Information Request Playbook
+## Complete the Review stage in Information Request Administration
 
-Complete the Review stage as your second step in resolving a case using the Information Request Playbook.
+Complete the Review stage as your second step in resolving a case using the Information Request Administration.
 
 ### Before you begin
 
@@ -110,9 +110,9 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
     The Review stage is now complete and the case is moved to the Process stage.
 
 
-## Complete the Process stage in Information Request Playbook
+## Complete the Process stage in Information Request Administration
 
-Complete the Process stage as your third step in resolving a case using the Information Request Playbook.
+Complete the Process stage as your third step in resolving a case using the Information Request Administration.
 
 ### Before you begin
 
@@ -137,9 +137,9 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
     The Process stage is complete and the case is moved to the Decision stage.
 
 
-## Complete the Decision stage in Information Request Playbook
+## Complete the Decision stage in Information Request Administration
 
-Complete the Decision stage as your last step in resolving a case using the Information Request Playbook.
+Complete the Decision stage as your last step in resolving a case using the Information Request Administration.
 
 ### Before you begin
 

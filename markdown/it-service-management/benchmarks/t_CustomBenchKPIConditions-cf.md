@@ -3,11 +3,11 @@ title: Link or customize a benchmark KPI
 description: You can customize KPI conditions to fit the needs of your organization better.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/t\_CustomBenchKPIConditions-cf.html
-release: australia
+release: brazil
 product: Benchmarks
 classification: benchmarks
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Benchmarks, IT Service Management]
 ---
@@ -39,7 +39,7 @@ For further analysis, you can link a Performance Analytics indicator that you ar
 
 For example, link **Number of resolved incidents by first assigned group** to **Benchmark: Number of incidents resolved on first assignment** to view breakdown values by priority, assignment group, and category.
 
-**Note:** Individual scores are shown by default but you must have [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-overview.md) to use linking to show breakdowns.
+**Note:** Individual scores are shown by default but you must have [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/pa-overview.md) to use linking to show breakdowns.
 
 ## Procedure
 
@@ -49,7 +49,7 @@ For example, link **Number of resolved incidents by first assigned group** to **
 
 2.  Change the conditions, as appropriate.
 
-3.  To link a Performance Analytics indicator to a Benchmarks indicator, follow the procedure in [Link an automated indicator to a benchmark](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/link-automated-indicator-benchmark.md).
+3.  To link a Performance Analytics indicator to a Benchmarks indicator, follow the procedure in [Link an automated indicator to a benchmark](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/link-automated-indicator-benchmark.md).
 
 <table id="table_aqj_hjl_tfb"><thead><tr><th>
 

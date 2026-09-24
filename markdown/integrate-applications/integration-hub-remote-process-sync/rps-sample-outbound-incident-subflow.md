@@ -3,11 +3,11 @@ title: Remote Process Sync Outbound Flow Template - Basic
 description: A sample Remote Process Sync subflow to send outgoing payloads to a remote instance. This subflow creates a correlation between a remote record and a local incident record. Copy this subflow and edit the input for the local record to the table of your choice.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub-remote-process-sync/rps-sample-outbound-incident-subflow.html
-release: australia
+release: brazil
 product: Integration Hub Remote Process Sync
 classification: integration-hub-remote-process-sync
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Sample subflows, Integration Hub Remote Process Sync, Workflow Data Fabric]
 ---
@@ -22,11 +22,11 @@ Available as a Global Remote Process Sync subflow.
 
 -   **Subscription requirements**
 
-    This action requires an Integration Hub subscription. For more information, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md) and [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
+    This action requires an Integration Hub subscription. For more information, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/request-ih-overview.md) and [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
 
 -   **Role requirements**
 
-    This action requires roles granted by delegated development or assigned to the user. For more information, see [User access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/user-access-flow-designer.md).
+    This action requires roles granted by delegated development or assigned to the user. For more information, see [User access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/user-access-flow-designer.md).
 
 
 ## Inputs

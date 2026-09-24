@@ -3,11 +3,11 @@ title: Auto-generate ATF tests
 description: Auto-generate ATF tests by selecting the auto-generate option either from the Auto-generate Tests module or Tests/Suites modules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-auto-generate-tests.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Automated Test Framework \(ATF\) test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -24,15 +24,15 @@ Role required: admin
 
 1.  Access the Auto-generate Tests feature using either of the following ways.
 
-<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d223923e53">
+<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d216701e53">
 
 Option
 
-</th><th align="left" id="d223923e56">
+</th><th align="left" id="d216701e56">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d223923e62">
+</th></tr></thead><tbody><tr><td id="d216701e62">
 
 **Using Auto-generate Tests module**
 
@@ -46,7 +46,7 @@ Steps
 
 **Note:** The ATF Test Generator and Cloud Runner store app page shows up.
 
-</td></tr><tr><td id="d223923e99">
+</td></tr><tr><td id="d216701e99">
 
 **Using Tests or Suites module**
 
@@ -66,7 +66,7 @@ Steps
     **Note:** This step is applicable only if the store app is not installed on your instance. You will be redirected to install the store app.
 
 
-**Parent Topic:**[Automated Test Framework \(ATF\) test building and execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-test-build-execution.md)
+**Parent Topic:**[Automated Test Framework \(ATF\) test building and execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-test-build-execution.md)
 
 **Related topics**  
 

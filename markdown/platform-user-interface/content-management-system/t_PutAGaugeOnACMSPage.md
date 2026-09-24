@@ -3,11 +3,11 @@ title: Put a gauge on a CMS page
 description: You have control over the gauges on a CMS page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_PutAGaugeOnACMSPage.html
-release: australia
+release: brazil
 product: Content Management System
 classification: content-management-system
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CMS gauge support, Content types, Configure Content Management sites, Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -31,12 +31,12 @@ Role required: content\_admin or admin
 4.  Place the gauge on the page in the desired location.
 
 
-**Parent Topic:**[CMS gauge support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_CMSGaugeSupport.md)
+**Parent Topic:**[CMS gauge support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/c_CMSGaugeSupport.md)
 
 **Related topics**  
 
 
-[CMS gauge support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_CMSGaugeSupport.md)
+[CMS gauge support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/c_CMSGaugeSupport.md)
 
-[Control what happens on a click](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/r_ControlWhatHappensOnAClick.md)
+[Control what happens on a click](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/r_ControlWhatHappensOnAClick.md)
 

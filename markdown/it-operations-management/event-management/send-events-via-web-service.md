@@ -3,11 +3,11 @@ title: Pushing events to the instance using web service API
 description: You can use a web service interface, supported by ServiceNow, that operates on the JSON object as the data input and output format.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/send-events-via-web-service.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-08-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -28,7 +28,7 @@ To insert records in the event \[em\_event\] table with a single call, use this 
 
 **Note:** Business rules on the event table are not invoked when this URL is used.
 
-Do not add additional fields to an event by adding a custom field to the event table \[em\_event\]. However, additional fields should be included in the **Additional information** \[additional\_info\] field of the event. For more information about how to include additional fields in events, see [Custom alert fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/populate-custom-alert-fields.md).
+Do not add additional fields to an event by adding a custom field to the event table \[em\_event\]. However, additional fields should be included in the **Additional information** \[additional\_info\] field of the event. For more information about how to include additional fields in events, see [Custom alert fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/populate-custom-alert-fields.md).
 
 For information about troubleshooting performance issues with inbound integrations, see [Troubleshooting inbound integrations performance](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0746875).
 
@@ -195,7 +195,7 @@ resolution\_state
 
 </td><td>
 
-Optional – Indicates whether an event has been resolved or is no longer occurring. Some event monitors use ‘clear’ severity to indicate resolution. Other event monitors use a ‘close’ value for severity. This field is used for those monitors proffering the latter. Valid values are `New` and `Closing`.
+Optional – To indicate that an event has been resolved or no longer occurring, some event monitors use ‘clear’ severity. Others use a ‘close’ value for severity. This field is used for monitors that use the ‘close’ value. Valid values are `New` and `Closing`.
 
 </td></tr></tbody>
 </table>3.  To create multiple records with a single call, trigger the event web service using the following URL:
@@ -219,8 +219,8 @@ Optional – Indicates whether an event has been resolved or is no longer occurr
           "severity": "4",
           "description": "The disk D: on computer V-W2K8-abc.abc.com is running out of disk space. The value that exceeded the threshold is 38% free space.",
           "additional_info": "{\"scom-severity\": \"Medium\", \"metric-value\": \"38\", \"os_type\": \"Windows.Server.2008\"}"
-          }
-        },
+        }
+    },
         {
           "source": "SCOM",
           "event_class": "SCOM 2012 on scom.server.com",
@@ -237,9 +237,9 @@ Optional – Indicates whether an event has been resolved or is no longer occurr
     }
     ```
 
-4.  Trigger the event web service using the following URL.
+4.  Trigger the event web service using the following URL:
 
-    Replace &lt;instancename&gt; with the name of the required instance: `https://<instancename>.service-now.com/api/global/em/jsonv2`
+    Replace &lt;instancename&gt; with the name of the required instance. `https://<instancename>.service-now.com/api/global/em/jsonv2`
 
     Example showing the payload for one event that is sent in a single web service call:
 
@@ -292,5 +292,5 @@ Optional – Indicates whether an event has been resolved or is no longer occurr
 **Related topics**  
 
 
-[Pushing events to the MID Server using web service API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-collection-via-MID-using-push.md)
+[Pushing events to the MID Server using web service API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/event-collection-via-MID-using-push.md)
 

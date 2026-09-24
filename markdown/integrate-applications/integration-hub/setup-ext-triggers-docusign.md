@@ -3,7 +3,7 @@ title: Set up triggers for the Docusign eSignature spoke
 description: Set up the trigger to generate the callback URL on your ServiceNow instance.Create or enable the glide.oauth.inbound.client.credential.grant\_type.enabled system property to use the OAuth client credentials grant type for inbound integrations from the Docusign OAuth client to ServiceNow instance.Create an application registry in the ServiceNow instance to authenticate the inbound calls.Activate the trigger definition to generate the callback URL on your ServiceNow instance.Add a custom configuration in the Docusign account to send real‐time data updates to the ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-ext-triggers-docusign.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -32,7 +32,7 @@ Role required: admin
 
 ### About this task
 
-For more information about client credentials grant type, see [Client Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/client-credentials.md).
+For more information about client credentials grant type, see [Client Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/client-credentials.md).
 
 ### Procedure
 
@@ -87,7 +87,7 @@ OAuth Application User
 
 </td><td>
 
-User role to which the OAuth token flow is mapped.**Important:** By default, this field is not displayed on the Application Registries form. Configure the form layout to see the field on the form. For information about configuring the form layout, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+User role to which the OAuth token flow is mapped.**Important:** By default, this field is not displayed on the Application Registries form. Configure the form layout to see the field on the form. For information about configuring the form layout, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).
 
 </td></tr></tbody>
 </table>5.  Right-click the form header and click **Save**.
@@ -185,7 +185,7 @@ URL to Publish
 
 </td><td>
 
-Enter the URL that is generated when you activated the trigger definition in this format: `https://<ServiceNow-instance-name>.service-now.com/api/sn_docusign_spoke/docusign_esignature_external_trigger`.For more information, [Activate the trigger definition on ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-ext-triggers-docusign.md).
+Enter the URL that is generated when you activated the trigger definition in this format: `https://<ServiceNow-instance-name>.service-now.com/api/sn_docusign_spoke/docusign_esignature_external_trigger`.For more information, [Activate the trigger definition on ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-ext-triggers-docusign.md).
 
 </td></tr><tr><td>
 
@@ -243,7 +243,7 @@ Under **Include Data**, select the **Recipients** option. Select other options a
 
 10. Enter the values of Client ID and Client Secret.
 
-    These values are created when you create application registry record in ServiceNow instance. For more information, see [Create an application registry to authenticate the inbound calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-ext-triggers-docusign.md).
+    These values are created when you create application registry record in ServiceNow instance. For more information, see [Create an application registry to authenticate the inbound calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-ext-triggers-docusign.md).
 
 11. Enter **Authorization Server URL** in this format: `https://<ServiceNow-instance-name>.service-now.com/oauth_token.do`.
 
@@ -252,5 +252,5 @@ Under **Include Data**, select the **Recipients** option. Select other options a
 
 ### What to do next
 
-Create flows in Workflow Studio using these triggers as per your requirement. For more information, see [Create a flow with an external trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-a-flow-with-an-external-trigger-definition.md).
+Create flows in Workflow Studio using these triggers as per your requirement. For more information, see [Create a flow with an external trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-a-flow-with-an-external-trigger-definition.md).
 

@@ -3,11 +3,11 @@ title: Collected scores and com.snc.pa.breakdown\_element\_cutoff
 description: The elements of a breakdown that the Analytics Hub and KPI Details display for a selected date depend on the number of elements and the value of com.snc.pa.breakdown\_element\_cutoff.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/collected-element-display-cutoff.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Properties, Reference, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -18,7 +18,7 @@ The elements of a breakdown that the Analytics Hub and KPI Details display for a
 
 In general, when the number of elements for a breakdown exceeds **com.snc.pa.breakdown\_element\_cutoff**, the Analytics Hub and KPI Details display only the elements that have ever had a score.
 
-For a formula indicator, the elements that have ever had a score for all the contributing automated indicators are displayed. These scores do not need to be on the same date. The requirement is only that for each [contributing indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md), on some date, there was a score for the element.
+For a formula indicator, the elements that have ever had a score for all the contributing automated indicators are displayed. These scores do not need to be on the same date. The requirement is only that for each [contributing indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md), on some date, there was a score for the element.
 
 For collected scores of an automated indicator—that is, for all scores other than real-time scores—there are two behaviors:
 
@@ -65,5 +65,5 @@ On March 22, six elements are shown. Openspace now has a non-null value so is sh
 
 \[Omitted image "element-display-mar-22.png"\] Alt text: Assignment Group elements shown on March 22
 
-**Parent Topic:**[Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-properties.md)
+**Parent Topic:**[Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/pa-properties.md)
 

@@ -3,11 +3,11 @@ title: Customize highlighted values for Prioritization columns
 description: Customize the fields to be highlighted on the Prioritization page of a portfolio plan according to your planning manager's needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/customize-highlighted-fields-prioritzation-page-strategic-planning-workspace.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Customizing highlighted fields, Prioritization display settings in Strategic Planning, Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
@@ -19,7 +19,7 @@ Customize the fields to be highlighted on the Prioritization page of a portfolio
 
 ## Before you begin
 
-[Modify Script Includes for Prioritization page in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/modify-script-includes-for-prioritization-page-strategic-planning.md).
+[Modify Script Includes for Prioritization page in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/modify-script-includes-for-prioritization-page-strategic-planning.md).
 
 Role required: admin
 
@@ -31,7 +31,7 @@ Role required: admin
 
 3.  On the form, fill in the fields.
 
-    For field information, see [Highlighted Value form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/highlighted-value-form.md).
+    For field information, see [Highlighted Value form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/highlighted-value-form.md).
 
 4.  Save the form.
 
@@ -41,7 +41,7 @@ Role required: admin
 
     2.  On the form, fill in the fields.
 
-        For field, information, see [Highlighted Value Condition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/highlighted-value-condition-form.md).
+        For field, information, see [Highlighted Value Condition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/highlighted-value-condition-form.md).
 
     3.  Select **Submit**.
 
@@ -52,5 +52,5 @@ Role required: admin
 7.  Select **Update**.
 
 
-**Parent Topic:**[Customize highlighted fields on Prioritization page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/customizing-highlighted-fields-prioritization-page-strategic-planning.md)
+**Parent Topic:**[Customize highlighted fields on Prioritization page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/customizing-highlighted-fields-prioritization-page-strategic-planning.md)
 

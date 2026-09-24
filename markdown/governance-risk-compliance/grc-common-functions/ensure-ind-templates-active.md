@@ -3,11 +3,11 @@ title: Ensure that all the appropriate indicator templates are activated
 description: When you download the GRC: Technology Controls Monitoring Accelerator application, all indicator templates are available, but they are not yet active. Before activating them, you need to ensure that you have the necessary applications activated and can access the tables that are mapped to the indicator templates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/ensure-ind-templates-active.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Technology Controls Monitoring Accelerator, GRC use case accelerators, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -37,5 +37,5 @@ Starting with version 12.0.1 of the Technology Controls Monitoring Accelerator a
     **Note:** You must repeat this process any time you upgrade this application.
 
 
-**Parent Topic:**[Technology Controls Monitoring Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/tech-controls-monitoring-accel.md)
+**Parent Topic:**[Technology Controls Monitoring Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/tech-controls-monitoring-accel.md)
 

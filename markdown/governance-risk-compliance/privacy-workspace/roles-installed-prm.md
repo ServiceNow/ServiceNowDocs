@@ -3,11 +3,11 @@ title: Roles installed with Privacy Management
 description: The GRC: Privacy Management application installs the roles for the privacy analyst, the privacy manager, and the privacy administrator to perform their respective tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/roles-installed-prm.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -115,7 +115,7 @@ Privacy business user \[sn\_privacy.business\_user\]
 
 </td><td>
 
-Privacy business users can edit the assigned processing activities in the [Discover state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/stages-pa.md), and also respond to the assessments.
+Privacy business users can edit the assigned processing activities in the [Discover state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/stages-pa.md), and also respond to the assessments.
 
 </td><td>
 
@@ -190,5 +190,5 @@ Users with the lite operator role can do the following:
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Privacy Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/privacy-mgmt-reference.md)
+</table>**Parent Topic:**[Privacy Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/privacy-mgmt-reference.md)
 

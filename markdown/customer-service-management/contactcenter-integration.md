@@ -3,10 +3,10 @@ title: Integrating with contact centers
 description: Integrate your contact center platform with the ServiceNow Customer Service Management \(CSM\) application to unify customer service teams through a single user interface. This integration centralizes routing across departments and channels, and optimizes workforce engagement for more personalized customer experiences and simplified employee experiences.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/contactcenter-integration.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Integrate, Customer Service Management]
 ---
 
@@ -14,7 +14,7 @@ breadcrumb: [Integrate, Customer Service Management]
 
 Integrate your contact center platform with the ServiceNow Customer Service Management \(CSM\) application to unify customer service teams through a single user interface. This integration centralizes routing across departments and channels, and optimizes workforce engagement for more personalized customer experiences and simplified employee experiences.
 
-## Contact center integration overview
+## Contact Center integration overview
 
 Prerequisite: Ensure that agents are set up via configuration through their contact center integration to access the ServiceNow Workspace. The agent profiles are synced automatically when the agent logs in through the contact center connector in OpenFrame. For example, agent John Jason in the ServiceNow workspace must be able to log in to the contact center.
 
@@ -22,22 +22,22 @@ Additionally, the agent presence state must match between the ServiceNow workspa
 
 Review the following architecture diagram for more insight on the contact center integration flow with ServiceNow.
 
-See [Integrating with Computer Telephony Integration \(CTI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/cti-csm-integration.md).
+See [Integrating with Computer Telephony Integration \(CTI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/cti-csm-integration.md).
 
-\[Omitted image "MMASSET0021181-contact-center-integration-brand2-updated.png"\] Alt text: Contact center integration architecture flow
+\[Omitted image "MMASSET0021181-contact-center-integration-brand2-updated.png"\] Alt text: Contact center integration flow architecture
 
-## External routing with contact centers
+## External routing with Contact Centers
 
-Contact center spokes allow communication between ServiceNow and contact centers via the contact center API. Using a spoke requires the use of [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integrationhub.md), and each contact center provider creates a spoke with actions to initiate the routing instructions. In general, the actions should correspond to these external routing events:
+Contact center spokes allow communication between ServiceNow and contact centers via the contact center API. Using a spoke requires the use of [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integrationhub.md), and each contact center provider creates a spoke with actions to initiate the routing instructions. In general, the actions should correspond to these external routing events:
 
 -   New interaction
 -   End interaction
 -   Transfer to agent
 -   Transfer to queue
 
-The spoke should also be able to retrieve data, such as skills, queues, and wrap-up codes. To learn more about creating a spoke, refer to [Building spokes using Spoke Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/spoke-builder.md).
+The spoke should also be able to retrieve data, such as skills, queues, and wrap-up codes. To learn more about creating a spoke, refer to [Building spokes using Spoke Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/spoke-builder.md).
 
-The contact center provider uses the AWA Work Offer API to provide the agent target for the work items. This allows the contact center provider to provide parameters to accept conversations, reject conversations, set timeout duration, and set the ServiceNow agent ID. See [AWA Offer Work API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/awa-offer-work-api.md).
+The contact center provider uses the AWA Work Offer API to provide the agent target for the work items. This allows the contact center provider to provide parameters to accept conversations, reject conversations, set timeout duration, and set the ServiceNow agent ID. See [AWA Offer Work API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/awa-offer-work-api.md).
 
 In the ServiceNow platform, you can import contact center platform skills, queues, and wrap-up codes between the ServiceNow instance and the contact center provider.
 
@@ -65,24 +65,4 @@ Agents using the integration can do the following:
 -   Transfer to another agent​
 -   Transfer to a queue​
 -   Cancel a transfer to another agent
-
-## ServiceNow features available for CCaaS integration
-
-ServiceNow delivers comprehensive customer engagement capabilities including digital channels, intelligent routing, unified agent workspace, workforce optimization, and AI-powered automation for any third-party contact center. For voice telephony and specialized capabilities, ServiceNow integrates seamlessly with leading CCaaS providers to complete the omnichannel experience.
-
-ServiceNow offers the following features for CCaaS integration:
-
-|Digital channels|Core Platform features|
-|----------------|----------------------|
-|Email|Omnichannel routing &amp; queues|
-|Web chat|Unified agent workspace|
-|SMS messaging|Case &amp; workflow management|
-|Social media \(WhatsApp, Facebook\)|Advanced Work Assignment \(AWA\)|
-|Self-service portals|Knowledge management|
-|Mobile app engagement|AI &amp; Virtual Agents \(ServiceNow Otto\)|
-| |AI Voice Agents with CCaaS Voice|
-| |Workforce optimization \(WFO\)|
-| |Analytics &amp; reporting|
-| |Enterprise system integration|
-| |WebRTC Voice|
 

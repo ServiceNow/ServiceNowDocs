@@ -3,13 +3,13 @@ title: Define a query filter for Knowledge base articles Genius Results
 description: Define a Java regular expression pattern that a search must match to be eligible for triggering Knowledge base articles Genius Results. Searches that don't match this pattern don't return Genius Result answers from Knowledge base articles Genius Results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/define-qry-fltr-now-assist-qna-gr.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-07-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Knowledge base articles Genius Results, Configuring ServiceNow Otto for AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -19,7 +19,7 @@ Define a Java regular expression pattern that a search must match to be eligible
 
 ## Before you begin
 
-The ServiceNow Otto for AI Search ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/install-now-assist-ais.md).
+The ServiceNow Otto for AI Search ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/install-now-assist-ais.md).
 
 Make sure that you're familiar with Java's regular expression pattern syntax. To learn about the regular expression pattern syntax, see [the Javadoc for the java.regex.util.Pattern class](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/regex/Pattern.html).
 
@@ -63,5 +63,5 @@ You can customize the pattern match condition by defining your own Java regular 
 
 Knowledge base articles Genius Results don't send knowledge article search results to the LLM for Knowledge base articles answer generation unless the search query matches your Java regular expression pattern.
 
-**Parent Topic:**[Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-qna-genius-results.md)
+**Parent Topic:**[Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/now-assist-qna-genius-results.md)
 

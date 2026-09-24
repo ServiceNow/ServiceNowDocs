@@ -3,9 +3,9 @@ title: Configure Knowbe4 integration
 description: Gain immediate insights into your staff's vulnerability to phishing attacks by integrating with KnowBe4, a leading cybersecurity awareness training platform. Through KnowBe4 integration, identify trends and areas of improvement in your cybersecurity training programs, monitor overall phishing resilience and proactively strengthen your organization's security measures.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/configure-knowbe4-integration-vr.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow, Knowbe4 integration, phishing integrations, how to configure Knowbe4 inetgration, cybersecurity awareness training]
 breadcrumb: [Security Simulation and Training Integration for Security Operations, Cybersecurity Executive Dashboard, Security Operations]

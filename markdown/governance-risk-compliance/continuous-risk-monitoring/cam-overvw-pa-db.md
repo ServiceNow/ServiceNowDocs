@@ -3,11 +3,11 @@ title: CAM Overview dashboard
 description: The CAM Overview dashboard provides multiple tabs with reports on critical aspects of your CAM security posture.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/cam-overvw-pa-db.html
-release: australia
+release: brazil
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Analytics and Reporting, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
@@ -38,11 +38,11 @@ To open the dashboard, navigate to **All** &gt; **Continuous Authorization &amp;
 |-----|----|------------|-----------|
 |Authorization boundary tab|
 |Boundaries connected to CMDB|Single Score|System elements \[sn\_irm\_cont\_auth\_boundary\_element\]|The number of authorization boundaries defined to work with your CMDB.|
-|Mission critical boundaries|Single Score| |The number of authorization boundaries defined as being mission critical. For more information, see [Define the authorization boundary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/define-auth-boundaries.md).|
+|Mission critical boundaries|Single Score| |The number of authorization boundaries defined as being mission critical. For more information, see [Define the authorization boundary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/continuous-risk-monitoring/define-auth-boundaries.md).|
 |Orphan authorization boundaries|Single Score| |The number of authorization boundaries not related to an authorization package.|
 |Boundaries status|Bar chart| |The number of authorization boundaries in each state.|
 |Authorization packages tab|
-|Packages with overridden impact|Single Score| |The number of authorization packages with an impact that have been overridden. For more information, see [RMF step 1 - Categorize the authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/categorize.md).|
+|Packages with overridden impact|Single Score| |The number of authorization packages with an impact that have been overridden. For more information, see [RMF step 1 - Categorize the authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/continuous-risk-monitoring/categorize.md).|
 |Packages pending approval|Single Score| |The number of authorization packages for which approval has been requested, but that haven’t yet received approval.|
 |Packages by impact|Bar chart| |The number of authorization packages categorized by impact levels.|
 |Packages by step|Bar chart| |The number of authorization packages categorized by steps \(for example, Monitor, Access, Select, and so on\).|

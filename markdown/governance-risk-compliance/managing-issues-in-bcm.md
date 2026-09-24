@@ -1,38 +1,38 @@
 ---
 title: Managing issues from Business Continuity Workspace
-description: Associate issues with business continuity plans to track problems identified during continuity planning. Create an issue or add an existing issue from the Issues related list on a plan record.
+description: Associate issues with business continuity plans to track problems identified during continuity planning. Create or add an existing issue from the Issues related list on a plan record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/managing-issues-in-bcm.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-17"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 keywords: [BCM, issues, remediation, plan]
 breadcrumb: [Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Managing issues from Business Continuity Workspace
 
-Associate issues with business continuity plans to track problems identified during continuity planning. Create an issue or add an existing issue from the **Issues** related list on a plan record.
+Associate issues with business continuity plans to track problems identified during continuity planning. Create or add an existing issue from the **Issues** related list on a plan record.
 
 ## Business continuity with issue management
 
 -   **Prerequisites**
 
-    The GRC: Profiles application must be installed as a prerequisite for issue management. For more information, see [Dependencies for integrating the Issues module with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/issues-bcm-dependencies.md).
+    The GRC: Profiles application must be installed as a prerequisite for issue management. For more information, see [Issues module integration dependencies with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/issues-bcm-dependencies.md).
 
 -   **Benefits**
 
-    The GRC: Issue Management integration enables organizations to track, prioritize, and resolve issues throughout their life cycle, reducing resolution time and minimizing business impact. AI-powered insights accelerate root-cause identification, strengthen resilience planning, and support data-driven decisions to prevent future disruptions—maintaining critical operations and reducing downtime.
+    The GRC: Issue Management integration enables organizations to track, prioritize, and resolve issues throughout their life cycle, reducing resolution time and minimizing business impact. AI-powered insights accelerate root cause identification, strengthen resilience planning, and support data-driven decisions to prevent future disruptions. This maintains critical operations and reduces downtime.
 
 -   **Usage**
 
-    Associate issues with business continuity plans and events to track problems identified during planning, exercises, and crisis events. Use the Issues related list in plan and event records to create a new issue or add an existing GRC issue and track it through resolution.
+    Associate issues with business continuity plans and events to track problems identified during planning, exercises, and crisis events. Use the Issues related list in plan and event records to create an issue or add an existing GRC issue and track it through resolution.
 
 
 ## Dependencies
 
-Certain GRC applications are required for Issues integration with BCM:
+Certain GRC applications are required for issue integration with BCM:
 
 -   GRC: Profiles, which provides issues and remediation
 -   GRC: Issue Management
@@ -40,11 +40,11 @@ Certain GRC applications are required for Issues integration with BCM:
 
 The **Issues** related list appears when BCM and these GRC applications are installed.
 
-For more information, see [Dependencies for integrating the Issues module with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/issues-bcm-dependencies.md).
+For more information, see [Issues module integration dependencies with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/issues-bcm-dependencies.md).
 
 ## Classification and source
 
-When you create an issue from a plan, the issue is given the **Business continuity management** classification. The issue source and issue source reference are set to the plan that you created it from, which is set to the primary source of the issue.
+When you create an issue from a plan, the issue is given the **Business continuity management** classification. The issue source and issue source reference are set to the plan that you created it from, which is the primary source of the issue.
 
 \[Omitted image "create-issue-from-plan-record.png"\] Alt text: Create an issue from plan record.
 
@@ -52,7 +52,7 @@ When you add an existing issue to another plan, that plan is recorded as a secon
 
 ## Relationship between an issue and a plan
 
-The relationship between an issue and a plan is stored in a many-to-many table \[sn\_bcp\_m2m\_plan\_issue\] \(Plan related issues\) that brings the issue fields into the related list. Removing an issue from the related list removes only the association. It doesn't delete the issue record.
+The relationship between an issue and a plan is stored in a many-to-many table **sn\_bcp\_m2m\_plan\_issue** \(Plan related issues\) that brings the issue fields into the related list. Removing an issue from the related list removes the association. It does not delete the issue record.
 
 ## Access
 
@@ -78,11 +78,11 @@ The role records show the contained roles for each role. The sn\_grc.compliance\
 
 ## Issues on crisis events and exercises
 
-Recovery events and exercises support the same issue association as continuity plans. From an event or exercise record, use the **Issues** related list to create a new issue or add an existing issue. The issue is given the same classification and source reference behavior as an issue created from a plan.
+Recovery events and exercises support the same issue association as continuity plans. From an event or exercise record, use the **Issues** related list to create an issue or add an existing issue. The issue is given the same classification and source reference behavior as an issue created from a plan.
 
 ## Viewing plans and events from the issue record
 
-The issue record shows every plan, recovery event, or exercise linked to it as a related item. Where these appear depends on which applications are installed. When the Issue Management app is installed, plans, events, and exercises each appear as their own related-list category under Impacted items, with Add and Remove actions only. When only GRC: Profiles is installed, the plan, event, and exercise related lists appear directly on the classic issue form, also with **Add** and **Remove** only.
+The issue record shows every plan, recovery event, or exercise linked to it as a related item. Where these appear depends on which applications are installed. When the Issue Management app is installed, plans, crisis events, and exercises each appear as a separate tab under **Impacted items**, with **Add** and **Remove** actions. The **Plans**, **Crisis events**, and **Exercises** tabs are independent — linking a record to one tab does not affect the others. When only GRC: Profiles is installed, the plan, event, and exercise related lists appear directly on the classic issue form, also with **Add** and **Remove** only.
 
 \[Omitted image "plans-tab-in-issue-record.png"\] Alt text: Plans tab in Issue record.\[Omitted image "exercise-added-from-issue-record.png"\] Alt text: Exercise added from Issue record.
 
@@ -92,7 +92,7 @@ The first plan or event that an issue is created from is set to its primary sour
 
 BCM Administrators can group and arrange related lists in a vertical layout. It enables you to access connected data without scrolling through a traditional horizontal page layout.
 
-The "Record page vertical template" \(sn-rec-pg-vertical\) and "GRC: Issue Management" applications are used as the core components for the enhanced layout. The Impacted Items section now groups related items for improved visibility and easier identification of affected items.
+The Record page vertical template \(sn-rec-pg-vertical\) and GRC: Issue Management applications are the core components for the enhanced layout. The Impacted Items section now groups related items for improved visibility and easier identification of affected items.
 
 The "Record page vertical template" application is installed with GRC Base Workspace \(app-grc-base-workspace\). It manages related lists and UI pages on a record page within groups. Its template uses preset values that enable the page to work without complex configuration. It also controls how related information is organized and displayed when you view records in Business Continuity Workspace as shown in the example.
 
@@ -101,11 +101,11 @@ The "Record page vertical template" application is installed with GRC Base Works
 **Related topics**  
 
 
-[Issue modules in Business Continuity Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-issue-list-modules.md)
+[Issue modules in Business Continuity Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/bcm-issue-list-modules.md)
 
-[Add or create an issue from a plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-or-create-issue-from-plan-uib-ws.md)
+[Add or create an issue from a plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/add-or-create-issue-from-plan-uib-ws.md)
 
-[Add or create an issue from an exercise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-or-create-issue-from-event-uib-ws.md)
+[Add or create an issue from an exercise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/add-or-create-issue-from-event-uib-ws.md)
 
-[Dependencies for integrating the Issues module with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/issues-bcm-dependencies.md)
+[Issues module integration dependencies with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/issues-bcm-dependencies.md)
 

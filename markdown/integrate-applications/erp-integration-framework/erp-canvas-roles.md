@@ -3,7 +3,7 @@ title: Zero Copy Connector for ERP roles
 description: Zero Copy Connector for ERP roles give team members the access they must have to configure ERP systems, build models, or read ERP data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-roles.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
@@ -19,9 +19,9 @@ Zero Copy Connector for ERP roles give team members the access they must have to
 
 **Important:** When you assign Zero Copy Connector for ERP roles to a user, you must include the scope. For example, assign the sn\_erp\_integration.erp\_admin role, not just erp\_admin.
 
-For more information about assigning roles, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignARoleToAUser.md).
+For more information about assigning roles, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignARoleToAUser.md).
 
-To learn more about product-specific \(granular\) admin roles, see [Platform security granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platsec-granular-roles.md).
+To learn more about product-specific \(granular\) admin roles, see [Platform security granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platsec-granular-roles.md).
 
 ## Required roles and instances
 
@@ -51,7 +51,7 @@ Grants the user access to update the application setup.
 
 Granular admin role for Zero Copy Connector for ERP that contains the sn\_erp\_integration.erp\_user role.
 
- For more information on working with granular roles, see [Platform security granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platsec-granular-roles.md).
+ For more information on working with granular roles, see [Platform security granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platsec-granular-roles.md).
 
 </td></tr><tr><td>
 
@@ -145,4 +145,6 @@ Assign the following roles to give users access to specific ERP data models, suc
 |Transport user|sn\_erp\_integration.sap\_transport\_user|
 |Vendor invoice user|sn\_erp\_integration.sap\_vendor\_invoice\_user|
 |Vendor user|sn\_erp\_integration.sap\_vendor\_user|
+
+**Parent Topic:**[Configuring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-integration-configuration-overview.md)
 

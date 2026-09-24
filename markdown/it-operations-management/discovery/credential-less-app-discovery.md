@@ -3,11 +3,11 @@ title: Credential-less Application Discovery
 description: Credential-less Application Discovery attempts to identify an application service actively listening on a specific port at a given IP address.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/credential-less-app-discovery.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Credential-less discovery with Nmap, Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -37,7 +37,7 @@ This information was returned by an Nmap Application/Version Detection port scan
 
 The CredentialLessApplicationClassNameMapper MID Server script include is configured with a subset of the most common application tables available for Discovery and Service Mapping. A user with the agent\_admin role can edit this script include to add CI tables that credential-less application Discovery can use for mapping to a derived application CI class.
 
-Shown in this table are examples of close matches returned by Nmap on a test system that [CMDB Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_CMDBIdentifyandReconcile.md) was able to resolve into defined products. In many cases, the service name returned by Nmap was not needed to determine a match. Service names that appear in the table were required to determine a match.
+Shown in this table are examples of close matches returned by Nmap on a test system that [CMDB Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_CMDBIdentifyandReconcile.md) was able to resolve into defined products. In many cases, the service name returned by Nmap was not needed to determine a match. Service names that appear in the table were required to determine a match.
 
 Products returned by Nmap that cannot be resolved into defined Discovery products use the following naming format: **&lt;serviceProduct&gt;:&lt;serviceExtrainfo&gt;:&lt;serviceName&gt;**. If any value in this string is null, it is dropped from the name.
 
@@ -210,5 +210,5 @@ The Discovery - IP Based \[com.snc.discovery.ip\_based\] plugin adds an identifi
 
 \[Omitted image "NmapIdentifier.png"\] Alt text: Nmap identifier for the Application Rule
 
-**Parent Topic:**[Credential-less discovery with Nmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/nmap-credential-less-discovery.md)
+**Parent Topic:**[Credential-less discovery with Nmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/nmap-credential-less-discovery.md)
 

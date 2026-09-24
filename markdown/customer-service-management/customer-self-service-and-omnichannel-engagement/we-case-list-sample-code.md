@@ -3,13 +3,13 @@ title: Sample code for the Case list component
 description: Sample code is provided to define an action when an event is triggered. Update the sample code for your use case before embedding the component on your webpage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/we-case-list-sample-code.html
-release: australia
+release: brazil
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Case list component, Configure web components, Web Embeddables, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Case list component, Configure web components, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Sample code for the Case list component
@@ -57,11 +57,11 @@ console.log(errorMessage, errorType);
 **Related topics**  
 
 
-[Configure the Case list component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-case-list-component-on-instance.md)
+[Configure the Case list component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-case-list-component-on-instance.md)
 
-[Embed the Case list component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-case-list-component-on-third-party-website.md)
+[Embed the Case list component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-case-list-component-on-third-party-website.md)
 
-[Component properties for the Case list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/component-properties-for-the-case-list.md)
+[Component properties for the Case list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/component-properties-for-the-case-list.md)
 
-[Event handler in the Case list component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/we-case-list-event-handlers.md)
+[Event handler in the Case list component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/we-case-list-event-handlers.md)
 

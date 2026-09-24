@@ -3,11 +3,11 @@ title: Feedback integration configuration form
 description: Use the Feedback integration configuration form to define a setup for the Parallel Review and Feedback.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/feedback-integration-configuration-form.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure a feedback integration, Parallel Review and Feedback in Advanced Risk, Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -81,5 +81,5 @@ Respondent field
 User or group field on the target record. For example, if you want the record owner to respond to the raised feedback, select `Owner` in this field.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure a feedback integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/configure-feedback-integration.md)
+</table>**Parent Topic:**[Configure a feedback integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/configure-feedback-integration.md)
 

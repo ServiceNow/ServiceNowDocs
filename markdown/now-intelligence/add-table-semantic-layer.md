@@ -3,9 +3,9 @@ title: Add a table to the semantic data layer
 description: Add more tables to the Query Generation semantic layer so that users can use ServiceNow Otto for Platform Analytics applications to ask questions about the data in those tables.Instead of adding individual tables or database views to the semantic layer, you can select multiple ones from a list and enable Query Generation for them together.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/add-table-semantic-layer.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
@@ -44,7 +44,7 @@ Role required: sn\_query\_gen.admin or higher
 
 5.  Select whether to enable semantic generation for the table.
 
-    By default, semantic generation is enabled. For more information, see [Enable semantic generation for tables in the semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/enable-semantics-generation.md).
+    By default, semantic generation is enabled. For more information, see [Enable semantic generation for tables in the semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/enable-semantics-generation.md).
 
 6.  Select whether to include the hierarchy of child tables.
 
@@ -86,7 +86,7 @@ If you have users who need to explore and discuss data relating to asset contrac
     \[Omitted image "qgen-contract-dimensions.png"\] Alt text: Dimensions added for the Contract table.
 
 
-**Parent Topic:**[Configuring Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configuring-query-generation.md)
+**Parent Topic:**[Configuring Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/configuring-query-generation.md)
 
 ## Add a batch of tables to the semantic layer
 

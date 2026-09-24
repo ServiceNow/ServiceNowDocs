@@ -3,9 +3,9 @@ title: Track record list changes
 description: Get an AI-generated summary of recent changes made to a list without manually reviewing each record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/use-ai-list-tracker.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Lists, Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---

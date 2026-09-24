@@ -3,11 +3,11 @@ title: Delete group from Event Management admin role
 description: Delete group from the evt\_mgmt\_admin role when you no longer need them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/remove-aiops-user-role.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-04-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Assign Event Management admin role to group, Configure Event Management using ServiceNow Otto for Setup, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---

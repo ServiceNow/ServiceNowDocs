@@ -3,11 +3,11 @@ title: Operational Technology change approval
 description: The Operational Technology \(OT\) change approval lets reviewers approve your requested changes and suggest improvements as necessary.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-change-management/ot-change-approval.html
-release: australia
+release: brazil
 product: Operational Technology Change Management
 classification: operational-technology-change-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Operational Technology Change Management, Operational Technology]
 ---
@@ -40,10 +40,10 @@ The OT change approval flow is as follows.
 5.  Matching approval definitions are executed.
 6.  Add a list of site level approvers to the change record.
 
-The Advanced OT Change Model contains a change approval policy. You can also create your own approval policy. For more information about how to create an approval policy, see [Create change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/create-change-policy.md).
+The Advanced OT Change Model contains a change approval policy. You can also create your own approval policy. For more information about how to create an approval policy, see [Create change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/create-change-policy.md).
 
--   **[Add an approver to review a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-change-management/select_an_approval_group.md)**  
+-   **[Add an approver to review a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-change-management/select_an_approval_group.md)**  
 Add a group member, or approver, manually to your approval group to review your Operational Technology \(OT\) change request.
 
-**Parent Topic:**[Using Operational Technology Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-change-management/using-operational-technology-change-management.md)
+**Parent Topic:**[Using Operational Technology Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-change-management/using-operational-technology-change-management.md)
 

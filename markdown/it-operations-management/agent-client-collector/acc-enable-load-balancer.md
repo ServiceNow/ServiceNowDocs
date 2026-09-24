@@ -3,11 +3,11 @@ title: Enable the Agent Client Collector load balancer
 description: Enable a load balancer to ensure that you have functional MID Servers. A load balancer distributes resources over multiple MID Servers to ensure that no single MID Server is overloaded.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-enable-load-balancer.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ACC installation, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -65,7 +65,7 @@ Load balancers are not configured by default. Follow this procedure to configure
 
 ## Result
 
-The Agent Client Collector data flow proceeds as described in [Agent Client Collector architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-concept.md).
+The Agent Client Collector data flow proceeds as described in [Agent Client Collector architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-concept.md).
 
 **Note:**
 

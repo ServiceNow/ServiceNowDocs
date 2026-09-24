@@ -3,11 +3,11 @@ title: Create a control objective using the Compliance Workspace
 description: A control objective is an objective, direction, or standard that acts as guidance for company interactions and operations. Control objectives can be categorized, classified, and related to policies using the Compliance Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/create-ctrl-objective-ws.html
-release: australia
+release: brazil
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Manage control objectives and policies, Use, GRC Compliance workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -214,7 +214,7 @@ Description of the control objective.
 </td></tr></tbody>
 </table>6.  Click **Save**.
 
-    To view and manage the details of the control objective that you created, see [Manage a control objective from the overview page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/co-overview-pc-ws.md).
+    To view and manage the details of the control objective that you created, see [Manage a control objective from the overview page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-compliance-management-workspace/co-overview-pc-ws.md).
 
     The control objective is created and all related lists are visible.
 
@@ -241,5 +241,5 @@ Description of the control objective.
 
 ## What to do next
 
-If you’re implementing the [Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/policy-compliance-impl-checklist.md) software, return to the [Policy and Compliance Management setup checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/policy-compliance-impl-checklist.md) and proceed to the next step.
+If you’re implementing the [Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/policy-compliance-impl-checklist.md) software, return to the [Policy and Compliance Management setup checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/policy-compliance-impl-checklist.md) and proceed to the next step.
 

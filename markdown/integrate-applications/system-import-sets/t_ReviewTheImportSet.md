@@ -3,11 +3,11 @@ title: Review the import set
 description: After an import set completes, you can review the completed import and clean up import set tables. Even if no errors are reported by the progress indicator, review how your data is imported into the new import set.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/t\_ReviewTheImportSet.html
-release: australia
+release: brazil
 product: System Import Sets
 classification: system-import-sets
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Importing data using import sets, Import sets, Imports, Workflow Data Fabric]
 ---
@@ -35,5 +35,5 @@ Role required: admin.
 
 Create a transform map to associate with this import set.
 
-**Parent Topic:**[Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportDataUsingImportSets.md)
+**Parent Topic:**[Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/c_ImportDataUsingImportSets.md)
 

@@ -3,9 +3,9 @@ title: Compare datasets in Instance Observer
 description: Instance Observer help you understand the impact of changes, troubleshoot issues, and understand performance patterns over time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/io-compare-datasets-vid-tut.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Instance Observer, compare datasets, analytics, performance metrics, observability, server response time]
 breadcrumb: [IO analytics, Monitor instance performance, Platform Health, Using Impact, Impact]
@@ -21,7 +21,7 @@ Role required: admin
 
 ## About this task
 
-Use the Compare datasets tool to compare high-level metrics across time. You can select from different dimensions for each dataset. For example, in the Average server response time, you can pick two days for about a three-hour period. Then compare the overlays and analyze differences in performance metrics between the two time periods. This is useful to understand the impact of deployments, configuration changes, or identify performance degradation over time.
+Use the Compare datasets tool to compare high-level metrics across time. You can select from different dimensions for each dataset. For example, in the Average server response time, you can pick two days for about a three-hour period, and compare the overlays and analyze differences in performance metrics between the two time periods. This is useful to understand the impact of deployments, configuration changes, or identify performance degradation over time.
 
 ## Procedure
 
@@ -65,7 +65,7 @@ Use the Compare datasets tool to compare high-level metrics across time. You can
     -   **Average session summary enduser**: The average time span of a user when they log in until their session ends.
     -   **Average session summary loggedIn**: Total session counts for non-active users.
     -   **SQL Response Time**: The smallest unit of measurement to track SQL per SQL statement. Tracks the average time \(in ms\) for SQL queries to execute against the ServiceNow database
-    If it deviates beyond 2.5 milliseconds, select Query Patterns. Then zoom into 15 minutes on each side of the spike to analyze the graph and the dataset to understand the cause of the issue.
+    If it deviates beyond 2.5 milliseconds, select Query Patterns, zoom into 15 minutes on each side of the spike to analyze the graph and the dataset to understand the cause of the issue.
 
 10. Select **Releases** option in the **between** list to compare the date ranges between two upgrades.
 
@@ -76,5 +76,5 @@ Use the Compare datasets tool to compare high-level metrics across time. You can
         For one period, it picks the dates for you between the two releases that you're comparing in the **Using:** section. When you select the \[Omitted image "inline-data-vis-calendar-days.png"\] Alt text: calendar icon., the dates are selected for you to compare the datasets.
 
 
-**Parent Topic:**[IO analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-analytics.md)
+**Parent Topic:**[IO analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/io-analytics.md)
 

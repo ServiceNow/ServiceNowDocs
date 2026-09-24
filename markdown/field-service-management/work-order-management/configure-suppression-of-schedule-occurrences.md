@@ -3,11 +3,11 @@ title: Configure schedule occurrence suppression
 description: Streamline and optimize maintenance activities by suppressing duplicate planned work tasks when different schedules overlap.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/configure-suppression-of-schedule-occurrences.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Planned Work Management, Set up work orders and tasks, Configure, Field Service Management]
 ---
@@ -29,10 +29,10 @@ For example, consider an MRI machine with scheduled maintenance plans for both m
 
 The steps to suppress schedule occurrences of your planned work after creating a work plan are:
 
-1.  Customize the time window for the suppression period by selecting the appropriate value for the property sn\_fsm\_planned\_wm.tolerance\_span in [Planned Work Management system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/planned_work_management_sys_properties.md).
-2.  [Configure a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/configure-work-plan.md)
-3.  Associate the work schedule with templates. For more information, see [Associate work order template to a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/associate-work-schedule-to-wotemplate.md) and [Associate task plan template to a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/map-schedule-to-task-template.md).
-4.  [Create planned work records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/create-planned-work-records.md)
-5.  [Generate work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/generate-work-orders.md)
-6.  [Suppress schedule occurrences of your planned work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/suppress_schedules_of_your_work_plans.md)
+1.  Customize the time window for the suppression period by selecting the appropriate value for the property sn\_fsm\_planned\_wm.tolerance\_span in [Planned Work Management system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/planned_work_management_sys_properties.md).
+2.  [Configure a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/configure-work-plan.md)
+3.  Associate the work schedule with templates. For more information, see [Associate a work order template to a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/associate-work-schedule-to-wotemplate.md) and [Associate a task plan template to a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/map-schedule-to-task-template.md).
+4.  [Create planned work records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/create-planned-work-records.md)
+5.  [Generate work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/generate-work-orders.md)
+6.  [Suppress schedule occurrences of your planned work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/suppress_schedules_of_your_work_plans.md)
 

@@ -3,11 +3,11 @@ title: Configure incident ticket page
 description: Configure the Incident ticket page from where users can view the details of an Incident in Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/config-inci-ticket-page.html
-release: australia
+release: brazil
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Incident standard ticket page, Managing incidents, Incident Management, IT Service Management]
 ---

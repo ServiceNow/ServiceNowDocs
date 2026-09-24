@@ -3,11 +3,11 @@ title: Approve an article that is being reviewed
 description: Approve an article that is being reviewed and create a new published version.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/approve-article-in-review.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -39,5 +39,5 @@ When an article is in the **Review** state, only those users who are included in
 
 The system displays the Knowledge form. The version number of the article increments to the next whole number \(for example, from 2.02 to 3.0\) and the state changes to **Published**. The new published version of the article is added to the Knowledge list and to the **Article Versions** related list on the Knowledge form.
 
-**Parent Topic:**[Creating and maintaining articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/creating-and-maintaining-articles.md)
+**Parent Topic:**[Creating and maintaining articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/creating-and-maintaining-articles.md)
 

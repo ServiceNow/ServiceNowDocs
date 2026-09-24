@@ -3,9 +3,9 @@ title: View an assessment category result
 description: Category results contain values that represent an evaluated record's performance in a specific metric category. Each category result record stores data from one assessment group. Category result values are calculated based on category and metric weights and from metric result values for the same category.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_ViewACategoryResult.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [View a quiz designer scorecard, View a quiz result, Quiz designer, Using Quizzes, Quizzes, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -116,14 +116,14 @@ Record evaluated as the assessment subject. You may need to configure the form t
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[View a quiz designer scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAQuizDesignerScorecard.md)
+**Parent Topic:**[View a quiz designer scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_ViewAQuizDesignerScorecard.md)
 
 **Related topics**  
 
 
-[Assessment results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_AssessmentResults.md)
+[Assessment results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_AssessmentResults.md)
 
-[Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md)
+[Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md)
 
-[View a metric result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAMetricResult.md)
+[View a metric result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_ViewAMetricResult.md)
 

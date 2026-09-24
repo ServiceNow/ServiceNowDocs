@@ -3,11 +3,11 @@ title: Define an EVAM configuration bundle
 description: Create a view configuration to combine conditions, database fields, and declarative actions with an associated view template using the Entity View Action Mapper \(EVAM\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/entity-view-action-mapper-evam/define-view-configuration-bundle.html
-release: australia
+release: brazil
 product: Entity View Action Mapper \(EVAM\)
 classification: entity-view-action-mapper-evam
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring entity view action mapper, Entity view action mapper, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---

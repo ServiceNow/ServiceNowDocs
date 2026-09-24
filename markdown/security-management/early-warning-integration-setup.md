@@ -3,9 +3,9 @@ title: Set up requirements for Early Warning for Security Exposure Management
 description: Complete the following setup steps in your Armis Intelligence Center console environment before you configure Early Warning for Security Exposure Management in your ServiceNow AI Platform instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/early-warning-integration-setup.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Early Warning for Security Exposure Management, Integrate, Unified Security Exposure Management, Security Operations]
 ---
@@ -43,7 +43,5 @@ Role required: Armis Intelligence Center console account and credentials
 
 ## What to do next
 
-[Configure the Early Warning for Security Exposure Management integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configure-early-warning-integration.md)
-
-**Parent Topic:**[Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/armis-early-warning-integration.md)
+[Configure the Early Warning for Security Exposure Management integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/configure-early-warning-integration.md)
 

@@ -3,11 +3,11 @@ title: Fine-tune tracking changes for the change history
 description: Define CI fields for which the system reflects changes in the change history for application services. The change history view shows changes to CIs making up application services as well as changes to application services themselves.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/exclude-changes-from-change-history.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Advanced Service Mapping configuration, Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -58,7 +58,7 @@ Changes to configuration files are associated with CIs to which these files belo
 **Related topics**  
 
 
-[View the change history of application services in legacy Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/workspace-view-history-app-service.md)
+[View the change history of application services in legacy Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/workspace-view-history-app-service.md)
 
-[View the change history of application services in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_ViewCIChanges.md)
+[View the change history of application services in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/t_ViewCIChanges.md)
 

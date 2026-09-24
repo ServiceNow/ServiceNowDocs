@@ -3,9 +3,9 @@ title: ServiceNow Otto for Mobile
 description: Use ServiceNow Otto for Mobile platform to summarize case information, generate case resolution notes, and more.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/now-assist-mobile-landing.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Mobile Platform]
 ---
@@ -18,15 +18,15 @@ Use ServiceNow Otto® for Mobile platform to summarize case information, generat
 
 <table id="table_agh_hpn_51c" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the generative AI skills available in Otto for Mobile.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/exploring-now-assist-mobile.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the generative AI skills available in Otto for Mobile.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/exploring-now-assist-mobile.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate Otto for Mobile and configure generative AI skills.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configuring-now-assist-mobile.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate Otto for Mobile and configure generative AI skills.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/configuring-now-assist-mobile.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Learn about the requester conversational experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/using-now-assist-mobile.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Learn about the requester conversational experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/using-now-assist-mobile.md)
 
 </td></tr></tbody>
 </table>**Important:** Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
@@ -47,7 +47,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect task data \(for Case Assist\) and chat transcripts \(for Chat Assist\). Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect task data \(for Case Assist\) and chat transcripts \(for Chat Assist\). Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md).
 

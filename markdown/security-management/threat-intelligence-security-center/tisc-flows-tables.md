@@ -3,11 +3,11 @@ title: Automated flows tables
 description: The following tables helps you to understand the relationship tables between entities and enrichment tables that are used in automated flows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-flows-tables.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with automated flows, Administer, Threat Intelligence Security Center, Security Operations]
 ---
@@ -35,7 +35,7 @@ The following tables helps you to understand the relationship tables between ent
 |Sightings|sn\_sec\_tisc\_sighting|
 |Observable Enrichment Result|sn\_sec\_tisc\_observable\_enrichment\_result|
 
-**Parent Topic:**[Working with automated flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-automated-flows.md)
+**Parent Topic:**[Working with automated flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-automated-flows.md)
 
 **Related topics**  
 

@@ -3,11 +3,11 @@ title: Create a deployment request for an on-demand release
 description: Create a deployment request for changes that will deployed with an on-demand release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/releaseops/create-a-deployment-request-for-on-demand-release.html
-release: australia
+release: brazil
 product: ReleaseOps
 classification: releaseops
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-17"
 reading_time_minutes: 2
 keywords: [ReleaseOps, deploy changes, update sets, pipeline, ATF, schedule a release, deployment request, deployment analyzer]
 breadcrumb: [Use, ReleaseOps, Deploying applications, Building applications]
@@ -31,7 +31,7 @@ Role required: developer or release\_admin
 
 3.  Assign the deployment request to either an assignment group or a user.
 
-    You can assign a deployment request to both an assignment group and a user, depending on who in your organization might need to be notified about issues with the deployment request. You must select at least one of the assignment options in order to complete the deployment request form.
+    You can assign a deployment request to both an assignment group and a user, depending on who in your organization might need to be notified about issues. You must select at least one of the assignment options to complete the deployment request form.
 
     -   To assign the deployment request to an assignment group, select the **Assignment group** field, then select the group that you want to assign the deployment request to from the list.
     -   To assign the deployment request to a user, select the **Assigned to** field, then select the user that you want to assign the deployment request to from the list.
@@ -54,5 +54,5 @@ Role required: developer or release\_admin
     When you have selected **Ready to assess**, ReleaseOps automatically begins assessing your deployment request. You can see how the assessment is running and any issues that the assessment encountered in the **Activity** section of the deployment request form. Once your deployment request has passed the assessment checks, your deployment request will be moved into the pipeline that your organization has configured.
 
 
-**Parent Topic:**[Using ReleaseOps to manage deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/using-releaseops-to-manage-deployments.md)
+**Parent Topic:**[Using ReleaseOps to manage deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/using-releaseops-to-manage-deployments.md)
 

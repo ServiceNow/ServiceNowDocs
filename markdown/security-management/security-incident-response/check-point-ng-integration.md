@@ -3,11 +3,11 @@ title: Check Point Next Generation Threat Prevention integration
 description: This document describes the steps required to integrate Check Point Next Generation Threat Prevention \(NGTP\) capabilities with ServiceNow Security Incident Response \(SIR\) so that applications function properly together.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/check-point-ng-integration.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

@@ -3,7 +3,7 @@ title: Use case: Configuration line item to quote line flow
 description: By making a few adjustments to a flow template includes with the CPQ Extension package version 1.8 or later, you can parse the extended information from a configuration and map it to custom fields without using a QCP script.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/use-case-configuration-line-item-to-quote-line-flow.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -14,7 +14,7 @@ breadcrumb: [Use cases, Using CPQ, CPQ Configurator, Configure, price, quote app
 
 By making a few adjustments to a flow template includes with the CPQ Extension package version 1.8 or later, you can parse the extended information from a configuration and map it to custom fields without using a QCP script.
 
-**Note:** This article applies to the CPQ Extension for Salesforce CPQ package version 1.8 or later. If your CPQ CPQ package is version 1.7 or earlier, see [Use case: Using the Salesforce Quote Calculator plugin to integrate data from CPQ to Salesforce quotes and quote lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/integrate_config_data_from_productlist_extended_to_salesforce_quote_and_quote_lines_using_quote_calculator_pluginqcp.md).
+**Note:** This article applies to the CPQ Extension for Salesforce CPQ package version 1.8 or later. If your CPQ CPQ package is version 1.7 or earlier, see [Integrate configuration data with Quote Calculator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/integrate_config_data_from_productlist_extended_to_salesforce_quote_and_quote_lines_using_quote_calculator_pluginqcp.md).
 
 By default, if you add any extended info to a line item \(using ProductList.extended\), it will be added as a JSON to the corresponding configuration line item object created as the following:
 
@@ -55,5 +55,5 @@ Add your fields to the configuration line item and quote line layouts in order t
 
 \[Omitted image "cpq-config-to-quote-line-flow-7.png"\] Alt text: Quote line screen
 
-**Parent Topic:**[Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-cases.md)
+**Parent Topic:**[Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/use-cases.md)
 

@@ -3,11 +3,11 @@ title: Capture actual monetary benefits for a demand
 description: Capture actual benefits from planned benefits to measure revenue and calculate profits.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/manage-lean-budgeting-for-demand-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create monetary benefit plans, Manage financials for demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Capture actual benefits from planned benefits to measure revenue and calculate p
 
 ## Before you begin
 
-A monetary benefit plan exists. For more information, see [Create a monetary benefit plan for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-and-manage-benefit-plans-ppw.md).
+A monetary benefit plan exists. For more information, see [Create a monetary benefit plan for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/create-and-manage-benefit-plans-ppw.md).
 
 Role required: it\_demand\_manager
 

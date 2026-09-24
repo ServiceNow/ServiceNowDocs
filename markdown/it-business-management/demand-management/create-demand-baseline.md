@@ -3,11 +3,11 @@ title: Create a baseline of a demand
 description: Create a financial baseline of a demand to capture a snapshot of cost plan, benefit plan, and demand-level financial metrics at a specific point in time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/create-demand-baseline.html
-release: australia
+release: brazil
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a demand, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -30,15 +30,15 @@ Role required: it\_demand\_manager
 
 3.  To create a financial baseline of a demand, use either of the options.
 
-<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d340667e86">
+<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d341272e86">
 
 Option
 
-</th><th align="left" id="d340667e89">
+</th><th align="left" id="d341272e89">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d340667e95">
+</th></tr></thead><tbody><tr><td id="d341272e95">
 
 **From a related link**
 
@@ -49,7 +49,7 @@ Steps
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d340667e122">
+</td></tr><tr><td id="d341272e122">
 
 **From a related list**
 
@@ -63,8 +63,8 @@ Steps
 
 </td></tr></tbody>
 </table>
--   **[Compare financial baselines of a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/compare-baselines-of-demand.md)**  
+-   **[Compare financial baselines of a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/compare-baselines-of-demand.md)**  
 You can compare baselines to review the variances in the financial data of a demand and see what changed.
 
-**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreatingDemands.md)
+**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/t_CreatingDemands.md)
 

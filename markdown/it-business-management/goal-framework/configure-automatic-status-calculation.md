@@ -3,11 +3,11 @@ title: Configure automatic status calculation for targets
 description: Configure system-wide automatic status calculation settings to determine target and goal status automatically based on achievement percentages. Enable or disable automatic calculation and customize Green, Yellow, and Red threshold values to align with your organizational governance policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/goal-framework/configure-automatic-status-calculation.html
-release: australia
+release: brazil
 product: Goal Framework
 classification: goal-framework
 topic_type: task
-last_updated: "2026-09-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
@@ -49,5 +49,5 @@ Administraotrs can enable or disable the automatic status calculation feature. T
 4.  Select **Update** to save the changes.
 
 
-**Parent Topic:**[Configuring Goal Framework and Goal Framework for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/configuring-goal-framework.md)
+**Parent Topic:**[Configuring Goal Framework and Goal Framework for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/configuring-goal-framework.md)
 

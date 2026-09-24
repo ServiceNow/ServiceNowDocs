@@ -3,11 +3,11 @@ title: Search, filters, lists, forms, and guides
 description: An overview of the additional elements in the Service Reliability Management \(SRM\) interface that help you find items, view available forms and lists, and follow setup processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-visualize-content.html
-release: australia
+release: brazil
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SRM interface, Get started with Service Reliability Management, Exploring Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
@@ -43,5 +43,5 @@ An overview of the additional elements in the Service Reliability Management \(S
     Use the setup checklists to visualize the process that you go through to reach your goals. Each step is highlighted as you complete it.
 
 
-**Parent Topic:**[SRM interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-navigate-interface.md)
+**Parent Topic:**[SRM interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-reliability-management/sr-navigate-interface.md)
 

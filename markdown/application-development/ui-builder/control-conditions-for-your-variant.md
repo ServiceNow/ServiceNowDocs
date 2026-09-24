@@ -3,11 +3,11 @@ title: Control the conditions for a page variant
 description: Set the conditions and manage the criteria that determine when a page variant is displayed. UI Builder page variants enable you to create different versions of a page to tailor content for a specific audience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/control-conditions-for-your-variant.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create a page variant, Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -28,7 +28,7 @@ If you have multiple page variants that all have the same conditions, the varian
 
 1.  Create a page variant.
 
-    For more information, see [Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-variant.md).
+    For more information, see [Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-variant.md).
 
 2.  Set the conditions for a new variant.
 
@@ -133,10 +133,10 @@ The number, text, or option input that you want to compare with the parameter.
 
         The **Edit variant conditions** screen displays the encoded query field, where the conditions you previously set are shown in encoded query form: `table=task^sysId=abcd1234`.
 
-        For example, by adding the following 'OR' condition \(`^ORsysId=efgh5678`\), you set the page variant to display when you access a record from the Task table with a sys\_id of either abcd1234 or efgh5678. For more information on writing encoded queries, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).
+        For example, by adding the following 'OR' condition \(`^ORsysId=efgh5678`\), you set the page variant to display when you access a record from the Task table with a sys\_id of either abcd1234 or efgh5678. For more information on writing encoded queries, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_EncodedQueryStrings.md).
 
         \[Omitted image "control-conditions-or.png"\] Alt text: Edit variant conditions screen displaying encoded query 'table=task^sysId=abcd1234^ORsysId=efgh5678' in the field.
 
 
-**Parent Topic:**[Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-variant.md)
+**Parent Topic:**[Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-variant.md)
 

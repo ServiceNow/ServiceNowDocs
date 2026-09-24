@@ -3,12 +3,12 @@ title: AI Analytics dashboard indicator details
 description: Indicator details help you understand the data and calculations behind an indicator that is presented in the form of a visualization on the dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-analytics-dashboard-indicators.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 keywords: [Now Assist Analytics, indicators, Platform Analytics Administration, GenAI, Generative AI]
-breadcrumb: [AI Analytics reference, Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [AI Analytics reference, Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # AI Analytics dashboard indicator details

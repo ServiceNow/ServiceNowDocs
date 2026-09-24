@@ -3,11 +3,11 @@ title: View a Security Incident Response runbook
 description: Runbooks give you access to procedures related to tasks you're working on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/view-runbook.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View information in a security incident, Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -30,6 +30,6 @@ Role required: sn\_si.knowledge\_admin
 
 3.  To create a runbook, select **New**.
 
-    For more information, see [Create a runbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setup-assistant-reference.md).
+    For more information, see [Create a runbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/setup-assistant-reference.md).
 
 

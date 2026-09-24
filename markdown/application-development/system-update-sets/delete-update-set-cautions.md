@@ -3,11 +3,11 @@ title: Important considerations before deleting update sets
 description: Revert a customization, back out the update set rather than deleting it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/system-update-sets/delete-update-set-cautions.html
-release: australia
+release: brazil
 product: System Update Sets
 classification: system-update-sets
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, System update sets, Deploying applications, Building applications]
 ---
@@ -26,5 +26,5 @@ Don’t delete sys\_update\_xml entries, because this action:
 
 When you try to delete an update entry, a warning message appears. Select **OK** to confirm the deletion.
 
-**Parent Topic:**[Update sets reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/update-sets-reference.md)
+**Parent Topic:**[Update sets reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/system-update-sets/update-sets-reference.md)
 

@@ -3,11 +3,11 @@ title: CMDB classes targeted in Service Graph Connector for Dynatrace SaaS
 description: When you complete setting up the connection, you can configure the integration to periodically pull data from Dynatrace. The data is saved in tables that extend from the Configuration item \[cmdb\_ci\] table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-classes.html
-release: australia
+release: brazil
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: reference
-last_updated: "2026-07-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Observability - Dynatrace SaaS, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---

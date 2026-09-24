@@ -1,20 +1,20 @@
 ---
 title: Recall campaign tables
-description: Recall campaign tables list the tables added or modified to support recall campaign management in Manufacturing Commercial Operations.
+description: The recall claim feature adds and modifies database tables in Manufacturing Commercial Operations for recall campaign management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/recall-claims-table.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Recall campaign data model, Data model, Reference, Manufacturing Commercial Operations]
 ---
 
 # Recall campaign tables
 
-Recall campaign tables list the tables added or modified to support recall campaign management in Manufacturing Commercial Operations.
+The recall claim feature adds and modifies database tables in Manufacturing Commercial Operations for recall campaign management.
 
-## Recall claim plugin
+## Recall claim tables
 
 The recall claim feature adds or modifies the existing tables:
 
@@ -121,5 +121,5 @@ Recall phase part allocation\[sn\_rcl\_claim\_mgmt\_phase\_part\_allocation\]
 Stores the part allocation information for a recall campaign phase.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Recall campaign data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/recall-claims.md)
+</table>**Parent Topic:**[Recall campaign data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/recall-claims.md)
 

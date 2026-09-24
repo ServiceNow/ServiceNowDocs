@@ -3,11 +3,11 @@ title: Update sets in ServiceNow Studio
 description: Use update sets in ServiceNow Studio to group configuration changes and move them as a unit to other instances for testing or deployment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/working-with-update-sets-in-servicenow-studio.html
-release: australia
+release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2026-05-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [App deployment in ServiceNow Studio, Use, ServiceNow Studio, Developing your application, Building applications]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [App deployment in ServiceNow Studio, Use, ServiceNow Studio, Develo
 
 Use update sets in ServiceNow Studio to group configuration changes and move them as a unit to other instances for testing or deployment.
 
-Update sets track configuration changes made in ServiceNow Studio so that admins and delegated developers can move those changes to other instances as a single deployable unit. Access update sets from within an individual application or from the **Deployment** tab. Update set interactions in ServiceNow Studio follow the same patterns as on the ServiceNow AI Platform. For more information about tasks you can accomplish with update sets, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/system-update-sets.md).
+Update sets track configuration changes made in ServiceNow Studio so that admins and delegated developers can move those changes to other instances as a single deployable unit. Access update sets from within an individual application or from the **Deployment** tab. Update set interactions in ServiceNow Studio follow the same patterns as on the ServiceNow AI Platform. For more information about tasks you can accomplish with update sets, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/system-update-sets/system-update-sets.md).
 
 Administrators can perform the following actions with update sets to control the full deployment lifecycle.
 
@@ -31,7 +31,7 @@ Administrators can perform the following actions with update sets to control the
 -   Apply retrieved update sets to install those changes on the current instance.
 -   Back out changes applied from an update set.
 -   Set system properties related to update sets to configure default update set behavior.
--   Promote update sets for deployment via ReleaseOps. For more information, see [ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/releaseops-landing.md).
+-   Promote update sets for deployment via ReleaseOps. For more information, see [ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/releaseops-landing.md).
 
 Delegated developers can perform the following actions with update sets in ServiceNow Studio to manage changes within their assigned applications.
 
@@ -42,10 +42,10 @@ Delegated developers can perform the following actions with update sets in Servi
     **Note:** If your app was created in ServiceNow IDE and converted to Fluent, you must switch from ServiceNow Studio back into the ServiceNow IDE for the publishing and deployment process.
 
 
--   **[Create an update set in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sn-studio-create-update-set.md)**  
+-   **[Create an update set in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/sn-studio-create-update-set.md)**  
 Create an update set in ServiceNow Studio to package app changes for deployment to other instances.
--   **[Mark an update set complete in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/mark-update-set-complete.md)**  
+-   **[Mark an update set complete in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/mark-update-set-complete.md)**  
 Mark an update set as **Complete** in ServiceNow Studio to make the changes available for retrieval by other instances.
 
-**Parent Topic:**[App deployment in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/app-deployment-servicenow-studio.md)
+**Parent Topic:**[App deployment in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/app-deployment-servicenow-studio.md)
 

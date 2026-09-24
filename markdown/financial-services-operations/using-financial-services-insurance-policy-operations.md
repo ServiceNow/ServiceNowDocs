@@ -3,9 +3,9 @@ title: Using Personal Lines Servicing
 description: Learn how the following roles use Personal Lines Servicing to update policies, change coverages, review and approve underwriting, and send documents for personal policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/using-financial-services-insurance-policy-operations.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Personal Lines Servicing, Property and Casualty Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -29,7 +29,7 @@ Requesters, contributors, and processors use personalized Workspace to work on a
 -   Focus on high-priority items
 -   Easily navigate across tasks
 
-For more information, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-workspace.md).
+For more information, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/fso-workspace.md).
 
 <table id="table_qy1_452_wrb"><thead><tr><th>
 
@@ -45,7 +45,7 @@ Policy admin
 
 </td><td>
 
-Configures the insurance policy workspace as per business requirements. For more information, see [Configure CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-csm-workspace-fso-apps.md).
+Configures the insurance policy workspace as per business requirements. For more information, see [Configure CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-csm-workspace-fso-apps.md).
 
 </td></tr><tr><td>
 
@@ -53,7 +53,7 @@ Insurance underwriting admin
 
 </td><td>
 
-Configures the insurance underwriting workspace as per business requirements. For more information, see [Configure CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-csm-workspace-fso-apps.md).
+Configures the insurance underwriting workspace as per business requirements. For more information, see [Configure CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-csm-workspace-fso-apps.md).
 
 </td></tr><tr><td colspan="2">
 
@@ -92,12 +92,12 @@ Underwriter
 Views the status of and works on underwriting tasks.
 
 </td></tr></tbody>
-</table>-   **[Request, review, and approve change coverage request workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/request-review-approve-change-coverage-request-workflows.md)**  
+</table>-   **[Request, review, and approve change coverage request workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/request-review-approve-change-coverage-request-workflows.md)**  
 Learn how agents, using the change coverage limits workflows, resolve service requests for requesting, reviewing, and approving policy change requests.
--   **[Submit a policy service request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/submit-ins-policy-service-request.md)**  
+-   **[Submit a policy service request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/submit-ins-policy-service-request.md)**  
 Help your customers by submitting a policy service request for them.
--   **[Work on a policy service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/work-ins-policy-case.md)**  
+-   **[Work on a policy service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/work-ins-policy-case.md)**  
 Review a policy case for a policy service request and update its details to trigger its workflow.
 
-**Parent Topic:**[Personal Lines Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-ins-personal-policy-ops-landing-page.md)
+**Parent Topic:**[Personal Lines Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/fso-ins-personal-policy-ops-landing-page.md)
 

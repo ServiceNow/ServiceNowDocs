@@ -3,11 +3,11 @@ title: Submitting a loan service request
 description: Bank workers can begin the loan workflow by submitting a loan service request received from customers \(consumer or business contact\). Customers \(consumer or contact\) can also directly submit a request from service catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-loan-operations/submit-loan-request.html
-release: australia
+release: brazil
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Loan Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---

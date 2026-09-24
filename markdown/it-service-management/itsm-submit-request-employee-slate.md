@@ -3,11 +3,11 @@ title: Submit a catalog request in Employee Slate
 description: Save time in searching for catalog items and submitting requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-submit-request-employee-slate.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
-breadcrumb: [Employee experience in Employee Slate, Simplified IT Service Management, IT Service Management]
+breadcrumb: [Employee experience in Employee Slate, Employee experience, Simplified IT Service Management, IT Service Management]
 ---
 
 # Submit a catalog request in Employee Slate
@@ -30,7 +30,7 @@ Role required: none
 
 3.  View the generated answer.
 
-    For information about catalog items available in the base system, see [Catalog items installed with Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/catalog-items-base-system.md).
+    For information about catalog items available in the base system, see [Catalog items installed with Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/catalog-items-base-system.md).
 
     \[Omitted image "ai-native-view-answer-emp-slate.png"\] Alt text: View the generated answer in Employee Slate
 
@@ -43,5 +43,5 @@ Role required: none
     -   A requested item is created for a catalog item.
     -   A request is created for an order guide.
 
-**Parent Topic:**[Employee experience in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/employee-experience-using-employee-slate.md)
+**Parent Topic:**[Employee experience in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/employee-experience-using-employee-slate.md)
 

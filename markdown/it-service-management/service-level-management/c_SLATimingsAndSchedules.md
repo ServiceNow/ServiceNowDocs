@@ -3,11 +3,11 @@ title: SLA duration and schedules
 description: Schedules have an impact on the duration specified in an SLA definition.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/c\_SLATimingsAndSchedules.html
-release: australia
+release: brazil
 product: Service Level Management
 classification: service-level-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Level Management reference, Service Level Management, IT Service Management]
 ---
@@ -24,5 +24,5 @@ Consider a scenario where you select a duration of one day, which is 24 hours, a
 
 \[Omitted image "SLM\_SchDur.png"\] Alt text: Time distribution
 
-**Parent Topic:**[Service Level Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/service-level-management-reference.md)
+**Parent Topic:**[Service Level Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/service-level-management-reference.md)
 

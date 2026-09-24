@@ -3,11 +3,11 @@ title: Filter the Express List display using attributes
 description: Filter the Express List display by text, number, and date attributes using the interactive Express List filter panel. Create a targeted list of alerts to prioritize and focus on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/filter-attributes.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Filtering the alert display in the Express List pane, Set up your workspace, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---

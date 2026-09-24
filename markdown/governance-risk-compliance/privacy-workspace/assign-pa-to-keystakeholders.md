@@ -3,11 +3,11 @@ title: Enable key stakeholders to update processing activities directly
 description: Enable stakeholders to update processing activities directly from the Employee Center by assigning the activity to them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/assign-pa-to-keystakeholders.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -42,7 +42,7 @@ Processing activities must be in the Discover state to be assigned to a key stak
 
 6.  In the **Assign to key stakeholder** window, select a stakeholder.
 
-    **Note:** Only stakeholders with the **Edit processing activity and respond to privacy assessments** privilege are listed. To modify privileges, see [Add key stakeholders to a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/add-stakeholders-to-a-pa.md).
+    **Note:** Only stakeholders with the **Edit processing activity and respond to privacy assessments** privilege are listed. To modify privileges, see [Add key stakeholders to a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/add-stakeholders-to-a-pa.md).
 
 7.  Select **Assign**.
 
@@ -53,7 +53,7 @@ The assigned stakeholder receives an email notifying them of the processing acti
 
 ## What to do next
 
-[Send a privacy assessment from a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/send-privacy-asmt-from-pa.md)
+[Send a privacy assessment from a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/send-privacy-asmt-from-pa.md)
 
-**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
+**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 

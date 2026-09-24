@@ -3,11 +3,11 @@ title: Create Logical Connection with template subflow
 description: The Create Logical Connection with template subflow enables you to create a logical connection record from an inventory template in the Telecommunications Network Inventory application. The logical connection record is created based on the input that you receive when you instantiate an inventory using an inventory template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create-logical-connection-template-subflow.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Subflows, Reference, Telecommunications Network Inventory]
 ---
@@ -46,7 +46,7 @@ The following table lists the input fields in the Create Logical Connection with
 |A End Interface Name|Starting interface name.|String|
 |Z End Interface Name|Ending interface name.|String|
 
-To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/action-inputs-outputs.md).
+To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/action-inputs-outputs.md).
 
 ## Output
 
@@ -58,14 +58,14 @@ The following table lists the information about the subflow's output.
 |CI Relationship with Interface A|Returns the CI relationship with a starting network interface.|Reference.CI Relationship|
 |CI Relationship with Interface Z|Returns the CI relationship with an ending network interface.|Reference.CI Relationship|
 
-**Parent Topic:**[Telecommunications Network Inventory subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/subflow.md)
+**Parent Topic:**[Telecommunications Network Inventory subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/subflow.md)
 
 **Related topics**  
 
 
 [Logical Connection Creation subflow]()
 
-[Physical connection creation subflow]()
+[Physical Connection Creation subflow]()
 
 [Design Assign Connection Element Creation subflow]()
 

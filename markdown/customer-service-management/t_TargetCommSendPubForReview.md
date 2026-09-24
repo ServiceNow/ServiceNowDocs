@@ -3,9 +3,9 @@ title: Send a publication for review
 description: Send publications for review, either the author or administrators, from the Author stage, triggering a transition to the Review stage. Approvers are automatically added to the Approvers related list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_TargetCommSendPubForReview.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Targeted communications, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---

@@ -3,7 +3,7 @@ title: Configure the Employee Latest Performance Review report
 description: Set up the report to enable the Look up Employee Latest Performance Review action to fetch the latest performance review report.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/configure-employee-latest-performance-review-report.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task

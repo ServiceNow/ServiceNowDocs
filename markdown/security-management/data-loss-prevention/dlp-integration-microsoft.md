@@ -3,11 +3,11 @@ title: Data Loss Prevention Incident Response with Microsoft
 description: The Data Loss Prevention Incident Response with Microsoft provides a core framework to import Data Loss Prevention \(DLP\) incidents from multiple sources, such as Microsoft Purview apps, Microsoft Teams, Exchange Online, SharePoint Online, OneDrive for Business, and other event types.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/dlp-integration-microsoft.html
-release: australia
+release: brazil
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Integrate, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -42,24 +42,24 @@ Use the key features of this integration to do the following actions:
 |Microsoft product documentation website|[Microsoft Product Documentation website](https://learn.microsoft.com/en-us/microsoft-365/compliance/dlp-learn-about-dlp)|
 |ServiceNow product documentation website|[ServiceNow Product Documentation website](https://www.servicenow.com/docs)|
 
--   **[Getting started with Microsoft DLP IR integration for data loss prevention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/getting-started-microsoft-integration.md)**  
+-   **[Getting started with Microsoft DLP IR integration for data loss prevention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/getting-started-microsoft-integration.md)**  
 Review the following information before you start setting up your Microsoft DLP IR integration for data loss prevention.
--   **[Install and configure the Microsoft DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/install-configure-microsoft-dlp-integration.md)**  
+-   **[Install and configure the Microsoft DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/install-configure-microsoft-dlp-integration.md)**  
 Install and configure the  DLP Incident Response integration with Microsoft DLP from the  ServiceNow® Store on your  ServiceNow AI Platform instance. Start investigating DLP incidents using the  Microsoft DLP event data.
--   **[Create a new incident profile for Microsoft DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/create-profile-microsoft-dlp-integration.md)**  
+-   **[Create a new incident profile for Microsoft DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/create-profile-microsoft-dlp-integration.md)**  
 Create an incident profile in your  ServiceNow AI Platform instance to retrieve the data from the Microsoft Purview and add the data into the ServiceNow DLP IR incident table.
--   **[Configure Microsoft DLP IR integration settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/configure-microsoft-integration-settings.md)**  
+-   **[Configure Microsoft DLP IR integration settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/configure-microsoft-integration-settings.md)**  
 Modify the  Microsoft DLP IR  integration default system properties.
--   **[Request release email from quarantine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/request-email-from-quarantine.md)**  
+-   **[Request release email from quarantine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/request-email-from-quarantine.md)**  
 Use this feature to release the email that is quarantined from the Microsoft Purview compliance portal.
--   **[Download files for DLP incidents of type Exchange Online, OneDrive, and SharePoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/download-file-dlp-microsoft.md)**  
+-   **[Download files for DLP incidents of type Exchange Online, OneDrive, and SharePoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/download-file-dlp-microsoft.md)**  
 Download files or email that violates the DLP policy on Microsoft Purview. Download this file or email on to your local machine from the DLP IR Incident view. You can download the files for DLP IR incidents of type Scan source Exchange Online, OneDrive, and SharePoint.
--   **[Preview Evidence files for DLP incidents of type Exchange Online, OneDrive, and SharePoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/preview-file-dlp-microsoft.md)**  
+-   **[Preview Evidence files for DLP incidents of type Exchange Online, OneDrive, and SharePoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/preview-file-dlp-microsoft.md)**  
 Preview Data Loss Prevention Incident Response evidence files in the DLP IR Analyst workspace.
--   **[Domain separation in Microsoft DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/domain-separation-microsoft-dlp.md)**  
+-   **[Domain separation in Microsoft DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/domain-separation-microsoft-dlp.md)**  
 Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can then control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[DLP integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/dlp-integrations.md)
+**Parent Topic:**[DLP integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/dlp-integrations.md)
 
 **Related topics**  
 

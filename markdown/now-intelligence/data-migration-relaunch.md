@@ -3,9 +3,9 @@ title: Relaunch data migration
 description: Relaunch migration when Core UI content is changed after full data migration and when earlier unsupported functionality becomes supported in the Platform Analytics experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/data-migration-relaunch.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Perform full data migration, Platform Analytics Migration Center, Platform Analytics experience, Platform Analytics]
 ---
@@ -45,5 +45,5 @@ The changed and new content is migrated to Platform Analytics experience.
 
 ## What to do next
 
-Evaluate the newly migrated content. For more information, see [Evaluate full data migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/data-migration-evaluate.md).
+Evaluate the newly migrated content. For more information, see [Evaluate full data migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/data-migration-evaluate.md).
 

@@ -1,20 +1,20 @@
 ---
-title: Overwrite customizations for Software Asset Management Foundation plugin migration
-description: When migrating from the Software Asset Management plugin to the Software Asset Management Foundation plugin, further actions are required by the customer after plugin activation to ensure successful migration of customized forms and lists.
+title: Overwrite customizations for Basic Software Asset Management migration
+description: When migrating from the Software Asset Management plugin to the Basic Software Asset Management, further actions are required by the customer after plugin activation to ensure successful migration of customized forms and lists.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management-foundation-plugin/t\_MigrateSAMCustomSAMF.html
-release: australia
+release: brazil
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
-breadcrumb: [Software Asset Management Foundation plugin migration, Software Asset Management Foundation plugin Administration, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
+breadcrumb: [Basic Software Asset Management migration, Basic Software Asset Management Administration, Basic Software Asset Management, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
-# Overwrite customizations for Software Asset Management Foundation plugin migration
+# Overwrite customizations for Basic Software Asset Management migration
 
-When migrating from the Software Asset Management plugin to the Software Asset Management Foundation plugin, further actions are required by the customer after plugin activation to ensure successful migration of customized forms and lists.
+When migrating from the Software Asset Management plugin to the Basic Software Asset Management, further actions are required by the customer after plugin activation to ensure successful migration of customized forms and lists.
 
 ## Before you begin
 
@@ -38,13 +38,13 @@ Certain fields added by the migration also must be configured to take advantage 
 
 1.  Navigate to **All** &gt; **System Diagnostics** &gt; **Upgrade History**.
 
-2.  Identify the records that correspond to the upgrade history for the activation of the Software Asset Management Foundation plugin.
+2.  Identify the records that correspond to the upgrade history for the activation of the Basic Software Asset Management.
 
     The records in System Upgrades list that represent plugin activation contain the value **n/a** in the **From** field, and plugin name in the **To** field \(such as com.snc.samp, com.snc.samp.core, com.snc.sam.core, com.glide.data\_services\_canonicalization.client, com.snc.asset\_management, com.snc.model, com.snc.procurement\).
 
     You can determine the list of related plugins based on the time stamp of when the Software Asset Management plugin was activated by sorting on the **Upgrade started** column.
 
-3.  Open a Software Asset Management Foundation plugin upgrade record that has changes skipped.
+3.  Open a Basic Software Asset Management upgrade record that has changes skipped.
 
 4.  In the **Upgrade Details** related list, open an Upgraded Details record, and then click **Resolve Conflicts** to view a side-by-side comparison of the base system file with the customized file.
 
@@ -52,9 +52,9 @@ Certain fields added by the migration also must be configured to take advantage 
 
 6.  Repeat these steps for all upgrade entries with skipped changes relating to customizations.
 
-7.  In Software Asset Management Foundation plugin configuration, manually reconfigure your original form and list customizations.
+7.  In Basic Software Asset Management configuration, manually reconfigure your original form and list customizations.
 
-8.  In Software Asset Management Foundation plugin configuration, set new field values \(added as part of the automatic changes performed by plugin activation\) to take advantage of the new features offered.
+8.  In Basic Software Asset Management configuration, set new field values \(added as part of the automatic changes performed by plugin activation\) to take advantage of the new features offered.
 
     1.  Navigate to **Software Asset** &gt; **Licensing** &gt; **Software Models**.
 
@@ -72,5 +72,5 @@ Certain fields added by the migration also must be configured to take advantage 
 9.  If you have entitlements that require management of license keys, you can create multiple license keys associated to the same entitlement, as well as allocate these license keys to a user or device.
 
 
-**Parent Topic:**[Software Asset Management Foundation plugin migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/c_SAMMigrationSAMF.md)
+**Parent Topic:**[Basic Software Asset Management migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management-foundation-plugin/c_SAMMigrationSAMF.md)
 

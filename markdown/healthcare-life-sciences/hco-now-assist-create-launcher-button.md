@@ -3,12 +3,12 @@ title: Create a chat launcher button in Care Team Mobile
 description: Create a prominent action button that launches ServiceNow Otto chat or voice in the Care Team Mobile app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-now-assist-create-launcher-button.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, chat launcher button, voice assistant, Care Team Mobile, prominent action button]
-breadcrumb: [Configure, ServiceNow Otto for Care Team Operations, Healthcare and Life Sciences]
+breadcrumb: [Configure, ServiceNow Otto for Care Team Operations, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Create a chat launcher button in Care Team Mobile
@@ -19,8 +19,8 @@ Create a prominent action button that launches ServiceNow Otto chat or voice in 
 
 Role required: admin
 
--   Verify that ServiceNow Otto is enabled on your instance. For more information, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
--   Confirm that you have the appropriate permissions and licensing for AI voice capabilities, and that you have a ServiceNow Otto voice assistant created in Assistant Designer. For more information, see [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-an-ai-voice-service.md).
+-   Verify that ServiceNow Otto is enabled on your instance. For more information, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md).
+-   Confirm that you have the appropriate permissions and licensing for AI voice capabilities, and that you have a ServiceNow Otto voice assistant created in Assistant Designer. For more information, see [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-an-ai-voice-service.md).
 
 ## Procedure
 
@@ -66,5 +66,5 @@ The chat launcher button is created and configured as a prominent action button 
 
 ## What to do next
 
-[Assign the chat launcher to a Care Team Mobile assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-now-assist-assign-launcher-assistants.md).
+[Assign the chat launcher to a Care Team Mobile assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hco-now-assist-assign-launcher-assistants.md).
 

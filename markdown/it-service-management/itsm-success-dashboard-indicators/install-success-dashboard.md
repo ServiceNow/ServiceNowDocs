@@ -3,11 +3,11 @@ title: Install ITSM Success Dashboard indicators
 description: You can install the ITSM Success Dashboard indicators application \(sn\_sd\_itsm\) if you have the admin role. The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-success-dashboard-indicators/install-success-dashboard.html
-release: australia
+release: brazil
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, ITSM Success Dashboard indicators, IT Service Management]
 ---
@@ -45,5 +45,5 @@ Role required: admin
 5.  Select **Install**.
 
 
-**Parent Topic:**[Configuring ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/configure-success-dashboards.md)
+**Parent Topic:**[Configuring ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-success-dashboard-indicators/configure-success-dashboards.md)
 

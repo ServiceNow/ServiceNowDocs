@@ -3,11 +3,11 @@ title: Define security controls for an agentic workflow
 description: In the guided setup for an agentic workflow, define security controls for who can access the agentic workflow and what data the agentic workflow has access to.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/define-sec-controls-aw.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create an agentic workflow, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Create an agentic workflow, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Define security controls for an agentic workflow
@@ -22,7 +22,7 @@ Role required: sn\_aia.admin
 
 The **Define security controls** step is divided into two parts: **Define user access** and **Define data access**. The former creates an access control list \(ACL\) that determines which users can discover or invoke the agentic workflow. The latter defines the data that the agentic workflow has access to once it’s invoked.
 
-See [Security for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md) for more information about creating ACLs and user identities for security for agentic workflows.
+See [Security for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aia-security-implementation.md) for more information about creating ACLs and user identities for security for agentic workflows.
 
 ## Procedure
 
@@ -45,7 +45,7 @@ See [Security for AI agents](https://raw.githubusercontent.com/ServiceNow/Servic
 
     The two options are **Dynamic user** and **AI user**. The dynamic user is the user invoking the agentic workflow. An AI user is a dedicated user that has its own specified roles that allow access, which could be more than the dynamic user.
 
-    If you do not have an AI user but want to use the **AI user** identity, you need to create a new record on the User table. See [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUser.md). Select **AI user** as the identity type.
+    If you do not have an AI user but want to use the **AI user** identity, you need to create a new record on the User table. See [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAUser.md). Select **AI user** as the identity type.
 
     If you select **Dynamic user**, you can select the **Approved roles** that the AI agent runs with. By default, an AI agent runs as a dynamic user and has the roles of the invoking user. Select the approved roles to limit the data access that an AI agent could have. Role masking must be applied for all AI agents and agentic workflows set to run as dynamic users.
 
@@ -64,5 +64,5 @@ You have created an ACL that determines who can discover and access your agentic
 
 ## What to do next
 
-Select **Save and continue** to move to the next step, [Adding a trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-trigger-aw.md). Adding a trigger is optional. You can also skip to the final step, [Select channels and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/channels-access-aw.md).
+Select **Save and continue** to move to the next step, [Adding a trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-trigger-aw.md). Adding a trigger is optional. You can also skip to the final step, [Select channels and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/channels-access-aw.md).
 

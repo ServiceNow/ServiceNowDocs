@@ -3,9 +3,9 @@ title: Configure the SCCM integration and schedule an import
 description: Importing data from Microsoft SCCM requires a connection to the SCCM database via a JDBC data source and a schedule that tells the MID Server when to fetch the data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/configure-sccm-data-import.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Microsoft SCCM integration, ServiceNow provided integrations, Integration options, Integration with third-party applications and data sources, Integrations, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -53,5 +53,5 @@ The system uses the details of the database connection you create in this proced
     After the instance imports data using the **SCCM &lt;version&gt; Computer Identity** data source, the other data sources run in the order configured to retrieve the remainder of the SCCM data.
 
 
-**Parent Topic:**[Microsoft SCCM integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_MicrosoftSCCMIntegration.md)
+**Parent Topic:**[Microsoft SCCM integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_MicrosoftSCCMIntegration.md)
 

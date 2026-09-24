@@ -3,11 +3,11 @@ title: Create assigned groups
 description: Create assigned groups to limit the availability of the action to a specific group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/create-assigned-groups.html
-release: australia
+release: brazil
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage actions, Working with actions, Use, Automation Center, Workflow Data Fabric]
 ---
@@ -39,5 +39,5 @@ Role required: sn\_ac.automation\_technical\_user and sn\_ac.automation\_admin
 7.  Select **Save**.
 
 
-**Parent Topic:**[Manage actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/manage-actions.md)
+**Parent Topic:**[Manage actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/manage-actions.md)
 

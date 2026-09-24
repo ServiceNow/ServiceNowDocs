@@ -3,11 +3,11 @@ title: Create a record hierarchy
 description: Build a record hierarchy between records in the same table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/create-record-hierarchy.html
-release: australia
+release: brazil
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Building hierarchical queries, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -44,5 +44,5 @@ A record hierarchy based on the specified reference field is created. The Servic
 
 ## What to do next
 
-Build queries in condition builder using the \[is in hierarchy\] or \[is in hierarchy \(dynamic\)\] operators. See [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
+Build queries in condition builder using the \[is in hierarchy\] or \[is in hierarchy \(dynamic\)\] operators. See [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
 

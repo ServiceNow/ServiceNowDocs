@@ -1,19 +1,19 @@
 ---
 title: Agentic workflows, agents, and skills
-description: Build Agent can generate agentic workflows, agents, and skills scoped to your custom app. Turn business requirements into configured AI artifacts without building from scratch.
+description: Build Agent can generate agentic workflows, agents, and skills scoped to your custom app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ba-about-creating-in-app-agents.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Agentic workflows, agents, and skills
 
-Build Agent can generate agentic workflows, agents, and skills scoped to your custom app. Turn business requirements into configured AI artifacts without building from scratch.
+Build Agent can generate agentic workflows, agents, and skills scoped to your custom app.
 
 Verify that you have access to ServiceNow Studio or the ServiceNow IDE.
 
@@ -31,23 +31,20 @@ Build Agent supports the following tool creation:
     -   \*SubFlow
     -   WebSearch
 -   Agents:
-    -   Catalog item: For more information, see [Add a catalog item to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-catalog-ai-agent.md).
-    -   Conversational topic: For more information, see [Add a conversational topic to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-va-topic-ai-agent.md).
-    -   Flow action: For more information, see [Add a flow action to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-flow-action-ai-agent.md).
-    -   ServiceNow Otto Skill: For more information, see [Add a generative AI skill to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-skill-ai-agent.md).
-    -   Record operations: For more information, see [Add a record operation to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-database-op-ai-agent.md).
-    -   Script: For more information, see [Add a script to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-script-ai-agent.md).
-    -   \*\*Search retrieval: For more information, see [Add a search retrieval to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-retriever-ai-agent.md).
-    -   Subflow: For more information, see [Add a subflow to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-sub-flow-ai-agent.md).
-    -   WebSearch: For more information, see [Add a web search to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-web-search-ai-agent.md).
+    -   Catalog item: For more information, see [Add a catalog item to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-catalog-ai-agent.md).
+    -   Conversational topic: For more information, see [Add a conversational topic to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-va-topic-ai-agent.md).
+    -   Flow action: For more information, see [Add a flow action to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-flow-action-ai-agent.md).
+    -   ServiceNow Otto Skill: For more information, see [Add a generative AI skill to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-skill-ai-agent.md).
+    -   Record operations: For more information, see [Add a record operation to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-database-op-ai-agent.md).
+    -   Script: For more information, see [Add a script to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-script-ai-agent.md).
+    -   \*\*Search retrieval: For more information, see [Add a search retrieval to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-retriever-ai-agent.md).
+    -   Subflow: For more information, see [Add a subflow to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-sub-flow-ai-agent.md).
+    -   WebSearch: For more information, see [Add a web search to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-web-search-ai-agent.md).
 
 **Note:**
 
 1.  \*You can use only FlowActions and Subflows that are already part of your app scope. Build Agent reuses existing FlowActions and Subflows instead of creating new ones.
 2.  \*\*When you create an agent that requires knowledge retrieval, Build Agent can configure a search retrieval tool scoped to your use case. The tool queries your existing search profiles to identify the best match, retrieves the associated search sources and return fields, and checks whether semantic search indexes are available.
-
-    **Note:** You must be on Australia Patch 3 or higher to use the search retrieval tool.
-
 
 The agentic capability turns business requirements into fully configured agents, skills, and agentic workflows for custom applications. It first evaluates existing app context, such as tables, roles, business rules, and metadata. Then Build Agent applies a four-phase pattern to generate artifacts scoped to your application's data model, roles, and ACLs:
 
@@ -72,5 +69,5 @@ In-App agents can work with any custom scoped application. Applications with rea
 
 **Note:** Generated agents are automatically registered in AI Control Tower for centralized governance, and artifacts deploy through standard update sets.
 
-**Parent Topic:**[Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/use-build-agent.md)
+**Parent Topic:**[Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/use-build-agent.md)
 

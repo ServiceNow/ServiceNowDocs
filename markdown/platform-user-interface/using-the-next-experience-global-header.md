@@ -1,11 +1,11 @@
 ---
 title: Next Experience Unified Navigation
-description: Improved navigation to access records and data, check your notifications, and set your preferences in the Next Experience Unified Navigation.
+description: The Next Experience Unified Navigation provides controls for navigating your instance, accessing records and data, checking notifications, and setting your preferences.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/using-the-next-experience-global-header.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [unified navigation, navigation]
 breadcrumb: [Explore, Next Experience UI, Configure UIs and portals, Configure user experiences]
@@ -13,9 +13,9 @@ breadcrumb: [Explore, Next Experience UI, Configure UIs and portals, Configure u
 
 # Next Experience Unified Navigation
 
-Improved navigation to access records and data, check your notifications, and set your preferences in the Next Experience Unified Navigation.
+The Next Experience Unified Navigation provides controls for navigating your instance, accessing records and data, checking notifications, and setting your preferences.
 
-The Next Experience Unified Navigation runs across the top of every page and includes controls that help you in navigating your instance. Easily access your workspaces and classic environment, search your instance, and receive notifications.
+The Next Experience Unified Navigation appears at the top of every page and includes controls for navigating your instance. Access your workspaces and classic environment, search your instance, and receive notifications.
 
 Select the pin icon \[Omitted image "pol-nav-pin.png"\] Alt text: to pin a menu to the page.
 
@@ -57,7 +57,7 @@ Filter
 
 </td><td>
 
-Filter field to quickly navigate to the module you want. The search functionality accommodates missing letters in your queries. The default accuracy score can be updated by your administrator. For more information, see [Next Experience system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/pol-sys-properties.md).
+Filter field to quickly navigate to the module you want. The search functionality accommodates missing letters in your queries. The default accuracy score can be updated by your administrator. For more information, see [Next Experience system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/pol-sys-properties.md).
 
  For a list view, enter the table name in the format `name.list`, for example, sys\_properties.list.
 
@@ -77,7 +77,7 @@ All menu
 
 Lists all the menu items and modules in the instance.
 
- Select the refresh icon \[Omitted image "polaris-refresh-icon.png"\] Alt text: to obtain the latest menu items without the need to manually clear the cache.
+ Select the refresh icon \[Omitted image "polaris-refresh-icon.png"\] Alt text: to obtain the latest menu items without the need to manually clear the cache. get the latest menu items without clearing the cache.
 
 </td></tr><tr><td>
 
@@ -93,7 +93,7 @@ Items you have marked as favorites, for example, favorite workspaces, classic en
 
  Select the edit icon \[Omitted image "polaris-edit-icon.png"\] Alt text: to open the edit modal.
 
- For more information on adding and editing favorites, see [Managing your favorites in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/managing-your-favorites.md).
+ For more information on adding and editing favorites, see [Managing your favorites in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/managing-your-favorites.md).
 
 </td></tr><tr><td>
 
@@ -165,7 +165,7 @@ Globe
 
 </td><td>
 
-Select the scope of your instance and the scope of your update sets. You can also select the **Update set** option and select the Plus sign icon \[Omitted image "plus.png"\] Alt text: to create an update set. Any application scope other than Global displays a red circle icon \[Omitted image "icon-scope-changed.png"\] Alt text:.
+Select the scope of your instance and the scope of your update sets. You can also select the **Update set** option and select the plus sign icon \[Omitted image "plus.png"\] Alt text: to create an update set. Any application scope other than Global displays a red circle icon \[Omitted image "icon-scope-changed.png"\] Alt text:.
 
 </td></tr><tr><td>
 
@@ -177,7 +177,7 @@ ServiceNow Otto®
 
 </td><td>
 
-Enables you to address and resolve customer issues. The [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md) helps you generate summaries for records, chats, cases, or incidents, get help, and create resolution notes. Use the menu width button to toggle between standard and wide widths. Standard and wide widths are static values and the setting that you choose is retained.The ServiceNow Otto® panel is configured using the AI Admin Hub console.
+Enables you to address and resolve customer issues. The [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-overview.md) helps you generate summaries for records, chats, cases, or incidents, get help, and create resolution notes. Use the menu width button to toggle between standard and wide widths. Standard and wide widths are static values and the setting that you choose is retained.The ServiceNow Otto® panel is configured using the AI Admin Hub console.
 
 </td></tr><tr><td>
 
@@ -201,7 +201,7 @@ Sidebar discussions
 
 </td><td>
 
-Engage in real-time collaboration with others based around a Workspace task-based or interaction-based record. Sidebar discussions facilitate the exchange of information and knowledge to help resolve issues faster and with higher-quality outcomes.
+Engage in real-time collaboration with others based around a Workspace task-based or interaction-based record. Sidebar discussions support the exchange of information and knowledge to help resolve issues with higher-quality outcomes.
 
 </td></tr><tr><td>
 
@@ -213,7 +213,7 @@ Usage analytics
 
 </td><td>
 
-Access usage analytic data directly from your applications and web pages.
+Access usage analytics data directly from your applications and web pages.
 
 </td></tr><tr><td>
 
@@ -225,7 +225,7 @@ Help
 
 </td><td>
 
-The Help menu includes **Get help** and **What's new**. A blue dot indicates new updates. Use **Provide Feedback** to share feedback about the current page with ServiceNow®.
+The Help menu includes **Get help** and **What's new**. A blue dot indicates updates. Use **Provide Feedback** to share feedback about the current page with ServiceNow®.
 
 </td></tr><tr><td>
 
@@ -237,7 +237,7 @@ OpenFrame phone
 
 </td><td>
 
-OpenFrame lets you make and receive embedded, contextual calls. When calls are active, the phone icon displays a badge. For more information, see [OpenFrame overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_OpenFrameOverview.md).
+OpenFrame lets you make and receive embedded, contextual calls. When calls are active, the phone icon displays a badge. For more information, see [OpenFrame overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_OpenFrameOverview.md).
 
 </td></tr><tr><td>
 
@@ -263,10 +263,10 @@ User menu
 
 Menu items to personalize your instance. -   **Profile**: Your instance profile, which includes your personal information displayed in the instance.
 -   **Preferences**: Display, accessibility, notifications, and Workspace preferences.
--   **Keyboard shortcuts**: Display a modal with keyboard shortcuts that are specific to the screen you’re viewing. For more information on the keyboard shortcut modal, see [Next Experience keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-keyboard-shortcuts.md). The keyboard shortcuts modal can also be accessed using **Command+/** \(Mac\) or **Control+/** \(Windows\).
--   **Impersonate user**: Administrators can impersonate other authenticated users for testing purposes and view impersonation logs. For more information, see [Impersonating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ImpersonateAUser.md).
--   **Elevate role**: Designate any role as an elevated privilege role, and then assign that role to one or more users. Do this when you want to restrict users from having access to the rights that the role provides immediately after login.
--   **Printer friendly version**: A printer-friendly version of the current content frame.
+-   **Keyboard shortcuts**: Display a modal with keyboard shortcuts that are specific to the screen you're viewing. For more information on the keyboard shortcut modal, see [Next Experience keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-keyboard-shortcuts.md). The keyboard shortcuts modal can also be accessed using **Command+/** \(Mac\) or **Control+/** \(Windows\).
+-   **Impersonate user**: Administrators can impersonate other authenticated users for testing purposes and view impersonation logs. For more information, see [Impersonating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ImpersonateAUser.md).
+-   **Elevate role**: Designate any role as an elevated privilege role, and then assign that role to one or more users. Use this option to restrict users from having access to the rights that the role provides immediately after login.
+-   **Printer-friendly version**: A printer-friendly version of the current content frame.
 
 **Note:** The Printer-friendly version option is available in the classic environment but not in Workspace.
 

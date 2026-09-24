@@ -3,9 +3,9 @@ title: Manage synthetic monitors
 description: Edit or delete synthetic monitors after creating them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/manage-synthetic-monitors.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Synthetic monitoring, ITOM AIOps, IT Operations Management]
 ---
@@ -24,33 +24,33 @@ Role required: sn\_sow\_synthetics.synthetics\_editor
 
 2.  Follow these instructions to edit a monitor.
 
-<table id="choicetable_wmz_vv2_h2c"><thead><tr><th align="left" id="d316280e87">
+<table id="choicetable_wmz_vv2_h2c"><thead><tr><th align="left" id="d318292e81">
 
 Option
 
-</th><th align="left" id="d316280e90">
+</th><th align="left" id="d318292e84">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d316280e96">
+</th></tr></thead><tbody><tr><td id="d318292e90">
 
 **Edit multiple monitor configurations**
 
 </td><td>
 
-From the synthetic monitoring landing page, select one or more monitors and select **Edit**. See [Create and edit a synthetic monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitor.md).**Note:** Current values aren't shown in the fields. If you don't edit a field, the original values remain.
+From the synthetic monitoring landing page, select one or more monitors and select **Edit**. See [Create and edit a synthetic monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/create-synthetic-monitor.md).**Note:** Current values aren't shown in the fields. If you don't edit a field, the original values remain.
 
 If you want to edit properties other than credentials, location, or alert settings, you must edit a single monitor at a time from the **Details** tab.
 
-</td></tr><tr><td id="d316280e125">
+</td></tr><tr><td id="d318292e119">
 
 **Edit a single monitor configuration**
 
 </td><td>
 
-From the synthetic monitoring landing page, select a monitor to open it and then select the **Details** tab to edit. See [Create and edit a synthetic monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitor.md) for more information.
+From the synthetic monitoring landing page, select a monitor to open it and then select the **Details** tab to edit. See [Create and edit a synthetic monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/create-synthetic-monitor.md) for more information.
 
-</td></tr><tr><td id="d316280e147">
+</td></tr><tr><td id="d318292e141">
 
 **Delete monitors**
 
@@ -60,5 +60,5 @@ From the Synthetic monitoring landing page, choose one or more monitors to delet
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configuring synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configuring-synthetic-monitoring.md)
+**Parent Topic:**[Configuring synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/configuring-synthetic-monitoring.md)
 

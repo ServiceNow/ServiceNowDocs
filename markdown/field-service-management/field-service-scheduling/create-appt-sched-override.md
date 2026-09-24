@@ -3,11 +3,11 @@ title: Create an Appointment Schedule Override
 description: An appointment schedule override modifies default slot configurations for specific dates or scenarios, providing flexible appointment management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/create-appt-sched-override.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Advanced Appointment Booking, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
@@ -20,7 +20,7 @@ An appointment schedule override modifies default slot configurations for specif
 
 Role required: appointment\_booking\_admin
 
-Ensure that the Advanced Appointment Booking plugin is active. For more information, see [Activate Advanced Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/activate-adv-appt-booking.md).
+Ensure that the Advanced Appointment Booking plugin is active. For more information, see [Activate Advanced Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/activate-adv-appt-booking.md).
 
 Ensure you have already created an **Appointment Window** and a **Service configuration mapping**.
 

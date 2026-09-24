@@ -3,11 +3,11 @@ title: Approve a scenario
 description: Approve a scenario that aligns with your organizational goals and offers the best business outcomes to make the scenario your current plan.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/approve-a-scenario-in-strategic-planning.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Optimize planning with scenario planning, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Approve a scenario that aligns with your organizational goals and offers the bes
 
 ## Before you begin
 
-Ensure that you have compared the scenarios and selected the one you want to approve. For more information, see [Compare scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/compare-scenarios-in-strategic-planning.md).
+Ensure that you have compared the scenarios and selected the one you want to approve. For more information, see [Compare scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/compare-scenarios-in-strategic-planning.md).
 
 Role required:
 
@@ -55,4 +55,8 @@ When you approve a scenario:
     -   Enter a reason for approving the scenario in the Notes field.
 5.  Select **Approve**.
 
+
+## Result
+
+The scenario is approved, and a notification is sent to the scenario approver and portfolio owner.
 

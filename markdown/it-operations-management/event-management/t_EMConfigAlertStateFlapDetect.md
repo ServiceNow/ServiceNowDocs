@@ -3,11 +3,11 @@ title: Configure alert flapping
 description: Set flapping properties to determine when an alert enters and exits the flapping state. Flapping can indicate configuration problems \(that is, thresholds set too low\), troublesome services, or real network problems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMConfigAlertStateFlapDetect.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Alert lifecycle configuration, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -30,15 +30,15 @@ Flapping occurs when the event source continues to generate events even after it
 
 2.  Edit the following properties, as appropriate.
 
-<table id="choicetable_ofd_yxs_xtb"><thead><tr><th align="left" id="d608845e96">
+<table id="choicetable_ofd_yxs_xtb"><thead><tr><th align="left" id="d614274e96">
 
 Property
 
-</th><th align="left" id="d608845e99">
+</th><th align="left" id="d614274e99">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d608845e105">
+</th></tr></thead><tbody><tr><td id="d614274e105">
 
 **evt\_mgmt.update\_alert\_restricted\_fields\_elapsed\_time**
 
@@ -50,7 +50,7 @@ When the system receives events that do not update alerts, system fields are not
 
  If an identical event is received within this interval, the update is suppressed to avoid generating frequent, redundant notifications. By default, the interval is set to 86,400 seconds \(24 hours\).
 
-</td></tr><tr><td id="d608845e123">
+</td></tr><tr><td id="d614274e123">
 
 **evt\_mgmt.flap\_interval**
 
@@ -60,7 +60,7 @@ Flap interval, in seconds, which is the time period within which an alert enters
 
  An alert enters the flapping state when its current **Flap Count** value reaches or exceeds the given **evt\_mgmt.flap\_frequency** property value within the time period specified by the **__evt\_mgmt.flap\_interval__** property.
 
-</td></tr><tr><td id="d608845e148">
+</td></tr><tr><td id="d614274e148">
 
 **evt\_mgmt.flap\_frequency**
 
@@ -68,7 +68,7 @@ Flap interval, in seconds, which is the time period within which an alert enters
 
 Flap frequency, frequency an alert must reoccur to enter the flapping state.
 
-</td></tr><tr><td id="d608845e157">
+</td></tr><tr><td id="d614274e157">
 
 **evt\_mgmt.flap\_quiet\_interval**
 
@@ -86,14 +86,14 @@ Flap quiet interval \(in seconds\), quiet time that must pass for an alert to ex
 
 ## What to do next
 
-You can monitor the **Event Management** &gt; **All Alerts** list for alerts that are in the flapping state. For details, see [View alerts in the flapping state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMViewAlertFlapping.md).
+You can monitor the **Event Management** &gt; **All Alerts** list for alerts that are in the flapping state. For details, see [View alerts in the flapping state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMViewAlertFlapping.md).
 
-**Parent Topic:**[Alert lifecycle configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMAlertRule.md)
+**Parent Topic:**[Alert lifecycle configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/c_EMAlertRule.md)
 
 **Related topics**  
 
 
-[Work with flapping alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-handle-alerts-flapping.md)
+[Work with flapping alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/operator-handle-alerts-flapping.md)
 
-[View alerts in the flapping state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMViewAlertFlapping.md)
+[View alerts in the flapping state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMViewAlertFlapping.md)
 

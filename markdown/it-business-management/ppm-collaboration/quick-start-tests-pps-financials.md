@@ -3,11 +3,11 @@ title: Quick start tests for Project Portfolio Management
 description: Validate that Project Portfolio Management still works after you make any configuration change such as applying an upgrade or developing an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/ppm-collaboration/quick-start-tests-pps-financials.html
-release: australia
+release: brazil
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Project Portfolio Management reference, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -266,7 +266,7 @@ Validate project preference "close project milestone tasks when they change to w
 
 </td><td>
 
-Validate that milestone tasks are closed when their state is changed to Work in Progress. This test uses the project preference "close project milestone tasks when they change to work state".
+Validate that milestone tasks are closed when their state changes to Work in Progress. The project preference "close project milestone tasks when they change to work state" must be set.
 
 </td><td>
 
@@ -278,7 +278,7 @@ Validate project preference "Enable move project for WIP projects"
 
 </td><td>
 
-Validate that the project start date changes appropriately for a project in WIP state. This test uses the project preference "Enable move project for WIP projects".
+Validate that the project start date changes appropriately for a WIP project after setting the "Enable move project for WIP projects" preference.
 
 </td><td>
 
@@ -290,7 +290,7 @@ Validate project preference "Rollup project start date from tasks"
 
 </td><td>
 
-Validate that the start date of a project task does not roll up to the project. This test deselects the project preference "Rollup project start date from tasks" and verifies behavior when project planned dates differ from the project task start date.
+Validate that the project task start date does not roll up to the project after deselecting the "Rollup project start date from tasks" preference.
 
 </td><td>
 
@@ -315,7 +315,7 @@ Validate Planned start date of a project can be shifted by using the Move projec
 
 </td><td>
 
-Validate that the Planned start date can be updated to a later or earlier date using the Move project related link.
+Validate that the Planned start date can be updated to a later or earlier date using the Move project related link for projects in Planning or Open state.
 
 </td><td>
 
@@ -440,7 +440,7 @@ Verify aggregated cost of all resource plans roll up to the corresponding projec
 
 </td><td>
 
-Validate that the aggregated cost of all resource plans on a project or demand roll up to the Planned Cost and Allocated Cost fields. Verify that costs also roll up to the Resource Cost section of respective projects and demands.
+Validate that the aggregated cost of all resource plans on a project or demand roll up to the Planned Cost and Allocated Cost fields. Verify the costs also roll up to the Resource Cost section of respective projects and demands.
 
 </td><td>
 
@@ -542,7 +542,7 @@ Validate that actual hours in operational resource plan and time card are equal
 
 </td><td>
 
-Validate that when a time card category is mapped with an operational work type, the actual hours match between the resource plan and time card after submission.
+Validate that a time card category is mapped with an operational work type. On submitting the time card, verify that the actual hours in the resource plan and time card are equal.
 
 </td><td>
 
@@ -573,10 +573,10 @@ Validate that the resource plans associated with a project, project task, or dem
 Rome
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Project Portfolio Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/project-portfolio-management-reference.md)
+</table>**Parent Topic:**[Project Portfolio Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/project-portfolio-management-reference.md)
 
 **Related topics**  
 
 
-[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/quick-start-tests.md)
+[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/quick-start-tests.md)
 

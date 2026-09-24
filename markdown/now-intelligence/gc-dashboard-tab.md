@@ -3,9 +3,9 @@ title: General Counsel Dashboard pillars
 description: Organizing insights across these pillars enables legal leaders to streamline contract workflows, improve service responsiveness, maintain compliance, accelerate digital invoicing, and empower users through legal self-service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/gc-dashboard-tab.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [General Counsel \(GC\) Dashboard, Executive dashboard overview, Platform Analytics]
 ---

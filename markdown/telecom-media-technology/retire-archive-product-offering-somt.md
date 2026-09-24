@@ -3,9 +3,9 @@ title: Retire or archive a product offering version
 description: Move a published product offering version to a Retired or Archived state when it is no longer in use or being sold to your customers. When you retire a product offering version, you can't use it in a product catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/retire-archive-product-offering-somt.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Retire or archive versions, Product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---

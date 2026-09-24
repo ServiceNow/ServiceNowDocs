@@ -1,0 +1,42 @@
+---
+title: Remove the self-configured bot integration with Slack
+description: Remove the self-configured bot integration from your ServiceNow instance to disassociate the Slack app.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/remove-slack-self-config-integ.html
+release: brazil
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+keywords: [Remove, self-configured, bot, integration, Slack]
+breadcrumb: [Integrating a self-configured bot with Slack workspace, Integrate Virtual Agent with Slack, Slack, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
+---
+
+# Remove the self-configured bot integration with Slack
+
+Remove the self-configured bot integration from your ServiceNow instance to disassociate the Slack app.
+
+## Before you begin
+
+Roles required: virtual\_agent\_admin or admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Settings**.
+
+2.  In **General Settings** under **Channels and integrations**, select **View All**.
+
+3.  On the Channels and integration page, in the Slack tile, select **Manage**.
+
+4.  In the Manage Slack Channel page, find the self-configured bot integration to remove from your ServiceNow instance.
+
+5.  Select the manage bot icon \[Omitted image "manage-bot-icon.png"\], and then select **Remove integration**.
+
+    \[Omitted image "remove-self-bot-integration.png"\] Alt text: Remove integration option with self-configured bot.
+
+6.  When prompted to confirm your choice, select **Remove**.\[Omitted image "remove-slack-integ-success.png"\] Alt text: Banner message confirming remove self-configured bot integration with Slack.
+
+    The self-configured bot integration with Slack has been removed successfully.
+
+
+**Parent Topic:**[Integrating a self-configured bot with Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-integ-single-slack.md)
+

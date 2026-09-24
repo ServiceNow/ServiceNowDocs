@@ -3,11 +3,11 @@ title: Create KPI groups and mappings in Digital Portfolio Management
 description: Create key performance indicator \(KPI\) groups and mappings in Digital Portfolio Management \(DPM\) to monitor the overall health and progress of all your services and offerings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-create-kpi-groups.html
-release: australia
+release: brazil
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure KPI groups, Configure, Digital Portfolio Management, IT Service Management]
 ---
@@ -34,7 +34,7 @@ Create KPI groups and associate each group's type with its corresponding record.
 -   Enterprise portfolios
 -   Enterprise taxonomy nodes
 
-In addition to creating your own KPI groups, you can use and configure the KPI groups that come with the base DPM application. For details, see [KPI groups in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-kpi.md).
+In addition to creating your own KPI groups, you can use and configure the KPI groups that come with the base DPM application. For details, see [KPI groups in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-configure-kpi.md).
 
 This procedure includes the following tasks:
 
@@ -106,7 +106,7 @@ If selected, the KPI group displays in the Details section of the Enterprise Por
 </td></tr></tbody>
 </table>    4.  Select **Submit**
 
-        **Tip:** You can also create a KPI group by copying an existing KPI group. For more information, see [Copy a KPI group to create a new KPI group in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-copy-kpi-group.md).
+        **Tip:** You can also create a KPI group by copying an existing KPI group. For more information, see [Copy a KPI group to create a new KPI group in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-copy-kpi-group.md).
 
 2.  Add indicators to a KPI group.
 
@@ -163,7 +163,7 @@ Display Aggregate
 
 KPI display aggregate: Average or Sum.
 
-**Note:** This field applies when the latest score property \[sn\_dpm.kpi\_groups.show\_latest\_score\] is false. For information, see [Configure the Digital Portfolio Management experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-experience.md).
+**Note:** This field applies when the latest score property \[sn\_dpm.kpi\_groups.show\_latest\_score\] is false. For information, see [Configure the Digital Portfolio Management experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-configure-experience.md).
 
 </td></tr><tr><td>
 
@@ -246,12 +246,12 @@ Mapping type associated with the KPI group. Depending on which KPI Group you sel
 </td></tr></tbody>
 </table>    4.  Select **Submit**.
 
-**Parent Topic:**[Configure KPI groups in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-kpi-groups.md)
+**Parent Topic:**[Configure KPI groups in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-configure-kpi-groups.md)
 
 **Related topics**  
 
 
-[Configure KPI groups in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-kpi-groups.md)
+[Configure KPI groups in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-configure-kpi-groups.md)
 
-[Configure KPIs in Digital Portfolio Management with service availability example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-kpi-availability.md)
+[Configure KPIs in Digital Portfolio Management with service availability example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-configure-kpi-availability.md)
 

@@ -3,11 +3,11 @@ title: Network switch discovery using patterns
 description: The Discovery and Service Mapping Patterns application uses the Network Switch pattern to find network switches in your environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/network-switch-patterns.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -20,9 +20,9 @@ The Discovery and Service Mapping Patterns application uses the Network Switch p
 
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-To learn about network switches and their versions that you can discover, refer to [Detailed information on products discovered by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_SupportedApplications.md).
+To learn about network switches and their versions that you can discover, refer to [Detailed information on products discovered by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/r_SupportedApplications.md).
 
-For information on probe-based network switch and router discovery, see [Network switch and router discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoNWRouteAndSwitch.md).
+For information on probe-based network switch and router discovery, see [Network switch and router discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/r_DataCollDiscoNWRouteAndSwitch.md).
 
 ## Cisco Nexus Virtual Routing and Forwarding \(VRF\) data model
 
@@ -98,7 +98,7 @@ Disables running the SNMP – Routing pattern when discovering a router running 
         -   `sh hsrp br`
         -   `sh ip interface vrf all`
         -   `sh ipv6 interface vrf all`
-    -   Create SSH credentials for the Cisco Nexus user. For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+    -   Create SSH credentials for the Cisco Nexus user. For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 ## Discovering stacked switches
 
@@ -204,5 +204,5 @@ Discovery creates these relationships and references to support the network swit
 
 \* Populated for Cisco Nexus VRF discovery only.
 
-**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

@@ -3,13 +3,13 @@ title: View solution training progress
 description: View your solution training progress or statistics to determine if a solution is available, or how long the next training cycle might take to complete.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/view-training-progress.html
-release: australia
+release: brazil
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating and training solutions, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Creating and training solutions, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # View solution training progress
@@ -48,7 +48,7 @@ Solution training involves these steps.
 
 ## What to do next
 
-For classification solutions, see [Review classification solution statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/review-solution-statistics.md).
+For classification solutions, see [Review classification solution statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/predictive-intelligence/review-solution-statistics.md).
 
-For similarity solutions, see [Review similarity solution examples and scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/review-similarity-examples.md).
+For similarity solutions, see [Review similarity solution examples and scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/predictive-intelligence/review-similarity-examples.md).
 

@@ -3,11 +3,11 @@ title: View trigger logs
 description: Trigger logs show different levels of trigger malfunctions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/metricbase/view-trigger-logs.html
-release: australia
+release: brazil
 product: MetricBase
 classification: metricbase
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Trigger flows, MetricBase, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---

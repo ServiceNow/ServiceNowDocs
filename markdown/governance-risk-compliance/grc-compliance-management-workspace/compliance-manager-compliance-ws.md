@@ -3,11 +3,11 @@ title: Compliance Home page for the Compliance Manager
 description: The compliance manager home page in the Compliance Workspace gives a complete overview of the compliance posture of the organization. The workspace helps the compliance manager to centrally manage internal standards, policies, and control processes that match the external regulatory standards.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/compliance-manager-compliance-ws.html
-release: australia
+release: brazil
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Compliance Workspace, GRC Compliance workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---

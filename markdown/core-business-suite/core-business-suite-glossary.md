@@ -3,9 +3,9 @@ title: Core Business Suite terminology
 description: Glossary of terms used in the Core Business Suite documentation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/core-business-suite-glossary.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [glossary, Core Business Suite]
 breadcrumb: [Reference, Core Business Suite]
@@ -15,11 +15,11 @@ breadcrumb: [Reference, Core Business Suite]
 
 Glossary of terms used in the Core Business Suite documentation.
 
-**Parent Topic:**[Core Business Suite reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-reference-parent.md)
+**Parent Topic:**[Core Business Suite reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/cbs-reference-parent.md)
 
 ## Advanced Portal Navigation
 
-A navigation framework in Core Business Suite that provides an intuitive setup for the portal navigation structure of the employee portal. All employee portal request forms are accessible under Advanced Portal Navigation.
+A navigation framework in Core Business Suite that provides an intuitive portal navigation structure for the employee portal. All employee portal request forms are accessible under Advanced Portal Navigation.
 
 ## Assignment rule
 
@@ -27,7 +27,7 @@ A rule in Core Business Suite that defines when and how tasks are assigned to a 
 
 ## Business unit
 
-A functional department within an organization that is represented as a module in Core Business Suite. Business units include Human Resources, Workplace Services, Legal, Health and Safety, Workplace Services, Finance, and Procurement.
+A functional department within an organization that is represented as a module in Core Business Suite. Business units include Human Resources, Legal, Health and Safety, Workplace Services, Finance, and Procurement.
 
 ## CBS admin
 
@@ -39,7 +39,7 @@ A form in Core Business Suite used to define conditions that determine how the C
 
 ## CBS requester
 
-A requester role \[sn\_cbs.requestor\] in Core Business Suite that is enabled to submit requests for different services across business units.
+A requester role \[sn\_cbs.requestor\] in Core Business Suite that grants permission to submit requests for different services across business units.
 
 ## Configuration Console
 
@@ -47,13 +47,13 @@ The central interface in Core Business Suite where administrators configure busi
 
 ## Core Business Suite
 
-A collection of modules that unifies disjointed business processes and fulfills different business needs for different personas within a single product suite. Available in Core Business Suite Foundation, Core Business Suite Advanced, and Core Business Suite Prime subscription tiers.
+A collection of modules that unifies disjointed business processes and fulfills different business needs for different personas within a single product suite. Available in Foundation, Advanced, and Prime subscription tiers.
 
 ### CBS
 
 ## Default configurations
 
-Preconfigured settings in Core Business Suite that are applied automatically when apply default configurations is selected during installation. It include Now Assist Virtual Agent enablement and Employee Center or Employee Slate configuration settings such as taxonomy, navigation, home page layout, and quick links depending on your product entitlement.
+Preconfigured settings in Core Business Suite that are applied automatically when Apply default configurations is selected during installation. These include Now Assist Virtual Agent enablement and Employee Center configuration settings such as taxonomy, navigation, home page layout, and quick links.
 
 ## Employee Slate
 

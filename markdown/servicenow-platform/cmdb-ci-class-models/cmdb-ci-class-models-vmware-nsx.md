@@ -3,13 +3,13 @@ title: VMware NSX load balancer extension classes
 description: The CMDB CI Class Models app adds or updates classes for VMware NSX load balancers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-vmware-nsx.html
-release: australia
+release: brazil
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [CMDB CI class models, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB CI class models, CMDB hierarchy, Explore, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # VMware NSX load balancer extension classes
@@ -28,7 +28,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 NSX is a network virtualization solution offered by VMware. Among the virtual resources included in the NSX solution are virtual LANs \(VLANs\), virtual load balancers, virtual routers, switches, and firewalls.
 
-Discovery uses the [VMware NSX Advanced load balancer discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/vmware-nsx-lb-discovery.md) pattern to find VMware NSX load balancers and their components: Listeners, pools, pool members, and health services.
+Discovery uses the [VMware NSX Advanced load balancer discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/vmware-nsx-lb-discovery.md) pattern to find VMware NSX load balancers and their components: Listeners, pools, pool members, and health services.
 
 \[Omitted image "cmdb\_ci\_class\_model\_vmware\_nsx.png"\] Alt text: VMware NSX load balancer classes integrated with the CMDB class hierarchy.
 
@@ -36,7 +36,7 @@ Discovery uses the [VMware NSX Advanced load balancer discovery](https://raw.git
 
 This section lists the classes that the CMDB CI Class Models app adds or updates. See the class columns table for further details about the columns added for each class.
 
-CMDB CI Class Models: Release 1.10.0 adds the following classes for the VMware NSX load balancer. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
+CMDB CI Class Models: Release 1.10.0 adds the following classes for the VMware NSX load balancer. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
 
 |Class|Extends|Description|
 |-----|-------|-----------|
@@ -44,10 +44,10 @@ CMDB CI Class Models: Release 1.10.0 adds the following classes for the VMware N
 
 ## Class columns
 
-The [VMware NSX Advanced load balancer discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/vmware-nsx-lb-discovery.md) pattern introduces one new table with one identification rule and entry. The table uses only the columns inherited from its parent.
+The [VMware NSX Advanced load balancer discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/vmware-nsx-lb-discovery.md) pattern introduces one new table with one identification rule and entry. The table uses only the columns inherited from its parent.
 
 **Related topics**  
 
 
-[CMDB schema model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ConfigurationManagementDatabase.md)
+[CMDB schema model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_ConfigurationManagementDatabase.md)
 

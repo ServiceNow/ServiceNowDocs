@@ -3,7 +3,7 @@ title: Set up the ServiceNow University spoke
 description: Connect ServiceNow University with Coaching with Learning to pull courses from ServiceNow University into your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-now-learning-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -22,12 +22,12 @@ Connect ServiceNow University with Coaching with Learning to pull courses from S
 -   Activate the ServiceNow University spoke.
 -   Role required: admin.
 
--   Integrate Coaching with Learning with ServiceNow University. For more information, see [External Content Integration Sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/integration-source-coaching-with-learning-coaching-wfo-itsm.md).
+-   Integrate Coaching with Learning with ServiceNow University. For more information, see [External Content Integration Sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/integration-source-coaching-with-learning-coaching-wfo-itsm.md).
 -   Contact [nowlearningapi@servicenow.com](mailto:nowlearningapi_servicenow.com) to get your spoke credentials.
 
     **Note:** You must have an ITSM Enterprise license subscription to get your spoke credentials.
 
--   For more information on OAuth Credentials, see [OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/oauth-2-credentials.md).
+-   For more information on OAuth Credentials, see [OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/oauth-2-credentials.md).
 
 **Note:** If you are using an earlier version of the ServiceNow University spoke and want to upgrade to ServiceNow University spoke v1.1.1, you must delete the existing connection and credential records.
 
@@ -55,12 +55,12 @@ To delete the existing connection and credential record:
 
     -   To configure the default connection and credential alias record that is shipped along with the ServiceNow University spoke, click **View Details**.
 
-        \[Omitted image "image.now-learning-conf-temp"\] Alt text:
+        \[Omitted image "now-learning-conf-temp.png"\] Alt text:
 
-    -   To manage more than one ServiceNow University spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    -   To manage more than one ServiceNow University spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
-    \[Omitted image "image.now-learning-conf-temp2"\] Alt text:
+    \[Omitted image "now-learning-conf-temp2.png"\] Alt text:
 
 5.  On the form, fill in these fields:
 
@@ -145,7 +145,7 @@ Client Secret
 The Client Secret of the application registered in the third-party OAuth server. Contact [nowlearningapi@servicenow.com](mailto:nowlearningapi_servicenow.com) to get your client secret.
 
 </td></tr></tbody>
-</table>    \[Omitted image "image.now-learning-temp"\] Alt text:
+</table>    \[Omitted image "now-learning-temp.png"\] Alt text:
 
 6.  Click **Save and Get OAuth Token**.
 

@@ -3,9 +3,9 @@ title: Input team details into the Care team activities playbook
 description: Complete the Care teams playbook stage in the Care team activities playbook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-cta-assigned-teams.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Care team activities playbook, Care Team Work Management, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -33,5 +33,5 @@ Role required: sn\_cto.loc\_support\_agent and sn\_hco\_orc.plan\_author
 
 ## What to do next
 
-[Enter Schedule details in the Care team activities playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/ctwm-cta-schedule.md)
+[Enter Schedule details in the Care team activities playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/ctwm-cta-schedule.md)
 

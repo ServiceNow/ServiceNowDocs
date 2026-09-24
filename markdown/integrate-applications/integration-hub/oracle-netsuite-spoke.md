@@ -3,7 +3,7 @@ title: Oracle NetSuite Spoke
 description: Automate create, read, update, and delete \(CRUD\) record management operations in Oracle NetSuite from your ServiceNow instance by using the Oracle NetSuite spoke. It provides preconfigured actions, subflows, connection and credential aliases, and scripted REST APIs to do these operations.Also reuse this short description in the release notes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/oracle-netsuite-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
@@ -75,5 +75,5 @@ Integration Hub uses aliases to manage connection and credential information, an
 
 
 
-For information about setting up the spoke, see [Set up Oracle NetSuite Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-oracle-netsuite-spoke.md).
+For information about setting up the spoke, see [Set up Oracle NetSuite Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/set-up-oracle-netsuite-spoke.md).
 

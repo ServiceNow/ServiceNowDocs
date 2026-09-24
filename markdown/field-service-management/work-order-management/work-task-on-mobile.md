@@ -3,11 +3,11 @@ title: Start work on a work order task
 description: You can record both the time you begin traveling to the work site and the time you start the work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/work-task-on-mobile.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Prioritizing on ServiceNow Agent, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
@@ -24,7 +24,7 @@ Role required: wm\_agent or wm\_dispatcher
 
 Administrators can configure the **wm\_notification.upcoming.task.reminder.minutes.before** system property to set the number of minutes before which a task reminder is sent. By default, you receive a notification 45 minutes before the work start time.
 
-Administrators can enable push notifications in Studio. For information on setting up push notifications, see [Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-push-notifications.md).
+Administrators can enable push notifications in Studio. For information on setting up push notifications, see [Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mobile-push-notifications.md).
 
 ## Procedure
 
@@ -40,15 +40,15 @@ Administrators can enable push notifications in Studio. For information on setti
 
 5.  Perform any of the following actions.
 
-<table id="choicetable_jsf_24s_4fb"><thead><tr><th align="left" id="d151292e130">
+<table id="choicetable_jsf_24s_4fb"><thead><tr><th align="left" id="d154204e130">
 
 Option
 
-</th><th align="left" id="d151292e133">
+</th><th align="left" id="d154204e133">
 
 Details
 
-</th></tr></thead><tbody><tr><td id="d151292e139">
+</th></tr></thead><tbody><tr><td id="d154204e139">
 
 **To start traveling to the job site**
 
@@ -63,10 +63,10 @@ Perform one of the following actions:-   To record your travel start time using 
 **Note:**
 
     -   The **Sub state** and **Work agent status** are automatically updated as **On Route** to determine that you have started traveling to work on a task.
-    -   The **Start Travel** button transforms into**Check-In** before initiating check-in actions. The **Check-In** option is visible only when the `Enable/Disable Onsite Arrival Check-in for Agents` property is enabled. For more information, see [Global domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/t_ConfigureFieldService.md).
+    -   The **Start Travel** button transforms into**Check-In** before initiating check-in actions. The **Check-In** option is visible only when the `Enable/Disable Onsite Arrival Check-in for Agents` property is enabled. For more information, see [Global domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/t_ConfigureFieldService.md).
 
 
-</td></tr><tr><td id="d151292e213">
+</td></tr><tr><td id="d154204e213">
 
 **To check-in at job site before starting work**
 
@@ -74,12 +74,12 @@ Perform one of the following actions:-   To record your travel start time using 
 
 Tap **Check-In** after reaching the destination.**Note:**
 
--   The system checks geofence boundary. If you are offline, the system can bypass geofence check with confirmation and sets the status as "Offline Mode. Geofence could not be validated". For more information on the check-in process, see [Onsite arrival and check-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/onsite-arrival-and-check-in.md).
+-   The system checks geofence boundary. If you are offline, the system can bypass geofence check with confirmation and sets the status as "Offline Mode. Geofence could not be validated". For more information on the check-in process, see [Onsite arrival and check-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/onsite-arrival-and-check-in.md).
 -   The substate **Onsite Arrival** is automatically set, indicating that you have reached your travel destination for the work order task.
--   A notification is sent to the customer, informing them that the agent has arrived on-site and is ready to begin the work. For more information, see [Customer notifications for work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/Configuring-cust-exp.md).
+-   A notification is sent to the customer, informing them that the agent has arrived on-site and is ready to begin the work. For more information, see [Customer notifications for work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/Customer-notification-work-order-tasks.md).
 
 
-</td></tr><tr><td id="d151292e254">
+</td></tr><tr><td id="d154204e254">
 
 **To start directly working on the task with automatic check-in**
 
@@ -99,7 +99,7 @@ Perform one of the following actions:-   To record the work start time using the
 -   Tap **Quick Actions** and update your status to **On break** if you want to take a break from the task or **Off Shift** if you are out of your shift time.
 
 
-</td></tr><tr><td id="d151292e318">
+</td></tr><tr><td id="d154204e318">
 
 **To change the expected start or estimated end time for the task**
 
@@ -131,9 +131,9 @@ The following fields are updated in the work order task:
 **Related topics**  
 
 
-[Manage notifications from your mobile device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/notification-preference-settings.md)
+[Manage notifications from your mobile device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/notification-preference-settings.md)
 
-[Complete a questionnaire for work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/complete-questionnaire-mobile-app.md)
+[Complete a questionnaire for work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/complete-questionnaire-mobile-app.md)
 
-[Create a sales opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/create-opportunity.md)
+[Create a sales opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/create-opportunity.md)
 

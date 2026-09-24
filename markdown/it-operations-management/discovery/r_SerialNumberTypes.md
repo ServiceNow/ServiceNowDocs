@@ -3,11 +3,11 @@ title: Serial number types for identification
 description: As Discovery finds CIs, their serial numbers are listed in the Serial Number \[cmdb\_serial\_number\] table so they are easy to identify. Serial number types vary depending on the CI, as described in the following examples.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/r\_SerialNumberTypes.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Discovery identifiers, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -66,5 +66,5 @@ For SNMP, the mapping below is based on the code. Physical types of serial numbe
 'standard' : 'iso.org.dod.internet.private.enterprises.apc.products.hardware.ups.upsIdent.upsAdvIdent.upsAdvIdentSerialNumber'
 ```
 
-**Parent Topic:**[Discovery identifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryIdentifiers.md)
+**Parent Topic:**[Discovery identifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c_DiscoveryIdentifiers.md)
 

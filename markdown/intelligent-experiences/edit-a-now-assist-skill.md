@@ -1,19 +1,19 @@
 ---
-title: Edit an AI skill
-description: Edit the configuration of an AI skill to choose the inputs or triggers and the display location of the skill output.
+title: Edit a Now Assist skill
+description: Edit the configuration of a Now Assist skill to choose the inputs or triggers and the display location of the skill output.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/edit-a-now-assist-skill.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, Admin features, skill, edit, configuration, inputs, triggers]
-breadcrumb: [Using AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Using Now Assist Admin, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
-# Edit an AI skill
+# Edit a Now Assist skill
 
-Edit the configuration of an AI skill to choose the inputs or triggers and the display location of the skill output.
+Edit the configuration of a Now Assist skill to choose the inputs or triggers and the display location of the skill output.
 
 ## Before you begin
 
@@ -21,13 +21,13 @@ Role required: sn\_generative\_ai.nsa\_admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Skills**.
+1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features**.
 
-    If you’re already in the AI Admin Hub console, select the **AI Skills** tab.
+    If you’re already in the AI Admin Hub console, select the **Now Assist Admin Features** tab.
 
 2.  Select a workflow on the navigation panel, such as **Technology**.
 
-    Each workflow contains skill sets.
+    Each workflow contains feature sets.
 
 3.  On the feature card associated with the skill you'd like to edit, select **View details**.
 
@@ -52,7 +52,7 @@ Role required: sn\_generative\_ai.nsa\_admin
 
 ## Result
 
-The skill is activated with your preferred settings. You can now [install other plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md) or [activate other skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
+The skill is activated with your preferred settings. You can now [install other plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md) or [activate other skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
 
-**Parent Topic:**[Using AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-admin_0.md)
+**Parent Topic:**[Using Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/using-now-assist-admin_0.md)
 

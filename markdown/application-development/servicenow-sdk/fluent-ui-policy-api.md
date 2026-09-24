@@ -3,11 +3,11 @@ title: UI Policy API - ServiceNow Fluent
 description: The UI Policy API defines user interface \(UI\) policies \[sys\_ui\_policy\] that dynamically change the behavior of information on a form and control custom process flows for tasks.Create a UI policy sys\_ui\_policy to configure form behavior.Configure the actions \[sys\_ui\_policy\_action\] that the UI policy performs on fields.Configure the visibility of related lists \[sys\_ui\_policy\_rl\_action\] on a form for a UI policy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-sdk/fluent-ui-policy-api.html
-release: australia
+release: brazil
 product: ServiceNow SDK
 classification: servicenow-sdk
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 keywords: [servicenow fluent, fluent api, servicenow fluent, fluent api, servicenow fluent, fluent api, servicenow fluent, fluent api]
 breadcrumb: [ServiceNow Fluent API reference, Reference, ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
@@ -21,14 +21,14 @@ The UI Policy API defines user interface \(UI\) policies \[sys\_ui\_policy\] tha
 
 UI Policies can make fields mandatory, read-only, visible, hidden, or cleared when certain conditions are met. You can also use client scripts to perform all of these actions, but for faster load times use UI policies when possible.
 
-For general information about UI policies, see [Using UI policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUIPolicy.md).
+For general information about UI policies, see [Using UI policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAUIPolicy.md).
 
-**Parent Topic:**[ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/servicenow-fluent-api-reference.md)
+**Parent Topic:**[ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/servicenow-fluent-api-reference.md)
 
 **Related topics**  
 
 
-[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-fluent.md)
+[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-fluent.md)
 
 ## UiPolicy object
 
@@ -56,7 +56,7 @@ String or Number
 
 </td><td>
 
-Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-constructs.md).Format: `Now.ID['String' or Number]`
+Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/fluent-constructs.md).Format: `Now.ID['String' or Number]`
 
 </td></tr><tr><td>
 
@@ -168,7 +168,7 @@ String
 
 </td><td>
 
-A filter query that specifies the fields and values that must be true for users to access the object. For more information, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md). To set conditions using a script, use a client script instead.Conditions are only rechecked if a user manually changes a field on a form. If the change is made by a UI action, context menu action, or through the list editor, it isn’t evaluated.
+A filter query that specifies the fields and values that must be true for users to access the object. For more information, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md). To set conditions using a script, use a client script instead.Conditions are only rechecked if a user manually changes a field on a form. If the change is made by a UI action, context menu action, or through the list editor, it isn’t evaluated.
 
 </td></tr><tr><td>
 
@@ -238,7 +238,7 @@ Array
 
 </td><td>
 
-A list of field actions to apply if the conditions are met. For more information, see [actions array](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-ui-policy-api.md).
+A list of field actions to apply if the conditions are met. For more information, see [actions array](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/fluent-ui-policy-api.md).
 
 </td></tr><tr><td>
 
@@ -250,7 +250,7 @@ Array
 
 </td><td>
 
-A list of visibility controls for related lists. For more information, see [relatedListActions array](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-ui-policy-api.md).
+A list of visibility controls for related lists. For more information, see [relatedListActions array](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/fluent-ui-policy-api.md).
 
 </td></tr><tr><td>
 
@@ -324,7 +324,7 @@ Reference or String
 
 </td><td>
 
-Required. The variable identifier or name of the UI view \[sys\_ui\_view\] which applies, or the default view. To define a UI view, use the [Record API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/record-api-now-ts.md).To use the default view \(`default_view`\), you must import it:
+Required. The variable identifier or name of the UI view \[sys\_ui\_view\] which applies, or the default view. To define a UI view, use the [Record API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/record-api-now-ts.md).To use the default view \(`default_view`\), you must import it:
 
 ```javascript
 import { default_view } from '@servicenow/sdk/core'

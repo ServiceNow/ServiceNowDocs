@@ -3,11 +3,11 @@ title: Privacy Management home page
 description: The Privacy Management home page provides an overview of the complete privacy risk and compliance posture with details, such as the processing activity criticality score, privacy risk assessment status, privacy impact assessment status, control attestations, issues-specific status, and privacy cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/privacy-manager-dashboard.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Reporting, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,7 @@ The Privacy Management home page provides an overview of the complete privacy ri
 
 The home page is organized into four tabs: **Processing activity**, **Risk and compliance**, **Operations**, and **Privacy cases**.
 
-Use the **Explore** button to analyze privacy data in the workspace using natural language queries with AI Data Explorer. For information on installing, configuring, and using AI Data Explorer, see [Use AI to explore data with AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/ai-data-explorer.md).
+Use the **Explore** button to analyze privacy data in the workspace using natural language queries with AI Data Explorer. For information on installing, configuring, and using AI Data Explorer, see [Use AI to explore data with AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/ai-data-explorer.md).
 
 \[Omitted image "processing-activity-privacy-management-homepage.png"\] Alt text: Processing activity tab of the Privacy management dashboard.
 
@@ -151,5 +151,5 @@ Control assurance status across three areas.-   Attestations: Number of open and
 |Opened and closed cases in last 12 months|\[Omitted image "inline-data-vis-96px-line.png"\] Alt text: Data visualization line type - large|Trend of opened and closed cases over the last 12 months.|
 |Issues|\[Omitted image "inline-data-vis-96px-pie.png"\] Alt text: Data visualization pie type - large|Number of issues by priority, with counts for open, overdue, and due in 7 days.|
 
-**Parent Topic:**[Reporting for Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/reporting-prm.md)
+**Parent Topic:**[Reporting for Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/reporting-prm.md)
 

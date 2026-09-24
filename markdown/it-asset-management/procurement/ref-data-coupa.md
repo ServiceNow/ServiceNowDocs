@@ -3,11 +3,11 @@ title: Reference data synchronization
 description: For a successful integration of Coupa with Software Asset Management, you must synchronize the following reference data types on both the ServiceNow Procurement application and Coupa.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/procurement/ref-data-coupa.html
-release: australia
+release: brazil
 product: Procurement
 classification: procurement
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a requisition on Coupa through Procurement application, Integrating with Coupa, Integrating with external procurement applications, Procurement, Common applications, Asset Management]
 ---

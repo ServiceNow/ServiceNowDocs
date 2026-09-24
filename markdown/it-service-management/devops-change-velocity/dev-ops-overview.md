@@ -3,11 +3,11 @@ title: DevOps Change Velocity integrations
 description: Get an overview of how DevOps Change Velocity integrates with your external DevOps toolchain and the tools supported for this integration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/dev-ops-overview.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, DevOps Change Velocity, IT Service Management]
 ---
@@ -16,11 +16,11 @@ breadcrumb: [Explore, DevOps Change Velocity, IT Service Management]
 
 Get an overview of how DevOps Change Velocity integrates with your external DevOps toolchain and the tools supported for this integration.
 
-The DevOps Change Velocity integration with external tools is achieved by exposing REST endpoints to receive webhook notifications or direct REST calls from these tools in real-time. Additionally, DevOps Change Velocity enables importing of data from these tools using polling. DevOps API enables integration with any coding, planning, or orchestration tools. For more information, see [DevOps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/devops-api.md).
+The DevOps Change Velocity integration with external tools is achieved by exposing REST endpoints to receive webhook notifications or direct REST calls from these tools in real-time. Additionally, DevOps Change Velocity enables importing of data from these tools using polling. DevOps API enables integration with any coding, planning, or orchestration tools. For more information, see [DevOps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/devops-api.md).
 
 ## Supported tools
 
-The DevOps Change Velocity application provides connectors by default to connect the following commonly used DevOps tools to import data. If your tool isn’t included in this list, you can manually connect and configure an integration. See [User-created integrations in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-tool-integration.md).
+The DevOps Change Velocity application provides connectors by default to connect the following commonly used DevOps tools to import data. If your tool isn’t included in this list, you can manually connect and configure an integration. See [User-created integrations in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/dev-ops-tool-integration.md).
 
 <table id="table_qpj_y3v_shb"><thead><tr><th>
 
@@ -160,21 +160,21 @@ Additional extensions may be required for applications such as Jenkins or Azure 
 
     Use the **ServiceNow DevOps** extension on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ServiceNow.vss-services-servicenow-devops) if you plan to integrate your Azure DevOps pipeline with ServiceNow DevOps.
 
-    For more information, see [Use the ServiceNow DevOps extension for Azure DevOps and Azure DevOps custom actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/config-dev-ops-extensions-azure.md).
+    For more information, see [Use the ServiceNow DevOps extension for Azure DevOps and Azure DevOps custom actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/config-dev-ops-extensions-azure.md).
 
 -   **ServiceNow DevOps custom actions for GitHub Actions**
 
     Use the **ServiceNow DevOps** custom actions on [GitHub marketplace](https://github.com/marketplace?query=servicenow+devops) if you plan to integrate your GitHub workflows with ServiceNow DevOps.
 
-    For more information, see [GitHub Actions configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/github-actions-integration-with-devops.md).
+    For more information, see [GitHub Actions configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/github-actions-integration-with-devops.md).
 
 
-To start integrating DevOps Change Velocity with your toolchain, see [Integrating DevOps Change Velocity with third party tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/integrating-devops-change-with-third-party-tools.md).
+To start integrating DevOps Change Velocity with your toolchain, see [Integrating DevOps Change Velocity with third party tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/integrating-devops-change-with-third-party-tools.md).
 
-**Parent Topic:**[Exploring DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-landing-page.md)
+**Parent Topic:**[Exploring DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/dev-ops-landing-page.md)
 
 **Related topics**  
 
 
-[Getting started with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/setting-up-devops-change-velocity.md)
+[Getting started with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/setting-up-devops-change-velocity.md)
 

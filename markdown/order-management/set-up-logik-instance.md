@@ -3,9 +3,9 @@ title: Request a CPQ tenant
 description: Submit a support ticket on Now Support to request a CPQ instance for use with your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/set-up-logik-instance.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Logik.ai]
 breadcrumb: [Without guided setup, Set up CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
@@ -46,5 +46,5 @@ Role required: admin
 
 ## What to do next
 
-Connect the CPQ instance to your ServiceNow instance. See [Connect your instance with CPQ instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/connect-sn-instance-logik.md).
+Connect the CPQ instance to your ServiceNow instance. See [Connect your instance with CPQ instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/connect-sn-instance-logik.md).
 

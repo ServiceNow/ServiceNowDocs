@@ -3,11 +3,11 @@ title: Using Timeline in Investigation Canvas
 description: The Timeline feature of the Investigation Canvas within the Threat Intelligence Security Center \(TISC\) empowers analysts to visualize, create, and edit timeline events associated to entities during investigations. This capability significantly enhances the effectiveness of temporal analysis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-timeline-events.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Working with Investigation Canvas, Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -100,8 +100,8 @@ Role required: sn\_sec\_tisc.analyst
     -   These default events are not driven by configuration and they appear automatically based on the values populated in the observables record.
     -   If **First Seen** and **Last Seen** contain values, then the corresponding events are displayed on the Canvas without any additional setup.
 
--   **[Adding Timeline Events to the Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-add-timeline-events.md)**  
+-   **[Adding Timeline Events to the Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-add-timeline-events.md)**  
 Add timeline events to the investigation canvas by adding the related entities to the canvas.
 
-**Parent Topic:**[Working with Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-investigation-canvases.md)
+**Parent Topic:**[Working with Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-investigation-canvases.md)
 

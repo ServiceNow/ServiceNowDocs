@@ -3,11 +3,11 @@ title: Automating creating tag-based relationship mapping within API Insights
 description: You can configure and automate creating CMDB relationships between APIs and application services or business applications based on API tags.Establish relationships between APIs and application services by defining tag-based mapping rules for APIs available within the API Insights application.You can use a scheduled job to automatically create CMDB relationships between APIs and application services or business applications based on API tags.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/api-insights/api-insights-tag-reln-cmdb-admin.html
-release: australia
+release: brazil
 product: API Insights
 classification: api-insights
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [CMDB administrator tasks, Configure, API Insights, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -67,7 +67,7 @@ Tag-based mapping rules enable you to automatically create relationships between
 
 You can use a scheduled job to automatically create CMDB relationships between APIs and application services or business applications based on API tags.
 
-Scheduled jobs automate tasks that run at a specific time or on a recurring schedule. You need the admin role to configure and run a scheduled job. For more information on configuring a scheduled job, see [Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ScheduledJobs.md).
+Scheduled jobs automate tasks that run at a specific time or on a recurring schedule. You need the admin role to configure and run a scheduled job. For more information on configuring a scheduled job, see [Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ScheduledJobs.md).
 
 The **Tag based relationship mapping** scheduled job is available to schedule applying tag-based mapping rules between APIs and application services or business applications. By default, this job is inactive. As a user with the admin role, you can configure and activate it to run at regular intervals.
 

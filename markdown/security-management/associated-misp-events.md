@@ -3,9 +3,9 @@ title: Associated MISP events
 description: You can use the associated MISP events list view to view the events that have been created manually or automatically in the context of a security incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/associated-misp-events.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [MISP administration, MISP integration for Security Operations, Threat Intelligence integrations, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -63,7 +63,7 @@ Automatic Event Creation Profile
 Event creation profile that is used to create the automatic event.Click the profile to view the Automatic MISP Event Creation Profile.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[MISP administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/misp-administration.md)
+</table>**Parent Topic:**[MISP administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/misp-administration.md)
 
 **Related topics**  
 

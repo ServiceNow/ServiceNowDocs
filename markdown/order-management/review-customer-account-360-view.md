@@ -3,9 +3,9 @@ title: Review an account using the 360 View
 description: Review a customer or partner's account by using the 360 View in the Order Management application. You can track the service contracts of your customers or partners. You can also view customer and service orders, cases, products, and equipment to see how you can improve your customer service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/review-customer-account-360-view.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Reviewing customer or partner accounts, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -124,8 +124,8 @@ State
 
 </td><td>
 
-State of the product or service order. To learn more, see these two topics:-   [Customer order states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-state-values.md)
--   [Service order states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/service-order-mgt-state-values.md).
+State of the product or service order. To learn more, see these two topics:-   [Customer order states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-state-values.md)
+-   [Service order states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/service-order-mgt-state-values.md).
 
 
 </td></tr></tbody>
@@ -171,7 +171,7 @@ State
 
 </td><td>
 
-State of the customer service case. To learn more, see [Case states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_CustomerServiceCaseStates.md).
+State of the customer service case. To learn more, see [Case states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/r_CustomerServiceCaseStates.md).
 
 </td></tr></tbody>
 </table>7.  In the Product Inventory section, review the product inventory items for the selected account.
@@ -273,12 +273,12 @@ Name of the customer contact that is associated with the order. To view the deta
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Reviewing customer or partner accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reviewing-customer-accounts.md)
+**Parent Topic:**[Reviewing customer or partner accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/reviewing-customer-accounts.md)
 
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-order-management.md)
 

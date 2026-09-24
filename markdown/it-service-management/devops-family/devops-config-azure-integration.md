@@ -3,11 +3,11 @@ title: Azure DevOps pipeline tasks
 description: Use these tasks in your Azure DevOps pipeline to interact with the DevOps Config data model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/devops-config-azure-integration.html
-release: australia
+release: brazil
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 breadcrumb: [Integrating your pipeline in DevOps Config, DevOps Config, IT Service Management]
 ---
@@ -858,7 +858,7 @@ This task is required for agentless \(server\) jobs to automatically create a ch
 
 In DevOps Config, to associate multiple snapshots of the same changeset to a change request, use snapshot name and application name to track specific configuration data for a given application service.
 
-See [Accelerating your DevOps change process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md) for more information regarding the DevOps Change Acceleration feature.
+See [Accelerating your DevOps change process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md) for more information regarding the DevOps Change Acceleration feature.
 
 -   **Input variables \(related to DevOps Config\)**
 

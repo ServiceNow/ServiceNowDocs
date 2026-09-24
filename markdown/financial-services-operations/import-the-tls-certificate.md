@@ -3,9 +3,9 @@ title: Import the TLS Certificate
 description: The Verifi API endpoint is HTTPS-only. ServiceNow must trust the Verifi/Visa CA certificate chain to establish a secure connection. This section covers importing the certificate into the ServiceNow certificate store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/import-the-tls-certificate.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Verifi, Integrate, Financial Services Operations \(FSO\)]
 ---
@@ -70,5 +70,5 @@ Role required: admin
     Expired certificates will cause all API calls to fail with a TLS handshake error. Verifi certificates are subject to periodic renewal.
 
 
-**Parent Topic:**[Configuring Financial Services Operations Integration with Verifi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-financial-services-integration-with-verifi-cdrn.md)
+**Parent Topic:**[Configuring Financial Services Operations Integration with Verifi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-financial-services-integration-with-verifi-cdrn.md)
 

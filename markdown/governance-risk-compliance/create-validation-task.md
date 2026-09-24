@@ -3,9 +3,9 @@ title: Create a validation task
 description: Create a validation task by selecting a predefined validation template, assigning a validator, and setting a due date. This task defines the validation scope and responsibilities, preparing the model for formal validation and deployment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-validation-task.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Model Risk Management, Governance, Risk, and Compliance]
 ---
@@ -26,7 +26,7 @@ You can create a validation task for a model when it is in the Pre-deployment or
 
 1.  Navigate to **All** &gt; **Model Risk Workspace**.
 
-2.  Select the list icon \[Omitted image "list-icon-mrm.png"\] Alt text:.
+2.  Select the list icon \[Omitted image "list-icon.png"\] Alt text:.
 
 3.  Select the model for which you want to create a validation task.
 
@@ -43,7 +43,7 @@ You can create a validation task for a model when it is in the Pre-deployment or
 
 ## What to do next
 
-[Perform model validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/perform-model-risk-validation.md)
+[Perform model validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/perform-model-risk-validation.md)
 
-**Parent Topic:**[Using Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-mrm.md)
+**Parent Topic:**[Using Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/using-mrm.md)
 

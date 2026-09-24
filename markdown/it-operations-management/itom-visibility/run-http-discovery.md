@@ -3,11 +3,11 @@ title: Run discovery through an HTTP or HTTPS REST call
 description: Discovery can classify devices using the HTTP\(S\) protocol. You can create your own HTTP classifier to find devices and access them with Basic Auth credentials, rather than using SNMP or SSH credentials.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/run-http-discovery.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [HTTP device, Network device discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -191,5 +191,5 @@ If you don’t have other types of credentials that can find devices, such as Li
     \[Omitted image "http-classy-ecc-records.png"\] Alt text: HTTP classification ECC Queue records
 
 
-**Parent Topic:**[HTTP device discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/http-discovery.md)
+**Parent Topic:**[HTTP device discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/http-discovery.md)
 

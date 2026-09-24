@@ -3,11 +3,11 @@ title: Create a coverage specification
 description: Create a coverage specification in the Insurance claims application so that you can outline the scope and limits of the protection that is provided by an insurance policy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/creating-a-coverage-specification.html
-release: australia
+release: brazil
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Coverage specification, Setting up the policy data for Insurance claims, Configure, Insurance claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -75,5 +75,5 @@ For example, if the coverage specification is travel coverage, then you can sele
 
 ## What to do next
 
-Link the coverage types and coverage type options to the coverage specification that you created. For more information, see [Link the coverage types and coverage options to a coverage specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/linking-coverage-types-and-coverage-options-to-a-coverage-specification.md).
+Link the coverage types and coverage type options to the coverage specification that you created. For more information, see [Link the coverage types and coverage options to a coverage specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/insurance-claims/linking-coverage-types-and-coverage-options-to-a-coverage-specification.md).
 

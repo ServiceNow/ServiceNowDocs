@@ -3,11 +3,11 @@ title: Properties installed with Collaborative Work Management
 description: System properties that you can configure to include other ServiceNow AI Platform records in CWM Docs and modify the way non-CWM users request access to the workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/properties-installed-with-cwm.html
-release: australia
+release: brazil
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -141,5 +141,5 @@ Property to enforce field-level access control on native CWM tables when data is
 -   Role needed: sn\_cwm.cwm\_user
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Collaborative Work Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/reference-cwm.md)
+</table>**Parent Topic:**[Collaborative Work Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/reference-cwm.md)
 

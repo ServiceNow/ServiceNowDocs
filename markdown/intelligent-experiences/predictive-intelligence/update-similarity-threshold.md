@@ -3,13 +3,13 @@ title: Update your similarity score threshold
 description: After you review the similarity examples provided by the system, update your solution similarity score threshold if you want the results returned by the solution to be more or less similar.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/update-similarity-threshold.html
-release: australia
+release: brazil
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create and train a similarity solution, Creating and training solutions, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Create and train a similarity solution, Creating and training solutions, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Update your similarity score threshold
@@ -18,7 +18,7 @@ After you review the similarity examples provided by the system, update your sol
 
 ## Before you begin
 
--   Review your similarity examples and their scores. For more information see [Review solution similarity examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/review-similarity-examples.md).
+-   Review your similarity examples and their scores. For more information see [Review solution similarity examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/predictive-intelligence/review-similarity-examples.md).
 -   Role required: ml\_admin or admin
 
 ## About this task

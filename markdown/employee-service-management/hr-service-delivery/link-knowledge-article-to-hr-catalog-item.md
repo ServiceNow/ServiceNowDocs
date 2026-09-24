@@ -3,12 +3,12 @@ title: Link knowledge articles or managed documents to an HR catalog item
 description: Link knowledge articles or managed documents to an HR catalog item so that employees can refer to the articles or documents when requesting the service through the HR service catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/link-knowledge-article-to-hr-catalog-item.html
-release: australia
+release: brazil
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [HR catalog item configuration, HR service catalog management, HR services, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
@@ -53,9 +53,15 @@ For the link to display on the HR catalog item, make sure the item has a variabl
     The knowledge article will display under the **Related Knowledge Documents** section when employees open the HR catalog item in the HR catalog.
 
 
-**Parent Topic:**[HR catalog item configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-catalog-item-configuration.md)
+**Parent Topic:**[HR catalog item configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/hr-catalog-item-configuration.md)
 
-**Previous topic:**[Edit the HR case template for an HR catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/edit-hr-case-template-for-hr-catalog-item.md)
+**Previous topic:**[Edit the HR case template for an HR catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/edit-hr-case-template-for-hr-catalog-item.md)
 
-**Next topic:**[HR fulfillment instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-fulfillment-instructions.md)
+**Next topic:**[HR fulfillment instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/hr-fulfillment-instructions.md)
+
+**Parent Topic:**[HR catalog item configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/hr-catalog-item-configuration.md)
+
+**Previous topic:**[Edit the HR case template for an HR catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/edit-hr-case-template-for-hr-catalog-item.md)
+
+**Next topic:**[HR fulfillment instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/hr-fulfillment-instructions.md)
 

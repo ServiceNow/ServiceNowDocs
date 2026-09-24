@@ -3,9 +3,9 @@ title: Translation values for mobile element
 description: Use this reference to find which values to use to translate your mobile elements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-translation-reference.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Server-side localization, Localization, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -31,5 +31,5 @@ Use this reference to find which values to use to translate your mobile elements
 
 This example shows a translation record for an applet called **My Tasks** translated into Spanish.\[Omitted image "mobile-translate-example.png"\] Alt text: Translation record example.
 
-**Parent Topic:**[Server-side localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/localization-server-side.md)
+**Parent Topic:**[Server-side localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/localization-server-side.md)
 

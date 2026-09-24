@@ -3,11 +3,11 @@ title: Customize Case Insights Ask AI button system properties
 description: Update the Case Insights Ask AI button system properties to control the drop-down and quick questions displayed on the CSM Case Insights section in your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/customize-ask-ai-system-properties.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-05-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]

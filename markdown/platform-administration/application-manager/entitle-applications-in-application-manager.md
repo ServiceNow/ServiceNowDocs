@@ -3,11 +3,11 @@ title: Entitle an application
 description: Entitle an application from your ServiceNow AI Platform instance if the application has been purchased but not yet linked to the instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/application-manager/entitle-applications-in-application-manager.html
-release: australia
+release: brazil
 product: Application Manager
 classification: application-manager
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Installing apps, plugins, and products, Application Manager, Administering applications, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -37,5 +37,5 @@ Role required: admin
 
 The application is entitled and can be installed.
 
-**Parent Topic:**[Installing applications, plugins, and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/installing-apps-app-manager.md)
+**Parent Topic:**[Installing applications, plugins, and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/application-manager/installing-apps-app-manager.md)
 

@@ -3,7 +3,7 @@ title: Activate the CMDB MCP Server
 description: Enable AI agents and other clients to securely access data and perform actions using the Model Context Protocol \(MCP\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-mcp-server.html
-release: australia
+release: brazil
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: task
@@ -19,6 +19,8 @@ Enable AI agents and other clients to securely access data and perform actions u
 
 ## Before you begin
 
+Before activating the CMDB MCP Server, confirm the following requirements are met.
+
 Role required:
 
 |MCP endpoint|Role required|
@@ -32,7 +34,7 @@ Role required:
 
 ## About this task
 
-For an overview of the MCP Server and its supported clients and tools, see [CMDB MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-mcp-server-c.md).
+For an overview of the MCP Server and its supported clients and tools, see [CMDB MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-mcp-server-c.md).
 
 ## Procedure
 
@@ -40,17 +42,17 @@ For an overview of the MCP Server and its supported clients and tools, see [CMDB
 
 2.  On the Servers page of the Configuration console, select the **CMDB MCP Server** card and then select **Activate**.
 
-3.  To control access to the server, set up OAuth credentials using the Inbound Integrations feature as described in [Inbound integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/inbound-integrations.md).
+3.  To control access to the server, set up OAuth credentials using the Inbound Integrations feature as described in [Inbound integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/inbound-integrations.md).
 
-    For instructions on connecting an MCP client to the server, see [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/connect-mcp-server-client.md).
+    For instructions on connecting an MCP client to the server, see [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/connect-mcp-server-client.md).
 
 
-**Parent Topic:**[Configuring ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-configuring.md)
+**Parent Topic:**[Configuring ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-configuring.md)
 
 **Related topics**  
 
 
-[CMDB MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-mcp-server-c.md)
+[CMDB MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-mcp-server-c.md)
 
-[CMDB MCP Server tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-mcp-server-ref.md)
+[CMDB MCP Server tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-mcp-server-ref.md)
 

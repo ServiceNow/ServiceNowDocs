@@ -3,13 +3,13 @@ title: NLU to LLM migration log
 description: The Topic Migration Execution Items \[topic\_migration\_execution\_item.list\] table includes data when migrating Natural Language Understanding \(NLU\) topics to large language model \(LLM\) topics such as the migration status, migration issues, and migrated or published topic information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/llm-topic-migration-error-log.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Migrating NLU/keyword Virtual Agent topics to LLM topics, Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Migrating NLU topics to LLM, Build conversations, Virtual Agent, Conversational Interfaces]
 ---
 
 # NLU to LLM migration log
@@ -195,5 +195,5 @@ Process failure issues: These issues occur whenever there's an error during a pa
 No. The issue must be corrected before the topic can be published. Edit the description field on the Publish step or from the topic properties page in an Virtual Agent Designer topic before publishing.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Migrating NLU/keyword Virtual Agent topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/llm-topic-migration.md)
+</table>**Parent Topic:**[Migrating NLU/keyword Virtual Agent topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/llm-topic-migration.md)
 

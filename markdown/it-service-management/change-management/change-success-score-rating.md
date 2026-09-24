@@ -3,11 +3,11 @@ title: Configure success score rating
 description: Based on the change success score rating, a color and text is associated that is displayed as part of the Change Success Score card. By default, four success score ratings are available with a specific score range.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/change-success-score-rating.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Change success score, Configure, Change Management, IT Service Management]
 ---
@@ -45,11 +45,11 @@ You can choose to modify the score range, color, introduce, or modify new rating
 
     |Action|Procedure|
     |------|---------|
-    |**To add a new score range**|Click **New** and fill in the range details and the color you want to associate and submit.|
-    |**To modify the existing range**|Open the rating, and click the **here** link in the record information message to modify the values.|
+    |**To add a new score range**|Select **New** and fill in the range details and the color you want to associate and submit.|
+    |**To modify the existing range**|Open the rating, and select the **here** link in the record information message to modify the values.|
 
 3.  Select **Update**.
 
 
-**Parent Topic:**[Change success score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-success-score.md)
+**Parent Topic:**[Change success score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-success-score.md)
 

@@ -3,13 +3,13 @@ title: Pause a Drop off task or Receive task for enterprise assets
 description: Record a break from a Drop off or Receive task in the Enterprise Asset Workspace if you’re not continuing to work on it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/pause-dropoff-repair-eam.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Record time worked on Drop off and Receive tasks, Delivering enterprise assets, Managing work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
+breadcrumb: [Record time worked on Drop off and Receive tasks, Delivering enterprise assets, Manage work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Pause a Drop off task or Receive task for enterprise assets
@@ -51,7 +51,7 @@ You can resume the task when you start working on it again. The system automatic
 
 Each time you pause or resume work on the task, the actual time you worked on the task is automatically calculated. An entry for the time worked is created in the Time Worked tab.
 
-**Parent Topic:**[Record time worked on Drop off and Receive tasks for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/record-time-drop-receive.md)
+**Parent Topic:**[Record time worked on Drop off and Receive tasks for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/record-time-drop-receive.md)
 
 **Related topics**  
 

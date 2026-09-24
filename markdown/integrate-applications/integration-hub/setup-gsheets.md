@@ -3,7 +3,7 @@ title: Set up the Google Sheet spoke
 description: Set up an outbound integration between your ServiceNow instance and the Google Sheets by setting up a connection and credential record.Set up an OAuth application on the Google Sheets API to enable authentication of requests from your ServiceNow instance.Create a connection and credential record that contains the details required to connect to the Google Sheets Application Programming Interfaces \(API\) on the Google Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-gsheets.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -24,7 +24,7 @@ Set up an outbound integration between your ServiceNow instance and the Google S
 
 ## About this task
 
-The Google Sheets API authenticates the requests from your ServiceNow instance through an OAuth application. You must [Set up OAuth app on Google Sheets API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-gsheets.md) by visiting the [https://console.developers.google.com/](https://console.developers.google.com/). The connection and credentials record contains the information the Google Sheets API must authenticate the requests from your ServiceNow instance.
+The Google Sheets API authenticates the requests from your ServiceNow instance through an OAuth application. You must [Set up OAuth app on Google Sheets API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-gsheets.md) by visiting the [https://console.developers.google.com/](https://console.developers.google.com/). The connection and credentials record contains the information the Google Sheets API must authenticate the requests from your ServiceNow instance.
 
 ## Set up OAuth app on Google Sheets API
 
@@ -178,7 +178,7 @@ Create a connection and credential record that contains the details required to 
 
 ### Before you begin
 
--   Create an OAuth application for the Google Sheets APIs in the Google Workspace. To learn how to create an OAuth application, see [Set up OAuth app on Google Sheets API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-gsheets.md).
+-   Create an OAuth application for the Google Sheets APIs in the Google Workspace. To learn how to create an OAuth application, see [Set up OAuth app on Google Sheets API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-gsheets.md).
 -   Role required: admin
 
 ### Procedure

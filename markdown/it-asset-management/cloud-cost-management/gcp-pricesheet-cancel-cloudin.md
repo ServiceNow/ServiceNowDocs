@@ -3,11 +3,11 @@ title: Cancel a GCP Price sheet download job in Cloud Cost Management
 description: An GCP Price sheet download job downloads price sheet data from Google Cloud Platform \(GCP\). You can cancel any Price sheet download job individually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/gcp-pricesheet-cancel-cloudin.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Schedule and manage the Cloud Cost Management jobs that download Google Cloud price sheets, Configure Cloud Cost Management for Google Cloud, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---

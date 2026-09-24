@@ -3,11 +3,11 @@ title: Regulatory alerts
 description: Regulatory alerts are an aggregation of different regulatory events and documents that are sourced from multiple regulatory intelligence providers. Similar to web feeds, a regulatory alert is a record of these regulatory changes. Such changes are frequently updated, and the alerts help you stay informed about the regulatory landscape.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/regulatory-feeds.html
-release: australia
+release: brazil
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Regulatory Change Management Core UI, Use, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -72,16 +72,16 @@ The alert records that are marked as not applicable must be cleaned at regular i
 
 Similarly, registry file records that have been processed can be cleaned at specified time intervals.
 
--   **[Perform actions on regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/perform-actions-reg-event-feeds.md)**  
+-   **[Perform actions on regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/perform-actions-reg-event-feeds.md)**  
 Perform various actions on unassigned and other types of regulatory alerts. For example, you can assign an unassigned alert, initiate impact assessment on an alert, and mark an alert as applicable, among other actions.
--   **[Add an AI-recommended citation to a regulatory alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/add-recommended-citations-to-a-regulatory-alert.md)**  
+-   **[Add an AI-recommended citation to a regulatory alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/add-recommended-citations-to-a-regulatory-alert.md)**  
 Add an AI-recommended citation to a regulatory alert by using the GRC: Predictive Intelligence application.
--   **[Manage and assign regulatory event alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/manage-regulatory-feeds.md)**  
+-   **[Manage and assign regulatory event alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/manage-regulatory-feeds.md)**  
 Assign regulatory event alerts that are received from the regulatory intelligence provider to an appropriate user. You can review other properties of the regulatory event alert.
--   **[Train and use the similarity solution to recommend citations on regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/retrain-ml-reg-compliance-mapping.md)**  
+-   **[Train and use the similarity solution to recommend citations on regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/retrain-ml-reg-compliance-mapping.md)**  
 Train and use the machine learning solution by activating the Governance, Risk, and Compliance Predictive Intelligence plugin. The solution enables the system to automatically recommend correct citations on regulatory alerts to associate.
--   **[Manage and assign source document alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/manage-source-document-feeds.md)**  
+-   **[Manage and assign source document alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/manage-source-document-feeds.md)**  
 Assign source document alerts that are received from the regulatory intelligence provider to an appropriate user. You can review other properties of the source document alert.
 
-**Parent Topic:**[Regulatory Change Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/using-rcm-classic-ui.md)
+**Parent Topic:**[Regulatory Change Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/using-rcm-classic-ui.md)
 

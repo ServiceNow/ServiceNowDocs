@@ -3,11 +3,11 @@ title: Key Management Framework key life-cycle states
 description: KMF supports several cryptographic key life-cycle states through the enforcement of specific allowable actions. For example, only keys that are in the active state can be used fully for their intended cryptographic purpose. The following table provides further detail on the varying key life-cycle states.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/key-life-cycle-states.html
-release: australia
+release: brazil
 product: Platform Encryption
 classification: platform-encryption
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Key Management Framework Reference, Key Management Framework, Encryption]
 ---
@@ -114,7 +114,7 @@ Suspended
 There could be several keys in the suspended state for a given cryptographic specification in a cryptographic module. When the key is suspended, the key can be resumed and reassigned to an active state when no other active key exists for that cryptographic specification.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Key Management Framework Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/understanding-kmf.md)
+</table>**Parent Topic:**[Key Management Framework Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platform-encryption/understanding-kmf.md)
 
 **Related topics**  
 

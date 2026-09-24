@@ -3,11 +3,11 @@ title: Linux discovery
 description: Discovery and Service Mapping applications use probes and patterns to discover and map information about Linux computers and servers. The information is populated in the CMDB. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r\_DataCollDiscoLinuxComputers.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 keywords: [Patterns, Discovery, Linux]
 breadcrumb: [Operating systems discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
@@ -97,7 +97,7 @@ Linux Server
 
 ^These probes remain active by default, even when Discovery uses pattern discovery.
 
-To use patterns, verify that the correct pattern is specified in the horizontal pattern probe on the classifier. See [Add the Horizontal Pattern probe to a classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for instructions.
+To use patterns, verify that the correct pattern is specified in the horizontal pattern probe on the classifier. See [Add the Horizontal Pattern probe to a classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for instructions.
 
 ## Request new or enhanced Patterns on the ServiceNow® Store
 
@@ -108,21 +108,21 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 Before running a discovery, you must verify that all the required configurations are complete.
 
 -   **Verify the plugins installation and activation**
-    -   [Plugins or applications installed with ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/plugin-app-itom-visibility.md)
-    -   [Install Discovery and Service Mapping Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/install-discovery-service-mapping-patterns.md)
-    -   [Install Visibility Content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/install-itom-visibility-global-content.md)
+    -   [Plugins or applications installed with ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/plugin-app-itom-visibility.md)
+    -   [Install Discovery and Service Mapping Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/install-discovery-service-mapping-patterns.md)
+    -   [Install Visibility Content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/install-itom-visibility-global-content.md)
 -   **Verify the required credentials configuration**
 
-    Configure the credentials by the required SSH permissions. Discovering sensitive Linux data may require a user with appropriate sudo privileges to run the sudo commands. To configure the required sudo privileges, modify the `/etc/sudoers` file to include the commands that Discovery needs. For `/etc/sudoers` line examples for each command, see [Privileged SSH commands for probe-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-ssh-command-require-priv.md).
+    Configure the credentials by the required SSH permissions. Discovering sensitive Linux data may require a user with appropriate sudo privileges to run the sudo commands. To configure the required sudo privileges, modify the `/etc/sudoers` file to include the commands that Discovery needs. For `/etc/sudoers` line examples for each command, see [Privileged SSH commands for probe-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-ssh-command-require-priv.md).
 
     For more information about the commands that require a user with elevated rights, refer to the following documents.
 
-    -   [Commands that require root privileges for Discovery, Orchestration, and Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
-    -   For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
+    -   [Commands that require root privileges for Discovery, Orchestration, and Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
+    -   For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
 
-    -   [MID Server privileged commands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_PrivilegedCommandsForMIDServer.md)
-    -   [View Patterns commands through the Discovery Patterns module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/view-command-pattern-discovery.md)
-    -   [Validate commands used in pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/validate-discovery-commands.md)
+    -   [MID Server privileged commands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_PrivilegedCommandsForMIDServer.md)
+    -   [View Patterns commands through the Discovery Patterns module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/view-command-pattern-discovery.md)
+    -   [Validate commands used in pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/validate-discovery-commands.md)
     SSH private key credentials are preferable over SSH password credentials for security reasons.
 
 -   **Configure PermitTTY for SSH sessions**
@@ -133,27 +133,27 @@ Before running a discovery, you must verify that all the required configurations
 
     For detailed information, see:
 
-    -   [Test MID Server connectivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ValidateNetworkConnectivity.md)
-    -   [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerProperties.md)
+    -   [Test MID Server connectivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_ValidateNetworkConnectivity.md)
+    -   [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_MIDServerProperties.md)
 -   **Verify the configuration of the discovery schedule**
 
-    For information on creating a discovery schedule, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
+    For information on creating a discovery schedule, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
 
     Define IP ranges so that only the specified network adapters and their primary IP addresses are used during Linux discovery. You can configure **Quick Ranges** by entering comma-separated IPv4 address ranges or single IPv6 address.
 
-    Alternatively, you can use the **network\_adapter\_exclusion\_list** property to limit Linux discovery to specific network adapters and their primary IP addresses. For more information, see [Omit network adapter secondary IP addresses in Linux discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/omit-adapter-secondary-ip-linux.md).
+    Alternatively, you can use the **network\_adapter\_exclusion\_list** property to limit Linux discovery to specific network adapters and their primary IP addresses. For more information, see [Omit network adapter secondary IP addresses in Linux discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/omit-adapter-secondary-ip-linux.md).
 
 -   **\(Optional\) Populate Virtual Machine Object field in Hardware \[cmdb\_ci\_hardware\] table**
 
-    Starting with Discovery and Service Mapping Patterns version 1.30.2, you can improve query performance by populating the Virtual Machine Object field in the Hardware \[cmdb\_ci\_hardware\] table. For more information, see [Improved query performance with direct field population in CI tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/query-service-account-ldc-fields.md).
+    Starting with Discovery and Service Mapping Patterns version 1.30.2, you can improve query performance by populating the Virtual Machine Object field in the Hardware \[cmdb\_ci\_hardware\] table. For more information, see [Improved query performance with direct field population in CI tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/query-service-account-ldc-fields.md).
 
 -   **Set the preferred IP address version for network adapter discovery**
 
-    Starting with Visibility Content version 6.32.0, if your network adapters support both IPv4 and IPv6, the IPv4 address is populated by default in the IP address \[ip\_address\] field on the Network Adapter \[cmdb\_ci\_network\_adapter\] table. To control which IP version is populated, see [Set the preferred IP version for network adapter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/set-network-adapter-preferred-ip.md).
+    Starting with Visibility Content version 6.32.0, if your network adapters support both IPv4 and IPv6, the IPv4 address is populated by default in the IP address \[ip\_address\] field on the Network Adapter \[cmdb\_ci\_network\_adapter\] table. To control which IP version is populated, see [Set the preferred IP version for network adapter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/set-network-adapter-preferred-ip.md).
 
 -   **Configure the serial number type**
 
-    Starting with Visibility Content version 6.35.0, you can populate a specific serial number type instead of the first available one. For more information, see [Configure the serial number type for Linux Server discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/configure-linux-serial-number-type.md).
+    Starting with Visibility Content version 6.35.0, you can populate a specific serial number type instead of the first available one. For more information, see [Configure the serial number type for Linux Server discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/configure-linux-serial-number-type.md).
 
 
 ## Data collected
@@ -204,7 +204,7 @@ The Linux classifier triggers probes that perform the discovery. Several probes 
 
 \* The value in the **disk\_space** field is an aggregation of the total capacity \(to include used space\) for all non-removable disks, including both directly attached and SAN storage.
 
-\*\* Starting with Visibility Content version 6.32.0, for network adapters that support both IPv4 and IPv6, the IPv4 address is populated by default. Before this release, the populated value was selected randomly. To control which IP version is populated, see [Set the preferred IP version for network adapter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/set-network-adapter-preferred-ip.md).
+\*\* Starting with Visibility Content version 6.32.0, for network adapters that support both IPv4 and IPv6, the IPv4 address is populated by default. Before this release, the populated value was selected randomly. To control which IP version is populated, see [Set the preferred IP version for network adapter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/set-network-adapter-preferred-ip.md).
 
 **Note:** Make sure to define unique serial numbers for the RAMs on the Linux server.
 

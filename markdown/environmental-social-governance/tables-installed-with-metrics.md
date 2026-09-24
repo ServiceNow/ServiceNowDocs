@@ -3,9 +3,9 @@ title: Components installed with the GRC: Metrics application
 description: When the Operational Sustainability Management application is activated, the GRC: Metrics application is automatically installed. The GRC: Metrics application adds several tables, properties, and roles that are listed here.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/tables-installed-with-metrics.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [GRC: Metrics reference, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -371,5 +371,5 @@ The scheduled jobs installed with the GRC: Metrics application run automatically
 |com.glide.event\_manager.grc\_metrics\_queue.even.load.distribution.enabled|Is used to distribute the events in the 'grc\_metric\_queue' queue equally between two worker threads.|500|
 |com.glide.event\_manager.grc\_metrics\_queue.claim\_limit|Defines the maximum number of events that one worker thread can claim from the event queue.|true|
 
-**Parent Topic:**[GRC: Metrics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/grc-metrics-reference.md)
+**Parent Topic:**[GRC: Metrics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/grc-metrics-reference.md)
 

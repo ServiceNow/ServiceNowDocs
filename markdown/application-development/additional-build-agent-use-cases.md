@@ -3,11 +3,11 @@ title: Build Agent use cases
 description: Use Build Agent for a wide range of development scenarios beyond application creation, including app analysis, modernization, documentation, governance, and learning assistance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/additional-build-agent-use-cases.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-08-20"
-reading_time_minutes: 5
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -37,16 +37,20 @@ Use Build Agent to refine application development ideas and capture structured r
 
 Use the following scenarios to identify specific ways to apply Build Agent in your development workflow.
 
+-   **Specification-driven implementation with Autonomous Engineer**
+
+    Provide requirements as a prompt or a file upload. Build Agent interviews you to resolve ambiguity, queries your instance for existing artifacts, and generates a plan with work items in an Agile user story format. After you approve the plan, Build Agent builds all work items in parallel in the background, generates and runs Automated Test Framework \(ATF\) tests, and produces an update set on completion. For more information, see [Autonomous Engineer in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-autonomous-engineer.md).
+
 -   **Playbook authoring**
 
-    Use Build Agent to author Playbook Designer artifacts through a conversation. As of Australia Patch 6, you can have Build Agent do the following for playbooks that it generates:
+    Use Build Agent to author Playbook Designer artifacts through a conversation. You can have Build Agent do the following for playbooks that it generates:
 
     -   Generate runtime permissions at the playbook and stage levels
     -   Define on-demand launcher configurations
     -   Create optional activities scoped globally or to a specific stage
     -   Configure Set Playbook Outputs activity definitions for nested playbooks
     -   Set Agentic activity fields on form-based and record-based activities
-    For details on using playbooks with Build Agent, see [Supported metadata in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-supported-metadata.md). For more information on using playbooks, see [Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md).
+    For details on using playbooks with Build Agent, see [Supported metadata in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent-supported-metadata.md). For more information on using playbooks, see [Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/process-automation-designer.md).
 
 -   **App gap analysis**
 
@@ -163,6 +167,24 @@ Enhance \(modifications, reviewable before promotion\)
 
 </td></tr><tr><td>
 
+Implement \(specification-driven, parallel execution\)
+
+</td><td>
+
+Provide requirements as a prompt or file and let Autonomous Engineer generate and build a full plan
+
+</td><td>
+
+-   Review, edit, and approve work items before execution to align the plan with your standards
+-   Use agent packs to implement custom applications on your instance.
+
+</td><td>
+
+-   Compress multi-month implementation timelines to hours by executing all work items in parallel with automated ATF test generation and self-healing
+-   Export the completed update set and deploy to UAT or production
+
+</td></tr><tr><td>
+
 Build \(new development on non-production\)
 
 </td><td>
@@ -181,5 +203,5 @@ Build \(new development on non-production\)
 -   Build from design mockups or a detailed PRD, complete with automated test coverage from day one
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-build-agent.md)
+</table>**Parent Topic:**[Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/exploring-build-agent.md)
 

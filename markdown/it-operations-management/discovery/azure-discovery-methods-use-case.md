@@ -3,11 +3,11 @@ title: Azure cloud discovery methods and use cases
 description: Comparison of use cases and requirements for cloud discovery methods in Azure.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/azure-discovery-methods-use-case.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Discovery for Microsoft Azure, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---

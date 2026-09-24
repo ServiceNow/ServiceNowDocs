@@ -3,11 +3,11 @@ title: Create consumable models
 description: Consumables are items that are tracked as a group, not individually. An example of consumable items is computer keyboards.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/product-catalog/t\_CreatingConsumableModels.html
-release: australia
+release: brazil
 product: Product Catalog
 classification: product-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Models, Product Catalog, Common applications, Asset Management]
 ---
@@ -28,12 +28,12 @@ Role required: model\_manager
 
 3.  Complete the form.
 
-    For general field descriptions, see [Model form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/r_ModelFormFields.md). There are no fields specific to consumable models.
+    For general field descriptions, see [Model form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/product-catalog/r_ModelFormFields.md). There are no fields specific to consumable models.
 
     Any consumable assets you create and assign to the new model are displayed in the **Consumables** related list on the model record.
 
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_Models.md)
+**Parent Topic:**[Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/product-catalog/c_Models.md)
 

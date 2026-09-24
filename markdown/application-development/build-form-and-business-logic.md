@@ -3,9 +3,9 @@ title: Build form and business logic
 description: The next step in designing an application is to build logic. Logic includes form logic \(what people can and cannot see/use on a form\) and business logic \(rules that govern what happens to data when it is entered\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/build-form-and-business-logic.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Build your application, Exploring professional development, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -16,7 +16,7 @@ The next step in designing an application is to build logic. Logic includes form
 
 ## Agentic AI
 
-Create applications with help from agentic AI. For more information, see [Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/use-ai-capabilities-in-custom-apps.md).
+Create applications with help from agentic AI. For more information, see [Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/use-ai-capabilities-in-custom-apps.md).
 
 ## Scripting and modifications
 
@@ -57,12 +57,12 @@ A script where only the **Active** flag is changed will be updated, but the scri
 
 Rather than copying and deactivating the original artifact, edit the artifact directly. The ServiceNow Upgrade Engine will add the latest version to the version history and report that the artifact was skipped. Developers can see a new version is available with the upgrade.
 
--   **[Form logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-logic.md)**  
+-   **[Form logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-logic.md)**  
 Controlling what users see when they visit a form can increase productivity and responsiveness. For example, users should only see fields that are useful to them. Users may only need to see certain fields based on what is configured on the form. Apply form logic to control what is visible, read-only, and mandatory on a form.
--   **[Business rules and script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/business-rules-and-script-includes.md)**  
+-   **[Business rules and script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/business-rules-and-script-includes.md)**  
 Business rules are server-side actions that can be run during CRUD \(Create, Read, Update, Delete\) operations on instance records.
--   **[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md)**  
+-   **[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/flow-designer.md)**  
 Flow Designer is a ServiceNow AI Platform feature that enables rich process automation capabilities in a consolidated design environment. Flow Designer enables process owners to use natural language to automate approvals, tasks, notifications, and record operations without having to code.
 
-**Parent Topic:**[Build your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-your-application.md)
+**Parent Topic:**[Build your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-your-application.md)
 

@@ -3,11 +3,11 @@ title: Limit collected SCOM alerts to specific SCOM groups
 description: Limit the collection of SCOM alerts to only those alerts that belong to the specified SCOM group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMAssignRoleSCOMGroup.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure alert collection from SCOM, Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -39,5 +39,5 @@ Role required: evt\_mgmt\_admin
 
 Only alerts from the specified SCOM group arrive at the instance.
 
-**Parent Topic:**[Configure alert collection from SCOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureSCOMConnectorInstance.md)
+**Parent Topic:**[Configure alert collection from SCOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMConfigureSCOMConnectorInstance.md)
 

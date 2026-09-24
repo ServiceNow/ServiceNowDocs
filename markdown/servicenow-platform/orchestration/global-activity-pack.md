@@ -3,11 +3,11 @@ title: Global activities
 description: Global activities are Orchestration activities created in the global scope.The Test Server Alive activity determines if a target system is alive by its response to a particular protocol.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/global-activity-pack.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Orchestration activity packs, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,13 +20,13 @@ Any activities you create in the global scope are listed in the Global category 
 
 \[Omitted image "GlobalPacks.png"\] Alt text: Global activity pack
 
-**Parent Topic:**[Orchestration activity packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchestrationActivityPacks.md)
+**Parent Topic:**[Orchestration activity packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_OrchestrationActivityPacks.md)
 
 ## Test Server Alive activity
 
 The Test Server Alive activity determines if a target system is alive by its response to a particular protocol.
 
-This activity replaces an activity by the same name available in releases prior to Istanbul. If you have a workflow created in a previous version that uses the deprecated activity, your workflow will continue to work normally after upgrading to Istanbul. However, all new workflows must use the custom version of this activity. This activity was built with the [Probe activity template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAProbeActivity.md), which gives workflow administrators the ability to store input and output variables in the [databus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchestrationDatabus.md).
+This activity replaces an activity by the same name available in releases prior to Istanbul. If you have a workflow created in a previous version that uses the deprecated activity, your workflow will continue to work normally after upgrading to Istanbul. However, all new workflows must use the custom version of this activity. This activity was built with the [Probe activity template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/t_CreateAProbeActivity.md), which gives workflow administrators the ability to store input and output variables in the [databus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_OrchestrationDatabus.md).
 
 ### Input variables
 

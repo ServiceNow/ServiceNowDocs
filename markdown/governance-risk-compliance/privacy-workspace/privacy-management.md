@@ -3,11 +3,11 @@ title: Privacy Management
 description: Use the Governance, Risk, and Compliance: Privacy Management application to help protect your customers, employees, and suppliers with integrated data privacy risk and compliance management solutions and privacy by design concepts​.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/privacy-management.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Governance, Risk, and Compliance]
 ---
@@ -20,23 +20,23 @@ The Privacy Management application helps you to manage multiple privacy regulati
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how privacy managers, privacy users, and privacy administrators use the Privacy Management application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/explore-privacy-management.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how privacy managers, privacy users, and privacy administrators use the Privacy Management application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/explore-privacy-management.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure your Privacy Management application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/configure-privacy-mgmt.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure your Privacy Management application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/configure-privacy-mgmt.md)
 
 </td><td>
 
-[Use \[Omitted image "bus-manage.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md) Work on creating privacy assessments, processing activities and so on.
+[Use \[Omitted image "bus-manage.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md) Work on creating privacy assessments, processing activities and so on.
 
 </td></tr><tr><td>
 
-[Analytics and Reporting \[Omitted image "bus-infographic.svg"\] Alt text: Highlight the privacy records with dashboards and reports.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/reporting-prm.md)
+[Analytics and Reporting \[Omitted image "bus-infographic.svg"\] Alt text: Highlight the privacy records with dashboards and reports.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/reporting-prm.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-profile.svg"\] Alt text: Get details about components like tables and roles.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/privacy-mgmt-reference.md)
+[Reference \[Omitted image "bus-profile.svg"\] Alt text: Get details about components like tables and roles.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/privacy-mgmt-reference.md)
 
 </td><td>
 

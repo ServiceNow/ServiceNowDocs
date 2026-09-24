@@ -3,9 +3,9 @@ title: Grandfathered and exempted tables
 description: Grandfathered and exempted custom tables are treated differently than other custom tables on your instance. Refer to your organization’s ServiceNow contract for additional information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/grandfathered-and-exempt-tables-v2.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing custom tables and apps, Subscription Management, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -22,7 +22,7 @@ Grandfathered custom tables can't be transferred, reused, or otherwise classifie
 
 To view your grandfathered tables, enter `ua_custom_table_inventory.list` in the filter navigator, and then add a filter with the condition **\[Allotment type\] \[is\] \[Grandfather\]**.
 
-If you have a combination of custom tables and grandfathered tables in one application, the grandfathered tables must be mapped to a grandfathered table subscription and the remaining custom tables to one other subscription. Reach out to Customer Service and Support for help mapping a grandfathered table to a grandfather table subscription.
+If you have a combination of custom and grandfathered tables in one application, the grandfathered tables must be mapped to a grandfathered table subscription. The remaining custom tables to one other subscription. Reach out to Customer Service and Support for help mapping a grandfathered table to a grandfather table subscription.
 
 ## Grandfathered tables on an instance
 
@@ -37,7 +37,7 @@ Scenario: Your organization purchases three new subscriptions with entitlements 
 
 ## Exempted tables
 
-Exempted tables are custom tables that do not count towards your subscription entitlements. These tables consist mostly of custom extensions of certain system-related tables, such as sys\_portal\_page and sys\_user\_preference, that you extend for operational improvements in your production instance.
+Exempted tables are custom tables that don't count toward your subscription entitlements. These tables consist mostly of custom extensions of certain system-related tables, such as sys\_portal\_page and sys\_user\_preference, that you extend for operational improvements in your production instance.
 
 To view a list of exempted tables, enter `ua_exempted_table_inventory.list` in the filter navigator.
 
@@ -47,5 +47,5 @@ The [Custom Table Guide legal schedule](https://www.servicenow.com/content/dam/s
 
 To find past versions of the Custom Table Guide, see the [Legal Schedules Custom Table Guide](https://www.servicenow.com/schedules-archived.html).
 
-**Parent Topic:**[Managing custom tables and applications in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/allocating-custom-tables-subscr-apps-v2.md)
+**Parent Topic:**[Managing custom tables and applications in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/allocating-custom-tables-subscr-apps-v2.md)
 

@@ -3,11 +3,11 @@ title: View a list of products from the Consumer Service Portal
 description: Users with the consumer role can view a list of their registered products from the Consumer Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-product-list-consumer-portal.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the Consumer Service Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Consumer Service Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # View a list of products from the Consumer Service Portal
@@ -32,7 +32,7 @@ Role required: sn\_customerservice.consumer
 **Related topics**  
 
 
-[Register a product from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/register-product-consumer-portal.md)
+[Register a product from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/register-product-consumer-portal.md)
 
-[Access your list of install base items from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-install-base-items-from-consumer-service-portal.md)
+[Access your list of install base items from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/view-install-base-items-from-consumer-service-portal.md)
 

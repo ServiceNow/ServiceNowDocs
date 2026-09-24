@@ -3,11 +3,11 @@ title: Community Service Portal
 description: The Community Service Portal is a web interface that is based on the ServiceNow Service Portal application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/community-service-portal.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring communities, Communities, Customer Service Management]
 ---
@@ -16,18 +16,22 @@ breadcrumb: [Configuring communities, Communities, Customer Service Management]
 
 The Community Service Portal is a web interface that is based on the ServiceNow Service Portal application.
 
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 The Community Service Portal is designed to allow you to have control over the behavior of your portal and help create an attractive and engaging user experience.
 
--   **[Customize Community Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/customize-community-service-portal.md)**  
+-   **[Customize Community Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/customize-community-service-portal.md)**  
 Customize community service portal according to your needs.
--   **[Configure Community Service Portal header menus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-unified-theme-portal.md)**  
+-   **[Configure Community Service Portal header menus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/configure-unified-theme-portal.md)**  
 Configure Community Service Portal header menus to create a consistent user experience across all your end-user facing service portals using a modern interface and a unified navigation menu structure.
--   **[Configure announcement for community members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/manage-announcements.md)**  
+-   **[Configure announcement for community members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/manage-announcements.md)**  
 Global announcements appear in the banner and broadcast messages to all community members. Forum announcements appear in the Announcements section on the forum page. You can also send the announcement by email.
--   **[Community pages that support SEO data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communities-seo-data.md)**  
+-   **[Community pages that support SEO data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/communities-seo-data.md)**  
 To improve search results for community members using external search engines, the Communities application generates SEO meta tags and injects the tags into questions, topics, forums, and other page types.
 
-**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-communities.md)
+**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/configure-communities.md)
 
 **Related topics**  
 

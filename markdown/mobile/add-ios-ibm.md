@@ -3,9 +3,9 @@ title: Add the ServiceNow app for iOS to the IBM MaaS360 portal
 description: Configure the ServiceNow app for iOS for IBM MaaS360 distribution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/add-ios-ibm.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [IBM MaaS360, Device management, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -52,5 +52,5 @@ Role required: admin
 
 After adding the ServiceNow app from the Apple store, it appears in the App Catalog application. Users can download the app to their iOS devices.
 
-**Parent Topic:**[IBM MaaS360 mobile device management \(MDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/IBM-MaaS360-mdm.md)
+**Parent Topic:**[IBM MaaS360 mobile device management \(MDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/IBM-MaaS360-mdm.md)
 

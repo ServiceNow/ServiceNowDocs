@@ -3,9 +3,9 @@ title: Request updates for one or more orders
 description: Request changes to the expected order fulfillment date and shipping location for one or more orders or to draw attention to an issue by creating an order case from the Business Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-order-case-for-multiple-orders.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Order case self-service, Business Portal, Use, Sales Customer Relationship Management]
 ---
@@ -121,12 +121,12 @@ Optional brief description.
 
 The order case is created with the order case lines corresponding to the orders you updated, and the state of the order case changes to New.
 
-**Parent Topic:**[Order case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-case-self-service.md)
+**Parent Topic:**[Order case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-case-self-service.md)
 
 **Related topics**  
 
 
-[Configuring the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-management-configure-business-portal.md)
+[Configuring the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-management-configure-business-portal.md)
 
-[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-self-service-business-portal.md)
+[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-self-service-business-portal.md)
 

@@ -3,9 +3,9 @@ title: Use guided selling on an opportunity
 description: Track stage exit criteria, complete playbook activities, and manage deal-related actions on an opportunity to advance deals through the sales cycle.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/use-guided-selling-opportunity.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [guided selling, action center, playbook, stage exit criteria, opportunity]
 breadcrumb: [Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
@@ -17,7 +17,7 @@ Track stage exit criteria, complete playbook activities, and manage deal-related
 
 ## Before you begin
 
-Guided selling activities must be configured in a playbook for the opportunity stages in your sales cycle. For more information, see [Configure guided selling activities in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-guided-selling-exit-criteria.md).
+Guided selling activities must be configured in a playbook for the opportunity stages in your sales cycle. For more information, see [Configure guided selling activities in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-guided-selling-exit-criteria.md).
 
 Role required: sn\_opty\_mgmt\_core.sales\_agent
 
@@ -73,9 +73,9 @@ The opportunity advances to the next stage. The Action Center refreshes to displ
 **Related topics**  
 
 
-[Guided selling on opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-guided-selling.md)
+[Guided selling on opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-guided-selling.md)
 
-[Configure guided selling activities in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-guided-selling-exit-criteria.md)
+[Configure guided selling activities in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-guided-selling-exit-criteria.md)
 
-[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/opportunity-management.md)
 

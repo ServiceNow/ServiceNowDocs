@@ -3,9 +3,9 @@ title: Add products to a lead
 description: Use the Catalog tab in the Lead Management to add products to your lead.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/lead-management-add-product.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Lead Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -45,14 +45,14 @@ You can use the Catalog tab to search for and select product offerings from cata
 
 ## What to do next
 
-[Add line items to a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-use-line-items-tab.md).
+[Add line items to a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/lead-management-use-line-items-tab.md).
 
-**Parent Topic:**[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-using.md)
+**Parent Topic:**[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/lead-management-using.md)
 
 **Related topics**  
 
 
-[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-lead-management.md)
+[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-lead-management.md)
 
-[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management.md)
+[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/lead-management.md)
 

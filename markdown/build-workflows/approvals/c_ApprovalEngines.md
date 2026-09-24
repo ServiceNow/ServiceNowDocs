@@ -3,11 +3,11 @@ title: Approval engines
 description: The differences in the way that companies handle their approvals, as well as the differences between approvals for the various applications \(such as Service Catalog Requests and Change Management\), calls for supporting flexibility in setting up approvals within applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/approvals/c\_ApprovalEngines.html
-release: australia
+release: brazil
 product: Approvals
 classification: approvals
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Classic approvals, Build workflows]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Classic approvals, Build workflows]
 
 The differences in the way that companies handle their approvals, as well as the differences between approvals for the various applications \(such as Service Catalog Requests and Change Management\), calls for supporting flexibility in setting up approvals within applications.
 
-**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
+**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
 
 This flexibility is provided through the selection of an ''approval engine'' that is used to manage the approvals for each of the Task tables \(that is, all tables that extend the Task table\).
 

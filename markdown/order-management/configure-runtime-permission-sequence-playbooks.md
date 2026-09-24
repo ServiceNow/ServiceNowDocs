@@ -3,9 +3,9 @@ title: Assign runtime permissions while creating sequences
 description: Use permission sets to control access to sequence records such as sequence tasks and steps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-runtime-permission-sequence-playbooks.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create sequences, Customer Engagement Sequences, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -16,9 +16,9 @@ Use permission sets to control access to sequence records such as sequence tasks
 
 ## Before you begin
 
-Delegated developer roles must be assigned to designated users. For more information, see [Grant delegated developer permissions for managing sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/grant-delegated-developer-permissions.md).
+Delegated developer roles must be assigned to designated users. For more information, see [Grant delegated developer permissions for managing sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/grant-delegated-developer-permissions.md).
 
-**Note:** Runtime permissions are available only with at least Playbooks version 28.1 on the Zurich release. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/process-automation-designer-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/process-automation-designer-rn.md).
+**Note:** Runtime permissions are available only with at least Playbooks version 28.1 on the Zurich release. For more information, see [Playbooks in Workflow Studio release notes](https://www.servicenow.com/docs/r/zurich/release-notes/process-automation-designer-rn.html).
 
 Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
@@ -26,7 +26,7 @@ Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -58,12 +58,12 @@ Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 12. Select **Save and close**.
 
 
-**Parent Topic:**[Create a customer engagement sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-customer-engagement-sequence.md)
+**Parent Topic:**[Create a customer engagement sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-customer-engagement-sequence.md)
 
 **Related topics**  
 
 
-[Configuring Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-customer-engagement-sequences.md)
+[Configuring Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configuring-customer-engagement-sequences.md)
 
-[Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-customer-engagement-sequences.md)
+[Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-customer-engagement-sequences.md)
 

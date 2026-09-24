@@ -3,13 +3,13 @@ title: Normalization suggestions for discovery models
 description: Normalization suggestions are created for all manually normalized discovery models. You can accept or reject these suggestions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/normalization-suggestions.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Software discovery and normalization, Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software discovery and normalization, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Normalization suggestions for discovery models
@@ -48,7 +48,7 @@ If you **Reject** the suggestion:
 |Field|Description|
 |-----|-----------|
 |Discovery model|Software discovery model that represents the installed software.|
-|Suggestion status|Suggested [status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMDiscovery.md) of the normalization process.|
+|Suggestion status|Suggested [status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/c_SAMDiscovery.md) of the normalization process.|
 |Discovered publisher|Discovered publisher of the software.|
 |Discovered product|Discovered name of the software.|
 |Discovered version|Discovered version of the software.|
@@ -66,5 +66,5 @@ If you **Reject** the suggestion:
 |Platform|Normalized platform of the software product.|
 |Language|Normalized language of the software product.|
 
-**Parent Topic:**[Software discovery and normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMDiscovery.md)
+**Parent Topic:**[Software discovery and normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/c_SAMDiscovery.md)
 

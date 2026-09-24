@@ -3,11 +3,11 @@ title: Create a branch and enhance digital resilience data
 description: Create a branch record in Digital resilience third-party registers. You can then enhance its digital resilience information for compliance with DORA regulation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-drtp-reg-branch.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Use, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Create a branch and enhance digital resilience data
@@ -54,11 +54,11 @@ It eliminates the need for manual lookup and ensures that branch records contain
     -   ID of the branch and its originating country
     The number for the branch is auto-generated. Once the branch details are complete, the information is ready to be captured in the information register.
 
-    For more information, see [Create Branch form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-branch-form.md).
+    For more information, see [Create Branch form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-new-branch-form.md).
 
 4.  Select **Save**.
 
-    When a valid LEI is entered in the Identification code of the branch field, the system validates it against the GLEIF database in real time. On successful validation, the system automatically populates the Name of the branch, Country of the branch, and LEI of the financial entity head office fields.
+    When a valid LEI is entered in the Identification code of the branch field, the system validates it against the GLEIF database in real time. On successful validation, the system automatically populates the Name of the branch, Country of the branch, and LEI of the financial entity head office fields. The data is returned from GLEIF.
 
     The digital resilience information for the branch is shown in the example.
 
@@ -73,10 +73,10 @@ It eliminates the need for manual lookup and ensures that branch records contain
 
 ## What to do next
 
-Specify the functions that are associated with a branch. For more information, see [Create a function and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-drtp-reg-function.md).
+Specify the functions that are associated with a branch. For more information, see [Create a function and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-drtp-reg-function.md).
 
--   **[Create Branch form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-branch-form.md)**  
+-   **[Create Branch form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-new-branch-form.md)**  
 On the Create Branch form, fill in the fields.
 
-**Parent Topic:**[Using Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-dg-registers.md)
+**Parent Topic:**[Using Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/using-dg-registers.md)
 

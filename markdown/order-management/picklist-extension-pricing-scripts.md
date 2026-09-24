@@ -3,7 +3,7 @@ title: The Picklist Extension Pricing enrichment
 description: Use the Picklist Extension Pricing enrichment to adjust pricing according to location or other factors.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/picklist-extension-pricing-scripts.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -137,5 +137,5 @@ Referencing elements in the `pleRequest` object is similar to referencing object
 **Related topics**  
 
 
-[CPQ scripting language reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[CPQ scripting language reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-logik-io-scripting-language-reference.md)
 

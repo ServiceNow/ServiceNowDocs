@@ -3,11 +3,11 @@ title: Enable Change Management integration
 description: Enable Change Management integration with AEMC so that deployments through the pipeline to the production environment are automatically scheduled based on the Change request state and planned change window.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/enable-change-management-integration.html
-release: australia
+release: brazil
 product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuration tasks, Configure Pipelines and Deployments, Configure, App Engine Management Center, Governing app development, Building applications]
 ---
@@ -36,6 +36,6 @@ This task can be completed within the Guided Setup system. This task opens withi
 
 5.  In the Pipelines and Deployments Guided Setup, select **Mark Complete**.
 
-    Marking the enablement step complete enables you to configure properties related to Change Management integration including the change model, change template, and CI creation subflow. For more information, see [Configure properties to integrate Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/configure-properties-integrate-cm.md).
+    Marking the enablement step complete enables you to configure properties related to Change Management integration including the change model, change template, and CI creation subflow. For more information, see [Configure properties to integrate Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/configure-properties-integrate-cm.md).
 
 

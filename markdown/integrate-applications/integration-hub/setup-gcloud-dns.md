@@ -3,7 +3,7 @@ title: Set up the Google Cloud DNS spoke
 description: Integrate the ServiceNow instance and Google Cloud DNS account by creating a custom OAuth application in Google Cloud Platform to authenticate ServiceNow requests.Create a custom OAuth application in your Google Cloud Platform account to enable OAuth 2.0 authentication with the Google Cloud DNS spoke.Use the information generated during the Google Cloud DNS application configuration to register Google Cloud DNS as an OAuth provider and allow the ServiceNow instance to request OAuth 2.0 tokens.Create a default credential record for the Google Cloud DNS application. The Google Cloud DNS spoke connection and credential alias uses this credential to authorize actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-gcloud-dns.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -52,7 +52,7 @@ Complete these steps from the [Google Cloud Platform](https://cloud.google.com/)
 
     The OAuth client window shows your client ID and client secret.
 
-8.  Copy these two values to a text file so that you can use them when you [Register Google Cloud DNS as an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-gcloud-dns.md).
+8.  Copy these two values to a text file so that you can use them when you [Register Google Cloud DNS as an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-gcloud-dns.md).
 
     The client ID and secret can always be accessed in the Google APIs &amp; Services interface. Click **Credentials** and select the OAuth 2.0 client ID name.
 

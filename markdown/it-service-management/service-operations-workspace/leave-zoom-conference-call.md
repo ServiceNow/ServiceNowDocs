@@ -3,11 +3,11 @@ title: Leave a Zoom conference call in Service Operations Workspace
 description: Leave an active conference call. The call will still be active with other participants.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/leave-zoom-conference-call.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Zoom to make conference calls in Service Operations Workspace, Notify in Service Operations Workspace, Collaboration in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -39,5 +39,5 @@ Role required: itil
 8.  Select **Leave call**.
 
 
-**Parent Topic:**[Use Zoom to make conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/zoom-sow.md)
+**Parent Topic:**[Use Zoom to make conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/zoom-sow.md)
 

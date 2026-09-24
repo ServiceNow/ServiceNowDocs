@@ -3,9 +3,9 @@ title: Prerequisites and setup
 description: Before creating data interfaces and data products, confirm that the required plugin is activated, roles are assigned, and external data sources are connected.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/prerequisites-data-products-wdf.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Data Products, Workflow Data Fabric]
 ---
@@ -16,7 +16,7 @@ Before creating data interfaces and data products, confirm that the required plu
 
 **Note:**
 
-Build and test data interfaces and data products in a development or subproduction instance first. When you're ready for production, use a ServiceNow update set to move your assets. See [Move data interfaces and data products to production](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/move-data-interfaces-products-to-prod-wdf.md)
+Build and test data interfaces and data products in a development or subproduction instance first. When you're ready for production, use a ServiceNow update set to move your assets. See [Move data interfaces and data products to production](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/move-data-interfaces-products-to-prod-wdf.md)
 
 ## Required roles
 
@@ -41,7 +41,7 @@ Zero-copy connectors and metadata collectors serve different purposes and are bo
 
 The zero-copy connector must be tested and verified as operational before creating data interfaces. Connection failures during data interface creation indicate that the connector is not properly configured or the external system is unavailable.
 
-For setup instructions, see [Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/zero-copy-connectors.md).
+For setup instructions, see [Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/zero-copy-connectors.md).
 
 ## Metadata collectors and Data Catalog visibility
 
@@ -60,5 +60,5 @@ For setup instructions, see metadata collector documentation in the ServiceNow p
 
 Data interfaces and data products are created within an application scope. Confirm that the correct scope is active in your instance before you begin. Assets created in one scope are not editable from a different scope.
 
-**Parent Topic:**[Configure data products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-data-products.md)
+**Parent Topic:**[Configure data products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-data-products.md)
 

@@ -3,9 +3,9 @@ title: Integration with Event Management
 description: Create cases proactively from alerts either manually or through automation. Track the accounts and health status of the corresponding install base items affected by the alert to better correlate customer issues and provide faster responses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/pcso-event-management.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Proactive Customer Service Operations, Configure Proactive Customer Service, Extend capabilities, Configure, Customer Service Management]
 ---
@@ -16,7 +16,7 @@ Create cases proactively from alerts either manually or through automation. Trac
 
 Customer Service Management provides an integration with the Event Management console in IT Operations Management, which enables you to improve the customer experience by breaking down the silos that exist between the processes and systems used by front line customer service and back-office operations teams. By monitoring issues and creating cases proactively, you can be one step ahead of your customers and solve issues faster.
 
-Network Operations Center \(NOC\) operators monitor alerts from the Service Operations Workspace. For more information, see [Monitor service health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_EMViewDashboard.md).
+Network Operations Center \(NOC\) operators monitor alerts from the Service Operations Workspace. For more information, see [Monitor service health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/t_EMViewDashboard.md).
 
 When alerted to a service disruption, they can identify the accounts and corresponding install base items affected and create a case for customer service to review. Customer service can view the customers affected and notify  them.
 

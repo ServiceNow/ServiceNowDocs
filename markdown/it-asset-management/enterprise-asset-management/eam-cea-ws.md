@@ -3,11 +3,11 @@ title: Critical Environment Asset Workspace
 description: The Critical Environment Asset Workspace is the intuitive and streamlined user interface of the Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/eam-cea-ws.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\), Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
@@ -104,7 +104,7 @@ View, create, and manage facility-based enterprise assets and linear assets.
 
     -   You've installed the Indoor Mapping for Assets application on your ServiceNow instance.
     -   You've configured the option to display the tab.
-For more information, see [Track assets using indoor maps in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/track-enterprise-assets-indoor-maps.md).
+For more information, see [Track assets using indoor maps in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/track-enterprise-assets-indoor-maps.md).
 
 -   **Asset groups**
 -   **Linear assets**
@@ -182,7 +182,7 @@ Track and manage shipments, stockroom receiving, onboarding, move orders, and ca
 
 -   **Provider**
 
-**Note:** This tab appears only if you've installed the Enterprise Asset Management for Providers application on your ServiceNow instance. For more information on this application, see [Enterprise Asset Management for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/eam-providers.md).
+**Note:** This tab appears only if you've installed the Enterprise Asset Management for Providers application on your ServiceNow instance. For more information on this application, see [Enterprise Asset Management for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/eam-providers.md).
 
 -   **Shipment**
 -   **Stockroom receiving**
@@ -245,5 +245,5 @@ Perform configuration and administrative tasks, including bulk imports and model
 -   **Reference lists**
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/eam-dcnam.md)
+</table>**Parent Topic:**[Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/eam-dcnam.md)
 

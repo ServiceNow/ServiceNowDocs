@@ -3,11 +3,11 @@ title: Event assets
 description: When an event is initiated, event assets are managed by using different recovery management methods.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/event-assets.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Structured workflows for Exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Event assets
@@ -44,13 +44,13 @@ These fields and columns are used to calculate time for the assets:
 
 -   **Enhanced event asset management**
 
-    BCM version 9.x.x introduces a significant improvement in event asset management by establishing a direct link between event assets and their corresponding Business Impact Analysis \(BIA\) records. This integration enables the system to automatically import Recovery Time Objective \(RTO\) and Recovery Point Objective \(RPO\) values from the BIA into recovery events. Continuity managers can now directly compare actual and target recovery times, gaining transparent metrics to evaluate recovery performance and assess organizational resilience maturity.
+    BCM version 9.x.x introduces a significant improvement in event asset management by establishing a direct link between event assets and their corresponding Business Impact Analysis \(BIA\) records. This integration enables the system to automatically import Recovery Time Objective \(RTO\) and Recovery Point Objective \(RPO\) values from the BIA into recovery events. As a result, continuity managers can now directly compare actual recovery times with target recovery times. This provides a transparent and reliable metric to evaluate recovery performance and assess organizational resilience maturity.
 
     This enhancement streamlines the process of assessing recovery performance, allowing organizations to make more informed decisions about their business continuity strategies. By providing a clear and accurate measure of how well recovery operations align with predefined objectives, BCM 9.x.x helps organizations refine their resilience capabilities.
 
 -   **Time measurement for recovery events**
 
-    As you can exclude irrelevant tasks from calculation such as "Preparation" tasks, time management is enhanced.
+    As you can exclude irrelevant task from calculation such as "Preparation" tasks, time management is enhanced.
 
 -   **Event asset tracking**
 
@@ -77,5 +77,5 @@ These improvements provide several benefits:
 
 By providing more detailed and accurate tracking of recovery efforts, these updates enable organizations to better manage their recovery processes and improve their overall resilience.
 
-**Parent Topic:**[Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
+**Parent Topic:**[Structured workflows for exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
 

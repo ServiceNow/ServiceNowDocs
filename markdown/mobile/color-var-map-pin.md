@@ -3,9 +3,9 @@ title: Color variable support for map icons
 description: Learn how to use color variables to change theming in your mobile map icons
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/color-var-map-pin.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Color theme considerations, Configure theming, Next Experience theming, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -20,7 +20,7 @@ Map screens have a **Pin Color** section with a **Pin color variable** field to 
 
  Using this field you can define any color variable from the UX Theme Properties \[sys\_ux\_theme\_property\] table. For a list available variables see the color design guide below.
 
- For details on creating icon UI sections, see [Configure an icon UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-ui-section-config-navig.md).
+ For details on creating icon UI sections, see [Configure an icon UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-ui-section-config-navig.md).
 
 </td><td>
 

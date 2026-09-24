@@ -3,11 +3,11 @@ title: Oracle Infrastructure report
 description: You can use the Oracle Infrastructure report to gain visibility into your Oracle infrastructure. This report includes information about the Oracle databases and WebLogic Server editions that you’re running and the configuration items that are supporting them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/oracle-infrastructure-report.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Software Asset Management publisher pack for Oracle, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -38,7 +38,7 @@ Required by \(Device\)
 
 </td><td>
 
-Configuration item, such as a server, cluster, vCenter, or datacenter, on which the Oracle database, Database option, management pack, or WebLogic Server is installed.Select an entry to view additional information about the licensing requirements for that configuration item. See [Licenses Required By form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/oracle-infrastructure-report.md) for more details.
+Configuration item, such as a server, cluster, vCenter, or datacenter, on which the Oracle database, Database option, management pack, or WebLogic Server is installed.Select an entry to view additional information about the licensing requirements for that configuration item. See [Licenses Required By form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/oracle-infrastructure-report.md) for more details.
 
 </td></tr><tr><td>
 
@@ -470,5 +470,5 @@ Vendor
 Vendor of the database or WebLogic Server that the instance accesses and manages. This field is set to **Oracle**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management publisher pack for Oracle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/oracle-publisher-pack.md)
+</table>**Parent Topic:**[Software Asset Management publisher pack for Oracle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/oracle-publisher-pack.md)
 

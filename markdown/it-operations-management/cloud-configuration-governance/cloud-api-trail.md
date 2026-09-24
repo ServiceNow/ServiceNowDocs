@@ -3,11 +3,11 @@ title: The Cloud API Trail
 description: The Cloud API Trail is an activity log for all activity that uses the Cloud API and goes through the MID Server.Open the Cloud API Trail to debug and troubleshoot issues like a failed policy or failed Discovery of cloud resources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/cloud-api-trail.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -141,7 +141,7 @@ The corresponding error on the instance side is captured in the Cloud Orchestrat
 **Related topics**  
 
 
-[The Cloud Orchestration Trail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-orch-trail.md)
+[The Cloud Orchestration Trail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/cloud-orch-trail.md)
 
 ## Open the Cloud API Trail
 

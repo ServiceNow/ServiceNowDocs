@@ -1,20 +1,20 @@
 ---
 title: Configure an ACL
-description: Configure custom access control lists \(ACLs\) to secure access to new objects or to change the default security behavior.
+description: Configure custom access control list \(ACLs\) to secure access to new objects or to change the default security behavior.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/t\_CreateAnACLRule.html
-release: australia
+release: brazil
 product: Access Control
 classification: access-control
 topic_type: task
-last_updated: "2026-06-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Access Control Lists \(ACLs\), Access Management]
 ---
 
 # Configure an ACL
 
-Configure custom access control lists \(ACLs\) to secure access to new objects or to change the default security behavior.
+Configure custom access control list \(ACLs\) to secure access to new objects or to change the default security behavior.
 
 ## Before you begin
 
@@ -24,17 +24,17 @@ Role required: security\_admin
 
 To create ACLs, you must elevate privileges to the security\_admin role.
 
-For tables that are in a different scope from the ACL record, the types of rules are limited. For Scope Master tables to derive scope and execute scoped ACLs, set the **glide.enforce\_security\_scope.&lt;scope\_name&gt;** property to **true**. This ensures ACLs in the global scope don’t match when there are scope-specific ACLs created on the relevant table. Examples are when securing data within shared application tables in the Global scope, such as sys\_attachment or sys\_question\_answer tables.
+For tables that are in a different scope from the ACL record, the types of ACLs are limited. For Scope Master tables to derive scope and execute scoped ACLs, set the **glide.enforce\_security\_scope.&lt;scope\_name&gt;** property to **true**. This ensures ACLs in the global scope don’t match when there are scope-specific ACLs created on the relevant table. Examples are when securing data within shared application tables in the Global scope, such as sys\_attachment or sys\_question\_answer tables.
 
 ## Procedure
 
-1.  [Elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_ElevatedPrivilege.md) to the security\_admin role.
+1.  [Elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_ElevatedPrivilege.md) to the security\_admin role.
 
 2.  Navigate to **System Security** &gt; **Access Control \(ACL\)**.
 
 3.  Select **New**.
 
-    **Tip:** When creating an ACL, it’s helpful to review the [Deny-Unless ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/acl-denial-behavior.md).
+    **Tip:** When creating an ACL, it’s helpful to review the [Deny-Unless ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/access-control/acl-denial-behavior.md).
 
 4.  Complete the form.
 
@@ -52,7 +52,7 @@ Type
 
 </td><td>
 
-Select what kind of object this ACL secures. The type of object determines how the object is named and what operations are available. This field is read only after the ACL is created. If you want to change the type, you must delete the ACL and create one with the correct type.
+Select what kind of object this ACL secures. The type of object determines how the object is named and what operations are available. This field becomes read only after the ACL is created. If you want to change the type, you must delete the ACL and create one with the correct type.
 
 </td></tr><tr><td>
 
@@ -60,7 +60,7 @@ Operation
 
 </td><td>
 
-Select the operation that this ACL secures. Each object type has its own list of operations. An ACL can only secure one operation. To secure multiple operations, create a separate ACL for each.If you’re creating an ACL for a report\_view operation, see also [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/report-view-access-control.md).
+Select the operation that this ACL secures. Each object type has its own list of operations. An ACL can only secure one operation. To secure multiple operations, create a separate ACL for each.If you’re creating an ACL for a report\_view operation, see also .
 
 </td></tr><tr><td>
 
@@ -68,7 +68,7 @@ Decision Type
 
 </td><td>
 
-Select the decision type of the ACL. **Allow If** allows access upon successful evaluation. **Deny Unless** denies access unless there’s successful evaluation. See [Deny-Unless ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/acl-denial-behavior.md) for more information.
+Select the decision type of the ACL. **Allow If** allows access upon successful evaluation. **Deny Unless** denies access unless there’s successful evaluation. See [Deny-Unless ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/access-control/acl-denial-behavior.md) for more information.
 
 </td></tr><tr><td>
 
@@ -76,7 +76,7 @@ Admin overrides
 
 </td><td>
 
-Select this check box to have users with the admin role automatically pass the permissions check for this ACL. Admin users pass regardless of what script or role restrictions apply. However, the **nobody** role, which only ServiceNow personnel can assign, takes precedence over the admin override option. If an ACL is assigned the **nobody** role, admin users can’t access the resource even when **Admin overrides** is selected. See [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_BaseSystemRoles.md).
+Select this check box to have users with the admin role automatically pass the permissions check for this ACL. Admin users pass regardless of what script or role restrictions apply. However, the **nobody** role, which only ServiceNow personnel can assign, takes precedence over the admin override option. If an ACL is assigned the **nobody** role, admin users can’t access the resource even when **Admin overrides** is selected. See Base system roles.
 
  Clear this check box if administrators must meet the permissions defined in this ACL to gain access to the secured object. Since administrators always pass role checks \(see the description of the **Requires role** field\), use the condition builder or **Script** field to create a permissions check that administrators must pass.
 
@@ -86,7 +86,7 @@ Protection Policy
 
 </td><td>
 
-Select this option to set the protection policy on the ACL.
+Select this to set the protection policy on the ACL.
 
 </td></tr><tr><td>
 
@@ -137,7 +137,7 @@ Requires role
 
 </td><td>
 
-Use this list to specify the roles a user must have to access the object. If you list multiple roles, a user with any one of the listed roles can access the object. The Requires role list appears as a related list.**Note:** Users with the admin role always pass this permissions check because the admin role automatically grants users all other roles.
+Use this list to specify the roles a user must have to access the object. If you list multiple roles, a user with any one of the listed roles can access the object. The Requires role list appears as a related list. If none of the roles you add exist on the instance, the system will deny users access to the object.**Note:** Users with the admin role always pass this permissions check because the admin role automatically grants users all other roles.
 
 </td></tr><tr><td>
 
@@ -145,7 +145,7 @@ Security Attribute Condition
 
 </td><td>
 
-Use this section to define what the user can access based on user and environment criteria. For more information, see [Security Attributes Fundamentals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/security-attribute-fundamentals.md) and [Security Attribute Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/security-attribute-scope.md).**Note:** The Condition field is case-sensitive.
+Use this section to define what the user can access based on user and environment criteria. For more information, see [Security Attributes Fundamentals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-attribute-fundamentals.md) and [Security Attribute Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-attribute-scope.md).**Note:** The Condition field is case-sensitive.
 
 </td></tr><tr><td>
 
@@ -153,7 +153,7 @@ Data Condition
 
 </td><td>
 
-Use this [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) to select the fields and values that must be true for users to access the object.**Note:** The Condition field is case-sensitive.
+Use this [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ConditionBuilder.md) to select the fields and values that must be true for users to access the object.**Note:** The Condition field is case-sensitive
 
 </td></tr></tbody>
 </table>6.  If the **Advanced** box is checked, fill in the **Advanced Conditions** fields as necessary.
@@ -164,7 +164,7 @@ Controlled by References
 
 </td><td>
 
-Enforces the ACL on related records. See [Related record access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/related-record-access.md) for more details.
+Enforces the ACL on related records. See [Related record access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/access-control/related-record-access.md) for more details.
 
 </td></tr><tr><td>
 
@@ -172,11 +172,11 @@ Script
 
 </td><td>
 
-Enter a custom script describing the permissions required to access the object. The script can use the values of the current and previous [Global variables in business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_BusinessRules.md) as well as system properties. The script must generate a true or false response in one of two ways:-   return an answer variable set to a value of true or false
+Enter a custom script describing the permissions required to access the object. The script can use the values of the current and previous [Global variables in business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/c_UsingPredefinedGlobalVariables.md) as well as system properties. The script must generate a true or false response in one of two ways:-   return an answer variable set to a value of true or false
 -   evaluate to true or false
  In either case, users only gain access to the object when the script evaluates to true and the user meets any conditions the ACL has. Both the conditions and the script must evaluate to true for a user to access the object.
 
-If there’s script in the **Script** field. This script executes even if the field isn’t displayed on the form.
+If there’s a script in the **Script** field, this script executes even if the field isn’t displayed on the form.
 
  **Note:** If the evaluated item is in a related list, **current** points to the item the related list is on, not to the current item the ACL is for. However, If the item you’re evaluating the ACL for isn’t in a related list, **current** points to the actual item.
 

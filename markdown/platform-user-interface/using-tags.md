@@ -3,9 +3,9 @@ title: Using tags
 description: Use tags to filter records and view tagged documents. Remove a tag when it is no longer useful.You can filter records on a table by tags you have access to.The Tagged Documents page displays recently viewed documents or user-tagged documents in the content frame.There are many ways to remove a tag from a record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/using-tags.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Tags, Common UI elements, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -16,7 +16,7 @@ Use tags to filter records and view tagged documents. Remove a tag when it is no
 
 **Note:** Conditions that use the **Tags** field are not supported in reports or data visualizations based on database views.
 
-**Parent Topic:**[Tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_Tags.md)
+**Parent Topic:**[Tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_Tags.md)
 
 ## Filter records by tag
 
@@ -30,7 +30,7 @@ Role required: none
 
 1.  Filter records by tag in any of the following ways.
 
-<table id="choicetable_fnf_gvq_fs"><tbody><tr><td id="d60531e113">
+<table id="choicetable_fnf_gvq_fs"><tbody><tr><td id="d61323e113">
 
 **Filter from the form view**
 
@@ -38,7 +38,7 @@ Role required: none
 
 Select the more options icon \(\[Omitted image "IconUI16MoreOptions.png"\] Alt text: More options icon.\), and then select the tag in the menu that opens. A new tab or window opens and displays a list of records that contain the tag.
 
-</td></tr><tr><td id="d60531e131">
+</td></tr><tr><td id="d61323e131">
 
 **Filter from the list view using the __Tags__ column**
 
@@ -46,7 +46,7 @@ Select the more options icon \(\[Omitted image "IconUI16MoreOptions.png"\] Alt t
 
 With the **Tags** column visible, select the tag name. Selecting two or more tags filters the tags together with the AND operator and shows records containing all the selected tags.
 
-</td></tr><tr><td id="d60531e146">
+</td></tr><tr><td id="d61323e146">
 
 **Filter from the list view using the list filter**
 
@@ -66,7 +66,7 @@ Role required: none
 
 ### About this task
 
-An administrator can configure the fields that appear on the tagged document cards by configuring the mobile view of the task, for example, the mobile view of the Incident form. If there isn’t a mobile view available for the page, the record reverts to the default view. For more information, see [Create and delete views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-delete-view.md).
+An administrator can configure the fields that appear on the tagged document cards by configuring the mobile view of the task, for example, the mobile view of the Incident form. If there isn’t a mobile view available for the page, the record reverts to the default view. For more information, see [Create and delete views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/create-delete-view.md).
 
 ### Procedure
 
@@ -76,7 +76,7 @@ An administrator can configure the fields that appear on the tagged document car
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_gmj_pjw_fs"><tbody><tr><td id="d60531e257">
+<table id="choicetable_gmj_pjw_fs"><tbody><tr><td id="d61323e257">
 
 **Display most recently viewed documents**
 
@@ -84,7 +84,7 @@ An administrator can configure the fields that appear on the tagged document car
 
 Select **Most Recent** in the sidebar.
 
-</td></tr><tr><td id="d60531e269">
+</td></tr><tr><td id="d61323e269">
 
 **Display documents associated with a tag**
 
@@ -92,7 +92,7 @@ Select **Most Recent** in the sidebar.
 
 Select the tag name in the sidebar.
 
-</td></tr><tr><td id="d60531e278">
+</td></tr><tr><td id="d61323e278">
 
 **Remove a tag from a record**
 
@@ -100,7 +100,7 @@ Select the tag name in the sidebar.
 
 Select the **x** in the corner of the document preview.
 
-</td></tr><tr><td id="d60531e290">
+</td></tr><tr><td id="d61323e290">
 
 **Open the form for a tagged document**
 
@@ -124,7 +124,7 @@ Role required: none
 
 1.  Perform any of the following actions.
 
-<table id="choicetable_as5_vkw_fs"><tbody><tr><td id="d60531e353">
+<table id="choicetable_as5_vkw_fs"><tbody><tr><td id="d61323e353">
 
 **Remove a tag from a record in the list view using the __Tags__ column**
 
@@ -132,7 +132,7 @@ Role required: none
 
 Confirm that the **Tags** column is visible and select the remove tag icon \(**x**\) beside the tag name.
 
-</td></tr><tr><td id="d60531e371">
+</td></tr><tr><td id="d61323e371">
 
 **Remove a tag from one or more records in the list view using the action menu**
 
@@ -140,7 +140,7 @@ Confirm that the **Tags** column is visible and select the remove tag icon \(**x
 
 Select the check box for one or more records, then select **Actions on selected rows** &gt; **Remove Tag:** &gt; **\[Tag name\]**.
 
-</td></tr><tr><td id="d60531e392">
+</td></tr><tr><td id="d61323e392">
 
 **Remove a tag from a record in the form view**
 
@@ -148,7 +148,7 @@ Select the check box for one or more records, then select **Actions on selected 
 
 Select the more options icon \(\[Omitted image "IconUI16MoreOptions.png"\] Alt text: More options icon.\) in the form header, then select the remove tag icon \(**x**\).
 
-</td></tr><tr><td id="d60531e410">
+</td></tr><tr><td id="d61323e410">
 
 **Remove a tag from a record in the Tagged Documents page**
 
@@ -157,6 +157,6 @@ Select the more options icon \(\[Omitted image "IconUI16MoreOptions.png"\] Alt t
 Select the removed tag icon \(**x**\) in the corner of the document preview.
 
 </td></tr></tbody>
-</table>    If a tag is automatically applied to a record based on specific conditions, the tag is automatically removed when those conditions no longer apply. For more information, see [Administering tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/administering-tags.md).
+</table>    If a tag is automatically applied to a record based on specific conditions, the tag is automatically removed when those conditions no longer apply. For more information, see [Administering tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/administering-tags.md).
 
 

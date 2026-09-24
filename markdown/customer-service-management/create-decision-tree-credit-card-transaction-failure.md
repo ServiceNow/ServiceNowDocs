@@ -3,9 +3,9 @@ title: Create a decision tree for troubleshooting a failed transaction
 description: Help Anita create a decision tree that agents can use to troubleshoot a failed credit card transaction. After this step, the decision tree can be configured in Decision Tree Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-decision-tree-credit-card-transaction-failure.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Example configuration of a decision tree, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -46,5 +46,5 @@ Role required: admin, sn\_gd\_core.decision\_tree\_author
 
 ## What to do next
 
-[Configure the start node](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ask-card-holder-and-transaction-details.md) to ask for the user, card, and transaction details and determine if any amount was debited.
+[Configure the start node](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ask-card-holder-and-transaction-details.md) to ask for the user, card, and transaction details and determine if any amount was debited.
 

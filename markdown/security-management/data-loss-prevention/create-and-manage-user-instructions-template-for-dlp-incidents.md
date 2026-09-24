@@ -3,11 +3,11 @@ title: Create user instructions templates
 description: Create and manage user instructions template for DLP incidents to help the users understand the instructions involved incident resolution and the next steps involved in the resolution process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/create-and-manage-user-instructions-template-for-dlp-incidents.html
-release: australia
+release: brazil
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Administer, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -125,13 +125,13 @@ Add instructions in the rich text editor with variables available at an incident
 
     The user instructions templates are now created and you can click on any user instruction header to know the additional details of a DLP incident.
 
-    For more information, see [Data Loss Prevention Incident Response User Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/using-dlp-end-user-portal.md).
+    For more information, see [Data Loss Prevention Incident Response User Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/using-dlp-end-user-portal.md).
 
 
--   **[Configure DLP UI user instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/configure-dlp-ui-user-instructions.md)**  
+-   **[Configure DLP UI user instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/configure-dlp-ui-user-instructions.md)**  
 Configure the system UI messages to add detailed user instruction headers as required.
 
-**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
+**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
 
 **Related topics**  
 
@@ -166,7 +166,7 @@ Configure the system UI messages to add detailed user instruction headers as req
 
 [Create repeat offender identification rules]()
 
-[Create additional incident data fields]()
+[Create Additional Incident Data Fields]()
 
 [DLP SLA Definition form]()
 

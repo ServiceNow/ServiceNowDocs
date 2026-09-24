@@ -3,11 +3,11 @@ title: Orchestration ROI standard reports
 description: The dashboard of standard ROI reports provides summaries, estimated costs, and calculated costs for automated processes. To access the ROI standard dashboard, navigate to Orchestration ROI Reports Dashboard .The scheduled job that calculates Orchestration ROI standard reports is active by default and controlled by system properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/r\_OrchestrationROIStandardDashboard.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Orchestration ROI reports, Orchestration ROI, Orchestration applications, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -253,7 +253,7 @@ Total projected annual expense for all manual tasks by category using the calcul
 -   **Table**: Expense and Savings \[run\_rate\_predicted\_savings\]
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Orchestration ROI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchestrationROIDashboards.md)
+</table>**Parent Topic:**[Orchestration ROI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_OrchestrationROIDashboards.md)
 
 ## Schedule Orchestration ROI calculations for standard reports
 

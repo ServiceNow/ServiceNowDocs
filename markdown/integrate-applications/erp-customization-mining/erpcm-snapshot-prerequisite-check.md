@@ -3,13 +3,13 @@ title: ERP Semantic Mining snapshot prerequisite check
 description: Before snapshot import and export in ERP Semantic Mining, a check is performed automatically to confirm that other related processes aren’t in progress.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-customization-mining/erpcm-snapshot-prerequisite-check.html
-release: australia
+release: brazil
 product: ERP Customization Mining
 classification: erp-customization-mining
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, ERP Semantic Mining overview, Workflow Data Fabric]
+breadcrumb: [Reference, ERP Semantic Mining overview, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # ERP Semantic Mining snapshot prerequisite check
@@ -18,7 +18,7 @@ Before snapshot import and export in ERP Semantic Mining, a check is performed a
 
 **Important:** Starting with the Zurich release, ERP Semantic Mining is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
-For process details, see [Create a snapshot to share and save data in ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/create-a-snapshot-to-share-and-save-data.md).
+For process details, see [Create a snapshot to share and save data in ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-customization-mining/create-a-snapshot-to-share-and-save-data.md).
 
 <table id="table_bgl_xmh_2dc"><thead><tr><th>
 
@@ -67,5 +67,5 @@ Snapshot is created when all tasks for all Collector entries are completed. Diff
  If you want\\ to delete all data, or attach a new system, 'table flush trigger' flow waits for the snapshot to be created.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ERP Semantic Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erp-customization-mining-ref.md)
+</table>**Parent Topic:**[ERP Semantic Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-customization-mining/erp-customization-mining-ref.md)
 

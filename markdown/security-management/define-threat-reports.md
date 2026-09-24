@@ -3,9 +3,9 @@ title: Define threat reports
 description: Define threat reports that describe a threat actor, malware, attack technique, including context and related details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/define-threat-reports.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Threat reports, IoC Repository, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -92,5 +92,5 @@ Reported Observables
 Lists of observables reported in the threat report.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Threat reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-reports.md)
+</table>**Parent Topic:**[Threat reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-reports.md)
 

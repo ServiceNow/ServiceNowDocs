@@ -3,9 +3,9 @@ title: Generate a certificate
 description: Generate a certificate to use with the Discovery Console for OT or upload your own certificates. This certificate allows the Console to boot up.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/generate-new-certificate-discovery-for-ot.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the Discovery Console for OT, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -36,15 +36,15 @@ After the Discovery Console for OT is installed, there are default, preloaded ce
 
     **Note:** You're not obligated to use the ServiceNow provided certificates and you may choose to use your own.
 
-<table id="choicetable_pp4_qnb_ghc"><thead><tr><th align="left" id="d30069e116">
+<table id="choicetable_pp4_qnb_ghc"><thead><tr><th align="left" id="d30234e116">
 
 Option
 
-</th><th align="left" id="d30069e119">
+</th><th align="left" id="d30234e119">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d30069e125">
+</th></tr></thead><tbody><tr><td id="d30234e125">
 
 **Generate a new bundle**
 
@@ -54,7 +54,7 @@ Description
 2.  Select the **Generate Bundle** button.
 
 
-</td></tr><tr><td id="d30069e152">
+</td></tr><tr><td id="d30234e152">
 
 **Upload an existing bundle**
 
@@ -66,7 +66,7 @@ Description
 4.  Select the **Upload Bundle** button.
 
 
-</td></tr><tr><td id="d30069e191">
+</td></tr><tr><td id="d30234e191">
 
 **Download Console Certificate Bundle \(.zip\)**
 
@@ -82,5 +82,5 @@ The bundle contains the Console's Certificate and the web browser certificate. T
 
 A certificate is generated. The Discovery Console for OT reboots.
 
-**Parent Topic:**[Configure the Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-ot-discovery-console.md)
+**Parent Topic:**[Configure the Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/configure-ot-discovery-console.md)
 

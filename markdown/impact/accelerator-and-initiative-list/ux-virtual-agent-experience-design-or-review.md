@@ -1,25 +1,25 @@
 ---
 title: UX: Virtual Agent Experience Design or Review
-description: This Accelerator provides guidance on designing or improving the conversational experience of Virtual Agent or Now Assist in Virtual Agent.
+description: This Accelerator provides guidance on designing or improving the conversational experience of Virtual Agent or ServiceNow Otto for Virtual Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/ux-virtual-agent-experience-design-or-review.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Virtual Agent, UX Design, Conversation Design, Now Assist, User Experience]
-breadcrumb: [Architecture Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # UX: Virtual Agent Experience Design or Review
 
-This Accelerator provides guidance on designing or improving the conversational experience of Virtual Agent or Now Assist in Virtual Agent.
+This Accelerator provides guidance on designing or improving the conversational experience of Virtual Agent or *ServiceNow Otto for Virtual Agent*.
 
 ## Accelerator Overview
 
-UX: Virtual Agent Experience Design or Review helps Impact customers create more intuitive and efficient Virtual Agent \(VA\) and Now Assist in VA experiences. We will review their existing VA implementation and share conversation design best practices to help users resolve inquiries faster with less frustration. We will provide actionable recommendations to enhance user interactions, streamline conversation flows, and boost overall satisfaction.
+UX: Virtual Agent Experience Design or Review helps Impact customers create more intuitive and efficient Virtual Agent \(VA\) and *ServiceNow Otto for Virtual Agent* experiences. We will review their existing VA implementation and share conversation design best practices to help users resolve inquiries faster with less frustration. We will provide actionable recommendations to enhance user interactions, streamline conversation flows, and boost overall satisfaction.
 
 ## Package Availability
 

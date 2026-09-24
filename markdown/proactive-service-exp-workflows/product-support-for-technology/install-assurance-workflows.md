@@ -3,11 +3,11 @@ title: Install Proactive Service Experience Workflows
 description: Install the Proactive Service Experience Workflows application on a development or test instance to access demo data and dependent plugins.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/install-assurance-workflows.html
-release: australia
+release: brazil
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: task
-last_updated: "2026-07-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Getting started, Set up your environment, Configure, Proactive Service Experience Workflows, Product Support for Technology]
 ---
@@ -30,7 +30,7 @@ Role required: admin
 
 ## About this task
 
-If the related plugins aren’t already active, the Proactive Service Experience Workflows plugin activates them. For more information, see [Plugins installed with Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/psew-plugins.md). The Telecom core application is installed with Proactive Service Experience Workflows:
+If the related plugins aren’t already active, the Proactive Service Experience Workflows plugin activates them. For more information, see [Plugins installed with Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/psew-plugins.md). The Telecom core application is installed with Proactive Service Experience Workflows:
 
 ## Procedure
 
@@ -59,5 +59,5 @@ If the related plugins aren’t already active, the Proactive Service Experience
 
 The Proactive Service Experience Workflows application and related plugins are activated. A confirmation message appears after installation is complete.
 
-**Parent Topic:**[Getting started with Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/getting-started-psew.md)
+**Parent Topic:**[Getting started with Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/getting-started-psew.md)
 

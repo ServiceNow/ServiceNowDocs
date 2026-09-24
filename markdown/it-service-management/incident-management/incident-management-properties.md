@@ -3,11 +3,11 @@ title: Incident Management properties
 description: Incident Management properties are used to control features such as copying and creating child incidents. The major incident properties control the promotion of major incident candidates to major incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/incident-management-properties.html
-release: australia
+release: brazil
 product: Incident Management
 classification: incident-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Configuring Incident Management, Incident Management, IT Service Management]
 ---
@@ -44,7 +44,7 @@ Number of days \(integer\) after which Resolved incidents are automatically clos
 
 </td><td>
 
-Set the duration of the incident auto-close function.
+Set the duration in number of business days for the incident auto-close function.
 
 </td></tr><tr><td>
 
@@ -53,6 +53,22 @@ Close open Incident Tasks when Incident is closed or canceled\(com.snc.incident.
 </td><td>
 
 Select the check box to close an open incident task when an incident is closed or canceled.**Note:** Starting with the Madrid release, this property is automatically set to **true** by default only for the new customers.
+
+</td></tr><tr><td>
+
+The number of attempts made before an incident that is waiting for a caller response is automatically resolved if no reply is received. Setting this value to 0 will disable the automation for this instance\(com.snc.incident.strike.count\)
+
+</td><td>
+
+Set the number of attempts for which the notification must be sent to the caller for information. By default, the value is set to 3.**Note:** Starting with the Brazil release, this property is available only for the new zboot customers.
+
+</td></tr><tr><td>
+
+Wait period in business days between two attempts. Incidents will be auto resolved after all the attempts are completed\(com.snc.incident.strike.wait\_period\)
+
+</td><td>
+
+Set the time interval in number of business days that must be maintained between the two attempts. By default, the value is set to 1.**Note:** Starting with the Brazil release, this property is available only for the new zboot customers.
 
 </td></tr><tr><td>
 
@@ -206,7 +222,7 @@ Create Incident in saved state from Interaction\(com.snc.incident.create\_from\_
 
 Select the check box to create an incident with a saved state from an interaction record.Type: Boolean
 
- **Note:** Starting with the Australia release, this property is automatically set to **true** for new customers. Existing customers have to set the property to **true** manually.
+ **Note:** Starting with the Brazil release, this property is automatically set to **true** for new customers. Existing customers have to set the property to **true** manually.
 
 </td></tr><tr><td>
 
@@ -216,7 +232,7 @@ Copy attachments from Interaction to Incident, when created from Interaction\(co
 
 Select the check box to copy the attachments from the interaction record to a new incident record when it's created from the interaction record.Type: Boolean
 
- **Note:** Starting with the Australia release, this property is automatically set to **true** for new customers. Existing customers have to set the property to **true** manually.
+ **Note:** Starting with the Brazil release, this property is automatically set to **true** for new customers. Existing customers have to set the property to **true** manually.
 
 </td></tr></tbody>
 </table>## Major Incident Management
@@ -290,5 +306,5 @@ List of attributes \(comma-separated\) that will be copied from the child Incide
 Select the fields that must be copied from the incident when creating a major incident.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-configuration.md)
+</table>**Parent Topic:**[Configuring Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/incident-configuration.md)
 

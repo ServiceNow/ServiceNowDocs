@@ -3,9 +3,9 @@ title: Install Document designer with Microsoft Word
 description: Install the Document designer with Microsoft Word \(sn\_grc\_doc\_design\) application. It extracts metadata \(including fields, related lists, and reference fields with their associated elements\) from ServiceNow tables. It then enables the insertion of repeating content blocks \(for example, 10 blocks for 10 issues\) based on record count. When applied to specific records, the template generates a Microsoft Word document.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/install-document-designer-with-word-plugin.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Generating reports using Document designer, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -32,5 +32,5 @@ Role required: sn\_bcm.admin, sn\_bcm.manager
 **Related topics**  
 
 
-[Set up the template configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-document-designer-templates.md)
+[Set up the template configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/set-up-document-designer-templates.md)
 

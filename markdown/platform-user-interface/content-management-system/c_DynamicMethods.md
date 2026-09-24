@@ -3,11 +3,11 @@ title: Dynamic methods
 description: While static methods are a powerful navigational tool, you have more control over data rendering using the dynamic methods.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/c\_DynamicMethods.html
-release: australia
+release: brazil
 product: Content Management System
 classification: content-management-system
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Content Management integration points, Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -22,7 +22,7 @@ Reference common code in the system to make long-term maintenance of the site ea
 
 -   **Dynamic Blocks**
 
-    These blocks are where the majority of your work resides. For more information, see [Configure dynamic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_CreateADynamicBlock.md).
+    These blocks are where the majority of your work resides. For more information, see [Configure dynamic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/t_CreateADynamicBlock.md).
 
 -   **Frames**
 
@@ -30,7 +30,7 @@ Reference common code in the system to make long-term maintenance of the site ea
 
 -   **Lists**
 
-    Lists generate links to records based on the filtering rules you define. Lists can be sorted for presentation by any field in the corresponding record. Lists help supplement navigation and pull data from outside the CMS. For more information, see [Customize the list block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_DefineTheListBlock.md).
+    Lists generate links to records based on the filtering rules you define. Lists can be sorted for presentation by any field in the corresponding record. Lists help supplement navigation and pull data from outside the CMS. For more information, see [Customize the list block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/t_DefineTheListBlock.md).
 
 -   **Content Types**
 
@@ -38,12 +38,12 @@ Reference common code in the system to make long-term maintenance of the site ea
 
 -   **List Definitions**
 
-    List definitions enable you to extend the summary template defaults defined on the site level. Used with [frames](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_StyleInContentManagement.md), list definitions render the same data differently based on the placement on the page or site. For more information, see [Configure list definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_ConfigureListDefinitions.md).
+    List definitions enable you to extend the summary template defaults defined on the site level. Used with [frames](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/c_StyleInContentManagement.md), list definitions render the same data differently based on the placement on the page or site. For more information, see [Configure list definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/t_ConfigureListDefinitions.md).
 
 -   **Detailed Content**
 
-    Detailed content in page detail settings\) are blocks that display the content of an existing document as a block on a content page. For more information, see [Configure a detailed content block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_DetailedContentBlock.md).
+    Detailed content in page detail settings\) are blocks that display the content of an existing document as a block on a content page. For more information, see [Configure a detailed content block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/t_DetailedContentBlock.md).
 
 
-**Parent Topic:**[Content Management integration points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_CMSIntegrationPoints.md)
+**Parent Topic:**[Content Management integration points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/c_CMSIntegrationPoints.md)
 

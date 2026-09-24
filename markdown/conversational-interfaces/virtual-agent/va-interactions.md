@@ -3,14 +3,14 @@ title: Virtual Agent interaction records
 description: Each time a Virtual Agent conversation occurs, an interaction record captures the entire conversation in the Interactions \[interaction\] table. The record includes all topic elements used in the conversation, as well as live agent transfers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-interactions.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 keywords: [Virtual Agent, interaction, records, interactions, table]
-breadcrumb: [Virtual Agent technical reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Virtual Agent technical reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Virtual Agent interaction records
@@ -35,7 +35,7 @@ These interaction records provide administrators, Virtual Agent administrators, 
 
 ## Key fields in the Interactions table
 
-To view the Interactions table, navigate to **All**, and then enter `interaction.list` in the navigation filter. You can configure the fields displayed in the table using the [list collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_UseSlushbuckets.md) \(slushbucket\).
+To view the Interactions table, navigate to **All**, and then enter `interaction.list` in the navigation filter. You can configure the fields displayed in the table using the [list collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_UseSlushbuckets.md) \(slushbucket\).
 
 <table id="table_xs3_3hy_yjb"><thead><tr><th>
 
@@ -97,7 +97,7 @@ Domain
 
 </td><td>
 
-The domain the conversation took place in. For more information, see [Domain separation and Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/domain-separation-virtual-agent.md).
+The domain the conversation took place in. For more information, see [Domain separation and Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/domain-separation-virtual-agent.md).
 
 </td></tr><tr><td>
 
@@ -134,7 +134,7 @@ Shows the sentiment level of the interaction, if sentiment analysis is enabled o
 -   Negative
 -   null \(no value assessed\)
 
-This value is also entered in the [Interaction Insights table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-interaction-insights-table.md).
+This value is also entered in the [Interaction Insights table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/ci-interaction-insights-table.md).
 
 </td></tr><tr><td>
 
@@ -146,7 +146,7 @@ Conversation states: -   In Progress: Conversation between requester and virtual
 -   Closed Complete: Virtual agent ends the conversation.
 -   Closed Abandoned: Requester ends the conversation before completing the conversation with the virtual agent.
 
- **Note:** There are different State Reasons for the Closed Complete and Closed Abandoned states, depending on whether you're using Virtual Agent only, Virtual Agent with Live Agent, or Live Agent only. For details on the State Reasons, see [Reasons for Closed Complete and Closed Abandoned states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-interactions.md).
+ **Note:** There are different State Reasons for the Closed Complete and Closed Abandoned states, depending on whether you're using Virtual Agent only, Virtual Agent with Live Agent, or Live Agent only. For details on the State Reasons, see [Reasons for Closed Complete and Closed Abandoned states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-interactions.md).
 
 </td></tr><tr><td>
 
@@ -154,7 +154,7 @@ State Reason
 
 </td><td>
 
-Detailed explanations \(reasons\) for the conversation states Closed Complete and Closed Abandoned. To learn more, see [Reasons for Closed Complete and Closed Abandoned states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-interactions.md).
+Detailed explanations \(reasons\) for the conversation states Closed Complete and Closed Abandoned. To learn more, see [Reasons for Closed Complete and Closed Abandoned states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-interactions.md).
 
 </td></tr><tr><td>
 
@@ -195,7 +195,7 @@ Virtual Agent closes completed and abandoned conversations for various reasons, 
 
 \[Omitted image "va-interactions-reasons.png"\] Alt text: Interactions table that shows the State Reason column for Closed Abandoned and Closed Complete states.
 
-The **State Reason** field provides details on the different ways in which a conversation ends. The following table describes the reasons and also the related message displayed for dashboard analytics. For details about how Virtual Agent and Agent Chat handle idle conversations and the corresponding default timeout periods, see [Closing Virtual Agent and Agent Chat conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-open-conversations.md).
+The **State Reason** field provides details on the different ways in which a conversation ends. The following table describes the reasons and also the related message displayed for dashboard analytics. For details about how Virtual Agent and Agent Chat handle idle conversations and the corresponding default timeout periods, see [Closing Virtual Agent and Agent Chat conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-open-conversations.md).
 
 <table id="table_wxj_vcq_b4b"><thead><tr><th>
 
@@ -386,7 +386,7 @@ Requester’s conversation was closed due to a runtime error.
 
 From the Interactions table, you can open a specific record to see additional details about the Virtual Agent interaction: a transcript of the conversation, related tasks, and interaction logs.
 
-**Note:** If a field is not visible, you can add it to the form view. For more information, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+**Note:** If a field is not visible, you can add it to the form view. For more information, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).
 
 -   **Conversation transcript**
 
@@ -396,7 +396,7 @@ From the Interactions table, you can open a specific record to see additional de
 
 -   **Related Tasks**
 
-    Any cases, incidents, or requests created or updated during the conversation are automatically attached to the interaction record as a Related Task. To ensure that these tasks are included with the interaction record, design your conversation topics using certain Assistant Designer utilities and the system method vaSystem.attachRecordToConversation. For details, see [Topic design considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-interactions.md) below.
+    Any cases, incidents, or requests created or updated during the conversation are automatically attached to the interaction record as a Related Task. To ensure that these tasks are included with the interaction record, design your conversation topics using certain Assistant Designer utilities and the system method vaSystem.attachRecordToConversation. For details, see the [Topic design considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-interactions.md) section.
 
     \[Omitted image "VA-interaction-relatedtask.png"\] Alt text: The Related Tasks tab on the Interactions record shows the incident record that was created during the interaction.
 
@@ -409,32 +409,30 @@ From the Interactions table, you can open a specific record to see additional de
 
 ## Security considerations
 
-Information in conversation transcripts is viewable to all users. If you need to control access to records containing sensitive information, you can use scoped access control lists \(ACLs\) and lock scripted access to those records by using the Restricted Caller Access \(RCA\) feature. For details, see [Set application scope, application resource, and event access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/scope-resource-access.md) and [Manage Restricted Caller Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/t_ConfigureSIM.md).
+Information in conversation transcripts is viewable to all users. If you need to control access to records containing sensitive information, you can use scoped access control lists \(ACLs\) and lock scripted access to those records by using the Restricted Caller Access \(RCA\) feature. For details, see [Set application scope, application resource, and event access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/scope-resource-access.md) and [Manage Restricted Caller Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/t_ConfigureSIM.md).
 
 ## Topic design considerations
 
-If your Virtual Agent conversations create or update incidents, cases, or requests, consider designing your topics with the following [Virtual Agent Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-utilities.md) and system method:
+If your Virtual Agent conversations create or update incidents, cases, or requests, consider designing your topics with the following [Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-utilities.md) and system method:
 
--   [Action utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-action.md) to create or update incidents or cases
--   [Lookup utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-lookup.md) to view information
+-   [Action utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-action.md) to create or update incidents or cases
+-   [Lookup utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-lookup.md) to view information
 -   System method vaSystem.attachRecordToConversation\(String tableName, String sysId\) to attach the task to the interaction record
 
 Use these utilities and system method so that incidents, cases, or requests created during a Virtual Agent conversation are included in the **Related Tasks** list of the interaction record.
 
-**Note:** Records created or updated using the [Script Action utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-script-action.md) are not captured as related tasks in the interaction record.
+**Note:** Records created or updated using the [Script Action utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-script-action.md) are not captured as related tasks in the interaction record.
 
-**Parent Topic:**[Virtual Agent technical reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-advanced-technical-reference.md)
+**Parent Topic:**[Virtual Agent technical reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-advanced-technical-reference.md)
 
 **Related topics**  
 
 
-[Domain separation and Virtual Agent]()
+[Data management in Conversational Interfaces]()
 
 [Virtual Agent scripts]()
 
 [Input data types in Virtual Agent topics]()
-
-[NLU system entities]()
 
 [Virtual Agent URL parameters]()
 

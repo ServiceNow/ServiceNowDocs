@@ -3,11 +3,11 @@ title: Add mentions to a message
 description: An @mention is any posted update that contains @username anywhere in the body of the message.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/add-mentions-to-message.html
-release: australia
+release: brazil
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Post content in Live Feed, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -39,5 +39,5 @@ The user's name, with a link to that user's feed, is inserted into the message. 
     **Note:** My Feed displays @mentions of you and the teams you're a member of. Profile feeds for another user display only @mentions of that user.
 
 
-**Parent Topic:**[Post content in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_PostContentInLiveFeed.md)
+**Parent Topic:**[Post content in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/c_PostContentInLiveFeed.md)
 

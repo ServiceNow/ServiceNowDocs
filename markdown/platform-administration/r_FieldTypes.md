@@ -3,9 +3,9 @@ title: Field types reference
 description: These field types are available to administrators when creating fields or changing the type of existing fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_FieldTypes.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
 breadcrumb: [Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -380,7 +380,7 @@ Yes
 
 </td><td id="entry_CurrencyField">
 
-Decimal field with four digits after the decimal point.When displayed on a form, a **Currency** field also includes an additional list of choices for selecting the currency type. If there isn't a default value for the field, then empty **Currency** fields use the reference currency. Adding a value causes the field to use the session currency of the active user. See [Change default currency decimal places](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/change-currency-fraction-digits.md) for how to use two fraction digits.
+Decimal field with four digits after the decimal point.When displayed on a form, a **Currency** field also includes an additional list of choices for selecting the currency type. If there isn't a default value for the field, then empty **Currency** fields use the reference currency. Adding a value causes the field to use the session currency of the active user. See [Change default currency decimal places](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/currency-administration/change-currency-fraction-digits.md) for how to use two fraction digits.
 
 **Note:** After you assign this field type to a field, you can’t change it to the **FX Currency** field type.
 
@@ -1188,7 +1188,7 @@ Yes
 
 </td><td>
 
-Variable character field that stores IPv4 and IPv6 addresses. See [IP address field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r-IPAddressFieldType.md) for more information.
+Variable character field that stores IPv4 and IPv6 addresses. See [IP address field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r-IPAddressFieldType.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1476,7 +1476,7 @@ No
 
 </td><td id="NameValue">
 
-Name-value pairs field that maps text values. Each mapping is one-to-one, but a single **Name-Value Pairs** field can contain multiple mappings. Each mapping must use a unique name, and the name can’t be empty.For example, you can use a **Name-Value Pairs** field to hold header information for a web service request. In this example, the name of each mapping is the header such as `Content-Type` and the value is the header value, such as `Application/json`. For information on scripting **Name-Value Pairs** fields, see [Name-value pairs field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/name-value-pair-scripting.md).
+Name-value pairs field that maps text values. Each mapping is one-to-one, but a single **Name-Value Pairs** field can contain multiple mappings. Each mapping must use a unique name, and the name can’t be empty.For example, you can use a **Name-Value Pairs** field to hold header information for a web service request. In this example, the name of each mapping is the header such as `Content-Type` and the value is the header value, such as `Application/json`. For information on scripting **Name-Value Pairs** fields, see [Name-value pairs field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/name-value-pair-scripting.md).
 
 </td></tr><tr><td>
 
@@ -1556,7 +1556,7 @@ Yes
 
 </td><td id="Password2">
 
-Text field that stores passwords with two-way encryption. Two-way encryption stores the password as a secure encrypted value that can be decrypted programmatically within the instance. You can use Password 2 encryption with form variables. To encrypt text fields on forms, see [Password2 encryption with KMF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/password-2way-encrypted-fields.md). The length for password2 field values must be at least 255 characters.
+Text field that stores passwords with two-way encryption. Two-way encryption stores the password as a secure encrypted value that can be decrypted programmatically within the instance. You can use Password 2 encryption with form variables. To encrypt text fields on forms, see [Password2 encryption with KMF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/password-2way-encrypted-fields.md). The length for password2 field values must be at least 255 characters.
 
 </td></tr><tr><td>
 
@@ -1636,7 +1636,7 @@ Yes
 
 </td><td id="entry_PriceField">
 
-Currency field that enables control over conversions and display. See [Price fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/price-fields.md) for more information.
+Currency field that enables control over conversions and display. See [Price fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/currency-administration/price-fields.md) for more information.
 
 </td></tr><tr><td>
 

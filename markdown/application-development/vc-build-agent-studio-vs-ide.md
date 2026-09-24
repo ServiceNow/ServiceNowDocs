@@ -3,9 +3,9 @@ title: Build Agent and ServiceNow AI Platform tools
 description: Compare how Build Agent behaves in ServiceNow Studio \(UI-first, declarative workflows\) versus the ServiceNow IDE \(code-first, autonomous full-stack development\), so you can choose the right environment for your task and audience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/vc-build-agent-studio-vs-ide.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [ServiceNow Studio, ServiceNow IDE, Build Agent, low-code, full-stack generation]
 breadcrumb: [Build Agent overview, Develop, Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
@@ -42,22 +42,22 @@ Choose the environment based on your skill set and the type of work:
 
 A general workflow for using Build Agent in either ServiceNow Studio or the ServiceNow IDE is the following:
 
-1.  Make sure that everything you need is properly configured in the settings, such as supported MCP server connections. For more information, see [Build Agent configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/configure-build-agent.md).
+1.  Make sure that everything you need is properly configured in the settings, such as supported MCP server connections. For more information, see [Build Agent configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/configure-build-agent.md).
 2.  Open ServiceNow Studio.Use the central chat area on the home page to start a new conversation, or select the Conversations icon \[Omitted image "ba-sns-otto-nav-icon.png"\] Alt text: in the Navigator panel to open an existing conversation.
 3.  Describe what to create or change in natural language.
 4.  Let Build Agent parse requirements and propose the application and files to create or modify.
 5.  Build Agent edits code or metadata or scaffolds a new application.
 6.  Review proposed edits, diffs, and summaries, and approve or adjust before applying changes. Review checkpoints and manual edit update sets. In ServiceNow Studio, view generated app details from the **Apps** tab, and inspect the source code from the **Explorer** tab.
-7.  Iterate until the desired metadata changes are complete. For more information, see [Supported metadata in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-supported-metadata.md).
+7.  Iterate until the desired metadata changes are complete. For more information, see [Supported metadata in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent-supported-metadata.md).
 8.  Prompt Build Agent to create and run Automated Test Framework \(ATF\) tests to verify that the tests execute as expected. Depending on your configuration, Build Agent may ask you if you want to run ATF tests. If there are failures, auto troubleshooting triages the tests and produces a regression test suite that you can use to monitor app health.
 9.  Instruct Build Agent to build the application; verify results in the File Navigator or Metadata Explorer.
-10. Deploy the application. If you're using source control, you can push to Git.For more information, see [Deploying what you built with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-deployment.md).
+10. Deploy the application. If you're using source control, you can push to Git.For more information, see [Deploying what you built with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent-deployment.md).
 
 For more information, see the following topics:
 
--   [Get started with agentic development using Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-code-with-build-agent.md)
--   [Agentic development app refinement in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vc-refine-sns.md)
--   [Agentic development app refinement in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vc-refine-using-ide.md)
+-   [Get started with agentic development using Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vibe-code-with-build-agent.md)
+-   [Agentic development app refinement in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vc-refine-sns.md)
+-   [Agentic development app refinement in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vc-refine-using-ide.md)
 
 ## How to choose
 
@@ -72,5 +72,5 @@ Keep the following in mind when using Build Agent:
 -   Build Agent generates metadata supported by ServiceNow Fluent. Verify artifact compatibility before approval.
 -   Feature availability and UI details might differ between monthly releases. Confirm behavior against your instance version.
 
-**Parent Topic:**[Agentic ServiceNow AI Platform development with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vc-build-agent-landing.md)
+**Parent Topic:**[Agentic ServiceNow AI Platform development with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vc-build-agent-landing.md)
 

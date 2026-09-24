@@ -3,7 +3,7 @@ title: Set up the Google Cloud VPC Access spoke
 description: Integrate the ServiceNow instance and Google Cloud VPC Access account by creating a custom OAuth application in Google Cloud Platform to authenticate ServiceNow requests.Create a custom OAuth application in your Google Cloud Platform account to enable OAuth 2.0 authentication with the Google Cloud VPC Access spoke.Use the information generated during the Google Cloud VPC Access application configuration to register Google Cloud VPC Access as an OAuth provider and allow the ServiceNow instance to request OAuth 2.0 tokens.Create a credential record for the Google Cloud VPC Access application. The Google Cloud VPC Access spoke connection and credential alias uses these credentials to authorize actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-gcloud-vpc.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -100,7 +100,7 @@ Create a credential record for the Google Cloud VPC Access application. The Goog
 
 ### Before you begin
 
--   [Register Google Cloud VPC Access as an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-gcloud-vpc.md)
+-   [Register Google Cloud VPC Access as an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-gcloud-vpc.md)
 -   Role required: admin
 
 ### Procedure

@@ -3,11 +3,11 @@ title: Insert a row into the project tasks list
 description: You can create a new project task from the Project Task related list on the Project form. Administrators must enable this task-creation feature.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_InsertARowIntoTheProjectTasksList.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a project task from a project, Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -31,5 +31,5 @@ Role required: it\_project\_manager
 4.  Open the new task and edit the record as required.
 
 
-**Parent Topic:**[Create a project task from a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateATaskFromAProject.md)
+**Parent Topic:**[Create a project task from a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CreateATaskFromAProject.md)
 

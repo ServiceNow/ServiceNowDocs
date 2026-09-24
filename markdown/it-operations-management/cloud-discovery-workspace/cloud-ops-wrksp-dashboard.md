@@ -3,11 +3,11 @@ title: Cloud Discovery Workspace dashboard
 description: The ServiceNow Cloud Discovery Workspace dashboard provides a summary of the cloud operations of your organization and shows the ServiceNow applications that you can use to manage them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-discovery-workspace/cloud-ops-wrksp-dashboard.html
-release: australia
+release: brazil
 product: Cloud Discovery Workspace
 classification: cloud-discovery-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Cloud Discovery Workspace, ITOM Visibility, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Cloud Discovery Workspace, ITOM Visibility, IT Operations Managemen
 
 The ServiceNow® Cloud Discovery Workspace dashboard provides a summary of the cloud operations of your organization and shows the ServiceNow applications that you can use to manage them.
 
-**Important:** Cloud Discovery Workspace is now deprecated and no longer supported or available for new activation. [Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace.md) provides the latest experience for this functionality. For details, see the [Application/Plugin Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
+**Important:** Cloud Discovery Workspace is now deprecated and no longer supported or available for new activation. [Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-admin-workspace.md) provides the latest experience for this functionality. For details, see the [Application/Plugin Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 ## Required ServiceNow AI Platform roles
 
@@ -109,5 +109,5 @@ This report displays the trend of the cloud events received over the last 24 hou
 **Related topics**  
 
 
-[List of workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/list-of-workspaces.md)
+[List of workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/list-of-workspaces.md)
 

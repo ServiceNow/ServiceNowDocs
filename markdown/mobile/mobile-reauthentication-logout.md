@@ -3,9 +3,9 @@ title: Configure mobile re-authentication logout option
 description: Configure this parameter to force your users to log out each time before they re-authenticate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-reauthentication-logout.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Re-authentication, System properties, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -66,5 +66,5 @@ Value
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configure mobile re-authentication system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-reautentication-concept.md)
+**Parent Topic:**[Configure mobile re-authentication system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-reautentication-concept.md)
 

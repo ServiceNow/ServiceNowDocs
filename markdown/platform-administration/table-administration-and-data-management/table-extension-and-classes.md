@@ -3,11 +3,11 @@ title: Table extension and classes
 description: Enable one or more child tables to share fields and records with a parent table. Administrators and application developers can only extend tables during table creation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/table-extension-and-classes.html
-release: australia
+release: brazil
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Exploring tables, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -152,5 +152,5 @@ The extension model determines these attributes.
     Record replication is not needed, because the parent class stores all records that belong to the hierarchy. For example, the Base Configuration Item \[cmdb\] table contains all records from its child classes such as the Application \[cmdb\_ci\_appl\], Computer \[cmdb\_ci\_computer\], and Hardware \[cmdb\_ci\_hardware\] tables.
 
 
-**Parent Topic:**[Exploring ServiceNow AI Platform tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/exploring-table-administration.md)
+**Parent Topic:**[Exploring ServiceNow AI Platform tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/exploring-table-administration.md)
 

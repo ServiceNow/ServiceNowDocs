@@ -3,9 +3,9 @@ title: Configure the MID Server for AWS IAM roles
 description: Configure the MID Server to retrieve the temporary security credentials associated with an IAM role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/config-mid-iam-roles.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up AWS service accounts, Set up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
 ---
@@ -36,7 +36,7 @@ Role required: discovery\_admin or sn\_cmp.cloud\_admin \(for Cloud Provisioning
 
     -   arn:partition:service:region:account-id:resource-type/resource-id
     -   resource-id
-    The MID Server uses the same IAM role that is set up for the corresponding AWS service account. For more information, see [Configure temporary credential access for trusted AWS accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-iam-role-aws-account.md).
+    The MID Server uses the same IAM role that is set up for the corresponding AWS service account. For more information, see [Configure temporary credential access for trusted AWS accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/configure-iam-role-aws-account.md).
 
     For operational information about creating AWS roles, refer to the Amazon documentation on [Creating a role to delegate permissions to an IAM user](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-user.html).
 
@@ -45,5 +45,5 @@ Role required: discovery\_admin or sn\_cmp.cloud\_admin \(for Cloud Provisioning
     The new parameter is listed in the MID Server record.
 
 
-**Parent Topic:**[Setting up AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/setup-aws-service-accounts.md)
+**Parent Topic:**[Setting up AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/setup-aws-service-accounts.md)
 

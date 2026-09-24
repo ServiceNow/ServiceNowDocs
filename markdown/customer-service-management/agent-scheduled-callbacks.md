@@ -3,9 +3,9 @@ title: Schedule a callback for a customer
 description: Schedule callbacks on behalf of customers from CSM Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/agent-scheduled-callbacks.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Callback requests by agents, Use omnichannel callback, Customer communication, Use, Customer Service Management]
 ---
@@ -18,7 +18,7 @@ Schedule callbacks on behalf of customers from CSM Configurable Workspace.
 
 Ensure the following:
 
--   Customer Service Management \(CSM\) \[com.sn\_customerservice\] plugin is activated
+-   Case Management Core \[com.sn\_customerservice\] plugin is activated
 -   Omnichannel Callback for Customer Service Management \(com.sn\_omnichannel\_callback\) plugin is installed
 -   Appointment booking \[com.snc.appointment\_booking\] plugin is installed \(automatically installed with omnichannel callback \[sn\_callback\] plugin\)
 -   System property **sn\_callback.enable\_agent\_scheduled\_callback** is enabled
@@ -55,11 +55,11 @@ Agent-scheduled callbacks enable agents to create callback tasks while interacti
 **Related topics**  
 
 
-[View scheduled callbacks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-scheduled-callbacks.md)
+[View scheduled callbacks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/view-scheduled-callbacks.md)
 
-[View related callbacks in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-related-callbacks-contextual-side-panel.md)
+[View related callbacks in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/view-related-callbacks-contextual-side-panel.md)
 
-[Reschedule a callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/reschedule-callback.md)
+[Reschedule a callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/reschedule-callback.md)
 
-[Cancel a callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/cancel-callback.md)
+[Cancel a callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/cancel-callback.md)
 

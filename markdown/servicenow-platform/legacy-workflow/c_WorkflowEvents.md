@@ -3,11 +3,11 @@ title: Workflow events
 description: The system employs two types of events: registered platform events and workflow events.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/c\_WorkflowEvents.html
-release: australia
+release: brazil
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workflow management, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,8 +32,8 @@ Whether by registry or by broadcast, an event is handled by the activity definit
 
 A single workflow can have multiple event threads running concurrently, such as when a workflow has timers that overlap on separate workflow branches. If any additional thread completes before the first thread, the system stores event information from the additional thread on the Workflow Queued Commands \[wf\_command\] table. After the first thread completes, the system retrieves the information stored by the additional thread and proceeds through the workflow with the event information from each thread.
 
--   **[Workflow events in the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/r_WorkflowEventsInTheBaseSystem.md)**  
+-   **[Workflow events in the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/legacy-workflow/r_WorkflowEventsInTheBaseSystem.md)**  
 Several workflow events are available in the base system.
 
-**Parent Topic:**[Workflow management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/managing-workflows.md)
+**Parent Topic:**[Workflow management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/legacy-workflow/managing-workflows.md)
 

@@ -3,13 +3,13 @@ title: Quick start tests for Software Asset Management
 description: Validate that Software Asset Management still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/quick-tests-sam.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 4
-breadcrumb: [Reference, Software Asset Management, IT Asset Management, Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Quick start tests for Software Asset Management
@@ -229,7 +229,7 @@ SAM - Software Entitlement Creation Using Custom PPN
 
 </td><td>
 
-Creates a custom software product, a custom DMAP for the custom product, a custom Part Number for the custom DMAP, and a software entitlement using the custom Part Number. Verifies that a software model is automatically created.
+Creates a custom software product, custom DMAP, custom Part Number, and software entitlement using the custom Part Number. Verifies that a software model is automatically created.
 
 </td><td>
 
@@ -272,10 +272,10 @@ Tests that the **Subscription software** and **Ignore installs** fields are pres
 New York
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)
+</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/references.md)
 
 **Related topics**  
 
 
-[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/quick-start-tests.md)
+[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/quick-start-tests.md)
 

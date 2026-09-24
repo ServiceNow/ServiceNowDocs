@@ -3,9 +3,9 @@ title: Establish recovery strategies for asset dependencies
 description: Use the Loss Scenarios tab to add asset dependencies and identify recovery strategies to deal with various loss scenarios. A plan, complete with recovery strategies for the identified loss scenarios, helps to address gaps that exist.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/establish-recovery-strategies-critical-dependencies.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Structured workflows for Business Continuity Planning, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -42,7 +42,7 @@ When viewing a loss scenario associated with a plan, you can also view the plan'
 
 7.  To add a related asset to the existing list of assets that can be impacted and dependent on the plan loss scenario, click the **Related Asset Dependencies** tab.
 
-    For more information, see [Identify loss scenarios and align them to a business continuity plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/loss-scenarios-align-with-bcp.md).
+    For more information, see [Identify loss scenarios and align them to a business continuity plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/loss-scenarios-align-with-bcp.md).
 
 8.  To remove an asset from the plan, select the item and click **Remove**.
 
@@ -58,6 +58,6 @@ When viewing a loss scenario associated with a plan, you can also view the plan'
 
 10. To add a recovery task to the recovery strategy of a plan’s loss scenario, click the **Recovery Tasks** tab.
 
-    You can create a recovery task at the recovery strategy level and also at the plan level. See: [Create, update, and group recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-recovery-tasks-grid.md).
+    You can create a recovery task at the recovery strategy level and also at the plan level. See: [Create, update, and group recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/bcp-recovery-tasks-grid.md).
 
 

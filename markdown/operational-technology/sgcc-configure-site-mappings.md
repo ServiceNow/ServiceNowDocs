@@ -3,9 +3,9 @@ title: Configure site mappings
 description: Importing the site data must be complete before you can move onto configure site mappings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/sgcc-configure-site-mappings.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SGC Central, Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -51,5 +51,5 @@ Role required: admin
 3.  Select **Continue** to move to the next step.
 
 
-**Parent Topic:**[SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-central-for-ot-discovery.md)
+**Parent Topic:**[SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/sgc-central-for-ot-discovery.md)
 

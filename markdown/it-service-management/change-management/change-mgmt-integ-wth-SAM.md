@@ -3,12 +3,12 @@ title: Change Management integration with Software Asset Management
 description: The Change Management integration with Software Asset Management \(SAM\) displays the projected licensing cost implication of a change.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/change-mgmt-integ-wth-SAM.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Change management integrations, Reference, Change Management, IT Service Management]
 ---
 
@@ -16,7 +16,7 @@ breadcrumb: [Change management integrations, Reference, Change Management, IT Se
 
 The Change Management integration with Software Asset Management \(SAM\) displays the projected licensing cost implication of a change.
 
-This integration focuses on the projected license cost change when a change is proposed to one or more configuration item \(CI\) processor resources \(CPU or CPU Core\) running software licensed by the processor.
+This integration tracks projected license cost changes when a change is proposed to one or more configuration item \(CI\) processor resources — CPU or CPU Core — running processor-licensed software.
 
 This integration requires the Software Asset Management Professional \(com.snc.samp\) and Change Management - License Change Projections \(com.sn\_samp\_change\) plugins.
 
@@ -28,12 +28,14 @@ The License change projection form section displays the license projection chang
 
 For a more detailed breakdown of the license change projections, a related list can be added to the Change Request form called **CI Projection Summary**. This related list provides a CI-by-CI breakdown of the license change projection summary information and provides easy access to the Software Asset Management CI Project Summary record and additional data.
 
-**Parent Topic:**[Change management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-mgmt-integrations.md)
+The projected cost impact covers software licensed by the processor \(CPU or CPU Core\) for the affected configuration items. Use the License change projection summary and the **CI Projection Summary** related list to estimate the spend change before the change is approved. Cost impacts for software licensed by other metrics are not included in this projection.
+
+**Parent Topic:**[Change management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-mgmt-integrations.md)
 
 **Related topics**  
 
 
-[Managing proposed changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ProposedChanges.md)
+[Managing proposed changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_ProposedChanges.md)
 
-[Mass Update CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/bulk-ci-change.md)
+[Mass Update CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/bulk-ci-change.md)
 

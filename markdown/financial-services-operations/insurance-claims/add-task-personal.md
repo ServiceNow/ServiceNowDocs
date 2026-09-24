@@ -3,11 +3,11 @@ title: Add an ad-hoc task
 description: Create a task as a processor, adjuster, or manager to help prioritize and plan your claim work better.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/add-task-personal.html
-release: australia
+release: brazil
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Personal Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -28,15 +28,15 @@ Role required: sn\_ins\_claim\_pers.auto\_processor, sn\_ins\_claim\_pers.auto\_
 
 2.  Open the claim one of the following ways.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d114699e83">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d116438e83">
 
 Option
 
-</th><th align="left" id="d114699e86">
+</th><th align="left" id="d116438e86">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d114699e93">
+</th></tr></thead><tbody><tr><td id="d116438e93">
 
 **From the landing page**
 
@@ -44,7 +44,7 @@ Steps
 
 From a claims list, select the claim case you want to create a new task for.
 
-</td></tr><tr><td id="d114699e105">
+</td></tr><tr><td id="d116438e105">
 
 **From the applicable case/tasks list**
 

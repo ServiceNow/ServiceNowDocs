@@ -3,11 +3,11 @@ title: Managing enterprise models and assets
 description: Create and manage your enterprise models and assets throughout their life cycle.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/managing-eam-assets-models.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Enterprise Asset Management, Asset Management]
 ---
@@ -43,8 +43,8 @@ Create multi-component models and assets
 
 </td><td>
 
--   [Create a multi-component model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-multicomponent-model.md)
--   [Create a multi-component asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-multicomponent-asset.md)
+-   [Create a multi-component model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-multicomponent-model.md)
+-   [Create a multi-component asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-multicomponent-asset.md)
 
 </td></tr><tr><td>
 
@@ -57,8 +57,8 @@ Create enterprise models and assets
 
 </td><td>
 
--   [Create enterprise models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-model-eam.md)
--   [Create enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-asset-eam.md)
+-   [Create enterprise models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-model-eam.md)
+-   [Create enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-asset-eam.md)
 
 </td></tr><tr><td>
 
@@ -71,7 +71,7 @@ Create enterprise model components
 
 </td><td>
 
-[Create enterprise model components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-model-components-eam.md)
+[Create enterprise model components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-model-components-eam.md)
 
 </td></tr><tr><td>
 
@@ -84,8 +84,8 @@ Create and import classification codes
 
 </td><td>
 
--   [Create a classification code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-classification-codes.md)
--   [Import classification codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/import-class-codes-eam.md)
+-   [Create a classification code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-classification-codes.md)
+-   [Import classification codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/import-class-codes-eam.md)
 
 </td></tr><tr><td>
 
@@ -98,10 +98,10 @@ Add or clone calibration attributes to an enterprise model and asset
 
 </td><td>
 
--   [Add calibration attributes to an enterprise model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/add-calibration-attributes-enterprise-model.md)
--   [Clone calibration attributes to an enterprise model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/clone-calibration-attributes-enterprise-model.md)
--   [Add calibration attributes to an enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/add-calibration-attributes-enterprise-asset.md)
--   [Clone a calibration attribute to an enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/clone-calibration-attributes-enterprise-asset.md)
+-   [Add calibration attributes to an enterprise model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/add-calibration-attributes-enterprise-model.md)
+-   [Clone calibration attributes to an enterprise model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/clone-calibration-attributes-enterprise-model.md)
+-   [Add calibration attributes to an enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/add-calibration-attributes-enterprise-asset.md)
+-   [Clone a calibration attribute to an enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/clone-calibration-attributes-enterprise-asset.md)
 
 </td></tr><tr><td>
 
@@ -113,8 +113,8 @@ sn\_eam.enterprise\_asset\_manager
 
 </td><td>
 
--   [Create linear assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-linear-asset.md)
--   [Create linear asset types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-linear-asset-types.md)
+-   [Create linear assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-linear-asset.md)
+-   [Create linear asset types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-linear-asset-types.md)
 
 </td></tr><tr><td>
 
@@ -127,7 +127,7 @@ Create pallet assets
 
 </td><td>
 
-[Create pallet assets in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-pallet-asset-eam.md)
+[Create pallet assets in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-pallet-asset-eam.md)
 
 </td></tr><tr><td>
 
@@ -139,7 +139,7 @@ sn\_eam.enterprise\_asset\_manager
 
 </td><td>
 
-[Total Cost of Ownership \(TCO\) for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/confifure-eam-asset-tco.md)
+[Total Cost of Ownership \(TCO\) for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/confifure-eam-asset-tco.md)
 
 </td></tr><tr><td>
 
@@ -151,8 +151,8 @@ sn\_eam.enterprise\_asset\_manager
 
 </td><td>
 
--   [Create an asset onboarding process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-asset-onboarding-task-eam.md)
--   [Create a multi-asset onboarding process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-multi-asset-onboarding.md)
+-   [Create an asset onboarding process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-asset-onboarding-task-eam.md)
+-   [Create a multi-asset onboarding process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-multi-asset-onboarding.md)
 
 </td></tr><tr><td>
 
@@ -165,7 +165,7 @@ Track assets using Indoor maps
 
 </td><td>
 
-[Track assets using indoor maps in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/track-enterprise-assets-indoor-maps.md)
+[Track assets using indoor maps in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/track-enterprise-assets-indoor-maps.md)
 
 </td></tr><tr><td>
 
@@ -177,7 +177,7 @@ sn\_eam.enterprise\_admin
 
 </td><td>
 
-[Managing enterprise asset shipments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/manage-shipments-eam.md)
+[Managing enterprise asset shipments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/manage-shipments-eam.md)
 
 </td></tr><tr><td>
 
@@ -189,7 +189,7 @@ sn\_eam.enterprise\_asset\_manager
 
 </td><td>
 
-[Managing enterprise asset move orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-enterprise-asset-move-orders.md)
+[Managing enterprise asset move orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/managing-enterprise-asset-move-orders.md)
 
 </td></tr><tr><td>
 
@@ -201,7 +201,7 @@ sn\_eam.enterprise\_admin
 
 </td><td>
 
-[Managing risk in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-eam-risk-scores.md)
+[Managing risk in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/managing-eam-risk-scores.md)
 
 </td></tr><tr><td>
 
@@ -213,7 +213,7 @@ sn\_eam.enterprise\_admin
 
 </td><td>
 
-[Normalizing enterprise models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/normalizing-enterprise-models.md)
+[Normalizing enterprise models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/normalizing-enterprise-models.md)
 
 </td></tr><tr><td>
 
@@ -225,7 +225,7 @@ itil
 
 </td><td>
 
-[Managing incidents in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-eam-incidents.md)
+[Managing incidents in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/managing-eam-incidents.md)
 
 </td></tr><tr><td>
 
@@ -237,7 +237,7 @@ sn\_eam.enterprise\_admin
 
 </td><td>
 
-[Create a knowledge article for Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eam-knowledge-article.md)
+[Create a knowledge article for Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-eam-knowledge-article.md)
 
 </td></tr></tbody>
 </table>

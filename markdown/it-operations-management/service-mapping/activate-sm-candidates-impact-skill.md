@@ -3,11 +3,11 @@ title: Activate the Service Mapping Candidates Impact skill
 description: The Service Mapping Candidates Impact skill analyzes connections and effects on servers. It enables generating an impact summary, using ServiceNow Otto. The skill is active by default. If needed, administrators can activate or deactivate the skill.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/activate-sm-candidates-impact-skill.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Generate description, Find processes, Classify application service candidates, Now Assist skill, Now Assist, generative AI, generative AI, ITOM, IT Operations management]
 breadcrumb: [Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
@@ -28,27 +28,27 @@ The Service Mapping Candidates Impact skill enables the agent to create a summar
 
 ## Before you begin
 
-Before activating the ServiceNow Otto skills, you must install the ServiceNow Otto for IT Operations Management \(ITOM\) plugin. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/install-now-assist-itom.md).
+Before activating the ServiceNow Otto skills, you must install the ServiceNow Otto for IT Operations Management \(ITOM\) plugin. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/install-now-assist-itom.md).
 
 You must configure the following setting:
 
 -   ITOM pro plus SKU
--   Now Assist for ITOM 9.10 ServiceNow Otto for ITOM
+-   ServiceNow Otto for ITOM
 -   Service Mapping Plus \(minimum version 1.16.3\)
--   Now Assist for IT Service Management \(ITSM\) ServiceNow Otto for ITSM
--   Now Assist for Platform \(minimum version 9.1.0\) or ServiceNow Otto®
+-   ServiceNow Otto for ITSM
+-   ServiceNow Otto®
 
-**Important:** This Now Assist skill is now turned on by default. The skill will be automatically available to appropriate role users for the application. This change simply activates the skill and does not touch the roles that are needed to use the skill. The new default behavior works as follows:
+**Important:** This skill is now turned on by default. The skill will be automatically available to appropriate role users for the application. This change simply activates the skill and does not touch the roles that are needed to use the skill. The new default behavior works as follows:
 
 -   **New customers**
 
-    When you install a Now Assist product, designated skills will turn on automatically.
+    When you install an AI product, designated skills will turn on automatically.
 
 -   **Existing customers who are upgrading**
 
     Any previously unconfigured skill will turn on automatically \(the skill was never turned on, then off again\).
 
-    There is no change to Now Assist skills that are currently enabled and customized.
+    There is no change to skills that are currently enabled and customized.
 
     Previously configured skills that were turned on, then off, will remain inactive.
 
@@ -57,7 +57,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 
 2.  On the navigation panel, select **ITOM**.
 

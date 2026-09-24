@@ -3,11 +3,11 @@ title: Duplicate an agentic workflow
 description: Duplicate an existing agentic workflow in AI Agent Studio to save time by not having to manually configure or create agentic workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/clone-aia-usecase.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create an agentic workflow, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Create an agentic workflow, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Duplicate an agentic workflow

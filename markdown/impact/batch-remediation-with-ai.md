@@ -3,12 +3,12 @@ title: Remediate existing findings with AI-suggested fixes
 description: After a scan completes and populates findings, use the AI-Eligible Findings dashboard to generate and apply AI-suggested fixes in bulk or individually to accelerate remediation of technical debt.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/batch-remediation-with-ai.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-08-02"
 reading_time_minutes: 4
 keywords: [batch remediation, AI-Eligible Findings, scan results, findings dashboard, bulk generate fixes]
-breadcrumb: [Understand scan results and findings, Prevent and resolve technical debt with AI, Platform Health, Using Impact, Impact]
+breadcrumb: [Prevent and resolve technical debt with AI, Platform Health, Using Impact, Impact]
 ---
 
 # Remediate existing findings with AI-suggested fixes
@@ -32,7 +32,7 @@ Before you begin:
 
 1.  Run a scan and wait for it to complete.
 
-    See [Run your first scan with the Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/run-scan-engine.md) for details.
+    See [Run Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/run-scan-engine.md) for details.
 
     When the scan completes, the findings are populated in the database and you can access the dashboard.
 
@@ -46,13 +46,16 @@ Before you begin:
 
     The table shows the following columns:
 
-    -   Application: The application where the finding was detected. Select the application name to expand and see child violations.
-    -   Description: A brief description of the violation. This corresponds to the scan definition that was triggered.
-    -   Category: The category assigned to this scan definition, for example, Performance, Security, or Style.
-    -   Finding counts: The number of violations with this finding. If a violation occurs in 5 different places in your code, the count is 5.
-    -   Impact to Instance: A number from 1 to 10 within the finding's enforcement level, where 10 is the highest priority.
-    -   Total Technical Debt \(time\): The estimated time it would take to manually fix all violations of this type. AI-suggested fixes can reduce this time significantly.
-    -   Fix Status: The current state of the fix: Ready for review, Reviewed, Revised, Processing, or Not applicable.
+    |Field|Description|
+    |-----|-----------|
+    |Application|The application where the finding was detected. Select the application name to expand and see child violations.|
+    |Description|A brief description of the violation. This corresponds to the scan definition that was triggered.|
+    |Category|The category assigned to this scan definition, for example, Performance, Security, or Style.|
+    |Finding counts|The number of violations with this finding. If a violation occurs in 5 different places in your code, the count is 5.|
+    |Impact to Instance|A number from 1 to 10 within the finding's enforcement level, where 10 is the highest priority.|
+    |Total Technical Debt \(time\)|The estimated time it would take to manually fix all violations of this type. AI-suggested fixes can reduce this time significantly.|
+    |Fix Status|The current state of the fix: Ready for review, Reviewed, Revised, Processing, or Not applicable.|
+
 4.  Sort by impact to instance or total technical debt to prioritize which findings to fix first.
 
     **Note:** ACT level findings must be fixed before you can save records. RECOMMEND level findings require either a fix or an exception. SUGGEST and REVIEW findings are lower priority but still important for code quality.
@@ -100,7 +103,7 @@ Your AI-suggested fixes are applied to your active update set. All changes are t
 
 Before accepting AI fixes in bulk, review the "AI Finding Details" explanation for at least one fix in each category. This button provides a less technical explanation of the violation and the fix, helping you understand why the change improves your code.
 
-After fixing violations, you can create user stories or tasks in your project management system to document the work. This is especially helpful for tracking remediation effort and communicating changes to your team. See [Create user stories and tasks for Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/creating-user-stories-tasks-scan-engine.md) for detailed steps.
+After fixing violations, you can create user stories or tasks in your project management system to document the work. This is especially helpful for tracking remediation effort and communicating changes to your team. See [Create user stories and tasks for Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/creating-user-stories-tasks-scan-engine.md) for detailed steps.
 
 Use the findings dashboard to track your progress over time. Run scans regularly and monitor how your finding counts and technical debt time estimates change. This helps you identify recurring violation patterns and adjust your coding standards or training as needed.
 

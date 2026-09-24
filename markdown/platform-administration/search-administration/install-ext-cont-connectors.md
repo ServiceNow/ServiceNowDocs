@@ -3,13 +3,13 @@ title: Install External Content Connectors
 description: Install the External Content Connectors applications from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/install-ext-cont-connectors.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-08-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -39,7 +39,7 @@ When you install this plugin, it automatically installs plugins for the followin
 
 Your instance needs inbound mTLS support to run external content connector crawls. If inbound mTLS support isn't already activated for your instance, it should be automatically activated after you install the External Content Connectors Application Suite plugin.
 
-**Note:** Automatic activation of inbound mTLS support on your instance may take up to 24 hours. To check the activation status for this feature, see [Verify whether inbound mTLS support is activated for your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/verify-adcv2-inbound-mtls-enabled.md).
+**Note:** Automatic activation of inbound mTLS support on your instance may take up to 24 hours. To check the activation status for this feature, see [Verify whether inbound mTLS support is activated for your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/verify-adcv2-inbound-mtls-enabled.md).
 
 ## Procedure
 
@@ -64,10 +64,10 @@ Your instance needs inbound mTLS support to run external content connector crawl
 
 ## What to do next
 
-With the External Content Connectors applications installed, connector admins can configure connectors to crawl content, metadata, users, and group memberships from supported external content repositories. They can also configure crawl settings and create and schedule crawls for those connectors. For details on external content connector configuration, see [Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configuring-ext-cont-connectors.md).
+With the External Content Connectors applications installed, connector admins can configure connectors to crawl content, metadata, users, and group memberships from supported external content repositories. They can also configure crawl settings and create and schedule crawls for those connectors. For details on external content connector configuration, see [Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configuring-ext-cont-connectors.md).
 
--   **[Verify whether inbound mTLS support is activated for your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/verify-adcv2-inbound-mtls-enabled.md)**  
+-   **[Verify whether inbound mTLS support is activated for your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/verify-adcv2-inbound-mtls-enabled.md)**  
 Check whether inbound mTLS support is activated for your ServiceNow AI Platform® instance. You need this feature activated to run crawls for external content connectors.
 
-**Parent Topic:**[External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ext-cont-connectors-landing-page.md)
+**Parent Topic:**[External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/ext-cont-connectors-landing-page.md)
 

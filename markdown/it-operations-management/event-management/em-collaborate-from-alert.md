@@ -3,11 +3,11 @@ title: Collaborate from within an alert
 description: You can collaborate with colleagues and write work notes while working in an alert.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/em-collaborate-from-alert.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View alert information, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -43,5 +43,5 @@ You can select to work either in a compact view of Connect that overlays the sta
 6.  To conclude the Connect collaboration session, click **Following**.
 
 
-**Parent Topic:**[View alert information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMViewAlert.md)
+**Parent Topic:**[View alert information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMViewAlert.md)
 

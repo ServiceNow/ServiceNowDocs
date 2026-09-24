@@ -3,7 +3,7 @@ title: Set up the Cisco Webex Teams spoke
 description: Integrate the ServiceNow instance and Cisco Webex Teams by creating a custom OAuth application in Cisco Webex Teams or using the custom Cisco Webex Credentials to authenticate ServiceNow requests.Use the information generated during the Cisco Webex Teams application configuration to register Cisco Webex Teams as an OAuth provider and allow the ServiceNow instance to request OAuth 2.0 tokens.Create a credential record for the Cisco Webex Teams account. The Cisco Webex Teams Spoke connection and credential alias uses these credentials to authorize actions.Create a credential record for the Cisco Webex Teams account. The Cisco Webex Teams Spoke connection and credential alias uses these credentials to authorize actions.Modify the short description to provide spoke specific information.Create a connection record for your Specify whether the record is for a host, instance, custom application, or account.. The Visa spoke connection and credential aliases use these connections to perform actions in .
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-cisco-teams.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task

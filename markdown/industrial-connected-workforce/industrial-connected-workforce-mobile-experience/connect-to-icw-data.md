@@ -3,11 +3,11 @@ title: Connect to your Industrial Connected Workforce data
 description: Connect the Now Mobile Agent application to your Industrial Connected Workforce \(ICW\) application instance to manage work on your mobile device.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/connect-to-icw-data.html
-release: australia
+release: brazil
 product: Industrial Connected Workforce Mobile Experience
 classification: industrial-connected-workforce-mobile-experience
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the Now Mobile Agent application, Set up the Industrial Connected Workforce Mobile Agent, Configure, Industrial Connected Workforce Mobile Experience, Industrial Connected Workforce]
 ---
@@ -36,5 +36,5 @@ Role required: wm\_agent or wm\_dispatcher
 3.  Tap **Industrial Connected Workforce** to get started with your work.
 
 
-**Parent Topic:**[Configure the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/configure-now-mobile-agent-application-icw-mobile.md)
+**Parent Topic:**[Configure the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/configure-now-mobile-agent-application-icw-mobile.md)
 

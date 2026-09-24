@@ -3,11 +3,11 @@ title: Deprecate GlideEncrypter usage of 3DES for password2 fields
 description: Deprecate GlideEncrypter usage of 3DES encryption standard on your instance ensure that your instance uses the more secure Advanced Encryption Standard \(AES\) exclusively for the encryption and decryption of your Password2 data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/password2-3des-deprecation.html
-release: australia
+release: brazil
 product: Platform Encryption
 classification: platform-encryption
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Prepare your instance for GlideEncrypter deprecation, Key Management Framework, Encryption]
 ---
@@ -26,8 +26,8 @@ In the Vancouver release, administrators can choose to deprecate the 3DES algori
 
     When transferring password2 encrypted texts to other instances, you must ensure that KMF Key Exchange is enabled between source and target instances. This configuration ensures that the keys used to encrypt password2 texts are available on both instances to decrypt the password2 encrypted texts. Before deprecating 3DES, Consider the following use cases that can impact password2 data between instances.
 
-    -   If you have applications on your instance that use password2 data, ensure that KMF Resource Exchange is installed on that instance. KMF Resource Exchange ensures that instance level keys used to encrypt the password2 data on the source instance are available on the target instances for decryption. For more information, see [Key Management Framework Resource Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/resource-exchange.md).
-    -   If you plan on exporting password2 data through XML or Data Sources, ensure that the target instance has KMF Key Exchange enabled. This configuration ensures that the instance level keys used to encrypt the password2 data on the source instance are available on the target instances for decryption. For details on this configuration, see [Key Management Framework Key Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/kmf-key-exchange-overview.md).
+    -   If you have applications on your instance that use password2 data, ensure that KMF Resource Exchange is installed on that instance. KMF Resource Exchange ensures that instance level keys used to encrypt the password2 data on the source instance are available on the target instances for decryption. For more information, see [Key Management Framework Resource Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platform-encryption/resource-exchange.md).
+    -   If you plan on exporting password2 data through XML or Data Sources, ensure that the target instance has KMF Key Exchange enabled. This configuration ensures that the instance level keys used to encrypt the password2 data on the source instance are available on the target instances for decryption. For details on this configuration, see [Key Management Framework Key Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platform-encryption/kmf-key-exchange-overview.md).
 
         **Important:** The examples above are more common scenarios, but if you’re using any other means of transferring password2 encrypted text between instances, you must configure KMF Resource Exchange to ensure the target instance can decrypt password2 data.
 
@@ -48,7 +48,7 @@ In the Vancouver release, administrators can choose to deprecate the 3DES algori
 
 After you’ve reviewed the preceding use cases, use knowledge base article KB1704481, for a step by step process to safely deprecate the usage of DES or Triple DES algorithm in instance. For details see [KB1704481](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1704481).
 
-**Important:** You must elevate to security admin to see the **Security Compliance** module and perform these steps. For details on that process, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
+**Important:** You must elevate to security admin to see the **Security Compliance** module and perform these steps. For details on that process, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
 
 ## After GlideEncrypter deprecation
 
@@ -64,5 +64,5 @@ After the deprecation process is complete, the following information applies to 
     If you see this error refer to support information in knowledge base article [KB1296997](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1296997).
 
 
-**Parent Topic:**[Prepare your instance for GlideEncrypter deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/check-3des.md)
+**Parent Topic:**[Prepare your instance for GlideEncrypter deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platform-encryption/check-3des.md)
 

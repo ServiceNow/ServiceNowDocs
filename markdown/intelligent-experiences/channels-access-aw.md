@@ -3,11 +3,11 @@ title: Select channels and access for an agentic workflow
 description: In the guided setup for an agentic workflow, activate the agentic workflow to use in the ServiceNow Otto panel or UI actions in the Core UI and workspaces.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/channels-access-aw.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create an agentic workflow, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Create an agentic workflow, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Select channels and access for an agentic workflow
@@ -36,7 +36,7 @@ The final step of the agentic workflow guided setup includes options for where a
 
     3.  Select a table where the UI action can be used.
 
-        Users who are accessing a record on the selected table can view the UI action in the Core UI and workspaces. See [In-product agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/in-product-agentic-ai.md) for more information about the AI Workflows panel.
+        Users who are accessing a record on the selected table can view the UI action in the Core UI and workspaces. See [In-product agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/in-product-agentic-ai.md) for more information about the AI Workflows panel.
 
     4.  Specify conditions for the UI action to appear and select **Add**.
 
@@ -57,5 +57,5 @@ If you added a UI action for your agentic workflow in this guided setup, but the
 
 ## What to do next
 
-Move to the **Testing** playground to [test an agentic workflow execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-use-case.md) using example utterances or to [test user access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aw-access.md).
+Move to the **Testing** playground to [test an agentic workflow execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-aia-use-case.md) using example utterances or to [test user access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-aw-access.md).
 

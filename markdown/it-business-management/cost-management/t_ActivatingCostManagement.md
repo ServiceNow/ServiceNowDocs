@@ -3,11 +3,11 @@ title: Activate Cost Management
 description: Activate the Cost Management plugin \(com.snc.cost\_management\) using the admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/cost-management/t\_ActivatingCostManagement.html
-release: australia
+release: brazil
 product: Cost Management
 classification: cost-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Cost Management, Strategic Portfolio Management]
 ---
@@ -37,10 +37,10 @@ Role required: admin
     **Note:** To load the demo data, select the **Load demo data** check box.
 
 
--   **[Components installed with Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/r_InstalledWithCostManagement.md)**  
+-   **[Components installed with Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/cost-management/r_InstalledWithCostManagement.md)**  
 Several components are installed with the Cost Management application.
--   **[Cost overview module roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/r_CostOverviewModuleRoles.md)**  
+-   **[Cost overview module roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/cost-management/r_CostOverviewModuleRoles.md)**  
 Only certain roles can customize Cost Overview modules. In addition to viewing, roles with access can refresh, add, delete, and rearrange reports.
 
-**Parent Topic:**[Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/r_CostManagement.md)
+**Parent Topic:**[Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/cost-management/r_CostManagement.md)
 

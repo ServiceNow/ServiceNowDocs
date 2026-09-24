@@ -3,11 +3,11 @@ title: Interaction wrap up timer
 description: The interaction wrap up timer displays a countdown of the wrap up duration period in CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/interaction-management/interaction-wrap-up-timer.html
-release: australia
+release: brazil
 product: Interaction Management
 classification: interaction-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Interaction wrap up, Configuring Interaction Management, Interaction Management, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -31,5 +31,5 @@ The timer counts down the amount of time specified in the **Duration in seconds*
 |Orange|Time remaining is between 25% and 0% of duration.|
 |Red|When the timer reaches 0.00, the display turns red and then disappears. The system updates the state of the interaction record to Closed Complete.|
 
-**Parent Topic:**[Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/interaction-wrap-up-state.md)
+**Parent Topic:**[Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/interaction-management/interaction-wrap-up-state.md)
 

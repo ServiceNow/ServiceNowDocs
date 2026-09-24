@@ -3,9 +3,9 @@ title: Pass global filters to the dashboard page template
 description: Global filters are sent to the dashboard to serve as filters for the visualizations within the dashboard. These filters are merged with existing filters in the dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/pass-global-filters-to-db.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Creating Platform Analytics pages, Platform Analytics experience, Platform Analytics]
 ---
@@ -61,7 +61,7 @@ Role required: admin
     ```
 
 
-**Parent Topic:**[Creating Platform Analytics pages in your own workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/adding-analytics-center-to-ws.md)
+**Parent Topic:**[Creating Platform Analytics pages in your own workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/adding-analytics-center-to-ws.md)
 
 **Related topics**  
 

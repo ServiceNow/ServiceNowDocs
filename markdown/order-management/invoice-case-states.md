@@ -3,9 +3,9 @@ title: Invoice case states on Business Portal
 description: An invoice case moves through different states during its life cycle after an accounts payable specialist processes it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/invoice-case-states.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Business Portal reference, Reference, Sales Customer Relationship Management]
 ---
@@ -83,10 +83,10 @@ Cancelled
 The invoice case has been cancelled.**Note:** Only invoice cases in the Draft state can be cancelled.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Business Portal reference for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-business-portal-reference.md)
+</table>**Parent Topic:**[Business Portal reference for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-business-portal-reference.md)
 
 **Related topics**  
 
 
-[Invoice case and invoice case line states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/invoice-operations-case-states.md)
+[Invoice case and invoice case line states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/invoice-operations-case-states.md)
 

@@ -3,9 +3,9 @@ title: Add a visualization to a dashboard from the Visualization Designer
 description: Add a visualization from the Visualization Designer to a new dashboard or to an existing dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/add-dv-new-db.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Add a visualization to a dashboard]
 breadcrumb: [Share, edit, or delete, Data visualizations, Platform Analytics experience, Platform Analytics]
@@ -29,23 +29,23 @@ Role required: You must have a role that allows access to the data in the visual
 
     \[Omitted image "dv-add-viz-to-db.png"\] Alt text: The Add to Dashboard menu on a data visualization.
 
-<table id="choicetable_u1x_qwv_c1c"><thead><tr><th align="left" id="d76112e102">
+<table id="choicetable_u1x_qwv_c1c"><thead><tr><th align="left" id="d77157e102">
 
 Option
 
-</th><th align="left" id="d76112e105">
+</th><th align="left" id="d77157e105">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d76112e111">
+</th></tr></thead><tbody><tr><td id="d77157e111">
 
 **Add to new dashboard**
 
 </td><td>
 
-A new, untitled dashboard opens in the inline dashboard editor. The data visualization is already on this dashboard. Complete the dashboard, adding any more desired elements and naming it. For more information, see [Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-db-in-ac.md).
+A new, untitled dashboard opens in the inline dashboard editor. The data visualization is already on this dashboard. Complete the dashboard, adding any more desired elements and naming it. For more information, see [Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-db-in-ac.md).
 
-</td></tr><tr><td id="d76112e130">
+</td></tr><tr><td id="d77157e130">
 
 **Add to existing dashboard**
 
@@ -83,5 +83,5 @@ You have just completed creating the data visualization Open incidents - Priorit
     \[Omitted image "dv-to-db-ex-final.png"\] Alt text: Dashboard showing the added Open incidents - Priority data visualization with its configuration panel open.
 
 
-**Parent Topic:**[Common data visualization tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/common-dv-tasks.md)
+**Parent Topic:**[Common data visualization tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/common-dv-tasks.md)
 

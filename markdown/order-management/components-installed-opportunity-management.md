@@ -3,9 +3,9 @@ title: Components installed with Opportunity Management
 description: Several types of components are installed with activation of the Opportunity Management plugin, including user roles and tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/components-installed-opportunity-management.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Opportunity Management reference, Sales automation, Reference, Sales Customer Relationship Management]
 ---
@@ -338,10 +338,10 @@ Opportunity Allocation Dimensionsn\_opty\_mgmt\_core\_opportunity\_allocation\_d
 Allocation values that are grouped or categorized, such as by territory or product family.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Opportunity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-reference.md)
+</table>**Parent Topic:**[Opportunity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/opportunity-management-reference.md)
 
 **Related topics**  
 
 
-[Install Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/install-opportunity-management.md)
+[Install Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/install-opportunity-management.md)
 

@@ -3,9 +3,9 @@ title: Components Installed with Quote Management
 description: Several types of components are installed with activation of the Quote Management plugin, including user roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/components-installed-quote-management.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quote Management reference, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
@@ -109,5 +109,5 @@ A granular role created to give read access to quote tables.
 -   sn\_customerservice.customer\_data\_viewer
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Quote Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-reference.md)
+</table>**Parent Topic:**[Quote Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-management-reference.md)
 

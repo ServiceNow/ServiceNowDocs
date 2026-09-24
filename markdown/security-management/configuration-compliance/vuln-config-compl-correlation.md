@@ -3,11 +3,11 @@ title: Configuration Compliance correlation
 description: Configuration Compliance provides prioritization and test result grouping \(into remediation task\) to aid remediation of non-compliance issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/vuln-config-compl-correlation.html
-release: australia
+release: brazil
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: concept
-last_updated: "2026-08-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuration Compliance imported data, Explore, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---

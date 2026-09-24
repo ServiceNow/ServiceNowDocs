@@ -3,14 +3,14 @@ title: Playbooks as an MCP tool
 description: Expose a playbook as a tool in an MCP server, enabling MCP clients to trigger and execute the playbook through the Model Context Protocol \(MCP\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/playbook-as-mcp-tool.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-07-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Creating and managing Playbooks, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Playbooks as an MCP tool
@@ -63,11 +63,11 @@ We take an example of enabling an employee onboarding playbook to new employees 
 
 -   **Step 2: Create a Playbook MCP tool**
 
-    As an system admin or MCP server admin, create an MCP tool of type Playbook. Select the employee onboarding playbook and add the tool to an MCP server. For more information, see [Add a playbook as an MCP tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/add-playbook-as-mcp-tool.md).
+    As an system admin or MCP server admin, create an MCP tool of type Playbook. Select the employee onboarding playbook and add the tool to an MCP server. For more information, see [Add a playbook as an MCP tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/add-playbook-as-mcp-tool.md).
 
 -   **Step 3: Configure the MCP client**
 
-    Configure MCP clients to connect to the server and use the tool. For more information, see [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/connect-mcp-server-client.md)
+    Configure MCP clients to connect to the server and use the tool. For more information, see [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/connect-mcp-server-client.md)
 
 -   **Step 4: Use the playbook from the MCP client**
 
@@ -79,9 +79,4 @@ We take an example of enabling an employee onboarding playbook to new employees 
 
     After all the activities of the playbook are completed, Claude displays a confirmation message with a summary. \[Omitted image "example-playbook-claude-summary.png"\] Alt text: The playbook is complete. Claude displays the confirmation along with the summary.
 
-
--   **[Add a playbook as an MCP tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/add-playbook-as-mcp-tool.md)**  
-Create a tool in the MCP Server Console and expose it in an MCP server so that MCP clients can invoke the playbook through the MCP.
-
-**Parent Topic:**[Creating and managing Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/creating-managing-playbooks.md)
 

@@ -3,11 +3,11 @@ title: Index searchable content from ServiceNow AI Platform tables and external 
 description: Make alphanumeric content from text and string fields on your records searchable by configuring an indexed source. Each indexed source retrieves data from a table and adds it to the AI Search index.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/explore-indexing-content-ais.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -24,11 +24,11 @@ Define an indexed source for each ServiceNow AI Platform table with records that
 
 The base system includes preconfigured indexed sources for Knowledge Base articles, Catalog Items, and user records. You can create your own indexed sources to index records from other ServiceNow AI Platform tables.
 
-To learn more about configuring and using indexed sources for ServiceNow AI Platform table records, see [Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/indexed-sources-ais.md).
+To learn more about configuring and using indexed sources for ServiceNow AI Platform table records, see [Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/indexed-sources-ais.md).
 
 **Note:** AI Search doesn't index Unicode characters from the High Surrogate Area \(code units in the range U+D800 to U+DBFF\). Characters from this range are replaced with spaces during indexing.
 
-By activating the External Content for AI Search plugin \(com.glide.ais.external\_content\), you can enable indexing and search for record content from external sources. Supported sources include SharePoint collections, Confluence sites, and [remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables.md). For more details, see [Indexing and searching external content in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/external-content-ais.md).
+By activating the External Content for AI Search plugin \(com.glide.ais.external\_content\), you can enable indexing and search for record content from external sources. Supported sources include SharePoint collections, Confluence sites, and [remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/remote-tables.md). For more details, see [Indexing and searching external content in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/external-content-ais.md).
 
-**Parent Topic:**[Exploring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/explore-ais.md)
+**Parent Topic:**[Exploring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/explore-ais.md)
 

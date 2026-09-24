@@ -3,11 +3,11 @@ title: Configure the problem form layout
 description: Configure the problem form so the information it collects is relevant to your organization's processes. You can easily modify the form to show only the fields, related lists, and other elements that you need.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/configure-problem-form-layout.html
-release: australia
+release: brazil
 product: Problem Management
 classification: problem-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the problem form, Configuring Problem Management, Problem Management, IT Service Management]
 ---
@@ -26,7 +26,7 @@ Role required: personalize\_form
 
 2.  In the problem form context menu, select **Configure** &gt; **Form Layout**.
 
-3.  Follow the steps in [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) to perform any of the following layout modifications.
+3.  Follow the steps in [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md) to perform any of the following layout modifications.
 
     Some of these modifications are illustrated in the example.
 
@@ -46,5 +46,5 @@ Role required: personalize\_form
     \[Omitted image "configure-form-layout.png"\] Alt text: Problem form layout example.
 
 
-**Parent Topic:**[Configure the problem form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/problem-configure-forms.md)
+**Parent Topic:**[Configure the problem form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/problem-configure-forms.md)
 

@@ -3,11 +3,11 @@ title: Add parameterized data sets
 description: Add or import test data to specify parameter runtime values.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/add-parameterized-data.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Parameterized tests, Building and running automated tests with the Automated Test Framework, Automated Test Framework \(ATF\) test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -18,8 +18,8 @@ Add or import test data to specify parameter runtime values.
 
 ## Before you begin
 
--   [Create a parameterized test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/create-parameterized-test.md)
--   [Add a parameter to a test step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/add-parameterized-value-to-step.md)
+-   [Create a parameterized test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/create-parameterized-test.md)
+-   [Add a parameter to a test step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/add-parameterized-value-to-step.md)
 -   Role required: atf\_test\_admin, atf\_test\_designer, or admin
 
 ## About this task
@@ -38,15 +38,15 @@ Test designers can add data sets manually, or import data from a file.
 
 3.  In the Test Run Data Sets related list, add or import data sets.
 
-<table id="choicetable_ndb_zsg_5fb"><thead><tr><th align="left" id="d201793e113">
+<table id="choicetable_ndb_zsg_5fb"><thead><tr><th align="left" id="d194928e113">
 
 Option
 
-</th><th align="left" id="d201793e116">
+</th><th align="left" id="d194928e116">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d201793e122">
+</th></tr></thead><tbody><tr><td id="d194928e122">
 
 **Add**
 
@@ -59,7 +59,7 @@ The New Parameter Value Set form opens. This form includes all parameters availa
 3.  Click **Submit**.
 
 
-</td></tr><tr><td id="d201793e153">
+</td></tr><tr><td id="d194928e153">
 
 **Import**
 
@@ -68,8 +68,8 @@ The New Parameter Value Set form opens. This form includes all parameters availa
 The Import Test Run Data Sets form opens.
 
  1.  Define the import behavior.
-    -   **Add**: Adds the data in the file to existing test run data sets in the Test Run Data Sets table. For more information, see [Add a record in the template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_AddARecordInTheTemplate.md).
-    -   **Replace**: Downloads a template that includes any existing data sets in the Test Run Data Sets table. Replaces all existing data sets that have matching Sys IDs in the Test Run Data Sets table with data from the uploaded file. For more information, see [Update a record in the template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_UpdateARecordInTheTemplate.md).
+    -   **Add**: Adds the data in the file to existing test run data sets in the Test Run Data Sets table. For more information, see [Add a record in the template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/t_AddARecordInTheTemplate.md).
+    -   **Replace**: Downloads a template that includes any existing data sets in the Test Run Data Sets table. Replaces all existing data sets that have matching Sys IDs in the Test Run Data Sets table with data from the uploaded file. For more information, see [Update a record in the template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/t_UpdateARecordInTheTemplate.md).
 2.  In the Upload Test Run Data File section, select **Yes** to download an Excel template with the required fields, then upload a completed file. Alternately, select **No** to upload a completed file.
  Each row in the file becomes an entry in the Test Run Data Sets table.
 
@@ -81,5 +81,5 @@ Click **Run Test**. Automated Test Framework runs each parameterized test once p
 
 Parameterized tests display test results by the execution order of the data sets. Open each test result record to view the test details.
 
-**Parent Topic:**[Parameterized tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/parameterized-tests.md)
+**Parent Topic:**[Parameterized tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/parameterized-tests.md)
 

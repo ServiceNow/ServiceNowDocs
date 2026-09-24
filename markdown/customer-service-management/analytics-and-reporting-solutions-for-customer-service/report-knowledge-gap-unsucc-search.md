@@ -3,11 +3,11 @@ title: Report knowledge gaps based on unsuccessful searches
 description: Report a knowledge gap from the Unsuccessful Searches report in the Self-Service Analytics dashboard for customer service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/analytics-and-reporting-solutions-for-customer-service/report-knowledge-gap-unsucc-search.html
-release: australia
+release: brazil
 product: Analytics and Reporting Solutions for Customer Service
 classification: analytics-and-reporting-solutions-for-customer-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Platform Analytics Solutions for Self-Service Analytics for Customer Service, Analytics and reporting, Customer Service Management]
 ---
@@ -48,5 +48,5 @@ If a collection is reported as a knowledge gap, a feedback task of type Unsucces
 **Related topics**  
 
 
-[Self-Service Analytics dashboard for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/analytics-and-reporting-solutions-for-customer-service/ssa-cs-dashboard.md)
+[Self-Service Analytics dashboard for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/analytics-and-reporting-solutions-for-customer-service/ssa-cs-dashboard.md)
 

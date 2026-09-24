@@ -3,11 +3,11 @@ title: Set up scan configuration for data visualization
 description: Visualize all account violations by scanning them using the selected policy set. Display the severity of all violations on the admin dashboard to take appropriate actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/set-up-data-visualization.html
-release: australia
+release: brazil
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Visualize all account violations by scanning them using the selected policy set.
 
 ## Before you begin
 
-Make sure you have referred to the default policies \([Policy list for scanning cloud accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/policies-for-scanning-cloud-accounts.md)\). To create a custom policy set, see [Create a policy set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/create-ccg-policy-set.md).
+Make sure you have referred to the default policies \([Policy list for scanning cloud accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/policies-for-scanning-cloud-accounts.md)\). To create a custom policy set, see [Create a policy set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-cloud-accelerate/create-ccg-policy-set.md).
 
 Role required: sn\_itom\_cam.cw\_admin or sn\_itom\_ccg.scheduling\_admin
 
@@ -53,7 +53,7 @@ Role required: sn\_itom\_cam.cw\_admin or sn\_itom\_ccg.scheduling\_admin
     **Note:**
 
     -   To view the synchronized configuration, navigate to **All** &gt; **Cloud Workspace** &gt; **Configuration**.
-    -   If you have synchronized the configuration, you don’t have to create a Scan Account configuration mentioned in [Create a scan account configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/create-scan-account-config.md).
+    -   If you have synchronized the configuration, you don’t have to create a Scan Account configuration mentioned in [Create a scan account configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/create-scan-account-config.md).
 12. To run an on-demand scan, select **Execute**.
 
     **Note:** You can create unlimited configurations for each account. An account may have multiple scan configurations, with violations and assessments based on all of them.

@@ -3,11 +3,11 @@ title: Order fulfillment AI agent
 description: This Sales Customer Relationship Management agent identifies fulfillment tasks for a domain order by checking historic tasks from similar orders, confirms the task list with the user, and creates them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/som-order-fulfillment-ai-agent.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Sales Automation AI agents, Sales Automation, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Sales Automation AI agents, Sales Automation, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Order fulfillment AI agent
@@ -53,7 +53,7 @@ Manage long-term memory
 
 </td><td>
 
-When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-aia-reference.md).
+When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/na-aia-reference.md).
 
 </td></tr><tr><td>
 
@@ -98,7 +98,7 @@ Triggers
 
 </td><td>
 
-Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-trigger-aia.md).
+Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-trigger-aia.md).
 
 </td></tr><tr><td>
 
@@ -117,7 +117,7 @@ Used in agentic workflows
 Not applicable.
 
 </td></tr></tbody>
-</table>Learn more about Sales Customer Relationship Management at [Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-overview.md).
+</table>Learn more about Sales Customer Relationship Management at [Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-overview.md).
 
-**Parent Topic:**[Sales Automation AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sales-automation-ai-agents-overview.md)
+**Parent Topic:**[Sales Automation AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/sales-automation-ai-agents-overview.md)
 

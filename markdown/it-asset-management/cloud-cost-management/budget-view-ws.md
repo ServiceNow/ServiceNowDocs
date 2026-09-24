@@ -3,11 +3,11 @@ title: Budget view
 description: Understand budget compliance by groups and service accounts can significantly improve oversight and reduce cloud spend.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/budget-view-ws.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Cloud Cost Management Workspace, Explore, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -23,7 +23,7 @@ Use the Budget view to:
 -   View your total budget and spend on your cloud assets.
 -   Analyze your future spend and understand if you're within or over the budget.
 -   Manage your cloud spend, you can define and monitor custom Budget plans.
--   Create and manage a budget policy. For more information, see [Create or update a budget policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/manage-cloud-budgets.md).
+-   Create and manage a budget policy. For more information, see [Create or update a budget policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/manage-cloud-budgets.md).
 
 \[Omitted image "ccm-budget-view-ws.png"\] Alt text: Budget view in Cloud Cost Management Workspace.
 

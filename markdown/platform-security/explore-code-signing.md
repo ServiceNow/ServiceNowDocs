@@ -3,10 +3,10 @@ title: Exploring Code Signing
 description: Code Signing provides cryptographic verification to ensure that only authorized scripts can execute on MID Servers. Code Signing prevents unauthorized or tampered External Communication Channel \(ECC\) queue records from being processed by MID Servers, maintaining the integrity of integrations between ServiceNow and external systems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/explore-code-signing.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Code Signing, Platform Security]
 ---
 
@@ -64,6 +64,10 @@ Code Signing provides several key advantages:
 
     All signature verification failures generate detailed audit records.
 
+-   **Change audit trail**
+
+    Code Signing records every create, update, and delete operation on a protected record, so you can identify who changed a record and when. For more information, see [Code Signing change audit data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/cs-vault-audit-data.md).
+
 
 ## Code Signing validation and jobs
 
@@ -72,6 +76,8 @@ All the metadata tables with valid configurations are signed at build time using
 -   Sign update sets.
 -   Mass sign records.
 -   Mass sign attachments.
+
+You can also generate signatures automatically when you commit application files to source control from a trusted instance. For more information, see [Signature generation during source control commit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown).
 
 -   **Sign update set**
 
@@ -92,5 +98,5 @@ All the metadata tables with valid configurations are signed at build time using
     \[Omitted image "encryption-job.png"\] Alt text: Encryption job to mass sign records.
 
 
-**Parent Topic:**[Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/code-signing-landing.md)
+**Parent Topic:**[Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/code-signing-landing.md)
 

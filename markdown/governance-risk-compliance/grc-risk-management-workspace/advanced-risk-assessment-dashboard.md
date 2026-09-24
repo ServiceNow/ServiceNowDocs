@@ -3,11 +3,11 @@ title: Advanced risk assessment dashboard
 description: Use the Advanced Risk Assessment Overview dashboard for an overview of the performance of any risk assessment methodology based on the risk assessment instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/advanced-risk-assessment-dashboard.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Analytics and reporting solutions for Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -46,5 +46,5 @@ This dashboard is visible to users with the sn\_risk.user role.
 
 \[Omitted image "ara\_dashboard\_risk\_register.png"\] Alt text: Risk register dashboard.
 
-**Parent Topic:**[Analytics and reporting solutions for Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/grc-risk-mgmt-content-pack.md)
+**Parent Topic:**[Analytics and reporting solutions for Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/grc-risk-mgmt-content-pack.md)
 

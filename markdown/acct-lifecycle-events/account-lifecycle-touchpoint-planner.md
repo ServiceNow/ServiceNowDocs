@@ -3,9 +3,9 @@ title: Touchpoint planner
 description: The touchpoint planner shows a calendar view of different touchpoints across all accounts associated with the customer success manager.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-touchpoint-planner.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Touchpoints, Customer success, Use, Customer Success Management]
 ---
@@ -23,7 +23,7 @@ The touchpoint planner shows a calendar view of different touchpoints across all
 The touchpoint planner provides a calendar view of touchpoints organized by account engagement and the type of touchpoint, priority, and status. To view the Touchpoint planner, follow these steps:
 
 1.  Login as a user with the `sn_acct_lc.customer_success_agent` role.
-2.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** and select the **Touchpoint planner** icon on the left navigation pane.
+2.  Navigate to **Workspaces** &gt; **CRM Workspace** and select the **Touchpoint planner** icon on the left navigation pane.
 
 \[Omitted image "account-lifecycle-touch-plan.png"\] Alt text: Touchpoint planner
 
@@ -35,7 +35,7 @@ You can do the following:
 -   Select a date period to view the schedule for that period.
 -   Select **Week** or **Month** option to view the schedule for the week or for month as required.
 -   The time zone shows the current time zone of the logged in user.
--   Select **Create Touchpoint** to create touchpoint. See [Create a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-touchpoint.md) for details.
+-   Select **Create Touchpoint** to create touchpoint. See [Create a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-create-touchpoint.md) for details.
 
-**Parent Topic:**[Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-use-touchpoints.md)
+**Parent Topic:**[Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-use-touchpoints.md)
 

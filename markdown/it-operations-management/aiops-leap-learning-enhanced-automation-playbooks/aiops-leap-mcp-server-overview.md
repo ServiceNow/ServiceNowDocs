@@ -3,11 +3,11 @@ title: LEAP MCP Server
 description: External AI clients can query LEAP automation data using Model Context Protocol \(MCP\) tools exposed through the ITOM MCP Server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-mcp-server-overview.html
-release: australia
+release: brazil
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: concept
-last_updated: "2026-08-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [MCP, Model Context Protocol, external AI client, LEAP MCP tools, AIOps MCP Server]
 breadcrumb: [Explore, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
@@ -50,10 +50,10 @@ LEAP MCP tools are registered as **Action** tools on the ITOM MCP Server and are
 
 ## Set up the MCP connection
 
-To connect an external AI client to LEAP MCP tools, you must configure OAuth authentication on the ITOM MCP Server. A banner on the MCP Server Console confirms when OAuth setup is required. For setup instructions, see [Activate the ITOM MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/activate-itom-mcp-server.md).
+To connect an external AI client to LEAP MCP tools, you must configure OAuth authentication on the ITOM MCP Server. A banner on the MCP Server Console confirms when OAuth setup is required. For setup instructions, see [Activate the ITOM MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/activate-itom-mcp-server.md).
 
 ## What to explore next
 
--   [Exploring LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/exploring-aiops-leap.md)
--   [Automation opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/automation-opportunities.md)
+-   [Exploring LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/exploring-aiops-leap.md)
+-   [Automation opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/automation-opportunities.md)
 

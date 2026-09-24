@@ -3,13 +3,13 @@ title: Build a decision table
 description: Build a decision table for the employee travel request application that determines which regional head to route travel requests to.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/app-tutorial-create-decision-table.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Adding logic and automation, App creation tutorial, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Adding logic and automation, App creation tutorial, Build, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Build a decision table
@@ -34,7 +34,7 @@ Phase 1
 
 </td><td>
 
-[Build a decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-decision-table.md)
+[Build a decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-create-decision-table.md)
 
 </td></tr><tr><td>
 
@@ -46,10 +46,10 @@ Phase 2
 
 </td><td>
 
-[Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md)
+[Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md)
 
 </td></tr></tbody>
-</table>For more information about using decision tables, see [Create decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-decision-table-in-decision-designer.md).
+</table>For more information about using decision tables, see [Create decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-decision-table-in-decision-designer.md).
 
 Follow along with the tutorial to build a decision table for the employee travel request application.
 
@@ -249,5 +249,5 @@ You have built a decision table for your application.
 
 ## What to do next
 
-Proceed to the next phase in adding logic and automation to the employee travel request application: [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
+Proceed to the next phase in adding logic and automation to the employee travel request application: [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
 

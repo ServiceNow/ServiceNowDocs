@@ -3,18 +3,18 @@ title: Databricks
 description: The Databricks connector provides read-only access to data and metadata from the Databricks data analytics platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/databricks-zcc.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Primary connectors, Zero Copy Connectors, Workflow Data Fabric]
+breadcrumb: [Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
 # Databricks
 
 The Databricks connector provides read-only access to data and metadata from the Databricks data analytics platform.
 
-A connection admin can set up a connection to Databricks in the Zero Copy Connector Hub and grant data stewards access to this connection. Data stewards can then use the established connection to create a data fabric table and map data from Databricks. This allows users to access Databricks data through the table list view or by using GlideRecord scripts. For details on creating data fabric tables and mapping data, see [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-data-fabric-tables-zcc.md).
+A connection admin can set up a connection to Databricks in the Zero Copy Connector Hub and grant data stewards access to this connection. Data stewards can then use the established connection to create a data fabric table and map data from Databricks. This allows users to access Databricks data through the table list view or by using GlideRecord scripts. For details on creating data fabric tables and mapping data, see [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/managing-data-fabric-tables-zcc.md).
 
 When you configure the connection with an access token, you can choose whether the connection authenticates using a shared, system-level OAuth entity profile or personal authentication. With personal authentication, each user signs in with their own credentials, and access to Databricks data is authenticated and audited individually rather than attributed to a shared account.
 
@@ -56,5 +56,5 @@ The following table lists supported Databricks data types and the default matchi
 **Related topics**  
 
 
-[Create a Databricks connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-databricks-connection-zcc.md)
+[Create a Databricks connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-databricks-connection-zcc.md)
 

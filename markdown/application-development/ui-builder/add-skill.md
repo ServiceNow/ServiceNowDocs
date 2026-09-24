@@ -3,11 +3,11 @@ title: Add Now Assist skills to your page
 description: Add skills to enhance your UI Builder page with Now Assist's generative AI capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/add-skill.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Now Assist, Now Assist Skill Kit, UI Builder]
 breadcrumb: [Dynamically expose data in UI Builder pages \(advanced feature\), Advanced UI Builder, UI Builder, Builder library, Developing your application, Building applications]
@@ -23,8 +23,8 @@ Role required: ui\_builder\_admin
 
 **Note:** Skills must be enabled and activated before they can be added to a page. For more information, see:
 
--   [Configure skill deployment settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-skill-settings.md): Enable the skill to make it available for selection
--   [Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-skill.md): Activate the skill so it can be selected
+-   [Configure skill deployment settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-skill-settings.md): Enable the skill to make it available for selection
+-   [Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-skill.md): Activate the skill so it can be selected
 
 ## About this task
 
@@ -43,7 +43,7 @@ In this example, you will:
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Create or open a page.
 
@@ -62,7 +62,7 @@ In this example, you will:
 
     \[Omitted image "add-skill-select.png"\] Alt text: UI Builder editor with the Select a Now Assist skill dialog open.
 
-    **Note:** Skills that are enabled in AI Skill Kit but not activated in AI Admin Hub appear in the list, but aren't selectable. For more information, see [Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit-landing.md) and [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
+    **Note:** Skills that are enabled in AI Skill Kit but not activated in AI Admin Hub appear in the list, but aren't selectable. For more information, see [Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit-landing.md) and [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-now-assist.md).
 
 6.  Select the **X** in the upper right to close the **Edit Generate Content** dialog.
 
@@ -119,5 +119,5 @@ In this example, you will:
 
 When you view the page and type in the input field, your text input triggers the **Generate Content** skill to execute and return content on the topic in the input field.
 
-**Parent Topic:**[Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/data-resources.md)
+**Parent Topic:**[Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/data-resources.md)
 

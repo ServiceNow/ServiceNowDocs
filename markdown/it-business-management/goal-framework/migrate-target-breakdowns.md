@@ -3,11 +3,11 @@ title: Migrate target breakdowns
 description: After upgrading to Goal Framework for SPM v2.3.0 or later, run the Migrate BreakdownInterval To Checkinfrequency scheduled job to migrate the existing values from the Review frequency field to the Check-in frequency field in the target records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/goal-framework/migrate-target-breakdowns.html
-release: australia
+release: brazil
 product: Goal Framework
 classification: goal-framework
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ After upgrading to Goal Framework for SPM v2.3.0 or later, run the **Migrate Bre
 
 ## About this task
 
-After running the job, the value in the **Check-in frequency** field for a target is populated based on the existing value in the **Review frequency** field of the target. If the existing value in the **Review frequency** field was set to any option other than **None**, then target breakdowns will be created for such targets based on the value in the existing check-in frequency of the target. For more information on how these values are migrated for targets with different values, see [Target breakdowns migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/target-breakdowns-migration.md).
+After running the job, the value in the **Check-in frequency** field for a target is populated based on the existing value in the **Review frequency** field of the target. If the existing value in the **Review frequency** field was set to any option other than **None**, then target breakdowns will be created for such targets based on the value in the existing check-in frequency of the target. For more information on how these values are migrated for targets with different values, see [Target breakdowns migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/target-breakdowns-migration.md).
 
 ## Before you begin
 
@@ -35,8 +35,8 @@ Role required: admin
 4.  Select **Execute Now**.
 
 
--   **[Target breakdowns migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/target-breakdowns-migration.md)**  
+-   **[Target breakdowns migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/target-breakdowns-migration.md)**  
 As an administrator, when you run the **Migrate BreakdownInterval To Checkinfrequency** scheduled job, the existing values in the **Review frequency** and **Breakdown interval** fields are migrated to the **Check-in frequency** field in the target records.
 
-**Parent Topic:**[Configuring Goal Framework and Goal Framework for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/configuring-goal-framework.md)
+**Parent Topic:**[Configuring Goal Framework and Goal Framework for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/configuring-goal-framework.md)
 

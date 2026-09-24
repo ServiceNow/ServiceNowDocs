@@ -3,11 +3,11 @@ title: Enable checks from the community for Agent Client Collector
 description: You can take checks from the github community and customize them for use in the Agent Client Collector \(ACC\), or you can compose your own scripts. Create a plugin with the customized Sensu check and install it on a ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-custom-checks.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Collect data from your system devices, ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -47,13 +47,13 @@ Role required: agent\_client\_collector\_admin
             The `<%~dp0>` variable directs to the drive \(**d**\) and path \(**p**\) of the batch file.
 
         -   The relevant script \(for example, `test.ps1`\) to be executed in the batch script.
-3.  Create a new ACC plugin, as described in [Create and edit Agent Client Collector plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/create-edit-assets.md).
+3.  Create a new ACC plugin, as described in [Create and edit Agent Client Collector plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/create-edit-assets.md).
 
 4.  Test the new plugin.
 
     1.  Create a new check definition for the customized Sensu check.
 
-        For details, see [Create and edit checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/view-checks.md).
+        For details, see [Create and edit checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/view-checks.md).
 
     2.  On the **Check Definition** page, navigate to the **Related Links** section and select **Generate allow list content**.
 
@@ -63,7 +63,7 @@ Role required: agent\_client\_collector\_admin
 
     4.  Create a new policy and add the newly created check definition.
 
-        For details on creating a policy, see [Create an Agent Client Collector policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/create-edit-policies.md).
+        For details on creating a policy, see [Create an Agent Client Collector policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/create-edit-policies.md).
 
     5.  Select the check definition and in the **Related Links** section, select **Test check**.
 
@@ -75,12 +75,12 @@ Role required: agent\_client\_collector\_admin
 
     3.  Select the type of credentials you want to create.
 
-        For details on creating credentials, see [Create a Connection and Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-alias.md).
+        For details on creating credentials, see [Create a Connection and Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/connection-alias.md).
 
     4.  Enter values in the fields on the page to assign credentials to your selected credential type.
 
     5.  Click **Submit**.
 
-6.  Create secure parameters for your check, as described in [Create secure parameters for a check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-create-secure-params.md).
+6.  Create secure parameters for your check, as described in [Create secure parameters for a check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-create-secure-params.md).
 
 

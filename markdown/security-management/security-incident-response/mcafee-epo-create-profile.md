@@ -3,11 +3,11 @@ title: Create a capability profile
 description: Create a profile and select the McAfee ePO capabilities that you want the profile to run.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/mcafee-epo-create-profile.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Capability profiles, McAfee ePO integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -36,15 +36,15 @@ The following table lists the capabilities that you're required to add to a prof
 
 3.  On the form, fill the fields.
 
-<table id="choicetable_kn1_ffj_fyb"><thead><tr><th align="left" id="d166411e102">
+<table id="choicetable_kn1_ffj_fyb"><thead><tr><th align="left" id="d166066e102">
 
 Field
 
-</th><th align="left" id="d166411e105">
+</th><th align="left" id="d166066e105">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d166411e111">
+</th></tr></thead><tbody><tr><td id="d166066e111">
 
 **Name**
 
@@ -52,7 +52,7 @@ Description
 
 Name for the McAfee ePO capability profile. This name helps you identify the profile type and describe it. An example for a profile that runs queries is, Host and Threat Details. This name is also the name for the security tag for this profile by default.
 
-</td></tr><tr><td id="d166411e123">
+</td></tr><tr><td id="d166066e123">
 
 **Description**
 
@@ -60,7 +60,7 @@ Name for the McAfee ePO capability profile. This name helps you identify the pro
 
 Additional information about the profile that further describes the activities of the profile. An example description for a profile that runs queries is, Threat enrichment for system details and a list of threat events. An example description for a profile that runs actions is, Isolate host machine.
 
-</td></tr><tr><td id="d166411e132">
+</td></tr><tr><td id="d166066e132">
 
 **Source**
 
@@ -68,7 +68,7 @@ Additional information about the profile that further describes the activities o
 
 Name of the McAfee ePO server. Only configured servers are available from the choice list.
 
-</td></tr><tr><td id="d166411e144">
+</td></tr><tr><td id="d166066e144">
 
 **McAfee ePO Capability**
 
@@ -83,7 +83,7 @@ Select the capabilities you want for this profile from the **Available** column 
 
 You can't add Get Host Details, Initiate Malware Scan and List Threat Events in the same profile, and you can't add Remove Isolation and Isolate Host on the same profile.
 
-</td></tr><tr><td id="d166411e184">
+</td></tr><tr><td id="d166066e184">
 
 **Order**
 
@@ -93,7 +93,7 @@ Workflow priority. Default is 100. The value of this field indicates the order t
 
 To set the order of operation, enter a value. For example, 100, 200, 300, 400.
 
-</td></tr><tr><td id="d166411e196">
+</td></tr><tr><td id="d166066e196">
 
 **Active**
 
@@ -111,7 +111,7 @@ The check box is selected by default to indicate that the profile is active. Whe
 
 ## What to do next
 
-The next step is to configure your profile. Before you configure the settings for the profile, you may prefer to review the concepts for configuring profiles and triggering conditions. See [Set up your McAfee ePO console to integrate with Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcafee-epo-setup-mcafee.md) and [Defining triggering conditions with a Configuration item \(CI\) field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcafee-epo-alternate-ci.md) for more information.
+The next step is to configure your profile. Before you configure the settings for the profile, you may prefer to review the concepts for configuring profiles and triggering conditions. See [Set up your McAfee ePO console to integrate with Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/mcafee-epo-setup-mcafee.md) and [Defining triggering conditions with a Configuration item \(CI\) field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/mcafee-epo-alternate-ci.md) for more information.
 
-**Parent Topic:**[McAfee ePO integration capability profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcafee-epo-creating-profiles.md)
+**Parent Topic:**[McAfee ePO integration capability profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/mcafee-epo-creating-profiles.md)
 

@@ -3,11 +3,11 @@ title: Update the actual value of a target breakdown
 description: Update the actual value of a target breakdown when its status is changed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/update-the-actual-value-of-a-target-breakdown-strategy.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Target breakdowns, Manage enterprise goals, Strategy and Goals, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -36,15 +36,15 @@ Updating the actual value of a target breakdown automatically updates the actual
 
 3.  Update the target for your goal using one of the following methods depending on your board type.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d94766e82">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d93980e82">
 
 Option
 
-</th><th align="left" id="d94766e85">
+</th><th align="left" id="d93980e85">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d94766e91">
+</th></tr></thead><tbody><tr><td id="d93980e91">
 
 **From the Goals page**
 
@@ -54,7 +54,7 @@ From the goals and targets list, select the target record that you want to updat
 
 Alternatively, you can select the cell in the Actual column of the target breakdown and enter the actual value on the **Goals and targets** tab.
 
-</td></tr><tr><td id="d94766e119">
+</td></tr><tr><td id="d93980e119">
 
 **From the Strategy page**
 
@@ -78,27 +78,27 @@ All the target breakdowns are displayed.
 </td></tr></tbody>
 </table>4.  On the form, update the **Actual** field for the target breakdown and add a business justification in the **Remark** field.
 
-    For a description of the field values, see [Target Breakdown form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/target-breakdown-form-sp.md).
+    For a description of the field values, see [Target Breakdown form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/target-breakdown-form-sp.md).
 
 5.  Select **Save**.
 
 
 ## Result
 
-After the **Actual** field is updated, the progress value for the target and its goal are auto-updated. For information on how the progress value is calculated, see [progress value calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/progress-value-calculation-egm.md). For information on how the actual value of the target breakdown is rolled up to its target, see [Target breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/target-breakdowns-strategy.md).
+After the **Actual** field is updated, the progress value for the target and its goal are auto-updated. For information on how the progress value is calculated, see [progress value calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/progress-value-calculation-egm.md). For information on how the actual value of the target breakdown is rolled up to its target, see [Target breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/target-breakdowns-strategy.md).
 
 **Related topics**  
 
 
-[Update the progress of a manual target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/update-progress-of-target-strategy.md)
+[Update the progress of a manual target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/update-progress-of-target-strategy.md)
 
-[Update the progress of an automated target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/update-progress-of-auto-target-strategy.md)
+[Update the progress of an automated target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/update-progress-of-auto-target-strategy.md)
 
-[Create a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-goal-strategy.md)
+[Create a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/create-goal-strategy.md)
 
-[Duplicate a goal or target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/duplicate-goal-target-strategy.md)
+[Duplicate a goal or target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/duplicate-goal-target-strategy.md)
 
-[Align work with a goal or target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/associate-work-with-goals-strategy.md)
+[Align work with a goal or target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/associate-work-with-goals-strategy.md)
 
-[Send a reminder for target actuals check in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/send-reminder-target-checkin-strategy.md)
+[Send a reminder for target actuals check in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/send-reminder-target-checkin-strategy.md)
 

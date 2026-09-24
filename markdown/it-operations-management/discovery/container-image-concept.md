@@ -3,11 +3,11 @@ title: Container image scanning for software decomposition
 description: The ITOM Visibility apps, Discovery and Service Mapping Patterns and Kubernetes Visibility Agent integrate with Aqua Trivy to collect data on container images and OS packages. You can increase your control over container deployment by having visibility to the container components.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/container-image-concept.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [container, image, Aqua Trivy, security, pattern, scanning, CMDB, Visibility, ACC for Kubernetes - Visibility, Agent Client Collector]
 breadcrumb: [Kubernetes discovery using patterns, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
@@ -34,7 +34,7 @@ You can use two ITOM Visibility apps to scan container images, Discovery and Ser
 
 -   **Use case \# 1**
 
-    After an application is packaged in container images, a security professional can scan the base and final images for vulnerabilities. They can identify OS packages, software dependencies, and application records. This is specifically for Containerized MSSQL Server.
+    Once an application has been packaged up in container images, a security professional can scan the base image and the final image for vulnerabilities. The scan identifies OS packages, software dependencies, and application records. This is specifically for Containerized MSSQL Server.
 
 
 <table id="table_m1k_b4g_vdc"><thead><tr><th>
@@ -65,7 +65,7 @@ Discovery and Service Mapping Patterns and Aqua Trivy:
     -   No bearer token required.
     -   Uses cloud credentials.
     -   Automatic creation of Kubernetes discovery schedule.
--   For more information on scanning images using Aqua Trivy, see [Scan container images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/container-image-task.md).
+-   For more information on scanning images using Aqua Trivy, see [Scan container images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/container-image-task.md).
 
 </td><td>
 
@@ -84,9 +84,9 @@ Discovered using Discovery and Service Mapping Patterns:
 
  For more information, see:
 
--   [Container image discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/container_image_scan_pattern.md)
--   [Kubernetes discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/kubernetes-discovery.md)
--   [Docker virtualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c-docker-virtualization.md)
+-   [Container image discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/container_image_scan_pattern.md)
+-   [Kubernetes discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/kubernetes-discovery.md)
+-   [Docker virtualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/c-docker-virtualization.md)
 
 </td></tr><tr><td>
 
@@ -184,7 +184,7 @@ All the of the above and account or region details
 
 |Visibility method|Method characteristics|What's discovered|
 |-----------------|----------------------|-----------------|
-|Horizontal Discovery of VM running Docker \(Docker pattern\)|Aqua Trivy container scanning isn’t required. You can identify the pods using Patterns.|See: [Docker virtualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c-docker-virtualization.md)|
+|Horizontal Discovery of VM running Docker \(Docker pattern\)|Aqua Trivy container scanning isn’t required. You can identify the pods using Patterns.|See: [Docker virtualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/c-docker-virtualization.md)|
 
 ## Image scanning with Discovery and Service Mapping Patterns
 
@@ -192,25 +192,25 @@ Kubernetes and Docker patterns integrate with the Aqua Trivy tool and run schedu
 
 Part of the data is populated in CMDB tables and part of it in transformation tables \(non-CMDB temporary tables\). The transformation tables are installed with the pattern. For example, the information you get by scanning includes origin registry, software name, and version.
 
--   **[Link software package information to images only](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/link-software-package-only-image.md)**  
+-   **[Link software package information to images only](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/link-software-package-only-image.md)**  
 Link software package information to images rather than containers to avoid empty records that associate to short-lived containers.
--   **[Map MID Server to container image repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/map-mid-server-container-repository.md)**  
+-   **[Map MID Server to container image repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/map-mid-server-container-repository.md)**  
 If network access or datacenter location requires a specific MID Server, map MID Server to a private container image repository.
--   **[Configure proxy bypass for container registries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/configure-container-proxy-bypass.md)**  
+-   **[Configure proxy bypass for container registries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/configure-container-proxy-bypass.md)**  
 Configure a proxy bypass for container image scans to reach specific internal or private registries that require a direct connection.
--   **[Scan container images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/container-image-task.md)**  
+-   **[Scan container images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/container-image-task.md)**  
 Enable container image scanning using the Aqua Trivy tool.
--   **[Configure the SBOM generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/enable-sbom.md)**  
+-   **[Configure the SBOM generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/enable-sbom.md)**  
 Enable the Software Bill of Materials \(SBOM\) creation and avoid duplicate SBOM files from being generated by setting the system properties.
--   **[Download a software bill of materials \(SBOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/generate-sbom-pattern.md)**  
+-   **[Download a software bill of materials \(SBOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/generate-sbom-pattern.md)**  
 Download a software Bill of Materials \(SBOM\) to gain visibility to the components of the container image such as the operating system packages that are installed.
--   **[Container image discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/container_image_scan_pattern.md)**  
+-   **[Container image discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/container_image_scan_pattern.md)**  
 The Discovery and Service Mapping Patterns application uses the Scan Container Image pattern to discover Docker images and OS packages data. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
-**Parent Topic:**[Kubernetes discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/kubernetes-discovery.md)
+**Parent Topic:**[Kubernetes discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/kubernetes-discovery.md)
 
 **Related topics**  
 
 
-[Cloud Native Operations for Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/cnov-landing.md)
+[Cloud Native Operations for Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/cnov-landing.md)
 

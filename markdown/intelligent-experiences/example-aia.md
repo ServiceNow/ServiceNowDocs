@@ -3,11 +3,11 @@ title: Example AI agent
 description: Use the example AI agent with clear name, description, AI agent role, and list of steps fields to use as a guide when creating your own AI agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/example-aia.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2025-10-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Writing prompts for agentic AI, AI agents best practices, Explore, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Writing prompts for agentic AI, AI agents best practices, Explore, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Example AI agent

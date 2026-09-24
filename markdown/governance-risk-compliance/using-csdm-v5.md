@@ -3,9 +3,9 @@ title: Gathering data aligned with the CSDM setup
 description: Beginning with Release 20.1.x, the Operational Resilience application supports the latest Common Service Data Model \(CSDM\). This section details the steps for setting up services, business services, service offerings, and business processes in Operational Resilience and gathering data aligned with the latest CSDM setup.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/using-csdm-v5.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---

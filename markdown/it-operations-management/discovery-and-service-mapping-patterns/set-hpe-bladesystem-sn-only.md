@@ -3,11 +3,11 @@ title: Populate only the serial number for HPE BladeSystem
 description: You can exclude the universally unique identifier \(UUID\) from the Serial number field for discovered HPE BladeSystem Enclosure and HPE BladeSystem Blade configuration items \(CIs\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/set-hpe-bladesystem-sn-only.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [HPE BladeSystem discovery, serial number, cmdb\_ci\_hpe\_bladesystem\_enclosure, cmdb\_ci\_hpe\_bladesystem\_blade, MID Server property]
 breadcrumb: [HPE BladeSystem Enclosure, Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
@@ -46,14 +46,14 @@ By default, Discovery populates the **Serial number** field for HPE BladeSystem 
 
 Run Discovery again to apply the change.
 
-To delete existing CI records with the **serial\_number::UUID** serial number format, run the **Clear HPE Blade Serial Numbers** scheduled job. For more information, see [Clear UUID serial numbers from existing HPE BladeSystem CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/clear-uuid-hpe-bladesystem-cis.md).
+To delete existing CI records with the **serial\_number::UUID** serial number format, run the **Clear HPE Blade Serial Numbers** scheduled job. For more information, see [Clear UUID serial numbers from existing HPE BladeSystem CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/clear-uuid-hpe-bladesystem-cis.md).
 
-**Parent Topic:**[HPE BladeSystem Enclosure Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/hpe-bladesystem-enclosure-discovery.md)
+**Parent Topic:**[HPE BladeSystem Enclosure Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/hpe-bladesystem-enclosure-discovery.md)
 
 **Related topics**  
 
 
-[HPE BladeSystem Enclosure Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/hpe-bladesystem-enclosure-discovery.md)
+[HPE BladeSystem Enclosure Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/hpe-bladesystem-enclosure-discovery.md)
 
-[Clear UUID serial numbers from existing HPE BladeSystem CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/clear-uuid-hpe-bladesystem-cis.md)
+[Clear UUID serial numbers from existing HPE BladeSystem CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/clear-uuid-hpe-bladesystem-cis.md)
 

@@ -3,9 +3,9 @@ title: Calculated metric definition form
 description: The fields of the calculated metric definition form are explained in this topic.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/calculated-metric-definition-reuse.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Create a calculated metric definition, Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -229,5 +229,5 @@ Allowed groups
 Groups that can view the record.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a calculated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-composite-metric-definition.md)
+</table>**Parent Topic:**[Create a calculated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/create-composite-metric-definition.md)
 

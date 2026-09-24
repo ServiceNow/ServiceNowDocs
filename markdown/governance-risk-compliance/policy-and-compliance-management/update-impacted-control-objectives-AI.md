@@ -1,13 +1,13 @@
 ---
 title: Use Control Objective Change Agent to update control objectives
-description: Use the Control Objective Change Agent to review and update impacted Control Objectives based on latest citation details. Users can interact with the Now Assist panel to review and finalize the updates.
+description: Use the Control Objective Change Agent to review and update impacted Control Objectives based on latest citation details. Users can interact with the Otto panel to review and finalize the updates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/update-impacted-control-objectives-AI.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Update impacted control objectives, Now Assist panel, Control Objective Change Agent, AI agent]
 breadcrumb: [ServiceNow Otto for Integrated Risk Management \(IRM\), Policy and Compliance Management, Governance, Risk, and Compliance]
@@ -15,7 +15,7 @@ breadcrumb: [ServiceNow Otto for Integrated Risk Management \(IRM\), Policy and 
 
 # Use Control Objective Change Agent to update control objectives
 
-Use the Control Objective Change Agent to review and update impacted Control Objectives based on latest citation details. Users can interact with the Now Assist panel to review and finalize the updates.
+Use the Control Objective Change Agent to review and update impacted Control Objectives based on latest citation details. Users can interact with the Otto panel to review and finalize the updates.
 
 ## Before you begin
 
@@ -37,14 +37,14 @@ Confirm that the control objective is active.
 
 5.  On the control objective page, select **Update with Now Assist**.
 
-    The Now Assist panel opens. The Now Assist panel is interactive and supports conversational input.
+    The Otto panel opens. The Otto panel is interactive and supports conversational input.
 
 6.  Review the suggested updates, and provide feedback to refine the updates.
 
     -   The AI agent analyzes all associated citations and suggests updated description and supplemental guidance. Suggestions are based on the latest citation changes and relevance to the control objective.
-    -   After each update, the Now Assist panel displays the latest revision, highlighting changes and prompting for additional feedback or acceptance.
-7.  Finalize the changes by accepting the suggested updates when prompted by the Now Assist panel.
+    -   After each update, the Otto panel displays the latest revision, highlighting changes and prompting for additional feedback or acceptance.
+7.  Finalize the changes by accepting the suggested updates when prompted by the Otto panel.
 
-8.  Continue reviewing other impacted control objectives directly from the Now Assist panel.
+8.  Continue reviewing other impacted control objectives directly from the Otto panel.
 
 

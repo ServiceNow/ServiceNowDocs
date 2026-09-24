@@ -3,11 +3,11 @@ title: Creating portal pages
 description: Use pages to organize content, ensure responsive mobile optimization, and design meaningful portal user experiences for your customers. A page houses containers and rows, which then contain widgets. By manipulating the layout of the page, and the widgets within it, you can construct your desired user experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/c\_Pages.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -41,14 +41,14 @@ You can also edit a container by navigating to the Page Editor and selecting the
 -   Add an background image to a portion of a page.
 -   View the current layout of the widgets within the page.
 
--   **[Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/t_ConfigureAPage.md)**  
+-   **[Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/t_ConfigureAPage.md)**  
 Create or edit a page and use layouts to organize the columns that house the widgets.
--   **[Standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/standard-ticket-page.md)**  
+-   **[Standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/standard-ticket-page.md)**  
 Configure individual request types to display the request-specific information, while still having a consistent layout that is similar to other request types. This configuration verifies a consistent experience when viewing submitted requests.
--   **[Redirect a reference to a page ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/reroute-page.md)**  
+-   **[Redirect a reference to a page ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/reroute-page.md)**  
 Redirect all references from Service Portal widgets to route to a new page with a single record to avoid manually replacing the hard-coded page ID in widgets.
--   **[Attaching files to records from portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/attaching-files-portal-pages.md)**  
+-   **[Attaching files to records from portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/attaching-files-portal-pages.md)**  
 Attachments can be added to records from portal pages by navigating the file system, pasting files from the clipboard, or dragging and dropping files.
 
-**Parent Topic:**[Configuring Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configuring-service-portal.md)
+**Parent Topic:**[Configuring Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/configuring-service-portal.md)
 

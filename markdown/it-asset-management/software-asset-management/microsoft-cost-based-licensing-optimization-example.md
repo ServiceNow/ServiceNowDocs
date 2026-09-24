@@ -3,11 +3,11 @@ title: Microsoft cost-based licensing optimization example
 description: This example demonstrates how a software asset manager can optimize Microsoft SQL Server licensing in a cluster deployment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/microsoft-cost-based-licensing-optimization-example.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Cost-based licensing optimization for Microsoft, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -25,7 +25,7 @@ In this example, a software asset manager is managing the following Microsoft SQ
 
 The following infrastructure is a VMware cluster that consists of three physical hosts. Each physical host contains virtual machines \(VMs\) that are running various versions and editions of Microsoft SQL Server. These VMs may potentially be moving across all physical hosts within the cluster.
 
-\[Omitted image "mmasset0021885-microsoft-sql-server-cluster-example.svg"\] Alt text: Microsoft SQL server cluster
+\[Omitted image "microsoft-sql-server-cluster-example.png"\] Alt text: Microsoft SQL Server cluster infrastructure.
 
 Based on the available entitlements and the cluster infrastructure, the software asset manager can license the cluster using one of the following options:
 
@@ -159,5 +159,5 @@ Virtual layer
 </td></tr></tbody>
 </table>The software asset manager determines that option number 3 is the most cost-effective licensing solution for the cluster. By using this licensing option, the software asset manager can achieve a total cost savings of approximately $103,600.
 
-**Parent Topic:**[Cost-based licensing optimization for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cost-based-microsoft-cluster-licensing.md)
+**Parent Topic:**[Cost-based licensing optimization for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/cost-based-microsoft-cluster-licensing.md)
 

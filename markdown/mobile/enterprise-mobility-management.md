@@ -3,9 +3,9 @@ title: Enterprise mobility management \(EMM\)
 description: Use an EMM suite to distribute ServiceNow mobile apps or the ServiceNow Classic mobile app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/enterprise-mobility-management.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -25,11 +25,11 @@ AppConfig is a standard approach for configuring mobile apps using key-value pai
 -   Pre-configure the default instance
 -   Change the default browser
 
-For details on these configurations, see [AppConfig for Mobile Apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/appconfig.md).
+For details on these configurations, see [AppConfig for Mobile Apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/appconfig.md).
 
 ## Mobile application management \(MAM\) integration
 
-Use Microsoft Intune or BlackBerry Dynamics to secure and protect sensitive information in mobile applications, even in cases where customers use their own mobile devices. For more detail on MAM integration, see [Mobile application management \(MAM\) integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mam.md).
+Use Microsoft Intune or BlackBerry Dynamics to secure and protect sensitive information in mobile applications, even in cases where customers use their own mobile devices. For more detail on MAM integration, see [Mobile application management \(MAM\) integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mam.md).
 
 ## Unsupported MDM/MAM features
 

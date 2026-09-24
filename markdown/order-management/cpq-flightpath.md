@@ -1,9 +1,9 @@
 ---
 title: Flightpath
-description: Flightpath keeps a record of rule engine activity and field changes in real time, helping administrators analyze system behavior and troubleshoot complex configuration flows with pause and restart options.
+description: Flightpath keeps a record of rule engine activity and field changes in real time. Administrators can analyze system behavior and troubleshoot complex configuration flows with pause and restart options.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-flightpath.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -12,7 +12,7 @@ breadcrumb: [CPQ Configurator, Configure, price, quote apps, Configure, Sales Cu
 
 # Flightpath
 
-Flightpath keeps a record of rule engine activity and field changes in real time, helping administrators analyze system behavior and troubleshoot complex configuration flows with pause and restart options.
+Flightpath keeps a record of rule engine activity and field changes in real time. Administrators can analyze system behavior and troubleshoot complex configuration flows with pause and restart options.
 
 Flightpath helps administrators understand how the rules engine responds to end-user inputs. When recording, Flightpath keeps track of:
 
@@ -41,7 +41,7 @@ The following video demonstrates the Flightpath feature tracking rules engine re
 
     Your CPQ environment must be Explorer 07.22 or later.
 
-    Append the following text to your configure API call to CPQ: `?logExecution= <value>`. Example: `https://<siteURL>.<sector>.CPQ.io/c?logExecution=<value>`
+    Append the following text to your configure API call to CPQ: `?logExecution= <value>`. Example: `https://<siteURL>.<sector>.logik.io/c?logExecution=<value>`
 
     Valid values for &lt;value&gt; are:
 
@@ -56,13 +56,13 @@ The following video demonstrates the Flightpath feature tracking rules engine re
     -   Configurator:
 
         ```
-        https://<siteURL>.<sector>.ServiceNow CPQ/ui/configure/<product id>?v=1&<other parameters>&log=<value>
+        https://<siteURL>.<sector>.logik.io/ui/configure/<product id>?v=1&<other parameters>&log=<value>
         ```
 
     -   Transaction management:
 
         ```
-        https://<siteURL>.<sector>.ServiceNow CPQ.io/ui/transact/<transaction id>?v=1&log=active
+        https://<siteURL>.<sector>.logik.io/ui/transact/<transaction id>?v=1&log=active
         ```
 
         For transaction management, valid values include:

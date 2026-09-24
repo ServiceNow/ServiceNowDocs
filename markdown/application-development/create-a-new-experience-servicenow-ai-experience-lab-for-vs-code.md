@@ -3,11 +3,11 @@ title: Create a new experience
 description: Develop ServiceNow Lux Lab for VS Code experiences from scratch.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/create-a-new-experience-servicenow-ai-experience-lab-for-vs-code.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [ServiceNow AI Experience Lab for VS Code, ServiceNow Lux Lab for VS Code, Create experience, ServiceNow AI Experience Framework]
+keywords: [ServiceNow AI Experience Lab for VS Code, Create experience, ServiceNow AI Experience Framework]
 breadcrumb: [Use, ServiceNow Lux Lab for VS Code extension, Building pro-code applications, Developing your application, Building applications]
 ---
 
@@ -17,7 +17,7 @@ Develop ServiceNow Lux Lab for VS Code experiences from scratch.
 
 ## About this task
 
-This procedure describes how to create net new experiences. To create an experience that extends an existing application, see [Extend an existing experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/extending-existing-experience-servicenow-ai-experience-lab-for-vs-code.md).
+This procedure describes how to create net new experiences. To create an experience that extends an existing application, see [Extend an existing experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/extending-existing-experience-servicenow-ai-experience-lab-for-vs-code.md).
 
 ## Before you begin
 
@@ -79,7 +79,7 @@ ServiceNow SDK
 
 </td><td>
 
-4.10 or later
+4.12.1 or later
 
 </td><td>
 
@@ -96,7 +96,7 @@ ServiceNow instance
 
 </td><td>
 
-[Prepare your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/rn-prepare-landing-page.md)
+[Prepare your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/rn-prepare-landing-page.md)
 
 </td></tr></tbody>
 </table>## Procedure
@@ -111,7 +111,7 @@ ServiceNow instance
 
 4.  Select the instance that you want to deploy changes to.
 
-    During ServiceNow Lux Lab for VS Code extension setup, you connect to the instance that contains the files you want to access and where you want to preview and deploy changes. For more information or to connect another instance, see [Connect ServiceNow Lux Lab for VS Code extension to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/connect-servicenow-ai-experience-lab-for-vs-code-to-instance.md).
+    During ServiceNow Lux Lab for VS Code extension setup, you connect to the instance that contains the files you want to access and where you want to preview and deploy changes. For more information or to connect another instance, see [Connect ServiceNow Lux Lab for VS Code extension to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/connect-servicenow-ai-experience-lab-for-vs-code-to-instance.md).
 
 5.  Select the location where you want your want your project to live on your local drive.
 
@@ -132,5 +132,5 @@ Your new experience is created. Inside your experience, you can see sample pages
 
 ## What to do next
 
-Start creating pages and widgets within your experience. For more information, see [Create a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-page-servicenow-ai-experience-lab-for-vs-code.md).
+Start creating pages and widgets within your experience. For more information, see [Create a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-page-servicenow-ai-experience-lab-for-vs-code.md).
 

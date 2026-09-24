@@ -3,11 +3,11 @@ title: Create a response action for Cloud Provisioning and Governance
 description: Create a subflow with the required input parameters that notifies Cloud Provisioning and Governance whether the flow completes successfully or not.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-subflow-action-cloud-provision-governance.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Day 2 operations using Workflow Studio subflow, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Create a subflow with the required input parameters that notifies Cloud Provisio
 
 ## Before you begin
 
--   Ensure that you are familiar with the concepts of , [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/subflows.md), and [Action Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/actions.md).
+-   Ensure that you are familiar with the concepts of , [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/subflows.md), and [Action Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/actions.md).
 -   Create a subflow that you intend to invoke for pre or post-provisioning.
 
 Role required: flow\_designer, action\_designer, or admin
@@ -37,7 +37,7 @@ The response action communicates to the Cloud Provisioning and Governance applic
 
 1.  Navigate to **All** &gt; **Flow Designer** &gt; **Actions** tab, select **New Action**.
 
-    For more information, see Create an action.
+    For more information, see [Create an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-action.md).
 
 2.  Fill in the Action Properties.
 

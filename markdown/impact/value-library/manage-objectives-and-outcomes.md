@@ -3,11 +3,11 @@ title: Manage objectives and outcomes
 description: You can review objectives and outcomes tracking configuration, and access trend data, business context, relevant capabilities, and quarterly performance reviews.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/value-library/manage-objectives-and-outcomes.html
-release: australia
+release: brazil
 product: Value Library
 classification: value-library
 topic_type: task
-last_updated: "2026-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Objectives and outcomes, Value management, Using Impact, Impact]
 ---
@@ -67,7 +67,7 @@ Role required: Impact App Admin, Impact Platform Owner, Impact Portfolio Owner.
 
     ServiceNow Otto for Impact generates and displays summary information for the outcome.
 
-    For more information on outcomes summarization, see [Summarize outcomes with ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/value-library/gen-ai-based-outcome-summarizatio.md).
+    For more information on outcomes summarization, see [Summarize outcomes with ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/value-library/gen-ai-based-outcome-summarizatio.md).
 
 6.  To edit any details in the selected outcome, select **Edit**.
 

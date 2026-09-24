@@ -3,9 +3,9 @@ title: Deactivate indicator support
 description: AI Data Explorer supports indicators as data sources by default. If you do not want the application to use indicator data on your instance, you can turn this support off.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/aide-deactivate-indicator-support.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
@@ -45,5 +45,5 @@ Roles required: now\_assist\_explorer\_admin or higher
 
 **Note:** To deactivate queries on indicator data for all AI applications on an instance, deactivate the Query Generation "analytics query generation for indicators" skill.
 
-**Parent Topic:**[Configure AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-aide-explorer.md)
+**Parent Topic:**[Configure AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/configure-aide-explorer.md)
 

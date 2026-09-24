@@ -3,11 +3,11 @@ title: Create a Discovery schedule for Alibaba Cloud
 description: Create a Discovery schedule to run Alibaba Cloud discovery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/create-alibaba-cloud-discovery-schedule.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Discovery for Alibaba Cloud, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -24,7 +24,7 @@ Role required: discovery\_admin
 
 1.  Navigate to **Discovery** &gt; **Discovery Schedules**.
 
-    **Note:** Starting with v1.13.0, you can also create an Alibaba Cloud in Discovery Admin Workspace. For more information, see [Create an Alibaba Cloud Discovery schedule in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-alibaba-schedule-DAW.md).
+    **Note:** Starting with v1.13.0, you can also create an Alibaba Cloud in Discovery Admin Workspace. For more information, see [Create an Alibaba Cloud Discovery schedule in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/create-alibaba-schedule-DAW.md).
 
 2.  Select the **Cloud Discovery** button.
 
@@ -39,15 +39,15 @@ Role required: discovery\_admin
     -   **Specific MID Cluster**: A MID Server cluster that you choose from the **MID Cluster** drop-down list.
 6.  Either create a new account or select an existing one.
 
-<table id="choicetable_wm3_pvr_ghc"><thead><tr><th align="left" id="d430441e170">
+<table id="choicetable_wm3_pvr_ghc"><thead><tr><th align="left" id="d432798e170">
 
 Existing or new account
 
-</th><th align="left" id="d430441e173">
+</th><th align="left" id="d432798e173">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d430441e179">
+</th></tr></thead><tbody><tr><td id="d432798e179">
 
 **Add account**
 
@@ -60,12 +60,12 @@ Actions
     -   To use existing credentials, select the credential from the drop-down list.
     -   To create new credentials, select the plus button and fill in the fields.
 
-For more information, see [Create Alibaba Cloud API Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-alibaba-cloud-api-credentials.md).
+For more information, see [Create Alibaba Cloud API Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/create-alibaba-cloud-api-credentials.md).
 
 5.  Enter the URL of a datacenter in the **Datacenter URL** field.
 
 
-</td></tr><tr><td id="d430441e250">
+</td></tr><tr><td id="d432798e250">
 
 **Select Account**
 
@@ -110,5 +110,5 @@ The form fields are populated with the information from the selected account.
     -   To create the schedule but not run discovery, select **Finish** from the Finish and Run drop-down list.
     -   To create the schedule and run discovery, select **Finish and Run.**
 
-**Parent Topic:**[Discovery for Alibaba Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/alibaba-cloud-discovery.md)
+**Parent Topic:**[Discovery for Alibaba Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/alibaba-cloud-discovery.md)
 

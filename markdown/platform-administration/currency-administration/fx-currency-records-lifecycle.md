@@ -3,11 +3,11 @@ title: Life cycle of records containing FX Currency fields
 description: The behavior of FX Currency fields varies during the processing that occurs during the lifetime of a record containing them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/currency-administration/fx-currency-records-lifecycle.html
-release: australia
+release: brazil
 product: Currency Administration
 classification: currency-administration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Currency administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -39,7 +39,7 @@ When creating history lines for a user, the audited string is formatted, using t
 -   Start span-End span, as expressed in the conversion rate record in the System Rate \[fx\_system\_rate\] table. For example, `2019-12-03 17:00:00-3000-01-01 23:59:59`.
 -   Name of the conversion rate table. For example, `fx_system_rate`.
 
-**Parent Topic:**[Currency administration references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/currency-admin-references.md)
+**Parent Topic:**[Currency administration references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/currency-administration/currency-admin-references.md)
 
 **Related topics**  
 

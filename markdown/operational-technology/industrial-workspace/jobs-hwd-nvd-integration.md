@@ -3,11 +3,11 @@ title: Run NVD Integrations for Hardware Vulnerability Assessment
 description: Install and run National Vulnerability Database \(NVD\) integrations to perform hardware vulnerability assessment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/jobs-hwd-nvd-integration.html
-release: australia
+release: brazil
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up the Hardware Vulnerability Assessment of Operational Technology devices using guided setup, Configure, Industrial Workspace, Operational Technology]
 ---
@@ -26,8 +26,8 @@ Hardware Vulnerability Assessment is based on the vulnerability assessment featu
 
 To understand what are the different NVD integrations and how do the integrations work, see:
 
--   [National Vulnerability Database \(NVD\) integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/nvd-vuln-integration.md)
--   [Install the Vulnerability Response Integration with the NIST National Vulnerability Database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/install-nvd.md)
+-   [National Vulnerability Database \(NVD\) integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/nvd-vuln-integration.md)
+-   [Install the Vulnerability Response Integration with the NIST National Vulnerability Database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/install-nvd.md)
 
 ## Procedure
 
@@ -41,5 +41,5 @@ To understand what are the different NVD integrations and how do the integration
     -   **NIST National Vulnerability Database Integration-API \(CPE only\)**
     -   **NIST National Vulnerability Database Integration-API \(Unmapped CPE\)**
 
-**Parent Topic:**[Set up the Hardware Vulnerability Assessment of Operational Technology devices using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/configure-hva-using-guided-setup.md)
+**Parent Topic:**[Set up the Hardware Vulnerability Assessment of Operational Technology devices using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/configure-hva-using-guided-setup.md)
 

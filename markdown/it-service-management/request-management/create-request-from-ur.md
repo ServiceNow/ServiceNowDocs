@@ -3,11 +3,11 @@ title: Create a request from Universal Request
 description: As a routing agent, create a request from a universal request and then assign it to the appropriate assignment group. The request manager handles the requested items and takes further actions to fulfill the request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/request-management/create-request-from-ur.html
-release: australia
+release: brazil
 product: Request Management
 classification: request-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Request Management integration with Universal Request, Configure, Request Management, IT Service Management]
 ---
@@ -76,5 +76,5 @@ A request is created and is automatically assigned to the appropriate assignment
 
 On the Requested item form, the universal request number that was used for creating the request is displayed. The request item number \(RITM\#\) appears in the **Primary ticket** field on the Universal Request form and also under the Associated Requests related list.
 
-**Parent Topic:**[Request Management integration with Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/request-mgmt-integration-ur.md)
+**Parent Topic:**[Request Management integration with Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/request-management/request-mgmt-integration-ur.md)
 

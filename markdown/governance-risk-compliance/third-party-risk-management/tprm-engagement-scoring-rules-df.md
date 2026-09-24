@@ -3,11 +3,11 @@ title: Define engagement risk scoring rules
 description: An engagement risk-scoring rule specifies component criteria that determine which engagements are selected for assessment. For example, a rule could enable assessments for engagements that involve more than $40,000 annual business. Engagement scoring rules apply only to engagements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-engagement-scoring-rules-df.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Classic assessments, Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -74,7 +74,7 @@ Third-party risk area criteria
 
 The third-party risk area criteria that applies to this engagement risk scoring rule.
 
- A third-party risk area criteria is a group of risk domains \(sometimes called risk areas in other platform features\) that applies to a particular type of third party. See [Define third-party risk area criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-risk-domain-criteria-df.md) for details on how criteria are defined.
+ A third-party risk area criteria is a group of risk domains \(sometimes called risk areas in other platform features\) that applies to a particular type of third party. See [Define third-party risk area criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-risk-domain-criteria-df.md) for details on how criteria are defined.
 
 </td></tr><tr><td>
 
@@ -108,7 +108,7 @@ Engagement Filter
 
 Criteria for selecting engagements.
 
- Use the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) to define the criteria.
+ Use the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ConditionBuilder.md) to define the criteria.
 
  For example, you can perform assessments for third parties with whom you do considerable business: `Annual spend is greater than $40,000` or third parties within a particular category: `Category is software`.
 

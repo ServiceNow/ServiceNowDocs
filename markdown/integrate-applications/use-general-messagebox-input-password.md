@@ -3,9 +3,9 @@ title: Use the Input Password component
 description: Set up a password input form by using the Input Password component in RPA Desktop Design Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-general-messagebox-input-password.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [General, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -22,7 +22,7 @@ Role required: none
 
 The Input Password component is used in Attended Robot automations.
 
-To configure the properties for the Input Password component, see [Properties of Confirm components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/Properties-general-components.md).
+To configure the properties for the Input Password component, see [Properties of Confirm components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/Properties-general-components.md).
 
 ## Procedure
 
@@ -30,7 +30,7 @@ To configure the properties for the Input Password component, see [Properties of
 
 2.  Drag the Input Password component to the Design surface.
 
-3.  To provide inputs to the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+3.  To provide inputs to the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the Input Password component to the corresponding ports of the other components as described in the following table.
 
@@ -42,5 +42,5 @@ To configure the properties for the Input Password component, see [Properties of
 5.  To test the component, right-click the component bar and click **Run From Here**.
 
 
-**Parent Topic:**[General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/general-component.md)
+**Parent Topic:**[General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/general-component.md)
 

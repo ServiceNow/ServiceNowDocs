@@ -3,11 +3,11 @@ title: Automated creation of zero day vulnerability
 description: A zero day vulnerability scenario demonstrates how TISC detects and manages vulnerabilities that have not yet received CVE assignments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-zero-day-vuln-scenario.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-03-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Tagging Rules in TISC, About Rules Engine in TISC, Administer, Threat Intelligence Security Center, Security Operations]
 ---
@@ -18,7 +18,7 @@ A zero day vulnerability scenario demonstrates how TISC detects and manages vuln
 
 Role required: sn\_sec\_tisc.admin
 
-This feature enables automatic detection and processing of zero day vulnerabilities through configurable tagging rules. For more information, see [Configure Tagging Rules in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-tag-rules.md).
+This feature enables automatic detection and processing of zero day vulnerabilities through configurable tagging rules. For more information, see [Configure Tagging Rules in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-tag-rules.md).
 
 **Prerequisite**:
 

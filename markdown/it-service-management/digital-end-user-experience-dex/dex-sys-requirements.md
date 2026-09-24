@@ -3,13 +3,13 @@ title: DEX system requirements
 description: System requirements are the fundamental specifications and configuration needed to install and run DEX effectively.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/dex-sys-requirements.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Digital End-User Experience, IT Service Management]
+breadcrumb: [Before you begin, Configure, Digital End-User Experience, IT Service Management]
 ---
 
 # DEX system requirements
@@ -47,7 +47,7 @@ Digital End-User Experience \(DEX\) utilizes approximately 1% average CPU consum
 
 ## CPU protection threshold
 
-When an agent meets the configured thresholds specified in the agent's `acc.yml` file, it enters CPU protection mode, either for an individual check or for all checks. For more information on the CPU protection threshold see, [Agent Client Collector CPU protection thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/acc-set-silent-reference.md)
+When an agent meets the configured thresholds specified in the agent's `acc.yml` file, it enters CPU protection mode, either for an individual check or for all checks. For more information on the CPU protection threshold see, [Agent Client Collector CPU protection thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/acc-set-silent-reference.md)
 
 **Note:** Configure the ACC CPU Protection Threshold to 20% for DEX deployments.
 

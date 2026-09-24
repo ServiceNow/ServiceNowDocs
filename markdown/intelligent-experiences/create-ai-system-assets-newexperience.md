@@ -3,11 +3,11 @@ title: Create AI system assets
 description: Create AI assets to track and manage the life cycles of your AI systems
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-ai-system-assets-newexperience.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Creating AI assets manually, Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Creating AI assets manually, Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create AI system assets
@@ -319,7 +319,7 @@ Additional use and purpose details
 Additional information or context that helps clarify the specific use and purpose of the AI system.
 
 </td></tr></tbody>
-</table>    For more information on classifying AI systems based on regulatory risk at intake by applying a configured Risk Assessment Methodology \(RAM\), see [Request an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/request-ai-system.md).
+</table>    For more information on classifying AI systems based on regulatory risk at intake by applying a configured Risk Assessment Methodology \(RAM\), see [Request an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/request-ai-system.md).
 
 10. Select **Submit for review**.
 

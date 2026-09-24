@@ -3,9 +3,9 @@ title: Review and optimize articles using Article Optimization
 description: The Knowledge Center Article Optimization feature provides automated, actionable feedback to improve content quality, accessibility, and search engine optimization, with configurable scans to identify and fix issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/kc-review-and-optimize-articles.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Knowledge Center, Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,11 +20,11 @@ Role required: agent
 
 ## About this task
 
-Review and optimize knowledge articles in the Knowledge Center \(KC\) by running quality scans of all the articles. Default settings come with default scan configurations, but you can also customize scan jobs. For more on creating an Article Optimization job, see [Configure Article Optimization jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuring-article-optimization-jobs.md).
+Review and optimize knowledge articles in the Knowledge Center \(KC\) by running quality scans of all the articles. Default settings come with default scan configurations, but you can also customize scan jobs. For more on creating an Article Optimization job, see [Configure Article Optimization jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuring-article-optimization-jobs.md).
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Knowledge** &gt; **Knowledge Center** &gt; **Lists**.
+1.  Navigate to **All** &gt; **Knowledge** &gt; **Knowledge Center** &gt; **List**.
 
 2.  Select the type of article from the **List** menu \(Unpublished, Published, Retired, and so on\).
 
@@ -34,7 +34,7 @@ Review and optimize knowledge articles in the Knowledge Center \(KC\) by running
 
 5.  Select the **Article Optimization** icon to view the list of issues identified in the article, along with the suggestions to fix them.
 
-    **Important:** Two types of article optimization scans are available. One is a script-based scan and the other is an AI-based scan. If you’re subscribed to ServiceNow Otto, article optimization feature runs both the scans. If you aren’t subscribed to ServiceNow Otto, then article optimization runs only the script-based scan.
+    **Important:** Two types of article optimization scans are available. One is a script-based scan and the other is a Now Assist based scan. If you’re subscribed to Now Assist, article optimization feature runs both the scans. If you aren’t subscribed to Now Assist, then article optimization runs only the script-based scan.
 
 6.  Review each of the feedback cards.
 
@@ -44,6 +44,6 @@ Review and optimize knowledge articles in the Knowledge Center \(KC\) by running
 
     **Note:**
 
-    -   Selecting suggested action opens the description for the issue. Only ServiceNow Otto subscribers can see these suggestions.
-    -   Select **Update** to implement the solution in the relevant section. If you aren’t subscribed to ServiceNow Otto, you can manually rectify the identified issue and **Update** the card.
+    -   Selecting suggested action opens the description for the issue. Only Now Assist subscribers can see these suggestions.
+    -   Select **Update** to implement the solution in the relevant section. If you aren’t subscribed to Now Assist, you can manually rectify the identified issue and **Update** the card.
 

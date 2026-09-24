@@ -3,11 +3,11 @@ title: Control assessment based on GRC attestation template
 description: You can select the option to attest controls using an assessment method. This assessment is an alternative method to the classic assessment that is based on ServiceNow AI Platform method of assessment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/smart-assessments-controls.html
-release: australia
+release: brazil
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Create control objective, Manage control objectives and policies, Use, GRC Compliance workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -23,16 +23,16 @@ You can select the option to attest controls using an assessment method. This as
     The base system ships the GRC smart assessment template to the users when the GRC: Policy and Compliance Management \(sn\_compliance\) plugin is installed. However, the following scoped applications are required:
 
     1.  Smart Assessment core \(sn\_smart\_asmt\)
-    2.  Smart assessment Migration tools \(sn\_smart\_asmt\_mig\). For more information, see [Migrate a legacy metric type to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-tmplt-migrate-metrics-to.md)
+    2.  Smart assessment Migration tools \(sn\_smart\_asmt\_mig\). For more information, see [Migrate a legacy metric type to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-tmplt-migrate-metrics-to.md)
     3.  Smart Assessment Connected \(sn\_smart\_asmt\_conn\)
-    4.  Smart Assessment Designer \(sn\_smart\_asmt\_desg\). For more information, see [Using the template designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-template-designer.md)
+    4.  Smart Assessment Designer \(sn\_smart\_asmt\_desg\). For more information, see [Using the template designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/sae-template-designer.md)
 -   **Enable smart assessments system property**
 
-    The **Enable smart assessments on control** system property must be set to true if you want to assess the controls using the assessment method based on GRC attestation template. For more information on the system property, see [Enable smart assessments on control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/r_InstallWPolAndCompl.md).
+    The **Enable smart assessments on control** system property must be set to true if you want to assess the controls using the assessment method based on GRC attestation template. For more information on the system property, see [Enable smart assessments on control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/r_InstallWPolAndCompl.md).
 
 -   **Migrate the template**
 
-    Create a new template in Smart Assessment Engine. For more information, see [Creating an assessment template from legacy assessment metric types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-migrating.md).
+    Create a new template in Smart Assessment Engine. For more information, see [Creating an assessment template from legacy assessment metric types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-migrating.md).
 
 
 ## Access control limitations for smart assessment user roles
@@ -67,7 +67,7 @@ You can select the option to attest controls using an assessment method. This as
 
 ## Impact of attestation method on control objective and control generation
 
-When the **Enable smart assessments on control** system property is set to true and the Control objective record has the value **Attestation** in the **Attestation method** field, all controls generated for this control objective after attestation have values defaulted from the control objective. The **Attestation method** field value defaults to **Attestation**.
+When the **Enable smart assessments on control** system property is set to true and the Control objective record has the value **Attestation** in the **Attestation method** field, then all the controls that are generated for this control objective record after attestation has values defaulted from the control objective. The **Attestation method** field value defaults to **Attestation**.
 
 **Note:** The old control objectives will have default assessment method as classic assessment. If you would like to explore smart assessment method, then you should make necessary changes to either the control objective or the control. The control can be updated only if it does not have any control objective. After you create a new record, you can either opt the classic attestation or attestation as your attestation method.
 
@@ -90,12 +90,12 @@ When the **Enable smart assessments on control** system property is set to true 
 -   If an attestation fails for one of the controls generated from a control objective, then the control becomes non-compliant and an issue is created. Or, if the control has an issue that already exists, then the **Issue source** field is updated. If the control moves to the Attest state and if the attestation passes, then the existing issues are closed, and the control becomes compliant.
 
 -   You can respond to the attestations from any of these portals:
-    -   [Respond to attestations from the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/smart-assessment-employee-center.md).
-    -   [Respond to attestations on the Risk Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/smart-assessment-risk-portal.md).
-    -   [Respond to attestations from Tasks page of Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/smart-assessment-task-page-ws.md).
+    -   [Respond to attestations from the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-compliance-management-workspace/smart-assessment-employee-center.md).
+    -   [Respond to attestations on the Risk Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-compliance-management-workspace/smart-assessment-risk-portal.md).
+    -   [Respond to attestations from Tasks page of Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-compliance-management-workspace/smart-assessment-task-page-ws.md).
 -   To view the Control objective and Control form changes, see:
-    -   [Create a control objective using the Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/create-ctrl-objective-ws.md).
-    -   [Create a control using the Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/create-control-ws.md).
--   To view the attestation widgets in the control and control objective overview pages, see [User interface changes for assessments based on GRC attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/smart-assessments-ui.md).
--   To view the control attestations in 360° view, see [360° Relationship Visualization for Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/grc-policy-data-navigtor.md).
+    -   [Create a control objective using the Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-compliance-management-workspace/create-ctrl-objective-ws.md).
+    -   [Create a control using the Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-compliance-management-workspace/create-control-ws.md).
+-   To view the attestation widgets in the control and control objective overview pages, see [User interface changes for assessments based on GRC attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-compliance-management-workspace/smart-assessments-ui.md).
+-   To view the control attestations in 360° view, see [360° Relationship Visualization for Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/grc-policy-data-navigtor.md).
 

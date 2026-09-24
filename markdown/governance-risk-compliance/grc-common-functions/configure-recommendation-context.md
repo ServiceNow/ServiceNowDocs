@@ -3,11 +3,11 @@ title: Create a recommendation context
 description: Create a recommendation context to define a configuration that builds a template for recommending relevant records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/configure-recommendation-context.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Recommendation contexts and templates, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_reco\_template.recommendation\_writer or sn\_grc\_comp\_genai
 
 ## About this task
 
-For information about the roles required for the recommendation contexts, see [User roles for recommendation contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/user-roles-for-recommendation-contexts.md).
+For information about the roles required for the recommendation contexts, see [User roles for recommendation contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/user-roles-for-recommendation-contexts.md).
 
 ## Procedure
 
@@ -30,7 +30,7 @@ For information about the roles required for the recommendation contexts, see [U
 
 2.  On the form, fill in the fields.
 
-    For a description of the field values, see [form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/recommendation-context-form.md).
+    For a description of the field values, see [form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/recommendation-context-form.md).
 
 3.  Select **Submit**.
 
@@ -39,8 +39,8 @@ For information about the roles required for the recommendation contexts, see [U
 
 A new recommendation context is created. You can now create a recommendation template.
 
--   **[Recommendation context form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/recommendation-context-form.md)**  
+-   **[Recommendation context form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/recommendation-context-form.md)**  
 Use the recommendation context form to create a configuration.
 
-**Parent Topic:**[Recommendation contexts and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/recommendation-contexts.md)
+**Parent Topic:**[Recommendation contexts and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/recommendation-contexts.md)
 

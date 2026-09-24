@@ -3,11 +3,11 @@ title: Use CMDB groups to add OT context to IT CIs
 description: Use Configuration Management Database \(CMDB\) groups to group IT configuration items \(CIs\) based on additional information, like installed software. Then you can add Operational Technology \(OT\) context to the IT CIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/use-cmdb-groups-it-ot-conversion.html
-release: australia
+release: brazil
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Operational Technology Manager, Operational Technology]
 ---
@@ -44,13 +44,13 @@ Follow these general guidelines:
 
 1.  Define a CMDB group with the required filter criteria that identifies the right IT CIs.
 
-    For more information, see [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-groups.md).
+    For more information, see [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-groups.md).
 
 2.  Create an Automated IT to OT Bulk Contextualization \(sn\_automated\_it\_ot\_bulk\_contextualization\) record associated with the CMDB group.
 
     Creating this record adds OT context to IT CIs through the OT entity details.
 
-    For more information about how to create an Automated IT to OT Bulk Contextualization record, see [Automatically convert your IT records to OT devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/automatically-convert-it-records-to-ot-devices.md).
+    For more information about how to create an Automated IT to OT Bulk Contextualization record, see [Automatically convert your IT records to OT devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/automatically-convert-it-records-to-ot-devices.md).
 
     **Note:** The **Filter Criteria - OT Devices** tab isn't visible when using CMDB groups.
 
@@ -82,5 +82,5 @@ Follow these general guidelines:
 5.  Select **Proceed**.
 
 
-**Parent Topic:**[Using the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/using-operational-technology-manager.md)
+**Parent Topic:**[Using the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/using-operational-technology-manager.md)
 

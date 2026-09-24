@@ -1,18 +1,18 @@
 ---
-title: Activate the common control objective creation skill
+title: Activate the common control objective creation skill in Now Assist
 description: When activating the common control objective creation skill, the system uses generative AI to analyze the accepted duplicate control objectives and to generate a common control objective.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/activate-common-control-objective-skill.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Otto for Integrated Risk Management \(IRM\), Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
-# Activate the common control objective creation skill
+# Activate the common control objective creation skill in Now Assist
 
 When activating the common control objective creation skill, the system uses generative AI to analyze the accepted duplicate control objectives and to generate a common control objective.
 
@@ -28,9 +28,9 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 2.  In the **AI Skills** tab, navigate to **Technology** &gt; **Risk &amp; Sustainability**.
 
-3.  On the **Now Assist Features** tab, under the Technology workflow group, select **Risk &amp; Sustainability**.
+    The Now Assist Skills for IRM page lists the available generative AI capabilities for Policy and Compliance.
 
-    The IRM skills page lists the available generative AI capabilities for Policy and Compliance.
+3.  Under the common control objective creation skill, select **Activate Skill**.
 
 4.  On the General details page, review the information about the skill and then select **Save and Continue**.
 
@@ -42,6 +42,6 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
     After activation, the Successfully Activated dialog box appears.
 
-7.  In the Successfully Activated dialog box, select **Return to IRM** to navigate back to the IRM skills page.
+7.  In the Successfully Activated dialog box, select **Return to IRM** to navigate back to the Now Assist Skills for IRM page.
 
 

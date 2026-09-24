@@ -3,9 +3,9 @@ title: Dealer and OEM support custom API
 description: Use case scenario demonstrating dealer and OEM support for warranty claims using a custom API.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-dms-integration-custom-api-use-case.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [DMS integration, custom API, dealer warranty claims]
 breadcrumb: [DMS integration, Integrate, Manufacturing Commercial Operations]
@@ -34,7 +34,7 @@ Alectri configures a custom API in the Dealer Integration Framework to retrieve 
 3.  Create: Automatically create a claim in MCO using the retrieved repair order details.
 4.  Monitor: Track claim creation and status in real time as repair order data arrives from each dealer.
 
-The [Set up inbound DMS integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-configure-dms.md) describes how to set up the custom API configuration and map STAR XML payloads to MCO records.
+The [Set up inbound DMS integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-configure-dms.md) describes how to set up the custom API configuration and map STAR XML payloads to MCO records.
 
 ## Benefits
 

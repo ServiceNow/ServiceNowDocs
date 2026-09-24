@@ -3,11 +3,11 @@ title: Act on the recommendations for similar control objectives
 description: Act on the recommendations by identifying, deduplicating, and rationalizing similar control objectives within the compliance library.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/take-actions-on-the-recommendations-for-similar-control-objectives.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Generate recommendation for similar control objective, ServiceNow Otto for Integrated Risk Management \(IRM\), Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -20,7 +20,7 @@ Act on the recommendations by identifying, deduplicating, and rationalizing simi
 
 Role required: sn\_reco\_template.rationalization\_process\_writer and sn\_grc\_shared\_genai.compliance\_gen\_ai\_user
 
-For more information on related roles, see [Roles installed with GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/r_InstallWPolAndCompl.md).
+For more information on related roles, see [Roles installed with GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/r_InstallWPolAndCompl.md).
 
 ## About this task
 
@@ -149,7 +149,7 @@ Provides a view of activities related to the recommendation card. In the Analyze
     -   When an accepted control objective is deactivated, all impacted items are automatically moved to inactive state.
 9.  Select **Request review**.
 
-    -   For more information on review request, see [Review actions taken on rationalization process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/review-actions-taken-on-rationalization-process.md).
+    -   For more information on review request, see [Review actions taken on rationalization process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/review-actions-taken-on-rationalization-process.md).
     -   The actions you take on the recommendations are sent for review to the configured reviewers. The reviewer can accept or reject your actions and provide their justifications.
 10. Select **Summary**.
 
@@ -170,7 +170,7 @@ Provides a view of activities related to the recommendation card. In the Analyze
     -   Impacted and associated items display pre-calculated data, updated daily. Since recommendations can change this data, select **Sync Related Items** to sync in real-time and view the latest data on impacted items and associations.
 13. To approve the Consolidated step, initiate the review process by selecting **Request review**.
 
-    The reviewer can review the action taken by the owner on all the impacted items. The reviewer can accept or reject your actions and provide their justifications. They can also act on the associations that are captured in the summary. For more information, see [Review actions taken on rationalization process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/review-actions-taken-on-rationalization-process.md).
+    The reviewer can review the action taken by the owner on all the impacted items. The reviewer can accept or reject your actions and provide their justifications. They can also act on the associations that are captured in the summary. For more information, see [Review actions taken on rationalization process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/review-actions-taken-on-rationalization-process.md).
 
 14. Select the bulb icon on the right to access the Feedback trail section.
 

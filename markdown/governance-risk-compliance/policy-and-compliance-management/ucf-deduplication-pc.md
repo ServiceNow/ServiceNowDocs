@@ -3,11 +3,11 @@ title: Elimination of duplicate citations from UCF Shared list download
 description: You can eliminate duplicate citations associated with the authority documents when you receive citations from UCF content as part of the same Shared list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/ucf-deduplication-pc.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure UCF integration using UCF CCH, Manage UCF integration, Classic UI, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -34,7 +34,7 @@ Similarly, the child citations of the duplicate citations, if any, can be groupe
 
 This enhancement helps you to eliminate duplicate citations associated with the authority documents when you download UCF content, or by running an on-demand job after UCF content is downloaded. The fix is available when you:
 
--   Import data from the UCF Shared list. To download a UCF shared list, see [Download a UCF shared list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/download-a-shared-list.md).
+-   Import data from the UCF Shared list. To download a UCF shared list, see [Download a UCF shared list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/download-a-shared-list.md).
 -   Run the **UCF citation deduplication issue fix** on-demand job if you don’t want to import UCF again. This job eliminates the duplicate citations and fixes the parent–child relationship by appending the child citations of the inactive parent citation to the active parent.
 
 1.  To run the on-demand job, navigate to **All** &gt; **System Definition** &gt; **Scheduled jobs**.
@@ -51,5 +51,5 @@ After the fix:
     **Note:** Citations are considered as duplicate only when their **Reference ID**, **Authority document**, **Description** are the same. Even if one of these conditions isn’t fulfilled, then they’re considered as two different citations and not as duplicate.
 
 
-**Parent Topic:**[Configure the UCF integration using the UCF Common Controls Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/configure-UCF-integration.md)
+**Parent Topic:**[Configure the UCF integration using the UCF Common Controls Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/configure-UCF-integration.md)
 

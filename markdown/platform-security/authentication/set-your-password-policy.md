@@ -3,11 +3,11 @@ title: Configure your password policy
 description: Password policy criteria enables you to secure your password and adhere to the minimum password complexity requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/set-your-password-policy.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Password complexity requirements, Local authentication, Authentication, Access Management]
 ---
@@ -22,7 +22,7 @@ Role required: password\_policy\_admin
 
 ## About this task
 
-The Password Policy \[com.glide.password\_policy\] plugin is enabled by default. It goes into effect when a user changes or resets the password. If you customized your instance, through the ValidatePasswordStronger installation exit or your Password Reset credential store \[pwd\_cred\_store\], see [password policy properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/password-policy-properties.md).
+The Password Policy \[com.glide.password\_policy\] plugin is enabled by default. It goes into effect when a user changes or resets the password. If you customized your instance, through the ValidatePasswordStronger installation exit or your Password Reset credential store \[pwd\_cred\_store\], see [password policy properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/password-policy-properties.md).
 
 ## Procedure
 

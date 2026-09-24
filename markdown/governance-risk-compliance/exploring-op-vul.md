@@ -3,9 +3,9 @@ title: Operational vulnerability
 description: The Operational vulnerability capability in Operational Resilience empowers users to flag operational vulnerabilities or critical functionality gaps, engage with key stakeholders, analyze underlying causes, and identify remedies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/exploring-op-vul.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Managing Operational vulnerability, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---

@@ -3,11 +3,11 @@ title: MID Server command audit log
 description: The command audit log records the commands run by the MID Server for the Discovery application. Review the commands to check for anomalies or errors.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-audit-log.html
-release: australia
+release: brazil
 product: MID Server
 classification: mid-server
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Securing and encrypting MID Server data, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -37,11 +37,11 @@ When a probe, such as a WMIRunner, runs a command with multiple WMI fields then 
 
 The command audit log reports the execution status as either a success or failure. The record entry is a success if the command was run, or a failure if it was unable to run. The command audit log does not consider the result of the command being run. For example, a command which runs but fails gather data is still listed in the execution status as a success.
 
-Discovery supports JEA profiles for WinRM. The MID Server command audit log records the JEA profile of the discovery command, if it is available. See [Microsoft Just Enough Administration \(JEA\) for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/microsoft-jea-discovery.md) for more information on JEA profiles.
+Discovery supports JEA profiles for WinRM. The MID Server command audit log records the JEA profile of the discovery command, if it is available. See [Microsoft Just Enough Administration \(JEA\) for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/microsoft-jea-discovery.md) for more information on JEA profiles.
 
-By default, the table is rotated every seven days. For more information, see [Table Rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TableRotation.md).
+By default, the table is rotated every seven days. For more information, see [Table Rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_TableRotation.md).
 
-**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-security-encryption.md)
+**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-server-security-encryption.md)
 
 **Related topics**  
 
@@ -63,8 +63,6 @@ By default, the table is rotated every seven days. For more information, see [Ta
 [Rekey a MID Server]()
 
 [Add SSL certificates for the MID Server]()
-
-[Specify an external TrustStore for the MID Server]()
 
 [MID Server SSH cryptographic algorithms]()
 

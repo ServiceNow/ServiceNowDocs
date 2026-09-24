@@ -3,13 +3,13 @@ title: Setting up Enterprise graph in sub-production instance
 description: Use these steps to setup Enterprise graph in sub-production instance manually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/setting-up-global-graph-in-production-instance.html
-release: australia
+release: brazil
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Enterprise graph schema, Knowledge Graph, Enable AI experiences]
+breadcrumb: [Using Enterprise graph schema, Knowledge Graph, Managing data for AI, Enable AI Experiences]
 ---
 
 # Setting up Enterprise graph in sub-production instance

@@ -3,11 +3,11 @@ title: Set up a software model for the Microsoft Endpoint Configuration Manager 
 description: Using the applications discovered on the Microsoft Endpoint Configuration Manager server, set up a software model to manage licenses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd2-sw-model.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CSD 2.0 for Microsoft Endpoint Configuration Manager, Client Software Distribution 2.0 application, Integration Hub solutions, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -25,7 +25,7 @@ Role required:
 -   sn\_ms\_epcfgmgr\_spk.Microsoft Endpoint Manager Admin and sn\_csd.CSD Admin
 -   admin
 
-Before creating software models, you must discover the applications available for deployment on the Microsoft Endpoint Configuration Manager server. See [CSD 2.0 for Microsoft Endpoint Configuration Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2.md) for more information.
+Before creating software models, you must discover the applications available for deployment on the Microsoft Endpoint Configuration Manager server. See [CSD 2.0 for Microsoft Endpoint Configuration Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/csd2.md) for more information.
 
 ## About this task
 
@@ -50,5 +50,5 @@ You can link a Microsoft Endpoint Configuration Manager application to an existi
         The view returns to the Microsoft Endpoint Configuration Manager Applications list.
 
 
-**Parent Topic:**[CSD 2.0 for Microsoft Endpoint Configuration Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2.md)
+**Parent Topic:**[CSD 2.0 for Microsoft Endpoint Configuration Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/csd2.md)
 

@@ -3,11 +3,11 @@ title: Create a transaction call chain register
 description: Create a call chain register to record call chain information for a problematic \(or slow\) transaction during the next occurrence of that URL. You specify that the next occurrence of the transaction URL should be persisted with all of its call chain information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/create-transaction-call-chain-register.html
-release: australia
+release: brazil
 product: Platform Performance
 classification: platform-performance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Transaction call chains, Monitor, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -24,15 +24,15 @@ Role required: admin
 
 1.  Navigate to the Transaction Log or Slow Transactions list, select the problematic transaction, and enable recording of the call chain.
 
-<table id="choicetable_nc2_kmn_f4b"><thead><tr><th align="left" id="d131842e54">
+<table id="choicetable_nc2_kmn_f4b"><thead><tr><th align="left" id="d130951e54">
 
 Type of Log
 
-</th><th align="left" id="d131842e57">
+</th><th align="left" id="d130951e57">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d131842e63">
+</th></tr></thead><tbody><tr><td id="d130951e63">
 
 **Transaction Log**
 
@@ -44,7 +44,7 @@ Steps
 4.  In the Transaction Log Entry form, select **Open Record**, then select **Record call chain of next occurrence**.
 
 
-</td></tr><tr><td id="d131842e101">
+</td></tr><tr><td id="d130951e101">
 
 **Slow Transactions**
 
@@ -59,7 +59,7 @@ Steps
 </td></tr></tbody>
 </table>2.  On the Transaction Call Chain Register form, fill in the fields.
 
-    For a description of the field values, see [Transaction call chain register form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/transaction-call-chain-reg-form.md).
+    For a description of the field values, see [Transaction call chain register form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/platform-performance/transaction-call-chain-reg-form.md).
 
 3.  Select **Submit**.
 
@@ -72,7 +72,7 @@ A call chain register is created to designate that the next occurrence of the tr
 
 ## What to do next
 
-[Review a transaction call chain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/review-transaction-call-chain.md)
+[Review a transaction call chain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/platform-performance/review-transaction-call-chain.md)
 
-**Parent Topic:**[Transaction call chains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/transaction-call-chains.md)
+**Parent Topic:**[Transaction call chains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/platform-performance/transaction-call-chains.md)
 

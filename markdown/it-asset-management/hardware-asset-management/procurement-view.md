@@ -3,11 +3,11 @@ title: Procurement view
 description: Use the Procurement view in the Hardware Asset Workspace to view and manage procurement-related details such as procurement requests, purchase orders, sourcing tasks, and receiving slips.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/procurement-view.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Hardware Asset Workspace, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -26,7 +26,7 @@ Select any widget or chart to view the details. You can also use **Location**, *
 
 |Widget or chart|Description|
 |---------------|-----------|
-|Purchase order pending delivery|Count of purchase orders that aren't received and aren't canceled. Only purchase orders that have a status of Requested, Ordered, or Pending Delivery are displayed.|
+|Purchase order pending delivery|Count of purchase orders that aren't in a Canceled or Received status. This includes purchase orders with a status of Requested, Ordered, Pending Delivery, and Suspended.|
 |Requests pending approval|Count of sourceable and active requests with request state of pending approval.|
 |Expenditure by vendor|Cost that you've paid to each of your vendors for procuring the inventory. Only purchase orders that have a status of Ordered, Pending Delivery, or Received are listed.|
 |Orders by vendor|Purchase orders that have been ordered, are pending delivery, or have been received by the vendor.|
@@ -34,8 +34,10 @@ Select any widget or chart to view the details. You can also use **Location**, *
 |Requests that require sourcing|List of requests for which a purchase order, local order, or transfer order hasn't been initiated.|
 |Open purchase orders|List of purchase orders that have been requested, ordered, or not delivered.|
 
+**Parent Topic:**[Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/using-ham-workspace.md)
+
 **Related topics**  
 
 
-[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_Procurement.md)
+[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/c_Procurement.md)
 

@@ -3,9 +3,9 @@ title: Field service feature configuration
 description: Understand the configuration of the field service feature in Engagement Messenger module to configure the values.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/field-service-feature-configuration.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Engagement Messenger reference, Reference, Customer Service Management]
 ---
@@ -34,6 +34,6 @@ To enable this functionality, ensure that you meet the following criteria:
 -   Activate the Field Service Management - Customer Experience plugin \(com.snc.fsm\_customer\_experience\).
 -   in the sys\_user table, enable the **Geolocation tracked** field for all your field service agents who would be assigned to the customer work orders.
 
-    For more information, see [Location tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_LocationTracking.md).
+    For more information, see [Location tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_LocationTracking.md).
 
 

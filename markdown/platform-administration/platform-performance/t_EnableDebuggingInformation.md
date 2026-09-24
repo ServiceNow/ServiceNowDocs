@@ -3,11 +3,11 @@ title: Enable transaction quota debugging
 description: You can enable the logging of transaction quota debugging information by enabling the system property.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/t\_EnableDebuggingInformation.html
-release: australia
+release: brazil
 product: Platform Performance
 classification: platform-performance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Transaction quotas, Configure, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -36,5 +36,5 @@ After setting the above system property to **true**, go to your system log to se
 **Related topics**  
 
 
-[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
+[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
 

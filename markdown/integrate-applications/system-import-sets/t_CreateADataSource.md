@@ -3,11 +3,11 @@ title: Create an XML data source to another instance
 description: Data sources are used to create an import set so that data can be processed, if necessary, prior to being mapped onto a production table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/t\_CreateADataSource.html
-release: australia
+release: brazil
 product: System Import Sets
 classification: system-import-sets
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using XML import sets, Importing from another ServiceNow instance, Import sets, Imports, Workflow Data Fabric]
 ---
@@ -53,9 +53,9 @@ Role required: admin.
     **Note:** The 20 loaded records can't be transformed and are for testing purposes only.
 
 
-**Parent Topic:**[Using XML import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_XMLImportSets.md)
+**Parent Topic:**[Using XML import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/c_XMLImportSets.md)
 
-**Previous topic:**[Using XML import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_XMLImportSets.md)
+**Previous topic:**[Using XML import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/c_XMLImportSets.md)
 
-**Next topic:**[Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_CreateATransformMap.md)
+**Next topic:**[Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/t_CreateATransformMap.md)
 

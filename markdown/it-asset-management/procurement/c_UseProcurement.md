@@ -3,11 +3,11 @@ title: Procurement purchase order management for assets
 description: Accurate purchase order information is important for invoice tracking, receiving, and reporting in the ServiceNow platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/procurement/c\_UseProcurement.html
-release: australia
+release: brazil
 product: Procurement
 classification: procurement
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Procurement, Common applications, Asset Management]
 ---
@@ -20,18 +20,18 @@ The Procurement application enables users with an appropriate procurement role t
 
 Before using the Procurement application, create assignment groups for catalog tasks. Assignment groups are sets of users, filtered by location, who can perform catalog tasks.
 
--   **[Track a request from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/t_TrackReqFromServiceCatalog.md)**  
+-   **[Track a request from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/procurement/t_TrackReqFromServiceCatalog.md)**  
 The Procurement application lets you track a request that was ordered from the service catalog.
--   **[Cancel a request from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/t_CancelReqFromServCatalog.md)**  
+-   **[Cancel a request from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/procurement/t_CancelReqFromServCatalog.md)**  
 You can cancel a request from the service catalog if, for example, the item is no longer needed or the request was not approved.
--   **[View and edit a catalog task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/t_ViewAndEditACatalogTask.md)**  
+-   **[View and edit a catalog task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/procurement/t_ViewAndEditACatalogTask.md)**  
 Catalog tasks are used to source items and fulfill requests. You can view and edit catalog tasks from a request.
--   **[Create a purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/t_CreateAPurchaseOrder.md)**  
+-   **[Create a purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/procurement/t_CreateAPurchaseOrder.md)**  
 You can create a purchase order. Purchase orders specify assets to order from a single vendor.
--   **[Create an asset and reserve it for the requester](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/t_CreateAssetReserveForRequester.md)**  
+-   **[Create an asset and reserve it for the requester](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/procurement/t_CreateAssetReserveForRequester.md)**  
 Create the asset before they're delivered so that you can create the asset record with an asset tag and serial number early in the process and reserve the asset for the user who requested it. The receiver can only select the assets to be received as assets are pre-created.
 
-**Parent Topic:**[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/c_Procurement.md)
+**Parent Topic:**[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/procurement/c_Procurement.md)
 
 **Related topics**  
 
@@ -50,7 +50,7 @@ Create the asset before they're delivered so that you can create the asset recor
 
 [Domain separation and Procurement]()
 
-[Manage transfer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/c_TransferOrders.md)
+[Manage transfer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/c_TransferOrders.md)
 
-[Create a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAGroup.md)
+[Create a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAGroup.md)
 

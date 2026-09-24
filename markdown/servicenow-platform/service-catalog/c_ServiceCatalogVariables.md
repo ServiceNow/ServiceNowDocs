@@ -3,11 +3,11 @@ title: Service catalog variables
 description: Service catalog variables capture and pass on information about choices a customer makes when ordering a catalog item. Variables help define the structure of a catalog item form that is displayed to the customer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/c\_ServiceCatalogVariables.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Catalog Reference, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,25 +22,25 @@ Service Catalog provides several types of variables, which are also referred to 
 
 You can define service catalog variables with the catalog\_admin role.
 
--   **[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)**  
+-   **[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)**  
 Variables allow you to specify questions for a catalog item. Several types of service catalog variables are provided. Some variable types accept variable attributes.
--   **[Create a service catalog variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreateAVariableForACatalogItem.md)**  
+-   **[Create a service catalog variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/t_CreateAVariableForACatalogItem.md)**  
 Create service catalogs variables to gather information from users ordering a catalog item, for example, to ask users which options they want for the item.
--   **[Service catalog data lookup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogDataLookup.md)**  
+-   **[Service catalog data lookup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/c_ServiceCatalogDataLookup.md)**  
 The Data Lookup and Record Matching Support for Service Catalog plugin offers similar features to the general Data Lookup and Record Matching Support plugin.
--   **[Audit service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_AuditableServiceCatalogVariables.md)**  
+-   **[Audit service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/t_AuditableServiceCatalogVariables.md)**  
 Audit the variables so that the audit history records all changes to the named variables.
--   **[Service Catalog variable editors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog-variable-editor.md)**  
+-   **[Service Catalog variable editors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/service-catalog-variable-editor.md)**  
 Variable editor displays variable values in fulfiller forms. A requester, while requesting the item, specifies these variable values in the catalog item questions.
--   **[Prefilling variable values on the catalog item form in the portal and Next Experience UIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/prefill-variable-values-catalog-item-form.md)**  
+-   **[Prefilling variable values on the catalog item form in the portal and Next Experience UIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/prefill-variable-values-catalog-item-form.md)**  
 When catalog item requesters want to order items on portals or Next Experience UI, you can set the catalog items to use the key-value pairs, which prefill the variable values. The requesters can finish forms faster.
 
-**Parent Topic:**[Service Catalog Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog-reference.md)
+**Parent Topic:**[Service Catalog Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/service-catalog-reference.md)
 
 **Related topics**  
 
 
-[Scriptable service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptableServiceCatalogVariables.md)
+[Scriptable service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/c_ScriptableServiceCatalogVariables.md)
 
-[Use service catalog variables in a report – Report Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/use-service-catalog-variables-in-report.md)
+[Use service catalog variables in a report – Report Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/use-service-catalog-variables-in-report.md)
 

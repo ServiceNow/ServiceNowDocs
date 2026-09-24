@@ -3,11 +3,11 @@ title: Split a SAFe feature
 description: Split a SAFe feature into two separate features so that you can track complete and incomplete stories. Move the feature with the incomplete stories to your backlog or to a future program increment \(PI\). This maintains accurate metrics of the previous sprints and PIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/split-a-safe-feature.html
-release: australia
+release: brazil
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Define a feature in SAFe, SAFe entities, Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -60,5 +60,5 @@ The completed stories of the original feature move to a new feature whose state 
 
 Schedule the feature that has incomplete stories to your backlog or a new PI of your choice.
 
-**Parent Topic:**[Define a feature in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/create-SAFefeature.md)
+**Parent Topic:**[Define a feature in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/create-SAFefeature.md)
 

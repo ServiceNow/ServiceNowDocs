@@ -3,11 +3,11 @@ title: HPE Security ArcSight ESM - Email Parser integration
 description: The HPE Security ArcSight ESM - Email Parser integration is supported using an email parser that consumes email notifications from ESM to create security incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/arcsight-emailparser-integration.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

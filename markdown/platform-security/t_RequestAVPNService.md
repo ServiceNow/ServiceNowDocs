@@ -3,9 +3,9 @@ title: Activating a VPN service
 description: For all VPN requests, including provisioning, modifications, or general questions, use the Service Catalog VPN Request form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_RequestAVPNService.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Virtual Private Network \(VPN\)]
 ---

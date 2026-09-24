@@ -3,9 +3,9 @@ title: Test a fix script
 description: Test your fix scripts to ensure they install or update applications as expected.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/t\_TestFixScripts.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Fix scripts, Anatomy of an application, Learning about developing on the ServiceNow AI Platform, Building applications]
 ---
@@ -38,7 +38,7 @@ Fix scripts add, update, and delete data, including rules, scripts, and property
 
 4.  Confirm how to run the script.
 
-<table id="choicetable_bkd_345_cr"><tbody><tr><td id="d265879e98">
+<table id="choicetable_bkd_345_cr"><tbody><tr><td id="d257817e98">
 
 **__Proceed in Background__**
 
@@ -46,7 +46,7 @@ Fix scripts add, update, and delete data, including rules, scripts, and property
 
 Use this option for long-running scripts, or if you do not know the expected execution time.
 
-</td></tr><tr><td id="d265879e108">
+</td></tr><tr><td id="d257817e108">
 
 **__Proceed__**
 

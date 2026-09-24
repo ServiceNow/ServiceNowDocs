@@ -3,9 +3,9 @@ title: Configure recovery tiers for BIA
 description: Configure a recovery tier with a set of business applications that follow a similar range of recovery time objective \(RTO\) values. Use the Recovery Tiers module in the Business Continuity Management application navigator to configure a recovery tier.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-recovery-tier-bia-uib-ws.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [General administration setup for BCM, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -30,13 +30,13 @@ Role required: sn\_bcm.admin
 
     \[Omitted image "new-recovery-tier-rto.png"\] Alt text: Recovery tier and its recovery time objective.
 
-    For more information on the fields in the form, see [Recovery Tier record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/recovery-tier-record-form.md).
+    For more information on the fields in the form, see [Recovery Tier record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/recovery-tier-record-form.md).
 
 4.  Select **Submit**.
 
 
--   **[Recovery Tier record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/recovery-tier-record-form.md)**  
+-   **[Recovery Tier record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/recovery-tier-record-form.md)**  
 Use the Recovery Tier record form to configure a recovery tier with a set of business applications by using BCM UIB Workspace.
 
-**Parent Topic:**[General administration setup for BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-bcm-bcmadmin-tasks.md)
+**Parent Topic:**[General administration setup for BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/set-up-bcm-bcmadmin-tasks.md)
 

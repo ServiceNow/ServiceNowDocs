@@ -3,11 +3,11 @@ title: Create case records for the imported data
 description: Create case records for the imported data as it is important for creating a project and mining it. Without a record table, a project can’t be created.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/create-case-record.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with external datasets, Import external data, Process Mining, Platform Analytics]
 ---
@@ -18,9 +18,9 @@ Create case records for the imported data as it is important for creating a proj
 
 ## Before you begin
 
--   [Create an audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/create-table.md)
--   [Import data into the audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/import-data.md)
--   [Verify the imported data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/verify-data.md)
+-   [Create an audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/create-table.md)
+-   [Import data into the audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/import-data.md)
+-   [Verify the imported data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/verify-data.md)
 
 Role required: sn\_process\_mining\_admin
 

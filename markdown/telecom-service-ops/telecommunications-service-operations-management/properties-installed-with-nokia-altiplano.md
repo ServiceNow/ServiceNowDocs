@@ -3,11 +3,11 @@ title: System components installed with Nokia Altiplano
 description: System properties control how the connector operates, including discovery options and performance settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/properties-installed-with-nokia-altiplano.html
-release: australia
+release: brazil
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Telecommunications Service Operations Management]
 ---
@@ -61,12 +61,12 @@ Defines whether ONUs are stored as `ONU` or `ONT` CI class. -   Default value: O
 -   Location: **All**&gt;**Service Graph Connectors**&gt;**Nokia Altiplano**&gt;**Properties** or **System Properties** \[sys\_properties\] table filtering by the name ‘\*altiplano’
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Telecommunications Service Operations Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/components-installed-with-tsom.md)
+</table>**Parent Topic:**[Telecommunications Service Operations Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/components-installed-with-tsom.md)
 
 **Related topics**  
 
 
-[Telecom Discovery via Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/service-graph-connector-for-nokia-altiplano.md)
+[Telecom Discovery via Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/service-graph-connector-for-nokia-altiplano.md)
 
-[Configure Nokia Altiplano service graph connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configuring-service-graph-connector-nokia-altiplano.md)
+[Configure Nokia Altiplano service graph connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/configuring-service-graph-connector-nokia-altiplano.md)
 

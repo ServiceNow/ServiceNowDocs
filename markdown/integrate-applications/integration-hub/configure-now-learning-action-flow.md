@@ -3,7 +3,7 @@ title: Configure the ServiceNow University action flow in Workflow Studio
 description: Integrate the ServiceNow instance and ServiceNow University by using the Oauth credentials to authenticate ServiceNow requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/configure-now-learning-action-flow.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -19,7 +19,7 @@ Integrate the ServiceNow instance and ServiceNow University by using the Oauth c
 ## Before you begin
 
 -   Have ITSM Enterprise license subscription.
--   Integrate Coaching with Learning with ServiceNow University. For more information, see [External Content Integration Sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/integration-source-coaching-with-learning-coaching-wfo-itsm.md).
+-   Integrate Coaching with Learning with ServiceNow University. For more information, see [External Content Integration Sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/integration-source-coaching-with-learning-coaching-wfo-itsm.md).
 -   Role required: admin.
 
 ## Procedure
@@ -94,5 +94,5 @@ Integrate the ServiceNow instance and ServiceNow University by using the Oauth c
 **Related topics**  
 
 
-[Building actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/actions.md)
+[Building actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/actions.md)
 

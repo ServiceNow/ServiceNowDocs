@@ -3,7 +3,7 @@ title: Configure pre-eligibility questions in Grants Management
 description: The Grants Management Program Setup enables grant program managers to use decision trees to define a series of pre-eligibility questions to check if the applicants qualify for the program.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gmp-config-pre-eligibility.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
@@ -99,9 +99,9 @@ When applicants proceed to answer eligibility questions, they are presented with
     If not eligible, a message will indicate that they may not be eligible and suggest reviewing their answer.
 
 
-**Parent Topic:**[Configure PaCE Eligibility Framework Engine for use with Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-pace.md)
+**Parent Topic:**[Configure PaCE Eligibility Framework Engine for use with Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-pace.md)
 
-**Previous topic:**[Configure PaCE Eligibility Framework Engine for use with Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-pace.md)
+**Previous topic:**[Configure PaCE Eligibility Framework Engine for use with Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-pace.md)
 
-**Next topic:**[Configure Eligibility Rules Engine Policies in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-eligibility.md)
+**Next topic:**[Configure Eligibility Rules Engine Policies in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-eligibility.md)
 

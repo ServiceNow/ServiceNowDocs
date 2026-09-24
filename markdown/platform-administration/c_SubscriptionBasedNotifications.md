@@ -3,9 +3,9 @@ title: Subscription-based notifications
 description: Subscription-based notifications enable users to proactively subscribe to items that interest them and unsubscribe from messages that are not mandatory.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_SubscriptionBasedNotifications.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Preferences in Core UI, Notification Preferences, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -34,16 +34,16 @@ The plugin installs the Notification Subscription \[sys\_notif\_subscription\] t
 
 Users can subscribe to notifications available to them through their notification preferences. In the Core UI interface, all users can set and modify their notification preferences through the **Notifications** tab of the System Settings window.
 
--   **[Create personal notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-personal-notifications.md)**  
+-   **[Create personal notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-personal-notifications.md)**  
 Create personal notifications, which are subscriptions to notifications of importance to you. You can apply conditions that control specific content included in your personal notification, and also enable or disable the channels for delivery.
--   **[Create a service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAServiceProvider.md)**  
+-   **[Create a service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAServiceProvider.md)**  
 Administrators can configure service providers for devices that use SMS.
--   **[Make a notification mandatory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_MakingANotificationMandatory.md)**  
+-   **[Make a notification mandatory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_MakingANotificationMandatory.md)**  
 To prevent users from turning off or deleting a subscription to a notification, make the notification mandatory.
--   **[Force a notification to be sent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ForcingANotificationToBeSent.md)**  
+-   **[Force a notification to be sent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ForcingANotificationToBeSent.md)**  
 To force a notification to be sent to the specified users, enable forced delivery.
--   **[Create a notification filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_NotificationFilters.md)**  
+-   **[Create a notification filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_NotificationFilters.md)**  
 Notification filters enable a user to control the delivery of messages by creating special conditions on multiple tables in a single, reusable filter.
 
-**Parent Topic:**[Setting notification preferences in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-notification-preferences.md)
+**Parent Topic:**[Setting notification preferences in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-notification-preferences.md)
 

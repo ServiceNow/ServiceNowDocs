@@ -3,9 +3,9 @@ title: Components installed with Task Plan Template Playbook
 description: Certain roles and dependencies must be considered when using the Task Plan Template Playbook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-components-task-plan-template-playbook.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Components installed with plugins, Reference, Retail]
 ---
@@ -44,5 +44,5 @@ The task plan template playbook activities plugin enables task plan templates to
 -   com.playbook\_experience
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-components-installed-with-plugins.md)
+</table>**Parent Topic:**[Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-components-installed-with-plugins.md)
 

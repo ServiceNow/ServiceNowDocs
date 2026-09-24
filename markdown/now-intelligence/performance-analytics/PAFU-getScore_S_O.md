@@ -3,11 +3,11 @@ title: getScore\(String indicator, Object onDate\)
 description: Returns the score of the specified indicator for the specified date.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/PAFU-getScore\_S\_O.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [PAFormulaUtils API, Get analytics methods in formulas, Formula indicators, Indicators, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -31,7 +31,7 @@ Example:
 pa.getScore($[[Number of open incidents]], score_end);
 ```
 
-**Parent Topic:**[PAFormulaUtils API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/PAFormulaUtils.md)
+**Parent Topic:**[PAFormulaUtils API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/PAFormulaUtils.md)
 
 **Related topics**  
 
@@ -56,5 +56,5 @@ pa.getScore($[[Number of open incidents]], score_end);
 
 [getPersonalTarget\(String indicator, Object onDate\)]()
 
-[PAFormulaUtils API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/PAFormulaUtils.md)
+[PAFormulaUtils API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/PAFormulaUtils.md)
 

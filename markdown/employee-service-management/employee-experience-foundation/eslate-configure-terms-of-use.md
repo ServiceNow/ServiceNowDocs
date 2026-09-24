@@ -3,7 +3,7 @@ title: Configure terms of use attestation
 description: Configure attestation terms that employees must accept before accessing Employee Slate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-configure-terms-of-use.html
-release: australia
+release: brazil
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
@@ -63,5 +63,5 @@ Require users to accept attestation terms to use the feature and functionality a
 
 ## Result
 
-After you enable this configuration, employees must accept the terms of use matching their assigned segment. For the employee acceptance experience, see [Accept AI terms and conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-accept-terms-attestation.md).
+After you enable this configuration, employees must accept the terms of use matching their assigned segment. For the employee acceptance experience, see [Accept AI terms and conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/empworks-accept-terms-attestation.md).
 

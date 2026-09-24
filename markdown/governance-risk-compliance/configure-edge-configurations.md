@@ -3,9 +3,9 @@ title: Configure the Edge configurations
 description: Configure the Edge configurations settings for the selected Nexus map configuration. You can then configure the label, tooltip, default edge type for the edge of the selected node.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-edge-configurations.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the Main node configurations, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -26,7 +26,7 @@ Role required: sn\_oper\_res.admin
 
 3.  In the Edge configurations related list, select **New**.
 
-    For more information on the fields, see [Edge configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/edge-configuration-form.md).
+    For more information on the fields, see [Edge configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/edge-configuration-form.md).
 
     \[Omitted image "edge-config-record.png"\] Alt text: Edge configurations related list.
 

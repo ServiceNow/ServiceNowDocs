@@ -3,11 +3,11 @@ title: Configure a customized notification for critical alert
 description: Set your custom notifications as critical for ITSM Mobile Agent
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/configure-customised-notification-for-critical-alert.html
-release: australia
+release: brazil
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enable Override do not disturb to receive critical alerts, Configuring ITSM Mobile Agent, ITSM Mobile Agent, IT Service Management]
 ---

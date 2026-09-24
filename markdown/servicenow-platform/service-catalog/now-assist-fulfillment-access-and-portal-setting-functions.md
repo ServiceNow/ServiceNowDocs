@@ -3,11 +3,11 @@ title: Fulfillment, access, and portal setting functions
 description: In addition to catalogs, categories, and topics, AI allows you to set three other key fields for a catalog item: Access, Fulfillment flow, and Portal settings. You can configure these simply by describing your requirements in plain language.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/now-assist-fulfillment-access-and-portal-setting-functions.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Things to know while creating items using AI, AI Authoring for Catalog Builder reference, AI Authoring for Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -50,5 +50,5 @@ If you request updates to multiple fields and some are locked by a template whil
 
 **Note:** User criteria records define groups of users based on conditions such as role, department, or location. These records manage who can view or request a catalog item.
 
-**Parent Topic:**[Things to know while creating items using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/things-to-know-while-creating-items-using-ai.md)
+**Parent Topic:**[Things to know while creating items using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/things-to-know-while-creating-items-using-ai.md)
 

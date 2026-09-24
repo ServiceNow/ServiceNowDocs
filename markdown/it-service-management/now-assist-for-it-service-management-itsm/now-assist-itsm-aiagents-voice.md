@@ -3,11 +3,11 @@ title: Agentic AI in the Voice application
 description: Use the Voice AI agents to create and manage tickets for any IT service-related issues such as troubleshooting WiFi connections with voice calls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-voice.html
-release: australia
+release: brazil
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -118,6 +118,6 @@ You can use Voice AI agents to get answers to your questions or resolve issues u
 For Voice AI agents to search knowledge base articles:
 
 1.  Define the knowledge base articles.
-2.  Define the search profile in AI search to search the knowledge base articles. For information on AI search, see [Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/defining-search-profiles-ais.md)
-3.  Create the search retrieval tool to use the search profile in the Voice AI agent. For information on search retrieval, see [Add a search retrieval to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-retriever-ai-agent.md)
+2.  Define the search profile in AI search to search the knowledge base articles. For information on AI search, see [Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/defining-search-profiles-ais.md)
+3.  Create the search retrieval tool to use the search profile in the Voice AI agent. For information on search retrieval, see [Add a search retrieval to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-retriever-ai-agent.md)
 

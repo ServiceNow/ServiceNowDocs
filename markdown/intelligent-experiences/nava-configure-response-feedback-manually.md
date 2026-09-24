@@ -3,11 +3,11 @@ title: Configure response feedback
 description: Configure the response feedback options that appear when users select thumbs up or thumbs down on a ServiceNow Otto for Virtual Agent or ServiceNow Otto panel response.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nava-configure-response-feedback-manually.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring AI skills, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Configuring Now Assist Admin features, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Configure response feedback
@@ -51,5 +51,5 @@ Role required: admin
 14. For more information on accessing the stored feedback data, see [Granular Feedback and Analytics in ServiceNow Otto for Virtual Agent \(KB3060968\).](https://support.servicenow.com/kb_view.do?sysparm_article=KB1213249)
 
 
-**Parent Topic:**[Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md)
+**Parent Topic:**[Configuring Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-na-landing.md)
 

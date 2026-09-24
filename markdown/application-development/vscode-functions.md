@@ -3,9 +3,9 @@ title: Functions of ServiceNow Extensions for VS Code
 description: The ServiceNow Extensions for VS Code extension includes tools for developing on the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/vscode-functions.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Extensions for Visual Studio Code, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -32,7 +32,7 @@ Setup Now Workspace
 
 </td><td>
 
-Create the project folder to work with ServiceNow applications. For details on creating this workspace, see [Set up a workspace in VS Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/setup-workspace.md).
+Create the project folder to work with ServiceNow applications. For details on creating this workspace, see [Set up a workspace in VS Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/setup-workspace.md).
 
 </td></tr><tr><td>
 
@@ -40,7 +40,7 @@ Activate Now Extension
 
 </td><td>
 
-Activates the ServiceNow extension. See [Activate ServiceNow Extensions for VS Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/activate-servicenow-ext.md).
+Activates the ServiceNow extension. See [Activate ServiceNow Extensions for VS Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/activate-servicenow-ext.md).
 
 </td></tr><tr><td>
 
@@ -48,7 +48,7 @@ Create Now Project
 
 </td><td>
 
-Import existing ServiceNow applications to a Visual Studio Code project. See [Create a project in VS Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-project.md).
+Import existing ServiceNow applications to a Visual Studio Code project. See [Create a project in VS Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-project.md).
 
 </td></tr><tr><td>
 
@@ -56,7 +56,7 @@ Sync Current Project
 
 </td><td>
 
-During development, synchronize all files between VS Code and the instance. See [Synchronize the current project between a Visual Studio Code workspace and a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/synchronize-files.md).
+During development, synchronize all files between VS Code and the instance. See [Synchronize the current project between a Visual Studio Code workspace and a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/synchronize-files.md).
 
 </td></tr><tr><td>
 
@@ -64,7 +64,7 @@ Sync Current File
 
 </td><td>
 
-Synchronize the current file you are working on. See [Sync the current file between a Visual Studio Code workspace and a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/sync-current-file.md).
+Synchronize the current file you are working on. See [Sync the current file between a Visual Studio Code workspace and a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/sync-current-file.md).
 
 </td></tr><tr><td>
 
@@ -72,7 +72,7 @@ Clear Credentials
 
 </td><td>
 
-Deletes the entered credentials in the Settings page. See [Clear instance credentials in Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/clear-credentials.md).
+Deletes the entered credentials in the Settings page. See [Clear instance credentials in Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/clear-credentials.md).
 
 </td></tr><tr><td>
 
@@ -80,7 +80,7 @@ Reset Project
 
 </td><td>
 
-Sets project to its original state. See [Reset a project in Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/reset-project.md).
+Sets project to its original state. See [Reset a project in Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/reset-project.md).
 
 </td></tr><tr><td>
 
@@ -88,7 +88,7 @@ Configure File Types
 
 </td><td>
 
-Modify the options selected in the metadata. Metadata determines which elements of your application you want to synchronize with VS Code. See [Import an application into Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vscode-import-application.md).
+Modify the options selected in the metadata. Metadata determines which elements of your application you want to synchronize with VS Code. See [Import an application into Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vscode-import-application.md).
 
 </td></tr><tr><td>
 
@@ -96,7 +96,7 @@ Add Custom File Types
 
 </td><td>
 
-Add file types to your project using the Custom File Types wizard. See [Add custom file types in Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vscode-add-custom-filetypes.md).
+Add file types to your project using the Custom File Types wizard. See [Add custom file types in Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vscode-add-custom-filetypes.md).
 
 </td></tr><tr><td>
 
@@ -104,7 +104,7 @@ Select Application
 
 </td><td>
 
-Switch between application within the workspace in VS code. See [Import an application into Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vscode-import-application.md).
+Switch between application within the workspace in VS code. See [Import an application into Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vscode-import-application.md).
 
 </td></tr><tr><td>
 
@@ -112,7 +112,7 @@ Select Update Set
 
 </td><td>
 
-Select an update set. Changes synchronized to your instance are applied to the selected update set. For more information on update sets, see [Import an application into Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vscode-import-application.md).
+Select an update set. Changes synchronized to your instance are applied to the selected update set. For more information on update sets, see [Import an application into Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vscode-import-application.md).
 
 </td></tr><tr><td>
 
@@ -120,7 +120,7 @@ Create New File
 
 </td><td>
 
-Create records in your application. For details, see [Create a file in VS Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vscode-create-file.md).
+Create records in your application. For details, see [Create a file in VS Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vscode-create-file.md).
 
 </td></tr><tr><td>
 
@@ -128,7 +128,7 @@ Global File Search
 
 </td><td>
 
-Find files within the instance. See [Search files on your instance in VS Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/search-file.md).
+Find files within the instance. See [Search files on your instance in VS Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/search-file.md).
 
 </td></tr><tr><td>
 
@@ -136,7 +136,7 @@ Run Background Scripts
 
 </td><td>
 
-Run a background script on your instance. See [Run background scripts using VS Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vscode-background-script.md).
+Run a background script on your instance. See [Run background scripts using VS Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vscode-background-script.md).
 
 </td></tr><tr><td>
 
@@ -144,8 +144,8 @@ IntelliSense
 
 </td><td>
 
-An IntelliSense code-completion aid available for Glide APIs. See [IntelliSense in VS Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/Intellisense.md).
+An IntelliSense code-completion aid available for Glide APIs. See [IntelliSense in VS Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/Intellisense.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow Extensions for Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vs-code.md)
+</table>**Parent Topic:**[ServiceNow Extensions for Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vs-code.md)
 

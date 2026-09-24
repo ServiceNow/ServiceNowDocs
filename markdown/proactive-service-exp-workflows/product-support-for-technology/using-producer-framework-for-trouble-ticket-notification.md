@@ -3,11 +3,11 @@ title: Using the producer framework for outbound notifications
 description: The producer framework picks the event from the ServiceNow instance and sends the outbound notification to the external system. You can consume the details of the notification from the messaging service that is installed in your external system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/using-producer-framework-for-trouble-ticket-notification.html
-release: australia
+release: brazil
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, API Notification Management, Product Support for Technology]
 ---
@@ -151,19 +151,19 @@ When the system pushes an event to the staging table, the following steps take p
 1.  The scheduler picks a number of records at a preconfigured interval and then sends Glide snapshots to the event processor.
 2.  The system converts the Glide snapshot to a TMF 688 complaint event payload based on the event type.
 
-    To learn more about the methods used to define and generate the TMF-compliant payloads for trouble ticket events, see [TopicAPIUtilsOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TopicAPIUtilsOOBAPIScoped.md).
+    To learn more about the methods used to define and generate the TMF-compliant payloads for trouble ticket events, see [TopicAPIUtilsOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/TopicAPIUtilsOOBAPIScoped.md).
 
 3.  The system checks whether the notification configuration is intended for Hermes Kafka or the open message bus.
 
-    To learn more about configuring the producer event notification framework, see [Producer Event Notification Framework developer guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/prod_evt_not-dev_guide-overview.md).
+    To learn more about configuring the producer event notification framework, see [Producer Event Notification Framework developer guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/developer-guides/prod_evt_not-dev_guide-overview.md).
 
 
-**Parent Topic:**[Using API Notification Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/use-api-notification-management.md)
+**Parent Topic:**[Using API Notification Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/use-api-notification-management.md)
 
 **Related topics**  
 
 
-[Producing outbound API notifications using Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/hermes-stream-connect-kafka-workflow.md)
+[Producing outbound API notifications using Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/hermes-stream-connect-kafka-workflow.md)
 
-[Outbound trouble ticket notifications via open message bus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/trouble-ticket-workflow-using-pub-sub-model.md)
+[Outbound trouble ticket notifications via open message bus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/trouble-ticket-workflow-using-pub-sub-model.md)
 

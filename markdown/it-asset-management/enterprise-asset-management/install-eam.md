@@ -1,18 +1,18 @@
 ---
-title: Install Enterprise Asset Management
+title: Install Enterprise Asset Management from the ServiceNow Store
 description: You can install the Enterprise Asset Management application \(com.sn\_eam\) if you have the admin role. The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/install-eam.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-06-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Enterprise Asset Management, Asset Management]
+breadcrumb: [Installing Enterprise Asset Management, Configure, Enterprise Asset Management, Asset Management]
 ---
 
-# Install Enterprise Asset Management
+# Install Enterprise Asset Management from the ServiceNow Store
 
 You can install the Enterprise Asset Management application \(com.sn\_eam\) if you have the admin role. The application installs related ServiceNow® Store applications and plugins if they are not already installed.
 
@@ -31,7 +31,7 @@ The following items are installed with Enterprise Asset Management:
 -   Store applications
 -   Roles
 
-For more information, see [Components installed with Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/installed-with-eam.md).
+For more information, see [Components installed with Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/installed-with-eam.md).
 
 ## Procedure
 
@@ -51,4 +51,6 @@ For more information, see [Components installed with Enterprise Asset Management
 
 5.  Select **Install**.
 
+
+**Parent Topic:**[Installing Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/installing-eam.md)
 

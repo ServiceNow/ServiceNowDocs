@@ -3,11 +3,11 @@ title: Workflow Activities for On-Call Scheduling
 description: Workflow activities in On-Call Scheduling workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/workflow-activities-oncall.html
-release: australia
+release: brazil
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [On-Call Scheduling workflows, Reference for on-call scheduling, On-Call Scheduling, IT Service Management]
 ---
@@ -149,5 +149,5 @@ List of parameters that are required for a notification:-   SMS: notify\_number,
     -   Clean - Workflow Context
     -   Update - Escalatee ID, Table Name, Current Record ID, Response
 
-**Parent Topic:**[On-Call Scheduling workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/workflows-oncall.md)
+**Parent Topic:**[On-Call Scheduling workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/workflows-oncall.md)
 

@@ -3,11 +3,11 @@ title: Cloud Resources dashboard
 description: The Cloud Resources dashboard shows the aggregated view of all your cloud resources, their combined analytical views, and a visual summary and detail of all your cloud resources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cloud-resources-dashboard.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Cloud discovery reporting, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Cloud discovery reporting, Discovery for cloud environment, Discove
 
 The Cloud Resources dashboard shows the aggregated view of all your cloud resources, their combined analytical views, and a visual summary and detail of all your cloud resources.
 
-**Important:** The Cloud Resources dashboard has been replaced by the Cloud Resources explorer in the Cloud Discovery Workspace store application. For more information, see [Cloud Resources Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cloud-resources-inventory-dashboard.md).
+**Important:** The Cloud Resources dashboard has been replaced by the Cloud Resources explorer in the Cloud Discovery Workspace store application. For more information, see [Cloud Resources Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/cloud-resources-inventory-dashboard.md).
 
 \[Omitted image "cloud-resources-dashboard.gif"\] Alt text: Animated gif of the four Cloud Resources dashboard tabs
 
@@ -27,7 +27,7 @@ For examples of how someone in your organization could use this dashboard, see t
 |User|Dashboard use|
 |----|-------------|
 |Cloud user|Discovery customers have an enormous number of CIs obtained from Cloud Discovery which can be viewed in one place.|
-|Cloud user with sn\_disco\_cd.admin role|Use the analytics tables that are available to build custom dashboards. These tables are specific baseline database views with resource tags. See [Customize the Cloud Resources dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cloud-resources-dashboard.md) for more information.|
+|Cloud user with sn\_disco\_cd.admin role|Use the analytics tables that are available to build custom dashboards. These tables are specific baseline database views with resource tags. See [Customize the Cloud Resources dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/cloud-resources-dashboard.md) for more information.|
 
 ## Data visualizations
 

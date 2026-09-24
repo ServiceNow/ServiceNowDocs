@@ -3,9 +3,9 @@ title: Shipping manual segments via plugins
 description: Business unit application developers can ship manual segments with their applications to provide domain-specific saved searches that work from the moment the app is installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/shipping-manual-segments-plugins.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [manual segments, plugins, shipping, application development, query generation]
 breadcrumb: [Segments, Tuning the semantic layer, Configure, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
@@ -95,14 +95,14 @@ After shipping manual segments with your application:
 
 If a segment is matching but producing wrong results, the issue is usually the name being too generic or the filter being too broad. Refine the name and description before adjusting system properties.
 
-**Parent Topic:**[Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-segments.md)
+**Parent Topic:**[Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/querygen-segments.md)
 
 **Related topics**  
 
 
-[Create a manual segment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-create-segment-manually.md)
+[Create a manual segment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/querygen-create-segment-manually.md)
 
-[Manual segment data model and sync behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/manual-segment-data-model-sync.md)
+[Manual segment data model and sync behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/manual-segment-data-model-sync.md)
 
-[Guidelines for segments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/general-guidelines-segments.md)
+[Guidelines for segments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/general-guidelines-segments.md)
 

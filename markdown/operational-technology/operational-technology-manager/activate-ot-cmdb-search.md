@@ -3,11 +3,11 @@ title: Activate the OT CMDB Search feature
 description: If you have the admin role, you can configure the Operational Technology \(OT\) Manager Foundation so that teams can use the OT Configuration Management Database \(CMDB\) search feature in the Industrial Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/activate-ot-cmdb-search.html
-release: australia
+release: brazil
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: task
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring the OT Manager Foundation, Configure, Operational Technology Manager, Operational Technology]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Use the AI Admin Hub console to configure the OT Manager Foundation. The console helps you install plugins and configure generative AI skills. For more information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
+Use the AI Admin Hub console to configure the OT Manager Foundation. The console helps you install plugins and configure generative AI skills. For more information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-now-assist.md).
 
 The following table lists the features and skills that you can access from the AI Admin Hub console.
 
@@ -34,8 +34,8 @@ The following table lists the features and skills that you can access from the A
 
 1.  Install the OT Manager Foundation plugin \(sn\_otm\_gen\_ai\).
 
-    -   For information about the application dependencies, see [Supporting information for OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/supporting-information-for-now-assist-otm.md).
-    -   For information about the installation process, see [Install plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    -   For information about the application dependencies, see [Supporting information for OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/supporting-information-for-now-assist-otm.md).
+    -   For information about the installation process, see [Install plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **All** &gt; **AI Admin Hub**.
 
 3.  Select the **AI Skills** tab.
@@ -46,13 +46,13 @@ The following table lists the features and skills that you can access from the A
 
 6.  On the Analytics Query Generator tile, select **Turn on**.
 
-    **Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+    **Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 7.  In the Turn on skill confirmation window, select **Turn on** to enable the skill.
 
 8.  Complete the following steps to display the Search CMDB agentic workflow and your conversation with the agent in the ServiceNow Otto panel.
 
-    **Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+    **Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
     1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Agentic Solutions**.
 
@@ -73,5 +73,5 @@ The following table lists the features and skills that you can access from the A
     4.  Select the **Status** toggle if the toggle isn't already selected.
 
 
-**Parent Topic:**[Configuring the OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/configuring-na-otm.md)
+**Parent Topic:**[Configuring the OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/configuring-na-otm.md)
 

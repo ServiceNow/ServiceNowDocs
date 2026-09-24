@@ -3,11 +3,11 @@ title: Create a script only check
 description: Create a check without specifying a table or a column type by selecting Create a new Script Only Check. You can verify meta data, configurations, and execute complex checks by writing your own script.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/instance-scan/hs-create-script-health-check.html
-release: australia
+release: brazil
 product: Instance Scan
 classification: instance-scan
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a check, Using Instance Scan, Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -21,7 +21,7 @@ Create a check without specifying a table or a column type by selecting **Create
 Role required: scan\_admin
 
 ```
-Before performing this task you must complete [Create a check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-create-health-check.md).
+Before performing this task you must complete [Create a check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/instance-scan/hs-create-health-check.md).
 ```
 
 ## About this task
@@ -140,5 +140,5 @@ Option to write a custom script to generate findings.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Create a check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-create-health-check.md)
+**Parent Topic:**[Create a check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/instance-scan/hs-create-health-check.md)
 

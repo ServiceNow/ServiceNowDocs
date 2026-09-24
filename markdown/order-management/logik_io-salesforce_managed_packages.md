@@ -3,7 +3,7 @@ title: CPQ and Salesforce managed packages
 description: Learn about the CPQ Extension Package and the CPQ Extension for Salesforce CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/logik\_io-salesforce\_managed\_packages.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
@@ -20,10 +20,12 @@ CPQ offers two managed packages for Salesforce\(SFDC\) orgs: the CPQ Extension P
 
 This is the base package for CPQ interacting with Salesforce. This package allows the user to:
 
--   Enable any SFDC Product2 record to be a CPQ configurable product through custom fields added to the Product2 record. For detailed steps, see [Configurable products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configurable-products-explore.md).
--   Launch the CPQ Admin from in Salesforce by navigating to the Salesforce Products tab, select the list view of 'CPQ View', find a CPQ enabled product, and click the corresponding Click Here link located in the View CPQ Setup column or through the Product2 record itself by clicking the link in the **View ServiceNow CPQ.io Setup** section on the product's page.
--   Support embedding the CPQ UI in Salesforce applications outside of CPQ using Visualforce. See [Use case: Embed CPQ UI in a Salesforce VisualForce page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use_case_embed_logik_io_ui_in_salesforce_visualforce_page.md).
--   Call CPQ admin APIs using Salesforce Tokens. For detailed steps, see [Admin APIs: Authentication using a Salesforce-connected app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/admin-apis-authentication-via-salesforce-connected-app.md).
+-   Enable any SFDC Product2 record to be a CPQ configurable product through custom fields added to the Product2 record. For detailed steps, see [Configurable products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configurable-products-explore.md).
+-   Launch the CPQ Admin from Salesforce using one of these methods:
+    -   Navigate to the Salesforce Products tab and select the 'CPQ View' list view. Find a CPQ enabled product and click the corresponding Click Here link in the View CPQ Setup column.
+    -   Open the Product2 record and click the link in the **View ServiceNow CPQ.io Setup** section on the product's page.
+-   Support embedding the CPQ UI in Salesforce applications outside of CPQ using Visualforce. See [Use case: Embed CPQ UI in a Salesforce VisualForce page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/use_case_embed_logik_io_ui_in_salesforce_visualforce_page.md).
+-   Call CPQ admin APIs using Salesforce Tokens. For detailed steps, see [Admin APIs: Authentication using a Salesforce-connected app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/admin-apis-authentication-via-salesforce-connected-app.md).
 
 Notable components of this package include:
 
@@ -66,7 +68,7 @@ Notable components of this package include:
         For more information on these objects and the user capabilities they add review the following video: [Delta BOM Feature.mp4](https://drive.google.com/file/d/10Uffs0C7aFWPqkLYRILqZcwgIq2-uxsp/view?usp=sharing)
 
 -   Custom Salesforce REST endpoint that creates a quote and quote lines based on a previously saved configuration, without going through Salesforce CPQ's UI. For more information, review this video: [Request for quote for Omnichannel using APIs.mp4](https://drive.google.com/file/d/1yaPTCzjU12lNLbznqlQ7CxmQskX_YOQ8/view?usp=sharing)
--   [Flightpath](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-flightpath.md): allows the administrator to understand how the rules engine responds to end-user inputs by presenting a visual interaction between inputs and triggered rule actions.
+-   [Flightpath](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-flightpath.md): allows the administrator to understand how the rules engine responds to end-user inputs by presenting a visual interaction between inputs and triggered rule actions.
 -   Configuration Line Item to quote line flow: flow template to populate quote line fields from Configuration Line Item object.
 
     \[Omitted image "cpq-managed-packages-flow-template.png"\] Alt text: Workflow
@@ -79,8 +81,8 @@ Notable components of this package include:
 
 -   Triggers: Two triggers are included with this package.
 
-    -   Product configurable trigger: This trigger is responsible for setting up configurable products to be configurable. That includes providing the link to CPQ and making the configurable product show up in the CPQ Admin \(on the Configurable Products page\), as well as setting up some product-related data for basic functionality in CPQ quoting.
-    -   Amendment quote line trigger: This trigger acts on the custom field Committed Configuration ID. This field gets populated when an amendment quote is created. If the subscription lines originated from a CPQ configuration, this trigger will automatically populate the current Configuration UD to the Committed Configuration UD field. During an amendment, when Reconfigure is finished, the Committed Configuration UD is used to populate Prior Quantity and Prior Price columns on the Configuration Line Item object. The Configuration UD custom field of the amended quote line is updated with new Configuration UD generated during the reconfigure flow. The Configuration UD field on the original subscription is also updated with the new value, so that amendments can be repeated with the latest changes made during the amendment.
+    -   Product configurable trigger: This trigger sets up configurable products. It provides the link to CPQ and makes the configurable product show up in the CPQ Admin \(on the Configurable Products page\). It also sets up product-related data for basic functionality in CPQ quoting.
+    -   Amendment quote line trigger: This trigger acts on the custom field Committed Configuration ID. This field gets populated when an amendment quote is created. If the subscription lines originated from a CPQ configuration, this trigger will automatically populate the current Configuration UD to the Committed Configuration UD field. During an amendment, when Reconfigure is finished, the Committed Configuration UD is used to populate Prior Quantity and Prior Price columns on the Configuration Line Item object. The Configuration UD custom field of the amended quote line is updated with new Configuration UD generated during the reconfigure flow. The Configuration UD field on the original subscription is also updated with the new value. This allows amendments to be repeated with the latest changes made during the amendment.
     You can disable these triggers through managing the CPQ Admin custom settings referenced above:
 
     \[Omitted image "cpq-managed-packages-salesforce-cpq-settings.png"\] Alt text: Admin settings screen
@@ -88,5 +90,5 @@ Notable components of this package include:
 
 ## All package components
 
-To view all the components contained in each package, go to Setup, search for "Installed Packages" in the Quick Find box, drill into either package, and click **View Components**. To request an environment setup or upgrade, ensure that a user has been created with the email address [provisioning@cpq](mailto:provisioning@Logik.io), and request the setup or upgrade through our [support site](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
+To view all the components contained in each package, go to Setup, search for "Installed Packages" in the Quick Find box, drill into either package, and click **View Components**. To request an environment setup or upgrade, verify that a user has been created with the email address [provisioning@logik.io](mailto:provisioning@Logik.io), and request the setup or upgrade through our [support site](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
 

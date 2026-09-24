@@ -3,11 +3,11 @@ title: Smart assessments with Third-party Risk Management
 description: With the integration of Smart Assessment Engine \(SAE\), TPRM now supports both the Classic assessment engine and SAE. You can create questionnaire templates and add instructions, questions, and reference information by creating templates using SAE in the Vendor Management Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-sae-using.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-06-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Explore, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -22,11 +22,11 @@ The Smart Assessment Engine in Vendor Management Workspace enables you to create
 
 In the Vendor Management Workspace, you can view the templates available for TPRM. Confirm that the assessment template category is set to one of the supported TPRM template purposes. Also confirm that assessment targets are set to **Third party** and **Engagement**, along with any related components such as subsidiaries or engagement risk assessments that apply to your assessment. Only the assessment templates that are published are available for performing the assessments.
 
-For more information about the Smart Assessment Engine application, refer to [Exploring Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/smart-assessment-engine-cf-explore.md).
+For more information about the Smart Assessment Engine application, refer to [Exploring Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/smart-assessment-engine-cf-explore.md).
 
 **Note:** To use Smart Assessment Engine, you must enable the Smart Assessment Engine enabled \[sn\_vdr\_risk\_asmt.sae\_enabled\] property. After setting this property, you can't create new assessments and questionnaire templates using the Classic assessment engine.
 
-For the full list of prerequisites, including required scoped applications and template migration, see [Migrating from Classic Assessment Engine to Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-migrate-asmnt-sae.md) and [Migrate a template to an SAE template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-asmnt-tmplt-migrate-metrics-to.md).
+For the full list of prerequisites, including required scoped applications and template migration, see [Migrating from Classic Assessment Engine to Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-migrate-asmnt-sae.md) and [Migrate a template to an SAE template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-asmnt-tmplt-migrate-metrics-to.md).
 
 ## Benefits of using the Smart Assessment Engine experience
 
@@ -46,16 +46,18 @@ The new assessment experience offers the following benefits.
 -   Support for the GRC and third-party portals: Internal assessment responders can use the GRC portal to access and complete internal assessments and external assessment responders can use third-party portal to complete external assessments.
 -   Question-level comments, worknotes, and flags are available in SAE assessments. Any user with read access to an assessment instance can add and view question-level comments. Worknotes and question flags require a role assigned at the template category level. TPRM reviewers, assessors, and managers have this access in all out-of-the-box TPRM template categories. Third party and engagement contacts can view and respond to question-level comments but cannot access worknotes or set question flags.
 -   When a question triggers a skip, downstream conditional questions are hidden and sections containing only skipped questions are visually de-emphasized. Assessments render in a continuous scroll layout, making it easier to focus on relevant questions without scrolling past hidden content.
+-   TPR assessors \[sn\_vdr\_risk\_asmt.vendor\_assessor\], TPR managers \[sn\_vdr\_risk\_asmt.vendor\_risk\_manager\] roles, and Third-party risk \(TPR\) administrators \[sn\_vdr\_risk\_asmt.vendor\_risk\_admin\], can reassign SAE questionnaires to another user.
+-   Risk rating after submission: The risk rating for an assessment is now correctly written to the assessment record after the third party submits their response.
 
 ## Smart Assessment template versioning
 
-SAE templates in TPRM now support explicit versioning. Each version is a full copy of the template \(deep copy\). When a new version is published, the previously published version is automatically retired. Retired versions remain visible for reference but cannot be used for new assessments.
+SAE templates in TPRM now support explicit versioning. Each version is a full copy of the template \(deep copy\). When a new version is published, the previously published version is automatically retired. Retired versions remain visible for reference but can't be used for new assessments.
 
 To create a new version of a template, use the **Create Version** action on the template record in the Vendor Management Workspace. Editing a published template in place is no longer supported — you must create a version instead. Template versions can also be deleted.
 
-For more information on template versioning in SAE, see [Template versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/template-versioning.md).
+For more information on template versioning in SAE, see [Template versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/template-versioning.md).
 
-Templates shipped through the Unified Content Management \(UCM\) module are also versioning-compatible. For more information about activating and updating templates through UCM, see [Activate or update Smart Assessment templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/activate_sae_ucm.md).
+Templates shipped through the Unified Content Management \(UCM\) module are also versioning-compatible. For more information about activating and updating templates through UCM, see [Activate or update Smart Assessment templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/activate_sae_ucm.md).
 
 ## Smart Assessment Engine limitations
 
@@ -69,17 +71,17 @@ SAE with TPRM has the following limitations.
 
     **Note:** For the percentage and image scale question types, customers can use the Number type and Radio button type, respectively. Ranking and custom metric question types aren't supported.
 
--   In the Third‑party portal,the Excel export option available for Classic assessments is not supported for SAE assessments.
+-   In the Third-party portal, the Excel export option available for Classic assessments is not supported for SAE assessments.
 -   If a section in the classic template contains only unsupported questions, an empty section is created in the TPRM SAE template. TPRM SAE templates with empty sections can’t be published; therefore, you must either add replacement questions to these sections or delete the empty sections before publishing.
 
-    For more information on migration results, migration limitations, and creating TPRM SAE questionnaires, see [Results of migrating a template to a TPRM SAE template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-migrate-asmnt-template-result.md) and [Create a TPRM SAE questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/create-sae-q-template.md).
+    For more information on migration results, migration limitations, and creating TPRM SAE questionnaires, see [Results of migrating a template to a TPRM SAE template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-migrate-asmnt-template-result.md) and [Create a TPRM SAE questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/create-sae-q-template.md).
 
 -   Repeating assessments aren’t supported. You can use Event-driven management rules.
 -   When transferring TPRM SAE questionnaire templates between instances, the update set won’t include the duration information. Users must export the duration information manually from the `sn_smart_asmt_duration` table and import it into the target instances.
 -   If an assessment template isn’t updated to support SAE assessments, the related tier-based, provider-based, and event-driven management rules won’t run as expected.
 -   The TPRM scoring migration proceeds only if there were no errors during the template migration. If there were errors, the TPRM scoring migration doesn’t occur.
 
-**Note:** For more information on migration results and migration limitations, see [Results of migrating a template to a TPRM SAE template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-migrate-asmnt-template-result.md).
+**Note:** For more information on migration results and migration limitations, see [Results of migrating a template to a TPRM SAE template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-migrate-asmnt-template-result.md).
 
 ## What to explore next
 
@@ -87,14 +89,14 @@ To get started, the TPR admin configures the assessment questionnaire and the TP
 
 To learn more about configuring and using SAE with Third-party Risk Management, see:
 
--   [Smart assessment configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-sae-assessment-config.md)
--   [Migrating from Classic Assessment Engine to Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-migrate-asmnt-sae.md)
--   [Migrate a template to an SAE template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-asmnt-tmplt-migrate-metrics-to.md)
--   [Results of migrating a template to a TPRM SAE template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-migrate-asmnt-template-result.md)
--   [How legacy metric types are migrated to sections in templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-how-legacy-metrics-migrated.md)
--   [Create a TPRM SAE questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/create-sae-q-template.md)
--   [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.md)
--   [Add reference information to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-add-reference.md)
--   [Scoring assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/scoring-in-assessments.md)
--   [Normalization in assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/normalization-in-assessment.md)
+-   [Smart assessment configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-sae-assessment-config.md)
+-   [Migrating from Classic Assessment Engine to Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-migrate-asmnt-sae.md)
+-   [Migrate a template to an SAE template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-asmnt-tmplt-migrate-metrics-to.md)
+-   [Results of migrating a template to a TPRM SAE template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-migrate-asmnt-template-result.md)
+-   [How legacy metric types are migrated to sections in templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/sae-how-legacy-metrics-migrated.md)
+-   [Create a TPRM SAE questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/create-sae-q-template.md)
+-   [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.md)
+-   [Add reference information to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-add-reference.md)
+-   [Scoring assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/scoring-in-assessments.md)
+-   [Normalization in assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/normalization-in-assessment.md)
 

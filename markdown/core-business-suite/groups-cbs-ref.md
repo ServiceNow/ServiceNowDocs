@@ -3,9 +3,9 @@ title: Create group form
 description: Create custom groups for Core Business Suite functions by filling in the form fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/groups-cbs-ref.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [create group form, Core Business Suite, field descriptions]
 breadcrumb: [Reference, Core Business Suite]
@@ -27,5 +27,5 @@ The following table describes the fields on the Create group form.
 |**Assign people to this group**|Users to add as members of the group.|
 |**Assign role**|Role to assign to all members of the group.|
 
-**Parent Topic:**[Core Business Suite reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-reference-parent.md)
+**Parent Topic:**[Core Business Suite reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/cbs-reference-parent.md)
 

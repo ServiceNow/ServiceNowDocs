@@ -3,13 +3,13 @@ title: Add and configure the Portal Quick Links widget
 description: Add a Portal Quick Links widget to the portal and modify its presentation and behavior. You can use the Portal Quick Links widget to display knowledge articles, external URLs, catalog items, or custom pages on your portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-quick-links-widget-inst-optns.html
-release: australia
+release: brazil
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Portal Quick Links widget, Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Portal Quick Links widget, Set up Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Add and configure the Portal Quick Links widget
@@ -18,9 +18,9 @@ Add a Portal Quick Links widget to the portal and modify its presentation and be
 
 ## Before you begin
 
-The UI Components for Customer Portals plugin must have been activated. For more information, see[Activate the UI Components for Customer Portals plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-config-portal-widget.md).
+The UI Components for Customer Portals plugin must have been activated. For more information, see[Activate the UI Components for Customer Portals plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-config-portal-widget.md).
 
-If you have not already created the page to which you want to add the widget, see [Create a page for Configurable Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/create-page-configurable-portal-widget.md).
+If you have not already created the page to which you want to add the widget, see [Create a page for Configurable Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/create-page-configurable-portal-widget.md).
 
 Role required: sp\_admin
 
@@ -48,7 +48,7 @@ Role required: sp\_admin
 
 11. On the Instance form, fill in the fields.
 
-    For a description of the field values, see [Portal Quick Links widget instance options form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r-portal-quick-links-instan-options.md).
+    For a description of the field values, see [Portal Quick Links widget instance options form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/r-portal-quick-links-instan-options.md).
 
 12. Select **Save**.
 

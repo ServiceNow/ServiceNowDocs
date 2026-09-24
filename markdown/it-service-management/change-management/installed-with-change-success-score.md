@@ -3,11 +3,11 @@ title: Components installed with Change Management - Change Success Score
 description: Several types of components are installed with activation of the Change Management - Change Success Score \(com.snc.change\_management.change\_success\_score\) plugin, including tables and scheduled jobs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/installed-with-change-success-score.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activate Change Management - Change Success Score, Change Management plugins, Configure, Change Management, IT Service Management]
 ---
@@ -29,6 +29,8 @@ Several types of components are installed with activation of the Change Manageme
 
 Historical calculations are useful you decide to change the overall formula or multipliers for individual metrics later on. You can run Change success score metrics \(Historical data\) to recalculate metrics and score for the past 30 days creating a new history record.
 
+
+
 ## Tables installed
 
 <table id="table_fbz_45z_vdb"><thead><tr><th>
@@ -48,5 +50,5 @@ Change Success Score Rating \[chg\_success\_score\_rating\]
 Defines the record that associates a rating choice and color with a Change Success Score range, such as, 0 to 499.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate Change Management - Change Success Score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/activate-change-success-score.md)
+</table>**Parent Topic:**[Activate Change Management - Change Success Score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/activate-change-success-score.md)
 

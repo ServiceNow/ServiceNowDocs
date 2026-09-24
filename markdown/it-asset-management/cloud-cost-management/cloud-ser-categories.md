@@ -3,11 +3,11 @@ title: Cloud service categories in Cloud Cost Management
 description: Provider services are grouped into service categories in Cloud Cost Management. This grouping enables you to use filters to focus your analysis on particular types of service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/cloud-ser-categories.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -20,7 +20,7 @@ To perform targeted analysis, you can filter for particular services within a se
 
 Here are the supported cloud service categories in Cloud Cost Management:
 
--   [Cloud service categories in Cloud Cost Management for Microsoft Azure services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/azure-service-category-crossref.md)
--   [Cloud service categories in Cloud Cost Management for Amazon AWS Cloud services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/aws-service-category-crossref.md)
--   [Cloud service categories in Cloud Cost Management for Google Cloud services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/gcp-service-category-crossref.md)
+-   [Cloud service categories in Cloud Cost Management for Microsoft Azure services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/azure-service-category-crossref.md)
+-   [Cloud service categories in Cloud Cost Management for Amazon AWS Cloud services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/aws-service-category-crossref.md)
+-   [Cloud service categories in Cloud Cost Management for Google Cloud services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/gcp-service-category-crossref.md)
 

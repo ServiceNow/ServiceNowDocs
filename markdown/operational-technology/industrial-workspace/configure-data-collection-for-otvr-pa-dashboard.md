@@ -3,11 +3,11 @@ title: Configure the data collection for the Operational Technology Vulnerabilit
 description: Configure the data collection for the data shown on the Operational Technology Vulnerability Response \(PA\) dashboard. Scheduled jobs are automated pieces of work that can be performed at a specific time or on a recurring schedule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/configure-data-collection-for-otvr-pa-dashboard.html
-release: australia
+release: brazil
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setting up the Operational Technology Vulnerability Response \(PA\) dashboard, Configure, Industrial Workspace, Operational Technology]
 ---
@@ -32,7 +32,7 @@ Role required: admin
 
     -   \[PA OT VR\] Historical Vulnerability Data Collection
 
-        **Note:** The \[PA OT VR\] Historical Vulnerability Data Collection job is an on-demand job that you only need to execute once. After the historical data is collected, the daily data collection jobs run on a scheduled time every day. For more information about historical data, see [Collect historical data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/t_RunHistoricalDataCollection.md).
+        **Note:** The \[PA OT VR\] Historical Vulnerability Data Collection job is an on-demand job that you only need to execute once. After the historical data is collected, the daily data collection jobs run on a scheduled time every day. For more information about historical data, see [Collect historical data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/t_RunHistoricalDataCollection.md).
 
     -   \[PA OT VR\] Daily Collection for Remediation Tasks
     -   \[PA OT VR\] Daily Collection for Vulnerable Items 1
@@ -57,7 +57,7 @@ The Operational Technology Vulnerability Response \(PA\) dashboard is now showin
 
 ## What to do next
 
-Now, you can review the indicator sources and determine if you need to override the default records collection. For more information, see [Review the indicator sources for a larger number of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/update-indicator-source-to-collect-more-records.md).
+Now, you can review the indicator sources and determine if you need to override the default records collection. For more information, see [Review the indicator sources for a larger number of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/update-indicator-source-to-collect-more-records.md).
 
-**Parent Topic:**[Setting up the Operational Technology Vulnerability Response \(PA\) dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/setting-up-the-otvr-pa-dashboard.md)
+**Parent Topic:**[Setting up the Operational Technology Vulnerability Response \(PA\) dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/setting-up-the-otvr-pa-dashboard.md)
 

@@ -3,11 +3,11 @@ title: Reassign overdue Policy and Compliance Management issues with the GRC Mob
 description: Reassign overdue issues that are assigned to your assignment group. Navigate through the record to view more details about the Control Objective, the Control record, and Remediation Tasks that are associated with an overdue issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/mobile-issues-overdue-p-and-c.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Managing mobile experience for GRC Policy and Compliance, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -26,7 +26,7 @@ Edit or reassign an issue directly from the list of records. Alternatively, add 
 
 ## Procedure
 
-1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-login-P-C-app.md).
+1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-login-P-C-app.md).
 
 2.  With the Policy and Compliance screen displayed, under the section titled `Team's Overdue Work`, tap **Issues**.
 
@@ -38,7 +38,7 @@ Edit or reassign an issue directly from the list of records. Alternatively, add 
 
     \[Omitted image "mobile-overdue-issue-list.jpg"\] Alt text: Overdue issues list.
 
-3.  See [Filter records with the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-pc-set-filters.md) to search for records that match specific search criteria.
+3.  See [Filter records with the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-pc-set-filters.md) to search for records that match specific search criteria.
 
     Filtering records on screens in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform. Setting filters can reduce the number of records that are displayed on screens.
 
@@ -59,15 +59,15 @@ Edit or reassign an issue directly from the list of records. Alternatively, add 
 
     \[Omitted image "mobile-overdue-issue-record.jpg"\] Alt text: Overdue issue record.
 
-<table id="choicetable_adf_df2_yhb"><thead><tr><th align="left" id="d181438e248">
+<table id="choicetable_adf_df2_yhb"><thead><tr><th align="left" id="d183622e248">
 
 Option
 
-</th><th align="left" id="d181438e251">
+</th><th align="left" id="d183622e251">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d181438e257">
+</th></tr></thead><tbody><tr><td id="d183622e257">
 
 **Details tab**
 
@@ -84,7 +84,7 @@ Tap the **Control/Risk** field to expand it. A list of records is displayed. Tap
 -   Navigate back to the record and tap the menu icon \( \[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon.\) to edit and reassign the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d181438e301">
+</td></tr><tr><td id="d183622e301">
 
 **Activity Stream tab**
 
@@ -94,7 +94,7 @@ With the Activity Stream tab selected, choose one to continue.-   View work note
 -   At the top right of the screen, tap the menu icon \( \[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon.\) to edit and reassign the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d181438e331">
+</td></tr><tr><td id="d183622e331">
 
 **Related List tab**
 
@@ -106,7 +106,7 @@ With the Related List tab selected, follow these steps.
 2.  After your review, navigate back to the record on the Issue screen and tap the menu icon \( \[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon.\) to edit and reassign the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d181438e361">
+</td></tr><tr><td id="d183622e361">
 
 **Screen icons at the bottom of the screen.**
 
@@ -121,5 +121,5 @@ On the bottom of the screen, choose one to continue.-   Tap the Policy and Compl
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Managing mobile experience for GRC Policy and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-policy_compliance-ovrvw.md)
+**Parent Topic:**[Managing mobile experience for GRC Policy and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-policy_compliance-ovrvw.md)
 

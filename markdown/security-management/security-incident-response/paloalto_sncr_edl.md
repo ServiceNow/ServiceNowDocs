@@ -3,11 +3,11 @@ title: Activate an EDL for Palo Alto Networks Next-Generation Firewall with a ch
 description: If configured, the ServiceNow change request form is used to activate the External Dynamic List \(EDL\). This option is recommended if your firewall administrator is also using the ServiceNow AI Platform for firewall policy or rule changes. The EDL is activated automatically and ready to receive EDL entries upon closure of the ServiceNow AI Platform change request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/paloalto\_sncr\_edl.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Activate an EDL for Palo Alto Networks Next-Generation Firewall, Palo Alto Networks Next-Generation Firewall integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -103,5 +103,5 @@ If configured, monitor your ServiceNow AI Platform change request and assign any
 
 Submit EDL entries from a security incident or from the blocklist.
 
-**Parent Topic:**[Activate an EDL for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto-activate-edl.md)
+**Parent Topic:**[Activate an EDL for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/paloalto-activate-edl.md)
 

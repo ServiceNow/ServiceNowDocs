@@ -3,11 +3,11 @@ title: Restrict access to fields in an article template
 description: Use encryption modules to set field-level security in article templates and display the fields based on role permissions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/secure-field-article-template.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure knowledge article templates, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,17 +20,17 @@ Use encryption modules to set field-level security in article templates and disp
 
 Role required: security\_admin
 
-**Note:** Use Knowledge blocks to restrict the content within the same field. For more information, see [Knowledge blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-blocks.md).
+**Note:** Use Knowledge blocks to restrict the content within the same field. For more information, see [Knowledge blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/knowledge-blocks.md).
 
 ## Procedure
 
 1.  Create an encryption module for the article template field to be encrypted.
 
-    See [Create a cryptographic module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-cryptographic-module.md) for details.
+    See [Create a cryptographic module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/create-cryptographic-module.md) for details.
 
 2.  Associate the article template field with the encryption module.
 
-    See [Encrypting fields and attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/field-encryption-key-management.md) for details.
+    See [Encrypting fields and attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/field-encryption-key-management.md) for details.
 
     1.  Navigate to **System Security** &gt; **Field Encryption** &gt; **Encryption Field Configurations** and click **New**.
 
@@ -104,10 +104,10 @@ Method
 
 Depending on their role permissions defined for the encrypted field, users can view the field on the article template.
 
-**Parent Topic:**[Configure knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configure-knowledge-article-templates.md)
+**Parent Topic:**[Configure knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/configure-knowledge-article-templates.md)
 
 **Related topics**  
 
 
-[Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/field-encryption.md)
+[Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/field-encryption.md)
 

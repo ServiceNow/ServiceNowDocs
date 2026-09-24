@@ -3,13 +3,13 @@ title: Subscription downgrade configuration condition
 description: Determine various downgrade configuration conditions for SaaS applications and view the downgrade order based on the conditions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/saas-downgrade-config-conditions.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Subscription downgrade configuration condition
@@ -24,5 +24,5 @@ Determine various downgrade configuration conditions for SaaS applications and v
 |Products|Products for which the downgrade configuration condition is defined.|
 |Active|Shows whether the downgrade configuration condition is active.|
 
-**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)
+**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/references.md)
 

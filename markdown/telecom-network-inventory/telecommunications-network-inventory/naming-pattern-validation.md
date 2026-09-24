@@ -3,11 +3,11 @@ title: Name pattern validation
 description: Name pattern validation runs twice. It runs at save time to prevent errors. And it runs when the Overview tab loads the hierarchy to catch issues specific to template relationships.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/naming-pattern-validation.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Inventory template naming patterns, Reference, Telecommunications Network Inventory]
 ---
@@ -40,7 +40,7 @@ When the **Inventory Template Overview** tab evaluates the hierarchy, registered
 
 The application includes a default duplicate-name check that flags two or more siblings whose patterns resolve to the same name. For example, if two slots at the same level both resolve to `Slot -5`, both slots are flagged. The check is scoped to direct siblings of the same parent and does not compare names across different branches.
 
-You can extend or replace this default check by registering additional validation providers. For more information, see [Extension point for custom name validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/extension-point-custom-naming-validation.md).
+You can extend or replace this default check by registering additional validation providers. For more information, see [Extension point for custom name validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/extension-point-custom-naming-validation.md).
 
 ## Multiple validation rules
 
@@ -63,14 +63,14 @@ When the **Inventory Template Overview** detects an unresolvable variable, it su
 
 **Note:** The `?` substitution does not raise an **Error** badge or a **Validation failed** banner. It is a display-only indicator in the tree node label.
 
-**Parent Topic:**[Inventory template naming patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/naming-patterns-in-inventory-templates.md)
+**Parent Topic:**[Inventory template naming patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/naming-patterns-in-inventory-templates.md)
 
 **Related topics**  
 
 
-[Inventory template hierarchy view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/inventory-template-overview-tab.md)
+[Inventory template hierarchy view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/inventory-template-overview-tab.md)
 
-[Extension point for custom name validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/extension-point-custom-naming-validation.md)
+[Extension point for custom name validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/extension-point-custom-naming-validation.md)
 
-[Inventory template naming patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/naming-patterns-in-inventory-templates.md)
+[Inventory template naming patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/naming-patterns-in-inventory-templates.md)
 

@@ -3,11 +3,11 @@ title: Email notifications for order cases
 description: The manage order operations AI agent sends automated emails to your B2B customers when an order case is opened from a Business Portal chat conversation and when the order case is closed with a successful resolution. The Manage Order Operations application includes two default email templates that you can customize.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/order-case-email-notifications.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-05-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configuring the Manage Order Operations application, Business Portal, Configure, Sales Customer Relationship Management]
 ---
 
@@ -24,14 +24,14 @@ The manage order operations AI agent uses default email templates to keep custom
 |ordercase.opened.for.customer|When the manage order operations AI agent opens a new order case for the customer from a Business Portal chat conversation.|The order case number and a link that the customer can use to view the case on the Business Portal.|
 |order.exception.case.closed|When the order case is closed and resolved successfully.|The order case number, the resolution details, and the quote details when a quote was generated for the case.|
 
-To customize the subject, content, or formatting of these default email templates, see [Apply a template to an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ApplyATemplateToAnEmailNotif.md).
+To customize the subject, content, or formatting of these default email templates, see [Apply a template to an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ApplyATemplateToAnEmailNotif.md).
 
 The application scope must be set to Manage Order Operations. You can change the application scope using the application picker \[Omitted image "globe-outline-24.svg"\] Alt text: in the Unified Navigation bar.
 
-**Parent Topic:**[Configuring the Manage Order Operations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-manage-order-operations.md)
+**Parent Topic:**[Configuring the Manage Order Operations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configuring-manage-order-operations.md)
 
 **Related topics**  
 
 
-[Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailTemplates.md)
+[Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_EmailTemplates.md)
 

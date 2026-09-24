@@ -3,14 +3,14 @@ title: Set up the HAM advisor dashboard manually
 description: If the HAM advisor dashboard was not configured automatically, set it up manually by selecting the model categories that define the HAM scope.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/cmdb-sa-ham-manual-setup.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-07-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [manual dashboard setup, select model categories, HAM scope configuration, Select model categories dialog box, opt in resource categories]
-breadcrumb: [Get started with dashboard setup, Set up advisor, Use HAM advisor, Asset and CI management, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Get started with dashboard setup, Set up advisor, Use HAM advisor, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Set up the HAM advisor dashboard manually
@@ -25,7 +25,7 @@ Role required: sn\_cmdb\_admin
 
 1.  On the CMDB success advisor landing page, select **Select model categories** within the HAM card.
 
-    For more information about the CMDB success advisor landing page, see [Viewing the CMDB success advisor landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-sa-landing-page.md). For information about other ways to access CMDB success advisor, see [Access CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-sa-access.md).
+    For more information about the CMDB success advisor landing page, see [Viewing the CMDB success advisor landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-sa-landing-page.md). For information about other ways to access CMDB success advisor, see [Access CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-sa-access.md).
 
 2.  On the Select model categories dialog box, select a resource category to choose all its model categories or expand a resource category to select individual categories, then move them from the **Available resource and model categories** column to the **Selected** column.
 

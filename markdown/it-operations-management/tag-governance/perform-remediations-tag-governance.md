@@ -3,11 +3,11 @@ title: Preview and remediate tag audit failures
 description: Preview audit reports for resources that tag policies identify as non-compliant. Remediate failures by adding or updating tags.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/tag-governance/perform-remediations-tag-governance.html
-release: australia
+release: brazil
 product: Tag Governance
 classification: tag-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Tag Governance, ITOM Visibility, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Preview audit reports for resources that tag policies identify as non-compliant.
 
 ## Before you begin
 
-Configure tag policies and remediation policies. See [Configure a tag policy for Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/tag-governance/configure-tag-governance-policy.md) and [Configure remediation policies on tag audit findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/tag-governance/configure-remediation-tag-governance-.md).
+Configure tag policies and remediation policies. See [Configure tag policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/tag-governance/configure-tag-governance-policy.md) and [Configure remediation policies for tag audit findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/tag-governance/configure-remediation-tag-governance-.md).
 
 **Note:** The update to cloud works only for AWS and Microsoft Azure Cloud resources for CMDB classes listed in the Tag Remediation form.
 
@@ -26,7 +26,7 @@ Role required: sn\_itom\_tag.tag\_admin, admin
 
 ## About this task
 
-Based on the tag policies that you create, you can preview remediation flows and auto-generate missing tags for non-compliant CIs. The Tag Remediation Preview related list displays this information. See [Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flows.md) and [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/subflows.md).
+Based on the tag policies that you create, you can preview remediation flows and auto-generate missing tags for non-compliant CIs. The Tag Remediation Preview related list displays this information. See [Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flows.md) and [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/subflows.md).
 
 **Note:**
 
@@ -48,7 +48,7 @@ Based on the tag policies that you create, you can preview remediation flows and
 
 5.  On the Tag Remediation Keys related list, select **New** to create a tag remediation key.
 
-    The fields on the Tag Remediation Key form are described in [Tag Remediation Key form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/tag-governance/tag-gov-tag-remediation-key-form.md).
+    The fields on the Tag Remediation Key form are described in [Tag Remediation Key form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/tag-governance/tag-gov-tag-remediation-key-form.md).
 
 6.  Select **Submit**.
 

@@ -3,11 +3,11 @@ title: Delete a template notification
 description: Deleting a template notification prevents new service categories from using the notification, but does not delete notifications for service categories that have already been created.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/service-creator/t\_DeletingATemplateNotification.html
-release: australia
+release: brazil
 product: Service Creator
 classification: service-creator
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage a service, Service Creator, Build workflows]
 ---

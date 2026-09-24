@@ -3,9 +3,9 @@ title: Set up assignment groups for Care Team Operations for Environmental Servi
 description: Associate assignment groups with your healthcare organizations to determine which user groups are associated with specific healthcare organizations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-evs-assignment-groups.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up work order synchronization, Configure, Care Team Operations for Environmental Services, Healthcare Operations, Healthcare and Life Sciences]
 ---

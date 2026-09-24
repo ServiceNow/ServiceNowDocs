@@ -3,11 +3,11 @@ title: Configure ESXi resource pools
 description: The ESXi server has a default resource pool called Resources that defines normal resources for a virtual machine.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/t\_ConfigureESXResourcePools.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Configure ESXi, Configure resource pools, Configure ESXi servers]
 breadcrumb: [Configure for VMware Discovery, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]

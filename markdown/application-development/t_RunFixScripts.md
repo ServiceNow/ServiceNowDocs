@@ -3,9 +3,9 @@ title: Run fix scripts
 description: Fix scripts run at the first installation or updated after they have been added to an application. However, previous fix scripts do not run on subsequent application updates, and you must manually run any necessary fix scripts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/t\_RunFixScripts.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Fix scripts, Anatomy of an application, Learning about developing on the ServiceNow AI Platform, Building applications]
 ---

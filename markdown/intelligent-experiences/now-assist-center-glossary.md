@@ -3,21 +3,21 @@ title: AI Admin Center glossary
 description: Before getting started with AI Admin Center, it is important to understand some key concepts used in the application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-glossary.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Reference, AI Admin Center, Enable AI experiences]
+breadcrumb: [Reference, AI Admin Center, Getting started with AI, Enable AI Experiences]
 ---
 
 # AI Admin Center glossary
 
 Before getting started with AI Admin Center, it is important to understand some key concepts used in the application.
 
-For more helpful terminology, see [ServiceNow AI Platform glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) glossary.
+For more helpful terminology, see [ServiceNow AI Platform glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/glossary/now-platform-glossary.md) glossary.
 
-**Parent Topic:**[AI Admin Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-reference.md)
+**Parent Topic:**[AI Admin Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-reference.md)
 
 **Related topics**  
 
@@ -44,9 +44,9 @@ An agentic workflow is a structured sequence of tasks executed by one or more AI
 
 Small, interactable number next to AI-generated content in the ServiceNow Otto panel that cites the source of the information.
 
-## ServiceNow Otto
+## Now Assist
 
-ServiceNow Otto refers to generative AI experiences on the ServiceNow AI Platform. With ServiceNow Otto, you can improve productivity and efficiency in your organization with better self-service, faster answers and recommended actions, and empower users to search more effectively.
+Now Assist refers to generative AI experiences on the ServiceNow AI Platform. With Now Assist, you can improve productivity and efficiency in your organization with better self-service, faster answers and recommended actions, and empower users to search more effectively.
 
 ## generative AI skill
 
@@ -55,16 +55,4 @@ A predefined capability on the ServiceNow AI Platform that uses generative AI to
 ## orchestrator
 
 The AI agent orchestrator is a specialized agent that plans, coordinates, and manages the execution of tasks across multiple AI agents. It holds short-term memory, tracks goals, and ensures agents collaborate effectively. This component is central to agentic AI architecture and is configured in AI Agent Studio. The orchestrator conducts the planning and leads a team of AI agents to address a given agentic workflow.
-
-## subflow
-
-An automated process that consists of a sequence of reusable actions and specific data inputs that allow the process to be started from a flow, subflow, or script. Subflows automate generic business logic that can be applied to multiple applications or processes.
-
-## topic
-
-A blueprint that defines the dialog between Virtual Agent and a user to accomplish a goal. A topic has topic properties and a topic flow.
-
-## virtual agent
-
-A conversational bot platform that provides user assistance through conversations in a messaging interface.
 

@@ -3,9 +3,9 @@ title: Add the Timeline component as a standalone component
 description: Add the Timeline component as a standalone component to a record page by using the Task activity timeline reset and controller.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-timeline-component-as-standalone.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -22,7 +22,10 @@ Role required: admin
 
 The Timeline component displays activities for task-based records such as cases or incidents in a timeline view. It uses the resolution shaper configuration to automatically fetch and organize your data.
 
-To add the Timeline component to a record page as a standalone component, the admin can select the Task activity timeline controller and preset and complete the component configuration.
+To add the Timeline component to a record page as a standalone component, the admin can do the following:
+
+-   Select the Task activity timeline controller and preset.
+-   Complete the component configuration.
 
 ## Procedure
 

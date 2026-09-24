@@ -3,9 +3,9 @@ title: Security Posture Control use case: Detecting assets with vulnerabilities 
 description: You can identify assets with critical vulnerabilities and missing critical security tools such as endpoint protection to prioritize those assets for remediation. Security Posture Control ships a few policies included with the product to support this use case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/spc-use-case-5.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Security Posture Control, Security Operations]
 ---

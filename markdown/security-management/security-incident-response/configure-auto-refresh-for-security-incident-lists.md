@@ -3,11 +3,11 @@ title: Configure auto refresh interval for security incident lists
 description: Configure the refresh interval for security incident lists for automatic update of the security incident list ensuring an updated list for the security analysts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configure-auto-refresh-for-security-incident-lists.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View and update Security Incident Response system properties, Configure, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -35,5 +35,5 @@ Role required: sn\_si.admin
 5.  Select **Save** to save the updated refresh interval.
 
 
-**Parent Topic:**[View and update Security Incident Response system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/view-update-sirw-system-properties.md)
+**Parent Topic:**[View and update Security Incident Response system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/view-update-sirw-system-properties.md)
 

@@ -1,18 +1,18 @@
 ---
-title: Create a new stockroom type
+title: Create a stockroom type
 description: If you need stockroom types that are not included in the base system, you can create a custom stockroom type.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/t\_CreateANewStockroomType.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage stockrooms, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Configure stockrooms, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
-# Create a new stockroom type
+# Create a stockroom type
 
 If you need stockroom types that are not included in the base system, you can create a custom stockroom type.
 
@@ -22,11 +22,11 @@ Role required: inventory\_admin
 
 ## About this task
 
-Check the [priority level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/r_StockroomTypes.md) of the stockroom types provided in the base instance to ensure that you assign the correct priority level to any new stockroom types you create. You can also modify the stockroom types included in the base system.
+Check the [priority level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/r_StockroomTypes.md) of the stockroom types provided in the base instance to ensure that you assign the correct priority level to any new stockroom types you create. You can also modify the stockroom types included in the base system.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Inventory** &gt; **Stock** &gt; **Stockroom Types** and create a new record \(see table for field descriptions\).
+1.  Navigate to **All** &gt; **Inventory** &gt; **Stock** &gt; **Stockroom Types** and create a record \(see table for field descriptions\).
 
     |Field|Description|
     |-----|-----------|
@@ -37,8 +37,8 @@ Check the [priority level](https://raw.githubusercontent.com/ServiceNow/ServiceN
     |Shipment required|Option that determines if stockrooms of this type require shipment by default.|
     |Value|Internal identifier of the stockroom type.|
 
-2.  Click **Submit**.
+2.  Select **Submit**.
 
 
-**Parent Topic:**[Manage stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-your-stockrooms.md)
+**Parent Topic:**[Configure stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/configure-stockrooms-ham.md)
 

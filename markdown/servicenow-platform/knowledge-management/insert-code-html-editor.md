@@ -3,11 +3,11 @@ title: Format a code snippet automatically in knowledge articles
 description: Add syntax highlighting to a code snippet in knowledge articles using the HTML editor.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/insert-code-html-editor.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Editing functions for knowledge articles in the HTML editor, Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,7 +24,7 @@ Role required: knowledge
 
 ## About this task
 
-You can also use the HTML editor when creating or editing a knowledge article using the Knowledge Management application in the ServiceNow AI Platform interface or in Agent Workspace. To create or edit a knowledge article in the ServiceNow AI Platform interface, see [Create a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-knowledge-article.md) or [Edit a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/edit-knowledge-article.md). To create or edit a knowledge article in Agent Workspace, see [Create a knowledge article in Agent Workspace]() or [Edit a knowledge article in Agent Workspace]().
+You can also use the HTML editor when creating or editing a knowledge article using the Knowledge Management application in the ServiceNow AI Platform interface or in Agent Workspace. To create or edit a knowledge article in the ServiceNow AI Platform interface, see [Create a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/create-knowledge-article.md) or [Edit a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/edit-knowledge-article.md). To create or edit a knowledge article in Agent Workspace, see [Create a knowledge article in Agent Workspace]() or [Edit a knowledge article in Agent Workspace]().
 
 ## Procedure
 

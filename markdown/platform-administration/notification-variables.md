@@ -3,9 +3,9 @@ title: Notification variables
 description: Use notification variables to display dynamic information in the body of a notification such as a field value, a link to a record, or a link to system preferences.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/notification-variables.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create an email notification, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -74,7 +74,7 @@ None
 Display a link to the current record.-   **URI**: The link text is the word `LINK`.
 -   **URI\_REF**: The link text is the display value of the record.
 
- **Note:** These variables don't apply to records in Workspace. To link to a record in Workspace, create a mail script that prints a URL to a notification. For more information, see [Linking to a record in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EnablingLinksToServiceNowRecords.md).
+ **Note:** These variables don't apply to records in Workspace. To link to a record in Workspace, create a mail script that prints a URL to a notification. For more information, see [Linking to a record in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_EnablingLinksToServiceNowRecords.md).
 
 </td><td>
 
@@ -281,5 +281,5 @@ $\{NOTIF\_UNSUB\}
 $\{NOTIF\_PREFS\}
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md)
+</table>**Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateANotification.md)
 

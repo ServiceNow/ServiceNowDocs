@@ -3,11 +3,11 @@ title: Security posture console
 description: Improve your ability to identify, respond to, and recover from security threats with comprehensive visibility and step-by-step instructions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/sc-posture-console.html
-release: australia
+release: brazil
 product: Security Center
 classification: security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Center, Platform Security]
 ---
@@ -49,10 +49,10 @@ View the most urgent Security Tasks assigned to you. Select a task to view its d
 
 Use the additional resources section on the edge of the screen to navigate to documentation and videos relevant to learning Security Center as well as information on managing instance security.
 
--   **[Security Best Practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/security-best-practices-manager.md)**  
+-   **[Security Best Practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/security-best-practices-manager.md)**  
 Use Security Best Practices to implement privacy and security configuration tasks on your ServiceNow instance.
--   **[Security posture dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/scc-sec-posture-dashboard.md)**  
+-   **[Security posture dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/scc-sec-posture-dashboard.md)**  
 Use the customizable single and multi-instance security posture dashboards to monitor your security KPIs. These dashboards consolidate the important information regarding the security of your instances in a single location and include a number of base system dashboard widgets.
 
-**Parent Topic:**[Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sec-center-v2.md)
+**Parent Topic:**[Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sec-center-v2.md)
 

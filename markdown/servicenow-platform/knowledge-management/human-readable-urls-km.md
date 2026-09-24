@@ -3,11 +3,11 @@ title: Using human readable URLs for the Knowledge article page
 description: Human readable URLs include more readable keywords to the URL structure.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/human-readable-urls-km.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -23,8 +23,8 @@ The benefits of using human readable URLs rather than technical URLs include:
 -   Improves the readability of the URL to make it easier for a human to understand
 -   Improves search engine optimization \(SEO\) rankings and the click-through rate
 
--   **[Enable Human Readable URLs for the Knowledge Article View page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/add-human-readable-keywords-knowledge-pages.md)**  
+-   **[Enable Human Readable URLs for the Knowledge Article View page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/add-human-readable-keywords-knowledge-pages.md)**  
 Update a human readable URL structure in the Knowledge Article View page to improve search ranking and click-through rates.
 
-**Parent Topic:**[Creating and maintaining articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/creating-and-maintaining-articles.md)
+**Parent Topic:**[Creating and maintaining articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/creating-and-maintaining-articles.md)
 

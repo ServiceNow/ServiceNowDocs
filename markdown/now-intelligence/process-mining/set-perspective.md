@@ -3,11 +3,11 @@ title: Select view for a graph
 description: Choose to view the graph from the perspective of any one activity definition or all activity definitions set for the project.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/set-perspective.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Analyzing and getting process insights, Use, Process Mining, Platform Analytics]
 ---
@@ -41,5 +41,5 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
 
 The graph will display all data for the selected activity definition.
 
-**Parent Topic:**[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/analyze-get-process-insights.md)
+**Parent Topic:**[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/analyze-get-process-insights.md)
 

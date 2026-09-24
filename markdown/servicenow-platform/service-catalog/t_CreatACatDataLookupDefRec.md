@@ -3,11 +3,11 @@ title: Create a catalog lookup definition
 description: Create a catalog data lookup definition record.The columns of a data lookup table contain both matcher and setter field data. Each data lookup is a query that searches for a row containing values that match the matcher fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_CreatACatDataLookupDefRec.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Service catalog data lookup, Service catalog variables, Service Catalog Reference, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -127,7 +127,7 @@ Select this check box to automatically look up values whenever a user changes a 
 16. Click **Update**.
 
 
-**Parent Topic:**[Service catalog data lookup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogDataLookup.md)
+**Parent Topic:**[Service catalog data lookup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/c_ServiceCatalogDataLookup.md)
 
 ## Add a data lookup value
 

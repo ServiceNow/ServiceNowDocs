@@ -3,9 +3,9 @@ title: Configure Field Encryption for your Edge Encrypted fields
 description: Before migrating your existing edge encrypted fields to Field Encryption, you must configure field encryption for these fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/migrate-ee-to-fe-1.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Migrate from Edge Encryption to Field Encryption, Configuring Field Encryption, Field Encryption, Encryption]
 ---
@@ -90,5 +90,5 @@ This process assumes you have existing edge encrypted fields that you want to mi
 
 You edge encrypted field is ready to be migrated to field encryption. To configure more fields, repeat the preceding steps for each of those fields.
 
-**Parent Topic:**[Migrate from Edge Encryption to Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/migrate-ee-to-fe.md)
+**Parent Topic:**[Migrate from Edge Encryption to Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/migrate-ee-to-fe.md)
 

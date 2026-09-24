@@ -3,11 +3,11 @@ title: Entity tiers in GRC
 description: By creating entity tiers, you can prioritize the entity classes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/entity-tier.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring the entities, Explore, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -20,5 +20,5 @@ When you create entity tiers, you apply a level or hierarchy to the entity class
 
 By creating entity tiers, you can better understand how your lower tier entities affect your higher tier entities. For example, assume that you created the entity hierarchy where Business is tier 1, Application is tier 2, and IT asset is tier 3. Therefore, the risks of the entities of tier 3 affect the entities of tier 2 and that in turn affects tier 1. This roll-up or aggregation provides accurate risk scores.
 
-**Parent Topic:**[Exploring the entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/manage-entities.md)
+**Parent Topic:**[Exploring the entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/manage-entities.md)
 

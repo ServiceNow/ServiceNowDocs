@@ -3,11 +3,11 @@ title: Define a knowledge article category
 description: Each knowledge base has a hierarchy of categories that organizes the articles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/t\_DefineAKnowledgeCategory.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuration tasks for knowledge managers, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -85,7 +85,7 @@ Option to enable the category.
 
     1.  Expand an existing category and click **New** within the expanded section.
 
-    2.  Fill in the [Knowledge Category form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_DefineAKnowledgeCategory.md).
+    2.  Fill in the [Knowledge Category form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/t_DefineAKnowledgeCategory.md).
 
     3.  Click **Submit**.
 
@@ -94,7 +94,7 @@ Option to enable the category.
 
 In addition to using categories defined by a knowledge manager, knowledge contributors can add and edit categories when editing an article.
 
-**Parent Topic:**[Configuration tasks for knowledge managers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/c_KnowledgeManager.md)
+**Parent Topic:**[Configuration tasks for knowledge managers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/c_KnowledgeManager.md)
 
 **Related topics**  
 
@@ -103,5 +103,5 @@ In addition to using categories defined by a knowledge manager, knowledge contri
 
 [Assign a knowledge base manager]()
 
-[Select a knowledge article category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_SelectACategory.md)
+[Select a knowledge article category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/t_SelectACategory.md)
 

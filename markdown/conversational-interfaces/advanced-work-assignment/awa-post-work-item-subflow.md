@@ -3,11 +3,11 @@ title: AWA post work item subflow
 description: Configure the base system AWA post work item subflow by defining the input in Workflow Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-post-work-item-subflow.html
-release: australia
+release: brazil
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -42,7 +42,7 @@ Role required: admin
 
 8.  You can customize the subflow by doing one of the following:
 
-    -   Integrate with a third-party system by adding an action with a spoke from the Integration Hub \(for more information, see [Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/spokes.md)\)
-    -   Use a REST action step and call the external endpoint \(for more information, see [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/rest-request-action-designer.md)\).
-    -   Call a REST message in the subflow itself \(for more information, see [Outbound REST Web Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OutboundRESTWebService.md)\).
+    -   Integrate with a third-party system by adding an action with a spoke from the Integration Hub \(for more information, see [Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/spokes.md)\)
+    -   Use a REST action step and call the external endpoint \(for more information, see [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/rest-request-action-designer.md)\).
+    -   Call a REST message in the subflow itself \(for more information, see [Outbound REST Web Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/c_OutboundRESTWebService.md)\).
 

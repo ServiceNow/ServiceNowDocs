@@ -3,9 +3,9 @@ title: Configure mobile apps to use specific identity providers
 description: You can configure a login experience that is specific to a mobile app and different from the web login experience. For example, Now Mobile app users can be automatically redirected to an identity provider \(IdP\) that is different from the IdP that is defined for the web session.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/config-mobapps2-use-specific-idps.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Mobile authentication, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -72,7 +72,7 @@ Admins can define the login experience for mobile users by associating app-speci
 
     If a valid IdP sys\_id isn’t provided, the OAuth client login URL value can't be saved.
 
-    For information about configuring an external IdP on your instance, see [Create an external identity provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_CreateUpdateIdentityProvider.md).
+    For information about configuring an external IdP on your instance, see [Create an external identity provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_CreateUpdateIdentityProvider.md).
 
 4.  Select **Update** to save the entry.
 
@@ -83,5 +83,5 @@ Open the mobile app on a mobile device and select the instance. You should be re
 
 **Note:** If **login\_locate\_sso.do** was saved as the Login URL and no default IdP is configured or the **sso\_source** for the user isn’t set, then an error displays when the user name is entered. This behavior is similar to web UI behavior.
 
-**Parent Topic:**[Mobile authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-authentication.md)
+**Parent Topic:**[Mobile authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-authentication.md)
 

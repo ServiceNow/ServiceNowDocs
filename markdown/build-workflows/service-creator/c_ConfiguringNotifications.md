@@ -3,11 +3,11 @@ title: Notification configurations
 description: All service categories start with a set of associated notifications, such as the notification when a task to fulfill a service request is assigned.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/service-creator/c\_ConfiguringNotifications.html
-release: australia
+release: brazil
 product: Service Creator
 classification: service-creator
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Add a template notification, Manage a service, Service Creator, Build workflows]
 ---

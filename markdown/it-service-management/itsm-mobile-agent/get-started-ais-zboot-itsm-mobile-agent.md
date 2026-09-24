@@ -3,11 +3,11 @@ title: Get started with AI search in new or zBoot instances
 description: Enable intelligent query features that help agents to quickly find the required answers in ITSM Mobile Agent in new or restarted instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/get-started-ais-zboot-itsm-mobile-agent.html
-release: australia
+release: brazil
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [AI Search in ITSM Mobile Agent, Exploring ITSM Mobile Agent, ITSM Mobile Agent, IT Service Management]
 ---

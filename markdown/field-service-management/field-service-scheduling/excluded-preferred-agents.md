@@ -3,11 +3,11 @@ title: Example - configure dynamic scheduling to assign preferred technicians to
 description: Automatically assign preferred Field Service agents to work order tasks so the correct technician is assigned to the task. If a Field Service agent isn't a good fit for a task, you can also exclude them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/excluded-preferred-agents.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dynamic Scheduling, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
@@ -28,7 +28,7 @@ Role required: wm\_dispatcher, wm\_manager, wm\_admin
 
 3.  On the **Task Filters** tab, add the **Prioritize preferred and secondary technicians** and **Rank preferred and secondary technicians** criterion to the task filters.
 
-    For information on adding criteria to a task filter, see [Create a task filter for dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.md)
+    For information on adding criteria to a task filter, see [Create a task filter for dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.md)
 
 4.  Select **Update**.
 
@@ -36,5 +36,5 @@ Role required: wm\_dispatcher, wm\_manager, wm\_admin
 **Related topics**  
 
 
-[Set technician preferences for tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/assign-preferred-agents-tasks.md)
+[Set technician preferences for tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/assign-preferred-agents-tasks.md)
 

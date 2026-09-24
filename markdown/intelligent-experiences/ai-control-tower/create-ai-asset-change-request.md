@@ -3,13 +3,13 @@ title: Create change requests for AI assets
 description: Create a change request to modify the relationships between a deployed AI asset and its related assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-ai-asset-change-request.html
-release: australia
+release: brazil
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Creating requests for AI assets, Use, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [Creating requests for AI assets, Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create change requests for AI assets

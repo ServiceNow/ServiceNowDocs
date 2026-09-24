@@ -3,11 +3,11 @@ title: Strategic Priority form
 description: Use the Strategic Priority form to orient your organization strategic plan toward your goal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/goal-framework/strategic-priority-form.html
-release: australia
+release: brazil
 product: Goal Framework
 classification: goal-framework
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
@@ -107,10 +107,10 @@ Description
 A detailed description of the strategic priority.You can refine strategic priority description using the Refine records skill, if the ServiceNow Otto for SPM application is installed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Goal Framework and Goal Framework for SPM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/goal-framework-reference.md)
+</table>**Parent Topic:**[Goal Framework and Goal Framework for SPM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/goal-framework-reference.md)
 
 **Related topics**  
 
 
-[Enterprise strategy example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/enterprise-goal-example-strategy-gf.md)
+[Enterprise strategy example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/enterprise-goal-example-strategy-gf.md)
 

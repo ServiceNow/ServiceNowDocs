@@ -3,9 +3,9 @@ title: Adding a product picker aggregate using APIs
 description: Follow these steps to add a product picker aggregate using API calls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-adding-a-product-picker-aggregate-using-apis.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Product picker bulk actions, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -38,7 +38,7 @@ Role required: Admin
 
     \(This is the URL from the image just above.\)
 
-    `https://<tenant>.<sector>.cpq/api/Admin/v1/productPickers/<productPickerName>/aggregateFields`
+    `https://<tenant>.<sector>.logik.io/api/Admin/v1/productPickers/<productPickerName>/aggregateFields`
 
     Replace the URL with the parameters that apply to your environment, including the sector name and the variable name of the product picker from the UI.
 
@@ -64,7 +64,7 @@ In the UI, refresh the page to see the added aggregate.
 **Related topics**  
 
 
-[Product picker aggregates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-picker-aggregates.md)
+[Product picker aggregates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/product-picker-aggregates.md)
 
-[Product pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product_picker_overview.md)
+[Product pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/product_picker_overview.md)
 

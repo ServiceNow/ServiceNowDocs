@@ -3,7 +3,7 @@ title: Google Cloud Virtual Network Spoke
 description: Manage firewall, network, subnetwork, and IP address in Google Cloud Virtual Network from your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/gcloudvirntwrk-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
@@ -85,5 +85,5 @@ For more information about the required permissions, see [IAM permissions refere
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up the Google Cloud Virtual Network spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-gvirnetwork.md).
+For information about setting up the spoke, see [Set up the Google Cloud Virtual Network spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-gvirnetwork.md).
 

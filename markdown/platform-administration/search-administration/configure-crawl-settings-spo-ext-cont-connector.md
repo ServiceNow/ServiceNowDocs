@@ -3,13 +3,13 @@ title: Configure crawl settings for a Microsoft SharePoint Online external conte
 description: Specify the sites you want your Microsoft SharePoint Online external content connector to crawl. Define inclusion or exclusion filters to dictate the types of content the crawl retrieves and feeds to AI Search for indexing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-crawl-settings-spo-ext-cont-connector.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-06-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Microsoft SharePoint Online external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -19,7 +19,7 @@ Specify the sites you want your Microsoft SharePoint Online external content con
 
 ## Before you begin
 
-A connector administrator must have already created the Microsoft SharePoint Online external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-mspo.md).
+A connector administrator must have already created the Microsoft SharePoint Online external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-ext-cont-connector-mspo.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 
@@ -67,7 +67,7 @@ If your Microsoft SharePoint Online connector reaches the content indexing limit
 
     -   If the connector automatically discovers a site that it doesn't have FullControl permission for, it records an informational alert indicating that it can't index that site.
     -   If the connector doesn't have FullControl SharePoint API permission for a site in your inclusion list, it records a warning alert indicating that it can't traverse \(crawl\) that site.
-    For details on configuring SharePoint API permissions for your Microsoft SharePoint Online sites, see [Configure Microsoft SharePoint Online for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/cfg-azure-spo-ext-cont-connector.md) and [Configure site and site collection access for the Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-site-collection-access-spo-external-content-connector.md).
+    For details on configuring SharePoint API permissions for your Microsoft SharePoint Online sites, see [Configure Microsoft SharePoint Online for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/cfg-azure-spo-ext-cont-connector.md) and [Configure site and site collection access for the Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-site-collection-access-spo-external-content-connector.md).
 
 5.  In the Content types section, deselect the options for any content types you want the connector to exclude when crawling.
 
@@ -86,7 +86,7 @@ If your Microsoft SharePoint Online connector reaches the content indexing limit
 
         As an example, you might enter `.csv` to exclude attachments with the Comma-Separated Values \(CSV\) file format.
 
-    For details on the supported attachment file extensions, see [Binary file extensions supported in External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/file-extensions-ext-cont-connector.md).
+    For details on the supported attachment file extensions, see [Binary file extensions supported in External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/file-extensions-ext-cont-connector.md).
 
 7.  If you want AI Search to automatically generate captions for content in attachments and files retrieved by the connector, select the **Multimodal captions** option.
 
@@ -94,8 +94,8 @@ If your Microsoft SharePoint Online connector reaches the content indexing limit
 
     This option is only available when the Platform Multimodal Service plugin is activated on your instance.
 
-    -   For details on activating the plugin, see [Activate the Platform Multimodal Service plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/activate-platform-multimodal-service-plugin.md).
-    -   To learn how to select the VLM \(visual learning model\) provider and model used for the Platform Multimodal Service, see [Configure multimodal captioning for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.md).
+    -   For details on activating the plugin, see [Activate the Platform Multimodal Service plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/activate-platform-multimodal-service-plugin.md).
+    -   To learn how to select the VLM \(visual learning model\) provider and model used for the Platform Multimodal Service, see [Configure multimodal captioning for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.md).
 8.  In the Users section, to exclude guest users when retrieving users from Entra ID, deselect the **Fetch guest users from Entra ID** option.
 
     **Note:** When the **Fetch guest users from Entra ID** option is selected, the connector retrieves guest users and tenant members from Entra ID. This can significantly increase the user corpus size for user mappings and can affect performance. With the option deselected, the connector only retrieves tenant members from Entra ID. Deselect this option unless mapping guest users from Entra ID to ServiceNow AI Platform users is a requirement for the external content connector.
@@ -109,7 +109,7 @@ The Microsoft SharePoint Online external content connector is updated with your 
 
 ## What to do next
 
-To retrieve content from your Microsoft SharePoint Online source system using your modified crawl settings, create and run a one-time content crawl for your Microsoft SharePoint Online external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-content-crawl-external-content-connector.md).
+To retrieve content from your Microsoft SharePoint Online source system using your modified crawl settings, create and run a one-time content crawl for your Microsoft SharePoint Online external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-content-crawl-external-content-connector.md).
 
-**Parent Topic:**[Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/microsoft-sharepoint-online-external-content-connector.md)
+**Parent Topic:**[Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/microsoft-sharepoint-online-external-content-connector.md)
 

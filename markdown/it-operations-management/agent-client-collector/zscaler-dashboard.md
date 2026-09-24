@@ -3,11 +3,11 @@ title: Use the Zscaler dashboard
 description: Use the Zscaler dashboard to view Zscaler monitoring and remediation statuses in graph format.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/zscaler-dashboard.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Perform Zscaler remediation, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -41,5 +41,5 @@ Role required: agent\_client\_collector\_admin
     The default value is All, indicating that the dashboard displays data from all of the CIs on the host.
 
 
-**Parent Topic:**[Perform Zscaler remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/zscaler-remediation-concept.md)
+**Parent Topic:**[Perform Zscaler remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/zscaler-remediation-concept.md)
 

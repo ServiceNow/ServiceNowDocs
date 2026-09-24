@@ -3,11 +3,11 @@ title: Service definition transfer from one instance to another
 description: Save time and effort by exporting definitions of service instances from the source instance and importing these definitions into the target instance. You can use this method to copy definitions of service instances only of the discovered type.Create an import set containing definitions of services. You use this import set to import service definitions into another instance.Import definitions of application services from the source instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/transfer-service-definitions.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Application service completion, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -48,7 +48,7 @@ By default, the system assigns **Non-operational** status to application service
 
 A service definition transfer deploys the standard import set feature available on the ServiceNow AI Platform. When you export service definitions on the source instance, the system creates a JSON file containing exported data. When you copy service definitions into the target instance, you import the data from this JSON file, which becomes an import set.
 
-**Parent Topic:**[Application service completion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/advanced-business-service-definitions.md)
+**Parent Topic:**[Application service completion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/advanced-business-service-definitions.md)
 
 **Related topics**  
 
@@ -73,7 +73,7 @@ Create an import set containing definitions of services. You use this import set
 
 -   Verify that the source and the target instances are on the same ServiceNow release.
 -   Open the source instance from which you want to copy service definitions.
--   If necessary, fine-tune the import set creation by modifying relevant properties under **Service Mapping** &gt; **Administration** &gt; **Properties**. For more information, see [Components installed with Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/components-installed-with-service-mapping.md).
+-   If necessary, fine-tune the import set creation by modifying relevant properties under **Service Mapping** &gt; **Administration** &gt; **Properties**. For more information, see [Components installed with Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/components-installed-with-service-mapping.md).
 
 Role required: service\_mapping\_admin
 

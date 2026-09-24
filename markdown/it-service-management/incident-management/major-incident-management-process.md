@@ -3,11 +3,11 @@ title: Major Incident Management process
 description: A major incident is a highest-impact, highest-urgency incident that affects a large number of users, depriving the business of one or more crucial services. Given the urgency of the situation, a well-coordinated response process is required to accelerate the resolution and minimize the business impact.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/major-incident-management-process.html
-release: australia
+release: brazil
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Managing major incidents, Incident Management, IT Service Management]
 ---
@@ -53,5 +53,5 @@ A major incident progresses through different states during its life cycle. The 
 
 \[Omitted image "mim-process-flow.png"\] Alt text: Major incident management state flow
 
-**Parent Topic:**[Managing major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/major-incident-management.md)
+**Parent Topic:**[Managing major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/major-incident-management.md)
 

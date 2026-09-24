@@ -3,11 +3,11 @@ title: Configure Microsoft Azure
 description: Set up a authentication with Microsoft Azure to connect Microsoft Exchange Online.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/career-conversations/ms-outlook-azure-cc.html
-release: australia
+release: brazil
 product: Career Conversations
 classification: career-conversations
 topic_type: task
-last_updated: "2025-12-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up Microsoft Outlook integration in Career Conversations, Install and configure Career Conversations, Career Conversations, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -92,5 +92,5 @@ The Microsoft Exchange Online is set up with Microsoft Azure.
 
 Configure resources Microsoft Exchange Online in the calendar. For more information, refer to [https://learn.microsoft.com/en-us/exchange/recipients-in-exchange-online/manage-resource-mailboxes](https://learn.microsoft.com/en-us/exchange/recipients-in-exchange-online/manage-resource-mailboxes).
 
-**Parent Topic:**[Set up Microsoft Outlook integration in Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/career-conversations/outlook-integration-cc.md)
+**Parent Topic:**[Set up Microsoft Outlook integration in Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/career-conversations/outlook-integration-cc.md)
 

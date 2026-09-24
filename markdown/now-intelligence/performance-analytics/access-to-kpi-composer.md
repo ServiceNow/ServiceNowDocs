@@ -3,11 +3,11 @@ title: Access to KPI Composer
 description: The level of access to KPI Composer determines whether a user can create, edit, or only view a KPI Composer project. It also determines which projects a user can access and whether they can access the underlying records or only the UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/access-to-kpi-composer.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Design your indicator solution, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Design your indicator solution, Configure fundamentals, Performance
 # Access to KPI Composer
 
 The level of access to KPI Composer determines whether a user can create, edit, or only view a KPI Composer project. It also determines which projects a user can access and whether they can access the underlying records or only the UI.
+
+**Important:**
+
+This application is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 Access to KPI Composer depends on the following things, singly or in combination:
 
@@ -84,7 +88,7 @@ A responsible user has the following access to the projects they are responsible
 
 This level of access is equivalent to what the sn\_kpi\_composer.user role grants. It is also equivalent to having a project shared with edit rights. Responsibility differs first in being independent of any role. The second difference is procedural, not technical: Responsible users are understood to be in charge of oversight and implementation of the project. Even the creator of a project is therefore not automatically responsible for it.
 
-Responsible users are named in the project properties. Any user with edit rights can name responsible users. For more information about naming responsible users, see [Define properties for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/define-properties-project.md).
+Responsible users are named in the project properties. Any user with edit rights can name responsible users. For more information about naming responsible users, see [Define properties for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/define-properties-project.md).
 
 ## Shared projects
 
@@ -99,7 +103,7 @@ Any user with edit rights can share a project. When you share a project, you gra
     A user with view access can read the design tabs, artifact properties, indicator definitions, and breakdown definitions of the shared project. They can use all viewing utilities, like search and filter. However, they cannot change anything in the project. The only thing they can add is a journal entry.
 
 
-For more information, see [Share a KPI Composer project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/share-a-kpi-composer-project.md).
+For more information, see [Share a KPI Composer project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/share-a-kpi-composer-project.md).
 
-**Parent Topic:**[Design your Performance Analytics solution with KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/designing-pa-solution.md)
+**Parent Topic:**[Design your Performance Analytics solution with KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/designing-pa-solution.md)
 

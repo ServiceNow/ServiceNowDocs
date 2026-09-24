@@ -3,9 +3,9 @@ title: View application service health information in Service Operations Workspa
 description: Monitor the health of services and filter the information that you want to view, allowing you to focus on the most relevant data and make informed decisions quickly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/workspace-dashboard.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Operations Workspace, Configure, ITOM AIOps, IT Operations Management]
 ---
@@ -26,7 +26,7 @@ Role required: evt\_mgmt\_user or evt\_mgmt\_admin
 
     The Service Dashboard page appears.
 
-    **Note:** The application services that appear in the Service Dashboard are those added to the Impact Filter Services list. For more information, see [Add application services for impact calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/add-impact-cal-services.md).
+    **Note:** The application services that appear in the Service Dashboard are those added to the Impact Filter Services list. For more information, see [Add application services for impact calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/add-impact-cal-services.md).
 
 3.  Perform the following actions as required.
 
@@ -95,5 +95,5 @@ Filter the information displayed on the dashboard ensuring you focus on relevant
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/workspace-dashboard-use.md)
+**Parent Topic:**[Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/workspace-dashboard-use.md)
 

@@ -3,9 +3,9 @@ title: Set up an external connection in CPQ
 description: Set up an external connection in CPQ by copying the client ID and client secret of the CPQ.ai Auth record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/set-up-external-connection-logik.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Without guided setup, Set up CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -60,5 +60,5 @@ Role required: admin
 
 ## What to do next
 
-[Enable the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/enable-advanced-configurator.md)
+[Enable the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/enable-advanced-configurator.md)
 

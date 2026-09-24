@@ -3,11 +3,11 @@ title: Submit a request topic conversation
 description: Users can submit a request in a Virtual Agent conversation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/request-submission-va.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Service Catalog topic blocks in Virtual Agent powered by NLU, Service Catalog Reference, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -31,17 +31,17 @@ When the user selects the required item, the following scenarios are possible:
 
 -   A user can submit a request in a popup or a window.
 
-    -   In case of a popup, Virtual Agent provides a link for the user to submit the request in a popup without navigating to a new tab. A non-conversational catalog item can be rendered as a popup only if it does not have any Custom, Custom with label, or UI Page variables. For more information, see [Service Catalog topic blocks in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-topic-blocks-va.md).
-    -   In case of a window, Virtual Agent provides a link for the user to submit the request in the Service Portal defined in the **sn\_itsm\_va.com.snc.itsm.virtualagent.portal\_url** property. A non-conversational item will be rendered as a window it has a Custom, Custom with label, or UI Page variable. For more information, see [Service Catalog topic blocks in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-topic-blocks-va.md).
+    -   In case of a popup, Virtual Agent provides a link for the user to submit the request in a popup without navigating to a new tab. A non-conversational catalog item can be rendered as a popup only if it does not have any Custom, Custom with label, or UI Page variables. For more information, see [Service Catalog topic blocks in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/request-topic-blocks-va.md).
+    -   In case of a window, Virtual Agent provides a link for the user to submit the request in the Service Portal defined in the **sn\_itsm\_va.com.snc.itsm.virtualagent.portal\_url** property. A non-conversational item will be rendered as a window it has a Custom, Custom with label, or UI Page variable. For more information, see [Service Catalog topic blocks in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/request-topic-blocks-va.md).
     **Note:** Now Mobile opens the item in Mobile Employee Service Portal \(mesp\).
 
     \[Omitted image "SubmitaRequest.png"\] Alt text: Submit a Request virtual agent chatbot dialogue.
 
 
-**Parent Topic:**[Service Catalog topic blocks in Virtual Agent powered by NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-topic-blocks-va.md)
+**Parent Topic:**[Service Catalog topic blocks in Virtual Agent powered by NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/request-topic-blocks-va.md)
 
 **Related topics**  
 
 
-[Service Catalog topic blocks in Virtual Agent powered by NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-topic-blocks-va.md)
+[Service Catalog topic blocks in Virtual Agent powered by NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/request-topic-blocks-va.md)
 

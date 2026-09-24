@@ -3,11 +3,11 @@ title: Add shared component in a component library
 description: Add or update a shared component in a component library.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-comp-library-add-component.html
-release: australia
+release: brazil
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Sharing components among applications — Component libraries, Using DevOps Config, DevOps Config, IT Service Management]
 ---
@@ -18,13 +18,13 @@ Add or update a shared component in a component library.
 
 ## Before you begin
 
-**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
+**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
 
 Role required: cdm\_editor or cdm\_admin
 
 ## About this task
 
-You can also add a component to the library as a shared component from a request. For more information, see [Accept or reject a component request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-comp-library-request-approval.md).
+You can also add a component to the library as a shared component from a request. For more information, see [Accept or reject a component request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/cdm-comp-library-request-approval.md).
 
 ## Procedure
 
@@ -54,7 +54,7 @@ You can also add a component to the library as a shared component from a request
 
 7.  Add a file node to the component.
 
-    For more information on adding files, see [Manage files using file nodes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-manage-file-config-data-file-node.md).
+    For more information on adding files, see [Manage files using file nodes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/cdm-manage-file-config-data-file-node.md).
 
 8.  Select the more actions icon \(\[Omitted image "icon-actions-menu.png"\] Alt text: More actions icon.\) for a component to rename or delete it.
 

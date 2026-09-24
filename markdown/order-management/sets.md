@@ -3,7 +3,7 @@ title: Configure sets
 description: Sets group related fields into repeatable collections, allowing administrators to streamline configurations and reduce redundancy. They enable dynamic, table-like data entry, support aggregates, and simplify managing repeated questionnaires or configurable options in CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/sets.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
@@ -43,7 +43,7 @@ Sets can be displayed in several ways.
     \[Omitted image "cpq-sets-display-type-set-repeater.png"\] Alt text: Display types
 
 
-You can manage sets by using the Layout Wizard. For more information about sets and layouts, see [Using sets in layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/layouts-sets.md).
+You can manage sets by using the Layout Wizard. For more information about sets and layouts, see [Using sets in layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/layouts-sets.md).
 
 ## Adding and removing set rows
 
@@ -65,7 +65,7 @@ In the end-user UI, the user has four ways to increment or decrement set records
 
     \[Omitted image "cpq-sets-add-or-delete-set.png"\] Alt text: Adding and removing set rows
 
-    For more information about managing sets, see [Using sets in layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/layouts-sets.md) and [How sets interact with the rest of a blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/how_sets_interact_with_the_rest_of_the_blueprint.md).
+    For more information about managing sets, see [Using sets in layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/layouts-sets.md) and [How sets interact with the rest of a blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/how_sets_interact_with_the_rest_of_the_blueprint.md).
 
 
 ## Creating a set
@@ -91,7 +91,7 @@ The size type cannot be changed after the set is saved. Therefore, keep the foll
 
     -   Option Value: The value of each option in the set, represented as a read-only text field.
     -   Select Option: Tracks whether each option of the picklist is selected.
-    -       For more information, see [Creating an associated picklist set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/creating_an_associated_picklist_set.md).
+    -       For more information, see [Creating an associated picklist set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/creating_an_associated_picklist_set.md).
 
 
 The next screen is the set screen, where the admin can add fields to the set, enforce distinct values, and create aggregates.
@@ -102,12 +102,12 @@ Any field in the set can have the “Distinct Values” option enabled. When thi
 
 When you create an aggregate for a field in the set, options include Average, Count, Maximum, Minimum, and Sum. For example, a sum aggregate on a number field called Quantity might store the sum of all Quantity field values in the set. Aggregates function as a field external to the set and can be used in global rules.
 
-For more information on set aggregates, see [Creating set aggregates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/creating_set_aggregates.md).
+For more information on set aggregates, see [Creating set aggregates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/creating_set_aggregates.md).
 
-When using sets in a configuration, it’s important to understand the scope of fields in the set and what can and cannot be accomplished when creating rules. See [How sets interact with the rest of a blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/how_sets_interact_with_the_rest_of_the_blueprint.md).
+When using sets in a configuration, it’s important to understand the scope of fields in the set and what can and cannot be accomplished when creating rules. See [How sets interact with the rest of a blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/how_sets_interact_with_the_rest_of_the_blueprint.md).
 
 **Related topics**  
 
 
-[Using sets in layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/layouts-sets.md)
+[Using sets in layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/layouts-sets.md)
 

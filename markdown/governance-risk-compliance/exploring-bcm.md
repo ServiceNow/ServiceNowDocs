@@ -3,9 +3,9 @@ title: Exploring Business Continuity Management
 description: Learn how you can use the Business Continuity Management application to manage continuity tasks through predefined templates and structured workflows. The application helps you analyze business impact, develop continuity plans, test your readiness through exercises, and respond to real‑world crises.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/exploring-bcm.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -47,14 +47,14 @@ The Business Continuity Management application provides these benefits:
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Manage continuity activities in an interactive dashboard.|[Home page view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/home-page-uib-ws.md)|BCM program manager|
-|Monitor individual and team tasks from a single dashboard in the **My tasks** view.|[My tasks page view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/my-tasks-page-uib-ws.md)|BCM program manager|
-|Assess the criticality of services and applications.|[Create a business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-bia-in-uib-ws.md)|BCM program manager or BIA administrator|
-|Prepare a business continuity plan with a response strategy and request approvals from BCM leads and program managers.|[Create a business continuity plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-bcp-plan-in-uib-ws.md)|BCM program manager or BCP administrator|
-|Test and improve business continuity plan continuously.|[Create an exercise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/start-exercise-event-in-uib-ws.md)|BCM program manager or BCM planner|
-|Respond to actual crisis events and manage associated event tasks.|[Start a crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/start-crisis-event-in-uib-ws.md)|BCM program manager or BCM planner|
-|Respond to the alerts and set recovery tasks into action.|[Manage alerts from the map interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/manage-alerts-in-crisis-map-interface-uib-ws.md)|BCM administrator or BCM program manager|
-|Communicate critical updates to stakeholders.|[Sending notifications with Everbridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ebn-collective-tasks.md)|BCM administrator or BCM program manager|
+|Manage continuity activities in an interactive dashboard.|[Home page view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/home-page-uib-ws.md)|BCM program manager|
+|Monitor individual and team tasks from a single dashboard in the **My tasks** view.|[My tasks page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/my-tasks-page-uib-ws.md)|BCM program manager|
+|Assess the criticality of services and applications.|[Create a business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-bia-in-uib-ws.md)|BCM program manager or BIA administrator|
+|Prepare a business continuity plan with a response strategy and request approvals from BCM leads and program managers.|[Create a business continuity plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-bcp-plan-in-uib-ws.md)|BCM program manager or BCP administrator|
+|Test and improve business continuity plan continuously.|[Create an exercise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/start-exercise-event-in-uib-ws.md)|BCM program manager or BCM planner|
+|Respond to actual crisis events and manage associated event tasks.|[Start a crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/start-crisis-event-in-uib-ws.md)|BCM program manager or BCM planner|
+|Respond to the alerts and set recovery tasks into action.|[Manage alerts from the map interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/manage-alerts-in-crisis-map-interface-uib-ws.md)|BCM administrator or BCM program manager|
+|Communicate critical updates to stakeholders.|[Sending notifications with Everbridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ebn-collective-tasks.md)|BCM administrator or BCM program manager|
 
 ## Coral theme
 

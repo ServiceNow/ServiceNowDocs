@@ -3,7 +3,7 @@ title: Configure timeline event configurations
 description: Create or modify timeline event configurations to control which events appear on the security incident timeline.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configure-timeline-events-sir.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
@@ -75,5 +75,5 @@ Role required: sn\_si.admin
     **Note:** For state transition events, the popover automatically displays the state, the previous state \(from/to\), and the duration. Color coding for each state is fixed and consistent across all timelines.
 
 
-**Parent Topic:**[Timeline in Security Incident Response Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/timeline-sir-workspace.md)
+**Parent Topic:**[Timeline in Security Incident Response Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/timeline-sir-workspace.md)
 

@@ -3,11 +3,11 @@ title: People Genius Results
 description: People Genius Results display top search results from the User \[sys\_user\] table. Each People Genius Result answer card shows a single user record. You can view the user's full profile directly from the answer card.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/genius-result-people-ais.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Genius Result configurations in the base system, Genius Results, Search profiles, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -22,7 +22,7 @@ Select **View profile** to see the user's profile.
 
 People Genius Results only support English searches.
 
-The People Genius Result configuration is inactive in the base system. To learn how to activate it, see [Activate People Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/activate-people-genius-results-ais.md).
+The People Genius Result configuration is inactive in the base system. To learn how to activate it, see [Activate People Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/activate-people-genius-results-ais.md).
 
 **Warning:** Don't activate the People Genius Result configuration if your instance has more than 100,000 records in any of the following tables:
 
@@ -33,8 +33,8 @@ The People Genius Result configuration is inactive in the base system. To learn 
 
 These tables are configured as vocabulary sources in the Default AI Search Genius Results Model specified in the People configuration's NLU trigger condition. If your instance has more than 100,000 records in any of the listed tables, training will fail for the NLU model and the People Genius Result configuration won't operate correctly.
 
--   **[Activate People Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/activate-people-genius-results-ais.md)**  
+-   **[Activate People Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/activate-people-genius-results-ais.md)**  
 Enable AI Search's People default Genius Result configuration for use in your search profiles.
 
-**Parent Topic:**[Genius Result configurations in the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/default-genius-result-configs-ais.md)
+**Parent Topic:**[Genius Result configurations in the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/default-genius-result-configs-ais.md)
 

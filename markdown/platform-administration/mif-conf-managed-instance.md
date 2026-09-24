@@ -3,11 +3,11 @@ title: Configure Managed Instances
 description: Implement the following steps to configure the Managed Instances in Multi-Instance Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/mif-conf-managed-instance.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Cross-instance application trust configuration, Multi-instance Management, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Cross-instance application trust configuration, Multi-Instance Management, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Configure Managed Instances
@@ -50,7 +50,7 @@ Role required: admin or sn\_mif.mif\_admin.
 
     -   Approve Manager Instance
     -   Reject Manager Instance
-    **Note:** If you are an Multi-instance Management admin, you will also be notified by an email about the approval requests.
+    **Note:** If you are an Multi-Instance Management admin, you will also be notified by an email about the approval requests.
 
 9.  Once approved, review the Managed Instances instance and the status updates.
 

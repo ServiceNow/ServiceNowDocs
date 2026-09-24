@@ -3,11 +3,11 @@ title: Install Resource Management Workspace
 description: Install the Resource Management Workspace application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/config-rmw.html
-release: australia
+release: brazil
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Resource Management Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -47,5 +47,5 @@ Role required: admin
 
 The Resource Management Workspace application is installed in your instance.
 
-**Parent Topic:**[Configure Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/configure-rmw.md)
+**Parent Topic:**[Configure Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/configure-rmw.md)
 

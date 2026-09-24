@@ -3,11 +3,11 @@ title: Antivirus Scanning in Service Portal
 description: View the health status of file attachments in Service Portal. Antivirus Scanning scans files in the Attachments \[sys\_attachments\] table by default. When viewed from a Service Portal page, attachments may not be available for download depending on their health status.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/av-sp.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Supported features in Service Portal, Exploring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Supported features in Service Portal, Exploring Service Portal, Ser
 
 View the health status of file attachments in Service Portal. Antivirus Scanning scans files in the Attachments \[sys\_attachments\] table by default. When viewed from a Service Portal page, attachments may not be available for download depending on their health status.
 
-**Note:** Antivirus Scanning is a ServiceNow AI Platform feature. For more information, see [Antivirus Scanning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/antivirus-protection.md).
+**Note:** Antivirus Scanning is a ServiceNow AI Platform feature. For more information, see [Antivirus Scanning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/antivirus-protection.md).
 
 ## Scanning scenarios
 
@@ -44,5 +44,5 @@ Review these scanning scenarios to understand how Antivirus Scanning interacts w
     1.  A user opens a record with an infected attachment.
     2.  The file is unavailable for download. If viewing the record in the Ticket Form page, the thumbnail does not display.
 
-**Parent Topic:**[Supported features in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/unsupported-features-sp.md)
+**Parent Topic:**[Supported features in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/unsupported-features-sp.md)
 

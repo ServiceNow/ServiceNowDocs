@@ -3,11 +3,11 @@ title: Configuring Event Management
 description: Event Management administrators administer events, manage and monitor alerts, aggregate alerts, and work review and monitor services' status with the Operator Workspace service monitor.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/using-event-management.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Event Management, ITOM AIOps, IT Operations Management]
 ---

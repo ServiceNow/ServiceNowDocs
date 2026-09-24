@@ -3,11 +3,11 @@ title: Configure related catalog item widget instance options
 description: Configure the Related Catalog Item widget instance options for the Knowledge Management article view page in the Knowledge Management Service Portal. These options relate to the list of catalog items mapped to an article.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/configure-related-items-widget.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Knowledge Management Service Portal widgets, Configure the Knowledge Management Service Portal, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -51,10 +51,10 @@ The knowledge article view page displays the Related Items section when an artic
 6.  Click **Save**.
 
 
-**Parent Topic:**[Knowledge Management Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/km-service-portal-widget-instances.md)
+**Parent Topic:**[Knowledge Management Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/km-service-portal-widget-instances.md)
 
 **Related topics**  
 
 
-[Map catalog items related to an article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/map-related-items.md)
+[Map catalog items related to an article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/map-related-items.md)
 

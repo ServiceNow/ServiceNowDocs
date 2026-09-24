@@ -3,11 +3,11 @@ title: Enable Dispatcher Workspace settings
 description: Determine what is displayed in the Dispatcher Workspace so you only see the information most relevant to your work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/dispatcher-wrkspc-settings.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
@@ -64,7 +64,7 @@ Enable Auto-refresh
 
 </td><td>
 
-Automatically refreshes the agent's calendar when an event such as a meeting, training, time-off request, personal, or an ad hoc work event is created.**Note:** This option appears only when the Enable Auto-refresh system property is enabled. For more information, see [Configure settings for Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configure-workspce-settings.md).
+Automatically refreshes the agent's calendar when an event such as a meeting, training, time-off request, personal, or an ad hoc work event is created.**Note:** This option appears only when the Enable Auto-refresh system property is enabled. For more information, see [Configure settings for Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/configure-workspce-settings.md).
 
 </td></tr><tr><td>
 
@@ -115,7 +115,7 @@ Territory
 
 </td><td>
 
-Option to display the assigned territory.**Note:** This field appears when the Territory Planning plugin is activated. For more information, see [Activate Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/Activate-fsm-territory-planning.md) and [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
+Option to display the assigned territory. **Note:** This field appears when the Territory Planning plugin is activated. For more information, see [Activate Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/Activate-fsm-territory-planning.md) and [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
 
 </td></tr><tr><td>
 
@@ -323,7 +323,7 @@ Territory
 
 </td><td>
 
-Option to display the assigned territory. For more information, see [Activate Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/Activate-fsm-territory-planning.md) and [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
+Option to display the assigned territory. For more information, see [Activate Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/Activate-fsm-territory-planning.md) and [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
 
 </td></tr><tr><td>
 
@@ -423,7 +423,7 @@ Operational Status
 
 </td><td>
 
-Status of the equipment. For example, a bucket truck is Unavailable because there's maintenance being completed on it. The available values are:
+Status of the equipment. For example, a bucket truck is Unavailable because there’s maintenance being completed on it. The available values are:
 
 -   Available
 -   In Use

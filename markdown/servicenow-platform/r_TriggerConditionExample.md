@@ -3,9 +3,9 @@ title: Trigger condition example
 description: You can send out auto-triggered surveys when an incident is closed or resolved.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_TriggerConditionExample.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Survey trigger conditions, Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -50,5 +50,5 @@ To create a report on incident-triggered survey responses by Assignment group, s
 
 \[Omitted image "SurveyReportCreate.png"\] Alt text: Defining a report on survey responses that are triggered by an incident
 
-**Parent Topic:**[Survey trigger conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_TriggerConditions.md)
+**Parent Topic:**[Survey trigger conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_TriggerConditions.md)
 

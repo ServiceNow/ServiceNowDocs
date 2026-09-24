@@ -3,11 +3,11 @@ title: Terminology definitions fields
 description: Use these fields to review the seed terminology definition records installed with the Digital resilience third-party registers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/terminology-definitions-reference.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-08-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Terminology definitions for ROI, Exploring Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Terminology definitions for ROI, Explore, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Terminology definitions fields
@@ -23,5 +23,5 @@ Use these fields to review the seed terminology definition records installed wit
 |Option label|Label of the option value associated with the term. This field is read-only.|
 |Description|Internal definition of the term. This is the only editable field on the record.|
 
-**Parent Topic:**[Terminology definitions for ROI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/terminology-definitions.md)
+**Parent Topic:**[Terminology definitions for ROI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/terminology-definitions.md)
 

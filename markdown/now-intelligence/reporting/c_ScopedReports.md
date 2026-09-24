@@ -3,11 +3,11 @@ title: Scoped reports
 description: When editing a report from a different application scope than the current scope, actions modifying the original report are unavailable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/c\_ScopedReports.html
-release: australia
+release: brazil
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -29,10 +29,10 @@ The following actions are available from the **Save** menu after opening a repor
 
 You can create a new report based on an existing report, but within the current application scope using the **Insert** or **Insert and Stay** options.
 
-**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdvancedReporting.md)
+**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_AdvancedReporting.md)
 
 **Related topics**  
 
 
-[Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md)
+[Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationScope.md)
 

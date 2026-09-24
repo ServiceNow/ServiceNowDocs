@@ -3,9 +3,9 @@ title: View data assets from an established connection
 description: View the external schema and tables that are accessible to the service account used in a zero copy connection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/view-assets-connection-zcc.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
@@ -46,8 +46,8 @@ Role required: df\_connection\_admin or a role containing the df\_data\_steward 
 ## What to do next
 
 -   Identify the tables and columns that you want to map to a data fabric table.
--   Create a data fabric table and map source columns to the target table. See [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-data-fabric-tables-zcc.md).
+-   Create a data fabric table and map source columns to the target table. See [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/managing-data-fabric-tables-zcc.md).
 -   Consult with the data source administrator if the required schema and tables aren't available from this connection.
 
-**Parent Topic:**[Managing zero copy connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-connections-zcc.md)
+**Parent Topic:**[Managing zero copy connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/managing-connections-zcc.md)
 

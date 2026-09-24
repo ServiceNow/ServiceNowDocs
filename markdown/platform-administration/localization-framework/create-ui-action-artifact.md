@@ -3,11 +3,11 @@ title: Create a UI action for the custom artifact
 description: Create a UI action to request translations for the custom artifact.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-framework/create-ui-action-artifact.html
-release: australia
+release: brazil
 product: Localization Framework
 classification: localization-framework
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Artifact configurations, Configure the Localization Framework, Localization Framework, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -131,10 +131,10 @@ List choice
 Option to enable the UI action in the choice list.
 
 </td></tr></tbody>
-</table>    **Note:** Configure the form to see all the fields. For more information, see [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EditingAUIAction.md).
+</table>    **Note:** Configure the form to see all the fields. For more information, see [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_EditingAUIAction.md).
 
 5.  Click **Submit**.
 
 
-**Parent Topic:**[Artifact configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/framework-configuration.md)
+**Parent Topic:**[Artifact configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-framework/framework-configuration.md)
 

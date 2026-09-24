@@ -3,13 +3,13 @@ title: Pull changes from a repository
 description: App developers using App Engine Studio \(AES\) can pull changes from a linked Git repository to apply remote changes to the local instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/source-control-apply-changes.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Work with changes in Git, Use AES with a Git source control repository, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Work with changes in Git, Use AES with a Git source control repository, Build, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Pull changes from a repository
@@ -19,7 +19,7 @@ App developers using App Engine Studio \(AES\) can pull changes from a linked Gi
 ## Before you begin
 
 -   Role required: admin
--   [Link an application or application-customization to source control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/source-control-link-application.md)
+-   [Link an application or application-customization to source control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/source-control-link-application.md)
 
 ## Procedure
 
@@ -49,5 +49,5 @@ App developers using App Engine Studio \(AES\) can pull changes from a linked Gi
 
 Resolve any change conflicts.
 
-**Parent Topic:**[Work with changes in Git](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/work-changes-in-git.md)
+**Parent Topic:**[Work with changes in Git](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/work-changes-in-git.md)
 

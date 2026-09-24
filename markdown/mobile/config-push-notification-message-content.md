@@ -3,9 +3,9 @@ title: Configure push notification message content
 description: Configure push notification message content and select which mobile application receives notifications. You can configure critical alert notifications, customize the message appearance, and determine the deep link used when users tap the notification.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/config-push-notification-message-content.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Components, Push notifications, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -16,7 +16,7 @@ Configure push notification message content and select which mobile application 
 
 ## Before you begin
 
-To configure push notification message content, you must generate a deep link using the mobile deep link generator. For more information, see [Deep linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/deep-link-mobile.md).
+To configure push notification message content, you must generate a deep link using the mobile deep link generator. For more information, see [Deep linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/deep-link-mobile.md).
 
 Role required: admin
 
@@ -33,7 +33,7 @@ Push notification message content supports up to three additional fields. If the
 
 **Note:** The text slots are fixed on the mobile app, so you cannot change their location or size. Each slot maps to a `Status`, `Identifier`, and `Description` within the JSON object in the push notification message content script.
 
-Mobile UI styles are also available for additional fields. For more information around styling, see [Mobile UI styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-ui-styles.md).
+Mobile UI styles are also available for additional fields. For more information around styling, see [Mobile UI styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-ui-styles.md).
 
 ## Procedure
 
@@ -92,7 +92,7 @@ The script block that contains the notification link. In the script block, the J
 
     2.  Use the notification layout script and include the global application scope to generate layout fields.
 
-        To learn more about script includes, see [Script Includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md).
+        To learn more about script includes, see [Script Includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/c_ScriptIncludes.md).
 
         **Note:** Do not modify the notification layout generator script include.
 
@@ -195,7 +195,7 @@ You created a push notification message content record that contains a deep link
 
 ## What to do next
 
-After configuring push notification message content, it must be paired with a push notification message record. For more information on configuring a push notification message, see [Configure a push notification message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-push-notification-message.md).
+After configuring push notification message content, it must be paired with a push notification message record. For more information on configuring a push notification message, see [Configure a push notification message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/configure-push-notification-message.md).
 
-**Parent Topic:**[Mobile push notification components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-mobile-push-notifications.md)
+**Parent Topic:**[Mobile push notification components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/configure-mobile-push-notifications.md)
 

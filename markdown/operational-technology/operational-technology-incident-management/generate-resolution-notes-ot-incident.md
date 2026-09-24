@@ -3,11 +3,11 @@ title: Generate resolution notes for an Operational Technology incident
 description: Generate resolution notes for an Operational Technology \(OT\) incident to share incident resolution information with other users who encounter similar issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-incident-management/generate-resolution-notes-ot-incident.html
-release: australia
+release: brazil
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
 topic_type: task
-last_updated: "2026-07-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use ServiceNow Otto for OT Service Management, Use, Operational Technology Incident Management, Operational Technology]
 ---
@@ -53,15 +53,15 @@ OT incident resolution notes are generated from the following information:
 
 8.  Manage the OT resolution notes using the available options.
 
-<table id="choicetable_oyw_3jm_ydc"><thead><tr><th align="left" id="d68330e193">
+<table id="choicetable_oyw_3jm_ydc"><thead><tr><th align="left" id="d68466e193">
 
 Option
 
-</th><th align="left" id="d68330e196">
+</th><th align="left" id="d68466e196">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d68330e202">
+</th></tr></thead><tbody><tr><td id="d68466e202">
 
 **Insert the resolution notes**
 
@@ -69,7 +69,7 @@ Procedure
 
 To insert the generated OT resolution notes in the **Resolution note** field, select **Insert**.
 
-</td></tr><tr><td id="d68330e217">
+</td></tr><tr><td id="d68466e217">
 
 **Refine the resolution notes by elaborating or shortening**
 
@@ -77,7 +77,7 @@ To insert the generated OT resolution notes in the **Resolution note** field, se
 
 To provide more details in the OT resolution notes, select **Refine** and then **Elaborate**. To shorten the resolution notes, select **Shorten**.
 
-</td></tr><tr><td id="d68330e235">
+</td></tr><tr><td id="d68466e235">
 
 **Provide feedback for the summary**
 
@@ -85,7 +85,7 @@ To provide more details in the OT resolution notes, select **Refine** and then *
 
 If the OT resolution notes were helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text:\). If the resolution notes weren't helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text:\).**Note:** This feedback improves the generative AI model and can help improve future versions of this skill.
 
-</td></tr><tr><td id="d68330e256">
+</td></tr><tr><td id="d68466e256">
 
 **Copy the resolution notes**
 
@@ -93,7 +93,7 @@ If the OT resolution notes were helpful, select the helpful icon \(\[Omitted ima
 
 To reuse the OT resolution notes, select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text:\).
 
-</td></tr><tr><td id="d68330e271">
+</td></tr><tr><td id="d68466e271">
 
 **View the information about the resolution notes**
 
@@ -109,5 +109,5 @@ To view details about the OT resolution notes, select the more info icon \(\[Omi
     The resolution information is updated and the state of the OT incident is set to **Resolved**.
 
 
-**Parent Topic:**[Using ServiceNow Otto for Operational Technology \(OT\) Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/using-now-assist-otsm.md)
+**Parent Topic:**[Using ServiceNow Otto for Operational Technology \(OT\) Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-incident-management/using-now-assist-otsm.md)
 

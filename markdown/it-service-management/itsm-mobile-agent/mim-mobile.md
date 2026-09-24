@@ -3,11 +3,11 @@ title: Managing major incidents using Major Incident applet
 description: As a major incident manager you can quickly review active major incidents or proposed major incidents and act upon them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/mim-mobile.html
-release: australia
+release: brazil
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ITSM Mobile Agent, IT Service Management]
 ---

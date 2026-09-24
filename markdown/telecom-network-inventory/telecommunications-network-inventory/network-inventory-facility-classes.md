@@ -3,11 +3,11 @@ title: Network inventory facility classes
 description: The facility classes are used to represent power, HVAC, network, and their connectivity in a data center. You can define facility hardware records for these classes in the Telecommunications Network Inventory application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/network-inventory-facility-classes.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
@@ -27,10 +27,10 @@ The facility classes are used to represent power, HVAC, network, and their conne
 |Inverter|cmdb\_ci\_inverter|Power Equipment|An inverter takes the DC power from your telecom data center and changes it to AC power. While most telecom equipment uses DC power, you will need AC power for systems like air conditioning, lights, servers, and some monitoring devices.|
 |Circuit Breaker|cmdb\_ci\_circuit\_breaker|Power Equipment|Circuit breakers protect your telecom data center from overloads, short circuits, and equipment failures. They automatically disconnect the power supply when something goes wrong to prevent damage, fire, or downtime.|
 |Fuse Alarm Panel|cmdb\_ci\_fuse\_alarm\_panel\_function|Power Equipment|A Fuse Alarm Panel is a critical component in a telecom data center’s DC power distribution system. It serves two main purposes: Distributes DC power to various telecom loads \(like routers, switches, and other network equipment\). Monitors fuse status and triggers alarms when a fuse blows, enabling quick fault detection and response.|
-|Rack Rail|cmdb\_ci\_rack\_rail|Hardware|A **rack rail** is a **mounting structure** inside a telecom or server rack that allows you to **securely install, support, and slide** equipment such as servers, switches, power supplies, and other hardware into place.|
-|Wire Manager|cmdb\_ci\_wire\_manager|Hardware|A wire manager \(also called a cable manager or cable management system\) is a device or accessory used to organize, guide, protect, and secure network and power cables within telecom racks and data center infrastructure.|
-|Cage|cmdb\_ci\_cage|Facility Hardware|A cage in a telecom data center is a secure, enclosed physical space within a larger data hall or colocation facility, built using metal mesh panels and lockable doors. It is used to isolate and protect a customer’s or department’s servers, telecom gear, and networking equipment from unauthorized access.|
-|Rack PDU|cmdb\_ci\_rack\_pdu|PDU|A Rack PDU \(Power Distribution Unit\) is a critical component used in data centers and server rooms to distribute electrical power to multiple devices housed within a server rack. It serves as a centralized power management solution, ensuring reliable and efficient power delivery to IT equipment such as servers, switches, routers, and storage systems.|
+|Rack Rail|cmdb\_ci\_rack\_rail|Hardware|A **rack rail** is a **mounting structure** inside a telecom or server rack. It allows you to **securely install, support, and slide** equipment such as servers, switches, power supplies, and other hardware into place.|
+|Wire Manager|cmdb\_ci\_wire\_manager|Hardware|A wire manager \(also called a cable manager or cable management system\) is a device or accessory. It is used to organize, guide, protect, and secure network and power cables within telecom racks and data center infrastructure.|
+|Cage|cmdb\_ci\_cage|Facility Hardware|A cage in a telecom data center is a secure, enclosed physical space within a larger data hall or colocation facility. It is built using metal mesh panels and lockable doors. It is used to isolate and protect a customer’s or department’s servers, telecom gear, and networking equipment from unauthorized access.|
+|Rack PDU|cmdb\_ci\_rack\_pdu|PDU|A Rack PDU \(Power Distribution Unit\) is a critical component used in data centers and server rooms. It distributes electrical power to multiple devices housed within a server rack. It serves as a centralized power management solution, ensuring reliable and efficient power delivery to IT equipment such as servers, switches, routers, and storage systems.|
 
-**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
+**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
 

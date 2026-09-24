@@ -3,11 +3,11 @@ title: Preview predicted changes
 description: Use the previewed changes table to view the list of total records that are predicted to change when the upgrade occurs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-previewed-changes.html
-release: australia
+release: brazil
 product: Upgrade Management
 classification: upgrade-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Upgrade Preview tool in Upgrade Console, Upgrade Console tools, Use, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
@@ -94,5 +94,5 @@ Related record
 Record that the changelist entry applies to
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Upgrade Preview tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-upgrade-preview-tool.md)
+</table>**Parent Topic:**[Upgrade Preview tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-management/um-upgrade-preview-tool.md)
 

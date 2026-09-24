@@ -3,11 +3,11 @@ title: Preview evidence files
 description: Preview Data Loss Prevention Incident Response evidence files in the DLP IR Analyst workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/preview-file-symantec.html
-release: australia
+release: brazil
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Preview Evidence Files, DLP analyst workspace, Data Loss Prevention Incident Response]
 breadcrumb: [Create a profile for Symantec DLP integration, Symantec Integration for Data Loss Prevention Incident Response, Integrate, Data Loss Prevention Incident Response, Security Operations]
@@ -19,7 +19,7 @@ Preview Data Loss Prevention Incident Response evidence files in the DLP IR Anal
 
 ## Before you begin
 
-**Important:** While using the Evidence files action in the DLP analyst workspace, the evidence files are temporarily stored in the ServiceNow database in an unencrypted format. If you don't want to store the evidence files, disable the Evidence Files preview feature. For more information, see [Configure advanced settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/configure-advanced-settings-dlp.md).
+**Important:** While using the Evidence files action in the DLP analyst workspace, the evidence files are temporarily stored in the ServiceNow database in an unencrypted format. If you don't want to store the evidence files, disable the Evidence Files preview feature. For more information, see [Configure advanced settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/configure-advanced-settings-dlp.md).
 
 Role required: sn\_dlir.analyst
 
@@ -92,5 +92,5 @@ PDF files
     Binary files won’t be rendered and have to be downloaded to preview their content. The preview evidence file feature also works for archived incidents.
 
 
-**Parent Topic:**[Create a profile for Symantec DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/create-profile-symantec-dlp.md)
+**Parent Topic:**[Create a profile for Symantec DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/create-profile-symantec-dlp.md)
 

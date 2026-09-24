@@ -3,7 +3,7 @@ title: Set up bi-directional webhook for the GitHub spoke
 description: Configure webhook to subscribe to GitHub with a ServiceNow callback URL.Register a GitHub in ServiceNow to notify the ServiceNow app when certain events occur in GitHub.Provide Webhook Callback URL in GitHub account to create webhook.Create webhook routing policy and subflow as per your requirement in the GitHub spoke.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-biwebhoook-github.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -89,7 +89,7 @@ Role required: admin
 
 ### Result
 
-The Callback URL is added in the GitHub account. You can create routing policies and subflows as per your requirement. See [Customize a bi-directional webhook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-jira302-webhooks.md) for information regarding creating new routing policies and subflows.
+The Callback URL is added in the GitHub account. You can create routing policies and subflows as per your requirement. See [Customize a bi-directional webhook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-jira302-webhooks.md) for information regarding creating new routing policies and subflows.
 
 ## Customize bi-directional webhook in the GitHub spoke
 
@@ -101,7 +101,7 @@ Role required: admin
 
 ### About this task
 
-The default routing policy in the GitHub WebHook Routing Policies modules triggers the relevant GitHub subflow and notifies the ServiceNow app when certain events occur in GitHub. See [GitHub Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/github-spoke.md) for information about the GitHub fields that the default routing policy supports and the GitHub events that the subflows support. To use any other fields in your custom subflow and customize conditions in the routing policy, perform these steps.
+The default routing policy in the GitHub WebHook Routing Policies modules triggers the relevant GitHub subflow and notifies the ServiceNow app when certain events occur in GitHub. See [GitHub Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/github-spoke.md) for information about the GitHub fields that the default routing policy supports and the GitHub events that the subflows support. To use any other fields in your custom subflow and customize conditions in the routing policy, perform these steps.
 
 ### Procedure
 
@@ -113,7 +113,7 @@ The default routing policy in the GitHub WebHook Routing Policies modules trigge
 
 4.  Customize the required subflow as per your requirement and publish it.
 
-    See [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/subflows.md) for more information about creating and using subflows and [GitHub Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/github-spoke.md) for information about the GitHub fields that the default routing policy supports and the GitHub events that the subflows support.
+    See [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/subflows.md) for more information about creating and using subflows and [GitHub Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/github-spoke.md) for information about the GitHub fields that the default routing policy supports and the GitHub events that the subflows support.
 
 5.  Navigate to **GitHub Webhooks** &gt; **GitHub WebHook Routing Policies**.
 
@@ -151,7 +151,7 @@ Condition
 
 </td><td>
 
-Conditions to be met when the required events occur in GitHub. See [GitHub Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/github-spoke.md) for information about the supported fields.
+Conditions to be met when the required events occur in GitHub. See [GitHub Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/github-spoke.md) for information about the supported fields.
 
 </td></tr><tr><td>
 

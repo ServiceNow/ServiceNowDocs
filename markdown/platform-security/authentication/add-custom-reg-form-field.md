@@ -3,11 +3,11 @@ title: Add a custom registration form field
 description: You can add custom fields in the user self-registration form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/add-custom-reg-form-field.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure a user registration configuration for external users, Self-register to ServiceNow instance, Authentication, Access Management]
 ---

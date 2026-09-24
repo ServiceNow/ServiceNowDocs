@@ -3,9 +3,9 @@ title: Quick start tests for Field Service Management
 description: Validate that Field Service Management still works after you make any configuration change, such as applying an upgrade or developing an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/quick-start-tests-fsm.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Activate, Configure, Field Service Management]
 ---
@@ -424,7 +424,7 @@ Create a time worked entry as a dispatcher or qualifier
 
 </td><td>
 
-Australia
+Brazil
 
 </td></tr><tr><td>
 
@@ -439,11 +439,11 @@ Flag a work order task from CSM/FSM Configurable workspace
 
 </td><td>
 
-Australia
+Brazil
 
 </td></tr></tbody>
 </table>**Related topics**  
 
 
-[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/quick-start-tests.md)
+[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/quick-start-tests.md)
 

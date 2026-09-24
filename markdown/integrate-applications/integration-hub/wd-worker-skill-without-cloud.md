@@ -3,7 +3,7 @@ title: Extract workers skill \(without the skill cloud\)
 description: Extract worker’s skill details without skill cloud, based on employee ID or time duration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/wd-worker-skill-without-cloud.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task

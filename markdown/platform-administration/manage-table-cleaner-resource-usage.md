@@ -3,9 +3,9 @@ title: Manage table cleaner resource usage
 description: Control the system resources used table cleaner by updating the table cleaner job.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/manage-table-cleaner-resource-usage.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Deleting older or unwanted records in Core UI, Manage data growth in Core UI, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -43,5 +43,5 @@ Table cleaner begins the next run using the updated DMTableCleaner job configura
 
 Check the status of the next table cleaner run by checking the values in the Chunks Errored column in the DMJob Runs \[sys\_dm\_run\] table. If a problem occurs, determine whether the issue occurred in all chunks or a single chunk. View the status of the individual chunks in the DMJob Chunks \[sys\_dm\_chunk\] table by checking the values in the Message and State columns.
 
-**Parent Topic:**[Deleting older or unwanted records in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/deleting-older-records.md)
+**Parent Topic:**[Deleting older or unwanted records in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/deleting-older-records.md)
 

@@ -3,11 +3,11 @@ title: Respond using the SIG
 description: Use the Shared Assessments Standardized Information Gathering questionnaire \(SIG\) to provide assessment documentation on the third-party portal. You can upload the pre-filled SIG spreadsheet or import a form-based questionnaire.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-tpcontact-use-sig.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using the SIG questionnaire for a risk assessment, Manage the third-party portal, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -40,15 +40,15 @@ If you upload a version prior to the earliest supported SIG, all responses for m
 
 2.  Upload a completed questionnaire or complete the questionnaire.
 
-<table id="choicetable_fqs_r3c_jfb"><thead><tr><th align="left" id="d72164e92">
+<table id="choicetable_fqs_r3c_jfb"><thead><tr><th align="left" id="d73325e92">
 
 Action
 
-</th><th align="left" id="d72164e95">
+</th><th align="left" id="d73325e95">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d72164e101">
+</th></tr></thead><tbody><tr><td id="d73325e101">
 
 **Upload a completed SIG questionnaire**
 
@@ -58,7 +58,7 @@ Select **Import**, navigate to the file, and then select **Open**.
 
  \[Omitted image "import-sig.png"\] Alt text: Import SIG questionnaire widget.
 
-</td></tr><tr><td id="d72164e135">
+</td></tr><tr><td id="d73325e135">
 
 **Complete the questionnaire**
 
@@ -75,7 +75,9 @@ Select the questionnaire and fill it out.
 **Related topics**  
 
 
-[Managing the Third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/vendor-portal.md)
+[Managing the Third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/vendor-portal.md)
 
-[Using the SIG questionnaire for a risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-sig-use-and-support.md)
+[Using the SIG questionnaire for a risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-sig-use-and-support.md)
+
+[Respond to a questionnaire in the third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-portal-respond-questionnaire.md)
 

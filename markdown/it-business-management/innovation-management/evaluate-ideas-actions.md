@@ -3,11 +3,11 @@ title: Evaluate ideas
 description: Learn about the actions of the evaluate ideas form. Review the submitted ideas and then choose which action to perform on the idea. You can analyze the submitted ideas and then accept or reject them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/innovation-management/evaluate-ideas-actions.html
-release: australia
+release: brazil
 product: Innovation Management
 classification: innovation-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Form field information for Innovation Management, Innovation Management reference, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -32,7 +32,7 @@ Accept
 
 If the idea seems interesting with the potential for developing into a new feature, product, or enhancement, accept the idea. It then moves to the backlog, from which you can pick it up at an appropriate time. To accept an idea, set the status of the idea to **In Backlog** from the State list.
 
- If you want to implement the idea relatively soon, create a task for it. For more information, see [Create a task for an idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/create-a-task-for-an-idea.md).
+ If you want to implement the idea relatively soon, create a task for it. For more information, see [Create a task for an idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/innovation-management/create-a-task-for-an-idea.md).
 
 </td></tr><tr><td>
 
@@ -62,10 +62,10 @@ When an idea is implemented successfully, mark the idea as completed and close t
 2.  Provide information about how the idea was implemented in the **Close notes** field.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/form-field-information-for-innovation-management.md)
+</table>**Parent Topic:**[Form field information for Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/innovation-management/form-field-information-for-innovation-management.md)
 
 **Related topics**  
 
 
-[Evaluate an idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/evaluate-an-idea.md)
+[Evaluate an idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/innovation-management/evaluate-an-idea.md)
 

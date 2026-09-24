@@ -3,11 +3,11 @@ title: Basics of Project Management
 description: Learn about the basic terms used in Project Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/c\_ProjectTasks.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-13"
 reading_time_minutes: 11
 breadcrumb: [Exploring Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Learn about the basic terms used in Project Management.
 
 ## Bottom-up Tasking
 
-Bottom-up \(tactical\) tasking means that you plan small, individual units of work that are required, then build a project up to include larger phases. Take this approach when you know what individual tasks are required to be accomplished and you are more flexible about overall project duration and estimated cost. Use this approach to see how much a project costs and how long it takes if you include every task. Project management supports tactical tasking by using rollup calculations on several project fields, such as project duration, so that the project adjusts to the tasks it contains. It is the recommended approach for the Project Management application.
+Bottom-up \(tactical\) tasking means that you plan small, individual units of work that are required, then build a project up to include larger phases. Take this approach when you know what individual tasks are required to be accomplished and you're more flexible about overall project duration and estimated cost. Use this approach to see how much a project costs and how long it takes if you include every task. Project management supports tactical tasking by using rollup calculations on several project fields, such as project duration, so that the project adjusts to the tasks it contains. It is the recommended approach for the Project Management application.
 
 ## Top-down Tasking
 
@@ -38,13 +38,13 @@ The Project Management application enables you a create parent-child relationshi
 |Finish-to-finish dependency|A dependency that indicates that a task must not be finished until another task finishes.|
 |Lag time|A manually specified time break between predecessor and successor tasks.|
 |Parent task|A project task with smaller tasks, referred to as child tasks, underneath it. Child tasks break down the work of a parent task into more manageable subsets. Certain fields for child tasks, such as planned end date, roll up and affect the same field in the parent task.|
-|Child task|A project task that is a subset of a larger task. Child task start dates cannot occur before the start date of the parent task.|
+|Child task|A project task that is a subset of a larger task. Child task start dates can't occur before the start date of the parent task.|
 |Rollup task|Another term for a parent task in the context of aggregating child task items, such as effort or resources, into a larger parent task calculation. All fields on rollup task forms are read-only.|
 |Roll down|State changes roll down from the project to project tasks, and from parent tasks to child tasks.|
 
 **Note:** Only one relationship can exist between two tasks.
 
-The Project Management application provides several properties that control how tasks are calculated and behave. See [Project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/r_InstalledWithProjectManagement.md) for more information.
+The Project Management application provides several properties that control how tasks are calculated and behave. See [Project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/r_InstalledWithProjectManagement.md) for more information.
 
 ## Task time constraints
 
@@ -54,10 +54,10 @@ The Project Task form includes a **Time Constraint** field, which can be one of 
 
 -   If a task is set to **Start ASAP**: The task appears on the Gantt chart as starting when the dependency allows it. However, a task can start on a later date when a lag value is set for the relationship.
 -   If a task is set to **Start on specific date**: The task appears on the Gantt chart as starting on the constraint date. The start date of such a task is not impacted even after you put the task in a relation to another task, for example, FS relation.
--   If a task is set to **Start no earlier than**: The task appears on the Gantt chart as starting on or after the constraint date. If the task has no predecessor, the task starts on the specified date. The start date changes to a later date based on the predecessor task end date or if the task is in a relation to another task, for example, FS relationship.
+-   If a task is set to **Start no earlier than**: The task appears on the Gantt chart as starting on or after the constraint date. If the task has no predecessor, the task starts on the specified date. The start date changes to a later date based on the predecessor task end date. The start date also changes when the task is in a relation to another task, for example, FS relationship.
 -   If a task is set to **Start no later than**: The task appears on the Gantt chart as starting on or before the constraint date. If the task has any predecessor task, the dependency on the predecessor task determines when the task can start. A scheduling conflict occurs if the predecessor task attempts to move the task beyond the date specified in the **Constraint date** field.
 
-    **Note:** The [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Retain start on constraint on tasks after adding relations** controls the behavior for **Start on** selection. The property is set to True by default and is not editable.
+    **Note:** The [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Retain start on constraint on tasks after adding relations** controls the behavior for **Start on** selection. The property is set to True by default and is not editable.
 
 -   A task that is not honoring dependency is indicated with a red calendar icon \[Omitted image "pc-task-dep-icon.png"\] Alt text: task with must start on dependency icon on the Planning Console. If you want the task to honor the dependency and adjust the start accordingly, change the constraint type of the task to **Start ASAP**.
 
@@ -81,7 +81,7 @@ Parent-child task relationships have several effects on task time constraints.
 
 -   **When a child task is set to __Start ASAP__**
 
-    The child task starts at the same time as the parent task. If Project itself is set as a parent, the **Start ASAP** tasks starts on the same date as set in the **Constraint Date** field, as long as it does not have dependencies with other child tasks.
+    The child task starts at the same time as the parent task. If Project itself is set as a parent, the task starts on the date set in the **Constraint Date** field. This applies when the task has no dependencies with other child tasks.
 
 -   **When a parent task is set to __Start ASAP__ and child tasks are set to __Start on specific date__:**
     -   The earliest child task start date determines the start date of the parent, assuming no other dependencies.
@@ -92,7 +92,7 @@ Parent-child task relationships have several effects on task time constraints.
 
     For the planned start date of the parent task:
 
-    -   The planned start date is the earliest planned start date of all the children that do not have an actual start date.
+    -   The planned start date is the earliest planned start date of all the children that don't have an actual start date.
     -   If all child tasks have actual start dates, the planned start date of the parent task is set to the actual start date.
     For the planned end date of the parent task: The latest planned end date or actual end date of the child tasks determines the planned end date of the parent.
 
@@ -109,44 +109,46 @@ It is easiest to build task relationships and dependencies while creating sets o
 -   A dependency means that a task relies on other tasks to be performed \(completely or partially\) before it can be performed.
 -   A relationship means a parent-child relationship whereby several subtasks are configured under a parent task or phase, which rolls up fields like **Planned duration** and **Estimated cost**.
 
-    Use the [Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_GanttChart.md) with task forms and related lists to build relationships. Add milestones based on the major events of a project and create dependencies between milestones and tasks, if necessary.
+    Use the [Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_GanttChart.md) with task forms and related lists to build relationships. Add milestones based on the major events of a project and create dependencies between milestones and tasks, if necessary.
 
     Also set up notifications to alert project task assignees when their tasks move to the **Work in Progress** state. See Creating Project Tasks for more information on creating tasks.
 
 
--   **[Parent-child rollup task calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ParentChildRollupTaskCalcs.md)**  
+-   **[Parent-child rollup task calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_ParentChildRollupTaskCalcs.md)**  
 Date changes, stage changes, and value calculations roll up from child tasks to parent tasks.
--   **[Project tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectTask.md)**  
+-   **[Project tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CreateAProjectTask.md)**  
 Create project tasks in several ways, even from other applications in the instance.
--   **[Schedule conflicts between project tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/scheduling-conflicts.md)**  
+-   **[Schedule conflicts between project tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/scheduling-conflicts.md)**  
 Scheduling conflict helps you to identify project tasks that are not honoring dependencies. A scheduling conflict occurs when one project task prevents other task from starting on the specified date because of dependencies or constraint types.
--   **[Change requests and project tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ChangeRequestsAndProjectTasks.md)**  
+-   **[Change requests and project tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_ChangeRequestsAndProjectTasks.md)**  
 Large-scale changes approved by your change approval board \(CAB\) require new or existing projects to be implemented.
--   **[Project task checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_project-task-checklists.md)**  
+-   **[Project task checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_project-task-checklists.md)**  
 A project task checklist gives you the ability to track activities that must be completed on a task.
--   **[Task resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_TaskResources.md)**  
+-   **[Task resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_TaskResources.md)**  
 Resources are the individuals or groups assigned to perform tasks and subtasks in Project Management.
--   **[Project and project task states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/project-and-project-task-states.md)**  
+-   **[Project and project task states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/project-and-project-task-states.md)**  
 In the base system, the states in project and project task inherit the states in Task table.
--   **[Composite Fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/pm-composite-fields.md)**  
+-   **[Composite Fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/pm-composite-fields.md)**  
 A composite field combines information from two fields in a table to form a single field.
--   **[Cost plan breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/cost-plan-breakdown.md)**  
+-   **[Cost plan breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/cost-plan-breakdown.md)**  
 A cost plan breakdown captures the estimated cost and actual cost for every fiscal period. Cost plan, project, demand, program, and portfolio are the breakdowns types that are available.
--   **[Actual project costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/actual-project-costs.md)**  
+-   **[Actual project costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/actual-project-costs.md)**  
 Actual project costs come after you create expense lines for cost plans or after human resources use time cards to create expense lines.
--   **[Types of external dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/external-dependency-types.md)**  
+-   **[Types of external dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/external-dependency-types.md)**  
 The Project management application supports two types of external dependencies - hard and soft.
--   **[Project and portfolio funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectAndPortfolioFunding.md)**  
+-   **[Project and portfolio funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_ProjectAndPortfolioFunding.md)**  
 Specify the amount of money that projects and portfolios are allowed to have.
--   **[Project scheduling in Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/project-schedules-tasks.md)**  
-Define how tasks are sequenced, timed, and connected to determine when a project starts and finishes with Project scheduling. Project scheduling calculates task start and finish dates based on the project start date, task dependencies, constraints, and task duration in forward scheduling mode.
+-   **[Project scheduling in Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/project-scheduling.md)**  
+Define how tasks are sequenced, timed, and connected to determine when a project starts and finishes with Project scheduling.
+-   **[Task constraints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/task-constraints-project-management.md)**  
+Task constraints define the earliest or latest dates a task can start or finish in an automatically scheduled project. Apply constraints to align the schedule with resource availability, contract milestones, and external deadlines.
 
-**Parent Topic:**[Exploring Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/exploring-project-management.md)
+**Parent Topic:**[Exploring Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/exploring-project-management.md)
 
 **Related topics**  
 
 
-[Parent-child rollup task calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ParentChildRollupTaskCalcs.md)
+[Parent-child rollup task calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_ParentChildRollupTaskCalcs.md)
 
-[Create a parent-child relationship on the Project Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateParentChildRelationship.md)
+[Create a parent-child relationship on the Project Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CreateParentChildRelationship.md)
 

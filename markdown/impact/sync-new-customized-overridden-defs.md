@@ -3,11 +3,11 @@ title: Sync definitions
 description: Enable definition synchronization and push new, customized, or overridden definitions from a development instance to production.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/sync-new-customized-overridden-defs.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Definitions integration, Configure Scan Engine integrations, Configuring Impact, Impact]
+breadcrumb: [Definitions integration, Configure Scan Engine integrations, Activate Scan Engine and review settings, Impact Guided Setup, Configuring Impact, Impact]
 ---
 
 # Sync definitions
@@ -42,5 +42,5 @@ The definition is pushed to the production instance.
 
 To bulk sync multiple definitions, select the checkbox for each definition in the Definitions list view, then select **Sync Definition** or **Delete and Sync** from the actions menu.
 
-**Parent Topic:**[Definitions integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/definitions-integrations.md)
+**Parent Topic:**[Definitions integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/definitions-integrations.md)
 

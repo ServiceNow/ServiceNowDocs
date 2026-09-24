@@ -3,11 +3,11 @@ title: Setting up Azure DevOps OAuth 2.0 credential
 description: Create Azure DevOps OAuth 2.0 credential and use them to connect your Azure DevOps instance.Create a tenant in Microsoft Entra and set up the required permissions to create an Azure DevOps \(ADO\) app.Add a user who contains the admin role, to the tenant created in the previous procedure.Create an organization in the new tenant, which has access to create an app.Create and configure an Azure DevOps \(ADO\) app and copy the required values to enable OAuth 2.0 authentication with your ServiceNow instance.Use the information generated during Azure DevOps \(ADO\) app account configuration to register Azure DevOps as an OAuth provider and enable the instance to request OAuth 2.0 tokens.Configure organization and project level settings for your app.Create credential record and get OAuth token.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Azure DevOps, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -18,11 +18,11 @@ Create Azure DevOps OAuth 2.0 credential and use them to connect your Azure DevO
 
 If you want to use Basic Authentication credentials instead of OAuth 2.0, skip this section and proceed to onboarding Azure DevOps using one of the following options:
 
--   [Onboard Azure DevOps to DevOps Change Velocity — Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-wkspc-azuredevops-tool-conn.md)
--   [Onboard Azure DevOps to DevOps Change Velocity — Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/onboard-azure-devops-service-catalog.md)
--   [Onboard Azure DevOps to DevOps Change Velocity — Classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/create-azure-tool-dev-ops.md)
+-   [Onboard Azure DevOps to DevOps Change Velocity — Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/devops-wkspc-azuredevops-tool-conn.md)
+-   [Onboard Azure DevOps to DevOps Change Velocity — Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/onboard-azure-devops-service-catalog.md)
+-   [Onboard Azure DevOps to DevOps Change Velocity — Classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/create-azure-tool-dev-ops.md)
 
-**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/azure-devops-integration-dev-ops.md)
+**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/azure-devops-integration-dev-ops.md)
 
 ## Create a tenant in Microsoft Entra
 
@@ -120,7 +120,7 @@ Role required: Global Administrator in Azure DevOps
 
 4.  Enter the name of your ADO organization and location, and then select **Continue**. \[Omitted image "create-ado-org.png"\] Alt text: Create ADO org page
 
-    This newly created org will be connected with the tenant created in the [Create a tenant in Microsoft Entra](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md) topic.
+    This newly created org will be connected with the tenant created in the [Create a tenant in Microsoft Entra](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md) topic.
 
 
 ## Create an Azure DevOps app

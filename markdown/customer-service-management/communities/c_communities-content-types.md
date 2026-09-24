@@ -3,11 +3,11 @@ title: Community content types
 description: There are seven supported content types: Answer, Blog, Comment, Document, Event, Question, and Video.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/c\_communities-content-types.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configuring communities, Communities, Customer Service Management]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Configuring communities, Communities, Customer Service Management]
 # Community content types
 
 There are seven supported content types: Answer, Blog, Comment, Document, Event, Question, and Video.
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Community administrators and forum administrators can configure content types at the community and forum levels.
 
@@ -90,10 +94,10 @@ Event
 Create an event that other community users can register for and attend.
 
 </td></tr></tbody>
-</table>-   **[Configure blog publish schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-blog-publish-schedule.md)**  
+</table>-   **[Configure blog publish schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/configure-blog-publish-schedule.md)**  
 Configure the publishing interval to ensure blogs are published closer to the scheduled time.
 
-**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-communities.md)
+**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/configure-communities.md)
 
 **Related topics**  
 

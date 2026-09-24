@@ -3,11 +3,11 @@ title: SIR form after an AWS Security Hub finding ingestion
 description: After the ServiceNow AI Platform ingests the AWS Security Hub finding, a security incident is created and the updates are made to that security incident record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/sir-form-after-findings-ingestion.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Amazon Web Services \(AWS\) Security Hub integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -18,7 +18,7 @@ After the ServiceNow AI Platform ingests the AWS Security Hub finding, a securit
 
 ## Work notes
 
-A work note is posted when an incident is aggregated and if you have configured the **Log work note for new finding** option in the [Define filter and aggregation criteria for AWS Security Hub findings ingestion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/aws-security-hub-profile-filter-and-aggregation-criteria.md).
+A work note is posted when an incident is aggregated and if you have configured the **Log work note for new finding** option in the [Define filter and aggregation criteria for AWS Security Hub findings ingestion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/aws-security-hub-profile-filter-and-aggregation-criteria.md).
 
 You can also view the internal finding import record that contains the raw incident data.
 

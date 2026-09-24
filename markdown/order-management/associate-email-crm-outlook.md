@@ -3,9 +3,9 @@ title: Associate an email with an existing CRM record
 description: Link an email to an existing lead, account, contact, or opportunity record directly from Microsoft Outlook. Associating emails with CRM records helps maintain a complete engagement history without having to switch between applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/associate-email-crm-outlook.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [ServiceNow CRM for Outlook, associate email, link email, log email]
 breadcrumb: [Activity Management, Sales automation apps, Use, Sales Customer Relationship Management]
@@ -19,7 +19,7 @@ Link an email to an existing lead, account, contact, or opportunity record direc
 
 Write permission on the underlying CRM entity table is required to view the corresponding tab in the ServiceNow CRM for Outlook Add-in and to create or associate records on that tab. For example, to associate an email with a LEAD record, you must have write permission on the Lead \[sn\_lead\_mgmt\_core\_lead\] table.
 
-Your administrator can grant you this write permission in either of these ways: directly through table ACLs, or through the responsibility framework. The responsibility framework grants you access to specific records based on your role and your membership. For more information, see [Create a responsibility definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_CreateAResponsibilityDefinition.md).
+Your administrator can grant you this write permission in either of these ways: directly through table ACLs, or through the responsibility framework. The responsibility framework grants you access to specific records based on your role and your membership. For more information, see [Create a responsibility definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/t_CreateAResponsibilityDefinition.md).
 
 Role required: sn\_crm\_outlook.crm\_outlook\_user
 
@@ -57,7 +57,7 @@ If your admin has configured the AI sales activity association app, then emails 
 
     If no records match your search or filter criteria, the add-in displays the following message: `No match found. Your search and filter criteria returned no results. Modify your search, clear filters, or create a new record.`
 
-    To create a new record, see [Create a CRM record from Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-crm-entity-outlook.md).
+    To create a new record, see [Create a CRM record from Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-crm-entity-outlook.md).
 
 7.  Locate the record you want to associate and select **Associate**.
 
@@ -69,14 +69,14 @@ If your admin has configured the AI sales activity association app, then emails 
 
     |CRM entity|Form field descriptions|
     |----------|-----------------------|
-    |**Lead**|[Lead form in the ServiceNow CRM for Outlook add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-fields-outlook.md)|
-    |**Opportunity**|[Opportunity form in the ServiceNow CRM for Outlook add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-fields-outlook.md)|
-    |**Account**|[Account form in the ServiceNow CRM for Outlook add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/account-fields-outlook.md)|
-    |**Contact**|[Contact form in the ServiceNow CRM for Outlook add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/contact-fields-outlook.md)|
+    |**Lead**|[Lead form in the ServiceNow CRM for Outlook add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/lead-fields-outlook.md)|
+    |**Opportunity**|[Opportunity form in the ServiceNow CRM for Outlook add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/opportunity-fields-outlook.md)|
+    |**Account**|[Account form in the ServiceNow CRM for Outlook add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/account-fields-outlook.md)|
+    |**Contact**|[Contact form in the ServiceNow CRM for Outlook add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/contact-fields-outlook.md)|
 
 9.  View the associated record in the CRM by selecting **Open**.
 
-    You're redirected to the entity record in the CSM/FSM Configurable Workspace.
+    You're redirected to the entity record in the CRM Workspace.
 
 
 ## Result
@@ -85,14 +85,14 @@ The email is associated with the CRM record, and the engagement is logged for fu
 
 ## What to do next
 
-You can view the associated emails from the respective entity record's Emails tab. For more information, see [Track emails linked from Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-associated-emails-crm.md).
+You can view the associated emails from the respective entity record's Emails tab. For more information, see [Track emails linked from Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/view-associated-emails-crm.md).
 
-**Parent Topic:**[Using Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-activity-management.md)
+**Parent Topic:**[Using Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-activity-management.md)
 
 **Related topics**  
 
 
-[Configuring Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-activity-management.md)
+[Configuring Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configuring-activity-management.md)
 
-[Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-activity-management.md)
+[Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-activity-management.md)
 

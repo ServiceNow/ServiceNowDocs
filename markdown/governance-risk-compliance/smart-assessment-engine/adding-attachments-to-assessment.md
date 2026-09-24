@@ -3,11 +3,11 @@ title: Adding attachments to assessment
 description: You may have documents or image files that provide additional information for the assessment, you can attach these documents to assessments in the open state. These documents and image files can be added as attachments to the assessment for reference.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/adding-attachments-to-assessment.html
-release: australia
+release: brazil
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Respond to assessments, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---

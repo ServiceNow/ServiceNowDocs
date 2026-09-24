@@ -3,11 +3,11 @@ title: TISC CrowdStrike Falcon Intelligence integration
 description: Integrate CrowdStrike Falcon Intelligence with Security Operations to enhance threat detection and response capabilities with real-time cyber security intelligence.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-crowdstrike-falcon-intelligence-integration.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-04-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Threat Lookup, TISC Enrichment integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
@@ -20,8 +20,8 @@ Integrate CrowdStrike Falcon Intelligence with Security Operations to enhance th
 
 The Threat Intelligence Security Center plugin is required to activate the CrowdStrike Falcon Intelligence integration.
 
--   **[Configure and enable CrowdStrike Falcon Intelligence integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/crowdstrike-intelligence.md)**  
+-   **[Configure and enable CrowdStrike Falcon Intelligence integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/crowdstrike-intelligence.md)**  
 Set up CrowdStrike Falcon Intelligence integration to perform threat lookups on observables in Threat Intelligence Security Center.
 
-**Parent Topic:**[Threat Lookup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-threat-lookup.md)
+**Parent Topic:**[Threat Lookup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-threat-lookup.md)
 

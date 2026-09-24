@@ -3,11 +3,11 @@ title: Service Mapping Workspace
 description: The Service Mapping workspace provides a central location to streamline the process of mapping your application services. Use the visualizations and reports to analyze, monitor, and update your resources, create application services, and manage your service mapping tasks efficiently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/sm-dashboard.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Service Mapping reference, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -44,11 +44,11 @@ Navigate to **Workspaces** &gt; **Service Mapping**.
 
 -   **Create a service instance or a unified service**
     -   Create a service instance to leverage your resources in unmapped services.
-    -   Create a unified service from various sources. For more information, see: [Multi-source service mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/multi-source-service-mapping.md).
+    -   Create a unified service from various sources. For more information, see: [Multi-source service mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/multi-source-service-mapping.md).
 
 **Important:**
 
-Access to tag-based service mapping in the Service Mapping workspace requires the installation of Service Mapping Plus version 1.16.3. For more information, see [Install Service Mapping Plus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/install-service-mapping-plus.md).
+Access to tag-based service mapping in the Service Mapping workspace requires the installation of Service Mapping Plus version 1.16.3. For more information, see [Install Service Mapping Plus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/install-service-mapping-plus.md).
 
 ## Key metrics
 
@@ -64,20 +64,20 @@ Access to tag-based service mapping in the Service Mapping workspace requires th
 
 -   **Mapped servers**
 
-    The number of servers currently linked to an application service. Select the tile to view information such as operational status and owner. The **Mapped servers** tile is replaced with Now Assist metrics, once Now Assist is installed.
+    The number of servers currently linked to an application service. Select the tile to view information such as operational status and owner. The **Mapped servers** tile is replaced with ServiceNow Otto metrics, once ServiceNow Otto is installed.
 
--   **Maps created by Now Assist**
+-   **Maps created by ServiceNow Otto**
 
-    The number of service maps created by Now Assist. Select the tile to view the [Service Mapping AI Agent activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/sm-ai-specialist-activity-columns.md). This tile is available only when Now Assist is installed.
+    The number of service maps created by ServiceNow Otto. Select the tile to view the [Service Mapping AI Agent activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/sm-ai-agent-activity-columns.md). This tile is available only when ServiceNow Otto is installed.
 
 -   **Business app linked to service instance**
 
-    The number of business applications with a CSDM relationship linked to a service instance. Select the tile to view the [Business App Map Agent activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/sm-ai-specialist-activity-columns.md). This tile is available only when Now Assist is installed.
+    The number of business applications with a CSDM relationship linked to a service instance. Select to view the [Business App Map Agent activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/sm-ai-agent-activity-columns.md)This tile is available only when ServiceNow Otto is installed.
 
 
 ## Service Mapping AI Agents
 
-When Now Assist is installed, the **Service Mapping home** page displays the AI Agent activation panel. Use this panel to activate or deactivate AI agents that automate service mapping tasks. For more information, see [AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-ai-specialists.md).
+When ServiceNow Otto is installed, the **Service Mapping home** page displays the AI Agent activation panel. Use this panel to activate or deactivate AI agents that automate service mapping tasks. For more information, see [AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/service-mapping-ai-agents.md).
 
 ## Reports
 
@@ -175,7 +175,7 @@ Server \[cmdb\_ci\_server\]
 
 A bar report that presents unmapped servers that have been matched to an application service candidate as well as those servers with no candidate.
 
- Select **Unmapped servers with candidate** to view servers you can map to an application service. For more information, see [Create an application service for unmapped servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/unmapped-servers.md).
+ Select **Unmapped servers with candidate** to view servers you can map to an application service. For more information, see [Create an application service for unmapped servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/unmapped-servers.md).
 
 </td></tr><tr><td>
 
@@ -218,7 +218,7 @@ A bar report that presents the number of unmapped servers, divided into two cate
 
 ## Tag-based service mapping
 
-Select the Tag-based service mapping icon \[Omitted image "tag-outline-24.svg"\] Alt text: to access the Tag-based service mapping dashboard. Here you can categorize and map your organizaton's on-prem and cloud resources into application services. For more information, see [Tag-based mapping in the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/tag-based-mapping-dashboard.md).
+Select the Tag-based service mapping icon \[Omitted image "tag-outline-24.svg"\] Alt text: to access the Tag-based service mapping dashboard. Here you can categorize and map your organizaton's on-prem and cloud resources into application services. For more information, see [Tag-based mapping in the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/tag-based-mapping-dashboard.md).
 
 ## Application service readiness dashboard
 
@@ -226,18 +226,18 @@ Select the Application service readiness icon \[Omitted image "icon-clipboard-ch
 
 Use this dashboard to ensure you have enabled Predictive Intelligence, verify Machine Learning readiness, and confirm that your data has been trained.
 
-For more information about application readiness, see [Application service readiness dashboard in configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/readiness-dashboard-ml.md).
+For more information about application readiness, see [Application service readiness dashboard in configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/readiness-dashboard-ml.md).
 
-**Parent Topic:**[Service Mapping reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-reference.md)
+**Parent Topic:**[Service Mapping reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/service-mapping-reference.md)
 
 **Related topics**  
 
 
-[Automated Service Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/auto-serv-suggest.md)
+[Automated Service Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/auto-serv-suggest.md)
 
-[Map application services based on Automated Service Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/map-application-suggestion.md)
+[Map application services based on Automated Service Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/map-application-suggestion.md)
 
-[Name suggestions for application service candidates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/app-services-name-suggestions.md)
+[Name suggestions for application service candidates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/app-services-name-suggestions.md)
 
-[Map your application services using tags in the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/map-tag-based-services-workspace.md)
+[Map your application services using tags in the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/map-tag-based-services-workspace.md)
 

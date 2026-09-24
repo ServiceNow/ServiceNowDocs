@@ -3,11 +3,11 @@ title: Release form
 description: Product managers or release admins can create a release for a product or service version in Digital Product Release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/create-release-form.html
-release: australia
+release: brazil
 product: Digital Product Release
 classification: digital-product-release
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Reference, Digital Product Release, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Reference, Digital Product Release, IT Service Management]
 
 Product managers or release admins can create a release for a product or service version in Digital Product Release.
 
-For more information, see [Create a release for a product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-create-release.md).
+For more information, see [Create a release for a product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-create-release.md).
 
 <table id="table_tbx_pmr_lyb"><thead><tr><th>
 
@@ -75,16 +75,16 @@ Release template
 
 </td><td>
 
-Template that defines the release process. The template applies the predefined phases, tasks, policies, and approvals to this release.**Note:** When product-level release settings are configured, only the templates defined in the release settings are available for selection. For more information, see [Configure product-level release settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-config-product-release-setting.md).
+Template that defines the release process. The template applies the predefined phases, tasks, policies, and approvals to this release.**Note:** When product-level release settings are configured, only the templates defined in the release settings are available for selection. For more information, see [Configure product-level release settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-config-product-release-setting.md).
 
 The list of available templates is filtered based on the **Release validates a new product version** field.
 
 -   If selected, the list displays only templates with the validates version option set to true.
 -   If clear, the list displays only templates with the validates version option set to false.
 
-For more information, see [Create a release template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-create-release-template.md).
+For more information, see [Create a release template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-create-release-template.md).
 
-Based on the template you select, the release follows either a timeline-oriented or stage-oriented release process. For more information, see [Release for a product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-product-release.md).
+Based on the template you select, the release follows either a timeline-oriented or stage-oriented release process. For more information, see [Release for a product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-product-release.md).
 
 </td></tr><tr><td>
 
@@ -99,7 +99,7 @@ For stage-oriented releases, whether this field is required depends on the syste
 -   When set to false: This field is optional. You can leave it blank if needed.
 -   When set to true: This field is required. You must specify a release readiness target before you can proceed.
 
-For more information, see [Create a release readiness target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-create-rls-readiness-target.md).
+For more information, see [Create a release readiness target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-create-rls-readiness-target.md).
 
 This field appears only when **Out of band** is clear.
 
@@ -116,7 +116,7 @@ Option to make this release as an out-of-band release, which means it isn’t as
 -   **out\_of\_band\_release\_allowed** is set to **true**.
 -   You have one of the roles listed in **out\_of\_band\_release\_roles**.
 
-For more information, see [Digital Product Release properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/digital-product-release-properties.md).
+For more information, see [Digital Product Release properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/digital-product-release-properties.md).
 
 </td></tr><tr><td>
 
@@ -132,10 +132,10 @@ Release calendar
 
 </td><td>
 
-Release calendar on which the release is targeted. If a release target exists on the selected date in the release calendar, the release is added to it. If not, a release target is created and the release is added to it.For more information, see [Create a release calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-create-release-calendar.md).
+Release calendar on which the release is targeted. If a release target exists on the selected date in the release calendar, the release is added to it. If not, a release target is created and the release is added to it.For more information, see [Create a release calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-create-release-calendar.md).
 
 This field appears only when **Out of band** is selected.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Digital Product Release reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-reference.md)
+</table>**Parent Topic:**[Digital Product Release reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-reference.md)
 

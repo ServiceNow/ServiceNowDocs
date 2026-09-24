@@ -3,9 +3,9 @@ title: Self service
 description: Your application may need a way for end users to be able to access your data model, so there are self-service options available.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/self-service.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create design elements, Build your application, Exploring professional development, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -18,7 +18,7 @@ Your application may need a way for end users to be able to access your data mod
 
 If the application has Requestor or Self-Service users, use Service Portal to provide a friendly web experience.
 
-To give self-service users the ability to easily create application records from the Service Portal, create a [record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreatingRecordProducersFromTables.md). A record producer can provide a better end-user experience than a regular form. Talk to your ServiceNow Administrator about the appropriate catalog and categorization to make the record producer accessible through the Service Portal.
+To give self-service users the ability to easily create application records from the Service Portal, create a [record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreatingRecordProducersFromTables.md). A record producer can provide a better end-user experience than a regular form. Talk to your ServiceNow Administrator about the appropriate catalog and categorization to make the record producer accessible through the Service Portal.
 
 Alternatively, create a Service Portal for your app if the following is true:
 
@@ -58,5 +58,5 @@ Considerations for creating custom Service Portal widgets for an application:
 
 For more information, see [Service Portal training](https://developer.servicenow.com/dev.do#!/learn/courses/utah/app_store_learnv2_serviceportal_utah_service_portal).
 
-**Parent Topic:**[Create design elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-design-elements.md)
+**Parent Topic:**[Create design elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-design-elements.md)
 

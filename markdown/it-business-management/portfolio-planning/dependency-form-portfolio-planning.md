@@ -3,11 +3,11 @@ title: Dependency form
 description: Learn about the fields of the dependency form. Use this form to add and establish dependencies between planning items on the roadmap in Portfolio Planning .
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/dependency-form-portfolio-planning.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Form field information for Portfolio Planning, Reference, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -60,5 +60,5 @@ Number
 System-generated unique identification number for the dependency.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/form-field-information-for-portfolio-planning.md)
+</table>**Parent Topic:**[Form field information for Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/form-field-information-for-portfolio-planning.md)
 

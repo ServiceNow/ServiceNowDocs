@@ -3,11 +3,11 @@ title: Create Kafka credentials
 description: Configure credentials for your Apache Kafka connection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-kafka-ssl-credentials.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Message replication, Using Stream Connect for Apache Kafka, Import and stream data, Integration Hub, Workflow Data Fabric]
 ---
@@ -27,7 +27,7 @@ Configure connection and credential records for connecting to your local Apache 
 -   The connection record contains the information required for making the connection to your local Kafka. Connection records are stored in the Kafka Connections \[kafka\_connection\] table.
 -   The credential record stores the authentication data required for the connection. Credential records are stored in the Kafka credentials \[kafka\_credentials\] table.
 
-After you've created both the connection record and the credential record, you can [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-alias.md), which links your connection information and the credential data under a single name.
+After you've created both the connection record and the credential record, you can [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/connection-alias.md), which links your connection information and the credential data under a single name.
 
 ## Procedure
 
@@ -39,14 +39,14 @@ After you've created both the connection record and the credential record, you c
 
 4.  On the Kafka credentials form, fill in the fields.
 
-    For a description of the fields, see [Kafka credentials fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/hla-data-input-kafka-credentials.md).
+    For a description of the fields, see [Kafka credentials fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/hla-data-input-kafka-credentials.md).
 
 5.  Select **Submit**.
 
 
 ## What to do next
 
-[Configure a Kafka connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-kafka-connection.md).
+[Configure a Kafka connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/configure-kafka-connection.md).
 
-**Parent Topic:**[Stream Connect Message Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-message-replication.md)
+**Parent Topic:**[Stream Connect Message Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/stream-connect-message-replication.md)
 

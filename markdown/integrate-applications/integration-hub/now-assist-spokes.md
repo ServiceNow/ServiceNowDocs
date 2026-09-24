@@ -1,20 +1,20 @@
 ---
-title: ServiceNow Otto for Integration Hub
-description: Use the ServiceNow Otto AI agents to mimic human-like intelligence by using Large Language Models \(LLMs\) to perform tasks that range from simple automated responses to complex problem-solving. Utilize the conversational ability of Integration Hub spoke actions.
+title: Now Assist for Integration Hub
+description: Use the ServiceNow Now Assist AI agents to mimic human-like intelligence by using Large Language Models \(LLMs\) to perform tasks that range from simple automated responses to complex problem-solving. Utilize the conversational ability of Integration Hub spoke actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/now-assist-spokes.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
-# ServiceNow Otto for Integration Hub
+# Now Assist for Integration Hub
 
-Use the ServiceNow Otto AI agents to mimic human-like intelligence by using Large Language Models \(LLMs\) to perform tasks that range from simple automated responses to complex problem-solving. Utilize the conversational ability of Integration Hub spoke actions.
+Use the ServiceNow Now Assist AI agents to mimic human-like intelligence by using Large Language Models \(LLMs\) to perform tasks that range from simple automated responses to complex problem-solving. Utilize the conversational ability of Integration Hub spoke actions.
 
 ## Request apps on Store
 
@@ -22,42 +22,47 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Capabilities
 
-AI agents are autonomous systems that interact with their environment to gather data, make decisions, and complete tasks that would otherwise need to be completed by a human. Otto products provide AI agents that are tailored to meet the needs of users in different workflows. You can take actions to drive towards a specific goal, such as resolving an incident or a case by providing a set of instructions to the AI agents.
+AI agents are autonomous systems that interact with their environment to gather data, make decisions, and complete tasks that would otherwise need to be completed by a human. Now Assist products provide AI agents that are tailored to meet the needs of users in different workflows. You can take actions to drive towards a specific goal, such as resolving an incident or a case by providing a set of instructions to the AI agents.
 
-Perform business actions through conversational interface like Otto. Unlock the interactive conversational experience to automate your business workflows.
+Perform business actions through conversational interface like Now Assist. Unlock the interactive conversational experience to automate your business workflows.
 
 ## Dependency
 
-Before using ServiceNow Otto for Integration Hub, confirm that you are using the latest platform version.
+Before using Now Assist for Integration Hub, confirm that you are using the latest Now Assist for platform version.
 
 ## Supported version
 
-The ServiceNow Otto for Integration Hub application is supported on Australia release.
+The Now Assist for Integration Hub application is supported on Xanadu Patch 7 and later releases.
 
-**Important:** Ensure that you install the latest available version of the ServiceNow Otto for Integration Hub application.
+**Important:** Ensure that you install the latest available version of the Now Assist for Integration Hub application.
 
 ## Application version
 
-ServiceNow Otto for Integration Hub v2.3.2 is the latest version.
+Now Assist for Integration Hub v2.2.0 is the latest version.
 
 ## Activation of the application
 
-After installing the ServiceNow Otto for Integration Hub application, you can use the available AI agents and configure the available conversational spoke actions.
+The Now Assist for Integration Hub application requires these subscriptions:
 
--   See Otto to learn about AI agents.
--   See [Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/conversational-subflows.md) to learn more about configuring the conversational settings.
--   See [Conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/conversational-actions.md) to learn more about creating and configuring the conversational skill from Workflow Studio.
--   See  in [Generative AI skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-on-now-platform.md) to learn more about conversation experience and skills.
+-   Now Assist for Platform \(sn\_genai\_platform\) subscription
+-   An Integration Hub subscription. For more information, see [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
+
+After installing the Now Assist for Integration Hub application, you can use the available AI agents and configure the available conversational spoke actions.
+
+-   See [AI Agent Studio \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/na-ai-agents.md) to learn about AI agents.
+-   See [Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/conversational-subflows.md) to learn more about configuring the conversational settings.
+-   See [Conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/conversational-actions.md) to learn more about creating and configuring the conversational skill from Workflow Studio.
+-   See  in [Now Assist skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-on-now-platform.md) to learn more about conversation experience and skills.
 
 ## Available AI agents
 
 This application provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 
-Available AI agent includes, [Meeting scheduler AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/meeting-scheduler-ai-agent.md) that can be used to organize Zoom or Teams meetings and create regular calendar events. This AI agent retrieves details of available rooms, details of the relevant users you want to invite such as, email address and timezone, finds an available time slot, creates a calendar event, and generates a Zoom URL for the meeting.
+Available AI agent includes, [Meeting scheduler AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/meeting-scheduler-ai-agent.md) that can be used to organize Zoom or Teams meetings and create regular calendar events. This AI agent retrieves details of available rooms, details of the relevant users you want to invite such as, email address and timezone, finds an available time slot, creates a calendar event, and generates a Zoom URL for the meeting.
 
 ## Role masking
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
-**Parent Topic:**[Building integrations in Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/building-integrations-ih.md)
+**Parent Topic:**[Building integrations in Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/building-integrations-ih.md)
 

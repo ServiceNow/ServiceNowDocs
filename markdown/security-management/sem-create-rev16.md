@@ -3,9 +3,9 @@ title: Create a remediation effort in the Security Exposure Management Workspace
 description: A remediation effort record is a static list of records that you create from a watch topic in the Security Exposure Management Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-create-rev16.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Use Remediation Effort records, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -166,7 +166,7 @@ Date when the record was last opened in your ServiceNow AI Platform. If the reco
 
     As records are updated or new records are created in watch topics, you can create remediation efforts.
 
-5.  Alternatively, you can [Create a recurring remediation effort in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-create-recurringRE-steal-VI.md).
+5.  Alternatively, you can [Create a recurring remediation effort in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-create-recurringRE-steal-VI.md).
 
     The **Edit** button is available in the menu for existing remediation efforts. You have the option to modify the fields and conditions from a modal that is displayed. Any changes you make and save to the remediation effort record do not affect any of the other remediation efforts you have already created from the watch topic.
 
@@ -183,7 +183,7 @@ Date when the record was last opened in your ServiceNow AI Platform. If the reco
     |**By Assignment group**|Records with same assignment group are bundled into one Remediation Task.|
     |**By Assignment group and configuration item**|Records with same assignment group and Configuration Item are bundled into one Remediation Task.|
     |**By Assignment group and \(vulnerability or configuration test\)**|Records with same assignment group and Configuration Item are bundled into one Remediation Task.|
-    |**None \(No remediation tasks are created\).**|Use this method if you want to add records manually to a remediation task for this effort. See [Create a remediation task on-demand from Remediation Effort in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vr-ws-create-rt-frm-re.md).|
+    |**None \(No remediation tasks are created\).**|Use this method if you want to add records manually to a remediation task for this effort. See [Create a remediation task on-demand from Remediation Effort in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-manager-workspace/vr-ws-create-rt-frm-re.md).|
 
 8.  To automatically refresh the duplicate host vulnerable items, you must select the **Automatically refresh duplicate vulnerable items for the created remediation tasks** check box.
 
@@ -199,17 +199,19 @@ Date when the record was last opened in your ServiceNow AI Platform. If the reco
 
     Select the **Transfer matching records from other active remediation efforts** check box and then select the check boxes for the records you want to transfer from other active remediation efforts.
 
-    After you select **Create Remediation Effort**, in a few moments, the new remediation effort is displayed. Depending on the number of records, it may take some time to populate the new record. A message indicates if the record is still populating.
+    \[Omitted image "vr-ws-create-re-step-3-v18.png"\] Alt text: Version 18.0 Create Remediation Effort
+
+    After you click **Create Remediation Effort**, in a few moments, the new remediation effort is displayed. Depending on the number of records, it may take some time to populate the new record. A message indicates if the record is still populating.
 
     The new remediation effort is created with any records that are available from the watch topic used to create it, in addition to any records that you selected for transfer from existing efforts.
 
-    If you select records to transfer from an existing effort, and the existing effort transfers all of its records into your new effort, the remediation effort you moved the records from is closed. For more information on how the Remediation Tasks associated with the Remediation Efforts are impacted by the records transfer, see [Life cycles of remediation efforts, remediation tasks, and records in the Vulnerability Response Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vr-ws-re-lifecycle.md).
+    If you select records to transfer from an existing effort, and the existing effort transfers all of its records into your new effort, the remediation effort you moved the records from is closed. For more information on how the Remediation Tasks associated with the Remediation Efforts are impacted by the records transfer, see [Life cycles of remediation efforts, remediation tasks, and records in the Vulnerability Response Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-manager-workspace/vr-ws-re-lifecycle.md).
 
     **Note:** If there are not any records available from the watch topic, or any records selected for transfer, the **Create Remediation Effort** button is deactivated.
 
     The **Populate Efforts** scheduled job runs every 10 minutes to populate the data in the widgets based on the condition selected.
 
-    Select Remediation Progress tab to view the remediation progress. Select any item to view details including record type, risk score, risk rating, percentage of records remediated, records in deferred and non-deferred state and total number of records, conditions used in the watch topic, and remediation status. The Remediation Status information such as Remediation target and Remediation status is rolled up from the Vulnerable Items table. The highest record risk score is rolled-up from the Vulnerability Calculators table while risk score is rolled up from the **Vulnerability Rollup Calculators** &gt; **Remediation Effort Rollup**.
+    Click Remediation Progress tab to view the remediation progress. Click any item to view details including record type, risk score, risk rating, percentage of records remediated, records in deferred and non-deferred state and total number of records, conditions used in the watch topic, and remediation status. The Remediation Status information such as Remediation target and Remediation status is rolled up from the Vulnerable Items table. The highest record risk score is rolled-up from the Vulnerability Calculators table while risk score is rolled up from the **Vulnerability Rollup Calculators** &gt; **Remediation Effort Rollup**.
 
     The Remediation Tasks tab displays the tasks for all types of issues. The fields are populated when the following scheduled jobs run. They are executed automatically every 15 minutes:
 
@@ -217,7 +219,7 @@ Date when the record was last opened in your ServiceNow AI Platform. If the reco
     -   Rollup container vulnerable item values to vulnerability and group.
     -   Rollup test result values to test result group and configuration test.
     -   Rollup vulnerable item values to vulnerability and group.
-    In the Lists view, you can view the Remediation efforts, Remediation Tasks, Vulnerable Items, Configurations Test Results and so on. You can open a remediation task or a vulnerable item and view the Details page. Select the More Actions ellipses and select **Start Investigation** to resolve a remediation task.
+    In the Lists view, you can view the Remediation efforts, Remediation Tasks, Vulnerable Items, Configurations Test Results and so on. You can open a remediation task or a vulnerable item and view the Details page. Click the More Actions ellipses and click **Start Investigation** to resolve a remediation task.
 
 10. You can also edit existing recurring remediation efforts.
 
@@ -225,6 +227,4 @@ Date when the record was last opened in your ServiceNow AI Platform. If the reco
 
     Any changes you make and save to the remediation effort record do not affect any of the other remediation efforts you have already created from the watch topic.
 
-
-**Parent Topic:**[Use Remediation Effort records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-ws-remed-eff-rcd.md)
 

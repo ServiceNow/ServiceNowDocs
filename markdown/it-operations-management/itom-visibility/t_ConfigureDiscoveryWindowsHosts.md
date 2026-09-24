@@ -3,11 +3,11 @@ title: Configure Discovery for Windows hosts with attached storage
 description: Discovery can find information about a Windows host and attached storage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/t\_ConfigureDiscoveryWindowsHosts.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure discovery of hosts with attached storage, Storage discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -28,7 +28,7 @@ Role required: discovery\_admin
     2.  Set the environment path for the fcinfo executable and run the `fcinfo.exe` file.
     **Note:** For servers that are using newer operating systems, similar functionality is present with the operating system; this step is not required.
 
-2.  For all Windows hosts including Windows 2008, [add Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md) to the Discovery Credentials table.
+2.  For all Windows hosts including Windows 2008, [add Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md) to the Discovery Credentials table.
 
 3.  On the ServiceNow instance, create a Discovery Schedule for each host IP address.
 
@@ -36,8 +36,8 @@ Role required: discovery\_admin
 
 5.  Run network discovery.
 
-    **Note:** If the host also connects to a NAS or SAN storage array, set up the [SMI-S Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/t_ConfigDiscoForStandaloneStorage.md) and [CIM credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_CIMCredentialsForm.md).
+    **Note:** If the host also connects to a NAS or SAN storage array, set up the [SMI-S Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/t_ConfigDiscoForStandaloneStorage.md) and [CIM credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_CIMCredentialsForm.md).
 
 
-**Parent Topic:**[Configure discovery of hosts with attached storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/configure-discovery-of-hosts-with-attached-storage.md)
+**Parent Topic:**[Configure discovery of hosts with attached storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/configure-discovery-of-hosts-with-attached-storage.md)
 

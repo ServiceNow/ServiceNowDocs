@@ -3,11 +3,11 @@ title: Enable MID Server mutual authentication
 description: Configure the MID Server to use a client certificate for authenticating to the instance. This avoids the need to create a basic authentication credentials in the Key Store for the MID Server's configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/install-mid-mutual-auth.html
-release: australia
+release: brazil
 product: MID Server
 classification: mid-server
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Securing and encrypting MID Server data, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -27,13 +27,15 @@ Role required: admin
 </td></tr></tbody>
 </table>## About this task
 
-MID Server mutual authentication removes the MID Server user name and password and provides a client certificate for authentication. Whenever a server requests authentication, this certificate is sent instead. To use mutual authentication, certificate based authentication must be enabled. See [Set up Certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/set-up-mutual-auth.md) for the procedure.
+MID Server mutual authentication removes the MID Server user name and password and provides a client certificate for authentication. Whenever a server requests authentication, this certificate is sent instead. To use mutual authentication, certificate based authentication must be enabled. See [Set up Certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/set-up-mutual-auth.md) for the procedure.
 
 If a new MID Server is created with mutual authentication, it does not add capabilities automatically. An administrator must add capabilities to its record on the instance. However, existing MID Servers using basic authentication with capabilities are preserved when switching to mutual authentication.
 
 A MID Server using mutual authentication cannot be re-keyed or validated as a UI action on the instance.
 
 Self-signed certificates are not supported with mutual authentication. Internally signed certificates are only supported when signed by a private certificate authority. Commercially signed certificates are supported when signed by a commonly trusted certificate authority, such as those trusted by browsers and operating systems.
+
+The ServiceNow instance must be able to reach the certificate's OCSP and CRL endpoints. Certificate revocation checks require this access. An internally signed certificate whose OCSP or CRL endpoints are reachable only on an internal network is not supported, and validation fails. You cannot disable the CRL check selectively or suppress log messages for unreachable CRL endpoints.
 
 In the Quebec release, a MID Server using the Health Log Analytic application cannot be configured with mutual authentication.
 
@@ -189,7 +191,7 @@ In the Quebec release, a MID Server using the Health Log Analytic application ca
 13. Start the MID Server.
 
 
-**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-security-encryption.md)
+**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-server-security-encryption.md)
 
 **Related topics**  
 
@@ -212,8 +214,6 @@ In the Quebec release, a MID Server using the Health Log Analytic application ca
 
 [Add SSL certificates for the MID Server]()
 
-[Specify an external TrustStore for the MID Server]()
-
 [MID Server SSH cryptographic algorithms]()
 
 [Attach a script file to a file synchronized MID Server]()
@@ -222,7 +222,7 @@ In the Quebec release, a MID Server using the Health Log Analytic application ca
 
 [MID Server Governance]()
 
-[Install custom certificates in the MID Server unified key store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-unified-keystore.md)
+[Install custom certificates in the MID Server unified key store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-unified-keystore.md)
 
-[MID Server unified key store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-unified-keystore.md)
+[MID Server unified key store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-unified-keystore.md)
 

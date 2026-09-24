@@ -3,9 +3,9 @@ title: Activate Zero Copy Connector Hub
 description: Access the Zero Copy Connector Hub on your instance by activating the Zero Copy Connector Hub plugin \(sn\_data\_fabric\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/activate-zcc-hub.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Zero Copy Connectors, Workflow Data Fabric]
 ---
@@ -24,7 +24,7 @@ Follow the steps below to activate the Zero Copy Connector Hub on your instance.
 
 Roles are installed with Zero Copy Connector Hub.
 
-For more information, see [Zero Copy Connectors roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/roles-zcc.md).
+For more information, see [Zero Copy Connectors roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/roles-zcc.md).
 
 ## Procedure
 
@@ -38,8 +38,8 @@ For more information, see [Zero Copy Connectors roles](https://raw.githubusercon
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Configuring Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configuring-zcc.md)
+**Parent Topic:**[Configuring Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configuring-zcc.md)
 

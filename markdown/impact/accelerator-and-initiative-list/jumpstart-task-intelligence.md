@@ -3,11 +3,11 @@ title: Jumpstart Your Task Intelligence
 description: The Jumpstart Your Task Intelligence Accelerator provides a demonstration of the possibilities and capabilities of Task Intelligence.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-task-intelligence.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
@@ -18,7 +18,7 @@ The Jumpstart Your Task Intelligence Accelerator provides a demonstration of the
 
 ## Accelerator Overview
 
-Jumpstart Your Task Intelligence enables customers to leverage Task Intelligence to infuse machine learning into customer case management  processes to significantly enhance customer &amp; agent experience. ​ This Accelerator provides an overview of the art of the possible with Task Intelligence, including an applied demonstration of capabilities , as well as leading practices on getting started. For more information on Task Intelligence, see [Task Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/task-intelligence.md).
+Jumpstart Your Task Intelligence enables customers to leverage Task Intelligence to infuse machine learning into customer case management  processes to significantly enhance customer &amp; agent experience. ​ This Accelerator provides an overview of the art of the possible with Task Intelligence, including an applied demonstration of capabilities , as well as leading practices on getting started. For more information on Task Intelligence, see [Task Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/task-intelligence.md).
 
 ## Package Availability
 

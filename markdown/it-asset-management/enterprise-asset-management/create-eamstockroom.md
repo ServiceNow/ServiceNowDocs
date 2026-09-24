@@ -3,11 +3,11 @@ title: Create stockroom for enterprise assets
 description: Create a stockroom in the Enterprise Asset Management application and assign assets to it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-eamstockroom.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
@@ -25,8 +25,6 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterptrise\_asset\_manager
 1.  Navigate to **Enterprise Asset Workspace** &gt; **Inventory** &gt; **All stockrooms**.
 
 2.  Select **New**.
-
-    The Create New Stockroom page opens.
 
 3.  On the form, fill in the fields.
 
@@ -118,6 +116,14 @@ Option to exclude the stockroom from all service locations in which you are comp
 
 </td></tr><tr><td>
 
+Warehouse tasks required
+
+</td><td>
+
+Option to enable the Asset pick task and Asset put away task for the stockroom.
+
+</td></tr><tr><td>
+
 External
 
 </td><td>
@@ -158,10 +164,10 @@ Asset sourcing option that helps you fulfill enterprise asset requests autonomou
     The newly created stockroom appears in the **All stockrooms** tab.
 
 
--   **[Add a distribution channel to a stockroom in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/add-distribution-channel-eam-stockroom.md)**  
+-   **[Add a distribution channel to a stockroom in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/add-distribution-channel-eam-stockroom.md)**  
 Add a distribution channel to a stockroom so that you can link that stockroom with other geographically-related stockrooms. By linking your stockrooms, you can efficiently source and transfer assets between those stockrooms. You can also assign a rank to each linked stockroom to specify the order of stockrooms that you can source and transfer assets between.
--   **[Add service locations to a stockroom in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/add-service-location-eam-stockroom.md)**  
+-   **[Add service locations to a stockroom in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/add-service-location-eam-stockroom.md)**  
 Add service locations to a stockroom so that you can source, deploy, and retire its assets across multiple geographic locations.
 
-**Parent Topic:**[Create and manage enterprise asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-enterprise-asset-inventory.md)
+**Parent Topic:**[Create and manage enterprise asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/managing-enterprise-asset-inventory.md)
 

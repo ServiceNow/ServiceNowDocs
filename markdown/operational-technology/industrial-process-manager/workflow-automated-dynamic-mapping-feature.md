@@ -3,11 +3,11 @@ title: Workflow for the automated mapping feature
 description: The Industrial Process Manager includes an automated flow for the automated mapping feature.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/workflow-automated-dynamic-mapping-feature.html
-release: australia
+release: brazil
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Automated Mapping Across Zone-based IP Network Groups, Managing equipment models, Use, Industrial Process Manager, Operational Technology]
 ---
@@ -18,7 +18,7 @@ The Industrial Process Manager includes an automated flow for the automated mapp
 
 A predefined flows is included with this feature that you can use to schedule the assignment of OT devices to equipment model entities.
 
-By using [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md), you can review and configure the predefined flow for your business needs.
+By using [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/flow-designer.md), you can review and configure the predefined flow for your business needs.
 
 ## Flow available for this feature
 
@@ -37,10 +37,10 @@ These use cases typically apply for the automated mapping feature:
 
 The following is a typical workflow for the automated mapping feature.
 
--   A system admin imports OT subnet data into the OT subnet mapping table from an Excel spreadsheet using [Easy Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/c_EasyImport.md).
+-   A system admin imports OT subnet data into the OT subnet mapping table from an Excel spreadsheet using [Easy Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/c_EasyImport.md).
 -   Either the Amazing admin reviews the imported data records and associates \(maps\) OT subnet mapping records to a site and/or the Equipment Model Entity within that site.
 -   The Amazing admin activates or triggers the scheduled flow to automatically map OT devices for all sites on an instance.
 -   The Amazing editor can update the records that belong to the sites that they have editing access to.
 
-**Parent Topic:**[Automated Mapping Across Zone-based IP Network Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/automate-mappings-between-ot-assets-and-equipment-model-entity.md)
+**Parent Topic:**[Automated Mapping Across Zone-based IP Network Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/automate-mappings-between-ot-assets-and-equipment-model-entity.md)
 

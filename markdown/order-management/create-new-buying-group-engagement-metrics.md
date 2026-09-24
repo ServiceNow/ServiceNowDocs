@@ -3,9 +3,9 @@ title: View buying group engagement metrics
 description: View a buying group engagement metrics to track how individual members and the group as a whole interact across marketing and sales activities, providing a consolidated view of participation, engagement levels, and buying readiness throughout the buying group lifecycle.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-new-buying-group-engagement-metrics.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Buying Group, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -78,12 +78,12 @@ A qualitative classification derived from engagement data that summarizes the me
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Buying Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-buying-group.md)
+**Parent Topic:**[Using Buying Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-buying-group.md)
 
 **Related topics**  
 
 
-[Configuring Buying Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-buying-group.md)
+[Configuring Buying Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-buying-group.md)
 
-[Buying Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-buying-group.md)
+[Buying Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-buying-group.md)
 

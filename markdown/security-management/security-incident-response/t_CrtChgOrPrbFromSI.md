@@ -3,11 +3,11 @@ title: Create a change, incident, OT change request, or problem from a security 
 description: After you have created and saved a security incident, you can create a change request \(CHG\), incident \(INC\), OT change request, or problem \(PRB\) record from it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/t\_CrtChgOrPrbFromSI.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Record creation from security incidents, Security incident creation, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

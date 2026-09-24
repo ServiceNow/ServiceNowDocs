@@ -3,11 +3,11 @@ title: Create a record of AWS credentials in Cloud Cost Management
 description: Create a record of the AWS credentials in Cloud Cost Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/create-aws-credential-record-ccm.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up access to AWS billing and usage data, Configure Cloud Cost Management for AWS, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -18,7 +18,7 @@ Create a record of the AWS credentials in Cloud Cost Management.
 
 ## Before you begin
 
-Role required: insights\_admin \[sn\_clin\_core.insights\_admin\] or admin
+Role required: admin
 
 ## Procedure
 

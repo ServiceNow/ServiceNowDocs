@@ -3,11 +3,11 @@ title: Compare local update sets
 description: Administrators can preview local and remote \(retrieved\) update sets and compare the sets with one another to resolve conflicting changes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/system-update-sets/t\_CompareLocalUpdateSets.html
-release: australia
+release: brazil
 product: System Update Sets
 classification: system-update-sets
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with update sets, System update sets, Deploying applications, Building applications]
 ---
@@ -49,8 +49,8 @@ Compare local update sets to identify collisions and confirm that the proper cha
 7.  Run the comparison again to make sure that all collisions have been resolved.
 
 
--   **[Update set collision resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/update-set-collisions.md)**  
+-   **[Update set collision resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/system-update-sets/update-set-collisions.md)**  
 A collision is an update that has a newer local update.
 
-**Parent Topic:**[Working with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/using-system-update-sets.md)
+**Parent Topic:**[Working with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/system-update-sets/using-system-update-sets.md)
 

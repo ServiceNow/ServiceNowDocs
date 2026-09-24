@@ -3,11 +3,11 @@ title: Supporting information for ServiceNow Otto for Cloud Cost Management \(CC
 description: Get a quick overview of the important information related to the ServiceNow Otto for Cloud Cost Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/supporting-info-ai-ccm.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
-last_updated: "2026-08-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [AI in Cloud Cost Management, Explore, Cloud Cost Management, IT Asset Management, Asset Management]
 ---

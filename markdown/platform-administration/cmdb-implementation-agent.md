@@ -3,11 +3,11 @@ title: CMDB
 description: Using the configuration items \(CI\), monitor the infrastructure and ensure continuous service operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/cmdb-implementation-agent.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-08-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Platform module configuration, Configure, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure the Platform module, Configure, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # CMDB
@@ -23,7 +23,7 @@ Based on the CI type \( for example, Service, Offering, Computer\) selected in t
 
 **Note:** Use the **cmdb\_lite\_ci\_config** system property to define the CI types that should be displayed in the **Configuration item type** field.
 
-For information about CI, see [Overview of CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cnfig-mgmt-and-cmdb.md) and [Create a CI class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateCIType.md).
+For information about CI, see [Overview of CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cnfig-mgmt-and-cmdb.md) and [Create a CI class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateCIType.md).
 
-**Parent Topic:**[Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md)
+**Parent Topic:**[Configure the Platform module in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ia-config-platform-il.md)
 

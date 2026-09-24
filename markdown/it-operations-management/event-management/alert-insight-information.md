@@ -3,11 +3,11 @@ title: Alert insight information
 description: Alert insight aids faster alert triage, enabling a quicker way to find a solution and expose the probable root cause of the selected alert.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/alert-insight-information.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View alert information, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -22,5 +22,5 @@ Results from data analysis provide further information about the alert, beyond t
 
 Information shown is from repeated alerts, similar alerts, incidents, problems, and change requests on the same CI, similar CIs, and other CIs that are related by CMDB relations or grouping.
 
-**Parent Topic:**[View alert information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMViewAlert.md)
+**Parent Topic:**[View alert information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMViewAlert.md)
 

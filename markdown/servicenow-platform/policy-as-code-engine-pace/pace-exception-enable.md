@@ -3,11 +3,11 @@ title: Enable exceptions for a policy
 description: Enable exceptions for a PaCE policy and associate it with a control objective in GRC.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-exception-enable.html
-release: australia
+release: brazil
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Policy exceptions, Policy as Code Engine \(PaCE\), Extend ServiceNow AI Platform capabilities]
 ---
@@ -37,7 +37,7 @@ Enable exceptions for a PaCE policy and associate it with a control objective in
 
     The Exception status is changed to **Enabled**.
 
-    **Note:** After an exception has been enabled, the policy must be configured in the Policy and Compliance Management workspace and connected to a control objective. See [Policy as Code Engine for Preventive compliance management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/preventive-compliance-pace.md) for details.
+    **Note:** After an exception has been enabled, the policy must be configured in the Policy and Compliance Management workspace and connected to a control objective. See [Policy as Code Engine for Preventive compliance management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/preventive-compliance-pace.md) for details.
 
 
 ## Result

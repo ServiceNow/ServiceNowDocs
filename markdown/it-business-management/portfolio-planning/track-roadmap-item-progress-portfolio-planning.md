@@ -3,11 +3,11 @@ title: Track the progress of roadmap items
 description: Visually track the completion of a work item on your portfolio plan roadmap or free-form roadmap using the tracking mode.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/track-roadmap-item-progress-portfolio-planning.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -30,15 +30,15 @@ Use a toggle to switch your roadmap view from planning mode to tracking mode. Th
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d88410e80">
+<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d87673e80">
 
 Roadmap type
 
-</th><th align="left" id="d88410e83">
+</th><th align="left" id="d87673e83">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d88410e89">
+</th></tr></thead><tbody><tr><td id="d87673e89">
 
 **Portfolio plan roadmap**
 
@@ -48,7 +48,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d88410e110">
+</td></tr><tr><td id="d87673e110">
 
 **Free-form roadmap**
 
@@ -86,5 +86,5 @@ The tracking view of your roadmap is displayed according to your personalization
 
 \[Omitted image "roadmap-tracking-mode.png"\] Alt text: Roadmap tracking mode.
 
-**Parent Topic:**[Planning roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/planning-roadmaps-in-portfolio-planning.md)
+**Parent Topic:**[Planning roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/planning-roadmaps-in-portfolio-planning.md)
 

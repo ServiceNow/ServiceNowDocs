@@ -3,9 +3,9 @@ title: Export product catalog entities
 description: Export product catalog entities as a JSON file and save the file to your local download directory so that it can be imported to another ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/export-product-catalog-entities.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Exporting and importing product catalog entities, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -69,13 +69,13 @@ You can export catalog entities in any sequence, but you must import them to a t
 
 ## What to do next
 
--   [Import product catalog entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/import-product-catalog-entities.md)
--   [View export job status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-export-job-status.md)
+-   [Import product catalog entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/import-product-catalog-entities.md)
+-   [View export job status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/view-export-job-status.md)
 
 **Related topics**  
 
 
-[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-product-catalog.md)
 
-[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/product-catalog-managment.md)
 

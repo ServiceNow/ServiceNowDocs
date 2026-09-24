@@ -3,9 +3,9 @@ title: Create a fix script
 description: Create fix scripts to ensure the system installs or updates an application properly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/t\_CreateFixScripts.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Fix scripts, Anatomy of an application, Learning about developing on the ServiceNow AI Platform, Building applications]
 ---

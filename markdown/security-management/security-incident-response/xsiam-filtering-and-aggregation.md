@@ -3,11 +3,11 @@ title: Define filter and aggregation criteria
 description: Define and set filter conditions to specify which incoming Cortex XSIAM Incidents should create security incidents. You can also define additional Incident field criteria that allows an incoming Incident to be appended to an open security incident instead of creating an incident.Set filter conditions for which Palo Alto Cortex XSIAM incidents create security incidents in ServiceNow.Select Aggregation Conditions to define additional incident field criteria that allows an incoming incident to be appended to an open security incident instead of creating a new one.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/xsiam-filtering-and-aggregation.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Security Incident Response Integration with Cortex XSIAM by Palo Alto Networks, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -74,5 +74,5 @@ Role required: sn\_si.admin, sn\_si.ingestion\_profile\_admin
 
 ### What to do next
 
-Set a schedule to retrieve the incident data and ingested incidents that match the criteria in the profile. For more information, see [Schedule incident retrieval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/pan-xsiam-schedule-inc-retrieval.md).
+Set a schedule to retrieve the incident data and ingested incidents that match the criteria in the profile. For more information, see [Schedule incident retrieval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/pan-xsiam-schedule-inc-retrieval.md).
 

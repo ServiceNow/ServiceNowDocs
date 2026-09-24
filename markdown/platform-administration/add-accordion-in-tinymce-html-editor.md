@@ -3,9 +3,9 @@ title: Configure accordion in TinyMCE HTML editor
 description: You can enable the accordion on the TinyMCE HTML editor in both CoreUI and workspaces. When enabled, the accordion button appears on the HTML editor and can be used to expand/collapse content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/add-accordion-in-tinymce-html-editor.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Extended functions in HTML field editor, Configure the HTML toolbar, Configure a field editor for the HTML field, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---

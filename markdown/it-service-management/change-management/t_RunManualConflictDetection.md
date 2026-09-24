@@ -3,11 +3,11 @@ title: Detect conflicts manually and review conflict details
 description: Run conflict detection manually for a change request. Review the conflicts detected either automatically or manually and resolve them by changing the schedules.Cancel any conflict detection jobs that are actively running for a change request if you want to make any modifications to the schedules. After modifying the schedules, you can rerun the check conflicts action again to identify potential conflicts.Exclude change records from being displayed as a potential conflict in the conflict detection process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_RunManualConflictDetection.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Conflict detection, Configure, Change Management, IT Service Management]
 ---
@@ -24,9 +24,9 @@ Before you can run conflict detection for a change request, the following inform
 -   The planned start date, provided in the **Planned start date** field.
 -   The planned end date, in the **Planned end date** field.
 
-**Note:** The conflict detection feature is unavailable if the **Exclude from conflict detection** check box in the Change Request form is selected. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_RunManualConflictDetection.md)
+**Note:** The conflict detection feature is unavailable if the **Exclude from conflict detection** check box in the Change Request form is selected. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_RunManualConflictDetection.md)
 
-For information about running conflict detection automatically, see [Enable automatic change conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_RunAutomatedConflictDetection.md).
+For information about running conflict detection automatically, see [Enable automatic change conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_RunAutomatedConflictDetection.md).
 
 Prior to running conflict detection, consider the following scenarios:
 
@@ -132,7 +132,7 @@ Issue that caused the conflict. The available types are:
 
 Resolve any conflicts and reschedule the change.
 
-**Parent Topic:**[Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ConflictDetection.md)
+**Parent Topic:**[Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/c_ConflictDetection.md)
 
 **Related topics**  
 
@@ -147,7 +147,7 @@ Resolve any conflicts and reschedule the change.
 
 [Enable automatic change conflict detection]()
 
-[Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ConflictDetection.md)
+[Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/c_ConflictDetection.md)
 
 ## Cancel conflict detection manually
 
@@ -194,7 +194,7 @@ Role required: change\_manager
 
 4.  Add the **Exclude from conflict detection** field to the change request form.
 
-    For information on the procedure to add a new field to a form, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+    For information on the procedure to add a new field to a form, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).
 
 
 ### Result

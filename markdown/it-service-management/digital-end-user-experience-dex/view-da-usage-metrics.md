@@ -3,13 +3,13 @@ title: View Desktop Assistant usage metrics
 description: As a DEX administrator, view Desktop Assistant usage metrics of end users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/view-da-usage-metrics.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Desktop Assistant, Digital End-User Experience, IT Service Management]
+breadcrumb: [Administer, Digital End-User Experience, IT Service Management]
 ---
 
 # View Desktop Assistant usage metrics
@@ -26,6 +26,9 @@ Role required: admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
+    -   AMER \(Americas\): `itomcnc-prod-gateway-amer.sncapps.service-now.com:443`
+    -   EMEA \(Europe\): `itomcnc-prod-gateway-emea.sncapps.service-now.com:443`
+    -   APAC \(Asia Pacific\): `itomcnc-prod-gateway-apac.sncapps.service-now.com:443`
 2.  In the primary navigation pane, select the DEX Administration icon \(\[Omitted image "icon-administration.png"\] Alt text: The DEX Administration icon.\).
 
 3.  Under Desktop Assistant, select **Usage metrics**.
@@ -34,6 +37,6 @@ Role required: admin
 
     \[Omitted image "desktop-exp-dashboard.png"\] Alt text: Desktop Assistant usage metrics page
 
-    For more details on the usage metrics, see [Desktop Assistant usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-desktop-exp-dashboard.md).
+    For more details on the usage metrics, see [Desktop Assistant usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/dex-desktop-exp-dashboard.md).
 
 

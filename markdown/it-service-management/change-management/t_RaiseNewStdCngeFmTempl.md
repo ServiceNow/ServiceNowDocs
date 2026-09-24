@@ -3,11 +3,11 @@ title: Create a standard change request from the catalog
 description: You can create a standard change request from the published standard change catalog templates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_RaiseNewStdCngeFmTempl.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a change request, Use, Change Management, IT Service Management]
 ---
@@ -32,7 +32,7 @@ To create a change request from a pre-approved template, follow the procedure be
 
 2.  Select one of the following options depending on the type of standard change you want to create.
 
-<table id="choicetable_g1t_3h4_rw"><tbody><tr><td id="d292581e82">
+<table id="choicetable_g1t_3h4_rw"><tbody><tr><td id="d298359e82">
 
 **Network Standard Changes**
 
@@ -40,7 +40,7 @@ To create a change request from a pre-approved template, follow the procedure be
 
 Create a standard change request for the network.
 
-</td></tr><tr><td id="d292581e91">
+</td></tr><tr><td id="d298359e91">
 
 **Server Standard Changes**
 
@@ -66,7 +66,11 @@ Create a standard change request for servers and attached storage.
 7.  Select **Update**.
 
 
-**Parent Topic:**[Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateAChange.md)
+## What to do next
+
+After you create the standard change request, complete the implementation and close the record. To progress and close the change request, see [Process a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_ProcessAChangeRequest.md).
+
+**Parent Topic:**[Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_CreateAChange.md)
 
 **Related topics**  
 

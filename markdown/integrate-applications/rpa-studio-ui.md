@@ -3,9 +3,9 @@ title: RPA Desktop Design Studio user interface
 description: Learn about the RPA Desktop Design Studio user interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/rpa-studio-ui.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 18
 breadcrumb: [Explore, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -18,7 +18,7 @@ Learn about the RPA Desktop Design Studio user interface.
 
 With the RPA Desktop Design Studio home page, you can create and open your automation projects, review your work on these projects, and access resources that help you design automations. The default home page of the RPA Desktop Design Studio is shown in the following example.
 
-Create automations, activities, and automation logic additions from text instructions and preview options using the Now Assist for RPA Hub. For more information, see [ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-now-assist-studio.md).
+Create automations, activities, and automation logic additions from text instructions and preview options using the Now Assist for RPA Hub. For more information, see [ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/rpa-now-assist-studio.md).
 
 \[Omitted image "rpa-studio-home.png"\] Alt text: Home page of RPA Desktop Design Studio.
 
@@ -42,7 +42,7 @@ Create Automation
 
 </td><td>
 
-Create an unattended and attended automation project. For more information, see [Create an automation project manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-automation-project.md) and [Create an automation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-automation-now-assist.md).
+Create an unattended and attended automation project. For more information, see [Create an automation project manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-automation-project.md) and [Create an automation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-automation-now-assist.md).
 
 </td></tr><tr><td>
 
@@ -50,7 +50,7 @@ Create Skill
 
 </td><td>
 
-Create a skill automation project. For more information, see [Create a skill project in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-skill-project.md).A skill automation is a reusable component. You can build a skill so that you can provide prebuilt capabilities for other automation processes. For example, if a login functionality is used in four different automations, that login functionality can be created as a skill that you can reuse across automations.
+Create a skill automation project. For more information, see [Create a skill project in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-skill-project.md).A skill automation is a reusable component. You can build a skill so that you can provide prebuilt capabilities for other automation processes. For example, if a login functionality is used in four different automations, that login functionality can be created as a skill that you can reuse across automations.
 
 </td></tr><tr><td>
 
@@ -66,7 +66,7 @@ Automation projects
 
 </td><td>
 
-View the list of automation projects that you recently created.You can open a local project or a cloud project. For more information, see [Open a local automation project in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/open-project-rpa-studio.md) and [Open a cloud automation project in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/open-project-remote-rpa-studio.md).
+View the list of automation projects that you recently created.You can open a local project or a cloud project. For more information, see [Open a local automation project in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/open-project-rpa-studio.md) and [Open a cloud automation project in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/open-project-remote-rpa-studio.md).
 
 You can mark the required projects as favorites.
 
@@ -91,7 +91,7 @@ A sample automation is a prebuilt automation that shows how different components
 -   **Create copy**- Creates a copy of the selected sample automation.
 -   **View details**- View the details of the selected sample automation such as name, description, and location of the project.
 
-For more information, see [Use sample automations in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-sample-automation.md) and [Sample automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/sample-automations-rpa-studio.md).
+For more information, see [Use sample automations in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/use-sample-automation.md) and [Sample automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/sample-automations-rpa-studio.md).
 
 </td></tr><tr><td>
 
@@ -117,7 +117,7 @@ Change
 
 </td><td>
 
-Launches connection manager window. For more details, see [Connect to an RPA Hub instance from RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connect-studio-instance-rpa.md).You cannot connect to a different instance after the RPA Desktop Design Studio is launched.
+Launches connection manager window. For more details, see [Connect to an RPA Hub instance from RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/connect-studio-instance-rpa.md).You cannot connect to a different instance after the RPA Desktop Design Studio is launched.
 
 To connect to a different instance, you must close and reopen the RPA Desktop Design Studio application.
 
@@ -134,7 +134,7 @@ To connect to a different instance, you must close and reopen the RPA Desktop De
 
     In the sample automation card, view the type, name, and description of the automation.
 
-    For more information, see [Use sample automations in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-sample-automation.md).
+    For more information, see [Use sample automations in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/use-sample-automation.md).
 
 -   **Resources**- Learn more about RPA Desktop Design Studio documentation, release notes, and ServiceNow University courses. Select a card to navigate to the respective web page.
 -   **What's New**- View the new features RPA Desktop Design Studio. For example, you can build your first automation by starting a guided tour. Select **Take tour** to begin the guided tour.
@@ -145,13 +145,13 @@ The area marked in red in the following example is the Design surface. You creat
 
 You can also create automations by dragging the activities and variables from the Project Explorer pane or by dragging methods and events from the Object Explorer pane.
 
-Create automations, activities, and automation logic additions from text instructions and preview options using the Now Assist for RPA Hub. For more information, see [Building automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-studio-build.md).
+Create automations, activities, and automation logic additions from text instructions and preview options using the Now Assist for RPA Hub. For more information, see [Building automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/rpa-studio-build.md).
 
 \[Omitted image "design-surface.png"\] Alt text: Design surface.
 
 The Start and End components are the default components in every activity. They’re the starting and ending point of an activity. You can't delete these components.
 
-Enhance the automation logic with text instructions, either on the design surface or by selecting a component or by using the Now Assist for RPA Hub application. For more information, see [Build an automation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/build-automation-now-assist.md).
+Enhance the automation logic with text instructions, either on the design surface or by selecting a component or by using the Now Assist for RPA Hub application. For more information, see [Build an automation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/build-automation-now-assist.md).
 
 When you close this application, you’re logged out of the RPA Desktop Design Studio and the ServiceNow instance.
 
@@ -277,7 +277,7 @@ Use the **Clear breakpoints** button to remove all the breakpoints from the auto
 
 </td><td>
 
-Assign the automation package to a bot process and utilize the resources of the automation. For more information on how to assign a bot process, see [Assign bot process to an automation project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/assign-bot-process.md).
+Assign the automation package to a bot process and utilize the resources of the automation. For more information on how to assign a bot process, see [Assign bot process to an automation project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/assign-bot-process.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -415,7 +415,7 @@ Use the **Skills** button to view the skill automation projects in the Skill Exp
 
 Select the **Samples** button to refer to the sample automations in the Samples Explorer pane. A sample automation demonstrates how the RPA Desktop Design Studio executes an automation project.The sample automations are classified into **Beginner**, **Intermediate**, **Advanced**, **References**, and **Attended** categories based on the complexity and use cases of the automations.
 
-For more information, see [Use sample automations in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-sample-automation.md).
+For more information, see [Use sample automations in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/use-sample-automation.md).
 
 </td></tr><tr><td>
 
@@ -467,7 +467,7 @@ Use the **Silent mode** button to execute the automation project without opening
 
 </td><td>
 
-Capture your actions from your desktop or web applications and convert them into an automation flow by using the recorder option. For more information on recording automations, see [Recording automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/recording-automations.md).
+Capture your actions from your desktop or web applications and convert them into an automation flow by using the recorder option. For more information on recording automations, see [Recording automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/recording-automations.md).
 
 </td></tr><tr><td>
 
@@ -475,7 +475,7 @@ Capture your actions from your desktop or web applications and convert them into
 
 </td><td>
 
-Inspect an activity or completion automation project for any automation issues that prevents the automation from progressing by using the Code quality check feature. For more information on how to perform Code quality check in RPA Desktop Design Studio, see [Code quality check in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/code-quality-check-studio.md).
+Inspect an activity or completion automation project for any automation issues that prevents the automation from progressing by using the Code quality check feature. For more information on how to perform Code quality check in RPA Desktop Design Studio, see [Code quality check in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/code-quality-check-studio.md).
 
 </td></tr></tbody>
 </table>## View tab
@@ -508,7 +508,7 @@ Click each pane of the tool window \(Toolbox, Project explorer, Properties, and 
 
 </td><td>
 
-Use the **Plugin manager** button to install extra plugins to design automations that are required for creating automation projects. For more information, see [Manage plugins in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/install-plugins-rpa-studio.md).
+Use the **Plugin manager** button to install extra plugins to design automations that are required for creating automation projects. For more information, see [Manage plugins in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/install-plugins-rpa-studio.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -635,7 +635,7 @@ Build an automation
 
 Ctrl+EnterThis option is available only when the Now Assist for RPA Hub is enabled.
 
-For more information, see [Build an automation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/build-automation-now-assist.md).
+For more information, see [Build an automation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/build-automation-now-assist.md).
 
 </td></tr><tr><td>
 

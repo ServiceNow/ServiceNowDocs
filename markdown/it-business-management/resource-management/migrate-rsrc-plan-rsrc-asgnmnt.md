@@ -1,24 +1,24 @@
 ---
-title: Migrate resource plans and cost plans to Next Experience
-description: Migrate resource plans and cost plans of your projects or demands to resource assignments and attribute-based cost plans. Then, work on the resource allocations and project financials using Project Workspace.
+title: Migrate resource plans and cost plans for projects and demands
+description: Migrate resource plans and cost plans of your projects or demands to resource assignments and attribute-bases cost plans and work on the resource allocations and project financials using Project Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/migrate-rsrc-plan-rsrc-asgnmnt.html
-release: australia
+release: brazil
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Migration of resource plans and cost plans, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Migrate resource plans and cost plans to Next Experience
+# Migrate resource plans and cost plans for projects and demands
 
-Migrate resource plans and cost plans of your projects or demands to resource assignments and attribute-based cost plans. Then, work on the resource allocations and project financials using Project Workspace.
+Migrate resource plans and cost plans of your projects or demands to resource assignments and attribute-bases cost plans and work on the resource allocations and project financials using Project Workspace.
 
 ## Before you begin
 
--   Learn more about [Migration of resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md).
+-   Learn more about [Migration of resource plans, operational resource plans, and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md).
 -   Ensure the project or demand have resource plans and cost plans.
 -   Role required: resource\_user
 
@@ -36,7 +36,7 @@ Migrate resource plans and cost plans of your projects or demands to resource as
 
     \[Omitted image "rp-ra-migration-confirmation-window.png"\] Alt text: Resource plans migration confirmation window.
 
-    **Tip:** You can [Scheduled job to migrate resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/migrate-rsrc-plan-cost-plan-scheduled-job.md).
+    **Tip:** You can [Activate a scheduled job to migrate resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/migrate-rsrc-plan-cost-plan-scheduled-job.md).
 
 
 ## Result
@@ -47,5 +47,5 @@ Resource plans are migrated to resource assignments, cost plans are migrated to 
 
 Create resource assignments to manage resource efforts.
 
-**Parent Topic:**[Migration of resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md)
+**Parent Topic:**[Migration of resource plans, operational resource plans, and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md)
 

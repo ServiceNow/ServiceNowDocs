@@ -3,9 +3,9 @@ title: Financial Services Operations Integration with Mastercard subflows
 description: You can use the following Financial Services Operations Integration with Mastercard application subflows to handle the Mastercard dispute management process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-operations-integration-with-mastercard-subflows.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Components installed, Reference, Mastercard, Integrate, Financial Services Operations \(FSO\)]
 ---

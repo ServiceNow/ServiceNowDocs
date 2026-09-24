@@ -3,11 +3,11 @@ title: Page collections
 description: Page Collections are groups of pages that can be used across multiple experiences.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/page-collections.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Customize UI Builder pages using components, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -60,8 +60,8 @@ You create a page collection within the ServiceNow platform. At this time, only 
 
 \[Omitted image "page-collection-platform-form.png"\] Alt text: New record for page collection on the platform.
 
--   **[Create a page collection across multiple UI pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page-collection.md)**  
+-   **[Create a page collection across multiple UI pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-page-collection.md)**  
 Create a page collection to accommodate tabbed content that can be used across experiences.
 
-**Parent Topic:**[Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md)
+**Parent Topic:**[Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-components.md)
 

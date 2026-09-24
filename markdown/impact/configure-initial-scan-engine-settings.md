@@ -3,11 +3,11 @@ title: Activate Scan Engine and review settings
 description: Use Impact Guided Setup to set up the minimum required configuration options in order to run the first system scan.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/configure-initial-scan-engine-settings.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Run Impact Guided Setup, Configuring Impact, Impact]
+breadcrumb: [Impact Guided Setup, Configuring Impact, Impact]
 ---
 
 # Activate Scan Engine and review settings
@@ -16,7 +16,7 @@ Use Impact Guided Setup to set up the minimum required configuration options in 
 
 ## Before you begin
 
-[Assign users to Platform Health groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/assign-users-scan-engine-groups.md) before beginning this task.
+[Assign users to Platform Health groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/assign-users-scan-engine-groups.md) before beginning this task.
 
 **Note:** You can complete the configuration steps directly in the Guided Setup interface, or can configure the properties using the indicated navigation steps.
 
@@ -104,20 +104,22 @@ Review each tab to understand the default defined behavior or opt to reconfigure
 
 </td><td>
 
-Review and adjust settings, as each tab has default settings that can be adjusted. **Important:** See [Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-scan-engine-properties.md) for more information.
+Review and adjust settings, as each tab has default settings that can be adjusted. **Important:** See [Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-scan-engine-properties.md) for more information.
 
 </td></tr></tbody>
 </table>4.  Select **Run your first scan** to enable the next step.
 
-    **Important:** The initial setup configures required options to run the first system scan. See [Run your first scan with the Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/run-scan-engine.md) for details.
+    **Important:** The initial setup configures required options to run the first system scan. See [Run Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/run-scan-engine.md) for details.
 
     Additional and subsequent configuration may occur to adjust Scan Engine behavior.
 
 
--   **[Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-scan-engine-properties.md)**  
+-   **[Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-scan-engine-properties.md)**  
 Configure the primary scanning capabilities and configuration options for scheduled, on-demand, and real-time scans.
--   **[Customize Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/view-modify-scan-engine-properties.md)**  
+-   **[Customize Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/view-modify-scan-engine-properties.md)**  
 You can modify an existing definition to further customize and refine its scanning criteria or deactivate a definition.
+-   **[Configure Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/instance-integration-scan-engine.md)**  
+Scan Engine integrates with other ServiceNow instances and external agile systems to synchronize definitions, manage exception reasons, create user stories, and enforce governance over app deployments.
 
-**Parent Topic:**[Run Impact Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/guided-setup-impact-in-app.md)
+**Parent Topic:**[Impact Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/guided-setup-impact-in-app.md)
 

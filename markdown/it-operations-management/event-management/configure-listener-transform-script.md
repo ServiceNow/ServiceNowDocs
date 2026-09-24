@@ -3,11 +3,11 @@ title: Integrate with push connectors
 description: Integrate with a push connector to connect to an external event source. Push connectors process the collected event messages and transform them to the required event format.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-listener-transform-script.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Ensure that the Event Management Connectors \(sn\_em\_connector\) plugin is inst
 
 Role required: evt\_mgmt\_admin
 
-**Note:** If you are upgrading a ServiceNow AI Platform instance from Paris or earlier, you can use legacy listener transform scripts. See [Use legacy listener transform scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/migrate-transform-scripts.md) for further information.
+**Note:** If you are upgrading a ServiceNow AI Platform instance from Paris or earlier, you can use legacy listener transform scripts. See [Use legacy listener transform scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/migrate-transform-scripts.md) for further information.
 
 ## About this task
 
@@ -123,7 +123,7 @@ Use the URL in the format:`http://{MID_Server_IP}:{MID_Web_Server_Port}/api/mid/
 </td></tr></tbody>
 </table>4.  In the Script section:
 
-    -   If the value selected for the **Type** field is `MID`, the **Transform script** field appears. In this field, specify or search for the name of the MID script include. The script accepts event messages from the external event source and parses them into the required event format. Use this naming convention for the script: `TransformEvents_<your source>`
+    -   If the value selected for the **Type** field is `MID`, the **Transform script** field appears. In this field, specify or search for the name of the MID script include. The script accepts event messages from the required external event source and parses them into the required event format. Use this naming convention for the script: `TransformEvents_<your source>`
     -   If the value selected for the **Type** field is **Instance**, the **Script** editor appears. In the **Script** editor, enter the customized script that accepts event messages that the required external event source generates and that the script parses into the required event format.
     This example shows the fields that have been transformed, being added to an event form.
 
@@ -180,52 +180,52 @@ Use the URL in the format:`http://{MID_Server_IP}:{MID_Web_Server_Port}/api/mid/
     ```
 
 
--   **[Use legacy listener transform scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/migrate-transform-scripts.md)**  
+-   **[Use legacy listener transform scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/migrate-transform-scripts.md)**  
 Use legacy listener transform scripts when upgrading a ServiceNow AI Platform instance from Paris or earlier. These scripts can be run as part of existing integrated systems, or in unison with Event Management push connectors.
--   **[Integrate AWS platform as a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/aws-events-transform-script.md)**  
+-   **[Integrate AWS platform as a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/aws-events-transform-script.md)**  
 Integrate Amazon Web Services \(AWS\) with Event Management. To add AWS platform as a data source, configuration is required in the AWS platform.
--   **[Integrate Azure Monitor as an authenticated data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/azure-integration.md)**  
+-   **[Integrate Azure Monitor as an authenticated data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/azure-integration.md)**  
 Integrate Microsoft Azure with Event Management by adding the Azure Monitor as an authenticated data source.
--   **[Event collection from Microsoft Azure Monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-collection-MicrosoftAzure.md)**  
+-   **[Event collection from Microsoft Azure Monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/event-collection-MicrosoftAzure.md)**  
 The MID WebServer Event Collector enables you to collect JSON formatted event messages sent from the Microsoft Azure portal.
--   **[Event collection from BMC TrueSight and BMC TrueSight\_v2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-collection-BMCTrueSight.md)**  
-The MID WebService Event Collector enables you to collect JSON formatted event messages sent from BMC TrueSight Operations Management \(TrueSight\), previously known as BMC ProactiveNet Performance Management \(BPPM\). The collector uses event stream notification capabilities.
--   **[Metric collection from OpenTelemetry \(Otel\) metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/metric-collection-otel.md)**  
+-   **[Event collection from BMC TrueSight and BMC TrueSight\_v2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/event-collection-BMCTrueSight.md)**  
+The MID WebService Event Collector enables you to collect JSON formatted event messages sent from BMC TrueSight Operations Management \(TrueSight\), previously known as BMC ProactiveNet Performance Management \(BPPM\). It uses event stream notification capabilities.
+-   **[Metric collection from OpenTelemetry \(Otel\) metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/metric-collection-otel.md)**  
 The MID WebService metric Collector enables you to collect JSON and protobuf formatted metrics sent from OpenTelemetry \(Otel\).
--   **[Integrate New Relic platform events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/new-relic-events-integration.md)**  
+-   **[Integrate New Relic platform events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/new-relic-events-integration.md)**  
 Integrate New Relic with Event Management by adding a standard webhook in the New Relic old and new consoles.
--   **[Integrate Catchpoint events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/catchpoint-event-collection.md)**  
+-   **[Integrate Catchpoint events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/catchpoint-event-collection.md)**  
 Integrate Catchpoint with Event Management by adding an alert webhook in the Catchpoint platform.
--   **[Integrate Google Cloud Platform \(GCP\) events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/gcp-events-integration.md)**  
+-   **[Integrate Google Cloud Platform \(GCP\) events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/gcp-events-integration.md)**  
 Integrate Google Cloud Platform \(GCP\) with Event Management by adding a standard webhook in the GCP console.
--   **[Event collection from Google Cloud Platform \(GCP\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-collection-GCP.md)**  
+-   **[Event collection from Google Cloud Platform \(GCP\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/event-collection-GCP.md)**  
 The MID WebService Event Collector enables you to collect JSON formatted event messages sent from Google Cloud Platform \(GCP\).
--   **[Integrate Grafana events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/grafana-integration.md)**  
+-   **[Integrate Grafana events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/grafana-integration.md)**  
 Integrate Grafana with Event Management by adding Grafana as an authenticated data source.
--   **[Integrate Honeycomb events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/honeycomb-event-integration.md)**  
+-   **[Integrate Honeycomb events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/honeycomb-event-integration.md)**  
 Integrate Honeycomb with Event Management by creating a webhook and configuring it as a trigger in the Honeycomb platform.
--   **[Integrate Instana events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/instana-integration.md)**  
+-   **[Integrate Instana events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/instana-integration.md)**  
 Integrate Instana with Event Management by adding Instana as an authenticated data source.
--   **[Integrate ServiceNow Cloud Observability Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/lightstep-event-collection.md)**  
+-   **[Integrate ServiceNow Cloud Observability Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/lightstep-event-collection.md)**  
 Integrate ServiceNow Cloud Observability with Event Management by adding a standard webhook in the ServiceNow Cloud Observability platform. Download the Event Management Connector plugin from the ServiceNow Store so you can integrate with ServiceNow Cloud Observability.
--   **[Integrate Logicmonitor events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/logicmonitor-events-integration.md)**  
+-   **[Integrate Logicmonitor events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/logicmonitor-events-integration.md)**  
 Integrate Logicmonitor with Event Management to send events into ServiceNow by adding a webhook using Basic Authentication, it will also be available with bi-directional functionality.
--   **[Event collection from Logicmonitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-collection-logicmonitor.md)**  
+-   **[Event collection from Logicmonitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/event-collection-logicmonitor.md)**  
 The MID WebService Event Collector enables you to collect JSON formatted event messages from the Logicmonitor.
--   **[Integrate Oracle Cloud Infrastructure alarms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/oracle-cloud-events-integration.md)**  
+-   **[Integrate Oracle Cloud Infrastructure alarms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/oracle-cloud-events-integration.md)**  
 Integrate Oracle Cloud Infrastructure \(OCI\) alarms with Event Management to send events into ServiceNow by adding a https subscription using Basic Authentication.
--   **[Integrate Prometheus events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/prometheus-events-integration.md)**  
+-   **[Integrate Prometheus events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/prometheus-events-integration.md)**  
 Integrate Prometheus with Event Management by adding a standard webhook in Prometheus's Alert Manager.
--   **[Integrate Sentry events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/sentry-events-collection.md)**  
+-   **[Integrate Sentry events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/sentry-events-collection.md)**  
 Integrate Sentry with Event Management by adding a standard webhook in the Sentry platform.
--   **[Integrate Scout APM events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/integrate-scout-apm-events.md)**  
+-   **[Integrate Scout APM events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/integrate-scout-apm-events.md)**  
 Enable the collection of events from Scout APM by authenticating Scout APM as a data source to integrate it with Event Management.
--   **[Integrate Sumo Logic events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/sumologic-events-integration.md)**  
+-   **[Integrate Sumo Logic events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/sumologic-events-integration.md)**  
 Use the Sumo Logic push connector to integrate Sumo Logic with Event Management by adding a standard webhook in the Sumo Logic platform.
--   **[Integrate Panopta as a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/integrate-with-panopta.md)**  
+-   **[Integrate Panopta as a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/integrate-with-panopta.md)**  
 Integrate the Panopta cloud-based monitoring solution with Event Management. To add Panopta as a data source, configuration is required in Panopta.
--   **[Integrate Event Integration \(EIF\) format event connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/eif-events-integration.md)**  
+-   **[Integrate Event Integration \(EIF\) format event connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/eif-events-integration.md)**  
 Use the push connector that allows events to be forwarded from products, generally from IBM, that support the Event Integration \(EIF\) format to a MID Server.
 
-**Parent Topic:**[Configure Event Management connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/connectors-and-listeners.md)
+**Parent Topic:**[Configure Event Management connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/connectors-and-listeners.md)
 

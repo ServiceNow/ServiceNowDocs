@@ -3,13 +3,13 @@ title: Case create component on mobile device
 description: Create cases from mobile devices with a form interface that adapts to your mobile devices.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/we-mobile-adaptive-case-create.html
-release: australia
+release: brazil
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Mobile-responsive Web Embeddables, Web Embeddables, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Mobile-responsive Web Embeddables, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Case create component on mobile device

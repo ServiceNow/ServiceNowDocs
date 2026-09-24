@@ -3,11 +3,11 @@ title: Import goals and targets data from a spreadsheet
 description: With the admin role, you can import your existing goals and targets data from a spreadsheet to the Goal Framework tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/goal-framework/import-goals-and-targets-data-from-a-spreadsheet.html
-release: australia
+release: brazil
 product: Goal Framework
 classification: goal-framework
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
@@ -56,5 +56,5 @@ Role required: admin
     **Note:** The Import operation can be used for inserting new data or updating the existing data in the tables. By default, the Name and Owner values are the primary keys used for updating the existing records. You can also add additional fields as primary key for inserting new data or updating the existing data. For details on how to add additional fields as primary key, see [Import goals and targets data \[KB1191233\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB1191233).
 
 
-**Parent Topic:**[Configuring Goal Framework and Goal Framework for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/configuring-goal-framework.md)
+**Parent Topic:**[Configuring Goal Framework and Goal Framework for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/configuring-goal-framework.md)
 

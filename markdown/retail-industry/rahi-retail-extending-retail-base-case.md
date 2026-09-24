@@ -3,10 +3,10 @@ title: Extending the Retail base case
 description: Extend the Retail Case \(sn\_retail\_case\) base case to create custom case types that take advantage of prebuilt roles, business rules, workflows, and the Retail data model rather than creating them manually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-extending-retail-base-case.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-06-28"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [extend retail case, custom case type, retail case extension]
 breadcrumb: [Retail case types, Explore, Retail]
 ---
@@ -34,8 +34,10 @@ Use the following questions to determine whether your organization needs a new c
 -   Do fulfillers need a different workspace experience and guidance for this case type?
 -   Are there future scalability needs, or change-management considerations where shared intake forms and workflows would increase complexity across teams?
 
+**Parent Topic:**[Retail case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-retail-case-types-revamp.md)
+
 **Related topics**  
 
 
-[Service definitions in Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-service-definitions.md)
+[Service definitions in Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-service-definitions.md)
 

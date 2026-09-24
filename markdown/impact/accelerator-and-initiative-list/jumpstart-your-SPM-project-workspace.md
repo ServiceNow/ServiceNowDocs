@@ -3,11 +3,11 @@ title: Jumpstart Your Strategic Portfolio Management - Project Workspace
 description: This Accelerator provides a demonstration of the possibilities and capabilities of Project Workspaces within Strategic Portfolio Management \(SPM\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-SPM-project-workspace.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
@@ -154,5 +154,5 @@ Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leadin
 
 ## Exclusions
 
-ServiceNow is not responsible for implementing recommendations on Customer’s non-production or production instances.
+ServiceNow is not responsible for implementing recommendations on Customer’s sub-production or production instances.
 

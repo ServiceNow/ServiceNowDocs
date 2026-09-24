@@ -1,16 +1,16 @@
 ---
-title: Follow records using the classic form in Next Experience
+title: Follow records in Next Experience
 description: Get notified when a work note or comment is added to a record by following it in the classic environment in Next Experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/follow-records-in-next-experience.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Follow records using the classic form in Next Experience
+# Follow records in Next Experience
 
 Get notified when a work note or comment is added to a record by following it in the classic environment in Next Experience.
 
@@ -21,8 +21,6 @@ Role required: none
 ## About this task
 
 Following records is currently supported from the classic form UI only, even when your instance uses Next Experience.
-
-You receive instant confirmation when you start following or unfollowing a record via a banner message and persistent alerts under the notifications menu for updates such as Work Notes and Additional Comments.
 
 ## Procedure
 
@@ -50,5 +48,5 @@ The following example shows a sample notification.
 **Related topics**  
 
 
-[Configure Next Experience notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-notifications-preferences.md)
+[Configure Next Experience notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-notifications-preferences.md)
 

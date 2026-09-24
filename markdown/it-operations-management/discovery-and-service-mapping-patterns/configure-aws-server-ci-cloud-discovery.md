@@ -3,11 +3,11 @@ title: Configure Server CI creation during AWS cloud discovery
 description: Create Windows Server or Linux Server configuration items \(CIs\) during AWS cloud discovery by enabling the sn\_itom\_pattern.aws\_cloud\_discovery\_populate\_server\_ci system property.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/configure-aws-server-ci-cloud-discovery.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2026-08-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [AWS cloud discovery, Server CI, Windows Server, Linux Server, system property, SSM]
 breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
@@ -51,14 +51,16 @@ Before Discovery and Service Mapping Patterns version 1.35.0, Server CIs weren't
 
 Run AWS cloud discovery or wait for the next scheduled discovery run for the changes to apply.
 
-**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
+If your EC2 instances are slow to respond to SSM commands, increase the SSM command wait time. This provides more time before the first status check, enabling Server CIs to be created successfully. For more information, see [set the SSM command wait time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/set-aws-ssm-server-timeout.md).
+
+**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 
 **Related topics**  
 
 
-[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
+[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 
-[AWS Linux Server pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/aws-linux-server-pattern.md)
+[AWS Linux Server pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/aws-linux-server-pattern.md)
 
-[AWS Windows Server pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/aws-windows-server-pattern.md)
+[AWS Windows Server pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/aws-windows-server-pattern.md)
 

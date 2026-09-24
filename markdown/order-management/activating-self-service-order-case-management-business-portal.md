@@ -3,9 +3,9 @@ title: Making self-service order and invoice case management available on the Bu
 description: Install the necessary applications based on the self-service order and invoice case management options that you want to offer customers on the Business Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/activating-self-service-order-case-management-business-portal.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Business Portal, Configure, Sales Customer Relationship Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Business Portal, Configure, Sales Customer Relationship Management]
 
 Install the necessary applications based on the self-service order and invoice case management options that you want to offer customers on the Business Portal.
 
-**Note:** For information about activating the Business Portal itself, see [Enable the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-management-enable-business-portal.md)
+**Note:** For information about activating the Business Portal itself, see [Enable the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-management-enable-business-portal.md)
 
 ## Case management applications
 
@@ -50,7 +50,7 @@ If your customers only need to view invoice cases in the Business Portal, you do
 **Related topics**  
 
 
-[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-self-service-business-portal.md)
+[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-self-service-business-portal.md)
 
-[Using Business Portal for self-service workflows in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-business-portal.md)
+[Using Business Portal for self-service workflows in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-business-portal.md)
 

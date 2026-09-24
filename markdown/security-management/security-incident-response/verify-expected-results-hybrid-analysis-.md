@@ -3,11 +3,11 @@ title: Verify expected results for Hybrid Analysis
 description: Observables are generated automatically by a security incident and scanned by the application. Locate the lookup results on the security incident to verify the threat lookup has run successfully. Also view raw data and run threat lookups on child observables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/verify-expected-results-hybrid-analysis-.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Hybrid Analysis integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -73,9 +73,9 @@ Role required: sn\_si.analyst
 
 If you do not see results under the **Threat Lookup Results** tab, verify that the observable is a type that is supported for lookup by the integration.
 
-**Parent Topic:**[Hybrid Analysis integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/hybrid-analysis-lookups.md)
+**Parent Topic:**[Hybrid Analysis integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/hybrid-analysis-lookups.md)
 
-**Previous topic:**[Install and configure Hybrid Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/install-and-configure-hybrid-analysis.md)
+**Previous topic:**[Install and configure Hybrid Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/install-and-configure-hybrid-analysis.md)
 
-**Next topic:**[\(Optional\) Manually attach an observable for Hybrid Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/attach-an-observable-manually-hybrid-analysis.md)
+**Next topic:**[\(Optional\) Manually attach an observable for Hybrid Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/attach-an-observable-manually-hybrid-analysis.md)
 

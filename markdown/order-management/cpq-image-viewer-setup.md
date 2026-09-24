@@ -1,20 +1,20 @@
 ---
-title: Setting up the Image Viewer
-description: You can use the Image Viewer to add images to fields for viewing in a media carousel.
+title: Image Viewer setup
+description: The Image Viewer adds images to fields for viewing in a media carousel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-image-viewer-setup.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Setting up the Image Viewer
+# Image Viewer setup
 
-You can use the Image Viewer to add images to fields for viewing in a media carousel.
+The Image Viewer adds images to fields for viewing in a media carousel.
 
-The image viewer allows a CPQ Admin to add featured images to supported fields that can be viewed in a media carousel. This article covers how to set up the Image Viewer in the CPQ Admin and how it displays on your layout.
+The image viewer allows a Logik Admin to add featured images to supported fields that can be viewed in a media carousel. Set up the Image Viewer in the Logik Admin to display images on your layout.
 
 ## Supported field display types
 
@@ -34,7 +34,7 @@ To display the Image Viewer for a Static Image field, follow these steps:
 
 1.  Open the layout where you want to add the Image Viewer.
 2.  Hover over the field and click the gear icon.
-3.  Open the raw value menu and add the following while including the required inputs in place of the placeholder text below.
+3.  Open the raw value menu and add the following code, replacing placeholder text with your values:
 
     \[Omitted image "cpq-image-viewer-raw-value.png"\] Alt text: Static images code
 
@@ -42,7 +42,7 @@ To display the Image Viewer for a Static Image field, follow these steps:
 
 ## Raw value details for Image Viewer
 
-Add the following to the “Raw Value” section of an image display component through the Admin UI, where `Array<FeatureImage>` is an array of your additional feature images in the Feature Image type format and `carouselEnabled` is set to true or false.
+Add the following to the "Raw Value" section of an image display component through the Admin UI. `Array<FeatureImage>` is an array of your additional feature images in the Feature Image type format, and `carouselEnabled` is set to true or false.
 
 ```
 "featureImageSettings": {
@@ -57,8 +57,8 @@ By default, `carouselEnabled` is false.
 
 ```
 FeatureImage = {
-  “src”: string,
-  “alt”?: string,
+  "src": string,
+  "alt"?: string,
   "label"?: string,
 }
 ```
@@ -74,7 +74,7 @@ To display the Image Viewer for a product picker field, follow these steps:
     -   Set the Product List Property to Product Extended.
 4.  Create one Text field for each image to include in the Image Viewer.
 
-    **Note:** To display alt text or a label, additional fields for each type must be created. These fields are not required.
+    **Note:** Create additional fields for each type to display alt text or a label. These fields are not required.
 
     \[Omitted image "cpq-image-viewer-product-picker-fields.png"\] Alt text: Product picker setup
 
@@ -111,7 +111,7 @@ To display the Image Viewer for a product picker field, follow these steps:
 1.  Open the picklist field.
 2.  Click the Picklist Extension tab.
 3.  Click **Import Data**.
-4.  Create a CSV that includes the following columns:
+4.  Create a CSV with these columns
     -   value
     -   imageUrl
         -   Ensure this is a valid URL for the image to display.
@@ -148,7 +148,7 @@ Ensure that the image sizes are the same for all images in a viewer. If they do 
 
 Add images in the order you want them to display. Images will display from the Image Viewer settings from top to bottom. The name of the field does not affect the display order.
 
-Use images with a high enough resolution to properly fill the window. Low resolution images will be expanded in size to fit the window and will not look good when select as the featured image.
+Use images with a high enough resolution to properly fill the window. Low resolution images will be expanded in size to fit the window and will appear pixelated or distorted when selected as the featured image.
 
 For optimal performance, avoid large or high resolution images since that will impact the render time for the image viewer.
 
@@ -158,9 +158,9 @@ On a layout with a field that includes an image view, a user can hover over an i
 
 \[Omitted image "cpq-image-viewer-display-1.png"\] Alt text: Products screen
 
-Once clicked, the image view will open in a dialog box.
+After clicking the icon, the image view will open in a dialog box.
 
 \[Omitted image "cpq-image-viewer-display-2.png"\] Alt text: Image viewer display
 
-A user can move between images with the arrow buttons or by clicking the thumbnails below the feature image. This carousel displays any label and alt text if provided. A user can close the dialog box by clicking outside it or by clicking **X** in the top right.
+A user can move between images with the arrow buttons or by clicking the thumbnails below the feature image. This carousel displays any label and alt text if provided. A user can close the dialog box by clicking outside it or by clicking the X icon in the top right.
 

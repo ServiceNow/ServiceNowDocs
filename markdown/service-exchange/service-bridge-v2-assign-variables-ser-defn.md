@@ -1,18 +1,18 @@
 ---
-title: Create variables for remote record producers for Providers
+title: Create variables for remote record producers in Service Exchange for Providers
 description: Create variables for a remote record producer \(RRP\) in Service Exchange for Providers application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-assign-variables-ser-defn.html
-release: australia
+release: brazil
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create remote catalogs, Configure for providers, Service Exchange for Providers, Service Exchange]
 ---
 
-# Create variables for remote record producers for Providers
+# Create variables for remote record producers in Service Exchange for Providers
 
 Create variables for a remote record producer \(RRP\) in Service Exchange for Providers application.
 

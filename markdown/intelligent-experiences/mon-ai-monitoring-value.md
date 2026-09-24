@@ -3,12 +3,12 @@ title: How monitoring scores contribute to AI value
 description: Quality scores from monitoring can feed the value calculation. The value an AI system reports then reflects how well it performs, not just how often it is used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mon-ai-monitoring-value.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [monitoring, value, quality score]
-breadcrumb: [Explore, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Explore, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # How monitoring scores contribute to AI value
@@ -35,5 +35,5 @@ A value template uses the quality score only when one exists for the asset. When
 
 An asset owner selects **Quality Score** as the **Quality type** when creating or editing a value template. The asset owner then tracks the resulting productivity in the Value area, where the value reflects both how often and how well the AI system performs.
 
-For more information about value templates and the dimensions they use, see [Measuring AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-measuring-ai-impact.md).
+For more information about value templates and the dimensions they use, see [Measuring AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-measuring-ai-impact.md).
 

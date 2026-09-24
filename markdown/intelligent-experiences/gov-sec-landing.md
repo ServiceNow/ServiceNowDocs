@@ -3,12 +3,12 @@ title: Managing AI asset security with AI Control Tower
 description: Review AI asset security metrics such as access issues, dormant and privileged AI agents, and map the relationships of your ServiceNow agents, agentic workflows, and tools.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-sec-landing.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-05-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Govern AI assets, AI Control Tower, Enable AI experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Managing AI asset security with AI Control Tower
@@ -19,27 +19,27 @@ Review AI asset security metrics such as access issues, dormant and privileged A
 
 <table class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn AI asset security basics to help you get the most out of security metrics.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-exploring.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn AI asset security basics to help you get the most out of security metrics.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-exploring.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate and configure your implementation of security metrics.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-configuring.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate and configure your implementation of security metrics.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configuring.md)
 
 </td><td>
 
-[Use the agent map\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Visualize your entire agentic ecosystem across your enterprise.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-use-map.md)
+[Use the agent map\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Visualize your entire agentic ecosystem across your enterprise.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-use-map.md)
 
 </td></tr><tr><td>
 
-[Monitor AI security tasks\[Omitted image "bus-security.svg"\] Alt text:Triage and resolve security tasks to optimize AI asset security.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-use-events.md)
+[Monitor AI security tasks\[Omitted image "bus-security.svg"\] Alt text:Triage and resolve security tasks to optimize AI asset security.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-use-events.md)
 
 </td><td>
 
-[Manage AI agents with kill switch protocol\[Omitted image "bus-discover.svg"\] Alt text:Contain AI agents with suspicious activity to improve security posture.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-manage-ai-agents-using-kill-switch-protocol.md)
+[Manage AI agents with kill switch protocol\[Omitted image "bus-discover.svg"\] Alt text:Contain AI agents with suspicious activity to improve security posture.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-manage-ai-agents-using-kill-switch-protocol.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn details about every metric in the security area.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn details about every metric in the security area.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-reference.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -59,7 +59,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-**Note:** We have controls in place to enable/disable the data collection and data processing. For more information, see [Data sharing and processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-sharing-and-processes.md).
+**Note:** We have controls in place to enable/disable the data collection and data processing. For more information, see [Data sharing and processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-data-sharing-and-processes.md).
 

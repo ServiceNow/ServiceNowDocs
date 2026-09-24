@@ -1,22 +1,22 @@
 ---
-title: Configure the Manage documents activity UI in Information Request Playbook
-description: Configure the Manage Documents activity UI in Information Request Playbook to allow agents to view, link, or unlink documents to an information request case.
+title: Configure the Manage documents activity UI in Information Request Administration
+description: Configure the Manage Documents activity UI in Information Request Administration to allow agents to view, link, or unlink documents to an information request case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-ir-playbooks-configure-manage-documents.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Information Request Playbook, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Configure the Manage documents activity UI in Information Request Playbook
+# Configure the Manage documents activity UI in Information Request Administration
 
-Configure the Manage Documents activity UI in Information Request Playbook to allow agents to view, link, or unlink documents to an information request case.
+Configure the Manage Documents activity UI in Information Request Administration to allow agents to view, link, or unlink documents to an information request case.
 
 ## Before you begin
 
-This task requires the Document Management \[com.snc.platform\_document\_management\] plugin to be active on your instance. If Document Management \[com.snc.platform\_document\_management\] is not active on your instance, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md) for instructions.
+This task requires the Document Management \[com.snc.platform\_document\_management\] plugin to be active on your instance. If Document Management \[com.snc.platform\_document\_management\] is not active on your instance, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivateAPlugin.md) for instructions.
 
 Role required: admin
 
@@ -57,5 +57,5 @@ Role required: admin
 
 ## Result
 
-The Manage Documents UI activity is now configured, and the modal should now display when you open a new or existing Information Request Playbook.
+The Manage Documents UI activity is now configured, and the modal should now display when you open a new or existing Information Request Administration.
 

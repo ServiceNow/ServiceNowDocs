@@ -3,9 +3,9 @@ title: Add or edit a stakeholder
 description: Add or edit a stakeholder to track who has an interest in the outcome of your enterprise architecture.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-add-or-edit-a-stakeholder.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [stakeholder, enterprise architecture, business architecture]
 breadcrumb: [Manage stakeholders, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
@@ -35,23 +35,23 @@ Role required: sn\_apm.apm\_user
     -   To edit an existing stakeholder, select the stakeholder.
 6.  Fill in the fields.
 
-    For field descriptions, see [Create a stakeholder form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-a-stakeholder-form.md).
+    For field descriptions, see [Create a stakeholder form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-a-stakeholder-form.md).
 
 7.  Select **Save**.
 
 
-**Parent Topic:**[Manage stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-stakeholders.md)
+**Parent Topic:**[Manage stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-manage-stakeholders.md)
 
 **Related topics**  
 
 
-[View all stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-stakeholders.md)
+[View all stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-all-stakeholders.md)
 
-[Add a driver to a stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-driver-to-stakeholder.md)
+[Add a driver to a stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-add-driver-to-stakeholder.md)
 
-[Add a goal to a stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-goal-to-stakeholder.md)
+[Add a goal to a stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-add-goal-to-stakeholder.md)
 
-[Add a value stream to a stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-value-stream-to-stakeholder.md)
+[Add a value stream to a stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-add-value-stream-to-stakeholder.md)
 
-[Add a business process to a stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-business-process-to-stakeholder.md)
+[Add a business process to a stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-add-business-process-to-stakeholder.md)
 

@@ -3,13 +3,13 @@ title: Creating multiple external content connectors of the same type
 description: Admins can create multiple external content connectors of the same type on a single ServiceNow AI Platform instance. These connectors can crawl different source systems or the same source system. Connectors that crawl the same source system can include overlapping crawl locations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/creating-multiple-external-content-connectors.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2026-05-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Creating external content connectors, Explore, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -48,7 +48,7 @@ When you create multiple external content connectors of the same type on the sam
 
 -   **User permissions are specific to an individual external content connector, not shared between all external content connectors of the same type**
 
-    Admins need to run a separate user permission crawl for each external content connector of the same type. In the preceding examples, each Microsoft SharePoint Online external content connector needs its own user permission crawl. Running a user permission crawl for the first Microsoft SharePoint Online external content connector doesn't populate security principals for the second connector.
+    Admins need to run a separate user permission crawl for each external content connector of the same type. In the preceding examples, each Microsoft SharePoint Online external content connector requires its own user permission crawl. Running a user permission crawl for the first Microsoft SharePoint Online external content connector doesn't populate security principals for the second connector.
 
 -   **The system executes crawl jobs for external content connectors of the same type in parallel if sufficient resources are available**
 
@@ -72,5 +72,5 @@ When creating multiple external content connectors of the same type on the same 
     Running crawl jobs for multiple external content connectors of the same type in parallel can cause contention when they send retrieved content to their shared indexed source. This contention may reduce the connectors' retrieval rate when their crawl jobs are run in parallel.
 
 
-**Parent Topic:**[Creating external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/creating-ext-cont-connectors.md)
+**Parent Topic:**[Creating external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/creating-ext-cont-connectors.md)
 

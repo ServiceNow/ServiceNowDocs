@@ -3,10 +3,10 @@ title: Data visualizations in Platform Analytics
 description: Data visualizations use graphics to show table, indicator, and other data. They combine and extend the functions of reports and Performance Analytics widgets from the Core UI, which they replace in Platform Analytics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/analytics-center-data-visualizations.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Platform Analytics experience, Platform Analytics]
 ---
 
@@ -26,27 +26,27 @@ You can also directly access Data Visualizations from the filter navigation in P
 
 <table id="table_o5y_trj_mcc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Take a tour of the Data Visualizations library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/explore-data-vis-library.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Take a tour of the Data Visualizations library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/explore-data-vis-library.md)
 
 </td><td>
 
-[Create data visualizations\[Omitted image "bus-app-creator.svg"\] Alt text:Procedures for creating data visualizations using different data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/creating-data-visualizations.md)
+[Create data visualizations\[Omitted image "bus-app-creator.svg"\] Alt text:Procedures for creating data visualizations using different data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/creating-data-visualizations.md)
 
 </td><td>
 
-[Share, edit, delete\[Omitted image "bus-low-code-dev-tools.svg"\] Alt text:Procedures for performing the most common data visualization tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/common-dv-tasks.md)
+[Share, edit, delete\[Omitted image "bus-low-code-dev-tools.svg"\] Alt text:Procedures for performing the most common data visualization tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/common-dv-tasks.md)
 
 </td></tr><tr><td>
 
-[View\[Omitted image "bus-laptop.svg"\] Alt text:Actions viewers can take while looking at a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/common-dv-tasks.md)
+[View\[Omitted image "bus-laptop.svg"\] Alt text:Actions viewers can take while looking at a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/common-dv-tasks.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Details of advanced configuration options found in many data visualization types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-data-visualizations.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Details of advanced configuration options found in many data visualization types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/configure-data-visualizations.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Roles and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/data-visualization-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Roles and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/data-visualization-reference.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

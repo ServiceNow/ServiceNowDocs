@@ -3,11 +3,11 @@ title: Configure aggregation weights for CMDB Health scores
 description: Metrics health scores are aggregated into their respective KPI \(key performance indicator\) scores, which in return are aggregated into the overall CMDB Health score. Modify the default aggregation weights for metrics and KPIs to reflect on the importance of one metric over another is assessing the health of CMDB in the organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/config-cmdb-health-metric-weights.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---

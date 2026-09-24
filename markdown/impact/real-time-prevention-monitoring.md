@@ -3,12 +3,12 @@ title: Use Real-time prevention monitoring while coding
 description: As you write and save code, the Scan Engine detects violations in real-time and displays findings inline. You can then generate an AI-suggested fix before committing your changes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/real-time-prevention-monitoring.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 keywords: [real-time prevention, AI code fix, Otto, Scan Engine, technical debt prevention]
-breadcrumb: [Prevent and resolve technical debt with AI, Platform Health, Using Impact, Impact]
+breadcrumb: [Platform Health, Using Impact, Impact]
 ---
 
 # Use Real-time prevention monitoring while coding
@@ -69,7 +69,7 @@ Manually Fix
 
 </td><td>
 
-Review the Steps to resolve issue guidance and fix the code yourself in the script editor and save again to verify the issue is resolved.
+Review the **Steps to resolve issue** guidance. Fix the code in the script editor and save again to verify the issue is resolved.
 
 </td></tr><tr><td>
 
@@ -93,7 +93,7 @@ Submit an Exception \(Recommend level findings only\)
 
 </td><td>
 
-If you believe the finding is a false positive or the code has a valid business reason for the violation, select **Create exception** on the specific entry.**Note:** See [Submit exceptions for Scan Engine findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/submitting-exception-reasons-scan-engine.md) for details.
+If you believe the finding is a false positive or the code has a valid business reason for the violation, select **Create exception** on the specific entry.**Note:** See [Submit exceptions for Scan Engine findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/submitting-exception-reasons-scan-engine.md) for details.
 
 </td></tr></tbody>
 </table>5.  If you chose to generate an AI-suggested fix, review the code comparison that appears.

@@ -3,9 +3,9 @@ title: Create a TOTP authenticator in RPA Hub
 description: Map a multi-factor authentication \(MFA\) authenticator record with a seed in a robot credential. This mapping results in creating a Time-based One-time Password \(TOTP\) authenticator record in RPA Hub.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/map-totp-credential-set-rpa.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [authenticate unattended robot rpa hub, authenticate bot rpa hub, unattended robot authentication rpa hub, bot authentication rpa hub]
 breadcrumb: [TOTP authentication, Credential Management, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
@@ -17,15 +17,15 @@ Map a multi-factor authentication \(MFA\) authenticator record with a seed in a 
 
 ## Before you begin
 
-Familiarize yourself with multi-factor authentication \(MFA\) concepts. For more information, see [Multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/mfa-landing.md).
+Familiarize yourself with multi-factor authentication \(MFA\) concepts. For more information, see [Multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/mfa-landing.md).
 
-Familiarize yourself with the TOTP authentication in RPA Hub. For more information, see [TOTP authentication in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/totp-authentication-rpa.md).
+Familiarize yourself with the TOTP authentication in RPA Hub. For more information, see [TOTP authentication in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/totp-authentication-rpa.md).
 
-Create an MFA authenticator record. For more information, see [Create an MFA authenticator in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-mfa-authenticator-rpa.md).
+Create an MFA authenticator record. For more information, see [Create an MFA authenticator in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-mfa-authenticator-rpa.md).
 
-Create a robot credential. For more information, see [Create a robot credential in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-credential-set-botprocess.md).
+Create a robot credential. For more information, see [Create a robot credential in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-credential-set-botprocess.md).
 
-Do this task only when you select the **Process Type** field as **Unattended** on the Bot process configuration form while you're creating a bot process. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess.md), [Bot process configuration form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess-config.md), and [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/select-botprocess.md).
+Do this task only when you select the **Process Type** field as **Unattended** on the Bot process configuration form while you're creating a bot process. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-botprocess.md), [Bot process configuration form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-botprocess-config.md), and [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/select-botprocess.md).
 
 Verify that the life-cycle stage status of the associated bot process is set to either **Build** or **In Maintenance**.
 
@@ -44,7 +44,7 @@ If a TOTP authenticator is using external credential vault, then ensure that the
 In RPA Hub, you can retrieve robot credentials, application credentials, or TOTP seed in two ways:
 
 -   From ServiceNow credentials record \(application credential, robot credential, or TOTP authenticator\).
--   From an external credential vault. For more information, see [External credential vault in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/external-credentials-rpa.md).
+-   From an external credential vault. For more information, see [External credential vault in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/external-credentials-rpa.md).
 
 ## Procedure
 
@@ -116,7 +116,7 @@ Provide a JSON that acts as an input to the subflow mapped in the selected exter
 
 The value must be in JSON format. You cannot enter an empty JSON value.
 
-For more information about the JSON, see [Steps to configure an external credential vault in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/config-ext-cred-rpa.md).
+For more information about the JSON, see [Steps to configure an external credential vault in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/config-ext-cred-rpa.md).
 
 This field appears only when the **External Credential** check box is selected.
 
@@ -128,12 +128,12 @@ This field appears only when the **External Credential** check box is selected.
 
 ## What to do next
 
-[Use the GetTOTP component in the RPA Desktop Design Studio to generate TOTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/preview-data-rpa-studio.md).
+[Use the GetTOTP component in the RPA Desktop Design Studio to generate TOTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/preview-data-rpa-studio.md).
 
 **Related topics**  
 
 
-[Delete a TOTP authenticator in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/delete-mfa-authenticator-rpa.md)
+[Delete a TOTP authenticator in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/delete-mfa-authenticator-rpa.md)
 
-[Retire an MFA authenticator in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/retire-mfa-authenticator.md)
+[Retire an MFA authenticator in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/retire-mfa-authenticator.md)
 

@@ -3,11 +3,11 @@ title: Define a frame in a style sheet
 description: Add style definitions for any custom frame UI macro you create.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_DefineTheFrameInAStyleSheet.html
-release: australia
+release: brazil
 product: Content Management System
 classification: content-management-system
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Format a frame, Style in Content Management, Configure Content Management sites, Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -41,5 +41,5 @@ Each frame has its own class name.
 4.  Click **Update**.
 
 
-**Parent Topic:**[Format a frame](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_Frame.md)
+**Parent Topic:**[Format a frame](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/t_Frame.md)
 

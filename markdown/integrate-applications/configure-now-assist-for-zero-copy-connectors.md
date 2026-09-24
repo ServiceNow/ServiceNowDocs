@@ -3,11 +3,11 @@ title: Configure ServiceNow Otto for Zero Copy Connector
 description: If you have the admin role, you can configure the ServiceNow Otto for Zero Copy Connector application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/configure-now-assist-for-zero-copy-connectors.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-07-22"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [ServiceNow Otto for Zero Copy Connector, Workflow Data Fabric]
 ---
 
@@ -21,7 +21,7 @@ Role required: admin and sn\_erp\_integration.erp\_ai\_user
 
 ## About this task
 
-Use the AI Admin Hub console to configure Otto for ZCC. For additional information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
+Use the AI Admin Hub console to configure Otto for ZCC. For additional information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-now-assist.md).
 
 The following skills are included in Otto for ZCC:
 
@@ -32,7 +32,7 @@ The following skills are included in Otto for ZCC:
 
 1.  Install the ServiceNow Otto for Zero Copy Connector plugin \(sn\_erp\_ai\).
 
-    For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 2.  View the skills by navigating to **All** &gt; **Otto admin** &gt; **Skills** and selecting **Other**.
 
@@ -62,7 +62,7 @@ The following skills are included in Otto for ZCC:
 **Related topics**  
 
 
-[Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)
+[Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-now-assist.md)
 
-[Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md)
+[Configuring Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-na-landing.md)
 

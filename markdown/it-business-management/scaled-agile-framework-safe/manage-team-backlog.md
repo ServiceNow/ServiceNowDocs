@@ -3,11 +3,11 @@ title: Manage your team backlog
 description: Manage, evaluate, prioritize, and sequence stories in your team backlog.Perform sprint planning by evaluating stories in the backlog, selecting stories for the sprint, and estimating work effort for the stories.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/manage-team-backlog.html
-release: australia
+release: brazil
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [SAFe Board — Team level, Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -72,7 +72,7 @@ Role required: scrum\_product\_owner, scrum\_master, safe\_product\_owner, or sa
     |Action|Description|
     |------|-----------|
     |**Using the drag feature**|This option can be used to move stories within the backlog, move stories from the backlog to any sprint, or move stories from one sprint to another. Point to a story in the backlog and drag it to the required location.|
-    |**Using the keyboard**|This option can be used to move stories only within a backlog or a sprint. See [Arrange stories using the keyboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/arrange-stories.md).|
+    |**Using the keyboard**|This option can be used to move stories only within a backlog or a sprint. See [Arrange stories using the keyboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/arrange-stories.md).|
 
 12. To perform an action on a set of stories.
 
@@ -87,7 +87,7 @@ Role required: scrum\_product\_owner, scrum\_master, safe\_product\_owner, or sa
     |**SAFe Team**|From the Groups list, select the team to which you want to assign the stories.|
 
 
-**Parent Topic:**[SAFe Board — Team level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/team-level-tabs.md)
+**Parent Topic:**[SAFe Board — Team level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/team-level-tabs.md)
 
 ## Perform sprint planning
 

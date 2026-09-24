@@ -3,11 +3,11 @@ title: Domain separation and Skills Management
 description: Domain separation is supported in the Skills Management app, and configured to apply to all features of the application. Separation of data is configured along with separation of logic and process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/skills-management/domain-separation-skill-management.html
-release: australia
+release: brazil
 product: Skills Management
 classification: skills-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference for Skills Management, Skills Management, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,7 +28,7 @@ Domain separation enables you to separate data, processes, and administrative ta
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-separated-apps.md).
 
 ## How domain separation works in Skills Management
 

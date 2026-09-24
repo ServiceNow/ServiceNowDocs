@@ -3,13 +3,13 @@ title: Supported features and metadata in custom templates
 description: Custom templates in App Engine Studio \(AES\) support most features and metadata, including, but not limited to tables, forms, roles, ACLs, record producers, simple workspaces, flows, and actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/supported-features-metadata-custom-templates.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Reference, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Reference, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Supported features and metadata in custom templates
@@ -26,7 +26,7 @@ When you create a custom template, the pre-scan checks to make sure that everyth
 
 **Note:** Creating an AES template using an application that contains a workspace is not supported.
 
-For more information on the template creation process, see [Build a custom template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/build-custom-template.md).
+For more information on the template creation process, see [Build a custom template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/build-custom-template.md).
 
 ## Supported metadata
 
@@ -385,5 +385,5 @@ The template creation process only skips items that should not impact the templa
 |Workflow Schedule|wf\_workflow\_schedule|
 |Workflow UI Policy|wf\_ui\_policy|
 
-**Parent Topic:**[App Engine Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-reference.md)
+**Parent Topic:**[App Engine Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-reference.md)
 

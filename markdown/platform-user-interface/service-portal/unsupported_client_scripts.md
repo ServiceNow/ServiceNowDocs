@@ -3,11 +3,11 @@ title: Service Portal and client scripts
 description: You can use client scripts and catalog client scripts in the Service Portal if the UI Type is set to Mobile / Service Portal or All. Client scripts and catalog client scripts are used with the Form widget and SC Catalog Item widget, as opposed to a widget client controller.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/unsupported\_client\_scripts.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Supported features in Service Portal, Exploring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -80,8 +80,8 @@ function onLoad() {
 }
 ```
 
--   **[Supported client script types and APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/client-script-reference.md)**  
+-   **[Supported client script types and APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/client-script-reference.md)**  
 Some client scripts are not supported in Service Portal. Others must have a UI type set to **All** or **Mobile / Service Portal**. If using a client script in the Service Portal, only client-side APIs supported in a mobile environment can be used.
 
-**Parent Topic:**[Supported features in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/unsupported-features-sp.md)
+**Parent Topic:**[Supported features in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/unsupported-features-sp.md)
 

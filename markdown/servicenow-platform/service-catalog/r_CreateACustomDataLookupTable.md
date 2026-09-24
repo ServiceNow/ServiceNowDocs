@@ -3,11 +3,11 @@ title: Custom data lookup
 description: You can create a custom table to store lookup data.Creating a catalog data lookup is similar to creating a normal, custom data lookup except when creating the catalog data lookup definition record.If the custom data lookup definition rules are not behaving as expected, check for certain conditions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/r\_CreateACustomDataLookupTable.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service catalog data lookup, Service catalog variables, Service Catalog Reference, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ The custom table must extend the Data Lookup Matcher Rules \[dl\_matcher\] table
 
 For example, you can create a Server Offering Lookups table. It stores information about matcher offerings \(bronze, silver, and gold\) and associated setter values \(memory and disk space\) for each matcher offering.
 
-**Parent Topic:**[Service catalog data lookup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogDataLookup.md)
+**Parent Topic:**[Service catalog data lookup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/c_ServiceCatalogDataLookup.md)
 
 ## Create a custom data lookup
 

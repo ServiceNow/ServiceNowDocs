@@ -3,11 +3,11 @@ title: Clustered application discovery on Windows
 description: A process and its corresponding resource information can be used to determine whether the process is a clustered process.To detect Windows clustered applications, create a process classifier for that CI type.In the second step, relate the process classifier to the information that is in the Windows Cluster resources table.The value field defines two JavaScript objects, called resourceType and isMatch.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/c\_ClusteredAppDiscoveryOnWindows.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Software discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -20,7 +20,7 @@ The **Microsoft SQL Server** process classifier that comes with your instance id
 
 To detect Windows clustered applications with Discovery, you create a process classifier that detects whether a process is a clustered process. Perform the following steps:
 
-**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Software.md)
+**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/c_Software.md)
 
 ## Create a classifier for clustered processes
 
@@ -123,7 +123,7 @@ Role required: admin
 
 ### About this task
 
-The [Windows Cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_WindowsServerClusterDiscovery.md) resources table is cmdb\_ci\_win\_cluster\_resource. This relationship is built through JavaScript.
+The [Windows Cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/r_WindowsServerClusterDiscovery.md) resources table is cmdb\_ci\_win\_cluster\_resource. This relationship is built through JavaScript.
 
 ### Procedure
 
@@ -140,7 +140,7 @@ The [Windows Cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
     |Name|Select a unique name.|
     |Application|Select **Global**.|
     |Type|Enter **Cluster**.|
-    |Value|This field defines two JavaScript objects, called resourceType and isMatch. For more information, see [Populate the Value field on the Classifier Parameter form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_ClusteredAppDiscoveryOnWindows.md).|
+    |Value|This field defines two JavaScript objects, called resourceType and isMatch. For more information, see [Populate the Value field on the Classifier Parameter form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/c_ClusteredAppDiscoveryOnWindows.md).|
 
 5.  Select **Submit**.
 

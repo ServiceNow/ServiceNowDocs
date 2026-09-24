@@ -3,11 +3,11 @@ title: Delete an entity class using the GRC: Workbench
 description: Deleting an entioty class, deletes all relationships below it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/delete-profile-class-workbench.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use entity and risk dependencies using the GRC: Workbench, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -37,5 +37,5 @@ Role required: admin
     Deleting the entity class deletes all relationships below it.
 
 
-**Parent Topic:**[Use entity and risk dependencies using the GRC: Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/grc-workbench.md)
+**Parent Topic:**[Use entity and risk dependencies using the GRC: Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/grc-workbench.md)
 

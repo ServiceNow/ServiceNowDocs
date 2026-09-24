@@ -3,11 +3,11 @@ title: Scheduled jobs and parameters for alert grouping
 description: Automate alert organization by configuring jobs to group alerts based on predefined criteria and parameters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/alert-grp-jobs-parameters.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Alert grouping, Configure, Event Management, ITOM AIOps, IT Operati
 
 Automate alert organization by configuring jobs to group alerts based on predefined criteria and parameters.
 
-To group alerts in Automated, CMDB, Text-based, Tag Cluster, and Network Traffic Correlation groups, the scheduled job named **Service Analytics group alerts using RCA/Alert Aggregation** is typically run once per minute. This job handles the grouping of alerts based on the specified method. Additionally, you can run multiple scheduled jobs in parallel to manage alert grouping more efficiently. For further details, see [Run multiple scheduled jobs for alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/run-multiple-alert-group-scheduled-jobs.md).
+To group alerts in Automated, CMDB, Text-based, Tag Cluster, and Network Traffic Correlation groups, the scheduled job named **Service Analytics group alerts using RCA/Alert Aggregation** is typically run once per minute. This job handles the grouping of alerts based on the specified method. Additionally, you can run multiple scheduled jobs in parallel to manage alert grouping more efficiently. For further details, see [Run multiple scheduled jobs for alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/run-multiple-alert-group-scheduled-jobs.md).
 
 To define which alerts are grouped, the following parameters are used:
 
@@ -27,7 +27,7 @@ To define which alerts are grouped, the following parameters are used:
 -   **sa\_analytics.agg.query\_dynamic\_window**: By default, this is set to 10 minutes \(600 seconds\). It defines the maximum time difference allowed between the last event generation times of two alerts that can be grouped together.
 -   **sa\_analytics.agg.query\_max\_group\_lifetime**: This parameter specifies the maximum time period from the generation of the first alert to the last alert in a group, with a default of 30 minutes \(1800 seconds\). If events arrive with a delay exceeding this period, the **sa\_analytics.agg.group\_expiration\_time** parameter can be used to extend the grouping time beyond 30 minutes.
 
-**Note:** Some parameters, such as **sa\_analytics.agg.query\_dynamic\_window**, **sa\_analytics.agg.query\_max\_group\_lifetime**, and **sa\_analytics.agg.group\_expiration\_time**, are not provided out of the box. To use these properties, you need to create properties with the same names and assign the required values to them. For more information on how to create a property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+**Note:** Some parameters, such as **sa\_analytics.agg.query\_dynamic\_window**, **sa\_analytics.agg.query\_max\_group\_lifetime**, and **sa\_analytics.agg.group\_expiration\_time**, are not provided out of the box. To use these properties, you need to create properties with the same names and assign the required values to them. For more information on how to create a property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 ## Example: How alerts are grouped
 

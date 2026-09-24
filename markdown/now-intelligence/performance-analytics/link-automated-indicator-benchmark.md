@@ -3,11 +3,11 @@ title: Link an automated indicator to a benchmark
 description: To enable the comparison of indicators to ITSM and ITOM benchmarks, link an automated indicator to the corresponding benchmark KPI. A benchmark KPI can be linked to only one indicator. You can compare the linked indicators in the Analytics Hub.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/link-automated-indicator-benchmark.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Indicators, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -22,15 +22,15 @@ You must opt-in to the ServiceNow® Benchmarks application.
 
 Role required: pa\_data\_collector, pa\_power\_user, admin
 
-**Note:** If you have the sn\_bm\_client.benchmark\_admin role, you can link Performance Analytics indicators to benchmark indicators through the Benchmarks Setup interface. For instructions about linking indicators through that interface, see Link or customize a benchmark KPI.
+**Note:** If you have the sn\_bm\_client.benchmark\_admin role, you can link Performance Analytics indicators to benchmark indicators through the Benchmarks Setup interface. For instructions about linking indicators through that interface, see [Link or customize a benchmark KPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/t_CustomBenchKPIConditions.md).
 
 ## About this task
 
-Used together, benchmarking and Performance Analytics enables you to measure your enterprise ITSM and ITOM against industry standards while driving improvements across all important metrics. For more information, see [Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/benchmarks-landing.md).
+Used together, benchmarking and Performance Analytics enables you to measure your enterprise ITSM and ITOM against industry standards while driving improvements across all important metrics. For more information, see [Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/benchmarks-landing.md).
 
 ## Procedure
 
-1.  In the list of [automated indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) or the list of formula indicators, identify which benchmark indicator you want to link to which other indicator.
+1.  In the list of [automated indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) or the list of formula indicators, identify which benchmark indicator you want to link to which other indicator.
 
     Benchmark indicator names begin with the word **Benchmark**.
 
@@ -55,5 +55,5 @@ Used together, benchmarking and Performance Analytics enables you to measure you
 
 ## Result
 
-After you update the benchmark KPI record, you can compare the benchmark KPI and the automated indicator on the **Compare** tab of the Analytics Hub for the automated indicator. For more information and an example, see [Compare scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/scorecard-compare-tab.md).
+After you update the benchmark KPI record, you can compare the benchmark KPI and the automated indicator on the **Compare** tab of the Analytics Hub for the automated indicator. For more information and an example, see [Compare scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/scorecard-compare-tab.md).
 

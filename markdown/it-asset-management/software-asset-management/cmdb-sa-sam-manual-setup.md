@@ -3,7 +3,7 @@ title: Set up the SAM advisor dashboard manually
 description: If the SAM advisor dashboard was not configured automatically, set it up manually by selecting the software products that define the SAM advisor scope.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/cmdb-sa-sam-manual-setup.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
@@ -29,7 +29,7 @@ Selecting software products defines which software the CMDB success advisor moni
 
 1.  On the CMDB success advisor landing page, select **Select software products** within the SAM card.
 
-    For more information about the CMDB success advisor landing page, see [Viewing the CMDB success advisor landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-sa-landing-page.md). For information about other ways to access CMDB success advisor, see [Access CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-sa-access.md).
+    For more information about the CMDB success advisor landing page, see [Viewing the CMDB success advisor landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-sa-landing-page.md). For information about other ways to access CMDB success advisor, see [Access CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-sa-access.md).
 
 2.  In the Edit dashboard scope dialog box, use the **Search** field to find a software publisher or product.
 
@@ -56,5 +56,5 @@ The SAM data collection begins immediately via the **CMDB Advisor - SAM Daily Da
 
 Once initial data collection completes, you receive a notification indicating that insights for the software products in your SAM advisor scope are ready for review.
 
-To update the scope after initial setup, select **Edit dashboard scope** on the SAM advisor dashboard. See [Manage SAM advisor scope in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-optimize-dashboard.md).
+To update the scope after initial setup, select **Edit dashboard scope** on the SAM advisor dashboard. See [Manage SAM advisor scope in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-optimize-dashboard.md).
 

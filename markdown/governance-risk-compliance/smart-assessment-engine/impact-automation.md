@@ -3,11 +3,11 @@ title: Post-assessment automations
 description: Post-assessment automations, also known as post-assessment actions, in Smart Assessment Engine are actions that happen automatically after an assessment is complete. These actions use the responses from an assessment to automate tasks. Using action sets, automated actions, trigger conditions, and evaluation criteria, post-assessment actions can help your assessments be efficient, consistent, accurate, and scalable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/impact-automation.html
-release: australia
+release: brazil
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use template designer, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -19,8 +19,6 @@ Post-assessment automations, also known as post-assessment actions, in Smart Ass
 ## Post-assessment actions overview
 
 Post-assessment actions help automate decision-making processes. You can configure them to execute rules based on specific conditions or to run automatically without any conditions. It provides a structured and user-friendly interface to set up these rules without requiring technical expertise.
-
-**Note:** This feature is available starting with Australia Patch 2.
 
 Using post-assessment actions, the template designer can complete actions like updating fields, creating follow-up assessments, or generating other records automatically after an assessment is submitted. Post-assessment automation involves the following key components:
 
@@ -44,7 +42,7 @@ Action sets help you automate tasks by setting conditions and corresponding acti
 
 ## Automated actions
 
-Automated actions, also known as subflows, are predefined sequences of actions or processes that can be executed automatically based on certain conditions. The subflows are mapped to an action category, and the action category is mapped to a template assessment category. During the runtime of the subflow, the conditions are evaluated, and the corresponding subflows are executed. For example, if a response to a question meets a defined condition, a subflow can be triggered to create or update records, send notifications, or perform other automated tasks.
+Automated actions, also known as subflows, are predefined sequences of actions or processes that can be executed automatically based on certain conditions. The subflows are mapped to an action category, and the action category is mapped to a template assessment category. During the runtime of the subflow, the conditions are evaluated, and the corresponding subflows are executed. For example, if a response to a question meets a defined condition, a subflow is triggered. The subflow can then create or update records, send notifications, or perform other automated tasks.
 
 ## Trigger conditions
 

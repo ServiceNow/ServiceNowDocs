@@ -1,24 +1,24 @@
 ---
 title: Indirect Discovery using Service Graph Connectors
-description: ServiceNow Telecom Discovery using Service Graph Connectors \(SGC s\) integrates network infrastructure data from external management systems into the Configuration Management Database \(CMDB\).
+description: Telecom Discovery using Service Graph Connectors \(SGC s\) integrates network infrastructure data from external management systems into the Configuration Management Database \(CMDB\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-using-service-graph-connector.html
-release: australia
+release: brazil
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Telecom Discovery, Telecom Visibility, Explore, Telecommunications Service Operations Management]
 ---
 
 # Indirect Discovery using Service Graph Connectors
 
-ServiceNow Telecom Discovery using Service Graph Connectors \(SGC s\) integrates network infrastructure data from external management systems into the Configuration Management Database \(CMDB\).
+Telecom Discovery using Service Graph Connectors \(SGC s\) integrates network infrastructure data from external management systems into the Configuration Management Database \(CMDB\).
 
 This approach helps Communication Service Providers \(CSPs\) maintain a current and accurate view of their multivendor telecom network resources, services, and configurations.
 
-By leveraging predefined connectors and robust data transformation tools, you can unify your inventory across domains and confirm that the CMDB and Telecom Network Inventory \(TNI\) reflect real-time network insights aligned with your telecom data model.
+By using predefined connectors and robust data transformation tools, you can unify your inventory across domains and confirm that the CMDB and Telecom Network Inventory \(TNI\) reflect real-time network insights aligned with your telecom data model.
 
 **Note:** Telecom Service Graph Connectors are part of the TSOM Visibility subscription and extend the capabilities of the standard Service Graph Connector framework.
 
@@ -59,7 +59,7 @@ MID Server
 
 </td><td>
 
-Acts as a secure bridge between your ServiceNow instance and the external network system. For more information, see [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integrationhub-etl.md).
+Acts as a secure bridge between your ServiceNow instance and the external network system. For more information, see [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/integrationhub-etl.md).
 
 </td></tr><tr><td>
 
@@ -67,7 +67,7 @@ IntegrationHub ETL \(3.2\)
 
 </td><td>
 
-Provides a guided UI for creating, testing, and managing ETL transform maps.For more information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md).
+Provides a guided UI for creating, testing, and managing ETL transform maps.For more information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-landing.md).
 
 </td></tr><tr><td>
 
@@ -75,7 +75,7 @@ Robust Transform Engine \(RTE\)
 
 </td><td>
 
-Transforms staged source data into CMDB-compliant records using defined ETL logic. For more information, see [Create a robust import set transformer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-robust-import-set-transformer.md).
+Transforms staged source data into CMDB-compliant records using defined ETL logic. For more information, see [Create a robust import set transformer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-robust-import-set-transformer.md).
 
 </td></tr><tr><td>
 
@@ -83,7 +83,7 @@ Identification and Reconciliation Engine \(IRE\)
 
 </td><td>
 
-Ensures data consistency and prevents duplicates by identifying and reconciling CIs.For more information, see the [CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_CMDBIdentifyandReconcile.md).
+Ensures data consistency and prevents duplicates by identifying and reconciling CIs.For more information, see the [CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_CMDBIdentifyandReconcile.md).
 
 </td></tr><tr><td>
 
@@ -136,11 +136,11 @@ As a result, the discovered CI is in both the cmdb\_ci and tni\_entity tables.
 **Related topics**  
 
 
-[Telecom Discovery via Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/service-graph-connector-for-nokia-altiplano.md)
+[Telecom Discovery via Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/service-graph-connector-for-nokia-altiplano.md)
 
-[Telecom Discovery via Cisco Meraki SD-WAN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-via-cisco-meraki.md)
+[Telecom Discovery via Cisco Meraki SD-WAN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-via-cisco-meraki.md)
 
-[Telecom Discovery via Fortinet SD-WAN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-via-fortinet.md)
+[Telecom Discovery via Fortinet SD-WAN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-via-fortinet.md)
 
-[Telecom discovery via Arista VeloCloud SD-WAN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-via-arista-velocloud.md)
+[Telecom discovery via Arista VeloCloud SD-WAN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-via-arista-velocloud.md)
 

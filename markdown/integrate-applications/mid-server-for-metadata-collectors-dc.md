@@ -3,9 +3,9 @@ title: MID Server for metadata collectors
 description: When your source is behind a firewall or requires on-premises handling, deploy metadata collectors on a MID Server you host to harvest metadata from on-premises and privately networked data sources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/mid-server-for-metadata-collectors-dc.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [MID Server]
 breadcrumb: [Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
@@ -15,9 +15,9 @@ breadcrumb: [Configuring metadata collectors, Data Catalog, Workflow Data Fabric
 
 When your source is behind a firewall or requires on-premises handling, deploy metadata collectors on a MID Server you host to harvest metadata from on-premises and privately networked data sources.
 
-To harvest metadata from on-premises and privately networked data sources, you deploy metadata collectors on a MID Server within your network. This is one of two [deployment models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/metadata-collector-deployment-models.md) available for metadata collectors.
+To harvest metadata from on-premises and privately networked data sources, you deploy metadata collectors on a MID Server within your network. This is one of two [deployment models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/metadata-collector-deployment-models.md) available for metadata collectors.
 
-The Management, Instrumentation, and Discovery \(MID\) Server facilitates secure communication and data movement between your ServiceNow instance and external data sources. A configured and validated MID Server is required to connect to the data source. For more information, see the [MID Server documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md).
+The Management, Instrumentation, and Discovery \(MID\) Server facilitates secure communication and data movement between your ServiceNow instance and external data sources. A configured and validated MID Server is required to connect to the data source. For more information, see the [MID Server documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-landing.md).
 
 ## System requirements
 
@@ -38,7 +38,7 @@ The following guidelines apply when sizing and configuring the MID Server for me
 
 Consider your data volume and processing requirements when configuring your MID Server. Depending on your environment, you can adjust memory allocation to support your workload.
 
-**Note:** If you experience out-of-memory errors or performance issues, refer to the [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerSystemRequirements.md) documentation for guidance on adjusting your configuration.
+**Note:** If you experience out-of-memory errors or performance issues, refer to the [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_MIDServerSystemRequirements.md) documentation for guidance on adjusting your configuration.
 
-**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-metadata-collectors-dc.md)
+**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-metadata-collectors-dc.md)
 

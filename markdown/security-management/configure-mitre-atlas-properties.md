@@ -3,9 +3,9 @@ title: Review the MITRE ATLAS system properties
 description: Review the MITRE ATLAS system property values to configure how ATLAS information is handled in security incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/configure-mitre-atlas-properties.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [MITRE ATLAS framework, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---

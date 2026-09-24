@@ -3,7 +3,7 @@ title: Adobe Experience Platform Spoke
 description: Automate the process of managing datasets and entities in Adobe Experience Platform from your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/adobe-exp-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
@@ -63,9 +63,9 @@ The Adobe Experience Platform spoke provides actions manage datasets and entitie
 
 ## Connection and credential alias requirements
 
-Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r-credentials.md).
+Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r-credentials.md).
 
 **Note:** Two connection and credential alias records are needed for the Adobe Experience Platform spoke; one for data inlet management and batch ingestion, and other for data collection. Each alias should be associated with the respective Adobe Experience Platform API.
 
-For information about setting up the spoke, see [Set up Adobe Experience Platform spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-aep-spoke.md).
+For information about setting up the spoke, see [Set up Adobe Experience Platform spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-aep-spoke.md).
 

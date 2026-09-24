@@ -3,11 +3,11 @@ title: Exploring the Industrial Workspace
 description: The Industrial Workspace is a user interface that provides Operational Technology \(OT\) users with the tools they need to manage their OT data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/exploring-industrial-workspace.html
-release: australia
+release: brazil
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Industrial Workspace, Operational Technology]
 ---
@@ -88,18 +88,18 @@ Equipment Model Manager
 When you select the **Equipment Model** icon, \[Omitted image "equip-model-manager-button.png"\] Alt text:, you're taken to the Equipment Model Manager, where you can view your sites and their equipment model data.
 
 </td></tr></tbody>
-</table>-   **[Operational Technology Action-Oriented Landing Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/oper-tech-task-oriented-landing-page.md)**  
+</table>-   **[Operational Technology Action-Oriented Landing Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/oper-tech-task-oriented-landing-page.md)**  
 You can use the Operational Technology \(OT\) Action-Oriented Landing Page to track critical tasks related to your OT network.
--   **[Dashboard Library in the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/dashboard-library-industrial-workspace.md)**  
+-   **[Dashboard Library in the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/dashboard-library-industrial-workspace.md)**  
 The Dashboard Library in the Industrial Workspace contains the Operational Technology Visibility dashboard, the Operational Technology Vulnerability Response \(PA\) dashboard, and the Operational Technology Vulnerability Risk Rollup dashboard.
--   **[Operational Technology Progress Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/ot-progress-scorecard.md)**  
+-   **[Operational Technology Progress Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/ot-progress-scorecard.md)**  
 The Operational Technology \(OT\) Progress Scorecard lets you compare device and vulnerable item data between your sites.
--   **[Operational Technology Unified Map experience in the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/unified-maps-experience-iw.md)**  
+-   **[Operational Technology Unified Map experience in the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/unified-maps-experience-iw.md)**  
 The Operational Technology \(OT\) Unified Map available in the Industrial Workspace provides a unified experience to view the relationships between devices and other configuration items \(CIs\), and view related items, like OT incidents and change requests.
--   **[Operational Technology Hardware Vulnerability Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/understanding-hwd-vuln-assessment.md)**  
+-   **[Operational Technology Hardware Vulnerability Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/understanding-hwd-vuln-assessment.md)**  
 The Operational Technology \(OT\) Hardware Vulnerability Assessment \(HVA\) application enables you to assess the firmware vulnerabilities of the OT devices in inventory and create vulnerable items \(VIT\) against the impacted OT devices.
--   **[Operational Technology Network Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/utilizing-ot-network-map.md)**  
+-   **[Operational Technology Network Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/utilizing-ot-network-map.md)**  
 The Operational Technology \(OT\) Network Map is an interactive map that visualizes your OT network through connected nodes.
 
-**Parent Topic:**[Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/industrial-workspace-for-operational-technology.md)
+**Parent Topic:**[Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/industrial-workspace-for-operational-technology.md)
 

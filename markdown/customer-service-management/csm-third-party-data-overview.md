@@ -3,9 +3,9 @@ title: Third-party data integration solution overview
 description: A typical enterprise ecosystem includes enterprise resource planning \(ERP\), sales management, and service management systems. There are multiple options for implementing the integrations between these systems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-third-party-data-overview.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Third-party data integration for CSM, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---

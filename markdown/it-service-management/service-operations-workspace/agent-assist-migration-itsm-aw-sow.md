@@ -3,11 +3,11 @@ title: Migration of Agent assist from ITSM Agent Workspace to Service Operations
 description: Migration of the Agent assist from ITSM Agent Workspace to Service Operations Workspace \(SOW\) include identifying the required tables, eligible form header records for migrations and the migrations process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/agent-assist-migration-itsm-aw-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configure and customize the migration to SOW, Migrate from ITSM Agent Workspace to Service Operations Workspace for ITSM, Migration from ITSM Agent Workspace to Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -70,10 +70,10 @@ The SOW migration utility uses the following sequence to migrate Agent assist fr
 3.  If multiple configurations exist for same table, the SOW migration utility migrates the one that was most recently updated.
 4.  If an active configuration is not found in the table then the sow configuration remains same and is not updated.
 
--   **[Perform post-migration tasks for Agent assist configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/verify-migration-status-agent-assist.md)**  
+-   **[Perform post-migration tasks for Agent assist configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/verify-migration-status-agent-assist.md)**  
 Verify that the Agent assist configurations in Service Operations Workspace \(SOW\) are consistent with the Agent assist configurations in ITSM Agent Workspace \(ITSM AW\) and are ready for use in SOW. You can update the migrated Agent assist configuration settings in SOW based on your requirements.
 
-**Parent Topic:**[Configurations and customizations that can be migrated from ITSM Agent workspace to SOW for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configurations-and-customizations-from-itsm-aw-sow-itsm.md)
+**Parent Topic:**[Configurations and customizations that can be migrated from ITSM Agent workspace to SOW for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configurations-and-customizations-from-itsm-aw-sow-itsm.md)
 
 **Related topics**  
 

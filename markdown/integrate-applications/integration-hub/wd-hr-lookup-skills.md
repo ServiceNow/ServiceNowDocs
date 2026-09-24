@@ -3,7 +3,7 @@ title: Create report to extract skills
 description: Create report to extract skill \(maintains skills and skill cloud skills\) details from Workday based on the time duration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/wd-hr-lookup-skills.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task

@@ -3,11 +3,11 @@ title: AI Search Configuration AI agent
 description: Responsible for managing the end-to-end process of formally configuring AI Search for ServiceNow internal tables. This agent is invoked whenever a user mentions ServiceNow internal tables in the context of AI Search.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ais-ai-search-configuration-agent-ai-agent.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [AI Search AI agents, AI Search, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [AI Search AI agents, AI Search, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # AI Search Configuration AI agent
@@ -53,7 +53,7 @@ Manage long-term memory
 
 </td><td>
 
-When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-aia-reference.md).
+When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/na-aia-reference.md).
 
 </td></tr><tr><td>
 
@@ -100,7 +100,7 @@ Triggers
 
 </td><td>
 
-Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-trigger-aia.md).
+Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-trigger-aia.md).
 
 </td></tr><tr><td>
 
@@ -108,7 +108,7 @@ Channels
 
 </td><td>
 
-Configure an assistant for Virtual Agent or ServiceNow Otto panel using [Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
+Configure an assistant for Virtual Agent or ServiceNow Otto panel using [Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md).
 
 </td></tr><tr><td>
 
@@ -119,7 +119,7 @@ Used in agentic workflows
 Not applicable.
 
 </td></tr></tbody>
-</table>Learn more about AI Search at [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/overview-ais.md).
+</table>Learn more about AI Search at [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/overview-ais.md).
 
-**Parent Topic:**[AI Search AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-search-ai-agents-overview.md)
+**Parent Topic:**[AI Search AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-search-ai-agents-overview.md)
 

@@ -3,11 +3,11 @@ title: Windows probes and permissions
 description: Discovery accesses devices and software by executing commands as a specific user on Windows computers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/r\_DiscoWinProbesAndPermissions.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 breadcrumb: [List of Discovery probes, Discovery probes and sensors, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [List of Discovery probes, Discovery probes and sensors, Using Disco
 
 Discovery accesses devices and software by executing commands as a specific user on Windows computers.
 
-**Important:** Use patterns to run Discovery on Windows devices. The legacy Windows probes on this page are outdated and should no longer be used for Discovery. To use patterns, see [Add the Horizontal Pattern probe to a classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md).
+**Important:** Use patterns to run Discovery on Windows devices. The legacy Windows probes on this page are outdated and should no longer be used for Discovery. To use patterns, see [Add the Horizontal Pattern probe to a classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md).
 
 Most probes require access to Windows classes, properties, and registry entries. Certain probes also require additional access to Windows directories and resources. Security policies vary by organization, so there’s no one specific role or right to grant. Verify that the Windows user has `local admin` permission for these Windows components.
 
@@ -24,7 +24,7 @@ Most probes require access to Windows classes, properties, and registry entries.
 
 Windows administrative shares are hidden server resources that Discovery uses to store temporarily the results of processes run by specific probes. The MID Server script file **LaunchProc.psm1** launches the process, writes its output to the administrative share on the machine, and then retrieves the results for the MID Server. Access to administrative shares is restricted to users with administrative rights to the target. For example: Users, local or on the domain, who belong to the local administrators group.
 
-With the New York release, all Windows probes using the WMI protocol call the **LaunchProc.psm1** script file and write to the admin$ share folder as default. If another network share is mounted on each Windows target, the folder could be changed by updating the [MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerProperties.md) **mid.powershell.target\_base\_dir**.
+With the New York release, all Windows probes using the WMI protocol call the **LaunchProc.psm1** script file and write to the admin$ share folder as default. If another network share is mounted on each Windows target, the folder could be changed by updating the [MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_MIDServerProperties.md) **mid.powershell.target\_base\_dir**.
 
 ## Windows Classes
 
@@ -446,10 +446,10 @@ Several Windows Registry entries are available for Discovery Windows probes.
 |Windows - Installed Software|`HKEY_USERS/*/SOFTWARE/Microsoft/Windows/CurrentVersion/Uninstall/*/Publisher`|
 |Windows - Installed Software|`HKEY_USERS/*/SOFTWARE/Microsoft/Windows/CurrentVersion/Uninstall/*/UninstallString`|
 
-**Parent Topic:**[List of Discovery probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_ListOfDiscoveryProbes.md)
+**Parent Topic:**[List of Discovery probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_ListOfDiscoveryProbes.md)
 
 **Related topics**  
 
 
-[Discovery commands for probes and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-command-probe-pattern.md)
+[Discovery commands for probes and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-command-probe-pattern.md)
 

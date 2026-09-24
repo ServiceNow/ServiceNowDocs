@@ -3,11 +3,11 @@ title: Oracle Linux Virtualization Manager and Red Hat Virtualization discovery
 description: The ServiceNow Discovery application uses patterns to find Oracle Linux Virtualization Manager \(OLVM\) and Red Hat Virtualization \(RHV\) components. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/red-hat-virtualization-discovery.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 keywords: [Oracle Linux Virtualization Manager discovery, OLVM discovery, Oracle Linux Virtualization Manager patterns, OLVM patterns, Red Hat Virtualization discovery, Red Hat Virtualization patterns, RHV discovery, RHV patterns]
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
@@ -82,7 +82,7 @@ The OLVM and RHV patterns introduce the following CI classes that are part of th
     -   /ovirt-engine/api/networks
 -   **Add CMDB CI Class Models**
 
-    Add class models that extend the CMDB class hierarchy, using the CMDB CI Class Models application. The app is available from the ServiceNow Store. Discovery patterns use these class extensions to populate CIs. For more information, see [Red Hat Virtualization \(RHV\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models-redhat-rhv.md).
+    Add class models that extend the CMDB class hierarchy, using the CMDB CI Class Models application. The app is available from the ServiceNow Store. Discovery patterns use these class extensions to populate CIs. For more information, see [Red Hat Virtualization \(RHV\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-ci-class-models-redhat-rhv.md).
 
 -   **Create a cloud service account**
 
@@ -137,7 +137,7 @@ The datacenter type, which should be oVirt LDC \[cmdb\_ci\_rhv\_ldc\].
 </td></tr></tbody>
 </table>-   **Create a discovery schedule**
 
-    For more information, see [Create an oVirt Discovery schedule in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-ovirt-schedule-DAW.md).
+    For more information, see [Create an oVirt Discovery schedule in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/create-ovirt-schedule-DAW.md).
 
 -   **\(Optional\) Populate Service Account and Logical Datacenter fields in cloud CIs**
 
@@ -294,5 +294,5 @@ The OLVM and RHV patterns create the following relationships and references to s
 |---|-----|-------------|
 |IP Address \[cmdb\_ci\_ip\_address\]|Nic \[nic\]|Cloud Mgmt Network Interface \[cmdb\_ci\_nic\]|
 
-**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

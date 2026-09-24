@@ -3,11 +3,11 @@ title: Reschedule existing appointments
 description: Reschedule existing appointments and choose the preferred method, date, time slot, or vaccination center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/vaccine-administration-management/reschedule-existing-appointment.html
-release: australia
+release: brazil
 product: Vaccine Administration Management
 classification: vaccine-administration-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage user appointments as a clinician or a vaccine agent, Use Vaccine Administration Management, Vaccine Administration Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -46,5 +46,5 @@ As a user with the sn\_vaccine\_sm.clinician role, you can also perform the foll
 -   **Mark as complete**
 -   **Mark as no-show**
 
-**Parent Topic:**[Manage user appointments as a clinician or a vaccine agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/user-appt-mngt-clinicans-agents.md)
+**Parent Topic:**[Manage user appointments as a clinician or a vaccine agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/vaccine-administration-management/user-appt-mngt-clinicans-agents.md)
 

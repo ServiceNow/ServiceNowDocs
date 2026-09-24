@@ -3,11 +3,11 @@ title: Configure chat recommendation
 description: Use the guided setup in the AI Admin Hub console to configure chat recommendation by defining triggers, specifying inputs, setting the display location, and activating the feature.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/configure-chat-reply-recommendation-in-now-assist\_0.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---

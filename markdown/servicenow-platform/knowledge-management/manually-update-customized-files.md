@@ -3,11 +3,11 @@ title: Manually update customized files
 description: If you have customized any of the files that are updated as part of the Knowledge Management Advanced Installer plugin, these files are skipped during plugin activation and must be updated manually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/manually-update-customized-files.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use article versioning, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,5 +24,5 @@ Manually update your customization to include the article versioning-related cha
 
 If you have customized any of the Knowledge Management Overview dashboard reports, these files are also skipped during plugin activation and must be updated manually.
 
-**Parent Topic:**[Use article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/use-article-versioning_0.md)
+**Parent Topic:**[Use article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/use-article-versioning_0.md)
 

@@ -3,13 +3,13 @@ title: AES instance strategy
 description: You should install App Engine Studio \(AES\) on all ServiceNow instances where users will develop applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/aes-instance-strategy.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Installing, Configure, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Installing, Configure, App Engine Studio, Developing your application, Building applications]
 ---
 
 # AES instance strategy
@@ -24,9 +24,9 @@ You will need to establish your company's instance strategy for AES. Some of the
 
 A non-production instance that is similarly configured to your production instance may be the best candidate for your test environment. You can then more accurately find issues that may arise if the application is deployed to production.
 
-**Note:** If you plan on cloning your production instance to one or more non-production instances, you should also install the AES product on your production instance prior to cloning. For more information, see [Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-clone-landing.md) and [Cloning instances with AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/cloning-aes-applications.md).
+**Note:** If you plan on cloning your production instance to one or more non-production instances, you should also install the AES product on your production instance prior to cloning. For more information, see [Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-clone-landing.md) and [Cloning instances with AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/cloning-aes-applications.md).
 
-After you have established your instance strategy, you must also establish and automate your approval or review process. AES is a product that runs on your non-production environment. For an organization with multiple non-production environments, you will need to decide which non-production environment AES will run on. You must also determine which pipeline to use for promoting apps from a particular non-production instance to your test instance, and then finally to production where the app will be running live. For more information, see [Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/manage-deployments-using-p-and-d-aemc.md).
+After you have established your instance strategy, you must also establish and automate your approval or review process. AES is a product that runs on your non-production environment. For an organization with multiple non-production environments, you will need to decide which non-production environment AES will run on. You must also determine which pipeline to use for promoting apps from a particular non-production instance to your test instance, and then finally to production where the app will be running live. For more information, see [Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/manage-deployments-using-p-and-d-aemc.md).
 
-**Parent Topic:**[Installing App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/install-aes.md)
+**Parent Topic:**[Installing App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/install-aes.md)
 

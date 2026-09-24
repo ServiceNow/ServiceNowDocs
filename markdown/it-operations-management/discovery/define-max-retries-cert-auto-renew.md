@@ -1,9 +1,9 @@
 ---
-title: Define maximum retries allowed for certificate auto-renewal
+title: Define maximum retries for auto-renewal
 description: Use the system property sn\_disco\_certmgmt.auto\_renewal\_max\_retries to set the maximum retries your system enables for automatic certificate renewal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/define-max-retries-cert-auto-renew.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Configuring automated certificate renewal, Automated certificate renewal, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Define maximum retries allowed for certificate auto-renewal
+# Define maximum retries for auto-renewal
 
 Use the system property sn\_disco\_certmgmt.auto\_renewal\_max\_retries to set the maximum retries your system enables for automatic certificate renewal.
 

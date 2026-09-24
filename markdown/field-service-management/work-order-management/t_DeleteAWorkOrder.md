@@ -3,11 +3,11 @@ title: Delete a work order
 description: For tracking purposes, you should close or cancel an existing work order that is no longer in use. Closed and canceled work orders are inactive and don't appear on work order lists. Avoid deleting a work order unless you're cleaning up errors, such as duplicate work orders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/t\_DeleteAWorkOrder.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage work orders, Prepare work orders, Use, Field Service Management]
 ---

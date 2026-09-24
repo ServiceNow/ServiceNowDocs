@@ -3,9 +3,9 @@ title: Delete a pricing plan step
 description: Remove a pricing step from a configurable pricing plan when the plan is in the Draft state.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/delete-pricing-plan-step.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configurable pricing plans, Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---

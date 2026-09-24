@@ -3,9 +3,9 @@ title: Configure related parties for Items Received
 description: Add related parties to an item received in the Public Sector Digital Services application so that the contacts, businesses, constituents, or agencies can get the correct access level to perform the actions that they need for a case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-add-related-parties-to-record.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [User management, Set up your environment, Configure, Public Sector Digital Services \(PSDS\)]
 ---

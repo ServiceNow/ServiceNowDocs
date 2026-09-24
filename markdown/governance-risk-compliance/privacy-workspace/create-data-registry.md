@@ -3,11 +3,11 @@ title: Create a data registry
 description: Create a repository of the users and specify the owners of various applications. This repository helps to identify which user must be assigned the personal data rights \(PDR\) request tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/create-data-registry.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Personal Data Rights \(PDR\), Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -50,11 +50,7 @@ Requester type
 
 </td><td>
 
-Type of personal data stored. The choices are:-   **Customer**
--   **Employee**
--   **Ex-Employee**
--   **Prospect**
-
+Type of personal data stored. Select one or more from the active data subject types configured for the application.
 
 </td></tr><tr><td>
 
@@ -118,5 +114,5 @@ User responsible for the PDR request.
 
 When the PDR agents generate tasks, based on the registry, the action tasks will be created for the various task owners.
 
-**Parent Topic:**[Configuring Personal Data Rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/configuring-personal-data-rights.md)
+**Parent Topic:**[Configuring Personal Data Rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/configuring-personal-data-rights.md)
 

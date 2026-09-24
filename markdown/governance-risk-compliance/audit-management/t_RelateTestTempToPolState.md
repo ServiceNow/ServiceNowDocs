@@ -3,11 +3,11 @@ title: Relate a test template to a control objective
 description: Audit owners can create generic control test templates for a control objective, avoiding the creation of individual control test plans for every control.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/t\_RelateTestTempToPolState.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Audit Test Template and Plans, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
@@ -31,5 +31,5 @@ Role required: sn\_audit.admin or sn\_audit.manager
     \[Omitted image "audit-test-template-c-b.png"\] Alt text: Test template control objectives update.
 
 
-**Parent Topic:**[Manage test templates and test plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/c_AuditTesting.md)
+**Parent Topic:**[Manage test templates and test plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/c_AuditTesting.md)
 

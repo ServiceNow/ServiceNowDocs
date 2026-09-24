@@ -3,9 +3,9 @@ title: Enable voice search
 description: Enable your users to search for items, articles, and people using native speech recognition from an app on their mobile device.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/turn-on-voice-search.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Global search, Launcher screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---

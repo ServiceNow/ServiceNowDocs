@@ -3,9 +3,9 @@ title: Integrating contact centers with Interaction Controls Component \(ICC\) f
 description: The callback interaction feature built on the Interaction Controls Component \(ICC\) supports callback voice interactions directly within the ServiceNow configurable workspace. The workspace provides agents with callback voice interaction and callback control features in a unified view, resulting in improved productivity and enhanced customer experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/interaction-controls-component-icc-callback-integration-features.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Callback, CCaaS callback, ICC Callback, Callback requests]
 breadcrumb: [Integrating with contact centers, Integrate, Customer Service Management]
@@ -40,16 +40,16 @@ Contact Center platforms provide a callback feature that lets callers keep their
     \[Omitted image "ccaas-callback-agent-first.png"\] Alt text: Agent-first mode: Immediate callback request on IVR – Agent preview before dialing the customer
 
 
-The Interaction Controls Component \(ICC\) for callbacks feature enables CCaaS providers to display callback interactions so agents can manage customer calls directly from their configurable workspace. For more information on how to handle CCaaS callback requests, see [Manage a CCaaS callback request in the Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ccaas-address-callback-requests.md) and [Manage a CCaaS callback request using Global Voice Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/handle-ccaas-callback-gvc.md).
+The Interaction Controls Component \(ICC\) for callbacks feature enables CCaaS providers to display callback interactions so agents can manage customer calls directly from their configurable workspace. For more information on how to handle CCaaS callback requests, see [Manage a CCaaS callback request in the Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ccaas-address-callback-requests.md) and [Manage a CCaaS callback request using Global Voice Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/handle-ccaas-callback-gvc.md).
 
 **Note:**
 
-To manage and activate the ICC integration for callbacks, see [Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-icc-for-ccaas.md) and [Plugin requirements for voice and callback integrations with contact centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/plugin-requirements-for-external-call-routing-integration-for-contact-centers.md).
+To manage and activate the ICC integration for callbacks, see [Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/enable-icc-for-ccaas.md) and [Plugin requirements for voice and callback integrations with contact centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/plugin-requirements-for-external-call-routing-integration-for-contact-centers.md).
 
 **Related topics**  
 
 
-[Manage a CCaaS callback request in the Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ccaas-address-callback-requests.md)
+[Manage a CCaaS callback request in the Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ccaas-address-callback-requests.md)
 
-[Manage a CCaaS callback request using Global Voice Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/handle-ccaas-callback-gvc.md)
+[Manage a CCaaS callback request using Global Voice Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/handle-ccaas-callback-gvc.md)
 

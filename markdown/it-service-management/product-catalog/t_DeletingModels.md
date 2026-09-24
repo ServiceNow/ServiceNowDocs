@@ -3,11 +3,11 @@ title: Delete models
 description: If a model is no longer needed, you can delete it as long as no assets or configuration items use the model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/product-catalog/t\_DeletingModels.html
-release: australia
+release: brazil
 product: Product Catalog
 classification: product-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Models, Product Catalog, Asset Management common applications, IT Service Management]
 ---
@@ -31,5 +31,5 @@ Role required: model\_manager
 4.  Click **OK**.
 
 
-**Parent Topic:**[Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/c_Models.md)
+**Parent Topic:**[Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/product-catalog/c_Models.md)
 

@@ -3,9 +3,9 @@ title: Configure Individual Life Servicing
 description: Review the components that are installed with the Individual Life Servicing application and modify as needed for your organization's business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/configure-individual-life-servicing.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Individual Life Servicing, Life Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -16,7 +16,7 @@ Review the components that are installed with the Individual Life Servicing appl
 
 ## Before you begin
 
-Make sure that the Configure Individual Life Servicing application is installed. For more information, see [Install Individual Life Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/install-individual-life-servicing.md).
+Make sure that the Configure Individual Life Servicing application is installed. For more information, see [Install Individual Life Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/install-individual-life-servicing.md).
 
 Role required: sn\_ins\_indiv\_life.admin or admin
 
@@ -24,99 +24,99 @@ Role required: sn\_ins\_indiv\_life.admin or admin
 
 1.  Import your financial accounts, financial products, financial institutions, and transactions data into ServiceNow tables.
 
-    For more information, see [Import your financial data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/import-financial-accounts-products-institutions.md).
+    For more information, see [Import your financial data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/import-financial-accounts-products-institutions.md).
 
 2.  Review the installed components and modify them or add new ones as applicable.
 
-<table><thead><tr><th align="left" id="d30213e129">
+<table><thead><tr><th align="left" id="d30236e129">
 
 Task
 
-</th><th align="left" id="d30213e132">
+</th><th align="left" id="d30236e132">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d30213e141">
+</th></tr></thead><tbody><tr><td id="d30236e141">
 
 **Configure service definitions**
 
 </td><td>
 
-[Configure service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-service-definitions.md) to enable unique flows and views for policy service case and task. You should configure service definitions for:-   Individual Life Servicing
+[Configure service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-service-definitions.md) to enable unique flows and views for policy service case and task. You should configure service definitions for:-   Individual Life Servicing
 -   Individual Life Underwriting
 
 
-</td></tr><tr><td id="d30213e172">
+</td></tr><tr><td id="d30236e172">
 
 **Configure record producers**
 
 </td><td>
 
-[Create or modify record producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/create-modify-record-producers-fso-apps.md) to define request forms.
+[Create or modify record producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/create-modify-record-producers-fso-apps.md) to define request forms.
 
-</td></tr><tr><td id="d30213e191">
+</td></tr><tr><td id="d30236e191">
 
 **Create flows**
 
 </td><td>
 
-[Create flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-flow-designer-flows-fso-apps.md) using Workflow Studio.
+[Create flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-flow-designer-flows-fso-apps.md) using Workflow Studio.
 
-</td></tr><tr><td id="d30213e214">
+</td></tr><tr><td id="d30236e214">
 
 **Configure playbooks**
 
 </td><td>
 
-[Edit or create a new playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-playbooks-fso-apps.md) using Playbooks.
+[Edit or create a new playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-playbooks-fso-apps.md) using Playbooks.
 
-</td></tr><tr><td id="d30213e236">
+</td></tr><tr><td id="d30236e236">
 
 **Configure CRM Workspace**
 
 </td><td>
 
-[Configure CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-csm-workspace-fso-apps.md) to enable requesters, contributors, and processors to interact with customers, and create and work on cases.
+[Configure CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-csm-workspace-fso-apps.md) to enable requesters, contributors, and processors to interact with customers, and create and work on cases.
 
-</td></tr><tr><td id="d30213e263">
+</td></tr><tr><td id="d30236e263">
 
 **Modify interceptors and workspace record type selectors**
 
 </td><td>
 
-[Modify interceptors and workspace record type selectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-request-types-fso.md) to configure policy request types.
+[Modify interceptors and workspace record type selectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-request-types-fso.md) to configure policy request types.
 
-</td></tr><tr><td id="d30213e282">
+</td></tr><tr><td id="d30236e282">
 
 **Configure user groups**
 
 </td><td>
 
-[Configure user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-groups-fso.md) for assignment of cases and tasks. You can also assign roles to groups and users.
+[Configure user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-groups-fso.md) for assignment of cases and tasks. You can also assign roles to groups and users.
 
-</td></tr><tr><td id="d30213e301">
+</td></tr><tr><td id="d30236e301">
 
 **Configure assignment rules**
 
 </td><td>
 
-[Configure assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-assignment-rules-fso-applications.md) to identify cases that meet certain conditions and then route those cases to agents.
+[Configure assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-assignment-rules-fso-applications.md) to identify cases that meet certain conditions and then route those cases to agents.
 
-</td></tr><tr><td id="d30213e317">
+</td></tr><tr><td id="d30236e317">
 
 **Configure Service Level Agreements \(SLAs\)**
 
 </td><td>
 
-[Configure the installed SLAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-sla-definitions-fso-cases.md) to configure SLA timings for policy service cases and tasks.
+[Configure the installed SLAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-sla-definitions-fso-cases.md) to configure SLA timings for policy service cases and tasks.
 
-</td></tr><tr><td id="d30213e337">
+</td></tr><tr><td id="d30236e337">
 
 **Configure Document Processor**
 
 </td><td>
 
-[Configure Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configuring-fso-document-processor.md) for document categories, document types, inbound and outbound document rules, and approval rules for document deferments and exceptions.
+[Configure Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configuring-fso-document-processor.md) for document categories, document types, inbound and outbound document rules, and approval rules for document deferments and exceptions.
 
 </td></tr></tbody>
 </table>

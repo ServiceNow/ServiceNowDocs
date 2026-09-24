@@ -3,11 +3,11 @@ title: Playbook for Manual Phishing
 description: The Manual Phishing Playbook provides step-by-step guidance for your analysts on how they can manually resolve specific types of security threats in your phishing activities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-manual-phishing.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Process-based Playbooks, Security Incident Response playbooks, Playbook Resources, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -35,12 +35,12 @@ Once you mark a task complete in a stage, you can move to the next task. You can
 
 After you complete all the tasks, you’re asked to review the details you entered in all the stages. You can choose to edit any field or click Finish to complete the process of creating the entitlement.
 
--   **[Create playbooks for Manual Phishing in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-process-manual-phishing.md)**  
+-   **[Create playbooks for Manual Phishing in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/create-process-manual-phishing.md)**  
 Use these steps to create playbooks for Manual Phishing in Workflow Studio.
--   **[Using the Manual Phishing playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-manual-phishing-playbook.md)**  
+-   **[Using the Manual Phishing playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/using-manual-phishing-playbook.md)**  
 Use these steps to learn how you can use the Manual Phishing playbook in the SIR Analyst Workspace and its capabilities.
--   **[Workspace Playbook summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-workspace-playbook-summary.md)**  
+-   **[Workspace Playbook summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/sir-workspace-playbook-summary.md)**  
 The following describes the process summary.
 
-**Parent Topic:**[Process-based Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbooks-process-based.md)
+**Parent Topic:**[Process-based Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/playbooks-process-based.md)
 

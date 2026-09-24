@@ -3,11 +3,11 @@ title: Scoring in Strategic Planning
 description: Scoring enables you to prioritize items, such as epics, projects, demands, initiatives, strategic programs, and other planning items, based on a defined quantitative metric.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/scoring-in-strategic-planning.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Explore, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -103,12 +103,12 @@ The WSJF score is calculated with this formula:
 WSJF Score = (User Business value + Time criticality + Risk reduction)/Job Size
 ```
 
-To get started with Scoring your planning items in Strategic Planning, see [Scoring planning items in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/using-scoring-frameworks-in-startegic-planning-workspace.md).
+To get started with Scoring your planning items in Strategic Planning, see [Scoring planning items in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/using-scoring-frameworks-in-startegic-planning-workspace.md).
 
-**Parent Topic:**[Exploring Portfolio Planning in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/alignment-planner-workspace.md)
+**Parent Topic:**[Exploring Portfolio Planning in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/alignment-planner-workspace.md)
 
 **Related topics**  
 
 
-[Custom scoring frameworks in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/custom-scoring-frameworks-in-strategic-planning.md)
+[Custom scoring frameworks in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/custom-scoring-frameworks-in-strategic-planning.md)
 

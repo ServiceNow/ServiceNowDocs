@@ -3,9 +3,9 @@ title: Configuring paths with conditions whether the amount is debited or not
 description: Configure paths with conditions to determine the next question or guidance node that is displayed in a decision tree.Configure a path for the amount-debited condition for the next guidance node.Configure a path for the amount-not-debited condition for the next question node.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configuring-paths-for-next-nodes.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Example configuration of a decision tree, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -52,7 +52,7 @@ When a customer answers that the amount is debited from the credit card, the pat
 
 ### What to do next
 
-[Configure a guidance node](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-guidance-node-initiate-transaction-tracking.md) that allows agents to initiate the transaction tracking for a failed transaction.
+[Configure a guidance node](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-guidance-node-initiate-transaction-tracking.md) that allows agents to initiate the transaction tracking for a failed transaction.
 
 ## Configure the path for the amount-not-debited condition
 
@@ -89,5 +89,5 @@ When a customer answers that the amount isn’t debited from the credit card, th
 
 ### What to do next
 
-[Configure a question node](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-question-node-to-ask-failure-codes.md) to ask for the failure codes that customer received after the failed transaction.
+[Configure a question node](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-question-node-to-ask-failure-codes.md) to ask for the failure codes that customer received after the failed transaction.
 

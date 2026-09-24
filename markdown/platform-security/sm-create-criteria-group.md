@@ -3,9 +3,9 @@ title: Create a secret group with criteria
 description: Create a secret group with criteria to organize secrets entered in Password2 fields automatically when they share a common criteria, such as table, scope, or application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/sm-create-criteria-group.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Secrets Management dashboard, Secrets Management, Platform Security]
 ---
@@ -18,7 +18,7 @@ Create a secret group with criteria to organize secrets entered in Password2 fie
 
 Role required: admin, KMF\_admin, sn\_secrets.secret\_manager, and sn\_kmf.cryptographic\_manager
 
-Secrets within this type of secret group must all share common criteria. For groups without this restriction, consider creating a basic secret group. Learn about creating a basic secret group in [Create a basic secret group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/sm-create-basic-group.md).
+Secrets within this type of secret group must all share common criteria. For groups without this restriction, consider creating a basic secret group. Learn about creating a basic secret group in [Create a basic secret group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/sm-create-basic-group.md).
 
 ## Procedure
 
@@ -97,7 +97,7 @@ Crypto Module
 
 </td><td>
 
-Select the cryptographic module to use with this group. This module encrypts and decrypts your data. This field is only visible when **Autogen Module** isn’t selected. For details on module access policies, see [Module access policy overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/module_access_policy_overview.md) **Note:** You can review the module access policies related to your secret group using the **Manage instance access** button.
+Select the cryptographic module to use with this group. This module encrypts and decrypts your data. This field is only visible when **Autogen Module** isn’t selected. For details on module access policies, see [Module access policy overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platform-encryption/module_access_policy_overview.md) **Note:** You can review the module access policies related to your secret group using the **Manage instance access** button.
 
 </td></tr></tbody>
 </table>    **Note:** Depending on your configuration, the **Crypto Module** might use an automatically selected value.
@@ -197,9 +197,9 @@ Value to filter by, based on the column selected in the **Filter Column** field.
 
 ## What to do next
 
-After creating your group, any new records matching the criteria will be encrypted. To encrypt existing records using this group's cryptographic module, you must run a security job. For details, see [Run Secrets Management security jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/sm-security-jobs.md).
+After creating your group, any new records matching the criteria will be encrypted. To encrypt existing records using this group's cryptographic module, you must run a security job. For details, see [Run Secrets Management security jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/sm-security-jobs.md).
 
-Client-accessible groups need a customer-provided public key to encrypt your secrets. For steps on uploading this key, see [Upload a public key for Secrets Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/sm-upload-key.md).
+Client-accessible groups need a customer-provided public key to encrypt your secrets. For steps on uploading this key, see [Upload a public key for Secrets Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/sm-upload-key.md).
 
-**Parent Topic:**[Secrets Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/secrets-dashboard.md)
+**Parent Topic:**[Secrets Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/secrets-dashboard.md)
 

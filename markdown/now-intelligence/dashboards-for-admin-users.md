@@ -3,9 +3,9 @@ title: Dashboards for analytics admins
 description: Use Platform Analytics dashboards to access, organize, and share data in a visual format. Dashboards contain data visualizations, filters, and other visual elements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/dashboards-for-admin-users.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Explore, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -16,7 +16,7 @@ Use Platform Analytics dashboards to access, organize, and share data in a visua
 
 ## Dashboard overview for analytics admins
 
-On Australia instances, you can find both Core UI dashboards and Platform Analytics experience dashboards in the Dashboards library.
+On Brazil instances, you can find both Core UI dashboards and Platform Analytics experience dashboards in the Dashboards library.
 
 To find dashboards in Platform Analytics, navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**. For users with admin roles, the dashboards page includes tools that are designed to help administrators efficiently manage the dashboards. Administrators can monitor the usage, perform dashboard-specific tasks, such as deleting or deactivating dashboards, and also identify the key insights with filters.
 
@@ -28,9 +28,9 @@ Library pages like this one include a navigation pane that provides access to th
 
 ## Dashboards for analytics admins
 
-The following example shows the Dashboards library that includes all the common and additional elements that are visible to the users with sys\_admin and dashboard\_admin roles only. See [Dashboard elements for users with admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dashboards-for-admin-users.md) table for descriptions.
+The following example shows the Dashboards library that includes all the common and additional elements that are visible to the users with sys\_admin and dashboard\_admin roles only. See [Dashboard elements for users with admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/dashboards-for-admin-users.md) table for descriptions.
 
-For information on role-based access for the left navigation pane and Platform Analytics overview page, see [Roles applicable for Platform Analytics overview page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center.md).
+For information on role-based access for the left navigation pane and Platform Analytics overview page, see [Roles applicable for Platform Analytics overview page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/analytics-center.md).
 
 \[Omitted image "analytics-center-db-tab.png"\] Alt text: Platform Analytics Dashboards library for analytics admins.
 
@@ -58,7 +58,7 @@ Description
 
 </td><td>
 
-Option for creating dashboards. For more information on creating dashboards, see [Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-db-in-ac.md).
+Option for creating dashboards. For more information on creating dashboards, see [Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-db-in-ac.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -70,8 +70,8 @@ Option for creating dashboards. For more information on creating dashboards, see
 
 </td><td>
 
-Option for filtering the Dashboards list to display the data based on the following conditions:-   **Bookmarked**: Your bookmarked dashboards. By bookmarking your dashboards, you can find them. For more information about bookmarking dashboards, see [Bookmark a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/bookmark-dashboard-ac.md).
--   **Certified**: Dashboards that an administrator has certified \(company approved and recommended for use\). For more information, see [Certify a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/certify-db-ac.md).
+Option for filtering the Dashboards list to display the data based on the following conditions:-   **Bookmarked**: Your bookmarked dashboards. By bookmarking your dashboards, you can find them. For more information about bookmarking dashboards, see [Bookmark a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/bookmark-dashboard-ac.md).
+-   **Certified**: Dashboards that an administrator has certified \(company approved and recommended for use\). For more information, see [Certify a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/certify-db-ac.md).
 -   **Owned by me**: Dashboards that you own.
 -   **Recently opened by me**: Dashboards that you recently opened.
 -   **Shared with me**: Dashboards that other users have shared with you.
@@ -82,7 +82,7 @@ Option for filtering the Dashboards list to display the data based on the follow
 
 </td><td>
 
-Available and applied categories for dashboards. As a user with analytics\_categories\_admin role, you can create and customize the categories for the dashboards. For more information on creating dashboard categories, see [Create dashboard categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/db-categories.md).
+Available and applied categories for dashboards. As a user with analytics\_categories\_admin role, you can create and customize the categories for the dashboards. For more information on creating dashboard categories, see [Create dashboard categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/db-categories.md).
 
 </td></tr><tr><td>
 
@@ -124,11 +124,11 @@ Option for searching dashboards by name or owner.
 
 </td><td>
 
-Launches the condition builder. For more information on using the condition builder, see [Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-cond-state-using-cond-build.md).
+Launches the condition builder. For more information on using the condition builder, see [Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/create-cond-state-using-cond-build.md).
 
  The condition builder for dashboards has the following extra options:
 
--   Saved filters: Options to use a previously saved filter or to save the filter you are currently building. If you save the current filter, you name it and set who can access it.
+-   Saved filters: Options to use a previously saved filter or to save the filter you're currently building. If you save the current filter, you name it and set who can access it.
 -   Show/Hide labels: Option to show or hide labels for the fields **Field** and **Operator** in the condition builder.
 
 </td></tr><tr><td>
@@ -239,7 +239,7 @@ You can see the following columns as a user with an admin role:
 -   Updated by: Name of the user who last updated the dashboard.
 -   Created: Date and timestamp when the dashboard was created.
 -   Created by: Name of the user who created the dashboard.
--   Visibility: The workspaces to which the dashboard can be added. For more information about adding a dashboard to a workspace, see [Add a dashboard to a Dashboards page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-dashboard-to-workspace.md).
+-   Visibility: The workspaces to which the dashboard can be added. For more information about adding a dashboard to a workspace, see [Add a dashboard to a Dashboards page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/add-dashboard-to-workspace.md).
 
 </td></tr><tr><td>
 
@@ -251,10 +251,10 @@ You can see the following columns as a user with an admin role:
 
 </td><td>
 
-Provides direct access to the [Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/find-dashboard-library.md), [Data Visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/explore-data-vis-library.md), and [Indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/your-kpis.md) libraries. Depending on your roles, you might have access to the Scheduled Exports library or the Usage Insights dashboard.
+Provides direct access to the [Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/find-dashboard-library.md), [Data Visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/explore-data-vis-library.md), and [Indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/your-kpis.md) libraries. Depending on your roles, you might have access to the Scheduled Exports library or the Usage Insights dashboard.
 
 </td></tr></tbody>
-</table>**Note:** A user with the dashboard\_admin role or higher might also see a panel with recommendations about problematic dashboards. For more information, see [Platform Analytics library recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-library-recommendations.md).
+</table>**Note:** A user with the dashboard\_admin role or higher might also see a panel with recommendations about problematic dashboards. For more information, see [Platform Analytics library recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/pa-library-recommendations.md).
 
-**Parent Topic:**[Exploring Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/ac-elements.md)
+**Parent Topic:**[Exploring Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/ac-elements.md)
 

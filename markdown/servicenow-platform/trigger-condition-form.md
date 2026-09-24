@@ -3,9 +3,9 @@ title: Trigger Condition form for surveys
 description: Description of the field values for the Trigger Condition form for surveys.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/trigger-condition-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Surveys reference, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -121,13 +121,13 @@ Condition
 
 </td><td>
 
-Condition builder that defines the criteria that must be true to send the survey. For example, to send a survey whenever an incident closes, create the condition **\[State\] \[is\] \[Closed\]**.**Note:** When defining conditions like case sensitivity or null values, see API[GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
+Condition builder that defines the criteria that must be true to send the survey. For example, to send a survey whenever an incident closes, create the condition **\[State\] \[is\] \[Closed\]**.**Note:** When defining conditions like case sensitivity or null values, see API[GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Surveys reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/survey-reference.md)
+</table>**Parent Topic:**[Surveys reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/survey-reference.md)
 
 **Related topics**  
 
 
-[Configure a trigger condition for a survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateATriggerCondition.md)
+[Configure a trigger condition for a survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateATriggerCondition.md)
 

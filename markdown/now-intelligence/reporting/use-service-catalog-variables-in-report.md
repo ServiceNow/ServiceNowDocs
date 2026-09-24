@@ -3,11 +3,11 @@ title: Use service catalog variables in a report
 description: In reports on service catalog data, stack and group by variables, use variables as columns in list reports, and as columns and rows in multilevel pivot tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/use-service-catalog-variables-in-report.html
-release: australia
+release: brazil
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Report on service catalog variables, Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -43,7 +43,7 @@ Use a variable as an extra **Group by**, as a column in a list report, or as a c
 
 2.  Do one of the following.
 
-<table id="choicetable_p2g_2qf_v5"><tbody><tr><td id="d210699e123">
+<table id="choicetable_p2g_2qf_v5"><tbody><tr><td id="d213990e123">
 
 **Add as a column in a list report**
 
@@ -51,7 +51,7 @@ Use a variable as an extra **Group by**, as a column in a list report, or as a c
 
 On the **Configure** tab, move **Variables+** to the **Selected** column.
 
-</td></tr><tr><td id="d210699e141">
+</td></tr><tr><td id="d213990e141">
 
 **Add as an extra __Group by__**
 
@@ -59,7 +59,7 @@ On the **Configure** tab, move **Variables+** to the **Selected** column.
 
 On the **Configure** tab, click **Additional group by**, then move **Variables+** at the bottom of the **Selected** of the **Additional group by** list.
 
-</td></tr><tr><td id="d210699e168">
+</td></tr><tr><td id="d213990e168">
 
 **Add as a column or row in a multilevel pivot table**
 
@@ -85,5 +85,5 @@ Click **Select columns** or **Select rows**, then select **Variables+** at the b
 6.  **Save** the report.
 
 
-**Parent Topic:**[Report on service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/rep-service-catalog-variables.md)
+**Parent Topic:**[Report on service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/rep-service-catalog-variables.md)
 

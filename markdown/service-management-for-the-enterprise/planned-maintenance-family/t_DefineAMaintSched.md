@@ -3,11 +3,11 @@ title: Configure a maintenance schedule
 description: After creating a maintenance plan, define specific criteria for determining when the plan should be executed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/planned-maintenance-family/t\_DefineAMaintSched.html
-release: australia
+release: brazil
 product: Planned Maintenance \(Family\)
 classification: planned-maintenance-family
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Managing maintenance plans, Planned Maintenance, Service Management]
 ---
@@ -182,11 +182,11 @@ Script that determines if the maintenance schedule should run. This field appear
 </td></tr></tbody>
 </table>4.  Specify whether the next planned maintenance should occur at the originally calculated time/meter value or whether to restart the meter/interval calculation from the time that the work order was completed.
 
-    See [Property settings for Planned Maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/planned-maintenance-family/planned-maint-properties.md).
+    See [Property settings for Planned Maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-management-for-the-enterprise/planned-maintenance-family/planned-maint-properties.md).
 
 
--   **[Changes to maintenance schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/planned-maintenance-family/c_ChangesToMaintSched.md)**  
+-   **[Changes to maintenance schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-management-for-the-enterprise/planned-maintenance-family/c_ChangesToMaintSched.md)**  
 If you make and save changes to an existing maintenance schedule, any previously associated records are updated accordingly.
 
-**Parent Topic:**[Managing maintenance plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/planned-maintenance-family/c_MaintPlanMgmt.md)
+**Parent Topic:**[Managing maintenance plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-management-for-the-enterprise/planned-maintenance-family/c_MaintPlanMgmt.md)
 

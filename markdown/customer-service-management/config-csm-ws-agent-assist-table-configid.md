@@ -3,9 +3,9 @@ title: Configure the Agent Assist and Response Template tabs
 description: Add a table configuration for the Agent Assist tab or Response Template tab for custom tables or custom case types in the contextual side panel in CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-csm-ws-agent-assist-table-configid.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -74,7 +74,7 @@ You can also use operators to match multiple tables in the property configuratio
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Experiences**.
 
-2.  Select the **CSM/FSM Configurable Workspace** experience.
+2.  Select the CRM Workspace experience.
 
 3.  In the UX Page Properties related list, select **New**.
 
@@ -94,7 +94,7 @@ Page
 
 </td><td>
 
-CSM/FSM Configurable Workspace
+CRM Workspace
 
 </td></tr><tr><td>
 
@@ -145,5 +145,5 @@ Agent Assist and Response Template example:
 **Related topics**  
 
 
-[Configuring contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-contextual-search.md)
+[Configuring contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configuring-contextual-search.md)
 

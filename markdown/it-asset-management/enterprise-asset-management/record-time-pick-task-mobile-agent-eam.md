@@ -3,11 +3,11 @@ title: Record time worked on an enterprise asset pick task using the Mobile Agen
 description: Manage and record time worked on enterprise asset pick tasks by using the Mobile Agent application. After you start working on a task, you can pause and resume work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/record-time-pick-task-mobile-agent-eam.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage enterprise asset pick tasks using the Mobile Agent application, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]
 ---

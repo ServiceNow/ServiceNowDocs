@@ -3,11 +3,11 @@ title: View content types
 description: The following is an example of where you might use Content Types.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_ViewContentTypes.html
-release: australia
+release: brazil
 product: Content Management System
 classification: content-management-system
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Content types, Configure Content Management sites, Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -61,5 +61,5 @@ Use any out-of-box instance of a CMS site.
     The table `sysparm_document_key=kb_knowledge` and sys\_id `02255450d731310013ab49547e61038e` determine the record. The associated content type, kb\_knowledge, renders the content on the Default Detail Page, Portal - Knowledge Detail / url\_suffix=knowledge.
 
 
-**Parent Topic:**[Content types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentTypes.md)
+**Parent Topic:**[Content types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/c_ContentTypes.md)
 

@@ -3,11 +3,11 @@ title: Create RIDAC item for a planning item
 description: Create RIDAC items \(Risks, Issues, Decisions, Actions, Changes\) for a planning item to track and manage governance across the planning lifecycle.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/create-ridac-for-planning-item-spw.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Prioritize portfolio plan work, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -34,7 +34,7 @@ Role required: sn\_align\_core.apw\_user
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Strategic Planning** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning**.
+1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning**.
 
 2.  From the list of portfolio plans, select one and then select **Planning**.
 
@@ -44,7 +44,7 @@ Role required: sn\_align\_core.apw\_user
 
 <table id="table_qsn_rbq_lkc"><thead><tr><th>
 
-For this RIDAC item
+For this RIDAC type
 
 </th><th>
 
@@ -57,8 +57,9 @@ Risk
 </td><td>
 
 1.  Select **Risks**.
-2.  On the Risk form, fill the required details.
-3.  Select **Save**.
+2.  Select **New**.
+3.  On the Risk form, fill the required details.
+4.  Select **Save**.
 
 
 </td></tr><tr><td>
@@ -68,8 +69,9 @@ Issue
 </td><td>
 
 1.  Select **Issues**.
-2.  On the Issue form, fill the required details.
-3.  Select **Save**.
+2.  Select **New**.
+3.  On the Issue form, fill the required details.
+4.  Select **Save**.
 
 
 </td></tr><tr><td>
@@ -79,8 +81,9 @@ Decision
 </td><td>
 
 1.  Select **Decisions**.
-2.  On the Decision form, fill the required details.
-3.  Select **Save**.
+2.  Select **New**.
+3.  On the Decision form, fill the required details.
+4.  Select **Save**.
 
 
 </td></tr><tr><td>
@@ -90,8 +93,9 @@ Action
 </td><td>
 
 1.  Select **Actions**.
-2.  On the Action form, fill the required details.
-3.  Select **Save**.
+2.  Select **New**.
+3.  On the Action form, fill the required details.
+4.  Select **Save**.
 
 
 </td></tr><tr><td>
@@ -101,13 +105,14 @@ Change request
 </td><td>
 
 1.  Select **Request Changes**.
-2.  On the Change Request form, fill the required details.
-3.  Select **Save**.
+2.  Select **New**.
+3.  On the Change Request form, fill the required details.
+4.  Select **Save**.
 
 
 </td></tr></tbody>
 </table>
 ## Result
 
-The selected RIDAC item has been created. The item displays in the RIDAC page of the portfolio plan to easily track all RIDAC items in one place and take right decisions.
+The selected RIDAC item is created. The item displays in the RIDAC page of the portfolio plan to easily track all RIDAC items in one place and take right decisions.
 

@@ -3,11 +3,11 @@ title: Discovery for VMware
 description: Applications that access VMware cloud resources need access to VMware credentials.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/vmware-cloud-discovery.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -80,7 +80,7 @@ Order \(sequence\) in which Discovery tries this credential as it attempts to lo
 </table>**Related topics**  
 
 
-[Configure the VMware Events service to auto-update the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/vmware-events-service-cloud-mgt.md)
+[Configure the VMware Events service to auto-update the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/vmware-events-service-cloud-mgt.md)
 
-[Create a VMware Discovery schedule in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-vmware-schedule-DAW.md)
+[Create a VMware Discovery schedule in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/create-vmware-schedule-DAW.md)
 

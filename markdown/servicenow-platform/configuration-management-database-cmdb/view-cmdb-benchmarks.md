@@ -3,11 +3,11 @@ title: View CMDB benchmarks
 description: CMDB calculates several CMDB Health benchmarks which then display in the Benchmarks dashboard. These benchmarks are based on various CMDB Health metrics, displaying monthly averages, trends, comparisons to industry averages of your ServiceNow peers, and global benchmarks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/view-cmdb-benchmarks.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -50,5 +50,5 @@ Global averages are based on the sum of monthly averages of all peer instances, 
 **Related topics**  
 
 
-[CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealth.md)
+[CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealth.md)
 

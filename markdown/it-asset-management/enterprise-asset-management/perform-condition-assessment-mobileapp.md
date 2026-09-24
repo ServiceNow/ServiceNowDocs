@@ -3,13 +3,13 @@ title: Perform condition evaluation from the Mobile Agent application
 description: Perform condition evaluation to calculate the score and result of the condition attributes from the Mobile Agent application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/perform-condition-assessment-mobileapp.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Managing work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
+breadcrumb: [Manage work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Perform condition evaluation from the Mobile Agent application
@@ -26,7 +26,7 @@ Role required: sn\_eam.asset\_technician
 
 A work order task can be associated with multiple assets, either through an asset group or by assets added to the Affected assets list. When a work order task has multiple assets, the technician must assess the condition of each asset within the same work order task. After completing all condition evaluations, the condition results are recorded for each asset and are available for the enterprise asset manager to review.
 
-These steps detail the process of performing the condition evaluation from the Mobile Agent application. Condition evaluations can also be performed from the Enterprise Asset Workspace. For details, see [Perform condition evaluation from the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/perform-condition-assessment-webui.md).
+These steps detail the process of performing the condition evaluation from the Mobile Agent application. Condition evaluations can also be performed from the Enterprise Asset Workspace. For details, see [Perform condition evaluation from the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/perform-condition-assessment-webui.md).
 
 ## Procedure
 

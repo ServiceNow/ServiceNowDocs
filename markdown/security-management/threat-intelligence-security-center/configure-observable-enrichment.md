@@ -3,11 +3,11 @@ title: Configure Observable Enrichment
 description: Enrich one or more observables to identify whether they're associated with known threats. The results are based on the enrichment integrations active in your environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/configure-observable-enrichment.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-04-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [TISC Enrichment integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
@@ -20,7 +20,7 @@ Enrich one or more observables to identify whether they're associated with known
 
 Role required: sn\_sec\_tisc.admin
 
-The Threat Intelligence Security Center supports Observable Enrichment only for the WHOIS Integration currently. For more information, see [Configure and enable Whois integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-whoisxml-api-integration.md).
+The Threat Intelligence Security Center supports Observable Enrichment only for the WHOIS Integration currently. For more information, see [Configure and enable Whois integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-whoisxml-api-integration.md).
 
 **Note:** Enrichment Integrations module is only shown if at least one of the integration supporting any of the capability is installed in the application.
 
@@ -73,12 +73,12 @@ The Observable Enrichment section contains only the integrations with the integr
     The enrichment integration is enabled successfully. You can also enable, disable, or delete a particular enrichment integration by using the **Actions** menu of the required integration tile on the **Catalog** or the **Enrichment Integrations** page.
 
 
--   **[Have I Been Pwned integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-hibp-integration.md)**  
+-   **[Have I Been Pwned integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-hibp-integration.md)**  
 The Have I Been Pwned \(HIBP\) integration enables you to enrich email address and domain observables with breach data directly within the TISC.
--   **[Whois integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-whoisxml-integration.md)**  
+-   **[Whois integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-whoisxml-integration.md)**  
 Submit Whois lookups on domain names and URLs to gather threat intelligence and assess potential security risks. Use this integration to obtain registration details, ownership information, and other contextual data for suspicious domains.
--   **[Shodan integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-shodan.md)**  
+-   **[Shodan integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-shodan.md)**  
 Configure Shodan integration to enable automated discovery and analysis of internet-connected devices in your network infrastructure.
 
-**Parent Topic:**[TISC Enrichment integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-enrichment-integrations.md)
+**Parent Topic:**[TISC Enrichment integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-enrichment-integrations.md)
 

@@ -3,11 +3,11 @@ title: Revert app changes with Build Agent
 description: Restore your development to a previous state when you want to undo recent changes. Use checkpoints created during Build Agent conversations to revert both code and chat history.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/revert-app-changes-using-build-agent.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [revert app changes, build agent checkpoint, restore checkpoint, undo changes build agent, chat history revert, build agent ServiceNow Studio, app development rollback, checkpoint restore, Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [revert app changes, build agent checkpoint, restore checkpoint, undo changes build agent, chat history revert, build agent ServiceNow Studio, app development rollback, checkpoint restore, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 audience: administrator
 breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
@@ -43,5 +43,5 @@ Role required: admin
 
 Build Agent reverts your changes both in your application and in the chat.
 
-**Parent Topic:**[Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/use-build-agent.md)
+**Parent Topic:**[Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/use-build-agent.md)
 

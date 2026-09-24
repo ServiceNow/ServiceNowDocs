@@ -3,9 +3,9 @@ title: Configure login theming in Next Experience
 description: Configure Next Experience login illustrations and welcome text to provide a login experience that reflects your branding.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/edit-login-features-u-n.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -30,7 +30,7 @@ This procedure is specific to login pages and does not apply if you are using Si
 
 3.  Show welcome text by set the property **glide.ui.polaris.login.show\_welcome** to **true**.
 
-    If this property doesn't exist, add it as a true/false property. For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+    If this property doesn't exist, add it as a true/false property. For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 4.  Edit the welcome page text.
 
@@ -53,5 +53,5 @@ This procedure is specific to login pages and does not apply if you are using Si
 
 The welcome text appears on the Next Experience login page when users are not logged in and is hidden after authentication.
 
-**Parent Topic:**[Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md)
+**Parent Topic:**[Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-theming.md)
 

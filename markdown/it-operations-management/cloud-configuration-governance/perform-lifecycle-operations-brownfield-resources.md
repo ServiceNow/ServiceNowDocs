@@ -3,11 +3,11 @@ title: Perform life-cycle operations on discovered resources
 description: Configure life-cycle operations on cloud resources that are not provisioned using ServiceNow Cloud Provisioning and Governance. Provision resources and modify resource block operations to perform day-2 operations on cloud resources that are discovered using Cloud Discovery but not provisioned using Cloud Provisioning and Governance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/perform-lifecycle-operations-brownfield-resources.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---

@@ -3,9 +3,9 @@ title: Life cycle of an enrollment case
 description: Enrollment cases within the Patient Support Services application can be in one of the several states as it progresses through the fulfillment cycle.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pss-enrollment-life-cycle.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage enrollment requests, Patient Support Services, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---

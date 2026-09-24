@@ -3,9 +3,9 @@ title: Work on an insurance underwriting task
 description: Work on a commercial insurance underwriting task to evaluate the policy request and analyze risks for an insurance policy customer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/work-commercial-insurance-underwriting-task.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Work on a policy service case, Use, Commercial Lines Servicing, Property and Casualty Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -45,5 +45,5 @@ The configured workflow automatically generates an underwriting task for an unde
 8.  Click **Update**.
 
 
-**Parent Topic:**[Work on a policy service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/work-commercial-policy-case.md)
+**Parent Topic:**[Work on a policy service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/work-commercial-policy-case.md)
 

@@ -3,11 +3,11 @@ title: Managed Network form
 description: The Managed network form enables you to manage a network in the Telecommunications Network Inventory application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/managed\_network\_form.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
@@ -110,7 +110,7 @@ Most recent discovery
 
 </td><td>
 
-Most recent discovery \(last\_discovered\). When the most recent discovery is provided, the CI is updated with the provided value only if the entered time value is newer than the time value in the Configuration Management Database \(CMDB\). If the last\_discovered isn’t provided, the last\_discovered attribute is updated with the current timestamp.
+Most recent discovery \(last\_discovered\). When the most recent discovery is provided, the CI is updated with the provided value. This update occurs only if the entered time value is newer than the time value in the Configuration Management Database \(CMDB\). If the last\_discovered isn’t provided, the last\_discovered attribute is updated with the current timestamp.
 
 </td></tr><tr><td>
 
@@ -569,10 +569,10 @@ TNI CI attributes
 Configuration \(CI\) that you can select to create the Telecommunications Network Inventory attribute details for this network.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
+</table>**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
 
 **Related topics**  
 
 
-[Create a managed network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create_managed_network.md)
+[Create Managed Network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/create_managed_network.md)
 

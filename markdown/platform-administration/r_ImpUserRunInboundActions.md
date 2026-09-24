@@ -3,9 +3,9 @@ title: User impersonations and inbound actions
 description: When the instance receives an email, it can take a variety of actions by impersonating the sender.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_ImpUserRunInboundActions.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [References, Inbound email, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,5 +18,5 @@ If the sender of an incoming email matches an existing user, the instance impers
 
 **Note:** If inbound email comes from an untrusted domain, the instance impersonates the Guest user unless you explicitly prevent users from untrusted domains from triggering inbound actions. For more information on filtering domains, see Designate untrusted and trusted email domains.
 
-**Parent Topic:**[References for Inbound email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/references-inbound-email.md)
+**Parent Topic:**[References for Inbound email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/references-inbound-email.md)
 

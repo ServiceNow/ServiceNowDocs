@@ -1,36 +1,42 @@
 ---
-title: Create an AI connection for Salesforce
-description: Create an AI connection for Salesforce in AI Control Tower using the  AI Service Graph Connector for Salesforce \(version 1.1.0\).
+title: Create AI connection for Salesforce
+description: Use the AI Service Graph Connector for Salesforce plugin to create AI connections to discover AI assets such as AI systems, models, prompts, and tools as well as usage data for these AI agents within your ServiceNow AI Control Tower. This usage information is consumed by the AI Control Tower value dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-ai-connection-for-salesforce.html
-release: australia
+release: brazil
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Salesforce, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [Salesforce, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
-# Create an AI connection for Salesforce
+# Create AI connection for Salesforce
 
-Create an AI connection for Salesforce in AI Control Tower using the  AI Service Graph Connector for Salesforce \(version 1.1.0\).
+Use the AI Service Graph Connector for Salesforce plugin to create AI connections to discover AI assets such as AI systems, models, prompts, and tools as well as usage data for these AI agents within your ServiceNow AI Control Tower. This usage information is consumed by the AI Control Tower value dashboard.
 
 ## Before you begin
 
-Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
+Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
 ## Procedure
 
-1.  Navigate to **AI Control Tower** &gt; **.** &gt; **Configuration** &gt; **AI connections**.
+1.  Navigate to **AI Control Tower** &gt; **Configuration** &gt; **AI connection**.
 
-2.  Select **Salesforce** from the available connectors and then select **Create connection**.
+2.  Select **Add**.
 
-3.  Review setup instructions page displays.
+3.  Select **Salesforce** from all the available connectors.
 
-    **Note:** Verify to follow all the prerequisite steps.
+4.  Click **Create connection**.
 
-4.  Enter the details on Configure and test connection:
+    Review setup instructions page displays
+
+5.  Verify to follow all the prerequisite steps.
+
+    Setup page appears.
+
+6.  Create and test connection
 
     1.  Enter the **Connection Name**.
 
@@ -40,13 +46,13 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
     4.  Enter the **OAuth Token URL**.
 
-    5.  Select **Create and test connection**.
+    5.  Click **Create and test connection**.
 
-    6.  Select **Continue**.
+    6.  Click **Continue**.
 
-5.  Configure import schedule:
+7.  Configure import schedule
 
-    1.  Verify that both the parent-scheduled jobs, Discovery and Execution are active as they’re shipped inactive.
+    1.  Ensure that both the parent-scheduled jobs, Discovery and Execution are active as they’re shipped out of the box inactive.
 
         **Note:** Ensure to execute the Discovery-scheduled job first.
 
@@ -56,12 +62,12 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
         **Note:** This is an optional step as the schedule imports run according to the schedule.
 
-    4.  Select **Continue**.
+    4.  Click **Continue**.
 
-6.  Select the **Confirm connection setup** activity to verify whether the connection was configured.
+    5.  Click **View all connections** to view the newly created connection.
 
 
 ## Result
 
-Select **View all connections** to review the connection details. The created connection appears in the Installed connections list.
+AI Connection is created for Salesforce.
 

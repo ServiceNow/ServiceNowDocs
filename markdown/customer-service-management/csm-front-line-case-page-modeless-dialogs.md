@@ -3,10 +3,10 @@ title: Modeless dialogs
 description: Modeless dialogs are windows that overlay the main window content in CRM Workspace. Customer service agents can use modeless dialogs to create and post comments and work notes to the activity stream and to compose and send emails.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-front-line-case-page-modeless-dialogs.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 16
+last_updated: "2026-09-10"
+reading_time_minutes: 15
 breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
@@ -32,14 +32,14 @@ The thin compose modeless dialog feature incorporates modeless dialogs into the 
 
 Thin compose modeless dialogs are available on the following record pages:
 
--   [Front-line case page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-front-line-case-page.md)
--   [CSM default record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-default-record-page.md)
--   [CSM Interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-interaction-record-page.md)
--   [CSM centered chat interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-centered-chat-interaction-page.md)
--   [CSM voice interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-native-voice-record-page.md)
--   [Email interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-email-interaction-record-page.md)
+-   [Front-line case page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-front-line-case-page.md)
+-   [CSM default record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-default-record-page.md)
+-   [CSM Interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-interaction-record-page.md)
+-   [CSM centered chat interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-centered-chat-interaction-page.md)
+-   [CSM voice interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-native-voice-record-page.md)
+-   [Email interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-email-interaction-record-page.md)
 
-**Note:** The thin compose modeless dialog feature has the Rich Text Editor enabled, which can add HTML tags along with the text to the **Additional comments** and **Work notes** fields on the case record. To remove these tags, see [Updating the glide.ui.journal.use\_html property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-front-line-case-page-modeless-dialogs.md).
+**Note:** The thin compose modeless dialog feature has the Rich Text Editor enabled, which can add HTML tags along with the text to the **Additional comments** and **Work notes** fields on the case record. To remove these tags, see [Updating the glide.ui.journal.use\_html property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-front-line-case-page-modeless-dialogs.md).
 
 ## Creating comments and work notes
 
@@ -77,19 +77,6 @@ The system posts the comment or work note to the activity stream. Saving the cas
 
 </td></tr><tr><td>
 
-Add a link to a knowledge article
-
-</td><td>
-
-To add a link to a knowledge article:1.  Select the Recommended Actions tab in the contextual side panel.
-2.  View the list of knowledge articles or search for an article.
-3.  Select the More Actions menu on the knowledge article card.
-4.  Select **Attach and add link in comment** or **Add link in work note** or **Attach and add link in email**.
-
-The workspace switches to the relevant tab. The inserted link displays the knowledge article title and article number as a hyperlink, in the format `Article Title: KB0012345`.
-
-</td></tr><tr><td>
-
 Open a comment or work note in a modeless dialog
 
 </td><td>
@@ -113,7 +100,7 @@ Minimize a modeless dialog
 
 </td><td>
 
-To minimize a modeless dialog, select the Minimize dialog \(\[Omitted image "modeless-dialog-minimize-icon.png"\] Alt text: minimize icon is a flat white line at the bottom of a black box\) button in the window header. Minimized modeless dialogs appear in the dock at the bottom of the workspace. For more information, see [Workspace dock](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-bottom-utility-bar.md).
+To minimize a modeless dialog, select the Minimize dialog \(\[Omitted image "modeless-dialog-minimize-icon.png"\] Alt text: minimize icon is a flat white line at the bottom of a black box\) button in the window header. Minimized modeless dialogs appear in the dock at the bottom of the workspace. For more information, see [Workspace dock](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-config-ws-bottom-utility-bar.md).
 
 </td></tr><tr><td>
 
@@ -196,7 +183,7 @@ Minimize a modeless dialog
 
 </td><td>
 
-To minimize a modeless dialog, select the Minimize dialog \(\[Omitted image "modeless-dialog-minimize-icon.png"\] Alt text: minimize icon is a flat white line at the bottom of a black box\) button in the window header. Minimized modeless dialogs appear in the dock at the bottom of the workspace. For more information, see [Workspace dock](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-bottom-utility-bar.md).
+To minimize a modeless dialog, select the Minimize dialog \(\[Omitted image "modeless-dialog-minimize-icon.png"\] Alt text: minimize icon is a flat white line at the bottom of a black box\) button in the window header. Minimized modeless dialogs appear in the dock at the bottom of the workspace. For more information, see [Workspace dock](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-config-ws-bottom-utility-bar.md).
 
 </td></tr><tr><td>
 
@@ -233,7 +220,7 @@ To add a link to a knowledge article:1.  Select the Recommended Actions tab in t
 3.  Select the More Actions menu on the knowledge article card.
 4.  Select **Attach and add link in email**.
 
-The system inserts the knowledge article title and article number as a hyperlink in the body of the email, in the format `Article Title: KB0012345`.
+The system adds a link to the knowledge article in the body of the email.
 
 </td></tr><tr><td>
 

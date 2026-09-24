@@ -3,7 +3,7 @@ title: Deploy a MID Server
 description: Deploying a MID Server lets ServiceNow securely communicate with systems inside a private network by installing and validating a trusted runtime that performs discovery, integrations, and automation tasks without requiring inbound network access.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/deploy-mid-server.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
@@ -21,10 +21,10 @@ Deploying a MID Server lets ServiceNow securely communicate with systems inside 
 
 Verify the following:
 
--   You're using the Zurich Patch 8 or later version of the ServiceNow AI Platform.
--   You have installed the ITOM Visibility plugin. For more information, see [Install ITOM Visibility using ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/install-nowassist-setup-itom-visibility.md).
--   You have installed the ServiceNow Otto for IT Operations Management \(ITOM\) plugin. For more information, see [Install ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/install-na-itom.md).
--   You're on the Configure IT Operations Management page of the Configuration Console. For more information, see [Access the ITOM Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/access-itom-config-console-disco.md).
+-   The ServiceNow AI Platform is running on the Brazil, Australia, or Zurich release starting with Patch 8.
+-   You have installed the ITOM Visibility plugin. For more information, see [Install ITOM Visibility using ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/install-nowassist-setup-itom-visibility.md).
+-   You have installed the ServiceNow Otto for IT Operations Management \(ITOM\) plugin. For more information, see [Install ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/install-na-itom.md).
+-   You're on the Configure IT Operations Management page of the Configuration Console. For more information, see [Access the ITOM Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/access-itom-config-console-disco.md).
 
 Role required: admin
 
@@ -44,7 +44,7 @@ Discovery requires a MID Server to securely detect and collect data from your pr
 
 4.  Download the MID Server for the appropriate operating system.
 
-    For more information, see [Install a MID Server on Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md) and [Install a MID Server on Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-install-prereqs.md).
+    For more information, see [Install a MID Server on Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md) and [Install a MID Server on Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-install-prereqs.md).
 
 5.  Select **X** to close the window and return to the Configuration Console.
 

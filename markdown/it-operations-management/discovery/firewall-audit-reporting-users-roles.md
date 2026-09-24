@@ -3,11 +3,11 @@ title: Firewall Audits and Reporting roles and responsibilities
 description: Specific users and roles to optimize the monitoring and tracking of requests for new firewall rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/firewall-audit-reporting-users-roles.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Firewall Audits and Reporting, ITOM Visibility, IT Operations Management]
 ---

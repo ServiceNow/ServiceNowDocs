@@ -3,9 +3,9 @@ title: Legacy survey migration
 description: Users with the survey\_admin role can migrate legacy survey data to create copies of legacy surveys and their related records in assessment tables. The Survey Management application, which is built on the assessment engine, is available as an alternative to legacy surveys.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/c\_MigrateSurveys.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -33,16 +33,16 @@ Legacy survey conditions are not migrated and must be recreated as trigger condi
     -   Survey Wizard \(ID: com.glideapp.survey\_wizard\)
 -   Survey wizards cannot be migrated.
 
--   **[Migrate a legacy survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_MigrateALegacySurvey.md)**  
+-   **[Migrate a legacy survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_MigrateALegacySurvey.md)**  
 Migrate a legacy survey and its related records to take advantage of a more powerful feature set.
--   **[Survey question migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyQuestionMigration.md)**  
+-   **[Survey question migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_SurveyQuestionMigration.md)**  
 Before you migrate a legacy survey, understand that some legacy survey questions cannot be migrated due to incompatible question types.
--   **[Migrated components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MigratedComponents.md)**  
+-   **[Migrated components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_MigratedComponents.md)**  
 When you migrate a survey, the system maps records from survey tables to assessment tables.
--   **[Migrated question review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_ReviewMigratedQuestions.md)**  
+-   **[Migrated question review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_ReviewMigratedQuestions.md)**  
 To maintain accurate result calculations, you may need to make minor adjustments to some of the migrated survey records to ensure results are calculated correctly.
 
-**Parent Topic:**[Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyAdminTasks.md)
+**Parent Topic:**[Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_SurveyAdminTasks.md)
 
 **Related topics**  
 

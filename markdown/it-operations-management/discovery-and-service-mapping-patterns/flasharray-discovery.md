@@ -3,11 +3,11 @@ title: Pure Storage FlashArray discovery
 description: The Discovery and Service Mapping Patterns application uses the Pure Storage pattern to find Pure Storage FlashArray on your infrastructure. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/flasharray-discovery.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: concept
-last_updated: "2026-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [Patterns]
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
@@ -30,7 +30,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     -   Visibility Content
 -   **Verify the configuration of the credentials**
 
-    Configure basic authentication credentials to classify FlashArray. For more information, see [basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md).
+    Configure basic authentication credentials to classify FlashArray. For more information, see [basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_BasicAuthCredentialsForm.md).
 
 -   **Verify the permissions to run REST API calls**
 
@@ -50,7 +50,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Running Discovery
 
-To run discovery using Patterns, create a discovery schedule that targets the management IP address of the FlashArray storage. For more information, see [Running discoveries in your network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/running-discoveries.md).
+To run discovery using Patterns, create a discovery schedule that targets the management IP address of the FlashArray storage. For more information, see [Running discoveries in your network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/running-discoveries.md).
 
 ## Data collected by Discovery during horizontal discovery
 
@@ -118,7 +118,7 @@ Object ID \[object\_id\]
 
 </td><td>
 
-Credential affinity assigned during discovery to the FlashArray storage. For more information about credential affinity, see [Credential affinity for Discovery and Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_CredentialAffinity.md).
+Credential affinity assigned during discovery to the FlashArray storage. For more information about credential affinity, see [Credential affinity for Discovery and Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_CredentialAffinity.md).
 
 </td></tr><tr><td>
 
@@ -328,5 +328,5 @@ The Pure Storage pattern creates CI relationships and references to support Pure
 |Storage Volume \[cmdb\_ci\_storage\_volume\]|Computer \[computer\]|Storage Server \[cmdb\_ci\_storage\_server\]|
 |Storage Volume \[cmdb\_ci\_storage\_volume\]|Provided by \[provided\_by\]|Storage Pool \[cmdb\_ci\_storage\_pool\]|
 
-**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

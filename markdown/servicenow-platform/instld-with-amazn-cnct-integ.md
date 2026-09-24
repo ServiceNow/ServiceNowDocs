@@ -3,9 +3,9 @@ title: Components installed with Amazon Connect Integration with ServiceNow Voic
 description: Several types of components are installed with installation of the Amazon Connect Integration with Voice application \(sn\_cti\_amzn\_cct\), including user roles, plugins, and operation handlers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instld-with-amazn-cnct-integ.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Voice reference, ServiceNow Voice, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [ServiceNow Voice reference, ServiceNow Voice, Manage people and wor
 
 Several types of components are installed with installation of the Amazon Connect Integration with Voice application \(sn\_cti\_amzn\_cct\), including user roles, plugins, and operation handlers.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 ## Roles installed
 
@@ -60,5 +60,5 @@ Operation handlers are defined in the ServiceNow instance to run a script based 
 |$connect.s3.event|Receives and processes JSON events from the S3 buckets where the call recording, transcript and analysis data is created and stored. Associates this information with an interaction and Openframe call log records.|
 |createPhoneLog|Creates a PhoneLog for each call transfer and links the Phone Log to the Interaction Related Record|
 
-**Parent Topic:**[ServiceNow Voice reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ccc-reference.md)
+**Parent Topic:**[ServiceNow Voice reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/ccc-reference.md)
 

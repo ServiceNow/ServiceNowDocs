@@ -3,11 +3,11 @@ title: Add an item to the wish list in Service Portal
 description: Add catalog items or record producers to the wish list to review them when required.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/add-to-wishlist-portal.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Catalog in Service Portal, Integrating Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -38,7 +38,7 @@ Role required: requester
 
 5.  If required, perform any of these actions.
 
-<table id="choicetable_nzw_4vd_5bb"><tbody><tr><td id="d274631e122">
+<table id="choicetable_nzw_4vd_5bb"><tbody><tr><td id="d273133e122">
 
 **Remove Item**
 
@@ -46,7 +46,7 @@ Role required: requester
 
 To remove an item from the wish list, click the Remove Item icon \( \[Omitted image "RemoveIcn.png"\] Alt text: Icon to remove item\).
 
-</td></tr><tr><td id="d274631e137">
+</td></tr><tr><td id="d273133e137">
 
 **Clear Wish List**
 
@@ -54,7 +54,7 @@ To remove an item from the wish list, click the Remove Item icon \( \[Omitted im
 
 To clear the wish list, click **Clear Wish List**.
 
-</td></tr><tr><td id="d274631e149">
+</td></tr><tr><td id="d273133e149">
 
 **View the Catalog**
 
@@ -68,7 +68,7 @@ To navigate to the Service Catalog landing page, click **View the Catalog**.
     **Note:** This does not open a new instance of the item, but the instance that is in the wish list, where you can edit the details.
 
 
-**Parent Topic:**[Service Catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-on-portal.md)
+**Parent Topic:**[Service Catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/catalog-on-portal.md)
 
 **Related topics**  
 
@@ -81,5 +81,5 @@ To navigate to the Service Catalog landing page, click **View the Catalog**.
 
 [Request an order guide from Service Portal]()
 
-[SC Wish List Cart widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/sc-wish-list.md)
+[SC Wish List Cart widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/sc-wish-list.md)
 

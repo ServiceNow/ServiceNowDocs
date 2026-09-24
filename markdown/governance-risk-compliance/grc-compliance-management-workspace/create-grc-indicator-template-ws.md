@@ -3,11 +3,11 @@ title: Create a GRC indicator template using the Compliance Workspace
 description: Compliance or risk managers create indicator templates in the Compliance Workspace from which many indicators can be created.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/create-grc-indicator-template-ws.html
-release: australia
+release: brazil
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Manage control indicators using the Compliance Workspace, Use, GRC Compliance workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -244,7 +244,7 @@ Due date duration in days between the creation and due date of the indicator tas
 
 This field appears only when **Manual** is selected from the **Type** field.
 
-For more information, see [Performance enhancements for Indicator nightly job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/performance-enhancements-indicator-jobs.md).
+For more information, see [Performance enhancements for Indicator nightly job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-compliance-management-workspace/performance-enhancements-indicator-jobs.md).
 
 </td></tr><tr><td>
 

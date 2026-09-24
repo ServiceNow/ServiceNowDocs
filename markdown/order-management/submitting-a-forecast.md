@@ -3,9 +3,9 @@ title: Submitting a forecast
 description: Sales agents and managers can finalize and submit forecasts in defined periods to ensure accurate projections. Agents can adjust forecast values, lock them, and submit the forecasts in the specified time frame.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/submitting-a-forecast.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sales Forecasting, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_sales\_forecast.submission\_writer
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -47,15 +47,15 @@ Role required: sn\_sales\_forecast.submission\_writer
 
 9.  Select **Submit Forecast** to submit your forecast.
 
-    The forecast has been submitted and the state changes to Completed. The forecast values have been locked and cannot be changed. If your forecast model allows resubmission, you can reopen the submitted forecast and modify values within the current submission window. For more info, see [Configure Forecast Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-forecast-model.md).
+    The forecast has been submitted and the state changes to Completed. The forecast values have been locked and cannot be changed. If your forecast model allows resubmission, you can reopen the submitted forecast and modify values within the current submission window. For more info, see [Configure Forecast Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-forecast-model.md).
 
 
-**Parent Topic:**[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-sales-forecasting.md)
+**Parent Topic:**[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-sales-forecasting.md)
 
 **Related topics**  
 
 
-[Configure Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-sales-forecasting.md)
+[Configure Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-sales-forecasting.md)
 
-[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-forecasting.md)
+[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/sales-forecasting.md)
 

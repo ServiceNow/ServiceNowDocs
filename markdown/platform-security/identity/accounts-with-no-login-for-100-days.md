@@ -3,11 +3,11 @@ title: Accounts with no login for 100 days
 description: Display the findings about the accounts that have not accessed any API in 100 days under the Security findings in the Machine Identity Console.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/accounts-with-no-login-for-100-days.html
-release: australia
+release: brazil
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security findings, Exploring Machine Identity Console, Machine Identity Console, Identity]
 ---

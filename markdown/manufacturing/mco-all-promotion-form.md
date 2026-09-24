@@ -3,9 +3,9 @@ title: All promotion form
 description: The All promotion form enables the manufacturers to enter the promotion campaign and incentive details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-all-promotion-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sales promotion form, Reference, Manufacturing Commercial Operations]
 ---
@@ -76,7 +76,7 @@ Promotion type
 
 </td><td>
 
-Promotion type.Choose an option from the list. To create promotion type, see [Create promotion type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/create-promotion-type.md).
+Promotion type.Choose an option from the list. To create promotion type, see [Create promotion type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/create-promotion-type.md).
 
 </td></tr><tr><td>
 
@@ -84,7 +84,7 @@ Checklist template
 
 </td><td>
 
-Predefined checklist template.Choose an option from the list. To create checklist template, [Create a checklist template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-create-checklist.md)
+Predefined checklist template.Choose an option from the list. To create checklist template, [Create a checklist template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-create-checklist.md)
 
 </td></tr><tr><td>
 
@@ -140,10 +140,10 @@ Max percentage
 Highest discount percentage applicable for the campaign. This field appears only when **percentage** is selected from **Incentive type**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Sales promotion form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/sales-promotion-form.md)
+</table>**Parent Topic:**[Sales promotion form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/sales-promotion-form.md)
 
 **Related topics**  
 
 
-[View all promotions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-all-promotions.md)
+[View all promotions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-all-promotions.md)
 

@@ -3,9 +3,9 @@ title: Configure display properties for a Data snapshots indicator
 description: Change display properties for viewing a specific native Data snapshots indicator in KPI Details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/configure-display-properties-ds-indicator.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Examining indicators, KPI Details, Platform Analytics experience, Platform Analytics]
 ---
@@ -20,7 +20,7 @@ Role required: None. However, upgraded instances may require pa\_viewer.
 
 ## Procedure
 
-1.  Open KPI Details for a native Data snapshots indicator, as described in [View KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/view-kpi-details.md).
+1.  Open KPI Details for a native Data snapshots indicator, as described in [View KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/view-kpi-details.md).
 
 2.  Open the **Properties** panel.
 
@@ -35,7 +35,7 @@ Role required: None. However, upgraded instances may require pa\_viewer.
     |Enable abbreviation|Option to use an alphabetical abbreviation. For example, M to represent million.|
 
 
-**Parent Topic:**[Examining indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details-components.md)
+**Parent Topic:**[Examining indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/kpi-details-components.md)
 
 **Related topics**  
 

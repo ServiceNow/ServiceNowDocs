@@ -3,9 +3,9 @@ title: Enable robot pool for a bot process in RPA Hub
 description: Enable robot pool for a bot process in RPA Hub to effectively allocate robots for it's execution and for distribution of work load.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/enable-robot-pool.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Robot pool, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,13 +16,13 @@ Enable robot pool for a bot process in RPA Hub to effectively allocate robots fo
 
 ## Before you begin
 
-Familiarize yourself with robot pool concepts. For more information, see [Robot pool in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/robot-pool-rpa.md).
+Familiarize yourself with robot pool concepts. For more information, see [Robot pool in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/robot-pool-rpa.md).
 
-Create a bot process. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess.md).
+Create a bot process. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-botprocess.md).
 
-Create a robot pool. For more information, see [Create a robot pool in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-robot-pool.md).
+Create a robot pool. For more information, see [Create a robot pool in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-robot-pool.md).
 
-Associate a queue to the bot process. For more information, see [c to the bot process from the related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/associate-queue-botprocess.md).
+Associate a queue to the bot process. For more information, see [c to the bot process from the related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/associate-queue-botprocess.md).
 
 If an RPA developer and RPA support user are a part of the Managed by Group, then they can view and edit these fields.
 
@@ -58,7 +58,7 @@ Enable Robot Pool
 
 Option to enable the robot pool for the bot process.On enabling this option, the **Assign Robots** tab on the bot process is hidden.
 
-For more information about robot pool, see [Robot pool in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/robot-pool-rpa.md).
+For more information about robot pool, see [Robot pool in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/robot-pool-rpa.md).
 
 </td></tr><tr><td>
 
@@ -112,5 +112,5 @@ Robots are allocated to distribute the workload, based on the percentage you sel
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Robot pool in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/robot-pool-rpa.md)
+**Parent Topic:**[Robot pool in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/robot-pool-rpa.md)
 

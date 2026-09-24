@@ -3,11 +3,11 @@ title: Register and configure the Microsoft Defender for Endpoint in the Microso
 description: Register the Microsoft Defender for Endpoint application in the Microsoft Azure portal and grant the read and write access to the application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configure-ms-azure-portal-using-defender-endpoint-api.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Microsoft Defender for Endpoint integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

@@ -3,9 +3,9 @@ title: HTML Template form
 description: On the HTML Template form, fill in the fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/html-template-form-op-vul.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Set up the Document Template, Setting up the Operational vulnerability module, Completing general administrative tasks, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -248,7 +248,7 @@ Top/Bottom margin
 
 </td><td>
 
-Space from the top of the page until the starting of the HTML content. Similarly, space from the bottom of the page until the ending of the HTML content.
+Space from the top or bottom of the page to the HTML content.
 
 </td></tr><tr><td>
 

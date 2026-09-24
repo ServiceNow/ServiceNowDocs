@@ -3,9 +3,9 @@ title: View clone status \(legacy\)
 description: View the status of a legacy clone.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/view-clone-status.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -30,6 +30,6 @@ Role required: clone\_admin
 
     The system updates the **State** field and produces a log entry in the **Clone Log** that shows the status of the clone.
 
-    If an error occurs, you might [roll back clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) and [schedule recurring clones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/schedule-cloning.md). For more information see [Clone states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/clone-states.md).
+    If an error occurs, you might [roll back clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown) and [schedule recurring clones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/schedule-cloning.md). For more information see [Clone states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/clone-states.md).
 
 

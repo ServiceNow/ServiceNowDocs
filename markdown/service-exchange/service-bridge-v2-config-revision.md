@@ -1,13 +1,13 @@
 ---
 title: Configuring revisions
-description: As a provider, you can update the configurations of remote record producers, remote task definitions, and foundation data sync offerings. You can also create new versions that can be entitled to consumers.
+description: Update the configurations of remote record producers, remote task definitions, foundation data sync offerings, and create new versions that can be entitled to consumers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-config-revision.html
-release: australia
+release: brazil
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2026-05-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [configuration revisions, remote record producer, remote task definition, foundation data sync]
 breadcrumb: [Explore, Service Exchange]
@@ -15,7 +15,7 @@ breadcrumb: [Explore, Service Exchange]
 
 # Configuring revisions
 
-As a provider, you can update the configurations of remote record producers, remote task definitions, and foundation data sync offerings. You can also create new versions that can be entitled to consumers.
+Update the configurations of remote record producers, remote task definitions, foundation data sync offerings, and create new versions that can be entitled to consumers.
 
 You can deploy new versions of entitlements with updated functionality to compatible consumers without impacting consumers who haven’t upgraded their Service Exchange applications. You can upgrade your Service Exchange applications to adopt new features even if your consumers haven’t upgraded to the latest version.
 
@@ -30,5 +30,5 @@ You can create configuration revisions for the following:
 **Related topics**  
 
 
-[Create configuration revisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-config-rev.md)
+[Create configuration revisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-create-config-rev.md)
 

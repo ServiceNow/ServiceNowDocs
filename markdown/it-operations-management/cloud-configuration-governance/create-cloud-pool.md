@@ -3,11 +3,11 @@ title: Create a resource pool
 description: Based on blueprint settings, resource pools control the values that a user sees in a catalog item when they request a resource. Only values that pass the pool filter or script appear as options on the catalog item request form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-cloud-pool.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Pools and Filters for Cloud Provisioning, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -40,7 +40,7 @@ Type
 
 </td><td>
 
-Select the type that determines whether the available values remain the same \(Static\) or decrease by one \(Diminishing\).
+Select the type that determines whether the total count of available values remains the same \(Static\) or decreases by one each time a user selects the option \(Diminishing\).
 
 </td></tr><tr><td>
 

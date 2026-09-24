@@ -3,11 +3,11 @@ title: Provisioning stacks based on quota limits
 description: The system calculates the quota allocated to you and the user groups to which you belong when you provision stacks. If quota limits are exceeded, the system either displays an error message or triggers a policy-based approval.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/quota-template-based-stacks.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Launch a stack, Cloud User Portal, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -16,11 +16,11 @@ breadcrumb: [Launch a stack, Cloud User Portal, Cloud Provisioning and Governanc
 
 The system calculates the quota allocated to you and the user groups to which you belong when you provision stacks. If quota limits are exceeded, the system either displays an error message or triggers a policy-based approval.
 
-To view quota limits, navigate to the Overview page. For more information, see [Viewing resource quota limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/resource-quota.md).
+To view quota limits, navigate to the Overview page. For more information, see [Viewing resource quota limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/resource-quota.md).
 
 ## Quota calculation for template-based stacks
 
-The Stack Count is a default base system quota limit available beginning with the Australia release. It applies to all template-based stacks in the service catalog.
+The Stack Count is a default base system quota limit available beginning with the Brazil release. It applies to all template-based stacks in the service catalog.
 
 If your Cloud Provisioning and Governance administrator has set a Stack Count quota for you or your user group, the system calculates the stack number when you provision a template-based stack. After provisioning, the system increases the Stack Count quota by a value of 1 for each provisioned stack.
 

@@ -3,11 +3,11 @@ title: Add additional reporting configuration filters for a Microsoft 365 config
 description: Add additional reporting filters to specify at a granular level what data must be imported to the report from a table using the Management Reporting of Risk application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/add-additional-reporting-filters-risk-reporting.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating Microsoft 365 with Management Reporting of Risk, Integrate, Risk Management, Governance, Risk, and Compliance]
 ---

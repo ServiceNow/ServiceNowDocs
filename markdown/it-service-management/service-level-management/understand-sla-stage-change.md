@@ -3,11 +3,11 @@ title: Use SLA timeline to understand SLA stage change
 description: Describes how you can understand SLA stage changes using SLA timeline.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/understand-sla-stage-change.html
-release: australia
+release: brazil
 product: Service Level Management
 classification: service-level-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SLA timeline, Service Level Management reference, Service Level Management, IT Service Management]
 ---
@@ -32,5 +32,5 @@ The SLA continues to accumulate time, until it is breached and this is visually 
 
 \[Omitted image "understand-sla-stage-change-4.png"\] Alt text: Cancel stage
 
-**Parent Topic:**[SLA timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/c_SLATimeline.md)
+**Parent Topic:**[SLA timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/c_SLATimeline.md)
 

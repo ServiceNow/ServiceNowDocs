@@ -3,11 +3,11 @@ title: Create an escalation policy
 description: An escalation policy includes the policy type that defines the order in which rosters and roster members receive escalation notifications. You can create a custom escalation policy for a shift by overriding settings in a default escalation type, for example, by configuring custom delays between escalation steps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/create-custom-esc-policy-oncall.html
-release: australia
+release: brazil
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Designing an escalation process, Escalations in On-Call Scheduling, Defining On-Call Scheduling escalation process, On-Call Scheduling, IT Service Management]
 ---
@@ -28,7 +28,7 @@ The escalation type determines the order in which members of a user group are no
 
 -   If a shift has only one roster, the escalation type is automatically set to **Rotate through members** and the escalation path goes through the member list of a roster \(primary, secondary, tertiary\) to determine whom to notify.
 -   If the shift has multiple rosters, the escalation type is automatically set to **Rotate through rosters** and the escalation path goes through all rosters to determine whom to notify.
--   If the shift has a customized escalation hierarchy, the escalation type is set to **Custom** and the escalation path goes through members as defined in the escalation hierarchy. See [Create an escalation policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/create-custom-esc-policy-oncall.md) for details.
+-   If the shift has a customized escalation hierarchy, the escalation type is set to **Custom** and the escalation path goes through members as defined in the escalation hierarchy. See [Create an escalation policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/create-custom-esc-policy-oncall.md) for details.
 
 On-Call Scheduling supports multiple escalation policies per shift; for example, policies based on the priority of the incident or type of task record.
 
@@ -36,7 +36,7 @@ On-Call Scheduling supports multiple escalation policies per shift; for example,
 
 1.  Create a custom escalation policy using the escalation designer.
 
-<table id="choicetable_xjj_bsh_cgb"><tbody><tr><td id="d151515e93">
+<table id="choicetable_xjj_bsh_cgb"><tbody><tr><td id="d153013e93">
 
 **Access the designer from the On-Call Schedules module**
 
@@ -48,7 +48,7 @@ On-Call Scheduling supports multiple escalation policies per shift; for example,
 4.  Click **Override escalation** and click **OK** in the confirmation window.
 
 
-</td></tr><tr><td id="d151515e135">
+</td></tr><tr><td id="d153013e135">
 
 **Access the designer from the My Group Schedules module**
 
@@ -192,5 +192,5 @@ Option to select group managers hierarchically to send escalation notifications 
 6.  To reset to the default escalation type for the shift, click the actions icon and click **Reset escalation**.
 
 
-**Parent Topic:**[Designing an escalation process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/designing-escalation-process-oncall.md)
+**Parent Topic:**[Designing an escalation process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/designing-escalation-process-oncall.md)
 

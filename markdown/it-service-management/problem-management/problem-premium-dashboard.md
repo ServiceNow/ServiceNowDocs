@@ -3,11 +3,11 @@ title: Legacy: Problem Premium dashboard
 description: This dashboard uses advanced features such as interactive filters and workbench widgets to provide a broad view of problem reports, both current and over time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/problem-premium-dashboard.html
-release: australia
+release: brazil
 product: Problem Management
 classification: problem-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Legacy: Problem Management Platform Analytics Solutions, Problem Management, IT Service Management]
 ---
@@ -18,7 +18,7 @@ This dashboard uses advanced features such as interactive filters and workbench 
 
 **Important:**
 
-Starting in Xanadu release, the Problem premium dashboard is deprecated. Users can use [Problem dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem.md) to view, and track the open problems.
+Starting in Xanadu release, the Problem premium dashboard is deprecated. Users can use [Problem dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem.md) to view, and track the open problems.
 
 \[Omitted image "problem-premium-process-age.png"\] Alt text: Process by Age tab
 

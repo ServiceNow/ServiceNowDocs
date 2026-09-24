@@ -3,11 +3,11 @@ title: Exploring Machine Identity Console
 description: Manage your service accounts, which are used for integrations with ServiceNow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/explore-machine-identity-console.html
-release: australia
+release: brazil
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Machine Identity Console, Identity]
 ---
@@ -34,13 +34,13 @@ Here's what is available on the Machine Identity Console Overview page:
 **Related topics**  
 
 
-[Activating Machine Identity Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/activate-machine-identity-console.md)
+[Activating Machine Identity Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/identity/activate-machine-identity-console.md)
 
-[Security findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/security-score.md)
+[Security findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/identity/security-score.md)
 
-[Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/machine-identity-metrics.md)
+[Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/identity/machine-identity-metrics.md)
 
-[Machine Identity Console Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/machine-identity-console-settings.md)
+[Machine Identity Console Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/identity/machine-identity-console-settings.md)
 
-[Inbound integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/inbound-integrations.md)
+[Inbound integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/identity/inbound-integrations.md)
 

@@ -3,9 +3,9 @@ title: Change your password directly from the Customer Service Portal
 description: Change your password directly from the Customer Service Portal. Users with the required roles can change their passwords from the Customer Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_ChangePasswordFromUserForm.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
@@ -78,11 +78,11 @@ The new password, which must meet the following requirements:
 The new password.
 
 </td></tr></tbody>
-</table>6.  Click **Change**.
+</table>6.  Select **Change**.
 
 
 **Related topics**  
 
 
-[Request a password reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_RequestPasswordReset.md)
+[Request a password reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/t_RequestPasswordReset.md)
 

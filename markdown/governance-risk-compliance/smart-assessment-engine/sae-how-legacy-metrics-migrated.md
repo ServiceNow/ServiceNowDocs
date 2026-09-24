@@ -3,11 +3,11 @@ title: How legacy metric types are migrated to sections in templates
 description: Legacy metric types are migrated to specific sections in the assessment templates in the Smart Assessment Engine application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/sae-how-legacy-metrics-migrated.html
-release: australia
+release: brazil
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -107,5 +107,5 @@ This tables shows the mapping used to move the existing template definitions to 
 **Related topics**  
 
 
-[Tables installed in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/tables-installed-in-smart-assessment-engine.md)
+[Tables installed in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/tables-installed-in-smart-assessment-engine.md)
 

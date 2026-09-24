@@ -1,18 +1,18 @@
 ---
 title: Create an Operational Sustainability Management \(formerly ESG Management\) target
-description: Create an operational sustainability target to help track the progress toward your operational sustainability goal.
+description: Create an operational sustainability target to help track the progress towards your operational sustainability goal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-esg-target.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Create an Operational Sustainability Management \(formerly ESG Management\) target
 
-Create an operational sustainability target to help track the progress toward your operational sustainability goal.
+Create an operational sustainability target to help track the progress towards your operational sustainability goal.
 
 ## Before you begin
 
@@ -20,13 +20,13 @@ Role required: sn\_esg.program\_manager
 
 ## About this task
 
-When you create a target, you can use the target to see how well you're meeting your goals. You can treat the status of the target as a report card about your goals. After you create a target, you can create and collect metrics to measure whether the targets are met.
+When you create a target, you can use the target to see how well you are meeting your goals. You can treat the status of the target as a report card about your goals. After you create a target, you can create and collect metrics to measure whether the targets are met.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Operational Sustainability Management** &gt; **Operational Sustainability Workspace** &gt; **Lists** &gt; **Program Setup** &gt; **Targets**.
 
-2.  Select **New**.
+2.  Click **New**.
 
 3.  On the form, fill in the fields.
 
@@ -76,8 +76,8 @@ Type
 
 </td><td>
 
-Target type that shows the direction of achievement. Choices are the following:-   **Maximize**: The direction of the progress is toward the **Target value** from the **Base value**. The base value must be less than the target value.
--   **Minimize**: The direction of the progress is toward the **Target value** from the **Base value**. The target value must be less than the base value.
+Target type that shows the direction of achievement. Choices are the following:-   **Maximize**: The direction of the progress is towards the **Target value** from the **Base value**. The base value must be less than the target value.
+-   **Minimize**: The direction of the progress is towards the **Target value** from the **Base value**. The target value must be less than the base value.
 -   **Milestone**: Fixed type. Only the progress field is available. The values of the field \(0-100\) capture the achievement of a milestone.
 
 
@@ -188,7 +188,7 @@ Source for target
 
 </td><td>
 
-The metric definition or the metric that acts as a source of the target. This field only appears when the **Type** field contains either **Maximize** or **Minimize**. For information on how to add a source, see [Add a source for a target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/add-a-source-for-a-target.md).
+The metric definition or the metric that acts as a source of the target. This field only appears when the **Type** field contains either **Maximize** or **Minimize**. For information on how to add a source, see [Add a source for a target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/add-a-source-for-a-target.md).
 
 </td></tr></tbody>
 </table>4.  To mark a material topic as confidential, in the Security section, select the **Confidential** option.
@@ -199,27 +199,27 @@ The metric definition or the metric that acts as a source of the target. This fi
 
     This Security section only appears if the**sn\_grc.enable\_record\_confidentiality** property is enabled under GRC properties. By default, the logged in user is added to the list of confidential users.
 
-5.  Select **Save**.
+5.  Click **Save**.
 
     The Metric Definitions and the Metric related lists appear.
 
 6.  To add a metric definition, do the following:
 
-    1.  Select the Metric Definition related list.
+    1.  Click the Metric Definition related list.
 
-    2.  Select **Add**.
+    2.  Click **Add**.
 
     3.  Select the metric definitions to add.
 
-    4.  Select **Add**.
+    4.  Click **Add**.
 
 
 ## Result
 
 The target with metric definitions is created.
 
--   **[Add a source for a target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/add-a-source-for-a-target.md)**  
+-   **[Add a source for a target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/add-a-source-for-a-target.md)**  
 After you create a target, you must add a source for the target. The source can be a metric or a metric definition that contributes to the parent target.
 
-**Parent Topic:**[Configure Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configuring-esg.md)
+**Parent Topic:**[Configure Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/configuring-esg.md)
 

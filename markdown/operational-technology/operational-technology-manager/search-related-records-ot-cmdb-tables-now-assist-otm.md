@@ -3,11 +3,11 @@ title: Search for related records in an OT CMDB table
 description: Search for Operational Technology \(OT\) configuration items \(CIs\) and OT device information available in an OT CMDB table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/search-related-records-ot-cmdb-tables-now-assist-otm.html
-release: australia
+release: brazil
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: task
-last_updated: "2026-07-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use the OT Manager Foundation, Use, Operational Technology Manager, Operational Technology]
 ---
@@ -18,7 +18,7 @@ Search for Operational Technology \(OT\) configuration items \(CIs\) and OT devi
 
 ## Before you begin
 
--   The ServiceNow Otto panel must be activated. For more information, see [Activate the panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+-   The ServiceNow Otto panel must be activated. For more information, see [Activate the panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md).
 -   You must be assigned the now\_assist\_panel\_user role to have access to the ServiceNow Otto panel.
 -   You must be assigned appropriate roles to search the relevant OT CMDB tables, such as cmdb\_ot\_viewer or cmdb\_ot\_isa\_viewer.
 
@@ -30,11 +30,11 @@ The OT CMDB search feature uses the following:
 
 -   ServiceNow Otto for CMDB's Search CMDB agentic workflow
 
-    **Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+    **Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 -   ServiceNow AI Platform's Analytics Query Generator skill
 
-    **Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+    **Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 
 ## Procedure
@@ -63,5 +63,5 @@ If fewer than five device records appear in the search results, the panel displa
 
 When more than five OT device records appear in the search results based on your search criteria, you can select the link in the panel to view them.
 
-**Parent Topic:**[Use the OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/using-now-assist-for-otm.md)
+**Parent Topic:**[Use the OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/using-now-assist-for-otm.md)
 

@@ -3,12 +3,12 @@ title: Integrating external AI agents
 description: Integrate and configure external agents with the ServiceNow agentic AI system using Agent2Agent \(A2A\) protocol integration to use in agentic workflows created in the AI Agent Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/external-agent-protocols.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2025-11-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [a2a]
-breadcrumb: [Create an external agent, Create an AI agent, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Create an external agent, Create an AI agent, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Integrating external AI agents
@@ -44,7 +44,7 @@ Version 0.3 of A2A is supported.
 
 An AI agent's Agent Card uses standardized JSON to help different providers understand its capabilities. The Agent Card is accessed by a specific type of endpoint from a provider's server. Execution plans are communicated through an execution endpoint so that both the provider's server and the ServiceNow AI Platform can track what the external AI agent is doing.
 
-See [Create an external AI agent with the Agent2Agent protocol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a2a-agent.md) for instructions for using this protocol to create an AI agent.
+See [Create an external AI agent with the Agent2Agent protocol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-a2a-agent.md) for instructions for using this protocol to create an AI agent.
 
 ## Configuring A2A authentication
 
@@ -85,5 +85,5 @@ sn\_aia.external\_agents.parallel\_conversations.enabled
 Enables or disables multiple simultaneous conversations per user
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create an external AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-external-aia.md)
+</table>**Parent Topic:**[Create an external AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-external-aia.md)
 

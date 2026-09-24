@@ -3,9 +3,9 @@ title: Edit a copy of a shared dashboard element
 description: To configure a shared element that you added to a dashboard from a library, make a local copy that is not linked to a library. You only have to do this if you do not have permission to edit the version in the library.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/editing-local-copy-saved-dv.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Edit a dashboard, Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -48,8 +48,8 @@ However, as long as you can edit the dashboard, you can unlink a visualization o
 
 7.  Proceed as described in one of the following topics:
 
-    -   [Creating data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/creating-data-visualizations.md)
-    -   [Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/select-workspace-filter-type.md)
+    -   [Creating data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/creating-data-visualizations.md)
+    -   [Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/select-workspace-filter-type.md)
 
-**Parent Topic:**[Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-db-in-ac.md)
+**Parent Topic:**[Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/edit-db-in-ac.md)
 

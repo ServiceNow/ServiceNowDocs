@@ -3,11 +3,11 @@ title: View the source of a knowledge article search
 description: Analyze knowledge searches by finding the source used for searching a knowledge article.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/find-knowledge-search-source.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View knowledge logs, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -75,10 +75,10 @@ URL of the searched text query.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[View knowledge logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/view-knowledge-logs.md)
+**Parent Topic:**[View knowledge logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/view-knowledge-logs.md)
 
 **Related topics**  
 
 
-[View knowledge logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/view-knowledge-logs.md)
+[View knowledge logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/view-knowledge-logs.md)
 

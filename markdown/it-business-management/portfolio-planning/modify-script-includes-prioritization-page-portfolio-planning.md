@@ -3,11 +3,11 @@ title: Modify Script Includes for Prioritization page in Portfolio Planning
 description: Modify the Script Includes for Prioritization and Hierarchy views of the Planning page to change the columns to be highlighted in these views in the workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/modify-script-includes-prioritization-page-portfolio-planning.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Customizing highlighted fields, Configuring Prioritization and Roadmap settings in Portfolio Planning, Configure, Portfolio Planning, Strategic Portfolio Management]
@@ -50,15 +50,15 @@ Portfolio Planning uses a dual-file script architecture to enable safe customiza
 
 2.  Update the column name in the **Script** field of the Script Include.
 
-<table id="choicetable_fs4_s21_hkc"><thead><tr><th align="left" id="d233658e195">
+<table id="choicetable_fs4_s21_hkc"><thead><tr><th align="left" id="d234515e195">
 
 For this view
 
-</th><th align="left" id="d233658e198">
+</th><th align="left" id="d234515e198">
 
 Follow these steps
 
-</th></tr></thead><tbody><tr><td id="d233658e204">
+</th></tr></thead><tbody><tr><td id="d234515e204">
 
 **Prioritization view**
 
@@ -107,7 +107,7 @@ The required function is updated.
 
 The Priority column is now highlighted in the Prioritization List view. During the next product upgrade, the ServiceNow Controlled file \(`APWBacklogConfigImpl`\) will be updated, but your customization in the Config file will remain intact and will not conflict.
 
-</td></tr><tr><td id="d233658e283">
+</td></tr><tr><td id="d234515e283">
 
 **Hierarchy view**
 
@@ -152,7 +152,7 @@ The Priority column is now highlighted in the Prioritization Hierarchy view. Dur
 </table>
 ## What to do next
 
-[Create highlighted values for Prioritization columns in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-highlighted-values-prioritization-portfolio-planning.md)
+[Create highlighted values for Prioritization columns in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/create-highlighted-values-prioritization-portfolio-planning.md)
 
-**Parent Topic:**[Highlighted fields on the Prioritization tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/customizing-highlighted-fields-prioritization-page-portfolio-planning-workspace.md)
+**Parent Topic:**[Highlighted fields on the Prioritization tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/customizing-highlighted-fields-prioritization-page-portfolio-planning-workspace.md)
 

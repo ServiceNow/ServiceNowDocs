@@ -3,9 +3,9 @@ title: Assessment notification workflow
 description: The system sends assessment notifications according to the Notify assessment user workflow. Users with the workflow\_admin, workflow\_creator, or workflow\_publisher roles can view workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_AssessmentNotificationWorkflow.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enable manager notifications, Assessment administrator tasks, Using assessments, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,10 +26,10 @@ The system sends assessment notifications according to the Notify assessment use
     \[Omitted image "NotifyAssessmentUserWorkflow.png"\] Alt text: Notify assessment user workflow
 
 
-**Parent Topic:**[Enable manager notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_EnablingManagerNotifications.md)
+**Parent Topic:**[Enable manager notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_EnablingManagerNotifications.md)
 
 **Related topics**  
 
 
-[Assessment notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_AssessmentNotifications.md)
+[Assessment notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_AssessmentNotifications.md)
 

@@ -3,11 +3,11 @@ title: Prepare your instance for GlideEncrypter deprecation
 description: Use an instance scan script to find and remove GlideEncrypter API calls on your instance. Removing these calls is a necessary step in deprecating 3DES encryption on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/check-3des.html
-release: australia
+release: brazil
 product: Platform Encryption
 classification: platform-encryption
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Key Management Framework, Encryption]
 ---
@@ -55,12 +55,12 @@ The GlideEncrypter API is planned for deprecation as of the Zurich release of Se
 
 ## What to do next
 
-[Deprecate GlideEncrypter usage of 3DES for password2 fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/password2-3des-deprecation.md)
+[Deprecate GlideEncrypter usage of 3DES for password2 fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platform-encryption/password2-3des-deprecation.md)
 
--   **[GlideEncrypter deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/glideencrypter-deprecation.md)**  
+-   **[GlideEncrypter deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platform-encryption/glideencrypter-deprecation.md)**  
 Learn how to remove the use legacy GlideEncrypter calls from the scripts on your instance.
--   **[Deprecate GlideEncrypter usage of 3DES for password2 fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/password2-3des-deprecation.md)**  
+-   **[Deprecate GlideEncrypter usage of 3DES for password2 fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platform-encryption/password2-3des-deprecation.md)**  
 Deprecate GlideEncrypter usage of 3DES encryption standard on your instance ensure that your instance uses the more secure Advanced Encryption Standard \(AES\) exclusively for the encryption and decryption of your Password2 data.
 
-**Parent Topic:**[Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption.md)
+**Parent Topic:**[Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/encryption.md)
 

@@ -3,12 +3,12 @@ title: Properties installed with Content Governance
 description: The Content Governance \[sn\_cg\] plugin adds properties that determine how many records to show in the Content Operations dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/properties-installed-content-governance.html
-release: australia
+release: brazil
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Employee Center Pro reference, Employee Center Pro, Unified Employee Experience, Employee Service Management]
 ---
 
@@ -49,10 +49,52 @@ Set amount of days from when schedule content will be expiring
 Sets the number of days for the "Content expiring within x days" card in the Content library and campaigns sectionDefault value: 7 days
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
+</table>**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
+
+**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
 
 **Related topics**  
 
+
+[Block content form]()
+
+[Campaign overview and Campaign analytics dashboards]()
+
+[Components installed with Employee Center Pro]()
+
+[Components installed with Content engagement]()
+
+[Components installed with Content Experiences]()
+
+[Components installed with Content Publishing]()
+
+[Components installed with Content Governance]()
+
+[Components installed with Content Analytics]()
+
+[Content Analytics dashboards]()
+
+[Content engagement dashboard]()
+
+[Content Library Overview dashboard]()
+
+[Employee Center Pro widgets]()
+
+[Feedback configuration form]()
+
+[Feedback definition form]()
+
+[Link content form]()
+
+[Notification content form]()
+
+[Properties installed with Content Experiences]()
+
+[Properties installed with Content Publishing]()
+
+[Standard banner and icon sizes]()
+
+[To-do content form]()
 
 [Block content form]()
 

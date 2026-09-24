@@ -3,11 +3,11 @@ title: Task Mining key terms
 description: Key terms used in Task Mining.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/task-mining-key-terms.html
-release: australia
+release: brazil
 product: Task Mining
 classification: task-mining
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Task Mining, Platform Analytics]
 ---
@@ -137,5 +137,5 @@ DataMart
 A datamart is the mined data with categorization rules applied.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Task Mining Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/reference-task-mining.md)
+</table>**Parent Topic:**[Task Mining Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/reference-task-mining.md)
 

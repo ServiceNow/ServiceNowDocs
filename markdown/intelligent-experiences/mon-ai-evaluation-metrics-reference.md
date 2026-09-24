@@ -3,12 +3,12 @@ title: Evaluation metrics
 description: All evaluation metrics available in AI Control Tower, with their categories, evaluation levels, scoring formats, and descriptions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mon-ai-evaluation-metrics-reference.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-06-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Reference, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Reference, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Evaluation metrics
@@ -45,5 +45,5 @@ AI Control Tower provides evaluation metrics that are enabled by default or enab
 |Answer completeness|Quality|Opt-in|Span|Percentage|How completely responses use relevant context to address all relevant information.|
 |Conversation quality|Quality|Opt-in|Span|Percentage|Whether the conversation demonstrates appropriate tone, clarity, flow, responsiveness, and transparency.|
 
-**Parent Topic:**[AI Control Tower evaluations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-evaluations-reference.md)
+**Parent Topic:**[AI Control Tower evaluations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-evaluations-reference.md)
 

@@ -3,14 +3,14 @@ title: Static Choice user input control
 description: Use the Static Choice user input control in a Virtual Agent topic to list predefined choices available to the user. You can select only one item from a choice list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-static-choicelist.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 11
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 keywords: [Virtual Agent, Static choice, User input, Designer]
-breadcrumb: [Assistant Designer user input controls, Assistant Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer user input controls, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Static Choice user input control
@@ -19,16 +19,16 @@ Use the Static Choice user input control in a Virtual Agent topic to list predef
 
 ## Choice display
 
-The choice list contains up to 10 items per page. When more than 10 items exist in an NLU conversation, you have the option to show the additional items and also filter the search results. The choice list prompt contains a search icon \[Omitted image "icon-search.png"\] Alt text: Search icon. that users can select to filter the results. When more than 10 items exist in an LLM chat conversation, a scroll bar appears. When more than 16 items exist in an LLM chat conversation, a search bar appears.
+The choice list contains up to 10 items per page. The choice list prompt contains a search icon \[Omitted image "icon-search.png"\] Alt text: Search icon. that users can select to filter the results. When more than 10 items exist in an LLM chat conversation, a scroll bar appears. When more than 16 items exist in an LLM chat conversation, a search bar appears.
 
 The Static Choice control provides the option to add a header card that displays above the choice list. Header cards are supported in web and mobile channels.
 
 -   The header card can contain a large or small image or a YouTube video card, along with descriptive text. The choice list contains up to five items by default, but the search feature is suppressed. If there are more than five items, users can choose to show the additional items.
 
--   To control the number of items displayed below a header card, add the **com.glide.cs.web\_header\_picker\_page\_limit** system property. Use the **Value** to specify the number of items displayed in the choice list. For details about creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+-   To control the number of items displayed below a header card, add the **com.glide.cs.web\_header\_picker\_page\_limit** system property. Use the **Value** to specify the number of items displayed in the choice list. For details about creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 
-## Static Choice user input control properties for LLM topic discovery
+## Static Choice user input control properties
 
 <table id="table_zjt_pz3_h1c"><thead><tr><th>
 
@@ -105,7 +105,7 @@ Header Card
 
 </td><td>
 
-Toggle to open a field to add cards which may include images or YouTube videos. For more information, see [Insert a header card in a Static Choice or Dynamic Choice control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/insert-header-card-user-input-control.md)
+Toggle to open a field to add cards which may include images or YouTube videos. For more information, see [Insert a header card in a Static Choice or Dynamic Choice control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/insert-header-card-user-input-control.md)
 
 </td></tr><tr><td>
 
@@ -154,7 +154,7 @@ No-code condition statement or low-code script that specifies a condition for le
  If users enter a value such as `skip this step` when the conditions do not allow skipping, they receive a message saying the node cannot be skipped and are re-prompted to provide an answer.
 
 </td></tr></tbody>
-</table>## Example Static Choice user input control for LLM topic discovery
+</table>## Example Static Choice user input control
 
 **Note:** Asset library controls may display and function differently in other channels.
 
@@ -164,7 +164,7 @@ Input properties
 
 </th><th>
 
-List user prompt
+Static Choice list user prompt
 
 </th></tr></thead><tbody><tr><td>
 
@@ -172,221 +172,7 @@ List user prompt
 
 </td><td>
 
-\[Omitted image "nass-dynamic-choice-user-prompt-zp4.png"\] Alt text: A choice list returns a list to select from.
-
-</td></tr></tbody>
-</table>## Static Choice user input control properties for NLU topic discovery
-
-<table id="table_nff_y1b_3db"><thead><tr><th>
-
-Property
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Node name
-
-</td><td>
-
-Name that identifies this node in the topic flow.
-
-</td></tr><tr><td>
-
-Detail description
-
-</td><td>
-
-The one piece of information needed from the user. For example, `Ask the user which service catalog item they need.`
-
-</td></tr><tr><td>
-
-Variable name
-
-</td><td>
-
-Name of the variable that stores the user response to this prompt. The variable name is automatically created from the **Node name** property.
-
-</td></tr><tr><td>
-
-Prompt
-
-</td><td>
-
-Prompt or question for the user. The prompt can be either a text string or a script that returns text. This value is used only when the default value is not specified. For example: `What's your name?`
-
- You can create rich text to alter the styling of the prompt:
-
--   Use single asterisks or underscores for italic text. For example, `*text*` or `_text_`.
--   Use double asterisks or underscores for bold text. For example, `**text**` or `__text__`.
--   Use triple asterisks or underscores for italic and bold text. For example, `***text***` or `___text___`.
--   Use a spaced hyphen to add a bullet point to a line. For example, `- text`.
--   Use a spaced right angle bracket to create a block quote. For example, `> text`.
--   Use between one and six hash marks to create headers. For example, `#text#` or `######text######`
--   Use brackets and parentheses to create a hyperlink. For example, `[Link text](url)`. Add an exclamation point to a hyperlink to display an image. For example, `![alt text](image url)`
-
-</td></tr><tr><td>
-
-NLU entity
-
-</td><td>
-
-Option to associate an NLU entity with the node. If an NLU entity is associated with the input variable for this node, Virtual Agent can slot-fill the specified value based on the user's utterance. Select an entity from the list of entities associated with the topic intent.
-
- When you specify an entity for the node, the Do not ask users to confirm recognized entity toggle switch is displayed. When enabled, users are not prompted to confirm the extracted entity.
-
- This field is available only when NLU discovery is enabled on the instance.
-
-</td></tr><tr><td class="sub-head" colspan="2">
-
-Choices
-
-</td></tr><tr><td>
-
-Display name
-
-</td><td>
-
-For each choice, the text that appears to the user for that choice. Use short phrases in your choice lists.
-
--   Slack has a limit of 30 characters for choice list labels.
--   Workplace has a limit of 20 characters for choice list labels.
-
-</td></tr><tr><td>
-
-Value
-
-</td><td>
-
-For each choice, the string that is stored in the variable when the corresponding choice is selected.
-
-</td></tr><tr><td class="sub-head" colspan="2">
-
-Advanced
-
-</td></tr><tr><td>
-
-Header card
-
-</td><td>
-
-Toggle to open a field to add cards which may include images or YouTube videos. For more information, see [Insert a header card in a Static Choice or Dynamic Choice control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/insert-header-card-user-input-control.md)
-
-</td></tr><tr><td class="sub-head" colspan="2">
-
-Default value
-
-</td></tr><tr><td>
-
-Default Value
-
-</td><td>
-
-Predefined value for the user response to the question or prompt. The response defined in the **Default value confirmation** field asks the user to confirm the default value. If the user responds with `no`, the value becomes null. The default value can be either a text string or a script that returns text. For example, if you're using dot-walking, the default value might be: `Script Variables > Last username`. Or if you're using a script, the default value might be: `{{vaScripts.lastUsername}}`.
-
-</td></tr><tr><td class="sub-head" colspan="2">
-
-Confirmation messages
-
-</td></tr><tr><td>
-
-Input completion confirmation
-
-</td><td>
-
-Bot response shown to the user when the node interaction is complete. The message can be either a text string or a script that returns text. For example, if you're using dot-walking: `Thanks, (Input Variables > Username)!` Or if you're using a script, the acknowledgement might be: `Thanks, {{vaInputs.username}}!`
-
-</td></tr><tr><td>
-
-Default value confirmation
-
-</td><td>
-
-Message that asks the user to verify that the value in the **Default value** field is correct. This message is used instead of a value in the **Prompt** field. It can contain either a text string or a script that returns text. For example, if you're using dot-walking: `Are you (Input Variables > Username)?` Or if you're using a script, the confirmation message might be: `Are you {{vaScripts.lastUsername}}?`.
-
-</td></tr><tr><td class="sub-head" colspan="2">
-
-Conversation switching
-
-</td></tr><tr><td class="sub-head" colspan="2">
-
-This section is available only when NLU discovery is enabled on the instance.
-
-</td></tr><tr><td>
-
-Turn on to let users change the subject
-
-</td><td>
-
-Option to enable NLU prediction for this node. If enabled, users can enter text to answer questions, regardless of the type of input control being used. Virtual Agent uses this utterance to match another existing intent, letting the user switch topics.
-
-</td></tr><tr><td class="sub-head" colspan="2">
-
-Hide or skip this node
-
-</td></tr><tr><td>
-
-Conditionally show this node if
-
-</td><td>
-
-No-code condition statement or low-code script that specifies a condition for presenting this node in the conversation. The condition must evaluate to true.
-
-</td></tr><tr><td>
-
-Allow user to skip this node if
-
-</td><td>
-
-No-code condition statement or low-code script that specifies a condition for letting users skip this node in the conversation. The condition must evaluate to true. You can set this field using either the condition builder or a script.
-
-</td></tr><tr><td>
-
-Skip reprompting if
-
-</td><td>
-
-No-code condition statement or low-code script that specifies a condition for letting users skip reprompting in the conversation. When a preceding node is revisited through a topic loopback or Dialog Act, Virtual Agent bypasses this node and automatically retains its original value.
-
-</td></tr></tbody>
-</table>## Example Static Choice user input control for NLU topic discovery
-
-**Note:** Asset library controls may display and function differently in other channels.
-
-<table id="table_f1f_v2p_xdb"><thead><tr><th>
-
-Input properties
-
-</th><th>
-
-List prompt
-
-</th></tr></thead><tbody><tr><td rowspan="2">
-
-\[Omitted image "va-static-choice-properties.png"\] Alt text: Basic properties include the node name, prompt, associated NLU entity, and a defined list of choices.
-
- \[Omitted image "va-add-header-card-dialog.png"\] Alt text: Fields include Card type, title, description, image link, and image alt text.
-
-</td><td>
-
-\[Omitted image "va-static-choice-web.png"\] Alt text: A basic Static Choice list prompt that reads, "OK, what's the urgency of your issue?" Response include 1-High, 2-Medium, and 3-Low.
-
- \[Omitted image "va-static-choice-list-web.png"\] Alt text: Static Choice list in the web UI with the header, "Here are the breakfast items," followed by a list of more than 10 items.
-
- The choice list displays 10 items per page. When 10 or more results are returned, the following occurs:
-
--   The list includes a link at the end of the list to show more results.
--   A search icon displays in the prompt for filtering search results. Select the icon to open a search box and enter the filter.
-
-</td></tr><tr><td>
-
-\[Omitted image "va-static-choice-header.png"\] Alt text: Example Static Choice list. The header title reads "From your neighborhood candy store," followed by an embedded video and a list of five items.
-
-The choice list contains five items per page. When five or more results are returned, the list provides an option to show more results.
-
-**Note:** The search feature is suppressed when a header card is used.
+\[Omitted image "nass-static-choice-user-prompt.png"\] Alt text: A choice list returns a list to select from.
 
 </td></tr></tbody>
 </table>## Channel support
@@ -397,11 +183,7 @@ Channel
 
 </th><th>
 
-LLM support
-
-</th><th>
-
-NLU/keyword support
+Support
 
 </th><th>
 
@@ -409,59 +191,7 @@ Constraints
 
 </th></tr></thead><tbody><tr><td>
 
-Web UI
-
-</td><td>
-
-Not supported
-
-</td><td>
-
-Supported
-
-</td><td>
-
-None
-
-</td></tr><tr><td>
-
-Mobile UI
-
-</td><td>
-
-Not supported
-
-</td><td>
-
-Supported
-
-</td><td>
-
-None
-
-</td></tr><tr><td>
-
-ServiceNow Otto panel
-
-</td><td>
-
-Not supported
-
-</td><td>
-
-Supported
-
-</td><td>
-
-None
-
-</td></tr><tr><td>
-
 Microsoft Teams
-
-</td><td>
-
-Supported
 
 </td><td>
 
@@ -481,43 +211,7 @@ Not supported
 
 </td><td>
 
-Supported
-
-</td><td>
-
 Header cards aren’t supported.When a choice list has three or fewer choices, Slack displays the list as buttons.
-
-</td></tr><tr><td>
-
-Workplace
-
-</td><td>
-
-Not supported
-
-</td><td>
-
-Supported
-
-</td><td>
-
-Header cards aren’t supported.
-
-</td></tr><tr><td>
-
-Facebook Messenger
-
-</td><td>
-
-Not supported
-
-</td><td>
-
-Supported
-
-</td><td>
-
-In a quick reply, the label has the maximum character limit of 20 characters. You can view only 13 quick replies at a time. If there are more than 13 quick replies, the pagination format is used to view more options. The default value of the maximum number of replies for a page is set in the **sn\_va\_fb\_messenger.max\_quick\_replies** system property. This property is located in the System Property \[sys\_properties\] table.
 
 </td></tr><tr><td>
 
@@ -529,43 +223,7 @@ Supported
 
 </td><td>
 
-Supported
-
-</td><td>
-
 Header cards aren’t supported.
-
-</td></tr><tr><td>
-
-LINE
-
-</td><td>
-
-Not supported
-
-</td><td>
-
-Supported
-
-</td><td>
-
-In a quick reply, the label has a maximum limit of 20 characters. You can view only 13 quick replies at a time. If there are more than 13 quick replies, the pagination format is used to view more options. The default value of the maximum number of replies for a page is set in the **sn\_va\_line.max.picker.choices** system property. The property is located in the System Property \[sys\_properties\] table.
-
-</td></tr><tr><td>
-
-WhatsApp \(powered by Twilio\)
-
-</td><td>
-
-Supported
-
-</td><td>
-
-Supported
-
-</td><td>
-
-None
 
 </td></tr><tr><td>
 
@@ -577,10 +235,6 @@ Not supported
 
 </td><td>
 
-Supported
-
-</td><td>
-
 Header cards aren’t supported. The prompt or body text has a maximum limit of 1,024 characters.
 
 For list buttons:-   Each button label can have a maximum of 24 characters.
@@ -589,11 +243,7 @@ For list buttons:-   Each button label can have a maximum of 24 characters.
 
 </td></tr><tr><td>
 
-Apple Messages for Business
-
-</td><td>
-
-Not supported
+Google Chat
 
 </td><td>
 
@@ -603,22 +253,6 @@ Supported
 
 None
 
-</td></tr><tr><td>
-
-Alexa \(Voice\)
-
-</td><td>
-
-Not supported
-
-</td><td>
-
-Supported
-
-</td><td>
-
-For screen devices, use touch scroll. For nonscreen devices, use voice pagination.
-
 </td></tr></tbody>
-</table>**Parent Topic:**[Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-user-inputs.md)
+</table>**Parent Topic:**[Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-user-inputs.md)
 

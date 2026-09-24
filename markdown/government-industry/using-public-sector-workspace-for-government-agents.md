@@ -3,9 +3,9 @@ title: Playbooks and Solutions
 description: Public Sector Digital Services provides agents across government agencies with a tailored workspace experience to work on cases created by constituents, businesses, and agencies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/using-public-sector-workspace-for-government-agents.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Public Sector Digital Services \(PSDS\)]
 ---
@@ -30,9 +30,9 @@ Public Sector Digital Services provides agents across government agencies with a
 
     -   Social Benefits Playbook
     -   License and Permit Playbook
-    -   Information Request Playbook
+    -   Information Request Administration
     -   Service Request Playbook
-    To learn more about playbooks, see [Playbooks for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/playbooks-psds-exploring.md).
+    To learn more about playbooks, see [Playbooks for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/playbooks-psds-exploring.md).
 
 -   **CSM Configurable Workspace**
 
@@ -42,7 +42,7 @@ Public Sector Digital Services provides agents across government agencies with a
 
     Public Sector Digital Services playbooks are setup on and are accessed through the CRM Workspace to provide step-by-step guidance to agents for resolving specific types of government service cases, including service requests, information requests, license and permit, and social benefits cases.
 
-    To learn more about CSM Configurable Workspace, see [Explore CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/exploring-configurable-workspace.md).
+    To learn more about CSM Configurable Workspace, see [Explore CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/exploring-configurable-workspace.md).
 
 -   **Mobile Agent**
 
@@ -50,12 +50,12 @@ Public Sector Digital Services provides agents across government agencies with a
 
     The Mobile Agent is currently only supported by the Service Request Playbook.
 
-    To learn more about the Mobile Agent application, see [Mobile Agent experience for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-mobile-agent.md).
+    To learn more about the Mobile Agent application, see [Mobile Agent experience for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-using-mobile-agent.md).
 
 -   **Advanced Work Assignment**
 
     Use the Advanced Work Assignment \(AWA\) application to automatically route and assign public sector work items, such as non-emergency requests, to the best-equipped agents, based on their availability, capacity, and skills.
 
-    To learn more about Advanced Work Assignment, see [Automatically route service requests using Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/awa-psds-overview.md).
+    To learn more about Advanced Work Assignment, see [Automatically route service requests using Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/awa-psds-overview.md).
 
 

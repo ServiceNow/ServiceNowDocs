@@ -3,11 +3,11 @@ title: Configure a connection in the Connections dashboard
 description: Configure a connection through the Connections dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/dashboard-configure-connection.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using the Connections dashboard, Manage connections, Integration Hub, Workflow Data Fabric]
 ---
@@ -34,9 +34,9 @@ When you transfer an alias or promote it to production, its underlying connectio
 
 4.  On the Configure Connection form, fill in the fields.
 
-    The fields that appear on the form depend on which configuration template the parent alias has. For details on each specific template, see [Connection and Credential configuration templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/spoke-configuration-template.md).
+    The fields that appear on the form depend on which configuration template the parent alias has. For details on each specific template, see [Connection and Credential configuration templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/spoke-configuration-template.md).
 
-    Configuring a connection through the dashboard requires the parent alias to have a configuration template. If yours doesn't, clicking **Configure** opens the Connection and Credential Alias record for your alias instead of the Configure Connection form. For more information about configuring your connection in the Connection and Credential Alias record, see [Create a Connection and Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-alias.md).
+    Configuring a connection through the dashboard requires the parent alias to have a configuration template. If yours doesn't, clicking **Configure** opens the Connection and Credential Alias record for your alias instead of the Configure Connection form. For more information about configuring your connection in the Connection and Credential Alias record, see [Create a Connection and Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/connection-alias.md).
 
 5.  To submit the form, click **Configure**.
 

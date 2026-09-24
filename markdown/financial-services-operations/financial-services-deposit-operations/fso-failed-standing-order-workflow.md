@@ -3,11 +3,11 @@ title: Failed standing order workflow
 description: Learn how bank agents, using the failed standing order workflow, proactively contact a customer for a failed standing order for their deposit account and decide on an action plan. The workflow applies to both business and personal deposit accounts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-deposit-operations/fso-failed-standing-order-workflow.html
-release: australia
+release: brazil
 product: Financial Services Deposit Operations
 classification: financial-services-deposit-operations
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Deposit Operations workflows, Use, Deposit Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -56,5 +56,5 @@ The following workflow routes the case and tasks for a failed standing order to 
         After the child case is complete, the state and the stage of the parent case \(failed standing order\) are set to Closed Complete.
 
 
-**Parent Topic:**[Financial Services Deposit Operations workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-deposit-operations/deposit-operations-workflows.md)
+**Parent Topic:**[Financial Services Deposit Operations workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-deposit-operations/deposit-operations-workflows.md)
 

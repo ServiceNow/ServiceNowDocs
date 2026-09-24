@@ -3,11 +3,11 @@ title: Define access hour preferences for a work order task
 description: Set default access hours for a work order task based on the customer preference at various levels, such as account, location, asset, and so on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/define-access-hour-preferences.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Auto-population of access hours, Set up work orders and tasks, Configure, Field Service Management]
 ---

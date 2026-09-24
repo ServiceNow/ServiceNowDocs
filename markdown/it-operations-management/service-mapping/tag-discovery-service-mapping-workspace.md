@@ -3,11 +3,11 @@ title: Tag-based discovery for the Service Mapping Workspace
 description: If your organization uses tags for asset management, you can use the Service Mapping workspace to manage these tags and create tag-based application services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/tag-discovery-service-mapping-workspace.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Choose the right method for discovering and mapping services, Exploring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -18,11 +18,11 @@ If your organization uses tags for asset management, you can use the Service Map
 
 A tag is a label that consists of a key-value pair, used to categorize and organize assets within your organization. Tags enhance query and reporting capabilities, making it easier to manage and track resources. Unlike other mapping methods, tag-based mapping does not require configuring credentials or providing users with elevated rights. You can effectively use tags to map multiple service instances. Discovery and Cloud Provisioning and Governance can automatically detect tags from all major cloud providers and container ecosystems. Once these tags are discovered, Service Mapping can leverage them to create and manage application services. This approach is useful for resource management in virtualized, hyper-converged, and multi-cloud environments.
 
-For information about the traditional tag-based discovery process, see [Tag-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/tag-based-mapping.md). Tag-based discovery for the Service Mapping workspace operates differently and consists of the following stages:
+For information about the traditional tag-based discovery process, see [Tag-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/tag-based-mapping.md). Tag-based discovery for the Service Mapping workspace operates differently and consists of the following stages:
 
 **Note:**
 
-Access to tag-based service mapping in the Service Mapping workspace requires the installation of Service Mapping Plus version 1.16.3. For more information, see [Install Service Mapping Plus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/install-service-mapping-plus.md).
+Access to tag-based service mapping in the Service Mapping workspace requires the installation of Service Mapping Plus version 1.16.3. For more information, see [Install Service Mapping Plus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/install-service-mapping-plus.md).
 
 1.  Discovery and Cloud Provisioning and Governance discover tags for cloud and resource configuration items \(CIs\) and then populate data for discovered tags into the Key Value \[cmdb\_key\_value\] table.
 2.  The administrator creates CI tag categories and defines tag keys that the categories contain. Tag categories contain tags with similar use. For example, if your organization has production and staging environments, you could create "production" and "staging" tag values.
@@ -52,7 +52,7 @@ Access to tag-based service mapping in the Service Mapping workspace requires th
 **Related topics**  
 
 
-[Tag-based mapping in the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/tag-based-mapping-dashboard.md)
+[Tag-based mapping in the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/tag-based-mapping-dashboard.md)
 
-[Map your application services using tags in the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/map-tag-based-services-workspace.md)
+[Map your application services using tags in the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/map-tag-based-services-workspace.md)
 

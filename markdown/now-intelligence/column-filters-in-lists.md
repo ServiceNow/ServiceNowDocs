@@ -3,9 +3,9 @@ title: Column filters in list components
 description: If column filters are activated, viewers of a List can filter the list by the contents of individual columns. Filter options depend on the column type.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/column-filters-in-lists.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [List visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -18,7 +18,7 @@ If column filtering is turned on for a List component, viewers of the list see a
 
 \[Omitted image "show-list-column-filters.gif"\] Alt text: Showing and hiding column filters on a list.
 
-**Note:** To turn on column filtering, a permitted user must activate **Show column filtering** in the List configuration panel. For more information, see [Create a list visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-analytics-list.md).
+**Note:** To turn on column filtering, a permitted user must activate **Show column filtering** in the List configuration panel. For more information, see [Create a list visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-dv-analytics-list.md).
 
 Column filters differ from the filters you can select when you select the data source for a List in two important ways:
 
@@ -60,16 +60,16 @@ The available filters fall into several types:
     \[Omitted image "column-filter-panel.png"\] Alt text: Panel opened for the Work notes list field, showing conditions for the Work notes list and Description fields.
 
 
-**Parent Topic:**[Create a list visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-analytics-list.md)
+**Parent Topic:**[Create a list visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-dv-analytics-list.md)
 
 **Related topics**  
 
 
-[Create a list visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-analytics-list.md)
+[Create a list visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-dv-analytics-list.md)
 
-[Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md)
+[Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ConditionBuilder.md)
 
-[Create a filter in List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreatingFilters.md)
+[Create a filter in List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_CreatingFilters.md)
 
-[Add related list conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-related-list-query.md)
+[Add related list conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/create-related-list-query.md)
 

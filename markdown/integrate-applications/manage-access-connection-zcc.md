@@ -3,9 +3,9 @@ title: Manage access to an established connection using roles
 description: Manage which data stewards can access an established connection and create data fabric tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/manage-access-connection-zcc.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
@@ -78,5 +78,5 @@ The df\_data\_steward role is granted to or removed from the selected roles. Eac
 
 After access is granted, ITSM data stewards can only access and manage external ITSM data, while finance data stewards can only access and manage external finance data.
 
-**Parent Topic:**[Managing zero copy connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-connections-zcc.md)
+**Parent Topic:**[Managing zero copy connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/managing-connections-zcc.md)
 

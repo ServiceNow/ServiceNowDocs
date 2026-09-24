@@ -3,11 +3,11 @@ title: Global date and time field format
 description: You define default date and time formats globally using system properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/r\_FormatDateAndTimeFields.html
-release: australia
+release: brazil
 product: Time Configuration
 classification: time-configuration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Date and Date/Time fields, Explore, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -22,7 +22,7 @@ The **glide.sys.date\_format** property defines the date format. An administrato
 
 **Note:** A user can override the global date or time format with a personal preference.
 
-Modifying the **glide.sys.date\_format** property changes the date or time format globally. When modifying the standard date format, also verify the format using a [Validate date and time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ValidateDateAndTime.md) script. You can use the same pattern strings as the [java.text.SimpleDateFormat](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html) class, with the following exception:
+Modifying the **glide.sys.date\_format** property changes the date or time format globally. When modifying the standard date format, also verify the format using a [Validate date and time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/c_ValidateDateAndTime.md) script. You can use the same pattern strings as the [java.text.SimpleDateFormat](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html) class, with the following exception:
 
 -   You cannot append the 'z' character to include the time zone when adding it to a script.
 -   If the resulting time zone is not three characters, an Invalid Date appears error appears when you validate the script, because the Date/Time Validation Script \(sys\_script\_validator\) fails. This failure occurs even though the script debugger shows that the content of the value meets the requirement of 'g\_user\_date\_time\_format'.
@@ -42,7 +42,7 @@ Modifying the **glide.sys.date\_format** property changes the date or time forma
 
 ## Time format
 
-An administrator can modify the **glide.sys.time\_format** property by navigating to **System Properties** &gt; **System**. Modifying the property changes the date or time format globally. When modifying the standard time format, also verify the format using a [Validate date and time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ValidateDateAndTime.md) script. You can use the same pattern strings as the [java.text.SimpleDateFormat](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html) class, with the following exception: Appending 'z' to include the time zone is not supported.
+An administrator can modify the **glide.sys.time\_format** property by navigating to **System Properties** &gt; **System**. Modifying the property changes the date or time format globally. When modifying the standard time format, also verify the format using a [Validate date and time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/c_ValidateDateAndTime.md) script. You can use the same pattern strings as the [java.text.SimpleDateFormat](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html) class, with the following exception: Appending 'z' to include the time zone is not supported.
 
 The format string consists of the following abbreviations.
 
@@ -62,5 +62,5 @@ The default format is: HH:mm:ss.
 **Related topics**  
 
 
-[Schedule entry fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_ScheduleEntryFields.md)
+[Schedule entry fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/r_ScheduleEntryFields.md)
 

@@ -3,9 +3,9 @@ title: Autonomous and supervised execution modes
 description: Learn about the differences between autonomous and supervised execution modes for AI specialists to help determine which should be used for your use cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/autonomous-supervised.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, L1 IT Service Desk AI Specialist, IT Service Management]
 ---

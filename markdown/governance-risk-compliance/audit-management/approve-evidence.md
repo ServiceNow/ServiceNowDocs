@@ -3,11 +3,11 @@ title: Approve evidence before evidence review
 description: Approve the evidence being provided before the requester views the evidence. When evidence is provided in response to an evidence request, the evidence may need an approval before the evidence is sent back to the requester. This ability ensures security and confidentiality of the evidence.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/approve-evidence.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Evidence request workflow, Audit evidence request, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---

@@ -3,11 +3,11 @@ title: Test conversational action
 description: Test a conversational action to verify it responds correctly to user inputs and performs the expected operations before deploying it in production.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/test-conversational-action.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -41,7 +41,7 @@ Role required: action\_designer
 
 6.  For **Select skill**, select the conversational-enabled skill that you want to use for conversational testing.
 
-    To configure action conversational settings, see [Configure action conversational settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/configure-action-conversation-settings.md).
+    To configure action conversational settings, see [Configure action conversational settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/configure-action-conversation-settings.md).
 
 7.  For **Select assistant**, select the AI assistant you want to use for conversational testing.
 
@@ -60,5 +60,5 @@ Role required: action\_designer
     \[Omitted image "example-execution-details-conv-action.png"\] Alt text: Sample execution details from testing the Create Outage action via a conversation
 
 
-**Parent Topic:**[Building actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/actions.md)
+**Parent Topic:**[Building actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/actions.md)
 

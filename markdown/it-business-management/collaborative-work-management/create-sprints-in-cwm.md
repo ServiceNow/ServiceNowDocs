@@ -3,11 +3,11 @@ title: Create a sprint in CWM
 description: Create a sprint with custom duration and capacity to enable your team to plan and execute their work in an Agile methodology in Collaborative Work Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/create-sprints-in-cwm.html
-release: australia
+release: brazil
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Plan sprints, Agile in CWM, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -32,15 +32,15 @@ Role required: sn\_cwm.cwm\_user
 
 5.  If there are existing sprints, choose an option to create a new sprint.
 
-<table id="choicetable_pfn_qym_zfc"><thead><tr><th align="left" id="d275563e99">
+<table id="choicetable_pfn_qym_zfc"><thead><tr><th align="left" id="d276668e99">
 
 Choice
 
-</th><th align="left" id="d275563e102">
+</th><th align="left" id="d276668e102">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d275563e108">
+</th></tr></thead><tbody><tr><td id="d276668e108">
 
 **Create a sprint with the same duration and story points capacity as the existing sprint**
 
@@ -48,7 +48,7 @@ Steps
 
 Select **Add another Sprint**.
 
-</td></tr><tr><td id="d275563e120">
+</td></tr><tr><td id="d276668e120">
 
 **Create a sprint with different duration or story point capacity**
 
@@ -63,7 +63,7 @@ Select **Add another Sprint**.
 </table>
 ## What to do next
 
-[Plan work items into sprints in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/plan-work-items-into-sprints-in-cwm.md).
+[Plan work items into sprints in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/plan-work-items-into-sprints-in-cwm.md).
 
-**Parent Topic:**[Sprint planning in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.md)
+**Parent Topic:**[Sprint planning in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.md)
 

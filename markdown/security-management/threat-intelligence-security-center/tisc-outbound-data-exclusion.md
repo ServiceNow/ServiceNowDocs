@@ -3,11 +3,11 @@ title: Configuring Outbound Intel Data Exclusion Rule
 description: Use this section to create exclusion rules, which can be configured by TISC admin to restrict sharing of records that match the defined criteria.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-outbound-data-exclusion.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Exploring Outbound Intel Sharing, Configuring Threat Intelligence External Sharing, Administer, Threat Intelligence Security Center, Security Operations]
 ---
@@ -57,7 +57,7 @@ You can share certain entities while excluding specific records within those ent
     -   Enabling templates or sharing from GUI is not allowed while the Outbound Intelligence Data Exclusion Rule is in the edit mode.
     -   The automated sharing and automatic addition of records to TAXII collections will also fail while the exclusion rule remains in edit mode.
 
-**Parent Topic:**[Exploring Outbound Intel Sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-outbound-intel-sharing.md)
+**Parent Topic:**[Exploring Outbound Intel Sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-outbound-intel-sharing.md)
 
 **Related topics**  
 

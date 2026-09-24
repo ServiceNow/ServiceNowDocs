@@ -3,11 +3,11 @@ title: Vaccine Administration Management data model
 description: The Vaccine Administration Management application provides a data model that is used in the vaccine administration workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/vaccine-administration-management/hcls-vam-data-model.html
-release: australia
+release: brazil
 product: Vaccine Administration Management
 classification: vaccine-administration-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Reference, Vaccine Administration Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -401,5 +401,5 @@ Provides a series of standard user fields used on each of the tables that extend
 ServiceNow AI Platform
 
 </td></tr></tbody>
-</table>To learn about Healthcare and Life Sciences Service Management Core, ServiceNow AI Platform, and CSM tables, see [Healthcare and Life Sciences data model](), [Industry data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-data-model-tables.md), and [Tables installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_TIWCustomerService.md).
+</table>To learn about Healthcare and Life Sciences Service Management Core, ServiceNow AI Platform, and CSM tables, see [Healthcare and Life Sciences data model](), Industry data model tables, and Tables installed with Customer Service Management.
 

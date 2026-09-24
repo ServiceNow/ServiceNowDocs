@@ -3,9 +3,9 @@ title: Add products to a quote
 description: Use the Catalog tab in Quote Management to add products to your quote.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-management-catalog-tab.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -41,10 +41,10 @@ You can use the Catalog tab to search for and select product offerings from cata
     -   For a simple product that doesn't have any selectable options, select **Add**.
     -   For a configurable product that has options that you can choose, select **Customize** to open the product configurator for selecting product options.
 
-        As you configure the product, you can reprice, validate, and then save your selections. For details on using the product configurator, see [Using Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-using.md).
+        As you configure the product, you can reprice, validate, and then save your selections. For details on using the product configurator, see [Using Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-using.md).
 
     The product offering is added to the quote as a line item.
 
 
-**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-mgmt-using.md)
 

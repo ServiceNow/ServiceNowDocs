@@ -1,9 +1,9 @@
 ---
 title: ServiceNow Otto for Integrated Risk Management \(IRM\)
-description: With the ServiceNow Otto for Integrated Risk Management \(IRM\) application, you can use generative AI capabilities to support key control objective tasks such as identifying overlapping control objectives, analyzing impact of regulatory changes, and optimizing control objectives within Policy and Compliance Management.
+description: Use generative AI capabilities to support key control objective tasks within Policy and Compliance Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/sn-otto-irm-pc.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
@@ -15,9 +15,14 @@ breadcrumb: [Policy and Compliance Management, Governance, Risk, and Compliance]
 
 # ServiceNow Otto for Integrated Risk Management \(IRM\)
 
-With the ServiceNow Otto for Integrated Risk Management \(IRM\) application, you can use generative AI capabilities to support key control objective tasks such as identifying overlapping control objectives, analyzing impact of regulatory changes, and optimizing control objectives within Policy and Compliance Management.
+Use generative AI capabilities to support key control objective tasks within Policy and Compliance Management.
 
-With the ServiceNow Otto for Integrated Risk Management \(IRM\) application, you can use generative AI to support key control objective management tasks such as identifying overlapping control objectives, recommending rationalization opportunities, optimizing control objectives, and analyzing impact of regulatory changes.
+With the ServiceNow Otto for Integrated Risk Management \(IRM\) application, use generative AI to
+
+-   Identify overlapping control objectives
+-   Recommend rationalization opportunities
+-   Optimize control objectives
+-   Analyze impact of regulatory changes
 
 These capabilities are integrated into Control Objective records and help streamline how you work with control objectives and compliance mapping.
 

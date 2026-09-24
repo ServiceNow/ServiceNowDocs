@@ -3,11 +3,11 @@ title: Roll up of MITRE Techniques from Artifacts to Case
 description: When intelligence records are added to a case, all associated MITRE Techniques are automatically rolled up to the case level.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/roll-up-mitre-case.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Add artifacts to cases or case tasks, Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Only the associations that come from tactic and technique pairs that MITRE currently maps are rolled up to the case. A pair that MITRE has stopped mapping is excluded from the roll-up and from the technique counts on the case. For more information, see [Review revoked MITRE tactic and technique associations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-review-revoked-mitre-associations.md).
+Only the associations that come from tactic and technique pairs that MITRE currently maps are rolled up to the case. A pair that MITRE has stopped mapping is excluded from the roll-up and from the technique counts on the case. For more information, see [Review revoked MITRE tactic and technique associations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-review-revoked-mitre-associations.md).
 
 ## Procedure
 
@@ -41,5 +41,5 @@ Only the associations that come from tactic and technique pairs that MITRE curre
     The associated artifacts are displayed as the related lists for that specific case.
 
 
-**Parent Topic:**[Add artifacts to cases or case tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/add-artifacts-to-a-case-s.md)
+**Parent Topic:**[Add artifacts to cases or case tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/add-artifacts-to-a-case-s.md)
 

@@ -3,9 +3,9 @@ title: Create an analysis
 description: Create analyses to model different outcomes based on specific interventions or changes. You can generate forecasts for each analysis and use that information to compare the different outcomes and better understand the impact of potential interventions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-a-scenario-analysis.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Set up analysis contexts and analyses, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -52,7 +52,7 @@ Forecast Method
 
 Method used to generate forecasting data.-   Auto
 
-By default, the instance chooses the best method for you automatically, based on the fit of the method. For more information, see [Automatic selection of forecast methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-forecast-ts-viz.md).
+By default, the instance chooses the best method for you automatically, based on the fit of the method. For more information, see [Automatic selection of forecast methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/configure-forecast-ts-viz.md).
 
 -   Linear
 
@@ -78,7 +78,7 @@ Creates a combination of decision trees where the predictions produced by these 
 
 The autoregressive \(AR\) model forecasts future values of an indicator by using a linear combination of a trend, seasonal dummies, and past values. Like the Random Forest \(RF\) model, the AR model checks for the best number of lags. However, the AR model relates current to past values linearly, whereas the RF model is non-linear.
 
-For more information, see [Forecast methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-forecast-ts-viz.md).
+For more information, see [Forecast methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/configure-forecast-ts-viz.md).
 
 </td></tr><tr><td>
 
@@ -119,7 +119,7 @@ Description of the analysis.
 
 ## What to do next
 
-Adjust parameters to model different outcomes based on specific interventions or changes. For more information, see [Adjust parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-forecast-intervention.md).
+Adjust parameters to model different outcomes based on specific interventions or changes. For more information, see [Adjust parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/create-a-forecast-intervention.md).
 
-**Parent Topic:**[Set up analysis contexts and analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/set-up-scenarios.md)
+**Parent Topic:**[Set up analysis contexts and analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/set-up-scenarios.md)
 

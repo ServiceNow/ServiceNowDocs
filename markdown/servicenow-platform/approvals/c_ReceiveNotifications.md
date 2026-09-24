@@ -3,11 +3,11 @@ title: Receive notifications
 description: Individuals who are designated approvers automatically receive approval notifications, including approval status updates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/approvals/c\_ReceiveNotifications.html
-release: australia
+release: brazil
 product: Approvals
 classification: approvals
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Classic approvals, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -27,8 +27,8 @@ Note for Blackberry users: In order to see the "mailto" links mentioned above to
 
 If you create an appropriate Inbound Email Action, you can let approvers respond to approval email notifications with a simple "yes" or "no" answer.
 
--   **[Embed an approval request within the Outlook email client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/embed-approval-in-outlook.md)**  
+-   **[Embed an approval request within the Outlook email client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/approvals/embed-approval-in-outlook.md)**  
 Embed an interactive approval request for service catalog requests in the email notification sent to a user. The user can accept or reject the approval request from the email client.
 
-**Parent Topic:**[Classic approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/r_Approvals.md)
+**Parent Topic:**[Classic approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/approvals/r_Approvals.md)
 

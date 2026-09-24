@@ -3,9 +3,9 @@ title: Use the Universal App Connector
 description: Create automations for your Windows, Java, Google Chrome, and Edge browser-based applications by using the Universal App Connector \(UAC\). Configure the applications from a single, unified connector and capture the screens and elements or screen controls such as check boxes, and buttons. Use the methods of these screens and elements to build your automation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/configure-uac.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Universal app connector, Connectors, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,7 +16,7 @@ Create automations for your Windows, Java, Google Chrome, and Edge browser-based
 
 ## Before you begin
 
-Add the Universal App Connector plugin from the Plugins Manager before using the connector. For more information about adding the SSH plugin, see [Manage plugins in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/install-plugins-rpa-studio.md).
+Add the Universal App Connector plugin from the Plugins Manager before using the connector. For more information about adding the SSH plugin, see [Manage plugins in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/install-plugins-rpa-studio.md).
 
 Verify that you have open or active Windows, Java, Google Chrome, or Edge applications.
 
@@ -32,11 +32,11 @@ Role required: None
 
     |Method name|Reference|
     |-----------|---------|
-    |**Click**|[Use the Click method for Universal App Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-click-method-uac.md)|
-    |**GetValue**|[Use the GetValue method for Universal App Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-getvalue-method-uac.md)|
-    |**SetValue**|[Use the SetValue method for Universal App Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-setvalue-uac.md)|
-    |**Start**|[Use the Start method for Universal App Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-start-method.md)|
-    |**WaitForAnyScreen**|[Use the WaitForAnyScreen method for Universal App Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-the-wait-for-any-screen-method.md)|
+    |**Click**|[Use the Click method for Universal App Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/use-click-method-uac.md)|
+    |**GetValue**|[Use the GetValue method for Universal App Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/use-getvalue-method-uac.md)|
+    |**SetValue**|[Use the SetValue method for Universal App Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/use-setvalue-uac.md)|
+    |**Start**|[Use the Start method for Universal App Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/use-start-method.md)|
+    |**WaitForAnyScreen**|[Use the WaitForAnyScreen method for Universal App Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/use-the-wait-for-any-screen-method.md)|
 
     For example, the Start method is used if you want the browser or application to start before interacting with any application screens or elements.
 
@@ -86,21 +86,21 @@ Role required: None
 
     6.  To use the methods at the **Universal App Connector** connector level for the two modes, UI Automation and Active Accessibility, double-click the **UniversalApplication** object.
 
-        For more information about the methods for UI Automation mode and Active Accessibility mode, see [Methods of UI Automation mode and Active Accessibility mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/uac-windows-uia-aa-methods.md).
+        For more information about the methods for UI Automation mode and Active Accessibility mode, see [Methods of UI Automation mode and Active Accessibility mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/uac-windows-uia-aa-methods.md).
 
         The methods appear in the Object Explorer pane.
 
 4.  Do any of the following options for a desired action.
 
-<table id="choicetable_zm4_lwz_vrb"><thead><tr><th align="left" id="d184770e431">
+<table id="choicetable_zm4_lwz_vrb"><thead><tr><th align="left" id="d183117e431">
 
 Option
 
-</th><th align="left" id="d184770e434">
+</th><th align="left" id="d183117e434">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d184770e440">
+</th></tr></thead><tbody><tr><td id="d183117e440">
 
 **To rename __UniversalApplication__**
 
@@ -108,7 +108,7 @@ Action
 
 Navigate to **Global Objects** in the Project Explorer pane, right-click the **UniversalApplication** and select **Rename**.\[Omitted image "uac-rename-right-click.png"\] Alt text: From Global objects, right-click the UniversalApplication and select Rename.
 
-</td></tr><tr><td id="d184770e480">
+</td></tr><tr><td id="d183117e480">
 
 **To change the name of the screen while configuring the screens and elements**
 
@@ -124,7 +124,7 @@ The name of the application is updated in the Screens and elements pane.
 
  \[Omitted image "uac-update-screen-name.png"\] Alt text: Update the application screen name in the Properties section.
 
-</td></tr><tr><td id="d184770e523">
+</td></tr><tr><td id="d183117e523">
 
 **To identify the screen uniquely**
 
@@ -138,7 +138,7 @@ The image below shows an example of multiple elements that match the same criter
 
 \[Omitted image "uac-connector-multiple-instances.png"\] Alt text: Multiple instances of captured element.
 
-</td></tr><tr><td id="d184770e554">
+</td></tr><tr><td id="d183117e554">
 
 **To identify an element uniquely**
 
@@ -150,15 +150,15 @@ The image shows the match rules of an element captured.
 
 \[Omitted image "uac-connector-child-element-match-rules.png"\] Alt text: Element and its match rules.
 
-</td></tr><tr><td id="d184770e586">
+</td></tr><tr><td id="d183117e586">
 
 **To find the elements on the application screen**
 
 </td><td>
 
-Use the locators of the captured elements.For more information, see [Find the elements on the application screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/find-elements-screen-uac.md).
+Use the locators of the captured elements.For more information, see [Find the elements on the application screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/find-elements-screen-uac.md).
 
-</td></tr><tr><td id="d184770e607">
+</td></tr><tr><td id="d183117e607">
 
 **To view the path to an iframe, if any, in a captured element**
 
@@ -178,7 +178,7 @@ The iframe appears.
 </td></tr></tbody>
 </table>5.  Right-click the application screen or element to perform any additional operations such as **Refresh**, **Refresh screen and elements**, **Focus**, **Add custom element**, **Show Elements**, **Delete**, and more.
 
-    For information on the various additional operations that are available for the application screens and elements, see [Additional options for application screens and elements in Universal App Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/contextmenu-application-screens.md).
+    For information on the various additional operations that are available for the application screens and elements, see [Additional options for application screens and elements in Universal App Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/contextmenu-application-screens.md).
 
 6.  Select **Done** after you finish configuring your application screens or elements.
 
@@ -188,15 +188,15 @@ The iframe appears.
 
     For example, if you select a Java application screen or element, the Java connector methods are displayed in Object Explorer.
 
-    -   For more information on Java connector methods, see [Java connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/java-connector-methods.md).
-    -   For more information on Google Chrome and Microsoft Edge connector methods, see [Chromium connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connectors-chrome-methods.md).
+    -   For more information on Java connector methods, see [Java connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/java-connector-methods.md).
+    -   For more information on Google Chrome and Microsoft Edge connector methods, see [Chromium connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/connectors-chrome-methods.md).
 
-    -   For more information on Windows connector methods, see [Windows Connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connectors-windows-methods.md).
+    -   For more information on Windows connector methods, see [Windows Connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/connectors-windows-methods.md).
     -   If you have captured a web application screen and you want to execute a custom JavaScript on it, you can use the ExecuteJavascript method.
 
 8.  Capture as many screen elements as you need by using the Capture element dialog.
 
-    To learn to use the Capture element dialog, see [Use the Capture element dialog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-context-dialog.md).
+    To learn to use the Capture element dialog, see [Use the Capture element dialog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/use-context-dialog.md).
 
     The captured screen elements appear under the captured application screen as elements.
 
@@ -211,5 +211,5 @@ The iframe appears.
 
 Design the automation by using the different methods for the application screens and elements, and save the automation.
 
-**Parent Topic:**[Universal app connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/universal-app-connector.md)
+**Parent Topic:**[Universal app connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/universal-app-connector.md)
 

@@ -3,9 +3,9 @@ title: Generate customer insights in the Customer 360 page
 description: Use the Banking CSR customer insights AI agent in the Customer 360 page to automatically consolidate customer data and generate persona-based insights. These insights help customer service representatives \(CSRs\) prepare for callbacks, conduct proactive outreach, and identify high-value customers requiring attention.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/generate-customer-insights-customer-360-workspace.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Agentic Contact Center for Banking, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -20,7 +20,9 @@ Role required: sn\_fso\_csr.business\_agent, sn\_fso\_csr.personal\_agent
 
 ## About this task
 
-When requested, the Banking CSR customer insights AI agent consolidates customer data and presents persona-based insights. These insights help CSR agents prepare for callbacks, perform proactive outreach, or identify high-value customers that need attention.
+When requested, the Banking CSR customer insights AI agent will begin consolidating customer data and presents persona-based insights to help CSR agents prepare for callbacks, perform proactive outreach, or identify high-value customers that need attention.
+
+\[Omitted image "agentic-contact-center-c360-na-panel.png"\] Alt text: Customer 360 Insights panel showing customer details, financial overview, AI-generated summary, and ServiceNow Otto panel with AI agent conversation.
 
 ## Procedure
 
@@ -41,10 +43,10 @@ When requested, the Banking CSR customer insights AI agent consolidates customer
 
 The AI agent answers your questions using information from its configured knowledge sources.
 
-**Parent Topic:**[Using Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/using-agentic-contact-center-for-banking.md)
+**Parent Topic:**[Using Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/using-agentic-contact-center-for-banking.md)
 
 **Related topics**  
 
 
-[Agentic Contact Center for Banking AI agents overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/agentic-contact-center-for-banking-agents-overview.md)
+[Agentic Contact Center for Banking AI agents overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/agentic-contact-center-for-banking-agents-overview.md)
 

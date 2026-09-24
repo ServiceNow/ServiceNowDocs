@@ -3,9 +3,9 @@ title: Context inputs in Recommended Actions
 description: A context input enables you to associate entities beyond just the context table with a context ensuring that recommendations are updated dynamically as the context evolves.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-csm-dynamic-context-inputs.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Context inputs in Recommended Actions]
 breadcrumb: [Recommended Actions, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
@@ -35,7 +35,7 @@ The following data types are supported for a context input:
 
 Configuring a context using context inputs includes the following steps:
 
--   Creating a context input. For more information on how to create a context input, see [Create a context input in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-create-context-inputs.md).
+-   Creating a context input. For more information on how to create a context input, see [Create a context input in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-csm-create-context-inputs.md).
 
     **Note:**
 
@@ -46,7 +46,7 @@ Configuring a context using context inputs includes the following steps:
     -   rules by using it in the condition builder on Rules form.
     -   recommendations by adding it in fields of the Action inputs section on Recommendations form.
     -   resource generators by adding it in the fields of Generator inputs section on Resource Generators form.
--   Adding the JSON-format of the context inputs to the Recommended Actions component for the required record pages in the UI Builder. For more information, see [Configuring Recommended Actions UIB component for context inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-dynamic-context-inputs.md).
+-   Adding the JSON-format of the context inputs to the Recommended Actions component for the required record pages in the UI Builder. For more information, see [Configuring Recommended Actions UIB component for context inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-csm-dynamic-context-inputs.md).
 
 The context inputs appear along with the context table in the appropriate fields of Rule, Recommendation and Resource generator forms so that you can include the data other than that of the context table to update the recommendations.
 
@@ -54,7 +54,7 @@ The context inputs appear along with the context table in the appropriate fields
 
 As an RA author or admin, you must add the JSON-format of the context inputs in the **Context input** field of Recommended Actions UIB component of a record page to pass the values. You can get the JSON-format of the context input by selecting the **Copy input JSON** button on the Context input related list in the Context form. The JSON-format includes all the active context inputs. When a context input is deleted or deactivated after configuring the Recommended Actions UIB component, an empty value is passed for these context inputs in UIB from the upcoming iterations.
 
-**Note:** If you set a context input as [mandatory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-create-context-inputs.md) in the Context input form and fail to set contextual inputs on Recommended Actions component of the record page in the UIB, the recommendations are not be generated.
+**Note:** If you set a context input as [mandatory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-csm-create-context-inputs.md) in the Context input form and fail to set contextual inputs on Recommended Actions component of the record page in the UIB, the recommendations are not be generated.
 
 ## Context Input configuration limitations
 

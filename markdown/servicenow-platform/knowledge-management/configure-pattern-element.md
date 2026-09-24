@@ -3,11 +3,11 @@ title: Configure pattern elements for Self-Service Analytics
 description: Configure a pattern element to specify a single activity type and how many times it occurs. Each pattern element is implemented as regular expressions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/configure-pattern-element.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure Self-Service Analytics, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Configure a pattern element to specify a single activity type and how many times
 
 ## Before you begin
 
-[Configure activity contexts for Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configure-activity-context.md).
+[Configure activity contexts for Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/configure-activity-context.md).
 
 Role required: sn\_ssa\_core.self\_service\_manager
 
@@ -103,7 +103,7 @@ Maximum occurrence of an activity. This field appears only when **Range** is sel
 
 ## What to do next
 
-[Configure pattern element groups for Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configure-pattern-element-group.md).
+[Configure pattern element groups for Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/configure-pattern-element-group.md).
 
-**Parent Topic:**[Configure Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/config-ssa.md)
+**Parent Topic:**[Configure Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/config-ssa.md)
 

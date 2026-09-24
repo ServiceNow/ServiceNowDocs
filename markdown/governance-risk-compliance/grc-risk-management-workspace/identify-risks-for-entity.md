@@ -3,12 +3,12 @@ title: Identify risks for an entity using ServiceNow Otto for IRM
 description: Identify and consolidate risks using the Risk Suggestion AI agent through a conversational assistant. This feature helps streamline risk discovery, eliminate duplicates, and provide a comprehensive list of risks relevant to the entity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/identify-risks-for-entity.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Suggest potential risks workflow, AI in Risk Management, Explore, Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -23,7 +23,7 @@ Role required: sn\_grc\_sharegenai.risk\_suggestion\_aiagent\_user
 Make sure that the following prerequisites are met to use this feature:
 
 -   ServiceNow Otto for IRM and any Workspace must be installed.
--   Suggest potential risks workflow and Risk Suggestion AI agent must be activated. For more, refer to .
+-   Suggest potential risks workflow and Risk Suggestion AI agent must be activated. For more, refer to [Activate agentic workflows in ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/activate-agentic-workflows.md).
 
 ## Procedure
 

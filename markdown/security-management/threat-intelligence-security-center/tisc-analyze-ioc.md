@@ -3,11 +3,11 @@ title: Analyze and assess threat IoC’s
 description: Learn how to analyze an IOC’s which are a threat and notifying the security incident team.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-analyze-ioc.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Working with automated flows, Administer, Threat Intelligence Security Center, Security Operations]
 ---
@@ -57,7 +57,7 @@ Whenever a sighting search enrichment is requested:
         \[Omitted image "tisc-analyze-assess-IoCs.png"\] Alt text: Analyze, assess the IoC’s related to the threat and create incident.
 
 
-**Parent Topic:**[Working with automated flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-automated-flows.md)
+**Parent Topic:**[Working with automated flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-automated-flows.md)
 
 **Related topics**  
 

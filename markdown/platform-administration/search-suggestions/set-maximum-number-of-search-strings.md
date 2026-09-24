@@ -3,11 +3,11 @@ title: Set maximum age for searches used in suggestion generation
 description: Set the Auto Flush parameter to limit the age of search strings used to create auto-complete suggestions and search suggestions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-suggestions/set-maximum-number-of-search-strings.html
-release: australia
+release: brazil
 product: Search Suggestions
 classification: search-suggestions
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Search Suggestions, Search Suggestions, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---

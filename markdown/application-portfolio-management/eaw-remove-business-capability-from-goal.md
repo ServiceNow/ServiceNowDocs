@@ -3,9 +3,9 @@ title: Remove a business capability from a goal
 description: Remove business capabilities associated with a goal in the Enterprise Architecture Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-remove-business-capability-from-goal.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [remove business capability, goal management, enterprise architecture workspace]
 breadcrumb: [Manage goals, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
@@ -42,12 +42,12 @@ Role required: sn\_apm.apm\_user
 8.  Select **Remove**.
 
 
-**Parent Topic:**[Manage goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-goals.md)
+**Parent Topic:**[Manage goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-manage-goals.md)
 
 **Related topics**  
 
 
-[Add a business capability to a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-business-capability-to-goal.md)
+[Add a business capability to a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-add-business-capability-to-goal.md)
 
-[View all goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-goals.md)
+[View all goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-all-goals.md)
 

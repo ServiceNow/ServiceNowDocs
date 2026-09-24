@@ -3,9 +3,9 @@ title: Understand the MITRE to STIX data model
 description: Review the terminology used by MITRE and STIX to efficiently use and understand the MITRE-ATT&amp;CK framework in the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/understand-the-mitre-to-stix-data-model-mapping.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [MITRE-ATT&amp;CK administration, MITRE-ATT&amp;CK framework overview, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -30,7 +30,7 @@ STIX is a language for describing cyber threat information in a standardized and
 
 You can maintain a list of Threat Intelligence threat sources and import the needed STIX data that includes an extensive set of cyber threat information. You can also use the TAXII profiles to facilitate automated exchange of cyber threat information.
 
-**Note:** For more information, see [define a threat source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_GetStartedWithThreatIntel.md) and [create a TAXII profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_GetStartedWithThreatIntel.md).
+**Note:** For more information, see [define a threat source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/c_GetStartedWithThreatIntel.md) and [create a TAXII profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/c_GetStartedWithThreatIntel.md).
 
 ## Extending data in the MITRE-ATT&amp;CK module
 
@@ -42,9 +42,9 @@ If you map the relationship type between an existing technique and an existing o
 
 You can create a group and associate it with an attack pattern, but in the MITRE ATT&amp;CK Repository, you can only establish the relationship between the group and the attack pattern. To define the object-to-object relationship type, you must do so in the IoC Repository.
 
-**Note:** For more information, see [extend MITRE-ATT&amp;CK data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/view-and-extend-information.md) and [IoC repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ioc-repository.md).
+**Note:** For more information, see [extend MITRE-ATT&amp;CK data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/view-and-extend-information.md) and [IoC repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/ioc-repository.md).
 
-**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-administration.md)
+**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/mitre-att-ck-administration.md)
 
 **Related topics**  
 

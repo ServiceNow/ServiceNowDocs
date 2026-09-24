@@ -3,12 +3,12 @@ title: AI Desktop Actions user interface
 description: The AI Desktop Actions application includes a task input field, an execution workspace, and status indicators that show the current state of AI agent task execution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai\_desktop\_actions\_reference\_adaptive.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [AI Desktop Actions, execution states, legal disclaimer, privacy, requirements, Mac permissions]
-breadcrumb: [Adaptive desktop actions for desktop and web, Explore, AI Desktop Actions, Enable AI experiences]
+breadcrumb: [Adaptive desktop actions for desktop and web, Explore, AI Desktop Actions, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # AI Desktop Actions user interface
@@ -49,7 +49,7 @@ The AI Desktop Actions application includes a task input field, an execution wor
     -   **Return control**: Return control back to AI agent. After you return control, a confirmation dialog appears prompting you to enter handoff notes for the AI agent. These notes help the AI agent interpret the changes you made.
 -   **5. Execution status**
 
-    The current state of the task, such as Initiated, Running, Completed, Failed, or Stopped. The status badge updates as the AI progresses through steps. For more information about the statuses, see [Execution status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai_desktop_actions_reference_adaptive.md).
+    The current state of the task, such as Initiated, Running, Completed, Failed, or Stopped. The status badge updates as the AI progresses through steps. For more information about the statuses, see [Execution status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai_desktop_actions_reference_adaptive.md).
 
 -   **6. New chat**
 

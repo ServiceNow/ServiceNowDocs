@@ -3,9 +3,9 @@ title: Exploring MCP for Strategic Portfolio Management
 description: With MCP for Strategic Portfolio Management, strategy/PMO leaders, portfolio managers, and project managers can access goal insights, portfolio insights, project insights, status reports, and risk in projects directly in their AI client and planning workflows — without opening the ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/exploring-spm-mcp-server.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [explore]
 breadcrumb: [MCP for Strategic Portfolio Management, Strategic Portfolio Management]
@@ -49,7 +49,7 @@ The following tools are available:
 
 To learn more about configuring and using MCP for Strategic Portfolio Management, see the following topics.
 
--   [Configuring MCP for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/configuring-spm-mcp-server.md)
--   [Using MCP for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/using-spm-mcp-server.md)
--   [MCP for Strategic Portfolio Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/reference-spm-mcp-server.md)
+-   [Configuring MCP for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/configuring-spm-mcp-server.md)
+-   [Using MCP for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/using-spm-mcp-server.md)
+-   [MCP for Strategic Portfolio Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/reference-spm-mcp-server.md)
 

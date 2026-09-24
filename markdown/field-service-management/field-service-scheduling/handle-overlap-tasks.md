@@ -3,11 +3,11 @@ title: Determine how overlapping tasks are assigned
 description: If you have configured more than one way of assigning tasks, choose which task assignment option to use when assigning tasks that overlap.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/handle-overlap-tasks.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
@@ -24,9 +24,9 @@ Role required: wm\_dispatcher.
 
 You must have at least two out of three of the following types of task assignment enabled to determine the correct method to use:
 
--   Automatically adjust overlapping tasks - For more information, see [Enable Dispatcher Workspace settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/dispatcher-wrkspc-settings.md)
--   Double booking - For more information, see [Setting up dynamic scheduling in Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/dispatcher-ws-dy-scheduling.md)
--   Auto-assignment - For more information, see [Configuring Auto Assignment scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/c_UseAutoAssignment.md)
+-   Automatically adjust overlapping tasks - For more information, see [Enable Dispatcher Workspace settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/dispatcher-wrkspc-settings.md)
+-   Double booking - For more information, see [Setting up dynamic scheduling in Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/dispatcher-ws-dy-scheduling.md)
+-   Auto-assignment - For more information, see [Configuring Auto Assignment scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/c_UseAutoAssignment.md)
 
 ## Procedure
 

@@ -1,22 +1,22 @@
 ---
-title: Software Asset Management Foundation plugin properties
+title: Basic Software Asset Management properties
 description: You can set default reconciliation properties such as reconciliation run with custom license metrics, and reconciliation debugging settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management-foundation-plugin/sam-properties-samf.html
-release: australia
+release: brazil
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Software Asset Management Foundation plugin Administration, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
+breadcrumb: [Basic Software Asset Management Administration, Basic Software Asset Management, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
-# Software Asset Management Foundation plugin properties
+# Basic Software Asset Management properties
 
 You can set default reconciliation properties such as reconciliation run with custom license metrics, and reconciliation debugging settings.
 
-These properties are available for Software Asset Management Foundation plugin.
+These properties are available for Basic Software Asset Management.
 
 To access these properties, navigate to **Software Asset** &gt; **Administration** &gt; **Properties**.
 
@@ -55,5 +55,5 @@ Enable debugging of reconciliation results to troubleshoot a result.
 -   **Default value**: No
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management Foundation plugin Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/c_SAMAdministrationSAMF.md)
+</table>**Parent Topic:**[Basic Software Asset Management Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management-foundation-plugin/c_SAMAdministrationSAMF.md)
 

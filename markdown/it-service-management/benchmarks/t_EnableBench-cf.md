@@ -3,11 +3,11 @@ title: Enable Benchmarks
 description: Enable Benchmarks by opting in to participate in Benchmarks data collection. With Benchmarks you can compare your organization's performance with that of the recognized industry standards.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/t\_EnableBench-cf.html
-release: australia
+release: brazil
 product: Benchmarks
 classification: benchmarks
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Benchmarks, IT Service Management]
 ---
@@ -24,11 +24,11 @@ Role required: sn\_bm\_client.benchmark\_admin
 
 ## About this task
 
-**Note:** You must install the [Success Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/install-success-dashboard.md) and [Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/it-business-management-bu-level.md) applications to access the respective Benchmarks KPIs. For information on these KPIs, see Benchmark KPIs.
+**Note:** You must install the [Success Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-success-dashboard-indicators/install-success-dashboard.md) and [Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/it-business-management-bu-level.md) applications to access the respective Benchmarks KPIs. For information on these KPIs, see [Benchmark KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/benchmarks/c_BenchKPIConfig.md).
 
 Once you have manually opted into Benchmarks, enable and configure benchmark KPIs. From the Benchmarks dashboard, you can view the Benchmarks KPI data, performance trends, and indicator scorecards.
 
-**Note:** [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ServicePortal.md) must be installed to view the Benchmarks dashboard.
+**Note:** [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ServicePortal.md) must be installed to view the Benchmarks dashboard.
 
 Six months of global data is available after opting in. If available, the corresponding data for your instance is also included.
 
@@ -38,15 +38,15 @@ Six months of global data is available after opting in. If available, the corres
 
 1.  Opt into Benchmarks using the guided setup or by navigating using the application navigator.
 
-<table id="choicetable_s1g_hly_clb"><thead><tr><th align="left" id="d479241e139">
+<table id="choicetable_s1g_hly_clb"><thead><tr><th align="left" id="d490494e145">
 
 Using
 
-</th><th align="left" id="d479241e142">
+</th><th align="left" id="d490494e148">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d479241e148">
+</th></tr></thead><tbody><tr><td id="d490494e154">
 
 **Guided setup**
 
@@ -56,7 +56,7 @@ Do this
 2.  Go to the **Enable Benchmarks** section and click **Configure**.
 
 
-</td></tr><tr><td id="d479241e184">
+</td></tr><tr><td id="d490494e190">
 
 **Application navigator**
 
@@ -76,5 +76,5 @@ Go to **Benchmarks** &gt; **Setup**.
 
 ## What to do next
 
-Enable and configure your KPIs.
+[Enable and configure your KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/benchmarks/c_BenchKPIConfig.md).
 

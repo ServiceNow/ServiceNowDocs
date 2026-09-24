@@ -1,25 +1,25 @@
 ---
 title: Explore the Enterprise Architecture Workspace dashboard
-description: The Enterprise Architecture Workspace dashboard provides a summary of the business and application portfolio of your organization. It’s arranged according to different portfolios such as the application portfolio, technology portfolio, information portfolio, and so on.
+description: The Enterprise Architecture Workspace dashboard provides a summary of the business and application portfolio of your organization. It’s arranged according to different portfolios such as the application portfolio, technology portfolio, and information portfolio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-workspace-dashboard.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Exploring dashboards in Enterprise Architecture Workspace, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Explore the Enterprise Architecture Workspace dashboard
 
-The Enterprise Architecture Workspace dashboard provides a summary of the business and application portfolio of your organization. It’s arranged according to different portfolios such as the application portfolio, technology portfolio, information portfolio, and so on.
+The Enterprise Architecture Workspace dashboard provides a summary of the business and application portfolio of your organization. It’s arranged according to different portfolios such as the application portfolio, technology portfolio, and information portfolio.
 
 As an enterprise architect, use the interactive filters to generate different graphical reports of the business applications for your portfolios. You can select a pie chart slice or graph bar to open a particular page and see the list of records under that category. To hide or show a slice in the pie chart, select its colored legend. Use the **Refresh** button to refresh the results of a pie chart.
 
 |End user and goal|Required role|
 |-----------------|-------------|
 |Enterprise Architecture Analyst- Create, configure, and share dashboards|sn\_apm.apm\_analyst|
-|Enterprise Architecture User- View dashboard|sn\_apm.apm\_user|
+|Enterprise Architecture User- View dashboards|sn\_apm.apm\_user|
 
 \[Omitted image "eaw-tabbed-dashboard.png"\] Alt text: The Enterprise Architecture Dashboard page displaying the multiple tabs and their respective widgets.
 
@@ -233,7 +233,7 @@ Pie chart \[Omitted image "inline-data-vis-pie.png"\] Alt text: Pie chart.
 
 </td></tr><tr><td>
 
-Portfolio TCO**Note:** For information on TCO, see [Exploring total cost of ownership \(TCO\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-application-tco.md) and [Working with application Total Cost of Ownership \(TCO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-tco.md).
+Portfolio TCO**Note:** For information on TCO, see [Exploring total cost of ownership \(TCO\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-manage-application-tco.md) and [Working with application Total Cost of Ownership \(TCO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-work-with-tco.md).
 
 </td><td>
 
@@ -303,6 +303,8 @@ Business applications by TCO score
 
 Column chart \[Omitted image "inline-data-vis-bar-column.png"\] Alt text: Column chart.The X-axis denotes the TCO scores while the Y-axis denotes the number of business applications.
 
+**Note:** If you upgraded from a previous release and the X-axis shows **\(empty\)** instead of the TCO score bands, run the **Update Score Range in Indicator Score Table** scheduled job. For information, see [Run a scheduled job to update the TCO score range](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-run-job-update-score-range-indicator-score.md).
+
 </td></tr><tr><td>
 
  
@@ -356,13 +358,11 @@ Donut \[Omitted image "inline-data-vis-donut.png"\] Alt text: Donut
 
 If both the Technology Portfolio Management \(sn\_apm\_tpm\) and Enterprise Architecture - TRM \(snc.apm\_trm\) plugins are inactive, the Technology Portfolio tab is not displayed.
 
-**Note:**
-
 -   All monetary values are displayed in a single currency type. The currency conversion rates are contained in the Currencies table \(fx\_currency.list\).
 
-    The currency type is determined based on the geographical location from where you’ve logged in. For example, if the system detects that you’ve logged in to the EA workspace from the USA, the default currency displayed will be USD.
+    The currency type is determined based on the geographical location from where you’ve logged in. For example, if the system detects that you’ve logged in to the EA workspace from the USA, the default currency displayed is USD.
 
--   The duration of a fiscal period displayed on the widgets is determined from the **com.glide.fiscal\_calendar.fiscal.unit** property. To set the fiscal period duration, see [Set the fiscal period property for TCO dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-set-property-tco-dashboards.md).
+-   The duration of a fiscal period displayed on the widgets is determined from the **com.glide.fiscal\_calendar.fiscal.unit** property. To set the fiscal period duration, see [Set the fiscal period property for TCO dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-set-property-tco-dashboards.md).
 
 You can hover over or select the visualizations to see more data.
 
@@ -376,18 +376,20 @@ Use the following filters to narrow down the results in the dashboard page:
 -   IT Application Owner
 -   Capability Owner
 
-You can manually refresh the dashboard by using the refresh icon \(\[Omitted image "icon-refresh.png"\] Alt text: Refresh icon.\).
+You can manually refresh the dashboard by using the refresh icon \(\[Omitted image "icon-refresh.png"\] Alt text:\).
 
-**Parent Topic:**[Exploring dashboards in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-exploring-dashboards-in-ea-workspace.md)
+**Parent Topic:**[Exploring dashboards in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-exploring-dashboards-in-ea-workspace.md)
 
 **Related topics**  
 
 
-[Configure AI Data Explorer and Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-ai-data-explr-qry-genr-skills.md)
+[Configure AI Data Explorer and Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/configure-ai-data-explr-qry-genr-skills.md)
 
-[Generate insights for Enterprise Architecture Workspace dashboard widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/generate-insights-ea-dashboard.md)
+[Generate insights for Enterprise Architecture Workspace dashboard widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/generate-insights-ea-dashboard.md)
 
-[AI Control Tower integration with Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-aict.md)
+[Run a scheduled job to update the TCO score range](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-run-job-update-score-range-indicator-score.md)
 
-[Exploring the AI Portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-exploring-the-ai-portfolio.md)
+[AI Control Tower integration with Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-aict.md)
+
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-exploring-the-ai-portfolio.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-exploring-the-ai-portfolio.md)
 

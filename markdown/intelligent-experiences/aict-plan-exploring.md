@@ -3,12 +3,12 @@ title: Exploring AI Control Tower Plan
 description: AI Plan in AI Control Tower gives portfolio managers and AI COE leads a single place within AI Control Tower to view goals, intake, and delivery work scoped to AI investments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-plan-exploring.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [AI Plan, Strategize, Prioritize, Execute, AI governance, AI Control Tower, portfolio management]
-breadcrumb: [Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Enable AI experiences]
+breadcrumb: [Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Exploring AI Control Tower Plan
@@ -56,12 +56,12 @@ AI Plan organizes AI portfolio work across three stages.
 
 ## What to explore next
 
--   [Configuring AI Plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-plan-configuring.md)
--   [Planning and tracking AI work in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-plan-using.md)
--   [AI Plan reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-plan-reference.md)
+-   [Configuring AI Plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-plan-configuring.md)
+-   [Planning and tracking AI work in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-plan-using.md)
+-   [AI Plan reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-plan-reference.md)
 
 **Related topics**  
 
 
-[AI Plan configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-plan-configuring.md)
+[AI Plan configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-plan-configuring.md)
 

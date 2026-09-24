@@ -3,11 +3,11 @@ title: Domain separation and Document Management
 description: Domain separation is supported for Document Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/domain-separation-document-services.html
-release: australia
+release: brazil
 product: Document Management Services
 classification: document-management-services
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [References, Document Management, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -25,7 +25,7 @@ Domain separation is supported for Document Management. Domain separation enable
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-separated-apps.md).
 
 ## Overview
 
@@ -63,7 +63,7 @@ If a document contains references and if the owner of the document is changed an
 
 For example, if the document owner, User A \(Domain: D1\) is changed to User B \(Domain: D2\) and User B does not have access to the target record of the reference table, User B might not be able to see the reference record.
 
-**Parent Topic:**[References](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/reference-document-management.md)
+**Parent Topic:**[References](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/reference-document-management.md)
 
 **Related topics**  
 
@@ -74,5 +74,5 @@ For example, if the document owner, User A \(Domain: D1\) is changed to User B \
 
 [Granular admin roles in Document Management]()
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-sep-landing-page.md)
 

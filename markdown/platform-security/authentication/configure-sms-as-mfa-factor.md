@@ -3,11 +3,11 @@ title: Configure SMS as an MFA factor
 description: Configure policy input and condition to display SMS OTP as an MFA factor policy for authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/configure-sms-as-mfa-factor.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [SMS as an MFA factor, MFA factor policies, MFA verification methods, Configuring MFA, Multi-factor authentication, Authentication, Access Management]
 ---
@@ -42,16 +42,16 @@ Role required: adaptive\_auth\_admin
 
     Following are the types of filter criteria:
 
-    -   [IP Filter Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-ip-filter-criteria.md)
-    -   [Role Filter Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-role-filter-criteria.md)
-    -   [Group Filter Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-group-filter-criteria.md)
+    -   [IP Filter Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/create-ip-filter-criteria.md)
+    -   [Role Filter Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/create-role-filter-criteria.md)
+    -   [Group Filter Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/create-group-filter-criteria.md)
     For example, Role Filter Criteria.
 
     \[Omitted image "mfa-email-filter.png"\] Alt text: Filter Criteria.
 
 6.  Click **Role Filter Criteria**, fill the fields for the role filter criteria and submit the record.
 
-    The new policy is created. For more information, see [Role Filter Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-role-filter-criteria.md).
+    The new policy is created. For more information, see [Role Filter Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/create-role-filter-criteria.md).
 
 7.  On the Policy - Display SMS OTP as an MFA Factor Policy page, click Policy conditions.
 

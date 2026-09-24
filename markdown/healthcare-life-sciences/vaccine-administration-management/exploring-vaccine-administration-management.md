@@ -3,11 +3,11 @@ title: Exploring Vaccine Administration Management
 description: The ServiceNow Vaccine Administration Management application provides a workflow for users, healthcare providers, and clinicians to manage vaccinations for infectious diseases, such as COVID-19, from start to finish.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/vaccine-administration-management/exploring-vaccine-administration-management.html
-release: australia
+release: brazil
 product: Vaccine Administration Management
 classification: vaccine-administration-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Vaccine Administration Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -50,7 +50,7 @@ Manage appointment types and time slots available for patients to book online.
 
 </td><td>
 
-[Use the Patient Portal to register for a vaccination program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/hcls-vam-user-experience.md)
+[Use the Patient Portal to register for a vaccination program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/vaccine-administration-management/hcls-vam-user-experience.md)
 
 </td><td>
 
@@ -62,7 +62,7 @@ Users can learn more about vaccines and schedule vaccinations through a self-ser
 
 </td><td>
 
-[Use Clinician Portal to find and manage vaccination appointments for users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/hcls-vam-clinician-experience.md)
+[Use Clinician Portal to find and manage vaccination appointments for users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/vaccine-administration-management/hcls-vam-clinician-experience.md)
 
 </td><td>
 
@@ -74,7 +74,7 @@ View vaccine appointments by day, week, and month. View scheduled, completed, an
 
 </td><td>
 
-[Vaccine Administration Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/VAM-dashboard.md)
+[Vaccine Administration Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/vaccine-administration-management/VAM-dashboard.md)
 
 </td><td>
 

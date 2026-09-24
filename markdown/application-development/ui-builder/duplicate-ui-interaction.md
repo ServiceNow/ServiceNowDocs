@@ -3,11 +3,11 @@ title: Duplicate a UI interaction
 description: Create an independent copy of an existing UI interaction to use as a starting point for a new interaction or to safely experiment with changes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/duplicate-ui-interaction.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-04-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [UI interactions, Manage actions in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -61,12 +61,12 @@ A new UI interaction record is created in your current application scope, ready 
 
 ## What to do next
 
-To modify the duplicated interaction, see [Edit an existing UI interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/edit-ui-interaction.md).
+To modify the duplicated interaction, see [Edit an existing UI interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/edit-ui-interaction.md).
 
 To use your duplicated interaction, trigger it using one of these methods:
 
 -   From declarative action: Corresponding declarative actions are inactive by default and must be enabled to test.
--   From UI Builder page event. See [Trigger a UI interaction from a page event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/trigger-ui-interaction-from-page-event.md).
+-   From UI Builder page event. See [Trigger a UI interaction from a page event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/trigger-ui-interaction-from-page-event.md).
 
-**Parent Topic:**[UI interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/uib-ui-interactions.md)
+**Parent Topic:**[UI interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/uib-ui-interactions.md)
 

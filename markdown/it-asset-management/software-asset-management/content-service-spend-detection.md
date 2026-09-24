@@ -3,11 +3,11 @@ title: Content Service for Software Spend Detection
 description: Opt in to Software Asset Management Content Service for Software Spend Transactions to get more accurate predictions in Software Spend Detection by sharing financial transaction data with the ServiceNow Content Service team.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/content-service-spend-detection.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Opt in to Content Service, Software Spend Detection, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -29,9 +29,9 @@ Your data is sent anonymously to the Content Service team. Your data isn't linke
 
 The ServiceNow Content Service team uses these data points to improve machine learning models used by ServiceNow Artificial Intelligence \(AI\) Services. The AI Services are a set of web services that reside within every ServiceNow datacenter. All Software Spend Detection users benefit from continual improvements to ServiceNow AI Services, but users who are opted-in to Content Service benefit the most. ServiceNow AI Services learns how to identify software products and publishers in your transactions that Software Spend Detection previously was not able to identify. This learning improves the functionality for your future imports.
 
-\[Omitted image "mmasset0021808-spend-content-service.svg"\] Alt text: Data Flow in Content Service
+\[Omitted image "mmasset0021808-spend-content-service.svg"\] Alt text: Data flow in Content Service.
 
 You can opt out of Content Service at any time. If you opt out, no data from future imports is sent to the ServiceNow Content Service team, but your previously shared data is not deleted. If you would like to participate in Content Service but exclude some transactions from being shared with ServiceNow, you can select the **Exclude from content service** check box on those transaction records.
 
-**Parent Topic:**[Opt in to Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/opt-in-content-service.md)
+**Parent Topic:**[Opt in to Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/opt-in-content-service.md)
 

@@ -3,11 +3,11 @@ title: Enroll for the Password Reset program using Soft PIN
 description: Verify your identity while resetting your password by using a Soft PIN. To use it, you must enroll for the verification using a Soft PIN.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/enroll-pwr-program-soft-pin.html
-release: australia
+release: brazil
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enrolling in the Password Reset application to reset your password, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---

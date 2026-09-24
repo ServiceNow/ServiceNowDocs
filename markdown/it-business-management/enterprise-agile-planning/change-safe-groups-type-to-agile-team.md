@@ -3,11 +3,11 @@ title: Add Agile Team type to SAFe groups for EAP migration
 description: Add Agile Team in the Type field of existing SAFe groups to so that these teams are visible for your EAP users in the workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/change-safe-groups-type-to-agile-team.html
-release: australia
+release: brazil
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Migrate from SAFe, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -34,7 +34,7 @@ Role required: sn\_apw\_advanced.eap\_admin
 
 4.  If the **Type** field is not visible, configure the form layout of the Default view to include it.
 
-    For information on configuring the form layout, see [Show or hide fields on a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+    For information on configuring the form layout, see [Show or hide fields on a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).
 
 5.  Add the value of **Agile Team** to the **Type** field.
 

@@ -3,18 +3,18 @@ title: Goal form
 description: Use the Goal form to create goals for your organizational strategic priorities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-goal-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Reference, Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Enable AI experiences]
+breadcrumb: [Reference, Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Goal form
 
 Use the Goal form to create goals for your organizational strategic priorities.
 
-**Note:** For Operational Sustainability Workspace and Strategic Planning users, to view the other fields \(that are not added to the default or your custom form view\) on the form in the workspace, configure the default/custom form layout. For information on how to configure the form layout, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+**Note:** For Operational Sustainability Workspace and Strategic Planning users, to view the other fields \(that are not added to the default or your custom form view\) on the form in the workspace, configure the default/custom form layout. For information on how to configure the form layout, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).
 
 <table id="table_demand_benefit_plan_form"><thead><tr><th>
 
@@ -74,7 +74,7 @@ Progress
 
 </td><td>
 
-Percentage complete for the goal. The progress value is calculated automatically if the goal has sub-goals or/and targets.For more information on how the progress value is calculated, see [Progress value calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/progress-value-calculation-egm.md).
+Percentage complete for the goal. The progress value is calculated automatically if the goal has sub-goals or/and targets.For more information on how the progress value is calculated, see [Progress value calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/progress-value-calculation-egm.md).
 
 </td></tr><tr><td>
 
@@ -182,5 +182,5 @@ Users who contribute to the achievement of the goal.
 **Related topics**  
 
 
-[Strategizing the AI plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-plan-strategize.md)
+[Strategizing the AI plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-plan-strategize.md)
 

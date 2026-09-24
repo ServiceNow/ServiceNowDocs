@@ -3,13 +3,13 @@ title: Acknowledge receipt of an asset on a mobile device
 description: As an employee, acknowledge receipt of the new asset that you received through a Zero Touch Refresh request on a mobile device.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/receive-assets-from-ztr.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage refresh of assets using Zero Touch Refresh, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Request and receive assets using the Zero Touch Refresh flow, Employee self-service, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Acknowledge receipt of an asset on a mobile device
@@ -42,18 +42,12 @@ Role required: none
 -   The state of the asset changes to **In use**.
 -   The state of the Receive asset task of the Zero Touch Refresh request changes to **Closed**.
 
-**Parent Topic:**[Manage refresh of assets using Zero Touch Refresh](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/refresh-hardware-uisng-ztr.md)
+**Parent Topic:**[Request and receive assets using the Zero Touch Refresh flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/request-receive-assets-ztref.md)
 
 **Related topics**  
 
 
-[Configure replacement models for a refresh model]()
-
 [Request a hardware asset refresh through Zero Touch Refresh]()
-
-[Fulfill a Zero Touch Refresh Fulfillment Request]()
-
-[Process a Zero Touch Refresh request]()
 
 [Acknowledge receipt of an asset through the Core UI]()
 

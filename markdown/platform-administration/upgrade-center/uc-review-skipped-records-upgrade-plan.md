@@ -3,11 +3,11 @@ title: Review skipped records with upgrade plan
 description: Review the skipped records after the completion of the upgrade.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-center/uc-review-skipped-records-upgrade-plan.html
-release: australia
+release: brazil
 product: Upgrade Center
 classification: upgrade-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Apply Upgrade Plan on your upgrade, Preparing your upgrade plan, Using Upgrade Center, Upgrade Center, Upgrade, Administer the ServiceNow AI Platform]
 ---
@@ -36,5 +36,5 @@ Role required: admin
 2.  Select the To review link to look at the records that need to be reviewed manually.
 
 
-**Parent Topic:**[Apply Upgrade Plan on your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-apply-upgrade-plan.md)
+**Parent Topic:**[Apply Upgrade Plan on your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-center/uc-apply-upgrade-plan.md)
 

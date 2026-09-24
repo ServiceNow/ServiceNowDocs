@@ -3,11 +3,11 @@ title: Add security incident to shift handover report
 description: Chat with an AI agent in the ServiceNow Otto panel to add a security incident details to a shift handover report.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/add-incident-shift-handover.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Generate SIR Shift Handover Report, Use agentic workflows, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_si.analyst
 
 ## About this task
 
-**Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 
@@ -61,5 +61,5 @@ The AI agent displays the summary of all the updated and skipped sections.
 
 \[Omitted image "shifthandover-report-update.png"\] Alt text: Shift handover workflow result
 
-**Parent Topic:**[Generate SIR Shift Handover Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/add-incidents-shifthandover-ai-agent.md)
+**Parent Topic:**[Generate SIR Shift Handover Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/add-incidents-shifthandover-ai-agent.md)
 

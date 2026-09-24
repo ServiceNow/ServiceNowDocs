@@ -3,11 +3,11 @@ title: Set up advanced risk assessments for policy exception
 description: Customize the risk assessment methodology by creating your values for each question in risk assessment and calculate your risk rating scores.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/configure-risk-assess-method.html
-release: australia
+release: brazil
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Assess risks of policy exception using advanced risk assessments, Manage policy exceptions and extensions using the Compliance Workspace, Use, GRC Compliance workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---

@@ -3,11 +3,11 @@ title: Activate Location Based Access
 description: Activate the Zero Trust - Location Based Access \(com.snc.zero\_trust\_location\_access\) to allow admins to configure adaptive authentication policies based on the location of the user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/activate-location-based-access.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Location Filter, Filter criteria, Adaptive authentication, Authentication, Access Management]
 ---
@@ -36,6 +36,6 @@ Role required: admin
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 

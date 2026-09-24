@@ -3,9 +3,9 @@ title: Supported tables for partition
 description: Several tables are supported for partition using Enterprise-Wide Deployment, including direct and indirect related tables for each entity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/supported-tables-for-partition-ewd.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Reference, SPM Enterprise-Wide Deployment, Strategic Portfolio Management]
 ---
@@ -89,5 +89,5 @@ The following tables list the tables and their related entities that are support
 |**Strategic Planning Workspace or Portfolio Planning Workspace integration**|
 |sn\_align\_core\_planning\_item|Strategic Planning Workspace or Portfolio Planning Workspace|Strategic Planning or Portfolio Planning integration \(partition enforcement applies when internal integration is enabled\)|
 
-**Parent Topic:**[SPM Enterprise-Wide Deployment reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ewd-reference.md)
+**Parent Topic:**[SPM Enterprise-Wide Deployment reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ewd-reference.md)
 

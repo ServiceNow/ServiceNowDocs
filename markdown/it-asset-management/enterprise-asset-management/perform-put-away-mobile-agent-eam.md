@@ -3,11 +3,11 @@ title: Put away enterprise assets using the ServiceNow Agent application
 description: Scan available assets in the inventory and perform asset put away in the designated scanned drop-off location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/perform-put-away-mobile-agent-eam.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [asset put away task, put away asset]
 breadcrumb: [Manage enterprise asset put away using the ServiceNow Agent application, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]

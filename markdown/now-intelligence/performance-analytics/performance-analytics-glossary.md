@@ -3,12 +3,13 @@ title: Performance Analytics terms
 description: Performance Analytics uses terms and concepts that can differ from industry norms due to the unique nature of the ServiceNow platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/performance-analytics-glossary.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+keywords: [performance analytics]
 breadcrumb: [Reference, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
@@ -22,7 +23,7 @@ Automated breakdowns are based on a breakdown source, which is a set of records 
 
 ## automated indicator
 
-An automated indicator uses an indicator source as its data set. The indicator source specifies a table or database view, conditions for filtering records from that source, and the frequency at which you expect to display the data. The indicator applies an aggregator and optional conditions to this data. The indicator also specifies a data collection job and any breakdowns to apply.
+An automated indicator uses an indicator source as its data set. The indicator source specifies a table or database view, conditions for filtering records from that source, and the frequency at which you expect to display the data. The indicator applies an aggregator and optional conditions to this data. In classic Performance Analytics, the indicator also specifies a data collection job and any breakdowns to apply.
 
 **Related topics**  
 
@@ -76,6 +77,14 @@ A set of records from a table or database view that constitute the unique values
 
 Gathers continuous data into discrete groups when there is no table field that can serve as breakdown elements. For example, a bucket group might take differences between timestamps and divide them up into hourly periods.
 
+## bucket group mapping
+
+Connects a bucket group to a field on a Data snapshots source, allowing users to group, filter, and analyze indicators using bucketed breakdowns. Map to a Data snapshots calculated field for date/time data.
+
+## calculated field
+
+Shows the difference between two date/time fields on a Data snapshots source table. For example, a calculated field on the Created and Updated fields shows the time difference between when a record was created and the last update made to it. Often requires a [bucket group mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md).
+
 ## contributing indicator
 
 An indicator that is used in the formula of a formula indicator. A contributing indicator can be an automated or a formula indicator.
@@ -93,6 +102,10 @@ A scheduled job that collects data from one or more indicator sources to produce
 ## data snapshots
 
 An alternative architecture for indicators. This architecture uses a change data capture \(CDC\) process, which captures data changes from configurable tables that are optimized for generating scores and time series at run-time. Data snapshots avoid the need for breakdown matrices, allowing unlimited breakdowns.
+
+## \[score\] forecast
+
+A prediction of future Performance Analytics indicator scores based on past behavior. Visible in time series data visualizations/widgets and KPI Details.
 
 ## formula indicator
 

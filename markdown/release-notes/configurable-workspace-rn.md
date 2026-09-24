@@ -1,28 +1,28 @@
 ---
 title: Configurable Workspace release notes
-description: The ServiceNow Configurable Workspace application provides tools to agents, case managers, help desk professionals, and managers for answering customer questions and resolving customer problems. Configurable Workspace was enhanced and updated in the Australia release.The ServiceNow Configurable Workspace application provides tools to agents, case managers, help desk professionals, and managers for answering customer questions and resolving customer problems. Configurable Workspace was enhanced and updated in the Australia release.The ServiceNow Configurable Workspace application provides tools to agents, case managers, help desk professionals, and managers for answering customer questions and resolving customer problems. Configurable Workspace was enhanced and updated in the Australia release.The ServiceNow Configurable Workspace application provides tools to agents, case managers, help desk professionals, and managers for answering customer questions and resolving customer problems. Configurable Workspace was enhanced and updated in the Australia release.
+description: The ServiceNow Configurable Workspace application provides tools to agents, case managers, help desk professionals, and managers for answering customer questions and resolving customer problems. See the following sections for release notes by version.The September 2026 release expands customization and AI-powered capabilities for lists, form templates, and declarative actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/configurable-workspace-rn.html
-release: australia
+release: brazil
 topic_type: topic
-last_updated: "2026-03-12"
-reading_time_minutes: 6
-breadcrumb: [ServiceNow AI Platform user interface release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [ServiceNow AI Platform user interface release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Configurable Workspace release notes
 
-The ServiceNow® Configurable Workspace application provides tools to agents, case managers, help desk professionals, and managers for answering customer questions and resolving customer problems. Configurable Workspace was enhanced and updated in the Australia release.
+The ServiceNow® Configurable Workspace application provides tools to agents, case managers, help desk professionals, and managers for answering customer questions and resolving customer problems. See the following sections for release notes by version.
 
 ## About Configurable Workspace
 
--   Add a background color to fields including unsaved fields and fields with highlighted values.
--   Apply commands with keyboard shortcuts for journal fields.
--   Set conditions and use the email composer within form templates.
--   Edit or delete Activity stream posts, and add knowledge base links from recommended actions.
--   Implement declarative actions without assuming page ownership, and override attributes without altering the base action.
+-   Capture and edit record information with customizable form fields.
+-   Send and receive comments, work notes, and emails.
+-   View a history of updates and communications within a record.
+-   Attach files and knowledge base articles to a record.
+-   Organize and filter lists of records, such as cases, tasks, or incidents.
 
-See [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md) for more information.
+See [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/workspace-landing-page.md) for more information.
 
 ## Activation and other requirements
 
@@ -32,204 +32,49 @@ See [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/Ser
 
 -   **Browser requirements**
 
-    Configurable Workspace doesn’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge, Chromium or one of the other supported browsers that are listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/browser-support.md).
+    Configurable Workspace doesn’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge, Chromium or one of the other supported browsers that are listed in [Browser support](https://www.servicenow.com/docs/r/IDeOjpA1hzonPLWG~inEpg/R~HKN5suDllHe_wr4CWNYA).
 
 
-## Accessibility and localization
+**Parent Topic:**[ServiceNow AI Platform user interface release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/now-platform-ui-rn-landing.md)
 
--   **Accessibility information**
-    -   **[Screen Summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/use-screen-summarization.md)**
+## Brazil Early Availability
 
-        Screen Summarization is a feature that supports visually impaired and low-vision users by providing AI-generated summaries of workspace pages and their sections. The summaries can be read aloud with a screen reader to help reduce navigation and comprehension time.
-
-        Install Screen Summarization by requesting it from the ServiceNow® Store. Visit the [ServiceNow® Store](https://store.servicenow.com/store) to view all the available apps and information about submitting requests to the store.
-
-
-**Parent Topic:**[ServiceNow AI Platform user interface release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-ui-rn-landing.md)
-
-## April 2026
-
-The ServiceNow® Configurable Workspace application provides tools to agents, case managers, help desk professionals, and managers for answering customer questions and resolving customer problems. Configurable Workspace was enhanced and updated in the Australia release.
+The September 2026 release expands customization and AI-powered capabilities for lists, form templates, and declarative actions.
 
 ### What's changed
 
--   **[Track record list changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/use-ai-list-tracker.md)**
+-   **[AI gradients for declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/creating-declarative-actions.md)**
 
-    Get an AI-generated summary of recent changes made to a list without manually reviewing each record.
+    Customize declarative action buttons with AI gradients that visually indicate when users are interacting with AI-powered experiences.
 
+-   **[Dynamic schema field type for forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/working-with-dynamic-schema.md)**
 
-## Australia Early Availability
+    Configure the dynamic schema field type for forms.
 
-The ServiceNow® Configurable Workspace application provides tools to agents, case managers, help desk professionals, and managers for answering customer questions and resolving customer problems. Configurable Workspace was enhanced and updated in the Australia release.
+-   **[Form template semantic search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-form-template-search.md)**
 
-### What's changed
+    Configure AI-powered semantic search for form templates.
 
--   **[AI filter assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/use-ai-filter-assist.md)**
+-   **[Color labels for highlighted values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/use-list-highlighted-value-colors.md)**
 
-    Convert everyday language into an encoded query with AI filter assist.
+    Display color information alongside highlighted values in lists.
 
+-   **[List row context menu actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-list-row-context-menu.md)**
 
-## Australia
+    Configure context menu actions for list rows.
 
-The ServiceNow® Configurable Workspace application provides tools to agents, case managers, help desk professionals, and managers for answering customer questions and resolving customer problems. Configurable Workspace was enhanced and updated in the Australia release.
+-   **[Group similar items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/use-group-similar-items.md)**
 
-### What's new
+    Use AI to group similar records in a list based on their short descriptions and generate a group summary.
 
--   **[UI interactions for declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-da-ui-interactions.md)**
+-   **[AI indicators for lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-list-ai-indicators.md)**
 
-    Combine logic, script, and configurable UI with a UI interaction, and apply it from any page event or declarative action. When you use a declarative action to apply a UI interaction, you can extend a page without taking ownership.
+    Use a system property to disable AI indicators for lists.
 
-
-### What's changed
-
--   **Session tabs**
-
-    The following UI changes have been made to session tabs:
-
-    -   The icon to close a tab displays on hover only.
-    -   Overflow text on a tab is blurred instead of displaying an ellipsis.
-    -   Overflow tabs are displayed as a **More** tab with a split button.
--   **Lists for mobile devices**
-
-    List design and behavior adapt to mobile devices to help improve usability.
-
--   **Forms**
-
-    The following UI changes have been made to forms:
-
-    -   Annotation fields provide rich text markup to enhance contextual form information.
-    -   The HTML editor toolbar displays a modern design.
--   **Form templates**
-
-    The following UI changes have been made to form templates:
-
-    -   The button to add a form template field has been updated to be more discoverable.
-    -   View selected conditions as a card below a field.
--   **Activity stream**
-
-    The following UI changes have been made to the Activity stream:
-
-    -   Filter Activity stream posts by user.
-    -   The Activity stream features a responsive design for stacking content, typography styles, and spacing.
-    -   System tokens for Activity stream components provide a consistent look and feel without needing to manually update style properties for every component.
--   **Email composer**
-
-    The following UI changes have been made to the email composer:
-
-    -   All email layouts display a minimized recipient field and borderless rich text editor.
-    -   A message displays in the header when an email is saved as a draft.
-    -   Copy and apply text formatting for emails using the format painter.
-
--   **Record List component bundle enhancements in UI Builder**
-
-    Configure these enhancements to the Record List component bundle in UI Builder:
-
-    -   Pin columns to keep them visible while scrolling horizontally.
-    -   Change the medium default size for highlighted values.
-    -   View list data as a data visualization.
-    -   Show a filter overview in the list header for a summary of the filters currently applied to the list.
-    -   Catalog variables and questions are supported as list columns.
-    -   Open lists in multiple session tabs from the list menu.
-    -   Customize gallery list card layouts including images, icons, text placement, and sizing.
--   **[Grouping for related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-related-list-grouping.md)**
-
-    Configure related lists to persist selections for the Group by filter.
-
--   **[Predicate Builder component enhancements in UI Builder](https://developer.servicenow.com/dev.do#!/reference/next-experience/australia/now-components/now-predicate-builder/uib-setup):**
+-   **[Predicate builder component enhancements in UI Builder](https://developer.servicenow.com/dev.do#!/reference/next-experience/brazil/now-components/now-predicate-builder/uib-setup)**
 
     Configure these enhancements to the Predicate Builder component in UI Builder:
 
-    -   Customize condition rows.
-    -   Configure a simple filtering mechanism.
-    -   Use a search term for filtering panel definitions.
-    -   Configure fixed queries.
--   **[Hierarchical queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/data-hierarchies.md)**
-
-    Configure a record hierarchy to create filter queries that traverse levels of hierarchy.
-
--   **[Dynamic queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/working-with-dynamic-schema.md)**
-
-    Configure dynamic attributes and dynamic categories to create filter queries that use the dynamic schema field type.
-
--   **[Form component enhancements in UI Builder](https://developer.servicenow.com/dev.do#!/reference/next-experience/australia/now-components/form%20record%20page/uib-setup):**
-
-    Configure these enhancements to the Form component in UI Builder:
-
-    -   Wrap field labels on mobile devices.
-    -   Display an indicator dot on unsaved fields.
-    -   Add a background color to unsaved fields to make them more noticeable.
-    -   Add an address field to forms that searches, validates, and automatically fills an address.
--   **[AI indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_FormFields.md)**
-
-    The AI indicator is a visual cue that identifies form fields in configurable workspace and Core UI that have been updated with AI-generated content, providing a consistent and clear indication of AI involvement across the platform.
-
--   **[Unsaved field indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-unsaved-field-indicator.md)**
-
-    Configure the unsaved field indicator for your entire workspace experience instead of individual pages.
-
--   **[Background color for unsaved fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-background-color-unsaved-indicator.md)**
-
-    Configure a background color to display on unsaved fields for your entire workspace experience instead of individual pages.
-
--   **[Background color for highlighted values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-background-color-highlighted-values.md)**
-
-    Configure a background color for fields with highlighted values.
-
--   **[Text commands for journal fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-journal-fields-keyboard-shortcuts.md)**
-
-    Configure text commands that can be applied by keyboard shortcuts within journal fields.
-
--   **[HTML editor toolbar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure.md-editor-toolbar.md)**
-
-    Configure toolbar options for the HTML editor within journal input fields.
-
--   **[Inline validation for string fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/format-regex-pattern-string-fields.md)**
-
-    Configure inline validation for string fields that formats inputs automatically, persists guidance text as a placeholder, and restricts unsupported characters.
-
--   **[Watch lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-watch-list.md)**
-
-    Add and remove yourself and multiple records from a watch list.
-
--   **[Form Templates component enhancements in UI Builder](https://developer.servicenow.com/dev.do#!/reference/next-experience/australia/now-components/now-record-common-templates-connected/uib-setup)**
-
-    Configure these enhancements to the Form Templates component in UI Builder:
-
-    -   Preview form templates before applying them to the record page.
-    -   Display an alert message and confirm reuse when a selected form template is already applied to that record.
--   **[Activity Stream component enhancements in UI Builder](https://developer.servicenow.com/dev.do#!/reference/next-experience/australia/now-components/now-activity-stream-connected/uib-setup)**
-
-    Configure these enhancements to the Activity Stream component in UI Builder:
-
-    -   Edit and delete Activity stream posts after submitting.
-    -   Add knowledge base links from recommended actions to Activity stream posts.
--   **[Keyboard shortcuts for emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/add-response-templates-shortcut.md)**
-
-    Use keyboard shortcuts to open drafts, email templates, and response templates.
-
--   **[Attachments component enhancements in UI Builder](https://developer.servicenow.com/dev.do#!/reference/next-experience/australia/now-components/now-record-common-attachments-connected/uib-setup)**
-
-    Configure these enhancements to the Attachments component in UI Builder:
-
-    -   Open the file viewer as a modeless dialog.
-    -   Customize the attachment header, upload instructions, and menu actions in both the full and compact modes.
-    -   Display the loading skeleton as a spinner or as three cards.
-    -   Enable a visible drop zone for file uploads in the compact mode.
--   **[Form action layout groups for declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-da-layout-group.md)**
-
-    Upgrade form action layout groups to customize the order, label, and icons for declarative actions without altering the base action.
-
--   **[Declarative actions and UI actions on public pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-web-embeddables.md)**
-
-    Non-logged in users may access specified declarative actions and UI actions on embedded web pages while maintaining integrity with security guidance and access control list permissions.
-
-
-### Plugin information
-
--   **Plugins planned for deprecation**
-
-    The following plugins are planned for deprecation in a future release:
-
-    Agent Workspace - Ribbon \(com.snc.agent\_workspace.ribbon\): Planned for deprecation in the C release. Beginning with the Australia release this plugin will be migrated to a store application. Upgrade your instance to Australia or later release versions and the store applications will be automatically installed.
-
+    -   Hide the global OR operator in the predicate builder.
+    -   All Core UI fields are supported in the predicate builder.
 

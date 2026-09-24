@@ -1,18 +1,18 @@
 ---
 title: Structured workflows for Business Continuity Planning
-description: Business Continuity Planning \(BCP\) helps you enact and mitigate risk during events by addressing plan assets, activities, recovery teams, documentation, policies, and procedures.
+description: Business Continuity Planning \(BCP\) helps you enact and mitigate risk during an event by addressing plan assets, activities, recovery teams, documentation, policies, and procedures.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/business-continuity-planning-overview.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Structured workflows for Business Continuity Planning
 
-Business Continuity Planning \(BCP\) helps you enact and mitigate risk during events by addressing plan assets, activities, recovery teams, documentation, policies, and procedures.
+Business Continuity Planning \(BCP\) helps you enact and mitigate risk during an event by addressing plan assets, activities, recovery teams, documentation, policies, and procedures.
 
 BCP consolidates all the data needed for managing business continuity and disaster recovery plans in ServiceNow AI Platform®. It organizes a catalog of enterprise data into a single system of records. Instead of creating records, you can simply select the required data. Creating plans then becomes simple and effortless by taking advantage of the existing information and arranging it in a logical association of data for recovery.
 
@@ -24,5 +24,5 @@ You can build your plan within a single user interface with the ability to open 
 
 \[Omitted image "BusinessContinuityPlanWorkspace.png"\] Alt text: BCP workflows displaying an overview of plan details
 
-With comprehensive action plans for disruptive scenarios and a dedicated team ready to act quickly during loss scenarios, your organization is equipped to face crises or adverse situations.
+With comprehensive action plans for different disruptive scenarios and a dedicated response team, your organization is equipped to face a crisis. You can respond effectively to any adverse situation.
 

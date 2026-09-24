@@ -3,13 +3,13 @@ title: Configure Microsoft OneDrive for external content indexing
 description: Register an OAuth 2.0 application in the Microsoft Entra admin center to allow the Microsoft OneDrive external content connector to access your Microsoft OneDrive source system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-microsoft-onedrive-external-content-indexing.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Microsoft OneDrive external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -27,7 +27,7 @@ You need the following credentials and permissions for your organization in the 
 -   Permission to grant admin consent for an application's API permissions
 -   Permission to upload certificates for an application
 
-You must have created a public/private key pair for the Microsoft OneDrive external content connector and extracted the public key certificate in DER-encoded binary X.509 format. For details on creating the public/private key pair and extracting the public key certificate, see [Create a public/private key pair for the Microsoft OneDrive external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/gen-cert-msod-ext-cont-connector.md).
+You must have created a public/private key pair for the Microsoft OneDrive external content connector and extracted the public key certificate in DER-encoded binary X.509 format. For details on creating the public/private key pair and extracting the public key certificate, see [Create a public/private key pair for the Microsoft OneDrive external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/gen-cert-msod-ext-cont-connector.md).
 
 Role required: none
 
@@ -138,12 +138,12 @@ To enable the connector to access your Microsoft OneDrive source system via this
 
 Provide the following items to your connector administrator:
 
--   The OAuth 2.0 application's tenant ID and client ID that you recorded in step [2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-microsoft-onedrive-external-content-indexing.md).
--   The DER-encoded binary X.509 format public key certificate's SHA1 thumbprint hash in hexadecimal format that you recorded in step [5.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-microsoft-onedrive-external-content-indexing.md).
+-   The OAuth 2.0 application's tenant ID and client ID that you recorded in step [2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-microsoft-onedrive-external-content-indexing.md).
+-   The DER-encoded binary X.509 format public key certificate's SHA1 thumbprint hash in hexadecimal format that you recorded in step [5.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-microsoft-onedrive-external-content-indexing.md).
 
 Your connector administrator needs these items to configure a Microsoft OneDrive external content connector to retrieve searchable content and security principals from your Microsoft OneDrive instance.
 
-For details on creating and configuring a Microsoft OneDrive external content connector, see [Create a Microsoft OneDrive external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-microsoft-onedrive.md).
+For details on creating and configuring a Microsoft OneDrive external content connector, see [Create a Microsoft OneDrive external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-ext-cont-connector-microsoft-onedrive.md).
 
-**Parent Topic:**[Microsoft OneDrive external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/microsoft-onedrive-external-content-connector.md)
+**Parent Topic:**[Microsoft OneDrive external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/microsoft-onedrive-external-content-connector.md)
 

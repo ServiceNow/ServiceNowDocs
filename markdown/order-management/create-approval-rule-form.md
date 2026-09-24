@@ -3,9 +3,9 @@ title: Create Approval Rule form
 description: Field descriptions for the Create Approval Rule form in Advanced Approval Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-approval-rule-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Advanced Approval Management reference, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
@@ -156,10 +156,10 @@ Dynamic escalated assignee
 Rule logic that determines the escalated assignee dynamically when an approval request is submitted.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Advanced Approval Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/advanced-approval-management-reference.md)
+</table>**Parent Topic:**[Advanced Approval Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/advanced-approval-management-reference.md)
 
 **Related topics**  
 
 
-[Create approval rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-approval-rules.md)
+[Create approval rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-approval-rules.md)
 

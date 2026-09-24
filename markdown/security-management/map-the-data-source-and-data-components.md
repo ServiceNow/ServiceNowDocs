@@ -3,9 +3,9 @@ title: Define the data source and data component mapping
 description: Use the Data Component Mapping if you are using the latest TAXII collections, and you want to maintain a relationship between the data sources, data components, and the various techniques. Map the data sources with the additional context of data components that provides an extra sublayer of context to data sources that enable you to understand adversary behaviors in MITRE-ATT&amp;CK better.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/map-the-data-source-and-data-components.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [MITRE-ATT&amp;CK administration, MITRE-ATT&amp;CK framework overview, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -33,7 +33,7 @@ The following illustration shows the MITRE-ATT&amp;CK STIX™ structure represen
 
 \[Omitted image "mitre-datasourcecomponent.png"\] Alt text: This image shows the general structure of data sources and data components.
 
-You can continue using the [Data Source Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/manage-mitre-att-ck-data-sources.md) if your MITRE-ATT&amp;CK repository contains the old TAXII collections, and you’ve mapped your data sources to various techniques. However, use the [Data Component Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/map-the-data-source-and-data-components.md) if you’re using the latest TAXII collections, and you want to maintain a relationship between the data sources, data components, and the various techniques.
+You can continue using the [Data Source Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/manage-mitre-att-ck-data-sources.md) if your MITRE-ATT&amp;CK repository contains the old TAXII collections, and you’ve mapped your data sources to various techniques. However, use the [Data Component Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/map-the-data-source-and-data-components.md) if you’re using the latest TAXII collections, and you want to maintain a relationship between the data sources, data components, and the various techniques.
 
 ## Procedure
 
@@ -68,7 +68,7 @@ You can continue using the [Data Source Mapping](https://raw.githubusercontent.c
     6.  Select **Update**.
 
 
-**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-administration.md)
+**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/mitre-att-ck-administration.md)
 
 **Related topics**  
 

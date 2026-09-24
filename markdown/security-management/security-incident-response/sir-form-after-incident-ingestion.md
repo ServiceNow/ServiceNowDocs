@@ -3,11 +3,11 @@ title: SIR form after an incident ingestion
 description: After the ServiceNow AI Platform ingests the Microsoft Azure Sentinel incident, a security incident is created and the updates are made to that security incident record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/sir-form-after-incident-ingestion.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Microsoft Azure Sentinel integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -24,7 +24,7 @@ If you are currently using the Azure Sentinel integration with Security Incident
 
 ## Work notes
 
-A work note is posted when an incident is aggregated and if you have configured the **Log work note for new incident** option in the [Incident Aggregation Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/filter-and-aggregation-criteria.md). The following example shows the work notes in SIR.
+A work note is posted when an incident is aggregated and if you have configured the **Log work note for new incident** option in the [Incident Aggregation Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/filter-and-aggregation-criteria.md). The following example shows the work notes in SIR.
 
 \[Omitted image "sentinel-worknotes.png"\] Alt text: Work notes in SIR.
 

@@ -3,9 +3,9 @@ title: Add a metric category and metric in the question bank for quizzes
 description: Reuse the question categories \(metric categories\) and questions \(metrics\) added in the question bank for quizzes. You can add metric categories or metrics from the question bank to a quiz, or from the quiz to a question bank.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/add-questionbank-quiz.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Quizzes, Quizzes, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -41,8 +41,8 @@ Role required: admin or assessment\_admin
 7.  Click **Submit**.
 
 
--   **[Configure metric categories or metrics for a quiz using the question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-questionbank-quiz.md)**  
+-   **[Configure metric categories or metrics for a quiz using the question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configure-questionbank-quiz.md)**  
 Reuse question categories \(metric categories\) and questions \(metrics\) from the **Question Bank** module while creating or updating a quiz.
 
-**Parent Topic:**[Using Quizzes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/using-quizzes.md)
+**Parent Topic:**[Using Quizzes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/using-quizzes.md)
 

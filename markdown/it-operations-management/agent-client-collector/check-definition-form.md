@@ -3,7 +3,7 @@ title: Agent Client Collector check definition page
 description: The fields to be configured on the Check Definition page, when creating a check definition.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/check-definition-form.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
@@ -127,7 +127,7 @@ Interval-based scheduling
 
 </td><td>
 
-
+When selected, enables configuring a time interval \(in seconds\) to wait between check executions.
 
 </td></tr><tr><td>
 
@@ -138,6 +138,8 @@ Interval
 The amount of time, in seconds, to wait between check executions.For example, a value of 60 means that the check runs every 60 seconds.
 
 Specified value must be an integer.
+
+Appears only when selecting **Interval-based scheduling**.
 
 </td></tr><tr><td>
 
@@ -214,10 +216,10 @@ Plugins
 Select the plugins to be associated with the check. Once this is done, the plugins download before the check executes.
 
 </td></tr></tbody>
-</table>-   **[Check definition form parameters tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/check-definition-parameters-tab.md)**  
+</table>-   **[Check definition form parameters tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/check-definition-parameters-tab.md)**  
 The Parameters tab definitions for the **Command** field on the check definition form.
--   **[Test check dialog box fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/test-check-dialog-box.md)**  
+-   **[Test check dialog box fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/test-check-dialog-box.md)**  
 The dialog box fields when testing a check definition.
 
-**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
+**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
 

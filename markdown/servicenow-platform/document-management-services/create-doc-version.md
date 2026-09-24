@@ -3,11 +3,11 @@ title: Create a document version
 description: Create a document version for each document.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/create-doc-version.html
-release: australia
+release: brazil
 product: Document Management Services
 classification: document-management-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Document versions, Document repository, Use, Document Management, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -37,5 +37,5 @@ Role required: none
 6.  To submit the version for review and approval, go back and select the version and select **Submit Version**.
 
 
-**Parent Topic:**[Document versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/document-mgt-versions.md)
+**Parent Topic:**[Document versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/document-mgt-versions.md)
 

@@ -3,11 +3,11 @@ title: Components installed with Zoom extension for Omnichannel Callback
 description: Several types of components are installed with the Zoom extension for Omnichannel Callback application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/callback-over-zoom/comp-installed-zoom-extension.html
-release: australia
+release: brazil
 product: Callback over Zoom
 classification: callback-over-zoom
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Install Zoom extension for Omnichannel Callback, Zoom extension for Omnichannel Callback, Manage people and work, Conversational Interfaces]
 ---

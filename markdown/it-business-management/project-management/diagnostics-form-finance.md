@@ -3,11 +3,11 @@ title: Diagnostics form
 description: Learn about the fields of diagnostic form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/diagnostics-form-finance.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Form field information for Project Management, Project Management reference, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -25,8 +25,10 @@ Learn about the fields of diagnostic form.
 |Roles|Option for adding or removing user roles that can access the diagnostic scan.|
 |Description|Details of the diagnostic scan. The description is displayed in the application to which the diagnostic scan belongs.\[Omitted image "diagonstic\_scan\_description.png"\] Alt text: Diagnostic scan description in application|
 
+**Parent Topic:**[Form field information for Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/form-field-information-for-project-management.md)
+
 **Related topics**  
 
 
-[Create Diagnostic scans and map related scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/create-diagnostic-scan-map-script.md)
+[Create Diagnostic scans and map related scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/create-diagnostic-scan-map-script.md)
 

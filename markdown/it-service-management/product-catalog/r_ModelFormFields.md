@@ -3,11 +3,11 @@ title: Model form fields
 description: There are fields on the Model form that apply to all types of models.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/product-catalog/r\_ModelFormFields.html
-release: australia
+release: brazil
 product: Product Catalog
 classification: product-catalog
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Models, Product Catalog, Asset Management common applications, IT Service Management]
 ---
@@ -104,7 +104,7 @@ Depreciation
 
 </td><td>
 
-The [Use depreciation with fixed assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/c_CreatingFixedAssets.md) for the model.
+The [Use depreciation with fixed assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/c_CreatingFixedAssets.md) for the model.
 
 </td></tr><tr><td>
 
@@ -196,5 +196,5 @@ Product Catalog
 The information about the model as it appears in the product catalog and service catalog. Information only appears if the model has been published to the product catalog.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/c_Models.md)
+</table>**Parent Topic:**[Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/product-catalog/c_Models.md)
 

@@ -3,11 +3,11 @@ title: SAFe — Unified Backlog
 description: SAFe — Unified Backlog allows you to maintain a centralized backlog containing records of different task types, such as defects, problems, incident tasks, and stories. It facilitates in prioritizing and sequencing different task type records in one location, saving you steps. It also removes the overhead of converting records to stories.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/safeunified-backlog.html
-release: australia
+release: brazil
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -18,13 +18,13 @@ SAFe — Unified Backlog allows you to maintain a centralized backlog containing
 
 **Important:**
 
-Starting with the Xanadu release, the plugins Portfolio SAFe, Essential SAFe, Performance Analytics Content Pack for Essential SAFe, Work Progress Status for SAFe, Agile - Scaled Agile Framework - Unified Backlog, and Read only roles for SAFe are being prepared for future deprecation. These plugins will be hidden and can no longer be activated on new instances but will continue to be supported. [Enterprise Agile Planning in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/eap-landing.md) provides the latest experience for this functionality.
+Starting with the Xanadu release, the plugins Portfolio SAFe, Essential SAFe, Performance Analytics Content Pack for Essential SAFe, Work Progress Status for SAFe, Agile - Scaled Agile Framework - Unified Backlog, and Read only roles for SAFe are being prepared for future deprecation. These plugins will be hidden and can no longer be activated on new instances but will continue to be supported. [Enterprise Agile Planning in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/eap-landing.md) provides the latest experience for this functionality.
 
 For more information on the deprecation process and its impact, see the [Application/Plugin Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 The flow described below represents the common practice of creating and managing records using SAFe — Unified Backlog along with Essential SAFe.
 
--   **[Setting up a triage board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/safe-setup-triage-board.md)**
+-   **[Setting up a triage board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/safe-setup-triage-board.md)**
 
     You can set up a triage board by defining filter criteria, and view records of a specific task type on the triage board. For example, you can create one triage board for defects and another for incidents. Records are dynamically updated in all triage boards.
 
@@ -37,10 +37,10 @@ The flow described below represents the common practice of creating and managing
     As you work with stories, work with the triaged records \(represented by stories\) in the **Sprint Tracking** tab, Board view. When you move a triaged record from one lane to another, the state of its wrapper story changes. However, the state of the original triaged record remains the same. To change the state of the original triaged record, you would need to open the record in a form and update the state.
 
 
--   **[Set up a triage board in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/safe-setup-triage-board.md)**  
+-   **[Set up a triage board in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/safe-setup-triage-board.md)**  
 Set up your own triage board by defining filter criteria, and view records that are important to your team, such as problems, incident tasks, defects, or change requests. For example, you can create one triage board for defects and another for incidents.
 
-**Parent Topic:**[Scaled Agile Framework \(SAFe\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/SAFeoverview.md)
+**Parent Topic:**[Scaled Agile Framework \(SAFe\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/SAFeoverview.md)
 
 **Related topics**  
 

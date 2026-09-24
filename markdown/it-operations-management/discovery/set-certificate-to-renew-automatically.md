@@ -1,18 +1,18 @@
 ---
-title: Set a certificate to renew automatically
+title: Set certificates to renew automatically
 description: Configure automatic certificate renewal to avoid service interruptions from expired certificates. Set the number of days before expiration when the system should automatically renew certificates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/set-certificate-to-renew-automatically.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Automated certificate renewal, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Set a certificate to renew automatically
+# Set certificates to renew automatically
 
 Configure automatic certificate renewal to avoid service interruptions from expired certificates. Set the number of days before expiration when the system should automatically renew certificates.
 
@@ -20,9 +20,9 @@ Configure automatic certificate renewal to avoid service interruptions from expi
 
 Complete the following tasks to configure your system to renew your certificates automatically:
 
-1.  [Configure MID Server for automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/configure-mid-server-automatic-cert-renewal.md)
-2.  [Add the required applications and capabilities to your MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/add-req-apps-capabilities-to-mid-server.md)
-3.  [Configure automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/config-sys-props-for-auto-cert-renewal.md)
+1.  [Configure MID Server for automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/configure-mid-server-automatic-cert-renewal.md)
+2.  [Add required applications and capabilities to MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/add-req-apps-capabilities-to-mid-server.md)
+3.  [Configure system properties for auto-renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/config-sys-props-for-auto-cert-renewal.md)
 
 Role required: pki\_admin or admin
 

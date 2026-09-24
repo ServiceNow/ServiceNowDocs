@@ -3,9 +3,9 @@ title: Create ad hoc metric data tasks
 description: Handle off-cycle requests for up-to-date information on existing metric definitions and metrics by creating ad hoc metric data tasks. These tasks address off-cycle requests and provide the latest information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-an-adhoc-metric-data-task.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using GRC: Metrics to provide data, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -45,10 +45,10 @@ However, for calculated metric definitions that have the **Calculation level** f
 
 ## What to do next
 
-For information about features that are not supported for ad hoc metric data tasks, see [Ad hoc metric data task limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/ad-hoc-metric-data-task-limitations.md).
+For information about features that are not supported for ad hoc metric data tasks, see [Ad hoc metric data task limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/ad-hoc-metric-data-task-limitations.md).
 
--   **[Ad hoc metric data task limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/ad-hoc-metric-data-task-limitations.md)**  
+-   **[Ad hoc metric data task limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/ad-hoc-metric-data-task-limitations.md)**  
 Ad hoc metric data tasks don't support certain features that are available for scheduled metric data tasks.
 
-**Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/using-grc-metrics.md)
+**Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/using-grc-metrics.md)
 

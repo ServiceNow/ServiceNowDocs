@@ -3,11 +3,11 @@ title: Add nested policies in a policy
 description: Add existing policies to a policy's conditions to define the order a policy's execution and the conditions is executed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-add-nest-policies.html
-release: australia
+release: brazil
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Passing parameters to PaCE policies, Administer PaCE policies, Policy as Code Engine \(PaCE\), Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,9 +18,9 @@ Add existing policies to a policy's conditions to define the order a policy's ex
 
 ## Before you begin
 
-**Note:** You must create a policy before adding it to another policy. For more information, see [Create a PaCE policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-create-policy.md).
+**Note:** You must create a policy before adding it to another policy. For more information, see [Create a PaCE policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/policy-as-code-engine-pace/pace-create-policy.md).
 
-You can add a policy multiple times with different names and parameters. The policies must be configured and mapped to a document, and API variables and Config parameters may be required and mapped to be configured. For more information on how to add variables, see [Create a new variable for a policy version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-create-variable-policy-version.md).
+You can add a policy multiple times with different names and parameters. The policies must be configured and mapped to a document, and API variables and Config parameters may be required and mapped to be configured. For more information on how to add variables, see [Create a new variable for a policy version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/policy-as-code-engine-pace/pace-create-variable-policy-version.md).
 
 Role required: sn\_pace.code\_editor
 
@@ -51,5 +51,5 @@ Role required: sn\_pace.code\_editor
 
 ## Result
 
-The policies now appear on the Policies tab and can be added in the condition section or the Then section of the Policy builder. For more information on how to add the policies in the builder, see [Policy logic condition fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-policy-logic-fields.md).
+The policies now appear on the Policies tab and can be added in the condition section or the Then section of the Policy builder. For more information on how to add the policies in the builder, see [Policy logic condition fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/policy-as-code-engine-pace/pace-policy-logic-fields.md).
 

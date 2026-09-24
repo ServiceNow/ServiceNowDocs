@@ -3,11 +3,11 @@ title: ServiceNow Otto for App Engine
 description: Use ServiceNow Otto for App Engine to supercharge custom applications with AI agents and skills.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.html
-release: australia
+release: brazil
 product: Now Assist for App Engine
 classification: now-assist-for-app-engine
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, ServiceNow Otto for App Engine, now assist, app engine, AI capability, AI feature, AI product, AI agent, skill, generative AI, genAI, Now Assist for App Engine, custom app]
 breadcrumb: [Agentic development on the ServiceNow AI Platform, Building applications]
@@ -25,19 +25,19 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 -   Advanced: AI to boost productivity across relevant use cases
 -   Prime: Act autonomously with all AI assets, and create your own
 
-For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 <table id="table_wjh_cz5_bfc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about ServiceNow Otto for App Engine concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/exploring-now-assist-for-app-generation-enterprise.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about ServiceNow Otto for App Engine concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-app-engine/exploring-now-assist-for-app-generation-enterprise.md)
 
 </td><td>
 
-[Install\[Omitted image "bus-cloud-download.svg"\] Alt text:Install ServiceNow Otto for App Engine.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/install-now-assist-for-app-engine.md)
+[Install\[Omitted image "bus-cloud-download.svg"\] Alt text:Install ServiceNow Otto for App Engine.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-app-engine/install-now-assist-for-app-engine.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use ServiceNow Otto for App Engine.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use ServiceNow Otto for App Engine.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md)
 
 </td><td>
 
@@ -67,5 +67,5 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 

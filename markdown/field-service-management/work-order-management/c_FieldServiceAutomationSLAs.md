@@ -3,12 +3,12 @@ title: Field Service Management SLAs
 description: ServiceNow SLAs track the service level provided by groups and individuals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/c\_FieldServiceAutomationSLAs.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Manage work orders, Prepare work orders, Use, Field Service Management]
 ---
 
@@ -16,7 +16,7 @@ breadcrumb: [Manage work orders, Prepare work orders, Use, Field Service Managem
 
 ServiceNow SLAs track the service level provided by groups and individuals.
 
-When you create a work order, the system automatically assigns it a default [Service Level Management concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management-concepts.md) based on priority level. If you change the priority of the work order, the system cancels the current SLA and applies the SLA appropriate for the new priority. The SLA timer continues to run even if the priority is changed. The three default SLAs used for work orders are:
+When you create a work order, the system automatically assigns it a default [Service Level Management concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management-concepts.md) based on priority level. If you change the priority of the work order, the system cancels the current SLA and applies the SLA appropriate for the new priority. The SLA timer continues to run even if the priority is changed. The three default SLAs used for work orders are:
 
 |SLA|Description|
 |---|-----------|
@@ -38,8 +38,22 @@ SLA details show on the task card in the task panel and the calendar in the Disp
 |Above 100% \(breached\)|Red|
 |Paused|Gray|
 
+## Example: SLA Breach Prevention
+
+The system detects a work order approaching its SLA threshold and at risk of breaching. Field Service Management automatically escalates the priority, notifies the dispatcher, and reorders the task queue so the job is reassigned and completed within the required service window.
+
+|Step|Actor|Action|
+|----|-----|------|
+|1|System|Tracks work order against SLA|
+|2|System|Detects SLA breach risk|
+|3|System|Escalates priority|
+|4|System|Notifies dispatcher|
+|5|Dispatcher|Reorders tasks in scheduling engine|
+|6|Dispatcher|Reassigns technician|
+|7|Technician|Completes work within SLA|
+
 **Related topics**  
 
 
-[Manage a work order SLA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/t_ManageAWorkOrderSLA.md)
+[Manage a work order SLA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/t_ManageAWorkOrderSLA.md)
 

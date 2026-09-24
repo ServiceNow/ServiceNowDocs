@@ -3,11 +3,11 @@ title: Create a REST web service activity
 description: Use this procedure to create a custom REST web service Orchestration activity.The ServiceNow activity designer allows you to map parameter values in a REST test payload to variables in the Outputs stage automatically.You use execution parameters to create the input process script in the Pre Processing form of the activity designer.These are instructions for creating JavaScript arrays using REST execution parameters.Use these parameters to create a post-processing script.Use the input variables you created to configure the command that Orchestration executes on the REST endpoint.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/t\_CreateARESTWebServiceActivity.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
 breadcrumb: [Orchestration custom activity templates, Orchestration activity designer, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,29 +24,29 @@ Role required: web\_service\_admin, activity\_admin, activity\_creator
 
 To create and use a REST web service workflow activity:
 
--   Create a [Create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_ConfiguringARESTMessage.md) if an appropriate one is not already configured.
+-   Create a [Create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/t_ConfiguringARESTMessage.md) if an appropriate one is not already configured.
 -   Assign the web\_service\_admin role to any user who must create or edit a custom REST activity.
--   Determine an application, or [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md), for this activity.
--   Determine the [Create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_ConfiguringARESTMessage.md) to use for the activity. Use this value to override the endpoint configured in the REST message.
--   Optionally, create [basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md). Use this value to override the credentials configured in the SOAP message.
+-   Determine an application, or [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationScope.md), for this activity.
+-   Determine the [Create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/t_ConfiguringARESTMessage.md) to use for the activity. Use this value to override the endpoint configured in the REST message.
+-   Optionally, create [basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_BasicAuthCredentialsForm.md). Use this value to override the credentials configured in the SOAP message.
 
 ## Procedure
 
-1.  Create a [custom activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-custom-activities.md).
+1.  Create a [custom activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-custom-activities.md).
 
     This action creates a custom activity using a template.
 
-2.  After setting up [general properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/General-Flds-Templates.md) and [creating input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/CreateInputVariables.md), configure the REST web service Execution Command.
+2.  After setting up [general properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/General-Flds-Templates.md) and [creating input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/CreateInputVariables.md), configure the REST web service Execution Command.
 
-<table id="choicetable_g3y_2sq_vz"><tbody><tr><td id="d357694e146">
+<table id="choicetable_g3y_2sq_vz"><tbody><tr><td id="d355794e146">
 
-**[Map the input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/CreateInputVariables.md)**
+**[Map the input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/CreateInputVariables.md)**
 
 </td><td>
 
 Use the variables you created to configure the command that Orchestration executes.
 
-</td></tr><tr><td id="d357694e162">
+</td></tr><tr><td id="d355794e162">
 
 **REST message**
 
@@ -54,7 +54,7 @@ Use the variables you created to configure the command that Orchestration execut
 
 Name of an existing REST message to use in this activity.
 
-</td></tr><tr><td id="d357694e171">
+</td></tr><tr><td id="d355794e171">
 
 **REST message function**
 
@@ -62,7 +62,7 @@ Name of an existing REST message to use in this activity.
 
 REST message function to use for this activity.
 
-</td></tr><tr><td id="d357694e180">
+</td></tr><tr><td id="d355794e180">
 
 **Endpoint**
 
@@ -70,15 +70,15 @@ REST message function to use for this activity.
 
 Endpoint URL for the REST web service this activity uses. Enter an endpoint in this field to override the endpoint configured in the REST message. Click the lock to open the input field.
 
-</td></tr><tr><td id="d357694e189">
+</td></tr><tr><td id="d355794e189">
 
 **Variable substitutions**
 
 </td><td>
 
-Name-value pairs to pass to the REST endpoint. You can create these parameters manually, or drag input variables into the parameter fields, and then assign a value. Parameters defined in the REST message that use **$\{\}** can be assigned data from this activity template. Use the **Additional attribute** column to configure the system to not escape the text. By default the text sent to the REST message is escaped. If the users have provided variables using [Variable substitution in outbound REST messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_VariableSubstitutionREST.md) in the REST message, then the **Name** column is automatically populated.
+Name-value pairs to pass to the REST endpoint. You can create these parameters manually, or drag input variables into the parameter fields, and then assign a value. Parameters defined in the REST message that use **$\{\}** can be assigned data from this activity template. Use the **Additional attribute** column to configure the system to not escape the text. By default the text sent to the REST message is escaped. If the users have provided variables using [Variable substitution in outbound REST messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/c_VariableSubstitutionREST.md) in the REST message, then the **Name** column is automatically populated.
 
-</td></tr><tr><td id="d357694e212">
+</td></tr><tr><td id="d355794e212">
 
 **Additional Headers**
 
@@ -86,7 +86,7 @@ Name-value pairs to pass to the REST endpoint. You can create these parameters m
 
 Additional HTTP header parameters for the REST message selected. You can also use these values to override parameters inherited from the REST message.
 
-</td></tr><tr><td id="d357694e221">
+</td></tr><tr><td id="d355794e221">
 
 **Additional Query Parameters**
 
@@ -94,7 +94,7 @@ Additional HTTP header parameters for the REST message selected. You can also us
 
 Additional query parameters for the REST message selected. You can also use these values to override parameters inherited from the REST message.
 
-</td></tr><tr><td id="d357694e230">
+</td></tr><tr><td id="d355794e230">
 
 **Use MID Server**
 
@@ -102,15 +102,15 @@ Additional query parameters for the REST message selected. You can also use thes
 
 Check box that determines if a MID Server should be used to invoke the REST web service.**Note:** If the REST web service message function defines a MID Server, that MID Server is used instead of the one selected here.
 
-</td></tr><tr><td id="d357694e242">
+</td></tr><tr><td id="d355794e242">
 
 **Required MID Server capabilities**
 
 </td><td>
 
-MID Server with the appropriate [MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) for connecting to the REST endpoint. By default, the system selects a MID Server with REST capabilities. This field is available when the **Use MID Server** check box is selected.
+MID Server with the appropriate [MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown) for connecting to the REST endpoint. By default, the system selects a MID Server with REST capabilities. This field is available when the **Use MID Server** check box is selected.
 
-</td></tr><tr><td id="d357694e262">
+</td></tr><tr><td id="d355794e262">
 
 **Timeout**
 
@@ -118,28 +118,28 @@ MID Server with the appropriate [MID Server capabilities](https://raw.githubuser
 
 Allowed duration of the REST web service request before it times out, in seconds. The default is **10**.
 
-</td></tr><tr><td id="d357694e274">
+</td></tr><tr><td id="d355794e274">
 
 **Authentication**
 
 </td><td>
 
 Determines what type of authentication is required for the endpoint. The options are:-   **Use existing credentials in REST message**: Uses credential definitions from the REST message definition.
--   **Override with Basic Authentication credentials**: Uses [Enable basic authentication for outbound SOAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_BasicAuthentication.md) credentials to override the credentials in the REST message definition. Basic authentication credentials must be provisioned before they are available for selection.
+-   **Override with Basic Authentication credentials**: Uses [Enable basic authentication for outbound SOAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/t_BasicAuthentication.md) credentials to override the credentials in the REST message definition. Basic authentication credentials must be provisioned before they are available for selection.
 -   **Override with Certificate Authentication credentials**: Uses a certificate, such as a private key, to override the credentials in the REST message definition.
 -   **Override with Both Basic and Certificate Authentication credentials**: Uses both basic authentication and certificate authentication to override the credentials in the REST message definition.
--   **Override with OAuth Authentication credentials**: Uses [OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_OAuthApplications.md) credentials to override the credentials in the REST message definition. The REST message selected for this activity must have its [OAuth 2.0 tutorial - create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_OAuthDemoCreateRESTMessage.md) set to **OAuth 2.0** and its [OAuth profiles and scopes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OAuthProviderAndScope.md) configured appropriately.
+-   **Override with OAuth Authentication credentials**: Uses [OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_OAuthApplications.md) credentials to override the credentials in the REST message definition. The REST message selected for this activity must have its [OAuth 2.0 tutorial - create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/t_OAuthDemoCreateRESTMessage.md) set to **OAuth 2.0** and its [OAuth profiles and scopes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/c_OAuthProviderAndScope.md) configured appropriately.
 
 
-</td></tr><tr><td id="d357694e331">
+</td></tr><tr><td id="d355794e331">
 
 **Credentials**
 
 </td><td>
 
-Required REST endpoint basic authentication credentials. This field is available when **Override with Basic Authentication credentials** is selected in the **Authentication** field. Only basic authentication credentials appear in the selection list, which includes credentials stored on the instance and credential IDs from an external storage system. If you are using credentials stored in a CyberArk safe, you can override the default safe defined in the MID Server configuration file. See [Configure the MID Server for CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_CyberArkIntegrationConfiguration.md) for details. Add the name of a different safe as a prefix to the credential ID, separated by a colon. For example, **newsafe:orch-test-f5**.
+Required REST endpoint basic authentication credentials. This field is available when **Override with Basic Authentication credentials** is selected in the **Authentication** field. Only basic authentication credentials appear in the selection list, which includes credentials stored on the instance and credential IDs from an external storage system. If you are using credentials stored in a CyberArk safe, you can override the default safe defined in the MID Server configuration file. See [Configure the MID Server for CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_CyberArkIntegrationConfiguration.md) for details. Add the name of a different safe as a prefix to the credential ID, separated by a colon. For example, **newsafe:orch-test-f5**.
 
-</td></tr><tr><td id="d357694e353">
+</td></tr><tr><td id="d355794e353">
 
 **Protocol Profile**
 
@@ -147,23 +147,23 @@ Required REST endpoint basic authentication credentials. This field is available
 
 Certificate authentication to use. This field is available when the selections in the **Authentication** are either **Override with Certificate Authentication credentials** or **Override with Both Basic and Certificate Authentication credentials**.
 
-</td></tr><tr><td id="d357694e371">
+</td></tr><tr><td id="d355794e371">
 
 **OAuth profile**
 
 </td><td>
 
-Profile for the OAuth provider for this REST message. See [Specify an OAuth profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_SpecifyAnOAuthProfile.md) for more information.
+Profile for the OAuth provider for this REST message. See [Specify an OAuth profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/t_SpecifyAnOAuthProfile.md) for more information.
 
 </td></tr></tbody>
-</table>    **Note:** You can map parameter values in a test payload to variables in the **Outputs** tab automatically. See [automap output variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/automap-output-variable-inputs.md).
+</table>    **Note:** You can map parameter values in a test payload to variables in the **Outputs** tab automatically. See [automap output variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/automap-output-variable-inputs.md).
 
 
 ## What to do next
 
-Finish creating your Rest web service activity by [creating output variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAnOutputVariable.md), [creating a parsing rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAParsingRule.md), or [Conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/conditions.md). Refer to the [create custom activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/create-custom-activities.md) topic to know your template options.
+Finish creating your Rest web service activity by [creating output variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/t_CreateAnOutputVariable.md), [creating a parsing rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/t_CreateAParsingRule.md), or [Conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/conditions.md). Refer to the [create custom activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/create-custom-activities.md) topic to know your template options.
 
-**Parent Topic:**[Orchestration custom activity templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_ActivityDesignerComponents.md)
+**Parent Topic:**[Orchestration custom activity templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_ActivityDesignerComponents.md)
 
 ## Auto-map REST activity output variables
 
@@ -204,7 +204,7 @@ Role required: web\_service\_admin, activity\_admin, activity\_creator
 
 You use execution parameters to create the input process script in the **Pre Processing** form of the activity designer.
 
-For descriptions of the REST web service command fields, see [Configure the REST execution command](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateARESTWebServiceActivity.md).
+For descriptions of the REST web service command fields, see [Configure the REST execution command](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/t_CreateARESTWebServiceActivity.md).
 
 **Note:** You must use the `executionParam.` prefix with all variables in this table.
 
@@ -286,7 +286,7 @@ Array of JavaScript objects
 
 </td><td>
 
-Array of JavaScript objects, expressed with the `executionParam.` prefix. For instructions on creating arrays using this parameter see [Create a JavaScript array in a REST template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateARESTWebServiceActivity.md).
+Array of JavaScript objects, expressed with the `executionParam.` prefix. For instructions on creating arrays using this parameter see [Create a JavaScript array in a REST template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/t_CreateARESTWebServiceActivity.md).
 
 </td></tr><tr><td>
 
@@ -350,7 +350,7 @@ Array of hashmap
 
 </td><td>
 
-Capability values used to select the MID Server. For more information, see [MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown). Use this example to customize the MID Server selection if there are additional capabilities that are assigned by value:```
+Capability values used to select the MID Server. For more information, see [MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown). Use this example to customize the MID Server selection if there are additional capabilities that are assigned by value:```
 var valueCapability = {'NEW_MID_CAPABIILTY':'NEW_MID_CAPABILITY_VALUE'}; executionParam.valueCapabilities.push(valueCapability);
 ```
 
@@ -444,7 +444,7 @@ Create the input variables you need in the **Inputs** form before you can advanc
 
 Role required: web\_service\_admin, activity\_admin, activity\_creator
 
-**Note:** You can test the REST connection between the MID Server and the endpoint without having to run the acvitity in a workflow context. For details, see [test template outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/CreateInputVariables.md).
+**Note:** You can test the REST connection between the MID Server and the endpoint without having to run the acvitity in a workflow context. For details, see [test template outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/CreateInputVariables.md).
 
 ### Procedure
 
@@ -470,7 +470,7 @@ Input
 
 </td><td>
 
-Input variable builder. [Create input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/CreateInputVariables.md) to map to available fields.
+Input variable builder. [Create input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/CreateInputVariables.md) to map to available fields.
 
 </td></tr><tr><td>
 
@@ -502,7 +502,7 @@ Variable substitutions
 
 </td><td>
 
-Name-value pairs to pass to the REST endpoint. You can create these parameters manually, or drag and drop input variables into the parameter fields, and then assign a value. Parameters defined in the REST message that use **$\{\}** can be assigned data from this activity template. Use the **Additional attribute** column to configure the system to not escape the text. By default the text sent to the REST message is escaped. The **Name** column is automatically populated if the users have provided variables using [Variable substitution in outbound REST messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_VariableSubstitutionREST.md) in the REST message.
+Name-value pairs to pass to the REST endpoint. You can create these parameters manually, or drag and drop input variables into the parameter fields, and then assign a value. Parameters defined in the REST message that use **$\{\}** can be assigned data from this activity template. Use the **Additional attribute** column to configure the system to not escape the text. By default the text sent to the REST message is escaped. The **Name** column is automatically populated if the users have provided variables using [Variable substitution in outbound REST messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/c_VariableSubstitutionREST.md) in the REST message.
 
 </td></tr><tr><td>
 
@@ -534,7 +534,7 @@ Required MID Server capabilities
 
 </td><td>
 
-MID Server with the appropriate [MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) for connecting to the REST endpoint. By default, the system selects a MID Server with REST capabilities. This field is available when the **Use MID Server** check box is selected.
+MID Server with the appropriate [MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown) for connecting to the REST endpoint. By default, the system selects a MID Server with REST capabilities. This field is available when the **Use MID Server** check box is selected.
 
 </td></tr><tr><td>
 
@@ -551,10 +551,10 @@ Authentication
 </td><td>
 
 Determines what type of authentication is required for the endpoint. The options are:-   **Use existing credentials in REST message**: Uses credential definitions from the REST message definition.
--   **Override with Basic Authentication credentials**: Uses [Enable basic authentication for outbound SOAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_BasicAuthentication.md) credentials to override the credentials in the REST message definition. Basic authentication credentials must be provisioned before they are available for selection.
+-   **Override with Basic Authentication credentials**: Uses [Enable basic authentication for outbound SOAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/t_BasicAuthentication.md) credentials to override the credentials in the REST message definition. Basic authentication credentials must be provisioned before they are available for selection.
 -   **Override with Certificate Authentication credentials**: Uses a certificate, such as a private key, to override the credentials in the REST message definition.
 -   **Override with Both Basic and Certificate Authentication credentials**: Uses both basic authentication and certificate authentication to override the credentials in the REST message definition.
--   **Override with OAuth Authentication credentials**: Uses [OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_OAuthApplications.md) credentials to override the credentials in the REST message definition. The REST message selected for this activity must have its [OAuth 2.0 tutorial - create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_OAuthDemoCreateRESTMessage.md) set to **OAuth 2.0** and its [OAuth profiles and scopes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OAuthProviderAndScope.md) configured appropriately.
+-   **Override with OAuth Authentication credentials**: Uses [OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_OAuthApplications.md) credentials to override the credentials in the REST message definition. The REST message selected for this activity must have its [OAuth 2.0 tutorial - create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/t_OAuthDemoCreateRESTMessage.md) set to **OAuth 2.0** and its [OAuth profiles and scopes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/c_OAuthProviderAndScope.md) configured appropriately.
 
 
 </td></tr><tr><td>
@@ -563,7 +563,7 @@ Credentials
 
 </td><td>
 
-Required REST endpoint basic authentication credentials. This field is available when **Override with Basic Authentication credentials** is selected in the **Authentication** field. Only basic authentication credentials appear in the selection list, which includes credentials stored on the instance and credential IDs from an external storage system. If you are using credentials stored in a CyberArk safe, you can override the [Configure the MID Server for CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ConfigureTheMIDServerForCyberArk.md) defined in the MID Server configuration file by adding the name of a different safe as a prefix to the credential ID, separated by a colon. For example, **newsafe:orch-test-f5**.
+Required REST endpoint basic authentication credentials. This field is available when **Override with Basic Authentication credentials** is selected in the **Authentication** field. Only basic authentication credentials appear in the selection list, which includes credentials stored on the instance and credential IDs from an external storage system. If you are using credentials stored in a CyberArk safe, you can override the [Configure the MID Server for CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_ConfigureTheMIDServerForCyberArk.md) defined in the MID Server configuration file by adding the name of a different safe as a prefix to the credential ID, separated by a colon. For example, **newsafe:orch-test-f5**.
 
 </td></tr><tr><td>
 
@@ -579,7 +579,7 @@ OAuth profile
 
 </td><td>
 
-Profile for the OAuth provider for this REST message. See [Specify an OAuth profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_SpecifyAnOAuthProfile.md) for more information.
+Profile for the OAuth provider for this REST message. See [Specify an OAuth profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/t_SpecifyAnOAuthProfile.md) for more information.
 
 </td></tr></tbody>
 </table>3.  Click **Save**.

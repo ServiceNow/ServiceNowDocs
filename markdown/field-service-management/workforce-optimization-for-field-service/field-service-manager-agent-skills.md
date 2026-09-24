@@ -3,11 +3,11 @@ title: Manage Field Service and Customer Service skills
 description: Field Service and Customer Service managers can create or edit skills, assign skills to agents, and view agents with a specific skill.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/field-service-manager-agent-skills.html
-release: australia
+release: brazil
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Users, Set up workforce, Configure, Field Service Management]
 ---
@@ -33,4 +33,9 @@ From this form, managers can:
     -   In the user's tile, click the down arrow on the **Skills** button. Assign multiple skills to a single user by checking the boxes for the desired skills.
 
 There are two default skills: Field Service Skill and Customer Service Skill. These are parent skills; other skills created by the manager are stored under these parent skills.
+
+**Related topics**  
+
+
+[Skills table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/skills-table-fields.md)
 

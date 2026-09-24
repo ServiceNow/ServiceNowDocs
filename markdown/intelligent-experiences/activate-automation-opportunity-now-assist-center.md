@@ -3,12 +3,12 @@ title: Implement an automation opportunity from AI Admin Center
 description: Deploy a matched AI agent or a new agent to automate a resolution for an identified automation opportunity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/activate-automation-opportunity-now-assist-center.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [AI Agent Advisor in AI Admin Center, Use, AI Agent Advisor, AI Admin Center, Enable AI experiences]
+breadcrumb: [AI Agent Advisor in AI Admin Center, Use, AI Agent Advisor, AI Admin Center, Getting started with AI, Enable AI Experiences]
 ---
 
 # Implement an automation opportunity from AI Admin Center
@@ -41,7 +41,7 @@ Each automation opportunity includes a set of recommended resolution steps that 
 
     \[Omitted image "ai-agent-advisor-matching-prebuilt-agent-2.png"\] Alt text: Automation opportunity details with a matching prebuilt AI agent.
 
-    For more information on finding an automation opportunity, see [View your automation opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-view-automation-opportunities.md).
+    For more information on finding an automation opportunity, see [View your automation opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-view-automation-opportunities.md).
 
 3.  Select the **Example Records** tab to review records from the source table.
 
@@ -146,8 +146,8 @@ Select **Expand all** to see the available assets for each step.
 
     The resolution steps are mapped to the set of instructions and added as tools for the AI agent.
 
-    For more information, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md).
+    For more information, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-next-best-action-agent.md).
 
 
-**Parent Topic:**[AI Agent Advisor in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-ai-agent-advisor-in-now-assist-center.md)
+**Parent Topic:**[AI Agent Advisor in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/using-ai-agent-advisor-in-now-assist-center.md)
 

@@ -3,9 +3,9 @@ title: Report a knowledge gap
 description: If you cannot find relevant knowledge articles that could help resolve a case, you can report a knowledge gap.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-report-knowledge-gap.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, 
 
 You can search for and attach knowledge articles to a customer service case. If you cannot find any relevant articles, you can report a knowledge gap. If you have permission, you can also create a knowledge article.
 
-Customer service case managers can use the Demand Insights for Cases dashboard to identify which cases have no or insufficient knowledge coverage. For more information, see [Demand Insights for Cases dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/demand-insights-cases-dashboard.md).
+Customer service case managers can use the Demand Insights for Cases dashboard to identify which cases have no or insufficient knowledge coverage. For more information, see [Demand Insights for Cases dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/demand-insights-cases-dashboard.md).
 
 ## Procedure
 

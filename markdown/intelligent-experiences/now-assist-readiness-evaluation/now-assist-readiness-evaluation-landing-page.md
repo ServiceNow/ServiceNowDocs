@@ -3,14 +3,14 @@ title: AI Readiness Evaluation
 description: The AI Readiness Evaluation app helps prepare your organization for implementing agentic AI for ITSM and CSM, and five other jobs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-readiness-evaluation/now-assist-readiness-evaluation-landing-page.html
-release: australia
+release: brazil
 product: Now Assist Readiness Evaluation
 classification: now-assist-readiness-evaluation
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Now Assist Readiness Evaluation, Now Assist Readiness Evaluation app, Now Assist Readiness, Now Assist assessment, GenAI assessment, AI assessment, Agentic AI assessment]
-breadcrumb: [Enable AI experiences]
+breadcrumb: [Assessing your AI readiness, Getting started with AI, Enable AI Experiences]
 ---
 
 # AI Readiness Evaluation
@@ -21,15 +21,15 @@ Choose one of these tiles to get started.
 
 <table id="table_lgc_mpv_jzb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the AI Readiness Evaluation app.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/exploring-now-assist-readiness-evaluation.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the AI Readiness Evaluation app.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-readiness-evaluation/exploring-now-assist-readiness-evaluation.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Run scheduled jobs and configure the app through the AI Readiness Evaluation guided setup.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/configuring-now-assist-readiness-evaluation.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Run scheduled jobs and configure the app through the AI Readiness Evaluation guided setup.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-readiness-evaluation/configuring-now-assist-readiness-evaluation.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-person.svg"\] Alt text:Learn about how to use the AI Readiness Evaluation dashboards and assessments to prepare for implementing AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/using-now-assist-readiness-evaluation.md)
+[Use\[Omitted image "bus-person.svg"\] Alt text:Learn about how to use the AI Readiness Evaluation dashboards and assessments to prepare for implementing AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-readiness-evaluation/using-now-assist-readiness-evaluation.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -49,12 +49,12 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
 **Related topics**  
 
 
-[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)
+[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md)
 
-[AI Agent Studio \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md)
+[AI Agent Studio \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/na-ai-agents.md)
 

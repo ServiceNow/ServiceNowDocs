@@ -3,14 +3,14 @@ title: Create an ad hoc obligation task in Software Asset Workspace
 description: Create an obligation task required only once or at irregular intervals to track and fulfill an obligation specified in a contract.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/create-adhoc-obligation-task-sam.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ad hoc obligation task, obligation in software asset workspace]
-breadcrumb: [Manage obligation tasks in the Software Asset Workspace, Use SAM Workspace, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage obligation tasks in the Software Asset Workspace, Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create an ad hoc obligation task in Software Asset Workspace
@@ -27,15 +27,15 @@ Role required: sn\_cm\_obligation.obligation\_fulfiller
 
 2.  Open an active obligation record either from the **Obligations** tab within the contract record or from the **Obligations** view.
 
-<table id="choicetable_bdx_54g_jhc"><thead><tr><th align="left" id="d155873e81">
+<table id="choicetable_bdx_54g_jhc"><thead><tr><th align="left" id="d157289e81">
 
 Method
 
-</th><th align="left" id="d155873e84">
+</th><th align="left" id="d157289e84">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d155873e90">
+</th></tr></thead><tbody><tr><td id="d157289e90">
 
 **From the contract record**
 
@@ -47,7 +47,7 @@ Steps
 4.  Select an active obligation record.
 
 
-</td></tr><tr><td id="d155873e133">
+</td></tr><tr><td id="d157289e133">
 
 **From the Obligations view**
 
@@ -84,7 +84,7 @@ View the obligation record by navigating to one of the following paths:
 -   Navigate to the **Obligations tasks** tab within the obligation record.
 -   Navigate to **Software Asset Workspace** &gt; **License operations** &gt; **Contracts** &gt; **Obligation tasks**.
 
-**Parent Topic:**[Manage obligation tasks in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/manage-obligation-tasks-software-asset-workspace.md)
+**Parent Topic:**[Manage obligation tasks in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/manage-obligation-tasks-software-asset-workspace.md)
 
 **Related topics**  
 

@@ -3,7 +3,7 @@ title: Insights and Opportunities for Incident dashboard reference
 description: Reference information for the widgets on the Insights and Opportunities for Incident dashboard, including descriptions of each indicator and the data it presents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/insights-opportunities-incident-dashboard-reference.html
-release: australia
+release: brazil
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: reference

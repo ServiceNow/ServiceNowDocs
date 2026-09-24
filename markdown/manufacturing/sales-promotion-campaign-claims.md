@@ -3,9 +3,9 @@ title: Sales promotion campaign data model
 description: A sales promotion is a marketing strategy of implementing new ideas to increase sales, raise brand awareness, and provide discounts to the customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/sales-promotion-campaign-claims.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data model, Reference, Manufacturing Commercial Operations]
 ---
@@ -32,10 +32,10 @@ The following diagram shows the entities and their relationships within the Sale
 
 The sales promotion supports bulk import functionality, where the dealer sales agents can import a spreadsheet with multiple claims for review and approval. To enable bulk import, you must customize it on the Customer Service Management \(CSM\) or Business Location Service Portal \(BLSP\) portals.
 
-To learn more about the Business Location Service Portal, see [Using the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-blsp-portal.md).
+To learn more about the Business Location Service Portal, see .
 
--   **[Sales Promotion Campaign Claim tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/sales-promotion-campaign-claim-table.md)**  
-This section explains the sales promotion campaign claims tables in Manufacturing Commercial Operations.
+-   **[Sales Promotion Campaign Claim tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/sales-promotion-campaign-claim-table.md)**  
+The sales promotion campaign claim tables store the promotion, case, and claim details used to manage sales promotion campaigns in Manufacturing Commercial Operations.
 
-**Parent Topic:**[Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/data-model.md)
+**Parent Topic:**[Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/data-model.md)
 

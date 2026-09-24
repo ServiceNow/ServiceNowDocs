@@ -3,11 +3,11 @@ title: Conditional filters and operators for indicators and breakdowns
 description: Conditional filters for indicator data cascade from indicator and breakdown sources up to data visualizations. Where conditions are applied can affect data collection efficiency. Some condition operators are only available at some levels, or in some conditions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/condition-operators-ind-bkdowns.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -22,7 +22,7 @@ Conditional filters can be applied to both automated indicators and indicator so
 
 \[Omitted image "indicators-wo-adv-conditions.png"\] Alt text: List of indicators for the Incidents.Open indicator source, showing that some do not have conditions on the indicator
 
-**Warning:** To avoid a [data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) completing with errors, follow these limitations:
+**Warning:** To avoid a [data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) completing with errors, follow these limitations:
 
 -   Do not add a condition that references Roles to an indicator. You can reference the Roles table only in an indicator source.
 -   If you define conditions that refer only to dot-walked fields, you must associate at least one breakdown with the indicator.
@@ -53,8 +53,8 @@ The availability of the "is one of" and "is \(dynamic\)" operators depends on ho
 -   **is \(dynamic\)**
     -   The aggregation method must not be AVG or COUNT DISTINCT. This requirement applies to automated indicators including the contributing indicators of formula indicators.
     -   The field in the breakdown source must be a reference field.
-    -   An elements filter must be defined for the breakdown source, and this elements filter must have a dynamic conditional filter. For an example, see the Me elements filter on an instance. For more information, see [Element filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_BreakdownElementFilters.md).
+    -   An elements filter must be defined for the breakdown source, and this elements filter must have a dynamic conditional filter. For an example, see the Me elements filter on an instance. For more information, see [Element filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_BreakdownElementFilters.md).
     -   If the indicator is a formula indicator, the **Allow aggregation of multiple breakdown element scores** option must be on.
 
-**Parent Topic:**[Configure Performance Analytics fundamentals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PAWidgetsAndDashboards.md)
+**Parent Topic:**[Configure Performance Analytics fundamentals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_PAWidgetsAndDashboards.md)
 

@@ -3,7 +3,7 @@ title: Configure read/write access roles for the Grants Management internal prog
 description: In a Grant Program, certain access is granted to each Internal Program Team user on a case-by-case basis. As an admin, you can delegate read/write access to users within internal teams by mapping specific roles to read/write access.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gmp-internal-team-default-roles.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -45,5 +45,5 @@ Role required: admin
     Users with these roles now have read access to program or read/write access to the grant program.
 
 
-**Parent Topic:**[Assign user personas, roles, groups, and responsibilities in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-assign-user-roles-responsibilities.md)
+**Parent Topic:**[Assign user personas, roles, groups, and responsibilities in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-assign-user-roles-responsibilities.md)
 

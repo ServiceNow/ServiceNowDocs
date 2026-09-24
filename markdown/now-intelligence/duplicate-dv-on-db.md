@@ -3,9 +3,9 @@ title: Duplicate a visualization on an inline dashboard
 description: Duplicate a visualization so that you can use aspects of the source in a copy of the visualization while on the dashboard it sits on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/duplicate-dv-on-db.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Copy a data visualization, Copy a report]
 breadcrumb: [Duplicate a visualization in the Visualization Designer, Share, edit, or delete, Data visualizations, Platform Analytics experience, Platform Analytics]
@@ -48,5 +48,5 @@ The visualization is copied with the new information.
 
 **Important:** The new copy of the visualization is automatically saved.
 
-**Parent Topic:**[Duplicate a visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/duplicate-dv-ac.md)
+**Parent Topic:**[Duplicate a visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/duplicate-dv-ac.md)
 

@@ -3,10 +3,10 @@ title: Set up the environment to manage approvals
 description: Complete the setup tasks before creating approval configurations and workflows. These prerequisites enable the approval system for a CPQ implementation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/setup-approvals-prerequisites.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-16"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 keywords: [approvals, setup, prerequisites, configuration]
 breadcrumb: [Advanced Approval Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -31,7 +31,7 @@ Set up the environment to administer and manage approvals.
 
     2.  Search for and install the following plugins, if not already installed:
 
-        -   Advanced Approvals Plugin: Provides the core approval management framework. For more information, see [Install Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/install-advanced-approval-management.md)
+        -   Advanced Approvals Plugin: Provides the core approval management framework. For more information, see [Install Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/install-advanced-approval-management.md)
         -   Quote Management - Advanced \(App id: sn\_quote\_mgmt\_adv\): Required for approving transactions.
     3.  Confirm that all plugins show as active in the Plugins list.
 
@@ -72,13 +72,41 @@ Set up the environment to administer and manage approvals.
 
 4.  Configure UI effects and layout for the approval experience.
 
-    For more information, see [Configure approval events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-approval-events.md).
+    For more information, see [Configure approval events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-approval-events.md).
 
 5.  Set up stage transitions for the approval workflow.
 
-    For more information, see [Configure stages and entry criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-stages-entry-criteria.md).
+    For more information, see [Configure stages and entry criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-stages-entry-criteria.md).
 
-6.  Verify all prerequisites are complete.
+6.  Create the web embeddable module for the approval interface.
+
+    1.  Navigate to **All** &gt; **Web Embeddables** &gt; **Home Page**.
+
+    2.  Create a web embeddable module.
+
+        Web embeddables are reusable UI components that can be embedded in multiple places. For approvals, this creates a reusable approval interface component.
+
+    3.  Name the module \(for example, "Advanced Approvals" or "Approval Interface"\).
+
+    4.  Select **Advanced Approvals** as the component type.
+
+    5.  Configure the component properties and save.
+
+        The web embeddable is created, and a SYS ID is generated for the module.
+
+    6.  Copy the SYS ID of the created embeddable module.
+
+    7.  Navigate to **All** &gt; **UI Builder** &gt; **CRM Workspace**.
+
+    8.  Select **Quote Transaction Default** component.
+
+    9.  Locate the seismic\_components\_property\_list field.
+
+    10. Add an entry with the embeddable SYS ID for approvals.
+
+    The web embeddable module for approvals is created and configured. The approval interface is now embedded in your microservices instance and ready for use.
+
+7.  Verify all prerequisites are complete.
 
     1.  Confirm all plugins are active and installed.
 
@@ -97,12 +125,12 @@ Set up the environment to administer and manage approvals.
 
 Proceed with the following tasks:
 
--   [Create an approval configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-approval-configuration.md)
--   [Create conditions that trigger approval workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/set-approval-trigger-conditions.md)
--   [Create approval rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-approval-rules.md)
--   [Create approval chains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-approval-chain.md)
--   [Define an approval user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-approval-users.md)
--   [Define an approval group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-approval-groups.md)
+-   [Create an approval configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-approval-configuration.md)
+-   [Create conditions that trigger approval workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/set-approval-trigger-conditions.md)
+-   [Create approval rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-approval-rules.md)
+-   [Create approval chains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-approval-chain.md)
+-   [Define an approval user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-approval-users.md)
+-   [Define an approval group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-approval-groups.md)
 
-After approvals are configured, end users can submit approval requests using the approval interface. For user-facing tasks, see [Review and approve a submitted quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/review-and-approve-quote.md).
+After approvals are configured, end users can submit approval requests using the approval interface. For user-facing tasks, see [Review and approve a submitted quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/review-and-approve-quote.md).
 

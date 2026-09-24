@@ -3,7 +3,7 @@ title: Customize event management
 description: Customize the management of events \(Notification, Subscription Confirmation, and Unsubscribe Confirmation\) you receive for your ServiceNow instance from Amazon SNS.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/customize-subflow-sns.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -24,7 +24,7 @@ Role required: admin.
 
 1.  In Workflow Studio, create a copy of the default subflow, Amazon SNS Subscription and customize the subflow as per your requirement.
 
-    For more information about creating subflows, see [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/subflows.md).
+    For more information about creating subflows, see [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/subflows.md).
 
 2.  Copy and record the internal name of the customized subflow.
 

@@ -3,9 +3,9 @@ title: Set up Microsoft 365 reporting configuration
 description: Set up the Microsoft 365 reporting configuration records to specify the data points and reports that you want to import in to a Microsoft Word document for disclosure reporting purposes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/configure-o365-reporting-configs.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Integrating Microsoft 365 with ServiceNow reporting, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -66,8 +66,8 @@ Source type
 </td><td>
 
 Source from which you want to fetch the data. The choices are as follows:-   **Table**: Select this option when you want to import data from a table.
--   **Report**: Select this option if you want to import data from a predefined report or chart. For more information on how to create a report, see [Create a report with Analytics Q&amp;A](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/t_CreateYourOwnReport.md).
--   **Data visualization**: Select this option if you want to import data from a data visualization in the Performance Analytics library. For more information, see [Overview of data visualization types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/data-visualization-type-overview.md).
+-   **Report**: Select this option if you want to import data from a predefined report or chart. For more information on how to create a report, see [Create a report with Analytics Q&amp;A](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/t_CreateYourOwnReport.md).
+-   **Data visualization**: Select this option if you want to import data from a data visualization in the Performance Analytics library. For more information, see [Overview of data visualization types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/data-visualization-type-overview.md).
  **Note:** Only list reports, pivot reports, multi-level pivot reports, horizontal and vertical bar charts, and pie charts are available for selection. Stacked bar charts and grouped bar charts are not supported.
 
 </td></tr><tr><td>
@@ -124,10 +124,10 @@ Option to track any changes made to the data inserted using configuration and lo
 
 ## What to do next
 
-Add additional reporting configuration filters to the reporting configuration. These filters help to fetch the data into your Microsoft Word disclosure report. For more information, see [Add additional reporting configuration filters for a Microsoft 365 configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/add-additional-reporting-filters.md).
+Add additional reporting configuration filters to the reporting configuration. These filters help to fetch the data into your Microsoft Word disclosure report. For more information, see [Add additional reporting configuration filters for a Microsoft 365 configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/add-additional-reporting-filters.md).
 
--   **[Configure a business domain role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configure-business-domain-roles.md)**  
-Configure the business domain roles so that users of a particular domain can select the domain for which they want to import the data. Only those users who are added during the configuration can view the domain on the Microsoft Word document.
+-   **[Configure a business domain role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/configure-business-domain-roles.md)**  
+Configure the business domain roles so that users of a particular domain can select the domain for which they want to import the data. Only those users who are added during the configuration are able to view the domain on the Microsoft Word document.
 
-**Parent Topic:**[Integrating Microsoft 365 with ServiceNow reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrating-o365-with-servicenow.md)
+**Parent Topic:**[Integrating Microsoft 365 with ServiceNow reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/integrating-o365-with-servicenow.md)
 

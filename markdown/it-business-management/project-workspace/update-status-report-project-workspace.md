@@ -3,11 +3,11 @@ title: Update status report in Project Workspace
 description: Modify a status report in Project Workspace for your project to update project health, metrics, risks, issues, and milestones.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/update-status-report-project-workspace.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a status report in Project Workspace, Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -22,7 +22,7 @@ Role required: it\_pps\_admin, it\_project\_manager
 
 ## About this task
 
-By default, the status report is read-only and the **sn\_pw.status\_report\_doc\_read\_only** system property is set to true. To edit the status report, you can disable this system property by setting it to false. Once you change the property to false, you can edit or update the report. You can also navigate to the Details page and set **Allow edit status report** field to true.
+By default, the status report is read-only and the **sn\_pw.status\_report\_doc\_read\_only** system property is set to true. To edit the status report, you can disable this system property by setting it to false. After you change the property to false, you can edit or update the report. You can also navigate to the Details page and set **Allow edit status report** field to true.
 
 Any updates made on the status report form are reflected in the status report, regardless of whether the property is set to true or false.
 
@@ -30,7 +30,7 @@ Any updates made on the status report form are reflected in the status report, r
 
 1.  Open a project from the home page of Project Workspace.
 
-    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Open the Status reports page of the project by selecting **Status Reports** from the list.
 
@@ -51,12 +51,12 @@ Any updates made on the status report form are reflected in the status report, r
     -   If a report is editable, a message appears prompting you to copy the static data and regenerate the report.
     -   A Regenerate button is provided, which allows you to regenerate the report and ensure compatibility with the new updates.
 
-**Parent Topic:**[Create a status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-a-status-report-in-project-workspace.md)
+**Parent Topic:**[Create a status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/create-a-status-report-in-project-workspace.md)
 
 **Related topics**  
 
 
-[Import old project status report to Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/import-old-status-reports.md)
+[Import old project status report to Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/import-old-status-reports.md)
 
-[Add dynamic content to a status report or docs template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/add-dynamic-content-to-status-report-in-pw.md)
+[Add dynamic content to a status report or docs template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/add-dynamic-content-to-status-report-in-pw.md)
 

@@ -3,11 +3,11 @@ title: Rekey ciphertext with Key Exchange
 description: Resource Exchange supports rekeying of ciphertext on the target instance that was encrypted with keys from the source. Rekey activity is tracked in the key life-cycle.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/rekey-keyexchange.html
-release: australia
+release: brazil
 product: Platform Encryption
 classification: platform-encryption
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Key Management Framework Resource Exchange, Key Management Framework, Encryption]
 ---
@@ -31,11 +31,11 @@ Use Key Exchange to do the following:
     A new cloned crypto key is used to re-encrypt ciphertext on the target instance.
 
 -   The Rekey purpose is set up during the cloning process and is automated as part of the clone.
--   Rekey activity is tracked on the **Modules Key** tab of the cryptographic module. Access the Key life cycle state and Key version for key activity. See [Rotate keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/rotate-cust-supplied-keys.md) for additional information.
+-   Rekey activity is tracked on the **Modules Key** tab of the cryptographic module. Access the Key life cycle state and Key version for key activity. See [Rotate keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platform-encryption/rotate-cust-supplied-keys.md) for additional information.
 
-Configure a Key Exchange and select the **Enable Rekeying After Key Imported** check box for activation. See [Configure Key Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/configure-key-exchange.md) for details.
+Configure a Key Exchange and select the **Enable Rekeying After Key Imported** check box for activation. See [Configure Key Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platform-encryption/configure-key-exchange.md) for details.
 
 \[Omitted image "rekey-res-exchange.png"\] Alt text: Select the Enable Rekeying After Key Imported check box.
 
-**Parent Topic:**[Key Management Framework Resource Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/resource-exchange.md)
+**Parent Topic:**[Key Management Framework Resource Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platform-encryption/resource-exchange.md)
 

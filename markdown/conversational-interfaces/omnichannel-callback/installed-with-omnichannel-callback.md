@@ -3,11 +3,11 @@ title: Components installed with Omnichannel Callback
 description: Several types of components are installed with activation of the Omnichannel Callback plugin, including user roles, scheduled jobs, and tables.Read/write from the \[sys\_cs\_callback\] table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/omnichannel-callback/installed-with-omnichannel-callback.html
-release: australia
+release: brazil
 product: Omnichannel Callback
 classification: omnichannel-callback
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Omnichannel Callback reference, Omnichannel Callback, Manage people and work, Conversational Interfaces]
 ---
@@ -87,9 +87,9 @@ Lists the callback tasks of type Scheduled and ASAP.
 </td></tr></tbody>
 </table>## Roles installed
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
-**Parent Topic:**[Omnichannel Callback reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/omnichannel-callback/omnichannel-callback-reference.md)
+**Parent Topic:**[Omnichannel Callback reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/omnichannel-callback/omnichannel-callback-reference.md)
 
 ## Callback API role \[sn\_omni\_callback.callback\_api\]
 

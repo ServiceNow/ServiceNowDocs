@@ -3,9 +3,9 @@ title: Example: Suggest similar part requirements for work order tasks
 description: This example provides a use case of a medical equipment maintenance manager updating and training a similarity definition solution in the Field Service Management application to suggest the similar part requirements for a work order task.Update and train the Similar Part Requirements similarity definition solution to suggest the required parts for a work order task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/example-train-similarity-solution.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Predictive Intelligence for Field Service Management, FSM reports and analytics, Configure, Field Service Management]
 ---
@@ -24,7 +24,7 @@ Joy decides to implement Predictive Intelligence for Field Service Management to
 
 Now, Joy collaborates with the administrator to train the machine-learning solution provided in Predictive Intelligence for Field Service Management. This solution is designed to collect and compare existing records with new ones. Leveraging the predictive intelligence feature, the administrator trains the Similar Part Requirements similarity solution to automate the process of suggesting the similar necessary part requirements for work order tasks. This is achieved by comparing the part requirement record with the work order task record and providing relevant results.
 
-To train the solution, Joy enters the following values in the Similarity Definition form based on the instructions described for training the similarity solution. For more information, see [Train similarity solution to suggest similar parts for a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/example-train-similarity-solution.md).
+To train the solution, Joy enters the following values in the Similarity Definition form based on the instructions described for training the similarity solution. For more information, see [Train similarity solution to suggest similar parts for a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/example-train-similarity-solution.md).
 
 |Field|Value|
 |-----|-----|
@@ -161,7 +161,7 @@ Update Frequency
 Frequency of how often to include new records in the model to retrieve the similarity results.
 
 </td></tr></tbody>
-</table>    For more information, see [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-similarity-solution.md).
+</table>    For more information, see [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-similarity-solution.md).
 
 4.  In the Training Request Schedule related list, update the schedule for training the Similar Part Requirements solution definition.
 
@@ -179,11 +179,11 @@ Frequency of how often to include new records in the model to retrieve the simil
 
     2.  Review the similarity examples by clicking the **Similarity Examples** related link on the ML Solution form.
 
-        For more information, see [Review solution similarity examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/review-similarity-examples.md).
+        For more information, see [Review solution similarity examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/review-similarity-examples.md).
 
     3.  In the Solution Statistics related list on the ML Solution form, enter the required value in the **Similarity Score Threshold** field, right-click the ML Solution form, and then click **Save**.
 
-        For more information, see [Update your similarity score threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/update-similarity-threshold.md).
+        For more information, see [Update your similarity score threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/update-similarity-threshold.md).
 
 
 ### Result

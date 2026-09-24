@@ -3,11 +3,11 @@ title: Pull exceptions
 description: Pulling ignores versions when certain conditions occur.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/r\_PullExceptions.html
-release: australia
+release: brazil
 product: Team Development
 classification: team-development
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Team Development, Planning your application, Building applications]
 ---

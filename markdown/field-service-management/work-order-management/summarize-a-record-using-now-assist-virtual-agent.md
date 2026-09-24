@@ -1,20 +1,20 @@
 ---
-title: Summarize a record using ServiceNow Otto in Virtual Agent
-description: You can create a summary of a work order task record using the ServiceNow Otto in Virtual Agent directly from the ServiceNow Agent application.Generate summary from the work order task record.
+title: Summarize a record using ServiceNow Otto Virtual Agent
+description: You can create a summary of a work order task record using the Now Assist in Virtual Agent directly from the ServiceNow Agent application.Generate summary from the work order task record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/summarize-a-record-using-now-assist-virtual-agent.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Prioritizing on ServiceNow Agent, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
-# Summarize a record using ServiceNow Otto in Virtual Agent
+# Summarize a record using ServiceNow Otto Virtual Agent
 
-You can create a summary of a work order task record using the ServiceNow Otto in Virtual Agent directly from the ServiceNow Agent application.
+You can create a summary of a work order task record using the Now Assist in Virtual Agent directly from the ServiceNow Agent application.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: wm\_agent
 
 ## About this task
 
-You can summarize a record by launching Ask ServiceNow Otto. On the home screen ask AI to summarize a record or navigate to a specific work order task record and using the Quick actions menu. Both methods provide a quick and efficient way to generate a summary.
+You can summarize a record by launching ServiceNow Otto® from the home screen and typing "summarize a record". You can also navigate to a specific work order task record and using the Quick actions menu. Both methods provide a quick and efficient way to generate a summary.
 
 ## Procedure
 
@@ -30,7 +30,11 @@ You can summarize a record by launching Ask ServiceNow Otto. On the home screen 
 
 2.  From quick actions, select **Ask ServiceNow Otto**.
 
-3.  In the ServiceNow Otto panel, prompt AI to summarize the record.
+    For Android users, this icon appears as a plus symbol \(\[Omitted image "mobile-plus-icon.png"\] Alt text: plus icon\).
+
+    For iOS users this icon appears as an ellipsis symbol \(\[Omitted image "ellipsis-icon.png"\] Alt text: ellipses icon\)
+
+3.  In the Now Assist panel, type a "summarize a record" and follow the prompts.
 
 4.  Tap **Send**.
 
@@ -39,13 +43,15 @@ You can summarize a record by launching Ask ServiceNow Otto. On the home screen 
 6.  Tap the plus icon to begin a new conversation.
 
 
-## Summarize a record a work order task record using ServiceNow Otto in Virtual Agent
+## Summarize a record directly from a work order task record using ServiceNow Otto Virtual Agent
 
 Generate summary from the work order task record.
 
 ### Before you begin
 
 Role required: wm\_agent
+
+\[Omitted video\] Description: This video demonstrates how to summarize a record directly from a work order task record
 
 ### Procedure
 
@@ -61,7 +67,7 @@ Role required: wm\_agent
 
     **Note:**
 
-    Any skills configured by an admin for ServiceNow Otto in Virtual Agent are shown.
+    Any skills configured by an admin for ServiceNow Otto® Virtual Agent are shown.
 
 6.  Tap **Summarize a record**.
 

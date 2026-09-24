@@ -3,11 +3,11 @@ title: Find an app or app file using code search
 description: Use code search in ServiceNow Studio to search through all applications and tables on an instance to locate a specific app, app file, or code snippet.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/find-app-app-file-using-code-search.html
-release: australia
+release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-05-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Applications in ServiceNow Studio, Use, ServiceNow Studio, Developing your application, Building applications]
 ---
@@ -38,7 +38,7 @@ Role required: admin or delegated\_developer
     -   Select **Select specific app** and enter the name of the app in the search bar that appears.
 5.  Limit the search to a table by entering the table name in the **File types / tables** field.
 
-    Only tables in the same scope are available. For a list of supported file types, see [ServiceNow Studio supported file types using code search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sn-studio-file-types.md).
+    Only tables in the same scope are available. For a list of supported file types, see [ServiceNow Studio supported file types using code search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/sn-studio-file-types.md).
 
 6.  Select **View results** to run the search.
 
@@ -48,7 +48,7 @@ Role required: admin or delegated\_developer
 
     For example, expand the **Notification** section to view all code search results in notification scripts, or the **Access control** section to view all instances of code related to roles and security.
 
-    For a list of types of scripts, see [Available script types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_17Scripts.md).
+    For a list of types of scripts, see [Available script types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/r_17Scripts.md).
 
 8.  Expand the name of an individual script to view the matching code and its corresponding line number.
 
@@ -59,5 +59,5 @@ Role required: admin or delegated\_developer
     The complete script opens in a new tab in ServiceNow Studio.
 
 
-**Parent Topic:**[Applications in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/working-with-apps-in-servicenow-studio.md)
+**Parent Topic:**[Applications in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/working-with-apps-in-servicenow-studio.md)
 

@@ -3,11 +3,11 @@ title: Classification for IP address discovery
 description: Discovery provides a way to classify devices it finds through IP address discovery, even when no credentials are available.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/ip-address-scanning-classification.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Discovery classifiers, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---

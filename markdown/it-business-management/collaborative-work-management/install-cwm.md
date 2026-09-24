@@ -3,11 +3,11 @@ title: Install Collaborative Work Management
 description: You can install the Collaborative Work Management \(CWM\) application \(sn\_cwm\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/install-cwm.html
-release: australia
+release: brazil
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -31,7 +31,7 @@ The following items are installed with Collaborative Work Management:
 -   Tables
 -   System properties
 
-For more information, see [Components installed with Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/components-installed-with-cwm.md) and [Properties installed with Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/properties-installed-with-cwm.md).
+For more information, see [Components installed with Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/components-installed-with-cwm.md) and [Properties installed with Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/properties-installed-with-cwm.md).
 
 ## Procedure
 

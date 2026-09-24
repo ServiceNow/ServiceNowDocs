@@ -3,7 +3,7 @@ title: Install ServiceNow Voice for CSM
 description: You can install the ServiceNow Voice for CSM application \(sn\_cti\_csm\_cnt\) if you have the admin role. The application installs related ServiceNow Store applications if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/install-ccc-csm.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2023-08-03"
 reading_time_minutes: 2
@@ -19,7 +19,7 @@ You can install the ServiceNow Voice for CSM application \(sn\_cti\_csm\_cnt\) i
 -   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   ServiceNow Voice for CSM requires the following ServiceNow Store applications. Ensure that this application is installed before you install ServiceNow Voice for CSM.
     -   **Required ServiceNow Store applications**
-        -   **Customer Service plugin \(com.sn\_customerservice\)**
+        -   **Case Management Core plugin \(com.sn\_customerservice\)**
 
             Installs the Customer Service Management application.
 
@@ -37,7 +37,7 @@ The following items are installed with ServiceNow Voice for CSM:
 -   Contact flows
 -   Operation handlers
 
-For more information, see [Components installed with ServiceNow Voice for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instld-with-ccc-csm.md).
+For more information, see [Components installed with ServiceNow Voice for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/instld-with-ccc-csm.md).
 
 ## Procedure
 
@@ -62,7 +62,7 @@ For more information, see [Components installed with ServiceNow Voice for CSM](h
 
 ## What to do next
 
-To set up Voice for CSM, see [Setting up ServiceNow Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ccc-setup.md)
+To set up Voice for CSM, see [Setting up ServiceNow Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/ccc-setup.md)
 
-**Parent Topic:**[Integrating ServiceNow Voice with CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integrating-ccc-csm.md)
+**Parent Topic:**[Integrating ServiceNow Voice with CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/integrating-ccc-csm.md)
 

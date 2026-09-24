@@ -3,9 +3,9 @@ title: Domain separation and data visualizations
 description: Domain separation is supported for data visualizations and relates to the data visualizations themselves and which data is visible. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/domain-sep-data-viz.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -23,11 +23,11 @@ Domain separation is supported for data visualizations and relates to the data v
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-separated-apps.md).
 
 ## Overview of domain separation
 
- To activate the domain separation plugin, see [Request domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ActivateDomainSeparation.md).
+ To activate the domain separation plugin, see [Request domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_ActivateDomainSeparation.md).
 
 ## How domain separation works in data visualizations
 
@@ -41,5 +41,5 @@ Separated data includes data visualization designs and data visualization conten
 
 If you create a data visualization in one domain and copy it to another, the data visualization structure remains the same, but the data visualization data is adjusted for the domain. For example, a data visualization with data from the Incident table where Active=true shows all active incidents to a user in the parent global domain, but only IT incidents to a user in the IT domain.
 
-**Parent Topic:**[Configure data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-data-visualizations.md)
+**Parent Topic:**[Configure data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/configure-data-visualizations.md)
 

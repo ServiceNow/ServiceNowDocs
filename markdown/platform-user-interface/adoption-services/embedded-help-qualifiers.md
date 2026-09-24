@@ -3,11 +3,11 @@ title: Use qualifiers in Embedded Help
 description: The embedded help administrator can use qualifiers to customize content for a common page in the instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/embedded-help-qualifiers.html
-release: australia
+release: brazil
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Embedded Help planning, Configuring Embedded Help, Embedded Help, In-product help, Adoption services, Configure user experiences]
 ---
@@ -89,7 +89,7 @@ Enter the qualifier to use, for example `sla_homepage`. Record the qualifier to 
 </td></tr></tbody>
 </table>4.  Click **Submit**.
 
-5.  Follow the steps in [Add custom Embedded Help content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/add-custom-help-topic.md) to create the content, and include the following information.
+5.  Follow the steps in [Add custom Embedded Help content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/adoption-services/add-custom-help-topic.md) to create the content, and include the following information.
 
     -   **Name** and **Page**: The page you created the qualifier for, for example, **home**.
     -   **Qualifier**: The qualifier you entered, for example **sla\_homepage**.
@@ -100,5 +100,5 @@ Enter the qualifier to use, for example `sla_homepage`. Record the qualifier to 
     **Note:** If you added a role to the embedded help content, ensure that you are logged in as a user with the role, or impersonate a user with that role.
 
 
-**Parent Topic:**[Embedded Help planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/embedded-help-planning.md)
+**Parent Topic:**[Embedded Help planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/adoption-services/embedded-help-planning.md)
 

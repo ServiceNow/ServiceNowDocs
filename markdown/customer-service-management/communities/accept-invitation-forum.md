@@ -3,11 +3,11 @@ title: Accept an invitation to join a forum
 description: An invitation to join a forum is sent as an email message. The method that you use to accept an invitation depends on whether you are a registered community user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/accept-invitation-forum.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Using communities, Communities, Customer Service Management]
 ---
@@ -20,6 +20,10 @@ An invitation to join a forum is sent as an email message. The method that you u
 
 Role required: none
 
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 ## Procedure
 
 1.  Open the email invitation and click **Join Forum**.
@@ -28,7 +32,7 @@ Role required: none
     -   If you are a registered community user but have not accepted the community Terms &amp; Conditions, a message appears to accept the Terms &amp; Conditions. The forum opens after you accept the Term &amp; Conditions.
 2.  If the login page appears, take one of the following actions.
 
-<table id="choicetable_d4c_x3c_t1b"><tbody><tr><td id="d63966e78">
+<table id="choicetable_d4c_x3c_t1b"><tbody><tr><td id="d65212e97">
 
 **If you are a registered user and not logged in.**
 
@@ -36,7 +40,7 @@ Role required: none
 
 Enter your login credentials to access the forum.
 
-</td></tr><tr><td id="d63966e87">
+</td></tr><tr><td id="d65212e106">
 
 **If you are not a registered user.**
 
@@ -52,7 +56,7 @@ Enter your login credentials to access the forum.
 </table>    Forum membership is auto-approved and you are subscribed to the forum. **Status** changes to **Leave Forum**.
 
 
-**Parent Topic:**[Using communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/using-communities.md)
+**Parent Topic:**[Using communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/using-communities.md)
 
 **Related topics**  
 

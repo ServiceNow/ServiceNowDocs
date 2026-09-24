@@ -3,11 +3,11 @@ title: Exploring the App Engine Management Center
 description: Learn about how the App Engine Management Center \(AEMC\) can help to centralize and streamline your application development and governance at scale.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/exploring-aemc.html
-release: australia
+release: brazil
 product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: concept
-last_updated: "2026-07-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [App Engine Management Center, AEMC, Custom app governance, Governing app development, Deploy applications]
 breadcrumb: [App Engine Management Center, Governing app development, Building applications]
@@ -19,15 +19,13 @@ Learn about how the App Engine Management Center \(AEMC\) can help to centralize
 
 ## App Engine Management Center overview
 
-The App Engine Management Center \(AEMC\) is a powerful tool that innovates and unifies the application development, deployment, and governance experience. AEMC contains all of the features that you need to manage application development within your organization, from idea submission to deployment and then monitoring the app. Using AEMC, admins can manage requests for new apps and delegate development and collaboration permissions. Admins can also oversee the entire deployment process with insights into individual deployment requests, test suites, and scheduled deployments.
-
-Starting with version 28.2.1 of AEMC, ReleaseOps is integrated into AEMC. See the ReleaseOps in AEMC section for more information.
+The App Engine Management Center \(AEMC\) is a powerful tool that innovates and unifies the application development, deployment, and governance experience. AEMC contains all of the features that you need to manage application development within your organization, from idea submission to deployment and then monitoring the app. AEMC supports development by enabling admins to manage requests for new apps, delegated development and collaboration permissions, and assign licenses for Developer Sandboxes. Admins can also oversee the deployment process for custom apps across their organization, with setup and control for several deployment options, including App Engine pipelines, ReleaseOps, and standalone pipelines.
 
 ## AI features in AEMC
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-AEMC contains AI features that enable you to regenerate release notes. For more information, see [Generate release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/generate-release-notes.md).
+AEMC contains AI features that enable you to regenerate release notes. For more information, see [Generate release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/generate-release-notes.md).
 
 ## App Engine Management Center users
 
@@ -78,21 +76,19 @@ The workflow for managing app development and deployment through an App Engine p
 
 ## ReleaseOps in AEMC
 
-ReleaseOps is now integrated into AEMC. ReleaseOps improves on the existing pipelines deployment process by supporting deployments using update sets, leveraging the automation capabilities of ServiceNow Playbooks, and enabling both scheduled and on-demand releases. To learn more about ReleaseOps, see [Exploring ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/exploring-release-ops.md).
+ReleaseOps is now integrated into AEMC. ReleaseOps automates and enhances the process of deploying changes, customizations, and custom applications on the ServiceNow AI Platform. To learn more about ReleaseOps, see [Exploring ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/exploring-release-ops.md).
 
 Developers working with update sets in version 28.1.2 of ServiceNow Studio and later can trigger ReleaseOps deployments directly within the development environment.
 
 In development environments where full support isn’t available yet, such as App Engine Studio and Creator Studio, you can still take advantage of ReleaseOps features in AEMC by migrating your existing App Engine pipeline to ReleaseOps. For more information about migrating to ReleaseOps, see the following resources:
 
--   [Migrating App Engine pipelines to ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/migrating-ae-pipelines-to-releaseops-aemc.md)
--   [Migration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/migration-tasks-aemc.md)
-
-Starting with version 29.2.1 of AEMC, ReleaseOps is included in AEMC guided setup. For more information, see [Configuring AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/configuring-aemc.md).
+-   [Migrating App Engine pipelines to ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/migrating-ae-pipelines-to-releaseops-aemc.md)
+-   [Migration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/migration-tasks-aemc.md)
 
 ## What to explore next
 
 To learn more about configuring and using App Engine Management Center, see:
 
--   [Configuring AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/configuring-aemc.md)
--   [Using AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/using-aemc.md)
+-   [Configuring AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/configuring-aemc.md)
+-   [Using AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/using-aemc.md)
 

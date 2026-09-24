@@ -3,11 +3,11 @@ title: Review a dispute response and initiate pre-arbitration
 description: Review a merchant’s response for the dispute and initiate pre-arbitration, if necessary for the collaboration dispute workflow for the Chargeback stage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/review-dispute-response-and-create-pre-arbitration.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Collaboration workflow, Initiate chargeback, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -44,21 +44,21 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
     The response might include the amount accepted for the chargeback or reasons the dispute wasn't accepted. You can also view the merchant response as an attachment in the activity stream.
 
-    **Note:** If Card Data Security is installed and configured, **Attachments** in the contextual side panel will handle files differently in transaction records. For more information, see [Manage attachments in Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.md).
+    **Note:** If Card Data Security is installed and configured, **Attachments** in the contextual side panel will handle files differently in transaction records. For more information, see [Manage attachments in Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.md).
 
 8.  In the **Response outcome** field, select **Resolved** or **Unresolved**.
 
 9.  Select one of the following options.
 
-<table id="choicetable_sh5_nr3_f5b"><thead><tr><th align="left" id="d59549e224">
+<table id="choicetable_sh5_nr3_f5b"><thead><tr><th align="left" id="d59762e224">
 
 Selection
 
-</th><th align="left" id="d59549e227">
+</th><th align="left" id="d59762e227">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d59549e235">
+</th></tr></thead><tbody><tr><td id="d59762e235">
 
 **Unresolved**
 
@@ -74,7 +74,7 @@ Result
 8.  Select **Submit**.
 
 
-</td></tr><tr><td id="d59549e299">
+</td></tr><tr><td id="d59762e299">
 
 **Resolved**
 
@@ -104,5 +104,5 @@ request if you're within three days from the submission date and you haven't rec
 
 To recall the request, select **Recall**. When a response is received, the **Pre arbitration response received** value changes to **Yes** and the transaction state moves to **Work to Progress**.
 
-**Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)
+**Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)
 

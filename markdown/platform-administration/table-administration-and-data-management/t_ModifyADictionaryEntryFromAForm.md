@@ -3,11 +3,11 @@ title: Modify dictionary entries
 description: Modify dictionary entries by configuring a field on a form or from the Dictionary module.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/t\_ModifyADictionaryEntryFromAForm.html
-release: australia
+release: brazil
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing tables and indexes, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -33,8 +33,8 @@ Role required: admin
 3.  Select **Update**.
 
 
--   **[Dictionary entry form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/r_DictionaryEntryForm.md)**  
+-   **[Dictionary entry form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/r_DictionaryEntryForm.md)**  
 The Dictionary Entry form was redesigned to provide an Advanced view and additional fields. You might need to configure the form to see all fields.
 
-**Parent Topic:**[Managing tables and indexes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/using-table-administration.md)
+**Parent Topic:**[Managing tables and indexes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/using-table-administration.md)
 

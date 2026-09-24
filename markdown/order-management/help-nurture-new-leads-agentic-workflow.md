@@ -3,9 +3,9 @@ title: Nurturing leads using agentic workflow
 description: Use the Help nurture new leads agentic workflow to process the entire lead record process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/help-nurture-new-leads-agentic-workflow.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Lead Management, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -22,7 +22,7 @@ The Help nurture new leads agentic workflow works with a team of AI agents to as
 -   Book an appointment or demo to get the lead closer to qualification
 -   Identify opt-outs and disinterest for lead disqualification
 
-To modify the Help nurture new leads agentic workflow [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements. You can activate the agentic workflow template by making triggers active and setting the display settings to include the ServiceNow Otto panel.
+To modify the Help nurture new leads agentic workflow [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements. You can activate the agentic workflow template by making triggers active and setting the display settings to include the ServiceNow Otto panel.
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
@@ -38,13 +38,13 @@ The prerequisites to use an agentic workflow are as follows:
 
 **Important:** By default, all agent workflow and AI agent records are read-only.
 
-To run the AI agents autonomously, you must first [duplicate the agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and then proceed with the following steps:
+To run the AI agents autonomously, you must first [duplicate the agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-aia-usecase.md), and then proceed with the following steps:
 
 -   Activate the agentic workflow.
 -   Activate all agents within the agentic workflow.
 -   Activate the trigger to invoke the agentic workflow automatically. The triggers for each agentic workflow must be unique. If you prefer to invoke it manually, activating the trigger isn’t necessary.
 
-There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/find-ai-agents.md).
 
 ## Help nurture new leads use cases
 
@@ -132,5 +132,5 @@ To nurture a lead, perform the following steps:
 
 The agent executes the testing in AI Agent Studio for the use case.
 
-In the ServiceNow Otto panel, the agent receives a notification as soon as the interaction is generated, which enables them to follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in Customer Service Management by using the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/request-gen-ai-capabilities-csm-now-assist-panel.md).
+In the ServiceNow Otto panel, the agent receives a notification as soon as the interaction is generated, which enables them to follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in Customer Service Management by using the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/request-gen-ai-capabilities-csm-now-assist-panel.md).
 

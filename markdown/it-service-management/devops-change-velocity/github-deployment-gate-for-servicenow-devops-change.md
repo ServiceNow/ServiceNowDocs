@@ -3,11 +3,11 @@ title: GitHub Deployment Gates for ServiceNow DevOps Change
 description: Use the GitHub Deployment Gate capability to decide on whether a new deployment should proceed or halt.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/github-deployment-gate-for-servicenow-devops-change.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [GitHub, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Use the GitHub Deployment Gate capability to decide on whether a new deployment 
 
 ## Before you begin
 
-GitHub deployment gates are supported only if you have connected your GitHub instance with Oauth 2.0 credentials for GitHub Apps using the JWT bearer token. For more information, see [OAuth 2.0 credentials for GitHub Apps - JWT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-github-apps-oath-jwt.md).
+GitHub deployment gates are supported only if you have connected your GitHub instance with Oauth 2.0 credentials for GitHub Apps using the JWT bearer token. For more information, see [OAuth 2.0 credentials for GitHub Apps - JWT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/dev-ops-github-apps-oath-jwt.md).
 
 By default, the Deployment protection rules section is available for environments in all the repositories selected in the installed GitHub App.
 
@@ -45,5 +45,5 @@ Role required: Permission to create environments in GitHub
     The details like change comments, approved by, approved on, and status are logged in the GitHub tool after the workflow run is resumed from ServiceNow, i.e. when change request is approved and the change request state is updated to Implement in ServiceNow. \[Omitted image "github-app-deployment-gate-04.png"\] Alt text: Change logs for deployment gate
 
 
-**Parent Topic:**[GitHub integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/github-integration-dev-ops.md)
+**Parent Topic:**[GitHub integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/github-integration-dev-ops.md)
 

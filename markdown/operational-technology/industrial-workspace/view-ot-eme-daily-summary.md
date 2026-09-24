@@ -3,11 +3,11 @@ title: View a daily summary of Operational Technology device activities for an E
 description: In the Equipment Model View of the Industrial Workspace, view the previous day's actions and changes that have been performed on the Operational Technology \(OT\) devices in a site.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/view-ot-eme-daily-summary.html
-release: australia
+release: brazil
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Industrial Workspace, Operational Technology]
 ---
@@ -51,5 +51,5 @@ You can view the total number of activities in the **Daily Activity** tab. If yo
 
 **Note:** The daily activity records, which are older than two days are automatically deleted.
 
-**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/using-industrial-workspace.md)
+**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/using-industrial-workspace.md)
 

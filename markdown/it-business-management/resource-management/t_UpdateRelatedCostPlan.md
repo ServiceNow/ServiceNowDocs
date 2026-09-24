@@ -3,11 +3,11 @@ title: Update cost plan related to a resource plan
 description: If a resource plan is associated to a project, project task, or demand and has a related cost plan. Then, a requester or a resource manager can update the related cost plan after updating the resource plan.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/t\_UpdateRelatedCostPlan.html
-release: australia
+release: brazil
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Resource plans, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -47,7 +47,7 @@ The cost plan associated to the resource plan is updated as follows:
 
 Cost from resource plan will be interfaced to the unit\_cost field on the Cost Plan \[cost\_plan\] table.
 
-**Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourcePlans.md)
+**Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/c_ResourcePlans.md)
 
 **Related topics**  
 
@@ -66,9 +66,9 @@ Cost from resource plan will be interfaced to the unit\_cost field on the Cost P
 
 [Request a change to a resource plan]()
 
-[Recalculate costs of a resource plan]()
+[Recalculate costs of a resource plan of a project or demand]()
 
-[Complete an allocated resource plan]()
+[Complete a resource plan]()
 
 [Cancel a resource plan]()
 

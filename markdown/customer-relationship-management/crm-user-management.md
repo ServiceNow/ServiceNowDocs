@@ -3,11 +3,11 @@ title: User management
 description: Configure internal and external users, assign roles and group memberships, and control access to CRM features and case data. Establish the user structures that support case routing, team collaboration, and portal access across the CRM portfolio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-relationship-management/crm-user-management.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Data management, Customer Relationship Management]
+breadcrumb: [Data foundations, Customer Relationship Management]
 ---
 
 # User management
@@ -102,15 +102,15 @@ Individual consumers can have multiple profiles for different needs. Consumer pr
 **Related topics**  
 
 
-[User management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/user-management.md)
+[User management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/user-management.md)
 
-[Customer data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-data.md)
+[Customer data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-data.md)
 
-[CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md)
+[CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-workspaces-configure.md)
 
-[AWA for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/awa-csm-overview.md)
+[AWA for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/awa-csm-overview.md)
 
-[Set up self-service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/set-up-self-service.md)
+[Set up self-service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/set-up-self-service.md)
 
-[Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md)
+[Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md)
 

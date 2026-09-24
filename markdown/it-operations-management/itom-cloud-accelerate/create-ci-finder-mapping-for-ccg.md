@@ -3,11 +3,11 @@ title: Create a CI finder mapping
 description: Use the CI finder mapping to link the resources fetched by the ServiceNow Cloud Configuration Governance scan runs with the appropriate Configuration Management Database \(CMDB\) Configuration Items \(CIs\), if available. After you create the mapping, you can associate the reported configuration violations with the CIs to which they belong.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/create-ci-finder-mapping-for-ccg.html
-release: australia
+release: brazil
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Cloud Configuration Governance policies, Use, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -64,7 +64,7 @@ Script
 
 Script to link the resources fetched by the Cloud Configuration Governance application with the existing CI.Use an existing CI finder mapping script as an example to create a script for the new resource type.
 
- Cloud Configuration Governance offers several objects and variables for use in the script. For more information, see [Cloud Configuration Governance scripting reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/ccg-scripting-reference.md).
+ Cloud Configuration Governance offers several objects and variables for use in the script. For more information, see [Cloud Configuration Governance scripting reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-cloud-accelerate/ccg-scripting-reference.md).
 
 </td></tr></tbody>
 </table>

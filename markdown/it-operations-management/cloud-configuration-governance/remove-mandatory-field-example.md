@@ -3,11 +3,11 @@ title: Remove a field from a cloud catalog form
 description: Remove a field from the Cloud Provisioning and Governance catalog form when the user belongs to a specific group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/remove-mandatory-field-example.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Cloud catalog form configuration examples, Form configuration with blueprints, Cloud Provisioning Blueprints, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -22,9 +22,9 @@ Role required: sn\_cmp.cloud\_service\_designer
 
 Before you can follow this example, you should be familiar with creating blueprints and blueprint rules. See these resources:
 
--   [Cloud Provisioning Blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/blueprints.md)
--   [Build a Cloud Provisioning blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-blueprint-cmp.md)
--   [Configure a blueprint rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/configure-a-blueprint-rule.md)
+-   [Cloud Provisioning Blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/blueprints.md)
+-   [Build a Cloud Provisioning blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/create-blueprint-cmp.md)
+-   [Configure a blueprint rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/configure-a-blueprint-rule.md)
 
 ## About this task
 
@@ -64,7 +64,7 @@ The goal of this example is to hide the Cost Center field on the catalog form wh
         |-----|------------------------|-----------|
         |Operand|UserGroup|This value is the User Group field that the user selects.|
         |Operator|--None--|Keep this value **--None--** because this condition is the only condition you need to configure. If you add more conditions, you can select another operator to determine how the system evaluates this condition in relation to the others.|
-        |Value|287ee6fea9fe198100ada7950d0b1b73|This value is the Sys ID of the Database user group, which is provided as part of the demo data in your instance. See [Sys ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UniqueRecordIdentifier.md) for more information.|
+        |Value|287ee6fea9fe198100ada7950d0b1b73|This value is the Sys ID of the Database user group, which is provided as part of the demo data in your instance. See [Sys ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_UniqueRecordIdentifier.md) for more information.|
 
     3.  Click **Submit**.
 
@@ -97,5 +97,5 @@ The goal of this example is to hide the Cost Center field on the catalog form wh
         \[Omitted image "blueprints-usergroup-pool.png"\] Alt text: User group pool
 
 
-**Parent Topic:**[Cloud catalog form configuration examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/example-blueprint-rules.md)
+**Parent Topic:**[Cloud catalog form configuration examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/example-blueprint-rules.md)
 

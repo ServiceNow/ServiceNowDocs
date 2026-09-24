@@ -3,9 +3,9 @@ title: Create a project issue for a case
 description: The customer project manager can create project issues for cases that have been created for customer projects and project tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-ppm-create-project-issue.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer project manager tasks, Integrating with Customer Project Management, Integrate, Customer Service Management]
 ---

@@ -3,11 +3,11 @@ title: Create a site in the Enterprise Asset Management application
 description: Create a site for asset groups in the Enterprise Asset Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-sites-eam.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Enterprise Asset Management, Asset Management]
 ---
@@ -22,17 +22,19 @@ Role required: sn\_eam.enterprise\_admin
 
 ## About this task
 
-For detailed information on what sites are and how are they used in asset groups, see [Asset groups in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/asset-groups-eam.md).
+For detailed information on what sites are and how are they used in asset groups, see [Asset groups in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/asset-groups-eam.md).
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Enterprise Asset Workspace** &gt; **Enterprise asset estate** &gt; **Asset groups**.
+1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
 
-2.  Select **Sites**.
+2.  From the Enterprise Asset Workspace, open the Admin center view.
 
-3.  Select **New** to open the Create New Equipment Model Entity page.
+3.  In the navigation panel of the Admin center view, select **Site configuration**.
 
-4.  On the form, fill in the fields.
+4.  Select **New**.
+
+5.  On the form, fill in the fields.
 
 <table id="table_znn_d4d_mfc"><thead><tr><th>
 
@@ -183,7 +185,7 @@ Current operational status of the entity:-   **Operational**: Entity that is ful
 
 
 </td></tr></tbody>
-</table>5.  Select **Save**.
+</table>6.  Select **Save**.
 
     The newly created site appears in the Sites tab.
 

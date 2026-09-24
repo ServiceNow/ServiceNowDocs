@@ -3,11 +3,11 @@ title: Process Mining components for Digital Portfolio Management
 description: Admins must install the ITSM Process Mining Content Pack from the ServiceNow Store to get the insights and system property for Process Mining in Digital Portfolio Management \(DPM\). Use Process Mining to analyze and improve key performance indicator \(KPI\) outputs in DPM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-po-integration.html
-release: australia
+release: brazil
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Digital Portfolio Management, IT Service Management]
 ---
@@ -59,12 +59,12 @@ Navigate to **All** &gt; **System Definition** &gt; **Scheduled jobs**.
 |----|-----------|
 |Process Mining - DPM Remine Projects|Automatically runs once daily. You can run this job on demand when additional data is added to a project so that you get the up-to-date process insights for your projects. The job remines data based on the frequency set in the **dpm.po\_mining.run\_frequency** property.|
 
-**Parent Topic:**[Digital Portfolio Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-reference-cfw.md)
+**Parent Topic:**[Digital Portfolio Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-reference-cfw.md)
 
 **Related topics**  
 
 
-[Configure Digital Portfolio Management to integrate with Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-setup-po.md)
+[Configure Digital Portfolio Management to integrate with Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-setup-po.md)
 
-[Create Process Mining projects for KPI groups in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-create-project-po.md)
+[Create Process Mining projects for KPI groups in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-create-project-po.md)
 

@@ -3,11 +3,11 @@ title: Use the script editor to format alert values for the Splunk Enterprise Ev
 description: Use the script editor to format field values on the security incident during the mapping step.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/splunk-event-ingest\_script\_editor.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integration architecture and external systems connection, Splunk Enterprise Event Ingestion integration for Security Operations by ServiceNow, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -53,5 +53,5 @@ In certain cases, Splunk Enterprise alert values are mapped to the Category, Con
 5.  Close the table to return to the Mapping form.
 
 
-**Parent Topic:**[Integration architecture and external systems connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-integration-architecture.md)
+**Parent Topic:**[Integration architecture and external systems connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/splunk-event-ingest-integration-architecture.md)
 

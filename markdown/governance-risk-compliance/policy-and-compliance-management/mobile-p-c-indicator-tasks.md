@@ -3,11 +3,11 @@ title: Assign Policy and Compliance Management indicator tasks with the GRC Mobi
 description: Assign unassigned Policy and Compliance Management indicator tasks to a member of your assignment group. An indicator task is related to a Control record that is assigned to your compliance group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/mobile-p-c-indicator-tasks.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Managing mobile experience for GRC Policy and Compliance, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -26,7 +26,7 @@ Assign a task from the list of records. Alternatively, view the details of the r
 
 ## Procedure
 
-1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-login-P-C-app.md).
+1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-login-P-C-app.md).
 
 2.  With the Policy and Compliance screen displayed, under the section titled, `Team's Unassigned Work`, tap **Indicator Tasks**.
 
@@ -38,7 +38,7 @@ Assign a task from the list of records. Alternatively, view the details of the r
 
     \[Omitted image "mobile-indtask-list.jpg"\] Alt text: Indicator tasks list
 
-3.  If you want to reduce the number of records that are displayed on the screen, see [Filter records with the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-pc-set-filters.md) to search for records that match specific search criteria.
+3.  If you want to reduce the number of records that are displayed on the screen, see [Filter records with the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-pc-set-filters.md) to search for records that match specific search criteria.
 
     Filtering records on screens in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform. Setting filters can reduce the number of records that are displayed on screens.
 
@@ -64,15 +64,15 @@ Assign a task from the list of records. Alternatively, view the details of the r
 
 9.  With the fields on the record displayed, choose one in the following table to continue.
 
-<table id="choicetable_qsy_bdy_xhb"><thead><tr><th align="left" id="d111958e236">
+<table id="choicetable_qsy_bdy_xhb"><thead><tr><th align="left" id="d113554e236">
 
 Option
 
-</th><th align="left" id="d111958e239">
+</th><th align="left" id="d113554e239">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d111958e245">
+</th></tr></thead><tbody><tr><td id="d113554e245">
 
 **Details tab**
 
@@ -80,7 +80,7 @@ Description
 
 With the Details tab selected, view the details of the task. At the top right of the screen, tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Top menu icon.\) to assign the task. On the screen that is displayed, tap a user. Alternatively, enter text in the Search field. Tap the send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon.\) or **Submit** to save and submit your changes.
 
-</td></tr><tr><td id="d111958e269">
+</td></tr><tr><td id="d113554e269">
 
 **Activity Stream tab**
 
@@ -90,7 +90,7 @@ With the Activity Stream tab selected, choose one to continue.-   View work note
 -   At the top right of the screen, tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Top menu icon.\) to assign the task. On the screen that is displayed, tap a user. Alternatively, enter text in the Search field. Tap the send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon.\) or **Submit** to save and submit your changes.
 
 
-</td></tr><tr><td id="d111958e308">
+</td></tr><tr><td id="d113554e308">
 
 **Screen icons at the bottom of the screen.**
 
@@ -105,5 +105,5 @@ On the bottom of the screen, choose one to continue.-   Tap the Policy and Compl
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Managing mobile experience for GRC Policy and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-policy_compliance-ovrvw.md)
+**Parent Topic:**[Managing mobile experience for GRC Policy and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-policy_compliance-ovrvw.md)
 

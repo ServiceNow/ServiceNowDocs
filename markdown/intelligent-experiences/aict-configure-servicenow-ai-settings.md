@@ -3,12 +3,12 @@ title: Configure ServiceNow AI settings
 description: Control how AI features operate on your instance by configuring data sharing preferences, asset approval requirements, and allowed AI model providers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-configure-servicenow-ai-settings.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, AI Control Tower, Enable AI experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Configure ServiceNow AI settings
@@ -70,12 +70,12 @@ ServiceNow AI settings apply across your instance and affect all Now Assist feat
     6.  Select **Save**.
 
 
--   **[Data controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/data-controls.md)**  
+-   **[Data controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/data-controls.md)**  
 Data controls in AI Control Tower enable you to manage how ServiceNow Otto traffic and data are handled across ServiceNow and external datacenters.
--   **[Builder controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/builder-controls.md)**  
+-   **[Builder controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/builder-controls.md)**  
 Builder controls in AI Control Tower enable you to govern AI assets and workflows by requiring human approval before an asset is deployed or a playbook is triggered.
--   **[AI model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md)**  
+-   **[AI model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-model-providers.md)**  
 AI model providers enable you to select data routing and manage third-party LLMs \(Large language models\) and SLMs \(Small language models\).
 
-**Parent Topic:**[Configuring AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring.md)
+**Parent Topic:**[Configuring AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configuring.md)
 

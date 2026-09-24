@@ -1,18 +1,18 @@
 ---
-title: Recalculate costs of a resource plan
+title: Recalculate costs of a resource plan of a project or demand
 description: Recalculate the resource costs of an individual resource plan for a project or demand whenever the hourly rates change in the associated rate model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/recalculate-resource-costs.html
-release: australia
+release: brazil
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Resource plans, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Recalculate costs of a resource plan
+# Recalculate costs of a resource plan of a project or demand
 
 Recalculate the resource costs of an individual resource plan for a project or demand whenever the hourly rates change in the associated rate model.
 
@@ -27,7 +27,7 @@ Role required: resource\_manager
 
 ## About this task
 
-To update the costs of all the resource plans of a project or demand in one go, you can use the **Recalculate Resource Costs** option from the [project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/recalculate-resource-costs-of-a-project.md) or [demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/recalculate-resource-costs-of-a-demand.md).
+To update the costs of all the resource plans of a project or demand in one go, you can use the **Recalculate Resource Costs** option from the [project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/recalculate-resource-costs-of-a-project.md) or [demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/recalculate-resource-costs-of-a-demand.md).
 
 ## Procedure
 
@@ -56,7 +56,7 @@ To update the costs of all the resource plans of a project or demand in one go, 
 -   Updates the recalculated resource costs on the respective cost fields on the resource plan form and the **Resource Plans** related list of the associated project or demand.
 -   Reflects the revised values on the respective cost fields of associated project or demand.
 
-**Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourcePlans.md)
+**Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/c_ResourcePlans.md)
 
 **Related topics**  
 
@@ -77,7 +77,7 @@ To update the costs of all the resource plans of a project or demand in one go, 
 
 [Update cost plan related to a resource plan]()
 
-[Complete an allocated resource plan]()
+[Complete a resource plan]()
 
 [Cancel a resource plan]()
 

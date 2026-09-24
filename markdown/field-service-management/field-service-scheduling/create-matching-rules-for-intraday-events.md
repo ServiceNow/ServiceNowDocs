@@ -3,11 +3,11 @@ title: Create matching rules for intraday events
 description: Create matching rules to specify which tasks and technicians to include in prioritized intraday optimization runs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/create-matching-rules-for-intraday-events.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Matching rules for prioritized intraday optimization, Optimization for prioritized events, Intraday optimization, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
@@ -18,7 +18,7 @@ Create matching rules to specify which tasks and technicians to include in prior
 
 ## Before you begin
 
-[Set up prioritized intraday optimization with matching rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/set-up-prioritized-intraday-optimization-with-matching-rules.md)
+[Set up prioritized intraday optimization with matching rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/set-up-prioritized-intraday-optimization-with-matching-rules.md)
 
 Role required: wm\_admin
 
@@ -119,7 +119,7 @@ The matching rule is added to the configuration and executes when the specified 
 **Related topics**  
 
 
-[Optimizing technician schedules at set intervals throughout the day](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/optimize-your-schedules-intraday.md)
+[Optimizing technician schedules at set intervals throughout the day](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/optimize-your-schedules-intraday.md)
 
-[Optimizing technician schedules in response to urgent events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/triggering-optimization-on-task-or-agent-availability-change.md)
+[Optimizing technician schedules in response to urgent events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/triggering-optimization-on-task-or-agent-availability-change.md)
 

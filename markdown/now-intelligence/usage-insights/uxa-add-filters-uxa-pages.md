@@ -3,11 +3,11 @@ title: Add user properties as filters to Usage Insights
 description: In addition to the default filters on the pages of the Usage Insights application, you can add filters based on user properties. This allows you to effectively segment your Usage Insights data to develop a deeper understanding of your users and their usage patterns. User properties-based filters are supported as global filters for all pages and objects in the Usage Insights application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/uxa-add-filters-uxa-pages.html
-release: australia
+release: brazil
 product: Usage Insights
 classification: usage-insights
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Usage Insights, Usage Insights, Platform Analytics]
 ---
@@ -51,5 +51,5 @@ The field you select is added as an optional filter for all Usage Insights pages
 
 **Note:** While the filter is visible immediately, it takes 24-48 hours to synchronize the data with the filter so that it is useful.
 
-**Parent Topic:**[Configuring Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/configuring-user-exp-analytics.md)
+**Parent Topic:**[Configuring Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/usage-insights/configuring-user-exp-analytics.md)
 

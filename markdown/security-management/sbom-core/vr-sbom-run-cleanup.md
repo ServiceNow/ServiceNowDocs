@@ -3,11 +3,11 @@ title: Configure rules and run an SBOM cleanup job
 description: Create and run a one-time cleanup rule to permanently purge older SBOM records that match the conditions you specify.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sbom-core/vr-sbom-run-cleanup.html
-release: australia
+release: brazil
 product: SBOM Core
 classification: sbom-core
 topic_type: task
-last_updated: "2026-08-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Removing older SBOM records, Uploading and viewing your SBOM files in the SBOM Workspace, Software Bill of Materials, Unified Security Exposure Management, Security Operations]
 ---

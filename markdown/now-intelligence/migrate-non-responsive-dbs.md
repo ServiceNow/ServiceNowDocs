@@ -3,9 +3,9 @@ title: Migrate non-responsive dashboards
 description: Non-responsive dashboards that no one has opened migrate to the Platform Analytics experience with empty tabs. Open these dashboards in the Core UI before migration to populate them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/migrate-non-responsive-dbs.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Unmigrated solutions dashboard, Unmigrated out of the box dashboard, Empty dashboards]
 breadcrumb: [Platform Analytics Migration Center, Platform Analytics experience, Platform Analytics]
@@ -27,6 +27,6 @@ Unopened non-responsive dashboards have empty canvas pages. This issue affects s
 
 2.  Open each of the problematic non-responsive dashboards.
 
-3.  [Perform full data migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/data-migration-perform.md) to migrate these dashboards to Platform Analytics experience.
+3.  [Perform full data migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/data-migration-perform.md) to migrate these dashboards to Platform Analytics experience.
 
 

@@ -3,11 +3,11 @@ title: Create a detection profile
 description: Determine the CrowdStrike Next-Gen SIEM detections that are suitable for creating security incidents by creating a detection profile in your ServiceNow AI Platform instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-a-profile-cs-ng-siem.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CrowdStrike Next-Gen SIEM integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -20,7 +20,7 @@ Determine the CrowdStrike Next-Gen SIEM detections that are suitable for creatin
 
 Role required: sn\_si.ingestion\_profile\_admin
 
-**Important:** If no correlation rules are configured in the CrowdStrike portal, the detection profile may display a generic "**No active correlation rules found. Please ensure that correlation rules are configured, activated, and published in your Crowdstrike environment**" message in ServiceNow® instance. To avoid this issue, confirm that at least one correlation rule is created in the CrowdStrike portal before configuring the ingestion profile.
+**Note:** Users with the sn\_si.admin role can perform all operations available to a profile admin because the sn\_si.admin role inherits the required permissions by default.
 
 ## Procedure
 
@@ -96,5 +96,5 @@ Optional description of the profile.
 
 ## What to do next
 
-[Set correlation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/select-correlation-rules-cs-ng-siem.md)
+[Set correlation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/select-correlation-rules-cs-ng-siem.md)
 

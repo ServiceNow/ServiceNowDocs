@@ -3,12 +3,12 @@ title: Using Agentic AI in ServiceNow Otto for Care Team Operations
 description: Use the ServiceNow Otto for Care Team Operations AI agents within the Request care team assistance agentic workflow to create support requests using the conversational abilities of ServiceNow Otto for Virtual Agent directly within Care Team Mobile or Care Team Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hcls-agentic-ai-use-cases.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2025-12-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Use]
-breadcrumb: [ServiceNow Otto for Care Team Operations, Healthcare and Life Sciences]
+breadcrumb: [ServiceNow Otto for Care Team Operations, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Using Agentic AI in ServiceNow Otto for Care Team Operations

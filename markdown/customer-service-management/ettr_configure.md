@@ -3,9 +3,9 @@ title: Configure the default estimated resolution time
 description: The Estimated Time to Resolve a Case regression definition is available by default. You can modify the default values of case fields, the case timeline, and the training frequency.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ettr\_configure.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure settings for estimated time to resolve values, Estimated time to resolve a case, Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -20,11 +20,11 @@ Role required: admin, ml\_admin
 
 ## About this task
 
-**Note:** Support for creating new regression solutions was deprecated in the Washington DC release. You can train and edit any existing solutions, but you can't initiate new ones. The following information is provided for legacy context. For more information see [Create and train a regression solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-regression-solution.md).
+**Note:** Support for creating new regression solutions was deprecated in the Washington DC release. You can train and edit any existing solutions, but you can't initiate new ones. The following information is provided for legacy context. For more information see [Create and train a regression solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-regression-solution.md).
 
 The Estimated Time to Resolve a Case definition is available by default. You can train this available definition to complete a solution and make predictions. You can change some of the default settings such as the fields, a filter, and the training frequency. For more information on creating and training a solution, see the following.
 
-[Create and train a regression solution.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-regression-solution.md)
+[Create and train a regression solution.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-regression-solution.md)
 
 ## Procedure
 
@@ -34,7 +34,7 @@ The Estimated Time to Resolve a Case definition is available by default. You can
 
     In the Regression Definition screen, the **Table** field is autopopulated with the Case Report \[sn\_customerservice\_case\_report\] table. The **Output Field** field is autopopulated with the time taken to resolve a case in seconds.
 
-    **Note:** If you have upgraded, you have to run a fix script in order to show the **Time to Resolve Numeric Value** column to display values for older cases. For more information, see [Configure settings for estimated time to resolve values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ettr-upgrade.md).
+    **Note:** If you have upgraded, you have to run a fix script in order to show the **Time to Resolve Numeric Value** column to display values for older cases. For more information, see [Configure settings for estimated time to resolve values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ettr-upgrade.md).
 
 3.  To edit, add, or delete case attributes, modify the default values in the **Fields** field.
 

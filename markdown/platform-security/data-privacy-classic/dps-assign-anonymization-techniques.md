@@ -3,11 +3,11 @@ title: Assign data anonymization techniques
 description: Assign anonymization techniques for data tables or columns, user specific data, or real time data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/dps-assign-anonymization-techniques.html
-release: australia
+release: brazil
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Create anonymization policies, Data anonymization, Data privacy, Data Privacy, Platform Privacy]
 ---
@@ -24,23 +24,23 @@ Role required: data\_privacy\_admin and admin
 
 1.  Assign anonymization techniques for data tables or columns, user specific data, or real time data.\[Omitted image "bulk-assign-technique.png"\] Alt text: The bulk assign techniques form.
 
-<table id="choicetable_ywk_ywc_dwb"><thead><tr><th align="left" id="d268766e41">
+<table id="choicetable_ywk_ywc_dwb"><thead><tr><th align="left" id="d280674e41">
 
 Option
 
-</th><th align="left" id="d268766e44">
+</th><th align="left" id="d280674e44">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d268766e50">
+</th></tr></thead><tbody><tr><td id="d280674e50">
 
 **Select __Bulk Assign Techniques__**
 
 </td><td>
 
-Applies anonymization to all data records in the chosen data class. Select the data type and the anonymization technique to apply to all entries with the selected data type. Repeat this step for additional bulk assignments of different data types.See [Supported field types for anonymization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/data-privacy-supported-data-types.md) for a list of data types.
+Applies anonymization to all data records in the chosen data class. Select the data type and the anonymization technique to apply to all entries with the selected data type. Repeat this step for additional bulk assignments of different data types.See [Supported field types for anonymization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-privacy-classic/data-privacy-supported-data-types.md) for a list of data types.
 
-</td></tr><tr><td id="d268766e72">
+</td></tr><tr><td id="d280674e72">
 
 **Select an __anonymization technique__ for each data column record**
 
@@ -76,5 +76,5 @@ Your data privacy processor users can choose which records to anonymize when cre
 
 ## What to do next
 
-[Create anonymization job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/dps-create-anonymization-job.md).
+[Create anonymization job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-privacy-classic/dps-create-anonymization-job.md).
 

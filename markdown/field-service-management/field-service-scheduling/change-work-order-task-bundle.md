@@ -3,11 +3,11 @@ title: Change a work order task bundle
 description: Update a work order task bundle with any changes so that agents and dispatchers stay synchronized.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/change-work-order-task-bundle.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Bundling WOTs, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
@@ -32,7 +32,7 @@ Role required: wm\_dispatcher
 
 5.  Make your desired changes.
 
-    See [Field Service Task Bundling fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-task-bundling-fields.md) for information on the fields that you can change.
+    See [Field Service Task Bundling fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-task-bundling-fields.md) for information on the fields that you can change.
 
 6.  Select **Save**.
 

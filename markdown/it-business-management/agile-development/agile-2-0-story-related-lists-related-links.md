@@ -3,11 +3,11 @@ title: Related links and lists for a Story in Agile Development 2.0
 description: Use the related links and related lists on the Story form for the actions that you need to perform on your story in Agile Development 2.0, such as adding scrum tasks, dependencies, or splitting the story.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/agile-2-0-story-related-lists-related-links.html
-release: australia
+release: brazil
 product: Agile Development
 classification: agile-development
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Agile Development 2.0 reference, Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
@@ -40,7 +40,7 @@ Add Scrum Tasks
 
 Enables you to create multiple scrum tasks for the current story. The scrum tasks are listed in the Scrum Tasks related list of the story.
 
- For more information, see [Create multiple scrum tasks for stories in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/create-multiple-scrum-tasks.md).
+ For more information, see [Create multiple scrum tasks for stories in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/create-multiple-scrum-tasks.md).
 
 </td></tr><tr><td>
 
@@ -84,7 +84,7 @@ Scrum Tasks
 
 </td><td>
 
-Lists the scrum tasks created for the story. Click **New** to create a scrum task. For more information, see [Create a scrum task for Agile Development 2.0 stories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/create-a-scrum-task.md).
+Lists the scrum tasks created for the story. Click **New** to create a scrum task. For more information, see [Create a scrum task for Agile Development 2.0 stories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/create-a-scrum-task.md).
 
 </td></tr><tr><td>
 
@@ -111,12 +111,12 @@ Tests
 Adds existing tests to the story.These tests are also listed on the **Sprint Tracking** tab of Agile Board after the sprint of this story starts.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agile Development 2.0 reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/agile-development-2-reference.md)
+</table>**Parent Topic:**[Agile Development 2.0 reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/agile-development-2-reference.md)
 
 **Related topics**  
 
 
-[Create a story in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/create-a-story.md)
+[Create a story in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/create-a-story.md)
 
-[Writing effective stories in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/how-to-write-stories.md)
+[Writing effective stories in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/how-to-write-stories.md)
 

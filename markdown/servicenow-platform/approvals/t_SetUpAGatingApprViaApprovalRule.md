@@ -3,11 +3,11 @@ title: Set up a gating approval via an approval rule
 description: You can set up a gating approval via an approval rule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/approvals/t\_SetUpAGatingApprViaApprovalRule.html
-release: australia
+release: brazil
 product: Approvals
 classification: approvals
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Gating approvals, Approval rules, Classic approvals, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Gating approvals, Approval rules, Classic approvals, Exploring Serv
 
 You can set up a gating approval via an approval rule.
 
-**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
+**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
 
 ## Before you begin
 
@@ -54,7 +54,7 @@ Table
 
 Task table to which this rule applies. For most service catalog approvals, select **Request**.
 
-**Note:** The list shows only tables and database views that are [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md) as the approval rule.
+**Note:** The list shows only tables and database views that are [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationScope.md) as the approval rule.
 
 </td></tr><tr><td>
 
@@ -119,5 +119,5 @@ An optional server script to programmatically specify who the approver should be
     2.  You can't get duplicate approvers, for example, if two rules both want Fred Luddy to approve a particular request, the system will only create one approval entry for him.
     3.  By default all requests start out in a **Not yet requested** approval state. Approval notifications will not go out until the request's approval state is set to **Requested**. You can do that manually, or you can do it in script, but the easiest way to do it is to use the **Set State** field to automatically set the request to **Requested**.
 
-**Parent Topic:**[Gating approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/c_GatingApprovals.md)
+**Parent Topic:**[Gating approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/approvals/c_GatingApprovals.md)
 

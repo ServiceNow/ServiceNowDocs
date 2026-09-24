@@ -3,9 +3,9 @@ title: Field Service with Service Locations Support components
 description: Components installed with activation of the Field Service with Service Locations Support \(com.snc.fsm\_service\_locations\) plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/service-locations-components.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Components installed with additional plugins, Reference, Field Service Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Components installed with additional plugins, Reference, Field Serv
 
 Components installed with activation of the Field Service with Service Locations Support \(com.snc.fsm\_service\_locations\) plugin.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 Demo data is available for this feature.
 
@@ -54,7 +54,7 @@ Field Service with Service Locations Support installs the UX Client Script Inclu
 |UX Client Script Include|Description|
 |------------------------|-----------|
 |ResponseHandlerServiceLocationSNC|Contains read-only script to set location for a work order from map interface.|
-|ResponseHandlerServiceLocation|Contains script to set location for a work order from map interface. You can modify the script to customize the fields of location to suit the business preference and set the location more accurately. For more information, see [Customize fields for mapping location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/customize-fields-for-mapping-location.md).|
+|ResponseHandlerServiceLocation|Contains script to set location for a work order from map interface. You can modify the script to customize the fields of location to suit the business preference and set the location more accurately. For more information, see [Customize fields for mapping location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/customize-fields-for-mapping-location.md).|
 
-**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/components-inst-additional-plugin.md)
+**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/components-inst-additional-plugin.md)
 

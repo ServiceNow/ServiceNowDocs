@@ -3,9 +3,9 @@ title: Business Stakeholder for Customer Service Management
 description: Business Stakeholder for Customer Service Management includes plugins and roles that provide access to business stakeholder features.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/business-stakeholder-for-csm.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Roles installed with Customer Service Management, Components installed with Customer Service Management, Reference, Customer Service Management]
 ---
@@ -73,9 +73,10 @@ Case authorized contributor\[sn\_customerservice.case\_authorized\_contributor\]
 
 This role enables users, when added to an individual case as a related party, to: -   Add additional comments and attachments
 -   Receive notifications on case updates
--   Update case tasks
 -   Accept or reject a solution
 -   Close a case
+
+**Note:** To perform the tasks, you must have at least one fulfiller license \(such as csm\_agent, sn\_customerservice\_agent, or sn.customerservice.svc\_location\_agent\) in addition to this role.
 
 </td><td>
 
@@ -192,7 +193,7 @@ User type
 
 </th></tr></thead><tbody><tr><td>
 
-Proxy contact \[sn\_customerservice.proxy\_contact\]
+Proxy contact \[sn\_csm\_proxy\_cont\]
 
 </td><td>
 
@@ -200,14 +201,14 @@ This role enables employees to create cases for customer accounts and contacts.
 
 </td><td>
 
-CSM Extension for Proxy Contacts \(com.snc.csm\_proxy\_contacts\)
+Customer Proxy Contacts \(com.snc.csm\_proxy\_contacts\)
 
 </td><td>
 
 Internal
 
 </td></tr></tbody>
-</table>For more information about the proxy contact role, see [Create cases as a proxy contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/employee-create-case-for-customer.md).
+</table>For more information about the proxy contact role, see [Create cases as a proxy contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/employee-create-case-for-customer.md).
 
 <table id="table_xv4_rpx_znb"><thead><tr><th>
 
@@ -491,12 +492,14 @@ sn\_customerservice.projectstakeholder
 Internal
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md)
+</table>**Parent Topic:**[Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md)
 
 **Related topics**  
 
 
-[Business stakeholder role for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/business-stakeholder-role-ppm.md)
+[Business stakeholder role for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/business-stakeholder-role-ppm.md)
 
-[Installed with Business Stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/installed-with-business-stakeholder.md)
+[bundle-appportman.business-stakeholder-role-apm]
+
+[Installed with Business Stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/installed-with-business-stakeholder.md)
 

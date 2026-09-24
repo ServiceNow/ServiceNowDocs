@@ -3,7 +3,7 @@ title: Build a flow using the Utility Actions spoke actions
 description: Create a flow in Workflow Studio using the Utility Actions spoke actions to create two files; one for incident records and other for user records, and zip these two files.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/sample-flow-utility-action.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -30,7 +30,7 @@ This sample flow demonstrates using the Utility Actions spoke actions to create 
 
 2.  Create a flow.
 
-    For more information, see [Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flows.md).
+    For more information, see [Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flows.md).
 
 3.  In the flow, add these spoke actions or flow logics:
 

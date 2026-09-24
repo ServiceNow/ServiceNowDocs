@@ -3,9 +3,9 @@ title: Create a touchpoint from a lead
 description: Create a touchpoint to log a customer interaction directly from a lead record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-touchpoint-lead.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage touchpoints, Lead Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -58,14 +58,14 @@ The touchpoint is created and linked to the lead. It appears in the **Touchpoint
 
 To view all touchpoints for the lead, select the **Touchpoints** tab.
 
-**Parent Topic:**[Manage touchpoints on a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-touchpoints-lead.md)
+**Parent Topic:**[Manage touchpoints on a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/manage-touchpoints-lead.md)
 
 **Related topics**  
 
 
-[CRM Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-crm-touchpoints.md)
+[CRM Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-crm-touchpoints.md)
 
-[Install CRM Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/install-crm-touchpoints.md)
+[Install CRM Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/install-crm-touchpoints.md)
 
-[Create new CRM touchpoint form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-crm-touchpoint-form.md)
+[Create new CRM touchpoint form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-crm-touchpoint-form.md)
 

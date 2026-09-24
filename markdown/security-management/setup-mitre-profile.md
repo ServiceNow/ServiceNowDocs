@@ -3,9 +3,9 @@ title: Set up the MITRE-ATT&amp;CK framework
 description: Activate the MITRE-ATT&amp;CK profile, and set up a scheduled job so that you can set up MITRE-ATT&amp;CK collections for threat detection in your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/setup-mitre-profile.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [MITRE-ATT&amp;CK administration, MITRE-ATT&amp;CK framework overview, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -74,7 +74,7 @@ Describes the actions that an adversary takes while operating within an Industri
     **Note:**
 
     1.  Collections are packaged as part of Threat Intelligence Core plugin. Installing or updating the Threat Intelligence Support Common - Version 12.0 or higher, and Threat Intelligence - Version 12.0 or higher ensures that your collections data is auto-populated.
-    2.  Activate the TAXII collection only for the collection that you intend to use in your organization and disable the other collections. For example, if you intend to use Enterprise ATT&amp;CK matrix, then activate Enterprise ATT&amp;CK at the TAXII collection level and at the [Matrices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/view-mitre-collection.md) level. Disable the other Mobile ATT&amp;CK and ICS ATT&amp;CK matrices at the TAXII collection and at the Matrices level.
+    2.  Activate the TAXII collection only for the collection that you intend to use in your organization and disable the other collections. For example, if you intend to use Enterprise ATT&amp;CK matrix, then activate Enterprise ATT&amp;CK at the TAXII collection level and at the [Matrices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/view-mitre-collection.md) level. Disable the other Mobile ATT&amp;CK and ICS ATT&amp;CK matrices at the TAXII collection and at the Matrices level.
     3.  In the TAXII Collections related lists, if you select the Run option as Daily, then an error occurs and the option defaults to On Demand. This error occurs as scheduling the MITRE-ATT&amp;CK data refresh daily is restricted to optimize the load on the MITRE servers. Also, MITRE updates the ATT&amp;CK data only twice a year.
     4.  The TAXII collections are not refreshed unless you activate the TAXII collection.
     5.  Updates to existing collections can be retrieved from the MITRE server by scheduling the ‘run’ frequency in each collection.
@@ -85,7 +85,7 @@ Describes the actions that an adversary takes while operating within an Industri
 
 After the TAXII profile setup is complete, the MITRE-ATT&amp;CK repository data is imported at regular intervals to the ServiceNow AI Platform®. You can see this data by navigating to **MITRE ATT&amp;CK Repository** &gt; **Matrices** and **MITRE ATT&amp;CK Repository** &gt; **Techniques**.
 
-**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-administration.md)
+**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/mitre-att-ck-administration.md)
 
 **Related topics**  
 

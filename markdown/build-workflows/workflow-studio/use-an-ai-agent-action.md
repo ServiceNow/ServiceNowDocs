@@ -3,11 +3,11 @@ title: Use an AI agent action
 description: Use flow data to run an AI agent and configure the expected agent output for use later in the flow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/use-an-ai-agent-action.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Actions, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -28,13 +28,13 @@ Provide a value for each input that your action needs. To add dynamic values, yo
 
     Data type: **Reference**
 
-    The AI Agent that you want to use in this flow. You must install the Now Assist AI agents plugin and create and configure an AI agent. For information about installing the Now Assist AI agents plugin, see [Install ServiceNow Otto AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md). For information about creating an AI agent, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md).
+    The AI Agent that you want to use in this flow. You must install the Now Assist AI agents plugin and create and configure an AI agent. For information about installing the Now Assist AI agents plugin, see [Install ServiceNow Otto AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-ai-agents-plugins.md). For information about creating an AI agent, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-next-best-action-agent.md).
 
 -   **Support User**
 
     Data type: **Reference**
 
-    The user who is contacted by Now Assist to review and authorize the AI agent's work when the AI agent runs in supervised mode. Select a user who meets the security criteria defined in the AI security controls. If the AI agents is configured to accept a dynamic user, select a user that has the roles necessary to run the AI agent. For more information about the security controls of an AI agent, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aia.md). For information about turning on the Now Assist panel, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+    The user who is contacted by Now Assist to review and authorize the AI agent's work when the AI agent runs in supervised mode. Select a user who meets the security criteria defined in the AI security controls. If the AI agents is configured to accept a dynamic user, select a user that has the roles necessary to run the AI agent. For more information about the security controls of an AI agent, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/define-sec-controls-aia.md). For information about turning on the Now Assist panel, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 -   **Objective**
 
@@ -64,7 +64,7 @@ Provide a value for each input that your action needs. To add dynamic values, yo
 
     Data type: **String**
 
-    The name that identifies the conversation about running the AI agent in the Now Assist panel. For information about activating the Now Assist panel, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+    The name that identifies the conversation about running the AI agent in the Now Assist panel. For information about activating the Now Assist panel, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 -   **Context Memory**
 
@@ -120,5 +120,5 @@ Since this example runs in supervised mode, the flow pauses until the support us
 
 After the support user provides the necessary response, the flow continues running the action and provides it output values. The flow uses these output values to send an email message.
 
-**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-actions.md)
 

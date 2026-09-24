@@ -3,11 +3,11 @@ title: Plan and execute recall campaign phases and sub-phases using ServiceNow O
 description: Plan and execute recall campaign phases and sub-phases AI agent enables product recall campaigns to generate and manage phase.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-plan-and-execute-recall-campaign-phases-and-subphases.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use generative AI, ServiceNow Otto for MCO, Manufacturing Commercial Operations]
+breadcrumb: [Recall a campaign phase, Create a campaign, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Plan and execute recall campaign phases and sub-phases using ServiceNow Otto
@@ -24,7 +24,7 @@ The Plan and Execute Recall Campaign Phases AI agent generates and manages recal
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **Phases &amp; Sub-phases**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **Phases &amp; Sub-phases**.
 
 2.  Select the ServiceNow Otto icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: to launch the ServiceNow Otto panel.
 
@@ -53,8 +53,10 @@ The Plan and Execute Recall Campaign Phases AI agent generates and manages recal
     The agent generates a phased roll-out list with phases and subphases. All phases and subphases are displayed.
 
 
+**Parent Topic:**[Recall a campaign phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-recall-campaign-phases.md)
+
 **Related topics**  
 
 
-[Recall a campaign phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-recall-campaign-phases.md)
+[Recall a campaign phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-recall-campaign-phases.md)
 

@@ -3,9 +3,9 @@ title: Configure the Party Relationship Center
 description: Configure node settings to control which fields appear on the entity node cards in the Party Relationship Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/c360-configure-prc.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [party relationship centre, configure PRC, node settings, PRC configuration]
 breadcrumb: [Configure, Telecommunications Customer 360, Telecommunications, Media, and Technology \(TMT\)]
@@ -18,7 +18,7 @@ Configure node settings to control which fields appear on the entity node cards 
 ## Before you begin
 
 -   Role required: `sn_telecom_c360.admin`
--   Telco GenAI \(`sn_telco_genai`\) must be installed. The Telecom Customer Enterprise Graph, which drives entity traversal in the node map, ships with Telco GenAI.
+-   ServiceNow Otto for TMT must be installed.
 
 ## About this task
 
@@ -39,7 +39,7 @@ The Party Relationship Center uses the following configuration tables:
 
 ## Procedure
 
-1.  Navigate to **All** &gt; ****.
+1.  Navigate to **All** &gt; **Tables** and locate the `sn_prc_node_model` table.
 
 2.  Open the generic node model record.
 
@@ -75,10 +75,10 @@ The Party Relationship Center uses the following configuration tables:
 
 The node setting is saved and is used for the matching entity type and displays the specified field values on the node card and the contextual side panel.
 
-**Parent Topic:**[Configure Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-configure.md)
+**Parent Topic:**[Configure Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-configure.md)
 
 **Related topics**  
 
 
-[Party Relationship Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-prc-overview.md)
+[Party Relationship Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-prc-overview.md)
 

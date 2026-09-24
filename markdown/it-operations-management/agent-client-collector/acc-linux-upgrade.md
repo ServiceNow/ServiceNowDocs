@@ -3,11 +3,11 @@ title: Upgrade Agent Client Collector on a Linux system
 description: Upgrade your existing Agent Client Collector version on a system running a Linux OS if the single-line command script is not connected to the instance or you want to use enhanced customization options.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-linux-upgrade.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ACC installation on a Linux OS system, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -32,7 +32,7 @@ Upgrade your existing Agent Client Collector version on a system running a Linux
     /usr/lib/systemd/system/acc.service
     ```
 
-2.  Download the .rpm/.deb agent package and signature files, as described in [Install Agent Client Collector on a Linux system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/install-acc-linux.md).
+2.  Download the .rpm/.deb agent package and signature files, as described in [Install Agent Client Collector on a Linux system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/install-acc-linux.md).
 
 3.  Upgrade the package.
 
@@ -70,5 +70,5 @@ Upgrade your existing Agent Client Collector version on a system running a Linux
     ```
 
 
-**Parent Topic:**[Agent Client Collector installation on a Linux OS system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-install-linux-concept.md)
+**Parent Topic:**[Agent Client Collector installation on a Linux OS system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-install-linux-concept.md)
 

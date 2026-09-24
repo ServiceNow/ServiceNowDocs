@@ -3,9 +3,9 @@ title: Validate the data in RPA Desktop Design Studio
 description: Validate your data by using the Validate Data option at a component level in RPA Desktop Design Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/validate-data-rpa-studio.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,7 +16,7 @@ Validate your data by using the **Validate Data** option at a component level in
 
 ## Before you begin
 
-Configure a component. For more information, see [Use a component in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-components.md).
+Configure a component. For more information, see [Use a component in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-components.md).
 
 Role required: none
 
@@ -79,5 +79,5 @@ Enables you to choose from a list of programming languages and write a validatio
 </table>3.  To delete a validation rule, click the delete icon \(\[Omitted image "remove-icon.png"\] Alt text: Delete icon.\) and in the Confirmation dialog box, click **Yes**.
 
 
-**Parent Topic:**[Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-studio-use.md)
+**Parent Topic:**[Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/rpa-studio-use.md)
 

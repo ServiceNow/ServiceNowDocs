@@ -3,9 +3,9 @@ title: Recall campaign phase form
 description: The recall campaign phase form enables you to add the recall campaign phases details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-recall-campaign-phases-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Repair form, Reference, Manufacturing Commercial Operations]
 ---
@@ -96,7 +96,7 @@ Dealer visibility
 
 Service organization criteria to whom this recall campaign phase are visible.For sub-phase, dealer visibility criteria will be copied from the parent phase, and it can be modified.
 
-**Note:** For Dealer visibility setup information, see [Create the criteria for a service organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-service-organization-criteria.md).
+**Note:** For Dealer visibility setup information, see .
 
 </td></tr><tr><td>
 
@@ -107,10 +107,10 @@ Description
 Brief description about the recall campaign phase.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/repair-form.md)
+</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/repair-form.md)
 
 **Related topics**  
 
 
-[Create My campaign phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-rc-my-campaign-phases.md)
+[Create My campaign phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-rc-my-campaign-phases.md)
 

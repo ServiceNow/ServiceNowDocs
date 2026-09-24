@@ -3,9 +3,9 @@ title: Create a template by saving a form
 description: Save a populated form as a template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_SaveAFormAsATemplateInUI16OrUI15.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Form templates, Administer, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -37,7 +37,7 @@ Role required: admin
 6.  Click **Save**.
 
 
-**Parent Topic:**[Using form templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_Templates.md)
+**Parent Topic:**[Using form templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_Templates.md)
 
 **Related topics**  
 
@@ -56,5 +56,5 @@ Role required: admin
 
 [Scripted templates]()
 
-[ACL rule types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/acl-rule-types.md)
+[ACL rule types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/acl-rule-types.md)
 

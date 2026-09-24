@@ -3,11 +3,11 @@ title: Document Services Framework for Microsoft OneDrive
 description: Integrate the Document Services Framework with Microsoft OneDrive. Also reuse this short description in the release notes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/onedrive-spoke-document-services-framework.html
-release: australia
+release: brazil
 product: Document Management Services
 classification: document-management-services
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Microsoft OneDrive integration with Document Services, Integrate with Document Services, Multi Provider Document Services Framework, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -175,7 +175,7 @@ Syncs all Microsoft Azure users into the Multi Provider Collaborators \[mp\_coll
 
 If the user is newly added, then it creates an entry in the Multi Provider Collaborators \[mp\_collaborators\] table under Multi Provider Documents.
 
-**Note:** The scheduled job with the name **Sync Collaborators** triggers the subflow for Sync Collaborators. You can choose from the available run a script option. The default option is **On Demand**. The job is run based on the set schedule and collaborators are synchronized accordingly. For more information, see [Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ScheduleAScriptExecution.md).
+**Note:** The scheduled job with the name **Sync Collaborators** triggers the subflow for Sync Collaborators. You can choose from the available run a script option. The default option is **On Demand**. The job is run based on the set schedule and collaborators are synchronized accordingly. For more information, see [Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ScheduleAScriptExecution.md).
 
 </td></tr><tr><td>
 
@@ -450,9 +450,9 @@ Updates the system property **deltaToken** with the specified delta token.
 </td></tr></tbody>
 </table>## Connection and credential alias requirements
 
-Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r-credentials.md).
+Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r-credentials.md).
 
-For information about setting up the spoke, see [Set up Microsoft OneDrive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-msonedrive.md).
+For information about setting up the spoke, see [Set up Microsoft OneDrive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/setup-msonedrive.md).
 
-**Parent Topic:**[Microsoft OneDrive integration with Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/one-drive-integration.md)
+**Parent Topic:**[Microsoft OneDrive integration with Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/one-drive-integration.md)
 

@@ -3,11 +3,11 @@ title: Create a flow variable
 description: Create a flow variable to store and retrieve a value throughout a flow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-flow-variables.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Variables, Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -28,7 +28,7 @@ Role required: flow\_designer or admin
 
 3.  On the Flow Properties form, fill in the fields.
 
-    For more information, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md).
+    For more information, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-flow.md).
 
 4.  Click **Submit**.
 
@@ -53,7 +53,7 @@ The Data panel displays the variable in the Flow Variables section. It appears a
 
 ## What to do next
 
-To assign a value to the variable, use the [Set Flow Variables flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic-set-flow-variables.md). If you don't assign a value, the default value is null.
+To assign a value to the variable, use the [Set Flow Variables flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-logic-set-flow-variables.md). If you don't assign a value, the default value is null.
 
-**Parent Topic:**[Flow variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-variables.md)
+**Parent Topic:**[Flow variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-variables.md)
 

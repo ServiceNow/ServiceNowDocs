@@ -3,11 +3,11 @@ title: Specify the bindings for resource blocks
 description: Bindings represent endpoint relationships. For example, a storage volume might implement an endpoint type of Block EP \(cmdb\_ci\_endpoint\_block\). A virtual server might consume an endpoint of that type. Bindings must support the Guest interface that is specified for the resource block.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/specify-resource-bindings-cmp.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Create a custom resource block, Resource blocks in Cloud Provisioning and Governance, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -35,7 +35,7 @@ Role required: admin
 5.  Click **Submit**.
 
 
-**Parent Topic:**[Create a custom resource block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-resource-block.md)
+**Parent Topic:**[Create a custom resource block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/create-resource-block.md)
 
 **Related topics**  
 

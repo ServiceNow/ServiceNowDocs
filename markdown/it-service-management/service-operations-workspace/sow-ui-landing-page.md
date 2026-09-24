@@ -3,11 +3,11 @@ title: Service Operations Workspace for ITSM landing page
 description: An agent can get quick visibility into the work assigned, view announcements, and view upcoming tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/sow-ui-landing-page.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-04-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Exploring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -18,7 +18,7 @@ An agent can get quick visibility into the work assigned, view announcements, an
 
 ## Roles required to access the landing page
 
-A user should have the itil role to access the landing page. A tier-1 agent is an itil user who belongs to a service desk group. A tier-2 agent is an itil user who doesn’t belong to a service desk group. For more information about redirection of tier-1 and tier-2 agents to the respective landing page, see [Redirect non-admin users to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/redirect-sow-landing-page.md).
+A user should have the itil role to access the landing page. A tier-1 agent is an itil user who belongs to a service desk group. A tier-2 agent is an itil user who doesn’t belong to a service desk group. For more information about redirection of tier-1 and tier-2 agents to the respective landing page, see [Redirect non-admin users to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/redirect-sow-landing-page.md).
 
 ## Use cases
 
@@ -72,9 +72,9 @@ Header
 
 </td><td>
 
-This section displays the greeting text and shift details of the agent. For information about how you can customize this section, see [Configure the header message on the landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/modify-greeting-text.md).The image on the banner of the header section in the SOW landing page supports custom themes for a more personalized experience.For more information, see [Configure the space man on the landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/modify-space-man-landing-page.md).
+This section displays the greeting text and shift details of the agent. For information about how you can customize this section, see [Configure the header message on the landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/modify-greeting-text.md).The image on the banner of the header section in the SOW landing page supports custom themes for a more personalized experience.For more information, see [Configure the space man on the landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/modify-space-man-landing-page.md).
 
-The alert notification displayed on the banner of the pages in SOW is expanded automatically to adjust and fit the complete message. For more information, see [Configure the header message on the landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/modify-greeting-text.md).
+The alert notification displayed on the banner of the pages in SOW is expanded automatically to adjust and fit the complete message. For more information, see [Configure the header message on the landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/modify-greeting-text.md).
 
 \[Omitted image "greeting-text.png"\] Alt text: Header section
 
@@ -104,7 +104,7 @@ From this section, an agent can get an overview of various assignments from the 
 -   Change
 -   Request
 
- For information about customizing this section, see [Configure tier 1 landing page metric cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/customize-first-level-cards.md).
+ For information about customizing this section, see [Configure tier 1 landing page metric cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/customize-first-level-cards.md).
 
 </td></tr><tr><td>
 
@@ -114,7 +114,7 @@ Announcements
 
 This section notifies an agent of any announcements. The agent can view them in a list view or grid view.
 
- For information about how you can customize this section, see [Configure the Announcements section on the landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/modify-announcements-section.md).
+ For information about how you can customize this section, see [Configure the Announcements section on the landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/modify-announcements-section.md).
 
  \[Omitted image "announcements.png"\] Alt text: Announcements section
 
@@ -133,7 +133,7 @@ This section reminds agents of the upcoming tasks for the same day and next day.
  -   The **Today** tab shows tasks that you may want to attend to on the current day.
 -   The **Tomorrow** tab shows tasks coming up the day after the current day.
 
- When the [Workforce Optimization for ITSM plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/activate-configurable-workforce-optimization-itsm.md) \(sn\_wfo\_cfg\_itsm\) is activated, you can also view your upcoming shift information and the following tasks are displayed in this section:
+ When the [Workforce Optimization for ITSM plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/activate-configurable-workforce-optimization-itsm.md) \(sn\_wfo\_cfg\_itsm\) is activated, you can also view your upcoming shift information and the following tasks are displayed in this section:
 
 -   Events: Number of events such as training and time off that's related to your shifts.
 
@@ -143,9 +143,9 @@ This section reminds agents of the upcoming tasks for the same day and next day.
 -   Skill review requests: Number of requests from your manager to review your skills.
 -   Shift sign-ups: Shifts that you can sign up for that are due on the current day and the day after the current day.
 
- For more information on Workforce Optimization for ITSM in Service Operations Workspace, see [Service Operations Workspace - Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/itsm-sow-workspace-scheduling.md).
+ For more information on Workforce Optimization for ITSM in Service Operations Workspace, see [Service Operations Workspace - Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/itsm-sow-workspace-scheduling.md).
 
- For information about how you can customize this section, see [Configure the Upcoming section on the landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/modify-upcoming-section.md).
+ For information about how you can customize this section, see [Configure the Upcoming section on the landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/modify-upcoming-section.md).
 
 </td></tr><tr><td>
 
@@ -153,7 +153,7 @@ Quick links
 
 </td><td>
 
-This section displays the configured quick links. For information about how you can customize this section, see [Add a user-specific quick link on the ITSM landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/add-quick-link.md).
+This section displays the configured quick links. For information about how you can customize this section, see [Add a user-specific quick link on the ITSM landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/add-quick-link.md).
 
  \[Omitted image "quick-links-section.png"\] Alt text: Quick links section
 
@@ -173,7 +173,7 @@ My performance
 
 </td><td>
 
-Analyze performance targets set by your manager.**Important:** This section is displayed only when the [Workforce Optimization for ITSM plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/activate-configurable-workforce-optimization-itsm.md) \(sn\_wfo\_cfg\_itsm\) is activated.
+Analyze performance targets set by your manager.**Important:** This section is displayed only when the [Workforce Optimization for ITSM plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/activate-configurable-workforce-optimization-itsm.md) \(sn\_wfo\_cfg\_itsm\) is activated.
 
 </td></tr><tr><td>
 
@@ -181,14 +181,14 @@ My active learning section
 
 </td><td>
 
-Monitor learning tasks that you must complete. This section displays up to three learning tasks, which could include learning paths and courses that are new, due soon, or overdue. These tasks are either the ones that have been assigned to you or the ones you chose to self-enroll. The tasks are sorted by the due date and they're highlighted in red when they're overdue. You can also see the remaining duration to complete a task that you can select and complete.**Important:** This section is displayed only when the [Workforce Optimization for ITSM plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/activate-configurable-workforce-optimization-itsm.md) \(sn\_wfo\_cfg\_itsm\) is activated.
+Monitor learning tasks that you must complete. This section displays up to three learning tasks, which could include learning paths and courses that are new, due soon, or overdue. These tasks are either the ones that have been assigned to you or the ones you chose to self-enroll. The tasks are sorted by the due date and they're highlighted in red when they're overdue. You can also see the remaining duration to complete a task that you can select and complete.**Important:** This section is displayed only when the [Workforce Optimization for ITSM plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/activate-configurable-workforce-optimization-itsm.md) \(sn\_wfo\_cfg\_itsm\) is activated.
 
 \[Omitted image "my-active-learning.png"\] Alt text: My active learning
 
-For more information, see [Service Operations Workspace - Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/itsm-sow-coaching.md).
+For more information, see [Service Operations Workspace - Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/itsm-sow-coaching.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/explore-sow.md)
+</table>**Parent Topic:**[Exploring Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/explore-sow.md)
 
 **Related topics**  
 

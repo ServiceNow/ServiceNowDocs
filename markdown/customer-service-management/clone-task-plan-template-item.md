@@ -3,9 +3,9 @@ title: Clone a template item
 description: Clone an existing template item to add to a task plan template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/clone-task-plan-template-item.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Task Plan Templates, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -23,6 +23,8 @@ Role required: sn\_task\_plan.admin or sn\_task\_plan.creator role
 Template items include case tasks, child cases, and child case tasks. When you clone a template item, the system clones the selected template item and creates a new template item that includes the hierarchy, conditions, and attachments of the source template item.
 
 **Note:** This action is only available for task plan templates in the Draft state.
+
+If the source template item has document references or dependencies with other template items, the clone preserves them.
 
 The cloned template item is added to the Template Items tab on the Task Plan Template form.
 

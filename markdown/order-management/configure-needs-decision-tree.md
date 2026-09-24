@@ -3,9 +3,9 @@ title: Create a decision tree for a needs template
 description: Create a decision tree that defines the questions that agents answer to determine customer needs and get product recommendations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-needs-decision-tree.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring needs analysis, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -18,9 +18,9 @@ Create a decision tree that defines the questions that agents answer to determin
 
 Before creating decision trees, review the following information:
 
--   [Decision trees in Guided decision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/decision-trees-in-guided-decisions.md) - Become familiar with the basic elements of a decision tree and how they work, such as node types, linking inputs in nodes, and decision tree paths.
--   [Example configuration of a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/example-decision-tree.md) - Walk through an example decision tree, including preparations for creating a decision tree, to understand the end-to-end configuration of a decision tree.
--   [Answer types for questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/type-of-answer.md) - Learn about the various types of answers, such as Choice, Date, or Integers.
+-   [Decision trees in Guided decision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/decision-trees-in-guided-decisions.md) - Become familiar with the basic elements of a decision tree and how they work, such as node types, linking inputs in nodes, and decision tree paths.
+-   [Example configuration of a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/example-decision-tree.md) - Walk through an example decision tree, including preparations for creating a decision tree, to understand the end-to-end configuration of a decision tree.
+-   [Answer types for questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/type-of-answer.md) - Learn about the various types of answers, such as Choice, Date, or Integers.
 
 Role required: sn\_prd\_pm.product\_catalog\_manager, sn\_prd\_pm.product\_catalog\_admin
 
@@ -49,12 +49,12 @@ Role required: sn\_prd\_pm.product\_catalog\_manager, sn\_prd\_pm.product\_catal
 
 ## What to do next
 
-[Build a needs decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/build-needs-decision-tree.md) using Decision Tree Builder.
+[Build a needs decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/build-needs-decision-tree.md) using Decision Tree Builder.
 
 **Related topics**  
 
 
-[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-product-catalog.md)
 
-[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/product-catalog-managment.md)
 

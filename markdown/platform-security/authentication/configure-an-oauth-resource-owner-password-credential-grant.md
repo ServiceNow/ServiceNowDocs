@@ -3,13 +3,13 @@ title: Configure an OAuth resource owner password credential grant
 description: Configuring an OAuth resource owner password credential \(ROPC\) grant enables applications to authenticate users by directly using their credentials to obtain an access token. This method is ideal for trusted applications and legacy systems that require authentication without browser-based flows, enabling secure token validation and controlled API access.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/configure-an-oauth-resource-owner-password-credential-grant.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ROPC Grant, Inbound Integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [ROPC Grant, Inbound integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Configure an OAuth resource owner password credential grant

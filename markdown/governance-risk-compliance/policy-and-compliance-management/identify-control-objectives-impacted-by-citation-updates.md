@@ -3,11 +3,11 @@ title: Use Control Objective Impact Analyzer skill to identify control objective
 description: Identify and manage control objectives impacted by latest citation updates by using the Control Objective Impact Analyzer generative AI skill.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/identify-control-objectives-impacted-by-citation-updates.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Control Objective Impact Analyzer skill, Gen AI skill, Impacted control objectives]
 breadcrumb: [ServiceNow Otto for Integrated Risk Management \(IRM\), Policy and Compliance Management, Governance, Risk, and Compliance]
@@ -23,7 +23,7 @@ Role required: sn\_grc\_sharegenai.compliance\_library\_gen\_ai\_user
 
 Verify that the Control Objective Impact Analyzer skill is activated.
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 

@@ -3,11 +3,11 @@ title: View a project status report in classic Project Workspace
 description: As a project manager, view the project status reports for a project using Status Report tab in classic Project Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/view-project-status-reports.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Project workspace classic - Legacy, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -34,13 +34,13 @@ From the **Status Report** tab, you can:
 
 ## Procedure
 
-1.  [Open](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-the-project-workspace.md) the required project in project workspace.
+1.  [Open](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/access-the-project-workspace.md) the required project in project workspace.
 
 2.  Select the **Status Report** tab.
 
     The most recent status report created for the project is displayed.
 
-3.  To [create a status report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectStatusReport.md), click **Create new** button in the top right.
+3.  To [create a status report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CreateAProjectStatusReport.md), click **Create new** button in the top right.
 
 4.  To copy an existing status report:
 
@@ -52,10 +52,10 @@ From the **Status Report** tab, you can:
 
     3.  Select **Save**.
 
-5.  Select a status report from the choice list to view the contents of a [status report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/project-status-report.md) available for the project.
+5.  Select a status report from the choice list to view the contents of a [status report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/project-status-report.md) available for the project.
 
     The reports are listed in the choice list by their creation date.
 
 
-**Parent Topic:**[Project workspace classic - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/project-workspace-classic.md)
+**Parent Topic:**[Project workspace classic - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/project-workspace-classic.md)
 

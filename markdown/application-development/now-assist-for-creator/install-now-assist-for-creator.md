@@ -3,11 +3,11 @@ title: Install ServiceNow Otto for Creator
 description: Install the ServiceNow Otto for Creator application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/install-now-assist-for-creator.html
-release: australia
+release: brazil
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: task
-last_updated: "2026-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto for Creator, Install ServiceNow Otto for Creator, Now Assist, Now Assist for Creator, Install Now Assist for Creator]
 breadcrumb: [Configure, ServiceNow Otto for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
@@ -21,7 +21,7 @@ Install the ServiceNow Otto for Creator application.
 
 -   Role required: admin
 -   Review the [ServiceNow Otto for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
--   Enable Next Experience. For information about activating Next Experience, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-adoption-paths.md).
+-   Enable Next Experience. For information about activating Next Experience, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-adoption-paths.md).
 
 ## Procedure
 

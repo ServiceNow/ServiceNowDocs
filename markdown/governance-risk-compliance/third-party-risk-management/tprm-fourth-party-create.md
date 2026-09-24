@@ -3,11 +3,11 @@ title: Create a fourth-nth party record
 description: Create a fourth-nth party record by using the Third-party Risk Management application. You can create fourth-nth party records manually as an alternative to using a fourth-party registration questionnaire.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-fourth-party-create.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Monitoring your fourth-nth parties, Monitor third-party risk, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_risk\_assessor
 
 ## About this task
 
-If you only need to create one fourth-nth party record or don't have time to send a questionnaire to a third party, you can create a fourth-nth party record manually. To create and register multiple fourth-nth party records, see [Register a fourth-nth party](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-fourth-party-register.md).
+If you only need to create one fourth-nth party record or don't have time to send a questionnaire to a third party, you can create a fourth-nth party record manually. To create and register multiple fourth-nth party records, see [Register a fourth-nth party](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-fourth-party-register.md).
 
 ## Procedure
 
@@ -113,6 +113,6 @@ Standard contact information for the third-party organization.
 
     The fourth-nth party record is active and associated with a third party.
 
-    For more information on fourth-nth parties, see [Monitoring your fourth-nth parties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-monitor-fourth-parties.md).
+    For more information on fourth-nth parties, see [Monitoring your fourth-nth parties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-monitor-fourth-parties.md).
 
 

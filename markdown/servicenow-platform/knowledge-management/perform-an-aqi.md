@@ -3,11 +3,11 @@ title: Perform the Article Quality Index review
 description: Perform the Article Quality Index \(AQI\) review to evaluate the quality of the article.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/perform-an-aqi.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use Article Quality Index, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -57,15 +57,15 @@ Configure the **glide.knowman.aqi.article\_workflow\_states** property to set th
 
 5.  Perform one of the following actions.
 
-<table id="choicetable_vhz_t4m_nbb"><thead><tr><th align="left" id="d374451e207">
+<table id="choicetable_vhz_t4m_nbb"><thead><tr><th align="left" id="d372540e207">
 
 To
 
-</th><th align="left" id="d374451e210">
+</th><th align="left" id="d372540e210">
 
 Do This
 
-</th></tr></thead><tbody><tr><td id="d374451e216">
+</th></tr></thead><tbody><tr><td id="d372540e216">
 
 **Submit the completed AQI review.**
 
@@ -80,7 +80,7 @@ Click **Submit**. The form refreshes and the total score of the AQI review is di
 
 **Note:** The notification includes the AQI review score and AQI review result. You can customize the content and design of the notification emails. In cases where the Ownership Group is enabled, the email notifications are sent to the Ownership Group as well.
 
-</td></tr><tr><td id="d374451e250">
+</td></tr><tr><td id="d372540e250">
 
 **Save the pending review to complete later.**
 
@@ -94,5 +94,5 @@ Click **Update** and return to the **Article Checklist Summaries** list. The che
 
 To view all the AQI reviews you completed, navigate to **Knowledge** &gt; **My Completed AQI Checklists**.
 
-**Parent Topic:**[Use Article Quality Index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/use-article-quality-index.md)
+**Parent Topic:**[Use Article Quality Index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/use-article-quality-index.md)
 

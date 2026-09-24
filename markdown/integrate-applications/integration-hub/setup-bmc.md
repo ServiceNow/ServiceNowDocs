@@ -3,7 +3,7 @@ title: Set up the BMC Remedy spoke
 description: Integrate the ServiceNow instance and BMC Remedy by using Remedy credentials to authenticate ServiceNow requests.Create Credential records for your BMC Remedy application. The BMC Remedy spoke connection and credential alias uses these credentials to authorize actions.Create Connection record for your BMC Remedy application. The BMC Remedy spoke connection and credential alias uses this connection to perform actions in BMC Remedy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-bmc.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -146,12 +146,12 @@ Role required: admin.
 
     -   To configure the default connection and credential alias record that is shipped along with the BMC Remedy spoke, click **View Details**.
 
-        \[Omitted image "image.BMCRem\_Connection"\] Alt text: BMC Remedy spoke connection
+        \[Omitted image "bmc-rem-connection.png"\] Alt text: BMC Remedy spoke connection
 
-    -   To manage more than one BMC Remedy spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    -   To manage more than one BMC Remedy spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
-    \[Omitted image "image.BMCRem\_Connect\_Conf"\] Alt text: BMC Remedy spoke connection configuration
+    \[Omitted image "bmc-rem-connect-config.png"\] Alt text: BMC Remedy spoke connection configuration
 
 5.  On the form, fill in these fields:
 
@@ -165,7 +165,7 @@ Role required: admin.
     |Password|Password of the BMC Remedy user's account.|
     |Token Status|Status of the BMC Remedy token. Select `Active`.|
 
-    \[Omitted image "image.BMCRem\_Config\_temp"\] Alt text: BMC Remedy spoke configuration template.
+    \[Omitted image "bmc-rem-config-temp.png"\] Alt text: BMC Remedy spoke configuration template.
 
 6.  Click **Configure and Get OAuth Token**.
 

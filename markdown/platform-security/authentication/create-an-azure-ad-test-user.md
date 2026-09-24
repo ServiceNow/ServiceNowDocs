@@ -3,11 +3,11 @@ title: Create an Azure AD test user
 description: Create a test user on Azure AD.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/create-an-azure-ad-test-user.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Azure AD Integration with SAML 2.0, Integrating SAML 2.0 with other features, SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---

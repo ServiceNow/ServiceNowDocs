@@ -3,11 +3,11 @@ title: Define and bind client scripts to components
 description: Add and edit client scripts in UI Builder so that you can update the client state through events. You can bind these scripts to any component by using an event handler.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/define-client-scripts.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Dynamically expose data in UI Builder pages \(advanced feature\), Advanced UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -22,7 +22,7 @@ Role required: ui\_builder\_admin
 
 ## About this task
 
-You can create JavaScript client scripts in UI Builder by using the Now Code editor. Then, you can add the client script as an [event handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-glossary.md) to update the client state, emit a handled event of your page, or execute a [data resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-glossary.md) operation. For example, you could write a script to increment a date or counter, and bind the script to a component event, like a button click. For more information about the Now Code Editor, see [Edit code with the Now Code Editor \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/now-code-editor.md).
+You can create JavaScript client scripts in UI Builder by using the Now Code editor. Then, you can add the client script as an [event handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/ui-builder-glossary.md) to update the client state, emit a handled event of your page, or execute a [data resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/ui-builder-glossary.md) operation. For example, you could write a script to increment a date or counter, and bind the script to a component event, like a button click. For more information about the Now Code Editor, see [Edit code with the Now Code Editor \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/now-code-editor.md).
 
 With these scripts, you can do the following actions:
 
@@ -37,15 +37,15 @@ With these scripts, you can do the following actions:
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md).
+    For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-experiences.md).
 
 3.  Open or create a page.
 
-    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-page.md).
 
 4.  If you do not have any components on your page, add a component to your page.
 
-    For example, you can add a Heading component. For more information, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-components.md).
+    For example, you can add a Heading component. For more information, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/add-components.md).
 
 5.  Select **+** next to **Client scripts**.
 
@@ -74,5 +74,5 @@ With these scripts, you can do the following actions:
 12. To preview your scripted component, select \[Omitted image "preview-button.png"\] Alt text: Preview button that opens the page variant..
 
 
-**Parent Topic:**[Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/data-resources.md)
+**Parent Topic:**[Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/data-resources.md)
 

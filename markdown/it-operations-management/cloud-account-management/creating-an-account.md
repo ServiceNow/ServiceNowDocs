@@ -3,11 +3,11 @@ title: Creating a cloud account
 description: Creating a cloud account involves a requester submitting an account request, an approver approving or rejecting the request, and that admin provisioning the account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/creating-an-account.html
-release: australia
+release: brazil
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---

@@ -3,11 +3,11 @@ title: Rules in Recommended Actions for ITSM
 description: ITSM base system includes the following rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/rules-in-recommended-actions-for-itsm.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Recommended Actions for ITSM reference, Recommended Actions for ITSM in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -65,5 +65,5 @@ High impact Problem with no known error article
 Displays the Create known error article recommendation for a high-impact problem with no attached known error article.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Recommended Actions for ITSM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/recommended-actions-for-itsm-reference.md)
+</table>**Parent Topic:**[Recommended Actions for ITSM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/recommended-actions-for-itsm-reference.md)
 

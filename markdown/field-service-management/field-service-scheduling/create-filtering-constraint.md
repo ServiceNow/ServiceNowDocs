@@ -3,11 +3,11 @@ title: Create a filter constraint or a ranking criteria for a task recommendatio
 description: Define a filtering constraints or a ranking criteria for a task recommendation policy. Filter the best matched tasks for the agent based on the filter ordering rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/create-filtering-constraint.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Task Recommendation Policies, Configure Intelligent Task Recommendations, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---

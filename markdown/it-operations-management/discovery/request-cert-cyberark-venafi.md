@@ -3,11 +3,11 @@ title: Request certificates through CyberArk Certificate Manager SaaS
 description: Submit a certificate request managed through CyberArk Certificate Manager SaaS using configured routing policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/request-cert-cyberark-venafi.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2024-12-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [CyberArk Certificate Manager SaaS certificate request]
 breadcrumb: [Certificate management with CyberArk Certificate Manager SaaS, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
@@ -19,8 +19,8 @@ Submit a certificate request managed through CyberArk Certificate Manager SaaS u
 
 ## Before you begin
 
--   CyberArk credentials must have been configured. For more information, see [Configure CyberArk Certificate Manager SaaS credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/configure-cyberark-venafi-creds.md).
--   Routing policies must have been configured. For more information, see [Create routing policies for CyberArk Certificate Manager SaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-routing-policy-cyberark.md).
+-   CyberArk credentials must have been configured. For more information, see [Configure CyberArk Certificate Manager SaaS credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/configure-cyberark-venafi-creds.md).
+-   Routing policies must have been configured. For more information, see [Create routing policies for CyberArk Certificate Manager SaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/create-routing-policy-cyberark.md).
 
 Role required: pki\_admin, pki\_user, or admin.
 
@@ -40,9 +40,9 @@ Role required: pki\_admin, pki\_user, or admin.
 
 4.  On the Request New Certificate \(Automated\) form, fill in the fields.
 
-    For a description of the field values, see [Certificate request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/req-new-cert-form-table-fields.md).
+    For a description of the field values, see [Certificate request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/req-new-cert-form-table-fields.md).
 
-    **Note:** A configured routing policy is applied automatically based on certificate attributes. For more information, see [Create routing policies for CyberArk Certificate Manager SaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-routing-policy-cyberark.md)
+    **Note:** A configured routing policy is applied automatically based on certificate attributes. For more information, see [Create routing policies for CyberArk Certificate Manager SaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/create-routing-policy-cyberark.md)
 
 5.  Select **Submit**.
 

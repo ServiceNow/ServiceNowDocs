@@ -3,9 +3,9 @@ title: View Early Warning for Security Exposure Management integration health
 description: Monitor the Early Warning for Security Exposure Management integration by reviewing run history, ingestion performance, and processing health from the Security Exposure Management Administration console.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/view-armis-early-warning-health.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Armis Early Warning, integration health, ingestion health, integration runs]
 breadcrumb: [Early Warning for Security Exposure Management, Integrate, Unified Security Exposure Management, Security Operations]
@@ -45,6 +45,4 @@ Role required: sn\_vul\_int\_fw.read\_integrations
 
     A status of **Success** with the note "Successfully completed integration run. No more data to process at this time." confirms that the integration is current and no new CVEs arrived in the last run.
 
-
-**Parent Topic:**[Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/armis-early-warning-integration.md)
 

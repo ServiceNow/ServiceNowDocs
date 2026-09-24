@@ -3,11 +3,11 @@ title: Customize the module name
 description: Customize the module name of the Operational Technology \(OT\) Progress Scorecard to change its name from the default value with a name more suitable for your needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/customize-module-name.html
-release: australia
+release: brazil
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up the Operational Technology Progress Scorecard, Configure, Industrial Workspace, Operational Technology]
 ---
@@ -33,5 +33,5 @@ Role required: admin or ui\_builder\_admin
 5.  Select **Update**.
 
 
-**Parent Topic:**[Setting up the Operational Technology Progress Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/setting-up-the-ot-progress-scorecard.md)
+**Parent Topic:**[Setting up the Operational Technology Progress Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/setting-up-the-ot-progress-scorecard.md)
 

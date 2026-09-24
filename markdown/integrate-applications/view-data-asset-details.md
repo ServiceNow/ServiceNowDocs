@@ -3,9 +3,9 @@ title: View data asset details
 description: The asset detail page organizes data asset information into tabs, including overview, columns, relationships, lineage, quality, and activity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/view-data-asset-details.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [data asset details]
 breadcrumb: [Finding and accessing data assets, Data Catalog, Workflow Data Fabric]
@@ -33,13 +33,13 @@ Asset detail pages organize information into tabs for easy navigation. The Overv
 
 3.  Select the data asset you want to view.
 
-4.  On the Overview tab view the general details about the asset, such as, the name, source, columns included \(if it is a table\), the preview of [relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/explore-data-asset-relationships-dc.md) and [lineage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/explore-data-assets-lineage-dc.md).
+4.  On the Overview tab view the general details about the asset, such as, the name, source, columns included \(if it is a table\), the preview of [relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/explore-data-asset-relationships-dc.md) and [lineage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/explore-data-assets-lineage-dc.md).
 
-    General details include the name, source, and columns included \(for table assets\). The Overview tab also shows a preview of [asset relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/explore-data-asset-relationships-dc.md) and [asset lineage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/explore-data-assets-lineage-dc.md). For table and column assets, the Overview tab also shows a Quality section with the overall data quality status, the number of rules, the number of passed rules, and when quality was last evaluated. Select **View all** to open the Quality tab.
+    General details include the name, source, and columns included \(for table assets\). The Overview tab also shows a preview of [asset relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/explore-data-asset-relationships-dc.md) and [asset lineage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/explore-data-assets-lineage-dc.md). For table and column assets, the Overview tab also shows a Quality section with the overall data quality status, the number of rules, the number of passed rules, and when quality was last evaluated. Select **View all** to open the Quality tab.
 
 5.  On the Columns tab, view column information for tabular assets, such as tables.
 
-    The tab displays details like Asset name, Relationship, Data type, etc. The Classifier field displays the classification assigned to the columns harvested by the ServiceNow collector. If classification has not run on the table, the Classifier column displays null. Check your entitlements to determine whether you have access to the data classification feature. For details, see [Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-classification.md)
+    The tab displays details like Asset name, Relationship, Data type, etc. The Classifier field displays the classification assigned to the columns harvested by the ServiceNow collector. If classification has not run on the table, the Classifier column displays null. Check your entitlements to determine whether you have access to the data classification feature. For details, see [Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-classification.md)
 
     Select a column name to browse to the details page of the column.
 
@@ -49,17 +49,17 @@ Asset detail pages organize information into tabs for easy navigation. The Overv
 
     The Quality tab is available for table and column assets. The summary shows the overall data quality status, the total number of rules, and the number of passed rules. Quality badges awarded to the resource are also displayed here.
 
-    The Rules table lists each rule with its source, asset type, asset name, category, status, and last run time. External data quality tools submit rule results via the Data Quality API. Use filters and search to locate a specific rule. To control how long data quality audit and unmatched queue records are retained before they are purged, configure the retention property. For more information, see [Data quality properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-quality-properties.md).
+    The Rules table lists each rule with its source, asset type, asset name, category, status, and last run time. External data quality tools submit rule results via the Data Quality API. Use filters and search to locate a specific rule. To control how long data quality audit and unmatched queue records are retained before they are purged, configure the retention property. For more information, see [Data quality properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/data-quality-properties.md).
 
 8.  On the Activity tab, review the activities performed on the data asset.
 
     The system stores the name of the user who made the change, the change details, and the timestamp. Use filters, search, and sort to locate the change you want to track.
 
 
--   **[Explore data asset relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/explore-data-asset-relationships-dc.md)**  
+-   **[Explore data asset relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/explore-data-asset-relationships-dc.md)**  
 See the data assets, business terms, and governance objects connected to a data asset. Open the relationships view in Graph Explorer to expand, hide, and rearrange the graph.
--   **[Explore data assets lineage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/explore-data-assets-lineage-dc.md)**  
+-   **[Explore data assets lineage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/explore-data-assets-lineage-dc.md)**  
 Trace the upstream sources and downstream consumers of a data asset. Open the lineage view in Graph Explorer to examine specific relationships, focus on a path, and review related asset details.
 
-**Parent Topic:**[Finding and accessing data assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/find-access-data-assets-dc.md)
+**Parent Topic:**[Finding and accessing data assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/find-access-data-assets-dc.md)
 

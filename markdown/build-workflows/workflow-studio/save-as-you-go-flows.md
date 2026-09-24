@@ -3,11 +3,11 @@ title: Save as you go flows
 description: Save flows, subflows, and actions automatically as you work on them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/save-as-you-go-flows.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -45,10 +45,10 @@ Workflow Studio displays the last saved icon after saving a flow \[Omitted image
 
 ## Read-only flow interactions
 
-You can't save a flow that you don't have edit rights to. Make sure to save your work while you’re editing a flow. To avoid losing changes to the editing time-out value, perform any of the operations that trigger automatically saving the flow. For more information about when flows are in a read-only state, see [Default read-only flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/default-read-only-flows.md).
+You can't save a flow that you don't have edit rights to. Make sure to save your work while you’re editing a flow. To avoid losing changes to the editing time-out value, perform any of the operations that trigger automatically saving the flow. For more information about when flows are in a read-only state, see [Default read-only flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/default-read-only-flows.md).
 
--   **[Restore save as you go functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/restore-save-as-you-go-functionality.md)**  
+-   **[Restore save as you go functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/restore-save-as-you-go-functionality.md)**  
 Restore save as you go functionality that was disabled in the Washington DC release.
 
-**Parent Topic:**[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md)
+**Parent Topic:**[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flows.md)
 

@@ -3,11 +3,11 @@ title: Privacy new case form
 description: On the new privacy case form, fill in the fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/privacy-new-case-form.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Create a privacy case in the Privacy Workspace, Report a privacy case, Use, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -463,5 +463,5 @@ Additional comments \(Customer visible\)
 Additional information regarding the case for the customers.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a privacy case in the Privacy Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-a-privacy-case.md)
+</table>**Parent Topic:**[Create a privacy case in the Privacy Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/create-a-privacy-case.md)
 

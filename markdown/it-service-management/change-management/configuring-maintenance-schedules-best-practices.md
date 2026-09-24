@@ -3,11 +3,11 @@ title: Configuring maintenance schedules - Best practices
 description: Maintenance schedules define the periods during which a Configuration Item or change can be implemented.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/configuring-maintenance-schedules-best-practices.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Change Management, IT Service Management]
 ---
@@ -20,7 +20,7 @@ These schedules are incorporated into the conflict detection process for change 
 
 There are two ways to define Maintenance schedules for Conflict Detection:
 
--   [Configure maintenance schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateBlkoutMaintSched.md). This path is enabled through the change.conflict.currentwindow system property.
+-   [Configure maintenance schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_CreateBlkoutMaintSched.md). This path is enabled through the change.conflict.currentwindow system property.
 -   Create maintenance schedule using Schedules table \[cmn\_schedule\]. This method can be enabled using the change.conflict.ci\_maint\_sched system property.
 
     **Note:** These system properties can be configured on the Conflict properties.
@@ -32,7 +32,7 @@ All Maintenance Schedules defined through this method are processed based on the
 
 It should be noted that the presence of multiple Maintenance Schedules extends the time required to determine their relevance, and this duration increases with each Affected CI.
 
-If a generic schedule is applicable to numerous CIs or change requests, you must define a maintenance schedule using [Configure maintenance schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateBlkoutMaintSched.md).
+If a generic schedule is applicable to numerous CIs or change requests, you must define a maintenance schedule using [Configure maintenance schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_CreateBlkoutMaintSched.md).
 
 However, if your schedules are tailored to a limited number of CIs, you must consider creating maintenance schedule using schedules table.
 
@@ -48,5 +48,5 @@ Unlike the maintenance schedule record, the schedule record lacks a condition or
 
 \[Omitted image "cmn\_schedule\_form.png"\] Alt text: Schedules table
 
-**Parent Topic:**[Reference section for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/reference-change-management.md)
+**Parent Topic:**[Reference section for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/reference-change-management.md)
 

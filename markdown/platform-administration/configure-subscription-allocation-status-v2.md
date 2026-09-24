@@ -3,9 +3,9 @@ title: Configure subscription allocation status in Subscription Management
 description: Identify when you're close to allocating all of your subscriptions by configuring an allocation status threshold if you prefer a threshold other than the default value of 90 percent in Subscription Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/configure-subscription-allocation-status-v2.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Subscription Management, Get started, Administer the ServiceNow AI Platform]
 ---

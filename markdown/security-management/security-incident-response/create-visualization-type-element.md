@@ -3,11 +3,11 @@ title: Create a Visualization Type Element
 description: Create a visualization element type to define the visualization elements more declaratively with filter options such as assignment groups and labels.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-visualization-type-element.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create Report Subsection Element template, Configure Major Security Incident status reports, Manage MSIM status reports, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -36,7 +36,7 @@ Role required: sn\_msi.workspace\_manager
 
 6.  Navigate to **Report subsection elements** &gt; **New**.
 
-7.  Fill in the report subsection elements form with the required details as explained in [Create Report Subsection Element template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-report-subsection-element-template.md).
+7.  Fill in the report subsection elements form with the required details as explained in [Create Report Subsection Element template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/create-report-subsection-element-template.md).
 
 8.  Navigate to the Report Subsection element Type field, and select the **Visualization** option.
 
@@ -53,5 +53,5 @@ Role required: sn\_msi.workspace\_manager
 10. Select **Submit**.
 
 
-**Parent Topic:**[Create Report Subsection Element template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-report-subsection-element-template.md)
+**Parent Topic:**[Create Report Subsection Element template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/create-report-subsection-element-template.md)
 

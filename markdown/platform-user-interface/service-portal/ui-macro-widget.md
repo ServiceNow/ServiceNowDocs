@@ -3,11 +3,11 @@ title: Replace a Service Catalog form script with a widget
 description: You can use widgets in Service Portal to replace UI Macros. If your Service Catalog form includes a UI Macro that references other fields or variables on the form, you can create a widget to hold reusable code and embed it within the Service Catalog form. Use special syntax to access any variable fields on the form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/ui-macro-widget.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Developing custom widgets, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -67,12 +67,12 @@ Role required: admin or sp\_admin
 
     You can use the following to access variable or catalog item fields:
 
-    -   `$scope.page.g_form()`: The g\_form instance on the form. You can use all supported g\_form methods described in [Service Portal and client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/unsupported_client_scripts.md). For example, `g_form.setValue('variable_name', 'new value');`.
+    -   `$scope.page.g_form()`: The g\_form instance on the form. You can use all supported g\_form methods described in [Service Portal and client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/unsupported_client_scripts.md). For example, `g_form.setValue('variable_name', 'new value');`.
     -   `$scope.page.field()`: The object that represents the variable.
     When you open the catalog item in the Service Portal, the embedded widget accesses the variable fields associated with the catalog item.
 
     \[Omitted image "macro-var.png"\] Alt text: The input to the variable displays in the embedded widget.
 
 
-**Parent Topic:**[Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/widget-dev-guide.md)
+**Parent Topic:**[Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/widget-dev-guide.md)
 

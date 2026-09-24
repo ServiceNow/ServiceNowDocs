@@ -3,11 +3,11 @@ title: Multicurrency fields in demand forms
 description: Multicurrency fields are available in the demand forms when the demand currency view is enabled.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/demand-tables-with-demand-currency-fields.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Multicurrency reference, Reference, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---

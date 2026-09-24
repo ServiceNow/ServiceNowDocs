@@ -3,11 +3,11 @@ title: ServiceNow Studio and Build Agent tutorial
 description: Use Build Agent in ServiceNow Studio to develop reusable server‑side logic and create an application on the ServiceNow AI Platform, taking it from initial data modeling through testing and validation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sns-ba-tutorial-landing.html
-release: australia
+release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2026-04-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, ServiceNow Studio, Developing your application, Building applications]
 ---

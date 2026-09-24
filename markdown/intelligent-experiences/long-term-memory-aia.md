@@ -3,11 +3,11 @@ title: Set up long-term memory
 description: Make AI agents remember your preference or facts from previous interactions and use memories for more focused conversations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/long-term-memory-aia.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Configure, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Set up long-term memory

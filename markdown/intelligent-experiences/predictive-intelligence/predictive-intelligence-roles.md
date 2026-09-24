@@ -3,22 +3,22 @@ title: Predictive Intelligence roles
 description: Predictive Intelligence is installed with these roles.Can create, read, write or delete the ml\_predictor\_results table and the ml\_predictor\_results\_task table.Can create, read, write or delete the ml\_label\_candidate table.Can read the ml\_predictor\_results table and the ml\_predictor\_results\_task table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/predictive-intelligence-roles.html
-release: australia
+release: brazil
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Predictive Intelligence references, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Predictive Intelligence references, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Predictive Intelligence roles
 
 Predictive Intelligence is installed with these roles.
 
-To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
-**Parent Topic:**[Predictive Intelligence references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/reference-predictive-intelligence.md)
+**Parent Topic:**[Predictive Intelligence references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/predictive-intelligence/reference-predictive-intelligence.md)
 
 **Related topics**  
 

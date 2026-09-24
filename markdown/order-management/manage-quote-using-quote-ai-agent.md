@@ -3,9 +3,9 @@ title: Manage quotes using the Quote AI Agent
 description: Use the Quote AI Agent to create a quote, modify an existing quote, or review a quote that the agent generated automatically from a trigger condition.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/manage-quote-using-quote-ai-agent.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -42,15 +42,15 @@ If a change requires approval, the agent notifies you and starts the approval wo
 
 3.  Enter your request or respond to the agent, depending on your operation.
 
-<table><thead><tr><th align="left" id="d80540e138">
+<table><thead><tr><th align="left" id="d81310e138">
 
 Operation
 
-</th><th align="left" id="d80540e141">
+</th><th align="left" id="d81310e141">
 
 What to do
 
-</th></tr></thead><tbody><tr><td id="d80540e147">
+</th></tr></thead><tbody><tr><td id="d81310e147">
 
 **Create a quote**
 
@@ -65,7 +65,7 @@ Enter your request in the chat, including the opportunity number and any pricing
 -   `Create a quote for Opportunity OPT001 and generate an email with the document.`
 
 
-</td></tr><tr><td id="d80540e177">
+</td></tr><tr><td id="d81310e177">
 
 **Modify a quote**
 
@@ -81,7 +81,7 @@ Enter your modification request in the chat, including the quote number and the 
 -   `Change the price list on this quote to the EMEA price list.`
 
 
-</td></tr><tr><td id="d80540e211">
+</td></tr><tr><td id="d81310e211">
 
 **Review a trigger-generated quote**
 
@@ -118,5 +118,5 @@ Review the draft quote that the agent created, including the products, quantitie
 
 The quote is created, updated, or finalized and attached to the opportunity. The agent updates the opportunity work notes with a summary of the actions taken and notifies you through Microsoft Teams and ServiceNow Otto for CPQ.
 
-**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-mgmt-using.md)
 

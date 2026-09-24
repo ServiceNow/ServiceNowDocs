@@ -3,11 +3,11 @@ title: Access ServiceNow Studio
 description: Open ServiceNow Studio from the ServiceNow AI Platform All menu or directly from App Engine Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/access-servicenow-studio.html
-release: australia
+release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, ServiceNow Studio, Developing your application, Building applications]
 ---

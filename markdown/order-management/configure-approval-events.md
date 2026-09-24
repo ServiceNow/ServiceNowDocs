@@ -3,10 +3,10 @@ title: Configure approval events
 description: Configure the approval system events that control the approval buttons and stage transitions for a CPQ implementation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-approval-events.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-29"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 keywords: [approvals, approval events, event access, stage transition, configuration]
 breadcrumb: [Set up the environment to manage approvals, Advanced Approval Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -19,16 +19,15 @@ Configure the approval system events that control the approval buttons and stage
 
 Role required: admin or sn\_adv\_appr\_mgmt.approval\_rule\_admin
 
-The environment setup must be complete so that the approval system events, integrations, rules, and fields are seeded in your instance. For more information, see [Set up the environment to manage approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/setup-approvals-prerequisites.md).
+The environment setup must be complete so that the approval system events, integrations, rules, and fields are seeded in your instance. For more information, see [Set up the environment to manage approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/setup-approvals-prerequisites.md).
 
 ## About this task
 
-Configure these events without creating any additional events. The events fall into two groups based on how they are triggered.
+Configure these events. Do not create additional ones. The events fall into two groups based on how they are triggered.
 
 |Event|Trigger type|What you configure|
 |-----|------------|------------------|
 |Preview Approval \(**txn.approval.preview**\)|Layout button|Event access rules that control when the button is visible, plus a layout button with a UI effect that opens the embedded SN approval component.|
-|Recall Approval \(**txn.approval.recall**\)|Layout button|
 |View Approval \(**txn.approval.view**\)|Layout button|
 |Request Approval \(**txn.approval.request**\)|Fired by the embedded component|The stage transition that occurs after the action completes. No layout button is needed.|
 |Approve Approval \(**txn.approval.approve**\)|Fired by the embedded component|
@@ -45,13 +44,11 @@ Configure these events without creating any additional events. The events fall i
 
     3.  Select **Edit Event Access** in the top right.
 
-    4.  Ensure the **Default Access** is set to Active.
-
-    5.  Configure the visibility condition to show this event when txn.approvalState equals empty \(""\).
+    4.  Configure the visibility condition to show this event when txn.approvalState equals empty \(""\) or draft.
 
         The Preview button appears only when no approval is in progress.
 
-    6.  Select **Save**.
+    5.  Select **Save**.
 
     **Tip:** The preceding conditions reflect the default. Adjust them to match your stage structure—for example, if there are additional stages where the Preview button should or should not appear, add or modify conditions accordingly.
 
@@ -74,20 +71,18 @@ Configure these events without creating any additional events. The events fall i
 
     The Preview Approval button appears in draft state and opens the embedded approval component in Preview mode.
 
-4.  Configure the View Approval event \(**txn.approval.view**\). The UI effect on the View Approval button opens the embedded SN approval component in Status mode, showing the current approval status, approver details, history, and a **Recall** button for pending approvals. The **Recall** button appears on the header of the transaction.
+4.  Configure the View Approval event \(**txn.approval.view**\). The UI effect on the View Approval button opens the embedded SN approval component in Status mode, showing the current approval status, approver details, history, and a **Recall** button for pending approvals. The **Recall** button inside this component triggers the Cancel Approval event.
 5.  Configure the event access that controls when the View Approval button is visible.
 
     1.  Open the View Approval event \(**txn.approval.view**\).
 
     2.  Select **Edit Event Access** in the top right.
 
-    3.  Ensure the **Default Access** is set to Active.
-
-    4.  Configure the visibility condition to show this event when txn.approvalState is not empty, for example, when it equals requested, approved, recalled, or rejected.
+    3.  Configure the visibility condition to show this event when txn.approvalState is not empty and not draft—for example, when it equals requested, approved, recalled, or rejected.
 
         The View button appears only after an approval is initiated.
 
-    5.  Select **Save**.
+    4.  Select **Save**.
 
     **Tip:** You control which approval states cause this button to appear. For example, if you do not want the View button visible after an approval is fully completed, you can exclude the approved state from the condition.
 
@@ -117,21 +112,17 @@ Configure these events without creating any additional events. The events fall i
 
     2.  Open the Request Approval event \(**txn.approval.request**\).
 
-    3.  Select Edit Event Access in the top right.
+    3.  Scroll to the **Stage Transition** section.
 
-    4.  Ensure the **Default Access** is set to Active and select **Done**.
+    4.  Enable the **Transition after actions** toggle.
 
-    5.  Scroll to the **Stage Transition** section.
+    5.  Set **After all actions run, transition to** **forward**.
 
-    6.  Enable the **Transition after actions** toggle.
+    6.  Select **Add New Action**.
 
-    7.  Set **After all actions run, transition to** **forward**.
+    7.  To add rule group to an event, select the **Rule grouping** and then assign the **txn.approval.submission** rule grouping.
 
-    8.  Select **Add New Action**.
-
-    9.  To add rule group to an event, select the **Rule grouping** and then assign the **txn.approval.submission** rule grouping.
-
-    10. Select **Save**.
+    8.  Select **Save**.
 
     **Tip:** If your stage sequence differs from the default, verify the forward transition points to the correct next stage. You can also add a Rule Grouping action on this event if additional rules need to run at submission time.
 
@@ -143,21 +134,17 @@ Configure these events without creating any additional events. The events fall i
 
     1.  Open the Approve Approval event \(**txn.approval.approve**\).
 
-    2.  Select Edit Event Access in the top right.
+    2.  Scroll to the **Stage Transition** section.
 
-    3.  Ensure the **Default Access** is set to Active and select **Done**.
+    3.  Enable the **Transition after actions** toggle.
 
-    4.  Scroll to the **Stage Transition** section.
+    4.  Set **After all actions run, transition to** **forward**.
 
-    5.  Enable the **Transition after actions** toggle.
+    5.  Select **Add New Action**.
 
-    6.  Set **After all actions run, transition to** **forward**.
+    6.  To add rule group to an event, select the **Rule grouping** and then assign the **txn.approval.completion** rule grouping.
 
-    7.  Select **Add New Action**.
-
-    8.  To add rule group to an event, select the **Rule grouping** and then assign the **txn.approval.completion** rule grouping.
-
-    9.  Select **Save**.
+    7.  Select **Save**.
 
     **Tip:** If you have additional stages between Pending Approval and Approved, verify the forward transition lands on the correct destination. Entry criteria on the Approved stage validates the state before allowing entry regardless.
 
@@ -169,57 +156,23 @@ Configure these events without creating any additional events. The events fall i
 
     1.  Open the Cancel Approval event \(**txn.approval.cancel**\).
 
-    2.  Select Edit Event Access in the top right.
+    2.  Scroll to the **Stage Transition** section.
 
-    3.  Ensure the **Default Access** is set to Active and select **Done**.
+    3.  Enable the **Transition after actions** toggle.
 
-    4.  Scroll to the **Stage Transition** section.
+    4.  Set **After all actions run, transition to** **backward**.
 
-    5.  Enable the **Transition after actions** toggle.
+    5.  Set **If available from current stage, go back to** **Draft**.
 
-    6.  Set **After all actions run, transition to** **backward**.
+    6.  Select **Add New Action**.
 
-    7.  Set **If available from current stage, go back to** **Draft**.
+    7.  To add rule group to an event, select the **Rule grouping** and then assign the **txn.approval.revision** rule grouping.
 
-    8.  Select **Add New Action**.
-
-    9.  To add rule group to an event, select the **Rule grouping** and then assign the **txn.approval.revision** rule grouping.
-
-    10. Select **Save**.
+    8.  Select **Save**.
 
     **Tip:** If you want the transaction to return to a different stage on recall or rejection—for example, a dedicated Rejected stage rather than Draft—change the target stage here and verify that stage exists in your blueprint with appropriate entry criteria.
 
     On recall or rejection, the transaction returns to the Draft stage so the seller can make changes and resubmit.
-
-11. Configure the event access that controls when the Recall button is visible in the transaction header.
-
-    1.  Navigate to **CPQ Administration** &gt; **Transaction** &gt; **Events**.
-
-    2.  Open the Recall Approval event \(**txn.approval.recall**\).
-
-    3.  Select **Edit Event Access** in the top right.
-
-    4.  Ensure the **Default Access** is set to Active.
-
-    5.  Configure the visibility condition to show this recall event: Disable when txn.approvalState Does Not Equal "requested" Hide when txn.approvalState Does Not Equal "requested".
-
-        The Recall button appears only when an approval is in progress.
-
-    6.  Select **Save**.
-
-    **Tip:** The preceding conditions reflect the default. Adjust them to match your stage structure—for example, if there are additional stages where the Preview button should or should not appear, add or modify conditions accordingly.
-
-12. Add the Recall Approval button to the layout.
-
-    1.  Navigate to **Transaction** &gt; **Layouts** and open your layout.
-
-    2.  In the **Header Buttons** section, add a new button and label it **Recall Approval** or a label of your choice.
-
-    3.  In **Button Properties**, enable the **Event Button** toggle, then in the **Event** field select **Recall Approval**.
-
-        This links the button visibility to the event access rules you configured.
-
-    4.  Select **Save**.
 
 
 ## Result
@@ -228,5 +181,5 @@ All five approval events are configured. The Preview and View buttons appear in 
 
 ## What to do next
 
-Configure the stages and entry criteria that validate each approval state transition. For more information, see [Configure stages and entry criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-stages-entry-criteria.md).
+Configure the stages and entry criteria that validate each approval state transition. For more information, see [Configure stages and entry criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-stages-entry-criteria.md).
 

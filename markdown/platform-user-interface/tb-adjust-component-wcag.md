@@ -3,9 +3,9 @@ title: Adjust a component to meet accessibility standards
 description: Adjust a component to meet the Web Content Accessibility Guidelines \(WCAG\) 2.1. When you're editing a component in Theme Builder and see a warning symbol, that indicates that the component doesn't conform with the guidelines for color contrast.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/tb-adjust-component-wcag.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Edit components, Component styles, Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -18,7 +18,7 @@ Adjust a component to meet the Web Content Accessibility Guidelines \(WCAG\) 2.1
 
 Role required: ui\_builder\_admin
 
-For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
+For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/granular-admin-roles.md).
 
 You can also watch a short video on how to fix accessibility errors.
 
@@ -34,15 +34,15 @@ The total number of accessibility violations are indicated on the red numbered b
 
 1.  From the Editor page, access the accessibility violations in one of the two ways listed in the following table.
 
-<table id="choicetable_php_1vv_2dc"><thead><tr><th align="left" id="d115752e110">
+<table id="choicetable_php_1vv_2dc"><thead><tr><th align="left" id="d116315e110">
 
 Option
 
-</th><th align="left" id="d115752e113">
+</th><th align="left" id="d116315e113">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d115752e119">
+</th></tr></thead><tbody><tr><td id="d116315e119">
 
 **From Accessibility inspector**
 
@@ -54,7 +54,7 @@ Description
 
 **Note:** The Component Editor page appears and the configurable style panel displays the editable hooks available for the selected component.
 
-</td></tr><tr><td id="d115752e158">
+</td></tr><tr><td id="d116315e158">
 
 **From the Component styles menu**
 

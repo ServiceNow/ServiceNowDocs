@@ -3,7 +3,7 @@ title: Configure the GOV.UK Design System Service Portal Case List page
 description: Configure the case list page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gds-case-list-page.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-06-01"
 reading_time_minutes: 2
@@ -22,7 +22,7 @@ By default, the Case List page contains the following widgets that can be custom
 
 -   Header widget, which controls which options appear in the page header. Contains GOV.UK logo, global navigation, language selector, notifications, user profile.
 
-    **Note:** This widget cannot be cloned for modification. Instead, configure the header menu by associating the header menu with a portal. For more information on configuring a header menu, see [Configure a portal header menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-header-menu.md).
+    **Note:** This widget cannot be cloned for modification. Instead, configure the header menu by associating the header menu with a portal. For more information on configuring a header menu, see [Configure a portal header menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-header-menu.md).
 
 -   Breadcrumbs widget, which displays information based on where a page is located in a portal, allowing users to navigate around.
 
@@ -47,10 +47,10 @@ By default, the Case List page contains the following widgets that can be custom
 
 -   Footer Widget, which displays support links, other resources, and legal disclaimers.
 
-    **Note:** Add or edit a footer for your portal by configuring it in the Theme form. For more information on adding a footer to a portal, see [Add a header or footer to a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-header-menu.md).
+    **Note:** Add or edit a footer for your portal by configuring it in the Theme form. For more information on adding a footer to a portal, see [Add a header or footer to a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-header-menu.md).
 
 
 .
 
-For more information on how to edit widgets that appear on a page in the Service Portal Designer, see [Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-pages.md). For more information on portal pages, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ConfigureAPage.md).
+For more information on how to edit widgets that appear on a page in the Service Portal Designer, see [Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-govuk-dev-tk-portal-pages.md). For more information on portal pages, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_ConfigureAPage.md).
 

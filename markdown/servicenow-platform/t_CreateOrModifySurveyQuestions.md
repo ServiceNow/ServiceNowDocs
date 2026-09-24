@@ -3,9 +3,9 @@ title: Create or modify survey questions
 description: You can create and administer survey questions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_CreateOrModifySurveyQuestions.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Survey questions, Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -38,7 +38,7 @@ Changes to a survey, such as the addition of questions or the modification of qu
 
     The fields that appear depend on the selected **Data type**.
 
-    For a description of the field values, see [Survey Question form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/survey-question-form.md).
+    For a description of the field values, see [Survey Question form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/survey-question-form.md).
 
 6.  Save the record.
 
@@ -47,7 +47,7 @@ Changes to a survey, such as the addition of questions or the modification of qu
     -   Be sure to create answer options if you select the **Choice** or **Likert Scale** data type.
     -   You cannot delete a survey question \(metric\) with user responses. To delete a survey question with user responses, you should delete the responses, and then delete the survey question.
 
-**Parent Topic:**[Survey questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyQuestion.md)
+**Parent Topic:**[Survey questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SurveyQuestion.md)
 
 **Related topics**  
 
@@ -62,9 +62,9 @@ Changes to a survey, such as the addition of questions or the modification of qu
 
 [Change the order of survey questions]()
 
-[Survey question template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyQuestionTemplate.md)
+[Survey question template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SurveyQuestionTemplate.md)
 
-[Trigger condition example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_TriggerConditionExample.md)
+[Trigger condition example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_TriggerConditionExample.md)
 
-[Survey trigger conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_TriggerConditions.md)
+[Survey trigger conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_TriggerConditions.md)
 

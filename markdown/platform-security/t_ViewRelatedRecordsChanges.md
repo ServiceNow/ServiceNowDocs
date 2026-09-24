@@ -3,9 +3,9 @@ title: View timeline of changes to related records
 description: On the time line of changes for a CI record, you can also view a timeline of changes for the CI's related records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_ViewRelatedRecordsChanges.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [History Timeline, Knowing about History sets, Auditing]
 ---

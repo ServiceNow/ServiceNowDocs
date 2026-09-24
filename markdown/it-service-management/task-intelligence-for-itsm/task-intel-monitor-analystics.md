@@ -3,11 +3,11 @@ title: Monitoring and Analytics for Task Intelligence for ITSM
 description: You can view the impacts of your trained incident prediction models. Monitor model performance overtime, track business value, and view what predictions your agents did and didn't use.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/task-intelligence-for-itsm/task-intel-monitor-analystics.html
-release: australia
+release: brazil
 product: Task Intelligence for ITSM
 classification: task-intelligence-for-itsm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Task Intelligence for ITSM, IT Service Management]
 ---
@@ -44,15 +44,15 @@ The Analytics dashboard uses visuals to track how the model used predictions ove
 
 -   **Predictions agents accepted**
 
-    The widget shows the correct predictions that your agents used during case management over time. If this number is trending downward, you can look to retrain your model. For more information on editing a trained model, see [Edit an incident prediction model in Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/edit-your-model.md).
+    The widget shows the correct predictions that your agents used during case management over time. If this number is trending downward, you can look to retrain your model. For more information on editing a trained model, see [Edit an incident prediction model in Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/task-intelligence-for-itsm/edit-your-model.md).
 
 -   **Predictions agents replaced**
 
-    The widget shows the incorrect predictions that your agents removed during case management over time. If this number is trending upward, you can look to retrain your model. For more information on editing a trained model, see [Edit an incident prediction model in Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/edit-your-model.md).
+    The widget shows the incorrect predictions that your agents removed during case management over time. If this number is trending upward, you can look to retrain your model. For more information on editing a trained model, see [Edit an incident prediction model in Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/task-intelligence-for-itsm/edit-your-model.md).
 
 -   **Predictions the model skipped**
 
-    The widget shows the number of predictions that were skipped by the model based on the model, output field, and date range selection. For more information on editing a trained model, see [Edit an incident prediction model in Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/edit-your-model.md).
+    The widget shows the number of predictions that were skipped by the model based on the model, output field, and date range selection. For more information on editing a trained model, see [Edit an incident prediction model in Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/task-intelligence-for-itsm/edit-your-model.md).
 
 -   **Performance overview**
 

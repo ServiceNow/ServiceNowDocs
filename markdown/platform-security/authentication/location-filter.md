@@ -3,11 +3,11 @@ title: Location Filter
 description: Location filter criteria can be used as filter input for users based on the user location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/location-filter.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Filter criteria, Adaptive authentication, Authentication, Access Management]
 ---
@@ -20,7 +20,7 @@ Location filter is a filter criteria that the admins can use while crafting the 
 
 **Note:**
 
--   Location filter is available with Zero Trust Access feature. For more information, see [Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/session-access.md).
+-   Location filter is available with Zero Trust Access feature. For more information, see [Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/session-access.md).
 -   The instance should be on ADCv2. If the instance isn’t on ADCv2, then user location information won’t be available.
 
 The location filter criteria enable you to perform the following:

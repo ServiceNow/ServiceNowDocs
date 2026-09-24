@@ -3,11 +3,11 @@ title: Find the cause of a "No Sensor Defined" error message
 description: Every active probe looks for a corresponding sensor to process the data that is collected by the probe. The "No Sensors Defined" message indicates that the corresponding sensor for the probe is missing or inactive.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/t\_IdentifyCauseNoSenDefEM.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Discovery error messages, Discovery monitoring and issue resolution, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -39,7 +39,7 @@ To find the cause of this error, identify the **Short Message** field of the err
     This field shows the name of the sensor where the error has occurred.
 
 
-**Parent Topic:**[Discovery error messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryErrorMessages.md)
+**Parent Topic:**[Discovery error messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c_DiscoveryErrorMessages.md)
 
 **Related topics**  
 

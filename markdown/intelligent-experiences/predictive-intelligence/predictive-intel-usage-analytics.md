@@ -3,13 +3,13 @@ title: Predictive Intelligence Usage Analytics dashboard
 description: The Predictive Intelligence Usage Analytics dashboard is a central location to understand the effectiveness and overall value of all your Predictive Intelligence solutions. View metrics for model training successes and failures. Monitor prediction statistics including breakdowns by individual model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/predictive-intel-usage-analytics.html
-release: australia
+release: brazil
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: concept
-last_updated: "2026-05-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Testing and monitoring predictions, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Testing and monitoring predictions, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Predictive Intelligence Usage Analytics dashboard
@@ -171,12 +171,12 @@ For the following widgets, use the selector labeled **Clustering solution** on t
 |Number of updates completed \(in last 7 days\)|The number of update jobs completed for a specified clustering solution.|
 |Details of Last Update \(in last 7 days\)|When the clustering solution was last updated, number of new clusters created, records assigned to existing clusters, and new clusters in the last update.|
 
-**Parent Topic:**[Testing and monitoring predictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/testing-reviewing-ml-solutions.md)
+**Parent Topic:**[Testing and monitoring predictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/predictive-intelligence/testing-reviewing-ml-solutions.md)
 
 **Related topics**  
 
 
-[Reviewing prediction errors with the Observability Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/prediction-errors-observability-dashboard.md)
+[Reviewing prediction errors with the Observability Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/predictive-intelligence/prediction-errors-observability-dashboard.md)
 
-[Track classification prediction results over time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/review-prediction-results.md)
+[Track classification prediction results over time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/predictive-intelligence/review-prediction-results.md)
 

@@ -3,11 +3,11 @@ title: Catalog Content widget
 description: The Catalog Content widget is part of the Service Catalog and includes a tiled list of all the content items available in the catalog. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/catalog-content-widget.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Service Catalog widgets, Widget library, Using portal widgets, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Service Catalog widgets, Widget library, Using portal widgets, Conf
 
 The Catalog Content widget is part of the Service Catalog and includes a tiled list of all the content items available in the catalog. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 
-The items that appear on the page are grouped by category alphabetically. Catalog items and categories are defined in the Service Catalog application in the platform. For more information on creating catalog items to appear in the catalog, see [Create a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_DefineACatalogItem.md).
+The items that appear on the page are grouped by category alphabetically. Catalog items and categories are defined in the Service Catalog application in the platform. For more information on creating catalog items to appear in the catalog, see [Create a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_DefineACatalogItem.md).
 
 \[Omitted image "WidgetCatalogContent.png"\] Alt text: Catalog Content widget containing example catalog content such as Password Reset and New Hire Order Guide
 
@@ -24,7 +24,7 @@ The items that appear on the page are grouped by category alphabetically. Catalo
 
 The Catalog Content widget does not include instance options.
 
-**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sc-widgets.md)
+**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/sc-widgets.md)
 
 **Related topics**  
 

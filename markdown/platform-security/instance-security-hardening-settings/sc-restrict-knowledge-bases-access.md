@@ -3,11 +3,11 @@ title: Restrict knowledge bases access
 description: The glide.knowman.block\_access\_with\_no\_user\_criteria property is used to control the read/write access of users on knowledge based articles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-restrict-knowledge-bases-access.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Access control, Hardening settings, Platform Security]
 
 The **glide.knowman.block\_access\_with\_no\_user\_criteria** property is used to control the read/write access of users on knowledge based articles.
 
-The **glide.knowman.block\_access\_with\_no\_user\_criteria** system property is used in knowledge record user criteria security. If **glide.knowman.block\_access\_with\_no\_user\_criteria** isn't set to the recommended value of **true**, then knowledge bases without can read or can contribute user criteria become readable and writable by all users.
+The **glide.knowman.block\_access\_with\_no\_user\_criteria** system property is used in knowledge record user criteria security. If **glide.knowman.block\_access\_with\_no\_user\_criteria** isn't set to the recommended value of **true**, then knowledge bases without `can read` or `can contribute` user criteria are readable and writable by all users.
 
 Ensure the property **glide.knowman.block\_access\_with\_no\_user\_criteria** is set to **true**.
 
@@ -68,7 +68,7 @@ Default value
 
 </td><td>
 
-&lt;none&gt;
+True
 
 </td></tr><tr><td>
 
@@ -84,7 +84,7 @@ Category
 
 </td><td>
 
-[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -94,7 +94,7 @@ Security risk
 
 -   Severity score: 9.1
 -   CVSS score: Critical
--   Security risk details: Knowledge bases lacking explicit "can read" or "can contribute" user criteria may become accessible and editable by all users, potentially leading to unauthorized access and modification of sensitive knowledge content.
+-   Security risk details: Knowledge bases lacking explicit "can read" or "can contribute" user criteria are accessible and editable by all users, potentially leading to unauthorized access and modification of sensitive knowledge content.
 
 </td></tr><tr><td>
 
@@ -113,5 +113,5 @@ Functional impact
 Denies access to a knowledge base when either Can Read or Can Contribute isn't specified.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
+</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

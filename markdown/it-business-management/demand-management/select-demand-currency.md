@@ -3,11 +3,11 @@ title: Select demand currency preference
 description: Set your currency preference to use for managing and tracking the financials of your demands from the functional currency, regional currency, or local currency.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/select-demand-currency.html
-release: australia
+release: brazil
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Multicurrency, Configure, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -28,15 +28,15 @@ Role required: admin
 
 2.  Select a currency option for managing your demands from the Demand currency setup list.
 
-<table id="choicetable_lc1_qht_dnb"><thead><tr><th align="left" id="d166010e82">
+<table id="choicetable_lc1_qht_dnb"><thead><tr><th align="left" id="d166325e82">
 
 Demand currency preference
 
-</th><th align="left" id="d166010e85">
+</th><th align="left" id="d166325e85">
 
 Currency Option
 
-</th></tr></thead><tbody><tr><td id="d166010e91">
+</th></tr></thead><tbody><tr><td id="d166325e91">
 
 **Manage demands using the functional currency**
 
@@ -44,7 +44,7 @@ Currency Option
 
 Select the **Follow functional currency** option to manage your demands using the functional currency of your organization. The project currency is carried over to the Project form when you create a project from the demand in the future. ​You can change the project currency for managing your projects later.For example, if the functional currency of your organization is USD, then USD is set as the currency for both demands and projects.
 
-</td></tr><tr><td id="d166010e106">
+</td></tr><tr><td id="d166325e106">
 
 **Manage demands using the same currency as the project currency**
 
@@ -52,7 +52,7 @@ Select the **Follow functional currency** option to manage your demands using th
 
 Select the **Drive project currency** option to manage your demands and projects using the same currency. This currency can be your functional currency or any other currency. For example, to manage your demand and project in GBP, select this option and specify GBP as your demand currency. The **Project Currency** field in the demand form is automatically populated with GBP on saving the form.
 
-</td></tr><tr><td id="d166010e124">
+</td></tr><tr><td id="d166325e124">
 
 **Manage demands and projects in different currencies**
 
@@ -66,7 +66,7 @@ Select **Flexi option** to manage your demands and projects, created from the de
 
 ## What to do next
 
-Enable the multicurrency view in the Demand and other demand-related forms. For more information, see [Enable demand currency view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/enable-multicurrency-demand.md).
+Enable the multicurrency view in the Demand and other demand-related forms. For more information, see [Enable demand currency view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/enable-multicurrency-demand.md).
 
-**Parent Topic:**[Multicurrency in Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/multicurrency-demand.md)
+**Parent Topic:**[Multicurrency in Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/multicurrency-demand.md)
 

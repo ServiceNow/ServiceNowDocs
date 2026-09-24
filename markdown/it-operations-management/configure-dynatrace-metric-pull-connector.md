@@ -3,11 +3,11 @@ title: Configure Dynatrace metric pull connector
 description: Configure metric pull connectors that require a script, connector definition, and connector instance to pull metrics from external sources. These connectors automate the data retrieval process, ensuring the seamless integration of external metrics into your system for efficient monitoring and performance analysis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/configure-dynatrace-metric-pull-connector.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Integrations Launchpad in SOW for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Integrations Launchpad in Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure Dynatrace metric pull connector
@@ -18,7 +18,7 @@ Configure metric pull connectors that require a script, connector definition, an
 
 Role required: evt\_mgmt\_admin
 
-Configure the Dynatrace API Key credential from **All** &gt; **Connections and Credentials** &gt; **Credentials**. For more information on how to configure Dynatrace API Key credential, see [API key credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/API-key-credential-form.md).
+Configure the Dynatrace API Key credential from **All** &gt; **Connections and Credentials** &gt; **Credentials**. For more information on how to configure Dynatrace API Key credential, see [API key credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/API-key-credential-form.md).
 
 ## About this task
 
@@ -67,7 +67,7 @@ Configure the Dynatrace API Key credential from **All** &gt; **Connections and C
 
 8.  If you want to customize configurations to meet specific requirements, select **Advanced settings** and fill in the form.
 
-    For more information on fields, see [Dynatrace advanced settings fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/dynatrace-advanced-settings-fields.md).
+    For more information on fields, see [Dynatrace advanced settings fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/dynatrace-advanced-settings-fields.md).
 
 9.  Test the connector before activating it by selecting **Test and Save**.
 

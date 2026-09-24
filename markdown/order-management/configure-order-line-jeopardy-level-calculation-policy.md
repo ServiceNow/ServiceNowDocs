@@ -3,9 +3,9 @@ title: Configure the Order Line Jeopardy Level Calculation Policy
 description: Configure the Order Line Jeopardy Level Calculation Policy using Workflow Studio to set the jeopardy risk level for order line items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-order-line-jeopardy-level-calculation-policy.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Jeopardy Management, Order management, Configure, Sales Customer Relationship Management]
 ---
@@ -72,12 +72,12 @@ For example, if the minimum and maximum values in the **Delayed Percentage** fie
 
 ## What to do next
 
-[Configure the Order Task Jeopardy Level Calculation Policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-order-task-jeopardy-level-calculation-policy.md)
+[Configure the Order Task Jeopardy Level Calculation Policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-order-task-jeopardy-level-calculation-policy.md)
 
 **Related topics**  
 
 
-[Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/jeopardy-management.md)
+[Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/jeopardy-management.md)
 
-[Monitoring order jeopardy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/monitoring-jeopardy-management.md)
+[Monitoring order jeopardy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/monitoring-jeopardy-management.md)
 

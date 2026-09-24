@@ -3,11 +3,11 @@ title: TISC Library Objects form view
 description: The Threat Intelligence Security Center objects home page consists of the following features.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-library-home-page-view.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -161,7 +161,7 @@ Provides easy access to the quick controls such as attachments, notes, and so on
 
 1.  **Attachments**: Attach any file that are related to the objects.
 
-**Note:** Whenever you either create a new observable, indicators, or any objects or view the existing objects, the **Attachments** pane is by default displayed on the respective form view. You can either click the **Attachments** icon on the right-contextual menu or go to **Preferences** &gt; **Workspaces** and disable the **Show the sidebar**. For more information, see [Configure Next Experience Workspace preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-workspace-preferences.md).
+**Note:** Whenever you either create a new observable, indicators, or any objects or view the existing objects, the **Attachments** pane is by default displayed on the respective form view. You can either click the **Attachments** icon on the right-contextual menu or go to **Preferences** &gt; **Workspaces** and disable the **Show the sidebar**. For more information, see [Configure Next Experience Workspace preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-workspace-preferences.md).
 
 2.  **Insights**: Add any additional information related to the observables or indicators which are associated with that object.
 
@@ -192,7 +192,7 @@ Use this search function to search for the source records across multiple source
 -   Once the records are filtered and listed, you can click on the list view which will take you to the respective record in a new tab.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Threat Intel Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-intelligence-security-center-library.md)
+</table>**Parent Topic:**[Threat Intel Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/threat-intelligence-security-center-library.md)
 
 **Related topics**  
 

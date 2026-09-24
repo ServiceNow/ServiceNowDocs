@@ -3,9 +3,9 @@ title: Restrict a global list action to a workspace page
 description: Configure a global list action to display only on a specified workspace page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/config-da-limit-workspace-page.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage action visibility, Declarative actions, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -16,7 +16,7 @@ Configure a global list action to display only on a specified workspace page.
 
 ## Before you begin
 
-Configure an action configuration record for a list action, and copy the action configuration record's sys\_id. For instructions, see [Configure an action configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/config-da-action-configuration.md).
+Configure an action configuration record for a list action, and copy the action configuration record's sys\_id. For instructions, see [Configure an action configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/config-da-action-configuration.md).
 
 Role required: admin
 
@@ -46,7 +46,7 @@ When the **Experience Restricted** field is set to true, the list action doesn't
 
 6.  Select or create a list page.
 
-    For instructions on creating a workspace page in UI Builder, see [Create a Configurable Workspace page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-configurable-workspace-page-uib.md).
+    For instructions on creating a workspace page in UI Builder, see [Create a Configurable Workspace page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/create-configurable-workspace-page-uib.md).
 
 7.  From the Content tree, select the **Record List Header**.
 

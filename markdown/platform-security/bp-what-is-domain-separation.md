@@ -3,9 +3,9 @@ title: Domain separation explained
 description: With domain separation, you can segregate application data, UI, and business logic, such as rules or workflows, in a single customer instance. Separating these elements into logically defined domains supports specific hierarchies for all customers using your applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-what-is-domain-separation.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Recommended practices for service providers, Domain separation for service providers, Access Management]
 ---
@@ -45,16 +45,16 @@ The following graphic shows the division of data, process, and UI separation. Th
 
 User records are assigned a domain value that represents the user’s home domain. Users have no access to data in parent domains, peer domains, or domains in other branches of the hierarchy.
 
-See [Contains queries and domain access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-contains-domain-visibility.md) for advanced options to grant additional domain visibility.
+See [Contains queries and domain access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/bp-contains-domain-visibility.md) for advanced options to grant additional domain visibility.
 
 The following diagram shows how the architecture process flows down to the child domains. \[Omitted image "bp-architecture-down.png"\] Alt text: Process flows down \[Omitted image "bp-architecture-up.png"\] Alt text: Data rises up
 
--   **[Domain separation value proposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-dom-sep-value-prop.md)**  
+-   **[Domain separation value proposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/bp-dom-sep-value-prop.md)**  
 With domain separation, service providers can have a multitenant instance architecture that delivers offerings efficiently and securely to their clients. Strong universal process standards, data-driven process design, strict governance, and centralized administration help to maximize these benefits.
--   **[Definition of domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-dom-sep-definition.md)**  
+-   **[Definition of domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/bp-dom-sep-definition.md)**  
 With domain separation \(also known as the ServiceNow® Multitenant Platform Architecture\), you can segregate application data, UI, and business logic in a single customer instance that supports hierarchical modeling with cross-tenant \(customer\) intelligence.
 
-**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
+**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/bp-domain-sep-recommended.md)
 
 **Related topics**  
 

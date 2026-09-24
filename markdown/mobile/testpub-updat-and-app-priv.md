@@ -3,9 +3,9 @@ title: Test and publish an updated Android app for private distribution
 description: After you have requested an updated Android branded mobile app for private distribution, perform these steps to test and publish it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/testpub-updat-and-app-priv.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Update a branded app, Request, test, &amp; publish, Custom branded apps, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -30,7 +30,7 @@ Role required: admin
 
 3.  Check the following items on your app if they've changed from your original request:
 
-    -   App has the correct name, icon, splash screen, branding, and theming. For more information, see [Create a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-create-theme.md).
+    -   App has the correct name, icon, splash screen, branding, and theming. For more information, see [Create a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/tb-create-theme.md).
     -   App uses the default instance you specified for login if you selected the instance pre-fill option when you requested the branded app.
     -   EULA and privacy policy listed in the mobile app **Settings** tab under **Legal** link to the policies you specified.
 4.  Once the status of your app is **Ready for testing**, you have 90 days to make sure the app meets your branding requirements if changed from your original request:
@@ -39,7 +39,7 @@ Role required: admin
     -   **Approve** the build to move forward with publishing the app to your end users.
 5.  Customize your app's workflows:
 
-    Use Mobile App Builder to customize your app. See [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mab-concept.md) for detailed information about how you can customize your branded app.
+    Use Mobile App Builder to customize your app. See [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mab-concept.md) for detailed information about how you can customize your branded app.
 
 6.  Publish and distribute your Android app for private distribution by uploading your APK file to your private distribution site, managed Google Play site, or your EMM \(enterprise mobility management\) provider:
 
@@ -47,9 +47,9 @@ Role required: admin
     -   If you are using the BlackBerry mobile application management \(MAM\), see [KB0813295](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0813295).
     -   If you are using the Microsoft Intune MAM, see [Microsoft documentation](https://learn.microsoft.com/en-us/mem/intune/apps/apps-add-android-for-work).
     -   For information about ServiceNow® mobile apps version history and changes, see:
-        -   [Now Mobile](https://www.servicenow.com/docs/r/mobile-release-notes/mobile-apps.html)
-        -   [ServiceNow Agent](https://www.servicenow.com/docs/r/mobile-release-notes/mobile-apps.html)
-    -   Update your app before you update your ServiceNow family version, or at least once per year to keep your push notifications working and to leverage the most up to date ServiceNow mobile features. For more information, see [Tested devices and supported versions for ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-supported-devices.md).
+        -   Now Mobile
+        -   ServiceNow Agent
+    -   Update your app before you update your ServiceNow family version, or at least once per year to keep push notifications working. For the latest ServiceNow mobile features and supported devices, see [Tested devices and supported versions for ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-supported-devices.md).
 
-**Parent Topic:**[Update a branded app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/update-branded-app.md)
+**Parent Topic:**[Update a branded app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/update-branded-app.md)
 

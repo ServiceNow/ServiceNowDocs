@@ -3,11 +3,11 @@ title: Create shifts through Security Incident Response Workspace
 description: Create shifts through the Security Incident Response Workspace to use when configuring shift handover records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configure-shift-times.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Shift Handover, Configure, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -46,7 +46,7 @@ Role required:
 
 The new shift is added on the Shift Time Configurations page.
 
-**Parent Topic:**[Configure Shift Handover](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/config-shift-handover.md)
+**Parent Topic:**[Configure Shift Handover](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/config-shift-handover.md)
 
 **Related topics**  
 

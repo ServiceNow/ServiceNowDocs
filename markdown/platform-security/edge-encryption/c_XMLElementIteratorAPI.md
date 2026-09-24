@@ -3,11 +3,11 @@ title: XMLElementIterator
 description: Provides methods for iterating over XML elements.Determines if there is another element available.Returns the next element in the iterator.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/c\_XMLElementIteratorAPI.html
-release: australia
+release: brazil
 product: Edge Encryption
 classification: edge-encryption
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [XML APIs, Encryption rule objects and APIs, Define a custom encryption rule, Configuring Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -18,7 +18,7 @@ Provides methods for iterating over XML elements.
 
 You get an XMLElementIterator object by calling the getIterator\(\) method of the XMLContent class.
 
-**Parent Topic:**[XML APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/xml-overview.md)
+**Parent Topic:**[XML APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/xml-overview.md)
 
 ## XMLElementIterator - hasNext\(\)
 

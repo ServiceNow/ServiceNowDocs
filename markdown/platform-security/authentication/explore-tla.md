@@ -3,11 +3,11 @@ title: Explore Time limited authentication
 description: Support time limited authentication for your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/explore-tla.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Time limited authentication, Token based authentication \(User logins\), Authentication, Access Management]
 ---

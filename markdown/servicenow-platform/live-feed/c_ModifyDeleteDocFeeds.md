@@ -3,11 +3,11 @@ title: Modifying and deleting document feeds
 description: The user who creates a record feed becomes the group administrator, which allows the user to modify the following record feed properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/c\_ModifyDeleteDocFeeds.html
-release: australia
+release: brazil
 product: Live Feed
 classification: live-feed
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Live Feed to work on records, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---

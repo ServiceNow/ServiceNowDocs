@@ -3,9 +3,9 @@ title: Prepare to run the PostgreSQL collector
 description: Create a PostgreSQL user and configure permissions before running the collector.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/prepare-to-run-postgresql-collector.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [PostgreSQL metadata collector, Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
 ---
@@ -70,5 +70,5 @@ Role required: admin
     See the [AWS IAM authentication documentation](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.IAMDBAuth.html) for setup instructions.
 
 
-**Parent Topic:**[PostgreSQL metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/postgresql-metadata-collector.md)
+**Parent Topic:**[PostgreSQL metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/postgresql-metadata-collector.md)
 

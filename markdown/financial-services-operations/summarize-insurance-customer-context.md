@@ -1,19 +1,19 @@
 ---
 title: Summarize an insurance customer interaction in Agentic Contact Center for Insurance
-description: Use the Insurance interaction context summary skill to generate an AI-powered summary of a customer's insurance context, recent cases, and call reason during live interactions.
+description: Use the Insurance interaction context summary skill in the Interaction page of Agentic Contact Center for Insurance to generate an AI-powered summary of a customer's insurance context, recent cases, and the reason for their call so that you can provide faster, more informed service during a live interaction.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/summarize-insurance-customer-context.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-13"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [insurance interaction context summary, summarize insurance customer interaction, relevant details for this call, insurance interaction page ai summary, now assist insurance interaction skill, insurance csr interaction summary, agentic contact center insurance context summary]
 breadcrumb: [Using Agentic Contact Center for Insurance, Agentic Contact Center for Insurance, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Summarize an insurance customer interaction in Agentic Contact Center for Insurance
 
-Use the Insurance interaction context summary skill to generate an AI-powered summary of a customer's insurance context, recent cases, and call reason during live interactions.
+Use the Insurance interaction context summary skill in the Interaction page of Agentic Contact Center for Insurance to generate an AI-powered summary of a customer's insurance context, recent cases, and the reason for their call so that you can provide faster, more informed service during a live interaction.
 
 ## Before you begin
 
@@ -23,7 +23,9 @@ Role required: sn\_ins\_csr.personal\_agent, sn\_ins\_csr.business\_agent
 
 The Insurance interaction context summary skill is used as part of Agentic Contact Center for Insurance to provide insurance customer service representatives \(CSRs\) with real-time interaction summaries and relevant customer context.
 
-The summary is displayed in the **Relevant details for this call** card in the Interaction page. The card is generated automatically when an interaction begins and is updated as the conversation progresses. When the Insurance interaction context summary skill is not activated, this card is not displayed. For information about activating the skill, see [Configure insurance customer interaction context summary skill in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-insurance-interaction-summary-skill.md).
+The summary is displayed in the **Relevant details for this call** card in the Interaction page. The card is generated automatically when an interaction begins and is updated as the conversation progresses. When the Insurance interaction context summary skill is not activated, this card is not displayed. For information about activating the skill, see [Configure insurance customer interaction context summary skill in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-insurance-interaction-summary-skill.md).
+
+\[Omitted image "insurance-interaction-relevant-details.png"\] Alt text: Relevant details for this call card with Customer, Contacting about, Related contact, Related cases, and Related products sections.
 
 ## Procedure
 
@@ -45,12 +47,12 @@ The summary is displayed in the **Relevant details for this call** card in the I
 
 ## What to do next
 
-To get additional AI-powered assistance during the call, select **Ask Otto** in the Interaction page. For more information, see [Request AI agent support in the Interaction page for Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/request-insurance-ai-agent-interaction-workspace.md).
+To get additional AI-powered assistance during the call, select **Ask Otto** in the Interaction page. For more information, see [Request AI agent support in the Interaction page for Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/request-insurance-ai-agent-interaction-workspace.md).
 
 **Related topics**  
 
 
-[Configure insurance customer interaction context summary skill in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-insurance-interaction-summary-skill.md)
+[Configure insurance customer interaction context summary skill in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-insurance-interaction-summary-skill.md)
 
-[Request AI agent support in the Interaction page for Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/request-insurance-ai-agent-interaction-workspace.md)
+[Request AI agent support in the Interaction page for Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/request-insurance-ai-agent-interaction-workspace.md)
 

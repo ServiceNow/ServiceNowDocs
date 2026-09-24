@@ -3,11 +3,11 @@ title: Configuration Compliance change management
 description: As an IT remediation owner, you can create and manage change requests \(CHG\) directly from remediation tasks \(RTs\) in the Configuration Compliance application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/cc-chng-mngment.html
-release: australia
+release: brazil
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
@@ -32,7 +32,7 @@ The Configuration Compliance application works with the ServiceNow AI Platform®
 
 With change management in the Configuration Compliance application, you can associate test results to existing change requests, or split a remediation task and create a new remediation task only for selected test results.
 
-For more information, see [Create a change request in Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/cc-CR-v12-create.md).
+For more information, see [Create a change request in Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/configuration-compliance/cc-CR-v12-create.md).
 
 ## Key terms
 
@@ -61,7 +61,7 @@ For more information, see [Create a change request in Configuration Compliance](
     Change requests help you implement controlled processes for remediation. You might use change requests with remediation tasks in Configuration Compliance to help you identify, track, and resolve non-compliant assets \(configuration items\) that require additional resources, or that you might target for deferral.
 
 
-For more information about test results and remediation tasks, see [Configuration Compliance remediation tasks and remediation task rules overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/cc-groups.md).
+For more information about test results and remediation tasks, see [Configuration Compliance remediation tasks and remediation task rules overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/configuration-compliance/cc-groups.md).
 
 ## When to use change requests in Configuration Compliance
 

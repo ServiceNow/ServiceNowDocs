@@ -3,11 +3,11 @@ title: Asynchronous password reset subflow
 description: When a user requests a password reset, based on the application for which the password reset is requested, the process works either synchronously or asynchronously.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/async-password-reset-subflow.html
-release: australia
+release: brazil
 product: Password Reset
 classification: password-reset
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Customizing Password Reset processes, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ When a user requests a password reset for a credential store for which the REST 
 
 In the asynchronous process, when a user requests a password reset for credential stores that don't provide REST APIs, you can configure such credential stores to reset passwords using an external system, such as Robotic Process Automation.
 
-For more information about Robotic Process Automation, see [Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-explore.md).
+For more information about Robotic Process Automation, see [Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/rpa-explore.md).
 
 When a user requests a password reset, the password doesn't get reset immediately. The user receives a message that shows the request has been submitted, and the request status is displayed as **Pending With External System** on the Password Reset Requests page for that request.
 
@@ -39,5 +39,5 @@ When this subflow is used, the input parameters are considered in this subflow t
 
 \[Omitted image "update-password-reset-subflow.png"\] Alt text: Update Password Reset Request Status subflow.
 
-**Parent Topic:**[Customizing Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/customizing-password-reset.md)
+**Parent Topic:**[Customizing Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/customizing-password-reset.md)
 

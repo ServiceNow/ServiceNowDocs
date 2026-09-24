@@ -3,9 +3,9 @@ title: Intelligent Task Recommendation
 description: Intelligent Task Recommendation helps dispatchers to improve agent utilization by recommending tasks to fill agent schedules. Agents can also view the recommended tasks and assign them to themselves using the ServiceNow Agent mobile app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/fsm-task-recommendation.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Optimize Scheduling and Dispatching, Explore, Field Service Management]
 ---
@@ -25,9 +25,9 @@ Set up Intelligent Task Recommendations to efficiently recommend tasks to agents
 **Related topics**  
 
 
-[Configuring Intelligent Task Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/administer-task-recommendations.md)
+[Configuring Intelligent Task Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/administer-task-recommendations.md)
 
-[Assign work order tasks to agents using Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/manage-work-order-tasks-dw.md)
+[Assign work order tasks to agents using Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/manage-work-order-tasks-dw.md)
 
-[Assign tasks to yourself based on Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/recommend-task-fsm-mobile.md)
+[Assign tasks to yourself based on Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/recommend-task-fsm-mobile.md)
 

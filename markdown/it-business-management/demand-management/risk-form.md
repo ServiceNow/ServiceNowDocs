@@ -3,11 +3,11 @@ title: Risk form
 description: Use the risk form to add a risk to a demand.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/risk-form.html
-release: australia
+release: brazil
 product: Demand Management
 classification: demand-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Demand Management forms, Reference, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -78,7 +78,7 @@ Risk rank
 
 </td><td>
 
-A value and color assigned to the risk. This value is calculated using risk probability and impact. You can configure the color and value using Risk Value Lookup. For more information, see [Configure a custom Risk rank and Risk value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/risk-value-lookup.md).
+A value and color assigned to the risk. This value is calculated using risk probability and impact. You can configure the color and value using Risk Value Lookup. For more information, see [Configure a custom Risk rank and Risk value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/risk-value-lookup.md).
 
 </td></tr><tr><td>
 
@@ -102,7 +102,7 @@ Risk value
 
 </td><td>
 
-A value calculated from Risk Value Lookup. For more information see,[Configure a custom Risk rank and Risk value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/risk-value-lookup.md).
+A value calculated from Risk Value Lookup. For more information see,[Configure a custom Risk rank and Risk value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/risk-value-lookup.md).
 
 </td></tr><tr><td>
 
@@ -153,5 +153,5 @@ Work notes
 Information to record and track the work accomplished for resolving the risk.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Demand Management forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/demand-management-forms.md)
+</table>**Parent Topic:**[Demand Management forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/demand-management-forms.md)
 

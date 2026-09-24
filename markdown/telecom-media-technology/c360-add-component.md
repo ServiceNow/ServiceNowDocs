@@ -3,9 +3,9 @@ title: Add the Telecom Customer 360 component to a record page
 description: Add the Telecom Customer 360 component to a record page in UI Builder so that customer service representatives can see the 360-degree consumer or account view in the context of the record they are working on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/c360-add-component.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Telecommunications Customer 360 component, Add the Customer 360 tab to a record page, Configure, Telecommunications Customer 360, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -22,9 +22,9 @@ Role required: sn\_telecom\_c360.admin
 
 Add the Telecom Customer 360 component as a dedicated tab on a record page in the CSM/FSM Configurable Workspace. The component displays configurable cards scoped to a single customer record. Cards cover customer contact details, products and services, billing, tasks, interaction history, data visualizations, and Now Assist AI insights.
 
-**Important:** This procedure adds the component as a standalone tab. If you are adding the component to a CSM case record page and want Recommended Actions and Run Diagnostics to work in the contextual side panel, use the page collection approach instead. See [Add Telecom Customer 360 to any record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-add-page-collection.md).
+**Important:** This procedure adds the component as a standalone tab. If you are adding the component to a CSM case record page and want Recommended Actions and Run Diagnostics to work in the contextual side panel, use the page collection approach instead. See [Add Telecom Customer 360 to any record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-add-page-collection.md).
 
-After adding the component, you must also add the **Setup Customer360 Context** data resource to the page. This data resource resolves the record to the associated account or consumer. Without it, the component context can't be determined. See [Add the Setup Customer360 Context data resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-add-data-resource.md).
+After adding the component, you must also add the **Setup Customer360 Context** data resource to the page. This data resource resolves the record to the associated account or consumer. Without it, the component context can't be determined. See [Add the Setup Customer360 Context data resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-add-data-resource.md).
 
 The component can be added only as a new tab on the record page. You can't embed it within an existing tab.
 
@@ -34,15 +34,15 @@ The component can be added only as a new tab on the record page. You can't embed
 
 2.  Select **Experiences**.
 
-3.  Select **CSM/FSM Configurable Workspace** from the list.
+3.  Select **CRM Workspace** from the list.
 
 4.  Open any existing record page, or create a record page, add a tab to the page, and then add the **Telecom Customer 360** component.
 
-    For detailed instructions on how to add a component, refer to the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md) documentation.
+    For detailed instructions on how to add a component, refer to the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder-overview.md) documentation.
 
 5.  Add the Setup Customer360 Context data resource to enable the Telecom Customer 360 component to display the correct consumer or account view.
 
-    See [Add the Setup Customer360 Context data resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-add-data-resource.md) for details.
+    See [Add the Setup Customer360 Context data resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-add-data-resource.md) for details.
 
 6.  Configure the Telecom Customer 360 component properties.
 
@@ -110,11 +110,11 @@ A JSON object that maps each card key to the sys ID of the card definition recor
 
 ## Result
 
-When you navigate to a record on the page where the component is added, the new tab displays the Telecom Customer 360 view for the account or consumer associated with that record. To change the cards that are displayed or the data shown on each card, update the card settings as described in [Configure the Telecommunications Customer 360 variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-configure-variables.md).
+When you navigate to a record on the page where the component is added, the new tab displays the Telecom Customer 360 view for the account or consumer associated with that record. To change the cards that are displayed or the data shown on each card, update the card settings as described in [Configure the Telecommunications Customer 360 variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-configure-variables.md).
 
 ## What to do next
 
-Add the Setup Customer360 Context data resource to the page. For more information, see [Add the Setup Customer360 Context data resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-add-data-resource.md).
+Add the Setup Customer360 Context data resource to the page. For more information, see [Add the Setup Customer360 Context data resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-add-data-resource.md).
 
-**Parent Topic:**[Telecommunications Customer 360 component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-component.md)
+**Parent Topic:**[Telecommunications Customer 360 component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-component.md)
 

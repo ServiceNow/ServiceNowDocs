@@ -3,11 +3,11 @@ title: File Explorer troubleshooting
 description: The troubleshooting section can help you resolve some of the technical issues that you may encounter when setting up File Explorer component.Scheduled Jobs are automated jobs that are run to process the notifications from Microsoft SharePoint, ingest the files metadata into ServiceNow instance and renew the file repository subscriptions on a recurring schedule.Following are the available Microsoft SharePoint File Explorer connector system properties.Following are the Flow Designer subflows which are installed with Microsoft SharePoint File Explorer connector.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/file-explorer-troubleshooting.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure File Explorer Component, Configure, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -18,7 +18,7 @@ The troubleshooting section can help you resolve some of the technical issues th
 
 Refer to the following section on the scheduled jobs, system properties, and File Explorer flow designer subflows in detail.
 
-**Parent Topic:**[Configure File Explorer Component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/file-explorer.md)
+**Parent Topic:**[Configure File Explorer Component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/file-explorer.md)
 
 ## Scheduled jobs for File Explorer
 

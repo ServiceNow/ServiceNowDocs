@@ -3,11 +3,11 @@ title: Configure the questions for conversational demand creation
 description: Add or modify an existing question for creating a demand through Agent assist in Virtual Agent using the conversational experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/configure-questions-for-demand-creation.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto for Virtual Agent, Create a New Demand]
 breadcrumb: [Configure, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
@@ -20,11 +20,11 @@ Add or modify an existing question for creating a demand through Agent assist in
 ## Before you begin
 
 -   Verify that AI Search is installed and provisioned for your instance by navigating to **All** &gt; **AI Search** &gt; **AI Search Status**.
--   ServiceNow Otto for Virtual Agent is set up. See [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
+-   ServiceNow Otto for Virtual Agent is set up. See [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md).
 -   Verify the following plugins are install.
     -   ServiceNow Otto for Platform \(v4.0.2\)
     -   ServiceNow Otto for IT Service Management \(ITSM\)
--   Configure ServiceNow Otto in Conversational Catalog Request. See [Configure ServiceNow Otto in Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-gen-ai-catalog-item.md)
+-   Configure ServiceNow Otto in Conversational Catalog Request. See 
 
 Role required: admin or catalog\_admin
 
@@ -40,7 +40,7 @@ Role required: admin or catalog\_admin
 
 3.  Identify any unsupported conversational catalog item question types and suggestions to make them conversational by selecting ServiceNow Otto for Virtual Agent.
 
-    For information on unsupported fields, see [Configure ServiceNow Otto in Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-gen-ai-catalog-item.md).
+    For information on unsupported fields, see .
 
 4.  Select **Edit in advanced view**.
 

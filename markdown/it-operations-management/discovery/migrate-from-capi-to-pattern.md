@@ -3,11 +3,11 @@ title: Migrate from CAPI to Patterns
 description: Migrate from Cloud API \(CAPI\)-based Cloud Discovery to Patterns-based Cloud Discovery. The task requires supported instance and few plugins. Migration works for Amazon Web Services \(AWS\) and Microsoft Azure. Administrator can perform this task after the initial instance is set up.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/migrate-from-capi-to-pattern.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Discovery setup, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---

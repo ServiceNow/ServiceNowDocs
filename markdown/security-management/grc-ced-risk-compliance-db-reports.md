@@ -3,9 +3,9 @@ title: Risk and Compliance Dashboard reports and solutions
 description: The Risk and Compliance dashboard is a unified dashboard that provides a comprehensive analytical data of reports available from the major GRC applications for the chief information security officer to understand the compliance and risk posture of the organization. The dashboard consolidates data from various products within the ServiceNow GRC suite of applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/grc-ced-risk-compliance-db-reports.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Risk and compliance dashboard for GRC: Metrics, Cybersecurity Executive Dashboard, Security Operations]
 ---

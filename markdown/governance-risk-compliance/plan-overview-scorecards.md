@@ -3,9 +3,9 @@ title: Plan overview scorecards for plan usage details
 description: The Overview tab gives you the details of the plan and the exercise and actual events that use the plan. It also indicates how successful the plan was in recovering the assets in a loss scenario.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/plan-overview-scorecards.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [View plan details, Structured workflows for Business Continuity Planning, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---

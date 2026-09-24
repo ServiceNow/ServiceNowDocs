@@ -3,11 +3,11 @@ title: Set up Azure Service Principal credential
 description: Provide the Azure credentials obtained from your Azure administrator. These credentials are used to create a suspension profile and enables you to suspend temporarily or terminate Azure accounts as needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/set-up-azure-service-principal-credential.html
-release: australia
+release: brazil
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up Azure cloud, Configuring cloud providers, Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Provide the Azure credentials obtained from your Azure administrator. These cred
 
 ## Before you begin
 
-Review the [Permissions required for Azure Service Principal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/permissions-required-for-azure-service-principal.md) topic before creating a Azure Service Principal credential.
+Review the [Permissions required for Azure Service Principal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/permissions-required-for-azure-service-principal.md) topic before creating a Azure Service Principal credential.
 
 Role required: ServiceNow AI Platform admin
 
@@ -35,9 +35,9 @@ Role required: ServiceNow AI Platform admin
     |Field|Value|
     |-----|-----|
     |Name|Name of the service principal to register with the instance. For example, `Azure service principal credentials`.|
-    |Tenant ID|Azure Directory ID value from the text file.|
-    |Client ID|Azure Application ID value from the text file.|
-    |Secret key|Azure Application key value from the text file.|
+    |Tenant ID|Directory ID value in the Azure configuration.|
+    |Client ID|Application ID value in the Azure configuration.|
+    |Secret key|Application key value in the Azure configuration.|
     |Credential Alias|The credential alias that you want to tie to the OAuth 2.0 credential. By default, use the predefined alias name as: sn\_itom\_cam.CAM\_Azure\_Connection|
 
 5.  In the **API Key** field, enter the key obtained from the admin.

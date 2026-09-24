@@ -3,11 +3,11 @@ title: Ansible Tower credentials
 description: Ansible Tower credentials are required to access your Ansible configuration management account. Use these credentials to manage Ansible resources through the Cloud Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/ansible-tower-creds.html
-release: australia
+release: brazil
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create and test your credentials, Get started with credentials, Connections and Credentials, Access Management]
 ---

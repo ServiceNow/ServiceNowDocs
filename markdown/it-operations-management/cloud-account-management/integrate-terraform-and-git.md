@@ -3,11 +3,11 @@ title: Create a Terraform organization for Cloud Account Management in Cloud Wor
 description: Integrate with Terraform Cloud/Terraform Enterprise to organize accounts, define workflows, enforce security, improve collaboration, and enhance scalability.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/integrate-terraform-and-git.html
-release: australia
+release: brazil
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up Terraform and GitHub, Provisioning modes in Cloud Workspace, Setting up AWS cloud, Configuring cloud providers, Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -62,7 +62,7 @@ Make sure you have access to Terraform Cloud or Terraform Enterprise to perform 
     For more details on variable sets, see [https://developer.hashicorp.com/terraform/tutorials/cloud-get-started/cloud-create-variable-set\#](https://developer.hashicorp.com/terraform/tutorials/cloud-get-started/cloud-create-variable-set).
 
 
-**Parent Topic:**[Setting up Terraform and GitHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/about-terraform-git-and-servicenow_0.md)
+**Parent Topic:**[Setting up Terraform and GitHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/about-terraform-git-and-servicenow_0.md)
 
 **Related topics**  
 

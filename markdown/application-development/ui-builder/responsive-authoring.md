@@ -3,11 +3,11 @@ title: Responsive authoring
 description: Use responsive authoring to create UI Builder pages that adjust smoothly to different form factors \(sizes\), such as desktop, tablet, and mobile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/responsive-authoring.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -26,14 +26,14 @@ UI Builder currently offers three default form factors:
 -   Tablet \(1280 pixels and smaller\)
 -   Mobile \(500 pixels to zero\)
 
-In addition to these form factors, you can create up to three additional custom breakpoints \(widths\). For more information, see [Create a breakpoint for responsive authoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/responsive-authoring-create-breakpoint.md).
+In addition to these form factors, you can create up to three additional custom breakpoints \(widths\). For more information, see [Create a breakpoint for responsive authoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/responsive-authoring-create-breakpoint.md).
 
 There are different techniques for editing pages so they're usable at different form factors. Use any of the following options:
 
--   [Show or hide components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/responsive-authoring-component-visibility.md)
--   [Change component configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/responsive-authoring-component-configuration.md)
--   [Edit styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/responsive-authoring-adjust-styles.md)
--   [Rearrange the layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/responsive-authoring-adjust-layout.md)
+-   [Show or hide components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/responsive-authoring-component-visibility.md)
+-   [Change component configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/responsive-authoring-component-configuration.md)
+-   [Edit styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/responsive-authoring-adjust-styles.md)
+-   [Rearrange the layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/responsive-authoring-adjust-layout.md)
 
 ## Responsive authoring and reflow
 
@@ -41,11 +41,11 @@ As of Xanadu Store Release 1, responsive authoring is only available when creati
 
 Reflow transforms page layouts into a vertical, stacked view automatically without loss of content or functionality when users increase browser zoom to 400%. This adjustment helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations.
 
-All existing pages that were created with templates or from scratch use reflow automatically. Now, when creating pages from scratch in UI Builder, an extra step shows you that responsive authoring is selected by default. You can choose to use reflow instead by selecting **Build without responsive**, however, using the responsive authoring option gives you more control over how pages work and look at different form factors. For more information about creating pages in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
+All existing pages that were created with templates or from scratch use reflow automatically. Now, when creating pages from scratch in UI Builder, an extra step shows you that responsive authoring is selected by default. You can choose to use reflow instead by selecting **Build without responsive**, however, using the responsive authoring option gives you more control over how pages work and look at different form factors. For more information about creating pages in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-page.md).
 
 \[Omitted image "responsive-author-create-page.png"\] Alt text: New step showing responsive authoring and reflow options when creating a page from scratch.
 
-For a list of UI Builder components that support reflow, see the **Support for reflow** section of the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/next-experience-components-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/next-experience-components-rn.md).
+For a list of UI Builder components that support reflow, see the **Support for reflow** section of the [Next Experience Components release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/component-rn.md).
 
 ## Application and cascading of changes
 
@@ -55,7 +55,7 @@ All changes made to a form factor are applied to all smaller form factors automa
 
 ## Responsive authoring and controllers
 
-If you add a controller to a page, the controller properties are global and cannot be set per form factor. For more information about controllers, see [Bind data to UI Builder pages using controllers \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/controllers.md).
+If you add a controller to a page, the controller properties are global and cannot be set per form factor. For more information about controllers, see [Bind data to UI Builder pages using controllers \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/controllers.md).
 
 ## Using responsive authoring as you create pages
 
@@ -89,18 +89,18 @@ In addition to the default form factors in the editor view, at any time you can 
 
 \[Omitted image "responsive-author-test-custom-breakpoint.png"\] Alt text: Black arrows pointing to the tablet form factor icon and the pixel field.
 
-**Note:** Form factors and the ability to enter a pixel width are also available when previewing a page. For more information, see [Learn how to view and test your UI Builder experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/preview-page-ui-builder.md).
+**Note:** Form factors and the ability to enter a pixel width are also available when previewing a page. For more information, see [Learn how to view and test your UI Builder experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/preview-page-ui-builder.md).
 
--   **[Adjusting component visibility in responsive authoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/responsive-authoring-component-visibility.md)**  
+-   **[Adjusting component visibility in responsive authoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/responsive-authoring-component-visibility.md)**  
 When creating pages with responsive authoring for different form factors, learn how to show or hide components by completing steps to hide an image at mobile size.
--   **[Configuring components for responsive authoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/responsive-authoring-component-configuration.md)**  
+-   **[Configuring components for responsive authoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/responsive-authoring-component-configuration.md)**  
 When creating pages with responsive authoring for different form factors, learn how adjusting some component configuration options can make pages look and work better at smaller sizes.
--   **[Adjust styles for responsive authoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/responsive-authoring-adjust-styles.md)**  
+-   **[Adjust styles for responsive authoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/responsive-authoring-adjust-styles.md)**  
 When creating pages with responsive authoring for different form factors, learn how to change style options to increase the usability of the page at smaller sizes.
--   **[Adjust layout for responsive authoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/responsive-authoring-adjust-layout.md)**  
+-   **[Adjust layout for responsive authoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/responsive-authoring-adjust-layout.md)**  
 When creating pages with responsive authoring for different form factors, learn how to adjust the layout to improve the look and feel of the page at smaller sizes.
--   **[Create a breakpoint for responsive authoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/responsive-authoring-create-breakpoint.md)**  
+-   **[Create a breakpoint for responsive authoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/responsive-authoring-create-breakpoint.md)**  
 Learn how to create custom breakpoints for responsive authoring to control the look and feel of a page at different form factors.
 
-**Parent Topic:**[Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-pages.md)
+**Parent Topic:**[Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-pages.md)
 

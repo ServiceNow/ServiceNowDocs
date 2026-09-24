@@ -3,9 +3,9 @@ title: Exploring Security Operations
 description: Protect your assets and enterprise environment with ServiceNow Security Operations applications and the power of the ServiceNow AI Platform. Connect your security and IT teams to help you prioritize and resolve threats based on the impact they pose to your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/understanding-secops.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Security Operations]
 ---
@@ -19,16 +19,16 @@ Protect your assets and enterprise environment with ServiceNow Security Operatio
 The Security Operations suite of applications helps you protect your assets by improving your overall security posture. For example, by integrating applications such as Unified Security Exposure Management \(USEM\) Security Incident Response, Vulnerability Response, and Security Posture Control with your existing security tools, your Security Operation Center \(SOC\) analysts, managers, and IT teams can:
 
 -   Respond to rapidly evolving cyber and security threats.
--   Identify, prioritize, and remediate exposure findings in the [Unified Security Exposure Management \(USEM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/unified-security-exposure-management-landing-page.md) platform that brings together infrastructure, application, container, and configuration exposures into one unified experience.
+-   Identify, prioritize, and remediate exposure findings in the [Unified Security Exposure Management \(USEM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/unified-security-exposure-management-landing-page.md) platform that brings together infrastructure, application, container, and configuration exposures into one unified experience.
 -   View your complete asset inventory.
 -   Determine your overall security tool coverage.
--   Resolve security incidents faster with intelligent workflows and ServiceNow Generative AI skills \(GenAI\). See [ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/now-assist-security-incident-landing.md) for more information.
+-   Resolve security incidents faster with intelligent workflows and ServiceNow Generative AI skills \(GenAI\). See [ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/now-assist-for-security-incident-response-sir/now-assist-security-incident-landing.md) for more information.
 
 ## Security Operations applications for workflows
 
 The Security Operations applications fall under two broad categories for Security Operations workflows:
 
--   Unified Security Exposure Management \(USEM\) - Applications and tools that help you anticipate, understand, and close your security exposures. See [Unified Security Exposure Management \(USEM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/unified-security-exposure-management-landing-page.md) for more information about using Security Operations applications in USEM.
+-   Unified Security Exposure Management \(USEM\) - Applications and tools that help you anticipate, understand, and close your security exposures. See [Unified Security Exposure Management \(USEM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/unified-security-exposure-management-landing-page.md) for more information about using Security Operations applications in USEM.
 -   Enterprise security case management - Applications and tools that help you move quickly to respond to critical incidents.
 
 \[Omitted image "mmasset0020854-secops-horizontal.png"\] Alt text: The Security Operations applications and workflows organized by category.
@@ -203,54 +203,54 @@ Select a tile to get started with the Security Operations Workspaces.
 
 <table id="table_zkx_2fb_h1c" class="nav-card"><tbody><tr><td>
 
-[Security Incident Response Workspace \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Learn about the Security Incident Response Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-workspace-landing-page.md)
+[Security Incident Response Workspace \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Learn about the Security Incident Response Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/sir-workspace-landing-page.md)
 
 </td><td>
 
-[Security Exposure Management Workspace \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Learn about the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/unified-security-exposure-management-landing-page.md)
+[Security Exposure Management Workspace \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Learn about the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/unified-security-exposure-management-landing-page.md)
 
 </td><td>
 
-[Security Posture Control Workspace \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Learn about the Security Posture Control Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-landing.md)
+[Security Posture Control Workspace \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Learn about the Security Posture Control Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/spc-landing.md)
 
 </td></tr><tr><td>
 
-[Vulnerability Assessment Workspace \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Learn about the Vulnerability Assessment Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response-workspaces/vr-ws-vuln-analyst-workspace.md)
+[Vulnerability Assessment Workspace \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Learn about the Vulnerability Assessment Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response-workspaces/vr-ws-vuln-analyst-workspace.md)
 
 </td><td>
 
-[IT Remediation Workspace \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Learn about the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/it-remediation-workspace/vr-ws-itro-wkspce.md)
+[IT Remediation Workspace \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Learn about the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/it-remediation-workspace/vr-ws-itro-wkspce.md)
 
 </td><td>
 
-[Software Bill of Materials Workspace \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Learn about the Software Bill of Materials Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sbom-core/sbom-landing.md)
+[Software Bill of Materials Workspace \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Learn about the Software Bill of Materials Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sbom-core/sbom-landing.md)
 
 </td></tr><tr><td>
 
-[Threat Intelligence Security Center \(TISC\) Workspace\[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Learn about the TISC Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-landing-page.md)
+[Threat Intelligence Security Center \(TISC\) Workspace\[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Learn about the TISC Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-landing-page.md)
 
 </td><td>
 
-[Data Loss Prevention \(DLP\) Incident Response Workspace\[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Learn about the DLP Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/dlp-landing.md)
+[Data Loss Prevention \(DLP\) Incident Response Workspace\[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Learn about the DLP Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/dlp-landing.md)
 
 </td><td>
 
-[Major Security Incident Management \(MSIM\) Workspace\[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Learn about the MSIM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/major-security-incident-management-landing-page.md)
+[Major Security Incident Management \(MSIM\) Workspace\[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Learn about the MSIM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/major-security-incident-management-landing-page.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help
 
 -   **\[Omitted image "dcx-icon-community.svg"\]ServiceNow Community**
 
-    [https://www.servicenow.com/community/](https://www.servicenow.com/community/)
+    [ServiceNow Community](https://community.servicenow.com/community)
 
 -   **\[Omitted image "dcx-icon.svg"\] Customer Success Center**
 
-    [https://www.servicenow.com/community/](https://www.servicenow.com/community/)
+    [Impact](http://impact.servicenow.com)
 
 -   **\[Omitted image "dcx-icon-dev-portal.svg"\] Developer**
 
-    [https://developer.servicenow.com/dev.do](https://developer.servicenow.com/dev.do)
+    [developer.servicenow.com](https://developer.servicenow.com/)
 
 -   **\[Omitted image "dcx-icon-impact.svg"\] Impact**
 
@@ -258,11 +258,11 @@ Select a tile to get started with the Security Operations Workspaces.
 
 -   **\[Omitted image "dcx-icon-learning.svg"\] ServiceNow University**
 
-    [https://learning.servicenow.com/now/lxp/home](https://learning.servicenow.com/now/lxp/home)
+    [ServiceNow University](https://learning.servicenow.com/now/lxp/home)
 
 -   **\[Omitted image "dcx-icon.svg"\] NowCreate**
 
-    [https://mynow.servicenow.com/now/best-practices/home](https://mynow.servicenow.com/now/best-practices/home)
+    [Best Practices](https://mynow.servicenow.com/now/best-practices/home)
 
 -   **\[Omitted image "dcx-icon-partner.svg"\] Partner**
 
@@ -278,5 +278,5 @@ Select a tile to get started with the Security Operations Workspaces.
 
 -   **\[Omitted image "dcx-icon-support.svg"\] Support**
     -   [https://support.servicenow.com/now](https://support.servicenow.com/now)
-    -   [https://support.servicenow.com/kb?id=known\_error\_portal](https://support.servicenow.com/kb?id=known_error_portal)
+    -   [Known Error Portal](https://support.servicenow.com/kb?id=known_error_portal)
 

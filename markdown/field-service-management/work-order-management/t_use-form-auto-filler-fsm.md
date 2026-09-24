@@ -3,11 +3,11 @@ title: Auto-fill a form with ServiceNow AI Lens
 description: Use ServiceNow AI Lens to auto-fill form fields by capturing or uploading an image in the ServiceNow Agent mobile app. The Lens Launcher is available on Input Forms and Scripted Input Forms, such as Smart Assessment questionnaires.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/t\_use-form-auto-filler-fsm.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-05-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Lens, Lens Launcher, auto-fill, Form Auto-Filler, Smart Assessment, Input Form, mobile]
 breadcrumb: [ServiceNow AI Lens form auto-filler, Prioritizing on ServiceNow Agent, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
@@ -53,7 +53,7 @@ These steps cover filling a Smart Assessment questionnaire for a work order task
 
     You can add multiple files to be scanned at once, but the limit is 10.
 
-10. Select the Camera icon \[Omitted image "form-auto-filler-fsm-upload.png"\] Alt text: to capture an image with your device camera and add it for scanning.
+10. Select the Camera icon to capture an image with your device camera and add it for scanning.
 
 11. Select **Add** to directly add the files for scanning or **View selected** to review the files before adding.
 
@@ -90,17 +90,17 @@ The Lens Launcher icon is available, but displays an error.
 
 </td><td>
 
-An error message is displayed when the icon is selected.To resolve this, ensure that the ServiceNow AI Lens AI lens skill is enabled by navigating to **Now Assist Skill Admin** &gt; **Platform Skills**, and relaunch the questionnaire.
+An error message is displayed when the icon is selected.To resolve this, ensure that the ServiceNow AI Lens AI lens skill is enabled by navigating to **AI Admin Hub** &gt; **Skill** &gt; **Platform Skills**, and relaunch the questionnaire.
 
 </td></tr></tbody>
 </table>**Related topics**  
 
 
-[ServiceNow AI Lens form auto-filler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/c_form-auto-filler-fsm.md)
+[ServiceNow AI Lens form auto-filler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/c_form-auto-filler-fsm.md)
 
-[Use ServiceNow AI Lens in ServiceNow Otto Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/t_use-lens-nava-fsm.md)
+[Use ServiceNow AI Lens in ServiceNow Otto Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/t_use-lens-nava-fsm.md)
 
-[Smart Assessment questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/smart-assessment-questionnaire.md)
+[Smart Assessment questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/smart-assessment-questionnaire.md)
 
-[Configuring Smart Assessment questionnaires for Now Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/configuring-smart-assessment-questionnaire.md)
+[Configuring Smart Assessment questionnaires for Now Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/configuring-smart-assessment-questionnaire.md)
 

@@ -3,11 +3,11 @@ title: Personalize the EAP Planning board
 description: Choose metrics and indicators to be shown on cards so that key information is available at a glance on the Planning board in Enterprise Agile Planning workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/personalize-cards-in-eap-planning-board.html
-release: australia
+release: brazil
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Perform PI planning, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -46,5 +46,5 @@ Role required: sn\_apw\_advanced.eap\_user
 5.  After making all the required selections, close the side panel.
 
 
-**Parent Topic:**[Perform PI planning in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/pi-planning-eap.md)
+**Parent Topic:**[Perform PI planning in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/pi-planning-eap.md)
 

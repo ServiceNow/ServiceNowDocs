@@ -3,9 +3,9 @@ title: Configure customer product data management
 description: Learn how to use the sn\_ind\_tmt\_orm.enable\_prod\_invt\_for\_order\_management system property to either create sold products or product inventory records after an order is completed and fulfilled.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-customer-product-data-management.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure order fulfillment, Order management, Configure, Sales Customer Relationship Management]
 ---
@@ -46,14 +46,14 @@ The following table lists the values that you can set for the sn\_ind\_tmt\_orm.
 7.  Select **Update**.
 
 
-**Parent Topic:**[Configure order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-order-fulfillment.md)
+**Parent Topic:**[Configure order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-order-fulfillment.md)
 
 **Related topics**  
 
 
-[Creation of sold product and product inventory records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-sold-product-creation.md)
+[Creation of sold product and product inventory records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-sold-product-creation.md)
 
-[Managing post-fulfillment order changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/managing-orders.md)
+[Managing post-fulfillment order changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/managing-orders.md)
 
-[Product data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/product-data.md)
+[Product data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/product-data.md)
 

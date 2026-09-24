@@ -3,11 +3,11 @@ title: Customizing milestones display on roadmap in Strategic Planning Workspace
 description: Easily track the milestones of your roadmap timeline or its planning items by choosing how the milestones are displayed on the roadmap view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/personalizing-the-milestones-display-on-the-roadmap.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace, roadmap]
 breadcrumb: [Reference, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
@@ -66,7 +66,7 @@ Roadmap view
 -   Green: Achieved
 -   Black/Dark gray: Upcoming
 
- **Note:** If the total number of item-level milestones, including the milestones for unscheduled items, exceeds 100, the item milestone indicators aren’t visible on the roadmap. You can work with your admin to change this number to a value of your preference. For more information, see [Update the display limit of Prioritization and Roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/update-the-display-limit-of-roadmap-item-milestones.md).
+ **Note:** If the total number of item-level milestones, including the milestones for unscheduled items, exceeds 100, the item milestone indicators aren’t visible on the roadmap. You can work with your admin to change this number to a value of your preference. For more information, see [Update the display limit of Prioritization and Roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/update-the-display-limit-of-roadmap-item-milestones.md).
 
 </td><td>
 
@@ -85,5 +85,5 @@ Roadmap view
  \[Omitted image "milestone-icon.png"\] Alt text: Milestone indicator.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Strategic Planning Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/alignment-planner-workspace-reference.md)
+</table>**Parent Topic:**[Strategic Planning Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/alignment-planner-workspace-reference.md)
 

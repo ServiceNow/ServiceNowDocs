@@ -3,11 +3,11 @@ title: Identify and review duplicate Knowledge articles
 description: Review duplicate Knowledge articles using the identify and review duplicate articles feature in ServiceNow Otto.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-identify-and-review-duplicate-articles.html
-release: australia
+release: brazil
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use ServiceNow Otto in Knowledge Management, ServiceNow Otto in Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ Review duplicate Knowledge articles using the identify and review duplicate arti
 
 Role required: knowledge\_admin and knowledge\_manager
 
-The ServiceNow Otto knowledge skill required to enable the identify duplicate articles feature is activated by the admin. To configure the skill, see [Configure and activate the identify duplicate articles skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-identify-duplicate-article-skill.md).
+The ServiceNow Otto knowledge skill required to enable the identify duplicate articles feature is activated by the admin. To configure the skill, see [Configure and activate the identify duplicate articles skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-identify-duplicate-article-skill.md).
 
 ## Procedure
 
@@ -41,5 +41,5 @@ The ServiceNow Otto knowledge skill required to enable the identify duplicate ar
     This feature does not work for non-English articles.
 
 
-**Parent Topic:**[Using ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/using-now-assist-in-km.md)
+**Parent Topic:**[Using ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-in-knowledge-management/using-now-assist-in-km.md)
 

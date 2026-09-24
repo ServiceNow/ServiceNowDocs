@@ -3,11 +3,11 @@ title: Configure change model states
 description: Configure states for change models and define transition between multiple states.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/configure-change-model-states.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a Change model, Configure, Change Management, IT Service Management]
 ---
@@ -17,8 +17,6 @@ breadcrumb: [Create a Change model, Configure, Change Management, IT Service Man
 Configure states for change models and define transition between multiple states.
 
 ## Before you begin
-
-The change model for which you want to define the states should already exist. For more information, see [Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-a-change-model.md).
 
 Role required: change\_manager
 
@@ -104,7 +102,7 @@ Condition for your transition.The available options are:
 -   **Mandatory Fields**:Requires specified fields to be populated before the model state transitions.
 -   **Transition Condition**: Enables you to define a more granular condition.
 
-For more information, see [Create predefined conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-predefined-transition-condition-type.md).
+For more information, see [Create predefined conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-predefined-transition-condition-type.md).
 
 </td></tr><tr><td>
 
@@ -120,7 +118,9 @@ Condition \(script\)
 
 </td><td>
 
-Script that must be fulfilled to enable the transition. The script returns a value of **True** when passed.
+Script that must be fulfilled to enable the transition. The script returns a value of **True** when passed.This field is available only when **Transition Script** is selected from **Requires** field.
+
+**Note:** To edit this field, you need the **change\_model\_script\_admin** role. Without it, the script editor is read-only. For more information, see [Model script editor role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/model-script-editor-roles.md).
 
 </td></tr><tr><td>
 
@@ -134,11 +134,5 @@ Option to make the condition active.
 </table>    6.  Select **Save**.
 
 
-## What to do next
-
-Attach a process with defined conditions that enable transition between change model states. See [Attach a process for Change model states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/attach-process-change-model.md).
-
-Create change templates based on the change model. For more information, see [Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-change-template.md).
-
-**Parent Topic:**[Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-a-change-model.md)
+**Parent Topic:**[Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-a-change-model.md)
 

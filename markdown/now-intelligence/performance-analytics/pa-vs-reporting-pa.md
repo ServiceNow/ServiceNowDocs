@@ -3,11 +3,11 @@ title: Performance Analytics indicators compared to table data
 description: Indicator data sources address a different set of use cases than table data sources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/pa-vs-reporting-pa.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -34,14 +34,14 @@ Finally, while you can develop table data visualizations through trial and error
 
 **Important:** Do not try to configure Performance Analytics without training. A poorly-designed Performance Analytics solution can severely impact performance and even destabilize your instance. The initial training, [Performance Analytics Essentials](https://learning.servicenow.com/lxp/en/now-intelligence/performance-analytics-pa-essentials?id=learning_course_prev&course_id=289a949bdb2b009015531cbd139619d1), is available free of charge.
 
-**Parent Topic:**[Exploring Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_GetStartedwithPA.md)
+**Parent Topic:**[Exploring Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_GetStartedwithPA.md)
 
 **Related topics**  
 
 
-[Planning your indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/planning-indicators.md)
+[Planning your indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/planning-indicators.md)
 
-[Workflow for creating indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/workflow-automated-indicators.md)
+[Workflow for creating indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/workflow-automated-indicators.md)
 
-[Design your Performance Analytics solution with KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/designing-pa-solution.md)
+[Design your Performance Analytics solution with KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/designing-pa-solution.md)
 

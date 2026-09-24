@@ -3,9 +3,9 @@ title: Configure the Front-line case page action bar
 description: Configure the action bar on the Front-line case page to include actions from other plugins.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-front-line-case-page-action-bar.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -20,12 +20,12 @@ Role required: admin
 
 ## About this task
 
-The Front-line case page supports actions from the following Customer Service Management and CSM Configurable workspace plugins:
+The Front-line case page supports actions from the following Customer Service Management and CRM Workspace plugins:
 
--   Customer Service \(com.sn\_customerservice\)
--   CSM/FSM Configurable WS Foundation \(com.snc.uib.cwf\_workspace\)
--   CSM Configurable Workspace \(com.snc.uib.csm\_agent\_workspace\)
--   CSM Workspace \(com.snc.agent\_workspace.csm
+-   Case Management Core \(com.sn\_customerservice\)
+-   CRM Workspace Core \(com.snc.agent\_workspace.csm\)
+-   CRM Workspace \(com.snc.uib.csm\_agent\_workspace\)
+-   CRM Workspace Foundation \(com.snc.uib.cwf\_workspace\)
 -   Major Issue Management \(com.sn\_majorissue\_mgt\)
 -   Customer Service with Service Management \(com.sn\_cs\_sm\)
 -   Customer Service with Request Management plugin \(com.sn\_cs\_sm\_request\)
@@ -35,7 +35,7 @@ The Front-line case page supports actions from the following Customer Service Ma
 If you are using any additional plugins, use the steps in this task to add the actions from those plugins to the Front-line case page action bar. You can add actions in the following ways:
 
 -   Add actions to an existing layout group \(step 2\).
--   Create a new layout group and add actions to that group \(steps 3 and 4\).
+-   Create a layout group and add actions to that group \(steps 3 and 4\).
 -   Add actions directly to the action bar \(step 5\).
 
 ## Procedure
@@ -50,13 +50,13 @@ If you are using any additional plugins, use the steps in this task to add the a
 
 2.  Add the action to an existing layout group.
 
-    You can create a new layout group and add the action to that group \(see step 3\). By default, the Front-line case page supports three groups: Compose, Create, and Manage.
+    You can create a layout group and add the action to that group \(see step 3\). By default, the Front-line case page supports three groups: Compose, Create, and Manage.
 
     1.  Navigate to **All** &gt; **Declarative Actions** &gt; **Form Action Layout Groups** and select a group.
 
     2.  Select the lock icon next to the **Actions** field, add the desired action from the Available UX Form Actions list, and select **Save**.
 
-3.  Create a new layout group.
+3.  Create a layout group.
 
     1.  Navigate to **All** &gt; **Declarative Actions** &gt; **Form Action Layout Groups** and select **New**.
 

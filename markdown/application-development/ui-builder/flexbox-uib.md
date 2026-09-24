@@ -3,11 +3,11 @@ title: Using Flexbox layouts in UI Builder
 description: Create a Flexbox layout in UI Builder to build powerful pages so that you can customize with cascading style sheets \(CSS\) and can improve your performance.Create a Flexbox layout in UI Builder to build powerful pages in a low-code environment.Create a Flexbox layout in UI Builder to build powerful pages so that you can customize with cascading style sheets \(CSS\) and can improve your performance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/flexbox-uib.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Organize components in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Organize components in UI Builder pages, Working in UI Builder, UI 
 
 Create a Flexbox layout in UI Builder to build powerful pages so that you can customize with cascading style sheets \(CSS\) and can improve your performance.
 
-You can easily build custom pages with Flexbox layouts in UI Builder. Customizing the layout of your page lets you take full advantage of Flexbox so that you can achieve your overall page design. For more information, see [Organize components in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-layouts.md).
+You can easily build custom pages with Flexbox layouts in UI Builder. Customizing the layout of your page lets you take full advantage of Flexbox so that you can achieve your overall page design. For more information, see [Organize components in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-layouts.md).
 
 Flexbox is a one-dimensional layout system in CSS. Flexbox is inherently flexible, which is useful for when you don’t know the size of your content. If you plan to build complex pages, you can customize the layout of your page in the configuration panel styles tab or with CSS. Visit [Mozilla](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) to learn more about Flexbox.
 
@@ -46,7 +46,7 @@ You can change the direction of your content in the layout in the following ways
 -   Margin: Set your minimal distance between flexbox items.
 -   Padding: Set the padding for each side of your flexbox items.
 
-**Parent Topic:**[Organize components in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-layouts.md)
+**Parent Topic:**[Organize components in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-layouts.md)
 
 ## Create a Flexbox layout with the new layout system
 
@@ -62,9 +62,9 @@ Role required: admin
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
-3.  [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
+3.  [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-page.md).
 
 4.  Select the **+ Add content** button in the UI Builder stage.
 
@@ -114,7 +114,7 @@ Role required: admin
 
 12. Add components to your page.
 
-    See [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-components.md) for more information.
+    See [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/add-components.md) for more information.
 
 13. View and test your page by selecting \[Omitted image "preview-button.png"\] Alt text: Preview button that opens the page variant..
 
@@ -137,9 +137,9 @@ In the following procedure, you learn how to use Flexbox to change the CSS code 
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
-3.  [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md) or open a page.
+3.  [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-page.md) or open a page.
 
 4.  Click the **Layout** tab and choose the two-column layout.
 

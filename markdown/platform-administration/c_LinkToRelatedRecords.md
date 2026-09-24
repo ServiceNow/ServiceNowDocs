@@ -3,9 +3,9 @@ title: Link to related records
 description: A notification can link to a related record by specifying a reference field in front of the $\{URI\} or $\{URI\_REF\} parameters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_LinkToRelatedRecords.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Links to records, Create an email notification, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -81,5 +81,5 @@ Click here to view Related Problem: ${problem_id.URI_REF}
 
 \[Omitted image "RelatedRecordLink.png"\] Alt text: Related record link.
 
-**Parent Topic:**[Links to records in email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EnablingLinksToServiceNowRecords.md)
+**Parent Topic:**[Links to records in email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_EnablingLinksToServiceNowRecords.md)
 

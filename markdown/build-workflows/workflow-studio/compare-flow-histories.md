@@ -3,11 +3,11 @@ title: Compare flow histories
 description: Compare two flow histories to see what content was added, removed, and updated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/compare-flow-histories.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Flow history compare view, Flow history, Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -49,5 +49,5 @@ Role required: flow\_designer or admin
 10. Expand changed flow components by selecting anywhere in the row of the flow step.
 
 
-**Parent Topic:**[Flow history compare view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-history-compare-view.md)
+**Parent Topic:**[Flow history compare view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-history-compare-view.md)
 

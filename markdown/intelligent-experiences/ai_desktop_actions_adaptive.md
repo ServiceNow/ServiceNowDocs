@@ -3,12 +3,12 @@ title: Adaptive desktop actions for desktop and web-based tasks
 description: Let an AI agent perform automated actions directly on your desktop across browsers, desktop applications, and files using AI Desktop Actions. You maintain control and can pause the automation at any time to review or adjust steps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai\_desktop\_actions\_adaptive.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [AI Desktop Actions, agentic AI, desktop automation, ServiceNow AI Platform, action execution]
-breadcrumb: [Explore, AI Desktop Actions, Enable AI experiences]
+breadcrumb: [Explore, AI Desktop Actions, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Adaptive desktop actions for desktop and web-based tasks
@@ -101,11 +101,11 @@ ServiceNow AI Desktop Actions rely on “computer use,” a beta technology prov
 **Related topics**  
 
 
-[AI Desktop Actions user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai_desktop_actions_reference_adaptive.md)
+[AI Desktop Actions user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai_desktop_actions_reference_adaptive.md)
 
-[Download AI Desktop Actions installer for adaptive desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/download-agentic-desktop-installer-adaptive.md)
+[Download AI Desktop Actions installer for adaptive desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/download-agentic-desktop-installer-adaptive.md)
 
-[Controlling what AI Desktop Actions can access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/security_policy_governance_concept.md)
+[Controlling what AI Desktop Actions can access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/security_policy_governance_concept.md)
 
-[Execute adaptive desktop actions for desktop and web](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use_ai_desktop_actions_adaptive.md)
+[Execute adaptive desktop actions for desktop and web](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/use_ai_desktop_actions_adaptive.md)
 

@@ -3,11 +3,11 @@ title: Convert custom applications to upgrade from the application repository
 description: When your applications are placed in the Custom Applications table \[sys\_app\], you can't upgrade them directly through the Application Repository. This procedure helps you do a one-time conversion when you want to migrate deploying your applications using the Application Repository.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/application-repository-self-hosted/convert-custom-app-to-update-app-repo.html
-release: australia
+release: brazil
 product: Application Repository \(Self-Hosted\)
 classification: application-repository-self-hosted
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage customizations to applications, ServiceNow application repository, Application sharing, Administer your apps, Deploying applications, Building applications]
 ---
@@ -20,7 +20,7 @@ When your applications are placed in the Custom Applications table \[sys\_app\],
 
 Role required: admin
 
-When you start with Update Sets, all your applications in all your instances are placed in the Custom Applications table \[sys\_app\]. However, if you decide to use the recommended ServiceNow® [Continuous Integration/Continuous Delivery API/Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cicd-api.md) guidance for using the Application Repository in your CI/CD pipelines, the system doesn't allow the upgrades because the applications already exist in Custom Applications table. They are moving to the ServiceNow Store table \[sys\_store\_app\] so they can be installed from the application repository, which is why they can no longer be developed on that instance.
+When you start with Update Sets, all your applications in all your instances are placed in the Custom Applications table \[sys\_app\]. However, if you decide to use the recommended ServiceNow® [Continuous Integration/Continuous Delivery API/Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/cicd-api.md) guidance for using the Application Repository in your CI/CD pipelines, the system doesn't allow the upgrades because the applications already exist in Custom Applications table. They are moving to the ServiceNow Store table \[sys\_store\_app\] so they can be installed from the application repository, which is why they can no longer be developed on that instance.
 
 After you convert the application, it is no longer enabled for development on the instance where the conversion is performed. For a scoped custom application, all associated records in the Customer Updates table are deleted for this application.
 
@@ -53,5 +53,5 @@ After you convert the application, it is no longer enabled for development on th
 
 ## What to do next
 
-Go to **System Applications-&gt;My Company Applications** and update the application using the software from the application repository. See [Install an application from the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/install-app-from-repo.md) to learn more.
+Go to **System Applications-&gt;My Company Applications** and update the application using the software from the application repository. See [Install an application from the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/application-repository-self-hosted/install-app-from-repo.md) to learn more.
 

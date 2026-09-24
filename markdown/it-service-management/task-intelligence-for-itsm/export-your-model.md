@@ -3,11 +3,11 @@ title: Export an incident prediction model
 description: Export either the Similar Incidents or Incident Categorization model model in Task Intelligence for ITSM to another instance so you can use the model in the other instance without recreating the model from scratch.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/task-intelligence-for-itsm/export-your-model.html
-release: australia
+release: brazil
 product: Task Intelligence for ITSM
 classification: task-intelligence-for-itsm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage, Task Intelligence for ITSM, IT Service Management]
 ---
@@ -37,7 +37,7 @@ The XML file of your model downloads to your browser.
 
 ## What to do next
 
-You can use the XML file to transfer the model to another instance using update sets. For more information update sets, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets.md).
+You can use the XML file to transfer the model to another instance using update sets. For more information update sets, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/system-update-sets.md).
 
-**Parent Topic:**[Managing Task Intelligence for ITSM models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/using-task-intelligence-itsm.md)
+**Parent Topic:**[Managing Task Intelligence for ITSM models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/task-intelligence-for-itsm/using-task-intelligence-itsm.md)
 

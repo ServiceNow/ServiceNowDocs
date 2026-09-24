@@ -3,11 +3,11 @@ title: Add a role to an existing role
 description: When you add a new role to an existing role for a user, the user inherits the access that is granted by the new role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/t\_AddARoleToAnExistingRole.html
-release: australia
+release: brazil
 product: User Administration
 classification: user-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a role, Managing roles, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-**Warning:** If your organization hasn't manually allocated user-based subscriptions before,subscription assignments are based on user roles and the kind of access each role permits. Creating, customizing, and assigning roles can have subscription usage impact. For more information about how roles are evaluated for subscription assignment, see [Automatic subscription assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-subscription-auto-assignment.md).
+**Warning:** If your organization hasn't manually allocated user-based subscriptions before,subscription assignments are based on user roles and the kind of access each role permits. Creating, customizing, and assigning roles can have subscription usage impact. For more information about how roles are evaluated for subscription assignment, see [Automatic subscription assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-subscription-auto-assignment.md).
 
 ## Procedure
 
@@ -37,5 +37,5 @@ Role required: admin
     The users with the existing role inherit the access that is granted by the new role.
 
 
-**Parent Topic:**[Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateARole.md)
+**Parent Topic:**[Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/t_CreateARole.md)
 

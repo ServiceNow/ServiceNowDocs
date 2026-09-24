@@ -3,11 +3,11 @@ title: JWT Bearer
 description: JSON Web Tokens \(JWTs\) enable the capability to configure server-to-server API interactions between ServiceNow and external API providers without requiring any user intervention.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/jwt-bearer.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [OAuth Outbound, OAuth authentication, Authentication, Access Management]
 ---

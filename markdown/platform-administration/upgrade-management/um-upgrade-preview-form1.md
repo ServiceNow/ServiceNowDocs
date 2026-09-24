@@ -3,11 +3,11 @@ title: View previewed upgrade
 description: Use the Upgrade Preview form to have an alternate view of a previewed upgrade.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-upgrade-preview-form1.html
-release: australia
+release: brazil
 product: Upgrade Management
 classification: upgrade-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Upgrade Preview tool in Upgrade Console, Upgrade Console tools, Use, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
@@ -38,7 +38,7 @@ Role required: admin
     -   **Predicted Skips to Review related list**: The Upgrade Preview process informs you about the customizations that are predicted to be skipped during an upgrade. The upgrade preview process the skip files that have been customized. Predicted Skips to Review lists all the skipped files that haven't been reviewed yet.
     -   **Predicted Skips Reviewed related list**: Predicted Skips Reviewed related list displays the records which have previously appeared on the Predicted Skips to Review related list and have been reviewed. When you select a skipped record to review and the **Resolution Status** has been set to a value other than **Not Reviewed**, the updated record moves to the Predicted Skips Reviewed related list.
     -   **Previewed Changes related list**: Previewed Changes related list gives the total number of records that are predicted to change when the upgrade occurs. Total record changes also includes possible predicted skip files known as Predicted skipped records.
-    See [Previewed changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-previewed-changes.md) for more details about the related lists.
+    See [Previewed changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-center/uc-previewed-changes.md) for more details about the related lists.
 
     \[Omitted image "uc-upgrade-preview-form.png"\] Alt text: Image showing Upgrade Preview form
 
@@ -97,5 +97,5 @@ Date and time on which the preview completed
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Upgrade Preview tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-upgrade-preview-tool.md)
+**Parent Topic:**[Upgrade Preview tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-management/um-upgrade-preview-tool.md)
 

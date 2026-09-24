@@ -3,11 +3,11 @@ title: AWS Keyspaces discovery with Patterns
 description: The ServiceNow Discovery application uses the Amazon Keyspaces discovery pattern to find Amazon Keyspaces managed Apache Cassandra–compatible database service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/amazon-keyspaces-discovery.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -41,5 +41,5 @@ Keyspaces are stored in Cloud Databases \[cmdb\_ci\_cloud\_database\] table.
 |FQDN|Fully qualified domain name of the region where the keyspace is located.|
 |Port|Port used for incoming TLS connections \(9142\).|
 
-**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
+**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 

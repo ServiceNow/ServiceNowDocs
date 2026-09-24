@@ -3,11 +3,11 @@ title: Adding notes to a project
 description: Add, view, and remove notes for a project to help manage tasks, ideas, and insights. Tag others to notify them to view a note.Review notes posted for a project.Add a note to a project to review later.Update a project note.Delete a project note once you resolve or want to remove it.Review snapshots of process maps posted for a project.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/annotate-project.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Analyzing and getting process insights, Use, Process Mining, Platform Analytics]
 ---
@@ -20,7 +20,7 @@ From the project overview panel, you can add a note or see a list of notes assoc
 
 **Note:** To add or delete notes, you must have the sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin role.
 
-**Parent Topic:**[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/analyze-get-process-insights.md)
+**Parent Topic:**[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/analyze-get-process-insights.md)
 
 ## View a note
 

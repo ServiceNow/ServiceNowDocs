@@ -3,11 +3,11 @@ title: Security scan comparison
 description: Compare two scans of the same security suite to gain visibility to the health of your hardening settings and improve the security posture of your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/score-comparison.html
-release: australia
+release: brazil
 product: Security Center
 classification: security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security scanner, Security configuration console, Security Center, Platform Security]
 ---
@@ -45,5 +45,5 @@ The security scan comparison page displays the security changes in your hardenin
     List of all scan findings. Select a finding, scan result, or check to view the associated record and find additional details. Use the bottoms in the upper right to filter, refresh, or export the list.
 
 
-**Parent Topic:**[Security scanner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-scanning.md)
+**Parent Topic:**[Security scanner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-scanning.md)
 

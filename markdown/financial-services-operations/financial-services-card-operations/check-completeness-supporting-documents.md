@@ -3,11 +3,11 @@ title: Check the completeness of the supporting documents for a customer
 description: Check that a customer's supporting documents are complete so that you can complete the credit card request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-card-operations/check-completeness-supporting-documents.html
-release: australia
+release: brazil
 product: Financial Services Card Operations
 classification: financial-services-card-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up a new credit card account, Use, Card Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_bom\_document.agent
 
 ## About this task
 
-This document service task is automatically created for a new credit card case when the task to [retrieve credit assessment and evaluate risk for the customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-card-operations/retrieve-credit-assessment-evaluate-risk.md) completes.
+This document service task is automatically created for a new credit card case when the task to [retrieve credit assessment and evaluate risk for the customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-card-operations/retrieve-credit-assessment-evaluate-risk.md) completes.
 
 ## Procedure
 

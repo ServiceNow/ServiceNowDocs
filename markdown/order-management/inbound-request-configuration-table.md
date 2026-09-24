@@ -3,11 +3,11 @@ title: Inbound Request Configuration
 description: Enables you to define the configurations to determine how each flow is processed and tracked within an Inbound Request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/inbound-request-configuration-table.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
-breadcrumb: [Inbound Request, Sales and Service API Core, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Inbound Request, CRM API Core, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Inbound Request Configuration
@@ -16,7 +16,7 @@ Enables you to define the configurations to determine how each flow is processed
 
 ## Overview of the Inbound Request Configuration table
 
-The Sales and Service Core API \(com.sn\_tmt\_core\) plugin is required to use the Inbound Request Configuration table \(sn\_tmt\_core\_inbound\_queue\_config\).
+The CRM API Core \(com.sn\_tmt\_core\) plugin is required to use the Inbound Request Configuration table \(sn\_tmt\_core\_inbound\_queue\_config\).
 
 The Inbound Request Configuration table is a metadata table that must be configured to decide how a particular flow is executed, whether synchronous or asynchronous.
 
@@ -126,7 +126,7 @@ Configuration API
 
 </td><td>
 
-Script required to process the inbound request.To learn more about the configuration API, see [IBQConfigBase API - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/IBQConfigBaseAPIBoth.md).
+Script required to process the inbound request.To learn more about the configuration API, see [IBQConfigBase API - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/IBQConfigBaseAPIBoth.md).
 
 </td><td>
 
@@ -153,10 +153,10 @@ The security roles for the Inbound Request Configuration table \(sn\_tmt\_core\_
 |----|------|
 |sn\_tmt\_core.inbound\_queue\_admin|Create, read, update, delete, report\_view, report\_on|
 
-**Note:** Add a user with the roles sn\_tmt\_core.admin or sn\_tmt\_core.inbound\_queue\_admin, who is responsible for configuring the Inbound Request Configuration table, as a delegated developer for the application where the configuration is being created. Assign the permission “Manage Update Set” \(added under Manage Developers for the respective application\). This ensures that all changes are captured in the correct scope and update sets. For details, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_DelegatedDevelopment.md).
+**Note:** Add a user with the roles sn\_tmt\_core.admin or sn\_tmt\_core.inbound\_queue\_admin, who is responsible for configuring the Inbound Request Configuration table, as a delegated developer for the application where the configuration is being created. Assign the permission “Manage Update Set” \(added under Manage Developers for the respective application\). This ensures that all changes are captured in the correct scope and update sets. For details, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_DelegatedDevelopment.md).
 
 **Related topics**  
 
 
-[IBQConfigBase API - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/IBQConfigBaseAPIBoth.md)
+[IBQConfigBase API - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/IBQConfigBaseAPIBoth.md)
 

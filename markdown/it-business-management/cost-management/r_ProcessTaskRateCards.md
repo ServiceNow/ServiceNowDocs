@@ -3,11 +3,11 @@ title: Process task rate cards
 description: The business rule Process Task Rate Cards runs when tasks close and checks to see if any task rate cards apply. If they do, an expense line is created according to the rate card.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/cost-management/r\_ProcessTaskRateCards.html
-release: australia
+release: brazil
 product: Cost Management
 classification: cost-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Task and labor rate cards, Cost Management, Strategic Portfolio Management]
 ---
@@ -31,5 +31,5 @@ The process flow of the "Process Task Rate Cards" business rule is:
         1.  Labor rate card found, generate expense line using the time worked and labor rate.
         2.  Labor rate card not found, generate expense line using the default labor rate from the task rate card.
 
-**Parent Topic:**[Task and labor rate cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/c_TaskAndLaborRateCards.md)
+**Parent Topic:**[Task and labor rate cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/cost-management/c_TaskAndLaborRateCards.md)
 

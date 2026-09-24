@@ -3,11 +3,11 @@ title: Change Models properties
 description: Configure the Change Models properties to access the Change models capabilities when creating a Change request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/change-models-properties.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Change model management, Explore, Change Management, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Configure the Change Models properties to access the Change models capabilities 
 
 The following properties enable you to access the Change Models features. For upgrade users, these properties are set to **true**.
 
-**Important:** A wildcard search for `*change_model` in `sys_properties.list` may return additional properties depending on the installed plugins, such as `com.snc.change_management.change_model.default_read_roles`, which controls read access to change model records. Confirm the value of any role-based property before changing it. For the roles referenced, see [Components installed with ITSM Roles - Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/installed-with-cm-itsm-roles.md).
+**Important:** A wildcard search for `*change_model` in `sys_properties.list` may return additional properties depending on the installed plugins, such as `com.snc.change_management.change_model.default_read_roles`, which controls read access to change model records. Confirm the value of any role-based property before changing it. For the roles referenced, see [Components installed with ITSM Roles - Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/installed-with-cm-itsm-roles.md).
 
 Enter `sys_properties.list` in the navigation filter and enter `*change_model` in the Search panel to view and edit the properties.
 
@@ -65,5 +65,5 @@ Comma-separated roles that have read access to change model records. Use this pr
 </td></tr></tbody>
 </table>**Note:** If type compatibility is set to false, and change type does not match with a corresponding change model, the change model is marked as Legacy.
 
-**Parent Topic:**[Change model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/manage-change-models.md)
+**Parent Topic:**[Change model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/manage-change-models.md)
 

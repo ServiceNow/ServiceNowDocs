@@ -3,11 +3,11 @@ title: View an expense
 description: Expense lines can be used in various ways, for example, how to view expenses that are associated with a given contract.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/expense-line/t\_ExpenseLinesExample.html
-release: australia
+release: brazil
 product: Expense Line
 classification: expense-line
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Expense Line, IT Service Management]
 ---
@@ -35,7 +35,7 @@ Role required: asset or contract\_manager
 4.  Select an expense line to view its details.
 
 
-**Parent Topic:**[Expense Line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/expense-line/c_ExpenseLine.md)
+**Parent Topic:**[Expense Line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/expense-line/c_ExpenseLine.md)
 
 **Related topics**  
 

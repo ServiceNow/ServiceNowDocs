@@ -3,11 +3,11 @@ title: Export a responsive dashboard to PDF
 description: Export a dashboard as a PDF so you can archive, print, or distribute it.It's possible to export any dashboard or homepage to PDF using your browser's print functionality.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/t\_ExportAHomePageOrDashboardToPDF.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Working with responsive dashboards, Create and use dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -18,9 +18,9 @@ Export a dashboard as a PDF so you can archive, print, or distribute it.
 
 ## Before you begin
 
-This topic refers to Dashboards in the Core UI. If your instance is migrated to Platform Analytics experience, see [Export a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/export-pae-dashboard-ppt.md).
+This topic refers to Dashboards in the Core UI. If your instance is migrated to Platform Analytics experience, see [Export a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/export-pae-dashboard-ppt.md).
 
-Roles required: No role is required to export dashboards to PDF, however, an admin has to configure the instance for PDF export. See [Enable PDF export of dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/enable-pdf-export.md) for more information.
+Roles required: No role is required to export dashboards to PDF, however, an admin has to configure the instance for PDF export. See [Enable PDF export of dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/enable-pdf-export.md) for more information.
 
 ## About this task
 
@@ -36,7 +36,7 @@ If you do not have Next Experience activated, select **Printer Friendly Version*
 
 Limitations:
 
--   Custom content may not generate as expected when exported to PDF. For more information, see [Custom content PDF export limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/custom-content-pdf-export-limitations.md).
+-   Custom content may not generate as expected when exported to PDF. For more information, see [Custom content PDF export limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/custom-content-pdf-export-limitations.md).
 -   Dashboards that are exported to PDF do not include the dashboard layout. Widgets are stacked on top of each other and take up the full page width.
 -   Widgets are exported to a fixed height. Large widgets, such as workbench or list widgets, are truncated.
 -   Calendar reports exported from a dashboard may be truncated because exporting calendar reports to PDF is not supported.

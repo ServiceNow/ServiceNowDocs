@@ -3,11 +3,11 @@ title: Cool Clock widget
 description: Show different times around the world using the Cool Clock widget. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/cool-clock-widget.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Example widgets, Widget library, Using portal widgets, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -28,7 +28,7 @@ Cool clocks demonstrates how to use instance options in a widgets. The time zone
 |Timezone|The location from which the time is displayed. Use the local full name, for example, **America/New York**, instead of the abbreviated time zone. Using the full name allows time zones to stay consistent with daylight savings time. The default value is **America/Los Angeles**|
 |Second hand color|Color of the second hand using the hex code, RGB, or color name. The default value is **red**.|
 
-**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
+**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
 
 **Related topics**  
 

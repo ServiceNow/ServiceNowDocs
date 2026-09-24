@@ -3,9 +3,9 @@ title: Add a business unit to a business capability
 description: You can add an existing business unit to a business capability in the Enterprise Architecture Workspace or create a business unit from the business capability.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-add-business-unit-to-business-capability.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [business unit, business capability, enterprise architecture]
 breadcrumb: [Manage business capabilities, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
@@ -39,16 +39,16 @@ Role required: sn\_apm.apm\_user along with cost\_transparency\_admin or cost\_t
         1.  Select **Add**.
         2.  In the Add business unit window, search for and select the business unit.
         3.  Select **Add**.
-    -   To create a business unit, select **New** and complete the fields on the form. For field descriptions, see [Create a business unit form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-a-new-business-unit-form.md).
+    -   To create a business unit, select **New** and complete the fields on the form. For field descriptions, see [Create a business unit form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-a-new-business-unit-form.md).
 
 ## Result
 
 The business unit appears in the **Related business units** Related list for the business capability.
 
-**Parent Topic:**[Manage business capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-business-capabilities.md)
+**Parent Topic:**[Manage business capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-manage-business-capabilities.md)
 
 **Related topics**  
 
 
-[Remove a business unit from a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-remove-business-unit-from-business-capability.md)
+[Remove a business unit from a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-remove-business-unit-from-business-capability.md)
 

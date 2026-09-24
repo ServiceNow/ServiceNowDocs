@@ -1,18 +1,18 @@
 ---
-title: Allow CORS Origins for OAuth Endpoints
+title: Allow CORS origins for OAuth endpoints
 description: Use a system property to configure to specify which domains are allowed to make cross-origin requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-allow-cors-origins-for-oauth-endpoints.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuration, Hardening settings, Platform Security]
 ---
 
-# Allow CORS Origins for OAuth Endpoints
+# Allow CORS origins for OAuth endpoints
 
 Use a system property to configure to specify which domains are allowed to make cross-origin requests.
 
@@ -23,7 +23,7 @@ References:
 -   [OAuth Authorization Server Metadata RFC](https://datatracker.ietf.org/doc/html/rfc8414)
 -   [OAuth Protected Resource Metadata RFC](https://datatracker.ietf.org/doc/html/rfc9728)
 
-When integrating third-party solutions with ServiceNow OAuth functionality, ensure that the **glide.oauth.cors.allowed.origin** system property exists in the System Properties \[sys\_properties\] table, and holds the external domain\(s\) required for Cross Origin Resource Sharing \(CORS\) functionality.
+When integrating third-party solutions with ServiceNow OAuth functionality, ensure that the **glide.oauth.cors.allowed.origin** system property exists in the system properties \[sys\_properties\] table, and holds the external domain\(s\) required for Cross Origin Resource Sharing \(CORS\) functionality.
 
 ## More information
 
@@ -93,7 +93,7 @@ Category
 
 </td><td>
 
-[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-configuration.md)
+[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-configuration.md)
 
 </td></tr><tr><td>
 
@@ -122,5 +122,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-configuration.md)
+</table>**Parent Topic:**[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-configuration.md)
 

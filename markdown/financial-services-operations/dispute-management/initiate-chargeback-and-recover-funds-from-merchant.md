@@ -3,11 +3,11 @@ title: Initiate chargeback and recover funds from merchant
 description: Initiate a request for the card network issuer to credit the customer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/initiate-chargeback-and-recover-funds-from-merchant.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Initiating a chargeback, Resolving disputes without network integration, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -20,7 +20,7 @@ Initiate a request for the card network issuer to credit the customer.
 
 Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dispute\_agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -74,7 +74,7 @@ The task state moves to the Closed complete state. Additionally:
 
 ## What to do next
 
-If the merchant has provided representment, proceed to [Review merchant representment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/review-representment.md). Otherwise, proceed to [Provide final credit to customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/provide-final-credit-to-customer.md) or [Convert provisional credit to final credit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/convert-provisional-credit-to-final-credit.md).
+If the merchant has provided representment, proceed to [Review merchant representment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/review-representment.md). Otherwise, proceed to [Provide final credit to customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/provide-final-credit-to-customer.md) or [Convert provisional credit to final credit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/convert-provisional-credit-to-final-credit.md).
 
-**Parent Topic:**[Initiating a chargeback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/initiate-a-chargeback.md)
+**Parent Topic:**[Initiating a chargeback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/initiate-a-chargeback.md)
 

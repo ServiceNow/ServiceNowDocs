@@ -3,7 +3,7 @@ title: ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 description: With the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application, your agents can use generative AI to summarize the details and comment activity of each public service case to get the context of the case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/sn-otto-for-psds.html
-release: australia
+release: brazil
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -19,15 +19,15 @@ With the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application
 
 <table id="table_zzm_tc2_kbc" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for Public Sector Digital Services \(PSDS\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-exploring.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for Public Sector Digital Services \(PSDS\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/now-assist-psds-exploring.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-configuring.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/now-assist-psds-configuring.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use generative AI capabilities offered by ServiceNow Otto for Public Sector Digital Services \(PSDS\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-using.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use generative AI capabilities offered by ServiceNow Otto for Public Sector Digital Services \(PSDS\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/now-assist-psds-using.md)
 
 </td></tr><tr><td>
 
@@ -35,7 +35,7 @@ With the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application
 
 </td><td>
 
-[Use Public Sector Digital Services AI agent collection \[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use agentic workflows in Public Sector Digital Services.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-agentic-ai.md)
+[Use Public Sector Digital Services AI agent collection \[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use agentic workflows in Public Sector Digital Services.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/now-assist-psds-agentic-ai.md)
 
 </td><td>
 
@@ -65,7 +65,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect case information \(for case summarization\) and test run information \(for test summarization\). Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect case information \(for case summarization\) and test run information \(for test summarization\). Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md).
 

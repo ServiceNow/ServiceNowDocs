@@ -3,11 +3,11 @@ title: Schedule and manage the Cloud Cost Management jobs that download Microsof
 description: A Price Sheet Download job downloads and stores price sheet data. The Rightsizing and Unused resources processes use price sheet data when generating recommendations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/azure-pricesht-sched-dwnld-cloudin.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure Cloud Cost Management for Microsoft Azure, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -151,7 +151,7 @@ Details for the execution that is currently running.
 **Related topics**  
 
 
-[Rightsizing resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/rs-cloudin.md)
+[Rightsizing resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/rs-cloudin.md)
 
-[Specify rate discounts to enable accurate pricing for Rightsizing recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/discounts-specify-cloudin.md)
+[Specify rate discounts to enable accurate pricing for Rightsizing recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/discounts-specify-cloudin.md)
 

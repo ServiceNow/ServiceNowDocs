@@ -3,11 +3,11 @@ title: Dynamic client registration
 description: Connect an MCP connector in Connect Hub to enable AI agents in Workflow Data Fabric to interact with an external system using automatic OAuth authorization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/mcp-dcr-a.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Model Context Protocol connectors, Build integrations with connectors, Connect, Workflow Data Fabric]
+breadcrumb: [Model Context Protocol connectors, Build integrations with connectors, Connect, Workflow Data Fabric Home, Workflow Data Fabric]
 ---
 
 # Dynamic client registration
@@ -21,9 +21,9 @@ Connect an MCP connector in Connect Hub to enable AI agents in Workflow Data Fab
 
 ## About this task
 
-Dynamic client registration enables you to connect an MCP connector that supports automatic OAuth authorization, such as Linear. In this, Connect Hub redirects you to the third-party provider's authorization page, where you approve the connection. No Client ID or Client secret is required. If the connector you want to use requires manual setup with a Client ID and Client secret, see [Manual client registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mcp-mcr-a.md).
+Dynamic client registration enables you to connect an MCP connector that supports automatic OAuth authorization, such as Linear. In this, Connect Hub redirects you to the third-party provider's authorization page, where you approve the connection. No Client ID or Client secret is required. If the connector you want to use requires manual setup with a Client ID and Client secret, see [Manual client registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/mcp-mcr-a.md).
 
-For the list of available MCP connectors, see [Available Enterprise MCP Registries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mcp-reg-enterprise.md).
+For the list of available MCP connectors, see [Available Enterprise MCP Registries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/mcp-reg-enterprise.md).
 
 ## Procedure
 

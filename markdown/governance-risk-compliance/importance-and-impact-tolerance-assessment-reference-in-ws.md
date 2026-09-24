@@ -3,9 +3,9 @@ title: Create Importance and impact tolerance assessment form
 description: Use the Create Importance and impact tolerance assessment form in Operational Resilience Workspace to create an assessment for the business service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/importance-and-impact-tolerance-assessment-reference-in-ws.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create an Importance and impact tolerance assessment, Performing Importance and impact tolerance assessment, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---

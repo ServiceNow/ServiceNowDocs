@@ -3,9 +3,9 @@ title: Customer Dispute Management
 description: Customer Dispute Management provides a structured process to register, investigate, and resolve customer disputes and complaints, including disputes referred to regulatory bodies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/alternative-dispute-resolution.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [customer dispute management, dispute resolution, complaint management, regulatory compliance]
 breadcrumb: [Explore, Customer Service Problem Management, Telecommunications, Media, and Technology \(TMT\)]
@@ -15,7 +15,7 @@ breadcrumb: [Explore, Customer Service Problem Management, Telecommunications, M
 
 Customer Dispute Management provides a structured process to register, investigate, and resolve customer disputes and complaints, including disputes referred to regulatory bodies.
 
-Customer Dispute Management \(CDM\) is a specialized complaint management system within the CSM/FSM workspace. CDM extends complaint case functionality to handle formal dispute resolution processes between customers and organizations.
+Customer Dispute Management \(CDM\) is a specialized complaint management system within the CRM Workspace. CDM extends complaint case functionality to handle formal dispute resolution processes between customers and organizations.
 
 ## Key benefits
 
@@ -35,9 +35,9 @@ A customer dispute moves through four stages:
 -   **Resolution and dispute analysis**: The agent drafts a resolution plan, creates resolution tasks, and records a dispute analysis including product, category, subcategory, and dispute reason.
 -   **Closure**: The agent proposes the resolution to the customer by email and records whether the customer accepts or rejects it. If the customer rejects the resolution, the agent generates and sends a deadlock letter. The agent notifies the customer of the outcome, records customer feedback, and closes the dispute with a resolution code and closing notes. For disputes submitted by a regulatory body, the agent sends a summary of findings, proposed resolution, and customer feedback.
 
-For more information on the steps at each stage, see [CDM playbook stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/cdm-playbook-stages-and-activities.md).
+For more information on the steps at each stage, see [CDM playbook stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/cdm-playbook-stages-and-activities.md).
 
-CDM case records use the Case Playbook for Complaints feature to capture details and execute the workflow. For more information about the Case Playbook for Complaints, see [Case Playbook for Complaints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-complaint-overview.md).
+CDM case records use the Case Playbook for Complaints feature to capture details and execute the workflow. For more information about the Case Playbook for Complaints, see [Case Playbook for Complaints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-playbook-complaint-overview.md).
 
 ## Dispute analysis
 
@@ -55,10 +55,10 @@ The following roles control access to customer dispute, regulatory, and dispute 
 
 ## Related information
 
-For information about using CDM cases, see [Using Customer Dispute Management case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/use-alternative-dispute-resolution-case.md).
+For information about using CDM cases, see [Using Customer Dispute Management case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/use-alternative-dispute-resolution-case.md).
 
 **Related topics**  
 
 
-[Customer service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-case-types.md)
+[Customer service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-service-case-types.md)
 

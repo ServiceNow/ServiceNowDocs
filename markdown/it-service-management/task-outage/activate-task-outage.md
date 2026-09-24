@@ -3,11 +3,11 @@ title: Activate Task-Outage Relationship
 description: Activate the Task-Outage Relationship plugin \(com.snc.task\_outage\) to track outage duration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/task-outage/activate-task-outage.html
-release: australia
+release: brazil
 product: Task Outage
 classification: task-outage
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Task Outage, IT Service Management]
 ---
@@ -36,16 +36,16 @@ The Task-Outage Relationship plugin creates a many-to-many relationship between 
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 
--   **[Components installed with Task-Outage Relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-outage/components-instld-with-task-outage.md)**  
+-   **[Components installed with Task-Outage Relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/task-outage/components-instld-with-task-outage.md)**  
 The Task Outage table is installed with activation of the Task-Outage Relationship plugin \(com.snc.task\_outage\).
 
-**Parent Topic:**[Task Outage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-outage/task-outage.md)
+**Parent Topic:**[Task Outage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/task-outage/task-outage.md)
 
 **Related topics**  
 
 
-[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-of-plugins.md)
 

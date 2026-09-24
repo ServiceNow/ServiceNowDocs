@@ -3,11 +3,11 @@ title: Filter the view of a Dependency Views map
 description: Filter a Dependency Views map to display specific types or categories of configuration items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/t\_FilterViewNGBSMMap.html
-release: australia
+release: brazil
 product: Dependency Views
 classification: dependency-views
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Dependency Views, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -62,7 +62,7 @@ Apply previously saved custom settings to the current map.
 
 </td><td>
 
-Apply [previously defined filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/create-predefined-filter.md) consisting of configuration type, CI type, and relationship filters. You can [Set a predefined filter as default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/set-predefined-filter-default.md).This filter is applied first, before any other filters \(such as **Filter CIs by Depth**\) are applied.
+Apply [previously defined filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/dependency-views/create-predefined-filter.md) consisting of configuration type, CI type, and relationship filters. You can [Set a predefined filter as default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/dependency-views/set-predefined-filter-default.md).This filter is applied first, before any other filters \(such as **Filter CIs by Depth**\) are applied.
 
 </td></tr><tr><td>
 
@@ -164,7 +164,7 @@ Designate what types of tasks display and get counted in the map.
 </table>3.  Click a filter strip to expand or collapse it, and to set filter items.
 
 
-**Parent Topic:**[Use Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/p_UseNGBSM.md)
+**Parent Topic:**[Use Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/dependency-views/p_UseNGBSM.md)
 
 **Related topics**  
 

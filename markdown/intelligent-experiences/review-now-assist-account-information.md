@@ -3,12 +3,12 @@ title: Review Now Assist account
 description: Review your Now Assist license details on the Account page of the AI Admin Hub console to make sure that you're up to date on what's available to you.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/review-now-assist-account-information.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Review, Now Assist, account, information, admin, settings]
-breadcrumb: [AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Review Now Assist account
@@ -38,7 +38,7 @@ From the Account page, you can review the licensing information to verify which 
 
 ## What to do next
 
-Turn on the skills that you want for your Now Assist workflow applications so that you can use generative AI capabilities across the ServiceNow AI Platform. For more information, see [Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md).
+Turn on the skills that you want for your Now Assist workflow applications so that you can use generative AI capabilities across the ServiceNow AI Platform. For more information, see [Configuring Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-na-landing.md).
 
-**Parent Topic:**[AI Admin Hub Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-now-assist-admin-settings.md)
+**Parent Topic:**[AI Admin Hub Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-now-assist-admin-settings.md)
 

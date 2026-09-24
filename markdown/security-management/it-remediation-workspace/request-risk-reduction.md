@@ -3,11 +3,11 @@ title: Request risk reduction for a vulnerable item or remediation task
 description: Request a reduction in risk for a host vulnerable item or a remediation task in the IT Remediation Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/it-remediation-workspace/request-risk-reduction.html
-release: australia
+release: brazil
 product: IT Remediation Workspace
 classification: it-remediation-workspace
 topic_type: task
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, IT Remediation Workspace, Vulnerability Response Workspaces, Unified Security Exposure Management, Security Operations]
 ---
@@ -43,13 +43,13 @@ A remediation task can include vulnerable items associated with more than one CV
 
 5.  On the Request Exception form, fill in the fields.
 
-    For a description of the field values, see[Request exception form for risk reduction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/it-remediation-workspace/itr-ws-request-exception-form-rr.md).
+    For a description of the field values, see[Request exception form for risk reduction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/it-remediation-workspace/itr-ws-request-exception-form-rr.md).
 
 6.  Select **Request Exception**.
 
 7.  If a Take Questionnaire modal is displayed, answer the questions to provide additional information about your request and select **Submit**.
 
-    **Note:** The Take Questionnaire modal appears only when the questionnaire is enabled for exception management. For more information, see [Configure Exception Management for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/configure-exception-management-settings.md).
+    **Note:** The Take Questionnaire modal appears only when the questionnaire is enabled for exception management. For more information, see [Configure Exception Management for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/configure-exception-management-settings.md).
 
 
 ## Result
@@ -63,18 +63,18 @@ A message appears stating that your request is successfully submitted for approv
     -   A state change approval \(VCA\#\) is created.
     -   The state doesn't change.
 
-On approval or rejection of your request, you’ll receive a notification. For more information on the approval process, see [Approve or reject requests in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vr-ws-approve-requests.md).
+On approval or rejection of your request, you’ll receive a notification. For more information on the approval process, see [Approve or reject requests in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-manager-workspace/vr-ws-approve-requests.md).
 
-For more information on how the **Until date for risk reduction** is updated for a remediation task and vulnerable item when a risk reduction request is approved, see [Impact of the compensating controls on risk score and expiration date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/requesting-approving-risk-reduction.md).
+For more information on how the **Until date for risk reduction** is updated for a remediation task and vulnerable item when a risk reduction request is approved, see [Impact of the compensating controls on risk score and expiration date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-manager-workspace/requesting-approving-risk-reduction.md).
 
 **Related topics**  
 
 
-[Understanding compensating controls for risk reduction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/compensating-controls-overview.md)
+[Understanding compensating controls for risk reduction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-manager-workspace/compensating-controls-overview.md)
 
-[Restrict or enable risk change for a CVE or TPE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/disable-risk-reduction.md)
+[Restrict or enable risk change for a CVE or TPE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-manager-workspace/disable-risk-reduction.md)
 
-[Add a compensating control to the library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/create-compensatory-control.md)
+[Add a compensating control to the library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-manager-workspace/create-compensatory-control.md)
 
-[Impact of the compensating controls on risk score and expiration date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/requesting-approving-risk-reduction.md)
+[Impact of the compensating controls on risk score and expiration date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-manager-workspace/requesting-approving-risk-reduction.md)
 

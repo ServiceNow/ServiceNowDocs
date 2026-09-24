@@ -3,9 +3,9 @@ title: Routing and assigning customer service cases
 description: The case routing feature uses matching rules and assignment rules to identify customer service cases that meet certain conditions and then route those cases to customer service agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/c\_CaseRouting.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -48,5 +48,5 @@ Alternately, you can create a script to further customize the assignment rule.
 **Related topics**  
 
 
-[Assignment rules module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_AssignmentRulesModule.md)
+[Assignment rules module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_AssignmentRulesModule.md)
 

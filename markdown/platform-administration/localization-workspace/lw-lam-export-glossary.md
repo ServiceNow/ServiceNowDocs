@@ -3,12 +3,12 @@ title: Export a glossary from Language Asset Management
 description: Download your glossary as a CSV or spreadsheet file to share with stakeholders, reviewers, or third-party translation service providers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-workspace/lw-lam-export-glossary.html
-release: australia
+release: brazil
 product: Localization Workspace
 classification: localization-workspace
 topic_type: task
-last_updated: "2026-05-28"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Language Asset Management, Configuring Localization Workspace, Localization Workspace, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -26,6 +26,8 @@ Download your glossary as a CSV or spreadsheet file to share with stakeholders, 
 If you plan to export a glossary to a CSV \(comma-separated values\) file, confirm that your local settings support non-ASCII characters.
 
 Translations into custom \(self-localized\) languages can't be exported. Only glossary translations into default supported languages can be exported using this method.
+
+Glossaries can be exported regardless of source \([upload method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-workspace/lw-lam-upload-glossaries.md), or [generated using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-workspace/lw-create-glossary-using-ai.md)\).
 
 ## Procedure
 
@@ -48,12 +50,14 @@ Translations into custom \(self-localized\) languages can't be exported. Only gl
 6.  Select **Export**.
 
 
-**Parent Topic:**[Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-language-asset-management.md)
+**Parent Topic:**[Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-workspace/lw-language-asset-management.md)
 
 **Related topics**  
 
 
-[Upload glossaries to Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-lam-upload-glossaries.md)
+[Create a glossary using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-workspace/lw-create-glossary-using-ai.md)
 
-[Edit a glossary in Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-lam-edit-glossary.md)
+[Upload glossaries to Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-workspace/lw-lam-upload-glossaries.md)
+
+[Edit a glossary in Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-workspace/lw-lam-edit-glossary.md)
 

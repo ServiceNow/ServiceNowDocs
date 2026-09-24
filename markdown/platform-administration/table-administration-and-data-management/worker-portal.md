@@ -3,11 +3,11 @@ title: Time Sheet Portal
 description: Time Sheet Portal categorizes and displays all your assigned tasks in a single view for a given week. The portal enables you to record time spent on tasks on a day-to-day basis and submit the time sheet in a single action.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/worker-portal.html
-release: australia
+release: brazil
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 7
 breadcrumb: [Time Card management, Working with Task table, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -36,7 +36,7 @@ The Time Sheet Portal header:
 -   Displays a date range of the time sheet for the selected week and provides options to navigate to the time sheet of previous or next week.
 -   Provides a calendar along with the date range. Clicking a date in the calendar displays the time sheet for the week of the selected date.
 -   Provides a link to navigate to the time sheet for the current week when a different time sheet is being viewed.
--   Provides an option under **My Time Sheet** that enables you to open and [edit the time sheets of your resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/submit-time-sheet-other-users.md). The option is available only for a user manager.
+-   Provides an option under **My Time Sheet** that enables you to open and [edit the time sheets of your resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/submit-time-sheet-other-users.md). The option is available only for a user manager.
 -   Provides an option to view the time sheet in the Form view using time sheet form view icon \(\[Omitted image "time-sheet-form-view-icon.png"\] Alt text: Time sheet form view icon\).
 -   Displays the notifications for the submitted, rejected, and recalled time sheets under the show notifications icon \(\[Omitted image "NotificationIcon.png"\] Alt text: Show notifications icon\). Each entry displays the number of time cards and their state. Click on a notification item to open the time sheet.
 
@@ -72,9 +72,9 @@ On the **Tasks** tab, you can perform the following operations:
 -   Type a keyword in the search field to view only cards with details that match the keyword.
 -   Sort cards in ascending or descending order based on priority, irrespective of the task type.
 -   View cards based on a category, such as projects, project tasks, incident, problem, change, defect, enhancement, test plans, and scrum tasks.
--   Create time cards for assigned tasks. See [Create time cards and log time through Time Sheet Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/create-timecards-through-worker-portal.md).
+-   Create time cards for assigned tasks. See [Create time cards and log time through Time Sheet Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/create-timecards-through-worker-portal.md).
 
-    **Note:** [Time sheet policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/time-sheet-policies.md) apply when you create or edit a time card.
+    **Note:** [Time sheet policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/time-sheet-policies.md) apply when you create or edit a time card.
 
 
 ## Group Tasks
@@ -95,21 +95,21 @@ The **Other** tab displays cards used to log time for operational work, such as 
 
 \[Omitted image "workerportaltimesheet.png"\] Alt text: Time sheet section on Time Sheet Portal displays number of tasks and hours logged for each day and their breakdown.
 
-Starting Australia release, time cards and time sheet portal supports resource assignments. Users can select a specific resource assignment while creating time cards and submitting a time card via time sheet portal. Your system administrator can enable the resource assignment column in time sheet portal. For more information on how to add resource assignment column to time sheet, see the Knowledge Base for [KB1649389](https://support.servicenow.com/now/nav/ui/classic/params/target/kb%3Fid%3Dkb_article_view%26sys_kb_id%3D991b2135471f4210f64de825126d4309).
+Starting Brazil release, time cards and time sheet portal supports resource assignments. Users can select a specific resource assignment while creating time cards and submitting a time card via time sheet portal. Your system administrator can enable the resource assignment column in time sheet portal. For more information on how to add resource assignment column to time sheet, see the Knowledge Base for [KB1649389](https://support.servicenow.com/now/nav/ui/classic/params/target/kb%3Fid%3Dkb_article_view%26sys_kb_id%3D991b2135471f4210f64de825126d4309).
 
 The Time Sheet section:
 
 -   Displays the date range of the time sheet for the selected week.
 -   Indicates the state of the time sheet being viewed.
--   Displays the total number of tasks and hours that you have entered for each day in a week. When you click a day in the time sheet, the column for that day is highlighted in both the **Time Sheet** and **Logged Time Cards** sections. The first day displayed in the Time Sheet section is based on the value specified in the **Week starts on** field in the users [Time Sheet Policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/time-sheet-policies.md). For example, if the **Week starts on** field is set to Friday, the Time Sheet section starts with Friday.
+-   Displays the total number of tasks and hours that you have entered for each day in a week. When you click a day in the time sheet, the column for that day is highlighted in both the **Time Sheet** and **Logged Time Cards** sections. The first day displayed in the Time Sheet section is based on the value specified in the **Week starts on** field in the users [Time Sheet Policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/time-sheet-policies.md). For example, if the **Week starts on** field is set to Friday, the Time Sheet section starts with Friday.
 -   Indicates the total number of hours that you entered in the time sheet. Time Sheet breakdown also displays a breakdown of user-entered hours in different work categories, such as project tasks, admin, meeting, follow on tasks, or change requests.
--   Provides options that enable you to [submit a time sheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/submit-timesheet-workerportal.md) and copy time cards from a previous time sheet. For an approver, options to approve or reject a submitted time sheet and recall a processed time sheet are available.
+-   Provides options that enable you to [submit a time sheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/submit-timesheet-workerportal.md) and copy time cards from a previous time sheet. For an approver, options to approve or reject a submitted time sheet and recall a processed time sheet are available.
 
 ## Logged Time Cards
 
 \[Omitted image "workerportalloggedtimecards.png"\] Alt text: Logged Time Cards section on Time Sheet Portal contains all the tasks added to the time sheet for logging hours.
 
-Each row in the Logged Time Cards section represents a time card entry for a given week. It has details such as icon for state of the time card, short description of the task, project time category, rate type, resource plan, and logged time. Each row of the time card contains options that enable you to edit, delete, or add notes to a time card. For more information, see [Create time cards and log time through Time Sheet Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/create-timecards-through-worker-portal.md).
+Each row in the Logged Time Cards section represents a time card entry for a given week. It has details such as icon for state of the time card, short description of the task, project time category, rate type, resource plan, and logged time. Each row of the time card contains options that enable you to edit, delete, or add notes to a time card. For more information, see [Create time cards and log time through Time Sheet Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/create-timecards-through-worker-portal.md).
 
 **Note:**
 
@@ -122,12 +122,12 @@ When there are no time cards, the Logged Time Cards section displays the **Gener
 
 **Note:** Time Sheet Portal is not designed for use on mobile devices, and may not appear as shown in this document.
 
--   **[Create time cards and log time through Time Sheet Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/create-timecards-through-worker-portal.md)**  
+-   **[Create time cards and log time through Time Sheet Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/create-timecards-through-worker-portal.md)**  
 After you create time cards in Time Sheet Portal, log time in the time cards.
--   **[Submit time sheet through Time Sheet Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/submit-timesheet-workerportal.md)**  
+-   **[Submit time sheet through Time Sheet Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/submit-timesheet-workerportal.md)**  
 Once you update the time sheet with time worked for a given week, submit it for approval.
--   **[Log time and submit time sheets of your resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/submit-time-sheet-other-users.md)**  
+-   **[Log time and submit time sheets of your resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/submit-time-sheet-other-users.md)**  
 As a user manager, you can log time and submit the time sheet of your resources.
 
-**Parent Topic:**[Time Card Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/time-card-management.md)
+**Parent Topic:**[Time Card Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/time-card-management.md)
 

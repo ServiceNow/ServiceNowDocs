@@ -3,11 +3,11 @@ title: Anonymous privacy case form
 description: The fields in the Report a privacy case form capture information about the suspected or confirmed privacy issue while keeping the reporter's identity confidential.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/anonymous-privacy-case-form.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Report a privacy case anonymously, Report a privacy case, Use, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -117,12 +117,12 @@ Number of impacted individuals
 Total number of individuals whose personal data was exposed, accessed, or compromised.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Report a privacy case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/report-privacy-case-anonymously.md)
+</table>**Parent Topic:**[Report a privacy case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/report-privacy-case-anonymously.md)
 
 **Related topics**  
 
 
-[Anonymous Reporting Center \(ARC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md)
+[Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md)
 
-[Report a privacy case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/report-privacy-case-anonymously.md)
+[Report a privacy case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/report-privacy-case-anonymously.md)
 

@@ -3,11 +3,11 @@ title: View agent errors
 description: Agent Client Collector \(ACC\) errors are visible in logs related to the agent and the ServiceNow instance. This feature provides improved visibility of agent errors, enabling faster error resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/view-agent-errors.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Collect data from your system devices, ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -18,18 +18,11 @@ Agent Client Collector \(ACC\) errors are visible in logs related to the agent a
 
 ## Before you begin
 
--   Ensure that the Error Framework plugin \(GlidePluginManager\) is active.
--   Ensure that the system property **sn\_agent.use\_glide\_error\_framework** is set to **true** \(**All** &gt; **System properties** &gt; **All Properties**\).
-
--   Role required: agent\_client\_collector\_admin
-
-Role required: agent\_client\_collector\_admin
-
 ## Procedure
 
 1.  Navigate to **All** &gt; **Agent Client Collector** &gt; **Agent Issues**.
 
-    The **ACC Error Messages** page appears and lists the agents containing errors.\[Omitted image "acc-error-messages.png"\] Alt text: ACC Error Messages page
+    The **Errors** page appears and lists the errors compiled from the instance.
 
     The following columns display the indicated information about the errors.
 
@@ -43,19 +36,35 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-CI ID
+Key
 
 </td><td>
 
-The name of the agent containing the error, or a configuration item \(CI\) with an issue.
+Internal value used to identify the error.For data collection errors, specifies the **agent\_id** value.
 
 </td></tr><tr><td>
 
-Code
+Error Code
 
 </td><td>
 
 Error code assigned to the issue.
+
+</td></tr><tr><td>
+
+Refined Error Code
+
+</td><td>
+
+Optional modified error code. For example if the assigned **Error Code** is too generic, you can modify the value.
+
+</td></tr><tr><td>
+
+Error Category
+
+</td><td>
+
+The error category which the error is classified under.
 
 </td></tr><tr><td>
 
@@ -67,7 +76,15 @@ A message describing the error.
 
 </td></tr><tr><td>
 
-Source application
+Error state
+
+</td><td>
+
+Indicates the state of the error: **Open** or **Resolved**.
+
+</td></tr><tr><td>
+
+Error Source
 
 </td><td>
 
@@ -75,51 +92,19 @@ The application triggering the error.
 
 </td></tr><tr><td>
 
-Error status
+Suppress
 
 </td><td>
 
-Indicates the state of the error: **Active** or **Resolved**.
+Indicates whether the error is to be ignored.
 
 </td></tr><tr><td>
 
-Category
+Last Occurrence
 
 </td><td>
 
-The error category which the error is classified under.
-
-</td></tr><tr><td>
-
-Key
-
-</td><td>
-
-Internal value used to identify the error.For data collection errors, specifies the **agent\_id** value.
-
-</td></tr><tr><td>
-
-Key extension
-
-</td><td>
-
-Internal value used to identify the error.For check execution errors, specifies the check name.
-
-</td></tr><tr><td>
-
-Command
-
-</td><td>
-
-The command executed when the error occurred \(if applicable\).
-
-</td></tr><tr><td>
-
-Stack trace
-
-</td><td>
-
-A reference to the **ecc\_queue** record that was processed and triggered the error \(if applicable\).
+Time stamp with the most recent occurrence of the error.
 
 </td></tr></tbody>
 </table>    **Note:**
@@ -130,6 +115,8 @@ A reference to the **ecc\_queue** record that was processed and triggered the er
         \[Omitted image "acc-error-message-popup.png"\] Alt text: ACC Error Message popup window
 
         The info icon is visible when hovering under the search icon \(\[Omitted image "search-icon-magnifyingGlass.png"\] Alt text: Search icon\) next to the error entry.
+
+    Alternatively, you can view information about the error by selecting it on the **Errors** page.
 
 2.  To view errors for a specific agent:
 

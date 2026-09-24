@@ -3,11 +3,11 @@ title: Personalize Prioritization view
 description: Personalize the Prioritization tab view in the Planning page in the workspace so that you can view the information that is most relevant to you and your stakeholders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/personalize-prioritization-page-portfolio-planning-workspace.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Personalizing views for prioritization, Prioritize portfolio plan work, Portfolio Planning, Strategic Portfolio Management]
@@ -19,7 +19,7 @@ Personalize the Prioritization tab view in the Planning page in the workspace so
 
 ## Before you begin
 
-[Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-portfolio-plan-in-portfolio-planning-workspace.md)
+[Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/create-portfolio-plan-in-portfolio-planning-workspace.md)
 
 Role required: sn\_align\_core.apw\_user
 
@@ -43,7 +43,7 @@ Personalization preferences are saved as the portfolio plan's settings in Portfo
 
         You can reorder the columns here to change their display order on the backlog.
 
-        If you want additional columns to be available in this page, your admin can configure them. See [Configuring additional columns for Prioritization page in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/customizing-the-columns-for-prioritization-page-in-portfolio-planning.md).
+        If you want additional columns to be available in this page, your admin can configure them. See [Configuring additional columns for Prioritization page in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/customizing-the-columns-for-prioritization-page-in-portfolio-planning.md).
 
     3.  From the Rows section, choose how the rows are displayed, using the **Shade alternate rows** toggle.
 
@@ -53,15 +53,15 @@ Personalization preferences are saved as the portfolio plan's settings in Portfo
 
     Use one of the following ways to group the planning items. Repeat the action to group the list by multiple attributes.
 
-<table id="choicetable_mwf_cgk_htb"><thead><tr><th align="left" id="d132884e191">
+<table id="choicetable_mwf_cgk_htb"><thead><tr><th align="left" id="d133027e191">
 
 Choice
 
-</th><th align="left" id="d132884e194">
+</th><th align="left" id="d133027e194">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d132884e200">
+</th></tr></thead><tbody><tr><td id="d133027e200">
 
 **Drag and drop**
 
@@ -73,7 +73,7 @@ Drag and drop a column name to the **Grouped by** bar above the list.
 
  \[Omitted image "backlog-grouping-animation.gif"\] Alt text: Animation showing grouping the backlog list by planning item type.
 
-</td></tr><tr><td id="d132884e228">
+</td></tr><tr><td id="d133027e228">
 
 **Use Column actions**
 
@@ -118,6 +118,6 @@ Select the Column actions icon \(\[Omitted image "icon-column-actions.png"\] Alt
 
     Personalization settings that you've made so far on the Prioritization page would be cleared. Any personalization that you make after this point is set as the new preference for the portfolio.
 
-10. [Apply quick filters for Prioritization and Roadmap data in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/quick-fiters-prioitization-roadmap-ppw.md)
+10. [Apply quick filters for Prioritization and Roadmap data in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/quick-fiters-prioitization-roadmap-ppw.md)
 
 

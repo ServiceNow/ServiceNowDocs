@@ -3,9 +3,9 @@ title: Synthetic monitor status definitions
 description: Learn what each synthetic monitor test status means, so you can distinguish a genuine endpoint failure from a test that never ran.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/synthetic-monitor-status-definitions.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [status, monitor status, Unknown, Failed, Passed]
 breadcrumb: [Reference, Synthetic monitoring, ITOM AIOps, IT Operations Management]
@@ -60,9 +60,9 @@ If the MID Server assigned to a monitor's location exists but is down or has not
 </td></tr></tbody>
 </table>## Related topics
 
-[Upgrade issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/troubleshoot-sm-mid.md)
+[Upgrade issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/troubleshoot-sm-mid.md)
 
-[Identifying system issues with synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/identifying-system-issues.md)
+[Identifying system issues with synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/identifying-system-issues.md)
 
-**Parent Topic:**[Synthetic monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/synthetic-monitoring-reference.md)
+**Parent Topic:**[Synthetic monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/synthetic-monitoring-reference.md)
 

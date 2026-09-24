@@ -3,11 +3,11 @@ title: Configurable actionable notifications for ITSM Mobile Agent
 description: With configurable actionable notifications for ITSM Mobile Agent, you can perform actions based on push notifications without having to open the ITSM Mobile Agent application.Create a push notification for various actions performed on the ITSM Mobile Agent application.Create a push action category if any of the pre-defined push action categories do not meet the business requirements.Create a push action if any of the pre-defined push actions do not meet the business requirements.Create a mobile function for each function in the action category. These actions perform tasks on your instance based on what the user selects in the notification.Associate functions to the actions for an actionable push notification.Create the content of the message to be displayed as a notification.Create a record to determine the information to be displayed for a notification.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/actionable-notify-itsm-mobile.html
-release: australia
+release: brazil
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Configuring ITSM Mobile Agent, ITSM Mobile Agent, IT Service Management]
 ---
@@ -238,7 +238,7 @@ Role required: admin
     -   Navigation
     -   URL
     -   Chat launcher
-    For information on function types, and detailed steps for creating functions, see [Mobile functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-mobile-button-types.md).
+    For information on function types, and detailed steps for creating functions, see [Mobile functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-studio-mobile-button-types.md).
 
 4.  Create additional functions for each push action.
 
@@ -247,7 +247,7 @@ Role required: admin
 
 ### What to do next
 
-[Map functions with push actions for actionable push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/actionable-notify-itsm-mobile.md)
+[Map functions with push actions for actionable push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-mobile-agent/actionable-notify-itsm-mobile.md)
 
 ## Map functions with push actions for actionable push notifications
 

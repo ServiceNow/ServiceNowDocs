@@ -3,11 +3,11 @@ title: Principal classes in CMDB success advisor
 description: Principal classes are CI classes that your organization treats as business-critical. In CMDB success advisor, the CI classes you select define the Data Foundations advisor scope.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-principal-class.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-06-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [principal classes, cmdb\_class\_info, principal class filter, task forms]
 breadcrumb: [Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
@@ -78,7 +78,7 @@ Comma-separated list of custom CI classes to include in the Others group of the 
 Keyword value \(`PREDEFINED`\) that displays a standard set of commonly managed CI classes as recommendations on instances with no prior task activity.This property does not exist by default and must be created manually.
 
 </td></tr></tbody>
-</table>The **sn\_cmdb\_advisor.principal\_class\_recommendation\_criteria** property is optional. Create it on instances with no prior task activity where task-based recommendations produce no results. Setting the value to `PREDEFINED` displays a standard set of commonly managed CI classes as recommendations. For instructions, see [Create the principal class recommendation criteria property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-rec-criteria.md).
+</table>The **sn\_cmdb\_advisor.principal\_class\_recommendation\_criteria** property is optional. Create it on instances with no prior task activity where task-based recommendations produce no results. Setting the value to `PREDEFINED` displays a standard set of commonly managed CI classes as recommendations. For instructions, see [Create the principal class recommendation criteria property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-rec-criteria.md).
 
 ## Principal class synchronization
 
@@ -89,9 +89,9 @@ The following behaviors apply when principal class changes are made outside the 
 -   When you set a class as principal outside CMDB success advisor, the class is set as principal on the instance. This applies after the Data Foundations advisor dashboard scope is configured. However, it isn't automatically added to the Data Foundations advisor dashboard scope.
 -   When you remove the principal designation from a class outside the advisor, the class remains in the Data Foundations advisor dashboard scope until you remove it manually.
 
-To keep the Data Foundations advisor dashboard scope accurate, make all principal class updates directly in CMDB success advisor by selecting **Manage principal classes** on the Data Foundations advisor dashboard. For more information, see [Managing Data Foundations advisor scope in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-optimize-dashboard.md).
+To keep the Data Foundations advisor dashboard scope accurate, make all principal class updates directly in CMDB success advisor by selecting **Manage principal classes** on the Data Foundations advisor dashboard. For more information, see [Managing Data Foundations advisor scope in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-optimize-dashboard.md).
 
-If other tools or processes change principal classes outside the advisor, an out-of-sync notification appears when you open the Data Foundations advisor dashboard. For more information, see [Principal class sync in Data Foundations advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-class-sync.md).
+If other tools or processes change principal classes outside the advisor, an out-of-sync notification appears when you open the Data Foundations advisor dashboard. For more information, see [Principal class sync in Data Foundations advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-class-sync.md).
 
 ## CI filtering based on principal classes
 
@@ -101,5 +101,5 @@ If both products are configured on the same instance, HAM scope is applied first
 
 Principal classes affect ServiceNow AI Platform behavior beyond CMDB success advisor. After a CI class is set as principal, the platform can filter the **Configuration Item** field on task records so that only CIs that belong to principal classes are available.
 
-**Note:** CMDB success advisor requires principal classes to define advisor scope and function correctly. The system property **com.snc.task.principal\_class\_filter** determines which task types apply the **Configuration Item** filter. If only a limited set of CIs are seen on task forms such as incidents or change requests, remove the affected task table from the **com.snc.task.principal\_class\_filter** system property. Don't clear the **Principal Class** check box on CI classes in the CMDB Class Information \[cmdb\_class\_info\] table to resolve task form filtering issues. This change disables principal class filtering for that task type while allowing CMDB success advisor to continue operating correctly. For more information, see [Principal Class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/principal-class-filter.md).
+**Note:** CMDB success advisor requires principal classes to define advisor scope and function correctly. The system property **com.snc.task.principal\_class\_filter** determines which task types apply the **Configuration Item** filter. If only a limited set of CIs are seen on task forms such as incidents or change requests, remove the affected task table from the **com.snc.task.principal\_class\_filter** system property. Don't clear the **Principal Class** check box on CI classes in the CMDB Class Information \[cmdb\_class\_info\] table to resolve task form filtering issues. This change disables principal class filtering for that task type while allowing CMDB success advisor to continue operating correctly. For more information, see [Principal Class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/principal-class-filter.md).
 

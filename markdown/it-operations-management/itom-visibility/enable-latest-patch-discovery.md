@@ -3,11 +3,11 @@ title: Discover only the latest operating system patch versions
 description: Collect only the current operating system patch level by configuring the sn\_itom\_pattern.discover\_latest\_os\_patches MID Server property. Collecting only the current patch is supported only for AIX Server discovery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/enable-latest-patch-discovery.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Unix discovery, AIX discovery, HP-UX discovery, Solaris discovery, patch discovery, cmdb\_ci\_patches]
 breadcrumb: [Operating systems discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
@@ -46,10 +46,10 @@ By default, Discovery adds a record to the Patches \[cmdb\_ci\_patches\] table f
 
 Run Discovery again to apply the change.
 
-**Parent Topic:**[Operating systems discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Computers.md)
+**Parent Topic:**[Operating systems discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/c_Computers.md)
 
 **Related topics**  
 
 
-[AIX server discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoAIXComputers.md)
+[AIX server discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/r_DataCollDiscoAIXComputers.md)
 

@@ -3,9 +3,9 @@ title: View CIs consuming OTM subscription units
 description: Generate a list of currently countable CIs for each of the OTM applications: ServiceNow OT Foundation, ServiceNow OT Visibility and ServiceNow OT Vulnerability and Response.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/view-otm-licensing-count.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Operational Technology Management licensing and subscriptions, Operational Technology]
 ---
@@ -23,7 +23,7 @@ Role required: sn\_itom\_license.reader
 
 ## About this task
 
-The CI list generated is strongly correlated to the most recent daily count of CIs. However, it's possible that the number of CIs on the generated list may display slight discrepancies compared to the latest daily count if any changes have occurred since the last daily count.
+The CI list generated is strongly correlated to the most recent daily count of CIs. However, the number of CIs on the generated list may display slight discrepancies compared to the latest daily count. This can occur if any changes have been made since the last daily count.
 
 ## Procedure
 

@@ -3,9 +3,9 @@ title: Associate install base items with account consumers
 description: Enable customer service managers to track the instances provisioned by associating install base items with account consumers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_AssociateInstallBaseItems.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using customer data models for B2B2C, Customer management, Use, Customer Service Management]
 ---
@@ -46,7 +46,7 @@ Add an existing consumer
 
 </td></tr><tr><td>
 
-Add a new consumer
+Add a consumer
 
 </td><td>
 

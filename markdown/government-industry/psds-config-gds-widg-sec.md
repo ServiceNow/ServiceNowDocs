@@ -3,7 +3,7 @@ title: Configure widget security in the GDS Service Portal by role
 description: Configure widget security to verify that your GDS Service Portal widgets are being accessed only by the intended audience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gds-widg-sec.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-06-01"
 reading_time_minutes: 1
@@ -26,7 +26,7 @@ There are several ways to configure widget security:
 -   Restrict the widget to users with certain roles only
 -   Restrict which tables a public widget can access and return data from for guest \(unauthenticated\) users
 
-When you configure widget security, configure the page security accordingly so that users can access the widget via the page on which it appears. For more information, see [Configure page security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-page-sec.md).
+When you configure widget security, configure the page security accordingly so that users can access the widget via the page on which it appears. For more information, see [Configure page security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gds-page-sec.md).
 
 ## Procedure
 
@@ -36,15 +36,15 @@ When you configure widget security, configure the page security accordingly so t
 
 3.  On the form, configure the widget security.
 
-<table id="choicetable_n5r_xyt_hkb"><thead><tr><th align="left" id="d26947e113">
+<table id="choicetable_n5r_xyt_hkb"><thead><tr><th align="left" id="d26933e113">
 
 Option
 
-</th><th align="left" id="d26947e116">
+</th><th align="left" id="d26933e116">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d26947e122">
+</th></tr></thead><tbody><tr><td id="d26933e122">
 
 **Restrict the widget to authenticated users**
 
@@ -52,7 +52,7 @@ Procedure
 
 Unselect the check box next to **Public** and leave the **Roles** field blank. This will display the widget to ALL users with a login.
 
-</td></tr><tr><td id="d26947e137">
+</td></tr><tr><td id="d26933e137">
 
 **Restrict the widget to certain roles**
 
@@ -70,11 +70,11 @@ Unselect the check box next to **Public** and leave the **Roles** field blank. T
 
 ## What to do next
 
-For more information on configuring portal access by role, see [Managing portal access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/portal-security.md).
+For more information on configuring portal access by role, see [Managing portal access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/portal-security.md).
 
-**Parent Topic:**[Manage role-based access to pages and widgets in GOV.UK Design System Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-man-acc.md)
+**Parent Topic:**[Manage role-based access to pages and widgets in GOV.UK Design System Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gds-man-acc.md)
 
-**Previous topic:**[Configure page security in the GDS Service Portal by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-page-sec.md)
+**Previous topic:**[Configure page security in the GDS Service Portal by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gds-page-sec.md)
 
-**Next topic:**[Configure the Grants Management Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-grants-management-portal.md)
+**Next topic:**[Configure the Grants Management Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-grants-management-portal.md)
 

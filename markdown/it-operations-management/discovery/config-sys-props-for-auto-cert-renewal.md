@@ -1,24 +1,24 @@
 ---
-title: Configure automatic certificate renewal
+title: Configure system properties for auto-renewal
 description: Enable the auto-renewal options in your System Properties to configure your system to renew automatically Transport Layer Security \(TLS\) certificates before they expire.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/config-sys-props-for-auto-cert-renewal.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring automated certificate renewal, Automated certificate renewal, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Configure automatic certificate renewal
+# Configure system properties for auto-renewal
 
 Enable the auto-renewal options in your System Properties to configure your system to renew automatically Transport Layer Security \(TLS\) certificates before they expire.
 
 ## Before you begin
 
-Check that you have completed the tasks, [Configure MID Server for automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/configure-mid-server-automatic-cert-renewal.md), and [Add the required applications and capabilities to your MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/add-req-apps-capabilities-to-mid-server.md).
+Check that you have completed the tasks, [Configure MID Server for automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/configure-mid-server-automatic-cert-renewal.md), and [Add required applications and capabilities to MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/add-req-apps-capabilities-to-mid-server.md).
 
 Role required: pki\_admin or admin
 
@@ -32,7 +32,7 @@ Configuring your system properties to enable automatic certificate renewal is re
 
 2.  Search for **auto\_renew**.
 
-3.  Select **sn\_disco\_certmgmt.enable\_auto\_renewal\_options\_in\_service\_catalog**
+3.  Select**sn\_disco\_certmgmt.enable\_auto\_renewal\_options\_in\_service\_catalog**
 
 4.  Set the **Value** field to **true**.
 
@@ -43,5 +43,5 @@ Your system is configured to renew automatically certificates before they expire
 
 ## What to do next
 
-You can [Set a certificate to renew automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/set-certificate-to-renew-automatically.md) or use the [Certificate renewal AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/now-assist-cert-renewal-ai-agent.md).
+You can [Set certificates to renew automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/set-certificate-to-renew-automatically.md) or use the [Certificate renewal AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/now-assist-cert-renewal-ai-agent.md).
 

@@ -3,11 +3,11 @@ title: Install Cloud Cost Management Infra Stack
 description: You can install the Cloud Cost Management Infra Stack application \(sn\_cld\_infra\_stack\) if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes related ServiceNow Store applications and plugins if they aren’t already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/install-ccm-infra.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -30,7 +30,7 @@ The following items are installed with Cloud Cost Management Infra Stack:
 -   Plugins
 -   Store applications
 
-The tables, scheduled jobs, and system properties aren't installed with the Cloud Cost Management Infra Stack application. Instead, the components specific to Cloud Cost Management Infra Stack are installed with the Cloud Cost Management application. For more information, see [Components installed with Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/installed-with-ci.md).
+The tables, scheduled jobs, and system properties aren't installed with the Cloud Cost Management Infra Stack application. Instead, the components specific to Cloud Cost Management Infra Stack are installed with the Cloud Cost Management application. For more information, see [Components installed with Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/installed-with-ci.md).
 
 ## Procedure
 

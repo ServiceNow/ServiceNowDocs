@@ -3,13 +3,13 @@ title: Filter content by label for a Google Drive external content connector
 description: Configure a label filter for your Google Drive external content connector. The connector only retrieves content that has one or more of your specified label values applied.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/filter-content-label-google-drive-external-content-connector.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-06-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Google Drive external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -49,7 +49,7 @@ To learn more about labels and their IDs and values in Google Drive, see the [La
 
 3.  Use the list editor to add the **google\_drive\_label\_include\_filter** property to the Advanced Configuration field value.
 
-    To learn more about the list editor, see [Use the list editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_UseTheListEditor.md).
+    To learn more about the list editor, see [Use the list editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_UseTheListEditor.md).
 
     1.  Double-click or long-press \(or use the keyboard shortcut\) to open the Advanced Configuration field value.
 
@@ -86,5 +86,5 @@ To learn more about labels and their IDs and values in Google Drive, see the [La
 
 When you run content crawls for your Google Drive external content connectors, the connectors only retrieve content items that have one or more of your specified label values applied.
 
-**Parent Topic:**[Google Drive external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/google-drive-external-content-connector.md)
+**Parent Topic:**[Google Drive external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/google-drive-external-content-connector.md)
 

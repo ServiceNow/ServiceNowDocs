@@ -3,13 +3,13 @@ title: Define columns to generate data
 description: Provide detailed definitions to preview a test for each column that you want the data to generate the results for.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-data-kit/na-data-kit-define-columns.html
-release: australia
+release: brazil
 product: Now Assist Data Kit
 classification: now-assist-data-kit
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Generate synthetic data, Using AI Data Kit, AI Data Kit, Enable AI experiences]
+breadcrumb: [Generate synthetic data, Using AI Data Kit, AI Data Kit, Managing data for AI, Enable AI Experiences]
 ---
 
 # Define columns to generate data

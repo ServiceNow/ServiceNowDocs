@@ -3,11 +3,11 @@ title: Public URLs
 description: On-premise customers should ensure that the URLs are accessible from the Internet for the Notify-Twilio driver to work correctly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/public-urls.html
-release: australia
+release: brazil
 product: Notify
 classification: notify
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Notify reference, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -35,5 +35,5 @@ For the Notify-Twilio Direct driver, the URLs are:
 
 **Note:** The **glide.notify.endpoint** property needs to be set to an Internet visible name because the instance name inside a private network can be different from the Internet domain.
 
-**Parent Topic:**[Notify reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/notify-reference-section.md)
+**Parent Topic:**[Notify reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/notify/notify-reference-section.md)
 

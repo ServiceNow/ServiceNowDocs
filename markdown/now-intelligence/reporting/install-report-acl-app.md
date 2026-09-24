@@ -3,11 +3,11 @@ title: Install the ACL Assessment for Reports
 description: The ACL Assessment for Reports enables you to identify users that don't have access to reports and to enable access where appropriate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/install-report-acl-app.html
-release: australia
+release: brazil
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-17"
 reading_time_minutes: 1
 breadcrumb: [ACL Assessment for Reports, Administering reports, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -22,7 +22,7 @@ Roles required: admin and security\_admin.
 
 ## About this task
 
-The ACL Assessment for Reports is a store app. For more information about installing store apps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
+The ACL Assessment for Reports is a store app. For more information about installing store apps, see [Installing applications, plugins, and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/installing-apps-app-manager.md).
 
 ## Procedure
 
@@ -43,5 +43,5 @@ The ACL Assessment for Reports is a store app. For more information about instal
     In the Review Installation Details dialog box, any dependencies installed with your application are listed.
 
 
-**Parent Topic:**[ACL Assessment for Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-view-acl-dashboard.md)
+**Parent Topic:**[ACL Assessment for Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/report-view-acl-dashboard.md)
 

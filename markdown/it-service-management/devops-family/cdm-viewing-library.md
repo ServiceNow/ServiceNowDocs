@@ -3,11 +3,11 @@ title: Working on component libraries with a unified view
 description: The unified view of component libraries in the DevOps Config Workspace provides a single location to view and manage component libraries and the components within them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-viewing-library.html
-release: australia
+release: brazil
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Sharing components among applications — Component libraries, Using DevOps Config, DevOps Config, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Sharing components among applications — Component libraries, Usin
 
 The unified view of component libraries in the DevOps Config Workspace provides a single location to view and manage component libraries and the components within them.
 
-**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
+**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
 
 Using the unified view, you can:
 

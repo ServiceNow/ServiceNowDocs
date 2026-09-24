@@ -3,11 +3,11 @@ title: Create EDL for Palo Alto Networks
 description: Create External Dynamic List \(EDLs\) for Palo Alto Networks. After you create EDLs, you can start creating entries for those EDLs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/create-new-edl.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Palo Alto Networks integration, Firewall integration, TISC Security Tools integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
@@ -119,10 +119,10 @@ The configuration URL for Palo Alto Networks is automatically generated and disp
     The EDLs are displayed on the Palo Alto Networks EDLs.
 
 
-**Parent Topic:**[Palo Alto Networks integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/palo-alto-networks-integration.md)
+**Parent Topic:**[Palo Alto Networks integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/palo-alto-networks-integration.md)
 
 **Related topics**  
 
 
-[Define Palo Alto Networks Approval Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-edl-approval-rules.md)
+[Define Palo Alto Networks Approval Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-edl-approval-rules.md)
 

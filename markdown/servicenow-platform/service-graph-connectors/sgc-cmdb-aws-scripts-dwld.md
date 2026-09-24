@@ -3,11 +3,11 @@ title: Download the AWS scripts
 description: Download the AWS scripts included within the guided setup of the Service Graph Connector for AWS.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-scripts-dwld.html
-release: australia
+release: brazil
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the AWS environment, AWS, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,8 +18,8 @@ Download the AWS scripts included within the guided setup of the Service Graph C
 
 ## Before you begin
 
--   Ensure that you have installed the Service Graph Connector for AWS application \(sn\_aws\_integ\). For more information, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
--   Ensure that you’ve selected the **Service Graph Connector for AWS** application scope by using the application picker. See [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
+-   Ensure that you have installed the Service Graph Connector for AWS application \(sn\_aws\_integ\). For more information, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/installing-applications-in-application-manager.md).
+-   Ensure that you’ve selected the **Service Graph Connector for AWS** application scope by using the application picker. See [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationPicker.md).
 
 Role required: admin
 

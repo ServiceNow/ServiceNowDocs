@@ -3,11 +3,11 @@ title: Use Windows Remote Management for classification
 description: You can configure the discovery of Windows hosts using the Windows Remote Management \(WinRM\) protocol.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/t\_EnableDeviceClassWinRemoteMgmt.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Discovery classifiers, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -71,5 +71,5 @@ By default, the system uses the WMI protocol for device classification of Window
 
 ## What to do next
 
-Run a discovery from the [Discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md) to find Windows machines on your network.
+Run a discovery from the [Discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md) to find Windows machines on your network.
 

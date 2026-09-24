@@ -3,9 +3,9 @@ title: Add an existing AI system to a business application
 description: Associate an existing AI Control Tower AI system with a business application from the Enterprise Architecture Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-add-ai-system-to-ba.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [AI system, business application, associate, AI Control Tower, enterprise architecture workspace, portfolio management, governance]
 breadcrumb: [Working with an application portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
@@ -28,7 +28,7 @@ Role required:
 
 This task adds an existing AI system from AI Control Tower to a business application record.
 
-You can also add a business application to a new AI System. For information, see [Request an AI use case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/request-ai-system-form.md).
+You can also add a business application to a new AI System. For information, see [Request an AI use case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/request-ai-system-form.md).
 
 ## Procedure
 
@@ -65,12 +65,12 @@ You can also add a business application to a new AI System. For information, see
     The association also appears under **Workspaces** &gt; **AI Control Tower** &gt; **AI Assets** &gt; **AI systems** &gt; **Select an AI system** &gt; **Details** &gt; **Business applications**.
 
 
-**Parent Topic:**[Working with an application portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-application-portfolio.md)
+**Parent Topic:**[Working with an application portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-work-with-application-portfolio.md)
 
 **Related topics**  
 
 
-[AI Control Tower integration with Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-aict.md)
+[AI Control Tower integration with Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-aict.md)
 
-[AI Control Tower Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower-home-page.md)
+[AI Control Tower Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower-home-page.md)
 

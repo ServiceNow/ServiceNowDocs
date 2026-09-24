@@ -3,11 +3,11 @@ title: Configure profiles and security incidents for system enrichment queries
 description: Configure your profile settings so that the profile triggers only under the conditions that you set.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/mcafee-epo-configure-profile.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure settings, Capability profiles, McAfee ePO integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -30,15 +30,15 @@ Define the conditions that automatically trigger the McAfee ePO capabilities tha
 
 2.  On the form, fill the fields
 
-<table id="choicetable_pn4_pqb_cgb"><thead><tr><th align="left" id="d198042e84">
+<table id="choicetable_pn4_pqb_cgb"><thead><tr><th align="left" id="d197583e84">
 
 Option
 
-</th><th align="left" id="d198042e87">
+</th><th align="left" id="d197583e87">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d198042e93">
+</th></tr></thead><tbody><tr><td id="d197583e93">
 
 **Enable alternate CI trigger field**
 
@@ -48,9 +48,9 @@ Alternate configuration item \(CI\) trigger field. Default is cleared. When this
 
 Select this check box if you believe the CI field will not be populated upon incident creation, but CI information will be populated in another field on the security incident. When this option is enabled, the Alternate CI trigger field choice list is displayed. Choose an alternate field from the choice list to check for your CI search criteria.
 
-For more information on the alternate CI trigger field, see [Defining triggering conditions with a Configuration item \(CI\) field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcafee-epo-alternate-ci.md).
+For more information on the alternate CI trigger field, see [Defining triggering conditions with a Configuration item \(CI\) field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/mcafee-epo-alternate-ci.md).
 
-</td></tr><tr><td id="d198042e125">
+</td></tr><tr><td id="d197583e125">
 
 **Display Tags**
 
@@ -58,7 +58,7 @@ For more information on the alternate CI trigger field, see [Defining triggering
 
 Security tags are displayed on security incidents. Default is cleared.When this check box is cleared, and the tagging option is disabled, no security tag names are displayed on the configuration form, and tags are not displayed on related security incidents. For this example, the security tags option is disabled.
 
-</td></tr><tr><td id="d198042e137">
+</td></tr><tr><td id="d197583e137">
 
 **Auto trigger based on incident**
 
@@ -72,7 +72,7 @@ A common example of a filter for a profile that runs enrichment queries is `Cate
 
 These filter settings remain saved until you change them, and they are available for editing during the preview and test incident step of the configuration.
 
-</td></tr><tr><td id="d198042e159">
+</td></tr><tr><td id="d197583e159">
 
 **Require approval**
 
@@ -110,5 +110,5 @@ When the check box is cleared, and this option is disabled, no approval requests
     You have successfully configured the profile so it is triggered automatically upon incident creation, and an alternate field is used to populate matching CI results.
 
 
-**Parent Topic:**[Configure settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcafee-epo-configuring-profile.md)
+**Parent Topic:**[Configure settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/mcafee-epo-configuring-profile.md)
 

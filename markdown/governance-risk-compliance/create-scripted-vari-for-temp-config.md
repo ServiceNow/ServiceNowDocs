@@ -3,9 +3,9 @@ title: Define the scripted variables
 description: Define data for the scripted variables using the Template Configurations module for creating a report template in the BCM application. You can configure the data in either text or HTML format.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-scripted-vari-for-temp-config.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up the template configurations, Generating reports using Document designer, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---

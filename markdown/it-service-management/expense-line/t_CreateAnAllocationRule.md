@@ -3,11 +3,11 @@ title: Create an allocation rule
 description: Expense allocation rules enable you to associate expenses with an item, such as a user, group, or department.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/expense-line/t\_CreateAnAllocationRule.html
-release: australia
+release: brazil
 product: Expense Line
 classification: expense-line
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Expense lines and expense allocations, Expense Line, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Expense allocation rules enable you to associate expenses with an item, such as 
 
 ## Before you begin
 
-To use expense allocation rules, activate [Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/r_CostManagement.md).
+To use expense allocation rules, activate [Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/r_CostManagement.md).
 
 Role required: admin, financial\_mgmt\_admin, or financial\_mgmt\_user
 
@@ -50,7 +50,7 @@ Role required: admin, financial\_mgmt\_admin, or financial\_mgmt\_user
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Expense lines and expense allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/expense-line/c_ExpenseLinesAndAllocations.md)
+**Parent Topic:**[Expense lines and expense allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/expense-line/c_ExpenseLinesAndAllocations.md)
 
 **Related topics**  
 
@@ -65,5 +65,5 @@ Role required: admin, financial\_mgmt\_admin, or financial\_mgmt\_user
 
 [Use a scripted allocation]()
 
-[Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md)
+[Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ConditionBuilder.md)
 

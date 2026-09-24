@@ -3,11 +3,11 @@ title: CAPI classes in MID Server script includes
 description: Cloud Provisioning and Governance provides several JavaScript classes that make REST calls to cloud providers. These classes are called from MID Server script includes \(for Azure by default\) or from Java calls in the system \(for AWS by default\). If you create custom providers, interfaces, or CAPI APIs \(for any cloud provider\), you can use MID Server script includes to call the classes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/mid-server-script-includes.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Cloud API \(CAPI\), Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -226,5 +226,5 @@ AWSTopics
 Class with [AWS topics](http://docs.aws.amazon.com/sns/latest/api/API_ListTopics.html).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-management-v2-landing-page.md)
+</table>**Parent Topic:**[Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/cloud-management-v2-landing-page.md)
 

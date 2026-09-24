@@ -3,11 +3,11 @@ title: Create an investment
 description: Create an investment to fund a target.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/investment-funding/create-investment.html
-release: australia
+release: brazil
 product: Investment Funding
 classification: investment-funding
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Investment Funding, Strategic Portfolio Management]
 ---
@@ -60,12 +60,12 @@ Unique name of the investment.
 
 ## What to do next
 
--   [Add a business case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/add-business-case.md) to define the business needs of the investment.
--   [Request funds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/request-funds-for-investment.md) from a funding source.
--   [Allocate funds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/allocate-funds-to-investment.md) from your available funds.
+-   [Add a business case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/investment-funding/add-business-case.md) to define the business needs of the investment.
+-   [Request funds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/investment-funding/request-funds-for-investment.md) from a funding source.
+-   [Allocate funds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/investment-funding/allocate-funds-to-investment.md) from your available funds.
 
--   **[Add a business case for an investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/add-business-case.md)**  
+-   **[Add a business case for an investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/investment-funding/add-business-case.md)**  
 Add a business case for an investment to define its business needs and goals.
 
-**Parent Topic:**[Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/investment-funding-overview.md)
+**Parent Topic:**[Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/investment-funding/investment-funding-overview.md)
 

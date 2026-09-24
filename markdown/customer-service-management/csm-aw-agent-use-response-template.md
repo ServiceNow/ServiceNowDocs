@@ -3,9 +3,9 @@ title: Use response templates to add information to cases and case tasks
 description: Customer service agents can copy content from response templates and add it to cases and case tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-aw-agent-use-response-template.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
 ---
@@ -40,5 +40,5 @@ The contextual side panel in CRM Workspace gives you access to information that 
 **Related topics**  
 
 
-[Response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/response-templates-templated-snippets.md)
+[Response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/response-templates-templated-snippets.md)
 

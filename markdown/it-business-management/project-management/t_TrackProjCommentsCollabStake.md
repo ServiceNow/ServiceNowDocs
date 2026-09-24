@@ -3,11 +3,11 @@ title: Track project comments and collaborate with stakeholders
 description: When a project is in progress, you can take advantage of two platform features that help project participants interact and collaborate: journal fields and live feed. Two useful journal fields are Comments and Work notes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_TrackProjCommentsCollabStake.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Update a project, Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -24,9 +24,9 @@ Role required: it\_project\_manager
 
 -   To add journal fields to a project form:
 
-    1.  [Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) any project form to show **Comments** and **Work notes**.
+    1.  [Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md) any project form to show **Comments** and **Work notes**.
 
--   To add [live feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_GetStartedWithLiveFeed.md) to a project form:
+-   To add [live feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_GetStartedWithLiveFeed.md) to a project form:
 
     1.  Navigate to **All** &gt; **System Definition** &gt; **Dictionary**.
 
@@ -49,10 +49,10 @@ Role required: it\_project\_manager
     10. Personalize the Project form and add **Activities \(filtered\)**, which is the activity formatter, to the desired location on the Project form.
 
 
-**Parent Topic:**[Update a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_UpdateAProjectInProgress.md)
+**Parent Topic:**[Update a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_UpdateAProjectInProgress.md)
 
 **Related topics**  
 
 
-[Update a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_UpdateAProjectInProgress.md)
+[Update a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_UpdateAProjectInProgress.md)
 

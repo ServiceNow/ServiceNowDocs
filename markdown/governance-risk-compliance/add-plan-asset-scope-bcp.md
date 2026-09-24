@@ -1,18 +1,18 @@
 ---
-title: Add an asset to the scope
-description: Use the Scope tab to add an asset to the scope of the plan. If the business impact analysis \(BIA\) application is installed, you can view primary elements defined in the plan template, its RTO and RPO details, and the BIA.
+title: Add an asset to the scope of a BCP
+description: Use the Scope tab to add an asset to the scope of the plan. If the business impact analysis \(BIA\) application is installed, you can view primary elements and RTO and RPO details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-plan-asset-scope-bcp.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Structured workflows for Business Continuity Planning, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
-# Add an asset to the scope
+# Add an asset to the scope of a BCP
 
-Use the **Scope** tab to add an asset to the scope of the plan. If the business impact analysis \(BIA\) application is installed, you can view primary elements defined in the plan template, its RTO and RPO details, and the BIA.
+Use the **Scope** tab to add an asset to the scope of the plan. If the business impact analysis \(BIA\) application is installed, you can view primary elements and RTO and RPO details.
 
 ## Before you begin
 
@@ -51,9 +51,9 @@ Role required: sn\_bcm.admin, sn\_bcm.program\_manager, or sn\_bcm.planner
     -   If an approved BIA is attached to the plan, then **RTO**, **RPO**, and **BIA** fields are populated with values and they are read only and non-editable.
 9.  To update a plan asset or to link a BIA to it, click the asset in the **Name** column.
 
-    1.  Select the link BIA icon \(\[Omitted image "LinkBIAicon.png"\] Alt text: Link BIA icon\).
+    1.  Click the link BIA icon \(\[Omitted image "LinkBIAicon.png"\] Alt text: Link BIA icon\).
 
-        If there is an approved BIA for the asset, then the BIA is automatically attached to the asset when you select the link. If you have adjusted the RTO and RPO values based on asset criticality, the Adjusted RTO and Adjusted RPO values take precedence over the system-calculated values. The adjusted RTO and RPO values are displayed in the **Recovery Time Objective** and **Recovery Point Objective** fields when you select \[Omitted image "LinkBIAicon.png"\] Alt text: Link BIA icon.
+        If there is an approved BIA for the asset, the BIA is automatically attached to the asset when you click the link. If you have adjusted the RTO and RPO values based on the criticality of an asset, the adjusted values take precedence over the system-calculated values. The adjusted values are displayed in the **Recovery Time Objective** and **Recovery Point Objective** fields when you click \[Omitted image "LinkBIAicon.png"\] Alt text: Link BIA icon.
 
     2.  Click **Save**.
 

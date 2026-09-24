@@ -3,9 +3,9 @@ title: Customer Central
 description: Customer Central gives users a view of a customer's details and recent service history within a configurable workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-relationship-management/crm-customer-central.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workspace experience, Customer Relationship Management]
 ---
@@ -53,7 +53,7 @@ Customer Central provides benefits to internal users across an organization.
 **Related topics**  
 
 
-[Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-central.md)
+[Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-central.md)
 
-[Configuring the Customer History component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-central-configuration.md)
+[Configuring the Customer History component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-central-configuration.md)
 

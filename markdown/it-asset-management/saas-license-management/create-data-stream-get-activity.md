@@ -3,11 +3,11 @@ title: Create a data stream action to get user activity
 description: Create a data stream action to get user activity from a SaaS application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/saas-license-management/create-data-stream-get-activity.html
-release: australia
+release: brazil
 product: SaaS License Management
 classification: saas-license-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [SaaS License Connections, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -20,7 +20,7 @@ Create a data stream action to get user activity from a SaaS application.
 
 If you're using an existing ServiceNow® Integration Hub spoke, find out if it has a data stream action to get user activity that you can use instead of creating one.
 
-For more information about data stream actions, see [Data Stream actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-stream-actions.md).
+For more information about data stream actions, see [Data Stream actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/data-stream-actions.md).
 
 Role required: flow\_designer
 
@@ -124,7 +124,7 @@ Connection Alias
 
 </td><td>
 
-Connection alias that you created when you created the integration profile. If you have not yet created an integration profile, follow the steps to [create a custom integration profile with a connection alias.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/create-integration-custom.md)
+Connection alias that you created when you created the integration profile. If you have not yet created an integration profile, follow the steps to [create a custom integration profile with a connection alias.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/create-integration-custom.md)
 
 </td></tr><tr><td>
 
@@ -191,7 +191,7 @@ Connection Alias
 
 </td><td>
 
-Connection alias that you created when you created the integration profile. If you have not yet created an integration profile, follow the steps to [create a custom integration profile with a connection alias.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/create-integration-custom.md)
+Connection alias that you created when you created the integration profile. If you have not yet created an integration profile, follow the steps to [create a custom integration profile with a connection alias.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/create-integration-custom.md)
 
 </td></tr><tr><td>
 

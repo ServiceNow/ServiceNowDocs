@@ -3,11 +3,11 @@ title: Agent Client Collector for Visibility Content reference
 description: Review this information for details on OS query scripts, data collected, and definition of terms.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Agent Client Collector, Agent Client Collector for Visibility, ACC for Visibility]
 breadcrumb: [Agent Client Collector reference, Agent Client Collector, IT Operations Management]
@@ -265,28 +265,30 @@ ACC-VC uses the same classification criteria as IP-based Discovery for classifyi
     A snapshot of a live virtual machine instance persisted to a file system or cloud storage.
 
 
--   **[Agent Client Collector for Visibility Content default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-visibility-checks-policies.md)**  
+-   **[Agent Client Collector for Visibility Content default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-visibility-checks-policies.md)**  
 Agent Client Collector for Visibility Content \(ACC-VC\) provides various checks and policies as well as a business rule.
--   **[Agent Client Collector MID-less installation command parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-ics-command-params.md)**  
+-   **[Agent Client Collector MID-less installation command parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-ics-command-params.md)**  
 Description of the command line parameters used during MID-less Agent Client Collector installation.
--   **[Data collected during Agent Client Collector for Visibility Content File-Based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/data-collected-file-based-discovery.md)**  
+-   **[Data collected during Agent Client Collector for Visibility Content File-Based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/data-collected-file-based-discovery.md)**  
 The following tables describe the data collected during Agent Client Collector for Visibility Content file-based Discovery.
--   **[Software edition configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/software-edition-configuration.md)**  
+-   **[Software edition configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/software-edition-configuration.md)**  
 Description of the software edition configuration fields in use when identifying the edition of Windows software.
--   **[Agent Client Collector File-Based Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/file-based-discovery-configuration-properties.md)**  
+-   **[Agent Client Collector File-Based Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/file-based-discovery-configuration-properties.md)**  
 Configure File-Based Discovery behavior using system properties that control scanning paths, performance throttling, and file filtering options.
--   **[Web usage data collection tables and fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/web-usage-collection-tables.md)**  
+-   **[Web usage data collection tables and fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/web-usage-collection-tables.md)**  
 Description of the tables and their fields used when gathering web usage data from your Windows and macOS machines.
--   **[Archive file scanning filtering rules and limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/archive-file-scanning-reference.md)**  
+-   **[Archive file scanning filtering rules and limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/archive-file-scanning-reference.md)**  
 Reference information for the filtering rules and performance safeguards that apply when Agent Client Collector for Visibility Content scans ZIP and JAR archive files during File-Based Discovery.
--   **[Software filter tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/sw-filter-tables.md)**  
+-   **[Software filter tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/sw-filter-tables.md)**  
 The following table lists the software filter tables and the purpose each one serves.
--   **[Software filter fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/sw-filter-fields.md)**  
+-   **[Software filter fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/sw-filter-fields.md)**  
 The following table lists the software filter fields from which you can create a filter.
--   **[License key discovery and access control tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/license-key-discovery-reference.md)**  
+-   **[License key discovery and access control tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/license-key-discovery-reference.md)**  
 Reference information for the tables, fields, access control, and scheduled job used by license key discovery in Agent Client Collector for Visibility Content.
--   **[Running process-based discovery platform coverage and properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/running-process-based-discovery-platform-coverage-properties.md)**  
+-   **[License key discovery tables and configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/license-key-discovery-tables.md)**  
+License key discovery uses configuration tables to define file-matching rules and extraction parsers, and stores results in dedicated tables for reporting and reconciliation.
+-   **[Running process-based discovery platform coverage and properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/running-process-based-discovery-platform-coverage-properties.md)**  
 Platform coverage identifies which operating systems are supported and what privileges the agent needs for full coverage. The system property controls whether the feature is enabled or disabled.
 
-**Parent Topic:**[Agent Client Collector reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-reference.md)
+**Parent Topic:**[Agent Client Collector reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-reference.md)
 

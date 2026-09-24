@@ -3,11 +3,11 @@ title: Submit a Remote Hands Request
 description: Submit a Remote Hands Request. Create a case record and see how customers track status and updates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/submit-remote-hands-request.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Remote Hands Request, Use, Telecommunications Network Inventory]
 ---
@@ -28,7 +28,7 @@ Role required: sn\_ni\_dcim\_user
 
 ## About this task
 
-The Remote Hand Request form enables your customers to request services for equipment housed in your datacenters by connecting them directly with your onsite agents handling the remote hands requests.
+The Remote Hand Request form enables your customers to request services for equipment housed in your datacenters. It connects customers directly with your onsite agents handling the remote hands requests.
 
 ## Procedure
 
@@ -42,10 +42,10 @@ The Remote Hand Request form enables your customers to request services for equi
 
 5.  On the Remote Hands Request form, fill in the fields.
 
-    To learn about the fields in the Remote Hands Request form, see [Remote Hands Request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/remote-hands-request-form.md)
+    To learn about the fields in the Remote Hands Request form, see [Remote Hands Request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/remote-hands-request-form.md)
 
 6.  Select **Submit**
 
 
-**Parent Topic:**[Remote Hands Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/remote-hands-request.md)
+**Parent Topic:**[Remote Hands Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/remote-hands-request.md)
 

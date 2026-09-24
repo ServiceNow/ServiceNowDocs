@@ -3,11 +3,11 @@ title: Citrix session pre-built topics for ITSM Virtual Agent
 description: Users can reset any Citrix desktop or application session using Virtual Agent conversation flows. Users can also provision a Citrix desktop or application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-virtual-agent/manage-citrix-convo-flow.html
-release: australia
+release: brazil
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using ITSM Virtual Agent pre-built topics, ITSM Virtual Agent, IT Service Management]
 ---
@@ -32,7 +32,7 @@ When requesting an application, Virtual Agent sends a link to the Service Portal
 
 Virtual Agent sends an actionable notification to the user to inform them once the desktop or application has been provisioned, or if the provisioning was unsuccessful.
 
-This topic uses the Request Catalog Item [Service Catalog topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/request-topic-blocks-va.md).
+This topic uses the Request Catalog Item [Service Catalog topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/request-topic-blocks-va.md).
 
 ## Reset Citrix Sessions
 
@@ -44,7 +44,7 @@ If the user does not have any sessions available to reset, Virtual Agent can ope
 
 \[Omitted image "ResetCitrix3.png"\] Alt text: Reset Citrix Sessions topic with new incident.
 
-This topic uses the Create Incident [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md).
+This topic uses the Create Incident [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md).
 
-**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/using-itsm-va.md)
+**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-virtual-agent/using-itsm-va.md)
 

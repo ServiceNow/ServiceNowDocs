@@ -3,9 +3,9 @@ title: Install Order Management for Channel Partners
 description: Install the Order Management for Channel Partners plugin \(com.snc.partner\_relationship\_management\_orm\), along with the demo data and installations that are related to ServiceNow Store applications and plugins.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/install-order-management-for-channel-partners.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -33,7 +33,7 @@ The following items are installed with the Order Management for Channel Partners
 -   Role like the sn\_prm\_orm.order\_partner\_ui
 -   Tables
 
-For more information on viewing components that are installed with an application, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+For more information on viewing components that are installed with an application, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 ## Procedure
 
@@ -47,15 +47,15 @@ For more information on viewing components that are installed with an applicatio
 
 4.  If you want to install demo data, do one of the following depending on your entitlements.
 
-<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d53071e134">
+<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d54159e134">
 
 Demo data install task
 
-</th><th align="left" id="d53071e137">
+</th><th align="left" id="d54159e137">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d53071e143">
+</th></tr></thead><tbody><tr><td id="d54159e143">
 
 **If demo data is available and you want to install it**
 
@@ -65,7 +65,7 @@ Description
 2.  Select **Install**.
  **Important:** If you don't load the demo data during installation, it's unavailable to load later.
 
-</td></tr><tr><td id="d53071e173">
+</td></tr><tr><td id="d54159e173">
 
 **If the Load Demo Data option isn’t available but you want demo data**
 
@@ -83,12 +83,12 @@ Load the demo data after installing the Sales Common plugin.1.  Install Order Ma
 
 You have successfully installed the Order Management for Channel Partners \(com.snc.partner\_relationship\_management\_orm\) application.
 
-**Parent Topic:**[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-relationship-management.md)
+**Parent Topic:**[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-partner-relationship-management.md)
 
 **Related topics**  
 
 
-[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management.md)
+[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/partner-relationship-management.md)
 
-[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-partner-relationship-management.md)
+[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-partner-relationship-management.md)
 

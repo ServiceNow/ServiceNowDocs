@@ -3,11 +3,11 @@ title: View an Emergency Exposure Management diagnostic report for an affected a
 description: View the diagnostic report to identify affected agents and potentially affected customers and agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/view-diagnostic-report.html
-release: australia
+release: brazil
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Emergency Exposure Management, Agent availability and calendars, Managing workforce, Use, Field Service Management]
 ---
@@ -35,5 +35,5 @@ As the Field Service manager of an affected agent, you can view the diagnostic r
     -   To view the list of impacted customers, click the **Impacted customers** tab.
     -   To view the list of impacted agents who potentially came in contact with the affected agent or visited the same customer location within the selected time period, click the **Impacted field agents** tab.
 
-**Parent Topic:**[Use Emergency Exposure Management for Field Service agent monitoring and assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/use-exposure-management-fsm.md)
+**Parent Topic:**[Use Emergency Exposure Management for Field Service agent monitoring and assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-manager-workforce/use-exposure-management-fsm.md)
 

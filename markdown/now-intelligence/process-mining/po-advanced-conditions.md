@@ -3,11 +3,11 @@ title: Configure advanced conditions: crop process
 description: Configure custom start and end conditions for your table configuration to define which part of the process should be included in the Process Mining project and made available for analysis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/po-advanced-conditions.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up a table configuration, Create a project using Classic view, Use, Process Mining, Platform Analytics]
 ---
@@ -34,7 +34,7 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
 
 4.  In the **Create new process start condition** form, fill in the fields.
 
-    For a description of the field values, see [Create new process start/end condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-start-condition.md).
+    For a description of the field values, see [Create new process start/end condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/process-start-condition.md).
 
 5.  Select **Submit** to save the condition.
 
@@ -53,5 +53,5 @@ In this example, a process end condition is configured when an incident record e
 
 \[Omitted image "start-condition-example.png"\] Alt text: Configured process start condition
 
-**Parent Topic:**[Set up a table configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/po-table-configuration.md)
+**Parent Topic:**[Set up a table configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/po-table-configuration.md)
 

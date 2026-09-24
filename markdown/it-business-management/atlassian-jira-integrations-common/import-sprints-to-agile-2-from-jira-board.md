@@ -3,11 +3,11 @@ title: Import sprints from Jira to Agile Development 2.0
 description: Import sprints from a Jira board so that you can track progress of these sprints directly in Agile Development 2.0.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/atlassian-jira-integrations-common/import-sprints-to-agile-2-from-jira-board.html
-release: australia
+release: brazil
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Importing issues and sprints from Jira to Agile Development 2.0, Setting up the integration between Jira and Agile Development 2.0, Atlassian Jira Integration for Agile Development, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Import sprints from a Jira board so that you can track progress of these sprints
 
 ## Before you begin
 
--   Ensure that the Jira board from which you want to import the sprints has team integration settings. For more information, see [Associate Jira projects with assignment groups in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/project-integration-settings.md).
+-   Ensure that the Jira board from which you want to import the sprints has team integration settings. For more information, see [Associate Jira projects with assignment groups in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/atlassian-jira-integrations-common/project-integration-settings.md).
 -   Role required: sn\_jira\_int.user
 
 ## About this task
@@ -44,5 +44,5 @@ Import completed and current sprints of Jira board into Agile Development 2.0.
     An import request of type Import Sprints is created in the Jira Import Requests related list. Once the state of this request changes to Completed, you can view all the imported sprint data in the Sprints related list. This list belongs to the associated assignment group in Agile Development.
 
 
-**Parent Topic:**[Importing issues and sprints from Jira to Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/importing-issues-and-sprints-from-jira-to-agile-dev-2.0.md)
+**Parent Topic:**[Importing issues and sprints from Jira to Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/atlassian-jira-integrations-common/importing-issues-and-sprints-from-jira-to-agile-dev-2.0.md)
 

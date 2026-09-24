@@ -3,11 +3,11 @@ title: Installed with Change Management - Standard Change Catalog
 description: Several types of components are installed with Change Management - Standard Change Catalog.Change Management - Standard Change Catalog adds or modifies the following tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/r\_InstlldWthStdChgCat.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activate Change Management - Standard Change Catalog, Change Management plugins, Configure, Change Management, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Activate Change Management - Standard Change Catalog, Change Manage
 
 Several types of components are installed with Change Management - Standard Change Catalog.
 
-**Parent Topic:**[Activate Change Management - Standard Change Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_ActivateStandardChangeCatalog.md)
+**Parent Topic:**[Activate Change Management - Standard Change Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_ActivateStandardChangeCatalog.md)
 
 ## Tables installed with Change Management - Standard Change Catalog
 

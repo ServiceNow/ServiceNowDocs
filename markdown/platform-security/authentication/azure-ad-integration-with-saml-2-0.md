@@ -3,11 +3,11 @@ title: Azure AD Integration with SAML 2.0
 description: Integrate ServiceNow with Azure Active Directory \(Azure AD\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/azure-ad-integration-with-saml-2-0.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating SAML 2.0 with other features, SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---

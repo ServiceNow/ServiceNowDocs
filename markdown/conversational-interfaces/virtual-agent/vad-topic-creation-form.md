@@ -3,24 +3,22 @@ title: Create a topic form
 description: The Create a topic form is used to set the properties for a new conversational topic for Virtual Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/vad-topic-creation-form.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 9
-breadcrumb: [Assistant Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Create a topic form
 
 The Create a topic form is used to set the properties for a new conversational topic for Virtual Agent.
 
-The Create a topic form layout is similar to the Edit topic properties form layout found in the [Topic Properties tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-topic-properties-tab.md). When you finish creating a topic using this form, the model type and topic types are locked in the Properties tab.
+The Create a topic form layout is similar to the Edit topic properties form layout found in the [Topic Properties tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/vad-topic-properties-tab.md). When you finish creating a topic using this form, the model type and topic types are locked in the Properties tab.
 
-**Note:** Large language model \(LLM\) topics are faster and easier to set up and configure compared with NLU topics. The LLM model type doesn't need you to select, configure, or train models or intents. For more information, see [LLM topic discovery in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-llm.md).
-
-\[Omitted image "vad-topic-creation-form-manage-assistants.png"\] Alt text: Two versions of the Create a topic form. First model type is LLM, where a description is required for topic discovery. Second model type is NLU/Keywords.
+\[Omitted image "vad-topic-creation-form-manage-assistants.png"\] Alt text: The Create a topic form for LLM topics.
 
 <table id="table_dzy_15h_cmb"><thead><tr><th>
 
@@ -44,9 +42,9 @@ Model Type
 
 </td><td>
 
-The **LLM** value is used for topic discovery within LLMs, and the **NLU/Keywords** value is used for either keyword or NLU discovery. For more information, see [LLM topic discovery in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-llm.md).
+The **LLM** value is used for topic discovery within LLMs. For more information, see [LLM topic discovery in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-llm.md).
 
- **Note:** If this field doesn't appear, verify that both the ServiceNow Otto panel and ServiceNow Otto in Virtual Agent are turned on. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md) and [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
+ **Note:** If this field doesn't appear, verify that both the ServiceNow Otto panel and ServiceNow Otto are turned on. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md) and [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-now-assist-va.md).
 
 </td></tr><tr><td>
 
@@ -62,7 +60,7 @@ Internal name
 
 </td><td>
 
-Internal name for topics, small talk topics, and setup topics that reflects its business purpose. Internal name displays on the Virtual Agent Designer Topics page and must be unique across the platform.
+Internal name for topics, small talk topics, and setup topics that reflects its business purpose. Internal name displays on the Assistant Designer Asset library and must be unique across the platform.
 
 </td></tr><tr><td>
 
@@ -70,11 +68,7 @@ Display name
 
 </td><td>
 
-Topic name that displays to users when they interact with Virtual Agent. Display name must be unique for either NLU/Keywords or LLM model type.
-
-</td></tr><tr><td class="sub-head" colspan="2">
-
-LLM topics\[LLM topic discovery only\]
+Topic name that displays to users when they interact with Virtual Agent. Display name must be unique.
 
 </td></tr><tr><td>
 
@@ -86,7 +80,7 @@ A detailed explanation of the LLM topic's purpose, which differentiates it from 
 
 A weak example would be: `Help users see how many vacation days they have left.` A stronger example would be `This topic is about a holiday calendar for employees in a company. Users can ask for the holiday list or company holiday for a specific year, specific date, inquire about a specific holiday, or ask if they have a day off for a particular holiday. The topic also covers the availability of a holiday calendar and specific holidays like Freedom Day and wellbeing Day.`
 
-For more information, see[LLM description and instruction guidelines for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-llm-instruction-guidelines.md).
+For more information, see[LLM description and instruction guidelines for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-llm-instruction-guidelines.md).
 
 </td></tr><tr><td>
 
@@ -94,7 +88,7 @@ Select LLM assistants to make topics available to them and any primary assistant
 
 </td><td>
 
-The LLM assistant that you associate with the topic for more accurate topic discovery. If you established primary and secondary assistants during the ServiceNow Otto in Virtual Agent guided setup, an on-screen message explains whether the selected assistant is a primary or secondary assistant. When testing a primary LLM assistant, topics from the secondary assistants are included in topic discovery. To view the LLM assistants and their hierarchy, select **Manage assistants**.
+The LLM assistant that you associate with the topic for more accurate topic discovery. If you established primary and secondary assistants during the ServiceNow Otto for Virtual Agent guided setup, an on-screen message explains whether the selected assistant is a primary or secondary assistant. When testing a primary LLM assistant, topics from the secondary assistants are included in topic discovery. To view the LLM assistants and their hierarchy, select **Manage assistants**.
 
  If you associate a topic block and a related topic with the same LLM assistant, both are shown as associated with that assistant.
 
@@ -102,72 +96,7 @@ The LLM assistant that you associate with the topic for more accurate topic disc
 
  When you associate an LLM topic with an LLM assistant and publish it, a record for the association is created in the Profile and Document Mapping \[sys\_cs\_document\_context\_profile\] table. If you dissociate the Setup topic from the LLM assistant before republishing, the record is deleted.
 
- For more information, see [LLM assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/llm-assistants.md).
-
-</td></tr><tr><td class="sub-head" colspan="2">
-
-Natural Language Understanding \(NLU\) topics\[NLU/Keywords topic discovery only\]
-
-</td></tr><tr><td>
-
-Topic description
-
-</td><td>
-
-Brief explanation of the topic purpose and functionality.If you use single quotes \(‘ ’\) in your description, do the following to avoid problems with your conversation:
-
-1.  Navigate to **All**, then enter `sys_properties.list` in the filter.
-2.  Search for and select `glide.ui.escape_all_script`, then set its value to **True**.
-
-</td></tr><tr><td>
-
-NLU Model
-
-</td><td>
-
-Natural Language Understanding model to be mapped to the topic. The model contains the user utterances that are associated with the trained intents and entities. This combination enables your bot to understand what a user says. Do one of the following:
-
--   Choose an existing model.
--   Select **Create Model** to create a new model group.
-
-    1.  In the **Model Name** field, enter a name for the new model group.
-    2.  In the **Intent name** field, accept the default value or enter a name for the new intent.
-**Note:** New models are created in **Draft** state.
-
-
- **Tip:** To see how and where the NLU model is used, navigate to **NLU Workbench** &gt; **Models**, and sort the **Created for** column.
-
-</td></tr><tr><td>
-
-Associated Intent
-
-</td><td>
-
-The intent, when recognized by Virtual Agent, that launches this topic. If you specified or created a model, the intent is required. Do one of the following:
-
--   Choose an existing intent.
--   Select **Create intent** to create a new intent.
-
-In the **Intent Name** field, accept the default value or enter a name for the new intent.
-
-
-**Note:** This option is not available for read-only models.
-
-</td></tr><tr><td>
-
-Enable DialogActs
-
-</td><td>
-
-Toggle switch \(active by default in new topics\) to enable Virtual Agent to detect when you modify utterances or applies updates in an NLU model, and dynamically reacts to unexpected utterances and modifications. Toggle to the off position to prevent users from using the keyboard instead of the options available in the topic. For more information, see [Dialog Acts for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/c_dialog-acts.md).**Note:** This toggle is decoupled from the topic switching option found in all User Inputs aside from Grouped Choice and File Picker. It's available for all topic types aside from a Topic Block. This feature is currently available only for English.
-
-</td></tr><tr><td>
-
-Confirm modified values with users
-
-</td><td>
-
-Toggle switch to enable Virtual Agent to send a confirmation message to the user when the Virtual Agent detects a value change. This value is Active by default.**Note:** This toggle appears when **Enable DialogActs** is activated.
+ For more information, see [Create LLM assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/llm-assistants.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -193,7 +122,7 @@ Channels
 
 Chat clients in which the topic or topic block will run.
 
- These channels are different from the default channels that are natively supported by Virtual Agent. Your instance may have additional channels for [custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-custom-adapter-framework.md) created for it. For more information about channels, see [Deploying Virtual Agent topics in other channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integrations.md).
+ These channels are different from the default channels that are natively supported by Virtual Agent. Your instance may have additional channels for [custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-custom-adapter-framework.md) created for it. For more information about channels, see [Deploying Virtual Agent topics in other channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-integrations.md).
 
 </td></tr><tr><td>
 
@@ -216,33 +145,13 @@ Live agent context variables
 
 </td><td>
 
-Live agent context variables that are defined in the [General Chat Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-context-variables.md).Select the variables that provide dynamic context, which means information from the Virtual Agent chat. This information is transferred from the bot conversation to the live agent.
+Live agent context variables that are defined in the [General Chat Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/ac-configure-context-variables.md).Select the variables that provide dynamic context, which means information from the Virtual Agent chat. This information is transferred from the bot conversation to the live agent.
 
- For information about the default list of live agent variables, see [Live agent chat context variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/live-agent-chat-context-vars.md).
-
-</td></tr><tr><td>
-
-Available for Agent Autopilot
-
-</td><td>
-
-Toggle switch that determines whether the topic is available to a live agent.When enabled, an agent can search for and invoke the topic. For details, see [Conversation Autopilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-agent-chat-using.md).
-
-Applicable to only keyword or NLU topic discovery.
+ For information about the default list of live agent variables, see [Live agent chat context variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/live-agent-chat-context-vars.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
 Additional
-
-</td></tr><tr><td>
-
-Resume flow after topic switching
-
-</td><td>
-
-Toggle switch that lets the user return to the original conversation after changing topics during a conversation.
-
- Applicable to only keyword or NLU topic discovery. Not applicable to Small Talk topics.
 
 </td></tr><tr><td>
 
@@ -252,14 +161,6 @@ Categories
 
 Label used to identify and group-related topics, topic blocks, or custom controls.
 
-</td></tr><tr><td>
-
-Keywords\[NLU/Keywords topic discovery only\]
-
-</td><td>
-
-List of key phrases or terms that users enter to initiate the conversation with the Virtual Agent. Press **Enter** after each phrase. Keywords are also used for languages that are currently not available in NLU.
-
 </td></tr></tbody>
-</table>**Parent Topic:**[Assistant Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-reference.md)
+</table>**Parent Topic:**[Assistant Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/vad-reference.md)
 

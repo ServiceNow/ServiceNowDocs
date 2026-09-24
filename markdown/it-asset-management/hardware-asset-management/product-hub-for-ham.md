@@ -3,11 +3,11 @@ title: Hardware Asset Management on Product Hub
 description: Product Hub provides a single location to install, update, and manage HAM applications and plugins.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/product-hub-for-ham.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-08-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Installing Hardware Asset Management, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -17,8 +17,6 @@ breadcrumb: [Installing Hardware Asset Management, Configure, Hardware Asset Man
 Product Hub provides a single location to install, update, and manage HAM applications and plugins.
 
 The Product Hub gives administrators a single starting point to install Hardware Asset Management and additional applications, and configure them using the Configuration Console.
-
-**Important:** Product Hub and Configuration Console are available starting from Hardware Asset Management version 16.0.0 \(Australia Patch 6\).
 
 ## Key benefits
 
@@ -65,6 +63,11 @@ Product Hub is accessible from the Admin Home page through the **Hardware Asset 
     -   **Updates available** - Available updates for installed HAM applications.
     The applications and plugins displayed in the **Not installed** tab depend on your subscription tier.
 
-    **Note:** When the HAM application is installed, Product Hub displays the **Installed**, **Not installed**, and **Updates available** tabs instead of the **Start new setup** option. The **Configure** card is also available and links to the Configuration Console, where administrators can track configuration progress. For more details, see [Configuration Console for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/config-console-ham.md).
+    **Note:** When the HAM application is installed, Product Hub displays the **Installed**, **Not installed**, and **Updates available** tabs instead of the **Start new setup** option. The **Configure** card is also available and links to the Configuration Console, where administrators can track configuration progress. For more details, see [Configuration Console for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/config-console-ham.md).
 
+
+-   **[Install Hardware Asset Management from Product Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/install-ham-from-product-hub.md)**  
+Install the Hardware Asset Management application on your ServiceNow instance from Product Hub based on your subscription tier.
+
+**Parent Topic:**[Installing Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/installing-ham-app.md)
 

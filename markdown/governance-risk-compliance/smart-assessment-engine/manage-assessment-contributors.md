@@ -3,11 +3,11 @@ title: Manage assessment contributors
 description: The assessment owner can add or remove contributors to an assessment, assign them either full assessment access or section-specific access based on their responsibilities and expertise. Contributors can work simultaneously on the assessment, enabling real-time collaboration and efficient progress.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/manage-assessment-contributors.html
-release: australia
+release: brazil
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Collaboration in assessments, Respond to assessments, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---

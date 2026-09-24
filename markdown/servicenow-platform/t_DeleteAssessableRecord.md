@@ -3,9 +3,9 @@ title: Delete an assessable record
 description: When you delete an assessable record, the system deletes any stakeholders for the record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_DeleteAssessableRecord.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Assessable records, Metric types and assessable records, Create an assessment metric for a category, Assessment metrics, Assessment administrator tasks, Using assessments, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -29,12 +29,12 @@ Role required: assessment\_admin or admin
     -   To delete a single record, open the record and click **Delete**.
     -   To delete multiple records, use the Assessable Records list.
 
-**Parent Topic:**[Assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_assessable-records.md)
+**Parent Topic:**[Assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_assessable-records.md)
 
-**Parent Topic:**[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
+**Parent Topic:**[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
 
 **Related topics**  
 
 
-[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
+[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
 

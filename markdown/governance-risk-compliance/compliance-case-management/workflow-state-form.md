@@ -3,11 +3,11 @@ title: Workflow State form
 description: Use the Workflow State form to define the workflow states in the GRC: Compliance Case Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/workflow-state-form.html
-release: australia
+release: brazil
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create workflow state, Configure, Compliance Case Management, Governance, Risk, and Compliance]
 ---
@@ -103,5 +103,5 @@ Parent model state
 Parent state for the sub-level state. This field appears only when **As sub-level** is selected from **Display type**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a workflow state for a compliance case or request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/create-workflow-state.md)
+</table>**Parent Topic:**[Create a workflow state for a compliance case or request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/create-workflow-state.md)
 

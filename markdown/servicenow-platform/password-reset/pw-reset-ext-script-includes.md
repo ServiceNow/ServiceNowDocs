@@ -3,11 +3,11 @@ title: Password Reset extension scripts
 description: Extension scripts allow you to extend Password Reset functionality in credential store, verification, or identification types.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/pw-reset-ext-script-includes.html
-release: australia
+release: brazil
 product: Password Reset
 classification: password-reset
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Password Reset script includes, Password Reset reference, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -446,5 +446,5 @@ SampleVerificationFormProcessor.prototype = {
 **Related topics**  
 
 
-[Extension points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md)
+[Extension points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/extension-points.md)
 

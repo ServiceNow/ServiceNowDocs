@@ -3,20 +3,20 @@ title: Portal Polaris Header widget
 description: The Portal Polaris Header widget enables your users to quickly access key features, pages, and links from any place in the portal. You can select the Portal Polaris Header widget in the theme record, which is mapped to your portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-header-widget.html
-release: australia
+release: brazil
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Set up Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Portal Polaris Header widget
 
 The Portal Polaris Header widget enables your users to quickly access key features, pages, and links from any place in the portal. You can select the Portal Polaris Header widget in the theme record, which is mapped to your portal.
 
-You can display the logo, search, profile, and others on level 1 and menu items on level 2 of the header. The appearance of the menu items in level 2 of the header is determined by the widget selected in the menu record mapped to the portal. To enable a multi-level hierarchy for your menu items, you must select the Portal Mega Menu widget. For more information, [Portal Mega Menu widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-mega-menu-widget.md).
+You can display the logo, search, profile, and others on level 1 and menu items on level 2 of the header. The appearance of the menu items in level 2 of the header is determined by the widget selected in the menu record mapped to the portal. To enable a multi-level hierarchy for your menu items, you must select the Portal Mega Menu widget. For more information, [Portal Mega Menu widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-mega-menu-widget.md).
 
 The following items that appear on level 1 and level 2 of the header menu and are configured on the portal record and menu record associated with the portal.
 

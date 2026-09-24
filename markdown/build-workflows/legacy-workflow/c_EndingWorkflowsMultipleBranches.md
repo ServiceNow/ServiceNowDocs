@@ -3,11 +3,11 @@ title: Ending workflows with multiple branches
 description: A workflow is complete when it reaches the End activity, even if there are still active branches of the workflow in progress. To ensure that both branches are completed, add a Join activity to resolve the branches.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/legacy-workflow/c\_EndingWorkflowsMultipleBranches.html
-release: australia
+release: brazil
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a workflow, Workflow management, Classic Workflow, Build workflows]
 ---
@@ -24,5 +24,5 @@ For both branches to complete, add a **Join** activity to resolve the branches. 
 
 \[Omitted image "WorkflowMultipleBranchesJoined.png"\] Alt text:
 
-**Parent Topic:**[Create a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/t_CreateAWorkflow.md)
+**Parent Topic:**[Create a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/legacy-workflow/t_CreateAWorkflow.md)
 

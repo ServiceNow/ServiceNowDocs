@@ -3,7 +3,7 @@ title: Create IP credentials
 description: Create IP credentials for Discovery to securely connect to devices in your environment. Discovery uses these credentials to log in to devices and retrieve configuration data during the discovery process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/create-ip-credentials.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
@@ -22,9 +22,9 @@ Create IP credentials for Discovery to securely connect to devices in your envir
 Verify the following:
 
 -   You're using the Zurich Patch 8 or later version of the ServiceNow AI Platform.
--   You have installed the ITOM Visibility plugin. For more information, see [Install ITOM Visibility using ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/install-nowassist-setup-itom-visibility.md).
--   You have installed the ServiceNow Otto for IT Operations Management \(ITOM\) plugin. For more information, see [Install ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/install-na-itom.md).
--   You're on the Configure IT Operations Management page of the Configuration Console. For more information, see [Access the ITOM Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/access-itom-config-console-disco.md).
+-   You have installed the ITOM Visibility plugin. For more information, see [Install ITOM Visibility using ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/install-nowassist-setup-itom-visibility.md).
+-   You have installed the ServiceNow Otto for IT Operations Management \(ITOM\) plugin. For more information, see [Install ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/install-na-itom.md).
+-   You're on the Configure IT Operations Management page of the Configuration Console. For more information, see [Access the ITOM Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/access-itom-config-console-disco.md).
 
 Role required: discovery\_admin
 
@@ -32,7 +32,7 @@ Role required: discovery\_admin
 
 IP credentials store the authentication information that Discovery needs to access devices in your network. When Discovery runs, it tries each credential in the order you specify until it finds one that works for a given device. Set the credential order to control which credentials Discovery tries first. This is especially important when security policies lock out users after failed login attempts.
 
-For more information about credential types and requirements, see [Create and test your credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_CreateCredential.md).
+For more information about credential types and requirements, see [Create and test your credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_CreateCredential.md).
 
 ## Procedure
 
@@ -46,20 +46,20 @@ For more information about credential types and requirements, see [Create and te
 
     |Credential type|Description|
     |---------------|-----------|
-    |[Applicative Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md)|Credentials for discovering applications running on host machines.|
-    |[Basic Auth Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md)|Credentials that use basic authentication with a user name and password.|
-    |[CIM Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_CIMCredentialsForm.md)|Credentials for devices that use the Common Information Model protocol.|
+    |[Applicative Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md)|Credentials for discovering applications running on host machines.|
+    |[Basic Auth Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_BasicAuthCredentialsForm.md)|Credentials that use basic authentication with a user name and password.|
+    |[CIM Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_CIMCredentialsForm.md)|Credentials for devices that use the Common Information Model protocol.|
     |Kubernetes Credentials|Credentials for discovering Kubernetes clusters and resources.|
     |oVirt Credentials|Credentials for oVirt virtualization environments.|
     |Secondary Bot Hash Token Credential|Token credentials for secondary bot integrations that use existing tokens.|
     |Secondary Bot Static Token Credential|Static token credentials for secondary bot integrations.|
-    |[SNMP Community Credentials \(Password Only\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_SNMPCredentials.md)|Credentials that use an SNMP community string for network devices.|
-    |[SNMPv3 Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_SNMPCredentials.md)|Credentials that use the SNMPv3 protocol with authentication and privacy options.|
-    |[SSH Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md)|Credentials for Linux, UNIX, and other SSH-enabled devices.|
-    |[SSH Private Key Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md)|Credentials that use an SSH private key for authentication instead of a password.|
+    |[SNMP Community Credentials \(Password Only\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_SNMPCredentials.md)|Credentials that use an SNMP community string for network devices.|
+    |[SNMPv3 Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_SNMPCredentials.md)|Credentials that use the SNMPv3 protocol with authentication and privacy options.|
+    |[SSH Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md)|Credentials for Linux, UNIX, and other SSH-enabled devices.|
+    |[SSH Private Key Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md)|Credentials that use an SSH private key for authentication instead of a password.|
     |SSL Keystore Credentials|Credentials that use an SSL keystore for secure communication.|
-    |[VMWare Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_VMwareCredentialsForm.md)|Credentials for VMware vCenter environments.|
-    |[Windows Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md)|Credentials for Windows devices that use WMI or WinRM protocols.|
+    |[VMWare Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_VMwareCredentialsForm.md)|Credentials for VMware vCenter environments.|
+    |[Windows Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md)|Credentials for Windows devices that use WMI or WinRM protocols.|
 
 4.  Select **Create new**.
 
@@ -126,5 +126,5 @@ Enter the sequence in which Discovery tries this credential when it attempts to 
 **Related topics**  
 
 
-[Get started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/credentials-getting-started.md)
+[Get started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/credentials-getting-started.md)
 

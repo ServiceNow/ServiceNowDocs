@@ -3,11 +3,11 @@ title: Example: Automate badge request management using AI Desktop Actions
 description: Automate various tasks related to badge requests through desktop actions using AI Desktop Actions and AI agents.Automate various badge-related tasks through desktop actions in AI Desktop Actions.Create an AI agent in AI Agent Studio and add desktop action tools for automating badge-related requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/example-badging-magmt-concept-ad.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-05-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
-breadcrumb: [Desktop action examples, AI Desktop Actions, Enable AI experiences]
+breadcrumb: [Desktop action examples, AI Desktop Actions, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Example: Automate badge request management using AI Desktop Actions
@@ -26,8 +26,8 @@ Automate various badge-related tasks through desktop actions in AI Desktop Actio
 
 To access the AI Desktop Actions functionality, perform the following steps:
 
--   Enable AI Desktop Actions on your ServiceNow instance. For more information, see [Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-agentic-desktop.md).
--   Download the AI Desktop Actions installer to automate repetitive tasks across applications and systems. For more information, see [Download AI Desktop Actions installer for defined desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/download-agentic-desktop-installer.md).
+-   Enable AI Desktop Actions on your ServiceNow instance. For more information, see [Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-agentic-desktop.md).
+-   Download the AI Desktop Actions installer to automate repetitive tasks across applications and systems. For more information, see [Download AI Desktop Actions installer for defined desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/download-agentic-desktop-installer.md).
 
 Confirm that the following system requirements are met:
 
@@ -37,7 +37,7 @@ Confirm that the following system requirements are met:
 -   Theme must match between the systems used for recording and execution.
 -   For record with AI, the ServiceNow AI Lens skill must be active on your instance. Contact your ServiceNow administrator if you're unsure whether this condition is met.
 
-Familiarize yourself with the Design workspace and Action recorder. For more information, see [AI Desktop Actions Design workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/agentic-desktop-overview.md) and [Action recorder in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/action-recorder-ad.md).
+Familiarize yourself with the Design workspace and Action recorder. For more information, see [AI Desktop Actions Design workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/agentic-desktop-overview.md) and [Action recorder in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/action-recorder-ad.md).
 
 Role required: sn\_desktop\_core.desktop\_action\_user
 
@@ -85,7 +85,7 @@ The **sn\_desktop\_core.record\_with\_ai** property is enabled by default, makin
 
         \[Omitted image "create-desktop-action-with-ai.png"\] Alt text: Create desktop action modal with Record with AI option selected and a field to enter name for the desktop action.
 
-        **Important:** If the **Record with AI \(recommended\)** check box is unavailable, the ServiceNow AI Lens is inactive on your instance. Contact your ServiceNow administrator to enable it. You can still create desktop actions using [auto-capture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/auto-create-desktop-action-ad.md) mode.
+        **Important:** If the **Record with AI \(recommended\)** check box is unavailable, the ServiceNow AI Lens is inactive on your instance. Contact your ServiceNow administrator to enable it. You can still create desktop actions using [auto-capture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/auto-create-desktop-action-ad.md) mode.
 
     -   If you want to use manual recorder, clear the **Record with AI \(recommended\)** check box.
 
@@ -111,7 +111,7 @@ The **sn\_desktop\_core.record\_with\_ai** property is enabled by default, makin
 
 13. From the Action recorder panel, select **Start recording**.
 
-    **Important:** Before you start recording, review the tips for accurate capturing of anchors and steps. For more information, see [Tips for accurate recording](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/action-recorder-ad.md).
+    **Important:** Before you start recording, review the tips for accurate capturing of anchors and steps. For more information, see [Tips for accurate recording](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/action-recorder-ad.md).
 
     You will see a "Recording started" message on the Action recorder panel. You can select any of the following options when needed from the **More options** menu:
 
@@ -166,7 +166,7 @@ The **sn\_desktop\_core.record\_with\_ai** property is enabled by default, makin
     |Screen2 &gt; Click2|Delay after|5|
     |Screen3 &gt; Click2|Delay after|10|
 
-    For more information, see [Screen, anchor, and step properties in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/screen-anchor-and-action-properties-ad.md).
+    For more information, see [Screen, anchor, and step properties in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/screen-anchor-and-action-properties-ad.md).
 
 17. Modify the auto-generated names for all added screens, anchors, and steps.
 
@@ -186,7 +186,7 @@ The **sn\_desktop\_core.record\_with\_ai** property is enabled by default, makin
 
 21. Test and activate the desktop action.
 
-    For more information, see [Test and activate a desktop action in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-activate-desktop-action-ad.md).
+    For more information, see [Test and activate a desktop action in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-activate-desktop-action-ad.md).
 
 22. Similarly, create and activate the following desktop actions.
 
@@ -309,11 +309,11 @@ List of steps
 
 6.  Complete the remaining steps that are necessary.
 
-    For more information, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md).
+    For more information, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-next-best-action-agent.md).
 
 7.  Select **Save and test** to complete the configuration steps or review a previous step by selecting **Back**.
 
-    Selecting Save and test leads you to the AI agent testing page, where you can test the AI agent that you created. For more information, see [Manually test the execution of an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-ai-agent.md).
+    Selecting Save and test leads you to the AI agent testing page, where you can test the AI agent that you created. For more information, see [Manually test the execution of an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-ai-agent.md).
 
     To test the AI agent, you must have the sn\_aia.admin role and any roles the ACLs configured for the AI agent and its tools require, if applicable.
 
@@ -322,5 +322,5 @@ List of steps
 
 Enable your HR representatives to trigger AI agents from the ServiceNow Otto panel to address badge-related requests.
 
-For more information, see [Example: Use AI agents to process badge-related requests automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/example-use-badging-ai-agent-ad.md).
+For more information, see [Example: Use AI agents to process badge-related requests automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/example-use-badging-ai-agent-ad.md).
 

@@ -3,9 +3,9 @@ title: Integrate Customer Service Management Virtual Agent with Facebook Messeng
 description: Integrate the Customer Service Virtual Agent with Facebook Messenger to enable bot conversations in the messenger.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/update-authentication-facebook-va-integration.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure chat, Configure omnichannel, Configure, Customer Service Management]
 ---
@@ -18,16 +18,16 @@ Integrate the Customer Service Virtual Agent with Facebook Messenger to enable b
 
 Role required: virtual\_agent\_admin or admin
 
--   Install the Customer Service \(com.sn\_customerservice\) plugin.
+-   Install the Case Management Core \(com.sn\_customerservice\) plugin.
 -   Install the Customer Service Virtual Agent Conversations plugin \(com.sn\_csm.virtualagent\).
 -   Make sure Virtual Agent is integrated with Facebook Messenger.
 -   Make sure you have the token and secret for the messenger.
 
-For information on integrating the Virtual Agent with Facebook Messenger and for retrieving the messenger token and secret, see [Set up Virtual Agent integration for consumer messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-integration-messaging-apps.md).
+For information on integrating the Virtual Agent with Facebook Messenger and for retrieving the messenger token and secret, see [Set up Virtual Agent integration for consumer messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-integration-messaging-apps.md).
 
 ## About this task
 
-With this integration, you can get help using Virtual Agent chatbot conversations. For more information on getting help, see [Customer Service Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-virtual-agent-chatbot.md) .
+With this integration, you can get help using Virtual Agent chatbot conversations. For more information on getting help, see [Customer Service Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-virtual-agent-chatbot.md) .
 
 ## Procedure
 

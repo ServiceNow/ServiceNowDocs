@@ -3,11 +3,11 @@ title: Notifications on tool credential expiration
 description: Notifications are sent to tool users on expiration of tool credentials to alert them. Notifications are also sent proactively before the expiration of tool credentials for GitHub tools created with basic authentication. This enables tool users with the sn\_devops.tool\_owner or sn\_devops.admin roles to update the tool credentials and prevent any loss of data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/notifications-for-tool-credential-expiry.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Update third-party tool credentials, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -26,7 +26,7 @@ The credentials expiration check happens in the system every one hour. If your t
 
 For GitHub tools created with basic auth, notifications are also sent proactively before the expiration of tool credentials. Apart from the universal task and banner notification, a field message is also displayed in the case of proactive expiration notifications. You can set the number of days before which expiration notifications must be sent in the **Number of days before tool credential expiry to assign a universal task and notify \(if applicable\)** property. By default, it is set to 3 days. To stop sending proactive notifications, select 0 as the value for this property. \[Omitted image "credentials-expiry-property.png"\] Alt text: Properties to configure notifications on tool credential expiry
 
-If you want to stop sending notifications for expired credentials after expiry, disable the **Assign a universal task and notify to update tool credentials when expired** property. For more information, see [DevOps Change Velocity properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-administration.md).
+If you want to stop sending notifications for expired credentials after expiry, disable the **Assign a universal task and notify to update tool credentials when expired** property. For more information, see [DevOps Change Velocity properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/dev-ops-administration.md).
 
 The following types of notifications are sent:
 
@@ -53,7 +53,7 @@ The following types of notifications are sent:
     \[Omitted image "credential-expiry-proactive-field.png"\] Alt text: Proactive field notification before credential expiration
 
 
-When the credentials of your tool expire, the tool gets disconnected. You can select the **Update credentials** link in the notifications, and update your tool credentials. After the credentials are updated, connect to the tool again to start receiving data. For information on updating tool credentials, see [Update third-party tool credentials in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/update-third-party-tool-credentials-in-devops-change-velocity.md).
+When the credentials of your tool expire, the tool gets disconnected. You can select the **Update credentials** link in the notifications, and update your tool credentials. After the credentials are updated, connect to the tool again to start receiving data. For information on updating tool credentials, see [Update third-party tool credentials in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/update-third-party-tool-credentials-in-devops-change-velocity.md).
 
-**Parent Topic:**[Update third-party tool credentials in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/update-third-party-tool-credentials-in-devops-change-velocity.md)
+**Parent Topic:**[Update third-party tool credentials in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/update-third-party-tool-credentials-in-devops-change-velocity.md)
 

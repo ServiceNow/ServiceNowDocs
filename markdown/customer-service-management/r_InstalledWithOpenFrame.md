@@ -3,9 +3,9 @@ title: Components installed with OpenFrame
 description: Several types of components are installed with OpenFrame.Tables are added with activation of OpenFrame.The OpenFrame user role is automatically added when you activate OpenFrame.The OpenFrameAjaxUtility script include is added when you activate OpenFrame.Some related business rules are added when you activate OpenFrame.Related UI macros are added when you activate the OpenFrame plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/r\_InstalledWithOpenFrame.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Components installed with additional plugins for Customer Service Management, Reference, Customer Service Management]
 ---
@@ -183,10 +183,10 @@ show\_phone\_customer\_service
 -   By configuring this UI macro using the **ref\_contribution** parameter, you can display a phone icon next to the **Contact** customer\_account reference field on the case form if the phone field in the Contact customer\_account record is populated with the user's contact number.
 
 </td></tr></tbody>
-</table>Displaying the phone icon enables you to make calls using the click-to-call capability in the OpenFrame window. For more information on how to use OpenFrame, see [OpenFrame overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_OpenFrameOverview.md).
+</table>Displaying the phone icon enables you to make calls using the click-to-call capability in the OpenFrame window. For more information on how to use OpenFrame, see [OpenFrame overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_OpenFrameOverview.md).
 
 **Related topics**  
 
 
-[UI Macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_UIMacros.md)
+[UI Macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/c_UIMacros.md)
 

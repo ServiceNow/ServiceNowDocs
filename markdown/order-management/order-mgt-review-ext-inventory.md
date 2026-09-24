@@ -3,9 +3,9 @@ title: Review the external product inventory details for a customer order
 description: Review the external inventory details of the customer orders that you’ve received from the external Configure, Price, and Quote \(CPQ\) system during the order capture process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/order-mgt-review-ext-inventory.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [External product inventory ID, Managing service orders, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -20,7 +20,7 @@ Role required: order\_approver, order\_viewer, sn\_ind\_tmt\_orm.order\_fulfillm
 
 ## Procedure
 
-1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
+1.  Navigate to  **Workspaces** &gt; **CRM Workspace** .
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -93,12 +93,12 @@ During the inflight order changes, the state of the external product inventory I
     |**Delete the external product inventory details**|Select the options icon \[Omitted image "more-options.png"\] Alt text: next to the **Save** button, and then select **Delete**.|
 
 
-**Parent Topic:**[External product inventory ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/ext-inventory-id.md)
+**Parent Topic:**[External product inventory ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/ext-inventory-id.md)
 
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-order-management.md)
 

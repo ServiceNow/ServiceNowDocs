@@ -3,9 +3,9 @@ title: Customizing the calendar grid in Dispatcher Workspace with UI Builder
 description: Change or add colors to the calendar grid to update your Dispatcher Workspace display so dispatchers can easily see when agents are available.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/calendar-color-ui-builder.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customize Dispatcher Workspace with UI Builder, Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---

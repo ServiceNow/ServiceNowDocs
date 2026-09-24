@@ -3,11 +3,11 @@ title: Digital Product Release data collectors
 description: The Digital Product Release Policy Content Pack contains a set of data collectors to collect DevOps data to be validated against policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-data-collector.html
-release: australia
+release: brazil
 product: Digital Product Release
 classification: digital-product-release
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Digital Product Release \(DPR\), Digital Product Release Data Collectors, DevOps data collectors, Data Collectors, Digital Product Release Policy Content Pack]
 breadcrumb: [Digital Product Release Policy Content Pack, Digital Product Release, IT Service Management]
@@ -102,7 +102,7 @@ Output: % of commits without Work Item.
 **Related topics**  
 
 
-[Digital Product Release policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-policies.md)
+[Digital Product Release policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-policies.md)
 
-[Passing parameters to PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/pace-passing-parameters.md)
+[Passing parameters to PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/pace-passing-parameters.md)
 

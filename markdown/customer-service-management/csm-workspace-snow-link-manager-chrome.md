@@ -3,9 +3,9 @@ title: Open new cases in the same tab with ServiceNow Link Manager for Google Ch
 description: Follow the steps below to install, activate, and use ServiceNow Link Manager in Google Chrome.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-snow-link-manager-chrome.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Organize records tabs with ServiceNow Link Manager, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -35,7 +35,7 @@ Role required: admin
 1.  Select the ServiceNow Settings icon in the top-right corner of your Chrome browser.
 2.  From the drop down menu, locate the ServiceNow Link Manager toggle switch and turn it on.
 
-**Note:** The ServiceNow Link Manager extension turns on automatically in CSM and ITSM Workspace. It doesn't run in other ServiceNow workspaces.
+**Note:** The ServiceNow Link Manager extension turns on automatically in CRM Workspace and ITSM Workspace. It doesn't run in other ServiceNow workspaces.
 
 ## Using ServiceNow Link Manager
 

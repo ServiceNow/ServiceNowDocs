@@ -3,9 +3,9 @@ title: Configure offline mode properties for function instances
 description: Determine if the function instance available to users in online mode is also available in offline mode. This option gives you more control over how users manage their offline tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/config-offline-property-function-instance.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Supported functions, Align apps, screens, and functions, Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -34,15 +34,15 @@ Function instances define the location of the function within the screen. For ex
 
 3.  Select one of the following methods to access a function instance.
 
-<table><thead><tr><th align="left" id="d83473e98">
+<table><thead><tr><th align="left" id="d83604e98">
 
 Method
 
-</th><th align="left" id="d83473e101">
+</th><th align="left" id="d83604e101">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d83473e107">
+</th></tr></thead><tbody><tr><td id="d83604e107">
 
 **From an existing screen**
 
@@ -54,7 +54,7 @@ Procedure
 
 **Note:** The default value of the **Disable Offline** field is turned off.
 
-</td></tr><tr><td id="d83473e136">
+</td></tr><tr><td id="d83604e136">
 
 **From the function instance table**
 
@@ -70,5 +70,5 @@ Procedure
 </table>4.  Select **Save**.
 
 
-**Parent Topic:**[Supported functions for offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/functions-offline.md)
+**Parent Topic:**[Supported functions for offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/functions-offline.md)
 

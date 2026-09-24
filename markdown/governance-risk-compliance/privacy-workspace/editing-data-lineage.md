@@ -3,11 +3,11 @@ title: Edit a lineage
 description: Edit an existing lineage relationship to update the relationship type, description, or key relationship status of a connected node.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/editing-data-lineage.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage data lineage, Use, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -49,5 +49,5 @@ You can edit a relationship from the lineage map by selecting the arrow between 
 7.  Select **Save** to save the changes.
 
 
-**Parent Topic:**[Manage data lineage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/lineage.md)
+**Parent Topic:**[Manage data lineage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/lineage.md)
 

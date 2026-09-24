@@ -3,11 +3,11 @@ title: Configure request definitions for EMR systems
 description: Create or modify request definitions to accept service requests from an EMR system on your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/emr-help/configure-emr-help-req-def.html
-release: australia
+release: brazil
 product: EMR Help
 classification: emr-help
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -18,8 +18,8 @@ Create or modify request definitions to accept service requests from an EMR syst
 
 ## Before you begin
 
--   Set the application scope to EMR Help using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
--   Ensure that request parameters and equivalent columns for all request parameters exist in the Remote Request Data \[sn\_ind\_rmt\_help\_request\_data\] table. For more information, see [Configure request parameters for EMR systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/configure-emr-help-req-parm.md).
+-   Set the application scope to EMR Help using the application picker. For more information, see Application picker.
+-   Ensure that request parameters and equivalent columns for all request parameters exist in the Remote Request Data \[sn\_ind\_rmt\_help\_request\_data\] table. For more information, see [Configure request parameters for EMR systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/emr-help/configure-emr-help-req-parm.md).
 
 Role required: sn\_ind\_rmt\_help.admin or admin
 
@@ -101,7 +101,7 @@ Rest API Task Parameters
 
 </td></tr><tr><td colspan="2">
 
-Parameters of scripted REST APIs. You can use scripted REST APIs with system support modules. For more information, see [Remote help request API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/remote_help_request-api.md).
+Parameters of scripted REST APIs. You can use scripted REST APIs with system support modules. For more information, see Remote help request API.
 
 </td></tr><tr><td>
 

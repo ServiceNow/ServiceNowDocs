@@ -3,9 +3,9 @@ title: Success report dashboard
 description: Get an overall view of all your engagement and team status overview, risk indicators, onboarding and adoption insights, and expansion and renewal metrics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-success-report.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Success report dashboard overview, Dashboards, Customer success, Use, Customer Success Management]
 ---
@@ -17,11 +17,11 @@ Get an overall view of all your engagement and team status overview, risk indica
 To view this page, follow these steps:
 
 1.  Login as a user with either the `sn_acct_lc.success_manager` and `sn_acct_lc_customer_success_agent` roles.
-2.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** to view the Success report page.
+2.  Navigate to **Workspaces** &gt; **CRM Workspace** to view the Success report page.
 
 **Note:**
 
--   The engagements listed on the success report dashboard are based on the hierarchy of the logged in user. Users with the **sn\_acct\_lc.success\_manager** role can see an aggregate view of all engagements handled by all customer success managers in the hierarchy. Users with the **sn\_acct\_lc\_customer\_success\_agent** role can see an aggregate view of all their assigned engagements. For more details, see [Success report dashboard overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-success-report-overview.md).
+-   The engagements listed on the success report dashboard are based on the hierarchy of the logged in user. Users with the **sn\_acct\_lc.success\_manager** role can see an aggregate view of all engagements handled by all customer success managers in the hierarchy. Users with the **sn\_acct\_lc\_customer\_success\_agent** role can see an aggregate view of all their assigned engagements. For more details, see [Success report dashboard overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-success-report-overview.md).
 -   Select filters from the following drop down lists and select **Apply** to narrow the list of engagements displayed:
     -   Contract values: Select one or more contract values from the drop down list. The local currency is automatically selected based on your system settings. The contract value ranges are defined in the following properties in the **TechOnbConstants** script include:
         -   TechOnbConstants.CONTRACT\_VALUES\_ID
@@ -33,10 +33,10 @@ To view this page, follow these steps:
 
 The Success report page contains the following tabs:
 
--   [Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown): Provides an overview of the team health and engagement metrics.
--   [Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown): Identifies potential issues that can impact engagement health.
--   [Adoption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown): Provides details on customer progress on onboarding and product adoption.
--   [Renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown): Lists key metrics related to revenue growth opportunities and contract renewals.
+-   [Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown): Provides an overview of the team health and engagement metrics.
+-   [Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown): Identifies potential issues that can impact engagement health.
+-   [Adoption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown): Provides details on customer progress on onboarding and product adoption.
+-   [Renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown): Lists key metrics related to revenue growth opportunities and contract renewals.
 
 ## Overview \(Success report\)
 
@@ -73,7 +73,7 @@ This tab shows the current customer adoption status. It includes the following d
 -   Engagements with no success objectives: Engagements for which no success objectives have been defined.
 -   Engagements with &gt;80% objective completion: List of engagements for which more than 80% of the success objectives have been completed.
 -   Success objective progress: Success objectives grouped by state such as new, on-track, at risk, completed, and so on.
--   Engagements with low adoption score products: List of products with a low adoption score and the associated customer and business priority. See [Product adoption and capability usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-product-adopt.md) for details.
+-   Engagements with low adoption score products: List of products with a low adoption score and the associated customer and business priority. See [Product adoption and capability usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-product-adopt.md) for details.
 
 ## Renewal
 
@@ -94,10 +94,10 @@ This tab shows the renewal details for all contracts associated with the engagem
 
     **Note:** The date used to plot the x-axis on the graph is based on one of the following:
 
-    -   If Sales Customer Relationship Management is installed, an opportunity is created for each contract. For opportunities with type **Renew**, the stage of the contract is set to **Closed won** or **Closed lost** indicating whether the contract had been renewed. The Actual Closed Date in the Opportunity record is used to plot the X axis. For more details, see [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md).
+    -   If Sales Customer Relationship Management is installed, an opportunity is created for each contract. For opportunities with type **Renew**, the stage of the contract is set to **Closed won** or **Closed lost** indicating whether the contract had been renewed. The Actual Closed Date in the Opportunity record is used to plot the X axis. For more details, see [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/opportunity-management.md).
     -   Date specified in the **Renewal finalized on** field in the Contracts table. The Renewals won and Renewals lost bar charts show the month in which the renewal was either approved or rejected.
 -   Engagements with lost contracts: List of engagements with contracts that were rejected or not renewed.
 -   YTD total contract value by month: Monthly breakdown of total contract value, year-to-date.
 
-**Parent Topic:**[Success report dashboard overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-success-report-overview.md)
+**Parent Topic:**[Success report dashboard overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-success-report-overview.md)
 

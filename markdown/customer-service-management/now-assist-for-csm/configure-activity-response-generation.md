@@ -3,11 +3,11 @@ title: Configure activity response generation
 description: Set up the activity response generation skill in the AI Admin Hub console to enable automated responses in comments and work notes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/configure-activity-response-generation.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Generative AI, Generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -80,7 +80,7 @@ Use the AI Admin Hub for configuring the activity response generation skill by s
 
     Skill is activated for agents and a success modal shows up with the option to **Return to CSM** and to **ServiceNow Otto context menu**.
 
-10. Select **Go to ServiceNow Otto context menu** to launch the guided steps for [configuring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/customize-now-assist-context-menu-for-skills.md) the ServiceNow Otto context menu for the skill.
+10. Select **Go to ServiceNow Otto context menu** to launch the guided steps for [configuring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/customize-now-assist-context-menu-for-skills.md) the ServiceNow Otto context menu for the skill.
 
     You can also access this configuration from ServiceNow Otto Experience.
 
@@ -88,5 +88,5 @@ Use the AI Admin Hub for configuring the activity response generation skill by s
 **Related topics**  
 
 
-[Generate activity stream responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/generate-a-recommendation-to-respond-to-an-activity.md)
+[Generate activity stream responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/generate-a-recommendation-to-respond-to-an-activity.md)
 

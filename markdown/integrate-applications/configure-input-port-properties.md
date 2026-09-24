@@ -3,9 +3,9 @@ title: Configure port properties
 description: Configure how data is passed to the input fields of a component or method in RPA Desktop Design Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/configure-input-port-properties.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -61,7 +61,7 @@ The **Read Data From** field appears only for Data In ports, and includes the fo
 
 **Note:** This option does not appear in some components and methods.
 
--   **Variable**: A global or a local variable from where the data must be read. When you select this option, the Data in port on the component disappears and the variable name appears on the port. For more information about variables, see [Create and use a variable in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-variables-rpa-studio.md).
+-   **Variable**: A global or a local variable from where the data must be read. When you select this option, the Data in port on the component disappears and the variable name appears on the port. For more information about variables, see [Create and use a variable in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-variables-rpa-studio.md).
 
 
 </td></tr><tr><td>
@@ -71,7 +71,7 @@ Write Data To
 </td><td>
 
 The **Write Data To** field appears only for Data Out ports and includes the following options: -   **Connection**: Send data to another component.
--   **Variable**: Use data from a global or a local variable. When you select this option, the variable name appears on the port, and the Data Out port is not present. For more information about variables, see [Create and use a variable in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-variables-rpa-studio.md).
+-   **Variable**: Use data from a global or a local variable. When you select this option, the variable name appears on the port, and the Data Out port is not present. For more information about variables, see [Create and use a variable in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-variables-rpa-studio.md).
 
 
 </td></tr><tr><td>
@@ -92,5 +92,5 @@ The variable that is mapped to the port. This field appears when you select **Va
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-studio-use.md)
+**Parent Topic:**[Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/rpa-studio-use.md)
 

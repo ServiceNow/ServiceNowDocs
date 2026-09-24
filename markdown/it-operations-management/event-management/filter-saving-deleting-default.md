@@ -3,11 +3,11 @@ title: Save a custom filter in Express List
 description: Save your custom view of categorized alerts in Express List to use again, share, or set as your default view. Saving your custom view saves all filters, tags, and conditions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/filter-saving-deleting-default.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Filtering the alert display in the Express List pane, Set up your workspace, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -30,9 +30,9 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
     For more information about filtering the Express List alert display, see the following topics:
 
-    -   [Filter the Express List display using attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/filter-attributes.md)
-    -   [Filter the Express List display by adding or removing fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/filter-express-list-fields.md)
-    -   [Filter out or show matching alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/filter-right-click-option.md)
+    -   [Filter the Express List display using attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/filter-attributes.md)
+    -   [Filter the Express List display by adding or removing fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/filter-express-list-fields.md)
+    -   [Filter out or show matching alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/filter-right-click-option.md)
     1.  In the Express List select **Save new**.
 
     2.  In the **Save new filter** dialog box in the **Filter name** field, enter a name for the filter.

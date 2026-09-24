@@ -3,9 +3,9 @@ title: Event handler in the enhanced Case view component
 description: A component triggers an event when a certain condition is met or on user interaction. The event can be used to execute an action through a code on third-party webpage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/we-case-view-event-handler.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Web Embeddables event handlers, Web Embeddables reference, Reference, Customer Service Management]
 ---

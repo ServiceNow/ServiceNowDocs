@@ -3,9 +3,9 @@ title: Individual Life Servicing
 description: The ServiceNow Individual Life Servicing application \(sn\_ins\_indiv\_life\) gives your organization the tools to quickly update and maintain individual life and disability insurance policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/individual-life-servicing.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Life Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -20,19 +20,19 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 <table class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how customers and insurance agents use Individual Life Servicing.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/exploring-individual-life-servicing.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how customers and insurance agents use Individual Life Servicing.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/exploring-individual-life-servicing.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure Individual Life Servicing.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-individual-life-servicing.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure Individual Life Servicing.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-individual-life-servicing.md)
 
 </td></tr><tr><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components such as roles, tables, plugins, and store applications that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/components-installed-individual-life-servicing.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components such as roles, tables, plugins, and store applications that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/components-installed-individual-life-servicing.md)
 
 </td><td>
 
-[Analytics and Reporting \[Omitted image "bus-performance-forecasting-2.svg"\] Alt text: Monitor key statistics and track performance with preconfigured dashboard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/analytics-reporting-individual-life-servicing.md)
+[Analytics and Reporting \[Omitted image "bus-performance-forecasting-2.svg"\] Alt text: Monitor key statistics and track performance with preconfigured dashboard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/analytics-reporting-individual-life-servicing.md)
 
 </td></tr></tbody>
 </table>

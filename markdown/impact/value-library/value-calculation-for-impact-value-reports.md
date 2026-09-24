@@ -3,11 +3,11 @@ title: Value calculation for Impact Value Reports
 description: You can use value calculation for measurable business impact and track value using metrics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/value-library/value-calculation-for-impact-value-reports.html
-release: australia
+release: brazil
 product: Value Library
 classification: value-library
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Business ROI tracking with Value Reports, Value management, Using Impact, Impact]
 ---

@@ -3,9 +3,9 @@ title: Build the data model
 description: Create tables and fields on the tables to support the application’s data model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/build-data-model.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Define and build the data model, Build your application, Exploring professional development, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Define and build the data model, Build your application, Exploring 
 
 Create tables and fields on the tables to support the application’s data model.
 
-**Note:** Consider creating applications with help from agentic AI. For more information, see [Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/use-ai-capabilities-in-custom-apps.md).
+**Note:** Consider creating applications with help from agentic AI. For more information, see [Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/use-ai-capabilities-in-custom-apps.md).
 
 ServiceNow automatically adds five fields to each new table. The new fields contain auto-populated information about the table.
 
@@ -26,7 +26,7 @@ ServiceNow automatically adds five fields to each new table. The new fields cont
 |Sys ID|sys\_id|Unique identifier for the record. It is unique throughout the instance.|
 |Updates|sys\_mod\_count|Numeric field that counts the number of updates to the record since record creation.|
 
-New tables can extend an existing table to inherit fields and functionality from the table being extended. Add to and modify the components of the extended table. The most commonly extended ServiceNow table is the task table. For more information, see [When to create a new table vs. when to extend](https://www.servicenow.com/community/in-other-news/when-to-create-a-new-table-vs-when-to-extend/ba-p/2277550) and [Exploring ServiceNow AI Platform® tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/exploring-table-administration.md).
+New tables can extend an existing table to inherit fields and functionality from the table being extended. Add to and modify the components of the extended table. The most commonly extended ServiceNow table is the task table. For more information, see [When to create a new table vs. when to extend](https://www.servicenow.com/community/in-other-news/when-to-create-a-new-table-vs-when-to-extend/ba-p/2277550) and [Exploring ServiceNow AI Platform® tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/exploring-table-administration.md).
 
 Add fields to the table to support the data model required by the application. ServiceNow has many different field types with built-in validation. Select the field type that best fits the field’s data.
 
@@ -77,5 +77,5 @@ When using reference fields, review the tables available in the instance to refe
 
 **Note:** Before creating new fields on an extended table, check for an existing field inherited from the base table that has a similar purpose. If a field is found, override the extended table's label.
 
-**Parent Topic:**[Define and build the data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/define-and-build-data-model.md)
+**Parent Topic:**[Define and build the data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/define-and-build-data-model.md)
 

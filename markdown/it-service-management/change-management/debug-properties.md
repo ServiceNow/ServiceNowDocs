@@ -3,11 +3,11 @@ title: Change Management troubleshooting properties
 description: Use the Change Management troubleshooting properties and change the value of the properties to get additional logging details for the feature.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/debug-properties.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Legacy: Change Management Platform Analytics Solutions, Use, Change Management, IT Service Management]
 ---
@@ -62,5 +62,5 @@ com.snc.change\_management.policy.approval.log
 The debug logging property that provides the detailed logging information of the workflow activity when using Change Approval Policies.Type: choice list
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legacy: Change Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-content-pack.md)
+</table>**Parent Topic:**[Legacy: Change Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-content-pack.md)
 

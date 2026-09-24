@@ -3,11 +3,11 @@ title: Perform Due Diligence
 description: Complete due diligence tasks to evaluate the eligibility of new account applications. Multiple agents can complete separate tasks concurrently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-customer-lifecycle-operations/perform-due-diligence.html
-release: australia
+release: brazil
 product: Financial Services Customer Lifecycle Operations
 classification: financial-services-customer-lifecycle-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Customer Lifecycle Operations, Common applications, Financial Services Operations \(FSO\)]
 ---
@@ -44,5 +44,5 @@ Once all agents have completed their assigned tasks, the Due Diligence stage sho
 
 ## What to do next
 
-Continue to the [Fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-customer-lifecycle-operations/activate-account.md) stage.
+Continue to the [Fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-customer-lifecycle-operations/activate-account.md) stage.
 

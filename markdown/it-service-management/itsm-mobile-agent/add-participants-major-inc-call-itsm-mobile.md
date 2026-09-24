@@ -1,18 +1,18 @@
 ---
-title: Add participants to a conference call from a major incident
+title: Add participants to conference call from major incident
 description: Add participants to an active conference call from a major incident record to discuss about the resolution of the major incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/add-participants-major-inc-call-itsm-mobile.html
-release: australia
+release: brazil
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Collaboration with major incidents, Managing major incidents using Major Incident applet, ITSM Mobile Agent, IT Service Management]
 ---
 
-# Add participants to a conference call from a major incident
+# Add participants to conference call from major incident
 
 Add participants to an active conference call from a major incident record to discuss about the resolution of the major incident.
 

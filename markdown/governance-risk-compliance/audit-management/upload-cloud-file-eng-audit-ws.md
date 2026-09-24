@@ -1,20 +1,20 @@
 ---
 title: Upload a file to cloud
-description: Upload local documents from your local to Microsoft cloud and manage the access to the cloud files.
+description: Upload local documents from your local drive to Microsoft cloud and manage the access to the cloud files.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/upload-cloud-file-eng-audit-ws.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Cloud Document Management, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Upload a file to cloud
 
-Upload local documents from your local to Microsoft cloud and manage the access to the cloud files.
+Upload local documents from your local drive to Microsoft cloud and manage the access to the cloud files.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: sn\_audit\_ws.auditor, sn\_audit\_ws.supervisor
 
 1.  Navigate to **All** &gt; **Audit** &gt; **Audit Workspace**.
 
-2.  Select the tasks icon \(\[Omitted image "new-task-icon.png"\] Alt text: Tasks icon\).
+2.  Select the tasks icon \(\[Omitted image "TasksIcon.jpg"\] Alt text: Tasks icon\).
 
     The list displays the engagements that are assigned to you.
 
@@ -34,7 +34,7 @@ Role required: sn\_audit\_ws.auditor, sn\_audit\_ws.supervisor
 
 5.  In the Upload files to cloud pop-up, browse through your local system and select the file to upload.
 
-6.  Select the **Upload** button.
+6.  Click the **Upload** button.
 
     Before selecting the Upload option if you cancel the action, the file would still be selected in the pop-up but not uploaded. Unless you select the **Upload** button, the file will not be uploaded to cloud.
 
@@ -44,6 +44,6 @@ Role required: sn\_audit\_ws.auditor, sn\_audit\_ws.supervisor
 
 7.  To remove the invalid character in the file name, select the \[Omitted image "ellipsis-vertical-outline-24.svg"\] Alt text: More actions icon icon and rename the file correctly.
 
-8.  Select the file's URL link attached to the record in the **Cloud files** tab to navigate to the cloud file in Microsoft.
+8.  Click the file's URL link attached to the record in the **Cloud files** tab to navigate to the cloud file in Microsoft.
 
 

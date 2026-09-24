@@ -3,9 +3,9 @@ title: Enterprise Architecture
 description: The ServiceNow Enterprise Architecture unites strategic and operational teams, enabling organizations to achieve their business objectives. It serves as a powerful decision engine, combining robust modeling with the management of business capabilities, application portfolios, information portfolios, and technology portfolios.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/application-portfolio-management-landing-page.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 ---
 
@@ -33,7 +33,7 @@ Overcome these challenges, improve business functions in an efficient and smooth
 
 </td><td>
 
-[Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)
 
  Create diagrams and model the future state of your IT and its relationship to the business landscape.
 
@@ -43,7 +43,7 @@ Overcome these challenges, improve business functions in an efficient and smooth
 
 </td><td>
 
-[Rationalization of business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[Rationalization of business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)
 
  Rationalize all business applications in a category and decide whether to invest, sustain, migrate, or retire an application.
 
@@ -53,7 +53,7 @@ Overcome these challenges, improve business functions in an efficient and smooth
 
 </td><td>
 
-[Data Certification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[Data Certification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)
 
  Ensure the accuracy, completeness, and reliability of critical enterprise architecture data.
 
@@ -132,19 +132,19 @@ Data certification helps maintain high‑quality data across architecture portfo
 
 ## Applications and features
 
--   [Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/ea-workspace.md)
--   [ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/now-assist-ea.md)
--   [Managing requests, certifications, and assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/manage-requests-certs-assessments.md)
--   [Exploring a business portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/manage-business-portfolio.md)
--   [Explore the Enterprise Architecture Workspace dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-workspace-dashboard.md)
--   [Exploring Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-tpm.md)
--   [Exploring Enterprise Modeling and Visualization in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling.md)
--   [Gantt view of TLM and TRM lifecycle timelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-gantt-view-of-tpm-and-trm-lifecycle-timelines.md)
--   [Rationalization of business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-rationalize-business-applications.md)
--   [Manage application total cost of ownership \(TCO\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-app-tco.md)
+-   [Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/ea-workspace.md)
+-   [ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/now-assist-ea.md)
+-   [Managing requests, certifications, and assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/manage-requests-certs-assessments.md)
+-   [Exploring a business portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/manage-business-portfolio.md)
+-   [Explore the Enterprise Architecture Workspace dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-workspace-dashboard.md)
+-   [Exploring Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-tpm.md)
+-   [Exploring Enterprise Modeling and Visualization in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-modeling.md)
+-   [Gantt view of TLM and TRM lifecycle timelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-gantt-view-of-tpm-and-trm-lifecycle-timelines.md)
+-   [Rationalization of business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-rationalize-business-applications.md)
+-   [Manage application total cost of ownership \(TCO\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-app-tco.md)
 
--   **[Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/ea-workspace.md)**  
+-   **[Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/ea-workspace.md)**  
 The Enterprise Architecture Workspace \(EA Workspace\) is part of the Enterprise Architecture application. It provides an interactive interface for enterprise architects to manage tasks, gain insights, and monitor portfolio health.
--   **[ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/now-assist-ea.md)**  
+-   **[ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/now-assist-ea.md)**  
 Use ServiceNow Otto for Enterprise Architecture \(EA\) to use generative AI skills in the Enterprise Architecture Workspace. These skills help you summarize and refine content, generate and compare diagrams, gather insights into business applications, and query your enterprise architecture portfolio using natural language.
 

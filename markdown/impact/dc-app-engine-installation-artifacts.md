@@ -3,9 +3,9 @@ title: Review App Engine artifacts
 description: The Data Collection app contains a pre-build data metric structure for the ServiceNow Performance/Platform Analytics application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/dc-app-engine-installation-artifacts.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Impact Value Management Data Collection Content Pack for App Engine, Enable data collection for Value Management, Configuring Impact, Impact]
 ---
@@ -44,5 +44,5 @@ The app contains the following artifacts for each of the above-specified artifac
 |Manual|Impact VM - Avg. time for application delivery \(LOB\): idea to prod \(Weeks\)|
 |Manual|Impact VM - Former LCAP systems run-rate|
 
-**Parent Topic:**[Impact Value Management Data Collection Content Pack for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-app-engine.md)
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-app-engine.md)
 

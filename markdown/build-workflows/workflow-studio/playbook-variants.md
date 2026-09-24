@@ -3,11 +3,11 @@ title: Playbook variants
 description: Use one playbook for multiple scenarios.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/playbook-variants.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -27,7 +27,7 @@ Consider using playbook variants if you have similar business processes that cha
 -   Business processes and requirements for different users and roles.
 -   Business processes and requirements for different kinds of applications, such as licenses and permits for different kinds of businesses, etc.
 
-To get started, see [Create a playbook variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-playbook-variant.md).
+To get started, see [Create a playbook variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-playbook-variant.md).
 
 ## General Guidelines
 
@@ -50,14 +50,14 @@ Create, run, troubleshoot, and monitor your playbook variants more effectively. 
     Stage overrides are not currently supported in playbook variants.
 
 
--   **[Create a playbook variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-playbook-variant.md)**  
+-   **[Create a playbook variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-playbook-variant.md)**  
 Create variations of a playbook for different use cases.
--   **[Set variant evaluation point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/set-evaluation-point.md)**  
+-   **[Set variant evaluation point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/set-evaluation-point.md)**  
 Set a point in your base playbook after which the variants are evaluated and run.
--   **[Re-order playbook variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/reorder-playbook-variants.md)**  
+-   **[Re-order playbook variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/reorder-playbook-variants.md)**  
 Change the order in which playbook variants are evaluated.
--   **[Save a playbook variant as a favorite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/bookmark-playbook-variant.md)**  
+-   **[Save a playbook variant as a favorite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/bookmark-playbook-variant.md)**  
 Save a playbook variant as a favorite for quick reference.
 
-**Parent Topic:**[Understanding the playbook components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-building-blocks.md)
+**Parent Topic:**[Understanding the playbook components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/playbook-building-blocks.md)
 

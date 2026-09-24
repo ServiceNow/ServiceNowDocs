@@ -3,9 +3,9 @@ title: Enable inclusion list auditing for a table
 description: Enable a table to audit only those fields you explicitly designate. This is useful when you want to audit only a small number of fields in an audited table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/enable-whitelist-for-table.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring auditing for a table, Auditing]
 ---
@@ -18,7 +18,7 @@ Enable a table to audit only those fields you explicitly designate. This is usef
 
 Role required: admin
 
-The table must be [enabled for auditing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_EnableAuditingForATable.md).
+The table must be [enabled for auditing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_EnableAuditingForATable.md).
 
 ## Procedure
 
@@ -37,5 +37,5 @@ The table must be [enabled for auditing](https://raw.githubusercontent.com/Servi
 
 ## What to do next
 
-[Designate which fields you want to audit in this table.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-whitelist-audit-field.md)
+[Designate which fields you want to audit in this table.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-whitelist-audit-field.md)
 

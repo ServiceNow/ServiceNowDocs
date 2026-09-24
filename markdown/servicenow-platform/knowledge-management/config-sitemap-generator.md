@@ -3,11 +3,11 @@ title: Activate the sitemap configuration and definition records for the Knowled
 description: Include knowledge articles in your sitemap by activating the sitemap configuration and definition records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/config-sitemap-generator.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Include knowledge articles in your sitemap by activating the sitemap configurati
 
 ## Before you begin
 
--   [Activate Sitemap Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/activate-sitemap-generator.md)
+-   [Activate Sitemap Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/activate-sitemap-generator.md)
 -   Verify that an unauthenticated user can access the knowledge base article by accessing it as a guest user.
 -   Verify that the Public option is selected on the Knowledge Article View form.
 
@@ -26,7 +26,7 @@ Role required: admin
 
 ## About this task
 
-Beginning with the Australia release, the Sitemap Generator configuration is available with the base system and is inactive by default.
+Beginning with the Brazil release, the Sitemap Generator configuration is available with the base system and is inactive by default.
 
 ## Procedure
 
@@ -49,5 +49,5 @@ Beginning with the Australia release, the Sitemap Generator configuration is ava
 
 All active sitemaps regenerate once in a day and include content from any of their active sitemap definitions.
 
-**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
+**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
 

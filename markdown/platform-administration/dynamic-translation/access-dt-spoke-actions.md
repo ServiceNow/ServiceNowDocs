@@ -3,11 +3,11 @@ title: Access Dynamic Translation spoke actions from Workflow Studio
 description: Access Dynamic Translation spoke actions from Workflow Studio to detect and translate user-generated text.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation/access-dt-spoke-actions.html
-release: australia
+release: brazil
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dynamic Translation spoke, Translating with Dynamic Translation, Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -33,6 +33,6 @@ Access Dynamic Translation spoke actions from Workflow Studio to detect and tran
 
     All the actions built in the Dynamic Translation spoke are displayed.
 
-    For more information, see [Actions in Dynamic Translation spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/actions-dt-spoke.md).
+    For more information, see [Actions in Dynamic Translation spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-translation/actions-dt-spoke.md).
 
 

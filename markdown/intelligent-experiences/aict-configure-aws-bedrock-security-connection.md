@@ -3,12 +3,12 @@ title: Add an AWS Bedrock or AWS Bedrock Agent Core connection
 description: Connect AWS Bedrock or AWS Bedrock Agent Core to AI Control Tower so policies and AI agent containment using kill switch protocol can reach and act on agents running on AWS.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-configure-aws-bedrock-security-connection.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring security connections, Configuring integrations, Configure, AI Control Tower, Enable AI experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Configuring security connections, Configuring integrations, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Add an AWS Bedrock or AWS Bedrock Agent Core connection
@@ -68,5 +68,5 @@ Adding this connection has two parts: first you create a Connection &amp; Creden
 
 The connector appears on the **Established connections** sub-tab. AI Control Tower can now use this connection to enforce policies and apply AI agent containment using kill switch protocol to agents running on the connected AWS Bedrock or AWS Bedrock Agent Core service.
 
-**Parent Topic:**[Configuring security connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring-security-connections.md)
+**Parent Topic:**[Configuring security connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configuring-security-connections.md)
 

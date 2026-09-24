@@ -3,11 +3,11 @@ title: CISO dashboard
 description: This dashboard reveals the overall security posture of your organization, including security vulnerability and incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/ciso-dashboard.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Security Incident Response Platform Analytics Solutions, Security Incident Response setup, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -113,7 +113,7 @@ The dashboard includes the following visualizations:
 |Moderate, High, and Very High Risks|Scores\[Omitted image "latest-score-icon.png"\] Alt text: Latest score icon|The numbers of moderate, high, and very high risks, respectively|
 |Risk by Profile|Stacked Bar\[Omitted image "stacked-column-bkdown-icon.png"\] Alt text: Stacked bar icon|Risk count where you can select what to group by and what to stack by|
 
-**Parent Topic:**[Security Incident Response Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/security-incident-content-pack.md)
+**Parent Topic:**[Security Incident Response Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/security-incident-content-pack.md)
 
 **Related topics**  
 

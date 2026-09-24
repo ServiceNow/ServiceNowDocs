@@ -1,24 +1,29 @@
 ---
-title: Enforce Strict User Image Upload
-description: Use the glide.security.strict.user\_image\_upload property to enable Access Control for the upload/update of a profile picture when performed on a user record.
+title: Enforce strict user image upload
+description: Use the glide.security.strict.user\_image\_upload property to enable access control for the upload/update of a profile picture when performed on a user record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-enforce-strict-user-image-upload.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Enforce Strict User Image Upload
+# Enforce strict user image upload
 
-Use the **glide.security.strict.user\_image\_upload** property to enable Access Control for the upload/update of a profile picture when performed on a user record.
+Use the **glide.security.strict.user\_image\_upload** property to enable access control for the upload/update of a profile picture when performed on a user record.
 
-If the **glide.security.strict.user\_image\_upload** system property isn't set to the recommended value of **true**, then ACLs aren't enforced on image uploads to the Photo field. When the property is set to **true**, the table ACLs are enforced when uploading photos, only allowing authorized users to upload an image.
+If the **glide.security.strict.user\_image\_upload** system property isn't set to **true**, the hostname and certificate chain presented by remote hosts during a TLS connection initiated from the ServiceNow ServiceNow instance aren't validated.
 
-Ensure that the property **glide.security.strict.user\_image\_upload** is set to **true**.
+This vulnerability compromises the security of the TLS connection and allows person-in-the-middle attacks, where communications between two parties are intercepted. This may lead to sensitive data disclosure.
+
+To configure this property:
+
+1.  Navigate to `/sys_properties_list.do` on the instance.
+2.  Ensure the **com.glide.communications.httpclient.verify\_hostname** property exists and is set to `true`.
 
 ## More information
 
@@ -84,7 +89,7 @@ Category
 
 </td><td>
 
-[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -94,7 +99,7 @@ Security risk
 
 -   Severity score: 3.7
 -   CVSS rating: Low
--   Security risk details: An unauthorized user may upload an image to another user's profile.
+-   Security risk details: This vulnerability compromises the security of the TLS connection and allows person-in-the-middle attacks, where communications between two parties are intercepted. This may lead to sensitive data disclosure.
 
 </td></tr><tr><td>
 
@@ -102,7 +107,7 @@ Functional impact
 
 </td><td>
 
-No functionality impact as authorized users are still able to upload images to their user profile.
+When the **com.glide.communications.httpclient.verify\_hostname** property is set to `true`, an outbound HTTPS connection is rejected if the remote host's certificate does not match the requested hostname or its certificate chain can't be validated. Outbound integrations to hosts with a mismatched or misconfigured certificate will fail to connect once this property is set to true.
 
 </td></tr><tr><td>
 
@@ -110,8 +115,8 @@ Dependencies and prerequisites
 
 </td><td>
 
-None
+The **com.glide.communications.httpclient.verify\_hostname** property governs hostname and certificate chain validation independently of the **com.glide.communications.httpclient.verify\_revoked\_certificate** property, the overall gate for certificate revocation checking.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
+</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

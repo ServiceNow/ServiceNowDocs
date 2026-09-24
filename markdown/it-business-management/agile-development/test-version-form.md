@@ -3,11 +3,11 @@ title: Test version form in Agile Development 2.0
 description: Learn about the fields of the Test version form. Use this form to create and run tests for a story in Agile Development 2.0.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/test-version-form.html
-release: australia
+release: brazil
 product: Agile Development
 classification: agile-development
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Agile Development 2.0 reference, Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
@@ -80,7 +80,7 @@ Run
 
 </td><td>
 
-Button used to run steps, which is displayed only when the test is in the **Ready** state. See [Run tests for a story in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/run-test-plan-within-agile.md).
+Button used to run steps, which is displayed only when the test is in the **Ready** state. See [Run tests for a story in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/run-test-plan-within-agile.md).
 
 </td></tr><tr><td>
 
@@ -139,10 +139,10 @@ Delete a test step \(\[Omitted image "deleteteststep.png"\] Alt text: Delete a t
 Option to delete a test step.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agile Development 2.0 reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/agile-development-2-reference.md)
+</table>**Parent Topic:**[Agile Development 2.0 reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/agile-development-2-reference.md)
 
 **Related topics**  
 
 
-[Track sprint progress in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/sprint-tracking-list.md)
+[Track sprint progress in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/sprint-tracking-list.md)
 

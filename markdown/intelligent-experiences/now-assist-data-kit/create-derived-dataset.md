@@ -1,53 +1,57 @@
 ---
 title: Create a derived dataset
-description: Create a smaller, derived dataset from an existing dataset using AI Data Kit. Use derived datasets to isolate specific records for focused ground truth labeling or evaluation without modifying the original dataset.
+description: Create a smaller dataset from an existing dataset through generative AI by using the AI Data Kit application. A derived dataset enables you to choose a smaller dataset.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-data-kit/create-derived-dataset.html
-release: australia
+release: brazil
 product: Now Assist Data Kit
 classification: now-assist-data-kit
 topic_type: task
-last_updated: "2026-05-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using AI Data Kit, AI Data Kit, Enable AI experiences]
+breadcrumb: [Using AI Data Kit, AI Data Kit, Managing data for AI, Enable AI Experiences]
 ---
 
 # Create a derived dataset
 
-Create a smaller, derived dataset from an existing dataset using AI Data Kit. Use derived datasets to isolate specific records for focused ground truth labeling or evaluation without modifying the original dataset.
+Create a smaller dataset from an existing dataset through generative AI by using the AI Data Kit application. A derived dataset enables you to choose a smaller dataset.
 
 ## Before you begin
 
 Role required: sn\_data\_kit.admin
 
+## About this task
+
+After you add a dataset to the data catalog, you can create a smaller dataset or derived dataset from the Create derived dataset page.
+
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Data Kit** &gt; **Home**, and open an existing dataset in the **Datasets** tab.
+1.  Select the dataset where you want to create a derived dataset.
 
-2.  Select the **Create derived dataset** button at the top of the **Records** list.
+2.  Select **Create derived dataset**.
 
-3.  In the **Add dataset info** section, fill in the fields.
+3.  Add information for the new derived dataset.
 
     \[Omitted image "nadk-derived-dataset.png"\] Alt text: Create derived dataset form
 
-    |Field|Description|
-    |-----|-----------|
-    |Dataset name|Name of the derived dataset.|
-    |Dataset description|Description of the derived dataset. This field is pre-populated with a reference to the parent dataset.|
-    |Tags|Keywords to help identify and search for the dataset.|
+4.  |Field|Description|
+|-----|-----------|
+|Dataset name|Name of the dataset.|
+|Dataset description|Description of the dataset.|
+|Tags|Tags to identify the dataset.|
 
-4.  In the **Choose records** section, select a selection method and choose the records to include.
+5.  Navigate to the Choose records section and select a data selection method for your user.
 
-    A minimum of 10 records must be selected before you can create the dataset.
+    You can select records manually or use a sampling method to choose the data. If you select a sampling selection, use the drop-down menu and then enter a number in the sample size box.
 
-    -   **Manual Selection**: Select the check box next to each record you want to include.
-    -   **Sampling Selection**: Select a sampling method from the drop-down menu, enter a number in the sample size box, and select **Run** to preview the sampled records.
-5.  Select **Create dataset**.
+6.  Select **Run**.
 
-    The derived dataset is added as a separate dataset.
+7.  Preview the record results and select **Create dataset**.
+
+    The derived dataset is added to the data catalog as a separate dataset.
 
 
 ## What to do next
 
-After you have created the derived dataset, you can add ground truth to its records. For more information, see [Add a ground truth to each dataset record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-kit/add-ground-truth.md).
+After the derived dataset is completed, you can add the ground truth.
 

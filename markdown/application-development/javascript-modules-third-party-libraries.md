@@ -3,9 +3,9 @@ title: JavaScript modules and third-party libraries
 description: Optimize your code base using JavaScript modules to group related code or add third-party libraries and reuse their code within applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/javascript-modules-third-party-libraries.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Building applications in source code, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -20,20 +20,20 @@ A module is a JavaScript file that contains related code that's shared and reuse
 
 In a module, you identify code for reuse with export statements. Then, use import or require statements to reuse the code elsewhere in your applications. You must add third-party Node Package Manager \(npm\) libraries to applications as dependencies to use their module code. For general information about the syntax used to create JavaScript modules, see the [JavaScript modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) page on the MDN Web Docs website.
 
-**Note:** To use global Glide Server APIs in modules, they must be imported from the `@servicenow/glide` package. For more information, see [Importing server APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/javascript-modules-third-party-libraries.md).
+**Note:** To use global Glide Server APIs in modules, they must be imported from the `@servicenow/glide` package. For more information, see [Importing server APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/javascript-modules-third-party-libraries.md).
 
 ## Limitations
 
 -   Application customizations aren't supported.
 -   Modules can be used only within the application scope in which they're added. They can't be used across application scopes.
--   A subset of ECMAScript features are supported in modules in accordance with the [JavaScript engine feature support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/javascript-engine-feature-support.md).
+-   A subset of ECMAScript features are supported in modules in accordance with the [JavaScript engine feature support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/javascript-engine-feature-support.md).
 -   Node.js APIs aren’t supported in modules. The ServiceNow SDK build process polyfills any Node.js built-in modules while packaging modules, otherwise modules are resolved from the `node_modules` directory.
 -   Global variables related to web APIs aren’t supported.
 -   CommonJS modules from third-party libraries aren't supported unless they define exports. Subpath imports aren't supported with CommonJS modules. ECMAScript modules from third-party libraries are supported.
 -   import and export statements are only supported in modules. To import module code in scripts, such as business rules or script includes, use require statements.​
 -   JavaScript modules \[sys\_module\] can be modified only in the ServiceNow IDE or in Visual Studio Code with the ServiceNow SDK.
 
-**Important:** You can't use third-party libraries that rely on unsupported functionality, such as unsupported APIs or ECMAScript features. For more information, see [Third-party library support in Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/third-party-library-support.md).
+**Important:** You can't use third-party libraries that rely on unsupported functionality, such as unsupported APIs or ECMAScript features. For more information, see [Third-party library support in Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/third-party-library-support.md).
 
 ## Exporting modules
 
@@ -126,9 +126,9 @@ In the following example, the RESTAPIRequest and RESTAPIResponse APIs are import
 import { RESTAPIRequest, RESTAPIResponse } from '@servicenow/glide/sn_ws_int';
 ```
 
-To access server APIs in a third-party library module, you must add the module as a trusted module with the trustedModules parameter in your application's `now.config.json` file. For more information, see [Custom application configuration in source code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-config-source-code.md).
+To access server APIs in a third-party library module, you must add the module as a trusted module with the trustedModules parameter in your application's `now.config.json` file. For more information, see [Custom application configuration in source code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-config-source-code.md).
 
-For more information about available server APIs, see [Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md).
+For more information about available server APIs, see [Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/api-server.md).
 
 ## Importing script includes
 
@@ -141,12 +141,12 @@ import { global } from '@servicenow/glide/global';
 import { ScriptInclude } from '@servicenow/glide/<scope>';
 ```
 
-For more information about script includes, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md).
+For more information about script includes, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/c_ScriptIncludes.md).
 
 **Related topics**  
 
 
-[Create and use JavaScript modules in applications in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/create-use-javascript-modules-ide.md)
+[Create and use JavaScript modules in applications in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/create-use-javascript-modules-ide.md)
 
-[Create and use JavaScript modules in applications with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/create-use-javascript-modules.md)
+[Create and use JavaScript modules in applications with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/create-use-javascript-modules.md)
 

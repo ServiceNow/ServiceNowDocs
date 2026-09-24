@@ -3,11 +3,11 @@ title: View links between system elements and URLs
 description: You can view the links between your system elements and their URLs to render more specific content within your site.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_LinkToContent.html
-release: australia
+release: brazil
 product: Content Management System
 classification: content-management-system
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Content Management integration points, Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -22,7 +22,7 @@ Role required: content\_admin or admin
 
 ## About this task
 
-See the [Navigate to a record or module using a URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/navigate-using-url.md) page for an overview of URL syntax in the ServiceNow platform.
+See the [Navigate to a record or module using a URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/navigate-using-url.md) page for an overview of URL syntax in the ServiceNow platform.
 
 The Incidents list offers a quick example of viewing a form within its own tab. This viewing method illustrates how to append the URL string to render more specific content within your site.
 
@@ -45,10 +45,10 @@ The Incidents list offers a quick example of viewing a form within its own tab. 
     Explore all the options available within the right-click menu. Click through to the Incident form itself \(incident.do\) to see what the URL string does when parameters are passed into it.
 
 
--   **[Element link examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_Examples.md)**  
+-   **[Element link examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/c_Examples.md)**  
 View examples that show how to create a site pointing to various system data in several different data tables.
--   **[Page source view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/r_PageSourceView.md)**  
+-   **[Page source view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/r_PageSourceView.md)**  
 Use the tools available in your browser to view the frame source page and understand what URL address bars pass between system frame sets.
 
-**Parent Topic:**[Content Management integration points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_CMSIntegrationPoints.md)
+**Parent Topic:**[Content Management integration points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/c_CMSIntegrationPoints.md)
 

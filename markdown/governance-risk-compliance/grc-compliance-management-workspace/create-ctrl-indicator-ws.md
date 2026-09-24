@@ -3,11 +3,11 @@ title: Create a control indicator using the Compliance Workspace
 description: Indicator data for controls, risk, and audit evidence are measured differently depending on the GRC application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/create-ctrl-indicator-ws.html
-release: australia
+release: brazil
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manage control indicators using the Compliance Workspace, Use, GRC Compliance workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -61,7 +61,7 @@ Template
 
 </td><td>
 
-If you selected the **Inherit from template** check box, select the template you want to use to fill in the form. After you have selected a template, the rest of the fields in the Create New Indicator screen are pre-filled and set to Read-only. For more information, see [Create a GRC indicator template using the Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/create-grc-indicator-template-ws.md).
+If you selected the **Inherit from template** check box, select the template you want to use to fill in the form. After you have selected a template, the rest of the fields in the Create New Indicator screen are pre-filled and set to Read-only. For more information, see [Create a GRC indicator template using the Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-compliance-management-workspace/create-grc-indicator-template-ws.md).
 
 </td></tr><tr><td>
 
@@ -248,5 +248,5 @@ Supporting data fields based on the selected table.
 
 ## What to do next
 
-If you are implementing the [Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/policy-compliance-impl-checklist.md) software, you have completed the mandatory setup steps. Return to the [Policy and Compliance Management setup checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/policy-compliance-impl-checklist.md) and proceed to the optional steps, as needed.
+If you are implementing the [Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/policy-compliance-impl-checklist.md) software, you have completed the mandatory setup steps. Return to the [Policy and Compliance Management setup checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/policy-compliance-impl-checklist.md) and proceed to the optional steps, as needed.
 

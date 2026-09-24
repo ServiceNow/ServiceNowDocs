@@ -3,9 +3,9 @@ title: Public Sector Digital Services properties
 description: Use system properties to customize the Public Sector Digital Services application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-properties.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Getting Started with Public Sector, Set up your environment, Configure, Public Sector Digital Services \(PSDS\)]
 ---
@@ -18,5 +18,5 @@ These properties control settings for several different features, including comm
 
 You can also access Public Sector Digital Services properties using the system property \[sys\_properties\] table. Start by entering **sys\_properties.list** in the application navigator and selecting **Enter**. You can then filter the properties by application.
 
-For more information on the properties that are installed with Public Sector Digital Services, see [Properties installed with Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/properties-installed-with-psds.md)
+For more information on the properties that are installed with Public Sector Digital Services, see [Properties installed with Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/properties-installed-with-psds.md)
 

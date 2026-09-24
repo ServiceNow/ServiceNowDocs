@@ -3,9 +3,9 @@ title: Azure Data Factory metadata collector
 description: The Azure Data Factory metadata collector provides read-only access to metadata from an external Azure Data Factory account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/azure-data-factory-metadata-collector.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
 ---
@@ -187,10 +187,10 @@ The collector identifies the associated table in an upstream column where the da
 
 The Azure Data Factory collector authenticates using Azure Service Principal.
 
--   **[Prepare to run the Azure Data Factory collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-azure-data-factory-collector.md)**  
+-   **[Prepare to run the Azure Data Factory collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/prepare-to-run-azure-data-factory-collector.md)**  
 Set up Azure data assets, authentication, and permissions before running the collector.
--   **[Create an Azure Data Factory metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-azure-data-factory-metadata-collector.md)**  
+-   **[Create an Azure Data Factory metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-azure-data-factory-metadata-collector.md)**  
 Create a collector to import metadata from Azure Data Factory.
 
-**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-metadata-collectors-dc.md)
+**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-metadata-collectors-dc.md)
 

@@ -3,11 +3,11 @@ title: TCP integration configuration fields
 description: Description of the fields on the TCP integration configuration forms for Health Log Analytics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/il-connector-hla-tcp-fields.html
-release: australia
+release: brazil
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [TCP, data input, integration, configuration, field, description, ServiceNow, Health Log Analytics, HLA]
 breadcrumb: [Integration configuration fields, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
@@ -17,7 +17,7 @@ breadcrumb: [Integration configuration fields, Health Log Analytics reference, H
 
 Description of the fields on the TCP integration configuration forms for Health Log Analytics.
 
-For the TCP integration setup procedure, see [Set up a TCP integration for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/il-connector-hla-tcp.md).
+For the TCP integration setup procedure, see [Set up a TCP integration for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/il-connector-hla-tcp.md).
 
 <table id="table_sfp_25d_pcc"><thead><tr><th>
 
@@ -182,5 +182,5 @@ Line breaker delimiters
 The line break character separating the raw log lines.Splitting values must be separated by a comma followed by a space: ", ". For example: "\\r, \\n, , splitHere, \#".
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+</table>**Parent Topic:**[Integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)
 

@@ -3,9 +3,9 @@ title: Knowledge Health score
 description: The Knowledge Health Score measures the quality of knowledge articles and your knowledge bases using weighted scan metrics. The score helps you to identify and resolve content gaps that affect discovery and user trust.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-health-score.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Exploring Knowledge Center, Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,11 +24,11 @@ The Knowledge Health Score measures the quality of knowledge articles and your k
 
 ## Prerequisites
 
-You must enable [Enable article health score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-healthscore-calculation.md) property and [Enable article optimization recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/enable-ao-recommendations.md) skill to view knowledge health score.
+You must enable the [Enable article health score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-healthscore-calculation.md) property and [Enable article optimization recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-in-knowledge-management/enable-ao-recommendations.md) skill to view knowledge health score.
 
 ## How the Knowledge Health Score is calculated
 
-Each knowledge article is scanned against six quality parameters and assigned an article health score from 0 to 100. Knowledge Base scores are the average of all article scores within that Knowledge Base, and the score is the average of all aggregated Knowledge Base scores. See [Article health score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/healthscore-metrics.md) for the full parameter breakdown and weighted calculation.
+Each knowledge article is scanned against seven quality parameters and assigned an article health score from 0 to 100. Knowledge Base scores are the average of all article scores within that Knowledge Base, and the score is the average of all aggregated Knowledge Base scores. See [Article health score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/healthscore-metrics.md) for the full parameter breakdown and weighted calculation.
 
 ## Score aggregation across levels
 
@@ -38,7 +38,7 @@ Article scores aggregate upward through two additional levels:
 
     The article health score is a numeric value from 0 to 100 that represents the quality of a single knowledge article. It is calculated by scanning the article against six quality parameters and computing a weighted average of the results.
 
--   **Knowledge Base level**
+-   **Knowledge Base health**
 
     The average of all article health scores within a Knowledge Base selected by the user.
 
@@ -57,7 +57,9 @@ The view contains three sections:
 
 -   **Needs Attention**
 
-    Displays a health score indicator for the selected Knowledge Base and a set of issue cards, one for each scan parameter. Each card shows the parameter name and the number of articles affected by that finding. Select a card to filter the Articles list to only the articles affected by that parameter. The section updates dynamically when you change the Knowledge Base filter.
+    Displays a health score indicator for the selected Knowledge Base and a set of top six issue cards, one for each scan parameter. Each card shows the parameter name and the number of articles affected by that finding. Select a card to filter the Articles list to only the articles affected by that parameter. The section updates dynamically when you change the Knowledge Base filter.
+
+    Displays a duplicate articles card, showing the duplicate health score and topics needing attention. Select **Review Duplicates** to go directly to the articles that need fixes.
 
 -   **Knowledge bases**
 
@@ -88,9 +90,9 @@ The view contains three sections:
 **Related topics**  
 
 
-[Enable article optimization recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/enable-ao-recommendations.md)
+[Enable article optimization recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-in-knowledge-management/enable-ao-recommendations.md)
 
-[Enable article health score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-healthscore-calculation.md)
+[Enable article health score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/enable-healthscore-calculation.md)
 
-[View the Knowledge Health Score dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/view-knowledge-health-base.md)
+[View the Knowledge Health Score dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/view-knowledge-health-base.md)
 

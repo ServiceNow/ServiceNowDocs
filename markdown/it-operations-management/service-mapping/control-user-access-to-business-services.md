@@ -3,11 +3,11 @@ title: Control user access to application services
 description: Assign user roles to service groups to grant users access to application services in your organization. Your organization may restrict access to some services for security or secrecy reasons.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/control-user-access-to-business-services.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Application service completion, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -20,11 +20,11 @@ Assign user roles to service groups to grant users access to application service
 
 Make sure that you have performed the user provisioning tasks for the users you want to grant access:
 
-1.  [Add users to user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAGroup.md).
-2.  [Create new roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateARole.md).
-3.  [Assign roles to users or user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md).
+1.  [Add users to user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAGroup.md).
+2.  [Create new roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateARole.md).
+3.  [Assign roles to users or user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignRoleToGroup.md).
 
-Also, make sure that you have created service groups as described in [Group application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/organizing_services-into-groups.md).
+Also, make sure that you have created service groups as described in [Group application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/organizing_services-into-groups.md).
 
 Role required: app\_service\_admin or service\_mapping\_admin
 
@@ -134,7 +134,7 @@ To manage access to services that contain sensitive financial information in you
 
 As a result, only users with the Financial Services administrator role can access application services belonging to the Financial Services group.
 
-**Parent Topic:**[Application service completion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/advanced-business-service-definitions.md)
+**Parent Topic:**[Application service completion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/advanced-business-service-definitions.md)
 
 **Related topics**  
 

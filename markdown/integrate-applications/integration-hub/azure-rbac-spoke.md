@@ -3,7 +3,7 @@ title: Microsoft Azure RBAC Spoke
 description: Integrate ServiceNow instance with Microsoft Azure RBAC to manage roles and retrieve details about role assignments for groups and users.Also reuse this short description in the release notes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/azure-rbac-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept

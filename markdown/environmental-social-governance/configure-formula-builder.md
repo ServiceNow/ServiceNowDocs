@@ -3,9 +3,9 @@ title: Configure the formula builder
 description: Specify the formula context, the tables, and the identifiers before you can build a formula.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/configure-formula-builder.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Formula building in a calculated metric definition, Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -132,5 +132,5 @@ Preferred label of the secondary column selected.
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Formula building in a calculated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/formula-building-at-metric-definition-and-entity-level.md)
+**Parent Topic:**[Formula building in a calculated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/formula-building-at-metric-definition-and-entity-level.md)
 

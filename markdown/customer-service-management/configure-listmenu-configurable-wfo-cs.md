@@ -3,9 +3,9 @@ title: Configure a list menu to display in the Learning tab in Workforce Optimiz
 description: Add list or list categories to modify the list menu for Coaching with Learning in the Coaching application in Workforce Optimization for Customer Service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-listmenu-configurable-wfo-cs.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up Workforce Optimization Coaching, Optimize workforce operations, Extend capabilities, Configure, Customer Service Management]
 ---
@@ -16,9 +16,9 @@ Add list or list categories to modify the list menu for Coaching with Learning i
 
 ## Before you begin
 
-**Important:** This feature is available with the Workforce Optimization for CSM Configurable Workspace \(sn\_csm\_wfo\_workspa\) from the ServiceNow Store. To enable this feature, see [Activate Workforce Optimization for CS configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/request-configurable-wfo-cs.md).
+**Important:** This feature is available with the Workforce Optimization for CSM Configurable Workspace \(sn\_csm\_wfo\_workspa\) from the ServiceNow Store. To enable this feature, see [Activate Workforce Optimization for CS configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/request-configurable-wfo-cs.md).
 
-Set the map application scope to **Coaching With Learning**. For information on how to set the scope, see [Set map application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-map-application-scope.md).
+Set the map application scope to **Coaching With Learning**. For information on how to set the scope, see [Set map application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/set-map-application-scope.md).
 
 Role required: admin
 
@@ -26,9 +26,9 @@ Role required: admin
 
 1.  In the application navigator, enter `sys_ux_list_menu_config.list`.
 
-2.  Select **Learning list** record.
+2.  Click **Learning list** record.
 
-3.  Under UX list category, select **New**.
+3.  Under UX list category, click **New**.
 
 4.  Enter the following field values.
 
@@ -39,9 +39,9 @@ Role required: admin
     |Order|Enter a value to set the position of the list category in the current list.|
     |Active|Select the check box to make the list category visible.|
 
-5.  Select **Submit**.
+5.  Click **Submit**.
 
-6.  Under UX Lists, select **New** to create lists under that list category.
+6.  Under UX Lists, click **New** to create lists under that list category.
 
 7.  Enter the following field values.
 
@@ -52,10 +52,10 @@ Role required: admin
     |Configuration|Select **Learning List**.|
     |Columns|Select the columns that you want to display for the table.|
 
-8.  Select **Submit**.
+8.  Click **Submit**.
 
-9.  Select **Update**.
+9.  Click **Update**.
 
 
-**Parent Topic:**[Setting up Coaching in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-coaching-configurable-wfo-cs.md)
+**Parent Topic:**[Setting up Coaching in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/setup-coaching-configurable-wfo-cs.md)
 

@@ -3,11 +3,11 @@ title: Configure a communications template for SMS in Major Incident Management
 description: Configure a communication template for SMS in Major Incident Management to help reduce the efforts and time spent in creating and composing communication SMS.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-comm-template-sms-mim-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up communication templates and plans in Major Incident Management, Configuring Major Incident Management in Service Operations Workspace, Setting up Major Incident Management in Service Operations Workspace, Getting started with Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Configure a communication template for SMS in Major Incident Management to help 
 
 ## Before you begin
 
-Major Incident Management must be installed and activated in Service Operations Workspace. For more information, see [Activate Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/install-mim-sow.md).
+Major Incident Management must be installed and activated in Service Operations Workspace. For more information, see [Activate Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/install-mim-sow.md).
 
 Role required: admin
 
@@ -34,7 +34,7 @@ Role required: admin
 
 3.  In the **Communications Template** section, select **Configure SMS**.
 
-    The Notify SMS template page displays a list of available communication SMS templates. For more information on Notify, see [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify-landing-page.md).
+    The Notify SMS template page displays a list of available communication SMS templates. For more information on Notify, see [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/notify-landing-page.md).
 
 4.  Select **New**.
 

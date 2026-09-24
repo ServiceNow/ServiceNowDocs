@@ -3,12 +3,12 @@ title: Install the Google Chrome extension for adaptive desktop actions
 description: Install the ServiceNow Web Automation Chrome extension to the Google Chrome browser. The browser extension enables AI agents to interact with web applications during task execution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/na-ai-wa-install-browser-extension.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2025-09-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Google chrome extension]
-breadcrumb: [Adaptive desktop actions, Configure, AI Desktop Actions, Enable AI experiences]
+breadcrumb: [Adaptive desktop actions, Configure, AI Desktop Actions, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Install the Google Chrome extension for adaptive desktop actions
@@ -66,7 +66,7 @@ When you log out of the ServiceNow instance, the message `Disconnected` appears 
 
 ## What to do next
 
-After installing the browser extension, configure websites that AI agents can access for automating web tasks. For detailed instructions, see [Configure allowed websites for adaptive desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-wa-configure-allowed-websites.md).
+After installing the browser extension, configure websites that AI agents can access for automating web tasks. For detailed instructions, see [Configure allowed websites for adaptive desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/na-ai-wa-configure-allowed-websites.md).
 
-**Parent Topic:**[Configuration for adaptive path desktop actions for web](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ad-adaptive-path-da.md)
+**Parent Topic:**[Configuration for adaptive path desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ad-adaptive-path-da.md)
 

@@ -3,11 +3,11 @@ title: Mastercard Spoke
 description: Integrate your ServiceNow instance with Mastercard’s Mastercom API Suite \(MCOM\) and Mastercom Extended APIs \(MCOM Extended\) to manage the full card dispute lifecycle. Handle tasks such as searching transactions, creating claims, and processing chargebacks, pre-arbitration, and arbitration case filings efficiently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/mastercard-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -523,5 +523,5 @@ Use this endpoint to acknowledge a representment, which moves the claim to the W
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up Mastercard spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-mastercard-spoke.md)
+For information about setting up the spoke, see [Set up Mastercard spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/set-up-mastercard-spoke.md)
 

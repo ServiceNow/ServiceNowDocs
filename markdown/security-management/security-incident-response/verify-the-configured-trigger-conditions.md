@@ -3,11 +3,11 @@ title: Verify the Trigger Condition Filters
 description: Test the profile and verify that the trigger condition filters that you have configured are working as expected.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/verify-the-configured-trigger-conditions.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure profile, FireEye Endpoint Security integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

@@ -3,11 +3,11 @@ title: Financial Services Control accelerator
 description: The Financial Services Control Accelerator gives customers an operational head-start when adopting the Financial Services Control. When the accelerator is downloaded and activated in the GRC applications, pre-configured authority documents, citations, and control objectives.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/financial-services-control-accelerator.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [GRC use case accelerators, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -28,14 +28,14 @@ Beginning with the Zurich release, Financial Services Control Accelerator suppor
 
 Beginning with the Zurich release, Financial Services Control Accelerator supports the New York State Department Of Financial Services \(NYDFS\) Second Amendment to 23 NYCRR 500 content such as Authority Document, Citations, and Control Objectives.
 
-This accelerator also includes mapping of FFIEC and NYDFS control objectives and citations to CRI citations and control objectives. For more information, see [Cyber Risk Institute accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/cyber-risk-inst-accelerator.md).
+This accelerator also includes mapping of FFIEC and NYDFS control objectives and citations to CRI citations and control objectives. For more information, see [Cyber Risk Institute accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/cyber-risk-inst-accelerator.md).
 
 Prior to running the Financial Services Control Accelerator application, you must download and activate the following GRC applications:
 
 -   GRC: Policy and Compliance Management
 -   GRC: Profiles
 
-**Note:** Follow the instructions for [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/download-grc-first-time.md).
+**Note:** Follow the instructions for [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/download-grc-first-time.md).
 
 ## Financial Services Control Accelerator controls
 
@@ -80,5 +80,5 @@ The Control Objectives module provides a list of control objectives associated w
  The control objectives are stored in the Control Objective table \[sn\_compliance\_policy\_statement\].
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Governance, Risk, and Compliance use case accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-use-case-accelerators.md)
+</table>**Parent Topic:**[Governance, Risk, and Compliance use case accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/grc-use-case-accelerators.md)
 

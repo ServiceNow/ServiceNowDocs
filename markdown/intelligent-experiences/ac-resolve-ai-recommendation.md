@@ -3,12 +3,12 @@ title: Resolve an AI recommendation
 description: Address an issue or opportunity by running an unsupervised agent, working through a guided conversation with a supervised agent, or resolving the issue yourself.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ac-resolve-ai-recommendation.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Resolving AI recommendations, Address action items, AI Control Tower, Enable AI experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Resolving AI recommendations, Address action items, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Resolve an AI recommendation
@@ -33,15 +33,15 @@ Role required: sn\_ai\_asset\_mgmt.ai\_asset\_owner or sn\_ai\_governance.ai\_st
 
 4.  Resolve the recommendation using AI automation, AI review, or resolve the issue yourself.
 
-<table><thead><tr><th align="left" id="d56744e111">
+<table><thead><tr><th align="left" id="d54140e111">
 
 Option
 
-</th><th align="left" id="d56744e114">
+</th><th align="left" id="d54140e114">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d56744e120">
+</th></tr></thead><tbody><tr><td id="d54140e120">
 
 **Automate using AI**
 
@@ -52,7 +52,7 @@ Description
 3.  Monitor progress in the side panel. The **Focused** view shows the steps the agent is taking and the estimated time to complete. The recommendation status moves to **In progress** while the agent runs and to **Complete** when the agent is finished.
 
 
-</td></tr><tr><td id="d56744e156">
+</td></tr><tr><td id="d54140e156">
 
 **Review with AI**
 
@@ -62,7 +62,7 @@ Description
 2.  Close the conversation when the agent reports that the recommendation is resolved. The recommendation status moves to **Complete**.
 
 
-</td></tr><tr><td id="d56744e177">
+</td></tr><tr><td id="d54140e177">
 
 **Open**
 

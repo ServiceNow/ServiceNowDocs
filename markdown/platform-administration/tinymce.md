@@ -3,18 +3,16 @@ title: Configuring the TinyMCE toolbar via Dictionary attributes
 description: You can configure the TinyMCE HTML editor for a specific table by configuring the dictionary attributes.Set the toolbar items in your system properties to enable or disable throughout Workspace.Set the attributes in the TinyMCE dictionary to determine which TinyMCE attributes show in a specific table.Set the attributes in the TinyMCE dictionary to enable or disable plugins in a specific HTML field.Change the default height of a specific HTML field to expand the size of a journal field.Change the default font size of a specific HTML field to use a standard font size across forms.You can set a dictionary attribute on a TinyMCE field to allow the use of deprecated HTML tags, such as &lt;b&gt; and &lt;i&gt;. By default, TinyMCE uses the &lt;strong&gt; and &lt;em&gt; tags for bold and italic formatting.You can set a dictionary attribute on a TinyMCE field to allow the use of JavaScript in a URL.You can enable the menu bar on the TinyMCE HTML editor in both CoreUI and workspaces. When enabled, the menu bar appears on the top of the HTML editor which can be used to create, edit and format content. By default, the menu bar is inactive. You can enable it for a specific table via dictionary attribute configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/tinymce.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 12
+last_updated: "2026-09-10"
+reading_time_minutes: 11
 breadcrumb: [Configure a field editor for the HTML field, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Configuring the TinyMCE toolbar via Dictionary attributes
 
 You can configure the TinyMCE HTML editor for a specific table by configuring the dictionary attributes.
-
-For information on configuring the toolbar, see [Change the TinyMCE default toolbar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/tinymce.md). For information on configuring specific plugins, see [Change TinyMCE plugins for a specific table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/tinymce.md). For information on configuring the default height of an HTML field, see [Change the default height of an HTML field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/tinymce.md). For information on configuring the default font size in an HTML field, see [Change the default font size of an HTML field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/tinymce.md). For information on configuring the menu bar on the TinyMCE HTML editor, see [Configure the menu bar on the TinyMCE HTML editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/tinymce.md).
 
 ## Change the TinyMCE default toolbar
 
@@ -28,7 +26,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **System Properties** &gt; **UI Properties**.
 
-2.  Update the **Configures the editing toolbar for HTML fields\(TinyMCE v6.8.2\)** \(glide.ui.html.editor.toolbar\) property to add or remove buttons for the toolbar.
+2.  Update the **Configures the editing toolbar for HTML fields\(TinyMCE v8.3.0\)** \(glide.ui.html.editor.toolbar\) property to add or remove buttons for the toolbar.
 
     **Note:** Use a vertical bar \("\|"\) to add a section separator.
 

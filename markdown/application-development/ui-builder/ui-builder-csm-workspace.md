@@ -3,11 +3,11 @@ title: UI Builder and configurable workspaces
 description: Use UI Builder to create pages for your configurable workspace experiences.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/ui-builder-csm-workspace.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -26,5 +26,5 @@ The UI Builder home displays your available experiences under the **Experiences*
 
 \[Omitted image "home-screen-experiences.png"\] Alt text: The UI Builder home screen showing the experiences tab.
 
-**Parent Topic:**[Exploring UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-custom-experience.md)
+**Parent Topic:**[Exploring UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-custom-experience.md)
 

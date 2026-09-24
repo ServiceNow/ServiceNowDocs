@@ -3,9 +3,9 @@ title: Decouple Channel Management dependencies from WFO
 description: Decouple Channel Management from core Workforce Optimization \(WFO\) modules to support modular deployment, enabling independent updates or scaling of Channel Management without impacting other workforce engagement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/decouple-channel-management-dependencies-from-wfo.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Optimize workforce operations, Extend capabilities, Configure, Customer Service Management]
 ---
@@ -51,7 +51,7 @@ sn\_channel\_mgmt.user \(for the additional manager\)
 
 </td><td>
 
-The Manager can log into Agent Workspace and access the channel management module through role-based visibility, such as the sn\_channel\_mgmt.user role. The Manager can utilize Channel Management in Agent Workspace independently of the full WFO suite.For more details see [Configuring groups in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configuring-groups-wfo-itsm.md)
+The Manager can log into Agent Workspace and access the channel management module through role-based visibility, such as the sn\_channel\_mgmt.user role. The Manager can utilize Channel Management in Agent Workspace independently of the full WFO suite.For more details see [Configuring groups in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/configuring-groups-wfo-itsm.md)
 
 </td></tr></tbody>
 </table>## Channel Management \(New Menu in Agent Workspace\)
@@ -72,7 +72,7 @@ Role: sn\_channel\_mgmt.admin.
 
 Setting up demo data in Agent Workspace to showcase Channel Management features. The personas involved are an Agent and a Supervisor. The Supervisor creates a customer care assignment group and manage channel configurations and assignments. This group is associated with the customer care chats queue to manage inbound communication effectively. The demo data is provided within Agent Workspace, allowing users to view and interact with it to explore Channel Management functionalities. The validation process includes checking the addition of the new customer care group, populating group members, assigning roles, and ensuring all sections function properly.
 
-For more information on channel management for customer service in workforce optimization, see: [Channel Management in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/explore-channels-configurable-wfo-cs.md)
+For more information on channel management for customer service in workforce optimization, see: [Channel Management in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/explore-channels-configurable-wfo-cs.md)
 
-**Parent Topic:**[Optimize workforce operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-configurable-wfo-cs.md)
+**Parent Topic:**[Optimize workforce operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/setup-configurable-wfo-cs.md)
 

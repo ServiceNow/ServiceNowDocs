@@ -3,9 +3,9 @@ title: Create a contact or consumer using Lookup and verify
 description: An agent can create a contact or consumer from the Lookup and verify feature in the Contextual side panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/lookup-verify-create-contact.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
 ---
@@ -56,7 +56,7 @@ If an agent can't find a contact or consumer, they can create a record for that 
 **Related topics**  
 
 
-[Lookup and verify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/lookup-and-verify-overview.md)
+[Lookup and verify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/lookup-and-verify-overview.md)
 
-[Look up and verify a contact or consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/lookup-verify-contact-consumer.md)
+[Look up and verify a contact or consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/lookup-verify-contact-consumer.md)
 

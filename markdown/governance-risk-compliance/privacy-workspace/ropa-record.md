@@ -3,11 +3,11 @@ title: Processing activities
 description: A processing activity is a record that processes personal data. Examples of such records can be a business process or a business application of an organization that has personal information. Processing activities enable the privacy management teams to understand how personal information is being processed or used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/ropa-record.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -33,10 +33,10 @@ The following image shows the overview of a processing activity:\[Omitted image 
 
 **Note:** The policies and controls that appear on the **Overview** page of the processing activity are specific to Privacy Management.
 
--   **[Understanding processing activity hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/processing-activity-hierarchy.md)**  
+-   **[Understanding processing activity hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/processing-activity-hierarchy.md)**  
 Track how personal data flows across vendors, applications, and systems within and beyond a processing activity to identify and mitigate privacy-related risks.
--   **[Hierarchy tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/hierarchy-tab.md)**  
+-   **[Hierarchy tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/hierarchy-tab.md)**  
 The Hierarchy tab connects your processing activity to applications, vendors, companies, entities, business processes, and other activities. It builds a clear picture of how data moves through your organization.
 
-**Parent Topic:**[Exploring Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/explore-privacy-management.md)
+**Parent Topic:**[Exploring Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/explore-privacy-management.md)
 

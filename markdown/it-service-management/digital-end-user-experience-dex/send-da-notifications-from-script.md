@@ -3,13 +3,13 @@ title: Send a Desktop Assistant notification from server-side script
 description: Use DesktopAppNotificationUtils to send Desktop Assistant notifications to users from a server-side script.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/send-da-notifications-from-script.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customizing Desktop Assistant notifications using API parameters, Set up Desktop Assistant, Configure, Digital End-User Experience, IT Service Management]
+breadcrumb: [Customizing Desktop Assistant notifications using API parameters, Setting up Desktop Assistant, Configure, Digital End-User Experience, IT Service Management]
 ---
 
 # Send a Desktop Assistant notification from server-side script
@@ -52,7 +52,7 @@ Role required: sn\_dex\_desktop.admin or admin
     
     ```
 
-    For examples of sending Desktop Assistant notifications using `DesktopAppNotificationUtils`, see [Examples of Desktop Assistant notifications using DesktopAppNotificationUtils](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/examples-da-notifications-script-include.md).
+    For examples of sending Desktop Assistant notifications using `DesktopAppNotificationUtils`, see [Examples of Desktop Assistant notifications using DesktopAppNotificationUtils](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/examples-da-notifications-script-include.md).
 
 5.  Check the return value to confirm the API call was successful.
 
@@ -60,6 +60,6 @@ Role required: sn\_dex\_desktop.admin or admin
 
 6.  Verify that the notification was delivered to the Desktop Assistant client.
 
-    For more information, see [View Desktop Assistant notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/view-notifications.md). If the notification does not appear on the Desktop Assistant client, see [Troubleshoot Desktop Assistant notification delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/resolve-da-notification-issues.md).
+    For more information, see [View Desktop Assistant notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/view-notifications.md). If the notification does not appear on the Desktop Assistant client, see [Troubleshoot Desktop Assistant notification delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/resolve-da-notification-issues.md).
 
 

@@ -3,11 +3,11 @@ title: Reassign overdue Policy and Compliance Management attestations with the G
 description: Reassign overdue attestations to a member of your assignment group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/mobile-attestations.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing mobile experience for GRC Policy and Compliance, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -26,7 +26,7 @@ Reassign a record from the list. Alternatively, view the details of the record p
 
 ## Procedure
 
-1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-login-P-C-app.md).
+1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-login-P-C-app.md).
 
 2.  With the Policy and Compliance screen displayed, under the section titled, `Team's Overdue Work`, tap **Attestations**.
 
@@ -38,7 +38,7 @@ Reassign a record from the list. Alternatively, view the details of the record p
 
     \[Omitted image "mobile-attest-list.jpg"\] Alt text: Attestations list.
 
-3.  See [Filter records with the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-pc-set-filters.md) to search for records that match specific search criteria.
+3.  See [Filter records with the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-pc-set-filters.md) to search for records that match specific search criteria.
 
     Filtering records on screens in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform. Setting filters can reduce the number of records that are displayed on screens.
 
@@ -58,15 +58,15 @@ Reassign a record from the list. Alternatively, view the details of the record p
 
     \[Omitted image "mobile-attest-record.jpg"\] Alt text: Attestation record.
 
-<table id="choicetable_y2s_tlz_xhb"><thead><tr><th align="left" id="d357405e224">
+<table id="choicetable_y2s_tlz_xhb"><thead><tr><th align="left" id="d363119e224">
 
 Option
 
-</th><th align="left" id="d357405e227">
+</th><th align="left" id="d363119e227">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d357405e233">
+</th></tr></thead><tbody><tr><td id="d363119e233">
 
 **Tap the top menu icon**
 
@@ -74,7 +74,7 @@ Description
 
 Tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Top menu icon.\) to reassign the attestation.
 
-</td></tr><tr><td id="d357405e248">
+</td></tr><tr><td id="d363119e248">
 
 **Screen icons at the bottom of the screen.**
 
@@ -89,5 +89,5 @@ On the bottom of the screen, choose one to continue.-   Tap the Policy and Compl
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Managing mobile experience for GRC Policy and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-policy_compliance-ovrvw.md)
+**Parent Topic:**[Managing mobile experience for GRC Policy and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-policy_compliance-ovrvw.md)
 

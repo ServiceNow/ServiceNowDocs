@@ -3,13 +3,13 @@ title: Test your application
 description: Verify that your application works as intended before publishing by testing the application experience and flow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/app-tutorial-test-app.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [App creation tutorial, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [App creation tutorial, Build, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Test your application
@@ -36,7 +36,7 @@ Step 1
 
 </td><td>
 
-[Planning your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-introduction.md)
+[Planning your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-introduction.md)
 
 </td></tr><tr><td>
 
@@ -48,7 +48,7 @@ Step 2
 
 </td><td>
 
-[Create an app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-an-app.md)
+[Create an app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-create-an-app.md)
 
 </td></tr><tr><td>
 
@@ -60,7 +60,7 @@ Step 3
 
 </td><td>
 
-[Building a data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-data-model.md)
+[Building a data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-data-model.md)
 
 </td></tr><tr><td>
 
@@ -72,7 +72,7 @@ Step 4
 
 </td><td>
 
-[Creating user experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-experience-layer.md)
+[Creating user experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-experience-layer.md)
 
 </td></tr><tr><td>
 
@@ -84,7 +84,7 @@ Step 5
 
 </td><td>
 
-[Adding logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-logic-automation-layer.md)
+[Adding logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-logic-automation-layer.md)
 
 </td></tr><tr><td>
 
@@ -96,10 +96,10 @@ Step 6
 
 </td><td>
 
-[Test your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-test-app.md)
+[Test your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-test-app.md)
 
 </td></tr></tbody>
-</table>For more information about testing your application, see [Testing and debugging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/testing-and-debugging-applications.md).
+</table>For more information about testing your application, see [Testing and debugging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/testing-and-debugging-applications.md).
 
 Follow along with the tutorial to test the employee travel request application.
 
@@ -128,7 +128,7 @@ Follow along with the tutorial to test the employee travel request application.
     -   If your flow is already open, verify that your changes are saved.
 3.  Select **Activate**, then select **Activate** again to make your flow available to run.
 
-    **Note:** You can also test your flow without activating it by creating a test record within Workflow Studio. For more information about testing before activating your flow, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-test.md).
+    **Note:** You can also test your flow without activating it by creating a test record within Workflow Studio. For more information about testing before activating your flow, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-test.md).
 
     \[Omitted image "app-tutorial-activate-flow.png"\] Alt text: Select Activate within the Activate dialog to make your flow available to run.
 
@@ -190,7 +190,7 @@ Follow along with the tutorial to test the employee travel request application.
 
 17. Review the flow execution details to verify that your flow runs as intended.
 
-    The flow execution details page enables you to view detailed information about an action or flow, such as the run-time, current state, items run, and values produced. For more information about flow execution details, see [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-execution-details.md).
+    The flow execution details page enables you to view detailed information about an action or flow, such as the run-time, current state, items run, and values produced. For more information about flow execution details, see [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-execution-details.md).
 
 18. Perform additional tests to verify that the flow completes all desired branches of actions and flow logic.
 
@@ -235,5 +235,5 @@ Your have tested the employee travel request application and verified that it fu
 
 Congratulations! You have completed the app creation tutorial by planning, building, and testing an application.You are ready to start building your own applications in App Engine Studio.
 
-To see what tasks you could perform after building an application, such as publishing or managing app deployments, see [Publish your app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/publish-your-app.md).
+To see what tasks you could perform after building an application, such as publishing or managing app deployments, see [Publish your app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/publish-your-app.md).
 

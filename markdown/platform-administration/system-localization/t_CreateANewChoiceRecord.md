@@ -3,11 +3,11 @@ title: Create a language choice for users
 description: Allow users to select the language as a valid option in the language picker or a user record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/t\_CreateANewChoiceRecord.html
-release: australia
+release: brazil
 product: System Localization
 classification: system-localization
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Translating to an unsupported language, System Localization, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-You must create a choice record for a new translation in the Choice \[sys\_choice\] table. For more information about this table, see [Choice table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_ChoicesTable.md).
+You must create a choice record for a new translation in the Choice \[sys\_choice\] table. For more information about this table, see [Choice table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-localization/r_ChoicesTable.md).
 
 ## Procedure
 

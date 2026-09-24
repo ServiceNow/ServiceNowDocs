@@ -3,9 +3,9 @@ title: Manual metric definition fields
 description: Detailed explanation of the fields on the manual metric definition form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/manual-md-reuse.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Create a manual metric definition, Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -137,9 +137,9 @@ The system assigns the specified Data owner or Data owner group to the Metric.
 
 -   **Advanced**
 
-The system assigns a Data owner based on the assignment configuration. ESG admins \[sn\_esg.admin\] or Risk admins \[sn\_risk.admin\] can set assignment configurations to dynamically assign data owners. For more information on creating assignment configurations see, [Create an assignment configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-assign-config-mmd.md) and [Assignment Configuration New Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/assignment-configuration-new-record.md).
+The system assigns a Data owner based on the assignment configuration. ESG admins \[sn\_esg.admin\] or Risk admins \[sn\_risk.admin\] can set assignment configurations to dynamically assign data owners. For more information on creating assignment configurations see, [Create an assignment configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/create-assign-config-mmd.md) and .
 
-**Note:** This is available if you have the GRC: Approver Configurator application installed. For more information see, [Using Approver Configurator for setting up approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/approval-configuration.md).
+**Note:** This is available if you have the GRC: Approver Configurator application installed. For more information see, .
 
 
 </td></tr><tr><td>
@@ -220,7 +220,7 @@ Approver type
 Type of the approver of the metric definition. The choices are as follows:-   **User**
 -   **User group**
 
-**Note:** This field appears only when the Metric approval property is set to **Simple**. For more information see, [Components installed with Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/components-installed-with-esg.md).
+**Note:** This field appears only when the Metric approval property is set to **Simple**. For more information see, [Components installed with Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/components-installed-with-esg.md).
 
 </td></tr><tr><td>
 
@@ -231,7 +231,7 @@ Approver
 Approver user or approver group that is responsible to approve the metric definition. The choices are as follows:-   **Approver**: Displayed when the User option is selected.
 -   **Approver group**: Displayed when the User option is selected.
 
-**Note:** This field appears only when the Metric approval property is set to **Simple**. For more information see, [Components installed with Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/components-installed-with-esg.md).
+**Note:** This field appears only when the Metric approval property is set to **Simple**. For more information see, [Components installed with Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/components-installed-with-esg.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -268,7 +268,7 @@ Direction that you want to see the metric in. The choices are as follows:-   **N
 -   **Maximize**: If the desired metric direction is upward, select this option.
 -   **Milestone**: When the metric direction isn’t applicable, but the metric is tracked against a milestone, select this option.
 
-**Note:** Thresholds can be set for all directions. For more information on creating thresholds, see [Create a threshold for a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-threshold-for-a-metric.md).
+**Note:** Thresholds can be set for all directions excluding **Milestone**. For more information on creating thresholds, see [Create a threshold for a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/create-a-threshold-for-a-metric.md)
 
 </td></tr><tr><td>
 
@@ -365,5 +365,5 @@ Allowed groups
 Groups that can view the record.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a manual metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-manual-metric-definition.md)
+</table>**Parent Topic:**[Create a manual metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/create-manual-metric-definition.md)
 

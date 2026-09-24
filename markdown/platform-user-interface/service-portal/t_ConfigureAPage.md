@@ -3,11 +3,11 @@ title: Create and edit a page using the Service Portal Designer
 description: Create or edit a page and use layouts to organize the columns that house the widgets.Select a container record to serve as a page subheader. A subheader sticks to the page header and does not scroll.Include font icons on a page so that all the widgets on the page have access to the font-icon set.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/t\_ConfigureAPage.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-04-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Creating portal pages, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -40,13 +40,13 @@ These steps are intended for users with little to no coding experience. The Serv
 
 6.  Drag one of the other layouts and drop it in the container.
 
-    This layout defines the structure of your page and the space available to drop widgets. The structure of the layout aligns with the Bootstrap grid template and adds up to 12.
+    This layout defines the structure of your page and the space available to drop widgets. The structure of the layout aligns with the Bootstrap grid template and always adds up to 12.
 
 7.  Use the filter to search for a widget, then drag the widget to the layout.
 
     \[Omitted image "ConfigurePage.gif"\] Alt text: Gif showing how to drag containers, layouts, then widgets onto a page
 
-    For widgets that do not contain any information by default, you must configure the options for their widget instances before they will appear on a portal page. For more information about configuring widget instance options, see [Configure widget instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_ConfigureWidgetInstances.md).
+    For widgets that do not contain any information by default, you must configure the options for their widget instances before they will appear on a portal page. For more information about configuring widget instance options, see [Configure widget instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/c_ConfigureWidgetInstances.md).
 
 8.  Edit page properties.
 
@@ -136,7 +136,7 @@ Dynamic page title
 
 Create variables to generate descriptive titles depending on the content loaded into a page.
 
- For more information, see [Add dynamic titles to a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/add-page-title.md).
+ For more information, see [Add dynamic titles to a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/add-page-title.md).
 
 </td></tr><tr><td>
 
@@ -144,7 +144,7 @@ Clone Page
 
 </td><td>
 
-Enables you to make a copy of a page that can be modified. If you copy a base system page, a new widget instance is created for each widget on the page.
+Enables you to make a copy of a page that can be modified. If you clone a base system page, a new widget instance is created for each widget on the page.
 
 </td></tr><tr><td>
 
@@ -154,7 +154,7 @@ Use SEO script
 
 Option to enable a script include that adds SEO tags for canonical URLs and hreflang tags.
 
- For more information, see [Enable SEO for localized versions of a portal page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/seo-header-tags.md).
+ For more information, see [Enable SEO for localized versions of a portal page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/seo-header-tags.md).
 
 </td></tr><tr><td>
 
@@ -172,7 +172,7 @@ Human readable URL structure
 
 Add human readable keywords to the page URL to improve search engine optimization \(SEO\) and click-through rates for public pages. Human readable URLs also help users understand what to expect on a page for public and non-public pages. For example, `https://<instance>/kb/en/faq/what-is-a-cookie?id=kb_article_view&sysparm_article=KB0000007`.
 
- For more information, see [Add human readable keywords to page URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/add-human-readable-keywords-page-urls.md).
+ For more information, see [Add human readable keywords to page URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/add-human-readable-keywords-page-urls.md).
 
 </td></tr></tbody>
 </table>9.  Edit container properties.
@@ -234,7 +234,7 @@ Semantic tag
 The semantic HTML tag that includes the container. Options include:-   None: All content on the page between the header and footer is included in the **&lt;main&gt;** tag.
 -   Main: The **&lt;main&gt;** tag includes only the container and its contents. The **&lt;main&gt;** tag is a semantic HTML element that contains the main content of the page. It should be applied to content that is unique to the page and should be configured for only one element on the page.
 
-**Note:** The **&lt;main&gt;** tag can be applied to a container, row, or column. For more information, see [Configure the main tag on a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-main-tag-on-page.md).
+**Note:** The **&lt;main&gt;** tag can be applied to a container, row, or column. For more information, see [Configure the main tag on a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/configure-main-tag-on-page.md).
 
 -   Header: The &lt;header&gt; tag is used as introductory content. It can be used multiple times per page, including inside an &lt;article&gt; tag.
 -   Nav: The &lt;nav&gt; tag is used in page-level navigation. It can be used multiple times in each page.
@@ -325,7 +325,7 @@ Move to header
 
 </td><td>
 
-When selected, the container sticks to the header and doesn’t scroll. Use this option to create a subheader.
+If selected, the container sticks to the header and doesn’t scroll. Use this option to create a subheader.
 
 </td></tr></tbody>
 </table>10. To switch to a different page, select the **Pages** tab in the left pane, then select the next page you want to configure.
@@ -334,10 +334,10 @@ When selected, the container sticks to the header and doesn’t scroll. Use this
 
     You can also use **Preview** to view your page in mobile or tablet mode through the controls presented in the header.
 
-    \[Omitted image "DesignerIPadView.png"\] Alt text: Page preview with the iPad view mode selected.
+    \[Omitted image "DesignerIPadView.png"\] Alt text: Page preview with the iPad view mode selected
 
 
-**Parent Topic:**[Creating portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_Pages.md)
+**Parent Topic:**[Creating portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/c_Pages.md)
 
 ## Add a subheader to a page
 

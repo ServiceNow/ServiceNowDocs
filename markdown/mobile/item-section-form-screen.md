@@ -3,9 +3,9 @@ title: Configure a record UI section for a record screen
 description: Enrich your record screen with the addition of record UI sections displayed in a card format. This capability presents content and users can trigger actions without the need to navigate to an additional list screen.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/item-section-form-screen.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Record screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -16,7 +16,7 @@ Enrich your record screen with the addition of record UI sections displayed in a
 
 ## Before you begin
 
-At least one pre-configured record UI section must be created. For more information, see [Configure a record UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-ui-section-config-item.md).
+At least one pre-configured record UI section must be created. For more information, see [Configure a record UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-ui-section-config-item.md).
 
 Role required: admin
 
@@ -35,7 +35,7 @@ Role required: admin
 
             **Note:** The icon selected is not displayed in this configuration.
 
-        3.  **Fetch Type**: Select either `Prefetch`, `On-demand`, or `Background` as required according to your setup. For more information about these options, see [Mobile fetch types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/applet-fetch-types.md).
+        3.  **Fetch Type**: Select either `Prefetch`, `On-demand`, or `Background` as required according to your setup. For more information about these options, see [Mobile fetch types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/applet-fetch-types.md).
     4.  Right-click in the header and select **Save**.
 
 2.  Add record UI sections to the selected section screen.

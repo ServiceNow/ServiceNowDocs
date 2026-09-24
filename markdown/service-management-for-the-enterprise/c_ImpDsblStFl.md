@@ -3,9 +3,9 @@ title: Implications of disabling SM state flows
 description: State flows are used by SM applications to control how a work order or request automatically transitions from one state to the next. When state flows are disabled, various aspects of the ServiceNow system are also changed, as described here.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/c\_ImpDsblStFl.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Service management states, Service Management]
 ---
@@ -54,8 +54,8 @@ When state flows are disabled, the state transition-related behavior of the foll
         -   **Agent must accept or reject the assigned task** is disabled.
         -   **Use dispatch queue** is disabled.
 
--   **[Re-enable state flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_ReEnableStateFlows.md)**  
+-   **[Re-enable state flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-management-for-the-enterprise/t_ReEnableStateFlows.md)**  
 When service management state flows have been disabled, they cannot be re-enabled from the user interface.
 
-**Parent Topic:**[Service management states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_ServiceManagementStates.md)
+**Parent Topic:**[Service management states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-management-for-the-enterprise/c_ServiceManagementStates.md)
 

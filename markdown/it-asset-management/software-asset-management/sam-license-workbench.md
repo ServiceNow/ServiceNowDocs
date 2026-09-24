@@ -3,13 +3,13 @@ title: Software license usage
 description: Review reconciliation results in a simplified workbench view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/sam-license-workbench.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Use SAM Core UI, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Using Software Asset Management classic, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software license usage
@@ -56,7 +56,7 @@ By default, the navigation tree on the publisher license overview page is collap
 
 Publisher: Product Results related lists:
 
--   [Software Model Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_ViewSWModelResults.md)
+-   [Software Model Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/t_ViewSWModelResults.md)
 -   Licensed Installs
 -   Unlicensed Installs \(SAP: Unlicensed Users or Unlicensed Engines\)
 -   Unlicensed Subscriptions \(Subscription-based software\)
@@ -67,7 +67,7 @@ Software Model Results related lists:
 -   License Metric Results
 -   Remediation Options: The **Rights Needed By** tab is not visible for the Resource Value Unit \(RVU\) IBM license metric. Rights are not used by individual devices, as the Resource Value Unit \(RVU\) license metric is licensed at the product level.
 
-    **Note:** For more details on the remediation options, see [View software model results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_ViewSWModelResults.md).
+    **Note:** For more details on the remediation options, see [View software model results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/t_ViewSWModelResults.md).
 
 -   Licensed Installs
 -   Unlicensed Installs \(SAP: Unlicensed Users\)
@@ -330,7 +330,7 @@ Edition Flexibility Applied
 
 Indicates if the edition flexibility benefits provided by Microsoft Azure for Windows Server and SQL Server is applied or not.
 
-**Note:** For details on the edition flexibility benefits, refer to [Licensing rules for BYOL and BYOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/byol-license-rules.md).
+**Note:** For details on the edition flexibility benefits, refer to [Licensing rules for BYOL and BYOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/byol-license-rules.md).
 
  This field appears only if you have cloud installations on AWS or Azure.
 
@@ -373,14 +373,14 @@ Allocations needed
 Number of allocations needed for compliance. Only used for Per Named User and Per Named Device license metrics.
 
 </td></tr></tbody>
-</table>-   **[Run software reconciliation in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_RunReconciliation.md)**  
+</table>-   **[Run software reconciliation in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/t_RunReconciliation.md)**  
 Reconciliation is run as a scheduled job \(default is weekly\), but you can also run reconciliation manually to reconcile software products in your environment on demand.
--   **[View software model results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_ViewSWModelResults.md)**  
+-   **[View software model results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/t_ViewSWModelResults.md)**  
 View compliance information for software model results from the Product Results list after reconciliation is run.
--   **[Add a software removal candidate in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddAReclCandidate.md)**  
+-   **[Add a software removal candidate in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/t_AddAReclCandidate.md)**  
 Removal candidates reclaim software resources in your environment. They are created from reclamation rules, or can be created manually.
--   **[Reconciliation and product results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/Recon-swmodelresults-classic.md)**  
+-   **[Reconciliation and product results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/Recon-swmodelresults-classic.md)**  
 Field descriptions for the reconciliation results, product results, and software product results.
 
-**Parent Topic:**[Using Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-classic.md)
+**Parent Topic:**[Using Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/using-sam-classic.md)
 

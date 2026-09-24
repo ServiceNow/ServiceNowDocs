@@ -3,11 +3,11 @@ title: Map related articles
 description: Discover similar information across articles on a topic while viewing an article. You can manually map related articles or have the application automatically present related articles using machine learning \(ML\) algorithms.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/map-related-articles.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,7 +26,7 @@ To edit the article, you must have knowledge contributor access for the associat
 
 If you have manually mapped related articles when editing an article, those articles are listed in the Related Articles section on the knowledge article view page before the related articles that are predicted thorough the Knowledge Management similarity solution.
 
-**Note:** An administrator can train the solution definition for Knowledge Management within the Predictive Intelligence feature to find related articles. For more information, see [Train the similarity solution for Knowledge Management to find related articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/train-similarity-solution-km.md).
+**Note:** An administrator can train the solution definition for Knowledge Management within the Predictive Intelligence feature to find related articles. For more information, see [Train the similarity solution for Knowledge Management to find related articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/train-similarity-solution-km.md).
 
 This task provides steps to manually map related articles when editing an article.
 
@@ -45,14 +45,14 @@ This task provides steps to manually map related articles when editing an articl
     **Note:** Knowledge administrators can configure the number of articles shown in the Related Articles section using the instance options.
 
 
-**Parent Topic:**[Creating and maintaining articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/creating-and-maintaining-articles.md)
+**Parent Topic:**[Creating and maintaining articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/creating-and-maintaining-articles.md)
 
 **Related topics**  
 
 
-[Edit a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/edit-knowledge-article.md)
+[Edit a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/edit-knowledge-article.md)
 
-[Train the similarity solution for Knowledge Management to find related articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/train-similarity-solution-km.md)
+[Train the similarity solution for Knowledge Management to find related articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/train-similarity-solution-km.md)
 
-[Configure knowledge related articles widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configure-related-articles-widget.md)
+[Configure knowledge related articles widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/configure-related-articles-widget.md)
 

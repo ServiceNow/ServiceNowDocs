@@ -3,11 +3,11 @@ title: Associate a work or planning item with goals or targets
 description: Create a goal or target relationship with a work, planning, strategic, or any other item to identify and associate your current or future work and achieve your goals and targets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/goal-framework/associate-work-with-goals.html
-release: australia
+release: brazil
 product: Goal Framework
 classification: goal-framework
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Manage goals, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
@@ -42,15 +42,15 @@ You can associate a goal or target with only one of the work items \(Project, De
 
 3.  Create a goal or target relationship with a work or planning item using the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d313055e139">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d314391e139">
 
 Option
 
-</th><th align="left" id="d313055e142">
+</th><th align="left" id="d314391e142">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d313055e148">
+</th></tr></thead><tbody><tr><td id="d314391e148">
 
 **To create a relationship with a project**
 
@@ -65,7 +65,7 @@ Steps
     2.  In the **Planning item** field, enter the required project.
 
 
-</td></tr><tr><td id="d313055e210">
+</td></tr><tr><td id="d314391e210">
 
 **To create a relationship with a demand**
 
@@ -80,7 +80,7 @@ Steps
     2.  In the **Planning item** field, enter the required demand.
 
 
-</td></tr><tr><td id="d313055e272">
+</td></tr><tr><td id="d314391e272">
 
 **To create a relationship with a program**
 
@@ -92,7 +92,7 @@ Steps
 4.  \(For PPM users\) On the Goal/Target Relationship form, enter the required program in the **Program** field.
 
 
-</td></tr><tr><td id="d313055e311">
+</td></tr><tr><td id="d314391e311">
 
 **To create a relationship with a scrum feature**
 
@@ -103,7 +103,7 @@ For Agile Development 2.0 users only.1.  Click the Features related list.
 3.  On the Goal/Target Relationship form, enter the required scrum feature in the **Feature** field.
 
 
-</td></tr><tr><td id="d313055e342">
+</td></tr><tr><td id="d314391e342">
 
 **To create a relationship with a scrum or SAFe epic**
 
@@ -118,7 +118,7 @@ For Agile Development 2.0 users only.1.  Click the Features related list.
     2.  In the **Planning item** field, enter the required epic.
 
 
-</td></tr><tr><td id="d313055e413">
+</td></tr><tr><td id="d314391e413">
 
 **To create a relationship with a SAFe Feature**
 
@@ -130,7 +130,7 @@ For Agile Development 2.0 users only.1.  Click the Features related list.
 4.  \(For Agile Development 2.0 and SAFe users\) On the Goal/Target Relationship form, enter the required scrum or SAFe feature in the **Feature** field.
 
 
-</td></tr><tr><td id="d313055e461">
+</td></tr><tr><td id="d314391e461">
 
 **To create a relationship with any item other than work, planning, or strategic item**
 

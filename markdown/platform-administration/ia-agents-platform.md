@@ -3,9 +3,9 @@ title: AI agents in ServiceNow Otto for Setup
 description: Refer to the following information about the Platform AI agents in ServiceNow Otto for Setup.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-agents-platform.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-04-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -71,5 +71,5 @@ SSO Configuration Agent
 Automates Single Sign-On setup \(OIDC and SAML\) in ServiceNow using identity provider configuration data. Supports Q&amp;A and troubleshooting throughout the setup process.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow Otto for Setup references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-reference.md)
+</table>**Parent Topic:**[ServiceNow Otto for Setup references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ia-reference.md)
 

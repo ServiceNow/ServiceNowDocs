@@ -3,11 +3,11 @@ title: Control access at the knowledge base level through user criteria
 description: You specify user criteria for a knowledge base to control which users are granted access to read and contribute knowledge articles to that knowledge base.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/t\_SelectUserCriteria.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Managing access to knowledge bases and knowledge articles, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,15 +20,15 @@ You specify user criteria for a knowledge base to control which users are grante
 
 Role required: knowledge\_manager, knowledge\_admin, or admin
 
-**Note:** To administer a scoped knowledge base, you must have the application-specific admin role in addition to the knowledge\_admin or admin role. For more information, see [Scoped knowledge bases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/scoped-knowledge-base-administration.md).
+**Note:** To administer a scoped knowledge base, you must have the application-specific admin role in addition to the knowledge\_admin or admin role. For more information, see [Scoped knowledge bases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/scoped-knowledge-base-administration.md).
 
 ## About this task
 
-You can assign user criteria to control read or contribute access. For example, you could enable all users in your Support department to have contribute access to a knowledge base by creating a user criteria record with the required department set to Support, and then including the user criteria record in the Can Contribute user criteria. For more information, see [Managing access to knowledge bases and knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/user-access-knowledge.md). Try to use only user criteria, which were introduced in Knowledge Management v3, to control access to knowledge bases. Roles were used for this purpose in Knowledge Management v2.
+You can assign user criteria to control read or contribute access. For example, you could enable all users in your Support department to have contribute access to a knowledge base by creating a user criteria record with the required department set to Support, and then including the user criteria record in the Can Contribute user criteria. For more information, see [Managing access to knowledge bases and knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/user-access-knowledge.md). Try to use only user criteria, which were introduced in Knowledge Management v3, to control access to knowledge bases. Roles were used for this purpose in Knowledge Management v2.
 
 **Note:**
 
-Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-service-portal-pages.md).
+Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/knowledge-service-portal-pages.md).
 
 ## Procedure
 
@@ -47,7 +47,7 @@ Starting with the Washington DC release, the Knowledge Management v3 homepage \(
         |Can Contribute|Users can create, modify, and retire knowledge articles in a knowledge base. Contribute access to a knowledge base also provides read access to all articles in the knowledge base.|
         |Cannot Contribute|Users can't create, modify, retire, or read knowledge articles in the knowledge base.|
 
-        **Note:** If the related lists aren't visible, configure the Knowledge form to display them. For more information, see [Add a related list to a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+        **Note:** If the related lists aren't visible, configure the Knowledge form to display them. For more information, see [Add a related list to a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).
 
     2.  In the selected related list, add the required user criteria.
 
@@ -58,18 +58,18 @@ Starting with the Washington DC release, the Knowledge Management v3 homepage \(
 
 ## What to do next
 
-After you add user criteria, you can use the user criteria diagnostics feature to verify the access that users have to a knowledge base or a knowledge article. For more information, see [User criteria diagnostics for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/diagnose-knowledge-user-criteria.md).
+After you add user criteria, you can use the user criteria diagnostics feature to verify the access that users have to a knowledge base or a knowledge article. For more information, see [User criteria diagnostics for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/diagnose-knowledge-user-criteria.md).
 
 **Important:** After making user criteria additions or changes, you may need to log out and log back in to clear the prior configuration.
 
-**Parent Topic:**[Managing access to knowledge bases and knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/user-access-knowledge.md)
+**Parent Topic:**[Managing access to knowledge bases and knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/user-access-knowledge.md)
 
 **Related topics**  
 
 
-[Create a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-a-knowledgebase.md)
+[Create a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/create-a-knowledgebase.md)
 
-[Create user criteria for controlling access to knowledge bases and articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-user-criteria-record-in-knowledge-management.md)
+[Create user criteria for controlling access to knowledge bases and articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/create-user-criteria-record-in-knowledge-management.md)
 
-[Control access at the knowledge article level through user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_SelectUCArticle.md)
+[Control access at the knowledge article level through user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/t_SelectUCArticle.md)
 

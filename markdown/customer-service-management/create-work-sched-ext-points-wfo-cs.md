@@ -3,9 +3,9 @@ title: Create extension points for Work scheduler
 description: Create extension points to customize your implementation in Work scheduler. For example, if you want your team members to work on an on-site task, you can configure the location of your team members to the work items assigned to them so that they can get to the tasks quickly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-work-sched-ext-points-wfo-cs.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up Work scheduler, Optimize workforce operations, Extend capabilities, Configure, Customer Service Management]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Setting up Work scheduler, Optimize workforce operations, Extend ca
 Create extension points to customize your implementation in Work scheduler. For example, if you want your team members to work on an on-site task, you can configure the location of your team members to the work items assigned to them so that they can get to the tasks quickly.
 
 ## Before you begin
+
+**Important:**
+
+Starting with the Brazil release, Work scheduler is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Role required: admin
 
@@ -35,5 +39,5 @@ The **WorkItemSkillsRecommendationManager** extension point is available by defa
 4.  Define the functions based on your needs to customize your implementation.
 
 
-**Parent Topic:**[Setting up Work scheduler in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-work-scheduler-wfo-cs.md)
+**Parent Topic:**[Setting up Work scheduler in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/setting-up-work-scheduler-wfo-cs.md)
 

@@ -3,11 +3,11 @@ title: Assign tasks to yourself based on Intelligent Task Recommendation
 description: Assign the best available recommended task to yourself so that you can fill a gap in your schedule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/recommend-task-fsm-mobile.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Prioritizing on ServiceNow Agent, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: wm\_agent
 
 ## About this task
 
-The Intelligent Task Recommendation feature automatically recommends you the task with the highest recommendation score only when your administrator activates the Field Service Intelligent Task Recommendation plugin. For more information, see [Activate Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/activate-intelligent-task-recommendation.md).
+The Intelligent Task Recommendation feature automatically recommends you the task with the highest recommendation score only when your administrator activates the Field Service Intelligent Task Recommendation plugin. For more information, see [Activate Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/activate-intelligent-task-recommendation.md).
 
 As an agent, you can log in to the Now® Mobile Agent application to view the recommended task and assign the task to yourself.
 
@@ -50,9 +50,9 @@ The task with the highest recommendation score is automatically assigned to you.
 **Related topics**  
 
 
-[Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-task-recommendation.md)
+[Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/fsm-task-recommendation.md)
 
-[Configuring Intelligent Task Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/administer-task-recommendations.md)
+[Configuring Intelligent Task Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/administer-task-recommendations.md)
 
-[Assign work order tasks to agents using Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/manage-work-order-tasks-dw.md)
+[Assign work order tasks to agents using Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/manage-work-order-tasks-dw.md)
 

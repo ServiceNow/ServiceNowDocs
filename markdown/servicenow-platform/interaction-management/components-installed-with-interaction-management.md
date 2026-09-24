@@ -3,11 +3,11 @@ title: Components installed with Interaction Management
 description: Several types of components are installed with activation of the Interaction Logging, Routing, and Queueing plugin, including tables and user roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/interaction-management/components-installed-with-interaction-management.html
-release: australia
+release: brazil
 product: Interaction Management
 classification: interaction-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Interaction Management reference, Interaction Management, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Interaction Management reference, Interaction Management, Manage pe
 
 Several types of components are installed with activation of the Interaction Logging, Routing, and Queueing plugin, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 ## Roles installed
 
@@ -92,5 +92,5 @@ Interaction related record\[interaction\_related\_record\]
 List of related records that have been associated with an interaction.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Interaction Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/interaction-management-reference.md)
+</table>**Parent Topic:**[Interaction Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/interaction-management/interaction-management-reference.md)
 

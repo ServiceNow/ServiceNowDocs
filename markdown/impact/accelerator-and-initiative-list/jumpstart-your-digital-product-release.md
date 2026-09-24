@@ -3,12 +3,12 @@ title: Jumpstart Your Digital Product Release
 description: This Accelerator provides a demonstration of the possibilities and capabilities of ServiceNow's Digital Product Release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-digital-product-release.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
@@ -27,12 +27,15 @@ Jumpstart Your Digital Product Release \(DPR\) provides Impact customers with a 
 ## What You Get
 
 -   **Session Preparation**
-    -   Provision a temporary instance
-    -   Activate and configure components of Digital Product Release:
+
+    The Technical Accelerator Consultant:
+
+    -   Provisions a temporary instance
+    -   Activates and configures components of Digital Product Release:
         -   Plugins
         -   Updates
         -   Foundation data
-    -   Load product demonstration data into instance
+    -   Loads product demonstration data into instance
 -   **Customer Coaching Session \#1 \(up to 1.5 hours\)**
 
     Includes the following:
@@ -44,11 +47,13 @@ Jumpstart Your Digital Product Release \(DPR\) provides Impact customers with a 
         -   Configuration
         -   Usage
     -   Review leading practices with Digital Product Release and implementation guidance
-    -   Temporary instance provided with 30 days access
 -   **Customer Coaching Session \#2 \(Optional upon Customer request-up to 1 hour\)**
 
     Opportunity for Q&amp;A related to Digital Product Release
 
+-   **Output**
+    -   30-day access to the temporary instance and Technical Accelerator Consultant with whom you met for any further questions or in-depth explorations
+    -   Copy of the Coaching Session Deck
 
 ## Requested Customer Resources
 
@@ -63,4 +68,8 @@ Jumpstart Your Digital Product Release \(DPR\) provides Impact customers with a 
 ## Requested Information/Access
 
 **Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
+
+## Exclusions
+
+ServiceNow is not responsible for implementing recommendations on Customer’s sub-production or production instances.
 

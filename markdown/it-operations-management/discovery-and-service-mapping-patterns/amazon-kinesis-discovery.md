@@ -3,11 +3,11 @@ title: AWS Kinesis discovery with Patterns
 description: The ServiceNow Discovery application uses the Amazon Kinesis discovery pattern to find Kinesis services available on Amazon Web Services \(AWS\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/amazon-kinesis-discovery.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -89,5 +89,5 @@ The status of the stream.
 |AWS Kinesis Firehose|Hosted on::Hosts|AWS Datacenter|
 |AWS Kinesis Data Analytics|Hosted on::Hosts|AWS Datacenter|
 
-**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
+**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 

@@ -3,9 +3,9 @@ title: Embed images in the HTML editor
 description: You can use the HTML field image picker to embed images into HTML fields, and to add images to the image library.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_EmbeddingImagesInHTMLFields.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Extended functions in HTML field editor, Configure the HTML toolbar, Configure a field editor for the HTML field, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -20,7 +20,7 @@ Role required: the role necessary to update the record that contains the HTML fi
 
 ## About this task
 
-**Note:** Administrators and users with the image\_admin role manage the image library at **System UI** &gt; **Images**. See [Storing images in the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_StoringImagesInTheDatabase.md) .
+**Note:** Administrators and users with the image\_admin role manage the image library at **System UI** &gt; **Images**. See [Storing images in the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_StoringImagesInTheDatabase.md) .
 
 ## Procedure
 

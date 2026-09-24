@@ -3,11 +3,11 @@ title: Define a service fulfillment step
 description: Define how a catalog item request should be fulfilled by creating simple service fulfillment steps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/create-sf-step.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Create a catalog item using a template, Creating or editing catalog item template, Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -114,7 +114,7 @@ Condition
 
 </td><td>
 
-Condition that defines whether the step must run. The options on which a condition can be applied are the questions that are available on the catalog item for which you’re creating the service fulfillment steps. For information on questions, see the [Create a catalog item using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-item-cat-builder.md) topic.
+Condition that defines whether the step must run. The options on which a condition can be applied are the questions that are available on the catalog item for which you’re creating the service fulfillment steps. For information on questions, see the [Create a catalog item using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/create-item-cat-builder.md) topic.
 
 </td></tr></tbody>
 </table>        2.  Click **Add**.
@@ -183,7 +183,7 @@ Condition
 
 </td><td>
 
-Condition that defines whether the step must run. The options on which a condition can be applied are the questions that are available on the catalog item for which you’re creating the service fulfillment steps. For information on questions, see the [Create a catalog item using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-item-cat-builder.md) topic.
+Condition that defines whether the step must run. The options on which a condition can be applied are the questions that are available on the catalog item for which you’re creating the service fulfillment steps. For information on questions, see the [Create a catalog item using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/create-item-cat-builder.md) topic.
 
 </td></tr></tbody>
 </table>        3.  Click **Add**.
@@ -222,7 +222,7 @@ Condition
 
 </td><td>
 
-Condition that defines whether the step must run. The options on which a condition can be applied are the questions that are available on the catalog item for which you’re creating the service fulfillment steps. For information on questions, see the [Create a catalog item using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-item-cat-builder.md) topic.
+Condition that defines whether the step must run. The options on which a condition can be applied are the questions that are available on the catalog item for which you’re creating the service fulfillment steps. For information on questions, see the [Create a catalog item using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/create-item-cat-builder.md) topic.
 
 </td></tr></tbody>
 </table>        3.  Click **Add**.
@@ -255,5 +255,5 @@ Condition that defines whether the step must run. The options on which a conditi
     To add a stage, simply select the **Add stage** button that appears between steps.
 
 
-**Parent Topic:**[Create a catalog item using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-item-cat-builder.md)
+**Parent Topic:**[Create a catalog item using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/create-item-cat-builder.md)
 

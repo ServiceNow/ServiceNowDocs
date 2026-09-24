@@ -3,11 +3,11 @@ title: Using Agent Affinity
 description: Agent Affinity is an Advanced Work Assignment feature that lets you assign work items by an agent's work history, related task, or account team affinity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-agent-affinity-concept.html
-release: australia
+release: brazil
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---

@@ -3,9 +3,9 @@ title: Default design access permissions
 description: By default, new application tables prevent other application scopes from creating configuration records on application data tables. This prevents any other applications from changing the functionality of a table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/c\_DefaultDesignAccessPermissions.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Design-time access to application tables, Table design and runtime settings, Application access settings, Contextual development environment, Learning about developing on the ServiceNow AI Platform, Building applications]
 ---
@@ -26,5 +26,5 @@ By default, new application tables prevent other application scopes from creatin
 
 \[Omitted image "DefaultDesignTimeAccessPermissions.png"\] Alt text: Specifying table access
 
-**Parent Topic:**[Design-time access to application tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_DesignTimeAccessToAppTables.md)
+**Parent Topic:**[Design-time access to application tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_DesignTimeAccessToAppTables.md)
 

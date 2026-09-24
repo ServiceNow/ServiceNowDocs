@@ -3,11 +3,11 @@ title: Prevent the creation of suggestions in special cases
 description: Disable generation of suggestions from specific search strings to keep unhelpful terms from appearing in suggestions or to prevent disclosure of personal or secure information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-suggestions/preventing-suggestions.html
-release: australia
+release: brazil
 product: Search Suggestions
 classification: search-suggestions
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring Search Suggestions, Search Suggestions, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -67,7 +67,7 @@ Search Suggestions generates auto-complete suggestions and search suggestions fr
         |Active|Option to remove the excluded word or regular expression pattern from suggestions.|
         |Type|Option that specifies whether the **Phrase** field represents one word or a regular expression pattern.|
 
-        **Note:** If you use regular expression patterns, you should verify that they exclude the words you want. For more information, see [Test regular expression patterns in Search Suggestion Exclusion List Rule entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-suggestions/test-regular-expressions.md).
+        **Note:** If you use regular expression patterns, you should verify that they exclude the words you want. For more information, see [Test regular expression patterns in Search Suggestion Exclusion List Rule entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-suggestions/test-regular-expressions.md).
 
 4.  To assign someone a role that prevents them from seeing auto-complete suggestions and search suggestions, or to prevent their search strings from becoming suggestions:
 

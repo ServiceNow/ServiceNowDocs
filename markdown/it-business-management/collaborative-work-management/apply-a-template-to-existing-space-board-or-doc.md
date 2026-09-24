@@ -3,11 +3,11 @@ title: Apply a template to existing Board or Doc in CWM
 description: Apply predefined or custom templates to existing Boards or Docs in Collaborative Work Management workspace so that you can avoid inconsistencies in structure and format across your processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/apply-a-template-to-existing-space-board-or-doc.html
-release: australia
+release: brazil
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use templates for Boards and Docs, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -18,8 +18,8 @@ Apply predefined or custom templates to existing Boards or Docs in Collaborative
 
 ## Before you begin
 
--   [Create a Board in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-boards-in-cwm.md)
--   [Create a Doc in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-a-doc-in-cwm.md)
+-   [Create a Board in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/create-boards-in-cwm.md)
+-   [Create a Doc in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/create-a-doc-in-cwm.md)
 
 Role required: sn\_cwm.cwm\_user
 
@@ -31,15 +31,15 @@ Role required: sn\_cwm.cwm\_user
 
 3.  You can apply template to a Board, Doc, or a single page in a Doc.
 
-<table id="choicetable_mfv_yn1_ddc"><thead><tr><th align="left" id="d253170e110">
+<table id="choicetable_mfv_yn1_ddc"><thead><tr><th align="left" id="d254179e110">
 
 Choice
 
-</th><th align="left" id="d253170e113">
+</th><th align="left" id="d254179e113">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d253170e119">
+</th></tr></thead><tbody><tr><td id="d254179e119">
 
 **Apply template to Board**
 
@@ -49,7 +49,7 @@ From the Board header, select the More options icon \(\[Omitted image "cwm-icon-
 
 The Template Center shows only the Board templates.
 
-</td></tr><tr><td id="d253170e145">
+</td></tr><tr><td id="d254179e145">
 
 **Apply template to Doc**
 
@@ -59,7 +59,7 @@ From the Doc header, select the More actions icon \(\[Omitted image "cwm-icon-do
 
 The Template Center shows only the Doc templates.
 
-</td></tr><tr><td id="d253170e171">
+</td></tr><tr><td id="d254179e171">
 
 **Apply template to a Doc page**
 
@@ -89,5 +89,5 @@ The Template Center shows only the Doc page templates.
 
 The selected template is applied to your Board, Doc, or page and the data is displayed according to the template.
 
-**Parent Topic:**[Templates in CWM for Boards and Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/templates-in-cwm-for-spaces-boards-and-docs.md)
+**Parent Topic:**[Templates in CWM for Boards and Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/templates-in-cwm-for-spaces-boards-and-docs.md)
 

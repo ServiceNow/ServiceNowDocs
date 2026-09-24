@@ -3,11 +3,11 @@ title: Disable SNMP-based Fortinet firewall discovery
 description: Disable the default SNMP-based Fortinet firewall discovery and use REST-based discovery instead to discover FortiGate Virtual Domains \(VDOMs\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/disable-snmp-fortinet-fw-discovery.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Fortinet firewall and FortiGate VDOM REST-based, Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -35,10 +35,10 @@ Role required: discovery\_admin
 
 ## What to do next
 
-Create an alias and add it to an API key credential. For more information, see [Create an alias for the API key credential for Fortinet firewall REST-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-alias-api-key-cred-fortinet.md).
+Create an alias and add it to an API key credential. For more information, see [Create an alias for the API key credential for Fortinet firewall REST-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-alias-api-key-cred-fortinet.md).
 
 **Related topics**  
 
 
-[Fortinet firewall and FortiGate VDOM REST-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/fortinet-fw-vdoms-rest-discovery.md)
+[Fortinet firewall and FortiGate VDOM REST-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/fortinet-fw-vdoms-rest-discovery.md)
 

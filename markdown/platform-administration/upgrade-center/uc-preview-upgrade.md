@@ -3,11 +3,11 @@ title: Previewing an upgrade
 description: Use the Upgrade Preview module to have an insight about the experience of an upgrade prior to the actual upgrade. You can explore and preview upgrades to different ServiceNow release versions and see how your instance might be impacted with your current configurations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-center/uc-preview-upgrade.html
-release: australia
+release: brazil
 product: Upgrade Center
 classification: upgrade-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Upgrade Center, Upgrade Center, Upgrade, Administer the ServiceNow AI Platform]
 ---
@@ -16,6 +16,6 @@ breadcrumb: [Using Upgrade Center, Upgrade Center, Upgrade, Administer the Servi
 
 Use the Upgrade Preview module to have an insight about the experience of an upgrade prior to the actual upgrade. You can explore and preview upgrades to different ServiceNow release versions and see how your instance might be impacted with your current configurations.
 
--   [Preview predicted changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-previewed-changes.md): Preview the changes that have been predicted to occur after an upgrade.
--   [Upgrade Preview form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-upgrade-preview-form1.md): Alternate view of a previewed upgrade.
+-   [Preview predicted changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-center/uc-previewed-changes.md): Preview the changes that have been predicted to occur after an upgrade.
+-   [Upgrade Preview form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-center/uc-upgrade-preview-form1.md): Alternate view of a previewed upgrade.
 

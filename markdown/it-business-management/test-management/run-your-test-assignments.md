@@ -3,11 +3,11 @@ title: Run your test assignments in Test Management 2.0
 description: Run your test assignments and capture the results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/run-your-test-assignments.html
-release: australia
+release: brazil
 product: Test Management
 classification: test-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Testing using Test Management 2.0, Test Management 2.0, Test Management applications, Strategic Portfolio Management]
 ---
@@ -41,15 +41,15 @@ Role required: sn\_test\_management.tester
 
 4.  In the Test Execution pop-up, mark a step as passed, failed, or blocked using the following icons.
 
-<table id="choicetable_p33_dsw_dcb"><thead><tr><th align="left" id="d301063e123">
+<table id="choicetable_p33_dsw_dcb"><thead><tr><th align="left" id="d302658e123">
 
 Icon
 
-</th><th align="left" id="d301063e126">
+</th><th align="left" id="d302658e126">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d301063e132">
+</th></tr></thead><tbody><tr><td id="d302658e132">
 
 **\[Omitted image "passedtest.png"\] Alt text: Icon to indicate a step as passed**
 
@@ -57,7 +57,7 @@ Description
 
 Passed.
 
-</td></tr><tr><td id="d301063e147">
+</td></tr><tr><td id="d302658e147">
 
 **\[Omitted image "failedtest.png"\] Alt text: Icon to indicate a step as failed**
 
@@ -67,7 +67,7 @@ Failed. In this state, options to add comments and attachments are available. **
 
 To log a defect in Test Management 2.0, create a defect record manually and include the test name and step number in the defect description.
 
-</td></tr><tr><td id="d301063e171">
+</td></tr><tr><td id="d302658e171">
 
 **\[Omitted image "blockedtest.png"\] Alt text: Icon to indicate a step as blocked**
 
@@ -92,9 +92,9 @@ Test results are saved to the Test Result form. The overall status of the test i
 
 ## What to do next
 
-To view the full history of test runs and results across all test plans, navigate to **Test Management 2.0** &gt; **Test Runs**. For more information about monitoring test plan progress, see [Test Board in Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/test-board.md).
+To view the full history of test runs and results across all test plans, navigate to **Test Management 2.0** &gt; **Test Runs**. For more information about monitoring test plan progress, see [Test Board in Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/test-management/test-board.md).
 
-**Parent Topic:**[Testing using Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/release-readiness-testing.md)
+**Parent Topic:**[Testing using Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/test-management/release-readiness-testing.md)
 
 **Related topics**  
 

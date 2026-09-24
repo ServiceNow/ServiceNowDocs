@@ -3,13 +3,13 @@ title: Create demand to rationalize software applications
 description: Create demands to rationalize SaaS and SSO applications by discontinuing software subscriptions, reducing software usage, and migrating users to approved software.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/soft-asset-demand.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use SAM Workspace, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create demand to rationalize software applications
@@ -34,7 +34,7 @@ The Software Asset Management application includes the following demand actions 
 
 ## About this task
 
-Use the Overlapping usage view to drive SaaS and SSO application rationalization by viewing the feature level usage of each application. For more information, see [Overlapping usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/app-ration.md).
+Use the Overlapping usage view to drive SaaS and SSO application rationalization by viewing the feature level usage of each application. For more information, see [Overlapping usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/app-ration.md).
 
 ## Procedure
 
@@ -142,7 +142,7 @@ When this field is clear, and you reset the demand to **Draft**, the value for t
 </td></tr></tbody>
 </table>6.  Select the **Demand Requirements** tab to view the details of the already-created requirements.
 
-    You can also create a demand requirement. For more information, see [Create a demand requirement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-demand-req.md).
+    You can also create a demand requirement. For more information, see [Create a demand requirement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-demand-req.md).
 
 7.  Select **Save**.
 
@@ -153,13 +153,13 @@ The demand is created with the **Submission status** field set to **Submitted**.
 
 ## What to do next
 
-Use the ServiceNow® Demand Management application to approve and complete the demand. For more information, see [Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/c_DemandManagement.md).
+Use the ServiceNow® Demand Management application to approve and complete the demand. For more information, see [Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/c_DemandManagement.md).
 
-You can create a project for the demand by selecting the **Create Project** related link. A project enables you to track the status, percent complete, and duration of the work required to accomplish the demand. You can also create project tasks to define the work items that are required to complete the project. For more information, see [Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/c_ProjectApplicationOverview.md).
+You can create a project for the demand by selecting the **Create Project** related link. A project enables you to track the status, percent complete, and duration of the work required to accomplish the demand. You can also create project tasks to define the work items that are required to complete the project. For more information, see [Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/c_ProjectApplicationOverview.md).
 
 To view all Software Asset Management demands, navigate to **Software Asset** &gt; **Software Asset Demand** &gt; **Demands**.
 
 To view all Software Asset Management demand requirements, navigate to **Software Asset** &gt; **Software Asset Demand** &gt; **Demand Requirements**.
 
-**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
 

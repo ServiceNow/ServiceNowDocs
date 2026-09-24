@@ -3,11 +3,11 @@ title: Create a fulfillment flow for an Operational Technology request
 description: Create a fulfillment flow with catalog tasks in Workflow Studio for your catalog item as needed to fulfill an Operational Technology \(OT\) request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-request-management/create-a-fulfillment-flow-ot-request.html
-release: australia
+release: brazil
 product: Operational Technology Request Management
 classification: operational-technology-request-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Operational Technology Request Management, Operational Technology]
 ---
@@ -34,17 +34,17 @@ You can link a fulfillment flow to your catalog item. Fulfillment flows trigger 
 
 4.  On the **Properties** form, fill out the fields.
 
-    For more information about the **Properties** form, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-flow.md).
+    For more information about the **Properties** form, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-flow.md).
 
 5.  Select **Build Flow**.
 
 6.  Add a trigger to your flow.
 
-    For more information, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-flow.md).
+    For more information, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-flow.md).
 
 7.  Add actions, flows, subflows, or glow logic.
 
-    For more information, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-flow.md).
+    For more information, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-flow.md).
 
 8.  Select **Save**.
 
@@ -53,5 +53,5 @@ You can link a fulfillment flow to your catalog item. Fulfillment flows trigger 
 
 Workflow Studio saves a draft of the flow, trigger, and actions for the fulfillment flow. You can now choose the fulfillment flow and apply it to a catalog item.
 
-**Parent Topic:**[Configuring Operational Technology Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-request-management/configuring-operational-technology-request-management.md)
+**Parent Topic:**[Configuring Operational Technology Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-request-management/configuring-operational-technology-request-management.md)
 

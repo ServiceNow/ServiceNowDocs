@@ -3,11 +3,11 @@ title: Discovery of application services on cloud using Service Mapping
 description: Service Mapping in cloud environments provides critical visibility into application dependencies and connections. By identifying how different application components interact within IaaS and PaaS environments, your organization can gain better insight into its application services and improve overall service management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/cloud-discovery-service-mapping.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Service Mapping, Cloud Environments, IaaS, PaaS]
 breadcrumb: [Exploring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
@@ -34,10 +34,10 @@ The discovery process in IaaS environments mirrors that used for private network
 
 In contrast to IaaS environments, PaaS environments require a distinct discovery process.
 
-1.  Using cloud platform tools and service accounts - The process begins with a dedicated service account configured for the cloud environment hosting the application service. Service Mapping and Discovery use this service account to access devices and applications. To learn more about setting up an account, see [Set up a cloud service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/setup-cloud-service-account.md).
+1.  Using cloud platform tools and service accounts - The process begins with a dedicated service account configured for the cloud environment hosting the application service. Service Mapping and Discovery use this service account to access devices and applications. To learn more about setting up an account, see [Set up a cloud service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/setup-cloud-service-account.md).
 2.  Horizontal discovery - Discovery performs horizontal discovery in two steps:
-    1.  Probes are used to help identify infrastructure devices. See [Horizontal discovery process flow with probes and sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoProcessFlows.md) for detailed information about the four phases of discovery using probes.
-    2.  Patterns help find the applications and services running on those devices. See [Pattern-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/pattern-based-discovery.md) and [Horizontal discovery process flow with patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/disco-process-flow-patterns.md) to learn more about discovery using patterns.
+    1.  Probes are used to help identify infrastructure devices. See [Horizontal discovery process flow with probes and sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c_DiscoProcessFlows.md) for detailed information about the four phases of discovery using probes.
+    2.  Patterns help find the applications and services running on those devices. See [Pattern-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/pattern-based-discovery.md) and [Horizontal discovery process flow with patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/disco-process-flow-patterns.md) to learn more about discovery using patterns.
 3.  Top-down discovery - Service Mapping then performs top-down discovery, creating a comprehensive map of the application service.
 
 ## Discovery methods for cloud environments
@@ -50,10 +50,10 @@ In contrast to IaaS environments, PaaS environments require a distinct discovery
 
 Consider an e-commerce application hosted on a cloud provider. In an IaaS environment, Service Mapping identifies virtual machines, databases, and their connections, providing a comprehensive view of the application's infrastructure. In a PaaS environment, it uses cloud platform tools to map application components like managed databases, revealing critical dependencies that impact performance and reliability. This visibility enables better resource management, remediation, and optimization of the application service.
 
-**Parent Topic:**[Exploring Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-get-started.md)
+**Parent Topic:**[Exploring Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/service-mapping-get-started.md)
 
 **Related topics**  
 
 
-[Discovery for cloud environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cloud-discovery-wizard.md)
+[Discovery for cloud environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/cloud-discovery-wizard.md)
 

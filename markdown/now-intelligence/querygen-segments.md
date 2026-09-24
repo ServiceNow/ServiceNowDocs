@@ -3,9 +3,9 @@ title: Segments in the Query Generation semantic layer
 description: Segments are predefined filter conditions that map business terminology to specific query filters, helping the semantic layer translate natural language questions into accurate database queries.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/querygen-segments.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Tuning the semantic layer, Configure, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
@@ -14,9 +14,9 @@ breadcrumb: [Tuning the semantic layer, Configure, Query Generation, ServiceNow 
 
 Segments are predefined filter conditions that map business terminology to specific query filters, helping the semantic layer translate natural language questions into accurate database queries.
 
-[Segments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) provide non-obvious context to assist the semantic layer in selecting the correct entity, dimension, and values. For example, in the [utterance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) "How many open emergency change requests are there?", a segment identifies that "open" means "active=true" and "emergency" is a Type, not a Priority.
+[Segments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) provide non-obvious context to assist the semantic layer in selecting the correct entity, dimension, and values. For example, in the [utterance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) "How many open emergency change requests are there?", a segment identifies that "open" means "active=true" and "emergency" is a Type, not a Priority.
 
-When a user asks a question, the Query Generation engine searches for matching segments and includes their filters in the [LLM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) prompt so the model can reuse them to construct accurate queries.
+When a user asks a question, the Query Generation engine searches for matching segments and includes their filters in the [LLM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) prompt so the model can reuse them to construct accurate queries.
 
 There are two types of segments:
 
@@ -133,31 +133,31 @@ You can change the time spans for indicator sources by applying a multiplier usi
 
 ## Disabling segment sources
 
-You can disable segment creation altogether, or for individual source types. You might disable segment generation to troubleshoot, or if segments from a source are "noisy." Each source type has a corresponding **sn\_query\_gen.segments.disable.\*** system property. Disable segments for that source by setting the corresponding system property to **true**. All existing segments created from sources of that type are excluded from AI Data Explorer search results. No new segments of that type are created. During the next Sync Segments job, all segments of that type are deactivated. For more information, see [Query Generation properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-properties.md).
+You can disable segment creation altogether, or for individual source types. You might disable segment generation to troubleshoot, or if segments from a source are "noisy." Each source type has a corresponding **sn\_query\_gen.segments.disable.\*** system property. Disable segments for that source by setting the corresponding system property to **true**. All existing segments created from sources of that type are excluded from AI Data Explorer search results. No new segments of that type are created. During the next Sync Segments job, all segments of that type are deactivated. For more information, see [Query Generation properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/querygen-properties.md).
 
--   **[Guidelines for segments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/general-guidelines-segments.md)**  
+-   **[Guidelines for segments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/general-guidelines-segments.md)**  
 Follow these suggestions to help you use segments in the semantic layer effectively.
--   **[Create a manual segment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-create-segment-manually.md)**  
+-   **[Create a manual segment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/querygen-create-segment-manually.md)**  
 Manual segments are admin-created saved searches with friendly names that bridge natural language questions and database filters for the Query Generation semantic layer.
--   **[Manual segment data model and sync behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/manual-segment-data-model-sync.md)**  
+-   **[Manual segment data model and sync behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/manual-segment-data-model-sync.md)**  
 Manual segments use a two-table data model with automatic synchronization between the configuration table and the runtime table used for search operations.
--   **[Shipping manual segments via plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/shipping-manual-segments-plugins.md)**  
+-   **[Shipping manual segments via plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/shipping-manual-segments-plugins.md)**  
 Business unit application developers can ship manual segments with their applications to provide domain-specific saved searches that work from the moment the app is installed.
 
-**Parent Topic:**[Tuning the semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/semantic-layer-tuning-overview.md)
+**Parent Topic:**[Tuning the semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/semantic-layer-tuning-overview.md)
 
 **Related topics**  
 
 
-[Create a manual segment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-create-segment-manually.md)
+[Create a manual segment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/querygen-create-segment-manually.md)
 
-[Manual segment data model and sync behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/manual-segment-data-model-sync.md)
+[Manual segment data model and sync behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/manual-segment-data-model-sync.md)
 
-[Shipping manual segments via plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/shipping-manual-segments-plugins.md)
+[Shipping manual segments via plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/shipping-manual-segments-plugins.md)
 
-[Guidelines for segments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/general-guidelines-segments.md)
+[Guidelines for segments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/general-guidelines-segments.md)
 
-[Roles, tables, and scheduled jobs included with Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/tables-sched-jobs-query-gen.md)
+[Roles, tables, and scheduled jobs included with Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/tables-sched-jobs-query-gen.md)
 
-[Query Generation properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-properties.md)
+[Query Generation properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/querygen-properties.md)
 

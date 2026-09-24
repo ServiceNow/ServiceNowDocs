@@ -3,13 +3,13 @@ title: Using the Request App Workspace to fulfill requests
 description: After users submit a request through an app built in Creator Studio, fulfillers work on the request's submitted record in the Request App Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-request-app-workspace.html
-release: australia
+release: brazil
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure workspace lists and records, Build apps, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Configure workspace lists and records, Build apps, Creator Studio, Developing your application, Building applications]
 ---
 
 # Using the Request App Workspace to fulfill requests
@@ -18,7 +18,7 @@ After users submit a request through an app built in Creator Studio, fulfillers 
 
 ## The Request App Workspace holds app requests
 
-The Request App Workspace holds form submissions that come in from each of your apps. [Fulfillers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-glossary.md) \(remember, these are the people who work on requests\) can access the workspace through the ServiceNow AI Platform and see submissions for all the apps they're assigned to.
+The Request App Workspace holds form submissions that come in from each of your apps. [Fulfillers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-glossary.md) \(remember, these are the people who work on requests\) can access the workspace through the ServiceNow AI Platform and see submissions for all the apps they're assigned to.
 
 There is only one Request App Workspace per instance. Each app that you build in Creator Studio has its own category in the Request App Workspace, with as many lists as you configure, regardless of how many forms or automations it has.
 
@@ -30,7 +30,7 @@ Each app has its own section in the workspace, with lists to filter for submitte
 
 ## Using lists to find tickets in various states
 
-Each app's section contains lists, such as **Open** requests and any lists the admin or app creator configured. Fulfillers can use the "My Lists" feature in Workspace to create custom lists that fit their needs. Tell them how to by checking out [ServiceNow AI Platform® list administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/p_ListAdministration.md).
+Each app's section contains lists, such as **Open** requests and any lists the admin or app creator configured. Fulfillers can use the "My Lists" feature in Workspace to create custom lists that fit their needs. Tell them how to by checking out [ServiceNow AI Platform® list administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/p_ListAdministration.md).
 
 \[Omitted image "crs-form-sub-workspace.png"\] Alt text: All Requests list showing open requests with columns for number, priority, state, assigned to, short description, and task type.
 
@@ -40,7 +40,7 @@ The Lists view contains two tabs: **Default Lists** and **My Lists**.
 
 The Dashboard overview view contains a dashboard for every app \(that you have access to\) that was made in Creator Studio.
 
-You can select an app's dashboard to see analysis of all active tasks, as well as the number of records in various states configured by your admin. For more information on working with analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-dashboards.md)
+You can select an app's dashboard to see analysis of all active tasks, as well as the number of records in various states configured by your admin. For more information on working with analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/analytics-center-dashboards.md)
 
 ## Working on open requests in the workspace
 
@@ -50,5 +50,5 @@ After you find the subset of requests you need, such as open requests assigned t
 
 The submitted request record has various tabs that help you do your work.
 
-**Parent Topic:**[Configuring workspace lists and records for form submissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-form-submissions-workspace-about.md)
+**Parent Topic:**[Configuring workspace lists and records for form submissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-form-submissions-workspace-about.md)
 

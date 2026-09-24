@@ -3,9 +3,9 @@ title: Java connector properties
 description: View or update Java connector properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/java-connector-properties.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Java, Connectors, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -21,5 +21,5 @@ View or update Java connector properties.
 |Enable Timeout|Option to set a timeout value.|
 |Timeout|Number of seconds that the operation ends after if not completed. To apply this value, you must set the **Enable Timeout** property.|
 
-**Parent Topic:**[Java](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/java-connector.md)
+**Parent Topic:**[Java](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/java-connector.md)
 

@@ -3,7 +3,7 @@ title: Zero Copy Connector for ERP partner profile field descriptions
 description: The partner profile record in Zero Copy Connector for ERP \(Enterprise Resource Planning\) contains information that defines inbound and outbound communications with a partner.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-partner-profile-fields.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
@@ -17,7 +17,7 @@ breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflo
 
 The partner profile record in Zero Copy Connector for ERP \(Enterprise Resource Planning\) contains information that defines inbound and outbound communications with a partner.
 
-For process details, see [View Zero Copy Connector for ERP partner profile information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/view-erp-system-partner-profile-information.md).
+For process details, see [View Zero Copy Connector for ERP partner profile information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/view-erp-system-partner-profile-information.md).
 
 <table id="table_nfm_dcz_1hc"><thead><tr><th>
 
@@ -102,4 +102,5 @@ Message code \(Allowed message types column\)
 A third level of differentiation of message type.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
+

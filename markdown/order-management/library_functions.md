@@ -3,7 +3,7 @@ title: Library functions
 description: Library functions can speed implementation and reduce maintenance costs by enabling code reuse across rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/library\_functions.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

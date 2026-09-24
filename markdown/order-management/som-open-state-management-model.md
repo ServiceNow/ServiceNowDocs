@@ -3,9 +3,9 @@ title: Open state management
 description: The open state model is a programmatic framework in the Configuration State Model API, which lets you program variations in product options that appear in the legacy product configurator in Sales Customer Relationship Management. The API framework provides certain states and helper API methods for controlling how nodes in the legacy product configurator user interface are displayed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/som-open-state-management-model.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Configurator, Configure, price, quote apps, Configure, Sales Custom
 
 The open state model is a programmatic framework in the Configuration State Model API, which lets you program variations in product options that appear in the legacy product configurator in Sales Customer Relationship Management. The API framework provides certain states and helper API methods for controlling how nodes in the legacy product configurator user interface are displayed.
 
-As developers, you can use [extension points for open state management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-open-state-configuration.md) to set the view-only or editable states on any configurator node, based on events that occur at loading or when product selections change. You can also optionally script information messages along with changing the state of the node. These messages display contextually in the product configurator user interface. Various helper API methods are available for reading and setting states on any node, eliminating the need for extensive JSON scripting.
+As developers, you can use [extension points for open state management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-open-state-configuration.md) to set the view-only or editable states on any configurator node, based on events that occur at loading or when product selections change. You can also optionally script information messages along with changing the state of the node. These messages display contextually in the product configurator user interface. Various helper API methods are available for reading and setting states on any node, eliminating the need for extensive JSON scripting.
 
 **Note:** Check your entitlements to determine if you have access to these features.
 

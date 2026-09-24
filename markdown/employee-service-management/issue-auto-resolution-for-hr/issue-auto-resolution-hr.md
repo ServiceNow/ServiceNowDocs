@@ -3,11 +3,11 @@ title: Issue Auto Resolution for HR
 description: The Issue Auto Resolution for HR application uses artificial intelligence \(AI\) to provide near real-time responses to your employee's routine inquiries. When your employees use the request and response channels, you can collect their feedback to improve the quality of the recommendations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/issue-auto-resolution-for-hr/issue-auto-resolution-hr.html
-release: australia
+release: brazil
 product: Issue Auto Resolution for HR
 classification: issue-auto-resolution-for-hr
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [HR Service Delivery, Employee Service Management]
 ---
@@ -50,19 +50,19 @@ The Issue Auto Resolution dashboard lets your administrators monitor your dashbo
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn how employees use the request channels and get help through their preferred response channels with Issue Auto Resolution.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/issue-auto-resolution-for-hr/exploring-issue-auto-resolution-hr.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn how employees use the request channels and get help through their preferred response channels with Issue Auto Resolution.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/issue-auto-resolution-for-hr/exploring-issue-auto-resolution-hr.md)
 
 </td><td>
 
-[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Process how HR cases and feedback are handled by Issue Auto Resolution.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/issue-auto-resolution-for-hr/using-iar-for-hr.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Process how HR cases and feedback are handled by Issue Auto Resolution.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/issue-auto-resolution-for-hr/using-iar-for-hr.md)
 
 </td></tr><tr><td>
 
-[Platform Analytics Solution\[Omitted image "bus-performance-forecasting-2.svg"\] Alt text: Monitor the success metrics of Issue Auto Resolution based on the application's case resolution performance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/issue-auto-resolution-for-hr/iar-for-hr-dashboard.md)
+[Platform Analytics Solution\[Omitted image "bus-performance-forecasting-2.svg"\] Alt text: Monitor the success metrics of Issue Auto Resolution based on the application's case resolution performance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/issue-auto-resolution-for-hr/iar-for-hr-dashboard.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Learn about Issue Auto Resolution implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/issue-auto-resolution-for-hr/configuring-issue-auto-resolution.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Learn about Issue Auto Resolution implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/issue-auto-resolution-for-hr/configuring-issue-auto-resolution.md)
 
 </td></tr></tbody>
 </table>

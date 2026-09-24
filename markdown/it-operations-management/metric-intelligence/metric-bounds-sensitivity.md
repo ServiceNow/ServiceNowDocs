@@ -3,11 +3,11 @@ title: Metric bounds sensitivity
 description: Insights Explorer automatically widens metric bounds when too many anomalies are detected, reducing false alerts so you can focus on genuinely important issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/metric-intelligence/metric-bounds-sensitivity.html
-release: australia
+release: brazil
 product: Metric Intelligence
 classification: metric-intelligence
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [metric bounds, anomaly detection, sensitivity]
 breadcrumb: [Exploring Metric Intelligence, Metric Intelligence, IT Operations Management]
@@ -17,7 +17,7 @@ breadcrumb: [Exploring Metric Intelligence, Metric Intelligence, IT Operations M
 
 Insights Explorer automatically widens metric bounds when too many anomalies are detected, reducing false alerts so you can focus on genuinely important issues.
 
-Reducing the number of anomalies enables you to focus on genuinely important issues while eliminating irrelevant anomalies.
+Reducing the number of anomalies enables you to focus on important issues while eliminating irrelevant anomalies.
 
 The system uses measurement ranges, called 'bounds', to determine what is considered normal and abnormal metric behavior. These bounds are calculated automatically from your historical metric data.
 
@@ -28,6 +28,8 @@ A variation range is a measurement of how much your metric values typically vary
 -   A small variation range \(like 2%\) indicates that values stay consistent, typically between 48-52%.
 -   A large variation range \(like 10%\) indicates that values fluctuate more widely, typically between 40-60%.
 
+The variation range's measurement \(value\) is known as standard deviation.
+
 ## How bounds are set
 
 The system sets bounds by measuring how far away from the average a value can be before it's considered abnormal. The formula is: `Average +/- (multiplier x variation range)`.
@@ -37,7 +39,7 @@ The multiplier is a number that controls how wide or narrow the acceptable range
 -   Smaller multipliers create narrower bounds and detect more anomalies.
 -   Larger multipliers create wider bounds and detect fewer anomalies.
 
-## CPU averages 50% and the standard deviation is 5%
+## Example: CPU averages 50% and the standard deviation is 5%
 
 |Multiplier|Bounds|
 |----------|------|
@@ -53,5 +55,5 @@ The multiplier is a number that controls how wide or narrow the acceptable range
 
 Any metric values falling outside the configured bounds are tagged as anomalies.
 
-The multiplier values \(2, 3, and 5\) are set by default. For details on customizing these values, see [Sensitivity bounds properties for Insights Explorer metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/metric-bounds-properties.md).
+The multiplier values \(2, 3, and 5\) are set by default. For details on customizing these values, see [Sensitivity bounds properties for Insights Explorer metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/metric-intelligence/metric-bounds-properties.md).
 

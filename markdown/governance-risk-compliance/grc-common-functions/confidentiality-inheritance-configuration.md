@@ -3,11 +3,11 @@ title: Create confidentiality inheritance
 description: Create confidentiality inheritance in the tables that are already configured in the confidentiality configuration module. In the GRC application, whenever a parent record is marked or unmarked as confidential, its related table records are also marked or unmarked as confidential, if an inheritance record is also set up.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/confidentiality-inheritance-configuration.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure confidential inheritance, Confidential records, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -30,7 +30,7 @@ Role required: sn\_grc.admin
 
 4.  On the form, fill in the fields.
 
-    The following example shows how to configure the confidentiality inheritance. For more information about the fields, see [Confidentiality Inheritance Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/confidentiality-inheritance-configuration-record.md).
+    The following example shows how to configure the confidentiality inheritance. For more information about the fields, see [Confidentiality Inheritance Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/confidentiality-inheritance-configuration-record.md).
 
     \[Omitted image "confidentiality-inheritance-configuration.png"\] Alt text: Confidentiality inheritance configuration.
 

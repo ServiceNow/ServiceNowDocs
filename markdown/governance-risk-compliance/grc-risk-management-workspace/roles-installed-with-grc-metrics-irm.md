@@ -3,11 +3,11 @@ title: Components installed with the GRC: Metrics application
 description: The GRC: Metrics application adds roles that are listed here.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/roles-installed-with-grc-metrics-irm.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -28,5 +28,5 @@ The following roles are installed with the GRC: Metrics application.
 |sn\_grc\_metric.user|This role is primarily assigned to data owners, enabling them to respond to manual metric data entry tasks. Typically, these users are from the business and hold ownership responsibilities within the organization.|sn\_grc.reader, sn\_grc\_metric.reader|
 |sn\_grc\_metric.developer|Users with this role possess the privilege to write and edit the script for data collection automated metric definition.|None|
 
-**Parent Topic:**[GRC: Metrics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/grc-metrics-reference-irm.md)
+**Parent Topic:**[GRC: Metrics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/grc-metrics-reference-irm.md)
 

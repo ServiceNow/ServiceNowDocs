@@ -3,11 +3,11 @@ title: Transaction reports in Integration Hub Usage Dashboard
 description: The transaction reports in Integration Hub Usage Dashboard help you to understand the Integration Hub usage transactions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/use-the-integration-hub-usage-dashboard.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Integration Hub Usage Dashboard, Configure, Integration Hub, Workflow Data Fabric]
 ---
@@ -20,7 +20,7 @@ The transaction reports in Integration Hub Usage Dashboard help you to understan
 
 -   **IH Transactions \(Tx\) Usage report**
 
-    Depending on the package that your organization subscribes to, the Integration Hub subscription packages offer a certain number of transactions per year. See the details about the packages in [Integration Hub usage and subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/subscription-usage.md). With this report, you can learn about the total usage of the Integration Hub transactions versus the subscribed package of transactions in the last year. The following diagram shows what you can learn from viewing the Integration Hub transactions usage.
+    Depending on the package that your organization subscribes to, the Integration Hub subscription packages offer a certain number of transactions per year. See the details about the packages in [Integration Hub usage and subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/subscription-usage.md). With this report, you can learn about the total usage of the Integration Hub transactions versus the subscribed package of transactions in the last year. The following diagram shows what you can learn from viewing the Integration Hub transactions usage.
 
     \[Omitted image "ih-transactions-tx-usage.png"\] Alt text: Integration Hub Transactions Usage report.
 
@@ -117,5 +117,5 @@ The transaction reports in Integration Hub Usage Dashboard help you to understan
     \[Omitted image "drill-down-feature-usage.png"\] Alt text: Feature Usage report details.
 
 
-**Parent Topic:**[Integration Hub Usage Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub-usage-dashboard.md)
+**Parent Topic:**[Integration Hub Usage Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/integrationhub-usage-dashboard.md)
 

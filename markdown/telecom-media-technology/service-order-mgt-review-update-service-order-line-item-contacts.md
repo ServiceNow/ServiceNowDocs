@@ -3,9 +3,9 @@ title: Review and update the contacts for a service order line item
 description: Review and update your customer's current contact information that is associated with a service order line item so that you can make sure that your customer's information is correct.OM revamp project - This topic is obsolete and has been removed from the SOM bundle on Oct 7, 2025.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/service-order-mgt-review-update-service-order-line-item-contacts.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Review service order details, Service orders for fulfillment, Use, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -26,7 +26,7 @@ You can also add, change, or delete customer contacts as needed.
 
 1.  To view the customer contacts that are currently associated with a service order line item, locate the service order line item that you want to view.
 
-    To learn more, see [Review the line items and related details for a service order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/service-order-mgt-review-service-order-line-related-detail.md).
+    To learn more, see [Review the line items and related details for a service order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/service-order-mgt-review-service-order-line-related-detail.md).
 
 2.  Select **Order Line Item Contacts**.
 
@@ -75,15 +75,15 @@ Email address for the customer contact.
 </td></tr></tbody>
 </table>4.  To add or delete a service order customer contact, perform one of the following actions.
 
-<table id="choicetable_sdj_w33_bqb"><thead><tr><th align="left" id="d47250e176">
+<table id="choicetable_sdj_w33_bqb"><thead><tr><th align="left" id="d47416e176">
 
 Action
 
-</th><th align="left" id="d47250e179">
+</th><th align="left" id="d47416e179">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d47250e185">
+</th></tr></thead><tbody><tr><td id="d47416e185">
 
 **Add a service order customer contact**
 
@@ -94,7 +94,7 @@ Description
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d47250e212">
+</td></tr><tr><td id="d47416e212">
 
 **Delete a service order customer contact**
 

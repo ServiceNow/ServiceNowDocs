@@ -3,11 +3,11 @@ title: Creating View for associated info tables
 description: The investigation screen leverages the related list views created on security incident to configure associated lists.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/creating-view-for-associated-info-tables.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure SI design time investigation, Configure, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -45,5 +45,5 @@ The following is a procedure to create a view and add related lists to it.
     This view will be used to render the associated info on the Investigation tab.
 
 
-**Parent Topic:**[Configure SI design time investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-investigation-canvas-records.md)
+**Parent Topic:**[Configure SI design time investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/configure-investigation-canvas-records.md)
 

@@ -3,11 +3,11 @@ title: List modules
 description: List modules in Digital Portfolio Management \(DPM\) provide information that may or may not be in personal portfolios or enterprise portfolios. You don't have to own solutions to view or create list modules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-list-modules-concept.html
-release: australia
+release: brazil
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Work with solution data in Digital Portfolio Management, Digital Portfolio Management, IT Service Management]
 ---
@@ -30,10 +30,10 @@ When you select **All** for a given category, you see all the records for that c
 
 Create a personal list by adding any records that interest you, like service offerings, roadmaps, projects, demands, ideas, contracts, incidents, team members, or teams. When you create a list, you can start it from an existing list or create your own list. After you create a list, you see them in the **My Lists** tab in the list module. After you create more than one list, you can select **Reorder** to help you organize your lists.
 
-**Parent Topic:**[Work with solution data in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-working-with.md)
+**Parent Topic:**[Work with solution data in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-working-with.md)
 
 **Related topics**  
 
 
-[Work with lists in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-list-modules.md)
+[Work with lists in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-list-modules.md)
 

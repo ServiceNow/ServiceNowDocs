@@ -3,11 +3,11 @@ title: Track cases on the Business Location Service Portal
 description: Track cases on behalf of a business location against sold products deployed at a business location, or against installed base items deployed at a business location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/track-cases-for-blsp-portal.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create cases, Using the Business Location Service Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Create cases, Use Business Location Service Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Track cases on the Business Location Service Portal
@@ -28,9 +28,4 @@ Depending on the roles assigned to the logged-in user, the widget displays the f
 |Cases for Consumers|Cases created by the consumer contributor.|
 |My Cases for Business Locations|Cases created by the contributor user on behalf of their business locations.|
 |All Cases for Business Locations|All cases created on behalf of the contributor users' business locations, independent of who created the case.|
-
-**Related topics**  
-
-
-[Using the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-blsp-portal.md)
 

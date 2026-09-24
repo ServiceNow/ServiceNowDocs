@@ -3,11 +3,11 @@ title: Edit Security Tasks
 description: Learn how to create, edit, delete, or export Security Tasks in Security Center
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/create-edit-security-tasks.html
-release: australia
+release: brazil
 product: Security Center
 classification: security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Security Tasks, Security Center, Platform Security]
 ---
@@ -32,9 +32,13 @@ Role required: admin or sn\_vsc\_task\_manager
 
         **Important:** Remember that users who are assigned tasks must be admins or have the sn\_vsc\_task\_manager role.
 
+        \[Omitted image "sec-task-mgr-3.png"\] Alt text: Security task record
+
     -   **Edit from the Security Task list**
 
         Select one or more Security Tasks by selecting on its check box on the left and then select the **Edit** button.
+
+        \[Omitted image "sec-task-mgr-4.png"\] Alt text: Editing multiple tasks with the edit button
 
 3.  Fill in the fields as needed:
 
@@ -162,5 +166,5 @@ Work notes can be privately added by entering them into this field and selecting
 5.  If needed, you can delete a task from the list by selecting on its check box on the right, and selecting **Delete**, or in the form by selecting the more icon \(...\), then selecting **Delete**.
 
 
-**Parent Topic:**[Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/security-task-manager.md)
+**Parent Topic:**[Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/security-task-manager.md)
 

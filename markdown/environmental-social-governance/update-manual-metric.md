@@ -3,9 +3,9 @@ title: Update a manually created metric
 description: Update a manually created manual metric to add goals, metric data, and targets. Associate citations to the metric.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/update-manual-metric.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Using GRC: Metrics to provide data, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -354,5 +354,5 @@ Details of the thresholds associated with the metric, such as type, related metr
 7.  To visually explore the 360° relationship view of the metric definition, select **360° view**.
 
 
-**Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/using-grc-metrics.md)
+**Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/using-grc-metrics.md)
 

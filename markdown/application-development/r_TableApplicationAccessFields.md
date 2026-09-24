@@ -3,9 +3,9 @@ title: Table design and runtime settings
 description: The Application access fields determine whether a table is accessible to other applications during design-time or run-time operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/r\_TableApplicationAccessFields.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Application access settings, Contextual development environment, Learning about developing on the ServiceNow AI Platform, Building applications]
 ---
@@ -71,10 +71,10 @@ Select the check box to allow users to make inbound web service queries to this 
  Clear the check box to prevent users from making web service queries to this table.
 
 </td></tr></tbody>
-</table>-   **[Runtime access to applications tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_RuntimeAccessToAppTables.md)**  
+</table>-   **[Runtime access to applications tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_RuntimeAccessToAppTables.md)**  
 Runtime access determines if an API or web service call can run against an application table.
--   **[Design-time access to application tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_DesignTimeAccessToAppTables.md)**  
+-   **[Design-time access to application tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_DesignTimeAccessToAppTables.md)**  
 As the application developer, you can grant or deny other applications the permission to create configuration records, also known as application files, that extend the functionality of an application.
 
-**Parent Topic:**[Application access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationAccessSettings.md)
+**Parent Topic:**[Application access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationAccessSettings.md)
 

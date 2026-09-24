@@ -3,9 +3,9 @@ title: The INSTANCEOF operator in reference qualifiers
 description: You can use the INSTANCEOF operator in a reference qualifier to shorten or simplify a complex class qualifier.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_UseTheINSTANCEOFOperator.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference qualifiers, Reference field type, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---

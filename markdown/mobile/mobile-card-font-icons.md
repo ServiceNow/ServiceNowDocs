@@ -3,9 +3,9 @@ title: Mobile card font icons
 description: Use mobile card font icons in the body of mobile cards. Mobile card font icons are in the now-mobile-icons-cards font family.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-card-font-icons.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Mobile icon reference, Mobile icons, Mobile styles, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -99,6 +99,8 @@ Use mobile card font icons in the body of mobile cards. Mobile card font icons a
 |User-Group-Outline|e93c|Australia|\[Omitted image "mab-icon-card-user-group.png"\] Alt text: User-Group-Outline example| |
 |Calendar-Days-Outline|e93d|Australia|\[Omitted image "mab-icon-card-cal-days.png"\] Alt text: Calendar-Days-Outline example| |
 |Clipboard-Lines-Outline|e93e|Australia|\[Omitted image "mab-icon-card-clip-lines.png"\] Alt text: Clipboard-Lines-Outline example| |
+|Icons added in Brazil release|
+|SN-Sparkmoji-Logo|e93f|Brazil|\[Omitted image "mab-icon-image-sparkmoji.png"\] Alt text: Otto logo example| |
 
-**Parent Topic:**[Mobile icon reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-icon-reference.md)
+**Parent Topic:**[Mobile icon reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-icon-reference.md)
 

@@ -3,11 +3,11 @@ title: Assignment rule form
 description: Learn about the fields on the assignment rule form. Use this form to define case assignment rules in the Privacy Case Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/prm-assignment-rule-form.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create an assignment rule, Configure, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -34,5 +34,5 @@ For a description of the field values, see the following table:
 |Script|
 |Script|Script to define advanced assignment rule.|
 
-**Parent Topic:**[Create an assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/prm-create-assignment-rule.md)
+**Parent Topic:**[Create an assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/prm-create-assignment-rule.md)
 

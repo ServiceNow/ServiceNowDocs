@@ -3,11 +3,11 @@ title: Copy a Spotlight group to breakdown elements
 description: You can copy a Spotlight group across multiple elements of a single breakdown.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/spotlight/copy-spotlight-group-element.html
-release: australia
+release: brazil
 product: Spotlight
 classification: spotlight
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Ranking records with Spotlight, Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -34,15 +34,15 @@ When you first create a Spotlight group, you can associate it with at most one e
 
 3.  In the Copy Spotlight Group dialog, select a value for **Name Preference**.
 
-<table id="choicetable_vdg_jsl_dhb"><thead><tr><th align="left" id="d35105e84">
+<table id="choicetable_vdg_jsl_dhb"><thead><tr><th align="left" id="d35341e84">
 
 Value
 
-</th><th align="left" id="d35105e87">
+</th><th align="left" id="d35341e87">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d35105e93">
+</th></tr></thead><tbody><tr><td id="d35341e93">
 
 **Do not change the name**
 
@@ -50,7 +50,7 @@ Description
 
 All copies will have the same name as the original Spotlight group.
 
-</td></tr><tr><td id="d35105e102">
+</td></tr><tr><td id="d35341e102">
 
 **Change the name**
 
@@ -58,15 +58,15 @@ All copies will have the same name as the original Spotlight group.
 
 Manually write a new name that will be given to all copies of the Spotlight group.
 
-</td></tr><tr><td id="d35105e111">
+</td></tr><tr><td id="d35341e111">
 
 **Add element name to new name as prefix**
 
 </td><td>
 
-For each copy of the Spotlight group, the [breakdown element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) name is added to the beginning of the Spotlight group name. You can keep the base name from the original Spotlight group or specify a new one.The **New Name** field does not show these prefixes.
+For each copy of the Spotlight group, the [breakdown element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) name is added to the beginning of the Spotlight group name. You can keep the base name from the original Spotlight group or specify a new one.The **New Name** field does not show these prefixes.
 
-</td></tr><tr><td id="d35105e130">
+</td></tr><tr><td id="d35341e130">
 
 **Add element name to new name as suffix**
 
@@ -85,7 +85,7 @@ For each copy of the Spotlight group, the breakdown element name is added to the
 
 5.  Click **OK**.
 
-    The Spotlight group is copied. If copying is successful, a list of the new Spotlight groups that you have created opens. If any error messages or warnings appeared during the copying process, read the [Spotlight group copy logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/spotlight-copy-logs.md).
+    The Spotlight group is copied. If copying is successful, a list of the new Spotlight groups that you have created opens. If any error messages or warnings appeared during the copying process, read the [Spotlight group copy logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/spotlight/spotlight-copy-logs.md).
 
 6.  Open each of the Spotlight groups you have created and perform the following steps:
 
@@ -110,7 +110,7 @@ In this example, you copy the Incident Spotlight group for the breakdown element
 
 ## What to do next
 
-If any error messages or warnings appeared during the copying process, read the [Spotlight group copy logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/spotlight-copy-logs.md).
+If any error messages or warnings appeared during the copying process, read the [Spotlight group copy logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/spotlight/spotlight-copy-logs.md).
 
-**Parent Topic:**[Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/spotlight.md)
+**Parent Topic:**[Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/spotlight/spotlight.md)
 

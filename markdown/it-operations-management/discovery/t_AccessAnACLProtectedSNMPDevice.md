@@ -3,11 +3,11 @@ title: Access an ACL-protected SNMP device
 description: Access an SNMP device protected by an ACL using a Discovery behavior.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/t\_AccessAnACLProtectedSNMPDevice.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Discovery behaviors, Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -22,13 +22,13 @@ Role required: discovery\_admin or admin
 
 ## About this task
 
-A specific type of Access Control List \(ACL\) on an SNMP device can prevent Discovery from identifying that device. This list defines host machines by IP addresses that are permitted to run agents on SNMP devices. In this example, we want to classify, identify, and update all the devices in an IP range, including the SNMP devices protected by an ACL. To do this, install a MID Server with access to the protected SNMP devices. Then create a Behavior that allows you to scan for all protocols without missing any devices or doing extra work.
+A specific type of Access Control List \(ACL\) on an SNMP device can prevent Discovery from identifying that device. This list defines host machines by IP addresses that are permitted to run agents on SNMP devices. In this example, we want to classify, identify, and update all the devices in an IP range, including the SNMP devices protected by an ACL. To do this, install a MID Server with access to the protected SNMP devices. Then create a Behavior that scans for all protocols without missing devices or doing extra work.
 
 ## Procedure
 
 1.  Install a MID Server on a host permitted by the ACL.
 
-    To scan SNMP devices in a network protected by an ACL, install a MID Server on a host machine specified in the ACL. The ACL must grant the host IP address access to the SNMP devices. Because this MID Server scans SNMP devices only, it can be installed on any supported operating system. The other MID Server, configured to discover WMI and SSH, can be installed on any Windows host that has visibility to the specified IP ranges.
+    To scan the SNMP devices in a network protected by an ACL, install a MID Server on a host machine specified in the ACL. The ACL must list the host's IP address as having access to the SNMP devices. Because this MID Server scans SNMP devices only, it can be installed on any supported operating system. The other MID Server, configured to discover WMI and SSH, can be installed on any Windows host that has visibility to the specified IP ranges.
 
 2.  Install additional MID Servers if you intend to configure either functionality to load balance.
 
@@ -40,7 +40,7 @@ A specific type of Access Control List \(ACL\) on an SNMP device can prevent Dis
 
         This action saves the record and creates the Discovery Functionality related list in the form.
 
-    3.  To complete this behavior \(as shown in [Figure 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_AccessAnACLProtectedSNMPDevice.md)\) we must create functionalities using the MID Servers we installed for that purpose.
+    3.  To complete this behavior \(as shown in [Figure 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/t_AccessAnACLProtectedSNMPDevice.md)\) we must create functionalities using the MID Servers we installed for that purpose.
 
         For the functionality that scans for the WMI protocol, we must define criteria that specify the Windows domain and MID Server being used. Because this Discovery is being performed on one Windows domain, we can configure a functionality for WMI and SSH \(**All except SNMP**\) using the same MID Server.
 
@@ -158,7 +158,7 @@ Be sure to enable the criteria by selecting this check box \(**true**\).
     \[Omitted image "DiscoveryBehaviorScheduleACL.png"\] Alt text: Schedule Record
 
 
-**Parent Topic:**[Discovery behaviors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryBehaviors.md)
+**Parent Topic:**[Discovery behaviors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c_DiscoveryBehaviors.md)
 
 **Related topics**  
 

@@ -3,11 +3,11 @@ title: Create a Report Template
 description: Create various report templates, which can be applied to the major security incidents and generate a status report. You can add standard and custom Major Security Incident Response form fields to the report template that are dot-walkable. In addition, you can format and configure the report based on your requirements using sections, subsections, and its elements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-report-template.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure Major Security Incident status reports, Manage MSIM status reports, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -36,15 +36,15 @@ You can define report components to your report templates and provide additional
 
 4.  On the Report template form, fill the fields.
 
-<table id="choicetable_fll_jgw_wsb"><thead><tr><th align="left" id="d42015e98">
+<table id="choicetable_fll_jgw_wsb"><thead><tr><th align="left" id="d42395e98">
 
 Field
 
-</th><th align="left" id="d42015e101">
+</th><th align="left" id="d42395e101">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d42015e107">
+</th></tr></thead><tbody><tr><td id="d42395e107">
 
 **Name**
 
@@ -52,7 +52,7 @@ Description
 
 Name of the report template.
 
-</td></tr><tr><td id="d42015e116">
+</td></tr><tr><td id="d42395e116">
 
 **Branding information**
 
@@ -60,7 +60,7 @@ Name of the report template.
 
 Select the branding information of your report template such as logo, header, and footer text. For example, Default branding record.
 
-</td></tr><tr><td id="d42015e125">
+</td></tr><tr><td id="d42395e125">
 
 **Report Type**
 
@@ -70,7 +70,7 @@ Type of status report. The status report can be in one of the following types:- 
 -   Email
 
 
-</td></tr><tr><td id="d42015e142">
+</td></tr><tr><td id="d42395e142">
 
 **Table**
 
@@ -78,7 +78,7 @@ Type of status report. The status report can be in one of the following types:- 
 
 Name of the report template table.
 
-</td></tr><tr><td id="d42015e152">
+</td></tr><tr><td id="d42395e152">
 
 **Top/Bottom Margin**
 
@@ -86,7 +86,7 @@ Name of the report template table.
 
 Define the top and bottom margin indentations required while generating the report.
 
-</td></tr><tr><td id="d42015e161">
+</td></tr><tr><td id="d42395e161">
 
 **Left/Right Margin**
 
@@ -94,7 +94,7 @@ Define the top and bottom margin indentations required while generating the repo
 
 Define the left and right margin indentations required while generating the report.
 
-</td></tr><tr><td id="d42015e170">
+</td></tr><tr><td id="d42395e170">
 
 **Page Size**
 
@@ -102,7 +102,7 @@ Define the left and right margin indentations required while generating the repo
 
 The page size of your report template. For example, the default size is A4.
 
-</td></tr><tr><td id="d42015e179">
+</td></tr><tr><td id="d42395e179">
 
 **Active**
 
@@ -110,7 +110,7 @@ The page size of your report template. For example, the default size is A4.
 
 Select the check box for the MSI Manager to generate a report from the template that was created from the **Reports Template** section.**Note:** If the check box is cleared, then the MSI Manager can't create a report for that specific report template type in the MSIM workspace.
 
-</td></tr><tr><td id="d42015e194">
+</td></tr><tr><td id="d42395e194">
 
 **First page header editor**
 
@@ -126,18 +126,18 @@ Allows you to define the template body. Select the required variables to add to 
     A new report template is created under the Reports Templates page.
 
 
--   **[Add Branding to your Report Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/add-branding-to-your-report-templates.md)**  
+-   **[Add Branding to your Report Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/add-branding-to-your-report-templates.md)**  
 Add branding to your reports. You can add header and footer image, header and footer text. You can include this branding information in any of the report template types that you want to create other than the two predefined reports.
--   **[Use Visualizations in Report Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-widgets-in-your-report-templates.md)**  
+-   **[Use Visualizations in Report Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/using-widgets-in-your-report-templates.md)**  
 Use report widgets to define and include User Interface Builder \(UIB\) elements such as data visualizations in the MSIM status reports.
--   **[Use Reports Lists in Report Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-reports-lists-in-your-report-templates.md)**  
+-   **[Use Reports Lists in Report Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/using-reports-lists-in-your-report-templates.md)**  
 Use report lists to define and include the related list artifacts to generate lists in the PDF based on your configured MSI list records.
--   **[Use Template Scripts in your Report Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-template-scripts-in-your-report-templates.md)**  
+-   **[Use Template Scripts in your Report Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/using-template-scripts-in-your-report-templates.md)**  
 Create a script to include the related lists data, date operations, and any other data that aren’t directly dot-walkable.
--   **[Preview the Report Template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/preview-status-reports.md)**  
+-   **[Preview the Report Template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/preview-status-reports.md)**  
 Use the Preview functionality to preview your design-time report template to generate and share the report with other stakeholders during run time from the Major Security Incident Management workspace.
 
-**Parent Topic:**[Configure Major Security Incident status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/manage-status-reports-for-major-security-incident-management.md)
+**Parent Topic:**[Configure Major Security Incident status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/manage-status-reports-for-major-security-incident-management.md)
 
 **Related topics**  
 
@@ -150,5 +150,5 @@ Use the Preview functionality to preview your design-time report template to gen
 
 [Add system properties]()
 
-[Create and distribute MSIM Status Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/creating-and-distributing-major-security-incident-status-reports.md)
+[Create and distribute MSIM Status Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/creating-and-distributing-major-security-incident-status-reports.md)
 

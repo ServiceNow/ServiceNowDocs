@@ -3,9 +3,9 @@ title: Create a question in the survey designer
 description: You can create multiple questions for each category in the survey designer, but each question can only be associated with one category.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_CreateQuestSurveyDesigr.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Survey designer, Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,7 +32,7 @@ The data type that you select for each question determines how it can be answere
 
 3.  On the Properties form, fill in the fields.
 
-    For a description of the field values, see [Properties form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/properties-form-survey-designer.md).
+    For a description of the field values, see [Properties form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/properties-form-survey-designer.md).
 
 4.  To create any special conditions that must be met before the question appears on the survey, click the Dependency tab.
 
@@ -59,7 +59,7 @@ The data type that you select for each question determines how it can be answere
 10. To delete a question, click the **X** icon in its title bar.
 
 
-**Parent Topic:**[Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md)
+**Parent Topic:**[Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SurveyDesigner.md)
 
 **Related topics**  
 
@@ -78,7 +78,7 @@ The data type that you select for each question determines how it can be answere
 
 [Configure category weights for a survey]()
 
-[Survey question template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyQuestionTemplate.md)
+[Survey question template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SurveyQuestionTemplate.md)
 
-[Create a survey designer template question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateASurveyDesignerTemplateQ.md)
+[Create a survey designer template question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateASurveyDesignerTemplateQ.md)
 

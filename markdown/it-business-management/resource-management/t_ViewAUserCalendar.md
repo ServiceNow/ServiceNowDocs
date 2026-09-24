@@ -3,11 +3,11 @@ title: View a user calendar
 description: View the calendar of a user to check availability.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/t\_ViewAUserCalendar.html
-release: australia
+release: brazil
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [My Calendar, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -30,7 +30,7 @@ You can view a calendar for a specific user, and not for all users in a group.
 
 2.  Do one of the following options.
 
-<table id="choicetable_g3t_jz2_zs"><tbody><tr><td id="d179301e86">
+<table id="choicetable_g3t_jz2_zs"><tbody><tr><td id="d179725e86">
 
 **From the User list**
 
@@ -38,7 +38,7 @@ You can view a calendar for a specific user, and not for all users in a group.
 
 Right-click a user name in the Users list and select **View Calendar**.
 
-</td></tr><tr><td id="d179301e98">
+</td></tr><tr><td id="d179725e98">
 
 **From the User form**
 
@@ -48,7 +48,7 @@ Select a User record to open the User form, and then select the **View Calendar*
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[My Calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_MyCalendar.md)
+**Parent Topic:**[My Calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/c_MyCalendar.md)
 
 **Related topics**  
 

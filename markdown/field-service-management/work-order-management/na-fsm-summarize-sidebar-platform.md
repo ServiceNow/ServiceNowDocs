@@ -3,11 +3,11 @@ title: Summarize a Sidebar discussion
 description: Generate a summary of the Sidebar discussions between agents, dispatchers, and subject matter experts by using the Sidebar summarization skill in the ServiceNow Otto for Field Service Management \(FSM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/na-fsm-summarize-sidebar-platform.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Execute work order tasks, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
@@ -34,11 +34,11 @@ You can do these actions using Sidebar summarization:
 
 1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 
-2.  Expand the **Customer** panel and select **FSM**.
+2.  Expand the **Customer** menu and select **FSM**.
 
 3.  Select **Activate skill** on the **Sidebar summarization** skill card.
 
-    The **Work Order Task** table displayed in the **Choose tables** page is selected by default, and cannot be changed.
+    The **Work Order Task** table displayed in the **Choose tables** page is selected by default, and can't be changed.
 
 4.  Select **Select display** in the **Sidebar summarization** page.
 
@@ -60,19 +60,21 @@ You can do these actions using Sidebar summarization:
 
     \[Omitted image "now-assist-sidebar-discussion.png"\] Alt text: Modal to add participants for discussion
 
-9.  Generate a summary of the Sidebar discussion during the conversation either by using the Summarize quick action \(enter `/Summarize` in the Active sidebar discussion window\), or by selecting the quick action icon \(\[Omitted image "now-assist-sidebar-lightning-bolt-icon.png"\] Alt text: icon image\).
+9.  Generate a summary of the Sidebar discussion during the conversation.
 
+    -   Use the Summarize quick action \(enter `/Summarize` in the Active sidebar discussion window\).
+    -   Select the quick action icon \(\[Omitted image "now-assist-sidebar-lightning-bolt-icon.png"\] Alt text: icon image\).
 10. After summarizing the Sidebar discussion, you can add it to the work notes, and provide feedback about it.
 
-<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d93437e280">
+<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d96408e289">
 
 Option
 
-</th><th align="left" id="d93437e283">
+</th><th align="left" id="d96408e292">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d93437e289">
+</th></tr></thead><tbody><tr><td id="d96408e298">
 
 **Save the summary information by adding it to the work notes**
 
@@ -83,7 +85,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d93437e316">
+</td></tr><tr><td id="d96408e325">
 
 **Provide feedback for the summary**
 

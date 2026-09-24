@@ -3,11 +3,11 @@ title: Edit the related devices and equipment model entities in an incident reco
 description: Add or remove the related Operational Technology \(OT\) devices and equipment model entities directly from an OT incident record. You can track the relationship between the incident and its affected items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-incident-management/edit-devices-and-equipment-model-entities-in-ot-incident-record.html
-release: australia
+release: brazil
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Operational Technology Incident Management, Operational Technology]
 ---
@@ -32,15 +32,15 @@ Role required: sn\_ot\_incident\_write or sn\_ot\_incident\_admin
 
 5.  Add or remove a related OT device.
 
-<table id="choicetable_x1v_mk5_g1c"><thead><tr><th align="left" id="d69458e127">
+<table id="choicetable_x1v_mk5_g1c"><thead><tr><th align="left" id="d69342e127">
 
 Action
 
-</th><th align="left" id="d69458e130">
+</th><th align="left" id="d69342e130">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d69458e136">
+</th></tr></thead><tbody><tr><td id="d69342e136">
 
 **Add a related OT device from the incident record**
 
@@ -52,7 +52,7 @@ Description
 4.  Select **Add**.
 
 
-</td></tr><tr><td id="d69458e166">
+</td></tr><tr><td id="d69342e166">
 
 **Remove a related OT device from the incident record**
 
@@ -70,5 +70,5 @@ Description
 6.  Add or remove an equipment model entity from an incident record by repeating steps 4 and 5 but in the Impacted Equipment Model Entities related list.
 
 
-**Parent Topic:**[Using Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/using-operational-technology-incident-mgt.md)
+**Parent Topic:**[Using Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-incident-management/using-operational-technology-incident-mgt.md)
 

@@ -3,9 +3,9 @@ title: Agent assist
 description: Learn about the Agent assist component in the tabs sidebar for a Configurable Workspace record page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/agent-assist-configurable-workspace.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Tabs sidebar, Explore, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---

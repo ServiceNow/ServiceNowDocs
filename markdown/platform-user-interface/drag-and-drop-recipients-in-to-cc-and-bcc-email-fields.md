@@ -3,9 +3,9 @@ title: Edit and move email recipients
 description: Edit and move recipients across the To, Cc, and Bcc email fields instead of manually removing and adding individual recipients.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/drag-and-drop-recipients-in-to-cc-and-bcc-email-fields.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Emails, Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -42,6 +42,6 @@ Role required: email\_composer
 
 6.  To select multiple recipients, use keyboard and mouse device shortcuts.
 
-    For reference, see [Keyboard and mouse device shortcuts for adding recipients to email fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/keyboard-and-mouse-shortcuts-for-adding-recipients-to-email.md).
+    For reference, see [Keyboard and mouse device shortcuts for adding recipients to email fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/keyboard-and-mouse-shortcuts-for-adding-recipients-to-email.md).
 
 

@@ -3,11 +3,11 @@ title: View Badge Scanner Integration scan logs
 description: Monitor scanner-use error activity at a Walk-up Experience onsite location by viewing the scan logs. Each time a badge reader device triggers an error, a scan event is logged in the Badge Scan Logs module.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/view-badge-read-integ-scan-logs.html
-release: australia
+release: brazil
 product: Walk-Up Experience
 classification: walk-up-experience
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Walk-up Experience reference, Walk-up Experience, IT Service Management]
 ---

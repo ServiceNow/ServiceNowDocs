@@ -3,9 +3,9 @@ title: Roles installed with Field Service Management
 description: Roles are added with Field Service Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/r\_UserRoleInstallWFieldSrvMgmnt.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Components installed, Reference, Field Service Management]
 ---
@@ -44,16 +44,16 @@ Manages data related to field service management. Field service management admin
 -   Create, read, upload, and delete ACLs for Custom Map Screen and Custom Map Provider.
 -   Review quality management configuration, auto close configuration, and monitor the quality dashboard.
 -   Manage the Acceptance due date, and work management order fields.
--   Assign skills to agents.
 -   Migrate UI actions to questionnaires.
 
 </td><td>
 
 -   wm\_approver\_user
--   fsm\_skill\_admin \(contains the skill\_manager role\)
+-   fsm\_skill\_admin
 -   dynamic\_scheduling\_admin
 -   wm\_agent
 -   skill\_model\_admin
+-   skill\_admin
 -   territory\_admin
 -   sn\_apptmnt\_booking.appointment\_booking\_admin
 -   plan\_maint\_admin
@@ -215,6 +215,7 @@ Initiator-qualifiers can:-   Create work orders.
 -   Create tasks.
 -   Add part requirements.
 -   Source parts.
+-   Assign skills to agents.
 -   View incidentals.
 
 </td><td>
@@ -232,6 +233,7 @@ Initiator-qualifier-dispatchers can:-   Create work orders.
 -   Create tasks.
 -   Add parts requirements.
 -   Source parts.
+-   Assign skills to agents.
 -   Assign work to agents.
 -   Manage agent tasks.
 -   View incidentals.
@@ -251,12 +253,11 @@ Field Service Management Manager\[wm\_manager\]
 Field Service Managers can:-   Manage agent skills
 -   Manage time cards
 -   View and maintain work schedules
--   Assign skills to agents
 -   View and maintain personal events
 
 </td><td>
 
--   fsm\_skill\_admin \(contains the skill\_manager role\)
+-   fsm\_skill\_admin
 -   wm\_agent
 -   timecard\_manager
 -   agent\_schedule\_manager
@@ -324,10 +325,35 @@ Create, delete, and modify work order tasks and part requirements when both the 
 
 wm\_initiator
 
+</td></tr><tr><td>
+
+Field Service Management Proxy Admin \[sn\_fsm\_proxy\_actn.proxy\_admin\]
+
+</td><td>
+
+Required to create or edit a proxy policy.
+
+</td><td>
+
+-   sn\_fsm\_proxy\_actn.proxy\_agent
+-   delegation\_admin
+
+</td></tr><tr><td>
+
+Field Service Proxy Agent \[sn\_fsm\_proxy\_actn.proxy\_agent\]
+
+</td><td>
+
+Required to perform a proxy action. Every user who performs a proxy action needs
+
+</td><td>
+
+ 
+
 </td></tr></tbody>
 </table>## Role integration with Customer Service Management
 
-When you enable the Customer Service Management plugin \(com.sn\_customerservice\) along with the Field Service Management plugin \(com.snc.work\_management\) and add specific Customer Service roles to Field Service agents, they can view or create a case and also view additional customer service data. For more information on customer service agent roles, see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md).
+When you enable the Case Management Core plugin \(com.sn\_customerservice\) along with the Field Service Management plugin \(com.snc.work\_management\) and add specific Customer Service roles to Field Service agents, they can view or create a case and also view additional customer service data. For more information on customer service agent roles, see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md).
 
 <table id="table_abt_gsr_4jb"><thead><tr><th>
 
@@ -362,7 +388,7 @@ To have read-only access to customer data entities such as:-   Install base item
 
 </td></tr><tr><td>
 
-sn\_customerservice.proxy\_contact
+sn\_csm\_proxy\_cont
 
 </td><td>
 
@@ -377,5 +403,5 @@ wm\_location\_security
 View data based on the provider service organization.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/r_InstalledWithFSM.md)
+</table>**Parent Topic:**[Components installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/r_InstalledWithFSM.md)
 

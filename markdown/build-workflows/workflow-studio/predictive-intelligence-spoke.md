@@ -3,11 +3,11 @@ title: Machine Learning solutions for Flow Designer
 description: With Predictive Intelligence for Flow Designer \(com.snc.ml\_flowdesigner\), you can deploy machine learning solutions in your instance. This spoke provides actions to incorporate Predictive Intelligence model predictions into flows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/predictive-intelligence-spoke.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Spokes, Flow integrations, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -18,7 +18,7 @@ With Predictive Intelligence for Flow Designer \(com.snc.ml\_flowdesigner\), you
 
 ## Predictive Intelligence activation
 
-This spoke requires Predictive Intelligence \(com.glide.platform\_ml\). For more information, see [Install Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-predictive-intelligence.md).
+This spoke requires Predictive Intelligence \(com.glide.platform\_ml\). For more information, see [Install Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-predictive-intelligence.md).
 
 ## Key features
 
@@ -84,7 +84,7 @@ Regression Batch Prediction
 
 </td><td>
 
-Obtain a predicted value from an active regression solution definition using multiple input records.**Note:** The regression framework is deprecated in the Australia release. You can continue to use existing regression solutions but you can't create new ones.
+Obtain a predicted value from an active regression solution definition using multiple input records.**Note:** The regression framework is deprecated in the Brazil release. You can continue to use existing regression solutions but you can't create new ones.
 
 </td></tr><tr><td>
 
@@ -92,7 +92,7 @@ Regression Prediction
 
 </td><td>
 
-Obtain a predicted value from an active regression solution definition using a single input record.**Note:** The regression framework is deprecated in the Australia release. You can continue to use existing regression solutions but you can't create new ones.
+Obtain a predicted value from an active regression solution definition using a single input record.**Note:** The regression framework is deprecated in the Brazil release. You can continue to use existing regression solutions but you can't create new ones.
 
 </td></tr><tr><td>
 
@@ -111,10 +111,10 @@ Predictive Intelligence for Flow Designer provides these user roles to control a
 |---------|-----------|
 |ml\_admin|Grants access to all Predictive Intelligence features|
 
-**Parent Topic:**[Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/spokes.md)
+**Parent Topic:**[Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/spokes.md)
 
 **Related topics**  
 
 
-[Use Predictive Intelligence in Flow Designer with ML actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use-predictive-intelligence-flow-designer-ml-actions.md)
+[Use Predictive Intelligence in Flow Designer with ML actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/use-predictive-intelligence-flow-designer-ml-actions.md)
 

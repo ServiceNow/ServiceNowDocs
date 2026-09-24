@@ -3,7 +3,7 @@ title: Integrating CPQ with Shopify
 description: The CPQ app for Shopify enables stores to seamlessly manage and sell configurable products using CPQ advanced CPQ \(Configure, Price, Quote\) features. Installation and setup are streamlined, and robust Admin options are provided for both technical and non-technical users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/how-to-use-the-logik-configurator-app-for-shopify.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 8
@@ -29,9 +29,9 @@ The CPQ app for Shopify is free to download on the Shopify app store:
 
 After downloading the CPQ app it will automatically appear in the Apps section of the store.
 
-To start using the app, the CPQ environment details and a token must be entered in the CPQ settings section of the app landing screen. For more information about creating a CPQ token, see [Set up a runtime client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-set-up-a-runtime-client.md).
+To start using the app, the CPQ environment details and a token must be entered in the CPQ settings section of the app landing screen. For more information about creating a CPQ token, see [Set up a runtime client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-set-up-a-runtime-client.md).
 
-**Note:** Ensure the storefront and the Admin URLs are added as an origin for the token. All stores should also include the following static URL to their list of origins: [https://shpfy-connect.ecommerce.](https://shpfy-connect.ecommerce.logik.io/).
+**Note:** Confirm the storefront and the Admin URLs are added as an origin for the token. All stores should also include the following static URL to their list of origins: [https://shpfy-connect.ecommerce.logik.io](https://shpfy-connect.ecommerce.logik.io).
 
 ## CPQ app Admin screen overview
 
@@ -44,7 +44,7 @@ To start using the app, the CPQ environment details and a token must be entered 
 
 ## Managing products
 
-When the app is installed and the **ServiceNow CPQ settings** have been successfully saved, an automated catalog sync will begin and the custom CPQ attribute is added to the product details Admin page.
+When the app is installed and the **ServiceNow CPQ settings** have been successfully saved, an automated catalog sync begins. The custom CPQ attribute is added to the product details Admin page.
 
 ## Product catalog synchronization
 
@@ -142,11 +142,11 @@ The CPQ Shopify app is not required for users who wish to integrate CPQ with the
 
 Here are some considerations when using the app for your headless implementation:
 
-The app will streamline the setup with CPQ and reduce the overall need for custom middleware by providing a product sync between platforms, a custom CPQ Configurable product attribute and Draft Order functionality.
+The app streamlines the setup with CPQ and reduces the overall need for custom middleware. It provides a product sync between platforms, a custom CPQ Configurable product attribute, and Draft Order functionality.
 
 A Custom UI can be used in place of the CPQ app block which is completely optional.
 
-Saving a configuration, even heedlessly, will trigger the CPQ add to cart function which facilitates dynamic pricing and attributes Automated add to cart on save can be disabled through a DevOps request.
+Saving a configuration automatically triggers the CPQ add to cart function, which facilitates dynamic pricing and attributes. You can disable automated add to cart on save through a DevOps request.
 
 ## Clearing app settings
 

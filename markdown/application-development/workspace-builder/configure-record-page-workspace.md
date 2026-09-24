@@ -3,11 +3,11 @@ title: Add a record page for a workspace in Workspace Builder
 description: Configure a record page for a workspace in Workspace Builder. Use containers and components to guide a user through an experience. Each record page is linked to only one data table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/workspace-builder/configure-record-page-workspace.html
-release: australia
+release: brazil
 product: Workspace Builder
 classification: workspace-builder
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Use, Workspace Builder, Builder library, Developing your application, Building applications]
 ---
@@ -21,7 +21,7 @@ Configure a record page for a workspace in Workspace Builder. Use containers and
 Role required:
 
 -   admin or Guided Application Creator for ServiceNow Studio.
--   sn\_app\_eng\_studio.user or delegated\_developer for AES. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+-   sn\_app\_eng\_studio.user or delegated\_developer for AES. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## About this task
 
@@ -37,7 +37,7 @@ If you don't see the record page for a table you configured for the workspace, s
 
 1.  Navigate to Workspace Builder.
 
-    For details on how to open Workspace Builder in ServiceNow Studio or AES, see [Accessing Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/accessing-workspace-builder-aes-crs.md).
+    For details on how to open Workspace Builder in ServiceNow Studio or AES, see [Accessing Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/workspace-builder/accessing-workspace-builder-aes-crs.md).
 
 2.  Create a record page.
 
@@ -108,7 +108,7 @@ Form details
 
 Select the **Edit form** link to edit the form in a Table Builder tab inside AES.**Note:** After you leave the record page in the Table Builder tab, a dialog prompts you to **Reload this page**.
 
-For more information on editing forms for a record page, see [Forms in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/form-view-configuration.md).
+For more information on editing forms for a record page, see [Forms in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/form-view-configuration.md).
 
 </td></tr><tr><td>
 
@@ -116,12 +116,12 @@ Activity stream
 
 </td><td>
 
-Option to enable the Activity stream for the record page. The Activity stream enables your workspace users to communicate with requesters and make internal notes about the work done on a record. For more information on the Activity stream, see [Activity streams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_activity-streams.md).
+Option to enable the Activity stream for the record page. The Activity stream enables your workspace users to communicate with requesters and make internal notes about the work done on a record. For more information on the Activity stream, see [Activity streams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_activity-streams.md).
 
 </td></tr></tbody>
 </table>4.  Configure the related information in the Related information section of the configuration panel for the record page.
 
-    Related information includes tables that are related to the record, which appear as tabs, such as Child Incidents. For more information on configuring related information, see [Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_RelatedLists.md).
+    Related information includes tables that are related to the record, which appear as tabs, such as Child Incidents. For more information on configuring related information, see [Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_RelatedLists.md).
 
     **Note:** You can't create a table for the related information in a record page. The table must exist in ServiceNow AI Platform.
 
@@ -142,8 +142,6 @@ Option to enable the Activity stream for the record page. The Activity stream en
     Each related information component has an information icon \(\[Omitted image "icon-information.png"\] Alt text: Information icon\) that, when selected, displays its related table.
 
 5.  Provide fulfillers with visibility into cross-business workflows and the actionable tasks used to complete these workflows by specifying the playbook.
-
-    For more information on playbooks, see .
 
     **Note:** You must have the Playbook Experience plugin installed.If you used a template to create the app, you can't add a playbook to the record page. For details on how to add a playbook for workspaces created from templates, see [this knowledgebase article](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=13fd98de1bfd6510a4de35df034bcbce).
 
@@ -234,7 +232,7 @@ Display active Service License Agreements \(SLAs\) for the case, including time 
 
 </td><td>
 
-[SLA ribbon](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-agent-workspace-ribbon.md)
+[SLA ribbon](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-agent-workspace-ribbon.md)
 
 </td></tr><tr><td>
 
@@ -250,7 +248,7 @@ Add attachments to the record, such as images and PDFs.
 
 </td><td>
 
-[Attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/attachments.md)
+[Attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/attachments.md)
 
 </td></tr><tr><td>
 
@@ -266,7 +264,7 @@ Display a chronological summary of case activities, including state changes and 
 
 </td><td>
 
-[Timeline ribbon component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-agent-workspace-ribbon.md)
+[Timeline ribbon component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-agent-workspace-ribbon.md)
 
 </td></tr><tr><td>
 
@@ -282,7 +280,7 @@ Display customer information, such as the contact or consumer name, email addres
 
 </td><td>
 
-[Customer 360 ribbon component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-agent-workspace-ribbon.md)
+[Customer 360 ribbon component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-agent-workspace-ribbon.md)
 
 </td></tr><tr><td>
 
@@ -298,7 +296,7 @@ Display the contextual side panel ribbon, which contains tools to help agents re
 
 </td><td>
 
-[Viewing ribbon information in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-viewing-ribbon-info.md)
+[Viewing ribbon information in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-playbooks-viewing-ribbon-info.md)
 
 </td></tr></tbody>
 </table>        The selected tools appear in the record page preview canvas.
@@ -313,7 +311,7 @@ Display the contextual side panel ribbon, which contains tools to help agents re
 
 7.  Complete any additional changes and configurations.
 
-<table id="choicetable_f3l_vjr_dvb"><tbody><tr><td id="d247546e924">
+<table id="choicetable_f3l_vjr_dvb"><tbody><tr><td id="d240450e921">
 
 **Update the name of the record page**
 
@@ -330,7 +328,7 @@ A preview of the record page appears.
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d247546e959">
+</td></tr><tr><td id="d240450e956">
 
 **Preview the record page in a new browser tab**
 
@@ -338,7 +336,7 @@ A preview of the record page appears.
 
 Select **Preview** in the Workspace Builder header.The record page appears in the workspace. If no data exists for the table, AES displays a page where you can add data to the table.
 
-</td></tr><tr><td id="d247546e980">
+</td></tr><tr><td id="d240450e977">
 
 **Delete a record page**
 

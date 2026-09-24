@@ -3,11 +3,11 @@ title: Metric binding to resources
 description: Bind metrics to resources to simplify metric events binding by enabling binding to resources such as specific disks or web pages, in addition to binding to CIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/metric-intelligence/resource-binding.html
-release: australia
+release: brazil
 product: Metric Intelligence
 classification: metric-intelligence
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Metric binding, Exploring Metric Intelligence, Metric Intelligence, IT Operations Management]
 ---
@@ -37,14 +37,14 @@ The MID Server generates metric binding events that are processed by the instanc
 1.  Identify the CI class of the CI that was bound to the metric binding event.
 2.  Locate the resource class which is mapped to that CI class \(using the CI Type To Resource Class \[sa\_ci\_type\_to\_resource\_class\] table\).
 3.  Read the **resource\_path** attribute value in the **additional\_information** field in the metric binding event.
-4.  Check if a resource record exists in the resource class table. In this table, **name** is equal to **resource\_path** and **cmdb\_ci** is equal to the CI that was bound to the metric binding event.
+4.  Check if a resource record exists in the resource class table. The record must have **name** equal to **resource\_path** and **cmdb\_ci** equal to the CI that was bound to the metric binding event.
 5.  If such resource record exists, then the metric binding event is bound to that resource. Otherwise, a new resource record is created with the preceding values and the metric binding event is bound to the newly created resource.
 
 ## Configure resource binding
 
--   Ensure that the [sa.metric.use.resource.binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/installed-with-metrics.md) system property is set to true \(default\).
+-   Ensure that the [sa.metric.use.resource.binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/installed-with-metrics.md) system property is set to true \(default\).
 -   For series intended to be bound to resources, ensure that the **resource\_path** attribute is populated by doing either step:
-    -   Use an event rule to add the **resource\_path** attribute to the **Additional information** field in events. For more information, see [Creating an event rule to map metrics to specific CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/event-rule-bind-metrics-to-ci.md).
+    -   Use an event rule to add the **resource\_path** attribute to the **Additional information** field in events. For more information, see [Creating an event rule to map metrics to specific CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/metric-intelligence/event-rule-bind-metrics-to-ci.md).
     -   Populate the **resource\_path** attribute as a part of the respective CI identifier when data is sent to the MID Server for processing.
 -   Review the default mappings in the CI Type To Resource Class \[sa\_ci\_type\_to\_resource\_class\] table and adjust as needed. It is critical that mappings are set as desired prior to data processing.
 

@@ -3,7 +3,7 @@ title: Kubernetes cluster auto-retirement properties
 description: Configure system properties to control the automatic retirement of inactive Kubernetes cluster configuration items \(CIs\) and their associated resources, so your CMDB reflects only active infrastructure.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cnov-auto-retire-properties.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: reference
@@ -109,5 +109,5 @@ No value \(empty\)
 The numerical value the system writes to the *install\_status* field of cmdb\_ci\_linux\_server CIs associated with Kubernetes nodes. The system applies this value when nodes are deleted from the cluster or when the cluster is retired. If the property doesn't exist or is empty, the system takes no action on Linux server CIs.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Kubernetes Visibility Agent Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-reference.md)
+</table>**Parent Topic:**[Kubernetes Visibility Agent Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/cnov-reference.md)
 

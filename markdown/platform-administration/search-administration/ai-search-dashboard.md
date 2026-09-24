@@ -3,11 +3,11 @@ title: AI Search dashboard
 description: The AI Search dashboard summarizes AI Search indexed documents, configuration settings in use, and search query traffic. An interactive filter enables users to select the time frame for analysis of search query traffic.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/ai-search-dashboard.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Advanced AI Search Management Tools, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -22,7 +22,7 @@ The AI Search dashboard summarizes AI Search indexed documents, configuration se
 
 To access the dashboard, navigate to **All** &gt; **AI Search** &gt; **AI Search Analytics** &gt; **Search Index Analytics**.
 
-**Note:** If the dashboard displays a `Read operation on table '<name>' from scope 'Advanced AI Search Management Tools' was denied` informational message, ask your administrator to perform the steps described in [Create a cross-scope access privilege for the AI Search dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ais-dashboards-cross-scope-access.md) for the listed table.
+**Note:** If the dashboard displays a `Read operation on table '<name>' from scope 'Advanced AI Search Management Tools' was denied` informational message, ask your administrator to perform the steps described in [Create a cross-scope access privilege for the AI Search dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/ais-dashboards-cross-scope-access.md) for the listed table.
 
 ## Required ServiceNow AI Platform® roles
 

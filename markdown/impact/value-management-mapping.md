@@ -3,11 +3,11 @@ title: Value Management tables
 description: Following are the tables that are synced with your business objectives, business outcomes, and value management metrics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/value-management-mapping.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Table and field level mapping, Impact reference, Impact]
+breadcrumb: [Table and field level mapping, Data synchronization reference, Impact reference, Impact]
 ---
 
 # Value Management tables
@@ -43,5 +43,5 @@ Following are the tables that are synced with your business objectives, business
 |sys\_updated\_by|sn\_impact\_cust\_outcome\_performance|sys\_updated\_by|x\_snc\_octane\_bvmp\_operational\_performance|
 |executive\_summary|sn\_impact\_cust\_outcome\_performance|executive\_summary|x\_snc\_octane\_bvmp\_operational\_performance|
 
-**Parent Topic:**[Table and field level mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/table-field-level-mapping.md)
+**Parent Topic:**[Table and field level mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/table-field-level-mapping.md)
 

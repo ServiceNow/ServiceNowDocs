@@ -3,11 +3,11 @@ title: Configuring Time Recording for Field Service
 description: Agents record time worked on tasks and activities. Time recorded entries automatically generate time cards and time sheets for approval by managers. Configuring time recording is optional, but will save Field Service agents from having to record their time manually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/Configuring-time-recording.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Work order tasks, Set up work orders and tasks, Configure, Field Service Management]
 ---
@@ -18,7 +18,7 @@ Agents record time worked on tasks and activities. Time recorded entries automat
 
 The time recording feature extends the functionality of the Time card management application to Field Service Management. Agents can record time worked on tasks from the Work Order Task form and time spent on other activities, such as meetings or training, from the Time Worked form. Time worked entries automatically create time cards for each selected work category. Time cards are automatically included in a weekly time sheet.
 
-The time recording feature also extends the functionality of the [Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/r_CostManagement.md) application to Field Service Management. Managers can view and create rate types and labor rate cards and also view expense lines. Time sheets use [labor rate cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/c_TaskAndLaborRateCards.md) to determine costs.
+The time recording feature also extends the functionality of the [Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/r_CostManagement.md) application to Field Service Management. Managers can view and create rate types and labor rate cards and also view expense lines. Time sheets use [labor rate cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/c_TaskAndLaborRateCards.md) to determine costs.
 
 Agents can modify the hours recorded on time cards. Once a time sheet is approved and a time card is processed, the agent can still go back and modify the time worked. The time sheet reverts to the **Pending** state and new time cards are created. If an agent adds more time worked records to an approved time sheet for the same week, a new time sheet record is created for the current week.
 
@@ -39,11 +39,11 @@ The Time Card form and the Time Sheet form have a Field Service view. For users 
 
 The steps for setting up Time Recording for Field Service are:
 
-1.  [Activate Time Recording for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/Activate-time-recording.md)
+1.  [Activate Time Recording for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/Activate-time-recording.md)
 
     Install the Time Recording for Field Service plugin \(com.snc.wm\_time\_recording\) for if you have the admin role.
 
-2.  [Configure time recording categories for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/configure-time-categories.md)
+2.  [Configure time recording categories for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/configure-time-categories.md)
 
     Create time recording categories to accurately track the work that Field Service technicians do. For example, you may want to create a category called Training if there are regular trainings technicians complete.
 

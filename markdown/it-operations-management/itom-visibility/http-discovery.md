@@ -3,11 +3,11 @@ title: HTTP device discovery
 description: Discovery can find devices that use the HTTP protocol.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/http-discovery.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Network device discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -28,8 +28,8 @@ The HTTP port probe uses mappings between a protocol and port number in the IP S
 |----------|------|-------|
 | |HTTP \(port probe\): this probe launches the HTTP - Classify probe, which runs an HTTP GET request for every entry in the HTTP classification table.| |
 
--   **[Run discovery through an HTTP or HTTPS REST call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/run-http-discovery.md)**  
+-   **[Run discovery through an HTTP or HTTPS REST call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/run-http-discovery.md)**  
 Discovery can classify devices using the HTTP\(S\) protocol. You can create your own HTTP classifier to find devices and access them with Basic Auth credentials, rather than using SNMP or SSH credentials.
 
-**Parent Topic:**[Network device discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_NetworkDevices.md)
+**Parent Topic:**[Network device discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/c_NetworkDevices.md)
 

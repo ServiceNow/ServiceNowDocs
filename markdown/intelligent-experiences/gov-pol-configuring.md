@@ -3,12 +3,12 @@ title: Configuring policies in AI Control Tower
 description: Set up policies in AI Control Tower by configuring control enforcement points.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-pol-configuring.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, configure]
-breadcrumb: [Controlling AI asset usage, Govern AI assets, AI Control Tower, Enable AI experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, configure]
+breadcrumb: [Controlling AI asset usage, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Configuring policies in AI Control Tower
@@ -19,5 +19,5 @@ Set up policies in AI Control Tower by configuring control enforcement points.
 
 Setting up policies involves defining where polices can run by configuring control enforcement points.
 
-For steps to configure AI agent containment automatically, see [Configure automatic AI agent containment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-pol-configure-ai-agent-containment.md).
+For steps to configure AI agent containment automatically, see [Configure automatic AI agent containment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-configure-ai-agent-containment.md).
 

@@ -3,11 +3,11 @@ title: SFTP File Transfer workflow
 description: The SFTP File Transfer activity pack includes a scoped workflow that uses multiple activities to manage files on SFTP servers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/r\_SFTPWorkflow.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [SFTP File Transfer activity pack, Orchestration activity packs, Classic Orchestration, Workflow Data Fabric]
 ---
@@ -356,7 +356,7 @@ Credential tag for source
 
 </td><td>
 
-Specific [Credential aliases for Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_AssignCredsOrchActivities.md) this activity must use to run SSH commands on the source host.
+Specific [Credential aliases for Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_AssignCredsOrchActivities.md) this activity must use to run SSH commands on the source host.
 
 </td><td>
 
@@ -386,5 +386,5 @@ When selecting the files to move from the source host, the system uses this logi
     -   If the **Exclude files** field contains file names, the system moves all the files from the source directory and its subfolders except those excluded files.
 -   When the **Include subfolders** check box is cleared, the system looks only in the source directory for files to move or exclude.
 
-**Parent Topic:**[SFTP File Transfer activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationSFTPActivityPack.md)
+**Parent Topic:**[SFTP File Transfer activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/c_OrchestrationSFTPActivityPack.md)
 

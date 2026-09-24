@@ -3,11 +3,11 @@ title: Set up the User Deleting Bash History playbook
 description: Use the following steps to set up the User Deleting Bash History playbook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-setup-deleting-bash-history.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Playbook for User Deleting Bash History - Cloud, Flow-based Playbooks, Security Incident Response playbooks, Playbook Resources, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -46,5 +46,5 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
     This playbook is triggered and associated with the security incident when the **Category** is **Insider Breach**.
 
 
-**Parent Topic:**[Playbook for User Deleting Bash History - Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-deleting-bash-history.md)
+**Parent Topic:**[Playbook for User Deleting Bash History - Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/playbook-deleting-bash-history.md)
 

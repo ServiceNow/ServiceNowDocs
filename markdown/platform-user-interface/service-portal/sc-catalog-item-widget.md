@@ -3,11 +3,11 @@ title: SC Catalog Item widget
 description: Use this widget \(widget-sc-cat-item-v2\) to view the information about a catalog item and order the item. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/sc-catalog-item-widget.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Service Catalog widgets, Widget library, Using portal widgets, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -16,9 +16,9 @@ breadcrumb: [Service Catalog widgets, Widget library, Using portal widgets, Conf
 
 Use this widget \(widget-sc-cat-item-v2\) to view the information about a catalog item and order the item. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 
-Configure [catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_IntroductionToCatalogItems.md) using the Service Catalog in the platform UI by navigating to **Service Catalog** &gt; **Catalog Definitions** &gt; **Maintain Items**.
+Configure [catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_IntroductionToCatalogItems.md) using the Service Catalog in the platform UI by navigating to **Service Catalog** &gt; **Catalog Definitions** &gt; **Maintain Items**.
 
-Catalog variables determine what information your users are allowed to select from, for example, color, size, or price. For more information on defining the variables for a catalog item, see [Create a service catalog variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAVariableForACatalogItem.md).
+Catalog variables determine what information your users are allowed to select from, for example, color, size, or price. For more information on defining the variables for a catalog item, see [Create a service catalog variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateAVariableForACatalogItem.md).
 
 ## Instance options
 
@@ -100,7 +100,7 @@ For example, if you want to change the label to **Request**, press Ctrl+click on
 		}
 ```
 
-**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sc-widgets.md)
+**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/sc-widgets.md)
 
 **Related topics**  
 
@@ -143,5 +143,5 @@ For example, if you want to change the label to **Request**, press Ctrl+click on
 
 [Clone a widget]()
 
-[Request a catalog item from Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/request-cat-item-portal.md)
+[Request a catalog item from Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/request-cat-item-portal.md)
 

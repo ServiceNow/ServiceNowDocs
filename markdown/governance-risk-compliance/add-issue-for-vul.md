@@ -1,16 +1,16 @@
 ---
-title: Add or create an issue
+title: Add or create an issue for the operational vulnerability
 description: Add an existing issue from the available issues or create an issue for the Operational vulnerability.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-issue-for-vul.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing Operational vulnerability, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Add or create an issue
+# Add or create an issue for the operational vulnerability
 
 Add an existing issue from the available issues or create an issue for the Operational vulnerability.
 
@@ -30,15 +30,15 @@ While addressing the Operational vulnerability, an issue can be in the open stat
 
 3.  Select the Issues related list and add or create an issue.
 
-<table id="choicetable_d5s_yl5_yvb"><thead><tr><th align="left" id="d157387e108">
+<table id="choicetable_d5s_yl5_yvb"><thead><tr><th align="left" id="d159467e108">
 
 Option
 
-</th><th align="left" id="d157387e111">
+</th><th align="left" id="d159467e111">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d157387e117">
+</th></tr></thead><tbody><tr><td id="d159467e117">
 
 **To add an existing issue**
 
@@ -49,13 +49,13 @@ Action
 3.  Select **Add**.
 
 
-</td></tr><tr><td id="d157387e143">
+</td></tr><tr><td id="d159467e143">
 
 **To create an issue**
 
 </td><td>
 
-Create an issue. Follow the steps in the [Create Issue form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-issue-opres-ws.md).
+Create an issue. Follow the steps in the [Create Issue form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-new-issue-opres-ws.md).
 
 </td></tr></tbody>
 </table>4.  Select **Save**.

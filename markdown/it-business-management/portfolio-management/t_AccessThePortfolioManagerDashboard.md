@@ -3,11 +3,11 @@ title: Access the Portfolio Dashboard
 description: View different graphical reports on the PMO Dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-management/t\_AccessThePortfolioManagerDashboard.html
-release: australia
+release: brazil
 product: Portfolio Management
 classification: portfolio-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Portfolio Dashboard, Portfolio Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -27,5 +27,5 @@ Role required: it\_portfolio\_manager
     The PMO Dashboard is displayed.
 
 
-**Parent Topic:**[Portfolio Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/c_PortfolioManagerDashboard.md)
+**Parent Topic:**[Portfolio Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-management/c_PortfolioManagerDashboard.md)
 

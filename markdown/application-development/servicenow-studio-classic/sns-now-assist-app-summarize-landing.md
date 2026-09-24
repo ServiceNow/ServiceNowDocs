@@ -3,11 +3,11 @@ title: App summary generation
 description: Use the ServiceNow Otto for Creator application to use generative AI for summarizing an app. With a single button, ServiceNow Otto for Creator generates the app summary that you can then copy to the app description, or use to find duplicate apps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-landing.html
-release: australia
+release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Now Assist, generative AI]
 breadcrumb: [AI tools and files, Use, ServiceNow Studio, Developing your application, Building applications]
@@ -23,19 +23,19 @@ Use the ServiceNow Otto for Creator application to use generative AI for summari
 
 <table id="table_wgj_xvj_12c" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about summarizing apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-exploring-now-assist-app-summarize.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about summarizing apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/sns-exploring-now-assist-app-summarize.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up app summary generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-config-now-assis-app-summarize.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up app summary generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/sns-config-now-assis-app-summarize.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Generate a summary of your app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/summarize-an-app-in-servicenow-studio.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Generate a summary of your app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/summarize-an-app-in-servicenow-studio.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about properties, roles, and more](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about properties, roles, and more](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-reference.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -68,16 +68,16 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about applications \(and associated application files\) in which App generation was utilized. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about applications \(and associated application files\) in which App generation was utilized. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
--   **[Exploring ServiceNow Otto for app summary generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-exploring-now-assist-app-summarize.md)**  
+-   **[Exploring ServiceNow Otto for app summary generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/sns-exploring-now-assist-app-summarize.md)**  
 With the ServiceNow Otto for Creator application, you can generate a summary of an app. You can then copy the summary to the description for the app, and use it to check for duplicate apps.
--   **[Configuring ServiceNow Otto for app summary generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-config-now-assis-app-summarize.md)**  
+-   **[Configuring ServiceNow Otto for app summary generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/sns-config-now-assis-app-summarize.md)**  
 Enable the app summary generation skill in the ServiceNow Otto for Creator application so that you can get started with summarizing applications.
--   **[Summarize the contents of an app in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/summarize-an-app-in-servicenow-studio.md)**  
+-   **[Summarize the contents of an app in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/summarize-an-app-in-servicenow-studio.md)**  
 Generate a summary of your app using ServiceNow Otto for Creator in ServiceNow Studio. After reviewing the summary, you can use it as a description for your app.
--   **[ServiceNow Otto for app summary generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-reference.md)**  
+-   **[ServiceNow Otto for app summary generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-reference.md)**  
 The following roles are required for use with the ServiceNow Otto for Creator app summary generation skill.
 
-**Parent Topic:**[AI tools and files in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/working-with-now-assist-tools-sn-studio.md)
+**Parent Topic:**[AI tools and files in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/working-with-now-assist-tools-sn-studio.md)
 

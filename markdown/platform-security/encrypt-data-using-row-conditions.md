@@ -3,9 +3,9 @@ title: Encrypt data using Row Conditions
 description: Encrypt fields with multiple Field Encryption modules using Row Conditions to define the data being encrypted and the associated encryption keys. Row Conditions can also be used to define the users that have access using the condition builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/encrypt-data-using-row-conditions.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Using multiple encryption modules, Using Field Encryption, Field Encryption, Encryption]
 ---
@@ -41,7 +41,7 @@ The field is encrypted by the encryption module of the first user to enter data.
 
 2.  Navigate to **System Security** &gt; **Field Encryption** &gt; **Encrypted Field Experience** &gt; **Create new module**.
 
-    If you need more information on Encrypted Field Configurations, see [Set encrypted field configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/set-encrypted-field-config.md).
+    If you need more information on Encrypted Field Configurations, see [Set encrypted field configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/set-encrypted-field-config.md).
 
 3.  Select the **Table** and the **Column** in the table that you want to encrypt.
 
@@ -96,7 +96,7 @@ For encrypting the Short Description, you would do the following:
 
     -   Mass Encryption - Run this job when a new Row Condition is created.
     -   Mass Rekeying - Run this job when an existing Row Condition is modified.
-    See [Schedule mass encryption, decryption, and rekeying jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/schedule-mass-jobs.md).
+    See [Schedule mass encryption, decryption, and rekeying jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/schedule-mass-jobs.md).
 
 6.  Have a user from Module A and a user from Module B create an incident with a short description. Have both users view the list of incidents.
 
@@ -113,7 +113,7 @@ Perform one of the following operations:
 -   Schedule a **Mass Encryption** job to update the encryption of the condition field.
 -   If modifying an existing Row Condition run a **Mass Rekeying** job to encrypt necessary data with the updated encryption module.
 
-See [Schedule mass encryption, decryption, and rekeying jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/schedule-mass-jobs.md)
+See [Schedule mass encryption, decryption, and rekeying jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/schedule-mass-jobs.md)
 
-**Parent Topic:**[Using multiple encryption modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/using-multiple-encryption-modules.md)
+**Parent Topic:**[Using multiple encryption modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/using-multiple-encryption-modules.md)
 

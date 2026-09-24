@@ -3,13 +3,13 @@ title: Playbook summarization
 description: Use AI to generate overviews of a playbook's stages, activities, triggers, and inputs. Understand a playbook's purpose and flow without going into the details of what is being done at activity and stage level.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/playbook-summarization.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-05-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Creating and managing Playbooks, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
@@ -46,8 +46,8 @@ After a summary is generated, you can refine it using preset options or a custom
 
 The summarization feature tracks structural changes to a playbook. If the playbook has been modified since the last summary, a warning appears in the summary panel indicating that the summary may be outdated. You can then regenerate the summary using the **Refresh** option.
 
--   **[Generate a playbook summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/generate-playbook-summary.md)**  
+-   **[Generate a playbook summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/generate-playbook-summary.md)**  
 Generate an AI-generated summary of the stages, activities, triggers, and inputs of a playbook from the Workflow Studio canvas.
 
-**Parent Topic:**[Creating and managing Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/creating-managing-playbooks.md)
+**Parent Topic:**[Creating and managing Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/creating-managing-playbooks.md)
 

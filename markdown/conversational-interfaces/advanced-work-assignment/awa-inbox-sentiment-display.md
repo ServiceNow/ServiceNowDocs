@@ -3,11 +3,11 @@ title: Advanced Work Assignment Inbox Sentiment display
 description: Surface the sentiment in AWA Inbox for agents to get the visibility of requester sentiment \( if available\) during live agent handoff or agent transfer for all channels.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-inbox-sentiment-display.html
-release: australia
+release: brazil
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---

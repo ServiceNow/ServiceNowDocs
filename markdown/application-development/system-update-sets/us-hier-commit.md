@@ -3,11 +3,11 @@ title: Commit a batch of update sets
 description: You can commit at once all the update sets belonging to a batch.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/system-update-sets/us-hier-commit.html
-release: australia
+release: brazil
 product: System Update Sets
 classification: system-update-sets
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with batched update sets, System update sets, Deploying applications, Building applications]
 ---

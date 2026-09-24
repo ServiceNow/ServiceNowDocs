@@ -3,9 +3,9 @@ title: Create a clone preserver
 description: Create clone preservers to protect specific data on the target instance from being overwritten during a clone operation. Preservers allow you to retain existing target data while cloning source data for other tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-new-clone-preserver.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [clone preserver, data preserver, preserve data, clone conditions, target instance]
 breadcrumb: [Configure, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
@@ -19,7 +19,7 @@ Create clone preservers to protect specific data on the target instance from bei
 
 Role required: `clone_admin`
 
-Preserving large amounts of data can significantly increase your clone duration. When creating a preserver, use conditions to preserve only the data that you need. See [General guidelines for excluding a table from cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/clone-exclusions-guidelines.md) for optimization strategies.
+Preserving large amounts of data can significantly increase your clone duration. When creating a preserver, use conditions to preserve only the data that you need. See [General guidelines for excluding a table from cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/clone-exclusions-guidelines.md) for optimization strategies.
 
 **Tip:**
 

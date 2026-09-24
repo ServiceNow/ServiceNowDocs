@@ -3,11 +3,11 @@ title: Review the homepage destination rules for the Industrial Workspace
 description: Review the homepage destination rules for the Industrial Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/review-iw-homepage-destination-rules.html
-release: australia
+release: brazil
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Industrial Workspace, Operational Technology]
 ---
@@ -22,7 +22,7 @@ Role required: configure\_industrial\_workspace
 
 ## About this task
 
-The homepage destination rules redirect users to different pages in the Industrial Workspace based on user criteria. For more information about the homepage destination rules, see [Industrial Workspace homepage destination rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/industrial-workspace-homepage-destination-rules.md).
+The homepage destination rules redirect users to different pages in the Industrial Workspace based on user criteria. For more information about the homepage destination rules, see [Industrial Workspace homepage destination rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/industrial-workspace-homepage-destination-rules.md).
 
 ## Procedure
 
@@ -58,5 +58,5 @@ The homepage destination rules redirect users to different pages in the Industri
 
 The users, groups, and roles defined in the user criteria record are now automatically redirected to the selected page in the Industrial Workspace.
 
-**Parent Topic:**[Configuring the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/configuring-industrial-workspace.md)
+**Parent Topic:**[Configuring the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/configuring-industrial-workspace.md)
 

@@ -3,11 +3,11 @@ title: Software Publisher Analytics dashboard for SAP in Software Asset Manageme
 description: View your license compliance position for SAP on the Software Publisher Analytics dashboard in the Software Asset Management classic application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/dashboard-sap.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -27,6 +27,8 @@ The dashboard is updated whenever a new reconciliation result is available.
 |SAM user: Can view the dashboard to track SAP license compliance and potential savings.|sam\_user|
 
 ## SAP dashboard
+
+\[Omitted image "publisher-dashboard-sap.png"\] Alt text: Software Publisher Analytics dashboard for SAP.
 
 <table id="table_qc5_wn3_qfb"><thead><tr><th>
 
@@ -211,10 +213,12 @@ SAP System Users
 Number of SAP users that have indirect access to the SAP system.Users are given a score based on total CPU time, peak count, and steps.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sap-publisher-pack.md)
+</table>**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sap-publisher-pack.md)
 
 **Related topics**  
 
+
+[SAP publisher pack integration architecture]()
 
 [Tables installed with the SAP publisher pack]()
 
@@ -224,9 +228,9 @@ Number of SAP users that have indirect access to the SAP system.Users are given 
 
 [Establish an SAP connection using OAuth 2.0]()
 
-[Create entitlements for SAP]()
-
 [Create software models for SAP]()
+
+[Create entitlements for SAP]()
 
 [Create a custom SAP named user type]()
 

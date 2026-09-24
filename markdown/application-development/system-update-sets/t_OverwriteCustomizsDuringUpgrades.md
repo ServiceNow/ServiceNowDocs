@@ -3,11 +3,11 @@ title: Overwrite customizations during an upgrade
 description: Specify which customized objects you want to replace during the next upgrade. By default, the upgrade process skips changes to customized objects.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/system-update-sets/t\_OverwriteCustomizsDuringUpgrades.html
-release: australia
+release: brazil
 product: System Update Sets
 classification: system-update-sets
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, System update sets, Deploying applications, Building applications]
 ---
@@ -49,5 +49,5 @@ When updating to the latest software version, you can replace your custom change
     The customized object will be replaced on the next upgrade.
 
 
-**Parent Topic:**[Configuring System Update Sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/configure-system-update-sets.md)
+**Parent Topic:**[Configuring System Update Sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/system-update-sets/configure-system-update-sets.md)
 

@@ -3,11 +3,11 @@ title: Prioritize work
 description: Review and prioritize the items of your portfolio plan pipeline to add them to the plan's roadmap so that your teams can start working on them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/prioritize-work-portfolio-planning-workspace.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Prioritize portfolio plan work, Portfolio Planning, Strategic Portfolio Management]
@@ -19,7 +19,7 @@ Review and prioritize the items of your portfolio plan pipeline to add them to t
 
 ## Before you begin
 
--   [Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-portfolio-plan-in-portfolio-planning-workspace.md).
+-   [Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/create-portfolio-plan-in-portfolio-planning-workspace.md).
 -   Ensure that the planning items in the Prioritization page are sorted by the Rank column in ascending order.
 
 Role required: sn\_align\_core.apw\_user
@@ -36,15 +36,15 @@ Review and prioritize the items in the Prioritization or Hierarchy tab views dur
 
 3.  From the Prioritization or Hierarchy tab, mark a planning item as In Review or Prioritized.
 
-<table id="choicetable_knp_gs5_dwb"><thead><tr><th align="left" id="d296314e126">
+<table id="choicetable_knp_gs5_dwb"><thead><tr><th align="left" id="d297914e126">
 
 Tab
 
-</th><th align="left" id="d296314e129">
+</th><th align="left" id="d297914e129">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d296314e135">
+</th></tr></thead><tbody><tr><td id="d297914e135">
 
 **Prioritization**
 
@@ -54,7 +54,7 @@ Update the **Planning state** field of the item.
 
  \[Omitted image "backlog-planning-state.png"\] Alt text: Planning state update in Prioritization page.
 
-</td></tr><tr><td id="d296314e157">
+</td></tr><tr><td id="d297914e157">
 
 **Hierarchy**
 

@@ -3,11 +3,11 @@ title: View CI information with the ServiceNow Otto CI summarization skill
 description: View a concise summary of key CI data. You can select the CI on a CI form, in a workspace page, or on any list view. The summary can include discovery data, ownership, and key related items such as open incidents, alerts, problems, upcoming change requests, and security vulnerabilities. Additionally, the summary lists the service instances that the CI is part of.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-agent-ci-summarizer.html
-release: australia
+release: brazil
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use generative AI skills, ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_cmdb\_user
 
 This procedure describes how you can manually access the skill. In addition, any agentic workflow can use the skill.
 
-When a ServiceNow Otto skill is enabled, the ServiceNow Otto icon \[Omitted image "icon-otto-outline-24.svg"\] appears in the toolbar of the workspace. For more information, see [Working in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+When a ServiceNow Otto skill is enabled, the ServiceNow Otto icon \[Omitted image "icon-otto-outline-24.svg"\] icon appears in the toolbar of the workspace. For more information, see [Working in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 ## Procedure
 
@@ -42,15 +42,15 @@ When a ServiceNow Otto skill is enabled, the ServiceNow Otto icon \[Omitted imag
 
 3.  Provide feedback, copy the response text to the clipboard, or refresh the response.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d394802e163">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d392986e163">
 
 Option
 
-</th><th align="left" id="d394802e166">
+</th><th align="left" id="d392986e166">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d394802e172">
+</th></tr></thead><tbody><tr><td id="d392986e172">
 
 **Provide feedback for the summary**
 
@@ -58,7 +58,7 @@ Procedure
 
 If you think that the response was helpful, select thumbs-up \[Omitted image "icon-thumbs-up.png"\]. If you think that it wasn’t helpful, select thumbs-down \[Omitted image "icon-thumbs-down.png"\].This feedback improves the agentic AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated response and stores it in the agentic AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d394802e187">
+</td></tr><tr><td id="d392986e187">
 
 **Copy the summary**
 
@@ -66,7 +66,7 @@ If you think that the response was helpful, select thumbs-up \[Omitted image "ic
 
 Select the copy to clipboard icon \[Omitted image "icon-clipboard.png"\] to use the response information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d394802e198">
+</td></tr><tr><td id="d392986e198">
 
 **Refresh the summary**
 
@@ -79,5 +79,5 @@ If you think that data might have changed after you viewed the response, select 
 **Related topics**  
 
 
-[Configure the CI summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-config-ci-summary.md)
+[Configure the CI summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-config-ci-summary.md)
 

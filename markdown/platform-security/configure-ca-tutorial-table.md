@@ -3,9 +3,9 @@ title: Tutorial: Configure Continuous Authentication for a Table
 description: Procedure that describes end to end configuration of continuous authentication policy for a table and the impacts to the users due to the configuration changes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/configure-ca-tutorial-table.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring CA, Continuous Authentication \(CA\), Zero Trust Access, Access Management]
 ---
@@ -21,9 +21,9 @@ Procedure that describes end to end configuration of continuous authentication p
     **Note:** You must elevate your role to **ca\_admin**.
 
 -   You must install the **Zero Trust - Continuous Authentication** \(`com.snc.zero_trust_continuous_authentication`\) for opting CA which requires a license.
--   Enable the Continuous Authentication \(**glide.zta.continuous\_authentication.enabled**\) system property. For more information, see [System properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ca-system-properties.md).
+-   Enable the Continuous Authentication \(**glide.zta.continuous\_authentication.enabled**\) system property. For more information, see [System properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/ca-system-properties.md).
 -   Activate the Integration - Multiple Provider Single Sign-On Installer \(**com.snc.integration.sso.multi.installer**\) plugin.
--   Understand the pre-work that is required before configuring CA for the instance. For more information, see [Pre-work for Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/pre-work-ca.md).
+-   Understand the pre-work that is required before configuring CA for the instance. For more information, see [Pre-work for Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/pre-work-ca.md).
 
 ## Procedure
 
@@ -79,9 +79,9 @@ Select the **Table**.**Note:**
 
     -   **SSO based login**: Specify the fields in the **Continuous Authentication** tab within the Identity Provider record and the set the Identity Provider record as **Active**. \[Omitted image "ca-tab.png"\] Alt text: Continuous Authentication - tab information
 
-        To know more about Identity Providers configuration, see [OIDC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-OIDC-configuration-SSO.md) and [SAML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_CreateASAML2Upd1SSOConfigMultiSSO.md).
+        To know more about Identity Providers configuration, see [OIDC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/create-OIDC-configuration-SSO.md) and [SAML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/t_CreateASAML2Upd1SSOConfigMultiSSO.md).
 
-    -   **Non-SSO based login**: By default, if there are no Identity Provider with Continuous Authentication configuration, Multi-factor Authentication \(MFA\) is used as a login method. Make sure the MFA properties are Active and configured based on your requirement. To know more about MFA properties, see [Multi-factor Authentication system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-properties.md).
+    -   **Non-SSO based login**: By default, if there are no Identity Provider with Continuous Authentication configuration, Multi-factor Authentication \(MFA\) is used as a login method. Make sure the MFA properties are Active and configured based on your requirement. To know more about MFA properties, see [Multi-factor Authentication system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/mfa-properties.md).
 5.  Select **Save &amp; Activate**.
 
 
@@ -115,9 +115,9 @@ An high assurance session is now established for the user. High assurance sessio
 **Related topics**  
 
 
-[Configuring Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-ca.md)
+[Configuring Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/configure-ca.md)
 
-[High Assurance session with Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/high-assurance-ca.md)
+[High Assurance session with Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/high-assurance-ca.md)
 
-[Exploring Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/explore-continuous-auth.md)
+[Exploring Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/explore-continuous-auth.md)
 

@@ -3,11 +3,11 @@ title: Create a risk indicator
 description: Create a risk indicator to identify the possibility of a future adverse impact on your organization. Indicators are an early warning system, and they enable you to take preventative action on the risks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/create-risk-indicator.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -324,5 +324,5 @@ Previous status of the indicator to show whether the indicator passed or failed.
 
 The risk indicator is created and is ready to be executed.
 
-**Parent Topic:**[Using Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-mgmt.md)
+**Parent Topic:**[Using Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-mgmt.md)
 

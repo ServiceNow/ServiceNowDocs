@@ -3,9 +3,9 @@ title: View installed RPA Hub plugins
 description: View a list of available RPA Hub plugins, the plugin versions, and dependency packs to verify the availability of a specific version that you want to install and use on the RPA Desktop Design Studio.Use the installed RPA plugins form to view a list of available RPA Hub plugins, the plugin versions, and dependency packs to verify the availability of a specific version that you want to install and use on the RPA Desktop Design Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/view-installed-rpa-plugins.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Monitor, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -41,7 +41,7 @@ Robotic Process Automation \(RPA\) plugins are beneficial as they reduce the dev
 6.  On the **Installed RPA Plugin - Dependency Pack** tab, select a dependency pack to view the details.
 
 
-**Parent Topic:**[Monitoring automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/monitoring-automations-rpa.md)
+**Parent Topic:**[Monitoring automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/monitoring-automations-rpa.md)
 
 ## Installed RPA plugins form
 

@@ -3,11 +3,11 @@ title: Event forwarding properties
 description: Several system properties enable you to customize an event forwarding job.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/event-forwarding-properties-em.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -83,5 +83,5 @@ Enables or disables debug logging for event forwarding. Set this property to tru
 -   **Default value**: False
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-management-reference.md)
+</table>**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/event-management-reference.md)
 

@@ -3,11 +3,11 @@ title: Revert normalization
 description: You can revert the normalization of enterprise models in the Enterprise Asset Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/revert-norm-eam.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Normalizing enterprise models, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---

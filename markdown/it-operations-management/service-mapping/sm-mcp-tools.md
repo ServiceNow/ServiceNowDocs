@@ -3,12 +3,12 @@ title: Service Mapping MCP tools reference
 description: Details on the six Service Mapping MCP tools, including their inputs, outputs, and example natural-language queries for use with Claude, and service creation workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/sm-mcp-tools.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: reference
-last_updated: "2026-05-20"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 keywords: [MCP tools, Service Mapping, get\_all\_application\_service\_names, get\_all\_application\_service\_for\_server, get\_application\_service\_topology, get\_server\_impact\_graph, get\_unmapped\_topology, create\_top\_down\_service, reference, Now Assist, CMDB]
 breadcrumb: [Service Mapping MCP tools, AI in Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -19,7 +19,7 @@ Details on the six Service Mapping MCP tools, including their inputs, outputs, a
 
 The CMDB MCP Server exposes six tools that an MCP-compatible AI client can invoke to retrieve application service data from a ServiceNow instance and create application services. Five tools are read-only and do not create, update, or delete records. One tool, create\_top\_down\_service, creates application service records and initiates Service Mapping discovery.
 
-The create\_top\_down\_service tool requires the sm\_mcp\_admin role. The five read-only tools require sm\_mcp\_user.
+All six tools require the sm\_mcp\_user role.
 
 The following five tools retrieve application service data without modifying records:
 
@@ -98,7 +98,7 @@ Given a server CI, returns all CIs related to it via CMDB relationships and all 
 
 -   **Input**
 
-    Server CI name or System ID.
+    **server\_names**: Required. One or more server CI names or system IDs, comma-separated.
 
 -   **Output**
 
@@ -136,13 +136,13 @@ Starting from a single server or application CI, returns the CIs reachable from 
     -   "Use the ServiceNow Service Mapping tool, get\_unmapped\_topology, to show me what's connected to server db-cluster-02 by traffic only."
     -   "Use the ServiceNow Service Mapping tool, get\_unmapped\_topology, starting from application server app-01."
 
-## create\_top\_down\_service
+## create\_top\_down\_application\_service
 
 Creates an application service record from one or more entry points \(HTTP URLs or TCP host-and-port pairs\). The user provides a unique service name and at least one entry point that isn't already used by another service. The user can also provide optional metadata details. Each entry point's type is automatically detected from its format.
 
 -   **Role requirement**
 
-    Requires the sm\_mcp\_admin role. This tool has an operation-level ACL evaluated in addition to the endpoint-level ACL that applies to all six tools. Users with only sm\_mcp\_user role receive a 403 authorization error.
+    Requires the sm\_mcp\_user role, the same endpoint-level ACL that applies to all six tools.
 
 -   **Input**
 
@@ -185,9 +185,9 @@ Creates an application service record from one or more entry points \(HTTP URLs 
     -   "We need to map our new authentication service. Create it in Service Mapping with the entry point https://auth.acme.com, then once it's created show me the topology so I can confirm it exists"
 -   **Usage notes**
     -   To give one service multiple entry points, pass them all in a single entry\_points array rather than calling the tool once per entry point.
-    -   For bulk service creation across separate services, invoke create\_top\_down\_service multiple times with different service names. Each invocation is independent.
+    -   For bulk service creation across separate services, invoke create\_top\_down\_application\_service multiple times with different service names. Each invocation is independent.
     -   The service created by this tool can be queried immediately with get\_application\_service\_topology.
     -   If you provide all optional metadata fields at creation time, all service properties will be populated in a single call, reducing the number of follow-up edits needed.
 
-**Parent Topic:**[Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-mcp-server.md)
+**Parent Topic:**[Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/service-mapping-mcp-server.md)
 

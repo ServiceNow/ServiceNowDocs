@@ -3,11 +3,11 @@ title: Add sprints from the program planning board
 description: Add sprints to your scrum teams directly from the scrum program planning board without having to navigate to another module.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/add-sprints-from-planning-page.html
-release: australia
+release: brazil
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Scrum program planning board, Scrum Programs for Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
@@ -86,5 +86,5 @@ Number of sprints that you want to add to the team.For example, if you want to a
     You can see new sprints for the team on the program planning board.
 
 
-**Parent Topic:**[Scrum program planning board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/planning-scrum-program-overview.md)
+**Parent Topic:**[Scrum program planning board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/planning-scrum-program-overview.md)
 

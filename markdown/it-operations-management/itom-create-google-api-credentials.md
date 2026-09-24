@@ -3,9 +3,9 @@ title: Configure the Google API credentials for Cloud Discovery
 description: Create Google API credentials to allow Cloud Discovery to access the data on your Google account securely.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-create-google-api-credentials.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up Google Cloud Platform service accounts, Set up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
 ---
@@ -28,15 +28,15 @@ Role required: discovery\_admin
 
 1.  Configure the GCP credentials either by importing a JSON file or by filing in the record manually.
 
-<table id="choicetable_fch_mpt_c1c"><thead><tr><th align="left" id="d380217e93">
+<table id="choicetable_fch_mpt_c1c"><thead><tr><th align="left" id="d382429e93">
 
 Option
 
-</th><th align="left" id="d380217e96">
+</th><th align="left" id="d382429e96">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d380217e102">
+</th></tr></thead><tbody><tr><td id="d382429e102">
 
 **Import the JSON file**
 
@@ -50,7 +50,7 @@ Actions
 6.  Select **Upload Credential Data**.
 
 
-</td></tr><tr><td id="d380217e165">
+</td></tr><tr><td id="d382429e165">
 
 **Configure the credentials manually**
 
@@ -61,12 +61,12 @@ Actions
 3.  Select **New**.
 4.  In the form, fill in the fields according to the form description.
 
-For description of the form fields, see [Google API Credentials Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/google-api-credentials-form.md).
+For description of the form fields, see [Google API Credentials Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/google-api-credentials-form.md).
 
 5.  Select **Submit**.
 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Set up Google Cloud Platform service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/set-up-gcp-service-accounts.md)
+**Parent Topic:**[Set up Google Cloud Platform service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/set-up-gcp-service-accounts.md)
 

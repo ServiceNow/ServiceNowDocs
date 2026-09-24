@@ -3,9 +3,9 @@ title: Phase task form
 description: Phase task form enables you to add the details of the recall phase.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-phase-task-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Repair form, Reference, Manufacturing Commercial Operations]
 ---
@@ -98,10 +98,10 @@ Description
 Detailed description of the phase task.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/repair-form.md)
+</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/repair-form.md)
 
 **Related topics**  
 
 
-[Adding a phase task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-phase-task.md)
+[Adding a phase task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-phase-task.md)
 

@@ -3,12 +3,12 @@ title: Setup checklist for the GRC Advanced Audit application
 description: Complete the checklist that includes the setup tasks required to complete in your ServiceNow AI Platform instance. When you have completed these tasks, the base system is ready for operation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/setup-checklist-adv-audit.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Configure, Audit Management, Governance, Risk, and Compliance]
 ---
 
@@ -30,20 +30,12 @@ Consider creating and printing a PDF of this checklist topic. You can then check
 
     Audit Management application checklist:
 
-    1.  \[Omitted image "checkbox.png"\] Alt text: As an audit manager and IT project manager, create an audit plan to manage different audit types and group engagements logically. For details, see [Create an audit plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/create-audit-plan.md)
-    2.  \[Omitted image "checkbox.png"\] Alt text: As an audit user or an audit manager, create auditable units with entities such as business units, departments, vendors, products, business processes, business applications, locations, authority documents, and policies.
-
-        Perform risk assessments on the auditable units.
-
-        For details, see [Create an auditable unit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/create-auditable-unit.md)
-
-    3.  \[Omitted image "checkbox.png"\] Alt text: As an audit manager, use the advanced planning capabilities to create an engagement that automatically creates an engagement project. For details, see [Create an engagement with advanced planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/creating-an-engagement-with-advance-planning.md)
-    4.  \[Omitted image "checkbox.png"\] Alt text: As an audit manager, create milestones that can be used to track the progress of an engagement.
-
-        After you create milestones for an engagement, you can also add audit tasks to the milestone and track those tasks as milestones. For details see, [Create an engagement milestone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/create-milestones.md)
-
-    5.  \[Omitted image "checkbox.png"\] Alt text: As a resource user, you can create a resource plan from the Resource Management application for any task such as demand, project, project task, incident, problem, or change. You can edit and adjust the plan until you submit it for approval. For details see, [Create a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/t_CreateResourcePlanProjectTask.md)
-    6.  \[Omitted image "checkbox.png"\] Alt text: As an IT project manager, create a cost plan to specify the unit cost of a cost type for a fiscal period. Project cost plans capture the costs of projects. For details see, [Create a cost plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/t_CreateAProjectCostPlan.md)
-    7.  \[Omitted image "checkbox.png"\] Alt text: Audit observations are the results of an audit. As an important part of the audit report, audit observations represent the results of reviews, analysis, interviews, and discussions. For details see, [Audit observations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/audit-observations.md)
-    8.  \[Omitted image "checkbox.png"\] Alt text: As an audit user, request evidence. Evidence request is used by audit and compliance teams for requesting supporting documents during an audit. Auditors and compliance teams require these documents from the first line of defense. For details see, [Request evidence for audit using two-step process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/request-evidence.md)
+    -   \[Omitted image "checkbox.png"\] Alt text: Create an audit plan to manage audits and group engagements.
+    -   \[Omitted image "checkbox.png"\] Alt text: Create auditable units and perform risk assessments.
+    -   \[Omitted image "checkbox.png"\] Alt text: Use advanced planning to create an engagement and engagement project.
+    -   \[Omitted image "checkbox.png"\] Alt text: Create milestones to track engagement progress and audit tasks.
+    -   \[Omitted image "checkbox.png"\] Alt text: Create a resource plan for tasks.
+    -   \[Omitted image "checkbox.png"\] Alt text: Create a cost plan for fiscal periods.
+    -   \[Omitted image "checkbox.png"\] Alt text: Create audit observations from reviews and analysis.
+    -   \[Omitted image "checkbox.png"\] Alt text: Request evidence and supporting documents.
 

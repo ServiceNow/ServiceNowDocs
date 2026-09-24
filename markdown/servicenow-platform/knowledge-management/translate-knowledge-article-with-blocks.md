@@ -3,11 +3,11 @@ title: Translate knowledge blocks within an article
 description: If a selected article indicates that a knowledge block is missing a translation, you must translate the knowledge block before you can translate the article.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/translate-knowledge-article-with-blocks.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use translation management, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -35,10 +35,10 @@ Role required: translator
     The newly translated blocks appears in the **Translated Block Versions** related list.
 
 
-**Parent Topic:**[Use translation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/use-translation-management.md)
+**Parent Topic:**[Use translation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/use-translation-management.md)
 
 **Related topics**  
 
 
-[Add knowledge blocks to a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/add-knowledge-block-to-knowledge-article.md)
+[Add knowledge blocks to a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/add-knowledge-block-to-knowledge-article.md)
 

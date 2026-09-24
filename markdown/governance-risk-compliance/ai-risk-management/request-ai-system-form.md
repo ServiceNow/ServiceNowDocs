@@ -3,12 +3,13 @@ title: Request an AI use case form
 description: The Request an AI use case form is designed to streamline the request process for developing or procuring an AI-based solution. This intake form confirms that all necessary details, supporting documents, and compliance considerations are captured before moving forward with development and deployment of the AI-solution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/request-ai-system-form.html
-release: australia
+release: brazil
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
+keywords: [request AI use case form, AI system intake form, intake fields]
 breadcrumb: [Request an AI use case, Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
@@ -36,7 +37,7 @@ Name
 
 </td><td>
 
-A name for the AI use case or AI system. For example, `AI-Based Credit Scoring for Loan Approvals`.
+Unique name for the AI use case or AI system. For example, `AI-Based Credit Scoring for Loan Approvals`.
 
 </td></tr><tr><td>
 
@@ -52,7 +53,7 @@ The following options are available.
 -   Deployed
 -   Development
 
-For more information on states, see [AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-asset-lifecycle.md).**Note:** This field is available in the Request an AI use case form on the Employee Center.
+For more information on states, see [AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-asset-lifecycle.md).**Note:** This field is available in the Request an AI use case form on the Employee Center.
 
 </td></tr><tr><td>
 
@@ -130,13 +131,15 @@ Select one or more business applications to associate with the AI system.
 
  Associating a business application creates an association between the AI system and the selected application.
 
- For more information, see [AI Control Tower integration with Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-aict.md).
+ For more information, see [AI Control Tower integration with Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-aict.md).
 
  **Note:**
 
 -   You can select multiple business applications.
 -   If you do not select a business application, intake and onboarding continue without interruption.
 -   Retired business applications are not available for selection.
+
+ **Note:** The **Business application** field is only displayed if the Enterprise Architecture Workspace version meets the minimum requirement. The field requires Enterprise Architecture Workspace version 9.0.1 or later for Zurich, or version 8.0.3 or later for Australia. If your instance does not meet the minimum version, this field does not appear on the form.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -295,5 +298,5 @@ Additional use and purpose details
 Additional information or context that helps clarify the specific use and purpose of this AI system.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Request an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/request-ai-system.md)
+</table>**Parent Topic:**[Request an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/request-ai-system.md)
 

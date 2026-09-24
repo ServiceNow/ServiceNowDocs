@@ -3,11 +3,11 @@ title: Create a data refresh rule
 description: Specify data refresh rules to determine if a CI is stale for a specific discovery source. Such CIs can then be updated by a lower-priority authorized discovery source.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/create-datasource-staleness-rule.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Reconciliation rules, Configure, CMDB Identification and Reconciliation \(IRE\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -78,7 +78,7 @@ Activates the rule.
 </table>5.  Click **Save**.
 
 
-**Parent Topic:**[Reconciliation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/r_ReconciliationRulesPrinciples.md)
+**Parent Topic:**[Reconciliation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/r_ReconciliationRulesPrinciples.md)
 
 **Related topics**  
 

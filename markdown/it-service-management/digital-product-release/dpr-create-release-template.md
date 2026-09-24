@@ -3,11 +3,11 @@ title: Create a release template
 description: Create a release template to predefine the release process. The template contains templates for release phases, tasks, exit criteria for each of the phases, key dates, and approvals.Configure the DPR Release Task view to display the custom template fields on release task records of a release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-create-release-template.html
-release: australia
+release: brazil
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2026-08-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Configure, Digital Product Release, IT Service Management]
 ---
@@ -79,7 +79,7 @@ The release teams can use these templates to create a release. All the phases, t
 
         The list shows the schedule entries from the Schedule \[cmn\_schedule\] table of the type Excluded.
 
-        Adding a schedule considers holidays and weekends and adjusts the phase and release durations accordingly. This helps improve release planning accuracy by including actual working days. For more information, see [Holiday schedules in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-release-holiday-schedule.md).
+        Adding a schedule considers holidays and weekends and adjusts the phase and release durations accordingly. This helps improve release planning accuracy by including actual working days. For more information, see [Holiday schedules in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-release-holiday-schedule.md).
 
         **Note:** This option is available only for the timeline-oriented release process.
 
@@ -101,7 +101,7 @@ The release teams can use these templates to create a release. All the phases, t
 
     4.  If approval is required for the task, select an approval definition from the **Approval definition** list.
 
-        For more information, see [Create an approval definition in Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-create-approval-definition.md).
+        For more information, see [Create an approval definition in Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-create-approval-definition.md).
 
     5.  Add supportive fields and documents to the task.
 
@@ -113,7 +113,7 @@ The release teams can use these templates to create a release. All the phases, t
 
             When you create a release from the template, selected fields and attached documents are copied to the release task records. These fields appear in the Release Task record form and documents in the Attachments pane and Activity stream.
 
-            To display custom template fields on the release task record page in the workspace, you must add those fields to the DPR Release Task view. For more information, see [Display custom template fields on release task records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-create-release-template.md).
+            To display custom template fields on the release task record page in the workspace, you must add those fields to the DPR Release Task view. For more information, see [Display custom template fields on release task records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-create-release-template.md).
 
     1.  Select **Add new task** to add another task to the phase.
 
@@ -187,7 +187,7 @@ The release teams can use these templates to create a release. All the phases, t
 ## Result
 
 -   The release template is created and opens in the release template record form.
--   A published release template can be used for [creating releases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-create-release.md).
+-   A published release template can be used for [creating releases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-create-release.md).
 
 ## What to do next
 
@@ -252,15 +252,15 @@ Select the more actions button \(\[Omitted image "dpr-icon-more-actions.png"\] A
 </table>**Related topics**  
 
 
-[Release for a product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-product-release.md)
+[Release for a product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-product-release.md)
 
-[Create a release with a wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-create-release-guided.md)
+[Create a release with a wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-create-release-guided.md)
 
-[Create a release for a product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-create-release.md)
+[Create a release for a product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-create-release.md)
 
-[Work on a timeline-oriented release for a single product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-release.md)
+[Work on a timeline-oriented release for a single product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-work-release.md)
 
-[Managing multiple releases through release bundles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-release-bundle.md)
+[Managing multiple releases through release bundles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-release-bundle.md)
 
 ## Display custom template fields on release task records
 
@@ -284,7 +284,7 @@ Custom template fields that you add to tasks in a release template are stored on
 
 3.  Configure the form layout to add the custom fields on the form.
 
-    For more information on configuring form layout, see [ServiceNow AI Platform® form administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/form-administration-landing-page.md).
+    For more information on configuring form layout, see [ServiceNow AI Platform® form administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/form-administration-landing-page.md).
 
 4.  Select **Save** to save the form view configuration.
 

@@ -3,11 +3,11 @@ title: Scripts and engines execution order
 description: Scripts, assignment rules, business rules, workflows, escalations, and engines all take effect in relation to a database operation, such as insert or update. In many cases, the order of these events is important.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/approvals/execution-order-scripts-engines.html
-release: australia
+release: brazil
 product: Approvals
 classification: approvals
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Classic approvals, Build workflows]
 ---

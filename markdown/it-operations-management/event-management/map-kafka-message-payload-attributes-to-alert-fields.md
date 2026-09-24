@@ -3,11 +3,11 @@ title: Map Kafka message payload attributes to alert fields
 description: Map Kafka message attributes to alert fields to make alerts based on the messages more meaningful. Use event field mapping to map Kafka severity values to appropriate ServiceNow values.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/map-kafka-message-payload-attributes-to-alert-fields.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Apache Kafka Consumer Connector, Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-Use event field mappings to provide more comprehensive information in an event alert. Event field mappings substitute values from the event field mapping rule into the event. Depending on your payload, transform information in events to populate specified alert field values and compose alert fields from various values to generate alerts for tracking and remediation. If needed, use both event field mappings and alert rules.
+Use event field mappings to provide more comprehensive information in an event alert. Substitute values from the event field mapping rule into the event. Transform information in events to populate specified alert field values and compose alert fields from various values to generate alerts for tracking and remediation. If needed, use both event field mappings and alert rules.
 
 The following table compares a message received from a topic and a flattened payload in the event **Additional info** field. The message received from a topic is flattened as a single field and appears in the event **Additional info** field. Use these flattened messages to create event rules and mappings.
 
@@ -141,7 +141,7 @@ Flattened payload in the Additional Info field
 
     5.  In the Mapping type field, select the appropriate mapping type
 
-    6.  For a list of the available mapping types, see [Event Field Mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMCreateEventFieldMapping2.md).
+    6.  For a list of the available mapping types, see [Event Field Mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMCreateEventFieldMapping2.md).
 
 2.  To map the Kafka message attributes to the predefined alert fields to generate alerts by creating event rules.
 
@@ -171,7 +171,7 @@ Flattened payload in the Additional Info field
 
     11. Select **Submit**.
 
-        For more information, see [Create or edit an event rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-or-edit-event-rule.md).
+        For more information, see [Create or edit an event rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/create-or-edit-event-rule.md).
 
 3.  In the All Events screen, check whether any of the events from Kafka are in an error state due to a missing event rule and provide missing rules.
 
@@ -179,18 +179,18 @@ Flattened payload in the Additional Info field
 
     2.  In the All Events table, open any Kafka consumer event that shows Error as the state in the **Severity** column.
 
-        The message received from the Kafka consumer can vary. The connector cannot know the attributes that will be received. Map the **Severity** field or other event fields to the fields in the message to verify that alert fields are correctly populated.
+        The message received from the Kafka consumer can vary. The connector cannot know the attributes that will be received. You must map the **Severity** field or other event fields to the fields in the message to ensure that alert fields are correctly populated.
 
     3.  On the All Events screen, create a new event rule by selecting **Create Event Rule**.
 
-        For more information on creating event rules, see [Event Rules.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-or-edit-event-rule.md)
+        For more information on creating event rules, see [Event Rules.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/create-or-edit-event-rule.md)
 
-        If no event field mappings exist to handle the new type of event, create event field mappings. For more information, see [Create event field mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMCreateEventFieldMapping2.md).
+        If no event field mappings exist to handle the new type of event, create event field mappings. For more information, see [Create event field mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMCreateEventFieldMapping2.md).
 
 
 ## Result
 
 Your Apache Kafka consumer connector is configured. When new messages arrive into the Kafka topic, they are received into the ServiceNow instance as events, and alerts are then created from those events.
 
-**Parent Topic:**[Apache Kafka Consumer Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/apache-kafka-consumer-connector.md)
+**Parent Topic:**[Apache Kafka Consumer Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/apache-kafka-consumer-connector.md)
 

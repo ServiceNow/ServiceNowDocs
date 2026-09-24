@@ -3,11 +3,11 @@ title: Upgrade an agent in an instance
 description: Perform selective self-upgrade instead of bulk upgrade for enhanced efficiency when working with agents that are difficult to access, such as agents deployed in the cloud. You can perform selective upgrade on up to 50 agents at a time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/upgrade-agent-from-instance.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Agent Client Collector upgrade overview, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Perform selective self-upgrade instead of bulk upgrade for enhanced efficiency w
 
 Supported Operating Systems: Windows, Linux and macOS.
 
-Ensure that data files are up to date by restarting the MID Server and collecting host data. For details on collecting host data, see [Run host data collection on demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-run-discovery.md).
+Ensure that data files are up to date by restarting the MID Server and collecting host data. For details on collecting host data, see [Run host data collection on demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-run-discovery.md).
 
 **Note:**
 
@@ -49,7 +49,7 @@ CentOS,Red Hat
 -   `/usr/bin/systemctl start acc`
 -   `/usr/bin/systemctl stop acc`
 -   `<systemctl location> daemon-reload` \(default location is `/usr/bin`\)
--   `/usr/bin/rpm -Uv <cache dir location>/upgrade/agent-client-collector-upgrade.rpm`
+-   `/usr/bin/rpm/systemd-run -Uv <cache dir location>/upgrade/agent-client-collector-upgrade.rpm`
 
  Default cache directory location: `/var/cache/servicenow/agent-client-collector`
 
@@ -83,7 +83,7 @@ Debian, Ubuntu
 -   `/usr/bin/systemctl start acc`
 -   `/usr/bin/systemctl stop acc`
 -   `<systemctl location> daemon-reload` \(default location is `/usr/bin`\)
--   `/usr/bin/dpkg --install --refuse-downgrade --skip-same-version <cache dir location>/upgrade/agent-client-collector-upgrade.deb`
+-   `/usr/bin/dpkg/systemd-run --install --refuse-downgrade --skip-same-version <cache dir location>/upgrade/agent-client-collector-upgrade.deb`
 
  Default cache directory location: `/var/cache/servicenow/agent-client-collector`
 
@@ -137,7 +137,7 @@ macOS
 
 When upgrading MID-less agents, upgrade is performed at the URL set in the **agent-upgrade-url-path** property of the acc.yml file. If no URL is set at this property, upgrade is performed by downloading the installer script from the following Content Delivery Network \(CDN\) URL: `https://cdn-install.sncapps.service-now.com/glide/distribution/builds/package`
 
-**Note:** When using a CDN, send your download request through a proxy server, for added security. For details, see [Configure a download proxy for Agent Client Collector upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/configure-agent-upgrade-proxy.md).
+**Note:** When using a CDN, send your download request through a proxy server, for added security. For details, see [Configure a download proxy for Agent Client Collector upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/configure-agent-upgrade-proxy.md).
 
 Select the version to which you want to upgrade your agent.
 
@@ -173,17 +173,17 @@ Role required:
 
 5.  View the log for the agent upgrade in the **Message** column.
 
-    -   For a failed upgrade on a Linux machine, navigate to the `<cache directory location>/upgrade/agent-client-collector-upgrade.rpm` file. Verify that the configurations are set for the relevant OS, according to the Linux Operating Systems table, above.
+    -   For a failed upgrade on a Linux machine, navigate to the `<cache directory location>/upgrade/agent-client-collector-upgrade.rpm` file. Ensure that the configurations are set for the relevant OS, according to the Linux Operating Systems table, above.
     -   For a failed upgrade on a Windows machine, check the relevant log file, located at `<user folder>\AppData\Local\Temp\ACC_Logs`:
 
         -   ACC logs: `ACC_Upgrade.log`
         -   MSI logs: `MSI_ACC_Upgrade.log`
     -   For a failed upgrade on a macOS machine, check the log file, located at `/Library/Application Support/servicenow/agent-client-collector/log/upgrade.log`.
 
-**Parent Topic:**[Agent Client Collector upgrade overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-agent-upgrade-overview.md)
+**Parent Topic:**[Agent Client Collector upgrade overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-agent-upgrade-overview.md)
 
 **Related topics**  
 
 
-[Upgrade multiple agents in an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/upgrade-multiple-agents-from-instance.md)
+[Upgrade multiple agents in an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/upgrade-multiple-agents-from-instance.md)
 

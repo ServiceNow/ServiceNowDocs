@@ -3,9 +3,9 @@ title: Operational Sustainability Management \(formerly ESG Management\) use cas
 description: The operational sustainability use case consists of multiple processes such as setting up your operational sustainability program, defining metrics, collecting data for metrics, adhering to regulatory frameworks, and generating disclosures.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/new-esg-use-cases.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -34,7 +34,7 @@ As an ESG administrator and ESG program manager, you must begin by setting up th
 
 ## Defining metrics
 
-As an ESG metrics administrator, establish a comprehensive data collection process to gather relevant sustainability data across all operations. The data can be collected using metric definitions. The three types of metric definitions are [manual, calculated, and automated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/types-of-metric-definitions.md). Identify the key operational sustainability metrics aligned with industry best practices, such as carbon emissions, energy consumption, waste management, employee diversity, workplace safety, supply chain sustainability, and corporate governance. Ensure data accuracy by implementing appropriate tracking systems and engaging relevant stakeholders such as data providers for manual metrics.
+As an ESG metrics administrator, establish a comprehensive data collection process to gather relevant sustainability data across all operations. The data can be collected using metric definitions. The three types of metric definitions are [manual, calculated, and automated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/types-of-metric-definitions.md). Identify the key operational sustainability metrics aligned with industry best practices, such as carbon emissions, energy consumption, waste management, employee diversity, workplace safety, supply chain sustainability, and corporate governance. Ensure data accuracy by implementing appropriate tracking systems and engaging relevant stakeholders such as data providers for manual metrics.
 
 ## Measurement reporting
 
@@ -48,5 +48,5 @@ As an ESG program manager, develop an operational sustainability reporting frame
 
 As an ESG disclosure manager, using the collected data, generate an annual sustainability report. The report provides a comprehensive overview of the company's sustainability performance, including quantitative and qualitative data. Highlight the achievements, challenges, goals, and future initiatives related to environmental impact, social responsibility, and corporate governance.
 
-**Parent Topic:**[Exploring Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-new-explore.md)
+**Parent Topic:**[Exploring Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/esg-new-explore.md)
 

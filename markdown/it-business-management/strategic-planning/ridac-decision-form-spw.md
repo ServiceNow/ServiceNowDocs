@@ -3,11 +3,11 @@ title: RIDAC Decision form
 description: Use the RIDAC Decision form to document and track critical planning decisions related to your strategic planning items, goals, or EAP iterations. Manage decision rationale and implementation status.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/ridac-decision-form-spw.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
-last_updated: "2026-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [RIDAC, decision, form, planning item]
 breadcrumb: [Reference, RIDAC, Strategic Planning, Strategic Portfolio Management]

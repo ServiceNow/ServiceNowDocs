@@ -3,9 +3,9 @@ title: Upgrade the Discovery Console for OT
 description: These are the instructions for upgrading the Discovery Console for OT. The scope of this document does not include how to upgrade the containerized version of the Console.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/upgrade-discovery-console.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -50,5 +50,5 @@ Role required: admin
     Depending on the current state of the system, you may be prompted with a few questions to complete the upgrade process. The console upgrade script can run the latest migration scripts automatically with no user input needed. This requires Console installer program version 20260601.8 or later for `devslim`.
 
 
-**Parent Topic:**[Discovery Console for Operational Technology \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-discovery-console-landing.md)
+**Parent Topic:**[Discovery Console for Operational Technology \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/ot-discovery-console-landing.md)
 

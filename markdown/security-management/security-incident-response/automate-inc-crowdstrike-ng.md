@@ -3,11 +3,11 @@ title: Automate detection updates and closures
 description: Automate detection updates and closures based on the Security Incident Response incident status. The CrowdStrike Next-Gen SIEM integration enables detections to create security incidents and also to update the incidents after they are created or closed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/automate-inc-crowdstrike-ng.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [CrowdStrike Next-Gen SIEM integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

@@ -3,11 +3,11 @@ title: Print a floor map
 description: Print the entire canvas of the floor map based on your map selection in the Telecommunications Network Inventory application. You can use it as a reference to view the floor map details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/print-floor-map.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Floor map, Network visualization view, Use, Telecommunications Network Inventory]
 ---
@@ -97,7 +97,7 @@ Size of the place label text on the map.
 
 10. Select the paper size and orientation from the Print Layout panel.
 
-    For more information about the options, see [Map printing options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/map-printing-options.md).
+    For more information about the options, see [Map printing options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/map-printing-options.md).
 
 11. In the preview area, zoom and drag the map based on your requirement.
 
@@ -105,7 +105,7 @@ Size of the place label text on the map.
 
 12. Configure the options in the Print Layout panel.
 
-    For a description of the field values, see [Map printing options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/map-printing-options.md).
+    For a description of the field values, see [Map printing options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/map-printing-options.md).
 
 13. Select **Print**.
 
@@ -114,8 +114,8 @@ Size of the place label text on the map.
 
 You can use your web browser to print the map or save it as a PDF.
 
--   If the aspect ratio of the map is not the same as your instance, verify that the layout settings \(like page size and orientation\) of the print dialog of your browser are the same as the settings on your instance.
--   If the map is shifted on the printed page, or the position of icons or the pin isn’t the same as your instance, set the margins in the print dialog of your browser to **None**.
+-   If the aspect ratio of the map is not the same as your instance, verify the layout settings of the print dialog. Ensure the page size and orientation in your browser match the settings on your instance.
+-   If the map is shifted on the printed page, or if icons or the pin position don’t match your instance, adjust the print dialog settings. Set the margins in the print dialog of your browser to **None**.
 
-**Parent Topic:**[Floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-floor-map.md)
+**Parent Topic:**[Floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/using-floor-map.md)
 

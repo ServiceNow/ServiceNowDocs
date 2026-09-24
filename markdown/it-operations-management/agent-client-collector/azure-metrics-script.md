@@ -3,11 +3,11 @@ title: Azure metrics script
 description: When creating a new policy for Azure cloud metrics, create a .json script to determine the metrics to be monitored. The format for the script appears below, followed by a table explaining the script contents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/azure-metrics-script.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ACC-M reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
@@ -73,5 +73,5 @@ The granularity of how often metrics are to be collected. Possible values are:- 
 -   PT1D: Metric values are collected daily.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-monitoring-reference.md)
+</table>**Parent Topic:**[Agent Client Collector Monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-monitoring-reference.md)
 

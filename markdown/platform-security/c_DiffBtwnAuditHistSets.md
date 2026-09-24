@@ -3,9 +3,9 @@ title: Differences Between Audit and History Sets
 description: The Audit \[sys\_audit\], History Sets \[sys\_history\_set\], and History \[sys\_history\_line\] tables store the same data, but they serve different purposes and manage data differently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/c\_DiffBtwnAuditHistSets.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Knowing about History sets, Auditing]
 ---

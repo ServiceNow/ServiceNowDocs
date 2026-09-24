@@ -3,11 +3,11 @@ title: Query parameters for display value and header
 description: Use query parameters to export the display value or raw value of fields and the field label or field name for headers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/query-parameters-display-value.html
-release: australia
+release: brazil
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data export reference, Exporting data, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -34,7 +34,7 @@ Description
 
 </td><td>
 
-Exports the display value \(**true**\) or raw value \(**false**\) for the CSV, XLS, XLSX, and XML file formats.See [Field types affected by export controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/field-types-affected.md) for more information.
+Exports the display value \(**true**\) or raw value \(**false**\) for the CSV, XLS, XLSX, and XML file formats.See [Field types affected by export controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/field-types-affected.md) for more information.
 
 </td></tr><tr><td>
 
@@ -42,7 +42,7 @@ Exports the display value \(**true**\) or raw value \(**false**\) for the CSV, X
 
 </td><td>
 
-Exports the display value \(**true**\), raw value \(**false**\), or both \(**All**\) for the JSON file format.See [Field types affected by export controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/field-types-affected.md) for more information.
+Exports the display value \(**true**\), raw value \(**false**\), or both \(**All**\) for the JSON file format.See [Field types affected by export controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/field-types-affected.md) for more information.
 
 </td></tr><tr><td>
 
@@ -90,5 +90,5 @@ Exports the CSV, XLS, and XLSX file formats with the field label \(**true**\) or
     \[Omitted image "sysparm\_export\_column\_header\_label-false.png"\] Alt text: Example: sysparm\_export\_column\_header\_label = false
 
 
-**Parent Topic:**[Data export reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/data-export-reference.md)
+**Parent Topic:**[Data export reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/data-export-reference.md)
 

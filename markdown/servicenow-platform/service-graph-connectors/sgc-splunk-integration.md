@@ -3,11 +3,11 @@ title: Service Graph Connector for Splunk
 description: The Service Graph Connector for Splunk pulls in asset inventory data \(hardware and software\) from the Splunk database into the Configuration Management Database \(CMDB\) application in your ServiceNow AI Platform instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-splunk-integration.html
-release: australia
+release: brazil
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -39,7 +39,7 @@ By default, the Service Graph Connector for Splunk pulls the following basic for
 -   Host
 -   Host IP address
 
-With the [Service Graph Connector for Splunk add-on](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-splunk-add-on.md), you have the option to import extended data for your Windows and Linux assets with the Service Graph Connector for Splunk that includes the following details:
+With the [Service Graph Connector for Splunk add-on](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-splunk-add-on.md), you have the option to import extended data for your Windows and Linux assets with the Service Graph Connector for Splunk that includes the following details:
 
 -   MAC address
 -   Operating system details
@@ -49,7 +49,7 @@ With the [Service Graph Connector for Splunk add-on](https://raw.githubuserconte
 -   Last logon date
 -   Open ports
 
-This data is stored in the Configuration Management Database \(CMDB\) and Splunk Asset Details extension attributes custom tables.​ To import these extended asset details, the add-on is required. See [Install the add-on for the Service Graph Connector for Splunk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/spc-install-splunk-add-on.md).
+This data is stored in the Configuration Management Database \(CMDB\) and Splunk Asset Details extension attributes custom tables.​ To import these extended asset details, the add-on is required. See [Install the add-on for the Service Graph Connector for Splunk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/spc-install-splunk-add-on.md).
 
 ## Guided setup
 
@@ -57,5 +57,5 @@ The guided setup for the Service Graph Connector for Splunk provides an organize
 
 ## CMDB integrations dashboard
 
-The Integration Commons for CMDB store app provides a dashboard with a central view of the status, processing results, and processing errors of all installed integrations. You can see metrics for all integration runs. You can filter the view to a specific CMDB integration, a specific time duration, or a specific integration run. For more details about monitoring integrations in the CMDB Integrations Dashboard, see [Using the CMDB Integrations Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md).
+The Integration Commons for CMDB store app provides a dashboard with a central view of the status, processing results, and processing errors of all installed integrations. You can see metrics for all integration runs. You can filter the view to a specific CMDB integration, a specific time duration, or a specific integration run. For more details about monitoring integrations in the CMDB Integrations Dashboard, see [Using the CMDB Integrations Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md).
 

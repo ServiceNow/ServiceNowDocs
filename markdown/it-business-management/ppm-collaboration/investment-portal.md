@@ -1,20 +1,20 @@
 ---
 title: Investment Portal
-description: Completing projects and demands on time within budget is a challenge. Investment Portal gives you a comprehensive view of project and demand financials, deadlines, and other important metrics in an intuitive user interface that makes project and demand management more efficient.
+description: Completing projects and demands on time within budget is a challenge. Investment Portal gives you a comprehensive view of project and demand financials, deadlines, and other important metrics. The intuitive interface makes project and demand management more efficient.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/ppm-collaboration/investment-portal.html
-release: australia
+release: brazil
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-12"
 reading_time_minutes: 3
 breadcrumb: [Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Investment Portal
 
-Completing projects and demands on time within budget is a challenge. Investment Portal gives you a comprehensive view of project and demand financials, deadlines, and other important metrics in an intuitive user interface that makes project and demand management more efficient.
+Completing projects and demands on time within budget is a challenge. Investment Portal gives you a comprehensive view of project and demand financials, deadlines, and other important metrics. The intuitive interface makes project and demand management more efficient.
 
 **Important:**
 
@@ -34,11 +34,11 @@ Investment Portal is divided into the following sections:
 
 -   **Banner icons**
 
-    You can edit, copy, delete, bookmark, and share your investment board with other members and groups using the banner icons on the header of Investment Portal. See [Track your key investments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/use-investment-portal.md) for more information.\[Omitted image "banner-icons.png"\] Alt text: banner icons
+    You can edit, copy, delete, bookmark, and share your investment board with other members and groups using the banner icons on the header of Investment Portal. See [Track your key investments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/use-investment-portal.md) for more information.\[Omitted image "banner-icons.png"\] Alt text: banner icons
 
 -   **Investment widgets**
 
-    You can view important metrics like total cost, actual cost, and budget with investment widgets that can be [configured](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/configure-investment-metrics.md).
+    You can view important metrics like total cost, actual cost, and budget with investment widgets that can be [configured](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/configure-investment-metrics.md).
 
     \[Omitted image "investment-portal-widgets.png"\] Alt text: Screen capture of investment widgets
 
@@ -62,14 +62,14 @@ Investment Portal’s loading time directly depends on number of demands or proj
 
 The application doesn't restrict the number of records being fetched. So, users are recommended to define the query in such a way that optimal number of records are fetched to ensure that the performance is not affected.
 
--   **[View all your investment boards in one location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/my-investments-tabs.md)**  
+-   **[View all your investment boards in one location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/my-investments-tabs.md)**  
 Display all your important investment boards in a single location using the My Investment views page.
--   **[Create an investment board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/create-an-investment-report.md)**  
+-   **[Create an investment board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/create-an-investment-report.md)**  
 View the projects and demands that are important to you by creating a personalized investment board using filter criteria you define.
--   **[Track your key investments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/use-investment-portal.md)**  
+-   **[Track your key investments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/use-investment-portal.md)**  
 Track and analyze the cost, schedule, and scope of your investments in one place using Investment Portal.
--   **[Configure your investment metrics as widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/configure-investment-metrics.md)**  
+-   **[Configure your investment metrics as widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/configure-investment-metrics.md)**  
 Configure investment metrics based on your business requirements. These metrics appear as widgets on the Investment Portal page.
 
-**Parent Topic:**[Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_ProjectPortfolioSuite.md)
+**Parent Topic:**[Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/c_ProjectPortfolioSuite.md)
 

@@ -2,7 +2,7 @@
 title: Create a Credential record for the Automation Anywhere spoke
 description: Create a credential record for the Automation Anywhere instance. The Automation Anywhere spoke connection and credential alias uses these credentials to authorize actions.
 locale: en-US
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

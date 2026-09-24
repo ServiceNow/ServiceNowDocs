@@ -3,14 +3,14 @@ title: Duplicate a second-line record as an audit entry
 description: Use the Duplicate as audit entry action to copy a second-line control, control objective, risk, or risk statement into a new third-line record. Each source record can be duplicated only once.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/duplicate-record-as-audit-entry.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-05-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [duplicate, audit entry, audit entry source]
-breadcrumb: [Audit entry for GRC objects, Exploring Audit Management, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Audit entry for GRC objects, Explore, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Duplicate a second-line record as an audit entry
@@ -49,5 +49,5 @@ Role required: sn\_audit\_ws.third\_line\_manager
     The new record is created as a third-line record and is stored as a copy of the source record. It retains a reference to the original record in the **Audit entry source** field, located under the **Audit entry** check box.
 
 
-**Parent Topic:**[Audit entry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/audit-entry-overview.md)
+**Parent Topic:**[Audit entry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/audit-entry-overview.md)
 

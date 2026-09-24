@@ -3,11 +3,11 @@ title: Active major incidents
 description: View a list of related incidents, details of a major incident and activities on an incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/process-misingle.html
-release: australia
+release: brazil
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing major incidents using Major Incident applet, ITSM Mobile Agent, IT Service Management]
 ---
@@ -26,11 +26,11 @@ Role required: major incident manager
 
     The **Active major incidents** screen opens with a list of major incidents.
 
-2.  If you want to reduce the number of records on the screen, see [Filter records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/filter-records-agent-mobile.md) to search for records that match specific search criteria.
+2.  If you want to reduce the number of records on the screen, see [Filter records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-mobile-agent/filter-records-agent-mobile.md) to search for records that match specific search criteria.
 
 3.  On the **Active major incidents** screen with the list of incidents, swipe left on an incident to open the menu.
 
-4.  Tap **Add comments** to add any additional comments or work notes about the incident in this field and tap **Submit**.
+4.  Tap **Add comments** to add any additional comments or work notes about the incident in this field and tap the send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon.\).
 
 5.  Tap **Resolve** to resolve the major incident by adding the **Resolution code** and **Resolution notes**.
 
@@ -41,8 +41,8 @@ Role required: major incident manager
     The quick actions available for an active major incident are as follows:
 
     -   Assign to someone: Assign the major incident to someone in an appropriate assignment group.
-    -   Resolve: Add a resolution code and resolution notes and tap **Submit** to resolve the incident.
-    -   Add comments: Add any additional comments or work notes for the major incident and tap **Submit** to add these comments to the record.
+    -   Resolve: Add a resolution code and resolution notes and tap the send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon.\) to resolve the incident.
+    -   Add comments: Add any additional comments or work notes for the major incident and tap the send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon.\) to add these comments to the record.
 8.  On the **Active major incident** screen, choose one of the actions in the table as appropriate.
 
 <table id="table_mcr_qj5_gmb"><thead><tr><th align="left">

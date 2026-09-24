@@ -3,9 +3,9 @@ title: View value stream stages for a business capability
 description: You can view the value stream stages associated with a business capability to understand which steps in your value stream the business capability supports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-vs-stages-assoc-with-bc.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage business capabilities, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -37,16 +37,16 @@ Role required: sn\_apm.apm\_user
     The list of value stream stages associated with the business capability is displayed.
 
 
-**Parent Topic:**[Manage business capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-business-capabilities.md)
+**Parent Topic:**[Manage business capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-manage-business-capabilities.md)
 
 **Related topics**  
 
 
-[Exploring value stream stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-value-stream-stage.md)
+[Exploring value stream stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-value-stream-stage.md)
 
-[Exploring business capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-business-capabilities.md)
+[Exploring business capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-business-capabilities.md)
 
-[View value stream stage details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-value-stream-stages.md)
+[View value stream stage details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-all-value-stream-stages.md)
 
-[Add or remove business capabilities from a value stream stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/add-or-remove-a-bc-from-vs-stage.md)
+[Add or remove business capabilities from a value stream stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/add-or-remove-a-bc-from-vs-stage.md)
 

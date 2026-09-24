@@ -3,11 +3,11 @@ title: Track an asset for a work order task from a mobile device
 description: Track the status of an asset that you used to execute a work order task or an asset that you removed or replaced by using the ServiceNow Agent application on a mobile device. You can track the status of these assets as you're doing the task from a task location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/use-create-asset-mobile.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Inventory, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
@@ -53,15 +53,15 @@ When you record the asset usage, the following actions occur:
 
 7.  Record the information about the usage or removal of an asset by tapping one of the following options.
 
-<table id="choicetable_jdq_whz_4fb"><thead><tr><th align="left" id="d29698e203">
+<table id="choicetable_jdq_whz_4fb"><thead><tr><th align="left" id="d29980e203">
 
 Option
 
-</th><th align="left" id="d29698e206">
+</th><th align="left" id="d29980e206">
 
 Details
 
-</th></tr></thead><tbody><tr><td id="d29698e212">
+</th></tr></thead><tbody><tr><td id="d29980e212">
 
 **Record asset usage**
 
@@ -74,7 +74,7 @@ Record the usage of an asset:
     1.  Select the part record.
     2.  Tap the more actions \(\[Omitted image "OverflowIcon.png"\] Alt text: More actions icon.\) icon and select **Scan Part** to scan a single part, or select **Scan Multiple Parts** to scan the barcodes of more than one part sequentially.
 
-**Note:** You can scan a maximum of five parts sequentially. To change the limit for your requirements, see [Configure a grouped input for multiple scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-configure-multiscan.md).
+**Note:** You can scan a maximum of five parts sequentially. To change the limit for your requirements, see [Configure a grouped input for multiple scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-configure-multiscan.md).
 
     3.  Select **Scan Asset Tag**.
     4.  Point the viewfinder rectangle on a bar code to scan the asset. The bar code digits are automatically recorded in the scanner.
@@ -82,7 +82,7 @@ Record the usage of an asset:
     6.  Go back to the Use Part screen by tapping the back icon.
  The asset is added to the Asset Usages related list and the state for the part changes to **In Use**.
 
-</td></tr><tr><td id="d29698e283">
+</td></tr><tr><td id="d29980e283">
 
 **Record asset removal**
 
@@ -102,7 +102,7 @@ Record the removal of an asset:
     2.  Select **Scan to remove**.
     3.  Tap the overflow icon \(\[Omitted image "OverflowIcon.png"\] Alt text: Overflow Icon.\) and then to scan a part, select **Scan to remove**.
 
-**Note:** You can scan a maximum of five parts sequentially. To change the limit for your requirements, see [Configure a grouped input for multiple scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-configure-multiscan.md).
+**Note:** You can scan a maximum of five parts sequentially. To change the limit for your requirements, see [Configure a grouped input for multiple scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-configure-multiscan.md).
 
     4.  Tap the **Part to remove** field, and then select **Scan**.
     5.  Point the viewfinder rectangle on a bar code to scan the asset. The bar code digits are automatically recorded in the scanner.
@@ -112,7 +112,7 @@ Record the removal of an asset:
     9.  Go back to the Remove Part screen by tapping the back icon.
  The asset is removed from the Asset Usages related list and the state for the part changes to **In Stock** and the substate changes to **Defective**.
 
-</td></tr><tr><td id="d29698e411">
+</td></tr><tr><td id="d29980e411">
 
 **Record asset replacement**
 
@@ -151,5 +151,5 @@ Record the replacement of an asset:
 **Related topics**  
 
 
-[Record asset usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/t_RecordAssetUsage.md)
+[Record asset usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/t_RecordAssetUsage.md)
 

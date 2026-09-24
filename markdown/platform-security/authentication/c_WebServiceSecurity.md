@@ -3,11 +3,11 @@ title: Web service security
 description: Enforce security using basic authentication, mutual authentication, or WS-Security.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/c\_WebServiceSecurity.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Access Management]
 ---
@@ -18,13 +18,13 @@ Enforce security using basic authentication, mutual authentication, or WS-Securi
 
 <table id="table_t4k_14f_ryb" class="nav-card"><tbody><tr><td>
 
-[Explore web security\[Omitted image "bus-explore.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/exploring-web-sec.md)
+[Explore web security\[Omitted image "bus-explore.svg"\] Alt text: Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/exploring-web-sec.md)
 
- [Learn the features and business values of web service security.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/exploring-web-sec.md)
+ [Learn the features and business values of web service security.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/exploring-web-sec.md)
 
 </td><td>
 
-[Configure mutual authentication\[Omitted image "bus-optimize-manage.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_MutualAuthentication.md)
+[Configure mutual authentication\[Omitted image "bus-optimize-manage.svg"\] Alt text: Activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/c_MutualAuthentication.md)
 
  Use mutual authentication to establish trust by exchanging secure sockets layer \(SSL\) certificates.
 

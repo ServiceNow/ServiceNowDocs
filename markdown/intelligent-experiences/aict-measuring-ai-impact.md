@@ -3,12 +3,12 @@ title: Measuring AI systems
 description: Measure quantifies the productivity value delivered by your AI systems and tracks their costs. It also reports the net return on AI, enabling you to determine where to scale, fund, or retire AI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-measuring-ai-impact.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, use]
-breadcrumb: [AI Control Tower, Enable AI experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, use]
+breadcrumb: [AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Measuring AI systems

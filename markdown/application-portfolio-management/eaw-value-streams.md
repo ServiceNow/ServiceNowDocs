@@ -3,9 +3,9 @@ title: Exploring value streams
 description: In Enterprise Architecture, a value stream represents an end-to-end sequence of activities that delivers value in your enterprise architecture landscape. A value stream is made up of individual value stream stages, each of which represents a discrete step in that sequence.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-value-streams.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring the business architecture, Exploring Portfolio list view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -18,22 +18,22 @@ A value stream is a sequence of activities that helps you visualize the flow of 
 
 Hire to Retire is a value stream that encompasses the lifecycle of an employee within an organization, from the time they are hired until they retire. This value stream will containing stages such as onboarding, development, retention, offboarding, etc.
 
-**Parent Topic:**[Exploring the business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-business-architecture.md)
+**Parent Topic:**[Exploring the business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-business-architecture.md)
 
 **Related topics**  
 
 
-[View value streams details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-value-streams.md)
+[View value streams details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-all-value-streams.md)
 
-[Add or edit a value stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-or-edit-a-value-stream.md)
+[Add or edit a value stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-add-or-edit-a-value-stream.md)
 
-[Add value stream stages to a value stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-vs-stages-to-a-vs.md)
+[Add value stream stages to a value stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-add-vs-stages-to-a-vs.md)
 
-[Associate an application model to a value stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-an-application-model-to-a-value-stream.md)
+[Associate an application model to a value stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-add-an-application-model-to-a-value-stream.md)
 
-[Exploring value stream stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-value-stream-stage.md)
+[Exploring value stream stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-value-stream-stage.md)
 
-[Manage value stream stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-value-stream-stages.md)
+[Manage value stream stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-manage-value-stream-stages.md)
 
-[Exploring a business portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/manage-business-portfolio.md)
+[Exploring a business portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/manage-business-portfolio.md)
 

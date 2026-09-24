@@ -3,13 +3,13 @@ title: Software asset overview
 description: Enhance your software asset management experience by using the modernized and user-friendly software asset overview view. The software asset overview is a simplified and intuitive environment that helps you use the application more effectively by reducing complexity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/sam-workspace-landing.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Software Asset Workspace, Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software Asset Workspace, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software asset overview
@@ -336,7 +336,7 @@ Entitlement Import Errors \[samp\_entitlement\_import\]
 
 </td><td>
 
-The number of entitlement import errors where the purchase orders have an associated procurement integration profile.**Note:** This alert appears only when the Asset Management - Procurement Integration \(app-itam-procurement-integration\) store application is installed. For more information, see [Install Asset Management - Procurement Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/install-proc-int.md).
+The number of entitlement import errors where the purchase orders have an associated procurement integration profile.**Note:** This alert appears only when the Asset Management - Procurement Integration \(app-itam-procurement-integration\) store application is installed. For more information, see [Install Asset Management - Procurement Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/procurement/install-proc-int.md).
 
 </td></tr><tr><td>
 
@@ -501,7 +501,7 @@ Software Entitlements \[alm\_license\]
 
 </td><td>
 
-Number of entitlements created from purchase orders that have an associated procurement integration profile.**Note:** This notification appears only when the Asset Management - Procurement Integration \(app-itam-procurement-integration\) store application is installed. For more information, see [Install Asset Management - Procurement Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/install-proc-int.md).
+Number of entitlements created from purchase orders that have an associated procurement integration profile.**Note:** This notification appears only when the Asset Management - Procurement Integration \(app-itam-procurement-integration\) store application is installed. For more information, see [Install Asset Management - Procurement Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/procurement/install-proc-int.md).
 
 </td></tr><tr><td>
 
@@ -515,7 +515,7 @@ SAM Workspace Activity Center Items \[samp\_ws\_activity\_center\_items\]
 
 Opens the CMDB success advisor for SAM dashboard to review software install data quality metrics and remediation actions.
 
- If the scope isn't configured yet, opens the **Edit dashboard scope** dialog box instead. For more information, see [Using CMDB success advisor for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-use.md).
+ If the scope isn't configured yet, opens the **Edit dashboard scope** dialog box instead. For more information, see [Using CMDB success advisor for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-use.md).
 
 </td></tr></tbody>
 </table>

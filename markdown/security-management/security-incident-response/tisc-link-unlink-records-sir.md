@@ -3,11 +3,11 @@ title: Link and unlink TISC records to a security incident
 description: Link TISC records such as observables, threat actors, and malware to a security incident, or unlink records that you no longer need.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/tisc-link-unlink-records-sir.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [link, unlink, TISC Context, security incident, Threat Intelligence Security Center]
 breadcrumb: [Working with TISC Context, TISC integration within SIR Workspace, Working with Security Incident Records, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
@@ -25,7 +25,7 @@ Role required: sn\_si.analyst, sn\_sec\_tisc.library\_write, sn\_sec\_tisc.case\
 
 From the **TISC Context** tab of a security incident, you can associate a TISC record directly with the security incident without creating a TISC case first. Linking a record only associates it with the security incident. It doesn't create a copy of the record in Security Incident Response Workspace.
 
-You can also link a security incident from the TISC side. For more information, see [View Internal Intelligence Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/view-internal-intelligence-records.md).
+You can also link a security incident from the TISC side. For more information, see [View Internal Intelligence Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/view-internal-intelligence-records.md).
 
 ## Procedure
 
@@ -83,12 +83,12 @@ You can also link a security incident from the TISC side. For more information, 
 
 Linking or Unlinking immediately reflects in TISC in the **Internal Intelligence** tab of records.
 
-**Parent Topic:**[Working with TISC Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/working-with-tisc-context.md)
+**Parent Topic:**[Working with TISC Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/working-with-tisc-context.md)
 
 **Related topics**  
 
 
-[TISC integration with SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-integration-with-sir-workspace.md)
+[TISC integration with SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-integration-with-sir-workspace.md)
 
-[View Internal Intelligence Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/view-internal-intelligence-records.md)
+[View Internal Intelligence Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/view-internal-intelligence-records.md)
 

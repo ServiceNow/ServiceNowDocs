@@ -3,11 +3,11 @@ title: Technology Product Support record page
 description: The Technology product support record page provides a simplified case view in CSM Configurable Workspace that enables agents to research and resolve technology cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-record-page.html
-release: australia
+release: brazil
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 17
 breadcrumb: [Explore, Technology Product Support Case, Product Support for Technology]
 ---
@@ -47,7 +47,7 @@ Active
 
 Enabling the **Active** check box makes the page variant available to the selected audience. The technology product support record page is active by default.
 
-The active setting combined with the page order determines the page that CSM Configurable Workspace uses to display record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-ws-set-record-page-order.md).
+The active setting combined with the page order determines the page that CSM Configurable Workspace uses to display record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/config-csm-ws-set-record-page-order.md).
 
 </td></tr><tr><td>
 
@@ -109,11 +109,11 @@ Record tags
 
 </td><td>
 
-Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see [Tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_Tags.md).
+Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see [Tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_Tags.md).
 
 </td></tr><tr><td>
 
-[Action bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-record-page.md)
+[Action bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-record-page.md)
 
 </td><td>
 
@@ -121,7 +121,7 @@ The action bar contains the actions available to users while working on case rec
 
 </td></tr><tr><td>
 
-[Modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-record-page.md)
+[Modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-record-page.md)
 
 </td><td>
 
@@ -129,7 +129,7 @@ Modeless dialogs are windows that overlay the main window content. Agents can us
 
 </td></tr><tr><td>
 
-[Account and contact lookup components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-record-page.md)
+[Account and contact lookup components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-record-page.md)
 
 </td><td>
 
@@ -162,11 +162,11 @@ These sections can be expanded and collapsed to display the fields within each s
 
 The Workspace form view also includes a menu with additional form actions, such as personalizing the form, exporting data, and copying the URL.
 
-For more information about the fields that appear in these sections, see [Tech Product Support Case table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-table.md).
+For more information about the fields that appear in these sections, see [Tech Product Support Case table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-table.md).
 
 </td></tr><tr><td>
 
-[Case summarization component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-record-page.md)
+[Case summarization component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-record-page.md)
 
 </td><td>
 
@@ -176,19 +176,19 @@ The case summarization component appears above the activity stream. When an agen
 -   Post the summary to the activity stream.
 -   Refresh the summary.
 
-**Note:** The case summarization component requires the [ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-csm.md) application to be activated and configured.
+**Note:** The case summarization component requires the [ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-csm.md) application to be activated and configured.
 
 </td></tr><tr><td>
 
-[Activity stream component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-record-page.md)
+[Activity stream component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-record-page.md)
 
 </td><td>
 
-The activity stream component displays a list of activities occurring on a case record. This list can be collapsed to provide a quick view of case activities or expanded to provide more detail about individual activities.The Technology product support record page uses [modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-record-page.md) for composing comments, work notes, and emails.
+The activity stream component displays a list of activities occurring on a case record. This list can be collapsed to provide a quick view of case activities or expanded to provide more detail about individual activities.The Technology product support record page uses [modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-record-page.md) for composing comments, work notes, and emails.
 
 </td></tr><tr><td>
 
-[Contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-record-page.md)
+[Contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-record-page.md)
 
 </td><td>
 
@@ -202,9 +202,9 @@ The contextual side panel component includes different tools that agents can use
 
 For more information, see the following sections:
 
--   [Contextual side panel component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-record-page.md)
--   [Recommended Actions search component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-record-page.md)
--   [Related items component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-record-page.md)
+-   [Contextual side panel component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-record-page.md)
+-   [Recommended Actions search component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-record-page.md)
+-   [Related items component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-record-page.md)
 
 </td></tr></tbody>
 </table>## Actions available in the action bar
@@ -213,7 +213,7 @@ The following actions are available on the Technology product support record pag
 
 |Action|Description|
 |------|-----------|
-|In-progress Actions|Provides a list of minimized [modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-front-line-case-page-modeless-dialogs.md) and includes a badge that displays the number of items in the list. From this list, an agent can select an item to open the minimized comment, work note, or email.|
+|In-progress Actions|Provides a list of minimized [modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-front-line-case-page-modeless-dialogs.md) and includes a badge that displays the number of items in the list. From this list, an agent can select an item to open the minimized comment, work note, or email.|
 |Submit Case|Moves the case from the Draft state to the New state.|
 |Assign to me|Assigns the case to the logged-in user and moves the case to Work in Progress.|
 |Accept|Assigns the case to the logged-in user and moves the case to Work in Progress.|
@@ -224,7 +224,7 @@ The following actions are available on the Technology product support record pag
 |Reject Solution|The agent can reject the proposed solution on behalf of the customer. Moves the case to Work in Progress.|
 |Save|Saves changes to the case record.|
 |Cancel|Cancels changes to the case record.|
-|Compose|Compose comments, work notes, and emails in [modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-front-line-case-page-modeless-dialogs.md).|
+|Compose|Compose comments, work notes, and emails in [modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-front-line-case-page-modeless-dialogs.md).|
 |Create|Create records such as work orders, incidents, and requests.|
 |More Actions|Perform additional actions such as proposing a major case or reporting a knowledge gap.|
 
@@ -272,7 +272,7 @@ Agents can apply templates to emails in a modeless dialog:
 
 Agents can also toggle the **Rich text editor** button in the email modeless dialog to show or hide the TinyMCE formatter.
 
-For more information, see [Modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-front-line-case-page-modeless-dialogs.md).
+For more information, see [Modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-front-line-case-page-modeless-dialogs.md).
 
 ## Account and contact lookup components
 
@@ -308,8 +308,8 @@ Using this component, agents can:
 
 To use the case summarization component with the Technology product support record page variant, activate the Now Assist for Customer Service Management \(CSM\) application and configure the case summarization skill in the Now Assist Admin console. For more information, see:
 
--   [Activate Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-csm-supporting-info.md)
--   [Configure the case summarization skill in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-csm-configuring.md).
+-   [Activate Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-csm-supporting-info.md)
+-   [Configure the case summarization skill in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-csm-configuring.md).
 
 ## Activity stream component
 
@@ -345,7 +345,7 @@ When expanded, each activity also includes:
 -   For attachments, a small preview of the attached file.
 -   For chats, a sidebar chat card.
 
-The activity stream uses [modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-record-page.md) for composing comments, work notes, and emails. Use the **Compose** button in the action bar to create these items.
+The activity stream uses [modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-record-page.md) for composing comments, work notes, and emails. Use the **Compose** button in the action bar to create these items.
 
 -   **Compose &gt; Comment**: Opens the Compose a comment modeless dialog.
 -   **Compose &gt; Work note**: Opens the Compose a work note modeless dialog.
@@ -365,7 +365,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-record-page.md)
+[Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-record-page.md)
 
 </td><td>
 
@@ -373,11 +373,11 @@ The activity stream component displays a list of the activities occurring on a c
 
 </td></tr><tr><td>
 
-[Recommended Actions search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-record-page.md)
+[Recommended Actions search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-record-page.md)
 
 </td><td>
 
-The Recommended Actions tab includes [AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-ai-search.md) functionality. Agents can use AI search to find relevant resources or resolutions for customer issues.The search feature displays an initial set of search results based on the text in the case short description. This initial set of results includes knowledge articles. Agents can also enter different search keywords and repeat the search.
+The Recommended Actions tab includes [AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-csm-ai-search.md) functionality. Agents can use AI search to find relevant resources or resolutions for customer issues.The search feature displays an initial set of search results based on the text in the case short description. This initial set of results includes knowledge articles. Agents can also enter different search keywords and repeat the search.
 
 From the list of search results, agents can do the following:
 
@@ -390,13 +390,13 @@ From the list of search results, agents can do the following:
     -   Perform other actions such as reading articles in full view, flagging articles, or marking articles as helpful or unhelpful.
 -   View successful actions by selecting the Actions history icon.
 
-For more information, see [Use AI search in Recommended Actions to resolve cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/nba-use-ai-search.md).
+For more information, see [Use AI search in Recommended Actions to resolve cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/nba-use-ai-search.md).
 
-**Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
+**Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
 
 </td></tr><tr><td>
 
-[Related Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-record-page.md)
+[Related Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-record-page.md)
 
 </td><td>
 
@@ -448,7 +448,7 @@ For knowledge articles, an agent can view an article and attach the article to t
 -   Selecting **Review and attach article** displays the article in the contextual side panel.
 -   Selecting **Attach this article** attaches the knowledge article to the current case.
 
-**Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
+**Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
 
 ## Related Items component
 
@@ -505,13 +505,13 @@ The system creates the case and displays the new case record.
 
 Agents can automatically generate the resolution notes for a case, propose the resolution to the customer, and add the resolution information to the case record.
 
-Selecting the **Propose Solution** UI action on a case record displays the Propose Solution modal. If the **Resolution notes** field on the case record is empty, the resolution notes that generation skill adds the information to this field in the modal. For more information, see [Generate the resolution notes for a case by using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-csm-generate-resolution.md).
+Selecting the **Propose Solution** UI action on a case record displays the Propose Solution modal. If the **Resolution notes** field on the case record is empty, the resolution notes that generation skill adds the information to this field in the modal. For more information, see [Generate the resolution notes for a case by using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-csm-generate-resolution.md).
 
 **Note:** The resolution notes that generation skill requires a minimum of 200 words in the case record to generate the resolution notes. If the resolution notes can’t be generated, the system displays a message below the **Resolution notes** field.
 
 To use the resolution notes generation skill with the Technology product support record page variant:
 
--   [Activate Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-csm-supporting-info.md).
--   [Configure the resolution notes generation skill in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-csm-configuring.md).
--   [Configure Propose Solution actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-csm-config-propose-solution.md).
+-   [Activate Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-csm-supporting-info.md).
+-   [Configure the resolution notes generation skill in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-csm-configuring.md).
+-   [Configure Propose Solution actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-csm-config-propose-solution.md).
 

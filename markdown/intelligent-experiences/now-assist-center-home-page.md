@@ -3,12 +3,12 @@ title: Home page
 description: The AI Admin Center home page provides features to quickly set up your AI implementation, find automation opportunities, track performance of AI solutions, and access related AI applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-home-page.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [AI Admin Center workspace, Explore, AI Admin Center, Enable AI experiences]
+breadcrumb: [AI Admin Center workspace, Explore, AI Admin Center, Getting started with AI, Enable AI Experiences]
 ---
 
 # Home page
@@ -29,7 +29,7 @@ Select **Activate** on the card to begin, and a conversation will open in the Se
 
 After it is implemented, the card disappears and the new solution appears under the **Recently activated AI** section of the home page.
 
-For more information, see [Activating actionable use cases from AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-actionable-use-cases.md).
+For more information, see [Activating actionable use cases from AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-actionable-use-cases.md).
 
 ## Automation opportunities
 
@@ -53,7 +53,7 @@ Each card displays a usage trend line to show adoption over time beginning at th
 
 Select **View all analytics** to see a complete list of the AI performance metrics in the **Performance** section of the AI Admin Hub.
 
-For more information, see [Monitor your recently activated AI solution in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/monitor-now-assist-performance-now-assist-center.md).
+For more information, see [Monitor your recently activated AI solution in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/monitor-now-assist-performance-now-assist-center.md).
 
 ## AI readiness
 
@@ -69,7 +69,7 @@ Select **Start AI readiness assessment** to run the assessment of your instance.
 
 Select **View Assessment** to see the assessment on a separate workspace tab.
 
-For more information, see [Increasing AI readiness in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-readiness-evaluation.md).
+For more information, see [Increasing AI readiness in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-using-readiness-evaluation.md).
 
 ## AI tools
 
@@ -79,5 +79,5 @@ The AI tools section shows other AI applications on the platform outside of AI A
 
 Each application appears in a separate card or tile. Select the arrow in the card to open the application in a separate browser tab.
 
-**Parent Topic:**[AI Admin Center workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-workspace.md)
+**Parent Topic:**[AI Admin Center workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-workspace.md)
 

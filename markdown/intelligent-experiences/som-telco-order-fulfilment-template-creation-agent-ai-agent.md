@@ -1,0 +1,116 @@
+---
+title: Telco order fulfilment template creation AI agent
+description: This Sales Customer Relationship Management AI agent generates a task plan template using the provided specification and dependency JSON.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/som-telco-order-fulfilment-template-creation-agent-ai-agent.html
+release: brazil
+topic_type: reference
+last_updated: "2026-06-01"
+reading_time_minutes: 2
+breadcrumb: [Sales Automation AI agents, Sales Automation, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+---
+
+# Telco order fulfilment template creation AI agent
+
+This Sales Customer Relationship Management AI agent generates a task plan template using the provided specification and dependency JSON.
+
+## Workflow
+
+The agent creates a task plan template for telecom order fulfillment based on a provided specification.
+
+1.  Retrieve and display the available order intent types.
+2.  Ask the user to select the required actions for the template, which can be multiple actions provided as a comma-separated list, and wait for their response.
+3.  Create the task plan record using the selected actions along with the specification, attachment, and task dependency information.
+4.  Display a summary of the created template, including the task number, number of tasks, and number of task dependencies.
+5.  Provide the confirmation URL and let the user know the template must be confirmed and published using that link.
+
+<table><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Allow third party to access this AI agent
+
+</td><td>
+
+When enabled, third-party AI agents can use this agent. This value is off \(false\) by default. This setting is defined in the AI Agent configs \[sn\_aia\_agent\_config\] table on the External discoverable field.
+
+</td></tr><tr><td>
+
+Allow AI specialists to access this AI agent
+
+</td><td>
+
+When enabled, AI specialists can use this agent. This value is off \(false\) by default. When set to true, more configuration options for tools become available so that an AI specialist can map inputs and response templates to tool outputs. This setting is defined in the AI Agent configs \[sn\_aia\_agent\_config\] table on the Specialist enabled field.
+
+</td></tr><tr><td>
+
+Manage long-term memory
+
+</td><td>
+
+When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/na-aia-reference.md).
+
+</td></tr><tr><td>
+
+Tools
+
+</td><td>
+
+-   **Scripts**
+
+Create Task Plan Record
+
+Fetch Order Intent Type
+
+
+</td></tr><tr><td>
+
+Allowed user roles The specific user roles that can access this AI agent.
+
+</td><td>
+
+sn\_prd\_pm.product\_catalog\_admin, sn\_task\_plan.admin
+
+</td></tr><tr><td>
+
+Data access roles The specific user identity roles that determine which data the AI agent can access and what actions it can take.
+
+</td><td>
+
+sn\_prd\_pm.product\_catalog\_admin, sn\_task\_plan.admin
+
+</td></tr><tr><td>
+
+Triggers
+
+</td><td>
+
+Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-trigger-aia.md).
+
+</td></tr><tr><td>
+
+Channels
+
+</td><td>
+
+Configure an assistant for Virtual Agent or ServiceNow Otto panel using [Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md).
+
+</td></tr><tr><td>
+
+Used in agentic workflows
+
+</td><td>
+
+Design Telecom Order Fulfilment Template
+
+</td></tr></tbody>
+</table>Learn more at [Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-overview.md).
+
+**Parent Topic:**[Sales Automation AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/sales-automation-ai-agents-overview.md)
+

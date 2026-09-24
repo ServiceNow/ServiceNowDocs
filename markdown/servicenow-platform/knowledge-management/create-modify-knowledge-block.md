@@ -3,11 +3,11 @@ title: Create a knowledge block
 description: Create or modify a knowledge block to define a reusable piece of content that can be inserted into knowledge articles in a knowledge base. The knowledge block is secured by user criteria, which controls what users, groups, roles, companies, locations, or departments can read or not read the content in an article or search, enabling users to more easily view content that is relevant to them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/create-modify-knowledge-block.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Using knowledge blocks, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Create or modify a knowledge block to define a reusable piece of content that ca
 
 ## Before you begin
 
-[Activate knowledge blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/activate-knowledge-blocks.md)
+[Activate knowledge blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/activate-knowledge-blocks.md)
 
 Role required: user must have contributor access to the knowledge base.
 
@@ -52,7 +52,7 @@ Knowledge base
 
 </td><td>
 
-Name of the knowledge base.The knowledge blocks feature must be enabled for each knowledge base that you plan to create blocks. See [Enable knowledge blocks for each knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/enable-knowledge-blocks-for-knowledge-base.md).
+Name of the knowledge base.The knowledge blocks feature must be enabled for each knowledge base that you plan to create blocks. See [Enable knowledge blocks for each knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/enable-knowledge-blocks-for-knowledge-base.md).
 
 </td></tr><tr><td>
 
@@ -68,7 +68,7 @@ Ownership Group
 
 </td><td>
 
-Ownership group for the knowledge block. This field appears when the ownership groups feature is enabled.Knowledge blocks can be used with or without the ownership groups feature. To learn more about ownership groups, including how to enable the feature, see [Ownership groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/enable-ownership-group.md).
+Ownership group for the knowledge block. This field appears when the ownership groups feature is enabled.Knowledge blocks can be used with or without the ownership groups feature. To learn more about ownership groups, including how to enable the feature, see [Ownership groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/enable-ownership-group.md).
 
 </td></tr><tr><td>
 
@@ -76,7 +76,7 @@ Can read
 
 </td><td>
 
-User criteria to apply for read access at the knowledge block level.User criteria set at the knowledge base and knowledge block level controls which users can read or not read block content within an article. To learn more about selecting user criteria for a knowledge block, see [Select user criteria for a knowledge block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/select-user-criteria-for-knowledge-block.md).
+User criteria to apply for read access at the knowledge block level.User criteria set at the knowledge base and knowledge block level controls which users can read or not read block content within an article. To learn more about selecting user criteria for a knowledge block, see [Select user criteria for a knowledge block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/select-user-criteria-for-knowledge-block.md).
 
 </td></tr><tr><td>
 
@@ -84,7 +84,7 @@ Cannot read
 
 </td><td>
 
-User criteria to apply for cannot read access at the knowledge block level.User criteria set at the knowledge base and knowledge block level controls which users can read or not read block content within an article. To learn more about selecting user criteria for a knowledge block, see [Select user criteria for a knowledge block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/select-user-criteria-for-knowledge-block.md).
+User criteria to apply for cannot read access at the knowledge block level.User criteria set at the knowledge base and knowledge block level controls which users can read or not read block content within an article. To learn more about selecting user criteria for a knowledge block, see [Select user criteria for a knowledge block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/select-user-criteria-for-knowledge-block.md).
 
 </td></tr><tr><td>
 
@@ -118,7 +118,7 @@ Version
 
 </td><td>
 
-This field is automatically set to a version number when the article versioning feature is enabled.Knowledge blocks can be used with or without the article versioning feature. To learn more about article versioning, including how to disable the feature, see [Article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/article-versioning.md).
+This field is automatically set to a version number when the article versioning feature is enabled.Knowledge blocks can be used with or without the article versioning feature. To learn more about article versioning, including how to disable the feature, see [Article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/article-versioning.md).
 
 </td></tr><tr><td>
 
@@ -149,17 +149,17 @@ Not applicable.
 
 5.  Click **Publish** to publish the block.
 
-    **Note:** Any additional steps required to publish the knowledge block, such as approvals, depend on the publishing workflow for the knowledge base. See [Knowledge workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeWorkflows.md) for more information.
+    **Note:** Any additional steps required to publish the knowledge block, such as approvals, depend on the publishing workflow for the knowledge base. See [Knowledge workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/r_KnowledgeWorkflows.md) for more information.
 
 
 ## What to do next
 
 After the knowledge block is published, you can add the block to an article within the knowledge base.
 
--   **[Select user criteria for a knowledge block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/select-user-criteria-for-knowledge-block.md)**  
+-   **[Select user criteria for a knowledge block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/select-user-criteria-for-knowledge-block.md)**  
 Control which users can read or not read knowledge block content within an article in a knowledge base by setting user criteria at the knowledge base and knowledge block level. As a knowledge contributor, you can apply user criteria at the knowledge block level.
--   **[Retire a knowledge block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/retire-knowledge-block.md)**  
+-   **[Retire a knowledge block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/retire-knowledge-block.md)**  
 You can retire a published knowledge block so that it's no longer available for users to view or search.
 
-**Parent Topic:**[Using knowledge blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/using-knowlege-blocks.md)
+**Parent Topic:**[Using knowledge blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/using-knowlege-blocks.md)
 

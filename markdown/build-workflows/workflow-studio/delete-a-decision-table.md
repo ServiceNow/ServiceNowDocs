@@ -3,13 +3,13 @@ title: Delete a decision table
 description: Delete decision tables that you no longer need from the list of decision tables in Workflow Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/delete-a-decision-table.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-07-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Decision tables, Decision tables, Workflow Studio, Build workflows]
+breadcrumb: [Using decision tables, Decision tables, Workflow Studio, Build workflows]
 ---
 
 # Delete a decision table
@@ -31,5 +31,5 @@ Role required: admin
 4.  Select **Delete**.
 
 
-**Parent Topic:**[Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
+**Parent Topic:**[Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/using-decision-builder.md)
 

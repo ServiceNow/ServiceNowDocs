@@ -3,11 +3,11 @@ title: Manage Pull Requests \(PR\) or Merge Requests
 description: Manage Jenkins, GitHub Actions, and Azure DevOps \(ADO\) pipeline’s pull requests for GitHub, Bitbucket, and ADO coding sources from ServiceNow DevOps. You can enable the change approval process on your pull request to control pull request merge approvals from ServiceNow DevOps and monitor pull request details associated with the change request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/manage-pull-request-pipelines.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Accelerate your DevOps change process, DevOps Change Velocity, IT Service Management]
 ---
@@ -22,11 +22,11 @@ Ensure that the following prerequisites are met before approving pull requests:
 
 -   Your admin has created a pull request branch in GitHub or Bitbucket using a Multi-branch project pipeline. For more information, see [GitHub branch source](https://plugins.jenkins.io/github-branch-source/) and [Bitbucket branch source](https://plugins.jenkins.io/cloudbees-bitbucket-branch-source/).
 -   Your admin has enabled pull request creation in the ADO repository. For more information, see [https://marketplace.visualstudio.com/items?itemName=ShaykiAbramczyk.CreatePullRequest](https://marketplace.visualstudio.com/items?itemName=ShaykiAbramczyk.CreatePullRequest).
--   Your admin has configured Jenkins integration with DevOps. For more information, see [Jenkins integration with DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/jenkins-integration-dev-ops.md).
--   Your admin has configured GitHub integration with DevOps. For more information, see [GitHub integration with DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/github-integration-dev-ops.md).
--   Your admin has configured Bitbucket integration with DevOps. For more information, see [Bitbucket integration with DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/bitbucket-integration-dev-ops.md).
--   Your admin has configured ADO integration with DevOps. For more information, see [Azure DevOps integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/azure-devops-integration-dev-ops.md).
--   Your admin has enabled the Change Acceleration feature of DevOps for automatic change request creation in your pipeline. For more information, see [Accelerating DevOps change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md).
+-   Your admin has configured Jenkins integration with DevOps. For more information, see [Jenkins integration with DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/jenkins-integration-dev-ops.md).
+-   Your admin has configured GitHub integration with DevOps. For more information, see [GitHub integration with DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/github-integration-dev-ops.md).
+-   Your admin has configured Bitbucket integration with DevOps. For more information, see [Bitbucket integration with DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/bitbucket-integration-dev-ops.md).
+-   Your admin has configured ADO integration with DevOps. For more information, see [Azure DevOps integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/azure-devops-integration-dev-ops.md).
+-   Your admin has enabled the Change Acceleration feature of DevOps for automatic change request creation in your pipeline. For more information, see [Accelerating DevOps change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md).
 
 Role required: sn\_devops.admin
 
@@ -46,15 +46,15 @@ For ADO pipelines, pull requests can be managed for ADO coding source.
 
 2.  Perform the following steps based on your orchestration tool.
 
-<table id="choicetable_khj_xzd_vyb"><thead><tr><th align="left" id="d406910e222">
+<table id="choicetable_khj_xzd_vyb"><thead><tr><th align="left" id="d414808e222">
 
 Orchestration tool
 
-</th><th align="left" id="d406910e225">
+</th><th align="left" id="d414808e225">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d406910e231">
+</th></tr></thead><tbody><tr><td id="d414808e231">
 
 **Jenkins**
 
@@ -64,7 +64,7 @@ Steps
 2.  Select the **Pull Request Pipeline Tracking Check** option.
 
 
-</td></tr><tr><td id="d406910e258">
+</td></tr><tr><td id="d414808e258">
 
 **GitHub Actions**
 
@@ -75,7 +75,7 @@ Steps
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d406910e291">
+</td></tr><tr><td id="d414808e291">
 
 **ADO**
 
@@ -112,5 +112,5 @@ Pull request tracking will be enabled for all the existing configured projects. 
         Details of pull requests that are created in a BitBucket coding source and associated with a Jenkins pipeline are not displayed for a change request.
 
 
-**Parent Topic:**[Accelerating your DevOps change process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md)
+**Parent Topic:**[Accelerating your DevOps change process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md)
 

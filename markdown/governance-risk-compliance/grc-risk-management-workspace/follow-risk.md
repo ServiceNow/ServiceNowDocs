@@ -3,11 +3,11 @@ title: Follow a risk
 description: Connect integrates with Risk Management providing an overlay to the standard interface, allowing users to participate in conversations while they work and collaborate on the risk record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/follow-risk.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -20,7 +20,7 @@ Connect integrates with Risk Management providing an overlay to the standard int
 
 Role required: sn\_risk.user
 
-For more information about Connect, see [Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_Connect.md).
+For more information about Connect, see [Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_Connect.md).
 
 ## Procedure
 
@@ -36,5 +36,5 @@ For more information about Connect, see [Connect](https://raw.githubusercontent.
     |**To add the Connect full-screen view**|Click **Open Connect Full**.|
 
 
-**Parent Topic:**[Using Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-mgmt.md)
+**Parent Topic:**[Using Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-mgmt.md)
 

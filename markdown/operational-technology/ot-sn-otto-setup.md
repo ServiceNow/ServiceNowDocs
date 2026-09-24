@@ -3,9 +3,9 @@ title: ServiceNow Otto for Setup in Operational Technology
 description: For Operational Technology \(OT\), ServiceNow Otto for Setup consolidates the setup processes for OT onto a single page, giving administrators a unified view of their configuration state.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/ot-sn-otto-setup.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Operational Technology Setup, Operational Technology]
 ---
@@ -61,19 +61,19 @@ The OT workflow for ServiceNow Otto for Setup moves through organized configurat
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Access and complete all OT configuration items in one place.|[Operational Technology Setup configuration items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-modules-in-sn-otto-setup.md)|Administrator|
+|Access and complete all OT configuration items in one place.|[Operational Technology Setup configuration items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/ot-modules-in-sn-otto-setup.md)|Administrator|
 |Reach the Configuration Console from the same Admin Home page that hosts other product configuration entry points.|Operational Technology card on the Admin Home page|Administrator|
 
 ## What to explore next
 
 To learn more about accessing and using ServiceNow Otto for Setup for OT configuration, see:
 
--   [Access ServiceNow Otto for Setup \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/access-sn-otto-setup-ot.md)
--   [Operational Technology Setup configuration items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-modules-in-sn-otto-setup.md)
--   [Add OT users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/add-users-sn-otto-setup-ot.md)
--   [Add an OT assignment group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/add-users-assignment-group-sn-otto-setup-ot.md)
--   [Assign OT roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/assign-roles-sn-otto-setup-ot.md)
--   [Assign OT admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/assign-ot-admin-roles-sn-otto-setup-ot.md)
+-   [Access ServiceNow Otto for Setup \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/access-sn-otto-setup-ot.md)
+-   [Operational Technology Setup configuration items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/ot-modules-in-sn-otto-setup.md)
+-   [Add OT users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/add-users-sn-otto-setup-ot.md)
+-   [Add an OT assignment group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/add-users-assignment-group-sn-otto-setup-ot.md)
+-   [Assign OT roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/assign-roles-sn-otto-setup-ot.md)
+-   [Assign OT admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/assign-ot-admin-roles-sn-otto-setup-ot.md)
 
-**Parent Topic:**[Explore the Operational Technology Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/explore-ot-setup.md)
+**Parent Topic:**[Explore the Operational Technology Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/explore-ot-setup.md)
 

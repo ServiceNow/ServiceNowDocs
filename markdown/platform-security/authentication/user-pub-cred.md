@@ -3,11 +3,11 @@ title: Configuring Multi-factor Authentication with Biometrics
 description: Administrators can use the User Public Credentials list to view and manager user created credentials.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/user-pub-cred.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Web Authentication, MFA verification methods, Configuring MFA, Multi-factor authentication, Authentication, Access Management]
 ---

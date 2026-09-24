@@ -3,9 +3,9 @@ title: Field Service operations workflow example
 description: This Field Service operations workflow example shows how a clinical engineering manager at a healthcare provider handles an MRI scanner issue that can be resolved with a firmware upgrade.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-operations-use-case.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Example workflows, Explore, Field Service Management]
 ---
@@ -40,5 +40,5 @@ The following table provides the steps for the Field Service operations workflow
 |6. Track and audit|The signed status automatically generates a PDF summary of the work order including the completed tasks, parts used and returned, incidental expenses, and the time required to complete the work. The PDF is attached to the work order form for tracking and audit purposes.|
 |7. Report and analyze|All data and timelines are also tracked in the work order, and are available for trend analysis, reports, and audits to satisfy compliance requirements. The Field Service manager compares the metrics from the work order to key performance indicators \(KPIs\) available by default within theServiceNow Performance Analytics dashboards.|
 
-**Parent Topic:**[Field Service Management workflow examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-use-cases.md)
+**Parent Topic:**[Field Service Management workflow examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/fsm-use-cases.md)
 

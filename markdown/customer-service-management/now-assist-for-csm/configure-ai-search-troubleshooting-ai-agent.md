@@ -3,11 +3,11 @@ title: Configure AI Search to use with the Troubleshooting steps identification 
 description: Configure AI Search with the Troubleshooting steps identification AI agent to fetch the relevant cases and knowledge articles that could help solve your issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/configure-ai-search-troubleshooting-ai-agent.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI Agents, Agentic AI]
 breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -23,7 +23,7 @@ Role required: admin
 
 ## About this task
 
-This AI agent relies on AI Search for fetching the relevant cases and knowledge articles that could help solve your issue. For more information on configuring AI Search, see [Using AI Search with CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-ai-search.md) and [Semantic index configuration for indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/semantic-index-cfg-ais.md).
+This AI agent relies on AI Search for fetching the relevant cases and knowledge articles that could help solve your issue. For more information on configuring AI Search, see [Using AI Search with CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-config-workspace-ai-search.md) and [Semantic index configuration for indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/semantic-index-cfg-ais.md).
 
 ## Procedure
 

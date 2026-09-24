@@ -3,9 +3,9 @@ title: Automating system responses to inbound email
 description: Save time from responding to emails manually when you configure your instance to send replies, create incidents, or update records automatically in response to inbound emails.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/processing-inbound-emails.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Inbound email, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -17,7 +17,7 @@ Save time from responding to emails manually when you configure your instance to
 You can define system responses to inbound emails in two ways:
 
 -   Create an inbound email flow in Workflow Studio
--   Script an [inbound email action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_InboundEmailActions.md)
+-   Script an [inbound email action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_InboundEmailActions.md)
 
 ## Inbound email trigger in Workflow Studio
 
@@ -36,5 +36,5 @@ The benefits to automating system responses to inbound emails in Workflow Studio
 -   Reduces upgrade costs, with upgrade-safe ServiceNow AI Platform logic replacing complex custom script.
 -   Reduces development costs by providing a library of reusable actions.
 
-For more information on creating inbound email flows in Workflow Studio, see [Workflow Studio flow trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-triggers.md) or follow the steps in [Create a flow with an inbound email trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-inbound-email-flow.md). To view or manage your inbound email flows, navigate to **Flow Designer** &gt; **Inbound Email Flows**.
+For more information on creating inbound email flows in Workflow Studio, see [Workflow Studio flow trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-triggers.md) or follow the steps in [Create a flow with an inbound email trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-inbound-email-flow.md). To view or manage your inbound email flows, navigate to **Flow Designer** &gt; **Inbound Email Flows**.
 

@@ -3,11 +3,11 @@ title: Notifications for breached error budgets
 description: Details about the notifications that teams receive for breached error budget policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-level-objective-management/srm-notifications-messages.html
-release: australia
+release: brazil
 product: Service Level Objective Management
 classification: service-level-objective-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SLO Management reference, Service Level Objective Management, ITOM AIOps, IT Operations Management]
 ---
@@ -38,7 +38,7 @@ The following image is a sample notification in Microsoft Teams. It shows an err
 
 ## Related documentation
 
-See [Create a notification destination in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/create-notification-destination.md) and [Create SLOs, SLIs, and error budget policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/sr-create-slo-sli.md).
+See [Create a notification destination in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-level-objective-management/create-notification-destination.md) and [Create SLOs, SLIs, and error budget policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-level-objective-management/sr-create-slo-sli.md).
 
-**Parent Topic:**[SLO Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/service-level-objective-management-reference.md)
+**Parent Topic:**[SLO Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-level-objective-management/service-level-objective-management-reference.md)
 

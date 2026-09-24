@@ -3,11 +3,11 @@ title: Create a business calendar span using a Script includes
 description: You can generate business calendar spans and their names using the Script includes titled BusinessCalendarGeneratorUtil. The calendars you create are accessible across both global and scoped applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/create-a-business-calendar-span-using-a-script-includes.html
-release: australia
+release: brazil
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating business calendars, Use, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,7 +18,7 @@ You can generate business calendar spans and their names using the **Script incl
 
 ## Before you begin
 
-Role required: business\_calendar\_admin
+Role required: admin
 
 ## Procedure
 
@@ -47,10 +47,10 @@ Role required: business\_calendar\_admin
 
 A business calendar span script includes is created. The year is appended to the beginning of the display name from the `longName` field.
 
-**Parent Topic:**[Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/business-calendars.md)
+**Parent Topic:**[Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/business-calendars.md)
 
 **Related topics**  
 
 
-[Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md)
+[Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/c_ScriptIncludes.md)
 

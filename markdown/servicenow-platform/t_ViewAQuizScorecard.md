@@ -3,9 +3,9 @@ title: View a quiz scorecard
 description: View scorecards for a quiz record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_ViewAQuizScorecard.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View a quiz designer scorecard, View a quiz result, Quiz designer, Using Quizzes, Quizzes, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ Role required: assessment\_admin or admin
 
 ## About this task
 
-For detailed information about scorecards, see [Quiz scorecards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_QuizScorecards.md).
+For detailed information about scorecards, see [Quiz scorecards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_QuizScorecards.md).
 
 ## Procedure
 
@@ -43,5 +43,5 @@ For detailed information about scorecards, see [Quiz scorecards](https://raw.git
     -   Average Ratings
     -   History
 
-**Parent Topic:**[View a quiz designer scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAQuizDesignerScorecard.md)
+**Parent Topic:**[View a quiz designer scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_ViewAQuizDesignerScorecard.md)
 

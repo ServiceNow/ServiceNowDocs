@@ -3,9 +3,9 @@ title: Open your Configurable Workspace experience in UI Builder
 description: Access your Configurable Workspace experience in UI Builder for editing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/sow-itom-workspace-open-uib.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, ITOM AIOps, IT Operations Management]
 ---
@@ -31,5 +31,5 @@ Role required: ui\_builder\_admin or admin
 
 Your configurable experience opens in UI Builder.
 
-**Parent Topic:**[Configuring Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-sow-itom.md)
+**Parent Topic:**[Configuring Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/configure-sow-itom.md)
 

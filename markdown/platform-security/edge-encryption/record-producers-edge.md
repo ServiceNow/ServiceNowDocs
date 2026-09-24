@@ -3,11 +3,11 @@ title: Encrypt data from a record producer
 description: Configure your Edge Encryption proxy server to allow inserts from a record producer by creating encryption rules from the record producer record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/record-producers-edge.html
-release: australia
+release: brazil
 product: Edge Encryption
 classification: edge-encryption
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -22,7 +22,7 @@ Role required: security\_admin
 
 Record producers allow end users to create task-based records, such as incident records, from the Service Catalog and Service Portal. If a record producer attempts to insert data into a field marked for encryption, an invalid insert message displays and the data is not saved to the field.
 
-Encrypting data from a record producer requires an encryption configuration defined for the target field. Check that you have created an encryption configuration for the target field and table before creating an encryption rule from a record producer. See [Create a field encryption configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_ConfigureCloudEdge.md). To encrypt attachments from a record producer, [Configure attachment encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_EncryptingAttachments.md).
+Encrypting data from a record producer requires an encryption configuration defined for the target field. Check that you have created an encryption configuration for the target field and table before creating an encryption rule from a record producer. See [Create a field encryption configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/c_ConfigureCloudEdge.md). To encrypt attachments from a record producer, [Configure attachment encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/c_EncryptingAttachments.md).
 
 ## Procedure
 
@@ -30,7 +30,7 @@ Encrypting data from a record producer requires an encryption configuration defi
 
 2.  Navigate to **Service Catalog** &gt; **Catalog Definitions** &gt; **Record Producers**.
 
-3.  [Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_DefRecProdInSCat.md) record or open an existing record producer record.
+3.  [Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_DefRecProdInSCat.md) record or open an existing record producer record.
 
 4.  Under **Related Links**, select **Create Edge Encryption Rule**.
 
@@ -94,5 +94,5 @@ Encrypting data from a record producer requires an encryption configuration defi
 
 The two encryption rules enable the record producer to insert values into fields marked for encryption from either the Service Catalog or Service Portal.
 
-**Parent Topic:**[Configuring Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/edge-config.md)
+**Parent Topic:**[Configuring Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/edge-config.md)
 

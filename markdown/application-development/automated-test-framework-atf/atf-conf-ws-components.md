@@ -3,11 +3,11 @@ title: Testable Configurable Workspace components
 description: Learn about the components and its associated actions in the configurable workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-conf-ws-components.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 22
 breadcrumb: [Automated Test Framework \(ATF\) reference, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -2463,8 +2463,8 @@ Sets value on typeahead input and dispatches associated events
 N/A
 
 </td></tr></tbody>
-</table>-   **[Configurable workspace components examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-conf-ws-comp-examples.md)**  
+</table>-   **[Configurable workspace components examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-conf-ws-comp-examples.md)**  
 To grasp how to interact with configurable workspace components, review these examples.
 
-**Parent Topic:**[Automated Test Framework \(ATF\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-ref-overview.md)
+**Parent Topic:**[Automated Test Framework \(ATF\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-ref-overview.md)
 

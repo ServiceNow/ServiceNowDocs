@@ -3,11 +3,11 @@ title: Create an update set in ServiceNow Studio
 description: Create an update set in ServiceNow Studio to package app changes for deployment to other instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sn-studio-create-update-set.html
-release: australia
+release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-05-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Update sets, App deployment in ServiceNow Studio, Use, ServiceNow Studio, Developing your application, Building applications]
 ---
@@ -45,5 +45,5 @@ Watch this short video on how to create an update set.
     The changes you made in your app go to the new update set.
 
 
-**Parent Topic:**[Update sets in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/working-with-update-sets-in-servicenow-studio.md)
+**Parent Topic:**[Update sets in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/working-with-update-sets-in-servicenow-studio.md)
 

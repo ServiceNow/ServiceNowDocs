@@ -3,13 +3,13 @@ title: Reinstate an automation goal
 description: Reinstate an already achieved automation goal to restore and alter the scope of the automation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/reinstate-automation-goal.html
-release: australia
+release: brazil
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create and define, Working with automations, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Working with automations, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Reinstate an automation goal
@@ -18,7 +18,7 @@ Reinstate an already achieved automation goal to restore and alter the scope of 
 
 ## Before you begin
 
-Create an automation goal. For more information, see [Create an automation goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-automation-goal.md).
+Create an automation goal. For more information, see [Create an automation goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/create-automation-goal.md).
 
 Verify that the state of the automation goal is **Achieved**.
 
@@ -43,5 +43,5 @@ Role required: sn\_ac.automation\_business\_user
 7.  Select **Save**.
 
 
-**Parent Topic:**[Create and define](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-and-define.md)
+**Parent Topic:**[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/automations.md)
 

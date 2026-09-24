@@ -1,20 +1,20 @@
 ---
 title: Request a hardware asset refresh through Zero Touch Refresh
-description: Request to replace a hardware asset that you own with a new asset directly with the provider through Zero Touch Refresh.
+description: As an employee, request to replace a hardware asset that you own with a new asset directly with the provider through Zero Touch Refresh.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/create-zero-touch-refresh-request.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage refresh of assets using Zero Touch Refresh, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Request and receive assets using the Zero Touch Refresh flow, Employee self-service, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Request a hardware asset refresh through Zero Touch Refresh
 
-Request to replace a hardware asset that you own with a new asset directly with the provider through Zero Touch Refresh.
+As an employee, request to replace a hardware asset that you own with a new asset directly with the provider through Zero Touch Refresh.
 
 ## Before you begin
 
@@ -57,15 +57,15 @@ Asset model with which you want to replace the hardware asset.The list shows the
 </td></tr></tbody>
 </table>4.  Determine where the replacement asset should be sent.
 
-<table id="choicetable_g14_wv2_yxb"><thead><tr><th align="left" id="d342492e154">
+<table id="choicetable_g14_wv2_yxb"><thead><tr><th align="left" id="d347753e147">
 
 Shipping location
 
-</th><th align="left" id="d342492e157">
+</th><th align="left" id="d347753e150">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d342492e163">
+</th></tr></thead><tbody><tr><td id="d347753e156">
 
 **Your location**
 
@@ -73,7 +73,7 @@ Action
 
 In the **Refresh method** field, select **Ship**.**Note:** The form shows your contact details such as your address and phone number. You can change your contact details if necessary.
 
-</td></tr><tr><td id="d342492e180">
+</td></tr><tr><td id="d347753e173">
 
 **Stockroom**
 
@@ -96,16 +96,10 @@ In the **Refresh method** field, select **Ship**.**Note:** The form shows your c
 
 Your Zero Touch Refresh request is successfully submitted.
 
-**Parent Topic:**[Manage refresh of assets using Zero Touch Refresh](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/refresh-hardware-uisng-ztr.md)
+**Parent Topic:**[Request and receive assets using the Zero Touch Refresh flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/request-receive-assets-ztref.md)
 
 **Related topics**  
 
-
-[Configure replacement models for a refresh model]()
-
-[Fulfill a Zero Touch Refresh Fulfillment Request]()
-
-[Process a Zero Touch Refresh request]()
 
 [Acknowledge receipt of an asset on a mobile device]()
 

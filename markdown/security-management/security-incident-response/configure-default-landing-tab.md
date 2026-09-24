@@ -3,11 +3,11 @@ title: Configure default landing tab for security analysts
 description: Configure the default landing tab \(Overview or Details\) for security analysts when they select a security incident so they directly land on the page where they need to work on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configure-default-landing-tab.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View and update Security Incident Response system properties, Configure, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -35,5 +35,5 @@ Role required: sn\_si.admin
 5.  Select **Save**.
 
 
-**Parent Topic:**[View and update Security Incident Response system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/view-update-sirw-system-properties.md)
+**Parent Topic:**[View and update Security Incident Response system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/view-update-sirw-system-properties.md)
 

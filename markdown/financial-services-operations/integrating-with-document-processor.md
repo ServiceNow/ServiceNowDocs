@@ -3,9 +3,9 @@ title: Integrating with Document Processor
 description: ServiceNow Financial Services Document Processor enables other Financial Services Operations applications to collect and verify documents that are used in workflows across these applications. You can submit documents for verification​, and request deferment​ or exception.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/integrating-with-document-processor.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrate, Financial Services Operations \(FSO\)]
 ---
@@ -18,19 +18,19 @@ ServiceNow® Financial Services Document Processor enables other Financial Servi
 
 <table id="table_q2j_cp1_f2c" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/exploring-document-processor.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/exploring-document-processor.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-optimize-manage.svg"\] Alt text:Set up Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configuring-fso-document-processor.md)
+[Configure\[Omitted image "bus-optimize-manage.svg"\] Alt text:Set up Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configuring-fso-document-processor.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-task-list.svg"\] Alt text:Submit and manage document related requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/using-document-processor.md)
+[Use\[Omitted image "bus-task-list.svg"\] Alt text:Submit and manage document related requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/using-document-processor.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about components installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-document-processor-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about components installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-document-processor-reference.md)
 
 </td></tr></tbody>
 </table>

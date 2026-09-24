@@ -3,9 +3,9 @@ title: Tableau metadata collector
 description: Tableau metadata collector provides read-only access to metadata from a Tableau account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/tableau-metadata-collector.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
 ---
@@ -425,10 +425,10 @@ Supported data sources for cross-system lineage:
 -   BigQuery
 -   Redshift
 
--   **[Prepare to run the Tableau collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-tableau-collector.md)**  
+-   **[Prepare to run the Tableau collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/prepare-to-run-tableau-collector.md)**  
 Set up API access, authentication, and permissions before running the collector.
--   **[Create a Tableau metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-tableau-metadata-collector.md)**  
+-   **[Create a Tableau metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-tableau-metadata-collector.md)**  
 Create a collector to import metadata from Tableau.
 
-**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-metadata-collectors-dc.md)
+**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-metadata-collectors-dc.md)
 

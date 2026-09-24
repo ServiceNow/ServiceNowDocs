@@ -3,7 +3,7 @@ title: Get insights from the Integration Hub Usage Dashboard
 description: Use the Integration Hub Usage Dashboard to get insights on the Integration Hub transactions. For example, you can view which protocol was the most used in the transactions in the last year. You can also use filters and customize the layout and arrangement of the columns in the reports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/use-integrationhub-usage-dashboard.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -104,5 +104,5 @@ Role required: admin, flow designer, action\_designer, usage\_admin, or flow\_op
     6.  Click **Apply**.
 
 
-**Parent Topic:**[Integration Hub Usage Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub-usage-dashboard.md)
+**Parent Topic:**[Integration Hub Usage Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/integrationhub-usage-dashboard.md)
 

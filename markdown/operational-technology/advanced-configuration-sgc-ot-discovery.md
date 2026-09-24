@@ -3,9 +3,9 @@ title: Use advanced configurations
 description: Use the advanced configuration for the Service Graph Connector for ServiceNow OT Discovery to set up an asset extension points, a class calculator extension points, and a configuration item \(CI\) naming strategy extension points.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/advanced-configuration-sgc-ot-discovery.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -100,5 +100,5 @@ Role required: admin
     8.  Repeat needed steps for any additional classification settings that should use your CI Naming Strategy.
 
 
-**Parent Topic:**[Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-ot-discovery.md)
+**Parent Topic:**[Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/sgc-ot-discovery.md)
 

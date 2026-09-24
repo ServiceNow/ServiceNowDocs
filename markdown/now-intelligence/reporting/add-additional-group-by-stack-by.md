@@ -3,11 +3,11 @@ title: Add an additional group by or stack by
 description: You can configure a report to let users adjust its grouping and stacking.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/add-additional-group-by-stack-by.html
-release: australia
+release: brazil
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -57,5 +57,5 @@ Configure **Additional group by** and **Stack by** choices that users can select
 8.  Select **Save**.
 
 
-**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdvancedReporting.md)
+**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_AdvancedReporting.md)
 

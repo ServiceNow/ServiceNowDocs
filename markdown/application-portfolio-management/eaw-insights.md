@@ -3,9 +3,9 @@ title: Viewing insights of your portfolio
 description: You can view the insights for your business portfolio, information portfolio, application portfolio, and technology portfolio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-insights.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -34,7 +34,7 @@ The last refreshed time shows when the results were refreshed in your browser. Y
     -   **Candidate business applications for migration**: Displays the number of business applications that are fit for migration, based on their indicator scores.
     -   **Candidate business applications for investment**: Displays the number of business applications that are fit for further investment, based on their indicator scores.
     -   **Business applications w/o cost data**: Displays the number of business applications that lack any cost data associated with them.
-    **Note:** To learn about application indicator scores, see [Manage indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-configure-indicators.md).
+    **Note:** To learn about application indicator scores, see [Manage indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-configure-indicators.md).
 
 -   **Business Portfolio**
 
@@ -170,5 +170,5 @@ The link to the TPM technology lifecycles of the hardware model or software prod
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/explore-eaw.md)
+**Parent Topic:**[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/explore-eaw.md)
 

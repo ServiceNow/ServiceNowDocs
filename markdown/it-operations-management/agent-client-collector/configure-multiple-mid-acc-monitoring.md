@@ -3,11 +3,11 @@ title: Configure multiple MID Servers to work with Agent Client Collector Monito
 description: Connect agents to multiple MID Servers to enable Agent Client Collector Monitoring functionality. Multiple MID Servers can support each other with load balancing and domain separation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/configure-multiple-mid-acc-monitoring.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure a MID Server to work with ACC Monitoring, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Role required: agent\_client\_collector\_admin
 
 ## About this task
 
-When configuring multiple MID Servers, use the same port for all MID Servers. Using different ports requires you to add each MID Server individually, as described in [Configure a MID Server to work with Agent Client Collector Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/configure-mid-acc-monitoring.md).
+When configuring multiple MID Servers, use the same port for all MID Servers. Using different ports requires you to add each MID Server individually, as described in [Configure a MID Server to work with Agent Client Collector Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/configure-mid-acc-monitoring.md).
 
 ## Procedure
 

@@ -3,11 +3,11 @@ title: Edit automated test step order
 description: By default, steps execute in the order in which you created them. You can change this order by editing the Execution Order field.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-edit-step-order.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a new automated test, Building and running automated tests with the Automated Test Framework, Automated Test Framework \(ATF\) test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -37,5 +37,5 @@ By default, the system assigns the value 1 to **Execution Order** for the first 
 4.  Click **Update**.
 
 
-**Parent Topic:**[Create a new automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-create-test.md)
+**Parent Topic:**[Create a new automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-create-test.md)
 

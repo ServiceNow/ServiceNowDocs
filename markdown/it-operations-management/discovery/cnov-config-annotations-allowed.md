@@ -3,11 +3,11 @@ title: Define include and exclude lists of Labels and Annotations
 description: In Kubernetes Visibility Agent, define include and exclude lists of Labels and Annotations in Kubernetes resources that the Informer pulls into the Configuration Management Database \(CMDB\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cnov-config-annotations-allowed.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Agent Client Collector, Kubernetes, Visibility, labels, annotations, include, exclude, Cloud Native Operations for Visibility, CNO for Visibility]
 breadcrumb: [Install Kubernetes Visibility Agent \(KVA\) Informer, Configure, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
@@ -36,15 +36,15 @@ If both options are configured, **excludeLabelsAndAnnotations** takes precedence
 
 1.  Create an include or exclude list by using the following procedure.
 
-<table id="choicetable_zc3_nht_51c"><thead><tr><th align="left" id="d436383e141">
+<table id="choicetable_zc3_nht_51c"><thead><tr><th align="left" id="d438698e141">
 
 Task
 
-</th><th align="left" id="d436383e144">
+</th><th align="left" id="d438698e144">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d436383e150">
+</th></tr></thead><tbody><tr><td id="d438698e150">
 
 **Create an include list**
 
@@ -57,7 +57,7 @@ For example: `--set IncludeLabelsAndAnnotations="label1,label2"`
 -   When using the k8s\_informer.yaml file, add values under the environment variable INCLUDE\_LABELS\_AND\_ANNOTATIONS.
 
 
-</td></tr><tr><td id="d436383e172">
+</td></tr><tr><td id="d438698e172">
 
 **Create an exclude list**
 
@@ -72,5 +72,5 @@ For example: `--set ExcludeLabelsAndAnnotations="label1,label2"`
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-deploy-install.md)
+**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/cnov-deploy-install.md)
 

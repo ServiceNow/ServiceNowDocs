@@ -3,13 +3,13 @@ title: Create an audit engagement in Audit Workspace
 description: Create an engagement in the workspace and assign it to an audit supervisor. Use the workspace to schedule the engagement, plan the details, and budget the expenses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/create-engagement-ws.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Audit Supervisor Workspace, Audit Workspace Overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Audit Supervisor Workspace, Audit Workspace overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Create an audit engagement in Audit Workspace
@@ -296,11 +296,11 @@ Template type
 
 Type of template used to generate the audit report for the engagement record.-   Classic report template: Generates the report using the classic report templates such as HTML, script, or XML, provided the engagement record is in Follow up or Closed states.
 
-For more information, see [Create an audit report template in classic formats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/create-audit-report-temp.md) and [Generate a report for an engagement in a classic report template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/generate-report-engagement-audit-ws.md).
+For more information, see [Create an audit report template in classic formats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/create-audit-report-temp.md) and [Generate a report for an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/generate-report-engagement-audit-ws.md).
 
 -   Word report template: Generates the report using the Microsoft Word template, provided the engagement record is in Validate, Fieldwork, or Follow up states.
 
-For more information, see [Generate an audit report for an engagement using Microsoft Word template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/generate-audit-report.md).
+For more information, see [Generate an audit report for an engagement using Microsoft Word template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/generate-audit-report.md).
 
 The **Generate report** button is available in the engagement record only in the states mentioned for each **Template type**. You can generate only one report at a time.
 
@@ -360,13 +360,13 @@ Confidential
 
 </td><td>
 
-Option to enable confidentiality of the record. Only the assigned confidential users or confidential groups of users can access the record.For more information on the confidential option, see [Confidentiality flag for audit and compliance records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/confidentiality-flag-audit-pc.md).
+Option to enable confidentiality of the record. Only the assigned confidential users or confidential groups of users can access the record.For more information on the confidential option, see [Confidentiality flag for audit and compliance records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/confidentiality-flag-audit-pc.md).
 
 </td></tr></tbody>
 </table>    **Note:**
 
-    -   If you had selected the **Classic report template** option in the **Template type** field while creating the engagement record, then the reports are created using HTML, script, or XML templates. For more information, see [Create an audit report template in classic formats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/create-audit-report-temp.md).
-    -   If you had selected the **Word report template** option in the **Template type** field while creating the engagement, then the report is created using the Word template. For more information, see [Generate an audit report for an engagement using Microsoft Word template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/generate-audit-report.md).
+    -   If you had selected the **Classic report template** option in the **Template type** field while creating the engagement record, then the reports are created using HTML, script, or XML templates. For more information, see [Create an audit report template in classic formats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/create-audit-report-temp.md).
+    -   If you had selected the **Word report template** option in the **Template type** field while creating the engagement, then the report is created using the Word template. For more information, see [Generate an audit report for an engagement using Microsoft Word template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/generate-audit-report.md).
 4.  Select **Save**.
 
     You can define the entities that are involved in the audit engagement.
@@ -381,7 +381,7 @@ Option to enable confidentiality of the record. Only the assigned confidential u
 
     3.  Select **Add**.
 
-        The selected issues are added to the engagement as related issues and an m2m relationship is created between the engagement and the issues in the Issue to Engagement \[sn\_grc\_m2m\_issue\_engagement\] table. You can also create an issue for the engagement by selecting the **New** button, which takes you to the Create New Issue form.
+        The selected issues are added to the engagement as related issues. An m2m relationship is created between the engagement and the issues in the Issue to Engagement \[sn\_grc\_m2m\_issue\_engagement\] table. You can also create an issue for the engagement by selecting the **New** button, which takes you to the Create Issue form.
 
     4.  To remove an issue that is mapped to the engagement, select the issue and click **Remove**.
 

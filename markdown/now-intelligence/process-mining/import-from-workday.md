@@ -3,11 +3,11 @@ title: Import Workday or Salesforce data
 description: Use the data available in Workday or Salesforce to optimize your processes and solve business problems. To use these datasets, you must first import them into ServiceNow environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/import-from-workday.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-07-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Process Mining for Workday and Salesforce, Import external data, Process Mining, Platform Analytics]
 ---
@@ -26,13 +26,13 @@ Role required: sn\_process\_mining\_admin
 
     Audit table is a staging table that is created with the required columns to populate the external data.
 
-    For detailed procedure, see [Create an audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/create-table.md).
+    For detailed procedure, see [Create an audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/create-table.md).
 
 2.  Add custom fields to the audit table.
 
     The custom fields form as breakdown filters when viewing the process graph. Without custom fields, there won't be any breakdown filters.
 
-    For detailed procedure, see [Add custom fields to the audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/add-custom-field.md).
+    For detailed procedure, see [Add custom fields to the audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/add-custom-field.md).
 
 3.  Import data into the audit table.
 
@@ -44,13 +44,13 @@ Role required: sn\_process\_mining\_admin
 
         The Connector Configurations page is displayed.
 
-        \[Omitted image "app-conn-config.png"\] Alt text: Connector configurations list
+        \[Omitted image "image.app-conn-config"\] Alt text: Connector configurations list
 
     2.  Select **New**.
 
         The Connector Configuration new record form is displayed.
 
-        \[Omitted image "app-config-record.png"\] Alt text: New connector configuration record
+        \[Omitted image "image.app-config-record"\] Alt text: New connector configuration record
 
     3.  Provide the details on the form.
 
@@ -96,7 +96,7 @@ Table
 
 </td><td>
 
-Table that stores the imported data. It is auto-populated.This is the table that is created in the [Create an audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/create-table.md) section.
+Table that stores the imported data. It is auto-populated.This is the table that is created in the [Create an audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/create-table.md) section.
 
 </td></tr><tr><td>
 
@@ -157,9 +157,9 @@ SELECT  workdayID, businessProcessType, processHistory{process, cf_CF_IS_Subproc
 
         The data import starts. The status is updated in the Connector Executions area.
 
-        **Note:** If an import takes more than 24 hours, it gets automatically cancelled. This is managed by the sn\_po\_extdata.cancel\_job\_after\_seconds system property. For more information, see [Process Mining properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/components-installed.md).
+        **Note:** If an import takes more than 24 hours, it gets automatically cancelled. This is managed by the sn\_po\_extdata.cancel\_job\_after\_seconds system property. For more information, see [Process Mining properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/components-installed.md).
 
-        The Salesforce data is imported in batches. This is managed by the sn\_promin\_sf.salesforce\_data\_chunk\_size system property. For more information, see [Process Mining properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/components-installed.md).
+        The Salesforce data is imported in batches. This is managed by the sn\_promin\_sf.salesforce\_data\_chunk\_size system property. For more information, see [Process Mining properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/components-installed.md).
 
     The data from the source is imported to your Process Mining audit table.
 
@@ -196,5 +196,5 @@ SELECT  workdayID, businessProcessType, processHistory{process, cf_CF_IS_Subproc
 
 The data is now completely imported to your process Mining instance. You can now create a project using this data to analyze improve your processes.
 
-For information on creating a project, see [Create a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/create-project.md). For information on managing an audit table, see [Managing an audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/managing-audit-table.md).
+For information on creating a project, see [Create a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/create-project.md). For information on managing an audit table, see [Managing an audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/managing-audit-table.md).
 

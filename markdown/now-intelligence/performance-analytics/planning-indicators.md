@@ -3,11 +3,11 @@ title: Planning your indicators
 description: Before creating an indicator, clarify what goals you wish to attain with the indicator.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/planning-indicators.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Implement Performance Analytics, Explore, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -19,7 +19,7 @@ Before creating an indicator, clarify what goals you wish to attain with the ind
 Ask these questions before you create an indicator:
 
 -   What
-    -   What do you want to measure? Are you basing what you want to measure on progress towards a business goal? Consider starting with a business goal and then deciding what to measure. You can use [KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/designing-pa-solution.md) to help you.
+    -   What do you want to measure? Are you basing what you want to measure on progress towards a business goal? Consider starting with a business goal and then deciding what to measure. You can use [KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/designing-pa-solution.md) to help you.
 
         Do you want a simple count, like the number of open incidents, or something more sophisticated, like the average age to close an incident?
 
@@ -60,10 +60,10 @@ Ask these questions before you create an indicator:
     -   In the indicator list, is there an indicator that matches, or comes close to matching, your requirements? Can I duplicate an existing indicator and tweak it?
     -   Can I create a formula indicator from existing indicators that will meet my requirements?
 
-**Parent Topic:**[Implement Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/implementing-pa.md)
+**Parent Topic:**[Implement Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/implementing-pa.md)
 
 **Related topics**  
 
 
-[Design your Performance Analytics solution with KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/designing-pa-solution.md)
+[Design your Performance Analytics solution with KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/designing-pa-solution.md)
 

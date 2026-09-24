@@ -3,11 +3,11 @@ title: Agent-based data flow
 description: The Agent Client Collector gathers information on the health of the CI that the Agent is installed on, and the applications that run on the hosts. The Agent runs several checks and pushes the checks' results to the MID Server, where they are converted into events or metrics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-events-alerts-metrics.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---

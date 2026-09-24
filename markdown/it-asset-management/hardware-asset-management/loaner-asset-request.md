@@ -3,13 +3,13 @@ title: Request a loaner asset
 description: Request a temporary or loaner asset or consumable and use it for a short period.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/loaner-asset-request.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Manage loaner assets, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Employee self-service, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Request a loaner asset
@@ -68,7 +68,7 @@ Location
 
 </td><td>
 
-Location where the requested asset should be provided.When the location that you specified is a service location of multiple stockrooms, the Model field shows the list of loaner asset models that are available in all those stockrooms in addition to the models available in the stockroom of that location. For more details on service locations, see [Associate a stockroom with service locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/associate-stockroom-with-service-locations.md).
+Location where the requested asset should be provided.When the location that you specified is a service location of multiple stockrooms, the Model field shows the list of loaner asset models that are available in all those stockrooms in addition to the models available in the stockroom of that location. For more details on service locations, see [Associate a stockroom with service locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/associate-stockroom-with-service-locations.md).
 
 </td></tr><tr><td>
 
@@ -116,5 +116,18 @@ To view your request, navigate to **Self-Service** &gt; **My Requests**. You can
 
 Before you receive your loaner asset, you can cancel the loaner asset request by selecting **Cancel**. After you receive your loaner asset, the **Cancel** button doesn't appear anymore. You can also return your loaner asset before the specified **Return date**.
 
-**Parent Topic:**[Manage loaner assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-loaner-asset.md)
+**Parent Topic:**[Employee self-service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/employee-self-sevice-ham.md)
+
+**Related topics**  
+
+
+[Request and receive assets using the Zero Touch request flow]()
+
+[Request and receive assets using the Zero Touch Refresh flow]()
+
+[Acknowledge receipt of assets on the Employee Center portal]()
+
+[Confirming the assigned serialized hardware assets]()
+
+[Raise issue related to your asset on the Employee Center portal]()
 

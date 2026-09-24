@@ -3,11 +3,11 @@ title: Results
 description: An Instance Scan result reports the status and type of scan. You can also see all the checks that ran as part of the scan and all other information related to the scan such as errors and scan logs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/instance-scan/hs-results.html
-release: australia
+release: brazil
 product: Instance Scan
 classification: instance-scan
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reviewing of scans, Using Instance Scan, Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -51,8 +51,8 @@ There are the following related lists in the **Scan Result** form.
     The Target related list shows all the targets against which the checks have executed.
 
 
--   **[Scan results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hc-scan-results.md)**  
+-   **[Scan results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/instance-scan/hc-scan-results.md)**  
 Scan Results dashboard helps you with an overview of all details of an executed scan.
 
-**Parent Topic:**[Reviewing of scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-review-scans.md)
+**Parent Topic:**[Reviewing of scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/instance-scan/hs-review-scans.md)
 

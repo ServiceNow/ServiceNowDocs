@@ -3,9 +3,9 @@ title: Trending case topics
 description: Resolve cases more efficiently and proactively using Predictive Intelligence to identify clusters of cases with similar issues and pinpoint factors that drive up case volume. Each cluster of cases represents a trending case topic.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/trending-case-topics.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -31,11 +31,11 @@ The trending case topics feature requires the Predictive Intelligence for CSM \(
 **Related topics**  
 
 
-[Configure trending case topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-trending-topics.md)
+[Configure trending case topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-trending-topics.md)
 
-[View trending case topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-trending-case-topics.md)
+[View trending case topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/view-trending-case-topics.md)
 
-[Add trending case topics to existing major cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/trending-case-topics-mim.md)
+[Add trending case topics to existing major cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/trending-case-topics-mim.md)
 
-[Create major cases for trending case topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/major-cases-trending-topics.md)
+[Create major cases for trending case topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/major-cases-trending-topics.md)
 

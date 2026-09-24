@@ -3,11 +3,11 @@ title: Install Planned Work Management
 description: You can install the Planned Work Management application \(com.snc.fsm\_planned\_work\_management\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/Activate-planned-work-management.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Planned Work Management, Set up work orders and tasks, Configure, Field Service Management]
 ---
@@ -24,15 +24,15 @@ You can install the Planned Work Management application \(com.snc.fsm\_planned\_
     -   **Required ServiceNow plugins**
         -   **Template Management for Field Service \(com.snc.fsm\_template\_management\)**
 
-            Enables you to configure and manage the work order templates to dynamically create work orders. For more information, see [Activate Template Management for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/activate-template-management.md).
+            Enables you to configure and manage the work order templates to dynamically create work orders. For more information, see [Activate Template Management for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/activate-template-management.md).
 
         -   **Planned Maintenance \(com.snc.planned\_maintenance\)**
 
-            Enables you to manage the regular preventive maintenance of assets. For more information, see [Activate Planned Maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_ActivatePlanMaint.md).
+            Enables you to manage the regular preventive maintenance of assets. For more information, see [Activate Planned Maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-management-for-the-enterprise/t_ActivatePlanMaint.md).
 
         -   **Field Service Management \(com.snc.work\_management\)**
 
-            Enables you to manage work requests that are performed on location by field service agents. For more information, see [Activate Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/t_ActivateFieldServiceManagement.md).
+            Enables you to manage work requests that are performed on location by field service agents. For more information, see [Activate Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/t_ActivateFieldServiceManagement.md).
 
         -   **CSM and FSM Configurable Workspace Foundation \(com.snc.uib.cwf\_workspace\)**
 
@@ -50,7 +50,7 @@ The following items are installed with Planned Work Management:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Planned Work Management components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/planned-work-components.md).
+For more information, see [Planned Work Management components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/planned-work-components.md).
 
 ## Procedure
 

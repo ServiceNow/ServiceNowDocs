@@ -3,9 +3,9 @@ title: Get running processes via WMI activity
 description: TheGet Running Processes workflow activity retrieves the running processes of a configuration item on a Windows-based system. This activity can accelerate the investigation and remediation process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/get-running-process-WMI-activity.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Common Security Operations integration flows and orchestration activities, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -85,5 +85,5 @@ The MID Server must support **PowerShell**.
 
 SHA-256 hash requires PowerShell V4.
 
-**Parent Topic:**[Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/common-wf-activities.md)
+**Parent Topic:**[Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/common-wf-activities.md)
 

@@ -3,11 +3,11 @@ title: Test Agent access
 description: Learn about the prerequisites required to access and use Test Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/test-agent-access.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Test Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -19,11 +19,11 @@ Before you can use Test Agent, your instance must meet specific prerequisite req
 
 Ensure that the following applications are installed:
 
--   Build Agent: See [Install Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-build-agent.md) for more information.
+-   Build Agent: See [Install Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/install-build-agent.md) for more information.
 
     **Note:** If you install Build Agent, Test Agent is installed automatically as part of Build Agent.
 
--   ATF Test Generator and Cloud Runner: Install the [ATF Test Generator and Cloud Runner](https://store.servicenow.com/store/app/e4292f6e1be06a50a85b16db234bcbc3) store application from ServiceNow store. You also need to set up the cloud user for seamless execution from the Build Agent interface. See [ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-tg-cr-intro.md) and [Set up cloud user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-tg-cr-configure.md) for more information.
+-   ATF Test Generator and Cloud Runner: Install the [ATF Test Generator and Cloud Runner](https://store.servicenow.com/store/app/e4292f6e1be06a50a85b16db234bcbc3) store application from ServiceNow store. You also need to set up the cloud user for seamless execution from the Build Agent interface. See [ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/atf-tg-cr-intro.md) and [Set up cloud user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/atf-tg-cr-configure.md) for more information.
 
 These components provide the underlying capabilities required for Test Agent to function correctly.
 

@@ -3,7 +3,7 @@ title: Common browser issues while using CPQ
 description: When cookies are blocked by the browser or by browser extensions, it can interfere with the use of CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/common\_browser\_issues\_while\_using\_logik\_io.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -50,5 +50,5 @@ Other extensions such as email templates or crypto wallets can also cause issues
 
 Review your browser's plugins to check whether any other extensions could be interfering while using CPQ. If the end user can configure after all browser extensions are disabled, one of the extensions must be causing the issue. If you identify an extension that causes the issue and is not in the list above, please let us know.
 
-**Parent Topic:**[CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)
 

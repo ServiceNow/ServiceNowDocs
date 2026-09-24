@@ -3,11 +3,11 @@ title: Automation Center use cases
 description: Automation Center enables you to manage your automations from one central place.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/use-cases.html
-release: australia
+release: brazil
 product: Automation Center
 classification: automation-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CSDM guidelines, Configure, Automation Center, Workflow Data Fabric]
 ---
@@ -32,5 +32,5 @@ ServiceNow robot data is populated in the cmdb\_ci\_rpa\_robot table. All third-
 
 \[Omitted image "cmdb-table.png"\] Alt text: CMDB tables in Automation Center
 
-**Parent Topic:**[Applying Common Service Data Model guidelines to Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/applying-csdm.md)
+**Parent Topic:**[Applying Common Service Data Model guidelines to Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/applying-csdm.md)
 

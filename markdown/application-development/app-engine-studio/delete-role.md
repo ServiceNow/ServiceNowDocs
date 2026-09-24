@@ -3,13 +3,13 @@ title: Delete a role
 description: Delete a role that you no longer need in App Engine Studio \(AES\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/delete-role.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Add application security, Enhance your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Add application security, Enhance your app, Build, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Delete a role
@@ -33,5 +33,5 @@ Role required: admin, sn\_app\_eng\_studio.user, or delegated\_developer
 4.  On the dialog box that appears, enter `delete` and then select **Delete**.
 
 
-**Parent Topic:**[Add application security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-security.md)
+**Parent Topic:**[Add application security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/add-security.md)
 

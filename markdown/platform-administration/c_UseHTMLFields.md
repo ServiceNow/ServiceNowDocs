@@ -3,9 +3,9 @@ title: HTML field editors
 description: An HTML field enables you to insert HTML content directly, which is useful for rich text or custom HTML content within forms. An HTML editor provides simple functionality and HTML source mode editing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_UseHTMLFields.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,12 +18,12 @@ The HTML field editors available depend on your version of the UI.
 
 |HTML field editor|UI support|
 |-----------------|----------|
-|TinyMCE version 6.8.2|Core UI, configurable workspace|
+|TinyMCE version 8.3.0|Core UI, configurable workspace|
 |htmlArea \(legacy\)|Basic support in Core UI|
 
 Knowledge articles, service catalog item descriptions, release documentation, email clients, and HTML content blocks are common examples of entities using HTML field editors.
 
-**Note:** The TinyMCE v8.6.2 editor doesn't support converting Microsoft Word shapes or nested lists with custom icons into HTML.
+**Note:** The TinyMCE v8.3.0 editor doesn't support converting Microsoft Word shapes or nested lists with custom icons into HTML.
 
 While HTML fields can be added to split pane forms, they can behave unexpectedly because of the limited width available in split pane forms.
 

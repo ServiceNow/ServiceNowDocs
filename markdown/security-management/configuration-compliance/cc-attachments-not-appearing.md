@@ -3,13 +3,13 @@ title: Attachments not appearing after import
 description: If attachments are not appearing as expected for data sources or on a security incident after third-party integration imports, check your IP restrictions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/cc-attachments-not-appearing.html
-release: australia
+release: brazil
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Resolving Qualys Vulnerability Integration issues, Qualys, Integrate with other applications, Configuration Compliance, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Resolving Qualys Vulnerability Integration issues, Qualys, Integrate, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
 
 # Attachments not appearing after import

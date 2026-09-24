@@ -3,11 +3,11 @@ title: Create policy inputs
 description: Policy inputs are variable sources that you can use while evaluating a decision to determine the approval action. You can create multiple policy inputs to evaluate the decision created, and also access the change request table and any table change request references.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/create-policy-input.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create change approval policies, Creating change approval policies, Use, Change Management, IT Service Management]
 ---
@@ -30,7 +30,7 @@ To define additional policy inputs, perform the following steps:
 
 2.  Create a change approval policy or open an existing policy.
 
-    For more information, see [Create change approval policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-change-policy.md)
+    For more information, see [Create change approval policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-change-policy.md)
 
 3.  In the **Policy inputs** tab, click **New** to create a record.
 
@@ -51,5 +51,5 @@ To define additional policy inputs, perform the following steps:
 
 After you create a policy input, reference it within a decision.
 
-**Parent Topic:**[Create change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-change-policy.md)
+**Parent Topic:**[Create change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-change-policy.md)
 

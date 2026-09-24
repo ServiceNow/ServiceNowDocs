@@ -3,7 +3,7 @@ title: Create a CrowdStrike connection
 description: Create a connection between your CrowdStrike applications and your ServiceNow instance so that your instance can retrieve user data from your applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-connection-crowdstrike.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task

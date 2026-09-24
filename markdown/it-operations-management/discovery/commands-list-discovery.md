@@ -3,11 +3,11 @@ title: Command List form for pattern-based discovery
 description: The Command List form contains all commands used in discovery by infrastructure or application type patterns.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/commands-list-discovery.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Discovery reference, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Discovery reference, Discovery, ITOM Visibility, IT Operations Mana
 
 The **Command List** form contains all commands used in discovery by infrastructure or application type patterns.
 
-For information on viewing a list of commands used by a pattern, see [View Patterns commands through the Discovery Patterns module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/view-command-pattern-discovery.md)and [View Patterns commands through the Command List module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/view-pattern-command-in-command-list.md).
+For information on viewing a list of commands used by a pattern, see [View Patterns commands through the Discovery Patterns module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/view-command-pattern-discovery.md)and [View Patterns commands through the Command List module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/view-pattern-command-in-command-list.md).
 
 <table id="table_brg_3yh_fwb"><thead><tr><th>
 
@@ -103,12 +103,12 @@ Domain
 The command is validated for discovering CIs in this domain. This field is applicable for domain-separated environment.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Discovery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-references.md)
+</table>**Parent Topic:**[Discovery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-references.md)
 
 **Related topics**  
 
 
-[Command Validation Tasks form for pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/command-validation-reference.md)
+[Command Validation Tasks form for pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/command-validation-reference.md)
 
-[Discovery commands for probes and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-command-probe-pattern.md)
+[Discovery commands for probes and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-command-probe-pattern.md)
 

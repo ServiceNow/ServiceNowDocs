@@ -3,11 +3,11 @@ title: Ensure MID Server Users Have Appropriate Access Levels
 description: Verify that your MID Server user accounts does not have more the necessary granted permissions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-ensure-mid-server-users-have-appropriate-access-levels.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
@@ -16,9 +16,9 @@ breadcrumb: [Access control, Hardening settings, Platform Security]
 
 Verify that your MID Server user accounts does not have more the necessary granted permissions.
 
-Granting the MID Server user account admin-level privileges \(such as admin, security\_admin or discovery\_admin\) violates the principle of least privilege and dramatically expands the attack surface.
+Granting the MID Server user account admin-level privileges \(such as admin, security\_admin or discovery\_admin\) presents a significant security vulnerability that violates the principle of least privilege and dramatically expands the attack surface.
 
-Administrators sometimes grant elevated permissions to quickly resolve connectivity issues or enable integrations, but fail to remove them afterward. This leaves a service account with excessive access than necessary to perform its legitimate functions of facilitating communication between the ServiceNow instance and external systems within your network.
+Administrators sometimes grant elevated permissions to quickly resolve connectivity issues or enable new integrations, then do not remove those permissions afterward. The result is a service account with far more access than necessary to perform its legitimate functions of facilitating communication between the ServiceNow instance and external systems within your network.
 
 Review the User Roles \[sys\_user\_has\_role\] table for MID Server users and confirm that the following roles are not assigned:
 
@@ -103,7 +103,7 @@ Category
 
 </td><td>
 
-[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -117,7 +117,7 @@ Security risk
 
 Granting the MID Server user account admin-level privileges represents a significant security vulnerability that violates the principle of least privilege and dramatically expands the attack surface. The MID Server acts as a bridge between trusted internal networks and the ServiceNow instance, processing credentials, executing discovery probes, and handling sensitive configuration data.
 
-If a MID Server user account with excessive privileges is compromised, an attacker gains broad access to critical data across the entire ServiceNow instance. This could enable data exfiltration of sensitive CMDB information, manipulation of incident records, unauthorized access to customer data, or even privilege escalation to compromise additional systems.
+If a MID Server user account with excessive privileges is compromised, an attacker gains a powerful foothold with the ability to read, modify, or delete critical data across the entire ServiceNow instance. This could enable data exfiltration of sensitive CMDB information, manipulation of incident records, unauthorized access to customer data, or even privilege escalation to compromise additional systems.
 
 
 </td></tr><tr><td>
@@ -137,5 +137,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
+</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

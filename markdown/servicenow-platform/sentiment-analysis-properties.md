@@ -3,9 +3,9 @@ title: Sentiment analysis property
 description: You can use the sentiment analysis property to customize the Sentiment Analysis module.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/sentiment-analysis-properties.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sentiment analysis for surveys, Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,10 +18,10 @@ You can use the sentiment analysis property to customize the **Sentiment Analysi
 |----|-----------|
 |**Response time for the outbound call of Sentiment Analysis API** \(**sn\_nlp\_sentiment.glide.sentiment.transaction.timeout**\)|Maximum time \(milliseconds\) expected for executing the outbound call for Sentiment Analysis API before it’s timeout.|
 
-**Parent Topic:**[Sentiment analysis for surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sentiment-analysis.md)
+**Parent Topic:**[Sentiment analysis for surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sentiment-analysis.md)
 
 **Related topics**  
 
 
-[Sentiment analysis for surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sentiment-analysis.md)
+[Sentiment analysis for surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sentiment-analysis.md)
 

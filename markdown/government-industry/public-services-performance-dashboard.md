@@ -3,9 +3,9 @@ title: Public Services Performance Overview dashboard
 description: Use the Public Services Performance Overview dashboard to assess key performance indicators and data visualizations on public services offered to and requested by constituents, businesses, and agencies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/public-services-performance-dashboard.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Public Services Performance Overview dashboard, Public Services Performance metrics, Assess Public Services Performance]
 breadcrumb: [Analytics and Reporting, Public Sector Digital Services \(PSDS\)]
@@ -221,5 +221,5 @@ Service Definition \[sn\_case\_type\_selection\]
 Distribution \(percentage\) of government services available in the system.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Analytics and Reporting Solutions for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-content-pack.md)
+</table>**Parent Topic:**[Analytics and Reporting Solutions for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-content-pack.md)
 

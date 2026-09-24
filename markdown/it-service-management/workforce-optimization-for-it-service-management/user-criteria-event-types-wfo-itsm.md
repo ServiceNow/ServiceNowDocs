@@ -3,11 +3,11 @@ title: Create user criteria for event types in Workforce Optimization for ITSM
 description: Add a user criteria record to specify which users, roles, and groups can access event types in Workforce Optimization for ITSM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/user-criteria-event-types-wfo-itsm.html
-release: australia
+release: brazil
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Understanding user criteria for event types, Scheduling your teams' work, Scheduling, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -46,10 +46,10 @@ Role required: admin
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Understanding user criteria for event types in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/understanding-user-criteria-event-types-wfo-itsm.md)
+**Parent Topic:**[Understanding user criteria for event types in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/understanding-user-criteria-event-types-wfo-itsm.md)
 
 **Related topics**  
 
 
-[Create a user criteria record for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-user-criteria-record.md)
+[Create a user criteria record for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/create-user-criteria-record.md)
 

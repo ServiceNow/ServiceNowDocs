@@ -3,11 +3,11 @@ title: Monitor workflow pause requests
 description: You can monitor the status of workflow pause requests using Workflow Pause Request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/legacy-workflow/monitor-workflow-pause-requests.html
-release: australia
+release: brazil
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workflow pause utility, Workflow administration, Classic Workflow, Build workflows]
 ---
@@ -55,5 +55,5 @@ You must install and activate the Workflow Pause Utility plugin.
     |Stuck Act Count To be subtracted for Pause Percentage|Writer to whom the documentation request is assigned.|
 
 
-**Parent Topic:**[Workflow pause utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/workflow-pause-utility.md)
+**Parent Topic:**[Workflow pause utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/legacy-workflow/workflow-pause-utility.md)
 

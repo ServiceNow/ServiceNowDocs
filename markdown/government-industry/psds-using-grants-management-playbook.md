@@ -3,7 +3,7 @@ title: Using Grants Management
 description: Use Grants Management for Public Sector Digital Services to set up and award grants, and screen proposals for them​.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-grants-management-playbook.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 7
@@ -35,7 +35,7 @@ The process begins with program definition, where agencies establish milestones,
 
 \[Omitted image "psds\_gmp\_program\_setup\_playbook\_initial\_view.png"\] Alt text: grants management playbook setup initial view for agents or managers
 
-This playbook contains four stages, and several activities in each stage. It guides the program manager through the process of creating a grants program. The process includes defining key details, creating the announcement, defining budget and milestones, defining eligibility, and publishing it to the agency's Grants Management Portal. For more information on using the PSP to create a GP, see [Using the Grant Program Setup Playbook in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-gmp-grant-pgr-setup.md).
+This playbook contains four stages, and several activities in each stage. It guides the program manager through the process of creating a grants program. The process includes defining key details, creating the announcement, defining budget and milestones, defining eligibility, and publishing it to the agency's Grants Management Portal. For more information on using the PSP to create a GP, see [Using the Grant Program Setup Playbook in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-using-gmp-grant-pgr-setup.md).
 
 Once you create a Grant program and publish it using the Program Setup Playbook, you can view the details on the program information record page.
 
@@ -45,7 +45,7 @@ After grant program set-up is complete, you can see every case detail \(narrativ
 
 \[Omitted image "psds\_gmp-case-view-workspace.png"\] Alt text: case record view for agent
 
-For grants managers and agents, the grants program information record page aims to be a one-stop shop. For more information on configuring the page collection, see [Configure grants program record tabs in Grants Proposal Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-gpp-tabs.md)
+For grants managers and agents, the grants program information record page aims to be a one-stop shop. For more information on configuring the page collection, see [Configure grants program record tabs in Grants Proposal Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-gpp-tabs.md)
 
 ## Grants Management Application Intake​
 
@@ -55,7 +55,7 @@ For applicants, the application intake experience happens entirely on the Grants
 
 An applicant submitting a proposal is the first stage of the grants proposal playbook. The playbook is in the screen stage by the time it arrives to the agent. An agent cannot submit an application on behalf of an agent.
 
-For more information on how applicants can use the Grants Management to view grants opportunities, submit applications, and view results, see [Using the Grants Management Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gmp-using-grants-mgmt-portal.md).
+For more information on how applicants can use the Grants Management to view grants opportunities, submit applications, and view results, see [Using the Grants Management Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-gmp-using-grants-mgmt-portal.md).
 
 ## Grants Management Application Screening
 
@@ -70,7 +70,7 @@ Using the Grants Management Screening feature, managers can:
 
 \[Omitted image "psds-gmp-rev-prop-details.png"\] Alt text: Enter Applicant information view
 
-For more information on how grants managers can use the Application Screening feature, and [Screen a grant proposal in the Grants Proposal Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-gmp-grant-proposal-screen.md).
+For more information on how grants managers can use the Application Screening feature, and [Screen a grant proposal in the Grants Proposal Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-using-gmp-grant-proposal-screen.md).
 
 ## Grants Management Application Evaluation
 
@@ -88,7 +88,7 @@ For external reviewers, the Merit Review experience happens on the reviewer serv
 
 \[Omitted image "psds-rsp-mrev-case-details-view.png"\] Alt text: reviewer portal grant program review task record view
 
-For more information on using the Reviewer Service Portal as an external merit reviewer, see [Using the Reviewer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gmp-using-merit-review-portal-agent.md).
+For more information on using the Reviewer Service Portal as an external merit reviewer, see [Using the Reviewer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-gmp-using-merit-review-portal-agent.md).
 
 ## Grants Management Application Decision
 

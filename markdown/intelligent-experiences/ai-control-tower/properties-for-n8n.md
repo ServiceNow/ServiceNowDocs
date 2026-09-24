@@ -1,20 +1,20 @@
 ---
 title: Properties for n8n
-description: AI Service Graph Connector for n8n  properties control the behavior of the connector.
+description: Service Graph Connector for n8n properties control the behavior of the connector.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/properties-for-n8n.html
-release: australia
+release: brazil
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [n8n, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [n8n, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Properties for n8n
 
-AI Service Graph Connector for n8n  properties control the behavior of the connector.
+Service Graph Connector for n8n properties control the behavior of the connector.
 
 ## System properties
 

@@ -3,11 +3,11 @@ title: Index suggestion form fields
 description: A description of the fields in the index suggestion form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/index-suggestion-fields.html
-release: australia
+release: brazil
 product: Platform Performance
 classification: platform-performance
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -23,8 +23,8 @@ A description of the fields in the index suggestion form.
 |Table name|Name of the table used in the query.|
 |Column names|Names of the columns used in the query.|
 |Index name|Name of the index, assigned by the ISE after the index is created.|
-|State|Processing state of the index. For details, refer to [Index suggestions for slow queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/index-suggestions.md) to see index suggestion states and table.|
+|State|Processing state of the index. For details, refer to [Index suggestions for slow queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/platform-performance/index-suggestions.md) to see index suggestion states and table.|
 |Imported|This box, if checked, indicates that the index suggestion was imported from a different instance for evaluation and testing.|
 
-**Parent Topic:**[Platform performance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/platform-performance-references.md)
+**Parent Topic:**[Platform performance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/platform-performance/platform-performance-references.md)
 

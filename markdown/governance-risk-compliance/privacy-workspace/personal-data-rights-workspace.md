@@ -3,11 +3,11 @@ title: Personal Data Rights workspace
 description: The Personal Data Rights Workspace offers you the ability to create new personal data rights request and view the requests by their type, due date, and status.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/personal-data-rights-workspace.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Personal Data Rights \(PDR\), Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -20,7 +20,7 @@ The following image shows the Personal Data Rights workspace homepage.
 
 \[Omitted image "pdr-workspace.png"\] Alt text: PDR workspace homepage displaying the tasks details such as timelines, SLA, status, request type and requester.
 
-From the homepage you can create a new PDR request. Use the **Explore** button to analyze personal data rights using natural language queries with AI Data Explorer. For information on installing, configuring, and using AI Data Explorer, see [Use AI to explore data with AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/ai-data-explorer.md).
+From the homepage you can create a new PDR request. Use the **Explore** button to analyze personal data rights using natural language queries with AI Data Explorer. For information on installing, configuring, and using AI Data Explorer, see [Use AI to explore data with AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/ai-data-explorer.md).
 
 The following are the sections on the home page.
 

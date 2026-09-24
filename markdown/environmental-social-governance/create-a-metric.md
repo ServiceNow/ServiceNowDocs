@@ -3,9 +3,9 @@ title: Create a metric
 description: Create a metric to perform calculations on your data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-a-metric.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -296,7 +296,7 @@ Name of the user as the data owner.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
-Approval**Note:** This section appears only when the Metric approval property is set to Simple. For more information see, [Components installed with Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/components-installed-with-esg.md).
+Approval**Note:** This section appears only when the Metric approval property is set to Simple. For more information see, [Components installed with Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/components-installed-with-esg.md).
 
 </td></tr><tr><td>
 
@@ -383,7 +383,7 @@ Allowed groups
 Groups that can view the record.
 
 </td></tr></tbody>
-</table>4.  Select **Save**.
+</table>4.  Click **Save**.
 
     **Note:** After a new metric is created, the related lists along with the **Details** tab are displayed on the form. You can view the metric data overview in the **Overview** tab. The Metrics overview page displays the metrics data details when you execute a metric along with the duration for which the data is collected.
 
@@ -392,5 +392,5 @@ Groups that can view the record.
 
 The metric is saved in the Metrics list.
 
-**Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configuring-grc-metrics.md)
+**Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/configuring-grc-metrics.md)
 

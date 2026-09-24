@@ -3,11 +3,11 @@ title: Industrial Guided Task form
 description: The following table describes the field values for the Industrial Guided Task form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/industrial-guided-task-form.html
-release: australia
+release: brazil
 product: Digital Factory Workspace
 classification: digital-factory-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Industrial Guided Tasks, Reference, Digital Factory Workspace, Industrial Connected Workforce]
 ---
@@ -115,8 +115,8 @@ Due date
 
 </td><td>
 
-The date by which the task is to be executed. If not set, it’s calculated based on priority. For more details, see [Due date calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/due-date-calculation.md).
+The date by which the task is to be executed. If not set, it’s calculated based on priority. For more details, see [Due date calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/due-date-calculation.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Industrial Guided Tasks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-guided-tasks-reference.md)
+</table>**Parent Topic:**[Industrial Guided Tasks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-guided-tasks-reference.md)
 

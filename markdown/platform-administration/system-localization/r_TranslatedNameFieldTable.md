@@ -3,11 +3,11 @@ title: Translated Name / Field table
 description: The Translated Name / Fields \[sys\_translated\] table stores translated values for text fields where the field type is translated\_field \(see the dictionary entry\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/r\_TranslatedNameFieldTable.html
-release: australia
+release: brazil
 product: System Localization
 classification: system-localization
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Translation tables, System Localization reference, System Localization, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -26,7 +26,7 @@ This option is available for text fields up to 255 characters in length. Some ex
 
 \[Omitted image "FieldList.png"\] Alt text: The Translated Name/Fields table with Spanish translations for name and field values.
 
-**Parent Topic:**[Translation tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_TranslationTables.md)
+**Parent Topic:**[Translation tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-localization/r_TranslationTables.md)
 
 **Related topics**  
 

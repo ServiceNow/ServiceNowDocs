@@ -3,9 +3,9 @@ title: Create a survey category in a survey
 description: You can modify an existing survey to add one or more survey categories.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_CreateASurveyCategory.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Survey categories, Survey designer, Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -45,7 +45,7 @@ Only one category is required for each survey, but you can add additional catego
 6.  Click **Update**.
 
 
-**Parent Topic:**[Survey categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyCategory.md)
+**Parent Topic:**[Survey categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SurveyCategory.md)
 
 **Related topics**  
 

@@ -1,31 +1,31 @@
 ---
-title: ITSM Employee Slate for Moveworks
-description: ITSM Employee Slate for Moveworks, built on Moveworks, displays active outages and degradations for employees through the Service Health Broadcast widget, which also provides plain-language summaries from Otto, and lets employees check in for walk-in IT help or book an appointment through the Tech lounge widget, or start that same check-in conversationally by chatting with Otto.
+title: Employee Slate for ITSM
+description: , built on Moveworks, displays active outages and degradations for employees through the Service Health Broadcast widget, which also provides plain-language summaries from Otto, and lets employees check in for walk-in IT help or book an appointment through the Tech lounge widget, or start that same check-in conversationally by chatting with Otto.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/explore-employeeworks-itsm.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-13"
+last_updated: "2026-09-16"
 reading_time_minutes: 2
 keywords: [explore]
-breadcrumb: [ITSM Employee Slate for Moveworks, IT Service Management]
+breadcrumb: [Employee Slate for ITSM, IT Service Management]
 ---
 
-# ITSM Employee Slate for Moveworks
+# Employee Slate for ITSM
 
-ITSM Employee Slate for Moveworks, built on Moveworks, displays active outages and degradations for employees through the Service Health Broadcast widget, which also provides plain-language summaries from Otto, and lets employees check in for walk-in IT help or book an appointment through the Tech lounge widget, or start that same check-in conversationally by chatting with Otto.
+, built on Moveworks, displays active outages and degradations for employees through the Service Health Broadcast widget, which also provides plain-language summaries from Otto, and lets employees check in for walk-in IT help or book an appointment through the Tech lounge widget, or start that same check-in conversationally by chatting with Otto.
 
-You can see this experience in the ITSM Employee Slate for Moveworks homepage.
+You can see this experience in the homepage.
 
 **Note:** Otto is an AI agent. Summaries it generates may not always be accurate. Review AI-generated content before acting on it.
 
-## ITSM Employee Slate for Moveworks users
+## Employee Slate for ITSM users
 
 |User|Description|
 |----|-----------|
-|Requester or Employee|Any user that can access ITSM Employee Slate for Moveworks.|
+|Requester or Employee|Any user that can access .|
 
-## ITSM Employee Slate for Moveworks benefits
+## Employee Slate for ITSM benefits
 
 The Service Health Broadcast widget lets employees see active outages and degradations without leaving the current page, and ask Otto for a plain-language summary.
 
@@ -35,8 +35,8 @@ Use Otto to request a tech lounge visit in natural language, and get routed to w
 
 ## What to explore next
 
--   To set up the Service Health Broadcast widget and configure service tiers, see [Configure ITSM Employee Slate for Moveworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configure-employeeworks-itsm.md).
--   To view outages and request summaries from Otto, see [Use ITSM Employee Slate for Moveworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/use-employee-works-itsm.md).
--   To check in for a walk-in visit, view your place in the queue, or book an appointment at the Tech lounge, see [Use ITSM Employee Slate for Moveworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/use-employee-works-itsm.md).
--   To check in or book through a conversation with Otto, see [Use ITSM Employee Slate for Moveworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/use-employee-works-itsm.md).
+-   To set up the Service Health Broadcast widget and configure service tiers, see [Configure Employee Slate for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/configure-employeeworks-itsm.md).
+-   To view outages and request summaries from Otto, see [Use Employee Slate for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/use-employee-works-itsm.md).
+-   To check in for a walk-in visit, view your place in the queue, or book an appointment at the Tech lounge, see [Use Employee Slate for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/use-employee-works-itsm.md).
+-   To check in or book through a conversation with Otto, see [Use Employee Slate for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/use-employee-works-itsm.md).
 

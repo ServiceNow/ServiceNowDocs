@@ -3,11 +3,11 @@ title: Renew certificates through CyberArk Certificate Manager SaaS
 description: Renew an existing certificate through the CyberArk Certificate Manager SaaS to extend its validity period before expiration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/renew-cert-cyberark-venafi.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2024-12-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [CyberArk Certificate Manager SaaS certificate renewal]
 breadcrumb: [Certificate management with CyberArk Certificate Manager SaaS, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
@@ -43,7 +43,7 @@ The renewal process uses the same certificate attributes and routing policy as t
 
 4.  Review and update the details of the certificate as needed.
 
-    For a description of the field values, see [Certificate request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/req-new-cert-form-table-fields.md).
+    For a description of the field values, see [Certificate request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/req-new-cert-form-table-fields.md).
 
 5.  Select **Submit**.
 

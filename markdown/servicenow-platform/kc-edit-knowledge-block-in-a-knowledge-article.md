@@ -3,9 +3,9 @@ title: Edit a knowledge block in a knowledge article
 description: Edit knowledge blocks within a knowledge article to update the reused content across articles within the knowledge base.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/kc-edit-knowledge-block-in-a-knowledge-article.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using knowledge blocks in the Knowledge Center, Using Knowledge Center, Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---

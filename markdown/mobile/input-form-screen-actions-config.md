@@ -3,9 +3,9 @@ title: Configure input form screen actions
 description: Learn how to configure actions that affect the whole input form screen. These actions can be accessed with an icon or within a more menu button, located in the top menu bar. For example, you can configure a writeback action to save your work progress on the input form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/input-form-screen-actions-config.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configure an input form screen, Input form screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -18,13 +18,13 @@ Learn how to configure actions that affect the whole input form screen. These ac
 
 Role required: admin
 
-A loading mechanism is required to refresh the input form screen with updated data. The options available are autofill variables and data sources. For more information, see [Loading mechanisms for input form screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/loading-mechanisms.md).
+A loading mechanism is required to refresh the input form screen with updated data. The options available are autofill variables and data sources. For more information, see [Loading mechanisms for input form screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/loading-mechanisms.md).
 
 If your input form only includes input values for loading, and you don’t need to load an input type of attachment, then the autofill variable option is sufficient. If your input form includes either attachments, comments, or descriptive elements, the data source option must be used. The data source option also handles input values.
 
 ## About this task
 
-Input form screen actions are accessed in the top menu as either an icon \(\[Omitted image "icon-ifs-save-progress.png"\] Alt text: More menu icon.\) or within the more menu button options \( \[Omitted image "IconAppMenuAndroid.png"\] Alt text: More menu button.\). The configuration of the writeback action in this task explains how to create a function that enables users to save the progress of data entered in an input form screen before users submit the final version. This feature enables multiple users to collaborate on a single input form screen. Once a user saves the data, it becomes visible to all other users working on the form when they refresh their input form. Writeback actions use the action item function. For more information, see [Configure an action item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-create-action-item.md).
+Input form screen actions are accessed in the top menu as either an icon \(\[Omitted image "icon-ifs-save-progress.png"\] Alt text: More menu icon.\) or within the more menu button options \( \[Omitted image "IconAppMenuAndroid.png"\] Alt text: More menu button.\). The configuration of the writeback action in this task explains how to create a function that enables users to save the progress of data entered in an input form screen before users submit the final version. This feature enables multiple users to collaborate on a single input form screen. Once a user saves the data, it becomes visible to all other users working on the form when they refresh their input form. Writeback actions use the action item function. For more information, see [Configure an action item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-studio-create-action-item.md).
 
 **Note:** Input form screens contain a submit button. For this configuration you have the option to configure a save-as-you-work option, the data of which is available to other users after it is saved.
 
@@ -50,7 +50,7 @@ Input form screen actions are accessed in the top menu as either an icon \(\[Omi
 
 5.  Complete the Input form screen form as required.
 
-    For information about the various fields, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-screen-config.md).
+    For information about the various fields, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/parameter-screen-config.md).
 
 6.  Select one of the following options:
 
@@ -75,7 +75,7 @@ Input form screen actions are accessed in the top menu as either an icon \(\[Omi
 
 11. Either **Choose** or create a **New** action item.
 
-    For more information, see [Configure an action item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-create-action-item.md).
+    For more information, see [Configure an action item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-studio-create-action-item.md).
 
 12. In the **Data** field, select the table relating to what the input form is representing.
 
@@ -89,8 +89,8 @@ Input form screen actions are accessed in the top menu as either an icon \(\[Omi
 
         **Note:** To display the data in the input form after the save action, you must configure one of the following loading mechanisms:
 
-        -   Autofill variable: For more information, see [Configure input form screen inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/param-screen-config-inputs.md).
-        -   Data source: For more information, see [Data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/data-sources.md).
+        -   Autofill variable: For more information, see [Configure input form screen inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/param-screen-config-inputs.md).
+        -   Data source: For more information, see [Data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/data-sources.md).
     6.  Enter `true` in the **Value** field.
     7.  Select **Save**.
 14. Select **Save**.
@@ -98,5 +98,5 @@ Input form screen actions are accessed in the top menu as either an icon \(\[Omi
 
 ## What to do next
 
-**Use timestamps to track users changes in the input form**. To monitor the changes made by different users on an input form screen, you must enable the track timestamps option and use a script. The **Track timestamps for input updates** field is on the main input form screen record. For more information, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-screen-config.md). It tracks the time the input’s value changed. This information is accessible using the scripted writeback action. For a code example of this writeback action, see [Using timestamps to track user changes in an input form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/track-timestamp-script.md).
+**Use timestamps to track users changes in the input form**. To monitor the changes made by different users on an input form screen, you must enable the track timestamps option and use a script. The **Track timestamps for input updates** field is on the main input form screen record. For more information, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/parameter-screen-config.md). It tracks the time the input’s value changed. This information is accessible using the scripted writeback action. For a code example of this writeback action, see [Using timestamps to track user changes in an input form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/track-timestamp-script.md).
 

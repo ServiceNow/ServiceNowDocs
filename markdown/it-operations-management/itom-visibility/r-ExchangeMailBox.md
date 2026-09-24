@@ -3,11 +3,11 @@ title: Exchange MailBox discovery
 description: Discovery creates or updates a CMDB record when it detects a running instance of Exchange Mailbox.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r-ExchangeMailBox.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Software discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -42,7 +42,7 @@ Additional notes
 
 </th></tr></thead><tbody><tr><td>
 
-[Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md)
+[Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md)
 
 </td><td>
 
@@ -52,7 +52,7 @@ The user must be able to run Powershell commands against the Exchange hosts. Use
 
 </td></tr><tr><td>
 
-[Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md)
+[Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md)
 
 </td><td>
 
@@ -73,5 +73,5 @@ The following data is collected on the Exchange Mailboxes \[cmdb\_ci\_exchange\_
 |Installation directory|install\_directory|
 |Type|type|
 
-**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Software.md)
+**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/c_Software.md)
 

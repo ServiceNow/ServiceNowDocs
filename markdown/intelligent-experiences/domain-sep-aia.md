@@ -3,11 +3,11 @@ title: Domain Separation AI agent
 description: The Domain Visibility AI agent enables Domain Admins to manage user domain visibility using guided, conversational workflows in the ServiceNow Otto panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/domain-sep-aia.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
-breadcrumb: [Platform AI agents, AI assets, Enable AI experiences]
+breadcrumb: [IT Service Management AI agents, IT Service Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Domain Separation AI agent
@@ -30,7 +30,7 @@ Once enabled, the Domain Visibility agent exposes the following options to the a
 
 Ensure the following requirements are met before using the AI agent:
 
--   The Domain Separation plugin is installed on your instance and active. For more information, refer to [Domain separation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-plugin.md).
+-   The Domain Separation plugin is installed on your instance and active. For more information, refer to [Domain separation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-sep-plugin.md).
 -   AI capabilities are enabled on the instance.
 -   You are signed in with a Domain Admin role.
 
@@ -38,7 +38,7 @@ Ensure the following requirements are met before using the AI agent:
 
 Required role: Domain Admin.
 
-AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aia.md).
+AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/define-sec-controls-aia.md).
 
 In the data access settings, you must also add the necessary roles to enable reading of the tables for the records you want to evaluate for readiness. For example, you can add the itil role to the AI agent's list of approved roles so that it can access Incident records.
 
@@ -100,5 +100,5 @@ The agent removes visibility for the specified domain from the specified user.
 
 **Note:** You can verify this by checking the `sys_user_visibility` table.
 
-**Parent Topic:**[Platform AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-ai-agents.md)
+**Parent Topic:**[IT Service Management AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/itsm-ai-agents-overview.md)
 

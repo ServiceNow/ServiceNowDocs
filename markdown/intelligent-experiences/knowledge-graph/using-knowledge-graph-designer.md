@@ -3,13 +3,13 @@ title: Using Knowledge Graph Designer
 description: Use Knowledge Graph Designer to create customized Knowledge Graph schema that consist of nodes and edges.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/using-knowledge-graph-designer.html
-release: australia
+release: brazil
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Knowledge Graph, Enable AI experiences]
+breadcrumb: [Knowledge Graph, Managing data for AI, Enable AI Experiences]
 ---
 
 # Using Knowledge Graph Designer

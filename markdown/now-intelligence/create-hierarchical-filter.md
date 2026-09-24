@@ -3,9 +3,9 @@ title: Create a hierarchical filter
 description: If a record hierarchy is defined for a table that is used as a filter source, you can create a single or multiple select filter that follows that hierarchy. The Manager hierarchy on User \[sys\_user\] is the typical use case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/create-hierarchical-filter.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Select or cascading filters, Filters, Platform Analytics experience, Platform Analytics]
 ---
@@ -30,13 +30,13 @@ When you filter through a record hierarchy, you select one value of the referenc
 
 **Note:**
 
-Hierarchical filters support only the hierarchies defined in the Record Hierarchy \[sys\_record\_hierarchy\] table and not those defined in other tables, such as Governance, Risk, and Compliance \(GRC\) tables. Hierarchical filters generally follow the same logic as hierarchical queries, as described in [Building hierarchical queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/data-hierarchies.md).
+Hierarchical filters support only the hierarchies defined in the Record Hierarchy \[sys\_record\_hierarchy\] table and not those defined in other tables, such as Governance, Risk, and Compliance \(GRC\) tables. Hierarchical filters generally follow the same logic as hierarchical queries, as described in [Building hierarchical queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/data-hierarchies.md).
 
-To create a hierarchical dashboard filter, follow the procedure in [Configure a Single/Multiple select or cascading filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-select-filter-workspace.md) to create a multi-select filter. When you reach the step where you define the filter source, specify the hierarchy.
+To create a hierarchical dashboard filter, follow the procedure in [Configure a Single/Multiple select or cascading filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-select-filter-workspace.md) to create a multi-select filter. When you reach the step where you define the filter source, specify the hierarchy.
 
 ## Procedure
 
-1.  Create a filter and select the Single or Multiple Select filter type, as described in [Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/select-workspace-filter-type.md) or [Create a filter in the Filter Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-filter-library.md).
+1.  Create a filter and select the Single or Multiple Select filter type, as described in [Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/select-workspace-filter-type.md) or [Create a filter in the Filter Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/add-filter-library.md).
 
 2.  Select a Table source.
 
@@ -60,9 +60,9 @@ To create a hierarchical dashboard filter, follow the procedure in [Configure a 
 
 9.  When you select the data to filter, select a field in the same table as the filter source or a reference field that points to the same table as the filter source.
 
-    **Note:** The filter also applies to visualizations of native Data snapshots indicators that have that table specified in their Data snapshots source. For more information, see [Create a Data snapshots source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-ds-source.md).
+    **Note:** The filter also applies to visualizations of native Data snapshots indicators that have that table specified in their Data snapshots source. For more information, see [Create a Data snapshots source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/create-ds-source.md).
 
-10. Complete configuring the filter as described in [Configure a Single/Multiple select or cascading filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-select-filter-workspace.md).
+10. Complete configuring the filter as described in [Configure a Single/Multiple select or cascading filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-select-filter-workspace.md).
 
 
 ## Filter on the Manager hierarchy

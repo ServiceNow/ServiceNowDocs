@@ -3,11 +3,11 @@ title: Create a ServiceNow Remote Instance connection
 description: Establish a zero copy connection to a remote ServiceNow instance in Zero Copy Connector Hub.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-servicenow-remote-instance-connection.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Remote Instance, Primary connectors, Zero Copy Connectors, Workflow Data Fabric]
+breadcrumb: [ServiceNow Remote Instance, Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
 # Create a ServiceNow Remote Instance connection
@@ -18,7 +18,7 @@ Establish a zero copy connection to a remote ServiceNow instance in Zero Copy Co
 
 Work with your remote instance administrator to complete the following tasks on each remote instance that you want to connect to:
 
--   Create an OAuth endpoint on the remote instance. For more information, see [Create an endpoint for clients to access the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_CreateEndpointforExternalClients.md).
+-   Create an OAuth endpoint on the remote instance. For more information, see [Create an endpoint for clients to access the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_CreateEndpointforExternalClients.md).
 -   Create a user account with read access to the tables that you want to query. This account acts as the service account in the zero copy connection.
 -   Obtain the OAuth Client ID and OAuth Client Secret from the OAuth application registry record on the remote instance.
 
@@ -128,7 +128,7 @@ A test connection is made to the external data source, verifying that the connec
 
 ## What to do next
 
-If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-access-connection-zcc.md).
+If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/manage-access-connection-zcc.md).
 
 If the connection fails, verify the OAuth credentials and service account permissions with your remote instance administrator and try again.
 

@@ -3,9 +3,9 @@ title: In Epic: Configure Epic Hyperspace Integration
 description: To launch ServiceNow from within Epic, a button needs to be added within Epic, which requires multiple integration records to be set up.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-configure-epic-integration.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Embed Care Team Portal in Epic, Configure, Care Team Portal, Healthcare Operations, Healthcare and Life Sciences]
 ---

@@ -3,9 +3,9 @@ title: Configure different mobile attachment capabilities on Android devices bas
 description: Use a combination of system properties and mobile properties to enable different users on Android devices to share, download, or view attachments in external applications based on roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/mob-attachments-android.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Mobile properties, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -43,7 +43,7 @@ Group B: users that CAN'T:
 </td></tr></tbody>
 </table>## About this task
 
-After you identify the two groups of users, assign different roles to each group of users. You can assign more than one role to each group of users. For information about creating and assigning roles to users, see [Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateARole.md).
+After you identify the two groups of users, assign different roles to each group of users. You can assign more than one role to each group of users. For information about creating and assigning roles to users, see [Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateARole.md).
 
 **Note:** This feature is available on Android clients, version 19.5.1 and later.
 
@@ -51,11 +51,11 @@ After you identify the two groups of users, assign different roles to each group
 
 1.  Set the system property **glide.sg.block\_mobile\_attachments\_external\_viewing** to `true`.
 
-    For more information, see [Control whether users can view attachments in external applications on Android devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/vu-attach-extapp-android.md).
+    For more information, see [Control whether users can view attachments in external applications on Android devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/vu-attach-extapp-android.md).
 
 2.  Set the system property **glide.sg.block\_mobile\_attachments\_sharing** to `true`.
 
-    For more information, see [Block users from downloading or sharing attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/block-users-download-shar-attach.md).
+    For more information, see [Block users from downloading or sharing attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/block-users-download-shar-attach.md).
 
 3.  On your ServiceNow® instance, navigate to **All** &gt; **sys\_sg\_properties\_list.do**.
 
@@ -133,7 +133,7 @@ Is Public
 
 Determines whether the pre-auth property is included in the API response.
 
- By default, this option is not selected. If you want this property included in the /pre-auth API response, select this checkbox. For more information, see [Adaptive authentication events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/adaptive-authentication-events.md).
+ By default, this option is not selected. If you want this property included in the /pre-auth API response, select this checkbox. For more information, see [Adaptive authentication events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/adaptive-authentication-events.md).
 
  Mobile properties with this checkbox enabled are excluded from the /user\_client API response.
 
@@ -232,7 +232,7 @@ Is Public
 
 Determines whether the pre-auth property is included in the API response.
 
- By default, this option is not selected. If you want this property included in the /pre-auth API response, select this checkbox. For more information, see [Adaptive authentication events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/adaptive-authentication-events.md).
+ By default, this option is not selected. If you want this property included in the /pre-auth API response, select this checkbox. For more information, see [Adaptive authentication events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/adaptive-authentication-events.md).
 
  Mobile properties with this checkbox enabled are excluded from the /user\_client API response.
 
@@ -264,5 +264,5 @@ Mobile application that you want to send the mobile property to. This setting li
 
 After updating these properties, the end user must pull to refresh and get the latest feature configurations.
 
-**Parent Topic:**[Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-properties.md)
+**Parent Topic:**[Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-properties.md)
 

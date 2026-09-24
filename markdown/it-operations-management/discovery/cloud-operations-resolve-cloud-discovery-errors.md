@@ -3,18 +3,20 @@ title: Resolve Cloud Discovery errors in Cloud Discovery Workspace
 description: View the Cloud Discovery errors that occurred during the discovery and resolve them. You can view the errors for all the Cloud Discovery runs or a single Cloud Discovery run.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cloud-operations-resolve-cloud-discovery-errors.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Discovery monitoring and issue resolution, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Resolve Cloud Discovery errors in Cloud Discovery Workspace
 
 View the Cloud Discovery errors that occurred during the discovery and resolve them. You can view the errors for all the Cloud Discovery runs or a single Cloud Discovery run.
+
+**Important:** Cloud Discovery Workspace is now deprecated and no longer supported or available for new activation. [Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-admin-workspace.md) provides the latest experience for this functionality. For details, see the [Application/Plugin Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 ## Before you begin
 

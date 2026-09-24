@@ -3,9 +3,9 @@ title: Configure automatic resizing
 description: Configure fields to display multiple lines of content automatically without scrolling.Configure system properties for automatic resizing to display fields with multiple lines of content automatically without scrolling.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/expand-text-shown-in-fields-before-scrolling.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Forms, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---

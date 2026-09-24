@@ -3,9 +3,9 @@ title: Manage relay service endpoints through Reverse Tunnel
 description: Add or update the service endpoints assigned to a private relay to control which data sources are accessible through Reverse Tunnel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/manage-relay-services.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [relay service endpoints, FQDN, Reverse Tunnel, relay management]
 breadcrumb: [Use, Reverse Tunnel, Workflow Data Fabric]

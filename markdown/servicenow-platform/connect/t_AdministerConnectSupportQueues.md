@@ -3,11 +3,11 @@ title: Administer Connect Support queues
 description: You can define the support agents, default messages, schedule, and escalation path for each Connect Support queue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/t\_AdministerConnectSupportQueues.html
-release: australia
+release: brazil
 product: Connect
 classification: connect
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Connect Support administration, Connect Support, Connect, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -45,6 +45,6 @@ Role required: admin
     |Question|Initial phrase that users see when they start a new chat in the queue. For example, **How can I help you?**|
     |Schedule|Schedule that defines when the queue is available. Leave the field blank to make the queue available all the time. Users cannot start a new conversation in the queue outside the schedule hours.|
 
-4.  [Manage the HR chat queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/t_ManageTheHRChatQueue.md#step_ReviewSupportConversations)
+4.  [Manage the HR chat queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/t_ManageTheHRChatQueue.md#step_ReviewSupportConversations)
 
 

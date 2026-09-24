@@ -3,12 +3,12 @@ title: Managing AI assets in AI Admin Center
 description: The asset inventory lists the AI assets in your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-using-asset-inventory.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Setting up AI capabilities and configurations, AI Admin Center, Enable AI experiences]
+breadcrumb: [Setting up AI capabilities and configurations, AI Admin Center, Getting started with AI, Enable AI Experiences]
 ---
 
 # Managing AI assets in AI Admin Center
@@ -19,10 +19,10 @@ These assets include AI capabilities such as AI skills, AI agents, and AI agenti
 
 \[Omitted image "now-assist-center-asset-inventory-overview-2.png"\] Alt text: Asset inventory in Now Assist Center.
 
--   **[View and manage your AI assets in the asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-view-ai-assets.md)**  
+-   **[View and manage your AI assets in the asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-view-ai-assets.md)**  
 Use the asset library to view and manage the AI assets in your instance.
--   **[Create an AI asset in the asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-create-asset.md)**  
+-   **[Create an AI asset in the asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-create-asset.md)**  
 Use the asset library to create AI assets in your instance.
 
-**Parent Topic:**[Setting up AI capabilities and configurations in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-admin-center-setting-up-ai.md)
+**Parent Topic:**[Setting up AI capabilities and configurations in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-admin-center-setting-up-ai.md)
 

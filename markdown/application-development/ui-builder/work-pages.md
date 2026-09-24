@@ -3,11 +3,11 @@ title: Manage UI Builder pages and page variants
 description: Learn what a page is in UI Builder. Understand the building blocks of a UI Builder page, such as column layouts and components.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/work-pages.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 breadcrumb: [Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -18,9 +18,9 @@ Learn what a page is in UI Builder. Understand the building blocks of a UI Build
 
 ## UI Builder quick start
 
-Create pages in UI Builder as part of a workspace or custom portal experience. UI Builder pages consist of layouts and [components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-glossary.md). You build a page using column layouts and components to guide a user through an experience. For example, you could build a page to manage travel requests for your employees. The page could have column layouts with components that contain lists of all travel requests submitted and approved. You can add buttons that let users add and submit travel requests. The way you build your page is limitless.
+Create pages in UI Builder as part of a workspace or custom portal experience. UI Builder pages consist of layouts and [components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/ui-builder-glossary.md). You build a page using column layouts and components to guide a user through an experience. For example, you could build a page to manage travel requests for your employees. The page could have column layouts with components that contain lists of all travel requests submitted and approved. You can add buttons that let users add and submit travel requests. The way you build your page is limitless.
 
-**Note:** One developer should work on any one [variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-glossary.md) at a time.
+**Note:** One developer should work on any one [variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/ui-builder-glossary.md) at a time.
 
 ## Column layouts and components in UI Builder
 
@@ -35,10 +35,10 @@ A column layout can contain one or more columns. Columns can contain components.
 |Column layout|A flexible container with one to six columns. Add column layouts to provide structure and a framework for a page.|
 |Column|Fill columns with components.|
 |Component|Base elements of a page, such as buttons, lists, and forms.|
-|[Modal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-glossary.md)|Use a modal to create a page type in UI Builder that renders on top of the page and requires action.|
-|[Popover](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-glossary.md)|A popover is a type of container that appears above a UI Builder page when triggered by an event. Use the popover component to display additional information or actions related to the page.|
+|[Modal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/ui-builder-glossary.md)|Use a modal to create a page type in UI Builder that renders on top of the page and requires action.|
+|[Popover](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/ui-builder-glossary.md)|A popover is a type of container that appears above a UI Builder page when triggered by an event. Use the popover component to display additional information or actions related to the page.|
 
-See [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md) for more information.
+See [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-components.md) for more information.
 
 ## Create a UI Builder page
 
@@ -46,9 +46,9 @@ Create a UI Builder page to build a page experience from scratch or use a page t
 
 Name your UI Builder page. Set the path \(or keep the default path that is automatically added based on your page name\). A default path is added based on your page name. You can also create your own path, but the path must be unique. The **URL preview** shows the path of your page. Set the page URL type. URL types help you categorize and find important pages in the experience view.
 
-The application scope protects applications by identifying and restricting access to application files and data. The application scope defaults to the scope that the user is currently in within the ServiceNow AI Platform®. For more information about application scope, see [Learn about security and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/security-roles.md).
+The application scope protects applications by identifying and restricting access to application files and data. The application scope defaults to the scope that the user is currently in within the ServiceNow AI Platform®. For more information about application scope, see [Learn about security and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/security-roles.md).
 
-Use a UI Builder page template to create a page based on a pre-defined page template, and then customize the page to your needs. You can reference or copy a page template. For more information, see [Create a page from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/reuse-page-definitions.md).
+Use a UI Builder page template to create a page based on a pre-defined page template, and then customize the page to your needs. You can reference or copy a page template. For more information, see [Create a page from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/reuse-page-definitions.md).
 
 ## Create a UI Builder page: Advanced settings
 
@@ -60,11 +60,11 @@ Add optional parameters to your UI Builder page. Optional parameters are optiona
 
 \[Omitted image "optional-parameter-example.png"\] Alt text: Edit optional parameters option.
 
-Set the audience and conditions settings for UI Builder page variants. When you create a page, UI Builder also creates a variant of the page for you by default. A page variant is a variation of your page at the same path that lets you target experiences for different audiences using user criteria. For example, a page for managers, and a variant of that page for the manager's direct reports. For more information about creating a variant, see [Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-variant.md).
+Set the audience and conditions settings for UI Builder page variants. When you create a page, UI Builder also creates a variant of the page for you by default. A page variant is a variation of your page at the same path that lets you target experiences for different audiences using user criteria. For example, a page for managers, and a variant of that page for the manager's direct reports. For more information about creating a variant, see [Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-variant.md).
 
 \[Omitted image "create-page-variant-default.png"\] Alt text: Default variant settings page in UI Builder.
 
-For more information about audiences, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-audiences.md).
+For more information about audiences, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/add-audiences.md).
 
 ## Test values in UI Builder
 
@@ -88,9 +88,9 @@ While in the page editor, open a different page variant by selecting the drop-do
 
 A variant lets you target different audiences with different content, using user criteria. For example, you can create a homepage for agents, and a variant of the page for managers that exists at the same URL path.
 
-You set the audience for each UI Builder page variant. The audience determines who uses the page variant. For example, if you create a travel request page, create a variant of that page for managers to manage the employee travel requests. You set the audience for the manager page for anyone in the manager role. Employees cannot view that variant. For more information about audiences, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-audiences.md).
+You set the audience for each UI Builder page variant. The audience determines who uses the page variant. For example, if you create a travel request page, create a variant of that page for managers to manage the employee travel requests. You set the audience for the manager page for anyone in the manager role. Employees cannot view that variant. For more information about audiences, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/add-audiences.md).
 
-See [Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-variant.md) for more information.
+See [Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-variant.md) for more information.
 
 ## Edit UI Builder page settings
 
@@ -98,7 +98,7 @@ Change the settings of your UI Builder page at any time by selecting the More ac
 
 \[Omitted image "edit-page-settings-link.png"\] Alt text: Settings link selected from More actions menu to edit page settings.
 
-See [Edit a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/edit-page.md) for more information.
+See [Edit a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/edit-page.md) for more information.
 
 ## UI Builder Content tree
 
@@ -166,19 +166,19 @@ Use the configuration panel to work with components, including arranging, stylin
 
     \[Omitted image "nav-style-tab.png"\] Alt text: Styles tab with options such as alignment, sizing, spacing, background, and border.
 
-    See [Change the default appearance of components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-styling-to-component.md) for more information.
+    See [Change the default appearance of components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/add-styling-to-component.md) for more information.
 
 -   Select the **Events** tab to configure events that add actions to your components, pages, data resources, and declarative actions. When you add components to your UI Builder page, they are not configured to perform any action. For example, a button component is static and does not do anything until you bind an event action to it, such as deleting a record.
 
     \[Omitted image "nav-events-tab.png"\] Alt text: Events tab in the configuration panel.
 
-    See [Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-events.md) for more information.
+    See [Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-events.md) for more information.
 
 -   Column layouts govern how components are arranged on a page. When you add a column layout to a UI Builder page, you can configure how you want the layout designed. After you add a component to a column in the layout, you can configure the elements in more advanced ways. For example, you can justify the content, align items, and set the height, width, margins, background, borders, and padding of your column layout, columns, and components. CSS grid is the most powerful layout system. CSS Grid is built on top of a two-dimensional grid that gives you power over how you create your pages.
 
     \[Omitted image "nav-style-tab-container.png"\] Alt text: Layout options such as alignment, direction, and sizing.
 
-    See [Organize components in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-layouts.md) for more information.
+    See [Organize components in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-layouts.md) for more information.
 
 
 ## Open a UI Builder page to preview it
@@ -189,7 +189,7 @@ Select the \[Omitted image "preview-button.png"\] Alt text: Preview this variant
 
 Another method of previewing a page is to request the URL path from the server. Use this method to test if a user sees the variant when they open the page. Select the drop-down arrow next to **Preview** and select **Open URL path** \[Omitted image "open-url-path-drop.png"\] Alt text: Open the URL path for the page. or select **Preview** **&gt; Open URL path** \[Omitted image "open-url-path-button.png"\] Alt text: Open the URL path for the page..
 
-See [Learn how to view and test your UI Builder experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/preview-page-ui-builder.md) for more information.
+See [Learn how to view and test your UI Builder experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/preview-page-ui-builder.md) for more information.
 
 ## Developer editing in UI Builder
 
@@ -197,24 +197,24 @@ From the Menu, edit the UI Builder page as a developer on the platform. This opt
 
 \[Omitted image "nav-developer-menu.png"\] Alt text: Menu showing Developer edit options such as open variant collection, open page definition, and open variant record.
 
--   **[Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md)**  
+-   **[Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-page.md)**  
 Create a page in UI Builder for a portal, workspace, or custom application so that you can build a web experience for your users.
--   **[Edit a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/edit-page.md)**  
+-   **[Edit a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/edit-page.md)**  
 Edit a page to change the page name, path, type, and parameters.
--   **[Add an audience to your UI Builder page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/configure-audiences.md)**  
+-   **[Add an audience to your UI Builder page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/configure-audiences.md)**  
 Add one or more audiences to your page or page variant.
--   **[Test values in a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/test-value.md)**  
+-   **[Test values in a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/test-value.md)**  
 Add test values to your URL as a way to bring test data into a page.
--   **[Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-variant.md)**  
+-   **[Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-variant.md)**  
 A page variant in UI Builder is a variation of a page that exists at the same path that targets different audiences using user criteria.
--   **[Use pages across experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/use-across-pages.md)**  
+-   **[Use pages across experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/use-across-pages.md)**  
 Use pages created in one in experience in another without needing to rebuild the page.
--   **[Responsive authoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/responsive-authoring.md)**  
+-   **[Responsive authoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/responsive-authoring.md)**  
 Use responsive authoring to create UI Builder pages that adjust smoothly to different form factors \(sizes\), such as desktop, tablet, and mobile.
--   **[Learn how to view and test your UI Builder experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/preview-page-ui-builder.md)**  
+-   **[Learn how to view and test your UI Builder experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/preview-page-ui-builder.md)**  
 Preview your experience in UI Builder to see how it looks and functions while building an experience. Previewing helps ensure that your experience works as expected, that the data resources are available, and that the layouts are set up correctly.
--   **[Resolve a missing page definition in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/resolve-missing-page-definition.md)**  
+-   **[Resolve a missing page definition in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/resolve-missing-page-definition.md)**  
 Fix UI Builder page render errors by linking a page definition in the variant record.
 
-**Parent Topic:**[Working in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/using-ui-builder.md)
+**Parent Topic:**[Working in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/using-ui-builder.md)
 

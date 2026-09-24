@@ -3,11 +3,11 @@ title: Legacy: Incident Overview dashboard
 description: Use this dashboard to view the status of the incidents for planning, prioritizing, and managing customer issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/incident-overview-dashboard.html
-release: australia
+release: brazil
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Legacy: Incident Management Platform Analytics Solutions, Reporting incidents, Incident Management, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Use this dashboard to view the status of the incidents for planning, prioritizin
 
 **Important:**
 
-Starting in Xanadu release, the Incident Overview dashboard is deprecated. Users can use [Incident management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident.md) to view the status of the incidents for planning, prioritizing, and managing customer issues.
+Starting in Xanadu release, the Incident Overview dashboard is deprecated. Users can use [Incident management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident.md) to view the status of the incidents for planning, prioritizing, and managing customer issues.
 
 \[Omitted image "incident-overview-dashboard.gif"\] Alt text: Incident Overview Dasboard
 
@@ -90,5 +90,5 @@ The dashboard includes the following filters:
 
 **Note:** This dashboard displays the incident-related information from the **Overview** tab of the Incident Premium dashboard.
 
-**Parent Topic:**[Legacy: Incident Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-content-pack.md)
+**Parent Topic:**[Legacy: Incident Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/incident-content-pack.md)
 

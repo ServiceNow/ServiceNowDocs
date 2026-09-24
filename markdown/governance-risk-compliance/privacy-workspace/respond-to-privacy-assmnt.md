@@ -3,11 +3,11 @@ title: Respond to a privacy screening assessment
 description: As an entity owner or a processing activity key stakeholder, respond to the privacy assessment that is initiated by the privacy lead.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/respond-to-privacy-assmnt.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -32,15 +32,15 @@ While responding to an assessment, you can reassign the assessment to another us
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_o5d_vrr_xxb"><thead><tr><th align="left" id="d257514e99">
+<table id="choicetable_o5d_vrr_xxb"><thead><tr><th align="left" id="d260588e99">
 
 Choice
 
-</th><th align="left" id="d257514e102">
+</th><th align="left" id="d260588e102">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d257514e108">
+</th></tr></thead><tbody><tr><td id="d260588e108">
 
 **To take the assessment**
 
@@ -60,7 +60,7 @@ Action
 6.  Select **Submit**.
 
 
-</td></tr><tr><td id="d257514e158">
+</td></tr><tr><td id="d260588e158">
 
 **To reassign the assessment**
 
@@ -81,5 +81,5 @@ Action
 
 The responses are captured in the respective entity and the processing activity. The responses are then reviewed by the privacy teams.
 
-**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
+**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 

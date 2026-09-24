@@ -3,11 +3,11 @@ title: Create a functional location
 description: Create a functional location in the Digital Factory Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/create-functional-location.html
-release: australia
+release: brazil
 product: Digital Factory Workspace
 classification: digital-factory-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Prerequisites, Configure, Digital Factory Workspace, Industrial Connected Workforce]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_icw.admin
 
 ## Procedure
 
-1.  Navigate to **Equipment model view** \(\[Omitted image "icw-equipment-model-icon.png"\] Alt text:\).
+1.  Navigate to **Equipment model**.
 
 2.  From the tree, select the location that you want to be the parent of the functional location.
 
@@ -30,19 +30,23 @@ Role required: sn\_icw.admin
 
 4.  On the Functional location form, fill in the fields.
 
-    For a description of the field values, see [Functional location form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/functional-location-form.md).
+    For a description of the field values, see [Functional location form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/functional-location-form.md).
 
 5.  Select **Save**.
+
+    The following image shows an example of the form for creating a functional location.
+
+    \[Omitted image "functional-location-form.png"\] Alt text: New functional location form
 
 
 ## Result
 
 The functional location is displayed in the list of functional locations for the parent functional location.
 
-**Parent Topic:**[Setting up prerequisites for Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/setting-up-prerequisites-digital-factory-workspace.md)
+**Parent Topic:**[Setting up prerequisites for Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/setting-up-prerequisites-digital-factory-workspace.md)
 
 **Related topics**  
 
 
-[Review and update the equipment model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/equipment-model-workspace.md)
+[Review and update the equipment model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/equipment-model-workspace.md)
 

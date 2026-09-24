@@ -3,11 +3,11 @@ title: AWS Elastic Beanstalk Application pattern-based discovery
 description: Discovery and Service Mapping Patterns finds AWS Elastic Beanstalk Applications on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/aws-elastic-beanstalk-application.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-05-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [AWS Elastic Beanstalk Application, AWS Elastic Beanstalk discovery, AWS patterns, Elastic Beanstalk Extended Inventory]
 breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
@@ -85,5 +85,5 @@ The Amazon AWS - Elastic Beanstalk Application - Extended Inventory \(LP\) patte
 |Value \[value\]|Tag value.|
 |Configuration item \[configuration\_item\]|References the Cloud App Server \[cmdb\_ci\_cloud\_appserver\] table.|
 
-**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
+**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 

@@ -3,11 +3,11 @@ title: Register a custom application in Microsoft Azure portal
 description: Provide authorization for the ServiceNow instance by registering a custom application with Azure Active Directory.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/register-a-custom-application-ms-azure-portal.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring DEX for Microsoft 365, Configure, Digital End-User Experience, IT Service Management]
 ---

@@ -3,11 +3,11 @@ title: Tables installed with PPM Standard \(Project Portfolio Management\)
 description: Tables are added with activation of PPM Standard plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/ppm-collaboration/table-installed-with-PPS-finance.html
-release: australia
+release: brazil
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Components installed with Project Portfolio Management \(PPM\) Standard, Project Portfolio Management reference, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -387,7 +387,7 @@ Teamspace \[pm\_app\_config\]
 
 </td><td>
 
-All teamspaces, which refer to the tables that are created for the teamspaces. See [Installed with teamspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/r_InstalledWithTeamspaces.md) for a list of teamspace tables.
+All teamspaces, which refer to the tables that are created for the teamspaces. See [Installed with teamspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/r_InstalledWithTeamspaces.md) for a list of teamspace tables.
 
 </td></tr><tr><td>
 
@@ -800,5 +800,5 @@ Rate Line Import Set\[imp\_rate\_model\_line\]
 Stores import sets that you imported into the instance.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Project Portfolio Management \(PPM\) Standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/r_InstalledWithProjectPortfolioSuiteWithFinancials.md)
+</table>**Parent Topic:**[Components installed with Project Portfolio Management \(PPM\) Standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/r_InstalledWithProjectPortfolioSuiteWithFinancials.md)
 

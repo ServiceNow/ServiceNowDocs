@@ -3,12 +3,12 @@ title: Add an AWS CloudWatch trace connection
 description: Monitor AI agents built with AWS Bedrock AgentCore by adding an AWS CloudWatch trace connection. AI Control Tower collects trace data through your AWS credentials and a MID Server, without requiring SDK instrumentation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-configure-aws-cloudwatch-trace.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring trace connections, Configuring integrations, Configure, AI Control Tower, Enable AI experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Configuring trace connections, Configuring integrations, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Add an AWS CloudWatch trace connection
@@ -56,7 +56,7 @@ One or more trace connections appear on the **Established** sub-tab. If you sele
 
 ## What to do next
 
-Choose which metrics to include in evaluation scoring. See [Activate evaluation scoring for external AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-monitor-external-ai-system.md).
+Choose which metrics to include in evaluation scoring. See [Activate evaluation scoring for external AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-monitor-external-ai-system.md).
 
-**Parent Topic:**[Configuring trace connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring-trace-connections.md)
+**Parent Topic:**[Configuring trace connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configuring-trace-connections.md)
 

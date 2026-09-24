@@ -1,18 +1,18 @@
 ---
 title: Configure a smart button
-description: Smart buttons are actions that allow you to perform another action, such as sending an email, making a phone call, pulling up a location, or navigating directly to a URL.
+description: Smart buttons enable actions such as sending an email, calling a phone number, opening a location, or navigating to a URL.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-studio-config-smart-button.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Smart button functions, Mobile functions, Mobile app components, Building mobile apps, Mobile Platform]
 ---
 
 # Configure a smart button
 
-Smart buttons are actions that allow you to perform another action, such as sending an email, making a phone call, pulling up a location, or navigating directly to a URL.
+Smart buttons enable actions such as sending an email, calling a phone number, opening a location, or navigating to a URL.
 
 ## Before you begin
 
@@ -164,7 +164,7 @@ Type of condition to use. Create conditions to limit when the smart button appea
 
  The following condition types appear if **Context** is set to **Record** and a **Table** is selected:
 
- -   **Declarative**: Adds a condition builder to the form. For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
+ -   **Declarative**: Adds a condition builder to the form. For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ConditionBuilder.md).
 -   **Script**: Adds a script condition field to the form.
 
 
@@ -185,10 +185,10 @@ Button attributes
 \(Optional\) Specifies an additional attribute for your smart button. Select **New** to create one of the following button attributes:
 
  -   **alerts\_require\_dismissal**: When set to `true`, this button attribute enables the banner messages to persist until the user dismisses it. By default, banner messages are automatically dismissed.
--   **used\_for\_deeplink**: When set to `true`, this button attribute specifies that the button is used for deep linking. For more information, see [Deep linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/deep-link-mobile.md).
+-   **used\_for\_deeplink**: When set to `true`, this button attribute specifies that the button is used for deep linking. For more information, see [Deep linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/deep-link-mobile.md).
 -   **trigger\_offline\_cache\_download**: When set to `true`, this button attribute triggers offline cache generation. After the cache is successfully generated, a download of it is triggered.
 -   **check\_acl\_on\_url\_parameter\_field**: When this button attribute is selected any field in the URL string is checked against the ACL \(Access Control List\). To opt-out of the check, mark the parameter as false. For example, a string like `{{meeting_id}}`. If a field does not pass this check, the field value is not included in the URL. If set to false, the URL parameter field is not checked against the ACL for backward compatibility.
--   **hidden\_attachment\_sources**: Enter values in the **Value** field from where you don’t want images sourced from. Values can be `camera`, `files` or `gallery`, or any combination separated by commas. If this field is left blank, then images and files can be sourced from all locations. For more information, see [Define attachment sources available to users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/attachment-source-define.md).
+-   **hidden\_attachment\_sources**: Enter values in the **Value** field from where you don’t want images sourced from. Values can be `camera`, `files` or `gallery`, or any combination separated by commas. If this field is left blank, then images and files can be sourced from all locations. For more information, see [Define attachment sources available to users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/attachment-source-define.md).
 
 
 </td></tr><tr><td>
@@ -207,5 +207,5 @@ Limit user access to an action by role.
 
 ## What to do next
 
-After you create a smart button function, you must associate it with a specific location in the mobile app. You can add a smart button function to a top menu, a swipe action, or to a specific field. For more information on associating the smart button function to a location, see [Associate a function with a location in the app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-button-instances.md).
+After you create a smart button function, you must associate it with a specific location in the mobile app. You can add a smart button function to a top menu, a swipe action, or to a specific field. For more information on associating the smart button function to a location, see [Associate a function with a location in the app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-studio-button-instances.md).
 

@@ -3,11 +3,11 @@ title: Ingesting the sample IBM QRadar offenses
 description: You can ingest sample offenses for one or more selected IBM QRadar rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/qradar-ibm-create-profile-ingestion.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Map offense fields, Setup IBM QRadar profile, Set up instance, IBM QRadar Offense Ingestion Integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

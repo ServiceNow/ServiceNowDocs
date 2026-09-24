@@ -3,11 +3,11 @@ title: Set up your ServiceNow AI Platform instance for the Splunk Enterprise Sec
 description: The following section lists the setup tasks that you are required to complete in your ServiceNow AI Platform instance prior to installing the application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/splunk-event-ingest-setup-sn-security.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Splunk Enterprise Security event ingestion integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -39,7 +39,7 @@ Refer to the following table and verify that you have completed all the listed t
         -   Enables notable event updates when a SIR incident is created and closed.
         -   Assigns the security incident analyst \(sn\_si.analyst\) role.
         -   Users with the sn\_si.analyst work with security incidents.
-    For more information, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ua-creating-roles.md).
+    For more information, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ua-creating-roles.md).
 
 2.  Assign the Splunk user role.
 
@@ -51,7 +51,7 @@ Refer to the following table and verify that you have completed all the listed t
 
 4.  Verify that you have installed and configured a MID Server.
 
-    A MID Server in your ServiceNow AI Platform® instance is required to connect to the Splunk service if the Splunk server is deployed within your corporate network. For information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md).
+    A MID Server in your ServiceNow AI Platform® instance is required to connect to the Splunk service if the Splunk server is deployed within your corporate network. For information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-landing.md).
 
     If you are using the Splunk Enterprise Security Cloud service, a MID Server is not required.
 
@@ -64,8 +64,8 @@ Refer to the following table and verify that you have completed all the listed t
     1.  Security Incident Response
     2.  Security Integration Framework
     3.  Security Support Common
-    For more information about installing the Security Operations core applications, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/activate-entitled-store-app.md).
+    For more information about installing the Security Operations core applications, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/activate-entitled-store-app.md).
 
 
-You have successfully set up your ServiceNow AI Platform® instance for the integration. The next step is to install the Splunk Enterprise Security Notable Event Ingestion application from the ServiceNow Store for the integration. For more information, see [Install and configure Splunk Enterprise Security Notable Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-install-and-configure-security.md).
+You have successfully set up your ServiceNow AI Platform® instance for the integration. The next step is to install the Splunk Enterprise Security Notable Event Ingestion application from the ServiceNow Store for the integration. For more information, see [Install and configure Splunk Enterprise Security Notable Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/splunk-event-ingest-install-and-configure-security.md).
 

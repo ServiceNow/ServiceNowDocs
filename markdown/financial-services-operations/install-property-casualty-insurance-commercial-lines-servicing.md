@@ -3,9 +3,9 @@ title: Install Commercial Lines Servicing
 description: You can install the Commercial Lines Servicing \(sn\_ins\_policy\_b2b\) application if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/install-property-casualty-insurance-commercial-lines-servicing.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Commercial Lines Servicing, Property and Casualty Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -30,7 +30,7 @@ The following items are installed with Commercial Lines Servicing.
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Commercial Lines Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/components-installed-with-insurance-policy-operations-business-lines-servicing.md).
+For more information, see [Components installed with Commercial Lines Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/components-installed-with-insurance-policy-operations-business-lines-servicing.md).
 
 ## Procedure
 
@@ -53,5 +53,5 @@ For more information, see [Components installed with Commercial Lines Servicing]
 5.  Select **Install**.
 
 
-**Parent Topic:**[Commercial Lines Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-ins-commercial-policy-ops-landing-page.md)
+**Parent Topic:**[Commercial Lines Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/fso-ins-commercial-policy-ops-landing-page.md)
 

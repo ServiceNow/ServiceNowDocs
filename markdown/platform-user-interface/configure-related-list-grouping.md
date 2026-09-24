@@ -3,9 +3,9 @@ title: Group a related list by a field
 description: Configure a related list to group by a field.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-related-list-grouping.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Lists, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---

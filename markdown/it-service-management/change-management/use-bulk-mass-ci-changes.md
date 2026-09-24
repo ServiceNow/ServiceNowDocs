@@ -3,11 +3,11 @@ title: Use Mass Update CI
 description: You can use the proposed changes in a change request to apply the same update to a set of CIs for a specific CI class.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/use-bulk-mass-ci-changes.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Process a change request, Use, Change Management, IT Service Management]
 ---
@@ -24,9 +24,9 @@ Role required: itil, sn\_change\_write, or admin
 
 ## About this task
 
-The **Mass update CI class** check box lets you apply one set of proposed changes to every configuration item \(CI\) in a selected CI class. The check box is available on the change request form, after you activate the Change Management mass update CI plugin `(com.snc.change_management.mass_update_ci)`. For plugin activation, see [Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-plugins.md).
+The **Mass update CI class** check box lets you apply one set of proposed changes to every configuration item \(CI\) in a selected CI class. The check box is available on the change request form, after you activate the Change Management mass update CI plugin `(com.snc.change_management.mass_update_ci)`. For plugin activation, see [Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-plugins.md).
 
-**Note:** **Mass update CI class** applies updates by CI class. To apply proposed changes to an explicit list of affected CIs instead, use the Bulk CI Change feature. For more information, see [Mass Update CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/bulk-ci-change.md)
+**Note:** **Mass update CI class** applies updates by CI class. To apply proposed changes to an explicit list of affected CIs instead, use the Bulk CI Change feature. For more information, see [Mass Update CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/bulk-ci-change.md)
 
 ## Procedure
 
@@ -69,14 +69,14 @@ The **Mass update CI class** check box lets you apply one set of proposed change
     **Note:** If you are using the Bulk CI Change without Mass Update CI feature, then the proposed changes are applied when the change request is closed.
 
 
-**Parent Topic:**[Process a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_ProcessAChangeRequest.md)
+**Parent Topic:**[Process a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_ProcessAChangeRequest.md)
 
 **Related topics**  
 
 
-[Mass Update CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/bulk-ci-change.md)
+[Mass Update CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/bulk-ci-change.md)
 
-[Activate Change Management - Mass Update CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_ActivateChangeManagementBulkCI.md)
+[Activate Change Management - Mass Update CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_ActivateChangeManagementBulkCI.md)
 
-[Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateAChange.md)
+[Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_CreateAChange.md)
 

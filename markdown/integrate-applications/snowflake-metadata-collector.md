@@ -3,9 +3,9 @@ title: Snowflake metadata collector
 description: The Snowflake metadata collector provides read-only access to metadata from an external Snowflake account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/snowflake-metadata-collector.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
 ---
@@ -296,10 +296,10 @@ Snowflake Streamlit App
 -   Owner
 
 </td></tr></tbody>
-</table>-   **[Prepare to run the Snowflake collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-the-snowflake-collector.md)**  
+</table>-   **[Prepare to run the Snowflake collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/prepare-to-run-the-snowflake-collector.md)**  
 Set up authentication and grant role permissions to enable Snowflake metadata collection.
--   **[Create a Snowflake metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-snowflake-metadata-collector.md)**  
+-   **[Create a Snowflake metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-snowflake-metadata-collector.md)**  
 Create a collector to import metadata from Snowflake.
 
-**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-metadata-collectors-dc.md)
+**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-metadata-collectors-dc.md)
 

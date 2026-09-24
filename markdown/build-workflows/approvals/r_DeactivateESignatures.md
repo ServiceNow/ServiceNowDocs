@@ -3,11 +3,11 @@ title: De-activate e-signatures
 description: Use this procedure to de-activate e-signatures.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/approvals/r\_DeactivateESignatures.html
-release: australia
+release: brazil
 product: Approvals
 classification: approvals
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Approval with e-signature, Classic approvals, Build workflows]
 ---

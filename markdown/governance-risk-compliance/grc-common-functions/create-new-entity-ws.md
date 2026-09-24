@@ -3,11 +3,11 @@ title: Create an entity
 description: Create an entity for your enterprise. In Governance, Risk, and Compliance, entities can be people, processes, departments, applications, or objects. These entities have controls that are defined to mitigate their exposure, and their audits must be completed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/create-new-entity-ws.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Entities in workspace view, Explore entities, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -64,12 +64,12 @@ An entity is an object for an action. The entities have controls to mitigate the
     -   Privacy assessments
     -   CRI Tiering assessments
     -   CRI assessments
-    For information on the fields in these related lists, see [An entity in the workspace view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/entities-in-risk-ws.md).
+    For information on the fields in these related lists, see [An entity in the workspace view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/entities-in-risk-ws.md).
 
 7.  View the highlighted details side-panel for information such as the downstream hierarchy, entity types, and policies related to the entity.
 
 8.  To save the updates to the entity, click **Save**.
 
 
-**Parent Topic:**[An entity in the workspace view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/entities-in-risk-ws.md)
+**Parent Topic:**[An entity in the workspace view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/entities-in-risk-ws.md)
 

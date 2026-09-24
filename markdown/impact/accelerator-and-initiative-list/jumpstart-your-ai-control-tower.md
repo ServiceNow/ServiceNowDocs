@@ -3,11 +3,11 @@ title: Jumpstart your AI Control Tower: Foundations
 description: Jumpstart your AI Control Tower: Foundations provides a demonstration of the possibilities and capabilities of ServiceNow’s AI Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-ai-control-tower.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---

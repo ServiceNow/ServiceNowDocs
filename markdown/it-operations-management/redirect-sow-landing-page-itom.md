@@ -3,9 +3,9 @@ title: Redirect to the Service Operations Workspace home page
 description: Enable quick task prioritization by directing agents to the homepage immediately upon logging into the ServiceNow instance. This improves workflow efficiency by granting agents immediate access to essential tools and information, facilitating the timely resolution of critical tasks and issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/redirect-sow-landing-page-itom.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customize the SOW for ITOM home page, Configure, ITOM AIOps, IT Operations Management]
 ---
@@ -33,5 +33,5 @@ Role required: evt\_mgmt\_admin
 4.  Select **Update**.
 
 
-**Parent Topic:**[Customize the Service Operations Workspace for ITOM home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/customize-sow-landing-page-itom.md)
+**Parent Topic:**[Customize the Service Operations Workspace for ITOM home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/customize-sow-landing-page-itom.md)
 

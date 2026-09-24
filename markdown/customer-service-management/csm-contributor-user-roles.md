@@ -3,9 +3,9 @@ title: Contributor user roles
 description: The contributor user data model includes several roles that control access to cases, case tasks, and related information, assigned to users based on business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-contributor-user-roles.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Contributor users, Configure Contributor Users, User management, Set up your environment, Configure, Customer Service Management]
 ---
@@ -16,16 +16,16 @@ The contributor user data model includes several roles that control access to ca
 
 These roles are included with several different plugins:
 
--   Customer Service \(com.sn\_customerservice\)
+-   Case Management Core \(com.sn\_customerservice\)
 -   CSM Contributor User \(com.snc.csm\_contributor\_user\)
 -   Business Location \(com.snc.business\_location\)
 -   CSM Base Extension Entities \(com.snc.cs\_base\_extension\)
 
 See the following tables for detailed role descriptions.
 
-## Roles included with the Customer Service plugin
+## Roles included with the Case Management Core plugin
 
-The following table lists the contributor roles that are included with the Customer Service \(com.sn\_customerservice\) plugin along with their descriptions and associated roles.
+The following table lists the contributor roles that are included with the Case Management Core \(com.sn\_customerservice\) plugin along with their descriptions and associated roles.
 
 <table id="table_q3s_wcc_3nb"><thead><tr><th>
 
@@ -40,61 +40,6 @@ Description
 Contains roles
 
 </th></tr></thead><tbody><tr><td>
-
-Case task agent\[sn\_customerservice.case\_task\_agent\]
-
-</td><td>
-
-This role provides access to case tasks and related case information. A user with this role can work on the following case tasks:
-
--   Tasks that are assigned to the user or to the user's assignment groups.
--   Tasks that have been created by the user.
-
- With this role, the user can:
-
--   View and update case tasks.
-    -   Add work notes, comments, and attachments.
-    -   Update the status.
-    -   Perform additional actions from a case task such as sending email.
--   Create case tasks and assign them to other users.
-
- With this role, users have read-only access to customer information for the case:
-
--   Account and contact records \(for B2B cases\)
--   Consumer and household records \(for B2C cases\)
--   Service organization records \(business location cases\)
-
-</td><td>
-
--   sn\_customerservice.csm\_workspace\_user
--   sn\_customerservice.customer\_data\_viewer
--   sn\_customerservice.case\_contributor\_editor
-
-</td></tr><tr><td>
-
-Case task viewer\[sn\_customerservice.case\_task\_viewer\]
-
-</td><td>
-
-This role provides read-only access to all case tasks. **Note:** When combined with the case viewer role \(sn\_customerservice.case\_viewer\), a user can access all customer service cases and all case tasks.
-
-</td><td>
-
- 
-
-</td></tr><tr><td>
-
-Case viewer\[sn\_customerservice.case\_viewer\]
-
-</td><td>
-
-This role provides read-only access to all cases.
-
-</td><td>
-
- 
-
-</td></tr><tr><td>
 
 Case contributor editor\[sn\_customerservice.case\_contributor\_editor\]
 
@@ -216,11 +161,37 @@ Service organization contributor \[sn\_customerservice.service\_organization\_co
 
 </td><td>
 
-This role enables you to create cases for their service organization \(business location\).**Note:** A service organization contributor must be a member of a service organization to create cases on its behalf.
+This role enables you to create cases for your service organization \(business location\).**Note:** A service organization contributor must be a member of a service organization to create cases on its behalf.
+
+**Note:** Review your entitlements to determine licensing type of this role.
 
 </td><td>
 
 sn\_customerservice.case\_contributor\_creator
+
+</td></tr><tr><td>
+
+Business Org Account Contributor\[sn\_bus\_loc.business\_org\_account\_contributor\]
+
+</td><td>
+
+Creates cases for accounts associated with their business organization using criteria-based restricted customer access. Tracks and manages cases created by them for the accounts associated with their business organization.
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Business Org Consumer Contributor\[sn\_bus\_loc.business\_org\_consumer\_contributor\]
+
+</td><td>
+
+Creates cases for consumers and households associated with their business organization using criteria-based restricted customer access. Tracks and manages cases created by them for the consumers or households associated with their business organization.
+
+</td><td>
+
+ 
 
 </td></tr></tbody>
 </table>## Roles included with the CSM Base Extension Entities plugin
@@ -299,8 +270,6 @@ This role provides access to case tasks from the following modules in the CSM wo
 -   Create email \(if you have the written access to the record and the email\_composer role\).
 -   View response templates \(if response templates have been configured for the record\).
 
-**Note:** By default, this role is added to the case task agent role \(sn\_customerservice.case\_task\_agent\).
-
 </td><td>
 
 -   agent\_workspace\_user
@@ -309,4 +278,16 @@ This role provides access to case tasks from the following modules in the CSM wo
 -   email\_composer
 
 </td></tr></tbody>
-</table>
+</table>**Related topics**  
+
+
+[Configure Contributor Users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/config-contributor-user.md)
+
+[Contributor users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-service-contributor-users.md)
+
+[Cases and case tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-cases-case-tasks-overview.md)
+
+[Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md)
+
+[Business Stakeholder for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/business-stakeholder-for-csm.md)
+

@@ -3,9 +3,9 @@ title: Continuous Authentication audit logs
 description: Describes the details about Continuous Authentication \(CA\) logs. The CA logs displays all the authentication attempts performed by the users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/ca-audit-logs.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Continuous Authentication \(CA\), Zero Trust Access, Access Management]
 ---

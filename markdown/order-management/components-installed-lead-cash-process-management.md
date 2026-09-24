@@ -3,9 +3,9 @@ title: Components installed with Lead-to-Cash Process Management
 description: Several types of components are installed with activation of the Lead-to-Cash Process Management plugin, including tables and user roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/components-installed-lead-cash-process-management.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Lead-to-Cash Process Management reference, Order operations, Reference, Sales Customer Relationship Management]
 ---
@@ -94,5 +94,5 @@ Sales Process Record
 Stores records used for monitoring sales-specific entities.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Lead-to-Cash Process Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-cash-process-management-reference.md)
+</table>**Parent Topic:**[Lead-to-Cash Process Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/lead-cash-process-management-reference.md)
 

@@ -3,9 +3,9 @@ title: Activity formatter
 description: The activity formatter provides an easy way to track items not saved with a field in the record, for example, journal fields like comments and work notes.You can create an activity formatter for any audited table.Add an activity formatter to any form to track journal fields on the form.Enable the Live Feed-Activity toggle, which allows users to switch between the activity feed and the document feed for a record.You can customize which fields appear in the activity formatter. You can add or remove fields from the list of activities that users can select when they open the activity filter.The system property glide.ui.activity.email\_roles enables you to control which roles can see emails in the activity formatter.Use the glide.max\_activity\_size property to increase the amount of content that can be visible in the Activity Formatter.The glide.ui16.emailStreamResponseActions system property determines whether a user can reply to email using the email reply button in the activity stream in Core UI.Use the glide.ui.activity\_stream.style.comments and glide.ui.activity\_stream.style.work\_notes properties to change the color-coding in the Activity Formatter.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_ActivityFormatter.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Formatters, Administer, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -22,14 +22,14 @@ Activity type and a time stamp display in the top of each entry.
 
 In Core UI, the activity formatter shows updates in real time so you can see the latest information without refreshing the form. User presence enables you to see when other users are entering comments.
 
-\[Omitted image "image.activity-formatter"\] Alt text: Core UI activity formatter
+\[Omitted image "activity-formatter.png"\] Alt text: Core UI activity formatter
 
-**Parent Topic:**[Using formatters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_Formatters.md)
+**Parent Topic:**[Using formatters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_Formatters.md)
 
 **Related topics**  
 
 
-[User presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPresence.md)
+[User presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_UserPresence.md)
 
 ## Create an activity formatter
 
@@ -236,7 +236,7 @@ Role required: admin
 
 2.  Add the following system property.
 
-    For more information on adding a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+    For more information on adding a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
     |Field|Description|
     |-----|-----------|

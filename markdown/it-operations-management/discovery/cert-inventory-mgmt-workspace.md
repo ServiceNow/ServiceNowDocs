@@ -3,11 +3,11 @@ title: Certificate Management workspace
 description: The Certificate Management workspace provides centralized visibility into your organization's certificates so you can make data-driven decisions. For example, you can avoid outages by looking at the numbers that are soon to expire.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cert-inventory-mgmt-workspace.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Explore, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -24,7 +24,7 @@ The Certificate Management workspace provides centralized visibility into your o
 
 ## Accessing the Certificate Management workspace
 
-To open the workspace, navigate to **Workspaces** &gt; **Certificate Management Workspace**.
+To open the workspace, navigate to **Workspaces** &gt; **Certificate Management**.
 
 The Certificate Management workspace has five tabs:
 
@@ -50,7 +50,7 @@ Displays key insights about all certificates including certificates that are act
 
 </td><td>
 
-Displays manage tasks to track the upcoming tasks that will expire soon. These tasks are organized into four categories: Renewals, Requests, Expirations, and Automation trends.
+Displays tasks to track the upcoming tasks that will expire soon. These tasks are organized into four categories: Renewals, Requests, Expirations, and Automation trends.
 
 </td></tr><tr><td>
 
@@ -74,7 +74,7 @@ Displays the files that are required to set up the ServiceNow external issuer \(
 
 </td><td>
 
-Displays the settings to manage the notifications of this workspace. For more information on setting up these notifications, see [Receive certificate notifications via Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/configure-ms-teams-cert-notifications.md) and [Receive certificate notifications via email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/receive-email-certificate-notifications.md).
+Displays the settings to manage the notifications of this workspace. For more information on setting up these notifications, see [Receive certificate notifications via Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/configure-ms-teams-cert-notifications.md) and [Receive certificate notifications via email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/receive-email-certificate-notifications.md).
 
 </td></tr></tbody>
 </table>

@@ -3,9 +3,9 @@ title: Use response templates in Service Request Playbook
 description: Respond to cases by using the response templates in the contextual side panel in CRM Workspace. Good templates save you time by eliminating repetitive work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/use-response-templates-psds.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using the contextual side panel, Using Service Request Playbooks, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.business\_agent, sn\_gsm.agen
 
 ## About this task
 
-Selecting the response templates icon \[Omitted image "response-template-icon.png"\] Alt text: Response template icon. shows the reusable messages that you can copy and paste into cases and case tasks. For information on how to create response templates, see [Create or modify a response template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-modify-templated-snippet.md).
+Selecting the response templates icon \[Omitted image "response-template-icon.png"\] Alt text: Response template icon. shows the reusable messages that you can copy and paste into cases and case tasks. For information on how to create response templates, see [Create or modify a response template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/create-modify-templated-snippet.md).
 
 ## Procedure
 

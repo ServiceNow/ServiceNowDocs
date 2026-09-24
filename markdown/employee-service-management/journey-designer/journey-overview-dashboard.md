@@ -3,12 +3,12 @@ title: Journey overview dashboard
 description: Journey Overview is a comprehensive dashboard that allows you to efficiently track and manage ongoing tasks and journeys within the organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/journey-overview-dashboard.html
-release: australia
+release: brazil
 product: Journey Designer
 classification: journey-designer
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Journey designer dashboards and reports, Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
@@ -253,5 +253,7 @@ Choice
 Displays tasks based on the start date of the employee.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Journey designer dashboards and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-report-dashboards.md)
+</table>**Parent Topic:**[Journey designer dashboards and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/journey-designer/jny-report-dashboards.md)
+
+**Parent Topic:**[Journey designer dashboards and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/journey-designer/jny-report-dashboards.md)
 

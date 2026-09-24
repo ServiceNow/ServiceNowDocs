@@ -3,9 +3,9 @@ title: Force administrators to manually elevate
 description: A property is available to force all users with the administrator role to manually select the role that they want to elevate to.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_ForceAdmManElev.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Elevated privilege roles, Security Roles, Access Management]
 ---
@@ -35,7 +35,7 @@ Role required: security\_admin
 
 When the user logs in, they are presented with a dialog window to select the role to which they can elevate.
 
-**Parent Topic:**[Elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_ElevatedPrivilege.md)
+**Parent Topic:**[Elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_ElevatedPrivilege.md)
 
 **Related topics**  
 

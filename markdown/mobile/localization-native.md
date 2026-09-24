@@ -3,9 +3,9 @@ title: Native localization
 description: Native \(on device\) localization is controlled by the device's language preference, which means that many components are localized with the language preference for the user's device. These components can include local screen titles, such as Settings, and local button titles, such as the Clear All button on the filter screen.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/localization-native.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Localization, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -48,5 +48,5 @@ The on-device localization supports the following languages:
 
 These translations can't be customized because they're built into the app and automatically translated based on your device's language settings.
 
-**Parent Topic:**[Localization on mobile devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/localization-mobile-device.md)
+**Parent Topic:**[Localization on mobile devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/localization-mobile-device.md)
 

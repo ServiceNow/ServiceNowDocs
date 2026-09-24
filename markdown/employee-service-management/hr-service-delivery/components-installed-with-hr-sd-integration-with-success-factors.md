@@ -3,13 +3,13 @@ title: Components installed with HR Service Delivery Integration with SuccessFac
 description: Several types of components are installed with activation of the HR Service Delivery Integration with SuccessFactors application, including tables and user roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/components-installed-with-hr-sd-integration-with-success-factors.html
-release: australia
+release: brazil
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, HR Service Delivery Integration with SuccessFactors, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
+breadcrumb: [HR Service Delivery Integration with SuccessFactors reference, HR Service Delivery Integration with SuccessFactors, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
 # Components installed with HR Service Delivery Integration with SuccessFactors
@@ -61,12 +61,14 @@ Run Trigger SAP SuccessFactors Integrations Flow
 
 </td><td>
 
-Pulls data from SuccessFactors to ServiceNow. By default the flow is in inactive state. For information on how to activate the flow, see [Activating schedule flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/activate-w-schedule-flow.md).
+Pulls data from SuccessFactors to ServiceNow. By default the flow is in inactive state. For information on how to activate the flow, see [Activating schedule flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/activate-w-schedule-flow.md).
 
 </td></tr></tbody>
 </table>## Tables installed
 
-The tables required for HR Service Delivery Integration with SuccessFactors are obtained from the Enterprise Service Management Integrations Framework. The tables get auto-installed with the Enterprise Service Management Integrations Framework installation when you activate the HR Service Delivery Integration with SuccessFactors application. For more information, see [Components installed with Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/installed-with-hr-int-fra.md).
+The tables required for HR Service Delivery Integration with SuccessFactors are obtained from the Enterprise Service Management Integrations Framework. The tables get auto-installed with the Enterprise Service Management Integrations Framework installation when you activate the HR Service Delivery Integration with SuccessFactors application. For more information, see [Components installed with Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/installed-with-hr-int-fra.md).
 
-**Parent Topic:**[HR Service Delivery Integration with SuccessFactors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-service-delivery-integration-with-success-factors-reference.md)
+**Parent Topic:**[HR Service Delivery Integration with SuccessFactors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/hr-service-delivery-integration-with-success-factors-reference.md)
+
+**Parent Topic:**[HR Service Delivery Integration with SuccessFactors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/hr-service-delivery-integration-with-success-factors-reference.md)
 

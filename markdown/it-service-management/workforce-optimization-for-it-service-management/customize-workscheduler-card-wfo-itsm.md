@@ -3,11 +3,11 @@ title: Customize a Work Scheduler card using the Next Experience UI Builder
 description: Customize the Work Scheduler card components, such as adding an extra field, or changing the color or order of a field, to display them in the Work scheduler queue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/customize-workscheduler-card-wfo-itsm.html
-release: australia
+release: brazil
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setting up, Work scheduler, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -54,20 +54,20 @@ You can duplicate an existing work item variant such as an Incident, Problem, Ch
 
 12. Click **Save**.
 
-13. Customize the variant you've created using any of the tasks or steps listed in [Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/create-workscheduler-card-wfo-itsm.md).
+13. Customize the variant you've created using any of the tasks or steps listed in [Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/create-workscheduler-card-wfo-itsm.md).
 
 
 ## Example
 
 |If you'd like to configure this in the Work Scheduler card|Refer to|
 |----------------------------------------------------------|--------|
-|Add fields|[Create page scripts for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/work-sched-create-page-scripts.md) and refer to the Create the **Transform workItem to cardProps** page script steps.|
-|Add an avatar|[Configure an avatar component for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/work-sched-avatar-component.md)|
+|Add fields|[Create page scripts for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/work-sched-create-page-scripts.md) and refer to the Create the **Transform workItem to cardProps** page script steps.|
+|Add an avatar|[Configure an avatar component for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/work-sched-avatar-component.md)|
 
-**Parent Topic:**[Setting up Work scheduler in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/setting-up-work-scheduler.md)
+**Parent Topic:**[Setting up Work scheduler in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/setting-up-work-scheduler.md)
 
 **Related topics**  
 
 
-[Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-page.md)
+[Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-page.md)
 

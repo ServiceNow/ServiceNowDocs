@@ -3,13 +3,13 @@ title: Create an attribute-based resource assignment
 description: Create an attribute-based resource assignment in Project Workspace. You can pre-define attributes based on your requirement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/create-attribute-resource-assignment.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create resource assignments using Project Workspace, Resource assignments in Project Workspace, Manage resources, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Create resource assignments using Project Workspace, Resource assignments in Project Workspace, Resource planning with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Create an attribute-based resource assignment
@@ -22,7 +22,7 @@ Role required: pps\_admin or it\_project\_manager
 
 ## Procedure
 
-1.  [Create a planning attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/configure-planning-attributes.md).
+1.  [Create a planning attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/configure-planning-attributes.md).
 
     **Note:** If the assignment is attribute-based, then the assignment is created in the Unassigned state. You should have the pps\_admin role to configure the planning attributes.
 
@@ -49,5 +49,5 @@ A resource assignment record for an attribute is created and auto-saved.
 
 **Note:** The **Primary group**, **Primary skill**, and **Primary role** attributes can be enabled for the Resource Management. You can create more attributes based on your requirement.
 
-**Parent Topic:**[Create resource assignments using Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-resource-assignment-prj-wksp.md)
+**Parent Topic:**[Create resource assignments using Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/create-resource-assignment-prj-wksp.md)
 

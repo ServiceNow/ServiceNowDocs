@@ -3,9 +3,9 @@ title: Claim details form
 description: The Claim details form enables the dealer to enter the claim details for the repair work performed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-claim-details-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Repair form, Reference, Manufacturing Commercial Operations]
 ---
@@ -104,12 +104,12 @@ Product usage
 Enter the number of Asset used. It provides insights into how customers use a product.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/repair-form.md)
+</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/repair-form.md)
 
 **Related topics**  
 
 
-[Roles and components of Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/roles-and-components-of-partner-relationship-management.md)
+[Roles and components of Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/roles-and-components-of-partner-relationship-management.md)
 
-[Submit a repair claim for warranty](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-submit-repair-claim.md)
+[Submit a repair claim for warranty](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-submit-repair-claim.md)
 

@@ -3,11 +3,11 @@ title: Exploring Performance Analytics
 description: Review the use cases, components, and architecture for indicator data sources and begin to implement indicators.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/c\_GetStartedwithPA.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -22,7 +22,7 @@ Indicators drive business transformation by enabling businesses to set, track, a
 
 **Note:** These days, Performance Analytics refers to the indicator data sources for Platform Analytics. Previously, Performance Analytics was its own independent product, with its own front end consisting of Performance Analytics widgets. That front end is deprecated, and instead indicators are shown in universal Platform Analytics data visualizations. The name Performance Analytics is retained for historical reasons.
 
-For a video about how different dashboards with indicator data sources can help different personas in the ITSM department of your organization, see [ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/success-dashboard-indicator-landing.md).
+For a video about how different dashboards with indicator data sources can help different personas in the ITSM department of your organization, see [ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/success-dashboard-indicator-landing.md).
 
 Indicator data sources improve performance and accelerate continual service improvement by:
 
@@ -52,12 +52,12 @@ Benefits of using Performance Analytics indicators can include:
 
 **Tip:** For an introduction to using Performance Analytics, take the [Platform Analytics Overview](https://learning.servicenow.com/lxp/en/now-intelligence/platform-analytics-pa-overview?id=learning_course_prev&course_id=fb9decf8932f06905402393d6cba10f6) course.
 
--   **[Performance Analytics concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PerformanceAnalytics.md)**  
+-   **[Performance Analytics concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_PerformanceAnalytics.md)**  
 Performance Analytics uses terms and concepts that can differ from industry norms due to the unique nature of the ServiceNow platform.
--   **[Performance Analytics indicators compared to table data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-vs-reporting-pa.md)**  
+-   **[Performance Analytics indicators compared to table data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/pa-vs-reporting-pa.md)**  
 Indicator data sources address a different set of use cases than table data sources.
--   **[Implement Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/implementing-pa.md)**  
+-   **[Implement Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/implementing-pa.md)**  
 Follow these steps to begin using Performance Analytics to improve your service levels.
 
-**Parent Topic:**[Performance Analytics \(Indicator data sources\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[Performance Analytics \(Indicator data sources\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)
 

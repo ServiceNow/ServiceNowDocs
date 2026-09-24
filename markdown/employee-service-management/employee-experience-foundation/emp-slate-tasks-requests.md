@@ -3,7 +3,7 @@ title: Configure tasks and requests
 description: Set up AI preferences to control resource usage and generation modes for task insights and request summaries.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/emp-slate-tasks-requests.html
-release: australia
+release: brazil
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
@@ -33,19 +33,19 @@ Configure the following AI preferences to manage smart prioritization for tasks 
 
 ## Procedure
 
-1.  Follow the instructions here to [Configure branding and theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-config-admin-console.md).
+1.  Follow the instructions here to [Configure branding and theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/eslate-config-admin-console.md).
 
 2.  Expand the **Tasks and requests** section and select **Tasks** to view the read-only list with task types, table, conditions, search, and configure tasks.
 
     \[Omitted image "es-tasks-admin.png"\] Alt text: Tasks list and details
 
-    **Note:** For additional information, select **Configure tasks** to go to tasks full-list or go to a specific task configuration by selecting external link icon. For more information, see [Employee tasks page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-to-dos-page-configuration.md).
+    **Note:** For additional information, select **Configure tasks** to go to tasks full-list or go to a specific task configuration by selecting external link icon. For more information, see [Employee tasks page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/employee-center-to-dos-page-configuration.md).
 
 3.  Expand the **Tasks and requests** section and select **Requests** to view the read-only list with request types, table, conditions, search, and configure requests.
 
     \[Omitted image "es-requests-admin.png"\] Alt text: Request details
 
-    **Note:** For additional information, select **Configure request** to go to requests full-list or go to a specific request configuration by selecting external link icon. For more information, see [Employee requests page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-requests-page-configuration.md).
+    **Note:** For additional information, select **Configure request** to go to requests full-list or go to a specific request configuration by selecting external link icon. For more information, see [Employee requests page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/employee-center-requests-page-configuration.md).
 
 4.  Expand the **Tasks and requests** section and select **AI preferences** to manage usage limits and insight and summaries.
 
@@ -62,7 +62,7 @@ Configure the following AI preferences to manage smart prioritization for tasks 
 
         -   For task insights, select **Auto-generate** to create insights automatically when task detail page loads or select **On-demand** to manually trigger from the **Summarize** button.
         -   For request summaries, select **Auto-generate** to create summaries automatically when request detail page loads or select **On-demand** to manually trigger from the **Summarize** button.
-        **Note:** You can bring your own skills and configure the insights and summaries based on the task type. For more information on building a custom skill, see [Configure a custom AI insights skill for a task type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-configure-ai-insights-skill.md).
+        **Note:** You can bring your own skills and configure the insights and summaries based on the task type. For more information on building a custom skill, see [Configure a custom AI insights skill for a task type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/empworks-configure-ai-insights-skill.md).
 
     3.  Save the AI preferences configuration.
 
@@ -78,5 +78,5 @@ Monitor AI assists usage and adjust limits as needed based on organizational req
 **Related topics**  
 
 
-[Smart prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-smart-prioritization-content.md)
+[Smart prioritization]()
 

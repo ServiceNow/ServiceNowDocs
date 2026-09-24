@@ -3,9 +3,9 @@ title: Policies for Security Posture Control
 description: Policies audit your assets based on data imported from your service graph connectors to help you find potential violations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/spc-policies-overview.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Explore, Security Posture Control, Security Operations]
 ---
@@ -76,21 +76,21 @@ For example, say a policy looks for all the hardware assets that are reported by
 
 ## Policies included with the application
 
-Activate the asset proﬁles and policies in the Security Posture Control workspace that are [Included with the application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-polices-included.md) so that you can identify gaps in configuration or coverage for security tools.
+Activate the asset proﬁles and policies in the Security Posture Control workspace that are [Included with the application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/spc-polices-included.md) so that you can identify gaps in configuration or coverage for security tools.
 
 ## Creating your own policies
 
-See [Creating your own policies in the Security Posture Control application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-creating-policies.md) for more information about how to create your own policies.
+See [Creating your own policies in the Security Posture Control application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/spc-creating-policies.md) for more information about how to create your own policies.
 
-For example policies, see [Examples of base, child, and cloned policies for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-policy-examples.md).
+For example policies, see [Examples of base, child, and cloned policies for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/spc-policy-examples.md).
 
-See [Create and activate custom policies for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-create-policy.md) for more information about the steps required to create a policy.
+See [Create and activate custom policies for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/spc-create-policy.md) for more information about the steps required to create a policy.
 
 ## Supported SGCs
 
-For a list of some of the supported service graph connectors, see [Supported hardware service graph connectors for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/scp-hw-connectors-ci-classes.md) and [Supported software service graph connectors for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-connector-types-ci-classes.md).
+For a list of some of the supported service graph connectors, see [Supported hardware service graph connectors for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/scp-hw-connectors-ci-classes.md) and [Supported software service graph connectors for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/spc-connector-types-ci-classes.md).
 
 ## Mitigation Controls policies
 
-From within in the Security Posture Control \(SPC\) Workspace, gain insight into which threats to your assets are mitigated by available mitigation controls based on how various security tools are configured. See [Mitigation controls policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-mitigation-policies.md) for more information.
+From within in the Security Posture Control \(SPC\) Workspace, gain insight into which threats to your assets are mitigated by available mitigation controls based on how various security tools are configured. See [Mitigation controls policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/spc-mitigation-policies.md) for more information.
 

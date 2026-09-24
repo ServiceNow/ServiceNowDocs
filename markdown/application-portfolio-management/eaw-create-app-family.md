@@ -3,9 +3,9 @@ title: Add or edit an application family
 description: Add or edit an application family and align it with your business requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-create-app-family.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure application families, Configure EA Workspace using the Setup page, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -34,15 +34,15 @@ Role required: sn\_apm.apm\_admin
     -   To update details of an existing application family, select the application family.
 6.  On the form, fill in the fields.
 
-    For field information, see [Create application family form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-new-application-family-form.md).
+    For field information, see [Create application family form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-new-application-family-form.md).
 
 7.  Select **Save**.
 
 
-**Parent Topic:**[Configure application families](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-setup-app-families.md)
+**Parent Topic:**[Configure application families](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-setup-app-families.md)
 
 **Related topics**  
 
 
-[View all application families](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-application-families.md)
+[View all application families](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-all-application-families.md)
 

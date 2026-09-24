@@ -3,9 +3,9 @@ title: Dispatcher dashboard
 description: Get real-time visibility into work orders, schedules, agent locations and statuses through the Dispatcher dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/dispatcher-dashboard.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dispatcher Workspace, Explore, Field Service Management]
 ---

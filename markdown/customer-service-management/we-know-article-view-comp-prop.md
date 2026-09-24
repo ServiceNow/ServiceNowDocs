@@ -3,9 +3,9 @@ title: Component properties for the Knowledge article view
 description: Component property enables you to configure the behavior of the Knowledge article view component instance on the third-party website.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/we-know-article-view-comp-prop.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Web Embeddables component properties, Web Embeddables reference, Reference, Customer Service Management]
 ---
@@ -34,11 +34,11 @@ Component property enables you to configure the behavior of the Knowledge articl
 **Related topics**  
 
 
-[Configure the Knowledge article view component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-know-article-view-comp.md)
+[Configure the Knowledge article view component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-know-article-view-comp.md)
 
-[Embed the Knowledge article view component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-know-article-view-comp.md)
+[Embed the Knowledge article view component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-know-article-view-comp.md)
 
-[Event handler in the Knowledge article view component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/we-know-article-view-event-handler.md)
+[Event handler in the Knowledge article view component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/we-know-article-view-event-handler.md)
 
-[Sample code for the Knowledge article view component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-know-article-view-sample-code.md)
+[Sample code for the Knowledge article view component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-know-article-view-sample-code.md)
 

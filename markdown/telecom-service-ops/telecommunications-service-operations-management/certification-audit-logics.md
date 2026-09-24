@@ -3,11 +3,11 @@ title: Certification Audit Logics
 description: Audit Results are created for each audit executed on records that matched the selection \(see matching conditions in Initial Certification Audit Run\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/certification-audit-logics.html
-release: australia
+release: brazil
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Identify and reconcile discrepancies, Telecom Visibility, Explore, Telecommunications Service Operations Management]
 ---

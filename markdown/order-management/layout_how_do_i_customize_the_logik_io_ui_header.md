@@ -3,7 +3,7 @@ title: Customizing the CPQ UI header
 description: Customize the CPQ UI header to reflect your brand with logos, text, and background styles. Configure header elements and buttons—such as Cancel, Reset, Return, and Switch Layout—through the layout CSV file to create a branded, user-friendly configuration experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/layout\_how\_do\_i\_customize\_the\_logik\_io\_ui\_header.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -205,5 +205,5 @@ CPQ Admin -&gt; Blueprints -&gt; \[click appropriate blueprint\] -&gt; Layouts t
 
 ## Currency display
 
-You also use the values column of the header row component of the CSV layout upload file to configure how currency displays in the Shopping Cart. For more information, see [Customizing the currency display in the shopping cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/layout_how_do_i_customize_currency_display_in_shopping_cart.md).
+You also use the values column of the header row component of the CSV layout upload file to configure how currency displays in the Shopping Cart. For more information, see [Customizing the currency display in the shopping cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/layout_how_do_i_customize_currency_display_in_shopping_cart.md).
 

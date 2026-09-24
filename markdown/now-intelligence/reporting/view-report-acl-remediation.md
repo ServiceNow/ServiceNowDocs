@@ -3,11 +3,11 @@ title: Manage Report ACL assessments
 description: When you run the Report ACL \(access control list\) assessment scan, the result is a list of affected reports. The assessment details the users who have seen a report including the report creator. The assessment also includes the roles that the report is limited to and the groups that contain those roles.Add a system property to identify reports affected by report\_view ACLs on dot-walked fields.After you perform the report assessment, you can address affected users. You can change access control list \(ACL\) roles, change sharing options on reports, or add report users to a group to grant them blocking roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/view-report-acl-remediation.html
-release: australia
+release: brazil
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [ACL Assessment for Reports, Administering reports, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -53,13 +53,13 @@ For reports that are blocked by a table-level read ACL, the assessment displays 
 
 3.  Select **Ignore Report** to remove this report from future assessments.
 
-    To review these reports later, see [Reassess ignored reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/recover-ignored-reports.md).
+    To review these reports later, see [Reassess ignored reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/recover-ignored-reports.md).
 
 4.  Select **Show Affected Users** and then **View Result**.
 
     The first several affected users appear in a related list below the report assessment. Affected users are users that the report owner has shared the report with but who can’t see the report based on report\_view ACLs.
 
-    The default number of affected users shown is five. To show more, configure the property **sn\_report\_acl.com.par\_report\_acl\_assessment.max\_affected\_users**. For more information, see [Filter report assessment scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/filter-report-assessment-scans.md).
+    The default number of affected users shown is five. To show more, configure the property **sn\_report\_acl.com.par\_report\_acl\_assessment.max\_affected\_users**. For more information, see [Filter report assessment scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/filter-report-assessment-scans.md).
 
     \[Omitted image "rep-acl-report-options-2-pol.png"\] Alt text: Report view ACL affected users
 
@@ -83,7 +83,7 @@ For reports that are blocked by a table-level read ACL, the assessment displays 
 
     4.  If no groups have at least one blocking role, select an appropriate group and add one of the blocking roles.
 
-        If no groups are appropriate for the users, create a group and assign one of the required roles to it outside of the application. Then within the application, grant access to the selected blocked users. For more information on creating groups, see [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAGroup.md).
+        If no groups are appropriate for the users, create a group and assign one of the required roles to it outside of the application. Then within the application, grant access to the selected blocked users. For more information on creating groups, see [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAGroup.md).
 
     5.  Select **Submit**.
 
@@ -92,12 +92,12 @@ For reports that are blocked by a table-level read ACL, the assessment displays 
 
 In the Affected Users list, the status of the assigned users changes to Processed. The next time you view this list, these assigned users no longer appear on it.
 
-**Parent Topic:**[ACL Assessment for Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-view-acl-dashboard.md)
+**Parent Topic:**[ACL Assessment for Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/report-view-acl-dashboard.md)
 
 **Related topics**  
 
 
-[Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md)
+[Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignRoleToGroup.md)
 
 ## Manage reports with ACLs on extended fields
 
@@ -111,9 +111,9 @@ Role required: admin and security\_admin.
 
 1.  Create the system property **sn\_report\_acl.com.par\_report\_acl\_assessment.collect\_dotwalk** and set it to `true`.
 
-    For more information on creating system properties, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+    For more information on creating system properties, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
-2.  [Perform the Report View assessment scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/perform-report-view-acl-assessment-scan.md).
+2.  [Perform the Report View assessment scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/perform-report-view-acl-assessment-scan.md).
 
 
 ### Result
@@ -123,7 +123,7 @@ The Impacted Reports list has a new column, **Dot walk fields**. This column is 
 **Related topics**  
 
 
-[Report on extended tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/t_AccessFieldExtendedTable.md)
+[Report on extended tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/t_AccessFieldExtendedTable.md)
 
 ## Other report remediation tasks
 
@@ -137,6 +137,6 @@ Elevate your role to security\_admin and add one or more roles to a blocking ACL
 
 ### Edit the report sharing options
 
--   For reports created in the Classic environment, open the report in the Report Designer and change who the report is shared with. For more information, see [Share a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/t_ShareASetting.md).
--   For reports created in a configurable workspace open the report in the Visualization Designer and change who the report is shared with. For more information, see [Share a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/share-dv-ac.md).
+-   For reports created in the Classic environment, open the report in the Report Designer and change who the report is shared with. For more information, see [Share a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/t_ShareASetting.md).
+-   For reports created in a configurable workspace open the report in the Visualization Designer and change who the report is shared with. For more information, see [Share a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/share-dv-ac.md).
 

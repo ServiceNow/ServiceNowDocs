@@ -3,11 +3,11 @@ title: Data collected by Task Mining
 description: Task Mining collects workstation and user categories of data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/data-management.html
-release: australia
+release: brazil
 product: Task Mining
 classification: task-mining
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Task Mining, Platform Analytics]
 ---
@@ -66,5 +66,5 @@ Screen content
 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Task Mining Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/reference-task-mining.md)
+</table>**Parent Topic:**[Task Mining Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/reference-task-mining.md)
 

@@ -3,11 +3,11 @@ title: Set up target for NIST CSF framework
 description: Set up a target record to use with NIST CSF framework after you've identified a target.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/setup-target-use-nist-csf-framework.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Align and prioritize cybersecurity activities, Process overview, NIST CSF Use Case Accelerator, GRC use case accelerators, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -46,5 +46,5 @@ NIST CSF Role required: none. sn\_irm\_nist\_csf.risk\_executive or sn\_irm\_nis
 9.  Click the **Activities** related list and validate the activities that are associated with the target.
 
 
-**Parent Topic:**[Align and prioritize cybersecurity activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/align-prioritize-activities.md)
+**Parent Topic:**[Align and prioritize cybersecurity activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/align-prioritize-activities.md)
 

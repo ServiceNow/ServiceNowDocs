@@ -3,11 +3,11 @@ title: Password Reset Verification Type form
 description: Description of the fields on the Password Reset Verification Type form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/password-reset-verification-type-form.html
-release: australia
+release: brazil
 product: Password Reset
 classification: password-reset
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Password Reset reference, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -80,5 +80,5 @@ Verification processor script \(extension scripts\) that processes the verificat
 </table>**Related topics**  
 
 
-[Create a custom Password Reset verification type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/create-verification-type.md)
+[Create a custom Password Reset verification type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/create-verification-type.md)
 

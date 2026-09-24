@@ -3,11 +3,11 @@ title: Require Authentication on Event Management HTTP Processor \[New in Securi
 description: Learn how to establish secure basic authentication for inbound Amazon Simple Notification Service \(SNS\) requests when the Event Management plugin \(com.glideapp.itom.snac\) is enabled.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-require-authentication-on-event-management-http-processor.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [API and web service, Hardening settings, Platform Security]
 ---
@@ -76,7 +76,7 @@ Category
 
 </td><td>
 
-[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
+[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
 
 </td></tr><tr><td>
 
@@ -103,7 +103,7 @@ References
 </td><td>
 
 -   [https://docs.aws.amazon.com/sns/latest/dg/welcome.html](https://docs.aws.amazon.com/sns/latest/dg/welcome.html)
--   [Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/access-control.md)
+-   
 
 </td></tr><tr><td>
 
@@ -114,5 +114,5 @@ Functional impact
 If **glide.basicauth.required.evtmgmthttpprocessor** is not set to the recommended value of True, and if the Event Management plugin \(com.glideapp.itom.snac\) is active, then basic authentication is not required for all Inbound Amazon Web Services SNS requests. This can lead to unauthenticated access to instance data.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
+</table>**Parent Topic:**[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
 

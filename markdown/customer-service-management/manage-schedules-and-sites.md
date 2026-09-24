@@ -3,9 +3,9 @@ title: Manage schedules and sites
 description: Manage agent scheduling and availability, use the mobile app to perform common tasks on the go, and manage and support your customer base with install base plans and contracts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/manage-schedules-and-sites.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Customer Service Management]
 ---
@@ -24,7 +24,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Managing agent calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/agent-calendar.md)
+[Managing agent calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/agent-calendar.md)
 
 </td><td>
 
@@ -32,7 +32,7 @@ Customer service agents and field service technicians can use the agent calendar
 
 </td></tr><tr><td>
 
-[Using Microsoft Outlook with CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-microsoft-outlook-with-csm.md)
+[Using Microsoft Outlook with CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/use-microsoft-outlook-with-csm.md)
 
 </td><td>
 
@@ -40,7 +40,7 @@ Integrating Microsoft Outlook with CSM helps to improve collaboration among team
 
 </td></tr><tr><td>
 
-[Mobile experience for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-mobile-interface.md)
+[Mobile experience for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-service-mobile-interface.md)
 
 </td><td>
 
@@ -48,7 +48,7 @@ Manage customer service cases from a mobile device with the Customer Service Man
 
 </td></tr><tr><td>
 
-[Install base work plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/install-base-work-plans.md)
+[Install base work plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/install-base-work-plans.md)
 
 </td><td>
 

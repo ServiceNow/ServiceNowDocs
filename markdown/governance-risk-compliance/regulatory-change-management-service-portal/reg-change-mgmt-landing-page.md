@@ -3,11 +3,11 @@ title: Regulatory Change Management
 description: The ServiceNow Regulatory Change Management application enables you to check upcoming regulatory changes, assess their impact, and implement risk and compliance-related changes. The application verifies the overall regulatory compliance for your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/reg-change-mgmt-landing-page.html
-release: australia
+release: brazil
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Governance, Risk, and Compliance]
 ---
@@ -20,27 +20,27 @@ The ServiceNow® Regulatory Change Management application enables you to check u
 
 <table id="table_udy_skn_ntb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text: Explore the key features and benefits of Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/what-is-rcm.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text: Explore the key features and benefits of Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/what-is-rcm.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text: Configure the Regulatory Change Management tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/manage-admin-portal.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text: Configure the Regulatory Change Management tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/manage-admin-portal.md)
 
 </td><td>
 
-[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Extend Regulatory Change Management capabilities by integrating with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/integrating-with-rcm.md)
+[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Extend Regulatory Change Management capabilities by integrating with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/integrating-with-rcm.md)
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Use the Regulatory Change Management application in the classic user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/using-rcm-classic-ui.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Use the Regulatory Change Management application in the classic user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/using-rcm-classic-ui.md)
 
 </td><td>
 
-[Manage \[Omitted image "bus-manage.svg"\] Alt text: Manage the regulatory change tasks in Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/manage-tasks-compliance-workspace.md)
+[Manage \[Omitted image "bus-manage.svg"\] Alt text: Manage the regulatory change tasks in Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/manage-tasks-compliance-workspace.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-profile.svg"\] Alt text: Components, like tables and roles, installed with Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/rcm-reference.md)
+[Reference \[Omitted image "bus-profile.svg"\] Alt text: Components, like tables and roles, installed with Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/rcm-reference.md)
 
 </td></tr></tbody>
 </table>## Request apps on the Store

@@ -3,9 +3,9 @@ title: Customizing semantic metadata
 description: Semantic metadata — descriptions, labels, and usage instructions — control how Query Generation interprets natural language questions. Customize these metadata to improve accuracy for your organization's terminology and data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/customize-semantic-metadata.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [semantic metadata, semantic descriptions, semantic labels, usage instructions, entities, dimensions, query generation, update sets]
 breadcrumb: [Tuning the semantic layer, Configure, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
@@ -15,7 +15,7 @@ breadcrumb: [Tuning the semantic layer, Configure, Query Generation, ServiceNow 
 
 Semantic metadata — descriptions, labels, and usage instructions — control how Query Generation interprets natural language questions. Customize these metadata to improve accuracy for your organization's terminology and data.
 
-Both [entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) \(tables\) and [dimensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) \(fields\) in the [semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) have three metadata fields that Query Generation uses when processing a question:
+Both [entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) \(tables\) and [dimensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) \(fields\) in the [semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) have three metadata fields that Query Generation uses when processing a question:
 
 -   **Semantic Label**
 
@@ -27,7 +27,7 @@ Both [entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/aust
 
 -   **Semantic Usage Instructions**
 
-    Instructions injected directly into the [LLM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) prompt when the entity or dimension is selected. Teaches the system how to query the data — for example, which operators to use, how to handle abbreviations, or how to expand hierarchical values.
+    Instructions injected directly into the [LLM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) prompt when the entity or dimension is selected. Teaches the system how to query the data — for example, which operators to use, how to handle abbreviations, or how to expand hierarchical values.
 
 
 ## When to customize
@@ -118,15 +118,15 @@ These usage instructions are for a free-text Approximate Location field with hie
     -   User: "Show me things in North Carolina" → Query: location CONTAINS "North Carolina" OR location CONTAINS "NC"
     -   User: "Show me everything in Europe" → Decomposition: Europe &gt; \[UK, Spain, France, Germany...\] → Query: location CONTAINS "UK" OR location CONTAINS "United Kingdom" OR location CONTAINS "Spain" OR location CONTAINS "France"...
 
--   **[Customize entity descriptions for the semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/customize-entity-descriptions.md)**  
+-   **[Customize entity descriptions for the semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/customize-entity-descriptions.md)**  
 Create custom entity descriptions in the Semantic Table Configuration table so that customizations can be transferred between instances via update sets.
--   **[Customize column descriptions and usage instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/customize-column-descriptions.md)**  
+-   **[Customize column descriptions and usage instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/customize-column-descriptions.md)**  
 Create custom column descriptions and usage instructions in the Semantic Column Configuration table so that customizations can be transferred between instances via update sets.
 
-**Parent Topic:**[Tuning the semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/semantic-layer-tuning-overview.md)
+**Parent Topic:**[Tuning the semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/semantic-layer-tuning-overview.md)
 
 **Related topics**  
 
 
-[Roles, tables, and scheduled jobs included with Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/tables-sched-jobs-query-gen.md)
+[Roles, tables, and scheduled jobs included with Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/tables-sched-jobs-query-gen.md)
 

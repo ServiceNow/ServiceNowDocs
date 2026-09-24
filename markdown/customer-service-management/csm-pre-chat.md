@@ -1,18 +1,18 @@
 ---
 title: Pre-chat from the Consumer Service Portal
-description: Start a support chat on the Consumer Service Portal by completing the Pre-chat survey. Survey questions vary depending on whether you are logged in or anonymous.
+description: As a user on the consumer service portal, you can initiate a conversation with support by answering the Pre-chat survey. The survey questions vary based on the session type such as logged-in or anonymous.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-pre-chat.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the Consumer Service Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Consumer Service Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Pre-chat from the Consumer Service Portal
 
-Start a support chat on the Consumer Service Portal by completing the Pre-chat survey. Survey questions vary depending on whether you are logged in or anonymous.
+As a user on the consumer service portal, you can initiate a conversation with support by answering the Pre-chat survey. The survey questions vary based on the session type such as logged-in or anonymous.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: sn\_customerservice.consumer
 
 ## Procedure
 
-1.  Click the **Open chat window** icon on the portal page or use Facebook messenger if you are a Facebook user.
+1.  Select the chat icon \( \[Omitted image "chat-icon.png"\] Alt text: Chat icon.\) on the portal page or use Facebook messenger if you are a Facebook user.
 
 2.  Answer the questions that help set the context for an agent to resolve your issue.
 
@@ -30,5 +30,5 @@ Role required: sn\_customerservice.consumer
 **Related topics**  
 
 
-[Pre-chat surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-pre-chat-overview.md)
+[Pre-chat surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-pre-chat-overview.md)
 

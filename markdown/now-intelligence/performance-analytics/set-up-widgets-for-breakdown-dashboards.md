@@ -3,13 +3,13 @@ title: Configure widgets for breakdown dashboards
 description: Configure each widget that goes on a breakdown dashboard. The configuration determines whether and how the widget follows the elements selected on the dashboard. For some widgets and indicators, you can select whether to show multiple element values separately or as an aggregate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/set-up-widgets-for-breakdown-dashboards.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Using breakdowns on dashboards, Indicator breakdowns, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Using breakdowns on responsive dashboards, Create and use dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Configure widgets for breakdown dashboards
@@ -50,17 +50,17 @@ Role required: pa\_power\_user, admin
 
     -   **Aggregate**, which shows a single, aggregate score of all selected elements.
     -   **Separate**, which shows each selected element separately.
-    Not all widget and indicator types support both views. Some types do not support selecting multiple elements at all. If it is not possible to select multiple elements for a widget/indicator combination, the field says **Not available**. For more information, see [Showing multiple elements separately or aggregated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/multi-element-select-indicator-views.md).
+    Not all widget and indicator types support both views. Some types do not support selecting multiple elements at all. If it is not possible to select multiple elements for a widget/indicator combination, the field says **Not available**. For more information, see [Showing multiple elements separately or aggregated in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/multi-element-select-indicator-views.md).
 
 
-**Parent Topic:**[Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_SpecialDashboards.md)
+**Parent Topic:**[Using breakdowns on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_SpecialDashboards.md)
 
 **Related topics**  
 
 
-[Add breakdown sources to a dashboard]()
+[Add breakdown sources to a responsive dashboard]()
 
-[Showing multiple elements separately or aggregated]()
+[Showing multiple elements separately or aggregated in Core UI]()
 
 [Same breakdown on widget and dashboard]()
 

@@ -3,9 +3,9 @@ title: Hide a global form or list action from a table or view
 description: Configure a global form or list action to exclude a specified table or view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/hide-global-action-from-a-table-or-view.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage action visibility, Declarative actions, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---

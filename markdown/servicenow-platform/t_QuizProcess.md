@@ -3,9 +3,9 @@ title: Set up and administer quizzes
 description: Set up and administer quizzes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_QuizProcess.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Quizzes, Quizzes, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -47,12 +47,12 @@ Publish and distribute the quiz. You can send the quiz to a single user or all u
 
 Review the results from the submitted quizzes in reports and scorecards.
 
-**Parent Topic:**[Using Quizzes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/using-quizzes.md)
+**Parent Topic:**[Using Quizzes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/using-quizzes.md)
 
 **Related topics**  
 
 
-[Create a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateaQuiz.md)
+[Create a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateaQuiz.md)
 
-[Metric templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MetricTemplates.md)
+[Metric templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_MetricTemplates.md)
 

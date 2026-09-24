@@ -3,11 +3,11 @@ title: Create an inventory template
 description: Create an inventory template in the Telecommunications Network Inventory application to represent a configuration of the created inventory model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create-inventory-templates.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create inventory template for network asset instantiation, Use, Telecommunications Network Inventory]
 ---
@@ -24,8 +24,8 @@ Role required: sn\_ni\_core.inventory\_admin, and sn\_ni\_core.inventory\_templa
 
 A network inventory template contains a set of detailed business guidance rules from a telecommunications provider. These rules state how the equipment configurations should be generated, based on certain operating requirements. When you create an inventory template, it creates a template in the Inventory Templates \[sn\_ni\_core\_inventory\_template\] table. To learn more about inventory templates, see the following topics:
 
--   [Network inventory templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-templates-tni.md)
--   [Create inventory template relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/creating-inventory-templates-telco-equipment.md)
+-   [Network inventory templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/using-templates-tni.md)
+-   [Create inventory template relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/creating-inventory-templates-telco-equipment.md)
 
 ## Procedure
 
@@ -61,7 +61,7 @@ Inventory model
 
 </td><td>
 
-List of all product models related to the Telecommunications Network Inventory. Select the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\) and select a model. To learn more, see [Create inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/creating-your-inventory-models.md).
+List of all product models related to theTelecommunications Network Inventory . Select the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\) and select a model. The template's Name field must be completed before the model picker returns results.To learn more, see [Create inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/creating-your-inventory-models.md).**Note:** The list also includes facility models.
 
 </td></tr><tr><td>
 
@@ -69,7 +69,7 @@ Default field values
 
 </td><td>
 
-Default template where the default CI attribute values can be defined. The values in the list depend on the selected inventory model. Select the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\) and select a type code. To learn more, see [Create a default template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-default-templates.md).
+Default template where the default CI attribute values can be defined. The values in the list depend on the selected inventory model. Select the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\) and select a type code. To learn more, see [Create a default template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/create-default-templates.md).
 
 </td></tr><tr><td>
 
@@ -104,14 +104,14 @@ Bandwidth of the child product model.**Note:** This attribute is only visible wh
 
     **Note:**
 
-    1.  If you’ve defined the network model relationship between the rack and slot, equipment and slot, equipment and interface, interface card and slot, or interface card and interface,the slots and interfaces are automatically created under the **Related Templates** for the equipment or interface cards. Otherwise, manually add using **New**.
-    2.  Add shelves/equipment to racks or shelves in the **Related Templates**tab of each created rack unit or slots. You can also add equipment to each shelf. To learn more, see [Related templates form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/related-templates-form.md).
-    3.  You can update the naming pattern of each template directly from the Name Pattern column under the related templates. The name pattern of the created slots or interfaces is fetched from the default pattern of the models. To learn more, see [Inventory Model form - Information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-model-form-information.md).
+    1.  If you’ve defined the network model relationship, slots and interfaces are automatically created under **Related Templates** for equipment or interface cards. Supported relationships include rack and slot, equipment and slot, equipment and interface, interface card and slot, and interface card and interface. Otherwise, manually add using **New**.
+    2.  Add shelves/equipment to racks or shelves in the **Related Templates**tab of each created rack unit or slots. You can also add equipment to each shelf. To learn more, see [Related templates form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/related-templates-form.md).
+    3.  You can update the naming pattern of each template directly from the Name Pattern column under the related templates. The name pattern of the created slots or interfaces is fetched from the default pattern of the models. To learn more, see [Inventory Model form - Information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-model-form-information.md).
     4.  To add an interface card in a slot, navigate to **slot** &gt; **Related Templates** &gt; **New** and fill in the required details.
 
 ## What to do next
 
 To delete a template, select the options icon \(\[Omitted image "options-icon.png"\] Alt text: Options icon.\), and then select **Delete**.
 
-**Parent Topic:**[Create inventory template for network asset instantiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/preparing-inv-templates-network-asset-generation.md)
+**Parent Topic:**[Create inventory template for network asset instantiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/preparing-inv-templates-network-asset-generation.md)
 

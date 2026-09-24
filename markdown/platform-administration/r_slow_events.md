@@ -3,9 +3,9 @@ title: Slow events log record detail
 description: As an administrator, you can use Slow Events logs to gain insight into how events are affecting platform performance. To aid in debugging, you can filter slow event log detail by application scope, limiting events to only those events originating in specific scopes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_slow\_events.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Stats Tools, System Diagnostics, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---

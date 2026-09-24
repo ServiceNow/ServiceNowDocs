@@ -3,11 +3,11 @@ title: Discovery for cloud environment
 description: ITOM Visibility cloud discovery solutions enable you to collect detailed information about your cloud-based infrastructure and your resources in major cloud service providers: Amazon Web Services \(AWS\), Microsoft Azure, Google Cloud Platform \(GCP\), IBM Cloud Platform, Oracle Cloud Infrastructure \(OCI\), and Alibaba Cloud.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cloud-discovery-wizard.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-06-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -62,7 +62,7 @@ ITOM Visibility supports several methods for cloud discovery, depending on the l
     -   Needs firewall access from a MID Server
     -   Works with AWS, Azure, GCP, OCI, Alibaba Cloud, and IBM clouds
     -   Supports continuous visibility for AWS, Azure, and GCP
-    For more information, see [Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md).
+    For more information, see [Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md).
 
 -   **Agent Client Collector for Visibility Content**
 
@@ -74,7 +74,7 @@ ITOM Visibility supports several methods for cloud discovery, depending on the l
     -   Uses system accounts, local service accounts, or Microsoft gMSA
     -   Supports OS layer discovery only
     -   Works with AWS, Azure, and GCP
-    For more information, see [Agent Client Collector Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-discovery.md).
+    For more information, see [Agent Client Collector Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-discovery.md).
 
 -   **Service Graph Connectors**
 
@@ -84,16 +84,16 @@ ITOM Visibility supports several methods for cloud discovery, depending on the l
     -   Doesn't require OS credentials or MID Server firewall access
     -   Works with AWS, Azure, and GCP
     -   Supports continuous visibility for AWS
-    For more information, see [Integrating third-party data into CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-third-party-integrations.md).
+    For more information, see [Integrating third-party data into CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-third-party-integrations.md).
 
 
 Each method has its own requirements and supports different use cases, depending on the cloud provider. For more information, see:
 
--   AWS: [AWS cloud discovery methods and use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/aws-discovery-methods-use-case.md)
--   Azure: [Azure cloud discovery methods and use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/azure-discovery-methods-use-case.md)
--   GCP: [GCP cloud discovery methods and use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/gcp-discovery-methods-use-case.md)
+-   AWS: [AWS cloud discovery methods and use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/aws-discovery-methods-use-case.md)
+-   Azure: [Azure cloud discovery methods and use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/azure-discovery-methods-use-case.md)
+-   GCP: [GCP cloud discovery methods and use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/gcp-discovery-methods-use-case.md)
 
-For a list of AWS, Azure, and GCP resources discovered by Discovery and Service Mapping Patterns and Service Graph Connectors, see [Cloud discovery solutions comparison](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cloud-discovery-methods-comparison.md).
+For a list of AWS, Azure, and GCP resources discovered by Discovery and Service Mapping Patterns and Service Graph Connectors, see [Cloud discovery solutions comparison](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/cloud-discovery-methods-comparison.md).
 
 ## Continuous visibility
 
@@ -107,9 +107,9 @@ In push-based discovery, the cloud environment itself is configured to send chan
 
 For more information, see:
 
--   Azure: [Microsoft Azure Alert driven discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/microsoft-azure-alert-driven-discovery.md)
--   GCP: [Configure the Google Cloud Logging service to auto-update the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/gcp-stackdriver-service.md)
--   AWS: [AWS events-driven discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/aws-events-driven-discovery.md)
+-   Azure: [Microsoft Azure Alert driven discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/microsoft-azure-alert-driven-discovery.md)
+-   GCP: [Configure the Google Cloud Logging service to auto-update the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/gcp-stackdriver-service.md)
+-   AWS: [AWS events-driven discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/aws-events-driven-discovery.md)
 
 ## Choosing methods for desired business outcomes
 
@@ -138,7 +138,7 @@ OS layer discovery methods support the following business outcomes:
 
 ## Managing your cloud resources
 
-Discovery Admin Workspace provides a centralized location for managing and monitoring discovery operations, including performance monitoring, issue diagnosis, and maintaining configuration accuracy. From tracking schedules and diagnosing errors to tuning configurations and accessing insights, Discovery Admin Workspace integrates key tools to improve efficiency and visibility. You can identify critical tasks, manage discovery processes, and resolve issues with enhanced diagnostics and reporting. For more information, see [Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace.md).
+Discovery Admin Workspace provides a centralized location for managing and monitoring discovery operations, including performance monitoring, issue diagnosis, and maintaining configuration accuracy. From tracking schedules and diagnosing errors to tuning configurations and accessing insights, Discovery Admin Workspace integrates key tools to improve efficiency and visibility. You can identify critical tasks, manage discovery processes, and resolve issues with enhanced diagnostics and reporting. For more information, see [Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-admin-workspace.md).
 
-If you have Cloud Account Management \(CAM\) within Cloud Workspace, you can use CAM to access your cloud account and resource inventory through the Cloud Asset Explorer, Cloud Compliance, and Cloud Accounts dashboards. Cloud Workspace provides comprehensive visibility into cloud accounts and assets across providers, enabling you to track ownership, monitor account trends, and promote regulatory compliance. For more information, see [Cloud Account Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/cam-landing.md).
+If you have Cloud Account Management \(CAM\) within Cloud Workspace, you can use CAM to access your cloud account and resource inventory through the Cloud Asset Explorer, Cloud Compliance, and Cloud Accounts dashboards. Cloud Workspace provides comprehensive visibility into cloud accounts and assets across providers, enabling you to track ownership, monitor account trends, and promote regulatory compliance. For more information, see [Cloud Account Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/cam-landing.md).
 

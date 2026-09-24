@@ -3,12 +3,12 @@ title: Enable evaluation for an AI system
 description: Start generating quality and safety scores for one or more AI systems by enabling evaluation from the inventory.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/disc-enable-evaluation.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, use]
-breadcrumb: [Evaluating AI systems, Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, use]
+breadcrumb: [Evaluating AI systems, Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Enable evaluation for an AI system
@@ -19,8 +19,8 @@ Start generating quality and safety scores for one or more AI systems by enablin
 
 Before enabling evaluation for an AI system at the asset level, activate evaluation scoring for AI systems.
 
--   For ServiceNow AI systems, see [Activate evaluation scoring for ServiceNow AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-monitor-servicenow-ai-system.md).
--   For external AI systems, see [Activate evaluation scoring for external AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-monitor-external-ai-system.md).
+-   For ServiceNow AI systems, see [Activate evaluation scoring for ServiceNow AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-monitor-servicenow-ai-system.md).
+-   For external AI systems, see [Activate evaluation scoring for external AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-monitor-external-ai-system.md).
 
 Role required: sn\_ai\_asset\_mgmt.ai\_asset\_owner or sn\_ai\_governance.ai\_steward
 
@@ -30,15 +30,15 @@ Role required: sn\_ai\_asset\_mgmt.ai\_asset\_owner or sn\_ai\_governance.ai\_st
 
 2.  On the Overview tab, enable evaluation for one or more AI systems.
 
-<table><thead><tr><th align="left" id="d136411e135">
+<table><thead><tr><th align="left" id="d125154e135">
 
 Option
 
-</th><th align="left" id="d136411e138">
+</th><th align="left" id="d125154e138">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d136411e144">
+</th></tr></thead><tbody><tr><td id="d125154e144">
 
 **Enable evaluation for a single AI system**
 
@@ -50,7 +50,7 @@ Steps
 4.  Select **Turn on evaluation** to confirm.
 
 
-</td></tr><tr><td id="d136411e177">
+</td></tr><tr><td id="d125154e177">
 
 **Enable evaluation for multiple AI systems**
 
@@ -70,5 +70,5 @@ Evaluation is enabled for each AI system that you selected.
 
 -   New evaluation scores appear on the **Monitor** tab of each asset record within minutes.
 -   Historical scores for ServiceNow and external systems are saved.
--   You can turn off evaluation for these assets at any time. See [Disable evaluation for an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/disc-disable-evaluation.md).
+-   You can turn off evaluation for these assets at any time. See [Disable evaluation for an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/disc-disable-evaluation.md).
 

@@ -3,9 +3,9 @@ title: Grants Management App Dependencies
 description: The following is a list of required plugins and app dependencies for Grants Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-ref-gm-app-dependencies.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Grants Management reference, Reference, Public Sector Digital Services \(PSDS\)]
 ---

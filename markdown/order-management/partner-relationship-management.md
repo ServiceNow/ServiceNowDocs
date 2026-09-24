@@ -3,9 +3,9 @@ title: Partner Relationship Management
 description: Learn how the Partner Relationship Management application enables enterprises to hire and engage channel partners to sell their products and services to grow and improve their business.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/partner-relationship-management.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 breadcrumb: [Explore, Sales Customer Relationship Management]
 ---
@@ -18,13 +18,13 @@ Learn how the Partner Relationship Management application enables enterprises to
 
 Channel partners streamline and help manage the sales process of a product or a service for an enterprise. The PRM solution offers tools to manage the end-to-end partner life cycle.
 
-PRM enables an efficient and continuous partner engagement and collaboration system with the enterprise to provide essential support. The PRM system enables partner onboarding, life cycle management, and improves the overall collaboration between channel partners and enterprises. To learn how to configure Partner Relationship Management, see [Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-relationship-management.md).
+PRM enables an efficient and continuous partner engagement and collaboration system with the enterprise to provide essential support. The PRM system enables partner onboarding, life cycle management, and improves the overall collaboration between channel partners and enterprises. To learn how to configure Partner Relationship Management, see [Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-partner-relationship-management.md).
 
 The collaboration improves case management solutions and enables partners to log in to the Partner Portal to raise concerns or queries and communicate directly with the enterprise. This provides better resolutions leading to improved enterprise and partner collaboration.
 
 In the partner ecosystem, channel partners such as resellers and system integrators are critical to expanding an enterprise's reach and drive customer success. Channel partners often must raise operations, sales, and service related issues directly with the enterprise. However, without a structured servicing and collaboration system, partners experience delays, inefficiencies, and friction that impact both partner satisfaction and business outcomes. The PRM solution can build a bridge between the channel partners and enterprises.
 
-Use the Deal Registration Management plugin to ensure partners are recognized and rewarded for the opportunities they source and develop. Enterprises can also properly manage an upcoming deal from partners and help prevent multiple partners or internal teams from overlapping on the same customer or opportunity. To learn more about the Deal Registration Management application, see [Deal Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/deal-registration-management.md).
+Use the Deal Registration Management plugin to ensure partners are recognized and rewarded for the opportunities they source and develop. Enterprises can also properly manage an upcoming deal from partners and help prevent multiple partners or internal teams from overlapping on the same customer or opportunity. To learn more about the Deal Registration Management application, see [Deal Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/deal-registration-management.md).
 
 ## Use case
 
@@ -57,22 +57,22 @@ The Partner Relationship Management solution offers the following benefits.
 
 The Partner portal enables channel partners to create cases, register external members as staff, and view knowledge articles.
 
-To learn more about the Partner portal, see [Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-partner-relationship-management.md). \[Omitted image "partner-portal-ui.png"\] Alt text: Home page of the Partner portal displaying a list of deal registrations, orders, and cases.
+To learn more about the Partner portal, see [Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-partner-relationship-management.md). \[Omitted image "partner-portal-ui.png"\] Alt text: Home page of the Partner portal displaying a list of deal registrations, orders, and cases.
 
 **Related topics**  
 
 
-[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-relationship-management.md)
+[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-partner-relationship-management.md)
 
-[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-partner-relationship-management.md)
+[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-partner-relationship-management.md)
 
-[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management-reference.md)
+[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/partner-relationship-management-reference.md)
 
-[Configure Segment Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-segment-management.md)
+[Configure Segment Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-segment-management.md)
 
-[Deal Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/deal-registration-management.md)
+[Deal Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/deal-registration-management.md)
 
-[Install Sales Common for Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/install-sales-common-for-partner-relationship-management.md)
+[Install Sales Common for Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/install-sales-common-for-partner-relationship-management.md)
 
-[Install Order Management for Channel Partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/install-order-management-for-channel-partners.md)
+[Install Order Management for Channel Partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/install-order-management-for-channel-partners.md)
 

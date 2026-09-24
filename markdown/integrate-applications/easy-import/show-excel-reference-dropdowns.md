@@ -3,11 +3,11 @@ title: Show reference fields as lists in Excel templates
 description: Display selected reference fields as lists in Excel templates to simplify data selection and updates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/easy-import/show-excel-reference-dropdowns.html
-release: australia
+release: brazil
 product: Easy Import
 classification: easy-import
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Easy import, Imports, Workflow Data Fabric]
 ---
@@ -45,5 +45,5 @@ Role required: admin
     \[Omitted image "excel-list.png"\] Alt text: Excel choice list
 
 
-**Parent Topic:**[Easy import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/easy-import/c_EasyImport.md)
+**Parent Topic:**[Easy import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/easy-import/c_EasyImport.md)
 

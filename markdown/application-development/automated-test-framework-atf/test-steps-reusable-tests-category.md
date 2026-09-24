@@ -3,11 +3,11 @@ title: Reusable Tests category
 description: Create reusable test components that can be incorporated into various other tests \(regular or reusable test\), minimizing redundant test code and enhancing test maintainability.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/test-steps-reusable-tests-category.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Automated Test Framework \(ATF\) test step categories, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -85,5 +85,5 @@ Notes
 Description of the test step.
 
 </td></tr></tbody>
-</table>See [Reusable tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-reuse-tests.md) for more details.
+</table>See [Reusable tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-reuse-tests.md) for more details.
 

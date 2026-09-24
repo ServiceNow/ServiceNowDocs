@@ -3,11 +3,11 @@ title: Map multiple application services suggested by classic Service Mapping
 description: You can map multiple application services identified and suggested by Service Mapping in a single operation. This method suits your organization if you do not have much information about application services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/map-business-services-in-bulk.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -127,10 +127,10 @@ If you want to create application services only from several candidates
 
 ## What to do next
 
--   If the connection suggestions feature is enabled, Service Mapping does not automatically add any traffic-based connections to application services, providing suggestions instead. [Manage CI connections in bulk using suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/manipulate-connections-suggestions-in-bulk.md).
--   Fix application services discovered with errors. For more information, see [Fix application service errors in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/fix-bus-serv-errors-by-category.md).
--   Review the list of created application services. If Service Mapping did not create some application services during bulk mapping as you expected, create them manually as described in [Map a single application service using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_DefineNewBusinessService.md).
--   Send application services discovered without errors to their respective owners for approval. For more information, see [Send application service maps for review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/send-business-service-for-review.md).
+-   If the connection suggestions feature is enabled, Service Mapping does not automatically add any traffic-based connections to application services, providing suggestions instead. [Manage CI connections in bulk using suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/manipulate-connections-suggestions-in-bulk.md).
+-   Fix application services discovered with errors. For more information, see [Fix application service errors in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/fix-bus-serv-errors-by-category.md).
+-   Review the list of created application services. If Service Mapping did not create some application services during bulk mapping as you expected, create them manually as described in [Map a single application service using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/t_DefineNewBusinessService.md).
+-   Send application services discovered without errors to their respective owners for approval. For more information, see [Send application service maps for review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/send-business-service-for-review.md).
 -   Make sure that the service instances aren't too large:
 
     -   Service Mapping doesn't offer to view CI list instead of a map for a service instance.
@@ -138,14 +138,14 @@ If you want to create application services only from several candidates
     If some application services are too large, resolve the service size issue:
 
     -   If you use customized discovery patterns and mapping results in very large service instances, modify the patterns so that they don't map irrelevant CIs.
-    -   [Split the service into smaller services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/add-segment-to-business-service-map.md).
+    -   [Split the service into smaller services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/add-segment-to-business-service-map.md).
 
--   **[Manage CI connections in bulk using suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/manipulate-connections-suggestions-in-bulk.md)**  
+-   **[Manage CI connections in bulk using suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/manipulate-connections-suggestions-in-bulk.md)**  
 If the discovery based on Predictive Intelligence is enabled, the newly mapped application services include only CIs and CI connections added by discovery patterns. Use connection suggestions to decide which configuration items \(CIs\) to include or exclude globally. Service Mapping then updates all relevant discovered application services to reflect your decisions.
--   **[Add CIs to application services using connection rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/add-cis-connection-rules-multiple.md)**  
+-   **[Add CIs to application services using connection rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/add-cis-connection-rules-multiple.md)**  
 Create rules for automatically adding traffic-based connections and the CIs they lead to in discovered service instances. Create rules that add CIs to multiple application services.
 
-**Parent Topic:**[Application service mapping using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_DefineMapBusinessServices.md)
+**Parent Topic:**[Application service mapping using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/c_DefineMapBusinessServices.md)
 
 **Related topics**  
 

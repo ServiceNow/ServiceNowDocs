@@ -3,11 +3,11 @@ title: Activate calculation operand AI agent CMD
 description: The calculation operand AI agent CMD identifies and retrieves relevant metric definitions and emission factors from existing sources. It then replaces generic references in the input formula with precise metric definition and emission factor names.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/activate-calculation-operand-ai-agent-cmd.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Activate carbon calculations agentic workflow, Configure, ServiceNow Otto, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Activate carbon calculations agentic workflow, Configure, Now Assist, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Activate calculation operand AI agent CMD
@@ -47,5 +47,5 @@ Role required: sn\_nowassist\_admin.nsa\_admin
     9.  Select **Continue to Test Chat Response** to initiate the testing of the agentic workflow.
 
 
-**Parent Topic:**[Activate carbon calculations agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/activate-carbon-calculations-agentic-workflow.md)
+**Parent Topic:**[Activate carbon calculations agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/activate-carbon-calculations-agentic-workflow.md)
 

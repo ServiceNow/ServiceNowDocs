@@ -3,9 +3,9 @@ title: Install and configure the Service Graph Connector for SentinelOne and the
 description: The Service Graph Connector for SentinelOne and the SentinelOne Integration for Mitigation Control Integration require separate configuration steps. You install and configure the Service Graph Connector for SentinelOne to import asset details. You configure the SentinelOne Integration for Mitigation Control Integration to gather mitigation data about the assets that are monitored by the Service Graph Connector for SentinelOne.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/spc-install-config-sentinelone-mc.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Policies for Exploit Protection \(EDR\), Use mitigation controls, Security Posture Control, Security Operations]
 ---

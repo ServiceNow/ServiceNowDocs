@@ -3,11 +3,11 @@ title: Soft PIN authentication
 description: Soft PIN is a six-digit numeric PIN that verifies a caller's identity during an AI voice agent session.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/softpin-authentication.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Soft PIN Authentication, ServiceNow, low-risk scenarios, self-service features, security risks]
 breadcrumb: [Configure authentication factors for AI voice agents, Authentication factors, Authentication, Access Management]
@@ -23,7 +23,7 @@ Soft PIN is appropriate for low-risk caller verification, such as confirming a r
 
 Soft PIN can be configured as a single factor, the first factor in a multi-factor authentication flow, or a second factor.
 
-Soft PIN is a medium-assurance factor and is not suitable as the only authentication factor for sensitive operations. For those flows, combine Soft PIN with a higher-assurance factor such as Okta Verify push notification or a time-based one-time password \(TOTP\). For guidance on combining factors, see [Explore authentication factors for AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/explore-authentication-factors.md).
+Soft PIN is a medium-assurance factor and is not suitable as the only authentication factor for sensitive operations. For those flows, combine Soft PIN with a higher-assurance factor such as Okta Verify push notification or a time-based one-time password \(TOTP\). For guidance on combining factors, see [Explore authentication factors for AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/explore-authentication-factors.md).
 
 ## How Soft PIN works
 
@@ -66,7 +66,7 @@ When the plugin is not installed, no Soft PIN module exists on the instance and 
 **Related topics**  
 
 
-[Configure Soft PIN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configure-soft-pin.md)
+[Configure Soft PIN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/configure-soft-pin.md)
 
-[Authentication factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/authentication-factors.md)
+[Authentication factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/authentication-factors.md)
 

@@ -3,11 +3,11 @@ title: Manage scheduled tasks in Dispatcher Workspace
 description: As a dispatcher, you can move scheduled tasks to the Assigned state or move them back to the Pending dispatch state in Dispatcher Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/scheduled-tasks-workspace.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working on scheduled tasks, Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
@@ -28,15 +28,15 @@ Role required: wm\_dispatcher or wm\_crew\_moderator
 
 3.  Assign or update a scheduled task.
 
-<table id="choicetable_qhx_zpy_3sb"><thead><tr><th align="left" id="d45713e98">
+<table id="choicetable_qhx_zpy_3sb"><thead><tr><th align="left" id="d47309e98">
 
 Option
 
-</th><th align="left" id="d45713e101">
+</th><th align="left" id="d47309e101">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d45713e107">
+</th></tr></thead><tbody><tr><td id="d47309e107">
 
 **Assign a scheduled task**
 
@@ -48,7 +48,7 @@ Steps
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d45713e137">
+</td></tr><tr><td id="d47309e137">
 
 **Unassign a scheduled task**
 
@@ -59,7 +59,7 @@ Steps
 3.  Move a scheduled task to the Pending dispatch state by selecting **Unassign task**.
 
 
-</td></tr><tr><td id="d45713e161">
+</td></tr><tr><td id="d47309e161">
 
 **Reschedule a scheduled task**
 
@@ -70,7 +70,7 @@ Steps
 
 **Note:** This option appears only if the scheduled task starts beyond the 12-hour threshold.
 
-</td></tr><tr><td id="d45713e184">
+</td></tr><tr><td id="d47309e184">
 
 **Edit the duration of a scheduled task**
 
@@ -81,7 +81,7 @@ Steps
 
 **Note:** The travel duration won’t be affected.
 
-</td></tr><tr><td id="d45713e205">
+</td></tr><tr><td id="d47309e205">
 
 **Remove time gaps between tasks**
 

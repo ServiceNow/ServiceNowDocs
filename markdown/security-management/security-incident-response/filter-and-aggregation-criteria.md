@@ -3,11 +3,11 @@ title: Defining filter and aggregation criteria
 description: You can define and set filter conditions so that you can specify which incoming Microsoft Azure Sentinel incidents should create security incidents. You can also define additional incident field criteria that allows an incoming incident to be appended to an open security incident instead of creating an incident.Set the filtering conditions so that security incidents are created only when the filtering conditions match.Define additional incident aggregation criteria that aggregates an incoming incident to an existing SIR security incident instead of creating similar, potentially duplicate incidents. When you use field matching value criteria for each profile, this additional aggregation can reduce the number of active, overlapping security incidents by placing all related incidents data on a single security incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/filter-and-aggregation-criteria.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Microsoft Azure Sentinel integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

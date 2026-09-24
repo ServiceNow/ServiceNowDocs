@@ -3,11 +3,11 @@ title: Attribute mapping and classification for the Service Graph Connector for 
 description: The following tables describe the attribute mapping and classification for sensors and devices.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/attribute-mapping-sgc-msft-d4iot-on-prem.html
-release: australia
+release: brazil
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\), Integrate, Operational Technology Manager, Operational Technology]
 ---
@@ -2828,5 +2828,5 @@ cmdb\_ci\_server
 Same as when the operating system isn't present.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/integration-sgc-microsoft-defender-iot-on-prem.md)
+</table>**Parent Topic:**[Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/integration-sgc-microsoft-defender-iot-on-prem.md)
 

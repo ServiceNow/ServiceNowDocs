@@ -3,11 +3,11 @@ title: Create data structure
 description: Organize multiple data variables into a structure to process them as a unit and identify the individual items within it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-data-structure.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Complex data, Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -19,7 +19,7 @@ Organize multiple data variables into a structure to process them as a unit and 
 ## Before you begin
 
 -   Role required: action\_designer, flow\_designer, or admin
--   [Create an action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-action.md) or [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-subflow.md)
+-   [Create an action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-action.md) or [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-subflow.md)
 
 ## About this task
 
@@ -33,7 +33,7 @@ A data structure is a collection of related data elements organized into a hiera
     |---|---|
     |**Action or subflow input**|Click **Create Input**|
     |**Action or subflow output**|Click **Create Output**|
-    |**XML parser step**|See [XML parser step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/xml-parser-step-action-designer.md)|
+    |**XML parser step**|See XML parser step|
 
 2.  Set **Type** to **Object**.
 
@@ -58,5 +58,5 @@ A data structure is a collection of related data elements organized into a hiera
 
 Use the data structure to populate action, step, or subflow inputs. If you can reuse the data structure, save it as a template.
 
-**Parent Topic:**[Complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/complex-data.md)
+**Parent Topic:**[Complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/complex-data.md)
 

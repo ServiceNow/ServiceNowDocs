@@ -3,11 +3,11 @@ title: Filter data in Usage Insights
 description: Drill down into usage data with standard and custom filters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/filter-user-list.html
-release: australia
+release: brazil
 product: Usage Insights
 classification: usage-insights
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Usage Insights, Usage Insights, Platform Analytics]
 ---
@@ -18,7 +18,7 @@ Drill down into usage data with standard and custom filters.
 
 Users with the analytics\_viewer, portal\_analytics\_viewer, mobile\_analytics\_viewer, core\_ui\_analytics\_viewer, now\_experience\_analytics\_viewer roles can filter pages that they have access to.
 
-Most pages in the Usage Insights application have visible default filters and an option to add other standard filters. To add additional user-related fields, see [Add user properties as filters to Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/uxa-add-filters-uxa-pages.md).
+Most pages in the Usage Insights application have visible default filters and an option to add other standard filters. To add additional user-related fields, see [Add user properties as filters to Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/usage-insights/uxa-add-filters-uxa-pages.md).
 
 ## Default filters
 
@@ -47,7 +47,7 @@ The available additional filters are:
 -   Department
 -   VIP
 
-In addition to the default filters on the pages of the  Usage Insights application, you can add filters based on user properties. See [Add user properties as filters to Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/uxa-add-filters-uxa-pages.md) for details.
+In addition to the default filters on the pages of the  Usage Insights application, you can add filters based on user properties. See [Add user properties as filters to Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/usage-insights/uxa-add-filters-uxa-pages.md) for details.
 
-**Parent Topic:**[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/using-uxa.md)
+**Parent Topic:**[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/usage-insights/using-uxa.md)
 

@@ -3,11 +3,11 @@ title: Phase 7 - Upgrade the production instance
 description: After you have upgraded your development, non-production, and test instances, upgrade your production instance last. Then validate that the upgrade was complete, apply update sets and fix scripts, and perform post-upgrade user acceptance testing \(UAT\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/upgrades-phase-7.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Upgrade to the Australia release, Australia release notes]
+breadcrumb: [Upgrade to the Brazil release, Brazil release notes]
 ---
 
 # Phase 7 - Upgrade the production instance

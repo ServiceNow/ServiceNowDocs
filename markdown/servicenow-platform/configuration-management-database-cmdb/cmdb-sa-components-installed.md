@@ -3,11 +3,11 @@ title: Components installed with CMDB success advisor
 description: Several types of components are installed with activation of the CMDB success advisor plugin, including tables and scheduled jobs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-components-installed.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2026-07-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [CMDB success advisor scheduled jobs, CMDB success advisor tables installed, components installed with CMDB success advisor, CMDB advisor daily data collection jobs, sn\_cmdb\_advisor tables]
 breadcrumb: [Reference, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
@@ -195,5 +195,5 @@ CMDB Advisor selected context
 Scope selections for each product dashboard, including principal classes in the Data Foundations advisor scope, model categories in the HAM advisor scope, and software products in the SAM advisor scope. Each record stores the product, associated content template, selected context item, context table, and whether the selection is manual or automatic.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[CMDB success advisor reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-reference.md)
+</table>**Parent Topic:**[CMDB success advisor reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-reference.md)
 

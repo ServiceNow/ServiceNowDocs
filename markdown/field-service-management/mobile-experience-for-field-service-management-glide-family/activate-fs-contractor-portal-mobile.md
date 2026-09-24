@@ -3,11 +3,11 @@ title: Activate the Field Service Contractor for mobile feature in the Now Mobil
 description: Activate the Field Service Contractor for mobile plugin \(com.snc.fsm\_ext\_mobile\) to manage work order tasks assigned to the contractor company. This plugin activates related plugins if they are not already active.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/activate-fs-contractor-portal-mobile.html
-release: australia
+release: brazil
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Field Service Contractor for mobile app, Setting up Field Service Mobile Agent, Configure, Field Service Management]
 ---
@@ -44,6 +44,6 @@ My work, Articles, Notifications, My Incidentals and More applets, navigation ta
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 

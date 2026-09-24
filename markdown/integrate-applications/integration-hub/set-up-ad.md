@@ -3,11 +3,11 @@ title: Set up Microsoft Active Directory spoke
 description: Integrate the ServiceNow instance and your Microsoft AD account using Windows credentials to authenticate ServiceNow requests.Create a Credential record for the Microsoft Active Directory host. The Microsoft AD spoke connection and credential alias uses this credential to authorize actions.Create a Connection record to your Microsoft Active Directory host machine. The Microsoft AD spoke connection and credential alias uses this connection to perform actions in Microsoft Active Directory.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-ad.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Microsoft Active Directory Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -49,7 +49,7 @@ Create a Credential record for the Microsoft Active Directory host. The Microsof
     |-----|--------------|
     |Name|Enter any name to uniquely identify the record. For example, enter `AD Credential`.|
     |Active|Enable|
-    |User name|Enter a user name with access to the target Windows host. For more information about Windows permissions, see [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).|
+    |User name|Enter a user name with access to the target Windows host. For more information about Windows permissions, see [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md).|
     |Password|Enter the password for the account.|
     |Applies to|Select the MID Servers that can use this credential. For example, select **All MID servers**.|
     |Order|Select the order to apply this credential. For example, enter `100`.|
@@ -64,7 +64,7 @@ Create a Connection record to your Microsoft Active Directory host machine. The 
 ### Before you begin
 
 -   Request Integration Hub subscription
--   [Create Credential record for the Microsoft AD spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-ad.md)
+-   [Create Credential record for the Microsoft AD spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/set-up-ad.md)
 -   Role required: admin
 
 ### Procedure

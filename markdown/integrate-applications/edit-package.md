@@ -3,9 +3,9 @@ title: Edit a package in RPA Hub
 description: Edit an existing package in RPA Hub to modify the details such as the name or description.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/edit-package.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Package and package version, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,7 +16,7 @@ Edit an existing package in RPA Hub to modify the details such as the name or de
 
 ## Before you begin
 
-Create a package. For more information, see [Create a package to assign to a bot process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-package.md).
+Create a package. For more information, see [Create a package to assign to a bot process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-package.md).
 
 Ensure that the package isn’t associated to a bot process. Verify that the life-cycle stage of the package is **In-maintenance** on the package form.
 
@@ -41,10 +41,10 @@ Role required: sn\_rpa\_fdn.rpa\_developer, sn\_rpa\_fdn.rpa\_release\_manager, 
 7.  In the **Activity** and **Compose** fields, view the activity of the form, work notes, and additional comments.
 
 
-**Parent Topic:**[Package and package version in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/package-version-rpa-hub.md)
+**Parent Topic:**[Package and package version in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/package-version-rpa-hub.md)
 
 **Related topics**  
 
 
-[Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/select-botprocess.md)
+[Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/select-botprocess.md)
 

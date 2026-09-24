@@ -3,9 +3,9 @@ title: Use the Compare component
 description: Compare two string objects that are based on their ASCII values by using the Compare component in RPA Desktop Design Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-stringutil-compare.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [String utilities, Utilities, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -22,7 +22,7 @@ Role required: none
 
 Compare method is used to compare given text with provided options. If option is matched, it opens the matching control out port.
 
-You can configure the properties for the Compare component. For more information about these properties, see [Properties of the String Utilities components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/util-stringutil-prop.md).
+You can configure the properties for the Compare component. For more information about these properties, see [Properties of the String Utilities components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/util-stringutil-prop.md).
 
 ## Procedure
 
@@ -78,5 +78,5 @@ String
 </table>6.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[String utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/string-utilities.md)
+**Parent Topic:**[String utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/string-utilities.md)
 

@@ -3,10 +3,10 @@ title: Template item form
 description: The Template item form displays details about a template item for a task plan template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/task-plan-template-item-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Customer Service forms, Reference, Customer Service Management]
 ---
 
@@ -79,6 +79,30 @@ Parent field identifier
 </td><td>
 
 The column on the selected table that captures the relationship to the parent template item.
+
+</td></tr><tr><td>
+
+Template item field identifier
+
+</td><td>
+
+The column on the selected table that captures the reference back to the template item that created the record. This field is available by default. The Case \[sn\_customerservice\_case\] and Case Task \[sn\_customerservice\_task\] tables include this column.This field is hidden on this form when the **Template item configuration** field on this record is populated, since the value is then taken from the referenced configuration record instead. To change the value, update the configuration and use **Save and cascade** to apply the change to existing template items.
+
+</td></tr><tr><td>
+
+Template execution field identifier
+
+</td><td>
+
+The column on the selected table that captures the reference to the template execution the record was created under. This field is available by default. The Case \[sn\_customerservice\_case\] and Case Task \[sn\_customerservice\_task\] tables include this column.This field is hidden on this form when the **Template item configuration** field on this record is populated, since the value is then taken from the referenced configuration record instead. To change the value, update the configuration and use **Save and cascade** to apply the change to existing template items.
+
+</td></tr><tr><td>
+
+Business organization field identifier
+
+</td><td>
+
+The column on the selected table that captures the reference to the associated service organization. This field is available only when the Multi Case plugin is active `com.sn_multi_case_creation`.This field is hidden on this form when the **Template item configuration** field on this record is populated, since the value is then taken from the referenced configuration record instead. To change the value, update the configuration and use **Save and cascade** to apply the change to existing template items.
 
 </td></tr><tr><td>
 

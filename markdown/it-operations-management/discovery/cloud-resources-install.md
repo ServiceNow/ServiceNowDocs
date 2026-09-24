@@ -3,11 +3,11 @@ title: Activate Analytics and Reporting for Cloud Resources
 description: Activate the Performance Analytics Content Pack for the Cloud Resources ServiceNow Store application for the Analytics and Reporting Solution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cloud-resources-install.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Analytics and Reporting for Cloud Resources, Cloud discovery reporting, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---

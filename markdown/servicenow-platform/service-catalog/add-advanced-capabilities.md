@@ -3,11 +3,11 @@ title: Add advanced capabilities to a catalog item
 description: Add advanced capabilities, such as catalog client scripts, data lookup rules, and advanced reference qualifiers to a catalog item.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/add-advanced-capabilities.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Edit a catalog item in Catalog Builder, Creating or editing catalog item template, Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -53,5 +53,5 @@ Role required: catalog\_admin or admin
     If the item has not already been checked out, this step checks out the item.
 
 
-**Parent Topic:**[Edit a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/edit-cat-item-cat-builder.md)
+**Parent Topic:**[Edit a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/edit-cat-item-cat-builder.md)
 

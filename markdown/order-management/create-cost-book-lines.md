@@ -3,9 +3,9 @@ title: Create a cost book line
 description: Create a cost book line that defines the unit cost for a product offering.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-cost-book-lines.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -129,7 +129,7 @@ Frequency of recurring pricing:-   Monthly
 **Related topics**  
 
 
-[Copy a cost book](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/copy-cost-book.md)
+[Copy a cost book](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/copy-cost-book.md)
 
-[Control the default cost book on transaction header or header line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-control-default-costbook.md)
+[Control the default cost book on transaction header or header line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-control-default-costbook.md)
 

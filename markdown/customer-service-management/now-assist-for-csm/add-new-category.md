@@ -3,11 +3,11 @@ title: Add new category
 description: Create a category by entering the required details and saving the record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/add-new-category.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-02-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Automated quality assurance, Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -23,7 +23,7 @@ Role required: admin
 
 ## About this task
 
-Use this task to create category by entering all the required fields. Only applicable for Cloned skill. Admin isn’t permitted to add category for the base system skill.
+Use this task to create category by entering all the required fields. Only applicable for Cloned skill. Admin isn't permitted to add category for the base system skill.
 
 ## Procedure
 

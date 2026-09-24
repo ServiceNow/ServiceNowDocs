@@ -3,9 +3,9 @@ title: View a survey scorecard
 description: A survey scorecard provides a visual breakdown of survey responses by category, based on the way questions were answered.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_ViewAScorecard.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Survey responses and results, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -40,18 +40,18 @@ A scorecard displays charts for survey results, in which category and question r
     -   History: Displays the result of all questions in comparison with their history \(by calendar year or quarters\).
     -   Sentiment Analysis Results: Displays the results of sentiment analysis for the survey.
 
--   **[Survey scorecard category results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyScorecardCategoryResults.md)**  
+-   **[Survey scorecard category results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_SurveyScorecardCategoryResults.md)**  
 The Category Results view is a stacked bar chart showing survey results for all questions in an individual category or all categories by respondent count.
--   **[Survey scorecard question results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyScorecardQuestionResults.md)**  
+-   **[Survey scorecard question results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_SurveyScorecardQuestionResults.md)**  
 The Question Results filter displays the result of all questions or an individual question using charts or lists. For the String, Attachment, Date, Date/time, Reference, and Ranking data types, the results are displayed in the list view. The results of all other data types are displayed in the pie chart view.
--   **[Survey scorecard average ratings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyScorecardAverageRatings.md)**  
+-   **[Survey scorecard average ratings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_SurveyScorecardAverageRatings.md)**  
 The Average Ratings view displays the weighted average rating for each survey question in an individual category or all categories.
--   **[Survey scorecard history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyScorecardHistory.md)**  
+-   **[Survey scorecard history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_SurveyScorecardHistory.md)**  
 The History view compares the current ratings for the categories and their questions with ratings from the previous three years or four quarters.
--   **[Export a survey scorecard as an image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ExportAScorecardAsAnImage.md)**  
+-   **[Export a survey scorecard as an image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_ExportAScorecardAsAnImage.md)**  
 You can export a scorecard as an image to use in presentations or other documents.
 
-**Parent Topic:**[Survey responses and results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyResults.md)
+**Parent Topic:**[Survey responses and results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SurveyResults.md)
 
 **Related topics**  
 

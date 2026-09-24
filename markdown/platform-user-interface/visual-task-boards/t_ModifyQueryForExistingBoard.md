@@ -3,13 +3,13 @@ title: Modify the query or lane field for an existing Visual Task Board
 description: For flexible and guided Visual Task Boards, you can edit the board query or lane field. This ability enables you to change the board contents while preserving the member list, board configuration settings, and, if applicable, Connect Chat conversation history.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/t\_ModifyQueryForExistingBoard.html
-release: australia
+release: brazil
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customizing and configuring Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Customizing and configuring Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Modify the query or lane field for an existing Visual Task Board
@@ -36,7 +36,7 @@ The lane field is the field on the underlying table that defines the lanes. For 
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_uxv_q2g_pv"><tbody><tr><td id="d125913e77">
+<table id="choicetable_uxv_q2g_pv"><tbody><tr><td id="d126753e77">
 
 **Edit the board query**
 
@@ -47,7 +47,7 @@ The lane field is the field on the underlying table that defines the lanes. For 
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d125913e107">
+</td></tr><tr><td id="d126753e107">
 
 **Change the lane field**
 
@@ -64,5 +64,5 @@ Guided boards have the **Vertical Lane Field** set to a field, such as **State**
 </table>    The board reloads to reflect the changes.
 
 
-**Parent Topic:**[Customizing and configuring Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/configuring-vis-task-boards.md)
+**Parent Topic:**[Customizing and configuring Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/visual-task-boards/configuring-vis-task-boards.md)
 

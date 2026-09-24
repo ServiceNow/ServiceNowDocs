@@ -1,18 +1,18 @@
 ---
 title: Run scheduled job to publish stop words dictionary, search profiles, and index tables
-description: After upgrading to the Australia release and the ServiceNow Otto for Sales Automation plugin has been installed, run a scheduled job that publishes the stop word dictionary, search profiles, and index tables for using AI Search in the product catalog.
+description: After upgrading to the Brazil release and the ServiceNow Otto for Sales Automation plugin has been installed, run a scheduled job that publishes the stop word dictionary, search profiles, and index tables for using AI Search in the product catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/run-sched-job-index-stopwords-profile.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [AI Search for product catalog, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Run scheduled job to publish stop words dictionary, search profiles, and index tables
 
-After upgrading to the Australia release and the ServiceNow Otto for Sales Automation plugin has been installed, run a scheduled job that publishes the stop word dictionary, search profiles, and index tables for using AI Search in the product catalog.
+After upgrading to the Brazil release and the ServiceNow Otto for Sales Automation plugin has been installed, run a scheduled job that publishes the stop word dictionary, search profiles, and index tables for using AI Search in the product catalog.
 
 ## Before you begin
 
@@ -36,7 +36,7 @@ The stop words dictionary, search profiles, and index tables for running AI Sear
 **Related topics**  
 
 
-[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-product-catalog.md)
 
-[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/product-catalog-managment.md)
 

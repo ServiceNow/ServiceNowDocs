@@ -3,12 +3,12 @@ title: Components installed with Incident Management - Major Incident Management
 description: Several types of components are installed with activation of the Incident Management - Major Incident Management plugin, including tables and user roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/installed-with-mim.html
-release: australia
+release: brazil
 product: Incident Management
 classification: incident-management
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Activate Major Incident Management, Major Incident Management plugins, Managing major incidents, Incident Management, IT Service Management]
 ---
 
@@ -16,7 +16,7 @@ breadcrumb: [Activate Major Incident Management, Major Incident Management plugi
 
 Several types of components are installed with activation of the Incident Management - Major Incident Management plugin, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 Demo data is available for this feature.
 
@@ -51,7 +51,18 @@ A major incident manager can:-   Initiate the major incident process by assessin
 
 </td><td>
 
-This role inherits the ia\_admin role.
+-   sn\_comm\_management.comm\_plan\_viewer
+-   sn\_comm\_management.comm\_plan\_manager
+-   ia\_admin
+-   sn\_incident\_write
+-   sn\_problem\_write
+-   sn\_change\_write
+-   sn\_request\_write
+-   itil
+
+ **Note:** Starting Brazil, for zboot instances, the major incident manager \[major\_incident\_manager\] role no longer inherit the itil role. Instead, it inherits the sn\_incident\_write, sn\_problem\_write, sn\_change\_write, sn\_request\_write granular roles from the ITSM Roles plugin \(com.snc.itsm.roles\).
+
+For the upgrade instances, the itil role remains inherited. Additionally, the sn\_incident\_write, sn\_problem\_write, sn\_change\_write, and sn\_request\_write granular roles are added if the ITSM Roles plugin \(com.snc.itsm.roles\) is installed.
 
 </td></tr><tr><td>
 
@@ -79,7 +90,17 @@ Communications manager\[communication\_manager\]
 
 </td><td>
 
-This role inherits the ia\_admin role.
+-   sn\_comm\_management.comm\_plan\_viewer
+-   ia\_admin
+-   sn\_incident\_write
+-   sn\_problem\_write
+-   sn\_change\_write
+-   sn\_request\_write
+-   itil
+
+ **Note:** Starting Brazil, for zboot instances, the Communications manager \[communication\_manager\] role no longer inherit the itil role. Instead, it inherits the sn\_incident\_write, sn\_problem\_write, sn\_change\_write, sn\_request\_write granular roles from the ITSM Roles plugin \(com.snc.itsm.roles\).
+
+For the upgrade instances, the itil role remains inherited. Additionally, the sn\_incident\_write, sn\_problem\_write, sn\_change\_write, and sn\_request\_write granular roles are added if the ITSM Roles plugin \(com.snc.itsm.roles\) is installed.
 
 </td></tr><tr><td>
 
@@ -116,5 +137,5 @@ Major Incident Trigger Rules\[major\_incident\_trigger\_rule\]
 This table extends the Application File \[sys\_metadata\] table and stores the major incident trigger rules.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/activate-major-incident-management-plugin.md)
+</table>**Parent Topic:**[Activate Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/activate-major-incident-management-plugin.md)
 

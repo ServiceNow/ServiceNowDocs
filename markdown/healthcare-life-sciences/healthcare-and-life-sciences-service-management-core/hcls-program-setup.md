@@ -3,11 +3,11 @@ title: Configure programs and program services for Healthcare and Life Sciences 
 description: You can configure the programs and the services within a program offered by healthcare organizations for patient or consumer enrollment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-program-setup.html
-release: australia
+release: brazil
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -20,10 +20,10 @@ A program within the Healthcare and Life Sciences Service Management Core applic
 
 A program service within Healthcare and Life Sciences Service Management application is a product catalog item offered within a program by healthcare life organizations to their patients or consumers.
 
--   **[Configure a program service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program-service.md)**  
+-   **[Configure a program service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program-service.md)**  
 Add a program service for use within the programs associated with the Healthcare and Life Sciences Service Management applications.
--   **[Configure a program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program.md)**  
+-   **[Configure a program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program.md)**  
 Add a program for use within the Healthcare and Life Sciences Service Management applications.
 
-**Parent Topic:**[Configuring Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-configuring-serv-mgmt-core.md)
+**Parent Topic:**[Configuring Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-configuring-serv-mgmt-core.md)
 

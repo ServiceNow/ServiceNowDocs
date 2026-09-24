@@ -3,13 +3,13 @@ title: Data pills
 description: Each time you add an action to a flow, Workflow Studio adds a data pill to store its results. The data pill name indicates its sequence in the flow and its data type.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/data-population.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
+breadcrumb: [Explore flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Data pills

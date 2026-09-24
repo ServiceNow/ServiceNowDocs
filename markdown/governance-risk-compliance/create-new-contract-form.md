@@ -1,18 +1,18 @@
 ---
 title: Create Contract form
-description: On the Create Contract form, fill in the fields.
+description: On the Create New Contract form, fill in the fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-contract-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a contract and enhance digital resilience data, Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Create a contract and enhance digital resilience data, Use, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Create Contract form
 
-On the Create Contract form, fill in the fields.
+On the Create New Contract form, fill in the fields.
 
 |Field|Description|
 |-----|-----------|
@@ -30,5 +30,5 @@ On the Create Contract form, fill in the fields.
 |Business owner|Internal contact responsible for the ownership of goods or services.|
 |Description|Detailed description of the contract.|
 
-**Parent Topic:**[Create a contract and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-drtp-reg-contract.md)
+**Parent Topic:**[Create a contract and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-drtp-reg-contract.md)
 

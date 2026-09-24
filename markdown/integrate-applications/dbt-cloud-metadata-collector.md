@@ -3,9 +3,9 @@ title: dbt Cloud metadata collector
 description: The dbt Cloud metadata collector provides read-only access to metadata from an external dbt Cloud account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/dbt-cloud-metadata-collector.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
 ---
@@ -64,10 +64,10 @@ The following lineage information is collected by the dbt Cloud collector.
 
 Snowflake is the currently supported data source for cross-system lineage.
 
--   **[Prepare to run the dbt Cloud collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-dbt-cloud-collector.md)**  
+-   **[Prepare to run the dbt Cloud collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/prepare-to-run-dbt-cloud-collector.md)**  
 Configure dbt Cloud and create authentication tokens before running the collector.
--   **[Create a dbt Cloud metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-dbt-cloud-metadata-collector.md)**  
+-   **[Create a dbt Cloud metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-dbt-cloud-metadata-collector.md)**  
 Create a collector to import metadata from dbt Cloud.
 
-**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-metadata-collectors-dc.md)
+**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-metadata-collectors-dc.md)
 

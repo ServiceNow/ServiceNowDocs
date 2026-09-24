@@ -3,9 +3,9 @@ title: Create a system address filter
 description: Define how email address filters apply to inbound and outbound email.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-system-address-filter.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Email service, Create, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -16,7 +16,7 @@ Define how email address filters apply to inbound and outbound email.
 
 ## Before you begin
 
-Complete the steps in [Set email address filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/set-email-address-filters.md).
+Complete the steps in [Set email address filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/set-email-address-filters.md).
 
 Role required: email\_account\_admin
 
@@ -117,7 +117,7 @@ Email address filters to apply to the system address filter.
 
 A default outbound filter applies to all active SMTP email accounts automatically. A default inbound filter applies to all active IMAP or POP3 email accounts automatically.
 
-For a non-default filter, the next step is to apply the filter to an email account manually. For more information on applying a filter to an email account, see [Create an email account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConfigureAnEmailAccount.md).
+For a non-default filter, the next step is to apply the filter to an email account manually. For more information on applying a filter to an email account, see [Create an email account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ConfigureAnEmailAccount.md).
 
-**Parent Topic:**[Email service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-service.md)
+**Parent Topic:**[Email service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/email-service.md)
 

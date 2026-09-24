@@ -1,17 +1,17 @@
 ---
-title: Model Context Protocol Client Legacy
+title: Model Context Protocol Client
 description: The ServiceNow Model Context Protocol Client \(MCP Client\) enables you to access the Model Context Protocol tools that are hosted externally and published using an MCP Server in the ServiceNow AI Agent Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mcp-client.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Model Context Protocol Client, MCP Client, AI Agents]
-breadcrumb: [AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
-# Model Context Protocol Client Legacy
+# Model Context Protocol Client
 
 The ServiceNow® Model Context Protocol Client \(MCP Client\) enables you to access the Model Context Protocol tools that are hosted externally and published using an MCP Server in the ServiceNow® AI Agent Studio.
 
@@ -19,19 +19,19 @@ The ServiceNow® Model Context Protocol Client \(MCP Client\) enables you to acc
 
 <table id="table_vfm_hm5_vfc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-model-context-protocol-client.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/exploring-model-context-protocol-client.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Model Context Protocol Client in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-mcp-client.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Model Context Protocol Client in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-mcp-client.md)
 
 </td></tr><tr><td>
 
-[Add MCP Server in AI Agent Studio\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Add MCP Servers in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-mcp-client-on-ai-agent-studio.md)
+[Add MCP Server in AI Agent Studio\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Add MCP Servers in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-mcp-client-on-ai-agent-studio.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn more about the user roles, tables, and properties in MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mcp-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn more about the user roles, tables, and properties in MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mcp-reference.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -51,7 +51,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md).
 

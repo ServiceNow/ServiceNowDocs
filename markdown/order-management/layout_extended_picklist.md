@@ -3,7 +3,7 @@ title: Adding a field with an extended picklist to the layout
 description: Add an extended picklist field to a CPQ layout by placing it in a column set and defining each extension column in the layout CSV. Make sure that the picklist extension is marked “Available in layout” so its data appears correctly in the user interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/layout\_extended\_picklist.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -29,5 +29,5 @@ The setup above images would result in the following layout:
 **Related topics**  
 
 
-[Displaying a picklist extension on a layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/csv_layouts_how_do_i_display_a_picklist_extension.md)
+[Displaying a picklist extension on a layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/csv_layouts_how_do_i_display_a_picklist_extension.md)
 

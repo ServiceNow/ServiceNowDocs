@@ -3,11 +3,11 @@ title: Cloud Admin Portal
 description: The Cloud Admin Portal is a role-based portal. You can manage, design, govern, operate, and analyze all your cloud resources from a unified base.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/cloud-admin-portal.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -30,7 +30,7 @@ Find the link to these dashboards on a new tab based on your user role:
 -   Cloud operations dashboard
 -   Cloud tag values dashboard
 
-Follow [Request the Cloud Provisioning and Governance application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/request-plugin-cloud-mgt.md) to learn more about installing Cloud Provisioning and Governance to access the admin and user pages. Log in to the portal with the following Cloud Provisioning and Governance roles to view or manage the associated metrics:
+Follow [Request the Cloud Provisioning and Governance application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/request-plugin-cloud-mgt.md) to learn more about installing Cloud Provisioning and Governance to access the admin and user pages. Log in to the portal with the following Cloud Provisioning and Governance roles to view or manage the associated metrics:
 
 <table id="table_y3d_gcy_1bb"><thead><tr><th>
 

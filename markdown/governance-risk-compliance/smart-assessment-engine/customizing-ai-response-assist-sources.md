@@ -3,11 +3,11 @@ title: Customizing AI Response Assist sources
 description: The Smart Assessment Response Assist skill refers to previous assessments and documents to generate suggestions. By default, the skill uses scope-based matching for previous assessments and the files attached to the assessment instance for documents. To use different sources for a specific template category, implement the Smart Assessment Response Assist scripted extension point.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/customizing-ai-response-assist-sources.html
-release: australia
+release: brazil
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: concept
-last_updated: "2026-06-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [scripted extension point, extension point, SmartAsmtResponseAssistExtensionPoint, AI Response Assist, Document Provider, customize AI sources]
 breadcrumb: [Configure, ServiceNow Otto for SAE, Smart Assessment Engine, Governance, Risk, and Compliance]
@@ -21,7 +21,7 @@ The Smart Assessment Response Assist skill refers to previous assessments and do
 
 A scripted extension point is a ServiceNow platform mechanism that lets you extend the functionality of an application without modifying the application's core code.
 
-For background on how scripted extension points work and how to implement them, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md).
+For background on how scripted extension points work and how to implement them, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/extension-points.md).
 
 ## Why SAE exposes this extension point
 
@@ -165,12 +165,12 @@ SmartAsmtResponseAssistExtensionPoint.prototype = {
 };
 ```
 
-After you create the script include, register it as an implementation of `sn_smart_ai_assist.SmartAsmtResponseAssistExtensionPoint`. For end-to-end steps on registering an implementation, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md).
+After you create the script include, register it as an implementation of `sn_smart_ai_assist.SmartAsmtResponseAssistExtensionPoint`. For end-to-end steps on registering an implementation, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/extension-points.md).
 
 **Related topics**  
 
 
-[Smart Assessment response assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/ai-generated-responses-for-smart-assessment.md)
+[Smart Assessment response assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/ai-generated-responses-for-smart-assessment.md)
 
-[Configure ServiceNow Otto for Smart Assessment Engine \(SAE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/configure-servicenow-otto-for-smart-assessment-engine.md)
+[Configure ServiceNow Otto for Smart Assessment Engine \(SAE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/configure-servicenow-otto-for-smart-assessment-engine.md)
 

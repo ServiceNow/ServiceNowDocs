@@ -3,11 +3,11 @@ title: Set up a delegate for your assessments
 description: Name another user to act on your Smart Assessments on your behalf for a set period.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/set-up-delegation-for-assessments.html
-release: australia
+release: brazil
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Delegation, Respond to assessments, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,7 @@ Name another user to act on your Smart Assessments on your behalf for a set peri
 
 ## Before you begin
 
-User delegation must be enabled on the template category of the assessments you want to delegate. For more information, see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
+User delegation must be enabled on the template category of the assessments you want to delegate. For more information, see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
 
 The delegate must also have the Smart Assessment role that the action requires. For example, to submit an assessment, the delegate must have the Assessment actor \[sn\_smart\_asmt.actor\] role.
 
@@ -26,7 +26,7 @@ Role required: sn\_smart\_asmt.actor to be a delegate of the owner. To be a dele
 
 ## About this task
 
-Delegation in the Smart Assessment Engine uses the standard ServiceNow platform delegate feature, which you configure from your user profile. For an overview, see [Delegation in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/delegation-in-sae.md).
+Delegation in the Smart Assessment Engine uses the standard ServiceNow platform delegate feature, which you configure from your user profile. For an overview, see [Delegation in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/delegation-in-sae.md).
 
 ## Procedure
 

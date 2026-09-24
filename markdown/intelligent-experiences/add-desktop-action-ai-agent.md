@@ -3,12 +3,12 @@ title: Add a defined desktop action tool to an AI agent for desktop and web-base
 description: Add a desktop action as a tool to an AI agent in AI Agent Studio so that AI agents can execute defined path desktop actions for repetitive tasks in desktop and web environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-desktop-action-ai-agent.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 keywords: [defined desktop action, deterministic desktop action]
-breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Add a defined desktop action tool to an AI agent for desktop and web-based task
@@ -17,7 +17,7 @@ Add a desktop action as a tool to an AI agent in AI Agent Studio so that AI agen
 
 ## Before you begin
 
-Familiarize yourself with defined path desktop actions. For more information, see [Defined desktop actions for desktop and web-based tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/desktop-actions.md) and [Defined desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/desktop-actions-designer-workspace-ad.md).
+Familiarize yourself with defined path desktop actions. For more information, see [Defined desktop actions for desktop and web-based tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/desktop-actions.md) and [Defined desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/desktop-actions-designer-workspace-ad.md).
 
 Role required: sn\_aia.admin
 
@@ -36,7 +36,7 @@ Defined desktop actions are further categorized into on-screen tasks and backgro
 
 2.  Open the AI agent that you want to add a desktop action to.
 
-    For creating an AI agent, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md).
+    For creating an AI agent, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-next-best-action-agent.md).
 
 3.  Navigate to the Add tools and information step.
 
@@ -80,7 +80,7 @@ The background task desktop actions are supported for the following applications
 2.  Select the option **Record a fixed sequence of steps for desktop and web-based tasks**.
 3.  Select **Open AI Desktop Actions app**.
 
-Record or manually capture the desktop action in AI Desktop Actions Windows application, activate it, and then come back here to add it as a tool. For more information, see [Defined desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/desktop-actions-designer-workspace-ad.md).
+Record or manually capture the desktop action in AI Desktop Actions Windows application, activate it, and then come back here to add it as a tool. For more information, see [Defined desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/desktop-actions-designer-workspace-ad.md).
 
 The creation process of defined desktop actions ends here.
 
@@ -257,5 +257,5 @@ Message to display to users during tool execution.-   In-progress message: Write
 
 ## What to do next
 
-For more information about executing desktop actions, see [Examples of executing desktop actions using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use-agentic-desktop.md).
+For more information about executing desktop actions, see [Examples of executing desktop actions using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/use-agentic-desktop.md).
 

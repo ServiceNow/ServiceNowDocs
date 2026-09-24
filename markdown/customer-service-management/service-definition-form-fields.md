@@ -3,9 +3,9 @@ title: Service Definition form
 description: In the Customer Service Management \(CSM\) application, the Service Definition form displays information about a service definition configuration. This information record stores the details about a service that is provided to customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/service-definition-form-fields.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Customer Service forms, Reference, Customer Service Management]
 ---
@@ -74,7 +74,7 @@ Playbook record generator
 
 </td><td>
 
-The playbook record generator associated with the service definition.If a service definition has an associated playbook, the agent can use the playbook in a tab on the case record. For more information, see [Associate a playbook with a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/service-def-associate-playbook.md).
+The playbook record generator associated with the service definition.If a service definition has an associated playbook, the agent can use the playbook in a tab on the case record. For more information, see [Associate a playbook with a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/service-def-associate-playbook.md).
 
 </td></tr><tr><td>
 
@@ -82,7 +82,7 @@ Image
 
 </td><td>
 
-The image associated with the service definition.Service definitions appear in the [case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-case-type-select-modals.md) or [case task type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-case-task-type-select-modal.md) in a card view. The image appears in the card for a service definition along with the name and description.
+The image associated with the service definition.Service definitions appear in the [case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-case-type-select-modals.md) or [case task type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-case-task-type-select-modal.md) in a card view. The image appears in the card for a service definition along with the name and description.
 
 </td></tr><tr><td>
 

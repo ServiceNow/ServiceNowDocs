@@ -3,7 +3,7 @@ title: Set up Microsoft Entra ID spoke
 description: Integrate the ServiceNow instance and your Microsoft Entra account by creating a custom OAuth application in Microsoft Entra ID to authenticate ServiceNow requests.Create a custom app using your Azure portal to enable OAuth 2.0 authentication with the Microsoft Entra ID spoke.Configure a connection to your Microsoft Entra ID account. The Microsoft Entra ID spoke connection and credential aliases use these connections to perform actions in the Microsoft Entra ID.Regenerate the Entra ID OAuth token when it expires.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-azure.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -85,7 +85,7 @@ Complete these steps from your Azure portal. See the [Microsoft identity platfor
 
 12. Click **Add a permission** to add the required permissions to access the APIs.
 
-    For information about permissions needed to perform the required actions, see the Spoke actions section here: [Spoke actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/microsoft-azure-ad-spoke.md).
+    For information about permissions needed to perform the required actions, see the Spoke actions section here: [Spoke actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/microsoft-azure-ad-spoke.md).
 
     \[Omitted image "ms-azure-ad-api-perm.png"\] Alt text: Add API permissions.
 
@@ -116,7 +116,7 @@ Role required: admin.
 
         \[Omitted image "entra-id-connection.png"\] Alt text: Connection for the Entra ID spoke
 
-    -   To manage more than one Entra ID spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    -   To manage more than one Entra ID spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
     \[Omitted image "entra-id-connection-conf.png"\] Alt text: Initial connection configuration.

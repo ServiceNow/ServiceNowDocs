@@ -3,9 +3,9 @@ title: Define notification banner display time
 description: Define the length of time a banner notification is displayed at the top of your screen. Increasing the display time provides additional time to read a message before it disappears, and for the screen reader to read out the entire message.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/banner-display.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mobile app settings, Using the mobile apps, Mobile Platform]
 ---

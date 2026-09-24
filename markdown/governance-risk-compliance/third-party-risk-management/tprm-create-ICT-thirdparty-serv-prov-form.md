@@ -3,12 +3,12 @@ title: Create New ICT third-party service provider form
 description: On the Create New ICT third-party service provider form, fill in the fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-create-ICT-thirdparty-serv-prov-form.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2026-05-15"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Create a third party and enhance digital resilience data, Use digital resilience third-party registers, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -55,7 +55,7 @@ Code \(CRN or VAT or PNR or NIN\) of ICT third-party provider
 
 </td><td>
 
-Identification number of the ICT third-party service provider, corresponding to the selected country-specific identification type, such as Company Registration Number \(CRN\), Value-added Tax Identification Number \(VAT\), Passenger Name Record \(PNR\), or National Identification Number \(NIN\).
+Identification number of the ICT third-party service provider, corresponding to the selected country-specific identification type. Types include Company Registration Number \(CRN\), Value-added Tax Identification Number \(VAT\), Passenger Name Record \(PNR\), and National Identification Number \(NIN\).
 
 </td></tr><tr><td>
 
@@ -63,7 +63,11 @@ Identification code of ICT third-party service provider
 
 </td><td>
 
-Identification code of the ICT third-party service provider.**Note:** When the Type of code is set to LEI and you enter or update this field, the system validates the code against the GLEIF database and auto-populates the Legal name and Country of headquarters fields. If you then edit those fields to values that no longer match GLEIF data, an inline warning is displayed on the edited field. For more information, see [Validate Legal Entity Identifier codes for DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-valid-lei.md).
+Identification code of the ICT third-party service provider.**Note:**
+
+When **Type of code** is set to **LEI**, entering or updating this field triggers validation against the GLEIF database. The **Legal name** and **Country of headquarters** fields are then auto-populated. If you edit those fields to values that no longer match GLEIF data, an inline warning appears on the edited field. For more information, see [Validate Legal Entity Identifier codes for DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-valid-lei.md).
+
+If Type of person is set to **Legal person, excluding individual acting in a business capacity** and Type of code is set to a value other than LEI or EUID, a warning appears when saving the record. This applies in the workspace and during Excel Upload.
 
 </td></tr><tr><td>
 
@@ -74,6 +78,9 @@ Type of additional identification code to identify the ICT service provider
 Type of additional identification code to identify the ICT service provider. Available options are:
 
 -   **LEI**
+
+: The last two digits of the LEI must be valid MOD 97-10 check digits per ISO 17442. The system rejects submissions with an invalid checksum.
+
 -   **EUID**
 -   **Country Code\_CRN**: Company Registration Number
 -   **Country Code\_VAT**: Value-added Tax Identification number
@@ -139,7 +146,7 @@ Total annual expense or estimated cost of the ICT third-party service provider
 
 Total annual expense or estimated cost of the ICT third-party service provider.**Note:** Provider‑level annual expense totals may be automatically aggregated during report generation when all contracts meet the required criteria.
 
-For more information, see [Currency conversion and third-party total expense aggregation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-dora-currency-aggregation.md).
+For more information, see [Currency conversion and third-party expense aggregation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-dora-currency-aggregation.md).
 
 </td></tr><tr><td>
 

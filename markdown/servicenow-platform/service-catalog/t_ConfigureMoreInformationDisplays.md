@@ -3,11 +3,11 @@ title: Configure preview
 description: Configure the number of items that have the Preview section expanded to display item details. You can also change the default number \(5\) of items and categories that display, and hide the Exists in categories information.By default, up to five items or categories appear in each category on the homepage.By default, catalog items that are in several categories show Exists in categories information that shows other categories that the items are available in. You can hide this information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_ConfigureMoreInformationDisplays.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service catalog home page configuration, Service Catalog customization, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -43,7 +43,7 @@ Expanding to 1 item
 \[Omitted image "ConfigurePreview2.png"\] Alt text:
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service catalog home page configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ManagingTheHomepageForACatalog.md)
+</table>**Parent Topic:**[Service catalog home page configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/c_ManagingTheHomepageForACatalog.md)
 
 ## Set number of items and categories to preview
 

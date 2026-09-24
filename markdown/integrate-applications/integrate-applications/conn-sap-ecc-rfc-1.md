@@ -2,7 +2,7 @@
 title: Create a connection record for the SAP ECC RFC spoke
 description: Create a connection record for your SAP ECC RFC account. The SAP ECC RFC spoke connection and credential aliases use these connections to perform actions in SAP ECC RFC.
 locale: en-US
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -54,7 +54,7 @@ Capabilities
 
 </td><td>
 
-Capabilities the MID Server must support to be eligible for selection. The system runs the action or activity from a MID Server that supports the selected capabilities.Required capabilities determine which MID Server is selected at runtime. To learn more about how a MID Server is selected during runtime, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MIDServerSelector.md).
+Capabilities the MID Server must support to be eligible for selection. The system runs the action or activity from a MID Server that supports the selected capabilities.Required capabilities determine which MID Server is selected at runtime. To learn more about how a MID Server is selected during runtime, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_MIDServerSelector.md).
 
 </td></tr><tr><td>
 
@@ -62,7 +62,7 @@ MID Application
 
 </td><td>
 
-Application the MID Server must support to be eligible for selection. The system runs the action from a MID Server that supports the selected application.To learn more about how a MID Server is selected during runtime, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MIDServerSelector.md).
+Application the MID Server must support to be eligible for selection. The system runs the action from a MID Server that supports the selected application.To learn more about how a MID Server is selected during runtime, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_MIDServerSelector.md).
 
 </td></tr></tbody>
 </table>6.  In the **Connection Attributes** tab, provide these details.

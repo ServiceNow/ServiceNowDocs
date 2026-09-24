@@ -3,11 +3,11 @@ title: Catalog Conversational Coverage
 description: ServiceNow Catalog Conversational Coverage provides a dashboard to view a high-level overview of the conversational and non-conversational status of catalog items configured for the LLM topic block.The dashboard shows the information that you need in graphs and a table.View the details page for your catalog item. If your item is non-conversational, view why your catalog item isn’t conversational and review the suggestions to know what you can do to make the item conversational.Use the ServiceNow AI Platform to view the dashboard that shows the catalog items that are conversational or non-conversational. Understand why catalog items aren't conversational, and explore the potential suggestions that might help make the items conversational.Use Catalog Builder to view the dashboard that shows the catalog items that are conversational or non-conversational. Understand why catalog items aren’t conversational, and explore the potential suggestions that might help make the items conversational.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/using-catalog-conversational-experience.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [LLM topic blocks, Conversational Catalog Requests reference, Conversational Catalog Requests, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ ServiceNow® Catalog Conversational Coverage provides a dashboard to view a high
 
 You can view this information in the Conversational catalog overview dashboard. The dashboard displays a graphical representation of various reports, such as the number of conversational and non-conversational catalog items, reasons that make the items non-conversational, and popular request channels. It also shows a list of the catalog items, their conversational status, and other details.
 
-**Important:** Catalog Conversational Coverage applies to catalog items configured for the **LLM topic block only**. It does not reflect conversational status for catalog items handled by Catalog Agent. For an overview of all conversational methods, see [Catalog item request approaches](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-agent.md).
+**Important:** Catalog Conversational Coverage applies to catalog items configured for the **LLM topic block only**. It does not reflect conversational status for catalog items handled by Catalog Agent. For an overview of all conversational methods, see [Catalog item request approaches](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/catalog-agent.md).
 
 **Note:** You can access the conversational catalog dashboard only if you’ve installed the ServiceNow Otto in Conversational Catalog Request app. Conversational catalog dashboard can’t be installed separately as it's bundled with ServiceNow Otto in Conversational Catalog Request.
 
@@ -36,14 +36,14 @@ To access and view the dashboard, you must install and activate the Catalog Conv
 
 The **Update catalog items conversational status** scheduled job pulls conversational data of catalog items. This scheduled job updates the reasons for the catalog items. The scheduled job runs once in three days automatically. But to get the latest data when you need, run this job manually.
 
-**Parent Topic:**[LLM topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/llm-topic-blocks-reference.md)
+**Parent Topic:**[LLM topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/llm-topic-blocks-reference.md)
 
 **Related topics**  
 
 
-[Configure ServiceNow Otto in Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-gen-ai-catalog-item.md)
+[Configure ServiceNow Otto in Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-gen-ai-catalog-item.md)
 
-[View the conversational catalog overview dashboard using Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/using-catalog-conversational-experience.md)
+[View the conversational catalog overview dashboard using Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/using-catalog-conversational-experience.md)
 
 ## Conversational catalog overview dashboard
 
@@ -276,5 +276,5 @@ Role required: catalog\_admin
 **Related topics**  
 
 
-[Edit a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/edit-cat-item-cat-builder.md)
+[Edit a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/edit-cat-item-cat-builder.md)
 

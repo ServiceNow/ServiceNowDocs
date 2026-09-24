@@ -3,13 +3,13 @@ title: Install Predictive Intelligence
 description: Activate Predictive Intelligence on your instance and get started with basic configuration.Implement initial setup and configuration steps for Predictive Intelligence to train a machine-learning \(ML\) algorithm to make predictions based on your past record data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/install-predictive-intelligence.html
-release: australia
+release: brazil
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Install Predictive Intelligence
@@ -60,7 +60,7 @@ Role required: admin or ml\_admin
 
 ### About this task
 
-The training process requires sending record data to a training service in the nearest datacenter. Since every datacenter has its own dedicated training server and the data doesn't leave the datacenter, this service is also available to customers who have data sovereignty requirements. For more information on this process, see [Explore Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md).
+The training process requires sending record data to a training service in the nearest datacenter. Since every datacenter has its own dedicated training server and the data doesn't leave the datacenter, this service is also available to customers who have data sovereignty requirements. For more information on this process, see [Explore Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md).
 
 For frequently asked questions regarding initial configuration and setup, see [KB0781894](https://support.servicenow.com/nav_to.do?uri=%2Fkb%3Fid%3Dkb_article_view%26sysparm_article%3DKB0781894).
 
@@ -76,7 +76,7 @@ For frequently asked questions regarding initial configuration and setup, see [K
 
 4.  On the non-production instance, review the default solution definition records to determine if the filter, input fields, and output field are sufficient to predict your incident or task records.
 
-    If necessary, [create a solution definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-solution-definition.md) for each record set you want to predict.
+    If necessary, [create a solution definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/predictive-intelligence/create-solution-definition.md) for each record set you want to predict.
 
 5.  On the non-production instance, train the solution definition records.
 
@@ -98,7 +98,7 @@ For frequently asked questions regarding initial configuration and setup, see [K
 **Related topics**  
 
 
-[Create and train a classification solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-solution-definition.md)
+[Create and train a classification solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/predictive-intelligence/create-solution-definition.md)
 
-[Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-similarity-solution.md)
+[Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/predictive-intelligence/create-similarity-solution.md)
 

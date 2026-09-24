@@ -3,11 +3,11 @@ title: Add risks to a demand
 description: Add a risk to a demand to identify, analyze, prioritize, plan, and track potential problems during any phase of the demand life cycle.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/add-risks-for-a-demand.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-06-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -42,7 +42,7 @@ A risk is any uncertain event that can potentially impact the success or outcome
 
 7.  On the Risk form, fill in the fields.
 
-    For a description of the field values, see [Risk form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/risk-form-dw.md).
+    For a description of the field values, see [Risk form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/risk-form-dw.md).
 
 8.  Select **Save**.
 

@@ -3,9 +3,9 @@ title: Configure related list background loading
 description: Configure large selections of records added to a related list to load in the background for your entire workspace experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/set-up-asynchronous-record-addition.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Lists, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 When you select a large number of records to add to a related list, you can focus on other tasks while the records are added in the background.
 
-If background loading isn’t required for all modals, configure individual modals to load related list records in the background using declarative actions. For instructions, see [Configure background loading for a modal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-up-asychronous-record-addition-declarative-actions.md).
+If background loading isn’t required for all modals, configure individual modals to load related list records in the background using declarative actions. For instructions, see [Configure background loading for a modal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/set-up-asychronous-record-addition-declarative-actions.md).
 
 ## Procedure
 
@@ -32,7 +32,7 @@ If background loading isn’t required for all modals, configure individual moda
 
 2.  Add the **glide.ui.mra.async** system property.
 
-    For more information on adding system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+    For more information on adding system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
     1.  Set the Value to **true**.
 
@@ -40,7 +40,7 @@ If background loading isn’t required for all modals, configure individual moda
 
 3.  Add the **glide.ui.mra.threshold** system property.
 
-    For more information on adding system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+    For more information on adding system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
     1.  Specify how many records can be added before asynchronous record addition occurs.
 

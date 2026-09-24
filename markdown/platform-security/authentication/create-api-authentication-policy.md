@@ -3,11 +3,11 @@ title: Create an API authentication policy
 description: Authentication policies allow you to enforce access restrictions on the APIs based on the specified filter criteria.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/create-api-authentication-policy.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [API Authentication Policies, API access policy, Authentication, Access Management]
 ---
@@ -38,7 +38,7 @@ Role required: api\_service\_admin, adaptive\_auth\_policy\_admin
 
 5.  From the Policy Inputs tab, select **Edit** to add the existing Filter Criteria.
 
-    You can also create a new Policy Input. For more information, see [Create policy inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/create-policy-input.md).
+    You can also create a new Policy Input. For more information, see Create policy inputs.
 
 6.  Move one or more filter criteria from the Collections list to the Policy Inputs List.\[Omitted image "authentication-filter-criteria.png"\] Alt text: Adding one or more filter criteria to an authentication policy.
 

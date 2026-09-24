@@ -3,11 +3,11 @@ title: User preferences for list editing
 description: Users can set user preferences for list editing by personalizing a list \(available when the list mechanic is activated\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/r\_ManagingUserPreferences.html
-release: australia
+release: brazil
 product: List Administration
 classification: list-administration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [List editor, Administer, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -26,5 +26,5 @@ To view and manage list editor user preferences, navigate to **User Administrati
 **Related topics**  
 
 
-[Personal list administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/c_AdministeringPersonalLists.md)
+[Personal list administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-administration/c_AdministeringPersonalLists.md)
 

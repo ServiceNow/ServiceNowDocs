@@ -3,11 +3,11 @@ title: ServiceNow AI Platform tables excluded from AI Search indexing
 description: AI Search excludes the following ServiceNow AI Platform tables when indexing content. You can't configure these tables, or tables derived from them, as AI Search indexed sources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/excluded-tables-ais.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -26,5 +26,5 @@ AI Search excludes the following ServiceNow AI Platform tables when indexing con
 -   Replicated Operation \[sys\_replication\_queue\]
 -   Sys Audit \[sys\_audit\]
 
-**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/reference-ais.md)
+**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/reference-ais.md)
 

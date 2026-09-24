@@ -3,9 +3,9 @@ title: Using Proactive Customer Service Operations
 description: Monitor your customers' products and services to identify issues proactively, inform the affected customers, and fix issues quickly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/use-pcso.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Automate and optimize, Use, Customer Service Management]
 ---
@@ -48,7 +48,7 @@ sn\_customerservice\_manager
 
 </td><td>
 
-Review and accept a proactive case as a major case and create child cases. Associate outages to cases or create an outage for a case.Track Key Performance Indicators \(KPIs\) to understand how proactive the team was in identifying and communicating issues that impact customers. For more information, see [Proactive Customer Service - Advanced dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/analytics-and-reporting-solutions-for-customer-service/csm-proactive-monit-dashboard.md).
+Review and accept a proactive case as a major case and create child cases. Associate outages to cases or create an outage for a case.Track Key Performance Indicators \(KPIs\) to understand how proactive the team was in identifying and communicating issues that impact customers. For more information, see [Proactive Customer Service - Advanced dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/analytics-and-reporting-solutions-for-customer-service/csm-proactive-monit-dashboard.md).
 
 </td></tr><tr><td>
 
@@ -62,11 +62,11 @@ Create proactive cases. Review and accept proactive cases as major cases and cre
 </table>**Related topics**  
 
 
-[View the install base in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/install-base-aw-csm.md)
+[View the install base in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/install-base-aw-csm.md)
 
-[View install base information from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-install-base-info.md)
+[View install base information from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/view-install-base-info.md)
 
-[Create a case for install base from the Customer Service homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-case-install-base.md)
+[Create a case for install base from the Customer Service homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-case-install-base.md)
 
-[View sold product information in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-sold-product-info-workspace.md)
+[View sold product information in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/view-sold-product-info-workspace.md)
 

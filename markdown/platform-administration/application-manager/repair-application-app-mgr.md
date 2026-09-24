@@ -3,11 +3,11 @@ title: Repair an application or plugin
 description: Repair an application procured through the ServiceNow Store or a plugin included in your instance. Repairing apps or plugins can resolve issues caused by unintentional modifications, corrupted files, or partial deletion.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/application-manager/repair-application-app-mgr.html
-release: australia
+release: brazil
 product: Application Manager
 classification: application-manager
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Repairing apps and plugins, Application Manager, Administering applications, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -33,5 +33,5 @@ Role required: admin
 3.  From the Quick Actions section of the details page, select **Repair**.
 
 
-**Parent Topic:**[Repairing applications and plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/repairing-apps-app-manager.md)
+**Parent Topic:**[Repairing applications and plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/application-manager/repairing-apps-app-manager.md)
 

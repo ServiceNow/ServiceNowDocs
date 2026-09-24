@@ -3,11 +3,11 @@ title: Available activity packs
 description: Activity packs are available with your subscription to Orchestration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/t\_ActivateAnActivityPack.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Activate Orchestration, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,15 +24,15 @@ Role required: admin
 
 The following activity packs are available and active with your Orchestration subscription:
 
--   [Orchestration - Active Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchActiveDirectoryActivities.md) \(com.snc.orchestration.ad\)
--   [Orchestration - Azure Active Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_AzureADActivityPack.md) \(com.snc.orchestration.azure.ad\)
--   [Orchestration - Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchestrationExchangeActivities.md) \(com.snc.orchestration.exchange\)
--   [Orchestration - SFTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchestrationSFTPActivityPack.md) \(com.snc.orchestration.sftp\)
--   [Orchestration - Infoblox DDI Activity Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_InfobloxDDIActivityPack.md) \(com.snc.orchestration.infoblox\)
--   [F5 Network Management activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchF5LoadBalancerActivities.md) \(com.snc.orchestration.f5\)
--   [Orchestration - SSH](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchestrationSSHCustomActivities.md) \(com.snc.orchestration.ssh\)
--   [Orchestration - PowerShell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchestrPwrshellActivityPack.md) \(com.snc.orchestration.powershell\)
--   [Orchestration - System Center Configuration Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_ActivateSysCentrConfigMgrActiv.md) \(com.snc.orchestration.sccm\_mgnt\)
+-   [Orchestration - Active Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_OrchActiveDirectoryActivities.md) \(com.snc.orchestration.ad\)
+-   [Orchestration - Azure Active Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_AzureADActivityPack.md) \(com.snc.orchestration.azure.ad\)
+-   [Orchestration - Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_OrchestrationExchangeActivities.md) \(com.snc.orchestration.exchange\)
+-   [Orchestration - SFTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_OrchestrationSFTPActivityPack.md) \(com.snc.orchestration.sftp\)
+-   [Orchestration - Infoblox DDI Activity Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_InfobloxDDIActivityPack.md) \(com.snc.orchestration.infoblox\)
+-   [F5 Network Management activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_OrchF5LoadBalancerActivities.md) \(com.snc.orchestration.f5\)
+-   [Orchestration - SSH](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_OrchestrationSSHCustomActivities.md) \(com.snc.orchestration.ssh\)
+-   [Orchestration - PowerShell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_OrchestrPwrshellActivityPack.md) \(com.snc.orchestration.powershell\)
+-   [Orchestration - System Center Configuration Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/t_ActivateSysCentrConfigMgrActiv.md) \(com.snc.orchestration.sccm\_mgnt\)
 
 ## Procedure
 
@@ -66,7 +66,7 @@ Which plugin would you like to activate
 
 Select the name of the plugin to activate.
 
- **Note:** If the plugin isn't listed, or if you're activating on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box. Enter the plugin name in the field that appears.
+ **Note:** If the system doesn't list the plugin you want or if you're activating the plugin on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box and then enter the name of the plugin.
 
 </td></tr><tr id="date-time"><td>
 
@@ -84,5 +84,5 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
-**Parent Topic:**[Activate Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_ActivateOrchestration.md)
+**Parent Topic:**[Activate Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/t_ActivateOrchestration.md)
 

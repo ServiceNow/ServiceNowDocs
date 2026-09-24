@@ -3,12 +3,13 @@ title: Report an AI case form
 description: Use the Report an AI case form in the Anonymous Report Center to report an AI case with the necessary details. After you submit the AI case report, mandatory fields and input format are validated before submission.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/report-anon-ai-case-form.html
-release: australia
+release: brazil
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
+keywords: [anonymous report form, AI case anonymous reporting, Anonymous Report Center]
 breadcrumb: [Report an AI case anonymously, Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
@@ -136,5 +137,5 @@ Text verification
 Enter the CAPTCHA verification code on the screen.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Report an AI case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/report-ai-case-anon.md)
+</table>**Parent Topic:**[Report an AI case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/report-ai-case-anon.md)
 

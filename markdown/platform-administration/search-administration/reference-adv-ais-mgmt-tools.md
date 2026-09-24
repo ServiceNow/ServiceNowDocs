@@ -3,11 +3,11 @@ title: Advanced AI Search Management Tools reference
 description: This reference topic describes system components installed with the Advanced AI Search Management Tools application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/reference-adv-ais-mgmt-tools.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: reference
-last_updated: "2026-09-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Advanced AI Search Management Tools, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -67,5 +67,5 @@ Pre-calculates metrics to improve load time for the AI Search Analytics dashboar
 </td></tr></tbody>
 </table>## List of all components installed with Advanced AI Search Management Tools
 
-To view the complete list of components installed with Advanced AI Search Management Tools, follow the steps described in [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md). The application's package name is **Advanced AI Search Management Tools**.
+To view the complete list of components installed with Advanced AI Search Management Tools, follow the steps described in [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md). The application's package name is **Advanced AI Search Management Tools**.
 

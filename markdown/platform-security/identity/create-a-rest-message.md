@@ -3,11 +3,11 @@ title: Create a REST message
 description: Configure a REST message for all outbound calls for a particular SCIM Provider.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/create-a-rest-message.html
-release: australia
+release: brazil
 product: Identity
 classification: identity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SCIM Client, System for Cross-domain Identity Management \(SCIM\), Identity]
 ---
@@ -58,7 +58,7 @@ Authentication Type
 
 </td><td>
 
-Type of authentication to be used to connect to the external SCIM Provider. For more information see, [Outbound REST authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OutboundRESTAuth.md).
+Type of authentication to be used to connect to the external SCIM Provider. For more information see, [Outbound REST authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/c_OutboundRESTAuth.md).
 
 </td></tr><tr><td>
 
@@ -141,7 +141,7 @@ The REST message record is created.
 
 ## What to do next
 
-Use the REST message to create a SCIM Provider. For more information, see [Create a SCIM Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/create-scim-provider.md).
+Use the REST message to create a SCIM Provider. For more information, see [Create a SCIM Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/identity/create-scim-provider.md).
 
-To learn more about how to create a REST message, see [Create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_ConfiguringARESTMessage.md).
+To learn more about how to create a REST message, see [Create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/t_ConfiguringARESTMessage.md).
 

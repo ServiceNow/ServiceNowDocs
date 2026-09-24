@@ -3,11 +3,11 @@ title: Configure a self-health monitor
 description: You can configure a self-health monitor to track Event Management components and see that they do not exceed the specified threshold.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-threshold-monitoring.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Self-health monitors for Event Management, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -81,7 +81,7 @@ The values in the modified monitoring configuration record are compared to the a
 
 ## What to do next
 
-Create a customized monitor. A template is provided to assist you to create script that can monitor the specified components. For more information, see [Create a self-health monitor with a custom script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/custom-configure-threshold-monitoring.md).
+Create a customized monitor. A template is provided to assist you to create script that can monitor the specified components. For more information, see [Create a self-health monitor with a custom script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/custom-configure-threshold-monitoring.md).
 
-**Parent Topic:**[Self-health monitors for Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/self-monitoring.md)
+**Parent Topic:**[Self-health monitors for Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/self-monitoring.md)
 

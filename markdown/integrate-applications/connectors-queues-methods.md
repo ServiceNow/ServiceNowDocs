@@ -3,9 +3,9 @@ title: Queue connector methods
 description: The Queue connector methods enable you to create and manage work items for queues in the RPA Hub.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/connectors-queues-methods.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Queue, RPA Hub, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,7 +16,7 @@ The Queue connector methods enable you to create and manage work items for queue
 
 ## Prerequisites
 
-1.  Assign the bot process to the automation project by using the **Assign bot process** option from the **Design** tab of RPA Desktop Design Studio to access the work items. For more information, see [Assign bot process to an automation project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/assign-bot-process.md).
+1.  Assign the bot process to the automation project by using the **Assign bot process** option from the **Design** tab of RPA Desktop Design Studio to access the work items. For more information, see [Assign bot process to an automation project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/assign-bot-process.md).
 2.  Set the QueueName property by doing the following steps:
     1.  In the RPA Desktop Design Studio, navigate to **Toolbox** &gt; **RPA Hub** &gt; **Queue**.
     2.  Drag the Queue connector under Global Objects in the Project Explorer.
@@ -32,15 +32,15 @@ Creates a work item for the queue in the JSON format.
 
 -   **Input**
 
-    [Name](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queue-connector-method-parameters.md)
+    [Name](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/queue-connector-method-parameters.md)
 
-    [Priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queue-connector-method-parameters.md)
+    [Priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/queue-connector-method-parameters.md)
 
 -   **Output**
 
-    [WorkItemId](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queue-connector-method-parameters.md)
+    [WorkItemId](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/queue-connector-method-parameters.md)
 
-    [IsNameExists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queue-connector-method-parameters.md)
+    [IsNameExists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/queue-connector-method-parameters.md)
 
 
 To create the key-value pairs in a JSON object, do the following actions:
@@ -72,7 +72,7 @@ Type
 
 The type of the work item. For example, for an accounting system queue, savings and current are types of accounts.
 
-To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-input-port-properties.md).
 
 </td></tr><tr><td>
 
@@ -109,7 +109,7 @@ Key-value pair \(JSON content\) for the request content. To add a key, do the fo
 1.  Click the add key icon \(\[Omitted image "add-image-icon.png"\] Alt text: Add key icon.\).
 2.  Enter the key name in the field.
 3.  To add more keys, repeat the previous steps.
-4.  To pass the value to these fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+4.  To pass the value to these fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-input-port-properties.md).
 
 
 </td></tr><tr><td>
@@ -118,7 +118,7 @@ Sensitive
 
 </td><td>
 
-Sensitive content that is passed when the work item is created. Select this option as sensitive, then the data is encrypted and stored in the **Sensitive Request Content** field in the new work item in RPA Hub. For more information about the work item form, see [Work item form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-work-queue-items.md).
+Sensitive content that is passed when the work item is created. Select this option as sensitive, then the data is encrypted and stored in the **Sensitive Request Content** field in the new work item in RPA Hub. For more information about the work item form, see [Work item form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/manage-work-queue-items.md).
 
 With this functionality, you can pass sensitive information through queues.
 
@@ -133,15 +133,15 @@ Creates a work item in a queue in the RPA Hub by accepting a string.
 
 -   **Input**
 
-    [RequestContent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queue-connector-method-parameters.md)
+    [RequestContent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/queue-connector-method-parameters.md)
 
-    [Name](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queue-connector-method-parameters.md)
+    [Name](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/queue-connector-method-parameters.md)
 
 -   **Output**
 
-    [WorkItemId](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queue-connector-method-parameters.md)
+    [WorkItemId](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/queue-connector-method-parameters.md)
 
-    [IsNameExists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queue-connector-method-parameters.md)
+    [IsNameExists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/queue-connector-method-parameters.md)
 
 
 To specify additional criteria for creating string work items, do the following steps.
@@ -167,7 +167,7 @@ SensitiveRequestContent
 
 </td><td>
 
-Stores sensitive content in encrypted format in the new work item. To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+Stores sensitive content in encrypted format in the new work item. To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-input-port-properties.md).
 
 With this functionality, you can pass sensitive information through queues.
 
@@ -189,7 +189,7 @@ Type
 
 The type of the work item. For example, for an accounting system queue, savings and current are types of accounts.
 
-To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-input-port-properties.md).
 
 </td></tr><tr><td>
 
@@ -208,11 +208,11 @@ Returns the count and the details of the work items created under the queue base
 
 -   **Input**
 
-    [Limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queue-connector-method-parameters.md)
+    [Limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/queue-connector-method-parameters.md)
 
 -   **Output**
 
-    [TotalCount](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queue-connector-method-parameters.md)
+    [TotalCount](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/queue-connector-method-parameters.md)
 
 
 To specify additional criteria for identifying and getting work items, do the following steps.
@@ -338,17 +338,17 @@ Returns the details of the work items in an object form.
 
 Enables a robot to pick a work item based on the given criteria. You can also configure additional criteria for the work item to be picked.
 
-queryConditions included in the PickWorkItem component are considered for calculating the number of robots required to complete the work allocated, if the bot process is enabled with robot pool. For more information about calculating the number of robots, see [Calculate the number of robots in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/calculate-robots.md). For more information about robot pool concepts, see [Robot pool in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/robot-pool-rpa.md).
+queryConditions included in the PickWorkItem component are considered for calculating the number of robots required to complete the work allocated, if the bot process is enabled with robot pool. For more information about calculating the number of robots, see [Calculate the number of robots in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/calculate-robots.md). For more information about robot pool concepts, see [Robot pool in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/robot-pool-rpa.md).
 
 -   **Input**
 
-    [Priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queue-connector-method-parameters.md)
+    [Priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/queue-connector-method-parameters.md)
 
 -   **Output**
 
-    [WorkItemId](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queue-connector-method-parameters.md)
+    [WorkItemId](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/queue-connector-method-parameters.md)
 
-    [RequestContent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queue-connector-method-parameters.md)
+    [RequestContent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/queue-connector-method-parameters.md)
 
 
 To specify additional criteria for picking work items, do the following steps.
@@ -493,11 +493,11 @@ Releases a work item that has been accepted and executed by a bot. You must exec
 
 -   **Input**
 
-    [WorkItemId](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queue-connector-method-parameters.md)
+    [WorkItemId](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/queue-connector-method-parameters.md)
 
 -   **Output**
 
-    [Return](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queue-connector-method-parameters.md)
+    [Return](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/queue-connector-method-parameters.md)
 
 
 ## UpdateWorkItem
@@ -506,17 +506,17 @@ Enables a robot to update a work item after picking it with the PickWorkItem met
 
 -   **Inputs**
 
-    [WorkItemId](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queue-connector-method-parameters.md)
+    [WorkItemId](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/queue-connector-method-parameters.md)
 
-    [RequestContent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queue-connector-method-parameters.md)
+    [RequestContent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/queue-connector-method-parameters.md)
 
-    [ReleaseMode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queue-connector-method-parameters.md)
+    [ReleaseMode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/queue-connector-method-parameters.md)
 
-    [Priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queue-connector-method-parameters.md)
+    [Priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/queue-connector-method-parameters.md)
 
-    [Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queue-connector-method-parameters.md)
+    [Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/queue-connector-method-parameters.md)
 
-    [Exception Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queue-connector-method-parameters.md)
+    [Exception Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/queue-connector-method-parameters.md)
 
 
 To specify additional criteria for updating work items, do the following steps.
@@ -572,7 +572,7 @@ Type
 
 The type of the work item. For example, for an accounting system queue, savings and current are types of accounts.
 
-To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-input-port-properties.md).
 
 </td></tr><tr><td>
 
@@ -625,7 +625,7 @@ Key-value pair \(JSON content\) for the request content. To add a key, do the fo
 1.  Click the add key icon \(\[Omitted image "add-image-icon.png"\] Alt text: Add key icon.\).
 2.  Enter the key name in the field.
 3.  To add more keys, repeat the previous steps.
-4.  To pass the value to these fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+4.  To pass the value to these fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-input-port-properties.md).
 
 
 </td></tr><tr><td>
@@ -642,5 +642,5 @@ When you add a key-value pair "City: Mumbai" in **SensitiveRequestContent** fiel
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queue-connector.md)
+**Parent Topic:**[Queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/queue-connector.md)
 

@@ -3,11 +3,11 @@ title: Sizing your Edge Encryption environment
 description: Choosing the number of proxy servers for your environment is an important task. Consider the number of users, redundancy needs, and acceptable latency.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/edge-environment-size.html
-release: australia
+release: brazil
 product: Edge Encryption
 classification: edge-encryption
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Planning for Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -43,7 +43,7 @@ Because data encryption and tokenization are CPU intensive operations, CPU spike
 
 ## Memory
 
-The proxy server must have a minimum of 4 GB of RAM available \(6 GB recommended\). [Set the proxy server initial and upper bound memory limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/increase-memory.md) to the recommended settings.
+The proxy server must have a minimum of 4 GB of RAM available \(6 GB recommended\). [Set the proxy server initial and upper bound memory limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/increase-memory.md) to the recommended settings.
 
-**Parent Topic:**[Planning for Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_EdgeEncryptionPlanning.md)
+**Parent Topic:**[Planning for Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/c_EdgeEncryptionPlanning.md)
 

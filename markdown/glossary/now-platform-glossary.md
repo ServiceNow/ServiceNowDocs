@@ -3,11 +3,11 @@ title: ServiceNow AI Platform glossary
 description: Learn about the terms and concepts related to the ServiceNow AI Platform.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/glossary/now-platform-glossary.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 101
-keywords: [glossary terms, ACL, glossary terms, glossary terms, glossary terms, glossary terms, dashboard, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms]
+keywords: [glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, dashboard, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms]
 ---
 
 # ServiceNow AI Platform glossary
@@ -218,7 +218,7 @@ App shells are the static elements of a web experience \(for example, the header
 
 Provides predefined data, experience, logic and automation, and security to support a certain use case. For example, the Travel Request template provides application content for submitting and approving employee travel requests.
 
-For more information on the available templates, see [Available templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/template-library.md).
+For more information on the available templates, see [Available templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/template-library.md).
 
 ### applet launcher
 
@@ -344,7 +344,7 @@ Automated breakdowns are based on a breakdown source, which is a set of records 
 
 ### automated indicator
 
-An automated indicator uses an indicator source as its data set. The indicator source specifies a table or database view, conditions for filtering records from that source, and the frequency at which you expect to display the data. The indicator applies an aggregator and optional conditions to this data. The indicator also specifies a data collection job and any breakdowns to apply.
+An automated indicator uses an indicator source as its data set. The indicator source specifies a table or database view, conditions for filtering records from that source, and the frequency at which you expect to display the data. The indicator applies an aggregator and optional conditions to this data. In classic Performance Analytics, the indicator also specifies a data collection job and any breakdowns to apply.
 
 **Related topics**  
 
@@ -752,7 +752,7 @@ A column of content that relates to the main content of the page. For example, y
 
 ### contract analysis
 
-A AI skill used to analyze contract documents for clause deviations, ensuring compliance with standard clauses and identifying potential risks
+A Now Assist skill used to analyze contract documents for clause deviations, ensuring compliance with standard clauses and identifying potential risks
 
 ### contract dashboard
 
@@ -829,13 +829,17 @@ An update set that has been selected using the Update Set Picker. User customiza
 
 Any scoped application a developer creates on the ServiceNow AI Platform.
 
+### custom fields
+
+
+
 ### custom skill
 
 A user-defined AI capability tailored to meet specific business needs. It is created and trained using relevant data and prompts.
 
 ### customer access management
 
-Customer access management supports multiple related parties in handling cases, sold products, and install bases by providing them with varying levels of access. For more information about Customer Access Management, see [Configuring customer access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configuring-cam.md).
+Customer access management supports multiple related parties in handling cases, sold products, and install bases by providing them with varying levels of access. For more information about Customer Access Management, see [Configuring customer access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configuring-cam.md).
 
 ### customer data model
 
@@ -1127,11 +1131,6 @@ Rights a customer has to receive services based on their contract.
 
 A configuration mechanism in Service Exchange that determines which remote content, such as catalog items, record producers, remote tasks definitions, a consumer instance is allowed to access.
 
-**Related topics**  
-
-
-[service-bridge-v2-entitlements]
-
 ### entity
 
 
@@ -1242,7 +1241,7 @@ A graphical interface users interact with to create workspaces, portals, catalog
 
 ### Experience
 
-Graphical interface that your users interact with. For example, you can create a portal where users find information, submit requests, or complete business tasks. For more information on the available application experiences, see [Add an application experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/add-experience.md).
+Graphical interface that your users interact with. For example, you can create a portal where users find information, submit requests, or complete business tasks. For more information on the available application experiences, see [Add an application experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/add-experience.md).
 
 ### export definition
 
@@ -1269,6 +1268,8 @@ A registered instance of a scripted extension point that links a script include 
 Designates where custom script logic can be incorporated into your code so you can integrate customizations and new features without altering the existing code for your application. The returned data or objects must conform to the requirements specified by the application creator.
 
 ### External Content Connectors
+
+External
 
 External Content Connectors is a ServiceNow® Store application that enables AI Search to index and search content from external repositories like Atlassian Confluence Cloud and Microsoft SharePoint Online. It expands search capabilities to include external content while maintaining original access permissions.
 
@@ -1591,6 +1592,10 @@ The process of receiving and entering invoices into the system.
 
 The end-to-end handling of invoices from receipt to payment.
 
+### Invoice processing
+
+The end-to-end handling of invoices from receipt to payment.
+
 ### item
 
 Something a requestor can ask for, such as new computer equipment or time off work. Each item requires its own form in Creator Studio.
@@ -1903,7 +1908,7 @@ A generative AI feature that assists agents in creating and editing emails and c
 
 A feature that monitors and evaluates content created with generative AI to protect users from harmful, offensive, or inappropriate content. It can log incidents and prevent such content from being displayed.
 
-### ServiceNow Otto for Contract Management Pro
+### Now Assist in Contract Management Pro
 
 A generative AI-powered feature that enhances productivity by suggesting contract clauses, and extracting metadata from a signed contract.
 
@@ -1919,9 +1924,9 @@ A predefined capability on the ServiceNow AI Platform that uses generative AI to
 
 An application that uses generative AI to summarize procurement-related records and facilitate conversational procurement tasks.
 
-### ServiceNow Otto
+### Now Assist
 
-ServiceNow Otto refers to generative AI experiences on the ServiceNow AI Platform. With ServiceNow Otto, you can improve productivity and efficiency in your organization with better self-service, faster answers and recommended actions, and empower users to search more effectively.
+Now Assist refers to generative AI experiences on the ServiceNow AI Platform. With Now Assist, you can improve productivity and efficiency in your organization with better self-service, faster answers and recommended actions, and empower users to search more effectively.
 
 ### now code editor
 
@@ -2191,7 +2196,7 @@ The process of finding, acquiring, and buying goods, services, or works from an 
 
 ### Product idea
 
-A product idea is an improvement or solution created from gathered feedback.These product ideas are assessed for impact, prioritized, and developed to improve the user experience. For more information, see [Product idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/managing-product-feedback-in-strategic-planning.md).
+A product idea is an improvement or solution created from gathered feedback.These product ideas are assessed for impact, prioritized, and developed to improve the user experience. For more information, see [Product idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/managing-product-feedback-in-strategic-planning.md).
 
 ### product offer
 
@@ -2457,11 +2462,6 @@ A software agent that runs a bot process \(automation\). Robots are designed to 
 
 A category assigned to a group or user to grant access to specific privileges in Service Exchange.
 
-**Related topics**  
-
-
-[service-bridge-v2-personas]
-
 ### RPA Desktop Design Studio
 
 Windows native application that is used by RPA developers to design or configure automation workflows.
@@ -2680,7 +2680,7 @@ A record that stores details on how to interact with an external web service thr
 
 ### sold product
 
-A record representing a product that has been sold to a customer and is actively being delivered or has been delivered. Sold products are created from product orders after order approval and track the lifecycle of the product from activation through billing and eventual decommissioning. Sold products link to the customer account and associated service and resource instances.
+A product or service that is sold to an account or a consumer that can have child and parent sold products in a hierarchical structure.
 
 ### source control
 
@@ -2936,7 +2936,7 @@ The user-defined top or bottom limit of the normal range of scores for an indica
 
 ### TMF 621 rest API
 
-A standard API that is used to create incident records from external systems, enabling integration with network management systems. To learn more, see [Trouble Ticket Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/trouble-ticket-open-api.md).
+A standard API that is used to create incident records from external systems, enabling integration with network management systems. To learn more, see [Trouble Ticket Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/trouble-ticket-open-api.md).
 
 ### tolerance rules
 

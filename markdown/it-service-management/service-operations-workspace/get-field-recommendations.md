@@ -3,11 +3,11 @@ title: Get field recommendations
 description: Get incident field recommendations in Service Operations Workspace while creating or updating incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/get-field-recommendations.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Recommended Actions for ITSM in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -24,7 +24,7 @@ Role required: admin
 
 -   Field recommendations are only available in the Advanced Recommended actions for ITSM application, which requires the ITSM Pro package subscription.
 -   The recommendations associated with field recommendations must be active.
--   The field recommendations must be configured in the Recommended Actions. For more information, see [Create a field recommendation in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-field-recs-create.md).
+-   The field recommendations must be configured in the Recommended Actions. For more information, see [Create a field recommendation in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-csm-field-recs-create.md).
 
 ## Procedure
 
@@ -32,15 +32,15 @@ Role required: admin
 
 2.  Perform one of the following actions to start creating an incident.
 
-<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d249978e103">
+<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d254781e103">
 
 Option
 
-</th><th align="left" id="d249978e106">
+</th><th align="left" id="d254781e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d249978e112">
+</th></tr></thead><tbody><tr><td id="d254781e112">
 
 **From the List menu**
 
@@ -51,7 +51,7 @@ Description
 3.  Select **New Incident**.
 
 
-</td></tr><tr><td id="d249978e151">
+</td></tr><tr><td id="d254781e151">
 
 **From an incident list**
 
@@ -69,7 +69,7 @@ Description
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d249978e191">
+</td></tr><tr><td id="d254781e191">
 
 **From an interaction**
 
@@ -95,5 +95,5 @@ Description
         \[Omitted image "ra\_get\_field\_recommendations\_drop-down.png"\] Alt text: UI of the field recommendations on a new incident form when using a version after 4.2.
 
 
-**Parent Topic:**[Recommended Actions for ITSM in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/recommended-actions-for-itsm-in-service-operations-workspace.md)
+**Parent Topic:**[Recommended Actions for ITSM in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/recommended-actions-for-itsm-in-service-operations-workspace.md)
 

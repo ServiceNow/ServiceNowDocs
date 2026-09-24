@@ -3,11 +3,11 @@ title: Set up Agent-Initiated Messaging Interface for a messaging channel
 description: Set up the Agent-Initiated Messaging Interface application to send messages from a messaging channel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/agent-chat/agent-init-messg-setup.html
-release: australia
+release: brazil
 product: Agent Chat
 classification: agent-chat
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure Agent-Initiated Messaging Interface, Configure, Agent Chat, Conversational Interfaces]
 ---
@@ -18,9 +18,9 @@ Set up the Agent-Initiated Messaging Interface application to send messages from
 
 ## Before you begin
 
--   [Install agent-initiated messaging interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/install-agent-init-messg.md).
--   [Review the list of messaging channels available for the Agent-Initiated Messaging Interface application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/agent-init-messg-sc-setting.md).
--   Set the application scope to the application associated with the messaging channel using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
+-   [Install agent-initiated messaging interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/agent-chat/install-agent-init-messg.md).
+-   [Review the list of messaging channels available for the Agent-Initiated Messaging Interface application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/agent-chat/agent-init-messg-sc-setting.md).
+-   Set the application scope to the application associated with the messaging channel using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationPicker.md).
 
     For example, for using the SMS messaging channel, set the application scope to the Conversational SMS service channel application.
 
@@ -31,7 +31,7 @@ Role required: admin
 
 A messaging channel is available when you install the application associated with a service channel.
 
-For example, use the SMS messaging channel to send an SMS message to a customer. The SMS messaging channel is available when you have installed the [Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/install-conversational-sms.md) application.
+For example, use the SMS messaging channel to send an SMS message to a customer. The SMS messaging channel is available when you have installed the [Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/advanced-work-assignment/install-conversational-sms.md) application.
 
 ## Procedure
 
@@ -68,7 +68,7 @@ Check if active recipient profile exists
 
 </td><td>
 
-Option to ensure that an active channel user profile exists when sending messages to the user from the channel.If there are no active channel user profiles, the associated channel is not available for agent-initiated messages. In this case, the channel does not appear in the **Channel** field of the Compose Message form. For information on the Compose Message form available in CRM Workspace, see [Initiate messaging conversations from CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/agent-init-messg-csm-cws.md).
+Option to ensure that an active channel user profile exists when sending messages to the user from the channel.If there are no active channel user profiles, the associated channel is not available for agent-initiated messages. In this case, the channel does not appear in the **Channel** field of the Compose Message form. For information on the Compose Message form available in CRM Workspace, see Initiate messaging conversations from CSM Configurable Workspace.
 
 </td></tr><tr><td>
 
@@ -100,7 +100,7 @@ Order
 
 </td><td>
 
-Order number for each channel in which they appear for agent on the Compose Message form when composing messages. The channel that has the lowest order number is displayed first.For information on the Compose Message form available in CRM Workspace, see [Initiate messaging conversations from CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/agent-init-messg-csm-cws.md).
+Order number for each channel in which they appear for agent on the Compose Message form when composing messages. The channel that has the lowest order number is displayed first.For information on the Compose Message form available in CRM Workspace, see Initiate messaging conversations from CSM Configurable Workspace.
 
 </td></tr></tbody>
 </table>4.  Save the configuration setting.
@@ -108,5 +108,5 @@ Order number for each channel in which they appear for agent on the Compose Mess
     -   If you created a new configuration setting, click **Submit**.
     -   If you modified an existing configuration setting, click **Update**.
 
-**Parent Topic:**[Configuring Agent-Initiated Messaging Interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/config-agent-init-messg-interface.md)
+**Parent Topic:**[Configuring Agent-Initiated Messaging Interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/agent-chat/config-agent-init-messg-interface.md)
 

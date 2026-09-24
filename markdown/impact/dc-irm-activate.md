@@ -3,9 +3,9 @@ title: Activate Data Collection for IRM
 description: Activate the Data Collection Pack for IRM after you enable and configure it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/dc-irm-activate.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Impact Value Management Data Collection Content Pack for IRM, Enable data collection for Value Management, Configuring Impact, Impact]
 ---
@@ -57,5 +57,5 @@ Role required: admin, pa\_admin, or pa\_data\_collector
         To validate historical data for any specific indicator, select the widget on the dashboard.
 
 
-**Parent Topic:**[Impact Value Management Data Collection Content Pack for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-irm.md)
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-irm.md)
 

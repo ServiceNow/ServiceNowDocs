@@ -3,11 +3,11 @@ title: Agent Client Collector statuses
 description: The following table lists and describes the Agent Client Collector statuses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/agent-statuses.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ACC-F reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
@@ -28,5 +28,5 @@ The following table lists and describes the Agent Client Collector statuses.
 |Registration Failed|The agent failed to register with the instance and was not issued a certificate. See Agent Issues for more info.|
 |Unknown|Agent’s MID Server has not sent a keepalive communication for over 10 minutes \(based on the value of the sn\_agent.keep\_alive.disconnected\_duration system property\).|
 
-**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
+**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
 

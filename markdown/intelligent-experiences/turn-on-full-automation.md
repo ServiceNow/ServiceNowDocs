@@ -3,12 +3,12 @@ title: Turn on full automation mode
 description: Turn on Full automation mode to automatically complete and submit document tasks without an agent review. Full automation mode is turned off by default in document extraction use cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/turn-on-full-automation.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, Gen AI, Generative AI, Document Intelligence]
-breadcrumb: [Information Extraction skill, Configure, Content Understanding, Enable AI experiences]
+breadcrumb: [Information Extraction skill, Configure, Content Understanding, Generative AI skills, Enable AI Experiences]
 ---
 
 # Turn on full automation mode
@@ -17,13 +17,13 @@ Turn on Full automation mode to automatically complete and submit document tasks
 
 ## Before you begin
 
--   Set up a use case for the Information Extraction skill. For more information, see [Configure Information Extraction skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/cu-configure-information-extraction-skill.md).
+-   Set up a use case for the Information Extraction skill. For more information, see [Configure Information Extraction skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/cu-configure-information-extraction-skill.md).
 -   Role required: DocIntel Manager \[sn\_docintel.manager\]
 
 
 ## About this task
 
-The extraction mode determines how Content Understanding processes document tasks for a use case. For more information, see [Automation modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/automation-modes.md).
+The extraction mode determines how Content Understanding processes document tasks for a use case. For more information, see [Automation modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/automation-modes.md).
 
 **Warning:** AI may not always produce accurate, complete, or appropriate information. By choosing to bypass the agent review, there is no way to check the accuracy of the predicted values before using the data in your workflows.
 
@@ -37,7 +37,7 @@ The extraction mode determines how Content Understanding processes document task
 
 4.  Select the use case you would like to configure.
 
-5.  Select the settings icon \(\[Omitted image "icon-docintel-settings-gear.png"\] Alt text: Use case settings icon\).
+5.  Select the settings icon \(\[Omitted image "image.icon-docintel-settings-gear"\] Alt text: Use case settings icon\).
 
 6.  On the Extraction mode screen, select the **Full automation mode \(no agent review required\)** option.
 
@@ -45,4 +45,6 @@ The extraction mode determines how Content Understanding processes document task
 
 8.  Close the Settings box.
 
+
+**Parent Topic:**[Configure Information Extraction skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/cu-configure-information-extraction-skill.md)
 

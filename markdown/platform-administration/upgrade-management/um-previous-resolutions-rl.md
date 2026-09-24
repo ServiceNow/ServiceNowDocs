@@ -3,11 +3,11 @@ title: Previous Resolutions related list
 description: The Previous Resolutions related list shows the history of the selected skipped record. You can see what resolutions have been done with the selected skipped record in the previous upgrades.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-previous-resolutions-rl.html
-release: australia
+release: brazil
 product: Upgrade Management
 classification: upgrade-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Skipped Records visual task board \(VTB\), Reviewing upgrade history, Upgrade History tool in Upgrade Console, Upgrade Console tools, Use, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
@@ -85,5 +85,5 @@ Table
 The table where the skipped record belongs.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Skipped Records visual task board \(VTB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-vtb-history.md)
+</table>**Parent Topic:**[Skipped Records visual task board \(VTB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-management/um-vtb-history.md)
 

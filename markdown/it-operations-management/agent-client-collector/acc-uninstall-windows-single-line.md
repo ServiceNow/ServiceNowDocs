@@ -3,11 +3,11 @@ title: Uninstall Agent Client Collector from a Windows system using a single-lin
 description: Uninstall the Agent Client Collector from a Windows machine by running an efficient single-line command. If the script is not connected to the instance, you might have to uninstall Agent Client Collector manually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-uninstall-windows-single-line.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Install ACC on a Windows machine using silent installation, ACC installation on a Windows machine, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -29,5 +29,5 @@ Role required: agent\_client\_collector\_admin
     **Note:** Uninstalling the Agent Client Collector removes the `acc.yml` file and its directory from your machine.
 
 
-**Parent Topic:**[Install the Agent Client Collector on a Windows machine using silent installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-windows-install-silent.md)
+**Parent Topic:**[Install the Agent Client Collector on a Windows machine using silent installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-windows-install-silent.md)
 

@@ -3,13 +3,13 @@ title: ServiceNow AI Lens limitations
 description: Be aware of a few limitations when you’re using the ServiceNow AI Lens application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/servicenow-lens/sn-lens-limitations.html
-release: australia
+release: brazil
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: reference
-last_updated: "2026-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, ServiceNow AI Lens, Enable AI experiences]
+breadcrumb: [Reference, ServiceNow AI Lens, Generative AI skills, Enable AI Experiences]
 ---
 
 # ServiceNow AI Lens limitations
@@ -83,5 +83,5 @@ Hallucinations
 If the large language model \(LLM\) returns text that doesn’t exist in the source artifacts, the LLM might inject out-of-context information. You must verify that all information aligns with the source material to ensure that there are no fabricated facts or unsupported conclusions.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow AI Lens reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-reference.md)
+</table>**Parent Topic:**[ServiceNow AI Lens reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-reference.md)
 

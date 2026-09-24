@@ -3,11 +3,11 @@ title: Create a related record to link
 description: Create a threat intelligence record directly from a related records list and link it to the record that you're viewing, without leaving your investigation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-create-new-related-record.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-08-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [create, related records, Threat Intelligence Security Center]
 breadcrumb: [Observables, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
@@ -58,5 +58,5 @@ While reviewing a threat intelligence record, create a record and link it within
 
 The new record appears in the related list of the record you started from.
 
-**Parent Topic:**[Observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/observables.md)
+**Parent Topic:**[Observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/observables.md)
 

@@ -3,9 +3,9 @@ title: Simplified IT Service Management
 description: Simplified IT Service Management provides an AI-native solution for simplified and automated implementation, and unified user experience across multiple ITSM applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/ai-native-it-service-desk-landing-page.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-04-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [IT Service Management]
 ---
@@ -18,23 +18,23 @@ Simplified IT Service Management provides an AI-native solution for simplified a
 
 <table id="table_pv2_ctf_53c" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text: Exploring Simplified IT Service Management concepts and featuresLearn about Simplified IT Service Management concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/exploring-ai-native-itsm.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text: Exploring Simplified IT Service Management concepts and featuresLearn about Simplified IT Service Management concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/exploring-ai-native-itsm.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text: Configuring Simplified IT Service ManagementConfigure IT Service Management using guided and conversational setup process.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configuring-ai-native-itsm.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text: Configuring Simplified IT Service ManagementConfigure IT Service Management using guided and conversational setup process.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/configuring-ai-native-itsm.md)
 
 </td><td>
 
-[Employee experience\[Omitted image "bus-start-discussion.svg"\] Alt text: Employee experience in Simplified IT Service ManagementExperience the automated self-service and browsing experience in Employee Slate.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/employee-experience-using-employee-slate.md)
+[Employee experience\[Omitted image "bus-start-discussion.svg"\] Alt text: Employee experience in Simplified IT Service ManagementExperience the automated self-service and browsing experience in Employee Slate.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/employee-experience-using-employee-slate.md)
 
 </td></tr><tr><td>
 
-[Fulfiller experience\[Omitted image "bus-community.svg"\] Alt text: Fulfiller experience in Simplified IT Service ManagementExperience the simplified fulfiller experience with AI recommendations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/fulfiller-experience-ai-native-itsm.md)
+[Fulfiller experience\[Omitted image "bus-community.svg"\] Alt text: Fulfiller experience in Simplified IT Service ManagementExperience the simplified fulfiller experience with AI recommendations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/fulfiller-experience-ai-native-itsm.md)
 
 </td><td>
 
-[AI agents\[Omitted image "bus-learn.svg"\] Alt text: AI agents in Simplified IT Service ManagementLearn about AI agents that enable autonomous configurations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/agents-ai-native-it-service-desk.md)
+[AI agents\[Omitted image "bus-learn.svg"\] Alt text: AI agents in Simplified IT Service ManagementLearn about AI agents that enable autonomous configurations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/agents-ai-native-it-service-desk.md)
 
 </td><td>
 

@@ -3,9 +3,9 @@ title: ServiceNow Otto for Enterprise Architecture \(EA\)
 description: Use ServiceNow Otto for Enterprise Architecture \(EA\) to use generative AI skills in the Enterprise Architecture Workspace. These skills help you summarize and refine content, generate and compare diagrams, gather insights into business applications, and query your enterprise architecture portfolio using natural language.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/now-assist-ea.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-07-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Enterprise Architecture]
 ---
@@ -22,23 +22,23 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 -   Advanced: AI to boost productivity across relevant use cases
 -   Prime: Act autonomously with all AI assets, and create your own
 
-For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 <table id="table_ojj_jjv_qdc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for EA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/exploring-now-assist-for-ea.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for EA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/exploring-now-assist-for-ea.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure ServiceNow Otto for EA to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-now-assist-ea.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure ServiceNow Otto for EA to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/configure-now-assist-ea.md)
 
 </td><td>
 
-[Use AI agents\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use the AI agent use cases in ServiceNow Otto for EA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/using-na-ea-ai-agents.md)
+[Use AI agents\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use the AI agent use cases in ServiceNow Otto for EA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/using-na-ea-ai-agents.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use the AI capabilities offered by Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/using-now-assist-for-ea.md)
+[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use the AI capabilities offered by Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/using-now-assist-for-ea.md)
 
 </td><td>
 
@@ -71,14 +71,16 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect incident data \(for Incident Assist and Knowledge Assist\) and chat transcripts \(for Chat Assist\). Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect incident data \(for Incident Assist and Knowledge Assist\) and chat transcripts \(for Chat Assist\). Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md).
 
--   **[Exploring ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/exploring-now-assist-for-ea.md)**  
+-   **[Exploring ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/exploring-now-assist-for-ea.md)**  
 With the ServiceNow Otto for EA features, you can use generative AI skills to summarize and refine content, generate and compare diagrams, gather insights into business applications, and query your enterprise architecture portfolio using natural language in the Enterprise Architecture Workspace.
--   **[Using ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/using-now-assist-for-ea.md)**  
+-   **[Using ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/using-now-assist-for-ea.md)**  
 With the ServiceNow Otto for Enterprise Architecture \(EA\) application, you can use generative AI skills to summarize and refine content, generate and compare diagrams, and gather insights into business applications. You can also query your enterprise architecture portfolio using natural language in the Enterprise Architecture Workspace.
+-   **[ServiceNow Otto for Enterprise Architecture reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/now-assist-ea-reference.md)**  
+Reference information to provide additional information about tables, roles, and properties installed with ServiceNow Otto for Enterprise Architecture \(EA\).
 
-**Parent Topic:**[Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/application-portfolio-management-landing-page.md)
+**Parent Topic:**[Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/application-portfolio-management-landing-page.md)
 

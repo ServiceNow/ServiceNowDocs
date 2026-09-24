@@ -3,11 +3,11 @@ title: SLAConditionSimple script
 description: The SLAConditionSimple script include provides an example modification of default SLA condition processing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/r\_SLAConditionSimple.html
-release: australia
+release: brazil
 product: Service Level Management
 classification: service-level-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SLA condition rules, Service Level Management reference, Service Level Management, IT Service Management]
 ---
@@ -24,5 +24,5 @@ The following diagram shows how the transitions work:
 
 \[Omitted image "SLAConditionSimple.png"\] Alt text: Task SLA simple condition stage transition diagram
 
-**Parent Topic:**[SLA condition rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/c_SLAConditionRules.md)
+**Parent Topic:**[SLA condition rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/c_SLAConditionRules.md)
 

@@ -3,7 +3,7 @@ title: Set up webhook for the SuccessFactors spoke
 description: Configure a webhook to subscribe to your SuccessFactors account with a ServiceNow callback URL.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-sapsf-webhooks.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -18,7 +18,7 @@ Configure a webhook to subscribe to your SuccessFactors account with a ServiceNo
 
 ## Before you begin
 
--   [Set up the SuccessFactors spoke v4.x.x](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-successfactors.md)
+-   [Set up the SuccessFactors spoke v4.x.x](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-successfactors.md)
 -   Role required: admin
 
 ## Procedure

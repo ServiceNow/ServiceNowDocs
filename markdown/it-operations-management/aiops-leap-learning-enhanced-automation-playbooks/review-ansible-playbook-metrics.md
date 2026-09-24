@@ -3,11 +3,11 @@ title: Review Ansible playbook metrics
 description: Use the Ansible playbooks tab on the LEAP value dashboard to review Ansible execution counts, agent-hours saved, and top automation opportunities resolved by Ansible.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/review-ansible-playbook-metrics.html
-release: australia
+release: brazil
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Ansible playbooks, Ansible metrics, LEAP dashboard, agent-hours saved, cost savings via Ansible]
 breadcrumb: [Monitor dashboard, Use, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]

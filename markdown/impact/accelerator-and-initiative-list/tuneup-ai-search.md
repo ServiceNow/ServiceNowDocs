@@ -3,11 +3,11 @@ title: TuneUp Your AI Search
 description: This Accelerator provides guidance on fine-tuning artificial intelligent \(AI\) Search to optimize performance and value.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/tuneup-ai-search.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
@@ -20,7 +20,7 @@ This Accelerator provides guidance on fine-tuning artificial intelligent \(AI\) 
 
 TuneUp Your AI Search Accelerator provides Impact customers with an assessment of AI Search performance and prescriptive guidance to optimize results and improve end-user experience. Included is an assessment of AI Search architecture and configuration, tuning AI Search, an overview of AI Search analytics, and prescriptive guidance on how to optimize performance.
 
-See [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/overview-ais.md) for additional information on AI Search.
+See [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/overview-ais.md) for additional information on AI Search.
 
 ## Package Availability
 

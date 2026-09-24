@@ -3,11 +3,11 @@ title: Activate the privacy notice for unauthenticated users
 description: If you enabled unauthenticated user tracking in your portal, you may be required by law to notify unauthenticated users that you are tracking their usage for analysis. You can display a legal notice by activating the Privacy Notice announcement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/activate-privacy-notice.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Usage Insights for Service Portal, Analytics and Reporting Solutions for Service Portal, Analyzing portal performance and usage, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -18,7 +18,7 @@ If you enabled unauthenticated user tracking in your portal, you may be required
 
 ## Before you begin
 
-By default, unauthenticated user tracking is turned off for portals. To modify analytics settings for a portal, see [Configure Usage Insights Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/config-analytics-settings.md).
+By default, unauthenticated user tracking is turned off for portals. To modify analytics settings for a portal, see [Configure Usage Insights Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/config-analytics-settings.md).
 
 Role required: sp\_admin
 
@@ -53,10 +53,10 @@ The Privacy Notice announcement is displayed to unauthenticated portal users.
 
 
 
-**Parent Topic:**[Usage Insights for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-analytics.md)
+**Parent Topic:**[Usage Insights for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/sp-analytics.md)
 
 **Related topics**  
 
 
-[Create an announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/create-announcement.md)
+[Create an announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/create-announcement.md)
 

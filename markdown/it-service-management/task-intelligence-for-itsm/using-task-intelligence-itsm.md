@@ -3,11 +3,11 @@ title: Managing Task Intelligence for ITSM models
 description: Use the machine learning capabilities of Task Intelligence for ITSM to predict field level recommendations and similar records on the incidents which appear as actionable recommendations in the side panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/task-intelligence-for-itsm/using-task-intelligence-itsm.html
-release: australia
+release: brazil
 product: Task Intelligence for ITSM
 classification: task-intelligence-for-itsm
 topic_type: concept
-last_updated: "2026-08-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Task Intelligence, ITSM, prediction models, machine learning, incident categorization, similar incidents, major incident recommendation, similar change requests, similar problems, field predictions, actionable recommendations, model training, model deployment, model assessment, prediction accuracy, analytics dashboard]
 audience: administrator
@@ -44,10 +44,10 @@ Creating a model involves the following steps:
 
 Before you deploy a model, preview how it performs on your data:
 
--   During setup, use the assess step to view sample predictions on past records. For more information, see [Assess the similarity model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/assess-the-similarity-model.md).
+-   During setup, use the assess step to view sample predictions on past records. For more information, see [Assess the similarity model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/task-intelligence-for-itsm/assess-the-similarity-model.md).
 -   To validate a model against live data without changing incident records, set the prediction behavior to **Monitor only**. The model runs in the background and stores predictions for you to review.
 
-After deployment, track prediction accuracy over time in the analytics dashboard. For more information, see [Monitoring and Analytics for Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/task-intel-monitor-analystics.md).
+After deployment, track prediction accuracy over time in the analytics dashboard. For more information, see [Monitoring and Analytics for Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/task-intelligence-for-itsm/task-intel-monitor-analystics.md).
 
 ## Editing a prediction model
 
@@ -57,14 +57,14 @@ Edit a prediction model that has already been trained and deployed. Change the m
 
 Export a prediction model in Task Intelligence for ITSM to another instance so you can use the model in the other instance without recreating the model from scratch.
 
--   **[Create an incident prediction model in Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/create-incident-prediction-model.md)**  
+-   **[Create an incident prediction model in Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/task-intelligence-for-itsm/create-incident-prediction-model.md)**  
 Create and deploy solution-based incident categorization prediction models to predict incidents fields for new IT service incidents.
--   **[Create a similar records prediction model in Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/create-a-similar-records-model-in-task-intelligence-for-itsm.md)**  
+-   **[Create a similar records prediction model in Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/task-intelligence-for-itsm/create-a-similar-records-model-in-task-intelligence-for-itsm.md)**  
 Set up a training model to help it recognize similarities between two types of tables by comparing their fields.
--   **[Edit an incident prediction model in Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/edit-your-model.md)**  
+-   **[Edit an incident prediction model in Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/task-intelligence-for-itsm/edit-your-model.md)**  
 Edit either the Similar Incidents or Incident Categorization model that has already been trained and deployed. Change the model configurations, view the updated training results, and redeploy the model.
--   **[Export an incident prediction model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/export-your-model.md)**  
+-   **[Export an incident prediction model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/task-intelligence-for-itsm/export-your-model.md)**  
 Export either the Similar Incidents or Incident Categorization model model in Task Intelligence for ITSM to another instance so you can use the model in the other instance without recreating the model from scratch.
 
-**Parent Topic:**[Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/c-itsm-task-intelligence.md)
+**Parent Topic:**[Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/task-intelligence-for-itsm/c-itsm-task-intelligence.md)
 

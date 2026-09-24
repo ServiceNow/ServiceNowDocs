@@ -1,18 +1,18 @@
 ---
-title: Install Tag Governance
+title: Install the application
 description: Install the Tag Governance app to execute tag audits, view the Tag Data Governance dashboard, and perform tag remediation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/tag-governance/install-tag-governance.html
-release: australia
+release: brazil
 product: Tag Governance
 classification: tag-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Tag Governance, ITOM Visibility, IT Operations Management]
 ---
 
-# Install Tag Governance
+# Install the application
 
 Install the Tag Governance app to execute tag audits, view the Tag Data Governance dashboard, and perform tag remediation.
 
@@ -32,5 +32,5 @@ Role required: sn\_itom\_tag.tag\_governance\_admin, admin
 
 ## What to do next
 
-Configure Tag Governance policies to run on discovered resources. See [Configure a tag policy for Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/tag-governance/configure-tag-governance-policy.md).
+Configure Tag Governance policies to run on discovered resources. See [Configure tag policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/tag-governance/configure-tag-governance-policy.md).
 

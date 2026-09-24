@@ -3,11 +3,11 @@ title: Managing demands in Next Experience for Demand Management
 description: Next Experience for Demand Management is a workspace for creating, tracking, prioritizing, and approving demands.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/managing-demands-in-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2026-05-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [use]
 breadcrumb: [Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]

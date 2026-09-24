@@ -1,19 +1,19 @@
 ---
-title: Approvals
+title: Explore Approvals
 description: Explore the Approvals section on the Configurations page of AI Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/explore-approvals.html
-release: australia
+release: brazil
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Controls, Configurations, AI Control Tower dashboard, Explore, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [Controls, Configurations, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
-# Approvals
+# Explore Approvals
 
 Explore the **Approvals** section on the Configurations page of AI Control Tower.
 
@@ -29,8 +29,4 @@ The approvals page has two features to set up governance of your approvals for A
 -   Automatically trigger playbooks- enabling automatically trigger playbooks control triggers approval requests for AI assets. When inactive, only the AI steward can initiate requests manually. The recommendation is to have this control activated in the production environment.
 
 \[Omitted image "approvals-aict-config.png"\] Alt text:
-
-**Note:**
-
-The controls on Approvals are specific to ServiceNow. They govern which models and MCP servers can be used within Agent Studio / NASK, etc. At this stage, there is only limited control over blocking deployments and the activation of skills and agents. Now Assist has it on its backlog to enforce governance.
 

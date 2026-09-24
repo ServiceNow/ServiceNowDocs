@@ -3,11 +3,11 @@ title: Set up the Amazon EBS spoke
 description: Integrate the ServiceNow instance and Amazon EBS account using AWS credential to authenticate ServiceNow requests.Create Credential record for your Amazon EBS account. The Amazon EBS spoke connection and credential alias uses this credential to perform actions on Amazon EBS.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-ebs.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Amazon EBS Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---

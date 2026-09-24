@@ -3,11 +3,11 @@ title: Analytics Hub UUIDs
 description: Every combination of breakdowns, elements, a time series aggregation, and a domain that you specify for an indicator has a unique identifier \(UUID\). To write scripts or just to understand how the Analytics Hub works, you should understand how these UUIDs are constructed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/analytics-hub-uuids.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Analytics Hub for a specific indicator, Analytics Hub, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -28,14 +28,14 @@ Each combination is represented by a so-called UUID. The UUID is concatenated fr
 
 `&lt;indicator\_sys\_id&gt;:&lt;breakdown\_sys\_id&gt;:&lt;elements\_filter\_sys\_id or element\_sys\_ids&gt;:&lt;lvl-2 breakdown\_sys\_id&gt;:&lt;lvl-2 elements\_filter\_sys\_id or element\_sys\_ids&gt;:&lt;aggregate\_sys\_id&gt;;&lt;domain\_sys\_id&gt;`
 
-All specifiers other than **indicator\_sys\_id** are optional, with one exception: If a **breakdown\_sys\_id** is specified, so must be at least one **element\_sys\_id**. To specify a breakdown and not specify elements, for example to get a list of all elements, the breakdown sys\_id goes in a separate parameter. For an example, see this [GET/now/pa/scorecards REST API example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/r_PerformanceAnalyticsAPIExamples.md). To refer to those scores that do not match any elements of the specified breakdown, the string `unmatched` goes in place of an **element\_sys\_id**.
+All specifiers other than **indicator\_sys\_id** are optional, with one exception: If a **breakdown\_sys\_id** is specified, so must be at least one **element\_sys\_id**. To specify a breakdown and not specify elements, for example to get a list of all elements, the breakdown sys\_id goes in a separate parameter. For an example, see this [GET/now/pa/scorecards REST API example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/r_PerformanceAnalyticsAPIExamples.md). To refer to those scores that do not match any elements of the specified breakdown, the string `unmatched` goes in place of an **element\_sys\_id**.
 
 Targets, thresholds, and other Analytics Hub and KPI Details functions apply per UUID. In other words, they apply separately to each unique combination of indicator, breakdowns, elements and element filters, time series aggregation, and domain. The KPI Signals application also monitors each fully specified indicator separately, per UUID.
 
 **Related topics**  
 
 
-[Integrate Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PAWebServiceIntegrations.md)
+[Integrate Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_PAWebServiceIntegrations.md)
 
-[KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details.md)
+[KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/kpi-details.md)
 

@@ -3,9 +3,9 @@ title: Implement the overflow menu for active calls
 description: Configure the toolbar layout order for the active call component so that call control buttons exceeding the available toolbar slots appear in the overflow menu.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/implement-overflow-menu-icc.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [overflow menu, active call component, toolbar layout order, ICC, call controls]
 breadcrumb: [ICC for voice calls, Integrating with Computer Telephony Integration \(CTI\), Integrate, Customer Service Management]
@@ -47,7 +47,7 @@ The toolbar on the active call component displays a maximum of six call control 
     |Supervisor Help Request|`help_request`|
     |Report Quality Issue|`flag`|
 
-    **Note:** If your implementation includes recording, the recording button is first and can't be repositioned. Adjust **toolbarLayoutOrder** and the button order in UI Builder together to keep them in sync.
+    **Note:** If your implementation includes recording, the recording button is first and cannot be repositioned. Adjust **toolbarLayoutOrder** and the button order in UI Builder together to keep them in sync.
 
     Two buttons have specific conditions:
 

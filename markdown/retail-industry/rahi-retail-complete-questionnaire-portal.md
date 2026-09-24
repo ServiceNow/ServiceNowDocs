@@ -3,7 +3,7 @@ title: Complete a questionnaire for a Store Task on the Retail Portal
 description: Complete task-based questionnaires for HQ-to-store communication directly on the Retail Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-complete-questionnaire-portal.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-07-14"
 reading_time_minutes: 1
@@ -46,5 +46,5 @@ Role required: sn\_rtl\_instore\_ops.manager or sn\_rtl\_instore\_ops.associate
     -   Once submitted, the questionnaire card updates to **Completed** with a timestamp, and the questionnaire becomes read-only.
     -   If the Store Task is reassigned before the questionnaire is submitted, the original questionnaire instance is abandoned and a new instance is created for the new assignee. Partial answers aren't carried over.
 
-**Parent Topic:**[Fulfill In-store operations cases and tasks on the Retail Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-fulfill-in-store-ops-portal.md)
+**Parent Topic:**[Fulfill In-store operations cases and tasks on the Retail Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-fulfill-in-store-ops-portal.md)
 

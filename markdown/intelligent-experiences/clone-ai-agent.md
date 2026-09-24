@@ -3,11 +3,11 @@ title: Duplicate an AI agent
 description: Duplicate an existing AI agent in AI Agent Studio so that you can save time by not having to manually configure or create AI agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/clone-ai-agent.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create an AI agent, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Create an AI agent, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Duplicate an AI agent

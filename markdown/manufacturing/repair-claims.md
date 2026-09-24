@@ -3,9 +3,9 @@ title: Repair claims data model
 description: The repair claims framework enables the dealer to raise a reimbursement claim request for the repair of the equipment or product that is under warranty contract.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/repair-claims.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data model, Reference, Manufacturing Commercial Operations]
 ---
@@ -28,8 +28,8 @@ The following diagram shows the entities and their relationships within the repa
 
 \[Omitted image "Data-model-repair-claim.png"\] Alt text: Decorative
 
--   **[Repair claims tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/repair-claims-tables.md)**  
-This section explains the repair claim tables in Manufacturing Commercial Operations.
+-   **[Repair claims tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/repair-claims-tables.md)**  
+The repair claim tables store data for repair claim requests, expenses, and case details in Manufacturing Commercial Operations.
 
-**Parent Topic:**[Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/data-model.md)
+**Parent Topic:**[Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/data-model.md)
 

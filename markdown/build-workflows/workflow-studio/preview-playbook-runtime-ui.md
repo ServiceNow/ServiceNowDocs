@@ -3,11 +3,11 @@ title: Preview an activity's runtime UI
 description: See how an activity will appear to end users when the playbook runs. Use the preview to confirm the activity's appearance as you work, and adjust its configuration before you activate the playbook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/preview-playbook-runtime-ui.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Creating and managing Playbooks, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -54,7 +54,7 @@ The preview appears in the activity property panel, beside the **Details**, **Au
 
     2.  Under **Associated Record**, enter a table to reference in the **Associated table** field.
 
-    3.  Select the Data pill picker icon \[Omitted image "data-pill-picker-icon.png"\] Alt text: Data pill picker icon next to the **Associated record** field.
+    3.  Select the Data pill picker icon \[Omitted image "data-pill-picker-icon.png"\] next to the **Associated record** field.
 
         If the data pill can't be resolved the option to add sample data is enabled.
 
@@ -75,5 +75,5 @@ The preview appears in the activity property panel, beside the **Details**, **Au
 8.  Select **Save and close** to close the preview.
 
 
-**Parent Topic:**[Creating and managing Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/creating-managing-playbooks.md)
+**Parent Topic:**[Creating and managing Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/creating-managing-playbooks.md)
 

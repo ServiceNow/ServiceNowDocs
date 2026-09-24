@@ -1,20 +1,20 @@
 ---
 title: Create custom security event notification policies
-description: Create custom security event notifications for your organization to monitor user and group actions and generate alerts for potential security risks.
+description: Learn how to create custom security event notifications that are specific to your organization's needs. This enables you to monitor actions taken by users and groups on your instance and generate notifications for potential security risks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/create-a-policy.html
-release: australia
+release: brazil
 product: Security Center
 classification: security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Event Notifications, Security monitoring console, Security Center, Platform Security]
 ---
 
 # Create custom security event notification policies
 
-Create custom security event notifications for your organization to monitor user and group actions and generate alerts for potential security risks.
+Learn how to create custom security event notifications that are specific to your organization's needs. This enables you to monitor actions taken by users and groups on your instance and generate notifications for potential security risks.
 
 ## Before you begin
 
@@ -30,8 +30,8 @@ Role required: admin
 
 4.  Configure the policy.
 
-    See [Configure preferences for security event notification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/configure-preferences-for-security-event-notifications.md) to learn how to configure your new custom security event notification policy.
+    See [Configure preferences for security event notification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/configure-preferences-for-security-event-notifications.md) to learn how to configure your new custom security event notification policy.
 
 
-**Parent Topic:**[Security Event Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/security-policies.md)
+**Parent Topic:**[Security Event Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/security-policies.md)
 

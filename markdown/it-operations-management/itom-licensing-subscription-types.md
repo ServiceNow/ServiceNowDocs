@@ -3,9 +3,9 @@ title: ITOM/OT SU Licensing subscription types
 description: Purchase licensing subscriptions for ITOM products individually \(a la carte\), bundle several products together, or opt for both individual and bundled subscriptions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-licensing-subscription-types.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---

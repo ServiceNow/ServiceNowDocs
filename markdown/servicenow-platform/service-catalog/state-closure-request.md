@@ -3,11 +3,11 @@ title: State closure in the request fulfillment execution plan
 description: The state closure in the request fulfillment process of a catalog item depends on the status of the associated catalog tasks, request items, and the request. It is applicable only for execution flows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/state-closure-request.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Catalog request fulfillment, Configuring Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,5 +28,5 @@ The state closure in the request fulfillment process of a catalog item depends o
 -   If there is at least one RITM closed as **Closed Incomplete**, the request is closed as **Closed Incomplete**.
 -   If all RITMs are closed as **Closed Skipped**, the request is closed as **Closed Skipped**.
 
-**Parent Topic:**[Service Catalog request fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-fulfillment.md)
+**Parent Topic:**[Service Catalog request fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/request-fulfillment.md)
 

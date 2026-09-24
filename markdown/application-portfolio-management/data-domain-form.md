@@ -3,11 +3,11 @@ title: Data Domain form
 description: Define and manage a data domain to organize related information objects within a hierarchical structure. Data domains help categorize data discovered in database catalogs by ServiceNow Discovery. A data catalog lists all the catalog objects, or databases, discovered for an instance of a database.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/data-domain-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Data Domain form
@@ -57,12 +57,12 @@ Leaf Node
 Indicator that the data domain is at the lowest level of the hierarchy.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+</table>**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-form-field-information.md)
 
 **Related topics**  
 
 
-[Add or edit a data domain from the Portfolio page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-or-edit-a-data-domain-from-the-portfolio-page.md)
+[Add or edit a data domain from the Portfolio page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-add-or-edit-a-data-domain-from-the-portfolio-page.md)
 
-[Add or edit an information data domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-edit-info-data-domain.md)
+[Add or edit an information data domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-add-edit-info-data-domain.md)
 

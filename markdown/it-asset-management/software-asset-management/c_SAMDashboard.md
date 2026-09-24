@@ -3,11 +3,11 @@ title: Software Asset Management dashboard
 description: View true-up costs, optimization results, and compliance trend charts on the Software Asset Management dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/c\_SAMDashboard.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Platform Analytics Solution for Software Asset Management classic, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -16,9 +16,9 @@ breadcrumb: [Platform Analytics Solution for Software Asset Management classic, 
 
 View true-up costs, optimization results, and compliance trend charts on the Software Asset Management dashboard.
 
-**Note:** The Software Asset Management dashboard is no longer available for new Australia users who have activated the Software Asset Management Professional \(com.snc.samp\) plugin or upgraded to Australia without activating the Software Asset Management Professional \(com.snc.samp\) plugin prior to Australia.
+**Note:** The Software Asset Management dashboard is no longer available for new Brazil users who have activated the Software Asset Management Professional \(com.snc.samp\) plugin or upgraded to Brazil without activating the Software Asset Management Professional \(com.snc.samp\) plugin prior to Brazil.
 
--   If you activated the Software Asset Management Professional \(com.snc.samp\) plugin prior to Australia but didn't activate the Workspace plugin \(com.sn\_sam\_workspace\), you have access to this dashboard.
+-   If you activated the Software Asset Management Professional \(com.snc.samp\) plugin prior to Brazil but didn't activate the Workspace plugin \(com.sn\_sam\_workspace\), you have access to this dashboard.
 -   If you activated the Software Asset Workspace \(sn\_sam\_workspace\) store application after upgrading to Zurich, you won’t be able to access this dashboard from the **Software Asset** navigation menu in your instance. You can however access this dashboard from the **Dashboards** navigation menu.
 
 The Software Asset Management dashboard tab is accessed by navigating to **Software Asset** &gt; **Overview** and selecting **Software Asset Management** from the dashboard list. Select an element within a report to see more information, or add and move widgets as needed.
@@ -153,7 +153,7 @@ Actual Savings per Month
 State is Closed Complete AND Closed in Last 12 Months
 
 </td></tr></tbody>
-</table>[Removal candidate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddAReclCandidate.md) state color key:
+</table>[Removal candidate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/t_AddAReclCandidate.md) state color key:
 
 |Color|State|
 |-----|-----|
@@ -185,5 +185,5 @@ Compliance analysis consists of time-series data using Performance Analytics to 
 |Breakdowns|Shows the detailed list of results based on the widget selected.|
 |Records|Shows the detailed list of product results based on the widget selected.|
 
-**Parent Topic:**[Platform Analytics Solution for Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-asset-mgmt-content-pack.md)
+**Parent Topic:**[Platform Analytics Solution for Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/software-asset-mgmt-content-pack.md)
 

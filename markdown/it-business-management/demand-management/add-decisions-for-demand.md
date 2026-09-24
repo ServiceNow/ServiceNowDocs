@@ -3,11 +3,11 @@ title: Add decisions for a demand
 description: As a demand manager, develop a plan to manage risks and issues proactively with solutions. Add the solution for a risk or issue to a demand in the form of a decision. You can also convert a risk or an issue to a decision or a decision to an action or a request change.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/add-decisions-for-demand.html
-release: australia
+release: brazil
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) records, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -30,7 +30,7 @@ Role required: it\_demand\_manager
 
 4.  On the Decision form, fill in the fields.
 
-    For a description of the field names, see [Decision form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/decision-form.md).
+    For a description of the field names, see [Decision form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/decision-form.md).
 
 5.  Search in the knowledge base for any article related to the decision.
 
@@ -47,8 +47,8 @@ Role required: it\_demand\_manager
 
 ## What to do next
 
--   Convert a decision to an action or request change and close the decision. For more information, see [Convert one RIDAC record to another for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/convert-ridac-for-demand.md).
--   Associate the decision with your existing issues and risks so you can track dependencies and recognize trends for the future. For more information, see [Associate existing RIDAC records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/reassociate-ridac-demand.md).
+-   Convert a decision to an action or request change and close the decision. For more information, see [Convert one RIDAC record to another for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/convert-ridac-for-demand.md).
+-   Associate the decision with your existing issues and risks so you can track dependencies and recognize trends for the future. For more information, see [Associate existing RIDAC records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/reassociate-ridac-demand.md).
 
-**Parent Topic:**[RIDACs records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/ridac-entries-for-demand.md)
+**Parent Topic:**[RIDACs records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/ridac-entries-for-demand.md)
 

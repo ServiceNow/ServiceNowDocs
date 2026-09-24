@@ -3,9 +3,9 @@ title: Copy a cost book
 description: Duplicate a cost book and its cost book lines.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/copy-cost-book.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---

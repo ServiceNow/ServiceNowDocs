@@ -3,11 +3,11 @@ title: NIST Framework Profiling Overview dashboard
 description: NIST Framework Profiling Overview dashboard contains reports within each of the sections in the NIST RMF process: Categorize, Select, Implement, Assess, Authorize, and Monitor. You can view these reports in the Next Experience UI Framework.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/nist-framework-db-pc.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Analytics and Reporting solutions for GRC: Policy and Compliance Management, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -42,5 +42,5 @@ To open the dashboard, navigate to **All** &gt; **NIST CSF** &gt; **Framework Pr
 |Failed Indicators|Displays an overview of failed indicators that for cybersecurity activities. Indicators are grouped by policies, entity class, entities, or functions.|
 |Action Plans|Displays an overview of action plans that exist for cybersecurity activities. Action plans are grouped by policies, entity class, entities, or functions.|
 
-**Parent Topic:**[Analytics and Reporting solutions for GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/grc-policy-compliance-content-pack.md)
+**Parent Topic:**[Analytics and Reporting solutions for GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/grc-policy-compliance-content-pack.md)
 

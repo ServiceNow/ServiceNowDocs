@@ -3,11 +3,11 @@ title: Defining Approval Rule for Inbound Intel
 description: Define approval rules to control whether certain profiles or groups require approval before processing the inbound intelligence.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-approval-inbound-intel.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring Inbound Intel Sharing, Configuring Threat Intelligence External Sharing, Administer, Threat Intelligence Security Center, Security Operations]
 ---
@@ -46,7 +46,7 @@ Role required: sn\_sec\_tisc.admin
     -   One or more assigned approvers review the changes made by the analyst and choose to either approve or reject the request.
     -   After a decision is made, an email notification is sent to email addresses as configured in the corresponding inbound intelligence sharing profile, indicating whether the record has been approved or rejected.
 
-**Parent Topic:**[Exploring Inbound Intel Sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-inbound-intel-sharing.md)
+**Parent Topic:**[Exploring Inbound Intel Sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-inbound-intel-sharing.md)
 
 **Related topics**  
 

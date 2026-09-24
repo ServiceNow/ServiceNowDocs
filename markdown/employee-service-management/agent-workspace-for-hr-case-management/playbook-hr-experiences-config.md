@@ -3,11 +3,11 @@ title: Configure HR Playbook Experiences
 description: Use Playbook Experiences to modify the default playbook experience configurations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/playbook-hr-experiences-config.html
-release: australia
+release: brazil
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [HR Playbook Experience, Setting up HR Service Delivery Playbook, HR Service Delivery Playbook, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---

@@ -3,11 +3,11 @@ title: Create a change schedule from the Change Schedules page
 description: You can create a change schedule to view all scheduled changes, change tasks, blackout periods, maintenance windows for any given date, week, month, or year.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/create-chng-sch-from-chng-sch-page.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Change schedules, Configure, Change Management, IT Service Management]
 ---
@@ -44,7 +44,7 @@ You can create a change schedule to view all scheduled changes, change tasks, bl
     The change schedule is displayed in the timeline view.
 
 
-**Parent Topic:**[Change schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-schedule.md)
+**Parent Topic:**[Change schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-schedule.md)
 
 **Related topics**  
 

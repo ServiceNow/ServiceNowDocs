@@ -3,11 +3,11 @@ title: Create post-provision operations
 description: Create post-provision tasks for newly provisioned catalog items by defining subflows, scripts, CAPI calls, or resource operations. For efficiency, set up a post-provision operation, eliminating the need for manual invocation. This approach enhances time management, ensuring seamless execution of desired actions on the catalog item after resource provisioning.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-post-provisioning.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a cloud catalog item, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -60,7 +60,7 @@ Script: Enter the name of the script.
     -   Interface Operation
 -   Flow: Select a subflow. All active subflows in the instance are listed.
 
-**Note:** For more information, see [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/subflows.md).
+**Note:** For more information, see [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/subflows.md).
 
 </td></tr><tr><td>
 
@@ -91,7 +91,7 @@ Option for enabling the post-provision operation you want invoked.
 
     2.  Select the post-provision operation to update.
 
-        All attributes for the selected operation appear in the Operations list. You can either create expression mappings \(shown in the **Mapping** column\) for an attribute or can you generate variables for an attribute. See [Manage operation attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/manage-attributes.md) for more information.
+        All attributes for the selected operation appear in the Operations list. You can either create expression mappings \(shown in the **Mapping** column\) for an attribute or can you generate variables for an attribute. See [Manage operation attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/manage-attributes.md) for more information.
 
         \[Omitted image "manage-attributes-post-provision.png"\] Alt text: Post-provisioning attributes
 

@@ -3,7 +3,7 @@ title: Integrating CPQ
 description: Learn how CPQ connects with downstream systems and UI frameworks—visualization engines \(CDS, kBridge, Threekit\), eCommerce storefronts \(Shopify, headless\), and Salesforce \(CPQ, B2B Commerce, Base Package\)—to deliver real-time, guided configuration, pricing, and ordering at scale.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/integrations.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -38,9 +38,9 @@ Limits and behaviors \(visualization\):
 **Related topics**  
 
 
-[Integrating CPQ with visualization tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/logik-io-integration-wtih-visualization-tools.md)
+[Integrating CPQ with visualization tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/logik-io-integration-wtih-visualization-tools.md)
 
-[CPQ integration with Salesforce B2B Commerce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/logik_io_integration_with_salesforce_b2b_commerce.md)
+[CPQ integration with Salesforce B2B Commerce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/logik_io_integration_with_salesforce_b2b_commerce.md)
 
-[Request provisioning of an SFDC org with a CPQ environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-request-provisioning-of-an-sfdc-org-with-a-servicenow-cpq-environment.md)
+[Request provisioning of an SFDC org with a CPQ environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-request-provisioning-of-an-sfdc-org-with-a-servicenow-cpq-environment.md)
 

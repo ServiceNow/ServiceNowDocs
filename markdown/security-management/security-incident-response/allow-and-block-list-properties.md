@@ -3,11 +3,11 @@ title: Allow and Block Request List Entries
 description: Field descriptions for Allow and Block List properties outline how each field controls the behavior of observables when they are added to Allow or Block lists within the CrowdStrike Falcon Insight integration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/allow-and-block-list-properties.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SIR Integration References, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

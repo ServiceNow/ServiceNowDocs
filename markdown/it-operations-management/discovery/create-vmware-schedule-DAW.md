@@ -3,11 +3,11 @@ title: Create a VMware Discovery schedule in Discovery Admin Workspace
 description: Use the Discovery Admin Workspace dashboard to create a VMware Discovery schedule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/create-vmware-schedule-DAW.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-07-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery for VMware, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
@@ -21,10 +21,10 @@ Use the Discovery Admin Workspace dashboard to create a VMware Discovery schedul
 
 Verify the following:
 
--   You have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/use-mid-server-guidedsetup.md) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md) and [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-install-prereqs.md).
+-   You have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/use-mid-server-guidedsetup.md) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md) and [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-install-prereqs.md).
 -   The MID Server used for Cloud Discovery is configured with the Cloud Management capability.
 -   Configure a vSphere user in the VMware vSphere Client with the required roles and permissions. This grants the MID Server access to the cloud resources you plan to discover.
--   You have created suitable credentials in the ServiceNow AI Platform to connect with the vSphere user that you want to use for discovery. For more information, see [Discovery for VMware](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/vmware-cloud-discovery.md).
+-   You have created suitable credentials in the ServiceNow AI Platform to connect with the vSphere user that you want to use for discovery. For more information, see [Discovery for VMware](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/vmware-cloud-discovery.md).
 -   You're using Discovery Admin Workspace v1.13.0 or later.
 
 Role required: discovery\_admin
@@ -45,23 +45,23 @@ Role required: discovery\_admin
 
     |Option|Description|
     |------|-----------|
-    |**Use a cluster of MID servers**|Select an existing MID Server. Clusters provide failover protection and load balancing between MID Servers. See [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigureAMIDServerCluster.md) for more information.|
-    |**Automatically select a MID server**|An available MID Server is automatically selected when the Discovery schedule runs. See [Automatic MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-auto-mid-selection.md) for more information.|
+    |**Use a cluster of MID servers**|Select an existing MID Server. Clusters provide failover protection and load balancing between MID Servers. See [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_ConfigureAMIDServerCluster.md) for more information.|
+    |**Automatically select a MID server**|An available MID Server is automatically selected when the Discovery schedule runs. See [Automatic MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-auto-mid-selection.md) for more information.|
     |**Search for a MID server**|Choose a MID Server to run the Discovery schedule. Only MID Servers that are validated, up, and have the Cloud Management capability are displayed.|
 
 7.  Select **Next**.
 
 8.  Select a cloud account.
 
-<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d533661e319">
+<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d537197e319">
 
 Option
 
-</th><th align="left" id="d533661e322">
+</th><th align="left" id="d537197e322">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d533661e328">
+</th></tr></thead><tbody><tr><td id="d537197e328">
 
 **Existing cloud account**
 
@@ -69,7 +69,7 @@ Description
 
 Select an existing cloud account on your instance. Once an account is selected, the **Account name**, **UUID**, and **URL** fields auto-populate.
 
-</td></tr><tr><td id="d533661e346">
+</td></tr><tr><td id="d537197e346">
 
 **New cloud account**
 
@@ -110,7 +110,7 @@ Add a cloud account to your instance by entering an account name, UUID, and URL.
     |**Run on demand**|The schedule only runs when triggered manually. The schedule can be triggered by selecting **Finish and run** at the end of this setup, or by navigating to the schedule in the Discovery Schedules \[discovery\_schedule\] table and selecting **Discover Now**.|
     |**Run after series**|The schedule runs after another existing Discovery schedule completes, staggering or chaining them together. Selecting an existing schedule displays a relationship map of all the other associated schedules.|
     |**Set discovery time out**|If the schedule exceeds the maximum runtime, it's canceled. After toggling, configure the runtime threshold.|
-    |**Enable event-driven discovery**|If Cloud Provisioning and Governance makes a life-cycle state or configuration change to a VMware resource, the Configuration Management Database \(CMDB\) is updated without running the full discovery schedule. Only the affected resources are processed. For more information, see [Configure the VMware Events service to auto-update the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/vmware-events-service-cloud-mgt.md).|
+    |**Enable event-driven discovery**|If Cloud Provisioning and Governance makes a life-cycle state or configuration change to a VMware resource, the Configuration Management Database \(CMDB\) is updated without running the full discovery schedule. Only the affected resources are processed. For more information, see [Configure the VMware Events service to auto-update the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/vmware-events-service-cloud-mgt.md).|
     |**Finish and run**|After being selected, all the information provided is validated. Then, a Discovery schedule is created in the background, a Discovery status is created, and the schedule is run. You're redirected to the Status Details page for the schedule.|
     |**Finish**|After being selected, all the information provided is validated. A Discovery schedule is created, and you're redirected to its entry in the Discovery Schedules \[discovery\_schedule\] table. You can edit the schedule information or run it by selecting **Discover Now**.|
 

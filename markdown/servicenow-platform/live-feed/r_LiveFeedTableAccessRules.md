@@ -3,11 +3,11 @@ title: Live Feed security and table access
 description: By default, administrators and users with the live\_feed\_admin role can configure live feed security and view all Live Feed tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/r\_LiveFeedTableAccessRules.html
-release: australia
+release: brazil
 product: Live Feed
 classification: live-feed
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Administering Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -23,16 +23,16 @@ You can also modify the following Live Feed tables:
 
 Extending or modifying data in any Live Feed chat table is not recommended.
 
--   **[Limit Live Feed access by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/t_LimitLiveFeedAccessByRole.md)**  
+-   **[Limit Live Feed access by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/t_LimitLiveFeedAccessByRole.md)**  
 All active users in the instance have access to Live Feed by default.
--   **[Manage Live Feed message content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/t_ManageLiveFeedMessageContent.md)**  
+-   **[Manage Live Feed message content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/t_ManageLiveFeedMessageContent.md)**  
 Users can remove their own messages from feeds. If necessary, administrators can remove inappropriate messages that are posted by any user.
--   **[Live Feed team security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/r_LiveFeedTeamSecurity.md)**  
+-   **[Live Feed team security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/r_LiveFeedTeamSecurity.md)**  
 You can restrict who can create teams by modifying an access control rule.
--   **[Restrict hashtag renaming](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/r_RestrictHashtagRenaming.md)**  
+-   **[Restrict hashtag renaming](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/r_RestrictHashtagRenaming.md)**  
 You can restrict who can rename hashtags.
 
-**Parent Topic:**[Administering Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_AdministerLiveFeed.md)
+**Parent Topic:**[Administering Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/c_AdministerLiveFeed.md)
 
 **Related topics**  
 

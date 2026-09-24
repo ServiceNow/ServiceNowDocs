@@ -3,11 +3,11 @@ title: View live CI data logs
 description: View CI logs to receive additional details on an incident when viewing live CI data. For example, viewing log information for a process with high CPU usage can help you pinpoint when the usage went up, helping you determine the root cause of the issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-live-ci-view-logs.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View live CI data with ACC, Agent Client Collector, IT Operations Management]
 ---

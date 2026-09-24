@@ -3,9 +3,9 @@ title: Diagnose and resolve a service problem case
 description: As a customer service agent, review, diagnose, resolve, and close a service problem case for the service-related issue experienced by the customer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/work-on-service-problem-case.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Use, Customer Service Problem Management, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -26,7 +26,7 @@ The service problem case progresses through several stages from start to closure
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **All** &gt; **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon.
 
@@ -50,7 +50,7 @@ The service problem case progresses through several stages from start to closure
 
 7.  Diagnose the service problem case to identify the root-cause of the problem.
 
-    The decision table can be configured to control the visibility of the Run Diagnostics contextual panel tab. For more information about decision tables, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-table.md).
+    The decision table can be configured to control the visibility of the Run Diagnostics contextual panel tab. For more information about decision tables, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/decision-table.md).
 
     1.  To generate the test results, select **Run diagnostics** from the contextual panel.
 
@@ -60,9 +60,9 @@ The service problem case progresses through several stages from start to closure
 
     3.  Expand the cards in the **Available test suite**.
 
-        To set up the test definitions, see [Setting up test definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/settingup-test-specifications.md).
+        To set up the test definitions, see [Setting up test definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/settingup-test-specifications.md).
 
-        To set up a test group, see [Setting up a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/setting-test-group.md).
+        To set up a test group, see [Setting up a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/setting-test-group.md).
 
     4.  In the manual test, select single/multiple tests.
 
@@ -102,7 +102,7 @@ The service problem case progresses through several stages from start to closure
     -   Select **Create repair task** to manually create a customize repair task.
     A Repair task is created for all failed test cases related to the diagnosed service problem. For each unique service and test specification, only one repair task is created. The agent can then work on it and close this repair task.
 
-    **Note:** Select the refresh icon \(\[Omitted image "form-refresh.png"\] Alt text: Refresh Icon.\) to view the repair task in the Repair task list.
+    **Note:** Select the refresh icon \(\[Omitted image "refresh-sync-new.png"\] Alt text: Refresh Icon.\) to view the repair task in the Repair task list.
 
     1.  Select the repair task that you want to work on, such as RT0001101.
 
@@ -137,7 +137,7 @@ The service problem case progresses through several stages from start to closure
 
     The Case playbook: The horizontal stages page incorporates related list functionality into the contextual side panel. These lists appear in an accordion format that agents can expand and collapse as needed.
 
-    For more information about the related items components, see [Playbook related items component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-related-items-component.md).
+    For more information about the related items components, see [Playbook related items component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-playbook-related-items-component.md).
 
 11. Close the service problem case.
 

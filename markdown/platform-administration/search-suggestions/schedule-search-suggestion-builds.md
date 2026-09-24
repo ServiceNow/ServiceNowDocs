@@ -3,11 +3,11 @@ title: Schedule the Build Search Suggestions script
 description: Specify when to run the script that builds auto-complete suggestions and search suggestions from user search strings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-suggestions/schedule-search-suggestion-builds.html
-release: australia
+release: brazil
 product: Search Suggestions
 classification: search-suggestions
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Search Suggestions, Search Suggestions, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---

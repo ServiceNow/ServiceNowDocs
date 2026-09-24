@@ -3,7 +3,7 @@ title: Zero Copy Connector for ERP extraction table field descriptions
 description: The Extraction table form in Zero Copy Connector for ERP enables you to create and edit extraction tables in the enterprise resource planning \(ERP\) model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-extraction-table-descriptions.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
@@ -17,7 +17,7 @@ breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflo
 
 The Extraction table form in Zero Copy Connector for ERP enables you to create and edit extraction tables in the enterprise resource planning \(ERP\) model.
 
-For process details, see [Add a new ERP extraction table in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-add-new-extraction-table.md).
+For process details, see [Add an ERP extraction table in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-add-new-extraction-table.md).
 
 <table id="table_cv1_h3z_wxb"><thead><tr><th>
 
@@ -110,4 +110,5 @@ Long text
 Longer description or more information about the extraction table.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
+

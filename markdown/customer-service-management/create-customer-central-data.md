@@ -3,9 +3,9 @@ title: Create data for Customer Central
 description: When upgrading from an existing release, customers must run a fix script to create data for Customer Central.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-customer-central-data.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Customer Central, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---

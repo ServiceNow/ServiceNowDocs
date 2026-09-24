@@ -3,12 +3,12 @@ title: Set up third-party contacts
 description: Set up your third-party contacts so that you can send assessments, address issues, and communicate any additional required information with these contacts using Third-party Risk Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-tp-contact-config.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Manage the third-party portal, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -17,6 +17,8 @@ breadcrumb: [Manage the third-party portal, Third-party Risk Management, Governa
 Set up your third-party contacts so that you can send assessments, address issues, and communicate any additional required information with these contacts using Third-party Risk Management.
 
 ## Before you begin
+
+This content applies to your organization's internal setup of third-party contacts in the TPRM instance. This is the admin interface for creating and configuring contact records. For guidance on how third-party contacts manage their own team's access through the portal, see [Managing the Third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/vendor-portal.md).
 
 Role required: sn\_vdr\_risk\_asmt.vendor\_risk\_manager and admin for steps 4 and 5
 
@@ -41,10 +43,10 @@ Third-party contacts are external users at the third-party organization. They us
             **Note:** The questionnaires, document requests, and issues that are currently assigned to the contact are listed in the associated tab.
 
         -   If you don't have the admin role, ask a user who does to verify that the vendor\_contact role appears for the user on the Roles related list. If the user with the admin role can't see the Roles related list, they have to go to step 4. If the user with the admin role can't see the vendor\_contact role listed for the user, they have to go to step 5.
-        **Note:** For more information on managing third-party contacts, see [Manage the access for your third-party contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-manage-tp-contact.md).
+        **Note:** For more information on managing third-party contacts, see [Manage access for your third-party contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-manage-tp-contact.md).
 
     -   To add a contact, select **New** and continue with the following steps.
-    **Note:** It’s normal for a contact to have the snc\_external role because the vendor\_contact role includes it.
+    **Note:** It's normal for a contact to have the snc\_external role because the vendor\_contact role includes it.
 
 3.  On the form, fill in the fields.
 
@@ -107,7 +109,7 @@ Third-party contact who can directly answer assessment questions or assign anoth
 </td></tr></tbody>
 </table>    **Note:** An email notification is sent out to the new third-party contact after the form is submitted. The email contains a link to the third-party portal and login credentials.
 
-4.  Validate that each contact has the vendor\_contact role by adding the **Roles** value to the Vendor Contact page.
+4.  Validate that each contact has the `vendor_contact` role by adding the **Roles** related list to the third-party contact form.
 
     1.  Add the Roles related list by selecting the actions icon and selecting **Configure** &gt; **Related Lists**.
 
@@ -117,10 +119,23 @@ Third-party contact who can directly answer assessment questions or assign anoth
 
         \[Omitted image "vrm-vendor-contact-form.png"\] Alt text: Adding the Roles heading to the related list.
 
-5.  Grant third-party contacts access to the third-party portal by selecting **Edit** and adding **vendor\_contact** to the Roles list.
+5.  If the contact does not have portal access, grant access by selecting **Edit** and adding `vendor_contact` to the Roles list.
 
     \[Omitted image "vrm\_add\_vendor\_contact\_role.png"\] Alt text: Assigning the vendor\_contact role to a third-party contact.
 
     **Warning:** If the user has other roles, such as snc\_internal, then the user might also be able to log in to your platform and have visibility into critical records.
 
+
+**Related topics**  
+
+
+[Managing the Third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/vendor-portal.md)
+
+[Manage access for your third-party contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-manage-tp-contact.md)
+
+[Third-party portal contact roles and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-portal-contact-roles.md)
+
+[Invite a contact to the third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-portal-invite-contact.md)
+
+[Assign a contact to an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-portal-assign-engagement-contact.md)
 

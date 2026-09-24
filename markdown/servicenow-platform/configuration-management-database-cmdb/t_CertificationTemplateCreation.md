@@ -3,11 +3,11 @@ title: Create or edit a certification template
 description: To create a certification template, follow these instructions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/t\_CertificationTemplateCreation.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Certification templates, CMDB Compliance, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,9 +18,9 @@ To create a certification template, follow these instructions.
 
 ## Before you begin
 
-Activate the Certification Core plugin to enable the Compliance functionality. See [Compliance Activation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ActivatingCompliance.md) for details.
+Activate the Certification Core plugin to enable the Compliance functionality. See [Compliance Activation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_ActivatingCompliance.md) for details.
 
-Role required: certification\_admin
+Role required: sn\_cmdb\_admin and certification\_admin have full access, and sn\_cmdb\_editor has read access
 
 ## Procedure
 
@@ -68,7 +68,7 @@ Role required: certification\_admin
 
         The **Show Related Fields** item supports dot-walking, enabling you to include referenced fields in a certification attribute condition. Select **Show Related Fields** or **Remove Related Fields** to add or remove referenced fields \(in the form of &lt;field&gt; =&gt; &lt;field&gt;\). Select a referenced field to drill down to the next level of referenced fields.
 
-        See [Dot walking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_DotWalking.md).
+        See [Dot walking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_DotWalking.md).
 
     -   **Certification CI Relationship Conditions**: \[Desired State audit types\] Define the CI relationships to certify, such as Runs on or Depends on.
     -   **Certification User Relationship Conditions**: \[Desired State audit types\] Select the desired user relationship for this configuration item. The relationship provided in the base system is Log reviewed by.

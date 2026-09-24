@@ -3,9 +3,9 @@ title: Explicit Roles
 description: You can give both internal users and external users access to your instance. However, you might not want both types of users to have the same level of access. To provide added security, every user must have at least one role so that the instance can distinguish between internal and external users.Activate Explicit Roles by requesting the Explicit Roles plugin \(com.glide.explicit\_roles\) through the Now Support Service Catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/explicit-roles.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Security Roles, Access Management]
 ---
@@ -18,7 +18,7 @@ As of the Paris release, no user can have both of the explicit roles \(snc\_inte
 
 **Note:** You cannot add any other roles as contained roles to the "**snc\_external**" or "**snc\_internal**" roles.
 
-External users must obtain, at minimum, the snc\_external role. The snc\_external role indicates that the user is external to your organization. They should not have any access to resources unless explicitly allowed through ACLs for the snc\_external role or additional roles that inherit the snc\_external role. By default, users with the snc\_external role cannot access:
+External users must obtain, at minimum, the snc\_external role. The snc\_external role indicates that the user is external to your organization. They should not have any access to resources unless explicitly allowed through ACLs for the snc\_external role or additional roles that inherit the snc\_external role. By default, users with the snc\_external role can't access:
 
 -   Tables without the role that inherits the snc\_external role or the public role.
 -   Non-record type resources, such as processors and UI pages without granting access to the snc\_external role or a role that inherits the snc\_external role.
@@ -54,9 +54,9 @@ When the Explicit Roles plugin is activated:
 -   To restrict access to processors to internal users, the plugin automatically assigns the snc\_internal role to the **\*** ACL with a **Type** of **processor**.
 -   External users must obtain, at minimum, the snc\_external role to access the instance. This role must be manually granted to external users. Access to records is granted through ACLs.
 
-Do not move system update sets among instances with and without the Explicit Roles plugin enabled. For more information, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets.md).
+Do not move system update sets among instances with and without the Explicit Roles plugin enabled. For more information, see System update sets.
 
-**Note:** This plugin also requires the [Contextual Security Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/r_ContextualSecurity.md) plugin.
+**Note:** This plugin also requires the [Contextual Security Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/access-control/r_ContextualSecurity.md) plugin.
 
 ## glide.security.explicit\_roles.do\_not\_fix behavior
 
@@ -73,7 +73,7 @@ To exclude snc\_internal role for certain users, use the `glide.security.explici
 
 ## Providing table access to external users
 
-You can provide external users access to a table by adding a role to the table that inherits the snc\_external role. For more information, see [Provide external users access to a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ProvideExternalUsersAccessToTables.md).
+You can provide external users access to a table by adding a role to the table that inherits the snc\_external role. For more information, see .
 
 ## The hasRoles\(\) method
 
@@ -395,7 +395,7 @@ Which plugin would you like to activate
 
 Select the name of the plugin to activate.
 
- **Note:** If the plugin isn't listed, or if you're activating on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box. Enter the plugin name in the field that appears.
+ **Note:** If the system doesn't list the plugin you want or if you're activating the plugin on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box and then enter the name of the plugin.
 
 </td></tr><tr id="date-time"><td>
 

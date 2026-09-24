@@ -3,11 +3,11 @@ title: Properties installed with Communities
 description: Community administrators can use properties to configure Communities behavior.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/communities-properties.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Communities references, Communities, Customer Service Management]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Communities references, Communities, Customer Service Management]
 # Properties installed with Communities
 
 Community administrators can use properties to configure Communities behavior.
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 The following properties are available for further configuration. To list the properties, enter `sys_properties.list` in the filter navigator and search for the property to configure.
 
@@ -831,7 +835,7 @@ Enter the maximum number of times a user can post Social Q&amp;A questions per d
 -   Location: System Properties
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Communities references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communitie-references.md)
+</table>**Parent Topic:**[Communities references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/communitie-references.md)
 
 **Related topics**  
 

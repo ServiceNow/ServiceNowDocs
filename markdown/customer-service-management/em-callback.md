@@ -3,9 +3,9 @@ title: Callback feature configuration form
 description: Description of the Callback feature configuration form fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/em-callback.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Engagement Messenger reference, Reference, Customer Service Management]
 ---
@@ -14,8 +14,8 @@ breadcrumb: [Engagement Messenger reference, Reference, Customer Service Managem
 
 Description of the Callback feature configuration form fields.
 
--   For more information about how to configure Omnichannel Callback for Customer Service Management \(CSM\), see[Configuring Omnichannel Callback for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-omni-callback.md)
--   For more information about how to manage a callback from an agent using Engagement Messenger, see [Working with callback requests using Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/request-callback-from-em.md)
+-   For more information about how to configure Omnichannel Callback for Customer Service Management \(CSM\), see[Configuring Omnichannel Callback for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-omni-callback.md)
+-   For more information about how to manage a callback from an agent using Engagement Messenger, see [Working with callback requests using Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/request-callback-from-em.md)
 
 <table id="table_opq_wb1_g4b"><thead><tr><th>
 

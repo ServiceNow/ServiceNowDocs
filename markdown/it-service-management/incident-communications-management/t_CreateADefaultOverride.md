@@ -3,11 +3,11 @@ title: Create a default override
 description: Create a default override to specify user or group for a contact definition of an incident communication plan. It helps you to set multiple conditions based on which a user or a group is considered as a contact.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-communications-management/t\_CreateADefaultOverride.html
-release: australia
+release: brazil
 product: Incident Communications Management
 classification: incident-communications-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Incident Communications Management and Contacts, Managing Incident Communications, Incident Communications Management, IT Service Management]
 ---
@@ -28,7 +28,7 @@ The Default overrides related list is available only if you select **Default ove
 
 1.  Navigate to **All** &gt; **Incident Communications Management** &gt; **Contact Administration** &gt; **Contact Definitions**.
 
-    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
+    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
 
 2.  Open the contact definition record.
 
@@ -84,7 +84,7 @@ The conditions defining whether the default override values are to be applied. I
     Default override and its conditions are defined for a contact definition.
 
 
-**Parent Topic:**[Incident Communications Management and Contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-communications-management/c_IncidentAlertContact.md)
+**Parent Topic:**[Incident Communications Management and Contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-communications-management/c_IncidentAlertContact.md)
 
 **Related topics**  
 

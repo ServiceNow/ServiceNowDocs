@@ -3,11 +3,11 @@ title: Define an assignment rule for problems
 description: After a problem is logged, it must be assigned to the appropriate group or individual to handle the problem. You can define assignment rules to automate the assignment process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/t\_DefineAnAssignRuleForPRBs.html
-release: australia
+release: brazil
 product: Problem Management
 classification: problem-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Problem Management, Problem Management, IT Service Management]
 ---
@@ -50,9 +50,9 @@ In this procedure, define an assignment rule to assign database problems to the 
     4.  Open the problem and verify that the assignment group was added.
 
 
-**Parent Topic:**[Configuring Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/configuring-problem-mgmt.md)
+**Parent Topic:**[Configuring Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/configuring-problem-mgmt.md)
 
-**Previous topic:**[Configure problem categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/configure-problem-categories.md)
+**Previous topic:**[Configure problem categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/configure-problem-categories.md)
 
-**Next topic:**[Categorize a problem as a major problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/categorize-major-problem.md)
+**Next topic:**[Categorize a problem as a major problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/categorize-major-problem.md)
 

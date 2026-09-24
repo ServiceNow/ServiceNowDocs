@@ -3,11 +3,11 @@ title: Analytics and Reporting for Financial Services Customer Lifecycle Operati
 description: Financial Services Customer Lifecycle Operations contains preconfigured dashboards with actionable data visualizations that can help your organization improve your business processes and quantify the value of self-service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-customer-lifecycle-operations/analytics-reporting-customer-lifecycle-ops.html
-release: australia
+release: brazil
 product: Financial Services Customer Lifecycle Operations
 classification: financial-services-customer-lifecycle-operations
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer Lifecycle Operations, Common applications, Financial Services Operations \(FSO\)]
 ---
@@ -20,6 +20,6 @@ Use the ServiceNow® Performance Analytics widgets on a dashboard to visualize d
 
 The following dashboards are available for Financial Services Customer Lifecycle Operations:
 
--   [Business Lifecycle Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-business-lifecycle-dashboard.md)
--   [Client Lifecycle dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-client-lifecycle-dashboard.md)
+-   [Business Lifecycle Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/fso-business-lifecycle-dashboard.md)
+-   [Client Lifecycle dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/fso-client-lifecycle-dashboard.md)
 

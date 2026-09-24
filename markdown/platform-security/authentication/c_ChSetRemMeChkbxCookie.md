@@ -3,11 +3,11 @@ title: Remember me
 description: When the Remember me check box is selected at login, a cookie is stored on the user's computer. This cookie automatically authenticates the user upon subsequent visits.You can change the default value of the Remember me check box.You can remove the Remember me check box so users do not have access to this feature.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/c\_ChSetRemMeChkbxCookie.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Local authentication, Authentication, Access Management]
 ---
@@ -26,8 +26,8 @@ Configure the following properties to control the **Remember me** cookie behavio
 
 **Note:** To learn more about these properties, see the following topics in Instance Security Hardening Settings:
 
--   [Minimize absolute session timeout duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-absolute-session-timeout.md)
--   [Minimize session window timeout duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-session-window-timeout.md)
+-   [Minimize absolute session timeout duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-absolute-session-timeout.md)
+-   [Minimize session window timeout duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-session-window-timeout.md)
 
 If the **Remember me** feature does not persist between sessions, verify the following conditions:
 
@@ -58,7 +58,7 @@ You can remove the **Remember me** check box so users do not have access to this
 
 Role required: security\_admin
 
-**Note:** To learn more about this property, see [Remove remember me](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-remove-remember-me.md) in Instance Security Hardening Settings.
+**Note:** To learn more about this property, see [Remove remember me](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-remove-remember-me.md) in Instance Security Hardening Settings.
 
 ### Procedure
 

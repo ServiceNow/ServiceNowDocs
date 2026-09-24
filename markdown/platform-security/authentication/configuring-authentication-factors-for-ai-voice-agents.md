@@ -3,11 +3,11 @@ title: Configure authentication factors for AI voice agents
 description: To secure voice agent environments, configure authentication factors that first identify the caller, then authenticate them before granting access.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/configuring-authentication-factors-for-ai-voice-agents.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Authentication factors, Authentication, Access Management]
 ---
@@ -18,8 +18,8 @@ To secure voice agent environments, configure authentication factors that first 
 
 Configuration involves:
 
--   [User identification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configuring-authentication-factors-for-ai-voice-agents.md)
--   [User authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configuring-authentication-factors-for-ai-voice-agents.md)
+-   [User identification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/configuring-authentication-factors-for-ai-voice-agents.md)
+-   [User authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/configuring-authentication-factors-for-ai-voice-agents.md)
 
 ## User identification
 
@@ -62,7 +62,7 @@ Learn more about configuration
 
 </th></tr></thead><tbody><tr><td>
 
-[Time-based one-time password \(TOTP\) authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/totp-authenticator-apps.md)
+[Time-based one-time password \(TOTP\) authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/totp-authenticator-apps.md)
 
 </td><td>
 
@@ -82,11 +82,11 @@ Y
 
 </td><td>
 
-[Authenticator applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-auth-app.md)
+[Authenticator applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/mfa-auth-app.md)
 
 </td></tr><tr><td>
 
-[Push notification - Okta Verify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/push-notification-okta-verify.md)
+[Push notification - Okta Verify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/push-notification-okta-verify.md)
 
 </td><td>
 
@@ -106,11 +106,11 @@ Y
 
 </td><td>
 
-[Configure push notification \(Okta Verify\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configure-okta-verify-push-notification.md)
+[Configure push notification \(Okta Verify\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/configure-okta-verify-push-notification.md)
 
 </td></tr><tr><td>
 
-[Soft PIN authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/softpin-authentication.md)
+[Soft PIN authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/softpin-authentication.md)
 
 </td><td>
 
@@ -130,11 +130,11 @@ Y
 
 </td><td>
 
-[Configure Soft PIN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configure-soft-pin.md)
+[Configure Soft PIN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/configure-soft-pin.md)
 
 </td></tr><tr><td>
 
-[SMS One-time passcode \(OTP\) authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/sms-otp-authentication.md)
+[SMS One-time passcode \(OTP\) authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/sms-otp-authentication.md)
 
 </td><td>
 
@@ -154,11 +154,11 @@ Y
 
 </td><td>
 
-[Multi-factor authentication Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/multi-factor-authentication-providers.md)
+[Multi-factor authentication Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/multi-factor-authentication-providers.md)
 
 </td></tr><tr><td>
 
-[Email One-time passwords \(OTP\) authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/email-otp-authentication.md)
+[Email One-time passwords \(OTP\) authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/email-otp-authentication.md)
 
 </td><td>
 
@@ -178,11 +178,11 @@ Y
 
 </td><td>
 
-[Configure Email OTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configure-email-otp-service.md)
+[Configure Email OTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/configure-email-otp-service.md)
 
 </td></tr><tr><td>
 
-[Knowledge-based authentication \(Security Questions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/knowledge-based-authentication.md)
+[Knowledge-based authentication \(Security Questions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/knowledge-based-authentication.md)
 
 </td><td>
 
@@ -202,7 +202,7 @@ N
 
 </td><td>
 
-[Configure knowledge-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configure-kba.md)
+[Configure knowledge-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/configure-kba.md)
 
 </td></tr></tbody>
 </table>**Important:** Y = Recommended \| Sometimes = Use with Caution \| N = Not Recommended

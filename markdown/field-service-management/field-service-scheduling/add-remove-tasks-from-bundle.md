@@ -3,11 +3,11 @@ title: Add or remove tasks from a work order task bundle
 description: Add relevant tasks to a work order task bundle or remove tasks if the bundle becomes too large to manage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/add-remove-tasks-from-bundle.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Bundling WOTs, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---

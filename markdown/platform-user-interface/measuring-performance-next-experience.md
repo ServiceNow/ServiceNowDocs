@@ -3,9 +3,9 @@ title: Instance performance in Next Experience
 description: View the performance-based information, including the UI loading times, for any recently accessed Next Experience page by using the client interaction table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/measuring-performance-next-experience.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -142,8 +142,8 @@ Additional contextual details for in-page interactions.
 -   **linked\_txc\_metrics**: JSON payload containing detailed client-side transaction metrics.
 -   **page\_variant\_sys\_id**: identifies the specific screen variant displayed to the user.
 
--   **[View the server response time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/view-server-response-time.md)**  
+-   **[View the server response time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/view-server-response-time.md)**  
 View the server response times that are associated with your Next Experience instance by using the client interaction table.
 
-**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-ui-admin.md)
+**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-ui-admin.md)
 

@@ -3,14 +3,14 @@ title: Edit input and output mapped value name in Zero Copy Connector for ERP
 description: Manually edit mapped value field names for input and output when managing models in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-edit-mapped-value-name-in-model-manager.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, input, output, value, map, name, edit, model]
-breadcrumb: [Model management, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [ERP models, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Edit input and output mapped value name in Zero Copy Connector for ERP
@@ -25,19 +25,19 @@ Role required: sn\_erp\_integration.erp\_admin
 
 In ERP model manager, the mapped value name in inputs and outputs is system-generated automatically. Edit the value manually as needed. Specify a unique value. You can revert to the system-generated name at any time.
 
-Let's step through an example. In Zero Copy Connector for ERP, create a model. For more information, see [Create a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-add-new-data-model.md).
+Let's step through an example. In Zero Copy Connector for ERP, create a model. For more information, see [Create a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erpc-add-new-data-model.md).
 
 ## Procedure
 
 1.  On the new model, select **Manage Model** and add a read operation.
 
-    For more information, see [Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-manage-models-read-op.md).
+    For more information, see [Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erpc-manage-models-read-op.md).
 
 2.  On the read operation, add a read table entity, for example, on the T005 Countries table.
 
     \[Omitted image "erpc-mapped-value-example1.png"\] Alt text: Add entity page with T005 entity selected.
 
-    For more information, see [Adding an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
+    For more information, see [Adding an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
 
 3.  After data is retrieved, select **Specify inputs**.
 
@@ -68,7 +68,9 @@ Let's step through an example. In Zero Copy Connector for ERP, create a model. F
 
     \[Omitted image "erpc-mapped-value-example6-ys2.png"\] Alt text: Function call displayed with function names parent field and several child fields.
 
--   If a join is used, the changed name should be available on the join fields as well. For more information about joins, see [Add joins between ERP tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-add-join-data-model.md).
+-   If a join is used, the changed name should be available on the join fields as well. For more information about joins, see [Add joins between ERP tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-add-join-data-model.md).
 -   If the same field exists in both input and output, but they have different mapped values, the name of the output field is given precedence and used.
 -   If you want to revert to the system-generated name at any time, remove the field and then add it again. Another option is to change the mapping type and then change it back.
+
+**Parent Topic:**[Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md)
 

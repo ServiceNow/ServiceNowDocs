@@ -3,9 +3,9 @@ title: Add the ServiceNow app for Android to the IBM MaaS360 portal
 description: Configure the ServiceNow app for Android for IBM MaaS360 distribution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/add-android-ibm.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [IBM MaaS360, Device management, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -54,5 +54,5 @@ For more information on app distribution, see the following IBM documentation fo
 -   [Add an iTunes App Store app to the App Catalog](https://www.ibm.com/support/knowledgecenter/SS8H2S/com.ibm.mc.doc/pag_source/tasks/pag_apps_add_itunes.htm)
 -   [Add a Google Play app to the App Catalog](https://www.ibm.com/support/knowledgecenter/SS8H2S/com.ibm.mc.doc/pag_source/tasks/pag_apps_add_google_play.htm)
 
-**Parent Topic:**[IBM MaaS360 mobile device management \(MDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/IBM-MaaS360-mdm.md)
+**Parent Topic:**[IBM MaaS360 mobile device management \(MDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/IBM-MaaS360-mdm.md)
 

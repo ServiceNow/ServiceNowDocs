@@ -3,11 +3,11 @@ title: Enable AWS SSM-based discovery
 description: Configure Discovery to use AWS Systems Manager \(SSM\) Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/enable-aws-ssm-based-discovery.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [AWS SSM discovery, Discovery for AWS, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -41,5 +41,5 @@ The AWS SSM Agent runs with root \(Linux\) or SYSTEM \(Windows\) privileges, mea
 
 ## What to do next
 
-Define fallback root behavior using the **mid.discovery.aws\_ssm.linux.fallback\_root\_user** property or create non-root credentials to execute Discovery commands using the AWS SSM Instance Users \[aws\_ssm\_instance\_user\_credentials\] table. For more information, see [Enable root fallback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/enable-root-fallback.md) and [Configure custom user credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/configure-custom-user-credentials.md).
+Define fallback root behavior using the **mid.discovery.aws\_ssm.linux.fallback\_root\_user** property or create non-root credentials to execute Discovery commands using the AWS SSM Instance Users \[aws\_ssm\_instance\_user\_credentials\] table. For more information, see [Enable root fallback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/enable-root-fallback.md) and [Configure custom user credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/configure-custom-user-credentials.md).
 

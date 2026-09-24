@@ -3,11 +3,11 @@ title: Create a data refresh rule for a non-CMDB table
 description: To apply Identification and Reconciliation Engine \(IRE\) features to supported non-CMDB tables, create data refresh rules for those tables. Data refresh rules are used to determine if a record is stale for a specific data source. Such records can then be updated by a lower-priority authorized data source.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/create-non-cmdb-data-refresh-rule.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [IRE support for non-CMDB tables, CMDB Identification and Reconciliation \(IRE\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -82,5 +82,5 @@ Activates the rule.
 </table>5.  Click **Submit**.
 
 
-**Parent Topic:**[IRE support for non-CMDB tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ire-support-non-cmdb-tables.md)
+**Parent Topic:**[IRE support for non-CMDB tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/ire-support-non-cmdb-tables.md)
 

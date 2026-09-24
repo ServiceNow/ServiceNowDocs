@@ -3,14 +3,14 @@ title: Create an indexed source from the AI Search Admin console
 description: Define an indexed source to make content and metadata from ServiceNow AI Platform table records searchable by using AI Search.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/ais-admin-console-create-indexed-source.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Managing indexed sources from the AI Search Admin console, Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Managing indexed sources, Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create an indexed source from the AI Search Admin console
@@ -31,7 +31,7 @@ Role required: admin or ais\_admin
 
 4.  On the form, fill in the fields.
 
-    For a description of the field values, see [Indexed Source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/indexed-source-form-ais.md).
+    For a description of the field values, see [Indexed Source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/indexed-source-form-ais.md).
 
     **Note:**
 
@@ -42,9 +42,9 @@ Role required: admin or ais\_admin
 
 ## What to do next
 
-To control how your new indexed source processes source records and fields during indexing, configure its indexed source attributes and field settings. For more information, see [Set up a field configuration for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ais-admin-console-setup-field-config-indexed-source.md).
+To control how your new indexed source processes source records and fields during indexing, configure its indexed source attributes and field settings. For more information, see [Set up a field configuration for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/ais-admin-console-setup-field-config-indexed-source.md).
 
-To make content from internal indexed sources and source records searchable, perform a full table index for your new indexed source. For more information, see [Index the content from an indexed source for searchability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ais-admin-console-start-content-indexing.md).
+To make content from internal indexed sources and source records searchable, perform a full table index for your new indexed source. For more information, see [Index the content from an indexed source for searchability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/ais-admin-console-start-content-indexing.md).
 
-**Parent Topic:**[Managing indexed sources from the AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ais-managing-indexed-source.md)
+**Parent Topic:**[Managing indexed sources from the AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/ais-managing-indexed-source.md)
 

@@ -3,11 +3,11 @@ title: Generate work orders
 description: Create work orders for the schedule occurrence either manually or by configuring an automated job.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/generate-work-orders.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure work plans, Planned Work Management, Set up work orders and tasks, Configure, Field Service Management]
 ---
@@ -34,7 +34,7 @@ When the work order is generated, the dates are set as follows:
 -   When grouping of work orders is enabled, a single work order is generated for a group of schedule occurrences. The parent work order contains details of the individual work orders and their corresponding tasks.
 -   The related list **Work Plan Task Group Items** is added to the corresponding tasks that provides the details of all the tasks of the grouped work order.
 
-To run a scheduled job to generate work orders, see [Run a scheduled job to execute a planned work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/run-schedule-job-planned-work.md).
+To run a scheduled job to generate work orders, see [Run a scheduled job to execute a planned work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/run-schedule-job-planned-work.md).
 
-To generate work orders manually, see [Generate work orders for schedule occurrences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/create_wo_schedule_occurrence.md).
+To generate work orders manually, see [Generate work orders for schedule occurrences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/create_wo_schedule_occurrence.md).
 

@@ -3,11 +3,11 @@ title: Set a default assignment group on the team calendar
 description: Set an assignment group as default to readily access them on the team calendar.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/configure-default-agent-group.html
-release: australia
+release: brazil
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Change views in Workforce, Managing agents and tasks from Workforce, Managing workforce, Use, Field Service Management]
 ---

@@ -3,11 +3,11 @@ title: Configure the Security incident quality assessment skill
 description: Add natural language rule sets to the Security incident quality assessment skill. Security analysts use these rules to generate a quality assessment report for security incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/config-quality-assessment-skill.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Skill configuration, configure quality assessment skill]
 breadcrumb: [Configure a skill, Configure ServiceNow Otto for Security Incident Response \(SIR\), Configure, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
@@ -23,7 +23,7 @@ Role required: sn\_si.admin
 
 ## About this task
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 
@@ -49,5 +49,5 @@ Role required: sn\_si.admin
     The skill uses this rule set to generate a quality assessment for the security incident.
 
 
-**Parent Topic:**[Configure a skill for ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/activate-skills-for-now-assist-security-incident.md)
+**Parent Topic:**[Configure a skill for ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/activate-skills-for-now-assist-security-incident.md)
 

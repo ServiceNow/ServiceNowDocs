@@ -3,12 +3,12 @@ title: Confirm installation of AI Agent Advisor
 description: Confirm the installation of the AI Agent Advisor application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/set-up-ai-agent-advisor.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI Agent Advisor, AI Admin Center, Agent Miner, AI agents, AI opportunities, AI setup]
-breadcrumb: [Configure, AI Agent Advisor, AI Admin Center, Enable AI experiences]
+breadcrumb: [Configure, AI Agent Advisor, AI Admin Center, Getting started with AI, Enable AI Experiences]
 ---
 
 # Confirm installation of AI Agent Advisor
@@ -17,7 +17,7 @@ Confirm the installation of the AI Agent Advisor application.
 
 ## Before you begin
 
-All required plugins must be installed before attempting to run AI Agent Advisor. For a list of dependencies, see [Supporting information for AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/supporting-information-ai-agent-advisor.md).
+All required plugins must be installed before attempting to run AI Agent Advisor. For a list of dependencies, see [Supporting information for AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/supporting-information-ai-agent-advisor.md).
 
 Role required: AI Agent Advisor admin \[sn\_agent\_miner.app\_admin\]
 
@@ -69,7 +69,7 @@ Follow these steps to confirm the installation of the AI Agent Advisor plugin.
 
 The AI Agent Advisor application is installed and available to the appropriate user roles.
 
-**Parent Topic:**[Configuring AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-ai-agent-advisor.md)
+**Parent Topic:**[Configuring AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-ai-agent-advisor.md)
 
 **Related topics**  
 

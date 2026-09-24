@@ -3,9 +3,9 @@ title: Installed with domain separation
 description: Several platform components are added or modified with domain separation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/r\_InstalledWithDomainSeparation.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Exploring domain separation, Domain separation for service providers, Access Management]
 ---
@@ -109,7 +109,7 @@ MSP Extensions add several new default options to the type field of the Group ta
 |Deactivated script|
 |\(BP\) Set Location to User|Monitors the incident location field and sets the location field to the caller's location.|
 
-**Parent Topic:**[Exploring domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparation.md)
+**Parent Topic:**[Exploring domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_DomainSeparation.md)
 
 **Related topics**  
 
@@ -124,5 +124,5 @@ MSP Extensions add several new default options to the type field of the Group ta
 
 [Concepts for service providers]()
 
-[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
+[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/bp-domain-sep-recommended.md)
 

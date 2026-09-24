@@ -3,11 +3,11 @@ title: Case task workflow
 description: Case tasks help you to collaborate with multiple teams to investigate, perform impact assessment to establish case criticality, and gather evidence to capture the details and responses for further review.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/case-task-workflow.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -28,10 +28,10 @@ The following image displays the life cycle of a case task.
 
 \[Omitted image "case-task-workflow.png"\] Alt text: Life cycle of a case task until it is complete.
 
--   **[Create a case task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/prm-create-a-case-task.md)**  
+-   **[Create a case task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/prm-create-a-case-task.md)**  
 Create case tasks to work on the various tasks such as investigations, assessments, inquiries, gathering evidence, and so on required to analyze and work on the case that has been reported. Each case can have multiple case tasks that can be assigned to different owners from various teams.
--   **[Work on a case task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/accept-a-case-task.md)**  
+-   **[Work on a case task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/accept-a-case-task.md)**  
 As a case task owner, accept the task, provide the details requested by the case analyst, and submit it for a review. If a case task is assigned to an assignment group, and not to a specific user, then any user who is a part of the assignment group can accept the task and work on it.
 
-**Parent Topic:**[Using Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-pcm.md)
+**Parent Topic:**[Using Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/using-pcm.md)
 

@@ -3,11 +3,11 @@ title: Linking automatically generated issues to a control in Many-to-many relat
 description: You can link an automatically generated issue that belongs to a different control as a related issue to a control. The Originator flag helps you to differentiate those control issues that were automatically generated from the controls that were manually created.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/originator-automatic-issues-ws.html
-release: australia
+release: brazil
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manage controls using the Compliance Workspace, Use, GRC Compliance workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -20,7 +20,7 @@ You can link an automatically generated issue that belongs to a different contro
 
 **Note:** You can identify the origin of an issue whether it was automatically generated or manually created after you link the issue from one control to another only in a control form.
 
-You can create an issue manually for a control when you click the **New** button in the Issues related list of a Control form. For manually created issues, see [Manually create GRC issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/manually-create-issues-ws.md).
+You can create an issue manually for a control when you click the **New** button in the Issues related list of a Control form. For manually created issues, see [Manually create GRC issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-compliance-management-workspace/manually-create-issues-ws.md).
 
 However, issues are also automatically generated when there are:
 

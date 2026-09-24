@@ -3,11 +3,11 @@ title: Create a knowledge article for Enterprise Asset Management
 description: Create and edit knowledge articles within a knowledge base to share information across your organization. You can create articles about the Enterprise Asset Management application on subjects such as troubleshooting and configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-eam-knowledge-article.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Enterprise Asset Management, Asset Management]
 ---
@@ -22,23 +22,27 @@ Role required: sn\_eam.enterprise\_admin
 
 ## Procedure
 
-1.  Navigate to **Enterprise Asset Workspace** &gt; **Admin center** &gt; **Asset knowledge base**.
+1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
 
-2.  Select **New** in the Asset knowledge base page.
+2.  From the Enterprise Asset Workspace, open the Admin center view.
 
-3.  On the form, fill in the fields.
+3.  In the navigation panel of the Admin center view, select **Asset knowledge base**.
 
-    For detailed information on the fields, refer to the [Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management.md) application
+4.  Select **New**.
 
-<table id="choicetable_y22_jbc_mzb"><thead><tr><th align="left" id="d236030e95">
+5.  On the form, fill in the fields.
+
+    For detailed information on the fields, refer to the [Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management.md) application
+
+<table id="choicetable_y22_jbc_mzb"><thead><tr><th align="left" id="d238788e110">
 
 Field
 
-</th><th align="left" id="d236030e98">
+</th><th align="left" id="d238788e113">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d236030e104">
+</th></tr></thead><tbody><tr><td id="d238788e119">
 
 **Number**
 
@@ -46,7 +50,7 @@ Description
 
 Number of the article. This field is automatically populated.
 
-</td></tr><tr><td id="d236030e113">
+</td></tr><tr><td id="d238788e128">
 
 **Knowledge base**
 
@@ -54,7 +58,7 @@ Number of the article. This field is automatically populated.
 
 The knowledge base selected for the article. Enterprise Asset Knowledge Base is selected by default. You can select a different knowledge base if you want to.**Note:** An article can only be associated with one knowledge base. You can change the knowledge base, but only if the selected article template is available in the knowledge base.
 
-</td></tr><tr><td id="d236030e124">
+</td></tr><tr><td id="d238788e139">
 
 **Category**
 
@@ -62,7 +66,7 @@ The knowledge base selected for the article. Enterprise Asset Knowledge Base is 
 
 The category for this article. Select a Knowledge base before you can select a category. Articles without a category appear on the knowledge homepage in the \(empty\) category.
 
-</td></tr><tr><td id="d236030e133">
+</td></tr><tr><td id="d238788e148">
 
 **Valid to**
 
@@ -78,7 +82,7 @@ The date this knowledge article expires. Articles don’t appear in search resul
 
 **Note:** If the system date format or user preferences is set to use `yy` year format, you might face issues when the Valid to date is set to the default date. Contact your administrator or modify the user preferences to use a date format with the `yyyy` year format.
 
-</td></tr><tr><td id="d236030e175">
+</td></tr><tr><td id="d238788e190">
 
 **Article type**
 
@@ -86,7 +90,7 @@ The date this knowledge article expires. Articles don’t appear in search resul
 
 The type of article, either HTML or wiki.
 
-</td></tr><tr><td id="d236030e184">
+</td></tr><tr><td id="d238788e199">
 
 **Workflow**
 
@@ -94,7 +98,7 @@ The type of article, either HTML or wiki.
 
 The publication state of the article, such as Draft, In Review, or Published. When inserting a new article from an existing article, the state of the new article is reset to Draft.
 
-</td></tr><tr><td id="d236030e193">
+</td></tr><tr><td id="d238788e208">
 
 **Source task**
 
@@ -102,7 +106,7 @@ The publication state of the article, such as Draft, In Review, or Published. Wh
 
 The task this knowledge article was created in response to, if any. This field is set automatically when you create the knowledge article from a task record.
 
-</td></tr><tr><td id="d236030e202">
+</td></tr><tr><td id="d238788e217">
 
 **Attachment link**
 
@@ -110,7 +114,7 @@ The task this knowledge article was created in response to, if any. This field i
 
 Option for downloading an attached file automatically when a user accesses the article, instead of opening the article view. Add one or more attachments to the article to use this option.**Note:** You may attach multiple files, but most web browsers permit users to download only the first one. To ensure download of all the files, bundle them into an archive, such as with WinZip, and attach the archive. The Attachment link option applies to articles accessed from search links only. Articles accessed as links within other knowledge articles won’t replicate this behavior.
 
-</td></tr><tr><td id="d236030e213">
+</td></tr><tr><td id="d238788e228">
 
 **Display attachments**
 
@@ -118,7 +122,7 @@ Option for downloading an attached file automatically when a user accesses the a
 
 Option for displaying attachments to users viewing this knowledge article. Attachments appear below the article text. Add one or more attachments to the article to use this option.
 
-</td></tr><tr><td id="d236030e222">
+</td></tr><tr><td id="d238788e237">
 
 **Short Description**
 
@@ -126,7 +130,7 @@ Option for displaying attachments to users viewing this knowledge article. Attac
 
 The title of the article. This title appears when browsing and searching for a knowledge article, and at the top of the article. You can enter up to 100 characters in this field.
 
-</td></tr><tr><td id="d236030e232">
+</td></tr><tr><td id="d238788e247">
 
 **Article body**
 
@@ -137,7 +141,7 @@ Content for the article. A preview of the content appears when browsing and sear
  Use the editing functions in the HTML editor to create content.
 
 </td></tr></tbody>
-</table>4.  Select **Save** to create the article.
+</table>6.  Select **Save** to create the article.
 
 
 ## Result

@@ -3,9 +3,9 @@ title: Services overview tab
 description: The Services overview tab in the Operational Resilience Workspace provides a comprehensive summary of active services, highlighting any red flags or urgent issues, status of resilience activities like assessments, scenario analysis, self-attestations. It also offers suggestions for mitigating top risks or vulnerabilities and strengthening top controls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ser-ov.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Landing page and dashboard views, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -190,7 +190,7 @@ The Services report on the **Services overview** tab provides a quick summary wi
 
 ## Report on the red flags
 
-The Red flags report on the **Services overview** tab shows the total number of red flags that require immediate attention. These red flags are associated with assets, controls, issues, and risks related to the selected service. The report breaks down details of the red flags based on the integrations with the Operational Resilience application. For example, if you have installed the Policy and Compliance Management application, services data for the failed controls is pulled from that application and displayed in this report.
+The Red flags report on the **Services overview** tab shows the total number of red flags that require immediate attention. These red flags are associated with assets, controls, issues, and risks related to the selected service. The report breaks down details based on integrations with the Operational Resilience application. For example, if you have installed the Policy and Compliance Management application, services data for the failed controls is pulled from that application and displayed in this report.
 
 A sample Red flags report for the services is shown in the example.
 

@@ -3,11 +3,11 @@ title: Compare versions of a widget related record
 description: Compare an Angular Provider or ng-template against its previous version so that you check if your most recent code changes are causing issues on a portal page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/compare-related-record-changes.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Widget diagnostics, Developing custom widgets, Service Portal, Configure UIs and portals, Configure user experiences]
 ---

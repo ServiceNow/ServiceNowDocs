@@ -3,9 +3,9 @@ title: Coalesce records on a normal value
 description: Coalescence enables an administrator to redirect references to multiple records containing variants of the same field value to point to a single record, based on a normal value.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CoalesceNormalValues.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Normal values, Field normalization and transformation, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -46,7 +46,7 @@ When the references are fixed, all table fields directly corresponding to sys\_d
 
     The system updates any references to records that match aliases and rules to instead point to the normal record. The system also deletes the duplicate records from the table.
 
-6.  [Start](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ApplyAliases.md) all the **Alias application** data jobs to replace the aliases with the normal value in existing records in the database.
+6.  [Start](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ApplyAliases.md) all the **Alias application** data jobs to replace the aliases with the normal value in existing records in the database.
 
     The system starts the **Coalesce to normal** data jobs for each alias.
 

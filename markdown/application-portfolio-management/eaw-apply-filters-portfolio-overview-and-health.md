@@ -3,9 +3,9 @@ title: Apply filters to the Portfolio Overview and Health section
 description: You can apply filters to the Portfolio Overview and Health section in the Enterprise Architecture Workspace. Based on the applied filters, the interactive cards and graphs displayed in this section are updated, and you can view specific business applications and business capability data. Your filter preferences are saved and applied the next time you visit the page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-apply-filters-portfolio-overview-and-health.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with Enterprise Architecture workspace home page, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -45,10 +45,10 @@ Role required: sn\_apm.apm\_read
     **Note:** You can also clear all applied filters by selecting the **Clear all filters** button.
 
 
-**Parent Topic:**[Working with Enterprise Architecture workspace home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-ea-workspace-homepage.md)
+**Parent Topic:**[Working with Enterprise Architecture workspace home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-work-with-ea-workspace-homepage.md)
 
 **Related topics**  
 
 
-[Enterprise Architecture Workspace Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-overview.md)
+[Enterprise Architecture Workspace user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-overview.md)
 

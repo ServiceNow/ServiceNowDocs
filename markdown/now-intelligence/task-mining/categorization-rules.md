@@ -3,11 +3,11 @@ title: Categorization rule form in Task Mining
 description: Organize and add context to your data by grouping similar workstation activities with user-friendly category names. Categorization rules have a fixed order value that determines how information from apps and windows is shown on an analysis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/categorization-rules.html
-release: australia
+release: brazil
 product: Task Mining
 classification: task-mining
 topic_type: reference
-last_updated: "2026-08-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Task Mining, Platform Analytics]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Reference, Task Mining, Platform Analytics]
 
 Organize and add context to your data by grouping similar workstation activities with user-friendly category names. Categorization rules have a fixed order value that determines how information from apps and windows is shown on an analysis.
 
-For information about categorization, see [Categorize workstation activities to simplify analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/define-default-categorization-rules.md).
+For information about categorization, see [Categorize workstation activities to simplify analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/define-default-categorization-rules.md).
 
 You build the conditions for a rule in the **Conditions** section of the **Create rule** or **Edit rule** panel. A condition is a combination of a field, an operator, and a value. Combine conditions with **and** and **or** logic, and apply more than one condition to the same field.
 
@@ -86,5 +86,5 @@ Window name
 A name to describe the activity. Optional. A value can be used to mask PII. For example, you can use \[\] to mask and replace with the term used in brackets. If this field is empty, the window name from the workstation is used.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Task Mining Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/reference-task-mining.md)
+</table>**Parent Topic:**[Task Mining Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/reference-task-mining.md)
 

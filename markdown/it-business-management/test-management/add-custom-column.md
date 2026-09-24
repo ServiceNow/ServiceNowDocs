@@ -3,11 +3,11 @@ title: Define a custom column in Test Board of Test Management 2.0
 description: Define a custom column to display information important to you in the Test plan work item hierarchy section of the Planning tab. For example, define a column to view the percentage of test plan that has been completed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/add-custom-column.html
-release: australia
+release: brazil
 product: Test Management
 classification: test-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Test Board in Test Management 2.0, Testing using Test Management 2.0, Test Management 2.0, Test Management applications, Strategic Portfolio Management]
 ---
@@ -43,5 +43,5 @@ Role required: admin
 
 After you create a column, associate the column to the required table.
 
-**Parent Topic:**[Test Board in Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/test-board.md)
+**Parent Topic:**[Test Board in Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/test-management/test-board.md)
 

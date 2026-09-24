@@ -3,11 +3,11 @@ title: Major issue management analytics
 description: Provides indicators on the Customer Service dashboards for major cases and child cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/analytics-and-reporting-solutions-for-customer-service/major-issue-management-analytics.html
-release: australia
+release: brazil
 product: Analytics and Reporting Solutions for Customer Service
 classification: analytics-and-reporting-solutions-for-customer-service
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer Service Platform Analytics Solutions, Analytics and reporting, Customer Service Management]
 ---

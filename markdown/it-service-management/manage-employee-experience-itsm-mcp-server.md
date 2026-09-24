@@ -3,9 +3,9 @@ title: Manage request items using the ITSM MCP Server
 description: Use the ITSM MCP Server to create incidents, check the status of your own incidents and requested items, and escalate incidents. Add comments through an MCP client application such as Moveworks or Claude.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/manage-employee-experience-itsm-mcp-server.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ITSM MCP Server, employee experience, requester, create incident, ticket status, escalate incident, add comments, knowledge base deflection, natural language prompts, AI workflow, service catalog, catalog items, lookup\_catalog\_items]
 breadcrumb: [Activate the ITSM MCP Server, ITSM MCP Server, IT Service Management]
@@ -23,7 +23,7 @@ Role required: authenticated user
 
 ## About this task
 
-For information on tools, see [ITSM MCP Server tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mcp-server-tools-reference.md).
+For information on tools, see [ITSM MCP Server tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-mcp-server-tools-reference.md).
 
 ## Procedure
 
@@ -54,22 +54,6 @@ For information on tools, see [ITSM MCP Server tools reference](https://raw.gith
         -   "Show me details for RITM0123456."
         -   "What is the status of my VPN ticket?"
         -   "Show me all my open requests."
-    -   **3. __requester.escalate__: Request escalation of your incident to raise its urgency by one level.**
-
-        Example prompts:
-
-        -   "Escalate INC0123456. Production is down and 200 users are affected."
-        -   "I need INC0012345 escalated. The system is completely unavailable."
-        **Note:** Escalation requires a reason and applies only when the incident is not in a Resolved, Closed, or Canceled state, the urgency is not already High, and the incident was not escalated within the last 24 hours.
-
-    -   **4. __requester.add\_comment__: Add a customer-visible comment to your incident or requested item.**
-
-        Example prompts:
-
-        -   "Add a comment to INC0123456: I've provided the requested information."
-        -   "Add a comment to RITM0123456: The issue persists after the fix."
-        **Note:** Comments are customer-visible only. Work notes aren't accessible to requesters. You can't add comments to closed or canceled tickets.
-
     -   **5. __task\_approval\_decision__: Approve or reject the caller's oldest pending approval on a request item.**
 
         Example prompts:

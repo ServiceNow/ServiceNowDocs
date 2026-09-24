@@ -3,11 +3,11 @@ title: Connect workspace
 description: The Connect workspace is a full-screen view of all your Connect Chat and Connect Support conversations in one place. It contains the conversation pane, which displays the conversation header and an expanded version of the mini window, and the conversation tools area.The conversation pane of the Connect workspace displays the conversation header and an expanded version of the mini window.The conversation tools area in the Connect workspace contains several tabs, each represented by an icon.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/c\_CollaborationWorkspace.html
-release: australia
+release: brazil
 product: Connect
 classification: connect
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Connect interface, Connect, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,7 @@ The Connect workspace is composed of the following elements.
 
 |Element|Description|
 |-------|-----------|
-|Sidebar|Provides access to conversations. The Connect sidebar behaves the same way in the workspace as it does in the Connect overlay. The only difference is that the sidebar appears on the left edge of the Connect workspace. For more information about using the sidebar, see [Connect sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/c_CollaborationOverlay.md).|
+|Sidebar|Provides access to conversations. The Connect sidebar behaves the same way in the workspace as it does in the Connect overlay. The only difference is that the sidebar appears on the left edge of the Connect workspace. For more information about using the sidebar, see [Connect sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/connect/c_CollaborationOverlay.md).|
 |Conversation pane|Displays the currently selected conversation.|
 |Conversation tools|Provides quick access to key information, conversation members, attachments, and notification preferences for the currently selected conversation. Some of the conversation tools vary depending on the type of conversation.|
 
@@ -32,7 +32,7 @@ The Connect workspace is composed of the following elements.
 
 The conversation pane of the Connect workspace displays the conversation header and an expanded version of the mini window.
 
-The header displays basic conversation details like the avatar and name. You can [edit these details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/t_EditBasicConversationDetails.md) for group or record conversations.
+The header displays basic conversation details like the avatar and name. You can [edit these details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/connect/t_EditBasicConversationDetails.md) for group or record conversations.
 
 Below the header, messages appear in chronological order. You can enter messages in the text entry field at the bottom of the window.
 
@@ -92,7 +92,7 @@ Knowledge Base
 
 </td><td>
 
-Displays a compact view of the knowledge homepage. For more information, see [Share knowledge in a Connect Support conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/t_ShareKnowledgeInConnectSupport.md).
+Displays a compact view of the knowledge homepage. For more information, see [Share knowledge in a Connect Support conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/connect/t_ShareKnowledgeInConnectSupport.md).
 
 </td></tr><tr><td>
 
@@ -128,7 +128,7 @@ Notification preferences
 
 </td><td>
 
-Contains settings to control which notifications you receive for the current conversation. For more information, see [Edit which notifications you receive for a conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/t_EditNotifRecAConv.md).
+Contains settings to control which notifications you receive for the current conversation. For more information, see [Edit which notifications you receive for a conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/connect/t_EditNotifRecAConv.md).
 
 </td></tr></tbody>
 </table>

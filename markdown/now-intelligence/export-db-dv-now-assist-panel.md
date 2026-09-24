@@ -3,9 +3,9 @@ title: Export dashboards and data visualizations from the ServiceNow Otto panel
 description: Export or schedule the export of dashboards and data visualizations conversationally through AI instead of going through the Platform Analytics user interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/export-db-dv-now-assist-panel.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [export, schedule, schedule export, Now Assist, Now Assist Panel, Platform Analytics AI]
 breadcrumb: [Platform Analytics in the ServiceNow Otto panel, ServiceNow Otto for Platform Analytics, Platform Analytics]
@@ -48,23 +48,23 @@ Role required: now\_assist\_panel\_user. To schedule an export, you also need pa
 
 **Tip:** After an export request is complete, reset the conversation before beginning a new request. Otherwise, some option selections might carry over to the new request. If this happens anyway, consider clearing your browser cache.
 
--   **[Supported export output types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/nowass-supported-export-output.md)**  
+-   **[Supported export output types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/nowass-supported-export-output.md)**  
 The dashboard and visualization output skill supports the same outputs for the same data visualizations as Platform Analytics generally.
--   **[Export destinations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/nowass-export-destinations.md)**  
+-   **[Export destinations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/nowass-export-destinations.md)**  
 When you export a dashboard or data visualization in the ServiceNow Otto panel, you have to specify the destination.
--   **[Limitations for exporting dashboards and visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/limitations-exporting-db-dv.md)**  
+-   **[Limitations for exporting dashboards and visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/limitations-exporting-db-dv.md)**  
 The dashboard and visualization export skill supports only some dashboards for export. Requests for export are not always recognized or understood correctly.
--   **[Export guidelines and examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/nowass-export-guidelines-examples.md)**  
+-   **[Export guidelines and examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/nowass-export-guidelines-examples.md)**  
 In your prompts for the dashboard and visualization export skill, you can describe the export you want with a variable amount of detail. You are prompted for any necessary information that is missing. Before the export runs, you are asked to review the request, giving you a chance to change any options.
 
-**Parent Topic:**[Dashboards and data visualizations in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-assist-landing-page.md)
+**Parent Topic:**[Dashboards and data visualizations in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/analytics-assist-landing-page.md)
 
 **Related topics**  
 
 
-[Export a data visualization from the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/export-visualization-vd.md)
+[Export a data visualization from the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/export-visualization-vd.md)
 
-[Export a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/export-pae-dashboard-ppt.md)
+[Export a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/export-pae-dashboard-ppt.md)
 
-[Schedule the export of data visualizations or dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/schedule-visn-export-vd.md)
+[Schedule the export of data visualizations or dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/schedule-visn-export-vd.md)
 

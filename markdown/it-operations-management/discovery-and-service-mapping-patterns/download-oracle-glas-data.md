@@ -3,11 +3,11 @@ title: Download Oracle Global License Advisory Services \(GLAS\) data
 description: Download Oracle GLAS data in CSV format to get detailed information on patterns and configuration items. You can also download reports for Oracle Database, Middleware, Oracle Java, VM, and vCenter hardware information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/download-oracle-glas-data.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Oracle GLAS data collection, Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -171,7 +171,7 @@ Defines the maximum overall payload size for the payload of results that come fr
  Default value: 300000
 
 </td></tr></tbody>
-</table>If you receive an SSH timeout error, you must create and set the following properties. See "Create a MID Server property" in [MID Server Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerProperties.md) for details.
+</table>If you receive an SSH timeout error, you must create and set the following properties. See "Create a MID Server property" in [MID Server Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_MIDServerProperties.md) for details.
 
 <table id="table_x43_2gc_ddc"><thead><tr><th>
 
@@ -212,5 +212,5 @@ The amount of time, in milliseconds, that a MID Server waits for activity when p
  Type: integer
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Oracle GLAS data collection using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-glas-discovery.md)
+</table>**Parent Topic:**[Oracle GLAS data collection using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-glas-discovery.md)
 

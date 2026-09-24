@@ -1,20 +1,20 @@
 ---
-title: Salesforce APIs
-description: Explore the APIs used in AI Service Graph Connector for Salesforce.
+title: APIs used by Salesforce
+description: Explore the Salesforce APIs used in AI service Graph Connector for Salesforce. The table lists all the Salesforce API endpoints used by the connector.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/apis-used-by-salesforce.html
-release: australia
+release: brazil
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-03-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Salesforce, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [Salesforce, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
-# Salesforce APIs
+# APIs used by Salesforce
 
-Explore the APIs used in AI Service Graph Connector for Salesforce.
+Explore the Salesforce APIs used in AI service Graph Connector for Salesforce. The table lists all the Salesforce API endpoints used by the connector.
 
 The following table lists all the Salesforce API endpoints used by the connector.
 
@@ -52,7 +52,7 @@ https://&lt;domain\_name&gt;.salesforce.com/services/data/v65.0/ssot/machine-lea
 
 </td><td>
 
-Fetch Models configured in Salesforce Einstein Studio.
+Fetch Models configured in Salesforce Einstein Studio
 
 </td></tr><tr><td>
 
@@ -64,7 +64,7 @@ https://&lt;domain\_name&gt;.salesforce.com/services/data/v65.0/query?q=SELECT i
 
 </td><td>
 
-Fetch all the tools details used by AI Agents.
+Fetch all the tools details used by AI Agents
 
 </td></tr><tr><td>
 
@@ -76,7 +76,7 @@ https://&lt;domain\_name&gt;.salesforce.com//services/data/v65.0/query?q=SELECT 
 
 </td><td>
 
-Fetch all prompts information associated or used by AI Agents.
+Fetch all prompts information associated or used by AI Agents
 
 </td></tr><tr><td>
 

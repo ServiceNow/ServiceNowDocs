@@ -3,11 +3,11 @@ title: Composite entity in Governance, Risk, and Compliance
 description: Composite entity in Governance, Risk, and Compliance is a combination of two or more entities created from different entity classes. The Composite Entity Management application enables you to create multidimensional entities and manage them in a more granular level.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/composite-entity-in-grc.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore entities, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -33,15 +33,15 @@ The following are the key benefits of a composite entity:
 -   Add stakeholders with customizable roles relevant to composite entities, enabling effective team involvement in assessment projects.
 -   Map relevant risks and controls to composite entities that can be used for the risk assessment project.
 
--   **[Create a composite entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-composite-entity-ws.md)**  
+-   **[Create a composite entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/create-composite-entity-ws.md)**  
 Create multidimensional entities by combining two or more entities from different entity classes using the Composite Entity Management application. In Governance, Risk, and Compliance, entities can be people, processes, departments, applications, or objects.
 
-**Parent Topic:**[Exploring the entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/exploring-the-entities.md)
+**Parent Topic:**[Exploring the entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/exploring-the-entities.md)
 
 **Related topics**  
 
 
-[Create an entity class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-new-entity-class-ws.md)
+[Create an entity class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/create-new-entity-class-ws.md)
 
-[Create a composite entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-composite-entity-ws.md)
+[Create a composite entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/create-composite-entity-ws.md)
 

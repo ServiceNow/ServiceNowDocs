@@ -3,9 +3,9 @@ title: Mobile deep link structure
 description: Familiarize yourself with how to construct and use mobile deep links in any screen type within a mobile app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/deep-link-mobile-structure.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Deep linking, Mobile URLs, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -117,7 +117,7 @@ getScreenLink is used to link into any list screens, including both parameterize
 
 </td><td>
 
-getSSOPrefillLink generates a link that uses the identity provider \(IdP\) that is identified by the `sys_id` parameter. This link can be used to authenticate end users that use different IdPs. For example, pre-hires might use Microsoft Azure as their IdP, and on-boarded employees might use Okta as their IdP. A common use of these SSO \(single sign-on\) pre-filled links is to embed them in emails sent to employees. These emails contain a link that can be used to log in securely to a ServiceNow instance using their mobile apps.**Important:** You must activate the Multi-Provider SSO plugin and have an active IdP to use this method. For more information, see [Activate Multi-Provider SSO plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ActivateMultipleProviderSSO.md)
+getSSOPrefillLink generates a link that uses the identity provider \(IdP\) that is identified by the `sys_id` parameter. This link can be used to authenticate end users that use different IdPs. For example, pre-hires might use Microsoft Azure as their IdP, and on-boarded employees might use Okta as their IdP. A common use of these SSO \(single sign-on\) pre-filled links is to embed them in emails sent to employees. These emails contain a link that can be used to log in securely to a ServiceNow instance using their mobile apps.**Important:** You must activate the Multi-Provider SSO plugin and have an active IdP to use this method. For more information, see [Activate Multi-Provider SSO plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_ActivateMultipleProviderSSO.md)
 
 </td><td>
 
@@ -133,7 +133,7 @@ getSSOPrefillLink generates a link that uses the identity provider \(IdP\) that 
 
 </td><td>
 
-getUniversalLink generates a link into either a list, form, or browser. A screen is generated based on the content of this URL. See [Universal linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/universal-links-mobile.md).
+getUniversalLink generates a link into either a list, form, or browser. A screen is generated based on the content of this URL. See [Universal linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/universal-links-mobile.md).
 
 </td><td>
 
@@ -141,5 +141,5 @@ getUniversalLink generates a link into either a list, form, or browser. A screen
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Deep linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/deep-link-mobile.md)
+**Parent Topic:**[Deep linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/deep-link-mobile.md)
 

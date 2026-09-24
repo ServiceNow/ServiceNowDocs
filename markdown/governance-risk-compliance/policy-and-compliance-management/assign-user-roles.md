@@ -3,11 +3,11 @@ title: Assigning Policy and Compliance Management roles to your users
 description: Before you can successfully implement or use the Policy and Compliance Management application, you must assign roles to your users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/assign-user-roles.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Perform, Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -34,7 +34,7 @@ Role required: admin
 
 6.  Repeat these steps for each of your users.
 
-    For a comprehensive list of compliance users, see [Roles installed with GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/r_InstallWPolAndCompl.md).
+    For a comprehensive list of compliance users, see [Roles installed with GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/r_InstallWPolAndCompl.md).
 
 <table id="table_o14_t2s_2mb"><thead><tr><th>
 
@@ -158,7 +158,7 @@ The Attestation Creator is responsible for creating and maintaining attestations
 </table>
 ## What to do next
 
-Return to the [Policy and Compliance Management setup checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/policy-compliance-impl-checklist.md).
+Return to the [Policy and Compliance Management setup checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/policy-compliance-impl-checklist.md).
 
-**Parent Topic:**[Perform Policy and Compliance Management administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/perform-policy-compliance-admin.md)
+**Parent Topic:**[Perform Policy and Compliance Management administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/perform-policy-compliance-admin.md)
 

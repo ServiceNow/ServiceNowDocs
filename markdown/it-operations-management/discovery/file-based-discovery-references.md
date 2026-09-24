@@ -3,11 +3,11 @@ title: File-based Discovery references
 description: Review this reference material for further details on File-based Discovery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/file-based-discovery-references.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [File-based Discovery, Running discoveries in your network, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Review this reference material for further details on File-based Discovery.
 
 ## How File-based Discovery minimizes performance impact
 
-Scanning large networks, particularly for Windows computers, can extend scan time considerably. Moreover, file scanning can create heavy CPU demands on target machines and produce large payloads that greatly increase processing time. To avoid performance issues, File-based Discovery allows you to optimize processing with many of the settings configured using the [Discovery Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryConfigurationConsole.md).
+Scanning large networks, particularly for Windows computers, can extend scan time considerably. Moreover, file scanning can create heavy CPU demands on target machines and produce large payloads that greatly increase processing time. To avoid performance issues, File-based Discovery allows you to optimize processing with many of the settings configured using the [Discovery Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c_DiscoveryConfigurationConsole.md).
 
 -   **Multi-phase scan**: Probes are triggered in multiple phases to reduce long scan times. The first probe creates the scanning process on the target, which runs in the background. Subsequent probes check the progress of this scan each time Discovery runs and return the results when the scan is complete. For example, if a file scan is initiated via Quick Discovery or from a Discovery schedule, no information is returned if a background scan is still running. If the scan is finished the next time the server is discovered, the probe returns the data.
 
@@ -44,7 +44,7 @@ Descriptions of the tables provided by the File-based Discovery \[com.snc.discov
     -   **Publisher**: Name of the publisher of the file, such as Oracle or Microsoft. This is a reference to the Company \[core\_company\] table. This field is populated when SAMP is activated and a match exists.
     -   **Size**: Size of the file.
     -   **Software installation**: Name of the installed software associated with this file, from the Software Installation \[cmdb\_sam\_sw\_install\] table. This field is populated when SAMP is activated and a match exists.
-    -   **Version**: Version of the file. Currently, for Windows only.
+    -   **Version**: Version of the file. Populated for Windows files only.
 -   **Unidentified File Set \[cmdb\_unidentified\_file\_set\]**
 
     This table stores all the files returned by Discovery that cannot be matched to a software product, with or without SAMP. Discovery populates the name, size, and version of each unmatched file in the record. These optional fields can be used to further identify the file and make it available for future file matching:
@@ -56,16 +56,16 @@ Descriptions of the tables provided by the File-based Discovery \[com.snc.discov
     -   Platform
     -   Language
 
-**Note:** A feature in Software Asset Management Professional \(SAMP\) allows signature data in this table to be shared with Content Data Services \(CDS\). When you enable data sharing, the system automatically uploads records from the Unidentified File Set \[cmdb\_unidentified\_file\_set\] table to CDS when you provide the missing information. Uploading the identified files makes them available to improve future file matching. For details, see [Add a custom software product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/t_AddACustomProduct.md).
+**Note:** A feature in Software Asset Management Professional \(SAMP\) allows signature data in this table to be shared with Content Data Services \(CDS\). When you enable data sharing, the system automatically uploads records from the Unidentified File Set \[cmdb\_unidentified\_file\_set\] table to CDS when you provide the missing information. Uploading the identified files makes them available to improve future file matching. For details, see [Add a custom software product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/t_AddACustomProduct.md).
 
 For a full reference of File-based Discovery system properties and script includes, see the [File Based Discovery](https://support.servicenow.com/now/nav/ui/classic/params/target/kb%3Fid%3Dkb_article_view%26sysparm_article%3DKB0813350) Now Support Knowledge Base article.
 
 ## File-based Discovery issue resolution
 
-If you're experiencing any issues when setting up or running File-based Discovery, see [File-based Discovery issue resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/file-based-discovery-troubleshooting.md).
+If you're experiencing any issues when setting up or running File-based Discovery, see [File-based Discovery issue resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/file-based-discovery-troubleshooting.md).
 
 **Related topics**  
 
 
-[File-based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/file-based-discovery.md)
+[File-based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/file-based-discovery.md)
 

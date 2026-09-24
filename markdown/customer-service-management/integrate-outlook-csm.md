@@ -3,9 +3,9 @@ title: Integrate Customer Service Management with Microsoft Outlook
 description: Customer Service Management provides an integration with Microsoft Outlook. This integration enables you to manage workflows such as creating and updating contacts and cases from within Microsoft Outlook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/integrate-outlook-csm.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating with Microsoft Outlook, Integrate, Customer Service Management]
 ---
@@ -30,7 +30,7 @@ Role required: admin
 
 3.  Click **Activate**.
 
-4.  Search for the CSM Extension for Proxy Contacts plugin \(com.snc.csm\_proxy\_contacts\).
+4.  Search for the Customer Proxy Contacts plugin \(com.snc.csm\_proxy\_contacts\).
 
 5.  Click **Activate**.
 
@@ -38,5 +38,5 @@ Role required: admin
 **Related topics**  
 
 
-[Using Microsoft Outlook with CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-microsoft-outlook-with-csm.md)
+[Using Microsoft Outlook with CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/use-microsoft-outlook-with-csm.md)
 

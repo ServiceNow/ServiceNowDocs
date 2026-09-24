@@ -3,9 +3,9 @@ title: Before Query business rules
 description: You can use a Before Query business rule to help support data segregation on an instance. ServiceNow applications that support domain separation may support the separation of data and data routing only, have advanced business logic separation, or support tenant \(customer\) level administration of the application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-before-query-business-rules.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Recommended practices for service providers, Domain separation for service providers, Access Management]
 ---
@@ -60,7 +60,7 @@ For companies with many customers in many instances, excessive use of Before que
 
 You can enable domain separation with a ServiceNow plugin. A product manager, supported by a development team, manages the functionality. Enhancements and fixes for domain separation functionality are included with ServiceNow releases. Instance owners can consult Customer Service and Support resources, such as the Service Portal, at [https://support.servicenow.com](https://support.servicenow.com) for assistance with domain separation.
 
-**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
+**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/bp-domain-sep-recommended.md)
 
 **Related topics**  
 

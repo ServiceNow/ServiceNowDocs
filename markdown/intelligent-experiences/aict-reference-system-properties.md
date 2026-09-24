@@ -3,12 +3,12 @@ title: System properties for AI Control Tower
 description: Several system properties that affect core AI Control Tower are available.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-reference-system-properties.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-06-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Reference, AI Control Tower, Enable AI experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Reference, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # System properties for AI Control Tower
@@ -43,7 +43,7 @@ glide.oauth.tool.scan.guardian.enabled
 
 </td><td>
 
-Controls whether MCP server tool scanning is performed by AI Guardian. For more information, see [AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-guardian.md).-   Type: Boolean
+Controls whether MCP server tool scanning is performed by AI Guardian. For more information, see .-   Type: Boolean
 -   Default value: false
 -   Location: The System Properties \[sys\_properties\] table
 
@@ -53,7 +53,7 @@ sn\_ai\_security.analyzer\_max\_record\_age\_hours
 
 </td><td>
 
-See [System properties for AI asset security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-reference-system-properties.md).
+See [System properties for AI asset security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-reference-system-properties.md).
 
 </td></tr><tr><td>
 
@@ -69,7 +69,7 @@ sn\_ai\_security.veza.api.key
 
 </td><td>
 
-See [System properties for AI asset security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-reference-system-properties.md)
+See [System properties for AI asset security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-reference-system-properties.md)
 
 </td></tr><tr><td>
 
@@ -77,7 +77,7 @@ sn\_ai\_security.veza.api.url
 
 </td><td>
 
-See [System properties for AI asset security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-reference-system-properties.md).
+See [System properties for AI asset security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-reference-system-properties.md).
 
 </td></tr></tbody>
 </table>

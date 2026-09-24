@@ -3,9 +3,9 @@ title: Configure action functions in a record section
 description: Add action functions, like buttons to the footer area of record sections to enable users to trigger functions within a record section and quickly perform repetitive processes. This capability can be added to launcher screens and section screens within a record section.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-ui-section-config-item-function.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure a record UI section, Launcher screen UI sections, Launcher screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -16,7 +16,7 @@ Add action functions, like buttons to the footer area of record sections to enab
 
 ## Before you begin
 
-To configure record section functions within a sections screen, at least one pre-configured record section must be created. For more information, see [Configure a record UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-ui-section-config-item.md).
+To configure record section functions within a sections screen, at least one pre-configured record section must be created. For more information, see [Configure a record UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-ui-section-config-item.md).
 
 Role required: admin
 

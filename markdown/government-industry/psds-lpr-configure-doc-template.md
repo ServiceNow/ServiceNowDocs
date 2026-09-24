@@ -3,9 +3,9 @@ title: Create Document Templates for License and Permit Playbook
 description: With the ServiceNow Document Templates application, you can create HTML and PDF document templates to generate standard letters or documents. You can automate and simplify the process of filling, signing, and reviewing a document online.​ Use the Document Templates application to generate templates for various types of Licenses and Permits that will be issued to applicants through the License and Permit Playbook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-lpr-configure-doc-template.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [License and Permit Playbook, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
@@ -89,7 +89,7 @@ User criteria
 
 </td><td>
 
-Audience criteria for this document. For example, you can create a permit intended for only Canadian residents.**Note:** When defining conditions like case sensitivity or null values, see API .
+Audience criteria for this document. For example, you can create a permit intended for only Canadian residents.**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
 </td></tr><tr><td>
 
@@ -202,7 +202,7 @@ Source template from which you created a copy of current template.
 
 7.  In the **PDF Template Mappings** related list, define additional PDF field mappings.
 
-    **Note:** The **PDF Template Mappings** related list is only available for an editable PDF. See [Define a PDF field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/edit-pdf-mappings.md) for more information.
+    **Note:** The **PDF Template Mappings** related list is only available for an editable PDF. See [Define a PDF field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/edit-pdf-mappings.md) for more information.
 
 8.  Navigate to **Decision Management** &gt; **Decision Builder**.
 

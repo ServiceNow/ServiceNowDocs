@@ -3,11 +3,11 @@ title: Map alerts for the Splunk Enterprise Event Ingestion integration
 description: During the event field-mapping step, you map individual event fields from triggered alerts or imported event data to fields on a ServiceNow AI Platform Security Incident Response \(SIR\) security incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/splunk-event-ingest-map-alerts.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Create an event profile, Splunk Enterprise Event Ingestion integration for Security Operations by ServiceNow, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -176,19 +176,19 @@ Create custom maps by adding or removing the fields on the mapping grid on the r
 
 11. Open the script editor and continue editing.
 
-    For more information about the script editor, see [Use the script editor to format alert values for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest_script_editor.md).
+    For more information about the script editor, see [Use the script editor to format alert values for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/splunk-event-ingest_script_editor.md).
 
 12. Choose one to continue with the profile configuration.
 
-<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d289614e666">
+<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d289319e666">
 
 Option
 
-</th><th align="left" id="d289614e669">
+</th><th align="left" id="d289319e669">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d289614e675">
+</th></tr></thead><tbody><tr><td id="d289319e675">
 
 ** **
 
@@ -196,7 +196,7 @@ Description
 
  
 
-</td></tr><tr><td id="d289614e682">
+</td></tr><tr><td id="d289319e682">
 
 **Continue**
 
@@ -204,7 +204,7 @@ Description
 
 The Mapping form is displayed. **Preview** is selected on the progress bar. The next step is to preview the fields you mapped on a SIR security incident.
 
-</td></tr><tr><td id="d289614e699">
+</td></tr><tr><td id="d289319e699">
 
 **Update**
 
@@ -212,7 +212,7 @@ The Mapping form is displayed. **Preview** is selected on the progress bar. The 
 
 Your data is saved and the Splunk Event Profiles list is displayed.
 
-</td></tr><tr><td id="d289614e711">
+</td></tr><tr><td id="d289319e711">
 
 **Previous**
 
@@ -220,7 +220,7 @@ Your data is saved and the Splunk Event Profiles list is displayed.
 
 The Alert Selection form is displayed.
 
-</td></tr><tr><td id="d289614e721">
+</td></tr><tr><td id="d289319e721">
 
 **Delete**
 
@@ -234,5 +234,5 @@ Delete this event profile and the Splunk Event Profiles list is displayed.
 
 The next step is to preview the values that you mapped on the security incident.
 
-**Parent Topic:**[Create and name an event profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-create-profile.md)
+**Parent Topic:**[Create and name an event profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/splunk-event-ingest-create-profile.md)
 

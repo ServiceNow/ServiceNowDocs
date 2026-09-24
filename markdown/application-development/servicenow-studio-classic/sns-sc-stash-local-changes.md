@@ -3,11 +3,11 @@ title: Stash local changes
 description: Stash local application file changes in ServiceNow Studio to save them temporarily, pull the latest version from the repository, and recover the stashed changes at a later time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sns-sc-stash-local-changes.html
-release: australia
+release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-05-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Work with changes in Git, Metadata source control in ServiceNow Studio, Source control integration, Use, ServiceNow Studio, Developing your application, Building applications]
 ---
@@ -18,7 +18,7 @@ Stash local application file changes in ServiceNow Studio to save them temporari
 
 ## Before you begin
 
-[Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/link-app-to-source-control.md)
+[Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/link-app-to-source-control.md)
 
 At least one changed application file must exist before stashing.
 
@@ -45,5 +45,5 @@ Role required: admin
 
 The local changes are saved to the stash. Pull the latest version from the repository and apply the stashed changes when ready.
 
-**Parent Topic:**[Work with changes in Git](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-sc-work-with-changes-in-git.md)
+**Parent Topic:**[Work with changes in Git](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/sns-sc-work-with-changes-in-git.md)
 

@@ -3,13 +3,13 @@ title: Configure a widget and associate it with project
 description: Enable and associate a widget to view financial summary of your projects at high-level.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/config-fin-widgets-pws.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure financials for Project Workspace, Configure, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Configure financials for Project Workspace, Configuring Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Configure a widget and associate it with project
@@ -28,7 +28,7 @@ Role required: admin
 
 3.  On the Widget New Record form, fill the fields.
 
-    For a description of the field names, see [Widget New Record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/widget-new-record-form.md).
+    For a description of the field names, see [Widget New Record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/widget-new-record-form.md).
 
 4.  Select the **Additional actions menu** and select **Save**
 
@@ -36,10 +36,10 @@ Role required: admin
 
 6.  On the Widget association New Record form, fill the fields.
 
-    For a description of the field names, see [Widget association form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/widget-association-form-spw-fin.md).
+    For a description of the field names, see [Widget association form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/widget-association-form-spw-fin.md).
 
 7.  Select **Submit**.
 
 
-**Parent Topic:**[Configure financials for Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/config-fin-pws.md)
+**Parent Topic:**[Configure financials for Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/config-fin-pws.md)
 

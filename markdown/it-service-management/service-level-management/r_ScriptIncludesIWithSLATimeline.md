@@ -3,11 +3,11 @@ title: Script includes installed with SLA timeline
 description: When SLA timeline is activated, script includes are installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/r\_ScriptIncludesIWithSLATimeline.html
-release: australia
+release: brazil
 product: Service Level Management
 classification: service-level-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activate SLA timeline, Service Level Management plugins, Configuring Service Level Management, Service Level Management, IT Service Management]
 ---
@@ -25,5 +25,5 @@ SLA timeline adds the following script includes.
 |SLATimeLineV2SNC|This script include is used by SLA Timeline internal REST API to inspect audit history of a Task and extract task SLA details to be presented on the UI.|
 |ReadOnlyTaskSLAContoller|This script include is a helper script include and is for internal use. This script include is called by SLATimeLineV2SNC to process the task SLA stage details.|
 
-**Parent Topic:**[Activate SLA timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/t_ActivateSLATimeline.md)
+**Parent Topic:**[Activate SLA timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/t_ActivateSLATimeline.md)
 

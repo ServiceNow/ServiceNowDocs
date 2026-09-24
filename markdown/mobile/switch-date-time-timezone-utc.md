@@ -3,9 +3,9 @@ title: Switch the date/time fields between device time zone and UTC
 description: Use the ShowDateTimeInUTC mobile property to determine whether the date/time field values in the Now Mobile app are displayed in the time zone of the user's device \(default\) or are converted to UTC.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/switch-date-time-timezone-utc.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Mobile properties, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -22,10 +22,10 @@ Role required: admin
 
 The **ShowDateTimeInUTC** mobile property value is **false** and not defined by default. When set to **false** or not defined, the Now Mobile app displays the time and date according to the time zone of a user’s device. Instead, set **ShowDateTimeInUTC** to **true** to display the time and date according to Coordinated Universal Time \(UTC\).
 
-Both [Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-card-builder.md) and the following mobile screens support the **ShowDateTimeInUTC** property:
+Both [Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-card-builder.md) and the following mobile screens support the **ShowDateTimeInUTC** property:
 
--   [Input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-input-screen.md)
--   [Record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/form-screen.md)
+-   [Input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/parameter-input-screen.md)
+-   [Record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/form-screen.md)
 
 Mobile properties are configured as records in the sys\_sg\_properties table on the ServiceNow® Platform server. The ServiceNow instance sends the mobile property to mobile apps after authentication. Then the property turns on or turns off a feature on the mobile app.
 
@@ -59,7 +59,7 @@ Application
 
 </td><td>
 
-Application scope where the mobile property is applied. To select a different application scope, select the globe icon \(\[Omitted image "globe-icon.png"\] Alt text: Globe icon.\) on the instance banner. Then select **Application scope:_application\_scope_**. For information about how mobile properties are affected by application scope, see [Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-properties.md).
+Application scope where the mobile property is applied. To select a different application scope, select the globe icon \(\[Omitted image "globe-icon.png"\] Alt text: Globe icon.\) on the instance banner. Then select **Application scope:_application\_scope_**. For information about how mobile properties are affected by application scope, see [Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-properties.md).
 
 </td></tr><tr><td>
 
@@ -105,7 +105,7 @@ Is Public
 
 Determines whether the **pre\_auth** property is included in the API response.
 
- By default, this option is not selected. If you want this property included in the **/pre\_auth** API response, select this checkbox. For more information, see [Adaptive authentication events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/adaptive-authentication-events.md).
+ By default, this option is not selected. If you want this property included in the **/pre\_auth** API response, select this checkbox. For more information, see [Adaptive authentication events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/adaptive-authentication-events.md).
 
  Mobile properties with this checkbox enabled are excluded from the **/user\_client** API response.
 
@@ -133,5 +133,5 @@ Mobile application that you want to send the mobile property to. This setting li
 
 After updating this property, the end user must refresh the data from the instance to get the latest feature configurations.
 
-**Parent Topic:**[Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-properties.md)
+**Parent Topic:**[Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-properties.md)
 

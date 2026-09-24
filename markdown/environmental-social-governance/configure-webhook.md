@@ -3,9 +3,9 @@ title: Generate Webhook URL
 description: Define a Webhook registry for generating the Webhook URL. Urjanet uses the Webhook URL to send real time data to the Operational Sustainability Management application when an Urjanet statement data is either generated or modified.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/configure-webhook.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with Urjanet, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -39,12 +39,12 @@ A statement in Urjanet refers to a bill. Whenever a new statement is generated i
 
 5.  Open the record that you created and select **Generate Webhook URL**.
 
-6.  To copy the Webhook URL, select and hold \(or right-click\) the information message that appears on the screen and select **Copy Link Address**.\[Omitted image "webhook-url.png"\] Alt text: Copying the Webhook URL.
+6.  To copy the Webhook URL, right-click the information message that appears on the screen and select **Copy Link Address**.\[Omitted image "webhook-url.png"\] Alt text: Copying the Webhook URL.
 
 
 ## What to do next
 
 Paste the URL that is generated in the Urjanet console to get real-time Urjanet statement data. For more information, contact your system administrator.
 
-**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Urjanet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrating-esg-management-with-urjanet.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Urjanet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/integrating-esg-management-with-urjanet.md)
 

@@ -3,11 +3,11 @@ title: Topic form fields
 description: Set fields on the form to create a new topic.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/topic-form-fields.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Communities references, Communities, Customer Service Management]
 ---
@@ -24,7 +24,7 @@ Set fields on the form to create a new topic.
 |Image|An image that provides a visual reference that describes the topic.|
 |Knowledge category used for harvesting|The knowledge category used to categorize community discussions harvested to knowledge articles.|
 
-**Parent Topic:**[Communities references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communitie-references.md)
+**Parent Topic:**[Communities references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/communitie-references.md)
 
 **Related topics**  
 
@@ -39,5 +39,5 @@ Set fields on the form to create a new topic.
 
 [Video Configurations form fields]()
 
-[Create a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/create-topic.md)
+[Create a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/create-topic.md)
 

@@ -3,9 +3,9 @@ title: Activate and configure the Security Operations Whois integration
 description: The Integration Configuration feature allows you to quickly activate and set up third-party security integrations, including the Security Operations Whois integration. Before you can use the Security Operations Whois integration, you must download it from the ServiceNow Store, and you must have a valid account from WhoisXML API.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/activate-whois.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [WhoisXML API integration setup, WhoisXML API integration, Threat Intelligence integrations, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## Procedure
 
-1.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/download-app-first-time.md).
+1.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/download-app-first-time.md).
 
 2.  When the installation is complete, navigate to **Security Operations** &gt; **Integration Configuration**.
 

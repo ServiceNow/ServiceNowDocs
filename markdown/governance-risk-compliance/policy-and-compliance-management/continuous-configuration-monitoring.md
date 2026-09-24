@@ -3,11 +3,11 @@ title: Manage continuous monitoring for controls between Configuration Complianc
 description: Continuous monitoring for controls is a feature integration between the GRC: Policy and Compliance Management product and the Security Operations Configuration Compliance products. This feature integrates the scan results from third-party applications, like Qualys to determine the compliance status for each associated control.The compliance manager maps control objectives or controls to the configuration tests, which generate the controls, entities, and indicators associated with configuration compliance.If the configuration test scan results of the control indicate any failures, the control is marked non-compliant. If the scan results indicate the control passed, all the configuration tests, then the control is marked compliant.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/continuous-configuration-monitoring.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -26,7 +26,7 @@ Continuous monitoring is a pro-active security management approach. Customers mo
 4.  If the configuration test scan results of the configuration tests indicate a failure, then the control is non-compliant and an issue is automatically generated.
 5.  If the next scan result of the configuration test indicates that the failure has been remediated, then the control is compliant and the issue is automatically closed.
 
-**Parent Topic:**[Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/r_PolicyComplianceMgmt.md)
+**Parent Topic:**[Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/r_PolicyComplianceMgmt.md)
 
 ## Map control objective or controls to configuration tests
 

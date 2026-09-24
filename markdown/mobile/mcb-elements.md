@@ -3,9 +3,9 @@ title: Mobile Card Builder components
 description: Learn about the components that make up mobile cards
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/mcb-elements.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [User interface, Mobile Card Builder, Building tools, Building mobile apps, Mobile Platform]
 ---
@@ -754,5 +754,5 @@ Margin left
 The left margin of your video component in pixels.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile Card Builder user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mcb-stage-ui.md)
+</table>**Parent Topic:**[Mobile Card Builder user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mcb-stage-ui.md)
 

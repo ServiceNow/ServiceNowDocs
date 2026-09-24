@@ -3,11 +3,11 @@ title: Workflow performance timing
 description: The workflow engine can generate detailed performance timing data that is useful for troubleshooting slow workflows.Administrators can enable the collection of workflow run time metrics by setting Estimated Run Time \(ERT\) properties.Workflow performance timing is disabled by default. You can create a system property to enable it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/c\_WorkflowPerformanceTiming.html
-release: australia
+release: brazil
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -38,7 +38,7 @@ Role required: admin
 
 ### Procedure
 
-1.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)with the following specifications.
+1.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)with the following specifications.
 
     |Field|Value|
     |-----|-----|

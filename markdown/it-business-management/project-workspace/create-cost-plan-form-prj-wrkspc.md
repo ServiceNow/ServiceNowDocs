@@ -3,11 +3,11 @@ title: Create cost plan form
 description: Use this form to create cost plans for your planning items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/create-cost-plan-form-prj-wrkspc.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Form field information for Project Workspace, Project Workspace reference, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -129,5 +129,5 @@ Available if the Cost type is Software, Hardware, or Other Capex or Opex.Select 
 Model name of a hardware expenditure to expense the cost plan.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/form-field-information-for-project-workspace.md)
+</table>**Parent Topic:**[Form field information for Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/form-field-information-for-project-workspace.md)
 

@@ -3,11 +3,11 @@ title: Create a control test from an engagement
 description: After defining a control, audit managers create control tests that run periodically and provide documented evidence of whether the associated control is operating correctly. After creating multiple control tests on an engagement, use the Control tests grid to view, manage, and request evidence for all tests in one place.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/t\_CreateControlTest.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Manage engagements, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
@@ -20,7 +20,7 @@ After defining a control, audit managers create control tests that run periodica
 
 Role required: sn\_audit.admin and sn\_audit.manager
 
-Starting with Audit Management 23.x.x, you can store supporting documents in Microsoft Word or PDF formats on evidence, engagement, and control test records. Use the ServiceNow Otto® panel to ask questions or summarize documents. Use voice assist to enable voice chat and audio summaries. For more information, see [Using Document Management System in Audit Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/manage-documents-panel.md).
+Starting with Audit Management 23.x.x, you can store supporting documents in Microsoft Word or PDF formats on evidence, engagement, and control test records. Use the ServiceNow Otto® panel to ask questions or summarize documents. Use voice assist to enable voice chat and audio summaries. For more information, see [Using Document Management System in Audit Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/manage-documents-panel.md).
 
 ## Procedure
 
@@ -277,7 +277,7 @@ Confidential
 
 </td><td>
 
-Option to enable confidentiality of the record. Only the assigned confidential users or confidential groups of users can access the record.For more information on confidential option, see [Confidentiality flag for audit and compliance records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/confidentiality-flag-audit-pc.md).
+Option to enable confidentiality of the record. Only the assigned confidential users or confidential groups of users can access the record.For more information on confidential option, see [Confidentiality flag for audit and compliance records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/confidentiality-flag-audit-pc.md).
 
 </td></tr></tbody>
 </table>    The control test form captures two types of testing:
@@ -301,17 +301,17 @@ Option to enable confidentiality of the record. Only the assigned confidential u
 
 After creating the control test, you can:
 
--   View in grid: Use the **Control tests** tab on the engagement record to view all control tests in a single grid without opening individual records. For information, see [View control tests in a grid on an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/view-control-tests-tab-engagement-ws.md).
+-   View in grid: Use the **Control tests** tab on the engagement record to view all control tests in a single grid without opening individual records. For information, see [View control tests in a grid on an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/view-control-tests-tab-engagement-ws.md).
 -   Request evidence: Select Request evidence directly from the grid to collect evidence from the assigned auditor.
 -   Personalize columns: Show or hide additional columns such as Reference and Implementation Statement through column personalization settings.
 -   Use Hierarchical view: Switch to Hierarchical view for a tree-structured layout of control tests and related audit tasks.
 
 ## What to do next
 
-Beginning with 23.x.x release, the control test form also has a Documents panel in addition to the Attachments panel. You can add, version, and manage permissions on documents while the control test is not in a Closed Complete, Closed Incomplete, or Closed Skipped state. For more information, see [Using Document Management System in Audit Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/manage-documents-panel.md).
+Beginning with 23.x.x release, the control test form also has a Documents panel in addition to the Attachments panel. You can add, version, and manage permissions on documents while the control test is not in a Closed Complete, Closed Incomplete, or Closed Skipped state. For more information, see [Using Document Management System in Audit Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/manage-documents-panel.md).
 
--   **[Automatically generate control tests from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/automatically-generate-control-test.md)**  
+-   **[Automatically generate control tests from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/automatically-generate-control-test.md)**  
 After adding an entity to an engagement, you can automatically generate control tests.
 
-**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/c_Engagements.md)
+**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/c_Engagements.md)
 

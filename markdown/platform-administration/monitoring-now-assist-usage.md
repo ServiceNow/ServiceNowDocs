@@ -3,9 +3,9 @@ title: Monitoring Now Assist usage in Subscription Management
 description: View a summary of your Now Assist entitlements and track Now Assist usage across all of your instances in Subscription Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/monitoring-now-assist-usage.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Viewing account-level entitlements, Explore, Subscription Management, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -44,7 +44,7 @@ Access details about Now Assist usage by navigating to **Admin** &gt; **Subscrip
     In some scenarios, data isn't displayed in the **Instances** list.
 
     -   Only instances on Washington DC Patch 2 and higher are listed in the **Instances** list.
-    -   If data sharing is restricted on an instance, usage data for that instance is hidden. You can disable the restriction by updating the trust configuration on that instance. See [Share subscription data from another instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/share-subscription-data.md).
+    -   If data sharing is restricted on an instance, usage data for that instance is hidden. You can disable the restriction by updating the trust configuration on that instance. See [Share subscription data from another instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/share-subscription-data.md).
 -   View details for each of your products that include assists in the **Subscriptions** list.
     -   Determine whether assists are the primary or secondary line item in a purchase according to the value in the **Entitlement type** column.
     -   Verify the start date and end date for each product.

@@ -3,11 +3,11 @@ title: Search for and delete phishing emails
 description: Deleting phishing emails can help reduce exposure to a specific attack across an organization. You can manage phishing emails on your email server by searching, granting approvals, and deleting them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/search-delete-exchange-emails.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -30,7 +30,7 @@ Limitation: When searching the body of emails, you can search a maximum of 1,500
 
 ## About this task
 
-This feature is used by the [Security Operations Integration - Email Search and Delete flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-integ-email-search-delete.md) to run a query against your email server. Depending on the search criteria you select, the search identifies all emails within a phishing attack, and returns the total number of emails affected or details from the emails affected.
+This feature is used by the [Security Operations Integration - Email Search and Delete flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/secops-integ-email-search-delete.md) to run a query against your email server. Depending on the search criteria you select, the search identifies all emails within a phishing attack, and returns the total number of emails affected or details from the emails affected.
 
 ## Procedure
 

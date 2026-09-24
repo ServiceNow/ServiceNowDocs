@@ -3,11 +3,11 @@ title: Journal fields
 description: Journal fields work together to create a log of changes and comments as tasks are worked on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/r\_JournalFields.html
-release: australia
+release: brazil
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Task table structure, Working with Task table, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -29,5 +29,5 @@ These comments, as well as any changes to the record or email notifications sent
 
 \[Omitted image "ActivityFormatterForJournalFields.png"\] Alt text:
 
-**Parent Topic:**[Task table structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/task-table-structure.md)
+**Parent Topic:**[Task table structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/task-table-structure.md)
 

@@ -3,12 +3,12 @@ title: TuneUp Your ITOM Discovery
 description: Provides insight and guidance to improve the health of your Configuration Management Database \(CMDB\) through IT Operations Management \(ITOM\) Discovery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/tuneup-itom-discovery.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
@@ -24,25 +24,30 @@ TuneUp Your ITOM Discovery provides Impact Customers with an analysis of common 
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
 
-Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
-
 ## What you get
 
 -   **ITOM Discovery Assessment**
-    -   Provisioning of a temporary instance
-    -   ITOM Discovery HealthScan portfolio conducted
-    -   Analysis of ITOM Discovery health findings
--   **Customer Coaching Session \#1 \(up to 60 min\)**
-    -   Access to the provisioned temporary instance is granted for 30 days
-    -   Review the following:
-        -   Importance of Discovery and CMDB health
-        -   ITOM Discovery health analysis
-        -   Prioritized problem or deficient areas \(up to 3\)
-        -   Leading practices and recommended actions to remediate gaps
--   **Customer Coaching Session \#2 \(Optional upon Customer request – up to 60 min\)**
+
+    The Technical Accelerator Consultant:
+
+    -   Provisions a temporary instance
+    -   Runs ITOM Discovery HealthScan portfolio
+    -   Analyzes ITOM Discovery health findings
+-   **Customer Coaching Session \#1 \(up to 1.5 hrs\)**
+
+    Review of the following:
+
+    -   Importance of Discovery and CMDB health
+    -   ITOM Discovery health analysis
+    -   Prioritized problem or deficient areas \(up to 3\)
+    -   Leading practices and recommended actions to remediate gaps
+-   **Customer Coaching Session \#2 \(Optional upon Customer request – up to 1 hr\)**
 
     Opportunity for Q&amp;A related to CMDB Discovery
 
+-   **Output**
+    -   30-day access to the temporary instance and Technical Accelerator Consultant with whom you met for any further questions or in-depth explorations
+    -   Copy of the Coaching Session Deck
 
 ## Requested customer resources
 
@@ -53,9 +58,9 @@ Offered pursuant to the applicable ServiceNow Impact Package and Accelerator des
 |Discovery Admin \(Required\)|Primary stakeholder for Discovery.|
 |Trusted Service Partners \(Recommended\)|Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customer going forward.|
 
-## Requested information/access
+## Requested Information/Access
 
-Please refer to the applicable Impact Accelerator Description available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
+**Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
 
 ## Exceptions
 

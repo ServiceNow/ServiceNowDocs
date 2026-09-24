@@ -3,13 +3,13 @@ title: Configure Miro for external content indexing
 description: Create and authorize an application in the Miro Developer Hub to allow the Miro external content connector to access your Miro source system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-miro-external-content-indexing.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Miro external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -94,12 +94,12 @@ To allow the connector to access your Miro source system via the Miro REST API, 
 
 Provide the following items to your connector administrator:
 
--   The OAuth 2.0 application client ID that you copied in step [2.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-miro-external-content-indexing.md)
--   The OAuth 2.0 application client secret that you copied in step [2.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-miro-external-content-indexing.md)
+-   The OAuth 2.0 application client ID that you copied in step [2.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-miro-external-content-indexing.md)
+-   The OAuth 2.0 application client secret that you copied in step [2.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-miro-external-content-indexing.md)
 
 Your connector administrator needs these items to configure a Miro external content connector to retrieve searchable text content and metadata and security principals from your Miro source system.
 
-For details on creating and configuring a Miro external content connector, see [Create a Miro external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-miro.md).
+For details on creating and configuring a Miro external content connector, see [Create a Miro external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-ext-cont-connector-miro.md).
 
-**Parent Topic:**[Miro external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/miro-external-content-connector.md)
+**Parent Topic:**[Miro external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/miro-external-content-connector.md)
 

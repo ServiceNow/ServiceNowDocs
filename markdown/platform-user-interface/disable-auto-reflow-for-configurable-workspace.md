@@ -3,9 +3,9 @@ title: Disable reflow for Configurable Workspace
 description: Disable reflow for an instance, experience, or page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/disable-auto-reflow-for-configurable-workspace.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Forms, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-**Important:** Configurable Workspace pages must use the latest layout system for reflow to be available. For more information, see 
+**Important:** Configurable Workspace pages must use the latest layout system for reflow to be available. For more information, see [Upgrading layouts in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/upgrade-layout-uib.md)
 
 Reflow helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations by transforming page layouts into a vertical, stacked view automatically when users increase browser zoom to 400%. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels.
 

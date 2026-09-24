@@ -3,12 +3,12 @@ title: Governance record types
 description: Record types under the Governance section of an AI asset's Risk &amp; Compliance tab in AI Control Tower, used to support governance review.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-airc-governance-records.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [reference, governance]
-breadcrumb: [Reference, Managing risk and compliance, Govern AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Reference, Managing risk and compliance, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Governance record types

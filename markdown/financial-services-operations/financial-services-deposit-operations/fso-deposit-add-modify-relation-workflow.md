@@ -3,11 +3,11 @@ title: Add, modify, and remove financial account relationship workflows
 description: Learn how agents, using the financial account relationship workflows, resolve service requests for adding, modifying, and removing relationships from deposit accounts. These workflows apply to personal deposit service requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-deposit-operations/fso-deposit-add-modify-relation-workflow.html
-release: australia
+release: brazil
 product: Financial Services Deposit Operations
 classification: financial-services-deposit-operations
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Deposit Operations workflows, Use, Deposit Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -50,5 +50,5 @@ The following workflow routes the case and tasks for adding, modifying, and remo
 
 The case is complete and the state and stage of the case are set to Closed Complete.
 
-**Parent Topic:**[Financial Services Deposit Operations workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-deposit-operations/deposit-operations-workflows.md)
+**Parent Topic:**[Financial Services Deposit Operations workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-deposit-operations/deposit-operations-workflows.md)
 

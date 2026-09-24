@@ -3,12 +3,12 @@ title: Monitor AI asset security events and recommendations
 description: Triage and resolve AI recommendations and AI asset security events to optimize AI asset security.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-sec-use-events.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Managing AI asset security, Govern AI assets, AI Control Tower, Enable AI experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Managing AI asset security, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Monitor AI asset security events and recommendations
@@ -33,16 +33,16 @@ Role required: AI steward \[sn\_ai\_governance\_ai\_steward\]
 
 4.  On any AI recommendation, select **Open** to view all associated AI asset security events.
 
-    For more information, see [Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-activity-center.md).
+    For more information, see [Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-activity-center.md).
 
-5.  On any AI asset security event, select **View map** to see the AI asset in the agent map, or **View asset** to view AI asset details.
+5.  On any AI asset security event, select an option from the Actions menu: **View map** to see the AI asset in the agent map, **View asset** to view AI asset details, **Create Asset Task** to create a task to remediate the security event, or **View containment options** to review AI agent containment using kill switch protocol.
 
-    If your AI agent has malicious activity detected and you have enabled AI agent containment using kill switch protocol, a banner appears.
+    If you view asset details for an AI agent, and it has malicious activity detected, a banner appears.
 
     \[Omitted image "gov-sec-malicious-activity-banner.png"\] Alt text: Banner indicating that malicious activity was detected for the AI agent.
 
 6.  In the malicious activity banner, select **View details** to address the AI agent issue.
 
-    For more information, see [Contain AI agents manually using kill switch protocol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-manage-ai-agents-using-kill-switch-protocol.md).
+    For more information, see [Contain AI agents manually using kill switch protocol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-manage-ai-agents-using-kill-switch-protocol.md).
 
 

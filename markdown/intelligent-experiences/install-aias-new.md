@@ -3,12 +3,12 @@ title: Install AI Agent Studio
 description: Install Now Assist AI agents on your ServiceNow instance to enable the agentic AI experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/install-aias-new.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Install AI Agents]
-breadcrumb: [Configure AI Agent Studio, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Configure AI Agent Studio, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Install AI Agent Studio
@@ -33,7 +33,7 @@ To get started with AI agents, you must have:
 -   AI Search enabled on your instance.
 -   The Now Assist panel must be turned on.
 
-    **Note:** You can access AI agents in the Now Assist panel. To enable the Now Assist panel, see [Turn on the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+    **Note:** You can access AI agents in the Now Assist panel. To enable the Now Assist panel, see [Turn on the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 
 Role required: sn\_aia.admin
@@ -62,5 +62,5 @@ AI agents associated with the Now Assist application are installed on your insta
     Navigate to **All &gt; AI Agent Studio &gt; Overview** in the AI Agent Studio application navigator where you can create and manage AI agents and agentic workflows.
 
 
-Group Action Framework \(GAF\) is an optional way for AI agents to identify and access records using AI-generated indexes and clusters. GAF can be faster and more reliable than AI Search, the default, in some cases. If you want to set up GAF, which can be used instead of AI Search results for gathering related records, see [Set up Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-gaf.md).
+Group Action Framework \(GAF\) is an optional way for AI agents to identify and access records using AI-generated indexes and clusters. GAF can be faster and more reliable than AI Search, the default, in some cases. If you want to set up GAF, which can be used instead of AI Search results for gathering related records, see [Set up Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-gaf.md).
 

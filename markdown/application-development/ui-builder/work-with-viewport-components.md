@@ -3,11 +3,11 @@ title: Add a viewport component to your page
 description: Add a viewport component to your page and create a subpage to create separate content on the page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/work-with-viewport-components.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Extend your UI experience with viewport components, Customize UI Builder pages using components, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -26,11 +26,11 @@ Role required: ui\_builder\_admin
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Open the editor for the page variant that you want to add the viewport to.
 
-    If you haven't created a page for your experience, follow the steps to [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
+    If you haven't created a page for your experience, follow the steps to [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-page.md).
 
 4.  Select **+ Add content** in the content tree.
 
@@ -50,9 +50,9 @@ Role required: ui\_builder\_admin
 
     \[Omitted image "viewport-component-edit-content.png"\] Alt text: Arrow pointing to the +Add button on the configure tab to add page collections.
 
-11. Select a [page collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-glossary.md) from the list or create a collection by selecting **+ Create collection**.
+11. Select a [page collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/ui-builder-glossary.md) from the list or create a collection by selecting **+ Create collection**.
 
-    For more information on creating your own page collection, see [Create a page collection across multiple UI pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page-collection.md).
+    For more information on creating your own page collection, see [Create a page collection across multiple UI pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-page-collection.md).
 
     \[Omitted image "page-collection-list.png"\] Alt text: Page collection selection screen with option to create a collection.
 
@@ -70,7 +70,7 @@ Role required: ui\_builder\_admin
 
 15. Add a component to your page to open the viewport you just added, such as a button component.
 
-    For more information, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-components.md).
+    For more information, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/add-components.md).
 
 16. Select the **Events** tab in the configuration panel.
 
@@ -95,5 +95,5 @@ Role required: ui\_builder\_admin
 22. View and test your page by selecting \[Omitted image "preview-button.png"\] Alt text: Preview button that opens the page variant..
 
 
-**Parent Topic:**[Extend your UI experience with viewport components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/viewports-overview.md)
+**Parent Topic:**[Extend your UI experience with viewport components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/viewports-overview.md)
 

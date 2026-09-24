@@ -3,11 +3,11 @@ title: Define a condition check
 description: You can define a condition check to change values in a contract when the Contract Compliance Checks scheduled job runs each night.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/contract-management/t\_DefineAConditionCheck.html
-release: australia
+release: brazil
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Condition check definitions, Contract Management, Common applications, Asset Management]
 ---
@@ -119,5 +119,5 @@ The order in which the conditions are evaluated. The first condition that is fou
 8.  Continue adding conditions as needed, following the steps above.
 
 
-**Parent Topic:**[Condition check definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/c_UseConditionCheckDefinitions.md)
+**Parent Topic:**[Condition check definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/contract-management/c_UseConditionCheckDefinitions.md)
 

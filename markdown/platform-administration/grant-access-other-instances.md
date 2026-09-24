@@ -3,11 +3,11 @@ title: Basic trust configuration for data sync applications
 description: Certain ServiceNow applications have the ability to provide data visibility across instances within a customer’s account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/grant-access-other-instances.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Multi-instance Management, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Multi-Instance Management, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Basic trust configuration for data sync applications

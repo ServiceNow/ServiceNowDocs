@@ -3,13 +3,13 @@ title: Start working on a hardware asset pick task using the Mobile Agent applic
 description: Indicate in the Mobile Agent application when you start work on an asset pick task assigned to you.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/start-work-pick-task-mobile-ham.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage hardware asset pick tasks, Manage hardware asset tasks using the Mobile Agent application, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage hardware asset pick tasks using the Mobile Agent application, Manage hardware asset tasks using the Mobile Agent application, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Start working on a hardware asset pick task using the Mobile Agent application
@@ -50,9 +50,9 @@ On the **Details** tab, the **Start work** link changes to **Start timer**, **Lo
 
 ## What to do next
 
-Complete the Asset pick task assigned to you. For details, see [Locate and pick the hardware assets in your stockroom using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/locate-and-pick-hardware-asset-using-mobile-app.md).
+Complete the Asset pick task assigned to you. For details, see [Locate and pick the hardware assets in your stockroom using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/locate-and-pick-hardware-asset-using-mobile-app.md).
 
-**Parent Topic:**[Manage hardware asset pick tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-asset-pick-task-ham-mobile-app.md)
+**Parent Topic:**[Manage hardware asset pick tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/manage-asset-pick-task-ham-mobile-app.md)
 
 **Related topics**  
 

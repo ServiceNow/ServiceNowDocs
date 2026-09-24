@@ -3,11 +3,11 @@ title: Configure LLM to generate descriptions for conversational actions
 description: Choose which LLM you want to use by default to generate descriptions for inputs, outputs, and skills for conversational actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/configure-default-llm-for-conversational-actions.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -56,5 +56,5 @@ In the conversational actions settings, you can use generative AI to generate de
 6.  Select **Update**.
 
 
-**Parent Topic:**[Building actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/actions.md)
+**Parent Topic:**[Building actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/actions.md)
 

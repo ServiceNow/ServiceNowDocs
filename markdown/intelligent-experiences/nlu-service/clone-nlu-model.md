@@ -1,18 +1,18 @@
 ---
-title: Duplicate an NLU model
+title: \(Legacy\) Duplicate an NLU model
 description: Duplicate an existing Natural Language Understanding \(NLU\) model to create a new one. Duplicating a model copies the settings and contents of the original model, including its default test set.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/clone-nlu-model.html
-release: australia
+release: brazil
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Creating models, Model management, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) Creating models, \(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Duplicate an NLU model
+# \(Legacy\) Duplicate an NLU model
 
 Duplicate an existing Natural Language Understanding \(NLU\) model to create a new one. Duplicating a model copies the settings and contents of the original model, including its default test set.
 
@@ -53,9 +53,9 @@ In this example procedure, you've already created a model that's titled NLU for 
 
 ## What to do next
 
-You can customize the new model by adding new content to it. Train, test, and publish the new model. For more information, see [Build and train your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/managing-model-content.md).
+You can customize the new model by adding new content to it. Train, test, and publish the new model. For more information, see [\(Legacy\) Build and train your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/managing-model-content.md).
 
-To duplicate an entire model group, or one of the models in a group, see [Multilingual model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/multilingual-model-managent.md).
+To duplicate an entire model group, or one of the models in a group, see [\(Legacy\) Multilingual model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/multilingual-model-managent.md).
 
-To transfer a model to a different instance, see [Add an NLU model to an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/add-model-update-set.md).
+To transfer a model to a different instance, see [\(Legacy\) Add an NLU model to an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/add-model-update-set.md).
 

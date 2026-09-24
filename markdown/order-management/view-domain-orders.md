@@ -3,9 +3,9 @@ title: View domain orders
 description: View product, service, or resource orders for tracking the fulfillment process, verifying that all required tasks and suborders are created correctly, and confirming that the order progresses through its life cycle as expected.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/view-domain-orders.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Order decomposition, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_ind\_tmt\_orm.fulfillment\_agent, sn\_ind\_tmt\_orm.fulfillme
 
 ## Procedure
 
-1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
+1.  Navigate to  **Workspaces** &gt; **CRM Workspace** .
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -54,7 +54,7 @@ Role required: sn\_ind\_tmt\_orm.fulfillment\_agent, sn\_ind\_tmt\_orm.fulfillme
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-order-management.md)
 

@@ -3,11 +3,11 @@ title: Customer Service Agent dashboard
 description: The Customer Service Agent dashboard provides quick access to your cases based on criteria that help you prioritize your work. The dashboard also displays summary data on metrics for your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/analytics-and-reporting-solutions-for-customer-service/csm-agent-dashboard.html
-release: australia
+release: brazil
 product: Analytics and Reporting Solutions for Customer Service
 classification: analytics-and-reporting-solutions-for-customer-service
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Customer Service Platform Analytics Solutions, Analytics and reporting, Customer Service Management]
 ---
@@ -114,7 +114,7 @@ CSAT
 
 </td><td>
 
-Average customer satisfaction based on survey results. The percent change in the current period appears under the total percentage. For more information about CSAT, see [Customer service satisfaction surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceSatisfactionSurvey.md).
+Average customer satisfaction based on survey results. The percent change in the current period appears under the total percentage. For more information about CSAT, see [Customer service satisfaction surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_CustomerServiceSatisfactionSurvey.md).
 
 </td></tr><tr><td>
 
@@ -130,7 +130,7 @@ Exceeding Chat Target
 
 </td><td>
 
-Percentage of all Chat work items that have exceeded the target wait time. For more information about the Chat service channel, see [Advanced Work Assignment service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-service-channels.md) **Note:** This indicator is only viewable on the Customer Service Agent - Advanced dashboard.
+Percentage of all Chat work items that have exceeded the target wait time. For more information about the Chat service channel, see [Advanced Work Assignment service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/awa-service-channels.md) **Note:** This indicator is only viewable on the Customer Service Agent - Advanced dashboard.
 
 </td></tr><tr><td>
 
@@ -138,7 +138,7 @@ Exceeding Case Target
 
 </td><td>
 
-Percentage of all Case work items that have exceeded the target wait time. For more information about the Case service channel, see [Advanced Work Assignment service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-service-channels.md) **Note:** This indicator is only viewable on the Customer Service Agent - Advanced dashboard.
+Percentage of all Case work items that have exceeded the target wait time. For more information about the Case service channel, see [Advanced Work Assignment service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/awa-service-channels.md) **Note:** This indicator is only viewable on the Customer Service Agent - Advanced dashboard.
 
 </td></tr><tr><td>
 

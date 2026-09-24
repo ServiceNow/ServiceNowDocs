@@ -3,13 +3,13 @@ title: Uninstall DEX Desktop Assistant
 description: Uninstall Desktop Assistant effortlessly using single-line commands for a clean system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/uninstall-desktop-assistant.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up Desktop Assistant, Configure, Digital End-User Experience, IT Service Management]
+breadcrumb: [Setting up Desktop Assistant, Configure, Digital End-User Experience, IT Service Management]
 ---
 
 # Uninstall DEX Desktop Assistant

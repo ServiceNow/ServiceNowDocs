@@ -3,11 +3,11 @@ title: Assigning knowledge workflows to an OT knowledge base
 description: You can assign different Knowledge Management workflows to each Operational Technology \(OT\) knowledge base for the publishing and retiring processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-knowledge-management/assigning-knowledge-workflows-to-ot-knowledge-base.html
-release: australia
+release: brazil
 product: Operational Technology Knowledge Management
 classification: operational-technology-knowledge-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Operational Technology Knowledge Management, Operational Technology]
 ---
@@ -96,7 +96,7 @@ You can send email notifications for approval workflows.
 -   Notify approvers about the knowledge articles submitted for their approvals.
 -   Notify authors about the approval status of their knowledge articles
 
-To send email notifications for approval workflows, enable the **Send notification to approvers and authors in article approval workflow** property \(**glide.knowman.enable\_approval\_notification**\). Beginning with the New York release, the property is enabled by default. Existing customers on release versions prior to the New York release can enable this property to send email notifications. Disable any custom notifications for article approvals before enabling this property. If the **glide.knowman.enable\_approval\_notification** property isn’t available, an administrator can create the property and set its value to true. For more information, see [Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_KnowledgeProperties.md).
+To send email notifications for approval workflows, enable the **Send notification to approvers and authors in article approval workflow** property \(**glide.knowman.enable\_approval\_notification**\). Beginning with the New York release, the property is enabled by default. Existing customers on release versions prior to the New York release can enable this property to send email notifications. Disable any custom notifications for article approvals before enabling this property. If the **glide.knowman.enable\_approval\_notification** property isn’t available, an administrator can create the property and set its value to true. For more information, see [Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_KnowledgeProperties.md).
 
-**Parent Topic:**[Configuring Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-knowledge-management/configuring-operational-technology-knowledge-management.md)
+**Parent Topic:**[Configuring Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-knowledge-management/configuring-operational-technology-knowledge-management.md)
 

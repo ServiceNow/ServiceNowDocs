@@ -3,11 +3,11 @@ title: Monitor a contract
 description: You can monitor contracts by viewing contract history and creating contract reports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/contract-management/t\_MonitoringContracts.html
-release: australia
+release: brazil
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Contracts, Contract Management use, Contract Management, Asset Management common applications, IT Service Management]
 ---
@@ -37,13 +37,13 @@ If changes are made to a contract start date, end date, or terms and conditions,
 
 3.  View the **Contract History** related list \(core UI\) or tab \(Hardware Asset Workspaceand Enterprise Asset Workspace\) and perform one of the following actions.
 
-    -   If earlier versions of the contract exist, click a date in the **Contract Starts** column to view a version.
-    -   If an earlier version of the contract does not exist, change the contract's **Start date** or **End date**. Right-click in the header bar and select **Save**. In the **Contract History** related list, click a date in the **Contract Starts** column to view the earlier version.
+    -   If earlier versions of the contract exist, select a date in the **Contract Starts** column to view a version.
+    -   If an earlier version of the contract does not exist, change the contract's **Start date** or **End date**. Right-select in the header bar and select **Save**. In the **Contract History** related list, select a date in the **Contract Starts** column to view the earlier version.
 
--   **[Run a contract report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/t_CreatingContractReports.md)**  
+-   **[Run a contract report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/contract-management/t_CreatingContractReports.md)**  
 A variety of contract reports are available to help track and manage contracts.
 
-**Parent Topic:**[Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/c_Contracts.md)
+**Parent Topic:**[Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/contract-management/c_Contracts.md)
 
 **Related topics**  
 

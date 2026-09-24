@@ -3,11 +3,11 @@ title: Create incident template
 description: Create an incident template to confirm consistency in the way information about the incident request is captured. A template also helps you to create incident easily and accurately.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/t\_CreateAnIncidentTemplate.html
-release: australia
+release: brazil
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Incident templates and record producers, Configuring Incident Management, Incident Management, IT Service Management]
 ---
@@ -28,9 +28,9 @@ Let us consider an example where you want to create a template to log an inciden
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Templates**.
 
-    You can also [Create a template from the incident form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/create-template-inci-form.md).
+    You can also [Create a template from the incident form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/create-template-inci-form.md).
 
-2.  Complete the steps in [Create a template using the Template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateATemplateUsingTheTmplForm.md) using the following information:
+2.  Complete the steps in [Create a template using the Template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateATemplateUsingTheTmplForm.md) using the following information:
 
     -   **Name**: `Bond Trading Access Denied`
     -   **Table**: Incident \[incident\]
@@ -54,7 +54,7 @@ Let us consider an example where you want to create a template to log an inciden
 3.  Select **Submit**.
 
 
-**Parent Topic:**[Incident templates and record producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-templates-record-producers.md)
+**Parent Topic:**[Incident templates and record producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/incident-templates-record-producers.md)
 
 **Related topics**  
 

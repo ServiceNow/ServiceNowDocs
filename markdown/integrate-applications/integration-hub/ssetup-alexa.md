@@ -3,7 +3,7 @@ title: Set up the Amazon Alexa spoke
 description: Integrate the ServiceNow instance and Amazon Alexa account by creating a custom OAuth application in Amazon Alexa to authenticate ServiceNow requests.Create and register a security profile through the Developer Console to use Login with Amazon on your ServiceNow instance.Add and configure a Amazon Alexa connection to authenticate ServiceNow requests in the Amazon Alexa spoke.Authenticate the inbound requests from Amazon Alexa account to your ServiceNow instance by creating a webhook registry.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/ssetup-alexa.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task

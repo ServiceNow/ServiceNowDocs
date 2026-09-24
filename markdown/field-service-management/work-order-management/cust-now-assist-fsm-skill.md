@@ -1,18 +1,18 @@
 ---
-title: Customize a KB generation skill in ServiceNow Otto for Field Service Management \(FSM\)
+title: Customize an FSM KB generation skill in AI Admin Hub
 description: As an admin, you can clone the KB generation skill and customize the input fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/cust-now-assist-fsm-skill.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Customizing a skill, Configure, Set up work orders and tasks, Configure, Field Service Management]
 ---
 
-# Customize a KB generation skill in ServiceNow Otto for Field Service Management \(FSM\)
+# Customize an FSM KB generation skill in AI Admin Hub
 
 As an admin, you can clone the KB generation skill and customize the input fields.
 
@@ -26,11 +26,9 @@ The out-of-the-box \(OOB\) KB is generated for the following states: Close Compl
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 
-2.  In the product panel, select **FSM** under **Customer**.
-
-    All the skills available for FSM are displayed.
+2.  In the **Customer** workflow group, select **FSM** to view the skills for the ServiceNow Otto for FSM features.
 
 3.  Create a copy of the ServiceNow Otto for FSM KB generation skill and customize the input fields.
 
@@ -40,40 +38,44 @@ The out-of-the-box \(OOB\) KB is generated for the following states: Close Compl
 
         A guided setup leads you through the configuration of the general details, input, availability, display, review, and activation of the customized skill. When you complete the entire walk-through, the skill is activated.
 
-4.  On the **General details** page, fill in the fields.
+4.  In the General details step, fill in the fields.
 
     1.  Enter a name and description for the skill.
 
-    2.  Select **Save and continue**.
+    2.  Select **Save and continue** to go to the next step.
 
-5.  Select the **Choose input** tab to choose the table record and input fields.
+5.  View the input data.
 
-    1.  Select the **Default Knowledge Base for ServiceNow Otto panel**.
+    1.  The table record and input fields are read-only.
 
-    2.  Select **Save and continue**.
+    2.  Select the **Default Knowledge Base for Servicenow Otto panel**.
 
-6.  Select the **Define availability** tab to configure how the skill must available to users.
+    3.  Select **Save and continue**.
 
-    1.  Select if the skill must be always available or customize its availability.
+6.  Define how the skill is available to your users.
+
+    1.  Configure the skill to be available to users, or select conditions that must be met before the skill is available.
 
         Selecting **Customize skill availability** displays a condition builder to filter the data further.
 
-    2.  Select **Save and continue**.
+    2.  Select **Save and continue** to go to the next step.
 
-7.  Select the **Select display** tab.
+7.  Configure where to display the KB generation.
 
-    1.  Select either **In-product**, or **Servicenow Otto panel**.
+    1.  Select either **In-product**, or **Now Assist panel**.
 
-        -   **In-product**: When selected, the ServiceNow Otto KB generation skill is displayed on the forms and workspaces.
+        -   **In-product**: When selected, the Now Assist KB generation skill is displayed on the forms and workspaces.
 
             For the skill to appear in the product, select the down arrow to identify the roles that can use the skill. The only supported roles are `wm_manager` and `wm_dispatcher`.
 
-        -   **ServiceNow Otto panel**: When selected, the ServiceNow Otto KB generation skill is available in the ServiceNow Otto panel.
+        -   **Servicenow Otto panel**: When selected, the ServiceNow Otto for FSM KB generation skill is available in the ServiceNow Otto® panel.
 
-            For the skill to appear in the ServiceNow Otto panel, select the down arrow to identify the roles that can use the skill. The only supported roles are `wm_manager` and `wm_dispatcher`.
+            For the skill to appear in the AI Admin Hub panel, select the down arrow to identify the roles that can use the skill. The only supported roles are `wm_manager` and `wm_dispatcher`.
 
-    2.  Select **Save and continue**.
+    2.  Select **Save and continue** to go to the next step.
 
-8.  In the **Review and activate** page, review your choices and select **Done** to complete the skill customization.
+8.  Review and activate the skill.
+
+    Review your choices and select **Activate** to complete the skill customization.
 
 

@@ -3,11 +3,11 @@ title: Update dashboard overview
 description: When you activate the problem state model, you need to update the overview dashboard to use the new states.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/cleanup-update-dashboard-overview.html
-release: australia
+release: brazil
 product: Problem Management
 classification: problem-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activities to clean up after migration, Migration Utility, Configuring Problem Management, Problem Management, IT Service Management]
 ---

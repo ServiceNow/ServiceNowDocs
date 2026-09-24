@@ -3,9 +3,9 @@ title: Properties installed with Public Sector Digital Services
 description: Use the system properties that are added with the activation of the Public Sector Digital Services application to configure access control to application data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/properties-installed-with-psds.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Components and roles installed, Reference, Public Sector Digital Services \(PSDS\)]
 ---
@@ -32,7 +32,7 @@ glide.enforce\_security\_scope.sn\_gsm\_info\_req
 
 </td><td>
 
-Controls access to playbook data for the Information Request Playbook feature. If this property is set to false, then ACLs from all scopes are considered when granting access to playbook data in the scope master table. This would expose information request playbook data.
+Controls access to playbook data for the Information Request Administration feature. If this property is set to false, then ACLs from all scopes are considered when granting access to playbook data in the scope master table. This would expose information request playbook data.
 
 -   Type: Boolean
 -   Default value: true
@@ -67,5 +67,5 @@ If this property is set to false, the License and Permit Playbooks data is expos
 -   Location: System Property \[/sys\_properties\_list.do\] table
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components and Roles installed with Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/installed-with-public-sector-digital-services-core.md)
+</table>**Parent Topic:**[Components and Roles installed with Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/installed-with-public-sector-digital-services-core.md)
 

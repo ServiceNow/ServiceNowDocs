@@ -3,11 +3,11 @@ title: Advanced configuration for SMS
 description: Use the Twilio co-pilot features to improve SMS delivery with phone number like using multiple numbers to send high-volume messages and content intelligence to automatically format every message without writing custom code. Reach large lists of users with one API request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/t\_ConfigureNotifyforVoiceandSMS.html
-release: australia
+release: brazil
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Notify with Twilio, Configuring Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -49,10 +49,10 @@ The Twilio Notify bulk SMS feature is used to send SMS in bulk to customers. Use
     **Note:** This feature uses Twilio Notify feature and might have an associated cost. Contact Twilio Support for more details.
 
 
-**Parent Topic:**[Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/t_ConfigureNotifyWithTwilio.md)
+**Parent Topic:**[Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/notify/t_ConfigureNotifyWithTwilio.md)
 
 **Related topics**  
 
 
-[Using Notify with SMS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NotifySMS.md)
+[Using Notify with SMS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/notify/c_NotifySMS.md)
 

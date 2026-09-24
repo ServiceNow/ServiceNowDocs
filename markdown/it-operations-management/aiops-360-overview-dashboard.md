@@ -3,9 +3,9 @@ title: AIOps 360 overview dashboard
 description: The AIOps 360 Overview dashboard offers a unified view of value and performance across IT operations, helping teams track efficiency, monitor alert handling, and assess automation outcomes. It enhances visibility into AIOps impact, supports informed decisions, and drives faster, smarter operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-360-overview-dashboard.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 breadcrumb: [AIOps Dashboards in SOW for ITOM, ITOM AIOps, IT Operations Management]
 ---
@@ -161,7 +161,7 @@ Resolution types by assignment groups
 Closure reasons by top assignment groups, highlighting automation closures \(within 10 minutes of execution\) to encourage quick resolution, and time threshold closures \(after the auto-close interval\), which indicate unattended alerts.You should consider the number of alerts that are automatically closed when they reach their time limit. This figure can reveal if your team is unable to resolve or close all alerts, leaving some unaddressed.
 
 </td></tr></tbody>
-</table>**Note:** If you're starting with Australia, some charts, graphs, or metrics in the dashboard may appear blank or show limited data. This is expected if there's no historical data or only a few weeks or months of data available. As your system continues to collect and process alerts, the dashboard will populate with more complete insights over time.
+</table>**Note:** If you're starting with Brazil, some charts, graphs, or metrics in the dashboard may appear blank or show limited data. This is expected if there's no historical data or only a few weeks or months of data available. As your system continues to collect and process alerts, the dashboard will populate with more complete insights over time.
 
-If you want to know about funnel visualization, see [Create a funnel visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-funnel-visualization.md).
+If you want to know about funnel visualization, see [Create a funnel visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/create-funnel-visualization.md).
 

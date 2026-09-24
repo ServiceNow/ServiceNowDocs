@@ -3,11 +3,11 @@ title: Create anonymization job
 description: Configure a data privacy job on your production instance to use anonymized data on your non-production instance for user and data class jobs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/dps-create-anonymization-job.html
-release: australia
+release: brazil
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Data anonymization, Data privacy, Data Privacy, Platform Privacy]
 ---
@@ -29,15 +29,13 @@ Role required: data\_privacy\_processor and admin
 
 1.  Elevate to the **data\_privacy\_processor** role.
 
-    For details on role elevation, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
-
 2.  Navigate to **System Security** &gt; **Data Privacy** &gt; **Anonymization**.
 
 3.  In an Anonymization policy, select **Schedule job** for the policy to be used in the job.
 
     A policy must be in a published state in order to schedule an anonymization job.
 
-    **Warning:** Anonymization jobs are highly destructive and can only be reversed on rollback. Double check all information, such as records and table processed, before scheduling a job.
+    **Warning:** Anonymization jobs are highly destructive and can only be reversed on rollback. Double check all information and consider executing dry runs before scheduling an anonymization job.
 
 4.  In the form, fill in the fields.
 
@@ -55,7 +53,7 @@ Policy used
 
 </td><td>
 
-Read only name of the selected privacy policy configuration to use for this job. Edit the policy to view additional information about the policy. For detail on privacy policy configurations, see [Create anonymization policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/dps-create-anonymization-policies.md).
+Read only name of the selected privacy policy configuration to use for this job. Edit the policy to view additional information about the policy. For detail on privacy policy configurations, see [Create anonymization policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-privacy-classic/dps-create-anonymization-policies.md).
 
 </td></tr><tr><td>
 
@@ -83,19 +81,11 @@ The end of the time window to run this job in **HH:MM:SS**. The end time must be
 
 </td></tr><tr><td>
 
-Dry Run
-
-</td><td>
-
-Run the job as a test. No records are affected when running this job. Results are displayed in the **Jobs** list, as though the job had executed.**Note:** **Dry Run** must be turned off when configuring a data privacy job with rollback. See [Data privacy job rollback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/data-privacy-job-rollback.md) for details.
-
-</td></tr><tr><td>
-
 Type of user selection
 
 </td><td>
 
-Select either users or groups to be anonymized.
+Select either users or groups to be anonymized.**Note:** This required field displays only when the selected privacy policy condition requires a selection of user records.
 
 </td></tr><tr><td>
 
@@ -103,26 +93,42 @@ Select users/groups
 
 </td><td>
 
-Select a the specific set of users or groups to be anonymized in this job. Supports up to a maximum of 1000 users.**Note:** This required field displays only when the selected privacy policy condition requires a selection of user records.
+Select the specific set of users or groups to be anonymized in this job. Supports up to a maximum of 1000 users.**Note:** This required field displays only when the selected privacy policy condition requires a selection of user records.
 
 </td></tr></tbody>
 </table>    **Important:** All tables must have a correct sys\_dictionary entry before scheduling and during its job.
 
-5.  Add conditions to specify which data should be anonymized. This does not apply to cloning anonymization policies.
+5.  Add conditions to specify which data should be anonymized.
+
+    This does not apply to cloning anonymization policies.
 
     **Note:** For recurring jobs, tables with defined conditions will run a full scan each time the job executes.
 
     Select the table fields you want to apply a condition to, a boolean operator for the field, and the condition value. You can add multiple conditions with the **Or** and **And** buttons, or delete the condition entirely by selecting the delete icon.
 
-6.  Select **Schedule job** on the form to place the anonymization in the job queue.
+6.  Choose whether to run this job in Preview mode by selecting the **Dry run** toggle.
+
+    You can run a preview of the anonymization job to see exactly how your data will be anonymized before committing your changes. This creates a temporary preview that auto-deletes after 72 hours. No actual data will be modified.
+
+    Choose between:
+
+    -   **Sample preview** - Uses a sample scan on up to 1000 records. Faster to generate, best for a quick initial check.
+    -   **Detailed preview** - Uses a full scan on all records in scope. Takes longer, but reflects actual anonymization results more accurately.
+    The Dry Run capability has the following considerations and limitations to be aware of:
+
+    -   Dry run preview does not work for anonymization of encrypted columns.
+    -   There is an upper limit of 200k records per table.
+    -   Sample dry run - 10 preview records per column are allowed.
+    -   Detailed dry run - 10 preview records per data pattern per column are allowed; for data pattern anonymization, the limitation is `10 *` the number of active data patterns.
+7.  Select **Schedule job** on the form to place the anonymization in the job queue.
 
     The job runs between the times selected in the **Start time** and **End time** fields. If the job has not completed during the start and end time window, the job will continue at the next time window start.
 
     A job can only be executed once, even if **Dry Run** is selected. To run a job again based on the same policy, select **Schedule job** and complete the form using the same field values.
 
-    **Warning:** Anonymization jobs on encrypted columns will you to decrypt and re-encrypt any encrypted columns targeted by the job. To prevent this, select **No Action** as the policy technique.
+    **Warning:** Anonymization jobs on encrypted columns will decrypt and re-encrypt any encrypted columns targeted by the job. To prevent this, select **No Action** as the policy technique.
 
-    The job is listed in the **Jobs** pane.\[Omitted image "jobs-pane.png"\] Alt text: Shows the jobs listed on the Jobs pane.
+    The job is listed in the **Jobs** pane.
 
 <table id="table_pq3_3fk_dwb"><thead><tr><th>
 
@@ -171,7 +177,7 @@ State of the data privacy job:-   **Scheduled**: Default state for new jobs.
 A read-only field.
 
 </td></tr></tbody>
-</table>7.  Select a job from the **Jobs** pane to open the Job summary.
+</table>8.  Select a job from the **Jobs** pane to open the Job summary.
 
     After a job is scheduled, the **Cancel Job** and **Pause** buttons appear in the Job summary.
 

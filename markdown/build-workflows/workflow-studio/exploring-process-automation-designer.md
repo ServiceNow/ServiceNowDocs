@@ -3,11 +3,11 @@ title: Playbook builder
 description: Playbooks is a component in Workflow Studio. Workflow Studio gives you a streamlined way to author, configure, and monitor playbooks, flows, subflows, actions, and decision tables in one place.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/exploring-process-automation-designer.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Explore, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -18,7 +18,7 @@ Playbooks is a component in Workflow Studio. Workflow Studio gives you a streaml
 
 ## Workflow Studio landing page
 
-You can view the Workflow Studio landing page by navigating to **Process Automation** &gt; **Workflow Studio**. The landing page opens to Playbooks by default, but you can easily navigate to flows, subflows, actions, and decision tables. For more information on Workflow Studio, see [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio.md).
+You can view the Workflow Studio landing page by navigating to **Process Automation** &gt; **Workflow Studio**. The landing page opens to Playbooks by default, but you can easily navigate to flows, subflows, actions, and decision tables. For more information on Workflow Studio, see [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/workflow-studio.md).
 
 ## Playbooks builder
 
@@ -32,8 +32,8 @@ The builder for Playbooks consists of the main header, design space, and side pa
     -   Toggle between Diagram and Board view.
     -   Undo or redo your actions.
     -   See and navigate to your errors via the error tray.
-    -   Turn [Optional activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/optional-activities.md) on or off.
-    -   Test and activate your playbook so that it runs as expected when triggered. You can also preview the Playbook Experience during testing. For more information, see [Playbook statuses and activation states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-status-activation-state.md).
+    -   Turn [Optional activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/optional-activities.md) on or off.
+    -   Test and activate your playbook so that it runs as expected when triggered. You can also preview the Playbook Experience during testing. For more information, see [Playbook statuses and activation states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/process-status-activation-state.md).
     -   In the **More actions** menu, you can also deactivate or duplicate your playbook.
     -   Also in the **More actions** menu, access the properties of your playbook. You can add or edit the name or description for your playbook, enable playbooks to restart, and edit the behavior of your trigger.
 -   **Design space**
@@ -46,7 +46,7 @@ The builder for Playbooks consists of the main header, design space, and side pa
 
     -   An activity represents one step within your overall business process. An activity can automate operations on the ServiceNow AI Platform, such as creating or updating records, displaying record information, and running automated actions in the background.
     -   Organize a set of activities into stages within your business process.
-    For more information, see [Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md).
+    For more information, see [Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md).
 
 -   **Side panel**
 
@@ -59,7 +59,7 @@ The builder for Playbooks consists of the main header, design space, and side pa
     -   Define additional properties for how your activity renders during runtime.
     -   Define if and how an AI agent performs the activity.
 
-For more information on creating a playbook, see [Building your first playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-processes.md).
+For more information on creating a playbook, see [Building your first playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/getting-started-processes.md).
 
 ## Playbook builder components
 
@@ -83,7 +83,7 @@ Playbooks in Workflow Studio consists of these components:
 
 -   **Activity definitions**
 
-    An activity definition maps [subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-subflows.md) and [action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-actions.md) inputs and outputs to an activity instance. An activity definition contains:
+    An activity definition maps [subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/exploring-subflows.md) and [action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/exploring-actions.md) inputs and outputs to an activity instance. An activity definition contains:
 
     -   The automation plan to map the triggering input record data to action or subflow inputs
     -   The activity experience to map action or subflow outputs to a user-facing view of the playbook
@@ -98,5 +98,5 @@ Playbooks in Workflow Studio consists of these components:
     A start rule specifies when a stage or an activity starts running. A playbook owner can use start rules to specify what parts of a playbook run simultaneously and what parts run serially.
 
 
-**Parent Topic:**[Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer.md)
+**Parent Topic:**[Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/process-automation-designer.md)
 

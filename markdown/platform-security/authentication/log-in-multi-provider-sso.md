@@ -3,11 +3,11 @@ title: Log in using Multi-Provider SSO
 description: The recommended and most efficient method for users to log in using Multi-Provider SSO is to use a specifically configured URL.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/log-in-multi-provider-sso.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Multi-Provider SSO configurations, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---

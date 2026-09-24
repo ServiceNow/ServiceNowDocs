@@ -3,11 +3,11 @@ title: Alibaba Cloud datacenter pattern-based discovery
 description: Discovery and Service Mapping Patterns uses the Alibaba - Datacenter \(LP\) pattern to discover datacenters during horizontal discovery. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/alibaba-datacenter-discovery.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Datacenter, Alibaba Cloud, Alibaba Cloud datacenter discovery, Alibaba Cloud datacenter pattern, Alibaba Cloud patterns, Alibaba Cloud discovery]
 breadcrumb: [Alibaba Cloud discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
@@ -19,7 +19,7 @@ Discovery and Service Mapping Patterns uses the Alibaba - Datacenter \(LP\) patt
 
 ## Pattern-based discovery and mapping requirements
 
-Verify the Alibaba Cloud discovery prerequisites section in [Alibaba Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/alibaba-cloud-discovery-pattern.md).
+Verify the Alibaba Cloud discovery prerequisites section in [Alibaba Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/alibaba-cloud-discovery-pattern.md).
 
 ## Data collected by Discovery during horizontal discovery
 
@@ -93,5 +93,5 @@ Discovery creates these relationships to support the Alibaba Cloud datacenter di
 |---|------------|---|
 |Alibaba Datacenter \[cmdb\_ci\_alibaba\_datacenter\]|Hosted on::Hosts|Cloud Service Account \[cmdb\_ci\_cloud\_service\_account\]|
 
-**Parent Topic:**[Alibaba Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/alibaba-cloud-discovery-pattern.md)
+**Parent Topic:**[Alibaba Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/alibaba-cloud-discovery-pattern.md)
 

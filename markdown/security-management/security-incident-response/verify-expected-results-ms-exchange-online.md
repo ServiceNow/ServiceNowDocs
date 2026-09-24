@@ -3,11 +3,11 @@ title: Define email search criteria and request a search
 description: As a user with the sn\_si.analyst role, set up search criteria and submit an email search request based on incident details on a security incident record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/verify-expected-results-ms-exchange-online.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Microsoft Exchange Online integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -192,15 +192,15 @@ For example, `Log in to your account` are exact key words in the string `log in 
 
 13. Choose one option to continue.
 
-<table id="choicetable_uyx_fxn_l2b"><thead><tr><th align="left" id="d332308e673">
+<table id="choicetable_uyx_fxn_l2b"><thead><tr><th align="left" id="d332021e673">
 
 Option
 
-</th><th align="left" id="d332308e676">
+</th><th align="left" id="d332021e676">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d332308e682">
+</th></tr></thead><tbody><tr><td id="d332021e682">
 
 **Update**
 
@@ -208,7 +208,7 @@ Description
 
 Update and save your changes to the record.
 
-</td></tr><tr><td id="d332308e691">
+</td></tr><tr><td id="d332021e691">
 
 **Search on Email Server\(s\)**
 
@@ -216,7 +216,7 @@ Update and save your changes to the record.
 
 Initiate a search on the servers with the criteria that you saved on the Email Search Criteria record.
 
-</td></tr><tr><td id="d332308e700">
+</td></tr><tr><td id="d332021e700">
 
 **Delete**
 
@@ -278,9 +278,9 @@ Delete this Email Search record from your ServiceNow AI Platform instance. This 
     After an email search is successfully completed, evaluate the results. If you determine that emails require remediation, you're now ready to delete emails, or request delete approval.
 
 
-**Parent Topic:**[Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-exchange-online-lookups.md)
+**Parent Topic:**[Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/ms-exchange-online-lookups.md)
 
-**Previous topic:**[Configure the Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/msx_configure.md)
+**Previous topic:**[Configure the Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/msx_configure.md)
 
-**Next topic:**[Request delete approval for emails on Microsoft Exchange online service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-delete-email.md)
+**Next topic:**[Request delete approval for emails on Microsoft Exchange online service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/ms-delete-email.md)
 

@@ -3,9 +3,9 @@ title: Slow transactions log record detail
 description: As an administrator, you can use Slow Transactions logs to gain insight into how transactions are affecting platform performance. To aid in debugging, you can filter transaction log detail by application scope, limiting transactions to only those transactions originating in specific scopes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/slow-transactions-log-record-detail.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Stats Tools, System Diagnostics, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---

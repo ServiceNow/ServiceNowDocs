@@ -3,11 +3,11 @@ title: Create quick filters for Security Incidents and Response Tasks lists
 description: Create quick filters to create reusable, predefined filters that appear on the security incidents and response tasks list pages enabling security analysts to filter the list items without adding the filter conditions each time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-quick-filters-for-security-incidents.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -36,7 +36,7 @@ Role required: sn\_si.admin
     |Active|Option to set the filter active.|
     |Table|The table on this filter is to be applicable.|
     |Order|Controls the display order of this filter. Lower sequence numbers appear first.|
-    |Conditions|Use the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) to define the criteria to be filtered.|
+    |Conditions|Use the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ConditionBuilder.md) to define the criteria to be filtered.|
 
 5.  Select **Save**.
 
@@ -45,7 +45,7 @@ Role required: sn\_si.admin
 
 The newly created filter is saved and appears on the Filter page.
 
-**Parent Topic:**[Configuring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
+**Parent Topic:**[Configuring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
 
 **Related topics**  
 

@@ -3,9 +3,9 @@ title: Install Sales Cart
 description: You can install the Sales Cart plugin \(sn\_sales\_cart\) if you have the admin role. The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/install-sales-cart-plugin.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring Sales Cart for Business Portal, Business Portal, Configure, Sales Customer Relationship Management]
 ---
@@ -29,7 +29,7 @@ The following items are installed with the Sales Cart plugin \(sn\_sales\_cart\)
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with Sales Cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-with-sales-cart-plugin.md).
+For more information, see [Components installed with Sales Cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/components-installed-with-sales-cart-plugin.md).
 
 ## Procedure
 
@@ -56,12 +56,12 @@ For more information, see [Components installed with Sales Cart](https://raw.git
 
 ## What to do next
 
-A sample logo is applied to the sales cart PDF by default. To customize and add your logo, see [Add a logo to the sales cart PDF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/add-logo-sales-cart-pdf.md).
+A sample logo is applied to the sales cart PDF by default. To customize and add your logo, see [Add a logo to the sales cart PDF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/add-logo-sales-cart-pdf.md).
 
 **Related topics**  
 
 
-[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-self-service-business-portal.md)
+[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-self-service-business-portal.md)
 
-[Using Business Portal for self-service workflows in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-business-portal.md)
+[Using Business Portal for self-service workflows in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-business-portal.md)
 

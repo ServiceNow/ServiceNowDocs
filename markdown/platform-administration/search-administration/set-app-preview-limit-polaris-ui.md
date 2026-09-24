@@ -3,11 +3,11 @@ title: Set the preview limit for global or workspace search in Next Experience U
 description: Override the default limit of 5 preview results per search source on the Next Experience UI search results page for global or workspace search.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/set-app-preview-limit-polaris-ui.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Global search finds records from multiple tables, Zing text indexing and search engine, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -47,7 +47,7 @@ The preview limit for a search application specifies how many preview results ca
 
 The search results page for global or workspace search displays preview results up to the new limit for each search source.
 
-**Parent Topic:**[Global search finds records from multiple tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_GlobalTextSearch.md)
+**Parent Topic:**[Global search finds records from multiple tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/c_GlobalTextSearch.md)
 
 **Related topics**  
 

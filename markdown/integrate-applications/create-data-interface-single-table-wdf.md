@@ -3,9 +3,9 @@ title: Create a data interface from a single table
 description: Create a governed data interface on a single source table and publish it to the Data Catalog so consumers can access the data through a stable schema.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-data-interface-single-table-wdf.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Managing data interfaces, Data Products, Workflow Data Fabric]
 ---
@@ -94,7 +94,7 @@ The data interface is published and visible in Data Workbench. After the metadat
 
 ## What to do next
 
-To package this data interface into a data product, see [Create a data product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-data-product-wdf.md).
+To package this data interface into a data product, see [Create a data product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-data-product-wdf.md).
 
-**Parent Topic:**[Managing data interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-data-interfaces_wdf.md)
+**Parent Topic:**[Managing data interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/manage-data-interfaces_wdf.md)
 

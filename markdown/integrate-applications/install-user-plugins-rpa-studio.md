@@ -3,9 +3,9 @@ title: Create user plugins for RPA Desktop Design Studio
 description: Create user plugins by using Microsoft Visual Studio to enable RPA developers to use complex .NET components or libraries in RPA Desktop Design Studio in a seamless way.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/install-user-plugins-rpa-studio.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Build, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -152,5 +152,5 @@ Select a framework version.Select **.NET Framework 4.7** version.
         \[Omitted image "rpa-user-plugin-example2.png"\] Alt text: Output of the Sum method that appears as "17".
 
 
-**Parent Topic:**[Building automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-studio-build.md)
+**Parent Topic:**[Building automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/rpa-studio-build.md)
 

@@ -3,11 +3,11 @@ title: Create a labor rate card in Enterprise Asset Workspace
 description: Create a labor rate card to capture costs by the time consumed on an hourly basis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-eam-labor-rate-card.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring asset TCO, Configure, Enterprise Asset Management, Asset Management]
 ---
@@ -26,11 +26,15 @@ Labor rate cards are included in the base system. Except for the **Number** fiel
 
 ## Procedure
 
-1.  Navigate to **Enterprise Asset Workspace** &gt; **Admin center** &gt; **TCO configuration** &gt; **Labor rate card**.
+1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
 
-2.  Select **New**.
+2.  From the Enterprise Asset Workspace, open the Admin center view.
 
-3.  On the form, fill in the fields.
+3.  From the navigation panel of the Admin center view, navigate to **TCO configuration** &gt; **Labor rate card**.
+
+4.  Select **New**.
+
+5.  On the form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
@@ -44,7 +48,7 @@ Labor rate cards are included in the base system. Except for the **Number** fiel
     |Set conditions|Filter to run on the table selected to determine whether this rate card applies to a given task. This field uses the Condition Count widget to preview what records would be returned by the conditions.|
     |Description|Detailed description of the labor rate card.|
 
-4.  Select **Save**.
+6.  Select **Save**.
 
     After a labor rate card is created, expense lines are created based on the value in the **Use time worked** field.
 

@@ -3,7 +3,7 @@ title: GOV.UK Design System Service Portal
 description: Use the GOV.UK Developer Toolkit, a library of reusable portal widgets that follow GOV.UK Design System guidelines, to build service portals that deliver citizen-centered digital services to UK government constituents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-gdsp-overview.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -32,5 +32,5 @@ UK constituents can do the following self-service tasks in the GDS Service Porta
 -   Request services such as street repair, trash removal, building inspections, and other public maintenance.
 -   Request information and public records from local, state, and federal public agencies.
 
-For more information on how to set up and configure the pages and widgets offered by the GOV.UK Developer Toolkit, see [Configure the GOV.UK Design System \(GDS\) Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-content-pack-gsp.md).
+For more information on how to set up and configure the pages and widgets offered by the GOV.UK Developer Toolkit, see [Configure the GOV.UK Design System \(GDS\) Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gds-content-pack-gsp.md).
 

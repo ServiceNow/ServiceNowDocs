@@ -3,11 +3,11 @@ title: Configure Service Catalog preview screens
 description: You can configure shopping cart preview screens for the one-step and two-step carts, for the wish list, and for the Classic Mobile app.Using Service Catalog, customize the cart preview screen for wish list items.Using Service Catalog, customize the shopping cart screen that is displayed on mobile devices.Using Service Catalog, customize the shopping cart display screen for a one-step checkout process.Using Service Catalog, customize the shopping cart display screen for a two-step checkout process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/service-catalog-screens.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Cart layout, Service Catalog customization, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Cart layout, Service Catalog customization, Types of catalog items,
 
 You can configure shopping cart preview screens for the one-step and two-step carts, for the wish list, and for the Classic Mobile app.
 
-**Parent Topic:**[Cart layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ConfigureCartLayout.md)
+**Parent Topic:**[Cart layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/c_ConfigureCartLayout.md)
 
 ## Configure the wish list screen
 
@@ -36,7 +36,7 @@ Role required: admin, catalog\_admin
 
 3.  You can add/remove components, columns, buttons, and rename labels.
 
-    For more information, see [Configure cart layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_ConfigureCartLayout.md).
+    For more information, see [Configure cart layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/t_ConfigureCartLayout.md).
 
 4.  Click **Update**.
 
@@ -94,7 +94,7 @@ One-step checkout is the default checkout process for catalog items.
 
 3.  You can add/remove components, columns, buttons, and rename title and button labels.
 
-    See [Configure cart layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_ConfigureCartLayout.md).
+    See [Configure cart layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/t_ConfigureCartLayout.md).
 
 4.  Click **Update**.
 
@@ -111,7 +111,7 @@ Role required: admin, catalog\_admin
 
 ### About this task
 
-Changes made to the two-step record are visible only if the [two-step checkout process is enabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_EnableATwoStepCheckout.md) in properties. By default, catalog items use a one-step checkout process.
+Changes made to the two-step record are visible only if the [two-step checkout process is enabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/c_EnableATwoStepCheckout.md) in properties. By default, catalog items use a one-step checkout process.
 
 ### Procedure
 
@@ -121,7 +121,7 @@ Changes made to the two-step record are visible only if the [two-step checkout p
 
 3.  You can add/remove components, columns, buttons, and rename title and button labels.
 
-    For more information, see [Configure cart layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_ConfigureCartLayout.md).
+    For more information, see [Configure cart layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/t_ConfigureCartLayout.md).
 
     In the **Components** tab, both **Shipping Location** and **Shipping Address** are not supported simultaneously. Deselect the selected component to select the other component.
 

@@ -3,9 +3,9 @@ title: Configure risk for Simplified Change Management
 description: Set up risk assessment questions, scoring thresholds, and risk levels so that the system can automatically evaluate the risk of a proposed change and route it to the appropriate approval workflow. Configuring risk helps your organization make consistent, data-driven decisions about change requests without requiring ITIL expertise.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/configure-risk-change-mgmt.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2025-05-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [change management, risk configuration, risk assessment, risk scoring, change risk, admin experience, configuration console]
 breadcrumb: [Configuring Simplified Change Management, Configuring the fulfiller experience in Simplified IT Service Management, Configure integrations and ITSM experiences in Simplified IT Service Management, Configure and integrate, Simplified IT Service Management, IT Service Management]
@@ -101,10 +101,10 @@ Risk configuration has two main parts:
 
 Risk assessment is now configured. When a change requester submits a change request, the system presents the active risk assessment questions, calculates a cumulative score from the responses, and automatically maps the score to a risk level. The change is then routed to the appropriate approval workflow based on that risk level.
 
-**Parent Topic:**[Configuring Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configuring-change-management-experience-in-it-service-management.md)
+**Parent Topic:**[Configuring Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/configuring-change-management-experience-in-it-service-management.md)
 
 **Related topics**  
 
 
-[Risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_RskAsmtCalc.md)
+[Risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/c_RskAsmtCalc.md)
 

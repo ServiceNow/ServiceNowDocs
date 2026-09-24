@@ -3,14 +3,14 @@ title: Define the semantic indexing configuration for an indexed source
 description: Define the semantic indexing configuration for your indexed sources so that AI Search can analyze and understand your content accurately. By doing this process, you can help to ensure that you get more relevant search results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/ais-admin-console-config-semantic-index.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Managing indexed sources from the AI Search Admin console, Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Managing indexed sources, Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Define the semantic indexing configuration for an indexed source
@@ -23,7 +23,7 @@ Role required: ais\_admin
 
 ## About this task
 
-AI Search indexes content from the indexed source for use with a semantic vector search. The group of semantic indexing settings for a particular indexed source is called a semantic index configuration. For more information, see [Semantic index configuration for indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/semantic-index-cfg-ais.md).
+AI Search indexes content from the indexed source for use with a semantic vector search. The group of semantic indexing settings for a particular indexed source is called a semantic index configuration. For more information, see [Semantic index configuration for indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/semantic-index-cfg-ais.md).
 
 ## Procedure
 
@@ -41,7 +41,7 @@ AI Search indexes content from the indexed source for use with a semantic vector
 
 6.  On the form, fill in the fields.
 
-    For a description of the field values, see [Semantic Index Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/semantic-index-configuration-form.md).
+    For a description of the field values, see [Semantic Index Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/semantic-index-configuration-form.md).
 
 7.  Select **Save**.
 
@@ -53,7 +53,7 @@ AI Search indexes content from the indexed source for use with a semantic vector
 
     2.  On the form, fill in the fields.
 
-        For a description of the field values, see [Semantic Index Field form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/semantic-index-field-form.md).
+        For a description of the field values, see [Semantic Index Field form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/semantic-index-field-form.md).
 
     3.  Select **Add**.
 
@@ -62,7 +62,7 @@ AI Search indexes content from the indexed source for use with a semantic vector
 
 ## What to do next
 
-After updating the semantic index configuration settings for an indexed source, you must index or reindex the content from that indexed source. For more information, see [Index the content from an indexed source for searchability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ais-admin-console-start-content-indexing.md).
+After updating the semantic index configuration settings for an indexed source, you must index or reindex the content from that indexed source. For more information, see [Index the content from an indexed source for searchability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/ais-admin-console-start-content-indexing.md).
 
-**Parent Topic:**[Managing indexed sources from the AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ais-managing-indexed-source.md)
+**Parent Topic:**[Managing indexed sources from the AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/ais-managing-indexed-source.md)
 

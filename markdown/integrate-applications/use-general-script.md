@@ -3,9 +3,9 @@ title: Use the Script component
 description: Write and execute custom Visual Basic \(VB\) scripts by using the Script component in RPA Desktop Design Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-general-script.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [General, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the Script component. For more information about these properties, see [Properties of the General components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/Properties-general-components.md).
+You can configure the properties for the Script component. For more information about these properties, see [Properties of the General components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/Properties-general-components.md).
 
 You can use this component to perform actions that are not covered by existing RPA components or combine actions of multiple components.
 
@@ -110,5 +110,5 @@ Yes.To view the output, right-click the **Return** field and click **Preview Dat
 </table>10. To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/general-component.md)
+**Parent Topic:**[General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/general-component.md)
 

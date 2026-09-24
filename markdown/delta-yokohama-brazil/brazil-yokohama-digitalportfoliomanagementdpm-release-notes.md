@@ -1,0 +1,589 @@
+---
+title: Combined Digital Portfolio Management \(DPM\) release notes for upgrades from Yokohama to Brazil
+description: Consolidated page of all release notes for Digital Portfolio Management \(DPM\) from Yokohama to Brazil.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-digitalportfoliomanagementdpm-release-notes.html
+release: brazil
+topic_type: reference
+last_updated: "2026-09-24"
+reading_time_minutes: 7
+breadcrumb: [Products combined by family]
+---
+
+# Combined Digital Portfolio Management \(DPM\) release notes for upgrades from Yokohama to Brazil
+
+Consolidated page of all release notes for Digital Portfolio Management \(DPM\) from Yokohama to Brazil.
+
+## How to use this page
+
+To help you prepare for your upgrade, we have combined the cross-family Digital Portfolio Management \(DPM\) release notes onto one page. Read this summary of the new features, changes, and updated information for your product from Yokohama to Brazil.
+
+**Tip:** If there were no updates for a release notes section in a certain family release, we included a short note for your reference. For example, if a product did not have any updates in Tokyo, the row says "No updates for this release."
+
+## Important information for upgrading Digital Portfolio Management \(DPM\) to Brazil
+
+Before you upgrade to Brazil, review these pre- and post-upgrade tasks and complete the tasks as needed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## New features
+
+Between your current release family and Brazil, new features were introduced for Digital Portfolio Management \(DPM\).
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **[Use the Admin Center in Digital Portfolio Management](https://www.servicenow.com/docs/access?context=dpm-admin-center&family=yokohama&ft:locale=en-US)**
+
+Use the added Troubleshoot tab on the DPM Admin Center landing page to help you recalculate availability results and indicators for service offerings. You select a specific time period for the recalculation and then you can check the progress in the event log.
+
+-   **[Configure personal portfolio solution cards in the DPM Admin Center](https://www.servicenow.com/docs/access?context=dpm-configure-solution-cards&family=yokohama&ft:locale=en-US)**
+
+Configure the fields that are displayed on the personal portfolio solution cards in the DPM Workspace. Solution cards display information about the four main types of solutions \(service, service offering, business application, and application service\). This configuration determines the fields that are displayed on each solution card.
+
+-   **[View relationships of business applications and application services in the DPM Admin Center](https://www.servicenow.com/docs/access?context=dpm-view-related-records&family=yokohama&ft:locale=en-US)**
+
+See all incidents, problems, and changes that are related to your business applications and application services. You can view the data in these areas:
+
+    -   The DPM Admin Center
+    -   In the DPM Workspace, in the Needs attention panels and in the life-cycle tabs that present key performance indicator \(KPI\) data.
+-   **[KPI groups in Digital Portfolio Management](https://www.servicenow.com/docs/access?context=dpm-configure-kpi&family=yokohama&ft:locale=en-US)**
+
+Added the ability to select the spark lines \(time series chart\) for a KPI indicator to open its details.
+
+-   **[Update KPIs in Digital Portfolio Management](https://www.servicenow.com/docs/access?context=dpm-kpi-descriptions&family=yokohama&ft:locale=en-US)**
+
+Added an Active flag so that you can hide KPIs in a KPI group from the DPM Workspace. The Active flag is available for all KPIs so that you can hide an individual KPI even when it's part of a larger KPI group.
+
+-   **[View application service details](https://www.servicenow.com/docs/access?context=dpm-app-service-details&family=yokohama&ft:locale=en-US)**
+
+Expanded the DPM data model so that when an incident, problem, or change is in the application service's Impacted services or Affected CIs related list, the updates roll up to the related business application. You can see the impacts in the related business application's KPIs and Needs attention panels\). For more information, see [Work with Needs attention panels in Digital Portfolio Management](https://www.servicenow.com/docs/access?context=dpm-needs-attn-panels&family=yokohama&ft:locale=en-US).
+
+-   **[Work with lists in Digital Portfolio Management](https://www.servicenow.com/docs/access?context=dpm-list-modules&family=yokohama&ft:locale=en-US)**
+
+Use the updated logic in the list address bar to copy the link of any list item to share that list with others. The list address includes a unique list ID for every list item. This updated logic applies wherever lists are used in the DPM Workspace:
+
+    -   In the list module \(for both provided lists and created lists\).
+    -   In the DPM Admin Center.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **[Configure Info tab](https://www.servicenow.com/docs/access?context=dpm-configure-info-tab&family=zurich&ft:locale=en-US)**
+
+Show or hide various sections of the **Info** tab for your solutions in DPM.
+
+-   **[Create enterprise service portfolios using a template](https://www.servicenow.com/docs/access?context=dpm-create-enterprise-portfolio-using-template&family=zurich&ft:locale=en-US)**
+
+Create enterprise portfolios from scratch or by using a template. Enterprise portfolios are structured in a nesting tree format to facilitate navigation of service-related items and taxonomy nodes. Similar to personal portfolios, you can see key metrics to assess the portfolio performance.
+
+-   **[Configure scheduled email reports](https://www.servicenow.com/docs/access?context=dpm-schedule-email-reports&family=zurich&ft:locale=en-US)**
+
+Send periodic emails of KPI metrics to the DPM solution owners. This feature is off by default and can be activated in the DPM Admin Center under a new 'Email properties' section.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Changes
+
+Between your current release family and Brazil, some changes were made to existing Digital Portfolio Management \(DPM\) features.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+-   **Enhancements to the Web and installed apps monitoring setup**
+
+The process of adding an application for monitoring has been updated to enable you to choose any service from the cmdb\_ci\_service table or its child tables. The application type filed was added to the monitored applications list.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Removed
+
+Between your current release family and Brazil, some Digital Portfolio Management \(DPM\) features or functionality were removed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Deprecations
+
+Between your current release family and Brazil, some Digital Portfolio Management \(DPM\) features or functionality were deprecated.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Activation information
+
+Review information on how to activate Digital Portfolio Management \(DPM\).
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **Activation information**
+
+Install Digital Portfolio Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** Digital Portfolio Management \(DPM\) is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Additional requirements
+
+If any additional requirements were introduced or changed for Digital Portfolio Management \(DPM\) we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Browser requirements
+
+If any specific browser requirements were introduced or changed for Digital Portfolio Management \(DPM\) we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Accessibility information
+
+Review details on accessibility information for Digital Portfolio Management \(DPM\), such as specific requirements or compliance levels.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Localization information
+
+If there are specific localization considerations for Digital Portfolio Management \(DPM\) we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Highlight information
+
+If there are specific highlight considerations for Digital Portfolio Management \(DPM\) we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   Configurable Info tab allows customers to configure the Info tab of the solutions pages, similarly to how they can configure the Plan, Build, and Run tabs.
+    -   This includes showing or hiding sections of the tab.
+-   DPM users with the dpm\_admin role can now create and edit portfolios directly within DPM, and three portfolio templates are included \("EDUCAUSE", "IT Service Portfolio", and "Sample Organization Structure"\).
+-   DPM users can now send an email to any users with the dpm\_manager role that includes the first key performance indicator \(KPI\) group data and a link back to the solution they're sending an email from.
+    -   This feature is off by default and can be activated in the DPM Admin Center under a new 'Email properties' section.
+-   DPM admins can turn on a scheduled job that will automatically send the top KPI group data in an email to the solution owners.
+    -   The schedule is configurable and will only send KPI data for the 'top level objects' that a user owns. For example, if they own a taxonomy node, it won't send data on sub nodes or services.
+    -   DPM users can now view more than one KPI group in the Enterprise Portfolio preview.
+-   DPM users with the dpm\_admin role can use the Active flag to hide or show the portfolio and taxonomy node branches in the Enterprise Portfolio Module.
+    -   DPM admins can set an enterprise portfolio's **Status** to Active or Inactive.
+    -   DPM managers will only see enterprise portfolios that are active.
+
+ See [Digital Portfolio Management](https://www.servicenow.com/docs/access?context=dpm-landing&family=zurich&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/rn-combined-intro.md)
+

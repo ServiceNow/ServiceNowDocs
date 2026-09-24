@@ -3,11 +3,11 @@ title: SC Order Guide widget
 description: Use this widget \(widget-sc-order-guide-v2\) to request an order guide, that is, a single service catalog request for several catalog items with a specific purpose. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/sc-order-guide-widget.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Service Catalog widgets, Widget library, Using portal widgets, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Service Catalog widgets, Widget library, Using portal widgets, Conf
 
 Use this widget \(widget-sc-order-guide-v2\) to request an order guide, that is, a single service catalog request for several catalog items with a specific purpose. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 
-Configure [order guides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ServiceCatalogOrderGuides.md) using the Service Catalog in the platform UI by navigating to **Service Catalog** &gt; **Catalog Definitions** &gt; **Order Guides**.
+Configure [order guides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_ServiceCatalogOrderGuides.md) using the Service Catalog in the platform UI by navigating to **Service Catalog** &gt; **Catalog Definitions** &gt; **Order Guides**.
 
 The order guide form comprises the following sections:
 
@@ -38,7 +38,7 @@ Each accordion displays:
 
     **Note:** If the fields are mandatory, a red asterisk is displayed beside **Options**.
 
--   A toggle to include the catalog item in the order guide request. You can make it mandatory to include all items in the order guide request by not displaying the toggle. You can make it optional to include items in the order guide request by displaying the toggle. To display the toggle for each catalog item of the order guide, select the **Show Include Toggle \(Service Portal\)** check box while configuring the order guide. For more information, see [Create an order guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAnOrderGuide.md) .
+-   A toggle to include the catalog item in the order guide request. You can make it mandatory to include all items in the order guide request by not displaying the toggle. You can make it optional to include items in the order guide request by displaying the toggle. To display the toggle for each catalog item of the order guide, select the **Show Include Toggle \(Service Portal\)** check box while configuring the order guide. For more information, see [Create an order guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateAnOrderGuide.md) .
 
     **Note:** When an item is excluded from the order guide request, the item is not editable and the corresponding mandatory field restrictions are ignored.
 
@@ -119,7 +119,7 @@ Show Add to Cart
 Option to display the **Add to Cart** button on the order guide summary page.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sc-widgets.md)
+</table>**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/sc-widgets.md)
 
 **Related topics**  
 
@@ -162,7 +162,7 @@ Option to display the **Add to Cart** button on the order guide summary page.
 
 [Clone a widget]()
 
-[Request an order guide from Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/request-order-guide-portal.md)
+[Request an order guide from Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/request-order-guide-portal.md)
 
-[Configure order guide widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog-cart-widgets.md)
+[Configure order guide widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog-cart-widgets.md)
 

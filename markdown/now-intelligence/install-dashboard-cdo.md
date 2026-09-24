@@ -3,9 +3,9 @@ title: Install the CDO Dashboard
 description: The Chief Digital Officer \(CDO\) Dashboard provides visibility into the health and productivity of your company's digital properties. It gives a unified, real-time view of the digital product adoption, customer engagement, operational efficiency, and digital transformation maturity across the enterprise.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/install-dashboard-cdo.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Chief Digital Officer \(CDO\) Dashboard, Executive dashboard overview, Platform Analytics]
 ---
@@ -18,7 +18,7 @@ The Chief Digital Officer \(CDO\) Dashboard provides visibility into the health 
 
 Role required: admin, platform\_analytics\_admin, cdo\_dashboard\_admin
 
-Consider duplicating this executive dashboard before customizing it. For more information, see [Duplicate a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/duplicate-db.md).
+Consider duplicating this executive dashboard before customizing it. For more information, see [Duplicate a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/duplicate-db.md).
 
 **Note:** The CDO Dashboard application is free from the ServiceNow Store. However, the contents of the dashboard require professional entitlements to the following applications: IT Service Management. This professional entitlement includes a license for Platform Analytics.
 
@@ -52,6 +52,11 @@ In addition, the com.snc.pa.premium.all\_content application plugin is required 
 
         Assign the user role sn\_cdodashboard.cdo\_dashboard\_user to users or groups who must view the dashboard.
 
-    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see [Exploring user administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/exploring-user-administration.md).
+    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see [Exploring user administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/exploring-user-administration.md).
 
+
+## What to do next
+
+-   Navigate to **CDO Dashboard** &gt; **Dashboard** to view the installed dashboard.
+-   Use the information in the Tabs, Data Visualizations, and Indicators topics to configure the dashboard.
 

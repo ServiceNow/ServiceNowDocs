@@ -3,13 +3,13 @@ title: View Log Analytics anomaly alert charts on the preview panel in Express L
 description: View visualizations for Health Log Analytics anomaly alerts to identify periods of behavior that deviate from expected ranges. You can view visualizations from the Express List preview panel or the alert record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/view-anomaly-alert-display.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Respond to alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Responding to and working with alerts in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # View Log Analytics anomaly alert charts on the preview panel in Express List
@@ -32,15 +32,15 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
 4.  Choose where to view the anomaly chart.
 
-<table id="choicetable_kfx_rzl_33c"><thead><tr><th align="left" id="d399162e111">
+<table id="choicetable_kfx_rzl_33c"><thead><tr><th align="left" id="d401381e111">
 
 Option
 
-</th><th align="left" id="d399162e114">
+</th><th align="left" id="d401381e114">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d399162e120">
+</th></tr></thead><tbody><tr><td id="d401381e120">
 
 **View the chart in the preview panel**
 
@@ -51,7 +51,7 @@ Procedure
 
 A chart with a visual representation of the anomaly appears.
 
-</td></tr><tr><td id="d399162e146">
+</td></tr><tr><td id="d401381e146">
 
 **View the chart in the alert record**
 
@@ -69,6 +69,6 @@ Select the number of the anomaly alert to open the alert record.
     -   **Week ago**
 6.  Review relevant logs in context by selecting the Open in Surrounding logs icon:\[Omitted image "icon-anomaly-logs-link.png"\] Alt text: Open in Surrounding logs icon.
 
-    The **Surrounding logs** tab displays the list of log lines that were generated one minute before and one second after the Log Analytics alert. For more information, see [How Health Log Analytics generates alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-anomalies-detecting.md).
+    The **Surrounding logs** tab displays the list of log lines that were generated one minute before and one second after the Log Analytics alert. For more information, see [How Health Log Analytics generates alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-op-anomalies-detecting.md).
 
 

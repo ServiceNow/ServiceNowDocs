@@ -1,18 +1,18 @@
 ---
-title: Create an NLU model from blank
+title: \(Legacy\) Create an NLU model from blank
 description: Create a Natural Language Understanding \(NLU\) model from scratch. Start with an empty model to have full control over the model's content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/create-nlu-modelx.html
-release: australia
+release: brazil
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating models, Model management, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) Creating models, \(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Create an NLU model from blank
+# \(Legacy\) Create an NLU model from blank
 
 Create a Natural Language Understanding \(NLU\) model from scratch. Start with an empty model to have full control over the model's content.
 
@@ -61,7 +61,7 @@ In this example procedure, you're building an NLU model to help Virtual Agent un
 
 \[Omitted image "create-nlu-model-blank03.png"\] Alt text: Model details page after creating a model from blank.
 
-Your new model contains no content. Select **Add content** to begin adding intents, entities, and vocabulary. For more information, see [Build and train your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/managing-model-content.md).
+Your new model contains no content. Select **Add content** to begin adding intents, entities, and vocabulary. For more information, see [\(Legacy\) Build and train your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/managing-model-content.md).
 
-Add test utterances and intents to build the model's default test set. For more information, see [Test set creation and management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-test-set-creation-management.md).
+Add test utterances and intents to build the model's default test set. For more information, see [\(Legacy\) Test set creation and management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/nlu-test-set-creation-management.md).
 

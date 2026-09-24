@@ -3,9 +3,9 @@ title: Viewing AI Exposures
 description: Access the entire attack surface across various types of findings on the AI Security Exposure Management dashboard with the AI Exposures module. AI Security Exposure Management is a dedicated module of the Security Exposure Management workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/ai-security-exposure-home.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Security Exposure Management Workspace, Explore, Unified Security Exposure Management, Security Operations]
 ---
@@ -16,7 +16,7 @@ Access the entire attack surface across various types of findings on the AI Secu
 
 ## AI Exposures overview
 
-See [Exploring AI Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/exploring-ai-security-exposure.md) for an overview and more information about the application.
+See [Exploring AI Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/exploring-ai-security-exposure.md) for an overview and more information about the application.
 
 See the [AI security exposure management](https://www.servicenow.com/community/secops-articles/reduce-ai-attack-surface-with-ai-security-exposure-management/ta-p/3563696) article in the Security Operations Community for more information about AI Security Exposure Management.
 
@@ -35,7 +35,7 @@ There are three categories of AI exposures that are displayed on the AI Security
 -   AI validation findings
 -   AI posture findings
 
-**Note:** These findings categories are also displayed on the findings page along with infrastructure, application, and container findings under All Active Findings on the Security Exposure Management workspace [Findings view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-findings-view.md) \(Home landing page\).
+**Note:** These findings categories are also displayed on the findings page along with infrastructure, application, and container findings under All Active Findings on the Security Exposure Management workspace [Findings view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-findings-view.md) \(Home landing page\).
 
 Select a filter to view risk and exposure for AI findings.
 

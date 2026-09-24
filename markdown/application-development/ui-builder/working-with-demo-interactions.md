@@ -1,20 +1,20 @@
 ---
 title: Working with UI interaction demo data
-description: Demo UI interactions give you simple, ready‑made examples that demonstrate common UI interaction patterns. You can duplicate these samples to explore how interactions work, experiment safely, and use them as starting points when building your own experiences.
+description: Demo UI interactions give you simple, ready‑made examples that demonstrate common UI Interaction patterns. You can duplicate these samples to explore how interactions work, experiment safely, and use them as starting points when building your own experiences.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/working-with-demo-interactions.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [UI interactions, Manage actions in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
 
 # Working with UI interaction demo data
 
-Demo UI interactions give you simple, ready‑made examples that demonstrate common UI interaction patterns. You can duplicate these samples to explore how interactions work, experiment safely, and use them as starting points when building your own experiences.
+Demo UI interactions give you simple, ready‑made examples that demonstrate common UI Interaction patterns. You can duplicate these samples to explore how interactions work, experiment safely, and use them as starting points when building your own experiences.
 
 ## Key considerations for working with demo interactions
 
@@ -98,7 +98,7 @@ Opens a modeless dialog with a form for creating a new record without leaving th
 
 </td><td>
 
-Teaches you how to invoke record creation in-context using UI interactions.
+Teaches you how to invoke record creation in-context using UI Interactions.
 
 </td><td>
 
@@ -122,7 +122,7 @@ Bulk reassignment
 
 </td></tr><tr><td>
 
-DEMO Open modal with record info
+DEMO Open modal to display table, sys\_id, form view
 
 </td><td>
 
@@ -153,25 +153,14 @@ Demonstrates Workspace‑aware actions, helping you automate save and finish pat
 Save‑and‑finish workflow
 
 </td></tr></tbody>
-</table>## Load demo data
-
-Demo data should be loaded only in a development or test instance to prevent conflict with production data.
-
-1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
-2.  Enter `sn-interaction-builder` into the search bar.
-3.  Select **Load demo data**.
-
-    \[Omitted image "uib-uii-demo-data-plugin.png"\] Alt text: Application Manager page for devsnc/sn‑interaction‑builder with Load demo data.
-
-
-## Viewing demo data in UI Builder
+</table>## Viewing demo data in UI Builder
 
 1.  From the UI Builder home page, select the **UI interactions** tab to view the list of available interactions.
 2.  Use either the list filter from the Label column to search for interactions that begin with DEMO or enter `DEMO` in the search field.
-3.  Select any DEMO interaction to view how it works or [duplicate it for your own use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/duplicate-demo-data.md).
+3.  Select any DEMO interaction to view how it works or [duplicate it for your own use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/duplicate-demo-data.md).
 
--   **[Duplicate a demo UI interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/duplicate-demo-data.md)**  
+-   **[Duplicate a demo UI interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/duplicate-demo-data.md)**  
 Create a duplicate of a demo UI interaction example to work with a separate, editable copy.
 
-**Parent Topic:**[UI interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/uib-ui-interactions.md)
+**Parent Topic:**[UI interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/uib-ui-interactions.md)
 

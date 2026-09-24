@@ -3,11 +3,11 @@ title: Expand technology services while reducing costs blueprint
 description: Select this adoption blueprint to create actionable plans to achieve your organization's business goals for automating core service and operations processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/admin-center/expand-tech-services-adoption-blueprints.html
-release: australia
+release: brazil
 product: Admin Center
 classification: admin-center
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Select your adoption blueprint, Adoption blueprints, Discovering adoption blueprints, Admin Center, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -44,7 +44,7 @@ Build the foundation
 
 </td><td>
 
-[Configuration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/manage-cmdb.md)
+[Configuration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/manage-cmdb.md)
 
 </td><td>
 
@@ -66,7 +66,7 @@ Enhance the experience
 
 </td><td>
 
-[Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-mgmt-landing-page.md)
+[Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-mgmt-landing-page.md)
 
 </td><td>
 
@@ -74,7 +74,7 @@ Service Level Management \(SLM\) helps to gather service requirements and monito
 
 </td><td>
 
-[Roles installed with Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/r_InstalledWithServiceLevelMgmt.md)
+[Roles installed with Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/r_InstalledWithServiceLevelMgmt.md)
 
 </td><td>
 
@@ -87,7 +87,7 @@ Enhance the experience
 
 </td><td>
 
-[CSDM and the CMDB Data Foundations Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/csdm-cmdb-foundations-dashboards.md)
+[CSDM and the CMDB Data Foundations Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/csdm-cmdb-foundations-dashboards.md)
 
 </td><td>
 
@@ -95,7 +95,7 @@ CSDM and CMDB Data Foundations Dashboards provide insights into the key foundati
 
 </td><td>
 
-Uses bases system roles. See [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_BaseSystemRoles.md).
+Uses bases system roles. See [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/r_BaseSystemRoles.md).
 
 </td><td>
 
@@ -107,7 +107,7 @@ Enhance the experience
 
 </td><td>
 
-[Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/r-discovery.md)
+[Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/r-discovery.md)
 
 </td><td>
 
@@ -129,7 +129,7 @@ Optimize the functionality
 
 </td><td>
 
-[Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_ServiceMappingOverview.md)
+[Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/c_ServiceMappingOverview.md)
 
 </td><td>
 
@@ -137,7 +137,7 @@ Service Mapping discovers all application services in your organization and buil
 
 </td><td>
 
-[Roles installed with Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/components-installed-with-service-mapping.md#section_wly_yyh_wdb)
+[Roles installed with Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/components-installed-with-service-mapping.md#section_wly_yyh_wdb)
 
 </td><td>
 
@@ -150,7 +150,7 @@ Optimize the functionality
 
 </td><td>
 
-[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_ITILChangeManagement.md)
+[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/c_ITILChangeManagement.md)
 
 </td><td>
 
@@ -158,7 +158,7 @@ Change Management provides a systematic approach to control the life cycle of al
 
 </td><td>
 
-Uses bases system roles. See [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_BaseSystemRoles.md).
+Uses bases system roles. See [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/r_BaseSystemRoles.md).
 
 </td><td>
 
@@ -172,7 +172,7 @@ Optimize the functionality
 
 </td><td>
 
-[Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_IncidentManagement.md)
+[Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/c_IncidentManagement.md)
 
 </td><td>
 
@@ -180,11 +180,11 @@ Incident Management restores normal service operation while minimizing impact to
 
 </td><td>
 
-Uses bases system roles. See [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_BaseSystemRoles.md).
+Uses bases system roles. See [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/r_BaseSystemRoles.md).
 
 </td><td>
 
--   [Incident Management limitations and support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_IncidentManagement.md)
+-   [Incident Management limitations and support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/c_IncidentManagement.md)
 -   [Automate change and incident management Playbook](https://www.servicenow.com/success/playbook/change-and-incident-management.html)
 -   [Incident Management Overview \(video\)](https://youtu.be/ryxjWBOq3sQ)
 
@@ -194,7 +194,7 @@ Optimize the functionality
 
 </td><td>
 
-[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management.md)
+[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management.md)
 
 </td><td>
 
@@ -202,11 +202,11 @@ Knowledge Management \(KM\) enables the sharing of information in knowledge base
 
 </td><td>
 
-[Roles installed with Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/Installed-with-km-core.md#section_wly_yyh_wdb)
+[Roles installed with Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/Installed-with-km-core.md#section_wly_yyh_wdb)
 
 </td><td>
 
--   [Knowledge Management limitations and support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/exploring-knowledge-management.md)
+-   [Knowledge Management limitations and support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/exploring-knowledge-management.md)
 -   [Knowledge Management Quick Start Guide \(ServiceNow Community\)](https://www.servicenow.com/community/knowledge-management-articles/servicenow-knowledge-management-quick-start-guide/ta-p/2533067)
 
 </td></tr><tr><td>
@@ -215,7 +215,7 @@ Optimize the functionality
 
 </td><td>
 
-[Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_ProblemManagement.md)
+[Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/c_ProblemManagement.md)
 
 </td><td>
 
@@ -223,7 +223,7 @@ Problem Management helps to identify the cause of an error in the IT infrastruct
 
 </td><td>
 
-Uses bases system roles. See [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_BaseSystemRoles.md).
+Uses bases system roles. See [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/r_BaseSystemRoles.md).
 
 </td><td>
 
@@ -235,7 +235,7 @@ Optimize the functionality
 
 </td><td>
 
-[Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog.md)
+[Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog.md)
 
 </td><td>
 
@@ -243,7 +243,7 @@ Service Catalog provides self-service opportunities for customers to request cat
 
 </td><td>
 
-[Roles installed with Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_ServiceCatalogManagementTermsandRoles.md#table_tqt_b5t_hp)
+[Roles installed with Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_ServiceCatalogManagementTermsandRoles.md#table_tqt_b5t_hp)
 
 </td><td>
 
@@ -255,7 +255,7 @@ Optimize the functionality
 
 </td><td>
 
-[Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/sow-landing-page.md)
+[Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/sow-landing-page.md)
 
 </td><td>
 
@@ -263,7 +263,7 @@ Service Operations Workspace is a configurable workspace that provides a unified
 
 </td><td>
 
-[Roles installed with Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/components-installed-with-sow.md#section_wly_yyh_wdb)
+[Roles installed with Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/components-installed-with-sow.md#section_wly_yyh_wdb)
 
 </td><td>
 
@@ -275,7 +275,7 @@ Optimize the functionality
 
 </td><td>
 
-[Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cert-inventory-mgmt.md)
+[Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cert-inventory-mgmt.md)
 
 </td><td>
 
@@ -283,7 +283,7 @@ Certificate Inventory and Management discovers, takes inventory of, and proactiv
 
 </td><td>
 
-[Roles installed with Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cert-inventory-mgmt-user-roles.md#section_i3j_qfd_mjb)
+[Roles installed with Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cert-inventory-mgmt-user-roles.md#section_i3j_qfd_mjb)
 
 </td><td>
 
@@ -295,7 +295,7 @@ Optimize the functionality
 
 </td><td>
 
-[Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/firewall-audit-reporting.md)
+[Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/firewall-audit-reporting.md)
 
 </td><td>
 
@@ -303,7 +303,7 @@ Firewall Audits and Reporting discovers and takes inventory of your firewall sec
 
 </td><td>
 
-[Roles installed with Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/firewall-audit-reporting-users-roles.md#section_e1j_1f1_plb)
+[Roles installed with Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/firewall-audit-reporting-users-roles.md#section_e1j_1f1_plb)
 
 </td><td>
 
@@ -315,7 +315,7 @@ Add advanced features
 
 </td><td>
 
-[Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/dpm-landing.md)
+[Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/dpm-landing.md)
 
 </td><td>
 
@@ -323,7 +323,7 @@ Digital Portfolio Management \(DPM\) manages and maintains all your services, ap
 
 </td><td>
 
-[Roles installed with Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/dpm-roles.md)
+[Roles installed with Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/dpm-roles.md)
 
 </td><td>
 
@@ -336,7 +336,7 @@ Add advanced features
 
 </td><td>
 
-[Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/hla-landing-page.md)
+[Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/hla-landing-page.md)
 
 </td><td>
 
@@ -344,7 +344,7 @@ Health Log Analytics helps prevent IT issues before your users are affected. It 
 
 </td><td>
 
-[Roles installed with Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/hla-components.md#section_okx_gk3_2nb)
+[Roles installed with Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/hla-components.md#section_okx_gk3_2nb)
 
 </td><td>
 
@@ -352,5 +352,5 @@ Health Log Analytics helps prevent IT issues before your users are affected. It 
 -   [ITOM Talks Session \#3 - Health Log Analytics \(video\)](https://youtu.be/FX2krdiYOMo)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Select your adoption blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/admin-center/ac-select-business-objective.md)
+</table>**Parent Topic:**[Select your adoption blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/admin-center/ac-select-business-objective.md)
 

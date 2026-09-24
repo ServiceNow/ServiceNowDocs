@@ -3,9 +3,9 @@ title: Employee Slate for Now Assist configuration menu
 description: Navigation sections available on the Employee Slate for Now Assist configuration summary page, and what each section contains.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/es-na-cbs-fsummary.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Employee Slate, Now Assist, Configuration Summary, navigation, branding, data sources, conversational assistant, canvas, Core Business Suite]
 breadcrumb: [Reference, Core Business Suite]
@@ -35,5 +35,5 @@ Navigation sections available on the Employee Slate for Now Assist configuration
 |Documentation|Parent section for reference materials. Contains the Documentation and references subsection.|
 |Documentation and references|Links to supporting documentation and reference materials for the Employee Slate for Now Assist configuration.|
 
-**Parent Topic:**[Core Business Suite reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-reference-parent.md)
+**Parent Topic:**[Core Business Suite reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/cbs-reference-parent.md)
 

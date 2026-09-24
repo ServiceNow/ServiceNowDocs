@@ -3,11 +3,11 @@ title: View scheduling history of work order tasks
 description: View the history of the scheduling method of work order tasks that are assigned and scheduled.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/view-scheduling-history.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Scheduling and dispatching, Use, Field Service Management]
 ---

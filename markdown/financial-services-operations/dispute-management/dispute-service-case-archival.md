@@ -3,11 +3,11 @@ title: Manage the Archive Dispute Service Cases rule
 description: Manage the archive rule that is provisioned in the Card Disputes Service Case table of the Financial Services Card Operations application. With this rule, your organization can meet your dispute service case archiving requirements. By default, inactive cases that are more than two years old are automatically archived.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/dispute-service-case-archival.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -30,10 +30,10 @@ Role required: admin
 
     **Note:** The Archive Dispute Service Cases rule is that a case that is inactive and more than two years old is automatically archived. This is the default base system archiving rule for dispute service cases in the Card Disputes Service Case table \[sn\_bom\_credit\_card\_disputes\_service\]. You can modify the archiving rule if necessary.
 
-    For more information on archive rules and archiving records, see [Archiving records in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/archiving-older-records.md).
+    For more information on archive rules and archiving records, see [Archiving records in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/archiving-older-records.md).
 
 3.  Update the rule and its parameters, if necessary.
 
 
-**Parent Topic:**[Dispute management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-management-reference.md)
+**Parent Topic:**[Dispute management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/dispute-management-reference.md)
 

@@ -3,11 +3,11 @@ title: Provision a cloud account
 description: Provision a cloud account as an admin through Cloud Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/provision-account.html
-release: australia
+release: brazil
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Creating a cloud account, Use, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Provision a cloud account as an admin through Cloud Workspace.
 
 ## Before you begin
 
-Confirm that the cloud context has been configured. For more information, see [Creating configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/cam-config.md).
+Confirm that the cloud context has been configured. For more information, see [Creating configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/cam-config.md).
 
 Discovery must have been performed on the cloud admin portal.
 
@@ -43,15 +43,15 @@ Role required: sn\_itom\_cam.cw\_admin
 
 5.  If you are provisioning an Azure account, determine whether to use an existing billing account or create and add a new billing account.
 
-<table id="choicetable_ovb_tlr_dfc"><thead><tr><th align="left" id="d145004e191">
+<table id="choicetable_ovb_tlr_dfc"><thead><tr><th align="left" id="d146601e191">
 
 Option
 
-</th><th align="left" id="d145004e194">
+</th><th align="left" id="d146601e194">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d145004e200">
+</th></tr></thead><tbody><tr><td id="d146601e200">
 
 **Add an existing billing account**
 
@@ -59,7 +59,7 @@ Action
 
 Select an existing account from the drop-down list.
 
-</td></tr><tr><td id="d145004e209">
+</td></tr><tr><td id="d146601e209">
 
 **Create and add a new single account**
 
@@ -72,7 +72,7 @@ Select an existing account from the drop-down list.
 5.  Select **Add**.
 
 
-</td></tr><tr><td id="d145004e254">
+</td></tr><tr><td id="d146601e254">
 
 **Create and add new bulk accounts**
 
@@ -93,15 +93,15 @@ Select an existing account from the drop-down list.
 
     An enrollment account is a management unit within a billing account for organizations with an Enterprise Agreement \(EA\). It organizes and controls Azure subscriptions and resources.
 
-<table id="choicetable_x33_4wr_dfc"><thead><tr><th align="left" id="d145004e344">
+<table id="choicetable_x33_4wr_dfc"><thead><tr><th align="left" id="d146601e344">
 
 Option
 
-</th><th align="left" id="d145004e347">
+</th><th align="left" id="d146601e347">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d145004e353">
+</th></tr></thead><tbody><tr><td id="d146601e353">
 
 **Enrollment account**
 
@@ -109,7 +109,7 @@ Action
 
 Select an existing account.
 
-</td></tr><tr><td id="d145004e362">
+</td></tr><tr><td id="d146601e362">
 
 **Create and add a new single account**
 
@@ -123,7 +123,7 @@ Select an existing account.
 6.  Select **Add**.
 
 
-</td></tr><tr><td id="d145004e411">
+</td></tr><tr><td id="d146601e411">
 
 **Create and add new bulk accounts**
 
@@ -154,6 +154,6 @@ Select an existing account.
 ## Result
 
 -   Based on the defined context, Cloud Account Management creates a subscription account within the specified cloud organization and AWS organization unit or Azure management group
--   To provide a more user-friendly alternative to a subscription ID, an alias is appended to the request name when an Azure subscription is requested through Cloud Account Management. The alias consists of an 8-character randomly generated suffix. For example: `CWSAREQ0000001-businessapp1-UEFwnlF8`.
+-   When an Azure subscription is requested through Cloud Account Management, an alias is appended to the request name. The alias consists of an 8-character randomly generated suffix. For example: `CWSAREQ0000001-businessapp1-UEFwnlF8`.
 
 

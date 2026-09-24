@@ -3,9 +3,9 @@ title: CrowdStrike Falcon Intelligence integration overview
 description: CrowdStrike Falcon Intelligence provides cyber security intelligence that easily integrating with Security Operations.The Threat Lookup - CrowdStrike Falcon Intelligence flow designer performs a lookup on selected observables. If the observables are of a type recognized by CrowdStrike Falcon Intelligence, the observables are scanned for malware, and the results are returned.The Integration Configuration feature allows you to quickly activate and set up third-party security integrations, including the CrowdStrike Falcon Intelligence integration. Before you can use the CrowdStrike Falcon Intelligence, you must download it from the ServiceNow Store and add the appropriate API key and ID.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/crowdstrike-intell-integration.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [CrowdStrike Falcon Intelligence integration, Threat Intelligence integrations, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -19,19 +19,19 @@ CrowdStrike Falcon Intelligence provides cyber security intelligence that easily
 **Related topics**  
 
 
-[Submit an IoC Lookup request from the Security Incident Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/t_SubmitThrtScnReqFromCat.md)
+[Submit an IoC Lookup request from the Security Incident Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/t_SubmitThrtScnReqFromCat.md)
 
 ## Threat Lookup - CrowdStrike Falcon Intelligence flows
 
 The Threat Lookup - CrowdStrike Falcon Intelligence flow designer performs a lookup on selected observables. If the observables are of a type recognized by CrowdStrike Falcon Intelligence, the observables are scanned for malware, and the results are returned.
 
-This flow is triggered by the [Security Operations Integration - Threat Lookup capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sec-ops-threat-lookups-capability.md) when you publish one or more observables to a watchlist, and the CrowdStrike Falcon Intelligence implementation is selected. After they are published, the watchlists can be viewed in the CrowdStrike Falcon Host software.
+This flow is triggered by the [Security Operations Integration - Threat Lookup capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sec-ops-threat-lookups-capability.md) when you publish one or more observables to a watchlist, and the CrowdStrike Falcon Intelligence implementation is selected. After they are published, the watchlists can be viewed in the CrowdStrike Falcon Host software.
 
 Role required: admin
 
 \[Omitted image "flows-crowdstrike-threat.png"\] Alt text: Threat Lookup - CrowdStrike Falcon Intelligence sub flow
 
-For information on the activities used by this flow designer, see [Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/common-wf-activities.md).
+For information on the activities used by this flow designer, see [Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/common-wf-activities.md).
 
 ## Activate and configure the CrowdStrike Falcon Intelligence integration
 
@@ -48,7 +48,7 @@ Role required: admin
 
 ### Procedure
 
-1.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/download-app-first-time.md).
+1.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/download-app-first-time.md).
 
 2.  In your instance, navigate to **Security Operations** &gt; **Integrations** &gt; **Integration Configurations**.
 
@@ -101,5 +101,5 @@ After it is configured, CrowdStrike Falcon Intelligence can be selected for perf
 **Related topics**  
 
 
-[Perform lookups on observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/perform-lookups-on-observables.md)
+[Perform lookups on observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/perform-lookups-on-observables.md)
 

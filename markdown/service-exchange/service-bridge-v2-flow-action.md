@@ -3,11 +3,11 @@ title: Flow action
 description: Workflow Studio predefined actions help you preserve mapped variable integrity and maintain flow compatibility across configuration revisions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-flow-action.html
-release: australia
+release: brazil
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2026-05-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [flow action, Flow Designer, remote task variables, provider task variables, remote record producer]
 breadcrumb: [Explore, Service Exchange]
@@ -17,7 +17,7 @@ breadcrumb: [Explore, Service Exchange]
 
 Workflow Studio predefined actions help you preserve mapped variable integrity and maintain flow compatibility across configuration revisions.
 
-Service Exchange provides a set of predefined Workflow Studio actions that you can use in your flows or subflows to retrieve variable values from remote tasks and provider tasks. For details on flows, see [Getting started with flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/getting-started-flow.md).
+Service Exchange provides a set of predefined Workflow Studio actions that you can use in your flows or subflows to retrieve variable values from remote tasks and provider tasks. For details on flows, see [Getting started with flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/getting-started-flow.md).
 
 Service Exchange provides the following actions in Workflow Studio:
 

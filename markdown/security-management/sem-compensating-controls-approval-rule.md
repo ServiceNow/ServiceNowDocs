@@ -3,9 +3,9 @@ title: Questionnaire Configuration form fields
 description: You can define distinct questionnaire for a distinct collection of vulnerabilities or remediation tasks by filtering the vulnerabilities or remediation tasks respectively.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-compensating-controls-approval-rule.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Questionnaire support in Exception Management via Smart Assessment, Exception Management Overview, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -71,12 +71,11 @@ Enabled by default, signifying that the questionnaire is in use.
 
 </td></tr><tr><td>
 
-Table
+Approval rule
 
 </td><td>
 
-Table for which the approval rule is applicable.-   Finding \[sn\_vul\_vulnerable\_item for the approval rules related to vulnerable items.
--   Remediation Task \[sn\_vul\_vulnerability\] for the approval rules related to remediation tasks.
+The approval rule associated with the questionnaire configuration. The condition field is dynamically dependent on the table defined in the selected approval rule, enabling conditions to be applied to the correct finding or remediation task fields.
 
 </td></tr><tr><td>
 
@@ -95,5 +94,4 @@ Questionnaire
 Questionnaire that appears when a remediation owner is requesting an exception, false positive or risk reduction.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Questionnaire support in Exception Management via Smart Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-smart-assessment-exp-management.md)
-
+</table>

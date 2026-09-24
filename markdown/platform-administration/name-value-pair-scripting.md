@@ -3,9 +3,9 @@ title: Name-value pairs field type
 description: You can access the values stored in a name-value pairs field in scripts using the name.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/name-value-pair-scripting.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---

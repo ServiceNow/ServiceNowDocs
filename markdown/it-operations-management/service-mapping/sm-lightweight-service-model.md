@@ -3,11 +3,11 @@ title: Service Mapping Lightweight Service Model
 description: The Lightweight Service Model is an optimized architecture for storing and determining service topology. It maintains current service data without storing historical snapshots, reducing storage overhead and improving performance for large configuration item inventories.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/sm-lightweight-service-model.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2026-08-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [service mapping, lightweight service, service architecture, service model, service topology]
 breadcrumb: [Choose the right method for discovering and mapping services, Exploring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
@@ -42,10 +42,10 @@ When you convert a service to Lightweight, the system optimizes how it stores an
 
 \[Omitted image "lightweight-screenshot.png"\] Alt text: Convert to Lightweight link
 
-Use the Lightweight Service Model related link to convert a service. For the full procedure, see [Convert a service instance to Lightweight Service Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/convert-service-instance-lightweight.md).
+Use the Lightweight Service Model related link to convert a service. For the full procedure, see [Convert a service instance to Lightweight Service Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/convert-service-instance-lightweight.md).
 
 **Related topics**  
 
 
-[Convert a service instance to Lightweight Service Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/convert-service-instance-lightweight.md)
+[Convert a service instance to Lightweight Service Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/convert-service-instance-lightweight.md)
 

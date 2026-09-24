@@ -3,13 +3,13 @@ title: Unlimited software licenses
 description: Unlimited software licenses help you to create entitlements with unlimited allocations and unlimited rights, allowing you to license any number of software installations with no true-up cost.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/unltd-allocations-rights.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Software license metrics, Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software license metrics, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Unlimited software licenses
@@ -48,5 +48,5 @@ The following license types are supported for unlimited licenses:
 -   Perpetual + Maintenance/Perpetual + Software Assurance
 -   Subscription
 
-**Parent Topic:**[Software license metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMLicenseMetrics.md)
+**Parent Topic:**[Software license metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/c_SAMLicenseMetrics.md)
 

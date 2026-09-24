@@ -3,13 +3,13 @@ title: View RFID information of assets
 description: View the Radio Frequency Identification \(RFID\) information of assets to manage and locate important assets easily.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/view-rfid-info.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 7
-breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Inventory and stockroom operations, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # View RFID information of assets
@@ -24,15 +24,15 @@ Role required: asset
 
 1.  Navigate to a hardware asset for which you want to view the RFID information.
 
-<table id="choicetable_l5h_2mg_ywb"><thead><tr><th align="left" id="d197893e50">
+<table id="choicetable_l5h_2mg_ywb"><thead><tr><th align="left" id="d200015e50">
 
 Interface
 
-</th><th align="left" id="d197893e53">
+</th><th align="left" id="d200015e53">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d197893e59">
+</th></tr></thead><tbody><tr><td id="d200015e59">
 
 **Core UI**
 
@@ -44,7 +44,7 @@ Action
 4.  Select **Open Record** to view the RFID information of the asset.
 
 
-</td></tr><tr><td id="d197893e107">
+</td></tr><tr><td id="d200015e107">
 
 **Hardware Asset Workspace**
 
@@ -81,78 +81,24 @@ Action
     The activity history is captured only for RFID tag and Zone.
 
 
-**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
+**Parent Topic:**[Inventory and stockroom operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/manage-your-stockrooms.md)
 
 **Related topics**  
 
 
-[Analyze hardware assets using the Generate hardware asset insights generative AI skill]()
-
-[Work with hardware normalization]()
-
-[Manage asset bundles from your inventory]()
-
-[Manage your inventory through pallet assets]()
-
-[Manage loaner assets]()
-
-[Donate assets to charity organizations]()
-
-[Use Advanced Shipment Notification]()
-
-[Manage RMA requests]()
-
-[Create an inventory stock order request]()
-
-[Create a disposal order]()
-
-[Fulfilling hardware asset requests]()
-
-[Audit hardware asset inventory]()
-
-[Request a Hardware Asset Refresh]()
-
-[Manage your expiring contracts for leased hardware assets]()
-
-[Reclaim hardware assets]()
-
-[Manage the lifecycle of hardware models with calculated lifecycle templates]()
-
-[Create an internal lifecycle in the Hardware Asset Workspace]()
-
-[Receive asset warranty details from Lenovo]()
-
-[Manage stockrooms]()
-
-[Track shipments using the integration framework]()
-
-[Track asset location using indoor maps]()
-
-[Assess performance of Hardware Asset Management]()
-
-[Manage refresh of assets using Zero Touch Refresh]()
-
-[Configure the Total Cost of Ownership of assets]()
-
-[Manage Hardware Asset Management subscriptions]()
-
-[Manage repair of defective assets in your stockroom in the Hardware Asset Workspace]()
+[Manage the receiving of assets at stockrooms in the Hardware Asset Workspace]()
 
 [Manage picking hardware assets within your stockroom for Hardware Asset Management workflows]()
 
-[Manage hardware asset tasks using the Mobile Agent application]()
-
 [Manage asset put away using the Hardware Asset Workspace]()
 
-[Audit your hardware assets by using Asset Attestation]()
+[Audit hardware asset inventory]()
 
-[Manage contract repository agentic workflow in the Hardware Asset Workspace]()
+[Track asset location using indoor maps]()
 
-[Manage obligations in the Hardware Asset Workspace]()
+[Manage your inventory through pallet assets]()
 
-[Acknowledge receipt of assets on the Employee Center portal]()
+[View stockroom details]()
 
-[Update associated Decision tables for HAM flows]()
-
-[Integrating Zebra technology RFID system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/integrating-rfid.md)
+[Integrating Zebra technology RFID system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/integrating-rfid.md)
 

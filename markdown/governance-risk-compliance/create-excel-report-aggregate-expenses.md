@@ -1,16 +1,16 @@
 ---
-title: Convert and aggregate contractual expenses
+title: Convert and aggregate expenses to required currencies
 description: Convert and aggregate contractual expenses to regulator-required currencies and generate consolidated reports for reporting submissions. Beginning with Digital Operational Resilience Management \(sn\_dora\_accel\), version 22.x.x, these currency conversion and third-party aggregation capabilities are supported for DORA reporting.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-excel-report-aggregate-expenses.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Currency conversion and third-party aggregation, Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Currency conversion and third-party aggregation, Use, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Convert and aggregate contractual expenses
+# Convert and aggregate expenses to required currencies
 
 Convert and aggregate contractual expenses to regulator-required currencies and generate consolidated reports for reporting submissions. Beginning with Digital Operational Resilience Management \(sn\_dora\_accel\), version 22.x.x, these currency conversion and third-party aggregation capabilities are supported for DORA reporting.
 
@@ -22,7 +22,7 @@ Role required: sn\_oper\_res.admin, sn\_oper\_res.manager
 
 Two download types are supported: \(1\) Excel master template — for internal review and analysis; does NOT require Competent Authority, Reference Date, or Date of Reporting fields. \(2\) Plain-CSV reporting package — for regulatory submission; requires Competent Authority, Reference Date, and Date of Reporting; includes Level 3 DPM validation on generation. Currency conversion and aggregation settings are available for both types.
 
-Once the instance is activated, currency rates populate automatically via a daily scheduled job. To align with regulator requirements, administrators or DORA administrators can update currency rates and validation rules at **All &gt; Digital Operational Resilience Management &gt; Digital Resilience Choices or DPM Business Validation Rules**. For more information, see [Currency conversion and third-party aggregation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/currency-conversion-aggregation.md).
+Once the instance is activated, currency rates populate automatically via a daily scheduled job. To align with regulator requirements, administrators or DORA administrators can update currency rates and validation rules at **All &gt; Digital Operational Resilience Management &gt; Digital Resilience Choices or DPM Business Validation Rules**. For more information, see [Currency conversion and third-party aggregation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/currency-conversion-aggregation.md).
 
 \[Omitted image "dora-excel-validation-rules.png"\] Alt text: DPM business validation rules.
 
@@ -107,5 +107,5 @@ Once the instance is activated, currency rates populate automatically via a dail
     **Note:** If any providers were ineligible for aggregation, the aggregation summary and detail reports identify those providers and explain the reason they were skipped.
 
 
-**Parent Topic:**[Currency conversion and third-party aggregation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/currency-conversion-aggregation.md)
+**Parent Topic:**[Currency conversion and third-party aggregation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/currency-conversion-aggregation.md)
 

@@ -3,11 +3,11 @@ title: Create or modify a safety incident on the Mobile Agent app
 description: A safety agent can create or edit a safety incident through the Mobile Agent app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/hs-create-modify-incident-mobile-agent.html
-release: australia
+release: brazil
 product: Health and Safety
 classification: health-and-safety
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage Health and Safety incident using the Mobile Agent app, Mobile experience for Health and Safety, Health and Safety, Employee Service Management]
 ---
@@ -48,10 +48,10 @@ Easily create safety incident records. Assign the new incident records to yourse
 
     To update the related list, see,
 
-    -   [Create or modify root cause analysis of a safety incident on the Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-create-modify-rca-incident-mobile-agent.md)
-    -   [Create or modify actions of a safety incident on the Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-create-modify-actions-safety-incidents-mobile-agent.md)
-    -   [Create or modify the people involved for a safety incident on the Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-create-modify-peope-involved-incident-mobile-agent.md)
-    -   [Create or modify injury and illness record of a safety incident on the Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-create-modify-injury-illness-incidents-mobile-agent.md)
+    -   [Create or modify root cause analysis of a safety incident on the Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety/hs-create-modify-rca-incident-mobile-agent.md)
+    -   [Create or modify actions of a safety incident on the Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety/hs-create-modify-actions-safety-incidents-mobile-agent.md)
+    -   [Create or modify the people involved for a safety incident on the Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety/hs-create-modify-peope-involved-incident-mobile-agent.md)
+    -   [Create or modify injury and illness record of a safety incident on the Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety/hs-create-modify-injury-illness-incidents-mobile-agent.md)
 
-**Parent Topic:**[Manage Health and Safety incident using the Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-manage-safety-incident-mobile-agent.md)
+**Parent Topic:**[Manage Health and Safety incident using the Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety/hs-manage-safety-incident-mobile-agent.md)
 

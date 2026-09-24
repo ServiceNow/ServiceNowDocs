@@ -3,9 +3,9 @@ title: Request a plugin
 description: If a plugin does not appear in the Application Manager, you cannot activate it yourself. Request activation of the plugin by ServiceNow personnel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_RequestAPlugin.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow plugins, Basic system configuration, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -83,7 +83,7 @@ The date and time to activate the plugin.
     For additional details about requesting a plugin, see [Requesting a Plugin from the Service Catalog \[KB0751715\] article in the Now Support Knowledge Base.](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0751715)
 
 
-**Parent Topic:**[ServiceNow plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ServiceNowPlugins.md)
+**Parent Topic:**[ServiceNow plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ServiceNowPlugins.md)
 
 **Related topics**  
 

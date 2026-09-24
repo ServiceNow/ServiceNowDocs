@@ -3,11 +3,11 @@ title: Configure demand workbench
 description: Update the demand workbench to configure parameters such as bubble chart.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/t\_CreatingBubbleCharts.html
-release: australia
+release: brazil
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up, Configure, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -35,9 +35,9 @@ Bubble charts are useful for comparing demands based on common metrics such as r
 3.  Update the required settings and select **Update**.
 
 
-**Parent Topic:**[Set up Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/c_SettingUpDemandManagement.md)
+**Parent Topic:**[Set up Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/c_SettingUpDemandManagement.md)
 
-**Previous topic:**[Associate a widget to the Demand table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/associate-widget-to-demand.md)
+**Previous topic:**[Associate a widget to the Demand table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/associate-widget-to-demand.md)
 
-**Next topic:**[Configure the demand AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/configure-the-demand-summarization-skill-ppm.md)
+**Next topic:**[Configure the demand AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/configure-the-demand-summarization-skill-ppm.md)
 

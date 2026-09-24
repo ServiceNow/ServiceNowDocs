@@ -3,11 +3,11 @@ title: Set up an approval engine
 description: To manage the approvals for each of the Task tables in the system, set up an approval engine.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/approvals/t\_SetupAnApprovalEngine.html
-release: australia
+release: brazil
 product: Approvals
 classification: approvals
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Approval engines, Classic approvals, Build workflows]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Approval engines, Classic approvals, Build workflows]
 
 To manage the approvals for each of the Task tables in the system, set up an approval engine.
 
-**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
+**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
 
 ## Before you begin
 
@@ -30,7 +30,7 @@ Role required: none
 
     \[Omitted image "ApprovalEnginePage.png"\] Alt text: Approval engine page
 
-2.  Select the [approval engine option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/approvals/c_ApprovalEngines.md) for each Task table from the choice list.
+2.  Select the [approval engine option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/approvals/c_ApprovalEngines.md) for each Task table from the choice list.
 
 3.  Click **Save**.
 

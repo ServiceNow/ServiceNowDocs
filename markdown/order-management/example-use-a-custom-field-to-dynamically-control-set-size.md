@@ -3,9 +3,9 @@ title: Example: Use a custom field to dynamically control set size
 description: This example demonstrates how to hide a standard field and replace it with a custom field.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/example-use-a-custom-field-to-dynamically-control-set-size.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure sets, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -30,7 +30,7 @@ Role required: Admin
 
     \[Omitted image "cpq-layout-wizard-settings-show-size-field.png"\] Alt text: Size settings
 
-    Although the set size field still exists, it no longer appears in the layout. For more information about sets and layouts, see [Using sets in layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/layouts-sets.md).
+    Although the set size field still exists, it no longer appears in the layout. For more information about sets and layouts, see [Using sets in layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/layouts-sets.md).
 
 2.  Create your replacement number field and add it to the layout.
 

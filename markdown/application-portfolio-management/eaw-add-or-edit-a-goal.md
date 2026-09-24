@@ -3,9 +3,9 @@ title: Add or edit a goal
 description: Create or edit a goal to track and optimize your investments in business applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-add-or-edit-a-goal.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage goals, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -34,21 +34,21 @@ Role required: sn\_gf.goal\_user
     -   To update details of an existing goal, select the goal.
 6.  On the form, fill in the fields.
 
-    For field information, see [Create goal form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-new-goal-form.md).
+    For field information, see [Create goal form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-new-goal-form.md).
 
 7.  Select **Save**.
 
 
-**Parent Topic:**[Manage goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-goals.md)
+**Parent Topic:**[Manage goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-manage-goals.md)
 
 **Related topics**  
 
 
-[Add a quantitative target to a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-a-quantitative-target-to-a-goal.md)
+[Add a quantitative target to a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-add-a-quantitative-target-to-a-goal.md)
 
-[View all goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-goals.md)
+[View all goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-all-goals.md)
 
-[Create a sub-goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-a-sub-goal.md)
+[Create a sub-goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-a-sub-goal.md)
 
-[Add a qualitative target to a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-a-qualitative-target-to-a-goal.md)
+[Add a qualitative target to a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-add-a-qualitative-target-to-a-goal.md)
 

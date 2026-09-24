@@ -3,11 +3,11 @@ title: Set the agent log level
 description: Configure the agent log level directly from your ServiceNow instance, without needing to access the acc.yml configuration file.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/set-agent-log-level.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using ACC logs, ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -39,5 +39,5 @@ Role required: agent\_client\_collector\_admin
     -   In the related links, select **Reset Log Level**.
     -   Restart the agent.
 
-**Parent Topic:**[Using Agent Client Collector logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/logs-acc.md)
+**Parent Topic:**[Using Agent Client Collector logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/logs-acc.md)
 

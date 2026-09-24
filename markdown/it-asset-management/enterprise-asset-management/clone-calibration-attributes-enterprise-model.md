@@ -3,11 +3,11 @@ title: Clone calibration attributes to an enterprise model
 description: Clone an existing calibration attribute to an enterprise model to add a calibration attribute with similar settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/clone-calibration-attributes-enterprise-model.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create and manage enterprise models, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
@@ -54,5 +54,5 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
             **Note:** If the enterprise model already contains another calibration attribute with the same name, this attribute is cloned with a numeric suffix appended to the name.
 
 
-**Parent Topic:**[Create and manage enterprise models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-models.md)
+**Parent Topic:**[Create and manage enterprise models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-models.md)
 

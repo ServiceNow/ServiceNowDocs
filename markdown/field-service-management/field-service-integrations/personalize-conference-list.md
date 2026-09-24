@@ -3,11 +3,11 @@ title: Customize the display of conference recording information
 description: Customize the Conferences related list to display specific information about conference recordings for work order tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-integrations/personalize-conference-list.html
-release: australia
+release: brazil
 product: Field Service Integrations
 classification: field-service-integrations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up Virtual Conferencing Integration, Integration with Virtual Conferencing, Integrating Field Service Management with other applications, Configure, Field Service Management]
 ---
@@ -47,5 +47,5 @@ As dispatcher or a Field Service Manager, you can listen to conference recording
 6.  Click **OK**.
 
 
-**Parent Topic:**[Configure Field Service Management Virtual Conferencing Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/configure-virtual-conference-fsm.md)
+**Parent Topic:**[Configure Field Service Management Virtual Conferencing Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-integrations/configure-virtual-conference-fsm.md)
 

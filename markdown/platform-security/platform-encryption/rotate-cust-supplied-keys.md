@@ -3,11 +3,11 @@ title: Rotate keys
 description: For increased security, you can rotate your cryptographic keys on a pre-determined schedule. Key rotation is when you retire an encryption key and replace that old key by generating a new cryptographic key.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/rotate-cust-supplied-keys.html
-release: australia
+release: brazil
 product: Platform Encryption
 classification: platform-encryption
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Key management actions, Key Management Framework, Encryption]
 ---
@@ -47,5 +47,5 @@ Encryption modules, unlike encryption contexts, support a rekey of records for r
     There’s an extra module key listed in the table. The newly rotated key becomes "Active" and the last key is "Deactivated."
 
 
-**Parent Topic:**[Key management actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/key-management-actions.md)
+**Parent Topic:**[Key management actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platform-encryption/key-management-actions.md)
 

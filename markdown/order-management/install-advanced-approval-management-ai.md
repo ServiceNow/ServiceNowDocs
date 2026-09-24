@@ -3,9 +3,9 @@ title: Install Advanced Approval Management AI
 description: You can install the Advanced Approval Management AI application \(sn\_adv\_apr\_mgt\_ai\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they're not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/install-advanced-approval-management-ai.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Advanced Approval Management AI, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -52,6 +52,6 @@ For more information on the MCP tools installed, see Components installed with A
 
 ## What to do next
 
--   Assign the MCP-related roles to your requesters and approvers. For information on the MCP roles available, see [Components installed with MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/installed-mcp-server-console.md).
+-   Assign the MCP-related roles to your requesters and approvers. For information on the MCP roles available, see [Components installed with MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/installed-mcp-server-console.md).
 -   Verify that your MCP server is connected to an MCP client. For more information, see Connect to an MCP server from an MCP client.
 

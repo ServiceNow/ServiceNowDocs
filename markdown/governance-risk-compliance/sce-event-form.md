@@ -3,9 +3,9 @@ title: Scenario event form
 description: Use the Scenario event form in Operational Resilience Workspace to associate a scenario event with your scenario analysis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/sce-event-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Add a scenario event, Adding a scenario event to the analysis, Enable the legacy scenario analysis flow, Legacy scenario analysis, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---

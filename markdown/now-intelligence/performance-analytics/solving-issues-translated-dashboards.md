@@ -3,11 +3,11 @@ title: Solving issues on translated dashboards
 description: Users can only find translated dashboards under certain configurations. You can translate the dashboard name to make it searchable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/solving-issues-translated-dashboards.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -18,7 +18,7 @@ Users can only find translated dashboards under certain configurations. You can 
 
 ## Before you begin
 
-On instances with language plugins enabled, the application first determines the database behind the instance. If the database is MySQL, then it looks for the user's session language and searches for the translated dashboard. For more information about language plugins, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateALanguage.md).
+On instances with language plugins enabled, the application first determines the database behind the instance. If the database is MySQL, then it looks for the user's session language and searches for the translated dashboard. For more information about language plugins, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivateALanguage.md).
 
 The search function only works for translated dashboards when the instance uses the MySQL database and the dashboard translation is provided.
 

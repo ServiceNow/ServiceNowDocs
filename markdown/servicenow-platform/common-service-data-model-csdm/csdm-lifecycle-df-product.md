@@ -3,11 +3,11 @@ title: Definitions of life-cycle values for product entities
 description: The product life-cycle value pairs represent the overall life cycle of a product model, a specific version, or a product configuration. The life-cycle values for the product life-cycle process are visible only in Product \(Models\) tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-df-product.html
-release: australia
+release: brazil
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Product life cycle, Reference, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -56,5 +56,5 @@ The product life-cycle value pairs represent the overall life cycle of a product
     -   **Retired**: The product is no longer available for new purchases or deployments but may still exist in limited use.
     -   **Obsolete**: The product is completely phased out and is no longer supported or used.
 
-**Parent Topic:**[Life cycle of product entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-product.md)
+**Parent Topic:**[Life cycle of product entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-product.md)
 

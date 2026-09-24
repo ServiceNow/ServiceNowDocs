@@ -3,11 +3,11 @@ title: Create a change request from OT device details
 description: Create an Operational Technology \(OT\) change request from an OT device record. Creating a change request from a device record automatically populates the information in your change request record, such as the site or business service and the OT Device field.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-change-management/create-ot-change-request-from-ot-asset-details.html
-release: australia
+release: brazil
 product: Operational Technology Change Management
 classification: operational-technology-change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Operational Technology Change Management, Operational Technology]
 ---
@@ -36,7 +36,7 @@ Role required: sn\_ot\_change\_write
 
 7.  Complete the playbook as needed as your team works on the change request.
 
-    For more information about the Basic OT Change Model playbook, see [Basic OT Change Model playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-change-management/basic-ot-change-model.md). For more information about the Advanced OT Change Model playbook, see [Advanced OT Change Model playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-change-management/advanced-ot-change-model.md).
+    For more information about the Basic OT Change Model playbook, see [Basic OT Change Model playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-change-management/basic-ot-change-model.md). For more information about the Advanced OT Change Model playbook, see [Advanced OT Change Model playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-change-management/advanced-ot-change-model.md).
 
     The following fields are automatically populated depending on the conditions that you set.
 
@@ -51,5 +51,5 @@ Role required: sn\_ot\_change\_write
 
 The change request is created, and the users in the Assignment group, Assigned to, and Watch list fields are notified.
 
-**Parent Topic:**[Using Operational Technology Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-change-management/using-operational-technology-change-management.md)
+**Parent Topic:**[Using Operational Technology Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-change-management/using-operational-technology-change-management.md)
 

@@ -3,9 +3,9 @@ title: Using Activity Management
 description: Activity Management enables you to log and track every customer interaction across the sales cycle. Touchpoints provide a method to record meetings, calls, appointments, and emails. You can use the Microsoft Outlook add-in to associate emails and create CRM records without leaving your inbox.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/using-activity-management.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [use]
 breadcrumb: [Sales automation apps, Use, Sales Customer Relationship Management]
@@ -36,31 +36,31 @@ Activity Management enables you to log and track every customer interaction acro
     An agentic AI workflow analyzes inbound emails, identifies sales intent, and finds an existing CRM record to associate the email, all as a background process, reducing manual effort. Sales representatives use the ServiceNow CRM for Outlook add-in only when an email they expected to be linked is not auto-associated or when they want to create a record.
 
 
--   **[Create a CRM touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-crm-touchpoint.md)**  
+-   **[Create a CRM touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-crm-touchpoint.md)**  
 Create a CRM touchpoint to log and track customer interactions across the sales cycle. Link touchpoints to accounts, contacts, and associated records to maintain a complete interaction history and support timely follow-ups.
--   **[Schedule a meeting from a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/schedule-meeting-touchpoint.md)**  
+-   **[Schedule a meeting from a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/schedule-meeting-touchpoint.md)**  
 Schedule meetings with leads, opportunities, and accounts directly from the touchpoint record. Align internal and external stakeholders, avoid scheduling conflicts, and build a timeline view of customer interactions for risk analysis and planning future actions.
--   **[Schedule a call from a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/schedule-call-crm-touchpoint.md)**  
+-   **[Schedule a call from a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/schedule-call-crm-touchpoint.md)**  
 Plan and track customer calls to organize and manage follow-ups and outreach and maintain a complete interaction history.
--   **[Send an email from a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/compose-send-emails-crm-touchpoint.md)**  
+-   **[Send an email from a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/compose-send-emails-crm-touchpoint.md)**  
 Send emails to customers and stakeholders directly from a touchpoint record without having to leave the workspace. Emails are stored in the CRM system so other agents, managers, and customer success managers have full context about interactions with the customer or account.
--   **[Create a related task from a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-touchpoint-related-tasks.md)**  
+-   **[Create a related task from a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-touchpoint-related-tasks.md)**  
 Create tasks directly from a touchpoint record to assign follow-up actions such as researching customer backgrounds, track post-interaction commitments, and coordinate stakeholders without having to leave the touchpoint workspace. Tasks are automatically linked to the touchpoint so all related activity stays connected.
--   **[Schedule an appointment from a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/schedule-appointment-crm-touchpoint.md)**  
+-   **[Schedule an appointment from a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/schedule-appointment-crm-touchpoint.md)**  
 Schedule appointments with customers and stakeholders directly from a touchpoint record to coordinate in-person or virtual engagements and keep the entire account team informed.
--   **[Associate an email with an existing CRM record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/associate-email-crm-outlook.md)**  
+-   **[Associate an email with an existing CRM record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/associate-email-crm-outlook.md)**  
 Link an email to an existing lead, account, contact, or opportunity record directly from Microsoft Outlook. Associating emails with CRM records helps maintain a complete engagement history without having to switch between applications.
--   **[Track emails linked from Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-associated-emails-crm.md)**  
-View emails that have been linked to CRM records using the Microsoft Outlook directly from the CSM/FSM Configurable Workspace.
--   **[Create a CRM record from Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-crm-entity-outlook.md)**  
+-   **[Track emails linked from Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/view-associated-emails-crm.md)**  
+View emails that have been linked to CRM records using the Microsoft Outlook directly from the CRM Workspace.
+-   **[Create a CRM record from Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-crm-entity-outlook.md)**  
 Create a new lead or contact record and associate an email with it directly from Microsoft Outlook, enabling you to capture new prospects without having to leave your email inbox.
 
-**Parent Topic:**[Using sales automation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-opportunity-mgt.md)
+**Parent Topic:**[Using sales automation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-lead-opportunity-mgt.md)
 
 **Related topics**  
 
 
-[Configuring Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-activity-management.md)
+[Configuring Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configuring-activity-management.md)
 
-[Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-activity-management.md)
+[Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-activity-management.md)
 

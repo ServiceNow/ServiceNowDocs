@@ -3,11 +3,11 @@ title: Skills Overview in Workforce Optimization for Field Service
 description: Use Skills Overview to analyze skill data, such as how many skills are assigned to users and tasks. You can also see how many experts you have for a particular skill and the overall skill coverage by your teams.Access Skills Overview from Manager Workspace using either the Scheduling application or the Teams application to analyze skill data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/skills-overview-wfo-fsm.html
-release: australia
+release: brazil
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Coaching, Workforce Optimization, Managing workforce, Use, Field Service Management]
 ---
@@ -51,7 +51,7 @@ The data displayed in the MTTR of incidents of skill indicator is calculated bas
 
 ## Reports
 
-**Important:** The Pending Users and Assigned Tasks reports display when you enable the Coaching with Learning application from the ServiceNow® Store. To enable this application, see [Activate Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/activate-wfo-fsm.md).
+**Important:** The Pending Users and Assigned Tasks reports display when you enable the Coaching with Learning application from the ServiceNow® Store. To enable this application, see [Activate Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/activate-wfo-fsm.md).
 
 <table id="table_r1n_xnm_v4b"><thead><tr><th>
 
@@ -214,7 +214,7 @@ Role required: skill\_admin
 
 You can access Skills Overview from Manager Workspace using the Teams or Shift Scheduling application.
 
-**Note:** You must enable the Coaching with Learning application to view the reports from the application. For information about enabling this application, see [Activate Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/activate-wfo-fsm.md).
+**Note:** You must enable the Coaching with Learning application to view the reports from the application. For information about enabling this application, see [Activate Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/activate-wfo-fsm.md).
 
 ### Procedure
 
@@ -222,15 +222,15 @@ You can access Skills Overview from Manager Workspace using the Teams or Shift S
 
 2.  Access Skills Overview from either the Teams application or the Shift Scheduling application.
 
-<table id="choicetable_a5f_ty2_hwb"><thead><tr><th align="left" id="d144853e492">
+<table id="choicetable_a5f_ty2_hwb"><thead><tr><th align="left" id="d147895e492">
 
 Application
 
-</th><th align="left" id="d144853e495">
+</th><th align="left" id="d147895e495">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d144853e501">
+</th></tr></thead><tbody><tr><td id="d147895e501">
 
 **Teams**
 
@@ -242,7 +242,7 @@ Actions
 4.  Select a skill from the Skill list.
 
 
-</td></tr><tr><td id="d144853e540">
+</td></tr><tr><td id="d147895e540">
 
 **Shift Scheduling**
 

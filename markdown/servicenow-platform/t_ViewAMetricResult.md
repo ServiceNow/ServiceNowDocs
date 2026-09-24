@@ -3,9 +3,9 @@ title: View a metric result
 description: Metric results contain values that represent an evaluated record's performance for a specific metric, based on a single evaluation from one user or from the execution of a script. Metric results contain actual values as well as calculated values. The system uses values from metric results to calculate category results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_ViewAMetricResult.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Assessment administrator tasks, Using assessments, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -44,7 +44,7 @@ Assessment group
 
 </td><td>
 
-[Assessment group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentGroups.md) to which the metric result is associated.
+[Assessment group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_AssessmentGroups.md) to which the metric result is associated.
 
 </td></tr><tr><td>
 
@@ -68,7 +68,7 @@ Method
 
 </td><td>
 
-[method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentMetrics.md) of the metric.
+[method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_AssessmentMetrics.md) of the metric.
 
 </td></tr><tr><td>
 
@@ -100,7 +100,7 @@ Instance
 
 </td><td>
 
-[Assessment instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentInstances.md) completed by the **Assigned to** user. This field is blank when the method is **Script**.
+[Assessment instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_AssessmentInstances.md) completed by the **Assigned to** user. This field is blank when the method is **Script**.
 
 </td></tr><tr><td>
 
@@ -114,7 +114,7 @@ Unscaled value from a user response or script, depending on the method:
     -   **Checkbox**: The actual value is 0 if the check box is cleared and 1 if it is selected.
     -   **Choice** or **Likert Scale**: The actual value is equal to the Value of the metric definition associated with the chosen answer option.
     -   **Date**, **Date/Time,** or **String**: The actual value is -1 to indicate that these data types do not contribute to category result calculations.
-    -   **Template**: The actual value is equal to the **Value** of the [template definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MetricTemplates.md) associated with the chosen answer option.
+    -   **Template**: The actual value is equal to the **Value** of the [template definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_MetricTemplates.md) associated with the chosen answer option.
     -   **Yes/No**: The actual value is 0 if the response is **No** and 1 if it is **Yes**.
 -   **Script**: Value the script placed in the *actual\_result* variable.
  This field is hidden and left blank when the data type is **Duration**.
@@ -160,7 +160,7 @@ Normalized value
 
 </td><td>
 
-Adjusted value that accounts for weights, scale definition, minimum and maximum values, and other factors that impact the metric \(like the survey responses or the input value—the actual value given by the user\). See the example for **Normalized value** in [View an assessment category result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewACategoryResult.md).
+Adjusted value that accounts for weights, scale definition, minimum and maximum values, and other factors that impact the metric \(like the survey responses or the input value—the actual value given by the user\). See the example for **Normalized value** in [View an assessment category result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_ViewACategoryResult.md).
 
 </td></tr><tr><td>
 
@@ -172,16 +172,16 @@ Value that displays the response as it appears on a questionnaire. In some cases
 
 </td></tr></tbody>
 </table>
--   **[Assessment results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_AssessmentResults.md)**  
+-   **[Assessment results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_AssessmentResults.md)**  
 In the Assessments application, when the system processes completed questionnaires or gathers values returned from scripted metric queries, it generates assessment result records called metric and category results.
--   **[Assessment Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_AssessmentsOverviewModule.md)**  
+-   **[Assessment Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_AssessmentsOverviewModule.md)**  
 The Assessment Overview dashboard displays various assessment reports, such as Assessable Records by Type, Total Metrics by Metric Type, and Assessments by State.
--   **[View assessment reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/view-assessment-report.md)**  
+-   **[View assessment reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/view-assessment-report.md)**  
 Use the Assessment Overview dashboard to view your assessment reports.
--   **[Assessment results calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentResultsCalculation.md)**  
+-   **[Assessment results calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_AssessmentResultsCalculation.md)**  
 For every assessment group, there are assessment results.
--   **[View a bubble chart for assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_view-bubble-chart-assessments.md)**  
+-   **[View a bubble chart for assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_view-bubble-chart-assessments.md)**  
 Assessment administrators can view bubble charts to compare the relative standing of assessable records in three metric categories.
 
-**Parent Topic:**[Assessment administrator tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentProcess.md)
+**Parent Topic:**[Assessment administrator tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_AssessmentProcess.md)
 

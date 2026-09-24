@@ -3,11 +3,11 @@ title: Create a standard schedule plan
 description: Create a plan for the scheduled creation of standard tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/create-events-based-on-schedules.html
-release: australia
+release: brazil
 product: Digital Factory Workspace
 classification: digital-factory-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Scheduling, Industrial Standards, Use, Digital Factory Workspace, Industrial Connected Workforce]
 ---
@@ -18,7 +18,7 @@ Create a plan for the scheduled creation of standard tasks.
 
 ## Before you begin
 
-To create a template schedule, you must define a schedule first. For more information about defining schedules, see [Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_DefineASchedule.md). To create a custom template that is based on shifts, refer to [Define a shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/define-shifts.md) to configure shifts.
+To create a template schedule, you must define a schedule first. For more information about defining schedules, see [Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_DefineASchedule.md). To create a custom template that is based on shifts, refer to [Define a shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/define-shifts.md) to configure shifts.
 
 Role required: sn\_icw\_std.standard\_author
 
@@ -34,7 +34,7 @@ Role required: sn\_icw\_std.standard\_author
 
 5.  On the Scheduled plan form, fill in the fields.
 
-    For a description of field values, see [Schedule plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/scheduled-plan-form.md).
+    For a description of field values, see [Schedule plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/scheduled-plan-form.md).
 
 6.  Select **Save**.
 
@@ -42,11 +42,11 @@ Role required: sn\_icw\_std.standard\_author
 
 8.  To create a shift-based schedule, enable the **Shift** option before filling in the Custom schedule form fields.
 
-    **Note:** If you enable shift-based scheduling, the form hides the **Start date/time** and **End date/time** fields and displays a **Start date** field instead. The system automatically calculates the start and end time frames from the shift configuration. For more information, see [Create a shift-based schedule plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/create-shift-based-schedule.md).
+    **Note:** If you enable shift-based scheduling, the form hides the **Start date/time** and **End date/time** fields and displays a **Start date** field instead. The system automatically calculates the start and end time frames from the shift configuration. For more information, see [Create a shift-based schedule plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/create-shift-based-schedule.md).
 
 9.  On the Custom schedule form, fill in the fields.
 
-    For a description of field values, see [Custom schedule plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/custom-schedule-plan-form.md).
+    For a description of field values, see [Custom schedule plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/custom-schedule-plan-form.md).
 
 10. Select **Save**.
 
@@ -55,8 +55,8 @@ Role required: sn\_icw\_std.standard\_author
 
 The new schedule plan is displayed in the list of schedule plans for the standard.
 
--   **[Create a shift-based schedule plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/create-shift-based-schedule.md)**  
+-   **[Create a shift-based schedule plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/create-shift-based-schedule.md)**  
 Create a scheduled plan for standard tasks based on shift configuration of a functional location.
 
-**Parent Topic:**[Scheduling standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/scheduling-standards.md)
+**Parent Topic:**[Scheduling standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/scheduling-standards.md)
 

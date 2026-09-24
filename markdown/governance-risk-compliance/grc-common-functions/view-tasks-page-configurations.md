@@ -3,11 +3,11 @@ title: Update the Tasks Page Configuration record
 description: Update the Tasks Page Configuration record in the classic user interface to display the task configurations in various workspaces. The Tasks Page Configuration record displays the configurations that an end user can view in the My Tasks landing page in each workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/view-tasks-page-configurations.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Landing Page Configurations module, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -155,5 +155,5 @@ List of the states that are applicable to the tab. These states are displayed in
 11. Click **Update** to update the task configuration record.
 
 
-**Parent Topic:**[Landing Page Configurations module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/admin-config-using-grc-common.md)
+**Parent Topic:**[Landing Page Configurations module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/admin-config-using-grc-common.md)
 

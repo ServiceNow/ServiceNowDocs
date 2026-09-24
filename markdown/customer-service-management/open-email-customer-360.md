@@ -3,9 +3,9 @@ title: Compose an email from the ribbon component
 description: As an agent you can compose emails directly from cases within CRM Workspace without having to use an external email client. This capability helps you view and send emails to two different customers simultaneously which saves time and effort instead of having to address and send a separate email message.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/open-email-customer-360.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage email tasks, Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
 ---
@@ -42,5 +42,5 @@ You can compose large emails easily in a full screen view which opens up in a ne
 **Related topics**  
 
 
-[Compose an email from a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/compose-email-cases.md)
+[Compose an email from a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/compose-email-cases.md)
 

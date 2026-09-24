@@ -3,9 +3,9 @@ title: Edit record reference entries in record screen tables
 description: Edit existing entries in the record screen tables in the Mobile App Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/mab-record-screen-table-edit.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using the Mobile App Builder, Mobile App Builder, Building tools, Building mobile apps, Mobile Platform]
 ---
@@ -18,7 +18,7 @@ Edit existing entries in the record screen tables in the Mobile App Builder.
 
 Role required: admin or delegated developer
 
-For more information about the delegated developer role, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_DelegatedDevelopment.md).
+For more information about the delegated developer role, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_DelegatedDevelopment.md).
 
 ## Procedure
 

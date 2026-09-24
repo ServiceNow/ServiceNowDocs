@@ -3,11 +3,11 @@ title: Create policies for Scan Engine
 description: Policies let you determine how specific definition findings appear on analytics dashboards; you can ignore them completely or place them in a prioritized view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/working-policies-scan-engine.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customize Scan Engine definitions, Activate Scan Engine and review settings, Run Impact Guided Setup, Configuring Impact, Impact]
+breadcrumb: [Customize Scan Engine definitions, Activate Scan Engine and review settings, Impact Guided Setup, Configuring Impact, Impact]
 ---
 
 # Create policies for Scan Engine
@@ -22,8 +22,6 @@ You can choose to create policies that label these definition findings as:
 
 -   **Acceptable as is**: Findings remain in the **Open Findings** table but are excluded from dashboard metrics, health score calculations, and prioritization views. They aren't automatically closed.
 -   **Prioritize**: Findings will appear in the **Prioritized findings** module on analytics dashboards.
-
-**Note:** Policies match findings based on the **Definition** field. When creating a policy from a finding, the policy automatically references that definition and will apply to all future findings from the same definition.
 
 ## Procedure
 
@@ -92,5 +90,5 @@ Description of why the policy was created.
     When a policy is active, findings matching its criteria display its name in their **Policy** field. View all findings affected by a policy through the policy record's **Findings** related list, or navigate to **ALL &gt; Impact &gt; Platform Health &gt; Finding Policies** to manage all policies.
 
 
-**Parent Topic:**[Customize Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/view-modify-scan-engine-properties.md)
+**Parent Topic:**[Customize Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/view-modify-scan-engine-properties.md)
 

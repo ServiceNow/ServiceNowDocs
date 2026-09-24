@@ -3,11 +3,11 @@ title: Close a remediation task
 description: If you determine that the issue associated with a remediation task can be immediately closed without further analysis, you can use the Close feature.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/close-test-result-group.html
-release: australia
+release: brazil
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
@@ -46,5 +46,5 @@ When you resolve a remediation task, the resolution notes reflects in the work n
 **Related topics**  
 
 
-[Configuration Compliance states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/vuln-config-compl-states.md)
+[Configuration Compliance states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/configuration-compliance/vuln-config-compl-states.md)
 

@@ -3,11 +3,11 @@ title: Create an assignment rule
 description: Automatically assign a record according to one or more conditions in an assignment rule. Assignment rules are designed to run at the time you open a record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/t\_AssignmentModuleRule.html
-release: australia
+release: brazil
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Assignment rules, Working with Task table, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -144,7 +144,7 @@ In this example, the condition statement automatically assigns any incident open
 
 \[Omitted image "assignment-assign-to.png"\] Alt text: Assign To
 
-**Parent Topic:**[Defining assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DefineAssignmentRules.md)
+**Parent Topic:**[Defining assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/c_DefineAssignmentRules.md)
 
 **Related topics**  
 

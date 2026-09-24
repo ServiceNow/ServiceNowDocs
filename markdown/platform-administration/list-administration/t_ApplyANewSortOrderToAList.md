@@ -3,11 +3,11 @@ title: Apply a new sort order to a list
 description: You can apply a new sort order to the records in a list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/t\_ApplyANewSortOrderToAList.html
-release: australia
+release: brazil
 product: List Administration
 classification: list-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Rank a list, Context ranking, Administer, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -29,5 +29,5 @@ Role required: none
 2.  To remove the ranking and return to the original order of the list, click the label in any column that contains data.
 
 
-**Parent Topic:**[Rank a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/t_RankingAList.md)
+**Parent Topic:**[Rank a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-administration/t_RankingAList.md)
 

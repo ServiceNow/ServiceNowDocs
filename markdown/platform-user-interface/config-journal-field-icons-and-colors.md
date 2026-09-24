@@ -3,9 +3,9 @@ title: Configure journal field tile icons and colors in Configurable Workspace
 description: Configure custom icons for tiles in the Activity stream.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/config-journal-field-icons-and-colors.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activity stream, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---

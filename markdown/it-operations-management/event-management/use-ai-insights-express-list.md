@@ -3,13 +3,13 @@ title: Review AI-generated alert insights in Express List
 description: Access alert information in Express List that is consolidated autonomously by AI skills and agents. Use the AI insights badge, column, and filter to monitor alert statuses and review of AI-generated insights.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/use-ai-insights-express-list.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Manage alerts autonomously agentic workflow, Respond to alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Manage alerts autonomously agentic workflow, Responding to and working with alerts in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Review AI-generated alert insights in Express List
@@ -18,15 +18,15 @@ Access alert information in Express List that is consolidated autonomously by AI
 
 ## Before you begin
 
-For this feature, you must have ServiceNow Otto for IT Operations Management \(ITOM\) installed on your instance. For more information about installing ServiceNow Otto plugins, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+For this feature, you must have ServiceNow Otto for IT Operations Management \(ITOM\) installed on your instance. For more information about installing ServiceNow Otto plugins, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 Role required: None
 
 ## About this task
 
-The manage alerts autonomously workflow investigates alerts, summarizes alert-related reports, and stores structured insights with key findings for use in Express List. For more information about the manage alerts autonomously agentic workflow, see [Manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/itom-autonomous-operator-workflow.md).
+The manage alerts autonomously workflow investigates alerts, summarizes alert-related reports, and stores structured insights with key findings for use in Express List. For more information about the manage alerts autonomously agentic workflow, see [Manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/itom-autonomous-operator-workflow.md).
 
 Autonomous workflow is a simplified AI process elaborated in the AI Specialist. You can now activate and manage AI Specialist, controlling the groups it targets and the specific alert type it handles. Activating the AI Specialist automatically disables the Autonomous workflow.
 
@@ -35,16 +35,16 @@ Autonomous workflow is a simplified AI process elaborated in the AI Specialist. 
 There are several ways to explore AI insights in Express List.
 
 -   Quickly review if alerts have been processed by checking for the AI insights badge \[Omitted image "ai-insights-icon.png"\] Alt text:.
--   Search for specific information and key words in the Insights column. To add the column, see [Add or modify Express List columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/edit-list-columns-el.md) for more information.
+-   Search for specific information and key words in the Insights column. To add the column, see [Add or modify Express List columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/edit-list-columns-el.md) for more information.
 -   Filter for information by using the **Insights** filter attribute in the filter panel.
 -   Review **AI insights** in the preview panel or the alert record.
 
 These options present differently, depending on whether the workflow is configured for automatic or manual execution.
 
--   When the workflow operates automatically, alerts are addressed as they're created and AI insight information is displayed in Express List.
+-   When the workflow operates automatically, alerts are addressed as they’re created and AI insight information is displayed in Express List.
 -   When the workflow operates manually, you must manually generate AI insights. For more information, see details in the following procedure.
 
-For information about configuring this workflow, see [Configure the manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-manage-alerts-autonomously-workflow.md).
+For information about configuring this workflow, see [Configure the manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-manage-alerts-autonomously-workflow.md).
 
 ## Procedure
 
@@ -54,15 +54,15 @@ For information about configuring this workflow, see [Configure the manage alert
 
 3.  Review the AI insights through the following options.
 
-<table id="choicetable_qzt_n1y_thc"><thead><tr><th align="left" id="d135776e216">
+<table id="choicetable_qzt_n1y_thc"><thead><tr><th align="left" id="d137252e216">
 
 Review AI insights
 
-</th><th align="left" id="d135776e219">
+</th><th align="left" id="d137252e219">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d135776e225">
+</th></tr></thead><tbody><tr><td id="d137252e225">
 
 **Check for the AI Insights badge for alert status**
 
@@ -72,23 +72,23 @@ Procedure
 -   If insights aren't available for an alert, you can initiate the process manually. Details for generating insights are in the following options.
 
 
-</td></tr><tr><td id="d135776e248">
+</td></tr><tr><td id="d137252e248">
 
 **Search for alerts with AI Insights information and key words**
 
 </td><td>
 
-Search for content with the free text search. For more information, see [Find alert records in Express List using text search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/el-free-text-search.md).
+Search for content with the free text search. For more information, see [Find alert records in Express List using text search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/el-free-text-search.md).
 
-</td></tr><tr><td id="d135776e264">
+</td></tr><tr><td id="d137252e264">
 
 **Filter using AI Insights filter attribute**
 
 </td><td>
 
-Filter using the **Insights** attribute with a minimum string of two characters. For more information, see [Filtering the alert display in the Express List pane](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/filter-express-list.md).
+Filter using the **Insights** attribute with a minimum string of two characters. For more information, see [Filtering the alert display in the Express List pane](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/filter-express-list.md).
 
-</td></tr><tr><td id="d135776e283">
+</td></tr><tr><td id="d137252e283">
 
 **Review AI insights in the preview panel**
 
@@ -100,7 +100,7 @@ Filter using the **Insights** attribute with a minimum string of two characters.
 -   If the AI Specialist is in the active state, you can see the processing steps of the agentic workflow. After processing completes, the **View AI activity** link appears. Select the link to go to the **AI activity** tab on the alert details page. In the **AI activity** tab, view the detailed report of the alert along with the workflow steps.
 
 
-</td></tr><tr><td id="d135776e338">
+</td></tr><tr><td id="d137252e338">
 
 **Review AI Insights in the alert record overview**
 

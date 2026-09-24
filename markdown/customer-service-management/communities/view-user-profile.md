@@ -3,11 +3,11 @@ title: Manage your community profile
 description: View and edit your own community profile, which displays your contributions, network, achievements, expertise, and events you are attending.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/view-user-profile.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use a community profile, Using communities, Communities, Customer Service Management]
 ---
@@ -19,6 +19,10 @@ View and edit your own community profile, which displays your contributions, net
 ## Before you begin
 
 Role required: sn\_communities.community\_user
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## About this task
 
@@ -135,5 +139,5 @@ A display of your expertise at topic level. You can view your level within the t
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Use a community profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/community-profile.md)
+**Parent Topic:**[Use a community profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/community-profile.md)
 

@@ -3,11 +3,11 @@ title: Assess a problem task
 description: Assess a problem task to determine the feasibility of working on the task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/assess-a-problem-task.html
-release: australia
+release: brazil
 product: Problem Management
 classification: problem-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing Problems, Problem Management, IT Service Management]
 ---
@@ -34,15 +34,15 @@ Assessing a problem task involves analyzing the scale and extent of the task, as
 
 2.  After assessing the task, perform the action based on your option.
 
-<table id="choicetable_yjt_n3k_wfb"><thead><tr><th align="left" id="d125585e86">
+<table id="choicetable_yjt_n3k_wfb"><thead><tr><th align="left" id="d126983e86">
 
 Option
 
-</th><th align="left" id="d125585e89">
+</th><th align="left" id="d126983e89">
 
 Action to be taken
 
-</th></tr></thead><tbody><tr><td id="d125585e95">
+</th></tr></thead><tbody><tr><td id="d126983e95">
 
 **When you’re ready to work on the task**
 
@@ -50,7 +50,7 @@ Action to be taken
 
 Select **Start Work**. \[Omitted image "pm-task-start-work.png"\] Alt text: start stateThe problem task enters the **Work in Progress** state.
 
-</td></tr><tr><td id="d125585e118">
+</td></tr><tr><td id="d126983e118">
 
 **When you’re working on the task**
 
@@ -58,7 +58,7 @@ Select **Start Work**. \[Omitted image "pm-task-start-work.png"\] Alt text: star
 
 Select **Re-asses**.\[Omitted image "pm-task-reassess.png"\] Alt text: re-assess stateThe state of the problem task changes from **Work in Progress** back to **Assess**.
 
-</td></tr><tr><td id="d125585e143">
+</td></tr><tr><td id="d126983e143">
 
 **When you don’t want to work on the task, for example, the problem task is a duplicate or no longer needed**
 
@@ -72,5 +72,5 @@ Select **Cancel**. \[Omitted image "pm-task-cancel.png"\] Alt text: cancel state
 
 Complete the problem task as resolved.
 
-**Parent Topic:**[Managing Problems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/problem-mgmt-lifecycle.md)
+**Parent Topic:**[Managing Problems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/problem-mgmt-lifecycle.md)
 

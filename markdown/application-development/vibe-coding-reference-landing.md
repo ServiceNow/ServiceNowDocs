@@ -3,9 +3,9 @@ title: Agentic development reference
 description: Find reference material for agentic development on the ServiceNow AI Platform, including a list of tools and prompt examples.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/vibe-coding-reference-landing.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [reference]
 breadcrumb: [Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
@@ -15,10 +15,10 @@ breadcrumb: [Agentic development, Agentic development on the ServiceNow AI Platf
 
 Find reference material for agentic development on the ServiceNow AI Platform, including a list of tools and prompt examples.
 
--   **[ServiceNow Otto skills: Developer-oriented list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-skills-list-2.md)**  
+-   **[ServiceNow Otto skills: Developer-oriented list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vibe-coding-skills-list-2.md)**  
 The ServiceNow AI Platform offers a range of skills that support efficiency in each development workflow.
--   **[Example prompts for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-example-prompts.md)**  
+-   **[Example prompts for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vibe-coding-example-prompts.md)**  
 Use these example prompts to build data models, implement security, create business rules, and generate user interfaces when building an app with ServiceNow AI Platform agentic development tools.
 
-**Parent Topic:**[Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-landing.md)
+**Parent Topic:**[Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vibe-coding-landing.md)
 

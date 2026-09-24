@@ -3,11 +3,11 @@ title: Mobile experience for Change Management
 description: Manage your change tasks from anywhere using the Mobile Agent mobile application. With this mobile application, you can stay connected and access the information in real time to complete your tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/mobile-experience-cm.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Change Management, IT Service Management]
 ---
@@ -25,10 +25,10 @@ As an ITSM agent or technician, you can use Mobile Agent when connected online t
 
 Watch this three-minute video to learn about the Mobile Agent for managing change tasks.
 
--   **[Download the Mobile Agent mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/configure-servicenow-agent.md)**  
+-   **[Download the Mobile Agent mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/configure-servicenow-agent.md)**  
 Access Mobile Agent on your mobile device to manage your change tasks.
--   **[Get started with Change Management mobile tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/getting-started-with-changetasks.md)**  
+-   **[Get started with Change Management mobile tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/getting-started-with-changetasks.md)**  
 Access Mobile Agent on your mobile device to manage change tasks.
 
-**Parent Topic:**[Using Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/using-change-management.md)
+**Parent Topic:**[Using Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/using-change-management.md)
 

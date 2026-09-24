@@ -3,9 +3,9 @@ title: Product use case catalog
 description: Define how a product solves a problem by creating use cases in the product use case catalog. Document process flow, ownership, complexity, audience, and industry context, then map use cases to product models.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-product-use-case.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Customer success, Explore, Customer Success Management]
 ---
@@ -34,12 +34,12 @@ The Industry and Audience type fields define which customer segments and vertica
 
 The Customer Discovery Hub depends on the product use case catalog. When customer success teams create customer use cases, they specify an alignment to supported use cases from this catalog. This alignment determines whether and how many Supported Use Cases must be linked.
 
-For more information on customer use cases and how they align to supported use cases, see [Customer Discovery Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-customer-discovery-hub.md).
+For more information on customer use cases and how they align to supported use cases, see [Customer Discovery Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-customer-discovery-hub.md).
 
 **Related topics**  
 
 
-[Customer Discovery Hub tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-cust-dh-tables.md)
+[Customer Discovery Hub tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-cust-dh-tables.md)
 
-[Supported use case table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-product-uc-tables.md)
+[Supported use case table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-product-uc-tables.md)
 

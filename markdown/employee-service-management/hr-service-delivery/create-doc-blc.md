@@ -3,11 +3,11 @@ title: Create document blocks in Document Templates
 description: Create document blocks that you can use in multiple HTML templates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/create-doc-blc.html
-release: australia
+release: brazil
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Document blocks in Document Templates, Document Templates of type HTML, Configuring Document Templates, Document Templates, HR Documents, HR Service Delivery, Employee Service Management]
 ---
@@ -90,6 +90,6 @@ More information about the document template block.
 
 ## What to do next
 
-1.  Add content to the document template block. For more information, see [Create block content in Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/create-doc-blc-cnt.md).
+1.  Add content to the document template block. For more information, see [Create block content in Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/create-doc-blc-cnt.md).
 2.  View the HTML document templates which contain the document blocks.
 

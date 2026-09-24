@@ -3,11 +3,11 @@ title: Create a contract configuration
 description: Define the contract repository where the contracts will be stored and map the data to be added to the contract or amendment document.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-contract-config.html
-release: australia
+release: brazil
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -18,11 +18,11 @@ Define the contract repository where the contracts will be stored and map the da
 
 ## Before you begin
 
-A contract template and a template rule that will pick the template when the user submits a contract or amendment request must exist. For more information, see [Configure templates for a contract and amendment request in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-document-templates.md) and [Configure contract template rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-config-template-rules.md).
+A contract template and a template rule that will pick the template when the user submits a contract or amendment request must exist. For more information, see [Configure templates for a contract and amendment request in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cncore-document-templates.md) and [Configure contract template rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cncore-config-template-rules.md).
 
 You can distinguish configurations for an amendment request from those for a new contract by using the **Request type** selection.
 
-If you want the variables related to the contract request to be available in condition builder, add the contract request reference to your application table. For more information, see [Enable contract request fields in condition builders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-add-cmr-condtion-build.md)
+If you want the variables related to the contract request to be available in condition builder, add the contract request reference to your application table. For more information, see [Enable contract request fields in condition builders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cncore-add-cmr-condtion-build.md)
 
 For a request:
 
@@ -51,7 +51,7 @@ Third party contracts already have a default contract configuration in the base 
 
 3.  On the Contract Configuration form, fill in the fields.
 
-    For more information, see [Contract Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-contract-config-form.md).
+    For more information, see [Contract Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cncore-contract-config-form.md).
 
 4.  Select **Save**.
 
@@ -63,15 +63,15 @@ Third party contracts already have a default contract configuration in the base 
 
     The fields on the form change depending on the selection.
 
-<table id="choicetable_grz_dw5_yxb"><thead><tr><th align="left" id="d84365e214">
+<table id="choicetable_grz_dw5_yxb"><thead><tr><th align="left" id="d84757e218">
 
 Mapping type
 
-</th><th align="left" id="d84365e217">
+</th><th align="left" id="d84757e221">
 
 Fields available
 
-</th></tr></thead><tbody><tr><td id="d84365e223">
+</th></tr></thead><tbody><tr><td id="d84757e227">
 
 **Field mapping - Map fields from the request table to the fields in the contract repository table.**
 
@@ -85,7 +85,7 @@ Fields available
 
 **Note:** This option is available only when the **Request type** is set to Amendment in the contract configuration and it isn’t selected by default.
 
-</td></tr><tr><td id="d84365e271">
+</td></tr><tr><td id="d84757e275">
 
 **Template mapping- Map the template mappings of a contract template to the fields in the contract repository.**
 
@@ -98,7 +98,7 @@ Fields available
 
 **Note:** This option is available only when the **Request type** is set to Amendment in the contract configuration and it isn’t selected by default.
 
-</td></tr><tr><td id="d84365e311">
+</td></tr><tr><td id="d84757e315">
 
 **Template mapping- Map variables of record producer to the fields in the contract repository table.**
 

@@ -3,9 +3,9 @@ title: Data management for Customer Service Management
 description: Data management refers to the processes and tools used to collect, organize, secure, and use customer-related data effectively so that support teams can deliver better service experiences. You can give your managers and agents a comprehensive view of customer data, including account and contact or consumer details, products and services, assets, contracts, and entitlements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-data-management.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Explore, Customer Service Management]
 ---
@@ -42,7 +42,7 @@ The following key elements form the foundation of effective data management in C
 
 Different business models are available to support your goals and business needs in the Customer Service Management application. The business models vary depending on the products, services, and support that you provide to your customers. With the correct model for your business, you can answer queries, solve issues, and provide consistent and high-quality service that focuses on increasing your customer satisfaction.
 
-To learn more about the customer service business model, see [Customer service business models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-data-models.md).
+To learn more about the customer service business model, see [Customer service business models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-service-data-models.md).
 
 ## Customer data
 
@@ -51,7 +51,7 @@ Customer data includes information about the customers who are external to your 
 -   B2B: In the business-to-business \(B2B\) business model, customer data includes details about accounts and contacts.
 -   B2C: In the business-to-consumer \(B2C\) business model, it includes details about consumers and households.
 
-To learn more about the customer data, see [Customer data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-data.md).
+To learn more about the customer data, see [Customer data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-data.md).
 
 ## Product data
 
@@ -64,33 +64,33 @@ Product data includes information about the products and services that your orga
 
 When assisting customers, your agents can use product data to link the correct product to a case, access-related knowledge articles, and review previous resolutions.
 
-To learn more about the product data, see [Product data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/product-data.md).
+To learn more about the product data, see [Product data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/product-data.md).
 
 ## Contributor users
 
 Contributor users enable both internal and external users to assist in resolving customer issues and requests. For example, a field technician, partner, or third-party supplier can be added to a case as a contributor.
 
-To learn more about the contributor users, see [Contributor users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-contributor-users.md).
+To learn more about the contributor users, see [Contributor users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-service-contributor-users.md).
 
 ## Service Model Foundation
 
-Service Model Foundation refers to a set of pre-designed business and technical data frameworks that helps set up and manage how services are delivered and supported, confirming consistency and efficiency in handling customer and operational requests. It provides a standardized way to configure, monitor, and support service requests, incidents, cases, and workflows across various business locations or service organizations.
+Service Model Foundation refers to a set of pre-designed business and technical data frameworks. It helps set up and manage how services are delivered and supported, confirming consistency and efficiency in handling customer and operational requests. It provides a standardized way to configure, monitor, and support service requests, incidents, cases, and workflows across various business locations or service organizations.
 
-To learn how to configure Service Model Foundation, see the [Configure Service Model Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-industry-data-model.md).
+To learn how to configure Service Model Foundation, see the [Configure Service Model Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-industry-data-model.md).
 
-For guidance on using the BLSP portal to add staff to your business organization \(formerly business location\), create cases, work orders, and more, refer to the [Using the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-blsp-portal.md).
+For guidance on using the BLSP portal to add staff to your business location, create cases, work orders, and more, refer to the [Using the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/using-blsp-portal.md).
 
 ## Internal user data
 
 Internal user data includes the information about the people within your organization, such as managers, agents, and other employees. Internal users can be grouped into teams and assigned roles to manage cases, resolve issues, and interact with customers.
 
-To learn more about the internal user data, see [Internal user data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-internal-user-data.md).
+To learn more about the internal user data, see [Internal user data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-service-internal-user-data.md).
 
 ## Business stakeholders for Customer Service Management
 
 Business stakeholders are internal users who directly influence customer service processes. They can create, view, and approve cases and requests, confirming that customer support aligns with business priorities.
 
-To learn more about the business stakeholders, see [Business Stakeholder for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/business-stakeholder-for-csm.md).
+To learn more about the business stakeholders, see [Business Stakeholder for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/business-stakeholder-for-csm.md).
 
 ## Customer Access Management
 
@@ -98,11 +98,11 @@ Customer access management \(CAM\) enables related parties \(contacts, consumers
 
 For example, a consumer can log a case about a product, while an associated contact at the same household can track and update the case.
 
-To learn more about customer access management, see [Configuring customer access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configuring-cam.md) and [Using customer access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-cam.md).
+To learn more about customer access management, see [Configuring customer access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configuring-cam.md) and [Using customer access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/using-cam.md).
 
 ## Install Base Management
 
-Install base management captures details of a customer’s purchased or installed products. It enables you to:
+Install base management captures details of a customer’s purchased or installed products. Activating the Customer Install Base Management \(com.snc.install\_base\) plugin enables you to:
 
 -   Track products and services at different customer locations
 -   Enable up-sell and cross-sell opportunities
@@ -111,5 +111,5 @@ Install base management captures details of a customer’s purchased or installe
 
 For example, in the banking industry, an install base could include automated teller machines \(ATMs\). If an ATM at a grocery store fails, a repair request can be created and tracked against the installed base record.
 
-To learn more about install base management, see [Configure install base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-install-base.md).
+To learn more about install base management, see [Configure install base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-install-base.md).
 

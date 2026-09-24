@@ -3,12 +3,12 @@ title: Zing filters search results with access controls
 description: Zing filters search results to only display records the user can access.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/zing-filters-search-results.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Zing text indexing and search engine, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -24,7 +24,7 @@ When a system administrator searches for the same property, Zing returns search 
 
 \[Omitted image "SystemAdministratorSearch.png"\] Alt text: Search results for system administrator search in System Property table.
 
-**Parent Topic:**[Zing text indexing and search engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_ZingTextSearch.md)
+**Parent Topic:**[Zing text indexing and search engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/c_ZingTextSearch.md)
 
 **Related topics**  
 
@@ -50,6 +50,8 @@ When a system administrator searches for the same property, Zing returns search 
 [Zing can expand search results with synonyms]()
 
 [Zing displays search suggestions as users enter search terms]()
+
+[Verify that user roles have access to your searchable tables]()
 
 [Installed with Zing]()
 

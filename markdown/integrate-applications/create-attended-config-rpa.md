@@ -3,9 +3,9 @@ title: Create an attended configuration record in RPA Hub
 description: Create an attended configuration record in RPA Hub to trigger an attended bot process that is enabled with embedded task automation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-attended-config-rpa.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Embedded Task Automation \(ETA\), Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,13 +16,13 @@ Create an attended configuration record in RPA Hub to trigger an attended bot pr
 
 ## Before you begin
 
-Familiarize yourself with Embedded Task Automation concepts. For more information, see [Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/embedded-task-auto-rpa.md).
+Familiarize yourself with Embedded Task Automation concepts. For more information, see [Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/embedded-task-auto-rpa.md).
 
-Verify that you’ve completed the tasks that are related to configuring the Embedded Task Automation in RPA Hub. For more information, see [List of steps for configuring embedded task automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/list-steps-eta-rpa.md).
+Verify that you’ve completed the tasks that are related to configuring the Embedded Task Automation in RPA Hub. For more information, see [List of steps for configuring embedded task automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/list-steps-eta-rpa.md).
 
-Create an attended bot process. For more information about creating an attended bot process, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess.md).
+Create an attended bot process. For more information about creating an attended bot process, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-botprocess.md).
 
-Verify that the **Enable Embedded Task Automation** check box is selected in the associated attended bot process form. For more information about the bot process form, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/select-botprocess.md).
+Verify that the **Enable Embedded Task Automation** check box is selected in the associated attended bot process form. For more information about the bot process form, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/select-botprocess.md).
 
 Verify that the Robotic Process Automation \(RPA\) developer \(sn\_rpa\_fdn.rpa\_developer\) is in the Managed by Group list of the associated bot process.
 
@@ -36,15 +36,15 @@ Role required: sn\_rpa\_fdn.rpa\_release\_manager, sn\_rpa\_fdn.rpa\_developer, 
 
 3.  Create an attended configuration record from either the menu list or from an attended bot process record's related list.
 
-<table id="choicetable_fr4_mn2_vzb"><thead><tr><th align="left" id="d267834e160">
+<table id="choicetable_fr4_mn2_vzb"><thead><tr><th align="left" id="d265925e160">
 
 Option
 
-</th><th align="left" id="d267834e163">
+</th><th align="left" id="d265925e163">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d267834e169">
+</th></tr></thead><tbody><tr><td id="d265925e169">
 
 **Create an attended configuration record from the menu list**
 
@@ -54,7 +54,7 @@ Action
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d267834e199">
+</td></tr><tr><td id="d265925e199">
 
 **Create an attended configuration record from an attended bot process record's related list**
 
@@ -68,30 +68,30 @@ Action
 </td></tr></tbody>
 </table>4.  On the Attended Configuration form, fill in the fields.
 
-    For more information, see [Attended Configuration form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/attended-config-form-rpa.md).
+    For more information, see [Attended Configuration form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/attended-config-form-rpa.md).
 
 5.  Select **Save**.
 
 
--   **[Map a table field to a bot process field parameter in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-field-param-mapping-rpa.md)**  
+-   **[Map a table field to a bot process field parameter in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-field-param-mapping-rpa.md)**  
 Map form fields of the associated attended configuration table \(**Table** field\) to the process field parameters used in the automations. For example, if "`First name`" is the process field parameter used in the automation, then it’s mapped to the form's '`requested_for.first_name`' field.
 
-**Parent Topic:**[Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/embedded-task-auto-rpa.md)
+**Parent Topic:**[Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/embedded-task-auto-rpa.md)
 
 **Related topics**  
 
 
-[Attended Configuration form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/attended-config-form-rpa.md)
+[Attended Configuration form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/attended-config-form-rpa.md)
 
-[Activate an attended configuration record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/activate-attend-config-rpa.md)
+[Activate an attended configuration record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/activate-attend-config-rpa.md)
 
-[Deactivate an attended configuration record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/deactivate-attend-config-rpa.md)
+[Deactivate an attended configuration record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/deactivate-attend-config-rpa.md)
 
-[Delete an attended configuration record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/delete-attended-config-rpa.md)
+[Delete an attended configuration record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/delete-attended-config-rpa.md)
 
-[Create a process field parameter in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-process-field-param-rpa.md)
+[Create a process field parameter in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-process-field-param-rpa.md)
 
-[Invoke Embedded Task Automation via API in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-button-att-config-rpa.md)
+[Invoke Embedded Task Automation via API in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-button-att-config-rpa.md)
 
-[Conditions for the visibility of UI action \(button\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/visibility-cond-button-rpa.md)
+[Conditions for the visibility of UI action \(button\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/visibility-cond-button-rpa.md)
 

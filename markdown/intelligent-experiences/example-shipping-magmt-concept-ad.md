@@ -3,11 +3,11 @@ title: Example: Automate shipping management tasks using AI Desktop Actions
 description: Automate various tasks related to shipping management through desktop actions using AI Desktop Actions and AI agents.Automate various tasks related to shipping management through desktop actions in AI Desktop Actions.Create an AI agent in AI Agent Studio and add desktop action tools for Shipping Management task automation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/example-shipping-magmt-concept-ad.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-05-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
-breadcrumb: [Desktop action examples, AI Desktop Actions, Enable AI experiences]
+breadcrumb: [Desktop action examples, AI Desktop Actions, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Example: Automate shipping management tasks using AI Desktop Actions
@@ -26,8 +26,8 @@ Automate various tasks related to shipping management through desktop actions in
 
 To access the AI Desktop Actions functionality, perform the following steps:
 
--   Enable AI Desktop Actions on your ServiceNow instance. For more information, see [Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-agentic-desktop.md).
--   Download the AI Desktop Actions installer to automate repetitive tasks across applications and systems. For more information, see [Download AI Desktop Actions installer for defined desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/download-agentic-desktop-installer.md).
+-   Enable AI Desktop Actions on your ServiceNow instance. For more information, see [Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-agentic-desktop.md).
+-   Download the AI Desktop Actions installer to automate repetitive tasks across applications and systems. For more information, see [Download AI Desktop Actions installer for defined desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/download-agentic-desktop-installer.md).
 
 Confirm that the following system requirements are met:
 
@@ -36,7 +36,7 @@ Confirm that the following system requirements are met:
 -   No extended monitors are connected.
 -   Theme must match between the systems used for recording and execution.
 
-Familiarize yourself with the Design workspace and Action recorder. For more information, see [AI Desktop Actions Design workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/agentic-desktop-overview.md) and [Action recorder in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/action-recorder-ad.md).
+Familiarize yourself with the Design workspace and Action recorder. For more information, see [AI Desktop Actions Design workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/agentic-desktop-overview.md) and [Action recorder in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/action-recorder-ad.md).
 
 Role required: sn\_aia.admin
 
@@ -80,7 +80,7 @@ Role required: sn\_aia.admin
 
         \[Omitted image "design-tab-manual-ad.png"\] Alt text: Design workspace displaying two options: Auto-capture with recorder and Manual capture screens.
 
-        You can also extend the desktop action logic using the **Record with AI \(Recommended\)** or **Auto capture with recorder** options. For more information, see [Automate repetitive tasks by recording steps with AI in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/record-with-ai-ad.md) and [Automate repetitive tasks by auto-capturing steps in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/auto-create-desktop-action-ad.md).
+        You can also extend the desktop action logic using the **Record with AI \(Recommended\)** or **Auto capture with recorder** options. For more information, see [Automate repetitive tasks by recording steps with AI in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/record-with-ai-ad.md) and [Automate repetitive tasks by auto-capturing steps in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/auto-create-desktop-action-ad.md).
 
         The AI Desktop Actions window is minimized and the Capture panel is launched.
 
@@ -145,7 +145,7 @@ Role required: sn\_aia.admin
 
 10. Configure the properties for added screens, anchors, and steps in the Properties panel.
 
-    For more information, see [Screen, anchor, and step properties in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/screen-anchor-and-action-properties-ad.md).
+    For more information, see [Screen, anchor, and step properties in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/screen-anchor-and-action-properties-ad.md).
 
 11. Modify the auto-generated names for all added screens, anchors, and steps.
 
@@ -165,7 +165,7 @@ Role required: sn\_aia.admin
 
 15. Test and activate the desktop action.
 
-    For more information, see [Test and activate a desktop action in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-activate-desktop-action-ad.md).
+    For more information, see [Test and activate a desktop action in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-activate-desktop-action-ad.md).
 
 16. Similarly, create and activate the **Shipping Management login** desktop action.
 
@@ -301,11 +301,11 @@ List of steps
 
 6.  Complete the remaining steps that are necessary.
 
-    For more information, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md).
+    For more information, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-next-best-action-agent.md).
 
 7.  Select **Save and test** to complete the configuration steps or review a previous step by selecting **Back**.
 
-    Selecting Save and test leads you to the AI agent testing page, where you can test the AI agent that you created. For more information, see [Manually test the execution of an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-ai-agent.md).
+    Selecting Save and test leads you to the AI agent testing page, where you can test the AI agent that you created. For more information, see [Manually test the execution of an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-ai-agent.md).
 
     To test the AI agent, you must have the sn\_aia.admin role and any roles the ACLs configured for the AI agent and its tools require, if applicable.
 
@@ -314,5 +314,5 @@ List of steps
 
 Enable shipping coordinators to trigger AI agents from the ServiceNow Otto panel to enter data automatically into the Shipping Management application.
 
-For more information, see [Example: Use AI agents to automatically enter data into the shipping management app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/example-use-shipping-ai-agent-ad.md).
+For more information, see [Example: Use AI agents to automatically enter data into the shipping management app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/example-use-shipping-ai-agent-ad.md).
 

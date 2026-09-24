@@ -3,11 +3,11 @@ title: Update cloud account details
 description: Keep account details up to date so you can identify and resolve policy violations effectively.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/update-account-ownership.html
-release: australia
+release: brazil
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Cloud Workspace Account Details, Cloud Workspace Ownership]
 breadcrumb: [Managing cloud accounts, Use, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]

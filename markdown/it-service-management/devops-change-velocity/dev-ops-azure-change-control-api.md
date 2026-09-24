@@ -3,11 +3,11 @@ title: Configuring change control using the Azure Invoke REST API
 description: You can use the Azure Invoke REST API in your YAML or Classic Azure pipeline to configure change control for DevOps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/dev-ops-azure-change-control-api.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring the Azure pipeline for DevOps, Azure DevOps, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -107,5 +107,5 @@ For a Classic Azure pipeline, an Invoke REST API server task must be added.
 
 \[Omitted image "dev-ops-azure-api-chg-rel-classic.png"\] Alt text: DevOps Azure classic release pipeline
 
-**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/azure-devops-integration-dev-ops.md)
+**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/azure-devops-integration-dev-ops.md)
 

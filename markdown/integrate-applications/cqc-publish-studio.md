@@ -3,9 +3,9 @@ title: Code quality check compliance for RPA Desktop Design Studio
 description: View a list of compliance rules that the Code Quality Check feature follows if a package is published from RPA Desktop Design Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/cqc-publish-studio.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Code quality check, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -26,16 +26,16 @@ View a list of compliance rules that the Code Quality Check feature follows if a
 |Pass|Error or Warning|Success|
 |Pass|No restriction|Success|
 
-**Parent Topic:**[Code quality check in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/code-quality-check-rpa.md)
+**Parent Topic:**[Code quality check in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/code-quality-check-rpa.md)
 
 **Related topics**  
 
 
-[Publish an automation project in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/publish-automation-project.md)
+[Publish an automation project in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/publish-automation-project.md)
 
-[Code quality check in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/code-quality-check-studio.md)
+[Code quality check in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/code-quality-check-studio.md)
 
-[Code quality check compliance for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/cqc-publish-rpa-hub.md)
+[Code quality check compliance for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/cqc-publish-rpa-hub.md)
 
-[Code quality check in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/code-quality-check-rpa.md)
+[Code quality check in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/code-quality-check-rpa.md)
 

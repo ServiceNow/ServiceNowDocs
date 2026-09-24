@@ -3,13 +3,13 @@ title: Submit your app for approval and publishing
 description: Start the process of getting the application you built in App Engine Studio \(AES\) published by submitting it for administrator review.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/submit-for-approval.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Publish your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Publish your app, Build, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Submit your app for approval and publishing
@@ -51,10 +51,10 @@ If the application passes testing, the administrator publishes the application a
 
 \[Omitted image "published-status.png"\] Alt text: Status is "Published"
 
-**Parent Topic:**[Publish your app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/publish-your-app.md)
+**Parent Topic:**[Publish your app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/publish-your-app.md)
 
 **Related topics**  
 
 
-[Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md)
+[Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md)
 

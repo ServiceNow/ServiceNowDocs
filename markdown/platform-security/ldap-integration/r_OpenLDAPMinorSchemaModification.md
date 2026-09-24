@@ -3,11 +3,11 @@ title: OpenLDAP minor schema modification
 description: In OpenLDAP 2.3 systems that use the back-bdb \(Berkley backend\), administrators make a minor modification to their schema to facilitate the integration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/r\_OpenLDAPMinorSchemaModification.html
-release: australia
+release: brazil
 product: LDAP integration
 classification: ldap-integration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [LDAP integration, Authentication, Access Management]
 ---

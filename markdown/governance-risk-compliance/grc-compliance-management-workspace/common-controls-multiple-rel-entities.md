@@ -3,11 +3,11 @@ title: Testing common control and implementing results
 description: Instead of generating controls for individual entities and testing each entity separately with an individual control, you can use a common control and associate a primary entity to it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/common-controls-multiple-rel-entities.html
-release: australia
+release: brazil
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage controls using the Compliance Workspace, Use, GRC Compliance workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -36,10 +36,10 @@ Requirements and use case:
 
 For more information, see:
 
--   [Tables installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/r_InstallWPolAndCompl.md) for descriptions of the common item m2m tables.
--   [Control form changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/create-control-ws.md) with respect to common controls.
--   [Convert standard control to common control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/convert-standard-control-common.md) to add reliant entities.
--   [Action handler components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/components-item-gen-process.md) for common controls.
--   [Operational changes in item generation of common controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/item-gen-action-types.md).
--   [Impact of common control on compliance score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/compliance-score-common-control.md).
+-   [Tables installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/r_InstallWPolAndCompl.md) for descriptions of the common item m2m tables.
+-   [Control form changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-compliance-management-workspace/create-control-ws.md) with respect to common controls.
+-   [Convert standard control to common control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-compliance-management-workspace/convert-standard-control-common.md) to add reliant entities.
+-   [Action handler components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/components-item-gen-process.md) for common controls.
+-   [Operational changes in item generation of common controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/item-gen-action-types.md).
+-   [Impact of common control on compliance score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-compliance-management-workspace/compliance-score-common-control.md).
 

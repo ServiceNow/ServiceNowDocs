@@ -3,13 +3,13 @@ title: Add a task to a freeform Visual Task Board from a list
 description: You can add a task card to a freeform board from any table that extends Task. These cards represent records on whichever table you add them from.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/t\_AddATaskToAFreeformBoardFromAList.html
-release: australia
+release: brazil
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Freeform Visual Task Boards, Creating Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Freeform Visual Task Boards, Creating Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Add a task to a freeform Visual Task Board from a list
@@ -30,7 +30,7 @@ You can add cards from multiple task tables, such as Incident or Problem, to the
 
 2.  Perform either of the following actions.
 
-<table id="choicetable_vpk_rrn_jq"><tbody><tr><td id="d55919e84">
+<table id="choicetable_vpk_rrn_jq"><tbody><tr><td id="d56758e84">
 
 **Add one task**
 
@@ -38,7 +38,7 @@ You can add cards from multiple task tables, such as Incident or Problem, to the
 
 Right-click a record and select **Add to Visual Task Board**.
 
-</td></tr><tr><td id="d55919e96">
+</td></tr><tr><td id="d56758e96">
 
 **Add multiple tasks**
 
@@ -58,5 +58,5 @@ Right-click a record and select **Add to Visual Task Board**.
     The task appears in the first lane by default.
 
 
-**Parent Topic:**[Freeform Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/c_FreeformBoardTasks.md)
+**Parent Topic:**[Freeform Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/visual-task-boards/c_FreeformBoardTasks.md)
 

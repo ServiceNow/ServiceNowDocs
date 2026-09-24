@@ -3,11 +3,11 @@ title: Installed with Change Management - Change Schedule
 description: Several types of components are installed with the Change Management - Change Schedule.Plugins are added with activation of Change Management - Change Schedule.Roles are added with activation of Change Management - Change Schedule.Tables are added with activation of Change Management - Change Schedule.Properties are added with activation of Change Management - Change Schedule.Business rules are added with activation of Change Management - Change Schedule.UI policies are added with activation of Change Management - Change Schedule.Script includes are added with activation of Change Management - Change Schedule.UI scripts are added with activation of Change Management - Change Schedule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/installed-cm-changeschedule.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Activate Change Management - Change Schedule, Change Management plugins, Configure, Change Management, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Activate Change Management - Change Schedule, Change Management plu
 
 Several types of components are installed with the Change Management - Change Schedule.
 
-**Parent Topic:**[Activate Change Management - Change Schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/activate-changemgmt-changeschedule.md)
+**Parent Topic:**[Activate Change Management - Change Schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/activate-changemgmt-changeschedule.md)
 
 ## Plugins installed with Change Management - Change Schedule
 

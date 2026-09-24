@@ -3,11 +3,11 @@ title: Import messages from an incident
 description: You can import messages from a slack channel for an incident and append them in the Comments to store all important messages in the ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/collaboration-services/import-messages-from-incident.html
-release: australia
+release: brazil
 product: Collaboration Services
 classification: collaboration-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Collaboration services, IT Service Management]
 ---

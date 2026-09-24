@@ -3,11 +3,11 @@ title: Import data from XML
 description: After you have successfully exported data from the source instance to XML, import the XML file directly to the target instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/import-xml-file.html
-release: australia
+release: brazil
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exporting and importing data via XML, Exporting data, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -43,5 +43,5 @@ Importing XML doesn't trigger business rules or update the instance cache.
 
 Data is imported into the target instance.
 
-If the data doesn't import, navigate to **System Definition** &gt; **Tables &amp; Columns** and verify that the table from which the data was exported also exists in the target instance. If the table doesn't exist, you can move it using an update set. For details on using update sets, see [Get started with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/get-started-update-sets.md).
+If the data doesn't import, navigate to **System Definition** &gt; **Tables &amp; Columns** and verify that the table from which the data was exported also exists in the target instance. If the table doesn't exist, you can move it using an update set. For details on using update sets, see [Get started with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/get-started-update-sets.md).
 

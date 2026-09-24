@@ -2,7 +2,7 @@
 title: Option 1: Using OAuth authentication
 description: Integrate the ServiceNow instance with your UiPath account using OAuth to authenticate ServiceNow requests.
 locale: en-US
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

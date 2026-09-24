@@ -3,11 +3,11 @@ title: Task attributes in Create logical connection form
 description: The Task attributes in Create logical connection form enables you to create a logical connection between network interfaces in the Telecommunications Network Inventory application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/task-attributes-create-logical-connection-form.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
@@ -105,10 +105,10 @@ Parent Port Z
 Network interface on which new logical interface is representing the **Port Z** of the connection.**Note:** A new logical interface is created by default based on the selected logical/physical connection model and is populated in the port Z field under **Configuration** section logical or physical connection. The logical interface indicates the port name and number of child ports plus one of the selected ports.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
+</table>**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
 
 **Related topics**  
 
 
-[Create logical connection record using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-logical-connection-record-using-design-assign.md)
+[Create logical connection record using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/create-logical-connection-record-using-design-assign.md)
 

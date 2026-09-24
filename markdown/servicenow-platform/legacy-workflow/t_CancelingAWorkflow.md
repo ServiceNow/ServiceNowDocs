@@ -3,11 +3,11 @@ title: Cancel a workflow
 description: Canceling a workflow stops the workflow from executing and sets the workflow context State to Canceled. To cancel an executing workflow, you can use the cancelContext\(context\) script. You can define an onCancel script to clean up unresolved workflow activities.To cancel an executing workflow, you can use the cancelContext\(context\) script. This script can be useful in cases where a workflow must be canceled in response to an event or where a user must manually cancel a workflow.Canceling a workflow can leave records or scripts in an unresolved state. For example, canceling a service catalog workflow may leave catalog items in the requesting user's cart. An administrator can specify an On-cancel script that runs when the workflow transitions to the Canceled state. This script can notify users, log information, or resolve the state of any scripts run within a workflow activity. The sys\_id of the workflow context is available in this script using the context\_sys\_id variable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/t\_CancelingAWorkflow.html
-release: australia
+release: brazil
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: task
-last_updated: "2026-07-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Administering workflow contexts, Workflow administration, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,7 +32,7 @@ Canceling a workflow attempts to stop the workflow gracefully by injecting a can
 
 3.  Configure form layout to add **On-cancel script** field to form.
 
-    For detailed information about configuring form layout, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+    For detailed information about configuring form layout, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).
 
 4.  Select the **Cancel** related link.
 
@@ -55,7 +55,7 @@ Canceling a workflow attempts to stop the workflow gracefully by injecting a can
     **Warning:** Whenever possible, allow a workflow to cancel gracefully. Forcing a workflow to cancel can leave related workflows and scripts in an unresolved state. You can use an on-cancel script to clean up unresolved artifacts from a cancelled workflow.
 
 
-**Parent Topic:**[Administering workflow contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/r_AdministeringWorkflowContexts.md)
+**Parent Topic:**[Administering workflow contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/legacy-workflow/r_AdministeringWorkflowContexts.md)
 
 ## Cancel a workflow with the cancelContext\(context\) script
 
@@ -67,7 +67,7 @@ Role required: admin
 
 ### About this task
 
-For more information, see the [Workflow - cancelContext\(GlideRecord context\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_Workflow_api.md).
+For more information, see the [Workflow - cancelContext\(GlideRecord context\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/c_Workflow_api.md).
 
 ## Define an on-cancel script
 

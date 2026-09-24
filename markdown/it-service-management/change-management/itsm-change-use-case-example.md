@@ -3,11 +3,11 @@ title: Change Management use case
 description: For ITSM, specifically incident and change, identifying the location of critical data can help reduce mean time to resolve incidents and eliminate outages caused by change.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/itsm-change-use-case-example.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Applying CSDM guidelines to Change Management, Configure, Change Management, IT Service Management]
 ---
@@ -57,5 +57,5 @@ Use the Change Request form to see the impact of the change. Complete the follow
 
 [See the video: How Change Management leverages the CSDM](https://www.youtube.com/watch?v=3iCxTeU4ZTA&list=PLkGSnjw5y2U7QNr9jL6TAgwQvYBI_LEtK&index=43)
 
-**Parent Topic:**[Applying CSDM guidelines to Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/itsm-change-use-case-product-view.md)
+**Parent Topic:**[Applying CSDM guidelines to Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/itsm-change-use-case-product-view.md)
 

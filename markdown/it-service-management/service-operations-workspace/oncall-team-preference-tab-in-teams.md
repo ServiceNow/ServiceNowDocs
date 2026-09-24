@@ -3,11 +3,11 @@ title: Edit On-call team preference using Teams menu
 description: Use the Teams menu to edit the on-call preferences for a selected team.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/oncall-team-preference-tab-in-teams.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create notification preference rule, Configuring On-Call Scheduling in Service Operations Workspace, On-Call Scheduling in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -47,5 +47,5 @@ Role required: rota\_manager, rota\_admin
 10. Select **Save**.
 
 
-**Parent Topic:**[Create notification preference rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-notification-preference-rule.md)
+**Parent Topic:**[Create notification preference rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-notification-preference-rule.md)
 

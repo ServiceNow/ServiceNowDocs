@@ -3,11 +3,11 @@ title: Assign work order tasks to crews on Dispatcher Workspace
 description: Assign crews to a work order task that requires a crew of agents in Dispatcher Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/assign-wot-to-crew.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Crew operations, Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
@@ -18,14 +18,14 @@ Assign crews to a work order task that requires a crew of agents in Dispatcher W
 
 ## Before you begin
 
-If you’re scheduling a task across multiple schedule entries or days, a work schedule must have been assigned to the crew. For more information, see [Create a work schedule for agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/create-agent-work-schedule.md).
+If you’re scheduling a task across multiple schedule entries or days, a work schedule must have been assigned to the crew. For more information, see [Create a work schedule for agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-manager-workforce/create-agent-work-schedule.md).
 
 **Note:** If the crew schedule hasn’t been defined and you’re auto-assigning a task, the default schedule is used.
 
 If you want to assign work order tasks to crews in the territories that best match their location, you must enable the following options:
 
--   The Field Service territory model, **Field\_Service\_Territories**. For more information, see [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
--   The **Territory** option in Dispatcher Workspace must be enabled to view the territory information in the task card and the agent card. For more information, see [Enable Dispatcher Workspace settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/dispatcher-wrkspc-settings.md).
+-   The Field Service territory model, **Field\_Service\_Territories**. For more information, see [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
+-   The **Territory** option in Dispatcher Workspace must be enabled to view the territory information in the task card and the agent card. For more information, see [Enable Dispatcher Workspace settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/dispatcher-wrkspc-settings.md).
 
 Role required: wm\_dispatcher
 
@@ -51,7 +51,7 @@ Task assignment methods:
 When scheduling tasks for multiple days:
 
 -   View the crew schedule for a selected time period in the calendar, such as day, work day, week, two weeks, or four weeks. The calendar also displays the assigned task window spanned across multiple days or weeks.
--   View the recommended crews for the task using the **Auto Assign Rules** option. For more information, see [Search for appropriate Field Service agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/search-agents-tasks.md).
+-   View the recommended crews for the task using the **Auto Assign Rules** option. For more information, see [Search for appropriate Field Service agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/search-agents-tasks.md).
 
 ## Procedure
 
@@ -61,7 +61,7 @@ When scheduling tasks for multiple days:
 
 3.  Search for and open the work order task that you want to assign.
 
-    For more information, see [Search for tasks that need a crew on Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/search-crew-task.md).
+    For more information, see [Search for tasks that need a crew on Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/search-crew-task.md).
 
 4.  Select the **Needs Crew** check box if it isn’t already selected.
 
@@ -69,15 +69,15 @@ When scheduling tasks for multiple days:
 
 6.  Assign the crew task.
 
-<table id="choicetable_tv1_54y_xrb"><thead><tr><th align="left" id="d44721e254">
+<table id="choicetable_tv1_54y_xrb"><thead><tr><th align="left" id="d46211e254">
 
 Option
 
-</th><th align="left" id="d44721e257">
+</th><th align="left" id="d46211e257">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d44721e263">
+</th></tr></thead><tbody><tr><td id="d46211e263">
 
 **To assign a task manually**
 
@@ -88,7 +88,7 @@ Description
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d44721e287">
+</td></tr><tr><td id="d46211e287">
 
 **To manually assign a task from the task panel**
 
@@ -100,7 +100,7 @@ Description
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d44721e326">
+</td></tr><tr><td id="d46211e326">
 
 **To auto-assign the task to a crew from the task panel**
 
@@ -111,7 +111,7 @@ Description
 3.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d44721e359">
+</td></tr><tr><td id="d46211e359">
 
 **To auto-assign the task to a crew from the task record**
 
@@ -122,7 +122,7 @@ Description
 3.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d44721e387">
+</td></tr><tr><td id="d46211e387">
 
 **To auto-assign the task to a crew from a list**
 
@@ -134,7 +134,7 @@ Description
 4.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d44721e426">
+</td></tr><tr><td id="d46211e426">
 
 **To manually assign a task from the contextual side panel**
 
@@ -147,7 +147,7 @@ Description
 5.  Select **Save**.
 
 
-</td></tr><tr><td id="d44721e468">
+</td></tr><tr><td id="d46211e468">
 
 **To auto-assign the task to a crew from the contextual side panel**
 

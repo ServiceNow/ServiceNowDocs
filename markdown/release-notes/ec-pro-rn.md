@@ -1,56 +1,45 @@
 ---
 title: Employee Center Pro release notes
-description: The ServiceNow Employee Center Pro application provides a central hub for departmental services with unified system access and actionable content experiences. Employee Center Pro was enhanced and updated in the Australia release.The ServiceNow Employee Center Pro application provides a central hub for departmental services with unified system access and actionable content experiences. Employee Center Pro was enhanced and updated in the Australia release.
+description: The ServiceNow Employee Center Pro application provides a central hub for departmental services with unified system access and actionable content experiences. Employee Center Pro was enhanced and updated in the Brazil release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/ec-pro-rn.html
-release: australia
+release: brazil
 topic_type: topic
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Unified Employee Experience release notes, Employee Service Management release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+breadcrumb: [Unified Employee Experience release notes, Employee Service Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Employee Center Pro release notes
 
-The ServiceNow® Employee Center Pro application provides a central hub for departmental services with unified system access and actionable content experiences. Employee Center Pro was enhanced and updated in the Australia release.
+The ServiceNow® Employee Center Pro application provides a central hub for departmental services with unified system access and actionable content experiences. Employee Center Pro was enhanced and updated in the Brazil release.
 
 ## About Employee Center Pro
 
-Add granular admin roles to the Integrated experience and service feedback functionality to decentralize administrative task management.
+With Employee Center Pro, expand your portal experience beyond service delivery to drive employee engagement and productivity across your organization.
 
-See [Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-center-pro-landing.md) for more information.
+-   Enable employee communication and engagement tools including content publishing, campaigns, and employee communities.
+-   Empower content managers and admins to create and manage employee communications that reach multiple departments and audiences.
+-   Build multi-stage and multi-channel campaigns to amplify your employee messaging and drive organization-wide initiatives.
+-   Deliver a modern, multi-department employee destination site that keeps your workforce connected and informed.
+-   Measure and optimize the impact of your communications and engagement efforts.
+-   Foster stronger employee connections through community-building and collaborative content sharing.
+
+See [Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-center-pro-landing.md) for more information.
+
+-   **[Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/mobile-employee-experience.md)**
+
+    Now Mobile® enables you to manage and create tasks and access other company resources from your mobile device.
+
+    Use Now Mobile® to install the default taxonomy for the employee content store application. This application auto-assigns the employee taxonomy to the Mobile Employee Service portal \(MESP\) record.
+
 
 ## Activation and other requirements
-
-**Important:** Employee Center Pro is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 -   **Activation information**
 
     Install Employee Center Pro by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
--   **Upgrade information**
 
-    The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform®. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see [Configuring read-only security options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/read-only-option.md).
-
-
-**Parent Topic:**[Unified Employee Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/uex-rn-landing.md)
-
-## Australia
-
-The ServiceNow® Employee Center Pro application provides a central hub for departmental services with unified system access and actionable content experiences. Employee Center Pro was enhanced and updated in the Australia release.
-
-### What's new
-
--   **[Integrated experience and service feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/ex-fdback-ovrvw.md)**
-
-    Add granular admin roles to the Integrated experience and service feedback functionality to decentralize administrative task management.
-
--   **[ServiceNow Otto Chat Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/moveworks-for-employeecenter.md)**
-
-    Empower employees with Moveworks for Employee Center and its AI-powered conversational support. Using the Moveworks embedded AI assistant plugin, your employees can ask questions, get instant answers, and complete tasks end-to-end from Employee Center and Employee Center Pro.
-
--   **[Quick start tests for Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/quick-start-tests-employee-center-pro.md)**
-
-    After upgrades and deployments of new applications or integrations, run quick start tests to verify that Employee Center Pro works as expected. If you customized Employee Center Pro, copy the quick start tests and configure them for your customizations.
-
+**Parent Topic:**[Unified Employee Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/uex-rn-landing.md)
 

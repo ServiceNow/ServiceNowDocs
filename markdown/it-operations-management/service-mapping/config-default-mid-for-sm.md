@@ -3,11 +3,11 @@ title: Configure a default MID Server for Service Mapping for upgraded deploymen
 description: In deployments upgraded to Istanbul or earlier, Service Mapping uses the default MID Server when it cannot find a MID Server with the matching IP range. Configuring a default MID Server improves the discovery process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/config-default-mid-for-sm.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [MID Server configuration for Service Mapping, Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -20,7 +20,7 @@ In deployments upgraded to Istanbul or earlier, Service Mapping uses the default
 
 Role required: service\_mapping\_admin
 
-Perform this procedure only for deployments upgraded to Istanbul or earlier. For fresh installs, perform [Configure a default MID Server for each application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SpecifyMIDServerApplications.md).
+Perform this procedure only for deployments upgraded to Istanbul or earlier. For fresh installs, perform [Configure a default MID Server for each application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_SpecifyMIDServerApplications.md).
 
 Ensure that you know the name of the MID Server you want to configure as the default MID Server for Service Mapping.
 
@@ -52,10 +52,10 @@ In upgraded deployments, Service Mapping selects a MID Server using a legacy alg
 4.  Click **Update**.
 
 
-**Parent Topic:**[MID Server configuration for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/configure-mid-service-mapping.md)
+**Parent Topic:**[MID Server configuration for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/configure-mid-service-mapping.md)
 
 **Related topics**  
 
 
-[MID Server configuration for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/configure-mid-service-mapping.md)
+[MID Server configuration for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/configure-mid-service-mapping.md)
 

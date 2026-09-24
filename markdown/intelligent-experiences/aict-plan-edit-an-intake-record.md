@@ -3,11 +3,11 @@ title: Manage intake records
 description: Update the details of an existing intake record to reflect changes in scope, priority, or other relevant information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-plan-edit-an-intake-record.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Prioritize AI plan intake, Use, Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Enable AI experiences]
+breadcrumb: [Prioritize AI plan intake, Use, Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Manage intake records
@@ -34,9 +34,9 @@ Role required: sn\_ai\_governance.ai\_steward
 
     For field information, see:
 
-    -   [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-plan-demand-form.md)
-    -   [Feedback form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-feedback-form.md)
-    -   [Product idea form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-product-idea-form.md)
+    -   [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-plan-demand-form.md)
+    -   [Feedback form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-feedback-form.md)
+    -   [Product idea form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-product-idea-form.md)
 6.  Select **Update**.
 
     The edited record is displayed in the respective list if it meets the list's display criteria.

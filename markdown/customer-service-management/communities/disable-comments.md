@@ -3,11 +3,11 @@ title: Disable comments
 description: Disable comments on a blog, document, video, event, or question to avoid users from posting comments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/disable-comments.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Moderate a community, Configuring communities, Communities, Customer Service Management]
 ---
@@ -19,6 +19,10 @@ Disable comments on a blog, document, video, event, or question to avoid users f
 ## Before you begin
 
 Role required: sn\_communities.forum\_moderator, sn\_communities.community\_moderator, sn\_communities.moderation\_admin, or sn\_communities.forum\_admin
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## About this task
 
@@ -46,10 +50,10 @@ There are two ways of disabling comments on the community content. You can disab
     A confirmation message appears stating that you have disabled comments. The comments on the existing content are displayed. You can’t edit an existing comment or post a new comment. All community and forum administrators and the content author receive an email notification when you disable or enable comments.
 
 
-**Parent Topic:**[Moderate a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/moderate-communities.md)
+**Parent Topic:**[Moderate a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/moderate-communities.md)
 
 **Related topics**  
 
 
-[Post and respond to content in the community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/post-respond-content.md)
+[Post and respond to content in the community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/post-respond-content.md)
 

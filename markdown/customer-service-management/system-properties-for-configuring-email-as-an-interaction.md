@@ -1,11 +1,11 @@
 ---
 title: System properties for configuring Email Interaction
-description: You can configure system properties to manage Email Interaction workflows, such as interaction creation, closure, rerouting, and reminder or notification settings.
+description: You can manage certain workflows based on system properties, such as enabling or disabling the creation of email interactions for guest users. You can set an inactivity period after which email interactions are automatically closed. Configure the system to create single or multiple outbound email interactions when different agents contact the same customer, enable rerouting, and set reminder periods.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/system-properties-for-configuring-email-as-an-interaction.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Email Interaction for CSM]
 breadcrumb: [Email Interaction, Configure Email, Configure omnichannel, Configure, Customer Service Management]
@@ -13,7 +13,7 @@ breadcrumb: [Email Interaction, Configure Email, Configure omnichannel, Configur
 
 # System properties for configuring Email Interaction
 
-You can configure system properties to manage Email Interaction workflows, such as interaction creation, closure, rerouting, and reminder or notification settings.
+You can manage certain workflows based on system properties, such as enabling or disabling the creation of email interactions for guest users. You can set an inactivity period after which email interactions are automatically closed. Configure the system to create single or multiple outbound email interactions when different agents contact the same customer, enable rerouting, and set reminder periods.
 
 Navigate to **All****&gt;System Properties****&gt;All Properties**.
 
@@ -62,6 +62,18 @@ Specify the default email address for creating email interactions. This can cont
 
 </td></tr><tr><td>
 
+**period\_for\_reminders\_to\_customers\_interaction**
+
+</td><td>
+
+Specify the number of days after which an automatic email reminder is sent to customers. This value determines how long the system waits after receiving the last email response from the customer before sending a reminder. Reminders are sent only on interactions that are on hold. **Note:** The value must be a positive integer. If the value is set to zero or a negative number, the system defaults to 2 days.
+
+-   Type: Integer
+-   Default value: 2
+-   Location: **All** &gt; **System Properties** &gt; **All Properties**.
+
+</td></tr><tr><td>
+
 **sn\_eaai\_csm.email.reroute.enabled**
 
 </td><td>
@@ -92,7 +104,7 @@ Enable rerouting of On Hold email interactions to available agents when the assi
 
 </td></tr><tr><td>
 
-**sn\_eaai\_csm.period\_for\_reminders\_to\_customers\_interaction**
+**period\_for\_reminders\_to\_customers\_interaction**
 
 </td><td>
 
@@ -110,19 +122,9 @@ Enable or disable agent notifications when a customer email reply is linked to t
 -   Default value: true
 -   Location: **All** &gt; **System Properties** &gt; **All Properties**.
 
-</td></tr><tr><td>
-
-**sn\_eaai\_csm.enable\_agent\_initiated\_email**
-
-</td><td>
-
-Enables or disables agent initiated emails for consumer and contact.-   Type: Boolean \(true \| false\)
--   Default value: true
--   Location: **All** &gt; **System Properties** &gt; **All Properties**.
-
 </td></tr></tbody>
 </table>**Related topics**  
 
 
-[Display the most recent reply in the Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-last-viewed-timestamps-activity-stream.md)
+[Display the most recent reply in the Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-last-viewed-timestamps-activity-stream.md)
 

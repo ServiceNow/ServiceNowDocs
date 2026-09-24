@@ -3,11 +3,11 @@ title: User impersonation auditing
 description: User impersonation auditing creates a structured, dedicated audit trail for every impersonation session.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/impersonation-audits.html
-release: australia
+release: brazil
 product: User Administration
 classification: user-administration
 topic_type: concept
-last_updated: "2026-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [user impersonation, auditing, audit trail, security, administrator, session lifecycle, system logs, impersonation session, audit records, transaction logs]
 audience: administrator
@@ -58,5 +58,5 @@ You can use the **Personailze List Columns** options to add more columns to the 
 
 **Note:** Impersonation audit records follow the same retention policy as transaction logs. The default retention period is `seven` days, but this is configurable by a system administrator. Any change to the transaction log retention setting applies equally to impersonation audit records.
 
-**Parent Topic:**[Impersonating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_ImpersonateAUser.md)
+**Parent Topic:**[Impersonating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/c_ImpersonateAUser.md)
 

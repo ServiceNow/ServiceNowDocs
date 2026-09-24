@@ -3,9 +3,9 @@ title: Domain Override Viewer
 description: With the Domain Override Viewer, you can see and manage all your process overrides at once across the entire instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/domain-sep-override-viewer.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setup and administration, Domain separation for service providers, Access Management]
 ---
@@ -24,5 +24,5 @@ Selecting **View Overrides** loads a new tab where all overrides, including the 
 
 **Note:** Only tables with overrides are listed.
 
-To learn more, see [Create domain-separated property overrides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-dom-sep-prop-overrides.md).
+To learn more, see [Create domain-separated property overrides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/create-dom-sep-prop-overrides.md).
 

@@ -3,11 +3,11 @@ title: View a drop off list
 description: Agents can view a consolidated list, grouped by stockroom, of all items that have been added to drop off lists by all agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/t\_ViewADropOffList.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using drop off lists, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---

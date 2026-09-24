@@ -3,11 +3,11 @@ title: Plan calendar
 description: As a planned work administrator or planner, you can manage schedule occurrences and work orders for planned work directly from the calendar. You can review event occurrences, cancel any duplicate work orders, generate new work orders, or make modifications to the schedule occurrences as needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/planning\_calendar\_pwm.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Create a work order for the planned work, Manage work orders, Prepare work orders, Use, Field Service Management]
 ---

@@ -3,11 +3,11 @@ title: Configure the UCF integration using the UCF Common Controls Hub
 description: Compliance administrators can download content from Network Frontiers Unified Compliance Framework \(UCF\) to use as GRC authority documents, citations, controls, and control objectives.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/configure-UCF-integration.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Manage UCF integration, Classic UI, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -72,7 +72,7 @@ Client ID
 
 </td><td>
 
-Enter the Client ID or UCF OAuth Client ID provided by Customer Service and Support. See [Create a Now Support Case for UCF-CCH account integration information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/create-hi-request-ucf-integration.md) for information.
+Enter the Client ID or UCF OAuth Client ID provided by Customer Service and Support. See [Create a Now Support Case for UCF-CCH account integration information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/create-hi-request-ucf-integration.md) for information.
 
  **Note:** Configuration information is specific to the ServiceNow® instance. Be sure to enter accurate information for any test, development, or production instances you are using. Do not include spaces in the entry.
 
@@ -132,10 +132,10 @@ If UCF introduces new fields and content, administrators can use staging tables 
 |Default Control transform|Transforms data from the UCF Control staging table into the Control Objective table|
 |Control to Citation transform map|Transforms data from the UCF Citation to Control table into the Control Objective to Citation table|
 
--   **[Integrate with UCF Common Controls Hub to manage compliance frameworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/c_UCF.md)**  
+-   **[Integrate with UCF Common Controls Hub to manage compliance frameworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/c_UCF.md)**  
 Compliance administrators can download content from Network Frontiers Unified Compliance Framework \(UCF\) to use as GRC authority documents, citations, controls, and control objectives. The documents can be updated on pre-defined intervals. You must have a UCF Common Controls Hub account to create shared lists and import them into the ServiceNow® instance.
--   **[Elimination of duplicate citations from UCF Shared list download](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/ucf-deduplication-pc.md)**  
+-   **[Elimination of duplicate citations from UCF Shared list download](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/ucf-deduplication-pc.md)**  
 You can eliminate duplicate citations associated with the authority documents when you receive citations from UCF content as part of the same Shared list.
 
-**Parent Topic:**[Manage the UCF integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/manage_compliance_frameworks.md)
+**Parent Topic:**[Manage the UCF integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/manage_compliance_frameworks.md)
 

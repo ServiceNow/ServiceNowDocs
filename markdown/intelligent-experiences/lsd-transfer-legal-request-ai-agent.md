@@ -3,11 +3,11 @@ title: Transfer legal request AI agent
 description: This AI agent transfers a legal request to the predicted category.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/lsd-transfer-legal-request-ai-agent.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Legal Service Delivery AI agents, Legal Service Delivery, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Legal Service Delivery AI agents, Legal Service Delivery, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Transfer legal request AI agent
@@ -51,7 +51,7 @@ Manage long-term memory
 
 </td><td>
 
-When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-aia-reference.md).
+When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/na-aia-reference.md).
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ Triggers
 
 </td><td>
 
-Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-trigger-aia.md).
+Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-trigger-aia.md).
 
 </td></tr><tr><td>
 
@@ -105,7 +105,7 @@ Used in agentic workflows
 Triage legal requests
 
 </td></tr></tbody>
-</table>Learn more about Legal Service Delivery at [Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-management-overview.md).
+</table>Learn more about Legal Service Delivery at [Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-management-overview.md).
 
-**Parent Topic:**[Legal Service Delivery AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/lsd-ai-agents-overview.md)
+**Parent Topic:**[Legal Service Delivery AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/lsd-ai-agents-overview.md)
 

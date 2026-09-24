@@ -3,11 +3,11 @@ title: Configure service desk groups to access the Service Operations Workspace 
 description: Confirm that the right users have access to the Service Operations Workspace landing page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-service-desk-groups-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access controls in Service Operations Workspace for ITSM, Getting started with Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -24,7 +24,7 @@ Role required: admin
 
 The landing page's access is based on the audience associated with that page. Configure the audiences with the required service desk groups and the users that are part of these service desk groups can then access the landing page. If you want users from multiple service desk groups to access the landing page, you should configure the landing page's audience with all those service desk groups.
 
-It is applicable only for an instance that has Service Operations Workspace 1.1 installed and has upgraded to Australia.
+It is applicable only for an instance that has Service Operations Workspace 1.1 installed and has upgraded to Brazil.
 
 ## Procedure
 

@@ -3,11 +3,11 @@ title: Configure scheduled data imports for crisis map
 description: Manage your subscriptions to threat feeds from internal or external sources by configuring scheduled data imports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/crisis-map-scheduled-data-imports.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure search for places in crisis map, Setting up the Crisis Map, Crisis Management map, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Configure search for places in crisis map, Setting up the crisis map, Crisis Management map, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Configure scheduled data imports for crisis map
@@ -18,7 +18,7 @@ Manage your subscriptions to threat feeds from internal or external sources by c
 
 Role required: sys\_admin
 
-You must set up the Google maps for enabling the crisis map functionality. For more information, see [Set up Google Maps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-up-google-maps-api.md).
+You must set up the Google maps for enabling the crisis map functionality. For more information, see [Set up Google Maps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/set-up-google-maps-api.md).
 
 ## About this task
 

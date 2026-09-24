@@ -3,9 +3,9 @@ title: Product non-conformance use case
 description: Use case scenarios show how to resolve product non-conformance issues, from triage through escalation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-product-non-conformance-use-case.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quality management, Explore, Manufacturing Commercial Operations]
 ---
@@ -33,7 +33,7 @@ Triage and Assignment: James, the quality triager, receives the non-conformance 
 3.  Contain and Track: Sophie creates a containment action \(disable system, provide loaner vehicles\) and links it to each impacted asset. She records containment costs \(quarantine, diagnostics, loaner fees\).
 4.  Correct and Escalate: Sophie applies corrective actions \(sensor replacement, firmware updates\), closes the case, and escalates to Quality Investigation for cross-functional pattern analysis.
 
-The  workspace provides guided setup to resolve the issue.
+The [Product non-conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-product-non-conformances.md) workspace provides guided setup to resolve the issue.
 
 ## Benefits
 
@@ -53,7 +53,7 @@ James triages with clear ownership. Sophie resolves the airbag issue across 47 i
 **Related topics**  
 
 
-[Report an issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-report-an-issue.md)
+[Report an issue manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-report-an-issue.md)
 
-[mco-product-non-conformances]
+[Product non-conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-product-non-conformances.md)
 

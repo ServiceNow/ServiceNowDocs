@@ -3,11 +3,11 @@ title: Configure guest user access to playbooks
 description: Set up a playbook, public audience record, and UI experience so that guest users can run playbooks without a ServiceNow login through a public URL.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/configure-guest-user-access.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Playbooks patterns, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -41,10 +41,10 @@ An admin must create a public table to receive guest-submitted records. The publ
         |Type|Select **Standard playbook**.|
         |Playbook name|Enter a unique, user-facing name for your playbook. This name appears to agents and fulfillers during runtime of your playbook.|
         |Now assist input|Enter a short description about your playbook.|
-        |Application|Choose an application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md).|
+        |Application|Choose an application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see Application scope.|
         |Execution type|Select **Record driven** to tie the playbook to a public record. You can't make a standalone playbook public.|
         |Parent table|Set the parent table to the public table you created as the prerequisite. This field is activated when you select Record driven Execution type.|
-        |Allow this playbook to be publicly accessible and embedded on public pages|Select this option to permit embedding the playbook on public pages. The playbook can be made public only after the Portal Playbook widget is configured for public access. For more information, see [Portal Playbook Widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/portal-playbook-widget.md).|
+        |Allow this playbook to be publicly accessible and embedded on public pages|Select this option to permit embedding the playbook on public pages. The playbook can be made public only after the Portal Playbook widget is configured for public access. For more information, see [Portal Playbook Widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/portal-playbook-widget.md).|
 
         \[Omitted image "pe-guest-1.png"\] Alt text: Screenshot showing the required fields for a guest user playbook.
 

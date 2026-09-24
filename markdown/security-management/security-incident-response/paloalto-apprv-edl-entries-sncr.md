@@ -3,11 +3,11 @@ title: Approve EDL entries for Palo Alto Networks Next-Generation Firewall
 description: An approval process for External Dynamic List \(EDL\) entries is part of the preconfigured workflow. You approve EDL entries before the entries are activated on EDLs. One you approve the EDL entry, the firewall retrieves the entry, and your observable is blocked from that point forward.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/paloalto-apprv-edl-entries-sncr.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Palo Alto Networks Next-Generation Firewall integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -38,15 +38,15 @@ When the approval process is enabled, an EDL entry is not activated or deactivat
 
 4.  Choose one option for approving the EDL entry.
 
-<table id="choicetable_xbq_cvh_vdb"><thead><tr><th align="left" id="d162005e100">
+<table id="choicetable_xbq_cvh_vdb"><thead><tr><th align="left" id="d161659e100">
 
 Option
 
-</th><th align="left" id="d162005e103">
+</th><th align="left" id="d161659e103">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d162005e109">
+</th></tr></thead><tbody><tr><td id="d161659e109">
 
 **Approve**
 
@@ -56,7 +56,7 @@ On the entry record, the **Status** field changes to `Added`, and the **Active**
 
  Work notes show that the request for the EDL entry has been approved.
 
-</td></tr><tr><td id="d162005e136">
+</td></tr><tr><td id="d161659e136">
 
 **Reject**
 
@@ -72,9 +72,9 @@ On the entry record, the Status field changes to **Rejected**, and the **Active*
     The security tag is also displayed on the observable record.
 
 
-**Parent Topic:**[Palo Alto Networks Next-Generation Firewall integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto_integration.md)
+**Parent Topic:**[Palo Alto Networks Next-Generation Firewall integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/paloalto_integration.md)
 
-**Previous topic:**[Submit EDL entries from the blocklist for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto-submit-entry-fm-blklist.md)
+**Previous topic:**[Submit EDL entries from the blocklist for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/paloalto-submit-entry-fm-blklist.md)
 
-**Next topic:**[EDL entry exceptions for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto-edl-execptions.md)
+**Next topic:**[EDL entry exceptions for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/paloalto-edl-execptions.md)
 

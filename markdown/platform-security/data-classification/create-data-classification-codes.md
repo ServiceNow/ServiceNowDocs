@@ -3,11 +3,11 @@ title: Creating data classifications
 description: Create your own user-defined data classifications in the Data Classification \[data\_classification\] table that you can then assign to specific columns in specific tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/data-classification/create-data-classification-codes.html
-release: australia
+release: brazil
 product: Data Classification
 classification: data-classification
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data Classification, Platform Privacy]
 ---

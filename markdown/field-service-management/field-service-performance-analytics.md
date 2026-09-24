@@ -3,9 +3,9 @@ title: Field Service Platform Analytics dashboard
 description: The Field Service Platform Analytics dashboard displays the daily and weekly progress of work orders and work order tasks for your assignment groups.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-performance-analytics.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Platform Analytics Solutions, FSM reports and analytics, Configure, Field Service Management]
 ---

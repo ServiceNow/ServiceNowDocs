@@ -3,7 +3,7 @@ title: Components installed with Retail HQ Operations
 description: Certain roles and dependencies must be considered when using the Retail HQ Operations plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-components-retail-hq-operations.html
-release: australia
+release: brazil
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -128,5 +128,5 @@ Create, update, and track questionnaire and store plan.
 -   sn\_task\_plan.creator
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-components-installed-with-plugins.md)
+</table>**Parent Topic:**[Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-components-installed-with-plugins.md)
 

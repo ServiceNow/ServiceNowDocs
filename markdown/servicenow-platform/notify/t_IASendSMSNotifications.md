@@ -3,11 +3,11 @@ title: Send communication updates for an incident communications plan
 description: Update users on the latest communication on an incident through selected communication channels.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/t\_IASendSMSNotifications.html
-release: australia
+release: brazil
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Notify with Incident Communications Management, Using Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -39,10 +39,10 @@ Update users on the latest communication on an incident through selected communi
 6.  Click **Send**.
 
 
-**Parent Topic:**[Using Notify with Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NotifyWithIncidentAlert.md)
+**Parent Topic:**[Using Notify with Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/notify/c_NotifyWithIncidentAlert.md)
 
 **Related topics**  
 
 
-[Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_IncidentAlertManagement.md)
+[Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/c_IncidentAlertManagement.md)
 

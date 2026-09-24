@@ -3,11 +3,11 @@ title: File type data sources
 description: Import a file from a local source, a remote network server, or another instance by providing a path and authentication information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/r\_FileTypeDataSource.html
-release: australia
+release: brazil
 product: System Import Sets
 classification: system-import-sets
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Data sources, Import sets, Imports, Workflow Data Fabric]
 ---
@@ -42,7 +42,7 @@ Attachment
 
 </td><td>
 
-[Add and manage attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_AddingAnAttachment.md) a file to the record and import that file in an import set.
+[Add and manage attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_AddingAnAttachment.md) a file to the record and import that file in an import set.
 
 </td></tr><tr><td>
 
@@ -179,7 +179,7 @@ CSV files are used as a cross-compatible file format for transferring files acro
 "fred.luddy","Fred Luddy","fred.luddy@yourcompany.com","2004-05-01 17:00:00","true"
 ```
 
-When using CSV files, you can specify the encoding charset using the **Properties** field on the Data Source form. You may need to [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) the Data Source form to see this field. For example, to use utf-8 encoding, enter **charset=utf-8**.
+When using CSV files, you can specify the encoding charset using the **Properties** field on the Data Source form. You may need to [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md) the Data Source form to see this field. For example, to use utf-8 encoding, enter **charset=utf-8**.
 
 ## Data in single column
 

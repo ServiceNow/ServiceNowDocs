@@ -3,9 +3,9 @@ title: Get started with Impact
 description: A curated bundle of activities that help new Impact users begin their ServiceNow Impact journey and establish a foundation for achieving business objectives.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/getting\_started\_with\_impact\_concept.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Exploring Impact, Impact]
 ---
@@ -75,5 +75,5 @@ To begin your Getting started with Impact experience, contact your Customer Succ
 **Related topics**  
 
 
-[Work with experts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-squad.md)
+[Work with experts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/impact-squad.md)
 

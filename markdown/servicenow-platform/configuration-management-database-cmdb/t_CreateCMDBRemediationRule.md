@@ -3,11 +3,11 @@ title: Create a CMDB remediation rule
 description: A CMDB remediation rule is associated with a task that was created for a failed CMDB health test. A CMDB remediation rule is applied automatically or manually to execute a remediation workflow that can, for example, delete stale CIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/t\_CreateCMDBRemediationRule.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -23,7 +23,7 @@ You must first create and publish a remediation workflow that addresses the CI i
 -   The table in the workflow must match the task type in the remediation rule.
 -   The workflow isn't configured with any filter conditions by setting **If condition matches** to `None`, so that the filters of the CMDB remediation rule will apply.
 
-For more information about using Classic Workflows, see [Classic Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/c_WorkflowOverview.md).
+For more information about using Classic Workflows, see [Classic Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/c_WorkflowOverview.md).
 
 Role required: sn\_cmdb\_admin or itil\_admin \(on top of sn\_cmdb\_editor or itil\)
 
@@ -63,7 +63,7 @@ Task filter
 
 </td><td>
 
-Filters tasks to apply remediation to. Also applies [dot-walking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_DotWalking.md) on CI fields so that remediation is applied to tasks associated with matching CIs.
+Filters tasks to apply remediation to. Also applies [dot-walking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_DotWalking.md) on CI fields so that remediation is applied to tasks associated with matching CIs.
 
 </td></tr><tr><td>
 
@@ -99,10 +99,10 @@ The CMDB remediation workflow \(regular or Orchestration\) that will execute aut
 
 If **Execution** is set to Automatic, then the business rule **Run remediations for CMDBHealth task** applies the remediation workflow to CIs that match the Task filter. If **Execution** is set to Manual, then you can manually apply the remediation workflow defined in the rule.
 
--   **[Apply CMDB remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_ApplyCMDBRemediation.md)**  
+-   **[Apply CMDB remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/t_ApplyCMDBRemediation.md)**  
 Manually initiate a workflow to remediate a CI that failed a CMDB health test. For example, you can remediate CIs that are orphan or stale.
 
-**Parent Topic:**[CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealth.md)
+**Parent Topic:**[CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealth.md)
 
 **Related topics**  
 
@@ -121,5 +121,5 @@ Manually initiate a workflow to remediate a CI that failed a CMDB health test. F
 
 [CMDB Health reference]()
 
-[Dot-Walking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_DotWalking.md)
+[Dot-Walking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_DotWalking.md)
 

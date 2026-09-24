@@ -3,12 +3,12 @@ title: Move AI assets to unmanaged
 description: Remove AI assets from active governance workflows by moving them to unmanaged status, retaining them in the inventory for tracking without incurring subscription charges.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/disc-move-assets-to-unmanaged.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, use]
-breadcrumb: [Managed and unmanaged AI assets, Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, use]
+breadcrumb: [Managed and unmanaged AI assets, Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Move AI assets to unmanaged
@@ -45,5 +45,5 @@ The status for each asset that you selected changes to unmanaged.
 
 ## What to do next
 
-To bring assets back into governance at any time, see [Move AI assets to managed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/disc-move-assets-to-managed.md).
+To bring assets back into governance at any time, see [Move AI assets to managed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/disc-move-assets-to-managed.md).
 

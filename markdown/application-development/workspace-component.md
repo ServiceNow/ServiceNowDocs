@@ -3,9 +3,9 @@ title: Add a component to Agent Workspace
 description: Use custom components to create a custom Workspace interface to fulfill the specific need of your company's agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/workspace-component.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create custom components using ServiceNow CLI, Builder library, Developing your application, Building applications]
 ---
@@ -35,5 +35,5 @@ Once deployed to your instance, you can add components to Workspace in these way
     You can add custom or standard components to the component area in the Workspace record view.
 
 
-**Parent Topic:**[Create custom components using ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/custom-components.md)
+**Parent Topic:**[Create custom components using ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/custom-components.md)
 

@@ -1,28 +1,26 @@
 ---
 title: ServiceNow Studio release notes
-description: The ServiceNow ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and create custom apps. ServiceNow Studio was enhanced and updated in the Australia release.The ServiceNow ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and create custom apps. ServiceNow Studio was enhanced and updated in the Australia release.The ServiceNow ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and create custom apps. ServiceNow Studio was enhanced and updated in the Australia release.The ServiceNow ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and create custom apps. ServiceNow Studio was enhanced and updated in the Australia release.The ServiceNow ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and create custom apps. ServiceNow Studio was enhanced and updated in the Australia release.The ServiceNow ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and create custom apps. ServiceNow Studio was enhanced and updated in the Australia release.
+description: The ServiceNow ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and create custom apps. See the following sections for release notes by version.ServiceNow Studio was enhanced and updated in the September release with an agentic-first, simplified interface for development, and a configurable activity bar.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/servicenow-studio-rn.html
-release: australia
+release: brazil
 topic_type: topic
-last_updated: "2026-03-12"
-reading_time_minutes: 4
-breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # ServiceNow Studio release notes
 
-The ServiceNow® ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and create custom apps. ServiceNow Studio was enhanced and updated in the Australia release.
+The ServiceNow® ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and create custom apps. See the following sections for release notes by version.
 
 ## About ServiceNow Studio
 
--   As of version 29.2.11 ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Studio. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
--   As of version 29.2.11, ServiceNow IDE capabilities have been merged into ServiceNow Studio under the new Explorer tab, enabling the ability to view Fluent files and open the underlying Fluent source code in ServiceNow Studio.
--   As of version 29.2.11, use an improved version of source control while developing apps in Fluent source code.
--   As of version 29.2.6, organize apps and files into collections, which extend the existing bookmark system by allowing multiple organized folders of applications, app files, and lists.
--   As of version 29.2.6, view all deployment requests and attach update sets to them directly in ServiceNow Studio.
+-   Use the generative and agentic AI capabilities in ServiceNow Studio to build, manage, and deploy custom, base system, or global applications and global metadata records.
+-   Access low-code builders available in the ServiceNow AI Platform, including Table Builder and flows in Workflow Studio, alongside other development tools.
+-   Package changes for deployment using update sets, pipelines, or the Application Repository without leaving ServiceNow Studio.
 
-See [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-landing.md) for more information.
+See [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-landing.md) for more information.
 
 ## Activation and other requirements
 
@@ -30,117 +28,72 @@ See [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
 
     ServiceNow Studio is a ServiceNow AI Platform feature that is active by default.
 
--   **Upgrade information**
 
-    ServiceNow Studio no longer has to be downloaded from the ServiceNow Store. It’s available on the ServiceNow AI Platform by default.
+**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/build-automate-rn-landing.md)
 
+## Version 30.1.1
 
-**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/build-automate-rn-landing.md)
-
-## August 2026
-
-The ServiceNow® ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and create custom apps. ServiceNow Studio was enhanced and updated in the Australia release.
+ServiceNow Studio was enhanced and updated in the September release with an agentic-first, simplified interface for development, and a configurable activity bar.
 
 ### What's new
 
--   **[Building apps in source code in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-apps-in-source-code-sn-studio.md)**
+-   **[ServiceNow Studio quick start](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-quick-start.md)**
 
-    Use ServiceNow IDE capabilities within ServiceNow Studio to create apps in source code. Use the new Explorer tab to open Fluent files and see underlying Fluent source code.
+    Learn ServiceNow Studio efficiently with an updated course of quick start topics.
 
--   **[Metadata source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/source-control-in-servicenow-studio.md)**
+-   **[ServiceNow Studio user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-user-interface.md)**
 
-    Upgrade to the new version of source control in ServiceNow Studio to access more features, such as additional Git commands.
+    Personalize the new, agentic-first ServiceNow Studio user interface by choosing which components you want to use. Use the pro option with all features, vibe mode with minimal components, or custom, to choose your own.
 
+-   **[Autonomous Engineer in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-autonomous-engineer.md)**
 
-### What's changed
-
--   **[AI tools and files in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/working-with-now-assist-tools-sn-studio.md)**
-
-    ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Studio. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
-
-
-## June 2026
-
-The ServiceNow® ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and create custom apps. ServiceNow Studio was enhanced and updated in the Australia release.
-
-### What's new
-
--   **[Create a collection of files in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/qs-create-a-collection.md)**
-
-    Create collections of your most frequently used apps, files, and lists for easy access. Collections extend current bookmark capabilities and can contain apps and files from different scopes.
-
--   **[App deployment in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-deployment-servicenow-studio.md)**
-
-    View deployment requests directly within ServiceNow Studio. Attach update sets to a request to group related changes for deployment.
+    ServiceNow Studio supports Build Agent spec mode, which generates a complete implementation plan from your requirements.
 
 
 ### What's changed
 
--   **[Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-in-servicenow-studio.md)**
+-   **[ServiceNow Studio settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-settings.md)**
 
-    Developers who prompt Build Agent to create an app from the [ServiceNow Developer site](https://developer.servicenow.com/dev.do) are redirected to ServiceNow Studio instead of ServiceNow IDE to continue building their app.
+    ServiceNow Studio user preferences and settings have moved from the top right corner to the bottom left corner of the interface. View what's new in ServiceNow Studio, access command palette and keyboard shortcut options, and update preferences.
 
+-   **[App summary generation moves to an agentic architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/sns-exploring-now-assist-app-summarize.md)**
 
-## Australia General Availability
+    ServiceNow Otto for app summary generation now uses an AI agent to generate application summaries. This change moves the App summary generation from a skill-based architecture to the AI agent orchestration model.
 
-The ServiceNow® ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and create custom apps. ServiceNow Studio was enhanced and updated in the Australia release.
+    With this release, users who install the App summary plugin receive the App Summary AI agent.
 
-### What's new
+    The App Summary AI agent is turned off by default after plugin installation to help avoid unexpected charges. An administrator must enable the agent in AI Agent Studio before users can generate application summaries.
 
--   **[Create an application in ServiceNow Studio with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-an-application-in-servicenow-studio.md)**
+    The end-user experience remains the same. The change affects only the underlying architecture, which now uses an agentic model instead of the earlier skill-based model.
 
-    Begin a chat with Build Agent directly from the app creation workflow. This setting can be configured in user preferences.
+-   **Deployment tab**
 
-
-### What's changed
-
--   **[Preview an app file in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/preview-app-file.md)**
-
-    Files with preview capabilities open directly in preview mode in ServiceNow Studio, bypassing the record view. This change reduces the number of steps required to view file content and keeps developers focused on their work without manual mode switching.
+    The **Deployment** tab, with lists of all update sets, applications, and deployment requests, has moved from the home page to the activity bar as a separate tab.
 
 
-## Australia Early Availability
+### What's deprecated or removed
 
-The ServiceNow® ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and create custom apps. ServiceNow Studio was enhanced and updated in the Australia release.
+-   **Experience switcher**
 
-### What's new
+    The Experience switcher has been removed from ServiceNow Studio. ServiceNow IDE capabilities were consolidated under the Explorer tab in ServiceNow Studio. There is no current replacement for the Experience switcher, but each individual application can still be accessed on the ServiceNow AI Platform.
 
--   **[Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-in-servicenow-studio.md)**
+-   **Tools tab**
 
-    Use Build Agent in ServiceNow Studio to create and edit full-stack applications conversationally.
+    The Tools tab has been removed from the ServiceNow Studio home page, with no replacement. For links to documentation for each development tool, see [Integrated development tools for ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/integrated-development-tools.md).
 
--   **[Add UI Builder files to your apps in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-file-navigator-taxonomy.md)**
+-   **Create menu**
 
-    Add UI Builder components, controllers, experiences, page collections, and UI interactions into your ServiceNow Studio apps.
+    The Create menu in the top right corner of ServiceNow Studio has been removed. The other Create option in the activity bar is still available and has the same functionality.
 
--   **[New vibe coding documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-landing.md)**
+-   **Resources**
 
-    Explore agentic development, which is a natural language approach to application development in ServiceNow. Learn how to get started, when to use it, and how it fits within the broader suite of AI-powered development tools.
-
-
-### What's changed
-
--   **[Integrated tab groupings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/qs-open-apps-files-across-scopes.md)**
-
-    Integrated tabs are no longer color-coded or grouped by scope. You can see a list of the open files by selecting the more actions icon and selecting **Show Opened Editors**.
-
--   **[Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-in-servicenow-studio.md)**
-
-    Build Agent is the default setting for AI-assisted app generation in ServiceNow Studio. You can change this setting in the ServiceNow Studio user preferences menu.
+    The Resources section has been removed from the ServiceNow Studio home page. There is no current replacement for the Resources section, but users with Build Agent can prompt in the main chat to access resources.
 
 
-## Australia
+### Plugin information
 
-The ServiceNow® ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and create custom apps. ServiceNow Studio was enhanced and updated in the Australia release.
+-   **Deprecated plugins**
 
-### What's changed
-
--   **[Create a collection of files in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/qs-create-a-collection.md)**
-
-    As of the Australia Patch 3 \(June\), the Bookmark icon is now the Collections icon. Bookmarks are available as a category under collections.
-
--   **[ServiceNow Studio user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-user-interface.md)**
-
-    The Navigator panel icons in ServiceNow Studio have changed slightly in size and appearance, but not in function.
+    Studio \(com.glide.dev-studio\): The new ServiceNow Studio \(sn\_sns\) is the replacement for this plugin. For more information, see [Exploring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/exploring-servicenow-studio.md).
 
 

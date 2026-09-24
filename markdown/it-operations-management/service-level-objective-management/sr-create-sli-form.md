@@ -3,11 +3,11 @@ title: Create SLI form
 description: Learn about the available fields for adding a service level indicator \(SLI\) to a service level objective \(SLO\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-level-objective-management/sr-create-sli-form.html
-release: australia
+release: brazil
 product: Service Level Objective Management
 classification: service-level-objective-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SLO Management reference, Service Level Objective Management, ITOM AIOps, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Learn about the available fields for adding a service level indicator \(SLI\) to
 
 ## Add SLI form
 
-The following table describes the available options in the Add SLI form. For step-by-step instructions, see [Create SLOs, SLIs, and error budget policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/sr-create-slo-sli.md).
+The following table describes the available options in the Add SLI form. For step-by-step instructions, see [Create SLOs, SLIs, and error budget policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-level-objective-management/sr-create-slo-sli.md).
 
 <table id="table_rqy_bnq_ybc"><thead><tr><th>
 
@@ -68,5 +68,5 @@ Add condition set
 Select this option to specify the alerts or outages included in the error budget.For example, for alerts, if you set the condition to **Status is Critical**, only alerts with a critical status count toward the error budget.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[SLO Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/service-level-objective-management-reference.md)
+</table>**Parent Topic:**[SLO Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-level-objective-management/service-level-objective-management-reference.md)
 

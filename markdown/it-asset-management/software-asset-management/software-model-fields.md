@@ -3,13 +3,13 @@ title: Software model fields
 description: Software Model form and related list field descriptions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/software-model-fields.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 33
-breadcrumb: [Reference, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software model fields
@@ -68,7 +68,7 @@ Product
 
 Software product name. The same lookup list provided on the Software Discovery Models form. You can create a custom product from the lookup list, if desired.**Note:** If the relationship between the software publisher \[samp\_sw\_publisher\] and company \[core\_company\] tables isn’t correct, products for that publisher may not be shown.
 
- If the publisher and product don’t exist, you can [Add a custom software product in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddACustomProduct.md).
+ If the publisher and product don’t exist, you can [Add a custom software product in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/t_AddACustomProduct.md).
 
 </td></tr><tr><td>
 
@@ -274,22 +274,6 @@ Language of the software product to use when searching for the normalized discov
 
 </td></tr><tr><td>
 
-Asset tracking strategy
-
-</td><td>
-
-Option to override the way assets are tracked for the model.
-
-</td></tr><tr><td>
-
-Asset tracking unit
-
-</td><td>
-
-Unit of measure for asset.
-
-</td></tr><tr><td>
-
 Cost
 
 </td><td>
@@ -322,11 +306,11 @@ If the removal candidates don't exist, a scheduled job runs nightly that creates
 
 </td></tr><tr><td>
 
-License all installs**Note:** This field appears only on software models that are associated with [resource value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-resource-value-record.md) and [client access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddAClientAccessRec.md) records, except for Oracle DB Server software models.
+License all installs**Note:** This field appears only on software models that are associated with [resource value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-resource-value-record.md) and [client access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/t_AddAClientAccessRec.md) records, except for Oracle DB Server software models.
 
 </td><td>
 
-Option to license the configuration items \(CIs\) that the software is installed on, based on conditions that you specify on the software model, such as software install conditions. If any of the associated client access records are unlicensed due to insufficient rights, all CIs remain unlicensed.If you disable this option, only the CIs that have been added to your client access records are licensed. See [Add a software client access record in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddAClientAccessRec.md) for detailed instructions on how to add CIs to your client access records.
+Option to license the configuration items \(CIs\) that the software is installed on, based on conditions that you specify on the software model, such as software install conditions. If any of the associated client access records are unlicensed due to insufficient rights, all CIs remain unlicensed.If you disable this option, only the CIs that have been added to your client access records are licensed. See [Add a software client access record in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/t_AddAClientAccessRec.md) for detailed instructions on how to add CIs to your client access records.
 
 If you enable this option after you have already added CIs to your client access records, those CIs are deleted from your records and then subsequently licensed based on the conditions that you specify on the software model.
 
@@ -374,7 +358,7 @@ Option to apply this software model to only subscription-based software suites. 
 
 Auto-generate client access for allocations. **Note:** This field appears only on Oracle Database Server software models.
 
- **Important:** To use this option, you must request the Data Collection for Oracle Global Licensing and Advisory Services \(GLAS\) application from the ServiceNow Store. For details, see [Request Data Collection for Oracle Global Licensing and Advisory Services \(GLAS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/request-data-collection-oracle-glas-app.md).
+ **Important:** To use this option, you must request the Data Collection for Oracle Global Licensing and Advisory Services \(GLAS\) application from the ServiceNow Store. For details, see [Request Data Collection for Oracle Global Licensing and Advisory Services \(GLAS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/request-data-collection-oracle-glas-app.md).
 
 </td><td>
 
@@ -425,7 +409,7 @@ Notes about the work order task that are visible to all users within your organi
 </td></tr></tbody>
 </table>## Suite Components tab
 
-This list shows the software suite component details. Software components are the suite children of a software suite parent. For more information, see [Software Asset Management software suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-suites.md).
+This list shows the software suite component details. Software components are the suite children of a software suite parent. For more information, see [Software Asset Management software suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/software-suites.md).
 
 <table id="table_nyv_lmc_xhb"><thead><tr><th>
 
@@ -473,11 +457,11 @@ Inference Option: **Number** and **Percent**
 
 **Note:** For any new software models being created with suite components, the **Number** option is selected by default.
 
- **Percent**: Specifies what percentage of the components must be installed for the suite.
+ **Percent**: Specifies the percentage of the components that must be installed for the suite.
 
 **Note:** For existing software models with suite components that were using the inference percent, the **Percent** option is selected by default. However, you can choose to use the **Number** option.
 
- If the system property **Use component licenses to optimize compliance when suite licenses run out** is set to true, Inference percent specifies a threshold to determine whether the suite or component licensing is optimal.
+ If the system property **com.snc.sam.auto\_suite\_inference** is set to true, the Inference number and percent is automatically determined and the parent software model suite is automatically inferred for a software model based on its child software models.
 
 </td></tr><tr><td>
 
@@ -487,10 +471,18 @@ Allow automated content update
 
 Option to enable automatic content changes to software models.
 
+</td></tr><tr><td>
+
+Automatic determination of inference
+
+</td><td>
+
+Option to enable automatic determination of the inference number and percent. You can override this option to continue with the manual calculation of Inference percent.
+
 </td></tr></tbody>
 </table>## Suite Parents tab
 
-This list shows the software suite parent details. For more information, see [Software Asset Management software suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-suites.md).
+This list shows the software suite parent details. For more information, see [Software Asset Management software suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/software-suites.md).
 
 <table id="table_axt_czp_l3b"><thead><tr><th>
 
@@ -535,7 +527,7 @@ Relationship that indicates that multiple software models exist for one or more 
 </td></tr></tbody>
 </table>## Software Product Lifecycles
 
-This list shows the life cycle information of a software product. For more information on life cycles, see [Product life cycles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/calculated-lifecycles.md).
+This list shows the life cycle information of a software product. For more information on life cycles, see [Product life cycles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/calculated-lifecycles.md).
 
 <table id="table_hqc_5nn_dbb"><thead><tr><th>
 
@@ -669,7 +661,7 @@ Description of the software product life cycle.
 </td></tr></tbody>
 </table>## Software Entitlements tab
 
-This list shows the entitlement terms of your software license. For more information, see the Software entitlements section in [Software models and Software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-models-and-entitlements.md).
+This list shows the entitlement terms of your software license. For more information, see the Software entitlements section in [Software models and software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/software-models-and-entitlements.md).
 
 <table id="table_erg_3b1_vzb"><thead><tr><th>
 
@@ -693,7 +685,7 @@ License metric
 
 </td><td>
 
-License metric for the license group that the software license is counted against when reconciliation is run. The options for license metric change based on the Metric group field. For more information, see [Software license metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMLicenseMetrics.md).
+License metric for the license group that the software license is counted against when reconciliation is run. The options for license metric change based on the Metric group field. For more information, see [Software license metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/c_SAMLicenseMetrics.md).
 
 </td></tr><tr><td>
 
@@ -925,7 +917,7 @@ Status
 
 </td><td>
 
-Status of the software model. Possible values are **Compliant** or **Not Compliant**.Select the **Status** field to open the corresponding Software Model Results record, where you can view more in-depth information about the software model result. See [View software model results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_ViewSWModelResults.md) for detailed descriptions of each field on the Software Model Results form.
+Status of the software model. Possible values are **Compliant** or **Not Compliant**.Select the **Status** field to open the corresponding Software Model Results record, where you can view more in-depth information about the software model result. See [View software model results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/t_ViewSWModelResults.md) for detailed descriptions of each field on the Software Model Results form.
 
 </td></tr><tr><td>
 
@@ -1050,7 +1042,7 @@ Attribute
 
 </td><td>
 
-Attribute type for reconciling entitlement license metrics. For more information on each attribute type, see [Software model metric attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sw-metric-attributes.md).
+Attribute type for reconciling entitlement license metrics. For more information on each attribute type, see [Software model metric attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sw-metric-attributes.md).
 
 </td></tr><tr><td>
 
@@ -1071,7 +1063,7 @@ Option for setting the attribute as unlimited.
 </td></tr></tbody>
 </table>## Vendor Catalog Items tab
 
-This list shows you the details of the software models associated with a vendor. For more information, see [Vendor catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_ManageVendorCatalogItems.md).
+This list shows you the details of the software models associated with a vendor. For more information, see [Vendor catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/product-catalog/c_ManageVendorCatalogItems.md).
 
 |Field|Description|
 |-----|-----------|
@@ -1099,7 +1091,7 @@ Name
 
 </td><td>
 
-Name of the client access record. Select a name to open the corresponding client access record, where you can view more in-depth information about the record, such as the users or devices that the associated client access licenses \(CALs\) are assigned to and the configuration items \(CIs\) that the associated server software is installed on. See [Add a software client access record in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddAClientAccessRec.md) for more information on client access records in the Software Asset Management classic application. See [Create a software client access record in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-clientaccess-workspace.md) for more information on client access records in the Software Asset Workspace.
+Name of the client access record. Select a name to open the corresponding client access record, where you can view more in-depth information about the record, such as the users or devices that the associated client access licenses \(CALs\) are assigned to and the configuration items \(CIs\) that the associated server software is installed on. See [Add a software client access record in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/t_AddAClientAccessRec.md) for more information on client access records in the Software Asset Management classic application. See [Create a software client access record in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-clientaccess-workspace.md) for more information on client access records in the Software Asset Workspace.
 
 </td></tr><tr><td>
 
@@ -1107,7 +1099,7 @@ Count
 
 </td><td>
 
-Number of unique users or devices that are granted access to the associated server.**Note:** If you are using a Citrix software model and User/Device CAL type, the **Count** field is based on the number of user/device licenses that are assigned to your users or shared devices.
+Number of unique users or devices that are granted access to the associated server.**Note:** If you're using a Citrix software model and User/Device CAL type, the **Count** field is based on the number of user/device licenses that are assigned to your users or shared devices.
 
 </td></tr><tr><td>
 
@@ -1121,7 +1113,7 @@ Type of CAL that is associated with the client access record.-   **User CAL**: L
 
 -   **User/Device CAL**: Licenses each user or device that accesses the associated server.
 
-**Note:** If you are using a Citrix software model, the User/Device CAL type is based on the user/device licenses that are assigned to your users or shared devices.
+**Note:** If you're using a Citrix software model, the User/Device CAL type is based on the user/device licenses that are assigned to your users or shared devices.
 
 -   **Reserved Hourly Average Sensor**: This metric counts the number of unique active endpoints per clock-hour and averages them over a rolling 28-day period. The count of Reserved Hourly Average Sensor Licenses resets at the start of each clock-hour.
 -   **Sensor Subscription**: This metric calculates license usage by averaging endpoint counts over four consecutive weeks. Weekly endpoint counts are based on the total number of endpoints consumed in the previous seven days.
@@ -1224,7 +1216,7 @@ Profile that is associated with the subscription identifier.
 </td></tr></tbody>
 </table>## Downgrade Rights tab
 
-This list shows the downgrade rights information of a software model. For more information, see [Downgrade Rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/downgrade-rights.md).
+This list shows the downgrade rights information of a software model. For more information, see [Downgrade Rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/downgrade-rights.md).
 
 <table id="table_mzw_bv2_fhb"><thead><tr><th>
 
@@ -1555,5 +1547,5 @@ Entitlement condition
 Entitlement condition defined to apply the group user allocation on the filtered software entitlements.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)
+</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/references.md)
 

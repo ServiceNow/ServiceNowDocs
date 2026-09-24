@@ -3,11 +3,11 @@ title: Return Merchandise Authorization
 description: Return Merchandise Authorization \(RMA\) is an agreement between a buyer and seller that lets the buyer return or replace a faulty product. The Asset RMA Order catalog item has prescriptive flows to streamline the RMA process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/return-merchandise-authorization.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Mana
 
 Return Merchandise Authorization \(RMA\) is an agreement between a buyer and seller that lets the buyer return or replace a faulty product. The Asset RMA Order catalog item has prescriptive flows to streamline the RMA process.
 
-An RMA request has RMA request lines. When an RMA request is submitted, an RMA request line is created for each asset and consumable that was selected. You can view a list of all the open RMA request lines in the Hardware Asset Dashboard. For details, see [Hardware Asset dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/hardware-asset-content-pack.md).
+An RMA request has RMA request lines. When an RMA request is submitted, an RMA request line is created for each asset and consumable that was selected. You can view a list of all the open RMA request lines in the Hardware Asset Dashboard. For details, see [Hardware Asset dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/hardware-asset-content-pack.md).
 
 ## Workflow for Return Merchandise Authorization
 
@@ -34,8 +34,10 @@ After attempting an on-site repair, if the faulty asset couldn't be repaired, th
 
 You can cancel an RMA request as long none of the assessment tasks are closed for any of the RMA request lines. After an RMA request is canceled, all the associated RMA request lines and RMA tasks are canceled. If you submit RMA for an asset that is part of an existing RMA, the RMA request lines of the existing RMA request are automatically canceled. If an RMA task is canceled, the associated RMA request line is also canceled. If you have the inventory user or itil role, you can cancel an Assessment task, Internal repair task, or a Shipping task.
 
+**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/exploring-ham.md)
+
 **Related topics**  
 
 
-[Manage RMA requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-rma-req.md)
+[Manage RMA requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/manage-rma-req.md)
 

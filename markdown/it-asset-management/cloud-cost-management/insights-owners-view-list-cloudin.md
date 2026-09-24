@@ -3,11 +3,11 @@ title: View the service accounts owned by an insights\_owner
 description: View the list of users that have the insights\_owner role and the service accounts that each owner owns.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/insights-owners-view-list-cloudin.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Assign service accounts to an insights\_owner, Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -31,5 +31,5 @@ A service account is a secure record on your instance that holds the credential 
 2.  Select the name of any user to view the details of the owned service accounts.
 
 
-**Parent Topic:**[Assign service accounts to an insights\_owner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/insights-owner-new-cloudin.md)
+**Parent Topic:**[Assign service accounts to an insights\_owner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/insights-owner-new-cloudin.md)
 

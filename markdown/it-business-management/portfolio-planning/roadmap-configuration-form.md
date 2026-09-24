@@ -3,11 +3,11 @@ title: Roadmap configuration form
 description: Learn about the fields of the roadmap configuration form. Use this form to add new tables to roadmap preferences and configure their details in Portfolio Planning.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/roadmap-configuration-form.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Form field information for Portfolio Planning, Reference, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -119,5 +119,5 @@ List of fields used as the metrics for the roadmap items.
  These values are displayed when you point the mouse cursor on the roadmap item.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/form-field-information-for-portfolio-planning.md)
+</table>**Parent Topic:**[Form field information for Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/form-field-information-for-portfolio-planning.md)
 

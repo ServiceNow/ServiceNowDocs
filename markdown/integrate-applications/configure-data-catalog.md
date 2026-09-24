@@ -1,23 +1,23 @@
 ---
-title: Configuring the data catalog
+title: Configure data catalog
 description: You can plan and configure a Data Catalog implementation in your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/configure-data-catalog.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data Catalog, Workflow Data Fabric]
 ---
 
-# Configuring the data catalog
+# Configure data catalog
 
 You can plan and configure a Data Catalog implementation in your organization.
 
--   **[Install Data Catalog store applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/install-data-catalog-store-applications.md)**  
+-   **[Install Data Catalog store applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/install-data-catalog-store-applications.md)**  
 You can install the Data Catalog application \(sn\_dcg\_app\) if you have the admin role. The application installs related ServiceNow® Store applications and plugins if they are not already installed.
--   **[Assign roles to Data Catalog users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/assign-roles-to-data-catalog-users.md)**  
+-   **[Assign roles to Data Catalog users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/assign-roles-to-data-catalog-users.md)**  
 Assign roles to control access to features, capabilities, and data in Data Catalog.
 
-**Parent Topic:**[Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-catalog.md)
+**Parent Topic:**[Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/data-catalog.md)
 

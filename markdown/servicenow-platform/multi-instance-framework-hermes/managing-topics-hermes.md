@@ -3,11 +3,11 @@ title: Managing topics in Hermes
 description: Manage topic records in your instance and Kafka topics in the Hermes Kafka cluster using the Hermes Messaging Service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/managing-topics-hermes.html
-release: australia
+release: brazil
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Manage namespaces and topics, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -29,7 +29,7 @@ A scheduled job runs regularly to synchronize topic records with the topics foun
 -   Logs a warning message if a topic can't be matched to any namespace. If a topic can't be matched to any namespace, the topic record isn't created. There's a default, prefix-less namespace called the Default Namespace that matches all topics. The only time a topic doesn't match any namespace is when the Default Namespace has been deleted or modified.
 -   Marks topics as inactive if no Kafka topic was found for them.
 
-You can monitor and view topics in the Hermes Kafka cluster using the topic inspector. For more information, see [Monitoring topics in the Hermes Kafka cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/monitoring-topics-hermes-kafka-cluster.md).
+You can monitor and view topics in the Hermes Kafka cluster using the topic inspector. For more information, see [Monitoring topics in the Hermes Kafka cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/multi-instance-framework-hermes/monitoring-topics-hermes-kafka-cluster.md).
 
 Kafka topics are specific to a particular instance. This means you can't migrate a topic record from the Kafka Topics \[sys\_kafka\_topic\] table to another instance using an update set. Instead, you must manually create the topic in the target instance.
 
@@ -37,7 +37,7 @@ Kafka topics are specific to a particular instance. This means you can't migrate
 
 You can create topics in the Hermes Kafka cluster using either of the following methods:
 
--   Create the topic from your instance. This creates a record the Kafka Topics \[sys\_kafka\_topic\] table and creates a Kafka topic in the Hermes Kafka cluster. See [Create a topic in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/create-topic-instance-hermes.md).
+-   Create the topic from your instance. This creates a record the Kafka Topics \[sys\_kafka\_topic\] table and creates a Kafka topic in the Hermes Kafka cluster. See [Create a topic in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/multi-instance-framework-hermes/create-topic-instance-hermes.md).
 -   Create the topic externally. For example, create the topic using the Kafka command-line interface \(CLI\).
 
     **Note:** To avoid syncing issues between the cluster and your instance, include the application ID when creating topics externally. For example, without the application ID, a topic created from the CLI with a name like `snc.instancename.fulfillment.topicname` is created in the default namespace instead of the `fulfillment` namespace. To ensure the topic is created in the `fulfillment` namespace, include the application ID in the name using the format `snc.instancename.fulfillment.app_id.topicname`. Replace `app_id` with the application ID of your choice.
@@ -47,7 +47,7 @@ If, for some reason, a topic can't be created in the Hermes Kafka cluster, it wo
 
 ## Updating topics
 
-If necessary, you can change the number of partitions in a topic. Note that you can only increase the number of partitions in a topic. For more information, see [Update a topic in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/update-topic-hermes.md).
+If necessary, you can change the number of partitions in a topic. Note that you can only increase the number of partitions in a topic. For more information, see [Update a topic in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/multi-instance-framework-hermes/update-topic-hermes.md).
 
 After it's created, the namespace assigned to a topic record is permanent. If you create a namespace record and want to move existing topics to it, you must delete the topics and recreate them in the Hermes Kafka cluster with the new namespace prefix. If the topics weren't created through the instance, new topic records will be created and assigned to the matching namespace record after a rescan.
 
@@ -55,7 +55,7 @@ After it's created, the namespace assigned to a topic record is permanent. If yo
 
 You can delete topics from the Hermes Kafka cluster using either of the following methods:
 
--   Delete the topic directly from the Kafka Topics \[sys\_kafka\_topic\] table in your instance. This method automatically deletes the topic from all the Hermes Kafka clusters in one action. See [Delete a topic in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/delete-topic-hermes.md)
+-   Delete the topic directly from the Kafka Topics \[sys\_kafka\_topic\] table in your instance. This method automatically deletes the topic from all the Hermes Kafka clusters in one action. See [Delete a topic in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/multi-instance-framework-hermes/delete-topic-hermes.md)
 -   Delete the topic externally. For example, delete the topic using the Kafka command-line interface \(CLI\).
 
     **Important:** Deleting the topic externally requires that you delete the topic from both Hermes clusters manually by specifying each set of ports \(410x and 420x\). If possible, delete the topic through the instance instead.
@@ -76,16 +76,16 @@ Sometimes topic records in your instance don't match what's in Hermes. This situ
 -   When topic records are deleted accidentally.
 -   When namespace definitions are changed, and you want to assign existing topics to the new namespaces.
 
--   **[Create a topic in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/create-topic-instance-hermes.md)**  
+-   **[Create a topic in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/multi-instance-framework-hermes/create-topic-instance-hermes.md)**  
 Create a topic from within ServiceNow. Creating a topic from your instance adds a topic record to the Kafka Topics \[sys\_kafka\_topic\] table and adds a Kafka topic to Hermes.
--   **[Update a topic in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/update-topic-hermes.md)**  
+-   **[Update a topic in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/multi-instance-framework-hermes/update-topic-hermes.md)**  
 Update a Kafka topic in Hermes by modifying the topic record.
--   **[Delete a topic in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/delete-topic-hermes.md)**  
+-   **[Delete a topic in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/multi-instance-framework-hermes/delete-topic-hermes.md)**  
 Remove a topic and its messages by deleting it from Hermes. Deleting a topic record deletes it from your instance and from the Hermes Kafka cluster.
--   **[Rescan topics in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/rescan-topics-hermes.md)**  
+-   **[Rescan topics in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/multi-instance-framework-hermes/rescan-topics-hermes.md)**  
 Synchronize topic records in your instance with topics in the Hermes Kafka cluster by rescanning.
 
-**Parent Topic:**[Managing namespaces and topics in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/managing-namespaces-topics-hermes.md)
+**Parent Topic:**[Managing namespaces and topics in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/multi-instance-framework-hermes/managing-namespaces-topics-hermes.md)
 
 **Related topics**  
 

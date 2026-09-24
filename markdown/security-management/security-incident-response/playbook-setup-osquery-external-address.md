@@ -3,11 +3,11 @@ title: Set up the OSquery of External Address in the /etc/hosts file playbook
 description: Use the following steps to set up the OSquery of External Address in the /etc/hosts file playbook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-setup-osquery-external-address.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Playbook for OSquery of External Address in /etc/hosts file, Flow-based Playbooks, Security Incident Response playbooks, Playbook Resources, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -46,5 +46,5 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
     This playbook is triggered and associated with the security incident when the **Category** is **Insider Breach**.
 
 
-**Parent Topic:**[Playbook for OSquery of External Address in /etc/hosts file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-osquery-external-address.md)
+**Parent Topic:**[Playbook for OSquery of External Address in /etc/hosts file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/playbook-osquery-external-address.md)
 

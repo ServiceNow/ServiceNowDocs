@@ -3,11 +3,11 @@ title: Create a test environment
 description: Create a test environment to define the setup to be used when conducting the tests in a test plan.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/t\_CreatingTestEnvironments.html
-release: australia
+release: brazil
 product: Test Management
 classification: test-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up the manual testing process, Test Management 1.0, Test Management applications, Strategic Portfolio Management]
 ---

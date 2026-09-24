@@ -3,11 +3,11 @@ title: Verify contract administrator assignment for notification
 description: An event runs automatically each night to send reminders to contract administrators about contract expiration dates so they can renew or renegotiate the contract. You can verify that the right contract administrator is assigned to the contract.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/contract-management/t\_SendAContractNotification.html
-release: australia
+release: brazil
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Contracts, Contract Management use, Contract Management, Common applications, Asset Management]
 ---
@@ -45,7 +45,7 @@ A user with the admin role can edit the contract.expiration condition check that
     A single name can be specified.
 
 
-**Parent Topic:**[Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/c_Contracts.md)
+**Parent Topic:**[Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/contract-management/c_Contracts.md)
 
 **Related topics**  
 
@@ -62,7 +62,7 @@ A user with the admin role can edit the contract.expiration condition check that
 
 [Monitor a contract]()
 
-[Condition check definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/c_UseConditionCheckDefinitions.md)
+[Condition check definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/contract-management/c_UseConditionCheckDefinitions.md)
 
-[Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md)
+[Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_EmailNotifications.md)
 

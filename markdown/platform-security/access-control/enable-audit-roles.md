@@ -3,11 +3,11 @@ title: Enable role auditing with Contextual Security: Role Management V2
 description: Set a system property to enable the Audit Roles table to create audit records related to user roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/enable-audit-roles.html
-release: australia
+release: brazil
 product: Access Control
 classification: access-control
 topic_type: task
-last_updated: "2026-05-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Contextual Security Manager, Access Control Lists \(ACLs\), Access Management]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-When enabled, the Audit Roles \[sys\_audit\_role\] table maintains changes to user records. For more information about role audits, see [Audit user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/audit-user-roles.md). If the Contextual Security: Role Management V2 \[com.glide.role\_management.inh\_count\] plugin is installed, you must set a system property to **true** to enable role auditing.
+When enabled, the Audit Roles \[sys\_audit\_role\] table maintains changes to user records. For more information about role audits, see Audit user roles. If the Contextual Security: Role Management V2 \[com.glide.role\_management.inh\_count\] plugin is installed, you must set a system property to **true** to enable role auditing.
 
 ## Procedure
 

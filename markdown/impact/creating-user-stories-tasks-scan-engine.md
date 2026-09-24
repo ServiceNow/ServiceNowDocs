@@ -3,11 +3,11 @@ title: Create user stories and tasks for Scan Engine
 description: You can generate user stories from open or resolved findings to facilitate the resolution of technical debt.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/creating-user-stories-tasks-scan-engine.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Prevent technical debt with real-time code fixes, Prevent and resolve technical debt with AI, Platform Health, Using Impact, Impact]
+breadcrumb: [Prevent technical debt with real-time code fixes, Platform Health, Using Impact, Impact]
 ---
 
 # Create user stories and tasks for Scan Engine
@@ -18,7 +18,7 @@ You can generate user stories from open or resolved findings to facilitate the r
 
 Role required: admin
 
-**Note:** The Scan Engine integrates with Agile project management tools, including Jira, Azure DevOps, and ServiceNow Agile development. For information on configuring integration properties to automatically create work items from findings, refer to [User story integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/user-story-integration-properties.md).
+**Note:** The Scan Engine integrates with Agile project management tools, including Jira, Azure DevOps, and ServiceNow Agile development. For information on configuring integration properties to automatically create work items from findings, refer to [User story integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/user-story-integration-properties.md).
 
 ## Procedure
 

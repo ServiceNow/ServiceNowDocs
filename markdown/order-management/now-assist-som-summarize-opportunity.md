@@ -3,9 +3,9 @@ title: Summarize an opportunity using ServiceNow Otto for Sales Automation
 description: Generate an AI-powered summary of an opportunity in the CRM Workspace to get an immediate view of key details, customer needs, recent activity, and risks without reviewing multiple records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/now-assist-som-summarize-opportunity.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [opportunity summarization, generative AI]
 breadcrumb: [Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
@@ -17,7 +17,7 @@ Generate an AI-powered summary of an opportunity in the CRM Workspace to get an 
 
 ## Before you begin
 
-The opportunity summarization skill must be active before you can generate summaries. For more information, see [Customize the opportunity summarization skill in ServiceNow Otto for Sales Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/customize-opportunity-summarization-skill-now-assist-som.md).
+The opportunity summarization skill must be active before you can generate summaries. For more information, see [Customize the opportunity summarization skill in ServiceNow Otto for Sales Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/customize-opportunity-summarization-skill-now-assist-som.md).
 
 Role required: sn\_sfa.sales\_rep, sn\_sfa.sales\_manager
 

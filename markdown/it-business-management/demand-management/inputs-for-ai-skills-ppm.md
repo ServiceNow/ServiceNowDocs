@@ -3,11 +3,11 @@ title: Inputs for AI skills
 description: Learn about the inputs of each skill for the ServiceNow Otto for Strategic Portfolio Management application. By configuring the inputs for a skill, you can determine how and when a skill is used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/inputs-for-ai-skills-ppm.html
-release: australia
+release: brazil
 product: Demand Management
 classification: demand-management
 topic_type: reference
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -100,5 +100,5 @@ Related lists
 -   Resource assignments
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Demand Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/demand-management-reference.md)
+</table>**Parent Topic:**[Demand Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/demand-management-reference.md)
 

@@ -3,11 +3,11 @@ title: RIDAC in Portfolio Planning Workspace
 description: RIDAC \(Risk, Issue, Decision, Action, Change\) in Portfolio Planning Workspace provides a holistic, portfolio-wide view of all risks, issues, decisions, actions, and changes across your entire organization—from individual projects to programs and portfolios.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/explore-ridac-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [explore]
 breadcrumb: [Explore, Portfolio Planning, Strategic Portfolio Management]
@@ -51,7 +51,7 @@ Example: If you add a RIDAC item to a project, you can view the same RIDAC item 
 
 Strategic Planning Workspace extends RIDAC capabilities beyond what is available in Portfolio Planning. The following comparison shows the key differences in supported entities and features.
 
--   Portfolio Planning: Create and manage RIDAC items for projects and demands to track risks, issues, decisions, actions, and changes across your portfolio. For more information, see [Using RIDAC in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/using-ridac-spw.md).
+-   Portfolio Planning: Create and manage RIDAC items for projects and demands to track risks, issues, decisions, actions, and changes across your portfolio. For more information, see [Using RIDAC in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/using-ridac-spw.md).
 -   Strategic Planning: Create and manage RIDAC items for all planning item types \(projects, demands, epics, capabilities, features, and custom planning items\), goals, and EAP iterations. You also gain access to AI-generated RIDAC capabilities and expanded governance controls.
 
 <table id="table_bmt_jnf_fwb"><thead><tr><th>
@@ -107,10 +107,10 @@ EAP Iteration
 
 To learn more about configuring and using RIDAC Strategic Planning Workspace, see:
 
--   [Populate planning items on RIDAC records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/update-ridac-planning-items-ppw.md) — Run the scheduled job to populate the planning item field on RIDAC records created before the latest release. This ensures legacy RIDAC records appear correctly in related lists and reports.
--   [View RIDAC records for planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/view-ridac-records-ppw.md) — View different RIDAC records by planning scope \(All RIDAC, Project RIDAC, Portfolio RIDAC, or Program RIDAC\) from a single centralized view.
--   [Create RIDAC for a planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-ridac-planning-item-ppw.md) — Create and associate Risk, Issue, Decision, Action, or Change items directly with planning items \(projects and demands\) to manage planning uncertainties and dependencies.
--   [Export RIDAC list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/export-ridac-list-ppw.md) — Export a filtered list of RIDAC records to Excel, PDF, CSV, or JSON format. You can download the file directly or send it via email to share RIDAC information with stakeholders.
+-   [Populate planning items on RIDAC records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/update-ridac-planning-items-ppw.md) — Run the scheduled job to populate the planning item field on RIDAC records created before the latest release. This ensures legacy RIDAC records appear correctly in related lists and reports.
+-   [View RIDAC records for planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/view-ridac-records-ppw.md) — View different RIDAC records by planning scope \(All RIDAC, Project RIDAC, Portfolio RIDAC, or Program RIDAC\) from a single centralized view.
+-   [Create RIDAC for a planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/create-ridac-planning-item-ppw.md) — Create and associate Risk, Issue, Decision, Action, or Change items directly with planning items \(projects and demands\) to manage planning uncertainties and dependencies.
+-   [Export RIDAC list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/export-ridac-list-ppw.md) — Export a filtered list of RIDAC records to Excel, PDF, CSV, or JSON format. You can download the file directly or send it via email to share RIDAC information with stakeholders.
 
-**Parent Topic:**[Exploring Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/exploring-portfolio-planning.md)
+**Parent Topic:**[Exploring Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/exploring-portfolio-planning.md)
 

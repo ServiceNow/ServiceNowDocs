@@ -3,12 +3,12 @@ title: Security tasks
 description: Address possible security threats, policy violations, and access issues on managed AI assets by acting on the security tasks the system generates for AI stewards and security reviewers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ac-security-tasks.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, security task, AI security, threat detection]
-breadcrumb: [Managing tasks and approvals, Address action items, AI Control Tower, Enable AI experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, security task, AI security, threat detection]
+breadcrumb: [Managing tasks and approvals, Address action items, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Security tasks

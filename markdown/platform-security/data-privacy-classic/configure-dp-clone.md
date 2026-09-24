@@ -3,11 +3,11 @@ title: Configure data privacy clone request
 description: Data privacy clone integration is configured using a PostClone script to create and execute data privacy jobs for configured policies on the target. After running the script, users will see de-identified data and will not have access to the original data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/configure-dp-clone.html
-release: australia
+release: brazil
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data privacy clone, Data privacy \(Classic\), Data Privacy, Platform Privacy]
 ---
@@ -30,13 +30,13 @@ Role required: data\_privacy\_clone\_processor, data\_privacy\_admin, and admin
 
 2.  Elevate to the **data\_privacy\_admin** role.
 
-    For details on role elevation, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
+    For details on role elevation, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
 
 3.  Navigate to **System Security** &gt; **Data Privacy** &gt; **Privacy Policy Configuration**.
 
 4.  Create a Privacy Policy configuration.
 
-    Select **Apply to All in Data Class** and **Apply when Cloning**. See [Create a data privacy policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/config-dp-policy.md) for more information.
+    Select **Apply to All in Data Class** and **Apply when Cloning**. See [Create a data privacy policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-privacy-classic/config-dp-policy.md) for more information.
 
 5.  Back up data privacy configurations.
 

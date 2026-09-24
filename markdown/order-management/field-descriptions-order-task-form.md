@@ -3,9 +3,9 @@ title: Order Tasks form
 description: The Order Task form enables you to review and update the fulfillment tasks that are associated with the selected order.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/field-descriptions-order-task-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Order Management reference, Reference, Sales Customer Relationship Management]
 ---
@@ -189,5 +189,5 @@ Attachments
 File attachments for the order task. Select **Select file** to add the file as an attachment.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-reference.md)
+</table>**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-reference.md)
 

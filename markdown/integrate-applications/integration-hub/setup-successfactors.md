@@ -3,7 +3,7 @@ title: Set up the SuccessFactors spoke v4.x.x
 description: Integrate the ServiceNow instance with your SuccessFactors instance using OAuth client application and API key.Enable client certificate authentication for the outbound communication by generating the keystore.jks and keystore.cer files.Enable client certificate authentication for the outbound communication by uploading the JKS certificate in your ServiceNow instance.Use the API key generated during the client application configuration to register the application as an OAuth provider.Create a SAML2 assertion record to generate the SAML2 assertion and exchange the assertion for the access tokens with the provider.Create Credential record for the OData APIs in SuccessFactors. The SuccessFactors spoke connection and credential alias uses these credentials to authorize actions using the OData API.Create Credential record for the SOAP APIs in SuccessFactors. The SuccessFactors spoke connection and credential alias uses these credentials to authorize actions using the SOAP APIs.Create a Connection record for the OData API in SuccessFactors. The SuccessFactors spoke connection and credential alias uses these connections to perform actions in SuccessFactors.Create a Connection record for the SOAP API in SuccessFactors. The SuccessFactors spoke connection and credential alias uses these connections to perform actions in SuccessFactors.Customise the sample flows as per your requirement to synchronize data between your SuccessFactors and ServiceNow instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-successfactors.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -26,7 +26,7 @@ Integrate the ServiceNow instance with your SuccessFactors instance using OAuth 
     -   **com.glide.transform.json.max-partial-length**: The maximum value is, `65536`.
 -   Role required: admin.
 
-**Note:** This procedure is applicable if you are setting up the SuccessFactors spoke v4.11.1 for the first time. If you are using an earlier version of the SuccessFactors spoke, see [Migrate to SuccessFactors spoke v4.11.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/migrate-successfactors.md) for the migration procedure.
+**Note:** This procedure is applicable if you are setting up the SuccessFactors spoke v4.11.1 for the first time. If you are using an earlier version of the SuccessFactors spoke, see [Migrate to SuccessFactors spoke v4.11.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/migrate-successfactors.md) for the migration procedure.
 
 For more information about setting up the spoke, see [SAP SuccessFactors Spoke - OAuth Setup &amp; Migration - Pre-Tokyo, Tokyo and beyond](https://www.servicenow.com/community/knowledge-managers/sap-successfactors-spoke-oauth-setup-amp-migration-pre-tokyo/ta-p/2468046) in [ServiceNow Community](https://www.servicenow.com/community/).
 
@@ -87,7 +87,7 @@ Role required: admin
 
 2.  Upload the JKS certificate to your ServiceNow instance.
 
-    For instructions to upload the JKS certificate, see [Upload a certificate to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_UploadACertificateToAnInstance.md) .
+    For instructions to upload the JKS certificate, see [Upload a certificate to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_UploadACertificateToAnInstance.md) .
 
     \[Omitted image "sapsf-cert.png"\] Alt text: Upload JKS certificate.
 
@@ -209,7 +209,7 @@ Role required: admin
         |Name|Unique name to identify the SAML2 assertion keystore record. For example, `sap_successfactor`.|
         |Signing Key Alias|Alias of key entry stored in the Keystore used to sign the assertion. For example, `1`.|
         |Signing Key Password|Password of the key entry stored in the keystore used to sign the assertion.|
-        |Signing Keystore|Required X.509 certificate record. Select the X.509 certificate record that you had earlier created. For more information, see [Upload the JKS certificate in your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-successfactors.md).|
+        |Signing Keystore|Required X.509 certificate record. Select the X.509 certificate record that you had earlier created. For more information, see [Upload the JKS certificate in your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-successfactors.md).|
 
         \[Omitted image "sapsf-assertion-ks.png"\] Alt text: SAML2 assertion keystore record.
 
@@ -241,7 +241,7 @@ Role required: admin
 
     2.  Open the application registry record that you had created.
 
-        For example, **SuccessFactors OAuth Reg**. For more information about creating the application registry, see [Register SuccessFactors as an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-successfactors.md).
+        For example, **SuccessFactors OAuth Reg**. For more information about creating the application registry, see [Register SuccessFactors as an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-successfactors.md).
 
     3.  Under the **OAuth Entity Profiles** tab, open the default OAuth entity profile record.
 
@@ -300,7 +300,7 @@ OAuth Entity Profile
 
 </td><td>
 
-OAuth entity profile record that is associated with the OAuth application registry you had created. For example, `Successfactor SAML default_profile`.For more information about creating the application registry, see [Register SuccessFactors as an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-successfactors.md).
+OAuth entity profile record that is associated with the OAuth application registry you had created. For example, `Successfactor SAML default_profile`.For more information about creating the application registry, see [Register SuccessFactors as an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-successfactors.md).
 
 </td></tr><tr><td>
 
@@ -372,7 +372,7 @@ OAuth Entity Profile
 
 </td><td>
 
-OAuth entity profile record associated with the OAuth application registry you had created. For example, `Successfactor SAML default_profile`.For more information about creating the application registry, see [Register SuccessFactors as an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-successfactors.md).
+OAuth entity profile record associated with the OAuth application registry you had created. For example, `Successfactor SAML default_profile`.For more information about creating the application registry, see [Register SuccessFactors as an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-successfactors.md).
 
 </td></tr><tr><td>
 

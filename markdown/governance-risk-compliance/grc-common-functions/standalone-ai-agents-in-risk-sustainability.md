@@ -3,14 +3,14 @@ title: Standalone AI Agents in ServiceNow Otto for Integrated Risk Management \(
 description: Use AI agents in Governance, Risk, and Compliance to complete IT-related tasks autonomously.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/standalone-ai-agents-in-risk-sustainability.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [ServiceNow Otto, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Use agentic AI, ServiceNow Otto, Common GRC features, Governance, Risk, and Compliance]
+keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
+breadcrumb: [Use agentic AI, Now Assist, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Standalone AI Agents in ServiceNow Otto for Integrated Risk Management \(IRM\)
@@ -23,10 +23,10 @@ The following AI agents are available in the ServiceNow Otto for IRM application
 
 -   Report a GRC issue AI agent
 
-    For more information, see [Report a GRC issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/report-a-grc-issue.md).
+    For more information, see [Report a GRC issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/report-a-grc-issue.md).
 
 -   Control Objective Change Agent
 
-    For more information, see [Use Control Objective Change Agent to update control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/update-impacted-control-objectives-AI.md).
+    For more information, see [Use Control Objective Change Agent to update control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/update-impacted-control-objectives-AI.md).
 
 

@@ -3,9 +3,9 @@ title: Create a customer success definition record
 description: Define categories and subcategories for success play workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-create-ale-defn.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Getting started, Customer success, Configure, Customer Success Management]
 ---
@@ -25,7 +25,7 @@ The customer success definition table controls what appears in the success play 
 
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace**and select the **List** icon.
+1.  Navigate to **Workspace** &gt; **CRM Workspace**and select the **List** icon.
 
 2.  Navigate to the **Customer Success** &gt; **Customer Success Definition** and select **New**.
 
@@ -106,8 +106,8 @@ Purpose of this workflow launcher item.
 </td></tr></tbody>
 </table>4.  Set the state of this record to **Published** and select **Save**.
 
-    The success play is available when the **Create success play** option is selected. See [Create a success play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-success-play.md) for details.
+    The success play is available when the **Create success play** option is selected. See [Create a success play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-create-success-play.md) for details.
 
 
-**Parent Topic:**[Getting started with Customer Success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-basic-config.md)
+**Parent Topic:**[Getting started with Customer Success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-basic-config.md)
 

@@ -3,9 +3,9 @@ title: Advanced domain separation administration
 description: Administrators can view information about domain separation, identify potential issues, and change configuration settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/c\_DomainSeparationAdministration.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setup and administration, Domain separation for service providers, Access Management]
 ---
@@ -16,15 +16,15 @@ Administrators can view information about domain separation, identify potential 
 
 You can perform these advanced administrative tasks on domains:
 
--   [Use domain selection menus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DisplayingDomainSelectionMenus.md)
--   [View domain relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ViewDomainRelationships.md)
+-   [Use domain selection menus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_DisplayingDomainSelectionMenus.md)
+-   [View domain relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_ViewDomainRelationships.md)
 
--   **[Use domain selection menus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DisplayingDomainSelectionMenus.md)**  
+-   **[Use domain selection menus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_DisplayingDomainSelectionMenus.md)**  
 The instance offers domain selection via two menu formats.
--   **[Domain separation application properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ds-application-properties.md)**  
+-   **[Domain separation application properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/ds-application-properties.md)**  
 The Domain Separation plugin has two new tables to give service providers more flexibility in customizing their applications that use domain separation. These tables are the System Application Property table \[sys\_application\_property\] and the System Application Property Value table \[sys\_application\_property\_value\].
 
-**Parent Topic:**[Domain separation setup and administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparationSetup.md)
+**Parent Topic:**[Domain separation setup and administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_DomainSeparationSetup.md)
 
 **Related topics**  
 
@@ -48,8 +48,6 @@ The Domain Separation plugin has two new tables to give service providers more f
 [Enable or disable a domain]()
 
 [Add a domain field to a table]()
-
-[View upgraded processes or records in the global domain]()
 
 [View domain relationships]()
 

@@ -3,11 +3,11 @@ title: Resume a Disputes intake via Virtual Agent dispute case as an agent
 description: As an agent, you can resume a card dispute case when a customer leaves a Virtual Agent chat in Disputes intake via Virtual Agent without submitting the dispute. Pick up where the customer left off and complete the details of the dispute case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/resume-dispute-case-from-disputes-intake-via-virtual-agent.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Disputes intake via Virtual Agent, Intake, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -38,7 +38,7 @@ When a customer initiates a dispute intake by selecting **Report a dispute** in 
 
 5.  Perform one of the following actions.
 
-<table id="choicetable_egp_gdn_wdc"><tbody><tr><td id="d116320e161">
+<table id="choicetable_egp_gdn_wdc"><tbody><tr><td id="d118059e161">
 
 **Customer has identified a disputed transaction**
 
@@ -46,7 +46,7 @@ When a customer initiates a dispute intake by selecting **Report a dispute** in 
 
 Review the disputed transaction details.
 
-</td></tr><tr><td id="d116320e170">
+</td></tr><tr><td id="d118059e170">
 
 **Customer hasn’t identified a disputed transaction**
 
@@ -62,12 +62,12 @@ Select the card account and disputed transactions.
 7.  At the Submit dispute activity, select **Submit**.
 
 
-**Parent Topic:**[Disputes intake via Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/disputes-intake-via-virtual-agent-fso.md)
+**Parent Topic:**[Disputes intake via Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/disputes-intake-via-virtual-agent-fso.md)
 
 **Related topics**  
 
 
-[Overview of the Dispute Management workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-management-workflows.md)
+[Overview of the Dispute Management workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/dispute-management-workflows.md)
 
-[Submit a dispute case with Disputes intake via Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/submit-dispute-case-disputes-intake-via-virtual-agent.md)
+[Submit a dispute case with Disputes intake via Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/submit-dispute-case-disputes-intake-via-virtual-agent.md)
 

@@ -3,11 +3,11 @@ title: Select a stage field
 description: A Stage field allows the workflow context to show additional workflow information, such as the stage name and the estimated completion time for an activity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/t\_SelectAStageField.html
-release: australia
+release: brazil
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a workflow stage field, Workflow stages, Workflow management, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ A **Stage field** allows the workflow context to show additional workflow inform
 
 ## Before you begin
 
-Ensure that the workflow field you want to use as the stage field is configured to properly display stages. For detailed steps, see [Create a workflow stage field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/t_CreateAWorkflowStageField.md).
+Ensure that the workflow field you want to use as the stage field is configured to properly display stages. For detailed steps, see [Create a workflow stage field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/legacy-workflow/t_CreateAWorkflowStageField.md).
 
 ## About this task
 
@@ -45,5 +45,5 @@ To add or edit a workflow stage field:
 8.  Click **Update**.
 
 
-**Parent Topic:**[Create a workflow stage field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/t_CreateAWorkflowStageField.md)
+**Parent Topic:**[Create a workflow stage field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/legacy-workflow/t_CreateAWorkflowStageField.md)
 

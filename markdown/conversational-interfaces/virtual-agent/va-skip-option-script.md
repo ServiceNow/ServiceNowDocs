@@ -3,13 +3,13 @@ title: Implement a skip option
 description: Use a rich control to provide the option for users to skip a question.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-skip-option-script.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Supported features for custom chat integrations, Conversational custom chat integrations, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Supported features for custom chat integrations, Create custom chat integrations, Configure, Virtual Agent, Conversational Interfaces]
 ---
 
 # Implement a skip option
@@ -19,7 +19,7 @@ Use a rich control to provide the option for users to skip a question.
 Use the rich control `\nType SKIP to skip question` to provide the option for a user to skip a question. There are two ways to configure a skip option:
 
 -   In the provider attributes script, use `_skip_internal` to trigger a contextual action service to skip the question.
--   Map a contextual action for the provider and use `//request_context.contextual_action = "SKIP"` to skip the question. See [Contextual actions for custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/contextual-actions.md) to learn more about mapping user inputs to contextual actions.
+-   Map a contextual action for the provider and use `//request_context.contextual_action = "SKIP"` to skip the question. See [Contextual actions for custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/contextual-actions.md) to learn more about mapping user inputs to contextual actions.
 
 Example script:
 
@@ -75,5 +75,5 @@ contextual_action (all new)
 })(inputs, outputs);
 ```
 
-**Parent Topic:**[Supported Virtual Agent and Agent Chat features for custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-features-custom-chat-integrations.md)
+**Parent Topic:**[Supported Virtual Agent and Agent Chat features for custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-features-custom-chat-integrations.md)
 

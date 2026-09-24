@@ -3,13 +3,13 @@ title: Raise issue related to your asset on the Employee Center portal
 description: Get the issue related to your assets resolved by reporting the issue on the Employee Center portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/report-asset-issue-attestation.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Audit assets using Asset Attestation, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Employee self-service, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Raise issue related to your asset on the Employee Center portal
@@ -20,7 +20,7 @@ Get the issue related to your assets resolved by reporting the issue on the Empl
 
 Role required: Log in as an employee.
 
-To view the **My Assets** option on the global header navigation bar of the Employee Center portal, the value of the **enable\_assets** option must be set to **true** on the Additional options, JSON format field of the Employee Center menu record. For more details, see [Enable or disable global header options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/config-global-header-components.md).
+To view the **My Assets** option on the global header navigation bar of the Employee Center portal, the value of the **enable\_assets** option must be set to **true** on the Additional options, JSON format field of the Employee Center menu record. For more details, see [Enable or disable global header options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/config-global-header-components.md).
 
 **Note:** The **My Assets** option requires the Hardware Asset Management application to be activated.
 
@@ -108,5 +108,18 @@ Your request is submitted successfully.
 
 You can view and track the submitted requests by selecting **My Requests** on the global header navigation bar of the Employee Center portal.
 
-**Parent Topic:**[Audit your hardware assets by using Asset Attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/audit-hardware-assets-attestation.md)
+**Parent Topic:**[Employee self-service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/employee-self-sevice-ham.md)
+
+**Related topics**  
+
+
+[Request and receive assets using the Zero Touch request flow]()
+
+[Request and receive assets using the Zero Touch Refresh flow]()
+
+[Request a loaner asset]()
+
+[Acknowledge receipt of assets on the Employee Center portal]()
+
+[Confirming the assigned serialized hardware assets]()
 

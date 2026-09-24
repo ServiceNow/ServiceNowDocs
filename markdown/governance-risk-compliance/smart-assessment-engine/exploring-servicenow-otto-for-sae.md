@@ -3,11 +3,11 @@ title: Exploring ServiceNow Otto for Smart Assessment Engine \(SAE\)
 description: The ServiceNow Otto for SAE application uses generative AI to streamline key Smart Assessment Engine tasks such as automatically drafting assessment responses by analyzing context, reusing previously answered questions, and supporting documents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/exploring-servicenow-otto-for-sae.html
-release: australia
+release: brazil
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [explore]
 breadcrumb: [ServiceNow Otto for SAE, Smart Assessment Engine, Governance, Risk, and Compliance]
@@ -22,7 +22,7 @@ The ServiceNow Otto for SAE application uses generative AI to streamline key Sma
 The following generative AI capabilities are available in ServiceNow Otto for Smart Assessment Engine \(SAE\):
 
 -   Simplify and speed up routine SAE tasks with AI-powered assistance embedded in your records.
--   Reduce time spent on repetitive tasks.
+-   Reduces time spent on repetitive tasks.
 -   Maintain full control over AI suggestions, with the ability to accept, edit, or discard them.
 -   Eliminate the need to start from scratch, as AI provides an immediate head start and reduces manual effort.
 
@@ -44,7 +44,7 @@ User role
 
 </th></tr></thead><tbody><tr><td>
 
-[Smart Assessment Response Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/ai-generated-responses-for-smart-assessment.md)
+[Smart Assessment Response Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/ai-generated-responses-for-smart-assessment.md)
 
 </td><td>
 

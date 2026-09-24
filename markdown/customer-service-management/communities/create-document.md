@@ -3,11 +3,11 @@ title: Post a document in the community
 description: If you have the proper permissions in a forum, you can share a document with colleagues, experts, or other community users. You can associate the document with as many topics as needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/create-document.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Post and respond to content in the community, Using communities, Communities, Customer Service Management]
 ---
@@ -19,6 +19,10 @@ If you have the proper permissions in a forum, you can share a document with col
 ## Before you begin
 
 Role required: sn\_communities.community\_user
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Procedure
 
@@ -84,10 +88,10 @@ Enter a useful description for the document.
     -   You can download the attachments only when the scan is successful.
     -   The user who posted the document and community administrators receive a notification that an attachment is infected.
 
-**Parent Topic:**[Post and respond to content in the community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/post-respond-content.md)
+**Parent Topic:**[Post and respond to content in the community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/post-respond-content.md)
 
 **Related topics**  
 
 
-[Disable comments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/disable-comments.md)
+[Disable comments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/disable-comments.md)
 

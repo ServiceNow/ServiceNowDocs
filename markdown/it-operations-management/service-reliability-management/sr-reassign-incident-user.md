@@ -3,11 +3,11 @@ title: Reassign an SRM incident
 description: Reassign an incident to a responder when the incident tasks should be addressed by a particular team member.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-reassign-incident-user.html
-release: australia
+release: brazil
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with incidents in SRM, Working with SRM reliability tasks, Using Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
@@ -36,7 +36,7 @@ Role required: srm\_manager, srm\_responder, or srm\_admin
 
 4.  You have two options.
 
-<table id="choicetable_llb_1fq_vyb"><tbody><tr><td id="d407175e110">
+<table id="choicetable_llb_1fq_vyb"><tbody><tr><td id="d409223e110">
 
 **Option**
 
@@ -44,7 +44,7 @@ Role required: srm\_manager, srm\_responder, or srm\_admin
 
 Description
 
-</td></tr><tr><td id="d407175e119">
+</td></tr><tr><td id="d409223e119">
 
 **In the incident list view**
 
@@ -52,7 +52,7 @@ Description
 
 Double-click the **Assigned to** field for the incident and replace the team member from the list menu.
 
-</td></tr><tr><td id="d407175e131">
+</td></tr><tr><td id="d409223e131">
 
 **In the __Details__ tab of incident form**
 
@@ -64,5 +64,5 @@ Delete the name in the **Assigned to** field and reassign. Select **Save**.
 </table>    The incident is now assigned to the new responder and an email notification sent. The assignee is displayed in the list view and on the form.
 
 
-**Parent Topic:**[Working with incidents in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-work-incidents.md)
+**Parent Topic:**[Working with incidents in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-reliability-management/sr-work-incidents.md)
 

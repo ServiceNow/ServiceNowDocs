@@ -1,20 +1,20 @@
 ---
 title: Configure normalization in assessment
-description: In Smart Assessment Engine, set up normalization to adjust assessment response scores to a common scale at the assessment, section, or subsection level.
+description: Set up normalization for your assessment responses to adjust individual scores to a common scale at the assessment, section, or subsection level.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/configure-normalization-in-assessment.html
-release: australia
+release: brazil
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Normalization in assessment, Scoring assessments, Use template designer, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
 
 # Configure normalization in assessment
 
-In Smart Assessment Engine, set up normalization to adjust assessment response scores to a common scale at the assessment, section, or subsection level.
+Set up normalization for your assessment responses to adjust individual scores to a common scale at the assessment, section, or subsection level.
 
 ## Before you begin
 
@@ -23,7 +23,7 @@ In Smart Assessment Engine, set up normalization to adjust assessment response s
 
 ## About this task
 
--   To configure normalization, first set up scoring. For more information, see [Configure scoring for an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/configure-scoring-for-assessments.md).
+-   To configure normalization, first set up scoring. For more information, refer to [Configure scoring for an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/configure-scoring-for-assessments.md).
 -   Normalization is supported for questions with number, drop-down, radio button, and check box types.
 
 ## Procedure
@@ -41,11 +41,11 @@ In Smart Assessment Engine, set up normalization to adjust assessment response s
 
 4.  Select the **Enable normalization for this template** option.
 
-    -   To enable normalization on a template, normalization and its defaults must be enabled in the purpose assigned to that template. For more information, see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
+    -   To enable normalization on a template, normalization and its defaults must be enabled in the purpose assigned to that template. For more information, refer to [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
     -   The **Enable normalization for this template** option enables you to apply normalization rules at the section, subsection, and question levels.
 5.  To define default normalization values to be applied at section, subsection, and question levels automatically, select **Define default normalization to apply at different levels automatically** option and on the form, fill in the fields.
 
-    **Note:** The following input fields are specific to the default Linear normalization strategy. The fields may differ when using alternative normalization strategies.
+    **Note:** The input fields shown below are specific to the default Linear normalization strategy. The fields may differ when using alternative normalization strategies.
 
     |Field|Description|
     |-----|-----------|
@@ -62,7 +62,7 @@ In Smart Assessment Engine, set up normalization to adjust assessment response s
     |All subsections|Default normalization values are applied for all subsection level scores.|
     |All questions|Default normalization values are applied for all question level scores.|
 
-6.  If the **Assessment score** option is selected, to use aggregate score at the assessment level, select **Use normalized score for aggregation**.
+6.  If the **Assessment score** option is selected, to use aggregate score at the assessment level, you can select **Use normalized score for aggregation**.
 
     1.  To edit the normalization values for the assessment score, select edit \[Omitted image "edit-normalization.png"\] Alt text: icon and update normalization values.
 
@@ -72,7 +72,7 @@ In Smart Assessment Engine, set up normalization to adjust assessment response s
 
 8.  Select the **Questions** tab.
 
-9.  To customize normalization values, select the specific section, subsection, or question you want to update.
+9.  To customize normalization values, select the specific section, subsection, or question you wish to update.
 
     1.  To edit the normalization values for the assessment score, select edit \[Omitted image "edit-normalization.png"\] Alt text: icon and update normalization values.
 

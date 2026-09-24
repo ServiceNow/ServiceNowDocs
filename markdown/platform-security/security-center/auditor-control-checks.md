@@ -3,11 +3,11 @@ title: Access Controls Auditor checks
 description: Learn about the checks available in the default Access Controls Auditor Suites, what criteria they evaluate, and how they can be used to improve the security of your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/auditor-control-checks.html
-release: australia
+release: brazil
 product: Security Center
 classification: security-center
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Scan suites, Security scanner, Security configuration console, Security Center, Platform Security]
 ---
@@ -29,5 +29,5 @@ Access Control List rules \(ACLs\) restrict access to data by requiring users to
 |User Account shouldn’t have both Internal and External roles|Checks for user records with both **Internal** and **External** roles assigned|Internal user roles are intended for users within your company. External user roles are intended for external personnel, such as customers and partners.|
 |Publicly accessible knowledge base and articles|Checks for publicly accessible knowledge bases and knowledge base articles|Publicly accessible knowledge bases and articles are visible to all users in the instance. Increase security by limiting knowledge bases and articles to the specific audience that needs them.|
 
-**Parent Topic:**[Scan suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sec-center-suites.md)
+**Parent Topic:**[Scan suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sec-center-suites.md)
 

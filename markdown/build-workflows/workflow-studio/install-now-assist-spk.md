@@ -3,11 +3,11 @@ title: Install ServiceNow Otto for Creator
 description: Install the ServiceNow Otto for Creator application to use the spoke generation skill.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/install-now-assist-spk.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use ServiceNow Otto to create spokes and build actions, Building spokes using Spoke Generator, Workflow Studio, Build workflows]
 ---
@@ -20,7 +20,7 @@ Install the ServiceNow Otto for Creator application to use the spoke generation 
 
 -   Role required: admin
 -   Review the [ServiceNow Otto for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
--   Upgrade to Xanadu Patch 3 or later. For more information about this release, see [Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/available-versions.md).
+-   Upgrade to Xanadu Patch 3 or later. For more information about this release, see [Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/available-versions.md).
 
 Role required: admin
 

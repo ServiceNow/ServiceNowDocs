@@ -3,11 +3,11 @@ title: Desktop Assistant usage metrics
 description: The usage metrics dashboard helps you track device connection status, user login status, application version, and the number of incidents created in the Desktop Assistant application. These metrics help you monitor activity between the application and your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/dex-desktop-exp-dashboard.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [DEX Desktop Assistant reference, Reference, Digital End-User Experience, IT Service Management]
 ---
@@ -73,7 +73,7 @@ Displays the current version of Desktop Assistant running on user devices.
 DEX Desktop Assistant\[sn\_dex\_desktop\_exp\]
 
 </td></tr></tbody>
-</table>To return to the usage metrics page or the administration page, where you can access usage metrics, see [View Desktop Assistant usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/view-da-usage-metrics.md) or [DEX Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-workspace-administration-tab.md).
+</table>To return to the usage metrics page or the administration page, where you can access usage metrics, see [View Desktop Assistant usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/view-da-usage-metrics.md) or [DEX Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/dex-workspace-administration-tab.md).
 
-**Parent Topic:**[DEX Desktop Assistant reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-desktop-experience-reference.md)
+**Parent Topic:**[DEX Desktop Assistant reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/dex-desktop-experience-reference.md)
 

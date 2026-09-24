@@ -1,28 +1,28 @@
 ---
-title: Define restricted downloadable MIME types \[Updated in Security Center 1.3, 1.5, and 2.0\]
+title: Define restricted downloadable MIME types
 description: Use the glide.ui.attachment.force\_download\_all\_mime\_types property to download MIME types and not to render inline in the browser.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-downloadable-mime-types.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
 
-# Define restricted downloadable MIME types \[Updated in Security Center 1.3, 1.5, and 2.0\]
+# Define restricted downloadable MIME types
 
 Use the **glide.ui.attachment.force\_download\_all\_mime\_types** property to download MIME types and not to render inline in the browser.
 
-If **glide.ui.attachment.download\_mime\_types** does include dangerous MIME types such as text/html, image/svg ,image/svg+xml,application/xml, then dangerous files could be rendered inline in the browser, which could lead to Cross Site Scripting attacks \(XSS\). This property is the list of comma-separated attachment mime types, which won’t render inline in the browser. For example, including text/html forces HTML files to be downloaded to the client as attachments rather than viewed inline in the browser. Maintaining this list properly prevents cross-site scripting attacks.
+If the **glide.ui.attachment.download\_mime\_types** property doesn't include dangerous MIME types such as text/html, image/svg, image/svg+xml, application/xml, and application/xhtml+xml, then those dangerous files could be rendered inline in the browser, which could lead to Cross-Site Scripting \(XSS\) attacks.
 
-If the **glide.ui.attachment.download\_mime\_types** system property doesn't include dangerous MIME types such as "text/html, image/svg,image/svg+xml,application/xml", then dangerous files could be rendered inline in the browser. This can lead to Cross Site Scripting \(XSS\) attacks. This check is only relevant when **glide.ui.attachment.force\_download\_all\_mime\_types** is set to **false**.
+This property is a comma-separated list of attachment MIME types that are downloaded to the client and don't render inline in the browser. For example, including text/html forces HTML files to be downloaded to the client as attachments rather than viewed inline in the browser. Maintaining this list properly by including all dangerous MIME types prevents Cross-Site Scripting attacks.
 
-This property is a list of comma-separated attachment MIME types, which don’t render inline in the browser. For example, including `text/html` forces HTML files to be downloaded to the client as attachments rather than viewed inline in the browser.
+**Note:** This property's protection is only relevant when the **glide.ui.attachment.force\_download\_all\_mime\_types** property is set to **false**.
 
-If **glide.ui.attachment.force\_download\_all\_mime\_types** is set to **false**, verify that the **glide.ui.attachment.download\_mime\_types** system property includes the dangerous MIME types `text/html,image/svg,image/svg+xml,application/xml`.
+If the **glide.ui.attachment.force\_download\_all\_mime\_types** is set to **false**, verify that the **glide.ui.attachment.download\_mime\_types** system property includes the dangerous MIME types `text/html,image/svg,image/svg+xml,application/xml`.
 
 ## More information
 
@@ -64,7 +64,7 @@ Recommended value
 
 </td><td>
 
-text/html,image/svg,image/svg+xml,application/xml
+text/html,image/svg,image/svg+xml,application/xml,application/xhtml+xml
 
 </td></tr><tr><td>
 
@@ -72,7 +72,7 @@ Default value
 
 </td><td>
 
-text/html,image/svg,image/svg+xml,application/xml
+text/html,image/svg,image/svg+xml,application/xml,application/xhtml+xml
 
 </td></tr><tr><td>
 
@@ -80,7 +80,7 @@ Fallback value
 
 </td><td>
 
-text/html,image/svg,image/svg+xml,application/xml
+''
 
 </td></tr><tr><td>
 
@@ -88,7 +88,7 @@ Category
 
 </td><td>
 
-[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
+[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 
 </td></tr><tr><td>
 
@@ -106,8 +106,8 @@ Dependencies and prerequisites
 
 </td><td>
 
-This check is only relevant when **glide.ui.attachment.download\_mime\_types** is set to **false** or doesn’t exist in the System Properties \[sys\_properties\] table.
+This check is only relevant when the **glide.ui.attachment.force\_download\_all\_mime\_types** is set to **false** or doesn't exist in the System Properties \[sys\_properties\] table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
+</table>**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

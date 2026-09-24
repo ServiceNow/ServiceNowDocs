@@ -3,11 +3,11 @@ title: Add ACME-compatible certificate authorities
 description: Add a certificate authority \(CA\) that supports the ACME protocol to enable automated certificate request, renewal, and revocation flows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/add-acme-compatible-certificate-authorities.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-08-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Automated certificate management with ACME, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -45,6 +45,6 @@ Certificate Inventory and Management supports the following ACME CAs: DigiCert, 
 
 ## What to do next
 
--   Create a certificate management credential for the new CA, see [Create credentials for ACME certificate authority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-credential-for-acme-ca.md).
--   Set up a routing policy for the new CA, see [Set up routing policies for ACME](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/set-up-routing-policy-for-acme.md).
+-   Create a certificate management credential for the new CA, see [Create credentials for ACME certificate authority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/create-credential-for-acme-ca.md).
+-   Set up a routing policy for the new CA, see [Set up routing policies for ACME](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/set-up-routing-policy-for-acme.md).
 

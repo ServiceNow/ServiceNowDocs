@@ -3,9 +3,9 @@ title: Create a consumer record from an anonymous chat
 description: If an anonymous chat results in the need to create a consumer record, create the record directly from the conversation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-consumer-rec-from-anon-chat.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage cases, Use, Customer Service Management]
 ---

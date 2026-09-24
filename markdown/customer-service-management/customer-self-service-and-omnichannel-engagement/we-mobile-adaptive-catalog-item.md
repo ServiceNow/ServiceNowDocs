@@ -3,13 +3,13 @@ title: Catalog item component on mobile device
 description: Order catalog items and services from your mobile devices with forms optimized for smaller screens and touch interaction.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/we-mobile-adaptive-catalog-item.html
-release: australia
+release: brazil
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Mobile-responsive Web Embeddables, Web Embeddables, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Mobile-responsive Web Embeddables, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Catalog item component on mobile device

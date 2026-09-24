@@ -3,11 +3,11 @@ title: Enterprise Asset Workspace
 description: Use the Enterprise Asset Workspace to get a comprehensive view of all your assets and manage them efficiently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/using-eam-workspace.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Enterprise Asset Management, Asset Management]
 ---
@@ -20,7 +20,7 @@ Use the Enterprise Asset Workspace to get a comprehensive view of all your asset
 
 The Enterprise Asset Workspace is a unified medium with multiple views. The views give you visibility into all your assets, models, stockroom and stockroom types. You can also create multiple workflows such as transfer orders, disposal orders, and also provides access to analytics via dashboards.
 
-**Note:** Include the **Enterprise Asset Classes** and **Enterprise Model Classes** properties from the Asset Properties table in update sets whenever you move any changes from one environment to another. For details on update sets, see [Update Sets transfer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/update-set-transfers.md).
+**Note:** Include the **Enterprise Asset Classes** and **Enterprise Model Classes** properties from the Asset Properties table in update sets whenever you move any changes from one environment to another. For details on update sets, see [Update Sets transfer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/update-set-transfers.md).
 
 You can navigate to the Enterprise Asset Workspace in the following two ways:
 
@@ -29,13 +29,13 @@ You can navigate to the Enterprise Asset Workspace in the following two ways:
 
 The Enterprise Asset Workspace contains the following views:
 
--   [Enterprise asset overview for Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/enterprise-asset-overview.md)
--   [Asset analytics overview for Enterprise Asset workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/eam-asset-dboard.md)
--   [Inventory overview for Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/inventory-overview-eam.md)
--   [Enterprise asset estate overview for Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/asset-estate-overview-eam.md)
--   [Enterprise model management overview for Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/model-management-overview-eam.md)
--   [Normalization overview for Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/norm-overview-eam.md)
--   [Contract and lease management overview for Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/lease-management-overview-eam.md)
+-   [Enterprise asset overview for Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/enterprise-asset-overview.md)
+-   [Asset analytics overview for Enterprise Asset workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/eam-asset-dboard.md)
+-   [Inventory overview for Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/inventory-overview-eam.md)
+-   [Enterprise asset estate overview for Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/asset-estate-overview-eam.md)
+-   [Enterprise model management overview for Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/model-management-overview-eam.md)
+-   [Normalization overview for Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/norm-overview-eam.md)
+-   [Contract and lease management overview for Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/lease-management-overview-eam.md)
 
 ## Inline editing
 

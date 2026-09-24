@@ -1,18 +1,18 @@
 ---
-title: Test and publish your model
+title: \(Legacy\) Test and publish your model
 description: Assess the performance of your NLU model to identify areas for improvement. Then publish your model to make it available to other applications such as Virtual Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/testing-your-model.html
-release: australia
+release: brazil
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Model management, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Test and publish your model
+# \(Legacy\) Test and publish your model
 
 Assess the performance of your NLU model to identify areas for improvement. Then publish your model to make it available to other applications such as Virtual Agent.
 
@@ -20,7 +20,7 @@ Assess the performance of your NLU model to identify areas for improvement. Then
 
 Test your Virtual Agent or AI Search model against its default test set to see how the model responds. Test results provide information you can use to improve your model.
 
-**Note:** Testing your model requires the Multi-model Batch Testing feature, available with the NLU Workbench - Advanced Features application from ServiceNow® Store. For more information, see [Install NLU Workbench - Advanced Features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/install-nlu-workbench-adv-features.md).
+**Note:** Testing your model requires the Multi-model Batch Testing feature, available with the NLU Workbench - Advanced Features application from ServiceNow® Store. For more information, see [\(Legacy\) Install NLU Workbench - Advanced Features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/install-nlu-workbench-adv-features.md).
 
 To test your model, navigate to **NLU Workbench** &gt; **Models**. Select the tab for your model's application, then select the name of the model. In the **Test and publish your model** card, select **View phase.** \[Omitted image "testing-your-model001.png"\] Alt text: Test and publish your model phase card
 
@@ -89,9 +89,9 @@ Incorrect
 The percentage of utterances for which your model predicted an intent that was not correct.
 
 </td></tr></tbody>
-</table>Testing can affect the model's confidence threshold. The confidence threshold determines how confident a model must be to predict an intent for an utterance. For more information on confidence thresholds, see [NLU model settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-model-settings.md).
+</table>Testing can affect the model's confidence threshold. The confidence threshold determines how confident a model must be to predict an intent for an utterance. For more information on confidence thresholds, see [\(Legacy\) NLU model settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/nlu-model-settings.md).
 
-For information about utterances which should not have any intent predicted, see [Irrelevance detection in NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/irrelevance-detection-nlu.md).
+For information about utterances which should not have any intent predicted, see [\(Legacy\) Irrelevance detection in NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/irrelevance-detection-nlu.md).
 
 ## Publish model
 
@@ -99,18 +99,18 @@ The **Publish model** button makes the current version of the model available to
 
 **Note:** If the model has not been trained, the **Publish model** button is unavailable. Return to the **Build and train your model** phase to train the model before publishing.
 
-For more information on publishing your model, see [Publish your NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/publish-nlu-model.md).
+For more information on publishing your model, see [\(Legacy\) Publish your NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/publish-nlu-model.md).
 
 ## Multi-model Batch Testing
 
 In the **Test and publish your model** phase, you test your model against its default test set. With Multi-model Batch Testing, you can test against other test sets, test multiple models at once, and see your test results. To use Multi-model Batch Testing, navigate to **NLU Workbench** &gt; **NLU Advanced Features** &gt; **Multi-model Batch Testing**.
 
-For more information, see [Multi-model Batch Testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/batch-testing-nlu.md).
+For more information, see [\(Legacy\) Multi-model Batch Testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/batch-testing-nlu.md).
 
 For more information about test sets, see:
 
--   [Create a test set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/import-batch-test-set.md)
--   [Test set creation and management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-test-set-creation-management.md)
+-   [\(Legacy\) Create a test set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/import-batch-test-set.md)
+-   [\(Legacy\) Test set creation and management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/nlu-test-set-creation-management.md)
 
-For information about the process of testing, see [Test your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/test-your-model.md).
+For information about the process of testing, see [\(Legacy\) Test your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/test-your-model.md).
 

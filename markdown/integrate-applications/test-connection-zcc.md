@@ -3,9 +3,9 @@ title: Test an established connection
 description: Test the connection to an external data source from an established connection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/test-connection-zcc.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
@@ -33,5 +33,5 @@ Role required: df\_connection\_admin
 
 The test connection succeeds or fails. If the connection fails, consult your database administrator to verify the connection attributes and authentication details. Make any necessary changes, and then try again.
 
-**Parent Topic:**[Managing zero copy connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-connections-zcc.md)
+**Parent Topic:**[Managing zero copy connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/managing-connections-zcc.md)
 

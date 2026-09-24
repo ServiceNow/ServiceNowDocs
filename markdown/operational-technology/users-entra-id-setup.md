@@ -3,9 +3,9 @@ title: Set up a Microsoft Entra ID
 description: This section describes how a Discovery Console for OT user can set up an Microsoft Entra ID integration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/users-entra-id-setup.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Users page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -97,5 +97,5 @@ Once configured, user can log in by doing:
 -   Incorrect Tenant ID or Client ID results in authentication failures.
 -   Admin consent may be required when configuring permissions in Entra.
 
-**Parent Topic:**[Users page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/users-page.md)
+**Parent Topic:**[Users page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/users-page.md)
 

@@ -3,11 +3,11 @@ title: Azure DevOps permissions
 description: Azure DevOps discovery and provision permissions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/ado-permissions.html
-release: australia
+release: brazil
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -65,5 +65,5 @@ Discover AWS resources provisioned through Azure DevOps pipeline.
 Not applicable
 
 </td></tr></tbody>
-</table>**Parent Topic:**[CSC references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/csc-reference.md)
+</table>**Parent Topic:**[CSC references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-services-catalog/csc-reference.md)
 

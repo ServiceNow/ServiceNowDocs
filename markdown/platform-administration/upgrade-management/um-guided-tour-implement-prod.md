@@ -3,11 +3,11 @@ title: Access guided upgrade on a production instance
 description: Follow the guided upgrade steps to experience the seamless upgrade on your production instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-guided-tour-implement-prod.html
-release: australia
+release: brazil
 product: Upgrade Management
 classification: upgrade-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
@@ -24,15 +24,15 @@ Role required: upgrade\_admin
 
 1.  Access Upgrade Console in one of the following ways.
 
-<table id="choicetable_psc_rtj_qfc"><thead><tr><th align="left" id="d182946e57">
+<table id="choicetable_psc_rtj_qfc"><thead><tr><th align="left" id="d182039e57">
 
 Option
 
-</th><th align="left" id="d182946e60">
+</th><th align="left" id="d182039e60">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d182946e66">
+</th></tr></thead><tbody><tr><td id="d182039e66">
 
 **Using the application navigator**
 
@@ -40,7 +40,7 @@ Navigation
 
 Navigate to **All** &gt; **Admin Center** &gt; **Upgrade Console**.
 
-</td></tr><tr><td id="d182946e87">
+</td></tr><tr><td id="d182039e87">
 
 **Using Admin tab option**
 
@@ -48,7 +48,7 @@ Navigate to **All** &gt; **Admin Center** &gt; **Upgrade Console**.
 
 Navigate to **Admin** &gt; **Upgrade Console**.
 
-</td></tr><tr><td id="d182946e105">
+</td></tr><tr><td id="d182039e105">
 
 **Using Admin tab and Admin Home option**
 
@@ -65,15 +65,15 @@ Navigate to **Admin** &gt; **Upgrade Console**.
 
 2.  Access the guided upgrade in one of the following ways.
 
-<table id="choicetable_rsc_rtj_qfc"><thead><tr><th align="left" id="d182946e156">
+<table id="choicetable_rsc_rtj_qfc"><thead><tr><th align="left" id="d182039e156">
 
 Option
 
-</th><th align="left" id="d182946e159">
+</th><th align="left" id="d182039e159">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d182946e165">
+</th></tr></thead><tbody><tr><td id="d182039e165">
 
 **Using Get started button__Note:__ This option is available only when you haven't started the upgrade yet.
 
@@ -85,7 +85,7 @@ Steps
 2.  Select the Guided upgrade version that you want to implement on your instance.
 
 
-</td></tr><tr><td id="d182946e188">
+</td></tr><tr><td id="d182039e188">
 
 **Using Guided upgrade tab option__Note:__ This tab is visible only if there’s an ongoing upgrade in the instance.
 
@@ -101,14 +101,14 @@ Steps
 </table>3.  Complete the Select upgrade, Pre-upgrade, Instance upgrade, and Post-upgrade tasks to complete the upgrade process on your production instance.
 
 
--   **[Implement pre-upgrade activities on a prod instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-pre-upgrade-prod.md)**  
+-   **[Implement pre-upgrade activities on a prod instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-management/um-pre-upgrade-prod.md)**  
 Complete the pre-upgrade tasks for a successful upgrade experience on your production instance.
--   **[Implement instance upgrade activities on a prod instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-implement-instance-upgrade-prod.md)**  
+-   **[Implement instance upgrade activities on a prod instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-management/um-implement-instance-upgrade-prod.md)**  
 Implement the instance upgrade tasks for a successful upgrade on your prod instance.
--   **[Implement post-upgrade activities on a prod instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-post-upgrade-prod.md)**  
+-   **[Implement post-upgrade activities on a prod instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-management/um-post-upgrade-prod.md)**  
 Implement the post-upgrade tasks for a successful upgrade completion on your production instance.
 
-**Parent Topic:**[Configuring Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-configure.md)
+**Parent Topic:**[Configuring Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-management/um-configure.md)
 
 **Related topics**  
 

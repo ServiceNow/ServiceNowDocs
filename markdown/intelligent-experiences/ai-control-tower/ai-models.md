@@ -1,20 +1,20 @@
 ---
 title: AI models
-description: Explore the AI models in detail with examples.
+description: Explore AI models in detail with examples.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-models.html
-release: australia
+release: brazil
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Definitions of AI asset inventory, Explore, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [Definitions of AI asset inventory, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # AI models
 
-Explore the AI models in detail with examples.
+Explore AI models in detail with examples.
 
 An AI model acts as the "brain" of an AI system. It learns from previous data and applies that knowledge to make predictions, respond to questions, or identify patterns. Models are developed using various training techniques, such as:
 

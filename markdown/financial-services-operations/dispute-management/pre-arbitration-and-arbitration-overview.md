@@ -3,11 +3,11 @@ title: Pre-arbitration and arbitration
 description: The Dispute management workflow integration with Visa supports pre-arbitration and arbitration workflows. These workflows help resolve disputes between issuers and acquirers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/pre-arbitration-and-arbitration-overview.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [visa dispute pre-arbitration]
 breadcrumb: [Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
@@ -62,10 +62,10 @@ Allocation
 Acquirer
 
 </td></tr></tbody>
-</table>-   **[Allocation workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/allocation-workflow.md)**  
+</table>-   **[Allocation workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/allocation-workflow.md)**  
  The allocation workflow lets the acquirer initiate pre-arbitration and arbitration for fraud and authorization disputes.
--   **[Collaboration workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/collaboration-workflow.md)**  
+-   **[Collaboration workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/collaboration-workflow.md)**  
 The collaboration workflow involves the issuer initiating pre-arbitration and arbitration for processing errors and consumer disputes.
 
-**Parent Topic:**[Managing disputes integrated with Visa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/work-on-a-dispute-case-integrated-with-visa.md)
+**Parent Topic:**[Managing disputes integrated with Visa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/work-on-a-dispute-case-integrated-with-visa.md)
 

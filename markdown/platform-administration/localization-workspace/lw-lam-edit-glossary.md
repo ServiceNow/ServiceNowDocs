@@ -1,29 +1,32 @@
 ---
 title: Edit a glossary in Language Asset Management
-description: Edit the contents of your glossary in Language Asset Management. Modify existing terms and translations or add more terms.
+description: Edit the contents of your glossary in Language Asset Management. Modify existing terms and translations or add more.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-workspace/lw-lam-edit-glossary.html
-release: australia
+release: brazil
 product: Localization Workspace
 classification: localization-workspace
 topic_type: task
-last_updated: "2026-07-31"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Language Asset Management, Configuring Localization Workspace, Localization Workspace, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Edit a glossary in Language Asset Management
 
-Edit the contents of your glossary in Language Asset Management. Modify existing terms and translations or add more terms.
+Edit the contents of your glossary in Language Asset Management. Modify existing terms and translations or add more.
 
 ## Before you begin
 
--   First, create a glossary using the provided spreadsheet template and upload it to Language Asset Management. For information see [Upload glossaries to Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-lam-upload-glossaries.md).
+-   First, create a glossary. You can use the upload method with the spreadsheet template provided in Language Asset Management. See [Upload glossaries to Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-workspace/lw-lam-upload-glossaries.md). Alternatively, you can [Create a glossary using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-workspace/lw-create-glossary-using-ai.md) \(from version 4.0\).
 -   Role required: sn\_lw.user. From version 3.1.0, both the sn\_lw.user and the sn\_lw.terminology\_manager roles are required.
 
 ## About this task
 
-Initially you create a glossary in Language Asset Management by uploading a spreadsheet template. If you want to modify any source terms or their translations, or you want to add more items, use the following procedure to make your updates directly in the UI.
+Initially you create a glossary in Language Asset Management by uploading a spreadsheet template or by generating with AI. After glossary creation, you can make the following modifications directly in the UI, using the procedure on this page:
+
+-   Add or edit source terms, including details \(example: Part of Speech category\).
+-   Add or edit translations of source terms.
 
 **Note:** The same source term may be repeated in a glossary if assigned to different Part of Speech or Product/Service categories. A source term repeated in two different categories is considered to be two different records. Any changes you make to a source term in one category aren't propagated to the same source term in other categories.
 
@@ -127,7 +130,7 @@ Glossary Info
 
 This read-only field confirms the name of the current glossary. **Note:** The same source term can be listed in more than one glossary. A source term repeated in two different glossaries is considered to be two different records, with different translations possible.
 
- To create a separate glossary, see [Upload glossaries to Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-lam-upload-glossaries.md).
+ To create a separate glossary, see [Upload glossaries to Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-workspace/lw-lam-upload-glossaries.md) or [Create a glossary using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-workspace/lw-create-glossary-using-ai.md).
 
 </td></tr></tbody>
 </table>
@@ -137,5 +140,7 @@ You can delete a source term and its translations by selecting Delete from More 
 
 You can also delete a translation from a source term using Delete from More Options\[Omitted image "Form\_MoreOptions.png"\] on the translation's Details tab.
 
-**Parent Topic:**[Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-language-asset-management.md)
+You can export your glossaries. For information, see [Export a glossary from Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-workspace/lw-lam-export-glossary.md).
+
+**Parent Topic:**[Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-workspace/lw-language-asset-management.md)
 

@@ -3,18 +3,20 @@ title: Get entitlement for AES apps
 description: Install App Engine Studio \(AES\) by verifying that the application or the product and its associated applications have valid ServiceNow entitlements. An entitlement means you have a license to install the product.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/entitle-aes-product.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2026-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [AES and the ServiceNow Store, Installing, Configure, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [AES and the ServiceNow Store, Installing, Configure, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Get entitlement for AES apps
 
 Install App Engine Studio \(AES\) by verifying that the application or the product and its associated applications have valid ServiceNow entitlements. An entitlement means you have a license to install the product.
+
+This video shows you how to perform the following procedure.
 
 ## Before you begin
 
@@ -30,15 +32,17 @@ Role required: admin
 
 2.  Select **Sign In** and log in using your Now Support credentials.
 
-3.  Select the **ServiceNow Products** tab to view all available ServiceNow products.
+    Integrations and other types of content appear on the **Certified Apps** tab.
 
-    \[Omitted image "servicenow-store-products-a.png"\] Alt text: ServiceNow Store page showing the Explore navigation menu and App Engine Studio product listing.
+3.  Select the **ServiceNow Products** tab to view all available ServiceNow products.
 
 4.  Select **App Engine Studio**.
 
-    The page lists all the applications that are associated with the AES product you're entitling.
+    **Note:** When you have obtained entitlement to the core product, the applications listed under it are also entitled.
 
-    \[Omitted image "aes-apps-in-this-product.png"\] Alt text: App Engine Studio store listing, including some of the specific applications included in the App Engine Studio product.
+    \[Omitted image "store-opt-in-1.jpg"\] Alt text: ServiceNow Store App Engine Studio button
+
+    The page lists all the applications that are associated with the AES product you're entitling.
 
 5.  Verify that you have entitlement to the product and applications by selecting **Opt-in**.
 
@@ -48,7 +52,9 @@ Role required: admin
 
     Opting in to entitlement is a one-time process for each product.
 
-    A check mark appears next to the product name, and the **Manage Entitlement** button appears. The button indicates that you're subscribed to the product and its associated applications.
+    \[Omitted image "terms-conditions.png"\] Alt text: Terms and Conditions
+
+    A check mark appears next to the product name, and the **Manage Entitlement** button appears. The button indicates that you are subscribed to the product and its associated applications.
 
 7.  Change the instances affected by the entitled applications by selecting the **Manage Entitlement** button and then specifying one of the following options:
 
@@ -60,5 +66,5 @@ Role required: admin
 
 Install and activate AES. Navigate to **All** &gt; **My Company Applications** and select App Engine Studio.
 
-**Parent Topic:**[AES and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-installation-store.md)
+**Parent Topic:**[AES and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-installation-store.md)
 

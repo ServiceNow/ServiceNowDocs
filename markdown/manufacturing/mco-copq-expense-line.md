@@ -3,11 +3,11 @@ title: Create a CoPQ expense line
 description: Create CoPQ \(Cost of Poor Quality\) expense line enables you to capture the actual costs incurred due to poor quality. These costs include rework, scrap, warranty claims, or customer returns.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-copq-expense-line.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a correction action, Product non-conformance without playbook, MCO workspace, Use, Manufacturing Commercial Operations]
+breadcrumb: [Product non-conformance, Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a CoPQ expense line
@@ -20,14 +20,16 @@ Role required: Quality Issue Management Admin or product non-conformance submitt
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **List** &gt; **Product Non Conformance Case** &gt; **Correction Actions** &gt; **CoPQ Expense Line**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **List** &gt; **Product Non Conformance Case** &gt; **Correction Actions** &gt; **CoPQ Expense Line**.
 
 2.  Select **New**.
 
 3.  On the CoPQ Expense Line form, fill in the fields.
 
-    For a description of the field values, see [CoPQ expense line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-copq-expense-line-form.md).
+    For a description of the field values, see [CoPQ expense line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-copq-expense-line-form.md).
 
 4.  Select **Save**.
 
+
+**Parent Topic:**[Product non-conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-related-lists-product-non-conformance.md)
 
